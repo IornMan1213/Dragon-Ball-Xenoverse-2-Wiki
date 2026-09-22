@@ -2,460 +2,20 @@
   "schema_version": "1.0",
   "domain": "pq_super_soul",
   "canonical_pq_records": 186,
-  "canonical_target_records": 160,
+  "canonical_target_records": 234,
   "forward_edges": [
-    {
-      "pq_id": "pq-002",
-      "pq_number": 2,
-      "target_id": "super-soul-002",
-      "target_name": "Flying Nimbus!!",
-      "status": "source_backed",
-      "source": "https://dbxv2.fandom.com/wiki/Super_Soul"
-    },
-    {
-      "pq_id": "pq-002",
-      "pq_number": 2,
-      "target_id": "super-soul-002",
-      "target_name": "Flying Nimbus!!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/flying-nimbus.md"
-    },
     {
       "pq_id": "pq-005",
       "pq_number": 5,
       "target_id": "super-soul-004",
       "target_name": "Your death is imminent!",
       "status": "source_backed",
-      "source": "https://dbxv2.fandom.com/wiki/Super_Soul"
-    },
-    {
-      "pq_id": "pq-006",
-      "pq_number": 6,
-      "target_id": "super-soul-009",
-      "target_name": "You cocky little...!",
-      "status": "source_backed",
-      "source": "https://dbxv2.fandom.com/wiki/Super_Soul"
-    },
-    {
-      "pq_id": "pq-007",
-      "pq_number": 7,
-      "target_id": "super-soul-007",
-      "target_name": "Gyau!!!!",
-      "status": "source_backed",
-      "source": "https://dbxv2.fandom.com/wiki/Super_Soul"
-    },
-    {
-      "pq_id": "pq-012",
-      "pq_number": 12,
-      "target_id": "super-soul-011",
-      "target_name": "H-How could he?!",
-      "status": "source_backed",
-      "source": "https://dbxv2.fandom.com/wiki/Super_Soul"
-    },
-    {
-      "pq_id": "pq-022",
-      "pq_number": 22,
-      "target_id": "super-soul-010",
-      "target_name": "I'll kill all of you!!",
-      "status": "source_backed",
-      "source": "https://dbxv2.fandom.com/wiki/Super_Soul"
-    },
-    {
-      "pq_id": "pq-028",
-      "pq_number": 28,
-      "target_id": "super-soul-031",
-      "target_name": "Drop dead!!!",
-      "status": "source_backed",
-      "source": "https://dbxv2.fandom.com/wiki/Super_Soul"
-    },
-    {
-      "pq_id": "pq-058",
-      "pq_number": 58,
-      "target_id": "super-soul-049",
-      "target_name": "Killed all Earthlings!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/killed-all-earthlings.md"
-    },
-    {
-      "pq_id": "pq-093",
-      "pq_number": 93,
-      "target_id": "super-soul-060",
-      "target_name": "I...hate you!!!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-hate-you.md"
-    },
-    {
-      "pq_id": "pq-105",
-      "pq_number": 105,
-      "target_id": "super-soul-071",
-      "target_name": "Buu Don't Wanna!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/buu-dont-wanna.md"
-    },
-    {
-      "pq_id": "pq-107",
-      "pq_number": 107,
-      "target_id": "super-soul-064",
-      "target_name": "You can't win...",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/you-cant-win.md"
-    },
-    {
-      "pq_id": "pq-118",
-      "pq_number": 118,
-      "target_id": "super-soul-068",
-      "target_name": "Now we're even.",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/now-were-even.md"
-    },
-    {
-      "pq_id": "pq-131",
-      "pq_number": 131,
-      "target_id": "super-soul-055",
-      "target_name": "Leave the rest to me!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/leave-the-rest-to-me.md"
-    },
-    {
-      "pq_id": "pq-133",
-      "pq_number": 133,
-      "target_id": "super-soul-067",
-      "target_name": "Here it comes!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/here-it-comes.md"
-    },
-    {
-      "pq_id": "pq-135",
-      "pq_number": 135,
-      "target_id": "super-soul-075",
-      "target_name": "That won't work on me!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/that-wont-work-on-me.md"
-    },
-    {
-      "pq_id": "pq-144",
-      "pq_number": 144,
-      "target_id": "super-soul-080",
-      "target_name": "You've awakened my true power...",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/youve-awakened-my-true-power.md"
-    },
-    {
-      "pq_id": "pq-144",
-      "pq_number": 144,
-      "target_id": "super-soul-085",
-      "target_name": "I won't forgive those who best my comrades!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-wont-forgive-those-who-best-my-comrades.md"
-    },
-    {
-      "pq_id": "pq-146",
-      "pq_number": 146,
-      "target_id": "super-soul-086",
-      "target_name": "There's no way you can hit me!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/theres-no-way-you-can-hit-me.md"
-    },
-    {
-      "pq_id": "pq-147",
-      "pq_number": 147,
-      "target_id": "super-soul-089",
-      "target_name": "It's just me and you now!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/its-just-me-and-you-now.md"
-    },
-    {
-      "pq_id": "pq-148",
-      "pq_number": 148,
-      "target_id": "super-soul-090",
-      "target_name": "My back's getting tingly...!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/my-backs-getting-tingly.md"
-    },
-    {
-      "pq_id": "pq-149",
-      "pq_number": 149,
-      "target_id": "super-soul-088",
-      "target_name": "Our two strengths aren't just added together.",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/our-two-strengths-arent-just-added-together.md"
-    },
-    {
-      "pq_id": "pq-150",
-      "pq_number": 150,
-      "target_id": "super-soul-087",
-      "target_name": "I will prevail, no matter the cost!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-will-prevail-no-matter-the-cost.md"
-    },
-    {
-      "pq_id": "pq-151",
-      "pq_number": 151,
-      "target_id": "super-soul-098",
-      "target_name": "I'll keep adding a bit of power to my attacks!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/ill-keep-adding-a-bit-of-power-to-my-attacks.md"
-    },
-    {
-      "pq_id": "pq-151",
-      "pq_number": 151,
-      "target_id": "super-soul-100",
-      "target_name": "I think I'm getting the hang of this.",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-think-im-getting-the-hang-of-this.md"
-    },
-    {
-      "pq_id": "pq-152",
-      "pq_number": 152,
-      "target_id": "super-soul-101",
-      "target_name": "I will put a stop to you, fiend!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-will-put-a-stop-to-you-fiend.md"
-    },
-    {
-      "pq_id": "pq-153",
-      "pq_number": 153,
-      "target_id": "super-soul-099",
-      "target_name": "You're not much of a fun fight!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/youre-not-much-of-a-fun-fight.md"
-    },
-    {
-      "pq_id": "pq-153",
-      "pq_number": 153,
-      "target_id": "super-soul-102",
-      "target_name": "There's more where that came from!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/theres-more-where-that-came-from.md"
-    },
-    {
-      "pq_id": "pq-156",
-      "pq_number": 156,
-      "target_id": "super-soul-106",
-      "target_name": "This is your true power?",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/this-is-your-true-power.md"
-    },
-    {
-      "pq_id": "pq-156",
-      "pq_number": 156,
-      "target_id": "super-soul-108",
-      "target_name": "Still haven't figured out you're gonna lose?",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/still-havent-figured-out-youre-gonna-lose.md"
-    },
-    {
-      "pq_id": "pq-157",
-      "pq_number": 157,
-      "target_id": "super-soul-105",
-      "target_name": "I'll be the one to fight you!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/ill-be-the-one-to-fight-you.md"
-    },
-    {
-      "pq_id": "pq-157",
-      "pq_number": 157,
-      "target_id": "super-soul-107",
-      "target_name": "You need to be more careful.",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/you-need-to-be-more-careful.md"
-    },
-    {
-      "pq_id": "pq-158",
-      "pq_number": 158,
-      "target_id": "super-soul-109",
-      "target_name": "Heh heh! I'm not as rusty as I look!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/heh-heh-im-not-as-rusty-as-i-look.md"
-    },
-    {
-      "pq_id": "pq-158",
-      "pq_number": 158,
-      "target_id": "super-soul-110",
-      "target_name": "See? It's a good thing I was here, right?",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/see-its-a-good-thing-i-was-here-right.md"
-    },
-    {
-      "pq_id": "pq-159",
-      "pq_number": 159,
-      "target_id": "super-soul-120",
-      "target_name": "Enter the hero!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/enter-the-hero.md"
-    },
-    {
-      "pq_id": "pq-159",
-      "pq_number": 159,
-      "target_id": "super-soul-121",
-      "target_name": "The Red Ribbon Army is back in business!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/the-red-ribbon-army-is-back-in-business.md"
-    },
-    {
-      "pq_id": "pq-160",
-      "pq_number": 160,
-      "target_id": "super-soul-061",
-      "target_name": "Is that all?",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/is-that-all.md"
-    },
-    {
-      "pq_id": "pq-161",
-      "pq_number": 161,
-      "target_id": "super-soul-118",
-      "target_name": "I'm a whole new me.",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/im-a-whole-new-me.md"
-    },
-    {
-      "pq_id": "pq-162",
-      "pq_number": 162,
-      "target_id": "super-soul-119",
-      "target_name": "Shenron really went the extra mile.",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/shenron-really-went-the-extra-mile.md"
-    },
-    {
-      "pq_id": "pq-164",
-      "pq_number": 164,
-      "target_id": "super-soul-132",
-      "target_name": "This place will be your grave!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/this-place-will-be-your-grave.md"
-    },
-    {
-      "pq_id": "pq-166",
-      "pq_number": 166,
-      "target_id": "super-soul-130",
-      "target_name": "Hope you're ready for a trip!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/hope-youre-ready-for-a-trip.md"
-    },
-    {
-      "pq_id": "pq-168",
-      "pq_number": 168,
-      "target_id": "super-soul-131",
-      "target_name": "I'm not about to let Pan see me lose!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/im-not-about-to-let-pan-see-me-lose.md"
-    },
-    {
-      "pq_id": "pq-173",
-      "pq_number": 173,
-      "target_id": "super-soul-134",
-      "target_name": "You will know the power of the gods!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/you-will-know-the-power-of-the-gods.md"
-    },
-    {
-      "pq_id": "pq-174",
-      "pq_number": 174,
-      "target_id": "super-soul-133",
-      "target_name": "I'll surpass you as I am, with my OWN power!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/ill-surpass-you-as-i-am-with-my-own-power.md"
-    },
-    {
-      "pq_id": "pq-175",
-      "pq_number": 175,
-      "target_id": "super-soul-140",
-      "target_name": "It's about time...",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/its-about-time.md"
-    },
-    {
-      "pq_id": "pq-177",
-      "pq_number": 177,
-      "target_id": "super-soul-141",
-      "target_name": "Strength is justice! Strength is absolute!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/strength-is-justice-strength-is-absolute.md"
-    },
-    {
-      "pq_id": "pq-178",
-      "pq_number": 178,
-      "target_id": "super-soul-142",
-      "target_name": "I'll take you all on at once!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/ill-take-you-all-on-at-once.md"
-    },
-    {
-      "pq_id": "pq-179",
-      "pq_number": 179,
-      "target_id": "super-soul-145",
-      "target_name": "Here I go!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/here-i-go.md"
-    },
-    {
-      "pq_id": "pq-180",
-      "pq_number": 180,
-      "target_id": "super-soul-062",
-      "target_name": "Damn it all!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/damn-it-all.md"
-    },
-    {
-      "pq_id": "pq-182",
-      "pq_number": 182,
-      "target_id": "super-soul-150",
-      "target_name": "Rejoice! A new ruler is born!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/rejoice-a-new-ruler-is-born.md"
-    },
-    {
-      "pq_id": "pq-183",
-      "pq_number": 183,
-      "target_id": "super-soul-149",
-      "target_name": "AAAAAAAAAGH!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/aaaaaaaaagh.md"
-    },
-    {
-      "pq_id": "pq-184",
-      "pq_number": 184,
-      "target_id": "super-soul-151",
-      "target_name": "Send me back to the planet I came from!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/send-me-back-to-the-planet-i-came-from.md"
-    },
-    {
-      "pq_id": "pq-185",
-      "pq_number": 185,
-      "target_id": "super-soul-032",
-      "target_name": "This power... It's different from any I've ever had.",
-      "status": "source_backed",
-      "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
-    },
-    {
-      "pq_id": "pq-185",
-      "pq_number": 185,
-      "target_id": "super-soul-033",
-      "target_name": "Malice... Existence... Cruelty...",
-      "status": "source_backed",
-      "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
-    },
-    {
-      "pq_id": "pq-186",
-      "pq_number": 186,
-      "target_id": "super-soul-034",
-      "target_name": "The final battle begins now.",
-      "status": "source_backed",
-      "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
-    },
-    {
-      "pq_id": "pq-186",
-      "pq_number": 186,
-      "target_id": "super-soul-035",
-      "target_name": "I'll use this power to protect everyone!",
-      "status": "source_backed",
-      "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-021",
       "pq_number": 21,
-      "target_id": "super-soul-149",
+      "target_id": "super-soul-154",
       "target_name": "I'm neither Kami nor Piccolo...",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -463,7 +23,7 @@
     {
       "pq_id": "pq-040",
       "pq_number": 40,
-      "target_id": "super-soul-150",
+      "target_id": "super-soul-155",
       "target_name": "Time to dismantle you androids!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -471,7 +31,7 @@
     {
       "pq_id": "pq-042",
       "pq_number": 42,
-      "target_id": "super-soul-151",
+      "target_id": "super-soul-156",
       "target_name": "Set your rage free...",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -479,7 +39,7 @@
     {
       "pq_id": "pq-044",
       "pq_number": 44,
-      "target_id": "super-soul-152",
+      "target_id": "super-soul-157",
       "target_name": "Getting beat up makes me cranky...",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -487,7 +47,7 @@
     {
       "pq_id": "pq-049",
       "pq_number": 49,
-      "target_id": "super-soul-153",
+      "target_id": "super-soul-158",
       "target_name": "Do or Die",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -495,7 +55,7 @@
     {
       "pq_id": "pq-063",
       "pq_number": 63,
-      "target_id": "super-soul-154",
+      "target_id": "super-soul-159",
       "target_name": "Before creation comes ruin...",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -503,7 +63,7 @@
     {
       "pq_id": "pq-064",
       "pq_number": 64,
-      "target_id": "super-soul-155",
+      "target_id": "super-soul-160",
       "target_name": "Janemba! Janemba!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -511,7 +71,7 @@
     {
       "pq_id": "pq-065",
       "pq_number": 65,
-      "target_id": "super-soul-156",
+      "target_id": "super-soul-161",
       "target_name": "I never knew this world existed!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -519,7 +79,7 @@
     {
       "pq_id": "pq-092",
       "pq_number": 92,
-      "target_id": "super-soul-157",
+      "target_id": "super-soul-162",
       "target_name": "Everyone, lend me your energy!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -527,15 +87,23 @@
     {
       "pq_id": "pq-093",
       "pq_number": 93,
-      "target_id": "super-soul-158",
+      "target_id": "super-soul-163",
       "target_name": "Finally, some excitement.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-093",
+      "pq_number": 93,
+      "target_id": "super-soul-060",
+      "target_name": "I...hate you!!!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-094",
       "pq_number": 94,
-      "target_id": "super-soul-159",
+      "target_id": "super-soul-164",
       "target_name": "Strengthen me, Shadow Dragons!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -543,23 +111,1021 @@
     {
       "pq_id": "pq-097",
       "pq_number": 97,
-      "target_id": "super-soul-160",
+      "target_id": "super-soul-165",
       "target_name": "Someone, satisfy me...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-097",
+      "pq_number": 97,
+      "target_id": "super-soul-166",
+      "target_name": "Revival of the Demon Realm is at hand",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-102",
+      "pq_number": 102,
+      "target_id": "super-soul-167",
+      "target_name": "I'll make you regret that!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-102",
+      "pq_number": 102,
+      "target_id": "super-soul-168",
+      "target_name": "Don't quit! Get up!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-103",
+      "pq_number": 103,
+      "target_id": "super-soul-169",
+      "target_name": "This is not a weapon.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-103",
+      "pq_number": 103,
+      "target_id": "super-soul-170",
+      "target_name": "I've been saving this! Kaioken!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-103",
+      "pq_number": 103,
+      "target_id": "super-soul-171",
+      "target_name": "Now you understand. Surrender.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-104",
+      "pq_number": 104,
+      "target_id": "super-soul-172",
+      "target_name": "How Dare You...! That's My Bulma",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-105",
+      "pq_number": 105,
+      "target_id": "super-soul-173",
+      "target_name": "Me...Protecting Some Pipsqueak",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-105",
+      "pq_number": 105,
+      "target_id": "super-soul-071",
+      "target_name": "Buu Don't Wanna!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-106",
+      "pq_number": 106,
+      "target_id": "super-soul-174",
+      "target_name": "You're Just Pieces in a Game",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-106",
+      "pq_number": 106,
+      "target_id": "super-soul-175",
+      "target_name": "Watch Your Tongue",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-106",
+      "pq_number": 106,
+      "target_id": "super-soul-176",
+      "target_name": "Eehee hee hee heee!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-107",
+      "pq_number": 107,
+      "target_id": "super-soul-064",
+      "target_name": "You can't win...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-108",
+      "pq_number": 108,
+      "target_id": "super-soul-177",
+      "target_name": "Now, give your father a message for me.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-108",
+      "pq_number": 108,
+      "target_id": "super-soul-176",
+      "target_name": "Eehee hee hee heee!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-109",
+      "pq_number": 109,
+      "target_id": "super-soul-178",
+      "target_name": "I really do love being immortal.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-109",
+      "pq_number": 109,
+      "target_id": "super-soul-179",
+      "target_name": "I like you better when you're mad!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-110",
+      "pq_number": 110,
+      "target_id": "super-soul-180",
+      "target_name": "This fight is only just beginning!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-110",
+      "pq_number": 110,
+      "target_id": "super-soul-181",
+      "target_name": "I shall show you my great godly might!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-111",
+      "pq_number": 111,
+      "target_id": "super-soul-182",
+      "target_name": "I feel it... Everyone, lend me your power!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-112",
+      "pq_number": 112,
+      "target_id": "super-soul-183",
+      "target_name": "Sorry. You were way open there.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-112",
+      "pq_number": 112,
+      "target_id": "super-soul-184",
+      "target_name": "I ain't losin'! Here's my full power!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-112",
+      "pq_number": 112,
+      "target_id": "super-soul-185",
+      "target_name": "I'm never going to forgive him!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-113",
+      "pq_number": 113,
+      "target_id": "super-soul-186",
+      "target_name": "I'll make good use of you!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-113",
+      "pq_number": 113,
+      "target_id": "super-soul-187",
+      "target_name": "I'm stronger than ever now!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-114",
+      "pq_number": 114,
+      "target_id": "super-soul-188",
+      "target_name": "The real fight starts now!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-115",
+      "pq_number": 115,
+      "target_id": "super-soul-189",
+      "target_name": "Looks like you're done!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-116",
+      "pq_number": 116,
+      "target_id": "super-soul-190",
+      "target_name": "If I don't do it, who will?",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-116",
+      "pq_number": 116,
+      "target_id": "super-soul-191",
+      "target_name": "Earth is in your hands now!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-117",
+      "pq_number": 117,
+      "target_id": "super-soul-192",
+      "target_name": "Get serious, would you?",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-118",
+      "pq_number": 118,
+      "target_id": "super-soul-068",
+      "target_name": "Now we're even.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-118",
+      "pq_number": 118,
+      "target_id": "super-soul-193",
+      "target_name": "I hate what I've become!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-119",
+      "pq_number": 119,
+      "target_id": "super-soul-194",
+      "target_name": "Time to get serious, I guess.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-120",
+      "pq_number": 120,
+      "target_id": "super-soul-195",
+      "target_name": "Hmph! For justice!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-120",
+      "pq_number": 120,
+      "target_id": "super-soul-196",
+      "target_name": "This heat...will be your downfall!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-121",
+      "pq_number": 121,
+      "target_id": "super-soul-197",
+      "target_name": "Right, then... Let's begin the experiment!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-122",
+      "pq_number": 122,
+      "target_id": "super-soul-198",
+      "target_name": "For beauty! For elegance! For love!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-122",
+      "pq_number": 122,
+      "target_id": "super-soul-199",
+      "target_name": "This Super Saiyan 2 is crazy strong!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-124",
+      "pq_number": 124,
+      "target_id": "super-soul-200",
+      "target_name": "Don't think I'm the same as before!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-126",
+      "pq_number": 126,
+      "target_id": "super-soul-201",
+      "target_name": "Alright! Let's go wreck some faces!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-128",
+      "pq_number": 128,
+      "target_id": "super-soul-202",
+      "target_name": "GAAAGH!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-128",
+      "pq_number": 128,
+      "target_id": "super-soul-203",
+      "target_name": "Your father has been killed!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-128",
+      "pq_number": 128,
+      "target_id": "super-soul-204",
+      "target_name": "I've waited an unbelievably long time for this...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-129",
+      "pq_number": 129,
+      "target_id": "super-soul-205",
+      "target_name": "Heh heh! Now THIS is real power!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-129",
+      "pq_number": 129,
+      "target_id": "super-soul-206",
+      "target_name": "Hey, you think you could fight a little quieter?!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-129",
+      "pq_number": 129,
+      "target_id": "super-soul-207",
+      "target_name": "Don't think I'm gonna show you any gratitude!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-130",
+      "pq_number": 130,
+      "target_id": "super-soul-208",
+      "target_name": "Hey, you! You ready for me?!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-130",
+      "pq_number": 130,
+      "target_id": "super-soul-209",
+      "target_name": "Hmph. I'm off to take a nap.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-130",
+      "pq_number": 130,
+      "target_id": "super-soul-210",
+      "target_name": "Th-Thanks...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-131",
+      "pq_number": 131,
+      "target_id": "super-soul-055",
+      "target_name": "Leave the rest to me!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-131",
+      "pq_number": 131,
+      "target_id": "super-soul-211",
+      "target_name": "You'd better survive, you got that?!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-131",
+      "pq_number": 131,
+      "target_id": "super-soul-212",
+      "target_name": "Shall we pick up where we left off?",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-132",
+      "pq_number": 132,
+      "target_id": "super-soul-213",
+      "target_name": "Whoa, it's freezing here!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-132",
+      "pq_number": 132,
+      "target_id": "super-soul-214",
+      "target_name": "This is no time to mess around...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-132",
+      "pq_number": 132,
+      "target_id": "super-soul-215",
+      "target_name": "I can't have you dying on me!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-133",
+      "pq_number": 133,
+      "target_id": "super-soul-067",
+      "target_name": "Here it comes!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-133",
+      "pq_number": 133,
+      "target_id": "super-soul-216",
+      "target_name": "I got my claws in you, and fangs too!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-134",
+      "pq_number": 134,
+      "target_id": "super-soul-217",
+      "target_name": "Power! A lotta power! It's great!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-135",
+      "pq_number": 135,
+      "target_id": "super-soul-075",
+      "target_name": "That won't work on me!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-136",
+      "pq_number": 136,
+      "target_id": "super-soul-218",
+      "target_name": "Pathetic",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-136",
+      "pq_number": 136,
+      "target_id": "super-soul-219",
+      "target_name": "Justice is nothing to me now.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-137",
+      "pq_number": 137,
+      "target_id": "super-soul-220",
+      "target_name": "This is everything I've got!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-137",
+      "pq_number": 137,
+      "target_id": "super-soul-221",
+      "target_name": "That heat... I'll have to match it.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-138",
+      "pq_number": 138,
+      "target_id": "super-soul-222",
+      "target_name": "I'm not gonna die until I defeat you!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-138",
+      "pq_number": 138,
+      "target_id": "super-soul-223",
+      "target_name": "I just flew around the whole world!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-140",
+      "pq_number": 140,
+      "target_id": "super-soul-224",
+      "target_name": "This thing carries hopes of everyone on Earth!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-140",
+      "pq_number": 140,
+      "target_id": "super-soul-225",
+      "target_name": "Now then, time for another delightful hunt!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-141",
+      "pq_number": 141,
+      "target_id": "super-soul-226",
+      "target_name": "D-Don't talk bad about my family!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-141",
+      "pq_number": 141,
+      "target_id": "super-soul-227",
+      "target_name": "This oughta make things interesting.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-142",
+      "pq_number": 142,
+      "target_id": "super-soul-228",
+      "target_name": "I don't want them to get hurt!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-143",
+      "pq_number": 143,
+      "target_id": "super-soul-229",
+      "target_name": "This is as far as you go.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-144",
+      "pq_number": 144,
+      "target_id": "super-soul-080",
+      "target_name": "You've awakened my true power...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-144",
+      "pq_number": 144,
+      "target_id": "super-soul-085",
+      "target_name": "I won't forgive those who best my comrades!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-145",
+      "pq_number": 145,
+      "target_id": "super-soul-230",
+      "target_name": "I've cast aside everything for this!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-146",
+      "pq_number": 146,
+      "target_id": "super-soul-086",
+      "target_name": "There's no way you can hit me!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-147",
+      "pq_number": 147,
+      "target_id": "super-soul-089",
+      "target_name": "It's just me and you now!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-148",
+      "pq_number": 148,
+      "target_id": "super-soul-090",
+      "target_name": "My back's getting tingly...!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-149",
+      "pq_number": 149,
+      "target_id": "super-soul-088",
+      "target_name": "Our two strengths aren't just added together.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-150",
+      "pq_number": 150,
+      "target_id": "super-soul-087",
+      "target_name": "I will prevail, no matter the cost!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-151",
+      "pq_number": 151,
+      "target_id": "super-soul-231",
+      "target_name": "I'll never forgive you!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-151",
+      "pq_number": 151,
+      "target_id": "super-soul-222",
+      "target_name": "I'm not gonna die until I defeat you!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-152",
+      "pq_number": 152,
+      "target_id": "super-soul-232",
+      "target_name": "I'll show you the power of a true warrior!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-153",
+      "pq_number": 153,
+      "target_id": "super-soul-233",
+      "target_name": "Don't underestimate my power!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-153",
+      "pq_number": 153,
+      "target_id": "super-soul-234",
+      "target_name": "I won't forgive you!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-154",
+      "pq_number": 154,
+      "target_id": "super-soul-235",
+      "target_name": "I'm the one who will win!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-155",
+      "pq_number": 155,
+      "target_id": "super-soul-236",
+      "target_name": "This is the ultimate hero!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-156",
+      "pq_number": 156,
+      "target_id": "super-soul-106",
+      "target_name": "This is your true power?",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-156",
+      "pq_number": 156,
+      "target_id": "super-soul-108",
+      "target_name": "Still haven't figured out you're gonna lose?",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-157",
+      "pq_number": 157,
+      "target_id": "super-soul-105",
+      "target_name": "I'll be the one to fight you!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-157",
+      "pq_number": 157,
+      "target_id": "super-soul-107",
+      "target_name": "You need to be more careful.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-158",
+      "pq_number": 158,
+      "target_id": "super-soul-237",
+      "target_name": "Heh heh! I'm not a rusty as I look!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-159",
+      "pq_number": 159,
+      "target_id": "super-soul-120",
+      "target_name": "Enter the hero!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-159",
+      "pq_number": 159,
+      "target_id": "super-soul-121",
+      "target_name": "The Red Ribbon Army is back in business!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-160",
+      "pq_number": 160,
+      "target_id": "super-soul-061",
+      "target_name": "Is that all?",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-161",
+      "pq_number": 161,
+      "target_id": "super-soul-118",
+      "target_name": "I'm a whole new me.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-162",
+      "pq_number": 162,
+      "target_id": "super-soul-119",
+      "target_name": "Shenron really went the extra mile.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-164",
+      "pq_number": 164,
+      "target_id": "super-soul-132",
+      "target_name": "This place will be your grave!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-166",
+      "pq_number": 166,
+      "target_id": "super-soul-130",
+      "target_name": "Hope you're ready for a trip!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-168",
+      "pq_number": 168,
+      "target_id": "super-soul-131",
+      "target_name": "I'm not about to let Pan see me lose!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-173",
+      "pq_number": 173,
+      "target_id": "super-soul-134",
+      "target_name": "You will know the power of the gods!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-175",
+      "pq_number": 175,
+      "target_id": "super-soul-140",
+      "target_name": "It's about time...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-177",
+      "pq_number": 177,
+      "target_id": "super-soul-141",
+      "target_name": "Strength is justice! Strength is absolute!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-178",
+      "pq_number": 178,
+      "target_id": "super-soul-238",
+      "target_name": "I'll take all of you on at once!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-180",
+      "pq_number": 180,
+      "target_id": "super-soul-062",
+      "target_name": "Damn it all!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-182",
+      "pq_number": 182,
+      "target_id": "super-soul-150",
+      "target_name": "Rejoice! A new ruler is born!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-183",
+      "pq_number": 183,
+      "target_id": "super-soul-149",
+      "target_name": "AAAAAAAAAGH!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-184",
+      "pq_number": 184,
+      "target_id": "super-soul-151",
+      "target_name": "Send me back to the planet I came from!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-185",
+      "pq_number": 185,
+      "target_id": "super-soul-032",
+      "target_name": "This power... It's different from any I've ever had.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-185",
+      "pq_number": 185,
+      "target_id": "super-soul-033",
+      "target_name": "Malice... Existence... Cruelty...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-186",
+      "pq_number": 186,
+      "target_id": "super-soul-034",
+      "target_name": "The final battle begins now.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-186",
+      "pq_number": 186,
+      "target_id": "super-soul-035",
+      "target_name": "I'll use this power to protect everyone!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-021",
+      "pq_number": 21,
+      "target_id": "super-soul-239",
+      "target_name": "I am the universe's strongest!",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-022",
+      "pq_number": 22,
+      "target_id": "super-soul-010",
+      "target_name": "I'll kill all of you!!",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-026",
+      "pq_number": 26,
+      "target_id": "super-soul-240",
+      "target_name": "I got back my youth and vigor!",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-028",
+      "pq_number": 28,
+      "target_id": "super-soul-031",
+      "target_name": "Drop dead!!!",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-028",
+      "pq_number": 28,
+      "target_id": "super-soul-241",
+      "target_name": "Goku the legendary Super Saiyan!",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-029",
+      "pq_number": 29,
+      "target_id": "super-soul-242",
+      "target_name": "I'll use all my strength to kill you.",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-030",
+      "pq_number": 30,
+      "target_id": "super-soul-154",
+      "target_name": "I'm neither Kami nor Piccolo...",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-035",
+      "pq_number": 35,
+      "target_id": "super-soul-243",
+      "target_name": "I wanted to kill you with my own hands.",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-036",
+      "pq_number": 36,
+      "target_id": "super-soul-244",
+      "target_name": "I am...Super Vegeta!!",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-038",
+      "pq_number": 38,
+      "target_id": "super-soul-245",
+      "target_name": "This fight...is truly pointless...",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-012",
+      "pq_number": 12,
+      "target_id": "super-soul-011",
+      "target_name": "H-How could he?!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-012",
+      "pq_number": 12,
+      "target_id": "super-soul-246",
+      "target_name": "I actually felt that one...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-006",
+      "pq_number": 6,
+      "target_id": "super-soul-009",
+      "target_name": "You cocky little...!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-002",
+      "pq_number": 2,
+      "target_id": "super-soul-002",
+      "target_name": "Flying Nimbus!!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-007",
+      "pq_number": 7,
+      "target_id": "super-soul-007",
+      "target_name": "Gyau!!!!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     }
   ],
   "reverse_edges": [
-    {
-      "target_id": "super-soul-002",
-      "target_name": "Flying Nimbus!!",
-      "pq_ids": [
-        "pq-002"
-      ],
-      "pq_numbers": [
-        2
-      ]
-    },
     {
       "target_id": "super-soul-004",
       "target_name": "Your death is imminent!",
@@ -571,113 +1137,105 @@
       ]
     },
     {
-      "target_id": "super-soul-007",
-      "target_name": "Gyau!!!!",
+      "target_id": "super-soul-154",
+      "target_name": "I'm neither Kami nor Piccolo...",
       "pq_ids": [
-        "pq-007"
+        "pq-021",
+        "pq-030"
       ],
       "pq_numbers": [
-        7
+        21,
+        30
       ]
     },
     {
-      "target_id": "super-soul-009",
-      "target_name": "You cocky little...!",
+      "target_id": "super-soul-155",
+      "target_name": "Time to dismantle you androids!",
       "pq_ids": [
-        "pq-006"
+        "pq-040"
       ],
       "pq_numbers": [
-        6
+        40
       ]
     },
     {
-      "target_id": "super-soul-010",
-      "target_name": "I'll kill all of you!!",
+      "target_id": "super-soul-156",
+      "target_name": "Set your rage free...",
       "pq_ids": [
-        "pq-022"
+        "pq-042"
       ],
       "pq_numbers": [
-        22
+        42
       ]
     },
     {
-      "target_id": "super-soul-011",
-      "target_name": "H-How could he?!",
+      "target_id": "super-soul-157",
+      "target_name": "Getting beat up makes me cranky...",
       "pq_ids": [
-        "pq-012"
+        "pq-044"
       ],
       "pq_numbers": [
-        12
+        44
       ]
     },
     {
-      "target_id": "super-soul-031",
-      "target_name": "Drop dead!!!",
+      "target_id": "super-soul-158",
+      "target_name": "Do or Die",
       "pq_ids": [
-        "pq-028"
+        "pq-049"
       ],
       "pq_numbers": [
-        28
+        49
       ]
     },
     {
-      "target_id": "super-soul-032",
-      "target_name": "This power... It's different from any I've ever had.",
+      "target_id": "super-soul-159",
+      "target_name": "Before creation comes ruin...",
       "pq_ids": [
-        "pq-185"
+        "pq-063"
       ],
       "pq_numbers": [
-        185
+        63
       ]
     },
     {
-      "target_id": "super-soul-033",
-      "target_name": "Malice... Existence... Cruelty...",
+      "target_id": "super-soul-160",
+      "target_name": "Janemba! Janemba!",
       "pq_ids": [
-        "pq-185"
+        "pq-064"
       ],
       "pq_numbers": [
-        185
+        64
       ]
     },
     {
-      "target_id": "super-soul-034",
-      "target_name": "The final battle begins now.",
+      "target_id": "super-soul-161",
+      "target_name": "I never knew this world existed!",
       "pq_ids": [
-        "pq-186"
+        "pq-065"
       ],
       "pq_numbers": [
-        186
+        65
       ]
     },
     {
-      "target_id": "super-soul-035",
-      "target_name": "I'll use this power to protect everyone!",
+      "target_id": "super-soul-162",
+      "target_name": "Everyone, lend me your energy!",
       "pq_ids": [
-        "pq-186"
+        "pq-092"
       ],
       "pq_numbers": [
-        186
+        92
       ]
     },
     {
-      "target_id": "super-soul-049",
-      "target_name": "Killed all Earthlings!",
+      "target_id": "super-soul-163",
+      "target_name": "Finally, some excitement.",
       "pq_ids": [
-        "pq-058"
+        "pq-093"
       ],
       "pq_numbers": [
-        58
-      ]
-    },
-    {
-      "target_id": "super-soul-055",
-      "target_name": "Leave the rest to me!",
-      "pq_ids": [
-        "pq-131"
-      ],
-      "pq_numbers": [
-        131
+        93
       ]
     },
     {
@@ -691,63 +1249,103 @@
       ]
     },
     {
-      "target_id": "super-soul-061",
-      "target_name": "Is that all?",
+      "target_id": "super-soul-164",
+      "target_name": "Strengthen me, Shadow Dragons!",
       "pq_ids": [
-        "pq-160"
+        "pq-094"
       ],
       "pq_numbers": [
-        160
+        94
       ]
     },
     {
-      "target_id": "super-soul-062",
-      "target_name": "Damn it all!",
+      "target_id": "super-soul-165",
+      "target_name": "Someone, satisfy me...",
       "pq_ids": [
-        "pq-180"
+        "pq-097"
       ],
       "pq_numbers": [
-        180
+        97
       ]
     },
     {
-      "target_id": "super-soul-064",
-      "target_name": "You can't win...",
+      "target_id": "super-soul-166",
+      "target_name": "Revival of the Demon Realm is at hand",
       "pq_ids": [
-        "pq-107"
+        "pq-097"
       ],
       "pq_numbers": [
-        107
+        97
       ]
     },
     {
-      "target_id": "super-soul-002",
-      "target_name": "Flying Nimbus!!",
+      "target_id": "super-soul-167",
+      "target_name": "I'll make you regret that!",
       "pq_ids": [
-        "pq-002"
+        "pq-102"
       ],
       "pq_numbers": [
-        2
+        102
       ]
     },
     {
-      "target_id": "super-soul-067",
-      "target_name": "Here it comes!",
+      "target_id": "super-soul-168",
+      "target_name": "Don't quit! Get up!",
       "pq_ids": [
-        "pq-133"
+        "pq-102"
       ],
       "pq_numbers": [
-        133
+        102
       ]
     },
     {
-      "target_id": "super-soul-068",
-      "target_name": "Now we're even.",
+      "target_id": "super-soul-169",
+      "target_name": "This is not a weapon.",
       "pq_ids": [
-        "pq-118"
+        "pq-103"
       ],
       "pq_numbers": [
-        118
+        103
+      ]
+    },
+    {
+      "target_id": "super-soul-170",
+      "target_name": "I've been saving this! Kaioken!",
+      "pq_ids": [
+        "pq-103"
+      ],
+      "pq_numbers": [
+        103
+      ]
+    },
+    {
+      "target_id": "super-soul-171",
+      "target_name": "Now you understand. Surrender.",
+      "pq_ids": [
+        "pq-103"
+      ],
+      "pq_numbers": [
+        103
+      ]
+    },
+    {
+      "target_id": "super-soul-172",
+      "target_name": "How Dare You...! That's My Bulma",
+      "pq_ids": [
+        "pq-104"
+      ],
+      "pq_numbers": [
+        104
+      ]
+    },
+    {
+      "target_id": "super-soul-173",
+      "target_name": "Me...Protecting Some Pipsqueak",
+      "pq_ids": [
+        "pq-105"
+      ],
+      "pq_numbers": [
+        105
       ]
     },
     {
@@ -761,6 +1359,488 @@
       ]
     },
     {
+      "target_id": "super-soul-174",
+      "target_name": "You're Just Pieces in a Game",
+      "pq_ids": [
+        "pq-106"
+      ],
+      "pq_numbers": [
+        106
+      ]
+    },
+    {
+      "target_id": "super-soul-175",
+      "target_name": "Watch Your Tongue",
+      "pq_ids": [
+        "pq-106"
+      ],
+      "pq_numbers": [
+        106
+      ]
+    },
+    {
+      "target_id": "super-soul-176",
+      "target_name": "Eehee hee hee heee!",
+      "pq_ids": [
+        "pq-106",
+        "pq-108"
+      ],
+      "pq_numbers": [
+        106,
+        108
+      ]
+    },
+    {
+      "target_id": "super-soul-064",
+      "target_name": "You can't win...",
+      "pq_ids": [
+        "pq-107"
+      ],
+      "pq_numbers": [
+        107
+      ]
+    },
+    {
+      "target_id": "super-soul-177",
+      "target_name": "Now, give your father a message for me.",
+      "pq_ids": [
+        "pq-108"
+      ],
+      "pq_numbers": [
+        108
+      ]
+    },
+    {
+      "target_id": "super-soul-178",
+      "target_name": "I really do love being immortal.",
+      "pq_ids": [
+        "pq-109"
+      ],
+      "pq_numbers": [
+        109
+      ]
+    },
+    {
+      "target_id": "super-soul-179",
+      "target_name": "I like you better when you're mad!",
+      "pq_ids": [
+        "pq-109"
+      ],
+      "pq_numbers": [
+        109
+      ]
+    },
+    {
+      "target_id": "super-soul-180",
+      "target_name": "This fight is only just beginning!",
+      "pq_ids": [
+        "pq-110"
+      ],
+      "pq_numbers": [
+        110
+      ]
+    },
+    {
+      "target_id": "super-soul-181",
+      "target_name": "I shall show you my great godly might!",
+      "pq_ids": [
+        "pq-110"
+      ],
+      "pq_numbers": [
+        110
+      ]
+    },
+    {
+      "target_id": "super-soul-182",
+      "target_name": "I feel it... Everyone, lend me your power!",
+      "pq_ids": [
+        "pq-111"
+      ],
+      "pq_numbers": [
+        111
+      ]
+    },
+    {
+      "target_id": "super-soul-183",
+      "target_name": "Sorry. You were way open there.",
+      "pq_ids": [
+        "pq-112"
+      ],
+      "pq_numbers": [
+        112
+      ]
+    },
+    {
+      "target_id": "super-soul-184",
+      "target_name": "I ain't losin'! Here's my full power!",
+      "pq_ids": [
+        "pq-112"
+      ],
+      "pq_numbers": [
+        112
+      ]
+    },
+    {
+      "target_id": "super-soul-185",
+      "target_name": "I'm never going to forgive him!",
+      "pq_ids": [
+        "pq-112"
+      ],
+      "pq_numbers": [
+        112
+      ]
+    },
+    {
+      "target_id": "super-soul-186",
+      "target_name": "I'll make good use of you!",
+      "pq_ids": [
+        "pq-113"
+      ],
+      "pq_numbers": [
+        113
+      ]
+    },
+    {
+      "target_id": "super-soul-187",
+      "target_name": "I'm stronger than ever now!",
+      "pq_ids": [
+        "pq-113"
+      ],
+      "pq_numbers": [
+        113
+      ]
+    },
+    {
+      "target_id": "super-soul-188",
+      "target_name": "The real fight starts now!",
+      "pq_ids": [
+        "pq-114"
+      ],
+      "pq_numbers": [
+        114
+      ]
+    },
+    {
+      "target_id": "super-soul-189",
+      "target_name": "Looks like you're done!",
+      "pq_ids": [
+        "pq-115"
+      ],
+      "pq_numbers": [
+        115
+      ]
+    },
+    {
+      "target_id": "super-soul-190",
+      "target_name": "If I don't do it, who will?",
+      "pq_ids": [
+        "pq-116"
+      ],
+      "pq_numbers": [
+        116
+      ]
+    },
+    {
+      "target_id": "super-soul-191",
+      "target_name": "Earth is in your hands now!",
+      "pq_ids": [
+        "pq-116"
+      ],
+      "pq_numbers": [
+        116
+      ]
+    },
+    {
+      "target_id": "super-soul-192",
+      "target_name": "Get serious, would you?",
+      "pq_ids": [
+        "pq-117"
+      ],
+      "pq_numbers": [
+        117
+      ]
+    },
+    {
+      "target_id": "super-soul-068",
+      "target_name": "Now we're even.",
+      "pq_ids": [
+        "pq-118"
+      ],
+      "pq_numbers": [
+        118
+      ]
+    },
+    {
+      "target_id": "super-soul-193",
+      "target_name": "I hate what I've become!",
+      "pq_ids": [
+        "pq-118"
+      ],
+      "pq_numbers": [
+        118
+      ]
+    },
+    {
+      "target_id": "super-soul-194",
+      "target_name": "Time to get serious, I guess.",
+      "pq_ids": [
+        "pq-119"
+      ],
+      "pq_numbers": [
+        119
+      ]
+    },
+    {
+      "target_id": "super-soul-195",
+      "target_name": "Hmph! For justice!",
+      "pq_ids": [
+        "pq-120"
+      ],
+      "pq_numbers": [
+        120
+      ]
+    },
+    {
+      "target_id": "super-soul-196",
+      "target_name": "This heat...will be your downfall!",
+      "pq_ids": [
+        "pq-120"
+      ],
+      "pq_numbers": [
+        120
+      ]
+    },
+    {
+      "target_id": "super-soul-197",
+      "target_name": "Right, then... Let's begin the experiment!",
+      "pq_ids": [
+        "pq-121"
+      ],
+      "pq_numbers": [
+        121
+      ]
+    },
+    {
+      "target_id": "super-soul-198",
+      "target_name": "For beauty! For elegance! For love!",
+      "pq_ids": [
+        "pq-122"
+      ],
+      "pq_numbers": [
+        122
+      ]
+    },
+    {
+      "target_id": "super-soul-199",
+      "target_name": "This Super Saiyan 2 is crazy strong!",
+      "pq_ids": [
+        "pq-122"
+      ],
+      "pq_numbers": [
+        122
+      ]
+    },
+    {
+      "target_id": "super-soul-200",
+      "target_name": "Don't think I'm the same as before!",
+      "pq_ids": [
+        "pq-124"
+      ],
+      "pq_numbers": [
+        124
+      ]
+    },
+    {
+      "target_id": "super-soul-201",
+      "target_name": "Alright! Let's go wreck some faces!",
+      "pq_ids": [
+        "pq-126"
+      ],
+      "pq_numbers": [
+        126
+      ]
+    },
+    {
+      "target_id": "super-soul-202",
+      "target_name": "GAAAGH!",
+      "pq_ids": [
+        "pq-128"
+      ],
+      "pq_numbers": [
+        128
+      ]
+    },
+    {
+      "target_id": "super-soul-203",
+      "target_name": "Your father has been killed!",
+      "pq_ids": [
+        "pq-128"
+      ],
+      "pq_numbers": [
+        128
+      ]
+    },
+    {
+      "target_id": "super-soul-204",
+      "target_name": "I've waited an unbelievably long time for this...",
+      "pq_ids": [
+        "pq-128"
+      ],
+      "pq_numbers": [
+        128
+      ]
+    },
+    {
+      "target_id": "super-soul-205",
+      "target_name": "Heh heh! Now THIS is real power!",
+      "pq_ids": [
+        "pq-129"
+      ],
+      "pq_numbers": [
+        129
+      ]
+    },
+    {
+      "target_id": "super-soul-206",
+      "target_name": "Hey, you think you could fight a little quieter?!",
+      "pq_ids": [
+        "pq-129"
+      ],
+      "pq_numbers": [
+        129
+      ]
+    },
+    {
+      "target_id": "super-soul-207",
+      "target_name": "Don't think I'm gonna show you any gratitude!",
+      "pq_ids": [
+        "pq-129"
+      ],
+      "pq_numbers": [
+        129
+      ]
+    },
+    {
+      "target_id": "super-soul-208",
+      "target_name": "Hey, you! You ready for me?!",
+      "pq_ids": [
+        "pq-130"
+      ],
+      "pq_numbers": [
+        130
+      ]
+    },
+    {
+      "target_id": "super-soul-209",
+      "target_name": "Hmph. I'm off to take a nap.",
+      "pq_ids": [
+        "pq-130"
+      ],
+      "pq_numbers": [
+        130
+      ]
+    },
+    {
+      "target_id": "super-soul-210",
+      "target_name": "Th-Thanks...",
+      "pq_ids": [
+        "pq-130"
+      ],
+      "pq_numbers": [
+        130
+      ]
+    },
+    {
+      "target_id": "super-soul-055",
+      "target_name": "Leave the rest to me!",
+      "pq_ids": [
+        "pq-131"
+      ],
+      "pq_numbers": [
+        131
+      ]
+    },
+    {
+      "target_id": "super-soul-211",
+      "target_name": "You'd better survive, you got that?!",
+      "pq_ids": [
+        "pq-131"
+      ],
+      "pq_numbers": [
+        131
+      ]
+    },
+    {
+      "target_id": "super-soul-212",
+      "target_name": "Shall we pick up where we left off?",
+      "pq_ids": [
+        "pq-131"
+      ],
+      "pq_numbers": [
+        131
+      ]
+    },
+    {
+      "target_id": "super-soul-213",
+      "target_name": "Whoa, it's freezing here!",
+      "pq_ids": [
+        "pq-132"
+      ],
+      "pq_numbers": [
+        132
+      ]
+    },
+    {
+      "target_id": "super-soul-214",
+      "target_name": "This is no time to mess around...",
+      "pq_ids": [
+        "pq-132"
+      ],
+      "pq_numbers": [
+        132
+      ]
+    },
+    {
+      "target_id": "super-soul-215",
+      "target_name": "I can't have you dying on me!",
+      "pq_ids": [
+        "pq-132"
+      ],
+      "pq_numbers": [
+        132
+      ]
+    },
+    {
+      "target_id": "super-soul-067",
+      "target_name": "Here it comes!",
+      "pq_ids": [
+        "pq-133"
+      ],
+      "pq_numbers": [
+        133
+      ]
+    },
+    {
+      "target_id": "super-soul-216",
+      "target_name": "I got my claws in you, and fangs too!",
+      "pq_ids": [
+        "pq-133"
+      ],
+      "pq_numbers": [
+        133
+      ]
+    },
+    {
+      "target_id": "super-soul-217",
+      "target_name": "Power! A lotta power! It's great!",
+      "pq_ids": [
+        "pq-134"
+      ],
+      "pq_numbers": [
+        134
+      ]
+    },
+    {
       "target_id": "super-soul-075",
       "target_name": "That won't work on me!",
       "pq_ids": [
@@ -768,6 +1848,128 @@
       ],
       "pq_numbers": [
         135
+      ]
+    },
+    {
+      "target_id": "super-soul-218",
+      "target_name": "Pathetic",
+      "pq_ids": [
+        "pq-136"
+      ],
+      "pq_numbers": [
+        136
+      ]
+    },
+    {
+      "target_id": "super-soul-219",
+      "target_name": "Justice is nothing to me now.",
+      "pq_ids": [
+        "pq-136"
+      ],
+      "pq_numbers": [
+        136
+      ]
+    },
+    {
+      "target_id": "super-soul-220",
+      "target_name": "This is everything I've got!",
+      "pq_ids": [
+        "pq-137"
+      ],
+      "pq_numbers": [
+        137
+      ]
+    },
+    {
+      "target_id": "super-soul-221",
+      "target_name": "That heat... I'll have to match it.",
+      "pq_ids": [
+        "pq-137"
+      ],
+      "pq_numbers": [
+        137
+      ]
+    },
+    {
+      "target_id": "super-soul-222",
+      "target_name": "I'm not gonna die until I defeat you!",
+      "pq_ids": [
+        "pq-138",
+        "pq-151"
+      ],
+      "pq_numbers": [
+        138,
+        151
+      ]
+    },
+    {
+      "target_id": "super-soul-223",
+      "target_name": "I just flew around the whole world!",
+      "pq_ids": [
+        "pq-138"
+      ],
+      "pq_numbers": [
+        138
+      ]
+    },
+    {
+      "target_id": "super-soul-224",
+      "target_name": "This thing carries hopes of everyone on Earth!",
+      "pq_ids": [
+        "pq-140"
+      ],
+      "pq_numbers": [
+        140
+      ]
+    },
+    {
+      "target_id": "super-soul-225",
+      "target_name": "Now then, time for another delightful hunt!",
+      "pq_ids": [
+        "pq-140"
+      ],
+      "pq_numbers": [
+        140
+      ]
+    },
+    {
+      "target_id": "super-soul-226",
+      "target_name": "D-Don't talk bad about my family!",
+      "pq_ids": [
+        "pq-141"
+      ],
+      "pq_numbers": [
+        141
+      ]
+    },
+    {
+      "target_id": "super-soul-227",
+      "target_name": "This oughta make things interesting.",
+      "pq_ids": [
+        "pq-141"
+      ],
+      "pq_numbers": [
+        141
+      ]
+    },
+    {
+      "target_id": "super-soul-228",
+      "target_name": "I don't want them to get hurt!",
+      "pq_ids": [
+        "pq-142"
+      ],
+      "pq_numbers": [
+        142
+      ]
+    },
+    {
+      "target_id": "super-soul-229",
+      "target_name": "This is as far as you go.",
+      "pq_ids": [
+        "pq-143"
+      ],
+      "pq_numbers": [
+        143
       ]
     },
     {
@@ -791,6 +1993,16 @@
       ]
     },
     {
+      "target_id": "super-soul-230",
+      "target_name": "I've cast aside everything for this!",
+      "pq_ids": [
+        "pq-145"
+      ],
+      "pq_numbers": [
+        145
+      ]
+    },
+    {
       "target_id": "super-soul-086",
       "target_name": "There's no way you can hit me!",
       "pq_ids": [
@@ -798,26 +2010,6 @@
       ],
       "pq_numbers": [
         146
-      ]
-    },
-    {
-      "target_id": "super-soul-087",
-      "target_name": "I will prevail, no matter the cost!",
-      "pq_ids": [
-        "pq-150"
-      ],
-      "pq_numbers": [
-        150
-      ]
-    },
-    {
-      "target_id": "super-soul-088",
-      "target_name": "Our two strengths aren't just added together.",
-      "pq_ids": [
-        "pq-149"
-      ],
-      "pq_numbers": [
-        149
       ]
     },
     {
@@ -841,8 +2033,28 @@
       ]
     },
     {
-      "target_id": "super-soul-098",
-      "target_name": "I'll keep adding a bit of power to my attacks!",
+      "target_id": "super-soul-088",
+      "target_name": "Our two strengths aren't just added together.",
+      "pq_ids": [
+        "pq-149"
+      ],
+      "pq_numbers": [
+        149
+      ]
+    },
+    {
+      "target_id": "super-soul-087",
+      "target_name": "I will prevail, no matter the cost!",
+      "pq_ids": [
+        "pq-150"
+      ],
+      "pq_numbers": [
+        150
+      ]
+    },
+    {
+      "target_id": "super-soul-231",
+      "target_name": "I'll never forgive you!",
       "pq_ids": [
         "pq-151"
       ],
@@ -851,28 +2063,8 @@
       ]
     },
     {
-      "target_id": "super-soul-099",
-      "target_name": "You're not much of a fun fight!",
-      "pq_ids": [
-        "pq-153"
-      ],
-      "pq_numbers": [
-        153
-      ]
-    },
-    {
-      "target_id": "super-soul-100",
-      "target_name": "I think I'm getting the hang of this.",
-      "pq_ids": [
-        "pq-151"
-      ],
-      "pq_numbers": [
-        151
-      ]
-    },
-    {
-      "target_id": "super-soul-101",
-      "target_name": "I will put a stop to you, fiend!",
+      "target_id": "super-soul-232",
+      "target_name": "I'll show you the power of a true warrior!",
       "pq_ids": [
         "pq-152"
       ],
@@ -881,8 +2073,8 @@
       ]
     },
     {
-      "target_id": "super-soul-102",
-      "target_name": "There's more where that came from!",
+      "target_id": "super-soul-233",
+      "target_name": "Don't underestimate my power!",
       "pq_ids": [
         "pq-153"
       ],
@@ -891,13 +2083,33 @@
       ]
     },
     {
-      "target_id": "super-soul-105",
-      "target_name": "I'll be the one to fight you!",
+      "target_id": "super-soul-234",
+      "target_name": "I won't forgive you!",
       "pq_ids": [
-        "pq-157"
+        "pq-153"
       ],
       "pq_numbers": [
-        157
+        153
+      ]
+    },
+    {
+      "target_id": "super-soul-235",
+      "target_name": "I'm the one who will win!",
+      "pq_ids": [
+        "pq-154"
+      ],
+      "pq_numbers": [
+        154
+      ]
+    },
+    {
+      "target_id": "super-soul-236",
+      "target_name": "This is the ultimate hero!",
+      "pq_ids": [
+        "pq-155"
+      ],
+      "pq_numbers": [
+        155
       ]
     },
     {
@@ -911,16 +2123,6 @@
       ]
     },
     {
-      "target_id": "super-soul-107",
-      "target_name": "You need to be more careful.",
-      "pq_ids": [
-        "pq-157"
-      ],
-      "pq_numbers": [
-        157
-      ]
-    },
-    {
       "target_id": "super-soul-108",
       "target_name": "Still haven't figured out you're gonna lose?",
       "pq_ids": [
@@ -931,43 +2133,33 @@
       ]
     },
     {
-      "target_id": "super-soul-109",
-      "target_name": "Heh heh! I'm not as rusty as I look!",
+      "target_id": "super-soul-105",
+      "target_name": "I'll be the one to fight you!",
+      "pq_ids": [
+        "pq-157"
+      ],
+      "pq_numbers": [
+        157
+      ]
+    },
+    {
+      "target_id": "super-soul-107",
+      "target_name": "You need to be more careful.",
+      "pq_ids": [
+        "pq-157"
+      ],
+      "pq_numbers": [
+        157
+      ]
+    },
+    {
+      "target_id": "super-soul-237",
+      "target_name": "Heh heh! I'm not a rusty as I look!",
       "pq_ids": [
         "pq-158"
       ],
       "pq_numbers": [
         158
-      ]
-    },
-    {
-      "target_id": "super-soul-110",
-      "target_name": "See? It's a good thing I was here, right?",
-      "pq_ids": [
-        "pq-158"
-      ],
-      "pq_numbers": [
-        158
-      ]
-    },
-    {
-      "target_id": "super-soul-118",
-      "target_name": "I'm a whole new me.",
-      "pq_ids": [
-        "pq-161"
-      ],
-      "pq_numbers": [
-        161
-      ]
-    },
-    {
-      "target_id": "super-soul-119",
-      "target_name": "Shenron really went the extra mile.",
-      "pq_ids": [
-        "pq-162"
-      ],
-      "pq_numbers": [
-        162
       ]
     },
     {
@@ -991,6 +2183,46 @@
       ]
     },
     {
+      "target_id": "super-soul-061",
+      "target_name": "Is that all?",
+      "pq_ids": [
+        "pq-160"
+      ],
+      "pq_numbers": [
+        160
+      ]
+    },
+    {
+      "target_id": "super-soul-118",
+      "target_name": "I'm a whole new me.",
+      "pq_ids": [
+        "pq-161"
+      ],
+      "pq_numbers": [
+        161
+      ]
+    },
+    {
+      "target_id": "super-soul-119",
+      "target_name": "Shenron really went the extra mile.",
+      "pq_ids": [
+        "pq-162"
+      ],
+      "pq_numbers": [
+        162
+      ]
+    },
+    {
+      "target_id": "super-soul-132",
+      "target_name": "This place will be your grave!",
+      "pq_ids": [
+        "pq-164"
+      ],
+      "pq_numbers": [
+        164
+      ]
+    },
+    {
       "target_id": "super-soul-130",
       "target_name": "Hope you're ready for a trip!",
       "pq_ids": [
@@ -1008,26 +2240,6 @@
       ],
       "pq_numbers": [
         168
-      ]
-    },
-    {
-      "target_id": "super-soul-132",
-      "target_name": "This place will be your grave!",
-      "pq_ids": [
-        "pq-164"
-      ],
-      "pq_numbers": [
-        164
-      ]
-    },
-    {
-      "target_id": "super-soul-133",
-      "target_name": "I'll surpass you as I am, with my OWN power!",
-      "pq_ids": [
-        "pq-174"
-      ],
-      "pq_numbers": [
-        174
       ]
     },
     {
@@ -1061,8 +2273,8 @@
       ]
     },
     {
-      "target_id": "super-soul-142",
-      "target_name": "I'll take you all on at once!",
+      "target_id": "super-soul-238",
+      "target_name": "I'll take all of you on at once!",
       "pq_ids": [
         "pq-178"
       ],
@@ -1071,23 +2283,13 @@
       ]
     },
     {
-      "target_id": "super-soul-145",
-      "target_name": "Here I go!",
+      "target_id": "super-soul-062",
+      "target_name": "Damn it all!",
       "pq_ids": [
-        "pq-179"
+        "pq-180"
       ],
       "pq_numbers": [
-        179
-      ]
-    },
-    {
-      "target_id": "super-soul-149",
-      "target_name": "AAAAAAAAAGH!",
-      "pq_ids": [
-        "pq-183"
-      ],
-      "pq_numbers": [
-        183
+        180
       ]
     },
     {
@@ -1101,6 +2303,16 @@
       ]
     },
     {
+      "target_id": "super-soul-149",
+      "target_name": "AAAAAAAAAGH!",
+      "pq_ids": [
+        "pq-183"
+      ],
+      "pq_numbers": [
+        183
+      ]
+    },
+    {
       "target_id": "super-soul-151",
       "target_name": "Send me back to the planet I came from!",
       "pq_ids": [
@@ -1111,8 +2323,48 @@
       ]
     },
     {
-      "target_id": "super-soul-149",
-      "target_name": "I'm neither Kami nor Piccolo...",
+      "target_id": "super-soul-032",
+      "target_name": "This power... It's different from any I've ever had.",
+      "pq_ids": [
+        "pq-185"
+      ],
+      "pq_numbers": [
+        185
+      ]
+    },
+    {
+      "target_id": "super-soul-033",
+      "target_name": "Malice... Existence... Cruelty...",
+      "pq_ids": [
+        "pq-185"
+      ],
+      "pq_numbers": [
+        185
+      ]
+    },
+    {
+      "target_id": "super-soul-034",
+      "target_name": "The final battle begins now.",
+      "pq_ids": [
+        "pq-186"
+      ],
+      "pq_numbers": [
+        186
+      ]
+    },
+    {
+      "target_id": "super-soul-035",
+      "target_name": "I'll use this power to protect everyone!",
+      "pq_ids": [
+        "pq-186"
+      ],
+      "pq_numbers": [
+        186
+      ]
+    },
+    {
+      "target_id": "super-soul-239",
+      "target_name": "I am the universe's strongest!",
       "pq_ids": [
         "pq-021"
       ],
@@ -1121,579 +2373,148 @@
       ]
     },
     {
-      "target_id": "super-soul-150",
-      "target_name": "Time to dismantle you androids!",
+      "target_id": "super-soul-010",
+      "target_name": "I'll kill all of you!!",
       "pq_ids": [
-        "pq-040"
+        "pq-022"
       ],
       "pq_numbers": [
-        40
+        22
       ]
     },
     {
-      "target_id": "super-soul-151",
-      "target_name": "Set your rage free...",
+      "target_id": "super-soul-240",
+      "target_name": "I got back my youth and vigor!",
       "pq_ids": [
-        "pq-042"
+        "pq-026"
       ],
       "pq_numbers": [
-        42
+        26
       ]
     },
     {
-      "target_id": "super-soul-152",
-      "target_name": "Getting beat up makes me cranky...",
+      "target_id": "super-soul-031",
+      "target_name": "Drop dead!!!",
       "pq_ids": [
-        "pq-044"
+        "pq-028"
       ],
       "pq_numbers": [
-        44
+        28
       ]
     },
     {
-      "target_id": "super-soul-153",
-      "target_name": "Do or Die",
+      "target_id": "super-soul-241",
+      "target_name": "Goku the legendary Super Saiyan!",
       "pq_ids": [
-        "pq-049"
+        "pq-028"
       ],
       "pq_numbers": [
-        49
+        28
       ]
     },
     {
-      "target_id": "super-soul-154",
-      "target_name": "Before creation comes ruin...",
+      "target_id": "super-soul-242",
+      "target_name": "I'll use all my strength to kill you.",
       "pq_ids": [
-        "pq-063"
+        "pq-029"
       ],
       "pq_numbers": [
-        63
+        29
       ]
     },
     {
-      "target_id": "super-soul-155",
-      "target_name": "Janemba! Janemba!",
+      "target_id": "super-soul-243",
+      "target_name": "I wanted to kill you with my own hands.",
       "pq_ids": [
-        "pq-064"
+        "pq-035"
       ],
       "pq_numbers": [
-        64
+        35
       ]
     },
     {
-      "target_id": "super-soul-156",
-      "target_name": "I never knew this world existed!",
+      "target_id": "super-soul-244",
+      "target_name": "I am...Super Vegeta!!",
       "pq_ids": [
-        "pq-065"
+        "pq-036"
       ],
       "pq_numbers": [
-        65
+        36
       ]
     },
     {
-      "target_id": "super-soul-157",
-      "target_name": "Everyone, lend me your energy!",
+      "target_id": "super-soul-245",
+      "target_name": "This fight...is truly pointless...",
       "pq_ids": [
-        "pq-092"
+        "pq-038"
       ],
       "pq_numbers": [
-        92
+        38
       ]
     },
     {
-      "target_id": "super-soul-158",
-      "target_name": "Finally, some excitement.",
+      "target_id": "super-soul-011",
+      "target_name": "H-How could he?!",
       "pq_ids": [
-        "pq-093"
+        "pq-012"
       ],
       "pq_numbers": [
-        93
+        12
       ]
     },
     {
-      "target_id": "super-soul-159",
-      "target_name": "Strengthen me, Shadow Dragons!",
+      "target_id": "super-soul-246",
+      "target_name": "I actually felt that one...",
       "pq_ids": [
-        "pq-094"
+        "pq-012"
       ],
       "pq_numbers": [
-        94
+        12
       ]
     },
     {
-      "target_id": "super-soul-160",
-      "target_name": "Someone, satisfy me...",
+      "target_id": "super-soul-009",
+      "target_name": "You cocky little...!",
       "pq_ids": [
-        "pq-097"
+        "pq-006"
       ],
       "pq_numbers": [
-        97
+        6
+      ]
+    },
+    {
+      "target_id": "super-soul-002",
+      "target_name": "Flying Nimbus!!",
+      "pq_ids": [
+        "pq-002"
+      ],
+      "pq_numbers": [
+        2
+      ]
+    },
+    {
+      "target_id": "super-soul-007",
+      "target_name": "Gyau!!!!",
+      "pq_ids": [
+        "pq-007"
+      ],
+      "pq_numbers": [
+        7
       ]
     }
   ],
-  "unresolved_target_routes": [
-    {
-      "target_id": "super-soul-001",
-      "target_name": "Hee Hee Sunglasses",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-003",
-      "target_name": "Haaaaaaaaaaaah!!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-005",
-      "target_name": "Your power is 5? ...Scum.",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-006",
-      "target_name": "Get lost before I send you flying.",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-008",
-      "target_name": "Tien, please don't die",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-012",
-      "target_name": "Saiyans are a warrior race!!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-013",
-      "target_name": "Kieeeee!!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-014",
-      "target_name": "Your life is mine! Toh!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-015",
-      "target_name": "I must tell Lord Frieza...",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-016",
-      "target_name": "Tch... Guess I have no choice.",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-017",
-      "target_name": "Unleash your power!!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-018",
-      "target_name": "Stop trampling on Namek's peace!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-024",
-      "target_name": "I'm the fastest in the universe",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-025",
-      "target_name": "We're the one and only Ginyu Force!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-026",
-      "target_name": "Let me show you how it's done.",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-027",
-      "target_name": "I must protect Grand Elder Guru!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-028",
-      "target_name": "Popporunga pupirittparo",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-029",
-      "target_name": "The ultimate power is mine!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-030",
-      "target_name": "I'll never forgive you, scum!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-036",
-      "target_name": "Buu's reached full power!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-037",
-      "target_name": "I'm over 1,000 years old.",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-038",
-      "target_name": "My Ki is building... Overflowing...",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-039",
-      "target_name": "I am going to bathe in your blood!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-040",
-      "target_name": "You fool! Why are you laughing?",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-041",
-      "target_name": "Not on my watch!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-042",
-      "target_name": "Over here, you idiot...",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-043",
-      "target_name": "Bye-bye, universe!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-044",
-      "target_name": "Let's see you handle THIS kind of power!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-045",
-      "target_name": "Your time in this fight ends now!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-046",
-      "target_name": "Kind of human-like, don't you think?",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-047",
-      "target_name": "Kicking a Shadow Dragon in the head is not a wise thing to do!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-048",
-      "target_name": "40 ton weights!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-050",
-      "target_name": "That's one down!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-051",
-      "target_name": "That offer's expired...",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-052",
-      "target_name": "Why are you dodging?!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-053",
-      "target_name": "Guess you CAN fight...",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-054",
-      "target_name": "Leave my daddy alone!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-056",
-      "target_name": "I refuse to give up...",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-057",
-      "target_name": "Can I attack now?",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-058",
-      "target_name": "Now I'm MAD!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-059",
-      "target_name": "I-I'm sorry!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-063",
-      "target_name": "Zudodoeyaahh!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-065",
-      "target_name": "Thanks, Dende!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-069",
-      "target_name": "Just win, okay?",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-070",
-      "target_name": "As if I'd lose!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-072",
-      "target_name": "Over here, you idiot...",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-073",
-      "target_name": "That offer's expired...",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-074",
-      "target_name": "Goku! Time for dinner!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-076",
-      "target_name": "I'll send you to Hell!!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-077",
-      "target_name": "Tien, please don't die",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-078",
-      "target_name": "It's okay! I'll fix you!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-079",
-      "target_name": "Leave my daddy alone!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-081",
-      "target_name": "I am going to bathe in your blood!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-082",
-      "target_name": "Let's get round two started!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-083",
-      "target_name": "I can finally get my hands dirty again.",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-084",
-      "target_name": "Can I attack now?",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-091",
-      "target_name": "Any taller and it would be unnatural!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-092",
-      "target_name": "I think I'm finally warmed up now!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-093",
-      "target_name": "I'm gonna do what I wanna do.",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-094",
-      "target_name": "Your energy is now mine to wield.",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-095",
-      "target_name": "I've got something extra special for you!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-096",
-      "target_name": "It must be some kind of trick...",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-097",
-      "target_name": "It all comes down to this!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-103",
-      "target_name": "Emoc htorf! Peas and Carrots!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-104",
-      "target_name": "Looks like I mixed up the capsules...",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-111",
-      "target_name": "I can tell you're an amateur by the way you pose!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-112",
-      "target_name": "That's minus ten points!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-113",
-      "target_name": "I'm a super hero!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-114",
-      "target_name": "Just figured out who the real villain is!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-115",
-      "target_name": "Help me, Daddy! I'm scared!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-116",
-      "target_name": "Damn... Gonna have to go all out!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-117",
-      "target_name": "Not a single word!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-122",
-      "target_name": "Something deadly's about to happen...",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-123",
-      "target_name": "I never could've gotten here on my own!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-124",
-      "target_name": "I have an unlimited energy supply...",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-125",
-      "target_name": "Die!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-126",
-      "target_name": "I'd rather fight alone and die!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-127",
-      "target_name": "That's a dead ball now, right?",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-128",
-      "target_name": "Nothing beats flying!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-129",
-      "target_name": "There was actually five of me!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-135",
-      "target_name": "I learned a lot from how you fight.",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-136",
-      "target_name": "You intend to defy me?!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-137",
-      "target_name": "I will NOT give up! EVER!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-138",
-      "target_name": "We're tougher than we look!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-139",
-      "target_name": "You're not taking this away from us!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-143",
-      "target_name": "So, Hakai.",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-144",
-      "target_name": "Destroying this planet is our only option!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-146",
-      "target_name": "Poltarat Doddorsi Pupiritt Paro...",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-147",
-      "target_name": "Now you're upping the ante!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-148",
-      "target_name": "What good is a new power if I don't try it out?",
-      "reason": "no_explicit_pq_endpoint"
-    }
-  ],
+  "unresolved_target_routes": [],
   "validation": {
     "canonical_pq_records": 186,
-    "canonical_target_records": 148,
-    "forward_edge_count": 68,
-    "reverse_edge_count": 68,
-    "unique_pq_endpoints": 46,
-    "unique_target_endpoints": 56,
-    "unresolved_target_route_count": 92,
+    "canonical_target_records": 234,
+    "forward_edge_count": 140,
+    "reverse_edge_count": 137,
+    "unique_pq_endpoints": 95,
+    "unique_target_endpoints": 137,
+    "unresolved_target_route_count": 0,
     "broken_forward_endpoints": 0,
     "broken_reverse_endpoints": 0,
     "last_recomputed": "2026-09-22",
-    "unresolved_target_routes": 90
+    "unresolved_target_routes": 0
   }
 }
