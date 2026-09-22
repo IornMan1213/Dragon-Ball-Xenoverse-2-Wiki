@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "canonical_range": "PQ 1-186",
-  "status": "source_normalized_partial",
+  "status": "canonical_projection",
   "generated_from": [
     "pq-001-040-reward-map.json",
     "pq-041-080-reward-map.json",
@@ -10,7 +10,7 @@
     "pq-143-162-reward-map.json",
     "pq-163-186-reward-map.json"
   ],
-  "index_semantics": "Each value lists PQ numbers where the named reward is explicitly established by the current normalized source layer. Missing entries are not negative claims.",
+  "index_semantics": "Canonical relationship data is the authoritative source of truth for forward relationships. This unified reverse index is a deterministic projection of that canonical layer; normalized source maps may remain partial research/provenance layers and must not override canonical relationships.",
   "skills": {
     "Spirit Slash": [
       2
@@ -25,6 +25,12 @@
       5,
       48
     ],
+    "Meteor Strike": [
+      6
+    ],
+    "Shine Shot": [
+      7
+    ],
     "Kaioken": [
       8
     ],
@@ -37,6 +43,9 @@
     "Unrelenting Barrage": [
       10
     ],
+    "Earth Splitting Galick Gun": [
+      11
+    ],
     "Time Control": [
       11,
       18
@@ -44,6 +53,18 @@
     "Mach Dash": [
       11,
       18
+    ],
+    "Meteor Crash": [
+      12
+    ],
+    "Fighting Pose C": [
+      13
+    ],
+    "Psycho Escape": [
+      13
+    ],
+    "Kaioken Kamehameha": [
+      14
     ],
     "Mach Punch": [
       19
@@ -54,8 +75,59 @@
     "Mystic Flash": [
       20
     ],
+    "Evil Flight Strike": [
+      21
+    ],
+    "Energy Shot": [
+      22
+    ],
+    "Death Slash": [
+      23
+    ],
+    "Double Death Slicer": [
+      24
+    ],
+    "Spirit Explosion": [
+      25
+    ],
+    "Crazy Finger Shot": [
+      26
+    ],
+    "Sauzer Blade": [
+      27
+    ],
+    "Spread Shot Retreat": [
+      28
+    ],
+    "Freedom Kick": [
+      29
+    ],
+    "Energy Field": [
+      29
+    ],
     "Super Dragon Flight": [
       31
+    ],
+    "Energy Barrier": [
+      32
+    ],
+    "Death Psycho Bomb": [
+      33
+    ],
+    "Crusher Ball": [
+      34
+    ],
+    "Paralysis": [
+      34
+    ],
+    "Evil Whirlwind": [
+      36
+    ],
+    "Instant Rise": [
+      37
+    ],
+    "Shining Slash": [
+      38
     ],
     "Side Bridge": [
       39
@@ -81,6 +153,39 @@
     "Taunt": [
       45
     ],
+    "Chain Destructo-disc Barrage": [
+      46
+    ],
+    "Do or Die": [
+      49
+    ],
+    "Explosive Buu Buu Punch": [
+      50
+    ],
+    "Burst Rush": [
+      51
+    ],
+    "Final Cannon": [
+      52
+    ],
+    "Justice Pose": [
+      53
+    ],
+    "Victory Cannon": [
+      54
+    ],
+    "Super Donut Volley": [
+      55
+    ],
+    "Stone Bullet": [
+      56
+    ],
+    "Rakshasa's Claw": [
+      57
+    ],
+    "Vanishing Ball": [
+      58
+    ],
     "Force Shield": [
       59
     ],
@@ -91,6 +196,9 @@
       60
     ],
     "Recoome Kick": [
+      61
+    ],
+    "Fighting Pose H": [
       61
     ],
     "Teleporting Vanishing Ball": [
@@ -105,9 +213,40 @@
     "Scissors Paper Rock": [
       65
     ],
+    "Candy Beam": [
+      66,
+      113
+    ],
     "Warp Kamehameha": [
       66,
       76
+    ],
+    "Super God Fist": [
+      67
+    ],
+    "Angry Shout": [
+      68
+    ],
+    "Headshot": [
+      69
+    ],
+    "Emperor's Blast": [
+      70
+    ],
+    "Last Emperor": [
+      71
+    ],
+    "Burst Kamehameha": [
+      72
+    ],
+    "Psychic Move": [
+      73
+    ],
+    "Final Pose": [
+      74
+    ],
+    "Counter Burst": [
+      75
     ],
     "Ki Explosion": [
       77
@@ -135,6 +274,12 @@
     ],
     "Zigzag Express": [
       85
+    ],
+    "Neo Wolf Fang Fist": [
+      86
+    ],
+    "Atomic Blast": [
+      87
     ],
     "Buu Buu Ball": [
       88
@@ -184,7 +329,7 @@
     "Destruction's Concerto: Comet": [
       104
     ],
-    "Starfall": [
+    "Destruction's Concerto: Starfall": [
       104
     ],
     "Sonic Bomb": [
@@ -195,6 +340,15 @@
     ],
     "God of Destruction's Roar": [
       105
+    ],
+    "Destruction's Concerto: Meteor": [
+      106
+    ],
+    "Requiem of Destruction": [
+      106
+    ],
+    "Destruction's Conductor": [
+      106
     ],
     "Super Black Kamehameha Rosé": [
       109
@@ -217,9 +371,8 @@
     "Super Ghost Buu Attack": [
       113
     ],
-    "Candy Beam": [
-      113,
-      66
+    "Candy Beam (Super)": [
+      113
     ],
     "Petrifying Spit": [
       114
@@ -580,144 +733,57 @@
     ],
     "Venus Fist": [
       186
-    ],
-    "Meteor Strike": [
-      6
-    ],
-    "Shine Shot": [
-      7
-    ],
-    "Earth Splitting Galick Gun": [
-      11
-    ],
-    "Evil Flight Strike": [
-      21
-    ],
-    "Energy Shot": [
-      22
-    ],
-    "Death Slash": [
-      23
-    ],
-    "Double Death Slicer": [
-      24
-    ],
-    "Spirit Explosion": [
-      25
-    ],
-    "Crazy Finger Shot": [
-      26
-    ],
-    "Sauzer Blade": [
-      27
-    ],
-    "Spread Shot Retreat": [
-      28
-    ],
-    "Freedom Kick": [
-      29
-    ],
-    "Energy Field": [
-      29
-    ],
-    "Energy Barrier": [
-      32
-    ],
-    "Death Psycho Bomb": [
-      33
-    ],
-    "Crusher Ball": [
-      34
-    ],
-    "Paralysis": [
-      34
-    ],
-    "Evil Whirlwind": [
-      36
-    ],
-    "Instant Rise": [
-      37
-    ],
-    "Shining Slash": [
-      38
-    ],
-    "Chain Destructo-disc Barrage": [
-      46
-    ],
-    "Explosive Buu Buu Punch": [
-      50
-    ],
-    "Burst Rush": [
-      51
-    ],
-    "Final Cannon": [
-      52
-    ],
-    "Justice Pose": [
-      53
-    ],
-    "Victory Cannon": [
-      54
-    ],
-    "Super Donut Volley": [
-      55
-    ],
-    "Stone Bullet": [
-      56
-    ],
-    "Vanishing Ball": [
-      58
-    ],
-    "Fighting Pose H": [
-      61
-    ],
-    "Super God Fist": [
-      67
-    ],
-    "Angry Shout": [
-      68
-    ],
-    "Headshot": [
-      69
-    ],
-    "Emperor's Blast": [
-      70
-    ],
-    "Last Emperor": [
-      71
-    ],
-    "Burst Kamehameha": [
-      72
-    ],
-    "Psychic Move": [
-      73
-    ],
-    "Final Pose": [
-      74
-    ],
-    "Counter Burst": [
-      75
-    ],
-    "Meteor Crash": [
-      12
-    ],
-    "Fighting Pose C": [
-      13
-    ],
-    "Psycho Escape": [
-      13
-    ],
-    "Kaioken Kamehameha": [
-      14
     ]
   },
   "super_souls": {
+    "Flying Nimbus!!": [
+      2
+    ],
     "Your death is imminent!": [
       5
+    ],
+    "You cocky little...!": [
+      6
+    ],
+    "Gyau!!!!": [
+      7
+    ],
+    "H-How could he?!": [
+      12
+    ],
+    "I actually felt that one...": [
+      12
+    ],
+    "I am the universe's strongest!": [
+      21
     ],
     "I'm neither Kami nor Piccolo...": [
       21,
       30
+    ],
+    "I'll kill all of you!!": [
+      22
+    ],
+    "I got back my youth and vigor!": [
+      26
+    ],
+    "Drop dead!!!": [
+      28
+    ],
+    "Goku the legendary Super Saiyan!": [
+      28
+    ],
+    "I'll use all my strength to kill you.": [
+      29
+    ],
+    "I wanted to kill you with my own hands.": [
+      35
+    ],
+    "I am...Super Vegeta!!": [
+      36
+    ],
+    "This fight...is truly pointless...": [
+      38
     ],
     "Time to dismantle you androids!": [
       40
@@ -731,6 +797,9 @@
     "Do or Die": [
       49
     ],
+    "Killed all Earthlings!": [
+      58
+    ],
     "Before creation comes ruin...": [
       63
     ],
@@ -743,10 +812,10 @@
     "Everyone, lend me your energy!": [
       92
     ],
-    "Finally, some excitement.": [
+    "I...hate you!!!": [
       93
     ],
-    "I...hate you!!!": [
+    "Finally, some excitement.": [
       93
     ],
     "Strengthen me, Shadow Dragons!": [
@@ -776,10 +845,10 @@
     "How Dare You...! That's My Bulma": [
       104
     ],
-    "Me...Protecting Some Pipsqueak": [
+    "Buu Don't Wanna!": [
       105
     ],
-    "Buu Don't Wanna!": [
+    "Me...Protecting Some Pipsqueak": [
       105
     ],
     "You're Just Pieces in a Game": [
@@ -943,8 +1012,8 @@
       137
     ],
     "I'm not gonna die until I defeat you!": [
-      151,
-      138
+      138,
+      151
     ],
     "I just flew around the whole world!": [
       138
@@ -991,11 +1060,26 @@
     "I will prevail, no matter the cost!": [
       150
     ],
+    "I'll keep adding a bit of power to my attacks!": [
+      151
+    ],
+    "I think I'm getting the hang of this.": [
+      151
+    ],
     "I'll never forgive you!": [
       151
     ],
+    "I will put a stop to you, fiend!": [
+      152
+    ],
     "I'll show you the power of a true warrior!": [
       152
+    ],
+    "You're not much of a fun fight!": [
+      153
+    ],
+    "There's more where that came from!": [
+      153
     ],
     "Don't underestimate my power!": [
       153
@@ -1021,6 +1105,12 @@
     "You need to be more careful.": [
       157
     ],
+    "Heh heh! I'm not as rusty as I look!": [
+      158
+    ],
+    "See? It's a good thing I was here, right?": [
+      158
+    ],
     "Heh heh! I'm not a rusty as I look!": [
       158
     ],
@@ -1039,7 +1129,7 @@
     "Shenron really went the extra mile.": [
       162
     ],
-    "This place Will be your grave!": [
+    "This place will be your grave!": [
       164
     ],
     "Hope you're ready for a trip!": [
@@ -1048,8 +1138,11 @@
     "I'm not about to let Pan see me lose!": [
       168
     ],
-    "You Will know the power of the gods!": [
+    "You will know the power of the gods!": [
       173
+    ],
+    "I'll surpass you as I am, with my OWN power!": [
+      174
     ],
     "It's about time...": [
       175
@@ -1057,8 +1150,14 @@
     "Strength is justice! Strength is absolute!": [
       177
     ],
+    "I'll take you all on at once!": [
+      178
+    ],
     "I'll take all of you on at once!": [
       178
+    ],
+    "Here I go!": [
+      179
     ],
     "Damn it all!": [
       180
@@ -1083,39 +1182,6 @@
     ],
     "I'll use this power to protect everyone!": [
       186
-    ],
-    "I am the universe's strongest!": [
-      21
-    ],
-    "I'll kill all of you!!": [
-      22
-    ],
-    "I got back my youth and vigor!": [
-      26
-    ],
-    "Drop dead!!!": [
-      28
-    ],
-    "Goku the legendary Super Saiyan!": [
-      28
-    ],
-    "I'll use all my strength to kill you.": [
-      29
-    ],
-    "I wanted to kill you with my own hands.": [
-      35
-    ],
-    "I am...Super Vegeta!!": [
-      36
-    ],
-    "This fight...is truly pointless...": [
-      38
-    ],
-    "H-How could he?!": [
-      12
-    ],
-    "I actually felt that one...": [
-      12
     ]
   },
   "clothing": {
@@ -1505,7 +1571,8 @@
     "2026-09-19: Subtype-aware reverse-index reconciliation added normalized-map clothing/accessory provenance without changing forward equipment relationship semantics. The forward layer intentionally uses one equipment relationship type; reverse index retains subtype where the source identifies it.",
     "2026-09-19: Final subtype audit removed legacy dual clothing/accessory placements where the normalized source explicitly classifies the item as an accessory. 122 forward equipment edges now have complete reverse coverage; subtype is only asserted where the source layer identifies it.",
     "2026-09-19: Added the nine explicitly listed PQ 12-14 reward relationships from the all-186 PQ guide. PQ 1 has no skill, Super Soul, or equipment reward in the source's Basic Reward list, so no typed relationship was fabricated.",
-    "2026-09-22: Reconciled current_relationship_counts with the actual reverse-index arrays. Previous metadata overstated DLC references at 88; live index contains 86. Skill and Super Soul counts intentionally remain below canonical because this index is partial source-normalized coverage."
+    "2026-09-22: Reconciled current_relationship_counts with the actual reverse-index arrays. Previous metadata overstated DLC references at 88; live index contains 86. Skill and Super Soul counts intentionally remain below canonical because this index is partial source-normalized coverage.",
+    "2026-09-22: Canonical-source-of-truth reconciliation completed for skills and Super Souls. The unified reverse index now deterministically projects all canonical pq_rewards_skill and pq_rewards_super_soul edges; alternate/partial normalized-source entries no longer override canonical names. Historical partial-coverage notes are retained as provenance history."
   ],
   "dlc": {
     "Conton City Vote Pack": [
@@ -2046,8 +2113,8 @@
     ]
   },
   "current_relationship_counts": {
-    "skill": 236,
-    "super_soul": 137,
+    "skill": 244,
+    "super_soul": 151,
     "equipment": 125,
     "character": 247,
     "dlc": 86,
@@ -2068,5 +2135,5 @@
     "dlc": 86,
     "farming": 7
   },
-  "current_relationship_counts_semantics": "Counts above are references actually present in this partial normalized reverse index. canonical_relationship_counts is the authoritative current relationship census from docs/data/pq-reward-relationships.json. Differences for skills and Super Souls are unresolved source-layer coverage gaps; DLC is now exactly aligned."
+  "current_relationship_counts_semantics": "Counts are the exact canonical relationship projection counts. Normalized source-layer coverage may be lower and is tracked separately in provenance/audit artifacts."
 }
