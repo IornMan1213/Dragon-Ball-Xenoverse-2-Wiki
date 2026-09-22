@@ -182,3 +182,20 @@
 - Post-write validation target: **452/452**, **0 duplicate IDs**, **0 nullable canonical `ki_cost`**, **0 exactly-two-source records**, canonical/index source parity, and no internal AI/UI/search citation artifacts.
 - CI/Actions: no successful workflow/check is claimed unless an exposed success is verified for the resulting commit chain.
 - Exact next batch: **recompute the live skill census after this batch and move from provenance cleanup to the highest-priority remaining structural gap (relationship/projection drift or the largest unresolved required-field cohort)**.
+
+
+### 2026-09-22 live-state refresh — post-validation and next structural batch
+- Live commit: **2180c64f2788d4eab9a0d1605e75db5ffcaf6d18**.
+- Canonical skill count: **452**.
+- Canonical/index count: **452 / 452**.
+- Duplicate canonical IDs: **0**.
+- Nullable canonical `ki_cost`: **0**.
+- Exactly-two-source canonical records: **0**.
+- Current active workstream: **P1 skill projection/relationship integrity after completion of the low-source provenance queue**.
+- Last completed batch: **Time Bullet, Timespace Impact, Ultra Instinct, Unrelenting Barrage, Venus Fist, Victory Rush**; each now has three canonical/index sources.
+- Validation: all six targeted canonical/index source arrays are identical; all six have `last_verified=2026-09-22`; JSON parsing succeeded; 452/452 counts remain; 0 duplicate IDs; 0 nullable `ki_cost`; 0 exactly-two-source records; no internal citation artifacts detected in the targeted records.
+- CI/Actions: combined commit status returned **no statuses** and the commit-specific workflow-run query returned **no workflow runs**; CI success is not claimed.
+- Commits in this cycle: **32b3842844fabc7af3748d3f97eae02d5acdda2f2**, **8eaeed90657c0cd64f99414a026a41bafd608395**, **6d83c4bcf702b28ef1bcdd85164bba2549f14966**, **032618eef5ff1cceebbe79e1416a17db9b527fc3**, **b1529bdc306f3001ea9e0e01e98c0a9d11ebb756**, **2180c64f2788d4eab9a0d1605e75db5ffcaf6d18**.
+- Current projection census: **38 canonical/index field mismatches** remain across projected fields: **33 notes**, **2 mechanics_notes**, **1 unlock_method**, **1 ultimate_finish_required**, **1 source_quest_or_shop**.
+- Exact next batch: **fix the two deterministic `mechanics_notes` projection mismatches — Assault Vanish and Solar Flare — using canonical values as the source of truth, then recompute the projection census before selecting the next family.** This is a two-record batch because only two mechanics mismatches remain and the invariant is directly deterministic.
+- Subsequent queue after that batch: reconcile the remaining **33 notes** projection mismatches in bounded related groups; do not overwrite canonical values.
