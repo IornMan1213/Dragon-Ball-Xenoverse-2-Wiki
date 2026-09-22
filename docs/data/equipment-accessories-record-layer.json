@@ -1647,192 +1647,202 @@
     {
       "id": "equip-061",
       "name": "King Vegeta (DB Super) Wig",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 154 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Conton City Vote Pack — PQ 154",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         154
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
     },
     {
       "id": "equip-062",
       "name": "Gamma 2 Helmet",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 155 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Hero of Justice Pack 1 — PQ 155",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         155
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
     },
     {
       "id": "equip-063",
       "name": "Gamma 1's Helmet",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 156 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Hero of Justice Pack 1 — PQ 156",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         156
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
     },
     {
       "id": "equip-064",
       "name": "Gamma 2's Clothes",
-      "category": "unclassified",
+      "category": "equipment",
       "acquisition_routes": [
         "Parallel Quest 158 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Hero of Justice Pack 1 — PQ 158",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         158
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
     },
     {
       "id": "equip-065",
       "name": "Dr. Hedo Hood",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 159 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Hero of Justice Pack 2 — PQ 159",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         159
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
     },
     {
       "id": "equip-066",
       "name": "Red Ribbon Army Helmet",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 160 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Hero of Justice Pack 2 — PQ 160",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         160
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
     },
     {
       "id": "equip-067",
       "name": "Red Ribbon Soldier 94 Clothes",
-      "category": "unclassified",
+      "category": "equipment",
       "acquisition_routes": [
         "Parallel Quest 161 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Hero of Justice Pack 2 — PQ 161",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         161
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
     },
     {
       "id": "equip-068",
       "name": "Dr. Hedo Suit",
-      "category": "unclassified",
+      "category": "equipment",
       "acquisition_routes": [
         "Parallel Quest 162 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Hero of Justice Pack 2 — PQ 162",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         162
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
     },
     {
       "id": "equip-069",
       "name": "Gohan (Beast) Wig",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 162 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Hero of Justice Pack 2 — PQ 162",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         162
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
     },
     {
       "id": "equip-070",
       "name": "Goku Wig",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 25 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Base game — PQ 25",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         25
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
     },
     {
       "id": "equip-071",
