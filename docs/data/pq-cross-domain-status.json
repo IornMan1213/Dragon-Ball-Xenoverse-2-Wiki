@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "scope": "PQ 1-186",
-  "status": "relationship_index_consistency_audited_after_pq_12_14",
+  "status": "deterministic_cross_domain_index_reconciled",
   "canonical_range": {
     "first": 1,
     "last": 186,
@@ -12,16 +12,16 @@
   "audit": "docs/data/pq-cross-domain-audit.json",
   "reverse_index_plan": "docs/data/pq-cross-domain-index.json",
   "current_edges": {
-    "skill": 232,
-    "super_soul": 135,
-    "equipment": 122,
+    "skill": 244,
+    "super_soul": 151,
+    "equipment": 125,
     "character": 247,
     "dlc": 88,
     "farming": 7
   },
   "note": "Character feature relationships are now populated from explicit canonical PQ objective/ultimate-finish character references with a small documented alias map. Generic enemy/appearance text was not used as attribution. Full 1-186 exhaustiveness still requires reconciliation of all populated fields and unresolved/conflict records.",
   "reconciliation_report": "docs/data/pq-cross-domain-reconciliation.json",
-  "next_gate": "Leave the 840-edge baseline intact and perform only evidence-driven expansion when stronger source coverage is found; re-run the same integrity/reconciliation checks after any additions.",
+  "next_gate": "The master PQ reward relationship index is synchronized with the current skill, Super Soul, and equipment reports. Preserve the 862-edge baseline and perform only evidence-driven additions or invariant repairs.",
   "provenance_reconciliation": {
     "source_backed_edge_only_cases_resolved": 88,
     "edge_only_cases_remaining_unresolved": 0,
@@ -31,8 +31,8 @@
     "remaining_unresolved_source_only_entries": 0
   },
   "current_counts": {
-    "skill": 236,
-    "super_soul": 137,
+    "skill": 244,
+    "super_soul": 151,
     "equipment": 125,
     "character": 247,
     "dlc": 88,
@@ -66,7 +66,7 @@
     "interpretation": "PQ 1-14 are not represented in the canonical reward batch directory used by this reconciliation. Do not claim canonical batch exhaustiveness for those four PQs; existing relationship evidence for other PQs remains independently sourced."
   },
   "final_consistency_checks": {
-    "total_edges": 840,
+    "total_edges": 862,
     "duplicates": 0,
     "invalid_pq_numbers": 0,
     "stale_count_fields": 0,
