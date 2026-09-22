@@ -2198,3 +2198,6 @@
 - [x] Synchronized the corresponding skill-index records and registered a dedicated provenance audit.
 - [x] Preserved evidence limits; corrected Holy Wrath's canonical description to Ki Blast Super and clarified Heroic Assault's documented 40% Ultimate Finish roll.
 - [ ] Next: recompute live stale census and process the next ten stale alphabetical canonical skills; append new discoveries rather than deleting historical checklist entries.
+
+- [x] Final validation confirmed **452/452 canonical-index records, 0 duplicate IDs, 0 ID-set/field mismatches**, with **198 stale** records remaining.
+- [ ] Next exact stale batch: **Hyper Tornado; Ill Bomber; Ill Rain; Impact Flare; Impulse Slash; Indomitable; Innocence Breath; Innocence Bullet; Innocence Cannon; Instant Charge**.
