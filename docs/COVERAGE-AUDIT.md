@@ -1185,3 +1185,12 @@
 - Preserved the existing Skill Shop endpoint, Base Game classification, 300-Ki cost, CaC availability, and `ultimate_finish_required: false`; no unsupported shop timing or drop probability was inferred.
 - Refreshed canonical/index source projections and `last_verified` to **2026-09-21**.
 - Post-write live census: **38 exactly-two-source records**.
+
+
+## 2026-09-21 — Gigantic Burst low-source provenance strengthening
+- Live pre-edit census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 38 exactly-two-source records**.
+- Strengthened **Gigantic Burst (`skill-gigantic-burst`)** from two to three sources with the Dragon Ball Wiki's Gigantic Burst entry, independently confirming the Xenoverse 2 skill identity, Extra Pack 3 context, and PQ127 acquisition.
+- Independent PQ evidence confirms Gigantic Burst in the **Basic Reward** section for PQ127 — Multiverse Match of the Century; existing `ultimate_finish_required: false` semantics were preserved.
+- Preserved the existing PQ127 endpoint, 500-Ki cost, Kefla (Super Saiyan) association, CaC availability, and Extra Pack 3 requirement; no unsupported drop probability or reward condition was inferred.
+- Refreshed canonical/index source projections and `last_verified` to **2026-09-21**.
+- Post-write live census: **37 exactly-two-source records**.
