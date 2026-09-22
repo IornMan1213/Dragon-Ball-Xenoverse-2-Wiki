@@ -368,3 +368,15 @@
 - No `accessory_rewards` field was invented for canonical PQ records; the cross-link contract supports a distinct PQ ↔ Accessories relationship layer without requiring accessories to be folded into the PQ reward-array schema.
 - Exact next task: independently reconcile the remaining **37 accessory research leads** against inventory-level evidence and promote only exact canonical identities. Keep clothing/set/component claims separate from canonical accessory identities.
 - Canonical source-of-truth rule remains active: canonical accessory identities and canonical PQ data are authoritative; research/verification layers only provide evidence and unresolved leads.
+
+
+## 2026-09-22 — Current live-state refresh after accessory canonical promotion
+- Live commit before this refresh: 87c3ac55ef97a8e1a4c0ebdb39f2ec1136438490.
+- Canonical counts: **452 skills / 186 PQs / 234 Super Souls / 172 equipment-accessory records / 58 accessory identities**.
+- Active workstream: **accessory canonical coverage and PQ cross-link integrity**.
+- Latest completed batch: **8 early/base-game accessory PQ identities**, promoted/reconciled as acc-051 through acc-058.
+- Relationship census: **PQ↔Skill 244/239; PQ↔Super Soul 151/148; PQ↔Equipment 123/121; PQ↔Accessory 16/16**.
+- Accessory research queue: **29 unresolved identities** remain; they are preserved rather than inferred from stale IDs or clothing/set/component labels.
+- Canonical source-of-truth rule: canonical data determines identity and field values; verification status and research evidence are supporting metadata only.
+- CI limitation: no successful GitHub Actions run is exposed for this direct-commit chain; no CI success is claimed.
+- Exact next task: reconcile the next **8–20** unresolved accessory research leads against independent inventory-level evidence, then synchronize canonical data, bridge, report, backlog, validation/audit, TODO, CHANGELOG, and handoff together.
