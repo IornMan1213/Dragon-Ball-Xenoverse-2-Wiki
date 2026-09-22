@@ -145,6 +145,7 @@
     "skill_blaster_ball_provenance": "docs/data/skill-blaster-ball-provenance-audit-2026-09-22.json",
     "skill_bluff_kamehameha_provenance": "docs/data/skill-bluff-kamehameha-provenance-audit-2026-09-22.json",
     "skill_breaker_energy_wave_provenance": "docs/data/skill-breaker-energy-wave-provenance-audit-2026-09-22.json",
-    "skill_burning_attack_provenance": "docs/data/skill-burning-attack-provenance-audit-2026-09-22.json"
+    "skill_burning_attack_provenance": "docs/data/skill-burning-attack-provenance-audit-2026-09-22.json",
+    "skill_burning_slash_provenance": "docs/data/skill-burning-slash-provenance-audit-2026-09-22.json"
   }
 }
