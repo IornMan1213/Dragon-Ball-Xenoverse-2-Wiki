@@ -2300,3 +2300,15 @@
 - [ ] Runtime/CI execution remains unavailable; no CI success claimed.
 - [x] Commits: canonical `b5a95413109bd7010da0492192264cfc93703bda`; index `62485d33f4059af1c09c0b6eb8cf0c54b312f595`; audit `90734db5844f127df01cd4fe9e75cce349d1bcef` + validation update; registry `4bdd6135faba649ef5fc309f21d1218a805fcd0e`.
 - [ ] Exact next batch: recompute the live census and continue the stale-`last_verified` P1 queue with the next stale record after `skill-burning-slash`.
+
+
+### 2026-09-22 cycle update — Burning Swan provenance reconciliation
+- [x] Live census before edit: **452 canonical / 452 index / 0 duplicate IDs / 387 stale**; bounded target: `skill-burning-swan`.
+- [x] Official Dragon Ball documentation confirms Burning Swan as Videl's Super Attack and describes its slow-moving, chargeable Ki Blast behavior. Dedicated Xenoverse 2 documentation ties it to PQ167; the maintained PQ167 guide explicitly lists it as a **Basic Reward**. citeturn0search3turn0search2turn0search0
+- [x] Refreshed canonical/index provenance, mechanics notes, source set, and `last_verified`; preserved the existing PQ167 Basic Reward and non-Ultimate-Finish-only semantics. A separate reference describes a random PQ167 drop, but no numeric probability is asserted.
+- [x] Validation exposed and fixed an index projection mismatch in `ki_cost`; canonical/index shared semantic fields are now aligned.
+- [x] Added and registered `docs/data/skill-burning-swan-provenance-audit-2026-09-22.json`.
+- [x] Final static validation: **452/452**, **0 duplicate IDs**, **386 stale remaining**, affected semantic parity true.
+- [ ] Runtime/CI execution remains unavailable; no CI success claimed.
+- [x] Commits: canonical `dee4dc1ff461dd80cbf73ac298f3d0c742570a99`; index `33f64df7aa6b05c5605f354cb6cbb705eb5f69b0` + projection fix `db889513dd6aed7340db654b23e0e3d3f5ced9da`; audit `f21969f8f88dafe4b494bd07cf151414c2ae2343` + validation `51ba23974c0006741041606b01d217052c2e92f0`; registry `60c1b29c0e395ed8d438b80d45df92dfc6ce2545`.
+- [ ] Exact next batch: recompute the live census and continue the stale-`last_verified` P1 queue with the next stale record after `skill-burning-swan`.
