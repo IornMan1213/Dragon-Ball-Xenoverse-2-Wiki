@@ -4955,13 +4955,14 @@
       "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Fighting_Pose_E"
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_E",
+        "https://www.youtube.com/watch?v=0RYPXsuLTGg"
       ],
       "duration_seconds": 20,
       "race_restriction": "All CaC races",
       "source_quest": 19,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 19 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 19 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 low-source provenance strengthening: a gameplay listing for PQ19 independently identifies Fighting Pose E as a Basic Reward, corroborating the existing PQ19 acquisition and reward-tier semantics.",
       "id": "skill-fighting-pose-e",
       "source_parallel_quests": [
         19
