@@ -674,7 +674,8 @@
     "2026-09-21 reconciliation: Cooler (Final Form), Lord Slug, Majin Buu, and Gohan (Adult) and Videl lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Existing Cooler Shadow Crusher and Lord Slug Darkness Rush edges were preserved without duplication.",
     "2026-09-21 reconciliation: Gotenks, Turles, Broly, and God of Destruction Beerus lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. The Gotenks ultimate route retains its distinct canonical skill ID despite sharing the displayed skill name with the Super Ghost Kamikaze Attack route.",
     "2026-09-21 reconciliation: Whis, Pan, Jaco, and Goku lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Pan's existing Dancing Parapara edge and Goku's existing Spirit Bomb/Instant Transmission edges were preserved without duplication.",
-    "2026-09-21 reconciliation: Gohan (Future), Bardock, Bojack, and Zamasu lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Zamasu's initiation lesson has no canonical skill ID and was intentionally left unlinked."
+    "2026-09-21 reconciliation: Gohan (Future), Bardock, Bojack, and Zamasu lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Zamasu's initiation lesson has no canonical skill ID and was intentionally left unlinked.",
+    "2026-09-22 typed-reward reconciliation: the canonical mentor layer contains 133 lesson reward objects: 132 skill rewards and one non-skill Super Soul reward (Zamasu initiation). The Super Soul is represented as reward_type=super_soul with reward_id=super-soul-143, so it is intentionally excluded from mentor→skill edge counts rather than reported as an unresolved skill endpoint."
   ],
   "validation": {
     "canonical_mentor_records": 33,
@@ -682,6 +683,10 @@
     "mentor_to_skill_edge_count": 131,
     "unique_skill_endpoints": 130,
     "unresolved_edge_count": 0,
-    "broken_skill_endpoints": 0
+    "broken_skill_endpoints": 0,
+    "mentor_lesson_reward_count": 133,
+    "typed_skill_reward_count": 132,
+    "typed_non_skill_reward_count": 1,
+    "typed_non_skill_unresolved_count": 0
   }
 }
