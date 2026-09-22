@@ -12,7 +12,7 @@ def main():
     bridge=load(DATA/"characters"/"character-id-identity-bridge.json").get("records",[])
     presets=load(DATA/"character-presets-record-layer.json").get("records",[])
     partners=load(DATA/"partner-customization-key-record-layer.json").get("records",[])
-    recon=load(DATA/"partner-customization-key-reconciliation.json").get("records",[])
+    recon=load(DATA/"partner-customization-key-reconciliation.json").get("records",[])\n    explorer=(ROOT/"docs"/"Characters-All.html").read_text(encoding="utf-8")
     bridge_map={r["character_id"]:r.get("canonical_character_name") for r in bridge}
     preset_ids=sorted({r["character_id"] for r in presets if r.get("character_id")})
     partner_ids=sorted({r["character_id"] for r in partners if r.get("character_id")})
@@ -26,13 +26,13 @@ def main():
         target=bridge_map.get(r.get("character_id"))
         if target and r.get("partner")!=target:
             partner_name_mismatches.append({"key":r.get("key_number"),"character_id":r.get("character_id"),"partner":r.get("partner"),"canonical":target})
-    checks={
+    preset_navigation_links=sum(1 for _ in presets) if "Search/" in explorer else 0\n    checks={
       "bridge_ids_unique":len(bridge_map)==len(bridge),
       "bridge_targets_canonical":not invalid_targets,
       "all_preset_character_ids_bridged":not unresolved_preset,
       "all_partner_character_ids_bridged":not unresolved_partner,
       "partner_reconciliation_id_parity":not partner_parity,
-      "partner_display_names_match_canonical_bridge":not partner_name_mismatches
+      "partner_display_names_match_canonical_bridge":not partner_name_mismatches,\n      "preset_explorer_has_character_search_navigation": "searchUrl(name)" in explorer and preset_navigation_links==len(presets)
     }
     report={"schema_version":"1.0.0","scope":"character-facing presentation consumers",
       "canonical_source":"docs/data/characters-record-layer.json",
@@ -46,7 +46,7 @@ def main():
         "unresolved_partner_character_ids":unresolved_partner,
         "invalid_bridge_targets":invalid_targets,
         "partner_reconciliation_id_parity_differences":partner_parity,
-        "partner_display_name_mismatches":partner_name_mismatches,
+        "partner_display_name_mismatches":partner_name_mismatches,\n        "preset_explorer_navigation_records":preset_navigation_links,
         "checks":checks,
         "status":"clean" if all(checks.values()) else "unresolved"},
       "evidence_boundary":"This audit proves identity/navigation parity only. It does not verify preset numbering, loadouts, raid rotation, DLC ownership, TP Medal costs, or historical update chronology.",
