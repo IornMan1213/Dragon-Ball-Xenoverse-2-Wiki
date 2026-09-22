@@ -2201,3 +2201,9 @@
 
 - [x] Final validation confirmed **452/452 canonical-index records, 0 duplicate IDs, 0 ID-set/field mismatches**, with **198 stale** records remaining.
 - [ ] Next exact stale batch: **Hyper Tornado; Ill Bomber; Ill Rain; Impact Flare; Impulse Slash; Indomitable; Innocence Breath; Innocence Bullet; Innocence Cannon; Instant Charge**.
+
+### 2026-09-22 — Hyper Tornado through Instant Charge
+- [x] Refreshed the next ten stale alphabetical skill records and synchronized the canonical/index layers.
+- [x] Added and registered the dedicated provenance audit.
+- [x] Validation: **452/452, 0 duplicates, 0 canonical↔index mismatches, 188 stale**.
+- [ ] Next exact stale batch: **Instant Rise; Instant Severance; Instant Transmission; Jumping Energy Wave; Justice Blade; Justice Combination; Justice Drive; Justice Kick; Justice Pose; Justice Rush**.
