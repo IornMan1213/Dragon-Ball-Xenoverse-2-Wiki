@@ -7927,10 +7927,11 @@
       "source_quest": 5,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 source-PQ reconciliation: the canonical record incorrectly carried PQ48 in source_parallel_quests; PQ48 rewards Kamekameha (a distinct skill), while PQ05 explicitly lists Kamehameha. Removed the false PQ48 relationship and retained PQ05 as the sole documented acquisition quest.",
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 source-PQ reconciliation: the canonical PQ relationship index currently associates this skill with PQ05 and PQ48. A maintained research note identifies a possible naming conflict with PQ48 and the distinct Kamekameha skill; that conflict is preserved as research context rather than overriding the canonical relationship index. PQ05 remains the directly documented acquisition quest in this record.",
       "id": "skill-kamehameha",
       "source_parallel_quests": [
-        5
+        5,
+        48
       ]
     },
     {
