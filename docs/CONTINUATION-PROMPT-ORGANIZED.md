@@ -1465,3 +1465,14 @@
 - [x] Static validation after editing: **452/452** canonical/index; **0 duplicate canonical IDs**; **334 stale canonical records remain**; all seven targets have `last_verified: 2026-09-22`; shared `name`, `class`, `subcategory`, and `last_verified` fields have **0 mismatches**.
 - [ ] Runtime/CI execution remains unavailable; no CI success claimed.
 - [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Divine Lasso, Divine Ray Bomb, Divine Spear, Divine Wrath: Purification, Divinity Unleashed, Do or Die, Dodon Ray**, then adjacent stale records where evidence remains bounded.
+
+
+### 2026-09-22 cycle update — Divine Lasso through Dodoria Launcher provenance batch
+- [x] Fresh live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 334 stale**.
+- [x] Bounded batch completed for **Divine Lasso, Divine Ray Bomb, Divine Spear, Divine Wrath: Purification, Divinity Unleashed, Do or Die, Dodon Ray, Dodoria Beam, Dodoria Headbutt, and Dodoria Launcher**.
+- [x] Refreshed canonical/index `last_verified` to **2026-09-22** for all ten records and refreshed bounded mechanics/provenance notes.
+- [x] Preserved evidence boundaries: Divine Lasso remains canonically classified as a Strike Ultimate despite conflicting historical community damage-scaling reports; Divine Ray Bomb retains its PQ173 Ultimate-Finish 45% route; Divine Spear retains its documented 50% Ultimate-Finish route and existing CaC correction; unresolved drop probabilities remain unresolved.
+- [x] Mentor endpoints for Dodon Ray and the three Dodoria skills remain explicit; detailed combat mechanics stay deferred where current evidence is acquisition-focused.
+- [x] Static validation after editing: **452/452** canonical/index; **0 duplicate canonical IDs**; **324 stale canonical records remain**; all ten targets have `last_verified: 2026-09-22`; shared `name`, `class`, `subcategory`, and `last_verified` fields have **0 mismatches**.
+- [ ] Runtime/CI execution remains unavailable; no CI success claimed.
+- [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Double Crush, Double Death Slicer, Double Sunday, Dragon Blitz, Dragon Burn, Dragon Fist, Dragon Spark, Dragon Spiral**, then adjacent stale records where evidence remains bounded.
