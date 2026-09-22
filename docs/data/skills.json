@@ -5423,7 +5423,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during cross-database orphan-skill audit. UF requirement is supported by current/retrieved acquisition evidence; exact probability remains unresolved.",
+      "notes": "2026-09-22 provenance/mechanics refresh: PQ95 reward documentation confirms Flash Bomber in the PQ95 skill reward set. Existing Ultimate Finish requirement retained; exact drop percentage remains unresolved. 100-Ki sustained Ki-blast barrage can be extended with additional Ki.",
       "id": "skill-flash-bomber",
       "source_quest": 95,
       "source_parallel_quests": [
@@ -5458,7 +5458,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 138,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-21 Ultra Pack 2 provenance audit: official Bandai Namco documentation confirms Ultra Pack 2 contains five Parallel Quests and eight techniques; the maintained 186-PQ guide maps the eight canonical skills to PQ138–142. The live canonical source-PQ relationships agree with the DLC label for all eight records. This pass verifies DLC provenance only and does not normalize reward-tier semantics.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms Flash Chaser as a 100-Ki Ki Blast Super from PQ138 and associated with Kefla. Existing 34% Ultimate Finish roll retained as documented; no narrower CaC restriction inferred.",
       "id": "skill-flash-chaser",
       "source_parallel_quests": [
         138
@@ -5486,7 +5486,7 @@
       "mechanics_notes": "Current dataset evidence identifies Flash Fist Crush as a 100-Ki Strike Super obtained from a Shenron wish and a universal counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "source_quest": null,
       "acquisition_type": "other_nonquest",
-      "notes": "2026-09-20 wish-route refinement: dedicated skill evidence identifies Flash Fist Crush as the first-result route of “I want a new Super Attack!” wish. The route is non-PQ and not an Ultimate Finish reward.",
+      "notes": "2026-09-22 mechanics/provenance refresh: dedicated evidence confirms the 100-Ki universal Strike counter obtained from Shenron's “I want a new Super Attack” wish. The stance counters incoming attacks including Ki Blasts and can execute offensively after the stance window.",
       "id": "skill-flash-fist-crush"
     },
     {
@@ -5510,7 +5510,7 @@
       "source_quest": "Vegeta mentor training — lesson-2.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.",
+      "notes": "2026-09-22 mentor refresh: Vegeta Lesson 2 is independently corroborated as the acquisition endpoint. The 100-Ki Ki Blast Super concentrates Ki at the target's current/future position and detonates it in a small explosion.",
       "id": "skill-flash-strike",
       "source_mentor": [
         "mentor-vegeta"
@@ -5542,7 +5542,7 @@
       "dlc_requirement": "Free Update 2",
       "last_verified": "2026-09-22",
       "research_status": "enriched",
-      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.",
+      "notes": "2026-09-22 mechanics/provenance refresh: current dedicated evidence confirms Expert Mission 18, 100 Ki, and Ki Blast Super classification. It launches a large sphere followed by a rapid smaller-Ki-blast barrage if the initial sphere connects and can be used during Boost Dash.",
       "id": "skill-focus-flash"
     },
     {
@@ -5571,7 +5571,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 180,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: current PQ180 reward listing explicitly includes Force Edge in the Ultimate Finish reward pool; dedicated skill documentation independently confirms PQ180. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.\n2026-09-21 DLC provenance census: Dragon Ball DAIMA Pack is the documented DLC provenance for this skill; the live canonical acquisition endpoint maps to Parallel Quest 180 — \"Battle of Resolve: VS Goku Black\". Bandai Namco's official DAIMA Pack announcement confirms the pack contains Parallel Quests and player-character skills.",
+      "notes": "2026-09-22 provenance refresh: current DLC documentation identifies Force Edge as one of the six skills in the Dragon Ball DAIMA Pack, with PQ180 as its documented Ultimate Finish reward route. Existing 50% Ultimate Finish condition and reward-table presentation conflict are preserved.",
       "id": "skill-force-edge",
       "source_parallel_quests": [
         180
@@ -5603,7 +5603,7 @@
       "source_quest": 59,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 canonical refinement: corrected exact quest title and Basic Reward provenance. Dedicated skill evidence confirms 200 Stamina for the Evasive; no Ultimate Finish-only gate is established.",
+      "notes": "2026-09-22 provenance/mechanics refresh: PQ59 reward documentation confirms the acquisition relationship. Current skill evidence identifies a 200-Stamina Ki Blast Evasive that creates a barrier capable of canceling Ki waves; Basic Reward status remains documented with no UF-only gate.",
       "id": "skill-force-shield",
       "source_parallel_quests": [
         59
@@ -5637,7 +5637,7 @@
       "source_quest": 133,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-21 Ultra Pack 1 provenance audit: official Bandai Namco documentation identifies Ultra Pack 1 as containing 10 additional skills and five Parallel Quests (PQ133–137); the maintained all-PQ guide independently maps the ten player-acquirable skills to those quests. Character-only Final Charge and Final Flash (Super) are retained under Ultra Pack 1 because current technique documentation identifies them as Ultra Pack 1 character-exclusive skills; they are distinct from the ten Future Warrior-acquirable skills listed for the pack. This pass verifies DLC provenance only and does not infer reward-slot semantics where sources conflict.",
+      "notes": "2026-09-22 provenance/mechanics refresh: PQ133 is confirmed as the acquisition quest, with the existing 25% Ultimate Finish roll retained. The 100-Ki Power Up Super has three charge/duration levels, approximately 30, 31.5, and 33 seconds.",
       "id": "skill-formation",
       "source_parallel_quests": [
         133
@@ -5669,7 +5669,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 29,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ29 reward listings explicitly place Freedom Kick in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-22 provenance/mechanics refresh: PQ29 reward documentation confirms Freedom Kick in the quest reward set. It is a 100-Ki Strike Super that tracks the opponent through a multi-kick rush; current documentation describes four hits and tracking after knockback.",
       "id": "skill-freedom-kick",
       "source_parallel_quests": [
         29
@@ -5696,7 +5696,7 @@
       "source_quest": "Turles mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-22 mentor/mechanics refresh: current dedicated evidence confirms Turles Instructor Quest 3 as the acquisition endpoint and a 100-Ki Power Up Super lasting 30 seconds. Additional input during the eating animation teleports the user in front of the opponent for a stunning attack.",
       "id": "skill-fruit-of-the-tree-of-might",
       "source_mentor": [
         "mentor-turles"
