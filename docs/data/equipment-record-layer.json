@@ -1606,7 +1606,7 @@
     {
       "id": "equip-081",
       "name": "Four-Star Dragon Ball Hat",
-      "category": "costume_or_accessory",
+      "category": "headwear",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-005 reward",
       "pq_sources": [
@@ -1623,7 +1623,7 @@
     {
       "id": "equip-082",
       "name": "Goku's Turtle Hermit Gi (King Kai)",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-008 reward",
       "pq_sources": [
@@ -1640,7 +1640,7 @@
     {
       "id": "equip-083",
       "name": "Chiaotzu's Hat (With Collar)",
-      "category": "costume_or_accessory",
+      "category": "headwear",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-009 reward",
       "pq_sources": [
@@ -1657,7 +1657,7 @@
     {
       "id": "equip-084",
       "name": "Piccolo's School Clothes",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-049 reward",
       "pq_sources": [
@@ -1672,26 +1672,9 @@
       ]
     },
     {
-      "id": "equip-085",
-      "name": "Mr. Shape Up M",
-      "category": "costume_or_accessory",
-      "acquisition_type": "Parallel Quest",
-      "acquisition_source": "Parallel Quest pq-050 reward",
-      "pq_sources": [
-        "pq-pq-050"
-      ],
-      "dlc_requirement": null,
-      "verification_status": "indexed",
-      "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
-      "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
-    },
-    {
       "id": "equip-086",
       "name": "Battle Suit (CC)",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-061 reward",
       "pq_sources": [
@@ -1708,7 +1691,7 @@
     {
       "id": "equip-087",
       "name": "Frieza's Suit (Final Form)",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-062 reward",
       "pq_sources": [
@@ -1725,16 +1708,16 @@
     {
       "id": "equip-088",
       "name": "Goku Wig (Super Saiyan)",
-      "category": "costume_or_accessory",
+      "category": "normalized_alias",
       "acquisition_type": "Parallel Quest",
-      "acquisition_source": "Parallel Quest pq-063 reward",
+      "acquisition_source": "Historical PQ63 endpoint normalized to canonical accessory acc-012 (Goku Wig (Super Saiyan)); independent evidence also lists PQ18.",
       "pq_sources": [
         "pq-pq-063"
       ],
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Historical equipment endpoint; not a separate canonical identity. Canonical accessory acc-012 retains the conflicting PQ18/PQ63 evidence.",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
@@ -1742,7 +1725,7 @@
     {
       "id": "equip-089",
       "name": "Gohan's Gi (Adult)",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-065 reward",
       "pq_sources": [
@@ -1759,16 +1742,16 @@
     {
       "id": "equip-090",
       "name": "Whis Symbol Gi",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
-      "acquisition_source": "Parallel Quest pq-066 reward",
+      "acquisition_source": "Parallel Quest pq-076 reward",
       "pq_sources": [
-        "pq-pq-066"
+        "pq-pq-076"
       ],
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical acquisition corrected from PQ66 to PQ76 after independent corroboration. Exact reward-slot semantics remain unresolved.",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
