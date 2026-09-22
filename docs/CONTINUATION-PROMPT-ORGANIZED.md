@@ -1254,3 +1254,15 @@
 - [ ] Runtime/CI execution remains unavailable; no executable CI success claimed.
 - [x] Commits: canonical `bae7a84dab5ae8811991e75043215cd591cd0648`; index `21ef1ec45c1d9acad71acf05e1a4c2815e653b4f`; audit `08744a4c23e7d2495a59ef1923bbc04a2c81b9ae`; registry `4fc242bdfce5745dcb1f40ea637bff59ca558367`.
 - [ ] Exact next batch: recompute the live census and continue the stale-`last_verified` P1 skill provenance queue with **Chaos Shot (`skill-chaos-shot`)**, preserving its Free Update 1 / TP Medal Shop provenance and historical source-mapping uncertainty.
+
+
+### 2026-09-22 cycle update — Chaos Shot provenance verification
+- [x] Fresh live skill census: **452 canonical / 452 index / 0 duplicate IDs / 396 stale before this edit**; bounded record: `skill-chaos-shot`.
+- [x] Independent evidence confirms **Chaos Shot** as a **100-Ki Ki Blast Super** used by Frost and acquired from the **TP Medal Shop**. Official Bandai Namco documentation confirms TP Medals remain earnable and usable in-game after the May 2024 sales transition. citeturn0search4turn0search0turn0search2
+- [x] Refreshed canonical/index `last_verified` to **2026-09-22** and added the dedicated skill reference plus official TP Medal transition notice to provenance sources.
+- [x] Preserved the existing Free Update 1 historical mapping uncertainty: the official announcement does not individually enumerate Chaos Shot, so no stronger direct attribution was invented.
+- [x] Added `docs/data/skill-chaos-shot-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Static validation: **452/452** records, **0 duplicate IDs**, **395 stale remaining**, affected canonical/index semantic parity preserved.
+- [ ] Runtime/CI execution remains unavailable; no executable CI success claimed.
+- [x] Commits: canonical `de6d89f4b1e2e322a54391c66b9e2bf6b626ca80`; index `424389a50af159562f6c5831f497e0476ea87b47`; audit `df4ffc97825c0d80e7a74523ba0ea4bd5e308a6c`; registry `7d33bc566155f3ca39ff43036015a0013b665c6e`.
+- [ ] Exact next batch: recompute the live census and continue with the next stale P1 skill provenance record after `skill-chaos-shot`.
