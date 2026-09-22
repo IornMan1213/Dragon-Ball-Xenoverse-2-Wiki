@@ -1624,3 +1624,15 @@
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [x] Commits: `810b923f691ba80e35821910e028f85827506700`, `3a717bf13d8434c86571d37df282bfe026faff6d`.
 - [ ] Exact next batch: continue the reverse-navigation chain through `scripts/validate_record_reverse_pq_navigation.py` and its Super Soul/Equipment consumers, checking deterministic pair uniqueness and stale/one-way landing links without promoting source-conflict metadata into canonical relationships.
+
+
+### 2026-09-22 cycle update — PQ explorer exact reward/projection contract hardening
+- [x] Audited `scripts/validate_pq_page_consumers.py` and the published `docs/Parallel-Quests-All.html` consumer against the live 186-record canonical PQ layer and 860-edge relationship graph.
+- [x] Hardened structured reward validation so Skills, Super Souls, and Equipment require exact canonical `(PQ,target)` parity, list-valued fields, zero duplicate structured pairs, zero duplicate canonical relationship pairs, and relationship PQ IDs that resolve to the canonical PQ layer.
+- [x] Hardened Character/DLC projection validation to reject duplicate canonical pairs and explicitly verify that the scalar `dlcByPq` projection remains unambiguous.
+- [x] Live validation result: **186 unique PQ IDs / 186 unique PQ numbers; 244/244 Skills, 151/151 Super Souls, 125/125 Equipment; 247 Character pairs; 86 DLC pairs; 0 missing / 0 extra / 0 duplicate / 0 malformed / 0 invalid PQ IDs**. DLC remains exactly one canonical edge per PQ, so the scalar page projection is lossless for the current canonical graph.
+- [x] Refreshed `docs/data/pq-page-consumer-audit.json` to schema **1.1.0**, recording the exact-pair and projection hardening contract.
+- [x] No canonical relationships, identities, aliases, or content facts were changed.
+- [x] Validator commit: `330cd587e79d3ec89cb8b7426beaf5d3bc3e1754`; audit refresh commit: `9319dec6b425411632fcdc9559c4bfa2eba335ce`.
+- [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
+- [ ] Exact next batch: continue from the cross-domain registry to the next registered consumer with remaining endpoint/count-only or one-way navigation assumptions, prioritizing deterministic local landing/search consumers before any broad content research.
