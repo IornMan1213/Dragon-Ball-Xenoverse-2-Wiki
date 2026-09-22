@@ -1714,3 +1714,15 @@
 - [x] Static validation: 452/452, no duplicate IDs, and exact affected-record semantic parity between canonical/index layers.
 - [ ] Runtime/CI remains unavailable; no executable CI success claimed.
 - [ ] Exact next batch: continue the stale-last_verified P1 skill provenance queue with Big Bang Knuckle (skill-big-bang-knuckle), recomputing the live canonical/index census first.
+
+
+### 2026-09-22 — Big Bang Knuckle provenance verification
+- [x] Fresh live skill census: 452 canonical / 452 index / 0 duplicate IDs; bounded record: skill-big-bang-knuckle.
+- [x] Current dedicated evidence confirms Parallel Quest 172 — "Little Big Brother" as the acquisition endpoint and identifies Big Bang Knuckle as a 100-Ki Strike Super associated with Vegeta (Super Saiyan God) Ultra Supervillain. Official Dragon Ball documentation independently confirms the move in FUTURE SAGA Chapter 1.
+- [x] Refreshed docs/data/skills.json and docs/data/skills-index.json to last_verified: 2026-09-22 and synchronized provenance notes/sources.
+- [x] Added docs/data/skill-big-bang-knuckle-provenance-audit-2026-09-22.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Preserved the existing 40% Ultimate Finish bonus-slot evidence and conflicting Basic Reward presentation; no new probability or reward-tier correction was inferred.
+- [x] No skill identity, acquisition relationship, or DLC identity was changed.
+- [x] Static validation: 452/452, no duplicate IDs, canonical/index affected-record parity preserved.
+- [ ] Runtime/CI remains unavailable; no executable CI success claimed.
+- [ ] Exact next batch: continue the stale-last_verified P1 skill provenance queue with the next unfinished skill after Big Bang Knuckle, recomputing the live canonical/index census first.
