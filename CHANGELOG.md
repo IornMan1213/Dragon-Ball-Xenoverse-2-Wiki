@@ -1810,3 +1810,12 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Preserved the repository's existing 40% Ultimate Finish bonus-slot evidence and conflicting Basic Reward presentation; no unsupported probability or reward-tier correction was made.
 - Added docs/data/skill-big-bang-knuckle-provenance-audit-2026-09-22.json and registered it in the cross-domain index.
 - Runtime/CI remains unavailable.
+
+
+## 2026-09-22 — Change The Future provenance verification
+- Refreshed `skill-change-the-future` in `docs/data/skills.json` and `docs/data/skills-index.json` to `last_verified: 2026-09-22`.
+- Independently corroborated the 100-Ki Ki Blast Super/counter classification and PQ43 acquisition; the maintained all-186-PQ Steam guide confirms the Basic Reward placement.
+- Added dedicated skill-reference and Steam-guide provenance sources without changing canonical identity, acquisition semantics, or the existing no-Ultimate-Finish-only interpretation.
+- Added `docs/data/skill-change-the-future-provenance-audit-2026-09-22.json` and registered it in the cross-domain index.
+- Static validation: 452 canonical / 452 index / 0 duplicate IDs / 396 stale remaining; runtime/CI remains unavailable.
+- Exact next P1 provenance target: `skill-chaos-shot`.
