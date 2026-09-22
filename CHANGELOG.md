@@ -1473,3 +1473,6 @@
 
 
 - 2026-09-22: Expanded canonical Super Soul and equipment endpoint coverage from the PQ relationship layer, merged seven duplicate Super Soul identities, and regenerated downstream crosslink reports from canonical data. Left the PQ 002 Flying Nimbus!! equipment classification conflict explicitly unresolved pending canonical evidence.
+
+
+- 2026-09-22: Resolved the PQ 002 `Flying Nimbus!!` classification conflict as a Super Soul rather than equipment, removed the erroneous equipment relationship, and regenerated the equipment crosslink report with zero unresolved endpoints.
