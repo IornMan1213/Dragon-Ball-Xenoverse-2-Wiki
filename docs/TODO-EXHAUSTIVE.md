@@ -1203,3 +1203,10 @@
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [x] Commits: `00dfd24c3d9c5f8f4fbc8261a261c152211cf69b`, `8deae24b4a557ca272e4901e2c8d4c83d35bd3ad`.
 - [ ] Exact next batch: audit `scripts/validate_pq_reference_pages.py` and its published PQ reference consumers for exact pair/count/set parity and hidden scalar/list assumptions, then harden deterministic gaps only.
+\n### 2026-09-22 — general PQ reference identity-contract hardening
+- [x] Hardened `scripts/validate_pq_reference_pages.py` with exact canonical PQ number-set, unique-ID, known-relationship-type, and unique `(relationship,PQ,target)` checks.
+- [x] Refreshed `docs/data/pq-reference-page-audit.json` to schema 1.1.0; live status remains clean with **186 PQ records / 860 canonical relationship edges**.
+- [x] No canonical relationship or identity data changed.
+- [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
+- [x] Commits: `8a256fb4e2998c12a0f29b42a637acbdc93ff5c4`, `8bf3f109e1ec3249f43f6daf9978d58d2198a4db`.
+- [ ] Exact next batch: inspect remaining PQ-facing search/landing consumers and the cross-domain index registry for duplicated canonical counts or one-way links, prioritizing exact pair-parity checks without broad schema migration.
