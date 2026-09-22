@@ -1,3 +1,11 @@
+## 2026-09-22 — Equipment provenance batch 081-090
+
+- Enriched equipment endpoints `equip-081`, `082`, `083`, `084`, `086`, `087`, `089`, and `090` with maintained catalog provenance and slot coverage.
+- Preserved `equip-088` as a normalized historical alias to canonical accessory `acc-012`; `equip-085` was not fabricated.
+- Added `docs/data/equipment/equipment-081-090-detail-audit.json`.
+- Endpoint validation: **174 canonical equipment/accessory identities, 0 duplicate IDs, 125 PQ→equipment edges, 123 unique targets, 0 broken endpoints**.
+- Commits: canonical `1b2f96e444c1f0ce17174cba4d4d95841ae671cd`; audit `007c9a768edd1483583cec7336b2f7537366922a`.
+
 ## 2026-09-22 — Published Search consumer contract hardening
 
 - Added `scripts/validate_search_consumer.py` for the published full-text Search landing contract.
