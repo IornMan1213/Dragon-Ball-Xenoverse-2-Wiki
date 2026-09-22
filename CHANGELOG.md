@@ -1285,3 +1285,12 @@
 - Preserved the existing Skill Shop endpoint, Base Game provenance, CaC availability, 300 Ki cost, and non-Ultimate-Finish semantics; no unsupported shop timing or drop probability was inferred.
 - Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index records.
 - Post-write live census: **38 exactly-two-source records**.
+
+
+## 2026-09-21 — Gigantic Burst low-source provenance strengthening
+- Live pre-batch census: **38 exactly-two-source records** across **452 canonical / 452 index** skills.
+- Strengthened **Gigantic Burst (`skill-gigantic-burst`)** from two to three provenance sources with the Dragon Ball Wiki's Gigantic Burst entry, independently confirming the Xenoverse 2 skill identity, Extra Pack 3 context, and Parallel Quest 127 acquisition.
+- Independent PQ evidence also confirms Gigantic Burst as a **Basic Reward** for PQ127; the maintained repository record's `ultimate_finish_required: false` was therefore preserved.
+- Preserved the existing PQ127 endpoint, 500 Ki cost, Kefla (Super Saiyan) association, CaC availability, and Extra Pack 3 requirement; no drop probability or unsupported reward condition was inferred.
+- Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index records.
+- Post-write live target: **37 exactly-two-source records**.
