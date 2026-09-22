@@ -9062,13 +9062,14 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates",
-        "https://dragonball.fandom.com/wiki/Supernova"
+        "https://dragonball.fandom.com/wiki/Supernova",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
       ],
       "unlock_method": "Expert Mission 6 — \"The Depths of Despair\" Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 reward-tier refinement: maintained/independent Expert Mission evidence explicitly lists Supernova in the EM6 Basic Reward pool; no Ultimate Finish-only condition is inferred.",
+      "notes": "2026-09-20 reward-tier refinement: maintained/independent Expert Mission evidence explicitly lists Supernova in the EM6 Basic Reward pool; no Ultimate Finish-only condition is inferred. 2026-09-22 provenance strengthening: maintained Steam Expert Mission guide independently lists Supernova as the EM06 (The Depths of Despair) Basic Reward. This corroborates the existing EM06 acquisition endpoint and reward tier; no drop probability or additional gate is inferred.",
       "mechanics_notes": "500 Ki Ki Blast Ultimate from Expert Mission 6; creates and throws a large Supernova energy sphere. 2026-09-21 cross-domain normalization: source_quest uses the canonical Expert Mission identifier EM-6, matching the repository's Expert Mission evidence record ID; source_quest_or_shop retains the human-readable mission title.",
       "source_quest": "EM-6",
       "source_quest_or_shop": "Expert Mission 6"
