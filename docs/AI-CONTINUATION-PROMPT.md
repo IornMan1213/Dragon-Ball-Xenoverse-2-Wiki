@@ -227,3 +227,13 @@
 - Research, community, wiki, guide, and other external/source-backed material may be used to discover or verify candidates, but changes to canonical data must be explicitly reconciled into the canonical record first. Downstream indexes/reports must then be regenerated or synchronized from canonical records.
 - No downstream relationship layer may create a target merely because an external source calls it verified. If a target is absent from canonical data, it remains unresolved until the canonical database is updated through the repository's normal evidence/review process.
 - Naming aliases may resolve endpoint identity only when explicitly documented; they must not silently replace canonical names or create competing identities.
+
+
+### 2026-09-22 — Canonical Super Soul/equipment endpoint expansion and identity cleanup
+- [x] Expanded canonical Super Soul records from 160 to 234 unique records by adding 81 previously relationship-only PQ reward endpoints as indexed canonical records; no external verified flag was treated as a source of truth.
+- [x] Expanded canonical equipment records from 30 to 140 records by adding 110 previously relationship-only PQ reward endpoints as indexed canonical records.
+- [x] Detected and merged 7 duplicate Super Soul canonical identities with the same exact canonical name, retaining the lower existing canonical ID and merging evidence/source/PQ references.
+- [x] Regenerated the Super Soul PQ crosslink report directly from canonical records: 140 forward edges, 137 unique reverse target endpoints, 0 unresolved canonical Super Soul endpoints.
+- [x] Regenerated the equipment PQ crosslink report directly from canonical records: 124 resolved forward edges, 122 unique reverse target endpoints, 1 unresolved classification endpoint.
+- [ ] Resolve the remaining PQ 002 Flying Nimbus!! equipment-vs-Super-Soul classification conflict using canonical evidence before creating or deleting an equipment identity.
+- Important: relationship-layer claims are not allowed to manufacture canonical records. Canonical records remain authoritative; verification_status remains evidence metadata only.
