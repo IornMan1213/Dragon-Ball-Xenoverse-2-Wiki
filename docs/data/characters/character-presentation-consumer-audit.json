@@ -133,6 +133,6 @@
     "status": "clean"
   },
   "validator": "scripts/validate_character_presentation_consumers.py",
-  "validator_commit": "1bb36e8d85aa0a83487e98b502b7da5a8a6a38e0",
+  "validator_commit": "869d6435813d566a141d1270f97516241d660c00",
   "status": "clean"
 }
