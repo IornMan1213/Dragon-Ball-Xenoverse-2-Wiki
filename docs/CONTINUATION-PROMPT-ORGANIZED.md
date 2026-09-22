@@ -292,3 +292,10 @@
 - [x] Validation was performed by re-fetching the live files from `main`; no CI success claimed.
 - [x] Commits: 6a2501a5d42ebe33260bd7c37b488e50ca3ba476, e051b774b9fa4cb55d5b0b7f46750ec06c39b0f2, 0448d9f49c0b413c9966417629a27e01b867a7ea.
 - [ ] Next batch: continue acquisition-metadata reconciliation beyond `source_parallel_quests`, checking whether `source_quest`, `source_quest_or_shop`, and `unlock_method` agree with canonical PQ associations without promoting research-layer reward-trigger assumptions into canonical facts.
+
+
+### 2026-09-22 handoff synchronization — PQ reference consumer repair
+- [x] Completed and registered the deterministic PQ reference/index repair: docs/Parallel-Quests.md now uses the complete canonical farming set **PQ15, PQ22, PQ44, PQ45, PQ68, PQ83, PQ88**; validator/audit added and cross-domain index registration completed.
+- [x] Current canonical relationship baseline remains **860 edges** (244 skill / 151 Super Soul / 125 equipment / 247 character / 86 DLC / 7 farming) across **186 PQ records**.
+- [x] No canonical relationship identities were added, removed, or renamed.
+- [ ] Next continuation gate remains the latest acquisition-metadata task: reconcile skill source_quest, source_quest_or_shop, and unlock_method against canonical PQ associations without promoting research-layer reward-trigger assumptions into canonical facts.
