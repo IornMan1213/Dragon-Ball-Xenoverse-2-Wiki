@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "domain": "pq_accessory",
   "canonical_pq_records": 186,
-  "canonical_identity_records": 64,
+  "canonical_identity_records": 70,
   "research_pq_records": 45,
   "matched_forward_edges": [
     {
@@ -178,6 +178,54 @@
       "pq_number": 162,
       "target_id": "acc-061",
       "target_name": "Gohan (Beast) Wig",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
+      "pq_id": "pq-152",
+      "pq_number": 152,
+      "target_id": "acc-065",
+      "target_name": "Android 17 (DB Super) Wig",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
+      "pq_id": "pq-154",
+      "pq_number": 154,
+      "target_id": "acc-066",
+      "target_name": "King Vegeta (DB Super) Wig",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
+      "pq_id": "pq-155",
+      "pq_number": 155,
+      "target_id": "acc-067",
+      "target_name": "Gamma 2's Helmet",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
+      "pq_id": "pq-156",
+      "pq_number": 156,
+      "target_id": "acc-068",
+      "target_name": "Gamma 1's Helmet",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
+      "pq_id": "pq-159",
+      "pq_number": 159,
+      "target_id": "acc-069",
+      "target_name": "Dr. Hedo Hood",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
+      "pq_id": "pq-168",
+      "pq_number": 168,
+      "target_id": "acc-070",
+      "target_name": "Videl (DB Super) Wig",
       "status": "identity_matched",
       "source_backed": true
     }
@@ -402,6 +450,66 @@
       "pq_numbers": [
         162
       ]
+    },
+    {
+      "target_id": "acc-065",
+      "target_name": "Android 17 (DB Super) Wig",
+      "pq_ids": [
+        "pq-152"
+      ],
+      "pq_numbers": [
+        152
+      ]
+    },
+    {
+      "target_id": "acc-066",
+      "target_name": "King Vegeta (DB Super) Wig",
+      "pq_ids": [
+        "pq-154"
+      ],
+      "pq_numbers": [
+        154
+      ]
+    },
+    {
+      "target_id": "acc-067",
+      "target_name": "Gamma 2's Helmet",
+      "pq_ids": [
+        "pq-155"
+      ],
+      "pq_numbers": [
+        155
+      ]
+    },
+    {
+      "target_id": "acc-068",
+      "target_name": "Gamma 1's Helmet",
+      "pq_ids": [
+        "pq-156"
+      ],
+      "pq_numbers": [
+        156
+      ]
+    },
+    {
+      "target_id": "acc-069",
+      "target_name": "Dr. Hedo Hood",
+      "pq_ids": [
+        "pq-159"
+      ],
+      "pq_numbers": [
+        159
+      ]
+    },
+    {
+      "target_id": "acc-070",
+      "target_name": "Videl (DB Super) Wig",
+      "pq_ids": [
+        "pq-168"
+      ],
+      "pq_numbers": [
+        168
+      ]
     }
   ],
   "unmatched_research_records": [
@@ -462,27 +570,6 @@
       "note": "Previous bridge endpoint accr-102 is not present in the current canonical accessory layer; no replacement identity is inferred."
     },
     {
-      "pq_record_id": "pqacc-029",
-      "name": "Android 17 (DB Super)'s Ranger Accessory",
-      "pq_number": 152,
-      "match_status": "researched_unresolved",
-      "note": "PQ152 reward evidence identifies the canonical inventory item as Android 17 (DB Super) Wig; Ranger Accessory is retained as a component/research alias rather than a duplicate item. Previous bridge endpoint accr-029 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-032",
-      "name": "Videl (DB Super) Wig",
-      "pq_number": 168,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-017 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-033",
-      "name": "Dr. Hedo Hood",
-      "pq_number": 159,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-033 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
       "pq_record_id": "pqacc-034",
       "name": "SS4 Goku (DAIMA) Wig & Tail",
       "pq_number": 179,
@@ -537,43 +624,15 @@
       "pq_number": 185,
       "match_status": "researched_unresolved",
       "note": "Previous bridge endpoint accr-026 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-042",
-      "name": "Android 17 (DB Super) Wig",
-      "pq_number": 152,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-029 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-043",
-      "name": "King Vegeta (DB Super) Wig",
-      "pq_number": 154,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-030 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-044",
-      "name": "Gamma 2's Helmet",
-      "pq_number": 155,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-031 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-045",
-      "name": "Gamma 1's Helmet",
-      "pq_number": 156,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-032 is not present in the current canonical accessory layer; no replacement identity is inferred."
     }
   ],
   "validation": {
     "canonical_pq_records": 186,
-    "canonical_accessory_records": 64,
+    "canonical_accessory_records": 70,
     "research_records": 45,
-    "forward_edge_count": 22,
-    "reverse_edge_count": 22,
-    "unresolved_research_records": 23,
+    "forward_edge_count": 28,
+    "reverse_edge_count": 28,
+    "unresolved_research_records": 16,
     "stale_endpoint_count": 0,
     "duplicate_forward_edges": 0,
     "null_pq_edges": 0,
