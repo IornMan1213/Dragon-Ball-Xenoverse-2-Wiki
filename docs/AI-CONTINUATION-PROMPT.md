@@ -7297,3 +7297,24 @@ The repository owner has clarified the continuation contract:
 - CI: no success claim without an exposed workflow/check.
 - Live commits: `f7f83bdfc17f6845929704edb073b780d355567e` (canonical), `74107394bee507d3b2b40822679a016a20ffe15d` (index), `29120febb9693a3951ce79b2eed17edbc77cc003` (changelog).
 - Exact next batch: **Petrifying Spit (`skill-petrifying-spit`)**. Recompute the live two-source census first, then independently verify its acquisition/reward endpoint before provenance-only strengthening. Preserve existing reward semantics and evidence boundaries.
+
+
+### 2026-09-22 cycle update — Petrifying Spit low-source provenance strengthening
+- Active workstream: **P1 skill acquisition/DLC-version provenance cleanup**.
+- Bounded batch: **Petrifying Spit (skill-petrifying-spit)**; single-record batch retained because the available evidence was specific to this acquisition endpoint and the current deterministic queue was being processed one record at a time.
+- Evidence used: Dragon Ball Wiki's **Stone Spit** entry independently confirms the Xenoverse 2 name **Petrifying Spit**, Future Warrior acquisition from **Parallel Quest 114**, and Dabura association. Existing repository/Steam and GameFAQs evidence independently establishes the PQ114 Basic Reward placement. No unsupported reward probability or Ultimate Finish gate was inferred.
+- Fields changed: canonical and index `sources` gained `https://dragonball.fandom.com/wiki/Stone_Spit`; `last_verified` refreshed to **2026-09-22**; provenance note synchronized.
+- Fields intentionally left unresolved: exact drop probability, any additional prerequisite, and any Ultimate-Finish-only condition remain unresolved/not inferred.
+- Pre-edit census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical ki_cost / 20 exactly-two-source canonical records**.
+- Post-edit census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical ki_cost / 19 exactly-two-source canonical records**.
+- Cross-layer validation: canonical/index source parity clean; Petrifying Spit has exactly 3 sources in both layers; no new relationship edge was required; no internal AI/UI/search citation artifacts remain in the changed canonical/index/changelog content.
+- CI/Actions: no successful workflow/check was exposed for the resulting direct-commit chain; do not claim CI success.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `CHANGELOG.md`, and this handoff.
+- Commits: canonical `609059418c0b2b7f8b634d51786855889b99de3f`; index `0170836a7ece4e0abf5e31b6bab5affa26d9b767`; changelog final `d59387f44d849e5c24e56e0704d78697642aa899`. Earlier intermediate commits in this cycle are superseded by these final file states.
+- Current live commit: `d59387f44d849e5c24e56e0704d78697642aa899`.
+- Current active workstream: **P1 skill acquisition/DLC-version provenance cleanup**.
+- Exact next batch: **Phantom Fist (skill-phantom-fist)**. Recompute the live two-source census first, inspect its canonical/index records, then independently verify its acquisition/source endpoint before adding provenance.
+- Why next: Phantom Fist is the first remaining deterministic two-source record after Petrifying Spit in the current live canonical ordering; strengthening it continues the same bounded low-source provenance queue without reopening completed field censuses.
+- Known limitation: GitHub Actions status is not exposed as a successful check for this direct-commit chain; validators must not be weakened or treated as passing by assumption.
+- Last artifact scan: changed canonical/index/changelog content scanned for internal citation/UI markers; **0 detected**.
+- Files requiring synchronization next cycle: `docs/data/skills.json`, `docs/data/skills-index.json`, `CHANGELOG.md`, and this handoff only if the Phantom Fist batch changes canonical data.
