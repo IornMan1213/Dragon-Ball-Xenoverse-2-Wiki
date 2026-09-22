@@ -1435,3 +1435,11 @@
 - Preserved the existing Basic Reward, PQ45, 0-Ki Power Up, CaC, and no-Ultimate-Finish-only semantics; no unsupported drop probability was added.
 - Updated canonical/index source lists and refreshed `last_verified` to **2026-09-21**.
 - Post-write target: **8 exactly-two-source canonical records**.
+
+
+## 2026-09-21 — Temporal Holy Ray low-source provenance strengthening
+- Strengthened **Temporal Holy Ray (`skill-temporal-holy-ray`)** from two to three provenance sources using an independent GameFAQs Conton City Tournament reference.
+- The added evidence specifically corroborates **Conton City Tournament 3 — "Time for the Quarterfinals!"** as the acquisition stage.
+- Preserved the existing Free Update 11/DLC provenance and did not infer a drop probability.
+- Synchronized canonical/index source lists and refreshed `last_verified` to **2026-09-21**.
+- Expected exactly-two-source census after this batch: **7**.
