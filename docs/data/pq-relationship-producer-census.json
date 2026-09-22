@@ -62,7 +62,8 @@
     "duplicate_relationship_keys": 0,
     "current_total_relationships": 860,
     "current_projection_report_drift": 0,
-    "current_reconciliation_artifact_drift": 0
+    "current_reconciliation_artifact_drift": 0,
+    "current_reverse_index_scope_drift": 0
   },
   "target_normalization": {
     "date": "2026-09-22",
@@ -167,5 +168,40 @@
     },
     "result": "no_deterministic_current_count_drift_found_in_audited_reconciliation_artifacts",
     "source_of_truth": "docs/data/pq-reward-relationships.json"
+  },
+  "current_reverse_index_scope_audit_2026_09_22": {
+    "unified_reverse_index": {
+      "file": "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json",
+      "live_reference_counts": {
+        "skill": 236,
+        "super_soul": 137,
+        "equipment": 125,
+        "character": 247,
+        "dlc": 86,
+        "farming": 7
+      },
+      "canonical_counts": {
+        "skill": 244,
+        "super_soul": 151,
+        "equipment": 125,
+        "character": 247,
+        "dlc": 86,
+        "farming": 7
+      },
+      "deterministic_stale_field_corrected": "dlc 88 -> 86",
+      "semantics": "partial source-normalized reverse index"
+    },
+    "super_soul_acquisition_index": {
+      "file": "docs/data/super-souls/pq-acquisition-index-041-186.json",
+      "records": 80,
+      "pq_count": 80,
+      "typed_refs": 122,
+      "canonical_refs": 151,
+      "exact_pair_overlap": 108,
+      "research_only": 14,
+      "canonical_missing_from_index": 43,
+      "canonical_missing_within_scope": 25,
+      "semantics": "partial research projection; not canonical truth"
+    }
   }
 }
