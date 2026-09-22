@@ -2800,3 +2800,16 @@
 - [ ] CI/runtime: no successful workflow/check exposed for this direct-commit chain; no CI success claimed.
 - [x] Commits: canonical 06bc0f2feebd879dd6d61e9fddffcf74bdda5262; index cc5b0f30c25a050a02433bfd2a1d3399662694ed; audit 23feedd2523d32b36901833f2ec8ef678e4d9b34; cross-domain registration cb9e9142df5d2d22e95bb64dd9d80c99011c7065; TODO tracking 54ec2e0d9e410394e31db68af3130bd6cb0953e8.
 - [ ] Exact next priority: recompute the broader TODO/research census and choose the highest-impact unfinished cross-domain, provenance, mechanics, validation, or presentation task. The complete stale-skill queue is exhausted at 0 stale.
+
+
+### 2026-09-22 cycle update — cross-database reward/reverse-index consistency census
+- [x] Fresh live skill census confirmed **452 canonical / 452 index / 0 stale canonical skill records**; the prior stale-skill queue is exhausted.
+- [x] Selected the broader deterministic P1 structural task: cross-database reward/reverse-index consistency across skills, Super Souls, equipment, characters, DLC, and farming.
+- [x] Compared canonical `docs/data/pq-reward-relationships.json` against the unified reverse projection. Normalized canonical `pq-NNN` identifiers to numeric PQ numbers and compared canonical equipment against the unified split `clothing` + `accessories` projections.
+- [x] Result: **859/859 canonical relationship edges reconcile with the unified reverse projection**: skills 244/244, Super Souls 151/151, equipment 124/124, characters 247/247, DLC 86/86, farming 7/7; zero missing pairs, zero extra pairs, and zero duplicate canonical rows.
+- [x] Important representation finding: the unified reverse artifact intentionally uses numeric PQ numbers (`2`) while canonical relationships use `pq-002`; this is normalization, not drift. Equipment is intentionally split into clothing/accessories in the unified projection.
+- [x] Added reusable validator `scripts/validate_pq_cross_database_reverse_consistency.py` and audit `docs/data/pq-cross-database-reverse-consistency-audit-2026-09-22.json`.
+- [x] Registered both in `docs/data/pq-cross-domain-index.json`.
+- [x] Re-read the created validator/audit/index files from `main`; created data artifacts are parseable and contain the expected live counts.
+- [ ] CI/runtime: no successful workflow/check exposed for this direct-commit chain; no CI success claimed.
+- [x] Exact next priority: move beyond already-clean PQ reverse navigation into the broader **non-PQ/thin-system coverage** track. Recompute the current tracker and choose the highest-impact existing canonical system/schema with missing structured fields or records; enrich it with evidence/provenance rather than creating placeholder pages.
