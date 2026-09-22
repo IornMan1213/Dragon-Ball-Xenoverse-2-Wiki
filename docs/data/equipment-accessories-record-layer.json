@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "record_type": "accessory",
-  "description": "Structured research records for Dragon Ball Xenoverse 2 accessories. Acquisition routes are evidence-backed research fields and are not assumed to be current or guaranteed unless verified.",
+  "description": "Structured research records for Dragon Ball Xenoverse 2 equipment and accessories. Acquisition routes are evidence-backed research fields and are not assumed to be current or guaranteed unless verified. Canonical identities are authoritative for downstream relationship endpoints; verification_status is evidence metadata only.",
   "verification_policy": {
     "indexed": "Identity discovered; acquisition or current behavior remains unresolved.",
     "partially_verified": "Identity and at least one meaningful acquisition/provenance detail are supported, but current route, restrictions, or version behavior remains unresolved.",
@@ -12,7 +12,10 @@
       "id": "acc-001",
       "name": "Piccolo's Turban",
       "category": "headwear",
-      "acquisition_routes": ["Parallel Quest 3", "Accessory Shop reported"],
+      "acquisition_routes": [
+        "Parallel Quest 3",
+        "Accessory Shop reported"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -26,7 +29,10 @@
       "id": "acc-002",
       "name": "Pan's Bandana",
       "category": "headwear",
-      "acquisition_routes": ["Parallel Quest 93 reported", "Accessory Shop reported"],
+      "acquisition_routes": [
+        "Parallel Quest 93 reported",
+        "Accessory Shop reported"
+      ],
       "dlc_provenance": "DLC-related route reported",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -40,7 +46,10 @@
       "id": "acc-003",
       "name": "Dr. Gero's Hat",
       "category": "headwear",
-      "acquisition_routes": ["Accessory Shop", "Parallel Quest 27 reported"],
+      "acquisition_routes": [
+        "Accessory Shop",
+        "Parallel Quest 27 reported"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -54,7 +63,10 @@
       "id": "acc-004",
       "name": "Android 19's Hat",
       "category": "headwear",
-      "acquisition_routes": ["Accessory Shop", "Parallel Quest 28 reported"],
+      "acquisition_routes": [
+        "Accessory Shop",
+        "Parallel Quest 28 reported"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -68,7 +80,10 @@
       "id": "acc-005",
       "name": "Great Saiyaman Helmet",
       "category": "headwear",
-      "acquisition_routes": ["Parallel Quest 51 reported", "Accessory Shop reported"],
+      "acquisition_routes": [
+        "Parallel Quest 51 reported",
+        "Accessory Shop reported"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -82,7 +97,9 @@
       "id": "acc-006",
       "name": "Chi-Chi's Helmet",
       "category": "headwear",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": "Female-only reported",
       "combat_effect": "cosmetic",
@@ -96,7 +113,9 @@
       "id": "acc-007",
       "name": "Ox-King's Helmet",
       "category": "headwear",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": "Male-only reported",
       "combat_effect": "cosmetic",
@@ -110,7 +129,10 @@
       "id": "acc-008",
       "name": "Mr. Popo's Turban",
       "category": "headwear",
-      "acquisition_routes": ["TP Medal Shop", "DLC PQ route reported"],
+      "acquisition_routes": [
+        "TP Medal Shop",
+        "DLC PQ route reported"
+      ],
       "dlc_provenance": "DLC-related",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -124,7 +146,10 @@
       "id": "acc-009",
       "name": "Saiyuki Hood",
       "category": "hood",
-      "acquisition_routes": ["Shenron wish reported", "TP Medal Shop reported"],
+      "acquisition_routes": [
+        "Shenron wish reported",
+        "TP Medal Shop reported"
+      ],
       "dlc_provenance": "base_game_and_shop_routes_reported",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -138,7 +163,9 @@
       "id": "acc-010",
       "name": "Launch's Wig",
       "category": "wig",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "GT-related DLC route reported",
       "restrictions": "Female-only reported",
       "combat_effect": "cosmetic",
@@ -152,7 +179,10 @@
       "id": "acc-011",
       "name": "Goku's Wig",
       "category": "wig",
-      "acquisition_routes": ["Parallel Quest 10 reported", "Parallel Quest 25 reported by another source"],
+      "acquisition_routes": [
+        "Parallel Quest 10 reported",
+        "Parallel Quest 25 reported by another source"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -167,7 +197,9 @@
       "id": "acc-012",
       "name": "Goku Wig (Super Saiyan)",
       "category": "wig",
-      "acquisition_routes": ["Parallel Quest 18"],
+      "acquisition_routes": [
+        "Parallel Quest 18"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -181,7 +213,9 @@
       "id": "acc-013",
       "name": "Angel Halo",
       "category": "halo",
-      "acquisition_routes": ["Parallel Quest 10"],
+      "acquisition_routes": [
+        "Parallel Quest 10"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -194,7 +228,9 @@
       "id": "acc-014",
       "name": "Angel Wings",
       "category": "wings",
-      "acquisition_routes": ["Parallel Quest 34"],
+      "acquisition_routes": [
+        "Parallel Quest 34"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -207,7 +243,9 @@
       "id": "acc-015",
       "name": "Old Model Scouter (Blue)",
       "category": "scouter",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -221,7 +259,9 @@
       "id": "acc-016",
       "name": "Old Model Scouter (Green)",
       "category": "scouter",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -235,7 +275,9 @@
       "id": "acc-017",
       "name": "Old Model Scouter (Purple)",
       "category": "scouter",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -249,7 +291,9 @@
       "id": "acc-018",
       "name": "Old Model Scouter (Red)",
       "category": "scouter",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -263,7 +307,9 @@
       "id": "acc-019",
       "name": "Scouter (Blue)",
       "category": "scouter",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -277,7 +323,9 @@
       "id": "acc-020",
       "name": "Scouter (Green)",
       "category": "scouter",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -291,7 +339,9 @@
       "id": "acc-021",
       "name": "Scouter (Purple)",
       "category": "scouter",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -305,7 +355,9 @@
       "id": "acc-022",
       "name": "Scouter (Red)",
       "category": "scouter",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -319,7 +371,9 @@
       "id": "acc-023",
       "name": "New Model Scouter (Blue)",
       "category": "scouter",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -333,7 +387,9 @@
       "id": "acc-024",
       "name": "New Model Scouter (Green)",
       "category": "scouter",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -347,7 +403,9 @@
       "id": "acc-025",
       "name": "New Model Scouter (Purple)",
       "category": "scouter",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -361,7 +419,9 @@
       "id": "acc-026",
       "name": "New Model Scouter (Red)",
       "category": "scouter",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -375,7 +435,10 @@
       "id": "acc-027",
       "name": "Tapion's Sword",
       "category": "weapon-like cosmetic",
-      "acquisition_routes": ["Parallel Quest 22 reported", "TP Medal Shop reported"],
+      "acquisition_routes": [
+        "Parallel Quest 22 reported",
+        "TP Medal Shop reported"
+      ],
       "dlc_provenance": "base_game_and_shop_routes_reported",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -389,7 +452,9 @@
       "id": "acc-028",
       "name": "Yamcha's Sword",
       "category": "weapon-like cosmetic",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -402,7 +467,10 @@
       "id": "acc-029",
       "name": "Z-Sword",
       "category": "weapon-like cosmetic",
-      "acquisition_routes": ["Parallel Quest 35", "Accessory Shop reported"],
+      "acquisition_routes": [
+        "Parallel Quest 35",
+        "Accessory Shop reported"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -416,7 +484,10 @@
       "id": "acc-030",
       "name": "Turtle Hermit's Shell",
       "category": "equipment accessory",
-      "acquisition_routes": ["Accessory Shop", "Turtle Hermit Set"],
+      "acquisition_routes": [
+        "Accessory Shop",
+        "Turtle Hermit Set"
+      ],
       "dlc_provenance": "base_game_and_costume_pack_routes_reported",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -430,7 +501,9 @@
       "id": "acc-031",
       "name": "Turtle Hermit's Staff",
       "category": "staff",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -443,7 +516,10 @@
       "id": "acc-032",
       "name": "Turtle Hermit's Beard",
       "category": "beard",
-      "acquisition_routes": ["Accessory Shop", "Turtle Hermit Set"],
+      "acquisition_routes": [
+        "Accessory Shop",
+        "Turtle Hermit Set"
+      ],
       "dlc_provenance": "base_game_and_costume_pack_routes_reported",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -457,7 +533,9 @@
       "id": "acc-033",
       "name": "Arale-chan's Cap",
       "category": "headwear",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -470,7 +548,9 @@
       "id": "acc-034",
       "name": "Arale-chan's Poop Stick",
       "category": "prop",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -483,7 +563,9 @@
       "id": "acc-035",
       "name": "Fortune Teller Baba's Hat",
       "category": "headwear",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": "Female-only reported",
       "combat_effect": "cosmetic",
@@ -496,7 +578,9 @@
       "id": "acc-036",
       "name": "Gohan Mask",
       "category": "mask",
-      "acquisition_routes": ["Accessory Shop reported"],
+      "acquisition_routes": [
+        "Accessory Shop reported"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -509,7 +593,9 @@
       "id": "acc-037",
       "name": "Master Korin's Staff",
       "category": "staff",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -522,7 +608,11 @@
       "id": "acc-038",
       "name": "Frieza's Head (Final Form)",
       "category": "head",
-      "acquisition_routes": ["Time Patrol Support Pack", "Crystal Raid reward reported", "alternate in-game route reported"],
+      "acquisition_routes": [
+        "Time Patrol Support Pack",
+        "Crystal Raid reward reported",
+        "alternate in-game route reported"
+      ],
       "dlc_provenance": "DLC",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -536,7 +626,10 @@
       "id": "acc-039",
       "name": "Korin Wig with Ears & Tail",
       "category": "wig/tail",
-      "acquisition_routes": ["Time Patrol Support Pack", "alternate in-game route reported"],
+      "acquisition_routes": [
+        "Time Patrol Support Pack",
+        "alternate in-game route reported"
+      ],
       "dlc_provenance": "DLC",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -549,7 +642,10 @@
       "id": "acc-040",
       "name": "SS Rosé Wig",
       "category": "wig",
-      "acquisition_routes": ["Goku Character Gift reported", "Crystal Raid reward reported"],
+      "acquisition_routes": [
+        "Goku Character Gift reported",
+        "Crystal Raid reward reported"
+      ],
       "dlc_provenance": "event_and_gift_routes_reported",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -563,7 +659,11 @@
       "id": "acc-041",
       "name": "Golden Scouter",
       "category": "scouter",
-      "acquisition_routes": ["Nappa Character Gift reported", "Vegeta Character Gift reported", "Crystal Raid reward reported"],
+      "acquisition_routes": [
+        "Nappa Character Gift reported",
+        "Vegeta Character Gift reported",
+        "Crystal Raid reward reported"
+      ],
       "dlc_provenance": "event_and_gift_routes_reported",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -577,7 +677,10 @@
       "id": "acc-042",
       "name": "Golden Great Ape Hat & Tail",
       "category": "wig/tail",
-      "acquisition_routes": ["Gohan (Kid) Character Gift reported", "Crystal Raid reward reported"],
+      "acquisition_routes": [
+        "Gohan (Kid) Character Gift reported",
+        "Crystal Raid reward reported"
+      ],
       "dlc_provenance": "event_and_gift_routes_reported",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -591,7 +694,9 @@
       "id": "acc-043",
       "name": "Android 21 Wig & Glasses",
       "category": "wig/glasses",
-      "acquisition_routes": ["Raid reward reported"],
+      "acquisition_routes": [
+        "Raid reward reported"
+      ],
       "dlc_provenance": "raid",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -604,7 +709,10 @@
       "id": "acc-044",
       "name": "Tapion Wig",
       "category": "wig",
-      "acquisition_routes": ["Ranked event reported", "raid/event research"],
+      "acquisition_routes": [
+        "Ranked event reported",
+        "raid/event research"
+      ],
       "dlc_provenance": "event",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -617,7 +725,9 @@
       "id": "acc-045",
       "name": "Fused Zamasu Wig",
       "category": "wig",
-      "acquisition_routes": ["Crystal Raid reward reported"],
+      "acquisition_routes": [
+        "Crystal Raid reward reported"
+      ],
       "dlc_provenance": "raid",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -630,7 +740,10 @@
       "id": "acc-046",
       "name": "Tiencha Wig",
       "category": "wig",
-      "acquisition_routes": ["Crystal Raid reward reported", "Accessory Shop reported"],
+      "acquisition_routes": [
+        "Crystal Raid reward reported",
+        "Accessory Shop reported"
+      ],
       "dlc_provenance": "event_and_shop_routes_reported",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -644,7 +757,9 @@
       "id": "acc-047",
       "name": "Janemba's Sword",
       "category": "weapon-like cosmetic",
-      "acquisition_routes": ["Crystal Raid reward reported"],
+      "acquisition_routes": [
+        "Crystal Raid reward reported"
+      ],
       "dlc_provenance": "raid",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -657,7 +772,9 @@
       "id": "acc-048",
       "name": "Universe 6 Supreme Kai's Helper's Hat",
       "category": "headwear",
-      "acquisition_routes": ["Crystal Raid reward reported"],
+      "acquisition_routes": [
+        "Crystal Raid reward reported"
+      ],
       "dlc_provenance": "raid",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -670,7 +787,9 @@
       "id": "acc-049",
       "name": "Lord Zuno's Topknot Wig",
       "category": "wig",
-      "acquisition_routes": ["Crystal Raid reward reported"],
+      "acquisition_routes": [
+        "Crystal Raid reward reported"
+      ],
       "dlc_provenance": "raid",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -683,7 +802,9 @@
       "id": "acc-050",
       "name": "Tights Hat",
       "category": "headwear",
-      "acquisition_routes": ["Crystal Raid reward reported"],
+      "acquisition_routes": [
+        "Crystal Raid reward reported"
+      ],
       "dlc_provenance": "raid",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -691,6 +812,2273 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Online_Raid_Quest"
       ]
+    },
+    {
+      "id": "equip-001",
+      "name": "Goku's Turtle Hermit Gi",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 4 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        4
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-003",
+      "name": "Lord Slug's Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 98 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        98
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-008",
+      "name": "Android 18's Clothes (Vest & Pants)",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 29 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+      ],
+      "parallel_quest_ids": [
+        29
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-012",
+      "name": "GT Goku's Gi",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 92 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        92
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-013",
+      "name": "Tien Shinhan's Gi",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 21 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved).",
+        "Parallel Quest 30 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        21,
+        30
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-016",
+      "name": "Demon Clothes (Piccolo, with Cape)",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 3 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        3
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-017",
+      "name": "Demon Clothes (Gohan, Kid)",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 4 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        4
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-020",
+      "name": "Battle Suit (Frieza Saga Vegeta)",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 22 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+      ],
+      "parallel_quest_ids": [
+        22
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-021",
+      "name": "Battle Suit (Gohan)",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 28 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+      ],
+      "parallel_quest_ids": [
+        28
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-022",
+      "name": "Battle Suit (Krillin)",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 21 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+      ],
+      "parallel_quest_ids": [
+        21
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-026",
+      "name": "Battle Suit (Ginyu Force Black)",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 13 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        13
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-028",
+      "name": "Battle Suit (Turles)",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 12 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        12
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-031",
+      "name": "Tuxedo",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 121 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        121
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-032",
+      "name": "Wedding Dress",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 121 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        121
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-033",
+      "name": "Arabian Costume",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 123 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        123
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-034",
+      "name": "Goku Wig (Ultra Instinct)",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 125 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        125
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-035",
+      "name": "Janemba Suit",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 127 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        127
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-036",
+      "name": "Janemba Head",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 127 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        127
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-037",
+      "name": "Broly (Full Power Super Saiyan)'s Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 130 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        130
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-038",
+      "name": "SSGSS Gogeta's Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 131 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        131
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-039",
+      "name": "Broly Wig (Legendary Super Saiyan)",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 132 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        132
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-040",
+      "name": "Kakunsa's Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 133 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        133
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-041",
+      "name": "Kakunsa's Wig and Mask",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 133 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        133
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-042",
+      "name": "Kakunsa's Tail",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 133 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        133
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-043",
+      "name": "Rozie's Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 135 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        135
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-044",
+      "name": "Rozie's Hood and Goggles",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 135 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        135
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-045",
+      "name": "Android 21's Lab Uniform",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 139 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        139
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-046",
+      "name": "Universe 7 Baseball Uniform",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 139 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        139
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-047",
+      "name": "Universe 7 Baseball Cap",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 139 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        139
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-048",
+      "name": "Universe 6 Baseball Uniform",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 142 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        142
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-049",
+      "name": "Gine (DB Super)'s Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 144 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        144
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-050",
+      "name": "Gine (DB Super) Set",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 144 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        144
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-051",
+      "name": "Bardock (DB Super)'s Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 146 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        146
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-052",
+      "name": "Caulifla's Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 147 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        147
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-053",
+      "name": "Caulifla Wig",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 147 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        147
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-054",
+      "name": "Kale's Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 148 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        148
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-055",
+      "name": "Kale Wig",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 148 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        148
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-056",
+      "name": "Bulma (Kid)'s Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 149 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        149
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-057",
+      "name": "Bulma (Kid) Wig",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 149 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        149
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-058",
+      "name": "Android 17 (DB Super) Ranger Outfit",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 152 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        152
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-059",
+      "name": "Android 17 (DB Super) Ranger Wig",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 152 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        152
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-060",
+      "name": "King Vegeta (DB Super)'s Battle Suit",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 154 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        154
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-061",
+      "name": "King Vegeta (DB Super) Wig",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 154 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        154
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-062",
+      "name": "Gamma 2 Helmet",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 155 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        155
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-063",
+      "name": "Gamma 1's Helmet",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 156 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        156
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-064",
+      "name": "Gamma 2's Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 158 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        158
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-065",
+      "name": "Dr. Hedo Hood",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 159 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        159
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-066",
+      "name": "Red Ribbon Army Helmet",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 160 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        160
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-067",
+      "name": "Red Ribbon Soldier 94 Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 161 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        161
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-068",
+      "name": "Dr. Hedo Suit",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 162 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        162
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-069",
+      "name": "Gohan (Beast) Wig",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 162 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        162
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-070",
+      "name": "Goku Wig",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 25 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+      ],
+      "parallel_quest_ids": [
+        25
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-071",
+      "name": "Dore's Scouter",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 27 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+      ],
+      "parallel_quest_ids": [
+        27
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-072",
+      "name": "Hercule's Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 21 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved).",
+        "Parallel Quest 30 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        21,
+        30
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-073",
+      "name": "Goku's Turtle Hermit Gi (No Character)",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 31 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+      ],
+      "parallel_quest_ids": [
+        31
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-075",
+      "name": "Cell's Suit (Perfect)",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 37 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+      ],
+      "parallel_quest_ids": [
+        37
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-076",
+      "name": "Yamcha's Baseball Uniform",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 41 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+      ],
+      "parallel_quest_ids": [
+        41
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-077",
+      "name": "Perfect Cell's Wings",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 45 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+      ],
+      "parallel_quest_ids": [
+        45
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-078",
+      "name": "Vegito's Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 59 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+      ],
+      "parallel_quest_ids": [
+        59
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-079",
+      "name": "Goku's Damaged Turtle Hermit Gi",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 2 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        2
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-081",
+      "name": "Four-Star Dragon Ball Hat",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 5 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        5
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-082",
+      "name": "Goku's Turtle Hermit Gi (King Kai)",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 8 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        8
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-083",
+      "name": "Chiaotzu's Hat (With Collar)",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 9 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        9
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-084",
+      "name": "Piccolo's School Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 49 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        49
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-085",
+      "name": "Mr. Shape Up M",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 50 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        50
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-086",
+      "name": "Battle Suit (CC)",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 61 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        61
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-087",
+      "name": "Frieza's Suit (Final Form)",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 62 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        62
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-089",
+      "name": "Gohan's Gi (Adult)",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 65 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        65
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-090",
+      "name": "Whis Symbol Gi",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 66 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        66
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-091",
+      "name": "SSGSS Goku Wig",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 66 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        66
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-092",
+      "name": "Vegeta's Shirt",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 79 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        79
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-093",
+      "name": "Videl (DB Super) Wig",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 168 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        168
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-094",
+      "name": "Orange Piccolo's Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 169 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        169
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-095",
+      "name": "Videl (DB Super)'s Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 170 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        170
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-096",
+      "name": "Belmod's Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 176 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        176
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-097",
+      "name": "Goku (Mini)'s Gi",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 178 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        178
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-098",
+      "name": "SS4 Goku (DAIMA) Suit",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 179 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        179
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-099",
+      "name": "SS4 Goku (DAIMA) Wig & Tail",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 179 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        179
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-100",
+      "name": "SS3 Vegeta (DAIMA) Battle Suit",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 180 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        180
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-101",
+      "name": "SS3 Vegeta (DAIMA) Wig",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 180 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        180
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-102",
+      "name": "Glorio's Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 181 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        181
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-103",
+      "name": "Panzy's Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 181 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        181
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-104",
+      "name": "Glorio Wig",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 181 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        181
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-105",
+      "name": "Panzy Wig",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 181 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        181
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-106",
+      "name": "Golden Frieza Suit",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 182 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        182
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-107",
+      "name": "Golden Frieza Head",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 182 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        182
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-108",
+      "name": "Cheelai's Coat",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 183 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        183
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-109",
+      "name": "Broly Wig (Black Hair, Normal)",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 183 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        183
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-110",
+      "name": "Dragon Ball Balloon",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 184 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        184
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-111",
+      "name": "Goku (Ultra Supervillain Quelled)'s Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 185 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        185
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-112",
+      "name": "Goku (Ultra Supervillain Quelled) Wig",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 185 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        185
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-113",
+      "name": "Fu (Ultra Supervillain)'s Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 186 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        186
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-114",
+      "name": "Fu (Ultra Supervillain) Set",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 186 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        186
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-115",
+      "name": "Fu Set 2",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 186 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        186
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-116",
+      "name": "Pan's Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 93 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        93
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-117",
+      "name": "Pan's Bandanna",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 93 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        93
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-118",
+      "name": "Super 17's Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 95 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        95
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-119",
+      "name": "GT Vegeta's Jacket",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 96 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        96
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-120",
+      "name": "Yamcha's Baseball Hat",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 97 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        97
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-121",
+      "name": "Mr. Shape Up L",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 99 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        99
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-122",
+      "name": "Whis Symbol Battle Suit",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 100 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        100
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-123",
+      "name": "SSGSS Vegeta Wig",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 100 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        100
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-124",
+      "name": "Champa's Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 101 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        101
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-125",
+      "name": "Battle Suit (Cabba)",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 102 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        102
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-126",
+      "name": "Android 14's Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 104 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        104
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-127",
+      "name": "Android 13's Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 105 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        105
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-128",
+      "name": "Super Android 13's Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 106 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        106
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-129",
+      "name": "Future Mai's Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 107 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        107
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-130",
+      "name": "Goku Black's Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 108 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        108
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-131",
+      "name": "Zamasu's Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 109 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        109
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-132",
+      "name": "Super Saiyan 4 Suit (Goku)",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 110 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        110
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-133",
+      "name": "SS4 Wig & Tail (Goku)",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 110 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        110
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-134",
+      "name": "Resistance Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 111 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        111
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-135",
+      "name": "Resistance Helmet",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 111 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        111
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-136",
+      "name": "Pride Trooper Uniform",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 114 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        114
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-137",
+      "name": "Toppo's Moustache",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 114 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        114
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-138",
+      "name": "Ribrianne's Clothes",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 115 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        115
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-139",
+      "name": "Ribrianne's Hood",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 115 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        115
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+    },
+    {
+      "id": "equip-140",
+      "name": "Goku's Turtle Hermit Gi (Go)",
+      "category": "unclassified",
+      "acquisition_routes": [
+        "Parallel Quest 14 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "unresolved",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        14
+      ],
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
     }
   ]
 }
