@@ -126,7 +126,7 @@ def audit(domain, record_file, html, relationship, structured_field):
         "relationship_loaded": "pq-reward-relationships.json" in h,
         "relationship_filter": relationship in h,
         "pq_links_rendered": "Canonical PQs:" in h,
-        "query_navigation": "URLSearchParams(location.search).get('q')" in h,
+        "query_navigation": "URLSearchParams(location.search).get('q')" in h,\n        "record_search_links": "searchUrl(r.name)" in h and "Open local wiki search" in h,
         "reverse_pair_parity": not reverse_pair_missing and not reverse_pair_extra,
         "structured_pq_ids_valid": not invalid_structured_pq_ids,
         "duplicate_structured_pairs": len(structured_pair_list) == len(set(structured_pair_list)),
