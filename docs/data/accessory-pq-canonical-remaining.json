@@ -13,7 +13,7 @@
       "name": "Resistance Helmet",
       "pq": 111,
       "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-028 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "reason": "Dedicated acc-### identity remains absent, but canonical inventory identity is domain-resolved via equip-135 (Resistance Helmet) in the canonical equipment/accessory layer; do not create a duplicate acc-### identity."
     },
     {
       "pq_record_id": "pqacc-022",
@@ -48,7 +48,7 @@
       "name": "Gine (DB Super)'s Accessory",
       "pq": 144,
       "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-101 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "reason": "Dedicated acc-### identity remains absent, but canonical inventory identity is domain-resolved via equip-050 (Gine (DB Super) Set), categorized as an accessory; do not create a duplicate acc-### identity."
     },
     {
       "pq_record_id": "pqacc-027",
@@ -138,8 +138,10 @@
     "research_records": 45,
     "canonical_accessory_records": 70,
     "matched": 28,
-    "unresolved": 16,
-    "remapped_by_exact_name": 28
+    "unresolved": 14,
+    "domain_resolved_via_equipment": 2,
+    "remapped_by_exact_name": 28,
+    "domain_resolved_via_equipment": 2
   },
   "notes": [
     "This file is derived from the canonical bridge and current accessory record layer.",
