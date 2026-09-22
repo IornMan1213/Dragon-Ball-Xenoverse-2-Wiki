@@ -37,6 +37,11 @@
       "key": "dlc_id",
       "value": "pq_ids",
       "report": "docs/data/dlc/pq-reverse-index.json"
+    },
+    {
+      "entity": "farming",
+      "report": "docs/data/farming/pq-farming-reverse-index.json",
+      "source": "docs/data/pq-reward-relationships.json"
     }
   ],
   "completion_rule": "Every canonical relationship endpoint must resolve to a canonical target record, or be represented by an explicit conflict/granularity record; presentation aliases must never alter canonical relationship identities.",
@@ -52,7 +57,8 @@
     "canonical_endpoint_validation": "docs/data/pq-endpoint-navigation-validation.json",
     "canonical_dlc_identity": "docs/data/dlc/canonical-dlc-identity.json",
     "canonical_dlc_reverse": "docs/data/dlc/pq-reverse-navigation-audit.json",
-    "dlc_content_projection": "docs/data/dlc/dlc-content-link-audit.json"
+    "dlc_content_projection": "docs/data/dlc/dlc-content-link-audit.json",
+    "canonical_farming_reverse": "docs/data/farming/pq-farming-reverse-audit.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py"
