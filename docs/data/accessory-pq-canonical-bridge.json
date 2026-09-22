@@ -21,17 +21,17 @@
       "pq_record_id": "pqacc-002",
       "name": "Four-Star Dragon Ball Hat",
       "pq": 5,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-089 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-051",
+      "match_status": "matched",
+      "note": "Current canonical identity acc-051 promoted/reconciled in the canonical accessory layer by exact inventory name; source-backed PQ association retained."
     },
     {
       "pq_record_id": "pqacc-003",
       "name": "Chiaotzu's Hat (With Collar)",
       "pq": 9,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-090 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-052",
+      "match_status": "matched",
+      "note": "Current canonical identity acc-052 promoted/reconciled in the canonical accessory layer by exact inventory name; source-backed PQ association retained."
     },
     {
       "pq_record_id": "pqacc-004",
@@ -53,9 +53,9 @@
       "pq_record_id": "pqacc-006",
       "name": "Dore's Scouter",
       "pq": 27,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-091 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-053",
+      "match_status": "matched",
+      "note": "Current canonical identity acc-053 promoted/reconciled in the canonical accessory layer by exact inventory name; source-backed PQ association retained."
     },
     {
       "pq_record_id": "pqacc-007",
@@ -77,17 +77,17 @@
       "pq_record_id": "pqacc-009",
       "name": "Great Saiyaman Bandana 1",
       "pq": 51,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-092 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-054",
+      "match_status": "matched",
+      "note": "Current canonical identity acc-054 promoted/reconciled in the canonical accessory layer by exact inventory name; source-backed PQ association retained."
     },
     {
       "pq_record_id": "pqacc-010",
       "name": "Great Saiyaman Bandana 2",
       "pq": 53,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-093 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-055",
+      "match_status": "matched",
+      "note": "Current canonical identity acc-055 promoted/reconciled in the canonical accessory layer by exact inventory name; source-backed PQ association retained."
     },
     {
       "pq_record_id": "pqacc-011",
@@ -101,25 +101,25 @@
       "pq_record_id": "pqacc-012",
       "name": "Jaco's State-of-the-Art Radio",
       "pq": 72,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-094 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-056",
+      "match_status": "matched",
+      "note": "Current canonical identity acc-056 promoted/reconciled in the canonical accessory layer by exact inventory name; source-backed PQ association retained."
     },
     {
       "pq_record_id": "pqacc-013",
       "name": "Tagoma's Scouter",
       "pq": 73,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-095 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-057",
+      "match_status": "matched",
+      "note": "Current canonical identity acc-057 promoted/reconciled in the canonical accessory layer by exact inventory name; source-backed PQ association retained."
     },
     {
       "pq_record_id": "pqacc-014",
       "name": "SSGSS Goku Wig",
       "pq": 76,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-096 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-058",
+      "match_status": "matched",
+      "note": "Current canonical identity acc-058 promoted/reconciled in the canonical accessory layer by exact inventory name; source-backed PQ association retained."
     },
     {
       "pq_record_id": "pqacc-015",
@@ -372,10 +372,10 @@
   ],
   "summary": {
     "pq_records": 45,
-    "matched": 8,
-    "unmatched_or_unresolved": 37,
-    "canonical_accessory_records": 50,
-    "remapped_by_exact_name": 8
+    "matched": 16,
+    "unmatched_or_unresolved": 29,
+    "canonical_accessory_records": 54,
+    "remapped_by_exact_name": 16
   },
   "sources": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -384,5 +384,19 @@
     "https://dbxv2.fandom.com/wiki/Parallel_Quests",
     "https://dbxv2.fandom.com/wiki/Equipment",
     "https://enjoi7.sakura.ne.jp/db_newproject2/ac.html"
-  ]
+  ],
+  "validation": {
+    "canonical_pq_records": 186,
+    "canonical_accessory_records": 54,
+    "research_records": 45,
+    "forward_edge_count": 16,
+    "reverse_edge_count": 16,
+    "unresolved_research_records": 29,
+    "remapped_by_exact_name": 16,
+    "stale_endpoint_count": 0,
+    "duplicate_forward_edges": 0,
+    "null_pq_edges": 0,
+    "canonical_target_prefix": "acc-",
+    "endpoint_integrity": "pass"
+  }
 }
