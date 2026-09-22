@@ -635,7 +635,7 @@
       "mechanics_notes": "Launch a projectile that splits into additional blasts on contact or after time passes. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Blaster_Bomb",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -644,7 +644,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context. 2026-09-21 provenance strengthening: independent PQ documentation identifies PQ148 — Finding Out About Fusion, its reward list includes this skill, and the official Dragon Ball site documents the three Legendary Pack 2 skills. Existing PQ148 acquisition and DLC semantics are preserved.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context. 2026-09-21 provenance strengthening: independent PQ documentation identifies PQ148 — Finding Out About Fusion, its reward list includes this skill, and the official Dragon Ball site documents the three Legendary Pack 2 skills. Existing PQ148 acquisition and DLC semantics are preserved. 2026-09-22 provenance verification: dedicated skill documentation confirms PQ148 — \"Finding Out About Fusion\" and 100-Ki Ki Blast Super classification; independent technique documentation also identifies the Future Warrior acquisition route. Existing DLC/PQ semantics are preserved.",
       "source_parallel_quests": [
         148
       ]
@@ -668,7 +668,7 @@
       "mechanics_notes": "Scatter a barrage of Ki blasts; closer-range hits deal more damage. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Blaster_Cannon",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -677,7 +677,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context. 2026-09-21 provenance strengthening: independent PQ documentation identifies PQ148 — Finding Out About Fusion, its reward list includes this skill, and the official Dragon Ball site documents the three Legendary Pack 2 skills. Existing PQ148 acquisition and DLC semantics are preserved.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context. 2026-09-21 provenance strengthening: independent PQ documentation identifies PQ148 — Finding Out About Fusion, its reward list includes this skill, and the official Dragon Ball site documents the three Legendary Pack 2 skills. Existing PQ148 acquisition and DLC semantics are preserved. 2026-09-22 provenance verification: dedicated skill documentation confirms PQ148 — \"Finding Out About Fusion\" and 100-Ki Blast Super classification; independent gameplay and technique documentation corroborate the PQ route. Existing DLC/PQ semantics are preserved.",
       "source_parallel_quests": [
         148
       ]
@@ -698,12 +698,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Broly mentor training",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "source_quest": "Broly mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 provenance verification: dedicated documentation and independent sources confirm Broly mentor training as the acquisition route and identify Blaster Meteor as a Ki Blast Evasive. Existing mentor semantics are preserved.",
       "id": "skill-blaster-meteor",
       "source_mentor": [
         "mentor-broly"
@@ -726,12 +726,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Broly mentor training",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "source_quest": "Broly mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 provenance verification: dedicated documentation confirms Broly mentor training as the acquisition route and identifies Blaster Shell as a 100-Ki Blast Super. Existing mentor semantics are preserved.",
       "id": "skill-blaster-shell",
       "source_mentor": [
         "mentor-broly"
@@ -758,8 +758,8 @@
       "ultimate_finish_required": false,
       "mechanics_notes": "Chargeable beam; charge increases damage and hit count; follow-up stronger Ki Wave on hit. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. 2026-09-20 verification: current skill page explicitly states PQ148 unlock and Ki Blast Ultimate classification; the PQ148 reward guide independently lists Blaster Stream as a Basic Reward.",
       "research_status": "verified",
-      "last_verified": "2026-09-21",
-      "notes": "2026-09-20 acquisition refinement: the maintained Steam all-PQ guide lists Blaster Stream in PQ148 Basic Reward. No Ultimate Finish requirement is asserted. 2026-09-21 race-scope audit: repository evidence confirms CaC usability but does not establish a narrower race/gender/form restriction; race_restriction remains null rather than being inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context. 2026-09-21 provenance strengthening: independent PQ documentation identifies PQ148 — Finding Out About Fusion, its reward list includes this skill, and the official Dragon Ball site documents the three Legendary Pack 2 skills. Existing PQ148 acquisition and DLC semantics are preserved.",
+      "last_verified": "2026-09-22",
+      "notes": "2026-09-20 acquisition refinement: the maintained Steam all-PQ guide lists Blaster Stream in PQ148 Basic Reward. No Ultimate Finish requirement is asserted. 2026-09-21 race-scope audit: repository evidence confirms CaC usability but does not establish a narrower race/gender/form restriction; race_restriction remains null rather than being inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context. 2026-09-21 provenance strengthening: independent PQ documentation identifies PQ148 — Finding Out About Fusion, its reward list includes this skill, and the official Dragon Ball site documents the three Legendary Pack 2 skills. Existing PQ148 acquisition and DLC semantics are preserved. 2026-09-22 provenance verification: dedicated documentation confirms PQ148 — \"Finding Out About Fusion\" as the acquisition route and 300-Ki Ki Blast Ultimate classification; independent technique documentation corroborates the Future Warrior route. Existing Basic Reward semantics are preserved.",
       "race_restriction": null,
       "source_quest": 148,
       "acquisition_type": "quest_or_mission",
@@ -785,7 +785,7 @@
       "mechanics_notes": "Confirmed as a 100-Ki Strike Super from PQ136. Maintained PQ136 data documents a 25% Ultimate Finish bonus slot. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -794,7 +794,7 @@
       "source_quest": 136,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 source reconciliation: maintained PQ136 data documents a 25% Ultimate Finish bonus slot for Blazing Attack; the prior Basic Reward classification was stale. 2026-09-21 Ultra Pack 1 provenance audit: official Bandai Namco documentation identifies Ultra Pack 1 as containing 10 additional skills and five Parallel Quests (PQ133–137); the maintained all-PQ guide independently maps the ten player-acquirable skills to those quests. Character-only Final Charge and Final Flash (Super) are retained under Ultra Pack 1 because current technique documentation identifies them as Ultra Pack 1 character-exclusive skills; they are distinct from the ten Future Warrior-acquirable skills listed for the pack. This pass verifies DLC provenance only and does not infer reward-slot semantics where sources conflict.",
+      "notes": "2026-09-20 source reconciliation: maintained PQ136 data documents a 25% Ultimate Finish bonus slot for Blazing Attack; the prior Basic Reward classification was stale. 2026-09-21 Ultra Pack 1 provenance audit: official Bandai Namco documentation identifies Ultra Pack 1 as containing 10 additional skills and five Parallel Quests (PQ133–137); the maintained all-PQ guide independently maps the ten player-acquirable skills to those quests. Character-only Final Charge and Final Flash (Super) are retained under Ultra Pack 1 because current technique documentation identifies them as Ultra Pack 1 character-exclusive skills; they are distinct from the ten Future Warrior-acquirable skills listed for the pack. This pass verifies DLC provenance only and does not infer reward-slot semantics where sources conflict. 2026-09-22 provenance verification: dedicated documentation confirms PQ136 — \"Breaking Down the Barrier\" as the acquisition route and identifies Blazing Attack as a 100-Ki Ki Blast Super used by Vegeta (Super Saiyan God). The repository's existing 25% Ultimate Finish evidence is preserved; no reward-tier rewrite is made in this provenance pass.",
       "id": "skill-blazing-attack",
       "source_parallel_quests": [
         136
