@@ -138,6 +138,7 @@
   },
   "audits": {
     "skill_change_the_future_provenance": "docs/data/skill-change-the-future-provenance-audit-2026-09-22.json",
-    "skill_chaos_shot_provenance": "docs/data/skill-chaos-shot-provenance-audit-2026-09-22.json"
+    "skill_chaos_shot_provenance": "docs/data/skill-chaos-shot-provenance-audit-2026-09-22.json",
+    "skill_atomic_blast_provenance": "docs/data/skill-atomic-blast-provenance-audit-2026-09-22.json"
   }
 }
