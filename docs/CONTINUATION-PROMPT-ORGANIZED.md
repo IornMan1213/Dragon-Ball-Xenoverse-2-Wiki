@@ -726,3 +726,13 @@
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [x] Commits: `76a58807f0dad1c9fc2c7b56a1d53847c0f44486`, `b9f6633f44927556358aa823cae00624edc15c49`.
 - [ ] Exact next batch: continue auditing the registered cross-domain PQ consumers for duplicated canonical scalar counts or one-way navigation gaps, next targeting the unified PQ reverse-index validator and its generated projection.
+
+
+### 2026-09-22 cycle update — unified PQ reverse-index exact canonical parity
+- [x] Hardened `scripts/validate_pq_reverse_indexes.py` with explicit duplicate-pair detection for standalone normalized maps/reverse projections.
+- [x] Added exact canonical reward-domain parity for the unified projection: **520/520 pairs** across Skills, Super Souls, and Equipment, with **0 missing / 0 extra / 0 duplicate pairs**.
+- [x] Refreshed `docs/data/pq-reward-normalization/pq-unified-reverse-index-audit.json` to schema **1.1.0**.
+- [x] Preserved source-layer drift as informational; no canonical relationships or source rewards were changed.
+- [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
+- [x] Commits: `46f7dcdc4a87e5997d02b817d6f4d20046f285df`, `5cd22060600e245262eb87ee993c1d34bc7ee009`, `c9cf3614b86fc306ab24628d2e42e85deb0a2b5b`.
+- [ ] Exact next batch: inspect the next registered cross-domain presentation consumer for stale scalar/list assumptions or one-way canonical navigation.
