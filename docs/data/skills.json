@@ -848,8 +848,10 @@
       "mechanics_notes": "Current evidence confirms Bluff Kamehameha as a 100-Ki Ki Blast Super from PQ94. It is a deceptive Kamehameha-style projectile; no unsupported CaC race/gender/form restriction was inferred. Current evidence confirms CaC availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "sources": [
+        "https://dbxv2.fandom.com/wiki/Bluff_Kamehameha",
+        "https://dbxenoverse.fandom.com/wiki/Bluff_Kamehameha_%28Skill%29",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Bluff_Kamehameha",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
@@ -857,7 +859,7 @@
       "source_quest": 94,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance reconciliation: current maintained PQ reward evidence explicitly lists this skill in the Basic Reward set. Dedicated/current skill evidence confirms the corresponding PQ acquisition; exact individual reward probability remains unresolved, and no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-22 provenance verification: current dedicated Xenoverse 2 documentation confirms Bluff Kamehameha as a 100-Ki Super, PQ94 acquisition, and Other-category presentation; the maintained PQ reward guide lists Bluff Kamehameha in PQ94 rewards. The canonical record preserves its existing Ki Blast classification, CaC availability, and Basic Reward semantics; the source/category presentation difference is retained as evidence context rather than normalized without stronger canonical evidence.",
       "id": "skill-bluff-kamehameha",
       "source_parallel_quests": [
         94
