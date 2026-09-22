@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "skill_id": "skill-death-beam",
+  "skill_name": "Death Beam",
+  "audit_date": "2026-09-22",
+  "scope": "P1 stale last_verified provenance refresh",
+  "changes": [
+    "Refreshed canonical/index provenance to 2026-09-22.",
+    "Preserved documented acquisition semantics and evidence boundaries."
+  ],
+  "limits": [
+    "No individual drop probability is inferred.",
+    "Historical/source conflicts are preserved rather than silently normalized."
+  ]
+}
