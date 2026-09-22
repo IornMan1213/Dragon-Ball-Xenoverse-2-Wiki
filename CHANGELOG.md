@@ -1518,3 +1518,11 @@
 - Preserved existing canonical identity overlaps for IDs 074 and 080 rather than creating duplicates.
 - PQ→equipment parity remains 124 forward / 122 reverse / 0 unresolved / 0 broken endpoints.
 - Next batch: `equip-081`–`equip-090`.
+
+## 2026-09-22 — Equipment 081-090 provenance and classification repair
+
+- Enriched eight standalone canonical equipment/accessory records in the equip-081–equip-090 range with independent category, acquisition, provenance, and/or stat evidence.
+- Corrected equip-090 Whis Symbol Gi from the prior PQ66 endpoint to PQ76 using independent corroboration.
+- Removed equip-085 Mr. Shape Up M from the equipment canonical layer after evidence identified it as a consumable capsule/material rather than equipment.
+- Preserved historical equip-088 normalization to accessory acc-012 and retained the PQ18/PQ63 source conflict instead of silently choosing one route.
+- Canonical equipment/accessory count is now 168; generated PQ equipment relationship synchronization remains the immediate follow-up.
