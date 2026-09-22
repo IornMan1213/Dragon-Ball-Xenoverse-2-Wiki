@@ -26,8 +26,8 @@
       "status": "exact"
     },
     "equipment": {
-      "canonical_edges": 125,
-      "record_edges": 123,
+      "canonical_edges": 124,
+      "record_edges": 124,
       "exact_missing": 2,
       "exact_extra": 0,
       "status": "naming_conflicts",
@@ -75,5 +75,5 @@
     "super_soul_id_array_cardinality": "not globally equivalent to Super Soul reward count because IDs are partial/legacy enrichment fields",
     "provenance_preserved": true
   },
-  "next_action": "Define an explicit canonical-name alias/granularity layer for equipment and DLC endpoint presentation, then audit all consumer pages/indexes against that layer before adding more reward data."
+  "next_action": "Resolve only documented equipment name/granularity conflicts through an explicit alias layer; do not collapse distinct canonical target strings."
 }
