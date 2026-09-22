@@ -1340,3 +1340,8 @@
 - Evidence: maintained Steam 186-PQ guide; Xenoverse 2 DLC/equipment references; independent item-ID documentation. Exact reward-slot/probability semantics, restrictions, and combat/stat effects remain unresolved.
 - Canonical data remains the source of truth; verification status and research projections remain supporting evidence only.
 - Next: full cross-database reward/reverse-index census and deterministic drift repair.
+
+
+## 2026-09-22 correction — PQ equipment relationship count
+- Post-batch validation recomputed the PQ→equipment relationship layer at **125 forward / 123 reverse / 0 unresolved / 0 broken endpoints**, not 129 forward. The canonical endpoint parity remains pass.
+- The prior batch narrative's 129-forward figure is superseded by this live recomputation; historical wording is retained for auditability.
