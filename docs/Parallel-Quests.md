@@ -2,8 +2,9 @@
 
 Parallel Quests are the main side content of *Dragon Ball Xenoverse 2*. They feature alternate timelines and “what-if” scenarios and are a major source of skills, Super Souls, clothing, Zeni, and unlocks.
 
-- Base game: 100 PQs (1–7 stars)
-- DLC: Many more (101+), requiring the matching pack
+- Canonical local record layer: **186 numbered PQ records (PQ1–PQ186)**, including preserved historical numbering entries.
+- External/datemined research may describe fewer standalone missions because of numbering gaps; those conflicts are preserved in the audit rather than replacing the canonical record layer.
+- DLC: numbered PQs 101+ are tied to their canonical DLC identities in the relationship layer.
 
 ## Core Mechanics
 - **Regular Finish** — basic clear condition
@@ -21,10 +22,11 @@ Selected and organized from the full list for usefulness (farming, key skills, p
 ### Fast / High-Utility Routes
 | # | Name | Stars | Notes |
 |---|------|-------|-------|
-| 23 | The Explosion of Namek | 3 | Top Dragon Ball farming route |
-| 83 | Dangerous Duo! Warriors Never Rest | 7 | Strong multiplayer source for Super Mix Capsule / Super Mix Capsule Z (Quest Tour) |
+| 44 / 45 | Dragon Ball farming routes | — | Canonical farming relationships identify both PQs as Dragon Ball routes; see the live explorer for quest details |
+| 83 | Dangerous Duo! Warriors Never Rest | 7 | Canonical farming relationship; also a community route for Dragon Ball collection and Quest Tour rewards |
+| 88 | Evil Seeks Dragon Balls Yet Again! | — | Canonical farming relationship for Dragon Ball collection |
 | 4 | Prepare for the Attack of Saiyans! | 1 | Early clear |
-| 13 / 15 / 22 | Dragon Ball collection variants | 2–3 | Alternative Dragon Ball routes |
+| 13 / 15 / 22 / 68 | Additional Dragon Ball-related routes | — | Included in the canonical farming relationship layer; verify the specific route mechanics in the live quest record |
 
 ### Notable Skill & Equipment Sources (Base Game Examples)
 | # | Name | Examples of Notable Rewards |
@@ -44,12 +46,22 @@ Selected and organized from the full list for usefulness (farming, key skills, p
 - **Super / Extra / Ultra / Legendary / Hero of Justice packs**: Add large numbers of 7-star PQs tied to new characters (Universe 6, Goku Black/Zamasu, Tournament of Power, Broly Full Power, Gammas, Beast, etc.).
 - **Future Saga Chapters 1–4**: Extensive set of high-difficulty PQs (roughly 163+) with new skills (including Dragon Spiral, Indomitable, Venus Fist and others), artwork, and some of the highest Zeni rewards in the game. Chapter 4 contains some of the newest content.
 
-## Farming Guidance Drawn from the List
-- Always aim for Ultimate Finish when hunting specific skills or Super Souls listed on a PQ.
-- PQ 23 remains one of the fastest repeatable Dragon Ball routes.
-- PQ 83 via Multiplayer Parallel Quest Tour is a primary community method for Super Mix Capsule Z.
-- Later base-game and all DLC PQs generally offer better Zeni and rarer drops.
-- Check the in-game second page of each PQ for the exact current reward table.
+## Canonical Relationship & Navigation Notes
+The repository treats `docs/data/pq-reward-relationships.json` as the authoritative relationship layer. The current canonical PQ relationship census is **860 unique edges** across skills, Super Souls, equipment, characters, DLC, and farming. The maintained local explorer is the presentation surface for the 186 canonical PQ records.
+
+- **Skill rewards:** resolve through the canonical PQ → Skill relationship layer and the local Skills explorer.
+- **Super Souls:** resolve through the canonical PQ → Super Soul relationship layer; detailed per-record navigation currently uses the local Search surface.
+- **Equipment/accessories:** resolve through the canonical equipment/accessory relationship projections; known naming conflicts remain explicit rather than being silently merged.
+- **DLC:** PQ requirements resolve through individual canonical DLC identities; broad bundle labels such as `Super Pass` are presentation metadata and do not replace individual pack identities.
+- **Characters:** character navigation is derived from explicit canonical `pq_features_character` relationships, not inferred from generic enemy text.
+- **Farming:** the canonical farming relationship layer currently contains seven Dragon Ball routes: **PQ15, PQ22, PQ44, PQ45, PQ68, PQ83, and PQ88**.
+
+## Farming Guidance
+- Use the canonical farming routes above as the repository's relationship-backed route set.
+- Do not treat a community claim that one PQ is “fastest” as canonical acquisition data; route-efficiency claims remain separate from the relationship itself.
+- Ultimate Finish requirements must be checked from the individual PQ record when hunting a specific reward; a farming relationship does not imply a particular drop condition.
+- Use the live [Parallel Quest Explorer](Parallel-Quests-All.html) for the maintained numbered records and current structured reward/navigation fields.
+- Check the in-game second page of each PQ for the exact current reward table when the repository marks a reward condition as unresolved.
 
 **Sources**:  
 User-supplied Parallel Quest compilation (mechanics + full numbered list with conditions and rewards), used as the basis for this practical, original index and summary. Cross-referenced with known high-value community routes.
