@@ -2695,3 +2695,14 @@
 - [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; no CI success claimed.
 - [x] Commits: canonical 8a48a5802b53ef716960a8f7966e0370658e95c0; index a2b1885f676b095dfb0b2a73b6954cf4e12ec7da; audit 4097d6e8cf264f19fa8cb1ed504d2f6e99aad36a.
 - [ ] Exact next batch: **Shine Shot, Shining Friday, Shining Slash, Shooting Strike, Side Bridge, Sign of Awakening, Sneaky Strike, Soaring Rush, Solar Flare, Sonic Bomb**; recompute the live stale census before editing.
+
+
+### 2026-09-22 cycle update — Shine Shot through Sonic Bomb provenance batch
+- [x] Refreshed ten stale skill records: Shine Shot, Shining Friday, Shining Slash, Shooting Strike, Side Bridge, Sign of Awakening, Sneaky Strike, Soaring Rush, Solar Flare, Sonic Bomb.
+- [x] Synchronized canonical/index last_verified metadata; enriched mechanics notes from current repository source references.
+- [x] Preserved unresolved source conflicts rather than inferring unsupported reward gates, including Sonic Bomb's historical UF discrepancy.
+- [x] Added docs/data/skill-shine-shot-through-sonic-bomb-provenance-audit-2026-09-22.json.
+- [x] Validation: 452/452 canonical/index, 0 duplicate IDs, ID sets match=true, 10/10 selected current, 78 stale remain.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [x] Commits: canonical 18aca94714b0d41561b1a1b16a88505e82388fe9; index 018c3d7b16c4a165acda876a07bdb608e85c22ce; audit 58a1d6862166b8cd1ec3fc7cb2523539a89a6045.
+- [ ] Next exact batch: **Sonic Rush, Special Beam Cannon, Special Beam Cannon (Beast), Sphere of Destruction, Spirit Ball, Spirit Blaster, Spirit Bomb, Spirit Boost, Spirit Explosion, Spirit Pulse**.
