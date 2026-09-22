@@ -2103,3 +2103,14 @@
 - [x] Static validation passed: **452/452**, **0 duplicate IDs**, **10/10** audit records, **0 audited canonical/index mismatches**, **288 stale canonical records remain**.
 - [ ] Runtime/CI execution remains unavailable; no CI success claimed.
 - [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Evil Ray Strike, Evil Rise Strike, Evil Whirlwind, Excellent Full Course, Explosive Assault**, then adjacent stale records where evidence remains bounded.
+
+
+### 2026-09-22 cycle update — Evil Ray Strike through Fake Death provenance batch
+- [x] Fresh live census: **452 canonical / 452 index / 0 duplicate canonical IDs / 288 stale**.
+- [x] Completed the bounded P1 provenance batch for **Evil Ray Strike, Evil Rise Strike, Evil Whirlwind, Excellent Full Course, Explosive Assault, Explosive Buu Buu Punch, Explosive Wave, Eye Beam, Fake Blast, and Fake Death**.
+- [x] Refreshed canonical/index `last_verified` to **2026-09-22** for all ten records and added/registered docs/data/skill-evil-through-fake-provenance-audit-2026-09-22.json.
+- [x] Expanded bounded mechanics/provenance from current dedicated skill evidence: guard-break behavior for Evil Ray Strike; rising/knockback behavior for Evil Rise Strike; blocking-capable spin kick for Evil Whirlwind; six-charge/final-blast structure for Excellent Full Course; barrage/exhaustion behavior for Explosive Assault; nine-hit Super Armor barrage for Explosive Buu Buu Punch; 300-Stamina Skill Shop route for Explosive Wave; controllable three-shot Eye Beam; 200-Stamina blinding Fake Blast; and invulnerability/deceptive-counter behavior for Fake Death.
+- [x] Preserved the **Excellent Full Course** acquisition conflict: current sources disagree between PQ142 Basic Reward presentation and an Ultimate-Finish/60%-health condition; no unsupported gate was forced into the canonical record.
+- [x] Static validation passed: **452/452**, **0 duplicate IDs**, **10/10** audit records, **0 audited canonical/index mismatches**, **278 stale canonical records remain**.
+- [ ] Runtime/CI execution remains unavailable; no CI success claimed.
+- [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Feint Crash, Feint Shot, Fierce Fist, Fighting Pose A, Fighting Pose C, Fighting Pose E, Fighting Pose F, Fighting Pose H, Fighting Pose K, Final Cannon**, then adjacent stale records where evidence remains bounded.
