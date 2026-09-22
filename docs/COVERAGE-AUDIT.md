@@ -1248,3 +1248,12 @@
 - `verification_status` is evidence metadata only; a verified/secondary-verified source cannot override canonical data.
 - External research is input/evidence and must be reconciled into canonical records before downstream indexes are updated.
 - Current Super Soul endpoint audit: **160 canonical records, 0 duplicate IDs, 0 dangling relationship endpoints**.
+
+
+## 2026-09-22 — Canonical endpoint expansion
+- Super Soul canonical records: 234 unique identities after merging 7 duplicate-name records.
+- Equipment canonical records: 140 records.
+- PQ to Super Soul: 140 forward edges / 137 unique targets / 0 unresolved canonical endpoints.
+- PQ to Equipment: 124 resolved forward edges / 122 unique targets / 1 unresolved endpoint.
+- The remaining equipment endpoint is the PQ 002 Flying Nimbus!! category conflict. It is intentionally unresolved rather than inventing a second canonical equipment record, because the same canonical name is already represented as a Super Soul.
+- Canonical data remains the source of truth; verification status is metadata only.
