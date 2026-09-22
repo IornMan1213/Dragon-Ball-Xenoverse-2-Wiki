@@ -21,7 +21,7 @@
   },
   "note": "Character feature relationships are now populated from explicit canonical PQ objective/ultimate-finish character references with a small documented alias map. Generic enemy/appearance text was not used as attribution. Full 1-186 exhaustiveness still requires reconciliation of all populated fields and unresolved/conflict records.",
   "reconciliation_report": "docs/data/pq-cross-domain-reconciliation.json",
-  "next_gate": "The master PQ reward relationship index is synchronized with the current skill, Super Soul, and equipment reports. Preserve the 862-edge baseline and perform only evidence-driven additions or invariant repairs.",
+  "next_gate": "Current canonical relationship baseline is 860 unique edges (244 skill / 151 Super Soul / 125 equipment / 247 character / 86 DLC / 7 farming). Historical 862/840 counts remain preserved only in dated audit/history fields; repair deterministic projection drift before new provenance research.",
   "provenance_reconciliation": {
     "source_backed_edge_only_cases_resolved": 88,
     "edge_only_cases_remaining_unresolved": 0,
@@ -35,7 +35,7 @@
     "super_soul": 151,
     "equipment": 125,
     "character": 247,
-    "dlc": 88,
+    "dlc": 86,
     "farming": 7
   },
   "coverage_audit": {
