@@ -1618,3 +1618,12 @@
 - [ ] Exact next batch: recompute the live stale census from `docs/data/skills.json` and continue with the first ten stale canonical skills after **Holy Wrath**; do not assume the historical next batch if intervening verification changes alter the ordering.
 
 - [x] Post-write validation: **452 canonical / 452 index / 0 duplicate IDs / 10 selected current / 0 ID-set mismatches**; stale remaining **198**. Exact next batch is **Hyper Tornado, Ill Bomber, Ill Rain, Impact Flare, Impulse Slash, Indomitable, Innocence Breath, Innocence Bullet, Innocence Cannon, Instant Charge**.
+
+### 2026-09-22 cycle update — Hyper Tornado through Instant Charge verification refresh
+- [x] Fresh live stale census selected **Hyper Tornado, Ill Bomber, Ill Rain, Impact Flare, Impulse Slash, Indomitable, Innocence Breath, Innocence Bullet, Innocence Cannon, Instant Charge**.
+- [x] Refreshed all 10 canonical records and synchronized their index projections. Existing provenance conflicts and evidence limits were preserved; no unsupported acquisition gates, probabilities, or restrictions were introduced.
+- [x] Added and registered `docs/data/skill-hyper-tornado-through-instant-charge-provenance-audit-2026-09-22.json`.
+- [x] Post-write validation: **452 canonical / 452 index / 0 duplicate IDs / 10 selected current / 0 canonical↔index mismatches / 188 stale**.
+- [ ] CI/runtime: no successful workflow/check exposed; do not claim CI success.
+- [x] Commits: `e8be0e5790719a8633311858399cd8b630b2ed8a`, `0408166c155b072e856112acd46060f2f8045640`, `da7ed6bdb574b2fd5878b02ae652c26a7ba2b263`, `d219e8ddcd23d59be9d2a8ec0944b3da942264e9`.
+- [ ] Exact next batch: **Instant Rise, Instant Severance, Instant Transmission, Jumping Energy Wave, Justice Blade, Justice Combination, Justice Drive, Justice Kick, Justice Pose, Justice Rush**; recompute the stale census before editing.
