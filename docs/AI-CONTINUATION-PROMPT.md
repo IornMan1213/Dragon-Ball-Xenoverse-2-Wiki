@@ -114,3 +114,16 @@
 - Commits: pending until all writes complete.
 - Live census after editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 10 exactly-two-source records**.
 - Exact next batch: **Supernova** (`skill-supernova`); recompute the census first, inspect canonical/index records, and independently verify acquisition/source semantics before provenance strengthening.
+
+
+### 2026-09-22 cycle update — Supernova provenance strengthening
+- Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 10 exactly-two-source canonical records**.
+- Bounded batch: **Supernova** (`skill-supernova`).
+- Research/evidence: maintained Steam Expert Mission guide independently lists Supernova as the **EM06 — The Depths of Despair Basic Reward**. citeturn0search12 Dragon Ball Wiki independently confirms the Xenoverse 2 Future Warrior acquisition from Expert Mission 06. citeturn0search2
+- Changes: canonical/index sources gained `https://steamcommunity.com/sharedfiles/filedetails/?id=816459527`; `last_verified` refreshed to 2026-09-22; provenance note synchronized.
+- Evidence limits preserved: existing EM06 acquisition, Basic Reward, 500-Ki Ultimate, and no-Ultimate-Finish semantics remain unchanged; a GameFAQs report notes the reward is not automatic/RNG-based, but no probability is promoted into canonical data. citeturn0search7
+- Validation: JSON parse succeeded; **452/452**, **0 duplicates**, **0 nullable canonical `ki_cost`**; exactly-two-source census reduced to **9**; canonical/index source parity clean; no internal AI/UI/search citation artifacts detected.
+- CI: no exposed status/check for the direct-commit chain; CI success is not claimed.
+- Commits: pending until all writes complete.
+- Live census after editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 9 exactly-two-source records**.
+- Exact next batch: **Taunt** (`skill-taunt`); recompute the census first, inspect canonical/index records, and independently verify acquisition/source semantics before provenance strengthening.
