@@ -1504,7 +1504,8 @@
     "2026-09-19: Reverse index extended from the forward relationship layer after adding 46 source-normalized reward edges.",
     "2026-09-19: Subtype-aware reverse-index reconciliation added normalized-map clothing/accessory provenance without changing forward equipment relationship semantics. The forward layer intentionally uses one equipment relationship type; reverse index retains subtype where the source identifies it.",
     "2026-09-19: Final subtype audit removed legacy dual clothing/accessory placements where the normalized source explicitly classifies the item as an accessory. 122 forward equipment edges now have complete reverse coverage; subtype is only asserted where the source layer identifies it.",
-    "2026-09-19: Added the nine explicitly listed PQ 12-14 reward relationships from the all-186 PQ guide. PQ 1 has no skill, Super Soul, or equipment reward in the source's Basic Reward list, so no typed relationship was fabricated."
+    "2026-09-19: Added the nine explicitly listed PQ 12-14 reward relationships from the all-186 PQ guide. PQ 1 has no skill, Super Soul, or equipment reward in the source's Basic Reward list, so no typed relationship was fabricated.",
+    "2026-09-22: Reconciled current_relationship_counts with the actual reverse-index arrays. Previous metadata overstated DLC references at 88; live index contains 86. Skill and Super Soul counts intentionally remain below canonical because this index is partial source-normalized coverage."
   ],
   "dlc": {
     "Conton City Vote Pack": [
@@ -2049,7 +2050,7 @@
     "super_soul": 137,
     "equipment": 125,
     "character": 247,
-    "dlc": 88,
+    "dlc": 86,
     "farming": 7
   },
   "character_aliases": {
@@ -2058,5 +2059,14 @@
     "Android 18 (Super)": "Android 18 (DB Super)",
     "Great Saiyaman 1": "Great Saiyaman",
     "Jiren (Full Power, Ultra Supervillain)": "Jiren (Full Power) Ultra Supervillain"
-  }
+  },
+  "canonical_relationship_counts": {
+    "skill": 244,
+    "super_soul": 151,
+    "equipment": 125,
+    "character": 247,
+    "dlc": 86,
+    "farming": 7
+  },
+  "current_relationship_counts_semantics": "Counts above are references actually present in this partial normalized reverse index. canonical_relationship_counts is the authoritative current relationship census from docs/data/pq-reward-relationships.json. Differences for skills and Super Souls are unresolved source-layer coverage gaps; DLC is now exactly aligned."
 }
