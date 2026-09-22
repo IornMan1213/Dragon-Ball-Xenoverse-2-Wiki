@@ -1470,202 +1470,260 @@
     {
       "id": "equip-031",
       "name": "Tuxedo",
-      "category": "unclassified",
+      "category": "clothing",
       "acquisition_routes": [
         "Parallel Quest 121 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
       "dlc_provenance": "Extra Pack 2 — PQ 121",
-      "restrictions": null,
+      "restrictions": "No hands; the maintained equipment catalog marks upper/lower/feet as present and hands absent.",
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Equipment"
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://dragonball.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         121
       ],
-      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 2 — PQ 121. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 2 — PQ 121. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred. Slot/category enrichment is independently supported by the maintained equipment catalog and, where noted, independent character/equipment documentation; reward probability and combat/stat effects remain unresolved unless directly evidenced.",
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "feet"
+      ]
     },
     {
       "id": "equip-032",
       "name": "Wedding Dress",
-      "category": "unclassified",
+      "category": "clothing",
       "acquisition_routes": [
         "Parallel Quest 121 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
       "dlc_provenance": "Extra Pack 2 — PQ 121",
-      "restrictions": null,
+      "restrictions": "No hands; the maintained equipment catalog marks upper/lower/feet as present and hands absent.",
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Equipment"
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://dragonball.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         121
       ],
-      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 2 — PQ 121. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 2 — PQ 121. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred. Slot/category enrichment is independently supported by the maintained equipment catalog and, where noted, independent character/equipment documentation; reward probability and combat/stat effects remain unresolved unless directly evidenced.",
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "feet"
+      ]
     },
     {
       "id": "equip-033",
       "name": "Arabian Costume",
-      "category": "unclassified",
+      "category": "clothing",
       "acquisition_routes": [
         "Parallel Quest 123 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
       "dlc_provenance": "Extra Pack 3 — PQ 123",
-      "restrictions": null,
+      "restrictions": "No feet; independent community documentation records upper/lower/hands and no feet.",
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Equipment"
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://dragonball.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         123
       ],
-      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 3 — PQ 123. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 3 — PQ 123. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred. Slot/category enrichment is independently supported by the maintained equipment catalog and, where noted, independent character/equipment documentation; reward probability and combat/stat effects remain unresolved unless directly evidenced.",
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands"
+      ]
     },
     {
       "id": "equip-034",
       "name": "Goku Wig (Ultra Instinct)",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 125 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
       "dlc_provenance": "Extra Pack 3 — PQ 125",
-      "restrictions": null,
-      "combat_effect": "unresolved",
+      "restrictions": "Accessory/wig; not a clothing-set slot.",
+      "combat_effect": "cosmetic",
       "verification_status": "partially_verified",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Equipment"
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://dragonball.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         125
       ],
-      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 3 — PQ 125. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 3 — PQ 125. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred. Slot/category enrichment is independently supported by the maintained equipment catalog and, where noted, independent character/equipment documentation; reward probability and combat/stat effects remain unresolved unless directly evidenced.",
+      "slot_coverage": [
+        "accessory"
+      ]
     },
     {
       "id": "equip-035",
       "name": "Janemba Suit",
-      "category": "unclassified",
+      "category": "clothing",
       "acquisition_routes": [
         "Parallel Quest 127 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
       "dlc_provenance": "Extra Pack 3 — PQ 127",
-      "restrictions": null,
+      "restrictions": "Janemba Suit consists of upper/lower/hands/feet portions; lower-body tail behavior is race-dependent.",
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Equipment"
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://dragonball.fandom.com/wiki/Janemba"
       ],
       "parallel_quest_ids": [
         127
       ],
-      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 3 — PQ 127. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 3 — PQ 127. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred. Slot/category enrichment is independently supported by the maintained equipment catalog and, where noted, independent character/equipment documentation; reward probability and combat/stat effects remain unresolved unless directly evidenced.",
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
+      ]
     },
     {
       "id": "equip-036",
       "name": "Janemba Head",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 127 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
       "dlc_provenance": "Extra Pack 3 — PQ 127",
-      "restrictions": null,
-      "combat_effect": "unresolved",
+      "restrictions": "Accessory/headwear; not a clothing-set slot.",
+      "combat_effect": "cosmetic",
       "verification_status": "partially_verified",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Equipment"
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://dragonball.fandom.com/wiki/Janemba"
       ],
       "parallel_quest_ids": [
         127
       ],
-      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 3 — PQ 127. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 3 — PQ 127. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred. Slot/category enrichment is independently supported by the maintained equipment catalog and, where noted, independent character/equipment documentation; reward probability and combat/stat effects remain unresolved unless directly evidenced.",
+      "slot_coverage": [
+        "accessory"
+      ]
     },
     {
       "id": "equip-037",
       "name": "Broly (Full Power Super Saiyan)'s Clothes",
-      "category": "unclassified",
+      "category": "clothing",
       "acquisition_routes": [
         "Parallel Quest 130 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
       "dlc_provenance": "Extra Pack 4 — PQ 130",
-      "restrictions": null,
+      "restrictions": "Full four-piece clothing set.",
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Equipment"
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://dragonball.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         130
       ],
-      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 4 — PQ 130. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 4 — PQ 130. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred. Slot/category enrichment is independently supported by the maintained equipment catalog and, where noted, independent character/equipment documentation; reward probability and combat/stat effects remain unresolved unless directly evidenced.",
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
+      ]
     },
     {
       "id": "equip-038",
       "name": "SSGSS Gogeta's Clothes",
-      "category": "unclassified",
+      "category": "clothing",
       "acquisition_routes": [
         "Parallel Quest 131 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
       "dlc_provenance": "Extra Pack 4 — PQ 131",
-      "restrictions": null,
+      "restrictions": "Full four-piece clothing set.",
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Equipment"
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://dragonball.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         131
       ],
-      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 4 — PQ 131. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 4 — PQ 131. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred. Slot/category enrichment is independently supported by the maintained equipment catalog and, where noted, independent character/equipment documentation; reward probability and combat/stat effects remain unresolved unless directly evidenced.",
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
+      ]
     },
     {
       "id": "equip-039",
       "name": "Broly Wig (Legendary Super Saiyan)",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 132 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
       "dlc_provenance": "Extra Pack 4 — PQ 132",
-      "restrictions": null,
-      "combat_effect": "unresolved",
+      "restrictions": "Accessory/wig; not a clothing-set slot.",
+      "combat_effect": "cosmetic",
       "verification_status": "partially_verified",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Equipment"
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://dragonball.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         132
       ],
-      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 4 — PQ 132. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 4 — PQ 132. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred. Slot/category enrichment is independently supported by the maintained equipment catalog and, where noted, independent character/equipment documentation; reward probability and combat/stat effects remain unresolved unless directly evidenced.",
+      "slot_coverage": [
+        "accessory"
+      ]
     },
     {
       "id": "equip-040",
       "name": "Kakunsa's Clothes",
-      "category": "unclassified",
+      "category": "clothing",
       "acquisition_routes": [
         "Parallel Quest 133 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
       "dlc_provenance": "Ultra Pack 1 — PQ 133",
-      "restrictions": null,
+      "restrictions": "Full four-piece clothing set.",
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Equipment"
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://dragonball.fandom.com/wiki/Kakunsa"
       ],
       "parallel_quest_ids": [
         133
       ],
-      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Ultra Pack 1 — PQ 133. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Ultra Pack 1 — PQ 133. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred. Slot/category enrichment is independently supported by the maintained equipment catalog and, where noted, independent character/equipment documentation; reward probability and combat/stat effects remain unresolved unless directly evidenced.",
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
+      ]
     },
     {
       "id": "equip-041",
