@@ -2137,3 +2137,14 @@
 - [x] Static validation passed: **452/452**, **0 duplicate IDs**, **10/10** audit records, **0 audited canonical/index mismatches**, **258 stale canonical records remain**.
 - [ ] Runtime/CI execution remains unavailable; no CI success claimed.
 - [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Flash Bomber, Flash Chaser, Flash Fist Crush, Flash Strike, Focus Flash, Force Edge, Force Shield, Formation!, Freedom Kick, Fruit of the Tree of Might**, then adjacent stale records where evidence remains bounded.
+
+
+### 2026-09-22 cycle update — Flash Bomber through Fruit of the Tree of Might provenance batch
+- [x] Fresh live census before editing: **452 canonical / 452 index / 0 duplicate canonical IDs / 258 stale**.
+- [x] Completed the bounded P1 provenance batch for **Flash Bomber, Flash Chaser, Flash Fist Crush, Flash Strike, Focus Flash, Force Edge, Force Shield, Formation!, Freedom Kick, and Fruit of the Tree of Might**.
+- [x] Refreshed canonical/index `last_verified` to **2026-09-22** for all ten records and added/registered docs/data/skill-flash-through-fruit-provenance-audit-2026-09-22.json.
+- [x] Expanded bounded mechanics/provenance from current evidence: PQ95 Flash Bomber barrage; PQ138 Flash Chaser provenance; Shenron counter behavior for Flash Fist Crush; Vegeta Lesson 2 for Flash Strike; Expert Mission 18 and Boost Dash behavior for Focus Flash; DAIMA Pack/PQ180 provenance for Force Edge; PQ59 and barrier behavior for Force Shield; PQ133/three Formation! durations; PQ29/tracking Freedom Kick; and Turles Lesson 3/30-second Fruit of the Tree of Might.
+- [x] Preserved evidence boundaries: Flash Bomber's exact drop percentage remains unresolved; Force Edge's existing Ultimate-Finish/reward-table conflict remains documented; no unsupported CaC race/gender/form restrictions were inferred.
+- [x] Static validation passed: **452/452**, **0 duplicate IDs**, **10/10** audit records, **0 audited canonical/index mismatches**, **248 stale canonical records remain**.
+- [ ] Runtime/CI execution remains unavailable; no CI success claimed.
+- [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Full Power Charge, Full Power Destruction, Future Super Saiyan, Galactic Donuts, Galick Cannon, Galick Gun, Gamma Blaster, Gamma Impact, Genocide Shell, Giant Storm**, then adjacent stale records where evidence remains bounded.
