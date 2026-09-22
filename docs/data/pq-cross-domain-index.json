@@ -64,7 +64,8 @@
     "character_reverse": "docs/data/pq-character-reverse-navigation-audit.json",
     "pq_page_consumers": "scripts/validate_pq_page_consumers.py",
     "character_id_identity_bridge": "docs/data/characters/character-id-identity-bridge.json",
-    "dlc_presentation_consumers": "docs/data/dlc/dlc-presentation-consumer-audit.json"
+    "dlc_presentation_consumers": "docs/data/dlc/dlc-presentation-consumer-audit.json",
+    "dlc_character_identity": "docs/data/characters/dlc-character-identity-audit.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
@@ -72,7 +73,8 @@
     "character_reverse_navigation": "scripts/validate_pq_character_reverse_index.py",
     "pq_page_consumers": "scripts/validate_pq_page_consumers.py",
     "character_id_identity_bridge": "scripts/validate_character_id_identity_bridge.py",
-    "dlc_presentation_consumers": "scripts/validate_dlc_presentation_consumers.py"
+    "dlc_presentation_consumers": "scripts/validate_dlc_presentation_consumers.py",
+    "dlc_character_identity": "scripts/validate_dlc_character_identity_bridge.py"
   },
   "schemas": {
     "canonical_dlc_identity": "docs/data/dlc/canonical-dlc-identity.schema.json"
