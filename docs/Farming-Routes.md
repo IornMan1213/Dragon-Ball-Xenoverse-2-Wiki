@@ -14,8 +14,8 @@ The canonical repository farming relationship layer currently identifies **PQ15,
 For exact route mechanics, consult the individual PQ record and the current in-game reward/objective display. Do not infer a guaranteed drop, Ultimate Finish requirement, or “fastest” ranking from the relationship itself.
 
 ## TP Medals
-**Best Overall**  
-Online Expert Mission Tours cycling **EM 16 (SSGSS Vegeta)**, **EM 17 (SSGSS Goku)**, and **EM 18 (Broly Supervillain)**.
+**Commonly cited online route**  
+Online Expert Mission Tours cycling **EM 16 (SSGSS Vegeta)**, **EM 17 (SSGSS Goku)**, and **EM 18 (Broly Supervillain)**. Route efficiency varies with party/build and current bonuses; this page does not treat it as a universal best route.
 
 **Offline**  
 Repeat EM 16/17 (16 medals) or EM 18 (18 medals).
