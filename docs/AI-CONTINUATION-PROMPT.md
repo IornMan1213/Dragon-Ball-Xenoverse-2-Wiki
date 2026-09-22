@@ -1710,3 +1710,15 @@
 - Commits: validator `d0b319c5974c9a6861bff364136f6b2deaad0a0b`; audit `99474ac1c291d4c49b85cd6ce2d1c853f9d63440`; registry `c041e968d72fe23d54c778d42e73b0d40bf9b21d`; TODO `634c62bb8c90358f9026fc55b2fb6a99ca10074d`.
 - Exact next batch: inspect the next registered Search/landing consumer or unvalidated cross-domain producer for deterministic one-way navigation, stale scalar/list assumptions, or canonical endpoint drift. Prefer exact local consumer parity; do not infer new relationships.
 
+### 2026-09-22 cycle update — Equipment provenance batch `equip-081`–`equip-090`
+- Active workstream: P1 equipment/accessory canonical endpoint enrichment.
+- Live census before/after: **174 canonical equipment/accessory identities / 0 duplicate IDs / 125 PQ→equipment forward edges / 123 unique target endpoints / 0 broken endpoints**.
+- Bounded batch: `equip-081`, `082`, `083`, `084`, `086`, `087`, `088`, `089`, `090`; `equip-085` remains intentionally absent because no live canonical identity exists.
+- Research/evidence: maintained Xenoverse 2 equipment catalog; maintained all-186-PQ Steam guide; dedicated Goku's Turtle Hermit Gi (King Kai) page; Whis Symbol Gi page; independent GameFAQs equipment discussion for Frieza's Suit component coverage.
+- Changes: added slot coverage and catalog provenance to eight non-alias records; retained `equip-088` as historical alias to `acc-012`; refreshed `last_verified` on enriched records.
+- Evidence limits/conflicts preserved: no reward probability, guaranteed-drop semantics, combat effect, or unsupported DLC attribution was inferred; `equip-085` was not fabricated.
+- Validation: equipment/accessory endpoint layer **174/174 resolved**, **0 duplicate IDs**, **125 forward**, **123 reverse endpoints**, **0 broken**. Batch live IDs **9/9 present**; eight enriched non-alias records have slot coverage; normalized alias remains explicit.
+- CI/Actions: no successful workflow/check exposed; CI success is not claimed.
+- Commits: canonical `1b2f96e444c1f0ce17174cba4d4d95841ae671cd`; detail audit `007c9a768edd1483583cec7336b2f7537366922a`; TODO `93e4ff79cc11b260fbe039ad355eef9adee89a86`.
+- Exact next batch: **`equip-091`–`equip-100`**; recompute the endpoint census first and preserve canonical accessory bridges/normalized aliases.
+
