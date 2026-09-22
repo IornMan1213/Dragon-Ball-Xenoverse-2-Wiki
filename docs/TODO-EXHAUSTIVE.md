@@ -113,3 +113,11 @@
 - [x] Reconciled DLC provenance: `061` Conton City Vote Pack; `062–064` Hero of Justice Pack 1; `065–069` Hero of Justice Pack 2; `070` base game.
 - [x] Revalidated canonical equipment/PQ endpoint parity: 169 records, 0 duplicate IDs, 124 forward, 122 reverse, 0 unresolved, 0 broken endpoints.
 - [ ] Exact next task: enrich **`equip-071`–`equip-080`** under canonical-source-of-truth and evidence-boundary rules.
+
+### 2026-09-22 — Equipment provenance batch `equip-071`–`equip-080` range
+- [x] Enriched all standalone canonical records present in the requested range: `equip-071`–`equip-073`, `equip-075`–`equip-079`.
+- [x] Classified the records as equipment/accessory and added independent maintained equipment-catalog provenance.
+- [x] Reconciled provenance as base-game content for PQ27, PQ21/30, PQ31, PQ37, PQ41, PQ45, and PQ59.
+- [x] Confirmed `equip-074` and `equip-080` are not separate live canonical identities; existing canonical accessory identities represent those overlaps, so no duplicate records were created.
+- [x] Revalidated canonical equipment/PQ endpoint parity: 169 records, 0 duplicate IDs, 124 forward, 122 reverse, 0 unresolved, 0 broken endpoints.
+- [ ] Exact next task: enrich **`equip-081`–`equip-090`** under canonical-source-of-truth and evidence-boundary rules.
