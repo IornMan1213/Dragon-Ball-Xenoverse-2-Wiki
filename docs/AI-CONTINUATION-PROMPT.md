@@ -291,3 +291,14 @@
 - Crosslink report metadata synchronized; relationship endpoints were unchanged.
 - CI: no successful workflow/check exposed; no CI success is claimed.
 - Exact next batch: **`equip-051`–`equip-060`**. Recompute the live census first, then independently reconcile identity, category, PQ acquisition, DLC provenance, and directly evidenced effects/restrictions.
+
+### 2026-09-22 cycle update — equipment provenance batch `equip-051`–`equip-060`
+- Active workstream: P2 equipment/accessory canonical detail and provenance enrichment.
+- Bounded batch completed: `equip-051`–`equip-060`.
+- Evidence: maintained DBXV2 equipment catalog independently corroborates item identities/classification; the maintained all-186 PQ guide corroborates PQ reward endpoints. DLC documentation corroborates the relevant package groupings: PQ146 Legendary Pack 1; PQ147–149 Legendary Pack 2; PQ152/PQ154 Conton City Vote Pack.
+- Changes: classified equipment versus accessory, added independent equipment-catalog provenance, and reconciled explicit DLC provenance for all 10 records. Existing canonical names were preserved even where source spelling differs.
+- Evidence limits: exact reward probability/slot semantics, restrictions, and combat/stat effects were not promoted without direct evidence. Canonical records remain authoritative; verification status remains metadata only.
+- Validation: **169 canonical equipment records / 0 duplicate IDs / 124 forward edges / 122 reverse endpoints / 0 unresolved / 0 broken endpoints**. All 10 batch records have 2 sources and explicit category/DLC provenance. Artifact scan passed.
+- CI: no successful workflow/check exposed; no CI success claimed.
+- Commits: canonical equipment `c56b8c09348e64f69110a69d6c1f2502af684143`; crosslink metadata `699ad8e9595120cc693e626b7e4952c892730f5a`.
+- Exact next batch: **`equip-061`–`equip-070`**. Recompute the live census first, then independently reconcile identity, category, PQ acquisition, DLC provenance, and directly evidenced restrictions/effects.
