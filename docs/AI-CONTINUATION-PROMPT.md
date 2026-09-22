@@ -412,3 +412,9 @@
 
 ### 2026-09-22 correction — Accessory batch handoff commit metadata
 - Correction to the immediately preceding handoff entry: audit commit is d596b78d57c28456dbc61438d745cf26dddc2a02. All other commit IDs in that entry are unchanged.
+
+
+### 2026-09-22 correction — Live equipment relationship census
+- Recomputed live PQ→equipment relationship coverage: **125 forward / 123 reverse / 0 unresolved / 0 broken endpoints**. This supersedes the earlier 129-forward figure in the preceding cycle entry.
+- Canonical equipment/accessory layer remains **174 records / 70 accessory IDs**; PQ→accessory remains **28 forward / 28 reverse / 16 unresolved**.
+- Exact next batch remains the full cross-database reward/reverse-index census across skills, Super Souls, equipment, and accessories.
