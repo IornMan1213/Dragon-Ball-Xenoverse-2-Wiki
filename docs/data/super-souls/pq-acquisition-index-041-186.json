@@ -431,7 +431,8 @@
     {
       "pq": 158,
       "super_souls": [
-        "Heh heh! I'm not a rusty as I look!"
+        "Heh heh! I'm not as rusty as I look!",
+        "See? It's a good thing I was here, right?"
       ]
     },
     {
@@ -484,6 +485,12 @@
       ]
     },
     {
+      "pq": 174,
+      "super_souls": [
+        "I'll surpass you as I am, with my OWN power!"
+      ]
+    },
+    {
       "pq": 175,
       "super_souls": [
         "It's about time..."
@@ -498,7 +505,13 @@
     {
       "pq": 178,
       "super_souls": [
-        "I'll take all of you on at once!"
+        "I'll take you all on at once!"
+      ]
+    },
+    {
+      "pq": 179,
+      "super_souls": [
+        "Here I go!"
       ]
     },
     {
@@ -558,7 +571,8 @@
     "The source layer currently leaves several PQ ranges unresolved, especially parts of PQ41-80 and individual later quests.",
     "Duplicate acquisition relationships are preserved as multiple PQ references rather than deduplicated away.",
     "Effect text, Limit Burst data, activation conditions, stat magnitudes, and verification dates belong in the forthcoming Super Soul master records.",
-    "2026-09-22: Scope audit measured exact pair overlap with the canonical Super Soul relationship layer. Differences are preserved as research-vs-canonical reconciliation work rather than silently rewriting either layer."
+    "2026-09-22: Scope audit measured exact pair overlap with the canonical Super Soul relationship layer. Differences are preserved as research-vs-canonical reconciliation work rather than silently rewriting either layer.",
+    "2026-09-22: Reconciled the final five exact canonical Super Soul acquisition gaps (PQ158 x2, PQ174, PQ178, PQ179). PQ158 and PQ178 had source-layer wording conflicts; canonical names are used in the structured acquisition projection and the original source spellings are preserved explicitly as conflicts."
   ],
   "sources": [
     "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
@@ -569,14 +583,14 @@
     "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
   ],
   "scope_audit": {
-    "record_count": 80,
-    "pq_count": 80,
-    "typed_relationship_references": 128,
+    "record_count": 83,
+    "pq_count": 83,
+    "typed_relationship_references": 131,
     "canonical_relationship_references_for_same_domain": 151,
-    "exact_pair_overlap": 126,
+    "exact_pair_overlap": 131,
     "research_layer_only_pairs": 14,
-    "canonical_pairs_absent_from_this_index": 37,
-    "canonical_pairs_absent_within_index_scope_41_186": 7,
+    "canonical_pairs_absent_from_this_index": 20,
+    "canonical_pairs_absent_within_index_scope_41_186": 2,
     "interpretation": "This acquisition index is a partial source-normalized research projection, not the canonical relationship source. Evidence-backed missing canonical pairs were added only where maintained reward evidence explicitly named the Super Soul; unresolved differences remain coverage gaps."
   },
   "coverage_reconciliation_2026_09_22": {
@@ -587,5 +601,51 @@
     ],
     "added_pairs": 1,
     "note": "PQ58 'Killed all Earthlings!' was independently corroborated as a Parallel Quest 58 acquisition by the maintained Super Soul/PQ references. No canonical relationship was changed."
+  },
+  "coverage_reconciliation_2026_09_22_final_five": {
+    "batch": "PQ158/PQ174/PQ178/PQ179",
+    "evidence_sources": [
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "https://dbxv2.fandom.com/wiki/Super_Soul",
+      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81126464"
+    ],
+    "added_pairs": 5,
+    "resolved_pairs": [
+      [
+        "Heh heh! I'm not as rusty as I look!",
+        158
+      ],
+      [
+        "See? It's a good thing I was here, right?",
+        158
+      ],
+      [
+        "I'll surpass you as I am, with my OWN power!",
+        174
+      ],
+      [
+        "I'll take you all on at once!",
+        178
+      ],
+      [
+        "Here I go!",
+        179
+      ]
+    ],
+    "source_conflicts_preserved": [
+      {
+        "pq": 158,
+        "source_layer_name": "Heh heh! I'm not a rusty as I look!",
+        "canonical_name": "Heh heh! I'm not as rusty as I look!",
+        "classification": "source_spelling_conflict"
+      },
+      {
+        "pq": 178,
+        "source_layer_name": "I'll take all of you on at once!",
+        "canonical_name": "I'll take you all on at once!",
+        "classification": "source_wording_conflict"
+      }
+    ],
+    "note": "Maintained Super Soul/PQ references corroborate the five canonical acquisition pairs. No canonical relationship layer was modified."
   }
 }
