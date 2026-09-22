@@ -6712,3 +6712,14 @@ The repository owner has clarified the continuation contract:
 - Validation target after edit: **452/452 records, 0 duplicate IDs, 0 nullable `ki_cost`, 41 exactly-two-source records**, with canonical/index source parity for Final Charge.
 - CI: inspect workflow runs for the latest repository commit; no CI success is claimed unless GitHub exposes an actual run/check.
 - Exact next batch: **recompute the live two-source census and continue the next deterministic low-source record after Final Charge, checking acquisition/reward semantics before provenance-only strengthening.**
+
+
+### 2026-09-21 cycle update — Final Flash (Super) low-source provenance strengthening
+- Live pre-edit census: **452 canonical / 452 index / 41 exactly-two-source records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- Bounded batch: **Final Flash (Super) (`skill-final-flash-super`)**.
+- Evidence: the Dragon Ball Wiki Final Flash entry independently documents the Xenoverse 2 Ultra Pack 1 SSGSS (Evolved) Vegeta-exclusive Super Skill variant. citeturn0search1
+- Changes: added the source to canonical `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21**; documented the cycle in `docs/COVERAGE-AUDIT.md` and `CHANGELOG.md`.
+- Evidence limits preserved: no CaC acquisition route or reward semantics were inferred; the existing character-only/non-CaC boundary remains unchanged.
+- Validation target after edit: **452/452 records, 0 duplicate IDs, 0 nullable `ki_cost`, 40 exactly-two-source records**, with canonical/index source parity for Final Flash (Super).
+- CI: inspect workflow runs for the latest repository commit; do not claim CI success unless GitHub exposes an actual run/check.
+- Exact next batch: **recompute the live two-source census and continue the next deterministic low-source record after Final Flash (Super), checking acquisition/reward semantics before provenance-only strengthening.**
