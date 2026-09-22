@@ -380,3 +380,11 @@
 - [x] Preserved all historical 862/840/88-era fields as dated history; no canonical relationship identity or partial reverse-index entry was deleted.
 - [x] Post-edit validation: master/audit/status/producer-census counts all agree; duplicate relationship keys **0**; invalid PQ numbers **0**; empty targets **0**; canonical reverse projection parity remains **0 missing / 0 orphan / 0 PQ-set mismatch**.
 - [ ] Exact next task: reconcile the live repository against the handoff claims that `scripts/generate_pq_reverse_indexes.py` and `scripts/validate_pq_reverse_indexes.py` exist. If the scripts are absent on the live branch, restore them with schema-aware, canonical-source-of-truth-safe implementations before evaluating unified reverse-index generation.
+
+### 2026-09-22 cycle update — reverse-index script source-shape repair
+- [x] Inspected the live scripts/generate_pq_reverse_indexes.py and scripts/validate_pq_reverse_indexes.py instead of relying on older handoff claims.
+- [x] Found a real compatibility defect: the PQ81-120 normalized reward map uses a list-of-[PQ, typed-reward-list] record shape, while both scripts previously assumed dictionary records or object records with a pq field. The generator/validator would therefore fail on the live PQ81-120 source shape.
+- [x] Patched both scripts to explicitly support the list-of-pairs source shape without changing canonical relationship data or inferring rewards.
+- [x] Static live-data parity validation after the patch: PQ81-120 0 missing / 0 extra, PQ121-142 0/0, PQ143-162 0/0, PQ163-186 0/0 typed reward pairs between normalized source maps and standalone reverse indexes.
+- [x] This was a validator/generator correctness repair, not a data promotion; artwork remains a separate projection for ranges that contain it.
+- [ ] Exact next task: inspect unified reverse-index generation safety against its intentionally partial source coverage. Compare every canonical typed PQ relationship with the unified index by exact pair, identify only deterministic omissions/duplicates, and do not promote partial/research-only records into canonical data.
