@@ -38,3 +38,16 @@
 - CI/Actions: no successful workflow/check exposed; do not claim CI success.
 - Commits: canonical 819ea0b5c81ead23d7bd8a33593af5ab19f8f4cc; index d6a444f470e33b2eb560ad3c6a435f73a4def07a; changelog 2f684a98ab73f984a5013baddf025557d03da1f3.
 - Exact next batch: Requiem of Destruction (skill-requiem-of-destruction). Recompute the live census, inspect the canonical/index records, and independently verify its acquisition/source endpoint before editing.
+
+
+### 2026-09-22 cycle update — Requiem of Destruction provenance strengthening
+- Active workstream: P1 skill acquisition/DLC-version provenance cleanup.
+- Bounded batch: Requiem of Destruction (skill-requiem-of-destruction).
+- Evidence used: maintained Steam all-Parallel-Quest guide independently lists Requiem of Destruction in PQ106, A Destructive Showdown, Basic Reward.
+- Fields changed: canonical/index sources gained https://steamcommunity.com/sharedfiles/filedetails/?id=808851543; last_verified refreshed to 2026-09-22; provenance note synchronized.
+- Evidence limits preserved: existing no-Ultimate-Finish-gate semantics retained; no drop probability inferred.
+- Post-edit census: 452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical ki_cost / 14 exactly-two-source canonical records.
+- Cross-layer validation: canonical/index source parity clean; no internal AI/UI/search citation artifacts detected.
+- CI/Actions: no successful workflow/check exposed; do not claim CI success.
+- Commits: canonical 311907d5bbfc7d08a587b654b41301e070a546b3; index 9aa05a8d1d237ce6404e80b8c9b5f16bb1646a24; changelog 52293758a8282c1f19f0687f93609ebdb05fb8c5.
+- Exact next batch: Rise to Action (skill-rise-to-action). Recompute the live census, inspect the canonical/index records, and independently verify its acquisition/source endpoint before editing.
