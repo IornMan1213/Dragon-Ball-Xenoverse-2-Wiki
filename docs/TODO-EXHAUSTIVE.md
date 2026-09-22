@@ -319,3 +319,13 @@
 - [x] Confirmed no standalone PQ143-162 reverse-index artifact currently exists; retained this as an explicit coverage gap.
 - [x] Preserved canonical relationship data unchanged.
 - [ ] Exact next task: compare PQ81-120, PQ121-142, and PQ163-186 indexes against their normalized reward maps at exact relationship-pair level and assess deterministic PQ143-162 reverse-index generation.
+
+
+### 2026-09-22 — PQ81-162 standalone reverse-index reconciliation
+- [x] Added/confirmed standalone reverse-index artifacts for PQ81-120, PQ121-142, and PQ143-162.
+- [x] Closed the previously documented standalone reverse-index gap for PQ143-162 with a deterministic projection from pq-143-162-reward-map.json.
+- [x] Projection census: PQ81-120 = 108 indexed identities / 109 references; PQ121-142 = 88 indexed identities / 88 references; PQ143-162 = 151 indexed identities / 151 references.
+- [x] PQ143-162 projection breakdown: 40 skills / 26 Super Souls / 11 clothing / 10 accessories / 64 artwork identifiers.
+- [x] No canonical PQ identities or relationship edges were changed.
+- [x] New PQ143-162 projection commit: f40a588758ef0a0c4388e5c6e4520608a24583a0.
+- [ ] Exact next task: compare the three standalone indexes against the unified reverse index at exact relationship-pair level and repair only deterministic projection drift.
