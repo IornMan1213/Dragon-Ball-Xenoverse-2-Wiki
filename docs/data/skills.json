@@ -7548,7 +7548,8 @@
       "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
-        "https://dbxv2.fandom.com/wiki/Instant_Transmission"
+        "https://dbxv2.fandom.com/wiki/Instant_Transmission",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
       ],
       "ki_cost": 0,
       "unlock_method": "Goku mentor training — Lesson 1.",
@@ -7563,7 +7564,7 @@
       "mechanics_notes": "Confirmed as Goku Lesson 1, 0 Ki/0 Stamina teleport skill usable by all CaC races. It teleports to the targeted opponent and can be used without a resource cost. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-goku added for the documented mentor-training acquisition route.",
       "source_quest": "Goku mentor training — Lesson 1",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: Goku — Lesson 1 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-19 verification: Goku — Lesson 1 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: maintained Steam instructor guide independently lists Goku Lesson 1 with Instant Transmission as the Basic Reward, corroborating the existing mentor-training acquisition boundary.",
       "id": "skill-instant-transmission",
       "source_mentor": [
         "mentor-goku"
