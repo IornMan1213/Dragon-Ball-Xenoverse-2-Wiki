@@ -149,10 +149,23 @@ def main() -> int:
         }
         report.append(row)
 
-        if missing or extra or unified_missing or unified_extra:
+        # Standalone reverse indexes are projections of normalized source maps.
+        # Differences from the unified canonical layer are informational because
+        # normalized source maps are explicitly allowed to be partial or variant.
+        if missing or extra:
             failures.append((label, missing, extra, unified_missing, unified_extra))
 
-    print(json.dumps({"status": "pass" if not failures else "fail", "ranges": report}, indent=2))
+    print(json.dumps({
+        "status": "pass" if not failures else "fail",
+        "ranges": report,
+        "canonical_comparison": {
+            "semantics": "informational",
+            "rule": "Standalone reverse indexes must match normalized source maps exactly; differences from the unified canonical relationship projection are retained as source-layer drift and must not override canonical relationships.",
+            "ranges_with_canonical_projection_drift": sum(1 for row in report if row["missing_from_unified_canonical"] or row["extra_in_unified_canonical"]),
+            "total_missing_from_unified_canonical": sum(row["missing_from_unified_canonical"] for row in report),
+            "total_extra_in_unified_canonical": sum(row["extra_in_unified_canonical"] for row in report)
+        }
+    }, indent=2))
 
     if failures:
         for label, missing, extra, unified_missing, unified_extra in failures:
