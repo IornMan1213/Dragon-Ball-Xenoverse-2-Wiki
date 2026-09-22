@@ -857,3 +857,15 @@
 - [x] Validator commit: `a5a706db4cff56967d6af2813c1623738c3f0324`; audit refresh: `88e68619c411329e1c39d42ec797bfaffd06b979`.
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [ ] Exact next batch: inspect the next registered cross-domain presentation/search consumer after reverse-PQ record navigation, prioritizing remaining deterministic one-way links, stale duplicated counts, or hidden scalar/list assumptions.
+
+
+### 2026-09-22 cycle update — DLC presentation/reverse navigation parity hardening
+- [x] Continued the registered cross-domain consumer chain into `scripts/validate_dlc_presentation_consumers.py`, covering the canonical DLC identity layer, DLC content projection, Future Saga map, DLC overview, and PQ↔DLC reverse navigation.
+- [x] Found and repaired a deterministic validator defect: canonical `pq_requires_dlc` relationship targets are human-readable DLC names while the reverse index stores canonical `dlc_id` values. The validator now resolves relationship names through `canonical-dlc-identity.json` before exact forward/reverse comparison instead of comparing incompatible representations.
+- [x] Added hidden-shape/duplicate guards: content projection ID collections must be lists; Future Saga `dlc_id` fields must be strings; reverse `pq_ids` collections must be lists; forward/reverse pairs and reverse DLC IDs must be unique.
+- [x] Live corrected result: **20/20 canonical DLC identities; 3 content projection records / 6 references; Future Saga Chapters 1–4 / 4 DLC references; 86 forward PQ→DLC edges / 86 unique reverse pairs; 0 unresolved target names / 0 missing / 0 extra / 0 duplicate forward or reverse pairs / 0 malformed fields**.
+- [x] Refreshed `docs/data/dlc/dlc-presentation-consumer-audit.json` to schema **1.1.0** with the corrected name→ID parity contract.
+- [x] No canonical DLC identity or PQ→DLC relationship was changed; only validator/audit logic was corrected and hardened.
+- [x] Validator commit: `23350e2db4d4fe85f204599a9ab6632c60b05375`; audit refresh: `8c68ad509c61bb352a0ccff37eed0a5c399a592e`.
+- [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
+- [ ] Exact next batch: continue to the next registered local Search/DLC/equipment or published navigation consumer, prioritizing another deterministic representation mismatch or one-way canonical-link gap before broad content research.
