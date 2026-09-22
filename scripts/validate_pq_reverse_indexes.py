@@ -39,6 +39,16 @@ def source_index(data):
             })
             for pq, rewards in records.items()
         ]
+    elif records and isinstance(records[0], (list, tuple)) and len(records[0]) == 2:
+        normalized = [
+            (int(pq), {
+                "skills": [name for name, kind in rewards if kind == "skill"],
+                "super_souls": [name for name, kind in rewards if kind == "super_soul"],
+                "clothing": [name for name, kind in rewards if kind == "clothing"],
+                "accessories": [name for name, kind in rewards if kind == "accessory"],
+            })
+            for pq, rewards in records
+        ]
     else:
         normalized = []
         for record in records:
