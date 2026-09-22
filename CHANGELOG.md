@@ -1484,3 +1484,10 @@
 - Regenerated the PQ→equipment crosslink report: **124 forward / 122 reverse / 0 unresolved / 0 broken endpoints**.
 - New canonical records intentionally leave unsupported category, slot, DLC, restriction, effect, and reward-slot fields unresolved.
 - Next: enrich `equip-031`–`equip-040` from independent evidence while preserving canonical-source-of-truth and crosslink parity.
+
+## 2026-09-22 — Equipment provenance batch `equip-031`–`equip-040`
+- Added independent equipment-catalog provenance to 10 canonical equipment records.
+- Reconciled DLC provenance across Extra Pack 2, Extra Pack 3, Extra Pack 4, and Ultra Pack 1 according to the records' PQ endpoints.
+- Preserved unresolved drop/reward semantics and unsupported mechanics.
+- PQ→equipment parity remains clean: 124 forward / 122 reverse / 0 unresolved / 0 broken endpoints.
+- Next batch: `equip-041`–`equip-050`.
