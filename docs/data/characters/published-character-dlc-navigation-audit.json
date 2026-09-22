@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-22",
+  "scope": "published Character/DLC page local navigation",
+  "pages": {
+    "docs/Characters.md": {
+      "checked_links": [
+        "Characters-All.html",
+        "Character-Core-Profiles.md",
+        "data/characters/dlc-character-identity-audit.json",
+        "data/characters/dlc-character-identity-bridge.json"
+      ],
+      "repaired": [
+        "Characters-All.md → Characters-All.html"
+      ],
+      "status": "clean"
+    },
+    "docs/DLC-Overview.md": {
+      "checked_links": [
+        "./data/dlc/canonical-dlc-identity.json",
+        "./data/dlc/pq-reverse-index.json",
+        "./data/dlc/pq-reverse-navigation-audit.json",
+        "./data/future-saga-content-map.json",
+        "./data/dlc/dlc-presentation-consumer-audit.json"
+      ],
+      "status": "clean"
+    }
+  },
+  "findings": [
+    "Characters.md contained a stale local link to Characters-All.md; the published explorer is Characters-All.html.",
+    "All other checked local Character/DLC navigation targets exist on main.",
+    "No canonical character, DLC, or PQ relationship identity was changed."
+  ],
+  "validator": "scripts/validate_published_character_dlc_navigation.py",
+  "status": "clean"
+}
