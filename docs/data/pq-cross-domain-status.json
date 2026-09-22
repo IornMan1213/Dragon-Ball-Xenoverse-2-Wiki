@@ -21,7 +21,7 @@
   },
   "note": "Character feature relationships are now populated from explicit canonical PQ objective/ultimate-finish character references with a small documented alias map. Generic enemy/appearance text was not used as attribution. Full 1-186 exhaustiveness still requires reconciliation of all populated fields and unresolved/conflict records.",
   "reconciliation_report": "docs/data/pq-cross-domain-reconciliation.json",
-  "next_gate": "Current canonical relationship baseline is 859 unique edges (244 skill / 151 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming). Historical 862/840/860 counts remain preserved only in dated audit/history fields; repair deterministic projection drift before new provenance research.",
+  "next_gate": "Current canonical relationship baseline is 859 unique edges (244 skill / 151 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming). Standalone reverse-index source-map parity is resolved; runtime validator execution remains the next gate before deterministic regeneration.",
   "provenance_reconciliation": {
     "source_backed_edge_only_cases_resolved": 88,
     "edge_only_cases_remaining_unresolved": 0,
@@ -66,7 +66,7 @@
     "interpretation": "PQ 1-14 are not represented in the canonical reward batch directory used by this reconciliation. Do not claim canonical batch exhaustiveness for those four PQs; existing relationship evidence for other PQs remains independently sourced."
   },
   "final_consistency_checks": {
-    "total_edges": 860,
+    "total_edges": 859,
     "duplicates": 0,
     "invalid_pq_numbers": 0,
     "stale_count_fields": 0,
@@ -79,7 +79,7 @@
     "reverse_counts": {
       "skill": 244,
       "super_soul": 151,
-      "equipment": 125,
+      "equipment": 124,
       "character": 247,
       "dlc": 86,
       "farming": 7
@@ -87,7 +87,7 @@
     "forward_counts": {
       "skill": 244,
       "super_soul": 151,
-      "equipment": 125,
+      "equipment": 124,
       "character": 247,
       "dlc": 86,
       "farming": 7
@@ -95,7 +95,7 @@
     "audit_counts": {
       "skill": 244,
       "super_soul": 151,
-      "equipment": 125,
+      "equipment": 124,
       "character": 247,
       "dlc": 86,
       "farming": 7
@@ -103,16 +103,16 @@
     "status_counts": {
       "skill": 244,
       "super_soul": 151,
-      "equipment": 125,
+      "equipment": 124,
       "character": 247,
       "dlc": 86,
       "farming": 7
     },
-    "current_total_edges": 860,
+    "current_total_edges": 859,
     "current_forward_counts": {
       "skill": 244,
       "super_soul": 151,
-      "equipment": 125,
+      "equipment": 124,
       "character": 247,
       "dlc": 86,
       "farming": 7
@@ -120,7 +120,7 @@
     "current_status_counts": {
       "skill": 244,
       "super_soul": 151,
-      "equipment": 125,
+      "equipment": 124,
       "character": 247,
       "dlc": 86,
       "farming": 7
