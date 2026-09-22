@@ -138,7 +138,13 @@
     "normalized_legacy_accessory_bridges": 1,
     "duplicate_ids": 0,
     "broken_endpoints": 0,
-    "unresolved_batch_relationship_endpoints": 0
+    "unresolved_batch_relationship_endpoints": 0,
+    "canonical_equipment_accessory_records": 173,
+    "equipment_forward_edges": 124,
+    "equipment_unique_targets": 122,
+    "reverse_edge_records": 122,
+    "forward_reverse_pair_parity": "pass",
+    "crosslink_report_reconciled": true
   },
-  "evidence_boundary": "The batch classifies the existing PQ endpoints and preserves the canonical accessory normalization for equip-133→acc-064. Slot coverage is limited to maintained equipment documentation. No reward probability, guaranteed-drop interpretation, current shop rotation, combat/stat effect, or unsupported restriction was inferred."
+  "evidence_boundary": "The batch classifies the existing PQ endpoints and preserves the canonical accessory normalization for equip-133→acc-064. Slot coverage is limited to maintained equipment documentation. No reward probability, guaranteed-drop interpretation, current shop rotation, combat/stat effect, or unsupported restriction was inferred. The PQ equipment cross-link report was also reconciled to the 173-record canonical equipment/accessory layer, including normalization of legacy accessory IDs and removal of the non-equipment equip-121 endpoint."
 }
