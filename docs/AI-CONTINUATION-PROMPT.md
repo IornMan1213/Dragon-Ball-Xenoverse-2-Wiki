@@ -2441,3 +2441,14 @@
 - [x] Static validation after editing: **452/452** canonical/index; **0 duplicate canonical IDs**; **308 stale canonical records remain**; all eight targets refreshed; shared `name`, `class`, `subcategory`, and `last_verified` fields have **0 mismatches**.
 - [ ] Runtime/CI execution remains unavailable; no CI success claimed.
 - [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Elite Beam, Elite Shooting, Emperor's Blast, Emperor's Cannon**, then adjacent stale records where evidence remains bounded.
+
+### 2026-09-22 cycle update — Elite Beam through Energy Dome provenance batch
+- [x] Fresh live census before editing: **452 canonical / 452 index / 0 duplicate canonical IDs / 308 stale**.
+- [x] Bounded batch completed for **Elite Beam, Elite Shooting, Emperor's Blast, Emperor's Cannon, Emperor's Death Beam, Emperor's Edge, Endless Shoot, Energy Barrier, Energy Charge, and Energy Dome**.
+- [x] Refreshed canonical/index last_verified to **2026-09-22** for all ten records and added the dedicated batch audit docs/data/skill-elite-through-energy-provenance-audit-2026-09-22.json.
+- [x] Deterministic corrections: **Emperor's Blast** mechanics association corrected from Hercule to **Golden Frieza**; **Emperor's Death Beam** ki_cost corrected from **300 to 400** based on current 400+ Ki evidence.
+- [x] Preserved evidence conflicts: **Emperor's Cannon** PQ183-vs-PQ184 acquisition conflict remains explicit; **Energy Barrier** Basic-vs-Ultimate-Finish acquisition conflict remains explicit. No unsupported drop rates, gates, or narrower CaC restrictions were inferred.
+- [x] Static validation: **452/452 canonical/index**, **0 duplicate IDs**, all ten targets refreshed, audited shared fields have **0 mismatches**, audit has **10/10 records**, and the registry points to the audit. **298 stale canonical records remain**.
+- [ ] Runtime/CI execution remains unavailable; no CI success claimed.
+- [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Emperor's Death Beam, Emperor's Edge, Endless Shoot, Energy Barrier, Energy Charge, Energy Dome, Energy Field, Energy Minefield**, then adjacent stale records where evidence remains bounded.
+
