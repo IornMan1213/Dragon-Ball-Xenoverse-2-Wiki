@@ -432,6 +432,7 @@
       "pq": 158,
       "super_souls": [
         "Heh heh! I'm not as rusty as I look!",
+        "See? It's a good thing I was here, right?",
         "See? It's a good thing I was here, right?"
       ]
     },
@@ -491,6 +492,12 @@
       ]
     },
     {
+      "pq": 174,
+      "super_souls": [
+        "I'll surpass you as I am, with my OWN power!"
+      ]
+    },
+    {
       "pq": 175,
       "super_souls": [
         "It's about time..."
@@ -506,6 +513,12 @@
       "pq": 178,
       "super_souls": [
         "I'll take you all on at once!"
+      ]
+    },
+    {
+      "pq": 179,
+      "super_souls": [
+        "Here I go!"
       ]
     },
     {
@@ -572,7 +585,8 @@
     "Duplicate acquisition relationships are preserved as multiple PQ references rather than deduplicated away.",
     "Effect text, Limit Burst data, activation conditions, stat magnitudes, and verification dates belong in the forthcoming Super Soul master records.",
     "2026-09-22: Scope audit measured exact pair overlap with the canonical Super Soul relationship layer. Differences are preserved as research-vs-canonical reconciliation work rather than silently rewriting either layer.",
-    "2026-09-22: Reconciled the final five exact canonical Super Soul acquisition gaps (PQ158 x2, PQ174, PQ178, PQ179). PQ158 and PQ178 had source-layer wording conflicts; canonical names are used in the structured acquisition projection and the original source spellings are preserved explicitly as conflicts."
+    "2026-09-22: Reconciled the final five exact canonical Super Soul acquisition gaps (PQ158 x2, PQ174, PQ178, PQ179). PQ158 and PQ178 had source-layer wording conflicts; canonical names are used in the structured acquisition projection and the original source spellings are preserved explicitly as conflicts.",
+    "2026-09-22: Reconciled the final five exact canonical Super Soul acquisition gaps (PQ158 x2, PQ174, PQ178, PQ179). PQ158 and PQ178 source-layer wording variants are preserved as explicit conflicts; the structured projection uses canonical names."
   ],
   "sources": [
     "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
@@ -583,9 +597,9 @@
     "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
   ],
   "scope_audit": {
-    "record_count": 83,
+    "record_count": 85,
     "pq_count": 83,
-    "typed_relationship_references": 131,
+    "typed_relationship_references": 134,
     "canonical_relationship_references_for_same_domain": 151,
     "exact_pair_overlap": 131,
     "research_layer_only_pairs": 14,
@@ -604,48 +618,23 @@
   },
   "coverage_reconciliation_2026_09_22_final_five": {
     "batch": "PQ158/PQ174/PQ178/PQ179",
+    "added_pairs": 5,
     "evidence_sources": [
       "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
       "https://dbxv2.fandom.com/wiki/Super_Soul",
       "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81126464"
     ],
-    "added_pairs": 5,
-    "resolved_pairs": [
-      [
-        "Heh heh! I'm not as rusty as I look!",
-        158
-      ],
-      [
-        "See? It's a good thing I was here, right?",
-        158
-      ],
-      [
-        "I'll surpass you as I am, with my OWN power!",
-        174
-      ],
-      [
-        "I'll take you all on at once!",
-        178
-      ],
-      [
-        "Here I go!",
-        179
-      ]
-    ],
-    "source_conflicts_preserved": [
+    "source_conflicts": [
       {
         "pq": 158,
-        "source_layer_name": "Heh heh! I'm not a rusty as I look!",
-        "canonical_name": "Heh heh! I'm not as rusty as I look!",
-        "classification": "source_spelling_conflict"
+        "variant": "Heh heh! I'm not a rusty as I look!",
+        "canonical": "Heh heh! I'm not as rusty as I look!"
       },
       {
         "pq": 178,
-        "source_layer_name": "I'll take all of you on at once!",
-        "canonical_name": "I'll take you all on at once!",
-        "classification": "source_wording_conflict"
+        "variant": "I'll take all of you on at once!",
+        "canonical": "I'll take you all on at once!"
       }
-    ],
-    "note": "Maintained Super Soul/PQ references corroborate the five canonical acquisition pairs. No canonical relationship layer was modified."
+    ]
   }
 }
