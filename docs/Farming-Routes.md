@@ -29,7 +29,7 @@ See the dedicated [TP Medal Farming Comparison](TP-Medal-Farming-Comparison.md) 
 
 ## Skills & Super Souls
 - Mentor lessons (guaranteed)
-- High-value PQs with Ultimate Finish
+- High-value PQs whose canonical skill relationships match the target; consult the skill/PQ record for independently evidenced Ultimate Finish or reward-trigger conditions
 - TP Medal Shop rotations
 - Crystal Raids and Expert Missions
 
