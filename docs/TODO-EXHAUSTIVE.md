@@ -1886,3 +1886,14 @@
 - [ ] Runtime/CI execution remains unavailable.
 - [x] Commits: canonical `6f8b0e76bf06681bfe730b55aac97b14b34bb3de`; index `dd0556e30bb71ab6baa980ae3c3a210f31a6efa5`; audit `f4f8cd90409808377f334ed3b77e5e907630136d`; registry `4a7e21d0c30bd7ae75b99d0369fb28813b067cce`.
 - [ ] Exact next batch: recompute the live census and continue with `skill-big-bang-kamehameha`.
+
+
+### 2026-09-22 cycle update — Big Bang Kamehameha provenance verification
+- [x] Fresh live census before edit: **452 canonical / 452 index / 0 duplicate IDs / 393 stale**; target `skill-big-bang-kamehameha`.
+- [x] Dedicated skill documentation confirms Big Bang Kamehameha as a **100-Ki Ki Blast Super** acquired from the **TP Medal Shop**, with chargeable beam behavior, 9–15 hits, knockback, and the documented Super Saiyan warp interaction.
+- [x] Refreshed canonical/index `last_verified` to **2026-09-22** and preserved the existing TP Medal Shop acquisition without adding an unsupported shop rotation/date claim.
+- [x] Added and registered `docs/data/skill-big-bang-kamehameha-provenance-audit-2026-09-22.json`.
+- [x] Static validation: **452/452**, **0 duplicate IDs**, **392 stale remaining**, affected canonical/index semantic parity preserved.
+- [ ] Runtime/CI execution remains unavailable.
+- [x] Commits: canonical `2f1aa3dd5dd523226768825ffa14b68eb3212a15`; index `9d2433d3c0211d9c73ce66f364186b1fdd8f5fa3`; audit `6f1384ddadf67b9c861e8c632515b0d42949e728`; registry `acd3bd16c807c359cc5ee0f079d9681e976de58f`.
+- [ ] Exact next batch: recompute the live census and continue with `skill-blaster-ball`.
