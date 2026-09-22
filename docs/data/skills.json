@@ -12541,7 +12541,8 @@
       "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Thunder_Flash",
-        "https://dragonball.fandom.com/wiki/Thunder_Flash"
+        "https://dragonball.fandom.com/wiki/Thunder_Flash",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2428169616"
       ],
       "usable_by_cac": true,
       "character_source": "Pikkon",
@@ -12554,7 +12555,7 @@
       "research_status": "enriched",
       "last_verified": "2026-09-21",
       "mechanics": "Base 300 Ki with up to three additional Ki bars when held; community spreadsheet records 300–600 Ki total.",
-      "notes": " Ki cost normalized to 300 based on Madreag Xenoverse 2 skill corpus; previous range was unsupported by the cited skill record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly places Thunder Flash in the PQ146 Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics.",
+      "notes": " Ki cost normalized to 300 based on Madreag Xenoverse 2 skill corpus; previous range was unsupported by the cited skill record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly places Thunder Flash in the PQ146 Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: an independent Steam PQ146 record explicitly lists Thunder Flash in Parallel Quest 146's Basic Reward pool; no drop probability is inferred.",
       "race_restriction": "All CaC races",
       "source_quest": 146,
       "acquisition_type": "quest_or_mission",
