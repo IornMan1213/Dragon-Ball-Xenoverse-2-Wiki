@@ -1,4 +1,142 @@
 # Dragon Ball Xenoverse 2 Wiki  Persistent AI Continuation Prompt > Canonical handoff for autonomous AI continuation of this repository.
+## Continuation throughput protocol
+
+The objective is to maximize verified repository progress per cycle, not merely the number of commits.
+
+### Required cycle behavior
+
+1. Read the live canonical files and derive current counts before researching.
+2. Select one bounded batch of **8–20 related records** whenever evidence supports batch processing.
+3. Prefer changes that affect multiple records or multiple layers at once:
+   - canonical data
+   - generated/index projections
+   - relationship reports
+   - validators/schema
+   - coverage audit
+   - TODO ledger
+   - changelog
+4. Do not spend a full cycle rechecking a field family that already has a clean live census.
+5. Do not re-research a record whose current value is already supported unless a new contradiction is found.
+6. Group records by domain, source family, or shared evidence:
+   - one PQ range
+   - one DLC package
+   - one mentor group
+   - one Expert Mission group
+   - one Super Soul source-corpus range
+   - one equipment/accessory relationship family
+7. Use one shared evidence pass for the batch whenever possible. Do not perform separate redundant searches for each record when one source establishes the same fact for the entire batch.
+8. Prefer deterministic, high-coverage work over isolated low-impact enrichment:
+   - missing canonical endpoints
+   - broken reverse links
+   - stale generated indexes
+   - missing required fields
+   - unresolved relationship edges
+   - duplicate or orphan records
+   - complete source-family reconciliation
+9. Defer low-value provenance strengthening when it does not change:
+   - a canonical fact
+   - a relationship
+   - a validator result
+   - a missing-field census
+   - a reader-facing page
+10. A cycle should normally produce one of the following:
+    - a completed 8–20 record research batch
+    - a complete relationship-domain reconciliation
+    - a validator/schema improvement
+    - a generated-artifact repair
+    - a meaningful page-generation or search-index improvement
+
+### Batch selection priority
+
+Choose work in this order:
+
+1. P0 validation, data-loss, or generated-artifact defects.
+2. Broken or incomplete bidirectional relationships.
+3. Missing canonical endpoints required by official package/domain counts.
+4. Missing required fields across a large related cohort.
+5. Complete bounded domain/range audits.
+6. Source conflicts that affect navigation or canonical classification.
+7. Mechanics and provenance enrichment.
+8. Individual low-impact source strengthening.
+
+### Avoiding duplicate work
+
+Before researching a candidate:
+
+- Check the live canonical record.
+- Check the generated index/projection.
+- Check the relevant relationship report.
+- Check the coverage audit and TODO ledger.
+- Check whether the candidate was already reviewed in a historical entry.
+- Reopen old work only when there is new evidence, a live contradiction, or a failed invariant.
+
+### Commit efficiency
+
+When changes are logically related, prefer a small number of atomic commits:
+
+1. canonical/source data
+2. generated/index/relationship projections
+3. validation/audit/documentation
+
+Do not create separate commits for every individual record unless required for conflict isolation or rollback.
+
+### Validation efficiency
+
+After a batch:
+
+- Parse all changed JSON once.
+- Run one complete relevant census.
+- Run one canonical/index parity check.
+- Run one relationship endpoint/orphan check.
+- Run one artifact scan over changed files.
+- Inspect Actions once for the resulting commit chain.
+
+Do not repeat the same validation separately after every file write unless a write must be verified before a dependent write.
+
+### Evidence boundary
+
+Throughput must never justify unsupported claims. Preserve `null`, unresolved, conflicting, variable, and historical values where evidence is insufficient.
+
+
+
+### Cycle completion standard
+
+A cycle is complete when the selected batch has:
+
+- live pre-edit census,
+- evidence review,
+- canonical changes or a documented no-change result,
+- generated/index/relationship synchronization where applicable,
+- post-edit census,
+- relevant validation,
+- artifact scan,
+- CI/status inspection,
+- synchronized audit/TODO/handoff entry,
+- one clearly stated next batch.
+
+Do not spend additional time polishing historical prose once these requirements are satisfied.
+
+
+## Current live state — authoritative
+
+This section is authoritative for choosing the next task. Historical entries below are preserved for auditability but must not override this section.
+
+- Live commit:
+- Canonical skill count:
+- Canonical PQ count:
+- Canonical Super Soul count:
+- Canonical equipment/accessory count:
+- Current relationship counts:
+- Current unresolved queues:
+- Current active workstream:
+- Last completed batch:
+- Exact next batch:
+- Known CI limitation:
+- Last artifact scan:
+- Files requiring synchronization:
+
+
+
 >
 > **Last updated:** 2026-09-20
 > **Repository:** `IornMan1213/Dragon-Ball-Xenoverse-2-Wiki`
