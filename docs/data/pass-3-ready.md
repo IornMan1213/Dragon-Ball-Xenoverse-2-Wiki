@@ -6,7 +6,7 @@ This pass adds concrete record-layer population without falsely promoting unreso
 
 - Canonical mentor record layer for all 33 indexed mentors.
 - Six seed Parallel Quest records spanning base and DLC-era numbering.
-- Explicit PQ 36 numbering-gap policy.
+- Historical PQ 36 numbering-gap policy is preserved as provenance; the current canonical player-facing layer retains PQ36 as an explicit numbered record.
 - Population snapshot with current verified/indexed metrics and known reconciliation issues.
 
 ## Verification policy
