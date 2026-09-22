@@ -1505,3 +1505,10 @@
 - Preserved unsupported reward/drop semantics and mechanics.
 - PQ→equipment parity remains 124 forward / 122 reverse / 0 unresolved / 0 broken endpoints.
 - Next batch: `equip-061`–`equip-070`.
+
+## 2026-09-22 — Equipment provenance batch `equip-061`–`equip-070`
+- Added independent equipment-catalog provenance and canonical classification to 10 equipment/accessory records.
+- Reconciled DLC provenance across Conton City Vote Pack, Hero of Justice Pack 1, Hero of Justice Pack 2, and base-game PQ25.
+- Preserved unsupported reward/drop semantics and mechanics.
+- PQ→equipment parity remains 124 forward / 122 reverse / 0 unresolved / 0 broken endpoints.
+- Next batch: `equip-071`–`equip-080`.
