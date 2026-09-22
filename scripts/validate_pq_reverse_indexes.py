@@ -81,6 +81,16 @@ def pair_set(index):
     }
 
 
+def duplicate_pair_count(index):
+    flattened = [
+        (domain, name, pq)
+        for domain, items in index.items()
+        for name, pqs in items.items()
+        for pq in pqs
+    ]
+    return len(flattened) - len(set(flattened))
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", default=".", help="repository root")
@@ -176,6 +186,8 @@ def main() -> int:
         reverse_pairs = pair_set(reverse)
         missing = sorted(source_pairs - reverse_pairs)
         extra = sorted(reverse_pairs - source_pairs)
+        source_duplicates = duplicate_pair_count(source)
+        reverse_duplicates = duplicate_pair_count(reverse)
 
         unified_pairs = {
             (domain, name, pq)
@@ -210,6 +222,8 @@ def main() -> int:
             "reverse_pairs": len(reverse_pairs),
             "missing_from_reverse": len(missing),
             "extra_in_reverse": len(extra),
+            "source_duplicate_pairs": source_duplicates,
+            "reverse_duplicate_pairs": reverse_duplicates,
             "missing_from_unified_canonical": len(unified_missing),
             "extra_in_unified_canonical": len(unified_extra),
         }
@@ -218,7 +232,7 @@ def main() -> int:
         # Standalone reverse indexes are projections of normalized source maps.
         # Differences from the unified canonical layer are informational because
         # normalized source maps are explicitly allowed to be partial or variant.
-        if missing or extra:
+        if missing or extra or source_duplicates or reverse_duplicates:
             failures.append((label, missing, extra, unified_missing, unified_extra))
 
     print(json.dumps({
