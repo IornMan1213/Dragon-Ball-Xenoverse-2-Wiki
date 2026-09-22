@@ -336,3 +336,12 @@
 - [x] Added `scripts/validate_pq_reverse_indexes.py` for deterministic source-map ↔ standalone ↔ unified typed-pair validation.
 - [x] Validator design explicitly preserves canonical source-of-truth semantics and never infers missing rewards.
 - [ ] Next: add safe deterministic generation support for standalone reverse indexes and unified projection, then run the validator and record its full output.
+
+
+### 2026-09-22 — deterministic PQ reverse-index generation support
+- [x] Added generator `scripts/generate_pq_reverse_indexes.py` covering PQ81-120, PQ121-142, PQ143-162, and PQ163-186 normalized reward maps.
+- [x] Generator preserves canonical truth and historical metadata; existing files are projection-updated only.
+- [x] Fixed validator legacy PQ81-120 parsing in `scripts/validate_pq_reverse_indexes.py`.
+- [x] Existing repository pair audits remain 0 missing / 0 extra for PQ81-186 typed relationships.
+- [ ] Runtime execution of generator/validator in a repository-capable environment and recording the full output.
+- [ ] Only after runtime validation: assess deterministic unified reverse-index generation without overwriting partial/research-layer semantics.
