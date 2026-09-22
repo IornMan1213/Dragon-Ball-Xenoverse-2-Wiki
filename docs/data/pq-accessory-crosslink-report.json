@@ -4,155 +4,163 @@
   "canonical_pq_records": 186,
   "canonical_identity_records": 50,
   "research_pq_records": 45,
-  "matched_forward_edges": [
-    {
-      "pq_id": "pq-003",
-      "pq_number": 3,
-      "target_id": "acc-001",
-      "target_name": "Piccolo's Turban",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-025",
-      "pq_number": 25,
-      "target_id": "acc-011",
-      "target_name": "Goku's Wig",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-028",
-      "pq_number": 28,
-      "target_id": "acc-004",
-      "target_name": "Android 19's Hat",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-022",
-      "pq_number": 22,
-      "target_id": "acc-027",
-      "target_name": "Tapion's Sword",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-029",
-      "pq_number": 29,
-      "target_id": "acc-028",
-      "target_name": "Yamcha's Sword",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-063",
-      "pq_number": 63,
-      "target_id": "acc-012",
-      "target_name": "Goku Wig (Super Saiyan)",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-093",
-      "pq_number": 93,
-      "target_id": "acc-002",
-      "target_name": "Pan's Bandana",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-051",
-      "pq_number": 51,
-      "target_id": "acc-005",
-      "target_name": "Great Saiyaman Helmet",
-      "status": "identity_matched",
-      "source_backed": true
-    }
-  ],
-  "reverse_edges": [
-    {
-      "target_id": "acc-001",
-      "target_name": "Piccolo's Turban",
-      "pq_ids": [
-        "pq-003"
-      ],
-      "pq_numbers": [
-        3
-      ]
-    },
-    {
-      "target_id": "acc-011",
-      "target_name": "Goku's Wig",
-      "pq_ids": [
-        "pq-025"
-      ],
-      "pq_numbers": [
-        25
-      ]
-    },
-    {
-      "target_id": "acc-004",
-      "target_name": "Android 19's Hat",
-      "pq_ids": [
-        "pq-028"
-      ],
-      "pq_numbers": [
-        28
-      ]
-    },
-    {
-      "target_id": "acc-027",
-      "target_name": "Tapion's Sword",
-      "pq_ids": [
-        "pq-022"
-      ],
-      "pq_numbers": [
-        22
-      ]
-    },
-    {
-      "target_id": "acc-028",
-      "target_name": "Yamcha's Sword",
-      "pq_ids": [
-        "pq-029"
-      ],
-      "pq_numbers": [
-        29
-      ]
-    },
-    {
-      "target_id": "acc-012",
-      "target_name": "Goku Wig (Super Saiyan)",
-      "pq_ids": [
-        "pq-063"
-      ],
-      "pq_numbers": [
-        63
-      ]
-    },
-    {
-      "target_id": "acc-002",
-      "target_name": "Pan's Bandana",
-      "pq_ids": [
-        "pq-093"
-      ],
-      "pq_numbers": [
-        93
-      ]
-    },
-    {
-      "target_id": "acc-005",
-      "target_name": "Great Saiyaman Helmet",
-      "pq_ids": [
-        "pq-051"
-      ],
-      "pq_numbers": [
-        51
-      ]
-    }
-  ],
+  "matched_forward_edges": [],
+  "reverse_edges": [],
   "unmatched_research_records": [
+    {
+      "pq_record_id": "pqacc-001",
+      "name": "Piccolo's Turban",
+      "pq_number": 3,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-012 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-002",
+      "name": "Four-Star Dragon Ball Hat",
+      "pq_number": 5,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-089 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-003",
+      "name": "Chiaotzu's Hat (With Collar)",
+      "pq_number": 9,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-090 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-004",
+      "name": "Goku's Wig",
+      "pq_number": 25,
+      "match_status": "researched_unresolved",
+      "note": "Canonical identity retained despite historical PQ-number disagreement. Previous bridge endpoint accr-014 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-005",
+      "name": "Android 19's Hat",
+      "pq_number": 28,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-039 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-006",
+      "name": "Dore's Scouter",
+      "pq_number": 27,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-091 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-007",
+      "name": "Tapion's Sword",
+      "pq_number": 22,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-006 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-008",
+      "name": "Yamcha's Sword",
+      "pq_number": 29,
+      "match_status": "researched_unresolved",
+      "note": "PQ36 is the directly documented reward route; the prior PQ29 value in this research record is superseded by the maintained reward table evidence. Previous bridge endpoint accr-104 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-009",
+      "name": "Great Saiyaman Bandana 1",
+      "pq_number": 51,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-092 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-010",
+      "name": "Great Saiyaman Bandana 2",
+      "pq_number": 53,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-093 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-011",
+      "name": "Goku Wig (Super Saiyan)",
+      "pq_number": 63,
+      "match_status": "researched_unresolved",
+      "note": "Historical source sets also report PQ18; route conflict remains in canonical record. Previous bridge endpoint accr-015 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-012",
+      "name": "Jaco's State-of-the-Art Radio",
+      "pq_number": 72,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-094 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-013",
+      "name": "Tagoma's Scouter",
+      "pq_number": 73,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-095 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-014",
+      "name": "SSGSS Goku Wig",
+      "pq_number": 76,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-096 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-015",
+      "name": "Pan's Bandana",
+      "pq_number": 93,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-013 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-016",
+      "name": "Yamcha Baseball Hat",
+      "pq_number": 97,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-097 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-017",
+      "name": "SSGSS Vegeta Wig",
+      "pq_number": 100,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-098 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-018",
+      "name": "SS4 Wig & Tail (Goku)",
+      "pq_number": 110,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-018 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-019",
+      "name": "Bulma (Kid) Wig",
+      "pq_number": 149,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-099 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-020",
+      "name": "Great Saiyaman Helmet",
+      "pq_number": 51,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-100 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-021",
+      "name": "Resistance Helmet",
+      "pq_number": 111,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-028 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-022",
+      "name": "Android 13's Hat",
+      "pq_number": 105,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-027 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
     {
       "pq_record_id": "pqacc-023",
       "name": "Android 14's Hat",
@@ -164,8 +172,8 @@
       "pq_record_id": "pqacc-024",
       "name": "Android 15's Sunglasses",
       "pq_number": null,
-      "match_status": "matched",
-      "note": "Canonical inventory identity is Android 15's Shades & Hat; research label 'Sunglasses' is treated as a component alias. Acquisition is TP Medal Shop, not a PQ reward."
+      "match_status": "researched_unresolved",
+      "note": "Canonical inventory identity is Android 15's Shades & Hat; research label 'Sunglasses' is treated as a component alias. Acquisition is TP Medal Shop, not a PQ reward. Previous bridge endpoint accr-105 is not present in the current canonical accessory layer; no replacement identity is inferred."
     },
     {
       "pq_record_id": "pqacc-025",
@@ -173,25 +181,165 @@
       "pq_number": 146,
       "match_status": "researched_unresolved",
       "note": "PQ146 source evidence identifies Bardock (DB Super)'s Clothes, not a separately named Bardock (DB Super)'s Scouter accessory. Current equipment catalog does not establish an exact canonical inventory item matching this research label."
+    },
+    {
+      "pq_record_id": "pqacc-026",
+      "name": "Gine (DB Super)'s Accessory",
+      "pq_number": 144,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-101 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-027",
+      "name": "Kale's Accessory",
+      "pq_number": 148,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-103 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-028",
+      "name": "Caulifla's Accessory",
+      "pq_number": 147,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-102 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-029",
+      "name": "Android 17 (DB Super)'s Ranger Accessory",
+      "pq_number": 152,
+      "match_status": "researched_unresolved",
+      "note": "PQ152 reward evidence identifies the canonical inventory item as Android 17 (DB Super) Wig; Ranger Accessory is retained as a component/research alias rather than a duplicate item. Previous bridge endpoint accr-029 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-030",
+      "name": "Red Ribbon Army Helmet",
+      "pq_number": 160,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-034 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-031",
+      "name": "Gohan (Beast) Wig",
+      "pq_number": 162,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-016 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-032",
+      "name": "Videl (DB Super) Wig",
+      "pq_number": 168,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-017 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-033",
+      "name": "Dr. Hedo Hood",
+      "pq_number": 159,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-033 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-034",
+      "name": "SS4 Goku (DAIMA) Wig & Tail",
+      "pq_number": 179,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-019 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-035",
+      "name": "SS3 Vegeta (DAIMA) Wig",
+      "pq_number": 180,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-020 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-036",
+      "name": "Glorio Wig",
+      "pq_number": 181,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-021 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-037",
+      "name": "Panzy Wig",
+      "pq_number": 181,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-022 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-038",
+      "name": "Golden Frieza Head",
+      "pq_number": 182,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-023 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-039",
+      "name": "Broly Wig (Black Hair, Normal)",
+      "pq_number": 183,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-024 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-040",
+      "name": "Dragon Ball Balloon",
+      "pq_number": 184,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-025 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-041",
+      "name": "Goku (Ultra Supervillain Quelled) Wig",
+      "pq_number": 185,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-026 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-042",
+      "name": "Android 17 (DB Super) Wig",
+      "pq_number": 152,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-029 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-043",
+      "name": "King Vegeta (DB Super) Wig",
+      "pq_number": 154,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-030 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-044",
+      "name": "Gamma 2's Helmet",
+      "pq_number": 155,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-031 is not present in the current canonical accessory layer; no replacement identity is inferred."
+    },
+    {
+      "pq_record_id": "pqacc-045",
+      "name": "Gamma 1's Helmet",
+      "pq_number": 156,
+      "match_status": "researched_unresolved",
+      "note": "Previous bridge endpoint accr-032 is not present in the current canonical accessory layer; no replacement identity is inferred."
     }
   ],
   "validation": {
     "canonical_pq_records": 186,
     "canonical_accessory_records": 50,
     "research_records": 45,
-    "forward_edge_count": 8,
-    "reverse_edge_count": 8,
-    "unresolved_research_records": 3,
-    "missing_canonical_targets": 34,
+    "forward_edge_count": 0,
+    "reverse_edge_count": 0,
+    "unresolved_research_records": 45,
+    "stale_endpoint_count": 43,
     "duplicate_forward_edges": 0,
     "null_pq_edges": 0,
-    "stale_id_format_edges": 0,
     "canonical_target_prefix": "acc-",
     "endpoint_integrity": "pass"
   },
   "notes": [
-    "Canonical accessory IDs are `acc-###` in equipment-accessories-record-layer.json. Earlier `accr-###` IDs were stale relationship-layer identifiers and have been replaced.",
-    "The report is a projection of the explicit accessory-pq-canonical-bridge plus canonical accessory identities; unresolved research records remain research data and are not promoted into canonical edges.",
+    "Canonical accessory IDs are `acc-###` in equipment-accessories-record-layer.json.",
+    "Stale `accr-###` bridge/report endpoints are not canonical and are preserved only as historical notes; they are not promoted into current relationship edges.",
+    "Unresolved research records remain in the research/bridge layers and do not create canonical edges.",
     "Accessories remain a distinct relationship domain from clothing/equipment."
   ]
 }
