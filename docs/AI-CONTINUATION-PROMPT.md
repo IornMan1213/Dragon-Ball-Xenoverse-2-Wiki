@@ -170,3 +170,15 @@
 - Validation target after this batch: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 6 exactly-two-source records**, with canonical/index source parity.
 - CI/Actions: must be checked against the resulting head before claiming success.
 - Exact next batch: **recompute the live two-source census and continue the next deterministic low-source record after Thunder Flash**.
+
+
+### 2026-09-22 cycle update — Final six exactly-two-source skill provenance batch
+- Active workstream: P1 skill acquisition/DLC-version provenance cleanup.
+- Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 6 exactly-two-source canonical records**.
+- Bounded batch: **Time Bullet (`skill-time-bullet`), Timespace Impact (`skill-timespace-impact`), Ultra Instinct (`skill-ultra-instinct`), Unrelenting Barrage (`skill-unrelenting-barrage`), Venus Fist (`skill-venus-fist`), Victory Rush (`skill-victory-rush`)**.
+- Evidence used: Dragon Ball Wiki independently corroborated Time Bullet's Skill Shop route, Timespace Impact's Conton City Tournament endpoint, and Ultra Instinct's Jiren/Full Power training route; GameFAQs independently corroborated Unrelenting Barrage at PQ10 and Victory Rush at PQ89; an independent Steam discussion corroborated Venus Fist at PQ186.
+- Changes: canonical/index `sources` arrays each gained one independent source; `last_verified` refreshed to **2026-09-22**; provenance notes synchronized. No acquisition semantics were changed.
+- Evidence limits preserved: no new drop probability, Ultimate Finish-only requirement, shop rotation, or restriction was inferred. Venus Fist's Steam evidence is treated only as endpoint corroboration, not as stronger reward-tier evidence.
+- Post-write validation target: **452/452**, **0 duplicate IDs**, **0 nullable canonical `ki_cost`**, **0 exactly-two-source records**, canonical/index source parity, and no internal AI/UI/search citation artifacts.
+- CI/Actions: no successful workflow/check is claimed unless an exposed success is verified for the resulting commit chain.
+- Exact next batch: **recompute the live skill census after this batch and move from provenance cleanup to the highest-priority remaining structural gap (relationship/projection drift or the largest unresolved required-field cohort)**.
