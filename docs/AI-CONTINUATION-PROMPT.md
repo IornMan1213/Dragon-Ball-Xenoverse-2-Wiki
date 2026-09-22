@@ -6701,3 +6701,14 @@ The repository owner has clarified the continuation contract:
 - CI: inspect workflow runs for the latest repository commit; no CI success is claimed unless GitHub exposes an actual run/check.
 - Commits: `6e9db14228f744cdcbc052ad891c5dc519339348` (canonical skill), `274b76c12a2dc293c5d4a17cd58f256937ebbe7e` (skill index), `5cc47cc93f1fb9f0272f9cd3656ead37ba74a6ef` (changelog), `dd4814da75e353caf21c279bab33854e2b6ab79d` (coverage audit), plus this handoff commit.
 - Exact next batch: **recompute the live two-source census and continue the next deterministic low-source record after Fighting Pose K, checking acquisition/reward semantics before provenance-only strengthening.**
+
+
+### 2026-09-21 cycle update — Final Charge low-source provenance strengthening
+- Live census before editing: **452 canonical / 452 index / 42 exactly-two-source records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- Bounded batch: **Final Charge (`skill-final-charge`)**.
+- Research/evidence: MeriStation's July 2019 Ultra Pack 1 coverage independently identifies Final Charge among SSGSS Evolved Vegeta's skills and places the character in Ultra Pack 1. citeturn0search6
+- Changes: added the independent source to canonical `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21**; documented the cycle in `docs/COVERAGE-AUDIT.md` and `CHANGELOG.md`.
+- Evidence limits preserved: the added source corroborates DLC provenance and character ownership but does not establish a CaC acquisition route or reward semantics; existing character-only/non-CaC boundaries remain unchanged.
+- Validation target after edit: **452/452 records, 0 duplicate IDs, 0 nullable `ki_cost`, 41 exactly-two-source records**, with canonical/index source parity for Final Charge.
+- CI: inspect workflow runs for the latest repository commit; no CI success is claimed unless GitHub exposes an actual run/check.
+- Exact next batch: **recompute the live two-source census and continue the next deterministic low-source record after Final Charge, checking acquisition/reward semantics before provenance-only strengthening.**
