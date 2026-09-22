@@ -1656,7 +1656,7 @@
     {
       "id": "equip-071",
       "name": "Dore's Scouter",
-      "category": "costume_or_accessory",
+      "category": "accessory",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-027 reward",
       "pq_sources": [
@@ -1665,15 +1665,20 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; canonical accessory identity preserved where an existing acc-### bridge exists.",
       "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
       "id": "equip-072",
       "name": "Hercule's Clothes",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-030 reward",
       "pq_sources": [
@@ -1682,15 +1687,23 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; canonical accessory identity preserved where an existing acc-### bridge exists.",
       "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-073",
       "name": "Goku's Turtle Hermit Gi (No Character)",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-031 reward",
       "pq_sources": [
@@ -1699,15 +1712,23 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; canonical accessory identity preserved where an existing acc-### bridge exists.",
       "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-074",
       "name": "Yamcha's Sword",
-      "category": "costume_or_accessory",
+      "category": "accessory",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-036 reward",
       "pq_sources": [
@@ -1716,15 +1737,20 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; canonical accessory identity preserved where an existing acc-### bridge exists.",
       "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
       "id": "equip-075",
       "name": "Cell's Suit (Perfect)",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-037 reward",
       "pq_sources": [
@@ -1733,15 +1759,22 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; canonical accessory identity preserved where an existing acc-### bridge exists.",
       "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "feet"
       ]
     },
     {
       "id": "equip-076",
       "name": "Yamcha's Baseball Uniform",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-041 reward",
       "pq_sources": [
@@ -1750,15 +1783,23 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; canonical accessory identity preserved where an existing acc-### bridge exists.",
       "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-077",
       "name": "Perfect Cell's Wings",
-      "category": "costume_or_accessory",
+      "category": "accessory",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-045 reward",
       "pq_sources": [
@@ -1767,15 +1808,20 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; canonical accessory identity preserved where an existing acc-### bridge exists.",
       "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
       "id": "equip-078",
       "name": "Vegito's Clothes",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-059 reward",
       "pq_sources": [
@@ -1784,15 +1830,23 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; canonical accessory identity preserved where an existing acc-### bridge exists.",
       "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-079",
       "name": "Goku's Damaged Turtle Hermit Gi",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-002 reward",
       "pq_sources": [
@@ -1801,15 +1855,20 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; canonical accessory identity preserved where an existing acc-### bridge exists.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body"
       ]
     },
     {
       "id": "equip-080",
       "name": "Piccolo's Turban",
-      "category": "costume_or_accessory",
+      "category": "accessory",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-003 reward",
       "pq_sources": [
@@ -1818,9 +1877,13 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; canonical accessory identity preserved where an existing acc-### bridge exists.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
