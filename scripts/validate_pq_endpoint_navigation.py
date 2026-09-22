@@ -2,8 +2,10 @@
 """Validate canonical PQ endpoint navigation without promoting evidence layers.
 
 Canonical relationship data is authoritative. This validator checks exact endpoint
-resolution, canonical PQ identity resolution, and duplicate structured (PQ,target)
-pairs for every registered relationship domain, plus the explicit alias/granularity bridge.
+resolution, canonical PQ identity resolution, duplicate structured (PQ,target)
+pairs for every registered relationship domain, plus the explicit alias/granularity
+bridge. It also emits a domain-wide identity-resolution census so every canonical
+endpoint is either an exact canonical identity or explicitly classified by the bridge.
 """
 from __future__ import annotations
 
@@ -93,25 +95,45 @@ def main() -> int:
             failures.extend(f"{domain}: invalid PQ id {pq}" for pq in invalid_pq_ids)
 
     bridge_checks = []
+    explicit_conflict_counts = {domain: 0 for domain in DOMAIN_TO_REL}
+    explicit_granularity_counts = {domain: 0 for domain in DOMAIN_TO_REL}
     for item in bridge.get("equipment", []):
         targets = item.get("canonical_targets", [])
         unresolved = [t for t in targets if t not in canonical["equipment"]]
+        if item.get("status") == "explicit_conflict":
+            explicit_conflict_counts["equipment"] += 1
         bridge_checks.append({
             "pq": item.get("pq"),
             "domain": "equipment",
             "status": "clean" if not unresolved else "unresolved",
+            "classification": item.get("status"),
+            "canonical_targets": targets,
             "unresolved_targets": unresolved,
         })
     for item in bridge.get("dlc", []):
+        if item.get("status") == "deterministic_granularity":
+            explicit_granularity_counts["dlc"] += 1
         bridge_checks.append({
             "pq_range": item.get("pq_range"),
             "domain": "dlc",
             "status": "explicit_granularity",
+            "classification": item.get("status"),
             "canonical_targets": item.get("canonical_targets", []),
         })
 
+    identity_resolution = {}
+    for domain, result in results.items():
+        identity_resolution[domain] = {
+            "unique_canonical_targets": result["unique_target_count"],
+            "exact_canonical_matches": result["unique_target_count"] - result["missing_target_count"],
+            "unresolved_targets": result["missing_target_count"],
+            "explicit_conflict_classifications": explicit_conflict_counts[domain],
+            "explicit_granularity_classifications": explicit_granularity_counts[domain],
+            "resolution_status": "clean" if result["status"] == "clean" else "unresolved",
+        }
+
     report = {
-        "schema_version": "1.1.0",
+        "schema_version": "1.2.0",
         "scope": "PQ 1-186 canonical endpoint navigation",
         "source_of_truth": str(REL.relative_to(ROOT)),
         "canonical_identity_layers": {
@@ -128,12 +150,18 @@ def main() -> int:
             "expected_number_range": "1-186",
         },
         "results": results,
+        "identity_resolution": identity_resolution,
         "bridge_checks": bridge_checks,
+        "bridge_census": {
+            "equipment_explicit_conflicts": explicit_conflict_counts["equipment"],
+            "dlc_deterministic_granularity_mappings": explicit_granularity_counts["dlc"],
+        },
         "rules": [
             "Canonical relationship data is authoritative.",
             "Verification status and research/projection layers never override canonical identity.",
             "Exact canonical name matches are required for direct navigation.",
             "Explicit aliases/conflicts/granularity may explain source/display differences but do not create canonical edges.",
+            "Every non-exact endpoint must be represented by an explicit conflict or granularity classification before it is considered navigable.",
             "DLC endpoints resolve against the standalone canonical DLC identity layer; bundle/chapter granularity remains explicit.",
         ],
     }
