@@ -1738,7 +1738,7 @@
       "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented for this item. Exact reward probability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data remains authoritative."
     },
     {
-      "id": "equip-057",
+      "id": "acc-059",
       "name": "Bulma (Kid) Wig",
       "category": "accessory",
       "acquisition_routes": [
@@ -1755,7 +1755,7 @@
       "parallel_quest_ids": [
         149
       ],
-      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented for this item. Exact reward probability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data remains authoritative."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented for this item. Exact reward probability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data remains authoritative. Canonical accessory identity normalized from legacy equipment ID equip-057; canonical identity is authoritative."
     },
     {
       "id": "equip-058",
@@ -1918,7 +1918,7 @@
       "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
     },
     {
-      "id": "equip-066",
+      "id": "acc-060",
       "name": "Red Ribbon Army Helmet",
       "category": "accessory",
       "acquisition_routes": [
@@ -1935,7 +1935,7 @@
       "parallel_quest_ids": [
         160
       ],
-      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only. Canonical accessory identity normalized from legacy equipment ID equip-066; canonical identity is authoritative."
     },
     {
       "id": "equip-067",
@@ -1978,7 +1978,7 @@
       "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
     },
     {
-      "id": "equip-069",
+      "id": "acc-061",
       "name": "Gohan (Beast) Wig",
       "category": "accessory",
       "acquisition_routes": [
@@ -1995,7 +1995,7 @@
       "parallel_quest_ids": [
         162
       ],
-      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only. Canonical accessory identity normalized from legacy equipment ID equip-069; canonical identity is authoritative."
     },
     {
       "id": "equip-070",
@@ -2829,9 +2829,9 @@
       "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
     },
     {
-      "id": "equip-120",
+      "id": "acc-062",
       "name": "Yamcha's Baseball Hat",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 97 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
@@ -2845,7 +2845,7 @@
       "parallel_quest_ids": [
         97
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Canonical accessory identity normalized from legacy equipment ID equip-120; canonical identity is authoritative."
     },
     {
       "id": "equip-121",
@@ -2886,9 +2886,9 @@
       "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
     },
     {
-      "id": "equip-123",
+      "id": "acc-063",
       "name": "SSGSS Vegeta Wig",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 100 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
@@ -2902,7 +2902,7 @@
       "parallel_quest_ids": [
         100
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Canonical accessory identity normalized from legacy equipment ID equip-123; canonical identity is authoritative."
     },
     {
       "id": "equip-124",
@@ -3076,9 +3076,9 @@
       "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
     },
     {
-      "id": "equip-133",
+      "id": "acc-064",
       "name": "SS4 Wig & Tail (Goku)",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 110 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
@@ -3092,7 +3092,7 @@
       "parallel_quest_ids": [
         110
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Canonical accessory identity normalized from legacy equipment ID equip-133; canonical identity is authoritative."
     },
     {
       "id": "equip-134",
