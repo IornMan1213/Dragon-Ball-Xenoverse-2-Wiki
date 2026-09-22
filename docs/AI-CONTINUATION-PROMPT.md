@@ -2387,3 +2387,14 @@
 - [x] Static validation: **452/452** canonical/index records, **0 duplicate canonical IDs**, **351 stale canonical records remain**, and all nine bounded records have `last_verified: 2026-09-22`; canonical/index name/class/subcategory parity is clean for all nine.
 - [ ] Runtime/CI execution remains unavailable; no CI success is claimed.
 - [ ] Exact next batch: recompute the live stale census and continue alphabetically with the next stale records after Death Slicer: **Demon Flash Strike** and adjacent stale records where evidence remains bounded. Preserve canonical identity, acquisition semantics, and source conflicts; do not invent probabilities or gates.
+
+
+### 2026-09-22 cycle update — Demon Flash Strike through Destructive Flare provenance batch
+- [x] Fresh live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 351 stale**.
+- [x] Bounded batch completed for **Demon Flash Strike, Demon Flurry, Demon Ray, Demonic Destruction, Destruction's Concerto: Comet, Destruction's Concerto: Meteor, Destruction's Concerto: Starfall, Destruction's Conductor, Destructive Fission, and Destructive Flare**.
+- [x] Refreshed canonical/index `last_verified` to **2026-09-22** for all ten records.
+- [x] Expanded mechanics using current dedicated Xenoverse 2 evidence: Demon Flash Strike counter/teleport follow-up; Demon Flurry timed six-hit extension; Demon Ray follow-up Ki Wave and 300-Stamina hit-through behavior; Demonic Destruction grab/slam and weak-Ki-Blast cancellation; the three Destruction's Concerto projectile variants and their Destruction's Conductor interactions.
+- [x] Preserved existing acquisition/reward semantics and did not invent drop probabilities or Ultimate-Finish gates. DLC/PQ provenance remains explicit.
+- [x] Static validation after editing: **452/452** canonical/index; **0 duplicate canonical IDs**; **341 stale canonical records remain**; all ten targets have `last_verified: 2026-09-22`; shared canonical/index fields (`name`, `class`, `subcategory`, `last_verified`) have **0 mismatches**.
+- [ ] Runtime/CI execution remains unavailable; no CI success claimed.
+- [ ] Exact next batch: recompute the live stale census and continue alphabetically after Destructive Flare with **Destructive Fracture, Destructo-Disc**, and adjacent stale records where evidence remains bounded.
