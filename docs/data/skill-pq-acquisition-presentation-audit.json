@@ -11,7 +11,8 @@
     "docs/Skills-Unlock-Database.md",
     "docs/Farming-Hub.md",
     "docs/Farming-Routes.md",
-    "docs/data/parallel-quest-skill-acquisition-early-base-game.json"
+    "docs/data/parallel-quest-skill-acquisition-early-base-game.json",
+    "docs/data/parallel-quest-skill-acquisition-model.json"
   ],
   "findings": [
     {
@@ -55,6 +56,12 @@
       "status": "repaired",
       "issue": "Kaioken/PQ8 was typed as an Ultimate-Finish route with conditional guarantee semantics even though the record's own evidence said the current reward roll remained unresolved.",
       "resolution": "Downgraded route/finish/guarantee fields to unknown while preserving the historical Ultimate-Finish association in trigger_scope and the unresolved evidence."
+    },
+    {
+      "file": "docs/data/parallel-quest-skill-acquisition-model.json",
+      "status": "repaired",
+      "issue": "Kaioken example encoded a definitive Ultimate-Finish/conditional route despite the evidence layer remaining unresolved.",
+      "resolution": "Example now demonstrates unresolved route/finish/guarantee semantics; model rule explicitly prevents unresolved trigger notes from being promoted to definitive fields."
     }
   ],
   "canonical_relationship_baseline": {
