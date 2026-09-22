@@ -2092,3 +2092,14 @@
 - [x] Static validation after editing: **452/452** canonical/index; **0 duplicate canonical IDs**; **308 stale canonical records remain**; all eight targets refreshed; shared `name`, `class`, `subcategory`, and `last_verified` fields have **0 mismatches**.
 - [ ] Runtime/CI execution remains unavailable; no CI success claimed.
 - [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Elite Beam, Elite Shooting, Emperor's Blast, Emperor's Cannon**, then adjacent stale records where evidence remains bounded.
+
+
+### 2026-09-22 cycle update — Energy Field through Evil Flight Strike provenance batch
+- [x] Fresh live census: **452 canonical / 452 index / 0 duplicate canonical IDs / 298 stale**.
+- [x] Completed the bounded P1 provenance batch for **Energy Field, Energy Minefield, Energy Release, Energy Shot, Eraser Bomb, Evil Blast, Evil Explosion, Evil Eyes, Evil Flame, and Evil Flight Strike**.
+- [x] Refreshed canonical/index last_verified to **2026-09-22** for all ten records and added/registered docs/data/skill-energy-through-evil-provenance-audit-2026-09-22.json.
+- [x] Deterministic correction: **Energy Minefield** acquisition corrected from **60% to 75% Tokipedia completion**, supported by independent Tokipedia reward evidence.
+- [x] Preserved acquisition conflicts and evidence limits for Eraser Bomb and Evil Flame; no unsupported drop probabilities, gates, or narrower restrictions were inferred.
+- [x] Static validation passed: **452/452**, **0 duplicate IDs**, **10/10** audit records, **0 audited canonical/index mismatches**, **288 stale canonical records remain**.
+- [ ] Runtime/CI execution remains unavailable; no CI success claimed.
+- [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Evil Ray Strike, Evil Rise Strike, Evil Whirlwind, Excellent Full Course, Explosive Assault**, then adjacent stale records where evidence remains bounded.
