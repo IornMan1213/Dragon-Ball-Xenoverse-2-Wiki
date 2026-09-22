@@ -23,6 +23,10 @@ Search the **canonical local PQ record layer**. This explorer does not substitut
   const escapeHtml=v=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
   const normalize=v=>String(v??'').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'');
   const searchUrl=(term)=>'{{ "/Search/" | relative_url }}?q='+encodeURIComponent(term);
+  const skillUrl=(term)=>'{{ "/Skills-All/" | relative_url }}?q='+encodeURIComponent(term);
+  const soulUrl=(term)=>'{{ "/Search/" | relative_url }}?q='+encodeURIComponent(term);
+  const equipmentUrl=(term)=>'{{ "/Search/" | relative_url }}?q='+encodeURIComponent(term);
+  const dlcUrl=(term)=>'{{ "/DLC-Overview/" | relative_url }}?q='+encodeURIComponent(term);
   let records=[];
   let characterByPq={};
   function characterLinks(pqId){
@@ -30,9 +34,9 @@ Search the **canonical local PQ record layer**. This explorer does not substitut
     if(!values.length) return '';
     return '<div class="pq-links"><strong>Characters:</strong> '+values.map(v=>'<a href="'+escapeHtml(searchUrl(v))+'">'+escapeHtml(v)+'</a>').join(', ')+'</div>';
   }
-  function rewardLinks(values,label){
+  function rewardLinks(values,label,urlBuilder){
     if(!Array.isArray(values)||!values.length) return '';
-    return '<div class="pq-links"><strong>'+label+':</strong> '+values.map(v=>'<a href="'+escapeHtml(searchUrl(v))+'">'+escapeHtml(v)+'</a>').join(', ')+'</div>';
+    return '<div class="pq-links"><strong>'+label+':</strong> '+values.map(v=>'<a href="'+escapeHtml(urlBuilder(v))+'">'+escapeHtml(v)+'</a>').join(', ')+'</div>';
   }
   function render(){
     const term=normalize(q.value.trim()), st=stars.value, verification=status.value;
@@ -49,7 +53,7 @@ Search the **canonical local PQ record layer**. This explorer does not substitut
       const objectives=(r.objectives||[]).slice(0,3);
       const uf=(r.ultimate_finish||[]).slice(0,2);
       const meta=[r.dlc_requirement?'DLC: '+r.dlc_requirement:'',r.unlock_method?'Unlock: '+r.unlock_method:'',r.last_verified?'Verified: '+r.last_verified:''].filter(Boolean);
-      return '<article class="card" id="'+escapeHtml(r.id)+'"><span class="tag">PQ '+escapeHtml(r.number)+' · '+escapeHtml(r.difficulty)+'★ · '+escapeHtml(r.verification_status||'indexed')+'</span><h3>'+escapeHtml(r.name)+'</h3><p><strong>Objectives:</strong> '+escapeHtml(objectives.join(' • ')||'Not yet populated')+'</p><p><strong>Ultimate Finish:</strong> '+escapeHtml(uf.join(' • ')||'Not yet populated')+'</p>'+rewardLinks(r.skill_rewards,'Skills')+rewardLinks(r.super_soul_rewards,'Super Souls')+rewardLinks(r.equipment_rewards,'Equipment')+(rewards.length?'<p><strong>Rewards:</strong> '+escapeHtml(rewards.join(' • '))+'</p>':'')+characterLinks(r.id)+(meta.length?'<p class="pq-meta">'+escapeHtml(meta.join(' • '))+'</p>':'')+'<p><a href="'+escapeHtml(searchUrl('PQ '+r.number+' '+r.name))+'">Search this PQ in the published wiki ↗</a></p></article>';
+      return '<article class="card" id="'+escapeHtml(r.id)+'"><span class="tag">PQ '+escapeHtml(r.number)+' · '+escapeHtml(r.difficulty)+'★ · '+escapeHtml(r.verification_status||'indexed')+'</span><h3>'+escapeHtml(r.name)+'</h3><p><strong>Objectives:</strong> '+escapeHtml(objectives.join(' • ')||'Not yet populated')+'</p><p><strong>Ultimate Finish:</strong> '+escapeHtml(uf.join(' • ')||'Not yet populated')+'</p>'+rewardLinks(r.skill_rewards,'Skills',skillUrl)+rewardLinks(r.super_soul_rewards,'Super Souls',soulUrl)+rewardLinks(r.equipment_rewards,'Equipment',equipmentUrl)+(rewards.length?'<p><strong>Rewards:</strong> '+escapeHtml(rewards.join(' • '))+'</p>':'')+(r.dlc_requirement?'<div class="pq-links"><strong>DLC:</strong> <a href="'+escapeHtml(dlcUrl(r.dlc_requirement))+'">'+escapeHtml(r.dlc_requirement)+'</a></div>':'')+characterLinks(r.id)+(meta.length?'<p class="pq-meta">'+escapeHtml(meta.join(' • '))+'</p>':'')+'<p><a href="'+escapeHtml(searchUrl('PQ '+r.number+' '+r.name))+'">Search this PQ in the published wiki ↗</a></p></article>';
     }).join('');
   }
   try{
