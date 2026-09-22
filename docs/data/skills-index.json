@@ -4326,13 +4326,14 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Galick_Gun",
-        "https://dragonball.fandom.com/wiki/Galick_Gun"
+        "https://dragonball.fandom.com/wiki/Galick_Gun",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-how-to-vegeta-mentor-quest-guide/"
       ],
       "unlock_method": "Vegeta's Initiation Test — complete the mentor battle using Galick Gun as required; Galick Gun is the Basic Reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 deterministic acquisition verification: Vegeta mentor training. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
+      "notes": "2026-09-19 deterministic acquisition verification: Vegeta mentor training. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-21 low-source provenance strengthening: Twinfinite independently documents Vegeta's Initiation Test as awarding Galick Gun, corroborating the existing Vegeta mentor-training acquisition endpoint. It does not alter the existing no-Ultimate-Finish inference.",
       "mechanics_notes": "Current evidence confirms Galick Gun as a 100-Ki Ki Blast Super obtained through Vegeta mentor training and usable by all CaC races. It is chargeable, with a shorter charge time than Kamehameha. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-vegeta added for the documented mentor-training acquisition route.",
       "source_quest": "Vegeta mentor training — Initiation Test",
       "source_quest_or_shop": "Vegeta mentor training — Initiation Test"
