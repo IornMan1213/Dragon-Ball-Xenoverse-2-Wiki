@@ -135,6 +135,160 @@ This section is authoritative for choosing the next task. Historical entries bel
 - Last artifact scan:
 - Files requiring synchronization:
 
+## Current operational override — 2026-09-22
+
+> This is an append-only continuation rule. All earlier sections, historical counts, task entries, corrections, and milestone records remain unchanged for auditability. When older instructions conflict with this section, this latest operational override controls task selection and execution.
+
+### Authoritative execution order
+
+At the beginning of every new cycle:
+
+1. Read this file from the beginning, but use the latest `Current operational override` and `Current live state` sections as the active instructions.
+2. Inspect the live repository on the current branch.
+3. Recompute the counts relevant to the selected workstream directly from canonical data.
+4. Compare the live state against the latest handoff, coverage audit, TODO ledger, and generated reports.
+5. Treat stale historical counts and historical “next task” entries as audit history, not as the current queue.
+6. Select one bounded batch before beginning external research.
+7. Do not begin a second unrelated workstream in the same cycle unless the first workstream is blocked and the change is documented.
+
+### Throughput rules
+
+- Prefer one batch of **8–20 related records**.
+- Prefer one complete relationship domain, one source family, one DLC package, one mentor group, one PQ range, or one validator defect over isolated record-by-record work.
+- A batch smaller than 8 records is allowed only when:
+  - the records have materially different evidence,
+  - the task fixes a validator or data-loss risk,
+  - the task repairs a broken relationship,
+  - the task requires conflict isolation,
+  - or the available evidence is limited to a small exact cohort.
+- Do not create a separate cycle solely to add a third source to one record when the source can support a larger related cohort.
+- Do not refresh `last_verified` or rewrite notes for records that were not actively reviewed in the current batch.
+- Do not reopen a clean field family unless new evidence, a contradiction, a failed invariant, or source drift is discovered.
+- Prefer structural progress in this order:
+  1. missing or broken canonical endpoints,
+  2. broken bidirectional relationships,
+  3. generated-index or projection drift,
+  4. missing required fields across a cohort,
+  5. duplicate/orphan records,
+  6. domain-count reconciliation,
+  7. source and provenance strengthening,
+  8. detailed mechanics enrichment,
+  9. historical prose polish.
+
+### Workstream exit rule
+
+Do not continue a workstream indefinitely because its queue is large.
+
+A workstream may be paused when:
+- its live queue was recomputed,
+- the current bounded batch was completed or documented as blocked,
+- no high-confidence changes remain in the inspected source family,
+- unresolved records have a documented evidence boundary,
+- relevant cross-layer validation passes,
+- and a higher-priority structural gap exists elsewhere.
+
+When a workstream is paused, record:
+- completed records,
+- unchanged records,
+- unresolved records,
+- evidence limitation,
+- live remaining count,
+- reason for moving to the next workstream,
+- exact condition for reopening it.
+
+### Evidence and no-change decisions
+
+A no-change cycle is valid only when it produces a useful audit result.
+
+If evidence is insufficient:
+- preserve the existing value or `null`,
+- record why the evidence did not meet the threshold,
+- do not add speculative aliases, restrictions, costs, reward gates, or acquisition routes,
+- do not repeat the same search in the next cycle unless the source strategy changes,
+- move to the next bounded candidate or higher-priority workstream.
+
+### Cross-layer synchronization rule
+
+When a canonical record changes, inspect all applicable dependent layers in the same cycle:
+
+- generated indexes,
+- source projections,
+- relationship reports,
+- reverse indexes,
+- coverage reports,
+- schemas/contracts,
+- validators,
+- `docs/COVERAGE-AUDIT.md`,
+- `CHANGELOG.md`,
+- `docs/TODO-EXHAUSTIVE.md`,
+- and this continuation prompt.
+
+Do not update a projection merely because it exists. Rebuild or edit only the fields that are defined as projections, and preserve unrelated generated values.
+
+### Required post-batch report
+
+Every meaningful cycle must append a concise handoff entry containing:
+
+- date,
+- active workstream,
+- batch size and record names or IDs,
+- files changed,
+- evidence used,
+- fields changed,
+- fields intentionally left unresolved,
+- pre-edit census,
+- post-edit census,
+- parity/orphan/duplicate/artifact validation,
+- CI or Actions status,
+- commits,
+- exact next batch,
+- reason the next batch has priority.
+
+### Live-state maintenance
+
+The blank fields in the `Current live state — authoritative` section must be populated or refreshed whenever the active workstream changes.
+
+At minimum, the live state must identify:
+
+- live commit,
+- canonical counts relevant to the active workstream,
+- unresolved queue count,
+- active workstream,
+- last completed batch,
+- exact next batch,
+- known CI limitation,
+- last artifact scan,
+- files requiring synchronization.
+
+Do not leave the live-state block blank after a completed cycle. If a value is unknown, write `unknown — requires census` rather than copying an older historical value.
+
+### Scope control
+
+The objective is a complete and reliable wiki, not an infinite sequence of micro-audits.
+
+Do not:
+- invent work solely to increase commit count,
+- split one logically related batch into unnecessary commits,
+- re-audit already clean fields without new evidence,
+- prioritize a low-impact third-source addition over a missing domain layer,
+- mark a record verified merely because it has a source URL,
+- treat a populated field as proof of correctness,
+- claim CI success when no successful workflow/check is exposed,
+- delete or rewrite historical handoff entries.
+
+Do:
+- favor broad, deterministic, reversible improvements,
+- preserve uncertainty,
+- make unresolved work explicit,
+- keep canonical and generated layers synchronized,
+- and leave the repository in a state where a new AI session can continue without relying on chat history.
+
+
+
+### Immediate next-cycle requirement
+
+Before making any repository edit in the next cycle, populate the live-state fields from the current repository and select the next batch using the operational override above. Do not rely on the historical next-task entries below this point.
+
 
 
 >
