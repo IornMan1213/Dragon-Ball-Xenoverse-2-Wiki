@@ -26,6 +26,17 @@ def load(path: Path):
 
 def source_records(data):
     records = data["records"]
+    if isinstance(records, dict):
+        return [
+            (int(pq), {
+                "skills": [name for name, kind in rewards if kind == "skill"],
+                "super_souls": [name for name, kind in rewards if kind == "super_soul"],
+                "clothing": [name for name, kind in rewards if kind == "clothing"],
+                "accessories": [name for name, kind in rewards if kind == "accessory"],
+                "artworks": [name for name, kind in rewards if kind == "artwork"],
+            })
+            for pq, rewards in records.items()
+        ]
     if isinstance(records, list):
         if records and "rewards" in records[0]:
             return [(int(row["pq"]), row.get("rewards", {})) for row in records]
