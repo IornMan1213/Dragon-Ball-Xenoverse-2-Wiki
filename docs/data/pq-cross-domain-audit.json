@@ -178,38 +178,6 @@
     },
     "conclusion": "No duplicate non-reward edges found; no evidence reviewed in this tranche justified adding inferred character, DLC, or farming edges."
   },
-  "integrity_review": {
-    "date": "2026-09-22",
-    "scope": "repository-wide relationship/source integrity review",
-    "checks": {
-      "total_edges": 862,
-      "counts": {
-        "pq_rewards_skill": 244,
-        "pq_rewards_super_soul": 151,
-        "pq_rewards_equipment": 125,
-        "pq_features_character": 247,
-        "pq_requires_dlc": 88,
-        "pq_farming_route": 7
-      },
-      "duplicate_edges": 0,
-      "invalid_pq_numbers": 0,
-      "missing_source_or_non_source_backed": 0,
-      "reverse_reward_counts": {
-        "skills": 236,
-        "super_souls": 137,
-        "clothing": 87,
-        "accessories": 38
-      },
-      "status": "clean"
-    },
-    "reverse_counts": {
-      "skills": 244,
-      "super_souls": 151,
-      "equipment": 125,
-      "clothing": 87,
-      "accessories": 38
-    }
-  },
   "schema_documentation_consumer_review": {
     "date": "2026-09-19",
     "scope": "relationship schema/documentation consumer integrity",
@@ -261,59 +229,6 @@
       "Reverse index generated_from intentionally names six normalized reward-map files; the canonical 015-020 through 163-186 batch files are separate evidence and are not incorrectly substituted for the partial normalized maps.",
       "No schema migration or consumer-facing field change is required in this tranche.",
       "All current forward, reverse, audit, and status counts agree at 862 total edges after the 2026-09-22 deterministic reconciliation."
-    ]
-  },
-  "final_stable_baseline": {
-    "date": "2026-09-22",
-    "scope": "deterministic cross-domain reward relationship synchronization",
-    "result": "stable_baseline",
-    "forward_counts": {
-      "skill": 244,
-      "super_soul": 151,
-      "equipment": 125,
-      "character": 247,
-      "dlc": 88,
-      "farming": 7
-    },
-    "total_edges": 862,
-    "reverse_counts": {
-      "skill": 244,
-      "super_soul": 151,
-      "equipment": 125,
-      "character": 247,
-      "dlc": 88,
-      "farming": 7
-    },
-    "audit_counts": {
-      "skill": 244,
-      "super_soul": 151,
-      "equipment": 125,
-      "character": 247,
-      "dlc": 88,
-      "farming": 7
-    },
-    "status_counts": {
-      "skill": 244,
-      "super_soul": 151,
-      "equipment": 125,
-      "character": 247,
-      "dlc": 88,
-      "farming": 7
-    },
-    "duplicate_pairs": {
-      "pq_farming_route": 0,
-      "pq_requires_dlc": 0,
-      "pq_rewards_skill": 0,
-      "pq_rewards_super_soul": 0,
-      "pq_rewards_equipment": 0,
-      "pq_features_character": 0
-    },
-    "reconciliation_status": "reward_provenance_reconciled_with_partial-map-drift-retained",
-    "known_scope_limits": [
-      "PQ 1 has no typed skill/Super Soul/equipment reward relationship because the cited Basic Reward source lists only Zeni and Energy Capsule S.",
-      "Normalized reward maps are partial and omissions are not negative evidence.",
-      "Character edges are limited to explicit objective/ultimate-finish references; generic appearances are not inferred.",
-      "DLC and farming edges require explicit source evidence."
     ]
   },
   "deterministic_reconciliation_2026_09_22": {
@@ -592,5 +507,133 @@
   "equipment_reverse_coverage": {
     "forward_edges": 124,
     "missing_reverse_edges": 0
+  },
+  "integrity_review_snapshot_2026_09_22_pre_dlc_duplicate_repair": {
+    "date": "2026-09-22",
+    "scope": "repository-wide relationship/source integrity review",
+    "checks": {
+      "total_edges": 862,
+      "counts": {
+        "pq_rewards_skill": 244,
+        "pq_rewards_super_soul": 151,
+        "pq_rewards_equipment": 125,
+        "pq_features_character": 247,
+        "pq_requires_dlc": 88,
+        "pq_farming_route": 7
+      },
+      "duplicate_edges": 0,
+      "invalid_pq_numbers": 0,
+      "missing_source_or_non_source_backed": 0,
+      "reverse_reward_counts": {
+        "skills": 236,
+        "super_souls": 137,
+        "clothing": 87,
+        "accessories": 38
+      },
+      "status": "clean"
+    },
+    "reverse_counts": {
+      "skills": 244,
+      "super_souls": 151,
+      "equipment": 125,
+      "clothing": 87,
+      "accessories": 38
+    }
+  },
+  "integrity_review": {
+    "date": "2026-09-22",
+    "scope": "repository-wide relationship/source integrity review — current live census",
+    "checks": {
+      "total_edges": 859,
+      "counts": {
+        "pq_rewards_skill": 244,
+        "pq_rewards_super_soul": 151,
+        "pq_rewards_equipment": 124,
+        "pq_features_character": 247,
+        "pq_requires_dlc": 86,
+        "pq_farming_route": 7
+      },
+      "duplicate_edges": 0,
+      "invalid_pq_numbers": 0,
+      "missing_source_or_non_source_backed": 0,
+      "status": "clean"
+    },
+    "note": "Current live census after the PQ185/PQ186 duplicate DLC-evidence repair and PQ99 false-equipment correction."
+  },
+  "historical_stable_baseline_2026_09_22_pre_dlc_duplicate_repair": {
+    "date": "2026-09-22",
+    "scope": "deterministic cross-domain reward relationship synchronization",
+    "result": "stable_baseline",
+    "forward_counts": {
+      "skill": 244,
+      "super_soul": 151,
+      "equipment": 125,
+      "character": 247,
+      "dlc": 88,
+      "farming": 7
+    },
+    "total_edges": 862,
+    "reverse_counts": {
+      "skill": 244,
+      "super_soul": 151,
+      "equipment": 125,
+      "character": 247,
+      "dlc": 88,
+      "farming": 7
+    },
+    "audit_counts": {
+      "skill": 244,
+      "super_soul": 151,
+      "equipment": 125,
+      "character": 247,
+      "dlc": 88,
+      "farming": 7
+    },
+    "status_counts": {
+      "skill": 244,
+      "super_soul": 151,
+      "equipment": 125,
+      "character": 247,
+      "dlc": 88,
+      "farming": 7
+    },
+    "duplicate_pairs": {
+      "pq_farming_route": 0,
+      "pq_requires_dlc": 0,
+      "pq_rewards_skill": 0,
+      "pq_rewards_super_soul": 0,
+      "pq_rewards_equipment": 0,
+      "pq_features_character": 0
+    },
+    "reconciliation_status": "reward_provenance_reconciled_with_partial-map-drift-retained",
+    "known_scope_limits": [
+      "PQ 1 has no typed skill/Super Soul/equipment reward relationship because the cited Basic Reward source lists only Zeni and Energy Capsule S.",
+      "Normalized reward maps are partial and omissions are not negative evidence.",
+      "Character edges are limited to explicit objective/ultimate-finish references; generic appearances are not inferred.",
+      "DLC and farming edges require explicit source evidence."
+    ]
+  },
+  "final_stable_baseline": {
+    "date": "2026-09-22",
+    "scope": "deterministic cross-domain relationship synchronization — current live baseline",
+    "result": "stable_baseline",
+    "forward_counts": {
+      "skill": 244,
+      "super_soul": 151,
+      "equipment": 124,
+      "character": 247,
+      "dlc": 86,
+      "farming": 7
+    },
+    "total_edges": 859,
+    "reverse_counts": {
+      "skill": 244,
+      "super_soul": 151,
+      "equipment": 124,
+      "character": 247,
+      "dlc": 86,
+      "farming": 7
+    },
+    "historical_note": "Older 862/860/840 snapshots remain preserved under explicitly historical keys."
   }
 }
