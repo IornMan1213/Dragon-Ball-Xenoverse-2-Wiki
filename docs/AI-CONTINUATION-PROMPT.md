@@ -395,3 +395,16 @@
 - CI: no successful workflow run exposed for the direct-commit chain; no CI success claimed.
 - Commits: canonical c85d47b0340c6f7d220e437865fb6271c7979ce6; bridge d5b5ca87322e566eb1c1ec4c9626e1cecae3c8b6; accessory report 136263752007eb79ae3b12ba3098a1446b8e6434; equipment report b629a213d7d4aa7c4682ee3946fd7bb5037b6009; backlog 824eadd5c9438dc207bc95a3a665f2a2768b5308; audit b6718fc768aa13b2c4d371720f8370a365da93f7; reader docs 3da972ea3603660521570df0131ef93f8c2a265c; TODO 8b9931003eab6bc6340f25cb97d05a4fdb137de5.
 - Exact next batch: **8–20 remaining accessory research identities**, prioritizing PQ152–156 and PQ159–168 where exact inventory names/components can be independently reconciled.
+
+
+### 2026-09-22 cycle update — Accessory canonical identity batch PQ152–168
+- Live census before editing: 172 total equipment/accessory records / 64 canonical accessory IDs / 22 accessory forward edges / 23 unresolved accessory research identities / 123 equipment forward edges / 121 equipment reverse endpoints.
+- Bounded batch: Android 17 (DB Super) Wig, King Vegeta (DB Super) Wig, Gamma 2's Helmet, Gamma 1's Helmet, Dr. Hedo Hood, Videl (DB Super) Wig, plus the Android 17 Ranger Accessory component alias.
+- Evidence used: maintained Steam 186-PQ guide (https://steamcommunity.com/sharedfiles/filedetails/?id=808851543), Xenoverse 2 DLC/equipment references, and independent item-ID documentation (https://www.scribd.com/document/667491668/Demon-s-Xenoverse-ID-List). PQ168 explicitly lists Videl (DB Super) Wig as a Future Saga Chapter 1 basic reward.
+- Changes: canonical accessory IDs acc-065 through acc-070; normalized legacy equip-061, equip-063, equip-065, and equip-093; synchronized accessory bridge/report/backlog and PQ equipment report.
+- Evidence limits preserved: exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved where not directly evidenced. The Ranger Accessory label is not promoted as a duplicate identity.
+- Validation: 174 total equipment/accessory records / 70 canonical accessory IDs / 28 accessory forward / 28 reverse / 16 unresolved / 0 stale / 0 duplicate accessory edges / 129 equipment forward / 123 equipment reverse / 0 unresolved / 0 broken endpoints.
+- Canonical source-of-truth rule preserved: canonical records determine identity and field values; verification/research layers are supporting evidence only.
+- CI/Actions: no successful workflow/check exposed for this direct-commit chain; CI success is not claimed.
+- Commits: canonical 7b449904ee279625301e9fadf0283c6d15b54acd; equipment report 6f12f7953cb4cb9ede3b5e7ef665e0ce4d37ab11; bridge 7d87de659d2955cdffc488e58c9a084965641750; accessory report 93d841de40f3d95030b47110842c414e7b4d041b; backlog de30d8e10a9485a31e202deb2cd40c57a49f6d5e; audit d596b78d57c284bb18a?; changelog 49e7776c242e0160ab3ae8978aadbafe18a762e9; TODO ebdf26e485530ce5e2e3034e5420bae2ba388246.
+- Exact next batch: full cross-database reward/reverse-index census across Skills, Super Souls, Equipment, and Accessories, repairing deterministic endpoint/count drift before another provenance-only batch.
