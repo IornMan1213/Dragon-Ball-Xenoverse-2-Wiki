@@ -45,12 +45,8 @@ def source_index(data):
             if "rewards" in record:
                 normalized.append((int(record["pq"]), record.get("rewards", {})))
             else:
-                pairs = record.get("rewards", [])
                 normalized.append((int(record["pq"]), {
-                    "skills": [name for name, kind in pairs if kind == "skill"],
-                    "super_souls": [name for name, kind in pairs if kind == "super_soul"],
-                    "clothing": [name for name, kind in pairs if kind == "clothing"],
-                    "accessories": [name for name, kind in pairs if kind == "accessory"],
+                    domain: list(record.get(domain, [])) for domain in DOMAINS
                 }))
     for pq, reward_map in normalized:
         for domain in DOMAINS:
