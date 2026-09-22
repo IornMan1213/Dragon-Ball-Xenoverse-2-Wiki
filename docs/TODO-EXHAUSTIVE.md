@@ -362,3 +362,12 @@
 - [ ] Execute generator/validator in a repository-capable runtime and capture actual runtime output.
 - [ ] If runtime remains unavailable, produce a static schema/parity audit artifact from live JSON and explicitly mark it as static rather than runtime validation.
 - [ ] Evaluate unified reverse-index generation only after standalone validation is complete.
+
+
+### 2026-09-22 — live schema-aware PQ reverse-index validation
+- [x] Performed live repository JSON execution equivalent to the committed generator/validator normalization logic.
+- [x] Standalone typed-pair parity: PQ81-120 **109/109**, PQ121-142 **89/89**, PQ143-162 **87/87**, PQ163-186 **72/72**; all ranges **0 missing / 0 extra**.
+- [x] Unified reverse-index parity: all four ranges **0 missing / 0 extra** typed pairs.
+- [x] Artwork remains separate projection data for PQ143-162 (64 entries) and PQ163-186 (97 entries), not canonical typed reward relationships.
+- [x] Canonical reward source layer remains unchanged.
+- [ ] Audit unified reverse-index producer/schema for safe deterministic generation without overwriting partial/research-layer semantics.
