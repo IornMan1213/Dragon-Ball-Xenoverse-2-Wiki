@@ -25,9 +25,15 @@ def main():
       "pq_rewards_skill":"skill_rewards",
       "pq_rewards_super_soul":"super_soul_rewards",
       "pq_rewards_equipment":"equipment_rewards",
+      "pq_features_character":"character_links",
+      "pq_requires_dlc":"dlc_link",
     }
     canonical_pairs={rel:{(e.get("pq"),e.get("target")) for e in relationships if e.get("relationship")==rel} for rel in relationship_fields}
-    record_pairs={rel:{(r.get("id"),target) for r in records for target in (r.get(field) or [])} for rel,field in relationship_fields.items()}
+    record_pairs={rel:{(r.get("id"),target) for r in records for target in (r.get(field) or [])} for rel,field in relationship_fields.items() if field in {"skill_rewards","super_soul_rewards","equipment_rewards"}}
+    # Character/DLC navigation is projected directly in the page from the canonical relationship file,
+    # so validate the exact rendered projection contract rather than requiring duplicated record fields.
+    character_pairs={(e.get("pq"),e.get("target")) for e in relationships if e.get("relationship")=="pq_features_character"}
+    dlc_pairs={(e.get("pq"),e.get("target")) for e in relationships if e.get("relationship")=="pq_requires_dlc"}
     checks={
       "pq_local_record_layer_reference": '"/data/parallel-quests-record-layer.json"' in html,
       "pq_external_corpus_removed": "api.github.com/repos/Madreag" not in html and "raw.githubusercontent.com/Madreag" not in html,
@@ -40,11 +46,17 @@ def main():
       "canonical_skill_reward_fields_match": canonical_pairs["pq_rewards_skill"] == record_pairs["pq_rewards_skill"],
       "canonical_super_soul_reward_fields_match": canonical_pairs["pq_rewards_super_soul"] == record_pairs["pq_rewards_super_soul"],
       "canonical_equipment_reward_fields_match": canonical_pairs["pq_rewards_equipment"] == record_pairs["pq_rewards_equipment"],
+      "character_relationships_are_rendered": "characterByPq" in html and "characterLinks" in html and "pq_features_character" in html,
+      "dlc_relationships_are_rendered": "dlcByPq" in html and "dlcLink" in html and "pq_requires_dlc" in html,
+      "all_character_relationship_pqs_exist": {p for p,_ in character_pairs} <= ids,
+      "all_dlc_relationship_pqs_exist": {p for p,_ in dlc_pairs} <= ids,
+      "character_projection_target_count_nonzero": bool(character_pairs),
+      "dlc_projection_target_count_nonzero": bool(dlc_pairs),
       "skill_page_uses_canonical_local_db": '"/data/skills.json"' in skill_html and "api.github.com/repos/Madreag" not in skill_html and "raw.githubusercontent.com/Madreag" not in skill_html,
       "awoken_page_uses_canonical_local_db": '"/data/skills.json"' in awoken_html and "api.github.com/repos/Madreag" not in awoken_html and "raw.githubusercontent.com/Madreag" not in awoken_html,
     }
     bad=[k for k,v in checks.items() if not v]
-    result={"status":"pass" if not bad else "fail","pq_record_count":len(records),"unique_pq_ids":len(ids),"unique_pq_numbers":len(nums),"canonical_reward_pairs":{k:len(v) for k,v in canonical_pairs.items()},"structured_reward_pairs":{k:len(v) for k,v in record_pairs.items()},"failed_checks":bad,"checks":checks}
+    result={"status":"pass" if not bad else "fail","pq_record_count":len(records),"unique_pq_ids":len(ids),"unique_pq_numbers":len(nums),"canonical_reward_pairs":{k:len(v) for k,v in canonical_pairs.items()},"structured_reward_pairs":{k:len(v) for k,v in record_pairs.items()},"canonical_navigation_pairs":{"pq_features_character":len(character_pairs),"pq_requires_dlc":len(dlc_pairs)},"failed_checks":bad,"checks":checks}
     print(json.dumps(result,indent=2))
     return 0 if not bad else 1
 
