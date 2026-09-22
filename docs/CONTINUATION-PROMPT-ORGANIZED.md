@@ -1654,3 +1654,16 @@
 - [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; do not claim CI success.
 - [x] Commits: canonical `214dfb8d53ad3838ea254815b9d30b536e112719`; index `5db843c42dd62471afdc163da2461213cfe9a811`; audit `7117f8e6360b1f265258b69e4abfdc4b4d78561a`; cross-domain registration `1880a5bff250603b65e4ae82060c3646a28cf247`.
 - [ ] Exact next batch: **Lightning Impact, Lightning of Absolution, Lovely Cyclone, Mach Dash, Mach Punch, Maiden Blast, Maiden Burst, Majin Kamehameha, Masenko, Maximum Charge**; recompute the live stale census before editing and preserve the same bounded provenance policy.
+
+
+### 2026-09-22 cycle update — Lightning Impact through Maximum Charge provenance batch
+- [x] Fresh live stale census before editing: **452 canonical skills / 452 index records / 0 duplicate IDs / 168 stale**; exact first ten stale records were **Lightning Impact, Lightning of Absolution, Lovely Cyclone, Mach Dash, Mach Punch, Maiden Blast, Maiden Burst, Majin Kamehameha, Masenko, Maximum Charge**.
+- [x] Refreshed all ten canonical records in docs/data/skills.json and synchronized the corresponding index projections in docs/data/skills-index.json to last_verified: 2026-09-22.
+- [x] Expanded bounded mechanics/provenance across PQ142/PQ111/PQ135/PQ18/PQ19/PQ92/PQ60 and mentor/Advancement Test endpoints. Preserved unresolved reward-slot/probability questions and did not invent Ultimate Finish gates, frame data, or unsupported numerical values.
+- [x] Deterministic correction: Majin Kamehameha race_restriction corrected from All CaC races to Majin. Dedicated Xenoverse 2 documentation explicitly states that only Majin CaCs can use it; current repository mechanics already described the Majin-only restriction. citeturn1search2turn1search0
+- [x] External corroboration also confirmed Mach Dash's PQ18 reward placement and Maiden Burst's PQ92 acquisition, while Pan mentor Lesson 3 remains the deterministic source for Maiden Blast. citeturn0search0turn1search10turn0search1
+- [x] Added and registered docs/data/skill-lightning-impact-through-maximum-charge-provenance-audit-2026-09-22.json.
+- [x] Final validation: 452/452 canonical/index, 0 duplicate IDs, ID sets match, 10/10 selected records current, 158 stale canonical records remain.
+- [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; no CI success claimed.
+- [x] Commits: canonical ae715e0ff1a6b556849a1bc2d7f04a48afb78b87; index d1c61d76554b240be581063b01ad6bc8b5217f3f; audit 1d1facc3a03c00679fc2dea6ba7a1bd71c27534e; cross-domain registration 16fdb0cb080dcc3953e0c6103c1800ba6e6acff5.
+- [ ] Exact next batch: **Meditation, Menacing Flare, Meteor Blow, Meteor Burst, Meteor Crash, Meteor Explosion, Meteor Strike, Mighty Explosive Wave, Milky Cannon, Mystic Flash**; recompute the live stale census before editing and continue with the same bounded provenance policy.
