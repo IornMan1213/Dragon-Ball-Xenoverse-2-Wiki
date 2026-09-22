@@ -6787,3 +6787,15 @@ The repository owner has clarified the continuation contract:
 - Final batch state: Gigantic Explosion now has **3 distinct sources**, the live exactly-two-source census is **36**, and canonical/index parity is clean.
 - Evidence boundaries: Videogaming Wiki independently confirms Future Saga Chapter 1, PQ164, Broly users, the Awoken Skill requirement, and 400-Stamina continuation. The maintained Steam PQ guide lists the skill as a PQ164 Basic Reward. The repository's existing **Ultimate Finish (40%)** acquisition condition was preserved rather than inferred from those sources.
 - Exact next batch: **recompute the live two-source census first, then continue with the next deterministic low-source record after Gigantic Explosion**.
+
+
+### 2026-09-21 cycle update — Gigantic Roar low-source provenance strengthening
+- Workstream: P1 skill acquisition/DLC-version provenance cleanup; deterministic two-source census sequence.
+- Live pre-edit census: **452 canonical / 452 index / 36 exactly-two-source records / 0 duplicate IDs / 0 nullable ki_cost values**.
+- Bounded batch: **Gigantic Roar (skill-gigantic-roar)**.
+- Evidence: the maintained Steam Parallel Quest guide lists Gigantic Roar under **PQ132 — The Ultimate Legendary Super Saiyan**, **Basic Reward**. This independently corroborates the repository's PQ132 acquisition route and no-Ultimate-Finish requirement. The existing dedicated skill sources independently identify the skill and PQ132.
+- Changes: added the Steam guide source to canonical `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21**; synchronized source projections; documented the batch in `CHANGELOG.md` and `docs/COVERAGE-AUDIT.md`.
+- Evidence limits preserved: existing **Extra Pack 4**, **PQ132**, **First-Clear Reward**, **Broly (Full Power Super Saiyan)**, **500 Ki**, Ultimate/Ki Blast, and CaC semantics were preserved. No unsupported drop probability or race/form scope was inferred.
+- Validation: target is **35 exactly-two-source records** after this batch; canonical/index parity, duplicate/null-Ki checks, and citation-artifact checks remain required.
+- CI: no success is claimed unless a status/workflow result is exposed for the final handoff commit.
+- Exact next batch: **recompute the live two-source census first, then continue with the next deterministic low-source record after Gigantic Roar**.
