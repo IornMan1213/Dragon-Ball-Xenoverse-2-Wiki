@@ -75,3 +75,16 @@
 - Commits: pending until the four repository writes below complete.
 - Live census after editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 13 exactly-two-source records**.
 - Exact next batch: **Shield Barrier**; recompute the live census first, inspect canonical/index records, and independently verify its acquisition/source endpoint before provenance strengthening.
+
+
+### 2026-09-22 cycle update — Shield Barrier provenance strengthening
+- Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 13 exactly-two-source canonical records**.
+- Bounded batch: **Shield Barrier** (`skill-shield-barrier`).
+- Research/evidence: maintained Steam all-Parallel-Quest guide independently lists Shield Barrier in **PQ153 — Seeing Double, Basic Reward**, corroborating the PQ153 acquisition endpoint. citeturn0search2turn0search3 Dedicated XV2 evidence independently confirms PQ153, 100 Ki, and the barrier behavior. citeturn0search0
+- Changes: canonical/index sources gained the maintained Steam PQ guide; `last_verified` refreshed to 2026-09-22; provenance note synchronized.
+- Evidence limits/conflict preserved: Steam's Basic Reward presentation conflicts with the canonical record's maintained explicit Ultimate Finish bonus-roll evidence. The existing `ultimate_finish_required: true` and 40% roll are retained rather than silently replaced; no new probability or gate is inferred from the Steam listing.
+- Validation: JSON parse succeeded; **452/452**, **0 duplicates**, **0 nullable canonical `ki_cost`**; exactly-two-source census reduced to **12**; canonical/index source parity clean; no internal AI/UI/search citation artifacts detected.
+- CI: no exposed status/check for the direct-commit chain; CI success is not claimed.
+- Commits: pending until all writes complete.
+- Live census after editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 12 exactly-two-source records**.
+- Exact next batch: **Soaring Fist** (`skill-soaring-fist`); recompute the census first, inspect canonical/index records, and independently verify acquisition/source semantics before provenance strengthening.
