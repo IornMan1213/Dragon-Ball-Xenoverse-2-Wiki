@@ -1470,3 +1470,6 @@
 - Added the documented **Giant Cluster → Gigantic Cluster** alias to the bidirectional PQ/skill validator.
 - Regenerated the crosslink report; relationship validation is now **244 forward edges / 239 reverse endpoints / 0 unresolved / 0 orphaned**.
 - Canonical naming and reward-source wording were preserved; only endpoint normalization changed.
+
+
+- 2026-09-22: Expanded canonical Super Soul and equipment endpoint coverage from the PQ relationship layer, merged seven duplicate Super Soul identities, and regenerated downstream crosslink reports from canonical data. Left the PQ 002 Flying Nimbus!! equipment classification conflict explicitly unresolved pending canonical evidence.
