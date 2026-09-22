@@ -1,3 +1,11 @@
+## 2026-09-21 — Perfect Shot low-source provenance strengthening
+- Recomputed the live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 21 exactly-two-source canonical records**.
+- Strengthened **Perfect Shot (`skill-perfect-shot`)** from two to three provenance sources using the Dragon Ball Wiki's **Perfect Shot** entry, which independently identifies Xenoverse 2's Cell (Perfect) mentor **School Quest: Lesson 2** acquisition.
+- Preserved the existing Cell (Perfect) mentor-training endpoint, Base Game provenance, CaC scope, 100 Ki cost, and no-Ultimate-Finish semantics; no unsupported prerequisite or reward condition was added.
+- Synchronized `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21**.
+- Post-write target: **20 exactly-two-source canonical records**; canonical/index source parity must remain clean.
+- CI success is not claimed unless GitHub exposes an actual workflow run/check.
+
 ## September 2026 — PQ ↔ skill relationship reconciliation
 
 - Reconciled the canonical Parallel Quest skill endpoints against the current 429-record skill registry.
