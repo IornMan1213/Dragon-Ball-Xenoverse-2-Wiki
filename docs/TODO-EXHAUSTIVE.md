@@ -1396,3 +1396,14 @@
 - [x] Validator commit: `93cf57755cbca321b476f5d5e4aac52b717b40c3`; audit refresh: `43f44fff1fe3477bf01f0e18acb6cfb764646b24`.
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [ ] Exact next batch: continue from the cross-domain registry into the next registered consumer after published Character/DLC navigation, prioritizing deterministic Search/landing or reverse-navigation validators with remaining silent set/dictionary collapse or endpoint-shape assumptions.
+
+### 2026-09-22 — Published Search consumer contract hardening
+- [x] Audited the live published Search surface after the character/DLC navigation consumer chain: `docs/Search.md`, `docs/assets/search.js`, and `docs/search-data.html`.
+- [x] Added `scripts/validate_search_consumer.py` to enforce the deterministic Search landing contract: `/Search/` permalink, search input/results/status hooks, `?q=` parsing and initial-query consumption, local generated `search-data.json` fetch, live input listener, and zero external fetch endpoints.
+- [x] Added `docs/data/search-consumer-audit.json` and registered the audit/validator in `docs/data/pq-cross-domain-index.json`.
+- [x] Static live-source validation is clean: all required Search hooks and query/navigation contracts are present; the search-index producer uses the repository's `site.pages` corpus and excludes its own generator page; Search JS has **0 external fetch endpoints**.
+- [x] Evidence boundary: this validates presentation wiring only. It does not claim that the generated search corpus contains every canonical database record or that search ranking is exhaustive.
+- [ ] CI: no successful GitHub Actions workflow/check exposed; CI success is not claimed.
+- [x] Commits: validator `d0b319c5974c9a6861bff364136f6b2deaad0a0b`; audit `99474ac1c291d4c49b85cd6ce2d1c853f9d63440`; registry `c041e968d72fe23d54c778d42e73b0d40bf9b21d`.
+- [ ] Exact next task: inspect the next registered Search/landing consumer or unvalidated cross-domain producer for deterministic one-way navigation, stale scalar/list assumptions, or canonical endpoint drift; prefer exact local consumer parity over new inferred relationships.
+
