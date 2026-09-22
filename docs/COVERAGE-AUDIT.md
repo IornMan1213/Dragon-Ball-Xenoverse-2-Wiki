@@ -1263,3 +1263,13 @@
 - `Flying Nimbus!!` is maintained as a canonical **Super Soul** and is no longer treated as a PQ equipment reward.
 - PQ→equipment report: **124 forward edges / 122 unique targets / 0 unresolved endpoints**.
 - No equipment canonical record was deleted; the prior unresolved endpoint was a relationship-layer classification error.
+
+### 2026-09-22 — Canonical equipment endpoint parity repair
+- Live pre-edit census: **50 canonical equipment-accessory records** and **122 unique PQ→equipment target endpoints**.
+- Structural defect: the PQ→equipment report contained source-backed target identities that were absent from the live canonical equipment layer. The historical 140-record expansion note did not match the actual canonical file.
+- Promoted **119 previously relationship-only equipment identities** into `docs/data/equipment-accessories-record-layer.json`; three exact-name overlaps were mapped to existing canonical accessory IDs rather than duplicated.
+- Reconciled relationship IDs: `equip-074 → acc-028` (Yamcha's Sword), `equip-080 → acc-001` (Piccolo's Turban), `equip-088 → acc-012` (Goku Wig (Super Saiyan)).
+- Recomputed `docs/data/pq-equipment-crosslink-report.json`.
+- Post-write validation: **169 canonical equipment-accessory records / 0 duplicate IDs / 124 forward edges / 122 reverse endpoints / 0 unresolved target routes / 0 broken forward endpoints / 0 broken reverse endpoints**.
+- Evidence boundary: promoted records contain only source-backed identity and PQ acquisition endpoints; exact slot/category, DLC, restrictions, effects, and reward-slot semantics remain unresolved unless separately evidenced.
+- Next exact batch: **`equip-031`–`equip-040`** for bounded equipment-detail enrichment.
