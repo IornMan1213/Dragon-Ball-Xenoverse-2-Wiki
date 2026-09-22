@@ -1794,3 +1794,10 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Added independent GameFAQs walkthrough evidence for PQ63 → Kai Kai, preserving the Basic Reward/no-Ultimate-Finish-only interpretation.
 - [x] Synchronized canonical/index records and refreshed verification date.
 - [ ] Next task: **Kaioken Kamehameha (`skill-kaioken-kamehameha`)**.
+
+
+### 2026-09-21 — Kaioken Kamehameha provenance strengthening
+- [x] Recomputed live census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 28 exactly-two-source records**.
+- [x] Added maintained Steam all-PQ guide evidence for PQ14 → Kaioken Kamehameha Basic Reward.
+- [x] Synchronized canonical/index records and preserved the existing no-Ultimate-Finish-only interpretation.
+- [ ] Next task: **Kairos Cannon (`skill-kairos-cannon`)**.
