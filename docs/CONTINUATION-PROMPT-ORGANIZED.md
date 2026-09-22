@@ -15489,3 +15489,13 @@ The directive to populate the live-state fields from the current repository and 
 - Accessory remains a dedicated 28-edge projection of the broader equipment domain; no unsupported count collapse was made.
 - Added synchronized producer metadata to make future deterministic drift detection explicit.
 - Exact next batch: **audit remaining generated/reconciliation artifacts outside the four primary cross-link reports for stale current-state counts or mismatched scopes**, repairing only deterministic drift.
+
+
+### 2026-09-22 cycle update — reconciliation artifact scope audit
+- Audited remaining generated/reconciliation artifacts outside the four primary PQ cross-link reports.
+- pq-unified-reward-reconciliation.json is structurally current for its intended PQ 1-186 partial source layer: 186/186 range slots, no duplicate boundary IDs, no missing numbered slots, with PQ36 explicitly unresolved.
+- Existing range audit scopes remain internally consistent: PQ1-40 = 40 records / 30 typed relationships; PQ41-80 = 40 records / 33 typed relationships. Their partial status is intentional and must not be mistaken for the canonical 860-edge relationship census.
+- accessory-pq-canonical-bridge.json remains 45 records = 29 matched + 16 unresolved, with 0 duplicate bridge record IDs; unresolved identities remain explicit rather than inferred.
+- The unified reverse index is explicitly a partial source-normalized index and is not a replacement for the canonical relationship layer.
+- No deterministic current-count drift was found; no canonical relationship identities were changed.
+- Exact next batch: audit the remaining generated reverse indexes/acquisition indexes for scope metadata and canonical-vs-partial semantics, beginning with the Super Soul PQ acquisition index and PQ reverse-index artifacts for ranges 81-186.
