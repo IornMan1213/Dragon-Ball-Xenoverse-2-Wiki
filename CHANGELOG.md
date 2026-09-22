@@ -1277,3 +1277,11 @@
 - Preserved the existing Vegeta mentor-training endpoint and no-Ultimate-Finish inference.
 - Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index source projections.
 - Post-write target: **38 exactly-two-source records**.
+
+
+## 2026-09-21 — Giant Storm low-source provenance strengthening
+- Live pre-batch census: **38 exactly-two-source records** across **452 canonical / 452 index** skills.
+- Strengthened **Giant Storm (`skill-giant-storm`)** from two to three provenance sources with the Dragon Ball Wiki's Xenoverse 2 technique entry, independently confirming the Skill Shop acquisition and Giant Storm identity.
+- Preserved the existing Skill Shop endpoint, Base Game provenance, CaC availability, 300 Ki cost, and non-Ultimate-Finish semantics; no unsupported shop timing or drop probability was inferred.
+- Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index records.
+- Post-write target: **37 exactly-two-source records**.
