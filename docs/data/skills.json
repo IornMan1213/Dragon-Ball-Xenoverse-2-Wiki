@@ -1532,7 +1532,7 @@
       "mechanics_notes": "Dedicated current-version evidence confirms Candy Beam (Super) as a 200-Ki Ki Blast Super from PQ113. It transforms the target into candy, deals no direct damage, and reduces the target's Ki Blast skill damage; the existing all-CaC-races restriction is retained.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
@@ -1541,7 +1541,7 @@
       "source_quest": 113,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ113 reward listings explicitly place Candy Beam (Super) in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1.",
+      "notes": "2026-09-20 audit: PQ113 reward listings explicitly place Candy Beam (Super) in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1. 2026-09-22 provenance verification: current dedicated documentation identifies Candy Beam (Super) as a 200-Ki Ki Blast Super associated with Majin Buu (Gohan Absorbed) and lists PQ113 as its unlock. The maintained all-186-PQ guide explicitly lists Candy Beam in PQ113 Basic Rewards, and an independent GameFAQs PQ113 summary also lists it among the quest rewards. The repository's existing PQ113/Extra Pack 1 acquisition semantics are retained. No Ultimate Finish-only gate or drop probability is inferred from these reward listings.",
       "id": "skill-candy-beam-super",
       "source_parallel_quests": [
         113
