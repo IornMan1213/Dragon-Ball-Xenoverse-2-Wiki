@@ -77,7 +77,8 @@
     "equipment_detail_enrichment": "docs/data/equipment/equipment-031-040-detail-audit.json",
     "equipment_detail_enrichment_041_050": "docs/data/equipment/equipment-041-050-detail-audit.json",
     "equipment_detail_enrichment_051_060": "docs/data/equipment/equipment-051-060-detail-audit.json",
-    "equipment_detail_enrichment_061_070": "docs/data/equipment/equipment-061-070-detail-audit.json"
+    "equipment_detail_enrichment_061_070": "docs/data/equipment/equipment-061-070-detail-audit.json",
+    "equipment_detail_enrichment_071_080": "docs/data/equipment/equipment-071-080-detail-audit.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
