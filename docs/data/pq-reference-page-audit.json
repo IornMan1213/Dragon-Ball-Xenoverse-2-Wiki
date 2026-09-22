@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "scope": "general PQ reference/index pages",
   "sources": [
     "docs/data/parallel-quests-record-layer.json",
@@ -55,5 +55,25 @@
   "evidence_boundary": "Deterministic count/set/navigation repair only; no new relationship edges or unsupported mechanics were inferred.",
   "date": "2026-09-22",
   "validator": "scripts/validate_pq_reference_pages.py",
-  "live_validation_note": "Current live canonical layer and both consumer pages remain aligned: 186 PQ records, 860 relationship edges, exact domain counts 244/151/125/247/86/7, and farming set PQ15/PQ22/PQ44/PQ45/PQ68/PQ83/PQ88."
+  "live_validation_note": "Current live canonical layer and both consumer pages remain aligned: 186 PQ records, 860 relationship edges, exact domain counts 244/151/125/247/86/7, and farming set PQ15/PQ22/PQ44/PQ45/PQ68/PQ83/PQ88.",
+  "validator_commit": "8a256fb4e2998c12a0f29b42a637acbdc93ff5c4",
+  "identity_contract": {
+    "canonical_pq_numbers": "exact 1..186",
+    "unique_pq_ids": true,
+    "known_relationship_types": [
+      "pq_rewards_skill",
+      "pq_rewards_super_soul",
+      "pq_rewards_equipment",
+      "pq_features_character",
+      "pq_requires_dlc",
+      "pq_farming_route"
+    ],
+    "unique_relationship_keys": true
+  },
+  "identity_validation": {
+    "canonical_pq_numbers_are_exact_1_to_186": true,
+    "canonical_pq_ids_are_unique": true,
+    "canonical_relationship_types_are_known": true,
+    "canonical_relationship_keys_are_unique": true
+  }
 }
