@@ -1443,3 +1443,11 @@
 - Preserved the existing Free Update 11/DLC provenance and did not infer a drop probability.
 - Synchronized canonical/index source lists and refreshed `last_verified` to **2026-09-21**.
 - Expected exactly-two-source census after this batch: **7**.
+
+
+## 2026-09-21 — Thunder Flash low-source provenance strengthening
+- Strengthened **Thunder Flash (`skill-thunder-flash`)** from two to three provenance sources using an independent Steam PQ146 record.
+- The added evidence explicitly lists Thunder Flash in **Parallel Quest 146 — "Zen-Ohs' Earthly Excursion" Basic Reward**.
+- Preserved the existing Legendary Pack 1 provenance and did not infer a drop probability.
+- Synchronized canonical/index source lists and refreshed `last_verified` to **2026-09-21**.
+- Expected exactly-two-source census after this batch: **6**.
