@@ -7903,13 +7903,14 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
-        "https://dbxv2.fandom.com/wiki/Shield_Barrier"
+        "https://dbxv2.fandom.com/wiki/Shield_Barrier",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "unlock_method": "Parallel Quest 153 — \"Seeing Double\" Ultimate Finish bonus reward (40% roll)",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance refinement: the maintained PQ153 drop-condition data explicitly assigns this skill to a 40% Ultimate Finish bonus roll; the earlier reward-list wording did not establish the gate. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics.",
+      "notes": "2026-09-20 provenance refinement: the maintained PQ153 drop-condition data explicitly assigns this skill to a 40% Ultimate Finish bonus roll; the earlier reward-list wording did not establish the gate. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics. 2026-09-22 provenance strengthening: maintained Steam all-Parallel-Quest guide independently lists Shield Barrier in PQ153 (Seeing Double) Basic Reward. This corroborates the PQ153 acquisition endpoint but conflicts with the canonical record's separate Ultimate Finish bonus-roll evidence; the conflict is retained rather than silently replacing the explicit drop-condition record. No new probability or gate is inferred from the Steam listing.",
       "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ153, usable by all CaC races. It creates a temporary energy barrier around the user that blocks incoming attacks. The maintained PQ153 drop-condition data assigns this skill to an explicit Ultimate Finish bonus roll.",
       "source_quest": 153,
       "source_quest_or_shop": "Parallel Quest 153 — \"Seeing Double\""
