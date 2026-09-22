@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "date": "2026-09-22",
-  "scope": "PQ explorer page consumer structured reward-field parity",
+  "scope": "PQ explorer page consumer exact canonical reward-pair and projection contract",
   "consumer": "docs/Parallel-Quests-All.html",
   "record_layer": "docs/data/parallel-quests-record-layer.json",
   "canonical_relationships": "docs/data/pq-reward-relationships.json",
@@ -13,32 +13,48 @@
       "canonical_pairs": 244,
       "structured_pairs": 244,
       "missing": 0,
-      "extra": 0
+      "extra": 0,
+      "canonical_duplicates": 0,
+      "structured_duplicates": 0,
+      "shape_errors": 0,
+      "invalid_relationship_pq_ids": 0
     },
     "pq_rewards_super_soul": {
       "canonical_pairs": 151,
       "structured_pairs": 151,
       "missing": 0,
-      "extra": 0
+      "extra": 0,
+      "canonical_duplicates": 0,
+      "structured_duplicates": 0,
+      "shape_errors": 0,
+      "invalid_relationship_pq_ids": 0
     },
     "pq_rewards_equipment": {
       "canonical_pairs": 125,
       "structured_pairs": 125,
       "missing": 0,
-      "extra": 0
+      "extra": 0,
+      "canonical_duplicates": 0,
+      "structured_duplicates": 0,
+      "shape_errors": 0,
+      "invalid_relationship_pq_ids": 0
     },
     "pq_features_character": {
       "canonical_pairs": 247,
       "projection": "docs/data/pq-reward-relationships.json -> characterByPq in docs/Parallel-Quests-All.html",
-      "missing_pq_ids": 0
+      "missing_pq_ids": 0,
+      "duplicate_pairs": 0
     },
     "pq_requires_dlc": {
       "canonical_pairs": 86,
       "projection": "docs/data/pq-reward-relationships.json -> dlcByPq in docs/Parallel-Quests-All.html",
-      "missing_pq_ids": 0
+      "missing_pq_ids": 0,
+      "duplicate_pairs": 0,
+      "max_edges_per_pq": 1,
+      "scalar_projection_unambiguous": true
     }
   },
-  "repair": [
+  "repair_history": [
     {
       "pq": "pq-152",
       "field": "equipment_rewards",
@@ -54,12 +70,16 @@
   ],
   "evidence_boundary": "Only exact canonical reward-target fields were synchronized. Existing alias/granularity conflicts remain preserved in their dedicated audits; no targets were inferred or renamed.",
   "validator": "scripts/validate_pq_page_consumers.py",
-  "status": "clean_after_deterministic_navigation_hardening",
-  "navigation_contract": {
-    "character_projection": "Canonical pq_features_character edges are loaded directly and rendered through local Search query links.",
-    "dlc_projection": "Canonical pq_requires_dlc edges are loaded directly and rendered through local DLC Overview query links.",
-    "duplicate_dlc_pq_check": "0 PQs have multiple canonical DLC requirement edges, so scalar dlcByPq projection is deterministic.",
-    "target_identity_preserved": true
+  "validator_commit": "330cd587e79d3ec89cb8b7426beaf5d3bc3e1754",
+  "status": "clean",
+  "hardening": {
+    "exact_forward_pair_parity": true,
+    "duplicate_canonical_pair_rejection": true,
+    "duplicate_structured_pair_rejection": true,
+    "structured_list_shape_validation": true,
+    "relationship_pq_id_validation": true,
+    "character_projection_duplicate_detection": true,
+    "dlc_scalar_projection_duplicate_detection": true
   },
   "last_verified": "2026-09-22"
 }
