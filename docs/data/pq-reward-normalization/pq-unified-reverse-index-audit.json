@@ -8,16 +8,16 @@
   "canonical_counts": {
     "skill": 244,
     "super_soul": 151,
-    "equipment": 125,
+    "equipment": 124,
     "character": 247,
     "dlc": 86,
     "farming": 7,
-    "total": 860
+    "total": 859
   },
   "live_projection_counts": {
     "skill": 244,
     "super_soul": 151,
-    "equipment": 125,
+    "equipment": 124,
     "character": 247,
     "dlc": 86,
     "farming": 7
@@ -64,31 +64,31 @@
     "duplicate_relationship_keys": 0,
     "invalid_pq_numbers": 0
   },
-  "next_action": "Continue auditing the next registered cross-domain presentation consumer for stale scalar/list assumptions or one-way canonical navigation.",
+  "next_action": "Runtime execution of scripts/validate_pq_unified_reverse_index.py remains unavailable in the web-client environment; current live canonical/projection data was rechecked structurally and historical audit counts are retained.",
   "live_exact_reconciliation": {
     "source_of_truth": "docs/data/pq-reward-relationships.json",
     "canonical_pairs": {
       "skill": 244,
       "super_soul": 151,
-      "equipment": 125,
+      "equipment": 124,
       "character": 247,
       "dlc": 86,
       "farming": 7,
-      "total": 860
+      "total": 859
     },
     "unified_projection_pairs": {
       "skill": 244,
       "super_soul": 151,
-      "equipment": 125,
+      "equipment": 124,
       "character": 247,
       "dlc": 86,
       "farming": 7,
-      "total": 860
+      "total": 859
     },
     "equipment_projection_domains": {
       "clothing": 83,
-      "accessories": 40,
-      "combined": 125
+      "accessories": 41,
+      "combined": 124
     },
     "mismatches": {
       "skill": {
@@ -133,8 +133,8 @@
       "duplicate_projection_pairs": 0
     },
     "canonical_projection_parity": {
-      "canonical_pairs": 860,
-      "projection_pairs": 860,
+      "canonical_pairs": 859,
+      "projection_pairs": 859,
       "missing": 0,
       "extra": 0,
       "duplicate_pairs": 0
