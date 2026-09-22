@@ -4559,6 +4559,2355 @@
       "source_parallel_quests": [
         "pq-097"
       ]
+    },
+    {
+      "id": "super-soul-166",
+      "name": "Revival of the Demon Realm is at hand",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-097 reward",
+      "first_clear_or_repeat": "PQ pq-097 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-097"
+      ]
+    },
+    {
+      "id": "super-soul-167",
+      "name": "I'll make you regret that!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-102 reward",
+      "first_clear_or_repeat": "PQ pq-102 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-102"
+      ]
+    },
+    {
+      "id": "super-soul-168",
+      "name": "Don't quit! Get up!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-102 reward",
+      "first_clear_or_repeat": "PQ pq-102 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-102"
+      ]
+    },
+    {
+      "id": "super-soul-169",
+      "name": "This is not a weapon.",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-103 reward",
+      "first_clear_or_repeat": "PQ pq-103 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-103"
+      ]
+    },
+    {
+      "id": "super-soul-170",
+      "name": "I've been saving this! Kaioken!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-103 reward",
+      "first_clear_or_repeat": "PQ pq-103 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-103"
+      ]
+    },
+    {
+      "id": "super-soul-171",
+      "name": "Now you understand. Surrender.",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-103 reward",
+      "first_clear_or_repeat": "PQ pq-103 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-103"
+      ]
+    },
+    {
+      "id": "super-soul-172",
+      "name": "How Dare You...! That's My Bulma",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-104 reward",
+      "first_clear_or_repeat": "PQ pq-104 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-104"
+      ]
+    },
+    {
+      "id": "super-soul-173",
+      "name": "Me...Protecting Some Pipsqueak",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-105 reward",
+      "first_clear_or_repeat": "PQ pq-105 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-105"
+      ]
+    },
+    {
+      "id": "super-soul-174",
+      "name": "You're Just Pieces in a Game",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-106 reward",
+      "first_clear_or_repeat": "PQ pq-106 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-106"
+      ]
+    },
+    {
+      "id": "super-soul-175",
+      "name": "Watch Your Tongue",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-106 reward",
+      "first_clear_or_repeat": "PQ pq-106 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-106"
+      ]
+    },
+    {
+      "id": "super-soul-176",
+      "name": "Eehee hee hee heee!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-106 reward",
+      "first_clear_or_repeat": "PQ pq-106 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-106"
+      ]
+    },
+    {
+      "id": "super-soul-177",
+      "name": "Now, give your father a message for me.",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-108 reward",
+      "first_clear_or_repeat": "PQ pq-108 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-108"
+      ]
+    },
+    {
+      "id": "super-soul-178",
+      "name": "I really do love being immortal.",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-109 reward",
+      "first_clear_or_repeat": "PQ pq-109 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-109"
+      ]
+    },
+    {
+      "id": "super-soul-179",
+      "name": "I like you better when you're mad!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-109 reward",
+      "first_clear_or_repeat": "PQ pq-109 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-109"
+      ]
+    },
+    {
+      "id": "super-soul-180",
+      "name": "This fight is only just beginning!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-110 reward",
+      "first_clear_or_repeat": "PQ pq-110 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-110"
+      ]
+    },
+    {
+      "id": "super-soul-181",
+      "name": "I shall show you my great godly might!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-110 reward",
+      "first_clear_or_repeat": "PQ pq-110 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-110"
+      ]
+    },
+    {
+      "id": "super-soul-182",
+      "name": "I feel it... Everyone, lend me your power!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-111 reward",
+      "first_clear_or_repeat": "PQ pq-111 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-111"
+      ]
+    },
+    {
+      "id": "super-soul-183",
+      "name": "Sorry. You were way open there.",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-112 reward",
+      "first_clear_or_repeat": "PQ pq-112 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-112"
+      ]
+    },
+    {
+      "id": "super-soul-184",
+      "name": "I ain't losin'! Here's my full power!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-112 reward",
+      "first_clear_or_repeat": "PQ pq-112 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-112"
+      ]
+    },
+    {
+      "id": "super-soul-185",
+      "name": "I'm never going to forgive him!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-112 reward",
+      "first_clear_or_repeat": "PQ pq-112 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-112"
+      ]
+    },
+    {
+      "id": "super-soul-186",
+      "name": "I'll make good use of you!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-113 reward",
+      "first_clear_or_repeat": "PQ pq-113 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-113"
+      ]
+    },
+    {
+      "id": "super-soul-187",
+      "name": "I'm stronger than ever now!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-113 reward",
+      "first_clear_or_repeat": "PQ pq-113 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-113"
+      ]
+    },
+    {
+      "id": "super-soul-188",
+      "name": "The real fight starts now!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-114 reward",
+      "first_clear_or_repeat": "PQ pq-114 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-114"
+      ]
+    },
+    {
+      "id": "super-soul-189",
+      "name": "Looks like you're done!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-115 reward",
+      "first_clear_or_repeat": "PQ pq-115 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-115"
+      ]
+    },
+    {
+      "id": "super-soul-190",
+      "name": "If I don't do it, who will?",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-116 reward",
+      "first_clear_or_repeat": "PQ pq-116 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-116"
+      ]
+    },
+    {
+      "id": "super-soul-191",
+      "name": "Earth is in your hands now!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-116 reward",
+      "first_clear_or_repeat": "PQ pq-116 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-116"
+      ]
+    },
+    {
+      "id": "super-soul-192",
+      "name": "Get serious, would you?",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-117 reward",
+      "first_clear_or_repeat": "PQ pq-117 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-117"
+      ]
+    },
+    {
+      "id": "super-soul-193",
+      "name": "I hate what I've become!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-118 reward",
+      "first_clear_or_repeat": "PQ pq-118 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-118"
+      ]
+    },
+    {
+      "id": "super-soul-194",
+      "name": "Time to get serious, I guess.",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-119 reward",
+      "first_clear_or_repeat": "PQ pq-119 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-119"
+      ]
+    },
+    {
+      "id": "super-soul-195",
+      "name": "Hmph! For justice!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-120 reward",
+      "first_clear_or_repeat": "PQ pq-120 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-120"
+      ]
+    },
+    {
+      "id": "super-soul-196",
+      "name": "This heat...will be your downfall!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-120 reward",
+      "first_clear_or_repeat": "PQ pq-120 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-120"
+      ]
+    },
+    {
+      "id": "super-soul-197",
+      "name": "Right, then... Let's begin the experiment!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-121 reward",
+      "first_clear_or_repeat": "PQ pq-121 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-121"
+      ]
+    },
+    {
+      "id": "super-soul-198",
+      "name": "For beauty! For elegance! For love!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-122 reward",
+      "first_clear_or_repeat": "PQ pq-122 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-122"
+      ]
+    },
+    {
+      "id": "super-soul-199",
+      "name": "This Super Saiyan 2 is crazy strong!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-122 reward",
+      "first_clear_or_repeat": "PQ pq-122 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-122"
+      ]
+    },
+    {
+      "id": "super-soul-200",
+      "name": "Don't think I'm the same as before!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-124 reward",
+      "first_clear_or_repeat": "PQ pq-124 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-124"
+      ]
+    },
+    {
+      "id": "super-soul-201",
+      "name": "Alright! Let's go wreck some faces!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-126 reward",
+      "first_clear_or_repeat": "PQ pq-126 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-126"
+      ]
+    },
+    {
+      "id": "super-soul-202",
+      "name": "GAAAGH!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-128 reward",
+      "first_clear_or_repeat": "PQ pq-128 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-128"
+      ]
+    },
+    {
+      "id": "super-soul-203",
+      "name": "Your father has been killed!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-128 reward",
+      "first_clear_or_repeat": "PQ pq-128 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-128"
+      ]
+    },
+    {
+      "id": "super-soul-204",
+      "name": "I've waited an unbelievably long time for this...",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-128 reward",
+      "first_clear_or_repeat": "PQ pq-128 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-128"
+      ]
+    },
+    {
+      "id": "super-soul-205",
+      "name": "Heh heh! Now THIS is real power!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-129 reward",
+      "first_clear_or_repeat": "PQ pq-129 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-129"
+      ]
+    },
+    {
+      "id": "super-soul-206",
+      "name": "Hey, you think you could fight a little quieter?!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-129 reward",
+      "first_clear_or_repeat": "PQ pq-129 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-129"
+      ]
+    },
+    {
+      "id": "super-soul-207",
+      "name": "Don't think I'm gonna show you any gratitude!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-129 reward",
+      "first_clear_or_repeat": "PQ pq-129 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-129"
+      ]
+    },
+    {
+      "id": "super-soul-208",
+      "name": "Hey, you! You ready for me?!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-130 reward",
+      "first_clear_or_repeat": "PQ pq-130 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-130"
+      ]
+    },
+    {
+      "id": "super-soul-209",
+      "name": "Hmph. I'm off to take a nap.",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-130 reward",
+      "first_clear_or_repeat": "PQ pq-130 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-130"
+      ]
+    },
+    {
+      "id": "super-soul-210",
+      "name": "Th-Thanks...",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-130 reward",
+      "first_clear_or_repeat": "PQ pq-130 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-130"
+      ]
+    },
+    {
+      "id": "super-soul-211",
+      "name": "You'd better survive, you got that?!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-131 reward",
+      "first_clear_or_repeat": "PQ pq-131 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-131"
+      ]
+    },
+    {
+      "id": "super-soul-212",
+      "name": "Shall we pick up where we left off?",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-131 reward",
+      "first_clear_or_repeat": "PQ pq-131 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-131"
+      ]
+    },
+    {
+      "id": "super-soul-213",
+      "name": "Whoa, it's freezing here!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-132 reward",
+      "first_clear_or_repeat": "PQ pq-132 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-132"
+      ]
+    },
+    {
+      "id": "super-soul-214",
+      "name": "This is no time to mess around...",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-132 reward",
+      "first_clear_or_repeat": "PQ pq-132 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-132"
+      ]
+    },
+    {
+      "id": "super-soul-215",
+      "name": "I can't have you dying on me!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-132 reward",
+      "first_clear_or_repeat": "PQ pq-132 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-132"
+      ]
+    },
+    {
+      "id": "super-soul-216",
+      "name": "I got my claws in you, and fangs too!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-133 reward",
+      "first_clear_or_repeat": "PQ pq-133 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-133"
+      ]
+    },
+    {
+      "id": "super-soul-217",
+      "name": "Power! A lotta power! It's great!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-134 reward",
+      "first_clear_or_repeat": "PQ pq-134 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-134"
+      ]
+    },
+    {
+      "id": "super-soul-218",
+      "name": "Pathetic",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-136 reward",
+      "first_clear_or_repeat": "PQ pq-136 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-136"
+      ]
+    },
+    {
+      "id": "super-soul-219",
+      "name": "Justice is nothing to me now.",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-136 reward",
+      "first_clear_or_repeat": "PQ pq-136 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-136"
+      ]
+    },
+    {
+      "id": "super-soul-220",
+      "name": "This is everything I've got!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-137 reward",
+      "first_clear_or_repeat": "PQ pq-137 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-137"
+      ]
+    },
+    {
+      "id": "super-soul-221",
+      "name": "That heat... I'll have to match it.",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-137 reward",
+      "first_clear_or_repeat": "PQ pq-137 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-137"
+      ]
+    },
+    {
+      "id": "super-soul-222",
+      "name": "I'm not gonna die until I defeat you!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-138 reward",
+      "first_clear_or_repeat": "PQ pq-138 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-138"
+      ]
+    },
+    {
+      "id": "super-soul-223",
+      "name": "I just flew around the whole world!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-138 reward",
+      "first_clear_or_repeat": "PQ pq-138 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-138"
+      ]
+    },
+    {
+      "id": "super-soul-224",
+      "name": "This thing carries hopes of everyone on Earth!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-140 reward",
+      "first_clear_or_repeat": "PQ pq-140 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-140"
+      ]
+    },
+    {
+      "id": "super-soul-225",
+      "name": "Now then, time for another delightful hunt!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-140 reward",
+      "first_clear_or_repeat": "PQ pq-140 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-140"
+      ]
+    },
+    {
+      "id": "super-soul-226",
+      "name": "D-Don't talk bad about my family!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-141 reward",
+      "first_clear_or_repeat": "PQ pq-141 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-141"
+      ]
+    },
+    {
+      "id": "super-soul-227",
+      "name": "This oughta make things interesting.",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-141 reward",
+      "first_clear_or_repeat": "PQ pq-141 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-141"
+      ]
+    },
+    {
+      "id": "super-soul-228",
+      "name": "I don't want them to get hurt!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-142 reward",
+      "first_clear_or_repeat": "PQ pq-142 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-142"
+      ]
+    },
+    {
+      "id": "super-soul-229",
+      "name": "This is as far as you go.",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-143 reward",
+      "first_clear_or_repeat": "PQ pq-143 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-143"
+      ]
+    },
+    {
+      "id": "super-soul-230",
+      "name": "I've cast aside everything for this!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-145 reward",
+      "first_clear_or_repeat": "PQ pq-145 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-145"
+      ]
+    },
+    {
+      "id": "super-soul-231",
+      "name": "I'll never forgive you!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-151 reward",
+      "first_clear_or_repeat": "PQ pq-151 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-151"
+      ]
+    },
+    {
+      "id": "super-soul-232",
+      "name": "I'll show you the power of a true warrior!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-152 reward",
+      "first_clear_or_repeat": "PQ pq-152 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-152"
+      ]
+    },
+    {
+      "id": "super-soul-233",
+      "name": "Don't underestimate my power!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-153 reward",
+      "first_clear_or_repeat": "PQ pq-153 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-153"
+      ]
+    },
+    {
+      "id": "super-soul-234",
+      "name": "I won't forgive you!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-153 reward",
+      "first_clear_or_repeat": "PQ pq-153 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-153"
+      ]
+    },
+    {
+      "id": "super-soul-235",
+      "name": "I'm the one who will win!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-154 reward",
+      "first_clear_or_repeat": "PQ pq-154 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-154"
+      ]
+    },
+    {
+      "id": "super-soul-236",
+      "name": "This is the ultimate hero!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-155 reward",
+      "first_clear_or_repeat": "PQ pq-155 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-155"
+      ]
+    },
+    {
+      "id": "super-soul-237",
+      "name": "Heh heh! I'm not a rusty as I look!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-158 reward",
+      "first_clear_or_repeat": "PQ pq-158 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-158"
+      ]
+    },
+    {
+      "id": "super-soul-238",
+      "name": "I'll take all of you on at once!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-178 reward",
+      "first_clear_or_repeat": "PQ pq-178 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-178"
+      ]
+    },
+    {
+      "id": "super-soul-239",
+      "name": "I am the universe's strongest!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-021 reward",
+      "first_clear_or_repeat": "PQ pq-021 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-021"
+      ]
+    },
+    {
+      "id": "super-soul-240",
+      "name": "I got back my youth and vigor!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-026 reward",
+      "first_clear_or_repeat": "PQ pq-026 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-026"
+      ]
+    },
+    {
+      "id": "super-soul-241",
+      "name": "Goku the legendary Super Saiyan!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-028 reward",
+      "first_clear_or_repeat": "PQ pq-028 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-028"
+      ]
+    },
+    {
+      "id": "super-soul-242",
+      "name": "I'll use all my strength to kill you.",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-029 reward",
+      "first_clear_or_repeat": "PQ pq-029 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-029"
+      ]
+    },
+    {
+      "id": "super-soul-243",
+      "name": "I wanted to kill you with my own hands.",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-035 reward",
+      "first_clear_or_repeat": "PQ pq-035 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-035"
+      ]
+    },
+    {
+      "id": "super-soul-244",
+      "name": "I am...Super Vegeta!!",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-036 reward",
+      "first_clear_or_repeat": "PQ pq-036 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-036"
+      ]
+    },
+    {
+      "id": "super-soul-245",
+      "name": "This fight...is truly pointless...",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-038 reward",
+      "first_clear_or_repeat": "PQ pq-038 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-038"
+      ]
+    },
+    {
+      "id": "super-soul-246",
+      "name": "I actually felt that one...",
+      "character_source": null,
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest pq-012 reward",
+      "first_clear_or_repeat": "PQ pq-012 reward",
+      "shop_rotation": null,
+      "trigger_condition": null,
+      "effect_text": null,
+      "effect_magnitude": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Mechanics, exact reward conditions, and non-PQ acquisition routes remain unresolved until separately researched.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-22",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-pq-012"
+      ]
     }
   ],
   "research_notes": [
