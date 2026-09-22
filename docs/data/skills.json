@@ -7902,7 +7902,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Kairos Cannon as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-21 provenance strengthening: independent Dragon Ball Wiki coverage corroborates Kairos Cannon as Chronoa/Supreme Kai of Time's Xenoverse 2 skill and its Conton City Tournament acquisition; the source is retained as corroboration without changing the repository's Match 2 wording.",
+      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Kairos Cannon as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-21 provenance strengthening: independent Dragon Ball Wiki coverage corroborates Kairos Cannon as Chronoa/Supreme Kai of Time's Xenoverse 2 skill and its Conton City Tournament acquisition; the source is retained as corroboration without changing the repository's Match 2 wording. 2026-09-21 provenance strengthening: Dragon Ball Wiki independently corroborates Kairos Cannon as Chronoa/Supreme Kai of Time's Xenoverse 2 Super Skill and documents the Conton City Tournament 02 (\"Thinning the Herd\") acquisition after unlocking the 3rd tournament. Existing character-only scope and mechanics/acquisition semantics are preserved; no reward probability or additional gate is inferred.",
       "id": "skill-kairos-cannon"
     },
     {
