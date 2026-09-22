@@ -1197,9 +1197,9 @@
 
 
 ## 2026-09-21 — Gigantic Explosion low-source provenance strengthening
-- Live pre-edit census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 37 exactly-two-source records**.
-- Strengthened **Gigantic Explosion (`skill-gigantic-explosion`)** from two to three provenance sources with the dedicated Xenoverse 2 skill entry, independently confirming PQ164 — **Where is Goku?!**, Broly associations, Ultimate/Ki Blast classification, 600 Ki cost, and 400 Stamina continuation mechanic.
-- The maintained PQ guide independently lists Gigantic Explosion among PQ164's **Basic Rewards**. Existing repository semantics record the specific Ultimate Finish (40%) acquisition condition; the added source was not used to overwrite or reinterpret that condition.
+- Live pre-edit census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable ki_cost / 37 exactly-two-source records**.
+- Strengthened **Gigantic Explosion (skill-gigantic-explosion)** from two to three sources with Videogaming Wiki's Xenoverse 2 entry, independently confirming its Future Saga Chapter 1 introduction, PQ **Where Is Goku?!**, Broly users, Awoken Skill mechanic, and 400 Stamina continuation behavior.
+- The maintained PQ guide independently lists Gigantic Explosion among PQ164's **Basic Rewards**. Existing repository semantics record the specific Ultimate Finish (40%) acquisition condition; neither added source was used to overwrite or reinterpret that condition.
 - Preserved the existing Future Saga Chapter 1 requirement, CaC availability, Awoken Skill requirement, PQ164 endpoint, and reward-condition semantics. No unsupported drop-rate or additional acquisition rule was inferred.
-- Refreshed canonical/index source projections and `last_verified` to **2026-09-21**.
+- Refreshed last_verified to **2026-09-21** and synchronized canonical/index records.
 - Post-write live census: **36 exactly-two-source records**.
