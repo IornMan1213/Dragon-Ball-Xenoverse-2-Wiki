@@ -906,3 +906,14 @@
 - [x] Validator commit: `93cf57755cbca321b476f5d5e4aac52b717b40c3`; audit refresh: `43f44fff1fe3477bf01f0e18acb6cfb764646b24`.
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [ ] Exact next batch: continue from the cross-domain registry into the next registered consumer after published Character/DLC navigation, prioritizing deterministic Search/landing or reverse-navigation validators with remaining silent set/dictionary collapse or endpoint-shape assumptions.
+
+### 2026-09-22 cycle update — published Search consumer contract hardening
+- [x] Audited the published Search surface: `docs/Search.md`, `docs/assets/search.js`, and `docs/search-data.html`.
+- [x] Added `scripts/validate_search_consumer.py` enforcing the Search permalink/hooks, `?q=` navigation contract, local generated search-index fetch, live input listener, and zero external fetch endpoints.
+- [x] Added `docs/data/search-consumer-audit.json` and registered it plus the validator in `docs/data/pq-cross-domain-index.json`.
+- [x] Static live-source result: required Search hooks and query/navigation contracts are present; the search-data producer uses the local `site.pages` corpus and excludes itself; Search JS contains **0 external fetch endpoints**.
+- [x] Evidence boundary: presentation wiring only; no claim of exhaustive search ranking/content materialization.
+- [ ] CI: no successful workflow/check exposed; CI success not claimed.
+- [x] Commits: validator `d0b319c5974c9a6861bff364136f6b2deaad0a0b`; audit `99474ac1c291d4c49b85cd6ce2d1c853f9d63440`; registry `c041e968d72fe23d54c778d42e73b0d40bf9b21d`; TODO `634c62bb8c90358f9026fc55b2fb6a99ca10074d`; handoff `8189b490cf28d3b149971d48fb7c74fc94c610f3`.
+- [ ] Exact next task: inspect the next registered Search/landing consumer or unvalidated cross-domain producer for deterministic one-way navigation, stale scalar/list assumptions, or canonical endpoint drift; prefer exact local consumer parity and do not infer new relationships.
+
