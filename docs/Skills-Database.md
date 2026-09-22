@@ -12,7 +12,7 @@ This page keeps core skill information **on-wiki**. Full exhaustive tables live 
 | Method | Notes |
 |--------|-------|
 | Mentor Lessons | Guaranteed skills from each instructor’s 4 training missions |
-| Parallel Quests | Many skills listed as rewards; Ultimate Finish improves results |
+| Parallel Quests | Many skills listed as rewards; reward trigger/Ultimate Finish status must be separately evidenced |
 | TP Medal Shop | Rotating stock of skills and Super Souls |
 | Shenron Wishes | Specific Super / Ultimate attacks via dedicated wishes |
 | Crystal Raids / Double Crystal Raids | Broad skill pool |
