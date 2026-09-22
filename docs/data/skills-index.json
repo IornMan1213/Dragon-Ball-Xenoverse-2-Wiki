@@ -6306,13 +6306,14 @@
       "acquisition_type": "parallel_quest",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Meteor_Crash",
-        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
       ],
       "unlock_method": "Parallel Quest 12 reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
-      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint.",
+      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint. 2026-09-21 provenance strengthening: Steam's DBX2 Parallel Quest Item / Skill Rewards guide independently lists Meteor Crash under PQ12, corroborating the existing PQ12 acquisition endpoint. Yhan Game likewise identifies Meteor Crash as a PQ12 Basic Reward; no Ultimate Finish-only gate or numeric drop rate is inferred.",
       "mechanics_notes": "Canonical identity, class, category, and acquisition source verified from dedicated skill evidence. Unsupported mechanics are intentionally deferred.",
       "source_quest": 12,
       "source_quest_or_shop": "Parallel Quest 12"
