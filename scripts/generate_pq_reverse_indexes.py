@@ -110,7 +110,8 @@ def main() -> int:
         expected = expected_payload(source, scope, source_name)
         output_path = data_dir / output_name
         actual = load(output_path) if output_path.exists() else None
-        same = actual == expected
+        actual_index = (actual or {}).get("indexes", {})
+        same = actual is not None and actual_index == expected["indexes"]
         results.append({
             "range": scope,
             "pq_count": hi - lo + 1,
@@ -118,7 +119,12 @@ def main() -> int:
             "matches_expected": same,
         })
         if args.write:
-            output_path.write_text(canonical_json(expected), encoding="utf-8")
+            if actual is None:
+                output_path.write_text(canonical_json(expected), encoding="utf-8")
+            else:
+                updated = dict(actual)
+                updated["indexes"] = expected["indexes"]
+                output_path.write_text(canonical_json(updated), encoding="utf-8")
         elif not same:
             failures.append(scope)
 
