@@ -26,7 +26,12 @@
     "accessory_records_marked_cosmetic": 5,
     "upper_body_only_records": 1,
     "no_hands_records": 1,
-    "duplicate_ids": 0
+    "duplicate_ids": 0,
+    "equipment_forward_edges": 125,
+    "equipment_unique_targets": 123,
+    "batch_relationship_edges": 10,
+    "unresolved_relationship_endpoints": 0,
+    "broken_relationship_endpoints": 0
   },
   "verified_details": {
     "equip-041": "accessory; Kakunsa wig and mask",
@@ -49,5 +54,6 @@
     "https://ultradragonball.fandom.com/wiki/Gine",
     "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-new-dlc-character-and-7-day-consecutive-world-tournament"
   ],
-  "canonical_relationships_changed": false
+  "canonical_relationships_changed": false,
+  "relationship_parity": "All 10 batch names remain present as source_backed pq_rewards_equipment edges in docs/data/pq-reward-relationships.json; no canonical relationship edits were necessary."
 }
