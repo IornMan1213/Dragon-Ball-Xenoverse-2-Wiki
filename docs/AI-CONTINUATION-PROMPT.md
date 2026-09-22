@@ -794,3 +794,14 @@
 - Validation: live files re-read after write; canonical counts remain 860 and no relationship arrays were changed. No CI/build success is claimed.
 - Commits: `df4bbf8452d84f6b87fc2de77fcac98a8e1e4ebc`, `05a1196ff978809391d31a2549c0fe8a6f93b30b`.
 - Exact next batch: inspect the actual generated PQ catalog/page implementation and its templates/index data for displayed reward/character/DLC links, then add one deterministic consumer validator or repair only confirmed stale/orphan references. Do not infer relationships from page text.
+
+
+### 2026-09-22 cycle update — canonical PQ page consumer repair
+- Inspected the actual live PQ explorer at `docs/Parallel-Quests-All.html` and found it was still consuming an external GitHub PQ corpus directly, despite the canonical local PQ record layer being authoritative.
+- Repaired the explorer to load `docs/data/parallel-quests-record-layer.json` locally, preserve verification state, objectives, Ultimate Finish, rewards, DLC/unlock metadata, and expose skill/Super Soul/equipment cross-navigation through the local wiki Search surface.
+- Updated `docs/assets/search.js` to accept `?q=` query parameters so cross-domain links can open the published Search page with a deterministic initial query.
+- Added `scripts/validate_pq_page_consumers.py` and registered it in `docs/data/pq-cross-domain-index.json`.
+- Deterministic contract checks: local canonical layer referenced; external PQ API/download consumption removed; query cross-links present; Search query-parameter support present; PQ IDs/numbers unique in the canonical layer; skill reward cross-navigation present.
+- Canonical relationship data was not changed. This batch repairs the presentation consumer so it cannot silently substitute an external corpus for the repository's source of truth.
+- Commits: `a92e8450c85556aa97b50c3e6fe475025ef7d384`, `741795a257a7b4968553e124cc74860b0d1ae2c9`, `c41855426280690601a8c3d16d44124fe5e1901a`, `63546a7294b29732a6939c414c960d8a22430071`.
+- Exact next batch: inspect the remaining published PQ/skill/character/DLC index consumers for direct external-corpus dependencies or stale display-only navigation, then add/repair deterministic local consumers without altering canonical relationships.
