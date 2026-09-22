@@ -127,3 +127,17 @@
 - Commits: pending until all writes complete.
 - Live census after editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 9 exactly-two-source records**.
 - Exact next batch: **Taunt** (`skill-taunt`); recompute the census first, inspect canonical/index records, and independently verify acquisition/source semantics before provenance strengthening.
+
+
+### 2026-09-21 cycle update — Taunt provenance strengthening
+- Active workstream: P1 skill acquisition/DLC-version provenance cleanup.
+- Bounded batch: **Taunt (`skill-taunt`)**.
+- Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 9 exactly-two-source canonical records**.
+- Research/evidence: an independent GameFAQs Q&A states that Taunt is obtained from **PQ45 — Take Back the Dragon Balls!**. The maintained Steam all-PQ guide and XV2 Fandom Taunt entry remain retained as existing sources.
+- Changes: canonical/index sources gained the GameFAQs Q&A source; `last_verified` refreshed to **2026-09-21**; provenance note synchronized.
+- Evidence limits preserved: the independent answer corroborates the PQ45 endpoint but does not establish a drop probability; existing Basic Reward and no-Ultimate-Finish-only semantics remain unchanged.
+- Validation: JSON parse succeeded; **452/452**, **0 duplicates**, **0 nullable canonical `ki_cost`**; exactly-two-source census reduced to **8**; canonical/index Taunt source parity clean; no internal AI/UI/search citation artifacts introduced in changed records.
+- CI/Actions: not yet verified for the new direct-commit chain; do not claim CI success.
+- Commits: canonical **8d168e73385c21b9d396e30850011724a553ccbe**; index **c1d99eea5036865abd0e7e6279668dcfc101501a**.
+- Live census after editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 8 exactly-two-source records**.
+- Exact next batch: **recompute the live two-source census and continue the next deterministic low-source record after Taunt**, inspecting its canonical/index records and independently verifying acquisition/source semantics before provenance strengthening.
