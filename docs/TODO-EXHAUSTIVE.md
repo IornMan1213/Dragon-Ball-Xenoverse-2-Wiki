@@ -1771,3 +1771,11 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Synchronized canonical/index source projections and refreshed `last_verified` to 2026-09-21.
 - [x] Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 31 exactly-two-source records**.
 - [ ] Next task: recompute the live two-source census and continue with **Instant Charge (`skill-instant-charge`)**, focusing on its character-exclusive/Mira boundary.
+
+
+### 2026-09-21 — Instant Charge provenance strengthening
+- [x] Recomputed the live census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 31 exactly-two-source records**.
+- [x] Added an independent Dragon Ball Wiki Mira reference confirming Instant Charge as a Final Form Mira technique; preserved character-only/no-CaC-acquisition semantics.
+- [x] Synchronized canonical/index records and refreshed `last_verified`.
+- [x] Validation: **452 / 452 / 0 / 0 / 30 exactly-two-source records**.
+- [ ] Next task: **Instant Transmission (`skill-instant-transmission`)**, verify Goku mentor Lesson 1 acquisition independently.
