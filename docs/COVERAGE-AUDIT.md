@@ -1430,3 +1430,12 @@
 - The accessory report is intentionally a dedicated 28-edge accessory projection of the broader 125-edge equipment domain; no false one-to-one count equality was introduced.
 - No canonical relationship records required modification. This cycle added synchronized machine-readable producer metadata so future cycles can detect drift deterministically.
 - Exact next batch: **audit the remaining generated/reconciliation artifacts outside the four primary cross-link reports for stale current-state counts or mismatched scopes**, then repair only deterministic drift.
+
+## 2026-09-22 — PQ81-162 standalone reverse-index coverage
+
+- Closed the standalone reverse-index artifact gap for PQ143-162 by generating a deterministic projection from the normalized reward map.
+- Confirmed standalone reverse-index coverage for PQ81-120 and PQ121-142.
+- Current projection census: PQ81-120 108 indexed identities / 109 references; PQ121-142 88 / 88; PQ143-162 151 / 151.
+- PQ143-162 contains 40 skill identities, 26 Super Soul identities, 11 clothing identities, 10 accessory identities, and 64 artwork identifiers.
+- This is projection-layer repair only. Canonical PQ/reward relationships remain authoritative and unchanged.
+- Next audit step: exact pair comparison between the three standalone indexes and the unified reverse index.
