@@ -1088,13 +1088,14 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Burst_Kamehameha",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://www.youtube.com/watch?v=Zq94mw1-sDo"
       ],
       "unlock_method": "Parallel Quest 72 — \"First Training\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: the maintained PQ72 reward listing explicitly includes Burst Kamehameha as a Basic Reward; dedicated skill documentation confirms PQ72.",
+      "notes": "2026-09-20 audit: the maintained PQ72 reward listing explicitly includes Burst Kamehameha as a Basic Reward; dedicated skill documentation confirms PQ72. 2026-09-22 provenance refresh: independent Dragon Ball Wiki and maintained PQ72 evidence reconfirm the PQ72 acquisition and Basic Reward presentation; no unsupported reward probability or gate was added.",
       "mechanics_notes": "Dedicated current-version evidence confirms Burst Kamehameha as a 100–200 Ki Ki Blast Super from PQ72. A second input spends additional Ki to prolong the beam and increase damage; no unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "source_quest": 72,
       "source_quest_or_shop": "Parallel Quest 72 — \"First Training\"",
