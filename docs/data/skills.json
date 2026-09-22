@@ -9008,15 +9008,16 @@
       "mechanics_notes": "Confirmed as Dabura's 100-Ki Other Super from PQ114 and usable by all CaC races. The spit petrifies an opponent on contact; the effect ends if the target is struck. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
+        "https://dragonball.fandom.com/wiki/Stone_Spit"
       ],
       "race_restriction": "All CaC races",
       "source_quest": 114,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 114. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1.",
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 114. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1. 2026-09-22 provenance strengthening: Dragon Ball Wiki's Stone Spit entry independently confirms that Xenoverse 2 names the technique Petrifying Spit and makes it a Future Warrior reward from Parallel Quest 114; it also identifies the technique as one of Dabura's Super Skills. No new drop probability, Ultimate Finish gate, or prerequisite is inferred.",
       "id": "skill-petrifying-spit",
       "source_parallel_quests": [
         114
