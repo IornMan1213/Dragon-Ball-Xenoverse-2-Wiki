@@ -1372,3 +1372,15 @@
 - [x] Validator commit: `1bb36e8d85aa0a83487e98b502b7da5a8a6a38e0`; audit refresh: `fcc6c3746e5eea8b0c5116da5fd103797cf328ba`.
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [ ] Exact next batch: continue into the remaining published character/navigation consumer chain (especially published Character/DLC links and Partner Customization page validation), looking for the same class of hidden representation, duplicate, and one-way-link assumptions before broad content research.
+
+
+### 2026-09-22 cycle update — Partner Customization navigation join hardening
+- [x] Continued the published character/navigation chain into `scripts/validate_partner_customization_character_navigation.py`.
+- [x] Repaired a deterministic hidden assumption: key/reconciliation identity parity was previously checked with a sorted positional `zip()`. The validator now joins records by their explicit numeric key and requires the two key sets to equal exactly `1..20`, preventing missing/duplicate rows from being masked by positional pairing.
+- [x] Added explicit bridge-ID uniqueness and string-shape validation plus integer-shape validation for key and reconciliation numbers.
+- [x] Live repository census: **20 key records / 20 reconciliation records / 29 bridge records / 149 canonical character names / 20 page search links**; all exact key sets, identity joins, bridge resolutions, and search links remain clean.
+- [x] Refreshed `docs/data/characters/partner-customization-character-navigation-audit.json` to schema **1.1.0**.
+- [x] No partner identity, DLC ownership claim, raid history, or gameplay fact was changed; existing partially-verified evidence boundaries remain intact.
+- [x] Validator commit: `def0a7538030c738947d3307bf853ee5bd1fb6f0`; audit refresh: `3a622709aab48c4f5ef58ed5fc101b36e6e5c64d`.
+- [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
+- [ ] Exact next batch: audit `scripts/validate_published_character_dlc_navigation.py` for the same silent duplicate/type/representation assumptions, then refresh its published Character/DLC navigation audit if the live contract is clean.
