@@ -1651,3 +1651,12 @@
 - [x] Cross-domain mentor linkage already exists through `source_mentor: [mentor-cell]` in the canonical layer.
 - [ ] Runtime/CI remains unavailable; validation is static JSON parsing, census, canonical/index parity, and source comparison.
 - [ ] Exact next batch: continue the P1 skill provenance census with the next unfinished skill after `skill-all-clear`, preserving source conflicts and avoiding duplicate work.
+
+
+### 2026-09-22 cycle update — Afterimage starting-skill provenance verification
+- [x] Live census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical ki_cost**; bounded record: `skill-afterimage`.
+- [x] Independent evidence: the dedicated Xenoverse 2 Afterimage reference identifies it as the starting move for the **Mixed** fighting-style choice. citeturn0search0 The CaC documentation independently states that the initial fighting-style choice determines starting skills and identifies Afterimage with Mixed. citeturn0search5
+- [x] Repository acquisition endpoint remains correct: `Starting move / initial "Mixed" choice`. No PQ/drop/Ultimate-Finish route was inferred.
+- [x] Canonical/index provenance notes and `last_verified` refreshed; no identity, classification, cost, or cross-domain correction required.
+- [ ] Runtime/CI remains unavailable; validation is static JSON parsing, census, canonical/index parity, and source comparison.
+- [ ] Exact next batch: continue the P1 skill provenance census with **Afterimage Strike (`skill-afterimage-strike`)**, then proceed sequentially.
