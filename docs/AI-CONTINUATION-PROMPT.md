@@ -380,3 +380,18 @@
 - Canonical source-of-truth rule: canonical data determines identity and field values; verification status and research evidence are supporting metadata only.
 - CI limitation: no successful GitHub Actions run is exposed for this direct-commit chain; no CI success is claimed.
 - Exact next task: reconcile the next **8–20** unresolved accessory research leads against independent inventory-level evidence, then synchronize canonical data, bridge, report, backlog, validation/audit, TODO, CHANGELOG, and handoff together.
+
+
+## 2026-09-22 cycle update — six accessory identity normalizations
+- Active workstream: P2 equipment/accessory canonical identity and PQ cross-link integrity.
+- Bounded batch: **6** exact accessory identities already represented by legacy canonical equipment records: Bulma (Kid) Wig, Red Ribbon Army Helmet, Gohan (Beast) Wig, Yamcha's Baseball Hat, SSGSS Vegeta Wig, SS4 Wig & Tail (Goku).
+- Canonical IDs assigned: **acc-059 through acc-064**. Legacy IDs equip-057, equip-066, equip-069, equip-120, equip-123, and equip-133 were normalized rather than duplicated.
+- Pre-edit census: **172 total canonical equipment/accessory records / 58 accessory IDs / 16 accessory forward edges / 29 unresolved research identities**.
+- Post-edit census: **172 total / 64 accessory IDs / 22 forward / 22 reverse / 23 unresolved**.
+- Evidence: maintained Steam PQ reward guide; maintained/current equipment catalog; independent PQ149 evidence; current PQ160/PQ162 reward evidence. Android 13's Hat was explicitly not promoted because external TP Medal Shop evidence does not establish a current canonical inventory endpoint in this repository.
+- Fields intentionally unresolved: exact reward-slot/probability semantics except where independently established; no speculative alias-to-item merges.
+- Validation: **0 duplicate canonical IDs, 0 duplicate accessory names, 0 invalid accessory endpoints, 0 broken accessory endpoints**; equipment relationship layer remains **123 forward / 121 reverse / 0 broken**.
+- Canonical data remains the source of truth; verification status and research layers remain supporting evidence only.
+- CI: no successful workflow run exposed for the direct-commit chain; no CI success claimed.
+- Commits: canonical c85d47b0340c6f7d220e437865fb6271c7979ce6; bridge d5b5ca87322e566eb1c1ec4c9626e1cecae3c8b6; accessory report 136263752007eb79ae3b12ba3098a1446b8e6434; equipment report b629a213d7d4aa7c4682ee3946fd7bb5037b6009; backlog 824eadd5c9438dc207bc95a3a665f2a2768b5308; audit b6718fc768aa13b2c4d371720f8370a365da93f7; reader docs 3da972ea3603660521570df0131ef93f8c2a265c; TODO 8b9931003eab6bc6340f25cb97d05a4fdb137de5.
+- Exact next batch: **8–20 remaining accessory research identities**, prioritizing PQ152–156 and PQ159–168 where exact inventory names/components can be independently reconciled.
