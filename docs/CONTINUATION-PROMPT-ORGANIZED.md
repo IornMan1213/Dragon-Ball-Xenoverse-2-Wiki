@@ -1575,3 +1575,16 @@
 - [ ] Runtime/CI execution remains unavailable; no CI success claimed.
 - [x] Commits: `a395810b237e05dc93166451730a5173151dfeaf`, `154e9a0a31a3ae47ec5c373a7636ecbd0dfecd4f`, `6bc2ccbe37d76ff57b4210ff1933e7ecd1d74950`, `6935ed40e55adaeafccfea5fc67ca505eee1943e`.
 - [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Gigantic Breaker, Gigantic Burst, Gigantic Charge, Gigantic Cluster, Gigantic Cross, Gigantic Explosion, Gigantic Meteor, Gigantic Nova, Gigantic Omega, and Gigantic Rage**, then adjacent stale records where evidence remains bounded.
+
+
+### 2026-09-22 cycle update — Gigantic Breaker through Gigantic Rage provenance batch
+- [x] Fresh live census before editing: **452 canonical / 452 index / 0 duplicate canonical IDs / 238 stale**.
+- [x] Completed bounded P1 provenance refresh for **Gigantic Breaker, Gigantic Burst, Gigantic Charge, Gigantic Cluster, Gigantic Cross, Gigantic Explosion, Gigantic Meteor, Gigantic Nova, Gigantic Omega, and Gigantic Rage**.
+- [x] Refreshed canonical/index `last_verified` to **2026-09-22** and synchronized all ten projections.
+- [x] Added/registered `docs/data/skill-gigantic-breaker-through-gigantic-rage-provenance-audit-2026-09-22.json`.
+- [x] Preserved/strengthened evidence boundaries: PQ126/127/128/130 Basic Reward semantics remain non-UF; PQ163 Gigantic Cluster's explicit 40% Ultimate Finish evidence remains alongside the conflicting reward-array presentation; PQ164 Gigantic Explosion remains Ultimate Finish; Chapter 3 Gigantic Cross/Nova patrol endpoints remain without invented PQ/drop gates; Broly mentor routes remain bounded.
+- [x] Preserved deterministic mechanics classification for **Gigantic Charge** as a **200-Ki Strike Super with 300 Stamina cost**, rather than reverting to the older Ki Blast classification.
+- [x] Static validation: **452/452 canonical/index**, **0 duplicate IDs**, **10/10 selected records verified**, **0 selected canonical/index mismatches**, **228 stale canonical records remain**.
+- [ ] Runtime/CI remains unavailable; no CI success claimed.
+- [x] Commits: `583f3646e37efb7121bfa0b618d3bfdf85495581`, `7352ce432a3a3f455af19fdac5d9a41eaabd0b31`, `5778138fb0c497cb2c9aa526b3b22db8b2e8694a`, `d9c36b615e195f205819f67ae35b185241bea5e0`.
+- [ ] Exact next batch: **Gigantic Roar, God Breaker, God of Destruction's Anger, God of Destruction's Menace, God of Destruction's Might, God of Destruction's Plaything, God of Destruction's Poise, God of Destruction's Rampage, God of Destruction's Roar, God of Destruction's Wrath**; recompute the stale census first.
