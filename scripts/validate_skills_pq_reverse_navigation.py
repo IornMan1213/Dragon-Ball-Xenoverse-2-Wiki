@@ -8,15 +8,20 @@ def main():
     skills=json.loads((DATA/"skills.json").read_text(encoding="utf-8"))["records"]
     rel=json.loads((DATA/"pq-reward-relationships.json").read_text(encoding="utf-8"))["verified_relationships"]
     canonical={}
+    canonical_pairs=set()
     for e in rel:
         if e.get("relationship")=="pq_rewards_skill":
             pq=int(str(e["pq"]).replace("pq-",""))
             canonical.setdefault(e["target"],set()).add(pq)
             canonical_pairs.add((e["target"],pq))
     mismatches=[]
-    canonical_pairs=set()
     actual_pairs=set()
     duplicate_pairs=[]
+    canonical_pair_list=[]
+    for e in rel:
+        if e.get("relationship")=="pq_rewards_skill" and e.get("target") and e.get("pq"):
+            canonical_pair_list.append((e["target"], int(str(e["pq"]).replace("pq-",""))))
+    duplicate_pairs = sorted(set(p for p in canonical_pair_list if canonical_pair_list.count(p) > 1))
     for r in skills:
         actual=set(map(int,r.get("source_parallel_quests",[])))
         expected=canonical.get(r["name"],set())
@@ -36,6 +41,7 @@ def main():
       "exact_forward_reverse_pair_parity": not missing_pairs and not extra_pairs,
       "canonical_targets_resolve": not unresolved_targets,
       "duplicate_reverse_pairs_absent": not duplicate_pairs,
+      "canonical_relationship_pairs_unique": not duplicate_pairs,
     }
     out={"schema_version":"1.0.0","scope":"Skills-All canonical PQ reverse navigation",
          "consumer":"docs/Skills-All.html","canonical_source":"docs/data/pq-reward-relationships.json",
