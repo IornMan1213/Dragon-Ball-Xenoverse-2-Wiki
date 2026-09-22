@@ -2039,3 +2039,13 @@
 - [ ] Runtime/CI remains unavailable; no executable CI success claimed.
 - [x] Commits: canonical `7168f8391783a3bf42c2f8530ea96a0551e8eefa`; index `fdd951c143a99e99e237d38c14c70d4d91a53dce`.
 - [ ] Exact next batch: continue the stale-`last_verified` P1 skill provenance queue with **Arm Crash (`skill-arm-crash`)**, then proceed sequentially while preserving evidence conflicts.
+
+
+### 2026-09-22 cycle update — Beast provenance verification
+- [x] Fresh live skill census: 452 canonical / 452 index / 0 duplicate IDs; bounded record: skill-beast.
+- [x] Independently verified the existing Beast acquisition semantics: max friendship with Gohan (Adult) & Videl and Piccolo, then Piccolo's special training / Cell Max unlock mission. Dedicated Beast documentation, independent GameFAQs discussion, and official Bandai Namco DLC context were used with evidence boundaries preserved.
+- [x] Refreshed docs/data/skills.json and docs/data/skills-index.json: last_verified -> 2026-09-22 and provenance source/note synchronized.
+- [x] Added docs/data/skill-beast-provenance-audit-2026-09-22.json; registered it in docs/data/pq-cross-domain-index.json.
+- [x] Validation: 452 canonical / 452 index / 0 duplicate IDs; affected canonical/index records remain semantically aligned. No PQ relationship or skill identity changed.
+- [ ] Runtime/CI remains unavailable; no CI success claimed.
+- [ ] Exact next batch: continue the stale-last_verified P1 skill provenance queue with the next unfinished skill after Beast, recomputing the live canonical/index census first.
