@@ -12,6 +12,7 @@ from pathlib import Path
 
 DOMAINS = ("skills", "super_souls", "clothing", "accessories")
 ARTWORKS = "artworks"
+CANONICAL_RELATIONSHIP_TYPES = {"pq_rewards_skill": "skills", "pq_rewards_super_soul": "super_souls", "pq_rewards_equipment": "equipment", "pq_features_character": "characters", "pq_requires_dlc": "dlc", "pq_farming_route": "farming"}
 
 RANGES = (
     ("081-120", 81, 120, "pq-081-120-reward-map.json", "pq-reverse-index-081-120.json"),
@@ -90,6 +91,14 @@ def main() -> int:
     unified = load(data_dir / "pq-unified-reverse-index-1-186.json")
     unified_index = projection_index(unified)
 
+    canonical = load(root / "docs" / "data" / "pq-reward-relationships.json")
+    canonical_pairs = {domain: set() for domain in CANONICAL_RELATIONSHIP_TYPES.values()}
+    for relationship in canonical.get("verified_relationships", []):
+        domain = CANONICAL_RELATIONSHIP_TYPES.get(relationship.get("relationship"))
+        if domain:
+            pq = int(str(relationship["pq"]).replace("pq-", ""))
+            canonical_pairs[domain].add((domain, str(relationship["target"]), pq))
+
     failures = []
     report = []
 
@@ -109,8 +118,25 @@ def main() -> int:
             for pq in pqs
             if lo <= pq <= hi
         }
-        unified_missing = sorted(source_pairs - unified_pairs)
-        unified_extra = sorted(unified_pairs - source_pairs)
+        canonical_range_pairs = {
+            pair
+            for domain_pairs in canonical_pairs.values()
+            for pair in domain_pairs
+            if lo <= pair[2] <= hi
+        }
+        unified_equipment_pairs = {
+            ("equipment", name, pq)
+            for subtype in ("clothing", "accessories")
+            for name, pqs in unified_index.get(subtype, {}).items()
+            for pq in pqs
+            if lo <= pq <= hi
+        }
+        unified_canonical_pairs = {
+            pair for pair in unified_pairs
+            if pair[0] in {"skills", "super_souls", "characters", "dlc", "farming"}
+        } | unified_equipment_pairs
+        unified_missing = sorted(canonical_range_pairs - unified_canonical_pairs)
+        unified_extra = sorted(unified_canonical_pairs - canonical_range_pairs)
 
         row = {
             "range": label,
@@ -118,8 +144,8 @@ def main() -> int:
             "reverse_pairs": len(reverse_pairs),
             "missing_from_reverse": len(missing),
             "extra_in_reverse": len(extra),
-            "missing_from_unified": len(unified_missing),
-            "extra_in_unified": len(unified_extra),
+            "missing_from_unified_canonical": len(unified_missing),
+            "extra_in_unified_canonical": len(unified_extra),
         }
         report.append(row)
 
@@ -136,9 +162,9 @@ def main() -> int:
             if extra:
                 print("extra in standalone:", extra)
             if unified_missing:
-                print("missing from unified:", unified_missing)
+                print("missing from unified canonical projection:", unified_missing)
             if unified_extra:
-                print("extra in unified:", unified_extra)
+                print("extra in unified canonical projection:", unified_extra)
         return 1
     return 0
 
