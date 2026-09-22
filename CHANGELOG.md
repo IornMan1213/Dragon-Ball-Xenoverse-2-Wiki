@@ -1337,3 +1337,10 @@
 - CI success is not claimed unless GitHub exposes an actual workflow run/check.
 - Exact next batch: **Meteor Crash (`skill-meteor-crash`)**; recompute the live two-source census first, then independently verify its PQ12 / Basic Reward acquisition before provenance-only strengthening.
 
+## 2026-09-21 — Meteor Crash low-source provenance strengthening
+- Recomputed the live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 22 exactly-two-source canonical records**.
+- Strengthened **Meteor Crash (`skill-meteor-crash`)** from two to three provenance sources.
+- Evidence: the maintained Steam **DBX2 Parallel Quest Item / Skill Rewards** guide lists Meteor Crash under **PQ12**; Yhan Game independently lists it as a **PQ12 Basic Reward**. No numeric drop probability or Ultimate Finish-only requirement was inferred. Sources: https://steamcommunity.com/sharedfiles/filedetails/?id=796204215 and https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html
+- Updated canonical/index records and refreshed `last_verified` to **2026-09-21** without changing mechanics or acquisition semantics.
+- Exact next batch: **Perfect Shot (`skill-perfect-shot`)**; recompute the live two-source census first and independently verify the Cell (Perfect) Lesson 2 acquisition endpoint before provenance-only strengthening.
+
