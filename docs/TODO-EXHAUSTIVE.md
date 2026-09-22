@@ -2031,3 +2031,11 @@
 - Rechecked mentor/PQ acquisition evidence and preserved existing acquisition semantics where no direct contradiction was established.
 - Validation target: six records set to 2026-09-22; canonical/index parity and audit registration to be verified before merge. CI success is not claimed.
 - Next target: recompute live stale census and continue with the next stale records beginning Data Input / Dead End Rain / Deadly Dance, batching adjacent skills where evidence remains bounded.
+\n### 2026-09-22 cycle update — Data Input through Death Slicer provenance batch
+- [x] Refresh stale P1 provenance for Data Input, Dead End Rain, Deadly Dance, Death Ball, Death Beam, Death Crasher, Death Psycho Bomb, Death Slash, and Death Slicer.
+- [x] Synchronize canonical `docs/data/skills.json` and presentation `docs/data/skills-index.json`; all 9 target records now use `last_verified: 2026-09-22`.
+- [x] Correct Death Slash's canonical classification from Strike to Ki Blast where current dedicated evidence deterministically resolves the mismatch.
+- [x] Add/register dedicated provenance audits where the repository write path permitted them; preserve unresolved audit-file coverage rather than fabricating records.
+- [x] Static validation: **452 canonical / 452 index / 0 duplicate IDs / 351 stale remaining** after this batch.
+- [ ] CI/runtime execution remains unavailable; do not claim CI success.
+- [ ] Next exact batch: **Demon Flash Strike** and adjacent stale P1 skill records, continuing alphabetically and preserving evidence conflicts.\n
