@@ -159,3 +159,14 @@
 - Validation target after this batch: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 7 exactly-two-source records**, with canonical/index source parity.
 - CI/Actions: must be checked against the resulting head before claiming success.
 - Exact next batch: **recompute the live two-source census and continue the next deterministic low-source record after Temporal Holy Ray**.
+
+
+### 2026-09-21 cycle update — Thunder Flash provenance strengthening
+- Active workstream: P1 skill acquisition/DLC-version provenance cleanup.
+- Bounded batch: **Thunder Flash (`skill-thunder-flash`)**, the next deterministic exactly-two-source record after Temporal Holy Ray.
+- Evidence: the dedicated Thunder Flash reference and Dragon Ball technique reference identify the skill and PQ146 route; an independent Steam PQ146 record explicitly lists **Thunder Flash** in the quest's **Basic Reward** pool. Existing Legendary Pack 1 provenance remains retained.
+- Changes: canonical/index sources gained the Steam PQ146 source; `last_verified` refreshed to **2026-09-21**; provenance note synchronized.
+- Evidence limits preserved: no drop probability was inferred.
+- Validation target after this batch: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 6 exactly-two-source records**, with canonical/index source parity.
+- CI/Actions: must be checked against the resulting head before claiming success.
+- Exact next batch: **recompute the live two-source census and continue the next deterministic low-source record after Thunder Flash**.
