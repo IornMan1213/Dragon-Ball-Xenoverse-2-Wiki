@@ -894,7 +894,7 @@
 - [x] Expanded `scripts/validate_pq_explorer_reward_navigation.py` and `docs/data/pq-explorer-reward-navigation-audit.json` to validate DLC target resolution and canonical relationship consumption.
 - [x] Direct PQ-page template inspection found **no individual PQ HTML/Markdown page template** in the repository; the maintained presentation consumer is `docs/Parallel-Quests-All.html` plus the general `docs/Parallel-Quests.md` reference page. No unsupported per-PQ route was invented.
 - [x] Evidence boundary preserved: the canonical DLC relationship layer determines PQ→DLC identity; the legacy `Super Pass` field remains historical/presentation metadata and is not promoted to a specific pack identity.
-- [ ] Exact next batch: audit the general PQ reference/index pages (`docs/Parallel-Quests.md`, `docs/Parallel-Quest-Audit.md`, and related PQ-facing docs) for stale reward/navigation claims and reconcile them against the canonical 186-record PQ layer without rewriting unsupported mechanics or acquisition semantics.
+- [x] Exact next batch: audit the general PQ reference/index pages (`docs/Parallel-Quests.md`, `docs/Parallel-Quest-Audit.md`, and related PQ-facing docs) for stale reward/navigation claims and reconcile them against the canonical 186-record PQ layer without rewriting unsupported mechanics or acquisition semantics.
 
 
 ### 2026-09-22 cycle update — PQ reference/index consumer reconciliation
@@ -1027,3 +1027,14 @@
 - [x] Validation was performed by re-fetching the live files from `main`; no CI success claimed.
 - [x] Commits: 6a2501a5d42ebe33260bd7c37b488e50ca3ba476, e051b774b9fa4cb55d5b0b7f46750ec06c39b0f2, 0448d9f49c0b413c9966417629a27e01b867a7ea.
 - [ ] Next batch: continue acquisition-metadata reconciliation beyond `source_parallel_quests`, checking whether `source_quest`, `source_quest_or_shop`, and `unlock_method` agree with canonical PQ associations without promoting research-layer reward-trigger assumptions into canonical facts.
+
+
+### 2026-09-22 cycle update — general PQ reference/index consumer repair
+- [x] Audited `docs/Parallel-Quests.md` and `docs/Parallel-Quest-Audit.md` against the canonical 186-record PQ layer and current 860-edge relationship layer.
+- [x] Found one deterministic presentation drift: `docs/Parallel-Quests.md` listed **PQ13** in an “additional Dragon Ball-related routes” shorthand even though the canonical farming relationship set is exactly **PQ15, PQ22, PQ44, PQ45, PQ68, PQ83, PQ88**.
+- [x] Replaced the stale shorthand with the complete seven-PQ canonical farming set; no farming relationship was added or removed.
+- [x] Added `scripts/validate_pq_reference_pages.py` and `docs/data/pq-reference-page-audit.json` to validate deterministic count/set claims against the canonical local layers.
+- [x] Validation contract: 186 PQ records, 860 relationship edges, farming set exactly 15/22/44/45/68/83/88, and no stale PQ13 farming claim.
+- [x] Registered the validator/audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Evidence boundary preserved: this repair covers deterministic reference/index claims only; it does not infer reward mechanics or route-efficiency rankings.
+- [ ] Exact next batch: continue the broader PQ-facing consumer audit across remaining catalog/index pages, prioritizing stale reward/acquisition summaries and one-way navigation that can be repaired deterministically from canonical local data.
