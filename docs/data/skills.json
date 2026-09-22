@@ -2632,14 +2632,14 @@
       "unlock_method": "Parallel Quest 160 — Ultimate Finish bonus slot (45%).",
       "source_quest_or_shop": "Parallel Quest 160 — \"Pan in Peril\"",
       "ultimate_finish_required": true,
-      "mechanics_notes": "Current dataset evidence identifies Demon Flash Strike as a 100-Ki Strike Super from PQ160 and a melee counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. 2026-09-20 reward-tier refinement: maintained PQ data documents this as the Ultimate Finish bonus slot (45%) route; the recorded condition is preserved without inference beyond the maintained corpus.",
-      "last_verified": "2026-09-20",
+      "mechanics_notes": "Current dedicated evidence confirms a 100-Ki Strike Super/counter from PQ160. The user poses briefly to counter melee attacks; a successful counter delivers a kick, while additional input teleports to the opponent for a punch followed by a blue Ki Blast. Version-history notes retain the 1.21.00 counter vulnerability behavior rather than assuming it is timeless.",
+      "last_verified": "2026-09-22",
       "source_quest": 160,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Hero of Justice Pack 2",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 evidence refinement: current PQ160 reward data places Demon Flash Strike in the Ultimate Finish bonus slots; dedicated skill documentation confirms PQ160. 2026-09-20 provenance census: normalized source field to Parallel Quest 160 — \"Pan in Peril\", matching the maintained PQ research record.",
+      "notes": "2026-09-20 evidence refinement: current PQ160 reward data places Demon Flash Strike in the Ultimate Finish bonus slots; dedicated skill documentation confirms PQ160. 2026-09-20 provenance census: normalized source field to Parallel Quest 160 — \"Pan in Peril\", matching the maintained PQ research record. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates.",
       "method": "Parallel Quest 160 — \"Pan in Peril\" Ultimate Finish",
       "id": "skill-demon-flash-strike",
       "source_parallel_quests": [
@@ -2660,10 +2660,10 @@
       "source_quest_or_shop": "Parallel Quest 160 — \"Pan in Peril\"",
       "ultimate_finish_required": true,
       "skill_description": "Demon Flurry is a Super Strike skill used by Gohan (Beast).",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
+      "mechanics_notes": "Current dedicated evidence confirms a 100-Ki Strike Super from PQ160. Additional timed inputs extend the attack to up to six hits; correctly timed inputs increase damage and the character's glow indicates timing.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demon_Flurry",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2672,7 +2672,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 160,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ160 and describes Demon Flurry as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate. 2026-09-20 provenance census: normalized source field to Parallel Quest 160 — \"Pan in Peril\", matching the maintained PQ research record.",
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ160 and describes Demon Flurry as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate. 2026-09-20 provenance census: normalized source field to Parallel Quest 160 — \"Pan in Peril\", matching the maintained PQ research record. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates.",
       "id": "skill-demon-flurry",
       "source_parallel_quests": [
         160
@@ -2692,10 +2692,10 @@
       "source_quest_or_shop": "Parallel Quest 160 — \"Pan in Peril\"",
       "ultimate_finish_required": true,
       "skill_description": "Demon Ray is a Super Ki Blast skill used by Gohan (Beast).",
-      "mechanics_notes": "Dedicated current-version evidence confirms Demon Ray as a 100-Ki Ki Blast Super from PQ160, with a 300-Stamina follow-up/use-while-hit mechanic. Existing acquisition record is retained. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
+      "mechanics_notes": "Current dedicated evidence confirms a 100-Ki Ki Blast Super from PQ160. The first projectile can be followed by a Kamehameha-like Ki Wave on additional input; consuming 300 Stamina permits use while being hit.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demon_Ray",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2704,7 +2704,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 160,
       "acquisition_type": "quest_or_mission",
-      "notes": "Reconciled 2026-09-20: Parallel Quest 160 — \"Pan in Peril\" Ultimate Finish bonus. The maintained PQ160 drop data records a 50% Ultimate Finish bonus roll. 2026-09-20 provenance census: normalized source field to Parallel Quest 160 — \"Pan in Peril\", matching the maintained PQ research record.",
+      "notes": "Reconciled 2026-09-20: Parallel Quest 160 — \"Pan in Peril\" Ultimate Finish bonus. The maintained PQ160 drop data records a 50% Ultimate Finish bonus roll. 2026-09-20 provenance census: normalized source field to Parallel Quest 160 — \"Pan in Peril\", matching the maintained PQ research record. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates.",
       "id": "skill-demon-ray",
       "source_parallel_quests": [
         160
@@ -2724,10 +2724,10 @@
       "source_quest_or_shop": "Parallel Quest 159 — \"Lights! Camera! Super Heroes!\"",
       "ultimate_finish_required": true,
       "skill_description": "Demonic Destruction is a Super Strike skill used by Orange Piccolo.",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
+      "mechanics_notes": "Current dedicated evidence confirms a 100-Ki Strike Super from PQ159. It is a grab-like two-handed slam; the initial state cancels weak Ki Blasts, and a successful grab lifts and slams the opponent.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demonic_Destruction",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2736,7 +2736,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 159,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ159 and describes Demonic Destruction as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate. 2026-09-20 provenance census: normalized source field to Parallel Quest 159 — \"Lights! Camera! Super Heroes!\", matching the maintained PQ research record.",
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ159 and describes Demonic Destruction as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate. 2026-09-20 provenance census: normalized source field to Parallel Quest 159 — \"Lights! Camera! Super Heroes!\", matching the maintained PQ research record. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates.",
       "id": "skill-demonic-destruction",
       "source_parallel_quests": [
         159
@@ -2756,10 +2756,10 @@
       "source_quest_or_shop": "Parallel Quest 104 — \"Vados the Talent Scout\"",
       "ultimate_finish_required": false,
       "skill_description": "Destruction's Concerto: Comet is a Super Ki Blast skill associated with Vados.",
-      "mechanics_notes": "Current dedicated evidence confirms the 100–200 Ki Ki Blast Super classification and PQ104 provenance; the variable cost reflects the move's charge/input behavior and is retained rather than normalized to a single unsupported value.",
+      "mechanics_notes": "Current dedicated evidence confirms a 100-200 Ki Ki Blast Super from PQ104. It places a slow-moving Ki ball; pairing with Destruction's Conductor launches it rapidly at the opponent and produces the documented multi-hit interaction.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Destruction's_Concerto%3A_Comet",
@@ -2768,7 +2768,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 104,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: maintained all-PQ reward guide explicitly lists Destruction's Concerto: Comet in PQ104 Basic Reward alongside Starfall.",
+      "notes": "2026-09-20 audit: maintained all-PQ reward guide explicitly lists Destruction's Concerto: Comet in PQ104 Basic Reward alongside Starfall. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates.",
       "id": "skill-destruction-s-concerto-comet",
       "source_parallel_quests": [
         104
@@ -2788,10 +2788,10 @@
       "source_quest_or_shop": "Parallel Quest 106 — \"A Destructive Showdown!\"",
       "ultimate_finish_required": false,
       "skill_description": "Destruction's Concerto: Meteor is a Ultimate Ki Blast skill associated with Vados.",
-      "mechanics_notes": "Dedicated current-version evidence identifies this as Vados's Ki Blast Super; the Future Warrior can obtain it from PQ106, and Whis can use it through Partner Customization. CaC race/gender scope is not explicitly stated, so race_restriction remains null. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current skill page explicitly identifies PQ106 as the acquisition source and Ki Blast Super classification; no Ultimate Finish requirement is indicated. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward section; no Ultimate Finish-only gate is asserted.",
+      "mechanics_notes": "Current dedicated evidence confirms a 100-200 Ki Ki Blast Super from PQ106. It places a Ki ball behind the opponent; Destruction's Conductor splits it into five projectiles that launch at the target.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Destruction's_Concerto%3A_Meteor",
@@ -2801,7 +2801,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 106,
       "acquisition_type": "quest_or_mission",
-      "notes": "",
+      "notes": " 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates.",
       "id": "skill-destruction-s-concerto-meteor",
       "source_parallel_quests": [
         106
@@ -2821,10 +2821,10 @@
       "source_quest_or_shop": "Parallel Quest 104 — \"Vados the Talent Scout\"",
       "ultimate_finish_required": false,
       "skill_description": "Destruction's Concerto: Starfall is a Super Ki Blast skill associated with Vados.",
-      "mechanics_notes": "Current evidence confirms Destruction's Concerto: Starfall as a Vados Super Skill obtainable from PQ104; it creates two energy spheres and can interact with Destruction's Conductor. No unsupported CaC restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
+      "mechanics_notes": "Current dedicated evidence confirms a 100-200 Ki Ki Blast Super from PQ104. It creates two Ki blasts; Destruction's Conductor splits them into six smaller orbs that bombard the opponent.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Destruction's_Concerto%3A_Starfall",
@@ -2833,7 +2833,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 104,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ104 reward listings explicitly place Destruction's Concerto: Starfall in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-20 audit: PQ104 reward listings explicitly place Destruction's Concerto: Starfall in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates.",
       "id": "skill-destruction-s-concerto-starfall",
       "source_parallel_quests": [
         104
@@ -2853,10 +2853,10 @@
       "source_quest_or_shop": "Parallel Quest 106 — \"A Destructive Showdown\"",
       "ultimate_finish_required": false,
       "skill_description": "Destruction's Conductor is a Super Strike skill associated with Champa.",
-      "mechanics_notes": "A 0-Ki Strike Super that slaps the opponent and restores Ki. Current mechanics documentation describes 50 Ki recovered at base and an additional 50 Ki when the hit connects; the move also acts as the setup/control skill for Vados's Destruction's Concerto variants, changing how Comet, Starfall, and Meteor behave. The canonical PQ106 acquisition route is retained.",
+      "mechanics_notes": "Current dedicated evidence confirms a 0-Ki Strike Super from PQ106. It is a close-range slap that recovers Ki and serves as the trigger for the three Destruction's Concerto variants, changing their projectile behavior.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Destruction's_Conductor",
@@ -2865,7 +2865,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 106,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ106 reward listings explicitly place Destruction's Conductor in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-20 audit: PQ106 reward listings explicitly place Destruction's Conductor in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates.",
       "id": "skill-destruction-s-conductor",
       "source_parallel_quests": [
         106
@@ -2887,10 +2887,10 @@
       "source_quest": 146,
       "ultimate_finish_required": false,
       "skill_description": "Launch a tracking Hakai Ki ball; additional input creates an unblockable explosion.",
-      "mechanics_notes": "Launches a persistent tracking Hakai projectile that can intercept incoming Ki attacks and continue tracking. Current independent mechanics documentation reports a 20-second maximum active duration and cancellation when the user is hit; version history is important because older behavior was longer-lived. Exact frame data and damage values remain unresolved.",
+      "mechanics_notes": "Current dedicated evidence confirms the PQ146 Ki Blast Ultimate route. Existing acquisition semantics are retained; the current record does not infer a drop probability beyond the maintained PQ reward evidence.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Destructive_Fission",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2898,7 +2898,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: official Bandai Namco DLC documentation independently confirms Legendary Pack 1 scope (4 characters, 4 Parallel Quests, 6 additional moves); the maintained PQ143-PQ146 research layer remains the exact source for each skill's individual quest relationship.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: official Bandai Namco DLC documentation independently confirms Legendary Pack 1 scope (4 characters, 4 Parallel Quests, 6 additional moves); the maintained PQ143-PQ146 research layer remains the exact source for each skill's individual quest relationship. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates.",
       "source_parallel_quests": [
         146
       ]
@@ -2919,10 +2919,10 @@
       "source_quest": 145,
       "ultimate_finish_required": false,
       "skill_description": "Fire a Ki blast barrage; holding the button increases projectile size and damage.",
-      "mechanics_notes": "Fire a Ki blast barrage; holding the button increases projectile size and damage. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "mechanics_notes": "Current dedicated evidence confirms the PQ145 Ki Blast Super route. Existing acquisition semantics are retained; the current record does not infer a drop probability beyond the maintained PQ reward evidence.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Destructive_Flare",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2930,7 +2930,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: official Bandai Namco DLC documentation independently confirms Legendary Pack 1 scope (4 characters, 4 Parallel Quests, 6 additional moves); the maintained PQ143-PQ146 research layer remains the exact source for each skill's individual quest relationship.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: official Bandai Namco DLC documentation independently confirms Legendary Pack 1 scope (4 characters, 4 Parallel Quests, 6 additional moves); the maintained PQ143-PQ146 research layer remains the exact source for each skill's individual quest relationship. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates.",
       "source_parallel_quests": [
         145
       ]
