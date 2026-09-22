@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.3.0",
+  "schema_version": "1.4.0",
   "scope": "canonical record reverse PQ navigation and structured acquisition crosslink synchronization",
   "consumers": {
     "super_souls": {
@@ -23,9 +23,15 @@
       "checks": {
         "reverse_pair_parity": true,
         "structured_pq_ids_valid": true,
-        "duplicate_structured_pairs": true
+        "duplicate_structured_pairs": true,
+        "unique_record_names": true,
+        "structured_field_is_list": true,
+        "duplicate_canonical_pairs": true
       },
-      "duplicate_structured_pairs": 0
+      "duplicate_structured_pairs": 0,
+      "malformed_structured_fields": [],
+      "duplicate_record_names": [],
+      "duplicate_canonical_pairs": 0
     },
     "equipment": {
       "consumer": "docs/Equipment-All.html",
@@ -112,16 +118,22 @@
       "checks": {
         "reverse_pair_parity": true,
         "structured_pq_ids_valid": true,
-        "duplicate_structured_pairs": true
+        "duplicate_structured_pairs": true,
+        "unique_record_names": true,
+        "structured_field_is_list": true,
+        "duplicate_canonical_pairs": true
       },
-      "duplicate_structured_pairs": 0
+      "duplicate_structured_pairs": 0,
+      "malformed_structured_fields": [],
+      "duplicate_record_names": [],
+      "duplicate_canonical_pairs": 0
     }
   },
   "validator": "scripts/validate_record_reverse_pq_navigation.py",
   "evidence_boundary": "Canonical PQ links and structured PQ ID fields establish relationship identity only. Exact (record, PQ) pair parity is checked in both directions; acquisition prose may preserve historical/source conflicts and does not establish reward guarantees, Ultimate Finish requirements, drop rates, or unresolved acquisition claims.",
   "date": "2026-09-22",
   "status": "clean",
-  "validator_commit": "76a58807f0dad1c9fc2c7b56a1d53847c0f44486",
+  "validator_commit": "a5a706db4cff56967d6af2813c1623738c3f0324",
   "exact_forward_pair_contract": {
     "super_souls": {
       "canonical_pairs": 151,
@@ -138,5 +150,13 @@
       "duplicate": 0
     },
     "note": "Equipment retains four explicitly noncanonical structured PQ metadata pairs; these are preserved source/acquisition metadata and are excluded from canonical reverse-pair parity."
+  },
+  "hardening": {
+    "exact_forward_pair_contract": true,
+    "duplicate_structured_pair_rejection": true,
+    "duplicate_canonical_pair_rejection": true,
+    "structured_list_shape_validation": true,
+    "duplicate_record_name_rejection": true,
+    "noncanonical_metadata_preserved": true
   }
 }
