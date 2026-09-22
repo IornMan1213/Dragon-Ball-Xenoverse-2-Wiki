@@ -2080,3 +2080,13 @@
 - [x] Static validation: 452/452, no duplicate canonical IDs, affected canonical/index records remain aligned on verification and acquisition fields.
 - [ ] Runtime/CI unavailable; no CI success claimed.
 - [ ] Exact next batch: recompute live census and continue the stale-last_verified P1 queue after Blades of Judgment.
+
+
+### 2026-09-22 cycle update — Blaster Bomb / Blaster Cannon / Blaster Meteor / Blaster Shell / Blaster Stream / Blazing Attack provenance
+- [x] Fresh live skill census: 452 canonical / 452 index / 0 duplicate IDs; bounded batch: six Blaster/Blazing skills.
+- [x] Independent current documentation corroborated PQ148 for Blaster Bomb, Blaster Cannon, and Blaster Stream; Broly mentor training for Blaster Meteor and Blaster Shell; and PQ136 for Blazing Attack.
+- [x] Refreshed canonical/index last_verified to 2026-09-22; existing reward-tier and probability semantics preserved.
+- [x] Added docs/data/skill-provenance-audit-2026-09-22-blaster-batch.json.
+- [x] Static validation: 452/452, no duplicate IDs, affected verification/acquisition fields aligned.
+- [ ] Runtime/CI unavailable; no CI success claimed.
+- [ ] Exact next batch: recompute live census and continue after Blazing Attack in the stale-last_verified queue.
