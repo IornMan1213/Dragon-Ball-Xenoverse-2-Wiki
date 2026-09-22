@@ -21,7 +21,7 @@
   },
   "note": "Character feature relationships are now populated from explicit canonical PQ objective/ultimate-finish character references with a small documented alias map. Generic enemy/appearance text was not used as attribution. Full 1-186 exhaustiveness still requires reconciliation of all populated fields and unresolved/conflict records.",
   "reconciliation_report": "docs/data/pq-cross-domain-reconciliation.json",
-  "next_gate": "Current canonical relationship baseline is 860 unique edges (244 skill / 151 Super Soul / 125 equipment / 247 character / 86 DLC / 7 farming). Historical 862/840 counts remain preserved only in dated audit/history fields; repair deterministic projection drift before new provenance research.",
+  "next_gate": "Current canonical relationship baseline is 859 unique edges (244 skill / 151 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming). Historical 862/840/860 counts remain preserved only in dated audit/history fields; repair deterministic projection drift before new provenance research.",
   "provenance_reconciliation": {
     "source_backed_edge_only_cases_resolved": 88,
     "edge_only_cases_remaining_unresolved": 0,
@@ -372,7 +372,7 @@
       "orphan": 0,
       "pq_set_mismatches": 0
     },
-    "note": "Earlier 862/840 fields remain historical. Current state is 860 unique relationship edges after the PQ185/PQ186 duplicate evidence merge."
+    "note": "Earlier 862/840/860-edge fields are preserved as historical records. This object is the authoritative current projection census after removal of the false PQ99 equipment relationship for Mr. Shape Up L."
   },
   "current_projection_report_census_2026_09_22": {
     "date": "2026-09-22",
