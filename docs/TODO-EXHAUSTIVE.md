@@ -1407,3 +1407,15 @@
 - [x] Commits: validator `d0b319c5974c9a6861bff364136f6b2deaad0a0b`; audit `99474ac1c291d4c49b85cd6ce2d1c853f9d63440`; registry `c041e968d72fe23d54c778d42e73b0d40bf9b21d`.
 - [ ] Exact next task: inspect the next registered Search/landing consumer or unvalidated cross-domain producer for deterministic one-way navigation, stale scalar/list assumptions, or canonical endpoint drift; prefer exact local consumer parity over new inferred relationships.
 
+### 2026-09-22 — Equipment provenance batch `equip-081`–`equip-090`
+- [x] Recomputed the live equipment endpoint layer before editing: **174 canonical equipment/accessory identities / 0 duplicate IDs / 125 PQ→equipment forward edges / 123 unique target endpoints / 0 broken endpoints**.
+- [x] Enriched the live records `equip-081`, `082`, `083`, `084`, `086`, `087`, `089`, and `090` with independently checked slot coverage and additional maintained catalog provenance.
+- [x] Preserved `equip-088` as a normalized historical alias to canonical accessory `acc-012`; no duplicate identity was created.
+- [x] Confirmed `equip-085` is absent from the live canonical layer and did not fabricate a record to fill the numeric gap.
+- [x] Evidence used includes the maintained Xenoverse 2 equipment catalog, the maintained all-186-PQ Steam guide, dedicated Goku's Turtle Hermit Gi (King Kai) documentation, Whis Symbol Gi documentation, and an independent GameFAQs equipment discussion for component coverage.
+- [x] Validation: **174/174 endpoint identities resolve; 0 duplicate IDs; 125 forward edges; 123 reverse endpoints; 0 broken endpoints**. Batch records present: 9/9 expected live IDs; 8/8 enriched non-alias records have slot coverage; `equip-088` remains explicitly normalized.
+- [x] Evidence boundary preserved: no reward probability, guaranteed-drop claim, combat effect, or unsupported DLC attribution added.
+- [ ] CI: no successful workflow/check exposed; CI success is not claimed.
+- [x] Commits: canonical `1b2f96e444c1f0ce17174cba4d4d95841ae671cd`; detail audit `007c9a768edd1483583cec7336b2f7537366922a`.
+- [ ] Exact next task: enrich the next deterministic equipment endpoint tranche, beginning with **`equip-091`–`equip-100`**, after a fresh endpoint census; preserve normalized aliases and canonical accessory bridges.
+
