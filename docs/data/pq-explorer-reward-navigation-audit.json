@@ -13,12 +13,15 @@
   "counts": {
     "skills": 244,
     "super_souls": 151,
-    "equipment": 125
+    "equipment": 125,
+    "dlc_edges": 86,
+    "dlc_unique_targets": 20
   },
   "unresolved_canonical_targets": {
     "skills": [],
     "souls": [],
-    "equipment": []
+    "equipment": [],
+    "dlc": []
   },
   "checks": {
     "skill_explorer_query_support": true,
@@ -28,8 +31,9 @@
     "pq_dlc_links_present": true,
     "skill_targets_resolve": true,
     "soul_targets_resolve": true,
-    "equipment_targets_resolve": true
+    "equipment_targets_resolve": true,
+    "dlc_targets_resolve": true
   },
   "status": "clean",
-  "evidence_boundary": "Canonical target identity and link construction are clean. Soul/equipment/DLC destinations currently use local search/overview navigation where no dedicated record explorer is present; this does not imply dedicated per-record pages."
+  "evidence_boundary": "Canonical PQ reward and DLC identity layers are authoritative. The explorer uses pq_requires_dlc relationships rather than the broader 'Super Pass' presentation field; local Search/overview destinations do not imply dedicated per-record pages."
 }
