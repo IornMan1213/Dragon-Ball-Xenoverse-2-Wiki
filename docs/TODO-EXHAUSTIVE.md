@@ -1432,3 +1432,16 @@
 - [x] Commits: canonical `267cb0dcd98b9c5b8307e0d0f1ca5ac4b3da65cb`; combined layer `af70f83339d32794fa6c577ebfadc97850bd0f62`; audit `87b75353add617b60607c476dacb3442dc95ba3b`; registry `bb005ca06da404f9027bf18148e6204f4b72cfe3`.
 - [ ] Exact next batch: fresh census, then continue the equipment identity/detail stream with **`equip-101`–`equip-110`**, preserving any canonical accessory bridges before adding metadata.
 
+### 2026-09-22 — Equipment detail enrichment `equip-101`–`equip-110`
+- [x] Fresh endpoint census and bounded batch completed: **174 combined equipment/accessory records / 139 legacy equipment records / 0 duplicate IDs / 125 PQ→equipment forward edges / 123 unique targets / 0 broken endpoints**.
+- [x] Enriched `equip-101`–`equip-110` with source-backed category, slot coverage, and DLC provenance.
+- [x] Classified accessories: SS3 Vegeta (DAIMA) Wig, Glorio Wig, Panzy Wig, Golden Frieza Head, Broly Wig (Black Hair, Normal), Dragon Ball Balloon.
+- [x] Classified clothing: Glorio's Clothes (upper/lower/feet), Panzy's Clothes (four-piece), Golden Frieza Suit (four-piece), Cheelai's Coat (upper body).
+- [x] Reconciled provenance: `101–105` Dragon Ball DAIMA Pack; `106–110` Future Saga Chapter 3.
+- [x] Evidence used: maintained DBXV2 equipment catalog, DBXV2 DLC documentation, maintained all-186-PQ Steam guide, Glorio/Panzy character documentation, and independent PQ184 documentation.
+- [x] Added and registered `docs/data/equipment/equipment-101-110-detail-audit.json`.
+- [x] Evidence boundary preserved: no reward probability, guaranteed-drop semantics, combat/stat effect, or unsupported restriction was inferred.
+- [ ] CI: no successful workflow/check exposed; CI success is not claimed.
+- [x] Commits: canonical `34ffe98a4702514806dbe425aba3f38f18804e6d`; combined `9bcf4242481a7d2283e7fe4db7894e923be2c13a`; audit `8bcbb0f4bf6d846b2557c84631851f07599e4af1`; registry `b51aa73512fb62822681a83b8a80af358142f5d2`.
+- [ ] Exact next batch: fresh census, then **`equip-111`–`equip-120`**; preserve any canonical accessory bridges and historical aliases.
+
