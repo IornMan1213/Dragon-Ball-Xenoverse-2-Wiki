@@ -1,3 +1,10 @@
+## 2026-09-22 — Equipment detail enrichment 121-130 and false-positive correction
+
+- Corrected `equip-121` by removing Mr. Shape Up L from the equipment layers after independent evidence identified it as a consumable capsule/material.
+- Preserved `equip-123 → acc-063` as the canonical SSGSS Vegeta Wig bridge.
+- Enriched `equip-122`, `124`–`130` with source-backed category/slot/DLC metadata.
+- Validation: **173 combined records / 0 duplicate IDs / 124 PQ→equipment edges / 122 unique targets / 0 broken endpoints**.
+
 ## 2026-09-22 — Equipment detail enrichment 111-120
 
 - Enriched `equip-111`–`equip-120` with source-backed category, slot, and DLC provenance.
