@@ -408,3 +408,7 @@
 - CI/Actions: no successful workflow/check exposed for this direct-commit chain; CI success is not claimed.
 - Commits: canonical 7b449904ee279625301e9fadf0283c6d15b54acd; equipment report 6f12f7953cb4cb9ede3b5e7ef665e0ce4d37ab11; bridge 7d87de659d2955cdffc488e58c9a084965641750; accessory report 93d841de40f3d95030b47110842c414e7b4d041b; backlog de30d8e10a9485a31e202deb2cd40c57a49f6d5e; audit d596b78d57c284bb18a?; changelog 49e7776c242e0160ab3ae8978aadbafe18a762e9; TODO ebdf26e485530ce5e2e3034e5420bae2ba388246.
 - Exact next batch: full cross-database reward/reverse-index census across Skills, Super Souls, Equipment, and Accessories, repairing deterministic endpoint/count drift before another provenance-only batch.
+
+
+### 2026-09-22 correction — Accessory batch handoff commit metadata
+- Correction to the immediately preceding handoff entry: audit commit is d596b78d57c28456dbc61438d745cf26dddc2a02. All other commit IDs in that entry are unchanged.
