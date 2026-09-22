@@ -1207,7 +1207,7 @@
 ## 2026-09-21 — Gigantic Roar low-source provenance strengthening
 - Live pre-edit census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable ki_cost / 36 exactly-two-source records**.
 - Strengthened **Gigantic Roar (skill-gigantic-roar)** from two to three provenance sources by adding the maintained Steam Parallel Quest guide.
-- Independent evidence lists Gigantic Roar in **PQ132 — The Ultimate Legendary Super Saiyan** under **Basic Reward**, corroborating the repository's First-Clear Reward route and no-Ultimate-Finish requirement. citeturn0search3turn0search4
+- Independent evidence lists Gigantic Roar in **PQ132 — The Ultimate Legendary Super Saiyan** under **Basic Reward**, corroborating the repository's First-Clear Reward route and no-Ultimate-Finish requirement.
 - Preserved existing Extra Pack 4, PQ132, Broly (Full Power Super Saiyan), 500 Ki, Ultimate/Ki Blast, and CaC semantics. No unsupported drop probability or race/form scope was inferred.
 - Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index records.
 - Post-write census: **35 exactly-two-source records**.
