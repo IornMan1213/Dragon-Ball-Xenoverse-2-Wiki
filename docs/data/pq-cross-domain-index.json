@@ -30,7 +30,8 @@
     {
       "entity": "characters",
       "key": "character_id",
-      "value": "pq_ids"
+      "value": "pq_ids",
+      "report": "docs/data/characters/pq-reverse-index.json"
     },
     {
       "entity": "dlc",
@@ -59,11 +60,13 @@
     "canonical_dlc_reverse": "docs/data/dlc/pq-reverse-navigation-audit.json",
     "dlc_content_projection": "docs/data/dlc/dlc-content-link-audit.json",
     "canonical_farming_reverse": "docs/data/farming/pq-farming-reverse-audit.json",
-    "presentation_index_identity": "docs/data/pq-presentation-index-identity-audit.json"
+    "presentation_index_identity": "docs/data/pq-presentation-index-identity-audit.json",
+    "character_reverse": "docs/data/pq-character-reverse-navigation-audit.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
-    "presentation_index_identity": "scripts/validate_pq_presentation_indexes.py"
+    "presentation_index_identity": "scripts/validate_pq_presentation_indexes.py",
+    "character_reverse_navigation": "scripts/validate_pq_character_reverse_index.py"
   },
   "schemas": {
     "canonical_dlc_identity": "docs/data/dlc/canonical-dlc-identity.schema.json"
