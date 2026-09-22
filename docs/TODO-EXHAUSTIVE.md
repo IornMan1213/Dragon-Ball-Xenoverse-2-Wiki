@@ -2407,3 +2407,18 @@
 - [x] Super Kamehameha
 - [x] Canonical/index parity and audit registration completed
 - [ ] Next live batch: **Super Kamehameha (SS4 DAIMA), Super Saiyan, Super Saiyan 2, Super Saiyan Blue Kaioken, Super Saiyan God, Super Saiyan God Super Saiyan, Super Saiyan God Super Saiyan (Evolved), Super Spirit Bomb, Super Vegeta, Supernova Cooler**.
+
+
+### 2026-09-22 cycle completion tracking — Super Kamehameha (SS4 DAIMA) through Supernova Cooler
+- [x] Super Kamehameha (SS4 DAIMA)
+- [x] Super Saiyan
+- [x] Super Saiyan 2
+- [x] Super Saiyan Blue Kaioken
+- [x] Super Saiyan God
+- [x] Super Saiyan God Super Saiyan
+- [x] Super Saiyan God Super Saiyan (Evolved)
+- [x] Super Spirit Bomb
+- [x] Super Vegeta
+- [x] Supernova Cooler
+- [x] Canonical/index parity and audit registration completed
+- [ ] Next live batch: **Supersonic Mode, Supreme Fury, Surging Spirit, Symphonic Destruction, Tail Slicer, Taunt, Teleporting Vanishing Ball, Temporal Holy Ray, The Power to Overcome, The Savior Has Come**.
