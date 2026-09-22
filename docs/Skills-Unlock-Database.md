@@ -12,7 +12,7 @@ This page documents **how skills are acquired**, separately from the raw categor
 | Source | What it commonly provides | Database fields to verify |
 |---|---|---|
 | Mentor / instructor | Signature Super and Ultimate attacks | Mentor, friendship requirement, lesson/order |
-| Parallel Quest | Rare Supers, Ultimates and Evasives | PQ number, Ultimate Finish, drop condition |
+| Parallel Quest | Rare Supers, Ultimates and Evasives | Canonical PQ→skill association; independently verified Ultimate Finish/trigger/drop fields |
 | Expert Mission | Selected high-end skills and rewards | Mission number, reward pool, conditions |
 | Advancement Test | Progression and Potential Unleashed | Test number, required rank, reward |
 | Time Rift | Race-specific Awoken Skills | Rift, race, prerequisite progression |
