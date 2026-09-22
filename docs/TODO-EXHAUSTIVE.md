@@ -1703,3 +1703,14 @@
 - [x] Static validation: 452/452, no duplicate IDs, and exact affected-record semantic parity between canonical/index layers.
 - [ ] Runtime/CI remains unavailable; no executable CI success claimed.
 - [ ] Exact next batch: continue the stale-last_verified P1 skill provenance queue with the next unfinished skill after Beast.
+
+
+### 2026-09-22 — Become Giant provenance verification
+- [x] Fresh live skill census: 452 canonical / 452 index / 0 duplicate IDs; bounded record: skill-become-giant.
+- [x] Independent evidence confirms the existing acquisition endpoint: Namekian Awakening at Guru's House, with the documented Namekian and level-35 prerequisites and NPC/quest flow.
+- [x] Refreshed docs/data/skills.json and docs/data/skills-index.json to last_verified: 2026-09-22 and synchronized provenance notes/sources.
+- [x] Added docs/data/skill-become-giant-provenance-audit-2026-09-22.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] No skill identity, classification, Ki cost, Ultimate Finish flag, or PQ relationship changed; no unsupported probability or gate was inferred.
+- [x] Static validation: 452/452, no duplicate IDs, and exact affected-record semantic parity between canonical/index layers.
+- [ ] Runtime/CI remains unavailable; no executable CI success claimed.
+- [ ] Exact next batch: continue the stale-last_verified P1 skill provenance queue with Big Bang Knuckle (skill-big-bang-knuckle), recomputing the live canonical/index census first.
