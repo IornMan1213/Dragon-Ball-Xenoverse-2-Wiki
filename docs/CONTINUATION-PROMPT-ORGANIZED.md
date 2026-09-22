@@ -748,3 +748,17 @@
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [x] Commits: `df07a0cb046f38a6e5ee5973b82c203ae76a79c9`, `22429714ede4a0832b8539790ff918567299d5a5`.
 - [ ] Exact next batch: inspect the next registered cross-domain presentation consumer for stale scalar/list assumptions or one-way canonical navigation.
+
+
+### 2026-09-22 cycle update — published Character/DLC navigation identity-contract hardening
+- [x] Audited the registered published_character_dlc_navigation consumer (scripts/validate_published_character_dlc_navigation.py) after the unified PQ reverse-index pass.
+- [x] Hardened the validator beyond local-link existence to validate the Character DLC provenance bridge against the canonical character layer and the canonical DLC identity layer against every existing pq_requires_dlc endpoint.
+- [x] Live validation: **149/149 canonical character names unique; 15/15 DLC-character bridge records; 0 resolved bridge targets missing; 0 unresolved bridge records with a target; 0 duplicate bridge source labels**.
+- [x] DLC identity validation: **86 canonical PQ→DLC edges / 20 unique targets / 20 identity records / 0 missing targets / 0 orphan identities / 0 duplicate IDs / 0 duplicate names**.
+- [x] Published Character/DLC local navigation remains clean; all checked links resolve to repository-local artifacts.
+- [x] Refreshed docs/data/characters/published-character-dlc-navigation-audit.json to schema **1.1.0**.
+- [x] No canonical character, DLC, PQ relationship, or provenance identity was changed. The two explicitly unresolved Chapter 4 character source labels remain unresolved.
+- [ ] CI: no successful GitHub Actions workflow run exposed for commit 120cc346f9b7e049d2785e25eed9d1e5b1bd27cf; CI success not claimed.
+- [x] Commits: ec4782b3ad6610f6fc681b492a73f138d208e725, 120cc346f9b7e049d2785e25eed9d1e5b1bd27cf.
+- [x] Live census after editing: **860 canonical PQ relationship edges = 244 skills / 151 Super Souls / 125 equipment / 247 characters / 86 DLC / 7 farming**.
+- [ ] Exact next batch: inspect the next registered cross-domain presentation consumer after published_character_dlc_navigation, prioritizing a validator that still checks endpoint/count existence without exact canonical pair parity; preserve canonical identities and report unresolved aliases/granularity rather than guessing.
