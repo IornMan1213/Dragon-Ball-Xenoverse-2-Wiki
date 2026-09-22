@@ -265,3 +265,13 @@
 - CI: no successful workflow/check exposed for this direct-commit chain.
 - Current master remains **862 relationships**: 244 skill / 151 Super Soul / 125 equipment / 247 character / 88 DLC / 7 farming.
 - Exact next batch: **trace the 247 character edges and 88 DLC edges back to their canonical PQ records and identify any target/alias normalization gaps, without treating source text as a canonical source of truth.**
+
+
+### 2026-09-22 — PQ character/DLC target normalization
+- [x] Audited all **247 character edges / 75 unique character targets** against `docs/data/characters-record-layer.json`: **0 missing canonical targets** and **5 explicit aliases** retained.
+- [x] Audited all **88 DLC edges / 21 unique targets** and found one deterministic case-only duplicate key in the normalized reverse index.
+- [x] Normalized PQ185/PQ186 relationship targets from `FUTURE SAGA Chapter 4` to canonical `Future Saga Chapter 4`.
+- [x] Removed the duplicate `FUTURE SAGA Chapter 4` reverse-index key while preserving the canonical `Future Saga Chapter 4` mapping.
+- [x] Preserved `Super Pack 1`–`Super Pack 4` as distinct source-backed DLC targets; they are not silently collapsed into the broader `Super Pass` requirement.
+- [x] Validation: **862 total relationships / 247 character / 88 DLC / 0 duplicate relationship keys / 0 invalid PQ numbers / 0 empty targets / 0 DLC casefold duplicate keys**.
+- [ ] Exact next task: recompute the full repository relationship/projection census and identify the next deterministic producer drift or highest-priority unresolved cross-database endpoint gap.
