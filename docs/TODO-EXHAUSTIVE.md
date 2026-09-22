@@ -2011,3 +2011,14 @@
 - [x] Static validation on branch: **452/452** canonical/index; **0 duplicate canonical IDs**; **373 stale canonical records remain**; all seven targets refreshed; audited shared canonical/index fields have **0 mismatches**; all seven audit registrations resolve.
 - [ ] Runtime/CI execution remains unavailable; no CI success claimed.
 - [ ] Exact next batch: recompute the live census after merge and continue the next stale P1 skill provenance records alphabetically, beginning with the first stale record after `skill-counter-burst`.
+
+
+### 2026-09-22 cycle update — Counter Impact through Crusher Ball provenance batch
+- [x] Fresh branch validation before handoff: **452 canonical / 452 index / 0 duplicate IDs / 366 stale**.
+- [x] Bounded batch completed: `skill-counter-impact`, `skill-crazy-finger-shot`, `skill-crimson-edge`, `skill-critical-upper`, `skill-crush-cannon`, `skill-crush-stream`, `skill-crusher-ball`.
+- [x] Refreshed canonical/index `last_verified` to **2026-09-22**, reconciled current dedicated skill evidence, and preserved existing reward/gate uncertainty rather than inventing probabilities.
+- [x] Added and registered seven dedicated provenance audits under `docs/data/`.
+- [x] Counter Impact: current evidence reconfirms 100-Ki Ki Blast Super/PQ153 and counter/warp/Ki-Wave mechanics. Crazy Finger Shot: PQ26/100-Ki Ki Blast Super retained. Crimson Edge: PQ171/100-Ki Strike Super and scythe-spin deflection mechanics reconfirmed; existing reward-condition conflict retained. Critical Upper: Dodoria training/100-Ki Strike Super/launching uppercut reconfirmed. Crush Cannon: PQ147/100-Ki Ki Blast Super/charge-and-guard mechanics reconfirmed. Crush Stream: PQ147/300-Ki Ki Blast Ultimate/two-projectile follow-up reconfirmed. Crusher Ball: PQ34/100-Ki Ki Blast Super/tracking six-hit behavior reconfirmed.
+- [x] Static validation: **452/452**, **0 duplicate canonical IDs**, **366 stale canonical records remain**, all seven targets refreshed, audited shared canonical/index fields **0 mismatches**, and all seven audit registrations resolve.
+- [ ] Runtime/CI execution remains unavailable; no CI success claimed.
+- [ ] Exact next batch: recompute the live census after merge and continue the stale P1 skill provenance queue alphabetically with **`skill-dancing-parapara`**, then adjacent stale records where evidence and validation remain bounded.
