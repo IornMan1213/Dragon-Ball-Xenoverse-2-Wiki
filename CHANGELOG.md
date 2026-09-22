@@ -1327,3 +1327,13 @@
 - Preserved the existing Free Update 11 scope, 300 Ki cost, PQ/event endpoint, and CaC semantics. No unsupported drop probability or reward-tier condition was inferred.
 - Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index records.
 - Post-write target: **33 exactly-two-source records**.
+
+## 2026-09-21 — Maximum Charge low-source provenance strengthening
+- Recomputed the live skill source census before editing: **452 canonical records / 452 index records / 0 duplicate IDs / 0 nullable `ki_cost` / 23 exactly-two-source canonical records**.
+- Strengthened **Maximum Charge (`skill-maximum-charge`)** from two to three provenance sources using Steam's **Good Build Balance** guide, which independently lists Maximum Charge as an **Advancement Test — God Class** unlock.
+- Preserved the existing God Class acquisition endpoint, Base Game provenance, CaC scope, and all mechanics/reward semantics; no unsupported prerequisite chain or reward condition was added.
+- Synchronized `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21**.
+- Post-write target: **22 exactly-two-source canonical records**; canonical/index source parity must remain clean.
+- CI success is not claimed unless GitHub exposes an actual workflow run/check.
+- Exact next batch: **Meteor Crash (`skill-meteor-crash`)**; recompute the live two-source census first, then independently verify its PQ12 / Basic Reward acquisition before provenance-only strengthening.
+
