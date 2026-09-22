@@ -6811,3 +6811,15 @@ The repository owner has clarified the continuation contract:
 - Validation: target is **34 exactly-two-source records** after this batch; canonical/index parity, duplicate/null-Ki checks, and citation-artifact checks remain required.
 - CI: no success is claimed unless a status/workflow result is exposed for the final handoff commit.
 - Exact next batch: **recompute the live two-source census first, then continue with the next deterministic low-source record after God of Destruction's Roar**.
+
+
+### 2026-09-21 cycle update — Godly Chronos Cannon low-source provenance strengthening
+- Workstream: P1 skill acquisition/DLC-version provenance cleanup; deterministic two-source census sequence.
+- Live pre-edit census: **452 canonical / 452 index / 34 exactly-two-source records / 0 duplicate IDs / 0 nullable ki_cost values**.
+- Bounded batch: **Godly Chronos Cannon (skill-godly-chronos-cannon)**.
+- Evidence: Videogaming Wiki independently identifies Godly Chronos Cannon as a Xenoverse 2 Ultimate Skill used by Supreme Kai of Time and states that the player's CaC can obtain it randomly from **The Fated Finale** in the Conton City Tournament after the required event progression: https://videogaming.fandom.com/wiki/Godly_Chronos_Cannon . Additional independent event evidence lists Godly Chronos Cannon as a reward of The Fated Finale: https://videogaming.fandom.com/wiki/The_Fated_Finale .
+- Changes: added the independent Videogaming Wiki source to canonical `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21**; synchronized source projections; documented the batch in `CHANGELOG.md` and `docs/COVERAGE-AUDIT.md`.
+- Evidence limits preserved: existing **Free Update 11**, **300 Ki**, Conton City Tournament Match 5 / The Fated Finale endpoint, and CaC semantics were preserved. No unsupported drop probability or reward-tier condition was inferred.
+- Validation target: **33 exactly-two-source records** after this batch; canonical/index parity, duplicate/null-Ki checks, and citation-artifact checks remain required.
+- CI: no success is claimed unless a status/workflow result is exposed for the final handoff commit.
+- Exact next batch: **recompute the live two-source census first, then continue with the next deterministic low-source record after Godly Chronos Cannon**.
