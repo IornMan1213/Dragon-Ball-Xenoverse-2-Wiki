@@ -63,7 +63,8 @@
     "non_pq_consumer_census":"docs/data/pq-non-pq-consumer-census-2026-09-22.json",
     "pq_summary_consumer_census":"docs/data/pq-summary-consumer-audit-2026-09-22.json",
     "pq_direct_template_dlc_consumer_census":"docs/data/pq-direct-template-dlc-consumer-audit-2026-09-22.json",
-    "skill_arm_crash_provenance":"docs/data/skill-arm-crash-provenance-audit-2026-09-22.json"
+    "skill_arm_crash_provenance":"docs/data/skill-arm-crash-provenance-audit-2026-09-22.json",
+    "accessory_residual_identity_candidates":"docs/data/accessory-residual-identity-candidate-audit-2026-09-22.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation":"scripts/validate_pq_endpoint_navigation.py",
