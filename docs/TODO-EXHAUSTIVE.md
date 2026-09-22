@@ -2487,3 +2487,14 @@
 - [x] Live stale count after batch: 0
 - [x] The complete stale-skill queue is now refreshed to last_verified 2026-09-22.
 - [ ] Next priority: recompute the broader TODO/research census and select the highest-impact unfinished cross-domain, provenance, mechanics, validation, or presentation task; do not restart stale-skill refreshes unless new evidence requires it.
+
+
+### 2026-09-22 cycle update — cross-database reward/reverse-index consistency census
+- [x] Recomputed the live canonical PQ relationship census from `docs/data/pq-reward-relationships.json`: **859 edges** = 244 skills / 151 Super Souls / 124 equipment / 247 characters / 86 DLC / 7 farming.
+- [x] Compared all six canonical relationship domains against `docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json` using explicit normalization: `pq-NNN` → numeric PQ number and canonical equipment → unified clothing + accessories.
+- [x] Result: **0 missing reverse pairs, 0 extra reverse pairs, 0 duplicate canonical rows across all six domains**. The previously observed textual `pq-002` vs `2` difference is a representation difference, not relationship drift.
+- [x] Added reusable validator `scripts/validate_pq_cross_database_reverse_consistency.py` and audit `docs/data/pq-cross-database-reverse-consistency-audit-2026-09-22.json`.
+- [x] Registered the validator and audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Re-read the changed files from `main`; script/audit/index are present and parseable JSON was confirmed for the data artifacts.
+- [ ] CI/runtime: no successful workflow/check exposed for this direct-commit chain; no CI success claimed.
+- [x] Next priority selected from the broader tracker: inspect the remaining **non-PQ / thin-system coverage** rather than repeating already-clean PQ reverse navigation. Start with the highest-impact under-documented canonical system that has an existing schema/data layer, and add missing structured fields/records with provenance rather than placeholder pages.
