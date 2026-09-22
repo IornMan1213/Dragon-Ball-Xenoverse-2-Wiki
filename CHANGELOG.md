@@ -1,3 +1,10 @@
+## 2026-09-22 — Current PQ projection census correction
+
+- Recomputed current projections from the corrected 860-edge canonical PQ relationship array and found stale 862-edge endpoint/final-consistency fields in the cross-domain audit/status artifacts.
+- Corrected current projection fields to 860 total: 244 skill / 151 Super Soul / 125 equipment / 247 character / 86 DLC / 7 farming.
+- Current reverse endpoints remain 239 / 148 / 123 / 28 accessories, with 0 missing, orphan, or PQ-set mismatch cases; DLC is 86 forward edges across 20 unique endpoints.
+- Historical 862/840 figures remain preserved as historical records.
+
 ## 2026-09-22 — PQ185/PQ186 duplicate relationship evidence repair
 
 - Recomputed the corrected PQ relationship array and found two duplicate relationship keys: PQ185 and PQ186 each had the same `Future Saga Chapter 4` DLC edge twice, with different evidence sources.
