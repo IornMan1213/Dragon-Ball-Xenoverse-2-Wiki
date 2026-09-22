@@ -2756,37 +2756,27 @@
       ]
     },
     {
-      "id": "equip-121",
-      "name": "Mr. Shape Up L",
-      "category": "costume_or_accessory",
-      "acquisition_type": "Parallel Quest",
-      "acquisition_source": "Parallel Quest pq-099 reward",
-      "pq_sources": [
-        "pq-pq-099"
-      ],
-      "dlc_requirement": null,
-      "verification_status": "indexed",
-      "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
-      "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
-    },
-    {
       "id": "equip-122",
       "name": "Whis Symbol Battle Suit",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-100 reward",
       "pq_sources": [
         "pq-pq-100"
       ],
-      "dlc_requirement": null,
+      "dlc_requirement": "Movie Costume Pack (Free)",
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Maintained equipment documentation identifies Whis Symbol Battle Suit as a four-piece clothing set; PQ100 is the documented acquisition route.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
@@ -2809,120 +2799,168 @@
     {
       "id": "equip-124",
       "name": "Champa's Clothes",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-101 reward",
       "pq_sources": [
         "pq-pq-101"
       ],
-      "dlc_requirement": null,
+      "dlc_requirement": "Super Pack 1",
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Maintained equipment documentation identifies Champa's Clothes as a four-piece clothing set; PQ101 is the documented acquisition route.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-125",
       "name": "Battle Suit (Cabba)",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-102 reward",
       "pq_sources": [
         "pq-pq-102"
       ],
-      "dlc_requirement": null,
+      "dlc_requirement": "Super Pack 1",
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Maintained equipment documentation identifies Battle Suit (Cabba) as a four-piece clothing set; PQ102 is the documented acquisition route.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-126",
       "name": "Android 14's Clothes",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-104 reward",
       "pq_sources": [
         "pq-pq-104"
       ],
-      "dlc_requirement": null,
+      "dlc_requirement": "Super Pack 2",
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Maintained equipment documentation identifies Android 14's Clothes as a four-piece clothing set; PQ104 is the documented acquisition route.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-127",
       "name": "Android 13's Clothes",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-105 reward",
       "pq_sources": [
         "pq-pq-105"
       ],
-      "dlc_requirement": null,
+      "dlc_requirement": "Super Pack 2",
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Maintained equipment documentation identifies Android 13's Clothes as a four-piece clothing set; PQ105 is the documented acquisition route.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-128",
       "name": "Super Android 13's Clothes",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-106 reward",
       "pq_sources": [
         "pq-pq-106"
       ],
-      "dlc_requirement": null,
+      "dlc_requirement": "Super Pack 2",
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Maintained equipment documentation identifies Super Android 13's Clothes as a four-piece clothing set; PQ106 is the documented acquisition route.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-129",
       "name": "Future Mai's Clothes",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-107 reward",
       "pq_sources": [
         "pq-pq-107"
       ],
-      "dlc_requirement": null,
+      "dlc_requirement": "Super Pack 3",
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Maintained equipment documentation identifies Future Mai's Clothes as a four-piece clothing set; PQ107 is the documented acquisition route.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-130",
       "name": "Goku Black's Clothes",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-108 reward",
       "pq_sources": [
         "pq-pq-108"
       ],
-      "dlc_requirement": null,
+      "dlc_requirement": "Super Pack 3",
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Independent Xenoverse 2 equipment discussion identifies Goku Black's Clothes as upper/lower/feet with no hands; PQ108 is the documented acquisition route.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "feet"
       ]
     },
     {
