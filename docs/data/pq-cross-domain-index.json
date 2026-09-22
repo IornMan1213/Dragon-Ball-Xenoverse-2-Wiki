@@ -147,6 +147,7 @@
     "skill_breaker_energy_wave_provenance": "docs/data/skill-breaker-energy-wave-provenance-audit-2026-09-22.json",
     "skill_burning_attack_provenance": "docs/data/skill-burning-attack-provenance-audit-2026-09-22.json",
     "skill_burning_slash_provenance": "docs/data/skill-burning-slash-provenance-audit-2026-09-22.json",
-    "skill_burning_swan_provenance": "docs/data/skill-burning-swan-provenance-audit-2026-09-22.json"
+    "skill_burning_swan_provenance": "docs/data/skill-burning-swan-provenance-audit-2026-09-22.json",
+    "skill_burst_blitz_provenance": "docs/data/skill-burst-blitz-provenance-audit-2026-09-22.json"
   }
 }
