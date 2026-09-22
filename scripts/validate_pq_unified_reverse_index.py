@@ -41,10 +41,16 @@ def canonical_pairs(data):
 
 def projection_pairs(data, domain):
     values = set()
+    duplicate_pairs = 0
+    invalid_list_fields = []
     for name, pqs in data.get(domain, {}).items():
-        for pq in pqs:
-            values.add((str(name), pq_number(pq)))
-    return values
+        if not isinstance(pqs, list):
+            invalid_list_fields.append(str(name))
+            continue
+        flattened = [(str(name), pq_number(pq)) for pq in pqs]
+        duplicate_pairs += len(flattened) - len(set(flattened))
+        values.update(flattened)
+    return values, duplicate_pairs, invalid_list_fields
 
 
 def main() -> int:
@@ -61,7 +67,7 @@ def main() -> int:
     failures = []
     for domain in ("skills", "super_souls", "characters", "dlc", "farming"):
         expected = canonical[domain]
-        actual = projection_pairs(unified, domain)
+        actual, duplicate_pairs, invalid_list_fields = projection_pairs(unified, domain)
         missing = sorted(expected - actual)
         extra = sorted(actual - expected)
         report[domain] = {
@@ -69,14 +75,19 @@ def main() -> int:
             "projection_pairs": len(actual),
             "missing": len(missing),
             "extra": len(extra),
+            "duplicate_pairs": duplicate_pairs,
+            "invalid_list_fields": len(invalid_list_fields),
         }
-        if missing or extra:
+        if missing or extra or duplicate_pairs or invalid_list_fields:
             failures.append(domain)
 
     expected = canonical["equipment"]
     actual = set()
     for domain in EQUIPMENT_DOMAINS:
-        actual |= projection_pairs(unified, domain)
+        domain_pairs, duplicate_pairs, invalid_list_fields = projection_pairs(unified, domain)
+        actual |= domain_pairs
+        equipment_duplicate_pairs = locals().get("equipment_duplicate_pairs", 0) + duplicate_pairs
+        equipment_invalid_list_fields = locals().get("equipment_invalid_list_fields", 0) + len(invalid_list_fields)
     missing = sorted(expected - actual)
     extra = sorted(actual - expected)
     report["equipment"] = {
@@ -84,8 +95,10 @@ def main() -> int:
         "projection_pairs": len(actual),
         "missing": len(missing),
         "extra": len(extra),
+        "duplicate_pairs": equipment_duplicate_pairs,
+        "invalid_list_fields": equipment_invalid_list_fields,
     }
-    if missing or extra:
+    if missing or extra or equipment_duplicate_pairs or equipment_invalid_list_fields:
         failures.append("equipment")
 
     print(json.dumps({
