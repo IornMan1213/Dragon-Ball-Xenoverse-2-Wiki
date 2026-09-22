@@ -1027,3 +1027,16 @@
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [x] Commits: `5b68b4ff763e7cef005bc272b9c80e75fb0a7b81`, `80097f9561fb3d5c362e740cfc545684e160ce53`, `f992b7b6dd306c26a3784aee85919f193f1cb67d`, `372055c3205aa0b6810dbdf53bec822aebe0f45f`.
 - [ ] Exact next task: audit the remaining PQ presentation consumer contracts in `docs/data/pq-cross-domain-index.json`, prioritizing `scripts/validate_pq_reference_pages.py`, `scripts/validate_pq_explorer_reward_navigation.py`, and `scripts/validate_pq_explorer_character_navigation.py` against their live consumer fields; repair only deterministic current-state drift and preserve historical/provenance conflicts.
+
+
+### 2026-09-22 cycle update — PQ presentation consumer contract audit
+- [x] Audited `scripts/validate_pq_reference_pages.py`, `scripts/validate_pq_explorer_reward_navigation.py`, and `scripts/validate_pq_explorer_character_navigation.py` against their live consumer pages and canonical data.
+- [x] Reference-page consumer is aligned: **186** canonical PQ records, **860** relationship edges, farming set **PQ15/PQ22/PQ44/PQ45/PQ68/PQ83/PQ88**, and the page links to the live `Parallel-Quests-All.html` explorer. No stale PQ13 farming shorthand remains.
+- [x] Reward explorer consumer is aligned: **244 skills / 151 Super Souls / 125 equipment / 86 DLC edges**, with zero unresolved canonical reward/DLC targets. Its structured PQ reward fields were independently rechecked at **244/244, 151/151, 125/125** after the previous consumer repair.
+- [x] Character explorer consumer is aligned: **247 character edges**, **75 unique canonical character targets**, **143 source PQs**, zero missing character targets, and zero invalid PQ IDs; canonical PQ record layer remains 186 records.
+- [x] Refreshed `docs/data/pq-reference-page-audit.json`, `docs/data/pq-explorer-reward-navigation-audit.json`, and `docs/data/pq-explorer-character-navigation-audit.json` with current validator references/date and live counts.
+- [x] Strengthened `scripts/validate_pq_reference_pages.py` with an explicit live-explorer-link contract.
+- [x] No relationship identities or target aliases were added/removed. Existing evidence boundaries and historical conflicts remain preserved.
+- [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
+- [x] Commits: `433d37d44c34cbe4128cbb93f298fd33cdb1070e`, `346b275ac4d5fc792ab127daea3ec6b68cf095e8`, `9ebd2c4aa34ad981e0259ba21dd5be6201d76647`, `08f0c633c7f65203c6d1178a9432480f52647097`.
+- [ ] Exact next task: continue down the cross-domain consumer chain by auditing `scripts/validate_skills_pq_reverse_navigation.py` / `docs/data/skill-pq-acquisition-presentation-audit.json` and `scripts/validate_record_reverse_pq_navigation.py` / `docs/data/record-reverse-pq-navigation-audit.json` against canonical PQ relationships and live target records; repair deterministic reverse-link drift only.
