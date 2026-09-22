@@ -18,18 +18,30 @@ def load(path: Path):
 def main() -> int:
     canonical = load(CANONICAL)
     index = load(INDEX)
+    records = index.get("records", [])
+    record_pqs = [record.get("pq") for record in records]
+    duplicate_record_pqs = sorted({pq for pq in record_pqs if record_pqs.count(pq) > 1})
+    malformed_records = [
+        record.get("pq") for record in records
+        if not isinstance(record.get("pq"), int)
+        or not isinstance(record.get("super_souls"), list)
+    ]
     canonical_pairs = {
         (int(str(r["pq"]).replace("pq-", "")), str(r["target"]))
         for r in canonical.get("verified_relationships", [])
         if r.get("relationship") == "pq_rewards_super_soul"
         and 41 <= int(str(r["pq"]).replace("pq-", "")) <= 186
     }
-    index_pairs = {
+    index_pair_rows = [
         (int(record["pq"]), str(name))
-        for record in index.get("records", [])
-        if 41 <= int(record["pq"]) <= 186
+        for record in records
+        if isinstance(record.get("pq"), int)
+        and 41 <= int(record["pq"]) <= 186
+        and isinstance(record.get("super_souls"), list)
         for name in record.get("super_souls", [])
-    }
+    ]
+    index_pairs = set(index_pair_rows)
+    duplicate_pair_count = len(index_pair_rows) - len(index_pairs)
     missing = sorted(canonical_pairs - index_pairs, key=lambda x: (x[0], x[1].casefold()))
     extra = sorted(index_pairs - canonical_pairs, key=lambda x: (x[0], x[1].casefold()))
     case_variants = []
@@ -40,11 +52,23 @@ def main() -> int:
             case_variants.append({"pq": pq, "canonical": name, "indexed": matches[0]})
         else:
             exact_missing.append({"pq": pq, "canonical": name})
+    structural_failures = []
+    if duplicate_record_pqs:
+        structural_failures.append("duplicate_pq_records")
+    if malformed_records:
+        structural_failures.append("malformed_records")
+    if duplicate_pair_count:
+        structural_failures.append("duplicate_structured_pairs")
     result = {
-        "status": "pass",
+        "status": "clean_audit_with_reconciliation_findings" if not structural_failures else "unresolved_structural_error",
         "scope": "PQ41-186",
         "canonical_pairs": len(canonical_pairs),
+        "index_records": len(records),
+        "unique_index_pq_count": len(set(record_pqs)),
+        "duplicate_record_pqs": duplicate_record_pqs,
+        "malformed_records": malformed_records,
         "index_pairs": len(index_pairs),
+        "duplicate_structured_pair_count": duplicate_pair_count,
         "exact_pair_overlap": len(canonical_pairs & index_pairs),
         "canonical_missing_from_index": len(missing),
         "index_only_pairs": len(extra),
@@ -52,9 +76,10 @@ def main() -> int:
         "exact_missing_pairs": exact_missing,
         "semantics": "informational_reconciliation_only",
         "rule": "Do not rewrite canonical relationships or promote research-only acquisition pairs from this partial projection without independent source evidence.",
+        "structural_failures": structural_failures,
     }
     print(json.dumps(result, indent=2))
-    return 0
+    return 1 if structural_failures else 0
 
 if __name__ == "__main__":
     raise SystemExit(main())
