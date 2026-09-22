@@ -20,7 +20,10 @@
       "canonical_character_targets_resolve": true,
       "relationship_pq_ids_in_range": true
     },
-    "status": "clean"
+    "status": "clean",
+    "canonical_pq_record_count": 186
   },
-  "evidence_boundary": "Deterministic explorer navigation is validated from canonical relationship edges only; roster appearance is not promoted into relationships."
+  "evidence_boundary": "Deterministic explorer navigation is validated from canonical relationship edges only; roster appearance is not promoted into relationships.",
+  "date": "2026-09-22",
+  "validator": "scripts/validate_pq_explorer_character_navigation.py"
 }
