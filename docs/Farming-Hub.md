@@ -8,8 +8,10 @@ Consolidated high-value methods for the most important currencies and items.
 - Daily missions, events, first-clear PQs, Krillin/Yamcha repeatables.
 
 ## Dragon Balls
-- Rotate Parallel Quests that spawn Time Patrollers (PQ 23 frequently cited as one of the fastest).
-- Defeat Patrollers with supers/ultimates when possible.
+The repository's canonical farming relationship layer identifies **PQ15, PQ22, PQ44, PQ45, PQ68, PQ83, and PQ88** as Dragon Ball routes.
+- Use the canonical route set as the relationship-backed inventory of documented farming PQs.
+- Route efficiency, drop probability, and Ultimate Finish requirements are separate research fields and must not be inferred from the farming relationship alone.
+- See the individual PQ records for the maintained objectives/reward fields.
 
 ## Experience / Levels
 - High-score Parallel Quests or Expert Missions + strong score Super Souls:
