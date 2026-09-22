@@ -160,6 +160,13 @@
     "skill_comet_strike_provenance": "docs/data/skill-comet-strike-provenance-audit-2026-09-22.json",
     "skill_confusion_blade_provenance": "docs/data/skill-confusion-blade-provenance-audit-2026-09-22.json",
     "skill_core_breaker_provenance": "docs/data/skill-core-breaker-provenance-audit-2026-09-22.json",
-    "skill_counter_burst_provenance": "docs/data/skill-counter-burst-provenance-audit-2026-09-22.json"
+    "skill_counter_burst_provenance": "docs/data/skill-counter-burst-provenance-audit-2026-09-22.json",
+    "skill_counter_impact_provenance": "docs/data/skill-counter-impact-provenance-audit-2026-09-22.json",
+    "skill_crazy_finger_shot_provenance": "docs/data/skill-crazy-finger-shot-provenance-audit-2026-09-22.json",
+    "skill_crimson_edge_provenance": "docs/data/skill-crimson-edge-provenance-audit-2026-09-22.json",
+    "skill_critical_upper_provenance": "docs/data/skill-critical-upper-provenance-audit-2026-09-22.json",
+    "skill_crush_cannon_provenance": "docs/data/skill-crush-cannon-provenance-audit-2026-09-22.json",
+    "skill_crush_stream_provenance": "docs/data/skill-crush-stream-provenance-audit-2026-09-22.json",
+    "skill_crusher_ball_provenance": "docs/data/skill-crusher-ball-provenance-audit-2026-09-22.json"
   }
 }
