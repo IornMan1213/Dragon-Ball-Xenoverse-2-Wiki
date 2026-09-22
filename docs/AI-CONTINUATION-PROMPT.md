@@ -324,3 +324,14 @@
 - CI: no successful workflow/check exposed; no CI success claimed.
 - Commits: canonical equipment `55a2b5ff040975a78cf2ecee28b39d1c1827a1fd`; crosslink metadata `4a477c405691cd3908a8d5303dcbcdf2d55aae95`.
 - Exact next batch: **`equip-081`–`equip-090`**. Recompute the live census first; preserve the canonical identity structure and investigate any missing range IDs as existing cross-linked identities rather than creating duplicates.
+
+### 2026-09-22 live-state refresh — equipment 081-090 classification batch
+- Live commit before this handoff update: **1fa8da3ba45486136f87f107836693ae8671e02a**.
+- Canonical skill count: **452**; canonical PQ count: **186**; canonical Super Soul count: **234**.
+- Canonical equipment/accessory count: **168** after removing misclassified `equip-085` Mr. Shape Up M.
+- Active workstream: **P1 equipment provenance/classification and relationship integrity**.
+- Completed batch: `equip-081`–`equip-090`; eight standalone records enriched, `equip-085` removed as a consumable capsule/material, and `equip-088` retained only as historical normalization to `acc-012`.
+- `equip-090` Whis Symbol Gi acquisition corrected from PQ66 to **PQ76** using independent corroboration; the prior PQ66 endpoint must not be preserved as canonical.
+- Current generated-artifact queue: regenerate `docs/data/pq-equipment-crosslink-report.json` to remove `equip-085` and move `equip-090` to PQ76; then recompute the wider PQ reward cross-database census.
+- CI limitation remains unchanged: no successful Actions result is claimed unless GitHub exposes an actual successful workflow/check.
+- Exact next batch: **PQ equipment relationship regeneration and full cross-database endpoint census**, prioritizing deterministic endpoint/count drift before further provenance-only enrichment.
