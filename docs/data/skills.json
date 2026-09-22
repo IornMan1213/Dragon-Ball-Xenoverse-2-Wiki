@@ -12194,11 +12194,12 @@
       "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates",
-        "https://dragonball.fandom.com/wiki/Supernova"
+        "https://dragonball.fandom.com/wiki/Supernova",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
       ],
       "ki_cost": 500,
       "unlock_method": "Expert Mission 6 — \"The Depths of Despair\" Basic Reward.",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
@@ -12208,7 +12209,7 @@
       "source_quest": "EM-6",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 reward-tier refinement: maintained/independent Expert Mission evidence explicitly lists Supernova in the EM6 Basic Reward pool; no Ultimate Finish-only condition is inferred.",
+      "notes": "2026-09-20 reward-tier refinement: maintained/independent Expert Mission evidence explicitly lists Supernova in the EM6 Basic Reward pool; no Ultimate Finish-only condition is inferred. 2026-09-22 provenance strengthening: maintained Steam Expert Mission guide independently lists Supernova as the EM06 (The Depths of Despair) Basic Reward. This corroborates the existing EM06 acquisition endpoint and reward tier; no drop probability or additional gate is inferred.",
       "id": "skill-supernova"
     },
     {
