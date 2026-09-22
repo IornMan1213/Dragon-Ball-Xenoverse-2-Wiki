@@ -3,13 +3,13 @@
   "generated_at": "2026-09-22",
   "source_of_truth": "canonical relationship arrays and canonical domain records; historical verification/research layers are supporting evidence only",
   "master": {
-    "total_relationships": 862,
+    "total_relationships": 860,
     "counts": {
       "pq_rewards_skill": 244,
       "pq_rewards_super_soul": 151,
       "pq_rewards_equipment": 125,
       "pq_features_character": 247,
-      "pq_requires_dlc": 88,
+      "pq_requires_dlc": 86,
       "pq_farming_route": 7
     }
   },
@@ -58,20 +58,22 @@
     "reverse_endpoint_mismatches": 0,
     "historical_values_retained": true,
     "target_normalization_mismatches": 0,
-    "dlc_casefold_duplicate_keys": 0
+    "dlc_casefold_duplicate_keys": 0,
+    "duplicate_relationship_keys": 0,
+    "current_total_relationships": 860
   },
   "target_normalization": {
     "date": "2026-09-22",
     "character_targets_checked": 75,
     "character_targets_missing": 0,
     "character_aliases": 5,
-    "dlc_targets_checked": 21,
+    "dlc_targets_checked": 20,
     "dlc_casefold_duplicates_before": 1,
     "dlc_casefold_duplicates_after": 0,
     "affected_pqs": [
       185,
       186
     ],
-    "total_relationships": 862
+    "total_relationships": 860
   }
 }
