@@ -1726,3 +1726,13 @@
 - [x] Static validation: 452/452, no duplicate IDs, canonical/index affected-record parity preserved.
 - [ ] Runtime/CI remains unavailable; no executable CI success claimed.
 - [ ] Exact next batch: continue the stale-last_verified P1 skill provenance queue with the next unfinished skill after Big Bang Knuckle, recomputing the live canonical/index census first.
+
+
+### 2026-09-22 cycle update — Arm Crash / Assault Vanish / Audacious Laugh / Blades of Judgment provenance
+- [x] Fresh live skill census: 452 canonical / 452 index / 0 duplicate IDs; bounded batch: skill-arm-crash, skill-assault-vanish, skill-audacious-laugh, skill-blades-of-judgment.
+- [x] Independent evidence corroborated the existing acquisition endpoints: Nappa Lesson 1; PQ131; Zarbon Initiation Test; PQ112 Basic Reward.
+- [x] Refreshed canonical/index last_verified to 2026-09-22 and preserved existing reward-tier conflicts and unresolved probability fields.
+- [x] Added docs/data/skill-provenance-audit-2026-09-22-arm-through-blades.json.
+- [x] Static validation: 452/452, no duplicate canonical IDs, affected canonical/index records remain aligned on verification and acquisition fields.
+- [ ] Runtime/CI unavailable; no CI success claimed.
+- [ ] Exact next batch: recompute live census and continue the stale-last_verified P1 queue after Blades of Judgment.
