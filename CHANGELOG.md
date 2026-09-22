@@ -1451,3 +1451,10 @@
 - Preserved the existing Legendary Pack 1 provenance and did not infer a drop probability.
 - Synchronized canonical/index source lists and refreshed `last_verified` to **2026-09-21**.
 - Expected exactly-two-source census after this batch: **6**.
+
+## 2026-09-22 — Final six exactly-two-source skill provenance batch
+- Live pre-batch census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 6 exactly-two-source canonical records**.
+- Strengthened **Time Bullet, Timespace Impact, Ultra Instinct, Unrelenting Barrage, Venus Fist, and Victory Rush** with independent provenance sources.
+- Synchronized canonical/index sources and refreshed `last_verified` to **2026-09-22**; existing acquisition, DLC/version, Ultimate Finish, and uncertainty semantics were preserved.
+- Evidence used: Dragon Ball Wiki for Time Bullet, Timespace Impact, and Ultra Instinct; GameFAQs for Unrelenting Barrage and Victory Rush; Steam community evidence for Venus Fist.
+- No new drop probability, Ultimate Finish gate, shop rotation, or restriction was inferred.
