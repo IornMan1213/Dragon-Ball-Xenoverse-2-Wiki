@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "DLC content-domain projection reconciliation",
+  "source_of_truth": "docs/data/dlc/canonical-dlc-identity.json",
+  "canonical_relationship_source": "docs/data/pq-reward-relationships.json",
+  "records": [
+    {
+      "projection": "future-saga",
+      "type": "parent_bundle",
+      "canonical_ids": [
+        "future-saga-chapter-1",
+        "future-saga-chapter-2",
+        "future-saga-chapter-3",
+        "future-saga-chapter-4"
+      ],
+      "resolved_domains": [
+        "characters",
+        "extra_missions",
+        "parallel_quests",
+        "skills",
+        "costumes",
+        "super_souls",
+        "illustrations",
+        "ultra_time_patrol_battles",
+        "time_gallery"
+      ],
+      "evidence_map": "docs/data/future-saga-content-map.json",
+      "status": "resolved_as_parent_grouping; chapter-level record coverage remains separate"
+    },
+    {
+      "projection": "dragon-ball-daima-pack",
+      "type": "pack",
+      "canonical_ids": [
+        "dragon-ball-daima-pack"
+      ],
+      "pq_ids": [
+        "pq-179",
+        "pq-180",
+        "pq-181"
+      ],
+      "canonical_pq_edges": {
+        "skills": 6,
+        "super_souls": 2,
+        "equipment": 8,
+        "characters": 5
+      },
+      "declared_domains": [
+        "characters",
+        "parallel_quests",
+        "skills",
+        "super_souls",
+        "costumes",
+        "accessories",
+        "raid_battles",
+        "lobby_items"
+      ],
+      "status": "identity_and_PQ_projection_resolved; raid/lobby and complete pack inventory remain unresolved at record level"
+    },
+    {
+      "projection": "hero-of-justice-pack-2",
+      "type": "pack",
+      "canonical_ids": [
+        "hero-of-justice-pack-2"
+      ],
+      "pq_ids": [
+        "pq-159",
+        "pq-160",
+        "pq-161",
+        "pq-162"
+      ],
+      "canonical_pq_edges": {
+        "skills": 7,
+        "super_souls": 5,
+        "equipment": 5,
+        "characters": 7
+      },
+      "declared_domains": [
+        "characters",
+        "parallel_quests",
+        "skills",
+        "costumes",
+        "stage"
+      ],
+      "status": "identity_and_PQ_projection_resolved; complete pack inventory/stage mapping remains unresolved at record level"
+    }
+  ],
+  "rules": [
+    "Projection metadata does not create canonical DLC identities or PQ edges.",
+    "Parent FUTURE SAGA remains a grouping node; Chapters 1-4 remain canonical DLC identities.",
+    "PQ-associated character/reward relationships are reported as navigation evidence, not automatically as complete DLC ownership/content manifests.",
+    "Unresolved domains remain explicit; no missing content is inferred."
+  ]
+}
