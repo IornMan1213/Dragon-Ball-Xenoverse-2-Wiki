@@ -1957,3 +1957,13 @@
 - [ ] Runtime/CI remains unavailable; validation is static JSON parsing and exact pair comparison only.
 - [x] Acquisition projection parity commit: 9edc9d308fc57d9ebfee6ceed4979d4d321c7fef.
 - [ ] Exact next batch: move to the next highest-priority structural cross-domain gap using the live TODO/handoff priority.
+
+
+### 2026-09-22 cycle update — Prominence Flash provenance completion and next-skill handoff reconciliation
+- [x] Fresh live canonical/index census for skills: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical ki_cost**; Prominence Flash exists in both layers as `skill-prominence-flash`.
+- [x] Re-inspected the canonical and index Prominence Flash records. Both agree on Ultimate / Ki Blast, PQ137 acquisition, Ultra Pack 1 provenance, 300 Ki, all-CaC-race availability, and the current evidence boundary around Ultimate Finish semantics.
+- [x] Independent acquisition verification: the maintained all-186-PQ Steam guide explicitly lists Prominence Flash under **PQ137 — Tournament of Power Round 2 — Basic Reward**; an independent Dragon Ball Wiki reference identifies it as an Ultra Pack 1 skill obtained through PQ137. citeturn1search0turn2search3
+- [x] No canonical skill identity, acquisition endpoint, reward relationship, or Ultimate Finish flag was changed; this pass confirms provenance parity only.
+- [x] Existing third-party source is already recorded in both canonical and index skill records, so no duplicate provenance entry was added.
+- [ ] Runtime/CI remains unavailable; validation is static direct-fetch, source/census comparison, and exact endpoint verification.
+- [ ] Exact next batch: **Requiem of Destruction (`skill-requiem-of-destruction`)** — recompute its live canonical/index census, inspect the full record, and independently verify its acquisition/source endpoint before making any provenance-only changes.
