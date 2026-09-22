@@ -1171,3 +1171,15 @@
 - [x] Static validation: 452/452, no duplicate IDs; affected records remain synchronized.
 - [ ] Runtime/CI unavailable; no CI success claimed.
 - [ ] Exact next batch: recompute live census and continue after Burst Reflection.
+
+
+### 2026-09-22 cycle update — Super Soul/equipment explorer record-navigation hardening
+- [x] Recomputed the live reverse-navigation contract from the canonical relationship layer: **151 PQ→Super Soul edges / 148 unique Super Soul targets** and **124 PQ→equipment edges / 122 unique equipment/accessory targets**; existing forward/reverse pair parity remains clean.
+- [x] Bounded consumer batch: docs/Super-Souls-All.html and docs/Equipment-All.html.
+- [x] Repaired a deterministic one-way navigation gap: each rendered Super Soul/equipment record name now links directly to the local full-text Search/ surface using the canonical record name, and each card exposes an explicit “Open local wiki search” link.
+- [x] Hardened scripts/validate_record_reverse_pq_navigation.py so the reverse-navigation audit requires record-level Search navigation in addition to canonical PQ pair parity, structured-field shape, duplicate detection, and query-parameter support.
+- [x] Updated docs/data/record-reverse-pq-navigation-audit.json to schema 1.5.0 with the new record-search navigation contract; existing acquisition conflicts and noncanonical metadata remain explicitly preserved.
+- [x] Validation by direct re-fetch: both explorers load their canonical local datasets and canonical relationship graph, retain ?q= initialization, render canonical PQ links, and now expose canonical-name Search links. No canonical relationship identity or acquisition fact was changed.
+- [ ] Runtime/CI execution remains unavailable; no executable validation or CI success claimed.
+- [x] Commits: equipment explorer 57e99208126679d75ce516d87674942fe4f850dd; Super Soul explorer 7ee86028bbeeb31fae4da5a69c915c60f490242a; validator 0560e25e6a48545878bdfcd6436de251e85aa18c; audit fb4dd2249ed37fa0da4d8562c7adcbfee31100ce.
+- [ ] Exact next batch: return to the remaining P1 cross-domain acquisition projection gap, starting with the seven unresolved PQ41–186 Super Soul acquisition-index differences; recompute the live pair census first, then reconcile only source-backed missing pairs/variants while preserving the canonical relationship layer and unresolved spelling conflicts.
