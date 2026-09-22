@@ -1273,3 +1273,10 @@
 - Post-write validation: **169 canonical equipment-accessory records / 0 duplicate IDs / 124 forward edges / 122 reverse endpoints / 0 unresolved target routes / 0 broken forward endpoints / 0 broken reverse endpoints**.
 - Evidence boundary: promoted records contain only source-backed identity and PQ acquisition endpoints; exact slot/category, DLC, restrictions, effects, and reward-slot semantics remain unresolved unless separately evidenced.
 - Next exact batch: **`equip-031`–`equip-040`** for bounded equipment-detail enrichment.
+
+### 2026-09-22 — Equipment provenance batch `equip-031`–`equip-040`
+- Enriched 10 canonical equipment records with independent equipment-catalog provenance and explicit PQ/DLC provenance.
+- Batch: `equip-031`–`equip-040`; all records now have 2 provenance sources and non-unresolved DLC provenance.
+- Validation: 169 canonical equipment records, 0 duplicate IDs; PQ→equipment 124 forward / 122 reverse / 0 unresolved / 0 broken endpoints.
+- Evidence boundary: exact reward probabilities, Ultimate Finish-only semantics, slot details, restrictions, and effects remain unresolved unless separately evidenced.
+- Next exact batch: `equip-041`–`equip-050`.
