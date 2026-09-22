@@ -3,7 +3,7 @@
   "game": "Dragon Ball Xenoverse 2",
   "status": "record_expansion_spec",
   "sources": ["https://dbxv2.fandom.com/wiki/Parallel_Quests","https://github.com/Madreag/xenoverse_2_wiki"],
-  "numbering_rule": "PQ 36 is a numbering gap; do not invent a record solely to fill the number.",
+  "numbering_rule": "The canonical player-facing range is PQ 1-186. PQ 36 is retained as an explicit numbered record; historical sources that omit/cut PQ36 remain provenance and must not override the canonical layer.",
   "record_requirements": [
     "PQ number and canonical name",
     "difficulty",
