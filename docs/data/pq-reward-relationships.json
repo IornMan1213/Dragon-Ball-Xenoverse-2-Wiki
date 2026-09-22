@@ -5575,14 +5575,6 @@
     {
       "pq": "pq-002",
       "relationship": "pq_rewards_equipment",
-      "target": "Flying Nimbus!!",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-      "notes": "Reward explicitly listed in the all-186 PQ guide; normalized-map omission was not treated as a negative claim."
-    },
-    {
-      "pq": "pq-002",
-      "relationship": "pq_rewards_equipment",
       "target": "Goku's Damaged Turtle Hermit Gi",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
