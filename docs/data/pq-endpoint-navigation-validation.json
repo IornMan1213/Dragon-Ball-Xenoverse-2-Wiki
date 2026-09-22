@@ -71,7 +71,7 @@
     "canonical_pq_records": 186,
     "canonical_skill_records": 452,
     "canonical_super_soul_records": 234,
-    "canonical_equipment_accessory_records": null,
+    "canonical_equipment_accessory_records": 173,
     "canonical_character_names": 149,
     "canonical_dlc_records": 20,
     "canonical_edge_count": 860,
@@ -89,7 +89,9 @@
       "equipment": {
         "edge_count": 125,
         "unique_target_count": 123,
-        "missing_targets": []
+        "missing_targets": [
+          "Mr. Shape Up L"
+        ]
       },
       "characters": {
         "edge_count": 247,
@@ -102,10 +104,66 @@
         "missing_targets": []
       }
     },
-    "dlc_content_projection": {
-      "records": 3,
-      "unresolved_canonical_ids": []
+    "status": "unresolved"
+  },
+  "results": {
+    "skills": {
+      "relationship_type": "pq_rewards_skill",
+      "edge_count": 244,
+      "unique_target_count": 239,
+      "missing_target_count": 0,
+      "missing_targets": [],
+      "duplicate_pair_count": 0,
+      "invalid_pq_id_count": 0,
+      "invalid_pq_ids": [],
+      "status": "clean"
     },
-    "status": "clean"
-  }
+    "super_souls": {
+      "relationship_type": "pq_rewards_super_soul",
+      "edge_count": 151,
+      "unique_target_count": 148,
+      "missing_target_count": 0,
+      "missing_targets": [],
+      "duplicate_pair_count": 0,
+      "invalid_pq_id_count": 0,
+      "invalid_pq_ids": [],
+      "status": "clean"
+    },
+    "equipment": {
+      "relationship_type": "pq_rewards_equipment",
+      "edge_count": 125,
+      "unique_target_count": 123,
+      "missing_target_count": 1,
+      "missing_targets": [
+        "Mr. Shape Up L"
+      ],
+      "duplicate_pair_count": 0,
+      "invalid_pq_id_count": 0,
+      "invalid_pq_ids": [],
+      "status": "unresolved"
+    },
+    "characters": {
+      "relationship_type": "pq_features_character",
+      "edge_count": 247,
+      "unique_target_count": 75,
+      "missing_target_count": 0,
+      "missing_targets": [],
+      "duplicate_pair_count": 0,
+      "invalid_pq_id_count": 0,
+      "invalid_pq_ids": [],
+      "status": "clean"
+    },
+    "dlc": {
+      "relationship_type": "pq_requires_dlc",
+      "edge_count": 86,
+      "unique_target_count": 20,
+      "missing_target_count": 0,
+      "missing_targets": [],
+      "duplicate_pair_count": 0,
+      "invalid_pq_id_count": 0,
+      "invalid_pq_ids": [],
+      "status": "clean"
+    }
+  },
+  "status": "unresolved"
 }
