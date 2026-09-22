@@ -112,6 +112,7 @@ def main():
         "pq_soul_links_present": "rewardLinks(r.super_soul_rewards,'Super Souls',soulUrl)" in h,
         "pq_equipment_links_present": "rewardLinks(r.equipment_rewards,'Equipment',equipmentUrl)" in h,
         "pq_dlc_links_present": "dlcUrl" in h and "dlcByPq" in h and "pq_requires_dlc" in h,
+        "pq_dlc_labels_use_canonical_identity": "canonicalDlc=dlcByPq[r.id]||''" in h,
         "dlc_targets_resolve": not dlc_unresolved,
         "dlc_identity_names_unique": not dlc_duplicate_names,
         "dlc_identity_ids_unique": not dlc_duplicate_ids,
