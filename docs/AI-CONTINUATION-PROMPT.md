@@ -1038,3 +1038,15 @@
 - [x] Registered the validator/audit in `docs/data/pq-cross-domain-index.json`.
 - [x] Evidence boundary preserved: this repair covers deterministic reference/index claims only; it does not infer reward mechanics or route-efficiency rankings.
 - [ ] Exact next batch: continue the broader PQ-facing consumer audit across remaining catalog/index pages, prioritizing stale reward/acquisition summaries and one-way navigation that can be repaired deterministically from canonical local data.
+
+
+### 2026-09-22 cycle update — standalone PQ reverse-index semantics repair
+- [x] Live skill acquisition census: **452 canonical skills**, **244 canonical PQ→skill edges**, with only five intentional multi-PQ records whose `source_quest` / `source_quest_or_shop` retains a primary route while `source_parallel_quests` preserves the complete canonical relationship set: Candy Beam, Kamehameha, Mach Dash, Time Control, and Warp Kamehameha. No deterministic acquisition contradiction was found; secondary PQ relationships were not incorrectly collapsed into a single source-quest field.
+- [x] Audited standalone PQ reverse indexes for PQ81-186 against the unified reverse projection. The standalone artifacts are source-normalized partial projections, so differences from the unified canonical layer are not automatically defects.
+- [x] Found canonical-vs-source-layer drift in the standalone artifacts: PQ81-120 (1 missing / 7 extra exact pairs), PQ121-142 (0 / 0), PQ143-162 (0 / 9), PQ163-186 (2 / 5). Examples include spelling/normalization variants such as `Starfall` vs `Destruction's Concerto: Starfall` and capitalization variants in late Super Soul names.
+- [x] Corrected `scripts/validate_pq_reverse_indexes.py`: standalone-vs-normalized-source mismatches remain hard failures; standalone-vs-unified-canonical differences are now explicitly informational because the source layer is documented as partial and must not override canonical relationships.
+- [x] Added `docs/data/pq-reward-normalization/pq-standalone-reverse-index-audit.json` documenting the exact live drift and evidence boundary.
+- [x] No canonical relationship, PQ identity, reward identity, or source-map record was rewritten merely to eliminate projection differences.
+- [x] Validation: re-fetched the validator and audit artifact from `main`; audit JSON is structurally valid and the validator contains the new hard-vs-informational comparison rule. CI success not claimed.
+- [x] Commits: `d19da20aa5ad21ce1561b7f32c213df5aeff9e12`, `197ed83dd060592fdcf24f9e43498ad787c0a97c`.
+- [ ] Exact next batch: inspect the standalone-vs-normalized-source pair sets themselves for any hard projection mismatches; if clean, move to the next highest-impact cross-domain producer/consumer drift rather than normalizing partial research indexes to the canonical relationship layer.
