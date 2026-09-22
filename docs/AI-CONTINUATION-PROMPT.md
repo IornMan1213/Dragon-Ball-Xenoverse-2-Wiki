@@ -6756,3 +6756,15 @@ The repository owner has clarified the continuation contract:
 - CI: inspected commit `edf8d714a509cfa5beed667b0b1b10864b6c07de`; combined status exposed **0 statuses** and the connector returned **0 workflow runs**, so CI success is not claimed. Validators were not weakened.
 - Commits: `c52ec6ef3f8c69b10cb0d3681e484a6fa12fd626` (canonical skills), `5b701857f6ba86b7278c0cfe7ad6b4c11a1ac2b1` (skills index), `80fc985c7dd02386abe55befdc0f6b6b040d7aa3` (changelog), `e486bd9d5a067f5221476c6df808e402d76de7a5` (coverage audit), `edf8d714a509cfa5beed667b0b1b10864b6c07de` (coverage wording correction).
 - Exact next batch: **recompute the live two-source census first, then continue with Gigantic Burst (`skill-gigantic-burst`)**. Verify its acquisition/reward semantics from repository evidence and an independent source before provenance-only strengthening; preserve nulls/conflicts and synchronize canonical/index records.
+
+
+### 2026-09-21 cycle update — Gigantic Burst low-source provenance strengthening
+- Workstream: P1 skill acquisition/DLC-version provenance cleanup; deterministic two-source census sequence.
+- Live pre-edit census: **452 canonical / 452 index / 38 exactly-two-source records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- Bounded batch: **Gigantic Burst (`skill-gigantic-burst`)**.
+- Evidence: Dragon Ball Wiki's Gigantic Burst entry independently documents the Xenoverse 2 Extra Pack 3 skill, its PQ127 acquisition, and its Future Warrior availability: https://dragonball.fandom.com/wiki/Gigantic_Burst . Independent PQ127 evidence also lists Gigantic Burst under the **Basic Reward** section, corroborating the repository's no-Ultimate-Finish requirement: https://steamcommunity.com/sharedfiles/filedetails/?id=808851543 .
+- Changes: added the Dragon Ball Wiki source to canonical `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21**; synchronized source projections; documented the batch in `CHANGELOG.md` and `docs/COVERAGE-AUDIT.md`.
+- Evidence limits preserved: existing **PQ127**, **Basic Reward**, **500 Ki**, **Kefla (Super Saiyan)**, **All CaC races**, and **Extra Pack 3** semantics were preserved. No drop probability or unsupported reward condition was inferred.
+- Validation: target was **37 exactly-two-source records** after the edit; canonical/index parity and duplicate/null-Ki checks remain required before handoff.
+- CI: no success is claimed unless the repository exposes a status/workflow result for the final commit.
+- Exact next batch: **recompute the live two-source census first, then continue with the next deterministic low-source record after Gigantic Burst**. Preserve conflicts/nulls, verify acquisition/reward semantics from repository evidence plus an independent source, and synchronize canonical/index records.
