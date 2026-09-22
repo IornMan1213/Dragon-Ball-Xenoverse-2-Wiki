@@ -1,38 +1,22 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "domain": "pq_accessory",
   "canonical_pq_records": 186,
-  "canonical_identity_records": 105,
+  "canonical_identity_records": 50,
   "research_pq_records": 45,
   "matched_forward_edges": [
     {
       "pq_id": "pq-003",
       "pq_number": 3,
-      "target_id": "accr-012",
+      "target_id": "acc-001",
       "target_name": "Piccolo's Turban",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-005",
-      "pq_number": 5,
-      "target_id": "accr-089",
-      "target_name": "Four-Star Dragon Ball Hat",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-009",
-      "pq_number": 9,
-      "target_id": "accr-090",
-      "target_name": "Chiaotzu's Hat (With Collar)",
       "status": "identity_matched",
       "source_backed": true
     },
     {
       "pq_id": "pq-025",
       "pq_number": 25,
-      "target_id": "accr-014",
+      "target_id": "acc-011",
       "target_name": "Goku's Wig",
       "status": "identity_matched",
       "source_backed": true
@@ -40,23 +24,15 @@
     {
       "pq_id": "pq-028",
       "pq_number": 28,
-      "target_id": "accr-039",
+      "target_id": "acc-004",
       "target_name": "Android 19's Hat",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-027",
-      "pq_number": 27,
-      "target_id": "accr-091",
-      "target_name": "Dore's Scouter",
       "status": "identity_matched",
       "source_backed": true
     },
     {
       "pq_id": "pq-022",
       "pq_number": 22,
-      "target_id": "accr-006",
+      "target_id": "acc-027",
       "target_name": "Tapion's Sword",
       "status": "identity_matched",
       "source_backed": true
@@ -64,585 +40,39 @@
     {
       "pq_id": "pq-029",
       "pq_number": 29,
-      "target_id": "accr-104",
+      "target_id": "acc-028",
       "target_name": "Yamcha's Sword",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-051",
-      "pq_number": 51,
-      "target_id": "accr-092",
-      "target_name": "Great Saiyaman Bandana 1",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-053",
-      "pq_number": 53,
-      "target_id": "accr-093",
-      "target_name": "Great Saiyaman Bandana 2",
       "status": "identity_matched",
       "source_backed": true
     },
     {
       "pq_id": "pq-063",
       "pq_number": 63,
-      "target_id": "accr-015",
+      "target_id": "acc-012",
       "target_name": "Goku Wig (Super Saiyan)",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-072",
-      "pq_number": 72,
-      "target_id": "accr-094",
-      "target_name": "Jaco's State-of-the-Art Radio",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-073",
-      "pq_number": 73,
-      "target_id": "accr-095",
-      "target_name": "Tagoma's Scouter",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-076",
-      "pq_number": 76,
-      "target_id": "accr-096",
-      "target_name": "SSGSS Goku Wig",
       "status": "identity_matched",
       "source_backed": true
     },
     {
       "pq_id": "pq-093",
       "pq_number": 93,
-      "target_id": "accr-013",
+      "target_id": "acc-002",
       "target_name": "Pan's Bandana",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-097",
-      "pq_number": 97,
-      "target_id": "accr-097",
-      "target_name": "Yamcha's Baseball Hat",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-100",
-      "pq_number": 100,
-      "target_id": "accr-098",
-      "target_name": "SSGSS Vegeta Wig",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-110",
-      "pq_number": 110,
-      "target_id": "accr-018",
-      "target_name": "SS4 Wig & Tail (Goku)",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-149",
-      "pq_number": 149,
-      "target_id": "accr-099",
-      "target_name": "Bulma (Kid) Wig",
       "status": "identity_matched",
       "source_backed": true
     },
     {
       "pq_id": "pq-051",
       "pq_number": 51,
-      "target_id": "accr-100",
+      "target_id": "acc-005",
       "target_name": "Great Saiyaman Helmet",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-111",
-      "pq_number": 111,
-      "target_id": "accr-028",
-      "target_name": "Resistance Helmet",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-105",
-      "pq_number": 105,
-      "target_id": "accr-027",
-      "target_name": "Android 13's Hat",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-null",
-      "pq_number": null,
-      "target_id": "accr-105",
-      "target_name": "Android 15's Shades & Hat",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-144",
-      "pq_number": 144,
-      "target_id": "accr-101",
-      "target_name": "Gine (DB Super) Set",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-148",
-      "pq_number": 148,
-      "target_id": "accr-103",
-      "target_name": "Kale Wig",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-147",
-      "pq_number": 147,
-      "target_id": "accr-102",
-      "target_name": "Caulifla Wig",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-152",
-      "pq_number": 152,
-      "target_id": "accr-029",
-      "target_name": "Android 17 (DB Super) Wig",
-      "status": "component_alias_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-160",
-      "pq_number": 160,
-      "target_id": "accr-034",
-      "target_name": "Red Ribbon Army Helmet",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-162",
-      "pq_number": 162,
-      "target_id": "accr-016",
-      "target_name": "Gohan (Beast) Wig",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-168",
-      "pq_number": 168,
-      "target_id": "accr-017",
-      "target_name": "Videl (DB Super) Wig",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-159",
-      "pq_number": 159,
-      "target_id": "accr-033",
-      "target_name": "Dr. Hedo Hood",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-179",
-      "pq_number": 179,
-      "target_id": "accr-019",
-      "target_name": "SS4 Goku (DAIMA) Wig & Tail",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-180",
-      "pq_number": 180,
-      "target_id": "accr-020",
-      "target_name": "SS3 Vegeta (DAIMA) Wig",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-181",
-      "pq_number": 181,
-      "target_id": "accr-021",
-      "target_name": "Glorio Wig",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-181",
-      "pq_number": 181,
-      "target_id": "accr-022",
-      "target_name": "Panzy Wig",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-182",
-      "pq_number": 182,
-      "target_id": "accr-023",
-      "target_name": "Golden Frieza Head",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-183",
-      "pq_number": 183,
-      "target_id": "accr-024",
-      "target_name": "Broly Wig (Black Hair, Normal)",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-184",
-      "pq_number": 184,
-      "target_id": "accr-025",
-      "target_name": "Dragon Ball Balloon",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-185",
-      "pq_number": 185,
-      "target_id": "accr-026",
-      "target_name": "Goku (Ultra Supervillain Quelled) Wig",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-152",
-      "pq_number": 152,
-      "target_id": "accr-029",
-      "target_name": "Android 17 (DB Super) Wig",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-154",
-      "pq_number": 154,
-      "target_id": "accr-030",
-      "target_name": "King Vegeta (DB Super) Wig",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-155",
-      "pq_number": 155,
-      "target_id": "accr-031",
-      "target_name": "Gamma 2's Helmet",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
-      "pq_id": "pq-156",
-      "pq_number": 156,
-      "target_id": "accr-032",
-      "target_name": "Gamma 1's Helmet",
       "status": "identity_matched",
       "source_backed": true
     }
   ],
   "reverse_edges": [
     {
-      "target_id": "accr-027",
-      "target_name": "Android 13's Hat",
-      "pq_ids": [
-        "pq-105"
-      ],
-      "pq_numbers": [
-        105
-      ]
-    },
-    {
-      "target_id": "accr-105",
-      "target_name": "Android 15's Shades & Hat",
-      "pq_ids": [
-        "pq-null"
-      ],
-      "pq_numbers": [
-        null
-      ]
-    },
-    {
-      "target_id": "accr-029",
-      "target_name": "Android 17 (DB Super) Wig",
-      "pq_ids": [
-        "pq-152"
-      ],
-      "pq_numbers": [
-        152
-      ]
-    },
-    {
-      "target_id": "accr-039",
-      "target_name": "Android 19's Hat",
-      "pq_ids": [
-        "pq-028"
-      ],
-      "pq_numbers": [
-        28
-      ]
-    },
-    {
-      "target_id": "accr-024",
-      "target_name": "Broly Wig (Black Hair, Normal)",
-      "pq_ids": [
-        "pq-183"
-      ],
-      "pq_numbers": [
-        183
-      ]
-    },
-    {
-      "target_id": "accr-099",
-      "target_name": "Bulma (Kid) Wig",
-      "pq_ids": [
-        "pq-149"
-      ],
-      "pq_numbers": [
-        149
-      ]
-    },
-    {
-      "target_id": "accr-102",
-      "target_name": "Caulifla Wig",
-      "pq_ids": [
-        "pq-147"
-      ],
-      "pq_numbers": [
-        147
-      ]
-    },
-    {
-      "target_id": "accr-090",
-      "target_name": "Chiaotzu's Hat (With Collar)",
-      "pq_ids": [
-        "pq-009"
-      ],
-      "pq_numbers": [
-        9
-      ]
-    },
-    {
-      "target_id": "accr-091",
-      "target_name": "Dore's Scouter",
-      "pq_ids": [
-        "pq-027"
-      ],
-      "pq_numbers": [
-        27
-      ]
-    },
-    {
-      "target_id": "accr-033",
-      "target_name": "Dr. Hedo Hood",
-      "pq_ids": [
-        "pq-159"
-      ],
-      "pq_numbers": [
-        159
-      ]
-    },
-    {
-      "target_id": "accr-025",
-      "target_name": "Dragon Ball Balloon",
-      "pq_ids": [
-        "pq-184"
-      ],
-      "pq_numbers": [
-        184
-      ]
-    },
-    {
-      "target_id": "accr-089",
-      "target_name": "Four-Star Dragon Ball Hat",
-      "pq_ids": [
-        "pq-005"
-      ],
-      "pq_numbers": [
-        5
-      ]
-    },
-    {
-      "target_id": "accr-032",
-      "target_name": "Gamma 1's Helmet",
-      "pq_ids": [
-        "pq-156"
-      ],
-      "pq_numbers": [
-        156
-      ]
-    },
-    {
-      "target_id": "accr-031",
-      "target_name": "Gamma 2's Helmet",
-      "pq_ids": [
-        "pq-155"
-      ],
-      "pq_numbers": [
-        155
-      ]
-    },
-    {
-      "target_id": "accr-101",
-      "target_name": "Gine (DB Super) Set",
-      "pq_ids": [
-        "pq-144"
-      ],
-      "pq_numbers": [
-        144
-      ]
-    },
-    {
-      "target_id": "accr-021",
-      "target_name": "Glorio Wig",
-      "pq_ids": [
-        "pq-181"
-      ],
-      "pq_numbers": [
-        181
-      ]
-    },
-    {
-      "target_id": "accr-016",
-      "target_name": "Gohan (Beast) Wig",
-      "pq_ids": [
-        "pq-162"
-      ],
-      "pq_numbers": [
-        162
-      ]
-    },
-    {
-      "target_id": "accr-026",
-      "target_name": "Goku (Ultra Supervillain Quelled) Wig",
-      "pq_ids": [
-        "pq-185"
-      ],
-      "pq_numbers": [
-        185
-      ]
-    },
-    {
-      "target_id": "accr-015",
-      "target_name": "Goku Wig (Super Saiyan)",
-      "pq_ids": [
-        "pq-063"
-      ],
-      "pq_numbers": [
-        63
-      ]
-    },
-    {
-      "target_id": "accr-014",
-      "target_name": "Goku's Wig",
-      "pq_ids": [
-        "pq-025"
-      ],
-      "pq_numbers": [
-        25
-      ]
-    },
-    {
-      "target_id": "accr-023",
-      "target_name": "Golden Frieza Head",
-      "pq_ids": [
-        "pq-182"
-      ],
-      "pq_numbers": [
-        182
-      ]
-    },
-    {
-      "target_id": "accr-092",
-      "target_name": "Great Saiyaman Bandana 1",
-      "pq_ids": [
-        "pq-051"
-      ],
-      "pq_numbers": [
-        51
-      ]
-    },
-    {
-      "target_id": "accr-093",
-      "target_name": "Great Saiyaman Bandana 2",
-      "pq_ids": [
-        "pq-053"
-      ],
-      "pq_numbers": [
-        53
-      ]
-    },
-    {
-      "target_id": "accr-100",
-      "target_name": "Great Saiyaman Helmet",
-      "pq_ids": [
-        "pq-051"
-      ],
-      "pq_numbers": [
-        51
-      ]
-    },
-    {
-      "target_id": "accr-094",
-      "target_name": "Jaco's State-of-the-Art Radio",
-      "pq_ids": [
-        "pq-072"
-      ],
-      "pq_numbers": [
-        72
-      ]
-    },
-    {
-      "target_id": "accr-103",
-      "target_name": "Kale Wig",
-      "pq_ids": [
-        "pq-148"
-      ],
-      "pq_numbers": [
-        148
-      ]
-    },
-    {
-      "target_id": "accr-030",
-      "target_name": "King Vegeta (DB Super) Wig",
-      "pq_ids": [
-        "pq-154"
-      ],
-      "pq_numbers": [
-        154
-      ]
-    },
-    {
-      "target_id": "accr-013",
-      "target_name": "Pan's Bandana",
-      "pq_ids": [
-        "pq-093"
-      ],
-      "pq_numbers": [
-        93
-      ]
-    },
-    {
-      "target_id": "accr-022",
-      "target_name": "Panzy Wig",
-      "pq_ids": [
-        "pq-181"
-      ],
-      "pq_numbers": [
-        181
-      ]
-    },
-    {
-      "target_id": "accr-012",
+      "target_id": "acc-001",
       "target_name": "Piccolo's Turban",
       "pq_ids": [
         "pq-003"
@@ -652,87 +82,27 @@
       ]
     },
     {
-      "target_id": "accr-034",
-      "target_name": "Red Ribbon Army Helmet",
+      "target_id": "acc-011",
+      "target_name": "Goku's Wig",
       "pq_ids": [
-        "pq-160"
+        "pq-025"
       ],
       "pq_numbers": [
-        160
+        25
       ]
     },
     {
-      "target_id": "accr-028",
-      "target_name": "Resistance Helmet",
+      "target_id": "acc-004",
+      "target_name": "Android 19's Hat",
       "pq_ids": [
-        "pq-111"
+        "pq-028"
       ],
       "pq_numbers": [
-        111
+        28
       ]
     },
     {
-      "target_id": "accr-020",
-      "target_name": "SS3 Vegeta (DAIMA) Wig",
-      "pq_ids": [
-        "pq-180"
-      ],
-      "pq_numbers": [
-        180
-      ]
-    },
-    {
-      "target_id": "accr-019",
-      "target_name": "SS4 Goku (DAIMA) Wig & Tail",
-      "pq_ids": [
-        "pq-179"
-      ],
-      "pq_numbers": [
-        179
-      ]
-    },
-    {
-      "target_id": "accr-018",
-      "target_name": "SS4 Wig & Tail (Goku)",
-      "pq_ids": [
-        "pq-110"
-      ],
-      "pq_numbers": [
-        110
-      ]
-    },
-    {
-      "target_id": "accr-096",
-      "target_name": "SSGSS Goku Wig",
-      "pq_ids": [
-        "pq-076"
-      ],
-      "pq_numbers": [
-        76
-      ]
-    },
-    {
-      "target_id": "accr-098",
-      "target_name": "SSGSS Vegeta Wig",
-      "pq_ids": [
-        "pq-100"
-      ],
-      "pq_numbers": [
-        100
-      ]
-    },
-    {
-      "target_id": "accr-095",
-      "target_name": "Tagoma's Scouter",
-      "pq_ids": [
-        "pq-073"
-      ],
-      "pq_numbers": [
-        73
-      ]
-    },
-    {
-      "target_id": "accr-006",
+      "target_id": "acc-027",
       "target_name": "Tapion's Sword",
       "pq_ids": [
         "pq-022"
@@ -742,33 +112,43 @@
       ]
     },
     {
-      "target_id": "accr-017",
-      "target_name": "Videl (DB Super) Wig",
-      "pq_ids": [
-        "pq-168"
-      ],
-      "pq_numbers": [
-        168
-      ]
-    },
-    {
-      "target_id": "accr-097",
-      "target_name": "Yamcha's Baseball Hat",
-      "pq_ids": [
-        "pq-097"
-      ],
-      "pq_numbers": [
-        97
-      ]
-    },
-    {
-      "target_id": "accr-104",
+      "target_id": "acc-028",
       "target_name": "Yamcha's Sword",
       "pq_ids": [
         "pq-029"
       ],
       "pq_numbers": [
         29
+      ]
+    },
+    {
+      "target_id": "acc-012",
+      "target_name": "Goku Wig (Super Saiyan)",
+      "pq_ids": [
+        "pq-063"
+      ],
+      "pq_numbers": [
+        63
+      ]
+    },
+    {
+      "target_id": "acc-002",
+      "target_name": "Pan's Bandana",
+      "pq_ids": [
+        "pq-093"
+      ],
+      "pq_numbers": [
+        93
+      ]
+    },
+    {
+      "target_id": "acc-005",
+      "target_name": "Great Saiyaman Helmet",
+      "pq_ids": [
+        "pq-051"
+      ],
+      "pq_numbers": [
+        51
       ]
     }
   ],
@@ -781,11 +161,37 @@
       "note": "PQ104 source evidence identifies Android 14's Clothes, not a separately named Android 14's Hat accessory. Current equipment catalog does not establish an exact canonical inventory item matching this research label."
     },
     {
+      "pq_record_id": "pqacc-024",
+      "name": "Android 15's Sunglasses",
+      "pq_number": null,
+      "match_status": "matched",
+      "note": "Canonical inventory identity is Android 15's Shades & Hat; research label 'Sunglasses' is treated as a component alias. Acquisition is TP Medal Shop, not a PQ reward."
+    },
+    {
       "pq_record_id": "pqacc-025",
       "name": "Bardock (DB Super)'s Scouter",
       "pq_number": 146,
       "match_status": "researched_unresolved",
       "note": "PQ146 source evidence identifies Bardock (DB Super)'s Clothes, not a separately named Bardock (DB Super)'s Scouter accessory. Current equipment catalog does not establish an exact canonical inventory item matching this research label."
     }
+  ],
+  "validation": {
+    "canonical_pq_records": 186,
+    "canonical_accessory_records": 50,
+    "research_records": 45,
+    "forward_edge_count": 8,
+    "reverse_edge_count": 8,
+    "unresolved_research_records": 3,
+    "missing_canonical_targets": 34,
+    "duplicate_forward_edges": 0,
+    "null_pq_edges": 0,
+    "stale_id_format_edges": 0,
+    "canonical_target_prefix": "acc-",
+    "endpoint_integrity": "pass"
+  },
+  "notes": [
+    "Canonical accessory IDs are `acc-###` in equipment-accessories-record-layer.json. Earlier `accr-###` IDs were stale relationship-layer identifiers and have been replaced.",
+    "The report is a projection of the explicit accessory-pq-canonical-bridge plus canonical accessory identities; unresolved research records remain research data and are not promoted into canonical edges.",
+    "Accessories remain a distinct relationship domain from clothing/equipment."
   ]
 }
