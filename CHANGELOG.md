@@ -1646,3 +1646,10 @@
 ### 2026-09-22 — PQ81-162 standalone reverse-index reconciliation
 
 Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, and PQ143-162. The PQ143-162 artifact was generated deterministically from its normalized reward map, closing the previously documented standalone coverage gap. Projection census: 108 indexed identities / 109 references for PQ81-120, 88 / 88 for PQ121-142, and 151 / 151 for PQ143-162. No canonical PQ identities or relationship edges changed. New PQ143-162 projection commit: f40a588758ef0a0c4388e5c6e4520608a24583a0. Exact next batch: compare these standalone indexes against the unified reverse index at exact relationship-pair level and repair deterministic projection drift only.
+
+## 2026-09-22 — PQ relationship metadata drift repair
+
+- Reconciled current PQ relationship counts to the unique canonical baseline of **860** edges: 244 skills, 151 Super Souls, 125 equipment, 247 character, 86 DLC, and 7 farming.
+- Corrected stale current DLC count metadata (**88 → 86**) in the PQ cross-domain audit/status layers and replaced the superseded 862-edge live-baseline wording with the current 860-edge baseline.
+- Preserved older 862/840/88 counts as historical audit records; no canonical relationship identities were changed.
+- Validation: 0 duplicate relationship keys, 0 invalid PQ numbers, 0 empty targets, and 0 reverse projection endpoint mismatches; no successful Actions workflow was exposed for the direct commit chain.
