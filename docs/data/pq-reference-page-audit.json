@@ -46,5 +46,8 @@
     "stale_pq13_farming_claim_absent": true
   },
   "status": "clean",
-  "evidence_boundary": "Deterministic count/set/navigation repair only; no new relationship edges or unsupported mechanics were inferred."
+  "evidence_boundary": "Deterministic count/set/navigation repair only; no new relationship edges or unsupported mechanics were inferred.",
+  "date": "2026-09-22",
+  "validator": "scripts/validate_pq_reference_pages.py",
+  "live_validation_note": "Current live canonical layer and both consumer pages remain aligned: 186 PQ records, 860 relationship edges, and farming set PQ15/PQ22/PQ44/PQ45/PQ68/PQ83/PQ88."
 }
