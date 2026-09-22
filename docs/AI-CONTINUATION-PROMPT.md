@@ -51,3 +51,14 @@
 - CI/Actions: no successful workflow/check exposed; do not claim CI success.
 - Commits: canonical 311907d5bbfc7d08a587b654b41301e070a546b3; index 9aa05a8d1d237ce6404e80b8c9b5f16bb1646a24; changelog 52293758a8282c1f19f0687f93609ebdb05fb8c5.
 - Exact next batch: Rise to Action (skill-rise-to-action). Recompute the live census, inspect the canonical/index records, and independently verify its acquisition/source endpoint before editing.
+
+
+### 2026-09-21 cycle update — Kairos Cannon provenance strengthening
+- [x] Recomputed the live skill census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 14 exactly-two-source canonical records**.
+- [x] Strengthened **Kairos Cannon (`skill-kairos-cannon`)** with the independent Dragon Ball Wiki technique entry, corroborating Chronoa/Supreme Kai of Time ownership and the Conton City Tournament 02 — “Thinning the Herd” acquisition endpoint.
+- [x] Preserved the existing repository acquisition wording, Free Update 11 classification, mechanics, and character-scope semantics; no reward probability or additional gate was inferred.
+- [x] Synchronized canonical/index source projections and verification date; source parity remains clean.
+- [x] Validation target after write: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 14 exactly-two-source records**.
+- [x] Research evidence: Dragon Ball Wiki corroborates the skill identity and tournament acquisition; the repository's existing official Bandai Namco DLC source remains retained.
+- [ ] CI/Actions: not yet verified for this direct-commit chain; do not claim CI success.
+- [ ] Exact next task: **Rise to Action** (`skill-rise-to-action`); recompute the census first and verify the acquisition/source relationship before provenance-only strengthening.
