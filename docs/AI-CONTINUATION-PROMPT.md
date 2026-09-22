@@ -1319,3 +1319,15 @@
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [x] Commits: `a55896053fa0badb20dacb0ce677132a4861efef`, `83619b8beaed5ea515490205ec3ea5b463590129`.
 - [ ] Exact next task: continue the cross-domain chain with `scripts/validate_pq_endpoint_navigation.py`, `scripts/validate_pq_presentation_indexes.py`, and their endpoint/presentation audits, checking canonical target resolution and PQ↔entity identity without promoting acquisition metadata into new relationships.
+
+
+### 2026-09-22 cycle update — published Character/DLC navigation repair
+- [x] Audited the published Character and DLC index pages against their referenced repository-local navigation artifacts.
+- [x] Found one deterministic stale link in `docs/Characters.md`: `Characters-All.md` did not exist; the published explorer is `Characters-All.html`.
+- [x] Repaired the link without changing character identity data, PQ relationships, DLC identities, or provenance.
+- [x] Added `scripts/validate_published_character_dlc_navigation.py` to enforce the checked local navigation contracts.
+- [x] Added `docs/data/characters/published-character-dlc-navigation-audit.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation scope: Character explorer, Character Core Profiles, DLC character identity audit/bridge, canonical DLC identity, DLC PQ reverse index/audit, Future Saga content map, and DLC presentation audit all resolve to existing local artifacts.
+- [x] No canonical relationship identities were added, removed, renamed, or inferred.
+- [ ] CI: no successful GitHub Actions status exposed for this direct-commit chain; CI success not claimed.
+- [ ] Exact next task: continue the published-page/structured-index audit beyond the Character/DLC pair, prioritizing other cross-domain consumer pages and local navigation surfaces that consume canonical PQ, skill, Super Soul, equipment, character, or DLC endpoints; repair only deterministic stale/broken links and record unresolved external-corpus dependencies explicitly.
