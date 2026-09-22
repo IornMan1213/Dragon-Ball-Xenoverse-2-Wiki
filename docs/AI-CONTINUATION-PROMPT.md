@@ -1812,3 +1812,14 @@
 - [x] Updated pq-endpoint-alias-granularity-map.json current baseline from 860 to 859 while preserving the two explicit equipment naming conflicts and six DLC granularity mappings.
 - [x] No equip-141 through equip-150 records exist in the live legacy equipment layer; maximum legacy ID remains equip-140, so no nonexistent records were invented.
 - [ ] Exact next task: fresh census, then audit the remaining registered cross-domain presentation/identity consumers for stale 859/124 baselines; after that, use the alias/granularity bridge to resolve only independently evidenced equipment naming conflicts.
+
+
+### 2026-09-22 continuation cycle — non-PQ projection census repair
+- Continued the non-PQ consumer/navigation audit from commit `8ae0fdfd8e923270f61416d0546c2ddb8e27e678`.
+- Fresh live search identified stale current equipment projection metadata in `docs/data/pq-cross-domain-audit.json` and `docs/data/pq-cross-domain-status.json`: the current equipment report was still recorded as 125 forward edges / 123 reverse endpoints even though the authoritative canonical relationship layer is 124 equipment edges / 122 unique reverse endpoints.
+- Corrected only those current projection fields to **124 forward / 122 reverse**, preserving all dated 125/123, 862/840/860 historical records unchanged.
+- Updated the projection note from “125 canonical equipment-domain edges” to “124 canonical equipment-domain edges”.
+- Commits: `46bfb3c8589b50cb3c8cdb4e12f51b2b273d42eb` (audit) and `3eff4ea3c9047d5bee38d4c7492050876cde1e85` (status).
+- Current canonical baseline remains **859 total edges: 244 skill / 151 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming**.
+- No relationship edges were added or removed in this cycle; this was consumer/projection metadata synchronization only.
+- Next exact gate: fresh search for other current (not historical) consumer fields that disagree with the 859/244/151/124/247/86/7 baseline, then direct-fetch each hit before repair. Avoid broad numeric replacement because historical audit snapshots are intentionally retained.
