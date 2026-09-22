@@ -1,3 +1,12 @@
+## 2026-09-22 — Equipment detail enrichment 091-100
+
+- Enriched legacy equipment endpoints `equip-091`–`equip-100` with source-backed category/slot/DLC provenance.
+- Preserved canonical accessory bridges `equip-091→acc-058` and `equip-093→acc-070`.
+- Added `docs/data/equipment/equipment-091-100-detail-audit.json`.
+- Validation: **174 combined equipment/accessory records / 139 legacy records / 0 duplicate IDs or names / 125 PQ→equipment edges / 123 unique targets / 0 broken endpoints**.
+- No reward probability, guaranteed-drop semantics, combat/stat effect, or unsupported restriction was inferred.
+- Commits: canonical `267cb0dcd98b9c5b8307e0d0f1ca5ac4b3da65cb`; combined `af70f83339d32794fa6c577ebfadc97850bd0f62`; audit `87b75353add617b60607c476dacb3442dc95ba3b`.
+
 ## 2026-09-22 — Equipment provenance batch 081-090
 
 - Enriched equipment endpoints `equip-081`, `082`, `083`, `084`, `086`, `087`, `089`, and `090` with maintained catalog provenance and slot coverage.
