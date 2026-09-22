@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-22",
+  "scope": "direct PQ template and DLC requirement presentation audit",
+  "canonical": {
+    "pq_records": 186,
+    "relationship_edges": 859,
+    "dlc_edges": 86,
+    "dlc_identity_records": 20
+  },
+  "consumers": [
+    {
+      "file": "docs/Parallel-Quests-All.html",
+      "status": "clean",
+      "checks": [
+        "Loads the canonical local PQ record layer.",
+        "Loads the canonical pq-reward-relationships layer.",
+        "Builds displayed DLC labels only from pq_requires_dlc edges.",
+        "Uses canonical DLC target text for DLC navigation.",
+        "Provides skill, Super Soul, equipment, character, and DLC cross-navigation through canonical/local search surfaces."
+      ]
+    },
+    {
+      "file": "docs/data/dlc/canonical-dlc-identity.json",
+      "status": "clean",
+      "checks": [
+        "Contains exactly the 20 canonical DLC identities used by pq_requires_dlc.",
+        "Explicitly states it does not create or modify PQ relationships."
+      ]
+    },
+    {
+      "file": "scripts/validate_pq_explorer_reward_navigation.py",
+      "status": "clean",
+      "checks": [
+        "Checks exact canonical-to-structured reward pair parity.",
+        "Checks all canonical DLC targets resolve to canonical DLC identities.",
+        "Checks duplicate DLC pairs and identity IDs.",
+        "Checks the HTML contains canonical DLC navigation construction."
+      ]
+    },
+    {
+      "file": "scripts/validate_dlc_presentation_consumers.py",
+      "status": "clean",
+      "checks": [
+        "Checks 86 canonical PQ→DLC pairs and exact reverse-index parity.",
+        "Checks all 20 canonical DLC identities receive reverse PQ navigation.",
+        "Checks downstream content/Future Saga IDs resolve without creating identities."
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "file": "docs/data/pq-nonreward-provenance-audit.json",
+      "change": "Synchronized pq_requires_dlc provenance census from stale 88 edges/21 targets to current 86 edges/20 targets."
+    },
+    {
+      "file": "docs/data/pq-cross-domain-audit.json",
+      "change": "Relabeled the stale 862-edge pre-repair snapshot as historical and restored a current 859-edge live integrity/stable baseline; historical values remain preserved."
+    }
+  ],
+  "evidence_boundary": "No PQ reward, DLC relationship, or DLC identity was invented. Direct template behavior was checked against canonical repository sources and existing validator contracts.",
+  "validation": "Static direct-fetch inspection and exact-count/contract comparison; executable runtime/CI remains unavailable."
+}
