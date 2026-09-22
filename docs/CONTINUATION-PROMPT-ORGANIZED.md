@@ -1079,3 +1079,14 @@
 - [ ] Runtime/CI remains unavailable; validation was static direct-fetch JSON parsing and exact pair comparison.
 - [x] Commits: acquisition projection `6ff4b3eb2e39cd413917ad46e527d36e19727802`; reconciliation audit `52f0fc86d78277fa4648edebcca26975a8506bf0`.
 - [ ] Exact next batch: independently reconcile the **two PQ158 Super Soul pairs**, preserving the existing source spelling conflict, then PQ174/PQ178/PQ179.
+
+
+### 2026-09-22 cycle update — Afterimage Strike provenance verification
+- [x] Fresh live skill census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical ki_cost**; bounded record: `skill-afterimage-strike`.
+- [x] Independent evidence: the current Afterimage Strike reference identifies **Parallel Quest 81 — "Wake Up!"** as the unlock; the maintained all-186-PQ Steam guide lists Afterimage Strike in PQ81's **Basic Reward**; an independent PQ81 record also lists it under Basic Reward.
+- [x] Canonical `docs/data/skills.json` and generated/index `docs/data/skills-index.json` were updated only for provenance freshness: `last_verified` is now **2026-09-22**, and the evidence note records the independent verification. No skill identity, classification, acquisition endpoint, Ultimate Finish flag, or relationship was changed.
+- [x] Evidence boundary preserved: Basic Reward placement establishes the documented acquisition route but does not establish a drop probability; no Ultimate Finish-only gate is inferred.
+- [x] Static validation after writes: canonical/index record parity for name, unlock method, Ultimate Finish flag, and `last_verified` is **exact**; both records retain 4 sources and `skill-afterimage-strike` / PQ81 identity.
+- [ ] Runtime/CI execution remains unavailable; no executable validation or CI success claimed.
+- [x] Commits: canonical `82a108ca9a5b5d7ead16cd445cbb794b985241b0`; index `bdfc0921f2e2590c675685255583b707a1201ac1`.
+- [ ] Exact next batch: continue the P1 skill provenance census with the **next unfinished skill after Afterimage Strike**, recomputing the live canonical/index census first and making provenance-only changes unless deterministic evidence requires a correction.
