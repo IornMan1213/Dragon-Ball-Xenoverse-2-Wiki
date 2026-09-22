@@ -1642,3 +1642,7 @@
 - CI: no successful workflow/check exposed for this direct-commit chain.
 - Current master remains **862 relationships**: 244 skill / 151 Super Soul / 125 equipment / 247 character / 88 DLC / 7 farming.
 - Exact next batch: **trace the 247 character edges and 88 DLC edges back to their canonical PQ records and identify any target/alias normalization gaps, without treating source text as a canonical source of truth.**
+
+### 2026-09-22 — PQ81-162 standalone reverse-index reconciliation
+
+Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, and PQ143-162. The PQ143-162 artifact was generated deterministically from its normalized reward map, closing the previously documented standalone coverage gap. Projection census: 108 indexed identities / 109 references for PQ81-120, 88 / 88 for PQ121-142, and 151 / 151 for PQ143-162. No canonical PQ identities or relationship edges changed. New PQ143-162 projection commit: f40a588758ef0a0c4388e5c6e4520608a24583a0. Exact next batch: compare these standalone indexes against the unified reverse index at exact relationship-pair level and repair deterministic projection drift only.
