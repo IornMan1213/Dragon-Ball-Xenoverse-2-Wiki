@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "PQ cross-domain presentation/reverse-index identity parity",
+  "canonical_sources": {
+    "pq": "docs/data/pq-reward-relationships.json",
+    "skills": "docs/data/skills.json",
+    "super_souls": "docs/data/super-souls-record-layer.json",
+    "equipment_accessories": "docs/data/equipment-accessories-record-layer.json",
+    "dlc": "docs/data/dlc/canonical-dlc-identity.json"
+  },
+  "results": {
+    "skills": {
+      "reverse_records": 239,
+      "missing_ids": [],
+      "name_mismatches": [],
+      "unresolved": 0
+    },
+    "super_souls": {
+      "reverse_records": 148,
+      "missing_ids": [],
+      "name_mismatches": [],
+      "unresolved": 0
+    },
+    "equipment": {
+      "reverse_records": 123,
+      "missing_ids": [],
+      "name_mismatches": [],
+      "unresolved": 0
+    },
+    "accessories": {
+      "reverse_records": 28,
+      "missing_ids": [],
+      "name_mismatches": [],
+      "unresolved": 0
+    }
+  },
+  "alias_granularity_bridge": {
+    "equipment": {
+      "records": 2,
+      "unresolved_targets": [],
+      "status": "resolved_as_explicit_conflicts"
+    },
+    "dlc": {
+      "records": 6,
+      "unresolved_targets": [],
+      "status": "resolved_as_deterministic_granularity"
+    }
+  },
+  "dlc_content_projection": {
+    "records": 3,
+    "unresolved_canonical_ids": [],
+    "status": "resolved"
+  },
+  "canonical_edge_count": 860,
+  "status": "resolved",
+  "notes": [
+    "The accessory reverse report uses canonical equipment/accessory IDs; unresolved research-only accessory records remain explicitly outside canonical navigation.",
+    "The alias/granularity bridge does not create or modify canonical relationships.",
+    "The FUTURE SAGA parent bundle remains grouping metadata; chapter IDs remain canonical."
+  ]
+}
