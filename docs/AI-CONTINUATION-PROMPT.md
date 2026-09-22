@@ -358,3 +358,13 @@
 - Deterministic correction: PQ48's duplicate `Kamekameha` reward typo was removed from `skill_rewards` and normalized to canonical `Kamehameha` in the general reward list.
 - Exact next task: reconcile the separate **PQ accessory** relationship layer against canonical accessory identities and the canonical PQ reward model. Keep accessories distinct from equipment and do not invent schema fields unless the cross-link contract requires them.
 - Do not return to provenance-only enrichment until the accessory relationship model and remaining cross-domain structural drift are reconciled.
+
+### 2026-09-22 live-state refresh — PQ accessory relationship reconciliation
+- Completed accessory relationship integrity pass; latest TODO commit: `b96f0ff46082228696d517885f6b4255618406f9`.
+- Canonical live accessory identities in `equipment-accessories-record-layer.json`: **50** records using `acc-###` IDs.
+- Previous PQ accessory report used stale `accr-###` endpoints that were absent from the live canonical layer. Those stale endpoints were removed rather than treated as canonical truth.
+- Exact-name reconciliation promoted **8** valid accessory edges: **8 forward / 8 reverse / 0 stale / 0 duplicate**.
+- **37** research accessory leads remain unresolved and are preserved in the bridge/backlog rather than being inferred into canonical identities.
+- No `accessory_rewards` field was invented for canonical PQ records; the cross-link contract supports a distinct PQ ↔ Accessories relationship layer without requiring accessories to be folded into the PQ reward-array schema.
+- Exact next task: independently reconcile the remaining **37 accessory research leads** against inventory-level evidence and promote only exact canonical identities. Keep clothing/set/component claims separate from canonical accessory identities.
+- Canonical source-of-truth rule remains active: canonical accessory identities and canonical PQ data are authoritative; research/verification layers only provide evidence and unresolved leads.
