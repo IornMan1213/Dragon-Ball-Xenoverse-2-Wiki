@@ -1779,3 +1779,11 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Synchronized canonical/index records and refreshed `last_verified`.
 - [x] Validation: **452 / 452 / 0 / 0 / 30 exactly-two-source records**.
 - [ ] Next task: **Instant Transmission (`skill-instant-transmission`)**, verify Goku mentor Lesson 1 acquisition independently.
+
+
+### 2026-09-21 — Instant Transmission provenance strengthening
+- [x] Recomputed live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 30 exactly-two-source records**.
+- [x] Added maintained Steam instructor guide as independent provenance for Goku Lesson 1 → Instant Transmission.
+- [x] Synchronized canonical/index records; preserved existing CaC, cost, and Ultimate Finish semantics.
+- [x] Removed internal citation artifacts from the persistent handoff while updating it with plain source references.
+- [ ] Next task: **Kai Kai (`skill-kai-kai`)**.
