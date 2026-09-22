@@ -7,7 +7,10 @@
   "audited_files": [
     "docs/Skill-Unlock-Methods.md",
     "docs/Skills-Database.md",
-    "docs/Skills-Complete-Database.md"
+    "docs/Skills-Complete-Database.md",
+    "docs/Skills-Unlock-Database.md",
+    "docs/Farming-Hub.md",
+    "docs/Farming-Routes.md"
   ],
   "findings": [
     {
@@ -27,6 +30,24 @@
       "status": "repaired",
       "issue": "PQ rewards were described as reward-table drops, often on Ultimate Finish, without an explicit evidence boundary.",
       "resolution": "Changed summary to canonical association wording and explicitly requires independent evidence before asserting a guaranteed drop or Ultimate Finish trigger."
+    },
+    {
+      "file": "docs/Skills-Unlock-Database.md",
+      "status": "repaired",
+      "issue": "PQ acquisition table presented Ultimate Finish as an acquisition field without explicitly separating canonical association from the condition.",
+      "resolution": "The table now distinguishes canonical PQ→skill association from independently verified Ultimate Finish, trigger, and drop fields."
+    },
+    {
+      "file": "docs/Farming-Hub.md",
+      "status": "repaired",
+      "issue": "Skill farming summary paired Parallel Quests with Ultimate Finish without an evidence boundary.",
+      "resolution": "Skill farming guidance now points to canonical PQ→skill relationships and separately evidenced reward mechanics."
+    },
+    {
+      "file": "docs/Farming-Routes.md",
+      "status": "repaired",
+      "issue": "Skill farming route summary used high-value PQs with Ultimate Finish as generic guidance.",
+      "resolution": "Route guidance now requires canonical skill relationships and separately verified Ultimate Finish/reward-trigger conditions."
     }
   ],
   "canonical_relationship_baseline": {
