@@ -1170,3 +1170,10 @@
 - Strengthened **Full Power Charge (`skill-full-power-charge`)** from two to three sources using an independent Advancement Test page that lists Full Power Charge as a Basic Reward of Advancement Test - Advanced Class in Xenoverse 2.
 - Existing acquisition endpoint was preserved; no Ultimate Finish requirement was inferred.
 - Post-write target: **39 exactly-two-source records**.
+
+
+## 2026-09-21 — Galick Gun low-source provenance strengthening
+- Live pre-edit census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 39 exactly-two-source records**.
+- Strengthened **Galick Gun (`skill-galick-gun`)** from two to three sources using Twinfinite's Xenoverse 2 Vegeta Mentor / Master Quest Guide, which independently documents Galick Gun as the Vegeta Initiation Test reward.
+- Existing acquisition endpoint and no-Ultimate-Finish inference were preserved.
+- Post-write target: **38 exactly-two-source records**.
