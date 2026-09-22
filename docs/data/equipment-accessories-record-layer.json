@@ -1847,157 +1847,165 @@
     {
       "id": "equip-071",
       "name": "Dore's Scouter",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 27 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
-      "restrictions": null,
-      "combat_effect": "unresolved",
-      "verification_status": "partially_verified",
-      "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-      ],
-      "parallel_quest_ids": [
-        27
-      ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
-    },
-    {
-      "id": "equip-072",
-      "name": "Hercule's Clothes",
-      "category": "unclassified",
-      "acquisition_routes": [
-        "Parallel Quest 21 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved).",
-        "Parallel Quest 30 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
-      ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Base game",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "parallel_quest_ids": [
+        27
+      ],
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. This is base-game equipment/accessory content. Exact reward probability/slot semantics and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
+    },
+    {
+      "id": "equip-072",
+      "name": "Hercule's Clothes",
+      "category": "equipment",
+      "acquisition_routes": [
+        "Parallel Quest 21 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved).",
+        "Parallel Quest 30 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "Base game",
+      "restrictions": null,
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         21,
         30
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. This is base-game equipment/accessory content. Exact reward probability/slot semantics and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
     },
     {
       "id": "equip-073",
       "name": "Goku's Turtle Hermit Gi (No Character)",
-      "category": "unclassified",
+      "category": "equipment",
       "acquisition_routes": [
         "Parallel Quest 31 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Base game",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         31
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. This is base-game equipment/accessory content. Exact reward probability/slot semantics and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
     },
     {
       "id": "equip-075",
       "name": "Cell's Suit (Perfect)",
-      "category": "unclassified",
+      "category": "equipment",
       "acquisition_routes": [
         "Parallel Quest 37 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Base game",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         37
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. This is base-game equipment/accessory content. Exact reward probability/slot semantics and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
     },
     {
       "id": "equip-076",
       "name": "Yamcha's Baseball Uniform",
-      "category": "unclassified",
+      "category": "equipment",
       "acquisition_routes": [
         "Parallel Quest 41 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Base game",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         41
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. This is base-game equipment/accessory content. Exact reward probability/slot semantics and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
     },
     {
       "id": "equip-077",
       "name": "Perfect Cell's Wings",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 45 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Base game",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         45
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. This is base-game equipment/accessory content. Exact reward probability/slot semantics and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
     },
     {
       "id": "equip-078",
       "name": "Vegito's Clothes",
-      "category": "unclassified",
+      "category": "equipment",
       "acquisition_routes": [
         "Parallel Quest 59 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Base game",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         59
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. This is base-game equipment/accessory content. Exact reward probability/slot semantics and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
     },
     {
       "id": "equip-079",
       "name": "Goku's Damaged Turtle Hermit Gi",
-      "category": "unclassified",
+      "category": "equipment",
       "acquisition_routes": [
         "Parallel Quest 2 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Base game",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         2
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. This is base-game equipment/accessory content. Exact reward probability/slot semantics and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
     },
     {
       "id": "equip-081",
