@@ -21,7 +21,12 @@
       ],
       "mapping_type": "name_variant_or_source_granularity",
       "status": "explicit_conflict",
-      "note": "The PQ record preserves the source-backed Ranger Wig wording; canonical relationship data contains both target strings. Do not merge the canonical entities without inventory-level evidence."
+      "note": "External reward documentation identifies the PQ152 reward as Android 17 (DB Super) Wig, while the canonical equipment layer separately preserves the Ranger Wig identity. The repository also has an independent component/research alias record for Android 17 (DB Super)'s Ranger Accessory. Preserve the conflict rather than merging identities without inventory-level evidence.",
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/DLC",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List"
+      ]
     },
     {
       "pq": "pq-155",
@@ -33,7 +38,12 @@
       ],
       "mapping_type": "name_variant_or_source_granularity",
       "status": "explicit_conflict",
-      "note": "The PQ record preserves Gamma 2 Helmet; the canonical relationship layer also contains the possessive form. Do not merge until identity evidence establishes equivalence."
+      "note": "The PQ155 reward documentation explicitly uses Gamma 2's Helmet, while the canonical equipment layer separately preserves Gamma 2 Helmet as a legacy/equipment identity. Independent item-ID documentation also identifies Gamma 2's Helmet as a distinct item name. Preserve the conflict rather than merging by punctuation/name similarity.",
+      "evidence": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List",
+        "https://mp1st.com/news/dragon-ball-xenoverse-2-update-1-33-flies-out-for-new-content-dlc-more-this-november-9"
+      ]
     }
   ],
   "dlc": [
