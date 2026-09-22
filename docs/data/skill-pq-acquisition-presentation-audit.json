@@ -107,6 +107,12 @@
       "status": "audited",
       "issue": "Potential drift between canonical PQ crosslinks and source/acquisition presentation fields was checked across all 452 records.",
       "resolution": "0 source_quest/source_quest_or_shop/unlock_method PQ numbers fell outside source_parallel_quests; 0 canonical-PQ skills lacked a PQ number in their acquisition presentation; all 239 PQ-linked skills use acquisition_type parallel_quest or quest_or_mission. One false Ultimate Finish flag (Drain Field) explicitly preserves conflicting evidence in its record and is not treated as a deterministic contradiction."
+    },
+    {
+      "file": "docs/Skills-All.html",
+      "status": "repaired",
+      "issue": "The canonical skill explorer exposed PQ acquisition/source text but did not provide explicit reverse navigation from a skill to every canonical PQ association.",
+      "resolution": "Added deterministic Canonical PQ links for every source_parallel_quests entry, backed by the canonical pq_rewards_skill relationship layer. Search now also indexes the PQ association field."
     }
   ],
   "canonical_relationship_baseline": {
@@ -271,6 +277,15 @@
     ]
   },
   "validation_tools": [
-    "scripts/validate_skill_acquisition_metadata.py"
-  ]
+    "scripts/validate_skill_acquisition_metadata.py",
+    "scripts/validate_skills_pq_reverse_navigation.py"
+  ],
+  "reverse_navigation": {
+    "skill_count": 452,
+    "canonical_pq_skill_edges": 244,
+    "reverse_set_mismatches": 0,
+    "consumer": "docs/Skills-All.html",
+    "validator": "scripts/validate_skills_pq_reverse_navigation.py",
+    "status": "clean"
+  }
 }
