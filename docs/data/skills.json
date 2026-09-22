@@ -10916,14 +10916,15 @@
       "mechanics_notes": "Current skill evidence lists 100 Ki. It was initially character-limited but is usable by CaCs after the Supreme Kai of Time content became available.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Soaring_Fist",
-        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
+        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc",
+        "https://dragonball.fandom.com/wiki/Soaring_Fist"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Soaring Fist as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint.",
+      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Soaring Fist as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-22 provenance strengthening: Dragon Ball Wiki independently confirms Soaring Fist as a Xenoverse 2 Super Skill and states that the Future Warrior can purchase it from the TP Medal Shop following Update 1.14. Existing official DLC/update provenance and TP/STP shop endpoint are retained; no additional shop rotation or purchase condition is inferred.",
       "id": "skill-soaring-fist"
     },
     {
