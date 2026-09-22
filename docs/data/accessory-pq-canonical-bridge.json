@@ -133,33 +133,33 @@
       "pq_record_id": "pqacc-016",
       "name": "Yamcha Baseball Hat",
       "pq": 97,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-097 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-062",
+      "match_status": "matched",
+      "note": "Exact inventory name matches the current canonical accessory identity; PQ association independently corroborated. Legacy equipment ID was normalized to the canonical acc-### endpoint."
     },
     {
       "pq_record_id": "pqacc-017",
       "name": "SSGSS Vegeta Wig",
       "pq": 100,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-098 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-063",
+      "match_status": "matched",
+      "note": "Exact inventory name matches the current canonical accessory identity; PQ association independently corroborated. Legacy equipment ID was normalized to the canonical acc-### endpoint."
     },
     {
       "pq_record_id": "pqacc-018",
       "name": "SS4 Wig & Tail (Goku)",
       "pq": 110,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-018 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-064",
+      "match_status": "matched",
+      "note": "Exact inventory name matches the current canonical accessory identity; PQ association independently corroborated. Legacy equipment ID was normalized to the canonical acc-### endpoint."
     },
     {
       "pq_record_id": "pqacc-019",
       "name": "Bulma (Kid) Wig",
       "pq": 149,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-099 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-059",
+      "match_status": "matched",
+      "note": "Exact inventory name matches the current canonical accessory identity; PQ association independently corroborated. Legacy equipment ID was normalized to the canonical acc-### endpoint."
     },
     {
       "pq_record_id": "pqacc-020",
@@ -245,17 +245,17 @@
       "pq_record_id": "pqacc-030",
       "name": "Red Ribbon Army Helmet",
       "pq": 160,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-034 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-060",
+      "match_status": "matched",
+      "note": "Exact inventory name matches the current canonical accessory identity; PQ association independently corroborated. Legacy equipment ID was normalized to the canonical acc-### endpoint."
     },
     {
       "pq_record_id": "pqacc-031",
       "name": "Gohan (Beast) Wig",
       "pq": 162,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-016 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-061",
+      "match_status": "matched",
+      "note": "Exact inventory name matches the current canonical accessory identity; PQ association independently corroborated. Legacy equipment ID was normalized to the canonical acc-### endpoint."
     },
     {
       "pq_record_id": "pqacc-032",
@@ -372,10 +372,10 @@
   ],
   "summary": {
     "pq_records": 45,
-    "matched": 16,
-    "unmatched_or_unresolved": 29,
-    "canonical_accessory_records": 58,
-    "remapped_by_exact_name": 16
+    "matched": 22,
+    "unmatched_or_unresolved": 23,
+    "canonical_accessory_records": 64,
+    "remapped_by_exact_name": 22
   },
   "sources": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -387,12 +387,12 @@
   ],
   "validation": {
     "canonical_pq_records": 186,
-    "canonical_accessory_records": 58,
+    "canonical_accessory_records": 64,
     "research_records": 45,
-    "forward_edge_count": 16,
-    "reverse_edge_count": 16,
-    "unresolved_research_records": 29,
-    "remapped_by_exact_name": 16,
+    "forward_edge_count": 22,
+    "reverse_edge_count": 22,
+    "unresolved_research_records": 23,
+    "remapped_by_exact_name": 22,
     "stale_endpoint_count": 0,
     "duplicate_forward_edges": 0,
     "null_pq_edges": 0,
