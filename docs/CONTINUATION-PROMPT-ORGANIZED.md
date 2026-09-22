@@ -15536,3 +15536,12 @@ The directive to populate the live-state fields from the current repository and 
 - [x] Static live-data parity validation after the patch: PQ81-120 0 missing / 0 extra, PQ121-142 0/0, PQ143-162 0/0, PQ163-186 0/0 typed reward pairs between normalized source maps and standalone reverse indexes.
 - [x] This was a validator/generator correctness repair, not a data promotion; artwork remains a separate projection for ranges that contain it.
 - [ ] Exact next task: inspect unified reverse-index generation safety against its intentionally partial source coverage. Compare every canonical typed PQ relationship with the unified index by exact pair, identify only deterministic omissions/duplicates, and do not promote partial/research-only records into canonical data.
+
+### 2026-09-22 cycle update — canonical unified reverse-index reconciliation
+- [x] Compared the unified reverse index against the canonical forward relationship layer by exact (domain, target, PQ) identity, normalizing PQ number formatting only.
+- [x] Found deterministic drift: 9 canonical skill edges and 16 canonical Super Soul edges were absent from the unified projection; 1 noncanonical skill name (Starfall) and 2 noncanonical Super Soul entries were present. These were repaired by projecting canonical relationships exactly.
+- [x] Reconciled equipment through the existing subtype-aware clothing/accessory projection: removed three noncanonical subtype entries and restored the three canonical equipment edges (Whis Symbol Gi PQ76, Android 17 (DB Super) Wig PQ152, Gamma 2's Helmet PQ155).
+- [x] Final exact parity: skills 244/244, Super Souls 151/151, equipment 125/125, characters 247/247, DLC 86/86, farming 7/7; 0 missing and 0 extra in every canonical relationship domain.
+- [x] Updated the unified index semantics to explicitly make canonical relationship data authoritative; partial normalized source maps remain provenance/research layers and cannot override canonical relationships.
+- [x] Updated the validator so standalone indexes are checked against normalized source maps, while the unified index is checked against canonical relationships; equipment is validated as the union of clothing/accessory projections.
+- [ ] Exact next task: perform a full repository-wide cross-link integrity audit so PQ pages, skill/Super Soul/equipment/character/DLC/farming records all resolve through the canonical relationship layer without orphaned or one-way links. Preserve source provenance and historical audit entries.
