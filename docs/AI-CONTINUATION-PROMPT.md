@@ -2813,3 +2813,15 @@
 - [x] Re-read the created validator/audit/index files from `main`; created data artifacts are parseable and contain the expected live counts.
 - [ ] CI/runtime: no successful workflow/check exposed for this direct-commit chain; no CI success claimed.
 - [x] Exact next priority: move beyond already-clean PQ reverse navigation into the broader **non-PQ/thin-system coverage** track. Recompute the current tracker and choose the highest-impact existing canonical system/schema with missing structured fields or records; enrich it with evidence/provenance rather than creating placeholder pages.
+
+
+### 2026-09-22 cycle update — mentor lesson reward typing/schema coverage
+- [x] Live mentor census: **33 mentors / 133 lesson reward objects**; 132 skill rewards and 1 non-skill Super Soul reward.
+- [x] Selected the highest-impact bounded thin-system gap: the canonical mentor record layer used structured lesson/Dual Ultimate objects while `docs/data/mentors.schema.json` still described those fields as strings.
+- [x] Added explicit `reward_type` to every mentor lesson and `reward_id` for the cross-domain non-skill endpoint. Zamasu initiation is now deterministically typed as Super Soul `super-soul-143` (“I'm thinking of becoming a GodTuber”), while God Splitter, Heavenly Arrow, and Instant Severance remain skill endpoints.
+- [x] Updated `docs/data/mentors.schema.json` to describe the actual structured lesson and Dual Ultimate shapes.
+- [x] Updated `docs/data/mentor-skill-crosslink-report.json` to distinguish 132 typed skill rewards from the single typed non-skill reward; skill-edge validation remains 131 unique skill endpoints with 0 unresolved skill endpoints.
+- [x] Added `docs/data/mentor-lesson-reward-typing-audit-2026-09-22.json` with evidence from the maintained mentor references and Zamasu-specific documentation.
+- [x] Validation after writes: canonical mentor data, schema, audit, and crosslink report re-fetched and parsed successfully; 133/133 lesson rewards typed; 0 typed-missing rewards.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Exact next priority: continue the non-PQ/thin-system coverage audit and select the next existing canonical schema/data layer with a deterministic missing field, missing record, or cross-domain endpoint.
