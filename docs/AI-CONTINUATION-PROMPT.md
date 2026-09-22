@@ -2731,3 +2731,14 @@
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [x] Commits: canonical 7fdb2cbb67c3a130e7ffd235865042b108a6db5d; index be0e6528ce4ff22313c6e3f54c17f5b0688b4c3e; audit 834b4489ffda4142d4abdc1e3b96ec9f4e03a8d7; cross-domain registration 6015afcdecc9e0dbe0be8dfb2aae262ceb7edae9.
 - [ ] Exact next batch: recompute live stale census before editing and investigate the duplicate **Super Ghost Kamikaze Attack** records/IDs before blindly processing the first ten names.
+
+
+### 2026-09-22 cycle update — Super Dragon Flight through Super Kamehameha provenance batch
+- [x] Live census before editing: 452 canonical / 452 index / 0 duplicate IDs / 58 stale.
+- [x] Refreshed the ten stale display-name records: Super Dragon Flight, Super Elite Combo, Super Explosive Wave, Super Gamma Blast, Super Ghost Buu Attack, Super Ghost Kamikaze Attack (100-Ki Super), Super Ghost Kamikaze Attack (300-Ki Ultimate), Super God Fist, Super God Shock Flash, Super Kamehameha.
+- [x] Rechecked repository evidence and bounded mechanics/acquisition notes; preserved multi-mentor provenance for Super Explosive Wave and the two distinct canonical IDs sharing Super Ghost Kamikaze Attack.
+- [x] Added and registered docs/data/skill-super-dragon-flight-through-super-kamehameha-provenance-audit-2026-09-22.json.
+- [x] Post-edit validation: 452/452, 0 duplicate IDs, canonical/index parity true, 48 stale remain.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [x] Commits: canonical 01b08b6e036ede4865a122a5ef814b168e1ca816; index 01181a799e59e7bc4ecdbd58d83b4f83bf7ee95a; audit 7a062b5930777a8c16e450accaf8a77b2442b689; cross-domain registration 5179c9bb8151a56f9fe1cb06b72238253bdd34ce.
+- [ ] Exact next batch: **Super Kamehameha (SS4 DAIMA), Super Saiyan, Super Saiyan 2, Super Saiyan Blue Kaioken, Super Saiyan God, Super Saiyan God Super Saiyan, Super Saiyan God Super Saiyan (Evolved), Super Spirit Bomb, Super Vegeta, Supernova Cooler**; recompute live census first.
