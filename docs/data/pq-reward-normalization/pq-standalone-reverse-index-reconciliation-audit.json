@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "standalone PQ reverse-index reconciliation against normalized source maps",
+  "date": "2026-09-22",
+  "status": "source-layer-drift_identified",
+  "source_of_truth": "normalized reward maps for standalone projections; canonical relationship layer remains authoritative for current cross-domain relationships",
+  "ranges": [
+    {
+      "range": "081-120",
+      "source_pairs": 0,
+      "missing_from_standalone": 0,
+      "extra_standalone_pairs": 99,
+      "action": "preserved; standalone contains a broader historical/source-normalized projection than the current partial reward map"
+    },
+    {
+      "range": "121-142",
+      "missing_from_standalone": 0,
+      "extra_standalone_pairs": 0,
+      "action": "clean"
+    },
+    {
+      "range": "143-162",
+      "missing_from_standalone": 0,
+      "extra_standalone_pairs": 0,
+      "action": "clean"
+    },
+    {
+      "range": "163-186",
+      "missing_from_standalone": 0,
+      "extra_standalone_pairs": 0,
+      "action": "clean"
+    }
+  ],
+  "evidence_boundary": "The PQ 081-120 normalized reward map is demonstrably partial relative to its existing standalone reverse index. A generator overwrite would remove 99 indexed reward pairs and would turn source-map incompleteness into data loss. No destructive rewrite was made. The standalone index remains preserved until the source-map coverage gap is reconciled explicitly.",
+  "validation": {
+    "canonical_current_relationship_baseline": 860,
+    "skills": 244,
+    "super_souls": 151,
+    "equipment": 125,
+    "characters": 247,
+    "dlc": 86,
+    "farming": 7,
+    "destructive_changes": 0
+  },
+  "next_action": "Reconcile the PQ81-120 normalized reward map against the canonical PQ relationship layer and standalone index, domain by domain, then regenerate only after the source-map coverage policy is resolved."
+}
