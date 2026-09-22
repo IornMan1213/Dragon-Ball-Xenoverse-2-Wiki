@@ -6539,10 +6539,11 @@
       "mechanics_notes": "Dedicated current-version evidence classifies God of Destruction's Roar as a Strike Super used by Champa, obtained through PQ105. The page describes it as a shout/pseudo-Ki Blast that drains enemy Stamina; its mechanics do not support the existing Ki Blast Ultimate classification. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current PQ guide explicitly lists God of Destruction's Roar in the Basic Reward section of Parallel Quest 105, establishing the acquisition route without an Ultimate Finish requirement. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward section; no Ultimate Finish-only gate is asserted.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Roar",
-        "https://dragonball.fandom.com/wiki/God_of_Destruction%27s_Roar"
+        "https://dragonball.fandom.com/wiki/God_of_Destruction%27s_Roar",
+        "https://videogaming.fandom.com/wiki/Champa%27s_Hellish_Holiday"
       ],
       "race_restriction": "All CaC races",
       "source_quest": 105,
