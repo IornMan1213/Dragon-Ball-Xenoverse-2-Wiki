@@ -591,3 +591,13 @@
 - Tooling commits: generator d71b33768d557590be8295bfaac2c84d5f109ebc, generator safety fix 626cb0b9d77c289c0f5b6be6d821790062b5299e, projection-safe comparison 6d613449bd94a798784ee543809059bc82c2b1f1, validator format fix 390aaefc43cd020cc2ca155c84ec2de6ab791d1c.
 - Validation boundary: repository-level exact pair audits already established 0 missing / 0 extra typed pairs for PQ81-186; direct local execution of the new script was attempted but the execution environment could not resolve raw.githubusercontent.com, so no local runtime pass is claimed.
 - Exact next batch: run the new generator/validator in a repository-capable runtime, then compare generated standalone projections to the live files and record the full runtime output before considering unified-index generation automation.
+
+
+### 2026-09-22 cycle update — legacy standalone reverse-index schema compatibility
+- Reviewed the live standalone PQ reverse-index schemas after adding deterministic generation support.
+- Found that PQ121-142 uses a legacy top-level-domain schema (`skills`, `super_souls`, `clothing`, `accessories`) rather than the newer nested `indexes` schema used by other maintained projections.
+- Corrected `scripts/generate_pq_reverse_indexes.py` so check mode compares either schema correctly and write mode updates only the projection domains without introducing an unintended schema migration.
+- Generator remains source-map-driven and does not alter canonical relationships or infer rewards.
+- Commit: `67e1ef75d97becb093b1c64f9e6127c5aa0c733b`.
+- Runtime execution remains unavailable through the current GitHub connector; no local generator/validator pass is claimed.
+- Exact next batch: perform a complete schema-aware dry-run comparison of all four standalone reverse indexes against their normalized maps, then document any remaining deterministic projection differences before touching unified-index generation.
