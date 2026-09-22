@@ -19,6 +19,13 @@ def main():
     partners=load(DATA/"partner-customization-key-record-layer.json").get("records",[])
     recon=load(DATA/"partner-customization-key-reconciliation.json").get("records",[])
     explorer=(ROOT/"docs"/"Characters-All.html").read_text(encoding="utf-8")
+    characters_page=(ROOT/"docs"/"Characters.md").read_text(encoding="utf-8")
+    core_profiles=(ROOT/"docs"/"Character-Core-Profiles.md").read_text(encoding="utf-8")
+    import re
+    preset_label_pattern=re.compile(r"(?i)\\b(?:[A-Za-z][A-Za-z0-9()'’ -]+\\s+)?Preset\\s+\\d+")
+    markdown_preset_labels=sorted(set(preset_label_pattern.findall(characters_page+"\\n"+core_profiles)))
+    characters_explorer_link="Characters-All.html" in characters_page or "Characters-All.md" in characters_page
+    core_profile_search_design="Search/" in core_profiles
 
     bridge_ids=[r.get("character_id") for r in bridge]
     bridge_source_names=[r.get("source_name") for r in bridge]
@@ -64,11 +71,14 @@ def main():
         "numbered_character_preset_pairs_unique":not duplicate_character_preset_pairs,
         "record_types_allowed":not invalid_record_types,
         "separate_character_records_unumbered":not special_numbering_conflicts,
+        "characters_page_links_canonical_explorer":characters_explorer_link,
+        "core_profiles_do_not_hardcode_preset_labels":not markdown_preset_labels,
+        "core_profiles_expose_search_design":core_profile_search_design,
     }
     report={"schema_version":"1.0.0","scope":"character-facing presentation consumers",
       "canonical_source":"docs/data/characters-record-layer.json",
       "bridge":"docs/data/characters/character-id-identity-bridge.json",
-      "consumers":["docs/data/character-presets-record-layer.json","docs/data/partner-customization-key-record-layer.json","docs/data/partner-customization-key-reconciliation.json","docs/Characters-All.html"],
+      "consumers":["docs/data/character-presets-record-layer.json","docs/data/partner-customization-key-record-layer.json","docs/data/partner-customization-key-reconciliation.json","docs/Characters-All.html","docs/Characters.md","docs/Character-Core-Profiles.md"],
       "results":{"canonical_character_names":len(canon),"bridge_records":len(bridge),
         "preset_records":len(presets),"preset_distinct_character_ids":len(preset_ids),
         "partner_key_records":len(partners),"partner_distinct_character_ids":len(partner_ids),
@@ -88,6 +98,11 @@ def main():
         "special_record_types":special_records,
         "invalid_record_types":invalid_record_types,
         "special_record_numbering_conflicts":special_numbering_conflicts,
+        "markdown_consumers":{
+          "characters_page_links_canonical_explorer":characters_explorer_link,
+          "core_profiles_expose_search_design":core_profile_search_design,
+          "hard_coded_preset_label_matches":markdown_preset_labels
+        },
         "checks":checks,
         "status":"clean" if all(checks.values()) else "unresolved"},
       "evidence_boundary":"This audit proves identity/navigation parity and producer-record integrity only. It does not verify complete preset numbering, loadouts, unlock routes, DLC ownership, raid rotation, TP Medal costs, or historical update chronology.",
