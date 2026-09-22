@@ -6907,3 +6907,16 @@ The repository owner has clarified the continuation contract:
 - Commits: `eab3f7cca8caf6b5553f3a7b3e9e204aeb02d198` (canonical Kairos provenance), `390b84ea1febfc42473341f213ddabd02f52d3c1` (index synchronization).
 - Live census after editing: **26 exactly-two-source records**; the deterministic next low-source record is **Last Emperor (`skill-last-emperor`)**.
 - Exact next batch: recompute the live two-source census, then research **Last Emperor** and independently verify its **PQ71 / Basic Reward** acquisition before adding provenance-only strengthening; preserve existing mechanics, reward semantics, and unresolved evidence boundaries.
+
+
+### 2026-09-21 cycle update — Last Emperor provenance strengthening
+- Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 26 exactly-two-source canonical records**.
+- Bounded batch: **Last Emperor (`skill-last-emperor`)**.
+- Research/evidence: the maintained Steam all-186 Parallel Quests guide independently lists **Last Emperor** as a **PQ71 — Abominable Saiyans Basic Reward**; Yhan Game independently gives the same PQ71 Basic Reward listing. The dedicated repository sources already identified the skill and its PQ71 endpoint.
+- Changes: added the maintained Steam all-186 PQ guide as a third provenance source to Last Emperor in both `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21** and recorded the corroboration in notes.
+- Evidence limits/conflicts preserved: the evidence corroborates the PQ71/basic-reward relationship but does not establish a reliable numeric drop probability or additional Ultimate Finish requirement, so neither was added.
+- Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 25 exactly-two-source records**; canonical/index source and verification parity is clean; no internal AI/UI/search citation artifacts detected.
+- CI: workflow status was not exposed during this bounded pass; no CI success is claimed and validators were not changed.
+- Commits: `3050a5f105a7c2348d8db9ed913eb032db0dcf97` (canonical), `cb29ed8dd4d39c3d12f6999bd22c647e9a9e7782` (index).
+- Live census after editing: **25 exactly-two-source records**.
+- Exact next batch: **Lightning of Absolution (`skill-lightning-of-absolution`)**; recompute the live census first, then independently verify its PQ111 / Basic Reward acquisition before provenance-only strengthening.
