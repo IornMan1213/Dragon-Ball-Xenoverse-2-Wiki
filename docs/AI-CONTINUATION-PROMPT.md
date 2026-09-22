@@ -2135,3 +2135,15 @@
 - [ ] Runtime/CI execution remains unavailable; no executable CI success claimed.
 - [x] Commits: canonical `c5c796f99e431e4860b6c51e06e4fe534adf8ad9`; index `447ed9657f552c0bdf2fdc92a9870d3ae7146e23`; audit `d66d5abdfd780450a8c3f12f8b5ea682ee82a869`; registry `e12cfe1cd4f9bc522903a676a532ac5cfc22e0b6`.
 - [ ] Exact next batch: continue the stale-`last_verified` P1 skill provenance queue with **Burst Stinger (`skill-burst-stinger`)**, recomputing the live canonical/index census first and preserving any reward-tier conflicts or evidence boundaries.
+
+
+### 2026-09-22 cycle update — Burst Stinger provenance verification
+- [x] Fresh live skill census: **452 canonical / 452 index / 0 duplicate IDs**; bounded record: `skill-burst-stinger`.
+- [x] Independent evidence: dedicated Burst Stinger documentation identifies **PQ136 — “Breaking Down the Barrier”** as the unlock; the maintained all-186-PQ guide and independent PQ136 gameplay record list Burst Stinger among the Basic Rewards. citeturn0search0turn0search9turn0youtube26
+- [x] A separate GameFAQs acquisition report attributes the drop to Goku (Ultra Instinct) during the Ultimate Finish. This conflicts with the Basic Reward presentation, so the repository retains the existing Basic Reward semantics and records the trigger conflict rather than promoting an Ultimate Finish-only gate. citeturn0search1
+- [x] Refreshed canonical/index `last_verified` to **2026-09-22** without changing skill identity, classification, acquisition endpoint, or canonical PQ relationship.
+- [x] Added `docs/data/skill-burst-stinger-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Static validation after writes: **452/452**, **0 duplicate IDs**, and semantic parity across canonical/index for the affected acquisition fields and reward-tier flag.
+- [ ] Runtime/CI execution remains unavailable; no executable CI success claimed.
+- [x] Commits: canonical `d40348757a9a22a04a688ecf51e8f3820d33c3b4`; index `39dda59cc12cb8b102b71e1a3161852fd6606c10`; audit `a889598d04e22c869573c80e33a14bbd945325c8`; registry `c5869e41261aa54fa74ca783d1ff9c73924df72c`.
+- [ ] Exact next batch: recompute the live census and continue the stale-`last_verified` P1 skill provenance queue with **Buu Buu Ball (`skill-buu-buu-ball`)**, preserving any acquisition/reward-tier evidence conflicts.
