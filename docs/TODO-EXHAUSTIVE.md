@@ -1862,3 +1862,15 @@
 - [ ] Runtime/CI execution remains unavailable; no executable CI success claimed.
 - [x] Commits: canonical `de6d89f4b1e2e322a54391c66b9e2bf6b626ca80`; index `424389a50af159562f6c5831f497e0476ea87b47`; audit `df4ffc97825c0d80e7a74523ba0ea4bd5e308a6c`; registry `7d33bc566155f3ca39ff43036015a0013b665c6e`.
 - [ ] Exact next batch: recompute the live census and continue with the next stale P1 skill provenance record after `skill-chaos-shot`.
+
+
+### 2026-09-22 cycle update — Atomic Blast provenance reconciliation
+- [x] Fresh live skill census: **452 canonical / 452 index / 0 duplicate IDs / 395 stale before this edit**; bounded record: `skill-atomic-blast`.
+- [x] Dedicated skill documentation confirms **Atomic Blast** as a **100-Ki Ki Blast Super** with PQ87 as the unlock source. The maintained all-186-PQ guide lists Atomic Blast in PQ87 **Basic Reward**.
+- [x] A contemporaneous 2017 gameplay guide claims Ultimate Finish completion and a random drop were required. This is preserved as a historical source conflict rather than converted into a new Ultimate Finish requirement or drop probability.
+- [x] Refreshed canonical/index `last_verified` to **2026-09-22** and preserved the repository's documented Basic Reward classification while recording the conflict in `docs/data/skill-atomic-blast-provenance-audit-2026-09-22.json`.
+- [x] Registered the audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Static validation: **452/452** records, **0 duplicate IDs**, **394 stale remaining**, affected canonical/index semantic parity preserved.
+- [ ] Runtime/CI execution remains unavailable; no executable CI success claimed.
+- [x] Commits: canonical `231b459853291b308f34413e390bf11aa1752a5e`; index `6dbfe34b5664e5ad39e37b7bf33bc2db5f812fd7`; audit `67c7f8043349936cd9e5618d2ca6aefafeea5660`; registry `03f46a5854686a32a30145b998d11a27866c71ad`.
+- [ ] Exact next batch: recompute the live census and continue with `skill-bending-kamehameha`.
