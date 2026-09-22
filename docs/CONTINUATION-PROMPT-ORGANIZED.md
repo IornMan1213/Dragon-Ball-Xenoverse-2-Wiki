@@ -15481,3 +15481,11 @@ The directive to populate the live-state fields from the current repository and 
 - Reverse projection parity: **239 skill / 148 Super Soul / 123 equipment / 28 accessory endpoints**, with 0 missing, 0 orphan, and 0 PQ-set mismatch cases. DLC: 86 forward edges / 20 unique reverse endpoints.
 - No canonical relationship identities changed in this batch.
 - Exact next batch: **scan remaining non-PQ relationship producers and generated projection metadata for current-count drift**, repairing only deterministic mismatches before new provenance research.
+
+
+### 2026-09-22 cycle update — non-PQ projection producer census
+- Audited the four maintained generated PQ projection reports against the canonical relationship layer: Skill **244/239**, Super Soul **151/148**, Equipment **125/123**, Accessory **28/28** forward/reverse endpoints.
+- All four reports: **0 duplicate keys, 0 invalid PQ references, 0 unresolved forward edges, 0 orphan reverse sources**.
+- Accessory remains a dedicated 28-edge projection of the broader equipment domain; no unsupported count collapse was made.
+- Added synchronized producer metadata to make future deterministic drift detection explicit.
+- Exact next batch: **audit remaining generated/reconciliation artifacts outside the four primary cross-link reports for stale current-state counts or mismatched scopes**, repairing only deterministic drift.
