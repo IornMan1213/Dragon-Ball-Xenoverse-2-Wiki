@@ -43,11 +43,17 @@
     "audit_declares_860_edges": true,
     "farming_set_matches_canonical": true,
     "reference_page_farming_set_matches": true,
-    "stale_pq13_farming_claim_absent": true
+    "stale_pq13_farming_claim_absent": true,
+    "skill_edge_count_is_244": true,
+    "super_soul_edge_count_is_151": true,
+    "equipment_edge_count_is_125": true,
+    "character_edge_count_is_247": true,
+    "dlc_edge_count_is_86": true,
+    "farming_edge_count_is_7": true
   },
   "status": "clean",
   "evidence_boundary": "Deterministic count/set/navigation repair only; no new relationship edges or unsupported mechanics were inferred.",
   "date": "2026-09-22",
   "validator": "scripts/validate_pq_reference_pages.py",
-  "live_validation_note": "Current live canonical layer and both consumer pages remain aligned: 186 PQ records, 860 relationship edges, and farming set PQ15/PQ22/PQ44/PQ45/PQ68/PQ83/PQ88."
+  "live_validation_note": "Current live canonical layer and both consumer pages remain aligned: 186 PQ records, 860 relationship edges, exact domain counts 244/151/125/247/86/7, and farming set PQ15/PQ22/PQ44/PQ45/PQ68/PQ83/PQ88."
 }
