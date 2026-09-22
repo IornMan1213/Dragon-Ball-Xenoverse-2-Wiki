@@ -15,10 +15,24 @@ def main():
     audit = (ROOT / "docs" / "Parallel-Quest-Audit.md").read_text(encoding="utf-8")
     pqs = load(DATA / "parallel-quests-record-layer.json")["records"]
     rel = load(DATA / "pq-reward-relationships.json")["verified_relationships"]
+    pq_numbers = sorted(int(str(record["number"])) for record in pqs)
+    pq_ids = [str(record["id"]) for record in pqs]
+    relationship_keys = [
+        (str(e.get("relationship")), str(e.get("pq")), str(e.get("target")))
+        for e in rel
+    ]
     farming = sorted(
         int(e["pq"].split("-")[1])
         for e in rel if e.get("relationship") == "pq_farming_route"
     )
+    expected_relationship_types = {
+        "pq_rewards_skill",
+        "pq_rewards_super_soul",
+        "pq_rewards_equipment",
+        "pq_features_character",
+        "pq_requires_dlc",
+        "pq_farming_route",
+    }
     canonical = len(pqs)
     edge_counts = {}
     for e in rel:
@@ -26,6 +40,12 @@ def main():
     expected_farming = [15, 22, 44, 45, 68, 83, 88]
     checks = {
         "canonical_pq_count_is_186": canonical == 186,
+        "canonical_pq_numbers_are_exact_1_to_186": pq_numbers == list(range(1, 187)),
+        "canonical_pq_ids_are_unique": len(pq_ids) == len(set(pq_ids)),
+        "canonical_relationship_types_are_known": {
+            str(e.get("relationship")) for e in rel
+        } <= expected_relationship_types,
+        "canonical_relationship_keys_are_unique": len(relationship_keys) == len(set(relationship_keys)),
         "reference_page_declares_186_records": "**186 numbered PQ records" in page,
         "audit_declares_pq186": "through **PQ186**" in audit,
         "relationship_total_is_860": sum(edge_counts.values()) == 860,
@@ -43,7 +63,7 @@ def main():
         "reference_page_links_live_explorer": "Parallel-Quests-All.html" in page,
     }
     result = {
-        "schema_version": "1.0.0",
+        "schema_version": "1.1.0",
         "scope": "general PQ reference/index pages",
         "sources": [
             "docs/data/parallel-quests-record-layer.json",
