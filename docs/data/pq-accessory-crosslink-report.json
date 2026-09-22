@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "domain": "pq_accessory",
   "canonical_pq_records": 186,
-  "canonical_identity_records": 54,
+  "canonical_identity_records": 58,
   "research_pq_records": 45,
   "matched_forward_edges": [
     {
@@ -503,7 +503,7 @@
   ],
   "validation": {
     "canonical_pq_records": 186,
-    "canonical_accessory_records": 54,
+    "canonical_accessory_records": 58,
     "research_records": 45,
     "forward_edge_count": 16,
     "reverse_edge_count": 16,
