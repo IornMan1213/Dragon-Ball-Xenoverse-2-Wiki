@@ -6993,3 +6993,15 @@ The repository owner has clarified the continuation contract:
 - Live commits: `ddd93d2e759aa268e22b71f3128a4eb757295602` (canonical), `b2e192d9a52dfbb83964c7cc1d4e3fbdc3201d31` (index), `4626a73071ea4a983211f04728025eca51f7aa12` (changelog).
 - Exact next batch: **Perfect Shot (`skill-perfect-shot`)**. Recompute the live two-source census first, then independently verify the Cell (Perfect) Lesson 2 acquisition endpoint before provenance-only strengthening.
 
+
+
+### 2026-09-21 cycle update — Perfect Shot provenance strengthening
+- Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 21 exactly-two-source canonical records**.
+- Bounded batch: **Perfect Shot (`skill-perfect-shot`)**.
+- Evidence: the Dragon Ball Wiki **Perfect Shot** entry independently identifies Xenoverse 2 acquisition through Cell (Perfect)'s **School Quest: Lesson 2**. This corroborates the existing repository endpoint and the dedicated Xenoverse 2 skill evidence.
+- Changes: added `https://dragonball.fandom.com/wiki/Perfect_Shot` as a third provenance source to Perfect Shot in both `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21** and recorded the corroboration in notes.
+- Evidence limits preserved: no new prerequisite, drop probability, or Ultimate Finish requirement was inferred; existing Cell (Perfect) mentor-training semantics remain unchanged.
+- Validation after editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 20 exactly-two-source canonical records**; target now has 3 sources; canonical/index source parity remains clean.
+- CI: no success claim without an exposed workflow/check.
+- Live commits: `f7f83bdfc17f6845929704edb073b780d355567e` (canonical), `74107394bee507d3b2b40822679a016a20ffe15d` (index), `29120febb9693a3951ce79b2eed17edbc77cc003` (changelog).
+- Exact next batch: **Petrifying Spit (`skill-petrifying-spit`)**. Recompute the live two-source census first, then independently verify its acquisition/reward endpoint before provenance-only strengthening. Preserve existing reward semantics and evidence boundaries.
