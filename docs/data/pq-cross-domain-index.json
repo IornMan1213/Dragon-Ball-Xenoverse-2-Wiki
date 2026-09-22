@@ -83,7 +83,8 @@
     "pq_unified_reverse_index": "docs/data/pq-reward-normalization/pq-unified-reverse-index-audit.json",
     "pq_page_consumer_structured_rewards": "docs/data/pq-page-consumer-audit.json",
     "published_character_dlc_navigation": "docs/data/characters/published-character-dlc-navigation-audit.json",
-    "partner_customization_character": "docs/data/characters/partner-customization-character-navigation-audit.json"
+    "partner_customization_character": "docs/data/characters/partner-customization-character-navigation-audit.json",
+    "super_soul_acquisition_index_reconciliation": "docs/data/super-souls/pq-acquisition-index-reconciliation-audit.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
@@ -103,7 +104,8 @@
     "record_reverse_pq_navigation": "scripts/validate_record_reverse_pq_navigation.py",
     "pq_unified_reverse_index": "scripts/validate_pq_unified_reverse_index.py",
     "published_character_dlc_navigation": "scripts/validate_published_character_dlc_navigation.py",
-    "partner_customization_character": "scripts/validate_partner_customization_character_navigation.py"
+    "partner_customization_character": "scripts/validate_partner_customization_character_navigation.py",
+    "super_soul_acquisition_index": "scripts/validate_super_soul_acquisition_index.py"
   },
   "schemas": {
     "canonical_dlc_identity": "docs/data/dlc/canonical-dlc-identity.schema.json"
