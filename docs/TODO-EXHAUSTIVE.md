@@ -1384,3 +1384,15 @@
 - [x] Validator commit: `def0a7538030c738947d3307bf853ee5bd1fb6f0`; audit refresh: `3a622709aab48c4f5ef58ed5fc101b36e6e5c64d`.
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [ ] Exact next batch: audit `scripts/validate_published_character_dlc_navigation.py` for the same silent duplicate/type/representation assumptions, then refresh its published Character/DLC navigation audit if the live contract is clean.
+
+
+### 2026-09-22 cycle update — Published Character/DLC navigation shape hardening
+- [x] Continued into `scripts/validate_published_character_dlc_navigation.py`.
+- [x] Hardened published local-link validation so each required href must occur exactly once rather than merely appearing somewhere in the page.
+- [x] Hardened canonical character identity validation against malformed/non-string character names and duplicate bridge source names/targets.
+- [x] Hardened canonical DLC/PQ identity validation against malformed DLC IDs/names, malformed `pq_requires_dlc` targets, and duplicate canonical PQ→DLC target rows that could previously be collapsed by sets.
+- [x] Live contract remains clean: **149 canonical characters / 15 DLC-character bridge records / 20 canonical DLC identities / 86 canonical PQ→DLC edges / 20 unique DLC targets**; no missing/orphan identities or duplicate/malformed navigation identity data.
+- [x] Refreshed `docs/data/characters/published-character-dlc-navigation-audit.json` to schema **1.2.0**.
+- [x] Validator commit: `93cf57755cbca321b476f5d5e4aac52b717b40c3`; audit refresh: `43f44fff1fe3477bf01f0e18acb6cfb764646b24`.
+- [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
+- [ ] Exact next batch: continue from the cross-domain registry into the next registered consumer after published Character/DLC navigation, prioritizing deterministic Search/landing or reverse-navigation validators with remaining silent set/dictionary collapse or endpoint-shape assumptions.
