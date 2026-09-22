@@ -1472,3 +1472,14 @@
 - [x] Commits: `b5ea179cd17c788eede7a2b5d68085c4caf9ea52`, `77c2dc4e71e38bc5ec88971de01b98f9e726d5ec`.
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [ ] Exact next batch: audit the remaining registered PQ explorer/reference presentation validators for the same hidden scalar/list, endpoint-only, or stale-count assumptions, prioritizing `validate_pq_explorer_reward_navigation.py` and `validate_pq_reference_pages.py`.
+
+### 2026-09-22 cycle update — PQ explorer exact reward-pair parity hardening
+- [x] Audited `scripts/validate_pq_explorer_reward_navigation.py` and the live `docs/Parallel-Quests-All.html` consumer after the skill/character reverse-navigation parity passes.
+- [x] Hardened the PQ explorer validator to compare exact canonical `(PQ,target)` pairs against the structured Skill, Super Soul, and Equipment crosslink reports, rather than relying on endpoint resolution/counts alone.
+- [x] Added explicit duplicate structured-pair checks and retained the existing HTML navigation/query checks plus canonical DLC identity resolution.
+- [x] Live parity remains clean: **244 skill pairs, 151 Super Soul pairs, 125 equipment pairs; 0 missing, 0 extra, 0 duplicate pairs; 86 DLC edges / 20 unique DLC targets / 0 unresolved targets**.
+- [x] Refreshed `docs/data/pq-explorer-reward-navigation-audit.json` to schema **1.1.0** with the exact-pair contract and validator commit `00dfd24c3d9c5f8f4fbc8261a261c152211cf69b`.
+- [x] No canonical relationship, skill, Super Soul, equipment, DLC identity, or PQ record was added, removed, or renamed.
+- [ ] CI: no successful GitHub Actions status exposed for this direct-commit chain; CI success not claimed.
+- [x] Commits: `00dfd24c3d9c5f8f4fbc8261a261c152211cf69b`, `8deae24b4a557ca272e4901e2c8d4c83d35bd3ad`.
+- [ ] Exact next batch: audit `scripts/validate_pq_reference_pages.py` and the general PQ reference consumers for hidden scalar/list assumptions, stale count/set assertions, and exact canonical relationship parity; harden only deterministic validator gaps, then continue to the next registered cross-domain consumer.
