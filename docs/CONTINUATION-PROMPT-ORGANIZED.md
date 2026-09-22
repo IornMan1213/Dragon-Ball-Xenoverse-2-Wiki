@@ -1120,3 +1120,13 @@
 - [x] Static validation: 452/452 canonical/index records, 0 duplicate IDs; no semantic skill or PQ relationship changes.
 - [ ] Runtime/CI unavailable; no CI success claimed.
 - [ ] Exact next batch: continue the stale-last_verified P1 skill provenance queue with the next unfinished skill after Beast.
+
+
+### 2026-09-22 cycle update — Big Bang Knuckle provenance verification
+- [x] Completed the next P1 stale-last_verified skill provenance batch: skill-big-bang-knuckle.
+- [x] Confirmed PQ172 — "Little Big Brother" as the acquisition endpoint using current dedicated documentation; official Dragon Ball documentation confirms the move/character/DLC context.
+- [x] Refreshed canonical/index provenance, added docs/data/skill-big-bang-knuckle-provenance-audit-2026-09-22.json, and registered the audit in docs/data/pq-cross-domain-index.json.
+- [x] Preserved existing reward-tier evidence conflict; no canonical reward-tier or probability change.
+- [x] Static validation: 452/452 canonical/index records, 0 duplicate IDs.
+- [ ] Runtime/CI unavailable; no CI success claimed.
+- [ ] Exact next batch: continue with the next unfinished stale-last_verified skill after Big Bang Knuckle.
