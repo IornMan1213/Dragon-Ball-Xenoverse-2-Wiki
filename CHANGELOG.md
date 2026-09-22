@@ -1,7 +1,7 @@
 ## 2026-09-22 — Petrifying Spit low-source provenance strengthening
 - Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 20 exactly-two-source canonical records**.
 - Bounded batch: **Petrifying Spit (`skill-petrifying-spit`)**.
-- Evidence: Dragon Ball Wiki's **Stone Spit** entry independently confirms that Xenoverse 2 names the technique Petrifying Spit, makes it a Future Warrior reward from **Parallel Quest 114**, and identifies it as one of Dabura's Super Skills. citeturn1search1
+- Evidence: Dragon Ball Wiki's **Stone Spit** entry independently confirms that Xenoverse 2 names the technique Petrifying Spit, makes it a Future Warrior reward from **Parallel Quest 114**, and identifies it as one of Dabura's Super Skills.
 - Changes: added `https://dragonball.fandom.com/wiki/Stone_Spit` as a third provenance source to Petrifying Spit in both `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-22**.
 - Evidence limits preserved: no new drop probability, Ultimate Finish gate, or prerequisite was inferred; existing PQ114 Basic Reward and Extra Pack 1 semantics remain unchanged.
 - Validation after editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 19 exactly-two-source canonical records**; canonical/index source parity clean; no internal citation artifacts detected.
