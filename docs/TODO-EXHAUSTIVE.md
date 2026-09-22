@@ -1221,3 +1221,15 @@
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [x] Commits: `95ed7620422b5559973a632027b8faade65e9964`, `e14b92f6a0550c86cb5e22730281c5bbbf6e0711`.
 - [ ] Exact next batch: audit `scripts/validate_record_reverse_pq_navigation.py` for the same exact forward-pair and duplicate assumptions, then update its audit only if the live consumer contract is deterministically clean.
+
+
+### 2026-09-22 cycle update — record reverse-PQ exact-pair duplicate hardening
+- [x] Audited `scripts/validate_record_reverse_pq_navigation.py` against the live Super Soul and Equipment record layers and canonical PQ relationship graph.
+- [x] Added explicit duplicate structured `(record,PQ)` pair rejection while preserving the existing exact canonical-pair parity boundary and noncanonical equipment metadata handling.
+- [x] Live deterministic check: **151/151 Super Soul canonical pairs and 125/125 Equipment canonical pairs**, **0 missing, 0 canonical extras, 0 duplicate structured pairs**.
+- [x] The Equipment layer retains **4 noncanonical acquisition-metadata PQ pairs**; these remain explicitly outside canonical `pq_rewards_equipment` navigation and were not promoted.
+- [x] Refreshed `docs/data/record-reverse-pq-navigation-audit.json` to schema **1.3.0**.
+- [x] No canonical relationship, identity, or acquisition claim was changed.
+- [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
+- [x] Commits: `76a58807f0dad1c9fc2c7b56a1d53847c0f44486`, `b9f6633f44927556358aa823cae00624edc15c49`.
+- [ ] Exact next batch: continue auditing the registered cross-domain PQ consumers for duplicated canonical scalar counts or one-way navigation gaps, next targeting the unified PQ reverse-index validator and its generated projection.
