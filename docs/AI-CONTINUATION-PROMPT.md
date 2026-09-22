@@ -2684,3 +2684,14 @@
 - [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; no CI success claimed.
 - [x] Commits: canonical fb556ae7aa05c8d9c79bc9781df31c32b10d1127; index e02c77195d04db484a1f18a6a74b9d9ea09cc687; audit 16bb4346c742449db9b73e0a8e6b698a238dff1a.
 - [ ] Exact next batch: **Saiyan Blaster, Saiyan Spirit, Saturday Crash, Sauzer Blade, Savory Slicer, Scatter Kamehameha, Scissors Paper Rock, Seagull Combination, Secret Poison, Shadow Crusher**; recompute the live stale census before editing.
+
+
+### 2026-09-22 cycle update — Saiyan Blaster through Shadow Crusher provenance batch
+- [x] Fresh live stale census: 452 canonical skills / 452 index records / 0 duplicate IDs / 98 stale; exact first ten stale records were Saiyan Blaster, Saiyan Spirit, Saturday Crash, Sauzer Blade, Savory Slicer, Scatter Kamehameha, Scissors Paper Rock, Seagull Combination, Secret Poison, and Shadow Crusher.
+- [x] Refreshed all ten canonical records and synchronized index projections to last_verified: 2026-09-22.
+- [x] Expanded mechanics/provenance using current skill references. Preserved existing scope boundaries and documented Seagull Combination's PQ167 reward-route evidence without converting the source discrepancy into an unsupported certainty.
+- [x] Added docs/data/skill-saiyan-blaster-through-shadow-crusher-provenance-audit-2026-09-22.json.
+- [x] Validation: 452/452 canonical/index, 0 duplicate IDs, ID sets match, 10/10 selected records current, 88 stale canonical records remain.
+- [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; no CI success claimed.
+- [x] Commits: canonical 8a48a5802b53ef716960a8f7966e0370658e95c0; index a2b1885f676b095dfb0b2a73b6954cf4e12ec7da; audit 4097d6e8cf264f19fa8cb1ed504d2f6e99aad36a.
+- [ ] Exact next batch: **Shine Shot, Shining Friday, Shining Slash, Shooting Strike, Side Bridge, Sign of Awakening, Sneaky Strike, Soaring Rush, Solar Flare, Sonic Bomb**; recompute the live stale census before editing.
