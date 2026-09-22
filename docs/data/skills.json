@@ -1569,17 +1569,18 @@
       "mechanics_notes": "300-Stamina Ki Blast Evasive. Launches a wave of energy upward; dedicated documentation describes a 7-hit wave that can lift a nearby opponent. Current maintained PQ151 reward evidence lists Celestial Wave in Basic Reward. A separate video guide describes it as an Ultimate Finish reward, so the exact reward gate remains source-conflicted.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Celestial_Wave",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.youtube.com/watch?v=q_lEX6ym9UE"
       ],
       "source_quest": 151,
       "mechanics": "Ki Blast Evasive; launches a 7-hit wave and costs 300 Stamina.",
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 acquisition reconciliation: current maintained PQ151 reward listing explicitly includes Celestial Wave under Basic Reward, while an older video guide labels it a PQ151 Ultimate Finish reward. The repository preserves the conflict rather than asserting an unsupported exclusive gate. 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics.",
+      "notes": "2026-09-20 acquisition reconciliation: current maintained PQ151 reward listing explicitly includes Celestial Wave under Basic Reward, while an older video guide labels it a PQ151 Ultimate Finish reward. The repository preserves the conflict rather than asserting an unsupported exclusive gate. 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics. 2026-09-22 provenance refresh: independent PQ151 gameplay evidence also lists Celestial Wave as a Basic Reward. The older Ultimate Finish presentation remains an explicit conflict; no gate or probability was normalized.",
       "id": "skill-celestial-wave",
       "source_parallel_quests": [
         151
