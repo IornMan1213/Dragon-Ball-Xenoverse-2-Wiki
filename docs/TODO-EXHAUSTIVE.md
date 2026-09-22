@@ -544,3 +544,11 @@
 - [x] Added and registered `scripts/validate_pq_page_consumers.py` to enforce the consumer contract.
 - [x] Canonical relationship data was unchanged; this was a presentation/source-of-truth repair.
 - [ ] Exact next task: inspect remaining published PQ/skill/character/DLC index consumers for direct external-corpus dependencies or stale display-only navigation and repair only deterministic local consumers.
+
+
+### 2026-09-22 — Catalog consumer source-of-truth sweep
+- [x] Searched for direct external Madreag API/raw catalog dependencies.
+- [x] Repaired `docs/Skills-All.html` to use canonical local `docs/data/skills.json`.
+- [x] Repaired `docs/Awoken-All.html` to use canonical local `docs/data/skills.json` and explicit Awoken/Transformation classification only.
+- [x] Expanded `scripts/validate_pq_page_consumers.py` to cover PQ, Skills, and Awoken consumer source-of-truth contracts.
+- [ ] Continue searching for remaining direct external catalog consumers and audit character/DLC presentation indexes.
