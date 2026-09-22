@@ -2470,3 +2470,20 @@
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed
 - [ ] Live stale count after batch: 8
 - [ ] Exact next batch: **Weekend, Wild Buster, Wild Hunt, Wild Stinger, Wolf Fang Fist, X 100 Big Bang Kamehameha, x10 Kamehameha, Zigzag Express**; recompute the live stale census before editing and continue the same bounded provenance policy.
+
+
+### 2026-09-22 cycle completion tracking — Weekend through Zigzag Express
+- [x] Weekend provenance/mechanics refresh
+- [x] Wild Buster provenance/mechanics refresh
+- [x] Wild Hunt provenance refresh + deterministic Strike classification correction
+- [x] Wild Stinger provenance refresh + deterministic 100-Ki correction
+- [x] Wolf Fang Fist provenance/mechanics refresh
+- [x] X 100 Big Bang Kamehameha provenance/reward-tier refresh
+- [x] x10 Kamehameha provenance/mechanics refresh
+- [x] Zigzag Express provenance refresh with Male Majin restriction preserved
+- [x] Canonical/index parity validated: 452/452, 0 duplicate IDs
+- [x] Audit added and registered: docs/data/skill-weekend-through-zigzag-express-provenance-audit-2026-09-22.json
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed
+- [x] Live stale count after batch: 0
+- [x] The complete stale-skill queue is now refreshed to last_verified 2026-09-22.
+- [ ] Next priority: recompute the broader TODO/research census and select the highest-impact unfinished cross-domain, provenance, mechanics, validation, or presentation task; do not restart stale-skill refreshes unless new evidence requires it.
