@@ -1470,3 +1470,12 @@
 - [x] Commits: canonical `cea284c71ec7d9e657ca0d675dd3402d28e41f4f`; combined `4ce040ffa6ce1cb299c747d2a9ccef1a67288696`; crosslink `9f6203ef50f15168448fa821c7b9232113776f96`; audit `a75e1e28f7dbe94f5543b3d2160f6e70fdbf1220`; registry `93ac07fc9f37120ecec38c9232cb7171ed15965a`.
 - [ ] Exact next batch: fresh census, then **`equip-131`–`equip-140`**, preserving canonical accessory bridges and correcting any non-equipment false positives before enrichment.
 
+### 2026-09-22 — Equipment detail enrichment equip-131–equip-140
+- [x] Enriched equip-131–equip-140 with source-backed category, slot coverage, and DLC provenance while preserving the canonical accessory normalization equip-133 → acc-064.
+- [x] Provenance reconciled: 131–135 Super Pack 4; 136–139 Extra Pack 1; 140 base game.
+- [x] Added and registered docs/data/equipment/equipment-131-140-detail-audit.json.
+- [x] Reconciled docs/data/pq-equipment-crosslink-report.json to the live **173-record** canonical equipment/accessory layer: **124 forward / 122 unique targets / 122 reverse records / 0 missing / 0 extra / 0 duplicate pairs / 0 unresolved endpoints**; normalized legacy accessory IDs and removed stale equip-121 reverse navigation.
+- [x] Validation clean; no canonical relationship identities were invented or renamed.
+- [ ] CI: no successful workflow/check exposed; CI success is not claimed.
+- [x] Commits: a17c8281dee8278fdf396a16c4a858f01fde1330, 85b3d1d926778e3b8b3ccc7e4e143e30b1c293e4, 5e41477a3ade6a3bfd16144161497606a7511b00, 14f8be396cfa3a27066351ee0b45ad9213df549e, c01e71b3febc5447238c2a55a4a1e913c0313ad0, 4f45d5eacb9b566b8e59ad42a405b8407d19b329.
+- [ ] Exact next task: fresh census, then enrich **equip-141–equip-150**, preserving canonical accessory bridges and correcting any non-equipment false positives before enrichment.
