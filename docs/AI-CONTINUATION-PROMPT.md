@@ -346,3 +346,15 @@
 - Canonical source-of-truth rule remains active: canonical records determine identity; verification is evidence metadata only.
 - Exact next structural task: reconcile `docs/data/pq-reward-relationships.json` against the skill, Super Soul, equipment, and accessory reports plus canonical PQ reward fields, looking specifically for deterministic omissions/stale endpoints.
 - Do not begin another bounded provenance-only equipment range until that deterministic cross-domain reconciliation is complete unless a higher-priority integrity defect is discovered.
+
+### 2026-09-22 live-state refresh — canonical PQ reward-array reconciliation
+- Latest completed structural commit before this handoff update: **3acb3c5a894488e652de363bc1c9c258e77192a0**.
+- Canonical counts: **452 skills / 186 PQs / 234 Super Souls / 168 equipment-accessory records**.
+- Canonical PQ reward arrays are now reconciled with the generated relationship projections for Skills, Super Souls, and Equipment: **0 mismatches**.
+- Super Soul relationship report: **151 forward / 148 reverse / 0 unresolved / 0 broken**.
+- Equipment relationship report: **123 forward / 121 reverse / 0 unresolved / 0 broken**.
+- Skill relationship report: **244 forward / 239 reverse / 0 unresolved / 0 mismatches**.
+- Canonical PQ data was enriched from source-backed relationship evidence for **56 Super Soul** and **76 equipment** reward-bearing PQ records. This enrichment is now canonical data; reports are downstream projections and no longer act as competing truth sources.
+- Deterministic correction: PQ48's duplicate `Kamekameha` reward typo was removed from `skill_rewards` and normalized to canonical `Kamehameha` in the general reward list.
+- Exact next task: reconcile the separate **PQ accessory** relationship layer against canonical accessory identities and the canonical PQ reward model. Keep accessories distinct from equipment and do not invent schema fields unless the cross-link contract requires them.
+- Do not return to provenance-only enrichment until the accessory relationship model and remaining cross-domain structural drift are reconciled.
