@@ -2170,3 +2170,15 @@
 - [ ] Runtime/CI execution remains unavailable; no executable CI success claimed.
 - [x] Commits: canonical `21b7a550b517d519037317c211df01c33bacd06c`; index `b79993d3bb7cab31ec14773f6027d18264b5dcad`; audit `f977369ca49663a9ecbe944c0659c57d9f7c7140`; registry `588dd96cd9b3b6a5ef181744932d7215f7e890bf`.
 - [ ] Exact next batch: recompute the live census and continue the stale-`last_verified` P1 skill provenance queue with **Candy Beam (Super) (`skill-candy-beam-super`)**, preserving its PQ113/Extra Pack 1 reward evidence and any trigger conflicts.
+
+
+### 2026-09-22 cycle update — Candy Beam (Super) provenance verification
+- [x] Fresh live skill census: **452 canonical / 452 index / 398 stale before editing**; bounded record: `skill-candy-beam-super`.
+- [x] Independent evidence confirms Candy Beam (Super) as a **200-Ki Ki Blast Super** and identifies **PQ113** as its acquisition endpoint; the maintained all-186-PQ guide explicitly lists Candy Beam in PQ113 Basic Rewards, while an independent GameFAQs PQ113 summary also lists it among the rewards. citeturn0search0turn0search1turn0search2
+- [x] Refreshed canonical/index `last_verified` to **2026-09-22**; existing Extra Pack 1, PQ113, all-CaC-races, and no-Ultimate-Finish-only semantics were preserved.
+- [x] Evidence boundary preserved: reward listings establish availability but do not establish a drop probability or mandatory Ultimate Finish gate.
+- [x] Added `docs/data/skill-candy-beam-super-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Static validation after writes: **452/452**, **0 duplicate IDs**, **397 stale remaining**, and exact semantic parity across canonical/index for the projected/affected fields. The index intentionally omits some canonical-only descriptive fields; those were not treated as projection mismatches.
+- [ ] Runtime/CI execution remains unavailable; no executable CI success claimed.
+- [x] Commits: canonical `50fef71f04288032a268e94b749aba5485300535`; index `f877a9cc5f90cf04f5747bed87df307da2470114`; audit `c985d27efdb625a343fa7f429e02379c251477e8`; registry `79db691a8a514fc5166528b35c9dd67eabf39586`.
+- [ ] Exact next batch: recompute the live census and continue the stale-`last_verified` P1 skill provenance queue with the next stale record after `skill-candy-beam-super`, preserving acquisition conflicts and projection semantics.
