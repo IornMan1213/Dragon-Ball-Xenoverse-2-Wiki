@@ -805,3 +805,12 @@
 - Canonical relationship data was not changed. This batch repairs the presentation consumer so it cannot silently substitute an external corpus for the repository's source of truth.
 - Commits: `a92e8450c85556aa97b50c3e6fe475025ef7d384`, `741795a257a7b4968553e124cc74860b0d1ae2c9`, `c41855426280690601a8c3d16d44124fe5e1901a`, `63546a7294b29732a6939c414c960d8a22430071`.
 - Exact next batch: inspect the remaining published PQ/skill/character/DLC index consumers for direct external-corpus dependencies or stale display-only navigation, then add/repair deterministic local consumers without altering canonical relationships.
+
+
+### 2026-09-22 cycle update — catalog consumer source-of-truth sweep
+- Searched the live repository for direct external Madreag catalog consumers and found remaining dependencies in `docs/Skills-All.html` and `docs/Awoken-All.html`.
+- Repaired both explorers to consume the canonical local `docs/data/skills.json` database. Awoken records are selected only when explicitly classified as Awoken/Transformation; no name-based inference was added.
+- Expanded `scripts/validate_pq_page_consumers.py` to enforce that PQ, Skills, and Awoken catalog pages use local canonical data and contain no direct Madreag API/raw-corpus dependency.
+- The PQ explorer repair from the previous cycle remains intact.
+- No canonical relationship edges were created or modified in this sweep; this is a presentation/source-of-truth repair.
+- Exact next batch: continue searching the live repository for remaining direct external catalog consumers, then audit character/DLC presentation indexes and deterministic target links.
