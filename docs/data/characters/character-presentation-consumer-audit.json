@@ -33,9 +33,29 @@
       "unresolved_preset_character_ids": [],
       "orphan_reverse_character_targets": [],
       "status": "clean"
+    },
+    "preset_presentation": {
+      "total_records": 45,
+      "explorer_character_navigation_records": 45,
+      "unresolved_character_ids": [],
+      "identity_label_conflicts": [
+        {
+          "record_id": "captain-ginyu-preset-3",
+          "label": "Captain Ginyu Preset 3 (Vegeta)",
+          "status": "unresolved_identity_presentation",
+          "do_not_map_to": "vegeta"
+        },
+        {
+          "record_id": "captain-ginyu-preset-4",
+          "label": "Captain Ginyu Preset 4 (Xeno Trunks)",
+          "status": "unresolved_identity_presentation",
+          "do_not_map_to": "trunks-future"
+        }
+      ],
+      "status": "clean"
     }
   },
-  "evidence_boundary": "Identity/navigation parity is clean. The explorer exposes canonical identities, indexed preset records, and explicit PQ reverse references. This does not establish complete preset numbering/loadouts, unlock routes, raid rotation, DLC ownership, TP Medal costs, drop rates, or historical chronology.",
+  "evidence_boundary": "Identity/navigation parity is clean. All 45 indexed preset records resolve through the explicit character_id bridge and their explorer presentation links back to the canonical character search surface. Captain Ginyu Presets 3/4 retain source body-configuration labels as unresolved identity presentation and are not remapped to Vegeta or Future/Xeno Trunks. No preset loadout, unlock route, DLC ownership, raid rotation, TP Medal cost, drop rate, or historical numbering claim is inferred.",
   "rules": [
     "Canonical character names remain authoritative.",
     "Presentation IDs resolve only through the explicit bridge.",
