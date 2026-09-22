@@ -286,3 +286,11 @@
 - Current reverse projection endpoints: 239 skills / 148 Super Souls / 123 equipment / 28 accessories; 0 missing / 0 orphan / 0 PQ-set mismatches. DLC: 86 forward edges / 20 unique reverse endpoints, exact parity.
 - No canonical relationship identities were changed in this batch; this was deterministic producer/projection metadata repair only.
 - Exact next batch: scan remaining non-PQ relationship producers and generated projection metadata for current-count drift, then repair only deterministic mismatches before expanding provenance research.
+
+
+### 2026-09-22 cycle update — non-PQ projection producer census
+- [x] Audited Skill, Super Soul, Equipment, and Accessory generated PQ cross-link reports against the canonical relationship layer.
+- [x] Current report counts synchronized: **244/239**, **151/148**, **125/123**, **28/28** forward/reverse endpoints respectively.
+- [x] Validation: all four reports have 0 duplicate keys, 0 invalid PQ references, 0 unresolved forward edges, and 0 orphan reverse sources.
+- [x] Preserved the accessory-vs-equipment scope distinction; no unsupported count collapse was made.
+- [ ] Exact next task: audit remaining generated/reconciliation artifacts outside the four primary cross-link reports for stale current-state counts or mismatched scopes.
