@@ -342,7 +342,7 @@
         131
       ]
     },
-    {
+        {
       "name": "Atomic Blast",
       "class": "Super",
       "subcategory": "Ki Blast",
@@ -359,16 +359,18 @@
       "mechanics_notes": "Dedicated current-version evidence confirms Atomic Blast as a 100-Ki Ki Blast Super from PQ87. It is a chargeable Ki wave whose optimal damage depends on charge timing and whether the user is grounded. Current evidence confirms CaC availability and no narrower CaC race/gender/form restriction is established; no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Atomic_Blast",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.youtube.com/watch?v=AF82zAb3TvI"
       ],
       "source_quest": 87,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: maintained all-PQ reward guide explicitly lists Atomic Blast in PQ87 Basic Reward.",
+      "notes": "2026-09-22 provenance reconciliation: dedicated skill documentation confirms Atomic Blast as a 100-Ki Ki Blast Super and identifies PQ87 as the unlock source. The maintained all-186-PQ guide lists Atomic Blast under PQ87 Basic Reward. A contemporaneous gameplay guide claims the skill required the Ultimate Finish/random-drop path, creating a historical source conflict; the canonical record preserves the maintained Basic Reward classification and does not infer a drop probability or Ultimate Finish requirement from the conflicting video.",
       "method": "Parallel Quest 87 — \"Saiyan Battle\" Reward",
       "id": "skill-atomic-blast",
       "source_parallel_quests": [
