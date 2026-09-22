@@ -6877,7 +6877,7 @@ The repository owner has clarified the continuation contract:
 ### 2026-09-21 cycle update — Kai Kai provenance
 - Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 29 exactly-two-source canonical records**.
 - Bounded batch: **Kai Kai (`skill-kai-kai`)**.
-- Evidence: a maintained Steam all-PQ guide lists Kai Kai in PQ63 — “Appetite for Destruction” Basic Reward; an independent GameFAQs walkthrough also lists Kai Kai among PQ63 rewards. This corroborates the existing PQ63 acquisition endpoint and Basic Reward tier. citeturn1search2turn1search6
+- Evidence: a maintained Steam all-PQ guide lists Kai Kai in PQ63 — “Appetite for Destruction” Basic Reward; an independent GameFAQs walkthrough also lists Kai Kai among PQ63 rewards. This corroborates the existing PQ63 acquisition endpoint and Basic Reward tier. 
 - Changes: added the GameFAQs walkthrough as a third provenance source to canonical/index records and refreshed `last_verified` to 2026-09-21. No Ultimate Finish-only gate was inferred.
 - Validation: target now has 3 sources; exactly-two-source count reduced to **28**.
 - CI: no success claim without an exposed workflow/check.
