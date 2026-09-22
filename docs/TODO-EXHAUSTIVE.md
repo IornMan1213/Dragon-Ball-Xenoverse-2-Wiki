@@ -1565,3 +1565,15 @@
 - [ ] Runtime/CI execution remains unavailable; validation is static direct-fetch/contract comparison only.
 - [x] Commits: DLC provenance 41537dfbd4bdefade42d746217bcea1577e9594d; cross-domain audit correction ed56ee4b2fa23aae4546968805281caf8dd4fd87; direct-template audit f0ec62c44488af1af9ef61f9180e21bbfcc87a95; index registration c7a3e86ed5d4f11eb19fa56b96b8e4f14fa3d301.
 - [ ] Exact next batch: perform the P1 provenance census for skill-prominence-flash using the live skill/PQ layers, independently reconcile its acquisition/source endpoint, and make provenance-only changes without altering canonical relationship identities.
+
+
+### 2026-09-22 cycle update — Super Soul acquisition reconciliation PQ151–153
+- [x] Fresh canonical Super Soul census: **151** canonical PQ→Super Soul relationships; partial PQ41–186 acquisition projection now contains **127** typed references.
+- [x] Bounded batch: reconciled five previously missing canonical pairs from **PQ151–153**: `I think I'm getting the hang of this.`, `I'll keep adding a bit of power to my attacks!`, `I will put a stop to you, fiend!`, `There's more where that came from!`, and `You're not much of a fun fight!`.
+- [x] Evidence: the maintained Steam all-PQ guide explicitly lists the five named Super Souls in the Basic Reward sections for PQ151, PQ152, and PQ153; independent Super Soul documentation corroborates the PQ153 entries.
+- [x] Preserved evidence boundary: the partial acquisition index remains a research projection; no canonical relationship was created or changed. The PQ158 source-layer typo (`Heh heh! I'm not a rusty as I look!`) was deliberately left unresolved rather than silently normalized to the canonical spelling.
+- [x] Exact post-edit pair comparison for PQ41–186: **133 canonical pairs in scope / 127 indexed pairs / 125 exact overlap / 8 remaining differences**. Remaining differences are six exact canonical gaps plus two capitalization variants.
+- [x] Updated `docs/data/super-souls/pq-acquisition-index-041-186.json` and `docs/data/super-souls/pq-acquisition-index-reconciliation-audit.json` with the bounded reconciliation and evidence boundary.
+- [ ] Runtime/CI execution remains unavailable; validation was static direct-fetch JSON parsing and exact pair comparison.
+- [x] Commits: acquisition projection `887f754bc86370d5de981ad60d32ca0a6c879e7c`, source-spelling correction `e883d4df5a01d50adb97b8e3175cd06911b543f9`, reconciliation audit `50a341a0cb5ff61e051896015c74c48d571e1476`.
+- [ ] Exact next batch: independently reconcile the remaining six missing Super Soul pairs, beginning with **PQ58 `Killed all Earthlings!`**, then **PQ158**, while preserving the unresolved PQ158 source spelling and the two capitalization variants as noncanonical projection findings.
