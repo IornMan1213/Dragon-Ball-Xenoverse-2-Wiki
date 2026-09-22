@@ -1280,3 +1280,14 @@
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [x] **TODO completion:** Super Soul acquisition-index structural hardening.
 - [ ] Exact next batch: continue through the registered cross-domain consumers for deterministic structural or navigation gaps.
+
+
+### 2026-09-22 cycle update — PQ reference/explorer dependency contract hardening
+- [x] Hardened `scripts/validate_pq_reference_pages.py` with canonical relationship-PQ resolution, duplicate PQ identity checks, and published explorer dependency/collection-shape checks.
+- [x] Live result: **186 PQ records / 860 canonical relationship edges / 0 invalid relationship PQ IDs / 0 duplicate PQ numbers / 0 duplicate PQ IDs**.
+- [x] Published explorer contract clean: canonical PQ layer + canonical relationship layer loaded explicitly, arrays guarded, canonical Search surface retained.
+- [x] Refreshed `docs/data/pq-reference-page-audit.json` to schema **1.2.0**.
+- [x] No canonical relationship or identity data changed.
+- [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
+- [x] **TODO completion:** PQ reference/explorer dependency contract hardening.
+- [ ] Exact next batch: inspect the next PQ-facing search/landing consumer or cross-domain registry for one-way navigation and stale hard-coded counts.
