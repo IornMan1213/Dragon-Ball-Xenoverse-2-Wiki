@@ -1764,3 +1764,17 @@
 - Commits: canonical `55f163ba865fecb908a2f1dc259ea455aafb17cf`; combined `bf0f9087f5ac0d56fc34fa69860717bb3817d3a9`; audit `a8e2b5c6029f45e4f0b9bf0e61d58d21b80b19b8`; registry `0a0194f191171bfff92e201de90a08cfeb6f4500`; TODO `853eeb1f4fb1e91c478a91d67bb53080e3e1f102`.
 - Exact next batch: **`equip-121`–`equip-130`** after a fresh census.
 
+### 2026-09-22 cycle update — Equipment detail enrichment and identity correction `equip-121`–`equip-130`
+- Live census before editing: **174 combined equipment/accessory records / 139 legacy equipment records / 0 duplicate IDs / 125 forward / 123 reverse / 0 broken**.
+- Bounded batch: `equip-121`–`equip-130`.
+- Critical correction: `equip-121` **Mr. Shape Up L** was a false equipment endpoint. Independent evidence identifies Mr. Shape Up L as a consumable capsule/material, so it was removed from the equipment layers while the PQ99 reward remains in PQ reward data.
+- Canonical bridge preserved: `equip-123 → acc-063` (SSGSS Vegeta Wig); no duplicate canonical accessory was created.
+- Detail changes: `122`, `124–130` received source-backed category/slot metadata and DLC provenance. `130` Goku Black's Clothes is explicitly upper/lower/feet with no hands.
+- Evidence: maintained DBXV2 equipment catalog; maintained all-PQ Steam guide; Future Mai/Battle Armor documentation; independent Goku Black equipment discussion; capsule documentation for the false-positive correction.
+- Evidence limits: no reward probability, guaranteed-drop semantics, combat/stat effect, or unsupported restriction inferred.
+- Audit: `docs/data/equipment/equipment-121-130-detail-audit.json`, registered in `docs/data/pq-cross-domain-index.json`.
+- Validation after editing: **173 combined records / 0 duplicate IDs / 124 forward / 122 reverse / 0 broken endpoints**; 8 live non-bridge endpoints have slot coverage and explicit classification.
+- CI: no successful workflow/check exposed; CI success not claimed.
+- Commits: canonical `cea284c71ec7d9e657ca0d675dd3402d28e41f4f`; combined `4ce040ffa6ce1cb299c747d2a9ccef1a67288696`; crosslink `9f6203ef50f15168448fa821c7b9232113776f96`; audit `a75e1e28f7dbe94f5543b3d2160f6e70fdbf1220`; registry `93ac07fc9f37120ecec38c9232cb7171ed15965a`; TODO `997861a3c545742d6ff2f5ee32e1f4da09e4f346`.
+- Exact next batch: **`equip-131`–`equip-140`** after a fresh census.
+
