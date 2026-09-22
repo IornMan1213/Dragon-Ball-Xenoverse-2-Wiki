@@ -819,6 +819,174 @@
       ]
     },
     {
+      "id": "acc-051",
+      "name": "Four-Star Dragon Ball Hat",
+      "category": "headwear",
+      "acquisition_routes": [
+        "Parallel Quest 5"
+      ],
+      "dlc_provenance": "base_game",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://dragonball.fandom.com/wiki/Four-Star_Dragon_Ball_Hat"
+      ],
+      "parallel_quest_ids": [
+        5
+      ],
+      "notes": "Canonical accessory identity reconciled from the PQ5 reward and independent equipment/accessory references. Exact reward-slot/drop semantics remain unresolved."
+    },
+    {
+      "id": "acc-052",
+      "name": "Chiaotzu's Hat (With Collar)",
+      "category": "headwear",
+      "acquisition_routes": [
+        "Parallel Quest 9",
+        "Accessory Shop reported"
+      ],
+      "dlc_provenance": "base_game",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://dbxv2.fandom.com/wiki/The_Saiyan_King_is..._Who%3F"
+      ],
+      "parallel_quest_ids": [
+        9
+      ],
+      "notes": "Canonical accessory identity reconciled by exact inventory name. PQ9 is source-backed; an Accessory Shop route is retained as reported evidence. Exact shop availability and reward-slot semantics remain unresolved."
+    },
+    {
+      "id": "acc-053",
+      "name": "Dore's Scouter",
+      "category": "scouter",
+      "acquisition_routes": [
+        "Parallel Quest 27"
+      ],
+      "dlc_provenance": "base_game",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://dragonball.fandom.com/wiki/Dore",
+        "https://dragonball.fandom.com/wiki/Scouter"
+      ],
+      "parallel_quest_ids": [
+        27
+      ],
+      "notes": "Canonical accessory identity reconciled from independent descriptions identifying Dore's Scouter as a distinct equipable accessory and the PQ27 route. Exact reward-slot/drop semantics remain unresolved."
+    },
+    {
+      "id": "acc-054",
+      "name": "Great Saiyaman Bandana 1",
+      "category": "headwear",
+      "acquisition_routes": [
+        "Parallel Quest 51"
+      ],
+      "dlc_provenance": "base_game",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://www.youtube.com/watch?v=hYwSnqDxqKg"
+      ],
+      "parallel_quest_ids": [
+        51
+      ],
+      "notes": "Canonical accessory identity reconciled by exact inventory name and independent PQ51 reward evidence. Exact reward-slot/drop semantics remain unresolved."
+    },
+    {
+      "id": "acc-055",
+      "name": "Great Saiyaman Bandana 2",
+      "category": "headwear",
+      "acquisition_routes": [
+        "Parallel Quest 53"
+      ],
+      "dlc_provenance": "base_game",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://www.jeuxvideo.com/forums/42-3007921-53200370-1-0-1-0-accessoire-bandana-de-great-saiyaman.htm"
+      ],
+      "parallel_quest_ids": [
+        53
+      ],
+      "notes": "Canonical accessory identity reconciled by exact inventory name and independent PQ53 evidence. Exact reward-slot/drop semantics remain unresolved."
+    },
+    {
+      "id": "acc-056",
+      "name": "Jaco's State-of-the-Art Radio",
+      "category": "headwear",
+      "acquisition_routes": [
+        "Parallel Quest 72"
+      ],
+      "dlc_provenance": "base_game",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Galactic_Receiver",
+        "https://dragonball.fandom.com/wiki/Galactic_Patrol"
+      ],
+      "parallel_quest_ids": [
+        72
+      ],
+      "notes": "Canonical accessory identity reconciled by exact inventory name and independent documentation identifying it as an accessory obtained from PQ72. Cosmetic effect is source-supported; exact reward-slot/drop semantics remain unresolved."
+    },
+    {
+      "id": "acc-057",
+      "name": "Tagoma's Scouter",
+      "category": "scouter",
+      "acquisition_routes": [
+        "Parallel Quest 73"
+      ],
+      "dlc_provenance": "base_game",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Scouter",
+        "https://steamcommunity.com/app/454650/discussions/0/276237094328220312/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/78476793"
+      ],
+      "parallel_quest_ids": [
+        73
+      ],
+      "notes": "Canonical accessory identity reconciled by exact inventory name. Independent sources agree on PQ73; additional evidence documents the conditional reward behavior, but this canonical identity pass does not infer a drop percentage."
+    },
+    {
+      "id": "acc-058",
+      "name": "SSGSS Goku Wig",
+      "category": "wig",
+      "acquisition_routes": [
+        "Parallel Quest 76",
+        "Parallel Quest 66 reported in legacy equipment/normalized reward data"
+      ],
+      "dlc_provenance": "base_game",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/190458-dragon-ball-xenoverse-2/74480330",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79695690",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "parallel_quest_ids": [
+        76,
+        66
+      ],
+      "notes": "Canonical identity reconciled by exact inventory name. Independent evidence supports PQ76, while the legacy equipment endpoint records PQ66; the route conflict is preserved rather than silently discarded. Do not collapse the historical PQ66/PQ76 discrepancy without stronger version-specific evidence."
+    },
+    {
       "id": "equip-001",
       "name": "Goku's Turtle Hermit Gi",
       "category": "unclassified",
@@ -1850,26 +2018,6 @@
       "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
     },
     {
-      "id": "equip-071",
-      "name": "Dore's Scouter",
-      "category": "accessory",
-      "acquisition_routes": [
-        "Parallel Quest 27 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
-      ],
-      "dlc_provenance": "Base game",
-      "restrictions": null,
-      "combat_effect": "unresolved",
-      "verification_status": "partially_verified",
-      "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
-        "https://dbxv2.fandom.com/wiki/Equipment"
-      ],
-      "parallel_quest_ids": [
-        27
-      ],
-      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. This is base-game equipment/accessory content. Exact reward probability/slot semantics and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
-    },
-    {
       "id": "equip-072",
       "name": "Hercule's Clothes",
       "category": "equipment",
@@ -2013,29 +2161,6 @@
       "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. This is base-game equipment/accessory content. Exact reward probability/slot semantics and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
     },
     {
-      "id": "equip-081",
-      "name": "Four-Star Dragon Ball Hat",
-      "category": "headwear",
-      "acquisition_routes": [
-        "Parallel Quest 5"
-      ],
-      "dlc_provenance": "base_game",
-      "restrictions": null,
-      "combat_effect": "cosmetic",
-      "verification_status": "partially_verified",
-      "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Equipment",
-        "https://it.scribd.com/document/741933692/Dragon-Ball-Xenoverse-2-Equipment-Guide-Outfits-and-Accessories",
-        "https://xvguide.neocities.org/clothes",
-        "https://dragonball.fandom.com/wiki/Four-Star_Dragon_Ball_Hat"
-      ],
-      "parallel_quest_ids": [
-        5
-      ],
-      "notes": "Accessory/headwear classification independently corroborated. PQ5 is listed as the reward route; exact drop-slot/roll semantics remain unresolved."
-    },
-    {
       "id": "equip-082",
       "name": "Goku's Turtle Hermit Gi (King Kai)",
       "category": "clothing",
@@ -2056,29 +2181,6 @@
         8
       ],
       "notes": "Clothing classification, PQ8 acquisition, and stat spread independently corroborated. Exact reward-slot/drop semantics remain unresolved."
-    },
-    {
-      "id": "equip-083",
-      "name": "Chiaotzu's Hat (With Collar)",
-      "category": "headwear",
-      "acquisition_routes": [
-        "Parallel Quest 9",
-        "Accessory Shop reported"
-      ],
-      "dlc_provenance": "base_game",
-      "restrictions": null,
-      "combat_effect": "cosmetic",
-      "verification_status": "partially_verified",
-      "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Equipment",
-        "https://it.scribd.com/document/741933692/Dragon-Ball-Xenoverse-2-Equipment-Guide-Outfits-and-Accessories",
-        "https://xvguide.neocities.org/clothes"
-      ],
-      "parallel_quest_ids": [
-        9
-      ],
-      "notes": "Accessory/headwear classification independently corroborated. PQ9 and an Accessory Shop route are documented; exact current shop availability and reward-slot semantics remain unresolved."
     },
     {
       "id": "equip-084",
@@ -2193,25 +2295,6 @@
         66
       ],
       "notes": "Canonical acquisition corrected from PQ66 to PQ76 after independent corroboration from the maintained clothing guide, Steam discussion, GameFAQs, and the repository's XVGuide clothing source. PQ66 does not list this outfit in its basic rewards. Exact reward-slot/drop semantics remain unresolved."
-    },
-    {
-      "id": "equip-091",
-      "name": "SSGSS Goku Wig",
-      "category": "unclassified",
-      "acquisition_routes": [
-        "Parallel Quest 66 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
-      ],
-      "dlc_provenance": "unresolved",
-      "restrictions": null,
-      "combat_effect": "unresolved",
-      "verification_status": "partially_verified",
-      "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ],
-      "parallel_quest_ids": [
-        66
-      ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
     },
     {
       "id": "equip-092",
