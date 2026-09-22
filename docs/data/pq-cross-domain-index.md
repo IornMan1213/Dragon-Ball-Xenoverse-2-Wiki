@@ -33,13 +33,14 @@ Reward relationships are only created when a source explicitly identifies the it
 ## Current implementation
 
 - `parallel-quests-canonical-index.json` defines the batch aggregation for PQ 1-186.
-- `pq-reward-relationships.json` contains the first normalized relationship set, including documented skill, equipment, Dragon Ball farming and DLC edges.
+- `pq-reward-relationships.json` contains the normalized relationship set, including documented skill, Super Soul, equipment, character, DLC, and farming edges.
 - `pq-cross-domain-schema.json` defines the machine-readable edge format.
+- `pq-endpoint-identity-resolution-audit.json` records the current exact endpoint-resolution census across skills, Super Souls, equipment, characters, and DLC.
 
 ## Current completion state and next gate
 
-The canonical relationship layer is now the authoritative source for **860 unique PQ edges**: 244 skills, 151 Super Souls, 125 equipment, 247 character references, 86 DLC requirements, and 7 farming routes. Canonical reverse/presentation projections for skills, Super Souls, equipment/accessories, characters, DLC, and farming have been audited for endpoint integrity; aliases and granularity conflicts remain explicit presentation metadata rather than alternate canonical identities.
+The canonical relationship layer is now the authoritative source for **859 unique PQ edges**: **244 skills, 151 Super Souls, 124 equipment, 247 character references, 86 DLC requirements, and 7 farming routes**. Canonical reverse/presentation projections have been reconciled for current endpoint integrity; the false PQ99 `Mr. Shape Up L` equipment endpoint has been removed while the underlying PQ reward evidence remains preserved. Two equipment naming conflicts and six DLC granularity mappings remain explicit bridge metadata rather than alternate canonical identities.
 
-The next deterministic gate is **consumer/page navigation integrity**: audit direct PQ pages, catalog indexes, and cross-domain presentation consumers so each displayed relationship resolves back to the canonical PQ and target identity. This pass must not add relationship edges. Legacy display names, bundle-vs-pack granularity, or unresolved page references must remain explicitly classified rather than inferred.
+The next deterministic gate is **non-PQ consumer/navigation integrity**: audit registered presentation and reverse-navigation consumers for stale relationship baselines, one-way navigation, scalar/list assumptions, and endpoint-name drift. This pass must not add relationship edges. Legacy display names, bundle-vs-pack granularity, or unresolved identity conflicts must remain explicitly classified rather than inferred.
 
 Canonical relationship data remains authoritative. Normalized research maps, verification status, reverse indexes, and presentation bridges are projections/evidence layers and must never override canonical relationships.
