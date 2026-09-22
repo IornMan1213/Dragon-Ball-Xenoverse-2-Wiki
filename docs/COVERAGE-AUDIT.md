@@ -1280,3 +1280,10 @@
 - Validation: 169 canonical equipment records, 0 duplicate IDs; PQ→equipment 124 forward / 122 reverse / 0 unresolved / 0 broken endpoints.
 - Evidence boundary: exact reward probabilities, Ultimate Finish-only semantics, slot details, restrictions, and effects remain unresolved unless separately evidenced.
 - Next exact batch: `equip-041`–`equip-050`.
+
+### 2026-09-22 — Equipment provenance batch `equip-041`–`equip-050`
+- Enriched 10 canonical equipment records with independent identity/category provenance and explicit PQ/DLC provenance.
+- Batch categories: 041–042 accessory; 043 equipment; 044 accessory; 045–046 equipment; 047 accessory; 048–049 equipment; 050 accessory.
+- Validation: 169 canonical equipment records, 0 duplicate IDs; PQ→equipment 124 forward / 122 reverse / 0 unresolved / 0 broken endpoints.
+- Evidence boundary: exact reward probabilities, drop conditions, restrictions, and effects remain unresolved unless directly evidenced.
+- Next exact batch: **`equip-051`–`equip-060`**.
