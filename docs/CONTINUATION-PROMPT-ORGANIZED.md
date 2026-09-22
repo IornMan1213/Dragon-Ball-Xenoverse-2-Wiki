@@ -1010,3 +1010,15 @@
 - [x] Super Soul acquisition projection still has its documented 13 reconciliation findings (11 exact missing pairs + 2 capitalization variants); these remain a research/projection queue rather than baseline drift.
 - [ ] Runtime/CI execution remains unavailable; this cycle claims static direct-fetch/structural inspection only, not executable validation.
 - [ ] Exact next task: return to the **P1 skill provenance queue at Prominence Flash (`skill-prominence-flash`)**, recompute the live two-source census first, independently verify its acquisition/source endpoint, and make provenance-only changes within the existing canonical relationship contract.
+
+
+### 2026-09-22 cycle update — character Markdown preset-consumer audit
+- [x] Fresh live census: **149 canonical character identities / 29 bridge records / 40 preset producer records / 17 preset character IDs / 247 explicit PQ→character references**; prior 45-record preset count remains historical and is superseded by the live 40-record producer census.
+- [x] Audited the character-facing Markdown consumers docs/Characters.md and docs/Character-Core-Profiles.md for hard-coded preset labels and canonical explorer/search navigation.
+- [x] Confirmed docs/Characters.md links to the canonical Characters-All.html explorer and Character-Core-Profiles.md uses the site's Search-first navigation design.
+- [x] Deterministic preset-label scan found **0 hard-coded preset-label matches** in those two Markdown consumers; no one-way preset navigation repair was necessary there.
+- [x] Extended scripts/validate_character_presentation_consumers.py with the Markdown-consumer checks and updated docs/data/characters/character-presentation-consumer-audit.json to register the two pages.
+- [x] Evidence boundary preserved: this audit does not infer missing preset numbers/loadouts, unlock routes, DLC ownership, or Captain Ginyu body-swap identity. The two Captain Ginyu labels remain explicitly unresolved presentation identities.
+- [ ] CI/runtime execution remains unavailable; no executable validation or CI success claimed.
+- [x] Commits: validator 44680366def03b1fdfc7d4c32eb05b9039a61c09; audit dd7a1122748cbe731e0ec6c26da71c9e02ebe23b.
+- [ ] Exact next batch: audit the remaining **PQ-facing reward/acquisition summary consumers**, prioritizing docs/Guides.md, docs/Skills-Complete-Database.md, docs/QQ-Bangs.md, and other summary/index pages for deterministic canonical endpoint drift or one-way navigation; do not infer new relationships.
