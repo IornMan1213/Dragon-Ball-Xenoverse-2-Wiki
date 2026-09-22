@@ -353,3 +353,12 @@
 - [x] Confirmed generator writes only projection fields and does not migrate schemas or modify canonical relationships.
 - [ ] Complete schema-aware dry-run/runtime comparison of all four standalone reverse indexes against normalized source maps.
 - [ ] Only after that validation, evaluate unified reverse-index generation support.
+
+
+### 2026-09-22 — complete PQ reverse-index source-shape audit
+- [x] Audited all four normalized source maps and standalone reverse indexes.
+- [x] Generator now supports PQ81-120 object-map, PQ121-162 nested `rewards`, and PQ163-186 direct typed-domain records.
+- [x] Validator now supports the same three source shapes.
+- [ ] Execute generator/validator in a repository-capable runtime and capture actual runtime output.
+- [ ] If runtime remains unavailable, produce a static schema/parity audit artifact from live JSON and explicitly mark it as static rather than runtime validation.
+- [ ] Evaluate unified reverse-index generation only after standalone validation is complete.
