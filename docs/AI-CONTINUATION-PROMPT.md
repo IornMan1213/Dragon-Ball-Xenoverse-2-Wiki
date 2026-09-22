@@ -1483,3 +1483,12 @@
 - [ ] CI: no successful GitHub Actions status exposed for this direct-commit chain; CI success not claimed.
 - [x] Commits: `00dfd24c3d9c5f8f4fbc8261a261c152211cf69b`, `8deae24b4a557ca272e4901e2c8d4c83d35bd3ad`.
 - [ ] Exact next batch: audit `scripts/validate_pq_reference_pages.py` and the general PQ reference consumers for hidden scalar/list assumptions, stale count/set assertions, and exact canonical relationship parity; harden only deterministic validator gaps, then continue to the next registered cross-domain consumer.
+\n### 2026-09-22 cycle update — general PQ reference identity-contract hardening
+- [x] Continued from the PQ explorer reward-pair parity pass and audited `scripts/validate_pq_reference_pages.py` against the live canonical PQ record/relationship layers.
+- [x] Hardened the validator beyond count/text assertions to require the canonical PQ number set to be **exactly 1–186**, PQ IDs to be unique, relationship types to remain within the six known canonical types, and each `(relationship,PQ,target)` key to be unique.
+- [x] Refreshed `docs/data/pq-reference-page-audit.json` to schema **1.1.0** with the new identity/relationship contract; live validation remains **clean**.
+- [x] Existing domain parity remains **244 skills / 151 Super Souls / 125 equipment / 247 characters / 86 DLC / 7 farming = 860 edges**; farming remains **PQ15, PQ22, PQ44, PQ45, PQ68, PQ83, PQ88**.
+- [x] No canonical PQ, relationship, reward, or source record was changed.
+- [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
+- [x] Commits: `8a256fb4e2998c12a0f29b42a637acbdc93ff5c4`, `8bf3f109e1ec3249f43f6daf9978d58d2198a4db`.
+- [ ] Exact next batch: inspect the remaining registered PQ-facing search/landing consumers and cross-domain index registry for duplicated canonical counts or one-way links; prioritize a consumer where exact pair parity can be checked without broad schema migration.
