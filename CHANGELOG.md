@@ -1417,3 +1417,8 @@
 ## 2026-09-22 — Soaring Fist provenance
 - Strengthened `skill-soaring-fist` with independent Dragon Ball Wiki evidence for its Xenoverse 2 TP Medal Shop acquisition.
 - Preserved existing Free Update 11, TP/STP shop, and CaC semantics.
+
+
+## 2026-09-22 — Super Guard provenance
+- Strengthened `skill-super-guard` with independent GameFAQs evidence for its CaC starting-fighting-style acquisition.
+- Preserved the existing Skill Shop alternate route and mechanics semantics.
