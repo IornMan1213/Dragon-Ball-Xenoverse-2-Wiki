@@ -1416,3 +1416,8 @@
 - Preserved source-backed `Super Pack 1-4` as distinct DLC targets rather than collapsing them into `Super Pass`.
 - Current relationship baseline remains **862 edges** with 0 duplicate relationship keys, 0 invalid PQ numbers, and 0 empty targets.
 \n\n## 2026-09-22 — PQ relationship duplicate-evidence repair\n- Corrected two duplicate `pq_requires_dlc → Future Saga Chapter 4` relationship keys for PQ185/PQ186 by merging their evidence into one edge each.\n- Current unique relationship baseline: **860 edges** — 244 skill / 151 Super Soul / 125 equipment / 247 character / 86 DLC / 7 farming.\n- Official Bandai Namco remains the edge source; the corroborating Steam source is preserved in the edge notes.\n- Historical 862-edge counts are retained as dated history and are superseded by the current unique-edge census.\n
+
+## 2026-09-22 — Current PQ projection census correction
+- Current projection metadata is synchronized to the corrected 860-edge canonical PQ relationship baseline: 244 skill / 151 Super Soul / 125 equipment / 247 character / 86 DLC / 7 farming.
+- Reverse projection parity remains clean: 239 skill endpoints, 148 Super Soul endpoints, 123 equipment endpoints, and 28 accessory endpoints; 0 missing/orphan/PQ-set mismatches.
+- Historical 862/840 figures remain preserved as historical audit evidence.
