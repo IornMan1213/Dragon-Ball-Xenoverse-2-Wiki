@@ -72,7 +72,8 @@
     "skill_pq_acquisition_presentation": "docs/data/skill-pq-acquisition-presentation-audit.json",
     "pq_reference_pages": "docs/data/pq-reference-page-audit.json",
     "pq_standalone_reverse_index": "docs/data/pq-reward-normalization/pq-standalone-reverse-index-audit.json",
-    "skill_reverse_pq_navigation": "docs/data/skill-pq-acquisition-presentation-audit.json"
+    "skill_reverse_pq_navigation": "docs/data/skill-pq-acquisition-presentation-audit.json",
+    "record_reverse_pq_navigation": "docs/data/record-reverse-pq-navigation-audit.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
@@ -88,7 +89,8 @@
     "pq_reference_pages": "scripts/validate_pq_reference_pages.py",
     "pq_reverse_indexes": "scripts/validate_pq_reverse_indexes.py",
     "skill_acquisition_metadata": "scripts/validate_skill_acquisition_metadata.py",
-    "skill_reverse_pq_navigation": "scripts/validate_skills_pq_reverse_navigation.py"
+    "skill_reverse_pq_navigation": "scripts/validate_skills_pq_reverse_navigation.py",
+    "record_reverse_pq_navigation": "scripts/validate_record_reverse_pq_navigation.py"
   },
   "schemas": {
     "canonical_dlc_identity": "docs/data/dlc/canonical-dlc-identity.schema.json"
