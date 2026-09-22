@@ -2573,3 +2573,18 @@
 - Evidence policy: preserved existing conflicts, nulls, and unresolved mechanics; no unsupported gates/probabilities/restrictions inferred.
 - Validation: **452/452**, **0 duplicate IDs**, **10 selected current**, **0 canonical↔index mismatches**, **188 stale**. CI unavailable; no success claimed.
 - Exact next batch: **Instant Rise, Instant Severance, Instant Transmission, Jumping Energy Wave, Justice Blade, Justice Combination, Justice Drive, Justice Kick, Justice Pose, Justice Rush**.
+
+
+### 2026-09-22 cycle update — Instant Rise through Justice Rush provenance batch
+- [x] Fresh live stale census before editing: **452 canonical skills / 452 index records / 0 duplicate IDs / 188 stale**.
+- [x] Completed the bounded P1 provenance refresh for **Instant Rise, Instant Severance, Instant Transmission, Jumping Energy Wave, Justice Blade, Justice Combination, Justice Drive, Justice Kick, Justice Pose, and Justice Rush**.
+- [x] Refreshed all ten canonical/index records to `last_verified: 2026-09-22` and synchronized their shared identity/provenance fields.
+- [x] Added `docs/data/skill-instant-rise-through-justice-rush-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Deterministic corrections: **Justice Blade** and **Justice Kick** notes now consistently reference PQ152 rather than the stale PQ153 wording; **Justice Drive** mechanics now correctly describe its canonical **100-Ki Strike Super** classification instead of the contradictory 400-Ki Ultimate wording.
+- [x] Expanded bounded evidence for **Instant Rise**: 300 Stamina, rapid/invisible vertical movement, directional redirection including downward movement, and short evasive control window. Existing source conflicts were not erased.
+- [x] Preserved evidence limits for mentor/shop skills and unresolved combat mechanics; no unsupported drop probabilities, gates, restrictions, frame data, or damage values were invented.
+- [x] Static validation after writes: **452/452 canonical/index, 0 duplicate IDs, 0 canonical↔index mismatches, 10/10 selected records current, 178 stale records remain**.
+- [x] Audit registration verified in the live cross-domain index.
+- [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; do not claim CI success.
+- [x] Commits: `5bd60f04eaf8d96862bfb8671299e2396f8299c8`, `e5f46b756c25cc172a8d45ba90d3c51d1b0ebb7d`, `15b082ca7a910b14b2f492036f306d9fa265bc7a`, `da126b2e3e92dfc11b17c3d9bdc9588da4c84ffe`.
+- [ ] Exact next batch: **Kai Kai, Kaioken, Kaioken Kamehameha, Kairos Cannon, Kamehameha, Ki Blast Thrust, Ki Explosion, Kill Driver, Last Emperor, Light Grenade**; recompute the live stale census before editing and preserve the same bounded provenance policy.
