@@ -1762,3 +1762,12 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Synchronized canonical/index source projections and refreshed `last_verified` to 2026-09-21.
 - [x] Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 32 exactly-two-source records**; no internal AI/UI/search citation artifacts detected.
 - [ ] Next task: recompute the live two-source census and continue with **Holy Wrath (`skill-holy-wrath`)**, verifying its PQ111 source/reward tier before provenance-only strengthening.
+
+
+### 2026-09-21 — Holy Wrath low-source provenance strengthening
+- [x] Recomputed the live skill census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 32 exactly-two-source canonical records** before editing.
+- [x] Strengthened **Holy Wrath (`skill-holy-wrath`)** from 2 to 3 provenance sources using the maintained Steam all-186 Parallel Quests guide, independently listing it as a **PQ111 — The Zero Mortal Plan Basic Reward**.
+- [x] Preserved the existing PQ111 acquisition, Basic Reward, 100-Ki Super, and no-Ultimate-Finish semantics. Conflicting community drop claims remain unresolved rather than being normalized into an unsupported probability/gate.
+- [x] Synchronized canonical/index source projections and refreshed `last_verified` to 2026-09-21.
+- [x] Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 31 exactly-two-source records**.
+- [ ] Next task: recompute the live two-source census and continue with **Instant Charge (`skill-instant-charge`)**, focusing on its character-exclusive/Mira boundary.
