@@ -310,3 +310,12 @@
 - [x] Audited Super Soul acquisition projection: **80 PQ records / 122 references**, 108 exact canonical overlaps, 14 research-only pairs, 43 canonical pairs absent, with 25 absent within PQ41-186 scope.
 - [x] Preserved canonical data as source of truth; research-only acquisition pairs were not promoted.
 - [ ] Exact next task: audit remaining PQ reverse-index artifacts for PQ81-186 and other domain-specific acquisition projections using exact relationship-pair comparison.
+
+
+### 2026-09-22 — PQ reverse-index structural/scope audit
+- [x] Audited PQ81-120, PQ121-142, and PQ163-186 reverse-index artifacts.
+- [x] Repaired missing root JSON brace in PQ81-120 without changing indexed data.
+- [x] Confirmed PQ121-142 = **89 references / 22 PQs** and PQ163-186 = **169 references / 24 PQs**.
+- [x] Confirmed no standalone PQ143-162 reverse-index artifact currently exists; retained this as an explicit coverage gap.
+- [x] Preserved canonical relationship data unchanged.
+- [ ] Exact next task: compare PQ81-120, PQ121-142, and PQ163-186 indexes against their normalized reward maps at exact relationship-pair level and assess deterministic PQ143-162 reverse-index generation.
