@@ -308,5 +308,60 @@
       "Added 3 missing equipment edges (PQ76 Whis Symbol Gi, PQ152 Android 17 (DB Super) Wig, PQ155 Gamma 2's Helmet) and removed 2 stale equipment edges (PQ50 Mr. Shape Up M, PQ66 Whis Symbol Gi)."
     ],
     "result": "pass"
+  },
+  "endpoint_census_2026_09_22": {
+    "date": "2026-09-22",
+    "scope": "repository-wide PQ relationship endpoint census",
+    "pq_scope": "pq-001 through pq-186",
+    "master_relationships": 862,
+    "master_counts": {
+      "skill": 244,
+      "super_soul": 151,
+      "equipment": 125,
+      "character": 247,
+      "dlc": 88,
+      "farming": 7
+    },
+    "pq_endpoint_checks": {
+      "invalid_pq_numbers": 0,
+      "duplicate_relationship_keys": 0,
+      "empty_targets": 0
+    },
+    "reverse_index_checks": {
+      "skills": {
+        "forward_edges": 244,
+        "reverse_endpoints": 239,
+        "missing_reverse_endpoints": 0,
+        "orphan_reverse_endpoints": 0,
+        "pq_set_mismatches": 0
+      },
+      "super_souls": {
+        "forward_edges": 151,
+        "reverse_endpoints": 148,
+        "missing_reverse_endpoints": 0,
+        "orphan_reverse_endpoints": 0,
+        "pq_set_mismatches": 0
+      },
+      "equipment": {
+        "forward_edges": 125,
+        "reverse_endpoints": 123,
+        "missing_reverse_endpoints": 0,
+        "orphan_reverse_endpoints": 0,
+        "pq_set_mismatches": 0
+      },
+      "accessories": {
+        "forward_edges": 28,
+        "reverse_endpoints": 28,
+        "missing_reverse_endpoints": 0,
+        "orphan_reverse_endpoints": 0,
+        "pq_set_mismatches": 0
+      }
+    },
+    "canonical_equipment_layer": {
+      "records": 174,
+      "canonical_accessory_ids": 70
+    },
+    "result": "clean",
+    "interpretation": "Reverse endpoint counts are unique target endpoints, not relationship counts; each reverse endpoint was compared against the complete forward-derived PQ set. No orphan, missing, or mismatched reverse endpoint was found."
   }
 }
