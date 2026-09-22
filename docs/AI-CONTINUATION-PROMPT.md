@@ -2474,3 +2474,14 @@
 - [x] Static validation passed: **452/452**, **0 duplicate IDs**, **10/10** audit records, **0 audited canonical/index mismatches**, **278 stale canonical records remain**.
 - [ ] Runtime/CI execution remains unavailable; no CI success claimed.
 - [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Feint Crash, Feint Shot, Fierce Fist, Fighting Pose A, Fighting Pose C, Fighting Pose E, Fighting Pose F, Fighting Pose H, Fighting Pose K, Final Cannon**, then adjacent stale records where evidence remains bounded.
+
+
+### 2026-09-22 cycle update — Feint Crash through Final Cannon provenance batch
+- [x] Fresh live census before editing: **452 canonical / 452 index / 0 duplicate canonical IDs / 278 stale**.
+- [x] Completed the bounded P1 provenance batch for **Feint Crash, Feint Shot, Fierce Fist, Fighting Pose A, Fighting Pose C, Fighting Pose E, Fighting Pose F, Fighting Pose H, Fighting Pose K, and Final Cannon**.
+- [x] Refreshed canonical/index `last_verified` to **2026-09-22** for all ten records and added/registered docs/data/skill-feint-through-final-cannon-provenance-audit-2026-09-22.json.
+- [x] Expanded bounded mechanics/provenance from current dedicated evidence: Feint Crash teleport/restand and alternate knockback input; Feint Shot teleport/feint firing behavior; Fierce Fist three-stage charge and Stage-3 unblockable behavior; Fighting Pose A auto-guard; Fighting Pose C abnormal-status cleansing/immunity; Fighting Pose E Basic Attack buff; Fighting Pose F Hyper Armor and Stamina-regeneration penalty; Fighting Pose H damage reduction; Fighting Pose K 8-second Super Armor; and Final Cannon six-hit launching rush.
+- [x] Preserved evidence boundaries: Fierce Fist remains tied to its documented Ultimate Finish bonus pool; Final Cannon's individual reward probability remains unresolved; no unsupported drop rates or additional gates were invented.
+- [x] Static validation passed: **452/452**, **0 duplicate IDs**, **10/10** audit records, **0 audited canonical/index mismatches**, **268 stale canonical records remain**.
+- [ ] Runtime/CI execution remains unavailable; no CI success claimed.
+- [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Final Charge, Final Explosion, Final Flash, Final Flash (SS3 DAIMA), Final Flash (Super), Final Kamehameha, Final Pose, Final Rampage, Finish Breaker, Finishing Blow**, then adjacent stale records where evidence remains bounded.
