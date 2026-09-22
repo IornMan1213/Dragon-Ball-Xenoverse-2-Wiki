@@ -177,6 +177,7 @@
     "skill_data_input_provenance": "docs/data/skill-data-input-provenance-audit-2026-09-22.json",
     "skill_dead_end_rain_provenance": "docs/data/skill-dead-end-rain-provenance-audit-2026-09-22.json",
     "skill_deadly_dance_provenance": "docs/data/skill-deadly-dance-provenance-audit-2026-09-22.json",
-    "skill_elite_through_energy_provenance": "docs/data/skill-elite-through-energy-provenance-audit-2026-09-22.json"
+    "skill_elite_through_energy_provenance": "docs/data/skill-elite-through-energy-provenance-audit-2026-09-22.json",
+    "skill_energy_through_evil_provenance": "docs/data/skill-energy-through-evil-provenance-audit-2026-09-22.json"
   }
 }
