@@ -1512,3 +1512,9 @@
 - Preserved unsupported reward/drop semantics and mechanics.
 - PQ→equipment parity remains 124 forward / 122 reverse / 0 unresolved / 0 broken endpoints.
 - Next batch: `equip-071`–`equip-080`.
+
+## 2026-09-22 — Equipment provenance batch `equip-071`–`equip-080` range
+- Enriched 8 standalone canonical equipment/accessory records with independent equipment-catalog provenance and base-game provenance.
+- Preserved existing canonical identity overlaps for IDs 074 and 080 rather than creating duplicates.
+- PQ→equipment parity remains 124 forward / 122 reverse / 0 unresolved / 0 broken endpoints.
+- Next batch: `equip-081`–`equip-090`.
