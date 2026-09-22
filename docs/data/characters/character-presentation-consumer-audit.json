@@ -34,7 +34,17 @@
       "explicit_pq_reverse_references": 247,
       "unresolved_preset_character_ids": [],
       "orphan_reverse_character_targets": [],
-      "status": "clean"
+      "status": "clean",
+      "reverse_parity": {
+        "canonical_forward_character_edges": 247,
+        "reverse_pairs": 247,
+        "missing_reverse_pairs": [],
+        "extra_reverse_pairs": [],
+        "duplicate_reverse_pairs": [],
+        "exact_forward_reverse_parity": true,
+        "alias_count": 5,
+        "status": "clean_exact_forward_reverse_parity"
+      }
     },
     "preset_presentation": {
       "total_records": 40,
