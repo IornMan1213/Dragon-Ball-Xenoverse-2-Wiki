@@ -15,7 +15,7 @@
     {
       "pq_id": "pq-002",
       "pq_number": 2,
-      "target_id": "super-soul-066",
+      "target_id": "super-soul-002",
       "target_name": "Flying Nimbus!!",
       "status": "source_backed",
       "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/flying-nimbus.md"
@@ -721,7 +721,7 @@
       ]
     },
     {
-      "target_id": "super-soul-066",
+      "target_id": "super-soul-002",
       "target_name": "Flying Nimbus!!",
       "pq_ids": [
         "pq-002"
