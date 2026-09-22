@@ -1043,3 +1043,16 @@
 - [ ] Runtime/CI execution remains unavailable; no executable validation or CI success claimed.
 - [x] Commits: Farming-Routes `6fb46f2783ac95232ec20a9e5eff52989a610784`; summary audit `9518392fd2413b097784cd572d2b52c290077c41`; index registration `a6bfe629cc7c5ce0f7f54347950fccc553983cdd`.
 - [ ] Exact next batch: inspect **direct PQ page templates and DLC requirement presentation** for canonical endpoint navigation, stale field-level scalars, and one-way reward links; do not infer new relationships.
+
+
+### 2026-09-22 cycle update — direct PQ template and DLC requirement presentation audit
+- [x] Fresh live census: **186 PQ records / 859 unique relationships = 244 skill / 151 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming**; canonical DLC identity layer has **20 records**.
+- [x] Audited the live docs/Parallel-Quests-All.html template against docs/data/parallel-quests-record-layer.json, docs/data/pq-reward-relationships.json, and docs/data/dlc/canonical-dlc-identity.json.
+- [x] Confirmed the explorer loads local canonical PQ records and canonical relationship data, derives displayed DLC labels from pq_requires_dlc, and preserves cross-navigation for Skills, Super Souls, Equipment, Characters, and DLC.
+- [x] Audited the existing PQ reward-navigation and DLC presentation validators; their contracts cover exact canonical pair parity, DLC identity resolution, reverse-index parity, duplicate detection, and HTML link construction.
+- [x] Found and repaired two stale current-facing projection artifacts discovered during the audit: docs/data/pq-nonreward-provenance-audit.json had an obsolete 88-edge/21-target DLC census; docs/data/pq-cross-domain-audit.json had a 862-edge pre-repair snapshot mislabeled as a current 2026-09-22 integrity/stable baseline. Historical values were preserved under explicit historical keys.
+- [x] Added docs/data/pq-direct-template-dlc-consumer-audit-2026-09-22.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] No canonical PQ relationship or DLC identity was created, removed, or inferred.
+- [ ] Runtime/CI execution remains unavailable; validation is static direct-fetch/contract comparison only.
+- [x] Commits: DLC provenance 41537dfbd4bdefade42d746217bcea1577e9594d; cross-domain audit correction ed56ee4b2fa23aae4546968805281caf8dd4fd87; direct-template audit f0ec62c44488af1af9ef61f9180e21bbfcc87a95; index registration c7a3e86ed5d4f11eb19fa56b96b8e4f14fa3d301.
+- [ ] Exact next batch: perform the P1 provenance census for skill-prominence-flash using the live skill/PQ layers, independently reconcile its acquisition/source endpoint, and make provenance-only changes without altering canonical relationship identities.
