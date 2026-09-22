@@ -1,23 +1,4 @@
 {
-  "schema_version": "1.2",
-  "source_index": "https://dbxv2.fandom.com/wiki/Category:Skills",
-  "generated": "2026-09-22",
-  "category_counts": {
-    "Ki Blast Evasives": 15,
-    "Other Supers": 36,
-    "Strike Evasives": 9,
-    "Ki Blast Ultimates": 82,
-    "Ki Blast Supers": 136,
-    "Transformations": 15,
-    "Strike Supers": 106,
-    "Strike Ultimates": 21,
-    "Power Up Supers": 15,
-    "Power Up Evasives": 2,
-    "Other Evasives": 4,
-    "Transformation": 4,
-    "Other Ultimates": 2
-  },
-  "record_count": 452,
   "records": [
     {
       "id": "skill-absolute-zero",
@@ -8104,11 +8085,12 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Reverse_Shot",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Reverse_Shot"
       ],
       "unlock_method": "Parallel Quest 123 — \"The Ultimate Battle of the Universe\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 audit: PQ123 reward listings explicitly place Reverse Shot in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as Super Baby 2's 100-Ki Ki Blast Super from PQ123. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain bounded. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
@@ -8116,7 +8098,8 @@
       "source_quest_or_shop": "Parallel Quest 123 — \"The Ultimate Battle of the Universe\"",
       "source_parallel_quests": [
         123
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "id": "skill-ribrianne-s-eternal-love",
@@ -8129,11 +8112,13 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
-        "https://dragonball.fandom.com/wiki/Ribrianne%27s_Eternal_Love"
+        "https://dragonball.fandom.com/wiki/Ribrianne%27s_Eternal_Love",
+        "https://dbxv2.fandom.com/wiki/Ribrianne%27s_Eternal_Love",
+        "https://dragonball.fandom.com/wiki/Ribrianne_Eternal_Love"
       ],
       "unlock_method": "Parallel Quest 137 — Ultimate Finish bonus slot.",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "notes": "2026-09-21 Ultra Pack 1 provenance audit: official Bandai Namco documentation identifies Ultra Pack 1 as containing 10 additional skills and five Parallel Quests (PQ133–137); the maintained all-PQ guide independently maps the ten player-acquirable skills to those quests. Character-only Final Charge and Final Flash (Super) are retained under Ultra Pack 1 because current technique documentation identifies them as Ultra Pack 1 character-exclusive skills; they are distinct from the ten Future Warrior-acquirable skills listed for the pack. This pass verifies DLC provenance only and does not infer reward-slot semantics where sources conflict.",
       "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. 2026-09-20 verification: current PQ/reward data confirms the documented acquisition relationship; maintained drop-condition data supplies the specific reward tier. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Ultimate Finish bonus slot route; the documented route requires an Ultimate Finish bonus roll.",
@@ -8141,7 +8126,8 @@
       "source_quest_or_shop": "Parallel Quest 137 — \"Tournament of Power Round 2\"",
       "source_parallel_quests": [
         137
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "id": "skill-riot-javelin",
@@ -8158,12 +8144,13 @@
       ],
       "unlock_method": "Bardock mentor training — Lesson 2.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-21 DLC provenance audit: Masters Pack remains intentionally platform-dependent; the pack is distributed as free DLC on PC/Xbox/PlayStation while the Nintendo Switch release includes the Masters content in the base game. No normalization to a platform-neutral label was made.",
       "mechanics_notes": "Ki Blast Super whose projectile becomes substantially stronger at low health; current dedicated evidence lists 100 Ki.",
       "source_quest": "Bardock mentor training — Lesson 2.",
-      "source_quest_or_shop": "bardock mentor training"
+      "source_quest_or_shop": "bardock mentor training",
+      "ki_cost": 100
     },
     {
       "id": "skill-rise-to-action",
@@ -8180,12 +8167,13 @@
       ],
       "unlock_method": "Krillin's Initiation Test — complete the instructor lesson to receive Rise to Action as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 deterministic acquisition verification: Krillin initiation/mentor. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-21 provenance strengthening: Twinfinite's Krillin mentor guide independently corroborates Rise to Action as the first Krillin mentor reward and describes the mentor lesson endpoint; its stamina-restoration description is consistent with the repository's existing mechanics scope. No unsupported reward probability or additional prerequisite is inferred.",
       "mechanics_notes": "Confirmed as Krillin's 100-Ki mentor Super usable by all CaC races. The user slaps their cheeks to restore Stamina. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-krillin added for the documented mentor-training acquisition route.",
       "source_quest": "Krillin mentor training — Initiation Test",
-      "source_quest_or_shop": "Krillin mentor training — Initiation Test"
+      "source_quest_or_shop": "Krillin mentor training — Initiation Test",
+      "ki_cost": 100
     },
     {
       "id": "skill-rising-rage",
@@ -8202,11 +8190,12 @@
       ],
       "unlock_method": "Character-exclusive: Broly (Restrained)",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "Character-only",
       "notes": "2026-09-20 roster-status refinement: maintained skill references classify Rising Rage as Broly (Restrained)'s character-exclusive skill; no normal CaC acquisition route is established. 2026-09-21 character-only provenance strengthening: the current skill record identifies Rising Rage as used exclusively by Broly (Restrained), the character record lists it in his preset, and an independent gameplay showcase documents the skill in Broly (Restrained)'s moveset. No CaC acquisition route is inferred.",
       "mechanics_notes": "Confirmed as Restrained Broly's 100-Ki character-exclusive Other Super; no CaC acquisition route established. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
-      "source_quest_or_shop": "Character skill"
+      "source_quest_or_shop": "Character skill",
+      "ki_cost": 100
     },
     {
       "id": "skill-rocket-tackle",
@@ -8223,12 +8212,13 @@
       ],
       "unlock_method": "Android 16 mentor training — Lesson 1.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved.",
       "mechanics_notes": "Mentor acquisition endpoint, skill identity, and classification are directly corroborated; numerical combat mechanics remain deferred until separately verified.",
       "source_quest": "Android 16 mentor training — Lesson 1.",
-      "source_quest_or_shop": "Android 16 mentor training"
+      "source_quest_or_shop": "Android 16 mentor training",
+      "ki_cost": 100
     },
     {
       "id": "skill-rolling-bullet",
@@ -8245,7 +8235,7 @@
       ],
       "unlock_method": "Parallel Quest 42 — \"Artificial Warriors\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 provenance refinement: current dedicated skill documentation and the maintained PQ reward guide identify the exact quest title and place Rolling Bullet in Basic Reward. No Ultimate Finish-only gate is asserted.",
       "mechanics_notes": "Corrected to a Ki Blast Evasive, not a Super. It scatters Ki Blasts while ascending and is used to escape attacks. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
@@ -8253,7 +8243,8 @@
       "source_quest_or_shop": "Parallel Quest 42 — \"Artificial Warriors\"",
       "source_parallel_quests": [
         42
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "id": "skill-rolling-hercule-punch",
@@ -8266,16 +8257,18 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Rolling_Hercule_Punch"
       ],
       "unlock_method": "Hercule's mentor training — complete the corresponding lesson to receive Rolling Hercule Punch as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
       "source_quest": "Hercule mentor training",
-      "source_quest_or_shop": "Hercule mentor training"
+      "source_quest_or_shop": "Hercule mentor training",
+      "ki_cost": 100
     },
     {
       "id": "skill-rough-ranger",
@@ -8295,7 +8288,7 @@
       ],
       "unlock_method": "Parallel Quest 119 — \"A Ranger's Duty\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "notes": "Corrected 2026-09-20: current reward-table evidence places Rough Ranger in the Basic Reward pool; the prior Ultimate Finish flag was stale.",
       "mechanics_notes": "100 Ki Strike Super counter. The user braces for an incoming attack; Strike attacks trigger a kick, while Ki Blast attacks trigger an energy barrier. Current source evidence confirms the PQ119 Ultimate Finish acquisition route. Current reward-table evidence explicitly lists Rough Ranger under Basic Reward rather than an Ultimate Finish-only slot.",
@@ -8303,7 +8296,8 @@
       "source_quest_or_shop": "Parallel Quest 119 — \"A Ranger's Duty\"",
       "source_parallel_quests": [
         119
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "id": "skill-s-s-deadly-bomber",
@@ -8321,7 +8315,7 @@
       ],
       "unlock_method": "Parallel Quest 115 — Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "notes": " 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1.",
       "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. UF audit 2026-09-19: the maintained PQ guide lists this skill in Basic Reward, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for S.S. Deadly Bomber; no Ultimate Finish requirement is recorded for this route. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward section; no Ultimate Finish-only gate is asserted.",
@@ -8329,7 +8323,8 @@
       "source_quest_or_shop": "Parallel Quest 115 — \"Extreme Battle with Android 13!\"",
       "source_parallel_quests": [
         115
-      ]
+      ],
+      "ki_cost": 400
     },
     {
       "id": "skill-saiyan-blaster",
