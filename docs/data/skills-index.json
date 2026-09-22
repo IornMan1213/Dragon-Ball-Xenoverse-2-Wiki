@@ -472,7 +472,7 @@
         112
       ]
     },
-    {
+        {
       "id": "skill-blaster-ball",
       "name": "Blaster Ball",
       "class": "Super",
@@ -489,9 +489,9 @@
       ],
       "unlock_method": "Parallel Quest 125 — \"Proof's in the Potara\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: maintained all-PQ reward guide explicitly lists Blaster Ball in PQ125 Basic Reward alongside Ray Blast.",
+      "notes": "2026-09-22 provenance verification: dedicated skill documentation confirms Blaster Ball as a 100–500-Ki Ki Blast Super used by Kefla (Super Saiyan), acquired from Parallel Quest 125 — “Proof's in the Potara.” It documents repeatable firing, long-range projectile behavior, 2–13 hits, and knockback. The existing PQ125 Basic Reward acquisition is retained.",
       "mechanics_notes": "Dedicated current-version evidence confirms Blaster Ball as a 100–500 Ki Ki Blast Super from PQ125. Repeated input extends the barrage up to 13 total hits. No unsupported CaC race/gender/form restriction was inferred. Current evidence confirms CaC availability and no narrower CaC race/gender/form restriction is established; no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "source_quest": 125,
       "source_quest_or_shop": "Parallel Quest 125 — \"Proof's in the Potara\"",
