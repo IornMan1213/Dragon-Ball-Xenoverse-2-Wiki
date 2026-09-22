@@ -1750,3 +1750,17 @@
 - Commits: canonical `34ffe98a4702514806dbe425aba3f38f18804e6d`; combined `9bcf4242481a7d2283e7fe4db7894e923be2c13a`; audit `8bcbb0f4bf6d846b2557c84631851f07599e4af1`; registry `b51aa73512fb62822681a83b8a80af358142f5d2`; TODO `eced4791690df05feae417c6bd1683f062fef101`.
 - Exact next batch: **`equip-111`–`equip-120`** after a fresh census.
 
+### 2026-09-22 cycle update — Equipment detail enrichment `equip-111`–`equip-120`
+- Active workstream: P1 equipment/accessory canonical endpoint enrichment.
+- Fresh live census: **174 combined equipment/accessory records / 139 legacy equipment records / 0 duplicate IDs / 125 PQ→equipment forward edges / 123 unique targets / 0 broken endpoints**.
+- Bounded batch: `equip-111`–`equip-120`.
+- Changes: all 10 endpoints received source-backed category and slot coverage. `111–115` were reconciled to Future Saga Chapter 4 provenance; `116–120` remain base-game PQ-era endpoints.
+- Category details: `111,113,116,118` full four-piece clothing; `119` upper-body clothing; `112,114,115,117,120` accessories.
+- Evidence: maintained DBXV2 equipment catalog, maintained all-PQ Steam guide, and independent Dragon Ball documentation for Yamcha's Baseball Hat.
+- Evidence limits: no reward probability, guaranteed-drop semantics, combat/stat effect, or unsupported restriction inferred; GT Vegeta's Jacket intentionally remains upper-body-only.
+- Audit: `docs/data/equipment/equipment-111-120-detail-audit.json`, registered in `docs/data/pq-cross-domain-index.json`.
+- Validation: **174 records / 0 duplicate IDs / 125 forward / 123 reverse / 0 broken**; 10/10 batch records have slot coverage and explicit classification.
+- CI: no successful workflow/check exposed; CI success not claimed.
+- Commits: canonical `55f163ba865fecb908a2f1dc259ea455aafb17cf`; combined `bf0f9087f5ac0d56fc34fa69860717bb3817d3a9`; audit `a8e2b5c6029f45e4f0b9bf0e61d58d21b80b19b8`; registry `0a0194f191171bfff92e201de90a08cfeb6f4500`; TODO `853eeb1f4fb1e91c478a91d67bb53080e3e1f102`.
+- Exact next batch: **`equip-121`–`equip-130`** after a fresh census.
+
