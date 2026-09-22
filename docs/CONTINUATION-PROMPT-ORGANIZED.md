@@ -976,3 +976,14 @@
 - [x] Commits: a17c8281dee8278fdf396a16c4a858f01fde1330, 85b3d1d926778e3b8b3ccc7e4e143e30b1c293e4, 5e41477a3ade6a3bfd16144161497606a7511b00, 14f8be396cfa3a27066351ee0b45ad9213df549e, c01e71b3febc5447238c2a55a4a1e913c0313ad0, 4f45d5eacb9b566b8e59ad42a405b8407d19b329.
 - [x] Live census after editing: **139 legacy equipment records / 173 combined canonical equipment-accessory records / 64 canonical accessory IDs / 124 PQ→equipment forward edges / 122 unique targets / 122 reverse records / 0 broken or unresolved endpoints**.
 - [ ] Exact next batch: **fresh census, then enrich equip-141–equip-150**, preserving canonical accessory bridges and correcting any non-equipment false positives before enrichment.
+
+### 2026-09-22 cycle update — PQ endpoint identity correction and current cross-domain baseline
+- [x] Fresh live census exposed a deterministic mismatch left behind by the earlier equip-121 correction: pq-099 → Mr. Shape Up L was still present in the canonical pq_rewards_equipment relationship layer even though the endpoint had already been removed from the equipment identity layers.
+- [x] Removed only the false canonical equipment relationship pq-099 → Mr. Shape Up L; the underlying PQ99 reward listing remains preserved in the PQ reward data and no replacement equipment identity was invented.
+- [x] Removed the stale Mr. Shape Up L projection entry from docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json and synchronized its current equipment count.
+- [x] Refreshed current cross-domain audit/status counts and gate text: 859 canonical relationship edges = 244 skill / 151 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming. Historical 862/840/860 fields remain preserved as history.
+- [x] Refreshed docs/data/pq-endpoint-navigation-validation.json: 0 missing targets / 0 duplicate pairs / 0 invalid PQ IDs across skills, Super Souls, equipment, characters, and DLC; equipment is now 124 edges / 122 unique targets and the endpoint status is clean.
+- [x] Added docs/data/pq-endpoint-navigation-correction-2026-09-22.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Canonical equipment cross-link projection remains aligned at 124 forward / 122 unique targets / 122 reverse records / 0 unresolved endpoints.
+- [ ] Runtime CI/workflow execution remains unavailable for the current direct-commit chain; no CI success claimed.
+- [ ] Exact next gate: inspect/validate deterministic unified reverse-index generation only after standalone reverse-index runtime validation is available; preserve partial normalized source maps as non-canonical evidence layers.
