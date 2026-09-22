@@ -2775,3 +2775,15 @@
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [x] Commits: canonical 9269089027552fa7ef020e7c04ccf6c1d9954908; index eef81a7d0b2b5768eac106cb72877168cd2b6e3d; audit 21167472a33bb135e26544098d5d48fba1f22037; cross-domain registration 00551746a598d792fcd6ba3c4c8a3d956c47157e.
 - [ ] Exact next batch: **Tyrant Lancer, Ultimate Charge, Ultrasonic Blitz, Vanishing Ball, Variable Snipe Shot, Variant Drive, Victory Cannon, Volleyball Fist, Wall of Defense, Warp Kamehameha**; recompute live census first.
+
+
+### 2026-09-22 cycle update — Tyrant Lancer through Warp Kamehameha provenance batch
+- [x] Live census before editing: 452 canonical skills / 452 index records / 18 stale canonical records; exact bounded batch was Tyrant Lancer, Ultimate Charge, Ultrasonic Blitz, Vanishing Ball, Variable Snipe Shot, Variant Drive, Victory Cannon, Volleyball Fist, Wall of Defense, and Warp Kamehameha.
+- [x] Refreshed all ten canonical skill records in docs/data/skills.json and synchronized docs/data/skills-index.json to last_verified: 2026-09-22.
+- [x] Expanded bounded mechanics/provenance using current dedicated skill references and independent PQ/mentor reward evidence. Preserved existing acquisition conflicts for Ultimate Charge, Ultrasonic Blitz, Variable Snipe Shot, and Warp Kamehameha rather than forcing unsupported reward-tier interpretations.
+- [x] Deterministic correction: Warp Kamehameha Ki cost changed from 300 to 400 based on current dedicated skill evidence; its teleport-to-target, 24-hit beam behavior was also recorded. No new PQ relationship was created or renamed.
+- [x] Added docs/data/skill-tyrant-lancer-through-warp-kamehameha-provenance-audit-2026-09-22.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Validation: 452/452 canonical/index records, 0 duplicate IDs, canonical/index ID+name parity true, all 10 selected records current; live stale count is now 8.
+- [ ] CI/runtime: no successful workflow/check exposed for this direct-commit chain; no CI success claimed.
+- [x] Commits: canonical ecd0f6765e49e5bfd644063557bd1a9f31f04c73; index f70aebb20c0523f55da4d5442235c69fcfaf4398; audit 9b6fa7bae3099eadfe5b59a6e1e38f4d1ae7ecdf; cross-domain registration 0662076e513614abf35f97b4e48db69ec0870f6c; TODO tracking 0dc97c43d5947a98a804d2508e5d62f6a5092acb.
+- [ ] Exact next batch: Weekend, Wild Buster, Wild Hunt, Wild Stinger, Wolf Fang Fist, X 100 Big Bang Kamehameha, x10 Kamehameha, Zigzag Express; recompute the live stale census before editing and continue with the same bounded provenance policy.
