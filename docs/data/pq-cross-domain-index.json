@@ -74,7 +74,8 @@
     "pq_standalone_reverse_index": "docs/data/pq-reward-normalization/pq-standalone-reverse-index-audit.json",
     "skill_reverse_pq_navigation": "docs/data/skill-pq-acquisition-presentation-audit.json",
     "record_reverse_pq_navigation": "docs/data/record-reverse-pq-navigation-audit.json",
-    "equipment_detail_enrichment": "docs/data/equipment/equipment-031-040-detail-audit.json"
+    "equipment_detail_enrichment": "docs/data/equipment/equipment-031-040-detail-audit.json",
+    "equipment_detail_enrichment_041_050": "docs/data/equipment/equipment-041-050-detail-audit.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
