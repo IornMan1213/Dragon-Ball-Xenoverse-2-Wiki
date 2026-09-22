@@ -2265,3 +2265,15 @@
 - [ ] Runtime/CI execution remains unavailable; no executable CI success claimed.
 - [x] Commits: canonical `311c6952c780c4830b541e443156d6df10a2c2b1` / source cleanup `172e38cc0e2771ee73482e9c8f79da327835b2af`; index `4b5e1752e7ff7000998084e50e3d53b1e459728f` / source cleanup `117913c1ba1d0d714716c7269a618b7a25a0ea7f`; audit `3455db649a20464cb17f577dab8a6c24b94ab6d5`; registry `b9b471aa4bfe59f149bc4f972d3bb7aeac1e59c0`.
 - [ ] Exact next batch: recompute the live census and continue the stale-`last_verified` P1 skill provenance queue with **Breaker Energy Wave (`skill-breaker-energy-wave`)**, preserving acquisition conflicts and projection semantics.
+
+
+### 2026-09-22 cycle update — Breaker Energy Wave provenance reconciliation
+- [x] Live census before edit: **452 canonical / 452 index / 0 duplicate IDs / 390 stale**; bounded target: `skill-breaker-energy-wave`.
+- [x] Corrected a substantive stale-record mismatch: dedicated Xenoverse 2 evidence identifies Breaker Energy Wave as a **Ki Blast Ultimate used by Goku**, with **0 Ki**, rather than the prior Super/Hit/100-Ki projection. It is available to CaCs and is tied to PQ101. citeturn1search0turn1search8
+- [x] Preserved PQ101 acquisition semantics. The maintained all-PQ guide explicitly lists Breaker Energy Wave as a **Basic Reward**; historical GameFAQs/Steam player reports associate successful acquisition with Ultimate Finish completion, but they do not establish a formal reward-tier rule or numeric drop rate. citeturn0search7turn0search2turn0search3
+- [x] Corrected canonical/index fields: class, character source, Ki cost, skill description, mechanics notes, sources, and `last_verified`; retained CaC availability, PQ101 endpoint, Super Pack 1 mapping, and Basic Reward semantics.
+- [x] Added `docs/data/skill-breaker-energy-wave-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation after writes: **452/452**, **0 duplicate IDs**, **389 stale remaining**, all affected canonical/index semantic fields aligned.
+- [ ] Runtime/CI execution remains unavailable; no executable CI success claimed.
+- [x] Commits: canonical `5b61b4eb782fec2dc5ad8c420c89db73381d70b8`; index `d9d8abfb764d3f03c814347a3896d3bf0273dccd`; audit `048a300608adfbd854464e782d49ca4cf04f4778`; registry `0be8682b70fbc23184876c443e132c7be36b6b05`.
+- [ ] Exact next batch: recompute the live census and continue the stale-`last_verified` P1 skill provenance queue with the next stale record after `skill-breaker-energy-wave`, preserving conflicts and projection semantics.
