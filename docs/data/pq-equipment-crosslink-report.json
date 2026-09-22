@@ -327,7 +327,7 @@
     {
       "pq_id": "pq-097",
       "pq_number": 97,
-      "target_id": "equip-120",
+      "target_id": "acc-062",
       "target_name": "Yamcha's Baseball Hat",
       "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -359,7 +359,7 @@
     {
       "pq_id": "pq-100",
       "pq_number": 100,
-      "target_id": "equip-123",
+      "target_id": "acc-063",
       "target_name": "SSGSS Vegeta Wig",
       "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -439,7 +439,7 @@
     {
       "pq_id": "pq-110",
       "pq_number": 110,
-      "target_id": "equip-133",
+      "target_id": "acc-064",
       "target_name": "SS4 Wig & Tail (Goku)",
       "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -703,7 +703,7 @@
     {
       "pq_id": "pq-149",
       "pq_number": 149,
-      "target_id": "equip-057",
+      "target_id": "acc-059",
       "target_name": "Bulma (Kid) Wig",
       "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -775,7 +775,7 @@
     {
       "pq_id": "pq-160",
       "pq_number": 160,
-      "target_id": "equip-066",
+      "target_id": "acc-060",
       "target_name": "Red Ribbon Army Helmet",
       "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -799,7 +799,7 @@
     {
       "pq_id": "pq-162",
       "pq_number": 162,
-      "target_id": "equip-069",
+      "target_id": "acc-061",
       "target_name": "Gohan (Beast) Wig",
       "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -1375,7 +1375,7 @@
       ]
     },
     {
-      "target_id": "equip-120",
+      "target_id": "acc-062",
       "target_name": "Yamcha's Baseball Hat",
       "pq_ids": [
         "pq-097"
@@ -1415,7 +1415,7 @@
       ]
     },
     {
-      "target_id": "equip-123",
+      "target_id": "acc-063",
       "target_name": "SSGSS Vegeta Wig",
       "pq_ids": [
         "pq-100"
@@ -1515,7 +1515,7 @@
       ]
     },
     {
-      "target_id": "equip-133",
+      "target_id": "acc-064",
       "target_name": "SS4 Wig & Tail (Goku)",
       "pq_ids": [
         "pq-110"
@@ -1845,7 +1845,7 @@
       ]
     },
     {
-      "target_id": "equip-057",
+      "target_id": "acc-059",
       "target_name": "Bulma (Kid) Wig",
       "pq_ids": [
         "pq-149"
@@ -1935,7 +1935,7 @@
       ]
     },
     {
-      "target_id": "equip-066",
+      "target_id": "acc-060",
       "target_name": "Red Ribbon Army Helmet",
       "pq_ids": [
         "pq-160"
@@ -1965,7 +1965,7 @@
       ]
     },
     {
-      "target_id": "equip-069",
+      "target_id": "acc-061",
       "target_name": "Gohan (Beast) Wig",
       "pq_ids": [
         "pq-162"
@@ -2223,6 +2223,7 @@
     "canonical_equipment_accessory_records": 168
   },
   "notes": [
-    "Accessory endpoints that were previously represented as equip-071/equip-081/equip-083/equip-091 are normalized to canonical accessory IDs acc-053/acc-051/acc-052/acc-058. Canonical accessory identity is authoritative; the legacy equipment record IDs remain historical/projection identifiers."
+    "Accessory endpoints that were previously represented as equip-071/equip-081/equip-083/equip-091 are normalized to canonical accessory IDs acc-053/acc-051/acc-052/acc-058. Canonical accessory identity is authoritative; the legacy equipment record IDs remain historical/projection identifiers.",
+    "Six legacy accessory endpoints were normalized to canonical acc-### identities: equip-057→acc-059, equip-066→acc-060, equip-069→acc-061, equip-120→acc-062, equip-123→acc-063, equip-133→acc-064."
   ]
 }
