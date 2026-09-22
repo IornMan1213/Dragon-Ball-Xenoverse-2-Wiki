@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "scope": "character-facing presentation consumer identity and navigation parity",
   "canonical_source": "docs/data/characters-record-layer.json",
   "bridge": "docs/data/characters/character-id-identity-bridge.json",
@@ -87,9 +87,26 @@
         "separate_character_records_must_have_null_preset_number": true,
         "special_numbering_conflicts": []
       }
+    },
+    "character_identity_bridge_hardening": {
+      "bridge_character_ids_unique": true,
+      "bridge_character_id_fields_are_strings": true,
+      "bridge_source_names_unique_when_present": true,
+      "preset_record_ids_unique": true,
+      "preset_record_id_fields_are_strings": true
+    },
+    "hardening_live_counts": {
+      "canonical_character_names": 149,
+      "bridge_records": 29,
+      "duplicate_bridge_character_ids": 0,
+      "duplicate_bridge_source_names_when_present": 0,
+      "malformed_bridge_character_ids": 0,
+      "preset_records": 40,
+      "duplicate_preset_record_ids": 0,
+      "malformed_preset_record_ids": 0
     }
   },
-  "evidence_boundary": "Identity/navigation parity is clean. The current producer layer contains 40 records: 35 numbered preset records and 5 explicitly typed separate_character records with null preset_number. All 40 resolve through the explicit character_id bridge and their explorer presentation links back to canonical character Search. Captain Ginyu Presets 3/4 retain source body-configuration labels as unresolved identity presentation. No missing preset number is inferred.",
+  "evidence_boundary": "Identity/navigation parity remains clean. This cycle additionally verifies that bridge character IDs and preset record IDs are string-shaped and unique, and that optional bridge source_name values are unique when present. Missing optional source_name is not treated as a duplicate.",
   "rules": [
     "Canonical character names remain authoritative.",
     "Presentation IDs resolve only through the explicit bridge.",
@@ -104,5 +121,8 @@
     "unresolved_character_ids": [],
     "name_mismatches": [],
     "status": "clean"
-  }
+  },
+  "validator": "scripts/validate_character_presentation_consumers.py",
+  "validator_commit": "1bb36e8d85aa0a83487e98b502b7da5a8a6a38e0",
+  "status": "clean"
 }
