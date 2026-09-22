@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Partner Customization key -> canonical character navigation",
+  "date": "2026-09-22",
+  "validator": "scripts/validate_partner_customization_character_navigation.py",
+  "counts": {
+    "key_records": 20,
+    "reconciliation_records": 20,
+    "bridge_records": 29,
+    "canonical_character_names": 149,
+    "page_search_links": 20
+  },
+  "checks": {
+    "exact_key_count": true,
+    "exact_key_numbers": true,
+    "exact_reconciliation_count": true,
+    "reconciliation_key_numbers": true,
+    "all_key_character_ids_bridged": true,
+    "all_bridge_targets_canonical": true,
+    "key_reconciliation_identity_parity": true,
+    "page_has_exactly_20_key_search_links": true,
+    "all_key_partners_have_search_links": true,
+    "no_unmapped_extra_partner_search_links": true
+  },
+  "missing_page_search_links": [],
+  "extra_page_search_links": [],
+  "identity_mismatches": [],
+  "status": "clean",
+  "evidence_boundary": "Navigation identity is deterministic. DLC ownership, raid history, TP Medal costs, and other partially verified system facts remain outside this validation contract."
+}
