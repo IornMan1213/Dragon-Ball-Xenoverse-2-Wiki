@@ -17,7 +17,7 @@
   "known_limitations":[
     "Some reward tables remain intentionally empty rather than populated by inference.",
     "Baseline reward listings do not establish exact acquisition conditions.",
-    "PQ numbering beyond the legacy 100-quest baseline remains subject to final-update reconciliation."
+    "The current canonical numbered range is PQ1-PQ186; later-range numbering conflicts are retained only as provenance and must not override the canonical index."
   ],
   "sources":[
     "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
