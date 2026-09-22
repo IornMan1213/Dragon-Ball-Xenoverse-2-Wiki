@@ -1458,3 +1458,15 @@
 - [x] Commits: canonical `55f163ba865fecb908a2f1dc259ea455aafb17cf`; combined `bf0f9087f5ac0d56fc34fa69860717bb3817d3a9`; audit `a8e2b5c6029f45e4f0b9bf0e61d58d21b80b19b8`; registry `0a0194f191171bfff92e201de90a08cfeb6f4500`.
 - [ ] Exact next batch: fresh census, then **`equip-121`–`equip-130`**; preserve canonical accessory bridges and historical aliases.
 
+### 2026-09-22 — Equipment detail enrichment `equip-121`–`equip-130`
+- [x] Fresh census exposed a correction: `equip-121` **Mr. Shape Up L** was incorrectly represented as equipment. Independent evidence identifies it as a consumable capsule/material, so it was removed from both canonical equipment layers; the PQ99 reward remains source-backed in PQ reward data.
+- [x] Preserved canonical accessory bridge `equip-123 → acc-063` for SSGSS Vegeta Wig; no duplicate identity was created.
+- [x] Enriched the remaining live endpoints `equip-122`, `124`–`130` with source-backed category/slot/DLC metadata.
+- [x] Classified clothing: Whis Symbol Battle Suit (four-piece), Champa's Clothes (four-piece), Battle Suit (Cabba) (four-piece), Android 14's Clothes (four-piece), Android 13's Clothes (four-piece), Super Android 13's Clothes (four-piece), Future Mai's Clothes (four-piece), Goku Black's Clothes (upper/lower/feet; no hands).
+- [x] Reconciled provenance: `122` Movie Costume Pack (Free); `124–125` Super Pack 1; `126–128` Super Pack 2; `129–130` Super Pack 3.
+- [x] Added and registered `docs/data/equipment/equipment-121-130-detail-audit.json`.
+- [x] Validation: **173 combined equipment/accessory records / 0 duplicate IDs / 124 PQ→equipment forward edges / 122 unique targets / 0 broken endpoints**; 8 live non-bridge endpoints have slot coverage and explicit classification.
+- [ ] CI: no successful workflow/check exposed; CI success is not claimed.
+- [x] Commits: canonical `cea284c71ec7d9e657ca0d675dd3402d28e41f4f`; combined `4ce040ffa6ce1cb299c747d2a9ccef1a67288696`; crosslink `9f6203ef50f15168448fa821c7b9232113776f96`; audit `a75e1e28f7dbe94f5543b3d2160f6e70fdbf1220`; registry `93ac07fc9f37120ecec38c9232cb7171ed15965a`.
+- [ ] Exact next batch: fresh census, then **`equip-131`–`equip-140`**, preserving canonical accessory bridges and correcting any non-equipment false positives before enrichment.
+
