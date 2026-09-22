@@ -6971,3 +6971,15 @@ The repository owner has clarified the continuation contract:
 - CI: GitHub exposed no workflow runs/status checks for the handoff commit; no CI success is claimed.
 - Commits: canonical `b1c343bf447e646e5bcf586ce9cdc28c92417a66`; index `91fb873bfac818d61070bc0b4e07af30350278fa`.
 - Exact next batch: **Mystic Gohan (DLC) (`skill-mystic-gohan-dlc`)**; recompute the live census first, then independently verify its acquisition endpoint and strengthen provenance only where the evidence threshold is met.
+
+### 2026-09-21 cycle update — Maximum Charge provenance strengthening on live main
+- Live census before editing: **452 canonical skills / 452 index skills / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 23 exactly-two-source canonical records**.
+- Bounded batch: **Maximum Charge (`skill-maximum-charge`)**.
+- Live-main reconciliation: the earlier recorded Maximum Charge provenance commits (`37b3b2db...` / `8c64f17f...`) were not ancestors of the live `main` tip even though the handoff referenced them; the live canonical/index records still had only two sources. This cycle applied the missing provenance directly to `main` rather than relying on those divergent commits.
+- Evidence: Steam's **Good Build Balance** guide independently lists Maximum Charge with **Advancement Test — God Class** as its unlock, corroborating the existing deterministic endpoint; the dedicated Maximum Charge reference likewise identifies the God Class test. citeturn2search0turn1search1
+- Changes: added `https://steamcommunity.com/sharedfiles/filedetails/?id=3496099646` as the third source to Maximum Charge in `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to 2026-09-21; preserved all acquisition/mechanics/reward semantics.
+- Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 22 exactly-two-source records**; canonical/index source parity clean; no internal AI/UI/search citation artifacts detected in the two skill data files.
+- CI: no pull-request workflow runs were exposed for the three cycle commits; no CI success is claimed and validators were not weakened.
+- Commits on live `main`: `d2eda59d8d5418f4f07d215a2232f81122b986e3` (canonical), `a3e2f62267f841ccacb4177e1e827d3c20c07392a` (index), `bfa526a77a56995dfcd29f55088a62694d508837` (changelog).
+- Exact next batch: **Meteor Crash (`skill-meteor-crash`)**. Recompute the live two-source census first; independently verify **PQ12 / Basic Reward** acquisition, then add provenance only if the evidence threshold is met. Do not assume the previously recorded Meteor Crash commits are on live `main`; verify the live files first.
+
