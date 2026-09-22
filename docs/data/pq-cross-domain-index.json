@@ -167,6 +167,12 @@
     "skill_critical_upper_provenance": "docs/data/skill-critical-upper-provenance-audit-2026-09-22.json",
     "skill_crush_cannon_provenance": "docs/data/skill-crush-cannon-provenance-audit-2026-09-22.json",
     "skill_crush_stream_provenance": "docs/data/skill-crush-stream-provenance-audit-2026-09-22.json",
-    "skill_crusher_ball_provenance": "docs/data/skill-crusher-ball-provenance-audit-2026-09-22.json"
+    "skill_crusher_ball_provenance": "docs/data/skill-crusher-ball-provenance-audit-2026-09-22.json",
+    "skill-dancing-parapara_provenance": "docs/data/skill-dancing-parapara-provenance-audit-2026-09-22.json",
+    "skill-dark-inscription_provenance": "docs/data/skill-dark-inscription-provenance-audit-2026-09-22.json",
+    "skill-darkness-eye-beam_provenance": "docs/data/skill-darkness-eye-beam-provenance-audit-2026-09-22.json",
+    "skill-darkness-rush-melee_provenance": "docs/data/skill-darkness-rush-melee-provenance-audit-2026-09-22.json",
+    "skill-darkness-rush-ranged_provenance": "docs/data/skill-darkness-rush-ranged-provenance-audit-2026-09-22.json",
+    "skill-darkness-twin-star_provenance": "docs/data/skill-darkness-twin-star-provenance-audit-2026-09-22.json"
   }
 }
