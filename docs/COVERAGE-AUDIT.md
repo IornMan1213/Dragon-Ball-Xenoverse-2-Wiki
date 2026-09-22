@@ -1318,3 +1318,13 @@
 - Files changed in this cycle: canonical equipment/accessory record layer and equipment projection layer.
 - Relationship report synchronization remains required: remove the equip-085 PQ50 edge and move the equip-090 edge from PQ66 to PQ76. This is the exact remaining generated-artifact repair for this batch.
 - Exact next batch after relationship repair: recompute the full PQ↔equipment/Super Soul/skill cross-database census and repair any deterministic endpoint/count drift before starting another provenance-only equipment range.
+
+
+## 2026-09-22 — Accessory canonical identity promotion: eight early/base-game PQ records
+- Recomputed the live canonical layer: **172 total equipment/accessory records, 58 canonical accessory IDs**.
+- Promoted/reconciled eight exact accessory identities: `acc-051` Four-Star Dragon Ball Hat, `acc-052` Chiaotzu's Hat (With Collar), `acc-053` Dore's Scouter, `acc-054` Great Saiyaman Bandana 1, `acc-055` Great Saiyaman Bandana 2, `acc-056` Jaco's State-of-the-Art Radio, `acc-057` Tagoma's Scouter, and `acc-058` SSGSS Goku Wig.
+- Normalized legacy equipment endpoints `equip-081`, `equip-083`, `equip-071`, and `equip-091` to the new canonical accessory IDs rather than duplicating identities.
+- Accessory relationship report now contains **16 forward / 16 reverse / 29 unresolved** with **0 broken endpoints, 0 stale canonical IDs, and 0 duplicate edges**.
+- SSGSS Goku Wig retains the independent PQ76 evidence and the legacy PQ66 route as an explicit historical conflict; no silent route overwrite was performed.
+- Canonical data remains authoritative; verification/research layers are supporting evidence only.
+- Next: bounded reconciliation of the remaining **29** accessory research leads.
