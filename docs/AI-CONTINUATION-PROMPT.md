@@ -2706,3 +2706,16 @@
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [x] Commits: canonical 18aca94714b0d41561b1a1b16a88505e82388fe9; index 018c3d7b16c4a165acda876a07bdb608e85c22ce; audit 58a1d6862166b8cd1ec3fc7cb2523539a89a6045.
 - [ ] Next exact batch: **Sonic Rush, Special Beam Cannon, Special Beam Cannon (Beast), Sphere of Destruction, Spirit Ball, Spirit Blaster, Spirit Bomb, Spirit Boost, Spirit Explosion, Spirit Pulse**.
+
+
+### 2026-09-22 cycle update — Sonic Rush through Spirit Pulse provenance batch
+- [x] Fresh live stale census before editing: **452 canonical skills / 452 index records / 0 duplicate IDs / 78 stale**; exact first ten stale records were **Sonic Rush, Special Beam Cannon, Special Beam Cannon (Beast), Sphere of Destruction, Spirit Ball, Spirit Blaster, Spirit Bomb, Spirit Boost, Spirit Explosion, Spirit Pulse**.
+- [x] Refreshed all ten canonical records in `docs/data/skills.json` and synchronized the corresponding index projections in `docs/data/skills-index.json` to `last_verified: 2026-09-22`.
+- [x] Expanded bounded provenance/mechanics using current skill references and independent acquisition evidence: Future Gohan Lesson 1; Piccolo Lesson 3; PQ162; Beerus mentor training; Yamcha Lesson 3; PQ129; Goku Initiation Test; Skill Shop; PQ25; and PQ151.
+- [x] Deterministic details preserved: Sonic Rush 100-Ki Strike Super / six-hit hard knockdown; Special Beam Cannon 300-Ki Ultimate; Special Beam Cannon (Beast) 500-Ki Ultimate with explicit Basic Reward vs Ultimate Finish source conflict; Sphere of Destruction 300-Ki tracking Ultimate; Spirit Ball mentor Lesson 3; Spirit Blaster 100-Ki tracking/cancellable barrage; Spirit Bomb Goku Initiation Test; Spirit Boost 0-Ki defensive Other Super; Spirit Explosion 200-Stamina Evasive; Spirit Pulse 100-Ki PQ151 Super.
+- [x] No unsupported drop probabilities, frame data, or additional prerequisites were invented; existing source conflicts remain explicit.
+- [x] Added `docs/data/skill-sonic-rush-through-spirit-pulse-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: **452/452 canonical/index, 0 duplicate IDs, ID sets match, 10/10 selected current, 68 stale canonical records remain**.
+- [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; no CI success claimed.
+- [x] Commits: canonical `c16ede552976bb2eda89c9c7b914a5b5e28cfa16`; index `5817d9f3262573fd8ac6ec5abf8673ec9a15cb97`; audit `bab237c6bf14ab3ea0fc2e0276ddb7e37c6ec30a`; cross-domain registration `1ea698435f28fad2503004e16e455c953ca5a8aa`.
+- [ ] Exact next batch: recompute the live stale census from `docs/data/skills.json`, then continue with the first ten stale canonical skills after **Spirit Pulse**; do not assume historical ordering if intervening verification changes alter the set.
