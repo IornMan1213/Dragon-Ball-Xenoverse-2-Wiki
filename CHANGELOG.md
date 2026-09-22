@@ -1709,3 +1709,12 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Updated `docs/data/parallel-quests-index.json` to distinguish the external PQ36 numbering conflict and expose the canonical farming PQ set without treating the seed index as canonical truth.
 - No canonical PQ relationship edges were added, removed, or renamed. Current relationship baseline remains **860 unique edges**: 244 skills / 151 Super Souls / 125 equipment / 247 characters / 86 DLC / 7 farming.
 - Validation: changed files re-read from `main`; canonical farming set present; stale PQ23 “canonical farming” wording removed from changed pages; no CI success claimed.
+
+## 2026-09-22 — Registered non-PQ consumer baseline census
+
+- Audited 16 registered presentation/identity consumer artifacts against the authoritative **859-edge** PQ relationship layer.
+- Confirmed current counts: **244 skill / 151 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming**; equipment remains **124 forward / 122 unique reverse endpoints**.
+- Found **0 deterministic current 860/862/125/123 scalar mismatches** in the audited consumer set; historical snapshots remain preserved and are explicitly excluded from current-state interpretation.
+- Added docs/data/pq-non-pq-consumer-census-2026-09-22.json and scripts/validate_pq_non_pq_consumer_census.py, and registered them in the PQ cross-domain index.
+- No canonical relationship or identity was changed. Runtime/CI execution remains unavailable; no executable validation is claimed.
+- Next: resume the P1 provenance queue at Prominence Flash (skill-prominence-flash).
