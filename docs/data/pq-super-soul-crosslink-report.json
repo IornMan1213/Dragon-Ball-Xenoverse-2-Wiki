@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "domain": "pq_super_soul",
   "canonical_pq_records": 186,
-  "canonical_target_records": 148,
+  "canonical_target_records": 160,
   "forward_edges": [
     {
       "pq_id": "pq-002",
@@ -451,6 +451,102 @@
       "target_name": "I'll use this power to protect everyone!",
       "status": "source_backed",
       "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
+    },
+    {
+      "pq_id": "pq-021",
+      "pq_number": 21,
+      "target_id": "super-soul-149",
+      "target_name": "I'm neither Kami nor Piccolo...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-040",
+      "pq_number": 40,
+      "target_id": "super-soul-150",
+      "target_name": "Time to dismantle you androids!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-042",
+      "pq_number": 42,
+      "target_id": "super-soul-151",
+      "target_name": "Set your rage free...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-044",
+      "pq_number": 44,
+      "target_id": "super-soul-152",
+      "target_name": "Getting beat up makes me cranky...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-049",
+      "pq_number": 49,
+      "target_id": "super-soul-153",
+      "target_name": "Do or Die",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-063",
+      "pq_number": 63,
+      "target_id": "super-soul-154",
+      "target_name": "Before creation comes ruin...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-064",
+      "pq_number": 64,
+      "target_id": "super-soul-155",
+      "target_name": "Janemba! Janemba!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-065",
+      "pq_number": 65,
+      "target_id": "super-soul-156",
+      "target_name": "I never knew this world existed!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-092",
+      "pq_number": 92,
+      "target_id": "super-soul-157",
+      "target_name": "Everyone, lend me your energy!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-093",
+      "pq_number": 93,
+      "target_id": "super-soul-158",
+      "target_name": "Finally, some excitement.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-094",
+      "pq_number": 94,
+      "target_id": "super-soul-159",
+      "target_name": "Strengthen me, Shadow Dragons!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-097",
+      "pq_number": 97,
+      "target_id": "super-soul-160",
+      "target_name": "Someone, satisfy me...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     }
   ],
   "reverse_edges": [
@@ -1013,6 +1109,126 @@
       "pq_numbers": [
         184
       ]
+    },
+    {
+      "target_id": "super-soul-149",
+      "target_name": "I'm neither Kami nor Piccolo...",
+      "pq_ids": [
+        "pq-021"
+      ],
+      "pq_numbers": [
+        21
+      ]
+    },
+    {
+      "target_id": "super-soul-150",
+      "target_name": "Time to dismantle you androids!",
+      "pq_ids": [
+        "pq-040"
+      ],
+      "pq_numbers": [
+        40
+      ]
+    },
+    {
+      "target_id": "super-soul-151",
+      "target_name": "Set your rage free...",
+      "pq_ids": [
+        "pq-042"
+      ],
+      "pq_numbers": [
+        42
+      ]
+    },
+    {
+      "target_id": "super-soul-152",
+      "target_name": "Getting beat up makes me cranky...",
+      "pq_ids": [
+        "pq-044"
+      ],
+      "pq_numbers": [
+        44
+      ]
+    },
+    {
+      "target_id": "super-soul-153",
+      "target_name": "Do or Die",
+      "pq_ids": [
+        "pq-049"
+      ],
+      "pq_numbers": [
+        49
+      ]
+    },
+    {
+      "target_id": "super-soul-154",
+      "target_name": "Before creation comes ruin...",
+      "pq_ids": [
+        "pq-063"
+      ],
+      "pq_numbers": [
+        63
+      ]
+    },
+    {
+      "target_id": "super-soul-155",
+      "target_name": "Janemba! Janemba!",
+      "pq_ids": [
+        "pq-064"
+      ],
+      "pq_numbers": [
+        64
+      ]
+    },
+    {
+      "target_id": "super-soul-156",
+      "target_name": "I never knew this world existed!",
+      "pq_ids": [
+        "pq-065"
+      ],
+      "pq_numbers": [
+        65
+      ]
+    },
+    {
+      "target_id": "super-soul-157",
+      "target_name": "Everyone, lend me your energy!",
+      "pq_ids": [
+        "pq-092"
+      ],
+      "pq_numbers": [
+        92
+      ]
+    },
+    {
+      "target_id": "super-soul-158",
+      "target_name": "Finally, some excitement.",
+      "pq_ids": [
+        "pq-093"
+      ],
+      "pq_numbers": [
+        93
+      ]
+    },
+    {
+      "target_id": "super-soul-159",
+      "target_name": "Strengthen me, Shadow Dragons!",
+      "pq_ids": [
+        "pq-094"
+      ],
+      "pq_numbers": [
+        94
+      ]
+    },
+    {
+      "target_id": "super-soul-160",
+      "target_name": "Someone, satisfy me...",
+      "pq_ids": [
+        "pq-097"
+      ],
+      "pq_numbers": [
+        97
+      ]
     }
   ],
   "unresolved_target_routes": [
@@ -1465,27 +1681,19 @@
       "target_id": "super-soul-148",
       "target_name": "What good is a new power if I don't try it out?",
       "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-152",
-      "target_name": "So fast! Are they learning how to use their power?!",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-153",
-      "target_name": "Enough food for one person...",
-      "reason": "no_explicit_pq_endpoint"
     }
   ],
   "validation": {
     "canonical_pq_records": 186,
     "canonical_target_records": 148,
-    "forward_edge_count": 56,
-    "reverse_edge_count": 56,
+    "forward_edge_count": 68,
+    "reverse_edge_count": 68,
     "unique_pq_endpoints": 46,
     "unique_target_endpoints": 56,
     "unresolved_target_route_count": 92,
     "broken_forward_endpoints": 0,
-    "broken_reverse_endpoints": 0
+    "broken_reverse_endpoints": 0,
+    "last_recomputed": "2026-09-22",
+    "unresolved_target_routes": 90
   }
 }
