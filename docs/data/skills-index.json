@@ -8868,12 +8868,15 @@
       ],
       "unlock_method": "Future Gohan mentor training — Lesson 1.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved.",
-      "mechanics_notes": "Mentor acquisition endpoint, skill identity, and classification are directly corroborated; numerical combat mechanics remain deferred until separately verified.",
+      "notes": "2026-09-22 provenance refresh: current skill reference confirms Future Gohan training as the acquisition endpoint, 100 Ki Strike Super classification, and a short-range six-hit hard-knockdown sequence. Exact damage/frame data remains outside this bounded pass.",
+      "mechanics_notes": "Future Gohan's Sonic Rush is a 100-Ki Strike Super with a short-range barrage; current skill reference describes six hits and a hard knockdown.",
       "source_quest": "Future Gohan mentor training — Lesson 1.",
-      "source_quest_or_shop": "Future Gohan mentor training"
+      "source_quest_or_shop": "Future Gohan mentor training",
+      "source_mentor": [
+        "mentor-future-gohan"
+      ]
     },
     {
       "id": "skill-special-beam-cannon",
@@ -8890,12 +8893,15 @@
       ],
       "unlock_method": "Piccolo's Lesson 3 — complete the instructor lesson to receive Special Beam Cannon as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300 Ki used.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-22 provenance refresh: Piccolo Lesson 3 remains the deterministic acquisition endpoint. Current skill evidence confirms the 300-Ki Ultimate/Ki Blast identity; detailed combat timing/damage remains deferred.",
+      "mechanics_notes": "Piccolo's Lesson 3 reward; 300-Ki Ultimate/Ki Blast identity is corroborated by current skill references.",
       "source_quest": "Piccolo mentor training — Lesson 3",
-      "source_quest_or_shop": "Piccolo mentor training — Lesson 3"
+      "source_quest_or_shop": "Piccolo mentor training — Lesson 3",
+      "source_mentor": [
+        "mentor-piccolo"
+      ]
     },
     {
       "id": "skill-special-beam-cannon-beast",
@@ -8914,10 +8920,10 @@
       ],
       "unlock_method": "Parallel Quest 162 — \"The Man, the Myth, the Yamcha\" Ultimate Finish bonus reward (45% bonus slot)",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: PQ162's current maintained reward data lists Special Beam Cannon (Beast) in a 45% Ultimate Finish bonus slot; no separate prerequisite is inferred. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred. 2026-09-21 provenance correction: official Hero of Justice Pack 2 documentation lists Special Beam Cannon (Beast) among the DLC's seven skills, and current DLC/PQ mapping places it in Hero of Justice Pack 2 PQ162. The maintained PQ audit records a 45% Ultimate Finish bonus slot; a Steam player-facing guide lists the skill in its Basic Reward presentation, so the reward-tier conflict is preserved rather than normalized.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. 2026-09-20 verification: current PQ/reward data confirms the documented acquisition relationship; maintained drop-condition data supplies the specific reward tier. 2026-09-20 audit: PQ162's current maintained reward data lists Special Beam Cannon (Beast) in a 45% Ultimate Finish bonus slot; no separate prerequisite is inferred.",
+      "notes": "2026-09-22 provenance refresh: PQ162 is the canonical acquisition endpoint for the Hero of Justice Pack 2 skill. Current references confirm 500 Ki Ultimate/Ki Blast classification and the chargeable/lower-health-stronger behavior; reward-tier sources conflict (Basic Reward versus Ultimate Finish presentation), so the conflict remains explicit.",
+      "mechanics_notes": "Gohan (Beast)'s 500-Ki Ultimate/Ki Blast; current references describe a chargeable beam whose power increases at lower health. PQ162 reward-tier presentation remains a documented source conflict.",
       "source_quest": 162,
       "source_quest_or_shop": "Parallel Quest 162 — \"The Man, the Myth, the Yamcha\"",
       "source_parallel_quests": [
@@ -8939,12 +8945,15 @@
       ],
       "unlock_method": "God of Destruction Beerus's mentor training — complete the corresponding lesson to receive Sphere of Destruction as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-22 provenance refresh: Beerus mentor training remains the deterministic acquisition endpoint. Current skill evidence confirms 300 Ki Ultimate/Ki Blast classification, large projectile behavior, tracking, and a 13-hit profile; unsupported frame/damage values remain deferred.",
+      "mechanics_notes": "Beerus's 300-Ki Ki Blast Ultimate; current skill reference describes a large tracking Ki-ball projectile with 13 hits.",
       "source_quest": "God of Destruction Beerus mentor training",
-      "source_quest_or_shop": "God of Destruction Beerus mentor training"
+      "source_quest_or_shop": "God of Destruction Beerus mentor training",
+      "source_mentor": [
+        "mentor-beerus"
+      ]
     },
     {
       "id": "skill-spirit-ball",
@@ -8961,12 +8970,15 @@
       ],
       "unlock_method": "Yamcha's Lesson 3 — complete the instructor lesson to receive Spirit Ball as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300 Ki used.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-22 provenance refresh: Yamcha Lesson 3 is confirmed as the acquisition endpoint. Current evidence confirms Spirit Ball as Yamcha's Ultimate/Ki Blast skill; detailed combat timing/damage remains deferred.",
+      "mechanics_notes": "Yamcha's Lesson 3 300-Ki Ki Blast Ultimate; acquisition is confirmed without an Ultimate Finish gate.",
       "source_quest": "Yamcha mentor training — Lesson 3",
-      "source_quest_or_shop": "Yamcha mentor training — Lesson 3"
+      "source_quest_or_shop": "Yamcha mentor training — Lesson 3",
+      "source_mentor": [
+        "mentor-yamcha"
+      ]
     },
     {
       "id": "skill-spirit-blaster",
@@ -8984,10 +8996,10 @@
       ],
       "unlock_method": "Parallel Quest 129 — \"Frieza Force on the Hunt\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: PQ129 reward listings explicitly place Spirit Blaster in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
-      "mechanics_notes": "Confirmed as SSGSS Gogeta's 100-Ki Ki Blast Super from PQ129. It fires tracking Ki Blasts followed by a cancellable barrage. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
+      "notes": "2026-09-22 provenance refresh: PQ129 is confirmed as the acquisition endpoint. Current evidence confirms 100 Ki Ki Blast Super classification, tracking projectile behavior, a follow-up barrage, and guard-cancellable follow-up; exact damage/frame values remain deferred.",
+      "mechanics_notes": "PQ129 100-Ki Ki Blast Super; homing Ki Blasts can trigger a rapid follow-up barrage that can be cancelled by guarding.",
       "source_quest": 129,
       "source_quest_or_shop": "Parallel Quest 129 — \"Frieza Force on the Hunt\"",
       "source_parallel_quests": [
@@ -9009,12 +9021,15 @@
       ],
       "unlock_method": "Goku mentor training — Initiation Test.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved.",
-      "mechanics_notes": "100 Ki Ki Blast Super learned from Goku mentor training; creates a large Spirit Bomb projectile. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-goku added for the documented mentor-training acquisition route.",
+      "notes": "2026-09-22 provenance refresh: Goku's Initiation Test is confirmed as the acquisition endpoint. Current instructor evidence confirms Spirit Bomb as a 100-Ki Ki Blast Super; no Ultimate Finish gate is involved.",
+      "mechanics_notes": "Goku mentor Initiation Test 100-Ki Ki Blast Super; launches a large Spirit Bomb projectile.",
       "source_quest": "Goku mentor training",
-      "source_quest_or_shop": "Training with Goku"
+      "source_quest_or_shop": "Training with Goku",
+      "source_mentor": [
+        "mentor-goku"
+      ]
     },
     {
       "id": "skill-spirit-boost",
@@ -9031,10 +9046,10 @@
       ],
       "unlock_method": "Skill Shop (Conton City)",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the skill shop (conton city) acquisition route. No quest or Ultimate Finish route is inferred.",
-      "mechanics_notes": "Confirmed as a 0-Ki Skill Shop defensive Other Super. It projects a wide defensive barrier that can cancel incoming Ki attacks for a short window and can protect nearby allies. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
+      "notes": "2026-09-22 provenance refresh: Skill Shop acquisition is confirmed. Current evidence confirms 0-Ki Other Super classification and a short defensive window that cancels incoming Ki attacks; exact timing remains deferred.",
+      "mechanics_notes": "0-Ki Other Super from the Skill Shop; creates a short-lived defensive field that cancels incoming Ki attacks.",
       "source_quest_or_shop": "Skill Shop"
     },
     {
@@ -9052,10 +9067,10 @@
       ],
       "unlock_method": "Parallel Quest 25 — \"The Emperor’s Brother\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence identifies the exact quest title and lists Spirit Explosion in Basic Reward. No unsupported drop probability or Ultimate Finish-only gate is asserted.",
-      "mechanics_notes": "Dedicated current-version evidence confirms Spirit Explosion as a 200-Stamina Strike Evasive from PQ25 and explicitly states it is obtainable for CaCs. It creates a close-range blue explosion that knocks opponents away. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
+      "notes": "2026-09-22 provenance refresh: PQ25 is confirmed as the acquisition endpoint. Current evidence confirms a 200-Stamina Strike Evasive usable by CaCs, with a close-range blue explosion that knocks opponents away; exact frame/damage data remains deferred.",
+      "mechanics_notes": "200-Stamina Strike Evasive from PQ25; close-range blue explosion knocks nearby opponents away and can be used while taking damage.",
       "source_quest": 25,
       "source_quest_or_shop": "Parallel Quest 25 — \"The Emperor’s Brother\"",
       "source_parallel_quests": [
@@ -9077,10 +9092,10 @@
       ],
       "unlock_method": "Parallel Quest 151 — \"Even Further Beyond\" Ultimate Finish bonus reward (50% roll)",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance refinement: maintained PQ data explicitly assigns this skill to an Ultimate Finish bonus roll.2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics.",
-      "mechanics_notes": "Confirmed as Goku (Ultra Instinct -Sign-)'s 100-Ki Ki Blast Super from PQ151. It is a slower single-shot variation of Soaring Fist; Ultra Instinct also uses Spirit Pulse as its fully charged Ki Blast. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
+      "notes": "2026-09-22 provenance refresh: PQ151 is confirmed as the acquisition endpoint. Current evidence confirms 100-Ki Ki Blast Super classification and the slower single-shot spirit-energy attack; the maintained Ultimate Finish bonus-roll condition is preserved without adding unsupported prerequisites.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ151; a slower single-shot variation of Soaring Fist using spirit energy.",
       "source_quest": 151,
       "source_quest_or_shop": "Parallel Quest 151 — \"Even Further Beyond\"",
       "source_parallel_quests": [
