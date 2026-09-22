@@ -917,3 +917,13 @@
 - [x] Commits: validator `d0b319c5974c9a6861bff364136f6b2deaad0a0b`; audit `99474ac1c291d4c49b85cd6ce2d1c853f9d63440`; registry `c041e968d72fe23d54c778d42e73b0d40bf9b21d`; TODO `634c62bb8c90358f9026fc55b2fb6a99ca10074d`; handoff `8189b490cf28d3b149971d48fb7c74fc94c610f3`.
 - [ ] Exact next task: inspect the next registered Search/landing consumer or unvalidated cross-domain producer for deterministic one-way navigation, stale scalar/list assumptions, or canonical endpoint drift; prefer exact local consumer parity and do not infer new relationships.
 
+### 2026-09-22 cycle update — Equipment provenance batch `equip-081`–`equip-090`
+- [x] Live equipment/accessory endpoint census: **174 canonical identities / 0 duplicate IDs / 125 PQ→equipment edges / 123 unique targets / 0 broken endpoints**.
+- [x] Enriched `equip-081`, `082`, `083`, `084`, `086`, `087`, `089`, and `090` with maintained catalog provenance and slot coverage.
+- [x] Preserved `equip-088` as a normalized historical alias to `acc-012`; `equip-085` remains absent and was not fabricated.
+- [x] Added `docs/data/equipment/equipment-081-090-detail-audit.json`.
+- [x] Validation: **174/174 endpoints resolved; 0 duplicate IDs; 125 forward; 123 reverse; 0 broken**.
+- [ ] CI: no successful workflow/check exposed; CI success not claimed.
+- [x] Commits: canonical `1b2f96e444c1f0ce17174cba4d4d95841ae671cd`; audit `007c9a768edd1483583cec7336b2f7537366922a`; TODO `93e4ff79cc11b260fbe039ad355eef9adee89a86`; handoff `abb34842d07901192c89c1e47017feb52c54f469`.
+- [ ] Exact next task: fresh census, then enrich **`equip-091`–`equip-100`**, preserving canonical accessory bridges and normalized aliases.
+
