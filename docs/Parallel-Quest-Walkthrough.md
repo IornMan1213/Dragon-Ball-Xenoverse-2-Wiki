@@ -7,8 +7,8 @@ Every Parallel Quest has three conditions. Only the first is visible initially; 
 **PQ 4 – Prepare for the Attack of Saiyans!**  
 Beginner-friendly Dragon Ball farm. Defeat Gohan/Piccolo quickly, then the Time Patrollers.
 
-**PQ 23 – The Explosion of Namek**  
-Fastest community-recommended Dragon Ball route. Defeat Frieza under ~3 minutes, then clear the three Time Patrollers that appear.
+**Canonical Dragon Ball farming routes:** PQ15, PQ22, PQ44, PQ45, PQ68, PQ83, and PQ88.  
+The canonical relationship layer records these seven PQs as Dragon Ball farming routes. It does not rank them by speed or establish a drop probability; consult the individual PQ records for objectives and conditions.
 
 **PQ 79 – Great Ape Festival**  
 Solid mid-game option with Great Ape enemies and additional Time Patroller waves.
@@ -24,8 +24,8 @@ Other high-difficulty DLC PQs (especially Future Saga range) drop exclusive skil
 ## General Farming Advice
 - Always chase Ultimate Finish when hunting skills or rare drops.
 - Rotate between a few strong PQs rather than spamming only one.
-- Early game: focus on PQ 4 and PQ 23.  
-- Mid/late game: incorporate higher-star PQs and DLC content for better skill pools.
+- Early game: use the maintained PQ records and canonical farming relationship set rather than treating one community route as canonical.  
+- Mid/late game: incorporate higher-star PQs and DLC content for broader skill and reward coverage.
 
 **Sources**:  
 dbxv2.fandom.com Parallel Quests, community farming guides (2024–2026), Player.One / SteamSolo Ultimate Finish compilations, French and English wiki farming notes.
