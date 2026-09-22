@@ -5205,7 +5205,8 @@
       "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Flash_(Super)",
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
+        "https://dbxv2.fandom.com/wiki/Super_Attack",
+        "https://dragonball.fandom.com/wiki/Final_Flash"
       ],
       "ki_cost": 200,
       "research_status": "enriched",
@@ -5218,7 +5219,7 @@
       "race_restriction": "Character-only",
       "dlc_requirement": "Ultra Pack 1",
       "acquisition_type": "character_only",
-      "notes": "2026-09-20 roster-status refinement: dedicated skill references and current community evidence identify this as Super Saiyan Blue Evolved Vegeta's character-specific Final Flash variant; it is not a normal CaC-acquirable Super. 2026-09-21 Ultra Pack 1 provenance audit: official Bandai Namco documentation identifies Ultra Pack 1 as containing 10 additional skills and five Parallel Quests (PQ133–137); the maintained all-PQ guide independently maps the ten player-acquirable skills to those quests. Character-only Final Charge and Final Flash (Super) are retained under Ultra Pack 1 because current technique documentation identifies them as Ultra Pack 1 character-exclusive skills; they are distinct from the ten Future Warrior-acquirable skills listed for the pack. This pass verifies DLC provenance only and does not infer reward-slot semantics where sources conflict.",
+      "notes": "2026-09-20 roster-status refinement: dedicated skill references and current community evidence identify this as Super Saiyan Blue Evolved Vegeta's character-specific Final Flash variant; it is not a normal CaC-acquirable Super. 2026-09-21 Ultra Pack 1 provenance audit: official Bandai Namco documentation identifies Ultra Pack 1 as containing 10 additional skills and five Parallel Quests (PQ133–137); the maintained all-PQ guide independently maps the ten player-acquirable skills to those quests. Character-only Final Charge and Final Flash (Super) are retained under Ultra Pack 1 because current technique documentation identifies them as Ultra Pack 1 character-exclusive skills; they are distinct from the ten Future Warrior-acquirable skills listed for the pack. This pass verifies DLC provenance only and does not infer reward-slot semantics where sources conflict. 2026-09-21 low-source provenance strengthening: the Dragon Ball Wiki Final Flash entry independently documents the Xenoverse 2 Ultra Pack 1 SSGSS (Evolved) Vegeta-exclusive Super Skill variant. It corroborates DLC provenance and character ownership; no CaC acquisition route or reward semantics are inferred.",
       "id": "skill-final-flash-super"
     },
     {
