@@ -95,7 +95,8 @@
     "pq_endpoint_navigation_correction_2026_09_22": "docs/data/pq-endpoint-navigation-correction-2026-09-22.json",
     "current_identity_resolution_handoff": "docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-IDENTITY-RESOLUTION.md",
     "non_pq_consumer_census": "docs/data/pq-non-pq-consumer-census-2026-09-22.json",
-    "pq_summary_consumer_census": "docs/data/pq-summary-consumer-audit-2026-09-22.json"
+    "pq_summary_consumer_census": "docs/data/pq-summary-consumer-audit-2026-09-22.json",
+    "pq_direct_template_dlc_consumer_census": "docs/data/pq-direct-template-dlc-consumer-audit-2026-09-22.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
