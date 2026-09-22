@@ -69,7 +69,8 @@
     "character_presentation_consumers": "docs/data/characters/character-presentation-consumer-audit.json",
     "pq_explorer_character_navigation": "docs/data/pq-explorer-character-navigation-audit.json",
     "pq_explorer_reward_navigation": "docs/data/pq-explorer-reward-navigation-audit.json",
-    "skill_pq_acquisition_presentation": "docs/data/skill-pq-acquisition-presentation-audit.json"
+    "skill_pq_acquisition_presentation": "docs/data/skill-pq-acquisition-presentation-audit.json",
+    "pq_reference_pages": "docs/data/pq-reference-page-audit.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
@@ -81,7 +82,8 @@
     "dlc_character_identity": "scripts/validate_dlc_character_identity_bridge.py",
     "character_presentation_consumers": "scripts/validate_character_presentation_consumers.py",
     "pq_explorer_character_navigation": "scripts/validate_pq_explorer_character_navigation.py",
-    "pq_explorer_reward_navigation": "scripts/validate_pq_explorer_reward_navigation.py"
+    "pq_explorer_reward_navigation": "scripts/validate_pq_explorer_reward_navigation.py",
+    "pq_reference_pages": "scripts/validate_pq_reference_pages.py"
   },
   "schemas": {
     "canonical_dlc_identity": "docs/data/dlc/canonical-dlc-identity.schema.json"
