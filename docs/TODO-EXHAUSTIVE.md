@@ -144,3 +144,13 @@
 - [x] Equipment report now matches the canonical equipment count of **168**, with no broken forward/reverse endpoints reported.
 - [x] Preserved the repository rule that canonical records are authoritative and verification status is evidence metadata only.
 - [ ] Next structural task: reconcile the generated `pq-reward-relationships.json` forward layer against the four reverse reports and canonical PQ reward fields, then identify any deterministic omissions or stale endpoints before further provenance batches.
+
+## 2026-09-22 — Canonical PQ reward-array reconciliation
+- [x] Reconciled canonical PQ `skill_rewards`, `super_soul_rewards`, and `equipment_rewards` against their downstream relationship reports.
+- [x] Enriched **56** canonical PQ records with source-backed Super Soul reward entries and **76** canonical PQ records with source-backed equipment reward entries.
+- [x] Corrected the deterministic PQ48 reward typo: removed duplicate `Kamekameha` from `skill_rewards` and normalized the reward display to canonical `Kamehameha`.
+- [x] Regenerated the Super Soul relationship report from the canonical PQ reward arrays + canonical Super Soul records: **151 forward / 148 reverse / 0 unresolved / 0 broken**.
+- [x] Regenerated the Equipment relationship report from the canonical PQ reward arrays + canonical equipment/accessory records: **123 forward / 121 reverse / 0 unresolved / 0 broken**.
+- [x] Post-write reconciliation now reports **0 mismatches** for Skills, Super Souls, and Equipment.
+- [x] Preserved the canonical-source-of-truth rule: downstream reports are projections of canonical records; verification/source-backed status does not override canonical identities.
+- [ ] Next structural task: reconcile the separate accessory relationship layer with the canonical PQ reward model without collapsing accessories into equipment or inventing an `accessory_rewards` field unless the schema contract explicitly requires it.
