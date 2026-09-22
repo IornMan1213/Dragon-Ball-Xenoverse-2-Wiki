@@ -313,3 +313,14 @@
 - CI: no successful workflow/check exposed; no CI success claimed.
 - Commits: canonical equipment `262096a9e1e6cbde2790bc88ffc1d52a53d1d2be`; crosslink metadata `b9408a5b1ec73b23317ad91f1528e9ef3bb4bb95`.
 - Exact next batch: **`equip-071`–`equip-080`**. Recompute the live census first, then independently reconcile identity, category, PQ acquisition, DLC provenance, and directly evidenced restrictions/effects.
+
+### 2026-09-22 cycle update — equipment provenance batch `equip-071`–`equip-080` range
+- Live census before editing: 169 canonical equipment/accessory records; the requested range contains 8 standalone canonical records (`071–073`, `075–079`). IDs `074` and `080` are not separate live records because their identities are represented by existing accessory records; no duplicate identities were created.
+- Bounded batch completed: `equip-071`–`equip-073`, `equip-075`–`equip-079`.
+- Evidence: maintained DBXV2 equipment catalog independently corroborates identity/category; repository PQ reward evidence corroborates acquisition. PQ25/27/30/31/37/41/45/59 and the maintained catalog establish these as base-game equipment/accessory content. The catalog also directly identifies clothing versus accessory forms.
+- Changes: classified the 8 standalone records, added independent equipment-catalog provenance, and set explicit base-game provenance. `equip-072` already had two sources and now retains both plus the catalog.
+- Evidence limits: exact reward probability/slot semantics and combat/stat effects remain unresolved unless directly evidenced. Canonical data remains the source of truth; verification status remains evidence metadata only.
+- Validation: **169 canonical equipment records / 0 duplicate IDs / 124 forward edges / 122 reverse endpoints / 0 unresolved / 0 broken endpoints**. Artifact scan passed; all 8 edited records have independent catalog provenance.
+- CI: no successful workflow/check exposed; no CI success claimed.
+- Commits: canonical equipment `55a2b5ff040975a78cf2ecee28b39d1c1827a1fd`; crosslink metadata `4a477c405691cd3908a8d5303dcbcdf2d55aae95`.
+- Exact next batch: **`equip-081`–`equip-090`**. Recompute the live census first; preserve the canonical identity structure and investigate any missing range IDs as existing cross-linked identities rather than creating duplicates.
