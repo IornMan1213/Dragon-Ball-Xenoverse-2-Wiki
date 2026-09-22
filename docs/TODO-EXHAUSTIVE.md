@@ -178,3 +178,15 @@
 - [x] Validation: **0 duplicate canonical IDs, 58 canonical accessory IDs, 16 forward accessory edges, 16 reverse edges, 0 invalid bridge targets, 0 broken accessory endpoints**. Equipment relationship report remains **123 forward / 121 reverse** after the four accessory target normalizations.
 - [x] Evidence used for the batch included the maintained Steam PQ guide, independent equipment/accessory references, Dragon Ball Wiki references for Dore/Jaco/Scouter identities, GameFAQs/Steam evidence for Tagoma/SSGSS Goku, and an independent PQ51/PQ53 record for Great Saiyaman bandanas.
 - [ ] Exact next task: independently reconcile the remaining **29** accessory research leads in bounded groups of 8–20, prioritizing the earliest unresolved base-game/DLC identities where strong inventory-level evidence can establish an exact canonical match. Do not create a new canonical accessory solely from a stale `accr-###` ID or a clothing/set/component label.
+
+
+## 2026-09-22 — Accessory canonical identity batch: six legacy equipment endpoints
+- [x] Reconciled six previously unresolved accessory research identities against existing canonical inventory records: `acc-059` Bulma (Kid) Wig (PQ149), `acc-060` Red Ribbon Army Helmet (PQ160), `acc-061` Gohan (Beast) Wig (PQ162), `acc-062` Yamcha's Baseball Hat (PQ97), `acc-063` SSGSS Vegeta Wig (PQ100), `acc-064` SS4 Wig & Tail (Goku) (PQ110).
+- [x] Normalized legacy equipment IDs `equip-057`, `equip-066`, `equip-069`, `equip-120`, `equip-123`, and `equip-133` to canonical `acc-059` through `acc-064` rather than duplicating identities.
+- [x] Rebuilt the accessory bridge/report: **22 forward / 22 reverse / 23 unresolved / 0 invalid targets / 0 broken endpoints / 0 duplicate edges**.
+- [x] Refreshed the unresolved backlog; `Android 13's Hat` remains unresolved as a distinct canonical identity despite independent TP Medal Shop evidence because it is not present in the current canonical inventory layer.
+- [x] Updated the accessory canonicalization audit and reader-facing Accessory PQ Database.
+- [x] Canonical source-of-truth rule preserved: canonical records determine identity; research/verification metadata supports but does not override them.
+- [x] Validation: **172 total equipment/accessory records / 64 canonical accessory IDs / 0 duplicate canonical IDs / 0 duplicate accessory names**. Equipment relationship layer remains **123 forward / 121 reverse / 0 broken**.
+- [x] Evidence included the maintained PQ reward guide, current/maintained equipment references, independent PQ149 evidence, PQ160/PQ162 current research, and TP Medal Shop evidence for the still-unresolved Android 13's Hat.
+- [ ] Exact next task: reconcile the next **8–20** remaining accessory research identities, prioritizing PQ152–156 and PQ159–168 where existing research suggests exact inventory names or component aliases, but promote only when the current canonical layer can support an exact identity.
