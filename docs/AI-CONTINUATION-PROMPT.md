@@ -1527,3 +1527,15 @@
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [x] Commits: `46f7dcdc4a87e5997d02b817d6f4d20046f285df`, `5cd22060600e245262eb87ee993c1d34bc7ee009`, `c9cf3614b86fc306ab24628d2e42e85deb0a2b5b`.
 - [ ] Exact next batch: inspect the next registered cross-domain presentation consumer for stale scalar/list assumptions or one-way canonical navigation, without broad schema migration.
+
+
+### 2026-09-22 cycle update — registered unified PQ reverse-index validator hardening
+- [x] Audited the separately registered `scripts/validate_pq_unified_reverse_index.py` consumer, which is distinct from the broader reverse-index validator.
+- [x] Found that projection validation converted each PQ collection directly to a set, so duplicate canonical pairs and accidental scalar/non-list fields could be silently hidden.
+- [x] Hardened the validator to require list-valued PQ collections and explicitly count duplicate `(target,PQ)` projection pairs for Skills, Super Souls, Characters, DLC, Farming, and the combined Clothing/Accessories Equipment projection.
+- [x] Live deterministic parity remains clean across the full canonical graph: **860/860 pairs**, comprising **244 Skills / 151 Super Souls / 125 Equipment / 247 Characters / 86 DLC / 7 Farming**, with **0 missing / 0 extra / 0 duplicate / 0 invalid-list fields**.
+- [x] Refreshed `docs/data/pq-reward-normalization/pq-unified-reverse-index-audit.json` to schema **1.2.0** and recorded validator commit `df07a0cb046f38a6e5ee5973b82c203ae76a79c9`.
+- [x] No canonical relationship or generated projection identity was changed.
+- [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
+- [x] Commits: `df07a0cb046f38a6e5ee5973b82c203ae76a79c9`, `22429714ede4a0832b8539790ff918567299d5a5`.
+- [ ] Exact next batch: inspect the next registered cross-domain presentation consumer for stale scalar/list assumptions or one-way canonical navigation.
