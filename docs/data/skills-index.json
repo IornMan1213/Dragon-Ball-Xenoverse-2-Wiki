@@ -977,17 +977,17 @@
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
         "https://dbxv2.fandom.com/wiki/Burning_Slash",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Shining_Sword_Attack",
+        "https://gamefaqs.gamespot.com/xboxone/190458-dragon-ball-xenoverse-2/faqs/74285"
       ],
       "unlock_method": "Parallel Quest 44 — \"Dragon Balls of the Future\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "Earthling or Saiyan",
-      "notes": "2026-09-19 verification: Parallel Quest 44 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "mechanics_notes": "Confirmed as a 100-Ki Strike Super from PQ44, restricted to Human/Earthling and Saiyan CaCs. It is Trunks's teleporting sword slash and can follow a knockback. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
+      "notes": "2026-09-22 provenance verification: dedicated Xenoverse 2 documentation confirms Strike Super classification, 100 Ki, Trunks association, sword/weapon behavior, 5–9 hit follow-up sequence, Human/Saiyan CaC restriction, and PQ44 acquisition. Independent PQ44 reward guides explicitly list Burning Slash as a Basic Reward. No Ultimate Finish-only gate or numeric drop probability is inferred.",
+      "mechanics_notes": "Current dedicated Xenoverse 2 documentation confirms Burning Slash as a 100-Ki Strike Super used by Trunks, with a 5-hit sword sequence and an optional follow-up Ki Blast for a total of 5–9 hits. The dedicated skill page identifies PQ44 as the acquisition source and restricts CaC use to Human/Earthling and Saiyan races. Independent PQ44 reward documentation lists Burning Slash under Basic Reward.",
       "source_quest": 44,
       "source_quest_or_shop": "Parallel Quest 44 — \"Dragon Balls of the Future\"",
       "source_parallel_quests": [
