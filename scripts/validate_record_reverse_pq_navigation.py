@@ -52,6 +52,9 @@ def audit(domain, record_file, html, relationship, structured_field):
     for record in records:
         for raw_pq in (record.get(structured_field) or []):
             tokens = pq_tokens(raw_pq)
+            if isinstance(raw_pq, int) or (isinstance(raw_pq, str) and raw_pq.strip().isdigit()):
+                n = int(raw_pq)
+                tokens = [f"pq-{n:03d}"]
             if not tokens:
                 invalid_structured_pq_ids.append({"id": record.get("id"), "name": record.get("name"), "value": raw_pq})
                 continue
