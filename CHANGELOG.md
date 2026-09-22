@@ -1,3 +1,9 @@
+## 2026-09-22 — Petrifying Spit low-source provenance strengthening
+- Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 20 exactly-two-source canonical records**.
+- Strengthened **Petrifying Spit (`skill-petrifying-spit`)** from two to three provenance sources using the Dragon Ball Wiki's **Stone Spit** entry, which independently identifies Xenoverse 2's Petrifying Spit as a Future Warrior reward from **Parallel Quest 114** and as one of Dabura's Super Skills.
+- Preserved the existing PQ114 Basic Reward endpoint, Extra Pack 1 provenance, CaC scope, 100-Ki record, and no-Ultimate-Finish semantics; no unsupported prerequisite or reward probability was added.
+- Canonical/index synchronization and post-write validation will be recorded in the persistent handoff.
+
 ## 2026-09-21 — Perfect Shot low-source provenance strengthening
 - Recomputed the live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 21 exactly-two-source canonical records**.
 - Strengthened **Perfect Shot (`skill-perfect-shot`)** from two to three provenance sources using the Dragon Ball Wiki's **Perfect Shot** entry, which independently identifies Xenoverse 2's Cell (Perfect) mentor **School Quest: Lesson 2** acquisition.
