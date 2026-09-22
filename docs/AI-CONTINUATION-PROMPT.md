@@ -612,3 +612,13 @@
 - Commits: `5a378cbae1a5fdc27bb6d416cfe90afe3d45ede2`, `60c4b7f3697d3d674c9d573a8b8c5d464ff3b2d8`, `636f155ff6a21eeefe8bd979f31b2236060572ee`.
 - Runtime execution is still not available through the current GitHub connector, so no execution pass is claimed.
 - Next task: obtain a repository-capable runtime for the generator/validator, or if unavailable, build a static schema/parity audit artifact from the live JSON and explicitly separate static verification from runtime verification.
+
+
+### 2026-09-22 cycle update — live repository schema-aware projection validation
+- [x] Executed the generator-equivalent schema normalization directly against live repository JSON using the repository-capable orchestration runtime.
+- [x] Standalone typed-pair parity passed for all four maintained ranges: **PQ81-120 109/109**, **PQ121-142 89/89**, **PQ143-162 87/87**, **PQ163-186 72/72**; missing typed pairs **0** and extra typed pairs **0** in every range.
+- [x] Artwork projections are intentionally preserved as standalone research/source identifiers: PQ143-162 **64 artwork entries**, PQ163-186 **97 artwork entries**; artwork is not treated as a canonical reward-domain relationship by the typed-pair validator.
+- [x] Unified reverse-index parity also passed for all four ranges: **0 missing / 0 extra** typed pairs in every range.
+- [x] This is an actual live-data schema-aware execution of the projection comparison, but it is **not** a Python interpreter run of the committed scripts; no claim of direct Python runtime execution or CI success is made.
+- [x] No canonical reward relationships were changed.
+- Exact next task: inspect the unified reverse-index producer/schema for deterministic generation safety, especially its partial/research-layer semantics, before adding or modifying any unified generator.
