@@ -1723,3 +1723,10 @@
 - [x] Preserved the distinct Super/Ultimate canonical IDs for the two Super Ghost Kamikaze Attack records; no merge performed.
 - [x] Added/registered provenance audit and validated 452/452 parity with 48 stale records remaining.
 - [ ] Next batch: **Super Kamehameha (SS4 DAIMA), Super Saiyan, Super Saiyan 2, Super Saiyan Blue Kaioken, Super Saiyan God, Super Saiyan God Super Saiyan, Super Saiyan God Super Saiyan (Evolved), Super Spirit Bomb, Super Vegeta, Supernova Cooler**.
+
+
+### 2026-09-22 cycle update — Super Kamehameha (SS4 DAIMA) through Supernova Cooler provenance batch
+- [x] Ten stale records refreshed with bounded provenance/mechanics updates and index synchronization.
+- [x] Transformation scope and progression distinctions preserved; no unsupported acquisition gates added.
+- [x] Provenance audit added/registered; validation shows 452/452 parity and 38 stale records remaining.
+- [ ] Next batch: **Supersonic Mode, Supreme Fury, Surging Spirit, Symphonic Destruction, Tail Slicer, Taunt, Teleporting Vanishing Ball, Temporal Holy Ray, The Power to Overcome, The Savior Has Come**.
