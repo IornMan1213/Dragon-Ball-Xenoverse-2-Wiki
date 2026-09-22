@@ -329,3 +329,10 @@
 - [x] No canonical PQ identities or relationship edges were changed.
 - [x] New PQ143-162 projection commit: f40a588758ef0a0c4388e5c6e4520608a24583a0.
 - [ ] Exact next task: compare the three standalone indexes against the unified reverse index at exact relationship-pair level and repair only deterministic projection drift.
+
+
+### 2026-09-22 — PQ reverse-index producer integrity
+- [x] Audited PQ163-186 standalone reverse index against normalized reward map and unified index: 0 missing / 0 extra typed pairs across Skills, Super Souls, clothing, accessories.
+- [x] Added `scripts/validate_pq_reverse_indexes.py` for deterministic source-map ↔ standalone ↔ unified typed-pair validation.
+- [x] Validator design explicitly preserves canonical source-of-truth semantics and never infers missing rewards.
+- [ ] Next: add safe deterministic generation support for standalone reverse indexes and unified projection, then run the validator and record its full output.
