@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "DLC presentation consumers and Future Saga content-map identity resolution",
+  "canonical_identity_source": "docs/data/dlc/canonical-dlc-identity.json",
+  "consumers": [
+    "docs/data/relationships/dlc-content-links.json",
+    "docs/data/future-saga-content-map.json",
+    "docs/DLC-Overview.md"
+  ],
+  "results": {
+    "canonical_dlc_records": 20,
+    "canonical_dlc_ids_resolved": 20,
+    "content_projection_records": 3,
+    "content_projection_dlc_references": 6,
+    "unresolved_content_projection_targets": 0,
+    "future_saga_chapters": 4,
+    "future_saga_dlc_references": 4,
+    "unresolved_future_saga_dlc_ids": 0,
+    "future_saga_chapter_set": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "status": "clean_identity_resolution"
+  },
+  "evidence_boundary": "This audit proves deterministic DLC identity resolution and consumer navigation references only. It does not claim that every listed content domain has a populated concrete record.",
+  "rules": [
+    "Canonical DLC identity remains the source of truth for dlc_id resolution.",
+    "Future Saga Chapters 1-4 remain individual canonical identities; the parent bundle is grouping metadata only.",
+    "Presentation consumers cannot create or rename canonical DLC relationships.",
+    "Missing downstream content remains unresolved rather than inferred."
+  ]
+}
