@@ -565,3 +565,10 @@
 - Current live state: reverse-index gap for PQ143-162 is closed; PQ81-162 now has standalone reverse-index artifacts for all three maintained normalized ranges.
 - Exact next batch: compare PQ81-120, PQ121-142, and PQ143-162 standalone indexes against the unified reverse index at exact relationship-pair level, identify any deterministic omissions/extra pairs, then repair only projection drift.
 
+
+
+## 2026-09-22 correction — PQ81-162 reverse-index exact parity
+- Standalone PQ81-120, PQ121-142, and PQ143-162 indexes were compared with the unified reverse index at exact typed-pair level.
+- Skills, Super Souls, clothing, and accessories all returned 0 missing and 0 extra pairs for each range.
+- PQ143-162 artwork identifiers remain standalone because artwork is not represented in the unified relationship index.
+- Exact next batch: inspect remaining reverse-index producer artifacts for deterministic scope/count drift, then consider generation automation.
