@@ -134,3 +134,13 @@
 - Files changed in this cycle: canonical equipment/accessory record layer and equipment projection layer.
 - Relationship report synchronization remains required: remove the equip-085 PQ50 edge and move the equip-090 edge from PQ66 to PQ76. This is the exact remaining generated-artifact repair for this batch.
 - Exact next batch after relationship repair: recompute the full PQ↔equipment/Super Soul/skill cross-database census and repair any deterministic endpoint/count drift before starting another provenance-only equipment range.
+
+## 2026-09-22 — PQ reward cross-domain relationship census
+- [x] Regenerated `docs/data/pq-equipment-crosslink-report.json` from the canonical equipment layer after the equip-081–090 audit.
+- [x] Removed the stale `equip-085` → PQ50 relationship because `equip-085` is not a canonical equipment identity.
+- [x] Corrected `equip-090` Whis Symbol Gi from PQ66 to **PQ76** in the equipment relationship report.
+- [x] Rebuilt the equipment reverse index from the forward edges so forward/reverse counts remain derived from the same source.
+- [x] Cross-domain census checked the four currently generated PQ reward reports: Skills = **244 forward / 239 reverse**, Super Souls = **140 / 137**, Equipment = **123 / 121**, Accessories = **42 reverse**.
+- [x] Equipment report now matches the canonical equipment count of **168**, with no broken forward/reverse endpoints reported.
+- [x] Preserved the repository rule that canonical records are authoritative and verification status is evidence metadata only.
+- [ ] Next structural task: reconcile the generated `pq-reward-relationships.json` forward layer against the four reverse reports and canonical PQ reward fields, then identify any deterministic omissions or stale endpoints before further provenance batches.
