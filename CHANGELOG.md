@@ -1476,3 +1476,11 @@
 
 
 - 2026-09-22: Resolved the PQ 002 `Flying Nimbus!!` classification conflict as a Super Soul rather than equipment, removed the erroneous equipment relationship, and regenerated the equipment crosslink report with zero unresolved endpoints.
+
+## 2026-09-22 — Canonical equipment endpoint parity repair
+- Reconciled the live canonical equipment layer with the source-backed PQ→equipment relationship endpoints.
+- Added **119** previously relationship-only equipment identities to the canonical equipment-accessory database; total canonical equipment-accessory records are now **169**.
+- Preserved three exact-name overlaps as existing canonical IDs rather than duplicating identities: `equip-074 → acc-028`, `equip-080 → acc-001`, and `equip-088 → acc-012`.
+- Regenerated the PQ→equipment crosslink report: **124 forward / 122 reverse / 0 unresolved / 0 broken endpoints**.
+- New canonical records intentionally leave unsupported category, slot, DLC, restriction, effect, and reward-slot fields unresolved.
+- Next: enrich `equip-031`–`equip-040` from independent evidence while preserving canonical-source-of-truth and crosslink parity.
