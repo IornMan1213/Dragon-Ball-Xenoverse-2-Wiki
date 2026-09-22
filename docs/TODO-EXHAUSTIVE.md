@@ -1831,3 +1831,9 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Added independent Dragon Ball Wiki provenance confirming the Xenoverse 2 TP Medal Shop acquisition endpoint.
 - [x] Preserved the existing TP/STP shop semantics, Free Update 11 classification, and CaC scope; no unsupported rotation/purchase condition was inferred.
 - [x] Canonical/index source parity synchronized; live census recorded in the AI continuation handoff.
+
+
+### 2026-09-22 bounded provenance cycle — Super Guard
+- [x] Added independent GameFAQs evidence corroborating the CaC starting route for Super Guard.
+- [x] Preserved the existing Skill Shop alternate route and mechanics/cost semantics; no unsupported shop timing or purchase condition was inferred.
+- [x] Canonical/index source parity synchronized; live census recorded in the AI continuation handoff.
