@@ -6872,3 +6872,14 @@ The repository owner has clarified the continuation contract:
 - CI: no success claim without an exposed workflow/check.
 - Commits: `2bc56f6b9b9f07e8447ecc06ad3577a0ec403dbe` (canonical), `afa09b92e576062ca47ed824db0a075eae8f3f2d` (index), plus this handoff cleanup/update.
 - Exact next batch: **Kai Kai (`skill-kai-kai`)**. Recompute the live two-source census first and independently verify its acquisition/reward endpoint without broadening beyond the evidence.
+
+
+### 2026-09-21 cycle update — Kai Kai provenance
+- Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 29 exactly-two-source canonical records**.
+- Bounded batch: **Kai Kai (`skill-kai-kai`)**.
+- Evidence: a maintained Steam all-PQ guide lists Kai Kai in PQ63 — “Appetite for Destruction” Basic Reward; an independent GameFAQs walkthrough also lists Kai Kai among PQ63 rewards. This corroborates the existing PQ63 acquisition endpoint and Basic Reward tier. citeturn1search2turn1search6
+- Changes: added the GameFAQs walkthrough as a third provenance source to canonical/index records and refreshed `last_verified` to 2026-09-21. No Ultimate Finish-only gate was inferred.
+- Validation: target now has 3 sources; exactly-two-source count reduced to **28**.
+- CI: no success claim without an exposed workflow/check.
+- Commits: `2d6cb1de9c845bc0e66641a849a7bb625df33387` (canonical), `5355aadb3cf37d8c3cd3d61ae5b98e9a234b163c` (index), plus this handoff/TODO update.
+- Exact next batch: **Kaioken Kamehameha (`skill-kaioken-kamehameha`)**. Recompute the live two-source census first and independently verify its acquisition/reward endpoint.
