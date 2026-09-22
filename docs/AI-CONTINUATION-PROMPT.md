@@ -1878,3 +1878,11 @@
 - [ ] CI/runtime execution remains unavailable; no executable validation or CI success claimed.
 - [x] Commits: validator 44680366def03b1fdfc7d4c32eb05b9039a61c09; audit dd7a1122748cbe731e0ec6c26da71c9e02ebe23b.
 - [ ] Exact next batch: audit the remaining **PQ-facing reward/acquisition summary consumers**, prioritizing docs/Guides.md, docs/Skills-Complete-Database.md, docs/QQ-Bangs.md, and other summary/index pages for deterministic canonical endpoint drift or one-way navigation; do not infer new relationships.
+
+
+### 2026-09-22 cycle update — character Markdown audit validator correction
+- [x] Corrected the Markdown preset-label scanner in scripts/validate_character_presentation_consumers.py so the regex uses actual word/whitespace boundaries rather than escaped literal backslashes.
+- [x] Re-read docs/Characters.md and docs/Character-Core-Profiles.md and confirmed the deterministic scan still has **0 hard-coded preset-label matches**; Characters.md links to Characters-All.html and Character-Core-Profiles.md exposes Search-first navigation.
+- [x] Synchronized docs/data/characters/character-presentation-consumer-audit.json to validator commit `869d6435813d566a141d1270f97516241d660c00`.
+- [ ] CI/runtime execution remains unavailable; executable validator success is not claimed.
+- [ ] Exact next batch remains the **PQ-facing reward/acquisition summary consumer audit**, beginning with docs/Guides.md, docs/Skills-Complete-Database.md, docs/QQ-Bangs.md and related summary/index surfaces; inspect deterministic endpoint drift and one-way navigation only.
