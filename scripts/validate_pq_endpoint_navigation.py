@@ -20,6 +20,7 @@ SOULS = DATA / "super-souls-record-layer.json"
 EQUIPMENT = DATA / "equipment-accessories-record-layer.json"
 CHARACTERS = DATA / "characters-record-layer.json"
 BRIDGE = DATA / "pq-endpoint-alias-granularity-map.json"
+DLC = DATA / "dlc" / "canonical-dlc-identity.json"
 
 DOMAIN_TO_REL = {
     "skills": "pq_rewards_skill",
@@ -45,6 +46,8 @@ def main() -> int:
     relationships = load(REL).get("verified_relationships", [])
     bridge = load(BRIDGE)
 
+    dlc_names = {record["name"] for record in load(DLC).get("records", []) if record.get("name")}
+
     canonical = {
         "skills": canonical_names(load(SKILLS), "skills"),
         "super_souls": canonical_names(load(SOULS), "super_souls"),
@@ -58,9 +61,9 @@ def main() -> int:
         edges = [e for e in relationships if e.get("relationship") == relationship]
         targets = sorted({e.get("target") for e in edges if e.get("target")})
         if domain == "dlc":
-            missing = targets
-            status = "identity_layer_missing"
-            note = "DLC endpoints are explicit canonical relationship targets, but no standalone canonical DLC identity record layer currently exists."
+            missing = [name for name in targets if name not in dlc_names]
+            status = "clean" if not missing else "unresolved"
+            note = "Every DLC endpoint resolves by exact canonical DLC identity." if not missing else "Unresolved DLC targets require an explicit canonical DLC identity record; do not infer."
         else:
             missing = [name for name in targets if name not in canonical[domain]]
             status = "clean" if not missing else "unresolved"
@@ -74,7 +77,7 @@ def main() -> int:
             "status": status,
             "note": note,
         }
-        if domain != "dlc" and missing:
+        if missing:
             failures.extend(f"{domain}: {name}" for name in missing)
 
     bridge_checks = []
@@ -104,7 +107,7 @@ def main() -> int:
             "super_souls": str(SOULS.relative_to(ROOT)),
             "equipment": str(EQUIPMENT.relative_to(ROOT)),
             "characters": str(CHARACTERS.relative_to(ROOT)),
-            "dlc": None,
+            "dlc": str(DLC.relative_to(ROOT)),
         },
         "results": results,
         "bridge_checks": bridge_checks,
@@ -113,7 +116,7 @@ def main() -> int:
             "Verification status and research/projection layers never override canonical identity.",
             "Exact canonical name matches are required for direct navigation.",
             "Explicit aliases/conflicts/granularity may explain source/display differences but do not create canonical edges.",
-            "DLC remains a documented structural gap until a standalone canonical DLC identity layer exists.",
+            "DLC endpoints resolve against the standalone canonical DLC identity layer; bundle/chapter granularity remains explicit.",
         ],
     }
     print(json.dumps(report, indent=2, ensure_ascii=False))
