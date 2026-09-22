@@ -2662,3 +2662,14 @@
 - [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; no CI success claimed.
 - [x] Commits: canonical be2f1223d93a61f3cbbe5c2862de97dab7029e49; index 7c391ca17232905342f8111c3213de7e16186394; audit fb60a310bce67fd2b9f53078be71014f6cadd375; cross-domain registration fa3f4e185707e852b2b2ac8a3a34a75b4191c186.
 - [ ] Exact next batch: **Raid Blast, Rakshasa's Claw, Ray Blast, Rebellion Spear, Recoome Kick, Remote Serious Bomb, Revenge Death Ball, Revenge Final Flash, Reverse Launcher, Reverse Mabakusenko**; recompute the live stale census before editing and continue with the same bounded provenance policy.
+
+
+### 2026-09-22 cycle update — Raid Blast through Reverse Mabakusenko provenance batch
+- [x] Fresh live stale census before editing: 452 canonical skills / 452 index records / 0 duplicate IDs; selected batch was the first ten stale records.
+- [x] Refreshed all ten canonical records and synchronized corresponding index projections to last_verified: 2026-09-22.
+- [x] Deterministic correction: **Revenge Final Flash** is now **Super / Ki Blast** with a 100 Ki base cost; dedicated evidence supports variable 100–300 Ki usage.
+- [x] Added docs/data/skill-raid-blast-through-reverse-mabakusenko-provenance-audit-2026-09-22.json.
+- [x] Validation: 452/452 canonical/index, 0 duplicate IDs, ID sets match, 10/10 selected records current, 108 stale canonical records remain.
+- [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; no CI success claimed.
+- [x] Commits: canonical a3ea5cc5c98be1c9baf7d912fd3d2238ad03bdb1; index 8892b9cdf764b5872a5b54d56eb7c44f19794a7a; audit 1227e50681ef6432068b7df76f1b532ddd037a62.
+- [ ] Exact next batch: **Reverse Shot, Ribrianne's Eternal Love, Riot Javelin, Rise to Action, Rising Rage, Rocket Tackle, Rolling Bullet, Rolling Hercule Punch, Rough Ranger, S.S. Deadly Bomber**; recompute the live stale census before editing and continue with the same bounded provenance policy.
