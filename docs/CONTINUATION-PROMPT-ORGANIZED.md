@@ -1588,3 +1588,12 @@
 - [ ] Runtime/CI remains unavailable; no CI success claimed.
 - [x] Commits: `583f3646e37efb7121bfa0b618d3bfdf85495581`, `7352ce432a3a3f455af19fdac5d9a41eaabd0b31`, `5778138fb0c497cb2c9aa526b3b22db8b2e8694a`, `d9c36b615e195f205819f67ae35b185241bea5e0`.
 - [ ] Exact next batch: **Gigantic Roar, God Breaker, God of Destruction's Anger, God of Destruction's Menace, God of Destruction's Might, God of Destruction's Plaything, God of Destruction's Poise, God of Destruction's Rampage, God of Destruction's Roar, God of Destruction's Wrath**; recompute the stale census first.
+
+
+### 2026-09-22 cycle update — Gigantic Roar through God of Destruction's Wrath verification refresh
+- [x] Recomputed the live canonical skill stale census before editing: **452 canonical records**, with the exact next alphabetical stale batch being **Gigantic Roar; God Breaker; God of Destruction's Anger; God of Destruction's Menace; God of Destruction's Might; God of Destruction's Plaything; God of Destruction's Poise; God of Destruction's Rampage; God of Destruction's Roar; God of Destruction's Wrath**.
+- [x] Refreshed all ten canonical skill records to `last_verified: 2026-09-22` and synchronized the ten corresponding skill-index records. Existing acquisition semantics, evidence conflicts, and unresolved combat mechanics were preserved; no unsupported probabilities, gates, or scope were introduced.
+- [x] Added `docs/data/skill-gigantic-roar-through-god-of-destruction-wrath-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation target: canonical/index counts remain **452/452**, duplicate IDs remain **0**, and all ten selected records now carry the current verification date.
+- [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; do not claim CI success.
+- [ ] Exact next batch: recompute the stale census and continue with the next alphabetical stale records after this refresh; do not assume the prior list remains unchanged.
