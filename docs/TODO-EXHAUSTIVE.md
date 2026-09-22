@@ -45,3 +45,10 @@
 - [x] Recomputed the projection census and reconciled the remaining **32 `notes` mismatches** from canonical to index.
 - [x] Final skill projection validation: **0 mismatches** across the audited canonical/index projection fields; **452/452** records remain aligned.
 - [ ] Exact next task: perform a wider repository consistency census and select the highest-priority unresolved structural gap outside the skill projection layer.
+
+
+### 2026-09-22 — PQ↔skill endpoint naming repair
+- [x] Recomputed the live PQ↔skill relationship census: **245 raw skill-reward mentions / 243 unique resolvable edges / 1 unresolved endpoint / 1 orphaned reverse route**.
+- [x] Resolved the deterministic **PQ163 "Giant Cluster" → canonical "Gigantic Cluster"** naming alias in the validator without changing canonical source wording.
+- [x] Regenerated the PQ↔skill crosslink report: **244 unique forward edges / 239 reverse endpoints / 0 unresolved / 0 orphaned**.
+- [ ] Exact next task: run a wider deterministic cross-database reward/reverse-index consistency census for skills, Super Souls, and equipment.
