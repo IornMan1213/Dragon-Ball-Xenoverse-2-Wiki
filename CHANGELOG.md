@@ -1,3 +1,10 @@
+## 2026-09-22 — Non-PQ projection producer census
+
+- Audited the four generated PQ cross-link reports against the canonical relationship layer.
+- Current counts: Skill **244/239**, Super Soul **151/148**, Equipment **125/123**, Accessory **28/28** forward/reverse endpoints.
+- All reports validate with zero duplicate keys, invalid PQ references, unresolved forward edges, or orphan reverse sources.
+- Accessory remains a dedicated projection of the equipment domain rather than a replacement for the full 125-edge equipment relationship set.
+
 ## 2026-09-22 — Current PQ projection census correction
 
 - Recomputed current projections from the corrected 860-edge canonical PQ relationship array and found stale 862-edge endpoint/final-consistency fields in the cross-domain audit/status artifacts.
