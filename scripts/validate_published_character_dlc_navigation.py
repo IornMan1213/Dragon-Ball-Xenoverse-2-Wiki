@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -37,15 +38,19 @@ def main() -> int:
         page_path = ROOT / page
         text = page_path.read_text(encoding="utf-8")
         page_results = []
+        href_counts = Counter(href for _, href, _ in links)
         for label, href, target in links:
-            present = href in text
+            present = text.count(href) >= 1
+            duplicate_occurrences = text.count(href)
             exists = target.exists()
-            ok = present and exists
+            ok = present and exists and duplicate_occurrences == 1
             page_results.append({
                 "label": label,
                 "href": href,
                 "link_present": present,
                 "target_exists": exists,
+                "link_occurrences": duplicate_occurrences,
+                "link_occurrence_exactly_once": duplicate_occurrences == 1,
                 "status": "clean" if ok else "unresolved",
             })
             if not ok:
@@ -56,8 +61,14 @@ def main() -> int:
     character_layer = load(ROOT / "docs" / "data" / "characters-record-layer.json")
     canonical_characters = character_layer.get("character_names", [])
     canonical_character_set = set(canonical_characters)
+    canonical_character_types_ok = all(isinstance(x, str) and x for x in canonical_characters)
     bridge = load(ROOT / "docs" / "data" / "characters" / "dlc-character-identity-bridge.json")
     bridge_records = bridge.get("records", [])
+    bridge_source_names = [record.get("source_name") for record in bridge_records]
+    bridge_target_names = [record.get("canonical_character_name") for record in bridge_records if record.get("canonical_character_name") is not None]
+    duplicate_bridge_sources = sorted(k for k,v in Counter(bridge_source_names).items() if k is not None and v > 1)
+    duplicate_bridge_targets = sorted(k for k,v in Counter(bridge_target_names).items() if v > 1)
+    malformed_bridge_sources = [record.get("source_name") for record in bridge_records if not isinstance(record.get("source_name"), str) or not record.get("source_name")]
     bridge_missing_targets = sorted({
         record.get("canonical_character_name")
         for record in bridge_records
@@ -70,9 +81,7 @@ def main() -> int:
         if record.get("status") == "unresolved_source_label"
         and record.get("canonical_character_name") is not None
     ]
-    bridge_duplicate_sources = len(bridge_records) - len({
-        record.get("source_name") for record in bridge_records
-    })
+    bridge_duplicate_sources = len(bridge_records) - len(set(bridge_source_names))
     bridge_ok = (
         len(canonical_characters) == 149
         and len(canonical_character_set) == 149
@@ -80,12 +89,20 @@ def main() -> int:
         and not bridge_missing_targets
         and not unresolved_with_target
         and bridge_duplicate_sources == 0
+        and not duplicate_bridge_sources
+        and not duplicate_bridge_targets
+        and not malformed_bridge_sources
+        and canonical_character_types_ok
     )
     results["character_identity_bridge"] = {
         "canonical_character_count": len(canonical_characters),
         "canonical_character_unique_count": len(canonical_character_set),
         "bridge_records": len(bridge_records),
         "bridge_duplicate_sources": bridge_duplicate_sources,
+        "duplicate_source_names": duplicate_bridge_sources,
+        "duplicate_canonical_targets": duplicate_bridge_targets,
+        "malformed_source_names": malformed_bridge_sources,
+        "canonical_character_types_ok": canonical_character_types_ok,
         "resolved_targets_missing_from_canonical": bridge_missing_targets,
         "unresolved_records_with_canonical_target": unresolved_with_target,
         "status": "clean" if bridge_ok else "unresolved",
@@ -95,6 +112,10 @@ def main() -> int:
 
     # Canonical DLC identity must resolve every existing PQ→DLC endpoint exactly once.
     relationship_data = load(ROOT / "docs" / "data" / "pq-reward-relationships.json")
+    relationship_rows = [row for row in relationship_data.get("verified_relationships", []) if row.get("relationship") == "pq_requires_dlc"]
+    canonical_dlc_target_values = [row.get("target") for row in relationship_rows]
+    malformed_dlc_targets = [x for x in canonical_dlc_target_values if not isinstance(x, str) or not x]
+    duplicate_dlc_targets = sorted(k for k,v in Counter(canonical_dlc_target_values).items() if k is not None and v > 1)
     canonical_dlc_targets = {
         str(row.get("target"))
         for row in relationship_data.get("verified_relationships", [])
@@ -104,6 +125,8 @@ def main() -> int:
     dlc_records = dlc_identity.get("records", [])
     dlc_ids = [record.get("id") for record in dlc_records]
     dlc_names = [record.get("name") for record in dlc_records]
+    malformed_dlc_ids = [x for x in dlc_ids if not isinstance(x, str) or not x]
+    malformed_dlc_names = [x for x in dlc_names if not isinstance(x, str) or not x]
     identity_name_map = {
         str(record.get("name")): record.get("id")
         for record in dlc_records
@@ -124,6 +147,10 @@ def main() -> int:
         and not missing_dlc_targets
         and not orphan_dlc_names
         and not bad_sources
+        and not malformed_dlc_ids
+        and not malformed_dlc_names
+        and not malformed_dlc_targets
+        and not duplicate_dlc_targets
     )
     results["canonical_dlc_identity"] = {
         "canonical_pq_dlc_targets": len(canonical_dlc_targets),
@@ -134,6 +161,10 @@ def main() -> int:
         "orphan_identity_names": orphan_dlc_names,
         "duplicate_ids": duplicate_dlc_ids,
         "duplicate_names": duplicate_dlc_names,
+        "malformed_ids": malformed_dlc_ids,
+        "malformed_names": malformed_dlc_names,
+        "malformed_pq_dlc_targets": malformed_dlc_targets,
+        "duplicate_pq_dlc_targets": duplicate_dlc_targets,
         "records_with_wrong_relationship_source": bad_sources,
         "status": "clean" if dlc_ok else "unresolved",
     }
@@ -141,7 +172,7 @@ def main() -> int:
         failures.append("canonical_dlc_identity")
 
     report = {
-        "schema_version": "1.1.0",
+        "schema_version": "1.2.0",
         "scope": "published Character/DLC page local navigation plus canonical identity resolution",
         "rules": [
             "Published page links must resolve to repository-local artifacts.",
