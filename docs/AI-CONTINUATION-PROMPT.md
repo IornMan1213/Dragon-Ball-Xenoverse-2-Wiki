@@ -480,3 +480,15 @@
 - CI: no successful workflow/check exposed for this direct-commit chain.
 - Current master remains **862 relationships**: 244 skill / 151 Super Soul / 125 equipment / 247 character / 88 DLC / 7 farming.
 - Exact next batch: **trace the 247 character edges and 88 DLC edges back to their canonical PQ records and identify any target/alias normalization gaps, without treating source text as a canonical source of truth.**
+
+
+### 2026-09-22 cycle update — PQ character/DLC target normalization
+- Live pre-edit census: **862 total PQ relationships** — 244 skills / 151 Super Souls / 125 equipment / 247 character / 88 DLC / 7 farming.
+- Bounded batch: **PQ character/DLC relationship target normalization**.
+- Character audit: **247 edges / 75 unique targets / 149 canonical character records**; all **75/75** relationship targets resolve exactly to canonical character identities. The existing five documented aliases remain explicit; no character endpoint was changed.
+- DLC audit: **88 edges / 21 unique targets**. Found one deterministic case-only reverse-index duplicate: `Future Saga Chapter 4` and `FUTURE SAGA Chapter 4`, both mapping to PQ185/PQ186.
+- Changes: normalized the two master relationship targets for PQ185/PQ186 to canonical `Future Saga Chapter 4`; removed the duplicate uppercase reverse-index key; added a machine-readable normalization audit and synchronized cross-domain audit/status/producer metadata.
+- Evidence limits preserved: `Super Pack 1-4` remain distinct source-backed DLC targets and were not collapsed into the broader `Super Pass` requirement. No relationship additions were inferred.
+- Post-write validation: **862 total relationships**, **247 character**, **88 DLC**, **0 duplicate relationship keys**, **0 invalid PQ numbers**, **0 empty targets**, **0 DLC casefold duplicate keys**, **75/75 character target resolution**, and canonical reverse-index parity for the affected DLC target.
+- CI/Actions: no successful workflow/check is exposed for the direct-commit chain; CI success is not claimed.
+- Exact next batch: **full repository relationship/projection census**, starting with deterministic producer metadata and any remaining case/alias duplicate endpoints before new provenance research.
