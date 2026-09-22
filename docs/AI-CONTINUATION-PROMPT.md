@@ -1834,3 +1834,15 @@
 - Validation target after repair: current source-of-truth projection remains 859/244/151/124/247/86/7; historical snapshots remain preserved.
 - CI/runtime execution remains unavailable; no CI success claimed.
 - Exact next task: fresh search/direct-fetch the remaining registered current presentation/identity consumers for **859/124** drift, then repair only fields demonstrably labeled current; do not alter historical audit snapshots.
+
+
+### 2026-09-22 continuation cycle — equipment identity-conflict evidence strengthening
+- Fresh current-consumer census was performed after the prior projection repairs. Direct live-file inspection shows the current PQ cross-domain audit/status projections are already synchronized at **859 total / 244 skill / 151 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming**; stale 860/125 search hits are historical snapshots or stale search-index fragments and were not rewritten.
+- Audited the two remaining explicit equipment naming conflicts before canonical identity changes. Current identity evidence continues to support preserving both canonical identities rather than merging by name similarity:
+  - PQ152: source/reward documentation uses **Android 17 (DB Super) Wig**; the repository separately preserves **Android 17 (DB Super) Ranger Wig** and the documented Ranger Accessory research label.
+  - PQ155: source/reward documentation uses **Gamma 2's Helmet**; the repository separately preserves **Gamma 2 Helmet** as the legacy/equipment identity.
+- Strengthened docs/data/pq-endpoint-alias-granularity-map.json with explicit external evidence URLs for both conflicts. No canonical relationship edge or identity was changed.
+- Commit: 6a0b10fa2f26946048de4d6a55decb144a840109.
+- Current identity-resolution status remains clean: 0 unresolved endpoints, 0 duplicate pairs, 0 invalid PQ IDs, with 2 explicit equipment conflicts and 6 DLC granularity mappings.
+- CI/runtime execution remains unavailable; no CI success claimed.
+- Exact next task: continue the non-PQ presentation/identity consumer census beyond scalar baselines, focusing on endpoint naming/display mappings and any consumer that could bypass the explicit alias/granularity bridge; make only independently evidenced deterministic repairs.
