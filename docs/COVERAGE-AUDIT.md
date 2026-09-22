@@ -1180,8 +1180,8 @@
 
 
 ## 2026-09-21 — Giant Storm low-source provenance strengthening
-- Live pre-edit census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 38 exactly-two-source records**.
+- Live pre-edit census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 39 exactly-two-source records**.
 - Strengthened **Giant Storm (`skill-giant-storm`)** from two to three sources with the Dragon Ball Wiki's Xenoverse 2 technique entry, independently confirming its Skill Shop acquisition.
 - Preserved the existing Skill Shop endpoint, Base Game classification, 300-Ki cost, CaC availability, and `ultimate_finish_required: false`; no unsupported shop timing or drop probability was inferred.
-- Refreshed canonical/index source projections and `last_verified` to **2026-09-21**.
-- Post-write live target: **37 exactly-two-source records**.
+- Refreshed canonical/index source projections and `last_verified` to **2026-09-21`**.
+- Post-write live census: **38 exactly-two-source records**.
