@@ -101,6 +101,39 @@ def main() -> int:
 
     failures = []
     report = []
+    unified_reward_pairs = {
+        (domain, name, pq)
+        for domain, items in unified_index.items()
+        if domain in {"skills", "super_souls", "clothing", "accessories"}
+        for name, pqs in items.items()
+        for pq in pqs
+    }
+    unified_reward_pairs = {
+        ("equipment", name, pq) if domain in {"clothing", "accessories"} else (domain, name, pq)
+        for domain, name, pq in unified_reward_pairs
+    }
+    canonical_reward_pairs = {
+        (
+            "skills" if e.get("relationship") == "pq_rewards_skill"
+            else "super_souls" if e.get("relationship") == "pq_rewards_super_soul"
+            else "equipment",
+            str(e.get("target")),
+            int(str(e.get("pq")).replace("pq-", "")),
+        )
+        for e in canonical.get("verified_relationships", [])
+        if e.get("relationship") in {"pq_rewards_skill", "pq_rewards_super_soul", "pq_rewards_equipment"}
+    }
+    unified_reward_pair_missing = sorted(canonical_reward_pairs - unified_reward_pairs)
+    unified_reward_pair_extra = sorted(unified_reward_pairs - canonical_reward_pairs)
+    unified_reward_duplicate_pairs = 0
+    for domain, items in unified_index.items():
+        if domain not in {"skills", "super_souls", "clothing", "accessories"}:
+            continue
+        flattened = [(("equipment" if domain in {"clothing", "accessories"} else domain), name, pq)
+                     for name, pqs in items.items() for pq in pqs]
+        unified_reward_duplicate_pairs += len(flattened) - len(set(flattened))
+    if unified_reward_pair_missing or unified_reward_pair_extra or unified_reward_duplicate_pairs:
+        failures.append(("unified-canonical-reward-parity", unified_reward_pair_missing, unified_reward_pair_extra, [], []))
 
     for label, lo, hi, source_name, reverse_name in RANGES:
         source = source_index(load(data_dir / source_name))
@@ -158,6 +191,13 @@ def main() -> int:
     print(json.dumps({
         "status": "pass" if not failures else "fail",
         "ranges": report,
+        "unified_canonical_reward_parity": {
+            "canonical_pairs": len(canonical_reward_pairs),
+            "unified_pairs": len(unified_reward_pairs),
+            "missing": len(unified_reward_pair_missing),
+            "extra": len(unified_reward_pair_extra),
+            "duplicate_pairs": unified_reward_duplicate_pairs,
+        },
         "canonical_comparison": {
             "semantics": "informational",
             "rule": "Standalone reverse indexes must match normalized source maps exactly; differences from the unified canonical relationship projection are retained as source-layer drift and must not override canonical relationships.",
