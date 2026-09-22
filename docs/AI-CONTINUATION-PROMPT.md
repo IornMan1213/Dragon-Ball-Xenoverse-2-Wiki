@@ -2742,3 +2742,14 @@
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [x] Commits: canonical 01b08b6e036ede4865a122a5ef814b168e1ca816; index 01181a799e59e7bc4ecdbd58d83b4f83bf7ee95a; audit 7a062b5930777a8c16e450accaf8a77b2442b689; cross-domain registration 5179c9bb8151a56f9fe1cb06b72238253bdd34ce.
 - [ ] Exact next batch: **Super Kamehameha (SS4 DAIMA), Super Saiyan, Super Saiyan 2, Super Saiyan Blue Kaioken, Super Saiyan God, Super Saiyan God Super Saiyan, Super Saiyan God Super Saiyan (Evolved), Super Spirit Bomb, Super Vegeta, Supernova Cooler**; recompute live census first.
+
+
+### 2026-09-22 cycle update — Super Kamehameha (SS4 DAIMA) through Supernova Cooler provenance batch
+- [x] Fresh live census before editing: 452 canonical / 452 index / 0 duplicate IDs / 48 stale; exact batch processed: Super Kamehameha (SS4 DAIMA), Super Saiyan, Super Saiyan 2, Super Saiyan Blue Kaioken, Super Saiyan God, Super Saiyan God Super Saiyan, Super Saiyan God Super Saiyan (Evolved), Super Spirit Bomb, Super Vegeta, Supernova Cooler.
+- [x] Refreshed canonical records and synchronized index projections to 2026-09-22.
+- [x] Preserved transformation scope distinctions: Super Saiyan/SS2 and Super Vegeta are staged Saiyan CaC transformations; Super Saiyan Blue Kaioken remains character-only Goku; SSG/SSGSS/SSGSS Evolved retain their documented CaC restrictions and progression requirements.
+- [x] Added and registered docs/data/skill-super-kamehameha-ss4-daima-through-supernova-cooler-provenance-audit-2026-09-22.json.
+- [x] Post-edit validation: 452/452, 0 duplicate IDs, canonical/index parity true, 38 stale remain.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [x] Commits: canonical a138827372e659f76f42ebfa07e7b899bcb5a5d5; index 23c77e418670413682ace6bd2765509fd321419f; audit 1887b3845d3ee386523a8f4f47d9447ff6f1617f; cross-domain registration 508fab5ae822c0035c59b14beb25d97fef2c42b3.
+- [ ] Exact next batch: **Supersonic Mode, Supreme Fury, Surging Spirit, Symphonic Destruction, Tail Slicer, Taunt, Teleporting Vanishing Ball, Temporal Holy Ray, The Power to Overcome, The Savior Has Come**; recompute live census first.
