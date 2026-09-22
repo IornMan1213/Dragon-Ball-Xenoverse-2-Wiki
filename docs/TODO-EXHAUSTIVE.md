@@ -2377,3 +2377,18 @@
 - [x] Audit added and registered
 - [ ] CI/runtime remains unavailable; no CI success claimed
 - [ ] Next batch: recompute the live stale census, then continue with the first ten stale canonical skills after Spirit Pulse.
+
+
+### 2026-09-22 cycle completion tracking — Spirit Slash through Super Donut Volley
+- [x] Spirit Slash provenance refresh
+- [x] Spread Shot Retreat provenance refresh
+- [x] Steel Mirage provenance refresh
+- [x] Stone Bullet provenance refresh
+- [x] Strike of Revelation provenance refresh
+- [x] Sudden Death Beam provenance refresh
+- [x] Sudden Storm provenance refresh
+- [x] Super Afterimage provenance refresh
+- [x] Super Black Kamehameha Rosé provenance refresh
+- [x] Super Donut Volley provenance refresh
+- [x] Canonical/index synchronization and audit registration completed
+- [ ] Next live batch: **Super Dragon Flight, Super Elite Combo, Super Explosive Wave, Super Gamma Blast, Super Ghost Buu Attack, Super Ghost Kamikaze Attack, Super Ghost Kamikaze Attack, Super God Fist, Super God Shock Flash, Super Kamehameha**; investigate duplicate stale-name occurrence before editing.
