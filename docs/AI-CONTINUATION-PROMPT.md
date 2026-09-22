@@ -1167,3 +1167,17 @@
 - [x] Evidence boundary preserved: this validates producer/presentation identity and structural parity only; it does not establish complete preset numbering, loadouts, unlock routes, DLC ownership, or historical numbering.
 - [x] Commits: `c368209bd74663c5c0d3a755354ed9018db24e07`, `b764c3799bf8332b4254ee1bfff5cae2f22f20eb`.
 - [ ] Exact next batch: inspect character-facing Markdown/HTML consumers for hard-coded preset labels or alternate preset lists, then either route them through the canonical explorer/Search surface or record why they are intentionally separate evidence surfaces.
+
+
+### 2026-09-22 cycle update — equipment detail enrichment: equip-031–040
+- [x] Completed bounded enrichment for 10 canonical equipment/accessory endpoints: Tuxedo, Wedding Dress, Arabian Costume, Goku Wig (Ultra Instinct), Janemba Suit, Janemba Head, Broly (Full Power Super Saiyan)'s Clothes, SSGSS Gogeta's Clothes, Broly Wig (Legendary Super Saiyan), and Kakunsa's Clothes.
+- [x] Reconciled deterministic category and slot coverage from the maintained DBXV2 equipment catalog plus corroborating independent documentation: clothing/accessory classification is now explicit; Tuxedo/Wedding Dress are upper/lower/feet without hands; Arabian Costume is upper/lower/hands without feet; Janemba Suit and Kakunsa's Clothes are four-piece sets; the Broly Full Power and SSGSS Gogeta sets are four-piece; Goku UI Wig, Janemba Head, and Broly Legendary Super Saiyan Wig are accessories.
+- [x] Preserved exact uncertainty boundaries: no reward probability, drop guarantee, or unsupported clothing combat/stat effect was invented. Accessory cosmetic classification was only applied to the three clearly accessory/wig records.
+- [x] Preserved existing canonical DLC provenance: Extra Pack 2 (PQ121), Extra Pack 3 (PQ123/125/127), Extra Pack 4 (PQ130/131/132), Ultra Pack 1 (PQ133).
+- [x] Added docs/data/equipment/equipment-031-040-detail-audit.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Updated both equipment record layers so category/slot metadata is available to downstream consumers without changing canonical relationship identities.
+- [x] Validation: 139 records in equipment-record-layer.json; 174 combined equipment/accessory records; 0 duplicate IDs in either layer; all 10 batch records have category, slot coverage, PQ source, and DLC provenance; canonical equipment relationship layer remains 125 forward edges / 123 unique targets / 0 unresolved / 0 broken endpoints.
+- [x] Evidence sources include the maintained equipment catalog, maintained all-186 PQ guide, and independent Janemba/Kakunsa/Arabian slot documentation. Web verification also confirms Extra Pack 4's three relevant costumes and Ultra Pack 1's Kakunsa costume provenance.
+- [ ] CI: no successful workflow/check exposed for this direct-commit chain; do not claim CI success.
+- [x] Commits: d210aeb5ce0e11db5d6a0501b731baca0dc090a8, db5d6b71e618ee28d089523d61331aca59a5d9e8, 1d81110d97e328ad9f99d3874305c89ac5d729d1, 3a276172456fbbdc0a45c5f308ceea6896f0c1d8.
+- [ ] Exact next batch: enrich equip-041–equip-050 with independently verified category/slot coverage, restrictions/effects, and DLC provenance; synchronize both equipment layers, preserve unresolved reward/drop semantics, and re-run canonical endpoint/relationship parity.
