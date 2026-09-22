@@ -255,14 +255,14 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://videogaming.fandom.com/wiki/Fight_of_the_Fusions%21_Vegito_vs_Gogeta"
       ],
-      "unlock_method": "Parallel Quest 131 Ultimate Finish reward (25% roll)",
-      "ultimate_finish_required": true,
+      "unlock_method": "Parallel Quest 131 Basic Reward",
+      "ultimate_finish_required": false,
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance refinement: the maintained PQ131 drop-condition data explicitly assigns this skill to a 25% Ultimate Finish roll; the earlier generic acquisition wording did not establish the gate. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites.",
+      "notes": "2026-09-20 provenance refinement: the maintained PQ131 drop-condition data explicitly assigns this skill to a 25% Ultimate Finish roll; the earlier generic acquisition wording did not establish the gate. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-21 cross-field correction: independent PQ reward documentation lists Assault Vanish under PQ131's Basic Reward, conflicting with the prior 25% Ultimate Finish-roll fields. The canonical unlock method and Ultimate Finish requirement were corrected to match the directly documented Basic Reward classification; no drop percentage is retained.",
       "mechanics_notes": "Confirmed as Other Super from PQ131 and usable by all CaC races. Costs 100 Ki and 100 Stamina, warping behind the target; holding the input prolongs invisibility/reappearance position. Current independent PQ reward documentation lists Assault Vanish under PQ131's Basic Reward.",
       "source_quest": 131,
-      "source_quest_or_shop": "PQ131 — Legendary Finish"
+      "source_quest_or_shop": "PQ131 — Fight of the Fusions! Vegito vs Gogeta"
     },
     {
       "id": "skill-atomic-blast",
