@@ -302,3 +302,11 @@
 - [x] Confirmed accessory canonical bridge: 45 records = 29 matched + 16 unresolved, 0 duplicate bridge IDs.
 - [x] Preserved partial reverse-index semantics; no canonical relationship identities were changed.
 - [ ] Exact next task: audit remaining generated reverse indexes/acquisition indexes for scope metadata and canonical-vs-partial semantics, starting with Super Soul PQ acquisition and PQ reverse-index artifacts for PQ81-186.
+
+
+### 2026-09-22 — Reverse-index and Super Soul acquisition scope audit
+- [x] Reconciled unified reverse-index metadata with its actual arrays; corrected stale DLC reference count **88 -> 86**.
+- [x] Documented partial-index counts versus canonical counts: skills **236/244**, Super Souls **137/151**, equipment **125/125**, characters **247/247**, DLC **86/86**, farming **7/7**.
+- [x] Audited Super Soul acquisition projection: **80 PQ records / 122 references**, 108 exact canonical overlaps, 14 research-only pairs, 43 canonical pairs absent, with 25 absent within PQ41-186 scope.
+- [x] Preserved canonical data as source of truth; research-only acquisition pairs were not promoted.
+- [ ] Exact next task: audit remaining PQ reverse-index artifacts for PQ81-186 and other domain-specific acquisition projections using exact relationship-pair comparison.
