@@ -11085,7 +11085,7 @@
       "source_quest": "Future Gohan mentor training — Lesson 1.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current skill reference confirms Future Gohan training as the acquisition endpoint, 100 Ki Strike Super classification, and a short-range six-hit hard-knockdown sequence. Exact damage/frame data remains outside this bounded pass.",
+      "notes": "2026-09-22 provenance refresh: Future Gohan training is confirmed as the acquisition endpoint; current skill evidence confirms 100 Ki Strike Super classification and a short-range six-hit hard-knockdown sequence.",
       "id": "skill-sonic-rush",
       "source_mentor": [
         "mentor-future-gohan"
@@ -11113,7 +11113,7 @@
       "source_quest": "Piccolo mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: Piccolo Lesson 3 remains the deterministic acquisition endpoint. Current skill evidence confirms the 300-Ki Ultimate/Ki Blast identity; detailed combat timing/damage remains deferred.",
+      "notes": "2026-09-22 provenance refresh: Piccolo Lesson 3 remains the deterministic acquisition endpoint; current skill evidence confirms the 300-Ki Ultimate/Ki Blast identity.",
       "id": "skill-special-beam-cannon",
       "source_mentor": [
         "mentor-piccolo"
@@ -11148,7 +11148,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 162,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: PQ162 is the canonical acquisition endpoint for the Hero of Justice Pack 2 skill. Current references confirm 500 Ki Ultimate/Ki Blast classification and the chargeable/lower-health-stronger behavior; reward-tier sources conflict (Basic Reward versus Ultimate Finish presentation), so the conflict remains explicit.",
+      "notes": "2026-09-22 provenance refresh: PQ162 is the canonical acquisition endpoint; current references confirm 500 Ki Ultimate/Ki Blast classification and chargeable/lower-health-stronger behavior. Basic Reward versus Ultimate Finish reward-tier sources remain in conflict.",
       "id": "skill-special-beam-cannon-beast",
       "source_parallel_quests": [
         162
@@ -11175,7 +11175,7 @@
       "source_quest": "God of Destruction Beerus mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: Beerus mentor training remains the deterministic acquisition endpoint. Current skill evidence confirms 300 Ki Ultimate/Ki Blast classification, large projectile behavior, tracking, and a 13-hit profile; unsupported frame/damage values remain deferred.",
+      "notes": "2026-09-22 provenance refresh: Beerus mentor training remains the deterministic acquisition endpoint; current skill evidence confirms 300 Ki Ultimate/Ki Blast classification, large projectile behavior, tracking, and a 13-hit profile.",
       "id": "skill-sphere-of-destruction",
       "source_mentor": [
         "mentor-beerus"
@@ -11203,7 +11203,7 @@
       "source_quest": "Yamcha mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: Yamcha Lesson 3 is confirmed as the acquisition endpoint. Current evidence confirms Spirit Ball as Yamcha's Ultimate/Ki Blast skill; detailed combat timing/damage remains deferred.",
+      "notes": "2026-09-22 provenance refresh: Yamcha Lesson 3 is confirmed as the acquisition endpoint; current evidence confirms Spirit Ball as Yamcha's Ultimate/Ki Blast skill.",
       "id": "skill-spirit-ball",
       "source_mentor": [
         "mentor-yamcha"
@@ -11237,7 +11237,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 129,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: PQ129 is confirmed as the acquisition endpoint. Current evidence confirms 100 Ki Ki Blast Super classification, tracking projectile behavior, a follow-up barrage, and guard-cancellable follow-up; exact damage/frame values remain deferred.",
+      "notes": "2026-09-22 provenance refresh: PQ129 is confirmed as the acquisition endpoint; current evidence confirms 100 Ki Ki Blast Super classification, tracking projectile behavior, follow-up barrage, and guard-cancellable follow-up.",
       "id": "skill-spirit-blaster",
       "source_parallel_quests": [
         129
@@ -11266,7 +11266,7 @@
       "mechanics_notes": "Goku mentor Initiation Test 100-Ki Ki Blast Super; launches a large Spirit Bomb projectile.",
       "source_quest": "Goku mentor training",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: Goku's Initiation Test is confirmed as the acquisition endpoint. Current instructor evidence confirms Spirit Bomb as a 100-Ki Ki Blast Super; no Ultimate Finish gate is involved.",
+      "notes": "2026-09-22 provenance refresh: Goku's Initiation Test is confirmed as the acquisition endpoint; current instructor evidence confirms Spirit Bomb as a 100-Ki Ki Blast Super with no Ultimate Finish gate.",
       "id": "skill-spirit-bomb",
       "source_mentor": [
         "mentor-goku"
@@ -11293,7 +11293,7 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-22 provenance refresh: Skill Shop acquisition is confirmed. Current evidence confirms 0-Ki Other Super classification and a short defensive window that cancels incoming Ki attacks; exact timing remains deferred.",
+      "notes": "2026-09-22 provenance refresh: Skill Shop acquisition is confirmed; current evidence confirms 0-Ki Other Super classification and a short defensive window that cancels incoming Ki attacks.",
       "id": "skill-spirit-boost"
     },
     {
@@ -11323,7 +11323,7 @@
       "race_restriction": "All CaC races",
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: PQ25 is confirmed as the acquisition endpoint. Current evidence confirms a 200-Stamina Strike Evasive usable by CaCs, with a close-range blue explosion that knocks opponents away; exact frame/damage data remains deferred.",
+      "notes": "2026-09-22 provenance refresh: PQ25 is confirmed as the acquisition endpoint; current evidence confirms a 200-Stamina Strike Evasive usable by CaCs, with a close-range blue explosion that knocks opponents away.",
       "id": "skill-spirit-explosion",
       "source_parallel_quests": [
         25
@@ -11355,7 +11355,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 151,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: PQ151 is confirmed as the acquisition endpoint. Current evidence confirms 100-Ki Ki Blast Super classification and the slower single-shot spirit-energy attack; the maintained Ultimate Finish bonus-roll condition is preserved without adding unsupported prerequisites.",
+      "notes": "2026-09-22 provenance refresh: PQ151 is confirmed as the acquisition endpoint; current evidence confirms 100-Ki Ki Blast Super classification and the slower single-shot spirit-energy attack; the maintained Ultimate Finish bonus-roll condition is preserved.",
       "id": "skill-spirit-pulse",
       "source_parallel_quests": [
         151
