@@ -2284,3 +2284,15 @@
 - [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; no CI success claimed.
 - [x] Commits: canonical d01a8d6d03aaa1ab9f380e0a4608a17c9bbe43fd; index be8e1b94a491986ae8426b18e9099615161925b9; audit 4d9d8ba8edc59c8f3b1f8838b4afff051336d5f7; cross-domain registration 2534b53890e6f29564e059bd744be3966c91d2a9.
 - [ ] Exact next batch: **Pressure Sign, Pretty Cannon, Pretty Charge, Psychic Move, Psycho Barrier, Punisher Guard, Punisher Shield, Pure Progress, Purification, Quick Sleep**; recompute the live stale census before editing and continue with the same bounded provenance policy.
+
+
+### 2026-09-22 cycle update — Pressure Sign through Quick Sleep provenance batch
+- [x] Fresh live stale census before editing: 452 canonical skills / 452 index records / 0 duplicate IDs / 128 stale; exact first ten stale records were **Pressure Sign, Pretty Cannon, Pretty Charge, Psychic Move, Psycho Barrier, Punisher Guard, Punisher Shield, Pure Progress, Purification, Quick Sleep**.
+- [x] Refreshed all ten canonical records in docs/data/skills.json and synchronized corresponding index projections in docs/data/skills-index.json to last_verified: 2026-09-22.
+- [x] Expanded bounded mechanics/provenance for Skill Shop, PQ73/PQ133/PQ129, Bojack/Pan mentor routes, Hercule's House/Majin Buu's House Time Rifts, and character-only Pure Progress.
+- [x] Preserved important scope distinctions: **Pretty Charge** and **Pure Progress** remain character-only rather than being converted into CaC skills; **Purification** and **Quick Sleep** retain their Majin-only restrictions.
+- [x] Added and registered docs/data/skill-pressure-sign-through-quick-sleep-provenance-audit-2026-09-22.json.
+- [x] Final validation: 452/452 canonical/index, 0 duplicate IDs, ID sets match, 10/10 selected records current, 118 stale canonical records remain.
+- [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; no CI success claimed.
+- [x] Commits: canonical be2f1223d93a61f3cbbe5c2862de97dab7029e49; index 7c391ca17232905342f8111c3213de7e16186394; audit fb60a310bce67fd2b9f53078be71014f6cadd375; cross-domain registration fa3f4e185707e852b2b2ac8a3a34a75b4191c186.
+- [ ] Exact next batch: **Raid Blast, Rakshasa's Claw, Ray Blast, Rebellion Spear, Recoome Kick, Remote Serious Bomb, Revenge Death Ball, Revenge Final Flash, Reverse Launcher, Reverse Mabakusenko**; recompute the live stale census before editing and continue with the same bounded provenance policy.
