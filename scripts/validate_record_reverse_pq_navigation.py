@@ -25,6 +25,15 @@ def pq_tokens(value):
 
 def audit(domain, record_file, html, relationship, structured_field):
     records = load(record_file)["records"]
+    name_counts = {}
+    malformed_structured_fields = []
+    for r in records:
+        name = r.get("name")
+        name_counts[name] = name_counts.get(name, 0) + 1
+        value = r.get(structured_field)
+        if value is not None and not isinstance(value, list):
+            malformed_structured_fields.append({"id": r.get("id"), "name": name, "type": type(value).__name__})
+    duplicate_record_names = sorted(name for name, count in name_counts.items() if count > 1)
     by_name = {r["name"]: r for r in records}
     edges = [e for e in load("pq-reward-relationships.json")["verified_relationships"]
              if e.get("relationship") == relationship]
@@ -67,7 +76,9 @@ def audit(domain, record_file, html, relationship, structured_field):
                 structured_pair_keys.add(pair)
                 structured_pair_list.append(pair)
 
-    canonical_pair_keys = {(e.get("target"), e.get("pq")) for e in edges}
+    canonical_pair_list = [(e.get("target"), e.get("pq")) for e in edges]
+    canonical_pair_keys = set(canonical_pair_list)
+    duplicate_canonical_pairs = len(canonical_pair_list) - len(canonical_pair_keys)
     canonical_target_pairs = {(name, pq) for name, pqs in canonical.items() for pq in pqs}
     reverse_pair_missing = sorted(canonical_pair_keys - structured_pair_keys)
     reverse_pair_extra = sorted((structured_pair_keys & {(name, pq) for name in canonical_names for pq in [f"pq-{i:03d}" for i in range(1, 187)]}) - canonical_pair_keys)
@@ -109,6 +120,8 @@ def audit(domain, record_file, html, relationship, structured_field):
     h = (ROOT / "docs" / html).read_text(encoding="utf-8")
     checks = {
         "target_records_resolve": not unresolved,
+        "unique_record_names": not duplicate_record_names,
+        "structured_field_is_list": not malformed_structured_fields,
         "structured_pq_sets_match": not structured_mismatches,
         "relationship_loaded": "pq-reward-relationships.json" in h,
         "relationship_filter": relationship in h,
@@ -117,6 +130,7 @@ def audit(domain, record_file, html, relationship, structured_field):
         "reverse_pair_parity": not reverse_pair_missing and not reverse_pair_extra,
         "structured_pq_ids_valid": not invalid_structured_pq_ids,
         "duplicate_structured_pairs": len(structured_pair_list) == len(set(structured_pair_list)),
+        "duplicate_canonical_pairs": duplicate_canonical_pairs == 0,
     }
     return {
         "record_count": len(records),
@@ -133,6 +147,9 @@ def audit(domain, record_file, html, relationship, structured_field):
         "reverse_pair_missing": reverse_pair_missing,
         "reverse_pair_extra": reverse_pair_extra,
         "invalid_structured_pq_ids": invalid_structured_pq_ids,
+        "malformed_structured_fields": malformed_structured_fields,
+        "duplicate_record_names": duplicate_record_names,
+        "duplicate_canonical_pairs": duplicate_canonical_pairs,
         "duplicate_structured_pairs": len(structured_pair_list) - len(set(structured_pair_list)),
         "checks": checks,
         "status": "clean" if all(checks.values()) else "unresolved",
