@@ -7897,11 +7897,12 @@
       "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Kairos_Cannon",
-        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
+        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc",
+        "https://dragonball.fandom.com/wiki/Kairos_Cannon"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Kairos Cannon as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint.",
+      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Kairos Cannon as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-21 provenance strengthening: independent Dragon Ball Wiki coverage corroborates Kairos Cannon as Chronoa/Supreme Kai of Time's Xenoverse 2 skill and its Conton City Tournament acquisition; the source is retained as corroboration without changing the repository's Match 2 wording.",
       "id": "skill-kairos-cannon"
     },
     {
