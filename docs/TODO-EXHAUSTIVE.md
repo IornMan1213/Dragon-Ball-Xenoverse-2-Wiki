@@ -23,3 +23,11 @@
 - [x] Added the Steam source to canonical and index records and refreshed `last_verified` to **2026-09-21**.
 - [x] Preserved Legendary Pack 1 provenance and did not infer a drop probability.
 - [ ] Exact next task: recompute the live two-source census and continue the next deterministic low-source record after Thunder Flash.
+
+
+### 2026-09-22 — Final six exactly-two-source skill provenance batch
+- [x] Recomputed the live census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 6 exactly-two-source records**.
+- [x] Strengthened **Time Bullet, Timespace Impact, Ultra Instinct, Unrelenting Barrage, Venus Fist, and Victory Rush** with independent third-source evidence.
+- [x] Synchronized canonical and index source arrays and refreshed `last_verified` to **2026-09-22**.
+- [x] Preserved existing acquisition, DLC/version, Ultimate Finish, and uncertainty semantics; no unsupported drop rate or gate was added.
+- [ ] Exact next task: recompute the live skill census and identify the highest-priority structural gap after the exactly-two-source queue reaches zero; prefer relationship/projection drift or a large missing-field cohort over further provenance-only edits.
