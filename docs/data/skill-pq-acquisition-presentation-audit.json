@@ -12,7 +12,10 @@
     "docs/Farming-Hub.md",
     "docs/Farming-Routes.md",
     "docs/data/parallel-quest-skill-acquisition-early-base-game.json",
-    "docs/data/parallel-quest-skill-acquisition-model.json"
+    "docs/data/parallel-quest-skill-acquisition-model.json",
+    "docs/data/skills.schema.json",
+    "scripts/build_skills_from_research.py",
+    "docs/data/skills-index.json"
   ],
   "findings": [
     {
@@ -62,6 +65,24 @@
       "status": "repaired",
       "issue": "Kaioken example encoded a definitive Ultimate-Finish/conditional route despite the evidence layer remaining unresolved.",
       "resolution": "Example now demonstrates unresolved route/finish/guarantee semantics; model rule explicitly prevents unresolved trigger notes from being promoted to definitive fields."
+    },
+    {
+      "file": "docs/data/skills.schema.json",
+      "status": "repaired",
+      "issue": "Canonical skill records already carried source_parallel_quests cross-domain data, but the canonical schema rejected that field because additionalProperties=false and the property was undeclared.",
+      "resolution": "Declared source_parallel_quests as an array of canonical PQ identifiers with an explicit authority-boundary description."
+    },
+    {
+      "file": "scripts/build_skills_from_research.py",
+      "status": "repaired",
+      "issue": "The deterministic skills-index projection omitted source_parallel_quests even though the repository contract and canonical skill records use it for PQ cross-navigation.",
+      "resolution": "Added source_parallel_quests to INDEX_PROJECTION_FIELDS so future index generation preserves the canonical PQ crosslink."
+    },
+    {
+      "file": "docs/data/skills-index.json",
+      "status": "repaired",
+      "issue": "The index contained all 452 canonical skill identities but projected zero of the 239 canonical source_parallel_quests fields.",
+      "resolution": "Synchronized all 239 available canonical skill PQ crosslinks into the index; projection now matches canonical data across all 452 records."
     }
   ],
   "canonical_relationship_baseline": {
