@@ -1257,3 +1257,9 @@
 - PQ to Equipment: 124 resolved forward edges / 122 unique targets / 1 unresolved endpoint.
 - The remaining equipment endpoint is the PQ 002 Flying Nimbus!! category conflict. It is intentionally unresolved rather than inventing a second canonical equipment record, because the same canonical name is already represented as a Super Soul.
 - Canonical data remains the source of truth; verification status is metadata only.
+
+
+## 2026-09-22 — PQ 002 Flying Nimbus classification resolved
+- `Flying Nimbus!!` is maintained as a canonical **Super Soul** and is no longer treated as a PQ equipment reward.
+- PQ→equipment report: **124 forward edges / 122 unique targets / 0 unresolved endpoints**.
+- No equipment canonical record was deleted; the prior unresolved endpoint was a relationship-layer classification error.
