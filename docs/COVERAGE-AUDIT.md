@@ -1241,3 +1241,10 @@
 - Added the documented validator alias `giant cluster → gigantic cluster`; canonical records were not renamed.
 - Regenerated the relationship report with **244 unique forward edges, 239 reverse skill endpoints, 0 unresolved, 0 orphaned**.
 - The alias layer now explicitly records both naming variants; no acquisition probability or reward gating was inferred.
+
+
+## 2026-09-22 — Canonical source-of-truth policy
+- Canonical databases are authoritative for identity, field values, relationships, and projections.
+- `verification_status` is evidence metadata only; a verified/secondary-verified source cannot override canonical data.
+- External research is input/evidence and must be reconciled into canonical records before downstream indexes are updated.
+- Current Super Soul endpoint audit: **160 canonical records, 0 duplicate IDs, 0 dangling relationship endpoints**.
