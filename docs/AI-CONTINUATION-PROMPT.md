@@ -1566,3 +1566,15 @@
 - [ ] CI: no successful GitHub Actions status exposed for the direct commits; CI success not claimed.
 - [x] Commits: `f93e27f053bafab4ce33bd642ed657c85ee5fac6`, `0f6dbd85116e8678423b68f7e91b7be25b398bf3`.
 - [ ] Exact next batch: inspect the next registered consumer after `canonical_endpoint_navigation`, prioritizing a validator with remaining endpoint/count-only or one-way navigation checks; preserve explicit conflicts and do not promote source-layer aliases into canonical relationships.
+
+
+### 2026-09-22 cycle update — Super Soul partial acquisition-index structural hardening
+- [x] Audited registered `scripts/validate_super_soul_acquisition_index.py` and its partial PQ41-186 research projection.
+- [x] Hardened structural validation so duplicate PQ records, malformed/non-list Super Soul collections, and duplicate structured `(PQ,Super Soul)` pairs cannot be silently collapsed by set conversion.
+- [x] Live structural result: **80 index records / 80 unique PQs / 0 malformed records / 122 structured pairs / 122 unique pairs / 0 duplicates**.
+- [x] Canonical reconciliation remains informational: **133 canonical pairs / 122 indexed pairs / 120 exact overlap / 13 canonical-vs-index differences / 2 index-only differences**, including the existing 2 capitalization variants.
+- [x] Refreshed `docs/data/super-souls/pq-acquisition-index-reconciliation-audit.json` to schema **1.1.0**.
+- [x] No canonical Super Soul relationship or research-only acquisition claim was promoted or removed.
+- [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
+- [x] Commits: `79872970db423be16b2a909d86b32f70bf4f4f34`, `1a9a48cf3f4190e182615aeb4c075dd0dad8209c`.
+- [ ] Exact next batch: inspect the next registered cross-domain consumer after `super_soul_acquisition_index_reconciliation` for the same hidden set/scalar/list or one-way navigation failure; preserve research-vs-canonical boundaries.
