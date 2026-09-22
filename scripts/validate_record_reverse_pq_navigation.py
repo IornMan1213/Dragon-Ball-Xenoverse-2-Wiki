@@ -36,6 +36,8 @@ def audit(domain, record_file, html, relationship, structured_field):
     noncanonical_structured_pq_fields = []
     source_route_conflicts = []
     source_route_subsets = []
+    structured_pair_keys = set()
+    invalid_structured_pq_ids = []
 
     canonical_names = set(canonical)
     for record in records:
@@ -46,6 +48,22 @@ def audit(domain, record_file, html, relationship, structured_field):
                 "structured_pqs": sorted(set(record.get(structured_field) or [])),
                 "interpretation": "Preserved source/acquisition metadata; not a canonical PQ relationship target."
             })
+
+    for record in records:
+        for raw_pq in (record.get(structured_field) or []):
+            try:
+                pq_num = int(raw_pq)
+            except (TypeError, ValueError):
+                invalid_structured_pq_ids.append({"id": record.get("id"), "name": record.get("name"), "value": raw_pq})
+                continue
+            if not 1 <= pq_num <= 186:
+                invalid_structured_pq_ids.append({"id": record.get("id"), "name": record.get("name"), "value": raw_pq})
+            structured_pair_keys.add((record.get("name"), f"pq-{pq_num:03d}"))
+
+    canonical_pair_keys = {(e.get("target"), e.get("pq")) for e in edges}
+    canonical_target_pairs = {(name, pq) for name, pqs in canonical.items() for pq in pqs}
+    reverse_pair_missing = sorted(canonical_pair_keys - structured_pair_keys)
+    reverse_pair_extra = sorted((structured_pair_keys & {(name, pq) for name in canonical_names for pq in [f"pq-{i:03d}" for i in range(1, 187)]}) - canonical_pair_keys)
 
     for name, target_pqs in sorted(canonical.items()):
         record = by_name.get(name)
@@ -89,6 +107,8 @@ def audit(domain, record_file, html, relationship, structured_field):
         "relationship_filter": relationship in h,
         "pq_links_rendered": "Canonical PQs:" in h,
         "query_navigation": "URLSearchParams(location.search).get('q')" in h,
+        "reverse_pair_parity": not reverse_pair_missing and not reverse_pair_extra,
+        "structured_pq_ids_valid": not invalid_structured_pq_ids,
     }
     return {
         "record_count": len(records),
@@ -100,6 +120,11 @@ def audit(domain, record_file, html, relationship, structured_field):
         "noncanonical_structured_pq_fields": noncanonical_structured_pq_fields,
         "source_route_conflicts": source_route_conflicts,
         "source_route_subsets": source_route_subsets,
+        "canonical_pair_count": len(canonical_pair_keys),
+        "structured_pair_count_for_canonical_targets": len(structured_pair_keys & canonical_target_pairs),
+        "reverse_pair_missing": reverse_pair_missing,
+        "reverse_pair_extra": reverse_pair_extra,
+        "invalid_structured_pq_ids": invalid_structured_pq_ids,
         "checks": checks,
         "status": "clean" if all(checks.values()) else "unresolved",
     }
