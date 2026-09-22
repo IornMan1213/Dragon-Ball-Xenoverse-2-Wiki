@@ -4832,12 +4832,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Cooler (Final Form) mentor training — Initiation Test",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "source_quest": "Cooler (Final Form) mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current dedicated evidence confirms the 100-Ki Strike Super from Cooler training. It teleports behind the opponent for a restand punch; an additional input teleports to the opposite side for a kick/knockback. No unsupported acquisition gate is inferred.",
       "id": "skill-feint-crash",
       "source_mentor": [
         "mentor-cooler"
@@ -4860,13 +4860,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "pan mentor training",
       "mechanics_notes": "Ki Blast Super using a feint/teleport sequence before firing a Ki projectile; current dedicated evidence lists 100 Ki.",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Pan mentor training — Lesson 2.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current dedicated evidence confirms the 100-Ki Ki Blast Super from Pan's Lesson 2. It uses a teleport/feint sequence before firing the Ki projectile, with the input determining whether the user fires after the first movement or continues the feint.",
       "id": "skill-feint-shot",
       "source_mentor": [
         "mentor-pan"
@@ -4889,7 +4889,7 @@
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. The maintained PQ153 drop-condition data assigns this skill to an explicit Ultimate Finish bonus roll.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Fierce_Fist",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4898,7 +4898,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 159,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: current skill page explicitly identifies Parallel Quest 159 as the unlock source. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-20 provenance census: normalized source field to Parallel Quest 159 — \"Lights! Camera! Super Heroes!\", matching the maintained PQ research record.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 100-Ki Strike Super from PQ159's Ultimate Finish bonus pool. It charges through three stages, becomes unblockable at Stage 3, can maintain its charge while guarding, and negates weak Ki Blasts during the attack.",
       "id": "skill-fierce-fist",
       "source_parallel_quests": [
         159
@@ -4920,12 +4920,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Captain Ginyu mentor training — Lesson 1",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "source_quest": "Captain Ginyu mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 0 Ki used.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super from Captain Ginyu's Lesson 1. It grants temporary automatic guard for 12 seconds; the mentor endpoint is retained as the acquisition source.",
       "id": "skill-fighting-pose-a",
       "source_mentor": [
         "mentor-ginyu"
@@ -4947,13 +4947,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 13",
       "mechanics_notes": "Canonical identity, class, category, and acquisition source verified from dedicated skill evidence. Unsupported mechanics are intentionally deferred.",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": 13,
       "dlc_requirement": "Base Game",
       "acquisition_type": "parallel_quest",
-      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint. 2026-09-21 low-source provenance strengthening: Yhan Game independently lists Fighting Pose C as a Basic Reward for PQ13 — Namekian Dragon Balls, corroborating the existing acquisition endpoint.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super from PQ13. It removes abnormal statuses and prevents new abnormal statuses for 20 seconds.",
       "id": "skill-fighting-pose-c",
       "source_parallel_quests": [
         13
@@ -4978,7 +4978,7 @@
       "mechanics_notes": "Confirmed as 0-Ki PQ19 Power Up Super. The pose temporarily increases Basic Attack for 20 seconds; it is usable by CaCs. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Fighting_Pose_E",
@@ -4988,7 +4988,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 19,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 19 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 low-source provenance strengthening: a gameplay listing for PQ19 independently identifies Fighting Pose E as a Basic Reward, corroborating the existing PQ19 acquisition and reward-tier semantics.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super from PQ19 Basic Reward. It temporarily increases Basic Attack for 20 seconds; no Ultimate-Finish-only condition is inferred.",
       "id": "skill-fighting-pose-e",
       "source_parallel_quests": [
         19
@@ -5010,12 +5010,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Captain Ginyu mentor training — Initiation Test",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "source_quest": "Captain Ginyu mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 0 Ki used.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super from Captain Ginyu's Initiation Test. It grants Hyper Armor for 12 seconds and greatly reduces Stamina regeneration while active.",
       "id": "skill-fighting-pose-f",
       "source_mentor": [
         "mentor-ginyu"
@@ -5039,7 +5039,7 @@
       "mechanics_notes": "Corrected user attribution to Guldo. Confirmed as 0-Ki PQ61 Power Up Super that reduces damage taken for 20 seconds; usable by CaCs. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Fighting_Pose_H",
@@ -5048,7 +5048,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 61,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 61 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 low-source provenance strengthening: Yhan Game's maintained Parallel Quest guide independently lists Fighting Pose H as a Basic Reward for PQ61 — The Cell Games Continued, corroborating the existing PQ61 acquisition and Basic Reward semantics.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super from PQ61 Basic Reward. It reduces damage taken for 20 seconds; the existing correction identifying Guldo as the notable user is retained.",
       "id": "skill-fighting-pose-h",
       "source_parallel_quests": [
         61
@@ -5066,7 +5066,7 @@
       ],
       "ki_cost": 0,
       "mechanics_notes": "Confirmed as 0-Ki Skill Shop Power Up Super after The Ginyu Force Strikes. It grants Super Armor for 8 seconds; usable by all CaC races.",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "research_status": "enriched",
       "duration_seconds": 8,
       "ultimate_finish_required": false,
@@ -5078,7 +5078,7 @@
       "source_quest": "The Ginyu Force Strikes — Skill Shop unlock",
       "dlc_requirement": "Base Game",
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-20 source-quality refinement: the acquisition route is tied to the story mission \"The Ginyu Force Strikes\" and the subsequent Skill Shop listing; no Ultimate Finish-only condition is inferred. 2026-09-21 low-source provenance strengthening: an independent community discussion corroborates that Fighting Pose K is obtainable through the Skill Shop or a Parallel Quest. It does not independently establish the exact story-trigger wording, so the existing Skill Shop-after-The Ginyu Force Strikes endpoint remains unchanged.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super sold in the Skill Shop after The Ginyu Force Strikes. It grants Super Armor for 8 seconds; no Ultimate-Finish requirement is inferred.",
       "id": "skill-fighting-pose-k"
     },
     {
@@ -5098,7 +5098,7 @@
       "mechanics_notes": "Current dedicated evidence identifies Final Cannon as a 100-Ki Strike Super used by Trunks (Kid). It is a rush/short-range six-hit attack that launches the opponent. Current acquisition evidence states the Future Warrior can obtain it as a random reward from Kid Trunks in PQ52; no Ultimate Finish-only gate is established.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Final_Cannon",
@@ -5108,7 +5108,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 52,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance reconciliation: current maintained PQ reward evidence explicitly lists this skill in the Basic Reward set. Dedicated/current skill evidence confirms the corresponding PQ acquisition; exact individual reward probability remains unresolved, and no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 100-Ki Strike Super from PQ52's reward pool. It is a short-range rush attack with six hits that launches the opponent; the exact individual reward probability remains unresolved.",
       "id": "skill-final-cannon",
       "source_parallel_quests": [
         52
