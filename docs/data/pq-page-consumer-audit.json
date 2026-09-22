@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-22",
+  "scope": "PQ explorer page consumer structured reward-field parity",
+  "consumer": "docs/Parallel-Quests-All.html",
+  "record_layer": "docs/data/parallel-quests-record-layer.json",
+  "canonical_relationships": "docs/data/pq-reward-relationships.json",
+  "checks": {
+    "pq_records": 186,
+    "unique_pq_ids": 186,
+    "unique_pq_numbers": 186,
+    "pq_rewards_skill": {
+      "canonical_pairs": 244,
+      "structured_pairs": 244,
+      "missing": 0,
+      "extra": 0
+    },
+    "pq_rewards_super_soul": {
+      "canonical_pairs": 151,
+      "structured_pairs": 151,
+      "missing": 0,
+      "extra": 0
+    },
+    "pq_rewards_equipment": {
+      "canonical_pairs": 125,
+      "structured_pairs": 125,
+      "missing": 0,
+      "extra": 0
+    }
+  },
+  "repair": [
+    {
+      "pq": "pq-152",
+      "field": "equipment_rewards",
+      "added": "Android 17 (DB Super) Wig",
+      "reason": "exact canonical relationship target was present in general rewards but missing from structured equipment consumer field"
+    },
+    {
+      "pq": "pq-155",
+      "field": "equipment_rewards",
+      "added": "Gamma 2's Helmet",
+      "reason": "exact canonical relationship target was present in general rewards but missing from structured equipment consumer field"
+    }
+  ],
+  "evidence_boundary": "Only exact canonical reward-target fields were synchronized. Existing alias/granularity conflicts remain preserved in their dedicated audits; no targets were inferred or renamed.",
+  "validator": "scripts/validate_pq_page_consumers.py",
+  "status": "clean_after_deterministic_repair"
+}
