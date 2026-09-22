@@ -23,6 +23,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Equipment",
         "https://dbxenoverse.fandom.com/wiki/Accessories"
+      ],
+      "parallel_quest_ids": [
+        3
       ]
     },
     {
@@ -212,7 +215,10 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://xvguide.neocities.org/clothes"
       ],
-      "notes": "Source conflict is preserved: GameSkinny lists Goku Wig (Super Saiyan) under PQ18, while the maintained Steam all-PQ guide lists it as a PQ63 Basic Reward. Canonical identity remains acc-012; historical equip-088 is normalized to this accessory identity. Do not collapse the conflicting PQ routes without stronger version-specific evidence."
+      "notes": "Source conflict is preserved: GameSkinny lists Goku Wig (Super Saiyan) under PQ18, while the maintained Steam all-PQ guide lists it as a PQ63 Basic Reward. Canonical identity remains acc-012; historical equip-088 is normalized to this accessory identity. Do not collapse the conflicting PQ routes without stronger version-specific evidence.",
+      "parallel_quest_ids": [
+        63
+      ]
     },
     {
       "id": "acc-013",
@@ -466,6 +472,9 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxenoverse.fandom.com/wiki/Accessories"
+      ],
+      "parallel_quest_ids": [
+        36
       ]
     },
     {
@@ -981,7 +990,6 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "parallel_quest_ids": [
-        76,
         66
       ],
       "notes": "Canonical identity reconciled by exact inventory name. Independent evidence supports PQ76, while the legacy equipment endpoint records PQ66; the route conflict is preserved rather than silently discarded. Do not collapse the historical PQ66/PQ76 discrepancy without stronger version-specific evidence."
@@ -2414,7 +2422,7 @@
         "https://steamcommunity.com/app/454650/discussions/0/341537671990112469/"
       ],
       "parallel_quest_ids": [
-        66
+        76
       ],
       "notes": "Canonical acquisition corrected from PQ66 to PQ76 after independent corroboration from the maintained clothing guide, Steam discussion, GameFAQs, and the repository's XVGuide clothing source. PQ66 does not list this outfit in its basic rewards. Exact reward-slot/drop semantics remain unresolved."
     },
