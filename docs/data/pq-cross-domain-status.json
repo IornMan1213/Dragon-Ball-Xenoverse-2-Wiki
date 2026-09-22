@@ -14,7 +14,7 @@
   "current_edges": {
     "skill": 244,
     "super_soul": 151,
-    "equipment": 125,
+    "equipment": 124,
     "character": 247,
     "dlc": 86,
     "farming": 7
@@ -33,7 +33,7 @@
   "current_counts": {
     "skill": 244,
     "super_soul": 151,
-    "equipment": 125,
+    "equipment": 124,
     "character": 247,
     "dlc": 86,
     "farming": 7
@@ -284,11 +284,11 @@
     "date": "2026-09-22",
     "scope": "repository-wide PQ relationship endpoint census",
     "pq_scope": "pq-001 through pq-186",
-    "master_relationships": 860,
+    "master_relationships": 859,
     "master_counts": {
       "skill": 244,
       "super_soul": 151,
-      "equipment": 125,
+      "equipment": 124,
       "character": 247,
       "dlc": 86,
       "farming": 7
@@ -314,8 +314,8 @@
         "pq_set_mismatches": 0
       },
       "equipment": {
-        "forward_edges": 125,
-        "reverse_endpoints": 123,
+        "forward_edges": 124,
+        "reverse_endpoints": 122,
         "missing_reverse_endpoints": 0,
         "orphan_reverse_endpoints": 0,
         "pq_set_mismatches": 0
@@ -339,7 +339,7 @@
       "records": 174,
       "canonical_accessory_ids": 70
     },
-    "result": "clean",
+    "result": "clean_after_false_equipment_edge_removal",
     "interpretation": "Reverse endpoint counts are unique target endpoints, not relationship counts; each reverse endpoint was compared against the complete forward-derived PQ set. No orphan, missing, or mismatched reverse endpoint was found."
   },
   "target_normalization_audit_2026_09_22": {
@@ -348,15 +348,15 @@
     "preserved_distinction": "Super Pack 1-4 remain distinct source-backed DLC targets and are not collapsed into the broader Super Pass requirement.",
     "total_edges": 860
   },
-  "current_total_edges": 860,
+  "current_total_edges": 859,
   "current_projection_consistency_2026_09_22": {
     "date": "2026-09-22",
     "source_of_truth": "docs/data/pq-reward-relationships.json",
-    "current_total_edges": 860,
+    "current_total_edges": 859,
     "current_counts": {
       "skill": 244,
       "super_soul": 151,
-      "equipment": 125,
+      "equipment": 124,
       "character": 247,
       "dlc": 86,
       "farming": 7
@@ -364,7 +364,7 @@
     "reverse_projection_counts": {
       "skills": 239,
       "super_souls": 148,
-      "equipment": 123,
+      "equipment": 122,
       "accessories": 28
     },
     "reverse_projection_parity": {
@@ -416,7 +416,8 @@
       }
     },
     "result": "clean_current_projection_reports",
-    "note": "Accessory report is a dedicated 28-edge accessory projection of the 125 canonical equipment-domain edges; clothing/equipment edges remain represented by the equipment report. No source-of-truth changes were required."
+    "note": "Accessory report is a dedicated 28-edge accessory projection of the 125 canonical equipment-domain edges; clothing/equipment edges remain represented by the equipment report. No source-of-truth changes were required.",
+    "current_total_edges": 859
   },
   "current_reconciliation_artifact_census": {
     "unified_reward_reconciliation": {
@@ -462,6 +463,7 @@
       "status": "identity bridge; unresolved entries intentionally retained"
     },
     "result": "no_deterministic_current_count_drift_found_in_audited_reconciliation_artifacts",
-    "source_of_truth": "docs/data/pq-reward-relationships.json"
+    "source_of_truth": "docs/data/pq-reward-relationships.json",
+    "current_total_edges": 859
   }
 }
