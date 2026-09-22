@@ -1024,7 +1024,7 @@
     {
       "id": "skill-burst-blitz",
       "name": "Burst Blitz",
-      "class": "Super",
+      "class": "Ultimate",
       "subcategory": "Strike",
       "verification_status": "verified",
       "research_status": "enriched",
@@ -1036,15 +1036,18 @@
       ],
       "unlock_method": "Parallel Quest 178 — \"The Tireless Pursuit of Strength\" Ultimate Finish reward (50%).",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 verification: explicit current skill/PQ evidence establishes Parallel Quest 178 — The Tireless Pursuit of Strength. the Ultimate Finish requirement follows the maintained explicit drop-condition record. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish bonus slot route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
-      "mechanics_notes": "Confirmed as Goku (Mini)'s 300-Ki Strike Super from Future Saga Chapter 2 PQ178. It is a close-range rush strike; current Future Warrior evidence supports CaC usability. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Ultimate Finish reward-condition listing in the maintained PQ guide the explicit drop-condition record assigns this skill to the Ultimate Finish reward condition.",
+      "notes": "2026-09-22 provenance reconciliation: corrected the stale Super classification to Ultimate and retained the 300-Ki cost and Goku (Mini) identity from dedicated Xenoverse 2 documentation. PQ178 Basic Reward documentation conflicts with the repository's existing explicit Ultimate Finish/50% drop-condition record; the canonical UF flag is retained as historical projection context, but no new probability is inferred.",
+      "mechanics_notes": "Current dedicated Xenoverse 2 documentation identifies Burst Blitz as a 300-Ki Strike Ultimate used by Goku (Mini), with a 5-hit Power Pole rush ending in a kick. PQ178 is the acquisition source. The maintained PQ178 guide lists Burst Blitz under Basic Reward, while the repository's prior explicit drop-condition record assigns it to a 50% Ultimate Finish bonus slot; these reward-table representations conflict, so the conflict is preserved rather than asserting an unverified probability rule.",
       "source_quest": 178,
       "source_quest_or_shop": "Parallel Quest 178 — \"The Tireless Pursuit of Strength\"",
       "source_parallel_quests": [
         178
-      ]
+      ],
+      "character_source": "Goku (Mini)",
+      "ki_cost": 300,
+      "skill_description": "Burst Blitz is a Strike Ultimate Skill used by Goku (Mini)."
     },
     {
       "id": "skill-burst-charge",
