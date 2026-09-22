@@ -1436,7 +1436,7 @@
     {
       "id": "equip-061",
       "name": "King Vegeta (DB Super) Wig",
-      "category": "costume_or_accessory",
+      "category": "accessory",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-154 reward",
       "pq_sources": [
@@ -1445,15 +1445,19 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; legacy accessory endpoints remain historical where a canonical accessory ID exists.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
       "id": "equip-062",
       "name": "Gamma 2 Helmet",
-      "category": "costume_or_accessory",
+      "category": "accessory",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-155 reward",
       "pq_sources": [
@@ -1462,15 +1466,19 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; legacy accessory endpoints remain historical where a canonical accessory ID exists.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
       "id": "equip-063",
       "name": "Gamma 1's Helmet",
-      "category": "costume_or_accessory",
+      "category": "accessory",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-156 reward",
       "pq_sources": [
@@ -1479,15 +1487,19 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; legacy accessory endpoints remain historical where a canonical accessory ID exists.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
       "id": "equip-064",
       "name": "Gamma 2's Clothes",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-158 reward",
       "pq_sources": [
@@ -1496,15 +1508,22 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; legacy accessory endpoints remain historical where a canonical accessory ID exists.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-065",
       "name": "Dr. Hedo Hood",
-      "category": "costume_or_accessory",
+      "category": "accessory",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-159 reward",
       "pq_sources": [
@@ -1513,15 +1532,19 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; legacy accessory endpoints remain historical where a canonical accessory ID exists.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
       "id": "equip-066",
       "name": "Red Ribbon Army Helmet",
-      "category": "costume_or_accessory",
+      "category": "accessory",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-160 reward",
       "pq_sources": [
@@ -1530,15 +1553,19 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; legacy accessory endpoints remain historical where a canonical accessory ID exists.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
       "id": "equip-067",
       "name": "Red Ribbon Soldier 94 Clothes",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-161 reward",
       "pq_sources": [
@@ -1547,15 +1574,22 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; legacy accessory endpoints remain historical where a canonical accessory ID exists.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-068",
       "name": "Dr. Hedo Suit",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-162 reward",
       "pq_sources": [
@@ -1564,15 +1598,22 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; legacy accessory endpoints remain historical where a canonical accessory ID exists.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-069",
       "name": "Gohan (Beast) Wig",
-      "category": "costume_or_accessory",
+      "category": "accessory",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-162 reward",
       "pq_sources": [
@@ -1581,15 +1622,19 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; legacy accessory endpoints remain historical where a canonical accessory ID exists.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
       "id": "equip-070",
       "name": "Goku Wig",
-      "category": "costume_or_accessory",
+      "category": "accessory",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-025 reward",
       "pq_sources": [
@@ -1598,9 +1643,14 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; legacy accessory endpoints remain historical where a canonical accessory ID exists.",
       "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
