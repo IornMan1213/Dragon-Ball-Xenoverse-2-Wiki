@@ -5,435 +5,11 @@
   "canonical_target_records": 168,
   "forward_edges": [
     {
-      "pq_id": "pq-121",
-      "pq_number": 121,
-      "target_id": "equip-031",
-      "target_name": "Tuxedo",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-121",
-      "pq_number": 121,
-      "target_id": "equip-032",
-      "target_name": "Wedding Dress",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-123",
-      "pq_number": 123,
-      "target_id": "equip-033",
-      "target_name": "Arabian Costume",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-125",
-      "pq_number": 125,
-      "target_id": "equip-034",
-      "target_name": "Goku Wig (Ultra Instinct)",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-127",
-      "pq_number": 127,
-      "target_id": "equip-035",
-      "target_name": "Janemba Suit",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-127",
-      "pq_number": 127,
-      "target_id": "equip-036",
-      "target_name": "Janemba Head",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-130",
-      "pq_number": 130,
-      "target_id": "equip-037",
-      "target_name": "Broly (Full Power Super Saiyan)'s Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-131",
-      "pq_number": 131,
-      "target_id": "equip-038",
-      "target_name": "SSGSS Gogeta's Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-132",
-      "pq_number": 132,
-      "target_id": "equip-039",
-      "target_name": "Broly Wig (Legendary Super Saiyan)",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-133",
-      "pq_number": 133,
-      "target_id": "equip-040",
-      "target_name": "Kakunsa's Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-133",
-      "pq_number": 133,
-      "target_id": "equip-041",
-      "target_name": "Kakunsa's Wig and Mask",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-133",
-      "pq_number": 133,
-      "target_id": "equip-042",
-      "target_name": "Kakunsa's Tail",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-135",
-      "pq_number": 135,
-      "target_id": "equip-043",
-      "target_name": "Rozie's Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-135",
-      "pq_number": 135,
-      "target_id": "equip-044",
-      "target_name": "Rozie's Hood and Goggles",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-139",
-      "pq_number": 139,
-      "target_id": "equip-045",
-      "target_name": "Android 21's Lab Uniform",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-139",
-      "pq_number": 139,
-      "target_id": "equip-046",
-      "target_name": "Universe 7 Baseball Uniform",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-139",
-      "pq_number": 139,
-      "target_id": "equip-047",
-      "target_name": "Universe 7 Baseball Cap",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-142",
-      "pq_number": 142,
-      "target_id": "equip-048",
-      "target_name": "Universe 6 Baseball Uniform",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-144",
-      "pq_number": 144,
-      "target_id": "equip-049",
-      "target_name": "Gine (DB Super)'s Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-144",
-      "pq_number": 144,
-      "target_id": "equip-050",
-      "target_name": "Gine (DB Super) Set",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-146",
-      "pq_number": 146,
-      "target_id": "equip-051",
-      "target_name": "Bardock (DB Super)'s Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-147",
-      "pq_number": 147,
-      "target_id": "equip-052",
-      "target_name": "Caulifla's Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-147",
-      "pq_number": 147,
-      "target_id": "equip-053",
-      "target_name": "Caulifla Wig",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-148",
-      "pq_number": 148,
-      "target_id": "equip-054",
-      "target_name": "Kale's Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-148",
-      "pq_number": 148,
-      "target_id": "equip-055",
-      "target_name": "Kale Wig",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-149",
-      "pq_number": 149,
-      "target_id": "equip-056",
-      "target_name": "Bulma (Kid)'s Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-149",
-      "pq_number": 149,
-      "target_id": "equip-057",
-      "target_name": "Bulma (Kid) Wig",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-152",
-      "pq_number": 152,
-      "target_id": "equip-058",
-      "target_name": "Android 17 (DB Super) Ranger Outfit",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-152",
-      "pq_number": 152,
-      "target_id": "equip-059",
-      "target_name": "Android 17 (DB Super) Ranger Wig",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-154",
-      "pq_number": 154,
-      "target_id": "equip-060",
-      "target_name": "King Vegeta (DB Super)'s Battle Suit",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-154",
-      "pq_number": 154,
-      "target_id": "equip-061",
-      "target_name": "King Vegeta (DB Super) Wig",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-155",
-      "pq_number": 155,
-      "target_id": "equip-062",
-      "target_name": "Gamma 2 Helmet",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-156",
-      "pq_number": 156,
-      "target_id": "equip-063",
-      "target_name": "Gamma 1's Helmet",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-158",
-      "pq_number": 158,
-      "target_id": "equip-064",
-      "target_name": "Gamma 2's Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-159",
-      "pq_number": 159,
-      "target_id": "equip-065",
-      "target_name": "Dr. Hedo Hood",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-160",
-      "pq_number": 160,
-      "target_id": "equip-066",
-      "target_name": "Red Ribbon Army Helmet",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-161",
-      "pq_number": 161,
-      "target_id": "equip-067",
-      "target_name": "Red Ribbon Soldier 94 Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-162",
-      "pq_number": 162,
-      "target_id": "equip-068",
-      "target_name": "Dr. Hedo Suit",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-162",
-      "pq_number": 162,
-      "target_id": "equip-069",
-      "target_name": "Gohan (Beast) Wig",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-021",
-      "pq_number": 21,
-      "target_id": "equip-022",
-      "target_name": "Battle Suit (Krillin)",
-      "status": "source_backed",
-      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-    },
-    {
-      "pq_id": "pq-022",
-      "pq_number": 22,
-      "target_id": "equip-020",
-      "target_name": "Battle Suit (Frieza Saga Vegeta)",
-      "status": "source_backed",
-      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-    },
-    {
-      "pq_id": "pq-025",
-      "pq_number": 25,
-      "target_id": "equip-070",
-      "target_name": "Goku Wig",
-      "status": "source_backed",
-      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-    },
-    {
-      "pq_id": "pq-027",
-      "pq_number": 27,
-      "target_id": "equip-071",
-      "target_name": "Dore's Scouter",
-      "status": "source_backed",
-      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-    },
-    {
-      "pq_id": "pq-028",
-      "pq_number": 28,
-      "target_id": "equip-021",
-      "target_name": "Battle Suit (Gohan)",
-      "status": "source_backed",
-      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-    },
-    {
-      "pq_id": "pq-029",
-      "pq_number": 29,
-      "target_id": "equip-008",
-      "target_name": "Android 18's Clothes (Vest & Pants)",
-      "status": "source_backed",
-      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-    },
-    {
-      "pq_id": "pq-030",
-      "pq_number": 30,
-      "target_id": "equip-072",
-      "target_name": "Hercule's Clothes",
-      "status": "source_backed",
-      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-    },
-    {
-      "pq_id": "pq-030",
-      "pq_number": 30,
-      "target_id": "equip-013",
-      "target_name": "Tien Shinhan's Gi",
-      "status": "source_backed",
-      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-    },
-    {
-      "pq_id": "pq-031",
-      "pq_number": 31,
-      "target_id": "equip-073",
-      "target_name": "Goku's Turtle Hermit Gi (No Character)",
-      "status": "source_backed",
-      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-    },
-    {
-      "pq_id": "pq-036",
-      "pq_number": 36,
-      "target_id": "acc-028",
-      "target_name": "Yamcha's Sword",
-      "status": "source_backed",
-      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-    },
-    {
-      "pq_id": "pq-037",
-      "pq_number": 37,
-      "target_id": "equip-075",
-      "target_name": "Cell's Suit (Perfect)",
-      "status": "source_backed",
-      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-    },
-    {
-      "pq_id": "pq-041",
-      "pq_number": 41,
-      "target_id": "equip-076",
-      "target_name": "Yamcha's Baseball Uniform",
-      "status": "source_backed",
-      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-    },
-    {
-      "pq_id": "pq-045",
-      "pq_number": 45,
-      "target_id": "equip-077",
-      "target_name": "Perfect Cell's Wings",
-      "status": "source_backed",
-      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-    },
-    {
-      "pq_id": "pq-059",
-      "pq_number": 59,
-      "target_id": "equip-078",
-      "target_name": "Vegito's Clothes",
-      "status": "source_backed",
-      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-    },
-    {
       "pq_id": "pq-002",
       "pq_number": 2,
       "target_id": "equip-079",
       "target_name": "Goku's Damaged Turtle Hermit Gi",
-      "status": "source_backed",
+      "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
@@ -441,7 +17,7 @@
       "pq_number": 3,
       "target_id": "equip-016",
       "target_name": "Demon Clothes (Piccolo, with Cape)",
-      "status": "source_backed",
+      "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
@@ -449,15 +25,15 @@
       "pq_number": 3,
       "target_id": "acc-001",
       "target_name": "Piccolo's Turban",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      "status": "canonical_backed",
+      "source": "https://dbxv2.fandom.com/wiki/Equipment"
     },
     {
       "pq_id": "pq-004",
       "pq_number": 4,
       "target_id": "equip-017",
       "target_name": "Demon Clothes (Gohan, Kid)",
-      "status": "source_backed",
+      "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
@@ -465,7 +41,7 @@
       "pq_number": 4,
       "target_id": "equip-001",
       "target_name": "Goku's Turtle Hermit Gi",
-      "status": "source_backed",
+      "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
@@ -473,7 +49,7 @@
       "pq_number": 5,
       "target_id": "equip-081",
       "target_name": "Four-Star Dragon Ball Hat",
-      "status": "source_backed",
+      "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
@@ -481,7 +57,7 @@
       "pq_number": 8,
       "target_id": "equip-082",
       "target_name": "Goku's Turtle Hermit Gi (King Kai)",
-      "status": "source_backed",
+      "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
@@ -489,479 +65,7 @@
       "pq_number": 9,
       "target_id": "equip-083",
       "target_name": "Chiaotzu's Hat (With Collar)",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-021",
-      "pq_number": 21,
-      "target_id": "equip-072",
-      "target_name": "Hercule's Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-021",
-      "pq_number": 21,
-      "target_id": "equip-013",
-      "target_name": "Tien Shinhan's Gi",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-049",
-      "pq_number": 49,
-      "target_id": "equip-084",
-      "target_name": "Piccolo's School Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-061",
-      "pq_number": 61,
-      "target_id": "equip-086",
-      "target_name": "Battle Suit (CC)",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-062",
-      "pq_number": 62,
-      "target_id": "equip-087",
-      "target_name": "Frieza's Suit (Final Form)",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-063",
-      "pq_number": 63,
-      "target_id": "acc-012",
-      "target_name": "Goku Wig (Super Saiyan)",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-065",
-      "pq_number": 65,
-      "target_id": "equip-089",
-      "target_name": "Gohan's Gi (Adult)",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-076",
-      "pq_number": 76,
-      "target_id": "equip-090",
-      "target_name": "Whis Symbol Gi",
-      "status": "source_backed",
-      "source": "https://xvguide.neocities.org/clothes"
-    },
-    {
-      "pq_id": "pq-066",
-      "pq_number": 66,
-      "target_id": "equip-091",
-      "target_name": "SSGSS Goku Wig",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-079",
-      "pq_number": 79,
-      "target_id": "equip-092",
-      "target_name": "Vegeta's Shirt",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-168",
-      "pq_number": 168,
-      "target_id": "equip-093",
-      "target_name": "Videl (DB Super) Wig",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-169",
-      "pq_number": 169,
-      "target_id": "equip-094",
-      "target_name": "Orange Piccolo's Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-170",
-      "pq_number": 170,
-      "target_id": "equip-095",
-      "target_name": "Videl (DB Super)'s Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-176",
-      "pq_number": 176,
-      "target_id": "equip-096",
-      "target_name": "Belmod's Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-178",
-      "pq_number": 178,
-      "target_id": "equip-097",
-      "target_name": "Goku (Mini)'s Gi",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-179",
-      "pq_number": 179,
-      "target_id": "equip-098",
-      "target_name": "SS4 Goku (DAIMA) Suit",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-179",
-      "pq_number": 179,
-      "target_id": "equip-099",
-      "target_name": "SS4 Goku (DAIMA) Wig & Tail",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-180",
-      "pq_number": 180,
-      "target_id": "equip-100",
-      "target_name": "SS3 Vegeta (DAIMA) Battle Suit",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-180",
-      "pq_number": 180,
-      "target_id": "equip-101",
-      "target_name": "SS3 Vegeta (DAIMA) Wig",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-181",
-      "pq_number": 181,
-      "target_id": "equip-102",
-      "target_name": "Glorio's Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-181",
-      "pq_number": 181,
-      "target_id": "equip-103",
-      "target_name": "Panzy's Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-181",
-      "pq_number": 181,
-      "target_id": "equip-104",
-      "target_name": "Glorio Wig",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-181",
-      "pq_number": 181,
-      "target_id": "equip-105",
-      "target_name": "Panzy Wig",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-182",
-      "pq_number": 182,
-      "target_id": "equip-106",
-      "target_name": "Golden Frieza Suit",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-182",
-      "pq_number": 182,
-      "target_id": "equip-107",
-      "target_name": "Golden Frieza Head",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-183",
-      "pq_number": 183,
-      "target_id": "equip-108",
-      "target_name": "Cheelai's Coat",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-183",
-      "pq_number": 183,
-      "target_id": "equip-109",
-      "target_name": "Broly Wig (Black Hair, Normal)",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-184",
-      "pq_number": 184,
-      "target_id": "equip-110",
-      "target_name": "Dragon Ball Balloon",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-185",
-      "pq_number": 185,
-      "target_id": "equip-111",
-      "target_name": "Goku (Ultra Supervillain Quelled)'s Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-185",
-      "pq_number": 185,
-      "target_id": "equip-112",
-      "target_name": "Goku (Ultra Supervillain Quelled) Wig",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-186",
-      "pq_number": 186,
-      "target_id": "equip-113",
-      "target_name": "Fu (Ultra Supervillain)'s Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-186",
-      "pq_number": 186,
-      "target_id": "equip-114",
-      "target_name": "Fu (Ultra Supervillain) Set",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-186",
-      "pq_number": 186,
-      "target_id": "equip-115",
-      "target_name": "Fu Set 2",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-092",
-      "pq_number": 92,
-      "target_id": "equip-012",
-      "target_name": "GT Goku's Gi",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-093",
-      "pq_number": 93,
-      "target_id": "equip-116",
-      "target_name": "Pan's Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-093",
-      "pq_number": 93,
-      "target_id": "equip-117",
-      "target_name": "Pan's Bandanna",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-095",
-      "pq_number": 95,
-      "target_id": "equip-118",
-      "target_name": "Super 17's Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-096",
-      "pq_number": 96,
-      "target_id": "equip-119",
-      "target_name": "GT Vegeta's Jacket",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-097",
-      "pq_number": 97,
-      "target_id": "equip-120",
-      "target_name": "Yamcha's Baseball Hat",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-098",
-      "pq_number": 98,
-      "target_id": "equip-003",
-      "target_name": "Lord Slug's Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-099",
-      "pq_number": 99,
-      "target_id": "equip-121",
-      "target_name": "Mr. Shape Up L",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-100",
-      "pq_number": 100,
-      "target_id": "equip-122",
-      "target_name": "Whis Symbol Battle Suit",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-100",
-      "pq_number": 100,
-      "target_id": "equip-123",
-      "target_name": "SSGSS Vegeta Wig",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-101",
-      "pq_number": 101,
-      "target_id": "equip-124",
-      "target_name": "Champa's Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-102",
-      "pq_number": 102,
-      "target_id": "equip-125",
-      "target_name": "Battle Suit (Cabba)",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-104",
-      "pq_number": 104,
-      "target_id": "equip-126",
-      "target_name": "Android 14's Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-105",
-      "pq_number": 105,
-      "target_id": "equip-127",
-      "target_name": "Android 13's Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-106",
-      "pq_number": 106,
-      "target_id": "equip-128",
-      "target_name": "Super Android 13's Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-107",
-      "pq_number": 107,
-      "target_id": "equip-129",
-      "target_name": "Future Mai's Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-108",
-      "pq_number": 108,
-      "target_id": "equip-130",
-      "target_name": "Goku Black's Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-109",
-      "pq_number": 109,
-      "target_id": "equip-131",
-      "target_name": "Zamasu's Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-110",
-      "pq_number": 110,
-      "target_id": "equip-132",
-      "target_name": "Super Saiyan 4 Suit (Goku)",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-110",
-      "pq_number": 110,
-      "target_id": "equip-133",
-      "target_name": "SS4 Wig & Tail (Goku)",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-111",
-      "pq_number": 111,
-      "target_id": "equip-134",
-      "target_name": "Resistance Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-111",
-      "pq_number": 111,
-      "target_id": "equip-135",
-      "target_name": "Resistance Helmet",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-114",
-      "pq_number": 114,
-      "target_id": "equip-136",
-      "target_name": "Pride Trooper Uniform",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-114",
-      "pq_number": 114,
-      "target_id": "equip-137",
-      "target_name": "Toppo's Moustache",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-115",
-      "pq_number": 115,
-      "target_id": "equip-138",
-      "target_name": "Ribrianne's Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-115",
-      "pq_number": 115,
-      "target_id": "equip-139",
-      "target_name": "Ribrianne's Hood",
-      "status": "source_backed",
+      "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
@@ -969,7 +73,7 @@
       "pq_number": 12,
       "target_id": "equip-028",
       "target_name": "Battle Suit (Turles)",
-      "status": "source_backed",
+      "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
@@ -977,7 +81,7 @@
       "pq_number": 13,
       "target_id": "equip-026",
       "target_name": "Battle Suit (Ginyu Force Black)",
-      "status": "source_backed",
+      "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
@@ -985,11 +89,1501 @@
       "pq_number": 14,
       "target_id": "equip-140",
       "target_name": "Goku's Turtle Hermit Gi (Go)",
-      "status": "source_backed",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-021",
+      "pq_number": 21,
+      "target_id": "equip-022",
+      "target_name": "Battle Suit (Krillin)",
+      "status": "canonical_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-021",
+      "pq_number": 21,
+      "target_id": "equip-072",
+      "target_name": "Hercule's Clothes",
+      "status": "canonical_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-021",
+      "pq_number": 21,
+      "target_id": "equip-013",
+      "target_name": "Tien Shinhan's Gi",
+      "status": "canonical_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-022",
+      "pq_number": 22,
+      "target_id": "equip-020",
+      "target_name": "Battle Suit (Frieza Saga Vegeta)",
+      "status": "canonical_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-025",
+      "pq_number": 25,
+      "target_id": "equip-070",
+      "target_name": "Goku Wig",
+      "status": "canonical_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-027",
+      "pq_number": 27,
+      "target_id": "equip-071",
+      "target_name": "Dore's Scouter",
+      "status": "canonical_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-028",
+      "pq_number": 28,
+      "target_id": "equip-021",
+      "target_name": "Battle Suit (Gohan)",
+      "status": "canonical_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-029",
+      "pq_number": 29,
+      "target_id": "equip-008",
+      "target_name": "Android 18's Clothes (Vest & Pants)",
+      "status": "canonical_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-030",
+      "pq_number": 30,
+      "target_id": "equip-072",
+      "target_name": "Hercule's Clothes",
+      "status": "canonical_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-030",
+      "pq_number": 30,
+      "target_id": "equip-013",
+      "target_name": "Tien Shinhan's Gi",
+      "status": "canonical_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-031",
+      "pq_number": 31,
+      "target_id": "equip-073",
+      "target_name": "Goku's Turtle Hermit Gi (No Character)",
+      "status": "canonical_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-036",
+      "pq_number": 36,
+      "target_id": "acc-028",
+      "target_name": "Yamcha's Sword",
+      "status": "canonical_backed",
+      "source": "https://dbxenoverse.fandom.com/wiki/Accessories"
+    },
+    {
+      "pq_id": "pq-037",
+      "pq_number": 37,
+      "target_id": "equip-075",
+      "target_name": "Cell's Suit (Perfect)",
+      "status": "canonical_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-041",
+      "pq_number": 41,
+      "target_id": "equip-076",
+      "target_name": "Yamcha's Baseball Uniform",
+      "status": "canonical_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-045",
+      "pq_number": 45,
+      "target_id": "equip-077",
+      "target_name": "Perfect Cell's Wings",
+      "status": "canonical_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-049",
+      "pq_number": 49,
+      "target_id": "equip-084",
+      "target_name": "Piccolo's School Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-059",
+      "pq_number": 59,
+      "target_id": "equip-078",
+      "target_name": "Vegito's Clothes",
+      "status": "canonical_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq_id": "pq-061",
+      "pq_number": 61,
+      "target_id": "equip-086",
+      "target_name": "Battle Suit (CC)",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-062",
+      "pq_number": 62,
+      "target_id": "equip-087",
+      "target_name": "Frieza's Suit (Final Form)",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-063",
+      "pq_number": 63,
+      "target_id": "acc-012",
+      "target_name": "Goku Wig (Super Saiyan)",
+      "status": "canonical_backed",
+      "source": "https://dbxenoverse.fandom.com/wiki/Accessories"
+    },
+    {
+      "pq_id": "pq-065",
+      "pq_number": 65,
+      "target_id": "equip-089",
+      "target_name": "Gohan's Gi (Adult)",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-066",
+      "pq_number": 66,
+      "target_id": "equip-091",
+      "target_name": "SSGSS Goku Wig",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-076",
+      "pq_number": 76,
+      "target_id": "equip-090",
+      "target_name": "Whis Symbol Gi",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-079",
+      "pq_number": 79,
+      "target_id": "equip-092",
+      "target_name": "Vegeta's Shirt",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-092",
+      "pq_number": 92,
+      "target_id": "equip-012",
+      "target_name": "GT Goku's Gi",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-093",
+      "pq_number": 93,
+      "target_id": "equip-116",
+      "target_name": "Pan's Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-093",
+      "pq_number": 93,
+      "target_id": "equip-117",
+      "target_name": "Pan's Bandanna",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-095",
+      "pq_number": 95,
+      "target_id": "equip-118",
+      "target_name": "Super 17's Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-096",
+      "pq_number": 96,
+      "target_id": "equip-119",
+      "target_name": "GT Vegeta's Jacket",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-097",
+      "pq_number": 97,
+      "target_id": "equip-120",
+      "target_name": "Yamcha's Baseball Hat",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-098",
+      "pq_number": 98,
+      "target_id": "equip-003",
+      "target_name": "Lord Slug's Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-099",
+      "pq_number": 99,
+      "target_id": "equip-121",
+      "target_name": "Mr. Shape Up L",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-100",
+      "pq_number": 100,
+      "target_id": "equip-122",
+      "target_name": "Whis Symbol Battle Suit",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-100",
+      "pq_number": 100,
+      "target_id": "equip-123",
+      "target_name": "SSGSS Vegeta Wig",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-101",
+      "pq_number": 101,
+      "target_id": "equip-124",
+      "target_name": "Champa's Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-102",
+      "pq_number": 102,
+      "target_id": "equip-125",
+      "target_name": "Battle Suit (Cabba)",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-104",
+      "pq_number": 104,
+      "target_id": "equip-126",
+      "target_name": "Android 14's Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-105",
+      "pq_number": 105,
+      "target_id": "equip-127",
+      "target_name": "Android 13's Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-106",
+      "pq_number": 106,
+      "target_id": "equip-128",
+      "target_name": "Super Android 13's Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-107",
+      "pq_number": 107,
+      "target_id": "equip-129",
+      "target_name": "Future Mai's Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-108",
+      "pq_number": 108,
+      "target_id": "equip-130",
+      "target_name": "Goku Black's Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-109",
+      "pq_number": 109,
+      "target_id": "equip-131",
+      "target_name": "Zamasu's Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-110",
+      "pq_number": 110,
+      "target_id": "equip-132",
+      "target_name": "Super Saiyan 4 Suit (Goku)",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-110",
+      "pq_number": 110,
+      "target_id": "equip-133",
+      "target_name": "SS4 Wig & Tail (Goku)",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-111",
+      "pq_number": 111,
+      "target_id": "equip-134",
+      "target_name": "Resistance Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-111",
+      "pq_number": 111,
+      "target_id": "equip-135",
+      "target_name": "Resistance Helmet",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-114",
+      "pq_number": 114,
+      "target_id": "equip-136",
+      "target_name": "Pride Trooper Uniform",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-114",
+      "pq_number": 114,
+      "target_id": "equip-137",
+      "target_name": "Toppo's Moustache",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-115",
+      "pq_number": 115,
+      "target_id": "equip-138",
+      "target_name": "Ribrianne's Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-115",
+      "pq_number": 115,
+      "target_id": "equip-139",
+      "target_name": "Ribrianne's Hood",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-121",
+      "pq_number": 121,
+      "target_id": "equip-031",
+      "target_name": "Tuxedo",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-121",
+      "pq_number": 121,
+      "target_id": "equip-032",
+      "target_name": "Wedding Dress",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-123",
+      "pq_number": 123,
+      "target_id": "equip-033",
+      "target_name": "Arabian Costume",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-125",
+      "pq_number": 125,
+      "target_id": "equip-034",
+      "target_name": "Goku Wig (Ultra Instinct)",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-127",
+      "pq_number": 127,
+      "target_id": "equip-035",
+      "target_name": "Janemba Suit",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-127",
+      "pq_number": 127,
+      "target_id": "equip-036",
+      "target_name": "Janemba Head",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-130",
+      "pq_number": 130,
+      "target_id": "equip-037",
+      "target_name": "Broly (Full Power Super Saiyan)'s Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-131",
+      "pq_number": 131,
+      "target_id": "equip-038",
+      "target_name": "SSGSS Gogeta's Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-132",
+      "pq_number": 132,
+      "target_id": "equip-039",
+      "target_name": "Broly Wig (Legendary Super Saiyan)",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-133",
+      "pq_number": 133,
+      "target_id": "equip-040",
+      "target_name": "Kakunsa's Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-133",
+      "pq_number": 133,
+      "target_id": "equip-041",
+      "target_name": "Kakunsa's Wig and Mask",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-133",
+      "pq_number": 133,
+      "target_id": "equip-042",
+      "target_name": "Kakunsa's Tail",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-135",
+      "pq_number": 135,
+      "target_id": "equip-043",
+      "target_name": "Rozie's Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-135",
+      "pq_number": 135,
+      "target_id": "equip-044",
+      "target_name": "Rozie's Hood and Goggles",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-139",
+      "pq_number": 139,
+      "target_id": "equip-045",
+      "target_name": "Android 21's Lab Uniform",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-139",
+      "pq_number": 139,
+      "target_id": "equip-046",
+      "target_name": "Universe 7 Baseball Uniform",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-139",
+      "pq_number": 139,
+      "target_id": "equip-047",
+      "target_name": "Universe 7 Baseball Cap",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-142",
+      "pq_number": 142,
+      "target_id": "equip-048",
+      "target_name": "Universe 6 Baseball Uniform",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-144",
+      "pq_number": 144,
+      "target_id": "equip-049",
+      "target_name": "Gine (DB Super)'s Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-144",
+      "pq_number": 144,
+      "target_id": "equip-050",
+      "target_name": "Gine (DB Super) Set",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-146",
+      "pq_number": 146,
+      "target_id": "equip-051",
+      "target_name": "Bardock (DB Super)'s Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-147",
+      "pq_number": 147,
+      "target_id": "equip-052",
+      "target_name": "Caulifla's Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-147",
+      "pq_number": 147,
+      "target_id": "equip-053",
+      "target_name": "Caulifla Wig",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-148",
+      "pq_number": 148,
+      "target_id": "equip-054",
+      "target_name": "Kale's Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-148",
+      "pq_number": 148,
+      "target_id": "equip-055",
+      "target_name": "Kale Wig",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-149",
+      "pq_number": 149,
+      "target_id": "equip-056",
+      "target_name": "Bulma (Kid)'s Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-149",
+      "pq_number": 149,
+      "target_id": "equip-057",
+      "target_name": "Bulma (Kid) Wig",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-152",
+      "pq_number": 152,
+      "target_id": "equip-058",
+      "target_name": "Android 17 (DB Super) Ranger Outfit",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-152",
+      "pq_number": 152,
+      "target_id": "equip-059",
+      "target_name": "Android 17 (DB Super) Ranger Wig",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-154",
+      "pq_number": 154,
+      "target_id": "equip-060",
+      "target_name": "King Vegeta (DB Super)'s Battle Suit",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-154",
+      "pq_number": 154,
+      "target_id": "equip-061",
+      "target_name": "King Vegeta (DB Super) Wig",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-155",
+      "pq_number": 155,
+      "target_id": "equip-062",
+      "target_name": "Gamma 2 Helmet",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-156",
+      "pq_number": 156,
+      "target_id": "equip-063",
+      "target_name": "Gamma 1's Helmet",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-158",
+      "pq_number": 158,
+      "target_id": "equip-064",
+      "target_name": "Gamma 2's Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-159",
+      "pq_number": 159,
+      "target_id": "equip-065",
+      "target_name": "Dr. Hedo Hood",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-160",
+      "pq_number": 160,
+      "target_id": "equip-066",
+      "target_name": "Red Ribbon Army Helmet",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-161",
+      "pq_number": 161,
+      "target_id": "equip-067",
+      "target_name": "Red Ribbon Soldier 94 Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-162",
+      "pq_number": 162,
+      "target_id": "equip-068",
+      "target_name": "Dr. Hedo Suit",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-162",
+      "pq_number": 162,
+      "target_id": "equip-069",
+      "target_name": "Gohan (Beast) Wig",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-168",
+      "pq_number": 168,
+      "target_id": "equip-093",
+      "target_name": "Videl (DB Super) Wig",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-169",
+      "pq_number": 169,
+      "target_id": "equip-094",
+      "target_name": "Orange Piccolo's Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-170",
+      "pq_number": 170,
+      "target_id": "equip-095",
+      "target_name": "Videl (DB Super)'s Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-176",
+      "pq_number": 176,
+      "target_id": "equip-096",
+      "target_name": "Belmod's Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-178",
+      "pq_number": 178,
+      "target_id": "equip-097",
+      "target_name": "Goku (Mini)'s Gi",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-179",
+      "pq_number": 179,
+      "target_id": "equip-098",
+      "target_name": "SS4 Goku (DAIMA) Suit",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-179",
+      "pq_number": 179,
+      "target_id": "equip-099",
+      "target_name": "SS4 Goku (DAIMA) Wig & Tail",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-180",
+      "pq_number": 180,
+      "target_id": "equip-100",
+      "target_name": "SS3 Vegeta (DAIMA) Battle Suit",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-180",
+      "pq_number": 180,
+      "target_id": "equip-101",
+      "target_name": "SS3 Vegeta (DAIMA) Wig",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-181",
+      "pq_number": 181,
+      "target_id": "equip-102",
+      "target_name": "Glorio's Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-181",
+      "pq_number": 181,
+      "target_id": "equip-103",
+      "target_name": "Panzy's Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-181",
+      "pq_number": 181,
+      "target_id": "equip-104",
+      "target_name": "Glorio Wig",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-181",
+      "pq_number": 181,
+      "target_id": "equip-105",
+      "target_name": "Panzy Wig",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-182",
+      "pq_number": 182,
+      "target_id": "equip-106",
+      "target_name": "Golden Frieza Suit",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-182",
+      "pq_number": 182,
+      "target_id": "equip-107",
+      "target_name": "Golden Frieza Head",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-183",
+      "pq_number": 183,
+      "target_id": "equip-108",
+      "target_name": "Cheelai's Coat",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-183",
+      "pq_number": 183,
+      "target_id": "equip-109",
+      "target_name": "Broly Wig (Black Hair, Normal)",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-184",
+      "pq_number": 184,
+      "target_id": "equip-110",
+      "target_name": "Dragon Ball Balloon",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-185",
+      "pq_number": 185,
+      "target_id": "equip-111",
+      "target_name": "Goku (Ultra Supervillain Quelled)'s Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-185",
+      "pq_number": 185,
+      "target_id": "equip-112",
+      "target_name": "Goku (Ultra Supervillain Quelled) Wig",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-186",
+      "pq_number": 186,
+      "target_id": "equip-113",
+      "target_name": "Fu (Ultra Supervillain)'s Clothes",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-186",
+      "pq_number": 186,
+      "target_id": "equip-114",
+      "target_name": "Fu (Ultra Supervillain) Set",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-186",
+      "pq_number": 186,
+      "target_id": "equip-115",
+      "target_name": "Fu Set 2",
+      "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     }
   ],
   "reverse_edges": [
+    {
+      "target_id": "equip-079",
+      "target_name": "Goku's Damaged Turtle Hermit Gi",
+      "pq_ids": [
+        "pq-002"
+      ],
+      "pq_numbers": [
+        2
+      ]
+    },
+    {
+      "target_id": "equip-016",
+      "target_name": "Demon Clothes (Piccolo, with Cape)",
+      "pq_ids": [
+        "pq-003"
+      ],
+      "pq_numbers": [
+        3
+      ]
+    },
+    {
+      "target_id": "acc-001",
+      "target_name": "Piccolo's Turban",
+      "pq_ids": [
+        "pq-003"
+      ],
+      "pq_numbers": [
+        3
+      ]
+    },
+    {
+      "target_id": "equip-017",
+      "target_name": "Demon Clothes (Gohan, Kid)",
+      "pq_ids": [
+        "pq-004"
+      ],
+      "pq_numbers": [
+        4
+      ]
+    },
+    {
+      "target_id": "equip-001",
+      "target_name": "Goku's Turtle Hermit Gi",
+      "pq_ids": [
+        "pq-004"
+      ],
+      "pq_numbers": [
+        4
+      ]
+    },
+    {
+      "target_id": "equip-081",
+      "target_name": "Four-Star Dragon Ball Hat",
+      "pq_ids": [
+        "pq-005"
+      ],
+      "pq_numbers": [
+        5
+      ]
+    },
+    {
+      "target_id": "equip-082",
+      "target_name": "Goku's Turtle Hermit Gi (King Kai)",
+      "pq_ids": [
+        "pq-008"
+      ],
+      "pq_numbers": [
+        8
+      ]
+    },
+    {
+      "target_id": "equip-083",
+      "target_name": "Chiaotzu's Hat (With Collar)",
+      "pq_ids": [
+        "pq-009"
+      ],
+      "pq_numbers": [
+        9
+      ]
+    },
+    {
+      "target_id": "equip-028",
+      "target_name": "Battle Suit (Turles)",
+      "pq_ids": [
+        "pq-012"
+      ],
+      "pq_numbers": [
+        12
+      ]
+    },
+    {
+      "target_id": "equip-026",
+      "target_name": "Battle Suit (Ginyu Force Black)",
+      "pq_ids": [
+        "pq-013"
+      ],
+      "pq_numbers": [
+        13
+      ]
+    },
+    {
+      "target_id": "equip-140",
+      "target_name": "Goku's Turtle Hermit Gi (Go)",
+      "pq_ids": [
+        "pq-014"
+      ],
+      "pq_numbers": [
+        14
+      ]
+    },
+    {
+      "target_id": "equip-022",
+      "target_name": "Battle Suit (Krillin)",
+      "pq_ids": [
+        "pq-021"
+      ],
+      "pq_numbers": [
+        21
+      ]
+    },
+    {
+      "target_id": "equip-072",
+      "target_name": "Hercule's Clothes",
+      "pq_ids": [
+        "pq-021",
+        "pq-030"
+      ],
+      "pq_numbers": [
+        21,
+        30
+      ]
+    },
+    {
+      "target_id": "equip-013",
+      "target_name": "Tien Shinhan's Gi",
+      "pq_ids": [
+        "pq-021",
+        "pq-030"
+      ],
+      "pq_numbers": [
+        21,
+        30
+      ]
+    },
+    {
+      "target_id": "equip-020",
+      "target_name": "Battle Suit (Frieza Saga Vegeta)",
+      "pq_ids": [
+        "pq-022"
+      ],
+      "pq_numbers": [
+        22
+      ]
+    },
+    {
+      "target_id": "equip-070",
+      "target_name": "Goku Wig",
+      "pq_ids": [
+        "pq-025"
+      ],
+      "pq_numbers": [
+        25
+      ]
+    },
+    {
+      "target_id": "equip-071",
+      "target_name": "Dore's Scouter",
+      "pq_ids": [
+        "pq-027"
+      ],
+      "pq_numbers": [
+        27
+      ]
+    },
+    {
+      "target_id": "equip-021",
+      "target_name": "Battle Suit (Gohan)",
+      "pq_ids": [
+        "pq-028"
+      ],
+      "pq_numbers": [
+        28
+      ]
+    },
+    {
+      "target_id": "equip-008",
+      "target_name": "Android 18's Clothes (Vest & Pants)",
+      "pq_ids": [
+        "pq-029"
+      ],
+      "pq_numbers": [
+        29
+      ]
+    },
+    {
+      "target_id": "equip-073",
+      "target_name": "Goku's Turtle Hermit Gi (No Character)",
+      "pq_ids": [
+        "pq-031"
+      ],
+      "pq_numbers": [
+        31
+      ]
+    },
+    {
+      "target_id": "acc-028",
+      "target_name": "Yamcha's Sword",
+      "pq_ids": [
+        "pq-036"
+      ],
+      "pq_numbers": [
+        36
+      ]
+    },
+    {
+      "target_id": "equip-075",
+      "target_name": "Cell's Suit (Perfect)",
+      "pq_ids": [
+        "pq-037"
+      ],
+      "pq_numbers": [
+        37
+      ]
+    },
+    {
+      "target_id": "equip-076",
+      "target_name": "Yamcha's Baseball Uniform",
+      "pq_ids": [
+        "pq-041"
+      ],
+      "pq_numbers": [
+        41
+      ]
+    },
+    {
+      "target_id": "equip-077",
+      "target_name": "Perfect Cell's Wings",
+      "pq_ids": [
+        "pq-045"
+      ],
+      "pq_numbers": [
+        45
+      ]
+    },
+    {
+      "target_id": "equip-084",
+      "target_name": "Piccolo's School Clothes",
+      "pq_ids": [
+        "pq-049"
+      ],
+      "pq_numbers": [
+        49
+      ]
+    },
+    {
+      "target_id": "equip-078",
+      "target_name": "Vegito's Clothes",
+      "pq_ids": [
+        "pq-059"
+      ],
+      "pq_numbers": [
+        59
+      ]
+    },
+    {
+      "target_id": "equip-086",
+      "target_name": "Battle Suit (CC)",
+      "pq_ids": [
+        "pq-061"
+      ],
+      "pq_numbers": [
+        61
+      ]
+    },
+    {
+      "target_id": "equip-087",
+      "target_name": "Frieza's Suit (Final Form)",
+      "pq_ids": [
+        "pq-062"
+      ],
+      "pq_numbers": [
+        62
+      ]
+    },
+    {
+      "target_id": "acc-012",
+      "target_name": "Goku Wig (Super Saiyan)",
+      "pq_ids": [
+        "pq-063"
+      ],
+      "pq_numbers": [
+        63
+      ]
+    },
+    {
+      "target_id": "equip-089",
+      "target_name": "Gohan's Gi (Adult)",
+      "pq_ids": [
+        "pq-065"
+      ],
+      "pq_numbers": [
+        65
+      ]
+    },
+    {
+      "target_id": "equip-091",
+      "target_name": "SSGSS Goku Wig",
+      "pq_ids": [
+        "pq-066"
+      ],
+      "pq_numbers": [
+        66
+      ]
+    },
+    {
+      "target_id": "equip-090",
+      "target_name": "Whis Symbol Gi",
+      "pq_ids": [
+        "pq-076"
+      ],
+      "pq_numbers": [
+        76
+      ]
+    },
+    {
+      "target_id": "equip-092",
+      "target_name": "Vegeta's Shirt",
+      "pq_ids": [
+        "pq-079"
+      ],
+      "pq_numbers": [
+        79
+      ]
+    },
+    {
+      "target_id": "equip-012",
+      "target_name": "GT Goku's Gi",
+      "pq_ids": [
+        "pq-092"
+      ],
+      "pq_numbers": [
+        92
+      ]
+    },
+    {
+      "target_id": "equip-116",
+      "target_name": "Pan's Clothes",
+      "pq_ids": [
+        "pq-093"
+      ],
+      "pq_numbers": [
+        93
+      ]
+    },
+    {
+      "target_id": "equip-117",
+      "target_name": "Pan's Bandanna",
+      "pq_ids": [
+        "pq-093"
+      ],
+      "pq_numbers": [
+        93
+      ]
+    },
+    {
+      "target_id": "equip-118",
+      "target_name": "Super 17's Clothes",
+      "pq_ids": [
+        "pq-095"
+      ],
+      "pq_numbers": [
+        95
+      ]
+    },
+    {
+      "target_id": "equip-119",
+      "target_name": "GT Vegeta's Jacket",
+      "pq_ids": [
+        "pq-096"
+      ],
+      "pq_numbers": [
+        96
+      ]
+    },
+    {
+      "target_id": "equip-120",
+      "target_name": "Yamcha's Baseball Hat",
+      "pq_ids": [
+        "pq-097"
+      ],
+      "pq_numbers": [
+        97
+      ]
+    },
+    {
+      "target_id": "equip-003",
+      "target_name": "Lord Slug's Clothes",
+      "pq_ids": [
+        "pq-098"
+      ],
+      "pq_numbers": [
+        98
+      ]
+    },
+    {
+      "target_id": "equip-121",
+      "target_name": "Mr. Shape Up L",
+      "pq_ids": [
+        "pq-099"
+      ],
+      "pq_numbers": [
+        99
+      ]
+    },
+    {
+      "target_id": "equip-122",
+      "target_name": "Whis Symbol Battle Suit",
+      "pq_ids": [
+        "pq-100"
+      ],
+      "pq_numbers": [
+        100
+      ]
+    },
+    {
+      "target_id": "equip-123",
+      "target_name": "SSGSS Vegeta Wig",
+      "pq_ids": [
+        "pq-100"
+      ],
+      "pq_numbers": [
+        100
+      ]
+    },
+    {
+      "target_id": "equip-124",
+      "target_name": "Champa's Clothes",
+      "pq_ids": [
+        "pq-101"
+      ],
+      "pq_numbers": [
+        101
+      ]
+    },
+    {
+      "target_id": "equip-125",
+      "target_name": "Battle Suit (Cabba)",
+      "pq_ids": [
+        "pq-102"
+      ],
+      "pq_numbers": [
+        102
+      ]
+    },
+    {
+      "target_id": "equip-126",
+      "target_name": "Android 14's Clothes",
+      "pq_ids": [
+        "pq-104"
+      ],
+      "pq_numbers": [
+        104
+      ]
+    },
+    {
+      "target_id": "equip-127",
+      "target_name": "Android 13's Clothes",
+      "pq_ids": [
+        "pq-105"
+      ],
+      "pq_numbers": [
+        105
+      ]
+    },
+    {
+      "target_id": "equip-128",
+      "target_name": "Super Android 13's Clothes",
+      "pq_ids": [
+        "pq-106"
+      ],
+      "pq_numbers": [
+        106
+      ]
+    },
+    {
+      "target_id": "equip-129",
+      "target_name": "Future Mai's Clothes",
+      "pq_ids": [
+        "pq-107"
+      ],
+      "pq_numbers": [
+        107
+      ]
+    },
+    {
+      "target_id": "equip-130",
+      "target_name": "Goku Black's Clothes",
+      "pq_ids": [
+        "pq-108"
+      ],
+      "pq_numbers": [
+        108
+      ]
+    },
+    {
+      "target_id": "equip-131",
+      "target_name": "Zamasu's Clothes",
+      "pq_ids": [
+        "pq-109"
+      ],
+      "pq_numbers": [
+        109
+      ]
+    },
+    {
+      "target_id": "equip-132",
+      "target_name": "Super Saiyan 4 Suit (Goku)",
+      "pq_ids": [
+        "pq-110"
+      ],
+      "pq_numbers": [
+        110
+      ]
+    },
+    {
+      "target_id": "equip-133",
+      "target_name": "SS4 Wig & Tail (Goku)",
+      "pq_ids": [
+        "pq-110"
+      ],
+      "pq_numbers": [
+        110
+      ]
+    },
+    {
+      "target_id": "equip-134",
+      "target_name": "Resistance Clothes",
+      "pq_ids": [
+        "pq-111"
+      ],
+      "pq_numbers": [
+        111
+      ]
+    },
+    {
+      "target_id": "equip-135",
+      "target_name": "Resistance Helmet",
+      "pq_ids": [
+        "pq-111"
+      ],
+      "pq_numbers": [
+        111
+      ]
+    },
+    {
+      "target_id": "equip-136",
+      "target_name": "Pride Trooper Uniform",
+      "pq_ids": [
+        "pq-114"
+      ],
+      "pq_numbers": [
+        114
+      ]
+    },
+    {
+      "target_id": "equip-137",
+      "target_name": "Toppo's Moustache",
+      "pq_ids": [
+        "pq-114"
+      ],
+      "pq_numbers": [
+        114
+      ]
+    },
+    {
+      "target_id": "equip-138",
+      "target_name": "Ribrianne's Clothes",
+      "pq_ids": [
+        "pq-115"
+      ],
+      "pq_numbers": [
+        115
+      ]
+    },
+    {
+      "target_id": "equip-139",
+      "target_name": "Ribrianne's Hood",
+      "pq_ids": [
+        "pq-115"
+      ],
+      "pq_numbers": [
+        115
+      ]
+    },
     {
       "target_id": "equip-031",
       "target_name": "Tuxedo",
@@ -1381,310 +1975,6 @@
       ]
     },
     {
-      "target_id": "equip-022",
-      "target_name": "Battle Suit (Krillin)",
-      "pq_ids": [
-        "pq-021"
-      ],
-      "pq_numbers": [
-        21
-      ]
-    },
-    {
-      "target_id": "equip-020",
-      "target_name": "Battle Suit (Frieza Saga Vegeta)",
-      "pq_ids": [
-        "pq-022"
-      ],
-      "pq_numbers": [
-        22
-      ]
-    },
-    {
-      "target_id": "equip-070",
-      "target_name": "Goku Wig",
-      "pq_ids": [
-        "pq-025"
-      ],
-      "pq_numbers": [
-        25
-      ]
-    },
-    {
-      "target_id": "equip-071",
-      "target_name": "Dore's Scouter",
-      "pq_ids": [
-        "pq-027"
-      ],
-      "pq_numbers": [
-        27
-      ]
-    },
-    {
-      "target_id": "equip-021",
-      "target_name": "Battle Suit (Gohan)",
-      "pq_ids": [
-        "pq-028"
-      ],
-      "pq_numbers": [
-        28
-      ]
-    },
-    {
-      "target_id": "equip-008",
-      "target_name": "Android 18's Clothes (Vest & Pants)",
-      "pq_ids": [
-        "pq-029"
-      ],
-      "pq_numbers": [
-        29
-      ]
-    },
-    {
-      "target_id": "equip-072",
-      "target_name": "Hercule's Clothes",
-      "pq_ids": [
-        "pq-030",
-        "pq-021"
-      ],
-      "pq_numbers": [
-        30,
-        21
-      ]
-    },
-    {
-      "target_id": "equip-013",
-      "target_name": "Tien Shinhan's Gi",
-      "pq_ids": [
-        "pq-030",
-        "pq-021"
-      ],
-      "pq_numbers": [
-        30,
-        21
-      ]
-    },
-    {
-      "target_id": "equip-073",
-      "target_name": "Goku's Turtle Hermit Gi (No Character)",
-      "pq_ids": [
-        "pq-031"
-      ],
-      "pq_numbers": [
-        31
-      ]
-    },
-    {
-      "target_id": "acc-028",
-      "target_name": "Yamcha's Sword",
-      "pq_ids": [
-        "pq-036"
-      ],
-      "pq_numbers": [
-        36
-      ]
-    },
-    {
-      "target_id": "equip-075",
-      "target_name": "Cell's Suit (Perfect)",
-      "pq_ids": [
-        "pq-037"
-      ],
-      "pq_numbers": [
-        37
-      ]
-    },
-    {
-      "target_id": "equip-076",
-      "target_name": "Yamcha's Baseball Uniform",
-      "pq_ids": [
-        "pq-041"
-      ],
-      "pq_numbers": [
-        41
-      ]
-    },
-    {
-      "target_id": "equip-077",
-      "target_name": "Perfect Cell's Wings",
-      "pq_ids": [
-        "pq-045"
-      ],
-      "pq_numbers": [
-        45
-      ]
-    },
-    {
-      "target_id": "equip-078",
-      "target_name": "Vegito's Clothes",
-      "pq_ids": [
-        "pq-059"
-      ],
-      "pq_numbers": [
-        59
-      ]
-    },
-    {
-      "target_id": "equip-079",
-      "target_name": "Goku's Damaged Turtle Hermit Gi",
-      "pq_ids": [
-        "pq-002"
-      ],
-      "pq_numbers": [
-        2
-      ]
-    },
-    {
-      "target_id": "equip-016",
-      "target_name": "Demon Clothes (Piccolo, with Cape)",
-      "pq_ids": [
-        "pq-003"
-      ],
-      "pq_numbers": [
-        3
-      ]
-    },
-    {
-      "target_id": "acc-001",
-      "target_name": "Piccolo's Turban",
-      "pq_ids": [
-        "pq-003"
-      ],
-      "pq_numbers": [
-        3
-      ]
-    },
-    {
-      "target_id": "equip-017",
-      "target_name": "Demon Clothes (Gohan, Kid)",
-      "pq_ids": [
-        "pq-004"
-      ],
-      "pq_numbers": [
-        4
-      ]
-    },
-    {
-      "target_id": "equip-001",
-      "target_name": "Goku's Turtle Hermit Gi",
-      "pq_ids": [
-        "pq-004"
-      ],
-      "pq_numbers": [
-        4
-      ]
-    },
-    {
-      "target_id": "equip-081",
-      "target_name": "Four-Star Dragon Ball Hat",
-      "pq_ids": [
-        "pq-005"
-      ],
-      "pq_numbers": [
-        5
-      ]
-    },
-    {
-      "target_id": "equip-082",
-      "target_name": "Goku's Turtle Hermit Gi (King Kai)",
-      "pq_ids": [
-        "pq-008"
-      ],
-      "pq_numbers": [
-        8
-      ]
-    },
-    {
-      "target_id": "equip-083",
-      "target_name": "Chiaotzu's Hat (With Collar)",
-      "pq_ids": [
-        "pq-009"
-      ],
-      "pq_numbers": [
-        9
-      ]
-    },
-    {
-      "target_id": "equip-084",
-      "target_name": "Piccolo's School Clothes",
-      "pq_ids": [
-        "pq-049"
-      ],
-      "pq_numbers": [
-        49
-      ]
-    },
-    {
-      "target_id": "equip-086",
-      "target_name": "Battle Suit (CC)",
-      "pq_ids": [
-        "pq-061"
-      ],
-      "pq_numbers": [
-        61
-      ]
-    },
-    {
-      "target_id": "equip-087",
-      "target_name": "Frieza's Suit (Final Form)",
-      "pq_ids": [
-        "pq-062"
-      ],
-      "pq_numbers": [
-        62
-      ]
-    },
-    {
-      "target_id": "acc-012",
-      "target_name": "Goku Wig (Super Saiyan)",
-      "pq_ids": [
-        "pq-063"
-      ],
-      "pq_numbers": [
-        63
-      ]
-    },
-    {
-      "target_id": "equip-089",
-      "target_name": "Gohan's Gi (Adult)",
-      "pq_ids": [
-        "pq-065"
-      ],
-      "pq_numbers": [
-        65
-      ]
-    },
-    {
-      "target_id": "equip-090",
-      "target_name": "Whis Symbol Gi",
-      "pq_ids": [
-        "pq-076"
-      ],
-      "pq_numbers": [
-        76
-      ]
-    },
-    {
-      "target_id": "equip-091",
-      "target_name": "SSGSS Goku Wig",
-      "pq_ids": [
-        "pq-066"
-      ],
-      "pq_numbers": [
-        66
-      ]
-    },
-    {
-      "target_id": "equip-092",
-      "target_name": "Vegeta's Shirt",
-      "pq_ids": [
-        "pq-079"
-      ],
-      "pq_numbers": [
-        79
-      ]
-    },
-    {
       "target_id": "equip-093",
       "target_name": "Videl (DB Super) Wig",
       "pq_ids": [
@@ -1913,296 +2203,6 @@
       "pq_numbers": [
         186
       ]
-    },
-    {
-      "target_id": "equip-012",
-      "target_name": "GT Goku's Gi",
-      "pq_ids": [
-        "pq-092"
-      ],
-      "pq_numbers": [
-        92
-      ]
-    },
-    {
-      "target_id": "equip-116",
-      "target_name": "Pan's Clothes",
-      "pq_ids": [
-        "pq-093"
-      ],
-      "pq_numbers": [
-        93
-      ]
-    },
-    {
-      "target_id": "equip-117",
-      "target_name": "Pan's Bandanna",
-      "pq_ids": [
-        "pq-093"
-      ],
-      "pq_numbers": [
-        93
-      ]
-    },
-    {
-      "target_id": "equip-118",
-      "target_name": "Super 17's Clothes",
-      "pq_ids": [
-        "pq-095"
-      ],
-      "pq_numbers": [
-        95
-      ]
-    },
-    {
-      "target_id": "equip-119",
-      "target_name": "GT Vegeta's Jacket",
-      "pq_ids": [
-        "pq-096"
-      ],
-      "pq_numbers": [
-        96
-      ]
-    },
-    {
-      "target_id": "equip-120",
-      "target_name": "Yamcha's Baseball Hat",
-      "pq_ids": [
-        "pq-097"
-      ],
-      "pq_numbers": [
-        97
-      ]
-    },
-    {
-      "target_id": "equip-003",
-      "target_name": "Lord Slug's Clothes",
-      "pq_ids": [
-        "pq-098"
-      ],
-      "pq_numbers": [
-        98
-      ]
-    },
-    {
-      "target_id": "equip-121",
-      "target_name": "Mr. Shape Up L",
-      "pq_ids": [
-        "pq-099"
-      ],
-      "pq_numbers": [
-        99
-      ]
-    },
-    {
-      "target_id": "equip-122",
-      "target_name": "Whis Symbol Battle Suit",
-      "pq_ids": [
-        "pq-100"
-      ],
-      "pq_numbers": [
-        100
-      ]
-    },
-    {
-      "target_id": "equip-123",
-      "target_name": "SSGSS Vegeta Wig",
-      "pq_ids": [
-        "pq-100"
-      ],
-      "pq_numbers": [
-        100
-      ]
-    },
-    {
-      "target_id": "equip-124",
-      "target_name": "Champa's Clothes",
-      "pq_ids": [
-        "pq-101"
-      ],
-      "pq_numbers": [
-        101
-      ]
-    },
-    {
-      "target_id": "equip-125",
-      "target_name": "Battle Suit (Cabba)",
-      "pq_ids": [
-        "pq-102"
-      ],
-      "pq_numbers": [
-        102
-      ]
-    },
-    {
-      "target_id": "equip-126",
-      "target_name": "Android 14's Clothes",
-      "pq_ids": [
-        "pq-104"
-      ],
-      "pq_numbers": [
-        104
-      ]
-    },
-    {
-      "target_id": "equip-127",
-      "target_name": "Android 13's Clothes",
-      "pq_ids": [
-        "pq-105"
-      ],
-      "pq_numbers": [
-        105
-      ]
-    },
-    {
-      "target_id": "equip-128",
-      "target_name": "Super Android 13's Clothes",
-      "pq_ids": [
-        "pq-106"
-      ],
-      "pq_numbers": [
-        106
-      ]
-    },
-    {
-      "target_id": "equip-129",
-      "target_name": "Future Mai's Clothes",
-      "pq_ids": [
-        "pq-107"
-      ],
-      "pq_numbers": [
-        107
-      ]
-    },
-    {
-      "target_id": "equip-130",
-      "target_name": "Goku Black's Clothes",
-      "pq_ids": [
-        "pq-108"
-      ],
-      "pq_numbers": [
-        108
-      ]
-    },
-    {
-      "target_id": "equip-131",
-      "target_name": "Zamasu's Clothes",
-      "pq_ids": [
-        "pq-109"
-      ],
-      "pq_numbers": [
-        109
-      ]
-    },
-    {
-      "target_id": "equip-132",
-      "target_name": "Super Saiyan 4 Suit (Goku)",
-      "pq_ids": [
-        "pq-110"
-      ],
-      "pq_numbers": [
-        110
-      ]
-    },
-    {
-      "target_id": "equip-133",
-      "target_name": "SS4 Wig & Tail (Goku)",
-      "pq_ids": [
-        "pq-110"
-      ],
-      "pq_numbers": [
-        110
-      ]
-    },
-    {
-      "target_id": "equip-134",
-      "target_name": "Resistance Clothes",
-      "pq_ids": [
-        "pq-111"
-      ],
-      "pq_numbers": [
-        111
-      ]
-    },
-    {
-      "target_id": "equip-135",
-      "target_name": "Resistance Helmet",
-      "pq_ids": [
-        "pq-111"
-      ],
-      "pq_numbers": [
-        111
-      ]
-    },
-    {
-      "target_id": "equip-136",
-      "target_name": "Pride Trooper Uniform",
-      "pq_ids": [
-        "pq-114"
-      ],
-      "pq_numbers": [
-        114
-      ]
-    },
-    {
-      "target_id": "equip-137",
-      "target_name": "Toppo's Moustache",
-      "pq_ids": [
-        "pq-114"
-      ],
-      "pq_numbers": [
-        114
-      ]
-    },
-    {
-      "target_id": "equip-138",
-      "target_name": "Ribrianne's Clothes",
-      "pq_ids": [
-        "pq-115"
-      ],
-      "pq_numbers": [
-        115
-      ]
-    },
-    {
-      "target_id": "equip-139",
-      "target_name": "Ribrianne's Hood",
-      "pq_ids": [
-        "pq-115"
-      ],
-      "pq_numbers": [
-        115
-      ]
-    },
-    {
-      "target_id": "equip-028",
-      "target_name": "Battle Suit (Turles)",
-      "pq_ids": [
-        "pq-012"
-      ],
-      "pq_numbers": [
-        12
-      ]
-    },
-    {
-      "target_id": "equip-026",
-      "target_name": "Battle Suit (Ginyu Force Black)",
-      "pq_ids": [
-        "pq-013"
-      ],
-      "pq_numbers": [
-        13
-      ]
-    },
-    {
-      "target_id": "equip-140",
-      "target_name": "Goku's Turtle Hermit Gi (Go)",
-      "pq_ids": [
-        "pq-014"
-      ],
-      "pq_numbers": [
-        14
-      ]
     }
   ],
   "unresolved_target_routes": [],
@@ -2214,13 +2214,11 @@
     "unique_pq_endpoints": 88,
     "unique_target_endpoints": 121,
     "unresolved_target_route_count": 0,
+    "unresolved_target_routes": 0,
     "broken_forward_endpoints": 0,
     "broken_reverse_endpoints": 0,
     "last_recomputed": "2026-09-22",
-    "unresolved_target_routes": 0,
-    "identity_note": "Canonical equipment identities are authoritative. Historical duplicate endpoints are normalized to canonical accessory IDs; no duplicate canonical identities are created.",
     "canonical_endpoint_parity": "pass",
-    "enrichment_batch": "equip-081..equip-090",
-    "enrichment_note": "Equipment 081-090 audit synchronized: equip-085 removed because it is a consumable capsule/material rather than equipment; equip-090 Whis Symbol Gi moved from PQ66 to PQ76. Historical equip-088 remains normalized to canonical accessory acc-012."
+    "source_of_truth": "canonical PQ reward arrays + canonical equipment/accessory records"
   }
 }
