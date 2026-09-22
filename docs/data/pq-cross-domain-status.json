@@ -16,7 +16,7 @@
     "super_soul": 151,
     "equipment": 125,
     "character": 247,
-    "dlc": 88,
+    "dlc": 86,
     "farming": 7
   },
   "note": "Character feature relationships are now populated from explicit canonical PQ objective/ultimate-finish character references with a small documented alias map. Generic enemy/appearance text was not used as attribution. Full 1-186 exhaustiveness still requires reconciliation of all populated fields and unresolved/conflict records.",
@@ -106,6 +106,23 @@
       "equipment": 125,
       "character": 247,
       "dlc": 88,
+      "farming": 7
+    },
+    "current_total_edges": 860,
+    "current_forward_counts": {
+      "skill": 244,
+      "super_soul": 151,
+      "equipment": 125,
+      "character": 247,
+      "dlc": 86,
+      "farming": 7
+    },
+    "current_status_counts": {
+      "skill": 244,
+      "super_soul": 151,
+      "equipment": 125,
+      "character": 247,
+      "dlc": 86,
       "farming": 7
     }
   },
@@ -322,6 +339,7 @@
     "character_targets": "75/75 exact canonical character identities; 5 explicit aliases preserved; 0 missing targets.",
     "dlc_targets": "21 unique source-backed DLC targets; 0 duplicate casefold keys after normalization; only FUTURE SAGA Chapter 4 required canonical case normalization on PQ185/PQ186.",
     "preserved_distinction": "Super Pack 1-4 remain distinct source-backed DLC targets and are not collapsed into the broader Super Pass requirement.",
-    "total_edges": 862
-  }
+    "total_edges": 860
+  },
+  "current_total_edges": 860
 }
