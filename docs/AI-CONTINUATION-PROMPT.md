@@ -2787,3 +2787,16 @@
 - [ ] CI/runtime: no successful workflow/check exposed for this direct-commit chain; no CI success claimed.
 - [x] Commits: canonical ecd0f6765e49e5bfd644063557bd1a9f31f04c73; index f70aebb20c0523f55da4d5442235c69fcfaf4398; audit 9b6fa7bae3099eadfe5b59a6e1e38f4d1ae7ecdf; cross-domain registration 0662076e513614abf35f97b4e48db69ec0870f6c; TODO tracking 0dc97c43d5947a98a804d2508e5d62f6a5092acb.
 - [ ] Exact next batch: Weekend, Wild Buster, Wild Hunt, Wild Stinger, Wolf Fang Fist, X 100 Big Bang Kamehameha, x10 Kamehameha, Zigzag Express; recompute the live stale census before editing and continue with the same bounded provenance policy.
+
+
+### 2026-09-22 cycle update — Weekend through Zigzag Express provenance batch
+- [x] Live census before editing: 452 canonical / 452 index / 8 stale; exact bounded batch was Weekend, Wild Buster, Wild Hunt, Wild Stinger, Wolf Fang Fist, X 100 Big Bang Kamehameha, x10 Kamehameha, and Zigzag Express.
+- [x] Refreshed all eight canonical records in docs/data/skills.json and synchronized docs/data/skills-index.json to last_verified: 2026-09-22.
+- [x] Expanded bounded mechanics/provenance from current dedicated skill references, mentor/lesson documentation, and maintained PQ reward evidence.
+- [x] Deterministic corrections: Wild Hunt corrected to Strike (from stale Ki Blast); Wild Stinger confirmed at 100 Ki (resolving the prior unresolved-cost note).
+- [x] Preserved evidence boundaries: X 100 Big Bang Kamehameha remains non-UF-required because PQ100 Basic Reward evidence is explicit; player RNG/UF reports were not promoted into an unsupported probability or UF-only gate. Zigzag Express remains Male Majin-only.
+- [x] Added docs/data/skill-weekend-through-zigzag-express-provenance-audit-2026-09-22.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Validation after editing: 452/452, 0 duplicate IDs, canonical/index parity true, selected eight current, and 0 stale canonical skill records remain.
+- [ ] CI/runtime: no successful workflow/check exposed for this direct-commit chain; no CI success claimed.
+- [x] Commits: canonical 06bc0f2feebd879dd6d61e9fddffcf74bdda5262; index cc5b0f30c25a050a02433bfd2a1d3399662694ed; audit 23feedd2523d32b36901833f2ec8ef678e4d9b34; cross-domain registration cb9e9142df5d2d22e95bb64dd9d80c99011c7065; TODO tracking 54ec2e0d9e410394e31db68af3130bd6cb0953e8.
+- [ ] Exact next priority: recompute the broader TODO/research census and choose the highest-impact unfinished cross-domain, provenance, mechanics, validation, or presentation task. The complete stale-skill queue is exhausted at 0 stale.
