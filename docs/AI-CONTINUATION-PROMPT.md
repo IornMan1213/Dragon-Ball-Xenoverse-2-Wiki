@@ -2565,3 +2565,11 @@
 - Exact next step: recompute the stale census and process the next first-ten stale alphabetical skill batch.
 
 - Post-write validation result for this cycle: **452 canonical / 452 index / 0 duplicate IDs / 10 selected current / 0 canonical↔index ID-set or field mismatches**; stale remaining **198**. Exact next batch: **Hyper Tornado, Ill Bomber, Ill Rain, Impact Flare, Impulse Slash, Indomitable, Innocence Breath, Innocence Bullet, Innocence Cannon, Instant Charge**.
+
+### 2026-09-22 cycle update — Hyper Tornado through Instant Charge verification refresh
+- Scope: first ten records from the fresh alphabetical stale census.
+- Canonical/index: all ten advanced to `last_verified: 2026-09-22`; index synchronized.
+- Audit: `docs/data/skill-hyper-tornado-through-instant-charge-provenance-audit-2026-09-22.json`, registered in `docs/data/pq-cross-domain-index.json`.
+- Evidence policy: preserved existing conflicts, nulls, and unresolved mechanics; no unsupported gates/probabilities/restrictions inferred.
+- Validation: **452/452**, **0 duplicate IDs**, **10 selected current**, **0 canonical↔index mismatches**, **188 stale**. CI unavailable; no success claimed.
+- Exact next batch: **Instant Rise, Instant Severance, Instant Transmission, Jumping Energy Wave, Justice Blade, Justice Combination, Justice Drive, Justice Kick, Justice Pose, Justice Rush**.
