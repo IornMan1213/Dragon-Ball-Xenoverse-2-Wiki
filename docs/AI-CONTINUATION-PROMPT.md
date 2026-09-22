@@ -2090,3 +2090,13 @@
 - [x] Static validation: 452/452, no duplicate IDs, affected verification/acquisition fields aligned.
 - [ ] Runtime/CI unavailable; no CI success claimed.
 - [ ] Exact next batch: recompute live census and continue after Blazing Attack in the stale-last_verified queue.
+
+
+### 2026-09-22 cycle update — Bloody Counter / Body Change / Bomber DX / Brave Heat / Brave Sword Attack / Brave Sword Slash provenance
+- [x] Fresh live skill census: 452 canonical / 452 index / 0 duplicate IDs; bounded batch: six stale P1 skill records.
+- [x] Independent evidence corroborated Zarbon Lesson 2, Captain Ginyu Lesson 3, Nappa Initiation Test, Bardock Lesson 3, PQ117, and PQ116 acquisition endpoints. citeturn0search1turn0search9turn0search8turn0search4turn0search0
+- [x] Refreshed canonical/index last_verified to 2026-09-22; existing reward-tier semantics preserved and no unsupported probability inferred.
+- [x] Added docs/data/skill-provenance-audit-2026-09-22-bloody-through-brave.json.
+- [x] Static validation: 452/452, no duplicate IDs; affected records remain synchronized.
+- [ ] Runtime/CI unavailable; no CI success claimed.
+- [ ] Exact next batch: recompute live census and continue after Brave Sword Slash.
