@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "canonical record reverse PQ navigation",
+  "consumers": {
+    "super_souls": {
+      "consumer": "docs/Super-Souls-All.html",
+      "record_layer": "docs/data/super-souls-record-layer.json",
+      "relationship": "pq_rewards_super_soul",
+      "record_count": 234,
+      "canonical_edges": 151,
+      "unique_canonical_targets": 148,
+      "unresolved_targets": [],
+      "status": "clean"
+    },
+    "equipment": {
+      "consumer": "docs/Equipment-All.html",
+      "record_layer": "docs/data/equipment-accessories-record-layer.json",
+      "relationship": "pq_rewards_equipment",
+      "record_count": 174,
+      "canonical_edges": 125,
+      "unique_canonical_targets": 123,
+      "unresolved_targets": [],
+      "status": "clean"
+    }
+  },
+  "validator": "scripts/validate_record_reverse_pq_navigation.py",
+  "evidence_boundary": "PQ links are canonical relationship navigation only; they do not establish reward guarantees, Ultimate Finish requirements, drop rates, or unresolved acquisition claims."
+}
