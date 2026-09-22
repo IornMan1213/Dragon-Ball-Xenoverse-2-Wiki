@@ -35,7 +35,7 @@ The wiki tracks the **recipe** and the **observed result** as separate pieces of
 
 ## Super Mix Capsule Z
 
-Super Mix Capsule Z is used for high-tier six-star QQ Bang attempts. Community farming guides and player reports commonly point to Multiplayer Parallel Quest Tour content, particularly PQ83, as a farming route. The exact current drop behavior is retained as a research field rather than represented as a guaranteed percentage.
+Super Mix Capsule Z is used for high-tier six-star QQ Bang attempts. Community farming guides and player reports commonly point to Multiplayer Parallel Quest Tour content, particularly PQ83, as a farming route. This is a community/research acquisition lead, not a canonical `pq_features_farming` relationship: the canonical farming layer currently represents Dragon Ball farming relationships only. The exact current drop behavior is retained as a research field rather than represented as a guaranteed percentage.
 
 A community-reported alternative is mixing a regular Super Mix Capsule with a Demon Realm Crystal. That recipe is recorded as community evidence and is not treated as a guaranteed universal route without further reconciliation.
 
