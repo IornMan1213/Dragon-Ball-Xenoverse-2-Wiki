@@ -399,7 +399,7 @@
       "source_quest": "Main story — completion unlocks the Skill Shop listing",
       "source_quest_or_shop": "Skill Shop (Conton City) after main-story completion"
     },
-    {
+        {
       "id": "skill-big-bang-kamehameha",
       "name": "Big Bang Kamehameha",
       "class": "Super",
@@ -410,13 +410,14 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
         "https://xvguide.neocities.org/Skill",
-        "https://www.reddit.com/r/dbxv/comments/xenoverse2_tp_medal_shop_rotation/"
+        "https://www.reddit.com/r/dbxv/comments/xenoverse2_tp_medal_shop_rotation/",
+        "https://dbxv2.fandom.com/wiki/Big_Bang_Kamehameha"
       ],
       "unlock_method": "TP Medal Shop purchase",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 acquisition verification: TP Medal Shop purchase. Current reference material explicitly lists Big Bang Kamehameha in the TP Medal Shop rotation.",
+      "notes": "2026-09-22 provenance verification: dedicated skill documentation confirms Big Bang Kamehameha as a 100-Ki Ki Blast Super acquired from the TP Medal Shop. It documents chargeable beam behavior, 9–15 hits, knockback, and a Super Saiyan warp interaction for Saiyan CaCs. The current record's TP Medal Shop acquisition is retained without adding an unsupported shop rotation/date claim.",
       "mechanics_notes": "Dedicated current-version evidence confirms Big Bang Kamehameha as a 100-Ki Ki Blast Super from the TP Medal Shop. Full charge can trigger the Saiyan CaC warp behavior when a Super Saiyan transformation is equipped; existing all-CaC-races restriction is retained.",
       "source_quest_or_shop": "TP Medal Shop"
     },
