@@ -927,3 +927,12 @@
 - [x] Commits: canonical `1b2f96e444c1f0ce17174cba4d4d95841ae671cd`; audit `007c9a768edd1483583cec7336b2f7537366922a`; TODO `93e4ff79cc11b260fbe039ad355eef9adee89a86`; handoff `abb34842d07901192c89c1e47017feb52c54f469`.
 - [ ] Exact next task: fresh census, then enrich **`equip-091`–`equip-100`**, preserving canonical accessory bridges and normalized aliases.
 
+### 2026-09-22 cycle update — Equipment detail enrichment `equip-091`–`equip-100`
+- [x] Fresh census: **174 combined equipment/accessory records / 139 legacy equipment records / 0 duplicate IDs / 125 forward PQ→equipment edges / 123 unique targets / 0 broken endpoints**.
+- [x] Enriched legacy `equip-091`–`equip-100`; preserved canonical bridges `equip-091→acc-058` and `equip-093→acc-070`.
+- [x] Added category/slot/DLC provenance for the eight non-aliased endpoints and recorded the evidence boundary.
+- [x] Added `docs/data/equipment/equipment-091-100-detail-audit.json` and registered it.
+- [x] Validation clean; CI status unavailable/no success claimed.
+- [x] Commits: `267cb0dcd98b9c5b8307e0d0f1ca5ac4b3da65cb`, `af70f83339d32794fa6c577ebfadc97850bd0f62`, `87b75353add617b60607c476dacb3442dc95ba3b`, `bb005ca06da404f9027bf18148e6204f4b72cfe3`, TODO `660fb46d05ba6192d315cf1755e2b12ae4dad661`, handoff `f97fbca4878cd220633d2964b3799ed8330bb87e`.
+- [ ] Exact next task: fresh census, then **`equip-101`–`equip-110`**.
+
