@@ -572,3 +572,12 @@
 - Skills, Super Souls, clothing, and accessories all returned 0 missing and 0 extra pairs for each range.
 - PQ143-162 artwork identifiers remain standalone because artwork is not represented in the unified relationship index.
 - Exact next batch: inspect remaining reverse-index producer artifacts for deterministic scope/count drift, then consider generation automation.
+
+
+## 2026-09-22 continuation — deterministic PQ reverse-index validation tooling
+- Audited PQ163-186 standalone reverse index against its normalized reward map and unified reverse index: Skills, Super Souls, clothing, and accessories all have 0 missing / 0 extra typed pairs.
+- Audited PQ81-162 previously completed standalone indexes: all Skills, Super Souls, clothing, and accessories also have 0 missing / 0 extra typed pairs against the unified index.
+- Confirmed the remaining reverse-index work is tooling/producer integrity rather than relationship repair for PQ81-186.
+- Added `scripts/validate_pq_reverse_indexes.py` (commit `e638196c72693c38c230956f8b6549504420757c`) to deterministically compare normalized reward maps, standalone reverse indexes, and the unified reverse index without inferring missing rewards.
+- Canonical source-of-truth rule remains unchanged: normalized/canonical relationship data outranks projection artifacts; validator reports drift and does not rewrite canonical data.
+- Exact next task: inspect and, where safe, add deterministic generation support for the standalone reverse indexes and unified projection, then run the validator and record its full result.
