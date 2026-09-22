@@ -1025,8 +1025,8 @@
         "Parallel Quest 160 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
       "dlc_provenance": "Hero of Justice Pack 2 — PQ 160",
-      "restrictions": null,
-      "combat_effect": "unresolved",
+      "restrictions": "Helmet accessory.",
+      "combat_effect": "cosmetic",
       "verification_status": "partially_verified",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1035,7 +1035,10 @@
       "parallel_quest_ids": [
         160
       ],
-      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only. Canonical accessory identity normalized from legacy equipment ID equip-066; canonical identity is authoritative."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only. Canonical accessory identity normalized from legacy equipment ID equip-066; canonical identity is authoritative. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; canonical identity remains authoritative where legacy equipment IDs are retained as projections.",
+      "slot_coverage": [
+        "accessory"
+      ]
     },
     {
       "id": "acc-061",
@@ -1045,8 +1048,8 @@
         "Parallel Quest 162 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
       "dlc_provenance": "Hero of Justice Pack 2 — PQ 162",
-      "restrictions": null,
-      "combat_effect": "unresolved",
+      "restrictions": "Wig accessory.",
+      "combat_effect": "cosmetic",
       "verification_status": "partially_verified",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1055,7 +1058,10 @@
       "parallel_quest_ids": [
         162
       ],
-      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only. Canonical accessory identity normalized from legacy equipment ID equip-069; canonical identity is authoritative."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only. Canonical accessory identity normalized from legacy equipment ID equip-069; canonical identity is authoritative. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; canonical identity remains authoritative where legacy equipment IDs are retained as projections.",
+      "slot_coverage": [
+        "accessory"
+      ]
     },
     {
       "id": "acc-062",
@@ -1143,8 +1149,8 @@
         "Parallel Quest 154 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
       "dlc_provenance": "Conton City Vote Pack — PQ 154",
-      "restrictions": null,
-      "combat_effect": "unresolved",
+      "restrictions": "Wig accessory.",
+      "combat_effect": "cosmetic",
       "verification_status": "partially_verified",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1154,7 +1160,10 @@
       "parallel_quest_ids": [
         154
       ],
-      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only. Canonical accessory identity normalized from a legacy equipment endpoint; independent item-ID/DLC evidence corroborates the accessory identity."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only. Canonical accessory identity normalized from a legacy equipment endpoint; independent item-ID/DLC evidence corroborates the accessory identity. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; canonical identity remains authoritative where legacy equipment IDs are retained as projections.",
+      "slot_coverage": [
+        "accessory"
+      ]
     },
     {
       "id": "acc-067",
@@ -1184,8 +1193,8 @@
         "Parallel Quest 156 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
       "dlc_provenance": "Hero of Justice Pack 1 — PQ 156",
-      "restrictions": null,
-      "combat_effect": "unresolved",
+      "restrictions": "Helmet accessory.",
+      "combat_effect": "cosmetic",
       "verification_status": "partially_verified",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1195,7 +1204,10 @@
       "parallel_quest_ids": [
         156
       ],
-      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only. Canonical accessory identity normalized from a legacy equipment endpoint; independent item-ID/DLC evidence corroborates the accessory identity."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only. Canonical accessory identity normalized from a legacy equipment endpoint; independent item-ID/DLC evidence corroborates the accessory identity. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; canonical identity remains authoritative where legacy equipment IDs are retained as projections.",
+      "slot_coverage": [
+        "accessory"
+      ]
     },
     {
       "id": "acc-069",
@@ -1205,8 +1217,8 @@
         "Parallel Quest 159 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
       "dlc_provenance": "Hero of Justice Pack 2 — PQ 159",
-      "restrictions": null,
-      "combat_effect": "unresolved",
+      "restrictions": "Hood accessory.",
+      "combat_effect": "cosmetic",
       "verification_status": "partially_verified",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1216,7 +1228,10 @@
       "parallel_quest_ids": [
         159
       ],
-      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only. Canonical accessory identity normalized from a legacy equipment endpoint; independent item-ID/DLC evidence corroborates the accessory identity."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only. Canonical accessory identity normalized from a legacy equipment endpoint; independent item-ID/DLC evidence corroborates the accessory identity. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; canonical identity remains authoritative where legacy equipment IDs are retained as projections.",
+      "slot_coverage": [
+        "accessory"
+      ]
     },
     {
       "id": "acc-070",
@@ -2209,8 +2224,8 @@
         "Parallel Quest 155 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
       "dlc_provenance": "Hero of Justice Pack 1 — PQ 155",
-      "restrictions": null,
-      "combat_effect": "unresolved",
+      "restrictions": "Helmet accessory.",
+      "combat_effect": "cosmetic",
       "verification_status": "partially_verified",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2219,17 +2234,20 @@
       "parallel_quest_ids": [
         155
       ],
-      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; canonical identity remains authoritative where legacy equipment IDs are retained as projections.",
+      "slot_coverage": [
+        "accessory"
+      ]
     },
     {
       "id": "equip-064",
       "name": "Gamma 2's Clothes",
-      "category": "equipment",
+      "category": "clothing",
       "acquisition_routes": [
         "Parallel Quest 158 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
       "dlc_provenance": "Hero of Justice Pack 1 — PQ 158",
-      "restrictions": null,
+      "restrictions": "Full four-piece clothing set.",
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
@@ -2239,17 +2257,23 @@
       "parallel_quest_ids": [
         158
       ],
-      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; canonical identity remains authoritative where legacy equipment IDs are retained as projections.",
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
+      ]
     },
     {
       "id": "equip-067",
       "name": "Red Ribbon Soldier 94 Clothes",
-      "category": "equipment",
+      "category": "clothing",
       "acquisition_routes": [
         "Parallel Quest 161 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
       "dlc_provenance": "Hero of Justice Pack 2 — PQ 161",
-      "restrictions": null,
+      "restrictions": "Full four-piece clothing set.",
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
@@ -2259,17 +2283,23 @@
       "parallel_quest_ids": [
         161
       ],
-      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; canonical identity remains authoritative where legacy equipment IDs are retained as projections.",
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
+      ]
     },
     {
       "id": "equip-068",
       "name": "Dr. Hedo Suit",
-      "category": "equipment",
+      "category": "clothing",
       "acquisition_routes": [
         "Parallel Quest 162 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
       "dlc_provenance": "Hero of Justice Pack 2 — PQ 162",
-      "restrictions": null,
+      "restrictions": "Full four-piece clothing set.",
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
@@ -2279,7 +2309,13 @@
       "parallel_quest_ids": [
         162
       ],
-      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; canonical identity remains authoritative where legacy equipment IDs are retained as projections.",
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
+      ]
     },
     {
       "id": "equip-070",
@@ -2289,17 +2325,21 @@
         "Parallel Quest 25 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
       "dlc_provenance": "Base game — PQ 25",
-      "restrictions": null,
-      "combat_effect": "unresolved",
+      "restrictions": "Wig accessory.",
+      "combat_effect": "cosmetic",
       "verification_status": "partially_verified",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
-        "https://dbxv2.fandom.com/wiki/Equipment"
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "parallel_quest_ids": [
         25
       ],
-      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented. Exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data is authoritative and verification status is evidence metadata only. Detail enrichment: category/slot coverage verified against the maintained equipment catalog; canonical identity remains authoritative where legacy equipment IDs are retained as projections.",
+      "slot_coverage": [
+        "accessory"
+      ]
     },
     {
       "id": "equip-072",
