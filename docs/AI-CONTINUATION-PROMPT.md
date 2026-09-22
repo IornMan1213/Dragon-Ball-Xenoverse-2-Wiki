@@ -2673,3 +2673,14 @@
 - [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; no CI success claimed.
 - [x] Commits: canonical a3ea5cc5c98be1c9baf7d912fd3d2238ad03bdb1; index 8892b9cdf764b5872a5b54d56eb7c44f19794a7a; audit 1227e50681ef6432068b7df76f1b532ddd037a62.
 - [ ] Exact next batch: **Reverse Shot, Ribrianne's Eternal Love, Riot Javelin, Rise to Action, Rising Rage, Rocket Tackle, Rolling Bullet, Rolling Hercule Punch, Rough Ranger, S.S. Deadly Bomber**; recompute the live stale census before editing and continue with the same bounded provenance policy.
+
+
+### 2026-09-22 cycle update — Reverse Shot through S.S. Deadly Bomber provenance batch
+- [x] Fresh live stale census: 452 canonical skills / 452 index records / 0 duplicate IDs / 108 stale; exact first ten stale records were Reverse Shot, Ribrianne's Eternal Love, Riot Javelin, Rise to Action, Rising Rage, Rocket Tackle, Rolling Bullet, Rolling Hercule Punch, Rough Ranger, and S.S. Deadly Bomber.
+- [x] Refreshed all ten canonical records and synchronized index projections to last_verified: 2026-09-22.
+- [x] Expanded bounded mechanics/provenance from current skill references; character-only Rising Rage remains scoped to Broly (Restrained), and Rolling Bullet remains an Evasive rather than a Super.
+- [x] Added docs/data/skill-reverse-shot-through-s-s-deadly-bomber-provenance-audit-2026-09-22.json.
+- [x] Validation: 452/452 canonical/index, 0 duplicate IDs, ID sets match, 10/10 selected records current, 98 stale remain.
+- [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; no CI success claimed.
+- [x] Commits: canonical fb556ae7aa05c8d9c79bc9781df31c32b10d1127; index e02c77195d04db484a1f18a6a74b9d9ea09cc687; audit 16bb4346c742449db9b73e0a8e6b698a238dff1a.
+- [ ] Exact next batch: **Saiyan Blaster, Saiyan Spirit, Saturday Crash, Sauzer Blade, Savory Slicer, Scatter Kamehameha, Scissors Paper Rock, Seagull Combination, Secret Poison, Shadow Crusher**; recompute the live stale census before editing.
