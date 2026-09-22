@@ -1487,3 +1487,13 @@
 - [x] Static validation after editing: **452/452** canonical/index; **0 duplicate canonical IDs**; **316 stale canonical records remain**; all eight targets have `last_verified: 2026-09-22`; shared `name`, `class`, `subcategory`, and `last_verified` fields have **0 mismatches**.
 - [ ] Runtime/CI execution remains unavailable; no CI success claimed.
 - [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Dragon Thunder, Drain Field, Dual Destructo-Disc, Dust Attack**, then adjacent stale records where evidence remains bounded.
+
+
+### 2026-09-22 cycle update — Dragon Thunder through Elegant Blaster provenance batch
+- [x] Fresh live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 316 stale**.
+- [x] Bounded batch completed for **Dragon Thunder, Drain Field, Dual Destructo-Disc, Dust Attack, Dynamite Kick, Eagle Kick, Earth Splitting Galick Gun, and Elegant Blaster**.
+- [x] Refreshed canonical/index `last_verified` to **2026-09-22** for all eight records and refreshed bounded mechanics/provenance notes.
+- [x] Preserved the important evidence boundaries: Dragon Thunder remains character-only/unclear for CaC; Drain Field retains its acquisition-condition conflict; Earth Splitting Galick Gun retains conflicting reward-list evidence rather than inventing certainty; mentor mechanics remain deferred where acquisition evidence is stronger.
+- [x] Static validation after editing: **452/452** canonical/index; **0 duplicate canonical IDs**; **308 stale canonical records remain**; all eight targets refreshed; shared `name`, `class`, `subcategory`, and `last_verified` fields have **0 mismatches**.
+- [ ] Runtime/CI execution remains unavailable; no CI success claimed.
+- [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Elite Beam, Elite Shooting, Emperor's Blast, Emperor's Cannon**, then adjacent stale records where evidence remains bounded.
