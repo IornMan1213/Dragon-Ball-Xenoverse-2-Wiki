@@ -1351,16 +1351,17 @@
       "mechanics_notes": "Dedicated current-version evidence confirms Burst Kamehameha as a 100–200 Ki Ki Blast Super from PQ72. A second input spends additional Ki to prolong the beam and increase damage; no unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Burst_Kamehameha",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://www.youtube.com/watch?v=Zq94mw1-sDo"
       ],
       "source_quest": 72,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: the maintained PQ72 reward listing explicitly includes Burst Kamehameha as a Basic Reward; dedicated skill documentation confirms PQ72.",
+      "notes": "2026-09-20 audit: the maintained PQ72 reward listing explicitly includes Burst Kamehameha as a Basic Reward; dedicated skill documentation confirms PQ72. 2026-09-22 provenance refresh: independent Dragon Ball Wiki and maintained PQ72 evidence reconfirm the PQ72 acquisition and Basic Reward presentation; no unsupported reward probability or gate was added.",
       "id": "skill-burst-kamehameha",
       "source_parallel_quests": [
         72
@@ -1568,17 +1569,18 @@
       "mechanics_notes": "300-Stamina Ki Blast Evasive. Launches a wave of energy upward; dedicated documentation describes a 7-hit wave that can lift a nearby opponent. Current maintained PQ151 reward evidence lists Celestial Wave in Basic Reward. A separate video guide describes it as an Ultimate Finish reward, so the exact reward gate remains source-conflicted.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Celestial_Wave",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.youtube.com/watch?v=q_lEX6ym9UE"
       ],
       "source_quest": 151,
       "mechanics": "Ki Blast Evasive; launches a 7-hit wave and costs 300 Stamina.",
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 acquisition reconciliation: current maintained PQ151 reward listing explicitly includes Celestial Wave under Basic Reward, while an older video guide labels it a PQ151 Ultimate Finish reward. The repository preserves the conflict rather than asserting an unsupported exclusive gate. 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics.",
+      "notes": "2026-09-20 acquisition reconciliation: current maintained PQ151 reward listing explicitly includes Celestial Wave under Basic Reward, while an older video guide labels it a PQ151 Ultimate Finish reward. The repository preserves the conflict rather than asserting an unsupported exclusive gate. 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics. 2026-09-22 provenance refresh: independent PQ151 gameplay evidence also lists Celestial Wave as a Basic Reward. The older Ultimate Finish presentation remains an explicit conflict; no gate or probability was normalized.",
       "id": "skill-celestial-wave",
       "source_parallel_quests": [
         151
@@ -1601,14 +1603,15 @@
       "mechanics_notes": "Creates and launches five Destructo-Discs in sequence. The attack is unblockable and deals its damage across five hits; the in-game warning specifically notes that it cannot be guarded. The canonical record retains the 300-Ki Ultimate cost and PQ46 Basic Reward route; exact frame data and drop probability remain unresolved.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Chain_Destructo-Disc_Barrage",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://dragonball.fandom.com/wiki/Chain_Destructo_Disc"
+        "https://dragonball.fandom.com/wiki/Chain_Destructo_Disc",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74492105"
       ],
-      "notes": "2026-09-20 race-scope reconciliation: Dragon Ball Wiki explicitly lists Future Warrior as a Xenoverse 2 user and states the Future Warrior can obtain Chain Destructo Disc from PQ46. This establishes CaC availability; no narrower race/gender/form restriction is documented, so the canonical scope is All CaC races.",
+      "notes": "2026-09-20 race-scope reconciliation: Dragon Ball Wiki explicitly lists Future Warrior as a Xenoverse 2 user and states the Future Warrior can obtain Chain Destructo Disc from PQ46. This establishes CaC availability; no narrower race/gender/form restriction is documented, so the canonical scope is All CaC races. 2026-09-22 provenance refresh: independent GameFAQs discussion reconfirms PQ46 as the acquisition route. Existing Basic Reward semantics and unresolved drop probability remain unchanged.",
       "race_restriction": "All CaC races",
       "source_quest": 46,
       "acquisition_type": "quest_or_mission",
@@ -1689,7 +1692,7 @@
       "mechanics_notes": "Current skill evidence lists 300 Stamina. The wall can be charged to increase size, damage, and speed.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Chaos_Wall",
         "https://dragonball.fandom.com/wiki/Chaos_Wall",
@@ -1697,7 +1700,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Chaos Wall as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint.",
+      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Chaos Wall as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-22 provenance refresh: official publisher documentation corroborates the Free Update 11/Conton City Tournament context; the existing Match 4 endpoint remains the dedicated acquisition evidence.",
       "id": "skill-chaos-wall"
     },
     {
