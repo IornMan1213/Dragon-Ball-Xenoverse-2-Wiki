@@ -141,3 +141,10 @@
 - Commits: canonical **8d168e73385c21b9d396e30850011724a553ccbe**; index **c1d99eea5036865abd0e7e6279668dcfc101501a**.
 - Live census after editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 8 exactly-two-source records**.
 - Exact next batch: **recompute the live two-source census and continue the next deterministic low-source record after Taunt**, inspecting its canonical/index records and independently verifying acquisition/source semantics before provenance strengthening.
+
+
+### 2026-09-21 cycle correction — Taunt coverage-file write limitation
+- The Taunt canonical and index writes, changelog, TODO, and persistent handoff were committed successfully.
+- The attempted append to `docs/COVERAGE-AUDIT.md` was blocked by the repository write tool's safety layer before any coverage-file mutation occurred; the existing coverage file was therefore left untouched rather than risk an unsafe overwrite.
+- Validation remains live and clean at **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 8 exactly-two-source records**, with Taunt canonical/index source parity confirmed and no internal citation artifacts.
+- Exact follow-up: if a safer patch mechanism is available, append the Taunt coverage entry to `docs/COVERAGE-AUDIT.md`; otherwise preserve this limitation and continue the deterministic low-source sequence without fabricating coverage state.
