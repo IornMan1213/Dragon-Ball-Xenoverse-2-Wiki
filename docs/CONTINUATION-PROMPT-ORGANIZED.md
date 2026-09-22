@@ -1497,3 +1497,12 @@
 - [x] Static validation after editing: **452/452** canonical/index; **0 duplicate canonical IDs**; **308 stale canonical records remain**; all eight targets refreshed; shared `name`, `class`, `subcategory`, and `last_verified` fields have **0 mismatches**.
 - [ ] Runtime/CI execution remains unavailable; no CI success claimed.
 - [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Elite Beam, Elite Shooting, Emperor's Blast, Emperor's Cannon**, then adjacent stale records where evidence remains bounded.
+
+### 2026-09-22 cycle update — Elite Beam through Energy Dome provenance batch
+- [x] Fresh live census before editing: **452 canonical / 452 index / 0 duplicate canonical IDs / 308 stale**.
+- [x] Bounded batch completed for **Elite Beam, Elite Shooting, Emperor's Blast, Emperor's Cannon, Emperor's Death Beam, Emperor's Edge, Endless Shoot, Energy Barrier, Energy Charge, and Energy Dome**.
+- [x] Refreshed canonical/index last_verified to **2026-09-22** and registered docs/data/skill-elite-through-energy-provenance-audit-2026-09-22.json.
+- [x] Corrected **Emperor's Blast** mechanics association to Golden Frieza and **Emperor's Death Beam** ki_cost from 300 to 400; preserved documented acquisition conflicts for Emperor's Cannon and Energy Barrier.
+- [x] Static validation passed: **452/452**, **0 duplicate IDs**, **10/10** audit records, **0 audited canonical/index mismatches**, **298 stale** remaining. Runtime/CI success is not claimed.
+- [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Emperor's Death Beam, Emperor's Edge, Endless Shoot, Energy Barrier, Energy Charge, Energy Dome, Energy Field, Energy Minefield**, then adjacent stale records where evidence remains bounded.
+
