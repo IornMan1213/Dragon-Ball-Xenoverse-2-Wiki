@@ -371,3 +371,12 @@
 - [x] Artwork remains separate projection data for PQ143-162 (64 entries) and PQ163-186 (97 entries), not canonical typed reward relationships.
 - [x] Canonical reward source layer remains unchanged.
 - [ ] Audit unified reverse-index producer/schema for safe deterministic generation without overwriting partial/research-layer semantics.
+
+### 2026-09-22 — Unified reverse-index producer metadata drift repair
+- [x] Recomputed the live canonical relationship census directly from `docs/data/pq-reward-relationships.json`: **860 unique edges = 244 skill / 151 Super Soul / 125 equipment / 247 character / 86 DLC / 7 farming**.
+- [x] Audited the partial normalized unified reverse index `docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json`: its live reference counts are **236 skill / 137 Super Soul / 125 equipment / 247 character / 86 DLC / 7 farming** and its canonical comparison block is **244 / 151 / 125 / 247 / 86 / 7**. The skill/Super Soul gaps are intentional partial-source coverage, not negative evidence.
+- [x] Detected deterministic current-state metadata drift in `docs/data/pq-cross-domain-audit.json` and `docs/data/pq-cross-domain-status.json`: current DLC was still reported as **88** even though the corrected canonical baseline and final-consistency fields are **86**; the status next-gate text also still named the superseded 862-edge baseline as live.
+- [x] Repaired only current-state metadata: canonical master `current_counts`, audit `current_counts`/next gate, and status `current_edges`/`current_counts`/next gate now all use **860 unique edges** and **86 DLC**.
+- [x] Preserved all historical 862/840/88-era fields as dated history; no canonical relationship identity or partial reverse-index entry was deleted.
+- [x] Post-edit validation: master/audit/status/producer-census counts all agree; duplicate relationship keys **0**; invalid PQ numbers **0**; empty targets **0**; canonical reverse projection parity remains **0 missing / 0 orphan / 0 PQ-set mismatch**.
+- [ ] Exact next task: reconcile the live repository against the handoff claims that `scripts/generate_pq_reverse_indexes.py` and `scripts/validate_pq_reverse_indexes.py` exist. If the scripts are absent on the live branch, restore them with schema-aware, canonical-source-of-truth-safe implementations before evaluating unified reverse-index generation.
