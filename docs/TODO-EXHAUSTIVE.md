@@ -1269,3 +1269,14 @@
 - [x] Commits: `f93e27f053bafab4ce33bd642ed657c85ee5fac6`, `0f6dbd85116e8678423b68f7e91b7be25b398bf3`.
 - [x] **TODO completion:** canonical PQ endpoint navigation exact identity/pair hardening.
 - [ ] Exact next batch: inspect the next registered cross-domain consumer for endpoint/count-only or one-way navigation validation, then harden only deterministic gaps.
+
+
+### 2026-09-22 cycle update — Super Soul partial acquisition-index structural hardening
+- [x] Hardened `scripts/validate_super_soul_acquisition_index.py` against duplicate PQ records, malformed list/scalar fields, and duplicate structured `(PQ,Super Soul)` pairs.
+- [x] Live structural validation: **80/80 unique PQ records, 122/122 unique structured pairs, 0 malformed, 0 duplicates**.
+- [x] Preserved the canonical-vs-partial projection reconciliation boundary: **133 canonical pairs / 122 indexed / 120 exact overlap / 13 differences** remain explicit research findings.
+- [x] Refreshed `docs/data/super-souls/pq-acquisition-index-reconciliation-audit.json` to schema **1.1.0**.
+- [x] No canonical relationship or research claim was promoted.
+- [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
+- [x] **TODO completion:** Super Soul acquisition-index structural hardening.
+- [ ] Exact next batch: continue through the registered cross-domain consumers for deterministic structural or navigation gaps.
