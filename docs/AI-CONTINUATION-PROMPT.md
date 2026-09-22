@@ -581,3 +581,13 @@
 - Added `scripts/validate_pq_reverse_indexes.py` (commit `e638196c72693c38c230956f8b6549504420757c`) to deterministically compare normalized reward maps, standalone reverse indexes, and the unified reverse index without inferring missing rewards.
 - Canonical source-of-truth rule remains unchanged: normalized/canonical relationship data outranks projection artifacts; validator reports drift and does not rewrite canonical data.
 - Exact next task: inspect and, where safe, add deterministic generation support for the standalone reverse indexes and unified projection, then run the validator and record its full result.
+
+
+### 2026-09-22 cycle update — deterministic PQ reverse-index generation support
+- Added `scripts/generate_pq_reverse_indexes.py` with bounded support for the four maintained PQ normalized-map formats (PQ81-120 legacy object map and PQ121-186 record arrays).
+- Generator operates only on explicit typed rewards and preserves canonical source-of-truth semantics; it does not infer drops or rewrite canonical relationships.
+- Generator check mode compares the generated projection against the existing standalone `indexes` object only, deliberately preserving historical/status/notes metadata. Write mode replaces only the projection object when the file already exists.
+- Fixed `scripts/validate_pq_reverse_indexes.py` to correctly consume the legacy PQ81-120 object-map format as well as the newer record-array formats.
+- Tooling commits: generator d71b33768d557590be8295bfaac2c84d5f109ebc, generator safety fix 626cb0b9d77c289c0f5b6be6d821790062b5299e, projection-safe comparison 6d613449bd94a798784ee543809059bc82c2b1f1, validator format fix 390aaefc43cd020cc2ca155c84ec2de6ab791d1c.
+- Validation boundary: repository-level exact pair audits already established 0 missing / 0 extra typed pairs for PQ81-186; direct local execution of the new script was attempted but the execution environment could not resolve raw.githubusercontent.com, so no local runtime pass is claimed.
+- Exact next batch: run the new generator/validator in a repository-capable runtime, then compare generated standalone projections to the live files and record the full runtime output before considering unified-index generation automation.
