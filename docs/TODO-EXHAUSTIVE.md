@@ -1257,3 +1257,15 @@
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [x] Commits: `df07a0cb046f38a6e5ee5973b82c203ae76a79c9`, `22429714ede4a0832b8539790ff918567299d5a5`.
 - [ ] Exact next batch: inspect the next registered cross-domain presentation consumer for stale scalar/list assumptions or one-way canonical navigation.
+
+
+### 2026-09-22 cycle update — PQ endpoint navigation exact identity/pair hardening
+- [x] Hardened `scripts/validate_pq_endpoint_navigation.py` to reject duplicate canonical `(PQ,target)` pairs and relationship PQ IDs that do not resolve to the canonical 186-record PQ layer.
+- [x] Live endpoint census: **953 canonical endpoint edges = 244 Skills / 151 Super Souls / 125 Equipment / 247 Characters / 86 DLC**, with **0 duplicate pairs / 0 missing targets / 0 invalid PQ IDs**.
+- [x] Canonical PQ identity census: **186 records / 186 unique IDs / 186 unique numbers / exact 1–186 range**.
+- [x] Refreshed `docs/data/pq-endpoint-navigation-audit.json` to schema **1.1.0**.
+- [x] Preserved the explicit equipment/DLC alias and granularity bridge; no canonical identities or relationships were changed.
+- [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
+- [x] Commits: `f93e27f053bafab4ce33bd642ed657c85ee5fac6`, `0f6dbd85116e8678423b68f7e91b7be25b398bf3`.
+- [x] **TODO completion:** canonical PQ endpoint navigation exact identity/pair hardening.
+- [ ] Exact next batch: inspect the next registered cross-domain consumer for endpoint/count-only or one-way navigation validation, then harden only deterministic gaps.
