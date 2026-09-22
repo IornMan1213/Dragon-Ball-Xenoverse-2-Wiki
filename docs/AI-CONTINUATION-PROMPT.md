@@ -6823,3 +6823,16 @@ The repository owner has clarified the continuation contract:
 - Validation target: **33 exactly-two-source records** after this batch; canonical/index parity, duplicate/null-Ki checks, and citation-artifact checks remain required.
 - CI: no success is claimed unless a status/workflow result is exposed for the final handoff commit.
 - Exact next batch: **recompute the live two-source census first, then continue with the next deterministic low-source record after Godly Chronos Cannon**.
+
+
+### 2026-09-21 cycle update — Heat Dome Attack low-source provenance
+- Live census before editing: **452 canonical skills / 452 index records / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 33 exactly-two-source canonical records**.
+- Bounded batch: **Heat Dome Attack (`skill-heat-dome-attack`)**.
+- Research/evidence: current Dragon Ball Xenoverse 2 skill documentation identifies Heat Dome Attack as a 300-Ki Ultimate from PQ40; the maintained Steam all-186 Parallel Quests guide independently lists it as a **PQ40 Basic Reward**. This corroborates the existing PQ40 acquisition and no-Ultimate-Finish semantics.
+- Changes: added the maintained Steam PQ guide as the third provenance source to `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to 2026-09-21. No gameplay, cost, restriction, reward-tier, or drop-rate semantics were changed.
+- Evidence limits: the added source corroborates the acquisition/reward endpoint; it was not used to infer a drop percentage or any additional prerequisite.
+- Validation: both JSON files parsed successfully; canonical/index each contain 452 records with 0 duplicate IDs; canonical `ki_cost` nullable count remains 0; Heat Dome Attack now has 3 sources; exactly-two-source canonical count fell to **32**; changed files contain no ChatGPT/internal citation artifacts.
+- CI: no success claim made without an exposed workflow/check; inspect applicable GitHub Actions before any validator change. Existing opaque pre-step failures remain infrastructure/account signals.
+- Commits: `f5a6d50e7789cd029fe5b32663bb03ef692b79cc` (canonical skills), `b84ba5f3a6cdc55bd2cdaecaf0ac9688c4a8c50c` (index synchronization).
+- Live census after editing: **452 / 452 / 0 duplicates / 0 nullable canonical ki_cost / 32 exactly-two-source records**.
+- Exact next batch: **Holy Wrath (`skill-holy-wrath`)**. Recompute the live two-source census first, verify its PQ111 acquisition/reward-tier relationship with an independent source, then add provenance only if the evidence supports it; preserve all existing uncertainty.
