@@ -1051,17 +1051,18 @@
       "acquisition_routes": [
         "Parallel Quest 121 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Extra Pack 2 — PQ 121",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         121
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 2 — PQ 121. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred."
     },
     {
       "id": "equip-032",
@@ -1070,17 +1071,18 @@
       "acquisition_routes": [
         "Parallel Quest 121 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Extra Pack 2 — PQ 121",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         121
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 2 — PQ 121. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred."
     },
     {
       "id": "equip-033",
@@ -1089,17 +1091,18 @@
       "acquisition_routes": [
         "Parallel Quest 123 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Extra Pack 3 — PQ 123",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         123
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 3 — PQ 123. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred."
     },
     {
       "id": "equip-034",
@@ -1108,17 +1111,18 @@
       "acquisition_routes": [
         "Parallel Quest 125 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Extra Pack 3 — PQ 125",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         125
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 3 — PQ 125. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred."
     },
     {
       "id": "equip-035",
@@ -1127,17 +1131,18 @@
       "acquisition_routes": [
         "Parallel Quest 127 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Extra Pack 3 — PQ 127",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         127
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 3 — PQ 127. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred."
     },
     {
       "id": "equip-036",
@@ -1146,17 +1151,18 @@
       "acquisition_routes": [
         "Parallel Quest 127 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Extra Pack 3 — PQ 127",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         127
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 3 — PQ 127. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred."
     },
     {
       "id": "equip-037",
@@ -1165,17 +1171,18 @@
       "acquisition_routes": [
         "Parallel Quest 130 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Extra Pack 4 — PQ 130",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         130
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 4 — PQ 130. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred."
     },
     {
       "id": "equip-038",
@@ -1184,17 +1191,18 @@
       "acquisition_routes": [
         "Parallel Quest 131 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Extra Pack 4 — PQ 131",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         131
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 4 — PQ 131. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred."
     },
     {
       "id": "equip-039",
@@ -1203,17 +1211,18 @@
       "acquisition_routes": [
         "Parallel Quest 132 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Extra Pack 4 — PQ 132",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         132
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Extra Pack 4 — PQ 132. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred."
     },
     {
       "id": "equip-040",
@@ -1222,17 +1231,18 @@
       "acquisition_routes": [
         "Parallel Quest 133 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Ultra Pack 1 — PQ 133",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         133
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. The maintained equipment catalog independently corroborates the equipment identity/acquisition entry; the maintained all-186 PQ guide independently corroborates the PQ reward endpoint. DLC provenance is mapped from the documented PQ/DLC grouping: Ultra Pack 1 — PQ 133. Exact reward-slot/drop semantics remain unresolved unless separately evidenced. No unsupported combat/stat effect is inferred."
     },
     {
       "id": "equip-041",
