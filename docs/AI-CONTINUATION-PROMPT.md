@@ -2508,3 +2508,16 @@
 - [x] Static validation passed: **452/452**, **0 duplicate IDs**, **10/10** audit records, **0 audited canonical/index mismatches**, **248 stale canonical records remain**.
 - [ ] Runtime/CI execution remains unavailable; no CI success claimed.
 - [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Full Power Charge, Full Power Destruction, Future Super Saiyan, Galactic Donuts, Galick Cannon, Galick Gun, Gamma Blaster, Gamma Impact, Genocide Shell, Giant Storm**, then adjacent stale records where evidence remains bounded.
+
+
+### 2026-09-22 cycle update — Full Power Charge through Giant Storm provenance batch
+- [x] Fresh live census before editing: **452 canonical / 452 index / 0 duplicate canonical IDs / 248 stale**.
+- [x] Completed the bounded P1 provenance batch for **Full Power Charge, Full Power Destruction, Future Super Saiyan, Galactic Donuts, Galick Cannon, Galick Gun, Gamma Blaster, Gamma Impact, Genocide Shell, and Giant Storm**.
+- [x] Refreshed canonical/index `last_verified` to **2026-09-22** for all ten records and added/registered `docs/data/skill-full-power-through-giant-storm-provenance-audit-2026-09-22.json`.
+- [x] Expanded bounded mechanics/provenance: Advanced Class charge-rate behavior for Full Power Charge; five-shot tracking/follow-up/explosion sequence for Full Power Destruction; one-stage Future Super Saiyan modifiers and Stamina/movement benefits; Galactic Donuts' ring-grab attack; Galick Cannon's tap-to-increase-power charging; Galick Gun's three charge stages and 9/12/15-hit behavior; Gamma Blaster's scatter-shot versus charged blast; Gamma Impact's three-hit punch/heel-drop/pose sequence; Genocide Shell's four stationary Ki spheres; and Giant Storm's large tracking explosion.
+- [x] Deterministic corrections: **Full Power Destruction** and **Gamma Impact** now explicitly use `race_restriction: null` because the reviewed evidence does not establish a narrower CaC race/gender/form restriction; the stale **PQ153** wording in Gamma Impact's note was removed in favor of canonical **PQ155**.
+- [x] Preserved evidence boundaries: no unsupported drop probabilities, additional Ultimate Finish gates, or narrower race restrictions were invented. Existing PQ155 Ultimate Finish semantics for Gamma Blaster/Gamma Impact remain unchanged.
+- [x] Static validation passed: **452/452** canonical/index; **0 duplicate IDs**; **10/10** audit records; **0 selected canonical/index mismatches**; **238 stale canonical records remain**.
+- [ ] Runtime/CI execution remains unavailable; no CI success claimed.
+- [x] Commits: `a395810b237e05dc93166451730a5173151dfeaf`, `154e9a0a31a3ae47ec5c373a7636ecbd0dfecd4f`, `6bc2ccbe37d76ff57b4210ff1933e7ecd1d74950`, `6935ed40e55adaeafccfea5fc67ca505eee1943e`.
+- [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Gigantic Breaker, Gigantic Burst, Gigantic Charge, Gigantic Cluster, Gigantic Cross, Gigantic Explosion, Gigantic Meteor, Gigantic Nova, Gigantic Omega, and Gigantic Rage**, then adjacent stale records where evidence remains bounded.
