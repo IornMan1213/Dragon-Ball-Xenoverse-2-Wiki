@@ -5,7 +5,7 @@ Every Parallel Quest has three conditions. Only the first is visible initially; 
 ## High-Value / Recommended PQs (Local Priority List)
 
 **PQ 4 – Prepare for the Attack of Saiyans!**  
-Beginner-friendly Dragon Ball farm. Defeat Gohan/Piccolo quickly, then the Time Patrollers.
+Early numbered PQ. Consult the canonical record for its current objectives, rewards, and acquisition conditions.
 
 **Canonical Dragon Ball farming routes:** PQ15, PQ22, PQ44, PQ45, PQ68, PQ83, and PQ88.  
 The canonical relationship layer records these seven PQs as Dragon Ball farming routes. It does not rank them by speed or establish a drop probability; consult the individual PQ records for objectives and conditions.
