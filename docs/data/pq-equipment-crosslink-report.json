@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "domain": "pq_equipment",
   "canonical_pq_records": 186,
-  "canonical_target_records": 168,
+  "canonical_target_records": 174,
   "forward_edges": [
     {
       "pq_id": "pq-002",
@@ -735,7 +735,7 @@
     {
       "pq_id": "pq-154",
       "pq_number": 154,
-      "target_id": "equip-061",
+      "target_id": "acc-066",
       "target_name": "King Vegeta (DB Super) Wig",
       "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -751,7 +751,7 @@
     {
       "pq_id": "pq-156",
       "pq_number": 156,
-      "target_id": "equip-063",
+      "target_id": "acc-068",
       "target_name": "Gamma 1's Helmet",
       "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -767,7 +767,7 @@
     {
       "pq_id": "pq-159",
       "pq_number": 159,
-      "target_id": "equip-065",
+      "target_id": "acc-069",
       "target_name": "Dr. Hedo Hood",
       "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -807,7 +807,7 @@
     {
       "pq_id": "pq-168",
       "pq_number": 168,
-      "target_id": "equip-093",
+      "target_id": "acc-070",
       "target_name": "Videl (DB Super) Wig",
       "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -985,6 +985,22 @@
       "pq_number": 186,
       "target_id": "equip-115",
       "target_name": "Fu Set 2",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-152",
+      "pq_number": 152,
+      "target_id": "acc-065",
+      "target_name": "Android 17 (DB Super) Wig",
+      "status": "canonical_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-155",
+      "pq_number": 155,
+      "target_id": "acc-067",
+      "target_name": "Gamma 2's Helmet",
       "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     }
@@ -1885,7 +1901,7 @@
       ]
     },
     {
-      "target_id": "equip-061",
+      "target_id": "acc-066",
       "target_name": "King Vegeta (DB Super) Wig",
       "pq_ids": [
         "pq-154"
@@ -1905,7 +1921,7 @@
       ]
     },
     {
-      "target_id": "equip-063",
+      "target_id": "acc-068",
       "target_name": "Gamma 1's Helmet",
       "pq_ids": [
         "pq-156"
@@ -1925,7 +1941,7 @@
       ]
     },
     {
-      "target_id": "equip-065",
+      "target_id": "acc-069",
       "target_name": "Dr. Hedo Hood",
       "pq_ids": [
         "pq-159"
@@ -1975,7 +1991,7 @@
       ]
     },
     {
-      "target_id": "equip-093",
+      "target_id": "acc-070",
       "target_name": "Videl (DB Super) Wig",
       "pq_ids": [
         "pq-168"
@@ -2203,16 +2219,36 @@
       "pq_numbers": [
         186
       ]
+    },
+    {
+      "target_id": "acc-065",
+      "target_name": "Android 17 (DB Super) Wig",
+      "pq_ids": [
+        "pq-152"
+      ],
+      "pq_numbers": [
+        152
+      ]
+    },
+    {
+      "target_id": "acc-067",
+      "target_name": "Gamma 2's Helmet",
+      "pq_ids": [
+        "pq-155"
+      ],
+      "pq_numbers": [
+        155
+      ]
     }
   ],
   "unresolved_target_routes": [],
   "validation": {
     "canonical_pq_records": 186,
-    "canonical_target_records": 168,
-    "forward_edge_count": 123,
-    "reverse_edge_count": 121,
+    "canonical_target_records": 174,
+    "forward_edge_count": 125,
+    "reverse_edge_count": 123,
     "unique_pq_endpoints": 88,
-    "unique_target_endpoints": 121,
+    "unique_target_endpoints": 123,
     "unresolved_target_route_count": 0,
     "unresolved_target_routes": 0,
     "broken_forward_endpoints": 0,
@@ -2220,7 +2256,7 @@
     "last_recomputed": "2026-09-22",
     "canonical_endpoint_parity": "pass",
     "source_of_truth": "canonical PQ reward arrays + canonical equipment/accessory records",
-    "canonical_equipment_accessory_records": 168
+    "canonical_equipment_accessory_records": 174
   },
   "notes": [
     "Accessory endpoints that were previously represented as equip-071/equip-081/equip-083/equip-091 are normalized to canonical accessory IDs acc-053/acc-051/acc-052/acc-058. Canonical accessory identity is authoritative; the legacy equipment record IDs remain historical/projection identifiers.",
