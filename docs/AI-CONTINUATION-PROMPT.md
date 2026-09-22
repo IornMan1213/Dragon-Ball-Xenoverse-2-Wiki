@@ -6836,3 +6836,16 @@ The repository owner has clarified the continuation contract:
 - Commits: `f5a6d50e7789cd029fe5b32663bb03ef692b79cc` (canonical skills), `b84ba5f3a6cdc55bd2cdaecaf0ac9688c4a8c50c` (index synchronization).
 - Live census after editing: **452 / 452 / 0 duplicates / 0 nullable canonical ki_cost / 32 exactly-two-source records**.
 - Exact next batch: **Holy Wrath (`skill-holy-wrath`)**. Recompute the live two-source census first, verify its PQ111 acquisition/reward-tier relationship with an independent source, then add provenance only if the evidence supports it; preserve all existing uncertainty.
+
+
+### 2026-09-21 cycle update — Holy Wrath low-source provenance
+- Live census before editing: **452 canonical skills / 452 index records / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 32 exactly-two-source canonical records**.
+- Bounded batch: **Holy Wrath (`skill-holy-wrath`)**.
+- Research/evidence: current Xenoverse 2 skill documentation identifies Holy Wrath as a 100-Ki Ki Blast Super from PQ111; the maintained Steam all-186 Parallel Quests guide independently lists Holy Wrath in **PQ111 — The Zero Mortal Plan Basic Reward**. citeturn1search0turn1search2
+- Changes: added the maintained Steam PQ guide as the third provenance source to `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to 2026-09-21. No gameplay, cost, restriction, or acquisition semantics were changed.
+- Evidence limits/conflicts preserved: an older Steam community discussion and other community reports describe Holy Wrath as a drop associated with the Ultimate Finish, while the maintained all-186 guide explicitly places it under Basic Reward. The repository retains its existing Basic Reward/no-Ultimate-Finish semantics rather than inventing a drop probability or resolving the conflict without stronger evidence. citeturn1search1turn1search3
+- Validation: both JSON files parsed successfully; canonical/index each contain 452 records with 0 duplicate IDs; canonical `ki_cost` nullable count remains 0; Holy Wrath now has 3 sources; exactly-two-source canonical count fell to **31**.
+- CI: no success claim made without an exposed workflow/check.
+- Commits: `3deda3cca481298f288324c77426f55aa918b942` (canonical skills), `c47febf18777f789c1c49990a9cbccf191383cdd` (index synchronization).
+- Live census after editing: **452 / 452 / 0 duplicates / 0 nullable canonical ki_cost / 31 exactly-two-source records**.
+- Exact next batch: **Instant Charge (`skill-instant-charge`)**. Recompute the live two-source census first; inspect whether an independent source can corroborate the character-exclusive/Mira acquisition boundary without broadening it to generic Super Attack categorization.
