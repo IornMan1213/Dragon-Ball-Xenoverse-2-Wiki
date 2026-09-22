@@ -9,7 +9,7 @@ Skills (Super, Ultimate, Evasive, Awoken) are obtained through multiple overlapp
 4. **Shenron Wishes** — Specific Super and Ultimate attacks via the corresponding wishes (limited uses / progressive).
 5. **Crystal Raids / Double Crystal Raids** — Can drop a wide range of skills (including many that are otherwise PQ-locked). Useful for filling gaps.
 6. **DLC / Future Saga Extra Missions & PQs** — Exclusive skills tied to each chapter.
-7. **Events & Festivals** — Temporary or permanent skill rewards from Festival of Universes and login/campaign events.
+7. **Events & Festivals** — Temporary or permanent skill rewards from Festival of Universes and login/campaign events; event availability is version-sensitive.
 
 ## Tips
 - Prioritize mentor skills early — they are permanent and do not require grinding drops.
