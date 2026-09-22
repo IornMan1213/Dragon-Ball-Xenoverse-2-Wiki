@@ -531,3 +531,12 @@
 - The unified reverse index is explicitly a partial source-normalized index and is not a replacement for the canonical relationship layer.
 - No deterministic current-count drift was found; no canonical relationship identities were changed.
 - Exact next batch: audit the remaining generated reverse indexes/acquisition indexes for scope metadata and canonical-vs-partial semantics, beginning with the Super Soul PQ acquisition index and PQ reverse-index artifacts for ranges 81-186.
+
+
+### 2026-09-22 cycle update — reverse-index and Super Soul acquisition scope audit
+- Audited the unified PQ reverse index and Super Soul PQ acquisition projection for PQ81-186 / PQ41-186 scope semantics.
+- Corrected one deterministic stale field in `pq-unified-reverse-index-1-186.json`: its live DLC reverse references are **86**, not the previously recorded 88. Skill/Super Soul remain partial at **236/137** versus canonical **244/151**; equipment **125**, characters **247**, farming **7** align with canonical counts.
+- The unified reverse index now explicitly separates its partial-index reference counts from the authoritative canonical relationship census.
+- Super Soul acquisition index: **80 PQ records / 122 typed references**. Exact pair comparison against canonical Super Soul relationships found **108 overlaps**, **14 research-layer-only pairs**, and **43 canonical pairs absent from the index**, of which **25 are within its PQ41-186 scope**. These differences are preserved as reconciliation work; canonical truth was not overwritten by research-layer data.
+- No canonical relationship identities were changed.
+- Exact next batch: **audit the remaining PQ reverse-index artifacts for PQ81-186 and other domain-specific acquisition projections, using exact relationship-pair comparison and preserving canonical-vs-research distinctions.**
