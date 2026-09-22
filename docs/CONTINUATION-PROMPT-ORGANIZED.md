@@ -696,3 +696,10 @@
 - [x] Commits: `b5ea179cd17c788eede7a2b5d68085c4caf9ea52`, `77c2dc4e71e38bc5ec88971de01b98f9e726d5ec`.
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [ ] Exact next batch: audit the remaining registered PQ explorer/reference presentation validators for the same hidden scalar/list, endpoint-only, or stale-count assumptions, prioritizing `validate_pq_explorer_reward_navigation.py` and `validate_pq_reference_pages.py`.
+\n### 2026-09-22 cycle update — general PQ reference identity-contract hardening
+- [x] Hardened `scripts/validate_pq_reference_pages.py` to enforce exact PQ numbers **1–186**, unique PQ IDs, known relationship types, and unique canonical `(relationship,PQ,target)` keys.
+- [x] Refreshed `docs/data/pq-reference-page-audit.json` to schema 1.1.0; current validation remains clean.
+- [x] No canonical relationship or identity data changed.
+- [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
+- [x] Commits: `8a256fb4e2998c12a0f29b42a637acbdc93ff5c4`, `8bf3f109e1ec3249f43f6daf9978d58d2198a4db`.
+- [ ] Exact next batch: inspect remaining PQ-facing search/landing consumers and cross-domain index registry for deterministic duplicated counts or one-way navigation gaps.
