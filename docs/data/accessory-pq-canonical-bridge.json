@@ -237,9 +237,9 @@
       "pq_record_id": "pqacc-029",
       "name": "Android 17 (DB Super)'s Ranger Accessory",
       "pq": 152,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "PQ152 reward evidence identifies the canonical inventory item as Android 17 (DB Super) Wig; Ranger Accessory is retained as a component/research alias rather than a duplicate item. Previous bridge endpoint accr-029 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-065",
+      "match_status": "identity_matched",
+      "note": "Reconciled to the current canonical accessory identity from independent PQ reward/inventory evidence; canonical data is authoritative."
     },
     {
       "pq_record_id": "pqacc-030",
@@ -261,17 +261,17 @@
       "pq_record_id": "pqacc-032",
       "name": "Videl (DB Super) Wig",
       "pq": 168,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-017 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-070",
+      "match_status": "identity_matched",
+      "note": "Reconciled to the current canonical accessory identity from independent PQ reward/inventory evidence; canonical data is authoritative."
     },
     {
       "pq_record_id": "pqacc-033",
       "name": "Dr. Hedo Hood",
       "pq": 159,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-033 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-069",
+      "match_status": "identity_matched",
+      "note": "Reconciled to the current canonical accessory identity from independent PQ reward/inventory evidence; canonical data is authoritative."
     },
     {
       "pq_record_id": "pqacc-034",
@@ -341,41 +341,41 @@
       "pq_record_id": "pqacc-042",
       "name": "Android 17 (DB Super) Wig",
       "pq": 152,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-029 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-065",
+      "match_status": "identity_matched",
+      "note": "Reconciled to the current canonical accessory identity from independent PQ reward/inventory evidence; canonical data is authoritative."
     },
     {
       "pq_record_id": "pqacc-043",
       "name": "King Vegeta (DB Super) Wig",
       "pq": 154,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-030 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-066",
+      "match_status": "identity_matched",
+      "note": "Reconciled to the current canonical accessory identity from independent PQ reward/inventory evidence; canonical data is authoritative."
     },
     {
       "pq_record_id": "pqacc-044",
       "name": "Gamma 2's Helmet",
       "pq": 155,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-031 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-067",
+      "match_status": "identity_matched",
+      "note": "Reconciled to the current canonical accessory identity from independent PQ reward/inventory evidence; canonical data is authoritative."
     },
     {
       "pq_record_id": "pqacc-045",
       "name": "Gamma 1's Helmet",
       "pq": 156,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-032 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-068",
+      "match_status": "identity_matched",
+      "note": "Reconciled to the current canonical accessory identity from independent PQ reward/inventory evidence; canonical data is authoritative."
     }
   ],
   "summary": {
     "pq_records": 45,
-    "matched": 22,
-    "unmatched_or_unresolved": 23,
-    "canonical_accessory_records": 64,
-    "remapped_by_exact_name": 22
+    "matched": 29,
+    "unmatched_or_unresolved": 16,
+    "canonical_accessory_records": 70,
+    "remapped_by_exact_name": 28
   },
   "sources": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -387,12 +387,12 @@
   ],
   "validation": {
     "canonical_pq_records": 186,
-    "canonical_accessory_records": 64,
+    "canonical_accessory_records": 70,
     "research_records": 45,
-    "forward_edge_count": 22,
-    "reverse_edge_count": 22,
-    "unresolved_research_records": 23,
-    "remapped_by_exact_name": 22,
+    "forward_edge_count": 28,
+    "reverse_edge_count": 28,
+    "unresolved_research_records": 16,
+    "remapped_by_exact_name": 28,
     "stale_endpoint_count": 0,
     "duplicate_forward_edges": 0,
     "null_pq_edges": 0,
