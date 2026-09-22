@@ -208,3 +208,14 @@
 - Post-write validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 0 canonical-index projection mismatches** across the audited fields (`name`, classification, verification/research/acquisition fields, sources, unlock/UF fields, timestamps, race restriction, notes, mechanics, source quest/shop).
 - Exact next task: **recompute the wider repository consistency census and identify the next highest-priority structural gap outside the now-clean skills canonical/index projection layer.** Prefer cross-database relationship/projection drift or the largest unresolved required-field cohort; do not invent missing data.
 - Recent commits: **23f6dfc941120ddb7b43d0b04ca56c169346ba35**, **a56ae109e789ffde34b9b7dbf6d848c2ee6d58f3**, **e5e5f5bc43d8f634852fb8b1b858ecf1301c8d76**.
+
+
+### 2026-09-22 cycle update — PQ↔skill endpoint naming repair
+- Live pre-edit relationship census: **186 PQs / 452 skills / 245 raw PQ skill-reward mentions / 243 unique resolvable edges / 1 unresolved forward endpoint / 1 orphaned reverse acquisition route**.
+- Root cause: PQ163 records the reward as **"Giant Cluster"**, while the canonical skill identity is **"Gigantic Cluster"**. Existing research evidence also contains both labels for PQ163; this is a documented naming variant, not a missing skill.
+- Bounded fix: extended `scripts/validate_pq_skill_links.py`'s documented alias map with **`giant cluster → gigantic cluster`**. No canonical reward wording or skill identity was overwritten.
+- Regenerated `docs/data/pq-skill-crosslink-report.json` using the live 186-PQ and 452-skill layers.
+- Post-write relationship validation: **244 unique forward PQ→skill edges / 239 reverse skill endpoints / 0 unresolved forward edges / 0 orphaned reverse source routes**. The two normalized aliases are now explicitly represented: **III Bomber → Ill Bomber** and **Giant Cluster → Gigantic Cluster**.
+- Evidence boundary: the alias resolves identity only. It does not assert that the two labels are different skills, alter reward probability, or change Ultimate Finish semantics.
+- CI/Actions: no success is claimed unless a resulting workflow/status is exposed.
+- Exact next batch: **recompute the wider cross-database relationship census for PQ reward targets (skills, Super Souls, equipment) against their reverse indexes, focusing first on deterministic endpoint/count drift rather than provenance-only enrichment.**
