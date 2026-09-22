@@ -205,3 +205,10 @@ The project is being worked as parallel tracks so the site visibly improves whil
 - [x] Reconciled the remaining PQ123–140 skill frontier.
 - [x] PQ skill crosslink report now has 0 unresolved references.
 - [ ] Perform a second-pass metadata audit of all promoted PQ skill records: exact costs, CaC restrictions, Ultimate Finish requirements, DLC/version provenance, and mechanics.
+
+
+## Current PQ Canonical-Layer Clarification — 2026-09-22
+- Historical TODO entries mentioning a PQ36 numbering gap remain preserved for audit history.
+- [x] Clarified current canonical policy across PQ-facing metadata: the player-facing canonical layer is **PQ1-PQ186**, including explicit PQ36; older PQ36-cut/183-standalone interpretations remain provenance only.
+- [x] Clarified that the canonical farming relationship set is **PQ15, PQ22, PQ44, PQ45, PQ68, PQ83, PQ88** and that route-efficiency claims are separate from canonical acquisition relationships.
+- [ ] Continue the remaining PQ-facing consumer census for stale canonical-count, farming-route, and external-corpus presentation claims.
