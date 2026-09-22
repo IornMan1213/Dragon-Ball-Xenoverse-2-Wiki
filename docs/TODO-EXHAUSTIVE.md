@@ -1325,3 +1325,13 @@
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [x] Commits: `810b923f691ba80e35821910e028f85827506700`, `3a717bf13d8434c86571d37df282bfe026faff6d`.
 - [ ] Exact next batch: continue the reverse-navigation chain through `scripts/validate_record_reverse_pq_navigation.py` and its Super Soul/Equipment consumers, checking deterministic pair uniqueness and stale/one-way landing links without promoting source-conflict metadata into canonical relationships.
+
+
+### 2026-09-22 cycle update — PQ explorer exact reward/projection contract hardening
+- [x] Hardened `scripts/validate_pq_page_consumers.py` so Skills, Super Souls, and Equipment require exact canonical `(PQ,target)` parity, list-valued structured fields, zero duplicate structured pairs, zero duplicate canonical pairs, and valid canonical PQ IDs.
+- [x] Hardened Character/DLC navigation checks to reject duplicate canonical pairs and explicitly verify the scalar DLC projection is unambiguous.
+- [x] Live result: **186 unique PQ IDs / 186 unique PQ numbers; 244 Skills / 151 Super Souls / 125 Equipment / 247 Characters / 86 DLC pairs; 0 missing / 0 extra / 0 duplicate / 0 malformed / 0 invalid PQ IDs**.
+- [x] Refreshed `docs/data/pq-page-consumer-audit.json` to schema **1.1.0**.
+- [x] No canonical relationship, identity, alias, or content data was changed.
+- [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
+- [ ] Exact next task: continue through the registered cross-domain consumer registry, prioritizing the next deterministic landing/search consumer with endpoint/count-only or one-way navigation assumptions.
