@@ -1293,3 +1293,9 @@
 - Validation remains clean: 169 canonical equipment records, 0 duplicate IDs; PQ→equipment 124 forward / 122 reverse / 0 unresolved / 0 broken endpoints.
 - Unsupported reward probabilities, slot semantics, restrictions, and effects remain unresolved.
 - Next exact batch: **`equip-061`–`equip-070`**.
+
+### 2026-09-22 — Equipment provenance batch `equip-061`–`equip-070`
+- Enriched 10 canonical equipment/accessory records with independent catalog provenance, classification, and PQ/DLC provenance.
+- Validation remains clean: 169 canonical equipment records, 0 duplicate IDs; PQ→equipment 124 forward / 122 reverse / 0 unresolved / 0 broken endpoints.
+- Unsupported reward probabilities, slot semantics, restrictions, and effects remain unresolved.
+- Next exact batch: **`equip-071`–`equip-080`**.
