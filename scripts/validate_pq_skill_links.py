@@ -12,6 +12,7 @@ REPORT=ROOT/"docs/data/pq-skill-crosslink-report.json"
 ALIASES={
     "kamekameha":"kamehameha",
     "iii bomber":"ill bomber",
+    "giant cluster":"gigantic cluster",
     "x100 big bang kamehameha":"x100 big bang kamehameha",
     "x 100 big bang kamehameha":"x 100 big bang kamehameha",
 }
