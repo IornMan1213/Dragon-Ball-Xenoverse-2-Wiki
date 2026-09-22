@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "DLC headline-character provenance → canonical character identity resolution",
+  "source_baseline": "docs/data/records/character-dlc-baseline.json",
+  "canonical_source": "docs/data/characters-record-layer.json",
+  "results": {
+    "source_records": 15,
+    "bridge_records": 15,
+    "exact": 7,
+    "explicit_alias": 6,
+    "unresolved_source_labels": 2,
+    "invalid_canonical_targets": 0,
+    "status": "clean_with_explicit_unresolved_labels"
+  },
+  "unresolved": [
+    {
+      "source_name": "Supreme Kai of Time (Ultra Supervillain)",
+      "reason": "No exact canonical character identity with this variant label exists in the current 149-name canonical layer; mapping to Supreme Kai of Time would collapse a potentially distinct variant."
+    },
+    {
+      "source_name": "Goku (Ultra Supervillain Quelled)",
+      "reason": "No exact canonical character identity with this label exists in the current 149-name canonical layer; mapping to Goku or Goku (Ultra Instinct) would be an unsupported identity collapse."
+    }
+  ],
+  "rules": [
+    "Canonical character names remain authoritative.",
+    "Explicit source aliases may resolve to canonical names only when the intended identity is unambiguous.",
+    "Unresolved variant labels are preserved and are never silently mapped to a base character or nearby form.",
+    "This bridge does not create DLC ownership or character relationships."
+  ]
+}
