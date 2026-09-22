@@ -1578,3 +1578,15 @@
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [x] Commits: `79872970db423be16b2a909d86b32f70bf4f4f34`, `1a9a48cf3f4190e182615aeb4c075dd0dad8209c`.
 - [ ] Exact next batch: inspect the next registered cross-domain consumer after `super_soul_acquisition_index_reconciliation` for the same hidden set/scalar/list or one-way navigation failure; preserve research-vs-canonical boundaries.
+
+
+### 2026-09-22 cycle update — PQ reference/explorer dependency contract hardening
+- [x] Audited `scripts/validate_pq_reference_pages.py` together with `docs/Parallel-Quests.md`, `docs/Parallel-Quest-Audit.md`, and the published `docs/Parallel-Quests-All.html` explorer.
+- [x] Hardened validation beyond page scalar/count claims: every canonical relationship PQ ID must resolve to the canonical 186-record PQ layer; duplicate PQ numbers/IDs are rejected; the published explorer must load the canonical PQ and relationship layers, guard collection shape, and retain its canonical Search surface.
+- [x] Live result remains clean: **186 canonical PQ records / 860 canonical relationship edges**, exact domain counts **244 / 151 / 125 / 247 / 86 / 7**, **0 invalid relationship PQ IDs / 0 duplicate PQ numbers / 0 duplicate PQ IDs**.
+- [x] Published explorer dependency contract is clean: canonical record source and relationship source are explicit, record/relationship collections are guarded, and canonical Search navigation is present.
+- [x] Refreshed `docs/data/pq-reference-page-audit.json` to schema **1.2.0**.
+- [x] No canonical relationship, identity, reward, or quest-mechanics data was changed.
+- [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
+- [x] Commit: `164ac5631fde15ed1d6371fa1e0faf40d24957ea`; audit refresh: `037767eed10483c556ec4e88b64ed7f9125a7bfe`.
+- [ ] Exact next batch: inspect the next registered PQ-facing search/landing consumer or cross-domain registry for one-way navigation and stale hard-coded counts, using exact canonical pair/identity parity where deterministic.
