@@ -198,7 +198,8 @@
       "name": "Goku Wig (Super Saiyan)",
       "category": "wig",
       "acquisition_routes": [
-        "Parallel Quest 18"
+        "Parallel Quest 18",
+        "Parallel Quest 63 reported by the maintained PQ guide"
       ],
       "dlc_provenance": "base_game",
       "restrictions": null,
@@ -206,8 +207,12 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxenoverse.fandom.com/wiki/Accessories",
-        "https://dbxv2.fandom.com/wiki/Equipment"
-      ]
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://www.gameskinny.com/tips/dragon-ball-xenoverse-guide-equipment-and-accessory-list/",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://xvguide.neocities.org/clothes"
+      ],
+      "notes": "Source conflict is preserved: GameSkinny lists Goku Wig (Super Saiyan) under PQ18, while the maintained Steam all-PQ guide lists it as a PQ63 Basic Reward. Canonical identity remains acc-012; historical equip-088 is normalized to this accessory identity. Do not collapse the conflicting PQ routes without stronger version-specific evidence."
     },
     {
       "id": "acc-013",
@@ -2010,173 +2015,184 @@
     {
       "id": "equip-081",
       "name": "Four-Star Dragon Ball Hat",
-      "category": "unclassified",
+      "category": "headwear",
       "acquisition_routes": [
-        "Parallel Quest 5 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+        "Parallel Quest 5"
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "base_game",
       "restrictions": null,
-      "combat_effect": "unresolved",
+      "combat_effect": "cosmetic",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://it.scribd.com/document/741933692/Dragon-Ball-Xenoverse-2-Equipment-Guide-Outfits-and-Accessories",
+        "https://xvguide.neocities.org/clothes",
+        "https://dragonball.fandom.com/wiki/Four-Star_Dragon_Ball_Hat"
       ],
       "parallel_quest_ids": [
         5
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Accessory/headwear classification independently corroborated. PQ5 is listed as the reward route; exact drop-slot/roll semantics remain unresolved."
     },
     {
       "id": "equip-082",
       "name": "Goku's Turtle Hermit Gi (King Kai)",
-      "category": "unclassified",
+      "category": "clothing",
       "acquisition_routes": [
-        "Parallel Quest 8 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+        "Parallel Quest 8"
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "base_game",
       "restrictions": null,
-      "combat_effect": "unresolved",
+      "combat_effect": "Health +2; Ki 0; Stamina -2; Basic ATK -2; Strike Supers 0; Ki Blast Supers +2",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://it.scribd.com/document/741933692/Dragon-Ball-Xenoverse-2-Equipment-Guide-Outfits-and-Accessories",
+        "https://xvguide.neocities.org/clothes"
       ],
       "parallel_quest_ids": [
         8
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Clothing classification, PQ8 acquisition, and stat spread independently corroborated. Exact reward-slot/drop semantics remain unresolved."
     },
     {
       "id": "equip-083",
       "name": "Chiaotzu's Hat (With Collar)",
-      "category": "unclassified",
+      "category": "headwear",
       "acquisition_routes": [
-        "Parallel Quest 9 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+        "Parallel Quest 9",
+        "Accessory Shop reported"
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "base_game",
       "restrictions": null,
-      "combat_effect": "unresolved",
+      "combat_effect": "cosmetic",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://it.scribd.com/document/741933692/Dragon-Ball-Xenoverse-2-Equipment-Guide-Outfits-and-Accessories",
+        "https://xvguide.neocities.org/clothes"
       ],
       "parallel_quest_ids": [
         9
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Accessory/headwear classification independently corroborated. PQ9 and an Accessory Shop route are documented; exact current shop availability and reward-slot semantics remain unresolved."
     },
     {
       "id": "equip-084",
       "name": "Piccolo's School Clothes",
-      "category": "unclassified",
+      "category": "clothing",
       "acquisition_routes": [
-        "Parallel Quest 49 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+        "Parallel Quest 49",
+        "Clothing Shop"
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "base_game",
       "restrictions": null,
-      "combat_effect": "unresolved",
+      "combat_effect": "Health -4; Ki +2; Stamina -4; Basic ATK +2; Strike Supers +2; Ki Blast Supers +2",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://it.scribd.com/document/741933692/Dragon-Ball-Xenoverse-2-Equipment-Guide-Outfits-and-Accessories",
+        "https://xvguide.neocities.org/clothes"
       ],
       "parallel_quest_ids": [
         49
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
-    },
-    {
-      "id": "equip-085",
-      "name": "Mr. Shape Up M",
-      "category": "unclassified",
-      "acquisition_routes": [
-        "Parallel Quest 50 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
-      ],
-      "dlc_provenance": "unresolved",
-      "restrictions": null,
-      "combat_effect": "unresolved",
-      "verification_status": "partially_verified",
-      "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ],
-      "parallel_quest_ids": [
-        50
-      ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Clothing classification, PQ49 route, Clothing Shop route, and stat spread independently corroborated. This outfit has no Hands part. Exact current shop availability and reward-slot semantics remain unresolved."
     },
     {
       "id": "equip-086",
       "name": "Battle Suit (CC)",
-      "category": "unclassified",
+      "category": "clothing",
       "acquisition_routes": [
-        "Parallel Quest 61 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+        "Parallel Quest 61"
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "base_game",
       "restrictions": null,
-      "combat_effect": "unresolved",
+      "combat_effect": "Health 0; Ki 0; Stamina 0; Basic ATK 0; Strike Supers 0; Ki Blast Supers +2",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://it.scribd.com/document/741933692/Dragon-Ball-Xenoverse-2-Equipment-Guide-Outfits-and-Accessories",
+        "https://xvguide.neocities.org/clothes"
       ],
       "parallel_quest_ids": [
         61
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Clothing classification, PQ61 route, and stat spread independently corroborated. Exact reward-slot/drop semantics remain unresolved."
     },
     {
       "id": "equip-087",
       "name": "Frieza's Suit (Final Form)",
-      "category": "unclassified",
+      "category": "clothing",
       "acquisition_routes": [
-        "Parallel Quest 62 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+        "Parallel Quest 62"
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "base_game",
       "restrictions": null,
-      "combat_effect": "unresolved",
+      "combat_effect": "Health 0; Ki +4; Stamina -4; Basic ATK 0; Strike Supers +4; Ki Blast Supers -4",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://it.scribd.com/document/741933692/Dragon-Ball-Xenoverse-2-Equipment-Guide-Outfits-and-Accessories",
+        "https://xvguide.neocities.org/clothes"
       ],
       "parallel_quest_ids": [
         62
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Clothing classification, PQ62 route, and stat spread independently corroborated. Exact reward-slot/drop semantics remain unresolved."
     },
     {
       "id": "equip-089",
       "name": "Gohan's Gi (Adult)",
-      "category": "unclassified",
+      "category": "clothing",
       "acquisition_routes": [
-        "Parallel Quest 65 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+        "Parallel Quest 65"
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "base_game",
       "restrictions": null,
-      "combat_effect": "unresolved",
+      "combat_effect": "Health +4; Ki -4; Stamina +4; Basic ATK +4; Strike Supers -4; Ki Blast Supers -4",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://it.scribd.com/document/741933692/Dragon-Ball-Xenoverse-2-Equipment-Guide-Outfits-and-Accessories",
+        "https://xvguide.neocities.org/clothes"
       ],
       "parallel_quest_ids": [
         65
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Clothing classification, PQ65 route, and stat spread independently corroborated. Exact reward-slot/drop semantics remain unresolved."
     },
     {
       "id": "equip-090",
       "name": "Whis Symbol Gi",
-      "category": "unclassified",
+      "category": "clothing",
       "acquisition_routes": [
-        "Parallel Quest 66 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+        "Parallel Quest 76"
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "base_game",
       "restrictions": null,
-      "combat_effect": "unresolved",
+      "combat_effect": "Health -5; Ki 0; Stamina +5; Basic ATK +5; Strike Supers 0; Ki Blast Supers -5",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://it.scribd.com/document/741933692/Dragon-Ball-Xenoverse-2-Equipment-Guide-Outfits-and-Accessories",
+        "https://xvguide.neocities.org/clothes",
+        "https://steamcommunity.com/app/454650/discussions/0/1743386132100619246/",
+        "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/79695690",
+        "https://steamcommunity.com/app/454650/discussions/0/341537671990112469/"
       ],
       "parallel_quest_ids": [
         66
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical acquisition corrected from PQ66 to PQ76 after independent corroboration from the maintained clothing guide, Steam discussion, GameFAQs, and the repository's XVGuide clothing source. PQ66 does not list this outfit in its basic rewards. Exact reward-slot/drop semantics remain unresolved."
     },
     {
       "id": "equip-091",
