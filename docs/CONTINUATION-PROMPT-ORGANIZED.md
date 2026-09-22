@@ -703,3 +703,14 @@
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [x] Commits: `8a256fb4e2998c12a0f29b42a637acbdc93ff5c4`, `8bf3f109e1ec3249f43f6daf9978d58d2198a4db`.
 - [ ] Exact next batch: inspect remaining PQ-facing search/landing consumers and cross-domain index registry for deterministic duplicated counts or one-way navigation gaps.
+
+
+### 2026-09-22 cycle update — PQ presentation-index exact forward-pair hardening
+- [x] Audited `scripts/validate_pq_presentation_indexes.py` and its four PQ reverse/presentation reports against the canonical PQ relationship graph.
+- [x] Hardened validation from endpoint/name existence to exact canonical `(target,PQ)` forward-pair parity for Skills, Super Souls, Equipment, and the canonical accessory subset, plus duplicate-forward-pair rejection.
+- [x] Live exact parity: **244/244 Skills, 151/151 Super Souls, 125/125 Equipment, 28/28 Accessories; 0 missing, 0 extra, 0 duplicate pairs**.
+- [x] Refreshed `docs/data/pq-presentation-index-identity-audit.json` to schema **1.1.0** with the exact-pair contract.
+- [x] No canonical relationship or identity records were changed.
+- [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
+- [x] Commits: `95ed7620422b5559973a632027b8faade65e9964`, `e14b92f6a0550c86cb5e22730281c5bbbf6e0711`.
+- [ ] Exact next batch: audit `scripts/validate_record_reverse_pq_navigation.py` for the same exact forward-pair and duplicate assumptions, then update its audit only if the live consumer contract is deterministically clean.
