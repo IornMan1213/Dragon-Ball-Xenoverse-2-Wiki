@@ -6799,3 +6799,15 @@ The repository owner has clarified the continuation contract:
 - Validation: target is **35 exactly-two-source records** after this batch; canonical/index parity, duplicate/null-Ki checks, and citation-artifact checks remain required.
 - CI: no success is claimed unless a status/workflow result is exposed for the final handoff commit.
 - Exact next batch: **recompute the live two-source census first, then continue with the next deterministic low-source record after Gigantic Roar**.
+
+
+### 2026-09-21 cycle update — God of Destruction's Roar low-source provenance strengthening
+- Workstream: P1 skill acquisition/DLC-version provenance cleanup; deterministic two-source census sequence.
+- Live pre-edit census: **452 canonical / 452 index / 35 exactly-two-source records / 0 duplicate IDs / 0 nullable ki_cost values**.
+- Bounded batch: **God of Destruction's Roar (skill-god-of-destruction-s-roar)**.
+- Evidence: Videogaming Wiki's PQ105 page independently lists God of Destruction's Roar under **Basic Reward** for **Champa's Hellish Holiday**, corroborating the PQ105 acquisition route and no-Ultimate-Finish requirement. Source: https://videogaming.fandom.com/wiki/Champa%27s_Hellish_Holiday .
+- Changes: added the independent PQ source to canonical `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21**; synchronized source projections; documented the batch in `CHANGELOG.md` and `docs/COVERAGE-AUDIT.md`.
+- Evidence limits preserved: existing **Super Pack 2**, **PQ105**, **Basic Reward**, Strike Super, Champa, 100 Ki, and CaC semantics were preserved. No unsupported drop probability or reward condition was inferred.
+- Validation: target is **34 exactly-two-source records** after this batch; canonical/index parity, duplicate/null-Ki checks, and citation-artifact checks remain required.
+- CI: no success is claimed unless a status/workflow result is exposed for the final handoff commit.
+- Exact next batch: **recompute the live two-source census first, then continue with the next deterministic low-source record after God of Destruction's Roar**.
