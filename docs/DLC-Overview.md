@@ -200,3 +200,13 @@ For every DLC family, the eventual encyclopedia pass should answer:
 - [Bandai Namco — Future Saga Chapter 4 launch](https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now)
 - [Bandai Namco — Future Saga Chapter 3](https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-future-saga-chapter-3-available-now)
 - [Bandai Namco — Dragon Ball DAIMA Pack](https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-dragon-ball-daima-pack-now-available)
+
+## Canonical DLC Identity Navigation
+
+The machine-readable DLC relationship layer is backed by a standalone canonical identity projection for the **20 DLC targets currently used by canonical PQ relationships**. This projection preserves pack-versus-chapter granularity and does not create additional PQ relationships.
+
+- [Canonical DLC identity records](./data/dlc/canonical-dlc-identity.json)
+- [PQ → DLC reverse index](./data/dlc/pq-reverse-index.json)
+- [DLC reverse-navigation audit](./data/dlc/pq-reverse-navigation-audit.json)
+
+The canonical relationship layer remains authoritative. The identity projection exists to make existing `pq_requires_dlc` targets navigable and validator-resolvable; it is not a replacement for the official DLC baseline or a source for new relationships.
