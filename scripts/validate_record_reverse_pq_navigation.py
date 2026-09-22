@@ -37,6 +37,7 @@ def audit(domain, record_file, html, relationship, structured_field):
     source_route_conflicts = []
     source_route_subsets = []
     structured_pair_keys = set()
+    structured_pair_list = []
     invalid_structured_pq_ids = []
 
     canonical_names = set(canonical)
@@ -62,7 +63,9 @@ def audit(domain, record_file, html, relationship, structured_field):
                 pq_num = int(pq.split("-")[1])
                 if not 1 <= pq_num <= 186:
                     invalid_structured_pq_ids.append({"id": record.get("id"), "name": record.get("name"), "value": raw_pq})
-                structured_pair_keys.add((record.get("name"), pq))
+                pair = (record.get("name"), pq)
+                structured_pair_keys.add(pair)
+                structured_pair_list.append(pair)
 
     canonical_pair_keys = {(e.get("target"), e.get("pq")) for e in edges}
     canonical_target_pairs = {(name, pq) for name, pqs in canonical.items() for pq in pqs}
@@ -113,6 +116,7 @@ def audit(domain, record_file, html, relationship, structured_field):
         "query_navigation": "URLSearchParams(location.search).get('q')" in h,
         "reverse_pair_parity": not reverse_pair_missing and not reverse_pair_extra,
         "structured_pq_ids_valid": not invalid_structured_pq_ids,
+        "duplicate_structured_pairs": len(structured_pair_list) == len(set(structured_pair_list)),
     }
     return {
         "record_count": len(records),
@@ -129,6 +133,7 @@ def audit(domain, record_file, html, relationship, structured_field):
         "reverse_pair_missing": reverse_pair_missing,
         "reverse_pair_extra": reverse_pair_extra,
         "invalid_structured_pq_ids": invalid_structured_pq_ids,
+        "duplicate_structured_pairs": len(structured_pair_list) - len(set(structured_pair_list)),
         "checks": checks,
         "status": "clean" if all(checks.values()) else "unresolved",
     }
