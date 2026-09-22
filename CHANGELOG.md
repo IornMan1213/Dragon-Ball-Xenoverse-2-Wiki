@@ -1261,3 +1261,11 @@
 - Preserved the existing character-only/non-CaC boundary and did not infer a reward or acquisition route.
 - Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index source projections.
 - Post-write target: **40 exactly-two-source records**.
+
+
+## 2026-09-21 — Full Power Charge low-source provenance strengthening
+- Live pre-edit low-source census: **40 exactly-two-source records**.
+- Strengthened **Full Power Charge** from two to three provenance sources with an independent Advancement Test page documenting it as a Basic Reward of **Advancement Test - Advanced Class** in Xenoverse 2.
+- Preserved the existing acquisition endpoint and did not add an Ultimate Finish requirement.
+- Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index source projections.
+- Post-write target: **39 exactly-two-source records**.
