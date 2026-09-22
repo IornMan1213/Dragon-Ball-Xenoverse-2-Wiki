@@ -1641,3 +1641,13 @@
 - [x] Cross-domain links already exist: PQ96 → Absolute Zero is represented in the PQ skill crosslink and unified reverse index.
 - [ ] Runtime/CI remains unavailable; validation is static JSON parsing, canonical/index parity, and source-endpoint comparison.
 - [ ] Exact next batch: continue the P1 skill provenance census with **All Clear (`skill-all-clear`)**, then proceed sequentially through the unfinished skill queue while preserving evidence conflicts.
+
+
+### 2026-09-22 cycle update — All Clear mentor provenance verification
+- [x] Live skill census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical ki_cost**; bounded record: `skill-all-clear`.
+- [x] Independent evidence: the maintained instructor-quest guide lists **All Clear** as **Cell's Initiation Test — Basic Reward**. citeturn0search14turn0search15 The dedicated skill reference identifies the acquisition as training with Cell (Perfect), and the mentor roster independently lists All Clear among Cell's rewards. citeturn0search0turn0search3
+- [x] Acquisition endpoint is therefore retained as Cell (Perfect) mentor training; no Parallel Quest acquisition, Ultimate Finish requirement, or probability is inferred.
+- [x] Canonical/index provenance notes and `last_verified` were refreshed; no skill identity, classification, cost, or cross-domain relationship required correction.
+- [x] Cross-domain mentor linkage already exists through `source_mentor: [mentor-cell]` in the canonical layer.
+- [ ] Runtime/CI remains unavailable; validation is static JSON parsing, census, canonical/index parity, and source comparison.
+- [ ] Exact next batch: continue the P1 skill provenance census with the next unfinished skill after `skill-all-clear`, preserving source conflicts and avoiding duplicate work.
