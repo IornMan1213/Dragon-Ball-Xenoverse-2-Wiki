@@ -4213,13 +4213,14 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
-        "https://dbxv2.fandom.com/wiki/Full_Power_Charge"
+        "https://dbxv2.fandom.com/wiki/Full_Power_Charge",
+        "https://videogaming.fandom.com/wiki/Advancement_Test_-_Advanced_Class"
       ],
       "unlock_method": "Advancement Test — Advanced Class reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
-      "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
+      "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-21 low-source provenance strengthening: an independent Advancement Test page documents Full Power Charge as a Basic Reward of Advancement Test - Advanced Class in Xenoverse 2. This corroborates the existing Advanced Class acquisition endpoint without adding an Ultimate Finish requirement.",
       "mechanics_notes": "Confirmed as the Advanced Class Advancement Test charge skill, usable by all CaC races. It charges Ki faster than Energy Charge but slower than Maximum Charge. 2026-09-21 cross-domain normalization: canonical Advancement Test endpoint advancement-test-advanced added from the existing acquisition record.",
       "source_quest": "Advancement Test — Advanced Class",
       "source_quest_or_shop": "Advancement Test - Advanced Class"
