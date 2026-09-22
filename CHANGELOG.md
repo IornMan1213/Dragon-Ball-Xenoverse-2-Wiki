@@ -1,4 +1,10 @@
-## 2026-09-22 — PQ character/DLC target normalization
+## 2026-09-22 — PQ185/PQ186 duplicate relationship evidence repair
+
+- Recomputed the corrected PQ relationship array and found two duplicate relationship keys: PQ185 and PQ186 each had the same `Future Saga Chapter 4` DLC edge twice, with different evidence sources.
+- Merged each duplicate into one canonical relationship edge, retaining the official Bandai Namco URL as `source` and preserving the Steam corroboration in `notes` to satisfy the existing schema without losing provenance.
+- Current unique relationship baseline is **860 edges**: 244 skill / 151 Super Soul / 125 equipment / 247 character / 86 DLC / 7 farming.
+- Historical 862-edge counts remain preserved as historical audit records and are explicitly superseded by the current unique-edge baseline.
+- Validation: **0 duplicate relationship keys**, 0 invalid PQ numbers, 0 empty targets, 0 DLC casefold duplicate keys, and 75/75 character target resolution.\n\n## 2026-09-22 — PQ character/DLC target normalization
 
 - Audited all **247 character relationship edges / 75 unique character targets** against the canonical `docs/data/characters-record-layer.json`: **75/75 exact canonical identities**, with the existing five explicit aliases preserved and **0 missing canonical targets**.
 - Audited all **88 DLC relationship edges / 21 unique DLC targets** against canonical PQ DLC requirement values and source-backed pack naming.
