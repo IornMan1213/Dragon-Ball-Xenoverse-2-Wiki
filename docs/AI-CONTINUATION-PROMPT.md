@@ -6933,3 +6933,16 @@ The repository owner has clarified the continuation contract:
 - Commits: pending for the two data-file updates and handoff update in this cycle.
 - Live census after editing: **24 exactly-two-source records**.
 - Exact next batch: **Maximum Charge (`skill-maximum-charge`)**; recompute the live census first, then independently verify its acquisition endpoint and strengthen provenance only where the evidence threshold is met.
+
+
+### 2026-09-21 cycle update — Maximum Charge provenance strengthening
+- Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 24 exactly-two-source canonical records**.
+- Bounded batch: **Maximum Charge (`skill-maximum-charge`)**.
+- Research/evidence: an independent maintained Steam build guide lists **Maximum Charge** as unlocked from the **Advancement Test — God Class**, corroborating the existing deterministic acquisition endpoint. The dedicated skill and advancement-test evidence also identify the same endpoint.
+- Changes: added the maintained Steam build guide as a third provenance source to Maximum Charge in both `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21** and recorded the corroboration in notes.
+- Evidence limits/conflicts preserved: the evidence corroborates the God Class test endpoint but does not justify adding a more specific prerequisite chain to the skill record; no unsupported prerequisite was added.
+- Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 23 exactly-two-source records**; canonical/index source and verification parity is clean; no internal AI/UI/search citation artifacts detected.
+- CI: workflow status was not exposed during this bounded pass; no CI success is claimed and validators were not changed.
+- Commits: canonical/index commits recorded immediately above; handoff commit pending.
+- Live census after editing: **23 exactly-two-source records**.
+- Exact next batch: **Meteor Crash (`skill-meteor-crash`)**; recompute the live census first, then independently verify its acquisition endpoint and strengthen provenance only where the evidence threshold is met.
