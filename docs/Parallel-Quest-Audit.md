@@ -105,7 +105,7 @@ A 7-star crossover quest. The existing audit preserves the Rosé Goku Black heal
 
 The wiki distinguishes **numbered audit coverage** from **currently available PQs**. A quest is not marked complete merely because its title or number has been indexed: objectives, rewards, and Ultimate Finish conditions must be checked before promotion.
 
-**Current structured audit coverage: numbered PQ1–PQ186, with known numbering gaps preserved.** The audit is structurally complete, but a final cross-link consistency pass remains: every documented skill reward should resolve to exactly one canonical skill key, and every skill record claiming a PQ source should resolve back to a numbered PQ audit record. Current research supports 183 standalone PQs because PQ36 is cut; the historical PQ36 evidence remains preserved for auditability. citeturn0search0
+**Current structured audit coverage: numbered PQ1–PQ186, with known numbering gaps preserved.** The skill PQ cross-link gate is now resolved in the canonical relationship layer, and the current cross-domain baseline is 860 unique edges across skills, Super Souls, equipment, characters, DLC, and farming. The remaining structural gate is consumer/navigation integrity: direct PQ pages, catalog indexes, and presentation projections must resolve their displayed targets to the canonical relationship and identity layers without inventing aliases or relationship edges. Current research supports 183 standalone PQs because PQ36 is cut; the historical PQ36 evidence remains preserved for auditability. citeturn0search0
 
 ## Primary research corpus
 
