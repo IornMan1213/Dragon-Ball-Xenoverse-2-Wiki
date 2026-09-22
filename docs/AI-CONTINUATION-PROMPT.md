@@ -1722,3 +1722,17 @@
 - Commits: canonical `1b2f96e444c1f0ce17174cba4d4d95841ae671cd`; detail audit `007c9a768edd1483583cec7336b2f7537366922a`; TODO `93e4ff79cc11b260fbe039ad355eef9adee89a86`.
 - Exact next batch: **`equip-091`–`equip-100`**; recompute the endpoint census first and preserve canonical accessory bridges/normalized aliases.
 
+### 2026-09-22 cycle update — Equipment detail enrichment `equip-091`–`equip-100`
+- Active workstream: P1 equipment/accessory canonical endpoint enrichment.
+- Fresh live census: **174 combined equipment/accessory records / 139 legacy equipment records / 0 duplicate IDs / 125 PQ→equipment forward edges / 123 unique targets / 0 broken endpoints**.
+- Bounded batch: legacy endpoints `equip-091`–`equip-100`.
+- Canonical identity handling: `equip-091` SSGSS Goku Wig remains the historical endpoint for canonical `acc-058`; `equip-093` Videl (DB Super) Wig remains the historical endpoint for canonical `acc-070`. No duplicate canonical identities were created.
+- Detail changes: eight non-aliased endpoints received source-backed category/slot metadata and DLC provenance. Orange Piccolo's Clothes is explicitly three-piece/no-hands; Videl (DB Super)'s Clothes is four-piece; DAIMA suit/wig/battle-suit classification follows independent DLC/equipment evidence. Vegeta's Shirt remains upper-body only rather than being promoted to a full set.
+- Evidence: maintained DBXV2 equipment catalog; maintained all-186-PQ Steam guide; DBXV2 DLC documentation; Bandai Namco DAIMA Pack announcement; independent GameFAQs component discussion.
+- Evidence limits preserved: no reward probability, guarantee, combat/stat effect, or unsupported restriction was inferred.
+- Audit: added `docs/data/equipment/equipment-091-100-detail-audit.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- Validation: **174/174 combined endpoint identities, 0 duplicate IDs/names, 125 forward, 123 reverse, 0 broken**; 10/10 legacy endpoints have slot coverage; 8/8 non-alias endpoints explicitly classified.
+- CI/Actions: no successful workflow/check exposed; CI success is not claimed.
+- Commits: canonical `267cb0dcd98b9c5b8307e0d0f1ca5ac4b3da65cb`; combined `af70f83339d32794fa6c577ebfadc97850bd0f62`; audit `87b75353add617b60607c476dacb3442dc95ba3b`; registry `bb005ca06da404f9027bf18148e6204f4b72cfe3`; TODO `660fb46d05ba6192d315cf1755e2b12ae4dad661`.
+- Exact next batch: **`equip-101`–`equip-110`** after a fresh endpoint census, preserving canonical accessory bridges and normalized historical aliases.
+
