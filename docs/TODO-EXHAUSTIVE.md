@@ -1825,3 +1825,9 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Independent PQ153 acquisition corroboration added via maintained Steam all-PQ guide.
 - [x] Existing Ultimate Finish/drop-condition conflict preserved rather than overwritten.
 - [x] Canonical/index source parity synchronized and live census recorded in handoff.
+
+
+### 2026-09-22 bounded provenance cycle — Soaring Fist
+- [x] Added independent Dragon Ball Wiki provenance confirming the Xenoverse 2 TP Medal Shop acquisition endpoint.
+- [x] Preserved the existing TP/STP shop semantics, Free Update 11 classification, and CaC scope; no unsupported rotation/purchase condition was inferred.
+- [x] Canonical/index source parity synchronized; live census recorded in the AI continuation handoff.
