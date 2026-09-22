@@ -1,3 +1,13 @@
+## 2026-09-22 — PQ character/DLC target normalization
+
+- Audited all **247 character relationship edges / 75 unique character targets** against the canonical `docs/data/characters-record-layer.json`: **75/75 exact canonical identities**, with the existing five explicit aliases preserved and **0 missing canonical targets**.
+- Audited all **88 DLC relationship edges / 21 unique DLC targets** against canonical PQ DLC requirement values and source-backed pack naming.
+- Found one deterministic case-only duplicate in the DLC reverse index: `Future Saga Chapter 4` and `FUTURE SAGA Chapter 4`, both pointing to PQ185/PQ186.
+- Normalized PQ185/PQ186 relationship targets to canonical `Future Saga Chapter 4` and removed the duplicate uppercase reverse-index key.
+- Preserved the distinction between source-backed `Super Pack 1-4` relationship targets and the broader `Super Pass` requirement; no unsupported identifier collapse was performed.
+- Post-write invariant: **862 total relationships**, **247 character**, **88 DLC**, **0 duplicate relationship keys**, **0 invalid PQ numbers**, **0 empty targets**, **0 DLC casefold duplicate keys**.
+- Canonical-source-of-truth rule preserved: relationship and reverse-index layers remain projections; verification/research metadata does not override canonical identities.
+
 ## 2026-09-22 — Requiem of Destruction provenance strengthening
 - Live post-edit census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 14 exactly-two-source canonical records**.
 - Bounded batch: **Requiem of Destruction (`skill-requiem-of-destruction`)**.
