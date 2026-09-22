@@ -148,3 +148,14 @@
 - The attempted append to `docs/COVERAGE-AUDIT.md` was blocked by the repository write tool's safety layer before any coverage-file mutation occurred; the existing coverage file was therefore left untouched rather than risk an unsafe overwrite.
 - Validation remains live and clean at **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 8 exactly-two-source records**, with Taunt canonical/index source parity confirmed and no internal citation artifacts.
 - Exact follow-up: if a safer patch mechanism is available, append the Taunt coverage entry to `docs/COVERAGE-AUDIT.md`; otherwise preserve this limitation and continue the deterministic low-source sequence without fabricating coverage state.
+
+
+### 2026-09-21 cycle update — Temporal Holy Ray provenance strengthening
+- Active workstream: P1 skill acquisition/DLC-version provenance cleanup.
+- Bounded batch: **Temporal Holy Ray (`skill-temporal-holy-ray`)**, the next deterministic exactly-two-source record after Taunt.
+- Evidence: Fandom's dedicated skill page identifies **Conton City Tournament Match 3 — "Time for the Quarterfinals!"**; an independent GameFAQs tournament reference likewise places Temporal Holy Ray at Conton City Tournament 3. The existing Bandai Namco DLC documentation remains retained for Free Update 11 provenance.
+- Changes: canonical/index sources gained the GameFAQs tournament source; `last_verified` refreshed to **2026-09-21**; provenance note synchronized.
+- Evidence limits preserved: no drop probability was inferred.
+- Validation target after this batch: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 7 exactly-two-source records**, with canonical/index source parity.
+- CI/Actions: must be checked against the resulting head before claiming success.
+- Exact next batch: **recompute the live two-source census and continue the next deterministic low-source record after Temporal Holy Ray**.
