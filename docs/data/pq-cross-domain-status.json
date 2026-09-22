@@ -75,7 +75,39 @@
       1
     ],
     "pq_12_14_added": true,
-    "pq_1_interpretation": "No typed skill/Super Soul/equipment reward listed in the cited Basic Reward source; no relationship fabricated."
+    "pq_1_interpretation": "No typed skill/Super Soul/equipment reward listed in the cited Basic Reward source; no relationship fabricated.",
+    "reverse_counts": {
+      "skill": 244,
+      "super_soul": 151,
+      "equipment": 125,
+      "character": 247,
+      "dlc": 88,
+      "farming": 7
+    },
+    "forward_counts": {
+      "skill": 244,
+      "super_soul": 151,
+      "equipment": 125,
+      "character": 247,
+      "dlc": 88,
+      "farming": 7
+    },
+    "audit_counts": {
+      "skill": 244,
+      "super_soul": 151,
+      "equipment": 125,
+      "character": 247,
+      "dlc": 88,
+      "farming": 7
+    },
+    "status_counts": {
+      "skill": 244,
+      "super_soul": 151,
+      "equipment": 125,
+      "character": 247,
+      "dlc": 88,
+      "farming": 7
+    }
   },
   "non_reward_audit": {
     "date": "2026-09-19",
