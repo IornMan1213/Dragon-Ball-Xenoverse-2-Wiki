@@ -5828,7 +5828,8 @@
       "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Galick_Gun",
-        "https://dragonball.fandom.com/wiki/Galick_Gun"
+        "https://dragonball.fandom.com/wiki/Galick_Gun",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-how-to-vegeta-mentor-quest-guide/"
       ],
       "ki_cost": 100,
       "unlock_method": "Vegeta's Initiation Test — complete the mentor battle using Galick Gun as required; Galick Gun is the Basic Reward.",
@@ -5842,7 +5843,7 @@
       "source_quest": "Vegeta mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 deterministic acquisition verification: Vegeta mentor training. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
+      "notes": "2026-09-19 deterministic acquisition verification: Vegeta mentor training. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-21 low-source provenance strengthening: Twinfinite independently documents Vegeta's Initiation Test as awarding Galick Gun, corroborating the existing Vegeta mentor-training acquisition endpoint. It does not alter the existing no-Ultimate-Finish inference.",
       "id": "skill-galick-gun",
       "source_mentor": [
         "mentor-vegeta"
