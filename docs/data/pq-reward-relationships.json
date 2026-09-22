@@ -351,7 +351,7 @@
     {
       "pq": "pq-046",
       "relationship": "pq_rewards_skill",
-      "target": "Chain Destructo-disc Barrage",
+      "target": "Chain Destructo-Disc Barrage",
       "status": "source_backed",
       "source": "canonical PQ skill relationship report"
     },
@@ -673,7 +673,7 @@
     {
       "pq": "pq-090",
       "relationship": "pq_rewards_skill",
-      "target": "III Bomber",
+      "target": "Ill Bomber",
       "status": "source_backed",
       "source": "canonical PQ skill relationship report"
     },
@@ -1485,7 +1485,7 @@
     {
       "pq": "pq-163",
       "relationship": "pq_rewards_skill",
-      "target": "Giant Cluster",
+      "target": "Gigantic Cluster",
       "status": "source_backed",
       "source": "canonical PQ skill relationship report"
     },
