@@ -1491,3 +1491,10 @@
 - Preserved unresolved drop/reward semantics and unsupported mechanics.
 - PQ→equipment parity remains clean: 124 forward / 122 reverse / 0 unresolved / 0 broken endpoints.
 - Next batch: `equip-041`–`equip-050`.
+
+## 2026-09-22 — Equipment provenance batch `equip-041`–`equip-050`
+- Added independent provenance and item classification to 10 canonical equipment/accessory records.
+- Reconciled DLC provenance across Ultra Pack 1, Ultra Pack 2, and Legendary Pack 1 using their PQ endpoints.
+- Preserved unsupported reward/drop semantics and mechanics as unresolved.
+- PQ→equipment parity remains clean: 124 forward / 122 reverse / 0 unresolved / 0 broken endpoints.
+- Next batch: `equip-051`–`equip-060`.
