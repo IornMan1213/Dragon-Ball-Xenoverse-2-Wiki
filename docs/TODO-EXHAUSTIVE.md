@@ -2392,3 +2392,18 @@
 - [x] Super Donut Volley provenance refresh
 - [x] Canonical/index synchronization and audit registration completed
 - [ ] Next live batch: **Super Dragon Flight, Super Elite Combo, Super Explosive Wave, Super Gamma Blast, Super Ghost Buu Attack, Super Ghost Kamikaze Attack, Super Ghost Kamikaze Attack, Super God Fist, Super God Shock Flash, Super Kamehameha**; investigate duplicate stale-name occurrence before editing.
+
+
+### 2026-09-22 cycle completion tracking — Super Dragon Flight through Super Kamehameha
+- [x] Super Dragon Flight
+- [x] Super Elite Combo
+- [x] Super Explosive Wave
+- [x] Super Gamma Blast
+- [x] Super Ghost Buu Attack
+- [x] Super Ghost Kamikaze Attack — Super variant
+- [x] Super Ghost Kamikaze Attack — Ultimate variant
+- [x] Super God Fist
+- [x] Super God Shock Flash
+- [x] Super Kamehameha
+- [x] Canonical/index parity and audit registration completed
+- [ ] Next live batch: **Super Kamehameha (SS4 DAIMA), Super Saiyan, Super Saiyan 2, Super Saiyan Blue Kaioken, Super Saiyan God, Super Saiyan God Super Saiyan, Super Saiyan God Super Saiyan (Evolved), Super Spirit Bomb, Super Vegeta, Supernova Cooler**.
