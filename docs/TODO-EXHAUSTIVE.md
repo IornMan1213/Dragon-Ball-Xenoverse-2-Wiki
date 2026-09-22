@@ -1509,3 +1509,13 @@
 - [x] Hardened `scripts/validate_pq_endpoint_navigation.py` so equipment conflict bridge records must carry a PQ ID, source label, explicit-conflict classification, at least two canonical targets, and evidence; DLC granularity records must carry a PQ range, source label, explicit deterministic-granularity classification, and canonical targets.
 - [x] Validator bridge failures are now included in the overall non-zero failure path instead of allowing structurally incomplete presentation mappings to appear clean.
 - [ ] Next gate: inspect the remaining registered presentation consumers and generated reports for field-level schema drift, then perform a full executable validation when repository runtime/CI execution is available.
+
+
+### 2026-09-22 cycle update — registered non-PQ consumer baseline census
+- [x] Completed a fresh static direct-fetch census of the registered non-PQ presentation/identity consumers after the 859/124 correction chain.
+- [x] Audited 16 registered consumer/projection artifacts and confirmed **0 deterministic current 860/862/125/123 scalar mismatches**; historical snapshots remain preserved as history.
+- [x] Confirmed current canonical baseline: **859 total = 244 skill / 151 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming**; equipment projection **124 forward / 122 reverse**.
+- [x] Added and registered `docs/data/pq-non-pq-consumer-census-2026-09-22.json` and `scripts/validate_pq_non_pq_consumer_census.py`.
+- [x] Preserved explicit equipment conflicts, DLC granularity mappings, and the 13 Super Soul acquisition-index reconciliation findings without promoting speculative relationships.
+- [ ] Runtime/CI execution remains unavailable; no executable validation claimed.
+- [ ] Exact next task: resume the P1 provenance queue at **Prominence Flash (`skill-prominence-flash`)**, with a fresh two-source census and independent acquisition/source verification before provenance-only edits.
