@@ -1090,3 +1090,14 @@
 - [ ] Runtime/CI execution remains unavailable; no executable validation or CI success claimed.
 - [x] Commits: canonical `82a108ca9a5b5d7ead16cd445cbb794b985241b0`; index `bdfc0921f2e2590c675685255583b707a1201ac1`.
 - [ ] Exact next batch: continue the P1 skill provenance census with the **next unfinished skill after Afterimage Strike**, recomputing the live canonical/index census first and making provenance-only changes unless deterministic evidence requires a correction.
+
+
+### 2026-09-22 cycle update — Early skill provenance batch: Android Rush / Angry Explosion / Angry Hit / Angry Shout
+- [x] Fresh live skill census: **452 canonical / 452 index / 0 duplicate IDs**; bounded batch: Android Rush, Angry Explosion, Angry Hit, Angry Shout.
+- [x] Independent evidence: Android Rush is Android 16 Training Lesson 2; Angry Explosion is Expert Mission 12; Angry Hit is Majin Buu Training Lesson 1; Angry Shout is a PQ68 Basic Reward.
+- [x] Canonical and index records were refreshed to last_verified: 2026-09-22; the Angry Hit source endpoint was made more precise as Majin Buu mentor training — Lesson 1. No Ultimate Finish-only gate or drop probability was inferred.
+- [x] Evidence limits preserved: PQ68 community reports discuss RNG/conditions but do not establish a numerical rate; repository canonical fields remain bounded to documented acquisition semantics.
+- [x] Static validation: 452/452 records, no duplicate canonical IDs, and exact parity for affected records' verification date, unlock method, Ultimate Finish flag, and source counts.
+- [ ] Runtime/CI remains unavailable; no executable CI success claimed.
+- [x] Commits: canonical 520fcdea2c573ea25575213cde3a481361062fc2; index 9c86cf1aaac62eff3a61409292b1abd4d4c9f6b5.
+- [ ] Exact next batch: continue the P1 skill provenance census with Apocalyptic Burst (skill-apocalyptic-burst), then proceed sequentially through the stale-last_verified queue while preserving reward-tier conflicts.
