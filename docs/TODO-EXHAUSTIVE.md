@@ -294,3 +294,11 @@
 - [x] Validation: all four reports have 0 duplicate keys, 0 invalid PQ references, 0 unresolved forward edges, and 0 orphan reverse sources.
 - [x] Preserved the accessory-vs-equipment scope distinction; no unsupported count collapse was made.
 - [ ] Exact next task: audit remaining generated/reconciliation artifacts outside the four primary cross-link reports for stale current-state counts or mismatched scopes.
+
+
+### 2026-09-22 — PQ reconciliation artifact scope audit
+- [x] Audited the unified reward reconciliation artifact: 186/186 numbered slots, no duplicate boundary IDs, no missing numbered slots, PQ36 explicitly unresolved.
+- [x] Confirmed PQ1-40 and PQ41-80 range audit counts (40/30 and 40/33) are partial-source-layer counts, not canonical relationship counts.
+- [x] Confirmed accessory canonical bridge: 45 records = 29 matched + 16 unresolved, 0 duplicate bridge IDs.
+- [x] Preserved partial reverse-index semantics; no canonical relationship identities were changed.
+- [ ] Exact next task: audit remaining generated reverse indexes/acquisition indexes for scope metadata and canonical-vs-partial semantics, starting with Super Soul PQ acquisition and PQ reverse-index artifacts for PQ81-186.
