@@ -198,3 +198,8 @@
 - [x] Normalized legacy equipment identities to canonical accessory IDs and synchronized PQ→equipment and PQ→accessory reports.
 - [x] Validation: 174 total equipment/accessory records, 70 canonical accessory IDs, 28 accessory forward/reverse edges, 16 unresolved accessory research records, 129 equipment forward / 123 reverse / 0 unresolved / 0 broken.
 - [ ] Exact next task: perform the full cross-database reward/reverse-index census and repair deterministic endpoint/count drift before beginning another provenance-only accessory batch.
+
+
+### 2026-09-22 correction — PQ equipment relationship count
+- [x] Corrected the live PQ→equipment relationship census to **125 forward / 123 reverse / 0 unresolved / 0 broken endpoints**; canonical endpoint parity remains pass.
+- [ ] Exact next task remains the full cross-database reward/reverse-index census and deterministic drift repair.
