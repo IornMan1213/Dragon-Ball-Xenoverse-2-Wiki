@@ -2450,5 +2450,5 @@
 - [x] Preserved evidence conflicts: **Emperor's Cannon** PQ183-vs-PQ184 acquisition conflict remains explicit; **Energy Barrier** Basic-vs-Ultimate-Finish acquisition conflict remains explicit. No unsupported drop rates, gates, or narrower CaC restrictions were inferred.
 - [x] Static validation: **452/452 canonical/index**, **0 duplicate IDs**, all ten targets refreshed, audited shared fields have **0 mismatches**, audit has **10/10 records**, and the registry points to the audit. **298 stale canonical records remain**.
 - [ ] Runtime/CI execution remains unavailable; no CI success claimed.
-- [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Emperor's Death Beam, Emperor's Edge, Endless Shoot, Energy Barrier, Energy Charge, Energy Dome, Energy Field, Energy Minefield**, then adjacent stale records where evidence remains bounded.
+- [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Energy Field, Energy Minefield, Energy Release, Energy Shot, Eraser Bomb, Evil Blast, Evil Eyes, Evil Flame, Evil Flight Strike, Evil Ray Strike**, then adjacent stale records where evidence remains bounded.
 
