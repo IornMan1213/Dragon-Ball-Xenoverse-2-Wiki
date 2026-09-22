@@ -1464,3 +1464,9 @@
 - Corrected the deterministic **Assault Vanish** and **Solar Flare** mechanics-note projections.
 - Reconciled the remaining **32 canonical-to-index `notes` projections** in a single deterministic batch.
 - Validation result: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 0 audited projection mismatches**.
+
+
+## 2026-09-22 — PQ↔skill endpoint naming repair
+- Added the documented **Giant Cluster → Gigantic Cluster** alias to the bidirectional PQ/skill validator.
+- Regenerated the crosslink report; relationship validation is now **244 forward edges / 239 reverse endpoints / 0 unresolved / 0 orphaned**.
+- Canonical naming and reward-source wording were preserved; only endpoint normalization changed.
