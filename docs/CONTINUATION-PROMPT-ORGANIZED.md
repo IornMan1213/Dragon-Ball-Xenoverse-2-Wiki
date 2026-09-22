@@ -945,3 +945,12 @@
 - [x] Commits: canonical `34ffe98a4702514806dbe425aba3f38f18804e6d`, combined `9bcf4242481a7d2283e7fe4db7894e923be2c13a`, audit `8bcbb0f4bf6d846b2557c84631851f07599e4af1`, registry `b51aa73512fb62822681a83b8a80af358142f5d2`, TODO `eced4791690df05feae417c6bd1683f062fef101`, handoff `86e808dcbe2713956f5d6f2bed73f6fc7ac36490`.
 - [ ] Exact next task: fresh census, then **`equip-111`–`equip-120`**.
 
+### 2026-09-22 cycle update — Equipment detail enrichment `equip-111`–`equip-120`
+- [x] Enriched `equip-111`–`equip-120` with source-backed category/slot/DLC metadata.
+- [x] Reconciled Future Saga Chapter 4 provenance for `111–115`; retained base-game PQ-era provenance for `116–120`.
+- [x] Added/registered `docs/data/equipment/equipment-111-120-detail-audit.json`.
+- [x] Validation clean: **174 combined records / 0 duplicate IDs / 125 forward / 123 reverse / 0 broken endpoints**; 10/10 batch records have slot coverage and explicit classification.
+- [x] CI unavailable; no success claimed.
+- [x] Commits: canonical `55f163ba865fecb908a2f1dc259ea455aafb17cf`, combined `bf0f9087f5ac0d56fc34fa69860717bb3817d3a9`, audit `a8e2b5c6029f45e4f0b9bf0e61d58d21b80b19b8`, registry `0a0194f191171bfff92e201de90a08cfeb6f4500`, TODO `853eeb1f4fb1e91c478a91d67bb53080e3e1f102`, handoff `c9743f7f9465aebd38a50bf8085bf0ebfe906a1b`.
+- [ ] Exact next task: fresh census, then **`equip-121`–`equip-130`**.
+
