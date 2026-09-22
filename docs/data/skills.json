@@ -1643,7 +1643,7 @@
         43
       ]
     },
-    {
+        {
       "name": "Chaos Shot",
       "class": "Super",
       "subcategory": "Ki Blast",
@@ -1652,7 +1652,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Chaos_Shot",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74746307",
-        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-dlc-pack-preview"
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-dlc-pack-preview",
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-notice-on-transition-from-tp-medals-to-new-paid-currency"
       ],
       "ki_cost": 100,
       "unlock_method": "TP Medal Shop",
@@ -1663,8 +1664,8 @@
       "acquisition_type": "shop",
       "source_quest_or_shop": "TP Medal Shop",
       "mechanics_notes": "Ki Blast Super used by Frost; current reference describes a chargeable projectile/barrage that can fire in multiple directions or concentrate forward.",
-      "last_verified": "2026-09-21",
-      "notes": "2026-09-21 Free Update 1 provenance identification: the official launch-update announcement confirms four unnamed attacks; contemporaneous December 2016 player reports identify the four TP Medal Shop additions as Chaos Shot, Galick Cannon, Impulse Slash, and Secret Poison. Current skill references confirm the TP Medal Shop acquisition route. The official announcement does not name the four attacks individually, so the name-to-update mapping remains historically source-supported rather than directly enumerated by Bandai Namco.",
+      "last_verified": "2026-09-22",
+      "notes": "2026-09-22 provenance verification: dedicated skill documentation confirms Chaos Shot as a 100-Ki Ki Blast Super used by Frost and acquired from the TP Medal Shop. Current official Bandai Namco documentation confirms TP Medals remain earnable and usable in-game after the May 2024 sales transition. The historical mapping of Chaos Shot to the Free Update 1 TP Medal Shop addition remains community/source-supported rather than directly enumerated by the official announcement.",
       "id": "skill-chaos-shot"
     },
     {
