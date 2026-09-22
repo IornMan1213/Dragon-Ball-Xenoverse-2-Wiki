@@ -6743,3 +6743,16 @@ The repository owner has clarified the continuation contract:
 - Evidence limits preserved: existing Vegeta mentor-training endpoint and no-Ultimate-Finish inference remain unchanged.
 - Validation target after edit: **452/452 records, 0 duplicate IDs, 0 nullable `ki_cost`, 38 exactly-two-source records**, with canonical/index source parity for Galick Gun.
 - Exact next batch: **recompute the live two-source census and continue the next deterministic low-source record after Galick Gun, checking acquisition/reward semantics before provenance-only strengthening.**
+
+
+### 2026-09-21 cycle update — Giant Storm low-source provenance strengthening
+- Workstream: P1 skill acquisition/DLC-version provenance cleanup; deterministic two-source census sequence.
+- Live pre-edit census: **452 canonical / 452 index / 39 exactly-two-source records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- Bounded batch: **Giant Storm (`skill-giant-storm`)**.
+- Research/evidence: the repository's existing Giant Storm and Mentors sources establish the canonical skill identity and Skill Shop endpoint. The Dragon Ball Wiki's Xenoverse 2 technique entry independently confirms Giant Storm as a Xenoverse 2 Ki Blast Ultimate and identifies the **Skill Shop** as its unlock source: https://dragonball.fandom.com/wiki/Volcano_Explosion
+- Changes: added that third source to `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21**; synchronized the canonical/index source projections; documented the batch in `CHANGELOG.md` and `docs/COVERAGE-AUDIT.md`.
+- Evidence limits/conflicts preserved: existing **Skill Shop**, **Base Game**, **All CaC races**, **300 Ki**, and `ultimate_finish_required: false` semantics were preserved. No unsupported shop timing, rotation, drop rate, or additional acquisition condition was inferred.
+- Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 38 exactly-two-source records**. Giant Storm now has 3 sources; canonical/index source and verification-date parity is clean. Changed-file scans found no ChatGPT/UI/internal citation artifacts.
+- CI: inspected commit `edf8d714a509cfa5beed667b0b1b10864b6c07de`; combined status exposed **0 statuses** and the connector returned **0 workflow runs**, so CI success is not claimed. Validators were not weakened.
+- Commits: `c52ec6ef3f8c69b10cb0d3681e484a6fa12fd626` (canonical skills), `5b701857f6ba86b7278c0cfe7ad6b4c11a1ac2b1` (skills index), `80fc985c7dd02386abe55befdc0f6b6b040d7aa3` (changelog), `e486bd9d5a067f5221476c6df808e402d76de7a5` (coverage audit), `edf8d714a509cfa5beed667b0b1b10864b6c07de` (coverage wording correction).
+- Exact next batch: **recompute the live two-source census first, then continue with Gigantic Burst (`skill-gigantic-burst`)**. Verify its acquisition/reward semantics from repository evidence and an independent source before provenance-only strengthening; preserve nulls/conflicts and synchronize canonical/index records.
