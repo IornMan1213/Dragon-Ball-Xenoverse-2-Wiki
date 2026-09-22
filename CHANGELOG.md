@@ -1526,3 +1526,11 @@
 - Removed equip-085 Mr. Shape Up M from the equipment canonical layer after evidence identified it as a consumable capsule/material rather than equipment.
 - Preserved historical equip-088 normalization to accessory acc-012 and retained the PQ18/PQ63 source conflict instead of silently choosing one route.
 - Canonical equipment/accessory count is now 168; generated PQ equipment relationship synchronization remains the immediate follow-up.
+
+
+## 2026-09-22 — Accessory canonical identity promotion batch
+- Promoted eight source-backed accessory identities into the canonical equipment/accessory layer: Four-Star Dragon Ball Hat, Chiaotzu's Hat (With Collar), Dore's Scouter, Great Saiyaman Bandana 1, Great Saiyaman Bandana 2, Jaco's State-of-the-Art Radio, Tagoma's Scouter, and SSGSS Goku Wig.
+- Increased the canonical accessory population to **58** within **172 total equipment/accessory records**.
+- Normalized legacy equipment endpoints `equip-071`, `equip-081`, `equip-083`, and `equip-091` to canonical accessory IDs instead of creating duplicate identities.
+- Rebuilt the accessory bridge/report to **16 forward / 16 reverse / 29 unresolved** and preserved the SSGSS Goku Wig PQ66/PQ76 route conflict.
+- Canonical data remains the source of truth; verification status and research projections do not override canonical identity.
