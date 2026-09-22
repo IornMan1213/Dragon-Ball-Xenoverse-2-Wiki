@@ -1838,3 +1838,15 @@
 - [ ] Runtime/CI execution remains unavailable; no executable CI success claimed.
 - [x] Commits: canonical `50fef71f04288032a268e94b749aba5485300535`; index `f877a9cc5f90cf04f5747bed87df307da2470114`; audit `c985d27efdb625a343fa7f429e02379c251477e8`; registry `79db691a8a514fc5166528b35c9dd67eabf39586`.
 - [ ] Exact next batch: recompute the live census and continue the stale-`last_verified` P1 skill provenance queue with the next stale record after `skill-candy-beam-super`, preserving acquisition conflicts and projection semantics.
+
+
+### 2026-09-22 cycle update — Change The Future provenance verification
+- [x] Fresh live skill census: **452 canonical / 452 index / 0 duplicate IDs / 396 stale before this edit**; bounded record: `skill-change-the-future`.
+- [x] Independent evidence confirms **Change The Future** as a **100-Ki Ki Blast Super / counter skill** and identifies **Parallel Quest 43 — “Change the Future”** as the acquisition endpoint. The maintained all-186-PQ Steam guide independently lists it in PQ43 **Basic Reward**. A GameFAQs discussion is retained as supporting context for the Ki-counter behavior and known in-game wording issue.
+- [x] Refreshed canonical/index `last_verified` to **2026-09-22** and added the dedicated skill reference plus maintained Steam PQ guide to the canonical/index provenance sources.
+- [x] Preserved the existing acquisition, classification, All-CaC-races, counter semantics, and no-Ultimate-Finish-only meaning. No drop probability or new gate was inferred.
+- [x] Added `docs/data/skill-change-the-future-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Static validation: **452/452** records, **0 duplicate IDs**, **396 stale remaining**, affected canonical/index semantic parity preserved.
+- [ ] Runtime/CI execution remains unavailable; no executable CI success claimed.
+- [x] Commits: canonical `bae7a84dab5ae8811991e75043215cd591cd0648`; index `21ef1ec45c1d9acad71acf05e1a4c2815e653b4f`; audit `08744a4c23e7d2495a59ef1923bbc04a2c81b9ae`; registry `4fc242bdfce5745dcb1f40ea637bff59ca558367`.
+- [ ] Exact next batch: recompute the live census and continue the stale-`last_verified` P1 skill provenance queue with **Chaos Shot (`skill-chaos-shot`)**, preserving its Free Update 1 / TP Medal Shop provenance and historical source-mapping uncertainty.
