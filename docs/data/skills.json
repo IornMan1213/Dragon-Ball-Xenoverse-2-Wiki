@@ -444,13 +444,15 @@
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
-        "https://dbxv2.fandom.com/wiki/Become_Giant"
+        "https://dbxv2.fandom.com/wiki/Become_Giant",
+        "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/faqs/74285",
+        "https://dbxv2.fandom.com/wiki/Namekian_Awakening%21"
       ],
       "ultimate_finish_required": false,
       "ki_cost": 300,
       "mechanics_notes": "300 Ki; replaces the moveset, grants hyper armor, continuously drains about 20 Stamina/sec, and prevents Ultimate/Evasive use while active. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
-      "last_verified": "2026-09-21",
-      "notes": "Namekian CaC-only Awoken Skill. Requires 300 Ki; has a continuous Stamina drain and no Ultimate/Evasive slot while active.",
+      "last_verified": "2026-09-22",
+      "notes": "Namekian CaC-only Awoken Skill. Requires 300 Ki; has a continuous Stamina drain and no Ultimate/Evasive slot while active. 2026-09-22 provenance verification: independent GameFAQs walkthrough corroborates the Guru's House/Namekian Awakening route and the level-35 prerequisite; the dedicated Namekian Awakening reference documents the Piccolo → Nail → Dende → Piccolo sequence and completion condition. No semantic field correction was required.",
       "unlock_method": "Complete the Namekian Awakening quest at Guru's House as a Namekian CaC.",
       "research_status": "enriched",
       "source_quest_or_shop": "Namekian Awakening quest — Guru's House",
