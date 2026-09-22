@@ -1124,17 +1124,19 @@
       "acquisition_routes": [
         "Parallel Quest 110 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Super Pack 4",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         110
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Canonical accessory identity normalized from legacy equipment ID equip-133; canonical identity is authoritative."
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Canonical accessory identity acc-064 is the authoritative endpoint for SS4 Wig & Tail (Goku); the legacy equip-133 identifier is retained only as a normalized historical/projection alias. Exact current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Canonical accessory identity acc-064 is authoritative; legacy equip-133 remains a historical/projection alias.",
+      "last_verified": "2026-09-22"
     },
     {
       "id": "acc-065",
@@ -3415,173 +3417,191 @@
     {
       "id": "equip-131",
       "name": "Zamasu's Clothes",
-      "category": "unclassified",
+      "category": "clothing",
       "acquisition_routes": [
         "Parallel Quest 109 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Super Pack 4",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         109
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Maintained equipment documentation identifies Zamasu's Clothes as a four-piece clothing set except hands; PQ109 is the documented acquisition route. Exact current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Maintained equipment documentation supports slot coverage: upper_body, lower_body, feet.",
+      "last_verified": "2026-09-22"
     },
     {
       "id": "equip-132",
       "name": "Super Saiyan 4 Suit (Goku)",
-      "category": "unclassified",
+      "category": "clothing",
       "acquisition_routes": [
         "Parallel Quest 110 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Super Pack 4",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         110
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Maintained equipment documentation identifies Super Saiyan 4 Suit (Goku) as a four-piece clothing set; PQ110 is the documented acquisition route. Exact current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Maintained equipment documentation supports slot coverage: upper_body, lower_body, hands, feet.",
+      "last_verified": "2026-09-22"
     },
     {
       "id": "equip-134",
       "name": "Resistance Clothes",
-      "category": "unclassified",
+      "category": "clothing",
       "acquisition_routes": [
         "Parallel Quest 111 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Super Pack 4",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         111
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Maintained equipment documentation identifies Resistance Clothes as a four-piece clothing set; PQ111 is the documented acquisition route. Exact current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Maintained equipment documentation supports slot coverage: upper_body, lower_body, hands, feet.",
+      "last_verified": "2026-09-22"
     },
     {
       "id": "equip-135",
       "name": "Resistance Helmet",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 111 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Super Pack 4",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         111
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Independent Dragon Ball documentation identifies Resistance Helmet as an accessory obtained from PQ111. Exact current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Maintained equipment documentation supports slot coverage: accessory.",
+      "last_verified": "2026-09-22"
     },
     {
       "id": "equip-136",
       "name": "Pride Trooper Uniform",
-      "category": "unclassified",
+      "category": "clothing",
       "acquisition_routes": [
         "Parallel Quest 114 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Extra Pack 1",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         114
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Maintained equipment documentation identifies Pride Trooper Uniform as a four-piece clothing set; PQ114 is the documented acquisition route. Exact current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Maintained equipment documentation supports slot coverage: upper_body, lower_body, hands, feet.",
+      "last_verified": "2026-09-22"
     },
     {
       "id": "equip-137",
       "name": "Toppo's Moustache",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 114 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Extra Pack 1",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         114
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Pride Trooper content documentation identifies Toppo's Moustache as an accessory reward from PQ114. Exact current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Maintained equipment documentation supports slot coverage: accessory.",
+      "last_verified": "2026-09-22"
     },
     {
       "id": "equip-138",
       "name": "Ribrianne's Clothes",
-      "category": "unclassified",
+      "category": "clothing",
       "acquisition_routes": [
         "Parallel Quest 115 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Extra Pack 1",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         115
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Maintained equipment documentation identifies Ribrianne's Clothes as a four-piece clothing set; PQ115 is the documented acquisition route. Exact current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Maintained equipment documentation supports slot coverage: upper_body, lower_body, hands, feet.",
+      "last_verified": "2026-09-22"
     },
     {
       "id": "equip-139",
       "name": "Ribrianne's Hood",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 115 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Extra Pack 1",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         115
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Pride Trooper/Extra Pack 1 content documentation identifies Ribrianne's Hood as an accessory reward from PQ115. Exact current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Maintained equipment documentation supports slot coverage: accessory.",
+      "last_verified": "2026-09-22"
     },
     {
       "id": "equip-140",
       "name": "Goku's Turtle Hermit Gi (Go)",
-      "category": "unclassified",
+      "category": "clothing",
       "acquisition_routes": [
         "Parallel Quest 14 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         14
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Maintained equipment documentation identifies Goku's Turtle Hermit Gi (Go) as a four-piece clothing set; PQ14 is the documented acquisition route. Exact current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Maintained equipment documentation supports slot coverage: upper_body, lower_body, hands, feet.",
+      "last_verified": "2026-09-22"
     }
   ]
 }
