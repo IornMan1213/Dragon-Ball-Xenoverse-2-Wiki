@@ -936,3 +936,12 @@
 - [x] Commits: `267cb0dcd98b9c5b8307e0d0f1ca5ac4b3da65cb`, `af70f83339d32794fa6c577ebfadc97850bd0f62`, `87b75353add617b60607c476dacb3442dc95ba3b`, `bb005ca06da404f9027bf18148e6204f4b72cfe3`, TODO `660fb46d05ba6192d315cf1755e2b12ae4dad661`, handoff `f97fbca4878cd220633d2964b3799ed8330bb87e`.
 - [ ] Exact next task: fresh census, then **`equip-101`–`equip-110`**.
 
+### 2026-09-22 cycle update — Equipment detail enrichment `equip-101`–`equip-110`
+- [x] Enriched `equip-101`–`equip-110` with source-backed category/slot/DLC metadata.
+- [x] Reconciled DAIMA Pack provenance for `101–105` and Future Saga Chapter 3 for `106–110`.
+- [x] Added/registered `docs/data/equipment/equipment-101-110-detail-audit.json`.
+- [x] Validation clean: **174 combined records / 0 duplicate IDs / 125 forward / 123 reverse / 0 broken endpoints**; all 10 batch records classified with slot coverage.
+- [x] CI unavailable; no success claimed.
+- [x] Commits: canonical `34ffe98a4702514806dbe425aba3f38f18804e6d`, combined `9bcf4242481a7d2283e7fe4db7894e923be2c13a`, audit `8bcbb0f4bf6d846b2557c84631851f07599e4af1`, registry `b51aa73512fb62822681a83b8a80af358142f5d2`, TODO `eced4791690df05feae417c6bd1683f062fef101`, handoff `86e808dcbe2713956f5d6f2bed73f6fc7ac36490`.
+- [ ] Exact next task: fresh census, then **`equip-111`–`equip-120`**.
+
