@@ -1991,3 +1991,13 @@
 - CI: no successful workflow/check exposed for this direct repository chain; no CI success claimed.
 - Commits: Burst canonical `f37d90ed2672d6bd4adc8c088a2faa08f8e69161`, Burst index `085724082d6ce8a1dbc324a0e37a3764c49ac576`, Celestial canonical `c0d79008b46371a8e9fb02b60a8203f0954606b3` + normalization `efad72ee914b177b68ed5f6d8ac5ed7900560e02`, Celestial index `4b991d8145de42847694b3ae69307d5abbdfa148`, Chain canonical `10c63d93860e3d506b0841edceeaa16f464c6c82`, Chain index `8b0dd31bb9738cda714b281176a239a4d2a41d58`, Chaos canonical `c94d4899807c1d1ab47688d219ec8464571ff472`, Chaos index `201653786e54d203f077da5bd3fb70349ceee221`, audits `0bef18564318b5bd5da974dee40687983730cfc3`, `b3dd4183bfbf895af669fdb344545c823c802bd4`, `402ffbb87b3910513e21b8cf0ba7201fda9a3c5a`, `6f8500b45ab49f037b7c5303f83393f08e4f73f2`, registry `2904c1a1f105a6ef3e0d5bf318f70b8bebe0de55`.
 - Exact next batch: recompute the live census and continue the stale P1 skill provenance queue with **`skill-chaotic-time-impact`**, preserving acquisition conflicts and projection semantics; then proceed alphabetically through the next bounded stale records.
+
+
+### 2026-09-22 cycle update — Chaotic Time Impact provenance refresh
+- Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 381 stale**; bounded target: `skill-chaotic-time-impact`.
+- Research/evidence: dedicated Xenoverse 2 skill documentation confirms the Ultimate/Ki Blast classification, 600 Ki cost, time-bubble stun, and Power-of-Time scaling/reset. Current PQ184 research identifies Chaotic Time Impact as a **50% Ultimate Finish bonus-slot** reward; the maintained Steam guide still presents it in the Basic Reward section, so the source conflict is explicitly preserved rather than silently erased.
+- Changes: refreshed canonical/index `last_verified` to **2026-09-22**; added independent gameplay provenance; added and registered `docs/data/skill-chaotic-time-impact-provenance-audit-2026-09-22.json`.
+- Evidence limits/conflicts preserved: no narrower CaC race/gender/form restriction was inferred; `race_restriction` remains null. No new drop probability was inferred beyond the current PQ research's documented 50% bonus-slot value.
+- Validation: **452/452** canonical/index; **0 duplicate IDs**; **380 stale canonical records remain**; target refreshed; all audited shared fields have **0 mismatches**; JSON parses successfully.
+- CI: no successful workflow/check exposed; no CI success claimed.
+- Exact next batch: recompute the live census and continue with the next stale P1 record after `skill-chaotic-time-impact`, beginning `skill-charge` and batching adjacent stale records where evidence and validation remain bounded.
