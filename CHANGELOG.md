@@ -1,3 +1,13 @@
+## 2026-09-22 — Psycho Escape provenance strengthening
+- Live post-edit census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 15 exactly-two-source canonical records**.
+- Bounded batch: **Psycho Escape (`skill-psycho-escape`)**.
+- Added Dragon Ball Wiki's dedicated Psycho Escape entry as a third provenance source. It confirms the technique's Future Warrior/Xenoverse lineage, but its explicit PQ12 acquisition statement is for the original Dragon Ball Xenoverse context.
+- Evidence boundary preserved: Xenoverse 2-specific evidence identifies PQ13 ("Namekian Dragon Balls") as the acquisition route, so the older-game PQ12 statement was not promoted or used to overwrite the existing PQ13 semantics.
+- Validation: canonical/index source parity **clean**; no internal AI/UI/search citation artifacts detected.
+- CI/Actions: no successful workflow/check exposed; no CI success claimed.
+- Commits: canonical `819ea0b5c81ead23d7bd8a33593af5ab19f8f4cc`; index `d6a444f470e33b2eb560ad3c6a435f73a4def07a`.
+- Exact next batch: **Requiem of Destruction (`skill-requiem-of-destruction`)**. Recompute the live census, inspect the record, and independently verify its acquisition/source endpoint.
+
 ## 2026-09-22 — Prominence Flash provenance strengthening
 - Live post-edit census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 16 exactly-two-source canonical records**.
 - Bounded batch: **Prominence Flash (`skill-prominence-flash`)**.
