@@ -425,8 +425,7 @@
     {
       "pq": 158,
       "super_souls": [
-        "Heh heh! I'm not as rusty as I look!",
-        "See? It's a good thing I was here, right?"
+        "Heh heh! I'm not a rusty as I look!"
       ]
     },
     {
@@ -566,12 +565,12 @@
   "scope_audit": {
     "record_count": 80,
     "pq_count": 80,
-    "typed_relationship_references": 128,
+    "typed_relationship_references": 127,
     "canonical_relationship_references_for_same_domain": 151,
-    "exact_pair_overlap": 127,
+    "exact_pair_overlap": 125,
     "research_layer_only_pairs": 14,
-    "canonical_pairs_absent_from_this_index": 36,
-    "canonical_pairs_absent_within_index_scope_41_186": 18,
+    "canonical_pairs_absent_from_this_index": 38,
+    "canonical_pairs_absent_within_index_scope_41_186": 20,
     "interpretation": "This acquisition index is a partial source-normalized research projection, not the canonical relationship source. Evidence-backed missing canonical pairs were added only where maintained reward evidence explicitly named the Super Soul; unresolved differences remain coverage gaps."
   },
   "coverage_reconciliation_2026_09_22": {
@@ -581,7 +580,7 @@
       "https://dbxv2.fandom.com/wiki/Super_Soul",
       "https://www.epicdope.com/can-you-go-ultra-instinct-in-dragon-ball-xenoverse-2-how/"
     ],
-    "added_pairs": 9,
-    "note": "The maintained Steam PQ guide explicitly lists the five named Super Souls across PQ151-153 and the Super Soul at issue in PQ158; the Fandom Super Soul table independently maps the PQ153 and PQ158 entries. EpicDope independently corroborates the PQ152/PQ153 acquisition routes. Existing canonical relationships were not changed."
+    "added_pairs": 5,
+    "note": "The maintained Steam PQ guide explicitly lists the five newly reconciled Super Souls across PQ151-153. Independent Super Soul documentation corroborates the named PQ153 entries. The PQ158 source layer retains its historical typo ('a rusty') and remains unresolved rather than silently normalizing it to the canonical relationship spelling."
   }
 }
