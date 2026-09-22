@@ -74,7 +74,7 @@
     "canonical_equipment_accessory_records": 173,
     "canonical_character_names": 149,
     "canonical_dlc_records": 20,
-    "canonical_edge_count": 860,
+    "canonical_edge_count": 859,
     "endpoint_domains": {
       "skills": {
         "edge_count": 244,
@@ -87,11 +87,9 @@
         "missing_targets": []
       },
       "equipment": {
-        "edge_count": 125,
-        "unique_target_count": 123,
-        "missing_targets": [
-          "Mr. Shape Up L"
-        ]
+        "edge_count": 124,
+        "unique_target_count": 122,
+        "missing_targets": []
       },
       "characters": {
         "edge_count": 247,
@@ -104,7 +102,7 @@
         "missing_targets": []
       }
     },
-    "status": "unresolved"
+    "status": "clean"
   },
   "results": {
     "skills": {
@@ -131,16 +129,14 @@
     },
     "equipment": {
       "relationship_type": "pq_rewards_equipment",
-      "edge_count": 125,
-      "unique_target_count": 123,
-      "missing_target_count": 1,
-      "missing_targets": [
-        "Mr. Shape Up L"
-      ],
+      "edge_count": 124,
+      "unique_target_count": 122,
+      "missing_target_count": 0,
+      "missing_targets": [],
       "duplicate_pair_count": 0,
       "invalid_pq_id_count": 0,
       "invalid_pq_ids": [],
-      "status": "unresolved"
+      "status": "clean"
     },
     "characters": {
       "relationship_type": "pq_features_character",
@@ -165,5 +161,5 @@
       "status": "clean"
     }
   },
-  "status": "unresolved"
+  "status": "clean"
 }
