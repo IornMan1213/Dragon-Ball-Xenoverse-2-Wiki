@@ -398,8 +398,8 @@
       },
       "equipment": {
         "report": "docs/data/pq-equipment-crosslink-report.json",
-        "forward_edges": 125,
-        "reverse_endpoints": 123,
+        "forward_edges": 124,
+        "reverse_endpoints": 122,
         "duplicate_keys": 0,
         "invalid_pq": 0,
         "unresolved": 0,
@@ -416,7 +416,7 @@
       }
     },
     "result": "clean_current_projection_reports",
-    "note": "Accessory report is a dedicated 28-edge accessory projection of the 125 canonical equipment-domain edges; clothing/equipment edges remain represented by the equipment report. No source-of-truth changes were required.",
+    "note": "Accessory report is a dedicated 28-edge accessory projection of the 124 canonical equipment-domain edges; clothing/equipment edges remain represented by the equipment report. No source-of-truth changes were required.",
     "current_total_edges": 859
   },
   "current_reconciliation_artifact_census": {
