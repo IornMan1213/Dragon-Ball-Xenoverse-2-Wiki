@@ -1402,3 +1402,8 @@
 - Updated canonical/index records and refreshed `last_verified` to **2026-09-21** without changing mechanics or acquisition semantics.
 - Exact next batch: **Perfect Shot (`skill-perfect-shot`)**; recompute the live two-source census first and independently verify the Cell (Perfect) Lesson 2 acquisition endpoint before provenance-only strengthening.
 
+
+
+## 2026-09-22 — Rise to Action provenance
+- Strengthened `skill-rise-to-action` with independent Twinfinite corroboration of the Krillin mentor acquisition endpoint.
+- Preserved existing acquisition, cost, CaC, and Ultimate Finish semantics; no unsupported reward probability or prerequisite was added.
