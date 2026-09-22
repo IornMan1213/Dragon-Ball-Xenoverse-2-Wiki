@@ -1539,3 +1539,15 @@
 - [x] Static validation passed: **452/452**, **0 duplicate IDs**, **10/10** audit records, **0 audited canonical/index mismatches**, **268 stale canonical records remain**.
 - [ ] Runtime/CI execution remains unavailable; no CI success claimed.
 - [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Final Charge, Final Explosion, Final Flash, Final Flash (SS3 DAIMA), Final Flash (Super), Final Kamehameha, Final Pose, Final Rampage, Finish Breaker, Finishing Blow**, then adjacent stale records where evidence remains bounded.
+
+
+### 2026-09-22 cycle update — Final Charge through Finishing Blow provenance batch
+- [x] Fresh live census before editing: **452 canonical / 452 index / 0 duplicate canonical IDs / 268 stale**.
+- [x] Completed the bounded P1 provenance batch for **Final Charge, Final Explosion, Final Flash, Final Flash (SS3 DAIMA), Final Flash (Super), Final Kamehameha, Final Pose, Final Rampage, Finish Breaker, and Finishing Blow**.
+- [x] Refreshed canonical/index `last_verified` to **2026-09-22** for all ten records and added/registered docs/data/skill-final-through-finishing-provenance-audit-2026-09-22.json.
+- [x] Deterministic correction: **Final Explosion ki_cost corrected from 500 to 300** based on current dedicated skill evidence; TP Medal Shop acquisition at 200 TP Medals remains documented.
+- [x] Expanded bounded mechanics/provenance: Final Charge accelerated Ki charging; Final Explosion extended Stamina-based explosion; Final Flash mentor Lesson 3 beam; Final Flash (SS3 DAIMA) 400+ Ki/22–53-hit expandable beam; Final Flash (Super) 24-hit character-exclusive beam; Final Kamehameha 22-hit Final Flash→Super Kamehameha sequence; Final Pose shockwave/Basic Attack boost; Final Rampage multi-stage rush sequence; Finish Breaker 19-projectile barrage; Finishing Blow teleport/restand follow-up behavior.
+- [x] Preserved the **Final Pose** acquisition conflict: current dedicated skill evidence lists Skill Shop while maintained PQ evidence maps the established cross-link to PQ74; no silent overwrite was made.
+- [x] Static validation passed: **452/452**, **0 duplicate IDs**, **10/10** audit records, **0 audited canonical/index mismatches**, **258 stale canonical records remain**.
+- [ ] Runtime/CI execution remains unavailable; no CI success claimed.
+- [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Flash Bomber, Flash Chaser, Flash Fist Crush, Flash Strike, Focus Flash, Force Edge, Force Shield, Formation!, Freedom Kick, Fruit of the Tree of Might**, then adjacent stale records where evidence remains bounded.
