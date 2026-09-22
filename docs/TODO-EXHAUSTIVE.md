@@ -509,3 +509,13 @@
 - [ ] CI: no successful workflow/check exposed for this direct-commit chain; do not claim CI success.
 - [x] Commits: `f44a529b62365a119c2cdf9fafb8392c0ad150ad`, `f2e0037debeb41641eb2d5d4d470c2df5f1c54f8`, `ae5263017321665d7ca1dd63c689530b73f21d3c`.
 - [ ] Exact next batch: extend canonical presentation auditing to the character-facing PQ navigation and the broader PQ page/index consumers, specifically identifying any legacy display-only names or orphan character endpoints before adding new content coverage.
+
+
+### 2026-09-22 — Canonical character reverse-navigation audit
+- [x] Recomputed the live canonical relationship census: 860 unique edges; character subset 247 edges / 75 unique targets / 143 PQs; canonical character layer 149 records.
+- [x] Added docs/data/characters/pq-reverse-index.json directly from the canonical pq_features_character relationship edges, preserving exact canonical character names and every PQ source.
+- [x] Added docs/data/pq-character-reverse-navigation-audit.json and scripts/validate_pq_character_reverse_index.py; registered both in docs/data/pq-cross-domain-index.json.
+- [x] Validation: 247/247 forward character pairs represented in reverse; 75/75 unique targets resolve to canonical character names; 0 missing targets; 0 orphan reverse targets; 0 duplicate pairs; 5 documented aliases remain presentation metadata only.
+- [x] Preserved the canonical-source-of-truth rule. Reverse/index/audit artifacts are projections and do not create or rename character identities.
+- [x] Preserved identity limits: the canonical character layer currently uses names rather than stable character IDs, so no IDs were invented; generic enemy appearances were not converted into relationships.
+- [ ] Exact next task: audit the broader PQ page/index consumers for one-way links, orphan page references, and legacy display-only names against the canonical relationship layer; repair only deterministic navigation projections and record unresolved coverage rather than inferring relationships.
