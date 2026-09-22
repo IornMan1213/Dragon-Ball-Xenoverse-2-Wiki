@@ -7168,15 +7168,16 @@
       "mechanics_notes": "Dedicated current-version evidence corrects the record to a 100-Ki Ki Blast Super from PQ111. The reviewed page identifies Fused Zamasu as the notable user and does not explicitly establish CaC race/gender/form scope. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current PQ guide explicitly lists Holy Wrath in the Basic Reward section of Parallel Quest 111, establishing the acquisition route without an Ultimate Finish requirement. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward section; no Ultimate Finish-only gate is asserted.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Holy_Wrath",
-        "https://dragonball.fandom.com/wiki/Holy_Wrath"
+        "https://dragonball.fandom.com/wiki/Holy_Wrath",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "race_restriction": "All CaC races",
       "source_quest": 111,
       "acquisition_type": "quest_or_mission",
-      "notes": "",
+      "notes": " 2026-09-21 low-source provenance strengthening: the maintained Steam all-186 Parallel Quests guide independently lists Holy Wrath in PQ111 — The Zero Mortal Plan Basic Reward. This corroborates the existing PQ111 acquisition/reward-tier endpoint; conflicting community claims about drop behavior are preserved rather than normalized.",
       "id": "skill-holy-wrath",
       "source_parallel_quests": [
         111
