@@ -762,3 +762,16 @@
 - [x] Commits: ec4782b3ad6610f6fc681b492a73f138d208e725, 120cc346f9b7e049d2785e25eed9d1e5b1bd27cf.
 - [x] Live census after editing: **860 canonical PQ relationship edges = 244 skills / 151 Super Souls / 125 equipment / 247 characters / 86 DLC / 7 farming**.
 - [ ] Exact next batch: inspect the next registered cross-domain presentation consumer after published_character_dlc_navigation, prioritizing a validator that still checks endpoint/count existence without exact canonical pair parity; preserve canonical identities and report unresolved aliases/granularity rather than guessing.
+
+
+### 2026-09-22 cycle update — PQ endpoint navigation exact identity/pair hardening
+- [x] Audited the registered `scripts/validate_pq_endpoint_navigation.py` consumer and its `docs/data/pq-endpoint-navigation-audit.json` report.
+- [x] Hardened endpoint validation beyond target-existence checks: every canonical relationship `(PQ,target)` pair is now checked for duplicates, every relationship PQ ID must resolve to the canonical 186-record PQ layer, and the audit records canonical PQ identity census.
+- [x] Live deterministic result: **244 Skills / 151 Super Souls / 125 Equipment / 247 Characters / 86 DLC = 953 endpoint edges checked**, with **0 duplicate pairs, 0 missing canonical targets, and 0 invalid PQ IDs**.
+- [x] Canonical PQ layer remains **186 records / 186 unique IDs / 186 unique numbers / exact 1–186 range**.
+- [x] Explicit equipment alias/granularity bridge remains intact: **2 equipment conflict entries / 6 DLC granularity entries**, with 0 unresolved equipment bridge targets.
+- [x] Refreshed `docs/data/pq-endpoint-navigation-audit.json` to schema **1.1.0**.
+- [x] No canonical relationship, PQ identity, endpoint identity, or alias/granularity claim was changed.
+- [ ] CI: no successful GitHub Actions status exposed for the direct commits; CI success not claimed.
+- [x] Commits: `f93e27f053bafab4ce33bd642ed657c85ee5fac6`, `0f6dbd85116e8678423b68f7e91b7be25b398bf3`.
+- [ ] Exact next batch: inspect the next registered consumer after `canonical_endpoint_navigation`, prioritizing a validator with remaining endpoint/count-only or one-way navigation checks; preserve explicit conflicts and do not promote source-layer aliases into canonical relationships.
