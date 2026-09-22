@@ -8,6 +8,7 @@ canonical character relationships.
 from __future__ import annotations
 import json
 import re
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -25,14 +26,20 @@ def main() -> int:
 
     key_records = keys.get("records", [])
     recon_records = recon.get("records", [])
-    bridge_by_id = {x.get("character_id"): x.get("canonical_character_name") for x in bridge.get("records", [])}
+    bridge_records = bridge.get("records", [])
+    bridge_ids = [x.get("character_id") for x in bridge_records]
+    bridge_by_id = {x.get("character_id"): x.get("canonical_character_name") for x in bridge_records if x.get("character_id") is not None}
+    duplicate_bridge_ids = sorted(k for k,v in Counter(bridge_ids).items() if k is not None and v > 1)
+    malformed_bridge_ids = [{"character_id": x.get("character_id"), "type": type(x.get("character_id")).__name__} for x in bridge_records if x.get("character_id") is not None and not isinstance(x.get("character_id"), str)]
     canonical = set(chars.get("character_names", []))
 
     expected = list(range(1, 21))
     key_numbers = [x.get("key_number") for x in key_records]
     recon_numbers = [x.get("key") for x in recon_records]
-    duplicate_key_numbers = sorted(k for k,v in __import__("collections").Counter(key_numbers).items() if v > 1)
-    duplicate_recon_numbers = sorted(k for k,v in __import__("collections").Counter(recon_numbers).items() if v > 1)
+    duplicate_key_numbers = sorted(k for k,v in Counter(key_numbers).items() if k is not None and v > 1)
+    duplicate_recon_numbers = sorted(k for k,v in Counter(recon_numbers).items() if k is not None and v > 1)
+    malformed_key_numbers = [{"key_number": x.get("key_number"), "type": type(x.get("key_number")).__name__} for x in key_records if x.get("key_number") is not None and not isinstance(x.get("key_number"), int)]
+    malformed_recon_numbers = [{"key": x.get("key"), "type": type(x.get("key")).__name__} for x in recon_records if x.get("key") is not None and not isinstance(x.get("key"), int)]
 
     failures = []
     checks = {
@@ -44,14 +51,23 @@ def main() -> int:
         "reconciliation_key_numbers_unique": not duplicate_recon_numbers,
         "all_key_character_ids_bridged": all(x.get("character_id") in bridge_by_id for x in key_records),
         "all_bridge_targets_canonical": all(name in canonical for name in bridge_by_id.values()),
-        "key_reconciliation_identity_parity": all(
-            (a.get("key_number") == b.get("key"))
-            and (a.get("character_id") == b.get("character_id"))
-            and (a.get("partner") == b.get("partner"))
-            for a, b in zip(sorted(key_records, key=lambda x: x.get("key_number", 0)),
-                             sorted(recon_records, key=lambda x: x.get("key", 0)))
-        ),
+        "bridge_ids_unique": not duplicate_bridge_ids,
+        "bridge_id_fields_are_strings": not malformed_bridge_ids,
+        "key_reconciliation_identity_parity": False,
+        "key_reconciliation_join_keys_exact": False,
     }
+    key_by_number = {x.get("key_number"): x for x in key_records}
+    recon_by_number = {x.get("key"): x for x in recon_records}
+    common_numbers = set(key_by_number) & set(recon_by_number)
+    checks["key_reconciliation_join_keys_exact"] = (
+        len(common_numbers) == 20
+        and set(key_by_number) == set(recon_by_number) == set(expected)
+    )
+    checks["key_reconciliation_identity_parity"] = checks["key_reconciliation_join_keys_exact"] and all(
+        key_by_number[n].get("character_id") == recon_by_number[n].get("character_id")
+        and key_by_number[n].get("partner") == recon_by_number[n].get("partner")
+        for n in expected
+    )
     for i, row in enumerate(key_records, 1):
         cid = row.get("character_id")
         partner = row.get("partner")
@@ -68,6 +84,8 @@ def main() -> int:
     checks["all_key_partners_have_search_links"] = not missing_links
     checks["no_unmapped_extra_partner_search_links"] = not extra_links
 
+    checks["key_number_fields_are_integers"] = not malformed_key_numbers
+    checks["reconciliation_key_fields_are_integers"] = not malformed_recon_numbers
     for label, ok in checks.items():
         if not ok:
             failures.append(label)
@@ -94,6 +112,10 @@ def main() -> int:
         "extra_page_search_links": extra_links,
         "duplicate_key_numbers": duplicate_key_numbers,
         "duplicate_reconciliation_key_numbers": duplicate_recon_numbers,
+        "duplicate_bridge_character_ids": duplicate_bridge_ids,
+        "malformed_bridge_character_ids": malformed_bridge_ids,
+        "malformed_key_numbers": malformed_key_numbers,
+        "malformed_reconciliation_key_numbers": malformed_recon_numbers,
         "identity_mismatches": [x for x in failures if isinstance(x, dict)],
         "status": "clean" if not failures else "unresolved",
         "evidence_boundary": "This audit validates identity/navigation only. It does not verify DLC ownership, raid rotation, TP Medal costs, or other partially verified Partner Customization facts.",
