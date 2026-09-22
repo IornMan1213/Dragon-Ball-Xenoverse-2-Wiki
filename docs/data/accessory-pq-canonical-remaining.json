@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "1.1.1",
   "record_type": "accessory_pq_canonical_remaining",
   "purpose": "Explicit backlog for PQ accessory records that cannot yet be safely merged into the canonical identity layer without inventory-level evidence.",
   "status_policy": {
@@ -8,13 +8,6 @@
     "component_unresolved": "The source may describe a set/component relationship rather than an independently named accessory inventory item."
   },
   "records": [
-    {
-      "pq_record_id": "pqacc-001",
-      "name": "Piccolo's Turban",
-      "pq": 3,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-012 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
     {
       "pq_record_id": "pqacc-002",
       "name": "Four-Star Dragon Ball Hat",
@@ -30,39 +23,11 @@
       "reason": "Previous bridge endpoint accr-090 is not present in the current canonical accessory layer; no replacement identity is inferred."
     },
     {
-      "pq_record_id": "pqacc-004",
-      "name": "Goku's Wig",
-      "pq": 25,
-      "status": "unmatched",
-      "reason": "Canonical identity retained despite historical PQ-number disagreement. Previous bridge endpoint accr-014 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-005",
-      "name": "Android 19's Hat",
-      "pq": 28,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-039 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
       "pq_record_id": "pqacc-006",
       "name": "Dore's Scouter",
       "pq": 27,
       "status": "unmatched",
       "reason": "Previous bridge endpoint accr-091 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-007",
-      "name": "Tapion's Sword",
-      "pq": 22,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-006 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-008",
-      "name": "Yamcha's Sword",
-      "pq": 29,
-      "status": "unmatched",
-      "reason": "PQ36 is the directly documented reward route; the prior PQ29 value in this research record is superseded by the maintained reward table evidence. Previous bridge endpoint accr-104 is not present in the current canonical accessory layer; no replacement identity is inferred."
     },
     {
       "pq_record_id": "pqacc-009",
@@ -77,13 +42,6 @@
       "pq": 53,
       "status": "unmatched",
       "reason": "Previous bridge endpoint accr-093 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-011",
-      "name": "Goku Wig (Super Saiyan)",
-      "pq": 63,
-      "status": "unmatched",
-      "reason": "Historical source sets also report PQ18; route conflict remains in canonical record. Previous bridge endpoint accr-015 is not present in the current canonical accessory layer; no replacement identity is inferred."
     },
     {
       "pq_record_id": "pqacc-012",
@@ -105,13 +63,6 @@
       "pq": 76,
       "status": "unmatched",
       "reason": "Previous bridge endpoint accr-096 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-015",
-      "name": "Pan's Bandana",
-      "pq": 93,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-013 is not present in the current canonical accessory layer; no replacement identity is inferred."
     },
     {
       "pq_record_id": "pqacc-016",
@@ -140,13 +91,6 @@
       "pq": 149,
       "status": "unmatched",
       "reason": "Previous bridge endpoint accr-099 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-020",
-      "name": "Great Saiyaman Helmet",
-      "pq": 51,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-100 is not present in the current canonical accessory layer; no replacement identity is inferred."
     },
     {
       "pq_record_id": "pqacc-021",
@@ -337,9 +281,9 @@
   "summary": {
     "research_records": 45,
     "canonical_accessory_records": 50,
-    "matched": 0,
-    "unresolved": 45,
-    "stale_bridge_endpoints_demoted": 43
+    "matched": 8,
+    "unresolved": 37,
+    "remapped_by_exact_name": 8
   },
   "notes": [
     "This file is derived from the canonical bridge and current accessory record layer. It replaces the former mixed-era backlog that listed already-promoted/stale `accr-###` identities.",
