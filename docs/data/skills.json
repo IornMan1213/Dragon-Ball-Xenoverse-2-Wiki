@@ -34,7 +34,7 @@
       ],
       "stamina_cost": 300,
       "unlock_method": "Parallel Quest 96 — \"The Shadow Dragons\" Basic Reward",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "research_status": "enriched",
       "source_quest": 96,
       "source_quest_or_shop": "Parallel Quest 96 — \"The Shadow Dragons\"",
@@ -47,7 +47,7 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 acquisition refinement: current PQ reward listings explicitly place Absolute Zero in PQ96 Basic Reward. A separate older video guide describes the skill as a PQ96 Ultimate Finish reward; this source conflict is retained rather than collapsing it into a false certainty.",
+      "notes": "2026-09-20 acquisition refinement: current PQ reward listings explicitly place Absolute Zero in PQ96 Basic Reward. A separate older video guide describes the skill as a PQ96 Ultimate Finish reward; this source conflict is retained rather than collapsing it into a false certainty. 2026-09-22 independent verification: the maintained all-186-PQ Steam guide again explicitly lists Absolute Zero under PQ96 Basic Reward, while the dedicated Fandom page identifies PQ96 as the unlock. The older UF claim remains preserved as a historical source conflict; no drop probability is inferred.",
       "id": "skill-absolute-zero",
       "source_parallel_quests": [
         96
