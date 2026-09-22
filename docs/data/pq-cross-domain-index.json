@@ -29,7 +29,7 @@
     },
     {
       "entity": "characters",
-      "key": "character_id",
+      "key": "canonical_character_name",
       "value": "pq_ids",
       "report": "docs/data/characters/pq-reverse-index.json"
     },
