@@ -1786,3 +1786,9 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Verified the canonical and index records are already aligned: 300 Ki Ultimate/Ki Blast, PQ106 Basic Reward, Super Pack 2, All CaC races, and no Ultimate Finish requirement.
 - Independent maintained PQ guide and PQ106 gameplay evidence corroborate the Basic Reward endpoint. No drop probability was inferred.
 - No data-layer modification was necessary; this cycle records provenance verification and advances the persistent next-work pointer.
+
+
+## 2026-09-22 — Absolute Zero provenance and reward-tier reconciliation
+- Re-verified `skill-absolute-zero` against the maintained all-186-PQ guide and dedicated skill documentation.
+- PQ96 Basic Reward placement is independently corroborated; an older UF claim remains preserved as a source conflict.
+- Refreshed canonical/index `last_verified` and provenance notes without changing the acquisition identity or cross-domain relationship.
