@@ -1,3 +1,11 @@
+## 2026-09-22 — Published Search consumer contract hardening
+
+- Added `scripts/validate_search_consumer.py` for the published full-text Search landing contract.
+- Added `docs/data/search-consumer-audit.json` and registered it in the PQ cross-domain index.
+- Validated `docs/Search.md`, `docs/assets/search.js`, and `docs/search-data.html`: Search hooks, `?q=` navigation, local search-index consumption, and generator self-exclusion are present; Search JS has **0 external fetch endpoints**.
+- This is presentation wiring validation only; search corpus completeness/ranking is not claimed.
+- Commits: validator `d0b319c5974c9a6861bff364136f6b2deaad0a0b`, audit `99474ac1c291d4c49b85cd6ce2d1c853f9d63440`, registry `c041e968d72fe23d54c778d42e73b0d40bf9b21d`.
+
 ## 2026-09-22 — Non-PQ projection producer census
 
 - Audited the four generated PQ cross-link reports against the canonical relationship layer.
