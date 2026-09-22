@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-09-22",
+  "source_of_truth": "canonical relationship arrays and canonical domain records; historical verification/research layers are supporting evidence only",
+  "master": {
+    "total_relationships": 862,
+    "counts": {
+      "pq_rewards_skill": 244,
+      "pq_rewards_super_soul": 151,
+      "pq_rewards_equipment": 125,
+      "pq_features_character": 247,
+      "pq_requires_dlc": 88,
+      "pq_farming_route": 7
+    }
+  },
+  "producers": {
+    "skill": {
+      "forward": 244,
+      "reverse": 239,
+      "declared_forward": 244,
+      "declared_reverse": 239
+    },
+    "super_soul": {
+      "forward": 151,
+      "reverse": 148,
+      "declared_forward": 151,
+      "declared_reverse": 148
+    },
+    "equipment": {
+      "forward": 125,
+      "reverse": 123,
+      "declared_forward": 125,
+      "declared_reverse": 123
+    },
+    "accessory": {
+      "forward": 28,
+      "reverse": 28,
+      "declared_forward": 28,
+      "declared_reverse": 28,
+      "canonical_accessories": 70
+    },
+    "accessory_bridge": {
+      "matched_records": 29,
+      "unresolved_records": 16,
+      "canonical_accessories": 70,
+      "remapped_by_exact_name": 28
+    },
+    "accessory_remaining": {
+      "matched": 28,
+      "unresolved": 16,
+      "canonical_accessories": 70,
+      "remapped_by_exact_name": 28
+    }
+  },
+  "checks": {
+    "stale_current_producer_counts": 0,
+    "canonical_endpoint_mismatches": 0,
+    "reverse_endpoint_mismatches": 0,
+    "historical_values_retained": true
+  }
+}
