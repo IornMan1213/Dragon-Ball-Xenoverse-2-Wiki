@@ -954,3 +954,13 @@
 - [x] Commits: canonical `55f163ba865fecb908a2f1dc259ea455aafb17cf`, combined `bf0f9087f5ac0d56fc34fa69860717bb3817d3a9`, audit `a8e2b5c6029f45e4f0b9bf0e61d58d21b80b19b8`, registry `0a0194f191171bfff92e201de90a08cfeb6f4500`, TODO `853eeb1f4fb1e91c478a91d67bb53080e3e1f102`, handoff `c9743f7f9465aebd38a50bf8085bf0ebfe906a1b`.
 - [ ] Exact next task: fresh census, then **`equip-121`–`equip-130`**.
 
+### 2026-09-22 cycle update — Equipment detail enrichment and identity correction `equip-121`–`equip-130`
+- [x] Corrected false equipment endpoint `equip-121` (Mr. Shape Up L): independent evidence identifies it as a consumable capsule/material, so it was removed from the equipment layers while the PQ99 reward remains source-backed in PQ reward data.
+- [x] Preserved canonical bridge `equip-123 → acc-063` for SSGSS Vegeta Wig.
+- [x] Enriched `equip-122`, `124`–`130` with category/slot/DLC metadata.
+- [x] Added/registered `docs/data/equipment/equipment-121-130-detail-audit.json`.
+- [x] Validation clean: **173 combined records / 0 duplicates / 124 forward / 122 reverse / 0 broken**.
+- [x] CI unavailable; no success claimed.
+- [x] Commits: `cea284c71ec7d9e657ca0d675dd3402d28e41f4f`, `4ce040ffa6ce1cb299c747d2a9ccef1a67288696`, `9f6203ef50f15168448fa821c7b9232113776f96`, `a75e1e28f7dbe94f5543b3d2160f6e70fdbf1220`, `93ac07fc9f37120ecec38c9232cb7171ed15965a`, TODO `997861a3c545742d6ff2f5ee32e1f4da09e4f346`, handoff `483fef03e27af4085032aef9ef9cbf851810d127`.
+- [ ] Exact next task: fresh census, then **`equip-131`–`equip-140`**.
+
