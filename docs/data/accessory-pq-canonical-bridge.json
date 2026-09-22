@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "1.1.1",
   "record_type": "accessory_pq_canonical_bridge",
   "purpose": "Explicitly connects the accessory PQ research layer to canonical inventory identities without rewriting unresolved source conflicts.",
   "matching_policy": [
@@ -13,9 +13,9 @@
       "pq_record_id": "pqacc-001",
       "name": "Piccolo's Turban",
       "pq": 3,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-012 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-001",
+      "match_status": "matched",
+      "note": "Previous bridge endpoint accr-012 is not present in the current canonical accessory layer; no replacement identity is inferred. Current canonical identity reconciled by exact name to acc-001."
     },
     {
       "pq_record_id": "pqacc-002",
@@ -37,17 +37,17 @@
       "pq_record_id": "pqacc-004",
       "name": "Goku's Wig",
       "pq": 25,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Canonical identity retained despite historical PQ-number disagreement. Previous bridge endpoint accr-014 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-011",
+      "match_status": "matched",
+      "note": "Canonical identity retained despite historical PQ-number disagreement. Previous bridge endpoint accr-014 is not present in the current canonical accessory layer; no replacement identity is inferred. Current canonical identity reconciled by exact name to acc-011."
     },
     {
       "pq_record_id": "pqacc-005",
       "name": "Android 19's Hat",
       "pq": 28,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-039 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-004",
+      "match_status": "matched",
+      "note": "Previous bridge endpoint accr-039 is not present in the current canonical accessory layer; no replacement identity is inferred. Current canonical identity reconciled by exact name to acc-004."
     },
     {
       "pq_record_id": "pqacc-006",
@@ -61,17 +61,17 @@
       "pq_record_id": "pqacc-007",
       "name": "Tapion's Sword",
       "pq": 22,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-006 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-027",
+      "match_status": "matched",
+      "note": "Previous bridge endpoint accr-006 is not present in the current canonical accessory layer; no replacement identity is inferred. Current canonical identity reconciled by exact name to acc-027."
     },
     {
       "pq_record_id": "pqacc-008",
       "name": "Yamcha's Sword",
       "pq": 29,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "PQ36 is the directly documented reward route; the prior PQ29 value in this research record is superseded by the maintained reward table evidence. Previous bridge endpoint accr-104 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-028",
+      "match_status": "matched",
+      "note": "PQ36 is the directly documented reward route; the prior PQ29 value in this research record is superseded by the maintained reward table evidence. Previous bridge endpoint accr-104 is not present in the current canonical accessory layer; no replacement identity is inferred. Current canonical identity reconciled by exact name to acc-028."
     },
     {
       "pq_record_id": "pqacc-009",
@@ -93,9 +93,9 @@
       "pq_record_id": "pqacc-011",
       "name": "Goku Wig (Super Saiyan)",
       "pq": 63,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Historical source sets also report PQ18; route conflict remains in canonical record. Previous bridge endpoint accr-015 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-012",
+      "match_status": "matched",
+      "note": "Historical source sets also report PQ18; route conflict remains in canonical record. Previous bridge endpoint accr-015 is not present in the current canonical accessory layer; no replacement identity is inferred. Current canonical identity reconciled by exact name to acc-012."
     },
     {
       "pq_record_id": "pqacc-012",
@@ -125,9 +125,9 @@
       "pq_record_id": "pqacc-015",
       "name": "Pan's Bandana",
       "pq": 93,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-013 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-002",
+      "match_status": "matched",
+      "note": "Previous bridge endpoint accr-013 is not present in the current canonical accessory layer; no replacement identity is inferred. Current canonical identity reconciled by exact name to acc-002."
     },
     {
       "pq_record_id": "pqacc-016",
@@ -165,9 +165,9 @@
       "pq_record_id": "pqacc-020",
       "name": "Great Saiyaman Helmet",
       "pq": 51,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-100 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-005",
+      "match_status": "matched",
+      "note": "Previous bridge endpoint accr-100 is not present in the current canonical accessory layer; no replacement identity is inferred. Current canonical identity reconciled by exact name to acc-005."
     },
     {
       "pq_record_id": "pqacc-021",
@@ -372,10 +372,10 @@
   ],
   "summary": {
     "pq_records": 45,
-    "matched": 0,
-    "unmatched_or_unresolved": 45,
+    "matched": 8,
+    "unmatched_or_unresolved": 37,
     "canonical_accessory_records": 50,
-    "stale_endpoint_count": 43
+    "remapped_by_exact_name": 8
   },
   "sources": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
