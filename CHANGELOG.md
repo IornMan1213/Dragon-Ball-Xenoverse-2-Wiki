@@ -1798,3 +1798,8 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Re-verified `skill-all-clear` against independent instructor-quest and mentor references.
 - Confirmed Cell's Initiation Test Basic Reward / Cell (Perfect) mentor-training endpoint.
 - Refreshed canonical/index provenance notes and verification date; no acquisition identity or classification change was necessary.
+
+
+## 2026-09-22 — Afterimage starting-skill provenance verification
+- Re-verified `skill-afterimage` as the Mixed fighting-style starting skill.
+- Refreshed canonical/index provenance notes and verification date without changing the acquisition endpoint.
