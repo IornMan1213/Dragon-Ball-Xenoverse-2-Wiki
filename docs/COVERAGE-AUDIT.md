@@ -1219,3 +1219,11 @@
 - Preserved Super Pack 2, PQ105, Strike Super classification, Champa association, 100 Ki, and existing CaC semantics. No unsupported drop probability or reward condition was inferred.
 - Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index records.
 - Post-write census: **34 exactly-two-source records**.
+
+## 2026-09-21 — Godly Chronos Cannon low-source provenance strengthening
+- Live pre-edit census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable ki_cost / 34 exactly-two-source records**.
+- Strengthened **Godly Chronos Cannon (skill-godly-chronos-cannon)** from two to three provenance sources by adding the independent Videogaming Wiki skill entry.
+- The independent source confirms the Xenoverse 2 Ultimate Skill, Supreme Kai of Time as user, and acquisition through **The Fated Finale** in the Conton City Tournament after the required tournament progression.
+- Preserved the existing Free Update 11 scope, 300 Ki cost, event endpoint, and CaC semantics. No unsupported drop probability or reward-tier condition was inferred.
+- Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index records.
+- Post-write census: **33 exactly-two-source records**.
