@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "domain": "pq_accessory",
   "canonical_pq_records": 186,
-  "canonical_identity_records": 50,
+  "canonical_identity_records": 54,
   "research_pq_records": 45,
   "matched_forward_edges": [
     {
@@ -10,6 +10,22 @@
       "pq_number": 3,
       "target_id": "acc-001",
       "target_name": "Piccolo's Turban",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
+      "pq_id": "pq-005",
+      "pq_number": 5,
+      "target_id": "acc-051",
+      "target_name": "Four-Star Dragon Ball Hat",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
+      "pq_id": "pq-009",
+      "pq_number": 9,
+      "target_id": "acc-052",
+      "target_name": "Chiaotzu's Hat (With Collar)",
       "status": "identity_matched",
       "source_backed": true
     },
@@ -30,6 +46,14 @@
       "source_backed": true
     },
     {
+      "pq_id": "pq-027",
+      "pq_number": 27,
+      "target_id": "acc-053",
+      "target_name": "Dore's Scouter",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
       "pq_id": "pq-022",
       "pq_number": 22,
       "target_id": "acc-027",
@@ -46,10 +70,50 @@
       "source_backed": true
     },
     {
+      "pq_id": "pq-051",
+      "pq_number": 51,
+      "target_id": "acc-054",
+      "target_name": "Great Saiyaman Bandana 1",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
+      "pq_id": "pq-053",
+      "pq_number": 53,
+      "target_id": "acc-055",
+      "target_name": "Great Saiyaman Bandana 2",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
       "pq_id": "pq-063",
       "pq_number": 63,
       "target_id": "acc-012",
       "target_name": "Goku Wig (Super Saiyan)",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
+      "pq_id": "pq-072",
+      "pq_number": 72,
+      "target_id": "acc-056",
+      "target_name": "Jaco's State-of-the-Art Radio",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
+      "pq_id": "pq-073",
+      "pq_number": 73,
+      "target_id": "acc-057",
+      "target_name": "Tagoma's Scouter",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
+      "pq_id": "pq-076",
+      "pq_number": 76,
+      "target_id": "acc-058",
+      "target_name": "SSGSS Goku Wig",
       "status": "identity_matched",
       "source_backed": true
     },
@@ -82,6 +146,26 @@
       ]
     },
     {
+      "target_id": "acc-051",
+      "target_name": "Four-Star Dragon Ball Hat",
+      "pq_ids": [
+        "pq-005"
+      ],
+      "pq_numbers": [
+        5
+      ]
+    },
+    {
+      "target_id": "acc-052",
+      "target_name": "Chiaotzu's Hat (With Collar)",
+      "pq_ids": [
+        "pq-009"
+      ],
+      "pq_numbers": [
+        9
+      ]
+    },
+    {
       "target_id": "acc-011",
       "target_name": "Goku's Wig",
       "pq_ids": [
@@ -99,6 +183,16 @@
       ],
       "pq_numbers": [
         28
+      ]
+    },
+    {
+      "target_id": "acc-053",
+      "target_name": "Dore's Scouter",
+      "pq_ids": [
+        "pq-027"
+      ],
+      "pq_numbers": [
+        27
       ]
     },
     {
@@ -122,6 +216,26 @@
       ]
     },
     {
+      "target_id": "acc-054",
+      "target_name": "Great Saiyaman Bandana 1",
+      "pq_ids": [
+        "pq-051"
+      ],
+      "pq_numbers": [
+        51
+      ]
+    },
+    {
+      "target_id": "acc-055",
+      "target_name": "Great Saiyaman Bandana 2",
+      "pq_ids": [
+        "pq-053"
+      ],
+      "pq_numbers": [
+        53
+      ]
+    },
+    {
       "target_id": "acc-012",
       "target_name": "Goku Wig (Super Saiyan)",
       "pq_ids": [
@@ -129,6 +243,36 @@
       ],
       "pq_numbers": [
         63
+      ]
+    },
+    {
+      "target_id": "acc-056",
+      "target_name": "Jaco's State-of-the-Art Radio",
+      "pq_ids": [
+        "pq-072"
+      ],
+      "pq_numbers": [
+        72
+      ]
+    },
+    {
+      "target_id": "acc-057",
+      "target_name": "Tagoma's Scouter",
+      "pq_ids": [
+        "pq-073"
+      ],
+      "pq_numbers": [
+        73
+      ]
+    },
+    {
+      "target_id": "acc-058",
+      "target_name": "SSGSS Goku Wig",
+      "pq_ids": [
+        "pq-076"
+      ],
+      "pq_numbers": [
+        76
       ]
     },
     {
@@ -153,62 +297,6 @@
     }
   ],
   "unmatched_research_records": [
-    {
-      "pq_record_id": "pqacc-002",
-      "name": "Four-Star Dragon Ball Hat",
-      "pq_number": 5,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-089 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-003",
-      "name": "Chiaotzu's Hat (With Collar)",
-      "pq_number": 9,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-090 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-006",
-      "name": "Dore's Scouter",
-      "pq_number": 27,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-091 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-009",
-      "name": "Great Saiyaman Bandana 1",
-      "pq_number": 51,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-092 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-010",
-      "name": "Great Saiyaman Bandana 2",
-      "pq_number": 53,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-093 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-012",
-      "name": "Jaco's State-of-the-Art Radio",
-      "pq_number": 72,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-094 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-013",
-      "name": "Tagoma's Scouter",
-      "pq_number": 73,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-095 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-014",
-      "name": "SSGSS Goku Wig",
-      "pq_number": 76,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-096 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
     {
       "pq_record_id": "pqacc-016",
       "name": "Yamcha Baseball Hat",
@@ -415,12 +503,11 @@
   ],
   "validation": {
     "canonical_pq_records": 186,
-    "canonical_accessory_records": 50,
+    "canonical_accessory_records": 54,
     "research_records": 45,
-    "forward_edge_count": 8,
-    "reverse_edge_count": 8,
-    "unresolved_research_records": 37,
-    "remapped_by_exact_name": 8,
+    "forward_edge_count": 16,
+    "reverse_edge_count": 16,
+    "unresolved_research_records": 29,
     "stale_endpoint_count": 0,
     "duplicate_forward_edges": 0,
     "null_pq_edges": 0,
@@ -428,9 +515,10 @@
     "endpoint_integrity": "pass"
   },
   "notes": [
-    "Canonical accessory IDs are `acc-###` in equipment-accessories-record-layer.json.",
+    "Canonical accessory IDs are acc-### in equipment-accessories-record-layer.json.",
     "Exact-name reconciliation is allowed only against an existing canonical accessory identity; no accessory identity is invented from clothing/set research.",
     "Unresolved research records remain research data and do not create canonical edges.",
-    "Accessories remain distinct from clothing/equipment."
+    "Accessories remain distinct from clothing/equipment.",
+    "Canonical accessory records are authoritative; verification/evidence metadata does not compete with canonical identity data."
   ]
 }
