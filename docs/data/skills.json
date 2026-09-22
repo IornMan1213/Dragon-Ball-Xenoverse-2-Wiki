@@ -8372,7 +8372,8 @@
       "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
-        "https://dbxv2.fandom.com/wiki/Maximum_Charge"
+        "https://dbxv2.fandom.com/wiki/Maximum_Charge",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3496099646"
       ],
       "ki_cost": 0,
       "unlock_method": "Advancement Test — God Class reward.",
@@ -8386,7 +8387,7 @@
       "mechanics_notes": "Confirmed as the God Class Advancement Test charge skill, usable by all CaC races. It is the highest standard CaC Ki-charge rate among the three normal charge skills. 2026-09-21 cross-domain normalization: canonical Advancement Test endpoint advancement-test-god added from the existing acquisition record.",
       "source_quest": "Advancement Test — God Class",
       "acquisition_type": "quest_or_mission",
-      "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: Steam's Good Build Balance guide independently lists Maximum Charge as an Advancement Test — God Class unlock, corroborating the existing deterministic acquisition endpoint.",
       "id": "skill-maximum-charge",
       "source_advancement_test": "advancement-test-god"
     },
