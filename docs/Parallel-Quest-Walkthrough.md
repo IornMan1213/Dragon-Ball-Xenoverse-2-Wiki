@@ -5,7 +5,7 @@ Every Parallel Quest has three conditions. Only the first is visible initially; 
 ## High-Value / Recommended PQs (Local Priority List)
 
 **PQ 4 – Prepare for the Attack of Saiyans!**  
-Early numbered PQ. Consult the canonical record for its current objectives, rewards, and acquisition conditions.
+Early numbered PQ. Consult the canonical record for its current objectives, rewards, and acquisition conditions; it is not part of the current canonical Dragon Ball farming relationship set.
 
 **Canonical Dragon Ball farming routes:** PQ15, PQ22, PQ44, PQ45, PQ68, PQ83, and PQ88.  
 The canonical relationship layer records these seven PQs as Dragon Ball farming routes. It does not rank them by speed or establish a drop probability; consult the individual PQ records for objectives and conditions.
@@ -17,7 +17,7 @@ Solid mid-game option with Great Ape enemies and additional Time Patroller waves
 End of base-game showcase. Progressive fusion fights ending in SSJ4 Gogeta; Ultimate Finish involves a time limit and final SSGSS Goku + Vegeta wave.
 
 **PQ 134 – Universe 7’s Next God of Destruction** (DLC)  
-Frequently cited for strong charge skills (Burst Charge, Ultimate Charge) and Super Souls. Requires keeping key allies alive and finishing under a strict time limit.
+Use the canonical PQ reward relationships to inspect its documented skill/Super Soul targets. Objective and Ultimate Finish mechanics should be taken from the maintained PQ record when explicitly verified.
 
 Other high-difficulty DLC PQs (especially Future Saga range) drop exclusive skills, costumes, and Super Souls.
 
