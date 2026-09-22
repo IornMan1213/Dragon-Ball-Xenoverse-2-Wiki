@@ -80,7 +80,8 @@
     "equipment_detail_enrichment_061_070": "docs/data/equipment/equipment-061-070-detail-audit.json",
     "equipment_detail_enrichment_071_080": "docs/data/equipment/equipment-071-080-detail-audit.json",
     "pq_standalone_reverse_index_reconciliation": "docs/data/pq-reward-normalization/pq-standalone-reverse-index-reconciliation-audit.json",
-    "pq_unified_reverse_index": "docs/data/pq-reward-normalization/pq-unified-reverse-index-audit.json"
+    "pq_unified_reverse_index": "docs/data/pq-reward-normalization/pq-unified-reverse-index-audit.json",
+    "pq_page_consumer_structured_rewards": "docs/data/pq-page-consumer-audit.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
