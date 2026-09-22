@@ -1419,3 +1419,16 @@
 - [x] Commits: canonical `1b2f96e444c1f0ce17174cba4d4d95841ae671cd`; detail audit `007c9a768edd1483583cec7336b2f7537366922a`.
 - [ ] Exact next task: enrich the next deterministic equipment endpoint tranche, beginning with **`equip-091`–`equip-100`**, after a fresh endpoint census; preserve normalized aliases and canonical accessory bridges.
 
+### 2026-09-22 — Equipment detail enrichment `equip-091`–`equip-100`
+- [x] Fresh live census before/after: **174 combined equipment/accessory records / 139 legacy equipment records / 0 duplicate IDs / 125 PQ→equipment forward edges / 123 unique targets / 0 broken endpoints**.
+- [x] Enriched the 10 legacy endpoints with source-backed category/slot metadata and provenance. Two legacy endpoints already had canonical accessory identities and were preserved as bridges rather than duplicated: **`equip-091 → acc-058` (SSGSS Goku Wig)** and **`equip-093 → acc-070` (Videl (DB Super) Wig)**.
+- [x] Classified the eight non-aliased endpoints: `equip-092` Vegeta's Shirt (upper body); `094` Orange Piccolo's Clothes (upper/lower/feet, no hands); `095` Videl (DB Super)'s Clothes (four-piece); `096` Belmod's Clothes (four-piece); `097` Goku (Mini)'s Gi (four-piece); `098` SS4 Goku (DAIMA) Suit (four-piece); `099` SS4 Goku (DAIMA) Wig & Tail (accessory); `100` SS3 Vegeta (DAIMA) Battle Suit (four-piece).
+- [x] DLC provenance reconciled: `093–095` Future Saga Chapter 1; `096–097` Future Saga Chapter 2; `098–100` Dragon Ball DAIMA Pack; `091–092` base-game-era PQ endpoints.
+- [x] Evidence used: maintained DBXV2 equipment catalog; maintained all-186-PQ guide; DBXV2 DLC documentation; Bandai Namco DAIMA Pack announcement; independent GameFAQs equipment discussion for Orange Piccolo/Videl component coverage.
+- [x] Added and registered `docs/data/equipment/equipment-091-100-detail-audit.json`.
+- [x] Evidence boundary preserved: no reward probability, guaranteed-drop semantics, combat/stat effect, or unsupported restriction was inferred. Vegeta's Shirt remains an upper-body endpoint rather than being promoted to a full set.
+- [x] Validation: 174 combined records / 139 legacy records; 0 duplicate IDs/names; 125 forward / 123 reverse / 0 broken; all 10 legacy batch endpoints have slot coverage; 8 non-alias canonical endpoints have explicit classification.
+- [ ] CI: no successful workflow/check exposed; CI success is not claimed.
+- [x] Commits: canonical `267cb0dcd98b9c5b8307e0d0f1ca5ac4b3da65cb`; combined layer `af70f83339d32794fa6c577ebfadc97850bd0f62`; audit `87b75353add617b60607c476dacb3442dc95ba3b`; registry `bb005ca06da404f9027bf18148e6204f4b72cfe3`.
+- [ ] Exact next batch: fresh census, then continue the equipment identity/detail stream with **`equip-101`–`equip-110`**, preserving any canonical accessory bridges before adding metadata.
+
