@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "domain": "pq_accessory",
   "canonical_pq_records": 186,
-  "canonical_identity_records": 58,
+  "canonical_identity_records": 64,
   "research_pq_records": 45,
   "matched_forward_edges": [
     {
@@ -126,10 +126,58 @@
       "source_backed": true
     },
     {
+      "pq_id": "pq-097",
+      "pq_number": 97,
+      "target_id": "acc-062",
+      "target_name": "Yamcha's Baseball Hat",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
+      "pq_id": "pq-100",
+      "pq_number": 100,
+      "target_id": "acc-063",
+      "target_name": "SSGSS Vegeta Wig",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
+      "pq_id": "pq-110",
+      "pq_number": 110,
+      "target_id": "acc-064",
+      "target_name": "SS4 Wig & Tail (Goku)",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
+      "pq_id": "pq-149",
+      "pq_number": 149,
+      "target_id": "acc-059",
+      "target_name": "Bulma (Kid) Wig",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
       "pq_id": "pq-051",
       "pq_number": 51,
       "target_id": "acc-005",
       "target_name": "Great Saiyaman Helmet",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
+      "pq_id": "pq-160",
+      "pq_number": 160,
+      "target_id": "acc-060",
+      "target_name": "Red Ribbon Army Helmet",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
+      "pq_id": "pq-162",
+      "pq_number": 162,
+      "target_id": "acc-061",
+      "target_name": "Gohan (Beast) Wig",
       "status": "identity_matched",
       "source_backed": true
     }
@@ -286,6 +334,46 @@
       ]
     },
     {
+      "target_id": "acc-062",
+      "target_name": "Yamcha's Baseball Hat",
+      "pq_ids": [
+        "pq-097"
+      ],
+      "pq_numbers": [
+        97
+      ]
+    },
+    {
+      "target_id": "acc-063",
+      "target_name": "SSGSS Vegeta Wig",
+      "pq_ids": [
+        "pq-100"
+      ],
+      "pq_numbers": [
+        100
+      ]
+    },
+    {
+      "target_id": "acc-064",
+      "target_name": "SS4 Wig & Tail (Goku)",
+      "pq_ids": [
+        "pq-110"
+      ],
+      "pq_numbers": [
+        110
+      ]
+    },
+    {
+      "target_id": "acc-059",
+      "target_name": "Bulma (Kid) Wig",
+      "pq_ids": [
+        "pq-149"
+      ],
+      "pq_numbers": [
+        149
+      ]
+    },
+    {
       "target_id": "acc-005",
       "target_name": "Great Saiyaman Helmet",
       "pq_ids": [
@@ -294,37 +382,29 @@
       "pq_numbers": [
         51
       ]
+    },
+    {
+      "target_id": "acc-060",
+      "target_name": "Red Ribbon Army Helmet",
+      "pq_ids": [
+        "pq-160"
+      ],
+      "pq_numbers": [
+        160
+      ]
+    },
+    {
+      "target_id": "acc-061",
+      "target_name": "Gohan (Beast) Wig",
+      "pq_ids": [
+        "pq-162"
+      ],
+      "pq_numbers": [
+        162
+      ]
     }
   ],
   "unmatched_research_records": [
-    {
-      "pq_record_id": "pqacc-016",
-      "name": "Yamcha Baseball Hat",
-      "pq_number": 97,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-097 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-017",
-      "name": "SSGSS Vegeta Wig",
-      "pq_number": 100,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-098 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-018",
-      "name": "SS4 Wig & Tail (Goku)",
-      "pq_number": 110,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-018 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-019",
-      "name": "Bulma (Kid) Wig",
-      "pq_number": 149,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-099 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
     {
       "pq_record_id": "pqacc-021",
       "name": "Resistance Helmet",
@@ -387,20 +467,6 @@
       "pq_number": 152,
       "match_status": "researched_unresolved",
       "note": "PQ152 reward evidence identifies the canonical inventory item as Android 17 (DB Super) Wig; Ranger Accessory is retained as a component/research alias rather than a duplicate item. Previous bridge endpoint accr-029 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-030",
-      "name": "Red Ribbon Army Helmet",
-      "pq_number": 160,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-034 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-031",
-      "name": "Gohan (Beast) Wig",
-      "pq_number": 162,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-016 is not present in the current canonical accessory layer; no replacement identity is inferred."
     },
     {
       "pq_record_id": "pqacc-032",
@@ -503,11 +569,11 @@
   ],
   "validation": {
     "canonical_pq_records": 186,
-    "canonical_accessory_records": 58,
+    "canonical_accessory_records": 64,
     "research_records": 45,
-    "forward_edge_count": 16,
-    "reverse_edge_count": 16,
-    "unresolved_research_records": 29,
+    "forward_edge_count": 22,
+    "reverse_edge_count": 22,
+    "unresolved_research_records": 23,
     "stale_endpoint_count": 0,
     "duplicate_forward_edges": 0,
     "null_pq_edges": 0,
@@ -515,10 +581,8 @@
     "endpoint_integrity": "pass"
   },
   "notes": [
-    "Canonical accessory IDs are acc-### in equipment-accessories-record-layer.json.",
-    "Exact-name reconciliation is allowed only against an existing canonical accessory identity; no accessory identity is invented from clothing/set research.",
+    "Canonical accessory IDs are authoritative.",
     "Unresolved research records remain research data and do not create canonical edges.",
-    "Accessories remain distinct from clothing/equipment.",
-    "Canonical accessory records are authoritative; verification/evidence metadata does not compete with canonical identity data."
+    "Accessories remain distinct from clothing/equipment."
   ]
 }
