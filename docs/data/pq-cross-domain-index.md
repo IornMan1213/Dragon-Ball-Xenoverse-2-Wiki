@@ -36,11 +36,10 @@ Reward relationships are only created when a source explicitly identifies the it
 - `pq-reward-relationships.json` contains the first normalized relationship set, including documented skill, equipment, Dragon Ball farming and DLC edges.
 - `pq-cross-domain-schema.json` defines the machine-readable edge format.
 
-## Next expansion order
+## Current completion state and next gate
 
-1. Complete all skill reward edges across PQ 1-186.
-2. Complete all Super Soul reward edges.
-3. Complete all clothing/accessory reward edges.
-4. Resolve Ultimate Finish/drop-slot attribution conflicts.
-5. Add reverse indexes for every reward domain.
-6. Link each reward to its canonical skill, Super Soul, equipment, character and DLC record.
+The canonical relationship layer is now the authoritative source for **860 unique PQ edges**: 244 skills, 151 Super Souls, 125 equipment, 247 character references, 86 DLC requirements, and 7 farming routes. Canonical reverse/presentation projections for skills, Super Souls, equipment/accessories, characters, DLC, and farming have been audited for endpoint integrity; aliases and granularity conflicts remain explicit presentation metadata rather than alternate canonical identities.
+
+The next deterministic gate is **consumer/page navigation integrity**: audit direct PQ pages, catalog indexes, and cross-domain presentation consumers so each displayed relationship resolves back to the canonical PQ and target identity. This pass must not add relationship edges. Legacy display names, bundle-vs-pack granularity, or unresolved page references must remain explicitly classified rather than inferred.
+
+Canonical relationship data remains authoritative. Normalized research maps, verification status, reverse indexes, and presentation bridges are projections/evidence layers and must never override canonical relationships.
