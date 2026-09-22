@@ -783,3 +783,14 @@
 - [x] Clarified `docs/data/pq-cross-domain-index.json`: the character reverse projection key is `canonical_character_name`, not `character_id`, because the live canonical character layer currently exposes names and does not provide stable character IDs.
 - [x] No relationship data changed; this is a schema/documentation clarification only.
 - [x] Additional commit: `c46f937382a0f8b154e5dbe15bc0263eb7eb6d76`.
+
+
+### 2026-09-22 cycle update — PQ page/index consumer gate clarification
+- Live census before editing: canonical PQ relationship layer **860 unique edges = 244 skills / 151 Super Souls / 125 equipment / 247 characters / 86 DLC / 7 farming**; canonical PQ record layer **186 numbered records**.
+- Bounded batch: inspect broader PQ page/index consumers after the character reverse-navigation audit, without adding relationship edges.
+- Repository evidence: `docs/data/parallel-quests-record-layer.json`, `docs/data/pq-cross-domain-index.md`, `docs/Parallel-Quest-Audit.md`, `docs/data/pq-cross-domain-status.json`, and the existing canonical reverse/index audits.
+- Deterministic finding: the live PQ record layer has reward-domain fields and stable skill/Super Soul IDs, but no dedicated character field; character navigation therefore correctly remains sourced from the canonical `pq_features_character` relationship layer rather than being inferred from generic `enemies`/objective text. The broader cross-domain documentation still described the old population sequence as unfinished.
+- Changes: updated `docs/data/pq-cross-domain-index.md` to make **consumer/page navigation integrity** the next gate; updated `docs/Parallel-Quest-Audit.md` so its current research target reflects the completed canonical skill cross-link gate and the remaining navigation-consumer audit.
+- Validation: live files re-read after write; canonical counts remain 860 and no relationship arrays were changed. No CI/build success is claimed.
+- Commits: `df4bbf8452d84f6b87fc2de77fcac98a8e1e4ebc`, `05a1196ff978809391d31a2549c0fe8a6f93b30b`.
+- Exact next batch: inspect the actual generated PQ catalog/page implementation and its templates/index data for displayed reward/character/DLC links, then add one deterministic consumer validator or repair only confirmed stale/orphan references. Do not infer relationships from page text.
