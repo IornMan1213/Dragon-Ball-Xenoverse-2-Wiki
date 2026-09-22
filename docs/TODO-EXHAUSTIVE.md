@@ -525,3 +525,12 @@
 - [x] Updated docs/data/pq-cross-domain-index.json to use canonical_character_name for the character reverse projection because the live character layer has names, not stable character IDs.
 - [x] No canonical relationship data changed; this prevents downstream consumers from assuming a nonexistent character-ID layer.
 - [x] Commit: c46f937382a0f8b154e5dbe15bc0263eb7eb6d76.
+
+
+### 2026-09-22 — PQ page/index consumer gate clarification
+- [x] Inspected the live PQ record layer and cross-domain documentation after completing the canonical character reverse-navigation batch.
+- [x] Confirmed `parallel-quests-record-layer.json` has stable PQ IDs plus skill/Super Soul reward ID projections, but no dedicated character relationship field; character navigation remains correctly derived from the canonical `pq_features_character` relationship layer rather than inferred from generic enemy/objective text.
+- [x] Updated `docs/data/pq-cross-domain-index.md` so the current next gate is consumer/page navigation integrity rather than the already-completed reward-domain population sequence.
+- [x] Updated `docs/Parallel-Quest-Audit.md` so its current research target reflects the completed canonical skill cross-link gate and the remaining PQ navigation-consumer audit.
+- [x] No canonical relationship edges were added, removed, or renamed; live relationship baseline remains 860 unique edges.
+- [ ] Exact next task: inspect the generated PQ catalog/page implementation and templates/index data for displayed reward, character, and DLC links; add a deterministic consumer validator or repair only confirmed stale/orphan references. Do not infer relationships from page prose.
