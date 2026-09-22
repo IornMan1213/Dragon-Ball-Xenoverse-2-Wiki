@@ -1412,3 +1412,8 @@
 ## 2026-09-22 — Shield Barrier provenance
 - Strengthened `skill-shield-barrier` with independent maintained Steam PQ evidence for PQ153 acquisition.
 - Preserved the existing explicit Ultimate Finish bonus-roll condition despite the Steam guide's Basic Reward presentation; the conflict remains documented.
+
+
+## 2026-09-22 — Soaring Fist provenance
+- Strengthened `skill-soaring-fist` with independent Dragon Ball Wiki evidence for its Xenoverse 2 TP Medal Shop acquisition.
+- Preserved existing Free Update 11, TP/STP shop, and CaC semantics.
