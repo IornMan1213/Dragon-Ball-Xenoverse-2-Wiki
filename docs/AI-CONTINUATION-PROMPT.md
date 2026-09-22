@@ -6983,3 +6983,13 @@ The repository owner has clarified the continuation contract:
 - Commits on live `main`: `d2eda59d8d5418f4f07d215a2232f81122b986e3` (canonical), `a3e2f62267f841ccacb4177e1e827d3c20c07392a` (index), `bfa526a77a56995dfcd29f55088a62694d508837` (changelog).
 - Exact next batch: **Meteor Crash (`skill-meteor-crash`)**. Recompute the live two-source census first; independently verify **PQ12 / Basic Reward** acquisition, then add provenance only if the evidence threshold is met. Do not assume the previously recorded Meteor Crash commits are on live `main`; verify the live files first.
 
+### 2026-09-21 cycle update — Meteor Crash provenance strengthening on live main
+- Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 22 exactly-two-source canonical records**.
+- Bounded batch: **Meteor Crash (`skill-meteor-crash`)**.
+- Evidence: Steam's maintained **DBX2 Parallel Quest Item / Skill Rewards** guide lists Meteor Crash under **PQ12**; Yhan Game independently lists Meteor Crash in **PQ12 — Simian Battlefront — Basic Reward**. Sources: https://steamcommunity.com/sharedfiles/filedetails/?id=796204215 and https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html
+- Changes: added the Steam guide as a third provenance source to both canonical/index records and refreshed `last_verified` to **2026-09-21**. Existing PQ12 acquisition semantics were preserved; no numeric drop probability or Ultimate Finish-only gate was inferred.
+- Validation target: **21 exactly-two-source canonical records** after the write; canonical/index source parity must remain clean.
+- CI: no success claim without an exposed workflow/check.
+- Live commits: `ddd93d2e759aa268e22b71f3128a4eb757295602` (canonical), `b2e192d9a52dfbb83964c7cc1d4e3fbdc3201d31` (index), `4626a73071ea4a983211f04728025eca51f7aa12` (changelog).
+- Exact next batch: **Perfect Shot (`skill-perfect-shot`)**. Recompute the live two-source census first, then independently verify the Cell (Perfect) Lesson 2 acquisition endpoint before provenance-only strengthening.
+
