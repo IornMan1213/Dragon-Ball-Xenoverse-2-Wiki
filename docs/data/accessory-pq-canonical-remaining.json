@@ -9,62 +9,6 @@
   },
   "records": [
     {
-      "pq_record_id": "pqacc-002",
-      "name": "Four-Star Dragon Ball Hat",
-      "pq": 5,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-089 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-003",
-      "name": "Chiaotzu's Hat (With Collar)",
-      "pq": 9,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-090 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-006",
-      "name": "Dore's Scouter",
-      "pq": 27,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-091 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-009",
-      "name": "Great Saiyaman Bandana 1",
-      "pq": 51,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-092 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-010",
-      "name": "Great Saiyaman Bandana 2",
-      "pq": 53,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-093 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-012",
-      "name": "Jaco's State-of-the-Art Radio",
-      "pq": 72,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-094 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-013",
-      "name": "Tagoma's Scouter",
-      "pq": 73,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-095 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-014",
-      "name": "SSGSS Goku Wig",
-      "pq": 76,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-096 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
       "pq_record_id": "pqacc-016",
       "name": "Yamcha Baseball Hat",
       "pq": 97,
@@ -269,24 +213,27 @@
     }
   ],
   "current_external_evidence": [
-    "Steam's all-PQ guide explicitly lists PQ144 Gine's Clothes/Gine Set, PQ146 Bardock (DB Super)'s Clothes, PQ147 Caulifla's Clothes/Caulifla Wig, PQ148 Kale's Clothes/Kale Wig, and PQ149 Bulma (Kid) Clothes/Wig.",
-    "The current equipment catalog separately lists the corresponding clothing routes, supporting the rule that a generic accessory/set label must not automatically become a new accessory identity.",
+    "The canonical accessory layer now contains exact identities for the eight previously unresolved early/base-game PQ records reconciled in the current batch.",
+    "Legacy equipment endpoints for Dore's Scouter, Four-Star Dragon Ball Hat, Chiaotzu's Hat (With Collar), and SSGSS Goku Wig were normalized to new acc-### canonical identities rather than duplicated.",
     "Historical source disagreements are retained rather than resolved by majority assumption."
   ],
   "sources": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
     "https://dbxv2.fandom.com/wiki/Equipment",
-    "https://dbxv2.fandom.com/wiki/DLC"
+    "https://dragonball.fandom.com/wiki/Scouter",
+    "https://dragonball.fandom.com/wiki/Galactic_Receiver"
   ],
   "summary": {
     "research_records": 45,
-    "canonical_accessory_records": 50,
-    "matched": 8,
-    "unresolved": 37,
-    "remapped_by_exact_name": 8
+    "canonical_accessory_records": 54,
+    "matched": 16,
+    "unresolved": 29,
+    "remapped_by_exact_name": 16
   },
   "notes": [
-    "This file is derived from the canonical bridge and current accessory record layer. It replaces the former mixed-era backlog that listed already-promoted/stale `accr-###` identities.",
-    "A missing current canonical identity is a research gap, not permission to create an accessory from clothing/set names."
+    "This file is derived from the canonical bridge and current accessory record layer.",
+    "A missing current canonical identity is a research gap, not permission to create an accessory from clothing/set names.",
+    "Canonical data is authoritative; research and verification evidence remain supporting metadata."
   ]
 }
