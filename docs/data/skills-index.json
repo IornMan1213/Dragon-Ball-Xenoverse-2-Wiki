@@ -5815,13 +5815,14 @@
       "acquisition_type": "parallel_quest",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Kaioken_Kamehameha",
-        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "unlock_method": "Parallel Quest 14 reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
-      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint.",
+      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint. 2026-09-21 provenance strengthening: maintained Steam all-PQ guide independently lists Kaioken Kamehameha in PQ14 — Saiyan Pride Basic Reward, corroborating the existing PQ14 acquisition endpoint and no-Ultimate-Finish-only interpretation.",
       "mechanics_notes": "Canonical identity, class, category, and acquisition source verified from dedicated skill evidence. Unsupported mechanics are intentionally deferred.",
       "source_quest": 14,
       "source_quest_or_shop": "Parallel Quest 14"
