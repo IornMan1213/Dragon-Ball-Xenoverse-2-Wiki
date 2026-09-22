@@ -281,3 +281,13 @@
 - Evidence boundaries: no reward probability, Ultimate Finish-only gate, equipment slot breakdown, or combat/stat effect was promoted unless directly established by the evidence reviewed.
 - CI: no successful workflow/check exposed; no CI success is claimed.
 - Exact next batch: **`equip-041`–`equip-050`**. Recompute live census first, then independently reconcile identity, PQ acquisition, DLC provenance, and any directly evidenced slot/restriction/effect fields.
+
+### 2026-09-22 cycle update — equipment provenance batch `equip-041`–`equip-050`
+- Active workstream: P2 equipment/accessory canonical detail and provenance enrichment.
+- Bounded batch completed: `equip-041`–`equip-050`: Kakunsa's Wig and Mask; Kakunsa's Tail; Rozie's Clothes; Rozie's Hood and Goggles; Android 21's Lab Uniform; Universe 7 Baseball Uniform; Universe 7 Baseball Cap; Universe 6 Baseball Uniform; Gine (DB Super)'s Clothes; Gine (DB Super) Set.
+- Evidence review: independent character/item documentation and the maintained equipment catalog corroborate identity/category; the maintained all-186 PQ guide corroborates the PQ reward endpoint and DLC grouping. PQ133/PQ135 are Ultra Pack 1; PQ139/PQ142 are Ultra Pack 2; PQ144 is Legendary Pack 1.
+- Changes: classified the 10 records as equipment vs accessory where directly evidenced; added an independent provenance source to each; replaced unresolved DLC provenance with the documented PQ/DLC grouping; preserved unresolved drop probabilities, reward-slot semantics, restrictions, and combat/stat effects unless directly established.
+- Post-edit validation: **169 canonical equipment records / 0 duplicate IDs / 124 forward edges / 122 reverse endpoints / 0 unresolved / 0 broken endpoints**. All 10 records have 2 provenance sources, explicit categories, and explicit DLC provenance.
+- Crosslink report metadata synchronized; relationship endpoints were unchanged.
+- CI: no successful workflow/check exposed; no CI success is claimed.
+- Exact next batch: **`equip-051`–`equip-060`**. Recompute the live census first, then independently reconcile identity, category, PQ acquisition, DLC provenance, and directly evidenced effects/restrictions.
