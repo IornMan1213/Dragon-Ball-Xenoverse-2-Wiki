@@ -46,6 +46,10 @@ Character acquisition can come from several different systems, and those systems
 
 A character being present in the roster is therefore not the same thing as documenting every form, preset, customization option or acquisition path associated with the character.
 
+## DLC provenance identity navigation
+
+The DLC headline-character baseline now has an explicit presentation bridge to the canonical character-name layer. Exact aliases are resolved deterministically; variant labels that cannot be safely collapsed remain unresolved instead of being mapped to a nearby character. See [DLC character identity audit](data/characters/dlc-character-identity-audit.json) and [DLC character identity bridge](data/characters/dlc-character-identity-bridge.json).
+
 ## Canonical roster index
 
 The following names are the current canonical record layer. They are intentionally preserved as individual searchable identities; forms and variants are not silently merged just because they share a base character.
