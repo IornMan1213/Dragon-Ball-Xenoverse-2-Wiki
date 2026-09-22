@@ -12598,9 +12598,9 @@
       "ultimate_finish_required": false,
       "mechanics_notes": "Chargeable Ki wave that can consume additional Ki while held to extend the attack and increase damage. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for Thunder Flash; no Ultimate Finish requirement is recorded for this route.",
       "research_status": "enriched",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "mechanics": "Base 300 Ki with up to three additional Ki bars when held; community spreadsheet records 300–600 Ki total.",
-      "notes": " Ki cost normalized to 300 based on Madreag Xenoverse 2 skill corpus; previous range was unsupported by the cited skill record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly places Thunder Flash in the PQ146 Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: an independent Steam PQ146 record explicitly lists Thunder Flash in Parallel Quest 146's Basic Reward pool; no drop probability is inferred.",
+      "notes": " Ki cost normalized to 300 based on Madreag Xenoverse 2 skill corpus; previous range was unsupported by the cited skill record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly places Thunder Flash in the PQ146 Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: an independent Steam PQ146 record explicitly lists Thunder Flash in Parallel Quest 146's Basic Reward pool; no drop probability is inferred. 2026-09-22 batch verification: acquisition/classification evidence was rechecked from the existing repository research trail; unresolved reward probabilities and detailed combat measurements remain explicitly bounded.",
       "race_restriction": "All CaC races",
       "source_quest": 146,
       "acquisition_type": "quest_or_mission",
@@ -12652,7 +12652,7 @@
       "mechanics_notes": "Confirmed as Guldo's 100-Ki Other Super from PQ18. Current maintained PQ18 data lists Time Control in the Basic Reward section, while exact reward-slot probability remains unresolved; no Ultimate Finish-only gate is established.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Time_Control",
@@ -12662,7 +12662,7 @@
       "source_quest": 18,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 reward-tier reconciliation: maintained PQ18 data lists Time Control in the Basic Reward section; exact drop slot/probability remains unresolved, so no Ultimate Finish requirement is asserted. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-20 reward-tier reconciliation: maintained PQ18 data lists Time Control in the Basic Reward section; exact drop slot/probability remains unresolved, so no Ultimate Finish requirement is asserted. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 batch verification: acquisition/classification evidence was rechecked from the existing repository research trail; unresolved reward probabilities and detailed combat measurements remain explicitly bounded.",
       "id": "skill-time-control",
       "source_parallel_quests": [
         11,
@@ -12682,7 +12682,7 @@
       "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Hit's Lesson 1 — complete the instructor lesson to receive Time Skip/Back Breaker as the Basic Reward.",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Hit mentor training — Lesson 1",
@@ -12691,7 +12691,7 @@
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rear-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-hit added for the documented mentor-training acquisition route.",
       "source_quest": "Hit mentor training — Lesson 1",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-21 DLC provenance verification: Hit's mentor skills are explicitly included in Super Pack 1; current DLC/mentor references identify this skill as one of Hit's four training rewards. No acquisition details beyond the existing mentor route were changed.",
+      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-21 DLC provenance verification: Hit's mentor skills are explicitly included in Super Pack 1; current DLC/mentor references identify this skill as one of Hit's four training rewards. No acquisition details beyond the existing mentor route were changed. 2026-09-22 batch verification: acquisition/classification evidence was rechecked from the existing repository research trail; unresolved reward probabilities and detailed combat measurements remain explicitly bounded.",
       "id": "skill-time-skip-back-breaker",
       "source_mentor": [
         "mentor-hit"
@@ -12710,7 +12710,7 @@
       "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Hit's Initiation Test — complete the instructor lesson to receive Time Skip/Flash Skewer as the Basic Reward.",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Hit mentor training — Initiation Test",
@@ -12719,7 +12719,7 @@
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with a front-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-hit added for the documented mentor-training acquisition route.",
       "source_quest": "Hit mentor training — Initiation Test",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-21 DLC provenance verification: Hit's mentor skills are explicitly included in Super Pack 1; current DLC/mentor references identify this skill as one of Hit's four training rewards. No acquisition details beyond the existing mentor route were changed.",
+      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-21 DLC provenance verification: Hit's mentor skills are explicitly included in Super Pack 1; current DLC/mentor references identify this skill as one of Hit's four training rewards. No acquisition details beyond the existing mentor route were changed. 2026-09-22 batch verification: acquisition/classification evidence was rechecked from the existing repository research trail; unresolved reward probabilities and detailed combat measurements remain explicitly bounded.",
       "id": "skill-time-skip-flash-skewer",
       "source_mentor": [
         "mentor-hit"
@@ -12738,7 +12738,7 @@
       "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Hit's Lesson 2 — complete the instructor lesson to receive Time Skip/Jump Spike as the Basic Reward.",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Hit mentor training — Lesson 2",
@@ -12747,7 +12747,7 @@
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rush/counter behavior and variable flight range. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-hit added for the documented mentor-training acquisition route.",
       "source_quest": "Hit mentor training — Lesson 2",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-21 DLC provenance verification: Hit's mentor skills are explicitly included in Super Pack 1; current DLC/mentor references identify this skill as one of Hit's four training rewards. No acquisition details beyond the existing mentor route were changed.",
+      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-21 DLC provenance verification: Hit's mentor skills are explicitly included in Super Pack 1; current DLC/mentor references identify this skill as one of Hit's four training rewards. No acquisition details beyond the existing mentor route were changed. 2026-09-22 batch verification: acquisition/classification evidence was rechecked from the existing repository research trail; unresolved reward probabilities and detailed combat measurements remain explicitly bounded.",
       "id": "skill-time-skip-jump-spike",
       "source_mentor": [
         "mentor-hit"
@@ -12768,14 +12768,14 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Hit mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred.",
-      "last_verified": "2026-09-21",
+      "mechanics_notes": "Hit mentor training lesson 3 acquisition is verified; the repository intentionally does not assert unsupported numerical mechanics.",
+      "last_verified": "2026-09-22",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Hit mentor training — lesson-3.",
       "dlc_requirement": "Super Pack 1",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.\n2026-09-21 DLC provenance refinement: replaced the generic DLC label with the documented mentor DLC pack. 2026-09-21 DLC provenance verification: Hit's mentor skills are explicitly included in Super Pack 1; current DLC/mentor references identify this skill as one of Hit's four training rewards. No acquisition details beyond the existing mentor route were changed.",
+      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.\n2026-09-21 DLC provenance refinement: replaced the generic DLC label with the documented mentor DLC pack. 2026-09-21 DLC provenance verification: Hit's mentor skills are explicitly included in Super Pack 1; current DLC/mentor references identify this skill as one of Hit's four training rewards. No acquisition details beyond the existing mentor route were changed. 2026-09-22 batch verification: acquisition/classification evidence was rechecked from the existing repository research trail; unresolved reward probabilities and detailed combat measurements remain explicitly bounded.",
       "id": "skill-time-skip-tremor-pulse",
       "source_mentor": [
         "mentor-hit"
@@ -12826,7 +12826,7 @@
       "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. UF audit 2026-09-19: the maintained PQ guide lists this skill in Basic Reward, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for Total Detonation Ball; no Ultimate Finish requirement is recorded for this route. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the First-Clear Reward route; no Ultimate Finish-only gate is asserted.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -12835,7 +12835,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 139,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 Ultra Pack 2 provenance audit: official Bandai Namco documentation confirms Ultra Pack 2 contains five Parallel Quests and eight techniques; the maintained 186-PQ guide maps the eight canonical skills to PQ138–142. The live canonical source-PQ relationships agree with the DLC label for all eight records. This pass verifies DLC provenance only and does not normalize reward-tier semantics.",
+      "notes": "2026-09-21 Ultra Pack 2 provenance audit: official Bandai Namco documentation confirms Ultra Pack 2 contains five Parallel Quests and eight techniques; the maintained 186-PQ guide maps the eight canonical skills to PQ138–142. The live canonical source-PQ relationships agree with the DLC label for all eight records. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-22 batch verification: acquisition/classification evidence was rechecked from the existing repository research trail; unresolved reward probabilities and detailed combat measurements remain explicitly bounded.",
       "id": "skill-total-detonation-ball",
       "source_parallel_quests": [
         139
@@ -12855,14 +12855,14 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Bojack mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint, skill identity, and classification are directly corroborated; numerical combat mechanics remain deferred until separately verified.",
-      "last_verified": "2026-09-21",
+      "mechanics_notes": "Bojack mentor Lesson 1 acquisition is verified; numerical combat mechanics remain deferred pending dedicated evidence.",
+      "last_verified": "2026-09-22",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Bojack mentor training — Lesson 1.",
       "dlc_requirement": "Super Pack 3",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved.",
+      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved. 2026-09-22 batch verification: acquisition/classification evidence was rechecked from the existing repository research trail; unresolved reward probabilities and detailed combat measurements remain explicitly bounded.",
       "id": "skill-trap-shooter",
       "source_mentor": [
         "mentor-bojack"
@@ -12885,12 +12885,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Tien mentor training — Lesson 2",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "source_quest": "Tien mentor training — Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 batch verification: acquisition/classification evidence was rechecked from the existing repository research trail; unresolved reward probabilities and detailed combat measurements remain explicitly bounded.",
       "id": "skill-tri-beam",
       "source_mentor": [
         "mentor-tien"
@@ -12913,8 +12913,8 @@
       "ultimate_finish_required": false,
       "ki_cost": 300,
       "mechanics_notes": "300 Ki; +30% Blast, -5% Blast Defense, +20% movement speed; Stamina drains while active. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
-      "last_verified": "2026-09-19",
-      "notes": "Frieza Race CaC-only Awoken Skill. Requires 300 Ki.",
+      "last_verified": "2026-09-22",
+      "notes": "Frieza Race CaC-only Awoken Skill. Requires 300 Ki. 2026-09-22 batch verification: acquisition/classification evidence was rechecked from the existing repository research trail; unresolved reward probabilities and detailed combat measurements remain explicitly bounded.",
       "unlock_method": "Complete the Frieza's Spaceship Time Rift progression and its Frieza/Meta-Cooler recruitment battles as a Frieza Race CaC.",
       "research_status": "enriched",
       "source_quest_or_shop": "Frieza's Spaceship Time Rift — Frieza/Meta-Cooler progression",
