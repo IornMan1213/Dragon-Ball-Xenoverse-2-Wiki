@@ -47,67 +47,25 @@
         {
           "id": "acc-012",
           "name": "Goku Wig (Super Saiyan)",
-          "canonical_pqs": [
-            "pq-063"
-          ],
-          "documented_pqs": [
-            "pq-018",
-            "pq-063"
-          ],
-          "conflicting_pqs": [
-            "pq-018"
-          ]
+          "canonical_pqs": ["pq-063"],
+          "documented_pqs": ["pq-018", "pq-063"],
+          "conflicting_pqs": ["pq-018"]
         },
         {
           "id": "acc-058",
           "name": "SSGSS Goku Wig",
-          "canonical_pqs": [
-            "pq-066"
-          ],
-          "documented_pqs": [
-            "pq-066",
-            "pq-076"
-          ],
-          "conflicting_pqs": [
-            "pq-076"
-          ]
+          "canonical_pqs": ["pq-066"],
+          "documented_pqs": ["pq-066", "pq-076"],
+          "conflicting_pqs": ["pq-076"]
         }
       ],
       "source_route_subsets": [],
       "status": "clean",
       "noncanonical_structured_pq_fields": [
-        {
-          "id": "acc-054",
-          "name": "Great Saiyaman Bandana 1",
-          "structured_pqs": [
-            51
-          ],
-          "interpretation": "Preserved source/acquisition metadata; not a canonical pq_rewards_equipment target."
-        },
-        {
-          "id": "acc-055",
-          "name": "Great Saiyaman Bandana 2",
-          "structured_pqs": [
-            53
-          ],
-          "interpretation": "Preserved source/acquisition metadata; not a canonical pq_rewards_equipment target."
-        },
-        {
-          "id": "acc-056",
-          "name": "Jaco's State-of-the-Art Radio",
-          "structured_pqs": [
-            72
-          ],
-          "interpretation": "Preserved source/acquisition metadata; not a canonical pq_rewards_equipment target."
-        },
-        {
-          "id": "acc-057",
-          "name": "Tagoma's Scouter",
-          "structured_pqs": [
-            73
-          ],
-          "interpretation": "Preserved source/acquisition metadata; not a canonical pq_rewards_equipment target."
-        }
+        {"id": "acc-054", "name": "Great Saiyaman Bandana 1", "structured_pqs": [51], "interpretation": "Preserved source/acquisition metadata; not a canonical pq_rewards_equipment target."},
+        {"id": "acc-055", "name": "Great Saiyaman Bandana 2", "structured_pqs": [53], "interpretation": "Preserved source/acquisition metadata; not a canonical pq_rewards_equipment target."},
+        {"id": "acc-056", "name": "Jaco's State-of-the-Art Radio", "structured_pqs": [72], "interpretation": "Preserved source/acquisition metadata; not a canonical pq_rewards_equipment target."},
+        {"id": "acc-057", "name": "Tagoma's Scouter", "structured_pqs": [73], "interpretation": "Preserved source/acquisition metadata; not a canonical pq_rewards_equipment target."}
       ],
       "interpretation_note": "Four equipment/accessory records retain PQ IDs in their acquisition metadata even though those names have no canonical pq_rewards_equipment edge. The validator now reports these as noncanonical metadata rather than treating them as reverse-link failures.",
       "canonical_pair_count": 124,
@@ -115,6 +73,10 @@
       "reverse_pair_missing": [],
       "reverse_pair_extra": [],
       "invalid_structured_pq_ids": [],
+      "malformed_structured_fields": [],
+      "duplicate_record_names": [],
+      "duplicate_canonical_pairs": 0,
+      "duplicate_structured_pairs": 0,
       "checks": {
         "reverse_pair_parity": true,
         "structured_pq_ids_valid": true,
@@ -122,11 +84,7 @@
         "unique_record_names": true,
         "structured_field_is_list": true,
         "duplicate_canonical_pairs": true
-      },
-      "duplicate_structured_pairs": 0,
-      "malformed_structured_fields": [],
-      "duplicate_record_names": [],
-      "duplicate_canonical_pairs": 0
+      }
     }
   },
   "validator": "scripts/validate_record_reverse_pq_navigation.py",
@@ -135,20 +93,8 @@
   "status": "clean",
   "validator_commit": "a5a706db4cff56967d6af2813c1623738c3f0324",
   "exact_forward_pair_contract": {
-    "super_souls": {
-      "canonical_pairs": 151,
-      "structured_pairs_for_canonical_targets": 151,
-      "missing": 0,
-      "extra": 0,
-      "duplicate": 0
-    },
-    "equipment": {
-      "canonical_pairs": 125,
-      "structured_pairs_for_canonical_targets": 125,
-      "missing": 0,
-      "extra": 0,
-      "duplicate": 0
-    },
+    "super_souls": {"canonical_pairs": 151, "structured_pairs_for_canonical_targets": 151, "missing": 0, "extra": 0, "duplicate": 0},
+    "equipment": {"canonical_pairs": 124, "structured_pairs_for_canonical_targets": 124, "missing": 0, "extra": 0, "duplicate": 0},
     "note": "Equipment retains four explicitly noncanonical structured PQ metadata pairs; these are preserved source/acquisition metadata and are excluded from canonical reverse-pair parity."
   },
   "hardening": {
