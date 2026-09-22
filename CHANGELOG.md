@@ -1718,3 +1718,15 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Added docs/data/pq-non-pq-consumer-census-2026-09-22.json and scripts/validate_pq_non_pq_consumer_census.py, and registered them in the PQ cross-domain index.
 - No canonical relationship or identity was changed. Runtime/CI execution remains unavailable; no executable validation is claimed.
 - Next: resume the P1 provenance queue at Prominence Flash (skill-prominence-flash).
+
+
+### 2026-09-22 cycle update — character Markdown preset-consumer audit
+- [x] Fresh live census: **149 canonical character identities / 29 bridge records / 40 preset producer records / 17 preset character IDs / 247 explicit PQ→character references**; prior 45-record preset count remains historical and is superseded by the live 40-record producer census.
+- [x] Audited the character-facing Markdown consumers docs/Characters.md and docs/Character-Core-Profiles.md for hard-coded preset labels and canonical explorer/search navigation.
+- [x] Confirmed docs/Characters.md links to the canonical Characters-All.html explorer and Character-Core-Profiles.md uses the site's Search-first navigation design.
+- [x] Deterministic preset-label scan found **0 hard-coded preset-label matches** in those two Markdown consumers; no one-way preset navigation repair was necessary there.
+- [x] Extended scripts/validate_character_presentation_consumers.py with the Markdown-consumer checks and updated docs/data/characters/character-presentation-consumer-audit.json to register the two pages.
+- [x] Evidence boundary preserved: this audit does not infer missing preset numbers/loadouts, unlock routes, DLC ownership, or Captain Ginyu body-swap identity. The two Captain Ginyu labels remain explicitly unresolved presentation identities.
+- [ ] CI/runtime execution remains unavailable; no executable validation or CI success claimed.
+- [x] Commits: validator 44680366def03b1fdfc7d4c32eb05b9039a61c09; audit dd7a1122748cbe731e0ec6c26da71c9e02ebe23b.
+- [ ] Exact next batch: audit the remaining **PQ-facing reward/acquisition summary consumers**, prioritizing docs/Guides.md, docs/Skills-Complete-Database.md, docs/QQ-Bangs.md, and other summary/index pages for deterministic canonical endpoint drift or one-way navigation; do not infer new relationships.
