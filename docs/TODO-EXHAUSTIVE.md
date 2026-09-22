@@ -1359,3 +1359,16 @@
 - [x] Validator commit: `23350e2db4d4fe85f204599a9ab6632c60b05375`; audit refresh: `8c68ad509c61bb352a0ccff37eed0a5c399a592e`.
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [ ] Exact next batch: continue to the next registered local Search/DLC/equipment or published navigation consumer, prioritizing another deterministic representation mismatch or one-way canonical-link gap before broad content research.
+
+
+### 2026-09-22 cycle update — Character presentation identity-shape hardening
+- [x] Continued the registered cross-domain consumer chain into `scripts/validate_character_presentation_consumers.py`, covering canonical character identities, the character-ID bridge, preset records, Partner Customization records/reconciliation, and `docs/Characters-All.html` search navigation.
+- [x] Hardened bridge identity validation so duplicate `character_id` values and malformed non-string IDs cannot be silently collapsed by the bridge dictionary.
+- [x] Hardened optional bridge `source_name` uniqueness when present; absent optional source names are not treated as duplicates.
+- [x] Hardened preset identity validation so duplicate/malformed record IDs are explicit failures rather than silent set/dictionary normalization.
+- [x] Live census: **149 canonical character names / 29 bridge records / 40 preset records / 20 Partner Customization records / 20 reconciliation records**; **0 duplicate bridge IDs / 0 duplicate present source names / 0 malformed bridge IDs / 0 duplicate preset IDs / 0 malformed preset IDs**.
+- [x] Existing unresolved presentation boundaries remain preserved, including Captain Ginyu Presets 3/4 source-body labels; no character identity was inferred or renamed.
+- [x] Refreshed `docs/data/characters/character-presentation-consumer-audit.json` to schema **1.1.0**.
+- [x] Validator commit: `1bb36e8d85aa0a83487e98b502b7da5a8a6a38e0`; audit refresh: `fcc6c3746e5eea8b0c5116da5fd103797cf328ba`.
+- [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
+- [ ] Exact next batch: continue into the remaining published character/navigation consumer chain (especially published Character/DLC links and Partner Customization page validation), looking for the same class of hidden representation, duplicate, and one-way-link assumptions before broad content research.
