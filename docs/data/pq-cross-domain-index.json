@@ -104,7 +104,8 @@
     "skill_beast_provenance": "docs/data/skill-beast-provenance-audit-2026-09-22.json",
     "skill_become_giant_provenance": "docs/data/skill-become-giant-provenance-audit-2026-09-22.json",
     "skill_big_bang_knuckle_provenance": "docs/data/skill-big-bang-knuckle-provenance-audit-2026-09-22.json",
-    "skill_burst_rush_provenance": "docs/data/skill-burst-rush-provenance-audit-2026-09-22.json"
+    "skill_burst_rush_provenance": "docs/data/skill-burst-rush-provenance-audit-2026-09-22.json",
+    "skill_burst_stinger_provenance": "docs/data/skill-burst-stinger-provenance-audit-2026-09-22.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
