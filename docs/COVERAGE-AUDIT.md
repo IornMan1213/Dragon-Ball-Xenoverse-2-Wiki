@@ -1227,3 +1227,10 @@
 - Preserved the existing Free Update 11 scope, 300 Ki cost, event endpoint, and CaC semantics. No unsupported drop probability or reward-tier condition was inferred.
 - Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index records.
 - Post-write census: **33 exactly-two-source records**.
+
+
+## 2026-09-22 — Final six exactly-two-source skill provenance batch
+- Strengthened **Time Bullet, Timespace Impact, Ultra Instinct, Unrelenting Barrage, Venus Fist, and Victory Rush** from two to three provenance sources.
+- Canonical/index source parity was synchronized; no acquisition, Ultimate Finish, DLC/version, or restriction field was changed solely from the new corroborating sources.
+- The live exactly-two-source skill queue is expected to reach **0** after post-write validation.
+- Evidence boundary: Venus Fist's independent Steam discussion corroborates the PQ186 endpoint but does not override the maintained Basic Reward classification or establish a probability.
