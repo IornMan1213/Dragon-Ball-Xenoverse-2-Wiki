@@ -85,7 +85,8 @@
     "published_character_dlc_navigation": "docs/data/characters/published-character-dlc-navigation-audit.json",
     "partner_customization_character": "docs/data/characters/partner-customization-character-navigation-audit.json",
     "super_soul_acquisition_index_reconciliation": "docs/data/super-souls/pq-acquisition-index-reconciliation-audit.json",
-    "search_consumer": "docs/data/search-consumer-audit.json"
+    "search_consumer": "docs/data/search-consumer-audit.json",
+    "equipment_detail_enrichment_091_100": "docs/data/equipment/equipment-091-100-detail-audit.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
