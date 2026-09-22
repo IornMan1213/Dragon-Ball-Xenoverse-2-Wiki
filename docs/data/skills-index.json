@@ -1371,7 +1371,7 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Chaos Wall as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-22 provenance refresh: update context independently reconfirmed; existing Match 4 endpoint remains the dedicated acquisition evidence.",
+      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Chaos Wall as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-22 provenance refresh: official publisher documentation corroborates the Free Update 11/Conton City Tournament context; the existing Match 4 endpoint remains the dedicated acquisition evidence.",
       "mechanics_notes": "Current skill evidence lists 300 Stamina. The wall can be charged to increase size, damage, and speed.",
       "source_quest_or_shop": "Conton City Tournament Match 4"
     },
