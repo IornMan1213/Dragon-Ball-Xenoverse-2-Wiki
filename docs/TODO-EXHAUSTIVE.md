@@ -164,3 +164,17 @@
 - [x] Refreshed the canonical bridge and unresolved backlog so they now reflect the live canonical accessory layer.
 - [x] Kept accessories as a distinct relationship domain; no unsupported `accessory_rewards` field was added to canonical PQ records.
 - [ ] Next structural task: expand/reconcile the remaining 37 accessory research leads against independent inventory-level evidence and promote only exact canonical identities into the bridge/report.
+
+
+## 2026-09-22 — Accessory canonical identity batch: eight early/base-game PQ records
+- [x] Recomputed the live canonical accessory census before editing: **58 acc-### accessory identities / 172 total canonical equipment-accessory records**.
+- [x] Promoted/reconciled eight previously unresolved accessory research identities: `acc-051` Four-Star Dragon Ball Hat (PQ5), `acc-052` Chiaotzu's Hat (With Collar) (PQ9), `acc-053` Dore's Scouter (PQ27), `acc-054` Great Saiyaman Bandana 1 (PQ51), `acc-055` Great Saiyaman Bandana 2 (PQ53), `acc-056` Jaco's State-of-the-Art Radio (PQ72), `acc-057` Tagoma's Scouter (PQ73), and `acc-058` SSGSS Goku Wig (PQ76 with the legacy PQ66 conflict preserved).
+- [x] Normalized four older equipment endpoints to canonical accessory IDs instead of duplicating identities: `equip-081 → acc-051`, `equip-083 → acc-052`, `equip-071 → acc-053`, and `equip-091 → acc-058`.
+- [x] Rebuilt the accessory bridge and bidirectional report from canonical IDs: **16 forward / 16 reverse / 29 unresolved / 0 broken / 0 stale canonical endpoint IDs / 0 duplicate accessory edges**.
+- [x] Refreshed the unresolved accessory backlog from the bridge; the remaining **29** research leads are preserved without speculative identity creation.
+- [x] Updated the accessory canonicalization audit and reader-facing Accessory PQ Database with the new canonical coverage and source-of-truth rule.
+- [x] Preserved the repository rule that canonical records are authoritative; `verification_status`, research layers, and legacy projection IDs are evidence/history metadata and do not override canonical identity.
+- [x] No `accessory_rewards` field was added to canonical PQ records; accessories remain a distinct cross-link domain.
+- [x] Validation: **0 duplicate canonical IDs, 58 canonical accessory IDs, 16 forward accessory edges, 16 reverse edges, 0 invalid bridge targets, 0 broken accessory endpoints**. Equipment relationship report remains **123 forward / 121 reverse** after the four accessory target normalizations.
+- [x] Evidence used for the batch included the maintained Steam PQ guide, independent equipment/accessory references, Dragon Ball Wiki references for Dore/Jaco/Scouter identities, GameFAQs/Steam evidence for Tagoma/SSGSS Goku, and an independent PQ51/PQ53 record for Great Saiyaman bandanas.
+- [ ] Exact next task: independently reconcile the remaining **29** accessory research leads in bounded groups of 8–20, prioritizing the earliest unresolved base-game/DLC identities where strong inventory-level evidence can establish an exact canonical match. Do not create a new canonical accessory solely from a stale `accr-###` ID or a clothing/set/component label.
