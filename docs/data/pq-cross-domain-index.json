@@ -137,6 +137,7 @@
     "canonical_dlc_identity": "docs/data/dlc/canonical-dlc-identity.schema.json"
   },
   "audits": {
-    "skill_change_the_future_provenance": "docs/data/skill-change-the-future-provenance-audit-2026-09-22.json"
+    "skill_change_the_future_provenance": "docs/data/skill-change-the-future-provenance-audit-2026-09-22.json",
+    "skill_chaos_shot_provenance": "docs/data/skill-chaos-shot-provenance-audit-2026-09-22.json"
   }
 }
