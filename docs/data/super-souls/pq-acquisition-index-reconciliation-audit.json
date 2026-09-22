@@ -7,38 +7,27 @@
   "semantics": "The acquisition index is a partial source-normalized research projection. Canonical relationship differences are audit findings, not permission to rewrite canonical relationships or promote research-only pairs.",
   "counts": {
     "canonical_pairs_within_scope": 133,
-    "index_pairs": 131,
-    "exact_pair_overlap": 131,
-    "canonical_missing_from_index": 2,
-    "index_only_pairs": 2
+    "index_pairs": 133,
+    "exact_pair_overlap": 133,
+    "canonical_missing_from_index": 0,
+    "index_only_pairs": 0
   },
   "classification": {
     "exact_missing_pairs": 0,
-    "case_variant_pairs": 2,
-    "case_variant_pairs_detail": [
-      {
-        "pq": 164,
-        "canonical": "This place will be your grave!",
-        "indexed": "This place Will be your grave!"
-      },
-      {
-        "pq": 173,
-        "canonical": "You will know the power of the gods!",
-        "indexed": "You Will know the power of the gods!"
-      }
-    ],
+    "case_variant_pairs": 0,
+    "case_variant_pairs_detail": [],
     "canonical_missing_pairs": []
   },
-  "evidence_boundary": "The final five exact missing canonical pairs have now been reconciled into the partial acquisition index using maintained reward evidence. PQ158 and PQ178 source-layer wording variants are explicitly preserved as conflicts while the structured projection uses canonical names. Two capitalization variants at PQ164/PQ173 remain as noncanonical projection findings.",
-  "result": "clean_audit_with_2_reconciliation_findings",
-  "next_action": "Resolve the two remaining capitalization-variant Super Soul projection findings at PQ164 and PQ173 only if an independent source establishes the exact canonical capitalization; otherwise preserve them as explicit noncanonical projection differences and move to the next structural cross-domain gap.",
+  "evidence_boundary": "The two previously flagged capitalization findings are now resolved. The repository canonical relationship layer also contains alternate wording at PQ158 and PQ178; both canonical strings are retained in the projection alongside the independently normalized forms, so no canonical relationship is silently rewritten.",
+  "result": "clean_exact_pair_parity",
+  "next_action": "Move to the next highest-priority structural cross-domain gap after confirming exact Super Soul acquisition projection parity.",
   "structural_validation": {
     "index_records": 83,
     "unique_index_pq_count": 83,
     "malformed_records": 0,
     "duplicate_record_pqs": [],
-    "structured_pairs": 131,
-    "unique_structured_pairs": 131,
+    "structured_pairs": 133,
+    "unique_structured_pairs": 133,
     "duplicate_structured_pair_count": 0
   },
   "validator": "scripts/validate_super_soul_acquisition_index.py",
