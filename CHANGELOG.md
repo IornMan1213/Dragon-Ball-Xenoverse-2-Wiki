@@ -1,3 +1,13 @@
+## 2026-09-22 — Requiem of Destruction provenance strengthening
+- Live post-edit census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 14 exactly-two-source canonical records**.
+- Bounded batch: **Requiem of Destruction (`skill-requiem-of-destruction`)**.
+- Added the maintained Steam all-Parallel-Quest guide as a third independent source; it explicitly lists Requiem of Destruction in PQ106 "A Destructive Showdown" Basic Reward.
+- Preserved the existing no-Ultimate-Finish-gate semantics and did not infer a drop probability.
+- Validation: canonical/index source parity **clean**; no internal AI/UI/search citation artifacts detected.
+- CI/Actions: no successful workflow/check exposed; no CI success claimed.
+- Commits: canonical `311907d5bbfc7d08a587b654b41301e070a546b3`; index `9aa05a8d1d237ce6404e80b8c9b5f16bb1646a24`.
+- Exact next batch: **Rise to Action (`skill-rise-to-action`)**. Recompute the live census, inspect the record, and independently verify its acquisition/source endpoint.
+
 ## 2026-09-22 — Psycho Escape provenance strengthening
 - Live post-edit census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 15 exactly-two-source canonical records**.
 - Bounded batch: **Psycho Escape (`skill-psycho-escape`)**.
