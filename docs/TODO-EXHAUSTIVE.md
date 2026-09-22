@@ -2001,3 +2001,13 @@
 - Validation: **452/452** canonical/index; **0 duplicate IDs**; **380 stale canonical records remain**; target refreshed; all audited shared fields have **0 mismatches**; JSON parses successfully.
 - CI: no successful workflow/check exposed; no CI success claimed.
 - Exact next batch: recompute the live census and continue with the next stale P1 record after `skill-chaotic-time-impact`, beginning `skill-charge` and batching adjacent stale records where evidence and validation remain bounded.
+
+
+### 2026-09-22 cycle update — Charge-through-Counter skill provenance batch
+- [x] Fresh live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 380 stale**; bounded batch: `skill-charge`, `skill-charged-ki-wave`, `skill-circle-flash`, `skill-comet-strike`, `skill-confusion-blade`, `skill-core-breaker`, `skill-counter-burst`.
+- [x] Research/evidence: dedicated Xenoverse 2 skill pages and maintained PQ evidence reconfirmed PQ83 Charge, PQ97 Charged Ki Wave, PQ154 Circle Flash, PQ149 Comet Strike, Tokipedia Confusion Blade, PQ158 Core Breaker, and PQ75 Counter Burst. Reward conflicts were preserved where sources disagree (Circle Flash Basic-vs-40% UF; Charged Ki Wave older UF report vs maintained Basic table).
+- [x] Changes: refreshed canonical/index `last_verified` to **2026-09-22** for all seven records; added current provenance sources; corrected Core Breaker's race restriction to unresolved/null because its current evidence does not establish a narrower CaC scope; added and registered seven dedicated provenance audits.
+- [x] Evidence limits preserved: no unsupported drop probability or new UF gate was inferred; Charge's Goku/Goten source-character presentation conflict remains uncollapsed; source reward-table conflicts remain explicit.
+- [x] Static validation on branch: **452/452** canonical/index; **0 duplicate canonical IDs**; **373 stale canonical records remain**; all seven targets refreshed; audited shared canonical/index fields have **0 mismatches**; all seven audit registrations resolve.
+- [ ] Runtime/CI execution remains unavailable; no CI success claimed.
+- [ ] Exact next batch: recompute the live census after merge and continue the next stale P1 skill provenance records alphabetically, beginning with the first stale record after `skill-counter-burst`.
