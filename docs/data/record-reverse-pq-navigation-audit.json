@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "1.2.0",
   "scope": "canonical record reverse PQ navigation and structured acquisition crosslink synchronization",
   "consumers": {
     "super_souls": {
@@ -14,7 +14,16 @@
       "structured_pq_mismatches": [],
       "source_route_conflicts": [],
       "source_route_subsets": [],
-      "status": "clean"
+      "status": "clean",
+      "canonical_pair_count": 151,
+      "structured_pair_count_for_canonical_targets": 151,
+      "reverse_pair_missing": [],
+      "reverse_pair_extra": [],
+      "invalid_structured_pq_ids": [],
+      "checks": {
+        "reverse_pair_parity": true,
+        "structured_pq_ids_valid": true
+      }
     },
     "equipment": {
       "consumer": "docs/Equipment-All.html",
@@ -92,10 +101,20 @@
           "interpretation": "Preserved source/acquisition metadata; not a canonical pq_rewards_equipment target."
         }
       ],
-      "interpretation_note": "Four equipment/accessory records retain PQ IDs in their acquisition metadata even though those names have no canonical pq_rewards_equipment edge. The validator now reports these as noncanonical metadata rather than treating them as reverse-link failures."
+      "interpretation_note": "Four equipment/accessory records retain PQ IDs in their acquisition metadata even though those names have no canonical pq_rewards_equipment edge. The validator now reports these as noncanonical metadata rather than treating them as reverse-link failures.",
+      "canonical_pair_count": 125,
+      "structured_pair_count_for_canonical_targets": 125,
+      "reverse_pair_missing": [],
+      "reverse_pair_extra": [],
+      "invalid_structured_pq_ids": [],
+      "checks": {
+        "reverse_pair_parity": true,
+        "structured_pq_ids_valid": true
+      }
     }
   },
   "validator": "scripts/validate_record_reverse_pq_navigation.py",
-  "evidence_boundary": "Canonical PQ links and structured PQ ID fields establish relationship identity only. Acquisition prose may preserve historical/source conflicts and does not establish reward guarantees, Ultimate Finish requirements, drop rates, or unresolved acquisition claims.",
-  "date": "2026-09-22"
+  "evidence_boundary": "Canonical PQ links and structured PQ ID fields establish relationship identity only. Exact (record, PQ) pair parity is checked in both directions; acquisition prose may preserve historical/source conflicts and does not establish reward guarantees, Ultimate Finish requirements, drop rates, or unresolved acquisition claims.",
+  "date": "2026-09-22",
+  "status": "clean"
 }
