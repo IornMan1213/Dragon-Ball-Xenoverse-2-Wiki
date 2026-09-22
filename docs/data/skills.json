@@ -466,7 +466,7 @@
         "time-rift-gurus-house"
       ]
     },
-    {
+        {
       "name": "Bending Kamehameha",
       "class": "Super",
       "subcategory": "Ki Blast",
@@ -484,13 +484,13 @@
       "skill_description": "Ki Blast Super Skill that bends its follow-up projectile toward the target.",
       "mechanics_notes": "Dedicated current-version evidence confirms Bending Kamehameha as a 100-Ki Ki Blast Super from the Skill Shop. A second input makes the beam track the target. Existing all-CaC-races restriction is retained.",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-19 acquisition verification: Skill Shop purchase (Zeni). Current reference material lists Bending Kamehameha under Skill Shop acquisitions; repository record already has the same route.",
+      "notes": "2026-09-22 provenance verification: dedicated skill documentation confirms Bending Kamehameha as a 100-Ki Ki Blast Super with Skill Shop acquisition and tracking/additional-input behavior. A GameFAQs Q&A independently corroborates Skill Shop acquisition after the main campaign context. The canonical record preserves the existing completion-gate wording rather than asserting a more specific shop-unlock threshold not established by the current evidence.",
       "source_quest": "Main story — completion unlocks the Skill Shop listing",
       "id": "skill-bending-kamehameha"
     },
