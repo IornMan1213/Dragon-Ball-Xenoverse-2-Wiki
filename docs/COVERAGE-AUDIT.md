@@ -1328,3 +1328,15 @@
 - SSGSS Goku Wig retains the independent PQ76 evidence and the legacy PQ66 route as an explicit historical conflict; no silent route overwrite was performed.
 - Canonical data remains authoritative; verification/research layers are supporting evidence only.
 - Next: bounded reconciliation of the remaining **29** accessory research leads.
+
+
+## 2026-09-22 — Accessory canonical identity batch: PQ152–168
+- Reconciled six source-backed accessory identities: Android 17 (DB Super) Wig, King Vegeta (DB Super) Wig, Gamma 2's Helmet, Gamma 1's Helmet, Dr. Hedo Hood, and Videl (DB Super) Wig.
+- Treated the Android 17 (DB Super)'s Ranger Accessory research label as a component/research alias of Android 17 (DB Super) Wig rather than a second canonical identity.
+- Canonical accessory population increased from 64 to 70; total equipment/accessory records increased from 172 to 174.
+- Accessory PQ relationship layer increased from 22 forward / 22 reverse / 23 unresolved to 28 forward / 28 reverse / 16 unresolved.
+- Normalized four legacy equipment identities to canonical accessory IDs and added canonical accessory endpoints for Android 17 (DB Super) Wig and Gamma 2's Helmet.
+- PQ→equipment relationship layer now contains 129 forward / 123 reverse / 0 unresolved / 0 broken endpoints.
+- Evidence: maintained Steam 186-PQ guide; Xenoverse 2 DLC/equipment references; independent item-ID documentation. Exact reward-slot/probability semantics, restrictions, and combat/stat effects remain unresolved.
+- Canonical data remains the source of truth; verification status and research projections remain supporting evidence only.
+- Next: full cross-database reward/reverse-index census and deterministic drift repair.
