@@ -108,7 +108,8 @@
     "skill_burst_stinger_provenance": "docs/data/skill-burst-stinger-provenance-audit-2026-09-22.json",
     "skill_buu_buu_ball_provenance": "docs/data/skill-buu-buu-ball-provenance-audit-2026-09-22.json",
     "skill_candy_beam_provenance": "docs/data/skill-candy-beam-provenance-audit-2026-09-22.json",
-    "skill_candy_beam_super_provenance": "docs/data/skill-candy-beam-super-provenance-audit-2026-09-22.json"
+    "skill_candy_beam_super_provenance": "docs/data/skill-candy-beam-super-provenance-audit-2026-09-22.json",
+    "pq_cross_database_reverse_consistency": "docs/data/pq-cross-database-reverse-consistency-audit-2026-09-22.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
@@ -131,7 +132,8 @@
     "partner_customization_character": "scripts/validate_partner_customization_character_navigation.py",
     "super_soul_acquisition_index": "scripts/validate_super_soul_acquisition_index.py",
     "search_consumer": "scripts/validate_search_consumer.py",
-    "non_pq_consumer_census": "scripts/validate_pq_non_pq_consumer_census.py"
+    "non_pq_consumer_census": "scripts/validate_pq_non_pq_consumer_census.py",
+    "pq_cross_database_reverse_consistency": "scripts/validate_pq_cross_database_reverse_consistency.py"
   },
   "schemas": {
     "canonical_dlc_identity": "docs/data/dlc/canonical-dlc-identity.schema.json"
