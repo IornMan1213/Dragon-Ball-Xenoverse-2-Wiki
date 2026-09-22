@@ -4,7 +4,7 @@
   "date": "2026-09-22",
   "status": "current_live_state_clean",
   "source_of_truth": "normalized reward maps for standalone projections; canonical relationship layer remains authoritative for current cross-domain relationships",
-  "correction_note": "The earlier 99-extra PQ81-120 census was stale/incorrect. A fresh exact (domain,target,PQ) comparison of the live main-branch files shows the PQ81-120 standalone reverse index and normalized source map both contain 109 pairs with 0 missing and 0 extra. No 99-pair source-coverage gap exists in the current live files.",
+  "correction_note": "The earlier 99-extra PQ81-120 census was stale/incorrect. Fresh exact (domain,target,PQ) comparisons of the live main-branch files show the PQ81-120 standalone reverse index and normalized source map both contain 109 typed pairs with 0 missing and 0 extra. For PQ143-162, the normalized reward map also carries 64 artwork references that are intentionally outside the standalone reverse-index domain set; typed reward parity is therefore 87/87 when artworks are excluded.",
   "ranges": [
     {
       "range": "081-120",
@@ -12,28 +12,29 @@
       "standalone_pairs": 109,
       "missing_from_standalone": 0,
       "extra_standalone_pairs": 0,
-      "action": "clean; prior 99-extra finding superseded by exact live pair comparison"
+      "action": "clean; prior 99-extra finding superseded by exact live typed-pair comparison"
     },
     {
       "range": "121-142",
-      "source_pairs": 88,
-      "standalone_pairs": 88,
+      "source_pairs": 89,
+      "standalone_pairs": 89,
       "missing_from_standalone": 0,
       "extra_standalone_pairs": 0,
       "action": "clean"
     },
     {
       "range": "143-162",
-      "source_pairs": 151,
-      "standalone_pairs": 151,
+      "source_pairs": 87,
+      "standalone_pairs": 87,
+      "excluded_artwork_references": 64,
       "missing_from_standalone": 0,
       "extra_standalone_pairs": 0,
-      "action": "clean"
+      "action": "clean for standalone typed domains; 64 artwork references remain outside this reverse-index projection by design"
     },
     {
       "range": "163-186",
-      "source_pairs": 75,
-      "standalone_pairs": 75,
+      "source_pairs": 72,
+      "standalone_pairs": 72,
       "missing_from_standalone": 0,
       "extra_standalone_pairs": 0,
       "action": "clean"
@@ -49,7 +50,8 @@
     "dlc": 86,
     "farming": 7,
     "source_projection_mismatches": 0,
-    "destructive_changes": 0
+    "destructive_changes": 0,
+    "excluded_artwork_references": 64
   },
   "next_action": "Move past the resolved standalone source-map parity check and audit the next highest-impact cross-domain producer/consumer surface for stale canonical counts, aliases, or one-way navigation; preserve historical audit entries."
 }
