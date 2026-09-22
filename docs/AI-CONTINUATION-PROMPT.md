@@ -88,3 +88,16 @@
 - Commits: pending until all writes complete.
 - Live census after editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 12 exactly-two-source records**.
 - Exact next batch: **Soaring Fist** (`skill-soaring-fist`); recompute the census first, inspect canonical/index records, and independently verify acquisition/source semantics before provenance strengthening.
+
+
+### 2026-09-22 cycle update — Soaring Fist provenance strengthening
+- Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 12 exactly-two-source canonical records**.
+- Bounded batch: **Soaring Fist** (`skill-soaring-fist`).
+- Research/evidence: Dragon Ball Wiki independently confirms Soaring Fist as a Xenoverse 2 Super Skill and states that the Future Warrior can purchase it from the TP Medal Shop following Update 1.14. citeturn0search4
+- Changes: canonical/index sources gained `https://dragonball.fandom.com/wiki/Soaring_Fist`; `last_verified` refreshed to 2026-09-22; provenance note synchronized.
+- Evidence limits preserved: existing TP Medal Shop / STP Medal Shop endpoint, Free Update 11 classification, 100-Ki cost, and all-CaC-race scope remain unchanged; no shop rotation or additional purchase condition is inferred.
+- Validation: JSON parse succeeded; **452/452**, **0 duplicates**, **0 nullable canonical `ki_cost`**; exactly-two-source census reduced to **11**; canonical/index source parity clean; no internal AI/UI/search citation artifacts detected.
+- CI: no exposed status/check for the direct-commit chain; CI success is not claimed.
+- Commits: pending until all writes complete.
+- Live census after editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 11 exactly-two-source records**.
+- Exact next batch: **Super Guard** (`skill-super-guard`); recompute the census first, inspect canonical/index records, and independently verify acquisition/source semantics before provenance strengthening.
