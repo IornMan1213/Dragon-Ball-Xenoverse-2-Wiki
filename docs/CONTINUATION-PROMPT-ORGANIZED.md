@@ -1278,3 +1278,15 @@
 - [ ] Runtime/CI execution remains unavailable; no executable CI success claimed.
 - [x] Commits: canonical `231b459853291b308f34413e390bf11aa1752a5e`; index `6dbfe34b5664e5ad39e37b7bf33bc2db5f812fd7`; audit `67c7f8043349936cd9e5618d2ca6aefafeea5660`; registry `03f46a5854686a32a30145b998d11a27866c71ad`.
 - [ ] Exact next batch: recompute the live census and continue with `skill-bending-kamehameha`.
+
+
+### 2026-09-22 cycle update — Bending Kamehameha provenance verification
+- [x] Fresh live census before edit: **452 canonical / 452 index / 0 duplicate IDs / 394 stale**; target `skill-bending-kamehameha`.
+- [x] Dedicated skill documentation confirms Bending Kamehameha as a **100-Ki Ki Blast Super** acquired from the **Skill Shop**, with tracking/additional-input behavior.
+- [x] Independent GameFAQs evidence corroborates Skill Shop acquisition. Existing completion-gate wording was retained because the evidence does not establish a more precise shop threshold.
+- [x] Refreshed canonical/index `last_verified` to **2026-09-22** and added provenance sources/notes.
+- [x] Added and registered `docs/data/skill-bending-kamehameha-provenance-audit-2026-09-22.json`.
+- [x] Static validation: **452/452**, **0 duplicate IDs**, **393 stale remaining**, affected canonical/index semantic parity preserved.
+- [ ] Runtime/CI execution remains unavailable.
+- [x] Commits: canonical `6f8b0e76bf06681bfe730b55aac97b14b34bb3de`; index `dd0556e30bb71ab6baa980ae3c3a210f31a6efa5`; audit `f4f8cd90409808377f334ed3b77e5e907630136d`; registry `4a7e21d0c30bd7ae75b99d0369fb28813b067cce`.
+- [ ] Exact next batch: recompute the live census and continue with `skill-big-bang-kamehameha`.
