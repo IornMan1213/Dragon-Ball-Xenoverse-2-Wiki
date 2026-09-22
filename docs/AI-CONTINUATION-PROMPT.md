@@ -244,3 +244,29 @@
 - [x] Removed the erroneous PQ reward relationship classifying `Flying Nimbus!!` as equipment. No canonical equipment record was deleted because the equipment database did not contain such a record.
 - [x] Regenerated the PQ→equipment crosslink report from canonical equipment data: 124 forward edges, 122 unique targets, 0 unresolved endpoints.
 - [x] Kept the separate Conton City Flying Nimbus vehicle concept out of the equipment reward relationship; the PQ reward evidence concerns the Super Soul.
+
+### 2026-09-22 cycle update — canonical equipment endpoint parity repair
+- Active workstream: P2 equipment/accessory canonical coverage and PQ reward crosslink integrity, promoted because the live cross-database census exposed a structural canonical/projection mismatch.
+- Live pre-edit census: **186 canonical PQs / 452 canonical skills / 452 skill-index records / 234 canonical Super Souls / 50 canonical equipment-accessory records**. The PQ→equipment report contained **124 forward edges / 122 reverse target endpoints**, but those target identities were not present in the canonical equipment layer because the canonical file still contained only the original `acc-*` 50-record population.
+- Root cause: the earlier handoff/history recorded a 140-record equipment expansion, but the live canonical file did not actually contain those promoted records. The relationship report therefore represented source-backed identities that had not been reconciled into the canonical database, violating the repository's canonical-source-of-truth rule.
+- Bounded structural repair: promoted **119 source-backed PQ equipment endpoints** that were absent from the canonical layer into `docs/data/equipment-accessories-record-layer.json`. Three report endpoints were exact-name matches to existing canonical accessory records and were not duplicated; instead their relationship IDs were normalized: `equip-074 → acc-028` (Yamcha's Sword), `equip-080 → acc-001` (Piccolo's Turban), and `equip-088 → acc-012` (Goku Wig (Super Saiyan)).
+- New canonical records intentionally contain only evidence-supported identity/acquisition fields. Category, slot, restrictions, combat/stat effects, DLC provenance, and exact reward-slot semantics remain explicitly unresolved where the relationship evidence does not establish them. `verification_status` remains evidence metadata and was not used as a source of truth.
+- Regenerated/synchronized `docs/data/pq-equipment-crosslink-report.json` so all relationship endpoints reference canonical IDs.
+- Post-edit validation: **169 canonical equipment-accessory records / 0 duplicate IDs / 124 forward PQ→equipment edges / 122 reverse endpoints / 0 unresolved target routes / 0 broken forward endpoints / 0 broken reverse endpoints / 186 canonical PQs**.
+- Cross-layer validation: canonical equipment IDs now cover every PQ→equipment report endpoint; exact-name identity aliases were documented rather than creating duplicate canonical identities.
+- CI/Actions: no successful workflow/check exposed for the direct-commit chain; CI success is not claimed.
+- Commits: canonical equipment `121f8e9375812a6e7b97185ca85b54ca84499853`; equipment crosslink report `3b54e6d5db8da22dcc899f58f121ce11c2f8b0b4`.
+- Exact next batch: **equipment/accessory records `equip-031` through `equip-040`**. Independently reconcile exact item category/slot, DLC provenance, and any directly evidenced restrictions/effects from authoritative or independent sources; preserve unresolved fields and keep PQ→equipment reverse navigation synchronized.
+- Reason for priority: canonical endpoint parity is now structurally restored, so the next highest-value equipment work is enriching the newly promoted records without inventing unsupported fields.
+
+### 2026-09-22 live-state refresh after equipment parity repair
+- Live commit: `3b54e6d5db8da22dcc899f58f121ce11c2f8b0b4`.
+- Canonical counts relevant to active workstream: **186 PQ / 452 skills / 234 Super Souls / 169 equipment-accessory records**; skill index remains **452/452**.
+- Current relationship counts: PQ→skill **244 forward / 239 reverse / 0 unresolved / 0 orphaned**; PQ→Super Soul **140 forward / 137 reverse / 0 unresolved**; PQ→equipment **124 forward / 122 reverse / 0 unresolved / 0 broken**; mentor→skill **131 forward / 0 unresolved**.
+- Current unresolved queue: equipment detail fields remain broadly unresolved on the newly promoted cohort; exact slot/category/DLC/effect research is the next bounded queue.
+- Active workstream: **P2 equipment/accessory canonical coverage and provenance enrichment**.
+- Last completed batch: canonical equipment endpoint parity repair.
+- Exact next batch: **`equip-031`–`equip-040`**.
+- Known CI limitation: no successful workflow/check exposed; prior zero-step failures remain an infrastructure/account signal unless actionable logs appear.
+- Last artifact scan: changed JSON contains no internal AI/UI/search citation markup; relationship endpoint census passes.
+- Files requiring synchronization next cycle: canonical equipment layer, PQ→equipment report, coverage/TODO/handoff; add source/provenance changes to dependent projections only when their contract requires them.
