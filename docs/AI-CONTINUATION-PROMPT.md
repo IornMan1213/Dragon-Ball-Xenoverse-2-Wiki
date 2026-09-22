@@ -2241,3 +2241,14 @@
 - [ ] Runtime/CI execution remains unavailable.
 - [x] Commits: canonical `2f1aa3dd5dd523226768825ffa14b68eb3212a15`; index `9d2433d3c0211d9c73ce66f364186b1fdd8f5fa3`; audit `6f1384ddadf67b9c861e8c632515b0d42949e728`; registry `acd3bd16c807c359cc5ee0f079d9681e976de58f`.
 - [ ] Exact next batch: recompute the live census and continue with `skill-blaster-ball`.
+
+
+### 2026-09-22 cycle update — Blaster Ball provenance verification
+- [x] Fresh live census before edit: **452 canonical / 452 index / 0 duplicate IDs / 392 stale**; target `skill-blaster-ball`.
+- [x] Dedicated skill documentation confirms Blaster Ball as a **100–500-Ki Ki Blast Super** used by Kefla (Super Saiyan), acquired from **PQ125 — “Proof's in the Potara”**, with repeatable long-range projectile behavior, 2–13 hits, and knockback.
+- [x] Refreshed canonical/index `last_verified` to **2026-09-22** and retained the existing PQ125 Basic Reward acquisition.
+- [x] Added and registered `docs/data/skill-blaster-ball-provenance-audit-2026-09-22.json`.
+- [x] Static validation: **452/452**, **0 duplicate IDs**, **391 stale remaining**, affected canonical/index semantic parity preserved.
+- [ ] Runtime/CI execution remains unavailable.
+- [x] Commits: canonical `1e50889fea89027eaca0f3739a21cfa39a29f778`; index `cfa120a20fb92164a31cef241b2e39959e2975c6`; audit `4392aff7f67fb7b5558c355911cfe9b41818bcb4`; registry `44c0f5a37584f336518986145fd56f90392858da`.
+- [ ] Exact next batch: recompute the live census and continue with `skill-bluff-kamehameha`.
