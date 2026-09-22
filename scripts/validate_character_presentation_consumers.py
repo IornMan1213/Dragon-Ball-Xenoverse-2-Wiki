@@ -20,9 +20,16 @@ def main():
     recon=load(DATA/"partner-customization-key-reconciliation.json").get("records",[])
     explorer=(ROOT/"docs"/"Characters-All.html").read_text(encoding="utf-8")
 
-    bridge_map={r["character_id"]:r.get("canonical_character_name") for r in bridge}
+    bridge_ids=[r.get("character_id") for r in bridge]
+    bridge_source_names=[r.get("source_name") for r in bridge]
+    bridge_map={r["character_id"]:r.get("canonical_character_name") for r in bridge if r.get("character_id") is not None}
+    duplicate_bridge_ids=sorted(k for k,v in Counter(bridge_ids).items() if k is not None and v>1)
+    duplicate_bridge_source_names=sorted(k for k,v in Counter(bridge_source_names).items() if k is not None and v>1)
+    malformed_bridge_ids=[{"source_name":r.get("source_name"),"type":type(r.get("character_id")).__name__} for r in bridge if r.get("character_id") is not None and not isinstance(r.get("character_id"),str)]
     preset_ids=sorted({r["character_id"] for r in presets if r.get("character_id")})
-    duplicate_preset_ids=sorted(k for k,v in Counter(r.get("id") for r in presets).items() if v>1)
+    preset_record_ids=[r.get("id") for r in presets]
+    duplicate_preset_ids=sorted(k for k,v in Counter(preset_record_ids).items() if k is not None and v>1)
+    malformed_preset_ids=[{"id":r.get("id"),"type":type(r.get("id")).__name__} for r in presets if r.get("id") is not None and not isinstance(r.get("id"),str)]
     numbered_pairs=[(r.get("character_id"),r.get("preset_number")) for r in presets if r.get("preset_number") is not None]
     duplicate_character_preset_pairs=sorted([list(k) for k,v in Counter(numbered_pairs).items() if v>1])
     allowed_record_types={"preset","separate_character"}
@@ -43,14 +50,17 @@ def main():
 
     preset_navigation_links=len(presets) if "Search/" in explorer and "searchUrl(name)" in explorer else 0
     checks={
-        "bridge_ids_unique":len(bridge_map)==len(bridge),
+        "bridge_ids_unique":not duplicate_bridge_ids and len(bridge_map)==len(bridge),
+        "bridge_source_names_unique":not duplicate_bridge_source_names,
+        "bridge_id_fields_are_strings":not malformed_bridge_ids,
         "bridge_targets_canonical":not invalid_targets,
         "all_preset_character_ids_bridged":not unresolved_preset,
         "all_partner_character_ids_bridged":not unresolved_partner,
         "partner_reconciliation_id_parity":not partner_parity,
         "partner_display_names_match_canonical_bridge":not partner_name_mismatches,
         "preset_explorer_has_character_search_navigation":preset_navigation_links==len(presets),
-        "preset_record_ids_unique":not duplicate_preset_ids,
+        "preset_record_ids_unique":not duplicate_preset_ids and len(preset_record_ids)==len(set(preset_record_ids)),
+        "preset_id_fields_are_strings":not malformed_preset_ids,
         "numbered_character_preset_pairs_unique":not duplicate_character_preset_pairs,
         "record_types_allowed":not invalid_record_types,
         "separate_character_records_unumbered":not special_numbering_conflicts,
@@ -66,10 +76,14 @@ def main():
         "unresolved_preset_character_ids":unresolved_preset,
         "unresolved_partner_character_ids":unresolved_partner,
         "invalid_bridge_targets":invalid_targets,
+        "duplicate_bridge_character_ids":duplicate_bridge_ids,
+        "duplicate_bridge_source_names":duplicate_bridge_source_names,
+        "malformed_bridge_character_ids":malformed_bridge_ids,
         "partner_reconciliation_id_parity_differences":partner_parity,
         "partner_display_name_mismatches":partner_name_mismatches,
         "preset_explorer_navigation_records":preset_navigation_links,
         "duplicate_preset_record_ids":duplicate_preset_ids,
+        "malformed_preset_record_ids":malformed_preset_ids,
         "duplicate_numbered_character_preset_pairs":duplicate_character_preset_pairs,
         "special_record_types":special_records,
         "invalid_record_types":invalid_record_types,
