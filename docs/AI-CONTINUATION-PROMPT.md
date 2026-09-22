@@ -6768,3 +6768,15 @@ The repository owner has clarified the continuation contract:
 - Validation: target was **37 exactly-two-source records** after the edit; canonical/index parity and duplicate/null-Ki checks remain required before handoff.
 - CI: no success is claimed unless the repository exposes a status/workflow result for the final commit.
 - Exact next batch: **recompute the live two-source census first, then continue with the next deterministic low-source record after Gigantic Burst**. Preserve conflicts/nulls, verify acquisition/reward semantics from repository evidence plus an independent source, and synchronize canonical/index records.
+
+
+### 2026-09-21 cycle update — Gigantic Explosion low-source provenance strengthening
+- Workstream: P1 skill acquisition/DLC-version provenance cleanup; deterministic two-source census sequence.
+- Live pre-edit census: **452 canonical / 452 index / 37 exactly-two-source records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- Bounded batch: **Gigantic Explosion (`skill-gigantic-explosion`)**.
+- Evidence: the dedicated Xenoverse 2 skill entry independently confirms PQ164 — **Where is Goku?!**, Broly (Restrained/DB Super/Customize Partner), Ultimate/Ki Blast classification, 600 Ki, optional 400 Stamina continuation, and the Awoken Skill mechanic: https://dbxv2.fandom.com/wiki/Gigantic_Explosion . The maintained PQ guide independently lists Gigantic Explosion in PQ164's **Basic Reward** list: https://steamcommunity.com/sharedfiles/filedetails/?id=808851543 .
+- Changes: added the dedicated skill source to canonical `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21**; synchronized source projections; documented the batch in `CHANGELOG.md` and `docs/COVERAGE-AUDIT.md`.
+- Evidence limits/conflicts preserved: existing **Future Saga Chapter 1**, **PQ164**, **Ultimate Finish (40%)**, CaC/Awoken requirements, 600 Ki, and 400 Stamina semantics were not rewritten. The added sources were not treated as evidence for a specific 40% probability beyond the maintained repository record, and no additional drop-rate rule was inferred.
+- Validation target after write: **36 exactly-two-source records**, with 452/452 records, 0 duplicate IDs, 0 nullable `ki_cost`, and canonical/index source parity.
+- CI: no success is claimed unless a status/workflow result is exposed for the final handoff commit.
+- Exact next batch: **recompute the live two-source census first, then continue with the next deterministic low-source record after Gigantic Explosion**. Preserve conflicts/nulls, verify acquisition/reward semantics from repository evidence plus independent evidence, and synchronize canonical/index records.
