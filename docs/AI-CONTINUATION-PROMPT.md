@@ -6733,3 +6733,13 @@ The repository owner has clarified the continuation contract:
 - Evidence limits preserved: the existing Advanced Class acquisition endpoint remains unchanged and no Ultimate Finish requirement was inferred.
 - Validation target after edit: **452/452 records, 0 duplicate IDs, 0 nullable `ki_cost`, 39 exactly-two-source records**, with canonical/index source parity for Full Power Charge.
 - Exact next batch: **recompute the live two-source census and continue the next deterministic low-source record after Full Power Charge, checking acquisition/reward semantics before provenance-only strengthening.**
+
+
+### 2026-09-21 cycle update — Galick Gun low-source provenance strengthening
+- Live pre-edit census: **452 canonical / 452 index / 39 exactly-two-source records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- Bounded batch: **Galick Gun (`skill-galick-gun`)**.
+- Evidence: Twinfinite's Xenoverse 2 Vegeta Mentor / Master Quest Guide independently documents Galick Gun as the reward from Vegeta's Initiation Test. citeturn0search1
+- Changes: added the source to canonical `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21**; documented the cycle in `docs/COVERAGE-AUDIT.md` and `CHANGELOG.md`.
+- Evidence limits preserved: existing Vegeta mentor-training endpoint and no-Ultimate-Finish inference remain unchanged.
+- Validation target after edit: **452/452 records, 0 duplicate IDs, 0 nullable `ki_cost`, 38 exactly-two-source records**, with canonical/index source parity for Galick Gun.
+- Exact next batch: **recompute the live two-source census and continue the next deterministic low-source record after Galick Gun, checking acquisition/reward semantics before provenance-only strengthening.**
