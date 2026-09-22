@@ -1620,3 +1620,14 @@
 - [x] Existing third-party source is already recorded in both canonical and index skill records, so no duplicate provenance entry was added.
 - [ ] Runtime/CI remains unavailable; validation is static direct-fetch, source/census comparison, and exact endpoint verification.
 - [ ] Exact next batch: **Requiem of Destruction (`skill-requiem-of-destruction`)** — recompute its live canonical/index census, inspect the full record, and independently verify its acquisition/source endpoint before making any provenance-only changes.
+
+
+### 2026-09-22 cycle update — Requiem of Destruction provenance verification
+- [x] Live skill census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical ki_cost**; bounded record: `skill-requiem-of-destruction`.
+- [x] Canonical/index records agree on classification, 300 Ki cost, PQ106 acquisition, Super Pack 2 provenance, All CaC race scope, and `ultimate_finish_required: false`.
+- [x] Independent verification: the maintained all-186-PQ guide lists **Requiem of Destruction** in **PQ106 — A Destructive Showdown — Basic Reward**. citeturn0search0 A separate PQ106 gameplay record likewise lists it under Basic Reward. citeturn0youtube13
+- [x] Existing repository sources already include the maintained Steam guide plus two Dragon Ball Wiki sources; no duplicate source was added.
+- [x] Evidence boundary preserved: Basic Reward placement establishes the acquisition route but not a drop probability; no Ultimate Finish gate is inferred.
+- [x] No canonical skill identity, acquisition relationship, DLC identity, or reward-tier field required modification; provenance was already correctly represented.
+- [ ] Runtime/CI remains unavailable; validation is static direct-fetch, source comparison, and canonical/index parity.
+- [ ] Exact next batch: continue the P1 skill provenance census with the next unfinished skill identified by the live handoff/TODO, without repeating completed Prominence Flash or Requiem of Destruction work.
