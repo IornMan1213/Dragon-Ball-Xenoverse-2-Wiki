@@ -47,7 +47,7 @@
     {
       "pq_id": "pq-005",
       "pq_number": 5,
-      "target_id": "equip-081",
+      "target_id": "acc-051",
       "target_name": "Four-Star Dragon Ball Hat",
       "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -63,7 +63,7 @@
     {
       "pq_id": "pq-009",
       "pq_number": 9,
-      "target_id": "equip-083",
+      "target_id": "acc-052",
       "target_name": "Chiaotzu's Hat (With Collar)",
       "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -135,7 +135,7 @@
     {
       "pq_id": "pq-027",
       "pq_number": 27,
-      "target_id": "equip-071",
+      "target_id": "acc-053",
       "target_name": "Dore's Scouter",
       "status": "canonical_backed",
       "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
@@ -263,7 +263,7 @@
     {
       "pq_id": "pq-066",
       "pq_number": 66,
-      "target_id": "equip-091",
+      "target_id": "acc-058",
       "target_name": "SSGSS Goku Wig",
       "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -1041,7 +1041,7 @@
       ]
     },
     {
-      "target_id": "equip-081",
+      "target_id": "acc-051",
       "target_name": "Four-Star Dragon Ball Hat",
       "pq_ids": [
         "pq-005"
@@ -1061,7 +1061,7 @@
       ]
     },
     {
-      "target_id": "equip-083",
+      "target_id": "acc-052",
       "target_name": "Chiaotzu's Hat (With Collar)",
       "pq_ids": [
         "pq-009"
@@ -1155,7 +1155,7 @@
       ]
     },
     {
-      "target_id": "equip-071",
+      "target_id": "acc-053",
       "target_name": "Dore's Scouter",
       "pq_ids": [
         "pq-027"
@@ -1295,7 +1295,7 @@
       ]
     },
     {
-      "target_id": "equip-091",
+      "target_id": "acc-058",
       "target_name": "SSGSS Goku Wig",
       "pq_ids": [
         "pq-066"
@@ -2219,6 +2219,10 @@
     "broken_reverse_endpoints": 0,
     "last_recomputed": "2026-09-22",
     "canonical_endpoint_parity": "pass",
-    "source_of_truth": "canonical PQ reward arrays + canonical equipment/accessory records"
-  }
+    "source_of_truth": "canonical PQ reward arrays + canonical equipment/accessory records",
+    "canonical_equipment_accessory_records": 168
+  },
+  "notes": [
+    "Accessory endpoints that were previously represented as equip-071/equip-081/equip-083/equip-091 are normalized to canonical accessory IDs acc-053/acc-051/acc-052/acc-058. Canonical accessory identity is authoritative; the legacy equipment record IDs remain historical/projection identifiers."
+  ]
 }
