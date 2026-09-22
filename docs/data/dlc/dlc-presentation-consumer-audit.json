@@ -22,7 +22,14 @@
       3,
       4
     ],
-    "status": "clean_identity_resolution"
+    "status": "clean_exact_pq_reverse_parity",
+    "canonical_pq_dlc_edges": 86,
+    "dlc_reverse_pairs": 86,
+    "dlc_reverse_pair_missing": 0,
+    "dlc_reverse_pair_extra": 0,
+    "dlc_reverse_exact_pair_parity": true,
+    "all_canonical_dlc_targets_have_reverse_pq_navigation": true,
+    "validator": "scripts/validate_dlc_presentation_consumers.py"
   },
   "evidence_boundary": "This audit proves deterministic DLC identity resolution and consumer navigation references only. It does not claim that every listed content domain has a populated concrete record.",
   "rules": [
@@ -30,5 +37,6 @@
     "Future Saga Chapters 1-4 remain individual canonical identities; the parent bundle is grouping metadata only.",
     "Presentation consumers cannot create or rename canonical DLC relationships.",
     "Missing downstream content remains unresolved rather than inferred."
-  ]
+  ],
+  "date": "2026-09-22"
 }
