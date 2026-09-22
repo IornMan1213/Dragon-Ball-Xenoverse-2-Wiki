@@ -3723,13 +3723,14 @@
       "acquisition_type": "skill_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers",
-        "https://dbxv2.fandom.com/wiki/Fighting_Pose_K"
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_K",
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/hur1a8/how_do_i_get_the_dont_go_easy_on_me_super_soul/"
       ],
       "unlock_method": "Story — \"The Ginyu Force Strikes\" unlocks the Skill Shop listing; purchase Fighting Pose K from the Skill Shop.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 source-quality refinement: the acquisition route is tied to the story mission \"The Ginyu Force Strikes\" and the subsequent Skill Shop listing; no Ultimate Finish-only condition is inferred.",
+      "notes": "2026-09-20 source-quality refinement: the acquisition route is tied to the story mission \"The Ginyu Force Strikes\" and the subsequent Skill Shop listing; no Ultimate Finish-only condition is inferred. 2026-09-21 low-source provenance strengthening: an independent community discussion corroborates that Fighting Pose K is obtainable through the Skill Shop or a Parallel Quest. It does not independently establish the exact story-trigger wording, so the existing Skill Shop-after-The Ginyu Force Strikes endpoint remains unchanged.",
       "mechanics_notes": "Confirmed as 0-Ki Skill Shop Power Up Super after The Ginyu Force Strikes. It grants Super Armor for 8 seconds; usable by all CaC races.",
       "source_quest": "The Ginyu Force Strikes — Skill Shop unlock",
       "source_quest_or_shop": "Skill Shop after The Ginyu Force Strikes"
