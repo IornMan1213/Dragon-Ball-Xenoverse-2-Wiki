@@ -1679,3 +1679,16 @@
 - [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; no CI success claimed.
 - [x] Commits: canonical a681187ae288ae4758c0d08bf2b86867f2d21790; index 630795667471ca9d9c8e877b88ae6f03825e68ae; audit 7aa25e563a6b9ce95a20bfc0b184a8037f7913d5; cross-domain registration 527bb458631c14749237f90f7af1407218097583.
 - [ ] Exact next batch: **Namek Finger, Neo Tri-Beam, Neo Wolf Fang Fist, One-Handed Kamehameha mk.II, Orin Combo, Paralysis, Paralyze Beam, Pendulum Bullet, Perfect Kamehameha, Perfect Shot**; recompute the live stale census before editing and continue with the same bounded provenance policy.
+
+
+### 2026-09-22 cycle update — Namek Finger through Perfect Shot provenance batch
+- [x] Fresh live stale census before editing: 452 canonical skills / 452 index records / 0 duplicate IDs / 148 stale; exact first ten stale records were **Namek Finger, Neo Tri-Beam, Neo Wolf Fang Fist, One-Handed Kamehameha mk.II, Orin Combo, Paralysis, Paralyze Beam, Pendulum Bullet, Perfect Kamehameha, Perfect Shot**.
+- [x] Refreshed all ten canonical records in docs/data/skills.json and synchronized the corresponding index projections in docs/data/skills-index.json to last_verified: 2026-09-22.
+- [x] Expanded bounded mechanics/provenance using dedicated current skill references for Namek Finger, Neo Tri-Beam, Neo Wolf Fang Fist, One-Handed Kamehameha mk.II, Orin Combo, Paralysis, Paralyze Beam, Pendulum Bullet, Perfect Kamehameha, and Perfect Shot.
+- [x] Deterministic correction: **Pendulum Bullet** was corrected from Super/Ki Blast/100 Ki to **Ultimate/Ki Blast/300 Ki**, matching dedicated current skill evidence; its existing explicit 50% Ultimate Finish acquisition condition was retained.
+- [x] Deterministic lesson corrections: **Neo Tri-Beam** is recorded as Tien Lesson 4 and **Perfect Kamehameha** as Cell (Perfect) Lesson 4, matching dedicated current skill references. Secondary conflicting lesson summaries are preserved in the audit boundary rather than silently treated as authoritative.
+- [x] Added and registered docs/data/skill-namek-finger-through-perfect-shot-provenance-audit-2026-09-22.json.
+- [x] Final validation: 452/452 canonical/index, 0 duplicate IDs, ID sets match, 10/10 selected records current, 138 stale canonical records remain.
+- [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; no CI success claimed.
+- [x] Commits: canonical 0927fd3e9e7222fd309f168188d6ead2687c24f3; index 0c652b13c2d9c87ba4ea52dd08752520e856ed97; audit 715616c34d4c36bb6621413053bc7f482a41ba6c; cross-domain registration f884496cde0e99b4c7bc322d119daabb6646002d.
+- [ ] Exact next batch: **Photon Swipe, Power Blitz, Power Impact, Power Pole Pro, Power Rush, Power Wall, Powered Shell, Prelude to Destruction, Prepare to be Punished, Present For You**; recompute the live stale census before editing and continue with the same bounded provenance policy.
