@@ -1636,3 +1636,15 @@
 - [x] Validator commit: `330cd587e79d3ec89cb8b7426beaf5d3bc3e1754`; audit refresh commit: `9319dec6b425411632fcdc9559c4bfa2eba335ce`.
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [ ] Exact next batch: continue from the cross-domain registry to the next registered consumer with remaining endpoint/count-only or one-way navigation assumptions, prioritizing deterministic local landing/search consumers before any broad content research.
+
+
+### 2026-09-22 cycle update — Super Soul/equipment reverse-PQ hidden-shape hardening
+- [x] Continued the exact next batch into `scripts/validate_record_reverse_pq_navigation.py`, covering the Super Soul and equipment/accessory reverse consumers.
+- [x] Hardened the validator against hidden scalar/list corruption: structured PQ fields must be lists; malformed scalar fields are now explicit failures instead of being iterated character-by-character.
+- [x] Hardened record identity handling: duplicate record names and duplicate canonical `(record,PQ)` relationship pairs are now explicit failures instead of being silently collapsed by dictionaries/sets.
+- [x] Live canonical result remains clean: **234 Super Soul records / 151 canonical edges / 148 unique canonical targets; 174 equipment records / 125 canonical edges / 123 unique canonical targets; 151/151 and 125/125 exact reverse pairs; 0 missing / 0 extra / 0 invalid PQ IDs / 0 duplicate structured pairs / 0 duplicate canonical pairs / 0 malformed structured fields / 0 duplicate record names**.
+- [x] Existing evidence boundaries remain unchanged: four noncanonical equipment PQ metadata pairs and the two documented equipment source-route conflicts remain preserved and are not promoted into canonical relationships.
+- [x] Refreshed `docs/data/record-reverse-pq-navigation-audit.json` to schema **1.4.0**.
+- [x] Validator commit: `a5a706db4cff56967d6af2813c1623738c3f0324`; audit refresh: `88e68619c411329e1c39d42ec797bfaffd06b979`.
+- [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
+- [ ] Exact next batch: inspect the next registered cross-domain presentation/search consumer after reverse-PQ record navigation, prioritizing remaining deterministic one-way links, stale duplicated counts, or hidden scalar/list assumptions.
