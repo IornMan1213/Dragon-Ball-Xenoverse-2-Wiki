@@ -1823,3 +1823,14 @@
 - Current canonical baseline remains **859 total edges: 244 skill / 151 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming**.
 - No relationship edges were added or removed in this cycle; this was consumer/projection metadata synchronization only.
 - Next exact gate: fresh search for other current (not historical) consumer fields that disagree with the 859/244/151/124/247/86/7 baseline, then direct-fetch each hit before repair. Avoid broad numeric replacement because historical audit snapshots are intentionally retained.
+
+
+### 2026-09-22 continuation cycle — current-final-state projection repair
+- Fresh census confirmed the authoritative current PQ relationship layer remains **859 unique edges: 244 skill / 151 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming**.
+- Direct inspection of `docs/data/pq-cross-domain-audit.json` found one remaining mislabeled current-state object: `current_final_state_2026_09_22` still reported the superseded **860 edges / 125 equipment** state.
+- Corrected only that current-final-state object to **859 / 124 equipment**. The earlier 860/862/840 counts in explicitly dated reconciliation/history objects remain untouched.
+- No canonical relationship arrays were changed; this was deterministic projection metadata repair only.
+- Commit: `44ee7eda80e927093f679e9550a6e5e43b29198a`.
+- Validation target after repair: current source-of-truth projection remains 859/244/151/124/247/86/7; historical snapshots remain preserved.
+- CI/runtime execution remains unavailable; no CI success claimed.
+- Exact next task: fresh search/direct-fetch the remaining registered current presentation/identity consumers for **859/124** drift, then repair only fields demonstrably labeled current; do not alter historical audit snapshots.
