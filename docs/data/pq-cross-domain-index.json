@@ -68,7 +68,8 @@
     "dlc_character_identity": "docs/data/characters/dlc-character-identity-audit.json",
     "character_presentation_consumers": "docs/data/characters/character-presentation-consumer-audit.json",
     "pq_explorer_character_navigation": "docs/data/pq-explorer-character-navigation-audit.json",
-    "pq_explorer_reward_navigation": "docs/data/pq-explorer-reward-navigation-audit.json"
+    "pq_explorer_reward_navigation": "docs/data/pq-explorer-reward-navigation-audit.json",
+    "skill_pq_acquisition_presentation": "docs/data/skill-pq-acquisition-presentation-audit.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
