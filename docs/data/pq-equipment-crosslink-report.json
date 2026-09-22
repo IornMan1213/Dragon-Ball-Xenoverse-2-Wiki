@@ -2238,7 +2238,7 @@
     "unresolved_target_routes": 0,
     "identity_note": "Canonical equipment identities are authoritative. Three historical report IDs were normalized to existing canonical accessory IDs by exact-name identity: equip-074→acc-028 (Yamcha's Sword), equip-080→acc-001 (Piccolo's Turban), equip-088→acc-012 (Goku Wig (Super Saiyan)). The remaining PQ reward endpoints now exist as canonical equipment records.",
     "canonical_endpoint_parity": "pass",
-    "enrichment_batch": "equip-031..equip-040",
-    "enrichment_note": "Canonical equipment records 031-040 now include an independent maintained equipment-catalog provenance source and explicit DLC provenance mapped to their documented PQ/DLC grouping. Relationship endpoints remain unchanged."
+    "enrichment_batch": "equip-041..equip-050",
+    "enrichment_note": "Canonical equipment records 041-050 now include independent identity/category provenance and explicit DLC provenance mapped to their documented PQ/DLC groupings. Relationship endpoints are unchanged."
   }
 }
