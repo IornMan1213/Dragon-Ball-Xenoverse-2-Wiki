@@ -2360,3 +2360,20 @@
 - [x] Canonical/index parity validated
 - [x] Audit added
 - [ ] Next batch: Sonic Rush, Special Beam Cannon, Special Beam Cannon (Beast), Sphere of Destruction, Spirit Ball, Spirit Blaster, Spirit Bomb, Spirit Boost, Spirit Explosion, Spirit Pulse.
+
+
+### 2026-09-22 cycle completion tracking — Sonic Rush through Spirit Pulse
+- [x] Sonic Rush provenance refresh
+- [x] Special Beam Cannon provenance refresh
+- [x] Special Beam Cannon (Beast) provenance refresh + reward-tier conflict preserved
+- [x] Sphere of Destruction provenance refresh
+- [x] Spirit Ball provenance refresh
+- [x] Spirit Blaster provenance refresh
+- [x] Spirit Bomb provenance refresh
+- [x] Spirit Boost provenance refresh
+- [x] Spirit Explosion provenance refresh
+- [x] Spirit Pulse provenance refresh
+- [x] Canonical/index parity validated
+- [x] Audit added and registered
+- [ ] CI/runtime remains unavailable; no CI success claimed
+- [ ] Next batch: recompute the live stale census, then continue with the first ten stale canonical skills after Spirit Pulse.
