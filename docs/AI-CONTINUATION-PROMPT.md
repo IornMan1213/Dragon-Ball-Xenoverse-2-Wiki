@@ -2719,3 +2719,15 @@
 - [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; no CI success claimed.
 - [x] Commits: canonical `c16ede552976bb2eda89c9c7b914a5b5e28cfa16`; index `5817d9f3262573fd8ac6ec5abf8673ec9a15cb97`; audit `bab237c6bf14ab3ea0fc2e0276ddb7e37c6ec30a`; cross-domain registration `1ea698435f28fad2503004e16e455c953ca5a8aa`.
 - [ ] Exact next batch: recompute the live stale census from `docs/data/skills.json`, then continue with the first ten stale canonical skills after **Spirit Pulse**; do not assume historical ordering if intervening verification changes alter the set.
+
+
+### 2026-09-22 cycle update — Spirit Slash through Super Donut Volley provenance batch
+- [x] Fresh live stale census before editing: 452 canonical skills / 452 index records / 0 duplicate IDs / 68 stale; exact first ten stale records were **Spirit Slash, Spread Shot Retreat, Steel Mirage, Stone Bullet, Strike of Revelation, Sudden Death Beam, Sudden Storm, Super Afterimage, Super Black Kamehameha Rosé, Super Donut Volley**.
+- [x] Refreshed all ten canonical records and synchronized index projections to last_verified: 2026-09-22.
+- [x] Reused repository PQ reward normalization, skill research batches, catalog audits, and character/preset evidence; preserved unresolved fields and source boundaries.
+- [x] Confirmed repository evidence for Spirit Slash/PQ2, Stone Bullet/PQ56 Basic Reward, Super Black Kamehameha Rosé/PQ109, and Super Donut Volley/PQ55 Basic Reward. Spread Shot Retreat preset presence was not treated as exclusive acquisition evidence.
+- [x] Added and registered docs/data/skill-spirit-slash-through-super-donut-volley-provenance-audit-2026-09-22.json.
+- [x] Live post-edit census: **452 canonical records / 58 stale**; next exact stale batch is **Super Dragon Flight, Super Elite Combo, Super Explosive Wave, Super Gamma Blast, Super Ghost Buu Attack, Super Ghost Kamikaze Attack, Super Ghost Kamikaze Attack, Super God Fist, Super God Shock Flash, Super Kamehameha**. Duplicate naming in the live stale list is preserved for investigation rather than silently deduplicated.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [x] Commits: canonical 7fdb2cbb67c3a130e7ffd235865042b108a6db5d; index be0e6528ce4ff22313c6e3f54c17f5b0688b4c3e; audit 834b4489ffda4142d4abdc1e3b96ec9f4e03a8d7; cross-domain registration 6015afcdecc9e0dbe0be8dfb2aae262ceb7edae9.
+- [ ] Exact next batch: recompute live stale census before editing and investigate the duplicate **Super Ghost Kamikaze Attack** records/IDs before blindly processing the first ten names.
