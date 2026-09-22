@@ -1,3 +1,13 @@
+## 2026-09-22 — Potential Unleashed low-source provenance strengthening
+- Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 18 exactly-two-source canonical records**.
+- Bounded batch: **Potential Unleashed (`skill-potential-unleashed`)**.
+- Added the Steam community discussion as an independent provenance source corroborating acquisition through the Advancement Tests and the final-test unlock after the required prior Z-ranks.
+- Preserved the repository's existing Super Class Advancement Test endpoint, CaC scope, 500-Ki value, and unresolved evidence boundaries; no unsupported probability, shortcut, or additional prerequisite was added.
+- Validation after editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 17 exactly-two-source canonical records**; canonical/index source parity clean; no internal citation artifacts detected.
+- CI: no successful workflow/check exposed; no CI success claimed.
+- Commits: canonical `2b6b3510139eeabe00a525289cb8e2408f892c5b`; index `c7371aeff20029558af5d96413dc8308d697a5cb`.
+- Exact next batch: **Prominence Flash (`skill-prominence-flash`)**. Recompute the live two-source census, then independently verify its acquisition/source endpoint before provenance strengthening.
+
 ## 2026-09-22 — Petrifying Spit low-source provenance strengthening
 - Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 20 exactly-two-source canonical records**.
 - Bounded batch: **Petrifying Spit (`skill-petrifying-spit`)**.
