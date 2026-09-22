@@ -1,3 +1,13 @@
+## 2026-09-22 — Prominence Flash provenance strengthening
+- Live post-edit census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 16 exactly-two-source canonical records**.
+- Bounded batch: **Prominence Flash (`skill-prominence-flash`)**.
+- Added the maintained Steam all-Parallel-Quest guide as a third independent source; it explicitly lists Prominence Flash in PQ137 "Tournament of Power Round 2" Basic Reward.
+- Preserved existing Ultimate Finish uncertainty and did not infer a drop probability or gate.
+- Validation: canonical/index source parity **clean**; no internal AI/UI/search citation artifacts detected.
+- CI/Actions: no successful workflow/check exposed; no CI success claimed.
+- Commits: canonical `efa12e5303d8c409b9d2510e9c3fc9c52de2d7d8`; index `52da9a2181f66f13c6b756822ddbd7811c944dca`.
+- Exact next batch: **Psycho Escape (`skill-psycho-escape`)**. Recompute the live census, inspect the record, and independently verify its acquisition/source endpoint.
+
 ## 2026-09-22 — Potential Unleashed low-source provenance strengthening
 - Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 18 exactly-two-source canonical records**.
 - Bounded batch: **Potential Unleashed (`skill-potential-unleashed`)**.
