@@ -7,7 +7,7 @@
   "ranges": [
     {
       "range": "081-120",
-      "source_pairs": 0,
+      "source_pairs": 109,
       "missing_from_standalone": 0,
       "extra_standalone_pairs": 99,
       "action": "preserved; standalone contains a broader historical/source-normalized projection than the current partial reward map"
