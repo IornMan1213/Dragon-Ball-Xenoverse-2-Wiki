@@ -1730,3 +1730,16 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - [ ] CI/runtime execution remains unavailable; no executable validation or CI success claimed.
 - [x] Commits: validator 44680366def03b1fdfc7d4c32eb05b9039a61c09; audit dd7a1122748cbe731e0ec6c26da71c9e02ebe23b.
 - [ ] Exact next batch: audit the remaining **PQ-facing reward/acquisition summary consumers**, prioritizing docs/Guides.md, docs/Skills-Complete-Database.md, docs/QQ-Bangs.md, and other summary/index pages for deterministic canonical endpoint drift or one-way navigation; do not infer new relationships.
+
+
+### 2026-09-22 cycle update — PQ-facing reward/acquisition summary consumer audit
+- [x] Fresh live canonical census: **186 PQ records / 859 relationship edges = 244 skill / 151 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming**.
+- [x] Audited the bounded summary batch: `docs/Guides.md`, `docs/Skills-Complete-Database.md`, `docs/QQ-Bangs.md`, `docs/Skills-Unlock-Database.md`, `docs/Accessory-Acquisition-Matrix.md`, and `docs/Farming-Routes.md`.
+- [x] Confirmed the first five acquisition-summary consumers preserve the canonical relationship/evidence boundary: PQ association is not silently promoted to guaranteed reward, Ultimate Finish trigger, or drop-rate fact.
+- [x] Confirmed `docs/QQ-Bangs.md` keeps the PQ83 Super Mix Capsule Z route explicitly in community/research evidence rather than the canonical `pq_features_farming` layer.
+- [x] Repaired `docs/Farming-Routes.md` by replacing the unsupported **“Best Overall”** TP Medal route label with neutral **“Commonly cited online route”** wording and an explicit efficiency caveat; no canonical relationship changed.
+- [x] Added `docs/data/pq-summary-consumer-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Historical 860/125 counts found in older handoff entries remain preserved under append-only policy and are not current-state inputs.
+- [ ] Runtime/CI execution remains unavailable; no executable validation or CI success claimed.
+- [x] Commits: Farming-Routes `6fb46f2783ac95232ec20a9e5eff52989a610784`; summary audit `9518392fd2413b097784cd572d2b52c290077c41`; index registration `a6bfe629cc7c5ce0f7f54347950fccc553983cdd`.
+- [ ] Exact next batch: inspect **direct PQ page templates and DLC requirement presentation** for canonical endpoint navigation, stale field-level scalars, and one-way reward links; do not infer new relationships.
