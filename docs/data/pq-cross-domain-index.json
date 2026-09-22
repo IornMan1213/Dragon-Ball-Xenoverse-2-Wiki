@@ -88,7 +88,8 @@
     "search_consumer": "docs/data/search-consumer-audit.json",
     "equipment_detail_enrichment_091_100": "docs/data/equipment/equipment-091-100-detail-audit.json",
     "equipment_detail_enrichment_101_110": "docs/data/equipment/equipment-101-110-detail-audit.json",
-    "equipment_detail_enrichment_111_120": "docs/data/equipment/equipment-111-120-detail-audit.json"
+    "equipment_detail_enrichment_111_120": "docs/data/equipment/equipment-111-120-detail-audit.json",
+    "equipment_detail_enrichment_121_130": "docs/data/equipment/equipment-121-130-detail-audit.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
