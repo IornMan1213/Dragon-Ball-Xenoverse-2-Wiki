@@ -15,3 +15,11 @@
 - [x] Added the GameFAQs source to canonical and index records and refreshed `last_verified` to **2026-09-21**.
 - [x] Preserved existing Free Update 11 provenance and did not infer a drop probability.
 - [ ] Exact next task: recompute the live two-source census and continue the next deterministic low-source record after Temporal Holy Ray.
+
+
+### 2026-09-21 — Thunder Flash low-source provenance strengthening
+- [x] Recomputed the live low-source sequence after Temporal Holy Ray; **Thunder Flash** was the next deterministic exactly-two-source skill.
+- [x] Independently corroborated **Thunder Flash** as a **PQ146 Basic Reward** using an independent Steam PQ146 record.
+- [x] Added the Steam source to canonical and index records and refreshed `last_verified` to **2026-09-21**.
+- [x] Preserved Legendary Pack 1 provenance and did not infer a drop probability.
+- [ ] Exact next task: recompute the live two-source census and continue the next deterministic low-source record after Thunder Flash.
