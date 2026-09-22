@@ -1,25 +1,4 @@
 {
-  "schema_version": "1.2",
-  "game": "Dragon Ball Xenoverse 2",
-  "source_index": "https://dbxv2.fandom.com/wiki/Category:Skills",
-  "generated": "2026-09-22",
-  "status": "researched_canonical",
-  "notes": "Indexed records establish category membership. Mechanics, costs and unlock methods must be verified before promotion to verified status.",
-  "category_counts": {
-    "Ki Blast Evasives": 15,
-    "Other Supers": 36,
-    "Strike Evasives": 9,
-    "Ki Blast Ultimates": 82,
-    "Ki Blast Supers": 136,
-    "Transformations": 15,
-    "Strike Supers": 106,
-    "Strike Ultimates": 21,
-    "Power Up Supers": 15,
-    "Power Up Evasives": 2,
-    "Other Evasives": 4,
-    "Transformation": 4,
-    "Other Ultimates": 2
-  },
   "records": [
     {
       "name": "Absolute Zero",
@@ -10125,15 +10104,16 @@
       "source_quest_or_shop": "Parallel Quest 123 — \"The Ultimate Battle of the Universe\"",
       "ultimate_finish_required": false,
       "skill_description": "Reverse Shot is a Super Ki Blast skill associated with Super Baby 2.",
-      "mechanics_notes": "Confirmed as Super Baby 2's 100-Ki Ki Blast Super from PQ123. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain bounded. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
+      "mechanics_notes": "Fires four Ki bullets; missed shots can reverse and track back toward the target. At red health, the attack increases to eight blasts. Exact frame data remains unresolved.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Reverse_Shot",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Reverse_Shot"
       ],
       "race_restriction": "All CaC races",
       "source_quest": 123,
@@ -10158,14 +10138,16 @@
       "source_quest_or_shop": "Parallel Quest 137 — \"Tournament of Power Round 2\"",
       "ultimate_finish_required": true,
       "skill_description": "Ribrianne's Eternal Love is a Ultimate Ki Blast skill associated with Ribrianne.",
-      "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. 2026-09-20 verification: current PQ/reward data confirms the documented acquisition relationship; maintained drop-condition data supplies the specific reward tier. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Ultimate Finish bonus slot route; the documented route requires an Ultimate Finish bonus roll.",
+      "mechanics_notes": "Heart-shaped Ki projectile; power increases from successful Pretty Cannon setup/hits. Current reference reports 25% base damage across 14 hits and up to 45% at maximum output.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
-        "https://dragonball.fandom.com/wiki/Ribrianne%27s_Eternal_Love"
+        "https://dragonball.fandom.com/wiki/Ribrianne%27s_Eternal_Love",
+        "https://dbxv2.fandom.com/wiki/Ribrianne%27s_Eternal_Love",
+        "https://dragonball.fandom.com/wiki/Ribrianne_Eternal_Love"
       ],
       "race_restriction": "All CaC races",
       "source_quest": 137,
@@ -10191,8 +10173,8 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "bardock mentor training",
-      "mechanics_notes": "Ki Blast Super whose projectile becomes substantially stronger at low health; current dedicated evidence lists 100 Ki.",
-      "last_verified": "2026-09-21",
+      "mechanics_notes": "Thrown Ki Blast with unusually broad close-range tracking; damage increases substantially when the user's health is very low.",
+      "last_verified": "2026-09-22",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Bardock mentor training — Lesson 2.",
@@ -10220,8 +10202,8 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Krillin mentor training — Initiation Test",
-      "mechanics_notes": "Confirmed as Krillin's 100-Ki mentor Super usable by all CaC races. The user slaps their cheeks to restore Stamina. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-krillin added for the documented mentor-training acquisition route.",
-      "last_verified": "2026-09-21",
+      "mechanics_notes": "Slaps the user's cheeks and restores stamina. Current reference identifies it as Krillin training acquisition and 100 Ki cost.",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "source_quest": "Krillin mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
@@ -10248,8 +10230,8 @@
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Character skill",
-      "mechanics_notes": "Confirmed as Restrained Broly's 100-Ki character-exclusive Other Super; no CaC acquisition route established. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
-      "last_verified": "2026-09-21",
+      "mechanics_notes": "Character-exclusive Broly (Restrained) charging Super; charges Ki while periodically knocking nearby opponents away with pulses.",
+      "last_verified": "2026-09-22",
       "race_restriction": "Character-only",
       "dlc_requirement": "Base Game",
       "acquisition_type": "character_only",
@@ -10270,8 +10252,8 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Android 16 mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint, skill identity, and classification are directly corroborated; numerical combat mechanics remain deferred until separately verified.",
-      "last_verified": "2026-09-21",
+      "mechanics_notes": "Charges forward with a shoulder attack; after a knockback it can chase/teleport to the opponent before striking.",
+      "last_verified": "2026-09-22",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Android 16 mentor training — Lesson 1.",
@@ -10298,10 +10280,10 @@
       "source_quest_or_shop": "Parallel Quest 42 — \"Artificial Warriors\"",
       "ultimate_finish_required": false,
       "skill_description": "Rolling Bullet is a Ki Blast Evasive associated with Android 18, Android 18 (DB Super), and Great Saiyaman 2.",
-      "mechanics_notes": "Corrected to a Ki Blast Evasive, not a Super. It scatters Ki Blasts while ascending and is used to escape attacks. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
+      "mechanics_notes": "Evasive that launches the user upward while scattering Ki bullets; current reference reports 200 stamina cost and 2% damage per projectile hit.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Rolling_Bullet",
@@ -10325,15 +10307,16 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Rolling_Hercule_Punch"
       ],
       "unlock_method": "Hercule's mentor training — complete the corresponding lesson to receive Rolling Hercule Punch as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Hercule mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-21",
+      "mechanics_notes": "Rolls before punching; continued input extends the rolling movement. Current reference reports super armor and a brief daze/paralysis effect.",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "source_quest": "Hercule mentor training",
       "dlc_requirement": "Base Game",
@@ -10367,8 +10350,8 @@
       "source_quest_or_shop": "Parallel Quest 119 — \"A Ranger's Duty\"",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Extra Pack 2",
-      "last_verified": "2026-09-20",
-      "mechanics_notes": "100 Ki Strike Super counter. The user braces for an incoming attack; Strike attacks trigger a kick, while Ki Blast attacks trigger an energy barrier. Current source evidence confirms the PQ119 Ultimate Finish acquisition route. Current reward-table evidence explicitly lists Rough Ranger under Basic Reward rather than an Ultimate Finish-only slot.",
+      "last_verified": "2026-09-22",
+      "mechanics_notes": "Universal counter: strike attacks trigger a kick, while Ki attacks trigger an energy barrier; point-blank Ki interactions follow the documented counter behavior.",
       "acquisition_type": "quest_or_mission",
       "notes": "Corrected 2026-09-20: current reward-table evidence places Rough Ranger in the Basic Reward pool; the prior Ultimate Finish flag was stale.",
       "id": "skill-rough-ranger",
@@ -10390,10 +10373,10 @@
       "source_quest_or_shop": "Parallel Quest 115 — \"Extreme Battle with Android 13!\"",
       "ultimate_finish_required": false,
       "skill_description": "S.S. Deadly Bomber is a Ultimate Ki Blast skill associated with Android 13.",
-      "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. UF audit 2026-09-19: the maintained PQ guide lists this skill in Basic Reward, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for S.S. Deadly Bomber; no Ultimate Finish requirement is recorded for this route. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward section; no Ultimate Finish-only gate is asserted.",
+      "mechanics_notes": "Creates a tracking Ki ball that homes toward the opponent and deals multi-hit damage on contact.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
@@ -13607,12 +13590,5 @@
         85
       ]
     }
-  ],
-  "record_count": 452,
-  "skill_id_policy": {
-    "format": "skill-{slug}",
-    "slug_source": "name",
-    "collision_suffix": "-{class}-{subcategory}",
-    "stability": "deterministic from canonical name/class/subcategory"
-  }
+  ]
 }
