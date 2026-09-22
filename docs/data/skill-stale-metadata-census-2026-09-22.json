@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-22",
+  "scope": "Canonical skill verification-date metadata census",
+  "source_of_truth": "docs/data/skills.json",
+  "live_counts": {
+    "canonical_skill_records": 452,
+    "stale_last_verified_records": 178,
+    "current_last_verified_records": 274,
+    "duplicate_ids": 0
+  },
+  "method": "Fresh alphabetical census of canonical records where last_verified != 2026-09-22. This artifact does not modify canonical verification state.",
+  "next_stale_records": [
+    "Kai Kai",
+    "Kaioken",
+    "Kaioken Kamehameha",
+    "Kairos Cannon",
+    "Kamehameha",
+    "Ki Blast Thrust",
+    "Ki Explosion",
+    "Kill Driver",
+    "Last Emperor",
+    "Light Grenade",
+    "Lightning Impact",
+    "Lightning of Absolution",
+    "Lovely Cyclone",
+    "Mach Kick",
+    "Mach Punch",
+    "Mach Slash",
+    "Maximum Charge",
+    "Meteor Burst",
+    "Meteor Crash",
+    "Meteor Explosion"
+  ],
+  "validation": {
+    "duplicate_ids": 0,
+    "canonical_record_count": 452,
+    "stale_plus_current": 452,
+    "status": "clean_census"
+  },
+  "evidence_boundary": "A stale last_verified date is a research-priority signal, not evidence that the underlying record is incorrect. Canonical acquisition, mechanics, uncertainty, and source conflicts must remain unchanged until independently verified."
+}
