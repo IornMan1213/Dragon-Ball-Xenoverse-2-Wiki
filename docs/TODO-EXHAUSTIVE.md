@@ -1837,3 +1837,9 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Added independent GameFAQs evidence corroborating the CaC starting route for Super Guard.
 - [x] Preserved the existing Skill Shop alternate route and mechanics/cost semantics; no unsupported shop timing or purchase condition was inferred.
 - [x] Canonical/index source parity synchronized; live census recorded in the AI continuation handoff.
+
+
+### 2026-09-22 bounded provenance cycle — Supernova
+- [x] Added independent maintained Steam Expert Mission guide evidence for EM06 / The Depths of Despair → Supernova Basic Reward.
+- [x] Preserved existing acquisition/reward-tier and no-Ultimate-Finish semantics; no unsupported drop probability or additional gate was inferred.
+- [x] Canonical/index source parity synchronized; live census recorded in the AI continuation handoff.
