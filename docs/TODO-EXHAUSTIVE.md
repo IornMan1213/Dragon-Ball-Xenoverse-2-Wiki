@@ -31,3 +31,10 @@
 - [x] Synchronized canonical and index source arrays and refreshed `last_verified` to **2026-09-22**.
 - [x] Preserved existing acquisition, DLC/version, Ultimate Finish, and uncertainty semantics; no unsupported drop rate or gate was added.
 - [ ] Exact next task: recompute the live skill census and identify the highest-priority structural gap after the exactly-two-source queue reaches zero; prefer relationship/projection drift or a large missing-field cohort over further provenance-only edits.
+
+
+### 2026-09-22 — Post-provenance structural projection census
+- [x] Recomputed the live canonical/index projection census after the final low-source batch: **38 field mismatches** remain across projected fields.
+- [x] Confirmed the remaining mismatch families: **33 `notes`**, **2 `mechanics_notes`**, **1 `unlock_method`**, **1 `ultimate_finish_required`**, and **1 `source_quest_or_shop`**.
+- [ ] Exact next task: fix the two deterministic **`mechanics_notes`** mismatches for **Assault Vanish** and **Solar Flare** from canonical values, then recompute the full projection census.
+- [ ] Subsequent task: reconcile the remaining **33 `notes`** projection mismatches in bounded related groups without overwriting canonical research.
