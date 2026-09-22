@@ -6732,9 +6732,9 @@
       ],
       "unlock_method": "Earn Z-Ranks on every prior Advancement Test from Easy through God, unlock the Super Class test at the Patroller Academy, and clear the Super Class Advancement Test to receive Potential Unleashed.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +15% all attacks and +5% damage reduction. 2026-09-20 provenance refinement: repository Advancement Tests research explicitly identifies the final Super Class test as the Potential Unleashed reward and the prior Easy-through-God Z-Rank requirement.",
+      "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +15% all attacks and +5% damage reduction. 2026-09-20 provenance refinement: repository Advancement Tests research explicitly identifies the final Super Class test as the Potential Unleashed reward and the prior Easy-through-God Z-Rank requirement. 2026-09-22 provenance strengthening: Dragon Ball Xenoverse 2 Wiki's Potential Unleashed entry independently confirms the awoken skill is unlocked by Z-ranking the advancement tests and is usable by CaCs; this corroborates the repository's existing advancement-test acquisition semantics. No unsupported shortcut, probability, or additional prerequisite is inferred.",
       "mechanics_notes": "500 Ki; +15% Strike and Blast, +5% Strike and Blast Defense. The current research corpus notes the in-game Ki-recovery text is misleading; do not treat it as a damage or recovery bonus beyond the documented values. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate. 2026-09-21 cross-domain normalization: canonical Advancement Test endpoint advancement-test-super added from the existing acquisition record.",
       "source_quest": "Patroller Academy — Super Class Advancement Test",
       "source_quest_or_shop": "Final Advancement Test"
