@@ -15,7 +15,7 @@
   "counts": {
     "skills": 244,
     "super_souls": 151,
-    "equipment": 125,
+    "equipment": 124,
     "dlc_edges": 86,
     "dlc_unique_targets": 20,
     "dlc_identity_records": 20,
@@ -70,8 +70,8 @@
       "duplicate_pairs": 0
     },
     "equipment": {
-      "canonical": 125,
-      "structured": 125,
+      "canonical": 124,
+      "structured": 124,
       "missing": 0,
       "extra": 0,
       "duplicate_pairs": 0
