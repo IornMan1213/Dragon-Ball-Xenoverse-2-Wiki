@@ -181,6 +181,7 @@
     "skill_energy_through_evil_provenance": "docs/data/skill-energy-through-evil-provenance-audit-2026-09-22.json",
     "skill_evil_through_fake_provenance": "docs/data/skill-evil-through-fake-provenance-audit-2026-09-22.json",
     "skill_feint_through_final_cannon_provenance": "docs/data/skill-feint-through-final-cannon-provenance-audit-2026-09-22.json",
-    "skill_final_through_finishing_provenance": "docs/data/skill-final-through-finishing-provenance-audit-2026-09-22.json"
+    "skill_final_through_finishing_provenance": "docs/data/skill-final-through-finishing-provenance-audit-2026-09-22.json",
+    "skill_flash_through_fruit_provenance": "docs/data/skill-flash-through-fruit-provenance-audit-2026-09-22.json"
   }
 }
