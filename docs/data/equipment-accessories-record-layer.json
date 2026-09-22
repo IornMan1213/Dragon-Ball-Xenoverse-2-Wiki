@@ -1247,192 +1247,202 @@
     {
       "id": "equip-041",
       "name": "Kakunsa's Wig and Mask",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 133 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Ultra Pack 1 — PQ 133",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Kakunsa"
       ],
       "parallel_quest_ids": [
         133
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. Independent equipment/character documentation corroborates the item identity and accessory classification; the maintained PQ guide corroborates the PQ reward endpoint and DLC grouping. Exact reward/drop probability and any unsupported combat/stat effect remain unresolved unless directly evidenced."
     },
     {
       "id": "equip-042",
       "name": "Kakunsa's Tail",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 133 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Ultra Pack 1 — PQ 133",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Kakunsa"
       ],
       "parallel_quest_ids": [
         133
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. Independent equipment/character documentation corroborates the item identity and accessory classification; the maintained PQ guide corroborates the PQ reward endpoint and DLC grouping. Exact reward/drop probability and any unsupported combat/stat effect remain unresolved unless directly evidenced."
     },
     {
       "id": "equip-043",
       "name": "Rozie's Clothes",
-      "category": "unclassified",
+      "category": "equipment",
       "acquisition_routes": [
         "Parallel Quest 135 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Ultra Pack 1 — PQ 135",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Roasie"
       ],
       "parallel_quest_ids": [
         135
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. Independent equipment/character documentation corroborates the item identity and equipment classification; the maintained PQ guide corroborates the PQ reward endpoint and DLC grouping. Exact reward/drop probability and any unsupported combat/stat effect remain unresolved unless directly evidenced."
     },
     {
       "id": "equip-044",
       "name": "Rozie's Hood and Goggles",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 135 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Ultra Pack 1 — PQ 135",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Roasie"
       ],
       "parallel_quest_ids": [
         135
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. Independent equipment/character documentation corroborates the item identity and accessory classification; the maintained PQ guide corroborates the PQ reward endpoint and DLC grouping. Exact reward/drop probability and any unsupported combat/stat effect remain unresolved unless directly evidenced."
     },
     {
       "id": "equip-045",
       "name": "Android 21's Lab Uniform",
-      "category": "unclassified",
+      "category": "equipment",
       "acquisition_routes": [
         "Parallel Quest 139 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Ultra Pack 2 — PQ 139",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Android_21"
       ],
       "parallel_quest_ids": [
         139
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. Independent equipment/character documentation corroborates the item identity and equipment classification; the maintained PQ guide corroborates the PQ reward endpoint and DLC grouping. Exact reward/drop probability and any unsupported combat/stat effect remain unresolved unless directly evidenced."
     },
     {
       "id": "equip-046",
       "name": "Universe 7 Baseball Uniform",
-      "category": "unclassified",
+      "category": "equipment",
       "acquisition_routes": [
         "Parallel Quest 139 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Ultra Pack 2 — PQ 139",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Android_21"
       ],
       "parallel_quest_ids": [
         139
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. Independent equipment/character documentation corroborates the item identity and equipment classification; the maintained PQ guide corroborates the PQ reward endpoint and DLC grouping. Exact reward/drop probability and any unsupported combat/stat effect remain unresolved unless directly evidenced."
     },
     {
       "id": "equip-047",
       "name": "Universe 7 Baseball Cap",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 139 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Ultra Pack 2 — PQ 139",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         139
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. Independent equipment/character documentation corroborates the item identity and accessory classification; the maintained PQ guide corroborates the PQ reward endpoint and DLC grouping. Exact reward/drop probability and any unsupported combat/stat effect remain unresolved unless directly evidenced."
     },
     {
       "id": "equip-048",
       "name": "Universe 6 Baseball Uniform",
-      "category": "unclassified",
+      "category": "equipment",
       "acquisition_routes": [
         "Parallel Quest 142 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Ultra Pack 2 — PQ 142",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         142
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. Independent equipment/character documentation corroborates the item identity and equipment classification; the maintained PQ guide corroborates the PQ reward endpoint and DLC grouping. Exact reward/drop probability and any unsupported combat/stat effect remain unresolved unless directly evidenced."
     },
     {
       "id": "equip-049",
       "name": "Gine (DB Super)'s Clothes",
-      "category": "unclassified",
+      "category": "equipment",
       "acquisition_routes": [
         "Parallel Quest 144 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Legendary Pack 1 — PQ 144",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://ultradragonball.fandom.com/wiki/Gine"
       ],
       "parallel_quest_ids": [
         144
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. Independent equipment/character documentation corroborates the item identity and equipment classification; the maintained PQ guide corroborates the PQ reward endpoint and DLC grouping. Exact reward/drop probability and any unsupported combat/stat effect remain unresolved unless directly evidenced."
     },
     {
       "id": "equip-050",
       "name": "Gine (DB Super) Set",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 144 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Legendary Pack 1 — PQ 144",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://ultradragonball.fandom.com/wiki/Gine"
       ],
       "parallel_quest_ids": [
         144
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity and PQ acquisition endpoint are source-backed. Independent equipment/character documentation corroborates the item identity and accessory classification; the maintained PQ guide corroborates the PQ reward endpoint and DLC grouping. Exact reward/drop probability and any unsupported combat/stat effect remain unresolved unless directly evidenced."
     },
     {
       "id": "equip-051",
