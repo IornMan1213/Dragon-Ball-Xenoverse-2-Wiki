@@ -899,16 +899,16 @@
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Burning_Attack",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Burning_Attack"
       ],
       "unlock_method": "Parallel Quest 41 — Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 evidence refinement: PQ41 reward listings explicitly place Burning Attack in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
-      "mechanics_notes": "Dedicated current-version evidence confirms Burning Attack as a 100-Ki Ki Blast Super from PQ41. The projectile explodes on impact and launches the opponent upward; no unsupported CaC race/gender/form restriction was inferred. Current evidence confirms CaC availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward section; no Ultimate Finish-only gate is asserted.",
+      "notes": "2026-09-22 provenance verification: dedicated Xenoverse 2 documentation confirms Ki Blast Super classification, 100 Ki, Future Trunks association, projectile/explosive 2-hit launching behavior, and PQ41 acquisition. Independent PQ41 reward guides place Burning Attack in Basic Reward. No Ultimate Finish-only gate or numeric drop probability is inferred.",
+      "mechanics_notes": "Current dedicated Xenoverse 2 documentation confirms Burning Attack as a 100-Ki Ki Blast Super associated with Future Trunks. It is a mid-range projectile with an explosive 2-hit launch behavior. The dedicated skill page identifies PQ41 as the acquisition source; the maintained PQ41 reward guide independently lists Burning Attack under Basic Reward. Current evidence confirms CaC availability; no narrower race/gender/form restriction is established, so none is inferred.",
       "source_quest": 41,
       "source_quest_or_shop": "Parallel Quest 41 — \"Warriors' Annihilation - Future Chapters\"",
       "source_parallel_quests": [
