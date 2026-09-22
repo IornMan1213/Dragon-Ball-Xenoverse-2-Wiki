@@ -75,3 +75,13 @@
 - [x] Removed the erroneous PQ reward relationship classifying `Flying Nimbus!!` as equipment. No canonical equipment record was deleted because the equipment database did not contain such a record.
 - [x] Regenerated the PQ→equipment crosslink report from canonical equipment data: 124 forward edges, 122 unique targets, 0 unresolved endpoints.
 - [x] Kept the separate Conton City Flying Nimbus vehicle concept out of the equipment reward relationship; the PQ reward evidence concerns the Super Soul.
+
+### 2026-09-22 — Canonical equipment endpoint parity repair
+- [x] Recomputed the live cross-database census and found a structural mismatch: **50 live canonical equipment-accessory records** versus **122 PQ→equipment target endpoints** represented by the relationship report.
+- [x] Confirmed the earlier historical claim of a 140-record canonical equipment expansion was not reflected in the live canonical file; did not treat the historical handoff or verification status as a substitute for canonical data.
+- [x] Promoted **119 source-backed, previously relationship-only equipment identities** into the canonical equipment-accessory layer.
+- [x] Preserved exact-name canonical identities for three overlaps instead of duplicating them: `equip-074 → acc-028`, `equip-080 → acc-001`, and `equip-088 → acc-012`.
+- [x] Synchronized the PQ→equipment report so every forward and reverse endpoint resolves to the canonical database.
+- [x] Validation: **169 canonical equipment-accessory records / 0 duplicate IDs / 124 forward edges / 122 reverse endpoints / 0 unresolved / 0 broken endpoints / 186 canonical PQs**.
+- [x] Canonical-source-of-truth rule preserved: relationship endpoints were promoted only from source-backed evidence already present in the repository; unresolved category, slot, restriction, effect, DLC, and reward-slot fields remain unresolved rather than inferred.
+- [ ] Exact next task: enrich **`equip-031`–`equip-040`** with independently verified category/slot, DLC provenance, and directly evidenced restrictions/effects, then re-run canonical endpoint and relationship parity validation.
