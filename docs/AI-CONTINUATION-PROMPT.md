@@ -622,3 +622,16 @@
 - [x] This is an actual live-data schema-aware execution of the projection comparison, but it is **not** a Python interpreter run of the committed scripts; no claim of direct Python runtime execution or CI success is made.
 - [x] No canonical reward relationships were changed.
 - Exact next task: inspect the unified reverse-index producer/schema for deterministic generation safety, especially its partial/research-layer semantics, before adding or modifying any unified generator.
+
+### 2026-09-22 cycle update — Unified reverse-index producer metadata drift repair
+- Active workstream: P1/P2 cross-database relationship/projection integrity.
+- Bounded batch: unified reverse-index producer/status metadata audit.
+- Live canonical census: **860 unique PQ relationship edges = 244 skill / 151 Super Soul / 125 equipment / 247 character / 86 DLC / 7 farming**.
+- Audited the partial normalized reverse index: **236 skill / 137 Super Soul / 125 equipment / 247 character / 86 DLC / 7 farming** references, with canonical comparison **244 / 151 / 125 / 247 / 86 / 7**. The skill/Super Soul gaps are explicitly partial-source coverage and were not promoted or treated as negative evidence.
+- Deterministic drift found and repaired: `pq-cross-domain-audit.json` and `pq-cross-domain-status.json` current DLC counts were stale at **88** and the status next-gate still described the superseded **862-edge** baseline as live. Current-state fields now use **860 / 86 DLC**; historical 862/840/88 values remain preserved as history.
+- Canonical source-of-truth rule preserved: no canonical relationship identities, reverse-index identities, or research-only entries were changed in this batch.
+- Validation: master/audit/status/producer-census current counts agree; **0 duplicate relationship keys / 0 invalid PQ numbers / 0 empty targets / 0 reverse endpoint mismatches**; no internal AI/UI/search citation artifacts introduced.
+- CI/Actions: no successful workflow/check exposed for this direct-commit chain; do not claim CI success.
+- Commits: master `cc0e793bcafa27c7bf3428ec8b00da2b3cb756a7`; audit `498ed718dad7fb23ebaf5a803df16b9fe68a30c4`; status `ae1cf6ff938837afa071b37a3917ae4a485cf7fa`; TODO `35ce7e3ddbe27a82d90a9927e053171e812aba08`.
+- Important live-state correction: the TODO/history claims `scripts/generate_pq_reverse_indexes.py` and `scripts/validate_pq_reverse_indexes.py` exist, but direct live fetch/search did not find those files. Do not trust the historical claim until the live branch is reconciled.
+- Exact next batch: verify the live `scripts/` inventory and, if absent, restore schema-aware deterministic PQ reverse-index validator/generator implementations without overwriting partial/research-layer semantics.
