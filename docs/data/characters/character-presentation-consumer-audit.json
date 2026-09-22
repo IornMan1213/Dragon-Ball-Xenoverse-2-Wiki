@@ -35,8 +35,8 @@
       "status": "clean"
     },
     "preset_presentation": {
-      "total_records": 45,
-      "explorer_character_navigation_records": 45,
+      "total_records": 40,
+      "explorer_character_navigation_records": 40,
       "unresolved_character_ids": [],
       "identity_label_conflicts": [
         {
@@ -52,10 +52,23 @@
           "do_not_map_to": "trunks-future"
         }
       ],
-      "status": "clean"
+      "status": "clean",
+      "duplicate_preset_record_ids": [],
+      "duplicate_numbered_character_preset_pairs": [],
+      "record_types": {
+        "preset": 35,
+        "separate_character": 5
+      },
+      "null_preset_number_special_records": [
+        "goku-supersaiyan-god",
+        "goku-gt",
+        "goku-ss4",
+        "piccolo-power-awakening",
+        "orange-piccolo"
+      ]
     }
   },
-  "evidence_boundary": "Identity/navigation parity is clean. All 45 indexed preset records resolve through the explicit character_id bridge and their explorer presentation links back to the canonical character search surface. Captain Ginyu Presets 3/4 retain source body-configuration labels as unresolved identity presentation and are not remapped to Vegeta or Future/Xeno Trunks. No preset loadout, unlock route, DLC ownership, raid rotation, TP Medal cost, drop rate, or historical numbering claim is inferred.",
+  "evidence_boundary": "Identity/navigation parity is clean. The current producer layer contains 40 records: 35 numbered preset records and 5 explicitly typed separate_character records with null preset_number. All 40 resolve through the explicit character_id bridge and their explorer presentation links back to canonical character Search. Captain Ginyu Presets 3/4 retain source body-configuration labels as unresolved identity presentation. No missing preset number is inferred.",
   "rules": [
     "Canonical character names remain authoritative.",
     "Presentation IDs resolve only through the explicit bridge.",
