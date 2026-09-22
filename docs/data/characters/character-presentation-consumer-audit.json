@@ -13,7 +13,7 @@
   "results": {
     "canonical_character_names": 149,
     "bridge_records": 29,
-    "preset_records": 45,
+    "preset_records": 40,
     "preset_distinct_character_ids": 17,
     "partner_key_records": 20,
     "partner_distinct_character_ids": 20,
@@ -26,7 +26,7 @@
     "status": "clean",
     "character_explorer": {
       "canonical_character_names": 149,
-      "preset_records": 45,
+      "preset_records": 40,
       "preset_distinct_character_ids": 17,
       "explicit_pq_reverse_targets": 75,
       "explicit_pq_reverse_references": 247,
@@ -65,7 +65,16 @@
         "goku-ss4",
         "piccolo-power-awakening",
         "orange-piccolo"
-      ]
+      ],
+      "validator_record_type_contract": {
+        "allowed_record_types": [
+          "preset",
+          "separate_character"
+        ],
+        "invalid_record_types": [],
+        "separate_character_records_must_have_null_preset_number": true,
+        "special_numbering_conflicts": []
+      }
     }
   },
   "evidence_boundary": "Identity/navigation parity is clean. The current producer layer contains 40 records: 35 numbered preset records and 5 explicitly typed separate_character records with null preset_number. All 40 resolve through the explicit character_id bridge and their explorer presentation links back to canonical character Search. Captain Ginyu Presets 3/4 retain source body-configuration labels as unresolved identity presentation. No missing preset number is inferred.",
