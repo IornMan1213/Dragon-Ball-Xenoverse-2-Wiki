@@ -65,27 +65,6 @@
       "reason": "Previous bridge endpoint accr-102 is not present in the current canonical accessory layer; no replacement identity is inferred."
     },
     {
-      "pq_record_id": "pqacc-029",
-      "name": "Android 17 (DB Super)'s Ranger Accessory",
-      "pq": 152,
-      "status": "unmatched",
-      "reason": "PQ152 reward evidence identifies the canonical inventory item as Android 17 (DB Super) Wig; Ranger Accessory is retained as a component/research alias rather than a duplicate item. Previous bridge endpoint accr-029 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-032",
-      "name": "Videl (DB Super) Wig",
-      "pq": 168,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-017 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-033",
-      "name": "Dr. Hedo Hood",
-      "pq": 159,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-033 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
       "pq_record_id": "pqacc-034",
       "name": "SS4 Goku (DAIMA) Wig & Tail",
       "pq": 179,
@@ -140,40 +119,13 @@
       "pq": 185,
       "status": "unmatched",
       "reason": "Previous bridge endpoint accr-026 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-042",
-      "name": "Android 17 (DB Super) Wig",
-      "pq": 152,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-029 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-043",
-      "name": "King Vegeta (DB Super) Wig",
-      "pq": 154,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-030 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-044",
-      "name": "Gamma 2's Helmet",
-      "pq": 155,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-031 is not present in the current canonical accessory layer; no replacement identity is inferred."
-    },
-    {
-      "pq_record_id": "pqacc-045",
-      "name": "Gamma 1's Helmet",
-      "pq": 156,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-032 is not present in the current canonical accessory layer; no replacement identity is inferred."
     }
   ],
   "current_external_evidence": [
     "The canonical accessory layer now contains exact identities for the eight previously unresolved early/base-game PQ records reconciled in the current batch.",
     "Legacy equipment endpoints for Dore's Scouter, Four-Star Dragon Ball Hat, Chiaotzu's Hat (With Collar), and SSGSS Goku Wig were normalized to new acc-### canonical identities rather than duplicated.",
-    "Historical source disagreements are retained rather than resolved by majority assumption."
+    "Historical source disagreements are retained rather than resolved by majority assumption.",
+    "Six additional canonical accessory identities were reconciled: Android 17 (DB Super) Wig, King Vegeta (DB Super) Wig, Gamma 2's Helmet, Gamma 1's Helmet, Dr. Hedo Hood, and Videl (DB Super) Wig. The Android 17 Ranger Accessory label is retained as a component alias of the canonical wig."
   ],
   "sources": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -184,10 +136,10 @@
   ],
   "summary": {
     "research_records": 45,
-    "canonical_accessory_records": 64,
-    "matched": 22,
-    "unresolved": 23,
-    "remapped_by_exact_name": 22
+    "canonical_accessory_records": 70,
+    "matched": 28,
+    "unresolved": 16,
+    "remapped_by_exact_name": 28
   },
   "notes": [
     "This file is derived from the canonical bridge and current accessory record layer.",
