@@ -1653,3 +1653,12 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Corrected stale current DLC count metadata (**88 → 86**) in the PQ cross-domain audit/status layers and replaced the superseded 862-edge live-baseline wording with the current 860-edge baseline.
 - Preserved older 862/840/88 counts as historical audit records; no canonical relationship identities were changed.
 - Validation: 0 duplicate relationship keys, 0 invalid PQ numbers, 0 empty targets, and 0 reverse projection endpoint mismatches; no successful Actions workflow was exposed for the direct commit chain.
+
+
+## 2026-09-22 — PQ reference/navigation reconciliation
+- Reconciled `docs/Parallel-Quests.md`, `docs/Parallel-Quest-Audit.md`, `docs/Parallel-Quest-Walkthrough.md`, `docs/Farming-Routes.md`, and `docs/Farming-Hub.md` with the canonical PQ relationship layer.
+- Replaced the reference pages' unqualified PQ23 Dragon Ball farming claim with the current canonical farming relationship set: **PQ15, PQ22, PQ44, PQ45, PQ68, PQ83, and PQ88**. Efficiency/ranking claims remain separate from canonical acquisition relationships.
+- Clarified that the canonical PQ record layer intentionally contains **186 numbered records**, while external/datemined research may preserve a PQ36 cut/numbering interpretation as historical provenance.
+- Updated `docs/data/parallel-quests-index.json` to distinguish the external PQ36 numbering conflict and expose the canonical farming PQ set without treating the seed index as canonical truth.
+- No canonical PQ relationship edges were added, removed, or renamed. Current relationship baseline remains **860 unique edges**: 244 skills / 151 Super Souls / 125 equipment / 247 characters / 86 DLC / 7 farming.
+- Validation: changed files re-read from `main`; canonical farming set present; stale PQ23 “canonical farming” wording removed from changed pages; no CI success claimed.
