@@ -1779,3 +1779,15 @@
 - [ ] Runtime/CI execution remains unavailable; no executable validation or CI success claimed.
 - [x] Commits: equipment explorer 57e99208126679d75ce516d87674942fe4f850dd; Super Soul explorer 7ee86028bbeeb31fae4da5a69c915c60f490242a; validator 0560e25e6a48545878bdfcd6436de251e85aa18c; audit fb4dd2249ed37fa0da4d8562c7adcbfee31100ce.
 - [ ] Exact next batch: return to the remaining P1 cross-domain acquisition projection gap, starting with the seven unresolved PQ41–186 Super Soul acquisition-index differences; recompute the live pair census first, then reconcile only source-backed missing pairs/variants while preserving the canonical relationship layer and unresolved spelling conflicts.
+
+
+### 2026-09-22 cycle update — Burst Rush provenance verification
+- [x] Fresh live skill census: **452 canonical / 452 index / 0 duplicate IDs**; bounded record: `skill-burst-rush`.
+- [x] Independent evidence: the dedicated Burst Rush reference identifies **Parallel Quest 51 — “Great Saiyaman is Here”** as the unlock; the maintained all-186-PQ Steam guide explicitly lists Burst Rush in PQ51's **Basic Reward**; an independent PQ51 gameplay record also lists Burst Rush as a Basic Reward. citeturn0search0turn0search3turn0youtube24
+- [x] Canonical/index provenance was refreshed to `last_verified: 2026-09-22`; the existing acquisition semantics were preserved. No skill identity, classification, acquisition endpoint, Ultimate Finish flag, or PQ relationship changed.
+- [x] Evidence boundary preserved: Basic Reward evidence does not establish a drop probability; no Ultimate Finish-only gate was inferred.
+- [x] Added `docs/data/skill-burst-rush-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Static validation after writes: **452/452** records, **0 duplicate IDs**, and exact semantic parity across canonical/index for the affected acquisition fields, verification date, and reward-tier flag.
+- [ ] Runtime/CI execution remains unavailable; no executable CI success claimed.
+- [x] Commits: canonical `c5c796f99e431e4860b6c51e06e4fe534adf8ad9`; index `447ed9657f552c0bdf2fdc92a9870d3ae7146e23`; audit `d66d5abdfd780450a8c3f12f8b5ea682ee82a869`; registry `e12cfe1cd4f9bc522903a676a532ac5cfc22e0b6`.
+- [ ] Exact next batch: continue the stale-`last_verified` P1 skill provenance queue with **Burst Stinger (`skill-burst-stinger`)**, recomputing the live canonical/index census first and preserving any reward-tier conflicts or evidence boundaries.
