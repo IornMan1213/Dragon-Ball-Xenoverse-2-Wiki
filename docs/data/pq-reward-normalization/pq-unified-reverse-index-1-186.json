@@ -153,9 +153,6 @@
     "Taunt": [
       45
     ],
-    "Chain Destructo-disc Barrage": [
-      46
-    ],
     "Do or Die": [
       49
     ],
@@ -286,9 +283,6 @@
     ],
     "Victory Rush": [
       89
-    ],
-    "III Bomber": [
-      90
     ],
     "Final Kamehameha": [
       91
@@ -632,9 +626,6 @@
     "Special Beam Cannon (Beast)": [
       162
     ],
-    "Giant Cluster": [
-      163
-    ],
     "Eraser Bomb": [
       163
     ],
@@ -733,6 +724,15 @@
     ],
     "Venus Fist": [
       186
+    ],
+    "Chain Destructo-Disc Barrage": [
+      46
+    ],
+    "Ill Bomber": [
+      90
+    ],
+    "Gigantic Cluster": [
+      163
     ]
   },
   "super_souls": {
@@ -1572,7 +1572,8 @@
     "2026-09-19: Final subtype audit removed legacy dual clothing/accessory placements where the normalized source explicitly classifies the item as an accessory. 122 forward equipment edges now have complete reverse coverage; subtype is only asserted where the source layer identifies it.",
     "2026-09-19: Added the nine explicitly listed PQ 12-14 reward relationships from the all-186 PQ guide. PQ 1 has no skill, Super Soul, or equipment reward in the source's Basic Reward list, so no typed relationship was fabricated.",
     "2026-09-22: Reconciled current_relationship_counts with the actual reverse-index arrays. Previous metadata overstated DLC references at 88; live index contains 86. Skill and Super Soul counts intentionally remain below canonical because this index is partial source-normalized coverage.",
-    "2026-09-22: Canonical-source-of-truth reconciliation completed for skills and Super Souls. The unified reverse index now deterministically projects all canonical pq_rewards_skill and pq_rewards_super_soul edges; alternate/partial normalized-source entries no longer override canonical names. Historical partial-coverage notes are retained as provenance history."
+    "2026-09-22: Canonical-source-of-truth reconciliation completed for skills and Super Souls. The unified reverse index now deterministically projects all canonical pq_rewards_skill and pq_rewards_super_soul edges; alternate/partial normalized-source entries no longer override canonical names. Historical partial-coverage notes are retained as provenance history.",
+    "2026-09-22: Corrected three deterministic canonical skill-name projection drifts: Chain Destructo-disc Barrage -> Chain Destructo-Disc Barrage, III Bomber -> Ill Bomber, and Giant Cluster -> Gigantic Cluster. PQ sets were preserved exactly; only reverse-index key spelling was canonicalized."
   ],
   "dlc": {
     "Conton City Vote Pack": [
