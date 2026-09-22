@@ -764,3 +764,16 @@
 - [ ] CI: no successful workflow/check exposed for this direct-commit chain; do not claim CI success.
 - [x] Commits: `f44a529b62365a119c2cdf9fafb8392c0ad150ad`, `f2e0037debeb41641eb2d5d4d470c2df5f1c54f8`, `ae5263017321665d7ca1dd63c689530b73f21d3c`.
 - [ ] Exact next batch: extend canonical presentation auditing to the character-facing PQ navigation and the broader PQ page/index consumers, specifically identifying any legacy display-only names or orphan character endpoints before adding new content coverage.
+
+
+### 2026-09-22 cycle update — canonical character reverse navigation
+- Live census before editing: canonical PQ relationship layer **860 unique edges = 244 skills / 151 Super Souls / 125 equipment / 247 characters / 86 DLC / 7 farming**; character relationship subset **247 edges / 75 unique targets / 143 PQs**; canonical character layer **149 records**.
+- Bounded batch: extend canonical-identity-first presentation auditing to the character-facing PQ navigation and page/index consumers, as required by the previous cycle.
+- Evidence used: `docs/data/pq-reward-relationships.json` as the canonical relationship source; `docs/data/characters-record-layer.json` as the canonical character name/identity layer; existing `pq-cross-domain-audit.json` target-normalization record for the five documented display/source aliases.
+- Changes: added `docs/data/characters/pq-reverse-index.json` with **75 canonical character targets / 247 reverse entries / 143 source PQs**; added `docs/data/pq-character-reverse-navigation-audit.json`; added `scripts/validate_pq_character_reverse_index.py`; registered the reverse index, audit, and validator in `docs/data/pq-cross-domain-index.json`.
+- Deterministic validation: **75/75 character relationship targets resolve exactly to the canonical character name layer; 0 missing targets; 0 orphan reverse targets; 0 duplicate forward pairs; 247/247 forward pairs represented in reverse navigation; 5 documented aliases retained as presentation metadata only**.
+- Identity boundary preserved: the live character layer exposes canonical names rather than stable character IDs, so no character IDs were invented. Generic enemy appearances and inferred roster presence were not converted into relationships.
+- Canonical-source-of-truth rule preserved: reverse/index/audit layers are projections and never override `docs/data/pq-reward-relationships.json`.
+- Validation note: GitHub API inspection confirmed the changed files and deterministic counts; local repository execution was unavailable because the runtime could not resolve github.com, so no CI/build success is claimed.
+- Commits: `be9fe89c79747a121f915487411f5699fb0ae6e2`, `96cb7ce6f17a5c835ac875efc94f6c0cee7c1cbe`, `24790e65ff0f731074a772c47ebaa94ca9083ad8`, `ce2db43e5dfab73427ca254725f5ae18ddbfa05c`.
+- Exact next batch: audit the **broader PQ page/index consumers** against the canonical relationship layer, prioritizing direct PQ pages and any character/skill/Super Soul/equipment/DLC presentation indexes that still expose display-only names or one-way navigation. Do not add new relationship edges; record unresolved page targets explicitly and preserve all aliases/history.
