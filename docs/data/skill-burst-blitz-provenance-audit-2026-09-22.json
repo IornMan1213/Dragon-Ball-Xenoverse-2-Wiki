@@ -24,5 +24,11 @@
   "evidence_boundaries": [
     "Current dedicated skill documentation does not establish a 50% drop probability.",
     "Basic Reward versus explicit UF bonus-slot representations remain unresolved."
-  ]
+  ],
+  "validation": {
+    "canonical_count": 452,
+    "index_count": 452,
+    "duplicate_ids": 0,
+    "affected_semantic_parity": true
+  }
 }
