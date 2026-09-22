@@ -6671,7 +6671,7 @@ The repository owner has clarified the continuation contract:
 - Workstream: **P1 skill acquisition/source provenance cleanup**.
 - Live pre-batch census: **46 exactly-two-source records**.
 - Bounded batch completed: **Fighting Pose E (`skill-fighting-pose-e`)**.
-- Evidence: an independent PQ19 gameplay listing identifies Fighting Pose E as a Basic Reward, corroborating the existing PQ19 acquisition and reward-tier semantics. citeturn0youtube12turn0search1
+- Evidence: an independent PQ19 gameplay listing identifies Fighting Pose E as a Basic Reward, corroborating the existing PQ19 acquisition and reward-tier semantics.
 - Changes: added the independent source to `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21**.
 - Evidence limits: no exact drop probability or Ultimate Finish requirement was inferred.
 - Validation: **452/452 records, 0 duplicate IDs, 0 nullable `ki_cost`, 45 exactly-two-source records**, with canonical/index source parity for the changed record.
