@@ -6849,3 +6849,14 @@ The repository owner has clarified the continuation contract:
 - Commits: `3deda3cca481298f288324c77426f55aa918b942` (canonical skills), `c47febf18777f789c1c49990a9cbccf191383cdd` (index synchronization).
 - Live census after editing: **452 / 452 / 0 duplicates / 0 nullable canonical ki_cost / 31 exactly-two-source records**.
 - Exact next batch: **Instant Charge (`skill-instant-charge`)**. Recompute the live two-source census first; inspect whether an independent source can corroborate the character-exclusive/Mira acquisition boundary without broadening it to generic Super Attack categorization.
+
+
+### 2026-09-21 cycle update — Instant Charge provenance
+- Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 31 exactly-two-source canonical records**.
+- Bounded batch: **Instant Charge (`skill-instant-charge`)**.
+- Evidence: current skill documentation describes Instant Charge as exclusively used by Mira (Final Form); Dragon Ball Wiki's Mira reference independently identifies Instant Charge as one of Final Form Mira's techniques. This corroborates character-exclusive scope without establishing a CaC acquisition route. citeturn0search0turn0search4
+- Changes: added the Dragon Ball Wiki Mira reference as a third provenance source to canonical/index records; refreshed `last_verified` to 2026-09-21. No CaC usability, race restriction, or acquisition semantics were broadened.
+- Validation: **452 / 452 / 0 duplicate IDs / 0 nullable canonical ki_cost / 30 exactly-two-source records**; target now has 3 sources.
+- CI: no success claim without exposed workflow/check.
+- Commits: `da159118f0f94959590949dac9d53d0051981b7b` (canonical), `5c409c7824afb3750adc465a0e75d46f65211746` (index).
+- Exact next batch: **Instant Transmission (`skill-instant-transmission`)**. Recompute the live two-source census first and verify its Goku mentor Lesson 1 acquisition boundary with an independent source before strengthening provenance.
