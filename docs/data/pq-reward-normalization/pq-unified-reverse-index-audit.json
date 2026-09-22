@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "1.2.0",
   "scope": "PQ 1-186 unified reverse-index canonical projection",
   "date": "2026-09-22",
   "source_of_truth": "docs/data/pq-reward-relationships.json",
@@ -64,7 +64,7 @@
     "duplicate_relationship_keys": 0,
     "invalid_pq_numbers": 0
   },
-  "next_action": "Continue to the next registered cross-domain presentation consumer after preserving standalone source-layer drift as informational.",
+  "next_action": "Continue auditing the next registered cross-domain presentation consumer for stale scalar/list assumptions or one-way canonical navigation.",
   "live_exact_reconciliation": {
     "source_of_truth": "docs/data/pq-reward-relationships.json",
     "canonical_pairs": {
@@ -126,7 +126,19 @@
       "missing": 0,
       "extra": 0,
       "duplicate_pairs": 0
+    },
+    "projection_list_field_contract": {
+      "all_domains_use_lists": true,
+      "invalid_list_fields": 0,
+      "duplicate_projection_pairs": 0
+    },
+    "canonical_projection_parity": {
+      "canonical_pairs": 860,
+      "projection_pairs": 860,
+      "missing": 0,
+      "extra": 0,
+      "duplicate_pairs": 0
     }
   },
-  "validator_commit": "5cd22060600e245262eb87ee993c1d34bc7ee009"
+  "validator_commit": "df07a0cb046f38a6e5ee5973b82c203ae76a79c9"
 }
