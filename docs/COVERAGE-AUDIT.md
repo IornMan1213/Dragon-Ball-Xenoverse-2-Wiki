@@ -1163,3 +1163,10 @@
 - Strengthened **Final Flash (Super) (`skill-final-flash-super`)** from two to three sources using the Dragon Ball Wiki Final Flash entry, which independently documents the Xenoverse 2 Ultra Pack 1 SSGSS (Evolved) Vegeta-exclusive Super Skill variant.
 - Existing character-only/non-CaC semantics were preserved; no reward or acquisition route was inferred.
 - Post-write target: **40 exactly-two-source records**.
+
+
+## 2026-09-21 — Full Power Charge low-source provenance strengthening
+- Live pre-edit census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 40 exactly-two-source records**.
+- Strengthened **Full Power Charge (`skill-full-power-charge`)** from two to three sources using an independent Advancement Test page that lists Full Power Charge as a Basic Reward of Advancement Test - Advanced Class in Xenoverse 2.
+- Existing acquisition endpoint was preserved; no Ultimate Finish requirement was inferred.
+- Post-write target: **39 exactly-two-source records**.
