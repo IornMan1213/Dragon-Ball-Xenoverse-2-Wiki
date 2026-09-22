@@ -1228,3 +1228,11 @@
 - Preserved the existing PQ19 acquisition, Basic Reward classification, 0-Ki semantics, and `ultimate_finish_required: false`; no unsupported drop probability was inferred.
 - Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index records.
 - Post-write live target: **45 exactly-two-source records**.
+
+
+## 2026-09-21 — Fighting Pose H low-source provenance strengthening
+- Recomputed the live low-source census before editing: **45 exactly-two-source records**.
+- Strengthened **Fighting Pose H** from two to three sources with Yhan Game's Xenoverse 2 Parallel Quest guide, independently listing Fighting Pose H as a **Basic Reward for PQ61 — The Cell Games Continued**.
+- Preserved the existing PQ61 acquisition, Basic Reward, 0-Ki, CaC, and 20-second duration semantics; no unsupported drop probability or Ultimate Finish gate was inferred.
+- Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index source projections.
+- Post-write live target: **44 exactly-two-source records**.
