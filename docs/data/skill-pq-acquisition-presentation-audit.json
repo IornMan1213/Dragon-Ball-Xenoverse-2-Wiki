@@ -1,5 +1,5 @@
 {
-  "audit_version": "1.0",
+  "audit_version": "1.1",
   "date": "2026-09-22",
   "scope": "PQ-facing skill acquisition summary consumers",
   "canonical_authority": "docs/data/pq-reward-relationships.json",
@@ -291,6 +291,9 @@
     "missing_reverse_pairs": [],
     "extra_reverse_pairs": [],
     "unresolved_canonical_targets": [],
-    "duplicate_reverse_pairs": []
+    "duplicate_reverse_pairs": [],
+    "validator_commit": "810b923f691ba80e35821910e028f85827506700",
+    "canonical_duplicate_pairs": 0,
+    "canonical_relationship_pairs_unique": true
   }
 }
