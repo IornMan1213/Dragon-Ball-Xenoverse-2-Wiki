@@ -6946,3 +6946,16 @@ The repository owner has clarified the continuation contract:
 - Commits: canonical/index commits recorded immediately above; handoff commit pending.
 - Live census after editing: **23 exactly-two-source records**.
 - Exact next batch: **Meteor Crash (`skill-meteor-crash`)**; recompute the live census first, then independently verify its acquisition endpoint and strengthen provenance only where the evidence threshold is met.
+
+
+### 2026-09-21 cycle update — Meteor Crash provenance strengthening
+- Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 24 exactly-two-source canonical records**.
+- Bounded batch: **Meteor Crash (`skill-meteor-crash`)**.
+- Research/evidence: the maintained Steam all-186 Parallel Quest guide independently lists **Meteor Crash** as a **PQ12 — Simian Battlefront Basic Reward**; a separate Steam discussion also identifies PQ12 as the acquisition quest.
+- Changes: added the maintained Steam all-186 PQ guide as a third provenance source to Meteor Crash in both `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21** and recorded the corroboration in notes.
+- Evidence limits/conflicts preserved: the evidence corroborates the PQ12/basic-reward relationship but does not establish a reliable numeric drop probability or additional Ultimate Finish requirement, so neither was added.
+- Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 23 exactly-two-source records**; canonical/index source and verification parity is clean; no internal AI/UI/search citation artifacts detected.
+- CI: workflow status was not exposed during this bounded pass; no CI success is claimed and validators were not changed.
+- Commits: canonical/index commits recorded immediately above; handoff commit pending.
+- Live census after editing: **23 exactly-two-source records**.
+- Exact next batch: **Mystic Flash (`skill-mystic-flash`)**; recompute the live census first, then independently verify its acquisition endpoint and strengthen provenance only where the evidence threshold is met.
