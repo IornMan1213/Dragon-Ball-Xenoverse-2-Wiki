@@ -1018,7 +1018,8 @@
       "source_parallel_quests": [
         167
       ],
-      "character_source": "Videl"
+      "character_source": "Videl",
+      "ki_cost": 100
     },
     {
       "id": "skill-burst-blitz",
