@@ -45,8 +45,12 @@ def main():
     future_chapters=sorted(c.get("chapter") for c in future if c.get("chapter") is not None)
     pq=load(PQ)
     reverse=load(DLC_REVERSE)
+    target_to_id={r.get("name"):r.get("id") for r in records if r.get("name") and r.get("id")}
     reverse_audit=load(DLC_REVERSE_AUDIT)
-    forward_pairs={(e.get("pq"),e.get("target")) for e in pq.get("verified_relationships",[]) if e.get("relationship")=="pq_requires_dlc"}
+    forward_name_pairs=[(e.get("pq"),e.get("target")) for e in pq.get("verified_relationships",[]) if e.get("relationship")=="pq_requires_dlc"]
+    forward_pairs={(pq_id,target_to_id.get(name)) for pq_id,name in forward_name_pairs}
+    unresolved_pq_dlc_targets=[{"pq":pq_id,"target":name} for pq_id,name in forward_name_pairs if name not in target_to_id]
+    duplicate_forward_pairs=len(forward_name_pairs)-len(set(forward_name_pairs))
     reverse_pair_list=[]
     malformed_reverse_pq_fields=[]
     duplicate_reverse_dlc_ids=[]
@@ -81,6 +85,8 @@ def main():
         "future_saga_dlc_fields_are_strings":not malformed_future_dlc_fields,
         "dlc_overview_links_present":not overview_missing,
         "canonical_pq_dlc_edges_are_86":len(forward_pairs)==86,
+        "canonical_pq_dlc_targets_resolve_to_ids":not unresolved_pq_dlc_targets,
+        "canonical_pq_dlc_pairs_unique":duplicate_forward_pairs==0,
         "dlc_reverse_index_exact_pair_parity":forward_pairs==reverse_pairs,
         "dlc_reverse_pq_fields_are_lists":not malformed_reverse_pq_fields,
         "dlc_reverse_pairs_unique":len(reverse_pair_list)==len(reverse_pairs),
@@ -101,6 +107,8 @@ def main():
             "future_saga_chapters":len(future),
             "future_saga_dlc_references":len(future_ids),
             "canonical_pq_dlc_edges":len(forward_pairs),
+            "unresolved_pq_dlc_targets":unresolved_pq_dlc_targets,
+            "duplicate_forward_pairs":duplicate_forward_pairs,
             "dlc_reverse_pairs":len(reverse_pairs),
             "dlc_reverse_pair_missing":len(forward_pairs-reverse_pairs),
             "dlc_reverse_pair_extra":len(reverse_pairs-forward_pairs),
