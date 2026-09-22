@@ -1935,3 +1935,14 @@
 - [ ] Runtime/CI remains unavailable; validation was static direct-fetch JSON parsing and exact pair comparison.
 - [x] Commits: acquisition projection `6ff4b3eb2e39cd413917ad46e527d36e19727802`; reconciliation audit `52f0fc86d78277fa4648edebcca26975a8506bf0`.
 - [ ] Exact next batch: independently reconcile the **two PQ158 Super Soul pairs**, preserving the existing source spelling conflict, then PQ174/PQ178/PQ179.
+
+
+### 2026-09-22 cycle update — Super Soul acquisition reconciliation final five exact gaps
+- [x] Fresh live census before editing: **151 canonical PQ→Super Soul relationships**; the partial PQ41–186 acquisition projection had **128 structured pairs / 7 reconciliation findings** before this batch.
+- [x] Bounded batch: reconciled the final five exact canonical gaps: **PQ158** → `Heh heh! I'm not as rusty as I look!` and `See? It's a good thing I was here, right?`; **PQ174** → `I'll surpass you as I am, with my OWN power!`; **PQ178** → `I'll take you all on at once!`; **PQ179** → `Here I go!`.
+- [x] Evidence: maintained Super Soul/PQ references corroborate the five acquisitions; independent GameFAQs documentation also corroborates the Future Saga Super Soul acquisition context. citeturn6search0turn2search1
+- [x] Preserved source-layer wording conflicts for PQ158 and PQ178 explicitly; the structured projection uses canonical names instead of treating variants as separate identities.
+- [x] Post-write validation: **133 canonical PQ41–186 pairs / 131 indexed pairs / 131 exact overlap / 0 exact missing / 2 capitalization variants** (PQ164/PQ173); **83 unique PQ records / 131 unique structured pairs / 0 duplicates**.
+- [x] Updated `docs/data/super-souls/pq-acquisition-index-041-186.json` and `docs/data/super-souls/pq-acquisition-index-reconciliation-audit.json`; no canonical relationship identity was added, removed, or renamed.
+- [ ] Runtime/CI execution remains unavailable; validation is static JSON parsing and exact pair/census comparison only.
+- [ ] Exact next batch: audit the two remaining capitalization variants (**PQ164** and **PQ173**) against an independent exact-text source; if no stronger evidence resolves them, preserve them as presentation/source-normalization differences and move to the next structural cross-domain gap.
