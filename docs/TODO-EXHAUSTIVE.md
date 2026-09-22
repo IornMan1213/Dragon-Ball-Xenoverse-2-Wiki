@@ -92,3 +92,10 @@
 - [x] Preserved unresolved reward/drop semantics and unsupported mechanics rather than inferring them.
 - [x] Revalidated canonical equipment count and PQ→equipment endpoint parity: 169 records, 0 duplicate IDs, 124 forward, 122 reverse, 0 unresolved, 0 broken endpoints.
 - [ ] Exact next task: enrich **`equip-041`–`equip-050`** using the same evidence-boundary rules.
+
+### 2026-09-22 — Equipment provenance batch `equip-041`–`equip-050`
+- [x] Added independent provenance to `equip-041` through `equip-050`.
+- [x] Classified the 10 records as equipment/accessory from independent item documentation.
+- [x] Reconciled DLC provenance: `041–044` Ultra Pack 1/PQ133/135; `045–048` Ultra Pack 2/PQ139/142; `049–050` Legendary Pack 1/PQ144.
+- [x] Revalidated canonical equipment count and PQ→equipment endpoint parity: 169 records, 0 duplicate IDs, 124 forward, 122 reverse, 0 unresolved, 0 broken endpoints.
+- [ ] Exact next task: enrich **`equip-051`–`equip-060`** using the same canonical-source-of-truth and evidence-boundary rules.
