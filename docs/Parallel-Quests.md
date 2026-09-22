@@ -26,7 +26,7 @@ Selected and organized from the full list for usefulness (farming, key skills, p
 | 83 | Dangerous Duo! Warriors Never Rest | 7 | Canonical farming relationship; also a community route for Dragon Ball collection and Quest Tour rewards |
 | 88 | Evil Seeks Dragon Balls Yet Again! | — | Canonical farming relationship for Dragon Ball collection |
 | 4 | Prepare for the Attack of Saiyans! | 1 | Early clear |
-| 13 / 15 / 22 / 68 | Additional Dragon Ball-related routes | — | Included in the canonical farming relationship layer; verify the specific route mechanics in the live quest record |
+| 15 / 22 / 44 / 45 / 68 / 83 / 88 | Dragon Ball farming routes | — | Complete current canonical farming relationship set; verify specific route mechanics in the live quest record |
 
 ### Notable Skill & Equipment Sources (Base Game Examples)
 | # | Name | Examples of Notable Rewards |
