@@ -3662,7 +3662,7 @@
       ],
       "unlock_method": "Parallel Quest 19 — \"Fierce Battle! Ginyu Force\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 verification: current skill references identify Parallel Quest 19 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 low-source provenance strengthening: a gameplay listing for PQ19 independently identifies Fighting Pose E as a Basic Reward, corroborating the existing PQ19 acquisition and reward-tier semantics.",
       "mechanics_notes": "Confirmed as 0-Ki PQ19 Power Up Super. The pose temporarily increases Basic Attack for 20 seconds; it is usable by CaCs. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
