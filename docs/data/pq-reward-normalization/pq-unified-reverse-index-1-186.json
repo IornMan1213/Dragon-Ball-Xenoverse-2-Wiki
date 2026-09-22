@@ -1185,9 +1185,6 @@
     ]
   },
   "clothing": {
-    "Flying Nimbus!!": [
-      2
-    ],
     "Goku's Damaged Turtle Hermit Gi": [
       2
     ],
@@ -1220,9 +1217,6 @@
     "Piccolo's School Clothes": [
       49
     ],
-    "Mr. Shape Up M": [
-      50
-    ],
     "Vegito's Clothes": [
       59
     ],
@@ -1234,9 +1228,6 @@
     ],
     "Gohan's Gi (Adult)": [
       65
-    ],
-    "Whis Symbol Gi": [
-      66
     ],
     "Vegeta's Shirt": [
       79
@@ -1441,6 +1432,9 @@
     ],
     "Goku's Turtle Hermit Gi (Go)": [
       14
+    ],
+    "Whis Symbol Gi": [
+      76
     ]
   },
   "accessories": {
@@ -1557,6 +1551,12 @@
     ],
     "Piccolo's Turban": [
       3
+    ],
+    "Android 17 (DB Super) Wig": [
+      152
+    ],
+    "Gamma 2's Helmet": [
+      155
     ]
   },
   "coverage_notes": [
