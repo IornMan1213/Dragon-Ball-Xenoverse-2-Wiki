@@ -27,6 +27,7 @@ description: Canonical local skill catalog with research status and acquisition 
   const url='{{ "/data/skills.json" | relative_url }}', $=id=>document.getElementById(id);
   const esc=v=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
   const searchUrl=v=>'{{ "/Search/" | relative_url }}?q='+encodeURIComponent(v);
+  const initialQuery=new URLSearchParams(location.search).get('q')||'';
   let records=[];
   function render(){
     const q=$('skill-search').value.trim().toLowerCase(), cls=$('skill-class').value, el=$('skill-element').value, st=$('skill-status-filter').value;
@@ -34,7 +35,7 @@ description: Canonical local skill catalog with research status and acquisition 
     $('skill-stats').innerHTML='<span class="skill-stat"><strong>'+records.length.toLocaleString()+'</strong> canonical skills</span><span class="skill-stat"><strong>'+shown.length.toLocaleString()+'</strong> shown</span>';
     $('skill-grid').innerHTML=shown.length?shown.map(s=>'<article class="skill-card"><div class="skill-meta"><span class="skill-pill">'+esc(s.class||'')+'</span><span class="skill-pill">'+esc(s.subcategory||'')+'</span><span class="skill-pill">'+esc(s.verification_status||'indexed')+'</span></div><h3>'+esc(s.name)+'</h3><div class="skill-description">'+esc(s.skill_description||s.summary||s.mechanics||s.mechanics_notes||'Detailed effect information is still being independently verified.')+'</div><div class="skill-details">'+esc([s.ki_cost!=null?'Ki '+s.ki_cost:'',s.stamina_cost!=null?'Stamina '+s.stamina_cost:'',s.race_restriction?'Restriction: '+s.race_restriction:'',s.source_quest_or_shop?'Source: '+s.source_quest_or_shop:'',s.dlc_requirement?'DLC: '+s.dlc_requirement:''].filter(Boolean).join(' • '))+'</div><div class="skill-source"><a href="'+esc(searchUrl(s.name))+'">Open local wiki search ↗</a></div></article>').join(''):'<div class="skill-empty">No skills match your filters.</div>';
   }
-  try{const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw new Error('Canonical skill database returned '+r.status);const d=await r.json();records=(d.records||[]).sort((a,b)=>String(a.name).localeCompare(String(b.name)));$('skill-status').textContent='Canonical local database loaded';render()}catch(e){$('skill-status').textContent='Catalog unavailable';$('skill-grid').innerHTML='<div class="skill-empty">'+esc(e.message)+'</div>'}
+  try{if(initialQuery&&!$('skill-search').value)$('skill-search').value=initialQuery;const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw new Error('Canonical skill database returned '+r.status);const d=await r.json();records=(d.records||[]).sort((a,b)=>String(a.name).localeCompare(String(b.name)));$('skill-status').textContent='Canonical local database loaded';render()}catch(e){$('skill-status').textContent='Catalog unavailable';$('skill-grid').innerHTML='<div class="skill-empty">'+esc(e.message)+'</div>'}
   ['skill-search','skill-class','skill-element','skill-status-filter'].forEach(id=>$(id).addEventListener(id==='skill-search'?'input':'change',render));
 })();
 </script>
