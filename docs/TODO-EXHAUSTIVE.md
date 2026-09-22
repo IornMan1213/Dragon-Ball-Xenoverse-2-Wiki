@@ -552,3 +552,12 @@
 - [x] Repaired `docs/Awoken-All.html` to use canonical local `docs/data/skills.json` and explicit Awoken/Transformation classification only.
 - [x] Expanded `scripts/validate_pq_page_consumers.py` to cover PQ, Skills, and Awoken consumer source-of-truth contracts.
 - [ ] Continue searching for remaining direct external catalog consumers and audit character/DLC presentation indexes.
+
+
+### 2026-09-22 — DLC navigation reconciliation
+- [x] Confirmed the existing standalone canonical DLC identity layer contains exactly the 20 existing canonical PQ DLC targets.
+- [x] Reconciled DLC reverse navigation: 86 canonical edges represented across 20 targets, with 0 missing/orphan reverse targets.
+- [x] Corrected stale DLC validator documentation.
+- [x] Added explicit canonical DLC identity/reverse-index/audit links to `docs/DLC-Overview.md`.
+- [x] Preserved canonical relationship count at 860; no new edges were inferred.
+- [ ] Continue auditing character/DLC presentation consumers and structured links for deterministic resolution.
