@@ -503,3 +503,12 @@
 - Artifact scan: no new internal citation/UI/search artifacts were introduced by this cycle. Historical internal citation markers remain in older handoff entries and are preserved under the append-only handoff rule; they remain a separate cleanup queue item.
 - Cycle commits: canonical relationship **cc620f0f46df7b02fca05e72c78939fc1ec5b124**; reverse normalization **25e38ddfe2be704082f6bcfd9527cad6f66960a7**; cross-domain audit **87ceebdaa770beb1cad07f8cf3ae8301a842de18**; status **aac63b6e52999f0544e42a56ce732efe5c52fbd7**; producer census **bca13be4bae8e5fadcf2cc945c4f450c6f314ded**; coverage **91a5836d8cad785d9b153d086d0f80c2a286e6b9**; changelog **bf963effbcb1e3d7b1866795d4ff5ba3d51e0425**; TODO **866b8aa6ec60ce762ff8fd7c2bcf2095353d7c2e**; handoff **99c5b8dc30127e9b66e851e5e365717d5eedcc9a**.
 - Exact next batch: **recompute the full repository relationship/projection census from the corrected 860-edge canonical relationship array**, then repair any remaining deterministic producer/projection drift before new provenance research.
+
+
+### 2026-09-22 cycle update — current projection census correction
+- Recomputed the repository-wide PQ projection census from the corrected 860-edge canonical relationship array.
+- Deterministic stale fields were found in the cross-domain audit/status artifacts: older endpoint-census and final-consistency objects still used the pre-duplicate-merge 862-edge baseline. Historical 862/840 records were preserved; only current-state projection fields were corrected.
+- Current canonical counts: 860 total = 244 skill + 151 Super Soul + 125 equipment + 247 character + 86 DLC + 7 farming.
+- Current reverse projection endpoints: 239 skills / 148 Super Souls / 123 equipment / 28 accessories; 0 missing / 0 orphan / 0 PQ-set mismatches. DLC: 86 forward edges / 20 unique reverse endpoints, exact parity.
+- No canonical relationship identities were changed in this batch; this was deterministic producer/projection metadata repair only.
+- Exact next batch: scan remaining non-PQ relationship producers and generated projection metadata for current-count drift, then repair only deterministic mismatches before expanding provenance research.
