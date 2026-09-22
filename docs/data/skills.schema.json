@@ -235,6 +235,14 @@
     "id": {
       "type": "string",
       "pattern": "^skill-[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "source_parallel_quests": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Canonical cross-domain PQ identifiers associated with this skill. This field records relationships already established by canonical PQ/skill data and does not encode reward trigger, guarantee, or Ultimate Finish semantics."
     }
   },
   "allOf": [
