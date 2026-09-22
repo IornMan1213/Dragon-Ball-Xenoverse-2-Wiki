@@ -1305,3 +1305,16 @@
 - IDs `074` and `080` remain represented by existing canonical accessory identities; duplicate creation was intentionally avoided.
 - Validation remains clean: 169 canonical equipment records, 0 duplicate IDs; PQ→equipment 124 forward / 122 reverse / 0 unresolved / 0 broken endpoints.
 - Next exact batch: **`equip-081`–`equip-090`**.
+
+## 2026-09-22 — Equipment provenance/classification batch equip-081–equip-090
+
+- Recomputed the live canonical equipment/accessory layer before editing: **169 canonical records**.
+- Enriched the bounded range with independent evidence: equip-081 Four-Star Dragon Ball Hat (headwear/accessory, base game, PQ5, cosmetic); equip-082 Goku's Turtle Hermit Gi (King Kai) (clothing, base game, PQ8, stat spread corroborated); equip-083 Chiaotzu's Hat (With Collar) (headwear/accessory, base game, PQ9 plus reported Accessory Shop route); equip-084 Piccolo's School Clothes (clothing, base game, PQ49 plus Clothing Shop, stat spread and no-Hands component corroborated); equip-086 Battle Suit (CC) (clothing, base game, PQ61, stat spread corroborated); equip-087 Frieza's Suit (Final Form) (clothing, base game, PQ62, stat spread corroborated); equip-089 Gohan's Gi (Adult) (clothing, base game, PQ65, stat spread corroborated); equip-090 Whis Symbol Gi (clothing, base game, acquisition corrected from the prior PQ66 endpoint to **PQ76** after independent corroboration, stat spread corroborated).
+- equip-088 remains a historical normalized endpoint to canonical accessory acc-012 Goku Wig (Super Saiyan) rather than a duplicate canonical identity. Conflicting PQ18/PQ63 evidence is preserved on acc-012.
+- equip-085 Mr. Shape Up M was removed from the canonical equipment/accessory layer because independent evidence identifies it as a consumable capsule/material, not equipment. The PQ reward remains source-backed and must be represented in the appropriate item/reward layer rather than as an equipment endpoint.
+- Canonical equipment count after the edit: **168**.
+- Canonical-source-of-truth rule preserved: verification/projection layers do not override canonical identities.
+- Independent evidence used: maintained Steam PQ guide; Fandom equipment catalog; Scribd equipment guide; XVGuide clothing list; GameFAQs; Steam discussion; Dragon Ball Wiki.
+- Files changed in this cycle: canonical equipment/accessory record layer and equipment projection layer.
+- Relationship report synchronization remains required: remove the equip-085 PQ50 edge and move the equip-090 edge from PQ66 to PQ76. This is the exact remaining generated-artifact repair for this batch.
+- Exact next batch after relationship repair: recompute the full PQ↔equipment/Super Soul/skill cross-database census and repair any deterministic endpoint/count drift before starting another provenance-only equipment range.
