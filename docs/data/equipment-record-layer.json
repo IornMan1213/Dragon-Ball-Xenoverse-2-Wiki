@@ -1898,9 +1898,13 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage independently checked against the maintained Xenoverse 2 equipment catalog; acquisition remains PQ-backed and no reward probability or unsupported condition was inferred.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
@@ -1915,9 +1919,16 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage independently checked against the maintained Xenoverse 2 equipment catalog; acquisition remains PQ-backed and no reward probability or unsupported condition was inferred.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
@@ -1932,9 +1943,13 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage independently checked against the maintained Xenoverse 2 equipment catalog; acquisition remains PQ-backed and no reward probability or unsupported condition was inferred.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
@@ -1949,9 +1964,15 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage independently checked against the maintained Xenoverse 2 equipment catalog; acquisition remains PQ-backed and no reward probability or unsupported condition was inferred.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "feet"
       ]
     },
     {
@@ -1966,9 +1987,16 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage independently checked against the maintained Xenoverse 2 equipment catalog; acquisition remains PQ-backed and no reward probability or unsupported condition was inferred.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
@@ -1983,9 +2011,16 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage independently checked against the maintained Xenoverse 2 equipment catalog; acquisition remains PQ-backed and no reward probability or unsupported condition was inferred.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
@@ -2017,9 +2052,16 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category/slot coverage independently checked against the maintained Xenoverse 2 equipment catalog; acquisition remains PQ-backed and no reward probability or unsupported condition was inferred.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
@@ -2034,9 +2076,16 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical acquisition corrected from PQ66 to PQ76 after independent corroboration. Exact reward-slot semantics remain unresolved.",
+      "notes": "Canonical acquisition corrected from PQ66 to PQ76 after independent corroboration. Exact reward-slot semantics remain unresolved. Detail enrichment: category/slot coverage independently checked against the maintained Xenoverse 2 equipment catalog; acquisition remains PQ-backed and no reward probability or unsupported condition was inferred.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Whis_Symbol_Gi"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
