@@ -335,3 +335,14 @@
 - Current generated-artifact queue: regenerate `docs/data/pq-equipment-crosslink-report.json` to remove `equip-085` and move `equip-090` to PQ76; then recompute the wider PQ reward cross-database census.
 - CI limitation remains unchanged: no successful Actions result is claimed unless GitHub exposes an actual successful workflow/check.
 - Exact next batch: **PQ equipment relationship regeneration and full cross-database endpoint census**, prioritizing deterministic endpoint/count drift before further provenance-only enrichment.
+
+### 2026-09-22 live-state refresh — PQ reward relationship synchronization
+- Latest structural commit before this handoff update: **d2ee2e938d5cc82b44ec82bcdb8200225cd1b927**.
+- Canonical counts remain: **452 skills / 186 PQs / 234 Super Souls / 168 equipment-accessory records**.
+- Regenerated the PQ→equipment relationship report from canonical equipment data. Current report: **123 forward edges / 121 reverse targets / 0 unresolved / 0 broken endpoints**.
+- Removed stale `equip-085` → PQ50 and corrected `equip-090` → **PQ76**.
+- Rebuilt the equipment reverse index from forward edges instead of hand-editing both directions independently.
+- Cross-domain generated-report census: **skills 244/239, Super Souls 140/137, equipment 123/121, accessories 42 reverse endpoints**.
+- Canonical source-of-truth rule remains active: canonical records determine identity; verification is evidence metadata only.
+- Exact next structural task: reconcile `docs/data/pq-reward-relationships.json` against the skill, Super Soul, equipment, and accessory reports plus canonical PQ reward fields, looking specifically for deterministic omissions/stale endpoints.
+- Do not begin another bounded provenance-only equipment range until that deterministic cross-domain reconciliation is complete unless a higher-priority integrity defect is discovered.
