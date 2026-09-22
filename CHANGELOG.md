@@ -1498,3 +1498,10 @@
 - Preserved unsupported reward/drop semantics and mechanics as unresolved.
 - PQ→equipment parity remains clean: 124 forward / 122 reverse / 0 unresolved / 0 broken endpoints.
 - Next batch: `equip-051`–`equip-060`.
+
+## 2026-09-22 — Equipment provenance batch `equip-051`–`equip-060`
+- Added independent equipment-catalog provenance and canonical classification to 10 equipment/accessory records.
+- Reconciled DLC provenance across Legendary Pack 1, Legendary Pack 2, and Conton City Vote Pack.
+- Preserved unsupported reward/drop semantics and mechanics.
+- PQ→equipment parity remains 124 forward / 122 reverse / 0 unresolved / 0 broken endpoints.
+- Next batch: `equip-061`–`equip-070`.
