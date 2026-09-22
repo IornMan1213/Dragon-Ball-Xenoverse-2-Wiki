@@ -10,13 +10,22 @@ def main():
     canonical={}
     for e in rel:
         if e.get("relationship")=="pq_rewards_skill":
-            canonical.setdefault(e["target"],set()).add(int(str(e["pq"]).replace("pq-","")))
+            pq=int(str(e["pq"]).replace("pq-",""))
+            canonical.setdefault(e["target"],set()).add(pq)
+            canonical_pairs.add((e["target"],pq))
     mismatches=[]
+    canonical_pairs=set()
+    actual_pairs=set()
+    duplicate_pairs=[]
     for r in skills:
         actual=set(map(int,r.get("source_parallel_quests",[])))
         expected=canonical.get(r["name"],set())
+        for pq in actual: actual_pairs.add((r["name"],pq))
         if actual!=expected:
             mismatches.append({"skill":r["name"],"source_parallel_quests":sorted(actual),"canonical_graph":sorted(expected)})
+    missing_pairs=sorted(canonical_pairs-actual_pairs)
+    extra_pairs=sorted(actual_pairs-canonical_pairs)
+    unresolved_targets=sorted(set(canonical)-{r["name"] for r in skills})
     h=HTML.read_text(encoding="utf-8")
     checks={
       "pq_url_builder": "const pqUrl=" in h and 'Parallel-Quests-All/' in h,
@@ -24,11 +33,14 @@ def main():
       "pq_search_is_encoded": "encodeURIComponent('PQ '+v)" in h,
       "search_includes_pq_field": "s.source_parallel_quests" in h,
       "canonical_reverse_sets_match": not mismatches,
+      "exact_forward_reverse_pair_parity": not missing_pairs and not extra_pairs,
+      "canonical_targets_resolve": not unresolved_targets,
+      "duplicate_reverse_pairs_absent": not duplicate_pairs,
     }
     out={"schema_version":"1.0.0","scope":"Skills-All canonical PQ reverse navigation",
          "consumer":"docs/Skills-All.html","canonical_source":"docs/data/pq-reward-relationships.json",
          "skill_count":len(skills),"canonical_pq_skill_edges":sum(len(v) for v in canonical.values()),
-         "reverse_set_mismatches":mismatches,"checks":checks,
+         "reverse_set_mismatches":mismatches,"missing_reverse_pairs":missing_pairs,"extra_reverse_pairs":extra_pairs,"unresolved_canonical_targets":unresolved_targets,"duplicate_reverse_pairs":duplicate_pairs,"checks":checks,
          "status":"clean" if all(checks.values()) else "unresolved",
          "evidence_boundary":"Links expose only canonical PQ identity. They do not imply reward guarantees, Ultimate Finish requirements, drop rates, or other acquisition semantics."}
     print(json.dumps(out,indent=2,ensure_ascii=False)); return 0 if out["status"]=="clean" else 1
