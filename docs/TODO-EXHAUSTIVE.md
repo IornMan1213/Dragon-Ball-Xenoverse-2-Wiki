@@ -1501,3 +1501,11 @@
 - [x] Updated pq-endpoint-alias-granularity-map.json current baseline from 860 to 859 while preserving the two explicit equipment naming conflicts and six DLC granularity mappings.
 - [x] No equip-141 through equip-150 records exist in the live legacy equipment layer; maximum legacy ID remains equip-140, so no nonexistent records were invented.
 - [ ] Exact next task: fresh census, then audit the remaining registered cross-domain presentation/identity consumers for stale 859/124 baselines; after that, use the alias/granularity bridge to resolve only independently evidenced equipment naming conflicts.
+
+
+### 2026-09-22 — Explicit bridge metadata validation hardening
+- [x] Audited the non-PQ presentation/identity consumer chain: cross-link contract → alias/granularity bridge → endpoint-navigation validator → generated navigation/identity reports.
+- [x] Confirmed the current canonical baseline remains **859 relationships / 124 equipment**, and stale 860/125 references found by repository search are historical audit material rather than current projection fields.
+- [x] Hardened `scripts/validate_pq_endpoint_navigation.py` so equipment conflict bridge records must carry a PQ ID, source label, explicit-conflict classification, at least two canonical targets, and evidence; DLC granularity records must carry a PQ range, source label, explicit deterministic-granularity classification, and canonical targets.
+- [x] Validator bridge failures are now included in the overall non-zero failure path instead of allowing structurally incomplete presentation mappings to appear clean.
+- [ ] Next gate: inspect the remaining registered presentation consumers and generated reports for field-level schema drift, then perform a full executable validation when repository runtime/CI execution is available.
