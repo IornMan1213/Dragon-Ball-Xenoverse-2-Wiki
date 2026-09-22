@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "date": "2026-09-22",
-  "scope": "published Character/DLC page local navigation",
+  "scope": "published Character/DLC page local navigation plus canonical identity resolution",
   "pages": {
     "docs/Characters.md": {
       "checked_links": [
@@ -11,7 +11,7 @@
         "data/characters/dlc-character-identity-bridge.json"
       ],
       "repaired": [
-        "Characters-All.md → Characters-All.html"
+        "Characters.md → Characters-All.html"
       ],
       "status": "clean"
     },
@@ -26,11 +26,40 @@
       "status": "clean"
     }
   },
+  "identity_contracts": {
+    "character_layer": {
+      "canonical_character_count": 149,
+      "canonical_character_unique_count": 149
+    },
+    "dlc_character_bridge": {
+      "bridge_records": 15,
+      "resolved_targets_missing_from_canonical": [],
+      "unresolved_records_with_canonical_target": [],
+      "duplicate_source_names": 0
+    },
+    "canonical_dlc_identity": {
+      "canonical_pq_dlc_edges": 86,
+      "canonical_pq_dlc_unique_targets": 20,
+      "identity_records": 20,
+      "missing_canonical_targets": [],
+      "orphan_identity_names": [],
+      "duplicate_ids": 0,
+      "duplicate_names": 0
+    }
+  },
   "findings": [
     "Characters.md contained a stale local link to Characters-All.md; the published explorer is Characters-All.html.",
-    "All other checked local Character/DLC navigation targets exist on main.",
+    "All checked local Character/DLC navigation targets exist on main.",
+    "Resolved DLC-character provenance aliases map only to canonical character identities; two unresolved source labels remain explicit.",
+    "All 20 canonical pq_requires_dlc targets resolve exactly once to the standalone DLC identity layer; no orphan DLC identity record is present.",
     "No canonical character, DLC, or PQ relationship identity was changed."
   ],
   "validator": "scripts/validate_published_character_dlc_navigation.py",
+  "validation": {
+    "page_links": "clean",
+    "character_identity_bridge": "clean",
+    "canonical_dlc_identity": "clean",
+    "live_census": "149 canonical characters / 15 DLC-character bridge records / 20 canonical DLC identities / 86 canonical PQ→DLC edges"
+  },
   "status": "clean"
 }
