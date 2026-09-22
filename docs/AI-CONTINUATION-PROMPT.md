@@ -1736,3 +1736,17 @@
 - Commits: canonical `267cb0dcd98b9c5b8307e0d0f1ca5ac4b3da65cb`; combined `af70f83339d32794fa6c577ebfadc97850bd0f62`; audit `87b75353add617b60607c476dacb3442dc95ba3b`; registry `bb005ca06da404f9027bf18148e6204f4b72cfe3`; TODO `660fb46d05ba6192d315cf1755e2b12ae4dad661`.
 - Exact next batch: **`equip-101`–`equip-110`** after a fresh endpoint census, preserving canonical accessory bridges and normalized historical aliases.
 
+### 2026-09-22 cycle update — Equipment detail enrichment `equip-101`–`equip-110`
+- Active workstream: P1 equipment/accessory canonical endpoint enrichment.
+- Fresh/live census: **174 combined equipment/accessory records / 139 legacy equipment records / 0 duplicate IDs / 125 PQ→equipment forward edges / 123 unique targets / 0 broken endpoints**.
+- Bounded batch: `equip-101`–`equip-110`.
+- Changes: all 10 endpoints received source-backed category and slot coverage; DLC provenance was reconciled as DAIMA Pack for `101–105` and Future Saga Chapter 3 for `106–110`.
+- Category details: `101,104,105,107,109,110` accessories; `102` Glorio's Clothes upper/lower/feet; `103,106` four-piece clothing; `108` Cheelai's Coat upper-body-only.
+- Evidence: maintained DBXV2 equipment catalog, DBXV2 DLC documentation, maintained all-186-PQ Steam guide, Glorio/Panzy documentation, and independent PQ184 documentation.
+- Evidence limits: no reward probability, guaranteed-drop semantics, combat/stat effect, or unsupported restriction inferred.
+- Audit: `docs/data/equipment/equipment-101-110-detail-audit.json`, registered in `docs/data/pq-cross-domain-index.json`.
+- Validation: **174 records / 0 duplicate IDs / 125 forward / 123 reverse / 0 broken**; 10/10 batch records have slot coverage and explicit classification.
+- CI: no successful workflow/check exposed; CI success not claimed.
+- Commits: canonical `34ffe98a4702514806dbe425aba3f38f18804e6d`; combined `9bcf4242481a7d2283e7fe4db7894e923be2c13a`; audit `8bcbb0f4bf6d846b2557c84631851f07599e4af1`; registry `b51aa73512fb62822681a83b8a80af358142f5d2`; TODO `eced4791690df05feae417c6bd1683f062fef101`.
+- Exact next batch: **`equip-111`–`equip-120`** after a fresh census.
+
