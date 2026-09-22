@@ -1458,3 +1458,9 @@
 - Synchronized canonical/index sources and refreshed `last_verified` to **2026-09-22**; existing acquisition, DLC/version, Ultimate Finish, and uncertainty semantics were preserved.
 - Evidence used: Dragon Ball Wiki for Time Bullet, Timespace Impact, and Ultra Instinct; GameFAQs for Unrelenting Barrage and Victory Rush; Steam community evidence for Venus Fist.
 - No new drop probability, Ultimate Finish gate, shop rotation, or restriction was inferred.
+
+
+## 2026-09-22 — Skill projection parity completion
+- Corrected the deterministic **Assault Vanish** and **Solar Flare** mechanics-note projections.
+- Reconciled the remaining **32 canonical-to-index `notes` projections** in a single deterministic batch.
+- Validation result: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 0 audited projection mismatches**.
