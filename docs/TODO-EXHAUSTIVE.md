@@ -58,3 +58,13 @@
 - [x] Established repository-wide rule: **canonical database records are authoritative; verification status is evidence metadata, never a competing source of truth**.
 - [x] Added explicit downstream-sync requirements so reports/indexes are regenerated from canonical data rather than external “verified” records.
 - [x] Audited current Super Soul relationship layer for endpoint integrity after the recent batch: **160 canonical Super Soul records; 0 duplicate IDs; 0 relationship endpoints outside the canonical ID set**.
+
+
+### 2026-09-22 — Canonical Super Soul/equipment endpoint expansion and identity cleanup
+- [x] Expanded canonical Super Soul records from 160 to 234 unique records by adding 81 previously relationship-only PQ reward endpoints as indexed canonical records; no external verified flag was treated as a source of truth.
+- [x] Expanded canonical equipment records from 30 to 140 records by adding 110 previously relationship-only PQ reward endpoints as indexed canonical records.
+- [x] Detected and merged 7 duplicate Super Soul canonical identities with the same exact canonical name, retaining the lower existing canonical ID and merging evidence/source/PQ references.
+- [x] Regenerated the Super Soul PQ crosslink report directly from canonical records: 140 forward edges, 137 unique reverse target endpoints, 0 unresolved canonical Super Soul endpoints.
+- [x] Regenerated the equipment PQ crosslink report directly from canonical records: 124 resolved forward edges, 122 unique reverse target endpoints, 1 unresolved classification endpoint.
+- [ ] Resolve the remaining PQ 002 Flying Nimbus!! equipment-vs-Super-Soul classification conflict using canonical evidence before creating or deleting an equipment identity.
+- Important: relationship-layer claims are not allowed to manufacture canonical records. Canonical records remain authoritative; verification_status remains evidence metadata only.
