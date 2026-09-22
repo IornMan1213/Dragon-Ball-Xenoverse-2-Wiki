@@ -1720,15 +1720,16 @@
       "mechanics_notes": "Uses 600 Ki; traps/stuns the opponent with a time-bubble effect before the Ki wave. Power scales with accumulated Power of Time and firing the Ki wave resets that accumulation. PQ184 is the documented unlock quest; maintained reward data records a 50% Ultimate Finish bonus reward. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Chaotic_Time_Impact",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-184.md",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://www.youtube.com/watch?v=USuetSP5zWw"
       ],
       "source_quest": 184,
-      "notes": "2026-09-20 source reconciliation: current PQ184 reward data documents a 50% Ultimate Finish bonus slot; the prior Basic Reward classification was stale. Race scope remains unresolved. 2026-09-20 provenance census: normalized source field to Parallel Quest 184 — \"The Invincible Duo\", matching the maintained PQ research record. 2026-09-21 race-scope audit: repository evidence confirms CaC usability but does not establish a narrower race/gender/form restriction; race_restriction remains null rather than being inferred. 2026-09-21 DLC label normalization: aligned to canonical Future Saga Chapter naming used by adjacent records.",
+      "notes": "2026-09-20 source reconciliation: current PQ184 reward data documents a 50% Ultimate Finish bonus slot; the prior Basic Reward classification was stale. Race scope remains unresolved. 2026-09-20 provenance census: normalized source field to Parallel Quest 184 — \"The Invincible Duo\", matching the maintained PQ research record. 2026-09-21 race-scope audit: repository evidence confirms CaC usability but does not establish a narrower race/gender/form restriction; race_restriction remains null rather than being inferred. 2026-09-21 DLC label normalization: aligned to canonical Future Saga Chapter naming used by adjacent records. 2026-09-22 provenance refresh: PQ184 reward evidence was independently rechecked; both the maintained guide and current PQ research identify Chaotic Time Impact as a 50% Ultimate Finish bonus-slot reward. The existing race-scope null remains unchanged.",
       "race_restriction": null,
       "acquisition_type": "quest_or_mission",
       "id": "skill-chaotic-time-impact",
