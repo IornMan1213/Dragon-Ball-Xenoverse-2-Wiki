@@ -33,6 +33,11 @@ def main():
     future_unresolved=[did for did in future_ids if did not in canonical]
     future_duplicates=len(future_ids)!=len(set(future_ids))
     future_chapters=sorted(c.get("chapter") for c in future if c.get("chapter") is not None)
+    pq=load(PQ)
+    reverse=load(DLC_REVERSE)
+    reverse_audit=load(DLC_REVERSE_AUDIT)
+    forward_pairs={(e.get("pq"),e.get("target")) for e in pq.get("verified_relationships",[]) if e.get("relationship")=="pq_requires_dlc"}
+    reverse_pairs={(pq_id,target) for target,values in reverse.get("reverse_index",{}).items() for pq_id in values}
     overview=OVERVIEW.read_text(encoding="utf-8")
     required_links=[
         "./data/dlc/canonical-dlc-identity.json",
@@ -49,6 +54,10 @@ def main():
         "future_saga_has_exactly_chapters_1_to_4":future_chapters==[1,2,3,4],
         "future_saga_dlc_ids_unique":not future_duplicates,
         "dlc_overview_links_present":not overview_missing,
+        "canonical_pq_dlc_edges_are_86":len(forward_pairs)==86,
+        "dlc_reverse_index_exact_pair_parity":forward_pairs==reverse_pairs,
+        "dlc_reverse_audit_reports_zero_forward_reverse_mismatch":reverse_audit.get("results",{}).get("forward_to_reverse_mismatches")==0,
+        "all_canonical_dlc_targets_have_reverse_pq_navigation":set(canonical)<=set(reverse.get("reverse_index",{})),
     }
     failed=[k for k,v in checks.items() if not v]
     report={
@@ -62,6 +71,10 @@ def main():
             "content_projection_dlc_references":len(content_ids),
             "future_saga_chapters":len(future),
             "future_saga_dlc_references":len(future_ids),
+            "canonical_pq_dlc_edges":len(forward_pairs),
+            "dlc_reverse_pairs":len(reverse_pairs),
+            "dlc_reverse_pair_missing":len(forward_pairs-reverse_pairs),
+            "dlc_reverse_pair_extra":len(reverse_pairs-forward_pairs),
             "unresolved_content_projection_targets":content_unresolved,
             "unresolved_future_saga_dlc_ids":future_unresolved,
             "missing_dlc_overview_links":overview_missing,
