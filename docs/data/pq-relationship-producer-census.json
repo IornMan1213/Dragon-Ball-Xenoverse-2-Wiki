@@ -61,7 +61,8 @@
     "dlc_casefold_duplicate_keys": 0,
     "duplicate_relationship_keys": 0,
     "current_total_relationships": 860,
-    "current_projection_report_drift": 0
+    "current_projection_report_drift": 0,
+    "current_reconciliation_artifact_drift": 0
   },
   "target_normalization": {
     "date": "2026-09-22",
@@ -120,5 +121,51 @@
     },
     "result": "clean_current_projection_reports",
     "note": "Accessory report is a dedicated 28-edge accessory projection of the 125 canonical equipment-domain edges; clothing/equipment edges remain represented by the equipment report. No source-of-truth changes were required."
+  },
+  "current_reconciliation_artifacts_2026_09_22": {
+    "unified_reward_reconciliation": {
+      "file": "docs/data/pq-reward-normalization/pq-unified-reward-reconciliation.json",
+      "scope": "PQ 1-186",
+      "numbered_slots": 186,
+      "range_record_sum": 186,
+      "duplicate_boundary_ids": false,
+      "missing_numbered_slots": false,
+      "unresolved_slots": [
+        36
+      ],
+      "status": "partial_source_layer_not_canonical_relationship_projection"
+    },
+    "range_audits": [
+      {
+        "file": "docs/data/pq-reward-normalization/pq-001-040-audit.json",
+        "range": "1-40",
+        "records": 40,
+        "typed_reward_relationship_count": 30,
+        "status": "partial"
+      },
+      {
+        "file": "docs/data/pq-reward-normalization/pq-041-080-audit.json",
+        "range": "41-80",
+        "records": 40,
+        "typed_reward_relationship_count": 33,
+        "status": "partial"
+      }
+    ],
+    "unified_reverse_index": {
+      "file": "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json",
+      "scope": "PQ 1-186",
+      "semantics": "partial source-normalized reverse index; absence is not a negative claim",
+      "status": "not treated as a replacement for the 860-edge canonical relationship layer"
+    },
+    "accessory_bridge": {
+      "file": "docs/data/accessory-pq-canonical-bridge.json",
+      "records": 45,
+      "matched": 29,
+      "unresolved": 16,
+      "duplicate_record_ids": 0,
+      "status": "identity bridge; unresolved entries intentionally retained"
+    },
+    "result": "no_deterministic_current_count_drift_found_in_audited_reconciliation_artifacts",
+    "source_of_truth": "docs/data/pq-reward-relationships.json"
   }
 }
