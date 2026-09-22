@@ -3706,14 +3706,16 @@
       "relationship": "pq_requires_dlc",
       "target": "Future Saga Chapter 4",
       "status": "source_backed",
-      "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
+      "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
+      "notes": "Canonical relationship retained from the official Bandai Namco DLC source; the maintained Steam all-Parallel-Quest guide independently corroborates the same Future Saga Chapter 4 requirement."
     },
     {
       "pq": "pq-186",
       "relationship": "pq_requires_dlc",
       "target": "Future Saga Chapter 4",
       "status": "source_backed",
-      "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
+      "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
+      "notes": "Canonical relationship retained from the official Bandai Namco DLC source; the maintained Steam all-Parallel-Quest guide independently corroborates the same Future Saga Chapter 4 requirement."
     },
     {
       "pq": "pq-015",
@@ -4300,20 +4302,6 @@
       "pq": "pq-184",
       "relationship": "pq_requires_dlc",
       "target": "Future Saga Chapter 3",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-185",
-      "relationship": "pq_requires_dlc",
-      "target": "Future Saga Chapter 4",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-186",
-      "relationship": "pq_requires_dlc",
-      "target": "Future Saga Chapter 4",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -6322,5 +6310,22 @@
     "2026-09-19: Promoted 76 source-only normalized reward entries to source_backed using the repository's all-186 PQ guide as independent reward-list evidence.",
     "2026-09-19: Promoted 46 previously source_normalized reward edges to source_backed after matching them to the all-186 PQ guide.",
     "2026-09-22: Deterministic cross-domain reconciliation synchronized skill, Super Soul, and equipment reward relationships to their current canonical cross-link reports. Removed stale Mr. Shape Up M equipment edge and obsolete PQ66 Whis Symbol Gi edge; added current PQ76 Whis Symbol Gi and six accessory-related/equipment canonical endpoints plus missing skill and Super Soul relationships."
-  ]
+  ],
+  "current_reconciliation_2026_09_22": {
+    "date": "2026-09-22",
+    "total_unique_relationships": 860,
+    "counts": {
+      "pq_rewards_skill": 244,
+      "pq_rewards_super_soul": 151,
+      "pq_rewards_equipment": 125,
+      "pq_features_character": 247,
+      "pq_requires_dlc": 86,
+      "pq_farming_route": 7
+    },
+    "duplicate_relationship_keys": 0,
+    "notes": [
+      "Two duplicate PQ185/PQ186 Future Saga Chapter 4 relationship entries were merged because the schema defines one relationship key per PQ/relationship/target; the retained official source is supplemented by a notes field containing the corroborating Steam source.",
+      "Historical 862-edge counts remain preserved in dated audit/history sections; current relationship arrays and current derived counts use the unique 860-edge baseline."
+    ]
+  }
 }
