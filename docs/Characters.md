@@ -4,7 +4,7 @@ The character section is being built as a **record-by-record encyclopedia**, not
 
 ## Canonical character explorer
 
-The published **[Every Character Explorer](Characters-All.md)** now exposes all 149 canonical identities with indexed preset records and explicit PQ reverse-navigation links. It is a navigation/index surface, not a claim that every character's unlock, preset, DLC, or gameplay field is fully researched.
+The published **[Every Character Explorer](Characters-All.html)** now exposes all 149 canonical identities with indexed preset records and explicit PQ reverse-navigation links. It is a navigation/index surface, not a claim that every character's unlock, preset, DLC, or gameplay field is fully researched.
 
 ## Hard-written character profiles
 
