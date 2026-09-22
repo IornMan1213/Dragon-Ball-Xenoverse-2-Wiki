@@ -10,7 +10,9 @@
     "docs/Characters-All.html",
     "scripts/validate_character_explorer.py",
     "docs/data/characters/partner-customization-character-navigation-audit.json",
-    "scripts/validate_partner_customization_character_navigation.py"
+    "scripts/validate_partner_customization_character_navigation.py",
+    "docs/Characters.md",
+    "docs/Character-Core-Profiles.md"
   ],
   "results": {
     "canonical_character_names": 149,
@@ -104,9 +106,17 @@
       "preset_records": 40,
       "duplicate_preset_record_ids": 0,
       "malformed_preset_record_ids": 0
+    },
+    "markdown_consumers": {
+      "characters_page": "docs/Characters.md",
+      "core_profiles": "docs/Character-Core-Profiles.md",
+      "characters_page_links_canonical_explorer": true,
+      "core_profiles_expose_search_design": true,
+      "hard_coded_preset_label_matches": [],
+      "status": "clean"
     }
   },
-  "evidence_boundary": "Identity/navigation parity remains clean. This cycle additionally verifies that bridge character IDs and preset record IDs are string-shaped and unique, and that optional bridge source_name values are unique when present. Missing optional source_name is not treated as a duplicate.",
+  "evidence_boundary": "Identity/navigation parity remains clean. This cycle additionally verifies that bridge character IDs and preset record IDs are string-shaped and unique, and that optional bridge source_name values are unique when present. Missing optional source_name is not treated as a duplicate. Markdown consumer inspection additionally checks the Character Encyclopedia's canonical explorer link and the core profile page for hard-coded preset labels; no preset labels were found in those two Markdown consumers.",
   "rules": [
     "Canonical character names remain authoritative.",
     "Presentation IDs resolve only through the explicit bridge.",
