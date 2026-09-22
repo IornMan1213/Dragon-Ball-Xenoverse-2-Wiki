@@ -270,3 +270,14 @@
 - Known CI limitation: no successful workflow/check exposed; prior zero-step failures remain an infrastructure/account signal unless actionable logs appear.
 - Last artifact scan: changed JSON contains no internal AI/UI/search citation markup; relationship endpoint census passes.
 - Files requiring synchronization next cycle: canonical equipment layer, PQ→equipment report, coverage/TODO/handoff; add source/provenance changes to dependent projections only when their contract requires them.
+
+### 2026-09-22 cycle update — equipment provenance batch `equip-031`–`equip-040`
+- Active workstream: P2 equipment/accessory canonical detail and provenance enrichment.
+- Bounded batch completed: `equip-031`–`equip-040` (10 records): Tuxedo; Wedding Dress; Arabian Costume; Goku Wig (Ultra Instinct); Janemba Suit; Janemba Head; Broly (Full Power Super Saiyan)'s Clothes; SSGSS Gogeta's Clothes; Broly Wig (Legendary Super Saiyan); Kakunsa's Clothes.
+- Evidence: maintained equipment catalog independently corroborates the equipment identities; maintained all-186 PQ guide corroborates the corresponding PQ reward endpoints. Additional research confirms the relevant PQ/DLC groupings: PQ121/Extra Pack 2; PQ123/125/127/Extra Pack 3; PQ130/131/132/Extra Pack 4; PQ133/Ultra Pack 1.
+- Changes: added the maintained equipment catalog as a second provenance source to all 10 canonical records; replaced unresolved DLC provenance with the documented PQ/DLC grouping; preserved unresolved exact reward/drop semantics and combat/stat effects rather than inferring them.
+- Post-edit validation: **169 canonical equipment records / 0 duplicate IDs / 124 forward edges / 122 reverse endpoints / 0 unresolved / 0 broken endpoints**. All 10 batch records have 2 provenance sources and explicit DLC provenance.
+- Crosslink report metadata synchronized with the enrichment batch; relationship endpoints themselves were unchanged.
+- Evidence boundaries: no reward probability, Ultimate Finish-only gate, equipment slot breakdown, or combat/stat effect was promoted unless directly established by the evidence reviewed.
+- CI: no successful workflow/check exposed; no CI success is claimed.
+- Exact next batch: **`equip-041`–`equip-050`**. Recompute live census first, then independently reconcile identity, PQ acquisition, DLC provenance, and any directly evidenced slot/restriction/effect fields.
