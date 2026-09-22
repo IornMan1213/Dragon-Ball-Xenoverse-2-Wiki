@@ -1209,7 +1209,7 @@
     {
       "id": "equip-051",
       "name": "Bardock (DB Super)'s Clothes",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-146 reward",
       "pq_sources": [
@@ -1218,15 +1218,22 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment records source-backed category/slot coverage; equip-057 is retained only as a legacy endpoint because its canonical accessory identity is acc-059.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-052",
       "name": "Caulifla's Clothes",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-147 reward",
       "pq_sources": [
@@ -1235,15 +1242,22 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment records source-backed category/slot coverage; equip-057 is retained only as a legacy endpoint because its canonical accessory identity is acc-059.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-053",
       "name": "Caulifla Wig",
-      "category": "costume_or_accessory",
+      "category": "accessory",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-147 reward",
       "pq_sources": [
@@ -1252,15 +1266,19 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment records source-backed category/slot coverage; equip-057 is retained only as a legacy endpoint because its canonical accessory identity is acc-059.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
       "id": "equip-054",
       "name": "Kale's Clothes",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-148 reward",
       "pq_sources": [
@@ -1269,15 +1287,22 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment records source-backed category/slot coverage; equip-057 is retained only as a legacy endpoint because its canonical accessory identity is acc-059.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-055",
       "name": "Kale Wig",
-      "category": "costume_or_accessory",
+      "category": "accessory",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-148 reward",
       "pq_sources": [
@@ -1286,15 +1311,19 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment records source-backed category/slot coverage; equip-057 is retained only as a legacy endpoint because its canonical accessory identity is acc-059.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
       "id": "equip-056",
       "name": "Bulma (Kid)'s Clothes",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-149 reward",
       "pq_sources": [
@@ -1303,15 +1332,21 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment records source-backed category/slot coverage; equip-057 is retained only as a legacy endpoint because its canonical accessory identity is acc-059.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-057",
       "name": "Bulma (Kid) Wig",
-      "category": "costume_or_accessory",
+      "category": "accessory",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-149 reward",
       "pq_sources": [
@@ -1320,15 +1355,19 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment records source-backed category/slot coverage; equip-057 is retained only as a legacy endpoint because its canonical accessory identity is acc-059.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
       "id": "equip-058",
       "name": "Android 17 (DB Super) Ranger Outfit",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-152 reward",
       "pq_sources": [
@@ -1337,15 +1376,22 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment records source-backed category/slot coverage; equip-057 is retained only as a legacy endpoint because its canonical accessory identity is acc-059.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-059",
       "name": "Android 17 (DB Super) Ranger Wig",
-      "category": "costume_or_accessory",
+      "category": "accessory",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-152 reward",
       "pq_sources": [
@@ -1354,15 +1400,19 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment records source-backed category/slot coverage; equip-057 is retained only as a legacy endpoint because its canonical accessory identity is acc-059.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
       "id": "equip-060",
       "name": "King Vegeta (DB Super)'s Battle Suit",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-154 reward",
       "pq_sources": [
@@ -1371,9 +1421,16 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment records source-backed category/slot coverage; equip-057 is retained only as a legacy endpoint because its canonical accessory identity is acc-059.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
