@@ -2,9 +2,7 @@
 """Validate canonical PQ endpoint navigation without promoting evidence layers.
 
 Canonical relationship data is authoritative. This validator checks exact endpoint
-resolution for skills, Super Souls, equipment/accessories, and characters. DLC is
-reported separately because the repository currently has no standalone canonical
-DLC identity record layer.
+resolution for skills, Super Souls, equipment/accessories, and characters, plus the standalone canonical DLC identity layer.
 """
 from __future__ import annotations
 
