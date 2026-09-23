@@ -2441,3 +2441,9 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Revalidated existing multi-source acquisition/classification evidence and preserved known reward-source conflicts; no unsupported probability, gate, mechanic, cost, restriction, or DLC condition was introduced.
 - Added and registered `docs/data/skill-provenance-audit-2026-09-23-buu-through-chain.json`.
 - Validation target: **455 canonical / 455 index / 0 duplicate IDs / 5 targets synchronized**.
+
+### 2026-09-23 — P1 Change The Future through Charge provenance refresh
+- Refreshed **Change The Future, Chaos Shot, Chaos Wall, Chaotic Time Impact, and Charge** to `2026-09-23` in canonical/index skill data.
+- Revalidated existing multi-source acquisition/classification evidence and preserved known conflicts; no unsupported probability, gate, mechanic, cost, restriction, or DLC condition was introduced.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-23-change-through-charge.json`.
+- Validation target: **455 canonical / 455 index / 0 duplicate IDs / 5 targets synchronized**.
