@@ -2809,3 +2809,11 @@
 - [x] Added and registered `docs/data/super-soul-054-reconciliation-2026-09-22.json`.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Next priority: continue with **157, 159, 163, and 164**; keep **034** evidence-bound unless exact-name item-level mechanics evidence improves.
+
+### 2026-09-22 — Super Souls 157/159/163/164 evidence reconciliation
+- [x] Promoted **157, 159, 163, and 164** to `verified_secondary` after independent catalogue, character/stat-sheet, GameFAQs, and/or PQ evidence reconciliation.
+- [x] Preserved null duration where effects are persistent/threshold-based rather than inventing finite timers; preserved unresolved stacking behavior.
+- [x] Added and registered `docs/data/super-soul-157-159-163-164-reconciliation-2026-09-22.json`.
+- [x] No canonical PQ relationship identities changed and no unsupported reward probabilities or Ultimate-Finish requirements were added.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Next priority: inspect **034** evidence boundary, then recompute the strict-thin queue for the next 4–12 records.
