@@ -4577,3 +4577,14 @@
 - [ ] Build/reconcile Tokipedia endpoint consumers and cross-links.
 - [ ] Build/reconcile Conton City Patrol endpoint consumers and cross-links.
 - **Exact next task:** mentor endpoint layer, followed by Tokipedia and Conton City Patrol endpoint consumers.
+
+
+### 2026-09-23 — TODO completion update — Mentor endpoint layer
+- [x] Added dedicated canonical mentor endpoint layer.
+- [x] Linked 132 verified skill lesson rewards across 33 mentors; 131 unique skill endpoints.
+- [x] Preserved the single typed non-skill Zamasu initiation reward without fabricating a skill link.
+- [x] Added mentor endpoint audit and reverse lookup coverage.
+- [ ] Reconcile official 32 vs community 33 mentor roster discrepancy.
+- [ ] Build/reconcile Tokipedia endpoint consumers and cross-links.
+- [ ] Build/reconcile Conton City Patrol endpoint consumers and cross-links.
+- **Exact next task:** Tokipedia and Conton City Patrol endpoint consumers/cross-links.
