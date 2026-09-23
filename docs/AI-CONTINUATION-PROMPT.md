@@ -5272,3 +5272,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: JSON parse checks passed; mascot canonical/index counts are both 1; `mascot-puar` is unique; DLC reconciliation points to the canonical ID. CI/runtime unavailable; no CI success claimed.
 - Commits: mascot canonical **69c3bdceaad0993931fc36985d158a3c246a59c3**; mascot index **570f7a8d2e988129d2693681785d9b7aa490c167**; cross-domain registration **044086aa99a4c8fa9d483016154939bec451d7d5**; DLC reconciliation **78fde4c5fba4ca00612f1a23540aa1599b4788c8**; Puar audit **dc6f57345bcdc73678c50009debab75e4782c2fb**.
 - Exact next batch: validate all CC Mascot consumers/reverse-navigation requirements, then continue the five unmatched Support Pack costume identities without inventing `equip-141+` IDs.\n
+
+### 2026-09-23 cycle update — CC Mascot reverse navigation validation
+- Live mascot census: **1 canonical record / 1 reverse-index record**.
+- Bounded batch: validate and wire **Puar reverse navigation**.
+- Changes: added `docs/data/cc-mascots-reverse-index.json`; registered it in `pq-cross-domain-index.json`; corrected the Support Pack reconciliation's stale unresolved-mascot statement.
+- Validation: mascot/reverse ID sets match exactly; unresolved canonical mascot IDs = 0; equipment/accessory aliases = 0. CI/runtime unavailable.
+- Commits: reverse index **fa046be8c558be85e7b10b6c7b93d694dc5f4b75**; cross-domain registration **d968326b763c6fe8207a01bcf4be5d24edf93c4a**; reconciliation correction **c80819b7da354fa2b5b3a292f118326fd20cd76a**.
+- Exact next batch: resume the five unmatched Support Pack costume identities and resolve equipment-layer capacity/extension safely without inventing unsupported `equip-141+` IDs.
