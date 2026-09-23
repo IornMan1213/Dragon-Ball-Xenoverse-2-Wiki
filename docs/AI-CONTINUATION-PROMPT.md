@@ -5233,3 +5233,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Final parity repair commits: `eaa78bca0d308d7b563eab75d57ae641410424fb` and `f09c28c9f30cfc59e4eb4ea5c75e6f0288e94c3f`.
 - [x] No CI success claimed; validation was performed directly against the live canonical and index JSON structures.
 - [ ] Next exact task remains **Power Pole Combo** identity research, followed by the five remaining Support Pack costume identities and Puar.
+
+### 2026-09-23 cycle update — Time Patrol Support Pack Power Pole Combo identity resolution
+- Dedicated web/repository research resolved **Power Pole Combo** as a distinct canonical skill identity: Super / Strike / 100 Ki / CaC-usable / Goku (GT), Skill Shop acquisition. Current Xenoverse 2 references explicitly distinguish it from Power Pole and Power Pole Pro. citeturn1search0turn1search1
+- Promoted skill-power-pole-combo into both canonical skill layers and added a dedicated reconciliation audit.
+- Registered the audit in docs/data/pq-cross-domain-index.json and updated the Support Pack skill/content reconciliations.
+- Support Pack skill coverage is now **13/13 exact canonical identities**. The official storefront confirms Power Pole Combo is one of the advertised Super Attacks. citeturn1search5turn1search4
+- Current canonical/index census advanced to **455 records**.
+- Exact next task: continue the **five remaining unmatched costume identities**, then reconcile **Puar/CC Mascot**. Preserve the existing equipment architecture and do not invent equip IDs without record-level evidence.
