@@ -2752,3 +2752,12 @@
 - [x] Validation: **234 canonical Super Souls / 0 duplicate IDs**; both selected records are researched and retain canonical PQ edges.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Exact next priority: recompute the live Super Soul thin-system census with the established repository definition and select the next **4–12 highest-impact unresolved records**. Keep **232–236** as evidence-boundary records unless exact-name mechanics evidence becomes sufficient; otherwise move to another evidence-supported cluster.
+
+### 2026-09-22 cycle update — Raid Super Souls 054/057/058/063 evidence strengthening
+- [x] Strengthened **054, 057, 058, 063** with independent raid/effect evidence.
+- [x] Promoted **057, 058, 063** to `verified_secondary` after corroborating Limit Burst/effect data.
+- [x] Kept **054** `partially_verified` because Limit Burst evidence remains unresolved.
+- [x] Refreshed the live Super Soul thin census: **234 records / 0 duplicate IDs / 182 strict-thin records** under the current eight-field definition.
+- [x] Preserved evidence boundaries; no unsupported timing, probability, or engine-rate claims added.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Next: continue the deterministic partially-verified census with the next evidence-supported cluster; do not invent unresolved fields.
