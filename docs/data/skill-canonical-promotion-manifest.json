@@ -94,6 +94,17 @@
       "exact_drop_rate": "unresolved",
       "guarantee_condition": "unresolved",
       "promotion_date": "2026-09-23"
+    },
+    {
+      "skill": "Power Pole Combo",
+      "canonical_class": "Super",
+      "canonical_subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "acquisition_status": "verified_current_scope",
+      "acquisition_endpoint": "Skill Shop",
+      "exact_drop_rate": "not_applicable",
+      "guarantee_condition": "not_applicable",
+      "promotion_date": "2026-09-23"
     }
   ],
   "sources": [
