@@ -4937,3 +4937,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Canonical relationship edge count remains **859**; no canonical relationship rows were modified.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: inspect remaining cross-domain validation files for stale Super Soul 151/148 projections, then continue deterministic navigation parity repairs.
+
+
+### 2026-09-23 — Verified Super Soul source baseline propagated
+- [x] Authoritative live relationship array is **854 total / 244 skill / 146 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming**, with **143** unique Super Soul reverse targets.
+- [x] Propagated the verified baseline into current PQ status/audit/producer/presentation/reference validators; historical 859/151 snapshots are retained as history.
+- [x] Updated the current consumer-baseline correction artifact to distinguish the superseded projection from current source-of-truth state.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Next: scan remaining current-looking artifacts for stale 859/151 fields.
