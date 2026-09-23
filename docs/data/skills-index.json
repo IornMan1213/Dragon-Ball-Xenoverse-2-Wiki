@@ -1825,14 +1825,15 @@
         "https://dbxenoverse.fandom.com/wiki/Mentors",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
         "https://dbxv2.fandom.com/wiki/Darkness_Eye_Beam",
-        "https://www.player.one/dragon-ball-xenoverse-2-mentor-guide-how-unlock-every-skill-and-lesson-565288"
+        "https://www.player.one/dragon-ball-xenoverse-2-mentor-guide-how-unlock-every-skill-and-lesson-565288",
+        "https://dragonball.fandom.com/wiki/Darkness_Eye_Beam"
       ],
       "unlock_method": "Lord Slug's mentor training — complete the corresponding lesson to receive Darkness Eye Beam as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 provenance refresh: current independent skill/mentor evidence was rechecked; acquisition and scope were retained unless directly contradicted. Darkness Rush (Melee) is explicitly non-Namekian, so its race restriction is normalized to non-Namekian rather than All CaC races. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 provenance refresh: current independent skill/mentor evidence was rechecked; acquisition and scope were retained unless directly contradicted. Darkness Rush (Melee) is explicitly non-Namekian, so its race restriction is normalized to non-Namekian rather than All CaC races. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 mechanics/provenance enrichment: synchronized with canonical evidence update; existing acquisition and evidence boundaries preserved.",
+      "mechanics_notes": "100 Ki Ki Blast Super used by Lord Slug. Dedicated Xenoverse 2 evidence describes a rising/sweeping eye-beam attack that fires from below toward the opponent and knocks them back; the cited page reports a single-hit presentation.",
       "source_quest": "Lord Slug mentor training",
       "source_quest_or_shop": "Lord Slug mentor training"
     },
@@ -1853,10 +1854,10 @@
       ],
       "unlock_method": "Lord Slug's Lesson 3 — complete the instructor lesson; the Basic Reward includes Darkness Rush (Melee) and Darkness Rush (Ranged).",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races except Namekian",
-      "notes": "2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-22 provenance refresh: current independent skill/mentor evidence was rechecked; acquisition and scope were retained unless directly contradicted. Darkness Rush (Melee) is explicitly non-Namekian, so its race restriction is normalized to non-Namekian rather than All CaC races. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.",
-      "mechanics_notes": "300 Ki Strike Ultimate learned from Lord Slug, Lesson 3; close-range rushing/grab sequence followed by a finishing attack. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-lord-slug added for the documented mentor-training acquisition route.",
+      "notes": "2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-22 provenance refresh: current independent skill/mentor evidence was rechecked; acquisition and scope were retained unless directly contradicted. Darkness Rush (Melee) is explicitly non-Namekian, so its race restriction is normalized to non-Namekian rather than All CaC races. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 mechanics/provenance enrichment: synchronized with canonical evidence update; existing acquisition and evidence boundaries preserved.",
+      "mechanics_notes": "300 Ki Strike Ultimate for non-Namekian CaC races. Dedicated Xenoverse 2 evidence describes a forward rush grab, barrage of strikes, and a finishing Ki Blast/Eye Laser; the cited page reports 7 hits and 25% damage in its presentation.",
       "source_quest": "Lord Slug mentor training — Lesson 3",
       "source_quest_or_shop": "Lord Slug mentor training — Lesson 3"
     },
@@ -1878,10 +1879,10 @@
       ],
       "unlock_method": "Lord Slug's Lesson 3 — complete the instructor lesson; the Basic Reward includes Darkness Rush (Ranged) and Darkness Rush (Melee).",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "Namekian",
-      "notes": "Namekian-only CaC Ultimate. The separate Darkness Rush (Melee) route is for non-Namekian Future Warriors. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-22 provenance refresh: current independent skill/mentor evidence was rechecked; acquisition and scope were retained unless directly contradicted. Darkness Rush (Melee) is explicitly non-Namekian, so its race restriction is normalized to non-Namekian rather than All CaC races. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.",
-      "mechanics_notes": "300 Ki; Namekian-only CaC Ultimate. Lord Slug's Lesson 3 unlocks the Ranged version; the attack is a long-range grab/rush followed by an Eye Laser-style blast. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-lord-slug added for the documented mentor-training acquisition route.",
+      "notes": "Namekian-only CaC Ultimate. The separate Darkness Rush (Melee) route is for non-Namekian Future Warriors. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-22 provenance refresh: current independent skill/mentor evidence was rechecked; acquisition and scope were retained unless directly contradicted. Darkness Rush (Melee) is explicitly non-Namekian, so its race restriction is normalized to non-Namekian rather than All CaC races. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 mechanics/provenance enrichment: synchronized with canonical evidence update; existing acquisition and evidence boundaries preserved.",
+      "mechanics_notes": "300 Ki Strike Ultimate for Namekian CaC races. Dedicated Xenoverse 2 evidence describes the Namekian arm-extension grab, follow-up strike barrage, and finishing Ki Blast/Eye Laser; the cited page reports 7 hits and 25% damage in its presentation.",
       "source_quest": "Lord Slug mentor training — Lesson 3",
       "source_quest_or_shop": "Lord Slug mentor training — Lesson 3"
     },
@@ -1897,14 +1898,15 @@
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
-        "https://www.player.one/dragon-ball-xenoverse-2-mentor-guide-how-unlock-every-skill-and-lesson-565288"
+        "https://www.player.one/dragon-ball-xenoverse-2-mentor-guide-how-unlock-every-skill-and-lesson-565288",
+        "https://dragonball.fandom.com/wiki/Darkness_Twin_Star"
       ],
       "unlock_method": "Lord Slug's mentor training — complete the corresponding lesson to receive Darkness Twin Star as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 provenance refresh: current independent skill/mentor evidence was rechecked; acquisition and scope were retained unless directly contradicted. Darkness Rush (Melee) is explicitly non-Namekian, so its race restriction is normalized to non-Namekian rather than All CaC races. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 provenance refresh: current independent skill/mentor evidence was rechecked; acquisition and scope were retained unless directly contradicted. Darkness Rush (Melee) is explicitly non-Namekian, so its race restriction is normalized to non-Namekian rather than All CaC races. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 mechanics/provenance enrichment: synchronized with canonical evidence update; existing acquisition and evidence boundaries preserved.",
+      "mechanics_notes": "100 Ki Ki Blast Super learned from Lord Slug. Dedicated Xenoverse 2 evidence describes two orbiting Ki blasts that can remain around the user for 10 seconds, damage nearby opponents, block standard Ki blasts, and be fired at the opponent with additional input.",
       "source_quest": "Lord Slug mentor training",
       "source_quest_or_shop": "Lord Slug mentor training"
     },
@@ -1919,14 +1921,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers",
         "https://dbxv2.fandom.com/wiki/Data_Input",
-        "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content"
+        "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content",
+        "https://dragonball.fandom.com/wiki/Data_Input"
       ],
       "unlock_method": "Expert Mission 20 — \"Harbinger of Doom\" Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 reward-tier refinement: maintained/independent Expert Mission evidence explicitly lists Data Input in the EM20 Basic Reward pool; no Ultimate Finish-only condition is inferred. 2026-09-21 provenance correction: Extra Pack 1 officially contains 13 new skills, while Data Input is documented as a free-update Expert Mission 20 reward rather than one of those 13 paid-pack skills; its acquisition provenance is therefore separated from Extra Pack 1 despite Android 13 having Data Input in its preset. 2026-09-21 provenance strengthening: Bandai Namco's official Xenoverse 2 DLC catalog independently confirms the game's DLC structure includes character moves/skills and that content may be obtained through specified in-game conditions; it is retained as contextual provenance alongside the maintained EM-20-specific acquisition evidence. No acquisition or reward semantics changed. 2026-09-22 provenance refresh: dedicated Data Input evidence confirms the 100-Ki cost, approximately 20-second auto-dodge behavior, and EM20 acquisition; the maintained Steam EM guide independently lists Data Input as an EM20 Basic Reward. An external Dragon Ball Wiki presentation associates the move with Extra Pack 1, but the repository's maintained version-history/provenance layer continues to classify the acquisition as a Free Update 5 EM20 reward; this conflict remains explicit pending stronger official version-history evidence. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.",
-      "mechanics_notes": "Confirmed as Android 13's 100-Ki Power Up Super from Expert Mission 20, usable by all CaC races. It grants an approximately 20-second automatic-dodge window against incoming attacks while the user remains stationary; current dedicated evidence describes the effect as dodging melee attacks/strike supers while stationary. 2026-09-22 provenance refresh: EM20 Basic Reward is independently corroborated; the existing Free Update 5 provenance field is retained while an external Extra Pack 1 presentation conflict is explicitly preserved rather than silently normalized.",
+      "notes": "2026-09-20 reward-tier refinement: maintained/independent Expert Mission evidence explicitly lists Data Input in the EM20 Basic Reward pool; no Ultimate Finish-only condition is inferred. 2026-09-21 provenance correction: Extra Pack 1 officially contains 13 new skills, while Data Input is documented as a free-update Expert Mission 20 reward rather than one of those 13 paid-pack skills; its acquisition provenance is therefore separated from Extra Pack 1 despite Android 13 having Data Input in its preset. 2026-09-21 provenance strengthening: Bandai Namco's official Xenoverse 2 DLC catalog independently confirms the game's DLC structure includes character moves/skills and that content may be obtained through specified in-game conditions; it is retained as contextual provenance alongside the maintained EM-20-specific acquisition evidence. No acquisition or reward semantics changed. 2026-09-22 provenance refresh: dedicated Data Input evidence confirms the 100-Ki cost, approximately 20-second auto-dodge behavior, and EM20 acquisition; the maintained Steam EM guide independently lists Data Input as an EM20 Basic Reward. An external Dragon Ball Wiki presentation associates the move with Extra Pack 1, but the repository's maintained version-history/provenance layer continues to classify the acquisition as a Free Update 5 EM20 reward; this conflict remains explicit pending stronger official version-history evidence. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 mechanics/provenance enrichment: synchronized with canonical evidence update; existing acquisition and evidence boundaries preserved.",
+      "mechanics_notes": "100 Ki Power Up Super from Expert Mission 20. Dedicated Xenoverse 2 evidence reports a 20-second Auto Dodge window while stationary against melee/strike attacks; the existing repository provenance conflict over whether the skill is presented as Extra Pack 1 content or a Free Update 5 EM20 reward is preserved.",
       "source_quest": "EM-20",
       "source_quest_or_shop": "Expert Mission 20 - Harbinger of Doom"
     },
