@@ -4143,3 +4143,12 @@
 - [x] Validation: **455 canonical / 455 index / 0 duplicate IDs / 380 stale**; target parity clean.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next batch: **Darkness Eye Beam, Darkness Rush (Melee), Darkness Rush (Ranged), Darkness Twin Star, Data Input, Dead End Rain, Deadly Dance, Death Ball, Death Beam, Death Crasher**.
+
+### 2026-09-23 — TODO completion update — P1 Darkness-through-Data-Input skill enrichment
+- [x] Completed **Darkness Eye Beam, Darkness Rush (Melee), Darkness Rush (Ranged), Darkness Twin Star, and Data Input** provenance/mechanics refresh.
+- [x] Synchronized canonical/index verification dates to **2026-09-23**.
+- [x] Added independent/direct provenance and source-supported mechanics without changing existing acquisition/reward/DLC boundaries.
+- [x] Added and registered **docs/data/skill-provenance-audit-2026-09-23-darkness-through-data-input.json**.
+- [x] Validation target: **455 canonical / 455 index / 0 duplicate IDs**; target parity clean.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next batch: recompute the live stale queue and continue with the next stale canonical records after **Data Input**; do not repeat the completed Darkness/Data Input batch.
