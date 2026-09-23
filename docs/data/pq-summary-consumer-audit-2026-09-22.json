@@ -4,9 +4,9 @@
   "scope": "PQ-facing reward/acquisition summary consumer audit",
   "live_canonical_baseline": {
     "pq_records": 186,
-    "total_edges": 854,
+    "total_edges": 853,
     "skill": 244,
-    "super_soul": 146,
+    "super_soul": 145,
     "equipment": 124,
     "character": 247,
     "dlc": 86,
