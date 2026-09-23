@@ -6260,7 +6260,7 @@
     "character": 247,
     "dlc": 86,
     "farming": 7,
-    "pq_rewards_super_soul": 151
+    "pq_rewards_super_soul": 146
   },
   "last_reconciled_scope": "PQ 1-186 reward relationship index synchronized against current canonical cross-link reports; stale equipment endpoints removed and newly reconciled skill/Super Soul/equipment edges added. Canonical relationship reports remain the authoritative projection of canonical data.",
   "notes": [
@@ -6285,6 +6285,9 @@
     "notes": [
       "Two duplicate PQ185/PQ186 Future Saga Chapter 4 relationship entries were merged because the schema defines one relationship key per PQ/relationship/target; the retained official source is supplemented by a notes field containing the corroborating Steam source.",
       "Historical 862/860-edge counts remain preserved in dated audit/history sections; current relationship arrays and current derived counts use the unique 859-edge baseline."
-    ]
+    ],
+    "live_super_soul_forward": 146,
+    "live_super_soul_reverse": 143,
+    "note": "Current canonical Super Soul relationship count is 151; the older 146 scalar was stale metadata retained from the pre-identity-correction snapshot."
   }
 }
