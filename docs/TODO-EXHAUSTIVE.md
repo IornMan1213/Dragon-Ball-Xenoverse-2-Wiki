@@ -4447,3 +4447,12 @@
 - [x] Validation: 455/455 / 0 duplicate IDs / 28 stale / target stale remaining 0.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next batch: Time Skip/Tremor Pulse, Timespace Impact, Total Detonation Ball, Trap Shooter, Tri-Beam, Turn Golden, Tyrant Lancer, Ultimate Charge, Ultra Instinct, Ultrasonic Blitz, Unrelenting Barrage, Vanishing Ball; recompute the live stale queue first.
+
+
+### 2026-09-23 — TODO completion update — P1 Time Skip/Tremor Pulse through Vanishing Ball
+- [x] Completed 12 stale records: Time Skip/Tremor Pulse, Timespace Impact, Total Detonation Ball, Trap Shooter, Tri-Beam, Turn Golden, Tyrant Lancer, Ultimate Charge, Ultra Instinct, Ultrasonic Blitz, Unrelenting Barrage, Vanishing Ball.
+- [x] Synchronized canonical/index provenance metadata to 2026-09-23 and preserved existing evidence conflicts/bounds.
+- [x] Added/registered docs/data/skill-provenance-audit-2026-09-23-time-skip-tremor-pulse-through-vanishing-ball.json.
+- [x] Validation: 455/455 / 0 duplicate IDs / 16 stale / target stale remaining 0.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next batch: Variable Snipe Shot, Variant Drive, Venus Fist, Victory Cannon, Victory Rush, Volleyball Fist, Wall of Defense, Warp Kamehameha, Weekend, Wild Buster, Wild Hunt, Wild Stinger; recompute the live stale queue first.
