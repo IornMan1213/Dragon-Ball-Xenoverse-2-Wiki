@@ -88,7 +88,6 @@
       }
     ],
     "unresolved_or_not_promoted": [
-      "1 advertised Super Attack lacks an exact canonical skill record: Power Pole Combo.",
       "7 advertised Super Attacks have no direct canonical PQ edge in the current PQ crosslink report; this includes canonical non-PQ/other-route records as well as the three missing exact identities.",
       "2 advertised Ultimate Attacks have no direct canonical PQ edge; Warp Kamehameha has two canonical PQ endpoints.",
       "5 advertised costumes remain without exact canonical equipment records after the 2026-09-23 identity audit; Vegito Clothes resolves to equip-078. Gogeta Clothes and Broly Clothes are source-backed via PQ57/PQ47 but lack exact canonical records; Future Trunks' Clothes (Super) is catalogued without a canonical record; Master Korin's Suit and Orange Star High School Outfit remain official-pack identities without exact canonical records.",
@@ -109,7 +108,8 @@
       "skill-impulse-slash",
       "skill-giant-storm",
       "skill-big-bang-attack",
-      "skill-super-destructo-disc"
+      "skill-super-destructo-disc",
+      "skill-power-pole-combo"
     ]
   },
   "boundary_rules": [
@@ -117,5 +117,5 @@
     "Storefront descriptions state that some content can be obtained through the in-game shop or by meeting conditions; this audit records pack inclusion/provenance rather than exclusive ownership.",
     "No missing canonical records, IDs, acquisition routes, or relationships are fabricated."
   ],
-  "next_action": "Research Power Pole Combo as a distinct skill identity without aliasing it to Power Pole or Power Pole Pro; then continue the five remaining costume identities and Puar."
+  "next_action": "Continue the five remaining unmatched Time Patrol Support Pack costume identities, using individually source-backed evidence and preserving the existing equipment architecture; then reconcile Puar."
 }
