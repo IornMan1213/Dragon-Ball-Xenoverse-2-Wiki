@@ -1864,18 +1864,19 @@
       "effect_text": "Boosts movement speed; boosts Ki Blast-based skills.",
       "effect_magnitude": "M movement speed; XL Ki Blast-based skills",
       "duration": null,
-      "stacking_behavior": null,
-      "limit_burst": null,
+      "stacking_behavior": "Not reported as stackable",
+      "limit_burst": "Rush",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Community-measured percentages/durations are not promoted to exact canonical values.",
+      "version_notes": "Community-measured percentages/durations are not promoted to exact canonical values. 2026-09-22 exact-name Limit Burst/duration reconciliation: player-facing catalogue/stat-sheet evidence supplies the recorded Limit Burst and, where explicitly stated, the timed duration. No unreported timer or numeric stack cap was inferred.",
       "verification_status": "verified_secondary",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/as-if-id-lose.md",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://www.scribd.com/document/827102999/XV2-Super-Soul-Stat-sheet"
       ]
     },
     {
@@ -1891,18 +1892,19 @@
       "effect_text": "Boosts Stamina recovery speed.",
       "effect_magnitude": "L",
       "duration": null,
-      "stacking_behavior": null,
-      "limit_burst": null,
+      "stacking_behavior": "Not reported as stackable",
+      "limit_burst": "Power",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Community-measured percentages/durations are not promoted to exact canonical values.",
+      "version_notes": "Community-measured percentages/durations are not promoted to exact canonical values. 2026-09-22 exact-name Limit Burst/duration reconciliation: player-facing catalogue/stat-sheet evidence supplies the recorded Limit Burst and, where explicitly stated, the timed duration. No unreported timer or numeric stack cap was inferred.",
       "verification_status": "verified_secondary",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/buu-dont-wanna.md",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://www.scribd.com/document/827102999/XV2-Super-Soul-Stat-sheet"
       ],
       "source_parallel_quests": [
         "pq-105"
@@ -1947,19 +1949,20 @@
       "trigger_condition": "Once only when hit with an Ultimate Attack",
       "effect_text": "Temporarily reduces damage from all attacks.",
       "effect_magnitude": "XL",
-      "duration": null,
-      "stacking_behavior": null,
-      "limit_burst": null,
+      "duration": "10 seconds",
+      "stacking_behavior": "Not reported as stackable",
+      "limit_burst": "Rush",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Community-measured percentages/durations are not promoted to exact canonical values.",
+      "version_notes": "Community-measured percentages/durations are not promoted to exact canonical values. 2026-09-22 exact-name Limit Burst/duration reconciliation: player-facing catalogue/stat-sheet evidence supplies the recorded Limit Burst and, where explicitly stated, the timed duration. No unreported timer or numeric stack cap was inferred.",
       "verification_status": "verified_secondary",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/that-wont-work-on-me.md",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://www.scribd.com/document/827102999/XV2-Super-Soul-Stat-sheet"
       ],
       "source_parallel_quests": [
         "pq-135"
@@ -1977,19 +1980,20 @@
       "trigger_condition": "When the battle starts",
       "effect_text": "Temporarily reduces all damage taken but weakens normal attacks.",
       "effect_magnitude": "L damage reduction; L normal-attack penalty",
-      "duration": null,
-      "stacking_behavior": null,
-      "limit_burst": null,
+      "duration": "10 seconds",
+      "stacking_behavior": "Not reported as stackable",
+      "limit_burst": "Rush",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Community-measured percentages/durations are not promoted to exact canonical values.",
+      "version_notes": "Community-measured percentages/durations are not promoted to exact canonical values. 2026-09-22 exact-name Limit Burst/duration reconciliation: player-facing catalogue/stat-sheet evidence supplies the recorded Limit Burst and, where explicitly stated, the timed duration. No unreported timer or numeric stack cap was inferred.",
       "verification_status": "verified_secondary",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/ill-send-you-to-hell.md",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://www.scribd.com/document/827102999/XV2-Super-Soul-Stat-sheet"
       ]
     },
     {
@@ -2005,18 +2009,19 @@
       "effect_text": "Grants super armor during the revive.",
       "effect_magnitude": "Super armor",
       "duration": null,
-      "stacking_behavior": null,
-      "limit_burst": null,
+      "stacking_behavior": "Not reported as stackable",
+      "limit_burst": "Bomb",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "Revive Gauge Auto-Recovery!",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Community-measured percentages/durations are not promoted to exact canonical values.",
+      "version_notes": "Community-measured percentages/durations are not promoted to exact canonical values. 2026-09-22 exact-name Limit Burst/duration reconciliation: player-facing catalogue/stat-sheet evidence supplies the recorded Limit Burst and, where explicitly stated, the timed duration. No unreported timer or numeric stack cap was inferred.",
       "verification_status": "verified_secondary",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/its-okay-ill-fix-you.md",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://www.scribd.com/document/827102999/XV2-Super-Soul-Stat-sheet"
       ]
     },
     {
@@ -2032,18 +2037,19 @@
       "effect_text": "Boosts recovery speed; when using an Awoken Skill, boosts all abilities.",
       "effect_magnitude": "XL recovery speed; S all abilities",
       "duration": null,
-      "stacking_behavior": null,
-      "limit_burst": null,
+      "stacking_behavior": "Not reported as stackable",
+      "limit_burst": "Rush",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values.",
+      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values. 2026-09-22 exact-name Limit Burst/duration reconciliation: player-facing catalogue/stat-sheet evidence supplies the recorded Limit Burst and, where explicitly stated, the timed duration. No unreported timer or numeric stack cap was inferred.",
       "verification_status": "verified_secondary",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/youve-awakened-my-true-power.md",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://www.scribd.com/document/827102999/XV2-Super-Soul-Stat-sheet"
       ],
       "source_parallel_quests": [
         "pq-144"
@@ -2061,19 +2067,20 @@
       "trigger_condition": "Once only when health is below 50%",
       "effect_text": "Restores all Ki and temporarily boosts strength of all attacks.",
       "effect_magnitude": "M all attacks; full Ki restoration",
-      "duration": null,
-      "stacking_behavior": null,
-      "limit_burst": null,
+      "duration": "20 seconds",
+      "stacking_behavior": "Not reported as stackable",
+      "limit_burst": "Homing",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values.",
+      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values. 2026-09-22 exact-name Limit Burst/duration reconciliation: player-facing catalogue/stat-sheet evidence supplies the recorded Limit Burst and, where explicitly stated, the timed duration. No unreported timer or numeric stack cap was inferred.",
       "verification_status": "verified_secondary",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/lets-get-round-two-started.md",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://www.scribd.com/document/827102999/XV2-Super-Soul-Stat-sheet"
       ]
     },
     {
@@ -2088,19 +2095,20 @@
       "trigger_condition": "When the battle begins",
       "effect_text": "Temporarily disables Ultimate Attacks and prevents Ki and Stamina from depleting.",
       "effect_magnitude": "Temporary Ultimate lock; temporary Ki/Stamina non-depletion",
-      "duration": null,
-      "stacking_behavior": null,
-      "limit_burst": null,
+      "duration": "10 seconds",
+      "stacking_behavior": "Not reported as stackable",
+      "limit_burst": "Homing",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values.",
+      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values. 2026-09-22 exact-name Limit Burst/duration reconciliation: player-facing catalogue/stat-sheet evidence supplies the recorded Limit Burst and, where explicitly stated, the timed duration. No unreported timer or numeric stack cap was inferred.",
       "verification_status": "verified_secondary",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-can-finally-get-my-hands-dirty-again.md",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://www.scribd.com/document/827102999/XV2-Super-Soul-Stat-sheet"
       ]
     },
     {
@@ -2115,19 +2123,20 @@
       "trigger_condition": "When an ally gets KO'ed",
       "effect_text": "Temporarily activates Stamina and Ki Auto-Recovery Mode.",
       "effect_magnitude": "Temporary Stamina/Ki auto-recovery",
-      "duration": null,
-      "stacking_behavior": null,
-      "limit_burst": null,
+      "duration": "15 seconds",
+      "stacking_behavior": "Not reported as stackable",
+      "limit_burst": "Power",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values.",
+      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values. 2026-09-22 exact-name Limit Burst/duration reconciliation: player-facing catalogue/stat-sheet evidence supplies the recorded Limit Burst and, where explicitly stated, the timed duration. No unreported timer or numeric stack cap was inferred.",
       "verification_status": "verified_secondary",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-wont-forgive-those-who-best-my-comrades.md",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://www.scribd.com/document/827102999/XV2-Super-Soul-Stat-sheet"
       ],
       "source_parallel_quests": [
         "pq-144"
@@ -2145,19 +2154,20 @@
       "trigger_condition": "When using an Evasive Skill",
       "effect_text": "Temporarily boosts movement speed and activates Stamina Auto-Recovery Mode.",
       "effect_magnitude": "XL movement speed; temporary Stamina auto-recovery",
-      "duration": null,
-      "stacking_behavior": null,
-      "limit_burst": null,
+      "duration": "15 seconds",
+      "stacking_behavior": "Not reported as stackable",
+      "limit_burst": "Rush",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values.",
+      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values. 2026-09-22 exact-name Limit Burst/duration reconciliation: player-facing catalogue/stat-sheet evidence supplies the recorded Limit Burst and, where explicitly stated, the timed duration. No unreported timer or numeric stack cap was inferred.",
       "verification_status": "verified_secondary",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/theres-no-way-you-can-hit-me.md",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://www.scribd.com/document/827102999/XV2-Super-Soul-Stat-sheet"
       ],
       "source_parallel_quests": [
         "pq-146"
