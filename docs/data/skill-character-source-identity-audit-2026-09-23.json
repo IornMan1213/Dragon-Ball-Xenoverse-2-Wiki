@@ -6,10 +6,10 @@
   "canonical_skill_count": 465,
   "skills_with_character_source": 227,
   "source_tokens": 232,
-  "exact_bridge_matches": 187,
-  "unresolved_source_tokens": 45,
+  "exact_bridge_matches": 194,
+  "unresolved_source_tokens": 38,
   "non_character_source_tokens": 6,
-  "unresolved_character_or_variant_tokens": 39,
+  "unresolved_character_or_variant_tokens": 32,
   "findings": {
     "exact_matches": [
       "Android 13",
@@ -96,16 +96,6 @@
         "character_source": "Kefla"
       },
       {
-        "skill_id": "skill-crazy-finger-shot",
-        "skill": "Crazy Finger Shot",
-        "character_source": "Frieza"
-      },
-      {
-        "skill_id": "skill-death-slash",
-        "skill": "Death Slash",
-        "character_source": "Frieza"
-      },
-      {
         "skill_id": "skill-destruction-s-conductor",
         "skill": "Destruction's Conductor",
         "character_source": "Champa"
@@ -121,19 +111,9 @@
         "character_source": "Super Saiyan 3 Gotenks"
       },
       {
-        "skill_id": "skill-double-death-slicer",
-        "skill": "Double Death Slicer",
-        "character_source": "Frieza"
-      },
-      {
         "skill_id": "skill-dragon-spiral",
         "skill": "Dragon Spiral",
         "character_source": "Goku (Ultra Supervillain Quelled)"
-      },
-      {
-        "skill_id": "skill-emperor-s-edge",
-        "skill": "Emperor's Edge",
-        "character_source": "Frieza"
       },
       {
         "skill_id": "skill-evil-whirlwind",
@@ -146,16 +126,6 @@
         "character_source": "Kefla"
       },
       {
-        "skill_id": "skill-full-power-destruction",
-        "skill": "Full Power Destruction",
-        "character_source": "Jiren — Customize Partner"
-      },
-      {
-        "skill_id": "skill-gigantic-breaker",
-        "skill": "Gigantic Breaker",
-        "character_source": "Kefla"
-      },
-      {
         "skill_id": "skill-gigantic-explosion",
         "skill": "Gigantic Explosion",
         "character_source": "Broly (Restrained), Broly (DB Super), Broly Customize Partner"
@@ -163,11 +133,6 @@
       {
         "skill_id": "skill-god-of-destruction-s-menace",
         "skill": "God of Destruction's Menace",
-        "character_source": "Champa"
-      },
-      {
-        "skill_id": "skill-god-of-destruction-s-roar",
-        "skill": "God of Destruction's Roar",
         "character_source": "Champa"
       },
       {
@@ -320,5 +285,5 @@
     ]
   },
   "evidence_boundary": "This is an identity/navigation gap inventory, not an assertion that unresolved source strings are incorrect. Variant naming, cast-only forms, customize-partner labels, and aggregate user lists require explicit reconciliation before adding bridge records.",
-  "next_action": "Reconcile unresolved character_source tokens against the canonical character roster in bounded batches, then generate skill→character reverse navigation only from resolved identities."
+  "next_action": "Reconcile remaining unresolved character_source tokens against the canonical character roster in bounded batches, prioritizing aggregate-user entries, exact canonical variants, and customize-partner identities."
 }
