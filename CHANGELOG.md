@@ -2191,3 +2191,9 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - Commit: `f7b0a6b0da4961b7e67f51b014ac8aa2abf97135`.
 - [ ] Exact next batch: continue the deterministic cross-domain coverage/projection audit, prioritizing a machine-checkable current-field mismatch rather than speculative gameplay data.
+
+
+### 2026-09-23 — Verified PQ relationship baseline propagated
+- Corrected current PQ relationship projections to the verified **854 total / 146 Super Soul** baseline (244/146/124/247/86/7).
+- Preserved superseded 859/151 snapshots as historical evidence where applicable.
+- Updated validators and current consumer-baseline metadata; CI/runtime remains unavailable.
