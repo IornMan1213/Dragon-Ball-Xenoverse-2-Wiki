@@ -2621,3 +2621,14 @@
 - [x] Preserved evidence boundaries: no unsupported reward probabilities or Ultimate-Finish requirements; no unverified engine rates were invented; record 179's community ~29–30% guard-break observation did not overwrite the documented -20% value.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Exact next batch: recompute the live indexed/thin census and select the next 4–12 highest-impact indexed records with exact-name evidence and reusable PQ/cross-domain relationships; include record 158 only if a clean Super Soul/skill identity separation is established.
+
+
+### 2026-09-22 cycle update — Super Soul 182–190 provenance/mechanics refresh
+- [x] Live census before editing: **234 canonical Super Souls / 61 indexed-status records** after the previous 173–181 refresh.
+- [x] Bounded batch: **super-soul-182 through super-soul-190**, selected as the next contiguous indexed PQ-linked cluster with strong exact-name catalogue evidence.
+- [x] Refreshed character/DLC provenance, trigger/effect/magnitude, supported duration/stacking, Limit Burst, verification date, and sources for all 9 records.
+- [x] Preserved canonical PQ edges: **182→PQ111, 183→PQ112, 184→PQ112, 185→PQ112, 186→PQ113, 187→PQ113, 188→PQ114, 189→PQ115, 190→PQ116**.
+- [x] Added and registered `docs/data/super-soul-182-through-190-provenance-audit-2026-09-22.json`.
+- [x] No reward probabilities, unsupported Ultimate-Finish requirements, or canonical relationship changes were introduced.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Exact next batch: recompute the live indexed/thin census and continue with the next 4–12 highest-impact indexed records with exact-name evidence and reusable cross-domain relationships; preserve unresolved identity conflicts such as 158.
