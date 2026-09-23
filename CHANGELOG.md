@@ -2453,3 +2453,15 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Preserved documented reward-tier/scope conflicts and avoided unsupported probability or gate inference.
 - Added and registered `docs/data/skill-provenance-audit-2026-09-23-charged-through-core.json`.
 - Validation target: **455 canonical / 455 index / 0 duplicate IDs / 5 targets synchronized**.
+
+
+### 2026-09-23 cycle update — P1 Core-through-Critical skill provenance refresh
+- Live census before editing: **455 canonical / 455 index / 1 exact-two-source / 405 stale verification dates**.
+- Bounded batch: **Counter Burst, Counter Impact, Crazy Finger Shot, Crimson Edge, Critical Upper**.
+- Research/evidence: dedicated Xenoverse 2 references and independent corroboration were rechecked; the official Dragon Ball site independently corroborates Counter Impact's counter behavior. citeturn2search0turn2search1turn2search2turn3search1turn2search6turn3search7
+- Changes: synchronized canonical/index sources and refreshed all five targets to **2026-09-23**; Counter Impact gained the official Dragon Ball source.
+- Evidence limits/conflicts preserved: no unsupported drop probability, extra gate, or narrower CaC restriction was inferred.
+- Added/registered **docs/data/skill-provenance-audit-2026-09-23-core-through-critical-upper.json** and **docs/data/skill-stale-metadata-census-2026-09-23-core-through-critical-upper.json**.
+- Validation: **455/455**, **0 duplicate IDs**, target parity **clean**, stale queue **400**, exact-two-source queue **1**.
+- CI/runtime: no successful GitHub Actions status exposed; no CI success claimed.
+- Exact next batch: recompute the live stale queue and continue from **Burst Blitz, Burst Kamehameha, Burst Reflection, Burst Rush, Burst Stinger, Change The Future, Chaos Shot, Chaos Wall, Chaotic Time Impact, Charge**; do not repeat this completed batch.
