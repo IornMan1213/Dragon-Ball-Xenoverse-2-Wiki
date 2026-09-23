@@ -2842,3 +2842,12 @@
 - Refreshed the thin census to **234 canonical records / 0 duplicate IDs / 174 strict-thin records**.
 - CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - Exact next priority: recompute the live strict-thin queue and select the next **4–12 evidence-supported partially-verified records**; keep **034** evidence-bound unless exact-name item-level mechanics evidence improves.
+
+
+### 2026-09-22 — Super Soul Limit Burst reconciliation (053 / 056 / 059 / 065)
+- Reconciled **053, 056, 059, and 065** with exact-name Fandom and independent GameFAQs evidence.
+- Populated their documented Limit Burst type/effect fields; duration and stacking remain unresolved where the evidence does not establish them.
+- Added and registered `docs/data/super-soul-053-056-059-065-limit-burst-reconciliation-2026-09-22.json`.
+- No canonical PQ relationship, acquisition identity, reward probability, or Ultimate-Finish requirement changed.
+- CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- Exact next task: continue the live strict-thin queue with the next evidence-supported partially verified records; preserve unresolved fields rather than guessing.
