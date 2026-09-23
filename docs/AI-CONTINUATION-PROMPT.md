@@ -5117,3 +5117,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Removed the resolved paid costume/accessory gap from the DAIMA matrix. Remaining unresolved DAIMA domains are free-update inventory, raid/lobby record layers, and complete loading-screen inventory; reward-slot/guaranteed-drop semantics remain unresolved where not established by the canonical PQ relationship layer.
 - CI/runtime remains unavailable; no CI success claimed.
 - Exact next priority: continue remaining DAIMA paid domains only where concrete canonical records and official scope permit; prioritize loading-screen completeness if a canonical illustration layer can be reconciled, otherwise continue the next unresolved paid domain without crossing into free-update ownership.
+
+
+### 2026-09-23 cycle update — DAIMA paid illustration scope reconciliation
+- Reconciled the official **8 paid DAIMA illustrations/loading screens** using Bandai Namco and platform store listings.
+- Live-tree inspection found no dedicated canonical illustration/loading-screen record layer under `docs/data`; therefore no synthetic illustration IDs, names, acquisition routes, or PQ reward slots were invented.
+- Preserved the ownership boundary: Bandai Namco separately identifies free-update loading screens and lobby items, so those remain outside the paid eight.
+- Added `docs/data/dlc/daima-paid-illustration-scope-reconciliation-2026-09-23.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- Exact next priority: establish a canonical illustration/loading-screen record layer only when the individual eight paid identities can be source-backed, then cross-link them to the DAIMA pack and acquisition relationships. If that evidence remains insufficient, move to the next concrete paid domain rather than inventing records.
+- CI/runtime remains unavailable; no CI success claimed.
