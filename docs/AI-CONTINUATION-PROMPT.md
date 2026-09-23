@@ -6644,3 +6644,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime unavailable; no CI success claimed.
 - Commits: alias `432a92360816694eba15a70edf45df55c35aaee3`; skill audit `a4c0083c4f6724c8c9a84a50949595dcaced6beb`; single-source `c2ed2e2b8ad46a1c303fd4e73ec475e2abcdeadf`; consumer census `05ea6cae7584aeb689e776e77616f0f0fa8e8c97`; cross-domain index `34cc9069e1558f85ea5402e20302fc1bbe543b2a`.
 - **Exact next task:** continue exact-pair parity scanning of remaining reverse/navigation projections for stale 853/145/465 assumptions, then return to explicit source-backed preset reconciliation. Never rewrite dated historical baselines merely to match the current state.
+
+
+### 2026-09-23 cycle update — Exact-pair reverse/navigation parity synchronization
+- [x] Scanned remaining PQ reverse/navigation consumers for current-looking Super Soul parity drift.
+- [x] Corrected `docs/data/pq-explorer-reward-navigation-audit.json` structured Super Soul parity from the superseded 146-edge projection to the authoritative **145** canonical edges.
+- [x] Corrected `docs/data/record-reverse-pq-navigation-audit.json` Super Soul forward/reverse pair counts from 146/143 to **145/142**, preserving exact-pair parity.
+- [x] Corrected `docs/data/pq-endpoint-identity-resolution-audit.json` current relationship baseline from **854 / 146 / 143** to **853 / 145 / 142**.
+- [x] Re-scanned `"super_soul": 146` occurrences; remaining matches are historical/reconciliation artifacts or record-ID/content context, not newly identified current projections.
+- [x] Validation: modified JSON artifacts reparsed successfully; no canonical relationship rows or identities changed.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- Commits: explorer `dae2d7c1b7354d9302ff0c546b4e17834a4cf181`; reverse navigation `852b7dc2469efccc296365b14f1223ffea49697c`; identity resolution `bf8e0e22a814d7da42112c35b7336c6e9b66539b`.
+- **Exact next task:** continue the parity scan for stale canonical skill/character/domain counts in reverse/navigation projections, then resume explicit source-backed preset reconciliation where exact evidence exists.
