@@ -3868,3 +3868,11 @@
 - [x] Registered `docs/data/super-soul-158-identity-reconciliation-2026-09-23.json` and refreshed the checkpoint.
 - [ ] Migrate the collision to the canonical Super Skill domain when the repository's ID-mapping mechanism is ready.
 - [ ] Continue **Super Soul 217** Limit Burst/item-level evidence, then **032**.
+
+
+### 2026-09-23 — TODO completion update — Super Souls 217 / 032 evidence refresh
+- [x] Fresh exact-name research for **Super Soul 217 — “Power! A lotta power! It's great!”** corroborated its +12 Ki/+12 Stamina utility and PQ 134 association.
+- [x] Confirmed that the consulted current results still do **not** provide reliable item-level Limit Burst trigger/effect evidence for 217; Limit Burst remains explicitly unresolved.
+- [x] Refreshed **Super Soul 032 — “This power... It's different from any I've ever had.”** with exact PQ 185 reward evidence and documented the second displayed-name state after KO.
+- [x] Preserved the boundary that the 032 second displayed name does not establish a second mechanical effect.
+- [ ] Continue searching for authoritative/item-level Limit Burst data for 217 without inference.
