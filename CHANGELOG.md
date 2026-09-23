@@ -2410,3 +2410,15 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - CI/runtime unavailable; no CI success claimed.
 - Commits: canonical `2ae3493f2c7c31388b6644bd6d82fee1cd0f0648`; index `cf69de4a2b43c4e0df0682c3d2617faa8256620e`; audit `e62bc170904a203baca74102bbb36858cea7b3b0`; registry `e083f41e91a4f3b836f2c4adf62bebf83553d348`.
 - Exact next batch: **Break Cannon, Breaker Energy Wave, Brutal Buster, Burning Spin, Burst Charge**; recompute live state before editing.
+
+
+### 2026-09-23 cycle update — P1 Break-through-Burst skill provenance refresh
+- Live census: **455 canonical / 455 index / 0 duplicate IDs**.
+- Completed bounded batch: **Break Cannon, Breaker Energy Wave, Brutal Buster, Burst Charge**.
+- Existing multi-source evidence was rechecked and verification dates refreshed to **2026-09-23**. No acquisition tier, reward probability, mechanics, cost, restriction, or DLC semantics were changed.
+- **Burning Spin was intentionally not edited:** the live canonical 455-record dataset has no `skill-burning-spin` record; it exists only in legacy research-batch material, so no new canonical record was invented during this pass.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-23-break-through-burst.json`.
+- Validation: **455 canonical / 455 index / 0 duplicate IDs / 415 stale**; canonical/index last-verified mismatches: **0**.
+- CI/runtime unavailable; no CI success claimed.
+- Commits: canonical `62a84b6fc501c00ee8e79f34b4a072bd6dff54dd`; index `c5716f8635c33bd9ac423e58fecb68bfb13a7bc2`; audit `28559c46a3dfded35b2525a3b5e51fb6bc08d644`; registry `eb14d28afd00784b41cb000a9ae0080b85094ae7`.
+- Exact next queue: recompute live state and continue from the next stale canonical record after **Burst Charge**; do not promote legacy-only Burning Spin unless a deliberate catalog-ingestion task is selected.
