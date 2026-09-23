@@ -6,10 +6,10 @@
   "canonical_skill_count": 465,
   "skills_with_character_source": 227,
   "source_tokens": 232,
-  "exact_bridge_matches": 194,
-  "unresolved_source_tokens": 38,
+  "exact_bridge_matches": 200,
+  "unresolved_source_tokens": 32,
   "non_character_source_tokens": 6,
-  "unresolved_character_or_variant_tokens": 32,
+  "unresolved_character_or_variant_tokens": 26,
   "findings": {
     "exact_matches": [
       "Android 13",
@@ -106,11 +106,6 @@
         "character_source": "Goku (Ultra Instinct), Goku (Ultra Instinct -Sign-)"
       },
       {
-        "skill_id": "skill-do-or-die",
-        "skill": "Do or Die",
-        "character_source": "Super Saiyan 3 Gotenks"
-      },
-      {
         "skill_id": "skill-dragon-spiral",
         "skill": "Dragon Spiral",
         "character_source": "Goku (Ultra Supervillain Quelled)"
@@ -126,19 +121,9 @@
         "character_source": "Kefla"
       },
       {
-        "skill_id": "skill-gigantic-explosion",
-        "skill": "Gigantic Explosion",
-        "character_source": "Broly (Restrained), Broly (DB Super), Broly Customize Partner"
-      },
-      {
         "skill_id": "skill-god-of-destruction-s-menace",
         "skill": "God of Destruction's Menace",
         "character_source": "Champa"
-      },
-      {
-        "skill_id": "skill-god-punisher",
-        "skill": "God Punisher",
-        "character_source": "Gogeta (Super Saiyan Blue)"
       },
       {
         "skill_id": "skill-headshot",
@@ -171,11 +156,6 @@
         "character_source": "Toppo"
       },
       {
-        "skill_id": "skill-power-pole-combo",
-        "skill": "Power Pole Combo",
-        "character_source": "Goku (GT) / Goku (GT) customizable partner"
-      },
-      {
         "skill_id": "skill-raid-blast",
         "skill": "Raid Blast",
         "character_source": "Super Saiyan God Vegeta"
@@ -184,16 +164,6 @@
         "skill_id": "skill-ray-blast",
         "skill": "Ray Blast",
         "character_source": "Kefla"
-      },
-      {
-        "skill_id": "skill-requiem-of-destruction",
-        "skill": "Requiem of Destruction",
-        "character_source": "Whis — Customize Partner"
-      },
-      {
-        "skill_id": "skill-rolling-bullet",
-        "skill": "Rolling Bullet",
-        "character_source": "Android 18 / Android 18 (DB Super) / Great Saiyaman 2"
       },
       {
         "skill_id": "skill-sauzer-blade",
