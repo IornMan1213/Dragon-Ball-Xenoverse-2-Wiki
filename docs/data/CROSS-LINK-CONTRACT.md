@@ -107,6 +107,6 @@ Added `docs/data/time-rift-story-tournament-endpoints.json` with **11 determinis
 
 ### Expert Mission acquisition endpoint baseline — 2026-09-23
 - `docs/data/expert-mission-endpoints.json` defines stable endpoint IDs `em-03` through `em-20` from the existing Expert Mission acquisition index.
-- The layer currently yields **18 mission endpoints / 8 canonical skill edges / 10 explicit unresolved reward-name gaps**.
+- The layer currently yields **18 mission endpoints / 18 canonical skill edges / 0 unresolved reward-name gaps**.
 - Unresolved names are retained as producer→consumer gaps; no fabricated skill IDs are allowed.
 - `docs/data/expert-mission-endpoint-audit-2026-09-23.json` records structural validation and the unresolved set.
