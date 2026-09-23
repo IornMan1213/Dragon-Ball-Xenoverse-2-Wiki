@@ -5517,3 +5517,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Added beta provenance audit and beta stale-census artifacts and registered the audit in the cross-domain index.
 - Live canonical skill layer remains **455/455 with 0 duplicate IDs**; beta targets are synchronized. CI/runtime unavailable; no CI success claimed.
 - Exact next batch: **Android Kick, Android Rush, Android Shoot, Android S.S. Deadly Bomber, Android Tri-Beam**. Recompute the live census first.
+
+
+### 2026-09-23 cycle update — P1 skill provenance gamma batch
+- Live inspection corrected the previous handoff: **Android Kick, Android Shoot, Android S.S. Deadly Bomber, and Android Tri-Beam are not canonical skill records**; Android Rush was already completed.
+- Completed **Assault Vanish, Atomic Blast, Audacious Laugh** and synchronized canonical/index last_verified to 2026-09-23.
+- Added and registered gamma provenance audit and stale census artifacts.
+- Validation: **455/455**, 0 duplicate IDs; **439** records remain stale.
+- Exact next batch: **Beast, Become Giant, Bending Kamehameha, Big Bang Kamehameha, Big Bang Knuckle**. Recompute the live census first.
