@@ -3726,3 +3726,11 @@
 - [x] Validation: both new JSON layers parse; mascot/index count is 1; Puar ID is unique; DLC reconciliation points to `mascot-puar`.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: validate mascot-layer consumers/reverse navigation, then resume the five remaining Support Pack costume identities while preserving the `equip-140` boundary.\n
+
+### 2026-09-23 — TODO completion update — CC Mascot reverse navigation
+- [x] Added `docs/data/cc-mascots-reverse-index.json` with exact `mascot-puar` reverse navigation and canonical-ID parity validation.
+- [x] Registered the reverse index in `docs/data/pq-cross-domain-index.json`.
+- [x] Removed the stale “no canonical CC Mascot layer” statement from the Support Pack unresolved-content projection and updated its Puar notes to reflect canonical promotion.
+- [x] Validation: canonical mascot count 1; reverse-index count 1; ID sets match; unresolved mascot IDs 0; equipment/accessory aliases 0.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: resume the five unmatched Support Pack costume identities and determine whether a safe canonical equipment-layer extension is possible without inventing IDs.
