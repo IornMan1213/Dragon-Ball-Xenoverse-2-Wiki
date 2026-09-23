@@ -5820,3 +5820,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation after write: 455 canonical / 455 index / 244 stale / 0 duplicate IDs; all 12 target records have canonical/index parity.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next batch: Gigantic Roar, God Breaker, God of Destruction's Anger, God of Destruction's Menace, God of Destruction's Might, God of Destruction's Plaything, God of Destruction's Poise, God of Destruction's Rampage, God of Destruction's Roar, God of Destruction's Wrath, God Punisher, God Splitter. Recompute live stale queue first.
+
+
+### 2026-09-23 cycle update — P1 Gigantic Roar through God Splitter skill provenance/mechanics refresh
+- Live census before editing: 455 canonical / 455 index / 244 stale / 0 duplicate IDs.
+- Bounded batch: Gigantic Roar, God Breaker, God of Destruction's Anger, God of Destruction's Menace, God of Destruction's Might, God of Destruction's Plaything, God of Destruction's Poise, God of Destruction's Rampage, God of Destruction's Roar, God of Destruction's Wrath, God Punisher, God Splitter.
+- Changes: canonical/index verification dates and bounded mechanics/provenance notes refreshed; unsupported fields were not inferred.
+- Audit added and registered: docs/data/skill-provenance-audit-2026-09-23-gigantic-roar-through-god-splitter.json.
+- Validation after write: 455 canonical / 455 index / 232 stale / 0 duplicates; target parity mismatches 0.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next batch: Godly Chronos Cannon, Godly Display, Gorgeous Shot, Grand Smasher, Gravity Impact, Handy Canon, Hawk Charge, Headshot, Heat Dome Attack, Heat Wave, Heavenly Arrow, Hell Flash. Recompute live stale queue first.
