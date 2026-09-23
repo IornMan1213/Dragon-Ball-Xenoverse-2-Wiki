@@ -6494,3 +6494,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Commits:** preset layer `f429351c1f1bc5256a3c5b60de2993ccdb6adfff`; audit `4b2bfb28154f3f20250a03c4a44fdef37671c8bc`.
 - **Exact next task:** continue with another bounded batch of explicit numbered/name-matched preset records; Goku remains unresolved until a source explicitly maps its repository numeric IDs to the named source rows.
+
+### 2026-09-23 cycle update — Vegeta/Captain Ginyu explicit preset-loadout evidence batch
+- [x] Revalidated the live preset layer before editing: 40 preset records with the prior 9 verified loadouts / 58 verified skill-slot entries.
+- [x] Promoted Vegeta Preset 8 using the explicit Battle Suit 8 in-game-data table.
+- [x] Promoted Captain Ginyu Presets 2, 3, and 4 using the explicit Battle Suit 2, Vegeta-body, and Trunks-body rows from the current Captain Ginyu in-game-data table.
+- [x] Preserved Captain Ginyu body-swap configurations at the preset/presentation layer; no canonical character identity was reassigned. The source labels the Preset 4 body row Trunks, while the repository record label is Xeno Trunks; that naming discrepancy remains explicit.
+- [x] Updated the preset record layer and navigation audit to 13 verified loadouts / 83 verified skill-slot entries.
+- [x] Evidence sources: maintained repository community preset inventory plus current Dragon Ball Xenoverse 2 Wiki character tables for Vegeta and Captain Ginyu.
+- [x] Validation: changed JSON parsed successfully; all four promoted records have structured loadouts and explicit loadout sources; preset IDs/numbers remain unique; no Festival/custom-partner records were promoted.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- Exact next batch: continue with another bounded set of explicit numbered/name-matched preset records; prioritize unresolved records whose source table directly identifies the same repository preset number/name, while keeping Goku numeric presets unresolved until an explicit mapping is found.
