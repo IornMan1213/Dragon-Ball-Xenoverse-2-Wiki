@@ -15,13 +15,16 @@
     "unbridged_presentation_character_ids": 0,
     "resolved_skill_character_edges": 50,
     "preset_characters_with_character_source_skill_identity": 5,
-    "preset_characters_without_character_source_skill_identity": 7
+    "preset_characters_without_character_source_skill_identity": 7,
+    "verified_preset_loadout_records": 1,
+    "verified_loadout_skill_entries": 7
   },
   "checks": {
     "all_preset_character_ids_resolve_via_explicit_bridge": true,
     "preset_record_ids_unique": true,
     "numbered_character_preset_pairs_unique": true,
-    "no_unsupported_preset_loadout_skill_edges": true
+    "no_unsupported_preset_loadout_skill_edges": true,
+    "verified_loadout_records_have_explicit_sources": true
   },
   "character_source_skill_identity_overlap": [
     {"character_id":"goku","canonical_character_name":"Goku","skill_ids":["skill-meteor-blow","skill-meteor-strike"]},
@@ -39,6 +42,16 @@
     "Piccolo (Power Awakening)",
     "Orange Piccolo"
   ],
-  "evidence_boundary": "Character-source skill links are identity/provenance relationships, not preset loadout claims. The preset layer marks loadouts unresolved, so this audit does not create preset→equipped-skill edges. Characters without a resolved character-source skill edge are evidence gaps, not broken links.",
-  "next": "Audit broader character/preset presentation consumers for deterministic identity/search parity, then pursue source-backed preset loadout evidence only where an explicit loadout source exists."
+  "verified_preset_loadouts": [
+    {
+      "preset_id": "frieza-final-preset-2",
+      "character_id": "frieza-final-form",
+      "skill_names": ["Death Slash","Death Beam","Death Psycho Bomb","Maximum Charge","Full Power Energy Blast Volley","Death Ball","Psychic Move"],
+      "super_soul": "Gotcha!",
+      "source": "https://dbxv2.fandom.com/wiki/Frieza_%28Final_Form%29",
+      "scope": "Explicit Final Form 2 in-game-data table; this is a sourced loadout record, not an acquisition or exclusivity claim."
+    }
+  ],
+  "evidence_boundary": "Character-source skill links remain identity/provenance relationships, not preset loadout claims. One preset (frieza-final-preset-2) now has an explicit sourced loadout; the remaining indexed preset records remain unresolved. Characters without a resolved character-source skill edge are evidence gaps, not broken links."
+  "next": "Continue source-backed preset-loadout reconciliation in bounded batches, prioritizing records with explicit in-game-data tables; keep indexed-only presets unresolved when no item-level loadout evidence exists."
 }
