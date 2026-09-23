@@ -4945,3 +4945,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Updated the current consumer-baseline correction artifact to distinguish the superseded projection from current source-of-truth state.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Next: scan remaining current-looking artifacts for stale 859/151 fields.
+
+
+### 2026-09-23 cycle update — Verified 854/146 PQ consumer baseline propagation
+- Live canonical relationship census: **854 total / 244 skill / 146 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming**; canonical PQ→Super Soul projection is **146 forward / 143 reverse targets**.
+- Bounded batch: deterministic current consumer/projection repair after the resolved 151/146 Super Soul discrepancy.
+- Changed: `docs/data/pq-relationship-producer-census.json`, `docs/data/pq-cross-domain-status.json`, `scripts/validate_pq_non_pq_consumer_census.py`, `docs/data/pq-non-pq-consumer-census-2026-09-22.json`, and `docs/data/super-soul-thin-census-2026-09-23.json`; added `docs/data/pq-current-super-soul-baseline-repair-2026-09-23.json`.
+- Evidence boundary: canonical `docs/data/pq-reward-relationships.json` is authoritative at 854/146; the Super Soul crosslink report independently parses to 146 forward / 143 reverse. No relationship edge was added, deleted, renamed, or inferred in this cycle.
+- Validation: canonical JSON parses; producer/status projections match 854/146/143; PQ page consumer audit already reports 146/146 exact Super Soul pair parity; thin census synchronized to 146/143; non-PQ census synchronized to the verified baseline. Static direct-fetch validation only; runtime/CI remains unavailable and no CI success is claimed.
+- Commits: `f374bf608e0d709eddd8b67ab8bd608a05e540ea`, `ccf79baf940c255a934bd5c41555ff6218077db2`, `59e32ae6b9bcfa22878b692b48c441d61bcd241e`, `4617d71bd84aa47beaf077722521eec07356663b`, `f7cacc4f400e191d8614fabcefdc810641ecdd16`, `a1d61d969c90da0826709ac0278ece4351e82c53`.
+- Exact next batch: scan the remaining **current-looking** 859/151 consumer artifacts, beginning with endpoint/navigation validators and standalone/unified reverse-index projections; patch only deterministic current/live fields and preserve all dated historical snapshots.
