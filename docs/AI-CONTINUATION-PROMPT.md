@@ -4516,3 +4516,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - Exact next batch: recompute the live strict-thin queue and continue the next evidence-supported cluster, prioritizing records with explicit duration/stacking evidence and preserving 032/034 as evidence boundaries.
 
+
+
+### 2026-09-23 cycle update — unified PQ reverse-index exact-pair census
+- Inspected the live canonical PQ relationship layer and the unified reverse-index projection after the prior standalone reverse-index repairs.
+- Compared every canonical typed PQ relationship against the unified reverse index at exact target/PQ pair level, treating equipment as the union of the clothing and accessory projection domains.
+- Live parity: **859 canonical pairs / 859 unified projection pairs / 0 missing / 0 extra / 0 duplicate projection pairs / 0 invalid PQ numbers / 0 invalid list fields**.
+- Current domain counts: **244 skills / 151 Super Souls / 124 equipment / 247 characters / 86 DLC / 7 farming**.
+- Corrected deterministic audit metadata drift in `docs/data/pq-reward-normalization/pq-unified-reverse-index-audit.json`: the live equipment projection split is **84 clothing / 40 accessories = 124**, replacing its stale historical 83/41 split while preserving the historical audit record.
+- No canonical relationship identities were changed and no partial-source omission was promoted into canonical data.
+- CI/runtime: the connector environment did not execute the repository Python validator; do not claim runtime validation or CI success. The exact live pair census is recorded as structural/connector validation.
+- Audit commit: `254e25870c0f933bf5821136b5374df14f5aff8d`.
+- Exact next task: inspect the remaining generated/reconciliation artifacts for stale **current-state** producer metadata/counts outside the already audited PQ relationship reports, repair only deterministic drift, and preserve all historical counts/scopes. Do not begin new provenance enrichment until this structural scan is clean.
