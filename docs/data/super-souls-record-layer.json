@@ -4100,7 +4100,7 @@
       "usable_by_cac": true,
       "race_restriction": null,
       "version_notes": "Mechanics refreshed from current catalogue and independent historical guide/stat-sheet evidence; exact activation duration was not promoted.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
@@ -4657,7 +4657,7 @@
       "usable_by_cac": null,
       "race_restriction": null,
       "version_notes": "Mechanics/provenance refreshed from current maintained Super Soul catalogue plus independent historical/stat-sheet evidence. Exact reward probabilities and unsupported Ultimate-Finish conditions are not asserted here.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
@@ -4722,7 +4722,7 @@
       "usable_by_cac": null,
       "race_restriction": null,
       "version_notes": "Mechanics/provenance refreshed from current maintained Super Soul catalogue plus independent historical/stat-sheet evidence. Exact reward probabilities and unsupported Ultimate-Finish conditions are not asserted here.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
@@ -4853,7 +4853,7 @@
       "usable_by_cac": null,
       "race_restriction": null,
       "version_notes": "Mechanics/provenance refreshed from current maintained Super Soul catalogue plus independent historical/stat-sheet evidence. Exact reward probabilities and unsupported Ultimate-Finish conditions are not asserted here.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
@@ -5111,13 +5111,14 @@
       "usable_by_cac": null,
       "race_restriction": null,
       "version_notes": "Mechanics/provenance refreshed from the maintained Super Soul catalogue, DLC provenance, and independent historical evidence. Exact reward probabilities and unsupported Ultimate-Finish conditions are not asserted.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://dbxv2.fandom.com/wiki/DLC",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75505268",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Majin_Buu"
       ],
       "source_parallel_quests": [
         "pq-113"
@@ -5439,14 +5440,15 @@
       "usable_by_cac": null,
       "race_restriction": null,
       "version_notes": "Mechanics/provenance refreshed from the maintained Super Soul catalogue, DLC provenance, and independent historical evidence. Exact reward probabilities and unsupported Ultimate-Finish conditions are not asserted.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://dbxv2.fandom.com/wiki/DLC",
         "https://dbxv2.fandom.com/wiki/Hero%27s_Flute",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76421943",
-        "https://steamcommunity.com/app/454650/discussions/0/1694914735996486824"
+        "https://steamcommunity.com/app/454650/discussions/0/1694914735996486824",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80613854?page=2"
       ],
       "source_parallel_quests": [
         "pq-121"
