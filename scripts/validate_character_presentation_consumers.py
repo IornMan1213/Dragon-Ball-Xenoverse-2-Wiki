@@ -49,6 +49,14 @@ def main():
     unresolved_partner=sorted(set(partner_ids)-set(bridge_map))
     invalid_targets=sorted((cid,name) for cid,name in bridge_map.items() if name not in canon)
     partner_parity=sorted(set(partner_ids)^set(recon_ids))
+    verified_loadout_records=[r for r in presets if r.get("loadout_status")=="verified"]
+    malformed_verified_loadouts=[
+        r.get("id") for r in verified_loadout_records
+        if not isinstance(r.get("loadout"),dict)
+        or not r.get("loadout")
+        or not isinstance(r.get("loadout_source"),str)
+        or not r.get("loadout_source")
+    ]
     partner_name_mismatches=[]
     for r in partners:
         target=bridge_map.get(r.get("character_id"))
@@ -74,6 +82,7 @@ def main():
         "characters_page_links_canonical_explorer":characters_explorer_link,
         "core_profiles_do_not_hardcode_preset_labels":not markdown_preset_labels,
         "core_profiles_expose_search_design":core_profile_search_design,
+        "verified_loadouts_have_explicit_sources":not malformed_verified_loadouts,
     }
     report={"schema_version":"1.0.0","scope":"character-facing presentation consumers",
       "canonical_source":"docs/data/characters-record-layer.json",
@@ -98,6 +107,8 @@ def main():
         "special_record_types":special_records,
         "invalid_record_types":invalid_record_types,
         "special_record_numbering_conflicts":special_numbering_conflicts,
+        "verified_preset_loadout_records":len(verified_loadout_records),
+        "malformed_verified_loadout_records":malformed_verified_loadouts,
         "markdown_consumers":{
           "characters_page_links_canonical_explorer":characters_explorer_link,
           "core_profiles_expose_search_design":core_profile_search_design,
@@ -105,7 +116,7 @@ def main():
         },
         "checks":checks,
         "status":"clean" if all(checks.values()) else "unresolved"},
-      "evidence_boundary":"This audit proves identity/navigation parity and producer-record integrity only. It does not verify complete preset numbering, loadouts, unlock routes, DLC ownership, raid rotation, TP Medal costs, or historical update chronology.",
+      "evidence_boundary":"This audit proves identity/navigation parity, producer-record integrity, and that any preset explicitly marked loadout_status=verified has a structured loadout plus an explicit loadout source. It does not verify complete preset numbering, unresolved loadouts, unlock routes, DLC ownership, raid rotation, TP Medal costs, or historical update chronology.",
       "rules":["Canonical character names remain authoritative.","Presentation IDs are resolved only through the explicit bridge.","Unresolved identity variants remain unresolved.","No character identity is inferred from a slug or display-name similarity."]}
     print(json.dumps(report,indent=2,ensure_ascii=False))
     return 0 if report["results"]["status"]=="clean" else 1
