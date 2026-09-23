@@ -4085,3 +4085,10 @@
 - Added/registered `docs/data/skill-provenance-audit-2026-09-23-buu-through-chain.json`; updated `CHANGELOG.md`.
 - Validation target: **455 canonical / 455 index / 0 duplicate IDs / 5 targets synchronized**. No CI success claimed.
 - Exact next action: recompute live stale state and continue with the next stale records after Chain Destructo-Disc Barrage; do not repeat this batch.
+
+### 2026-09-23 cycle update — P1 Change The Future through Charge provenance refresh
+- Continued from the post-Chain Destructo-Disc Barrage queue and completed **Change The Future, Chaos Shot, Chaos Wall, Chaotic Time Impact, and Charge**.
+- Refreshed canonical/index verification dates to `2026-09-23`; preserved existing acquisition conflicts and unresolved fields rather than inferring unsupported facts.
+- Added/registered `docs/data/skill-provenance-audit-2026-09-23-change-through-charge.json` and updated `CHANGELOG.md`.
+- Validation target: **455 canonical / 455 index / 0 duplicate IDs / 5 targets synchronized**. No CI success claimed.
+- Exact next action: recompute live stale state and continue with the next stale records after **Charge**; do not repeat this batch.
