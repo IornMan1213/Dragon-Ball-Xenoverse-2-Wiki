@@ -5252,3 +5252,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Commits: audit **e1ed5ae285f2d6289479915fd0f167c4fb2a8a68**; TODO **bc54c3aa6e64a56a4bd46b4bddf8b5e4387c51c7**.
 - CI/runtime: unavailable; no CI success claimed.
 - Exact next batch: resolve the canonical equipment-layer capacity/ID architecture question for these five evidence-backed identities without inventing equip-141+ records; if the layer remains intentionally closed at equip-140, preserve the five as explicit inventory gaps and then proceed to the **Puar/CC Mascot** identity gap.
+
+
+### 2026-09-23 cycle update — Time Patrol Support Pack Puar / CC Mascot identity
+- Live canonical skill census remains **455 records**; equipment architecture remains bounded at legacy **equip-140**.
+- Bounded batch: **Puar**, the remaining advertised Time Patrol Support Pack CC Mascot.
+- Research: official PlayStation/Nintendo/Steam/Xbox storefronts identify Puar as a Support Pack **CC Mascot**. Independent CC Mascot documentation establishes that Puar belongs to the separate lobby-item mascot domain, distinguishes Puar from its color variants, and documents non-DLC acquisition routes. citeturn0search0turn0search1turn0search2turn0search5
+- Changes: added `docs/data/dlc/time-patrol-support-pack-puar-cc-mascot-identity-reconciliation-2026-09-23.json`; registered it in `docs/data/pq-cross-domain-index.json`; updated `docs/data/dlc/time-patrol-support-pack-content-reconciliation-2026-09-23.json`; appended the durable TODO entry.
+- Identity boundary: Puar is **not equipment or an accessory**. No `equip-###` or `acc-###` alias was created. The live repository currently has no dedicated canonical CC Mascot record layer, so no mascot ID was invented.
+- Validation: new audit parses; cross-domain registration is present; Support Pack content reconciliation records the exact Puar identity and missing canonical-domain layer; no existing canonical skill/equipment/accessory counts were changed.
+- CI/runtime: unavailable; no CI success claimed.
+- Commits: Puar audit **2445200975c2c0f38cc46e704b9c1d9616642635**; cross-domain registration **7161e738b7dfacea0d42afd3c5ad95ca6a1509ca**; content reconciliation **11c4aaa482b215813c3a7859d61b93d75e1feb86**; TODO **36509ef2f68395ddacbdebbc0e169cbd69a783b2**.
+- Exact next batch: introduce the smallest dedicated **CC Mascot canonical/catalog schema and index**, then promote Puar with exact DLC provenance and validate navigation parity. Preserve the five unmatched costume identities as evidence-backed equipment inventory gaps and do not invent `equip-141+` IDs.
