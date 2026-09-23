@@ -3876,3 +3876,14 @@
 - [x] Refreshed **Super Soul 032 — “This power... It's different from any I've ever had.”** with exact PQ 185 reward evidence and documented the second displayed-name state after KO.
 - [x] Preserved the boundary that the 032 second displayed name does not establish a second mechanical effect.
 - [ ] Continue searching for authoritative/item-level Limit Burst data for 217 without inference.
+
+
+### 2026-09-23 — TODO completion update — Super Soul 034 bounded item-level evidence pass
+- [x] Recomputed the live strict-thin queue before research: **229 canonical / 0 duplicate IDs / 4 strict-thin records** — 032, 034, 158, 217.
+- [x] Performed a fresh exact-name/item-level evidence pass for **Super Soul 034 — “The final battle begins now.”**.
+- [x] Reconfirmed the exact PQ 186 reward identity from the maintained all-PQ guide and the official Chapter 4 four-Super-Soul DLC inventory context. citeturn1search0
+- [x] Checked current Chapter 4 community discussion for exact-name mechanics; no reliable effect/trigger/Limit Burst evidence for 034 was found. citeturn3reddit24
+- [x] Added and registered `docs/data/super-soul-034-item-level-evidence-boundary-2026-09-23.json`.
+- [x] Preserved the evidence boundary: Fu's surrounding PQ 186 costume inventory does not establish that Fu is the character source for this Soul; no mechanics, duration, stacking, Limit Burst, item ID, reward tier, or probability was inferred.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next task: research **Super Soul 032** for a fresh exact-name/item-level Limit Burst pass; return to 034 only if new item-level evidence appears.
