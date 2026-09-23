@@ -95,5 +95,19 @@
     "identity_id_count": 20,
     "relationship_pair_count": 86
   },
-  "navigation_note": "PQ explorer reward links now preserve deep-link query parameters: inbound ?q= initializes the explorer, and DLC targets route through the query-aware global Search surface rather than a non-filtering static DLC overview. PQ reverse links now target the dedicated Characters and Super Souls explorers, both of which accept ?q= deep links, instead of routing through the generic Search surface."
+  "navigation_note": "PQ explorer reward links now preserve deep-link query parameters: inbound ?q= initializes the explorer, and DLC targets route through the query-aware global Search surface rather than a non-filtering static DLC overview. PQ reverse links now target the dedicated Characters and Super Souls explorers, both of which accept ?q= deep links, instead of routing through the generic Search surface.",
+  "reverse_destination_query_contract": {
+    "character_explorer": {
+      "consumer": "docs/Characters-All.html",
+      "destination": "/Characters-All/?q=<canonical character name>",
+      "query_parameter": "q",
+      "direct_fetch_verified": true
+    },
+    "super_soul_explorer": {
+      "consumer": "docs/Super-Souls-All.html",
+      "destination": "/Super-Souls-All/?q=<canonical Super Soul name>",
+      "query_parameter": "q",
+      "direct_fetch_verified": true
+    }
+  }
 }
