@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "game": "Dragon Ball Xenoverse 2",
-  "scope": "Canonical skill verification promotion manifest for Expert Missions 16-20",
+  "scope": "Canonical skill verification promotion manifest",
   "canonical_file": "docs/data/skills.json",
   "canonical_identity_key": "name",
   "status": "partially_verified",
@@ -72,6 +72,28 @@
       "acquisition_status": "partially_verified",
       "exact_drop_rate": "unresolved",
       "guarantee_condition": "unresolved"
+    },
+    {
+      "skill": "Big Bang Attack",
+      "canonical_class": "Super",
+      "canonical_subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "acquisition_status": "verified_current_scope",
+      "acquisition_endpoint": "TP Medal Shop",
+      "exact_drop_rate": "not_applicable",
+      "guarantee_condition": "not_applicable",
+      "promotion_date": "2026-09-23"
+    },
+    {
+      "skill": "Super Destructo-Disc",
+      "canonical_class": "Super",
+      "canonical_subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "acquisition_status": "partially_verified",
+      "acquisition_endpoint": "Expert Mission 4",
+      "exact_drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_date": "2026-09-23"
     }
   ],
   "sources": [
