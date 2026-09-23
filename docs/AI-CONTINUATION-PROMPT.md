@@ -6018,3 +6018,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Evidence boundary preserved: no unsupported probability, prerequisite, timer, stacking cap, frame data, damage value, or restriction was inferred.
 - CI/runtime remains unavailable; no CI success claimed.
 - Exact next task: process the 12 listed records against their maintained source sets, synchronize canonical/index layers, add/register the bounded audit, and recompute the stale census.
+
+
+### 2026-09-23 cycle update — Tail Slicer through Time Skip/Jump Spike skill provenance refresh
+- Live census before editing: **455 canonical / 455 index / 415 current / 40 stale / 0 duplicate IDs**.
+- Completed 12 records: **Tail Slicer, Taunt, Teleporting Vanishing Ball, Temporal Holy Ray, The Power to Overcome, The Savior Has Come, Thunder Flash, Time Bullet, Time Control, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike**.
+- Research/evidence: maintained repository research trails, dedicated exact-name references, mentor/PQ audits, and independent corroborating sources were reused; no unsupported field was forced non-null.
+- Changes: canonical/index `last_verified` synchronized to 2026-09-23, provenance sources refreshed, bounded notes appended, and `docs/data/skill-provenance-audit-2026-09-23-tail-slicer-through-time-skip.json` added/registered.
+- Special evidence boundaries preserved: The Power to Overcome retains conflicting numeric measurements; Taunt/Teleporting Vanishing Ball retain current Basic Reward semantics without inferred probabilities; Hit mentor skills retain bounded counter/rush mechanics.
+- Validation after write: **455 canonical / 455 index / 427 current / 28 stale / 0 duplicate IDs**; target batch current and canonical/index source parity verified.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next batch: **Time Skip/Tremor Pulse, Timespace Impact, Total Detonation Ball, Trap Shooter, Tri-Beam, Turn Golden, Tyrant Lancer, Ultimate Charge, Ultra Instinct, Ultrasonic Blitz, Unrelenting Barrage, Vanishing Ball**. Recompute the live stale queue first.
