@@ -6,47 +6,47 @@
   "live_counts": {
     "canonical_skill_records": 455,
     "index_skill_records": 455,
-    "current_last_verified_records": 415,
-    "stale_last_verified_records": 40,
+    "current_last_verified_records": 427,
+    "stale_last_verified_records": 28,
     "duplicate_ids": 0
   },
-  "method": "Fresh alphabetical census after the Super Saiyan Blue Kaioken through Symphonic Destruction provenance refresh.",
+  "method": "Fresh alphabetical census after the Tail Slicer through Time Skip provenance refresh.",
   "next_stale_records": [
     {
-      "name": "Tail Slicer"
+      "name": "Time Skip/Tremor Pulse"
     },
     {
-      "name": "Taunt"
+      "name": "Timespace Impact"
     },
     {
-      "name": "Teleporting Vanishing Ball"
+      "name": "Total Detonation Ball"
     },
     {
-      "name": "Temporal Holy Ray"
+      "name": "Trap Shooter"
     },
     {
-      "name": "The Power to Overcome"
+      "name": "Tri-Beam"
     },
     {
-      "name": "The Savior Has Come"
+      "name": "Turn Golden"
     },
     {
-      "name": "Thunder Flash"
+      "name": "Tyrant Lancer"
     },
     {
-      "name": "Time Bullet"
+      "name": "Ultimate Charge"
     },
     {
-      "name": "Time Control"
+      "name": "Ultra Instinct"
     },
     {
-      "name": "Time Skip/Back Breaker"
+      "name": "Ultrasonic Blitz"
     },
     {
-      "name": "Time Skip/Flash Skewer"
+      "name": "Unrelenting Barrage"
     },
     {
-      "name": "Time Skip/Jump Spike"
+      "name": "Vanishing Ball"
     }
   ],
   "validation": {
