@@ -1,3 +1,11 @@
+## 2026-09-22 — Super Soul 218-219 mechanics/provenance reconciliation
+
+- Reconciled Super Souls 218 (“Pathetic”) and 219 (“Justice is nothing to me now.”) with exact-name catalogue and independent Xenoverse 2 evidence.
+- Added character/DLC provenance, trigger/effect/magnitude data, 218's three-stack cap and Auto Just Guard, and 219's Super Armor Limit Burst.
+- Added `docs/data/super-soul-218-219-mechanics-reconciliation-2026-09-22.json` and registered it in the PQ cross-domain index.
+- Recomputed the live Super Soul census at **234 canonical / 0 duplicate IDs / 152 strict-thin records**; both selected records remain thin because unsupported duration/stacking fields were not invented.
+- No canonical PQ relationships, reward probabilities, or Ultimate-Finish requirements were changed.
+
 ## 2026-09-22 — Equipment detail enrichment 121-130 and false-positive correction
 
 - Corrected `equip-121` by removing Mr. Shape Up L from the equipment layers after independent evidence identified it as a consumable capsule/material.
