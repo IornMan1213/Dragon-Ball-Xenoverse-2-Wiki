@@ -108,6 +108,8 @@ def main():
 
     checks = {
         "skill_explorer_query_support": "new URLSearchParams(location.search).get('q')" in skill_html,
+        "pq_explorer_query_deep_link_support": "new URLSearchParams(window.location.search).get('q')" in h,
+        "pq_dlc_navigation_uses_search_deep_link": "const dlcUrl=(term)=>'{{ \"/Search/\" | relative_url }}?q='+encodeURIComponent(term);" in h,
         "pq_skill_links_use_skill_explorer": "skillUrl" in h and "rewardLinks(r.skill_rewards,'Skills',skillUrl)" in h,
         "pq_soul_links_present": "rewardLinks(r.super_soul_rewards,'Super Souls',soulUrl)" in h,
         "pq_equipment_links_present": "rewardLinks(r.equipment_rewards,'Equipment',equipmentUrl)" in h,
