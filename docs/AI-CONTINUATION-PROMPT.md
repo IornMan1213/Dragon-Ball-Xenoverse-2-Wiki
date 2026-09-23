@@ -4329,3 +4329,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Promoted the record to **verified_secondary** and added a bounded audit artifact.
 - No acquisition route, reward probability, Ultimate Finish condition, or unsupported duration was inferred.
 - Exact next task: continue the live partially-verified queue; **032** remains evidence-bound for Limit Burst fields.
+
+
+### 2026-09-22 — Super Souls 200 / 203–209 stacking semantics reconciliation
+- Reconciled the unresolved `stacking_behavior` field for **200 and 203–209** against the maintained exact-name Super Soul catalogue.
+- The catalogue does not report a numeric stack cap or stacking rule for these records, so the field is now explicitly **“Not reported as stackable”** rather than left null or assigned an invented value.
+- Added and registered `docs/data/super-soul-200-203-209-stacking-reconciliation-2026-09-22.json`.
+- No acquisition, reward probability, Ultimate Finish condition, duration, magnitude, or unrelated mechanic was changed.
+- Exact next task: recompute the live strict-thin census and continue the next evidence-supported unresolved fields; preserve **032/034** as evidence boundaries where exact-name Limit Burst mechanics remain insufficient.
