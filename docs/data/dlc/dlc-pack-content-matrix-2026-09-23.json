@@ -61,8 +61,11 @@
           "status": "concrete canonical-backed Super Soul navigation anchors; complete pack inventory remains separate"
         },
         "equipment": {
-          "canonical_pq_edge_count": 8,
-          "status": "PQ-backed equipment/accessory navigation; exact pack inventory remains separate"
+          "canonical_paid_costume_accessory_count": 8,
+          "costume_count": 4,
+          "accessory_count": 4,
+          "status": "official 8-item paid costume/accessory domain reconciled",
+          "audit": "docs/data/dlc/daima-paid-costume-accessory-completeness-reconciliation-2026-09-23.json"
         },
         "accessories": [
           {
@@ -93,19 +96,23 @@
         "costumes": [
           {
             "name": "SS4 Goku (DAIMA) Suit",
-            "record_id": "equip-098"
+            "record_id": "equip-098",
+            "pq": "pq-179"
           },
           {
             "name": "SS3 Vegeta (DAIMA) Battle Suit",
-            "record_id": "equip-100"
+            "record_id": "equip-100",
+            "pq": "pq-180"
           },
           {
             "name": "Glorio's Clothes",
-            "record_id": "equip-102"
+            "record_id": "equip-102",
+            "pq": "pq-181"
           },
           {
             "name": "Panzy's Clothes",
-            "record_id": "equip-103"
+            "record_id": "equip-103",
+            "pq": "pq-181"
           }
         ],
         "skill_super_soul_count_reconciliation": {
@@ -121,8 +128,7 @@
         "complete_free_update_inventory",
         "raid_boss_record_layer",
         "lobby_item_record_layer",
-        "complete_loading_screen_inventory",
-        "remaining_non_accessory_paid_pack_inventory"
+        "complete_loading_screen_inventory"
       ],
       "evidence_boundary": "The official announcement explicitly separates the paid DAIMA Pack from the free update. Existing PQ-linked records are navigation anchors only; no missing content was promoted into canonical DLC ownership. Four exact DAIMA accessory identities are now canonicalized as acc-071 through acc-074; legacy equip endpoints remain alias projections."
     },
