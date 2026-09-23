@@ -38,6 +38,12 @@
       "finding": "Exact-name/community evidence continues to corroborate +12 Ki/+12 Stamina and PQ134. A fresh search still did not identify the Super Soul's Limit Burst effect or trigger.",
       "source": "https://www.reddit.com/r/dbxv/comments/1cj9nwx/",
       "result": "No Limit Burst fields promoted."
+    },
+    {
+      "id": "super-soul-034",
+      "finding": "Fresh external verification confirms the exact-name PQ186 reward endpoint. The maintained guide lists “The final battle begins now.” and “I'll use this power to protect everyone!” as PQ186 rewards, but does not map either Super Soul to a character or provide item-level mechanics/Limit Burst.",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "result": "Acquisition identity strengthened; strict-thin core mechanics remain unresolved."
     }
   ],
   "limits": [
@@ -45,8 +51,8 @@
     "No drop probability or Normal-vs-Ultimate-Finish mapping was inferred.",
     "No 232-236 records were recreated."
   ],
-  "result": "Evidence boundaries remain intact; strict-thin queue remains 4. Super Soul 034 character source and mechanics remain unresolved after the fresh exact-name pass.",
-  "next_batch": "Continue item-level evidence search for 034 first, then 217 Limit Burst; only reduce strict-thin when exact-name/item-level evidence supports the missing core fields.",
+  "result": "Fresh item-level/PQ reward evidence strengthened the exact-name acquisition identity for 034, but no safe character, trigger, effect, duration, stacking, or Limit Burst promotion was found. Strict-thin queue remains 4.",
+  "next_batch": "Continue super-soul-217 Limit Burst/item-level evidence research; if unresolved, proceed to super-soul-158 collision-safe evidence research, then super-soul-032.",
   "next_method": "Continue authoritative/item-level mechanics and Limit Burst research for super-soul-034, then super-soul-217; do not infer mechanics from generic or same-name data.",
   "last_updated": "2026-09-23",
   "notes": [
