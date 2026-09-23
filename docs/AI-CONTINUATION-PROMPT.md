@@ -6483,3 +6483,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Commit:** `01a3034be79033856a1b61bad8db32951a5cc06d`.
 - **Exact next task:** find an explicit numeric/name mapping for Goku or move to another indexed preset whose source directly identifies the same preset number/name; continue promoting only unambiguous records.
+
+
+### 2026-09-23 cycle update — Vegito explicit preset-loadout promotion
+- [x] Verified **Vegito Preset 2** directly against the current Vegito in-game-data table: Super Dragon Fist / Kamehameha / Instant Transmission / Charged Ki Wave; Super Kamehameha / Spirit Sword; Spirit Explosion; no Super Soul listed. citeturn0search0
+- [x] Verified **Vegito Preset 3** directly against the same table: Sledgehammer / Big Bang Attack / Finish Breaker / Full Power Charge; Final Flash / Spirit Sword; Explosive Wave; no Super Soul listed. citeturn0search0
+- [x] Updated the preset record layer and cross-domain audit to **9 verified preset loadouts / 58 verified skill-slot entries**.
+- [x] Repaired the audit JSON separator exposed during the update and re-parsed the resulting document successfully before committing.
+- [x] Kept Festival/custom-partner configurations separate and made no acquisition/exclusivity claims from preset presence.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Commits:** preset layer `f429351c1f1bc5256a3c5b60de2993ccdb6adfff`; audit `4b2bfb28154f3f20250a03c4a44fdef37671c8bc`.
+- **Exact next task:** continue with another bounded batch of explicit numbered/name-matched preset records; Goku remains unresolved until a source explicitly maps its repository numeric IDs to the named source rows.
