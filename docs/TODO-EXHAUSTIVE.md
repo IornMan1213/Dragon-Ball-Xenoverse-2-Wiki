@@ -4537,3 +4537,13 @@
 - [x] Preserved canonical skill IDs and evidence boundaries; no current-rotation or unsupported alternate-route claims were created.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** build the next highest-impact missing canonical acquisition endpoint layer, prioritizing **Time Rift/story/tournament**, then reconcile mentor/Expert Mission endpoint completeness.
+
+
+### 2026-09-23 — TODO completion update — Time Rift / story / tournament endpoint layer
+- [x] Added deterministic endpoints for 4 Time Rift systems, 2 story-mission systems, and 5 Conton City Tournament matches.
+- [x] Added 14 canonical skill forward edges across 11 endpoints; all skill IDs resolve and endpoint/skill pairs are unique.
+- [x] Added docs/data/time-rift-story-tournament-endpoints.json and docs/data/time-rift-story-tournament-endpoint-audit-2026-09-23.json.
+- [x] Updated docs/data/CROSS-LINK-CONTRACT.md.
+- [x] Preserved evidence boundaries; no Tokipedia, Patrol, or ambiguous Ultra Instinct relationship was invented.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** recompute the broader non-PQ acquisition census; prioritize Tokipedia/Patrol endpoint consumers where canonical evidence is sufficient, otherwise reconcile mentor/Expert Mission completeness and the remaining 7 legacy shop acquisition records.
