@@ -5444,3 +5444,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 ### 2026-09-23 continuation correction — strict-thin queue
 - Two targeted web-search passes for **super-soul-217** failed to expose reliable item-level Limit Burst trigger/effect data. Core +12 Ki/+12 Stamina and PQ134 provenance remain corroborated; no Limit Burst inference was made.
 - The strict-thin checkpoint's next queue has been corrected: prioritize **034** for any new authoritative/item-level evidence, while 217 remains bounded and should not receive repetitive low-yield searches unless a source exposes explicit Limit Burst data. Continue tracking **158** as the documented Super Skill name collision.
+
+
+### 2026-09-23 cycle update — Super Soul 034 bounded item-level evidence pass
+- Live strict-thin census before editing: **229 canonical / 0 duplicate IDs / 4 strict-thin records** — 032, 034, 158, 217.
+- Bounded batch: **Super Soul 034 — “The final battle begins now.”**.
+- Research/evidence: rechecked the maintained PQ 186 reward inventory, official Chapter 4 DLC inventory context, and current community discussion. The exact-name PQ 186 reward identity is confirmed, but no reliable item-level evidence established character source, effect, trigger, duration, stacking, or Limit Burst. The current community thread explicitly discusses the other Chapter 4 Souls without identifying 034's mechanics. citeturn1search0turn3reddit24
+- Changes: added `docs/data/super-soul-034-item-level-evidence-boundary-2026-09-23.json`; registered it in `docs/data/pq-cross-domain-index.json`; refreshed `docs/data/super-soul-strict-thin-checkpoint-2026-09-23.json`; appended TODO/changelog records.
+- Evidence limits preserved: Fu's adjacent PQ 186 costume inventory is not treated as item-level attribution; no mechanics, item ID, reward tier, drop probability, or hidden condition was inferred.
+- Validation: audit JSON parses; strict-thin census remains **229 / 0 / 4**; no canonical relationship or identity changes; audit registration present; no CI/runtime success exposed.
+- CI: unavailable; do not claim CI success.
+- Current handoff commits/updated-file SHAs: audit `e2d618b0ec2ca63ed92f235ec5b0edd3555553c5`; checkpoint `9d94f987567920863cf800fd7d360770d604f4df`; cross-domain index `c0f6d70a001958257e29288632da7888c76c925e`; TODO `11d496ce51df204f83f30bc3ef00e6e475828b9f`; changelog `20b24961a5f76f23e881062495e34d778e123392`.
+- Exact next batch: **Super Soul 032** — perform a fresh exact-name/item-level Limit Burst pass. Return to 034 only if new item-level evidence appears. Separately preserve the 158 Super Skill/Super Soul collision boundary.
