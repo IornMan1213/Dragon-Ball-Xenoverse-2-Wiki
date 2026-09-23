@@ -4095,4 +4095,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Cross-domain integrity remains intact: canonical Super Soul PQ projection remains **151 forward edges / 148 unique reverse targets / 0 unresolved endpoints**.
 - CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - Exact next priority: continue the thin-system census with **evidence-supported early/base-game records that still have multiple unresolved core fields**, beginning with the lowest-source, highest-confidence candidates; do not force 232–236 mechanics from acquisition-only evidence.
+### 2026-09-22 cycle update — early Super Soul no-effect reconciliation (005 / 015 / 016)
+- [x] Reconciled three early/base-game thin records using exact-name catalogue/forum evidence: **005 “Your power is 5? ...Scum.”**, **015 “I must tell Lord Frieza...”**, and **016 “Tch... Guess I have no choice.”**
+- [x] All three now explicitly record **no special effect** rather than leaving trigger/effect mechanics falsely unresolved; non-applicable magnitude/duration/stacking fields are marked **N/A**.
+- [x] Preserved the existing acquisition route for 005 as **Item Shop** because the current canonical catalogue conflicts with an older PQ reward-list source; the discrepancy is documented instead of silently changing the record.
+- [x] Preserved known Limit Burst types/effects for all three.
+- [x] Added audit artifact: `docs/data/super-soul-no-effect-reconciliation-005-015-016-2026-09-22.json`.
+- [x] No canonical PQ relationship was added or removed.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Next priority: continue deterministic early/base-game thin census with exact-name evidence, prioritizing records where missing fields are genuinely applicable rather than N/A.
 
