@@ -2326,3 +2326,11 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Preserved the boundary that Fu's adjacent PQ 186 costume inventory does not prove Fu ownership of the Soul.
 - Added `docs/data/super-soul-034-item-level-evidence-boundary-2026-09-23.json` and registered it in `docs/data/pq-cross-domain-index.json`.
 - Updated the strict-thin checkpoint; the next focused queue item is Super Soul 032.
+
+
+## 2026-09-23 — Super Soul 032 Limit Burst evidence boundary
+- Completed a fresh exact-name/item-level Limit Burst research pass for “This power... It's different from any I've ever had.”.
+- Current evidence confirms PQ185 identity and the KO-triggered alternate displayed-name state, but does not establish the second state's mechanical effect or any Limit Burst type/trigger/effect. citeturn3search0
+- No generic or same-character Limit Burst was substituted; canonical 032 remains unchanged and partially verified.
+- Added `docs/data/super-soul-032-limit-burst-evidence-boundary-2026-09-23.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- Advanced the strict-thin queue to the **158 Do or Die Super Skill / Super Soul collision** for non-destructive canonical migration analysis.
