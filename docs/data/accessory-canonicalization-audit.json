@@ -466,6 +466,17 @@
   ],
   "notes": [
     "Six legacy equipment accessory endpoints were normalized to canonical acc-### identities in the 2026-09-22 bounded reconciliation batch.",
-    "2026-09-23: Normalized DAIMA accessory identities to acc-071 through acc-074 from exact-name combined-layer records equip-099/equip-101/equip-104/equip-105; legacy equipment endpoints remain alias projections."
-  ]
+    "2026-09-23: Normalized DAIMA accessory identities to acc-071 through acc-074 from exact-name combined-layer records equip-099/equip-101/equip-104/equip-105; legacy equipment endpoints remain alias projections.",
+    "2026-09-23 validator reconciliation: live equipment-accessories-record-layer.json contains 74 canonical accessory records; pq-accessory-crosslink-report.json now reports 74 canonical accessories, 32 forward edges, 32 reverse edges, 12 unresolved research records, zero duplicate forward edges, zero stale endpoints, and endpoint_integrity=pass."
+  ],
+  "validation_summary": {
+    "canonical_accessory_records": 74,
+    "canonical_pq_records": 186,
+    "pq_forward_edges": 32,
+    "pq_reverse_edges": 32,
+    "unresolved_pq_research_records": 12,
+    "duplicate_forward_edges": 0,
+    "stale_endpoint_count": 0,
+    "endpoint_integrity": "pass"
+  }
 }
