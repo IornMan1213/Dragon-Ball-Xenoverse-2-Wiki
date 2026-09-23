@@ -2147,3 +2147,9 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Corrected `docs/data/pq-cross-domain-status.json` target-normalization current total from **860** to **859**.
 - Historical 862/860/840 snapshots remain preserved.
 - No canonical relationship identities or edges were invented or changed.
+
+## 2026-09-23 — Current PQ producer/status drift repair
+- Corrected the current reconciliation projection in `docs/data/pq-reward-relationships.json`: **859 total**, including **151 Super Soul** relationships.
+- Corrected `docs/data/pq-cross-domain-status.json` target-normalization current total from **860** to **859**.
+- Historical 862/860/840 snapshots remain preserved.
+- No canonical relationship identities or edges were invented or changed.
