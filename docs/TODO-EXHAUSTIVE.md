@@ -3341,3 +3341,13 @@
 - [x] Live strict-thin queue remains **032, 034, 158, 217**; canonical count **229**, duplicate IDs **0**.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Next: **217 Limit Burst** item-level/game-data evidence pass; if blocked, move to deterministic high-impact reconciliation.
+
+
+### 2026-09-23 — Super Soul 217 Limit Burst evidence boundary finalized
+- [x] Completed the final compact item-level/game-data evidence pass for **217**.
+- [x] Confirmed PQ134 exact-name reward identity; Limit Burst type/trigger/effect remain unsupported by checked repository item-level/canonical evidence.
+- [x] Preserved the distinction between the Super Soul and the separate **Burst Charge** skill reward.
+- [x] Updated the 217 evidence audit and handoff.
+- [x] Live strict-thin remains **032, 034, 158, 217**; canonical Super Soul count **229**, duplicate IDs **0**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Next: choose a deterministic high-impact producer/index/projection reconciliation or evidence-supported multi-record batch rather than forcing unresolved thin fields.
