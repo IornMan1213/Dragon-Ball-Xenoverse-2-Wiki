@@ -98,3 +98,8 @@ The skill acquisition shop layer now has stable canonical endpoint IDs in docs/d
 - `shop-tp-stp-medal` — TP / STP Medal Shop
 
 The layer currently projects **23 canonical skill edges** (**12 Skill Shop + 11 TP/STP Medal Shop**) with deterministic forward and reverse indexes. It is derived from skills.json acquisition classifications and does not manufacture alternate event/raid relationships from prose. Historical rotation and price evidence remains provenance, not proof of current availability.
+
+
+### Time Rift / story / tournament endpoint implementation baseline — 2026-09-23
+
+Added `docs/data/time-rift-story-tournament-endpoints.json` with **11 deterministic endpoints** and **14 forward skill edges**: four Time Rift progression endpoints, two story-mission endpoints, and five Conton City Tournament match endpoints. Match 5 legitimately maps to two skills. Tokipedia, Conton City Patrol, and the currently ambiguous Ultra Instinct route remain separate research targets rather than being inferred into this layer.
