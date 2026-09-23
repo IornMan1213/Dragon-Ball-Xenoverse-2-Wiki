@@ -3174,7 +3174,7 @@
       ],
       "ki_cost": 300,
       "unlock_method": "TP Medal Shop; also available through STP Medal Shop and Double Crystal Raid Battle",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
@@ -3183,7 +3183,7 @@
       "mechanics_notes": "300-Ki Strike Ultimate. Official Bandai Namco documentation confirms Divine Lasso in the TP Medal Shop rotation; current repository evidence also records STP Medal Shop and Double Crystal Raid Battle availability. The skill remains classified as Strike; historical community reports discuss unusual damage-scaling behavior, but those reports are conflicting and are not used to relabel the canonical damage category.",
       "dlc_requirement": "Free Update 3",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-20 shop-provenance refinement: official Bandai Namco TP Medal Shop schedule explicitly lists Divine Lasso, while current repository evidence also records STP Medal Shop and Double Crystal Raid Battle routes. No quest or Ultimate Finish route is inferred. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred.",
+      "notes": "2026-09-20 shop-provenance refinement: official Bandai Namco TP Medal Shop schedule explicitly lists Divine Lasso, while current repository evidence also records STP Medal Shop and Double Crystal Raid Battle routes. No quest or Ultimate Finish route is inferred. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
       "id": "skill-divine-lasso"
     },
     {
@@ -3203,7 +3203,7 @@
       "mechanics_notes": "300-Ki Ki Blast Ultimate from PQ173. Current reward evidence places it in PQ173's Ultimate Finish bonus slot at 45%; Future Saga Chapter 1 provenance is retained. Exact combat numbers are not asserted here because current bounded evidence is stronger on identity and acquisition than detailed mechanics.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Divine_Ray_Bomb",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3213,7 +3213,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 173,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ173's current maintained reward data lists Divine Ray Bomb in a 45% Ultimate Finish bonus slot; the repository now records the concrete gate rather than generic PQ reward wording. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred. 2026-09-21 provenance correction: Future Saga Chapter 1 contains Divine Ray Bomb; PQ173 “Decoding Dinner” is a Chapter 1 Parallel Quest. Official Bandai Namco documentation lists 15 Chapter 1 skills, and maintained PQ/DLC evidence identifies Divine Ray Bomb among that Chapter 1 skill set. The prior Chapter 2 label was incorrect and is corrected without changing the PQ173 acquisition or reward-tier fields. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred.",
+      "notes": "2026-09-20 audit: PQ173's current maintained reward data lists Divine Ray Bomb in a 45% Ultimate Finish bonus slot; the repository now records the concrete gate rather than generic PQ reward wording. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred. 2026-09-21 provenance correction: Future Saga Chapter 1 contains Divine Ray Bomb; PQ173 “Decoding Dinner” is a Chapter 1 Parallel Quest. Official Bandai Namco documentation lists 15 Chapter 1 skills, and maintained PQ/DLC evidence identifies Divine Ray Bomb among that Chapter 1 skill set. The prior Chapter 2 label was incorrect and is corrected without changing the PQ173 acquisition or reward-tier fields. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
       "id": "skill-divine-ray-bomb",
       "source_parallel_quests": [
         173
@@ -3236,7 +3236,7 @@
       "mechanics_notes": "200-Ki Ki Blast Super from PQ171. Current evidence supports CaC acquisition/use and a 50% Ultimate Finish reward route; the repository's CaC usability correction is retained. Conflicting historical reward-list presentation is preserved rather than silently normalized.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3245,7 +3245,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 171,
       "acquisition_type": "quest_or_mission",
-      "notes": "Corrected 2026-09-20: PQ acquisition is player/CaC-accessible; character association does not make the skill character-exclusive. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context. 2026-09-21 provenance audit: Divine Spear is tied to Future Saga Chapter 1 through its documented PQ 171/172 reward context and the official DLC move documentation; the existing DLC classification is preserved. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred.",
+      "notes": "Corrected 2026-09-20: PQ acquisition is player/CaC-accessible; character association does not make the skill character-exclusive. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context. 2026-09-21 provenance audit: Divine Spear is tied to Future Saga Chapter 1 through its documented PQ 171/172 reward context and the official DLC move documentation; the existing DLC classification is preserved. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
       "id": "skill-divine-spear",
       "source_parallel_quests": [
         171
@@ -3268,7 +3268,7 @@
       "mechanics_notes": "300-Ki Ki Blast Ultimate from PQ112 Basic Reward. Current evidence describes a large stationary energy sphere that remains in place before vanishing/exploding. Exact drop probability remains unresolved and no Ultimate Finish gate is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Divine_Wrath%3A_Purification",
@@ -3278,7 +3278,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 112,
       "acquisition_type": "quest_or_mission",
-      "notes": " 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred.",
+      "notes": " 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
       "id": "skill-divine-wrath-purification",
       "source_parallel_quests": [
         112
@@ -3301,7 +3301,7 @@
       "mechanics_notes": "100-Ki Power Up Super from PQ110 Basic Reward. Charging at least one full Ki bar activates a temporary increase to Ki gained from attacks/charging. Current evidence supports CaC usability without a narrower race, gender, or form restriction.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Divinity_Unleashed",
@@ -3310,7 +3310,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 110,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 110 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred.",
+      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 110 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
       "id": "skill-divinity-unleashed",
       "source_parallel_quests": [
         110
@@ -3333,7 +3333,7 @@
       "mechanics_notes": "100-Ki Power Up Super from PQ49 Basic Reward. Activation knocks back nearby enemies and grants 10% damage reduction for 20 seconds. Current evidence supports CaC usability without a narrower race, gender, or form restriction.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Do_or_Die",
@@ -3342,7 +3342,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 49,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 49 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 low-source provenance strengthening: a second maintained Steam PQ reward transcription independently lists Do or Die under PQ49. The existing PQ49 Basic Reward semantics are preserved; no additional drop condition or probability is inferred. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred.",
+      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 49 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 low-source provenance strengthening: a second maintained Steam PQ reward transcription independently lists Do or Die under PQ49. The existing PQ49 Basic Reward semantics are preserved; no additional drop condition or probability is inferred. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
       "id": "skill-do-or-die",
       "source_parallel_quests": [
         49
@@ -3364,12 +3364,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Tien mentor training — Initiation Test",
       "mechanics_notes": "Mentor acquisition endpoint confirmed: Tien's Initiation Test. Current repository evidence records 0 Ki used; detailed combat mechanics remain intentionally deferred rather than inferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Tien mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 0 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 0 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
       "id": "skill-dodon-ray",
       "source_mentor": [
         "mentor-tien"
@@ -3392,12 +3392,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Dodoria mentor training — Initiation Test",
       "mechanics_notes": "Mentor acquisition endpoint confirmed: Dodoria's Initiation Test. Current repository evidence records 100 Ki used; detailed combat mechanics remain intentionally deferred rather than inferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Dodoria mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
       "id": "skill-dodoria-beam",
       "source_mentor": [
         "mentor-dodoria"
@@ -3420,12 +3420,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Dodoria mentor training — Lesson 2",
       "mechanics_notes": "Mentor acquisition endpoint confirmed: Dodoria Lesson 2. Current repository evidence records 100 Ki used; detailed combat mechanics remain intentionally deferred rather than inferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Dodoria mentor training — Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
       "id": "skill-dodoria-headbutt",
       "source_mentor": [
         "mentor-dodoria"
@@ -3448,12 +3448,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Dodoria mentor training — Lesson 3",
       "mechanics_notes": "Mentor acquisition endpoint confirmed: Dodoria Lesson 3. Current repository evidence records 300 Ki used; detailed combat mechanics remain intentionally deferred rather than inferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Dodoria mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
       "id": "skill-dodoria-launcher",
       "source_mentor": [
         "mentor-dodoria"
