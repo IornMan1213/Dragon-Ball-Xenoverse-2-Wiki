@@ -129,3 +129,8 @@ Added `docs/data/time-rift-story-tournament-endpoints.json` with **11 determinis
 - Added `docs/data/conton-city-patrol-endpoints.json` with **3 deterministic Patrol skill endpoints** and **3 forward skill edges**: Conton City Patrol 04 → Gigantic Cross, Patrol 10 → Saiyan Blaster, Patrol 17 → Gigantic Nova.
 - Reverse skill→Patrol navigation is included.
 - Patrol event endpoints remain separate from Broly mentor-training rewards; no duplicate route is collapsed without evidence.
+
+
+## 2026-09-23 — Special acquisition endpoint baseline
+
+The special acquisition endpoint layer in `docs/data/special-acquisition-endpoints.json` provides stable endpoint IDs for acquisition routes that are not PQ, mentor, Expert Mission, shop, Time Rift/story/tournament, Tokipedia, or Conton City Patrol records. It exposes forward endpoint→skill edges and reverse skill→endpoint navigation. Canonical `skills.json` remains authoritative; the endpoint layer must not invent unsupported acquisition conditions or duplicate canonical skill records.
