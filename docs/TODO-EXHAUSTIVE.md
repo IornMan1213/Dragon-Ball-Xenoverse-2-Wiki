@@ -4898,3 +4898,11 @@
 - [x] Bardock loadout provenance linked to the character in-game-data source
 - [ ] CI/runtime remains unavailable; no CI success claimed
 - [ ] Next batch: continue explicit in-game-data preset reconciliation; do not infer Goku numeric mappings.
+
+### 2026-09-23 cycle completion tracking — Raditz/Nappa preset-loadout batch
+- [x] Raditz Preset 1 explicit loadout verification
+- [x] Nappa Preset 1 explicit loadout verification
+- [x] Preset layer expanded to 46 records / 19 verified loadouts
+- [x] Navigation audit expanded to 123 verified loadout skill entries
+- [ ] CI/runtime remains unavailable; no CI success claimed
+- [ ] Next batch: continue exact Battle Suit preset reconciliation.
