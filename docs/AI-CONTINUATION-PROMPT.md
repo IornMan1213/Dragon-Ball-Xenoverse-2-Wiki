@@ -6051,3 +6051,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation after write: **455 canonical / 455 index / 451 current / 4 stale / 0 duplicate IDs**; target batch current.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next batch: **Wolf Fang Fist, X 100 Big Bang Kamehameha, x10 Kamehameha, Zigzag Express**. Recompute the live stale queue first.
+
+
+### 2026-09-23 cycle update — Wolf Fang Fist through Zigzag Express; stale skill queue cleared
+- Live census before editing: **455 canonical / 455 index / 451 current / 4 stale / 0 duplicate IDs**.
+- Completed final 4 stale records: **Wolf Fang Fist, X 100 Big Bang Kamehameha, x10 Kamehameha, Zigzag Express**.
+- Research/evidence: dedicated exact-name references and maintained mentor/PQ acquisition documentation were rechecked; existing deterministic facts and evidence boundaries were preserved.
+- Changes: canonical/index last_verified synchronized to 2026-09-23, bounded provenance notes refreshed, and docs/data/skill-provenance-audit-2026-09-23-wolf-fang-fist-through-zigzag-express.json added/registered.
+- Validation after write: **455 canonical / 455 index / 455 current / 0 stale / 0 duplicate IDs**; canonical/index counts and target parity verified.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next priority: recompute broader TODO/handoff priorities now that the stale skill-metadata queue is empty; do not manufacture stale work.
