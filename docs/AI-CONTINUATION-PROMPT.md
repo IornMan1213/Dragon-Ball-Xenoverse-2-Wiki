@@ -5721,3 +5721,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: **455/455**, **0 duplicate IDs**, **10 targets synchronized**, stale queue **360**.
 - CI/runtime: no successful status exposed; no CI success claimed.
 - Exact next batch: **Destruction's Conductor, Destructive Fission, Destructive Flare, Destructive Fracture, Destructo-Disc, DIE DIE Missile Barrage, Dimension Cannon, Dimension Ray, Dimensional Hole, Divine Kamehameha**.
+
+### 2026-09-23 cycle update — P1 Destruction's Conductor through Divine Kamehameha provenance refresh
+- Completed **Destruction's Conductor, Destructive Fission, Destructive Flare, Destructive Fracture, Destructo-Disc, DIE DIE Missile Barrage, Dimension Cannon, Dimension Ray, Dimensional Hole, and Divine Kamehameha**.
+- Refreshed canonical/index verification dates to **2026-09-23**; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics were preserved.
+- Added/registered `docs/data/skill-provenance-audit-2026-09-23-destruction-through-divine-kamehameha.json`.
+- Validation: **455/455**, **0 duplicate IDs**, **10 targets synchronized**, stale queue **350**.
+- CI/runtime: no successful status exposed; no CI success claimed.
+- Exact next batch: recompute live stale queue and continue from the next stale canonical records.
