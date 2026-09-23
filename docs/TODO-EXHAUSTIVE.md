@@ -4547,3 +4547,13 @@
 - [x] Preserved evidence boundaries; no Tokipedia, Patrol, or ambiguous Ultra Instinct relationship was invented.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** recompute the broader non-PQ acquisition census; prioritize Tokipedia/Patrol endpoint consumers where canonical evidence is sufficient, otherwise reconcile mentor/Expert Mission completeness and the remaining 7 legacy shop acquisition records.
+
+
+### 2026-09-23 — TODO completion update — Acquisition classification normalization
+- [x] Recomputed the live acquisition census across all 455 canonical skills.
+- [x] Normalized 7 legacy `shop` records to `tp_medal_shop` using their explicit TP/STP Medal Shop source.
+- [x] Normalized Giant Storm to `skill_shop` and Angry Explosion to `expert_mission` from their explicit canonical sources.
+- [x] Synchronized the shop endpoint layer to **31 shop-linked skills: 13 Skill Shop + 18 TP/STP Medal Shop**.
+- [x] Updated both acquisition audit data and preserved evidence boundaries.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** build/reconcile the dedicated Expert Mission and mentor endpoint layer, then address Tokipedia/Conton City Patrol endpoint consumers and cross-links.
