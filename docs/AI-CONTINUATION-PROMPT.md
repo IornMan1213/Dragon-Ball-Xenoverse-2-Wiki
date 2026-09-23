@@ -5185,3 +5185,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Remaining support-pack gaps: six costume names, several advertised skill endpoints, and Puar/CC Mascot. No unsupported IDs were inferred.
 - CI/runtime remains unavailable; no CI success claimed.
 - Exact next batch: reconcile the six unmatched costume names against canonical equipment aliases/source records, then resolve remaining skill and Puar gaps only where dedicated canonical layers/evidence exist.
+
+
+### 2026-09-23 cycle update — Time Patrol Support Pack costume identity audit
+- Live inspection followed the current DLC priority from the TODO/handoff: six previously unmatched costume names in the separately sold Time Patrol Support Pack.
+- Bounded batch: Vegito Clothes, Gogeta Clothes, Future Trunks' Clothes (Super), Broly Clothes, Master Korin's Suit, and Orange Star High School Outfit.
+- Evidence: current official Steam/Nintendo/Xbox storefront descriptions establish the eight-costume pack scope; repository PQ/equipment evidence independently establishes Vegito Clothes at PQ59, Gogeta Clothes at PQ57, and Broly Clothes at PQ47; equipment-catalog-index.json independently catalogs Future Trunks's Clothes (Super).
+- Changes: added and registered docs/data/dlc/time-patrol-support-pack-costume-identity-reconciliation-2026-09-23.json; refined docs/data/dlc/time-patrol-support-pack-content-reconciliation-2026-09-23.json to record the resolved/non-resolved costume state; updated docs/TODO-EXHAUSTIVE.md with the durable completion entry.
+- Exact identity result: Vegito Clothes resolves to equip-078. The other five remain without exact canonical equipment records; distinct outfits were not aliased together. The live legacy equipment layer ends at equip-140, so no equip-141+ IDs were invented.
+- Evidence limits preserved: storefront inclusion is not treated as exclusive ownership; no reward probability, drop slot, shop rotation, stats, restrictions, or exclusive-DLC ownership was inferred.
+- Validation: new audit JSON parses; official costume count 8; six-target batch has 1 exact canonical match and 5 remaining without exact canonical records; cross-domain registration confirmed. CI/runtime remains unavailable; no CI success claimed.
+- Commits: 8ff5b16091c26d061abbce7c36452627fa2ecc1a (new costume audit), 62c7722a6dd84fde357b538fbdc7adb057a27158 (cross-domain registration), 92d23e8a778a0cfeb8df52052dca79d9791b7cf7 (pack reconciliation), 021055320e42f0c6c37c96b85fe5c37b099f906f (TODO update).
+- Exact next batch: resolve the five remaining Time Patrol Support Pack costume identities only when individually source-backed and compatible with the existing equipment architecture; then reconcile unmatched pack skills/Puar without inventing IDs, before returning to the remaining DAIMA/HOJ2 paid-content gaps.
