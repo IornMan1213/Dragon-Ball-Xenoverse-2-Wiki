@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "scope": "direct PQ template and DLC requirement presentation audit",
   "canonical": {
     "pq_records": 186,
-    "relationship_edges": 859,
+    "relationship_edges": 854,
     "dlc_edges": 86,
     "dlc_identity_records": 20
   },
@@ -56,8 +56,13 @@
     {
       "file": "docs/data/pq-cross-domain-audit.json",
       "change": "Relabeled the stale 862-edge pre-repair snapshot as historical and restored a current 859-edge live integrity/stable baseline; historical values remain preserved."
+    },
+    {
+      "file": "docs/Parallel-Quests-All.html",
+      "change": "Fixed inbound ?q= initialization and routed PQ→DLC navigation through the query-aware /Search/ surface, eliminating a one-way/non-filtering DLC destination."
     }
   ],
   "evidence_boundary": "No PQ reward, DLC relationship, or DLC identity was invented. Direct template behavior was checked against canonical repository sources and existing validator contracts.",
-  "validation": "Static direct-fetch inspection and exact-count/contract comparison; executable runtime/CI remains unavailable."
+  "validation": "Static direct-fetch inspection and exact-count/contract comparison; executable runtime/CI remains unavailable.",
+  "next_gate": "Inspect remaining character and Super Soul reverse navigation destinations for the same deep-link/query contract; then continue deterministic cross-database navigation parity."
 }
