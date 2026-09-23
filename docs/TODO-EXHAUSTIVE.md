@@ -4067,3 +4067,14 @@
 - CI/runtime unavailable; no CI success claimed.
 - Commits: canonical `e2f22cd8f5d043dea022d310d8ecb78487e86d2b`; index `4bd2b8dd8029f41a8bbd512117d062b279ff9fd1`; audit `77fbf6a59b94bf6a452aaa769fa271b533ab2358`; registry `0b8832c46102a6bf96d5017de1ff5b023e3e969d`; changelog `b98ed18cac01589b0b7b9dc9d7dd7daabccc9aa2`.
 - Exact next batch: **Burst Blitz, Burst Kamehameha, Burst Reflection**; recompute the live stale queue first and continue from **Burst Blitz** onward. Do not repeat verified records.
+
+### 2026-09-23 cycle update — P1 Burst Blitz through Burst Stinger provenance refresh
+- Live census before editing: **455 canonical / 455 index / 0 duplicate IDs / 410 stale**.
+- Bounded batch: **Burst Blitz, Burst Kamehameha, Burst Reflection, Burst Rush, Burst Stinger**.
+- Repository-first review revalidated the existing multi-source provenance for each target. No unsupported reward probability, Ultimate Finish gate, mechanic, cost, restriction, or DLC condition was introduced.
+- Important conflicts preserved: Burst Blitz retains its PQ178 Basic Reward vs historical 50% Ultimate Finish projection conflict; Burst Stinger retains Basic Reward vs player-reported Ultimate Finish trigger conflict. Burst Reflection remains the second-result Shenron Super Attack wish route.
+- Changes: refreshed `last_verified` to **2026-09-23** and appended provenance-refresh notes in canonical/index layers; added and registered `docs/data/skill-provenance-audit-2026-09-23-burst-blitz-through-stinger.json`; updated `CHANGELOG.md`.
+- Main HEAD is `7fc2ce34fa0b1a3d751324a8c65d3c5312d23435`.
+- Validation from the live main API shows the 455-record canonical/index datasets remain structurally intact; changed records contain no internal tool citation artifacts. The file helper's cached read path reported stale pre-write dates afterward, so do not treat that helper cache as evidence of rollback; main HEAD and commit history confirm the writes landed.
+- CI: Actions exists but successful validation was not exposed; no CI success claimed.
+- Exact next batch: **Burst Rush is already completed above; continue from the next live stale record after Burst Stinger, starting with Buu Buu Ball, Candy Beam, Candy Beam (Super), Celestial Wave, and Chain Destructo-Disc Barrage after recomputing the live stale queue.**
