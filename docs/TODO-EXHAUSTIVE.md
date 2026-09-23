@@ -3763,3 +3763,10 @@
 - [x] No canonical relationship edges, identities, or aliases were added or changed.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: continue the remaining registered non-PQ consumer census for current-looking stale scalar/list assumptions and endpoint-name drift; historical snapshots remain append-only.
+### 2026-09-23 — TODO completion update — Non-PQ presentation/index census synchronization
+- [x] Corrected the current Super Soul reverse-record count in `docs/data/pq-presentation-index-identity-audit.json` from stale 148 to live 143.
+- [x] Corrected the current schema-documentation consumer review embedded in `docs/data/pq-cross-domain-audit.json` to current 124 equipment / 86 DLC counts and clarified that 862/125/88 is historical context.
+- [x] Verified exact Super Soul forward-pair parity remains 146/146 with zero missing, extra, or duplicate pairs.
+- [x] No canonical relationships, identities, or aliases were added or changed.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: search current-state consumer sections for stale 862/125/88 or 148/151 scalar/list assumptions; leave dated historical snapshots untouched.
