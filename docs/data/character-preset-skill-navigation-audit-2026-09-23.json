@@ -9,15 +9,15 @@
     "skill_character_identity_bridge": "docs/data/skill-character-identity-bridge-2026-09-23.json"
   },
   "counts": {
-    "preset_records": 40,
+    "preset_records": 44,
     "distinct_presentation_character_ids": 12,
     "bridged_presentation_character_ids": 12,
     "unbridged_presentation_character_ids": 0,
     "resolved_skill_character_edges": 50,
     "preset_characters_with_character_source_skill_identity": 5,
     "preset_characters_without_character_source_skill_identity": 7,
-    "verified_preset_loadout_records": 13,
-    "verified_loadout_skill_entries": 83
+    "verified_preset_loadout_records": 17,
+    "verified_loadout_skill_entries": 113
   },
   "checks": {
     "all_preset_character_ids_resolve_via_explicit_bridge": true,
@@ -298,9 +298,68 @@
         "Full Power Energy Wave",
         "Break Strike"
       ]
+    },
+    {
+      "id": "bardock-preset-1",
+      "character_id": "bardock",
+      "preset_number": 1,
+      "source": "https://dbxv2.fandom.com/wiki/Bardock",
+      "skill_names": [
+        "Meteor Crash",
+        "Tyrant Lancer",
+        "Super Guard",
+        "Energy Charge",
+        "Full Power Energy Wave",
+        "Super Back Jump"
+      ]
+    },
+    {
+      "id": "bardock-preset-2",
+      "character_id": "bardock",
+      "preset_number": 2,
+      "source": "https://dbxv2.fandom.com/wiki/Bardock",
+      "skill_names": [
+        "Meteor Crash",
+        "Tyrant Lancer",
+        "Super Afterimage",
+        "Full Power Charge",
+        "Brave Heat",
+        "Explosive Wave",
+        "Super Saiyan"
+      ]
+    },
+    {
+      "id": "bardock-preset-3",
+      "character_id": "bardock",
+      "preset_number": 3,
+      "source": "https://dbxv2.fandom.com/wiki/Bardock",
+      "skill_names": [
+        "Rebellion Spear",
+        "Energy Wave Combo",
+        "Riot Javelin",
+        "Charged Ki Wave",
+        "Saiyan Spirit",
+        "Explosive Wave"
+      ]
+    },
+    {
+      "id": "bardock-preset-4",
+      "character_id": "bardock",
+      "preset_number": 4,
+      "source": "https://dbxv2.fandom.com/wiki/Bardock",
+      "skill_names": [
+        "Rebellion Spear",
+        "Tyrant Lancer",
+        "Riot Javelin",
+        "Maximum Charge",
+        "Super Ki Explosion",
+        "Saiyan Spirit",
+        "Explosive Wave",
+        "Super Saiyan"
+      ]
     }
   ],
-  "evidence_boundary": "Thirteen preset records have explicit sourced loadouts; remaining indexed records stay unresolved unless an explicit source identifies the same preset number/name. Captain Ginyu body-swap loadouts are verified at the presentation/preset layer without changing canonical character identity; the source labels the Trunks body row simply 'Trunks'. Festival/custom-partner configurations remain separate.",
+  "evidence_boundary": "Seventeen preset records now have explicit sourced loadouts; remaining indexed records stay unresolved unless an explicit source identifies the same preset number/name. Bardock Presets 1-4 are sourced directly from the Bardock in-game-data table. Festival/custom-partner configurations remain separate.",
   "source_backed_candidates_reviewed": [
     {
       "character_id": "goku",
@@ -310,7 +369,7 @@
       "reason": "The existing repository records use generic numeric IDs (goku-preset-2 through goku-preset-16), while the source table uses costume/preset names rather than the repository's numeric labels. Promoting by row order would create an unsupported preset-number mapping."
     }
   ],
-  "next": "Continue source-backed preset-loadout reconciliation in bounded batches; prioritize records where the source explicitly identifies the same preset number/name used by the repository. Do not convert Goku's named table rows into numeric preset IDs until an explicit mapping source is found.",
+  "next": "Continue source-backed preset-loadout reconciliation in bounded batches. Prioritize unresolved records for characters with explicit in-game-data tables, and do not infer Goku numeric mappings from named rows.",
   "verified_preset_loadout_records": [
     {
       "id": "vegeta-preset-8",
@@ -367,6 +426,65 @@
         "Charged Ki Wave",
         "Full Power Energy Wave",
         "Break Strike"
+      ]
+    },
+    {
+      "id": "bardock-preset-1",
+      "character_id": "bardock",
+      "preset_number": 1,
+      "source": "https://dbxv2.fandom.com/wiki/Bardock",
+      "skill_names": [
+        "Meteor Crash",
+        "Tyrant Lancer",
+        "Super Guard",
+        "Energy Charge",
+        "Full Power Energy Wave",
+        "Super Back Jump"
+      ]
+    },
+    {
+      "id": "bardock-preset-2",
+      "character_id": "bardock",
+      "preset_number": 2,
+      "source": "https://dbxv2.fandom.com/wiki/Bardock",
+      "skill_names": [
+        "Meteor Crash",
+        "Tyrant Lancer",
+        "Super Afterimage",
+        "Full Power Charge",
+        "Brave Heat",
+        "Explosive Wave",
+        "Super Saiyan"
+      ]
+    },
+    {
+      "id": "bardock-preset-3",
+      "character_id": "bardock",
+      "preset_number": 3,
+      "source": "https://dbxv2.fandom.com/wiki/Bardock",
+      "skill_names": [
+        "Rebellion Spear",
+        "Energy Wave Combo",
+        "Riot Javelin",
+        "Charged Ki Wave",
+        "Saiyan Spirit",
+        "Explosive Wave"
+      ]
+    },
+    {
+      "id": "bardock-preset-4",
+      "character_id": "bardock",
+      "preset_number": 4,
+      "source": "https://dbxv2.fandom.com/wiki/Bardock",
+      "skill_names": [
+        "Rebellion Spear",
+        "Tyrant Lancer",
+        "Riot Javelin",
+        "Maximum Charge",
+        "Super Ki Explosion",
+        "Saiyan Spirit",
+        "Explosive Wave",
+        "Super Saiyan"
       ]
     }
   ],
