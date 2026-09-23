@@ -3499,3 +3499,11 @@
 - [x] No canonical DLC identity or PQ relationship changed.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Next: reconcile existing DAIMA and HERO OF JUSTICE Pack 2 content projections against concrete downstream records.
+
+
+### 2026-09-23 — TODO completion update — DLC pack record-link integrity
+- [x] Audited downstream equipment records for DAIMA and HERO OF JUSTICE Pack 2.
+- [x] Corrected 7 malformed pq_sources identifiers to canonical pq-NNN IDs.
+- [x] Recorded the repair in docs/data/dlc/dlc-content-link-audit.json.
+- [x] Preserved the evidence boundary; no new DLC/content relationship was inferred.
+- [ ] Non-PQ pack inventory remains unresolved and must be reconciled from concrete canonical records.
