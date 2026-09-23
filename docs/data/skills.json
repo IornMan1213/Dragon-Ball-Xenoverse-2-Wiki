@@ -9235,6 +9235,36 @@
       ]
     },
     {
+      "name": "Power Pole Combo",
+      "class": "Super",
+      "subcategory": "Strike",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Goku (GT) / Goku (GT) customizable partner",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Skill Shop; current references report availability after completing the main story.",
+      "source_quest_or_shop": "Skill Shop",
+      "ultimate_finish_required": null,
+      "skill_description": "Strike Super Attack that uses the Power Pole for a short-range, tracking multi-hit combo.",
+      "mechanics_notes": "The current Xenoverse 2-specific reference identifies a seven-hit Power Pole attack with repeated input extending the sequence; a first hit from farther away can advance the user toward the target. Exact frame, hitbox, damage, and input-window values are not promoted as universal canonical numbers.",
+      "combo_notes": "Designed as a short-range combo extender/finisher; repeated command input can continue the attack sequence up to seven hits.",
+      "pve_notes": "Skill Shop acquisition; no Parallel Quest or Ultimate Finish requirement established.",
+      "pvp_notes": "Tracking and multi-hit behavior can support combo pressure, but exact matchup/frame behavior is version-sensitive.",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-23",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Power_Pole_Combo",
+        "https://dragonball.fandom.com/wiki/Power_Pole"
+      ],
+      "acquisition_type": "skill_shop",
+      "notes": "2026-09-23 canonical promotion: dedicated current Xenoverse 2 evidence confirms Power Pole Combo as a distinct Strike Super, separate from Power Pole and Power Pole Pro, with 100 Ki cost, Goku (GT) use, and Skill Shop acquisition. The Support Pack is treated as provenance/early access rather than exclusive ownership.",
+      "id": "skill-power-pole-combo"
+    },
+    {
       "name": "Power Pole Pro",
       "class": "Awoken",
       "subcategory": "Race",
