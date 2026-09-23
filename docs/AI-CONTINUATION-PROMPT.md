@@ -4613,3 +4613,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Commits: canonical d22392aa50d452d45c24d64b865543590959ae70; audit 8f31867b905357061fb18d129a3f44e7aaad6469; thin census ce30cba025c28b769d2f14fdfd1fdcfe09bb96fa.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next priority: recompute the live strict-thin queue before editing again, then take the strongest remaining evidence-rich cluster. Preserve **032/034** as evidence boundaries and keep indexed-only **158/232–236** separate from fully researched records.
+
+
+### 2026-09-23 cycle update — Super Soul 148/150 and 155–187 secondary-field reconciliation
+- [x] Live census before this bounded pass: **234 canonical / 0 duplicate IDs / 60 strict-thin records**; after synchronization: **58 strict-thin records**.
+- [x] Bounded batch: **148, 150, 155, 157, 159, 163, 164, 167, 169, 170, 171, 173, 174, 175, 179, 187**.
+- [x] Evidence: maintained exact-name Super Soul catalogue plus independent research/guide sources; exact-name current catalogue confirms **148 = 3s/5s**, **150 = 5s**, while the other selected records lack documented stack caps in the consulted evidence. citeturn6search1turn6search0turn5search1
+- [x] Changes: recorded **148 = 3 seconds after Super Attack / 5 seconds after Ultimate Attack** and **150 = 5 seconds**; set evidence-bounded stacking semantics for 155, 157, 159, 163, 164, 167, 169, 170, 171, 173, 174, 175, 179, and 187 to **Not reported as stackable**.
+- [x] Evidence boundary preserved: the 30-second values for 159 and 174 are activation delays, not asserted buff durations; no unsupported duration was inferred for the remaining records.
+- [x] Added audit: `docs/data/super-soul-148-150-155-187-secondary-field-reconciliation-2026-09-23.json`.
+- [x] Refreshed live thin census to **58 strict-thin** records.
+- [x] Commits: canonical `f37de0e94a504d576cf9cd1f6af510d9711a8f80`; audit `c8a2779236bace89e3dbe4686d3997d2c9aa1ccd`; thin census `6fb1775798e14ef211172a61549f4701b471b4ba`.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next priority: recompute the live queue before editing again. Highest-value unresolved areas are the remaining duration-only records (129–133, 135, 137–139, 141, 143, 147, 149, 155, 157, 159, 163, 164, 167, 169–171, 173–175, 179, 187, 201, 229, 237, 239, 240–241, 246), while **032/034** and indexed-only **158/232–236** remain explicit evidence boundaries.
