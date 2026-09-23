@@ -6526,3 +6526,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Validation: JSON parsed successfully after correcting Bardock Presets 3-4 slot mapping; no existing records were removed or identity-collapsed.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - **Exact next batch:** continue with another character whose explicit in-game-data table can support numbered/name-matched preset records; continue avoiding inferred Goku numeric mappings.
+
+### 2026-09-23 cycle update — Raditz/Nappa explicit preset-loadout evidence batch
+- [x] Added **Raditz Preset 1** from the explicit Battle Suit 1 in-game-data table: Meteor Blow, Double Sunday, Afterimage, Energy Charge, Weekend, Break Strike.
+- [x] Added **Nappa Preset 1** from the explicit Battle Suit 1 in-game-data table: Sledgehammer, Energy Shot, Genocide Shell, Full Power Charge, Giant Storm.
+- [x] Updated the preset layer to **46 records / 19 verified loadouts**.
+- [x] Updated the navigation audit to **123 verified loadout skill entries**.
+- [x] Kept Festival/custom-partner configurations separate and did not infer acquisition routes from loadout tables.
+- [x] Web verification supports the Raditz and Nappa Battle Suit 1 tables. citeturn0search0turn0search1
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- **Exact next batch:** continue explicit Battle Suit row reconciliation for another unresolved character; prioritize exact preset-number/name matches.
