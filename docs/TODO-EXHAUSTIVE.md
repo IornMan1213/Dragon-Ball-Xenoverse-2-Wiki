@@ -3613,3 +3613,12 @@
 - [x] Preserved the evidence boundary: count reconciliation does not infer additional DLC ownership, character variants, or PQ reward relationships.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: reconcile the next concrete paid-DLC domain with an existing canonical record layer; prioritize a deterministic cross-domain completeness gap over creating a new illustration layer without individually source-backed identities.
+
+
+### 2026-09-23 — TODO completion update — HERO OF JUSTICE Pack 2 paid illustration scope
+- [x] Reconciled the official **15 paid illustrations** count from Steam, Nintendo, and Bandai Namco's Xenoverse 2 DLC listing.
+- [x] Confirmed the live repository still has no dedicated canonical illustration/loading-screen record layer; no synthetic illustration IDs, names, acquisition routes, or PQ reward slots were created.
+- [x] Added `docs/data/dlc/hero-of-justice-pack-2-paid-illustration-scope-reconciliation-2026-09-23.json`, registered it in `docs/data/pq-cross-domain-index.json`, and updated the DLC pack/content-link matrices.
+- [x] Preserved the paid-content boundary; this count does not absorb unrelated/free-update loading screens.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: continue the next concrete paid-DLC gap backed by an existing canonical record layer; do not create an illustration layer until individual identities are source-backed.
