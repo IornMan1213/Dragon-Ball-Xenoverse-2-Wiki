@@ -3479,7 +3479,7 @@
       "mechanics_notes": "100-Ki Ki Blast Super from PQ147. Current official/quest evidence confirms the multi-blast setup and optional on-the-spot firing; existing Legendary Pack 2 provenance and Basic Reward semantics are retained.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Double_Crush",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3487,7 +3487,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context. 2026-09-21 provenance strengthening: independent PQ147 reward documentation lists Double Crush as a Basic Reward of PQ147, while official Bandai Namco DLC documentation independently establishes the Legendary Pack 2 package scope. Exact individual reward evidence remains the PQ source; the official source is package-level provenance only. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context. 2026-09-21 provenance strengthening: independent PQ147 reward documentation lists Double Crush as a Basic Reward of PQ147, while official Bandai Namco DLC documentation independently establishes the Legendary Pack 2 package scope. Exact individual reward evidence remains the PQ source; the official source is package-level provenance only. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "source_parallel_quests": [
         147
       ]
@@ -3509,7 +3509,7 @@
       "mechanics_notes": "100-Ki Ki Blast Super from PQ24 Basic Reward. Current evidence confirms the PQ route and CaC availability; no narrower race, gender, or form restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Double_Death_Slicer",
@@ -3518,7 +3518,7 @@
       "source_quest": 24,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 24 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-19 verification: The live all-PQ reward guide lists Double Death Slicer as a Basic Reward for PQ24. This is an explicit concrete PQ source. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit.",
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 24 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-19 verification: The live all-PQ reward guide lists Double Death Slicer as a Basic Reward for PQ24. This is an explicit concrete PQ source. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-double-death-slicer",
       "source_parallel_quests": [
         24
@@ -3540,12 +3540,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Raditz mentor training — Initiation Test",
       "mechanics_notes": "100-Ki Ki Blast Super obtained from Raditz's Initiation Test. Current mentor evidence confirms the acquisition endpoint; the two-beam behavior is documented in historical gameplay evidence, but exact hit/damage behavior is not promoted to a hard numeric claim.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Raditz mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-double-sunday",
       "source_mentor": [
         "mentor-raditz"
@@ -3571,7 +3571,7 @@
       "mechanics_notes": "100-Ki Strike Super from PQ141. Current evidence confirms the knee/kick attack with additional and directional follow-ups/teleport positioning; existing Ultra Pack 2 provenance and PQ141 acquisition semantics are retained.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dragon_Blitz",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3580,7 +3580,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Ultra Pack 2 provenance audit: official Bandai Namco documentation confirms Ultra Pack 2 contains five Parallel Quests and eight techniques; the maintained 186-PQ guide maps the eight canonical skills to PQ138–142. The live canonical source-PQ relationships agree with the DLC label for all eight records. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: PQ141 — Uub's Ultimate Challenge reward documentation independently lists this skill among the Basic Rewards; a contemporaneous PQ141 walkthrough also documents obtaining it. Existing PQ141/Ultra Pack 2 acquisition semantics are preserved. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Ultra Pack 2 provenance audit: official Bandai Namco documentation confirms Ultra Pack 2 contains five Parallel Quests and eight techniques; the maintained 186-PQ guide maps the eight canonical skills to PQ138–142. The live canonical source-PQ relationships agree with the DLC label for all eight records. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: PQ141 — Uub's Ultimate Challenge reward documentation independently lists this skill among the Basic Rewards; a contemporaneous PQ141 walkthrough also documents obtaining it. Existing PQ141/Ultra Pack 2 acquisition semantics are preserved. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "source_parallel_quests": [
         141
       ]
@@ -3597,7 +3597,7 @@
       ],
       "stamina_cost": 200,
       "unlock_method": "Parallel Quest 82 — \"Ultimate Brotherly Battle\" Basic Reward",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "source_quest": 82,
       "source_quest_or_shop": "Parallel Quest 82 — \"Ultimate Brotherly Battle\"",
@@ -3610,7 +3610,7 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 reward-list refinement: the maintained all-PQ guide explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is assigned. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit.",
+      "notes": "2026-09-20 reward-list refinement: the maintained all-PQ guide explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is assigned. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-dragon-burn",
       "source_parallel_quests": [
         82
@@ -3633,12 +3633,12 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "mechanics_notes": "500-Ki Strike Ultimate available through the TP Medal Shop. Current evidence documents the 14-hit Shenron-finisher sequence and historical 200-TP-Medal shop listing; no quest route is inferred.",
       "source_quest_or_shop": "TP Medal Shop",
       "dlc_requirement": "Base Game",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the tp medal shop; documented historical listing price 200 tp medals acquisition route. No quest or Ultimate Finish route is inferred. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit.",
+      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the tp medal shop; documented historical listing price 200 tp medals acquisition route. No quest or Ultimate Finish route is inferred. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-dragon-fist"
     },
     {
@@ -3658,7 +3658,7 @@
       "mechanics_notes": "100-Ki Strike Super from PQ177's Ultimate Finish reward route, documented at 50%. Existing conflicting reward-list presentation is retained rather than silently normalized; no narrower CaC race/gender/form restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dragon_Spark",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3667,7 +3667,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 177,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: current PQ177 reward listing explicitly includes Dragon Spark in the Ultimate Finish reward pool; the dedicated skill page confirms PQ177 as its unlock quest. the Ultimate Finish requirement follows the maintained explicit drop-condition record. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit.",
+      "notes": "2026-09-20 audit: current PQ177 reward listing explicitly includes Dragon Spark in the Ultimate Finish reward pool; the dedicated skill page confirms PQ177 as its unlock quest. the Ultimate Finish requirement follows the maintained explicit drop-condition record. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-dragon-spark",
       "source_parallel_quests": [
         177
@@ -3690,7 +3690,7 @@
       "mechanics_notes": "100-Ki Strike Super from PQ185 Basic Reward. Current evidence documents a Ki-blast-blocking opening and follow-up, while exact resource thresholds remain under research. The explicit PQ185 route is retained over older alternate PQ186 references without inventing an additional route.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3700,7 +3700,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 185,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: current PQ185 reward listing explicitly includes Dragon Spiral in the Basic Reward pool. An earlier/alternate report associated it with PQ186, but the current dedicated PQ185 listing is treated as the canonical acquisition; no separate PQ186 route is inferred. 2026-09-20 provenance cleanup: the maintained PQ reward map explicitly places this skill in PQ185's skill reward inventory. Older/alternate references have also associated it with PQ186; the canonical route follows the explicit PQ185 mapping without inferring an additional PQ186 route or drop probability. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit.",
+      "notes": "2026-09-20 audit: current PQ185 reward listing explicitly includes Dragon Spiral in the Basic Reward pool. An earlier/alternate report associated it with PQ186, but the current dedicated PQ185 listing is treated as the canonical acquisition; no separate PQ186 route is inferred. 2026-09-20 provenance cleanup: the maintained PQ reward map explicitly places this skill in PQ185's skill reward inventory. Older/alternate references have also associated it with PQ186; the canonical route follows the explicit PQ185 mapping without inferring an additional PQ186 route or drop probability. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-dragon-spiral",
       "source_parallel_quests": [
         185
@@ -3722,13 +3722,13 @@
       "unlock_method": "N/A — character-only skill; unavailable for CaC",
       "usable_by_cac": false,
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "mechanics_notes": "100-Ki Strike Super belonging to Omega Shenron and unavailable to CaCs. Independent skill/ID evidence corroborates the character-only scope; no PQ or reward route is asserted.",
       "source_quest_or_shop": "Character skill",
       "race_restriction": "Character-only",
       "dlc_requirement": "Base Game",
       "acquisition_type": "character_only",
-      "notes": "2026-09-20 acquisition-status refinement: dedicated skill evidence classifies Dragon Thunder as Omega Shenron's character-only Strike Super and explicitly states it is unavailable to CaCs. 2026-09-21 provenance strengthening: an independent Xenoverse 2 character/skill ID list identifies Dragon Thunder as a non-CaC skill associated with Omega Shenron, corroborating the character-only scope. No PQ/source-quest or reward-tier route is asserted because the canonical evidence explicitly gives Unlock: N/A. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit.",
+      "notes": "2026-09-20 acquisition-status refinement: dedicated skill evidence classifies Dragon Thunder as Omega Shenron's character-only Strike Super and explicitly states it is unavailable to CaCs. 2026-09-21 provenance strengthening: an independent Xenoverse 2 character/skill ID list identifies Dragon Thunder as a non-CaC skill associated with Omega Shenron, corroborating the character-only scope. No PQ/source-quest or reward-tier route is asserted because the canonical evidence explicitly gives Unlock: N/A. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "character_source": "Omega Shenron",
       "id": "skill-dragon-thunder"
     },
@@ -3749,7 +3749,7 @@
       "mechanics_notes": "100-Ki Other Super from PQ95. It absorbs incoming Ki-based attacks and converts the energy for the user. Acquisition reports conflict on Ultimate Finish association, so the canonical UF flag remains false and exact drop slot/percentage remains unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dragonball.fandom.com/wiki/Absorption_Barrier",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76173007",
@@ -3757,7 +3757,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during cross-database orphan-skill audit. Preserve the acquisition-route conflict rather than collapsing it into a false drop-slot claim. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit.",
+      "notes": "Added during cross-database orphan-skill audit. Preserve the acquisition-route conflict rather than collapsing it into a false drop-slot claim. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-drain-field",
       "source_quest": 95,
       "source_parallel_quests": [
@@ -3780,12 +3780,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Android 18 mentor training",
       "mechanics_notes": "300-Ki Ki Blast Ultimate from Android 18's mentor training. Current mentor evidence confirms the reward endpoint; detailed combat mechanics remain intentionally deferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Android 18 mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-dual-destructo-disc",
       "source_mentor": [
         "mentor-android-18"
@@ -3809,7 +3809,7 @@
       "mechanics_notes": "100-Ki Other Super from PQ78 Basic Reward. Current evidence supports its Piccolo association and its ability to stun/blind depending on context; no narrower CaC restriction is inferred.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dust_Attack",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
@@ -3820,7 +3820,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 78,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence places Dust Attack in PQ78 Basic Reward. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit.",
+      "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence places Dust Attack in PQ78 Basic Reward. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-dust-attack",
       "source_parallel_quests": [
         78
