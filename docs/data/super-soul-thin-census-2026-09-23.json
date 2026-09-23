@@ -14,11 +14,13 @@
   ],
   "cross_domain": {
     "canonical_pq_records": 186,
-    "canonical_pq_super_soul_edges": 146,
-    "corrected_pq_range": "151-155"
+    "canonical_pq_super_soul_edges": 151,
+    "corrected_pq_range": "151-155",
+    "canonical_pq_super_soul_reverse_targets": 148,
+    "note": "Live canonical PQ→Super Soul relationship coverage is 151 forward edges / 148 unique reverse targets. The 232-236 identity correction removed five placeholder records but did not leave the canonical relationship layer at 146; the current canonical relationship source is authoritative."
   },
-  "next_method": "Continue strict-thin evidence reconciliation for 032, 034, 158, and 217. Do not recreate 232-236 without a distinct game-data identity key.",
-  "status": "complete",
+  "next_method": "Current strict-thin queue is 032, 034, 158, and 217. All four have completed evidence-boundary passes; do not force unresolved mechanics. Next priority is a deterministic high-impact reconciliation outside the thin queue, unless new item-level evidence appears.",
+  "status": "complete_current",
   "last_updated": "2026-09-23",
   "notes": [
     "Five indexed-only 232-236 placeholders were removed after catalogue identity reconciliation.",
