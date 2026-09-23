@@ -3507,3 +3507,14 @@
 - [x] Recorded the repair in docs/data/dlc/dlc-content-link-audit.json.
 - [x] Preserved the evidence boundary; no new DLC/content relationship was inferred.
 - [ ] Non-PQ pack inventory remains unresolved and must be reconciled from concrete canonical records.
+
+
+### 2026-09-23 — TODO completion update — DLC pack content matrix / concrete downstream anchors
+- [x] Audited the remaining unresolved DAIMA and HERO OF JUSTICE Pack 2 non-PQ content projections against the live canonical PQ/reward/equipment/character layers and official publisher announcements.
+- [x] Added `docs/data/dlc/dlc-pack-content-matrix-2026-09-23.json` with bounded, source-backed pack scope, canonical PQ sets, concrete downstream navigation anchors, and explicit unresolved inventory domains.
+- [x] Preserved the paid-vs-free DAIMA boundary: the official DAIMA announcement separately identifies the paid pack and its free update content.
+- [x] Preserved the existing evidence boundary: PQ-backed anchor counts are navigation evidence, not a complete DLC ownership manifest.
+- [x] Registered the matrix in `docs/data/pq-cross-domain-index.json` and linked it from the DLC content-link audit.
+- [x] Validation by live re-fetch: matrix JSON structure is valid; DAIMA resolves to PQ179–181 and HERO OF JUSTICE Pack 2 resolves to PQ159–162; canonical DLC identity layer remains 20 records / 86 PQ→DLC edges; no canonical relationship row changed.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: use the new matrix to reconcile the strongest concrete non-PQ DAIMA/HOJ2 downstream record cohort, starting with existing equipment/accessory records and then skills/Super Souls; do not fill unresolved raid/lobby/stage inventories without record-level evidence.
