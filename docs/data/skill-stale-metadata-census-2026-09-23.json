@@ -6,47 +6,47 @@
   "live_counts": {
     "canonical_skill_records": 455,
     "index_skill_records": 455,
-    "current_last_verified_records": 427,
-    "stale_last_verified_records": 28,
+    "current_last_verified_records": 439,
+    "stale_last_verified_records": 16,
     "duplicate_ids": 0
   },
-  "method": "Fresh alphabetical census after the Tail Slicer through Time Skip provenance refresh.",
+  "method": "Fresh alphabetical census after the Time Skip/Tremor Pulse through Vanishing Ball provenance refresh.",
   "next_stale_records": [
     {
-      "name": "Time Skip/Tremor Pulse"
+      "name": "Variable Snipe Shot"
     },
     {
-      "name": "Timespace Impact"
+      "name": "Variant Drive"
     },
     {
-      "name": "Total Detonation Ball"
+      "name": "Venus Fist"
     },
     {
-      "name": "Trap Shooter"
+      "name": "Victory Cannon"
     },
     {
-      "name": "Tri-Beam"
+      "name": "Victory Rush"
     },
     {
-      "name": "Turn Golden"
+      "name": "Volleyball Fist"
     },
     {
-      "name": "Tyrant Lancer"
+      "name": "Wall of Defense"
     },
     {
-      "name": "Ultimate Charge"
+      "name": "Warp Kamehameha"
     },
     {
-      "name": "Ultra Instinct"
+      "name": "Weekend"
     },
     {
-      "name": "Ultrasonic Blitz"
+      "name": "Wild Buster"
     },
     {
-      "name": "Unrelenting Barrage"
+      "name": "Wild Hunt"
     },
     {
-      "name": "Vanishing Ball"
+      "name": "Wild Stinger"
     }
   ],
   "validation": {
