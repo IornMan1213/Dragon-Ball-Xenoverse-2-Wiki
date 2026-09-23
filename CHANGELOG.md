@@ -1845,3 +1845,11 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Added and registered docs/data/super-soul-secondary-field-reconciliation-013-014-017-026-2026-09-22.json.
 - No canonical PQ relationship, acquisition identity, or Limit Burst semantics were changed.
 - Runtime/CI remains unavailable; no CI success claimed.
+
+
+## 2026-09-22 — Super Soul secondary-field reconciliation (002 / 004 / 008 / 010 / 011 / 028–031)
+- Reconciled nine early/base-game records from the deterministic thin queue.
+- Filled trigger-bound duration semantics for 002, 004, and 010; marked instantaneous 008 duration as N/A; and marked stacking as N/A for all nine where no stacking mechanic is documented.
+- Preserved existing effect magnitudes, acquisition routes, PQ relationships, and Limit Burst data.
+- Added and registered `docs/data/super-soul-secondary-field-reconciliation-002-004-008-010-011-028-031-2026-09-22.json`.
+- No unsupported numeric mechanics were promoted. CI/runtime remains unavailable.
