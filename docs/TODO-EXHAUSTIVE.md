@@ -4699,3 +4699,13 @@
 - [x] Updated persistent handoff and reconciliation audit.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** continue the remaining aggregate-user/variant cluster using exact canonical roster evidence.
+
+
+### 2026-09-23 cycle update — Cell/Gohan/Super Destructo-Disc identity batch
+
+- [x] Reconciled 4 additional skill→character source entries / 7 canonical edges.
+- [x] Cumulative bridge: **24 resolved skill records / 34 canonical edges / 15 canonical character targets**.
+- [x] Refreshed gap inventory: **22 unresolved character/variant entries remain**.
+- [x] Updated bridge, reverse index, gap inventory, reconciliation audit, and persistent handoff.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** reconcile remaining variant/aggregate entries while preserving contradictory Toppo/Android 21, Champa/Vados/Frieza, and Ultra Supervillain source evidence.
