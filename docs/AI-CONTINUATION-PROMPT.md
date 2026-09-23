@@ -5639,3 +5639,10 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Added/registered `docs/data/skill-provenance-audit-2026-09-23-change-through-charge.json` and updated `CHANGELOG.md`.
 - Validation target: **455 canonical / 455 index / 0 duplicate IDs / 5 targets synchronized**. No CI success claimed.
 - Exact next action: recompute live stale state and continue with the next stale records after **Charge**; do not repeat this batch.
+
+### 2026-09-23 cycle update — P1 Charged Ki Wave through Core Breaker provenance refresh
+- Completed **Charged Ki Wave, Circle Flash, Comet Strike, Confusion Blade, and Core Breaker** after the Charge queue point.
+- Canonical/index verification dates synchronized to `2026-09-23`; existing conflicts and unresolved scope were preserved.
+- Added/registered the new provenance audit and updated `CHANGELOG.md`.
+- Validation target: **455 canonical / 455 index / 0 duplicate IDs / 5 targets synchronized**. No CI success claimed.
+- Exact next action: recompute live stale state and continue with the next stale records after **Core Breaker**; do not repeat this batch.
