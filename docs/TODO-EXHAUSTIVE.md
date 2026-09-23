@@ -3461,3 +3461,12 @@
 - [x] No canonical relationship rows were changed.
 - [ ] Runtime/CI remains unavailable; no executable validation success claimed.
 - [ ] Exact next priority: inspect Equipment/DLC reverse-navigation presentation and generated content pages for one-way destinations, then repair deterministic navigation gaps.
+
+
+### 2026-09-23 — TODO completion update — Equipment/DLC reverse-navigation presentation
+- [x] Audited `docs/Equipment-All.html` for one-way DLC/PQ navigation and repaired the deterministic DLC presentation gap by adding local-search links for populated DLC provenance values.
+- [x] Audited `docs/DLC-Overview.md` and added player-facing reverse navigation from all canonical DLC identities to their canonical PQ sets through the local PQ explorer.
+- [x] Added `docs/data/equipment-dlc-reverse-navigation-presentation-audit-2026-09-23.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved the canonical-source-of-truth boundary; no relationship or gameplay data was inferred.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next priority: continue published character/DLC presentation-index and generated-content navigation audits, then resume deterministic DLC content-domain reconciliation.
