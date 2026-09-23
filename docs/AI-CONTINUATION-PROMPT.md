@@ -3998,3 +3998,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime: no successful workflow/check exposed for the direct-commit chain; no CI success claimed.
 - [x] Commits: da1151f3867b35bb303adb7993145df7c64d95f1, 6a48352fb3b19bea392c74cb61505c1d37cc4cba, 4de772688803160f0ad05519d501374a0b3aca29.
 - [ ] Exact next batch: recompute the **live full Super Soul indexed/thin census** and select the next 4–12 highest-impact unresolved records with strong exact-name evidence and reusable PQ/cross-domain links. Do not assume sequential IDs are automatically the next priority.
+
+
+### 2026-09-22 cycle update — Super Soul 049, 055, 060, 061 mechanics/Limit Burst refresh
+- [x] Live census before editing: **234 canonical records**; the strict core-field thin count is **220**, with many null duration/stacking fields legitimately representing always-active or non-timed effects.
+- [x] Selected a bounded high-impact PQ-linked batch: **049, 055, 060, 061**, rather than assuming numeric continuation from the previous 206–211 batch; this follows the organized handoff's later live-state priority for unresolved early/cross-domain records.
+- [x] Refreshed Super Soul 049's Limit Burst; 055's full-Ki/30-second Ki Auto-Recovery magnitude and Limit Burst; 060's corrected +20% Ki Blast Skills magnitude and Limit Burst; and 061's +5% Strike/+10% Ki Blast per-stack values, five-stack cap, and Limit Burst.
+- [x] Preserved canonical PQ edges: **049→PQ058, 055→PQ131, 060→PQ093, 061→PQ160**.
+- [x] Added `docs/data/super-soul-049-055-060-061-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Evidence used: current Super Soul catalogue, dedicated Pan/Gohan (Beast) character documentation, independent GameFAQs build/research discussion, and the repository research seed for 055. citeturn6search0turn7search1turn6search1turn7search0
+- [x] Validation: canonical JSON parses at **234 records**; all four selected records have populated character/trigger/effect/magnitude/Limit Burst fields; PQ identities unchanged; audit registered.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [x] Commits: `60455e83c45e73c9d4bae6343df21626aebb1ead`, `935a530d2425c40277adccfae1a3ff833b90ecf0`, `6825bee0f93e3f7fc609499850ac81068fceffb9`.
+- [ ] Exact next batch: continue the live thin-system census from the highest-impact unresolved PQ-linked records, prioritizing reusable cross-domain relationships and strong exact-name evidence; do not create another dated continuation prompt.
