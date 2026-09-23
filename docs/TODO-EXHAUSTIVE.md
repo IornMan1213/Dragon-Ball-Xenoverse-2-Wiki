@@ -3994,3 +3994,16 @@
 - [x] Validation: **455 canonical / 455 index / 0 duplicate IDs**; **429** stale records remain.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next batch: **Blaster Shell, Blaster Stream, Blazing Attack, Bloody Counter, Bluff Kamehameha**.
+
+
+### 2026-09-23 cycle update — Big Bang Attack provenance strengthening
+- Live census before editing: **455 canonical / 455 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 3 exactly-two-source canonical records**.
+- Bounded batch: **Big Bang Attack** (`skill-big-bang-attack`).
+- Research/evidence: independent GameFAQs TP Medal Shop catalogue corroborates Big Bang Attack as a TP Medal Shop Super and reports a **15 TP Medal** price; the source notes shop contents are RNG/rotation based. citeturn2search0
+- Changes: canonical/index sources gained the GameFAQs source; `last_verified` refreshed to **2026-09-23**; provenance note synchronized.
+- Evidence limits preserved: no current rotation date, guaranteed availability window, or drop probability was inferred; existing acquisition endpoint, 100 Ki cost, Base Game classification, and mechanics were unchanged.
+- Audit: `docs/data/skill-big-bang-attack-provenance-audit-2026-09-23.json` added and registered in `docs/data/pq-cross-domain-index.json`.
+- Validation: **455/455** canonical/index; **0 duplicate IDs**; **0 nullable canonical `ki_cost`**; target now has **3 sources**; exact-two-source queue reduced from **3 to 2**.
+- CI/runtime: no successful GitHub Actions status exposed; no CI success claimed.
+- Commits: canonical `fb7027968932d25ba2222e85a0043edf6cb590f7`; index `9523f01505b0d5101fb0601e0878a13ee568d09e`; audit `ca0c2cc2c55f5193dabf9159dd41ea3acb51bb51`; registry `4367562e4a4549716e7eb19da1eeb949ab19ac8e`; changelog `e368f0d29255d0ac5399bea7cc69547b2b86f285`.
+- Exact next batch: **Power Pole Combo** (`skill-power-pole-combo`); recompute the live two-source census first, independently verify its acquisition/source endpoint, and make provenance-only changes within the existing canonical relationship contract.
