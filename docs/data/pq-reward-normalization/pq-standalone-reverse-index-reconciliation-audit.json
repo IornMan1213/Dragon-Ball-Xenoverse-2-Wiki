@@ -42,9 +42,9 @@
   ],
   "evidence_boundary": "Standalone reverse indexes remain projections of normalized source maps. Canonical-vs-standalone differences documented in pq-standalone-reverse-index-audit.json are informational and must not be used to rewrite canonical relationships. No destructive regeneration was required.",
   "validation": {
-    "canonical_current_relationship_baseline": 859,
+    "canonical_current_relationship_baseline": 854,
     "skills": 244,
-    "super_souls": 151,
+    "super_souls": 146,
     "equipment": 124,
     "characters": 247,
     "dlc": 86,
