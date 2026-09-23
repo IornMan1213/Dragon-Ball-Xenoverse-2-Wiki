@@ -42,11 +42,23 @@
         ],
         "skills": {
           "canonical_pq_edge_count": 6,
-          "status": "PQ-backed navigation anchor count; individual pack inventory remains separate"
+          "record_ids": [
+            "skill-heat-wave",
+            "skill-supreme-fury",
+            "skill-force-edge",
+            "skill-burning-blast",
+            "skill-super-kamehameha-ss4-daima",
+            "skill-final-flash-ss3-daima"
+          ],
+          "status": "concrete canonical skill navigation anchors; complete pack inventory remains separate"
         },
         "super_souls": {
           "canonical_pq_edge_count": 2,
-          "status": "PQ-backed navigation anchor count; individual pack inventory remains separate"
+          "record_ids": [
+            "super-soul-145",
+            "super-soul-062"
+          ],
+          "status": "concrete canonical-backed Super Soul navigation anchors; complete pack inventory remains separate"
         },
         "equipment": {
           "canonical_pq_edge_count": 8,
@@ -139,11 +151,27 @@
         ],
         "skills": {
           "canonical_pq_edge_count": 7,
-          "status": "PQ-backed navigation anchor count; individual pack inventory remains separate"
+          "record_ids": [
+            "skill-fierce-fist",
+            "skill-demonic-destruction",
+            "skill-demon-ray",
+            "skill-demon-flash-strike",
+            "skill-demon-flurry",
+            "skill-apocalyptic-burst",
+            "skill-special-beam-cannon-beast"
+          ],
+          "status": "concrete canonical skill navigation anchors; complete pack inventory remains separate"
         },
         "super_souls": {
           "canonical_pq_edge_count": 5,
-          "status": "Existing canonical relationship projection; not promoted to complete pack inventory"
+          "record_ids": [
+            "super-soul-120",
+            "super-soul-121",
+            "super-soul-061",
+            "super-soul-118",
+            "super-soul-119"
+          ],
+          "status": "concrete canonical-backed Super Soul navigation anchors; complete pack inventory remains separate"
         },
         "equipment": {
           "canonical_pq_edge_count": 5,
