@@ -6,47 +6,47 @@
   "live_counts": {
     "canonical_skill_records": 455,
     "index_skill_records": 455,
-    "current_last_verified_records": 391,
-    "stale_last_verified_records": 64,
+    "current_last_verified_records": 402,
+    "stale_last_verified_records": 53,
     "duplicate_ids": 0
   },
   "method": "Fresh alphabetical census after the Spirit Slash through Super Elite Combo batch.",
   "next_stale_records": [
     {
-      "name": "Super Explosive Wave"
+      "name": "Super Saiyan God"
     },
     {
-      "name": "Super Gamma Blast"
+      "name": "Super Saiyan God Super Saiyan"
     },
     {
-      "name": "Super Ghost Buu Attack"
+      "name": "Super Saiyan God Super Saiyan (Evolved)"
     },
     {
-      "name": "Super Ghost Kamikaze Attack"
+      "name": "Super Saiyan God Super Saiyan (SSGSS)"
     },
     {
-      "name": "Super Ghost Kamikaze Attack"
+      "name": "Super Saiyan God Super Saiyan (Evolved)"
     },
     {
-      "name": "Super God Fist"
+      "name": "Super Saiyan Rosé"
     },
     {
-      "name": "Super God Shock Flash"
+      "name": "Super Saiyan Rosé Goku Black"
     },
     {
-      "name": "Super Guard"
+      "name": "Super Saiyan 3"
     },
     {
-      "name": "Super Kamehameha"
+      "name": "Super Saiyan 4"
     },
     {
-      "name": "Super Kamehameha (SS4 DAIMA)"
+      "name": "Super Saiyan Blue"
     },
     {
-      "name": "Super Saiyan"
+      "name": "Super Saiyan Blue (Evolved)"
     },
     {
-      "name": "Super Saiyan 2"
+      "name": "Super Saiyan God"
     }
   ],
   "validation": {
