@@ -5788,3 +5788,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: **455 canonical / 455 index / 280 stale / 0 duplicate IDs**; target source/date parity clean.
 - CI/runtime: unavailable; no CI success claimed.
 - Exact next action: recompute the live stale queue and continue with the first alphabetical stale canonical records.
+
+### 2026-09-23 cycle update — P1 Final-through-Force Edge skill provenance/mechanics refresh
+- Live census before editing: **455 canonical / 455 index / 0 duplicate IDs / 280 stale**.
+- Bounded batch: **Final Flash (Super), Final Kamehameha, Final Pose, Final Rampage, Finish Breaker, Finishing Blow, Flash Bomber, Flash Chaser, Flash Fist Crush, Flash Strike, Focus Flash, Force Edge**.
+- Research/evidence: reused the repository's existing exact-name source sets and current dedicated Xenoverse 2 skill documentation; evidence corroborates the bounded mechanics for beam hit counts, Final Pose duration/effects, barrage extension, counter behavior, and Force Edge follow-up behavior.
+- Changes: refreshed canonical/index `last_verified` to **2026-09-23** and expanded only bounded mechanics/provenance notes; no unrelated acquisition, reward probability, Ultimate-Finish, or CaC-restriction fields were inferred.
+- Added/registered **docs/data/skill-provenance-audit-2026-09-23-final-through-force-edge.json**.
+- Validation after write: **455 canonical / 455 index / 0 duplicate IDs / 268 stale**. All 12 target records have canonical/index parity for verification date, mechanics notes, and sources. Ten broader pre-existing source-parity differences remain outside this bounded batch and were not silently rewritten.
+- CI/runtime: unavailable; no CI success claimed.
+- Commits: canonical `c8a4dbc91bb51dae5aed87fadb083cb24b402e1d`; index `36986485b8c0cffdb29dce4002546b86d26c4f48`; audit `121c04790a61bc2114c0ad4eec5999e8a2eefeb9`; registry `af4e6a177604c007bfa6605bad7472bea32ab11e`; changelog `d577fdafa6b2d19b3b7c4d4e446b4cf6e714d067`; TODO `96e4d72291e59aabf0ffa6fd915f047f84a1cca3`.
+- Exact next batch: **Force Shield, Formation!, Freedom Kick, Fruit of the Tree of Might, Full Power Charge, Full Power Destruction, Future Super Saiyan, Galactic Donuts, Galick Cannon, Galick Gun, Gamma Blaster, Gamma Impact**. Recompute the live stale queue first; do not repeat completed records.
