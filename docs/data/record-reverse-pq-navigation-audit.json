@@ -8,7 +8,7 @@
       "relationship": "pq_rewards_super_soul",
       "record_count": 234,
       "canonical_edges": 146,
-      "unique_canonical_targets": 148,
+      "unique_canonical_targets": 143,
       "unresolved_targets": [],
       "structured_field": "source_parallel_quests",
       "structured_pq_mismatches": [],
@@ -145,13 +145,13 @@
   },
   "validator": "scripts/validate_record_reverse_pq_navigation.py",
   "evidence_boundary": "Canonical PQ links and structured PQ ID fields establish relationship identity only. Exact (record, PQ) pair parity is checked in both directions; acquisition prose may preserve historical/source conflicts and does not establish reward guarantees, Ultimate Finish requirements, drop rates, or unresolved acquisition claims. The 2026-09-22 presentation hardening also requires each indexed Super Soul/equipment record card to link its canonical name to the local full-text Search surface, preserving the existing explorer-to-PQ reverse links.",
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "status": "clean",
   "validator_commit": "0560e25e6a48545878bdfcd6436de251e85aa18c",
   "exact_forward_pair_contract": {
     "super_souls": {
-      "canonical_pairs": 151,
-      "structured_pairs_for_canonical_targets": 151,
+      "canonical_pairs": 146,
+      "structured_pairs_for_canonical_targets": 146,
       "missing": 0,
       "extra": 0,
       "duplicate": 0
