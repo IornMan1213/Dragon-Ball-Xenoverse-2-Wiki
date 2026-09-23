@@ -163,6 +163,69 @@
       ],
       "status": "resolved",
       "basis": "Current skill documentation identifies God of Destruction Champa as the user; canonical character roster uses the full identity."
+    },
+    {
+      "skill_id": "skill-do-or-die",
+      "skill_name": "Do or Die",
+      "source_token": "Super Saiyan 3 Gotenks",
+      "canonical_character_names": [
+        "Gotenks"
+      ],
+      "status": "resolved",
+      "basis": "The canonical roster contains Gotenks; the source's Super Saiyan 3 form is a form-specific user of the Gotenks character identity."
+    },
+    {
+      "skill_id": "skill-gigantic-explosion",
+      "skill_name": "Gigantic Explosion",
+      "source_token": "Broly (Restrained), Broly (DB Super), Broly Customize Partner",
+      "canonical_character_names": [
+        "Broly (Restrained)",
+        "Broly (DB Super)"
+      ],
+      "status": "resolved_multi",
+      "basis": "Both named Broly variants exist as canonical character records; the Customize Partner occurrence is retained under the corresponding Broly identity rather than invented as a new character."
+    },
+    {
+      "skill_id": "skill-god-punisher",
+      "skill_name": "God Punisher",
+      "source_token": "Gogeta (Super Saiyan Blue)",
+      "canonical_character_names": [
+        "SSGSS Gogeta"
+      ],
+      "status": "resolved",
+      "basis": "The canonical roster uses SSGSS Gogeta for the Super Saiyan Blue Gogeta identity."
+    },
+    {
+      "skill_id": "skill-power-pole-combo",
+      "skill_name": "Power Pole Combo",
+      "source_token": "Goku (GT) / Goku (GT) customizable partner",
+      "canonical_character_names": [
+        "Goku (GT)"
+      ],
+      "status": "resolved",
+      "basis": "The canonical roster contains Goku (GT); the Customize Partner wording is an availability route for that same identity."
+    },
+    {
+      "skill_id": "skill-requiem-of-destruction",
+      "skill_name": "Requiem of Destruction",
+      "source_token": "Whis — Customize Partner",
+      "canonical_character_names": [
+        "Whis"
+      ],
+      "status": "resolved",
+      "basis": "The canonical roster contains Whis and the source explicitly identifies the Whis Customize Partner route."
+    },
+    {
+      "skill_id": "skill-rolling-bullet",
+      "skill_name": "Rolling Bullet",
+      "source_token": "Android 18 / Android 18 (DB Super) / Great Saiyaman 2",
+      "canonical_character_names": [
+        "Android 18",
+        "Android 18 (DB Super)",
+        "Great Saiyaman 2"
+      ],
+      "status": "resolved_multi",
+      "basis": "All three named identities are present in the canonical roster, so the aggregate source can be represented without inventing variants."
     }
   ]
 }
