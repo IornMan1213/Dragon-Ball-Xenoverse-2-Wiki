@@ -5945,3 +5945,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Live census: 455 canonical / 455 index / 331 current / 124 stale / 0 duplicate IDs.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next batch: Remote Serious Bomb, Requiem of Destruction, Revenge Death Ball, Revenge Final Flash, Reverse Launcher, Reverse Mabakusenko, Reverse Shot, Ribrianne's Eternal Love, Riot Javelin, Rise to Action, Rising Rage, Rocket Tackle.
+
+
+### 2026-09-23 cycle update — P1 Remote Serious Bomb through Rocket Tackle
+- Completed 12 records: Remote Serious Bomb, Requiem of Destruction, Revenge Death Ball, Revenge Final Flash, Reverse Launcher, Reverse Mabakusenko, Reverse Shot, Ribrianne's Eternal Love, Riot Javelin, Rise to Action, Rising Rage, Rocket Tackle.
+- Canonical/index verification dates synchronized; bounded evidence boundaries preserved.
+- Added and registered the dedicated provenance audit.
+- Live census: 455 canonical / 455 index / 343 current / 112 stale / 0 duplicate IDs.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next batch: Rolling Bullet, Rolling Hercule Punch, Rough Ranger, S.S. Deadly Bomber, Saiyan Blaster, Saiyan Spirit, Saturday Crash, Sauzer Blade, Savory Slicer, Scatter Kamehameha, Scissors Paper Rock, Seagull Combination.

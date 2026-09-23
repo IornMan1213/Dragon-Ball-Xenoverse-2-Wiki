@@ -2660,3 +2660,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Added and registered docs/data/skill-provenance-audit-2026-09-23-psycho-barrier-through-recoome-kick.json.
 - Live stale census: 124 stale / 331 current / 455 canonical / 0 duplicate IDs.
 - Exact next batch: Remote Serious Bomb, Requiem of Destruction, Revenge Death Ball, Revenge Final Flash, Reverse Launcher, Reverse Mabakusenko, Reverse Shot, Ribrianne's Eternal Love, Riot Javelin, Rise to Action, Rising Rage, Rocket Tackle.
+
+
+## 2026-09-23 — P1 Remote Serious Bomb through Rocket Tackle
+- Completed 12 stale skills and synchronized canonical/index projections to 2026-09-23.
+- Added and registered the dedicated provenance audit; refreshed live stale census and continuation metadata.
+- Live census: 112 stale / 343 current / 455 canonical / 0 duplicate IDs.
+- Exact next batch: Rolling Bullet, Rolling Hercule Punch, Rough Ranger, S.S. Deadly Bomber, Saiyan Blaster, Saiyan Spirit, Saturday Crash, Sauzer Blade, Savory Slicer, Scatter Kamehameha, Scissors Paper Rock, Seagull Combination.

@@ -5,72 +5,12 @@
   "source_of_truth": "docs/data/skills.json",
   "live_counts": {
     "canonical_skill_records": 455,
-    "current_last_verified_records": 331,
-    "stale_last_verified_records": 124,
+    "current_last_verified_records": 343,
+    "stale_last_verified_records": 112,
     "duplicate_ids": 0
   },
-  "method": "Fresh alphabetical census after the Psycho Barrier through Recoome Kick batch.",
+  "method": "Fresh alphabetical census after the Remote Serious Bomb through Rocket Tackle batch.",
   "next_stale_records": [
-    {
-      "id": "skill-remote-serious-bomb",
-      "name": "Remote Serious Bomb",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "skill-requiem-of-destruction",
-      "name": "Requiem of Destruction",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "skill-revenge-death-ball",
-      "name": "Revenge Death Ball",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "skill-revenge-final-flash",
-      "name": "Revenge Final Flash",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "skill-reverse-launcher",
-      "name": "Reverse Launcher",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "skill-reverse-mabakusenko",
-      "name": "Reverse Mabakusenko",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "skill-reverse-shot",
-      "name": "Reverse Shot",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "skill-ribrianne-s-eternal-love",
-      "name": "Ribrianne's Eternal Love",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "skill-riot-javelin",
-      "name": "Riot Javelin",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "skill-rise-to-action",
-      "name": "Rise to Action",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "skill-rising-rage",
-      "name": "Rising Rage",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "skill-rocket-tackle",
-      "name": "Rocket Tackle",
-      "last_verified": "2026-09-22"
-    },
     {
       "id": "skill-rolling-bullet",
       "name": "Rolling Bullet",
@@ -109,6 +49,66 @@
     {
       "id": "skill-sauzer-blade",
       "name": "Sauzer Blade",
+      "last_verified": "2026-09-22"
+    },
+    {
+      "id": "skill-savory-slicer",
+      "name": "Savory Slicer",
+      "last_verified": "2026-09-22"
+    },
+    {
+      "id": "skill-scatter-kamehameha",
+      "name": "Scatter Kamehameha",
+      "last_verified": "2026-09-22"
+    },
+    {
+      "id": "skill-scissors-paper-rock",
+      "name": "Scissors Paper Rock",
+      "last_verified": "2026-09-22"
+    },
+    {
+      "id": "skill-seagull-combination",
+      "name": "Seagull Combination",
+      "last_verified": "2026-09-22"
+    },
+    {
+      "id": "skill-secret-poison",
+      "name": "Secret Poison",
+      "last_verified": "2026-09-22"
+    },
+    {
+      "id": "skill-shadow-crusher",
+      "name": "Shadow Crusher",
+      "last_verified": "2026-09-22"
+    },
+    {
+      "id": "skill-shield-barrier",
+      "name": "Shield Barrier",
+      "last_verified": "2026-09-22"
+    },
+    {
+      "id": "skill-shine-shot",
+      "name": "Shine Shot",
+      "last_verified": "2026-09-22"
+    },
+    {
+      "id": "skill-shining-friday",
+      "name": "Shining Friday",
+      "last_verified": "2026-09-22"
+    },
+    {
+      "id": "skill-shining-slash",
+      "name": "Shining Slash",
+      "last_verified": "2026-09-22"
+    },
+    {
+      "id": "skill-shooting-strike",
+      "name": "Shooting Strike",
+      "last_verified": "2026-09-22"
+    },
+    {
+      "id": "skill-side-bridge",
+      "name": "Side Bridge",
       "last_verified": "2026-09-22"
     }
   ],

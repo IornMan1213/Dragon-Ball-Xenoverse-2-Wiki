@@ -4375,3 +4375,12 @@
 - [x] Validation: 455/455 / 0 duplicate IDs / 124 stale; target stale remaining 0.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next batch: Remote Serious Bomb, Requiem of Destruction, Revenge Death Ball, Revenge Final Flash, Reverse Launcher, Reverse Mabakusenko, Reverse Shot, Ribrianne's Eternal Love, Riot Javelin, Rise to Action, Rising Rage, Rocket Tackle; recompute the live stale queue before editing.
+
+
+### 2026-09-23 — TODO completion update — P1 Remote Serious Bomb through Rocket Tackle
+- [x] Completed 12 skills: Remote Serious Bomb, Requiem of Destruction, Revenge Death Ball, Revenge Final Flash, Reverse Launcher, Reverse Mabakusenko, Reverse Shot, Ribrianne's Eternal Love, Riot Javelin, Rise to Action, Rising Rage, Rocket Tackle.
+- [x] Synchronized canonical/index last_verified to 2026-09-23 and refreshed bounded provenance/mechanics notes.
+- [x] Added/registered the dedicated provenance audit and refreshed the live stale census.
+- [x] Validation: 455/455 / 0 duplicate IDs / 112 stale; target stale remaining 0.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next batch: Rolling Bullet, Rolling Hercule Punch, Rough Ranger, S.S. Deadly Bomber, Saiyan Blaster, Saiyan Spirit, Saturday Crash, Sauzer Blade, Savory Slicer, Scatter Kamehameha, Scissors Paper Rock, Seagull Combination; recompute the live stale queue before editing.
