@@ -54,8 +54,28 @@
         "Explosive Wave",
         "Super Vegeta"
       ]
+    },
+    {
+      "character_id": "vegeta",
+      "source": "https://dbxv2.fandom.com/wiki/Vegeta",
+      "source_type": "repository_search_result",
+      "named_loadout": "Battle Suit 10",
+      "observed_skills": [],
+      "repository_numeric_mapping": "unresolved",
+      "decision": "retain_unresolved",
+      "reason": "Repository search exposes the numeric record but does not expose an explicit source-row loadout or game-data key for Battle Suit 10."
+    },
+    {
+      "character_id": "vegeta",
+      "source": "https://dbxv2.fandom.com/wiki/Vegeta",
+      "source_type": "repository_search_result",
+      "named_loadout": "Battle Suit 11",
+      "observed_skills": [],
+      "repository_numeric_mapping": "unresolved",
+      "decision": "retain_unresolved",
+      "reason": "Repository search exposes the numeric record but does not expose an explicit source-row loadout or game-data key for Battle Suit 11."
     }
   ],
   "unresolved_mapping_rule": "Do not assign numeric preset IDs by row order, costume order, or proximity. Explicit source labels such as Battle Suit 1/2 are acceptable exact mappings.",
-  "next": "Continue exact reconciliation for the remaining unresolved Vegeta preset numbers (3, 9, 10, 11 where applicable), using explicit source labels and exact loadout matches only."
+  "next": "Search the repository's producer/source corpus or external game-data identifiers for explicit Battle Suit 10 and 11 rows; do not populate loadouts from ordering or unsupported secondary snippets."
 }
