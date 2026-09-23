@@ -49,13 +49,18 @@
       14
     ],
     "relationship_PQ_coverage": {
-      "covered_PQs": 182,
-      "missing_PQs": [
-        1,
-        12,
-        13,
-        14
-      ]
+      "covered_PQs": 186,
+      "missing_PQs": [],
+      "batch_directory_coverage": {
+        "covered_PQs": 182,
+        "missing_PQs": [
+          1,
+          12,
+          13,
+          14
+        ]
+      },
+      "note": "Canonical relationship coverage is complete for PQ 1-186. The four listed PQs are missing only from the canonical reward batch directory used by this reconciliation; they are not missing from the canonical relationship layer."
     },
     "equipment_reverse_coverage": {
       "forward_edges": 122,
@@ -63,7 +68,12 @@
       "dual_subtype_edges_before_fix": 31,
       "dual_subtype_edges_after_fix": 0
     },
-    "interpretation": "PQ 1-14 are not represented in the canonical reward batch directory used by this reconciliation. Do not claim canonical batch exhaustiveness for those four PQs; existing relationship evidence for other PQs remains independently sourced."
+    "interpretation": "PQ 1-14 are not represented in the canonical reward batch directory used by this reconciliation. Do not claim canonical batch exhaustiveness for those four PQs; existing relationship evidence for other PQs remains independently sourced.",
+    "canonical_relationship_coverage": {
+      "covered_PQs": 186,
+      "missing_PQs": [],
+      "total_PQs": 186
+    }
   },
   "final_consistency_checks": {
     "total_edges": 859,
