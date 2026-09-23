@@ -3313,3 +3313,10 @@
 - [x] Corrected the stale **860** target-normalization current field in `docs/data/pq-cross-domain-status.json` to **859**.
 - [x] Preserved dated historical counts unchanged.
 - [ ] Recompute the live strict-thin Super Soul census and continue the strongest evidence-supported unresolved cluster.
+
+### 2026-09-23 — TODO completion update — current PQ relationship producer-field drift
+- [x] Audited remaining current-looking PQ relationship producer/status metadata.
+- [x] Corrected stale **854 / 146 Super Soul** current reconciliation to **859 / 151**.
+- [x] Corrected stale **860** target-normalization current field to **859**.
+- [x] Preserved dated historical counts unchanged.
+- [ ] Recompute the live strict-thin Super Soul census and continue the strongest evidence-supported unresolved cluster.
