@@ -4,14 +4,15 @@
   "scope": "registered current-state PQ relationship consumers",
   "source_of_truth": "docs/data/pq-reward-relationships.json",
   "live_baseline": {
-    "total": 854,
+    "total": 853,
     "skill": 244,
-    "super_soul": 146,
+    "super_soul": 145,
     "equipment": 124,
     "character": 247,
     "dlc": 86,
     "farming": 7,
-    "super_soul_reverse": 143
+    "super_soul_reverse": 143,
+    "total_edges": 853
   },
   "scanned_queries": [
     "859 current pq",
