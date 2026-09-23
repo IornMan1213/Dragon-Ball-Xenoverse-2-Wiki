@@ -795,15 +795,16 @@
       "limit_burst_effect": null,
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Community-tested effect retained as secondary evidence; not promoted to fully verified item-level mechanics. Acquisition normalized from an exact-name canonical PQ reward match; exact drop condition/percentage is not asserted.",
+      "version_notes": "Community-tested effect retained as secondary evidence; not promoted to fully verified item-level mechanics. Acquisition normalized from an exact-name canonical PQ reward match; exact drop condition/percentage is not asserted. 2026-09-23 evidence refresh: current GameFAQs discussion documents that this Super Soul has a second activation/name-state when the user is KO'd, changing the displayed name to “Using this power should be no sweat for you guys.” This confirms an additional activation/state exists but does not establish its mechanical effect, so no effect fields were inferred.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://www.reddit.com/r/dbxv/comments/1utfpk7/so_what_would_be_a_good_replacement_soul/",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81166913",
-        "https://www.reddit.com/r/dbxv/comments/1ut3o8s/does_all_abilities_here_mean_literally_all/"
+        "https://www.reddit.com/r/dbxv/comments/1ut3o8s/does_all_abilities_here_mean_literally_all/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81166913?page=10"
       ],
       "first_clear_or_repeat": "PQ 185 reward",
       "source_parallel_quests": [
