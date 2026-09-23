@@ -6383,17 +6383,18 @@
       "effect_text": "Activates Ki Auto-Recovery Mode for all allies and you.",
       "effect_magnitude": "+10%",
       "duration": null,
-      "stacking_behavior": null,
+      "stacking_behavior": "No stacking",
       "limit_burst": "Race Default",
       "limit_burst_trigger": null,
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Current maintained catalogue documents a +10% Ki Auto-Recovery effect for all allies and the user when charge skills are used. Conton City Tournament acquisition is preserved.",
-      "verification_status": "indexed",
+      "version_notes": "Exact-name mechanics refreshed from the maintained Super Soul catalogue: charge skills activate Ki Auto-Recovery for the user and all allies. Existing PQ143 relationship preserved.",
+      "verification_status": "researched",
       "last_verified": "2026-09-22",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ],
       "source_parallel_quests": [
         "pq-143"
@@ -6412,17 +6413,18 @@
       "effect_text": "At battle start, restores Ki and temporarily boosts Ki Blast skills. At 60 seconds, removes the Ki Blast boost and inflicts sleep damage on the user.",
       "effect_magnitude": "+400 Ki; +25% Ki Blast skills",
       "duration": "60 seconds for the Ki Blast boost",
-      "stacking_behavior": null,
+      "stacking_behavior": "Timed phase change; no stacking",
       "limit_burst": "Rush",
       "limit_burst_trigger": null,
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Current maintained catalogue documents +400 Ki at battle start, +25% Ki Blast skill strength for 60 seconds, then removal of that boost and self-inflicted sleep damage. Conton City Tournament provenance is retained.",
-      "verification_status": "indexed",
+      "version_notes": "Exact-name mechanics refreshed from the maintained Super Soul catalogue: battle start restores Ki and grants +25% Ki Blast skill strength for 60 seconds; at 60 seconds the boost is removed and the user takes sleep damage. Existing PQ145 relationship preserved.",
+      "verification_status": "researched",
       "last_verified": "2026-09-22",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ],
       "source_parallel_quests": [
         "pq-145"
@@ -6447,11 +6449,12 @@
       "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Current maintained catalogue documents a once-only guard-break trigger with two separate -50% opponent debuffs lasting 10 seconds. Conton City Tournament provenance is retained.",
-      "verification_status": "indexed",
+      "version_notes": "Exact-name mechanics refreshed from the maintained Super Soul catalogue: one-time guard-break trigger applies -50% opponent attack strength and -50% opponent movement speed for 10 seconds. Existing PQ151 relationship preserved.",
+      "verification_status": "researched",
       "last_verified": "2026-09-22",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ],
       "source_parallel_quests": [
         "pq-151"
@@ -6621,11 +6624,12 @@
       "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Current maintained catalogue identifies Gohan (DBS Super Hero), +20% guard-break duration, and +10% all-attack boost on successful Just Guard, stacking up to 3 times. PQ158 provenance is explicitly documented.",
-      "verification_status": "indexed",
+      "version_notes": "Exact-name mechanics refreshed from the maintained Super Soul catalogue: +20% own guard-break duration always; successful Just Guard grants +10% all attacks, stacking to 3. Existing PQ158 relationship preserved.",
+      "verification_status": "researched",
       "last_verified": "2026-09-22",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ],
       "source_parallel_quests": [
         "pq-158"
@@ -6644,17 +6648,18 @@
       "effect_text": "Temporarily boosts Strike Skills and activates Ki Auto-Recovery at battle start. Always boosts all abilities based on number of opponents.",
       "effect_magnitude": "+15% Strike Skills; opponent-scaling all-ability boost: +10% vs 1 opponent, +20% vs 2, +35% vs 3 or more",
       "duration": "20 seconds for the opening Strike/Ki effects",
-      "stacking_behavior": null,
+      "stacking_behavior": "Opponent-count scaling; no stacking beyond the active opponent-count tier",
       "limit_burst": "Auto Just Guard",
       "limit_burst_trigger": null,
       "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Current character-specific documentation identifies Goku (Mini) as the source and gives the exact opponent-count scaling. The acquisition remains the canonical PQ178 relationship already present in this record; no additional route inferred.",
-      "verification_status": "indexed",
+      "version_notes": "Exact-name mechanics refreshed from maintained character/Super Soul documentation: battle start grants +15% Strike Skills and Ki Auto-Recovery for 20 seconds; all-ability bonus scales with opponent count. Existing PQ178 relationship preserved.",
+      "verification_status": "researched",
       "last_verified": "2026-09-22",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ],
       "source_parallel_quests": [
         "pq-178"
@@ -6679,11 +6684,12 @@
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Current maintained catalogue and independent community discussion agree that each charged Ki Blast adds +5% Charged Ki Blast damage, up to 10 stacks. PQ21 provenance is explicitly documented; no drop-rate claim added.",
-      "verification_status": "indexed",
+      "version_notes": "Exact-name mechanics refreshed from maintained Super Soul documentation and independent community reference: each charged Ki Blast adds +5% charged Ki Blast damage, up to 10 stacks. Existing PQ21 relationship preserved.",
+      "verification_status": "researched",
       "last_verified": "2026-09-22",
       "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ],
       "source_parallel_quests": [
         "pq-021"
