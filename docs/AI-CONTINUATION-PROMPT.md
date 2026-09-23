@@ -1,3 +1,16 @@
+### 2026-09-22 cycle update — Super Soul 218–219 mechanics/provenance reconciliation
+- Active workstream: non-PQ/thin-system Super Soul coverage.
+- Bounded batch: **Super Souls 218–219** (`super-soul-218`, `super-soul-219`).
+- Live census: **234 canonical / 0 duplicate IDs / 152 strict-thin records** under the current eight-field definition; both selected records remain strict-thin because their unresolved fields are evidence-bound.
+- Evidence: maintained Xenoverse 2 Super Soul catalogue plus independent GameFAQs Xenoverse 2 documentation and existing Steam PQ provenance. The catalogue identifies 218 as Vegeta (Super Saiyan God), PQ136, with Blazing Attack stacking and Auto Just Guard; 219 as Toppo, PQ136, below-50%-Health buffs with guard sealing and Super Armor.
+- Changes: canonical records refreshed with character/DLC provenance, trigger/effect/magnitude data, 218 stacking cap, 218 Auto Just Guard, 219 Super Armor, verification date, and additional sources.
+- Evidence limits preserved: no duration was invented for either record; no 219 stacking rule was invented; no reward probability or Ultimate-Finish requirement was added.
+- Added/registered audit: `docs/data/super-soul-218-219-mechanics-reconciliation-2026-09-22.json`.
+- Thin census artifact refreshed to the live **152** count.
+- CI/runtime: no successful workflow/check exposed; do not claim CI success.
+- Exact next priority: investigate **191, 194, 192, and 196** for explicit duration/stacking evidence; if those fields remain unsupported, preserve them and move to the next evidence-supported cluster.
+
+
 
 
 ### 2026-09-22 cycle update — Potential Unleashed provenance strengthening
