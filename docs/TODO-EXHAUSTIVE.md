@@ -3755,3 +3755,11 @@
 - [x] Preserved historical 151/148 and older totals as append-only history rather than rewriting historical records.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: continue the repository-wide **non-PQ consumer/navigation integrity** audit for stale current-looking 854/146 baselines, one-way navigation, scalar/list assumptions, and endpoint-name drift. Do not infer or add relationship edges.
+### 2026-09-23 — TODO completion update — Non-PQ endpoint-navigation baseline correction
+- [x] Audited `docs/data/pq-endpoint-navigation-validation.json` against the live canonical relationship source and reverse projection.
+- [x] Corrected three current Super Soul endpoint census fields from stale **148** to live **143** reverse targets.
+- [x] Corrected stale check-label names in `scripts/validate_pq_reference_pages.py` from obsolete 859/151 wording to current 854/146 wording; assertion values were already correct.
+- [x] Added `docs/data/pq-non-pq-super-soul-endpoint-consumer-correction-2026-09-23.json` with the evidence boundary and validation result.
+- [x] No canonical relationship edges, identities, or aliases were added or changed.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: continue the remaining registered non-PQ consumer census for current-looking stale scalar/list assumptions and endpoint-name drift; historical snapshots remain append-only.
