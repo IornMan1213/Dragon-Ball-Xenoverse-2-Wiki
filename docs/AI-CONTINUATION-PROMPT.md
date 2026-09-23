@@ -1,3 +1,14 @@
+## 2026-09-22 — Super Soul 087–095 duration reconciliation
+
+- Reconciled duration semantics for **Super Souls 087–095** using exact-name catalogue evidence plus independent GameFAQs documentation.
+- Added documented **5-second** temporary duration for 090 and **30-second** trigger/duration semantics for 093.
+- Recorded 091's 30-second later-trigger overwrite behavior and 092's 20-second activation/persistence semantics.
+- Added explicit condition-bound, permanent-while-equipped, instantaneous, and end-of-battle semantics where appropriate without inventing unsupported timers.
+- Added and registered `docs/data/super-soul-087-095-duration-reconciliation-2026-09-22.json`.
+- Refreshed the live census to **234 canonical / 0 duplicate IDs / 102 strict-thin records**.
+- No acquisition, reward probability, Ultimate-Finish requirement, or unsupported stacking cap was changed.
+- CI/Actions success is not claimed; no successful workflow/check was exposed.
+
 ### 2026-09-22 cycle update — Super Soul 062/064/067/068 secondary-field reconciliation
 - Bounded batch: **Super Souls 062, 064, 067, and 068**.
 - Reconciled documented Limit Burst effects for all four records.
