@@ -4916,3 +4916,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Validation: JSON parses; canonical relationship count remains 859 total with 244/151/124/247/86/7 domain counts; Super Soul report arrays remain 151/148; no unresolved target routes or orphan reverse endpoints reported.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: audit remaining current metadata in dedicated cross-domain reports/producers for scalar-vs-array drift, then move to deterministic navigation/index repairs.
+
+
+### 2026-09-23 correction — Super Soul 151/146 source-projection discrepancy discovered
+- [x] Revalidated the prior cycle's Super Soul count repair at raw-array level and found the earlier assumption was too strong: `docs/data/pq-reward-relationships.json` currently contains **146** `pq_rewards_super_soul` entries in `verified_relationships`, and `docs/data/pq-super-soul-crosslink-report.json` contains **146 forward / 143 reverse** entries.
+- [x] At the same time, `pq-page-consumer-audit.json`, `pq-endpoint-navigation-validation.json`, and other current reconciliation metadata declare **151 forward / 148 reverse**. This is a genuine unresolved **five-edge source/projection discrepancy**.
+- [x] Corrected the live reconciliation note and crosslink validation status to prevent the prior cycle's mistaken 151 promotion from being treated as proven canonical array state.
+- [x] Added `docs/data/pq-super-soul-crosslink-count-discrepancy-correction-2026-09-23.json` documenting the discrepancy and evidence boundary.
+- [x] No relationship edge was added, deleted, renamed, or inferred.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: identify the five Super Soul pairs represented by the 151/148 consumer audits but absent from `verified_relationships`, compare them against canonical PQ structured rewards and source-backed records, then either add only evidence-backed relationships or correct stale consumer metadata.
