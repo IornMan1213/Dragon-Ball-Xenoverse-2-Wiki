@@ -3954,3 +3954,13 @@
 - [x] Validation: **455/455**, **0 duplicate IDs**, all five target records have matching 2026-09-23 verification dates in canonical/index; live stale queue is **447** records.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: **Angry Explosion, Angry Hit, Angry Shout, Apocalyptic Burst, Arm Crash**; recompute the live census first and preserve existing evidence boundaries.
+
+
+### 2026-09-23 — TODO completion update — P1 skill provenance beta batch
+- [x] Completed **Angry Explosion, Angry Hit, Angry Shout, Apocalyptic Burst, Arm Crash** provenance refresh.
+- [x] Refreshed canonical and index last_verified dates to **2026-09-23**.
+- [x] Preserved the existing Apocalyptic Burst Basic Reward vs Ultimate Finish reward-tier conflict rather than inventing certainty.
+- [x] Added and registered docs/data/skill-provenance-audit-2026-09-23-beta-batch.json and docs/data/skill-stale-metadata-census-2026-09-23-beta.json.
+- [x] Validation: **455 canonical / 455 index / 0 duplicate IDs**; five beta targets synchronized.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: **Android Kick, Android Rush, Android Shoot, Android S.S. Deadly Bomber, Android Tri-Beam**; recompute the live census before editing.
