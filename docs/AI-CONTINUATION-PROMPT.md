@@ -4677,3 +4677,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Commits: canonical `4d79ea0a4b87765438fb631d30d8c5681fc4f699`; census `9e0c5651b5617292bc2050106d305829545196fc`.
 - [ ] Exact next priority: recompute queue again. Remaining concentrated gaps are **032/034**, indexed-only **158/232–236**, and records with missing Limit Burst effects/stacking fields; prioritize evidence-backed Limit Burst effect completion where the maintained source corpus already identifies the burst type.
+
+
+### 2026-09-23 cycle update — Super Soul 211–223 secondary-field reconciliation
+- Recomputed the live canonical layer before editing: **234 canonical / 0 duplicate IDs / 23 strict-thin records**.
+- Bounded batch: **211–223**, excluding the already evidence-bound indexed-only 232–236 cluster from mechanics inference.
+- Reconciled evidence-backed secondary fields: 211 no-stacking; 212 Limit Burst effect; 213–215 no-stacking plus Limit Burst effects; 216 Limit Burst effect; 217 no-stacking; 218 Limit Burst effect; 219 no-stacking plus Limit Burst effect; 220–223 Limit Burst effects.
+- Preserved evidence boundaries: **217 remains unresolved for Limit Burst fields**; no unsupported timer or numeric stack cap was invented; 032/034 and indexed-only 158/232–236 remain separate evidence boundaries.
+- Added audit: `docs/data/super-soul-211-223-secondary-field-reconciliation-2026-09-23.json`.
+- Refreshed `docs/data/super-soul-thin-census-2026-09-22.json`: **23 → 11 strict-thin records**.
+- Validation: canonical record layer reread; 234 records and 0 duplicate IDs; stored thin census matches the recomputed 11-record queue.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next priority: recompute the live 11-record queue, then resolve the strongest evidence-supported remaining field(s), beginning with **174/187 duration** or **217 Limit Burst** if exact-name evidence is available. Keep **032/034**, **158**, and **232–236** as explicit evidence boundaries unless stronger item-level evidence appears.
