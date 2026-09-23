@@ -9,15 +9,15 @@
     "skill_character_identity_bridge": "docs/data/skill-character-identity-bridge-2026-09-23.json"
   },
   "counts": {
-    "preset_records": 48,
+    "preset_records": 50,
     "distinct_presentation_character_ids": 12,
     "bridged_presentation_character_ids": 12,
     "unbridged_presentation_character_ids": 0,
     "resolved_skill_character_edges": 50,
     "preset_characters_with_character_source_skill_identity": 5,
     "preset_characters_without_character_source_skill_identity": 7,
-    "verified_preset_loadout_records": 21,
-    "verified_loadout_skill_entries": 136
+    "verified_preset_loadout_records": 23,
+    "verified_loadout_skill_entries": 148
   },
   "checks": {
     "all_preset_character_ids_resolve_via_explicit_bridge": true,
@@ -413,9 +413,37 @@
         "Ultra Fighting Bomber",
         "Final Pose"
       ]
+    },
+    {
+      "id": "zarbon-preset-1",
+      "character_id": "zarbon",
+      "preset_number": 1,
+      "source": "https://dbxv2.fandom.com/wiki/Zarbon",
+      "skill_names": [
+        "Gorgeous Shot",
+        "Consecutive Energy Blast",
+        "Audacious Laugh",
+        "Energy Charge",
+        "Elegant Blaster",
+        "Bloody Counter"
+      ]
+    },
+    {
+      "id": "zarbon-preset-2",
+      "character_id": "zarbon",
+      "preset_number": 2,
+      "source": "https://dbxv2.fandom.com/wiki/Zarbon",
+      "skill_names": [
+        "Gorgeous Shot",
+        "Energy Wave Combo",
+        "Audacious Laugh",
+        "Energy Charge",
+        "Elegant Blaster",
+        "Bloody Counter"
+      ]
     }
   ],
-  "evidence_boundary": "Twenty-one preset records have explicit sourced loadouts; remaining indexed records stay unresolved unless an explicit source identifies the same preset number/name. Recoome Presets 1–2 are directly supported by the Recoome Battle Suit tables. Festival/custom-partner configurations remain separate.",
+  "evidence_boundary": "Twenty-three preset records have explicit sourced loadouts; unresolved records remain unresolved unless an explicit source identifies the same preset number/name. Zarbon Presets 1–2 are directly supported by the Battle Suit tables. Festival/custom-partner configurations remain separate.",
   "source_backed_candidates_reviewed": [
     {
       "character_id": "goku",
@@ -597,6 +625,34 @@
         "Full Power Energy Wave",
         "Ultra Fighting Bomber",
         "Final Pose"
+      ]
+    },
+    {
+      "id": "zarbon-preset-1",
+      "character_id": "zarbon",
+      "preset_number": 1,
+      "source": "https://dbxv2.fandom.com/wiki/Zarbon",
+      "skill_names": [
+        "Gorgeous Shot",
+        "Consecutive Energy Blast",
+        "Audacious Laugh",
+        "Energy Charge",
+        "Elegant Blaster",
+        "Bloody Counter"
+      ]
+    },
+    {
+      "id": "zarbon-preset-2",
+      "character_id": "zarbon",
+      "preset_number": 2,
+      "source": "https://dbxv2.fandom.com/wiki/Zarbon",
+      "skill_names": [
+        "Gorgeous Shot",
+        "Energy Wave Combo",
+        "Audacious Laugh",
+        "Energy Charge",
+        "Elegant Blaster",
+        "Bloody Counter"
       ]
     }
   ],
