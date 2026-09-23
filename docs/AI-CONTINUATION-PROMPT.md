@@ -4794,3 +4794,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [x] Commits: canonical `e3421e3db84fcc2f039f9d3ea7dab5d710189ae8`; checkpoint `8d70bb80f3244e0d353177a21f0c37a7885ef8d9`.
 - [ ] Exact next batch: continue **034** only with item-level/game-data evidence; if still blocked, move to **217 Limit Burst** and preserve the 034 evidence boundary.
+
+### 2026-09-23 cycle update — Super Soul 217 Limit Burst targeted refresh
+- [x] Performed another exact-name **“Power! A lotta power! It's great!” + Limit Burst** search using current web evidence.
+- [x] Fresh results continue to corroborate the Soul's +12 Ki/+12 Stamina/XXL utility and PQ134 association, but did **not** establish an exact Limit Burst effect or trigger. citeturn1reddit2turn1search0
+- [x] Updated `docs/data/super-soul-217-limit-burst-evidence-audit-2026-09-23.json` with the fresh evidence boundary.
+- [x] No generic/same-name Limit Burst was substituted; canonical 217 Limit Burst fields remain unresolved.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: continue **217** only with item-level/game-data or exact-name Limit Burst evidence; otherwise move to another high-impact deterministic Super Soul/index reconciliation rather than guessing.
