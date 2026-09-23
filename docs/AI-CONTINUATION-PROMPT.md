@@ -5079,3 +5079,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - No DLC ownership edge or reward semantics were inferred. DAIMA free-update content remains separate.
 - Live GitHub re-fetch/structural validation completed. Runtime/CI execution remains unavailable; no CI success claimed.
 - Exact next batch: reconcile remaining non-PQ skill/Super Soul inventory against canonical records and official advertised pack scope, without converting unresolved completeness into inferred ownership.
+
+
+### 2026-09-23 cycle update — official DAIMA / HOJ2 skill and Super Soul count reconciliation complete
+- Official publisher/Nintendo product counts reconcile exactly with the canonical repository inventory: DAIMA = 6 moves + 2 Super Souls; HOJ2 = 7 moves + 5 Super Souls.
+- DAIMA canonical skills: Heat Wave, Supreme Fury, Force Edge, Burning Blast, Super Kamehameha (SS4 DAIMA), Final Flash (SS3 DAIMA). DAIMA Super Souls: `super-soul-145` Here I go! and `super-soul-062` Damn it all!.
+- HOJ2 canonical skills: Fierce Fist, Demonic Destruction, Demon Ray, Demon Flash Strike, Demon Flurry, Apocalyptic Burst, Special Beam Cannon (Beast). HOJ2 Super Souls: `super-soul-120`, `121`, `061`, `118`, `119`.
+- Added and registered `docs/data/dlc/daima-hoj2-official-skill-super-soul-count-reconciliation-2026-09-23.json`; updated the DLC content matrix.
+- This closes the skill/Super Soul completeness check for these two paid packs. Official counts were treated as domain-level completeness checks only; no ownership was inferred from PQ requirements and DAIMA free-update content remains separate.
+- Exact next batch: reconcile remaining paid-DLC domains, starting with HOJ2's 5 costumes/accessories and stage/missions, then remaining DAIMA paid inventory, with canonical cross-navigation preserved.
