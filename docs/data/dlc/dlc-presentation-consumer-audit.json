@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "1.2.0",
   "scope": "DLC presentation consumers and Future Saga content-map identity resolution",
   "canonical_identity_source": "docs/data/dlc/canonical-dlc-identity.json",
   "consumers": [
@@ -37,7 +37,10 @@
     "reverse_dlc_id_duplicates": 0,
     "malformed_content_id_fields": [],
     "malformed_future_dlc_fields": [],
-    "malformed_reverse_pq_fields": []
+    "malformed_reverse_pq_fields": [],
+    "canonical_dlc_targets_with_reverse_navigation": 20,
+    "canonical_dlc_targets_without_reverse_navigation": [],
+    "validator_fix": "Corrected reverse-navigation completeness check to use the live reverse-index records[].dlc_id schema rather than nonexistent reverse_index."
   },
   "evidence_boundary": "Canonical DLC identity records are authoritative. PQ relationship targets are human-readable canonical DLC names and are deterministically resolved through the canonical DLC identity map before exact reverse-pair comparison against dlc_id records. Presentation/content projections do not create new identities or relationships.",
   "rules": [
@@ -46,7 +49,7 @@
     "Presentation consumers cannot create or rename canonical DLC relationships.",
     "Missing downstream content remains unresolved rather than inferred."
   ],
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "status": "clean_exact_pq_reverse_parity",
   "validator": "scripts/validate_dlc_presentation_consumers.py",
   "validator_commit": "23350e2db4d4fe85f204599a9ab6632c60b05375",
@@ -58,6 +61,7 @@
     "structured_list_shape_validation": true,
     "reverse_dlc_identity_uniqueness": true,
     "content_projection_pair_uniqueness": true,
-    "future_saga_dlc_field_shape_validation": true
+    "future_saga_dlc_field_shape_validation": true,
+    "reverse_index_schema_resolution": true
   }
 }
