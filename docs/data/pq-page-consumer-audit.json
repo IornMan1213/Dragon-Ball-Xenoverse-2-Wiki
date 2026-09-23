@@ -20,8 +20,8 @@
       "invalid_relationship_pq_ids": 0
     },
     "pq_rewards_super_soul": {
-      "canonical_pairs": 146,
-      "structured_pairs": 146,
+      "canonical_pairs": 145,
+      "structured_pairs": 145,
       "missing": 0,
       "extra": 0,
       "canonical_duplicates": 0,
