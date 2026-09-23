@@ -2761,3 +2761,11 @@
 - [x] Preserved evidence boundaries; no unsupported timing, probability, or engine-rate claims added.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Next: continue the deterministic partially-verified census with the next evidence-supported cluster; do not invent unresolved fields.
+
+### 2026-09-22 cycle update — Super Souls 049/060 evidence strengthening
+- [x] Added independent historical GameFAQs Super Soul guide evidence to **049** and **060**.
+- [x] Promoted both to `verified_secondary`.
+- [x] Preserved the documented effect-wording discrepancy on 060 and did not invent duration/stacking values.
+- [x] Live census remains **234 / 0 duplicates / 182 strict-thin** under the current eight-field definition.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Next: continue the deterministic partially-verified census, prioritizing high-source-count records with unresolved core fields; keep 034 evidence-bound until item-level mechanics are independently established.
