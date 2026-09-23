@@ -358,14 +358,14 @@
     "preserved_distinction": "Super Pack 1-4 remain distinct source-backed DLC targets and are not collapsed into the broader Super Pass requirement.",
     "total_edges": 859
   },
-  "current_total_edges": 854,
+  "current_total_edges": 853,
   "current_projection_consistency_2026_09_22": {
     "date": "2026-09-22",
     "source_of_truth": "docs/data/pq-reward-relationships.json",
-    "current_total_edges": 854,
+    "current_total_edges": 853,
     "current_counts": {
       "skill": 244,
-      "super_soul": 146,
+      "super_soul": 145,
       "equipment": 124,
       "character": 247,
       "dlc": 86,
@@ -373,7 +373,7 @@
     },
     "reverse_projection_counts": {
       "skills": 239,
-      "super_souls": 143,
+      "super_souls": 142,
       "equipment": 122,
       "accessories": 28
     },
@@ -399,8 +399,8 @@
       },
       "super_souls": {
         "report": "docs/data/pq-super-soul-crosslink-report.json",
-        "forward_edges": 146,
-        "reverse_endpoints": 143,
+        "forward_edges": 145,
+        "reverse_endpoints": 142,
         "duplicate_keys": 0,
         "invalid_pq": 0,
         "unresolved": 0,
@@ -427,7 +427,7 @@
     },
     "result": "clean_current_projection_reports",
     "note": "Accessory report is a dedicated 28-edge accessory projection of the 124 canonical equipment-domain edges; clothing/equipment edges remain represented by the equipment report. No source-of-truth changes were required.",
-    "current_total_edges": 854
+    "current_total_edges": 853
   },
   "current_reconciliation_artifact_census": {
     "unified_reward_reconciliation": {
