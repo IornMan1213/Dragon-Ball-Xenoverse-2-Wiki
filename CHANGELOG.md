@@ -2116,3 +2116,9 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Recorded explicit 10/20-second durations for 134, 136, 140, and 142; unresolved timers remain unclaimed.
 - Added `docs/data/super-soul-129-143-secondary-field-reconciliation-2026-09-23.json` and refreshed the live Super Soul thin census to 60 records.
 - Updated `docs/AI-CONTINUATION-PROMPT.md` and `docs/TODO-EXHAUSTIVE.md` with the completed cycle and next priority.
+
+
+## 2026-09-23 — Super Soul 148/150 and 155–187 secondary-field reconciliation
+- Synchronized explicit 3s/5s duration windows for Super Soul 148 and 5s for 150.
+- Reconciled stacking behavior for 155, 157, 159, 163, 164, 167, 169, 170, 171, 173, 174, 175, 179, and 187 without inventing caps.
+- Added `docs/data/super-soul-148-150-155-187-secondary-field-reconciliation-2026-09-23.json` and refreshed the thin census to 58.
