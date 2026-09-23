@@ -4162,8 +4162,8 @@
       "limit_burst_effect": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics refreshed from current catalogue, Android 17 data, and historical guide; maximum-Stamina gate preserved without unsupported stacking or duration.",
-      "verification_status": "partially_verified",
+      "version_notes": "Mechanics refreshed from current catalogue, Android 17 data, and historical guide; maximum-Stamina gate preserved without unsupported stacking or duration. Independent catalogue, Android 17 page, GameFAQs, and community testing corroborate the always-on +5% Ki Auto-Recovery and max-Stamina +15% Ki Blast-based attack boost. No finite duration applies to either always-on/threshold state, and no stacking rule is asserted.",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
@@ -4222,8 +4222,8 @@
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics refreshed from current catalogue and independent raid/effect reports; 30-second trigger retained.",
-      "verification_status": "partially_verified",
+      "version_notes": "Mechanics refreshed from current catalogue and independent raid/effect reports; 30-second trigger retained. Independent catalogue, Beerus/character data, GameFAQs, and historical stat-sheet evidence corroborate the 30-second trigger and Ki Blast Skill boost. The post-trigger effect is treated as non-temporary because no finite duration is documented; no stacking rule is asserted.",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
@@ -4346,8 +4346,8 @@
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Current catalogue and Trunks character-page data support the GT character source and +15% Charged Ki Blast effect; no duration or stacking inferred.",
-      "verification_status": "partially_verified",
+      "version_notes": "Current catalogue and Trunks character-page data support the GT character source and +15% Charged Ki Blast effect; no duration or stacking inferred. Independent catalogue, Trunks (Future) page, and historical GameFAQs evidence corroborate the always-on +15% Charged Ki Blast boost. No finite duration applies; no stacking rule is asserted.",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
@@ -4377,8 +4377,8 @@
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics/provenance refreshed from the maintained Super Soul catalogue plus independent historical guide and PQ reward evidence. Exact reward probability/Ultimate-Finish attribution is not asserted unless independently established.",
-      "verification_status": "partially_verified",
+      "version_notes": "Mechanics/provenance refreshed from the maintained Super Soul catalogue plus independent historical guide and PQ reward evidence. Exact reward probability/Ultimate-Finish attribution is not asserted unless independently established. Independent catalogue, historical stat-sheet evidence, GameFAQs/Steam PQ evidence corroborate the below-25%-HP +15% normal-attack boost and Limit Burst. No finite duration or stacking behavior is documented, so neither is inferred.",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
