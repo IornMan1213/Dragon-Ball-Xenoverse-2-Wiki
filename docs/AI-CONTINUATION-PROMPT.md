@@ -5059,3 +5059,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - No canonical relationship endpoint was changed in this cycle; the four records remain in their current combined-layer IDs until the dependent accessory bridge/reverse/presentation projections can be updated atomically.
 - Evidence boundary: these are exact-name identity promotions, not newly inferred content. Reward-slot/guaranteed-drop semantics remain unresolved where not independently established.
 - Exact next batch: atomically normalize the four DAIMA accessory identities into acc-071–acc-074, preserve the existing equipment IDs as aliases, regenerate/validate accessory reverse navigation and presentation consumers, then continue with the next strongest unresolved pack cohort.
+
+
+### 2026-09-23 cycle update — DAIMA accessory canonicalization complete
+- Canonicalized four exact-name DAIMA accessories: `acc-071` SS4 Goku (DAIMA) Wig & Tail, `acc-072` SS3 Vegeta (DAIMA) Wig, `acc-073` Glorio Wig, `acc-074` Panzy Wig.
+- Removed the four duplicate accessory identities from the combined canonical layer while retaining `equip-099`, `equip-101`, `equip-104`, and `equip-105` as legacy equipment-layer aliases linked via `canonical_accessory_id`.
+- Resolved bridge records `pqacc-034`–`pqacc-037`, marked their residual records matched, and regenerated the accessory PQ crosslink projection: **32 forward / 32 reverse accessory edges**, **74 canonical accessories**, **12 unresolved research bridge records**.
+- Updated the accessory producer census, canonicalization audit, DAIMA DLC matrix, TODO, and handoff. No reward semantics were invented or changed.
+- Validation by live re-fetch confirmed the four canonical IDs, alias mappings, bridge matches, and projection counts. Runtime validator execution remains the next gate because GitHub's exposed API does not execute repository scripts in this session.
+- Exact next batch: execute/verify accessory presentation validators when runtime access is available, then continue the strongest concrete DAIMA/HERO OF JUSTICE Pack 2 skill/Super Soul reconciliation cohort.
