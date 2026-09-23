@@ -2313,3 +2313,8 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Added/registered `docs/data/super-soul-158-identity-reconciliation-2026-09-23.json`; checkpoint, TODO, and handoff updated.
 - No unsupported Super Soul fields were restored.
 - Next: **Super Soul 217** Limit Burst/item-level research, then **032**.
+
+
+### 2026-09-23 — Super Soul 217 / 032 evidence refresh
+- Fresh exact-name research corroborated Super Soul 217's PQ 134 association and +12 Ki/+12 Stamina utility, but did not establish its Limit Burst; the repository leaves those fields unresolved.
+- Fresh PQ 185 evidence confirms Super Soul 032's exact reward identity and a documented second displayed name after KO; no unsupported second-state mechanics were added.
