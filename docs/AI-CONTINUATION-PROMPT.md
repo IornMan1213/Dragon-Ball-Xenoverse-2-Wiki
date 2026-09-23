@@ -5333,3 +5333,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Commits: `389a89ae0034b5c67d8022d108fbec481765b1dc`, `1cca40b8b1040331f40df751bacf4e4ccc7f2f27`.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next batch: continue the current-state consumer census for remaining stale scalar/list assumptions and endpoint-name drift, prioritizing undated/current-looking projections.
+
+
+### 2026-09-23 cycle update — Super Soul crosslink report current-status reconciliation
+- Bounded batch: `docs/data/pq-super-soul-crosslink-report.json`.
+- The report's numeric validation block was already current at **146 forward edges / 143 reverse endpoints**, but its status remained the obsolete `blocked_source_projection_discrepancy` and repeated the resolved 151/148 conflict as if still active.
+- Corrected the status to `clean_current_projection` and documented that the five-edge delta was resolved by removing misidentified indexed-only Super Soul 232-236 relationships; dated historical discrepancy records retain the former 151/148 state.
+- No relationship edges were added or removed in this batch; this was status/documentation synchronization only.
+- Commit: `e4db907d4e2ef973ee902336e80fcb22e348b70b`.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next batch: continue current-state consumer census for remaining stale scalar/list assumptions and endpoint/status drift, preserving dated historical snapshots.
