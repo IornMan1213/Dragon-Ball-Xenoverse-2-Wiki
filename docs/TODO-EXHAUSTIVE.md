@@ -4665,3 +4665,15 @@
 - [x] Evidence boundary preserved: unresolved strings may represent valid cast variants, aliases, customize partners, or aggregate users; no canonical character identity was fabricated.
 - [ ] Reconcile the unresolved character/variant source tokens against the canonical character roster and identity bridge in bounded batches.
 - **Exact next batch:** reconcile the first bounded group of unresolved `character_source` identities (starting with high-confidence canonical-name variants/customize-partner forms), then add only evidence-backed skill→character reverse edges.
+
+
+### 2026-09-23 cycle update — Skill→character identity bridge
+
+- [x] Reconciled a bounded set of unresolved `skills.character_source` identities against the canonical character roster.
+- [x] Added `docs/data/skill-character-identity-bridge-2026-09-23.json` with **7 resolved source entries / 8 canonical skill→character edges**.
+- [x] Added `docs/data/skill-character-reverse-index-2026-09-23.json` for character→skill reverse navigation.
+- [x] Added `docs/data/skill-character-identity-reconciliation-audit-2026-09-23.json` and registered the bridge/reverse index/audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: **7 resolved skill records / 8 edges / 6 canonical character targets / 0 duplicate edges / 0 broken endpoints**.
+- [x] Preserved evidence boundaries: Sonic Bomb remains unresolved because its source token says Champa while current skill documentation identifies Frieza; no conflicting identity was promoted.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** reconcile the next bounded unresolved `character_source` cluster, prioritizing exact canonical variant names and customize-partner identities; preserve conflict cases until independently resolved.
