@@ -21,7 +21,7 @@ def load(path: Path):
 def main() -> int:
     rel = load(DATA / "pq-reward-relationships.json")
     producer = load(DATA / "pq-relationship-producer-census.json")
-    correction = load(DATA / "pq-current-consumer-baseline-correction-2026-09-22.json")
+    authoritative = load(DATA / "pq-current-baseline-single-source-reconciliation-2026-09-22.json")
 
     edges = rel.get("verified_relationships", [])
     counts = {}
@@ -42,13 +42,13 @@ def main() -> int:
         if counts.get(key, 0) != value:
             failures.append(f"canonical {key}: expected {value}, got {counts.get(key, 0)}")
 
-    if len(edges) != correction["current_baseline"]["total_edges"]:
+    if len(edges) != authoritative["authoritative_current_baseline"]["total_edges"]:
         failures.append("canonical total does not match correction audit baseline")
 
     equipment = producer["producers"]["equipment"]
     if equipment["forward"] != 124 or equipment["reverse"] != 122:
         failures.append(f"producer equipment projection stale: {equipment}")
-    if producer["target_normalization"]["total_relationships"] != 859:
+    if producer["target_normalization"]["total_relationships"] != 854:
         failures.append("producer target-normalization total is stale")
 
     report = {
@@ -56,7 +56,7 @@ def main() -> int:
         "canonical_total": len(edges),
         "canonical_counts": counts,
         "producer_current_equipment": equipment,
-        "expected_current_baseline": correction["current_baseline"],
+        "expected_current_baseline": authoritative["authoritative_current_baseline"],
         "historical_snapshot_policy": "Historical audit snapshots are not current-state inputs.",
         "status": "clean" if not failures else "unresolved",
         "failures": failures,
