@@ -4528,3 +4528,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime: the connector environment did not execute the repository Python validator; do not claim runtime validation or CI success. The exact live pair census is recorded as structural/connector validation.
 - Audit commit: `254e25870c0f933bf5821136b5374df14f5aff8d`.
 - Exact next task: inspect the remaining generated/reconciliation artifacts for stale **current-state** producer metadata/counts outside the already audited PQ relationship reports, repair only deterministic drift, and preserve all historical counts/scopes. Do not begin new provenance enrichment until this structural scan is clean.
+
+### 2026-09-23 cycle update — deterministic current PQ metadata drift repair
+- Completed the next handoff priority: scanned generated/reconciliation artifacts for stale current-state PQ relationship metadata.
+- Found three deterministic current-looking fields: `docs/data/pq-cross-domain-status.json` had `target_normalization_audit_2026_09_22.total_edges=860`; `docs/data/pq-reward-relationships.json` had `current_counts.equipment=125` and `current_reconciliation_2026_09_22` at 860 total / 125 equipment.
+- Repaired those fields to the live canonical baseline: **859 total / 244 skill / 151 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming**.
+- Preserved explicitly historical 840/860/862-era snapshots and dated provenance unchanged.
+- Updated `docs/data/pq-current-baseline-field-drift-audit-2026-09-22.json` with the 2026-09-23 resolution record.
+- Validation: re-read all three edited JSON files; current fields now match the 859-edge canonical baseline. No canonical relationship edge was added, removed, or inferred.
+- CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- Commits: `aaa0ae605eb60b5b37f8959fd4b950142dcfa75f`, `0b656b6a3ac9461c9b5c483966981d31301cf4f7`, `2f5cbf7da971a9a6a314770ba764c1cd9ed21ee3`.
+- Exact next task: recompute the live strict-thin Super Soul census and continue the next evidence-supported high-impact cluster, beginning with the remaining one-field records identified by the latest live queue; preserve **032/034** as evidence boundaries.
