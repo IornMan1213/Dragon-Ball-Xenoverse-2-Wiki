@@ -184,7 +184,8 @@
     "time_patrol_support_pack_puar_cc_mascot_identity": "docs/data/dlc/time-patrol-support-pack-puar-cc-mascot-identity-reconciliation-2026-09-23.json",
     "cc_mascots": "docs/data/cc-mascots-index.json",
     "cc_mascot_identity_layer": "docs/data/cc-mascots.json",
-    "cc_mascot_reverse_index": "docs/data/cc-mascots-reverse-index.json"
+    "cc_mascot_reverse_index": "docs/data/cc-mascots-reverse-index.json",
+    "time_patrol_support_pack_costume_equipment_capacity": "docs/data/dlc/time-patrol-support-pack-costume-canonical-equipment-capacity-decision-2026-09-23.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
