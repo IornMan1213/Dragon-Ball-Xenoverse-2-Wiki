@@ -5646,3 +5646,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Added/registered the new provenance audit and updated `CHANGELOG.md`.
 - Validation target: **455 canonical / 455 index / 0 duplicate IDs / 5 targets synchronized**. No CI success claimed.
 - Exact next action: recompute live stale state and continue with the next stale records after **Core Breaker**; do not repeat this batch.
+
+### 2026-09-23 cycle update — P1 Core-through-Critical skill provenance refresh
+- Live census before editing: **455 canonical / 455 index / 0 duplicate IDs / 405 stale / 1 exact-two-source**.
+- Completed **Counter Burst, Counter Impact, Crazy Finger Shot, Crimson Edge, Critical Upper** provenance refresh; canonical/index dates are now **2026-09-23**.
+- Counter Impact gained official Dragon Ball corroboration; existing reward/mechanics conflicts and evidence boundaries were preserved.
+- Added/registered **docs/data/skill-provenance-audit-2026-09-23-core-through-critical-upper.json** and **docs/data/skill-stale-metadata-census-2026-09-23-core-through-critical-upper.json**.
+- Validation: **455/455**, **0 duplicates**, **400 stale**, exact-two-source queue **1**, target parity clean.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next action: recompute the live stale queue and continue from **Burst Blitz, Burst Kamehameha, Burst Reflection, Burst Rush, Burst Stinger, Change The Future, Chaos Shot, Chaos Wall, Chaotic Time Impact, Charge**.
