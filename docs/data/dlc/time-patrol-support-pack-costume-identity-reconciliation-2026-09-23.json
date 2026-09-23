@@ -1,0 +1,33 @@
+{
+  "schema_version":"1.0.0",
+  "date":"2026-09-23",
+  "scope":"Time Patrol Support Pack six previously unmatched costume names",
+  "official_sources":[
+    "https://store.steampowered.com/app/3581800/DRAGON_BALL_XENOVERSE_2__Time_Patrol_Support_Pack/",
+    "https://www.nintendo.com/us/store/products/dragon-ball-xenoverse-2-time-patrol-support-pack-70050000057717-switch/",
+    "https://www.xbox.com/en-us/games/store/dragon-ball-xenoverse-2-time-patrol-support-pack/9nrrjxr84xt0"
+  ],
+  "findings":[
+    {"name":"Vegito Clothes","status":"exact_canonical_match","canonical_id":"equip-078","repository_evidence":["PQ59 reward","equipment record","PQ equipment crosslink"]},
+    {"name":"Gogeta Clothes","status":"source_backed_but_no_canonical_record","repository_evidence":["PQ57 reward"],"note":"Do not map to SSGSS Gogeta's Clothes (equip-038)."},
+    {"name":"Future Trunks' Clothes (Super)","status":"catalogued_but_no_canonical_record","repository_evidence":["equipment-catalog-index.json exact inventory name"],"note":"Do not map to Future Trunks's Clothes or another Trunks outfit."},
+    {"name":"Broly Clothes","status":"source_backed_but_no_canonical_record","repository_evidence":["PQ47 reward","equipment-catalog-index.json exact inventory name"],"note":"Do not map to Broly (Full Power Super Saiyan)'s Clothes or either Broly Battle Suit."},
+    {"name":"Master Korin's Suit","status":"official_pack_identity_only","note":"Official storefront identity is confirmed, but no exact canonical equipment/catalog record was found."},
+    {"name":"Orange Star High School Outfit","status":"official_pack_identity_only","note":"Official storefront identity is confirmed, but no exact canonical equipment/catalog record was found."}
+  ],
+  "evidence_limits":[
+    "Pack inclusion is not treated as exclusive ownership; storefronts explicitly allow shop/condition acquisition.",
+    "No equip-141+ IDs were invented; the live legacy equipment layer ends at equip-140.",
+    "No similar outfit was used as an alias for an exact unmatched name.",
+    "No reward probability, drop slot, shop rotation, stats, restrictions, or exclusivity was inferred."
+  ],
+  "validation":{
+    "official_costume_count":8,
+    "previously_exact_canonical_costumes":2,
+    "six_target_costumes":6,
+    "exact_canonical_match_in_batch":1,
+    "remaining_without_exact_canonical_record":5,
+    "legacy_equipment_max_id":"equip-140"
+  },
+  "next_action":"Promote the five remaining identities only when individually source-backed and compatible with the existing equipment ID architecture; otherwise preserve them as evidence-only inventory gaps."
+}
