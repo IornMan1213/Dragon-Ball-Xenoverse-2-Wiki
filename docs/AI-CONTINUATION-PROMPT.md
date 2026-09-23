@@ -4312,3 +4312,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - **034 must remain a skip/boundary unless exact-name item-level mechanics evidence independently resolves its missing fields.** Do not manufacture values from acquisition-only evidence.
 - Exact next task: investigate **032** only if exact-name Limit Burst evidence can be independently established; otherwise move to the next evidence-supported partially-verified cluster and preserve unresolved fields.
 - CI/runtime: no successful workflow/check exposed; do not claim CI success.
+
+
+### 2026-09-22 — Super Soul 202 (GAAAGH!) mechanics reconciliation
+- Reconciled **Super Soul 202 — GAAAGH!** against exact-name catalogue/community evidence.
+- Clarified that the **-25% guard-break time** is a duration modifier, not a timed buff; `duration` is therefore explicitly marked not applicable rather than left falsely unresolved.
+- Recorded the stacking field as not reported as stackable; no stacking behavior was invented.
+- Promoted the record to **verified_secondary** and added a bounded audit artifact.
+- No acquisition route, reward tier, drop probability, or unrelated mechanic changed.
+- Exact next task: continue the live partially-verified queue, preserving **032** as evidence-bound unless exact-name Limit Burst evidence is independently established.
