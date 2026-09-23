@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-23",
+  "domain": "super_soul",
+  "purpose": "Evidence-boundary refresh for Super Soul 217 Limit Burst research.",
+  "target_id": "super-soul-217",
+  "name": "Power! A lotta power! It's great!",
+  "evidence": [
+    "https://www.reddit.com/r/DragonBallXenoverse2/comments/i3kqoi/",
+    "https://www.reddit.com/r/dbxv/comments/io742e/",
+    "https://www.reddit.com/r/dbxv/comments/13joxkk/"
+  ],
+  "finding": "Independent community discussions corroborate the soul's high-Ki/high-Stamina utility and its use in builds, but the consulted evidence does not identify a Limit Burst effect. No Limit Burst effect or trigger was inferred.",
+  "changes": [
+    "Added three independent community sources to the canonical record.",
+    "Updated last_verified to 2026-09-23.",
+    "Expanded version_notes to explicitly preserve the unresolved Limit Burst evidence boundary."
+  ]
+}
