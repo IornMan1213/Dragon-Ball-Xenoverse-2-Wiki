@@ -192,33 +192,33 @@
       "forward": {
         "skill": 244,
         "super_soul": 146,
-        "equipment": 125,
+        "equipment": 124,
         "character": 247,
-        "dlc": 88,
+        "dlc": 86,
         "farming": 7
       },
       "audit": {
         "skill": 244,
         "super_soul": 146,
-        "equipment": 125,
+        "equipment": 124,
         "character": 247,
-        "dlc": 88,
+        "dlc": 86,
         "farming": 7
       },
       "status": {
         "skill": 244,
         "super_soul": 146,
-        "equipment": 125,
+        "equipment": 124,
         "character": 247,
-        "dlc": 88,
+        "dlc": 86,
         "farming": 7
       },
       "reverse": {
         "skill": 244,
         "super_soul": 146,
-        "equipment": 125,
+        "equipment": 124,
         "character": 247,
-        "dlc": 88,
+        "dlc": 86,
         "farming": 7
       }
     },
@@ -228,7 +228,7 @@
       "All five relationship artifacts use schema_version 1.0.",
       "Reverse index generated_from intentionally names six normalized reward-map files; the canonical 015-020 through 163-186 batch files are separate evidence and are not incorrectly substituted for the partial normalized maps.",
       "No schema migration or consumer-facing field change is required in this tranche.",
-      "All current forward, reverse, audit, and status counts agree at 862 total edges after the 2026-09-22 deterministic reconciliation."
+      "The current forward, reverse, audit, and status layers supersede the historical 862-edge reconciliation at 854 total edges; the older 125-equipment/88-DLC values are preserved here as historical context."
     ]
   },
   "deterministic_reconciliation_2026_09_22": {
