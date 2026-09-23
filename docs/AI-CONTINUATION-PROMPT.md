@@ -4448,3 +4448,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: **234 canonical / 0 duplicate IDs / 123 strict-thin records**; changed JSON parsed successfully; audit registration confirmed; no unsupported values were inferred.
 - CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - Exact next batch: recompute the live strict-thin queue and continue the next evidence-supported one-field cluster, prioritizing exact-name evidence and cross-database usefulness while preserving real evidence boundaries.
+
+
+### 2026-09-22 cycle continuation — Super Soul 070/071/078/080 duration reconciliation
+- Live census before editing: **234 canonical / 0 duplicate IDs / 123 strict-thin records**.
+- Bounded batch: **070, 071, 078, 080**.
+- Research/evidence: exact-name Super Soul catalogue/stat-sheet evidence and existing repository research-corpus records.
+- Changes: explicit non-timed duration semantics added for always-active, condition-bound, and trigger-bound effects; no numeric timers inferred.
+- Added/registered audit: `docs/data/super-soul-070-071-078-080-duration-reconciliation-2026-09-22.json`.
+- Validation: **234 canonical / 0 duplicate IDs / 119 strict-thin records**; audit registration confirmed; changed JSON parsed successfully.
+- CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- Commits: `57bd6587cba9e578be16ce36fb6e983c3dc0b6b1`, `5355b18b589161e35e29edc1aa904aeef0be5eff`, `bae2496a52f503c90f635076c3c74c7f5cfabea2`, `b903a68215da89cb78731405ea4c263699c1f52c`, `8a381bb8f2576d1914e3a0d9cd1dde315586ca6c`.
+- Exact next batch: recompute the live strict-thin queue and continue the next evidence-supported one-field cluster; current top candidates begin with **201, 154, 156, 160, 161, 162, 165, 166, 172**, while preserving genuine evidence boundaries.
