@@ -117,6 +117,8 @@ def main():
         "pq_character_links_use_character_explorer": "characterUrl" in h and "characterLinks(pqId)" in h,
         "pq_dlc_links_present": "dlcUrl" in h and "dlcByPq" in h and "pq_requires_dlc" in h,
         "pq_dlc_labels_use_canonical_identity": "canonicalDlc=dlcByPq[r.id]||''" in h,
+        "equipment_explorer_dlc_search_links": "r.dlc_provenance?'<p class=\\"pq-meta\\"><a href=\\"'+esc(searchUrl(r.dlc_provenance))+'\\">Open DLC in local wiki search ↗</a></p>':''" in (ROOT / "docs" / "Equipment-All.html").read_text(encoding="utf-8"),
+        "dlc_overview_reverse_pq_table": "## Canonical DLC → PQ Reverse Navigation" in (ROOT / "docs" / "DLC-Overview.md").read_text(encoding="utf-8"),
         "dlc_targets_resolve": not dlc_unresolved,
         "dlc_identity_names_unique": not dlc_duplicate_names,
         "dlc_identity_ids_unique": not dlc_duplicate_ids,
