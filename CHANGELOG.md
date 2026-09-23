@@ -2025,3 +2025,13 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Added and registered `docs/data/super-soul-104-151-153-reconciliation-2026-09-22.json`.
 - **217 remains unresolved** because exact-name Limit Burst evidence was not independently established in this pass.
 - Exact next task: continue the next evidence-supported unresolved cluster; preserve **032/034** as evidence boundaries.
+
+
+### 2026-09-22 — Super Soul 049/053/056/058/059/060/063/065 secondary-field reconciliation
+- Reconciled the unresolved `duration` and `stacking_behavior` fields for **049, 053, 056, 058, 059, 060, 063, and 065** using the maintained exact-name Super Soul catalogue plus independent historical evidence already attached to the canonical records.
+- Recorded explicit non-timed semantics for always-active, condition-bound, one-time, and trigger-bound effects instead of leaving mechanically inapplicable duration fields null.
+- Recorded `Not reported as stackable` for all eight where no numeric cap or stacking rule is documented; no stack cap was invented.
+- Added and registered `docs/data/super-soul-049-053-056-058-059-060-063-065-secondary-field-reconciliation-2026-09-22.json`.
+- Validation: **234 canonical / 0 duplicate IDs / 130 strict-thin records**; changed records parse cleanly; no internal AI/UI/search citation artifacts detected.
+- CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- Exact next task: recompute the live strict-thin queue and continue the next evidence-supported early/base-game or high-impact cluster; preserve **032/034** and other genuine evidence boundaries rather than forcing unsupported values.
