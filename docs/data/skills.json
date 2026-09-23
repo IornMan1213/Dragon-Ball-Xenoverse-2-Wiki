@@ -4196,14 +4196,14 @@
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Advancement Test",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "usable_by_cac": true,
       "mechanics_notes": "Confirmed as Other Super from the First Advancement Test and usable by all CaC races. It is a slow Ki-charge skill. 2026-09-21 cross-domain normalization: canonical Advancement Test endpoint advancement-test-easy added from the existing acquisition record.",
       "race_restriction": "All CaC races",
       "source_quest": "Advancement Test — Easy Class",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current skill documentation and independent advancement-test evidence confirm the First Advancement Test — Easy Class acquisition and slow Ki-charge behavior. Existing non-PQ acquisition semantics are preserved.",
+      "notes": "2026-09-22 provenance refresh: current skill documentation and independent advancement-test evidence confirm the First Advancement Test — Easy Class acquisition and slow Ki-charge behavior. Existing non-PQ acquisition semantics are preserved. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-energy-charge",
       "source_advancement_test": "advancement-test-easy"
     },
@@ -4222,13 +4222,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Future Gohan mentor training",
       "mechanics_notes": "Mentor acquisition endpoint, skill identity, and classification are directly corroborated; numerical combat mechanics remain deferred until separately verified.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Future Gohan mentor training — Lesson 2.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: dedicated evidence confirms the Ki Blast Evasive, Future Gohan training acquisition, 300 Stamina cost, and extendable barrier mechanics using up to 320 Ki. Existing mentor semantics are preserved.",
+      "notes": "2026-09-22 provenance refresh: dedicated evidence confirms the Ki Blast Evasive, Future Gohan training acquisition, 300 Stamina cost, and extendable barrier mechanics using up to 320 Ki. Existing mentor semantics are preserved. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-energy-dome",
       "source_mentor": [
         "mentor-future-gohan"
@@ -4252,7 +4252,7 @@
       "mechanics_notes": "Dedicated current-version evidence identifies Energy Field as a Ki Blast Evasive skill and lists Android 17, Android 16, Mira, and Android 17 (DB Super) as users. The dedicated reference lists Parallel Quest 29 and 200 Stamina, with the barrier maintained by consuming Ki. The record's existing All CaC races scope is retained; no narrower CaC race/gender/form restriction is inferred.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Energy_Field",
@@ -4262,7 +4262,7 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": 29,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current dedicated skill evidence confirms the 200-Stamina Ki Blast Evasive, Android 17 association, PQ29 endpoint, and barrier extension by consuming Ki. The maintained PQ guide independently lists Energy Field in PQ29's reward table; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-22 provenance refresh: current dedicated skill evidence confirms the 200-Stamina Ki Blast Evasive, Android 17 association, PQ29 endpoint, and barrier extension by consuming Ki. The maintained PQ guide independently lists Energy Field in PQ29's reward table; no Ultimate Finish-only gate is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-energy-field",
       "source_parallel_quests": [
         29
@@ -4285,7 +4285,7 @@
       "mechanics_notes": "Current evidence establishes the skill identity and documented acquisition endpoint; unsupported detailed mechanics remain intentionally limited.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-grows-larger-with-the-release-of-extra-pack-2-infinite-history",
         "https://dbxv2.fandom.com/wiki/Energy_Minefield",
@@ -4293,7 +4293,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 deterministic acquisition correction: current dedicated evidence and independent Tokipedia reward records place Energy Minefield at 75% Tokipedia completion, correcting the prior 60% endpoint. Extra Pack 2 provenance is retained.",
+      "notes": "2026-09-22 deterministic acquisition correction: current dedicated evidence and independent Tokipedia reward records place Energy Minefield at 75% Tokipedia completion, correcting the prior 60% endpoint. Extra Pack 2 provenance is retained. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-energy-minefield"
     },
     {
@@ -4313,11 +4313,11 @@
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Character skill",
       "mechanics_notes": "Confirmed as Towa-exclusive Other Super. It is a slow Ki-charge stance and is not obtainable by CaCs. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "Character-only",
       "dlc_requirement": "Base Game",
       "acquisition_type": "character_only",
-      "notes": "2026-09-22 provenance refresh: current dedicated evidence confirms Energy Release as Towa's character-exclusive Other Super and a slow stationary Ki-charge stance. The skill remains non-CaC; no separate acquisition gate is inferred.",
+      "notes": "2026-09-22 provenance refresh: current dedicated evidence confirms Energy Release as Towa's character-exclusive Other Super and a slow stationary Ki-charge stance. The skill remains non-CaC; no separate acquisition gate is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-energy-release"
     },
     {
@@ -4339,7 +4339,7 @@
       "mechanics_notes": "Fire chargeable Ki Blasts; charged shots are more powerful. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Energy_Shot",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4347,7 +4347,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current dedicated evidence and an independent PQ22 reward guide reconfirm Energy Shot as a 100-Ki Ki Blast Super from PQ22's Basic Reward pool. No unsupported exact drop probability or Ultimate Finish gate is inferred.",
+      "notes": "2026-09-22 provenance refresh: current dedicated evidence and an independent PQ22 reward guide reconfirm Energy Shot as a 100-Ki Ki Blast Super from PQ22's Basic Reward pool. No unsupported exact drop probability or Ultimate Finish gate is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "source_parallel_quests": [
         22
       ]
@@ -4369,7 +4369,7 @@
       "mechanics_notes": "Current evidence confirms Eraser Bomb as a 100-Ki Ki Blast Super from PQ163. The existing random-PQ acquisition is retained; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Eraser_Bomb",
@@ -4378,7 +4378,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 163,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current dedicated evidence reconfirms Eraser Bomb as a 100-Ki Ki Blast Super from PQ163's Ultimate Finish route. The maintained 40% bonus-slot condition remains canonical while the conflicting Steam reward-table presentation is preserved explicitly.",
+      "notes": "2026-09-22 provenance refresh: current dedicated evidence reconfirms Eraser Bomb as a 100-Ki Ki Blast Super from PQ163's Ultimate Finish route. The maintained 40% bonus-slot condition remains canonical while the conflicting Steam reward-table presentation is preserved explicitly. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-eraser-bomb",
       "source_parallel_quests": [
         163
@@ -4401,7 +4401,7 @@
       "mechanics_notes": "Dedicated current-version evidence identifies Evil Blast as a 300-Ki Ki Blast Ultimate and Counter Skill from PQ114. During the counter window, the user becomes translucent; if struck by a Strike attack, they teleport behind the opponent and fire the Ki Blast. Current evidence states the Future Warrior can obtain it randomly from Dabura during the Ultimate Finish. No narrower CaC race/gender/form restriction is inferred.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Evil_Blast",
@@ -4411,7 +4411,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 114,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current dedicated evidence reconfirms Evil Blast as a 300-Ki Ki Blast Ultimate/Counter Skill from PQ114's Ultimate Finish, including its Strike-counter teleport and blast behavior. No narrower CaC restriction or unsupported drop probability is inferred.",
+      "notes": "2026-09-22 provenance refresh: current dedicated evidence reconfirms Evil Blast as a 300-Ki Ki Blast Ultimate/Counter Skill from PQ114's Ultimate Finish, including its Strike-counter teleport and blast behavior. No narrower CaC restriction or unsupported drop probability is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-evil-blast",
       "source_parallel_quests": [
         114
@@ -4433,12 +4433,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Piccolo mentor training — Initiation Test",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Piccolo mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current dedicated evidence confirms Evil Explosion as Piccolo's 100-Ki chargeable Ki Blast Super and mentor reward. It can be charged through three stages; detailed combo behavior is retained only where directly evidenced.",
+      "notes": "2026-09-22 provenance refresh: current dedicated evidence confirms Evil Explosion as Piccolo's 100-Ki chargeable Ki Blast Super and mentor reward. It can be charged through three stages; detailed combo behavior is retained only where directly evidenced. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-evil-explosion",
       "source_mentor": [
         "mentor-piccolo"
@@ -4461,12 +4461,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Lord Slug mentor training",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Lord Slug mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current dedicated evidence confirms Evil Eyes as a 100-Ki Ki Blast Super obtained through Lord Slug's mentor training. Its long-range lock-on explosion behavior is directly documented; no narrower CaC restriction is inferred.",
+      "notes": "2026-09-22 provenance refresh: current dedicated evidence confirms Evil Eyes as a 100-Ki Ki Blast Super obtained through Lord Slug's mentor training. Its long-range lock-on explosion behavior is directly documented; no narrower CaC restriction is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-evil-eyes",
       "source_mentor": [
         "mentor-slug"
@@ -4490,7 +4490,7 @@
       "mechanics_notes": "Current evidence confirms Evil Flame as a 100-Ki Ki Blast Super from PQ117. Its dedicated documentation is retained as the primary mechanics source; no unsupported CaC restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Evil_Flame",
@@ -4501,7 +4501,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 117,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current dedicated evidence reconfirms Evil Flame as a 100-Ki Ki Blast Super from PQ117. The maintained Basic Reward relationship is retained while separate random-drop wording remains source context; no exclusive Ultimate Finish gate is inferred.",
+      "notes": "2026-09-22 provenance refresh: current dedicated evidence reconfirms Evil Flame as a 100-Ki Ki Blast Super from PQ117. The maintained Basic Reward relationship is retained while separate random-drop wording remains source context; no exclusive Ultimate Finish gate is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-evil-flame",
       "source_parallel_quests": [
         117
@@ -4529,13 +4529,13 @@
       "ultimate_finish_required": false,
       "unlock_method": "Parallel Quest 21 — \"Tri-Race Coop\" Basic Reward",
       "source_quest": 21,
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "source_quest_or_shop": "Parallel Quest 21 — \"Tri-Race Coop\"",
       "mechanics_notes": "100 Ki Strike Super from PQ21; launches a forward aerial strike against the opponent.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current dedicated evidence reconfirms Evil Flight Strike as a 100-Ki Strike Super with a 300-Stamina cost, restricted to Namekian or Majin CaCs, and obtained from PQ21's Basic Reward. No Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-22 provenance refresh: current dedicated evidence reconfirms Evil Flight Strike as a 100-Ki Strike Super with a 300-Stamina cost, restricted to Namekian or Majin CaCs, and obtained from PQ21's Basic Reward. No Ultimate Finish-only gate is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-evil-flight-strike",
       "source_parallel_quests": [
         21
