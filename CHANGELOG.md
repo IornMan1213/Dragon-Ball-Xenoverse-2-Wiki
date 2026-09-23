@@ -2435,3 +2435,9 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Revalidated existing multi-source acquisition/classification evidence without changing unsupported fields or forcing unresolved reward conflicts.
 - Added and registered `docs/data/skill-provenance-audit-2026-09-23-burst-blitz-through-stinger.json`.
 - Validation target: **455 canonical / 455 index / 0 duplicate IDs / 5 targets synchronized**.
+
+### 2026-09-23 — P1 Buu Buu Ball through Chain Destructo-Disc Barrage provenance refresh
+- Refreshed **Buu Buu Ball, Candy Beam, Candy Beam (Super), Celestial Wave, and Chain Destructo-Disc Barrage** to `2026-09-23` in canonical/index skill data.
+- Revalidated existing multi-source acquisition/classification evidence and preserved known reward-source conflicts; no unsupported probability, gate, mechanic, cost, restriction, or DLC condition was introduced.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-23-buu-through-chain.json`.
+- Validation target: **455 canonical / 455 index / 0 duplicate IDs / 5 targets synchronized**.
