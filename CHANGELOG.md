@@ -2613,3 +2613,12 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Validation: 455 canonical / 455 index / 0 duplicate IDs / 232 stale; target parity mismatches 0.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next batch: Godly Chronos Cannon, Godly Display, Gorgeous Shot, Grand Smasher, Gravity Impact, Handy Canon, Hawk Charge, Headshot, Heat Dome Attack, Heat Wave, Heavenly Arrow, Hell Flash.
+
+
+### 2026-09-23 — P1 Godly Chronos through Hell Flash skill refresh
+- Completed: Godly Chronos Cannon, Godly Display, Gorgeous Shot, Grand Smasher, Gravity Impact, Handy Canon, Hawk Charge, Headshot, Heat Dome Attack, Heat Wave, Heavenly Arrow, Hell Flash.
+- Refreshed canonical/index verification and bounded evidence notes; unsupported mechanics/restrictions were not inferred.
+- Added/registered docs/data/skill-provenance-audit-2026-09-23-godly-chronos-through-hell-flash.json.
+- Validation: 455 canonical / 455 index / 0 duplicate IDs / 220 stale / 0 target parity mismatches.
+- CI/runtime unavailable; no CI success claimed.
+- Next exact batch: Hero's Flute, Hero's Pose, Heroic Assault, Heroic Counter, Holy Inscription, Holy Wrath, Hyper Tornado, Ill Bomber, Ill Rain, Impact Flare, Impulse Slash, Indomitable.
