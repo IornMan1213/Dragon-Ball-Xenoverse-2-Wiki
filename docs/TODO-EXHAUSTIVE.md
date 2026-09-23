@@ -3657,3 +3657,16 @@
 - [x] Validation: audit JSON parses; official costume count remains 8; batch exact canonical match is 1; five target identities remain without exact canonical records; cross-domain audit registration is present.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: resolve the five remaining Time Patrol Support Pack costume identities only when individually source-backed and compatible with the existing equipment architecture; then continue unmatched pack skills/Puar without inventing IDs.
+
+
+### 2026-09-23 — TODO completion update — Time Patrol Support Pack skill identity reconciliation
+- [x] Audited all **13 advertised Support Pack attacks** against the live canonical skill layer and official Steam/Nintendo/Xbox pack scope.
+- [x] Confirmed **10 exact canonical skill identities**: skill-super-god-fist, skill-wild-hunt, skill-kaioken-kamehameha, skill-death-psycho-bomb, skill-justice-pose, skill-maximum-charge, skill-punisher-guard, skill-warp-kamehameha, skill-impulse-slash, and skill-giant-storm.
+- [x] Confirmed **Super Destructo-Disc** is a source-backed research candidate from the existing Expert Mission 4 research, and **Big Bang Attack** is a source-backed research candidate from existing skill research; neither was promoted prematurely because the canonical/index promotion must be atomic and validated.
+- [x] Confirmed **Power Pole Combo** has no dedicated exact-name canonical research record in the live repository; existing Power Pole research explicitly distinguishes Power Pole from Power Pole Combo and Power Pole Pro. No alias or ID was invented.
+- [x] Added docs/data/dlc/time-patrol-support-pack-skill-identity-reconciliation-2026-09-23.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Refined docs/data/dlc/time-patrol-support-pack-content-reconciliation-2026-09-23.json so the remaining skill gap is accurately represented as **3 missing exact canonical identities**, while preserving the separate **7 advertised Super Attacks without direct PQ edges** relationship metric.
+- [x] Evidence limits preserved: pack inclusion is provenance/early-unlock evidence, not exclusive ownership; no reward probability or unsupported Ultimate Finish requirement was inferred.
+- [x] Validation: new audit parses; advertised attack count 13; exact canonical skill identities 10; exact canonical identities missing 3; cross-domain registration confirmed.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: atomically promote **Super Destructo-Disc** and **Big Bang Attack** into docs/data/skills.json + docs/data/skills-index.json only after preserving complete schema fields and validating canonical/index parity; separately research **Power Pole Combo** rather than aliasing it to Power Pole or Power Pole Pro. Then continue the remaining five Support Pack costume identities and Puar.
