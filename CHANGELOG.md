@@ -1853,3 +1853,11 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Preserved existing effect magnitudes, acquisition routes, PQ relationships, and Limit Burst data.
 - Added and registered `docs/data/super-soul-secondary-field-reconciliation-002-004-008-010-011-028-031-2026-09-22.json`.
 - No unsupported numeric mechanics were promoted. CI/runtime remains unavailable.
+
+
+## 2026-09-22 — Super Soul secondary-field reconciliation (024 / 025)
+- Reconciled **024** “I'm the fastest in the universe” and **025** “We're the one and only Ginyu Force!” using exact-name catalogue and independent guide evidence.
+- 024: duration and stacking marked **N/A** because no separate duration/stacking mechanic is documented for the max-Ki mobility effect.
+- 025: duration marked **N/A**; its existing once-only trigger behavior remains explicitly captured in `stacking_behavior`.
+- Added and registered `docs/data/super-soul-secondary-field-reconciliation-024-025-2026-09-22.json`.
+- No acquisition, PQ, effect magnitude, or Limit Burst semantics were changed.
