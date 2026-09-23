@@ -4211,3 +4211,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Commits: canonical **fb2dd563cfeeb5c4ef6dc127523e7943fc5fb2f**; census **7dda4fe942b4503a7f99134ea55a61019c41c6b9**.
 - [ ] CI/runtime: no successful workflow/check exposed; do not claim CI success.
 - [ ] Exact next priority: continue the deterministic partially-verified census. **034** remains an evidence-boundary record because item-level mechanics are still unresolved; next eligible records are the high-source-count partially verified records such as **032, 191, 194, 196, 197, 199, 155, 173–175, 177, 179, 186, 187**. Promote only fields independently supported by exact-name evidence. Do not create another continuation prompt.
+
+### 2026-09-22 cycle update — Super Souls 191/194/196 evidence strengthening
+- [x] Continued the deterministic partially-verified Super Soul census.
+- [x] Strengthened **191 — "Earth is in your hands now!"**, **194 — "Time to get serious, I guess."**, and **196 — "This heat...will be your downfall!"** with exact-name/historical evidence.
+- [x] Promoted all three to `verified_secondary`.
+- [x] Recorded non-stacking behavior as **N/A** where direct evidence supports that no stacking mechanic applies.
+- [x] Preserved **194's current +25% all-attacks value**; older community reports of a historical +35% state were documented as historical context rather than promoted as current canonical mechanics.
+- [x] Refreshed strict-thin census: **234 canonical / 0 duplicate IDs / 182 strict-thin** under the current eight-field definition.
+- [x] Canonical commit: **d08438c050a5033519eb6e80fe768aaa80a7d4b7**; census commit: **fcc0cbe409c92b1676fcabcad758d3b0fd2ef4ab**.
+- [ ] CI/runtime: no successful workflow/check exposed; do not claim CI success.
+- [ ] Exact next priority: continue the partially-verified Super Soul census with **032, 155, 173–175, 177, 179, 186, 187, 197, 199** and other records whose remaining fields can be independently resolved. Keep **034** evidence-bound unless exact-name item-level mechanics are found. Do not create another continuation prompt.
