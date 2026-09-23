@@ -1,3 +1,13 @@
+### 2026-09-22 cycle update — Super Soul 192 stacking-field reconciliation
+- Bounded batch: **Super Soul 192 — “Get serious, would you?”**.
+- Reconciled the remaining `stacking_behavior` gap to **“Not reported as stackable”** from the maintained exact-name catalogue/stat sheet; no numeric stack cap was inferred.
+- Preserved the documented 10-second Ki Blast-based-skill boost, -10 Stamina Just Guard effect, Auto Just Guard Limit Burst, and PQ117 acquisition relationship.
+- Live census: **234 canonical / 0 duplicate IDs / 151 strict-thin records**.
+- Added/registered audit: `docs/data/super-soul-192-stacking-reconciliation-2026-09-22.json`.
+- CI/runtime: no successful workflow/check exposed; do not claim CI success.
+- Next: continue the next evidence-supported unresolved Super Soul field/cluster and preserve evidence boundaries.
+
+
 ### 2026-09-22 cycle update — Super Soul 218–219 mechanics/provenance reconciliation
 - Active workstream: non-PQ/thin-system Super Soul coverage.
 - Bounded batch: **Super Souls 218–219** (`super-soul-218`, `super-soul-219`).
