@@ -5289,3 +5289,17 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Added `docs/data/dlc/time-patrol-support-pack-costume-canonical-equipment-capacity-decision-2026-09-23.json` and registered it in `pq-cross-domain-index.json`.
 - Validation: five blocked identities preserved; new equipment IDs = 0; aliases = 0. CI/runtime unavailable.
 - Exact next batch: proceed to the next highest-impact cross-domain consumer/coverage audit; revisit these costumes only after a principled equipment-ID allocation mechanism is designed.
+
+
+
+### 2026-09-23 cycle update — Non-PQ reverse-navigation consumer hardening / live Super Soul baseline repair
+- [x] Re-read the live cross-domain gate: the authoritative PQ relationship baseline is **854 unique edges = 244 skills / 146 Super Souls / 124 equipment / 247 characters / 86 DLC / 7 farming**.
+- [x] Audited the live character reverse-navigation consumer (`docs/Characters-All.html`) and character reverse index: **247 forward character edges / 75 unique targets / 143 PQ sources / 0 unresolved targets / 0 duplicate pairs**; the explorer accepts `?q=` and its PQ links target `/Parallel-Quests-All/?q=PQ NNN`.
+- [x] Audited the live Super Soul reverse-navigation consumer (`docs/Super-Souls-All.html`): it loads canonical Super Soul records plus canonical PQ relationships, exposes Canonical PQ links, and accepts `?q=` deep links.
+- [x] Found and repaired a stale current-looking Super Soul projection in `docs/data/pq-explorer-reward-navigation-audit.json`: the structured Super Soul contract is **146/146**, not the obsolete **151/151** projection left by the pre-identity-correction state.
+- [x] Synchronized `docs/data/pq-cross-link-integrity-audit.json` to the live **146/146** Super Soul pair contract.
+- [x] Repaired stale current Super Soul projection totals in `docs/data/pq-cross-domain-status.json` to **146 forward / 143 reverse** and **854 current projection total**; dated historical 151/148 and older baselines remain preserved as history.
+- [x] Added explicit reverse-destination query-contract metadata to `docs/data/pq-explorer-reward-navigation-audit.json` and `docs/data/pq-character-reverse-navigation-audit.json` without creating any relationship edges or aliases.
+- [x] Preserved the five-edge Super Soul discrepancy boundary: `super-soul-232` through `super-soul-236` remain removed from the live canonical relationship projection; no relationship was re-added merely to satisfy stale metadata.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next task: continue the **non-PQ consumer/navigation integrity** gate by auditing the remaining registered presentation/reverse-navigation consumers for stale **854/146** baselines, one-way links, scalar/list assumptions, and endpoint-name drift; do not add relationship edges.
