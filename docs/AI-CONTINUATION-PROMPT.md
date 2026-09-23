@@ -4771,3 +4771,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Live result: **229 canonical Super Souls / 146 canonical PQ→Super Soul edges / 4 strict-thin records** (032, 034, 158, 217).
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Next priority: continue the remaining strict-thin queue **032/034/158/217** using exact-name/item-level evidence only; do not recreate 232-236 without a distinct game-data identity key.
+
+
+### 2026-09-23 cycle update — strict-thin evidence checkpoint after 232-236 correction
+- [x] Live census after bounded pass: **229 canonical / 0 duplicate IDs / 4 strict-thin**; queue **032, 034, 158, 217**.
+- [x] Fresh exact-name evidence pass covered **032, 034, 158, 217**. 032's existing +20% all-abilities evidence and second KO name-state remain bounded; 034's exact PQ186 reward identity is corroborated but item-level mechanics remain unresolved; 158 remains protected by the PQ49 same-name Super Skill collision boundary; 217's +12 Ki/+12 Stamina remains corroborated while Limit Burst remains unresolved.
+- [x] Added docs/data/super-soul-strict-thin-checkpoint-2026-09-23.json documenting the evidence and limits.
+- [x] No unsupported mechanics, Limit Burst effects, reward probabilities, or item identifiers were promoted.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: **034 item-level mechanics/Limit Burst**, then **217 Limit Burst**, using exact-name/item-level evidence only.
