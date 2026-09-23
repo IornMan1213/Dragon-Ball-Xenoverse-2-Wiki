@@ -2825,3 +2825,11 @@
 - [x] No canonical PQ relationship identities changed; no unsupported reward probabilities or Ultimate-Finish requirements were added.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Next priority: recompute the live strict-thin census and select the next evidence-supported batch; **034 remains an explicit evidence boundary** rather than a forced completion target.
+
+### 2026-09-22 — Super Souls 055/061 evidence reconciliation
+- [x] Promoted **055** and **061** to `verified_secondary` after independent catalogue/research evidence reconciliation.
+- [x] Preserved 055's documented 30-second Ki Auto-Recovery and 061's five-stack accumulation without inventing unrelated timers or stacking rules.
+- [x] Added and registered `docs/data/super-soul-055-061-reconciliation-2026-09-22.json`.
+- [x] No canonical PQ relationship identities changed; no unsupported reward probabilities or Ultimate-Finish requirements were added.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Next priority: recompute the strict-thin census and continue the deterministic low-field queue; **034 remains evidence-bound** until item-level mechanics are independently established.
