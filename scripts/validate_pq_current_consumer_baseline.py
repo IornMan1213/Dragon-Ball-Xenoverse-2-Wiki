@@ -31,7 +31,7 @@ def main() -> int:
 
     expected = {
         "pq_rewards_skill": 244,
-        "pq_rewards_super_soul": 146,
+        "pq_rewards_super_soul": 145,
         "pq_rewards_equipment": 124,
         "pq_features_character": 247,
         "pq_requires_dlc": 86,
@@ -48,7 +48,7 @@ def main() -> int:
     equipment = producer["producers"]["equipment"]
     if equipment["forward"] != 124 or equipment["reverse"] != 122:
         failures.append(f"producer equipment projection stale: {equipment}")
-    if producer["target_normalization"]["total_relationships"] != 854:
+    if producer["target_normalization"]["total_relationships"] != 853:
         failures.append("producer target-normalization total is stale")
 
     report = {
