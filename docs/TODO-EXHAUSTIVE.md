@@ -4631,3 +4631,15 @@
 - Evidence boundary preserved: endpoint identities are derived from canonical acquisition records; unsupported objectives, probabilities, exact timing, costs, or alternate routes were not invented.
 - CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** recompute the full acquisition endpoint census including this new layer, then inspect the remaining explicit character-only/startup/non-acquirable records and broader cross-database producer/consumer gaps for deterministic link opportunities.
+
+
+### 2026-09-23 cycle update — Full acquisition census and character-exclusive skill endpoint layer
+
+- Recomputed the live acquisition endpoint census across PQ relationships plus mentor, Expert Mission, Skill Shop/TP-STP, Time Rift/story/tournament, Tokipedia, Conton City Patrol, and special-acquisition endpoint layers.
+- Live canonical skill count: **465**. Existing non-PQ endpoint consumers cover **214 unique canonical skills via 215 forward edges**; PQ-linked canonical skills: **239**. The endpoint census leaves **0 non-PQ/non-mentor acquisition records without an endpoint consumer** after excluding explicit `character_only` and `starting_move` classifications.
+- The remaining explicit character-only cohort was **10 skills**. Added `docs/data/character-exclusive-skill-endpoints.json` with **10 deterministic character/boss exposure endpoints / 10 forward edges / 10 unique skill targets**: Dragon Thunder, Energy Release, Final Charge, Final Flash (Super), Instant Charge, Pretty Charge, Pure Progress, Rising Rage, Super Saiyan Blue Kaioken, and Supersonic Mode.
+- Added `docs/data/character-exclusive-skill-endpoint-audit-2026-09-23.json`; validation passes with **0 unresolved canonical skill IDs, 0 duplicate endpoint IDs, and 0 duplicate endpoint/skill pairs**.
+- Registered the character-exclusive layer and audit in `docs/data/pq-cross-domain-index.json`.
+- Evidence boundary preserved: these endpoints document cast/boss exposure only and do **not** convert character usage into CaC acquisition or shop/quest availability claims.
+- CI/runtime unavailable; no CI success claimed.
+- **Exact next batch:** audit the remaining `starting_move` records and then perform a full endpoint↔canonical-skill reverse parity check, including duplicate semantic endpoints and skills that have multiple legitimate acquisition/exposure producers.
