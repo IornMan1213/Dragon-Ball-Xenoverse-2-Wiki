@@ -3480,3 +3480,12 @@
 - [x] Refreshed verification dates and added Free Update evidence.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Next: recompute the remaining 24-record thin queue; prioritize 032, 034, 158, and 217, then continue the strongest evidence-supported gaps.
+
+### 2026-09-23 — TODO completion update — DLC → character navigation
+- [x] Audited remaining published character/DLC presentation consumers after the Equipment/DLC navigation repair.
+- [x] Added deterministic DLC headline-character → local character Search navigation to `docs/DLC-Overview.md` using the existing identity bridge.
+- [x] Preserved both unresolved Chapter 4 character labels as unresolved; no nearby identity was substituted.
+- [x] Extended `scripts/validate_published_character_dlc_navigation.py` and updated its audit report.
+- [x] No canonical DLC or character relationship was added or modified.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Next: continue deterministic DLC content-domain reconciliation, prioritizing pack-level content matrices and missing downstream record links.
