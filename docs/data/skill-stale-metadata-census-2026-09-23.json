@@ -5,84 +5,12 @@
   "source_of_truth": "docs/data/skills.json",
   "live_counts": {
     "canonical_skill_records": 455,
-    "stale_last_verified_records": 208,
-    "current_last_verified_records": 247,
+    "stale_last_verified_records": 196,
+    "current_last_verified_records": 259,
     "duplicate_ids": 0
   },
   "method": "Fresh alphabetical census of canonical records where last_verified != 2026-09-23.",
   "next_stale_records": [
-    {
-      "id": "skill-innocence-breath",
-      "name": "Innocence Breath",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-innocence-bullet",
-      "name": "Innocence Bullet",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-innocence-cannon",
-      "name": "Innocence Cannon",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-instant-charge",
-      "name": "Instant Charge",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-instant-rise",
-      "name": "Instant Rise",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-instant-severance",
-      "name": "Instant Severance",
-      "last_verified": "2026-09-22",
-      "source_count": 4
-    },
-    {
-      "id": "skill-instant-transmission",
-      "name": "Instant Transmission",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-jumping-energy-wave",
-      "name": "Jumping Energy Wave",
-      "last_verified": "2026-09-22",
-      "source_count": 6
-    },
-    {
-      "id": "skill-justice-blade",
-      "name": "Justice Blade",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-justice-combination",
-      "name": "Justice Combination",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-justice-drive",
-      "name": "Justice Drive",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-justice-kick",
-      "name": "Justice Kick",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
     {
       "id": "skill-justice-pose",
       "name": "Justice Pose",
@@ -130,6 +58,78 @@
       "name": "Ki Blast Thrust",
       "last_verified": "2026-09-22",
       "source_count": 3
+    },
+    {
+      "id": "skill-ki-explosion",
+      "name": "Ki Explosion",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-kill-driver",
+      "name": "Kill Driver",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-last-emperor",
+      "name": "Last Emperor",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-light-grenade",
+      "name": "Light Grenade",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-lightning-impact",
+      "name": "Lightning Impact",
+      "last_verified": "2026-09-22",
+      "source_count": 4
+    },
+    {
+      "id": "skill-lightning-of-absolution",
+      "name": "Lightning of Absolution",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-lovely-cyclone",
+      "name": "Lovely Cyclone",
+      "last_verified": "2026-09-22",
+      "source_count": 4
+    },
+    {
+      "id": "skill-mach-dash",
+      "name": "Mach Dash",
+      "last_verified": "2026-09-22",
+      "source_count": 5
+    },
+    {
+      "id": "skill-mach-punch",
+      "name": "Mach Punch",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-maiden-blast",
+      "name": "Maiden Blast",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-maiden-burst",
+      "name": "Maiden Burst",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-majin-kamehameha",
+      "name": "Majin Kamehameha",
+      "last_verified": "2026-09-22",
+      "source_count": 5
     }
   ],
   "validation": {
@@ -137,6 +137,5 @@
     "stale_plus_current": 455,
     "duplicate_ids": 0,
     "status": "clean_census"
-  },
-  "evidence_boundary": "A stale last_verified date is a research-priority signal, not evidence that the underlying record is incorrect."
+  }
 }
