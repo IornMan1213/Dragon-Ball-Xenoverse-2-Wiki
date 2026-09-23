@@ -410,5 +410,8 @@
   "skill_provenance_audit_2026_09_23_force_through_gamma_impact": "docs/data/skill-provenance-audit-2026-09-23-force-through-gamma-impact.json",
   "skill_provenance_audit_2026_09_23_genocide_through_gigantic_rage": "docs/data/skill-provenance-audit-2026-09-23-genocide-through-gigantic-rage.json",
   "skill_provenance_audit_2026_09_23_gigantic_roar_through_god_splitter": "docs/data/skill-provenance-audit-2026-09-23-gigantic-roar-through-god-splitter.json",
-  "skill_provenance_audit_2026_09_23_godly_chronos_through_hell_flash": "docs/data/skill-provenance-audit-2026-09-23-godly-chronos-through-hell-flash.json"
+  "skill_provenance_audit_2026_09_23_godly_chronos_through_hell_flash": "docs/data/skill-provenance-audit-2026-09-23-godly-chronos-through-hell-flash.json",
+  "artifacts": {
+    "skill_provenance_2026_09_23_hero_through_indomitable": "docs/data/skill-provenance-audit-2026-09-23-hero-through-indomitable.json"
+  }
 }
