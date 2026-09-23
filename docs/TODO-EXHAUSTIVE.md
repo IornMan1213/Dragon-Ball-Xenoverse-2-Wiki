@@ -3545,3 +3545,12 @@
 - [x] Expanded the DLC content matrix with individual canonical skill and Super Soul IDs for both packs.
 - [x] Preserved the ownership boundary: these are PQ-linked navigation anchors, not a complete DLC inventory and not evidence for free-update DAIMA ownership.
 - [ ] Exact next batch: reconcile the remaining concrete HOJ2/DAIMA non-PQ skill/Super Soul inventory against canonical records, prioritizing records advertised by the official pack scope but not yet represented by PQ-backed anchors.
+
+
+### 2026-09-23 — TODO completion update — official DAIMA / HOJ2 skill and Super Soul count reconciliation
+- [x] Reconciled DAIMA Pack against publisher-listed counts: **6 moves / 6 canonical skills** and **2 Super Souls / 2 canonical Super Souls**.
+- [x] Reconciled HERO OF JUSTICE Pack 2 against publisher-listed counts: **7 moves / 7 canonical skills** and **5 Super Souls / 5 canonical Super Souls**.
+- [x] Added `docs/data/dlc/daima-hoj2-official-skill-super-soul-count-reconciliation-2026-09-23.json` with official-source URLs and exact canonical IDs.
+- [x] Registered the count audit and updated the DLC content matrix.
+- [x] Closed the skill/Super Soul completeness gap for these two paid packs; no unsupported records were invented.
+- [ ] Exact next batch: move to the remaining paid-DLC content domains (HOJ2 costumes/accessories and stage/missions, then DAIMA non-skill/Super-Soul inventory) using official count checks and canonical cross-links.
