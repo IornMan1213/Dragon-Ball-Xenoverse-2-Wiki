@@ -6175,3 +6175,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Reverse mentor→lesson→skill and skill→mentor/lesson navigation is now represented explicitly.
 - The official 32-versus-community 33 mentor count discrepancy remains an evidence reconciliation item, not silently resolved.
 - **Exact next task:** build/reconcile Tokipedia and Conton City Patrol endpoint consumers and cross-links.
+
+
+### 2026-09-23 cycle update — Tokipedia canonical endpoint layer
+- Added `docs/data/tokipedia-endpoints.json`: **4 deterministic endpoints / 4 forward skill edges / 4 unique skill targets**.
+- Covered Confusion Blade (20%), Sneaky Strike (40%), Energy Minefield (75%), and Remote Serious Bomb (80%).
+- Reconciled a deterministic field mismatch for Energy Minefield: canonical `unlock_method` and maintained evidence establish 75%, while `source_quest_or_shop` still contained stale 60% wording; it is now synchronized to 75%.
+- Added `docs/data/tokipedia-endpoint-audit-2026-09-23.json`; validation passes with zero broken skill IDs.
+- **Exact next task:** build/reconcile the Conton City Patrol endpoint consumer layer, then audit remaining non-PQ/non-mentor acquisition records for deterministic endpoint gaps.
