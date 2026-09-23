@@ -1807,3 +1807,12 @@
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [x] Commits: `d3ddc3bfd924d2160063563865ccee59b7dd12b0`, `dd1c9349404c38ca16a08637228127b4eac65ca3`, `4c718623d52883f66a161bcb851bf5f188fe1996`.
 - [ ] Exact next priority: recompute the full Super Soul thin-system census and select the next **4–12 highest-impact records with strong exact-name evidence and/or reusable PQ cross-links**, rather than blindly continuing numerically.
+
+
+### 2026-09-22 cycle update — Consolidated all AI-CONTINUATION-PROMPT companion prompts
+- [x] Inspected the complete repository tree for the `docs/AI-CONTINUATION-PROMPT*.md` family.
+- [x] Confirmed 26 matching files: the canonical handoff, efficiency addendum, and 24 dated cycle prompts.
+- [x] Consolidated all 25 companion prompts into `docs/AI-CONTINUATION-PROMPT.md` with complete source text preserved.
+- [x] Retained the original dated prompt files as historical/source artifacts; no history was deleted.
+- [x] Verified every companion source path is represented in the canonical consolidated handoff.
+- [ ] Exact next priority remains the latest live handoff task: recompute the full Super Soul thin-system census and select the next 4–12 highest-impact records with strong exact-name evidence and/or reusable PQ cross-links.
