@@ -3964,3 +3964,13 @@
 - [x] Validation: **455 canonical / 455 index / 0 duplicate IDs**; five beta targets synchronized.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: **Android Kick, Android Rush, Android Shoot, Android S.S. Deadly Bomber, Android Tri-Beam**; recompute the live census before editing.
+
+
+### 2026-09-23 — TODO completion update — P1 skill provenance gamma batch
+- [x] Corrected the prior stale handoff target by inspecting the live canonical names: the proposed Android Kick/Android Shoot/etc. records are not present; Android Rush was already completed.
+- [x] Completed **Assault Vanish, Atomic Blast, Audacious Laugh** provenance refresh and synchronized canonical/index last_verified to **2026-09-23**.
+- [x] Preserved existing reward-tier conflicts and evidence boundaries.
+- [x] Added and registered docs/data/skill-provenance-audit-2026-09-23-gamma-batch.json and docs/data/skill-stale-metadata-census-2026-09-23-gamma.json.
+- [x] Validation: **455 canonical / 455 index / 0 duplicate IDs**; **439** stale records remain.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: **Beast, Become Giant, Bending Kamehameha, Big Bang Kamehameha, Big Bang Knuckle**; recompute the live census before editing.
