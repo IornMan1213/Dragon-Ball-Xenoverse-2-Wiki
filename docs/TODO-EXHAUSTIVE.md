@@ -4823,3 +4823,13 @@
 - Validation: live canonical count 151; DLC bridge remains 15 source records with 14 resolved targets and 1 explicit unresolved label; no missing canonical targets introduced. CI/runtime remains unavailable; no CI success claimed.
 - Commits: bridge `14a328ecedc720ccaaf2ece46b582d6a474ab77d6`; Characters page `434b1c0e28aaa994228bb49202ef1755f8a9cc01`; identity audit `8a6c1b2b352ef3593de7bebf52bfe94fa78fdb27`; published navigation audit `a287750d42078cab5bb29a52beadbd4589d169f7`.
 - **Exact next batch:** continue searching character-facing projections for the old 149 baseline and inspect any remaining validators/audits that assume fixed counts; after that, begin source-backed preset-loadout research only for records with explicit loadout evidence.
+
+
+### 2026-09-23 cycle update — Character-facing stale baseline cleanup
+- [x] Rechecked the remaining character-facing projections after the 151-character canonical promotion.
+- [x] Hardened `scripts/validate_published_character_dlc_navigation.py` so canonical character validation derives uniqueness from the live roster instead of a hard-coded 149-character count.
+- [x] Synchronized `docs/data/characters/partner-customization-character-navigation-audit.json` and the nested Partner Customization census in `docs/data/characters/character-presentation-consumer-audit.json` from 149 to the live **151** canonical characters.
+- [x] Preserved the existing bridge, partner, preset, DLC, and unresolved-variant evidence; no new character identity or preset loadout was inferred.
+- [x] Manual post-write inspection: validator no longer contains the stale 149-character assertion; affected audits report the live 151-character baseline.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next batch:** search the remaining character-facing generated/index consumers and validators for stale fixed-count assumptions or one-way links; then begin source-backed preset-loadout research only for records with explicit loadout evidence.
