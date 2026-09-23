@@ -1418,12 +1418,13 @@
       "limit_burst_effect": null,
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "The raid identity is community-supported; self-damage behavior is retained from the datamined effect wording without promoting community measurements to exact values. Community-measured percentages/durations are not promoted to exact canonical values. Merged duplicate canonical identity; the lower canonical ID is retained as the authoritative record.",
+      "version_notes": "The raid identity is community-supported; self-damage behavior is retained from the datamined effect wording without promoting community measurements to exact values. Community-measured percentages/durations are not promoted to exact canonical values. Merged duplicate canonical identity; the lower canonical ID is retained as the authoritative record. Independent raid-reward evidence now corroborates the Cell (Full Power) Lite/related raid reward endpoint; Limit Burst remains unresolved and is not inferred.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/leave-my-daddy-alone.md",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80507095"
       ]
     },
     {
@@ -1496,18 +1497,19 @@
       "effect_magnitude": "Skill lock above 75%; temporary Ki auto-recovery",
       "duration": null,
       "stacking_behavior": null,
-      "limit_burst": null,
+      "limit_burst": "Power",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": null,
       "race_restriction": null,
       "dlc_requirement": "None identified",
-      "version_notes": "Limited-time raid identity is community-supported; exact duration of temporary Ki recovery is not promoted to canonical. Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values. Merged duplicate canonical identity; the lower canonical ID is retained as the authoritative record.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-21",
+      "version_notes": "Limited-time raid identity is community-supported; exact duration of temporary Ki recovery is not promoted to canonical. Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values. Merged duplicate canonical identity; the lower canonical ID is retained as the authoritative record. Independent raid-reward/effect evidence confirms the Super Buu soul and Limit Burst; exact temporary Ki Auto-Recovery duration remains unresolved and is not inferred.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/can-i-attack-now.md",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80766239"
       ]
     },
     {
@@ -1523,18 +1525,19 @@
       "effect_magnitude": "M to all three effects",
       "duration": null,
       "stacking_behavior": null,
-      "limit_burst": null,
+      "limit_burst": "Power",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
       "usable_by_cac": null,
       "race_restriction": null,
       "dlc_requirement": "None identified",
-      "version_notes": "The source corpus identifies the transformation trigger and three M effects; measured percentages are not canonicalized here.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-21",
+      "version_notes": "The source corpus identifies the transformation trigger and three M effects; measured percentages are not canonicalized here. Independent Dabura raid evidence confirms the three M-triggered effects and Limit Burst; exact internal percentages/timing remain represented by canonical M qualifiers rather than unsupported measurements.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/now-im-mad.md",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80582121"
       ]
     },
     {
@@ -1665,21 +1668,22 @@
       "shop_rotation": "Reported in TP Medal Shop rotations",
       "trigger_condition": "When using a throw",
       "effect_text": "Boosts throws.",
-      "effect_magnitude": "XXL",
+      "effect_magnitude": "+100% (XXL)",
       "duration": null,
       "stacking_behavior": null,
-      "limit_burst": null,
+      "limit_burst": "Bomb",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": null,
       "race_restriction": null,
       "dlc_requirement": "None identified",
-      "version_notes": "Community-measured doubled throw damage is not promoted to exact canonical magnitude; raid identity remains community-supported.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-21",
+      "version_notes": "Community-measured doubled throw damage is not promoted to exact canonical magnitude; raid identity remains community-supported. Independent Broly Lite raid evidence confirms the XXL throw boost and Auto Just Guard Limit Burst; the canonical magnitude is normalized to +100% while retaining the source's XXL wording.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/zudodoeyaahh.md",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80892290"
       ]
     },
     {
@@ -6940,7 +6944,8 @@
     "2026-09-22: completed a bounded provenance pass for Super Souls 232–236. PQ152–155 titles, DLC provenance, and documented Basic Reward placement were reconciled from the maintained PQ source; exact item-level mechanics were not found in sufficient evidence and remain unresolved rather than inferred.",
     "2026-09-22: refreshed Super Souls 242–246 from exact-name catalogue evidence. 242–246 now have character/effect/Limit Burst mechanics; PQ29/PQ35/PQ36/PQ38/PQ12 provenance was retained. Internal Ki-regeneration rates and unsupported timing/drop-rate details were not inferred.",
     "2026-09-22: Super Souls 032, 033, and 035 received a secondary-evidence mechanics refresh; exact engine-level rates/timing remain bounded where not independently established.",
-    "2026-09-22: promoted Super Souls 245–246 from partially_verified to researched after exact-name mechanics, character identity, Limit Burst, and PQ12/PQ38 provenance were independently reconfirmed; no unsupported reward probabilities or engine-level timing/rates were added."
+    "2026-09-22: promoted Super Souls 245–246 from partially_verified to researched after exact-name mechanics, character identity, Limit Burst, and PQ12/PQ38 provenance were independently reconfirmed; no unsupported reward probabilities or engine-level timing/rates were added.",
+    "2026-09-22: strengthened raid Super Souls 054, 057, 058, and 063 with independent raid/effect evidence. 057, 058, and 063 now have corroborated Limit Burst fields and were promoted to verified_secondary; 054 remains partially_verified because its Limit Burst is still unresolved. No unsupported timing or probability values were inferred."
   ],
   "sources": [
     {
