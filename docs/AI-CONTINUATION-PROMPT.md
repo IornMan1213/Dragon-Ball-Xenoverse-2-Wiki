@@ -1,3 +1,14 @@
+### 2026-09-23 cycle update — Hero through Indomitable skill provenance refresh
+
+- Completed the next P1 stale-skill batch: **12 records** — Hero's Flute, Hero's Pose, Heroic Assault, Heroic Counter, Holy Inscription, Holy Wrath, Hyper Tornado, Ill Bomber, Ill Rain, Impact Flare, Impulse Slash, and Indomitable.
+- Canonical `docs/data/skills.json` and `docs/data/skills-index.json` were synchronized with `last_verified=2026-09-23` for all 12 records; existing acquisition, reward-tier, mechanics, DLC, roster, restriction, and conflict semantics were preserved.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-23-hero-through-indomitable.json`.
+- Refreshed the live stale census: **455 canonical / 0 duplicate IDs / 247 current / 208 stale**.
+- Exact next stale batch is now **Innocence Breath, Innocence Bullet, Innocence Cannon, Instant Charge, Instant Rise, Instant Severance, Instant Transmission, Jumping Energy Wave, Justice Blade, Justice Combination, Justice Drive, and Justice Kick**.
+- Evidence boundary preserved: verification refresh does not itself prove an underlying field correct; no unsupported probability, gate, timer, stacking cap, or restriction was introduced.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next task: process the 12 listed Justice/Instant/Innocence records against their maintained evidence corpus, synchronize canonical/index layers, add/register the bounded audit, and recompute the stale census.
+
 ### 2026-09-23 cycle update — Skill stale-metadata census refresh
 
 - Recomputed the live canonical skill verification-date census after the completed Final-through-Hell-Flash provenance/mechanics batches.
