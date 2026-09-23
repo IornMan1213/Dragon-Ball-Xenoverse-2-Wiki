@@ -7,7 +7,7 @@
     "https://www.nintendo.com/us/store/products/dragon-ball-xenoverse-2-time-patrol-support-pack-70050000057717-switch/",
     "https://www.xbox.com/en-US/games/store/dragon-ball-xenoverse-2-time-patrol-support-pack/9NRRJXR84XT0"
   ],
-  "status": "paid_pack_scope_reconciled; canonical cross-domain coverage partial; costume identity batch audited",
+  "status": "paid_pack_scope_reconciled; canonical cross-domain coverage partial; costume and skill identity batches audited",
   "advertised_content": {
     "consumables": {
       "energy_capsule_z": 10,
@@ -88,12 +88,26 @@
       }
     ],
     "unresolved_or_not_promoted": [
-      "7 advertised Super Attacks have no direct canonical PQ edge in the current PQ crosslink report.",
+      "3 advertised Super Attacks lack exact canonical skill records: Super Destructo-Disc, Power Pole Combo, and Big Bang Attack.",
+      "7 advertised Super Attacks have no direct canonical PQ edge in the current PQ crosslink report; this includes canonical non-PQ/other-route records as well as the three missing exact identities.",
       "2 advertised Ultimate Attacks have no direct canonical PQ edge; Warp Kamehameha has two canonical PQ endpoints.",
       "5 advertised costumes remain without exact canonical equipment records after the 2026-09-23 identity audit; Vegito Clothes resolves to equip-078. Gogeta Clothes and Broly Clothes are source-backed via PQ57/PQ47 but lack exact canonical records; Future Trunks' Clothes (Super) is catalogued without a canonical record; Master Korin's Suit and Orange Star High School Outfit remain official-pack identities without exact canonical records.",
       "No canonical CC Mascot record layer was identified for Puar.",
       "Two advertised Super Souls were previously unresolved and are now promoted as super-soul-247 and super-soul-248.",
       "Consumable quantities are pack-delivery contents, not canonical collectible identity records."
+    ],
+    "skill_identity_audit": "docs/data/dlc/time-patrol-support-pack-skill-identity-reconciliation-2026-09-23.json",
+    "exact_canonical_skill_records": [
+      "skill-super-god-fist",
+      "skill-wild-hunt",
+      "skill-kaioken-kamehameha",
+      "skill-death-psycho-bomb",
+      "skill-justice-pose",
+      "skill-maximum-charge",
+      "skill-punisher-guard",
+      "skill-warp-kamehameha",
+      "skill-impulse-slash",
+      "skill-giant-storm"
     ]
   },
   "boundary_rules": [
@@ -101,5 +115,5 @@
     "Storefront descriptions state that some content can be obtained through the in-game shop or by meeting conditions; this audit records pack inclusion/provenance rather than exclusive ownership.",
     "No missing canonical records, IDs, acquisition routes, or relationships are fabricated."
   ],
-  "next_action": "Resolve the five remaining Time Patrol Support Pack costume identities only through individually source-backed canonical record creation/promotion compatible with the existing equipment architecture; do not invent equip-141+ IDs or alias distinct outfits. Then continue with remaining unmatched skills/Puar and return to DAIMA/HOJ2 unresolved paid domains."
+  "next_action": "Atomically promote Super Destructo-Disc and Big Bang Attack only after complete canonical/index synchronization and parity validation; research Power Pole Combo separately. Then continue the five remaining costume identities and Puar without inventing IDs."
 }
