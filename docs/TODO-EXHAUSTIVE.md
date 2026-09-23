@@ -3060,3 +3060,13 @@
 - [x] No canonical relationship identities were changed; partial normalized-source omissions were not promoted into canonical relationships.
 - [ ] Runtime execution of `scripts/validate_pq_unified_reverse_index.py` remains an environment gate; do not claim Python runtime or CI success from this structural connector census.
 - [ ] Exact next task: scan remaining generated/reconciliation artifacts for stale **current-state** producer metadata/counts outside the already audited PQ relationship reports; repair only deterministic drift and preserve historical scope/count records before starting new provenance research.
+
+### 2026-09-23 — Current PQ metadata drift repair
+- [x] Scanned generated/reconciliation artifacts for stale current-state PQ relationship metadata.
+- [x] Repaired `pq-cross-domain-status.json` target-normalization total **860 → 859**.
+- [x] Repaired `pq-reward-relationships.json` current equipment **125 → 124** and current reconciliation **860 total / 125 equipment → 859 total / 124 equipment**.
+- [x] Preserved historical 840/860/862 snapshots.
+- [x] Updated `pq-current-baseline-field-drift-audit-2026-09-22.json` with the resolution.
+- [x] Re-read edited JSON files and confirmed current metadata matches **859 / 244 / 151 / 124 / 247 / 86 / 7**.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next priority: recompute the live strict-thin Super Soul census and continue the next evidence-supported high-impact one-field cluster; preserve **032/034** as evidence boundaries.
