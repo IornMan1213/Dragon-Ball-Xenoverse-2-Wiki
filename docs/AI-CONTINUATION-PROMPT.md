@@ -5241,3 +5241,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Support Pack skill coverage is now **13/13 exact canonical identities**. The official storefront confirms Power Pole Combo is one of the advertised Super Attacks. citeturn1search5turn1search4
 - Current canonical/index census advanced to **455 records**.
 - Exact next task: continue the **five remaining unmatched costume identities**, then reconcile **Puar/CC Mascot**. Preserve the existing equipment architecture and do not invent equip IDs without record-level evidence.
+
+
+### 2026-09-23 cycle update — Time Patrol Support Pack remaining costume evidence follow-up
+- Bounded batch: **Gogeta Clothes, Future Trunks' Clothes (Super), Broly Clothes, Master Korin's Suit, and Orange Star High School Outfit**.
+- Research: official Steam/Nintendo storefronts establish all five as exact Support Pack costume identities. Independent current/repository evidence distinguishes Gogeta's Clothes from SSGSS Gogeta's Clothes, Future Trunks's Clothes (Super) from Future Trunks's Clothes, Broly's Clothes from Broly (Full Power Super Saiyan)'s Clothes/Battle Suits, Master Korin's Suit from Master Korin's Staff, and Orange Star High School Outfit from the Orange Star High School T-Shirt/custom variant.
+- Changes: strengthened `docs/data/dlc/time-patrol-support-pack-costume-identity-reconciliation-2026-09-23.json` with per-identity evidence and explicit canonical actions; no new equipment IDs or aliases were created.
+- Evidence boundary preserved: the live legacy equipment layer currently ends at **equip-140**. The five identities are now independently evidence-backed inventory gaps, but there is no exact canonical equipment record for them; inventing equip-141+ would violate the current repository boundary.
+- Validation: official Support Pack costume scope remains 8; six-target historical batch remains 1 exact canonical match + 5 exact canonical gaps; zero new canonical IDs and zero identity aliases in this pass.
+- Commits: audit **e1ed5ae285f2d6289479915fd0f167c4fb2a8a68**; TODO **bc54c3aa6e64a56a4bd46b4bddf8b5e4387c51c7**.
+- CI/runtime: unavailable; no CI success claimed.
+- Exact next batch: resolve the canonical equipment-layer capacity/ID architecture question for these five evidence-backed identities without inventing equip-141+ records; if the layer remains intentionally closed at equip-140, preserve the five as explicit inventory gaps and then proceed to the **Puar/CC Mascot** identity gap.
