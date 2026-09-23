@@ -6437,3 +6437,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: live canonical count 151; DLC bridge remains 15 source records with 14 resolved targets and 1 explicit unresolved label; no missing canonical targets introduced. CI/runtime remains unavailable; no CI success claimed.
 - Commits: bridge `14a328ecedc720ccaaf2ece46b582d6a474ab77d6`; Characters page `434b1c0e28aaa994228bb49202ef1755f8a9cc01`; identity audit `8a6c1b2b352ef3593de7bebf52bfe94fa78fdb27`; published navigation audit `a287750d42078cab5bb29a52beadbd4589d169f7`.
 - **Exact next batch:** continue searching character-facing projections for the old 149 baseline and inspect any remaining validators/audits that assume fixed counts; after that, begin source-backed preset-loadout research only for records with explicit loadout evidence.
+
+
+### 2026-09-23 cycle update — Character-facing stale baseline cleanup
+- Completed the remaining deterministic stale-count cleanup identified after the 151-character promotion.
+- Hardened `scripts/validate_published_character_dlc_navigation.py` to validate the live canonical roster by uniqueness/non-empty shape rather than a fixed 149-character expectation.
+- Synchronized `docs/data/characters/partner-customization-character-navigation-audit.json` to **151** canonical characters and synchronized the nested Partner Customization census in `docs/data/characters/character-presentation-consumer-audit.json` to **151**.
+- No identity, DLC ownership, preset numbering, or loadout evidence was inferred; existing unresolved variant/loadout boundaries remain intact.
+- Commits: validator `19380a4591a0b3d3bb2fe94753b774759b37fe1b`; partner audit `7384d401e72cef92d85c83c5fa8f31e6855d7cbc`; presentation audit `aa4a076e7ab7ab3940388c647cb3fefa48ea9634`; TODO appended in the same cycle.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Live census:** 151 canonical characters / 29 explicit character bridge records / 40 preset records / 20 Partner Customization records / 15 DLC-character bridge records / 20 canonical DLC identities.
+- **Exact next task:** search remaining character-facing generated/index consumers and validators for stale fixed-count assumptions or one-way links; after that, pursue source-backed preset-loadout evidence only where an explicit loadout source exists.
