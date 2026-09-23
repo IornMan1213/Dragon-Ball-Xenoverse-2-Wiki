@@ -2555,3 +2555,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Preserved existing acquisition, mechanics, DLC, conflicts, and unresolved evidence boundaries.
 - Added `docs/data/skill-provenance-audit-2026-09-23-dynamite-kick-through-energy-barrier.json` and refreshed the stale census.
 - Validation: 455 canonical / 455 index / 0 duplicate IDs / 316 stale after the batch; CI/runtime unavailable.
+
+
+## 2026-09-23 — P1 Energy Charge through Evil Flight Strike provenance refresh
+- Refreshed 12 canonical/index skill records: Energy Charge, Energy Dome, Energy Field, Energy Minefield, Energy Release, Energy Shot, Eraser Bomb, Evil Blast, Evil Explosion, Evil Eyes, Evil Flame, and Evil Flight Strike.
+- Preserved existing acquisition, mechanics, DLC, conflicts, and unresolved evidence boundaries.
+- Added `docs/data/skill-provenance-audit-2026-09-23-energy-through-evil-flight-strike.json` and refreshed the stale census.
+- Validation: 455 canonical / 455 index / 0 duplicate IDs / 304 stale after the batch; CI/runtime unavailable.
