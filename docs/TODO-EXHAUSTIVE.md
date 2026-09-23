@@ -3575,3 +3575,12 @@
 - [x] Removed the resolved paid costume/accessory gap from the DAIMA pack matrix while preserving unresolved free-update/loading-screen/raid/lobby domains.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: continue remaining DAIMA paid domains only where concrete canonical records and official scope permit; prioritize loading-screen completeness if a canonical illustration layer can be reconciled, otherwise audit the next unresolved paid content domain without crossing into free-update ownership.
+
+
+### 2026-09-23 — TODO completion update — DAIMA paid illustration scope
+- [x] Reconciled the official DAIMA Pack paid illustration/loading-screen count as **8** using publisher/platform listings.
+- [x] Verified that the live repository currently has **no dedicated canonical illustration/loading-screen record layer**; no synthetic illustration IDs or identities were created.
+- [x] Documented the paid/free boundary: Bandai Namco separately identifies free-update loading screens and lobby items, so those are not merged into the paid eight.
+- [x] Added and registered `docs/data/dlc/daima-paid-illustration-scope-reconciliation-2026-09-23.json`.
+- [ ] Build a canonical illustration/loading-screen record layer once individual eight paid identities can be source-backed; then cross-link each record to DAIMA Pack/PQ acquisition data.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
