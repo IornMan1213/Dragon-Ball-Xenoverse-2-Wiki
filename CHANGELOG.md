@@ -2265,3 +2265,9 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - CI/runtime remains unavailable; no CI success claimed.
 - Commits: `55178412f54065c49cd9a6ed115dd218b045b1a9`, `4dcfa0726ee6e7b17c43f39aef924503af44fb74`, `e83ad2639a067db14740e86d2d7206910706fb56`, `5a56f3f36ba8d6c046810cfa2ead0afc2ccdb8c5`.
 - Exact next batch: continue the current-state consumer census for remaining explicit current/live/baseline scalar or collection assumptions and endpoint/status drift; preserve dated historical snapshots.
+
+
+### 2026-09-23 — PQ reference validator label drift correction
+- Corrected two stale active check-name labels in `scripts/validate_pq_reference_pages.py` to match their already-correct executable expectations: **854 total** and **146 Super Soul**.
+- No canonical relationships, validator logic, historical records, or source evidence changed.
+- Commit: `b818e517efe0b1ded021caf78000c78e73d3f86e`.
