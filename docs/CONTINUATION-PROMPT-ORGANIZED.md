@@ -1783,3 +1783,15 @@
 - [ ] Live census after edit: 234 records; 88 indexed-status records; 139 records missing at least one core mechanic field.
 - [ ] Exact next batch: continue the thin-system census from the next indexed canonical records after 246, prioritizing batches with strong exact-name evidence and reusable PQ↔Super Soul cross-links.
 
+### 2026-09-22 cycle update — Super Soul 032, 033, 035 mechanics refresh
+- [x] Recomputed the thin-system census and selected three high-impact records with existing PQ cross-links and strong current secondary evidence.
+- [x] Refreshed **032, 033, and 035** with current trigger/effect/magnitude/duration/stacking evidence while preserving their canonical identities and PQ edges.
+- [x] 032: below 50% HP → reported +20% all abilities.
+- [x] 033: auto-health recovery while not guard broken; reported +20% damage taken and -20% all attack damage while guard broken.
+- [x] 035: opening ~5000 distributed damage over ~30 seconds, followed by reported +15% all-ability boost.
+- [x] Added and registered `docs/data/super-soul-032-033-035-mechanics-audit-2026-09-22.json`.
+- [x] Validation: 3/3 records present/current, mechanics populated, source arrays retained, audit registered, canonical PQ relationships unchanged.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Live census after edit: 234 records; 88 indexed-status records; 139 records missing at least one core mechanic field.
+- [ ] Exact next batch: continue the thin census using the next contiguous high-value records with PQ links, especially records **034 and 036–039**, while preserving evidence boundaries.
+
