@@ -4609,3 +4609,13 @@
 - [ ] Reconcile official 32 vs community 33 mentor roster discrepancy.
 - [ ] Audit remaining non-PQ/non-mentor acquisition records for deterministic endpoint gaps.
 - **Exact next task:** non-PQ/non-mentor acquisition endpoint census.
+
+
+### 2026-09-23 — TODO completion update — Canonical skill/index parity repair after Expert Mission promotion
+- [x] Recomputed the live skill layer and found a deterministic projection mismatch: **465 canonical skills vs 455 skill-index records**, with no index-only records.
+- [x] Identified the exact 10 missing index records: Assault Rain, Blue Hurricane, Dead End Bullet, Death Meteor, Death Wave, Hellzone Grenade, Murder Grenade, Shocking Death Ball, Spirit Sword, and Super Electric Strike.
+- [x] Synchronized docs/data/skills-index.json to **465 records**, using the existing index projection contract and preserving canonical evidence/uncertainty.
+- [x] Added and registered docs/data/skill-index-canonical-parity-audit-2026-09-23.json.
+- [x] Static parity result: **465/465 IDs, 0 index-only records, 0 duplicate canonical IDs, 0 duplicate index IDs**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** recompute the broader non-PQ/non-mentor acquisition endpoint census now that canonical/index skill parity is restored; prioritize remaining deterministic producer/consumer gaps without reopening resolved Expert Mission records.
