@@ -1,3 +1,13 @@
+### 2026-09-23 cycle update — Skill stale-metadata census refresh
+
+- Recomputed the live canonical skill verification-date census after the completed Final-through-Hell-Flash provenance/mechanics batches.
+- Current live skill layer: **455 canonical / 0 duplicate IDs / 235 current (2026-09-23) / 220 stale**.
+- Refreshed `docs/data/skill-stale-metadata-census-2026-09-23.json` from `docs/data/skills.json`; the previously stale census had still been reporting 280 records.
+- The next alphabetical stale batch is now **Hero's Flute, Hero's Pose, Heroic Assault, Heroic Counter, Holy Inscription, Holy Wrath, Hyper Tornado, Ill Bomber, Ill Rain, Impact Flare, Impulse Slash, and Indomitable**.
+- Evidence boundary preserved: stale `last_verified` is a priority signal, not evidence that a record is incorrect. No mechanics, acquisition, probability, or restriction fields were inferred in the census-only refresh.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next batch: refresh/research the 12 listed skills against their existing source sets, synchronize canonical/index records, add a bounded audit, and recompute the live stale census.
+
 ### 2026-09-23 cycle update — Current PQ consumer baseline correction after Super Soul 158 domain migration
 
 - Live canonical relationship source is now **853 total edges**: 244 skills / 145 Super Souls / 124 equipment / 247 character / 86 DLC / 7 farming; Super Soul reverse projection is **142** unique targets.
