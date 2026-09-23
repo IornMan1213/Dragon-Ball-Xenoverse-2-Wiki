@@ -6287,3 +6287,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime remains unavailable; no CI success claimed.
 - **Exact next task:** continue the remaining unresolved aggregate-user and variant cluster, prioritizing exact canonical roster matches and preserving contradictory source fields.
 - Commits: `d3a7cbf860c9997497b7b8479ee5d00732cae881`, `d7c0ea39bd11d09b75ce4635269969e2c710b9fd`, `23e2f0ab908fbe91e5f1fda918d81a9c733ea9c8`, `7daa897f11a7aad08fd9dfd52b5f645858c08f8c`.
+
+
+### 2026-09-23 cycle update — Cell/Gohan/Super Destructo-Disc identity batch
+
+- Reconciled **4 additional skill→character source entries**, adding **7 canonical edges**.
+- Resolved: Evil Whirlwind → Cell (Perfect); Instant Rise → Cell (Perfect); Meteor Blow → Goku + Gohan (Kid) + Gohan (Adult); Super Destructo-Disc → Krillin + Android 18.
+- Cumulative bridge: **24 resolved skill records / 34 canonical edges / 15 canonical character targets**.
+- Remaining unresolved character/variant entries: **22**.
+- Evidence remains bounded to documented identities; broad equipability is not being conflated with source identity.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Next task:** continue the remaining unresolved variant/aggregate cluster, with particular care around contradictory Toppo/Android 21, Champa/Vados/Frieza, and Ultra Supervillain source tokens.
+- Commits: `bcdeda5a3a8705be15a10be7a68e61cc2aa9809c`, `9c28cfeb1c5d187cc5b42c6e5757bb206302730b`, `519f6a9d96b6675ce521cb04f9cc583dde0cb486`, `5f32a282248f443945684aaa0417f63569d7369a`.
