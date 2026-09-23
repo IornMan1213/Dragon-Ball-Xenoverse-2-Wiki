@@ -2167,3 +2167,11 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Confirmed 034 remains unresolved for item identifier, effect, trigger, Limit Burst, and character source; surrounding Fu costume inventory is not item-level attribution.
 - Updated the strict-thin checkpoint without promoting unsupported data.
 - Live authoritative census remains **229 canonical / 0 duplicate IDs / 4 strict-thin**: **032, 034, 158, 217**.
+
+
+## 2026-09-23 — Super Soul 217 Limit Burst evidence boundary finalized
+- Completed the final compact repository/item-level pass for **“Power! A lotta power! It's great!”** (PQ134).
+- No checked canonical/item-level evidence establishes its Limit Burst type, trigger, or effect; these remain unresolved.
+- Preserved the distinction between this Super Soul and the separate **Burst Charge** skill reward in PQ134.
+- Updated the dedicated evidence audit and persistent continuation state.
+- Live authoritative census remains **229 canonical / 0 duplicate IDs / 4 strict-thin**: **032, 034, 158, 217**.
