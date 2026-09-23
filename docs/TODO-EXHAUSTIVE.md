@@ -2851,3 +2851,10 @@
 - No canonical PQ relationship, acquisition identity, reward probability, or Ultimate-Finish requirement changed.
 - CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - Exact next task: continue the live strict-thin queue with the next evidence-supported partially verified records; preserve unresolved fields rather than guessing.
+
+
+### 2026-09-22 queue correction — live Super Soul thin queue after 053/056/059/065
+- [x] Recomputed the live canonical layer: **234 records / 0 duplicate IDs / 174 strict-thin records**.
+- [x] Completed the bounded 024–031 and 053/056/059/065 Limit Burst field reconciliations without changing canonical PQ relationships.
+- [ ] **034** remains an explicit evidence boundary (3 missing core fields); do not force completion.
+- [ ] Next actionable queue: **032** if exact-name Limit Burst evidence is independently established; otherwise advance to the next evidence-supported partially-verified cluster, preserving unresolved fields.
