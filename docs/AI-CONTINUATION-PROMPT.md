@@ -4222,3 +4222,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Canonical commit: **d08438c050a5033519eb6e80fe768aaa80a7d4b7**; census commit: **fcc0cbe409c92b1676fcabcad758d3b0fd2ef4ab**.
 - [ ] CI/runtime: no successful workflow/check exposed; do not claim CI success.
 - [ ] Exact next priority: continue the partially-verified Super Soul census with **032, 155, 173–175, 177, 179, 186, 187, 197, 199** and other records whose remaining fields can be independently resolved. Keep **034** evidence-bound unless exact-name item-level mechanics are found. Do not create another continuation prompt.
+
+### 2026-09-22 cycle update — Super Souls 174/177/186/199 evidence strengthening
+- [x] Bounded batch: **174, 177, 186, and 199**.
+- [x] Added independent historical/community evidence confirming named trigger/effect behavior and promoted all four to `verified_secondary`.
+- [x] Preserved unresolved duration/stacking fields rather than inferring values from absence of a timer in secondary sources.
+- [x] Live census after editing: **234 canonical / 0 duplicate IDs / 182 strict-thin**.
+- [x] Canonical commit: **46e6deb1efd6a62c5e6fd4f9277d1b892d66cbd9**; census commit: **c69890aae01b0677bacd450554cd424e3c924c64**.
+- [ ] CI/runtime: no successful workflow/check exposed; do not claim CI success.
+- [ ] Exact next batch: continue deterministic partially-verified Super Soul reconciliation, prioritizing **155, 173, 175, 179, 187, 197, 032**, while keeping **034** evidence-bound unless exact-name item-level mechanics become independently established.
