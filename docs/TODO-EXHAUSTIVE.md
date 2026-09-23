@@ -4208,3 +4208,11 @@
 - [x] Validation: **455/455 / 0 duplicate IDs / 304 stale**; target parity clean.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next action: recompute the live stale queue before selecting the next batch.
+
+### 2026-09-23 — TODO completion update — P1 Evil Ray Strike through Feint Shot
+- [x] Completed **12 skills**: Evil Ray Strike, Evil Rise Strike, Evil Whirlwind, Excellent Full Course, Explosive Assault, Explosive Buu Buu Punch, Explosive Wave, Eye Beam, Fake Blast, Fake Death, Feint Crash, Feint Shot.
+- [x] Synchronized canonical/index `last_verified` to **2026-09-23** while preserving existing evidence boundaries.
+- [x] Added/registered **docs/data/skill-provenance-audit-2026-09-23-evil-through-feint-shot.json**.
+- [x] Validation: **455/455 / 0 duplicate IDs / 292 stale**; target parity clean.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next action: recompute the live stale queue before selecting the next batch.
