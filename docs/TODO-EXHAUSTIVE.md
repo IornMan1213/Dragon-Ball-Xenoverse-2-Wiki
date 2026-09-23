@@ -4804,3 +4804,13 @@
 - Validator execution remains unavailable in the hosted environment; the equivalent live census was manually replicated against the current files. CI remains unavailable.
 - Commit: 34f499a43f82e4e25106ad451b4039269167bf92.
 - **Exact next batch:** inspect the remaining character-facing generated/index consumers for deterministic canonical-ID parity, especially any pages/data projections not covered by this validator, before expanding preset loadout research.
+
+
+### 2026-09-23 cycle update — Character presentation projection synchronization
+- Live census exposed stale metadata in `docs/data/characters/character-presentation-consumer-audit.json`: the repository is now **151 canonical characters / 40 preset records / 12 distinct preset character IDs / 20 Partner Customization records**.
+- Hardened `scripts/validate_character_presentation_consumers.py` so omitted `record_type` is treated as the existing implicit `preset` contract; only explicitly invalid record types are rejected. This prevents false failures for ordinary preset records that omit the optional field.
+- Synchronized the character presentation audit's live canonical/preset counts and validator commit reference; no character identity or loadout data was inferred or changed.
+- Manual structural parity remains clean for the inspected consumer set: bridge targets, preset/partner IDs, reconciliation parity, explorer linkage, and uniqueness checks are intact.
+- Validator/CI execution remains unavailable in this hosted session; no execution or CI success is claimed.
+- Commits: validator `9602b41f2979c10321774afeb5c4d11e500d6056`; audit `ebcf61f810999ba209272958a2e7e5a3e410cfc3`.
+- **Exact next batch:** inspect remaining character-facing projections and validators for stale-count or implicit-field assumptions, then consolidate their live parity into the presentation audit before beginning explicit preset-loadout evidence research.
