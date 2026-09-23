@@ -493,11 +493,12 @@
       "last_verified": "2026-09-23",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/big-bang-attack.md",
-        "https://dbxv2.fandom.com/wiki/Big_Bang_Attack"
+        "https://dbxv2.fandom.com/wiki/Big_Bang_Attack",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74478792"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-23 canonical promotion: existing repository research corroborates identity, Ki Blast classification, 100 Ki cost, Vegeta association, and TP Medal Shop acquisition. No shop rotation date or drop probability is asserted.",
+      "notes": "2026-09-23 canonical promotion: existing repository research corroborates identity, Ki Blast classification, 100 Ki cost, Vegeta association, and TP Medal Shop acquisition. No shop rotation date or drop probability is asserted. 2026-09-23 provenance strengthening: an independent GameFAQs TP Medal Shop catalogue lists Big Bang Attack as a Super in the TP Medal Shop for 15 TP Medals, corroborating the existing TP Medal Shop acquisition endpoint and the repository's 15-TP research value. The source notes the shop is RNG/rotation-based; no current rotation date or guaranteed availability window is inferred.",
       "id": "skill-big-bang-attack"
     },
     {
