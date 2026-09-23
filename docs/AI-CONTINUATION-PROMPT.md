@@ -6029,3 +6029,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation after write: **455 canonical / 455 index / 427 current / 28 stale / 0 duplicate IDs**; target batch current and canonical/index source parity verified.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next batch: **Time Skip/Tremor Pulse, Timespace Impact, Total Detonation Ball, Trap Shooter, Tri-Beam, Turn Golden, Tyrant Lancer, Ultimate Charge, Ultra Instinct, Ultrasonic Blitz, Unrelenting Barrage, Vanishing Ball**. Recompute the live stale queue first.
+
+
+### 2026-09-23 cycle update — Time Skip/Tremor Pulse through Vanishing Ball skill provenance refresh
+- Live census before editing: **455 canonical / 455 index / 427 current / 28 stale / 0 duplicate IDs**.
+- Completed 12 records: **Time Skip/Tremor Pulse, Timespace Impact, Total Detonation Ball, Trap Shooter, Tri-Beam, Turn Golden, Tyrant Lancer, Ultimate Charge, Ultra Instinct, Ultrasonic Blitz, Unrelenting Barrage, Vanishing Ball**.
+- Research/evidence: maintained repository research trails, exact-name references, mentor/PQ audits, official DLC/update documentation, and independent corroborating sources were refreshed.
+- Changes: canonical/index last_verified synchronized to 2026-09-23, provenance sources refreshed, bounded notes appended, and docs/data/skill-provenance-audit-2026-09-23-time-skip-tremor-pulse-through-vanishing-ball.json added/registered.
+- Evidence boundaries preserved: Ultimate Charge retains conflicting reward-tier/first-clear evidence; Ultrasonic Blitz retains the explicit Ultimate Finish condition plus conflicting reward-array presentation; Vanishing Ball retains PQ58 Basic Reward semantics and Pure Majin scope.
+- Validation after write: **455 canonical / 455 index / 439 current / 16 stale / 0 duplicate IDs**; target batch current.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next batch: **Variable Snipe Shot, Variant Drive, Venus Fist, Victory Cannon, Victory Rush, Volleyball Fist, Wall of Defense, Warp Kamehameha, Weekend, Wild Buster, Wild Hunt, Wild Stinger**. Recompute the live stale queue first.
