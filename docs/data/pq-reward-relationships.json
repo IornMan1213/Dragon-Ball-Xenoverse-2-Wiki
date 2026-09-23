@@ -6291,7 +6291,7 @@
   "current_counts": {
     "skill": 244,
     "super_soul": 151,
-    "equipment": 125,
+    "equipment": 124,
     "character": 247,
     "dlc": 86,
     "farming": 7
@@ -6306,11 +6306,11 @@
   ],
   "current_reconciliation_2026_09_22": {
     "date": "2026-09-22",
-    "total_unique_relationships": 860,
+    "total_unique_relationships": 859,
     "counts": {
       "pq_rewards_skill": 244,
       "pq_rewards_super_soul": 151,
-      "pq_rewards_equipment": 125,
+      "pq_rewards_equipment": 124,
       "pq_features_character": 247,
       "pq_requires_dlc": 86,
       "pq_farming_route": 7
@@ -6318,7 +6318,7 @@
     "duplicate_relationship_keys": 0,
     "notes": [
       "Two duplicate PQ185/PQ186 Future Saga Chapter 4 relationship entries were merged because the schema defines one relationship key per PQ/relationship/target; the retained official source is supplemented by a notes field containing the corroborating Steam source.",
-      "Historical 862-edge counts remain preserved in dated audit/history sections; current relationship arrays and current derived counts use the unique 860-edge baseline."
+      "Historical 862/860-edge counts remain preserved in dated audit/history sections; current relationship arrays and current derived counts use the unique 859-edge baseline."
     ]
   }
 }
