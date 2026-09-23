@@ -4054,3 +4054,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [x] Commits: canonical `e8e9be32922349190990bc451d73148d6e3fbc36`; audit `7ca201c710dc6d826f050c3878b33eb958cebe8e8`; cross-domain index `9d08036226859a19c64af5c9a4c9b4c2f5457b43`.
 - [ ] Exact next priority: continue the live thin census with the next **4–12 highest-impact unresolved PQ-linked records**, using exact-name evidence and reusable cross-domain links; preserve unresolved identity conflicts and do not guess unsupported mechanics.
+
+### 2026-09-22 cycle update — Super Soul 220–228 mechanics refresh
+- [x] Recomputed the live canonical Super Soul layer before editing: 234 records / 0 duplicate IDs.
+- [x] Bounded batch expanded to the next exact-name PQ-linked cluster: 220–223, then 224–228, for 9 records total.
+- [x] Refreshed character/DLC provenance, trigger/effect/magnitude, supported duration/stacking, Limit Burst, verification date, and source provenance for all 9 selected records.
+- [x] Preserved canonical PQ navigation: 220→PQ137, 221→PQ137, 222→PQ138/PQ151, 223→PQ138, 224→PQ140, 225→PQ140, 226→PQ141, 227→PQ141, 228→PQ142.
+- [x] Added and registered docs/data/super-soul-220-223-mechanics-audit-2026-09-22.json and docs/data/super-soul-224-228-mechanics-audit-2026-09-22.json.
+- [x] Evidence used: maintained Xenoverse 2 Super Soul catalogue, maintained all-PQ guide, and independent GameFAQs/community references. No reward probability or unsupported Ultimate-Finish gate was inferred.
+- [x] Validation after writes: canonical layer remains 234 records / 0 duplicate IDs; all 9 selected records are researched; all have populated character, trigger, effect, magnitude, and Limit Burst fields; canonical PQ relationships remain unchanged.
+- [ ] CI/runtime: no successful workflow/check exposed for the direct-commit chain; no CI success claimed.
+- [x] Commits: canonical 220–223 74291bd44003e9e1850a456792f9bb416e26d4aa; audit bf4ce64334ea14855867ac262ff008ed7903b041; index c8940618b9cbd14e4399a2fd9b60a7f1f07e1f41; canonical 224–228 f9f05b2e40925011a43ac05033e43d22e05803b6; audit b7774c960d5397923cd5890627e0c2f4143fff17; index 5fc50ebf3dbabfbd8707d55273667120f9c7578f.
+- [ ] Exact next priority: recompute the live indexed/thin census again and select the next 4–12 highest-impact unresolved PQ-linked records with strong exact-name evidence and reusable cross-domain relationships; preserve unresolved identity conflicts and do not guess unsupported mechanics. Do not create another dated continuation prompt.
