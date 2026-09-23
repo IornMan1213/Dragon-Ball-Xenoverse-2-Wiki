@@ -3827,3 +3827,10 @@
 - [x] Preserved historical 859/151/148 documentation and correction artifacts.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: continue current-state consumer census for stale executable labels, endpoint names, and undated/current scalar/list assumptions.
+
+
+### 2026-09-23 — TODO completion update — Canonical PQ current reconciliation wording
+- [x] Corrected stale current 859-baseline wording and obsolete unresolved 151/148 discrepancy text in `docs/data/pq-reward-relationships.json`.
+- [x] Added/registered the bounded correction audit; canonical relationship arrays and aliases unchanged.
+- [ ] CI/runtime remains unavailable.
+- [ ] Exact next batch: continue active current-state endpoint/status consumer census.
