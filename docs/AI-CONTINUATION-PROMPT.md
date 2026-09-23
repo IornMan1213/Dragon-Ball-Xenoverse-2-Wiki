@@ -4173,3 +4173,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Added `docs/data/super-soul-secondary-field-reconciliation-007-047-2026-09-22.json` and registered it in the cross-domain index.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Next priority: continue the thin census; 032 and 034 remain unresolved where direct item-level mechanics are still insufficiently evidenced.
+
+### 2026-09-22 cycle update — Super Soul 245–246 research promotion
+- [x] Bounded batch: **Super Soul 245** ("This fight...is truly pointless...") and **Super Soul 246** ("I actually felt that one...").
+- [x] Reconfirmed exact-name character identity, mechanics, Limit Burst, and PQ provenance using the maintained Super Soul catalogue plus independent historical/character/PQ evidence. 245 remains tied to **PQ38**; 246 remains tied to **PQ12**.
+- [x] Promoted both records from `partially_verified` to `researched`; refreshed `last_verified` to **2026-09-22**.
+- [x] Preserved evidence boundaries: no unsupported reward probabilities, Ultimate-Finish requirements, engine-level timing, or internal rate values were added.
+- [x] Added the promotion note to the canonical Super Soul research notes.
+- [x] Updated `docs/data/super-soul-242-through-246-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Live canonical validation after write: **234 records / 0 duplicate IDs**; 245 and 246 are both `researched`, each with 3 sources and a canonical PQ edge.
+- [x] Commits: canonical `8ab4dc33f3461fc597e95e8a9099e2f8c5ee1620`; audit `65c7afd2d65c0d3d48cf8ce72fc1f2b686f02229`; cross-domain index `b71d470f8449e24847f5b84573755c08e1aa5b86`.
+- [ ] CI/runtime: no successful workflow/check exposed; do not claim CI success.
+- [ ] Exact next priority: recompute the live Super Soul thin-system census using the repository's established census definition, then select the next **4–12 highest-impact unresolved records**. The **232–236** cluster remains explicitly evidence-bound and should only be promoted if exact-name item-level mechanics evidence is found; otherwise skip it and continue to another evidence-supported cluster. Do not create another dated continuation prompt.
