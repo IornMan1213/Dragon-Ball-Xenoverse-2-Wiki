@@ -4145,3 +4145,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Canonical PQ relationships and acquisition identities were unchanged.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Exact next batch: continue the early/base-game thin census, prioritizing records whose remaining missing fields are directly resolvable from exact-name evidence; revisit 024/025 only if stronger duration evidence appears.
+
+
+### 2026-09-22 cycle update — Super Soul secondary-field reconciliation (002 / 004 / 008 / 010 / 011 / 028–031)
+- [x] Reconciled **9** early/base-game thin records: 002 Flying Nimbus!!, 004 Your death is imminent!, 008 Tien, please don't die, 010 I'll kill all of you!!, 011 H-How could he?!, 028 Popporunga pupirittparo, 029 The ultimate power is mine!, 030 I'll never forgive you, scum!, and 031 Drop dead!!!.
+- [x] Added trigger-bound duration semantics where directly supported: 002 **Until taking damage**, 004 **While Turn Giant is active**, 010 **While Ki is at 100%**.
+- [x] Marked 008 duration **N/A** because the KO-triggered Ki restoration is instantaneous.
+- [x] Marked stacking **N/A** for all nine because the available exact-name evidence documents no stacking mechanic.
+- [x] Added `docs/data/super-soul-secondary-field-reconciliation-002-004-008-010-011-028-031-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved acquisition, PQ cross-links, effect magnitudes, and Limit Burst semantics.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Next priority: continue deterministic early/base-game thin census, prioritizing records whose remaining fields can be directly established without speculative values.
