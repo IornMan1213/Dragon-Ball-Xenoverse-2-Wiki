@@ -1,3 +1,14 @@
+### 2026-09-23 cycle update — Innocence through Justice skill provenance refresh
+
+- Completed the next P1 stale-skill batch: **12 records** — Innocence Breath, Innocence Bullet, Innocence Cannon, Instant Charge, Instant Rise, Instant Severance, Instant Transmission, Jumping Energy Wave, Justice Blade, Justice Combination, Justice Drive, and Justice Kick.
+- Synchronized canonical `docs/data/skills.json` and `docs/data/skills-index.json` with `last_verified=2026-09-23` for all 12 records while preserving evidence-bounded acquisition, mechanics, DLC/roster, restriction, reward-tier, and conflict semantics.
+- Added `docs/data/skill-provenance-audit-2026-09-23-innocence-through-justice.json`.
+- Refreshed the live skill census: **455 canonical / 259 current / 196 stale / 0 duplicate IDs**.
+- Exact next stale batch: **Justice Pose, Justice Rush, Kai Kai, Kaioken, Kaioken Kamehameha, Kairos Cannon, Kamehameha, Ki Blast Thrust, Ki Explosion, Kill Driver, Last Emperor, and Light Grenade**.
+- Evidence boundary preserved: verification refresh does not itself establish unsupported mechanics or acquisition conditions.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next task: process the 12 listed Justice/Kai/Kamehameha records, synchronize canonical/index layers, add/register the bounded audit, and recompute the stale census.
+
 ### 2026-09-23 cycle update — Hero through Indomitable skill provenance refresh
 
 - Completed the next P1 stale-skill batch: **12 records** — Hero's Flute, Hero's Pose, Heroic Assault, Heroic Counter, Holy Inscription, Holy Wrath, Hyper Tornado, Ill Bomber, Ill Rain, Impact Flare, Impulse Slash, and Indomitable.
