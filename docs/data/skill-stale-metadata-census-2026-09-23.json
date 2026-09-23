@@ -5,84 +5,12 @@
   "source_of_truth": "docs/data/skills.json",
   "live_counts": {
     "canonical_skill_records": 455,
-    "current_last_verified_records": 271,
-    "stale_last_verified_records": 184,
+    "current_last_verified_records": 283,
+    "stale_last_verified_records": 172,
     "duplicate_ids": 0
   },
   "method": "Fresh alphabetical census of canonical records where last_verified != 2026-09-23.",
   "next_stale_records": [
-    {
-      "id": "skill-lightning-impact",
-      "name": "Lightning Impact",
-      "last_verified": "2026-09-22",
-      "source_count": 4
-    },
-    {
-      "id": "skill-lightning-of-absolution",
-      "name": "Lightning of Absolution",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-lovely-cyclone",
-      "name": "Lovely Cyclone",
-      "last_verified": "2026-09-22",
-      "source_count": 4
-    },
-    {
-      "id": "skill-mach-dash",
-      "name": "Mach Dash",
-      "last_verified": "2026-09-22",
-      "source_count": 5
-    },
-    {
-      "id": "skill-mach-punch",
-      "name": "Mach Punch",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-maiden-blast",
-      "name": "Maiden Blast",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-maiden-burst",
-      "name": "Maiden Burst",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-majin-kamehameha",
-      "name": "Majin Kamehameha",
-      "last_verified": "2026-09-22",
-      "source_count": 5
-    },
-    {
-      "id": "skill-masenko",
-      "name": "Masenko",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-maximum-charge",
-      "name": "Maximum Charge",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-meditation",
-      "name": "Meditation",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-menacing-flare",
-      "name": "Menacing Flare",
-      "last_verified": "2026-09-22",
-      "source_count": 6
-    },
     {
       "id": "skill-meteor-blow",
       "name": "Meteor Blow",
@@ -128,6 +56,78 @@
     {
       "id": "skill-mystic-flash",
       "name": "Mystic Flash",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-namek-finger",
+      "name": "Namek Finger",
+      "last_verified": "2026-09-22",
+      "source_count": 4
+    },
+    {
+      "id": "skill-neo-tri-beam",
+      "name": "Neo Tri-Beam",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-neo-wolf-fang-fist",
+      "name": "Neo Wolf Fang Fist",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-one-handed-kamehameha-mk-ii",
+      "name": "One-Handed Kamehameha mk.II",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-orin-combo",
+      "name": "Orin Combo",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-paralysis",
+      "name": "Paralysis",
+      "last_verified": "2026-09-22",
+      "source_count": 5
+    },
+    {
+      "id": "skill-paralyze-beam",
+      "name": "Paralyze Beam",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-pendulum-bullet",
+      "name": "Pendulum Bullet",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-perfect-kamehameha",
+      "name": "Perfect Kamehameha",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-perfect-shot",
+      "name": "Perfect Shot",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-petrifying-spit",
+      "name": "Petrifying Spit",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-phantom-fist",
+      "name": "Phantom Fist",
       "last_verified": "2026-09-22",
       "source_count": 3
     }
