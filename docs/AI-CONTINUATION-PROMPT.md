@@ -6399,3 +6399,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime remains unavailable; no CI success claimed.
 - Commits: audit d2128cec282ca77f3a88178ccbe9302078b19ba0; cross-domain index efad78814ccfb6a10515e7ac315fa164ea232a2e; TODO 156e964d203398cbf1279ed3f1fa7f9ba2b612b7.
 - **Exact next task:** audit the broader character/preset presentation consumers for deterministic identity/search parity, then pursue source-backed preset loadout evidence only where an explicit loadout source exists.
+
+
+### 2026-09-23 cycle update — Character presentation consumer validator hardening
+- Inspected the live character/preset presentation consumers after the character↔skill audit.
+- Found the validator's `core_profile_search_design` check was too narrow: `docs/Character-Core-Profiles.md` uses the documented search design without literally containing `Search/`.
+- Hardened `scripts/validate_character_presentation_consumers.py` to accept either the repository's `Search/` design marker or the `searchUrl(` consumer pattern, preventing a false unresolved result while preserving the check's intent.
+- Re-read the live identity bridge: **29 explicit character IDs / 29 unique canonical targets**; no duplicate bridge identities observed.
+- Commit: 253338af8f60a8c87b0171b81709008477e9d0f1.
+- **Exact next task:** run/replicate the character presentation consumer audit against the hardened validator if executable runtime is available; then expand deterministic character/preset navigation coverage without inventing preset loadouts.
