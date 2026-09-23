@@ -27,8 +27,8 @@
       "status": "clean"
     },
     "super_souls": {
-      "edge_count": 151,
-      "unique_pair_count": 151,
+      "edge_count": 146,
+      "unique_pair_count": 146,
       "duplicate_pair_count": 0,
       "missing_target_count": 0,
       "invalid_pq_id_count": 0,
