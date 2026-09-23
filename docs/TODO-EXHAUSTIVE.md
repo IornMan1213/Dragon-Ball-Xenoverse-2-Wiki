@@ -3584,3 +3584,13 @@
 - [x] Added and registered `docs/data/dlc/daima-paid-illustration-scope-reconciliation-2026-09-23.json`.
 - [ ] Build a canonical illustration/loading-screen record layer once individual eight paid identities can be source-backed; then cross-link each record to DAIMA Pack/PQ acquisition data.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
+
+
+### 2026-09-23 — TODO completion update — accessory/presentation validation after DAIMA canonicalization
+- [x] Validated the live accessory canonical layer: **173 total equipment records / 74 canonical accessories**, with zero duplicate accessory IDs or canonical names.
+- [x] Validated the PQ accessory presentation report: **32 forward / 32 reverse edges**, zero duplicate forward edges, zero stale endpoints, zero null PQ edges, and 12 unresolved research records intentionally retained.
+- [x] Confirmed DAIMA canonical accessory endpoints `acc-071`–`acc-074` resolve to PQ179–181 with exact identities and no duplicate canonical IDs.
+- [x] Refreshed `docs/data/accessory-canonicalization-audit.json` with the live 74-record validation summary.
+- [x] Added `docs/data/accessory-presentation-validation-2026-09-23.json` as the durable validation result.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: reconcile the next unresolved concrete DAIMA/HOJ2 paid content domain, preserving canonical cross-navigation and refusing unsupported reward/ownership inference.
