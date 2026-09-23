@@ -164,7 +164,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Expert Mission 12",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "skill_shop_or_expert_mission",
+      "acquisition_type": "expert_mission",
       "notes": "Added during Dual Ultimate relationship audit because the mentor's Dual Ultimate depends on this canonical base skill. 2026-09-21 provenance strengthening: current skill documentation identifies Expert Mission 12 — Attack of the Lone Super Soldier; a launch-era Expert Mission guide independently lists Angry Explosion as EM12 Basic Reward; a contemporaneous gameplay video documents the EM12 unlock route. Existing Expert Mission acquisition semantics are preserved. 2026-09-22 independent provenance verification: the dedicated Xenoverse 2 skill reference identifies Expert Mission 12 — \"Attack of the Lone Super Soldier\" as the unlock and classifies Angry Explosion as a 300-Ki Ki Blast Ultimate.",
       "id": "skill-angry-explosion",
       "source_mentor": [
@@ -1677,7 +1677,7 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Free Update 1",
-      "acquisition_type": "shop",
+      "acquisition_type": "tp_medal_shop",
       "source_quest_or_shop": "TP Medal Shop",
       "mechanics_notes": "Ki Blast Super used by Frost; current reference describes a chargeable projectile/barrage that can fire in multiple directions or concentrate forward.",
       "last_verified": "2026-09-23",
@@ -5860,7 +5860,7 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Free Update 1",
-      "acquisition_type": "shop",
+      "acquisition_type": "tp_medal_shop",
       "source_quest_or_shop": "TP Medal Shop",
       "mechanics_notes": "100-Ki Ki Blast Super obtained from the TP Medal Shop. It is a chargeable Galick Gun-like beam; unlike Galick Gun's hold-to-charge behavior, the player taps the assigned button to increase power. Current dedicated evidence lists a 9–15-hit, long-range beam. 2026-09-23 refresh: preserved the tap-to-charge behavior and documented 9–15-hit long-range beam; no unsupported TP Medal price inferred.",
       "last_verified": "2026-09-23",
@@ -6015,7 +6015,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Skill Shop",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "skill_shop_or_expert_mission",
+      "acquisition_type": "skill_shop",
       "notes": "Added during Dual Ultimate relationship audit because the mentor's Dual Ultimate depends on this canonical base skill. 2026-09-22 provenance/mechanics refresh: current dedicated skill evidence confirms Skill Shop acquisition, 300 Ki, and the large tracking explosion behavior. Existing mentor/Dual Ultimate relationships remain unchanged.",
       "id": "skill-giant-storm",
       "source_mentor": [
@@ -7386,7 +7386,7 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Free Update 1",
-      "acquisition_type": "shop",
+      "acquisition_type": "tp_medal_shop",
       "source_quest_or_shop": "TP Medal Shop",
       "mechanics_notes": "Strike Ultimate used by Cabba; current reference describes a long rush combo ending in a ki-blast barrage and notes that it can deplete more guarded stamina while an Awoken Skill is active.",
       "last_verified": "2026-09-23",
@@ -7646,7 +7646,7 @@
       "ultimate_finish_required": false,
       "unlock_method": "TP Medal Shop",
       "source_quest_or_shop": "TP Medal Shop",
-      "acquisition_type": "shop",
+      "acquisition_type": "tp_medal_shop",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Free Update 2",
       "last_verified": "2026-09-23",
@@ -8496,7 +8496,7 @@
       "ultimate_finish_required": false,
       "unlock_method": "TP Medal Shop",
       "source_quest_or_shop": "TP Medal Shop",
-      "acquisition_type": "shop",
+      "acquisition_type": "tp_medal_shop",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Free Update 2",
       "last_verified": "2026-09-23",
@@ -10733,7 +10733,7 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Free Update 1",
-      "acquisition_type": "shop",
+      "acquisition_type": "tp_medal_shop",
       "source_quest_or_shop": "TP Medal Shop",
       "mechanics_notes": "300 Ki Strike Ultimate used by Frost; the rush punches/kicks the target and applies Poison. Current evidence identifies TP Medal Shop acquisition after the relevant update.",
       "last_verified": "2026-09-23",
@@ -13552,7 +13552,7 @@
       "ultimate_finish_required": false,
       "unlock_method": "TP Medal Shop",
       "source_quest_or_shop": "TP Medal Shop",
-      "acquisition_type": "shop",
+      "acquisition_type": "tp_medal_shop",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Free Update 2",
       "last_verified": "2026-09-23",
@@ -13717,5 +13717,8 @@
         85
       ]
     }
-  ]
+  ],
+  "metadata": {
+    "last_updated": "2026-09-23"
+  }
 }
