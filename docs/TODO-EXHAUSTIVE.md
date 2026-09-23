@@ -3860,3 +3860,11 @@
 - [x] Added `docs/data/super-soul-158-identity-conflict-reconciliation-2026-09-23.json` and refreshed the strict-thin checkpoint.
 - [ ] Resolve the canonical ID mapping for the conflict placeholder without silently renaming or merging records.
 - [ ] Then continue **Super Soul 217** Limit Burst evidence, followed by **032**.
+
+
+### 2026-09-23 — TODO completion update — Super Soul 158 canonical collision boundary
+- [x] Reconciled 158 as a **Super Skill / Super Soul name collision**, not an unresolved Super Soul mechanic record. External evidence explicitly separates Nail's Do or Die skill from his Super Soul “I must protect Grand Elder Guru!”. citeturn0search0turn0search1
+- [x] Preserved the collision placeholder and prohibited unsupported Super Soul mechanics from returning to the record.
+- [x] Registered `docs/data/super-soul-158-identity-reconciliation-2026-09-23.json` and refreshed the checkpoint.
+- [ ] Migrate the collision to the canonical Super Skill domain when the repository's ID-mapping mechanism is ready.
+- [ ] Continue **Super Soul 217** Limit Burst/item-level evidence, then **032**.
