@@ -5039,3 +5039,14 @@
 - [ ] CI/runtime unavailable; no CI success claimed.
 - Commit: `7f2682d6747894a63f0da932654e2f06c54b2f59`.
 - **Exact next task:** continue the broader current-state producer/consumer census for remaining superseded 854/146 and older skill/character/domain counts, then return to exact-evidence preset reconciliation.
+
+
+### 2026-09-23 cycle update — Second current-consumer census pass
+- [x] Searched live repository for remaining 854/146 assertions after the unified reverse-index repair.
+- [x] Corrected current-looking standalone reverse-index reconciliation metadata to **853 / 145**, preserving the pre-migration block as historical context.
+- [x] Corrected current-looking producer-census assertions to **853 / 145**.
+- [x] Refreshed reverse-PQ navigation continuation metadata to target the current canonical layer.
+- [x] Classified remaining search hits as predominantly historical/correction evidence; no blind rewriting performed.
+- [ ] Inspect remaining 854/146 hits individually and repair only any still-current-looking consumers.
+- Commits: `a53eaf99b5ff62b807bd2a9abd4d118a26500562`, `2d7e6cd7f0d02fdb1f44c079c4b7a6f43f18a243`, `fcad966ac7446c212cc18cd4ed7a016ea7b6ba73`.
+- **Exact next task:** finish classification/repair of remaining 854/146 search hits, then resume P1 provenance/data work and exact-evidence preset reconciliation.
