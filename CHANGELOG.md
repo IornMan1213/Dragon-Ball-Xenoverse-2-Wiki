@@ -2585,3 +2585,12 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Validation: 455 canonical / 455 index / 0 duplicate IDs / 268 stale; all 12 targets have canonical/index parity for verification date, mechanics, and sources.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next batch: Force Shield, Formation!, Freedom Kick, Fruit of the Tree of Might, Full Power Charge, Full Power Destruction, Future Super Saiyan, Galactic Donuts, Galick Cannon, Galick Gun, Gamma Blaster, Gamma Impact.
+
+
+### 2026-09-23 — P1 Force-through-Gamma Impact skill provenance/mechanics refresh
+- Completed 12 skills: Force Shield, Formation!, Freedom Kick, Fruit of the Tree of Might, Full Power Charge, Full Power Destruction, Future Super Saiyan, Galactic Donuts, Galick Cannon, Galick Gun, Gamma Blaster, Gamma Impact.
+- Refreshed canonical/index last_verified to 2026-09-23 and preserved evidence boundaries while refreshing bounded mechanics/provenance notes.
+- Added/registered docs/data/skill-provenance-audit-2026-09-23-force-through-gamma-impact.json.
+- Validation: 455 canonical / 455 index / 0 duplicate IDs / 256 stale; target canonical/index parity clean.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next batch: Genocide Shell, Giant Storm, Gigantic Breaker, Gigantic Burst, Gigantic Charge, Gigantic Cluster, Gigantic Cross, Gigantic Explosion, Gigantic Meteor, Gigantic Nova, Gigantic Omega, Gigantic Rage.
