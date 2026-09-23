@@ -2825,3 +2825,16 @@
 - [x] Validation after writes: canonical mentor data, schema, audit, and crosslink report re-fetched and parsed successfully; 133/133 lesson rewards typed; 0 typed-missing rewards.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Exact next priority: continue the non-PQ/thin-system coverage audit and select the next existing canonical schema/data layer with a deterministic missing field, missing record, or cross-domain endpoint.
+
+### 2026-09-22 cycle update — Super Soul 224–231 provenance/mechanics refresh
+- [x] Selected the next bounded non-PQ/thin-system task after the clean PQ reverse-index census and mentor schema repair: enrich canonical Super Soul records that were identity-indexed but still lacked mechanics/provenance fields.
+- [x] Refreshed **8 canonical Super Soul records (224–231)** in `docs/data/super-souls-record-layer.json`.
+- [x] Added current catalogue mechanics, trigger conditions, magnitudes, durations, Limit Burst data, and character sources for the selected records.
+- [x] Preserved the canonical relationship layer. No PQ relationship edge was added, removed, or renamed.
+- [x] Preserved the explicit acquisition conflict for **Super Soul 226** rather than silently choosing between the existing PQ relationship presentation and the maintained catalogue's Beerus Lite Online Raid route.
+- [x] Added `docs/data/super-soul-224-through-231-provenance-audit-2026-09-22.json` and `scripts/validate_super_soul_224_through_231.py`; registered both in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation target: all 8 IDs present, current verification date, effect text, and sources.
+- [ ] CI/runtime: no successful workflow/check exposed for this direct-commit chain; no CI success claimed.
+- [ ] Exact next priority: continue the Super Soul thin-system pass with the next indexed canonical batch **232–241**: *I'll show you the power of a true warrior!*, *Don't underestimate my power!*, *I won't forgive you!*, *I'm the one who will win!*, *This is the ultimate hero!*, *Heh heh! I'm not a rusty as I look!*, *I'll take all of you on at once!*, *I am the universe's strongest!*, *I got back my youth and vigor!*, *Goku the legendary Super Saiyan!*; recompute live records before editing and preserve unresolved/conflicting acquisition evidence.
+
+
