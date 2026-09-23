@@ -9,8 +9,8 @@
     "source_tokens_before": 39,
     "resolved_skill_records_added": 14,
     "resolved_canonical_skill_edges_added": 18,
-    "remaining_unresolved_character_or_variant_tokens": 25,
-    "canonical_character_targets": 11,
+    "remaining_unresolved_character_or_variant_tokens": 32,
+    "canonical_character_targets": 12,
     "duplicate_skill_character_edges": 0,
     "broken_character_endpoints": 0
   },
