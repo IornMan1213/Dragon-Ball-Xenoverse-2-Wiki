@@ -3312,3 +3312,508 @@ Proceed through the remaining 14 research records with the same domain-aware che
 
 Static GitHub validation only; CI success is not claimed.
 
+
+
+---
+
+# Consolidated Cycle-Prompt Archive — 2026-09-22 (part 2)
+
+This section completes the in-place consolidation of the remaining dated `AI-CONTINUATION-PROMPT-CYCLE-*.md` notes. Complete source text is preserved verbatim; the dated source files remain historical artifacts.
+
+Sources consolidated in this stage:
+- `docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-GINE-ACCESSORY.md`
+- `docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-GINE-CORRECTION.md`
+- `docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-IDENTITY-RESOLUTION.md`
+- `docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-KAI-CENSUS.md`
+- `docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-NON-PQ-CONSUMER-AUDIT.md`
+- `docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-PQ-CURRENT-BASELINE-RECONCILIATION.md`
+- `docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-PQ-REFERENCE-CONSUMER-BASELINE.md`
+- `docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-PQ-SCALAR-DRIFT.md`
+- `docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-PRESENTATION-CONTRACT.md`
+- `docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-RECORD-REVERSE-PQ-AUDIT.md`
+- `docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-RESIDUAL-ACCESSORY-IDENTITY-FINAL.md`
+- `docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-RESIDUAL-ACCESSORY-IDENTITY.md`
+
+
+---
+
+# CONSOLIDATED SOURCE: docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-GINE-ACCESSORY.md
+
+# 2026-09-22 — Gine accessory identity reconciliation checkpoint
+
+## Completed
+
+- Continued from the residual accessory identity queue after Resistance Helmet.
+- Researched `pqacc-026`, **Gine (DB Super)'s Accessory**, associated with PQ144.
+- Independent evidence establishes that the item is the **Gine (DB Super) Set accessory**, distinct from the four-piece Gine (DB Super)'s Clothes set.
+- Confirmed the former repository endpoint `accr-101` is not present in the current canonical accessory inventory and must not be revived in isolation.
+- Added `docs/data/accessory-gine-identity-audit-2026-09-22.json`.
+- Registered the audit in `docs/data/pq-cross-domain-index.json`.
+
+## Evidence
+
+- Dragon Ball Wiki: Gine (DB Super) Set accessory and Gine (DB Super)'s Clothes are both associated with New Parallel Quest 144.
+- Independent mirror corroborates the same accessory/clothing distinction.
+- Current Xenoverse 2 equipment documentation lists Gine's Clothes as a four-piece clothing set and maintains accessories as a separate equipment category.
+- Independent item-ID documentation records the Gine set accessory in its accessory notes.
+
+## Boundary
+
+The identity is now substantially clarified, but no canonical `acc-###` ID was invented because the current canonical accessory layer does not expose an exact Gine Set identity. The next write must either reconcile an existing exact inventory identity or create one coordinated across the canonical layer, PQ bridge, cross-link reports, reader-facing database, and unresolved backlog.
+
+## Commits
+
+- `8a451aedd3a745069fb17d0e4d6b3da1101ddfe8` — Gine accessory identity audit.
+- `02dd5320621fb0eb03b6a0d3357c94c2fa99f108` — register Gine audit in cross-domain index.
+
+## Exact next task
+
+Search the current canonical accessory inventory and late-DLC/equipment mappings for an exact **Gine (DB Super) Set** identity. If none exists, perform a coordinated canonical promotion rather than reviving `accr-101`; then synchronize all reverse/forward PQ accessory consumers and recompute the cross-domain census. If exact inventory evidence remains insufficient, continue to the next unresolved late-DLC identity (Caulifla/Kale/Android 17 Ranger accessory) with the same no-speculation boundary.
+
+## Validation boundary
+
+Static repository inspection and independent web research were used. No GitHub Actions success is claimed.
+
+
+---
+
+# CONSOLIDATED SOURCE: docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-GINE-CORRECTION.md
+
+# 2026-09-22 — Gine accessory identity correction
+
+## Correction
+
+The previous continuation cycle incorrectly treated **Gine (DB Super)'s Accessory / pqacc-026** as lacking current canonical inventory evidence.
+
+Live repository inspection shows that the maintained canonical equipment/accessory records already contain:
+
+- `equip-050` — **Gine (DB Super) Set**
+- category: `accessory`
+- acquisition: PQ144
+
+The PQ equipment crosslink independently maps PQ144 to `equip-050`, and the canonical equipment/accessory record layer contains the same identity.
+
+## Important domain boundary
+
+`equip-050` is a canonical equipment/accessory identity, but it is **not** an `acc-###` identity in the dedicated accessory identity layer. Therefore this cycle deliberately does **not** create a duplicate `acc-071` or any other speculative accessory ID.
+
+The correct relationship is already represented by the canonical equipment graph. The dedicated `accessory-pq-canonical-bridge.json` should retain `canonical_id: null` for pqacc-026 if its schema is strictly restricted to `acc-###` IDs, but its unresolved explanation should be interpreted as **no dedicated acc-### identity**, not **no canonical inventory identity**.
+
+## Evidence checked
+
+- `docs/data/equipment-record-layer.json`
+- `docs/data/equipment-accessories-record-layer.json`
+- `docs/data/pq-equipment-crosslink-report.json`
+- `docs/data/pq-reward-relationships.json`
+- `docs/data/accessory-pq-canonical-bridge.json`
+- `docs/data/accessory-pq-canonical-remaining.json`
+
+The repository changelog also records that Gine (DB Super) Set was already added during the equipment/accessory detail batch.
+
+## Changes this cycle
+
+- Added `docs/data/accessory-gine-identity-correction-2026-09-22.json`.
+- No duplicate canonical accessory identity was created.
+- No existing canonical relationship was overwritten.
+
+## Exact next task
+
+1. Update the residual accessory backlog and related audit/report language so pqacc-026 distinguishes **domain-resolved via equip-050** from **unresolved dedicated acc-### identity**.
+2. Recompute the accessory/PQ census with domain-aware accounting.
+3. Then proceed to `pqacc-021` Resistance Helmet, checking whether it likewise already has a canonical equipment/accessory endpoint before creating any new `acc-###` identity.
+
+## Validation boundary
+
+Static GitHub inspection was used. No CI success is claimed.
+
+
+---
+
+# CONSOLIDATED SOURCE: docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-IDENTITY-RESOLUTION.md
+
+# AI Continuation Cycle — 2026-09-22 — Cross-domain endpoint identity resolution
+
+## Current state
+- Canonical PQ set: **186 records / 186 unique IDs / 186 unique numbers**.
+- Current canonical relationship baseline: **859 unique edges**.
+- Current domain counts: **244 skills / 151 Super Souls / 124 equipment / 247 characters / 86 DLC / 7 farming**.
+- Endpoint navigation census: **0 missing targets, 0 duplicate (PQ,target) pairs, 0 invalid PQ IDs** across skills, Super Souls, equipment, characters, and DLC.
+
+## Work completed in this cycle
+- Extended `scripts/validate_pq_endpoint_navigation.py` with a domain-wide identity-resolution census.
+- Validator now reports exact canonical matches, unresolved endpoints, explicit conflict classifications, and explicit granularity classifications.
+- Refreshed `docs/data/pq-endpoint-navigation-validation.json` to schema 1.2.0 and the current 859-edge baseline.
+- Added `docs/data/pq-endpoint-identity-resolution-audit.json`.
+- Registered the new identity-resolution audit in `docs/data/pq-cross-domain-index.json`.
+- Confirmed the two equipment naming conflicts remain explicitly classified rather than merged:
+  - PQ152: `Android 17 (DB Super) Ranger Wig` vs `Android 17 (DB Super) Wig`.
+  - PQ155: `Gamma 2 Helmet` vs `Gamma 2's Helmet`.
+- Confirmed the six DLC Super Pass→pack mappings remain explicit granularity, not new canonical edges.
+
+## Validation boundary
+The validator source was re-read after the write and the generated audit data was structurally reconciled against the current canonical counts. Runtime execution/CI success is **not** claimed because the available execution environment still cannot reliably clone/execute the repository against GitHub.
+
+## Next task
+Audit the remaining registered **non-PQ presentation/identity consumers** for stale relationship baselines and endpoint naming drift. Prioritize deterministic consumer/projection mismatches over new provenance-only research. Any ambiguous identity must remain explicitly classified rather than merged by name similarity.
+
+## Rules to preserve
+- Canonical database records are authoritative.
+- Verification/research/projection layers never override canonical identity.
+- Every canonical relationship endpoint must resolve exactly or have an explicit conflict/granularity classification.
+- Aliases do not create canonical relationships.
+- Preserve historical counts as historical records; current fields must use the 859-edge baseline.
+
+
+---
+
+# CONSOLIDATED SOURCE: docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-KAI-CENSUS.md
+
+# 2026-09-22 continuation checkpoint — skill stale-metadata census
+
+## Work completed
+- Read the live continuation instructions and efficiency protocol before choosing work.
+- Recomputed the canonical skill verification-date census from `docs/data/skills.json`.
+- Current live census: **452 canonical skill records; 274 current at `last_verified=2026-09-22`; 178 stale; 0 duplicate IDs**.
+- Added `docs/data/skill-stale-metadata-census-2026-09-22.json` documenting the live count and the next 20 stale records.
+- Added `docs/data/skill-kai-through-light-grenade-provenance-audit-2026-09-22.json` with independent evidence gathered for the first ten stale records: Kai Kai, Kaioken, Kaioken Kamehameha, Kairos Cannon, Kamehameha, Ki Blast Thrust, Ki Explosion, Kill Driver, Last Emperor, and Light Grenade.
+
+## Research findings
+- Kai Kai: Dragon Ball Wiki corroborates the Xenoverse 2 Super Skill identity and cost-free teleport behavior; repository PQ63 association remains canonical.
+- Kaioken: current XV2 skill documentation confirms PQ8 Ultimate Finish acquisition and 100/300/500 Ki stages; GameFAQs independently corroborates the PQ8/x3-Goku route but does not establish a guaranteed drop.
+- Kaioken Kamehameha: current XV2 documentation confirms PQ14, 200 Ki, and Super classification; broader technique documentation distinguishes it from the x4/x20 Ultimate variants.
+- Kairos Cannon: current documentation confirms the 100-Ki Ki Blast Super and Conton City Tournament/Thinning the Herd acquisition; secondary descriptions differ on projectile-count details, so the repository's bounded mechanics remain preferable to normalization by guess.
+- Kamehameha: current documentation confirms the 100-Ki Ki Blast Super, all-CaC availability, and three charge levels with distance-dependent hit counts.
+- Ki Blast Thrust: independent documentation confirms Yamcha Training School Quest Lesson 2 acquisition and the ki-enhanced charging-punch behavior.
+- Ki Explosion: current documentation confirms the 100-Ki Ki Blast Super and PQ77 source; holding the input prolongs the explosion while consuming additional Ki.
+- Kill Driver: current documentation confirms the 100-Ki Ki Blast Super and Turles training source; charge/detonation behavior is corroborated.
+- Last Emperor: current documentation confirms the 0-Ki Ki Blast Ultimate, PQ71 source, and low-health once-per-battle restriction.
+- Light Grenade: independent documentation confirms Piccolo Training Lesson 2 acquisition and chargeable Super behavior; the Hero of Justice Pack 2 Light Grenade Ultimate is kept distinct.
+
+## Write boundary
+- The canonical `skills.json` and `skills-index.json` files are large generated records. The available safe write operation requires replacing the complete file; the live connector response is truncated and therefore cannot safely reconstruct those full files in this cycle.
+- Per the efficiency addendum's append-only/safe-state rule, canonical records were **not** partially overwritten or guessed.
+- The evidence audit is therefore intentionally marked `researched_pending_canonical_sync`.
+
+## Validation
+- Stale census arithmetic: **274 current + 178 stale = 452 canonical records**.
+- Duplicate-ID count: **0**.
+- Audit files are deterministic JSON artifacts with explicit evidence boundaries.
+- No CI success is claimed; no exposed successful workflow status was available through the current repository interface.
+
+## Exact next task
+Safely apply the ten audited provenance updates to the canonical/index skill layers when a complete-file write path is available. Recompute the stale census first. Preserve all existing fields, conflicts, and historical provenance. After canonical/index synchronization, validate 452/452 parity and continue with the next stale cohort beginning with **Lightning Impact, Lightning of Absolution, Lovely Cyclone, Mach Kick, Mach Punch, Mach Slash, Maximum Charge, Meteor Burst, Meteor Crash, and Meteor Explosion**.
+
+
+---
+
+# CONSOLIDATED SOURCE: docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-NON-PQ-CONSUMER-AUDIT.md
+
+# Continuation Handoff — 2026-09-22 Non-PQ Consumer Audit
+
+## Current live baseline
+- Canonical PQ scope: **186 records / 186 unique IDs / 186 unique numbers**.
+- Canonical relationship layer: **859 unique edges**.
+- Current domain counts: **244 skills / 151 Super Souls / 124 equipment / 247 characters / 86 DLC / 7 farming**.
+- Equipment canonical layer: **174 combined equipment/accessory records**, with **124 PQ→equipment forward edges / 122 unique canonical targets**.
+- Canonical endpoint/navigation audits currently report zero unresolved canonical endpoints and zero duplicate relationship keys.
+
+## Work completed this continuation
+- Re-read the active continuation/handoff state and checked the live cross-domain index and current relationship-audit artifacts.
+- Audited current non-PQ consumer drift around the corrected 859/124 baseline.
+- Confirmed `docs/data/pq-reference-page-audit.json` currently carries the corrected 859/124 contract and is marked clean.
+- Confirmed the live `scripts/validate_pq_reference_pages.py` source also checks **859 total** and **124 equipment** edges.
+- GitHub code-search results still expose older cached/indexed text showing 860/125 inside historical search snapshots; this is not treated as live file content when the current file fetch resolves to the corrected contract.
+- Confirmed `docs/data/pq-cross-domain-index.md` explicitly defines the next gate as non-PQ consumer/navigation integrity.
+- Checked combined GitHub status for commit `e67e1ceb10740969f4f5f64c8b05cb125b612561`; no status checks were exposed. CI success is not claimed.
+
+## Evidence / scope boundary
+- Historical 860/862/840 and 125/88 figures remain preserved where they are explicitly dated historical audit records. They must not be mass-rewritten merely because the current baseline is 859/124.
+- No relationship edge was added, removed, renamed, or inferred during this continuation.
+- Search-index/cache discrepancies are not evidence of live repository drift until confirmed by a direct current-file fetch.
+
+## Exact next task
+1. Continue the non-PQ consumer audit from the cross-domain registry.
+2. Search for **current** consumer assertions of the old 860/862/840 or 125/88 baselines, then direct-fetch each candidate before editing so historical records are preserved.
+3. Prioritize deterministic presentation/reverse-navigation consumers with machine-checkable count, endpoint, or collection-shape contracts.
+4. If a true current consumer drift is found, repair only that consumer and synchronize its audit/registry entry.
+5. If no current drift is found, move to the next registered consumer rather than inventing data.
+6. Runtime execution remains a separate gate; do not claim validator/CI success without an exposed successful run.
+
+## Relevant prior commits
+- `b69b646f32b3a71b7136d937c9202f0296d9e1eb` — corrected record reverse-PQ audit to current 124-equipment baseline.
+- `e67e1ceb10740969f4f5f64c8b05cb125b612561` — added the preceding continuation handoff.
+
+
+---
+
+# CONSOLIDATED SOURCE: docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-PQ-CURRENT-BASELINE-RECONCILIATION.md
+
+# Continuation checkpoint — PQ current-baseline reconciliation — 2026-09-22
+
+## Completed
+- Re-read the current continuation/efficiency protocol and inspected the live PQ relationship consumer layer.
+- Verified the authoritative current baseline as **859 total relationships**: 244 skills, 151 Super Souls, 124 equipment, 247 character references, 86 DLC, 7 farming.
+- Confirmed multiple current consumer audits independently expose 859/124.
+- Found three remaining current-looking fields that still expose the obsolete 860/862-era totals:
+  - `docs/data/pq-reward-relationships.json` — `current_reconciliation_2026_09_22.total_unique_relationships` is 860.
+  - `docs/data/pq-cross-domain-status.json` — current projection `total_edges` is 860.
+  - `docs/COVERAGE-AUDIT.md` — latest current-cycle wording contains 862-era totals.
+- Added `docs/data/pq-current-baseline-single-source-reconciliation-2026-09-22.json` documenting the deterministic correction targets and the historical-preservation rule.
+
+## Safety boundary
+The three target files are large/append-only artifacts. The available connector returns truncated content for them, so replacing a whole file from the truncated response would risk destructive loss. No unsafe replacement was attempted.
+
+## Exact next task
+1. Obtain a complete-file-safe write path for the three current-looking fields.
+2. Change only current/live/baseline totals to 859/124.
+3. Preserve all dated 860/862/840 historical snapshots unchanged.
+4. Re-run exact relationship-pair parity across the registered reverse indexes.
+5. Update the canonical continuation handoff using append-only semantics if the complete file can be safely preserved; otherwise create the next dated cycle checkpoint as the repository's established fallback.
+
+## Evidence
+- `docs/data/pq-current-consumer-baseline-correction-2026-09-22.json` establishes the current 859/124 baseline.
+- `docs/data/pq-reference-page-audit.json` and `docs/data/skill-pq-acquisition-presentation-audit.json` independently expose 859 current relationships.
+- `docs/data/pq-endpoint-alias-granularity-map.json` records canonical edge count 859 before/after presentation metadata.
+
+## Commit
+- `b924c99a3d8fcc666148a1652ffc3fbb2286f17f` — current-baseline single-source reconciliation audit.
+
+## Do not do
+- Do not rewrite historical 860/862/840 records merely because they are old.
+- Do not infer a replacement relationship for PQ99 Mr. Shape Up L.
+- Do not reconstruct large JSON/Markdown files from truncated connector output.
+
+
+---
+
+# CONSOLIDATED SOURCE: docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-PQ-REFERENCE-CONSUMER-BASELINE.md
+
+# AI Continuation Cycle — 2026-09-22 — PQ reference consumer baseline reconciliation
+
+## Live state before/after
+- Canonical PQ records: **186**.
+- Canonical relationship baseline: **859 unique edges**.
+- Domain counts: **244 skills / 151 Super Souls / 124 equipment / 247 character / 86 DLC / 7 farming**.
+- Farming set: **PQ15, PQ22, PQ44, PQ45, PQ68, PQ83, PQ88**.
+
+## Work completed
+- Audited the live PQ reference-page consumer layer after the equipment-domain correction.
+- Found `scripts/validate_pq_reference_pages.py` still enforcing the obsolete **860 total / 125 equipment** baseline.
+- Updated the validator to enforce the current **859 / 124** baseline and renamed its live checks accordingly.
+- Corrected `docs/Parallel-Quests.md` from 860 to **859** in its current canonical relationship census.
+- Corrected `docs/Parallel-Quest-Audit.md` from 860 to **859** in its current audit baseline.
+- Reconciled `docs/data/pq-reference-page-audit.json` so it no longer contains contradictory obsolete 860/125 live-check fields and points to the corrected validator commit.
+
+## Evidence / boundary
+- No canonical relationship edge was added, removed, or inferred in this batch.
+- Historical 860/862/840 counts remain historical where already recorded; only live/current assertions were corrected.
+- This was a deterministic consumer/validator reconciliation, not a provenance or gameplay research pass.
+
+## Validation
+- Source-of-truth relationship census remains 859 edges with exact domain counts 244/151/124/247/86/7.
+- PQ reference audit now declares the same baseline.
+- Validator now checks the same baseline.
+- CI/Actions: no successful workflow/check exposed for this direct-commit chain; do not claim CI success.
+
+## Commits
+- `d43d43302b4d255a0a7b853aa22f22a8a847d05f` — validator baseline correction.
+- `0158c88aab6b72511f002e7c24a665ad1efaa468` — Parallel-Quests reference page correction.
+- `3f4db25d74c0c81d7fc36f5e980e218c274c0cc9` — Parallel Quest Audit correction.
+- `6af37d104b814806af5b2a67e89bb5d13c02a48a` — reference-page audit reconciliation.
+
+## Exact next batch
+Audit the remaining **non-PQ presentation/catalog/search consumers** for stale current relationship baselines and endpoint identity drift. Prioritize deterministic files that consume `pq-reward-relationships.json` or its reverse indexes. Preserve historical counts and explicit identity conflicts; do not infer new canonical edges.
+
+
+---
+
+# CONSOLIDATED SOURCE: docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-PQ-SCALAR-DRIFT.md
+
+# Continuation checkpoint — PQ scalar drift reconciliation
+
+Date: 2026-09-22
+
+## Completed
+- Re-read the live PQ relationship/status layer and verified the authoritative current projection is **859 total edges**: 244 skills, 151 Super Souls, 124 equipment, 247 character, 86 DLC, 7 farming.
+- Confirmed reverse projection parity is clean: no missing/orphan/mismatched PQ sets in the current endpoint census.
+- Identified three remaining current-looking scalar assertions that still require a safe textual patch: `docs/data/pq-reward-relationships.json` has `current_reconciliation_2026_09_22.total_unique_relationships=860`; `docs/data/pq-cross-domain-status.json` has `target_normalization_audit_2026_09_22.total_edges=860`; `docs/COVERAGE-AUDIT.md` contains an 862-era current assertion in its latest endpoint-census history.
+- Added `docs/data/pq-current-baseline-field-drift-audit-2026-09-22.json` documenting the exact fields, expected values, and preservation rule.
+
+## Safety boundary
+- No canonical relationship edge was added/removed in this cycle.
+- Historical 840/860/862 snapshots must remain immutable evidence.
+- The large canonical/status/audit files were not reconstructed from truncated connector output; a destructive full-file replacement would violate repository integrity.
+
+## Next exact work
+1. Obtain a complete-file-safe editing path for the three identified scalar fields.
+2. Patch only current/live assertions to 859/124 where applicable; preserve all dated historical counts.
+3. Re-run exact forward/reverse relationship-pair parity.
+4. Update the main continuation/TODO handoff with the resulting commit and next unfinished task.
+5. Then resume the highest-priority cross-domain/detail-enrichment task rather than restarting completed work.
+
+## Commits
+- `ac7a08c5b7c5e9ad3ea2d440198a791922fd3dca` — baseline scalar drift audit.
+
+
+---
+
+# CONSOLIDATED SOURCE: docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-PRESENTATION-CONTRACT.md
+
+# AI Continuation Checkpoint — 2026-09-22 — Presentation Contract
+
+## Completed this cycle
+- Re-read the current continuation/TODO direction and followed the active priority to continue the high-volume skill consumer census before broadening data domains.
+- Audited the repository's acquisition semantics across `docs/Skills-Complete-Database.md`, `docs/Skills-Database.md`, `docs/data/parallel-quest-skill-acquisition-model.json`, and `docs/data/parallel-quest-skill-acquisition-early-base-game.json`.
+- Confirmed the repository already distinguishes PQ→skill association from guaranteed rewards, Ultimate Finish requirements, reward triggers, and drop rates in the structured evidence layer.
+- Updated `docs/Farming-Hub.md` with an explicit **Acquisition presentation contract** so presentation copy cannot silently promote `pq_rewards_skill` relationships or unresolved research fields into guaranteed/Ultimate-Finish mechanics.
+- Added `docs/data/skill-consumer-presentation-contract-audit-2026-09-22.json` documenting the implemented contract and evidence boundary.
+
+## Validation / evidence boundary
+- Existing research records intentionally preserve `unknown`, `unresolved`, `partially_verified`, and conflicting-source states.
+- No skill acquisition probability, Ultimate Finish gate, enemy-specific trigger, or guarantee was inferred from a relationship alone.
+- No large generated canonical file was reconstructed from a truncated connector response.
+- CI success is not claimed; the direct-commit chain has no exposed successful workflow/check result in this cycle.
+
+## Current canonical census context
+- Latest recorded skill census: **452 canonical / 452 index / 0 duplicate IDs / 178 stale `last_verified` records**.
+- The prior bounded stale batch remains the exact next metadata workstream once a safe complete-file write path is available: Kai Kai, Kaioken, Kaioken Kamehameha, Kairos Cannon, Kamehameha, Ki Blast Thrust, Ki Explosion, Kill Driver, Last Emperor, Light Grenade.
+- The following stale batch after that is: Lightning Impact, Lightning of Absolution, Lovely Cyclone, Mach Kick, Mach Punch, Mach Slash, Maximum Charge, Meteor Burst, Meteor Crash, Meteor Explosion.
+
+## Exact next work
+1. Continue searching remaining high-volume presentation/index consumers for language that equates PQ association, Ultimate Finish, enemy appearance, or reward-table presence with guaranteed acquisition.
+2. Repair deterministic presentation drift only; preserve unresolved research evidence.
+3. Recompute the canonical/index/stale census before each bounded skill metadata batch.
+4. Never overwrite a large generated JSON file from an incomplete/truncated fetch; use a complete-file write path or a smaller authoritative layer.
+5. Keep all PQ↔skill, skill↔character, skill↔DLC, and acquisition relationships cross-navigable.
+6. At the next checkpoint, append the result to the persistent continuation history if the full handoff file can be safely fetched and rewritten without truncation; this checkpoint itself is the durable cycle handoff for resumption.
+
+
+---
+
+# CONSOLIDATED SOURCE: docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-RECORD-REVERSE-PQ-AUDIT.md
+
+# AI Continuation Cycle — 2026-09-22 — record reverse-PQ current-baseline reconciliation
+
+## Live state
+- Canonical PQ records: **186**.
+- Current canonical relationship baseline: **859 unique edges**.
+- Domain counts: **244 skills / 151 Super Souls / 124 equipment / 247 character / 86 DLC / 7 farming**.
+- Current equipment reverse projection: **124 canonical forward pairs / 122 unique canonical targets**.
+
+## Work completed
+- Audited `docs/data/record-reverse-pq-navigation-audit.json` after the PQ99 false-equipment correction.
+- Found one stale **current-contract** field in the reverse-record audit: `exact_forward_pair_contract.equipment` still declared **125/125** even though the live canonical equipment relationship layer is **124/124**.
+- Corrected that current audit contract to **124 canonical pairs / 124 structured pairs**, preserving the four explicitly noncanonical equipment acquisition-metadata PQ fields and the two documented source-route conflicts.
+- No canonical relationship, equipment identity, alias, acquisition claim, or provenance classification was changed.
+
+## Validation
+- Re-read the updated audit from the live `main` branch: Super Soul **151/151**, Equipment **124/124**; both consumers report clean exact reverse-pair parity.
+- Equipment reverse contract: **0 missing / 0 extra / 0 duplicate canonical pairs / 0 duplicate structured pairs / 0 malformed structured fields / 0 invalid PQ IDs / 0 duplicate record names**.
+- Historical 125-era values remain preserved only in historical handoff/audit records; the current audit now reflects 124.
+- Runtime/CI: repository clone could not resolve `github.com`; no runtime or CI success is claimed.
+
+## Commit
+- `b69b646f32b3a71b7136d937c9202f0296d9e1eb` — corrected current record reverse-PQ audit baseline.
+
+## Exact next batch
+- Perform a fresh live census of the remaining registered cross-domain presentation/identity consumers for any other **current** 859/124 baseline drift.
+- Prioritize deterministic audit fields that are explicitly labeled current/live/baseline; leave dated historical snapshots untouched.
+- After the current-consumer sweep is clean, use `docs/data/pq-endpoint-alias-granularity-map.json` to resolve only independently evidenced equipment naming conflicts; do not invent aliases or canonical relationships.
+
+
+---
+
+# CONSOLIDATED SOURCE: docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-RESIDUAL-ACCESSORY-IDENTITY-FINAL.md
+
+# AI Continuation Cycle — 2026-09-22 — residual accessory identity final handoff
+
+## Completed this cycle
+
+- Continued from the current cross-domain/P1 state rather than restarting completed validator work.
+- Audited the remaining 16 unresolved PQ accessory research identities against the current canonical equipment/accessory inventory layer.
+- Identified `Resistance Helmet` (`pqacc-021`, PQ111) as the strongest remaining exact-name promotion candidate because the live equipment layer contains `equip-135`, explicitly named `Resistance Helmet` and classified as an `accessory`.
+- Preserved the identity-namespace boundary: `equip-135` was **not** duplicated as a new accessory identity during this cycle.
+- Confirmed `Android 13's Hat` remains unresolved because the repository has no exact current canonical inventory endpoint despite external TP Medal Shop evidence.
+- Confirmed Android 14's Hat and Bardock (DB Super)'s Scouter remain clothing/component ambiguity cases; Android 15's Sunglasses remains a component alias of Android 15's Shades & Hat.
+- Added and registered `docs/data/accessory-residual-identity-candidate-audit-2026-09-22.json`.
+- Verified the new audit and cross-domain registry from the live `main` branch.
+
+## Commits
+
+- `c091295c8b68def00d157f116443682be926f272` — residual accessory identity candidate audit.
+- `5d2ce2c20583153fa5d4dd7ac452b615a3538561` — residual accessory identity continuation checkpoint.
+- `fb1d60002d74969585e77685929fbcc798e10a81` — register residual accessory audit in the cross-domain index.
+
+## Current baseline
+
+- PQs: 186
+- Canonical relationships: 859
+- Skills: 244
+- Super Souls: 151
+- Equipment: 124
+- Characters: 247
+- DLC: 86
+- Farming: 7
+- Canonical accessories: 70
+- PQ accessory projection: 28 forward / 28 reverse
+- Accessory research identities: 45 total / 29 matched / 16 unresolved
+
+## Exact next task
+
+Safely reconcile **Resistance Helmet / equip-135** into the canonical accessory identity layer, using one physical inventory identity rather than inventing a duplicate. Synchronize the canonical accessory record layer, accessory PQ bridge, PQ accessory cross-link report, unresolved backlog, combined equipment/accessory census, and reader-facing accessory database; then recompute the cross-domain endpoint/reverse census. If the full canonical-layer write cannot be performed without risking loss of append-only data, keep the candidate explicit and continue with the next unresolved identity using exact inventory evidence.
+
+After that, continue the remaining unresolved accessory identities, prioritizing exact current inventory evidence for the DAIMA/Future Saga records and preserving component/clothing ambiguity instead of guessing.
+
+## Validation boundary
+
+Static GitHub inspection was used. No repository runtime or GitHub Actions success is claimed.
+
+
+---
+
+# CONSOLIDATED SOURCE: docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-RESIDUAL-ACCESSORY-IDENTITY.md
+
+# AI Continuation Cycle — 2026-09-22 — residual accessory identity audit
+
+## Current live baseline
+
+- Canonical PQ layer: **186 records**.
+- Current canonical relationship baseline: **859 unique edges** = 244 Skills / 151 Super Souls / 124 Equipment / 247 Characters / 86 DLC / 7 farming.
+- Canonical accessory identity layer: **70 `acc-###` records**.
+- PQ accessory projection: **28 forward / 28 reverse**.
+- Research layer: **45 accessory/PQ records**, with **29 matched identities / 16 unresolved**.
+
+## Work completed
+
+- Read the current continuation state and followed the latest deterministic cross-domain/consumer reconciliation into the remaining accessory identity backlog.
+- Audited the residual unresolved accessory records against the live canonical equipment/accessory layers.
+- Added `docs/data/accessory-residual-identity-candidate-audit-2026-09-22.json`.
+- Identified **Resistance Helmet (`pqacc-021`, PQ111)** as the first exact-name promotion candidate: the live equipment layer contains `equip-135`, explicitly named `Resistance Helmet` and classified as an accessory.
+- Deliberately did **not** create a second `acc-###` identity yet. The safe model is to reconcile the existing `equip-135` inventory identity into the canonical accessory namespace rather than duplicate the same physical item.
+- Confirmed Android 13's Hat remains unresolved because the repository lacks an exact current canonical inventory endpoint; external shop evidence alone is insufficient.
+- Confirmed Android 14's Hat, Android 15's Sunglasses, and Bardock (DB Super)'s Scouter remain component/clothing ambiguity cases.
+
+## Evidence boundary
+
+- No canonical relationship edges were changed.
+- No duplicate accessory identity was invented.
+- No reward probability, Ultimate Finish gate, or guaranteed-drop condition was inferred.
+- Existing PQ152/PQ155 naming conflicts remain explicit and are not merged by textual similarity.
+
+## Validation
+
+- Live search confirms `equip-135` is `Resistance Helmet` with category `accessory`.
+- The new audit is machine-readable JSON and records the remaining backlog plus the exact-name candidate.
+- CI/runtime execution remains unavailable; no CI success is claimed.
+
+## Commit
+
+- `c091295c8b68def00d157f116443682be926f272` — residual accessory identity candidate audit.
+
+## Exact next task
+
+1. Safely reconcile **Resistance Helmet / equip-135** into the canonical accessory identity layer, reusing one physical inventory identity rather than creating a duplicate.
+2. Synchronize the accessory bridge, PQ accessory cross-link projection, unresolved backlog, combined equipment/accessory census, and reader-facing accessory database.
+3. Recompute the cross-domain endpoint census and verify canonical/reverse parity.
+4. Then continue the remaining unresolved accessory identities, prioritizing exact current inventory evidence for the DAIMA/Future Saga records while preserving unresolved/component classifications where evidence is insufficient.
+
