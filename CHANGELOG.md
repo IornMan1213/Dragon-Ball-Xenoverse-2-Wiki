@@ -1,3 +1,9 @@
+## 2026-09-22 — Super Soul 176/182/183/184/188/189 stacking reconciliation
+
+- Reconciled six stacking fields to **Not reported as stackable** where no stacking mechanic or numeric cap is documented.
+- Preserved existing triggers and durations.
+- Live census: **234 canonical / 0 duplicate IDs / 142 strict-thin records**.
+
 ## 2026-09-22 — Super Soul 191/194/196 duration reconciliation
 
 - Reconciled duration semantics for Super Souls 191, 194, and 196 using the maintained Super Soul catalogue.
