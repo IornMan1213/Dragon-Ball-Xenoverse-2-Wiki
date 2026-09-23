@@ -4125,3 +4125,12 @@
 - [x] Validation: **455 canonical / 455 index / 0 duplicate IDs / 390 stale**; target parity clean.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next batch: **Charged Ki Wave, Circle Flash, Comet Strike, Confusion Blade, Core Breaker, Crush Cannon, Crush Stream, Crusher Ball, Dancing Parapara, Dark Inscription**.
+
+
+### 2026-09-23 — TODO completion update — P1 Charged Ki Wave through Core Breaker
+- [x] Completed **Charged Ki Wave, Circle Flash, Comet Strike, Confusion Blade, Core Breaker** provenance refresh.
+- [x] Rechecked dedicated skill evidence and synchronized canonical/index verification dates to **2026-09-23**.
+- [x] Added/registered **docs/data/skill-provenance-audit-2026-09-23-charged-ki-wave-through-core-breaker.json**.
+- [x] Validation: **455 canonical / 455 index / 0 duplicate IDs / 385 stale**; target parity clean.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next batch: **Crush Cannon, Crush Stream, Crusher Ball, Dancing Parapara, Dark Inscription, Darkness Eye Beam, Darkness Rush (Melee), Darkness Rush (Ranged), Darkness Twin Star, Data Input**.
