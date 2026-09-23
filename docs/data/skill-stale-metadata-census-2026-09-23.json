@@ -5,131 +5,131 @@
   "source_of_truth": "docs/data/skills.json",
   "live_counts": {
     "canonical_skill_records": 455,
-    "stale_last_verified_records": 280,
-    "current_last_verified_records": 175,
+    "stale_last_verified_records": 220,
+    "current_last_verified_records": 235,
     "duplicate_ids": 0
   },
   "method": "Fresh alphabetical census of canonical records where last_verified != 2026-09-23.",
   "next_stale_records": [
     {
-      "id": "skill-final-flash-super",
-      "name": "Final Flash (Super)",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-final-kamehameha",
-      "name": "Final Kamehameha",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-final-pose",
-      "name": "Final Pose",
-      "last_verified": "2026-09-22",
-      "source_count": 5
-    },
-    {
-      "id": "skill-final-rampage",
-      "name": "Final Rampage",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-finish-breaker",
-      "name": "Finish Breaker",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-finishing-blow",
-      "name": "Finishing Blow",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-flash-bomber",
-      "name": "Flash Bomber",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-flash-chaser",
-      "name": "Flash Chaser",
-      "last_verified": "2026-09-22",
-      "source_count": 5
-    },
-    {
-      "id": "skill-flash-fist-crush",
-      "name": "Flash Fist Crush",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-flash-strike",
-      "name": "Flash Strike",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-focus-flash",
-      "name": "Focus Flash",
-      "last_verified": "2026-09-22",
-      "source_count": 6
-    },
-    {
-      "id": "skill-force-edge",
-      "name": "Force Edge",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-force-shield",
-      "name": "Force Shield",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-formation",
-      "name": "Formation!",
-      "last_verified": "2026-09-22",
-      "source_count": 5
-    },
-    {
-      "id": "skill-freedom-kick",
-      "name": "Freedom Kick",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-fruit-of-the-tree-of-might",
-      "name": "Fruit of the Tree of Might",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-full-power-charge",
-      "name": "Full Power Charge",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-full-power-destruction",
-      "name": "Full Power Destruction",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-future-super-saiyan",
-      "name": "Future Super Saiyan",
-      "last_verified": "2026-09-22",
-      "source_count": 7
-    },
-    {
-      "id": "skill-galactic-donuts",
-      "name": "Galactic Donuts",
+      "id": "skill-hero-s-flute",
+      "name": "Hero's Flute",
       "last_verified": "2026-09-22",
       "source_count": 4
+    },
+    {
+      "id": "skill-hero-s-pose",
+      "name": "Hero's Pose",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-heroic-assault",
+      "name": "Heroic Assault",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-heroic-counter",
+      "name": "Heroic Counter",
+      "last_verified": "2026-09-22",
+      "source_count": 4
+    },
+    {
+      "id": "skill-holy-inscription",
+      "name": "Holy Inscription",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-holy-wrath",
+      "name": "Holy Wrath",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-hyper-tornado",
+      "name": "Hyper Tornado",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-ill-bomber",
+      "name": "Ill Bomber",
+      "last_verified": "2026-09-22",
+      "source_count": 5
+    },
+    {
+      "id": "skill-ill-rain",
+      "name": "Ill Rain",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-impact-flare",
+      "name": "Impact Flare",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-impulse-slash",
+      "name": "Impulse Slash",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-indomitable",
+      "name": "Indomitable",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-innocence-breath",
+      "name": "Innocence Breath",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-innocence-bullet",
+      "name": "Innocence Bullet",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-innocence-cannon",
+      "name": "Innocence Cannon",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-instant-charge",
+      "name": "Instant Charge",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-instant-rise",
+      "name": "Instant Rise",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-instant-severance",
+      "name": "Instant Severance",
+      "last_verified": "2026-09-22",
+      "source_count": 4
+    },
+    {
+      "id": "skill-instant-transmission",
+      "name": "Instant Transmission",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-jumping-energy-wave",
+      "name": "Jumping Energy Wave",
+      "last_verified": "2026-09-22",
+      "source_count": 6
     }
   ],
   "validation": {
