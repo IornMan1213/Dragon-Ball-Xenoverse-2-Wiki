@@ -2973,3 +2973,12 @@
 - [x] Live census: **234 canonical / 0 duplicate IDs / 138 strict-thin records**.
 - [x] Added and registered `docs/data/super-soul-177-186-197-199-reconciliation-2026-09-22.json`.
 - [ ] Next: continue the remaining evidence-rich unresolved Super Soul fields.
+
+
+### 2026-09-22 — Super Soul secondary-field queue update
+- [x] Reconciled duration/stacking semantics for **049, 053, 056, 058, 059, 060, 063, and 065** using maintained exact-name catalogue evidence plus independent historical evidence.
+- [x] Added explicit non-timed/condition-bound duration semantics where applicable and `Not reported as stackable` where no stacking rule/cap is documented.
+- [x] Added and registered `docs/data/super-soul-049-053-056-058-059-060-063-065-secondary-field-reconciliation-2026-09-22.json`.
+- [x] Refreshed live strict-thin census: **234 canonical / 0 duplicate IDs / 130 strict-thin records**.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Next priority: recompute the live strict-thin queue and continue the next evidence-supported early/base-game/high-impact cluster; preserve **032/034** as evidence boundaries unless exact-name mechanics evidence improves.
