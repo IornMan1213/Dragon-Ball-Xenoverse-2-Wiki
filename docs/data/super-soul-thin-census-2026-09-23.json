@@ -15,16 +15,16 @@
     "canonical_pq_super_soul_edges": 145,
     "corrected_pq_range": "151-155",
     "canonical_pq_super_soul_reverse_targets": 142,
-    "note": "Live canonical PQ-to-Super Soul relationship coverage is 146 forward edges / 143 unique reverse targets. The canonical relationship source is authoritative; five previously projected consumer edges are not present in verified_relationships and remain an explicit discrepancy boundary."
+    "note": "Live canonical PQ-to-Super Soul relationship coverage is 145 forward edges / 142 unique reverse targets after Super Soul 158 domain migration."
   },
-  "next_method": "Strict-thin queue is now 032 and 034. Continue bounded evidence work only where an authoritative/item-level source can change unresolved fields; otherwise preserve explicit nulls and advance to the broader P1 provenance/data queue.",
+  "next_method": "Strict-thin queue is 032 and 034. Continue bounded evidence only if authoritative/item-level evidence can change unresolved fields; otherwise preserve explicit nulls and continue the broader P1 provenance/data queue.",
   "status": "complete_current",
   "last_updated": "2026-09-23",
   "notes": [
     "Super Soul 158 was removed from the canonical Super Soul layer after exact repository evidence established the canonical skill-do-or-die target.",
     "The legacy 158 identity is preserved in docs/data/super-soul-158-canonical-domain-migration-2026-09-23.json.",
     "PQ Super Soul coverage is now 145 forward edges / 142 unique reverse targets after removing the false PQ49 Do or Die Super Soul edge.",
-    "Strict-thin queue is now 032, 034, 217; 158 is no longer a Super Soul research item.",
+    "Strict-thin queue is now 032 and 034; 158 is no longer a Super Soul research item.",
     "Super Soul 217 Limit Burst type/effect were resolved from an exact-name GameFAQs discussion; trigger remains unresolved/null. Record 217 therefore exits the strict-thin queue."
   ]
 }
