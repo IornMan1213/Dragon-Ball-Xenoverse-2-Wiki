@@ -6350,3 +6350,17 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Updated character layer, bridge, reverse index, gap inventory, reconciliation audit, and persistent handoff/TODO.
 - CI/runtime remains unavailable; no CI success claimed.
 - **Exact next task:** perform a dedicated provenance reconciliation of the final 3 conflicting character_source fields, with separate source-history evidence before changing canonical skill records.
+
+
+### 2026-09-23 cycle update — Final skill character-source provenance reconciliation
+
+- Reconciled the final **3 legacy character_source conflicts** using current dedicated skill-user evidence:
+  - **Destruction's Conductor → Vados**; Whis remains a documented Customize Partner user.
+  - **Flash Chaser → Majuub**; Goku (GT) remains a documented Customize Partner route.
+  - **Sonic Bomb → Frieza (1st Form)**; Omega Shenron and Super Baby 2 remain documented Customize Partner users.
+- Corrected the three legacy character_source values in docs/data/skills.json, preserving acquisition routes and adding explicit provenance notes rather than changing unrelated fields.
+- Refreshed the identity bridge and reverse index.
+- Skill→character identity bridge is now **39 resolved skill records / 50 canonical edges / 36 canonical character targets**, with **0 unresolved character-source entries** in this audit scope.
+- The broader non-character/CaC source inventory remains intentionally outside the canonical character bridge.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next task:** close this identity phase and advance to the next highest-priority exhaustive cross-domain/link-integrity task.
