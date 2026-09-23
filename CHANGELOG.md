@@ -2422,3 +2422,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - CI/runtime unavailable; no CI success claimed.
 - Commits: canonical `62a84b6fc501c00ee8e79f34b4a072bd6dff54dd`; index `c5716f8635c33bd9ac423e58fecb68bfb13a7bc2`; audit `28559c46a3dfded35b2525a3b5e51fb6bc08d644`; registry `eb14d28afd00784b41cb000a9ae0080b85094ae7`.
 - Exact next queue: recompute live state and continue from the next stale canonical record after **Burst Charge**; do not promote legacy-only Burning Spin unless a deliberate catalog-ingestion task is selected.
+
+### 2026-09-23 — P1 Burning skill provenance refresh
+- Refreshed **Burning Attack, Burning Blast, Burning Shot, Burning Slash, and Burning Swan** to `2026-09-23` in both `docs/data/skills.json` and `docs/data/skills-index.json`.
+- Rechecked current dedicated XV2 evidence and maintained PQ reward evidence; preserved existing acquisition tiers, Ultimate Finish flags, mechanics, costs, restrictions, and unresolved conflicts.
+- Burning Blast's explicit 50% Ultimate Finish condition remains authoritative in the canonical record despite the maintained reward guide's conflicting Basic Reward presentation.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-23-burning-through-burst.json`.
+- Validation target: **455 canonical / 455 index / 0 duplicate IDs / 5 targets synchronized**; no CI success claimed because no successful workflow status was exposed.
