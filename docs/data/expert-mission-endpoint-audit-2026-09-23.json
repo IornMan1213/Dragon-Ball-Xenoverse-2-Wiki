@@ -11,14 +11,14 @@
     },
     {
       "name": "Canonical skill edges",
-      "expected": 8,
-      "actual": 8,
+      "expected": 18,
+      "actual": 18,
       "pass": true
     },
     {
       "name": "Unresolved reward names",
-      "expected": 10,
-      "actual": 10,
+      "expected": 0,
+      "actual": 0,
       "pass": true
     },
     {
@@ -30,47 +30,6 @@
       "pass": true
     }
   ],
-  "unresolved_skill_consumers": [
-    {
-      "endpoint_id": "em-03",
-      "skill_name": "Murder Grenade"
-    },
-    {
-      "endpoint_id": "em-05",
-      "skill_name": "Death Wave"
-    },
-    {
-      "endpoint_id": "em-07",
-      "skill_name": "Death Meteor"
-    },
-    {
-      "endpoint_id": "em-08",
-      "skill_name": "Dead End Bullet"
-    },
-    {
-      "endpoint_id": "em-09",
-      "skill_name": "Assault Rain"
-    },
-    {
-      "endpoint_id": "em-10",
-      "skill_name": "Hellzone Grenade"
-    },
-    {
-      "endpoint_id": "em-11",
-      "skill_name": "Super Electric Strike"
-    },
-    {
-      "endpoint_id": "em-14",
-      "skill_name": "Shocking Death Ball"
-    },
-    {
-      "endpoint_id": "em-15",
-      "skill_name": "Blue Hurricane"
-    },
-    {
-      "endpoint_id": "em-17",
-      "skill_name": "Spirit Sword"
-    }
-  ],
-  "evidence_boundary": "The 18 mission→reward associations are projected from the existing acquisition index/evidence. Eight resolve to canonical skills.json IDs; ten remain explicit unresolved consumer gaps for later skill canonicalization."
+  "resolution": "The 10 previously unresolved EM03-15/EM14-15 reward names were promoted into skills.json from the repository's existing Expert Mission acquisition evidence. Their exact drop rates and per-clear guarantee conditions remain unresolved.",
+  "unresolved_skill_consumers": []
 }
