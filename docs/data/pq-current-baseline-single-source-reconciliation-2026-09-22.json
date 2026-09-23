@@ -28,13 +28,13 @@
     {
       "file": "docs/data/skill-pq-acquisition-presentation-audit.json",
       "state": "current",
-      "total_edges": 854,
+      "total_edges": 853,
       "skill_edges": 244
     },
     {
       "file": "docs/data/pq-cross-domain-index.md",
       "state": "current",
-      "total_edges": 854,
+      "total_edges": 853,
       "equipment": 124
     },
     {
@@ -44,10 +44,12 @@
       "equipment": 124
     }
   ],
-  "stale_current_looking_fields": [],
+  "stale_current_looking_fields": [
+    "docs/data/pq-endpoint-alias-granularity-map.json"
+  ],
   "historical_preservation_rule": "Do not rewrite dated 862/860/840 snapshots merely because they are old. Only fields explicitly presented as current/live/baseline may be corrected.",
   "relationship_integrity": "No new relationship edge is inferred by this audit. The PQ99 Mr. Shape Up L equipment endpoint remains excluded from the canonical current edge set.",
-  "next_gate": "Current 853/145 baseline is propagated through the repaired consumer set after the Super Soul 158 domain migration. Continue exact-pair parity scanning of remaining reverse/navigation projections; preserve prior 854/146 and older snapshots as historical evidence.",
+  "next_gate": "Continue exact-pair parity scanning of remaining reverse/navigation projections against the authoritative 853/145 baseline; preserve prior 854/146 and older snapshots as historical evidence.",
   "superseded_prior_baseline": {
     "total_edges": 854,
     "super_soul": 146,
