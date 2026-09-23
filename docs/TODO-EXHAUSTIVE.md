@@ -3261,3 +3261,12 @@
 - [x] Live strict-thin queue is now **032, 034, 158, 217**.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Next work: continue 032/034/158/217 with exact-name/item-level evidence; do not recreate 232-236 without a distinct game-data identity key.
+
+
+### 2026-09-23 — TODO checkpoint — remaining strict-thin Super Souls
+- [x] Recomputed live queue after 232-236 correction: **032, 034, 158, 217**.
+- [x] Completed a bounded exact-name evidence pass across all four remaining records without guessing missing mechanics.
+- [x] Added docs/data/super-soul-strict-thin-checkpoint-2026-09-23.json.
+- [x] Preserved evidence boundaries for 032, 034, 158, and 217; no strict-thin reduction claimed.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Next priority: **034 item-level mechanics/Limit Burst**, then **217 Limit Burst**.
