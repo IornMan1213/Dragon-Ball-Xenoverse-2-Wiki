@@ -6,10 +6,10 @@
   "canonical_skill_count": 465,
   "skills_with_character_source": 227,
   "source_tokens": 232,
-  "exact_bridge_matches": 209,
-  "unresolved_source_tokens": 23,
+  "exact_bridge_matches": 219,
+  "unresolved_source_tokens": 13,
   "non_character_source_tokens": 6,
-  "unresolved_character_or_variant_tokens": 17,
+  "unresolved_character_or_variant_tokens": 7,
   "findings": {
     "exact_matches": [
       "Android 13",
@@ -91,19 +91,9 @@
     ],
     "unresolved_character_or_variant": [
       {
-        "skill_id": "skill-blaster-ball",
-        "skill": "Blaster Ball",
-        "character_source": "Kefla"
-      },
-      {
         "skill_id": "skill-destruction-s-conductor",
         "skill": "Destruction's Conductor",
         "character_source": "Champa"
-      },
-      {
-        "skill_id": "skill-divine-kamehameha",
-        "skill": "Divine Kamehameha",
-        "character_source": "Goku (Ultra Instinct), Goku (Ultra Instinct -Sign-)"
       },
       {
         "skill_id": "skill-dragon-spiral",
@@ -116,54 +106,14 @@
         "character_source": "Kefla"
       },
       {
-        "skill_id": "skill-god-of-destruction-s-menace",
-        "skill": "God of Destruction's Menace",
-        "character_source": "Champa"
-      },
-      {
-        "skill_id": "skill-headshot",
-        "skill": "Headshot",
-        "character_source": "Beerus"
-      },
-      {
         "skill_id": "skill-indomitable",
         "skill": "Indomitable",
         "character_source": "Goku (Ultra Supervillain Quelled)"
       },
       {
-        "skill_id": "skill-raid-blast",
-        "skill": "Raid Blast",
-        "character_source": "Super Saiyan God Vegeta"
-      },
-      {
-        "skill_id": "skill-ray-blast",
-        "skill": "Ray Blast",
-        "character_source": "Kefla"
-      },
-      {
-        "skill_id": "skill-sauzer-blade",
-        "skill": "Sauzer Blade",
-        "character_source": "Sauzer"
-      },
-      {
         "skill_id": "skill-sonic-bomb",
         "skill": "Sonic Bomb",
         "character_source": "Champa"
-      },
-      {
-        "skill_id": "skill-spirit-explosion",
-        "skill": "Spirit Explosion",
-        "character_source": "Cooler"
-      },
-      {
-        "skill_id": "skill-spread-shot-retreat",
-        "skill": "Spread Shot Retreat",
-        "character_source": "Frieza"
-      },
-      {
-        "skill_id": "skill-super-black-kamehameha-rose",
-        "skill": "Super Black Kamehameha Rosé",
-        "character_source": "Goku Black (Super Saiyan Rosé)"
       },
       {
         "skill_id": "skill-venus-fist",
@@ -210,5 +160,5 @@
     ]
   },
   "evidence_boundary": "This is an identity/navigation gap inventory, not an assertion that unresolved source strings are incorrect. Variant naming, cast-only forms, customize-partner labels, and aggregate user lists require explicit reconciliation before adding bridge records.",
-  "next_action": "Reconcile remaining unresolved character_source tokens against the canonical character roster in bounded batches, prioritizing aggregate-user entries, exact canonical variants, and customize-partner identities."
+  "next_action": "Reconcile the remaining unresolved character_source tokens in bounded batches, prioritizing canonical roster identities; preserve source conflicts and promote missing canonical character records only when the character-layer evidence contract permits."
 }
