@@ -2305,3 +2305,11 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Evidence boundary: no silent ID remap or rename was performed.
 - CI/runtime: unavailable; no CI success claimed.
 - Exact next task: resolve the canonical ID mapping for the 158 conflict, then continue 217 Limit Burst evidence and 032.
+
+
+### 2026-09-23 cycle update — Super Soul 158 collision reconciliation
+- Fresh web evidence confirms **Do or Die** is a Power Up Type Super Skill and that Nail's actual Super Soul is **“I must protect Grand Elder Guru!”**. citeturn0search0turn0search1
+- The repository now treats record 158 as a **skill-name collision placeholder**, not as a Super Soul with unknown mechanics.
+- Added/registered `docs/data/super-soul-158-identity-reconciliation-2026-09-23.json`; checkpoint, TODO, and handoff updated.
+- No unsupported Super Soul fields were restored.
+- Next: **Super Soul 217** Limit Burst/item-level research, then **032**.
