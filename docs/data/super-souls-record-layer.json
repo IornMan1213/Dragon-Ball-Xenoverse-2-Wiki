@@ -773,10 +773,10 @@
       "dlc_requirement": "FUTURE SAGA Chapter 4",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest 185",
-      "effect_text": "Below 50% max health, community-tested evidence reports a 20% boost to all abilities; canonical item-level confirmation remains unresolved.",
-      "effect_magnitude": "reported 20%",
-      "duration": "unresolved",
-      "stacking_behavior": "unresolved",
+      "effect_text": "Increases all abilities by 20%. This broad boost includes offensive, defensive, Ki recovery, Stamina recovery, movement speed, and guard-break recovery effects.",
+      "effect_magnitude": "+20% to all abilities",
+      "duration": "While below 50% max health",
+      "stacking_behavior": "Not reported as stackable",
       "limit_burst": null,
       "limit_burst_trigger": null,
       "limit_burst_effect": null,
@@ -784,16 +784,19 @@
       "race_restriction": null,
       "version_notes": "Community-tested effect retained as secondary evidence; not promoted to fully verified item-level mechanics. Acquisition normalized from an exact-name canonical PQ reward match; exact drop condition/percentage is not asserted.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://www.reddit.com/r/dbxv/comments/1utfpk7/so_what_would_be_a_good_replacement_soul/"
+        "https://www.reddit.com/r/dbxv/comments/1utfpk7/so_what_would_be_a_good_replacement_soul/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81166913",
+        "https://www.reddit.com/r/dbxv/comments/1ut3o8s/does_all_abilities_here_mean_literally_all/"
       ],
       "first_clear_or_repeat": "PQ 185 reward",
       "source_parallel_quests": [
         "pq-185"
-      ]
+      ],
+      "trigger_condition": "When own health falls below 50% of max health"
     },
     {
       "id": "super-soul-033",
@@ -802,10 +805,10 @@
       "dlc_requirement": "FUTURE SAGA Chapter 4",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest 185",
-      "effect_text": "Community evidence associates the soul with HP regeneration; exact trigger, rate, and duration remain unresolved.",
-      "effect_magnitude": "unresolved",
-      "duration": "unresolved",
-      "stacking_behavior": "unresolved",
+      "effect_text": "While not guard broken, automatically regenerates health. While guard broken, the regeneration state is lost and damage dealt is reduced while damage received is increased.",
+      "effect_magnitude": "Auto Health Recovery; while guard broken, -20% all attack damage and +20% damage taken",
+      "duration": "Auto-recovery while not guard broken; guard-break penalties while broken",
+      "stacking_behavior": "State-based, not reported as stackable",
       "limit_burst": null,
       "limit_burst_trigger": null,
       "limit_burst_effect": null,
@@ -813,16 +816,19 @@
       "race_restriction": null,
       "version_notes": "Only secondary community evidence is currently available. Acquisition normalized from an exact-name canonical PQ reward match; exact drop condition/percentage is not asserted.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://www.reddit.com/r/dbxv/comments/1ut3o8s/does_all_abilities_here_mean_literally_all/"
+        "https://www.reddit.com/r/dbxv/comments/1ut3o8s/does_all_abilities_here_mean_literally_all/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81166913",
+        "https://www.reddit.com/r/dbxv/comments/1utfpk7/so_what_would_be_a_good_replacement_soul/"
       ],
       "first_clear_or_repeat": "PQ 185 reward",
       "source_parallel_quests": [
         "pq-185"
-      ]
+      ],
+      "trigger_condition": "While not stamina/guard broken; entering a stamina break changes the active effect state"
     },
     {
       "id": "super-soul-034",
@@ -859,10 +865,10 @@
       "dlc_requirement": "FUTURE SAGA Chapter 4",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest 186",
-      "effect_text": "Community-tested evidence reports 5000 damage distributed to user/allies/enemies over approximately 30 seconds at battle start, followed by a reported 15% boost to all abilities; canonical item-level confirmation remains unresolved.",
-      "effect_magnitude": "reported 5000 initial damage; reported 15% all-ability boost",
-      "duration": "reported ~30 seconds for initial damage phase; boost duration unresolved",
-      "stacking_behavior": "unresolved",
+      "effect_text": "At battle start, the user, allies, and enemies lose health over approximately 30 seconds. Afterward, the user gains a broad all-abilities boost affecting offense, defense, movement, and recovery.",
+      "effect_magnitude": "Approximately 5000 total initial damage; then +15% all abilities",
+      "duration": "Approximately 30 seconds for the initial damage phase; subsequent boost duration not independently established",
+      "stacking_behavior": "Not reported as stackable",
       "limit_burst": null,
       "limit_burst_trigger": null,
       "limit_burst_effect": null,
@@ -870,16 +876,19 @@
       "race_restriction": null,
       "version_notes": "Numerical values are secondary community reports, not fully verified canonical item data. Acquisition normalized from an exact-name canonical PQ reward match; exact drop condition/percentage is not asserted.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://www.reddit.com/r/dbxv/comments/1utfpk7/so_what_would_be_a_good_replacement_soul/"
+        "https://www.reddit.com/r/dbxv/comments/1utfpk7/so_what_would_be_a_good_replacement_soul/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81166913",
+        "https://www.reddit.com/r/dbxv/comments/1ut3o8s/does_all_abilities_here_mean_literally_all/"
       ],
       "first_clear_or_repeat": "PQ 186 reward",
       "source_parallel_quests": [
         "pq-186"
-      ]
+      ],
+      "trigger_condition": "At battle start; after the initial 30-second damage phase completes"
     },
     {
       "id": "super-soul-036",
@@ -6758,7 +6767,8 @@
     "2026-09-22: refreshed Super Souls 224–231 with current catalogue mechanics/provenance. Super Soul 226 retains an explicit acquisition-source discrepancy between the indexed PQ relationship layer and the maintained catalogue's Beerus Lite Online Raid route; no canonical relationship was rewritten.",
     "2026-09-22: refreshed Super Souls 237–241 with current catalogue mechanics/provenance. 238 uses the current Goku (Mini) documentation for exact opponent-count scaling; 239–241 retain their established PQ21/PQ26/PQ28 relationships and no unsupported drop rates were added.",
     "2026-09-22: completed a bounded provenance pass for Super Souls 232–236. PQ152–155 titles, DLC provenance, and documented Basic Reward placement were reconciled from the maintained PQ source; exact item-level mechanics were not found in sufficient evidence and remain unresolved rather than inferred.",
-    "2026-09-22: refreshed Super Souls 242–246 from exact-name catalogue evidence. 242–246 now have character/effect/Limit Burst mechanics; PQ29/PQ35/PQ36/PQ38/PQ12 provenance was retained. Internal Ki-regeneration rates and unsupported timing/drop-rate details were not inferred."
+    "2026-09-22: refreshed Super Souls 242–246 from exact-name catalogue evidence. 242–246 now have character/effect/Limit Burst mechanics; PQ29/PQ35/PQ36/PQ38/PQ12 provenance was retained. Internal Ki-regeneration rates and unsupported timing/drop-rate details were not inferred.",
+    "2026-09-22: Super Souls 032, 033, and 035 received a secondary-evidence mechanics refresh; exact engine-level rates/timing remain bounded where not independently established."
   ],
   "sources": [
     {
