@@ -4539,3 +4539,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - Commits: `aaa0ae605eb60b5b37f8959fd4b950142dcfa75f`, `0b656b6a3ac9461c9b5c483966981d31301cf4f7`, `2f5cbf7da971a9a6a314770ba764c1cd9ed21ee3`.
 - Exact next task: recompute the live strict-thin Super Soul census and continue the next evidence-supported high-impact cluster, beginning with the remaining one-field records identified by the latest live queue; preserve **032/034** as evidence boundaries.
+
+### 2026-09-23 cycle update — Super Soul 087–095 canonical secondary-field synchronization
+- Live census before editing: **234 canonical / 0 duplicate IDs / 93 strict-thin records**.
+- Bounded batch: **Super Souls 087–095**.
+- Research/evidence: existing exact-name duration reconciliation plus current exact-name catalogue and independent GameFAQs evidence; the evidence documents condition-bound, permanent-while-equipped, trigger-bound, timed, instantaneous, and end-of-battle semantics, while providing no numeric stacking caps for this batch. citeturn1search1turn0search0turn0search5
+- Changes: synchronized canonical `duration` fields for **087–090 and 092–095**; **091** already had its duration synchronized. Set `stacking_behavior` to **Not reported as stackable** for all nine because no documented stacking mechanic/cap was established.
+- Evidence limits preserved: **089** retains an unresolved finite timer; no stack cap or unsupported timer was invented.
+- Added canonical-sync metadata to `docs/data/super-soul-087-095-duration-reconciliation-2026-09-22.json` and refreshed `docs/data/super-soul-thin-census-2026-09-22.json`.
+- Validation: **234 canonical / 0 duplicate IDs / 85 strict-thin records**; all nine batch records now have all eight strict-core fields populated. JSON re-read/parse succeeded.
+- CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- Commits: `79ced2a6564e3d898d6faf3c235a30efe2cc2bfb`, `489ddac383a18f03723470beac739d8d562363f5`, `b2072ddb25ae4660768f763d70d6be315dc072b1`, `94450bfa343e41652e5cbe318ac0ca739b447ca5`.
+- Exact next batch: recompute the live strict-thin queue and continue the next evidence-supported early/base-game/high-impact cluster; prioritize records with multiple unresolved core fields and at least two independent exact-name sources, while preserving **032/034** as evidence boundaries.
