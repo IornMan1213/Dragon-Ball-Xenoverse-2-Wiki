@@ -136,6 +136,16 @@
         "super-soul-061"
       ],
       "relationship_changes": 0
+    },
+    "super_soul_033_035_provenance": {
+      "audit_file": "docs/data/super-soul-033-035-provenance-audit-2026-09-22.json",
+      "status": "audited",
+      "last_verified": "2026-09-22",
+      "records": [
+        "super-soul-033",
+        "super-soul-035"
+      ],
+      "relationship_changes": 0
     }
   },
   "validation_tools": {
