@@ -2992,3 +2992,11 @@
 - [x] Refreshed live strict-thin census: **234 canonical / 0 duplicate IDs / 123 strict-thin records**.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Next priority: recompute the live strict-thin queue and continue the next evidence-supported one-field cluster; preserve genuine evidence boundaries and the known 044 wording conflict.
+
+
+### 2026-09-22 — Super Soul duration queue update
+- [x] Reconciled duration semantics for **070, 071, 078, and 080** using exact-name catalogue/stat-sheet evidence.
+- [x] Added and registered `docs/data/super-soul-070-071-078-080-duration-reconciliation-2026-09-22.json`.
+- [x] Refreshed live strict-thin census: **234 canonical / 0 duplicate IDs / 119 strict-thin records**.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Next priority: recompute the live strict-thin queue and continue the next evidence-supported one-field cluster, starting with the strongest exact-name candidates.
