@@ -3443,3 +3443,12 @@
 - [x] No canonical relationship rows were added, deleted, renamed, or inferred.
 - [ ] Runtime/CI remains unavailable; no executable validation success claimed.
 - [ ] Exact next priority: inspect remaining current-facing PQ page templates and DLC requirement presentation for one-way navigation, stale scalars, and endpoint identity drift; repair deterministic navigation gaps only.
+
+
+### 2026-09-23 cycle update — PQ explorer deep-link/DLC navigation repair
+- [x] Fixed `docs/Parallel-Quests-All.html` inbound `?q=` deep-link initialization.
+- [x] Routed PQ→DLC links through the query-aware `/Search/` surface instead of a non-filtering `DLC-Overview/?q=` destination.
+- [x] Added validator checks for PQ explorer query deep-link support and the new PQ→DLC search destination.
+- [x] Recorded the repair in the PQ explorer/direct-template navigation audits.
+- [ ] Runtime/CI remains unavailable; no executable validation success claimed.
+- [ ] Exact next priority: inspect character and Super Soul reverse-navigation destinations for the same query/deep-link contract and repair deterministic gaps.
