@@ -4688,3 +4688,14 @@
 - [x] Updated bridge, reverse index, reconciliation audit, gap inventory, and persistent handoff.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** reconcile the next unresolved aggregate-user/customize-partner cluster with deterministic canonical identities where evidence permits.
+
+
+### 2026-09-23 cycle update — Aggregate/customize-partner skill-character batch
+
+- [x] Reconciled 6 additional unresolved source entries / 9 canonical skill→character edges.
+- [x] Cumulative bridge: **20 resolved skill records / 27 canonical edges / 15 canonical character targets**.
+- [x] Refreshed gap inventory: **26 unresolved character/variant entries remain**.
+- [x] Preserved unresolved contradictions and non-character/CaC sources outside the identity bridge.
+- [x] Updated persistent handoff and reconciliation audit.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** continue the remaining aggregate-user/variant cluster using exact canonical roster evidence.
