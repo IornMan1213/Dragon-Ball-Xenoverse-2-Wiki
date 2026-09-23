@@ -4134,3 +4134,12 @@
 - [x] Validation: **455 canonical / 455 index / 0 duplicate IDs / 385 stale**; target parity clean.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next batch: **Crush Cannon, Crush Stream, Crusher Ball, Dancing Parapara, Dark Inscription, Darkness Eye Beam, Darkness Rush (Melee), Darkness Rush (Ranged), Darkness Twin Star, Data Input**.
+
+
+### 2026-09-23 — TODO completion update — P1 Crush Cannon through Dark Inscription
+- [x] Completed **Crush Cannon, Crush Stream, Crusher Ball, Dancing Parapara, Dark Inscription** provenance refresh.
+- [x] Synchronized canonical/index verification dates to **2026-09-23**.
+- [x] Added/registered **docs/data/skill-provenance-audit-2026-09-23-crush-cannon-through-dark-inscription.json**.
+- [x] Validation: **455 canonical / 455 index / 0 duplicate IDs / 380 stale**; target parity clean.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next batch: **Darkness Eye Beam, Darkness Rush (Melee), Darkness Rush (Ranged), Darkness Twin Star, Data Input, Dead End Rain, Deadly Dance, Death Ball, Death Beam, Death Crasher**.
