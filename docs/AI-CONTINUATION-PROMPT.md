@@ -5737,3 +5737,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: **455/455**, **0 duplicate IDs**, **10 targets synchronized**, stale queue **340**.
 - CI/runtime: no successful status exposed; no CI success claimed.
 - Exact next action: recompute the live stale queue and continue from the next stale canonical records.
+
+
+### 2026-09-23 cycle update — P1 Double Crush through Dust Attack provenance refresh
+- Live census before editing: **455 canonical / 455 index / 0 duplicate IDs / 340 stale**.
+- Bounded batch: **Double Crush, Double Death Slicer, Double Sunday, Dragon Blitz, Dragon Burn, Dragon Fist, Dragon Spark, Dragon Spiral, Dragon Thunder, Drain Field, Dual Destructo-Disc, Dust Attack**.
+- Research/evidence: rechecked the existing repository-maintained dedicated skill references, PQ/mentor provenance, official DLC references where already present, and independent player/reference sources retained in each record; no unsupported field was inferred.
+- Changes: refreshed canonical/index last_verified to **2026-09-23** and appended a provenance-refresh note to each target; acquisition routes, costs, mechanics, DLC classifications, and existing conflicts were preserved.
+- Added/registered `docs/data/skill-provenance-audit-2026-09-23-double-crush-through-dust-attack.json` and refreshed `docs/data/skill-stale-metadata-census-2026-09-23.json`.
+- Validation: **455 canonical / 455 index / 328 stale** after the batch; target source/date parity clean; no unsupported inference introduced.
+- CI/runtime: unavailable; no CI success claimed.
+- Exact next batch: recompute the live stale queue, then continue with the first alphabetical stale records returned by the fresh census.
