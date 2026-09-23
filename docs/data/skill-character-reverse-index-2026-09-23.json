@@ -55,6 +55,7 @@
       "skill_ids": [
         "skill-crazy-finger-shot",
         "skill-death-slash",
+        "skill-sonic-bomb",
         "skill-spread-shot-retreat"
       ]
     },
@@ -187,6 +188,12 @@
       ]
     },
     {
+      "canonical_character_name": "Majuub",
+      "skill_ids": [
+        "skill-flash-chaser"
+      ]
+    },
+    {
       "canonical_character_name": "Rosé Goku Black",
       "skill_ids": [
         "skill-super-black-kamehameha-rose"
@@ -202,6 +209,12 @@
       "canonical_character_name": "SSGSS Vegeta",
       "skill_ids": [
         "skill-x-100-big-bang-kamehameha"
+      ]
+    },
+    {
+      "canonical_character_name": "Vados",
+      "skill_ids": [
+        "skill-destruction-s-conductor"
       ]
     },
     {
@@ -224,9 +237,9 @@
     }
   ],
   "counts": {
-    "resolved_skill_records": 36,
-    "resolved_canonical_skill_edges": 47,
-    "canonical_character_targets": 34
+    "resolved_skill_records": 39,
+    "resolved_canonical_skill_edges": 50,
+    "canonical_character_targets": 36
   },
   "evidence_boundary": "This reverse projection contains only resolved identity edges. It does not infer every character that can equip a skill, every customize-partner route, or generic Future Warrior/CaC availability."
 }
