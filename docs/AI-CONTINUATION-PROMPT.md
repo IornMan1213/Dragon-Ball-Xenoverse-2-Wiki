@@ -5197,3 +5197,9 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: new audit JSON parses; official costume count 8; six-target batch has 1 exact canonical match and 5 remaining without exact canonical records; cross-domain registration confirmed. CI/runtime remains unavailable; no CI success claimed.
 - Commits: 8ff5b16091c26d061abbce7c36452627fa2ecc1a (new costume audit), 62c7722a6dd84fde357b538fbdc7adb057a27158 (cross-domain registration), 92d23e8a778a0cfeb8df52052dca79d9791b7cf7 (pack reconciliation), 021055320e42f0c6c37c96b85fe5c37b099f906f (TODO update).
 - Exact next batch: resolve the five remaining Time Patrol Support Pack costume identities only when individually source-backed and compatible with the existing equipment architecture; then reconcile unmatched pack skills/Puar without inventing IDs, before returning to the remaining DAIMA/HOJ2 paid-content gaps.
+
+
+### 2026-09-23 correction — TODO history preservation after costume audit
+- [x] Restored docs/TODO-EXHAUSTIVE.md from its pre-cycle live history after an intermediate write-path mistake, preserving the complete append-only history, then appended the Time Patrol Support Pack costume audit as the durable final TODO state.
+- [x] Final TODO commit: d091356d24112c9b9b4bc48f30f8288234cc77b4; final TODO blob restored to the historical base plus the new audit entry.
+- [x] The earlier temporary execution-note mutation is not part of the final TODO content; Git history still records the intermediate commits for traceability.
