@@ -4858,3 +4858,13 @@
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Commits:** preset layer `c3f2eabd39b59466458a45be7f7d1c68ac4e40e8`; corrected audit `cdbc3128d7bbe5c8487c77c05ea421eec5535e3f`.
 - **Exact next batch:** continue with another **4–8 explicit preset records**, prioritizing Goku and other records whose numbered in-game-data tables can be matched unambiguously to the existing preset IDs; do not promote Festival/custom-partner configurations as ordinary numbered presets.
+
+
+### 2026-09-23 cycle update — Goku preset evidence boundary review
+- [x] Reviewed the current Goku in-game-data table as the next high-priority preset source.
+- [x] Confirmed the source provides complete named loadouts across Goku's many rows, including Turtle Hermit Gi, King Kai, Goku (Go), No Character, and Whis Symbol configurations. citeturn2search0
+- [x] **Did not promote Goku's numeric repository records** because `goku-preset-2` through `goku-preset-16` do not have an explicit source mapping to those named table rows. Row-order conversion would be an unsupported inference.
+- [x] Added this evidence boundary to `docs/data/character-preset-skill-navigation-audit-2026-09-23.json`.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Commit:** `01a3034be79033856a1b61bad8db32951a5cc06d`.
+- **Exact next task:** find an explicit numeric/name mapping for Goku or move to another indexed preset whose source directly identifies the same preset number/name; continue promoting only unambiguous records.
