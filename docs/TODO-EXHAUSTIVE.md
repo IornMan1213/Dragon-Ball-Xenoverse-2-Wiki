@@ -4729,3 +4729,16 @@
 - [x] Preserved source wording and evidence boundaries; no exhaustive equipability claims were inferred from the source-token bridge.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** assess canonical character-layer promotion/reconciliation for **Goku (Ultra Supervillain Quelled)** and **Vegeta (GT)**, then continue the remaining unresolved/conflict entries without fabricating identities.
+
+
+### 2026-09-23 cycle update — Future Saga character-layer promotion and identity batch
+
+- [x] Promoted **Goku (Ultra Supervillain Quelled)** into the canonical character layer using current official Future Saga Chapter 4 evidence.
+- [x] Promoted **Vegeta (GT)** from the existing DLC character inventory into the canonical character-name layer.
+- [x] Reconciled **Dragon Spiral**, **Indomitable**, and **Venus Fist** → Goku (Ultra Supervillain Quelled).
+- [x] Reconciled **Wild Buster** → Vegeta (GT).
+- [x] Refreshed bridge/reverse-index totals to **36 resolved skill records / 47 edges / 34 canonical character targets**.
+- [x] Reduced unresolved character/variant identity entries to **3**.
+- [x] Preserved the remaining Destruction's Conductor, Flash Chaser, and Sonic Bomb source conflicts without rewriting provenance fields.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** dedicated provenance reconciliation of the final 3 conflicting character_source fields.
