@@ -5443,6 +5443,10 @@
       "super_soul_rewards": [
         "I think I'm getting the hang of this.",
         "I'll keep adding a bit of power to my attacks!"
+      ],
+      "super_soul_ids": [
+        "super-soul-100",
+        "super-soul-098"
       ]
     },
     {
@@ -5488,6 +5492,9 @@
         "Android 17 (DB Super) Ranger Outfit",
         "Android 17 (DB Super) Ranger Wig",
         "Android 17 (DB Super) Wig"
+      ],
+      "super_soul_ids": [
+        "super-soul-101"
       ]
     },
     {
@@ -5531,6 +5538,10 @@
       "super_soul_rewards": [
         "There's more where that came from!",
         "You're not much of a fun fight!"
+      ],
+      "super_soul_ids": [
+        "super-soul-099",
+        "super-soul-102"
       ]
     },
     {
