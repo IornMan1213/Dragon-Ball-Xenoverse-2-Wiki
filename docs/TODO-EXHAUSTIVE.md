@@ -2743,3 +2743,12 @@
 - [x] No canonical PQ relationship changed.
 - [ ] CI/runtime: no successful workflow/check exposed.
 - [ ] Next priority: continue the deterministic early/base-game thin census, prioritizing genuinely unresolved applicable mechanics.
+
+### 2026-09-22 cycle update — Super Soul 245–246 research promotion
+- [x] Promoted **Super Soul 245** ("This fight...is truly pointless...") and **246** ("I actually felt that one...") from `partially_verified` to `researched`.
+- [x] Reconfirmed exact-name character, mechanics, Limit Burst, and PQ provenance: **245→PQ038**, **246→PQ012**.
+- [x] Preserved unresolved engine-level timing/rate details and did not add unsupported reward probabilities or Ultimate-Finish requirements.
+- [x] Updated and registered `docs/data/super-soul-242-through-246-provenance-audit-2026-09-22.json` in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: **234 canonical Super Souls / 0 duplicate IDs**; both selected records are researched and retain canonical PQ edges.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Exact next priority: recompute the live Super Soul thin-system census with the established repository definition and select the next **4–12 highest-impact unresolved records**. Keep **232–236** as evidence-boundary records unless exact-name mechanics evidence becomes sufficient; otherwise move to another evidence-supported cluster.
