@@ -4557,3 +4557,12 @@
 - [x] Updated both acquisition audit data and preserved evidence boundaries.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** build/reconcile the dedicated Expert Mission and mentor endpoint layer, then address Tokipedia/Conton City Patrol endpoint consumers and cross-links.
+
+
+### 2026-09-23 — TODO completion update — Expert Mission endpoint layer
+- [x] Added stable EM03–EM20 acquisition endpoints.
+- [x] Added 8 canonical Expert Mission→skill edges.
+- [x] Captured 10 unresolved reward-name consumers without inventing IDs.
+- [x] Added Expert Mission endpoint audit and contract baseline.
+- [ ] Promote/reconcile the 10 unresolved Expert Mission skill identities.
+- **Exact next task:** reconcile those 10 canonical skill gaps, then build Tokipedia and Conton City Patrol endpoint consumers.
