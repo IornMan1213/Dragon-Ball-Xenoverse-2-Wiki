@@ -2622,3 +2622,12 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Validation: 455 canonical / 455 index / 0 duplicate IDs / 220 stale / 0 target parity mismatches.
 - CI/runtime unavailable; no CI success claimed.
 - Next exact batch: Hero's Flute, Hero's Pose, Heroic Assault, Heroic Counter, Holy Inscription, Holy Wrath, Hyper Tornado, Ill Bomber, Ill Rain, Impact Flare, Impulse Slash, Indomitable.
+
+
+## 2026-09-23 — P1 Meteor-through-One-Handed Kamehameha skill provenance/mechanics refresh
+- Completed 12 stale canonical skills and synchronized their index projections to 2026-09-23.
+- Added and registered docs/data/skill-provenance-audit-2026-09-23-meteor-through-one-handed-kamehameha.json.
+- Refreshed the live stale census to 160 stale / 295 current / 455 canonical / 0 duplicate IDs.
+- Preserved evidence conflicts and unresolved acquisition/mechanics boundaries; no unsupported values were inferred.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next batch: Orin Combo, Paralysis, Paralyze Beam, Pendulum Bullet, Perfect Kamehameha, Perfect Shot, Petrifying Spit, Phantom Fist, Photon Swipe, Potential Unleashed, Power Blitz, Power Impact.

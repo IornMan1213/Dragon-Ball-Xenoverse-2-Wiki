@@ -5,84 +5,12 @@
   "source_of_truth": "docs/data/skills.json",
   "live_counts": {
     "canonical_skill_records": 455,
-    "current_last_verified_records": 283,
-    "stale_last_verified_records": 172,
+    "current_last_verified_records": 295,
+    "stale_last_verified_records": 160,
     "duplicate_ids": 0
   },
   "method": "Fresh alphabetical census of canonical records where last_verified != 2026-09-23.",
   "next_stale_records": [
-    {
-      "id": "skill-meteor-blow",
-      "name": "Meteor Blow",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-meteor-burst",
-      "name": "Meteor Burst",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-meteor-crash",
-      "name": "Meteor Crash",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-meteor-explosion",
-      "name": "Meteor Explosion",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-meteor-strike",
-      "name": "Meteor Strike",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-mighty-explosive-wave",
-      "name": "Mighty Explosive Wave",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-milky-cannon",
-      "name": "Milky Cannon",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-mystic-flash",
-      "name": "Mystic Flash",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-namek-finger",
-      "name": "Namek Finger",
-      "last_verified": "2026-09-22",
-      "source_count": 4
-    },
-    {
-      "id": "skill-neo-tri-beam",
-      "name": "Neo Tri-Beam",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-neo-wolf-fang-fist",
-      "name": "Neo Wolf Fang Fist",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-one-handed-kamehameha-mk-ii",
-      "name": "One-Handed Kamehameha mk.II",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
     {
       "id": "skill-orin-combo",
       "name": "Orin Combo",
@@ -128,6 +56,78 @@
     {
       "id": "skill-phantom-fist",
       "name": "Phantom Fist",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-photon-swipe",
+      "name": "Photon Swipe",
+      "last_verified": "2026-09-22",
+      "source_count": 5
+    },
+    {
+      "id": "skill-potential-unleashed",
+      "name": "Potential Unleashed",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-power-blitz",
+      "name": "Power Blitz",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-power-impact",
+      "name": "Power Impact",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-power-pole-pro",
+      "name": "Power Pole Pro",
+      "last_verified": "2026-09-22",
+      "source_count": 4
+    },
+    {
+      "id": "skill-power-rush",
+      "name": "Power Rush",
+      "last_verified": "2026-09-22",
+      "source_count": 5
+    },
+    {
+      "id": "skill-power-wall",
+      "name": "Power Wall",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-powered-shell",
+      "name": "Powered Shell",
+      "last_verified": "2026-09-22",
+      "source_count": 4
+    },
+    {
+      "id": "skill-prelude-to-destruction",
+      "name": "Prelude to Destruction",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-prepare-to-be-punished",
+      "name": "Prepare to be Punished",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-present-for-you",
+      "name": "Present For You",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-pressure-sign",
+      "name": "Pressure Sign",
       "last_verified": "2026-09-22",
       "source_count": 3
     }

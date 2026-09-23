@@ -5902,3 +5902,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Added and registered docs/data/skill-provenance-audit-2026-09-23-godly-chronos-through-hell-flash.json.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next batch: Hero's Flute, Hero's Pose, Heroic Assault, Heroic Counter, Holy Inscription, Holy Wrath, Hyper Tornado, Ill Bomber, Ill Rain, Impact Flare, Impulse Slash, Indomitable. Recompute live stale queue before editing.
+
+
+### 2026-09-23 cycle update — P1 Meteor-through-One-Handed Kamehameha skill provenance/mechanics refresh
+- Completed the next alphabetical stale-skill batch: 12 records — Meteor Blow, Meteor Burst, Meteor Crash, Meteor Explosion, Meteor Strike, Mighty Explosive Wave, Milky Cannon, Mystic Flash, Namek Finger, Neo Tri-Beam, Neo Wolf Fang Fist, One-Handed Kamehameha mk.II.
+- Synchronized docs/data/skills.json and docs/data/skills-index.json with last_verified=2026-09-23; preserved existing evidence boundaries.
+- Added and registered docs/data/skill-provenance-audit-2026-09-23-meteor-through-one-handed-kamehameha.json and refreshed the live stale census.
+- Live skill census: 455 canonical / 295 current / 160 stale / 0 duplicate IDs.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next batch: Orin Combo, Paralysis, Paralyze Beam, Pendulum Bullet, Perfect Kamehameha, Perfect Shot, Petrifying Spit, Phantom Fist, Photon Swipe, Potential Unleashed, Power Blitz, Power Impact.
