@@ -4200,3 +4200,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Commit: canonical Super Soul data **55fbdb048c4e63eb019c52986e81ebf12b805697**; refreshed census **507ea19864a4c5c78a5a17629c71b86feb6e7278**.
 - [ ] CI/runtime: no successful workflow/check exposed; do not claim CI success.
 - [ ] Exact next priority: continue the deterministic partially-verified Super Soul census, preferring records with multiple unresolved core fields and at least two independent exact-name sources. Recheck **054** only if stronger Limit Burst evidence appears; otherwise move to the next evidence-supported cluster. Do not create a new continuation prompt.
+
+### 2026-09-22 cycle update — Super Souls 049/060 evidence strengthening
+- [x] Continued the deterministic partially-verified Super Soul census after the raid batch.
+- [x] Selected **049 — "Killed all Earthlings!"** and **060 — "I...hate you!!!"** because both had complete meaningful mechanics already populated but lacked an independent historical source beyond the maintained catalogue/research corpus.
+- [x] Added the independent GameFAQs Super Soul guide to both records.
+- [x] Promoted **049** and **060** to `verified_secondary`.
+- [x] Preserved evidence boundaries: 049 remains an always-active effect with no invented timed duration/stacking; 060 retains the known Charged Ki Blast vs Ki Blast Skill wording discrepancy rather than silently normalizing it.
+- [x] Refreshed live thin census: **234 records / 0 duplicate IDs / 182 strict-thin records** under the current eight-field definition.
+- [x] Commits: canonical **fb2dd563cfeeb5c4ef6dc127523e7943fc5fb2f**; census **7dda4fe942b4503a7f99134ea55a61019c41c6b9**.
+- [ ] CI/runtime: no successful workflow/check exposed; do not claim CI success.
+- [ ] Exact next priority: continue the deterministic partially-verified census. **034** remains an evidence-boundary record because item-level mechanics are still unresolved; next eligible records are the high-source-count partially verified records such as **032, 191, 194, 196, 197, 199, 155, 173–175, 177, 179, 186, 187**. Promote only fields independently supported by exact-name evidence. Do not create another continuation prompt.
