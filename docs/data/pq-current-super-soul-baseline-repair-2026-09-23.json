@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-23",
+  "scope": "Deterministic current PQ relationship consumer baseline repair after verified Super Soul 151-to-146 correction",
+  "source_of_truth": "docs/data/pq-reward-relationships.json",
+  "live_baseline": {
+    "total_edges": 854,
+    "skill": 244,
+    "super_soul": 146,
+    "equipment": 124,
+    "character": 247,
+    "dlc": 86,
+    "farming": 7,
+    "super_soul_reverse_endpoints": 143
+  },
+  "repaired_files": [
+    "docs/data/pq-relationship-producer-census.json",
+    "docs/data/pq-cross-domain-status.json",
+    "scripts/validate_pq_non_pq_consumer_census.py"
+  ],
+  "changes": [
+    "Synchronized producer current total and Super Soul projection/reverse-index scalars to 854 total / 146 forward / 143 reverse.",
+    "Synchronized cross-domain status current consistency projections to 854 total and 146 Super Soul edges; historical snapshots remain preserved.",
+    "Updated the non-PQ consumer validator producer master-total assertion from 859 to 854."
+  ],
+  "validation_contract": {
+    "canonical_counts": "854 / 244 / 146 / 124 / 247 / 86 / 7",
+    "super_soul_forward_reverse": "146 / 143",
+    "historical_snapshots_preserved": true,
+    "no_relationship_rows_added_or_removed": true
+  },
+  "evidence_boundary": "Only deterministic current projections and validator expectations were changed; no relationship edge was added, deleted, renamed, or inferred.",
+  "ci": "Unavailable; no CI success claimed.",
+  "next_gate": "Scan remaining current PQ consumer/navigation validators for stale 859/151 projections, then continue deterministic navigation/index repairs."
+}
