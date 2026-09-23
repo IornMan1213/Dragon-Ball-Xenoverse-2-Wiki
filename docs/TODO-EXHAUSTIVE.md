@@ -4384,3 +4384,12 @@
 - [x] Validation: 455/455 / 0 duplicate IDs / 112 stale; target stale remaining 0.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next batch: Rolling Bullet, Rolling Hercule Punch, Rough Ranger, S.S. Deadly Bomber, Saiyan Blaster, Saiyan Spirit, Saturday Crash, Sauzer Blade, Savory Slicer, Scatter Kamehameha, Scissors Paper Rock, Seagull Combination; recompute the live stale queue before editing.
+
+
+### 2026-09-23 — TODO completion update — P1 Rolling Bullet through Seagull Combination
+- [x] Completed **12 skills**: Rolling Bullet, Rolling Hercule Punch, Rough Ranger, S.S. Deadly Bomber, Saiyan Blaster, Saiyan Spirit, Saturday Crash, Sauzer Blade, Savory Slicer, Scatter Kamehameha, Scissors Paper Rock, Seagull Combination.
+- [x] Synchronized canonical/index `last_verified` to **2026-09-23** and appended bounded provenance-refresh notes while preserving existing acquisition, reward-tier, DLC, restriction, and unresolved-mechanics boundaries.
+- [x] Refreshed `docs/data/skill-stale-metadata-census-2026-09-23.json` to the live **455 canonical / 455 index / 355 current / 100 stale / 0 duplicate IDs** state.
+- [x] Prepared the bounded provenance audit payload for `docs/data/skill-provenance-audit-2026-09-23-rolling-through-seagull-combination.json`; repository connector write could not attach the new file to `main` after blob/tree creation, so no audit-file commit is claimed.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next action: process **Secret Poison, Shadow Crusher, Shield Barrier, Shine Shot, Shining Friday, Shining Slash, Shooting Strike, Side Bridge, Sign of Awakening, Sneaky Strike, Soaring Fist, Soaring Rush** against their maintained source sets, synchronize canonical/index layers, add the bounded audit, and recompute the live stale census.
