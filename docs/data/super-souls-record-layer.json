@@ -5551,17 +5551,18 @@
       "effect_text": "Temporarily reduces damage taken from all attacks; while health is below 25%, reduces damage taken from all attacks.",
       "effect_magnitude": "-20% for 10 seconds (once only); then -15% while health remains below 25%",
       "duration": "10 seconds for the once-only -20% effect; the -15% effect persists while health remains below 25%",
-      "stacking_behavior": null,
+      "stacking_behavior": "Not reported as stackable",
       "limit_burst": "Race Default",
       "limit_burst_trigger": null,
       "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Mechanics and character source refreshed from the maintained Super Soul catalogue and independent corroboration. Exact reward/drop semantics beyond the canonical PQ reward relationship are not asserted.",
+      "version_notes": "Mechanics and character source refreshed from the maintained Super Soul catalogue and independent corroboration. Exact reward/drop semantics beyond the canonical PQ reward relationship are not asserted. Exact-name catalogue reconciliation: the maintained Super Soul list does not report a stack cap for this record; stacking is therefore recorded as not reported rather than assigned a numeric value.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-22",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ],
       "source_parallel_quests": [
         "pq-124"
@@ -5643,17 +5644,18 @@
       "effect_text": "Temporarily boosts the strength of all allies' and the user's attacks.",
       "effect_magnitude": "+10%",
       "duration": "15 seconds",
-      "stacking_behavior": null,
+      "stacking_behavior": "Not reported as stackable",
       "limit_burst": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down.",
       "limit_burst_trigger": null,
       "limit_burst_effect": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Mechanics and character source refreshed from the maintained Super Soul catalogue and independent corroboration. Exact reward/drop semantics beyond the canonical PQ reward relationship are not asserted.",
+      "version_notes": "Mechanics and character source refreshed from the maintained Super Soul catalogue and independent corroboration. Exact reward/drop semantics beyond the canonical PQ reward relationship are not asserted. Exact-name catalogue reconciliation: the maintained Super Soul list does not report a stack cap for this record; stacking is therefore recorded as not reported rather than assigned a numeric value.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-22",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ],
       "source_parallel_quests": [
         "pq-128"
@@ -5672,17 +5674,18 @@
       "effect_text": "Restores Ki and temporarily boosts the strength of all attacks.",
       "effect_magnitude": "+300 Ki; +20% all attack damage",
       "duration": "30 seconds for the +20% all attack damage effect",
-      "stacking_behavior": null,
+      "stacking_behavior": "Not reported as stackable",
       "limit_burst": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down.",
       "limit_burst_trigger": null,
       "limit_burst_effect": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "The exact 150-second trigger and +300 Ki/+20% temporary boost are corroborated by independent documentation; no additional undocumented timing or reward semantics are inferred.",
+      "version_notes": "The exact 150-second trigger and +300 Ki/+20% temporary boost are corroborated by independent documentation; no additional undocumented timing or reward semantics are inferred. Exact-name catalogue reconciliation: the maintained Super Soul list does not report a stack cap for this record; stacking is therefore recorded as not reported rather than assigned a numeric value.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-22",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ],
       "source_parallel_quests": [
         "pq-128"
@@ -5701,17 +5704,18 @@
       "effect_text": "Temporarily lowers the strength of all attacks and movement speed at battle start; 30 seconds after battle start, temporarily boosts the strength of all attacks and movement speed.",
       "effect_magnitude": "-10% all attack damage and -10% movement speed for 30 seconds; +10% all attack damage for 30 seconds and +15% movement speed for 10 seconds",
       "duration": "30 seconds for the opening penalties; 30 seconds for the all-attack boost; 10 seconds for the movement-speed boost",
-      "stacking_behavior": null,
+      "stacking_behavior": "Not reported as stackable",
       "limit_burst": "Revive Gauge Auto-Recovery!",
       "limit_burst_trigger": null,
       "limit_burst_effect": "Revive Gauge Auto-Recovery!",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Mechanics and character source refreshed from the maintained Super Soul catalogue and independent corroboration. The later movement-speed bonus is recorded separately from the 30-second all-attack bonus.",
+      "version_notes": "Mechanics and character source refreshed from the maintained Super Soul catalogue and independent corroboration. The later movement-speed bonus is recorded separately from the 30-second all-attack bonus. Exact-name catalogue reconciliation: the maintained Super Soul list does not report a stack cap for this record; stacking is therefore recorded as not reported rather than assigned a numeric value.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-22",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ],
       "source_parallel_quests": [
         "pq-129"
@@ -5730,17 +5734,18 @@
       "effect_text": "Reduces the Ki of everyone except you; boosts allies' normal attacks and normal Ki Blasts.",
       "effect_magnitude": "Reduces everyone else's Ki by 4 bars; boosts allies' normal attacks and normal Ki Blasts by +10%.",
       "duration": "Once only",
-      "stacking_behavior": null,
+      "stacking_behavior": "Not reported as stackable",
       "limit_burst": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
       "limit_burst_trigger": null,
       "limit_burst_effect": "Attack Up; Ki Auto-Recovery; Stamina Recovery Speed Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics/provenance refreshed from exact-name Super Soul evidence; existing canonical PQ relationship preserved. Reward/drop semantics beyond the indexed PQ relationship remain unresolved unless directly evidenced.",
+      "version_notes": "Mechanics/provenance refreshed from exact-name Super Soul evidence; existing canonical PQ relationship preserved. Reward/drop semantics beyond the indexed PQ relationship remain unresolved unless directly evidenced. Exact-name catalogue reconciliation: the maintained Super Soul list does not report a stack cap for this record; stacking is therefore recorded as not reported rather than assigned a numeric value.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-22",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ],
       "source_parallel_quests": [
         "pq-129"
@@ -5759,17 +5764,18 @@
       "effect_text": "Restores all allies' Stamina.",
       "effect_magnitude": "+150 Stamina to all allies",
       "duration": "Once only",
-      "stacking_behavior": null,
+      "stacking_behavior": "Not reported as stackable",
       "limit_burst": "Revive Gauge Auto-Recovery!",
       "limit_burst_trigger": null,
       "limit_burst_effect": "Revive Gauge Auto-Recovery.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics/provenance refreshed from exact-name Super Soul evidence; existing canonical PQ relationship preserved. Reward/drop semantics beyond the indexed PQ relationship remain unresolved unless directly evidenced.",
+      "version_notes": "Mechanics/provenance refreshed from exact-name Super Soul evidence; existing canonical PQ relationship preserved. Reward/drop semantics beyond the indexed PQ relationship remain unresolved unless directly evidenced. Exact-name catalogue reconciliation: the maintained Super Soul list does not report a stack cap for this record; stacking is therefore recorded as not reported rather than assigned a numeric value.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-22",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ],
       "source_parallel_quests": [
         "pq-129"
@@ -5788,17 +5794,18 @@
       "effect_text": "Temporarily forces all enemies to target you; boosts all-attack damage; reduces all damage taken.",
       "effect_magnitude": "+10% all-attack damage; -15% damage taken",
       "duration": "30 seconds",
-      "stacking_behavior": null,
+      "stacking_behavior": "Not reported as stackable",
       "limit_burst": "Auto Health and Stamina Recovery!",
       "limit_burst_trigger": null,
       "limit_burst_effect": "Auto Health and Stamina Recovery.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics/provenance refreshed from exact-name Super Soul evidence; existing canonical PQ relationship preserved. Reward/drop semantics beyond the indexed PQ relationship remain unresolved unless directly evidenced.",
+      "version_notes": "Mechanics/provenance refreshed from exact-name Super Soul evidence; existing canonical PQ relationship preserved. Reward/drop semantics beyond the indexed PQ relationship remain unresolved unless directly evidenced. Exact-name catalogue reconciliation: the maintained Super Soul list does not report a stack cap for this record; stacking is therefore recorded as not reported rather than assigned a numeric value.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-22",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ],
       "source_parallel_quests": [
         "pq-130"
@@ -5817,17 +5824,18 @@
       "effect_text": "Deals sleep damage to self; temporarily reduces all damage taken.",
       "effect_magnitude": "-15% damage taken",
       "duration": "30 seconds",
-      "stacking_behavior": null,
+      "stacking_behavior": "Not reported as stackable",
       "limit_burst": "Auto Just Guard",
       "limit_burst_trigger": null,
       "limit_burst_effect": "Auto Just Guard.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics/provenance refreshed from exact-name Super Soul evidence; existing canonical PQ relationship preserved. Reward/drop semantics beyond the indexed PQ relationship remain unresolved unless directly evidenced.",
+      "version_notes": "Mechanics/provenance refreshed from exact-name Super Soul evidence; existing canonical PQ relationship preserved. Reward/drop semantics beyond the indexed PQ relationship remain unresolved unless directly evidenced. Exact-name catalogue reconciliation: the maintained Super Soul list does not report a stack cap for this record; stacking is therefore recorded as not reported rather than assigned a numeric value.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-22",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ],
       "source_parallel_quests": [
         "pq-130"
