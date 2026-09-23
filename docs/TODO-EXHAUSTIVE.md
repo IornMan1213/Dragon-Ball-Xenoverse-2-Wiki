@@ -2685,3 +2685,11 @@
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [x] Commits: canonical `e8e9be32922349190990bc451d73148d6e3fbc36`; audit `7ca201c710dc6d826f050c3878b33eb958cebe8e8`; cross-domain index `9d08036226859a19c64af5c9a4c9b4c2f5457b43`.
 - [ ] Exact next priority: continue the live thin census with the next **4–12 highest-impact unresolved PQ-linked records**, using exact-name evidence and reusable cross-domain links; preserve unresolved identity conflicts and do not guess unsupported mechanics.
+
+### 2026-09-22 cycle update — Super Soul 220–228 mechanics refresh
+- [x] Refreshed Super Soul 220–223 with exact-name mechanics, Limit Bursts, provenance, and existing PQ relationships.
+- [x] Refreshed Super Soul 224–228 with exact-name mechanics, Limit Bursts, provenance, and existing PQ relationships.
+- [x] Added/registered super-soul-220-223-mechanics-audit-2026-09-22.json and super-soul-224-228-mechanics-audit-2026-09-22.json.
+- [x] Validation: 234 canonical records / 0 duplicate IDs; all 9 selected records researched with required core mechanics populated.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Next: recompute the live indexed/thin census and continue the next 4–12 highest-impact unresolved PQ-linked records using exact-name evidence and reusable cross-domain links; do not guess unsupported mechanics or overwrite unresolved identities.
