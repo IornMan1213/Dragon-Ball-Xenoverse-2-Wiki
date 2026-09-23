@@ -329,7 +329,8 @@
     "super_soul_070_086_reconciliation": "docs/data/super-soul-070-071-075-076-078-080-082-083-085-086-reconciliation-2026-09-22.json",
     "super_soul_087_094_reconciliation": "docs/data/super-soul-087-094-reconciliation-2026-09-22.json",
     "super_soul_095_144_150_reconciliation": "docs/data/super-soul-095-144-150-reconciliation-2026-09-22.json",
-    "super_soul_104_151_153_reconciliation": "docs/data/super-soul-104-151-153-reconciliation-2026-09-22.json"
+    "super_soul_104_151_153_reconciliation": "docs/data/super-soul-104-151-153-reconciliation-2026-09-22.json",
+    "skill_provenance_2026_09_23_alpha_batch": "docs/data/skill-provenance-audit-2026-09-23-alpha-batch.json"
   },
   "registered_audits": {
     "super_soul_thin_census_2026_09_22": "docs/data/super-soul-thin-census-2026-09-22.json",
