@@ -6724,3 +6724,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Preserved the original 854/146/143 values inside each artifact as migration evidence; no canonical relationship rows were changed.
 - Commits: `5d594441f3ce8a3329d4755255a4608214d6a185`, `71b9627a7765ade404e0bddd503b0b59179879d0`, `80543c69a9d8b033907b86b07dc0100c23cea134`, `382976427a1977032eda1cf545896d4684a408e7`, `9aae29da5b8f46e73d6c7455de4ee5cecec1e747`, `4a47684aff2a2c64748e6e2b9eb8ea60ceff49c0`.
 - **Exact next task:** leave the baseline cleanup phase and resume the queued P1 exhaustive data/provenance work, beginning with the seven unresolved PQ41–186 Super Soul acquisition-index differences or the authoritative P1 provenance queue specified by the organized continuation notes; recompute the live pair census before making source-backed changes.
+
+
+### 2026-09-23 cycle update — PQ41–186 Super Soul acquisition projection reconciliation
+
+- Recomputed the live exact pair census against docs/data/pq-reward-relationships.json before editing: **127 canonical PQ41–186 Super Soul pairs**.
+- Reconciled docs/data/super-souls/pq-acquisition-index-041-186.json: added the two source-backed PQ151 pairs "I'll never forgive you!" and "I'm not gonna die until I defeat you!"; removed the superseded PQ49 "Do or Die" same-name collision.
+- No canonical relationship was added, deleted, or renamed; this was a partial projection repair only.
+- Updated the acquisition-index reconciliation audit to the current **127/127 exact-pair parity**, zero missing, zero extra, zero duplicate structured pairs.
+- Commits: 4b0123e187a5335daa950989123670a9a02e7d00; audit 3e27d876578b379eb104c080b3a24b9d8b1caaa2.
+- **Exact next task:** continue the P1 provenance/data queue with the next highest-impact structural gap, recomputing its live census first; avoid reopening the now-clean acquisition projection unless new evidence appears.
