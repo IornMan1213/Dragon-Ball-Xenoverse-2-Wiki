@@ -3384,3 +3384,13 @@
 - [x] Validation: thin census parses; canonical Super Soul count remains **229**; strict-thin queue remains **032, 034, 158, 217**; current PQ→Super Soul baseline matches producer/status layers at **151 forward / 148 reverse**.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: continue deterministic high-impact reconciliation outside the exhausted thin queue, prioritizing current projection/index drift or another reusable cross-domain/navigation repair; do not infer unresolved mechanics.
+
+
+### 2026-09-23 cycle update — Super Soul crosslink count metadata repair
+- [x] Live census found another stale current scalar: docs/data/pq-reward-relationships.json reported current_counts.super_soul = 146 while its canonical pq_rewards_super_soul relationship count and all current producer/status/navigation layers report 151.
+- [x] Audited docs/data/pq-super-soul-crosslink-report.json: 151 forward edge records / 148 reverse endpoints; the relationship arrays themselves were already current.
+- [x] Synchronized canonical current_counts.super_soul and the dedicated crosslink report current validation metadata to 151 forward / 148 reverse without changing relationship records.
+- [x] Added and registered docs/data/pq-super-soul-crosslink-count-metadata-repair-2026-09-23.json.
+- [x] Validation: JSON parses; canonical relationship count remains 859 total with 244/151/124/247/86/7 domain counts; Super Soul report arrays remain 151/148; no unresolved target routes or orphan reverse endpoints reported.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: audit remaining current metadata in dedicated cross-domain reports/producers for scalar-vs-array drift, then move to deterministic navigation/index repairs.
