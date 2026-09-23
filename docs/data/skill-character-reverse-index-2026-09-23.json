@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-23",
+  "status": "projection",
+  "source_of_truth": "docs/data/skill-character-identity-bridge-2026-09-23.json",
+  "canonical_character_source": "docs/data/characters-record-layer.json",
+  "records": [
+    {
+      "canonical_character_name": "God of Destruction Beerus",
+      "skill_ids": [
+        "skill-headshot"
+      ]
+    },
+    {
+      "canonical_character_name": "God of Destruction Champa",
+      "skill_ids": [
+        "skill-god-of-destruction-s-menace"
+      ]
+    },
+    {
+      "canonical_character_name": "Goku (Ultra Instinct)",
+      "skill_ids": [
+        "skill-divine-kamehameha"
+      ]
+    },
+    {
+      "canonical_character_name": "Goku (Ultra Instinct -Sign-)",
+      "skill_ids": [
+        "skill-divine-kamehameha"
+      ]
+    },
+    {
+      "canonical_character_name": "Kefla (Super Saiyan)",
+      "skill_ids": [
+        "skill-blaster-ball",
+        "skill-ray-blast"
+      ]
+    },
+    {
+      "canonical_character_name": "Rosé Goku Black",
+      "skill_ids": [
+        "skill-super-black-kamehameha-rose"
+      ]
+    },
+    {
+      "canonical_character_name": "Vegeta (Super Saiyan God)",
+      "skill_ids": [
+        "skill-raid-blast"
+      ]
+    }
+  ],
+  "counts": {
+    "resolved_skill_records": 6,
+    "resolved_canonical_skill_edges": 7,
+    "canonical_character_targets": 6
+  },
+  "evidence_boundary": "This reverse projection contains only resolved identity edges. It does not infer every character that can equip a skill, every customize-partner route, or generic Future Warrior/CaC availability."
+}
