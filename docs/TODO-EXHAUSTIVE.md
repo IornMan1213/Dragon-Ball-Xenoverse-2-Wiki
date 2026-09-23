@@ -4833,3 +4833,15 @@
 - [x] Manual post-write inspection: validator no longer contains the stale 149-character assertion; affected audits report the live 151-character baseline.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next batch:** search the remaining character-facing generated/index consumers and validators for stale fixed-count assumptions or one-way links; then begin source-backed preset-loadout research only for records with explicit loadout evidence.
+
+
+### 2026-09-23 cycle update — First explicit preset-loadout evidence batch
+- [x] Rechecked remaining character-facing projections and confirmed the canonical Character page and PQ character reverse audit now use the live **151-character** layer; the character category index's 155/54 values remain source-category counts, not canonical-roster baselines.
+- [x] Promoted **Frieza (Final Form) Preset 2** from indexed/unresolved loadout status to an explicit verified loadout using the repository's existing character-profile evidence and the current Frieza (Final Form) in-game-data table.
+- [x] Recorded the seven sourced skill entries: **Death Slash, Death Beam, Death Psycho Bomb, Maximum Charge, Full Power Energy Blast Volley, Death Ball, Psychic Move**, plus Super Soul **Gotcha!**; no acquisition or exclusivity claim was inferred from preset presence.
+- [x] Updated `docs/data/character-preset-skill-navigation-audit-2026-09-23.json` with the verified-loadout record and evidence boundary.
+- [x] Hardened `scripts/validate_character_presentation_consumers.py` so any preset marked `loadout_status=verified` must contain a structured loadout and explicit loadout source.
+- [x] Manual post-write inspection: the verified Frieza record has an explicit loadout/source; the remaining indexed preset records remain unresolved.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Commits:** preset `9e351599d2fec6de76528240c419677cbfe7954e`; audit `bebd53de9b4eecaa5af4c17bb10e6f1b0a7a6534`; validator `84c2c29fe6faa1bb70fda2422011a88f48615319`.
+- **Exact next batch:** reconcile another **4–8 preset loadouts** only where explicit in-game-data tables or equivalent item-level evidence exists; prioritize records already represented in `docs/Character-Core-Profiles.md` or directly covered by the existing preset source corpus, and keep all unsupported loadouts unresolved.
