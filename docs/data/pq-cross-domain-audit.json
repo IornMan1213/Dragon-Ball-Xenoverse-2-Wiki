@@ -21,7 +21,7 @@
   "next_completion_gate": "Current canonical relationship baseline is 859 unique edges (244 skill / 151 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming). Historical 862/840/860 counts remain preserved only in dated audit/history fields. Standalone reverse-index source-map parity is resolved; runtime validator execution remains the next gate before deterministic regeneration.",
   "current_counts": {
     "skill": 244,
-    "super_soul": 151,
+    "super_soul": 146,
     "equipment": 124,
     "character": 247,
     "dlc": 86,
@@ -235,7 +235,7 @@
     "master_index_total": 862,
     "master_counts": {
       "skill": 244,
-      "super_soul": 151,
+      "super_soul": 146,
       "equipment": 125,
       "character": 247,
       "dlc": 88,
@@ -252,10 +252,10 @@
     "date": "2026-09-22",
     "scope": "repository-wide PQ relationship endpoint census",
     "pq_scope": "pq-001 through pq-186",
-    "master_relationships": 859,
+    "master_relationships": 854,
     "master_counts": {
       "skill": 244,
-      "super_soul": 151,
+      "super_soul": 146,
       "equipment": 124,
       "character": 247,
       "dlc": 86,
@@ -371,10 +371,10 @@
     ]
   },
   "current_final_state_2026_09_22": {
-    "total_edges": 859,
+    "total_edges": 854,
     "counts": {
       "skill": 244,
-      "super_soul": 151,
+      "super_soul": 146,
       "equipment": 124,
       "character": 247,
       "dlc": 86,
@@ -387,10 +387,10 @@
   "current_projection_consistency_2026_09_22": {
     "date": "2026-09-22",
     "source_of_truth": "docs/data/pq-reward-relationships.json",
-    "current_total_edges": 859,
+    "current_total_edges": 854,
     "current_counts": {
       "skill": 244,
-      "super_soul": 151,
+      "super_soul": 146,
       "equipment": 124,
       "character": 247,
       "dlc": 86,
@@ -625,7 +625,7 @@
       "dlc": 86,
       "farming": 7
     },
-    "total_edges": 859,
+    "total_edges": 854,
     "reverse_counts": {
       "skill": 244,
       "super_soul": 151,
