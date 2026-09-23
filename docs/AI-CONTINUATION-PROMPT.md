@@ -6262,3 +6262,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime remains unavailable; no CI success claimed.
 - **Exact next task:** reconcile the next bounded unresolved `character_source` cluster, prioritizing exact canonical variant names and customize-partner identities; keep conflict cases such as Sonic Bomb outside the bridge until the source contradiction is resolved.
 - Commits: `ad1068a4a08846c42207d3c41227d5bb4bf83906`, `8c76d6e3c6932b3fe3ed8ec8fbb8a8d18e6a5762`, `11c5ca1780613f2ed75fd50cd0564137a3618d82`, `02488dbb4e6c36f99c1ad36997ab0509c6e1b2e2`, `0c1070c00f70c102c39354c5061b252b143349c6`, `7bf4a58671b915df3ff848c0dc064d445abbe620`.
+
+
+### 2026-09-23 cycle update — Second bounded skill→character identity batch
+
+- Extended the skill→character identity bridge by **7 additional skill records / 10 canonical edges**, bringing the cumulative bridge to **14 resolved skill records / 18 canonical edges / 12 canonical character targets**.
+- Newly reconciled: Crazy Finger Shot → Golden Frieza + Frieza (1st Form); Death Slash → Frieza (1st Form) + Frieza (Final Form); Double Death Slicer → Frieza (Full Power); Emperor's Edge → Golden Frieza + Golden Frieza (Supervillain); Full Power Destruction → Jiren; Gigantic Breaker → Kefla (Super Saiyan); God of Destruction's Roar → God of Destruction Champa.
+- Updated `docs/data/skill-character-source-identity-audit-2026-09-23.json`: unresolved character/variant inventory is now **32**, with 38 unresolved source tokens including non-character-source cases.
+- Updated reverse navigation and reconciliation audit. Current bridge remains evidence-bounded and does not infer aggregate users, generic CaC sources, or conflicting source strings.
+- Explicit conflicts held back include Destruction's Conductor (source says Champa but current documentation identifies Vados), Photon Swipe (source says Toppo but current documentation identifies Android 21), Total Detonation Ball (source says Toppo but current documentation identifies Android 21), and Sonic Bomb (source says Champa but current documentation identifies Frieza (1st Form) Customize Partner). Official Bandai Namco documentation confirms the Super Pack 2 content bundle included these attacks, but acquisition/DLC association is not treated as proof of user identity. citeturn1search11turn1search12turn2search1turn2search5
+- External evidence also confirms Full Power Destruction for Jiren Customize Partner, Crazy Finger Shot/Death Slash/Double Death Slicer/Emperor's Edge Frieza-family identities, and Gigantic Breaker for Kefla. citeturn2search0turn1search5turn1search8turn1search0turn2search2turn1search6
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next task:** reconcile the next unresolved aggregate-user/customize-partner cluster, beginning with entries where canonical identities are likely to be deterministically enumerable; preserve conflicting fields rather than forcing a mapping.
+- Commits this cycle: `c0a309996a7683f2d0d7dbd612c9fd07177e80fb`, `a67ba732a814e42993b7a4cc710f9931d5acd2a6`, `bece7ec65b50b7858346918e876910e65919d8fb`, `39abd4626fd9325061ef836bcb330ee626b39880`, `9e7d9f9ae840a3e8d5161064e355d0c9c55a63ff`.
