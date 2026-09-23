@@ -3921,3 +3921,14 @@
 - [x] No acquisition, character, effect magnitude, duration, or stacking claims were changed.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next task: **Super Soul 034** only if a new item-level/authoritative source can resolve its unresolved fields; otherwise advance to **032 or the broader P1 provenance/data queue** rather than repeating low-yield searches.
+
+### 2026-09-23 — TODO completion update — Post-158 PQ current-consumer baseline synchronization
+- [x] Recomputed the live canonical relationship layer after removing the false `super-soul-158` / Do or Die relationship: **853 total edges = 244 Skill / 145 Super Soul / 124 Equipment / 247 Character / 86 DLC / 7 Farming**.
+- [x] Confirmed the canonical Super Soul projection is **145 forward / 142 reverse targets** and contains no `super-soul-158` endpoint.
+- [x] Synchronized active current-state consumers and validators to the new authoritative 853/145/142 baseline, including the PQ reference validator, current-consumer validator, PQ reference/audit/status layers, producer census, page/explorer consumers, endpoint/navigation audits, presentation identity audit, reverse-index audit, and current-state census.
+- [x] Updated the canonical Super Soul thin census/checkpoint: strict-thin queue is now **032 and 034**; 217 has exited after its Limit Burst evidence pass; 158 is a domain migration rather than a Super Soul research item.
+- [x] Added and registered `docs/data/pq-current-baseline-after-super-soul-158-migration-2026-09-23.json` as the durable correction/evidence boundary.
+- [x] Preserved prior 854/146/143, 859/151/148, and older relationship snapshots as historical evidence instead of silently rewriting them.
+- [x] Direct live-file validation confirmed canonical relationship totals, Super Soul forward/reverse counts, producer counts, presentation parity, and strict-thin state are internally synchronized.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next task: finish any remaining **active** 854/146/143 consumer assertions if found by direct-file inspection, then resume the broader **P1 exhaustive provenance/data queue**. Do not repeat low-yield Super Soul 032/034 searches without new item-level evidence.
