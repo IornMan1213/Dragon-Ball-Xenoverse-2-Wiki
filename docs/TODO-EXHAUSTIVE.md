@@ -3743,3 +3743,15 @@
 - [x] Preserved all five costumes as evidence-backed inventory gaps; created zero unsupported equipment IDs and zero aliases.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: move to the next highest-impact cross-domain consumer/coverage audit; return to these five only after a principled equipment-ID allocation mechanism exists.
+
+
+
+### 2026-09-23 — TODO completion update — Non-PQ reverse-navigation consumer hardening / live Super Soul baseline repair
+- [x] Audited character and Super Soul reverse-navigation destinations against the live canonical PQ relationship layer.
+- [x] Confirmed character reverse navigation: 247 edges, 75 unique character targets, 0 unresolved targets, 0 duplicate pairs; `Characters-All.html` consumes `?q=` deep links.
+- [x] Confirmed Super Soul reverse navigation: live canonical PQ→Super Soul coverage is 146 forward edges / 143 reverse targets; `Super-Souls-All.html` consumes `?q=` deep links and renders Canonical PQ links.
+- [x] Repaired stale current-looking Super Soul counts in `docs/data/pq-explorer-reward-navigation-audit.json`, `docs/data/pq-cross-link-integrity-audit.json`, and `docs/data/pq-cross-domain-status.json` to the authoritative live 146-edge / 143-target state.
+- [x] Added explicit query-contract metadata to the relevant navigation audits; no canonical relationships or aliases were created.
+- [x] Preserved historical 151/148 and older totals as append-only history rather than rewriting historical records.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: continue the repository-wide **non-PQ consumer/navigation integrity** audit for stale current-looking 854/146 baselines, one-way navigation, scalar/list assumptions, and endpoint-name drift. Do not infer or add relationship edges.
