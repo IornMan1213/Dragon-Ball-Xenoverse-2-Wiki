@@ -1,3 +1,14 @@
+### 2026-09-22 cycle update — Super Soul 061/096/097/098/099 duration-stacking reconciliation
+- Live census before editing: **234 canonical / 0 duplicate IDs / 98 strict-thin records**.
+- Bounded batch: **061, 096, 097, 098, and 099**.
+- Research/evidence: maintained exact-name Super Soul catalogue, Madreag research corpus, and independent GameFAQs evidence for the throw-stack mechanics.
+- Changes: 061 and 098 now explicitly preserve accumulated stacks without an undocumented expiration timer; 096 records its 3-second temporary window; 097 records its 30-second boost and once-only trigger; 099 records its battle-start-to-low-health state transition.
+- Added/registered audit: `docs/data/super-soul-061-096-097-098-099-duration-stacking-reconciliation-2026-09-22.json`.
+- Evidence limits preserved: no unsupported timer, stack reset, or new cap was inferred.
+- Validation: **234 canonical / 0 duplicate IDs / 93 strict-thin records**; audit registration confirmed; JSON census refresh succeeded.
+- CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- Exact next batch: recompute the live strict-thin queue and continue the next evidence-supported cluster, prioritizing records with explicit duration/stacking evidence and preserving 032/034 as evidence boundaries.
+
 ### 2026-09-22 cycle update — Super Soul 156/161/166/172 duration reconciliation
 - Live census before editing: **234 canonical / 0 duplicate IDs / 102 strict-thin records**.
 - Bounded batch: **156, 161, 166, and 172**.
