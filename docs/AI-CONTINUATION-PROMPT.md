@@ -5705,3 +5705,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation target: **455 canonical / 455 index / 0 duplicate IDs**; changed target source/date parity clean.
 - CI/runtime remains unavailable; no CI success claimed.
 - Exact next action: recompute the live stale queue after this batch and continue from the next stale canonical records after **Data Input**; do not repeat these five records or promote legacy-only records without a deliberate catalog-ingestion task.
+
+### 2026-09-23 cycle update — P1 Dead End Rain through Death Crasher provenance refresh
+- Completed **Dead End Rain, Deadly Dance, Death Ball, Death Beam, and Death Crasher**.
+- Refreshed canonical/index verification dates to **2026-09-23** and rechecked existing repository provenance.
+- Preserved acquisition, reward-tier, scope, cost, mechanics, and Ultimate Finish semantics; no unsupported probability or gate inferred.
+- Added/registered `docs/data/skill-provenance-audit-2026-09-23-dead-end-rain-through-death-crasher.json` and updated `CHANGELOG.md`.
+- Validation: **455 canonical / 455 index / 0 duplicate IDs / 5 targets synchronized**.
+- Exact next action: recompute live stale state and continue with **Death Psycho Bomb, Death Slash, Death Slicer, Demon Flash Strike, Demon Flurry, Demon Ray, Demonic Destruction, Destruction's Concerto: Comet, Destruction's Concerto: Meteor, Destruction's Concerto: Starfall**.
