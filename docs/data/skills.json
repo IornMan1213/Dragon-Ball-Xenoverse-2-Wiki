@@ -10352,7 +10352,7 @@
       "mechanics_notes": "Evasive that launches the user upward while scattering Ki bullets; current reference reports 200 stamina cost and 2% damage per projectile hit.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Rolling_Bullet",
@@ -10362,7 +10362,7 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": 42,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance refinement: current dedicated skill documentation and the maintained PQ reward guide identify the exact quest title and place Rolling Bullet in Basic Reward. No Ultimate Finish-only gate is asserted.",
+      "notes": "2026-09-20 provenance refinement: current dedicated skill documentation and the maintained PQ reward guide identify the exact quest title and place Rolling Bullet in Basic Reward. No Ultimate Finish-only gate is asserted. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.",
       "id": "skill-rolling-bullet",
       "source_parallel_quests": [
         42
@@ -10385,12 +10385,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Hercule mentor training",
       "mechanics_notes": "Rolls before punching; continued input extends the rolling movement. Current reference reports super armor and a brief daze/paralysis effect.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Hercule mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.",
       "id": "skill-rolling-hercule-punch",
       "source_mentor": [
         "mentor-hercule"
@@ -10419,10 +10419,10 @@
       "source_quest_or_shop": "Parallel Quest 119 — \"A Ranger's Duty\"",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Extra Pack 2",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "mechanics_notes": "Universal counter: strike attacks trigger a kick, while Ki attacks trigger an energy barrier; point-blank Ki interactions follow the documented counter behavior.",
       "acquisition_type": "quest_or_mission",
-      "notes": "Corrected 2026-09-20: current reward-table evidence places Rough Ranger in the Basic Reward pool; the prior Ultimate Finish flag was stale.",
+      "notes": "Corrected 2026-09-20: current reward-table evidence places Rough Ranger in the Basic Reward pool; the prior Ultimate Finish flag was stale. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.",
       "id": "skill-rough-ranger",
       "source_parallel_quests": [
         119
@@ -10445,7 +10445,7 @@
       "mechanics_notes": "Creates a tracking Ki ball that homes toward the opponent and deals multi-hit damage on contact.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
@@ -10456,7 +10456,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 115,
       "acquisition_type": "quest_or_mission",
-      "notes": " 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1.",
+      "notes": " 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.",
       "id": "skill-s-s-deadly-bomber",
       "source_parallel_quests": [
         115
@@ -10479,7 +10479,7 @@
       "mechanics_notes": "Creates a giant green pillar/barrier while permitting immediate Awoken Skill activation; current skill evidence documents a 400 Stamina cost and 12–23 hit behavior.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Saiyan_Blaster",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3606451640",
@@ -10488,7 +10488,7 @@
       "source_quest": "Conton City Patrol 10",
       "race_restriction": null,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 Future Saga Chapter 3 completeness correction: official DLC scope lists six additional moves, while the canonical registry previously contained only the three PQ-linked Chapter 3 skill endpoints. Current technique evidence identifies Saiyan Blaster as a Chapter 3 skill unlocked through Conton City Patrol 10. The 400 Stamina cost is directly documented; no unsupported PQ/reward gate was inferred.",
+      "notes": "2026-09-21 Future Saga Chapter 3 completeness correction: official DLC scope lists six additional moves, while the canonical registry previously contained only the three PQ-linked Chapter 3 skill endpoints. Current technique evidence identifies Saiyan Blaster as a Chapter 3 skill unlocked through Conton City Patrol 10. The 400 Stamina cost is directly documented; no unsupported PQ/reward gate was inferred. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.",
       "id": "skill-saiyan-blaster"
     },
     {
@@ -10508,7 +10508,7 @@
       "mechanics_notes": "300 Ki Ki Blast Ultimate with a pseudo-strike rush into a blue Ki Wave; current dedicated evidence states it is usable by Saiyan CaCs and obtained from Parallel Quest 84.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Saiyan_Spirit",
@@ -10519,7 +10519,7 @@
       "race_restriction": "Saiyan",
       "source_quest": 84,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 CaC provenance correction: dedicated skill documentation classifies Saiyan Spirit as a Ki Blast Ultimate, not a Strike Ultimate. It is usable by Saiyan CaCs and is acquired from PQ84.",
+      "notes": "2026-09-20 CaC provenance correction: dedicated skill documentation classifies Saiyan Spirit as a Ki Blast Ultimate, not a Strike Ultimate. It is usable by Saiyan CaCs and is acquired from PQ84. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.",
       "id": "skill-saiyan-spirit",
       "source_parallel_quests": [
         84
@@ -10543,12 +10543,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Raditz mentor training — Lesson 1",
       "mechanics_notes": "100 Ki Ki Blast Super that fires a tracking/paralyzing projectile; current skill evidence describes roughly one second of paralysis and very quick recovery. Raditz mentor training is the documented acquisition route.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Raditz mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.",
       "id": "skill-saturday-crash",
       "source_mentor": [
         "mentor-raditz"
@@ -10572,7 +10572,7 @@
       "mechanics_notes": "100 Ki Strike Super forming a Ki blade and performing five tracking slashes; current skill evidence documents Parallel Quest 27 as the acquisition source.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Sauzer_Blade",
@@ -10581,7 +10581,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 27,
       "acquisition_type": "quest_or_mission",
-      "notes": "",
+      "notes": "2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.",
       "id": "skill-sauzer-blade",
       "source_parallel_quests": [
         27
@@ -10604,7 +10604,7 @@
       "mechanics_notes": "100 Ki Strike Super that forms blades on both hands and spins toward the target; current skill evidence documents nine hits, weak-Ki-Blast resistance while charging, and Parallel Quest 140 as the acquisition source.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -10615,7 +10615,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 140,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 Ultra Pack 2 provenance audit: official Bandai Namco documentation confirms Ultra Pack 2 contains five Parallel Quests and eight techniques; the maintained 186-PQ guide maps the eight canonical skills to PQ138–142. The live canonical source-PQ relationships agree with the DLC label for all eight records. This pass verifies DLC provenance only and does not normalize reward-tier semantics.",
+      "notes": "2026-09-21 Ultra Pack 2 provenance audit: official Bandai Namco documentation confirms Ultra Pack 2 contains five Parallel Quests and eight techniques; the maintained 186-PQ guide maps the eight canonical skills to PQ138–142. The live canonical source-PQ relationships agree with the DLC label for all eight records. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.",
       "id": "skill-savory-slicer",
       "source_parallel_quests": [
         140
@@ -10638,13 +10638,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Krillin mentor training",
       "mechanics_notes": "300 Ki Ki Blast Ultimate associated with Krillin; current evidence identifies Krillin's Lesson 3 as the Xenoverse 2 mentor acquisition endpoint and describes the scatter-beam follow-up behavior.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Krillin mentor training — lesson-3.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "mentor_training",
-      "notes": "2026-09-21 mentor graph completion.",
+      "notes": "2026-09-21 mentor graph completion. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.",
       "id": "skill-scatter-kamehameha",
       "source_mentor": [
         "mentor-krillin"
@@ -10667,7 +10667,7 @@
       "mechanics_notes": "100 Ki multi-stage Strike Super with three selectable branches: Rock strikes, Scissors blinds, and Paper knocks the target away; combining branches produces a three-hit sequence.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Scissors_Paper_Rock",
@@ -10676,7 +10676,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 65,
       "acquisition_type": "quest_or_mission",
-      "notes": "",
+      "notes": "2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.",
       "id": "skill-scissors-paper-rock",
       "source_parallel_quests": [
         65
@@ -10699,7 +10699,7 @@
       "mechanics_notes": "Future Saga Chapter 1 Videl (DB Super) Strike Super. Current evidence identifies Parallel Quest 167, 'Fighting for Family', as the acquisition source; the maintained reward data records a random/normal-clear route rather than an Ultimate Finish-only gate.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Seagull_Combination",
@@ -10709,7 +10709,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 167,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ167's current maintained reward data lists Seagull Combination as a 40% normal-clear reward; it is not recorded as Ultimate Finish-gated. 2026-09-20 provenance refinement: PQ167 is the documented source. The maintained datamined record reports a 40% normal-clear slot, while the maintained Steam all-PQ guide lists Seagull Combination in the Basic Reward section; both are preserved as source context rather than collapsing the discrepancy.",
+      "notes": "2026-09-20 audit: PQ167's current maintained reward data lists Seagull Combination as a 40% normal-clear reward; it is not recorded as Ultimate Finish-gated. 2026-09-20 provenance refinement: PQ167 is the documented source. The maintained datamined record reports a 40% normal-clear slot, while the maintained Steam all-PQ guide lists Seagull Combination in the Basic Reward section; both are preserved as source context rather than collapsing the discrepancy. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.",
       "id": "skill-seagull-combination",
       "source_parallel_quests": [
         167
