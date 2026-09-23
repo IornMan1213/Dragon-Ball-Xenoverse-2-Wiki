@@ -5215,3 +5215,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Evidence limits preserved: no skill ID was invented; no unsupported reward probability or Ultimate Finish gate was added; promotion of the two source-backed candidates is intentionally deferred until canonical/index files can be updated atomically and parity-validated.
 - Validation: new audit JSON parses; exact canonical skill identity count 10/13; cross-domain audit registration confirmed; CI/runtime remains unavailable.
 - Exact next batch: atomically promote **Super Destructo-Disc** and **Big Bang Attack** into the canonical/index skill layers using their existing research evidence, then validate ID-set parity and downstream projections; separately research **Power Pole Combo**. After that, continue the five remaining Support Pack costume identities and Puar.
+
+### 2026-09-23 cycle update — Time Patrol Support Pack canonical skill promotions
+- Promoted **Big Bang Attack** as `skill-big-bang-attack` and **Super Destructo-Disc** as `skill-super-destructo-disc` into both canonical skill layers.
+- Big Bang Attack evidence: 100-Ki Ki Blast Super, Vegeta association, TP Medal Shop acquisition; existing research documents the charge/contact behavior. No unsupported shop rotation or probability was added.
+- Super Destructo-Disc evidence: 200-Ki Ki Blast Super, Expert Mission 4 acquisition, CaC usability, fast-tracking/unblockable identity. Exact drop rate and guaranteed-clear semantics remain unresolved.
+- Canonical/index count advanced from **452 to 454** and was parity-checked after promotion. The legacy 2026-09-20 status-count snapshot in the skill audit is explicitly preserved separately from the current census.
+- Updated promotion manifest, research batch 251, skill audit, Support Pack skill identity audit, Support Pack reconciliation, and exhaustive TODO.
+- Current Support Pack skill state: **12/13 exact canonical identities; Power Pole Combo remains the only missing exact skill identity.**
+- Validation: modified JSON files parse; promoted IDs are unique; canonical and index record counts both equal 454. CI/runtime remains unavailable.
+- Exact next task: research **Power Pole Combo** as a distinct identity without aliasing it to Power Pole or Power Pole Pro; then continue the five remaining costume identities and Puar.
