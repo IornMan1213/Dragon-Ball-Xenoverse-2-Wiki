@@ -2686,3 +2686,12 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Live validation: **455 canonical / 455 index / 427 current / 28 stale / 0 duplicate IDs**; no duplicate IDs.
 - CI/runtime unavailable; no CI success claimed.
 - Next batch: Time Skip/Tremor Pulse, Timespace Impact, Total Detonation Ball, Trap Shooter, Tri-Beam, Turn Golden, Tyrant Lancer, Ultimate Charge, Ultra Instinct, Ultrasonic Blitz, Unrelenting Barrage, Vanishing Ball.
+
+
+## 2026-09-23 — P1 Time Skip/Tremor Pulse through Vanishing Ball provenance refresh
+- Refreshed 12 stale skill records and synchronized canonical/index provenance metadata.
+- Added and registered docs/data/skill-provenance-audit-2026-09-23-time-skip-tremor-pulse-through-vanishing-ball.json.
+- Preserved reward conflicts and unresolved numerical mechanics; no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value was inferred.
+- Live validation: **455 canonical / 455 index / 439 current / 16 stale / 0 duplicate IDs**.
+- CI/runtime unavailable; no CI success claimed.
+- Next batch: Variable Snipe Shot, Variant Drive, Venus Fist, Victory Cannon, Victory Rush, Volleyball Fist, Wall of Defense, Warp Kamehameha, Weekend, Wild Buster, Wild Hunt, Wild Stinger.
