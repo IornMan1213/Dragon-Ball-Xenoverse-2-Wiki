@@ -2894,3 +2894,421 @@
 - [ ] CI/runtime: no successful workflow/check exposed for this direct-commit chain; no CI success claimed.
 - [x] Commits: canonical `d3ddc3bfd924d2160063563865ccee59b7dd12b0`; audit `dd1c9349404c38ca16a08637228127b4eac65ca3`; cross-domain registration `4c718623d52883f66a161bcb851bf5f188fe1996`.
 - [ ] Exact next priority: recompute the full Super Soul thin-system census and select the next **4–12 highest-impact canonical records with strong exact-name evidence and/or reusable PQ cross-links**, rather than blindly continuing by numeric ID. Preserve unresolved mechanics and acquisition conflicts.
+
+
+---
+
+# Consolidated Cycle-Prompt Archive — 2026-09-21 through 2026-09-22
+
+This section is the canonical in-place consolidation of the dated `AI-CONTINUATION-PROMPT-CYCLE-*.md` notes listed below. Their complete text is preserved verbatim so future sessions no longer need to discover separate cycle prompts to reconstruct continuation history. The individual dated files remain as historical source artifacts and are not deleted by this consolidation.
+
+Sources consolidated in this stage:
+- `docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-21-EARLY-SOULS.md`
+- `docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-21-FOLLOWUP.md`
+- `docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-21-SUPER-SOULS-010-011.md`
+- `docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-21-SUPER-SOULS-012-018.md`
+- `docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-21-SUPER-SOULS-024-047.md`
+- `docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-21.md`
+- `docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-ARM-CRASH.md`
+- `docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-ARM-THROUGH-AUDACIOUS.md`
+- `docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-BEAST-THROUGH-BECOME-GIANT.md`
+- `docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-COVERAGE-CURRENT-BASELINE.md`
+- `docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-CURRENT-CONSUMER-AUDIT.md`
+- `docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-DOMAIN-AWARE-ACCESSORY-RECONCILIATION.md`
+
+
+---
+
+# CONSOLIDATED SOURCE: docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-21-EARLY-SOULS.md
+
+# AI Continuation Cycle Note — 2026-09-21 (early Super Souls batch)
+
+Read alongside docs/AI-CONTINUATION-PROMPT.md and docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md.
+
+## Completed
+- Audited Super Souls 001–008 against the live PQ reward layer.
+- Exact-name PQ reward matches confirmed for Super Soul 002 (Flying Nimbus!!) → PQ002, Super Soul 004 (Your death is imminent!) → PQ005, and Super Soul 007 (Gyau!!!!) → PQ007.
+- Added the three missing typed master relationships and synchronized the PQ record `super_soul_rewards` fields plus the forward/reverse crosslink report.
+- Normalized canonical acquisition provenance for Super Souls 002, 004, and 007 to their respective PQs and refreshed verification dates/sources.
+- Super Souls 001, 003, 005, 006, and 008 remain Item Shop/TP Medal Shop records and were deliberately not forced into PQ relationships.
+- Exact drop conditions/percentages were not invented.
+
+## Commits
+- 396060dcca17a8ec5d5a662b62251d733e13b25a — PQ record layer
+- fb8884dfc92bd6fdab1f74a1088bdded1ba58a45 — master PQ reward relationships
+- e7f5e7bd188c58243a476329c0a2bce38ff39e81 — bidirectional crosslink report
+- 1a846687343e6fb8b7cbae5adfd0b757b944ecc2 — canonical Super Soul provenance
+- 56cdc33df0d188d63934167b6c1c4bb56679b6fa — changelog
+
+## Exact next batch
+Continue with Super Souls 010–018. Reconcile every exact-name PQ reward match against the canonical PQ records, normalize acquisition provenance where source-backed, and synchronize forward/reverse indexes. Pay special attention to the existing partially verified PQ acquisitions for 010 and 011 and the NPC/shop records 012–018; do not force a PQ relationship when the canonical acquisition evidence points elsewhere.
+
+
+---
+
+# CONSOLIDATED SOURCE: docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-21-FOLLOWUP.md
+
+# AI Continuation Cycle Note — 2026-09-21 (follow-up)
+
+Read alongside docs/AI-CONTINUATION-PROMPT.md and docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md.
+
+## This cycle
+- Re-read the efficiency addendum and the prior persistent cycle note.
+- Live Super Soul census: 42 canonical records; 11 canonical PQ forward edges; 11 reverse edges; 31 unresolved canonical target routes.
+- Deterministic follow-up: super-soul-009 (You cocky little...!) still had an unresolved acquisition field even though PQ006 was now source-backed.
+- Updated docs/data/super-souls-record-layer.json: acquisition_type = Parallel Quest; acquisition_source = Parallel Quest 06; first_clear_or_repeat = PQ 06 reward; added the maintained all-PQ guide to sources; refreshed last_verified to 2026-09-21; preserved uncertainty around exact drop percentage/special-drop conditions.
+- Updated CHANGELOG.md.
+- Commits: 1dd1a1bc68de42ce70539cc394d308ab085a463d (canonical Super Soul record); 30918a1f9cb82dbbc2e831b687b8f8952963d606 (changelog).
+
+## Validation / evidence boundary
+The change is a provenance normalization, not a new guessed reward. PQ006 → super-soul-009 was already present in the typed relationship and crosslink report. No drop rate or hidden-condition value was fabricated.
+
+## Exact next batch
+Audit the next 8 early/base-game canonical Super Soul records (super-soul-001 through super-soul-008) against the existing master PQ relationship layer and canonical PQ reward data. For each exact-name match, reconcile acquisition provenance and bidirectional PQ links. If the canonical record is genuinely Item Shop or TP Medal Shop rather than PQ-derived, leave the unresolved PQ route intact and document the evidence boundary rather than forcing a link.
+
+
+---
+
+# CONSOLIDATED SOURCE: docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-21-SUPER-SOULS-010-011.md
+
+# AI Continuation Cycle Note — 2026-09-21 (Super Souls 010–011)
+
+Continue alongside `docs/AI-CONTINUATION-PROMPT.md` and `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md`.
+
+## Completed
+- Reconciled Super Soul 010 `I'll kill all of you!!` ↔ PQ022.
+- Reconciled Super Soul 011 `H-How could he?!` ↔ PQ012.
+- PQ012 now exposes `H-How could he?!` through its structured `super_soul_rewards` field.
+- Both canonical Super Soul acquisition records now explicitly identify their PQ sources, with uncertainty preserved for exact drop conditions/percentages.
+- Existing forward/reverse crosslink report entries were preserved and validated.
+- Super Souls 012–018 were not forced into PQ relationships because their current canonical acquisition records indicate Item Shop / other non-PQ acquisition.
+
+## Validation
+- Crosslink forward edges: 11
+- Crosslink reverse edges: 11
+- Unresolved canonical target routes: 31
+- Forward/reverse mismatches: 0
+
+## Commits
+- 9097e9f1be8ee27ab5d11d3058aad205f75ffb33 — PQ record layer
+- 0aecfe5f9ef048b2f24934533233e224cccdc2bc — Super Soul records
+- bf6d33edd9f9fe5721046e4c1a192e30c0f10286 — relationship layer synchronization
+- a9402b370866aebaf7dd2fc1461125584cd43752 — changelog
+
+## Exact next batch
+Continue with Super Souls 012–018. Audit exact-name matches across the complete canonical PQ reward layer and preserve their current Item Shop / TP Medal Shop provenance unless a source-backed PQ relationship is found. If no PQ match exists, document the evidence boundary rather than manufacturing a relationship. After that, proceed through the remaining canonical Super Soul records in larger batches while keeping PQ ↔ reward ↔ Super Soul bidirectional navigation intact.
+
+
+---
+
+# CONSOLIDATED SOURCE: docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-21-SUPER-SOULS-012-018.md
+
+# AI Continuation Cycle Note — 2026-09-21 (Super Souls 012–018)
+
+## Completed
+- Audited canonical Super Souls 012–018 against every record in the 186-entry canonical PQ reward layer.
+- Found zero exact-name PQ reward matches for all seven records.
+- Preserved existing Item Shop / TP Medal Shop / NPC acquisition classifications and did not manufacture PQ relationships.
+- Added explicit evidence-boundary notes and refreshed verification dates in the canonical Super Soul records.
+- Changelog updated.
+
+## Validation state
+- PQ reward records audited: 186
+- Super Souls audited: 7
+- Exact-name PQ matches: 0
+- Existing crosslink model remains bidirectional: 11 forward / 11 reverse
+- Existing unresolved canonical target routes: 31
+- No forward/reverse mismatch introduced.
+
+## Commits
+- 4002fe68e2efb2aba4484eaddf0ab6de4ffaac3a — canonical Super Soul records
+- 6d4b54398ecf43e7f61849a098d8353f72c117a0 — changelog
+
+## Exact next batch
+Continue with the next canonical Super Soul records after 018. Work in large deterministic batches, cross-check every candidate against the complete PQ reward layer and master relationship layer, synchronize both directions where source-backed, and preserve explicit evidence boundaries where no relationship can be established. Do not invent missing Super Soul IDs 019–023 merely from gaps in numbering.
+
+
+---
+
+# CONSOLIDATED SOURCE: docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-21-SUPER-SOULS-024-047.md
+
+# AI Continuation Cycle Note — 2026-09-21 (Super Souls 024–047)
+
+## Completed
+- Audited all 24 existing canonical Super Soul records 024–047 against the complete 186-record PQ reward layer.
+- Confirmed `Drop dead!!!` as PQ28 and confirmed the PQ185/PQ186 exact-name reward mappings for Super Souls 032–035.
+- Normalized Super Souls 032–035 from `Parallel Quest ... reward inventory (mapping unresolved)` to exact PQ acquisition fields with first-clear/reward provenance.
+- Confirmed no exact-name PQ reward match for Super Souls 024–030 and 036–047; preserved their Item Shop, Mixing Shop, NPC, or Online Raid acquisition boundaries and did not fabricate PQ relationships.
+- The canonical crosslink report already contains the PQ28 and PQ185/PQ186 forward/reverse edges, so no duplicate report edges were created.
+- Changelog updated.
+
+## Validation
+- Existing Super Soul records audited: 24
+- Canonical PQ records searched: 186
+- Exact-name PQ matches in this batch: 5 targets (031–035)
+- Additional PQ relationships created: 0 (existing master/report coverage already represented them)
+- No-match targets: 19
+- Crosslink report remains internally bidirectional at 11 forward / 11 reverse.
+
+## Commits
+- 3c5854a7e3f58b2ecd49389584bc627db5d9de3f — Super Soul canonical normalization/audit
+- e8c4a5ccaf3dddc3178dafaab39a9c202032187d — changelog
+
+## Next exact batch
+Continue auditing the remaining canonical domains and relationship layers rather than inventing Super Soul IDs. Prioritize relationship completeness and other databases that can be linked through shared canonical IDs/names so PQ → Super Soul → effect navigation remains possible throughout the wiki.
+
+
+---
+
+# CONSOLIDATED SOURCE: docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-21.md
+
+# AI Continuation Cycle Note — 2026-09-21
+
+This note supplements docs/AI-CONTINUATION-PROMPT.md because the current handoff file is too large for the repository write interface to safely replace in this session. It must be read alongside the canonical handoff.
+
+## Completed cycle
+- Workstream: PQ ↔ Super Soul canonical endpoint reconciliation.
+- Live scope: 186 canonical PQ records; 42 canonical Super Soul records.
+- Added the source-backed relationship PQ006 (Saibamen's Revenge) → super-soul-009 (You cocky little...!).
+- Updated docs/data/pq-reward-relationships.json.
+- Updated PQ006 in docs/data/parallel-quests-record-layer.json so super_soul_rewards explicitly contains You cocky little...!.
+- Updated docs/data/pq-super-soul-crosslink-report.json with the forward and reverse edge and removed super-soul-009 from unresolved endpoints.
+- Validation: 138 master PQ→Super Soul relationships; 11 canonical forward edges; 11 reverse edges; 31 unresolved canonical Super Soul endpoints; 0 forward/reverse mismatches; 0 citation artifacts.
+- CI: latest Wiki data audit and Clean internal artifacts runs failed with zero recorded steps. Validators were not weakened.
+
+## Commits
+- 66c89388883573f8e065856650f7f95188efff90 — master relationship
+- 6758012120db2723fb8561de029dc8843eaf7998 — PQ006 canonical reward
+- 01ba8d3e9176cff64ddb7275ac993a4bd8f34447 — Super Soul crosslink report
+- b3838d3d0579859aeb9830707ea302d5736451ce — changelog
+
+## Exact next batch
+Continue the Super Soul reverse-link audit in a larger deterministic batch. Expand the canonical Super Soul registry from existing master PQ relationship entries only where exact identity plus acquisition/effect evidence can be established. Prioritize the next early/base-game Super Soul records, then reconcile their PQ edges in both directions. Do not create canonical Super Soul records from relationship names alone.
+
+## Handoff write limitation
+The canonical docs/AI-CONTINUATION-PROMPT.md is approximately 734 KB and the GitHub file replacement operation was rejected by the tool safety layer when attempting to append this cycle while preserving the complete file. Per the append-only protection rule, the historical handoff was not overwritten or truncated. This cycle note is the persistent fallback state for the next session.
+
+
+---
+
+# CONSOLIDATED SOURCE: docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-ARM-CRASH.md
+
+# 2026-09-22 — Arm Crash provenance verification cycle
+
+## Completed
+
+- Read the continuation protocol, efficiency addendum, exhaustive TODO, and current live handoff state.
+- Continued the active P1 stale-`last_verified` skill provenance queue at **Arm Crash** (`skill-arm-crash`).
+- Verified the existing canonical semantics against independent current evidence: Arm Crash is a Strike Super, uses 100 Ki, and is learned from **Nappa's mentor training — Lesson 1**.
+- Independent sources consulted:
+  - `https://dbxv2.fandom.com/wiki/Arm_Crash`
+  - `https://dragonball.fandom.com/wiki/Arm_Break`
+  - `https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887`
+  - `https://steamcommunity.com/app/454650/discussions/0/1697167168515746525/`
+- Added `docs/data/skill-arm-crash-provenance-audit-2026-09-22.json` documenting the evidence and boundaries.
+
+## Evidence boundary
+
+- No PQ relationship was added; Arm Crash remains a mentor-acquired skill.
+- No Ultimate Finish requirement, reward probability, shop condition, or additional prerequisite was inferred.
+- The existing canonical/index semantics remain supported; the remaining desired change is a provenance freshness refresh (`last_verified`/note) in the large canonical/index files when a safe full-file update path is available.
+
+## Validation
+
+- Live repository search confirms the Arm Crash canonical/index/mentor cross-domain records exist and identify Nappa's mentor endpoint.
+- The new audit is machine-readable JSON and records the four independent evidence sources.
+- Repository runtime/CI execution is unavailable; no CI success is claimed.
+
+## Commit
+
+- `dc522a1c142b51d1dcbf32b7e7542b8460f24e34` — Arm Crash provenance verification audit.
+
+## Exact next task
+
+- If the large canonical/index skill files can be safely patched, refresh **Arm Crash** `last_verified` and provenance note in both `docs/data/skills.json` and `docs/data/skills-index.json`, then validate exact canonical/index parity.
+- Otherwise continue the stale-`last_verified` P1 skill queue with the next unfinished skill, preserving existing canonical semantics and evidence conflicts.
+- Keep `docs/AI-CONTINUATION-PROMPT.md` append-only; this cycle file is the persistent cycle checkpoint for the current handoff limitation.
+
+
+---
+
+# CONSOLIDATED SOURCE: docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-ARM-THROUGH-AUDACIOUS.md
+
+# AI Continuation Cycle Note — 2026-09-22 (Arm Crash through Audacious Laugh)
+
+Read alongside `docs/AI-CONTINUATION-PROMPT.md`, `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md`, `docs/CONTINUATION-PROMPT-ORGANIZED.md`, and `docs/TODO-EXHAUSTIVE.md`.
+
+## Completed
+- Continued the P1 skill acquisition/provenance census after Apocalyptic Burst.
+- Bounded records researched: `skill-arm-crash`, `skill-assault-vanish`, `skill-atomic-blast`, `skill-audacious-laugh`.
+- Independent evidence confirms:
+  - Arm Crash → Nappa Training Lesson 1.
+  - Assault Vanish → Parallel Quest 131 — “Fight of the Fusions! Vegito vs Gogeta”; an independent PQ131 record lists it in Basic Reward.
+  - Atomic Blast → Parallel Quest 87 — “Saiyan Battle”.
+  - Audacious Laugh → Zarbon's Initiation Test / Instructor Quest 1; the maintained instructor guide explicitly lists it as the Basic Reward.
+- Existing canonical acquisition semantics were not contradicted, so no canonical skill identity or reward relationship was changed.
+- Added `docs/data/skill-provenance-audit-2026-09-22-arm-through-audacious.json` as the bounded evidence/audit artifact.
+
+## Evidence
+- Arm Crash: `https://dbxv2.fandom.com/wiki/Arm_Crash`, `https://dragonball.fandom.com/wiki/Arm_Break`, Steam community discussion of Nappa Lesson 1.
+- Assault Vanish: `https://dbxv2.fandom.com/wiki/Assault_Vanish`, PQ131 gameplay record, independent Xenoverse 2 technique documentation.
+- Atomic Blast: `https://dbxv2.fandom.com/wiki/Atomic_Blast`.
+- Audacious Laugh: `https://dbxv2.fandom.com/wiki/Audacious_Laugh`, `https://dragonball.fandom.com/wiki/Audacious_Laugh`, maintained instructor guide, independent instructor walkthrough.
+
+## Evidence boundaries
+- No drop probability was inferred.
+- No Ultimate Finish requirement was added unless independently deterministic evidence supported it.
+- Existing canonical/index values remain authoritative; this cycle intentionally did not perform unsafe whole-file replacement of the approximately 734 KB canonical handoff or large skill JSON files.
+
+## Validation
+- Live skill census remains **452 canonical / 452 index / 0 duplicate IDs**.
+- The four records were independently researched against current repository values.
+- No canonical relationship was altered.
+- Runtime/CI remains unavailable; no CI success is claimed.
+
+## Persistence / write limitation
+`docs/AI-CONTINUATION-PROMPT.md` is very large. The repository already uses dated cycle-note fallbacks when the append-only replacement operation cannot safely preserve the complete historical handoff. This cycle note is therefore the persistent continuation state for the work completed here and must be read with the canonical handoff rather than replacing it.
+
+## Commits
+- Provenance audit: `cf56f09a9c0f42982ba50c69783ff369d3927582`.
+- This cycle note: pending commit SHA from the repository write operation.
+
+## Exact next batch
+Continue the stale `last_verified` P1 skill provenance queue with **Beast (`skill-beast`)** after first recomputing the live canonical/index census. Inspect the full record, independently verify the acquisition endpoint, preserve any source conflicts, and make only evidence-backed provenance changes or a bounded audit artifact if a whole-file-safe write is unavailable.
+
+
+---
+
+# CONSOLIDATED SOURCE: docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-BEAST-THROUGH-BECOME-GIANT.md
+
+# AI Continuation Cycle Note — 2026-09-22 (Beast through Become Giant)
+
+Read alongside the canonical continuation prompt, efficiency addendum, organized continuation prompt, and exhaustive TODO.
+
+## Completed
+- Continued the P1 stale-last_verified skill provenance census through Beast and Become Giant.
+- Beast: independently corroborated the existing max-friendship Gohan (Adult) & Videl + Piccolo prerequisite and Piccolo/Cell Max unlock mission.
+- Become Giant: independently corroborated the existing Guru's House Namekian Awakening route, including the Namekian/level-35 prerequisites and quest flow.
+- Refreshed canonical/index provenance for both records to 2026-09-22.
+- Added bounded audits:
+  - docs/data/skill-beast-provenance-audit-2026-09-22.json
+  - docs/data/skill-become-giant-provenance-audit-2026-09-22.json
+- Registered both audits in docs/data/pq-cross-domain-index.json.
+
+## Validation
+- Live skill census: 452 canonical / 452 index / 0 duplicate IDs.
+- Affected canonical/index records remain semantically aligned.
+- No skill identities, PQ relationships, reward probabilities, or Ultimate Finish semantics were changed.
+- Runtime/CI remains unavailable; no CI success is claimed.
+
+## Exact next batch
+Continue with Big Bang Knuckle (skill-big-bang-knuckle), recomputing the live canonical/index census first and preserving any source conflict.
+
+
+---
+
+# CONSOLIDATED SOURCE: docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-COVERAGE-CURRENT-BASELINE.md
+
+# Continuation Handoff — 2026-09-22 Coverage Audit Current-Baseline Repair
+
+## Live baseline
+- Canonical PQ relationship layer: **859 unique edges**.
+- Domain counts: **244 skills / 151 Super Souls / 124 equipment / 247 characters / 86 DLC / 7 farming**.
+- Equipment reverse target count: **122**.
+- Canonical equipment/accessory combined layer remains **174** records.
+
+## Work completed this cycle
+- Re-read the active non-PQ consumer handoff and performed a fresh current-baseline search rather than trusting historical handoff text.
+- Directly confirmed the corrected current producer/consumer contracts remain **859 total / 124 equipment forward / 122 equipment reverse**.
+- Found one genuine current-claim drift candidate in `docs/COVERAGE-AUDIT.md`: repository search exposes wording that says its current final-state fields remain synchronized to an **862-edge** baseline. That is incompatible with the live 859-edge canonical relationship layer.
+- Confirmed that the repository's dedicated current consumer census already classifies the 859/124 baseline as current and historical 840/860/862 and 125/123 snapshots as historical evidence.
+- Created `docs/data/pq-coverage-audit-current-consumer-drift-2026-09-22.json` to preserve the finding and its evidence boundary.
+- No relationship edge was added, removed, renamed, or inferred.
+
+## Important write limitation
+- `docs/COVERAGE-AUDIT.md` is a very large append-only historical file. The available safe replacement operation cannot reconstruct the complete file from the truncated connector response without risking loss of unrelated history.
+- Therefore the stale current-claim was **not** blindly overwritten. The new drift audit is the durable record of the required correction, and historical snapshots remain untouched.
+
+## Validation boundary
+- Static/direct-fetch evidence only.
+- Runtime/CI execution is not claimed because no successful execution result is exposed through the current repository connection.
+
+## Exact next task
+1. Safely patch `docs/COVERAGE-AUDIT.md` when a complete-file-preserving write path is available, changing only the stale current-state wording from the 862 baseline to the current **859/124** baseline.
+2. Preserve all dated historical 862/860/840 and 125/123 snapshots.
+3. Re-run the registered non-PQ consumer census and confirm no additional current-baseline drift.
+4. Then resume the next highest-priority unresolved identity/navigation item rather than inventing `equip-141`–`equip-150` records; the live legacy equipment layer currently ends at `equip-140`.
+
+## Commit
+- `2607affdf1189d724187804f4b5de0ca52fc349a` — current Coverage Audit drift record.
+
+
+---
+
+# CONSOLIDATED SOURCE: docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-CURRENT-CONSUMER-AUDIT.md
+
+# AI Continuation Cycle — 2026-09-22 — Current Consumer Baseline Audit
+
+## Read/continue state
+The live repository remains authoritative. The current canonical PQ relationship baseline is **859 unique edges** across **244 skills / 151 Super Souls / 124 equipment / 247 characters / 86 DLC / 7 farming**.
+
+## Completed in this cycle
+- Audited registered PQ-facing consumers for stale post-PQ99 equipment totals.
+- Found and corrected the deterministic current producer census drift in `docs/data/pq-relationship-producer-census.json`: equipment changed from **125/123** to **124/122**, and target-normalization total changed from **860** to **859**.
+- Added `docs/data/pq-current-consumer-baseline-correction-2026-09-22.json` documenting the consumer audit and explicitly distinguishing historical snapshots from current projections.
+- Added `scripts/validate_pq_current_consumer_baseline.py` to enforce canonical current totals and producer-census parity without treating historical audit snapshots as current state.
+- Identified eight equipment batch-detail audits that still contain historical 125-edge snapshot values. They are intentionally classified as `historical_snapshot`; they must not be silently rewritten because they document earlier reconciliation states.
+- Confirmed `pq-cross-domain-audit.json` and `pq-cross-domain-status.json` contain both historical reconciliation sections and explicit current 859/124 projection sections. Historical values remain preserved; current sections are authoritative.
+
+## Validation boundary
+The validator logic was written against the canonical relationship model and current producer census. Runtime execution is not claimed because the repository execution environment has not provided reliable local GitHub cloning/CI execution. GitHub direct-commit status checks remain unavailable for this chain.
+
+## Important evidence boundary
+Do not merge or delete historical 125/860/862 values merely because they differ from the current 859/124 baseline. They are dated audit snapshots. Only fields explicitly representing current/live/baseline projections should be synchronized.
+
+## Next exact task
+Continue the non-PQ consumer audit. Search registered **presentation, catalog, search, character/DLC, skill acquisition, Super Soul acquisition, and equipment detail consumers** for current/live scalar relationship totals or endpoint identities that still assume the old equipment/total baseline. Fix deterministic current fields only, then refresh the correction audit and this handoff. After the consumer layer is clean, return to the P1 exhaustive data/provenance queue rather than repeatedly rewriting historical audit records.
+
+
+---
+
+# CONSOLIDATED SOURCE: docs/AI-CONTINUATION-PROMPT-CYCLE-2026-09-22-DOMAIN-AWARE-ACCESSORY-RECONCILIATION.md
+
+# 2026-09-22 — Domain-aware accessory reconciliation
+
+## Completed
+
+- Rechecked the live accessory residual backlog and canonical equipment/accessory layers.
+- Confirmed Resistance Helmet (pqacc-021, PQ111) is already canonically represented as equip-135, category accessory.
+- Confirmed Gine (DB Super)'s Accessory (pqacc-026, PQ144) is already canonically represented as equip-050, Gine (DB Super) Set, category accessory.
+- Corrected docs/data/accessory-pq-canonical-remaining.json so both records distinguish absence of a dedicated acc-### identity from absence of a canonical inventory identity.
+- Corrected the residual census to report 14 genuinely without a canonical inventory identity, with 2 additional research records domain-resolved through the canonical equip-### accessory namespace.
+- Added and registered docs/data/accessory-domain-resolution-audit-2026-09-22.json.
+- Registered the audit in docs/data/pq-cross-domain-index.json.
+- Verified the edited residual backlog after write and removed a transient duplicate census field before finalizing.
+
+## Validation
+
+- Resistance Helmet: equip-135 appears in the canonical equipment record layer, equipment/accessory layer, and PQ111 equipment crosslink.
+- Gine Set: equip-050 appears in the canonical equipment record layer, equipment/accessory layer, and PQ144 equipment crosslink.
+- No new acc-### identity was invented.
+- No existing canonical equipment relationship was overwritten.
+- Domain-aware audit status: pass.
+
+## Current interpretation
+
+The dedicated accessory bridge intentionally remains acc-###-only. Its null canonical ID for these two records means no dedicated acc-### endpoint, not no canonical inventory endpoint. The canonical equipment graph supplies the actual inventory identity.
+
+## Exact next task
+
+Proceed through the remaining 14 research records with the same domain-aware check, prioritizing exact-name canonical equipment/accessory endpoints before considering any new acc-### identity. In particular, investigate Android 13's Hat, Android 14's Hat, Bardock (DB Super)'s Scouter, Kale's Accessory, and Caulifla's Accessory before the DAIMA-era records. Preserve set/component boundaries and never infer a canonical identity solely from a clothing or component label.
+
+## Commits
+
+- 418ee2135e2bf5f2a364796bbde1e0ff9ed6fdfa — domain-aware reconciliation audit
+- a9d490fd217ea174f0608705085897bf751edd78 — registry update
+- 33f015d783d671c408d5ed86d91a156c948d1191 — residual census correction
+- 883de242363e74c5058a92e4a454aaff3143e5a5 — census field normalization
+
+Static GitHub validation only; CI success is not claimed.
+
