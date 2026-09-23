@@ -1,4 +1,5 @@
 {
+  "skill_provenance_audit_2026_09_23_charged_through_core": "docs/data/skill-provenance-audit-2026-09-23-charged-through-core.json",
   "schema_version": "1.0",
   "scope": "PQ 1-186",
   "forward_index": "docs/data/pq-reward-relationships.json",
