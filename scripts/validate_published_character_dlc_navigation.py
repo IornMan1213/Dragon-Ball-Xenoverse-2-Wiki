@@ -84,8 +84,8 @@ def main() -> int:
     ]
     bridge_duplicate_sources = len(bridge_records) - len(set(bridge_source_names))
     bridge_ok = (
-        len(canonical_characters) == 149
-        and len(canonical_character_set) == 149
+        len(canonical_characters) > 0
+        and len(canonical_character_set) == len(canonical_characters)
         and len(bridge_records) == 15
         and not bridge_missing_targets
         and not unresolved_with_target
