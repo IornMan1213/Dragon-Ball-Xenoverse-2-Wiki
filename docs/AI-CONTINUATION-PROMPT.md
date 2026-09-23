@@ -6191,3 +6191,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Added `docs/data/conton-city-patrol-endpoint-audit-2026-09-23.json`; validation passes with zero broken canonical skill IDs.
 - Patrol event acquisition is kept distinct from mentor-training acquisition.
 - **Exact next task:** audit remaining non-PQ/non-mentor acquisition records for deterministic endpoint gaps and reconcile any missing canonical cross-links.
+
+
+### 2026-09-23 cycle update — Canonical skill/index parity repair after Expert Mission promotion
+
+- Recomputed the live skill projections and found a deterministic mismatch: **465 canonical records in docs/data/skills.json vs 455 records in docs/data/skills-index.json**; there were no index-only records.
+- The 10 missing index records were the recently promoted Expert Mission skills: **Assault Rain, Blue Hurricane, Dead End Bullet, Death Meteor, Death Wave, Hellzone Grenade, Murder Grenade, Shocking Death Ball, Spirit Sword, and Super Electric Strike**.
+- Synchronized docs/data/skills-index.json to **465 records** using the existing projection field contract; no canonical acquisition or mechanics values were invented or changed.
+- Added and registered docs/data/skill-index-canonical-parity-audit-2026-09-23.json.
+- Static validation: **465/465 ID parity, 0 index-only records, 0 duplicate canonical IDs, 0 duplicate index IDs**.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next task:** recompute the broader non-PQ/non-mentor acquisition endpoint census now that canonical/index parity is restored; prioritize deterministic producer/consumer gaps across remaining acquisition systems and do not reopen resolved Expert Mission records.
