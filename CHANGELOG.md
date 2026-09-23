@@ -1868,3 +1868,14 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Reconciled **047 Kicking a Shadow Dragon in the head is not a wise thing to do!**: independently documented Limit Burst is `Auto Health and Stamina Recovery!; DEF Down.`
 - Preserved all unresolved mechanics rather than inferring them.
 - Added and registered `docs/data/super-soul-secondary-field-reconciliation-007-047-2026-09-22.json`.
+
+
+## 2026-09-22 — Super Soul 155/173/175/179/187/197 evidence reconciliation
+
+- Strengthened **155, 173, 175, 179, 187, and 197** with independent exact-name mechanics/acquisition evidence and promoted them from `partially_verified` to `verified_secondary`.
+- Preserved **179's documented -20% guard-break recovery value** rather than replacing it with historical community measurements of roughly 29–30%.
+- Strengthened **187** with the independent Majin Buu character-page source and **197** with a current GameFAQs build/reference source.
+- Re-audited **032**: its PQ185 acquisition is corroborated, but its item-level mechanics remain secondary/community-tested, so it stays `partially_verified`.
+- Added and registered `docs/data/super-soul-155-173-175-179-187-197-032-evidence-reconciliation-2026-09-22.json`.
+- No canonical PQ relationship identities, reward probabilities, Ultimate-Finish requirements, or unsupported engine-level mechanics were added or changed.
+- Live canonical Super Soul status counts after the batch: **71 partially_verified / 11 verified / 112 verified_secondary / 27 researched / 13 indexed**; **234 records / 0 duplicate IDs**.
