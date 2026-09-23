@@ -5748,3 +5748,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: **455 canonical / 455 index / 328 stale** after the batch; target source/date parity clean; no unsupported inference introduced.
 - CI/runtime: unavailable; no CI success claimed.
 - Exact next batch: recompute the live stale queue, then continue with the first alphabetical stale records returned by the fresh census.
+
+### 2026-09-23 cycle update — P1 Dynamite Kick through Energy Barrier provenance refresh
+- Live census before editing: **455 canonical / 455 index / 328 stale / 0 duplicate IDs**.
+- Bounded batch: **Dynamite Kick, Eagle Kick, Earth Splitting Galick Gun, Elegant Blaster, Elite Beam, Elite Shooting, Emperor's Blast, Emperor's Cannon, Emperor's Death Beam, Emperor's Edge, Endless Shoot, Energy Barrier**.
+- Research/evidence: rechecked existing repository-maintained skill/PQ/mentor references and current independent discussion where useful; no unsupported field was inferred. Earth Splitting Galick Gun's PQ #11 acquisition remains anchored to the repository's current PQ evidence.
+- Changes: refreshed canonical/index `last_verified` to **2026-09-23** and appended a provenance-refresh note to each target; existing acquisition, costs, mechanics, DLC classifications, conflicts, and uncertainty were preserved.
+- Added/registered `docs/data/skill-provenance-audit-2026-09-23-dynamite-kick-through-energy-barrier.json` and refreshed the stale census.
+- Validation: **455 canonical / 455 index / 316 stale / 0 duplicate IDs**; target source/date parity clean.
+- CI/runtime: unavailable; no CI success claimed.
+- Exact next batch: recompute the live stale queue and continue with the first alphabetical stale canonical records.
