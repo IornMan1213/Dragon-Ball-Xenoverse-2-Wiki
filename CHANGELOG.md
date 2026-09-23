@@ -2496,3 +2496,13 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Validation: **455/455**, **0 duplicate IDs**, target parity **clean**, stale queue **385**.
 - CI/runtime: no successful status exposed; no CI success claimed.
 - Exact next batch: **Crush Cannon, Crush Stream, Crusher Ball, Dancing Parapara, Dark Inscription, Darkness Eye Beam, Darkness Rush (Melee), Darkness Rush (Ranged), Darkness Twin Star, Data Input**.
+
+
+### 2026-09-23 cycle update — P1 Crush Cannon through Dark Inscription provenance refresh
+- Live census before editing: **455 canonical / 455 index / 385 stale / 0 duplicate IDs**.
+- Completed **Crush Cannon, Crush Stream, Crusher Ball, Dancing Parapara, Dark Inscription**.
+- Rechecked dedicated skill evidence and refreshed canonical/index verification dates to **2026-09-23**; existing acquisition, cost, scope, mechanics, and evidence boundaries were preserved.
+- Added/registered **docs/data/skill-provenance-audit-2026-09-23-crush-cannon-through-dark-inscription.json**.
+- Validation: **455/455**, **0 duplicate IDs**, target parity **clean**, stale queue **380**.
+- CI/runtime: no successful status exposed; no CI success claimed.
+- Exact next batch: **Darkness Eye Beam, Darkness Rush (Melee), Darkness Rush (Ranged), Darkness Twin Star, Data Input, Dead End Rain, Deadly Dance, Death Ball, Death Beam, Death Crasher**.
