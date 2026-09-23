@@ -27,11 +27,45 @@
     "verified_loadout_records_have_explicit_sources": true
   },
   "character_source_skill_identity_overlap": [
-    {"character_id":"goku","canonical_character_name":"Goku","skill_ids":["skill-meteor-blow","skill-meteor-strike"]},
-    {"character_id":"gohan-adult","canonical_character_name":"Gohan (Adult)","skill_ids":["skill-meteor-blow"]},
-    {"character_id":"frieza-final-form","canonical_character_name":"Frieza (Final Form)","skill_ids":["skill-death-slash"]},
-    {"character_id":"frieza-first-form","canonical_character_name":"Frieza (1st Form)","skill_ids":["skill-crazy-finger-shot","skill-death-slash","skill-sonic-bomb","skill-spread-shot-retreat"]},
-    {"character_id":"goku-gt","canonical_character_name":"Goku (GT)","skill_ids":["skill-power-pole-combo"]}
+    {
+      "character_id": "goku",
+      "canonical_character_name": "Goku",
+      "skill_ids": [
+        "skill-meteor-blow",
+        "skill-meteor-strike"
+      ]
+    },
+    {
+      "character_id": "gohan-adult",
+      "canonical_character_name": "Gohan (Adult)",
+      "skill_ids": [
+        "skill-meteor-blow"
+      ]
+    },
+    {
+      "character_id": "frieza-final-form",
+      "canonical_character_name": "Frieza (Final Form)",
+      "skill_ids": [
+        "skill-death-slash"
+      ]
+    },
+    {
+      "character_id": "frieza-first-form",
+      "canonical_character_name": "Frieza (1st Form)",
+      "skill_ids": [
+        "skill-crazy-finger-shot",
+        "skill-death-slash",
+        "skill-sonic-bomb",
+        "skill-spread-shot-retreat"
+      ]
+    },
+    {
+      "character_id": "goku-gt",
+      "canonical_character_name": "Goku (GT)",
+      "skill_ids": [
+        "skill-power-pole-combo"
+      ]
+    }
   ],
   "character_source_skill_identity_gaps": [
     "Vegeta",
@@ -43,104 +77,116 @@
     "Orange Piccolo"
   ],
   "verified_preset_loadouts": [
-  {
-    "preset_id": "frieza-final-preset-2",
-    "character_id": "frieza-final-form",
-    "skill_names": [
-      "Death Slash",
-      "Death Beam",
-      "Death Psycho Bomb",
-      "Maximum Charge",
-      "Full Power Energy Blast Volley",
-      "Death Ball",
-      "Psychic Move"
-    ],
-    "super_soul": "Gotcha!",
-    "source": "https://dbxv2.fandom.com/wiki/Frieza_%28Final_Form%29"
-  },
-  {
-    "preset_id": "vegeta-preset-2",
-    "character_id": "vegeta",
-    "skill_names": [
-      "Sledgehammer",
-      "Energy Wave Combo",
-      "Shine Shot",
-      "Energy Charge",
-      "Full Power Energy Wave",
-      "Explosive Wave"
-    ],
-    "source": "https://dbxv2.fandom.com/wiki/Vegeta"
-  },
-  {
-    "preset_id": "vegeta-preset-3",
-    "character_id": "vegeta",
-    "skill_names": [
-      "Meteor Crash",
-      "Earth Splitting Galick Gun",
-      "Finish Breaker",
-      "Energy Charge",
-      "Super Galick Gun",
-      "Explosive Wave"
-    ],
-    "source": "https://dbxv2.fandom.com/wiki/Vegeta"
-  },
-  {
-    "preset_id": "vegeta-preset-6",
-    "character_id": "vegeta",
-    "skill_names": [
-      "Sledgehammer",
-      "Galick Gun",
-      "Finish Breaker",
-      "Full Power Charge",
-      "Full Power Energy Blast Volley",
-      "Super Back Jump"
-    ],
-    "source": "https://dbxv2.fandom.com/wiki/Vegeta"
-  },
-  {
-    "preset_id": "vegeta-preset-7",
-    "character_id": "vegeta",
-    "skill_names": [
-      "Meteor Crash",
-      "Galick Gun",
-      "Afterimage",
-      "Full Power Charge",
-      "Full Power Energy Blast Volley",
-      "Super Galick Gun",
-      "Explosive Wave"
-    ],
-    "source": "https://dbxv2.fandom.com/wiki/Vegeta"
-  },
-  {
-    "preset_id": "gohan-adult-preset-3",
-    "character_id": "gohan-adult",
-    "skill_names": [
-      "Ki Blast Cannon",
-      "Kamehameha",
-      "Super Guard",
-      "Full Power Charge",
-      "Full Power Energy Wave",
-      "Spirit Explosion"
-    ],
-    "super_soul": "Gohan! Eat a Senzu Bean!",
-    "source": "https://dbxv2.fandom.com/wiki/Gohan_%28Adult%29"
-  },
-  {
-    "preset_id": "frieza-first-preset-2",
-    "character_id": "frieza-first-form",
-    "skill_names": [
-      "Death Wave",
-      "Death Beam",
-      "Shockwave",
-      "Full Power Charge",
-      "Full Power Energy Wave",
-      "Supernova",
-      "Psychic Move"
-    ],
-    "source": "https://dbxv2.fandom.com/wiki/Frieza_%281st_Form%29"
-  }
-],
-  "evidence_boundary": "Character-source skill links remain identity/provenance relationships, not preset loadout claims. One preset (frieza-final-preset-2) now has an explicit sourced loadout; the remaining indexed preset records remain unresolved. Characters without a resolved character-source skill edge are evidence gaps, not broken links."
+    {
+      "preset_id": "frieza-final-preset-2",
+      "character_id": "frieza-final-form",
+      "skill_names": [
+        "Death Slash",
+        "Death Beam",
+        "Death Psycho Bomb",
+        "Maximum Charge",
+        "Full Power Energy Blast Volley",
+        "Death Ball",
+        "Psychic Move"
+      ],
+      "super_soul": "Gotcha!",
+      "source": "https://dbxv2.fandom.com/wiki/Frieza_%28Final_Form%29"
+    },
+    {
+      "preset_id": "vegeta-preset-2",
+      "character_id": "vegeta",
+      "skill_names": [
+        "Sledgehammer",
+        "Energy Wave Combo",
+        "Shine Shot",
+        "Energy Charge",
+        "Full Power Energy Wave",
+        "Explosive Wave"
+      ],
+      "source": "https://dbxv2.fandom.com/wiki/Vegeta"
+    },
+    {
+      "preset_id": "vegeta-preset-3",
+      "character_id": "vegeta",
+      "skill_names": [
+        "Meteor Crash",
+        "Earth Splitting Galick Gun",
+        "Finish Breaker",
+        "Energy Charge",
+        "Super Galick Gun",
+        "Explosive Wave"
+      ],
+      "source": "https://dbxv2.fandom.com/wiki/Vegeta"
+    },
+    {
+      "preset_id": "vegeta-preset-6",
+      "character_id": "vegeta",
+      "skill_names": [
+        "Sledgehammer",
+        "Galick Gun",
+        "Finish Breaker",
+        "Full Power Charge",
+        "Full Power Energy Blast Volley",
+        "Super Back Jump"
+      ],
+      "source": "https://dbxv2.fandom.com/wiki/Vegeta"
+    },
+    {
+      "preset_id": "vegeta-preset-7",
+      "character_id": "vegeta",
+      "skill_names": [
+        "Meteor Crash",
+        "Galick Gun",
+        "Afterimage",
+        "Full Power Charge",
+        "Full Power Energy Blast Volley",
+        "Super Galick Gun",
+        "Explosive Wave"
+      ],
+      "source": "https://dbxv2.fandom.com/wiki/Vegeta"
+    },
+    {
+      "preset_id": "gohan-adult-preset-3",
+      "character_id": "gohan-adult",
+      "skill_names": [
+        "Ki Blast Cannon",
+        "Kamehameha",
+        "Super Guard",
+        "Full Power Charge",
+        "Full Power Energy Wave",
+        "Spirit Explosion"
+      ],
+      "super_soul": "Gohan! Eat a Senzu Bean!",
+      "source": "https://dbxv2.fandom.com/wiki/Gohan_%28Adult%29"
+    },
+    {
+      "preset_id": "frieza-first-preset-2",
+      "character_id": "frieza-first-form",
+      "skill_names": [
+        "Death Wave",
+        "Death Beam",
+        "Shockwave",
+        "Full Power Charge",
+        "Full Power Energy Wave",
+        "Supernova",
+        "Psychic Move"
+      ],
+      "source": "https://dbxv2.fandom.com/wiki/Frieza_%281st_Form%29"
+    },
+    {
+      "id": "vegito-preset-2",
+      "character_id": "vegito",
+      "preset_number": 2,
+      "source": "https://dbxv2.fandom.com/wiki/Vegito"
+    },
+    {
+      "id": "vegito-preset-3",
+      "character_id": "vegito",
+      "preset_number": 3,
+      "source": "https://dbxv2.fandom.com/wiki/Vegito"
+    }
+  ],
+  "evidence_boundary": "Nine preset records have explicit sourced loadouts; remaining indexed records stay unresolved unless an explicit source identifies the same preset number/name. Festival/custom-partner configurations remain separate.",
   "source_backed_candidates_reviewed": [
     {
       "character_id": "goku",
@@ -150,5 +196,8 @@
       "reason": "The existing repository records use generic numeric IDs (goku-preset-2 through goku-preset-16), while the source table uses costume/preset names rather than the repository's numeric labels. Promoting by row order would create an unsupported preset-number mapping."
     }
   ],
-  "next": "Continue source-backed preset-loadout reconciliation in bounded batches; prioritize records where the source explicitly identifies the same preset number/name used by the repository. Do not convert Goku's named table rows into numeric preset IDs until an explicit mapping source is found."
+  "next": "Continue source-backed preset-loadout reconciliation in bounded batches; prioritize records where the source explicitly identifies the same preset number/name used by the repository. Do not convert Goku's named table rows into numeric preset IDs until an explicit mapping source is found.",
+  "verified_preset_loadout_records": 9,
+  "verified_loadout_skill_entries": 58,
+  "verified_loadouts_have_explicit_sources": true
 }
