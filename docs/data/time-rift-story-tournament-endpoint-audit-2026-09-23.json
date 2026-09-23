@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-23",
+  "scope": "Time Rift/story/tournament canonical endpoint implementation audit",
+  "canonical_skill_count": 455,
+  "endpoint_count": 11,
+  "forward_edge_count": 13,
+  "skill_count": 13,
+  "systems": {
+    "time_rift": 4,
+    "story_mission": 2,
+    "tournament": 5
+  },
+  "validation": {
+    "canonical_ids_resolve": true,
+    "unique_skill_endpoint_pairs": true,
+    "status": "pass"
+  },
+  "findings": [
+    "Created deterministic endpoints for four documented Time Rift progression systems, two story systems, and five Conton City Tournament matches.",
+    "All 13 endpoints resolve to 14 unique canonical skills; Match 5 legitimately contributes two skills.",
+    "No Tokipedia, Patrol, or ambiguous Ultra Instinct endpoint was invented."
+  ],
+  "next_research": [
+    "Build dedicated Tokipedia endpoint layer if its canonical records are sufficient.",
+    "Reconcile Conton City Patrol acquisition endpoints separately.",
+    "Investigate the remaining ambiguous Ultra Instinct acquisition endpoint and preserve evidence limits."
+  ]
+}
