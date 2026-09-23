@@ -160,6 +160,18 @@
         "super-soul-217"
       ],
       "relationship_changes": 0
+    },
+    "super_soul_062_064_067_068_mechanics": {
+      "audit_file": "docs/data/super-soul-062-064-067-068-mechanics-audit-2026-09-22.json",
+      "status": "audited",
+      "last_verified": "2026-09-22",
+      "records": [
+        "super-soul-062",
+        "super-soul-064",
+        "super-soul-067",
+        "super-soul-068"
+      ],
+      "relationship_changes": 0
     }
   },
   "validation_tools": {
