@@ -6166,3 +6166,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Added explicit acquisition metadata while preserving unresolved exact drop rates and guarantee conditions; no per-clear guarantee was inferred.
 - Updated `docs/data/expert-mission-endpoint-audit-2026-09-23.json` and the cross-link contract.
 - **Exact next task:** inspect and build/reconcile the **mentor endpoint layer**, then address **Tokipedia and Conton City Patrol endpoint consumers/cross-links**.
+
+
+### 2026-09-23 cycle update — Mentor canonical endpoint layer
+- Added `docs/data/mentor-endpoints.json` from the canonical 33-mentor record layer.
+- Coverage: **33 mentors / 132 lesson→skill edges / 131 unique skill endpoints / 1 typed non-skill reward**.
+- Added `docs/data/mentor-endpoint-audit-2026-09-23.json`; validation passes with zero broken skill endpoints.
+- Reverse mentor→lesson→skill and skill→mentor/lesson navigation is now represented explicitly.
+- The official 32-versus-community 33 mentor count discrepancy remains an evidence reconciliation item, not silently resolved.
+- **Exact next task:** build/reconcile Tokipedia and Conton City Patrol endpoint consumers and cross-links.
