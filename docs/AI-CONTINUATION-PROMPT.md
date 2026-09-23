@@ -6388,3 +6388,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - External mentor documentation independently confirms that Xenoverse 2 instructors/mentors teach skill rewards, supporting the repository's mentor↔skill relationship semantics.
 - CI/runtime remains unavailable; no CI success claimed.
 - **Exact next task:** continue with **character/preset↔skill navigation**, auditing deterministic character identity endpoints against character-source data and preserving legitimate multi-user skill relationships.
+
+
+### 2026-09-23 cycle update — Character/preset↔skill navigation audit
+- Audited 40 preset records / 12 distinct presentation character IDs against the explicit character identity bridge; all 12/12 resolve to canonical character names.
+- Cross-referenced the existing resolved skill-character bridge (39 resolved skill records / 50 canonical character-source edges): 5 preset characters currently have character-source skill identities; 7 do not. The latter are evidence boundaries, not broken navigation, because the bridge is deliberately limited to resolved source identities.
+- Preset loadouts remain explicitly unresolved, so no unsupported preset→equipped-skill links were created.
+- Added and registered docs/data/character-preset-skill-navigation-audit-2026-09-23.json.
+- Validation: 0 unbridged preset character IDs, 0 duplicate preset records, 0 duplicate numbered character-preset pairs, and 0 unsupported loadout-skill promotions.
+- CI/runtime remains unavailable; no CI success claimed.
+- Commits: audit d2128cec282ca77f3a88178ccbe9302078b19ba0; cross-domain index efad78814ccfb6a10515e7ac315fa164ea232a2e; TODO 156e964d203398cbf1279ed3f1fa7f9ba2b612b7.
+- **Exact next task:** audit the broader character/preset presentation consumers for deterministic identity/search parity, then pursue source-backed preset loadout evidence only where an explicit loadout source exists.
