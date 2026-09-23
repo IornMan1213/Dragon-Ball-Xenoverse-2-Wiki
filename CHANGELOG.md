@@ -2197,3 +2197,11 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Corrected current PQ relationship projections to the verified **854 total / 146 Super Soul** baseline (244/146/124/247/86/7).
 - Preserved superseded 859/151 snapshots as historical evidence where applicable.
 - Updated validators and current consumer-baseline metadata; CI/runtime remains unavailable.
+
+
+## 2026-09-23 — Verified PQ 854/146 consumer baseline propagation
+- Reconciled deterministic current PQ consumer projections to the authoritative **854 total / 146 Super Soul** relationship baseline.
+- Synchronized producer census, cross-domain status, non-PQ consumer census, Super Soul thin census, and the non-PQ validator; canonical PQ→Super Soul projection is **146 forward / 143 reverse**.
+- Added `docs/data/pq-current-super-soul-baseline-repair-2026-09-23.json` documenting the repair and evidence boundary.
+- Historical 859/151 and older snapshots remain preserved where they are dated historical records; no canonical relationship edge was invented or deleted.
+- Runtime/CI remains unavailable; no CI success claimed.
