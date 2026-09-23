@@ -6307,7 +6307,7 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Resolved: Meteor Strike → Goku + Gohan (Kid); Photon Swipe → Android 21 with the legacy Toppo token preserved as a conflict; Total Detonation Ball → Android 21 with the legacy Toppo token preserved; X 100 Big Bang Kamehameha → SSGSS Vegeta; Zigzag Express → Majin (Male).
 - Cumulative bridge: **29 resolved skill records / 41 canonical edges / 15 canonical character targets**.
 - Remaining unresolved character/variant entries: **17**.
-- Current external evidence confirms Photon Swipe and Total Detonation Ball as Android 21 skills, while the repository's legacy source tokens remain preserved for provenance/audit purposes. citeturn0search0turn0youtube23
+- Current external evidence confirms Photon Swipe and Total Detonation Ball as Android 21 skills, while the repository's legacy source tokens remain preserved for provenance/audit purposes.
 - CI/runtime remains unavailable; no CI success claimed.
 - **Next task:** reconcile the remaining unresolved entries, prioritizing exact canonical identities while keeping unresolved source conflicts explicit.
 - Commits: `a47c5e547f5f1be0df2d4d1281aca13bd4da41bb`, `461a3dae02404b3667a91af027514d4da73439ff`, `d430781fc8df4c62d1d0f9e421ed792a1ac2f8a9`, `8c716172fa49889e64cd033fcc69e6a706412ee8`.
