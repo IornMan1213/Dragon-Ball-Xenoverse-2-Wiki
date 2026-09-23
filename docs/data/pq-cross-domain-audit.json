@@ -401,7 +401,7 @@
     "empty_targets": 0,
     "reverse_projection_counts": {
       "skills": 239,
-      "super_souls": 148,
+      "super_souls": 143,
       "equipment": 122,
       "accessories": 28
     },
@@ -427,8 +427,8 @@
       },
       "super_souls": {
         "report": "docs/data/pq-super-soul-crosslink-report.json",
-        "forward_edges": 151,
-        "reverse_endpoints": 148,
+        "forward_edges": 146,
+        "reverse_endpoints": 143,
         "duplicate_keys": 0,
         "invalid_pq": 0,
         "unresolved": 0,
@@ -455,7 +455,7 @@
     },
     "result": "clean_current_projection_reports",
     "note": "Accessory report is a dedicated 28-edge accessory projection of the 124 canonical equipment-domain edges; clothing/equipment edges remain represented by the equipment report. No source-of-truth changes were required.",
-    "current_total_edges": 859
+    "current_total_edges": 854
   },
   "current_reconciliation_artifact_census": {
     "unified_reward_reconciliation": {
@@ -490,7 +490,7 @@
       "file": "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json",
       "scope": "PQ 1-186",
       "semantics": "partial source-normalized reverse index; absence is not a negative claim",
-      "status": "not treated as a replacement for the 860-edge canonical relationship layer"
+      "status": "not treated as a replacement for the 854-edge canonical relationship layer"
     },
     "accessory_bridge": {
       "file": "docs/data/accessory-pq-canonical-bridge.json",
@@ -502,7 +502,7 @@
     },
     "result": "no_deterministic_current_count_drift_found_in_audited_reconciliation_artifacts",
     "source_of_truth": "docs/data/pq-reward-relationships.json",
-    "current_total_edges": 859
+    "current_total_edges": 854
   },
   "equipment_reverse_coverage": {
     "forward_edges": 124,
@@ -547,7 +547,7 @@
       "total_edges": 854,
       "counts": {
         "pq_rewards_skill": 244,
-        "pq_rewards_super_soul": 151,
+        "pq_rewards_super_soul": 146,
         "pq_rewards_equipment": 124,
         "pq_features_character": 247,
         "pq_requires_dlc": 86,
