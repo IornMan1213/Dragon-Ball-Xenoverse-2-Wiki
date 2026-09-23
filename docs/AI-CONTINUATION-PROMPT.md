@@ -4689,3 +4689,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: canonical record layer reread; 234 records and 0 duplicate IDs; stored thin census matches the recomputed 11-record queue.
 - CI/runtime remains unavailable; no CI success claimed.
 - Exact next priority: recompute the live 11-record queue, then resolve the strongest evidence-supported remaining field(s), beginning with **174/187 duration** or **217 Limit Burst** if exact-name evidence is available. Keep **032/034**, **158**, and **232–236** as explicit evidence boundaries unless stronger item-level evidence appears.
+
+
+### 2026-09-23 cycle update — Super Soul 174/187 duration reconciliation
+- [x] Recomputed live state before editing: **234 canonical / 0 duplicate IDs / 11 strict-thin records**.
+- [x] Bounded batch: **174 and 187**, targeting the remaining duration-only gaps with evidence-backed semantic states.
+- [x] **174**: recorded the documented 30-second post-battle-start activation delay separately from duration; no documented expiration was found, so the record now states post-delay/no documented expiration rather than inventing a timer.
+- [x] **187**: recorded condition-bound Stamina-recovery semantics while Ki is maxed and explicitly noted that the temporary Ki Auto-Recovery component has no documented finite duration in the consulted evidence.
+- [x] Added audit: `docs/data/super-soul-174-187-duration-reconciliation-2026-09-23.json`.
+- [x] Refreshed live thin census: **11 → 9 strict-thin records**.
+- [x] Validation: canonical JSON reread/parsed; **234 records / 0 duplicate IDs**; stored census matches the independently recomputed 9-record queue.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Remaining queue: **032, 034, 158, 217, 232–236**. Keep 032/034 and indexed-only 158/232–236 as explicit evidence boundaries. **217 Limit Burst** remains the focused unresolved item-level gap; do not infer a burst from absence of evidence.
