@@ -3622,3 +3622,14 @@
 - [x] Preserved the paid-content boundary; this count does not absorb unrelated/free-update loading screens.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: continue the next concrete paid-DLC gap backed by an existing canonical record layer; do not create an illustration layer until individual identities are source-backed.
+
+
+### 2026-09-23 — TODO completion update — Time Patrol Support Pack paid-content reconciliation
+- [x] Reconciled the separately sold Time Patrol Support Pack storefront content: **10 Super Attacks, 3 Ultimate Attacks, 8 costumes, 2 accessories, 3 Super Souls, 1 CC Mascot, and the listed consumable quantities**.
+- [x] Cross-linked exact existing canonical records: equip-024 Battle Suit (Bardock), equip-087 Frieza's Suit (Final Form), acc-038 Frieza's Head (Final Form), acc-039 Korin Wig with Ears & Tail, plus super-soul-029 The ultimate power is mine!.
+- [x] Reconciled six existing PQ skill endpoints from the advertised skill list without treating PQ provenance as exclusive DLC ownership.
+- [x] Added docs/data/dlc/time-patrol-support-pack-content-reconciliation-2026-09-23.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Preserved the architectural boundary: Time Patrol Support Pack is not inserted into the PQ-requirement canonical DLC identity layer because it is a separately sold value pack rather than an existing pq_requires_dlc endpoint.
+- [ ] Two advertised Super Souls, six advertised costume names, several advertised skills, and Puar remain unresolved at canonical-record level; no IDs were invented.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: resolve the remaining Time Patrol Support Pack canonical identity gaps only with record-level evidence, beginning with the two unresolved Super Souls and unmatched costume records; then return to the DAIMA/HOJ2 unresolved non-PQ domains.
