@@ -5029,3 +5029,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - No canonical DLC identity or PQ relationship was changed.
 - Static/direct repository inspection only; runtime/CI remains unavailable and no CI success is claimed.
 - Exact next task: continue DLC content-domain reconciliation at the record level, beginning with the existing DAIMA and HERO OF JUSTICE Pack 2 projections; missing non-PQ domain coverage must remain explicit rather than inferred.
+
+
+### 2026-09-23 cycle update — DLC pack record-link integrity repair
+- Audited concrete downstream equipment records for the maintained DAIMA and HERO OF JUSTICE Pack 2 PQ projections.
+- Found and corrected 7 malformed canonical PQ source identifiers in docs/data/equipment-record-layer.json: pq-pq-159 through pq-pq-162 and pq-pq-179 through pq-pq-181.
+- Corrected them deterministically to pq-159–pq-162 and pq-179–pq-181, matching canonical PQ IDs.
+- Updated the DLC content-link audit; no new DLC/content relationship was inferred.
+- Remaining non-PQ inventory gaps remain explicitly unresolved.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next task: continue record-level DLC reconciliation across declared non-PQ domains using only existing canonical evidence.
