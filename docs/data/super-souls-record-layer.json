@@ -6091,14 +6091,17 @@
       "limit_burst_effect": null,
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Mechanics and provenance refreshed from exact-name secondary documentation while preserving the canonical PQ endpoint and avoiding unsupported reward probabilities or Ultimate-Finish gating. 2026-09-23 semantic-duration reconciliation: Permanent while equipped. No unsupported finite timer inferred. 2026-09-23 Limit Burst/stacking reconciliation: populated evidence-bounded secondary fields from the maintained exact-name Super Soul catalogue; no unsupported numeric cap or timer inferred.",
+      "version_notes": "Mechanics and provenance refreshed from exact-name secondary documentation while preserving the canonical PQ endpoint and avoiding unsupported reward probabilities or Ultimate-Finish gating. 2026-09-23 semantic-duration reconciliation: Permanent while equipped. No unsupported finite timer inferred. 2026-09-23 Limit Burst/stacking reconciliation: populated evidence-bounded secondary fields from the maintained exact-name Super Soul catalogue; no unsupported numeric cap or timer inferred. 2026-09-23 web evidence refresh: independent community sources continue to corroborate the +12 Ki/+12 Stamina utility and PQ 134 association, but the consulted results do not identify this Super Soul's Limit Burst. Limit Burst fields therefore remain unresolved rather than inferred.",
       "verification_status": "researched",
       "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://dbxv2.fandom.com/wiki/DLC",
-        "https://www.reddit.com/r/dbxv/comments/1cj9nwx/"
+        "https://www.reddit.com/r/dbxv/comments/1cj9nwx/",
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/i3kqoi/",
+        "https://www.reddit.com/r/dbxv/comments/io742e/",
+        "https://www.reddit.com/r/dbxv/comments/13joxkk/"
       ],
       "source_parallel_quests": [
         "pq-134"
