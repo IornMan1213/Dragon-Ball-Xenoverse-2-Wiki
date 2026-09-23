@@ -6248,3 +6248,17 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Evidence boundary preserved: unresolved strings may represent valid cast variants, aliases, customize partners, or aggregate users; no canonical character identity was fabricated.
 - [ ] Reconcile the unresolved character/variant source tokens against the canonical character roster and identity bridge in bounded batches.
 - **Exact next batch:** reconcile the first bounded group of unresolved `character_source` identities (starting with high-confidence canonical-name variants/customize-partner forms), then add only evidence-backed skill→character reverse edges.
+
+
+### 2026-09-23 cycle update — Bounded skill→character identity bridge
+
+- Recomputed the live skill-character identity gap from `docs/data/skill-character-source-identity-audit-2026-09-23.json`: 227 skills carry `character_source`, with 39 unresolved character/variant entries before this batch.
+- Bounded batch resolved **7 source entries into 8 canonical skill→character edges**: Blaster Ball → Kefla (Super Saiyan); Divine Kamehameha → Goku (Ultra Instinct) + Goku (Ultra Instinct -Sign-); God of Destruction's Menace → God of Destruction Champa; Headshot → God of Destruction Beerus; Raid Blast → Vegeta (Super Saiyan God); Ray Blast → Kefla (Super Saiyan); Super Black Kamehameha Rosé → Rosé Goku Black.
+- Created `docs/data/skill-character-identity-bridge-2026-09-23.json` and `docs/data/skill-character-reverse-index-2026-09-23.json`; registered both in `docs/data/pq-cross-domain-index.json`.
+- Created `docs/data/skill-character-identity-reconciliation-audit-2026-09-23.json` documenting the bounded evidence and preserving unresolved/conflicting source strings.
+- Deliberately held **Sonic Bomb** unresolved: its source token says Champa, while current skill documentation identifies Frieza as the user; no identity edge was fabricated from the conflicting field.
+- Validation: promoted skill IDs and character names resolve to the live canonical layers; reverse projection has **7 resolved skill records / 8 edges / 6 canonical character targets / 0 duplicate edges / 0 broken endpoints**. Canonical `skills.json` source wording was not rewritten.
+- Evidence used: maintained canonical repository records plus current Xenoverse 2 skill/character documentation for Blaster Ball, Divine Kamehameha, God of Destruction's Menace, Headshot, Raid Blast, Ray Blast, and Super Black Kamehameha Rosé. 
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next task:** reconcile the next bounded unresolved `character_source` cluster, prioritizing exact canonical variant names and customize-partner identities; keep conflict cases such as Sonic Bomb outside the bridge until the source contradiction is resolved.
+- Commits: `ad1068a4a08846c42207d3c41227d5bb4bf83906`, `8c76d6e3c6932b3fe3ed8ec8fbb8a8d18e6a5762`, `11c5ca1780613f2ed75fd50cd0564137a3618d82`, `02488dbb4e6c36f99c1ad36997ab0509c6e1b2e2`, `0c1070c00f70c102c39354c5061b252b143349c6`, `7bf4a58671b915df3ff848c0dc064d445abbe620`.
