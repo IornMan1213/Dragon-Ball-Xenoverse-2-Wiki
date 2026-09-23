@@ -3956,3 +3956,22 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Evidence boundaries preserved; no unsupported reward probabilities or Ultimate-Finish conditions added.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Exact next batch: recompute the live indexed/thin census and select the next 4–12 highest-impact indexed records with exact-name evidence and reusable cross-domain relationships.
+
+
+### 2026-09-22 cycle update — Super Soul 200–205 provenance/mechanics refresh
+- [x] Live census before editing: **234 canonical Super Soul records**; selected records 200–205 were still indexed with canonical PQ navigation.
+- [x] Bounded batch: **super-soul-200 through super-soul-205**.
+- [x] Refreshed character sources, DLC provenance, trigger/effect/magnitude, duration/stacking where directly supported, Limit Burst data, verification status, and provenance for all 6 records.
+- [x] Record 200: Super Baby 2; PQ124; below-25%-HP damage reduction sequence (-20% once for 10 seconds, then -15% while below 25%).
+- [x] Record 201: Kefla (Super Saiyan); PQ126; charged-attack and charged-Ki-Blast stacking effects (+5% each, up to 4 stacks per effect).
+- [x] Record 202: Broly (Full Power Super Saiyan); PQ128; guard-break duration reduced by 25%.
+- [x] Record 203: Frieza (Final Form); PQ128; ally KO triggers +10% all-attack damage for 15 seconds for the user/allies.
+- [x] Record 204: Paragus; PQ128; 150-second trigger restores 300 Ki and grants +20% all-attack damage for 30 seconds.
+- [x] Record 205: Veku; PQ129; battle-start -10% all-attack damage and -10% movement speed for 30 seconds, followed by +10% all-attack damage for 30 seconds and +15% movement speed for 10 seconds.
+- [x] Evidence used: maintained Super Soul catalogue, independent Steam discussion, GameFAQs timing confirmation, current PQ reward navigation, and repository PQ records. No unsupported reward/drop probabilities were added.
+- [x] Added docs/data/super-soul-200-through-205-provenance-audit-2026-09-22.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Validation: canonical Super Soul layer parses at **234 records**; all 6 selected records are current at **2026-09-22** and have populated mechanics/provenance fields; audit parses and is registered; canonical PQ relationship identities were unchanged.
+- [ ] CI/runtime: no successful workflow/check exposed for this direct-commit chain; no CI success claimed.
+- [x] Commits: 47b0a6e7f191c1858a2fe45f090f5890da4577a1, 177bc63d5bb6a8d3183c4361953774350a57df35, 7f0b04948dcddfbf673ba677b242a220375eafb5.
+- [x] Live census after editing: **234 canonical records / 31 indexed-status records**; 200–205 are no longer indexed-only.
+- [ ] Exact next batch: **Super Soul 206–211** — Hey, you think you could fight a little quieter?!; Don't think I'm gonna show you any gratitude!; Hey, you! You ready for me?!; Hmph. I'm off to take a nap.; Th-Thanks...; and You'd better survive, you got that?!. Use the maintained catalogue plus independent corroboration; preserve the existing PQ129–131 canonical relationships and do not infer reward/drop semantics beyond the relationship layer.
