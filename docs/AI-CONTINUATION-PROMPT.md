@@ -4784,3 +4784,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Continued the strict-thin **034** pass. Current PQ186 evidence establishes that the two exact-name Super Souls are “The final battle begins now.” and “I'll use this power to protect everyone!”; July 2026 community evidence distinguishes the former as **Fu's** Soul and the latter as Chronoa's. The canonical 034 record now uses **Fu (Ultra Supervillain)** as its character source, while all mechanics/Limit Burst fields remain unresolved because no authoritative item-level specification was found.
 - [x] No mechanics were inferred from the community discussion; the record remains `partially_verified`.
 - [ ] Next priority remains obtaining authoritative/item-level mechanics and Limit Burst data for **034**, then **217 Limit Burst**.
+
+### 2026-09-23 cycle update — Super Soul 034 evidence-boundary correction
+- [x] Re-ran the exact-name/item-level search for **034 — “The final battle begins now.”** using current September 2026 web evidence.
+- [x] No authoritative item-level mechanics or Limit Burst evidence was found.
+- [x] The prior community-based **Fu** character attribution was not independently substantiated by the fresh search, so the canonical `character_source` was restored to **unresolved** rather than retaining an unsupported attribution.
+- [x] Updated `docs/data/super-souls-record-layer.json` and `docs/data/super-soul-strict-thin-checkpoint-2026-09-23.json`.
+- [x] Validation: changed JSON parsed successfully; strict-thin queue remains **032, 034, 158, 217**; no unsupported mechanics or character source promoted.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [x] Commits: canonical `e3421e3db84fcc2f039f9d3ea7dab5d710189ae8`; checkpoint `8d70bb80f3244e0d353177a21f0c37a7885ef8d9`.
+- [ ] Exact next batch: continue **034** only with item-level/game-data evidence; if still blocked, move to **217 Limit Burst** and preserve the 034 evidence boundary.
