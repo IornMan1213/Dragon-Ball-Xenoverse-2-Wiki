@@ -2566,3 +2566,17 @@
 - [ ] Live census after edit: 234 records; 88 indexed-status records; 139 records missing at least one core mechanic field.
 - [ ] Exact next batch: continue the thin census using the next contiguous high-value records with PQ links, especially records **034 and 036–039**, while preserving evidence boundaries.
 
+
+
+### 2026-09-22 cycle update — Super Soul 034 and 036–039 provenance/mechanics refresh
+- [x] Recomputed the live Super Soul cross-domain census before editing: **234 canonical records / 151 canonical PQ→Super Soul edges / 148 unique reverse targets / 0 unresolved endpoints**.
+- [x] Refreshed canonical Super Soul records **034, 036, 037, 038, and 039** in `docs/data/super-souls-record-layer.json`.
+- [x] Record 034: refreshed PQ 186/Future Saga Chapter 4 acquisition provenance and verification date; kept all item-level mechanics unresolved because no independent exact-name mechanics evidence was found.
+- [x] Records 036–039: refreshed evidence-backed trigger/effect/magnitude/duration fields and Limit Burst data; preserved the 036 10%-description vs 20%-catalogue/game-file conflict and the 039 XXL-vs-+40% representation difference.
+- [x] Added `docs/data/super-soul-034-and-036-through-039-provenance-audit-2026-09-22.json`.
+- [x] Registered the audit in `docs/data/pq-cross-domain-index.json`.
+- [x] No canonical PQ relationship identities changed.
+- [x] Validation: **234/234 canonical records parse, 0 duplicate IDs, 5/5 selected records current, 151 forward edges / 148 reverse targets / 0 unresolved endpoints**.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [x] Commits: `d3ddc3bfd924d2160063563865ccee59b7dd12b0`, `dd1c9349404c38ca16a08637228127b4eac65ca3`, `4c718623d52883f66a161bcb851bf5f188fe1996`, `d52ca87521ba8c75038c4df955cc1334498a57e6`, `1b3528be5d6abb243194ac495ab93cb01a5147de`.
+- [ ] Exact next priority: recompute the **full Super Soul thin-system census** and choose the next **4–12 highest-impact records with strong exact-name evidence and/or reusable PQ cross-links**, rather than blindly continuing by ID.
