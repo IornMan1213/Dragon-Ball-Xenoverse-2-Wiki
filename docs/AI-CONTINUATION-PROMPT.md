@@ -5966,3 +5966,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime remains unavailable; no CI success claimed.
 - Exact next stale batch: **Secret Poison, Shadow Crusher, Shield Barrier, Shine Shot, Shining Friday, Shining Slash, Shooting Strike, Side Bridge, Sign of Awakening, Sneaky Strike, Soaring Fist, and Soaring Rush**.
 - Exact next task: revalidate those 12 records against their maintained source sets, synchronize canonical/index layers, attach the bounded provenance audit, and recompute the stale census.
+
+
+### 2026-09-23 cycle update — P1 Secret Poison through Soaring Rush skill provenance/mechanics refresh
+- Live census before editing: 455 canonical / 455 index / 355 current / 100 stale / 0 duplicate IDs.
+- Completed 12 records: Secret Poison, Shadow Crusher, Shield Barrier, Shine Shot, Shining Friday, Shining Slash, Shooting Strike, Side Bridge, Sign of Awakening, Sneaky Strike, Soaring Fist, Soaring Rush.
+- Research/evidence: repository records plus current exact-name skill references and independent corroboration; Shield Barrier's existing Basic Reward vs Ultimate Finish evidence conflict was explicitly preserved.
+- Changes: canonical/index last_verified synchronized to 2026-09-23 and bounded provenance/mechanics notes refreshed without inventing unsupported numerical mechanics or prerequisites.
+- Validation after write: 455 canonical / 455 index / 367 current / 88 stale / 0 duplicate IDs; all 12 target records synchronized and canonical/index IDs remain aligned.
+- Audit blob prepared for this batch, but the connector's final audit-file attachment path remains blocked; no audit-file commit is claimed.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next batch: Solar Flare, Sonic Bomb, Sonic Rush, Special Beam Cannon, Special Beam Cannon (Beast), Sphere of Destruction, Spirit Ball, Spirit Blaster, Spirit Bomb, Spirit Boost, Spirit Explosion, Spirit Pulse. Recompute the live stale queue first.
