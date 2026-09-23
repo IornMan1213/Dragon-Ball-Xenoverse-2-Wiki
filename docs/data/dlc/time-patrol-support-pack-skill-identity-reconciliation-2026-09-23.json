@@ -66,21 +66,17 @@
     {
       "name": "Giant Storm",
       "id": "skill-giant-storm"
-    }
-  ],
-  "canonical_missing_exact_records": [
-    {
-      "name": "Super Destructo-Disc",
-      "status": "source_backed_research_candidate",
-      "evidence": "skill-batch-251; Expert Mission 4 reward documentation",
-      "note": "Not promoted in this cycle because the canonical skill layer requires a complete-file synchronized promotion with index/projection validation."
     },
     {
       "name": "Big Bang Attack",
-      "status": "source_backed_research_candidate",
-      "evidence": "skill-batch-57; skill-batch-263; dedicated Big Bang Attack source",
-      "note": "Not promoted in this cycle because the canonical skill layer requires a complete-file synchronized promotion with index/projection validation; Ultimate Finish requirement remains unresolved."
+      "id": "skill-big-bang-attack"
     },
+    {
+      "name": "Super Destructo-Disc",
+      "id": "skill-super-destructo-disc"
+    }
+  ],
+  "canonical_missing_exact_records": [
     {
       "name": "Power Pole Combo",
       "status": "unresolved_canonical_identity",
@@ -102,9 +98,9 @@
   ],
   "validation": {
     "official_attack_count": 13,
-    "exact_canonical_skill_records": 10,
-    "exact_canonical_skill_records_missing": 3,
+    "exact_canonical_skill_records": 12,
+    "exact_canonical_skill_records_missing": 1,
     "json_parse_target": "pass"
   },
-  "next_action": "Perform an atomic canonical/index promotion of Super Destructo-Disc and Big Bang Attack only after preserving all canonical schema fields and validating 452+N ID/index parity; research Power Pole Combo separately rather than aliasing it to Power Pole or Power Pole Pro."
+  "next_action": "Research Power Pole Combo as a distinct identity; do not alias it to Power Pole or Power Pole Pro. Then continue the remaining five Support Pack costume identities and Puar."
 }
