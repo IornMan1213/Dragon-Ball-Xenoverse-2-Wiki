@@ -269,6 +269,57 @@
       ],
       "status": "resolved_multi",
       "basis": "Independent Xenoverse 2 documentation identifies Krillin and Android 18 as users; the skill is a Krillin Super Skill and is available through Android 18 Customize Partner."
+    },
+    {
+      "skill_id": "skill-meteor-strike",
+      "skill_name": "Meteor Strike",
+      "source_token": "Goku / Gohan (Kid)",
+      "canonical_character_names": [
+        "Goku",
+        "Gohan (Kid)"
+      ],
+      "status": "resolved_multi",
+      "basis": "Current skill documentation explicitly lists Goku and Gohan (Kid) among notable users; the source token matches those canonical identities."
+    },
+    {
+      "skill_id": "skill-photon-swipe",
+      "skill_name": "Photon Swipe",
+      "source_token": "Toppo",
+      "canonical_character_names": [
+        "Android 21"
+      ],
+      "status": "resolved_conflict",
+      "basis": "The legacy source token says Toppo, but current Xenoverse 2 documentation and current character/moveset evidence identify Photon Swipe as an Android 21 skill. The conflicting source token is preserved rather than silently rewritten."
+    },
+    {
+      "skill_id": "skill-total-detonation-ball",
+      "skill_name": "Total Detonation Ball",
+      "source_token": "Toppo",
+      "canonical_character_names": [
+        "Android 21"
+      ],
+      "status": "resolved_conflict",
+      "basis": "The legacy source token says Toppo, but current Xenoverse 2 documentation identifies Total Detonation Ball as an Android 21 skill. The conflicting source token is preserved rather than silently rewritten."
+    },
+    {
+      "skill_id": "skill-x-100-big-bang-kamehameha",
+      "skill_name": "X 100 Big Bang Kamehameha",
+      "source_token": "Vegeta (Super Saiyan Blue)",
+      "canonical_character_names": [
+        "SSGSS Vegeta"
+      ],
+      "status": "resolved",
+      "basis": "PQ100 and current character documentation associate X 100 Big Bang Kamehameha with SSGSS Vegeta; the canonical roster uses SSGSS Vegeta for Super Saiyan Blue Vegeta."
+    },
+    {
+      "skill_id": "skill-zigzag-express",
+      "skill_name": "Zigzag Express",
+      "source_token": "Majin (Male)",
+      "canonical_character_names": [
+        "Majin (Male)"
+      ],
+      "status": "resolved",
+      "basis": "Current Xenoverse 2 documentation states Zigzag Express can only be used by Majin Male CaCs, matching the canonical Majin (Male) identity."
     }
   ]
 }
