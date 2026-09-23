@@ -26,17 +26,17 @@
     {
       "file": "scripts/validate_pq_reference_pages.py",
       "status": "clean",
-      "note": "active check labels and executable assertions use 854/146."
+      "note": "active executable assertions use the live 853/145 baseline; the separate non-PQ consumer validator now reports the correct 853-edge failure text."
     },
     {
       "file": "docs/data/pq-relationship-producer-census.json",
       "status": "clean",
-      "note": "master and current producer projections use 854/146/124/247/86/7 and 143 Super Soul reverse targets."
+      "note": "master and current producer projections use 853/145/124/247/86/7 and 142 Super Soul reverse targets."
     },
     {
       "file": "docs/data/pq-super-soul-crosslink-report.json",
       "status": "clean",
-      "note": "current status is clean_current_projection with 146/143; remaining 151/148 occurrences are record IDs, historical context, or dated artifacts."
+      "note": "current status is clean_current_projection with 145/142; remaining 151/148 occurrences are record IDs, historical context, or dated artifacts."
     },
     {
       "file": "docs/data/pq-equipment-crosslink-report.json",
@@ -51,7 +51,7 @@
     {
       "file": "docs/data/pq-cross-domain-status.json",
       "status": "clean",
-      "note": "current projection fields use 854 baseline; older 840/859/860/862 snapshots are historical."
+      "note": "current projection fields use the live 853/145/124/247/86/7 baseline; older 840/854/859/860/862 snapshots are historical."
     },
     {
       "file": "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json",
@@ -60,7 +60,7 @@
     }
   ],
   "historical_preservation": "Dated 862/860/859/840 and 151/148 snapshots remain untouched.",
-  "result": "No remaining deterministic current-state scalar/list/endpoint-count drift was identified in this bounded consumer census.",
+  "result": "Current-state consumer census synchronized to the post-Super-Soul-158-migration canonical baseline; no remaining deterministic current-state scalar/list/endpoint-count drift was identified in this bounded consumer census.",
   "ci": "Unavailable; no CI success claimed.",
-  "next_gate": "Transition from repeated baseline reconciliation to the P1 exhaustive provenance/data queue; prioritize the strict-thin Super Soul records already identified by the repository research census."
+  "next_gate": "Transition to the P1 exhaustive provenance/data queue; prioritize the next source-backed stale skill metadata batch while preserving canonical relationship and reverse-navigation parity."
 }
