@@ -3565,3 +3565,13 @@
 - [x] Existing skill/Super Soul count reconciliation remains 7/7 skills and 5/5 Super Souls.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: continue DAIMA paid non-skill/Super-Soul inventory reconciliation, starting with the concrete costume/accessory cohort and official pack-level scope; do not merge free-update records or invent unresolved raid/lobby/stage entries.
+
+
+### 2026-09-23 — TODO completion update — DAIMA paid costume/accessory completeness
+- [x] Reconciled the official DAIMA Pack **8 Costumes/Accessories** count against all eight canonical paid downstream identities: equip-098, acc-071/equip-099 alias, equip-100, acc-072/equip-101 alias, equip-102, acc-073/equip-104 alias, equip-103, and acc-074/equip-105 alias.
+- [x] Confirmed the four costume identities: SS4 Goku (DAIMA) Suit, SS3 Vegeta (DAIMA) Battle Suit, Glorio's Clothes, and Panzy's Clothes.
+- [x] Confirmed the four canonical accessory identities: SS4 Goku (DAIMA) Wig & Tail, SS3 Vegeta (DAIMA) Wig, Glorio Wig, and Panzy Wig.
+- [x] Added docs/data/dlc/daima-paid-costume-accessory-completeness-reconciliation-2026-09-23.json and registered it in the PQ cross-domain index.
+- [x] Removed the resolved paid costume/accessory gap from the DAIMA pack matrix while preserving unresolved free-update/loading-screen/raid/lobby domains.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: continue remaining DAIMA paid domains only where concrete canonical records and official scope permit; prioritize loading-screen completeness if a canonical illustration layer can be reconciled, otherwise audit the next unresolved paid content domain without crossing into free-update ownership.
