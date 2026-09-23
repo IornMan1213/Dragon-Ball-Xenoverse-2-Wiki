@@ -183,7 +183,34 @@
         },
         "equipment": {
           "canonical_pq_edge_count": 5,
-          "status": "PQ-backed equipment navigation; exact pack inventory remains separate"
+          "records": [
+            {
+              "id": "acc-069",
+              "name": "Dr. Hedo Hood",
+              "pq": "pq-159"
+            },
+            {
+              "id": "acc-060",
+              "name": "Red Ribbon Army Helmet",
+              "pq": "pq-160"
+            },
+            {
+              "id": "equip-067",
+              "name": "Red Ribbon Soldier 94 Clothes",
+              "pq": "pq-161"
+            },
+            {
+              "id": "equip-068",
+              "name": "Dr. Hedo Suit",
+              "pq": "pq-162"
+            },
+            {
+              "id": "acc-061",
+              "name": "Gohan (Beast) Wig",
+              "pq": "pq-162"
+            }
+          ],
+          "status": "paid costume/accessory inventory reconciled to official count of five"
         },
         "skill_super_soul_count_reconciliation": {
           "status": "count_reconciled",
@@ -192,16 +219,24 @@
           "official_super_souls": 5,
           "canonical_super_souls": 5,
           "audit": "docs/data/dlc/daima-hoj2-official-skill-super-soul-count-reconciliation-2026-09-23.json"
+        },
+        "stage": {
+          "name": "Red Ribbon Army (Yard)",
+          "status": "pack-scope identity reconciled; dedicated stage record layer not present"
+        },
+        "missions": {
+          "official_count": 2,
+          "status": "pack-level count reconciled; dedicated extra-mission record layer not present"
         }
       },
       "unresolved_domains": [
         "complete_pack_inventory",
         "mission_record_layer",
         "exact_stage_identity",
-        "complete_costume_inventory",
-        "complete_skill_inventory"
+        "stage_record_layer",
+        "extra_mission_record_layer"
       ],
-      "evidence_boundary": "The official release announcement confirms the characters, PQ/missions, skills, costumes, and new stage at pack scope. It does not by itself establish individual acquisition routes or a complete item inventory."
+      "evidence_boundary": "Official publisher sources establish 5 costumes/accessories, 1 stage, and 2 extra missions at pack scope. Five paid costume/accessory identities are matched to canonical PQ-backed records. Cell Max raid rewards remain outside the paid five-item inventory. No synthetic stage or mission records were created."
     }
   ],
   "rules": [
