@@ -4845,3 +4845,16 @@
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Commits:** preset `9e351599d2fec6de76528240c419677cbfe7954e`; audit `bebd53de9b4eecaa5af4c17bb10e6f1b0a7a6534`; validator `84c2c29fe6faa1bb70fda2422011a88f48615319`.
 - **Exact next batch:** reconcile another **4–8 preset loadouts** only where explicit in-game-data tables or equivalent item-level evidence exists; prioritize records already represented in `docs/Character-Core-Profiles.md` or directly covered by the existing preset source corpus, and keep all unsupported loadouts unresolved.
+
+
+### 2026-09-23 cycle update — Six additional explicit preset-loadout promotions
+- [x] Revalidated the preset source corpus against current character in-game-data tables.
+- [x] Promoted **6 additional** preset records to explicit verified loadouts: Vegeta Presets 2, 3, 6, and 7; Gohan (Adult) Preset 3; Frieza (1st Form) Preset 2.
+- [x] Combined with the prior Frieza (Final Form) Preset 2 promotion, the live preset layer now contains **7 verified loadouts / 40 total preset records / 33 still unresolved**.
+- [x] Recorded the exact sourced skill slots and Super Souls where explicitly present; blank Awoken/Evasive/Super Soul slots remain null rather than being inferred.
+- [x] Updated `docs/data/character-preset-skill-navigation-audit-2026-09-23.json` to **7 verified loadout records / 44 skill entries** and corrected its JSON structure.
+- [x] Manual post-write inspection confirmed every verified record has a structured loadout and explicit loadout source.
+- [x] External source verification: the current Vegeta table explicitly enumerates Battle Suit 1–9 loadouts; Gohan (Adult) explicitly enumerates its numbered presets; Frieza (1st Form) explicitly enumerates Battle Suit 2. citeturn2search2turn2search0turn2search1
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Commits:** preset layer `c3f2eabd39b59466458a45be7f7d1c68ac4e40e8`; corrected audit `cdbc3128d7bbe5c8487c77c05ea421eec5535e3f`.
+- **Exact next batch:** continue with another **4–8 explicit preset records**, prioritizing Goku and other records whose numbered in-game-data tables can be matched unambiguously to the existing preset IDs; do not promote Festival/custom-partner configurations as ordinary numbered presets.
