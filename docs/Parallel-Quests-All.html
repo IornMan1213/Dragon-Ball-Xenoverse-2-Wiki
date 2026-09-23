@@ -19,9 +19,9 @@ Search the **canonical local PQ record layer**. This explorer does not substitut
 <script>
 (async function(){
   const localUrl='{{ "/data/parallel-quests-record-layer.json" | relative_url }}';
+  const results=document.getElementById('results'), q=document.getElementById('q'), stars=document.getElementById('stars'), status=document.getElementById('status'), stats=document.getElementById('stats');
   const initialQuery=new URLSearchParams(window.location.search).get('q')||'';
   q.value=initialQuery;
-  const results=document.getElementById('results'), q=document.getElementById('q'), stars=document.getElementById('stars'), status=document.getElementById('status'), stats=document.getElementById('stats');
   const escapeHtml=v=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
   const normalize=v=>String(v??'').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'');
   const searchUrl=(term)=>'{{ "/Search/" | relative_url }}?q='+encodeURIComponent(term);
