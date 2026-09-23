@@ -2175,3 +2175,14 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Preserved the distinction between this Super Soul and the separate **Burst Charge** skill reward in PQ134.
 - Updated the dedicated evidence audit and persistent continuation state.
 - Live authoritative census remains **229 canonical / 0 duplicate IDs / 4 strict-thin**: **032, 034, 158, 217**.
+
+
+### 2026-09-23 cycle update — PQ relationship coverage field clarification
+- [x] Audited `docs/data/pq-cross-domain-status.json` against the canonical relationship audit and live producer census.
+- [x] Found a deterministic semantic mismatch: `relationship_PQ_coverage` reported **182/186** because it was reflecting the reward-batch directory's missing PQ 1/12/13/14 files, while the canonical relationship layer itself covers **186/186** PQs.
+- [x] Corrected the status projection to distinguish **canonical relationship coverage (186/186)** from **canonical reward-batch directory coverage (182/186)**; no relationship edge or source claim was added or removed.
+- [x] Preserved the four missing batch files as an explicit scope limitation rather than treating them as missing canonical relationships.
+- [x] Live relationship baseline remains **859 total = 244 skill + 151 Super Soul + 124 equipment + 247 character + 86 DLC + 7 farming**.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- Commit: `f7b0a6b0da4961b7e67f51b014ac8aa2abf97135`.
+- [ ] Exact next batch: continue the deterministic cross-domain coverage/projection audit, prioritizing a machine-checkable current-field mismatch rather than speculative gameplay data.
