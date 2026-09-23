@@ -6275,3 +6275,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime remains unavailable; no CI success claimed.
 - **Exact next task:** reconcile the next unresolved aggregate-user/customize-partner cluster, beginning with entries where canonical identities are likely to be deterministically enumerable; preserve conflicting fields rather than forcing a mapping.
 - Commits this cycle: `c0a309996a7683f2d0d7dbd612c9fd07177e80fb`, `a67ba732a814e42993b7a4cc710f9931d5acd2a6`, `bece7ec65b50b7858346918e876910e65919d8fb`, `39abd4626fd9325061ef836bcb330ee626b39880`, `9e7d9f9ae840a3e8d5161064e355d0c9c55a63ff`.
+
+
+### 2026-09-23 cycle update — Aggregate/customize-partner identity batch
+
+- Reconciled **6 additional unresolved skill→character source entries**, adding **9 canonical edges**.
+- Newly resolved: Do or Die → Gotenks; Gigantic Explosion → Broly (Restrained) + Broly (DB Super); God Punisher → SSGSS Gogeta; Power Pole Combo → Goku (GT); Requiem of Destruction → Whis; Rolling Bullet → Android 18 + Android 18 (DB Super) + Great Saiyaman 2.
+- Cumulative bridge now contains **20 resolved skill records / 27 canonical skill→character edges / 15 canonical character targets**.
+- Gap inventory now has **26 unresolved character/variant entries** remaining; non-character-source entries remain intentionally outside the bridge.
+- No aggregate/customize-partner identity was invented where the canonical roster could not establish it. Contradictory entries remain held for separate evidence reconciliation.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next task:** continue the remaining unresolved aggregate-user and variant cluster, prioritizing exact canonical roster matches and preserving contradictory source fields.
+- Commits: `d3a7cbf860c9997497b7b8479ee5d00732cae881`, `d7c0ea39bd11d09b75ce4635269969e2c710b9fd`, `23e2f0ab908fbe91e5f1fda918d81a9c733ea9c8`, `7daa897f11a7aad08fd9dfd52b5f645858c08f8c`.
