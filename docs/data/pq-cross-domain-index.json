@@ -335,7 +335,8 @@
     "skill_provenance_2026_09_23_beta_batch": "docs/data/skill-provenance-audit-2026-09-23-beta-batch.json",
     "skill_provenance_2026_09_23_gamma_batch": "docs/data/skill-provenance-audit-2026-09-23-gamma-batch.json",
     "skill_provenance_2026_09_23_delta_batch": "docs/data/skill-provenance-audit-2026-09-23-delta-batch.json",
-    "skill_provenance_2026_09_23_blaster_batch": "docs/data/skill-provenance-audit-2026-09-23-blaster-batch.json"
+    "skill_provenance_2026_09_23_blaster_batch": "docs/data/skill-provenance-audit-2026-09-23-blaster-batch.json",
+    "skill_big_bang_attack_provenance_2026_09_23": "docs/data/skill-big-bang-attack-provenance-audit-2026-09-23.json"
   },
   "registered_audits": {
     "super_soul_thin_census_2026_09_22": "docs/data/super-soul-thin-census-2026-09-22.json",
@@ -383,5 +384,6 @@
     "super_souls_217_032_evidence_refresh_2026_09_23": "docs/data/super-souls-217-032-evidence-refresh-2026-09-23.json"
   },
   "equipment_dlc_reverse_navigation_presentation_2026_09_23": "docs/data/equipment-dlc-reverse-navigation-presentation-audit-2026-09-23.json",
-  "docs/data/super-soul-036-through-047-secondary-field-reconciliation-2026-09-23.json": "docs/data/super-soul-036-through-047-secondary-field-reconciliation-2026-09-23.json"
+  "docs/data/super-soul-036-through-047-secondary-field-reconciliation-2026-09-23.json": "docs/data/super-soul-036-through-047-secondary-field-reconciliation-2026-09-23.json",
+  "validators": {}
 }
