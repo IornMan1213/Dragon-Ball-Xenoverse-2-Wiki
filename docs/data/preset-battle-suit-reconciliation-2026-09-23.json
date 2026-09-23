@@ -8,7 +8,7 @@
       "character_id": "vegeta",
       "source": "https://dbxv2.fandom.com/wiki/Vegeta",
       "source_type": "community_wiki_in-game-data-table",
-      "named_loadout": "Battle Suit configuration A",
+      "named_loadout": "Battle Suit 1",
       "observed_skills": [
         "Meteor Strike",
         "Galick Gun",
@@ -17,15 +17,15 @@
         "Super Galick Gun",
         "Spread Shot Retreat"
       ],
-      "repository_numeric_mapping": "unresolved",
-      "decision": "retain_as_named_source_observation",
-      "reason": "The repository's unresolved Vegeta numeric preset records cannot be mapped to this named source row without an explicit numeric identifier."
+      "repository_numeric_mapping": "vegeta-preset-1",
+      "decision": "verified_exact_numeric_mapping",
+      "reason": "The source explicitly labels this loadout Battle Suit 1."
     },
     {
       "character_id": "vegeta",
       "source": "https://dbxv2.fandom.com/wiki/Vegeta",
       "source_type": "community_wiki_in-game-data-table",
-      "named_loadout": "Battle Suit configuration B",
+      "named_loadout": "Battle Suit 2",
       "observed_skills": [
         "Sledgehammer",
         "Energy Wave Combo",
@@ -34,9 +34,9 @@
         "Full Power Energy Wave",
         "Explosive Wave"
       ],
-      "repository_numeric_mapping": "unresolved",
-      "decision": "retain_as_named_source_observation",
-      "reason": "The loadout is directly useful for skill connectivity, but the source evidence available to this layer does not establish which unresolved numeric preset it belongs to."
+      "repository_numeric_mapping": "vegeta-preset-2",
+      "decision": "verified_exact_numeric_mapping",
+      "reason": "The source explicitly labels this loadout Battle Suit 2."
     },
     {
       "character_id": "vegeta",
@@ -56,6 +56,6 @@
       ]
     }
   ],
-  "unresolved_mapping_rule": "Do not promote named Battle Suit configurations A/B to preset numbers until an explicit source identifier, matching game-data key, or independently corroborated numeric mapping is found.",
-  "next": "Search for explicit numeric/game-data identifiers for Vegeta's unresolved Battle Suit rows; then reconcile only exact matches."
+  "unresolved_mapping_rule": "Do not assign numeric preset IDs by row order, costume order, or proximity. Explicit source labels such as Battle Suit 1/2 are acceptable exact mappings.",
+  "next": "Continue exact reconciliation for the remaining unresolved Vegeta preset numbers (3, 9, 10, 11 where applicable), using explicit source labels and exact loadout matches only."
 }
