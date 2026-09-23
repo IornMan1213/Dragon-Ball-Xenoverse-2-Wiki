@@ -73,5 +73,16 @@
     "validator_hardening": "clean"
   },
   "status": "clean",
-  "validator_commit": "93cf57755cbca321b476f5d5e4aac52b717b40c3"
+  "validator_commit": "93cf57755cbca321b476f5d5e4aac52b717b40c3",
+  "results": {
+    "dLC_overview_character_navigation": {
+      "source_records": 15,
+      "resolved_records": 13,
+      "unresolved_records": 2,
+      "status": "clean_with_explicit_unresolved"
+    }
+  },
+  "changes": [
+    "Added deterministic DLC Overview → character-search navigation from the existing DLC identity bridge."
+  ]
 }
