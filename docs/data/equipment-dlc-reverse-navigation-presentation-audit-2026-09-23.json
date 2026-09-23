@@ -15,5 +15,8 @@
     "canonical_dlc_identity_layer": "docs/data/dlc/canonical-dlc-identity.json",
     "canonical_dlc_reverse_index": "docs/data/dlc/pq-reverse-index.json"
   },
-  "evidence_boundary": "Presentation links are navigation consumers only. Local Search destinations do not establish dedicated per-record DLC pages or gameplay ownership; canonical relationship and identity layers remain authoritative."
+  "evidence_boundary": "Presentation links are navigation consumers only. Local Search destinations do not establish dedicated per-record DLC pages or gameplay ownership; canonical relationship and identity layers remain authoritative.",
+  "exact_reverse_index_source": "docs/data/dlc/pq-reverse-index.json",
+  "reverse_index_records": 20,
+  "reverse_index_pq_entries": 86
 }
