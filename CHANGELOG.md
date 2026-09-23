@@ -2035,3 +2035,15 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Validation: **234 canonical / 0 duplicate IDs / 130 strict-thin records**; changed records parse cleanly; no internal AI/UI/search citation artifacts detected.
 - CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - Exact next task: recompute the live strict-thin queue and continue the next evidence-supported early/base-game or high-impact cluster; preserve **032/034** and other genuine evidence boundaries rather than forcing unsupported values.
+
+
+### 2026-09-22 — Super Soul 044/045/046/054/055/178/185 secondary-field reconciliation
+- Reconciled **044, 045, 046, 054, 055, 178, and 185** using exact-name catalogue evidence plus independent raid/DLC/research-corpus evidence.
+- Populated Limit Burst effects for **044, 045, and 046**.
+- Recorded **054 and 055** stacking behavior as **Not reported as stackable**; no numeric cap was invented.
+- Recorded non-timed duration semantics for **178** and **185** rather than leaving mechanically inapplicable timers unresolved.
+- Preserved the known 044 main-effect wording discrepancy (Ki vs. Stamina auto-recovery) and did not alter that unrelated field in this pass.
+- Added and registered `docs/data/super-soul-044-045-046-054-055-178-185-secondary-field-reconciliation-2026-09-22.json`.
+- Validation: **234 canonical / 0 duplicate IDs / 123 strict-thin records**; changed JSON parses cleanly; audit registration is present. Unresolved 044–046 stacking semantics remain explicit.
+- CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- Exact next task: recompute the live strict-thin queue and continue the next evidence-supported cluster, prioritizing strong exact-name one-field gaps while preserving genuine evidence boundaries.
