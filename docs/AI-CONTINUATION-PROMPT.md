@@ -4640,3 +4640,17 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Commits: canonical `9a721da0567ff91e773f32695f14fbf11422cfd7`; audit `b1027f7133177c0da8a7bf977ef211ca9de94398`; census `e1782aa168920525a981f83f2af286119df271dc`.
 - [ ] Exact next batch: recompute the queue, then continue the strongest remaining duration-only cluster (**147, 149, 155, 157, 159, 163, 164, 167, 169–171, 173–175, 179, 187, 201, 229, 237, 239–241, 246**) before revisiting 032/034 or indexed-only 158/232–236.
+
+
+### 2026-09-23 cycle update — Super Soul semantic-duration normalization
+- [x] Live census before editing: **234 canonical / 0 duplicate IDs / 49 strict-thin records**.
+- [x] Bounded batch: semantic-duration cleanup for **155, 157, 163, 164, 167, 169–171, 173, 175, 179, 201, 229, 237, 239, 246**.
+- [x] Research/evidence: repository source URLs plus current maintained Super Soul references were checked. Evidence supports distinguishing permanent, condition-bound, and instantaneous effects from finite timed buffs. citeturn3search0turn3search2turn3search8turn3search27
+- [x] Changes: populated the `duration` field with explicit semantic states where appropriate instead of leaving it null solely because the effect has no finite timer.
+- [x] Evidence boundary preserved: **no numeric duration was invented**; 159/174 activation delays remain distinct from durations, and unresolved stack-expiry timers for 201/237/239 remain explicitly non-numeric.
+- [x] Added audit: `docs/data/super-soul-semantic-duration-reconciliation-2026-09-23.json`.
+- [x] Refreshed live census: **49 → 34 strict-thin records**.
+- [x] Validation: canonical JSON reread/parsed; **234 records / 0 duplicate IDs**; census matches live strict-thin calculation.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Commits: canonical `56757428417d3cb04f227b13e396b74a9230633d`; audit `90c3fdda3f1938b763a3c7a9e7770fc42426e837`; census `3b046d7d117b2dd26ad5beccc9b7088d21edb72e`.
+- [ ] Exact next batch: recompute the queue and prioritize the remaining **duration-only** records **129, 131, 147, 149, 159, 212, 216, 217, 218, 219, 229, 237, 239–241, 246** where evidence can distinguish permanent/instantaneous/finite behavior. Keep **032/034** and indexed-only **158/232–236** as explicit evidence boundaries.
