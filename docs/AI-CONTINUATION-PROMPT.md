@@ -5525,3 +5525,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Added and registered gamma provenance audit and stale census artifacts.
 - Validation: **455/455**, 0 duplicate IDs; **439** records remain stale.
 - Exact next batch: **Beast, Become Giant, Bending Kamehameha, Big Bang Kamehameha, Big Bang Knuckle**. Recompute the live census first.
+
+
+### 2026-09-23 cycle update — P1 skill provenance delta batch
+- Completed **Beast, Become Giant, Bending Kamehameha, Big Bang Kamehameha, Big Bang Knuckle** after live reinspection and fresh external evidence review.
+- Canonical/index last_verified synchronized to 2026-09-23; existing evidence boundaries preserved, including Big Bang Knuckle's reward-source conflict.
+- Added and registered the delta provenance audit and stale census.
+- Live state: **455/455**, 0 duplicate IDs, **434** stale records remaining. CI/runtime unavailable.
+- Exact next batch: **Blades of Judgment, Blaster Ball, Blaster Bomb, Blaster Cannon, Blaster Meteor**.
