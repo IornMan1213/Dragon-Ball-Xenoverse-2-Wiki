@@ -1,5 +1,10 @@
 {
-  "schema_version": "1.0.0",
+  "fresh_search_pass_2026_09_23": {
+    "scope": "Exact-name/item-level Limit Burst research for Super Soul 217 — Power! A lotta power! It's great!",
+    "finding": "A fresh web search produced no new exact-name/item-level evidence establishing the Super Soul's Limit Burst type, trigger, or effect. Generic discussion about the Soul's utility does not identify its Limit Burst, so no value was promoted.",
+    "evidence_boundary": "Keep limit_burst, limit_burst_trigger, and limit_burst_effect unresolved until exact-name/item-level or game-data evidence appears."
+  },
+"schema_version": "1.0.0",
   "date": "2026-09-23",
   "domain": "super_soul",
   "purpose": "Evidence-boundary refresh for Super Soul 217 Limit Burst research.",
