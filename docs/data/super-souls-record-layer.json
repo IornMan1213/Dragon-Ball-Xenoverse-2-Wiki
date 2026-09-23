@@ -6714,11 +6714,12 @@
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Current maintained catalogue identifies Lord Slug, the full-Ki trigger, +15% Basic Attack damage, Power Limit Burst, and PQ26 acquisition. Exact current reward probability remains unverified.",
-      "verification_status": "indexed",
+      "version_notes": "Exact-name mechanics refreshed against the maintained Super Soul catalogue and existing independent PQ evidence; canonical PQ relationship preserved. No unsupported reward probability or Ultimate-Finish condition inferred.",
+      "verification_status": "researched",
       "last_verified": "2026-09-22",
       "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ],
       "source_parallel_quests": [
         "pq-026"
@@ -6743,11 +6744,12 @@
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Current maintained catalogue and independent historical guide identify Super Saiyan Goku and the Super Saiyan-only +15% melee-attack effect. PQ28 provenance is explicitly documented.",
-      "verification_status": "indexed",
+      "version_notes": "Exact-name mechanics refreshed against the maintained Super Soul catalogue and existing independent PQ evidence; canonical PQ relationship preserved. No unsupported reward probability or Ultimate-Finish condition inferred.",
+      "verification_status": "researched",
       "last_verified": "2026-09-22",
       "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ],
       "source_parallel_quests": [
         "pq-028"
@@ -6772,8 +6774,8 @@
       "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Current maintained catalogue identifies Android 18, PQ29, continuous Ki Auto-Recovery, and +10% normal-attack damage at max Ki. Historical independent guide corroborates the same effect family. Exact internal regeneration rate is not promoted.",
-      "verification_status": "partially_verified",
+      "version_notes": "Exact-name mechanics refreshed against the maintained Super Soul catalogue and existing independent PQ evidence; canonical PQ relationship preserved. No unsupported reward probability or Ultimate-Finish condition inferred.",
+      "verification_status": "researched",
       "last_verified": "2026-09-22",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
@@ -6803,8 +6805,8 @@
       "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Current catalogue identifies Super Saiyan 2 Gohan (Teen), PQ35, the enemy-revival trigger, +10% Ki Auto-Recovery and +15% Ki Skill damage. Community discussion corroborates the enemy-revival trigger; no unsupported duration was added.",
-      "verification_status": "partially_verified",
+      "version_notes": "Exact-name mechanics refreshed against the maintained Super Soul catalogue and existing independent PQ evidence; canonical PQ relationship preserved. No unsupported reward probability or Ultimate-Finish condition inferred.",
+      "verification_status": "researched",
       "last_verified": "2026-09-22",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
@@ -6834,8 +6836,8 @@
       "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Current catalogue identifies Super Saiyan Vegeta, PQ36, the Super Saiyan Awoken trigger, and +15% Ki Blast Skill damage; historical guide independently corroborates the same identity and effect.",
-      "verification_status": "partially_verified",
+      "version_notes": "Exact-name mechanics refreshed against the maintained Super Soul catalogue and existing independent PQ evidence; canonical PQ relationship preserved. No unsupported reward probability or Ultimate-Finish condition inferred.",
+      "verification_status": "researched",
       "last_verified": "2026-09-22",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
