@@ -133,7 +133,8 @@
     "super_soul_acquisition_index": "scripts/validate_super_soul_acquisition_index.py",
     "search_consumer": "scripts/validate_search_consumer.py",
     "non_pq_consumer_census": "scripts/validate_pq_non_pq_consumer_census.py",
-    "pq_cross_database_reverse_consistency": "scripts/validate_pq_cross_database_reverse_consistency.py"
+    "pq_cross_database_reverse_consistency": "scripts/validate_pq_cross_database_reverse_consistency.py",
+    "super_soul_224_through_231": "scripts/validate_super_soul_224_through_231.py"
   },
   "schemas": {
     "canonical_dlc_identity": "docs/data/dlc/canonical-dlc-identity.schema.json"
@@ -205,6 +206,7 @@
     "skill_supersonic_mode_through_the_savior_has_come_provenance": "docs/data/skill-supersonic-mode-through-the-savior-has-come-provenance-audit-2026-09-22.json",
     "skill_thunder_flash_through_turn_golden_provenance": "docs/data/skill-thunder-flash-through-turn-golden-provenance-audit-2026-09-22.json",
     "skill_tyrant_lancer_through_warp_kamehameha_provenance": "docs/data/skill-tyrant-lancer-through-warp-kamehameha-provenance-audit-2026-09-22.json",
-    "skill_weekend_through_zigzag_express_provenance": "docs/data/skill-weekend-through-zigzag-express-provenance-audit-2026-09-22.json"
+    "skill_weekend_through_zigzag_express_provenance": "docs/data/skill-weekend-through-zigzag-express-provenance-audit-2026-09-22.json",
+    "super_soul_224_through_231_provenance": "docs/data/super-soul-224-through-231-provenance-audit-2026-09-22.json"
   }
 }
