@@ -4551,3 +4551,20 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - Commits: `79ced2a6564e3d898d6faf3c235a30efe2cc2bfb`, `489ddac383a18f03723470beac739d8d562363f5`, `b2072ddb25ae4660768f763d70d6be315dc072b1`, `94450bfa343e41652e5cbe318ac0ca739b447ca5`.
 - Exact next batch: recompute the live strict-thin queue and continue the next evidence-supported early/base-game/high-impact cluster; prioritize records with multiple unresolved core fields and at least two independent exact-name sources, while preserving **032/034** as evidence boundaries.
+
+### 2026-09-23 cycle update — Super Soul 051, 096–099 secondary-field reconciliation
+- Continued from the live strict-thin queue after the 087–095 batch.
+- Bounded batch: **Super Souls 051, 096, 097, 098, 099**.
+- Evidence was checked against the maintained exact-name corpus in the external research repository plus the local canonical source list. The exact-name corpus explicitly documents the trigger/effect semantics and, where available, measured durations/stacking.
+- Changes to canonical `docs/data/super-souls-record-layer.json`:
+  - **051 “Can I attack now?”** — ~2-second Super Attack Ki-recovery pulse; stacking explicitly not reported.
+  - **096 “Heh heh! I'm not as rusty as I look!”** — explicit 3-stack ceiling; no finite timer reported, so duration is represented as non-timed/ongoing rather than inventing one.
+  - **097 “See? It's a good thing I was here, right?”** — ~10-second recovery mode; no stacking rule reported.
+  - **098 “I can tell you're an amateur by the way you pose!”** — ~30-second debuff; no stacking rule reported.
+  - **099 “That's minus ten points!”** — instantaneous once-only Heavy Smash-triggered Ki reduction; no timed duration or stacking rule.
+- Strict-thin census reduced **85 → 80**. All five now have populated duration and stacking fields.
+- No unsupported numeric stack cap was introduced; the only explicit cap promoted was the source-documented **3 stacks** for 096.
+- Validation: canonical JSON re-read successfully and live strict-core census recalculated to **80 strict-thin / 234 records / 0 duplicate IDs**.
+- CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- Commits: `10d87c2d84e57b47809549a7ecb11d195972ec4c`, `7e162c426e44348ae4252d92fd1a8826981947e8`.
+- Exact next task: recompute the strict-thin queue and continue the next evidence-supported early/base-game cluster; prioritize records with multiple unresolved core fields and exact-name evidence, preserving **032/034** as evidence boundaries.
