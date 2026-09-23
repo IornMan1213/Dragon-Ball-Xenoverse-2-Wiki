@@ -4429,3 +4429,12 @@
 - [x] Refreshed stale census: 455 canonical / 455 index / 403 current / 52 stale / 0 duplicate IDs.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next batch: Super Saiyan Blue Kaioken, Super Saiyan God, Super Saiyan God Super Saiyan, Super Saiyan God Super Saiyan (Evolved), Super Spirit Bomb, Super Vegeta, Supernova, Supernova Cooler, Supersonic Mode, Supreme Fury, Surging Spirit, Symphonic Destruction.
+
+
+### 2026-09-23 — TODO completion update — P1 Super Saiyan Blue Kaioken through Symphonic Destruction skill provenance
+- [x] Completed 12 skills: Super Saiyan Blue Kaioken, Super Saiyan God, Super Saiyan God Super Saiyan, Super Saiyan God Super Saiyan (Evolved), Super Spirit Bomb, Super Vegeta, Supernova, Supernova Cooler, Supersonic Mode, Supreme Fury, Surging Spirit, Symphonic Destruction.
+- [x] Synchronized canonical/index `last_verified` to 2026-09-23 and refreshed bounded provenance notes while preserving existing evidence boundaries and conflicts.
+- [x] Added/registered `docs/data/skill-provenance-audit-2026-09-23-super-saiyan-through-symphonic-destruction.json`.
+- [x] Validation: 455/455 / 0 duplicate IDs / 40 stale / target stale remaining 0.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next batch: Tail Slicer, Taunt, Teleporting Vanishing Ball, Temporal Holy Ray, The Power to Overcome, The Savior Has Come, Thunder Flash, Time Bullet, Time Control, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike; recompute the live stale queue first.
