@@ -4528,3 +4528,12 @@
 - [x] No unsupported acquisition relationships or PQ edges were added.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** build/identify canonical endpoint layers for the largest remaining acquisition systems (Skill Shop / TP-STP Medal Shop first, then Time Rift/story/tournament), using stable IDs and linking existing skill records without duplicating canonical skills.
+
+### 2026-09-23 — Canonical skill-shop endpoint layer
+- [x] Built stable endpoint IDs for Skill Shop and TP/STP Medal Shop.
+- [x] Projected **23** canonical skill acquisition edges: **12 Skill Shop + 11 TP/STP Medal Shop**.
+- [x] Added `docs/data/skill-shop-endpoints.json` and `docs/data/skill-shop-endpoint-layer-audit-2026-09-23.json`.
+- [x] Updated `docs/data/CROSS-LINK-CONTRACT.md` with the live shop endpoint baseline.
+- [x] Preserved canonical skill IDs and evidence boundaries; no current-rotation or unsupported alternate-route claims were created.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** build the next highest-impact missing canonical acquisition endpoint layer, prioritizing **Time Rift/story/tournament**, then reconcile mentor/Expert Mission endpoint completeness.
