@@ -16,8 +16,8 @@
     "resolved_skill_character_edges": 50,
     "preset_characters_with_character_source_skill_identity": 5,
     "preset_characters_without_character_source_skill_identity": 7,
-    "verified_preset_loadout_records": 1,
-    "verified_loadout_skill_entries": 7
+    "verified_preset_loadout_records": 7,
+    "verified_loadout_skill_entries": 44
   },
   "checks": {
     "all_preset_character_ids_resolve_via_explicit_bridge": true,
