@@ -847,11 +847,11 @@
     {
       "id": "super-soul-034",
       "name": "The final battle begins now.",
-      "character_source": "Fu (Ultra Supervillain)",
+      "character_source": "unresolved",
       "dlc_requirement": "FUTURE SAGA Chapter 4",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest 186",
-      "effect_text": "Mechanics remain unresolved. Current exact-name/community evidence identifies this as Fu's Super Soul from the PQ 186 pair, while the other PQ 186 Super Soul is identified as Chronoa's. No authoritative item-level mechanics/Limit Burst specification was found in this pass.",
+      "effect_text": "Mechanics remain unresolved; exact PQ 186 reward identity is confirmed, but current evidence does not independently establish item-level mechanics, Limit Burst, or character source.",
       "effect_magnitude": "unresolved",
       "duration": "unresolved",
       "stacking_behavior": "unresolved",
@@ -860,12 +860,11 @@
       "limit_burst_effect": null,
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "PQ 186 is the documented acquisition source. The current 186-PQ guide lists both exact Soul names under PQ 186. A July 2026 community discussion distinguishes 'The final battle begins now.' as Fu's Soul and 'I'll use this power to protect everyone!' as Chronoa's, but does not provide an authoritative mechanics record for the former. Therefore character attribution is updated to Fu (Ultra Supervillain), while trigger, magnitude, duration, stacking, Limit Burst, reward tier, and drop probability remain unresolved.",
+      "version_notes": "PQ 186 is the documented acquisition source and the exact-name reward entry is corroborated by the current 186-PQ guide. The Chapter 4 evidence inventory confirms four new Super Souls but does not map item IDs to the four names. A fresh September 2026 exact-name search did not produce authoritative item-level mechanics or Limit Burst data. A prior community attribution to Fu was not sufficiently independently verified in this pass, so character_source is deliberately left unresolved rather than promoted.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://www.reddit.com/r/dbxv/comments/1ussnc2/this_mission_is_so_annoying_i_just_wanted_the/",
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://www.nintendo.com/us/store/products/dragon-ball-xenoverse-2-future-saga-chapter-4-70050000064689-switch/"
       ],
