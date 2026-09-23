@@ -5395,3 +5395,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: canonical arrays/aliases unchanged; current counts remain 854 / 244 / 146 / 124 / 247 / 86 / 7. CI/runtime unavailable.
 - Commits: relationship correction `182383eb90cdab98ecd84e0e46a26a4d75c03dd3`; audit `6198c64dde33d63fad5cf8a03e09549e92be2f4b`; registry `36c97863db9075642fc3ad073848a7f9fa710440`.
 - Exact next batch: continue active current-state endpoint/status consumer census, preserving dated historical snapshots.
+
+
+### 2026-09-23 cycle update — Current-state PQ consumer census completion
+- Live baseline: **854** relationships = 244 Skill / 146 Super Soul / 124 Equipment / 247 Character / 86 DLC / 7 Farming; Super Soul reverse **143**.
+- Scanned remaining current-looking scalar/list/endpoint-count candidates across validator, producer, crosslink, status, reverse-index, and normalization consumers.
+- Result: **no remaining deterministic current-state drift** identified in this bounded census. Numeric occurrences in equipment/character consumers were verified as target IDs/PQ identifiers rather than stale totals.
+- Added and registered docs/data/pq-current-state-consumer-census-2026-09-23.json.
+- Historical 862/860/859/840 and 151/148 values remain preserved where dated/historical.
+- Validation: current consumer contracts remain synchronized; CI/runtime unavailable.
+- Commits: census 4c3e1bddce88d9bcd1b489f54e4310bb142667b6; registry 0429c1311a32b559c8d7b7cf4977da03287eb74e.
+- Exact next batch: transition to the P1 exhaustive provenance/data queue, beginning with the strict-thin Super Soul records identified by the current research census.
