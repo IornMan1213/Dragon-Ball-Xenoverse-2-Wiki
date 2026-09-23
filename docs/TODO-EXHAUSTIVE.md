@@ -4421,3 +4421,11 @@
 - [x] Refreshed docs/data/skill-stale-metadata-census-2026-09-23.json: 455 canonical / 455 index / 391 current / 64 stale / 0 duplicate IDs.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next batch: Super Explosive Wave, Super Gamma Blast, Super Ghost Buu Attack, Super Ghost Kamikaze Attack, Super Ghost Kamikaze Attack, Super God Fist, Super God Shock Flash, Super Guard, Super Kamehameha, Super Kamehameha (SS4 DAIMA), Super Saiyan, Super Saiyan 2.
+
+
+### 2026-09-23 — TODO completion update — Super Explosive Wave through Super Saiyan 2
+- [x] Completed the next 12 stale records: Super Explosive Wave, Super Gamma Blast, Super Ghost Buu Attack, both Super Ghost Kamikaze Attack records, Super God Fist, Super God Shock Flash, Super Guard, Super Kamehameha, Super Kamehameha (SS4 DAIMA), Super Saiyan, and Super Saiyan 2.
+- [x] Synchronized canonical/index last_verified to 2026-09-23 and refreshed bounded provenance notes while preserving evidence boundaries and duplicate display-name records as distinct IDs.
+- [x] Refreshed stale census: 455 canonical / 455 index / 403 current / 52 stale / 0 duplicate IDs.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next batch: Super Saiyan Blue Kaioken, Super Saiyan God, Super Saiyan God Super Saiyan, Super Saiyan God Super Saiyan (Evolved), Super Spirit Bomb, Super Vegeta, Supernova, Supernova Cooler, Supersonic Mode, Supreme Fury, Surging Spirit, Symphonic Destruction.
