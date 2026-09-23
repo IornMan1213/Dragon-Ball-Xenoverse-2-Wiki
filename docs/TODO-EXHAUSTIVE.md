@@ -4159,3 +4159,11 @@
 - [x] Added/registered **docs/data/skill-provenance-audit-2026-09-23-dead-end-rain-through-death-crasher.json**.
 - [x] Validation: **455 canonical / 455 index / 0 duplicate IDs / 370 stale**.
 - [ ] Exact next batch: **Death Psycho Bomb, Death Slash, Death Slicer, Demon Flash Strike, Demon Flurry, Demon Ray, Demonic Destruction, Destruction's Concerto: Comet, Destruction's Concerto: Meteor, Destruction's Concerto: Starfall**.
+
+### 2026-09-23 — TODO completion update — P1 Death Psycho Bomb through Destruction's Concerto
+- [x] Completed **10 skills**: Death Psycho Bomb, Death Slash, Death Slicer, Demon Flash Strike, Demon Flurry, Demon Ray, Demonic Destruction, Destruction's Concerto: Comet, Meteor, Starfall.
+- [x] Synchronized canonical/index verification dates to **2026-09-23**.
+- [x] Added/registered **docs/data/skill-provenance-audit-2026-09-23-death-psycho-bomb-through-destruction-concerto.json**.
+- [x] Validation: **455/455 / 0 duplicate IDs / 10 targets synchronized / 360 stale**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next batch: **Destruction's Conductor, Destructive Fission, Destructive Flare, Destructive Fracture, Destructo-Disc, DIE DIE Missile Barrage, Dimension Cannon, Dimension Ray, Dimensional Hole, Divine Kamehameha**.
