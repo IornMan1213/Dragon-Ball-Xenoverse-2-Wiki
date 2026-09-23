@@ -2769,3 +2769,12 @@
 - [x] Live census remains **234 / 0 duplicates / 182 strict-thin** under the current eight-field definition.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Next: continue the deterministic partially-verified census, prioritizing high-source-count records with unresolved core fields; keep 034 evidence-bound until item-level mechanics are independently established.
+
+### 2026-09-22 — Super Soul 191/194/196 evidence strengthening
+- [x] Strengthened Super Souls **191, 194, 196** with exact-name/historical evidence.
+- [x] Promoted all three to `verified_secondary`; preserved unresolved durations where evidence does not establish a separate timing rule.
+- [x] Recorded non-stacking as N/A where directly supported.
+- [x] Preserved 194's current +25% all-attacks value; historical +35% reports were not promoted.
+- [x] Refreshed live census: **234 canonical / 0 duplicate IDs / 182 strict-thin**.
+- [ ] CI/runtime: no successful workflow/check exposed.
+- [ ] Next: continue deterministic partially-verified Super Soul reconciliation, prioritizing 032, 155, 173–175, 177, 179, 186, 187, 197, and 199.
