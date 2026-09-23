@@ -4861,3 +4861,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - Commit: checkpoint `b4c7dd2193f74cc3c601f1a17a94ef6c37eee238`.
 - [ ] Exact next batch: **super-soul-217 Limit Burst** item-level/game-data evidence pass. If still blocked, leave 217 unresolved and move to the next deterministic high-impact reconciliation.
+
+
+### 2026-09-23 cycle update — Super Soul 217 Limit Burst boundary finalized
+- [x] Performed the final compact item-level/game-data pass for **super-soul-217 — “Power! A lotta power! It's great!”**.
+- [x] Cross-checked canonical Super Soul/index data, PQ134 reward records, PQ reward normalization, PQ research batch data, and the live thin census.
+- [x] Confirmed PQ134 establishes the exact-name Super Soul reward, but no checked item-level/canonical layer establishes 217's Limit Burst type, trigger, or effect.
+- [x] Explicitly rejected **Burst Charge** as evidence for the Super Soul Limit Burst because it is a separate PQ134 skill reward.
+- [x] Updated `docs/data/super-soul-217-limit-burst-evidence-audit-2026-09-23.json`; no unsupported mechanics were promoted.
+- [x] Live authoritative census remains **229 canonical / 0 duplicate IDs / 4 strict-thin**: **032, 034, 158, 217**.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- Commit: `a2b603c96a6e53315b4887e8f3510bd41473ce29`.
+- [ ] Exact next batch: stop forcing the current thin queue unless new item-level evidence appears; select the next deterministic high-impact reconciliation from the live repository, prioritizing producer/index/projection drift or a multi-record evidence-supported batch.
