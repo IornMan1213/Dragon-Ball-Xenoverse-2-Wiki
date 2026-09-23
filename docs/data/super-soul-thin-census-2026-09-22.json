@@ -6,7 +6,7 @@
   "source_of_truth": "docs/data/super-souls-record-layer.json",
   "canonical_records": 234,
   "duplicate_ids": 0,
-  "strict_thin_records": 152,
+  "strict_thin_records": 151,
   "strict_core_fields": [
     "character_source",
     "trigger_condition",
@@ -49,6 +49,7 @@
     "2026-09-22: reconciled Limit Burst and stacking fields for Super Souls 087–094; durations remain unresolved where exact-name evidence provides no explicit timer.",
     "2026-09-22: reconciled Super Souls 095 and 144–150 Limit Burst fields; explicit 20-second durations recorded for 144–146 only where the maintained catalogue states them.",
     "2026-09-22: corrected Super Soul 104 Limit Burst and reconciled secondary fields for 151–153; 217 remains evidence-bound for its unresolved secondary fields.",
-    "2026-09-22: enriched Super Souls 218 and 219 with exact-name character, DLC, trigger/effect, stacking/Limit Burst evidence; both remain strict-thin because 218 lacks an explicit duration and 219 lacks independently established duration/stacking semantics."
+    "2026-09-22: enriched Super Souls 218 and 219 with exact-name character, DLC, trigger/effect, stacking/Limit Burst evidence; both remain strict-thin because 218 lacks an explicit duration and 219 lacks independently established duration/stacking semantics.",
+    "2026-09-22: reconciled Super Soul 192 stacking_behavior to explicit 'Not reported as stackable' because maintained exact-name/stat-sheet evidence documents its mechanics without a stacking rule; no numeric stack cap was inferred."
   ]
 }
