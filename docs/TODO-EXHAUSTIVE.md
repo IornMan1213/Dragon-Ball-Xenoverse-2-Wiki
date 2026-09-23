@@ -4599,3 +4599,13 @@
 - [ ] Reconcile official 32 vs community 33 mentor roster discrepancy.
 - [ ] Audit remaining non-PQ/non-mentor acquisition records for deterministic endpoint gaps.
 - **Exact next task:** Conton City Patrol endpoint consumer layer.
+
+
+### 2026-09-23 — TODO completion update — Conton City Patrol endpoint layer
+- [x] Added deterministic Conton City Patrol endpoints for Gigantic Cross, Saiyan Blaster, and Gigantic Nova.
+- [x] Added 3 forward edges and reverse skill→Patrol navigation.
+- [x] Added Patrol endpoint audit with zero broken canonical skill IDs.
+- [x] Kept Patrol event routes distinct from mentor-training routes.
+- [ ] Reconcile official 32 vs community 33 mentor roster discrepancy.
+- [ ] Audit remaining non-PQ/non-mentor acquisition records for deterministic endpoint gaps.
+- **Exact next task:** non-PQ/non-mentor acquisition endpoint census.
