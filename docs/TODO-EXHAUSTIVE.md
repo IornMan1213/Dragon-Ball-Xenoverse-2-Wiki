@@ -3205,3 +3205,15 @@
 - [x] Validation: canonical JSON reread/parsed; **234 records / 0 duplicate IDs**; stored census matches the independently recomputed 9-record queue.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Remaining queue: **032, 034, 158, 217, 232–236**. Keep 032/034 and indexed-only 158/232–236 as explicit evidence boundaries. **217 Limit Burst** remains the focused unresolved item-level gap; do not infer a burst from absence of evidence.
+
+
+### 2026-09-23 — TODO completion update — Do or Die same-name collision boundary
+- [x] Recomputed live canonical state: **234 records / 0 duplicate IDs / 9 strict-thin records**.
+- [x] Investigated **Super Soul 158 — “Do or Die”** against the repository's PQ, skill, and Super Soul crosslink layers plus external PQ evidence.
+- [x] Confirmed an important data-quality boundary: **PQ 49 is also the canonical source for the Super Skill “Do or Die.”** The Super Soul record must not inherit the skill's mechanics merely because the names and PQ endpoint collide.
+- [x] Preserved the PQ↔Super Soul relationship for navigation, but added an explicit evidence note preventing mechanics/character-source promotion until item-level evidence distinguishes the records.
+- [x] Added audit: `docs/data/super-soul-158-do-or-die-name-collision-audit-2026-09-23.json`.
+- [x] Updated `docs/data/pq-super-soul-crosslink-report.json` with the evidence-boundary metadata and refreshed its recomputation date.
+- [x] No unsupported mechanics were added to Super Soul 158.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Remaining strict-thin queue: **032, 034, 158, 217, 232–236**. Continue with evidence-backed item-level Limit Burst research for **217** before revisiting unresolved indexed records.
