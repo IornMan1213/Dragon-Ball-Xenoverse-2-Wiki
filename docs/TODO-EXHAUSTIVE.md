@@ -3943,3 +3943,14 @@
 - [x] Validation: **455/455**, **0 duplicate IDs**, all five target records have matching 2026-09-23 verification dates in canonical/index; live stale queue is **447** records.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: **Angry Explosion, Angry Hit, Angry Shout, Apocalyptic Burst, Arm Crash**; recompute the live census first and preserve existing evidence boundaries.
+
+
+### 2026-09-23 — TODO completion update — P1 skill provenance alpha batch
+- [x] Recomputed the live canonical skill census: **455 canonical / 455 index / 0 duplicate IDs**.
+- [x] Bounded batch: **Absolute Zero, Afterimage, Afterimage Strike, All Clear, Android Rush**.
+- [x] Rechecked exact-name Xenoverse 2 acquisition/identity evidence and refreshed last_verified from 2026-09-22 to **2026-09-23** in both canonical and index layers.
+- [x] Added independent evidence to the durable provenance audit without changing acquisition tiers, probabilities, gates, costs, mechanics, or restrictions.
+- [x] Added and registered docs/data/skill-provenance-audit-2026-09-23-alpha-batch.json and docs/data/skill-stale-metadata-census-2026-09-23.json.
+- [x] Validation: **455/455**, **0 duplicate IDs**, all five target records have matching 2026-09-23 verification dates in canonical/index; live stale queue is **447** records.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: **Angry Explosion, Angry Hit, Angry Shout, Apocalyptic Burst, Arm Crash**; recompute the live census first and preserve existing evidence boundaries.
