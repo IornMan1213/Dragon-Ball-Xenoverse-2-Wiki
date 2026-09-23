@@ -5417,3 +5417,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: canonical Super Soul record unchanged; **229 canonical / 0 duplicate IDs / 4 strict-thin records**; audit registration and checkpoint refresh completed.
 - CI/runtime: unavailable; no CI success claimed.
 - Exact next batch: **Super Soul 217** Limit Burst/item-level evidence research; if unresolved, **158** collision-safe evidence research; then **032**.
+
+
+### 2026-09-23 cycle update — Super Soul 158 identity conflict resolution
+- Fresh exact-name evidence resolves the apparent **Super Soul 158 “Do or Die”** record as an identity conflict: Do or Die is documented as Nail's **Power Up Type Super Skill** from PQ49, while Nail's Super Soul is **“I must protect Grand Elder Guru!”**. citeturn3search0turn3search2
+- Record 158 was preserved as a conflict placeholder and its unsupported Super Soul mechanics/acquisition fields were cleared. No silent ID remap was made.
+- Added/registered the identity-conflict audit and refreshed the strict-thin checkpoint; TODO and CHANGELOG updated.
+- Validation: record preservation and conflict marking completed; CI unavailable.
+- Exact next task: resolve the canonical ID mapping for 158, then research **Super Soul 217** Limit Burst/item-level evidence and **032**.
