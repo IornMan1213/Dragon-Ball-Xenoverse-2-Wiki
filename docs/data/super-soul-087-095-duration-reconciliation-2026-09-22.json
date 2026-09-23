@@ -61,5 +61,18 @@
     "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80613854",
     "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80573262",
     "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79966052"
-  ]
+  ],
+  "canonical_sync_2026_09_23": {
+    "canonical_file": "docs/data/super-souls-record-layer.json",
+    "records": 9,
+    "stacking_updated": 9,
+    "duration_updated": 8,
+    "duration_already_current": [
+      "091"
+    ],
+    "strict_thin_before": 93,
+    "strict_thin_after": 85,
+    "result": "canonical_fields_synchronized",
+    "evidence_boundary": "089 retains unresolved finite timer; no stacking cap was inferred."
+  }
 }
