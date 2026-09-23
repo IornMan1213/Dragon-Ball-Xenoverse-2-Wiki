@@ -5758,3 +5758,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: **455 canonical / 455 index / 316 stale / 0 duplicate IDs**; target source/date parity clean.
 - CI/runtime: unavailable; no CI success claimed.
 - Exact next batch: recompute the live stale queue and continue with the first alphabetical stale canonical records.
+
+### 2026-09-23 cycle update — P1 Energy Charge through Evil Flight Strike provenance refresh
+- Live census before editing: **455 canonical / 455 index / 316 stale / 0 duplicate IDs**.
+- Bounded batch: **Energy Charge, Energy Dome, Energy Field, Energy Minefield, Energy Release, Energy Shot, Eraser Bomb, Evil Blast, Evil Explosion, Evil Eyes, Evil Flame, Evil Flight Strike**.
+- Research/evidence: rechecked existing repository skill/PQ/mentor/DLC references and independent references already attached to the records; no unsupported field was inferred.
+- Changes: refreshed canonical/index `last_verified` to **2026-09-23** and appended a provenance-refresh note to each target; acquisition, costs, mechanics, DLC, conflicts, and uncertainty were preserved.
+- Added/registered `docs/data/skill-provenance-audit-2026-09-23-energy-through-evil-flight-strike.json` and refreshed the stale census.
+- Validation: **455 canonical / 455 index / 304 stale / 0 duplicate IDs**; target source/date parity clean.
+- CI/runtime: unavailable; no CI success claimed.
+- Exact next action: recompute the live stale queue and continue with the first alphabetical stale canonical records.
