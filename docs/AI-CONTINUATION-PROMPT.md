@@ -6536,3 +6536,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Web verification supports the Raditz and Nappa Battle Suit 1 tables. citeturn0search0turn0search1
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - **Exact next batch:** continue explicit Battle Suit row reconciliation for another unresolved character; prioritize exact preset-number/name matches.
+
+### 2026-09-23 cycle update — Recoome preset-loadout evidence batch
+- [x] Added Recoome Presets 1–2 from explicit Battle Suit tables.
+- [x] Preset layer now has **48 records / 21 verified loadouts**.
+- [x] Navigation audit now has **137 verified loadout skill entries**.
+- [x] Acquisition remains separate from loadout evidence; no route was inferred.
+- [x] Festival/custom-partner configurations remain separate.
+- [x] Web source verified the Recoome Battle Suit 1–2 tables. citeturn0search1
+- [ ] CI/runtime remains unavailable.
+- **Exact next batch:** another unresolved character with explicit Battle Suit rows; preserve exact preset numbering and slot mapping.
