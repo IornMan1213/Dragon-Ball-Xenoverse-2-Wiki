@@ -90,6 +90,79 @@
       ],
       "status": "resolved",
       "basis": "Current Xenoverse 2 documentation identifies Rosé Goku Black as the user; the canonical roster contains Rosé Goku Black."
+    },
+    {
+      "skill_id": "skill-crazy-finger-shot",
+      "skill_name": "Crazy Finger Shot",
+      "source_token": "Frieza",
+      "canonical_character_names": [
+        "Golden Frieza",
+        "Frieza (1st Form)"
+      ],
+      "status": "resolved_multi",
+      "basis": "Current skill documentation identifies Golden Frieza as the primary user and Frieza (1st Form) as a Customize Partner user."
+    },
+    {
+      "skill_id": "skill-death-slash",
+      "skill_name": "Death Slash",
+      "source_token": "Frieza",
+      "canonical_character_names": [
+        "Frieza (1st Form)",
+        "Frieza (Final Form)"
+      ],
+      "status": "resolved_multi",
+      "basis": "Current skill documentation identifies Frieza (1st Form) and Frieza (Final Form) as users; the source token is therefore safely expanded to canonical forms."
+    },
+    {
+      "skill_id": "skill-double-death-slicer",
+      "skill_name": "Double Death Slicer",
+      "source_token": "Frieza",
+      "canonical_character_names": [
+        "Frieza (Full Power)"
+      ],
+      "status": "resolved",
+      "basis": "Current skill documentation identifies Frieza (Full Power) as the user."
+    },
+    {
+      "skill_id": "skill-emperor-s-edge",
+      "skill_name": "Emperor's Edge",
+      "source_token": "Frieza",
+      "canonical_character_names": [
+        "Golden Frieza",
+        "Golden Frieza (Supervillain)"
+      ],
+      "status": "resolved_multi",
+      "basis": "Current skill documentation identifies Golden Frieza and Golden Frieza (Supervillain) as users, with Frieza (1st Form) as a Customize Partner."
+    },
+    {
+      "skill_id": "skill-full-power-destruction",
+      "skill_name": "Full Power Destruction",
+      "source_token": "Jiren — Customize Partner",
+      "canonical_character_names": [
+        "Jiren"
+      ],
+      "status": "resolved",
+      "basis": "Current Jiren character documentation lists Full Power Destruction among Jiren's Customize Partner skills; the canonical roster contains Jiren."
+    },
+    {
+      "skill_id": "skill-gigantic-breaker",
+      "skill_name": "Gigantic Breaker",
+      "source_token": "Kefla",
+      "canonical_character_names": [
+        "Kefla (Super Saiyan)"
+      ],
+      "status": "resolved",
+      "basis": "Current skill documentation identifies Kefla (Super Saiyan) as the notable user."
+    },
+    {
+      "skill_id": "skill-god-of-destruction-s-roar",
+      "skill_name": "God of Destruction's Roar",
+      "source_token": "Champa",
+      "canonical_character_names": [
+        "God of Destruction Champa"
+      ],
+      "status": "resolved",
+      "basis": "Current skill documentation identifies God of Destruction Champa as the user; canonical character roster uses the full identity."
     }
   ]
 }
