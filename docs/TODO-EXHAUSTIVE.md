@@ -4340,3 +4340,13 @@
 - [x] Validation: 455 canonical / 455 index / 0 duplicate IDs / 160 stale; target parity clean.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next batch: Orin Combo, Paralysis, Paralyze Beam, Pendulum Bullet, Perfect Kamehameha, Perfect Shot, Petrifying Spit, Phantom Fist, Photon Swipe, Potential Unleashed, Power Blitz, Power Impact; recompute the live stale census before editing.
+
+
+### 2026-09-23 — TODO completion update — P1 Orin Combo through Power Impact
+- [x] Completed 12 skills: Orin Combo, Paralysis, Paralyze Beam, Pendulum Bullet, Perfect Kamehameha, Perfect Shot, Petrifying Spit, Phantom Fist, Photon Swipe, Potential Unleashed, Power Blitz, Power Impact.
+- [x] Synchronized canonical/index last_verified to 2026-09-23 and refreshed bounded provenance/mechanics notes.
+- [x] Corrected the stale Pendulum Bullet mechanics cost wording from 100 Ki to its canonical 300-Ki Ultimate cost while preserving the existing PQ166 reward conflict.
+- [x] Added/registered docs/data/skill-provenance-audit-2026-09-23-orin-combo-through-power-impact.json and refreshed the live stale census.
+- [x] Validation: 455 canonical / 455 index / 0 duplicate IDs / 160 stale; all 12 target records synchronized.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next batch: Orin Combo, Paralysis, Paralyze Beam, Pendulum Bullet, Perfect Kamehameha, Perfect Shot, Petrifying Spit, Phantom Fist, Photon Swipe, Potential Unleashed, Power Blitz, Power Impact; recompute the live stale queue before editing.

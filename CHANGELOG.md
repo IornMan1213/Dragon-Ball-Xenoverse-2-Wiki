@@ -2631,3 +2631,12 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Preserved evidence conflicts and unresolved acquisition/mechanics boundaries; no unsupported values were inferred.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next batch: Orin Combo, Paralysis, Paralyze Beam, Pendulum Bullet, Perfect Kamehameha, Perfect Shot, Petrifying Spit, Phantom Fist, Photon Swipe, Potential Unleashed, Power Blitz, Power Impact.
+
+
+## 2026-09-23 — P1 Orin Combo through Power Impact skill provenance/mechanics refresh
+- Completed 12 stale skill records and synchronized their index projections.
+- Corrected Pendulum Bullet's stale mechanics cost wording to its canonical 300-Ki Ultimate cost; preserved the existing PQ166 reward conflict.
+- Added and registered docs/data/skill-provenance-audit-2026-09-23-orin-combo-through-power-impact.json.
+- Live stale census: 160 stale / 295 current / 455 canonical / 0 duplicate IDs.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next batch: Orin Combo, Paralysis, Paralyze Beam, Pendulum Bullet, Perfect Kamehameha, Perfect Shot, Petrifying Spit, Phantom Fist, Photon Swipe, Potential Unleashed, Power Blitz, Power Impact.
