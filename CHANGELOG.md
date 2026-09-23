@@ -1,3 +1,9 @@
+## 2026-09-22 — Super Soul 192 stacking reconciliation
+
+- Reconciled Super Soul 192 (“Get serious, would you?”) stacking behavior to **Not reported as stackable** from the maintained exact-name/stat-sheet evidence.
+- Preserved the documented 10-second Ki Blast-based-skill boost, -10 Stamina Just Guard effect, Auto Just Guard Limit Burst, and PQ117 provenance.
+- Added and registered the dedicated reconciliation audit; live census is **234 canonical / 0 duplicate IDs / 151 strict-thin records**.
+
 ## 2026-09-22 — Super Soul 218-219 mechanics/provenance reconciliation
 
 - Reconciled Super Souls 218 (“Pathetic”) and 219 (“Justice is nothing to me now.”) with exact-name catalogue and independent Xenoverse 2 evidence.
