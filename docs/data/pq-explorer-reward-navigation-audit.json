@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2.0",
+  "schema_version": "1.3.0",
   "scope": "PQ explorer reward-domain navigation",
   "canonical_sources": [
     "docs/data/pq-reward-relationships.json",
@@ -47,11 +47,13 @@
     "dlc_identity_names_unique": true,
     "dlc_identity_ids_unique": true,
     "dlc_relationship_pairs_unique": true,
-    "dlc_identity_has_id_for_every_name": true
+    "dlc_identity_has_id_for_every_name": true,
+    "pq_explorer_query_deep_link_support": true,
+    "pq_dlc_navigation_uses_search_deep_link": true
   },
   "status": "clean",
   "evidence_boundary": "Canonical PQ reward and DLC identity layers are authoritative. The explorer consumes canonical pq_requires_dlc targets for both navigation and displayed DLC labels; structured reward reports remain exact-pair reconciled. Search/landing-page destinations do not imply dedicated per-record pages.",
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "validator": "scripts/validate_pq_explorer_reward_navigation.py",
   "validator_commit": "fbc54443a0e52801b1e408ce359a4bd0140124ce",
   "structured_reward_consumer_parity": {
@@ -90,5 +92,6 @@
     "identity_name_count": 20,
     "identity_id_count": 20,
     "relationship_pair_count": 86
-  }
+  },
+  "navigation_note": "PQ explorer reward links now preserve deep-link query parameters: inbound ?q= initializes the explorer, and DLC targets route through the query-aware global Search surface rather than a non-filtering static DLC overview."
 }
