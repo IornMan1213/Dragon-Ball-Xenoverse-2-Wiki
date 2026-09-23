@@ -2903,3 +2903,13 @@
 - Added and registered `docs/data/super-soul-087-094-reconciliation-2026-09-22.json`.
 - No acquisition route, reward probability, Ultimate Finish condition, or unsupported duration was inferred.
 - Exact next task: recompute the live strict-thin census and continue the next evidence-supported unresolved cluster; preserve **032/034** as evidence boundaries.
+
+
+### 2026-09-22 — Super Souls 095 / 144–150 secondary-field reconciliation
+- Reconciled **095 and 144–150** against exact-name catalogue evidence, with independent corroboration for 095 and 148.
+- Populated documented **Limit Burst** type/effect fields for all eight records.
+- Recorded explicit **20-second durations for 144, 145, and 146** where the catalogue states them.
+- Preserved unresolved timers elsewhere rather than promoting community-only measurements; recorded stacking as **Not reported as stackable** where no stack rule is documented.
+- Added and registered `docs/data/super-soul-095-144-150-reconciliation-2026-09-22.json`.
+- No unsupported acquisition probability, reward semantics, or mechanics were inferred.
+- Exact next task: recompute the live strict-thin census and continue the next evidence-supported cluster; preserve **032/034** as evidence boundaries.
