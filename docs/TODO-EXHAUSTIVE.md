@@ -2735,3 +2735,11 @@
 - [x] No canonical PQ relationship changed.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Next priority: continue early/base-game thin census, prioritizing records with genuinely unresolved applicable mechanics.
+### 2026-09-22 cycle update — Super Soul secondary-field reconciliation (069 / 074)
+- [x] Reconciled **2** early/base-game thin records: 069 “Just win, okay?” and 074 “Goku! Time for dinner!”.
+- [x] Filled Limit Burst type/effect fields and marked duration/stacking as **N/A** where no applicable timed/stacking mechanic is documented.
+- [x] Preserved existing passive mechanics and acquisition data; no unsupported percentages or acquisition changes were introduced.
+- [x] Added audit artifact: `docs/data/super-soul-secondary-field-reconciliation-069-074-2026-09-22.json`.
+- [x] No canonical PQ relationship changed.
+- [ ] CI/runtime: no successful workflow/check exposed.
+- [ ] Next priority: continue the deterministic early/base-game thin census, prioritizing genuinely unresolved applicable mechanics.
