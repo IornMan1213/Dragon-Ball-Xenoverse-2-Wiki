@@ -3489,3 +3489,13 @@
 - [x] No canonical DLC or character relationship was added or modified.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Next: continue deterministic DLC content-domain reconciliation, prioritizing pack-level content matrices and missing downstream record links.
+
+
+### 2026-09-23 — TODO completion update — DLC reverse validator schema repair
+- [x] Audited the DLC presentation validator against the live reverse-index schema.
+- [x] Repaired the reverse-navigation completeness check to use `records[].dlc_id` rather than nonexistent `reverse_index` data.
+- [x] Added explicit canonical-target coverage reporting; current projection covers **20/20** canonical DLC identities.
+- [x] Updated the DLC presentation consumer audit with the repair.
+- [x] No canonical DLC identity or PQ relationship changed.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Next: reconcile existing DAIMA and HERO OF JUSTICE Pack 2 content projections against concrete downstream records.
