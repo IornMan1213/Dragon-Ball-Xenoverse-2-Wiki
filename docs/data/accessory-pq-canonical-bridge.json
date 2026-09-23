@@ -277,33 +277,33 @@
       "pq_record_id": "pqacc-034",
       "name": "SS4 Goku (DAIMA) Wig & Tail",
       "pq": 179,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-019 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-071",
+      "match_status": "identity_matched",
+      "note": "Exact-name canonical identity normalized in equipment-accessories-record-layer.json; legacy equipment endpoint retained separately as an alias projection."
     },
     {
       "pq_record_id": "pqacc-035",
       "name": "SS3 Vegeta (DAIMA) Wig",
       "pq": 180,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-020 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-072",
+      "match_status": "identity_matched",
+      "note": "Exact-name canonical identity normalized in equipment-accessories-record-layer.json; legacy equipment endpoint retained separately as an alias projection."
     },
     {
       "pq_record_id": "pqacc-036",
       "name": "Glorio Wig",
       "pq": 181,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-021 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-073",
+      "match_status": "identity_matched",
+      "note": "Exact-name canonical identity normalized in equipment-accessories-record-layer.json; legacy equipment endpoint retained separately as an alias projection."
     },
     {
       "pq_record_id": "pqacc-037",
       "name": "Panzy Wig",
       "pq": 181,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-022 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "acc-074",
+      "match_status": "identity_matched",
+      "note": "Exact-name canonical identity normalized in equipment-accessories-record-layer.json; legacy equipment endpoint retained separately as an alias projection."
     },
     {
       "pq_record_id": "pqacc-038",
