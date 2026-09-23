@@ -6083,3 +6083,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Updated docs/data/pq-cross-domain-index.json with the clean census.
 - CI/runtime remains unavailable; no CI success claimed.
 - Exact next task: continue the wider repository consistency census, prioritizing deterministic producer/validator/index mismatches or large missing-field cohorts; preserve canonical source-of-truth and do not reopen the resolved PQ49/Do or Die migration.
+
+### 2026-09-23 cycle update — Current skill non-PQ acquisition coverage census
+
+- Recomputed the acquisition coverage against the live **455-record** canonical skill layer instead of relying on the historical 305-record projection.
+- Found **239 PQ-linked / 216 without source_parallel_quests**.
+- Of the 216 non-PQ-linked records, **130 already resolve through the canonical mentor-skill layer**, 12 are explicit mentor-like/training-style routes, 6 are Expert Mission routes, 10 are character-only routes, and 58 remain in other established non-PQ acquisition categories for targeted follow-up.
+- The mentor crosslink layer has **131 mentor→skill edges / 130 unique skill targets** because **Super Explosive Wave** is legitimately shared by Future Gohan and Piccolo; this is not a duplicate edge.
+- Preserved the historical fields in docs/data/skill-acquisition-coverage-report.json and added its current-state projection plus docs/data/skill-acquisition-coverage-current-audit-2026-09-23.json.
+- No PQ relationships were inferred or added from non-PQ acquisition routes.
+- Validation: arithmetic and mentor-sharing invariant pass; canonical skill count 455; no duplicate mentor edge pair detected.
+- CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** audit the 58 remaining non-PQ skill records for deterministic acquisition-layer identity gaps, prioritizing Expert Mission/skill-shop/Time Rift/story consumers and avoiding already-resolved mentor routes.
