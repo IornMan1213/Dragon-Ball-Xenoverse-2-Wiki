@@ -6693,3 +6693,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Commit: 7f2682d6747894a63f0da932654e2f06c54b2f59.
 - CI/runtime remains unavailable; no CI success claimed.
 - **Exact next task:** continue the broader current-state producer/consumer census for remaining superseded 854/146 or older skill/character/domain counts, preserving historical snapshots and repairing only deterministic current-state projections; then resume exact-evidence preset reconciliation.
+
+
+### 2026-09-23 cycle update — Second current-consumer census pass
+
+- Searched the live repository for remaining 854/146 assertions after the unified reverse-index repair.
+- Corrected deterministic current-looking metadata in `docs/data/pq-reward-normalization/pq-standalone-reverse-index-reconciliation-audit.json` to the current **853 / 145** baseline, preserving the pre-migration validation block as historical context.
+- Corrected deterministic producer-census assertions in `docs/data/pq-relationship-producer-census.json` from 854/146 to the current 853/145 values.
+- Refreshed `docs/data/record-reverse-pq-navigation-audit.json` continuation metadata to explicitly target the current 853/145 canonical layer.
+- Commits: `a53eaf99b5ff62b807bd2a9abd4d118a26500562`, `2d7e6cd7f0d02fdb1f44c079c4b7a6f43f18a243`, `fcad966ac7446c212cc18cd4ed7a016ea7b6ba73`.
+- Remaining 854/146 hits are predominantly historical/correction evidence or stale correction artifacts whose purpose is to document the superseded state; they must not be blindly rewritten.
+- **Exact next task:** inspect the remaining 854/146 search hits individually, classify each as historical versus current-looking, and repair only current-looking consumers. Then continue the P1 provenance/data queue and exact-evidence preset reconciliation.
