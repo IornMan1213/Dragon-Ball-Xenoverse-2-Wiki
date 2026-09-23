@@ -2417,13 +2417,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Expert Mission 13",
       "mechanics_notes": "Confirmed as a 300-Ki Ki Blast Ultimate from Expert Mission 13, usable by all CaC races. The dedicated skill evidence describes a long-range overhead barrage of Ki Blasts over 22 hits; it is designed for wide-area pressure. 2026-09-22 provenance refresh: EM13 Basic Reward is independently corroborated.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Expert Mission 13",
       "dlc_requirement": "Base Game",
       "acquisition_type": "expert_mission",
-      "notes": "Added during Dual Ultimate relationship audit because DUAL Dead End Rain uses this canonical base technique. 2026-09-21 provenance strengthening: the maintained Expert Mission guide independently lists Dead End Rain as the EM13 Basic Reward, corroborating the existing dedicated skill/Ultimate Attack references. Existing EM13 acquisition and reward-tier semantics are preserved. 2026-09-22 provenance refresh: dedicated Dead End Rain evidence confirms the 300-Ki Ki Blast Ultimate classification, EM13 acquisition, and 22-hit overhead barrage; the maintained Steam EM guide independently lists Dead End Rain under EM13 Basic Reward. Existing mentor-Android 18 linkage is preserved because DUAL Dead End Rain uses this canonical base skill.",
+      "notes": "Added during Dual Ultimate relationship audit because DUAL Dead End Rain uses this canonical base technique. 2026-09-21 provenance strengthening: the maintained Expert Mission guide independently lists Dead End Rain as the EM13 Basic Reward, corroborating the existing dedicated skill/Ultimate Attack references. Existing EM13 acquisition and reward-tier semantics are preserved. 2026-09-22 provenance refresh: dedicated Dead End Rain evidence confirms the 300-Ki Ki Blast Ultimate classification, EM13 acquisition, and 22-hit overhead barrage; the maintained Steam EM guide independently lists Dead End Rain under EM13 Basic Reward. Existing mentor-Android 18 linkage is preserved because DUAL Dead End Rain uses this canonical base skill. 2026-09-23 provenance refresh: current repository evidence was rechecked; existing acquisition, reward-tier, scope, cost, and mechanics semantics were preserved without unsupported inference.",
       "id": "skill-dead-end-rain",
       "source_mentor": [
         "mentor-android-18"
@@ -2446,12 +2446,12 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Android 18 mentor training — Lesson 2",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "mechanics_notes": "Confirmed as Android 18's 100-Ki Strike Super from mentor training, usable by all CaC races. The current dedicated evidence describes a five-hit sequence of dance-like kicks that repels Ki Blasts and launches the opponent, leaving a follow-up window. 2026-09-22 provenance refresh: Android 18 Lesson 2 is independently corroborated as the Basic Reward.",
       "source_quest": "Android 18 mentor training — Lesson 2",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: Training with Android 18 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-21 low-source provenance strengthening: the maintained Instructor Quests guide independently lists Deadly Dance as Android 18 Lesson 2's Basic Reward. Existing mentor Lesson 2 acquisition semantics are preserved. 2026-09-22 provenance refresh: dedicated Deadly Dance evidence confirms the 100-Ki Strike Super classification and Android 18 training route; the maintained Instructor Quest guide independently lists Deadly Dance as Android 18 Lesson 2 Basic Reward. Current documentation also notes later Partner Customization availability, which remains contextual and does not replace the canonical mentor acquisition identity.",
+      "notes": "2026-09-19 verification: Training with Android 18 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-21 low-source provenance strengthening: the maintained Instructor Quests guide independently lists Deadly Dance as Android 18 Lesson 2's Basic Reward. Existing mentor Lesson 2 acquisition semantics are preserved. 2026-09-22 provenance refresh: dedicated Deadly Dance evidence confirms the 100-Ki Strike Super classification and Android 18 training route; the maintained Instructor Quest guide independently lists Deadly Dance as Android 18 Lesson 2 Basic Reward. Current documentation also notes later Partner Customization availability, which remains contextual and does not replace the canonical mentor acquisition identity. 2026-09-23 provenance refresh: current repository evidence was rechecked; existing acquisition, reward-tier, scope, cost, and mechanics semantics were preserved without unsupported inference.",
       "id": "skill-deadly-dance",
       "source_mentor": [
         "mentor-android-18"
@@ -2468,7 +2468,7 @@
         "https://gamefaqs.gamespot.com/boards/466298-dragon-ball-xenoverse-2-future-saga-chapter-1/74429476"
       ],
       "ki_cost": 400,
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "mechanics": "400 Ki base cost; documented as a 400-Ki Ki Blast Ultimate. Cost is version-sensitive historically, so retain provenance rather than infer from Ultimate class.",
       "ultimate_finish_required": false,
       "unlock_method": "Frieza's Lesson 3 — complete the instructor lesson to receive Death Ball as the Basic Reward.",
@@ -2480,7 +2480,7 @@
       "source_quest": "Frieza (1st Form) mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-22 provenance refresh: current dedicated skill evidence confirms Training with Frieza (1st Form), 400 Ki, Ki Blast Ultimate classification, tracking projectile behavior, and 18-hit presentation. Mentor documentation independently confirms Frieza's Lesson 3 reward. No Ultimate Finish gate or drop probability is inferred.",
+      "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-22 provenance refresh: current dedicated skill evidence confirms Training with Frieza (1st Form), 400 Ki, Ki Blast Ultimate classification, tracking projectile behavior, and 18-hit presentation. Mentor documentation independently confirms Frieza's Lesson 3 reward. No Ultimate Finish gate or drop probability is inferred. 2026-09-23 provenance refresh: current repository evidence was rechecked; existing acquisition, reward-tier, scope, cost, and mechanics semantics were preserved without unsupported inference.",
       "id": "skill-death-ball",
       "source_mentor": [
         "mentor-frieza"
@@ -2502,12 +2502,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Frieza (1st Form) mentor training — Initiation Test",
       "mechanics_notes": "Confirmed as Frieza's 100-Ki Ki Blast Super from the Frieza (1st Form) Initiation Test. The dedicated evidence describes up to three rapid beams via additional input, with later shots able to correct aim.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Frieza (1st Form) mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current dedicated skill evidence confirms 100 Ki, Ki Blast Super classification, three-shot additional-input behavior, and Frieza training acquisition. Mentor documentation independently lists Death Beam as Frieza's Initiation Test Basic Reward.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current dedicated skill evidence confirms 100 Ki, Ki Blast Super classification, three-shot additional-input behavior, and Frieza training acquisition. Mentor documentation independently lists Death Beam as Frieza's Initiation Test Basic Reward. 2026-09-23 provenance refresh: current repository evidence was rechecked; existing acquisition, reward-tier, scope, cost, and mechanics semantics were preserved without unsupported inference.",
       "id": "skill-death-beam",
       "source_mentor": [
         "mentor-frieza"
@@ -2530,12 +2530,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Frieza (1st Form) mentor training — Lesson 1",
       "mechanics_notes": "Confirmed as Frieza's 100-Ki Strike Super from Lesson 1 training. The dedicated evidence describes a chargeable rush whose longer charge increases reach and strength.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Frieza (1st Form) mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current dedicated skill evidence confirms 100 Ki, Strike Super classification, chargeable rush behavior, and Frieza (1st Form) training Lesson 1 acquisition. Mentor documentation independently lists Death Crasher as the Lesson 1 Basic Reward.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current dedicated skill evidence confirms 100 Ki, Strike Super classification, chargeable rush behavior, and Frieza (1st Form) training Lesson 1 acquisition. Mentor documentation independently lists Death Crasher as the Lesson 1 Basic Reward. 2026-09-23 provenance refresh: current repository evidence was rechecked; existing acquisition, reward-tier, scope, cost, and mechanics semantics were preserved without unsupported inference.",
       "id": "skill-death-crasher",
       "source_mentor": [
         "mentor-frieza"
