@@ -6007,3 +6007,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Stale census corrected to reflect the live count of 403 current rather than the initially estimated 402.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next stale batch: Super Saiyan Blue Kaioken, Super Saiyan God, Super Saiyan God Super Saiyan, Super Saiyan God Super Saiyan (Evolved), Super Spirit Bomb, Super Vegeta, Supernova, Supernova Cooler, Supersonic Mode, Supreme Fury, Surging Spirit, Symphonic Destruction.
+
+
+### 2026-09-23 cycle update — Super Saiyan Blue Kaioken through Symphonic Destruction skill provenance refresh
+- Completed the next P1 stale-skill batch: **12 records** — Super Saiyan Blue Kaioken, Super Saiyan God, Super Saiyan God Super Saiyan, Super Saiyan God Super Saiyan (Evolved), Super Spirit Bomb, Super Vegeta, Supernova, Supernova Cooler, Supersonic Mode, Supreme Fury, Surging Spirit, and Symphonic Destruction.
+- Synchronized canonical `docs/data/skills.json` and `docs/data/skills-index.json` with `last_verified=2026-09-23`; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics were preserved.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-23-super-saiyan-through-symphonic-destruction.json`.
+- Refreshed the live skill census: **455 canonical / 415 current / 40 stale / 0 duplicate IDs**.
+- Exact next stale batch: **Tail Slicer, Taunt, Teleporting Vanishing Ball, Temporal Holy Ray, The Power to Overcome, The Savior Has Come, Thunder Flash, Time Bullet, Time Control, Time Skip/Back Breaker, Time Skip/Flash Skewer, and Time Skip/Jump Spike**.
+- Evidence boundary preserved: no unsupported probability, prerequisite, timer, stacking cap, frame data, damage value, or restriction was inferred.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next task: process the 12 listed records against their maintained source sets, synchronize canonical/index layers, add/register the bounded audit, and recompute the stale census.
