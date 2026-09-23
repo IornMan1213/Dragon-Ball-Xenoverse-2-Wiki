@@ -3331,3 +3331,13 @@
 - [x] Validation: checkpoint parses and matches the authoritative stored queue; canonical Super Soul duplicate-ID count remains **0**.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next task: one compact item-level/game-data evidence pass for **034**, then **217 Limit Burst** if 034 remains blocked; otherwise choose the next deterministic high-impact reconciliation rather than infer values.
+
+
+### 2026-09-23 — Super Soul 034 item-level evidence boundary finalized
+- [x] Completed the final compact repository evidence pass for **034**.
+- [x] Confirmed Future Saga Chapter 4 evidence leaves 034 effect, trigger, item identifier, Limit Burst, and character source unresolved.
+- [x] Did not infer Fu attribution from the surrounding PQ186 Fu costume inventory.
+- [x] Updated the strict-thin checkpoint with the final evidence boundary.
+- [x] Live strict-thin queue remains **032, 034, 158, 217**; canonical count **229**, duplicate IDs **0**.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Next: **217 Limit Burst** item-level/game-data evidence pass; if blocked, move to deterministic high-impact reconciliation.
