@@ -6516,3 +6516,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Validation: changed JSON parsed successfully; all four promoted records have structured loadouts and explicit loadout sources; preset IDs/numbers remain unique; no Festival/custom-partner records were promoted.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - Exact next batch: continue with another bounded set of explicit numbered/name-matched preset records; prioritize unresolved records whose source table directly identifies the same repository preset number/name, while keeping Goku numeric presets unresolved until an explicit mapping is found.
+
+### 2026-09-23 cycle update — Bardock preset-loadout evidence batch
+- [x] Added **Bardock Presets 1-4** to the machine-readable preset record layer using the explicit Bardock in-game-data table.
+- [x] Preserved the slot semantics: Super Saiyan is the Awoken entry on Presets 2 and 4; Explosive Wave is retained as the evasive entry where the table supports that mapping.
+- [x] Updated the cross-domain preset↔skill audit from **40 to 44 preset records** and from **13 to 17 verified loadouts**.
+- [x] Updated the verified loadout skill-entry audit to **113** and retained explicit Bardock source provenance.
+- [x] No acquisition route was inferred from the loadout table; acquisition remains separately classified as community-observed.
+- [x] Validation: JSON parsed successfully after correcting Bardock Presets 3-4 slot mapping; no existing records were removed or identity-collapsed.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- **Exact next batch:** continue with another character whose explicit in-game-data table can support numbered/name-matched preset records; continue avoiding inferred Goku numeric mappings.
