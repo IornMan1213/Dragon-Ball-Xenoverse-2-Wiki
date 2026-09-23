@@ -4932,3 +4932,13 @@
 - CI/runtime remains unavailable; no CI success claimed.
 - Commit: `395e30de930397b39cfb1fcafd20b05b78439416`.
 - **Exact next batch:** continue exact Battle Suit preset reconciliation for unresolved characters with explicit in-game-data tables; do not infer numeric/name mappings from row order.
+
+
+### 2026-09-23 cycle update — Exact Battle Suit observation layer
+
+- Added `docs/data/preset-battle-suit-reconciliation-2026-09-23.json`.
+- Preserved two explicitly documented Vegeta Battle Suit loadout observations whose repository numeric preset mapping is not established: one with Meteor Strike/Galick Gun/Spirit Boost/Charged Ki Wave/Super Galick Gun/Spread Shot Retreat, and one with Sledgehammer/Energy Wave Combo/Shine Shot/Energy Charge/Full Power Energy Wave/Explosive Wave.
+- Kept Vegeta Preset 8 linked only to its already verified exact record; no unresolved numeric preset was promoted from row order or costume ordering.
+- This creates a safe evidence bridge for future skill↔preset connectivity without inventing numeric mappings.
+- Commit: `8ee2bb5a803850e3ed1ae35bbdc452c2933c2d5d`.
+- **Next exact task:** search for explicit numeric/game-data identifiers for the unresolved Vegeta Battle Suit rows and reconcile only exact matches.
