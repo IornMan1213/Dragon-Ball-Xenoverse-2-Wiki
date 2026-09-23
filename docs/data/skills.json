@@ -11447,7 +11447,7 @@
       "mechanics_notes": "Dedicated current-version evidence confirms Spirit Slash as a 200-Stamina Strike Evasive from PQ02. The Gohan (DBS Super Hero) variant uses 300 Stamina and can be charged to teleport behind the opponent. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Spirit_Slash",
@@ -11457,7 +11457,7 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": 2,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: PQ2 is the documented acquisition endpoint; current repository research classifies this as a 200-Stamina Strike Evasive usable by CaCs. The DBS Super Hero variant is distinct and should not be conflated with the base PQ2 record.",
+      "notes": "2026-09-22 provenance refresh: PQ2 is the documented acquisition endpoint; current repository research classifies this as a 200-Stamina Strike Evasive usable by CaCs. The DBS Super Hero variant is distinct and should not be conflated with the base PQ2 record. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
       "id": "skill-spirit-slash",
       "source_parallel_quests": [
         2
@@ -11480,7 +11480,7 @@
       "mechanics_notes": "Dedicated current-version evidence confirms Spread Shot Retreat as a 300-Stamina Ki Blast Evasive from PQ28. It retreats while firing a tracking barrage that can stun. The current Evasive classification places it with Ki Blast/Energy Barrage-type Evasives. No unsupported CaC race/gender/form restriction was inferred. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Spread_Shot_Retreat",
@@ -11490,7 +11490,7 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": 28,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current repository character/preset evidence associates Spread Shot Retreat with Vegeta's Battle Suit preset. Acquisition semantics remain preserved from the canonical record rather than inferred from preset presence.",
+      "notes": "2026-09-22 provenance refresh: current repository character/preset evidence associates Spread Shot Retreat with Vegeta's Battle Suit preset. Acquisition semantics remain preserved from the canonical record rather than inferred from preset presence. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
       "id": "skill-spread-shot-retreat",
       "source_parallel_quests": [
         28
@@ -11513,7 +11513,7 @@
       "mechanics_notes": "Dedicated current-version evidence corrects Steel Mirage to a 100-Ki Ki Blast Super from PQ165. It rushes past the opponent and attacks from behind with a Destructo-Disc. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Steel_Mirage",
@@ -11522,7 +11522,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 165,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current repository skill research and catalog evidence were rechecked; canonical classification/acquisition fields are retained where the reviewed evidence does not establish a stronger deterministic correction.",
+      "notes": "2026-09-22 provenance refresh: current repository skill research and catalog evidence were rechecked; canonical classification/acquisition fields are retained where the reviewed evidence does not establish a stronger deterministic correction. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
       "id": "skill-steel-mirage",
       "source_parallel_quests": [
         165
@@ -11545,7 +11545,7 @@
       "mechanics_notes": "Corrected to a **Strike Super**, 100 Ki, PQ56. It throws up to 22 rocks and can be charged to greatly extend range; Hercule's version is categorized as Ki Blast. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. Explicit current reward evidence lists this skill in PQ56's Basic Reward set, so the acquisition route does not require an Ultimate Finish.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Stone_Bullet",
@@ -11555,7 +11555,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 56,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: PQ56 Basic Reward evidence is established in the repository; current catalog research classifies Stone Bullet as a Ki Blast Super and retains no Ultimate Finish requirement.",
+      "notes": "2026-09-22 provenance refresh: PQ56 Basic Reward evidence is established in the repository; current catalog research classifies Stone Bullet as a Strike Super and retains no Ultimate Finish requirement. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
       "id": "skill-stone-bullet",
       "source_parallel_quests": [
         56
@@ -11577,12 +11577,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Whis mentor training",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Whis mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current repository skill research evidence was rechecked for classification and acquisition; unresolved fields remain unchanged where evidence does not support a deterministic correction.",
+      "notes": "2026-09-22 provenance refresh: current repository skill research evidence was rechecked for classification and acquisition; unresolved fields remain unchanged where evidence does not support a deterministic correction. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
       "id": "skill-strike-of-revelation",
       "source_mentor": [
         "mentor-whis"
@@ -11603,7 +11603,7 @@
       "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "TP Medal Shop / STP Medal Shop / Double Crystal Raid Battle",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "TP Medal Shop / STP Medal Shop / Double Crystal Raid",
@@ -11611,7 +11611,7 @@
       "dlc_requirement": "Super Pack 3",
       "mechanics_notes": "100 Ki Ki Blast Super counter/teleport technique. If the user is attacked before moving, Instant Transmission places the user behind the opponent and fires a Ki Wave; otherwise the move can function as evasive repositioning. Current acquisition evidence confirms TP Medal Shop / STP Medal Shop / Double Crystal Raid availability; no narrower CaC race/gender/form restriction is established.",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-22 provenance refresh: current repository catalog audit records this skill as explicitly verified from shop/acquisition evidence; no unsupported reward gate is added.",
+      "notes": "2026-09-22 provenance refresh: current repository catalog audit records this skill as explicitly verified from shop/acquisition evidence; no unsupported reward gate is added. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
       "source_quest": null,
       "id": "skill-sudden-death-beam"
     },
@@ -11631,12 +11631,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Turles mentor training",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Turles mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current Ki Blast Super catalog evidence was rechecked; existing canonical classification and acquisition provenance are retained where no deterministic correction is supported.",
+      "notes": "2026-09-22 provenance refresh: current Ki Blast Super catalog evidence was rechecked; existing canonical classification and acquisition provenance are retained where no deterministic correction is supported. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
       "id": "skill-sudden-storm",
       "source_mentor": [
         "mentor-turles"
@@ -11661,11 +11661,11 @@
       "source_quest_or_shop": "Skill Shop (Conton City)",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Other Super/evasive skill. It creates afterimages for evasion/vanishing and is broadly associated with mentors; no explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-22 provenance refresh: current repository catalog audit records Super Afterimage as explicitly verified from acquisition evidence; existing classification and scope are retained.",
+      "notes": "2026-09-22 provenance refresh: current repository catalog audit records Super Afterimage as explicitly verified from acquisition evidence; existing classification and scope are retained. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
       "id": "skill-super-afterimage"
     },
     {
@@ -11685,7 +11685,7 @@
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for Super Black Kamehameha Rosé; no Ultimate Finish requirement is recorded for this route. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward section; no Ultimate Finish-only gate is asserted.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Black_Kamehameha_Ros%C3%A9",
@@ -11695,7 +11695,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 109,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: PQ109 is the documented acquisition endpoint; current repository reward normalization links the skill to PQ109 while exact reward slot/drop percentage remains unresolved.",
+      "notes": "2026-09-22 provenance refresh: PQ109 is the documented acquisition endpoint; current repository reward normalization links the skill to PQ109 while exact reward slot/drop percentage remains unresolved. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
       "id": "skill-super-black-kamehameha-rose",
       "source_parallel_quests": [
         109
@@ -11746,7 +11746,7 @@
       "mechanics_notes": "Confirmed as Gotenks' 100-Ki Ki Blast Super from PQ55. Additional inputs fire up to eight explosive energy rings. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. Explicit current reward evidence lists this skill in PQ55's Basic Reward set, so the acquisition route does not require an Ultimate Finish.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Donut_Volley",
@@ -11755,7 +11755,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 55,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: PQ55 Basic Reward evidence is established; current repository catalog classifies it as a 100-Ki Ki Blast Super usable by CaCs, with no Ultimate Finish requirement.",
+      "notes": "2026-09-22 provenance refresh: PQ55 Basic Reward evidence is established; current repository catalog classifies it as a 100-Ki Ki Blast Super usable by CaCs, with no Ultimate Finish requirement. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
       "id": "skill-super-donut-volley",
       "source_parallel_quests": [
         55
@@ -11778,7 +11778,7 @@
       "mechanics_notes": "300-Ki Strike Ultimate. PQ31 is the documented acquisition endpoint; maintained PQ31 reward data places it in Basic Rewards, so no Ultimate Finish-only gate is asserted.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Dragon_Flight",
@@ -11787,7 +11787,7 @@
       "source_quest": 31,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 source reconciliation: maintained PQ31 data lists Super Dragon Flight in the Basic Reward section; the prior Ultimate Finish wording was stale.",
+      "notes": "2026-09-20 source reconciliation: maintained PQ31 data lists Super Dragon Flight in the Basic Reward section; the prior Ultimate Finish wording was stale. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
       "id": "skill-super-dragon-flight",
       "source_parallel_quests": [
         31
@@ -11809,13 +11809,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "jaco mentor training",
       "mechanics_notes": "300-Ki Strike Ultimate from Jaco Lesson 3; dedicated repository evidence describes a short rush followed by a ray-gun blast, with three hits documented.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Jaco mentor training — Lesson 3.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
       "id": "skill-super-elite-combo",
       "source_mentor": [
         "mentor-jaco"
