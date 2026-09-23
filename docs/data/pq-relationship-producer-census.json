@@ -33,23 +33,23 @@
       "declared_reverse": 122
     },
     "accessory": {
-      "forward": 28,
-      "reverse": 28,
-      "declared_forward": 28,
-      "declared_reverse": 28,
-      "canonical_accessories": 70
+      "forward": 32,
+      "reverse": 32,
+      "declared_forward": 32,
+      "declared_reverse": 32,
+      "canonical_accessories": 74
     },
     "accessory_bridge": {
-      "matched_records": 29,
-      "unresolved_records": 16,
-      "canonical_accessories": 70,
-      "remapped_by_exact_name": 28
+      "matched_records": 33,
+      "unresolved_records": 12,
+      "canonical_accessories": 74,
+      "remapped_by_exact_name": 32
     },
     "accessory_remaining": {
-      "matched": 28,
-      "unresolved": 16,
-      "canonical_accessories": 70,
-      "remapped_by_exact_name": 28
+      "matched": 32,
+      "unresolved": 12,
+      "canonical_accessories": 74,
+      "remapped_by_exact_name": 32
     }
   },
   "checks": {
