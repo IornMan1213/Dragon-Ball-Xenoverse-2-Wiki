@@ -5039,3 +5039,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Remaining non-PQ inventory gaps remain explicitly unresolved.
 - CI/runtime remains unavailable; no CI success claimed.
 - Exact next task: continue record-level DLC reconciliation across declared non-PQ domains using only existing canonical evidence.
+
+
+### 2026-09-23 cycle update — DLC pack content matrix / concrete downstream anchors
+- Live baseline: **20 canonical DLC identities / 86 canonical PQ→DLC edges**; broader content projection remains **3 records**.
+- Bounded batch: **Dragon Ball DAIMA Pack** and **HERO OF JUSTICE Pack 2** non-PQ content-domain projections.
+- Research/evidence: official Bandai Namco announcements establish the advertised domains; repository canonical character/PQ/equipment/skill/Super Soul layers provide concrete downstream navigation anchors. The DAIMA announcement explicitly separates paid-pack content from its free update.
+- Changes: added `docs/data/dlc/dlc-pack-content-matrix-2026-09-23.json`; linked it from the DLC content-link audit and PQ cross-domain index. The matrix records concrete anchors without promoting PQ requirements into inferred complete DLC inventories.
+- Evidence limits preserved: DAIMA free-update raid/lobby inventory remains unresolved; HERO OF JUSTICE Pack 2 exact stage and complete non-PQ inventory remain unresolved; no missing content was guessed.
+- Validation: live re-fetch confirmed matrix structure and registration; canonical DLC identity remains **20 records / 86 PQ→DLC edges**; no canonical relationship row was modified.
+- CI/runtime: unavailable; no CI success claimed.
+- Exact next batch: reconcile the strongest concrete DAIMA/HOJ2 downstream record cohort, prioritizing existing equipment/accessory records and then skill/Super Soul records, while preserving unresolved raid/lobby/stage boundaries.
