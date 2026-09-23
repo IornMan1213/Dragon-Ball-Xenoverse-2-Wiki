@@ -4566,3 +4566,14 @@
 - [x] Added Expert Mission endpoint audit and contract baseline.
 - [ ] Promote/reconcile the 10 unresolved Expert Mission skill identities.
 - **Exact next task:** reconcile those 10 canonical skill gaps, then build Tokipedia and Conton City Patrol endpoint consumers.
+
+
+### 2026-09-23 — TODO completion update — Expert Mission canonical promotion
+- [x] Promoted the 10 previously unresolved EM reward identities into canonical `skills.json` records.
+- [x] Reconciled EM endpoints to **18/18 canonical skill edges** with zero unresolved reward-name consumers.
+- [x] Preserved uncertainty around exact drop rates and guarantee conditions.
+- [x] Updated endpoint audit, cross-link contract, and persistent handoff.
+- [ ] Build/reconcile dedicated mentor endpoint layer.
+- [ ] Build/reconcile Tokipedia endpoint consumers and cross-links.
+- [ ] Build/reconcile Conton City Patrol endpoint consumers and cross-links.
+- **Exact next task:** mentor endpoint layer, followed by Tokipedia and Conton City Patrol endpoint consumers.
