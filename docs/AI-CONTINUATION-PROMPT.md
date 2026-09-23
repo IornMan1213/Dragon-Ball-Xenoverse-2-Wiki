@@ -5729,3 +5729,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: **455/455**, **0 duplicate IDs**, **10 targets synchronized**, stale queue **350**.
 - CI/runtime: no successful status exposed; no CI success claimed.
 - Exact next batch: recompute live stale queue and continue from the next stale canonical records.
+
+### 2026-09-23 cycle update — P1 Divine Lasso through Dodoria Launcher provenance refresh
+- Completed **Divine Lasso, Divine Ray Bomb, Divine Spear, Divine Wrath: Purification, Divinity Unleashed, Do or Die, Dodon Ray, Dodoria Beam, Dodoria Headbutt, and Dodoria Launcher**.
+- Refreshed canonical/index verification dates to **2026-09-23**; existing acquisition, reward-tier, cost, scope, mechanics, DLC, and conflict boundaries were preserved.
+- Added/registered `docs/data/skill-provenance-audit-2026-09-23-divine-through-dodoria.json`.
+- Validation: **455/455**, **0 duplicate IDs**, **10 targets synchronized**, stale queue **340**.
+- CI/runtime: no successful status exposed; no CI success claimed.
+- Exact next action: recompute the live stale queue and continue from the next stale canonical records.
