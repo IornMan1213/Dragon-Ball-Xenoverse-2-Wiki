@@ -1,3 +1,11 @@
+### 2026-09-22 — Super Soul 062/064/067/068 secondary-field reconciliation
+- [x] Reconciled documented Limit Burst effects for Super Souls **062, 064, 067, and 068**.
+- [x] Added evidence-bounded stacking semantics for **062, 064, and 068** without inventing numeric caps.
+- [x] Added persistence/non-finite duration semantics for **067 and 068** without inventing timers.
+- [x] Added and registered `docs/data/super-soul-062-064-067-068-secondary-field-reconciliation-2026-09-22.json`.
+- [x] Refreshed live strict-thin census: **234 canonical / 0 duplicate IDs / 111 strict-thin**.
+- [ ] Continue the next evidence-rich unresolved Super Soul strict-thin cluster; preserve canonical source-of-truth and evidence boundaries.
+
 [object Object]
 
 ### 2026-09-21 — Taunt low-source provenance strengthening
