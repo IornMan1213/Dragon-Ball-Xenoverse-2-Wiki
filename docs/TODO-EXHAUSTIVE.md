@@ -3692,3 +3692,18 @@
 - [x] Validation target: canonical/index parity must remain exact after promotion; no unsupported reward probability or Ultimate Finish gate was added.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: continue the **five remaining unmatched Support Pack costume identities**, then reconcile **Puar**.
+
+
+### 2026-09-23 — Time Patrol Support Pack remaining costume evidence follow-up
+- [x] Re-researched the five remaining unmatched costume identities: **Gogeta Clothes**, **Future Trunks' Clothes (Super)**, **Broly Clothes**, **Master Korin's Suit**, and **Orange Star High School Outfit**.
+- [x] Strengthened the durable reconciliation audit with official Steam/Nintendo pack scope plus independent equipment/repository evidence where available.
+- [x] Confirmed **Gogeta's Clothes** is distinct from **SSGSS Gogeta's Clothes** and is independently tied to PQ57; no alias was created.
+- [x] Confirmed **Future Trunks's Clothes (Super)** is a distinct exact catalog identity with a TP Medal Shop route; it was not aliased to Future Trunks's Clothes.
+- [x] Confirmed **Broly's Clothes** is a distinct exact identity associated with PQ47 and separately from Broly (Full Power Super Saiyan)'s Clothes and Broly Battle Suits.
+- [x] Confirmed **Master Korin's Suit** as a real current costume identity with both Limited login bonus and Time Patrol Support Pack provenance in the maintained Free Update evidence; no canonical equipment ID currently exists.
+- [x] Confirmed **Orange Star High School Outfit** as the exact current equipment identity and kept it distinct from Orange Star High School T-Shirt / Custom variants.
+- [x] Preserved the canonical-layer boundary: live legacy equipment IDs end at **equip-140**; no equip-141+ IDs were invented and no approximate outfit aliases were created.
+- [x] Updated docs/data/dlc/time-patrol-support-pack-costume-identity-reconciliation-2026-09-23.json; audit commit: **e1ed5ae285f2d6289479915fd0f167c4fb2a8a68**.
+- [x] Validation: official pack scope remains 8 costumes; six-target batch remains 1 exact canonical match + 5 exact canonical gaps; zero new canonical IDs and zero identity aliases were created.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next task: resolve the canonical equipment-layer capacity/ID architecture question for these five evidence-backed identities without inventing equip-141+ records; if the layer remains intentionally closed at equip-140, preserve the five as explicit inventory gaps and then proceed to the Puar/CC Mascot identity gap.
