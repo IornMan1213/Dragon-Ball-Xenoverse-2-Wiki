@@ -1879,3 +1879,11 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Added and registered `docs/data/super-soul-155-173-175-179-187-197-032-evidence-reconciliation-2026-09-22.json`.
 - No canonical PQ relationship identities, reward probabilities, Ultimate-Finish requirements, or unsupported engine-level mechanics were added or changed.
 - Live canonical Super Soul status counts after the batch: **71 partially_verified / 11 verified / 112 verified_secondary / 27 researched / 13 indexed**; **234 records / 0 duplicate IDs**.
+
+### 2026-09-22 — Super Soul 054 reconciliation
+- [x] Reconciled **054 — “Leave my daddy alone!”** with independent raid evidence.
+- [x] Populated the documented **3-second** Strike Skill boost duration and **ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.** Limit Burst.
+- [x] Promoted 054 to `verified_secondary`; preserved the description-vs-game-data percentage discrepancy and did not infer stacking, reward probability, or Ultimate-Finish requirements.
+- [x] Added and registered `docs/data/super-soul-054-reconciliation-2026-09-22.json`.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Next priority: continue with **157, 159, 163, and 164**; keep **034** evidence-bound unless exact-name item-level mechanics evidence improves.
