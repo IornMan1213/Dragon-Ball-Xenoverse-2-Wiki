@@ -4470,8 +4470,8 @@
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": "Super Saiyan-compatible use",
-      "version_notes": "Mechanics/provenance refreshed from the maintained Super Soul catalogue plus independent historical guide and PQ reward evidence. Exact reward probability/Ultimate-Finish attribution is not asserted unless independently established.",
-      "verification_status": "partially_verified",
+      "version_notes": "Mechanics/provenance refreshed from the maintained Super Soul catalogue plus independent historical guide and PQ reward evidence. Exact reward probability/Ultimate-Finish attribution is not asserted unless independently established. Exact-name catalogue evidence and independent GameFAQs/Steam PQ documentation corroborate the Super Saiyan trigger, +20% normal attacks, +10% Strike Skills, and Rush-style Limit Burst. The effect persists while the qualifying Awoken state is active; no separate finite timer or stacking rule is documented.",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
@@ -4532,8 +4532,8 @@
       "limit_burst_effect": "Revive Gauge Auto-Recovery!",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics/provenance refreshed from the maintained Super Soul catalogue plus independent historical guide and PQ reward evidence. Exact reward probability/Ultimate-Finish attribution is not asserted unless independently established.",
-      "verification_status": "partially_verified",
+      "version_notes": "Mechanics/provenance refreshed from the maintained Super Soul catalogue plus independent historical guide and PQ reward evidence. Exact reward probability/Ultimate-Finish attribution is not asserted unless independently established. Exact-name catalogue evidence and independent GameFAQs/Steam PQ documentation corroborate the Heavy Smash trigger, -200 Ki effect, and Revive Gauge Auto-Recovery Limit Burst. The Ki reduction is an event-triggered effect rather than a documented timed state; no stacking rule is established.",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
@@ -4563,8 +4563,8 @@
       "limit_burst_effect": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": "Kaioken or Super Saiyan Blue Kaioken-compatible use",
-      "version_notes": "Mechanics/provenance refreshed from the maintained Super Soul catalogue plus independent historical guide and PQ reward evidence. Exact reward probability/Ultimate-Finish attribution is not asserted unless independently established.",
-      "verification_status": "partially_verified",
+      "version_notes": "Mechanics/provenance refreshed from the maintained Super Soul catalogue plus independent historical guide and PQ reward evidence. Exact reward probability/Ultimate-Finish attribution is not asserted unless independently established. Exact-name catalogue evidence, SSGSS Goku data, and independent GameFAQs evidence corroborate the Kaioken/SSGSS Kaioken trigger and +20% Ki restored, +12%/+6% Stamina recovery, and +10% normal-attack effects. Effects apply while the qualifying Kaioken state is active; no separate finite timer or stacking rule is documented.",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
@@ -4594,8 +4594,8 @@
       "limit_burst_effect": "Time Skip/Molotov ATK Up!",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics/provenance refreshed from the maintained Super Soul catalogue plus independent historical guide and PQ reward evidence. Exact reward probability/Ultimate-Finish attribution is not asserted unless independently established.",
-      "verification_status": "partially_verified",
+      "version_notes": "Mechanics/provenance refreshed from the maintained Super Soul catalogue plus independent historical guide and PQ reward evidence. Exact reward probability/Ultimate-Finish attribution is not asserted unless independently established. Exact-name catalogue evidence and independent GameFAQs/Steam PQ documentation corroborate the Heavy Smash trigger, +15% guard-break duration, -100 Ki effect, and Time Skip/Molotov ATK Up! Limit Burst. The effect is event-triggered; no separate Super Soul duration or stacking rule is documented.",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
