@@ -5,7 +5,7 @@
   "status": "reward_provenance_reconciled_with_partial-map-drift-retained",
   "summary": {
     "canonical_records": 186,
-    "affected_cases": 232,
+    "affected_cases": 227,
     "stats": {
       "clothing": {
         "source_only": 52,
@@ -24,8 +24,8 @@
       },
       "super_souls": {
         "source_only": 0,
-        "edge_only": 61,
-        "affected_pq": 38
+        "edge_only": 56,
+        "affected_pq": 33
       }
     }
   },
@@ -1707,17 +1707,6 @@
       ]
     },
     {
-      "pq": 151,
-      "field": "super_souls",
-      "source_only": [],
-      "edge_only": [
-        "I'll never forgive you!",
-        "I'm not gonna die until I defeat you!"
-      ],
-      "reconciliation_status": "retained_source_backed",
-      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
-    },
-    {
       "pq": 152,
       "field": "skills",
       "source_only": [],
@@ -1725,16 +1714,6 @@
         "Justice Kick",
         "Justice Blade"
       ]
-    },
-    {
-      "pq": 152,
-      "field": "super_souls",
-      "source_only": [],
-      "edge_only": [
-        "I'll show you the power of a true warrior!"
-      ],
-      "reconciliation_status": "retained_source_backed",
-      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 152,
@@ -1769,17 +1748,6 @@
       ]
     },
     {
-      "pq": 153,
-      "field": "super_souls",
-      "source_only": [],
-      "edge_only": [
-        "Don't underestimate my power!",
-        "I won't forgive you!"
-      ],
-      "reconciliation_status": "retained_source_backed",
-      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
-    },
-    {
       "pq": 154,
       "field": "skills",
       "source_only": [],
@@ -1787,16 +1755,6 @@
         "Sign of Awakening",
         "Circle Flash"
       ]
-    },
-    {
-      "pq": 154,
-      "field": "super_souls",
-      "source_only": [],
-      "edge_only": [
-        "I'm the one who will win!"
-      ],
-      "reconciliation_status": "retained_source_backed",
-      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 154,
@@ -1829,16 +1787,6 @@
         "Gamma Blaster",
         "Gamma Impact"
       ]
-    },
-    {
-      "pq": 155,
-      "field": "super_souls",
-      "source_only": [],
-      "edge_only": [
-        "This is the ultimate hero!"
-      ],
-      "reconciliation_status": "retained_source_backed",
-      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 155,
@@ -2310,5 +2258,23 @@
     "source_only_cases_resolved": 68,
     "source_only_entries_resolved": 76,
     "remaining_unresolved_source_only_entries": 0
+  },
+  "correction_2026_09_23": {
+    "date": "2026-09-23",
+    "affected_pq": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "removed_misidentified_names": [
+      "I'll show you the power of a true warrior!",
+      "Don't underestimate my power!",
+      "I won't forgive you!",
+      "I'm the one who will win!",
+      "This is the ultimate hero!"
+    ],
+    "note": "PQ151-155 Super Soul source-map/canonical-edge drift was corrected; the five indexed-only 232-236 records were not corroborated and were removed from the live canonical layer."
   }
 }
