@@ -1,3 +1,11 @@
+### 2026-09-22 cycle update — Super Soul 176/182/183/184/188/189 stacking reconciliation
+- Reconciled stacking fields for **176, 182, 183, 184, 188, and 189** to **Not reported as stackable** where the maintained catalogue/evidence provides no stacking mechanic or numeric cap.
+- No unsupported duration or stack values were inferred.
+- Live census: **234 canonical / 0 duplicate IDs / 142 strict-thin records**.
+- Added/registered audit: `docs/data/super-soul-176-182-183-184-188-189-stacking-reconciliation-2026-09-22.json`.
+- Next: continue evidence-rich unresolved Super Soul thin-field records.
+
+
 ### 2026-09-22 cycle update — Super Soul 191/194/196 duration reconciliation
 - Reconciled **191, 194, and 196** duration semantics from the maintained Super Soul catalogue.
 - 191: Hero's Flute activation window; 194: health-condition window below 75%; 196: 30 seconds.
