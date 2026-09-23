@@ -6138,3 +6138,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Evidence boundary preserved: Tokipedia, Conton City Patrol, and the ambiguous Ultra Instinct acquisition route were intentionally not inferred into this layer.
 - CI/runtime remains unavailable; no CI success claimed.
 - **Exact next task:** recompute the broader non-PQ acquisition census, then build the next deterministic consumer layer, prioritizing Tokipedia/Patrol if canonical records support it; otherwise reconcile mentor/Expert Mission completeness and the remaining 7 legacy shop records.
+
+
+### 2026-09-23 cycle update — Acquisition classification normalization / shop endpoint reconciliation
+
+- Recomputed the live 455-skill acquisition census after the Time Rift/story/tournament endpoint work.
+- Found **7 legacy `shop` records** whose canonical source is explicitly TP/STP Medal Shop: Chaos Shot, Galick Cannon, Impulse Slash, Jumping Energy Wave, Menacing Flare, Secret Poison, and Wild Hunt.
+- Normalized those 7 records to `tp_medal_shop`; normalized Giant Storm to `skill_shop` and Angry Explosion to `expert_mission` instead of retaining the ambiguous `skill_shop_or_expert_mission` class.
+- Synchronized `docs/data/skill-shop-endpoints.json`: now **13 Skill Shop + 18 TP/STP Medal Shop = 31 shop-linked canonical skills**.
+- Updated `docs/data/skill-shop-endpoint-layer-audit-2026-09-23.json` and the broader acquisition audit with the post-normalization census.
+- Evidence boundary preserved: these are classification corrections based on each record's existing explicit source; no new acquisition route or current rotation claim was inferred.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next task:** build/reconcile the dedicated Expert Mission and mentor endpoint layer, then address Tokipedia/Conton City Patrol endpoint consumers and their cross-links.
