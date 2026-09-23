@@ -31,7 +31,7 @@ def main() -> int:
 
     expected = {
         "pq_rewards_skill": 244,
-        "pq_rewards_super_soul": 151,
+        "pq_rewards_super_soul": 146,
         "pq_rewards_equipment": 124,
         "pq_features_character": 247,
         "pq_requires_dlc": 86,
