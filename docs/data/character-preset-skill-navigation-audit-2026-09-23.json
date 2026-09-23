@@ -9,15 +9,15 @@
     "skill_character_identity_bridge": "docs/data/skill-character-identity-bridge-2026-09-23.json"
   },
   "counts": {
-    "preset_records": 44,
+    "preset_records": 46,
     "distinct_presentation_character_ids": 12,
     "bridged_presentation_character_ids": 12,
     "unbridged_presentation_character_ids": 0,
     "resolved_skill_character_edges": 50,
     "preset_characters_with_character_source_skill_identity": 5,
     "preset_characters_without_character_source_skill_identity": 7,
-    "verified_preset_loadout_records": 17,
-    "verified_loadout_skill_entries": 113
+    "verified_preset_loadout_records": 19,
+    "verified_loadout_skill_entries": 123
   },
   "checks": {
     "all_preset_character_ids_resolve_via_explicit_bridge": true,
@@ -357,9 +357,36 @@
         "Explosive Wave",
         "Super Saiyan"
       ]
+    },
+    {
+      "id": "raditz-preset-1",
+      "character_id": "raditz",
+      "preset_number": 1,
+      "source": "https://dbxv2.fandom.com/wiki/Raditz",
+      "skill_names": [
+        "Meteor Blow",
+        "Double Sunday",
+        "Afterimage",
+        "Energy Charge",
+        "Weekend",
+        "Break Strike"
+      ]
+    },
+    {
+      "id": "nappa-preset-1",
+      "character_id": "nappa",
+      "preset_number": 1,
+      "source": "https://dbxv2.fandom.com/wiki/Nappa",
+      "skill_names": [
+        "Sledgehammer",
+        "Energy Shot",
+        "Genocide Shell",
+        "Full Power Charge",
+        "Giant Storm"
+      ]
     }
   ],
-  "evidence_boundary": "Seventeen preset records now have explicit sourced loadouts; remaining indexed records stay unresolved unless an explicit source identifies the same preset number/name. Bardock Presets 1-4 are sourced directly from the Bardock in-game-data table. Festival/custom-partner configurations remain separate.",
+  "evidence_boundary": "Nineteen preset records have explicit sourced loadouts; remaining indexed records stay unresolved unless an explicit source identifies the same preset number/name. Raditz Preset 1 and Nappa Preset 1 are directly supported by their Battle Suit 1 in-game-data tables. Festival/custom-partner configurations remain separate.",
   "source_backed_candidates_reviewed": [
     {
       "character_id": "goku",
@@ -369,7 +396,7 @@
       "reason": "The existing repository records use generic numeric IDs (goku-preset-2 through goku-preset-16), while the source table uses costume/preset names rather than the repository's numeric labels. Promoting by row order would create an unsupported preset-number mapping."
     }
   ],
-  "next": "Continue source-backed preset-loadout reconciliation in bounded batches. Prioritize unresolved records for characters with explicit in-game-data tables, and do not infer Goku numeric mappings from named rows.",
+  "next": "Continue source-backed preset-loadout reconciliation in bounded batches, prioritizing explicit Battle Suit rows and exact preset-number/name matches.",
   "verified_preset_loadout_records": [
     {
       "id": "vegeta-preset-8",
@@ -485,6 +512,33 @@
         "Saiyan Spirit",
         "Explosive Wave",
         "Super Saiyan"
+      ]
+    },
+    {
+      "id": "raditz-preset-1",
+      "character_id": "raditz",
+      "preset_number": 1,
+      "source": "https://dbxv2.fandom.com/wiki/Raditz",
+      "skill_names": [
+        "Meteor Blow",
+        "Double Sunday",
+        "Afterimage",
+        "Energy Charge",
+        "Weekend",
+        "Break Strike"
+      ]
+    },
+    {
+      "id": "nappa-preset-1",
+      "character_id": "nappa",
+      "preset_number": 1,
+      "source": "https://dbxv2.fandom.com/wiki/Nappa",
+      "skill_names": [
+        "Sledgehammer",
+        "Energy Shot",
+        "Genocide Shell",
+        "Full Power Charge",
+        "Giant Storm"
       ]
     }
   ],
