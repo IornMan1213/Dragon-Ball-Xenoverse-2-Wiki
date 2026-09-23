@@ -2160,3 +2160,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - The controlling canonical record remains **super-soul-034 character_source = unresolved**; the exact-name evidence pass did not independently substantiate the prior Fu attribution, and its mechanics/Limit Burst fields remain unresolved.
 - Removed the duplicated intermediate 034 evidence entry from the checkpoint; no historical handoff/TODO entries were deleted.
 - Live authoritative strict-thin census remains **229 canonical / 0 duplicate IDs / 4 strict-thin**: **032, 034, 158, 217**.
+
+
+## 2026-09-23 — Super Soul 034 item-level evidence boundary finalized
+- Cross-checked the Future Saga Chapter 4 item-evidence, effect-evidence, and 034 provenance artifacts.
+- Confirmed 034 remains unresolved for item identifier, effect, trigger, Limit Burst, and character source; surrounding Fu costume inventory is not item-level attribution.
+- Updated the strict-thin checkpoint without promoting unsupported data.
+- Live authoritative census remains **229 canonical / 0 duplicate IDs / 4 strict-thin**: **032, 034, 158, 217**.
