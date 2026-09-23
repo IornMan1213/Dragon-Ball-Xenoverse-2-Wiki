@@ -2109,3 +2109,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Validation: **234 canonical / 0 duplicate IDs / 115 strict-thin records**; changed records parse cleanly and audit registration is present.
 - CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - Exact next task: continue the next evidence-supported thin-field cluster, beginning with **156/161/166/172** duration gaps and preserving unresolved evidence boundaries.
+
+
+## 2026-09-23 — Super Soul 129–143 secondary-field reconciliation
+- Reconciled evidence-bounded stacking semantics for Super Souls 129–143; explicit caps retained for 133 and 135.
+- Recorded explicit 10/20-second durations for 134, 136, 140, and 142; unresolved timers remain unclaimed.
+- Added `docs/data/super-soul-129-143-secondary-field-reconciliation-2026-09-23.json` and refreshed the live Super Soul thin census to 60 records.
+- Updated `docs/AI-CONTINUATION-PROMPT.md` and `docs/TODO-EXHAUSTIVE.md` with the completed cycle and next priority.
