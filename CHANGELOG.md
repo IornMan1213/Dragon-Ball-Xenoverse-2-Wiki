@@ -1,3 +1,9 @@
+## 2026-09-22 — Super Soul 177/186/197/199 reconciliation
+
+- Reconciled duration and stacking fields for four evidence-rich Super Souls.
+- Preserved evidence boundaries for time-triggered effects; no expiration was invented.
+- Live census: **234 canonical / 0 duplicate IDs / 138 strict-thin records**.
+
 ## 2026-09-22 — Super Soul 176/182/183/184/188/189 stacking reconciliation
 
 - Reconciled six stacking fields to **Not reported as stackable** where no stacking mechanic or numeric cap is documented.
