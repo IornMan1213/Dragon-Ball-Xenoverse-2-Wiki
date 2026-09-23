@@ -177,5 +177,17 @@
     "all_em_canonical_ids": false,
     "all_advancement_skill_ids": true,
     "status": "pass"
-  }
+  },
+  "acquisition_type_census": {
+    "skill_shop": 13,
+    "tp_medal_shop": 18,
+    "expert_mission": 2,
+    "mentor_training": 2,
+    "other_nonquest": 3,
+    "quest_or_mission": 399,
+    "parallel_quest": 6,
+    "character_only": 10,
+    "starting_move": 2
+  },
+  "census_note": "Post-normalization census: seven legacy shop records were mapped to TP/STP Medal Shop; Giant Storm to Skill Shop; Angry Explosion to Expert Mission. Counts are classification counts, not unique endpoint counts."
 }
