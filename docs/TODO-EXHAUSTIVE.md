@@ -5050,3 +5050,13 @@
 - [ ] Inspect remaining 854/146 hits individually and repair only any still-current-looking consumers.
 - Commits: `a53eaf99b5ff62b807bd2a9abd4d118a26500562`, `2d7e6cd7f0d02fdb1f44c079c4b7a6f43f18a243`, `fcad966ac7446c212cc18cd4ed7a016ea7b6ba73`.
 - **Exact next task:** finish classification/repair of remaining 854/146 search hits, then resume P1 provenance/data work and exact-evidence preset reconciliation.
+
+
+### 2026-09-23 cycle update — Third current-consumer census pass
+- [x] Re-scanned and individually inspected remaining current-looking 854/146 cross-domain consumers.
+- [x] Repaired `pq-cross-domain-status.json` current reconciliation/master/Super Soul projections to 853/145 (145/142 reverse).
+- [x] Repaired `pq-cross-domain-audit.json` current reconciliation census to 853.
+- [x] Reclassified the old `pq-current-consumer-baseline-correction-2026-09-22.json` 854/146 correction as superseded historical context and added authoritative 853/145 current values.
+- [x] Preserved historical 854/146/143 migration evidence; no canonical relationship arrays changed.
+- **Exact next task:** classify the remaining dated 854/146/143 correction artifacts so historical values are explicitly labeled, then advance to the queued P1 provenance/data gap.
+- Commits: `329e856d4d9d56b192cac3ea9613600f25e097fd`, `055ae26bf334cc0acee3b25cfde6534a543f7b5e`, `495310d45de45b856762ad6c9dbe9910133b49a5`.
