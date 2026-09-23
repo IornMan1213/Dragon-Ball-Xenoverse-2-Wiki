@@ -4224,3 +4224,11 @@
 - [x] Validation: **455/455 / 0 duplicate IDs / 280 stale**; target parity clean.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next action: recompute the live stale queue before selecting the next batch.
+
+### 2026-09-23 — TODO completion update — P1 Final-through-Force Edge skill provenance/mechanics
+- [x] Completed 12 skills: Final Flash (Super), Final Kamehameha, Final Pose, Final Rampage, Finish Breaker, Finishing Blow, Flash Bomber, Flash Chaser, Flash Fist Crush, Flash Strike, Focus Flash, Force Edge.
+- [x] Synchronized canonical/index last_verified to 2026-09-23 and refreshed bounded mechanics notes from existing/current evidence.
+- [x] Added/registered docs/data/skill-provenance-audit-2026-09-23-final-through-force-edge.json in the cross-domain audit registry.
+- [x] Validation: 455/455 / 0 duplicate IDs / 268 stale; target canonical/index parity clean for verification date, mechanics, and sources.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next batch: Force Shield, Formation!, Freedom Kick, Fruit of the Tree of Might, Full Power Charge, Full Power Destruction, Future Super Saiyan, Galactic Donuts, Galick Cannon, Galick Gun, Gamma Blaster, Gamma Impact. Recompute the live stale queue before editing and do not repeat completed records.
