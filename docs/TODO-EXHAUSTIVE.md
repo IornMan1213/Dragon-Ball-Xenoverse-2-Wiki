@@ -2673,3 +2673,15 @@
 - [ ] CI/runtime: no successful workflow/check exposed for the direct-commit chain; no CI success claimed.
 - [x] Commits: canonical `4d22b7fb47f524f0daca589803e707a557c1d364`; audit `ebc72f6ad0d4cbc6ea118978f8553245890b93d5`; cross-domain index `2892951250a4a1c04b8bdc779498ed77bf1d2db0`.
 - [ ] Exact next priority: recompute the **full live Super Soul thin-system census** and select the next **4–12 highest-impact unresolved records** using exact-name evidence and reusable PQ/cross-domain links; do not assume numeric order alone determines priority. Preserve unresolved identity collisions and unresolved fields rather than guessing.
+
+### 2026-09-22 cycle update — Super Soul 062, 064, 067, 068 mechanics refresh
+- [x] Recomputed the live canonical Super Soul layer before editing: **234 records / 0 duplicate IDs**.
+- [x] Selected four high-impact PQ-linked thin records with strong exact-name evidence: **062 (PQ180), 064 (PQ107), 067 (PQ133), 068 (PQ118)**.
+- [x] Refreshed mechanics and Limit Bursts: 062 now records its 20-second attack/Ki-recovery window and **Auto Just Guard**; 064 records **30 seconds** and **DEF Up! You've Got Super Armor! Ki Rec. SPD Down.**; 067 records its exact +10%/+10%, three-stack behavior and **ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.**; 068 records its -50% revive-time effect, one-time 50% Ki restoration and **Auto Health and Stamina Recovery! DEF Down.**
+- [x] Preserved canonical PQ relationships: **062→PQ180, 064→PQ107, 067→PQ133, 068→PQ118**.
+- [x] Added `docs/data/super-soul-062-064-067-068-mechanics-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Evidence used: maintained Super Soul catalogue plus independent GameFAQs documentation/testing. Acquisition probabilities and Ultimate-Finish conditions were not inferred from mechanics evidence.
+- [x] Validation: canonical JSON parses at **234 records**, 0 duplicate IDs; all four selected records are `researched`, have populated Limit Burst data, retain their original PQ links, and have source provenance.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [x] Commits: canonical `e8e9be32922349190990bc451d73148d6e3fbc36`; audit `7ca201c710dc6d826f050c3878b33eb958cebe8e8`; cross-domain index `9d08036226859a19c64af5c9a4c9b4c2f5457b43`.
+- [ ] Exact next priority: continue the live thin census with the next **4–12 highest-impact unresolved PQ-linked records**, using exact-name evidence and reusable cross-domain links; preserve unresolved identity conflicts and do not guess unsupported mechanics.
