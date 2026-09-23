@@ -45,6 +45,16 @@
       "basis": "Current skill documentation identifies Frieza (1st Form) and Frieza (Final Form) as users; the source token is therefore safely expanded to canonical forms."
     },
     {
+      "skill_id": "skill-destruction-s-conductor",
+      "skill_name": "Destruction's Conductor",
+      "source_token": "Vados",
+      "canonical_character_names": [
+        "Vados"
+      ],
+      "status": "resolved",
+      "basis": "Current dedicated Xenoverse 2 skill documentation identifies Vados as the user; Whis is additionally documented as a Customize Partner."
+    },
+    {
       "skill_id": "skill-divine-kamehameha",
       "skill_name": "Divine Kamehameha",
       "source_token": "Goku (Ultra Instinct), Goku (Ultra Instinct -Sign-)",
@@ -104,6 +114,16 @@
       ],
       "status": "resolved",
       "basis": "PQ36 identifies Evil Whirlwind as the reward associated with the Cell Games sequence; the canonical roster represents the relevant Cell identity as Cell (Perfect)."
+    },
+    {
+      "skill_id": "skill-flash-chaser",
+      "skill_name": "Flash Chaser",
+      "source_token": "Majuub",
+      "canonical_character_names": [
+        "Majuub"
+      ],
+      "status": "resolved",
+      "basis": "Current dedicated Xenoverse 2 skill documentation and Majuub DLC evidence identify Majuub as the user; Goku (GT) is separately documented as a Customize Partner."
     },
     {
       "skill_id": "skill-full-power-destruction",
@@ -293,10 +313,12 @@
     {
       "skill_id": "skill-sonic-bomb",
       "skill_name": "Sonic Bomb",
-      "source_token": "Champa",
-      "canonical_character_names": [],
-      "status": "held_unresolved",
-      "basis": "Not promoted: current skill documentation identifies Frieza as the user despite the source token saying Champa. The token is therefore a provenance/user-field conflict, not a deterministic Champa identity."
+      "source_token": "Frieza (1st Form)",
+      "canonical_character_names": [
+        "Frieza (1st Form)"
+      ],
+      "status": "resolved",
+      "basis": "Current dedicated Xenoverse 2 skill documentation identifies Frieza (1st Form) as a Customize Partner user; Omega Shenron and Super Baby 2 are also documented users."
     },
     {
       "skill_id": "skill-spirit-explosion",
