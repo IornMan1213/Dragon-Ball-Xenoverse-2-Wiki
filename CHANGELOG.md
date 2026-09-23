@@ -2429,3 +2429,9 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Burning Blast's explicit 50% Ultimate Finish condition remains authoritative in the canonical record despite the maintained reward guide's conflicting Basic Reward presentation.
 - Added and registered `docs/data/skill-provenance-audit-2026-09-23-burning-through-burst.json`.
 - Validation target: **455 canonical / 455 index / 0 duplicate IDs / 5 targets synchronized**; no CI success claimed because no successful workflow status was exposed.
+
+### 2026-09-23 — P1 Burst Blitz through Burst Stinger provenance refresh
+- Refreshed **Burst Blitz, Burst Kamehameha, Burst Reflection, Burst Rush, and Burst Stinger** to `2026-09-23` in canonical/index skill data.
+- Revalidated existing multi-source acquisition/classification evidence without changing unsupported fields or forcing unresolved reward conflicts.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-23-burst-blitz-through-stinger.json`.
+- Validation target: **455 canonical / 455 index / 0 duplicate IDs / 5 targets synchronized**.
