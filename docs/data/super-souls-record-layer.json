@@ -4220,9 +4220,9 @@
       "name": "Do or Die",
       "character_source": null,
       "dlc_requirement": null,
-      "acquisition_type": "Parallel Quest",
-      "acquisition_source": "Parallel Quest 49 reward",
-      "first_clear_or_repeat": "PQ 49 reward",
+      "acquisition_type": null,
+      "acquisition_source": null,
+      "first_clear_or_repeat": null,
       "shop_rotation": null,
       "trigger_condition": null,
       "effect_text": null,
@@ -4234,11 +4234,14 @@
       "limit_burst_effect": null,
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Indexed from the repository's normalized PQ reward layer; effect mechanics, exact reward conditions, and broader acquisition routes remain unresolved in this record.",
-      "verification_status": "indexed",
-      "last_verified": "2026-09-22",
+      "version_notes": "2026-09-23 identity correction: fresh exact-name research does not substantiate “Do or Die” as a Super Soul. Independent Xenoverse 2 sources identify Do or Die as Nail's Power Up Type Super Skill obtained from PQ 49, while Nail's associated Super Soul is “I must protect Grand Elder Guru!”. The canonical reward layer therefore must not treat the skill name as a Super Soul identity. Existing PQ49 linkage is preserved only as an identity-conflict boundary pending canonical source resolution; no Super Soul mechanics are inferred.",
+      "verification_status": "identity_conflict",
+      "last_verified": "2026-09-23",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Nail",
+        "https://ultradragonball.fandom.com/wiki/Stalling",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80404900?page=6"
       ],
       "source_parallel_quests": [
         "pq-049"
