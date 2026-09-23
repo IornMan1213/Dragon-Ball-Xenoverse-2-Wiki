@@ -5068,3 +5068,12 @@
 - [x] Preserved original migration values; no canonical relationship rows changed.
 - **Exact next task:** resume queued P1 exhaustive data/provenance work, starting with the seven unresolved PQ41–186 Super Soul acquisition-index differences after recomputing the live pair census.
 - Commits: `5d594441f3ce8a3329d4755255a4608214d6a185`, `71b9627a7765ade404e0bddd503b0b59179879d0`, `80543c69a9d8b033907b86b07dc0100c23cea134`, `382976427a1977032eda1cf545896d4684a408e7`, `9aae29da5b8f46e73d6c7455de4ee5cecec1e747`, `4a47684aff2a2c64748e6e2b9eb8ea60ceff49c0`.
+
+
+### 2026-09-23 cycle update — PQ41–186 Super Soul acquisition projection reconciliation
+- [x] Recomputed the live canonical PQ41–186 Super Soul pair census: **127 pairs**.
+- [x] Reconciled the partial acquisition index: **127 indexed / 127 canonical / 127 exact overlap / 0 missing / 0 extra**.
+- [x] Added two source-backed PQ151 pairs and removed the superseded PQ49 Do or Die same-name collision.
+- [x] Updated the acquisition-index reconciliation audit; no canonical relationship changes.
+- **Exact next task:** advance to the next highest-impact P1 provenance/data structural gap with a fresh live census first.
+- Commits: 4b0123e187a5335daa950989123670a9a02e7d00, 3e27d876578b379eb104c080b3a24b9d8b1caaa2.
