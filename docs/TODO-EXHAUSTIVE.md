@@ -2961,3 +2961,15 @@
 - [x] Live census: **234 canonical / 0 duplicate IDs / 142 strict-thin records**.
 - [x] Added and registered `docs/data/super-soul-176-182-183-184-188-189-stacking-reconciliation-2026-09-22.json`.
 - [ ] Next: continue evidence-rich unresolved Super Soul thin-field records.
+
+
+### 2026-09-22 — Super Soul 177/186/197/199 reconciliation
+- [x] Reconciled **177, 186, 197, and 199** duration/stacking fields using maintained catalogue evidence plus independent historical evidence.
+- [x] 177: activation at 90 seconds; no separate expiration documented.
+- [x] 186: activation at 60 seconds; no separate expiration documented.
+- [x] 197: active while Health is above 75%.
+- [x] 199: active while Super Saiyan 2 or Super Vegeta 2 is active.
+- [x] Stacking recorded as **Not reported as stackable** for all four; no numeric caps invented.
+- [x] Live census: **234 canonical / 0 duplicate IDs / 138 strict-thin records**.
+- [x] Added and registered `docs/data/super-soul-177-186-197-199-reconciliation-2026-09-22.json`.
+- [ ] Next: continue the remaining evidence-rich unresolved Super Soul fields.
