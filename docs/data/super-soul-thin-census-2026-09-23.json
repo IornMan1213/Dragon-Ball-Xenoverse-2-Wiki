@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-23",
+  "domain": "super_souls",
+  "purpose": "Live strict-thin census after Super Soul 232-236 identity correction.",
+  "source_of_truth": "docs/data/super-souls-record-layer.json",
+  "canonical_records": 229,
+  "duplicate_ids": 0,
+  "strict_thin_records": [
+    "super-soul-032",
+    "super-soul-034",
+    "super-soul-158",
+    "super-soul-217"
+  ],
+  "cross_domain": {
+    "canonical_pq_records": 186,
+    "canonical_pq_super_soul_edges": 146,
+    "corrected_pq_range": "151-155"
+  },
+  "next_method": "Continue strict-thin evidence reconciliation for 032, 034, 158, and 217. Do not recreate 232-236 without a distinct game-data identity key.",
+  "status": "complete",
+  "last_updated": "2026-09-23",
+  "notes": [
+    "Five indexed-only 232-236 placeholders were removed after catalogue identity reconciliation.",
+    "PQ151-155 reward projections were synchronized to the maintained PQ evidence.",
+    "Strict-thin queue decreased from 9 to 4 solely through identity correction; no mechanics were inferred."
+  ]
+}
