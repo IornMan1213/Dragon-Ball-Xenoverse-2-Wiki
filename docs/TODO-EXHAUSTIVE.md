@@ -2785,3 +2785,14 @@
 - [x] Live census: **234 canonical / 0 duplicate IDs / 182 strict-thin**.
 - [ ] CI/runtime: no successful workflow/check exposed.
 - [ ] Next: reconcile **155, 173, 175, 179, 187, 197, 032** using exact-name evidence and strict evidence boundaries.
+
+
+### 2026-09-22 cycle completion — Super Soul 155/173/175/179/187/197 + 032 evidence boundary
+- [x] Reconciled **155, 173, 175, 179, 187, and 197** with exact-name mechanics/acquisition evidence and promoted them to `verified_secondary`.
+- [x] Preserved canonical PQ navigation: **155→PQ040, 173→PQ105, 175→PQ106, 179→PQ109, 187→PQ113, 197→PQ121**.
+- [x] Preserved evidence boundary for **032→PQ185**: acquisition is corroborated, but item-level mechanics remain secondary/community-tested; no unsupported Limit Burst or engine timing was added.
+- [x] Added/registered `docs/data/super-soul-155-173-175-179-187-197-032-evidence-reconciliation-2026-09-22.json`.
+- [x] No canonical relationship identities, reward probabilities, or unsupported Ultimate-Finish requirements changed.
+- [x] Live canonical Super Soul layer: **234 records / 0 duplicate IDs**.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Next priority: recompute the live strict-thin census and select the next **4–12 highest-impact evidence-supported partially-verified records** with genuinely unresolved applicable fields. Preserve unresolved identity/evidence boundaries and do not manufacture values.
