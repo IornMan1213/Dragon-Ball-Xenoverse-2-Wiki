@@ -26,7 +26,8 @@ Search the **canonical local PQ record layer**. This explorer does not substitut
   const normalize=v=>String(v??'').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'');
   const searchUrl=(term)=>'{{ "/Search/" | relative_url }}?q='+encodeURIComponent(term);
   const skillUrl=(term)=>'{{ "/Skills-All/" | relative_url }}?q='+encodeURIComponent(term);
-  const soulUrl=(term)=>'{{ "/Search/" | relative_url }}?q='+encodeURIComponent(term);
+  const characterUrl=(term)=>'{{ "/Characters-All/" | relative_url }}?q='+encodeURIComponent(term);
+  const soulUrl=(term)=>'{{ "/Super-Souls-All/" | relative_url }}?q='+encodeURIComponent(term);
   const equipmentUrl=(term)=>'{{ "/Search/" | relative_url }}?q='+encodeURIComponent(term);
   const dlcUrl=(term)=>'{{ "/Search/" | relative_url }}?q='+encodeURIComponent(term);
   let records=[];
