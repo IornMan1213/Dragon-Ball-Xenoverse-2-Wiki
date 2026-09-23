@@ -3681,3 +3681,14 @@
 - [x] Validation: canonical and index JSON files parse; promoted IDs are unique; canonical/index counts both equal 454 after the promotions; audit and reconciliation JSON parse successfully.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: research **Power Pole Combo** as a distinct identity without aliasing it to Power Pole or Power Pole Pro, then continue the five remaining Support Pack costume identities and Puar.
+
+### 2026-09-23 — TODO completion update — Time Patrol Support Pack Power Pole Combo identity
+- [x] Researched **Power Pole Combo** as a distinct canonical identity rather than aliasing it to Power Pole or Power Pole Pro.
+- [x] Confirmed dedicated Xenoverse 2 evidence: **Super / Strike / 100 Ki / CaC-usable / Goku (GT)**, with Skill Shop acquisition and seven-hit Power Pole combo behavior. citeturn1search0turn1search1
+- [x] Promoted skill-power-pole-combo into both docs/data/skills.json and docs/data/skills-index.json.
+- [x] Added docs/data/dlc/time-patrol-support-pack-power-pole-combo-identity-reconciliation-2026-09-23.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Time Patrol Support Pack skill audit is now **13/13 exact canonical identities**; no advertised attack remains an exact canonical skill-identity gap. The official storefront independently lists Power Pole Combo among the pack's Super Attacks. citeturn1search5turn1search4
+- [x] Updated Support Pack content reconciliation, promotion manifest, and skill catalog audit; current canonical/index census is **455 records**.
+- [x] Validation target: canonical/index parity must remain exact after promotion; no unsupported reward probability or Ultimate Finish gate was added.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: continue the **five remaining unmatched Support Pack costume identities**, then reconcile **Puar**.
