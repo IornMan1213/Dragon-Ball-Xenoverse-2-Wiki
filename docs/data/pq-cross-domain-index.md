@@ -48,3 +48,5 @@ The next deterministic gate is **non-PQ consumer/navigation integrity**: audit r
 Canonical relationship data remains authoritative. Normalized research maps, verification status, reverse indexes, and presentation bridges are projections/evidence layers and must never override canonical relationships.
 
 - `docs/data/pq-non-pq-current-endpoint-census-correction-2026-09-23.json` records the current Super Soul endpoint-census correction (146 forward / 143 reverse) without rewriting dated historical snapshots.
+
+- `docs/data/pq-non-pq-current-reconciliation-note-correction-2026-09-23.json` — current PQ relationship reconciliation wording corrected from stale 859 baseline/unresolved 151/148 discrepancy to live 854 / 146 / 143; historical values preserved.
