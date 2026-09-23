@@ -6851,6 +6851,64 @@
       "source_parallel_quests": [
         "pq-012"
       ]
+    },
+    {
+      "id": "super-soul-247",
+      "name": "I hope you're reborn as someone good this time.",
+      "character_source": "Goku",
+      "dlc_requirement": "None identified",
+      "acquisition_type": "Item Shop",
+      "acquisition_source": "Item Shop; Time Patrol Support Pack DLC provenance",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "trigger_condition": "When an enemy is KO'ed",
+      "effect_text": "Completely restores Ki.",
+      "effect_magnitude": "+100% Ki",
+      "duration": "Instantaneous on enemy KO",
+      "stacking_behavior": "Not reported as stackable",
+      "limit_burst": "Power",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "2026-09-23 Time Patrol Support Pack identity reconciliation: official storefronts list this Super Soul in the pack. Exact-name catalogue and independent GameFAQs evidence identify Goku as the source, the enemy-KO trigger, complete Ki restoration, and the Limit Burst. Item Shop acquisition is independently documented. No unsupported DLC exclusivity or stacking mechanic was inferred.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-23",
+      "sources": [
+        "https://www.nintendo.com/us/store/products/dragon-ball-xenoverse-2-time-patrol-support-pack-70050000057717-switch/",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
+        "https://videogaming.fandom.com/wiki/I_hope_you%27re_reborn_as_someone_good_this_time."
+      ]
+    },
+    {
+      "id": "super-soul-248",
+      "name": "You must die by my hand!",
+      "character_source": "Frieza (Final, Full-Power)",
+      "dlc_requirement": "None identified",
+      "acquisition_type": "Frieza's Spaceship",
+      "acquisition_source": "Frieza's Spaceship time miniature; choose Frieza's route when prompted between Frieza and Cooler; Time Patrol Support Pack DLC provenance",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "trigger_condition": "Once, when KO'ed",
+      "effect_text": "Negates KO and revives the user with 1 HP; on revival, nullifies damage from all attacks and increases Ki attack damage.",
+      "effect_magnitude": "10 seconds damage nullification; +10% Ki attack damage for 10 seconds",
+      "duration": "Once-only KO trigger; 10 seconds after revival",
+      "stacking_behavior": "Not reported as stackable",
+      "limit_burst": "Rush",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "2026-09-23 Time Patrol Support Pack identity reconciliation: official storefronts list this Super Soul in the pack. Independent GameFAQs evidence identifies Frieza (Final, Full-Power), the once-only KO revival, 1 HP revival, 10-second damage nullification, +10% Ki attack damage for 10 seconds, and Limit Burst. Acquisition is documented through Frieza's Spaceship rather than treated as exclusive paid-DLC ownership. No unsupported stacking mechanic was inferred.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-23",
+      "sources": [
+        "https://www.nintendo.com/us/store/products/dragon-ball-xenoverse-2-time-patrol-support-pack-70050000057717-switch/",
+        "https://gamefaqs.gamespot.com/ps4/190458-dragon-ball-xenoverse-2/answers/630426-what-are-the-best-non-dlc-super-souls",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80783631",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
     }
   ],
   "research_notes": [
