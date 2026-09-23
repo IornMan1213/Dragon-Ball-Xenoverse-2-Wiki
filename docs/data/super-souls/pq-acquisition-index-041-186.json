@@ -19,12 +19,6 @@
       ]
     },
     {
-      "pq": 49,
-      "super_souls": [
-        "Do or Die"
-      ]
-    },
-    {
       "pq": 58,
       "super_souls": [
         "Killed all Earthlings!"
@@ -381,7 +375,9 @@
       "pq": 151,
       "super_souls": [
         "I think I'm getting the hang of this.",
-        "I'll keep adding a bit of power to my attacks!"
+        "I'll keep adding a bit of power to my attacks!",
+        "I'll never forgive you!",
+        "I'm not gonna die until I defeat you!"
       ]
     },
     {
@@ -616,5 +612,7 @@
         "canonical": "I'll take you all on at once!"
       }
     ]
-  }
+  },
+  "last_reconciled": "2026-09-23",
+  "reconciliation_note": "Aligned this partial acquisition projection with the current canonical PQ41-186 Super Soul pairs: added the two source-backed PQ151 pairs already present in the canonical relationship layer and removed the superseded PQ49 Do or Die same-name collision."
 }
