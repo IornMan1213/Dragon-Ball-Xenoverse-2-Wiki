@@ -3000,3 +3000,11 @@
 - [x] Refreshed live strict-thin census: **234 canonical / 0 duplicate IDs / 119 strict-thin records**.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Next priority: recompute the live strict-thin queue and continue the next evidence-supported one-field cluster, starting with the strongest exact-name candidates.
+
+
+### 2026-09-22 — Super Soul stacking queue update
+- [x] Reconciled stacking fields for **154, 160, 162, and 165** as **Not reported as stackable** where the evidence documents no stacking mechanic/cap.
+- [x] Added and registered `docs/data/super-soul-154-160-162-165-stacking-reconciliation-2026-09-22.json`.
+- [x] Refreshed live strict-thin census: **234 canonical / 0 duplicate IDs / 115 strict-thin records**.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Next priority: continue the next evidence-supported duration cluster, beginning with **156, 161, 166, 172**, while preserving genuine evidence boundaries.
