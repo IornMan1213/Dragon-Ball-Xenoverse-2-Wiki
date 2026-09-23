@@ -13601,7 +13601,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Wolf_Fang_Fist",
+        "https://dragonball.fandom.com/wiki/Wolf_Fang_Fist"
       ],
       "unlock_method": "Yamcha's Lesson 1 — complete the instructor lesson to receive Wolf Fang Fist as the Basic Reward.",
       "research_status": "enriched",
@@ -13609,12 +13611,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Yamcha mentor training — Lesson 1",
       "mechanics_notes": "100-Ki Strike Super learned from Yamcha's Lesson 1. The user rushes forward with a flurry of clawing attacks and kicks, ending by blasting the opponent away; current dedicated evidence describes a 15-hit rushdown sequence.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Yamcha mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current dedicated skill evidence confirms 100 Ki, Strike classification, 15-hit rushdown behavior, and Yamcha training acquisition.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current dedicated skill evidence confirms 100 Ki, Strike classification, 15-hit rushdown behavior, and Yamcha training acquisition. 2026-09-23 final-stale-queue refresh: dedicated current evidence and maintained acquisition documentation were rechecked; existing acquisition/classification/mechanics bounds are preserved without inferring unsupported probability, prerequisite, timer, frame data, stacking cap, or damage values.",
       "id": "skill-wolf-fang-fist",
       "source_mentor": [
         "mentor-yamcha"
@@ -13638,7 +13640,7 @@
       "mechanics_notes": "500-Ki Ki Blast Ultimate associated with Vegeta (Super Saiyan Blue). PQ100 'The Ultimate Rivalry' and the TP Medal Shop are documented acquisition routes; current PQ evidence lists the skill as a Basic Reward, while player reports document RNG variation and also report obtaining it on Ultimate Finish. The canonical route therefore remains non-UF-required, without asserting a drop probability.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/X_100_Big_Bang_Kamehameha",
@@ -13648,7 +13650,7 @@
       "source_quest": 100,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "PQ100 Basic Reward and TP Medal Shop routes are established; Ultimate Finish is not required for the canonical acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: current PQ100 evidence explicitly lists X 100 Big Bang Kamehameha as a Basic Reward; independent reports confirm RNG variation and TP Medal Shop availability. No unsupported Ultimate Finish-only gate or probability is added.",
+      "notes": "PQ100 Basic Reward and TP Medal Shop routes are established; Ultimate Finish is not required for the canonical acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: current PQ100 evidence explicitly lists X 100 Big Bang Kamehameha as a Basic Reward; independent reports confirm RNG variation and TP Medal Shop availability. No unsupported Ultimate Finish-only gate or probability is added. 2026-09-23 final-stale-queue refresh: dedicated current evidence and maintained acquisition documentation were rechecked; existing acquisition/classification/mechanics bounds are preserved without inferring unsupported probability, prerequisite, timer, frame data, stacking cap, or damage values.",
       "id": "skill-x-100-big-bang-kamehameha",
       "source_parallel_quests": [
         100
@@ -13670,13 +13672,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "goku mentor training",
       "mechanics_notes": "200-Ki Ki Blast Super learned from Goku's Lesson 2. The user charges a red Kamehameha through up to five stages; current dedicated evidence documents increasing hit counts from 6 at Stage 1 through 18 at Stage 5 under ideal conditions.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Goku mentor training — Lesson 2.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-22 provenance refresh: current dedicated evidence confirms 200 Ki, five charge stages, and Goku Lesson 2 acquisition; current reference material also documents the technique's enhanced behavior when used during Super Saiyan transformations.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-22 provenance refresh: current dedicated evidence confirms 200 Ki, five charge stages, and Goku Lesson 2 acquisition; current reference material also documents the technique's enhanced behavior when used during Super Saiyan transformations. 2026-09-23 final-stale-queue refresh: dedicated current evidence and maintained acquisition documentation were rechecked; existing acquisition/classification/mechanics bounds are preserved without inferring unsupported probability, prerequisite, timer, frame data, stacking cap, or damage values.",
       "id": "skill-x10-kamehameha",
       "source_mentor": [
         "mentor-goku"
@@ -13699,7 +13701,7 @@
       "mechanics_notes": "100-Ki Strike Super restricted to Male Majin CaCs. The user charges forward with air wrapped around the body and can control the direction slightly; PQ85 'Power Berserkers' lists Zigzag Express as a Basic Reward. Current Future Warrior documentation confirms the Male Majin restriction.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Zigzag_Express",
@@ -13709,7 +13711,7 @@
       "race_restriction": "Majin male",
       "source_quest": 85,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current PQ85 reward evidence confirms Basic Reward acquisition, while current Future Warrior documentation independently confirms the Male Majin-only usability restriction and charge-direction behavior.",
+      "notes": "2026-09-22 provenance refresh: current PQ85 reward evidence confirms Basic Reward acquisition, while current Future Warrior documentation independently confirms the Male Majin-only usability restriction and charge-direction behavior. 2026-09-23 final-stale-queue refresh: dedicated current evidence and maintained acquisition documentation were rechecked; existing acquisition/classification/mechanics bounds are preserved without inferring unsupported probability, prerequisite, timer, frame data, stacking cap, or damage values.",
       "id": "skill-zigzag-express",
       "source_parallel_quests": [
         85
