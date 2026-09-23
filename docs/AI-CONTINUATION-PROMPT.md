@@ -1,3 +1,14 @@
+### 2026-09-22 cycle update — Super Soul 062/064/067/068 secondary-field reconciliation
+- Bounded batch: **Super Souls 062, 064, 067, and 068**.
+- Reconciled documented Limit Burst effects for all four records.
+- Added evidence-bounded stacking semantics for 062, 064, and 068; no numeric stack cap was invented.
+- Added persistence/non-finite duration semantics for 067 and 068; no unsupported timer was invented.
+- Added/registered audit: `docs/data/super-soul-062-064-067-068-secondary-field-reconciliation-2026-09-22.json`.
+- Live census: **234 canonical / 0 duplicate IDs / 111 strict-thin records**.
+- Validation: canonical JSON parses; target records now have all eight strict-thin fields populated; audit registration is present; no unrelated acquisition/reward-probability fields were changed.
+- CI/runtime: no successful workflow/check exposed; do not claim CI success.
+- Exact next priority: continue the live strict-thin queue, beginning with the next evidence-rich unresolved records after 062/064/067/068; prioritize batches where duration, stacking, or Limit Burst fields can be supported without inference.
+
 ### 2026-09-22 cycle update — Super Soul 177/186/197/199 reconciliation
 - Reconciled 177/186 time-triggered durations and 197/199 condition-bound durations; stacking is recorded as not reported as stackable.
 - No unsupported expiration or numeric stack cap inferred.
