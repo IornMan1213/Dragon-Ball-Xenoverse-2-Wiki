@@ -4011,3 +4011,9 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [x] Commits: `60455e83c45e73c9d4bae6343df21626aebb1ead`, `935a530d2425c40277adccfae1a3ff833b90ecf0`, `6825bee0f93e3f7fc609499850ac81068fceffb9`.
 - [ ] Exact next batch: continue the live thin-system census from the highest-impact unresolved PQ-linked records, prioritizing reusable cross-domain relationships and strong exact-name evidence; do not create another dated continuation prompt.
+
+
+### 2026-09-22 cycle correction — remove presentation citation artifacts from handoff semantics
+- [x] The immediately preceding 049/055/060/061 checkpoint contained web citation markup in its prose. Those tokens are **not repository-native provenance syntax** and must not be copied into future handoff/data files.
+- [x] The underlying evidence remains the current Super Soul catalogue, dedicated character pages, independent GameFAQs discussion, and the repository research seed; future handoff entries should name sources plainly or use their repository URL strings, while user-facing responses may cite web sources separately.
+- [x] Append-only history is preserved; this correction supersedes the citation-markup portion of the immediately preceding checkpoint without deleting historical text.
