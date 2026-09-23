@@ -121,8 +121,8 @@
     }
   ],
   "validation": {
-    "canonical_edge_count_before": 859,
-    "canonical_edge_count_after": 859,
-    "note": "This bridge is presentation/identity metadata only. It must not be added to the canonical relationship edge set. Current canonical baseline after the PQ99 false-equipment correction is 859."
+    "canonical_edge_count_before": 854,
+    "canonical_edge_count_after": 854,
+    "note": "This bridge is presentation/identity metadata only. It must not be added to the canonical relationship edge set. The verified current canonical baseline is 854."
   }
 }
