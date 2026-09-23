@@ -2122,3 +2122,11 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Synchronized explicit 3s/5s duration windows for Super Soul 148 and 5s for 150.
 - Reconciled stacking behavior for 155, 157, 159, 163, 164, 167, 169, 170, 171, 173, 174, 175, 179, and 187 without inventing caps.
 - Added `docs/data/super-soul-148-150-155-187-secondary-field-reconciliation-2026-09-23.json` and refreshed the thin census to 58.
+
+
+### 2026-09-23 — Super Soul 232-236 identity correction + PQ151-155 reward reconciliation
+- Removed five duplicate/misattributed indexed-only Super Soul placeholder records (**232-236**) after catalogue identity evidence showed those positions already belong to canonical raid Souls **040/036/041/042/043**.
+- Removed five erroneous PQ152-PQ155 Super Soul relationship edges and synchronized PQ151-155 canonical/normalized/reverse acquisition projections.
+- PQ151 retains two documented Super Souls; PQ152 one; PQ153 two; PQ154 and PQ155 none in the maintained Basic Reward list.
+- Added `docs/data/super-soul-232-through-236-identity-correction-2026-09-23.json` and `docs/data/super-soul-thin-census-2026-09-23.json`.
+- Live result: **229 canonical Super Souls / 146 canonical PQ→Super Soul edges / 4 strict-thin records**. No mechanics were inferred and no CI success is claimed.
