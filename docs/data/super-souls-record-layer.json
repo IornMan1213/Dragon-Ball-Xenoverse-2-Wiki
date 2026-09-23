@@ -5227,21 +5227,22 @@
       "effect_text": "Activates Health Auto-Recovery Mode for you and all allies and reduces damage taken for you and all allies.",
       "effect_magnitude": "+0.6% Health per second; -5% damage taken",
       "duration": null,
-      "stacking_behavior": null,
+      "stacking_behavior": "N/A",
       "limit_burst": "Bomb",
       "limit_burst_trigger": null,
       "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Mechanics/provenance refreshed from the maintained Super Soul catalogue, DLC provenance, and independent historical evidence. Exact reward probabilities and unsupported Ultimate-Finish conditions are not asserted.",
-      "verification_status": "partially_verified",
+      "version_notes": "Mechanics/provenance refreshed from the maintained Super Soul catalogue, DLC provenance, and independent historical evidence. Exact reward probabilities and unsupported Ultimate-Finish conditions are not asserted. Independent exact-name acquisition evidence confirms the PQ116 route; Hero's Flute documentation establishes the linked activation context, but does not establish a separate numeric duration, so duration remains unresolved.",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://dbxv2.fandom.com/wiki/DLC",
         "https://dbxv2.fandom.com/wiki/Hero%27s_Flute",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76421943",
-        "https://steamcommunity.com/app/454650/discussions/0/1694914735996486824"
+        "https://steamcommunity.com/app/454650/discussions/0/1694914735996486824",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76059822"
       ],
       "source_parallel_quests": [
         "pq-116"
@@ -5326,21 +5327,22 @@
       "effect_text": "While above 75% Health, all Skills become unusable; below 75% Health, boosts movement speed and all attacks.",
       "effect_magnitude": "+20% movement speed; +25% all attacks",
       "duration": null,
-      "stacking_behavior": null,
+      "stacking_behavior": "N/A",
       "limit_burst": "Race Default",
       "limit_burst_trigger": null,
       "limit_burst_effect": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Mechanics/provenance refreshed from the maintained Super Soul catalogue, DLC provenance, and independent historical evidence. Exact reward probabilities and unsupported Ultimate-Finish conditions are not asserted.",
-      "verification_status": "partially_verified",
+      "version_notes": "Mechanics/provenance refreshed from the maintained Super Soul catalogue, DLC provenance, and independent historical evidence. Exact reward probabilities and unsupported Ultimate-Finish conditions are not asserted. Independent historical discussion explicitly describes the below-75%-health attack boost as non-stacking; current maintained catalogue retains +25% all attacks and +20% movement speed, so no historical +35% value is promoted.",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://dbxv2.fandom.com/wiki/DLC",
         "https://dbxv2.fandom.com/wiki/Hero%27s_Flute",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76421943",
-        "https://steamcommunity.com/app/454650/discussions/0/1694914735996486824"
+        "https://steamcommunity.com/app/454650/discussions/0/1694914735996486824",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/78983539"
       ],
       "source_parallel_quests": [
         "pq-119"
@@ -5392,14 +5394,14 @@
       "effect_text": "Boosts the amount of Ki restored upon a successful Just Guard.",
       "effect_magnitude": "+100 Ki",
       "duration": null,
-      "stacking_behavior": null,
+      "stacking_behavior": "N/A",
       "limit_burst": "Race Default",
       "limit_burst_trigger": null,
       "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Mechanics/provenance refreshed from the maintained Super Soul catalogue, DLC provenance, and independent historical evidence. Exact reward probabilities and unsupported Ultimate-Finish conditions are not asserted.",
-      "verification_status": "partially_verified",
+      "version_notes": "Mechanics/provenance refreshed from the maintained Super Soul catalogue, DLC provenance, and independent historical evidence. Exact reward probabilities and unsupported Ultimate-Finish conditions are not asserted. Maintained exact-name catalogue evidence confirms the Just Guard trigger and +100 Ki effect with Auto Just Guard Limit Burst; no stacking mechanic is documented, so stacking is recorded as N/A rather than inventing a stack limit.",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
@@ -6948,7 +6950,8 @@
     "2026-09-22: Super Souls 032, 033, and 035 received a secondary-evidence mechanics refresh; exact engine-level rates/timing remain bounded where not independently established.",
     "2026-09-22: promoted Super Souls 245–246 from partially_verified to researched after exact-name mechanics, character identity, Limit Burst, and PQ12/PQ38 provenance were independently reconfirmed; no unsupported reward probabilities or engine-level timing/rates were added.",
     "2026-09-22: strengthened raid Super Souls 054, 057, 058, and 063 with independent raid/effect evidence. 057, 058, and 063 now have corroborated Limit Burst fields and were promoted to verified_secondary; 054 remains partially_verified because its Limit Burst is still unresolved. No unsupported timing or probability values were inferred.",
-    "2026-09-22: strengthened Super Souls 049 and 060 with the independent historical GameFAQs Super Soul guide; both were promoted to verified_secondary while preserving their documented wording/evidence boundaries."
+    "2026-09-22: strengthened Super Souls 049 and 060 with the independent historical GameFAQs Super Soul guide; both were promoted to verified_secondary while preserving their documented wording/evidence boundaries.",
+    "2026-09-22: strengthened Super Souls 191, 194, and 196 using exact-name/historical evidence. 191, 194, and 196 now record non-stacking behavior as N/A where directly supported; 194 retains the current +25% all-attacks value despite older reports of a historical +35% state."
   ],
   "sources": [
     {
