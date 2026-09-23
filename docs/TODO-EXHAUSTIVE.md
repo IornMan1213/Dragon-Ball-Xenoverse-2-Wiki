@@ -4942,3 +4942,15 @@
 - This creates a safe evidence bridge for future skill↔preset connectivity without inventing numeric mappings.
 - Commit: `8ee2bb5a803850e3ed1ae35bbdc452c2933c2d5d`.
 - **Next exact task:** search for explicit numeric/game-data identifiers for the unresolved Vegeta Battle Suit rows and reconcile only exact matches.
+
+
+### 2026-09-23 cycle update — Vegeta Battle Suit exact preset reconciliation
+
+- Used the live Vegeta in-game-data table as explicit numeric evidence: **Battle Suit 1, Battle Suit 2, and Battle Suit 9** are directly labeled by preset number. citeturn0search0
+- Promoted `vegeta-preset-1` from absent/unresolved to a fully sourced verified record with Meteor Strike / Galick Gun / Spirit Boost / Charged Ki Wave / Super Galick Gun / Spread Shot Retreat and Super Soul `I am the universe's strongest!`.
+- Reconciled the existing `vegeta-preset-2` evidence to the explicit Battle Suit 2 source row rather than relying on row order.
+- Promoted `vegeta-preset-9` to verified with Galaxy Breaker (Festival) / Flash Strike / Shine Shot / Burst Charge / Super Galick Gun / Spread Shot Retreat and the documented Super Soul.
+- Updated `docs/data/preset-battle-suit-reconciliation-2026-09-23.json` so configurations A/B are now exact Battle Suit 1/2 mappings; the evidence boundary remains explicit-source-label-only.
+- Live Vegeta verified preset loadouts now include **1, 2, 3, 6, 7, 8, and 9**; unresolved indexed records remain **10 and 11**.
+- Commits: canonical preset layer `99758df9c4ed283b51862e9d02a05efcfcad8a02`; reconciliation layer `ec9d01950a8750377ce4dea352a61752523bf982`; Battle Suit 9 canonical update `1a2bf906e24842e0881ec0e73038b1c553f1a7f3`.
+- **Exact next task:** reconcile Vegeta Presets 10 and 11 from explicit source rows or matching game-data identifiers only; do not infer from ordering.
