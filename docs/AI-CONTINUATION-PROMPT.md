@@ -6715,3 +6715,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Historical 854/146/143 references were retained where they document the migration/correction history; no canonical relationship arrays were changed.
 - Commits: `329e856d4d9d56b192cac3ea9613600f25e097fd`, `055ae26bf334cc0acee3b25cfde6534a543f7b5e`, `495310d45de45b856762ad6c9dbe9910133b49a5`.
 - **Exact next task:** inspect the remaining dated correction artifacts containing 854/146/143 and ensure each explicitly labels those values historical/superseded; then move to the queued P1 provenance/data gap rather than making further baseline-only churn.
+
+
+### 2026-09-23 cycle update — Correction-artifact classification completed
+
+- [x] Inspected the remaining dated 854/146/143 correction artifacts individually.
+- [x] Marked the six pre-migration correction artifacts as `historical_superseded` and added their authoritative current 853/145/142 baseline for consumers.
+- [x] Preserved the original 854/146/143 values inside each artifact as migration evidence; no canonical relationship rows were changed.
+- Commits: `5d594441f3ce8a3329d4755255a4608214d6a185`, `71b9627a7765ade404e0bddd503b0b59179879d0`, `80543c69a9d8b033907b86b07dc0100c23cea134`, `382976427a1977032eda1cf545896d4684a408e7`, `9aae29da5b8f46e73d6c7455de4ee5cecec1e747`, `4a47684aff2a2c64748e6e2b9eb8ea60ceff49c0`.
+- **Exact next task:** leave the baseline cleanup phase and resume the queued P1 exhaustive data/provenance work, beginning with the seven unresolved PQ41–186 Super Soul acquisition-index differences or the authoritative P1 provenance queue specified by the organized continuation notes; recompute the live pair census before making source-backed changes.
