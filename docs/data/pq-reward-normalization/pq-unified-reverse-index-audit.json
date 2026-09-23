@@ -4,7 +4,7 @@
   "date": "2026-09-22",
   "source_of_truth": "docs/data/pq-reward-relationships.json",
   "semantics": "Canonical relationship data is authoritative; this file audits the unified reverse navigation projection and never infers or creates relationships.",
-  "result": "clean_after_deterministic_name_correction",
+  "result": "clean_after_2026_09_23_exact_pair_census",
   "canonical_counts": {
     "skill": 244,
     "super_soul": 151,
@@ -64,7 +64,7 @@
     "duplicate_relationship_keys": 0,
     "invalid_pq_numbers": 0
   },
-  "next_action": "Runtime execution of scripts/validate_pq_unified_reverse_index.py remains unavailable in the web-client environment; current live canonical/projection data was rechecked structurally and historical audit counts are retained.",
+  "next_action": "Runtime execution of scripts/validate_pq_unified_reverse_index.py remains a separate environment gate; the 2026-09-23 live exact-pair census is clean and records the current clothing/accessory split as 84/40.",
   "live_exact_reconciliation": {
     "source_of_truth": "docs/data/pq-reward-relationships.json",
     "canonical_pairs": {
@@ -140,5 +140,65 @@
       "duplicate_pairs": 0
     }
   },
-  "validator_commit": "df07a0cb046f38a6e5ee5973b82c203ae76a79c9"
+  "validator_commit": "df07a0cb046f38a6e5ee5973b82c203ae76a79c9",
+  "live_exact_reconciliation_2026_09_23": {
+    "date": "2026-09-23",
+    "source_of_truth": "docs/data/pq-reward-relationships.json",
+    "projection": "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json",
+    "comparison": "exact target/PQ relationship-pair comparison; equipment is the union of clothing and accessories",
+    "canonical_pairs": {
+      "skill": 244,
+      "super_soul": 151,
+      "equipment": 124,
+      "character": 247,
+      "dlc": 86,
+      "farming": 7,
+      "total": 859
+    },
+    "unified_projection_pairs": {
+      "skill": 244,
+      "super_soul": 151,
+      "equipment": 124,
+      "character": 247,
+      "dlc": 86,
+      "farming": 7,
+      "total": 859
+    },
+    "equipment_projection_domains": {
+      "clothing": 84,
+      "accessories": 40,
+      "combined": 124
+    },
+    "mismatches": {
+      "skill": {
+        "missing": 0,
+        "extra": 0
+      },
+      "super_soul": {
+        "missing": 0,
+        "extra": 0
+      },
+      "equipment": {
+        "missing": 0,
+        "extra": 0
+      },
+      "character": {
+        "missing": 0,
+        "extra": 0
+      },
+      "dlc": {
+        "missing": 0,
+        "extra": 0
+      },
+      "farming": {
+        "missing": 0,
+        "extra": 0
+      }
+    },
+    "duplicate_projection_pairs": 0,
+    "invalid_pq_numbers": 0,
+    "invalid_list_fields": 0,
+    "result": "clean",
+    "interpretation": "The unified reverse index has exact canonical pair parity. Its source-layer partial-coverage semantics remain documented separately; no canonical relationship was inferred or created."
+  }
 }
