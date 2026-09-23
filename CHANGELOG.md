@@ -1,3 +1,9 @@
+## 2026-09-22 — Super Soul 191/194/196 duration reconciliation
+
+- Reconciled duration semantics for Super Souls 191, 194, and 196 using the maintained Super Soul catalogue.
+- Preserved evidence boundaries: 194 uses a health-condition window rather than an invented numeric duration.
+- Added and registered the dedicated reconciliation audit; live census is **234 canonical / 0 duplicate IDs / 148 strict-thin records**.
+
 ## 2026-09-22 — Super Soul 192 stacking reconciliation
 
 - Reconciled Super Soul 192 (“Get serious, would you?”) stacking behavior to **Not reported as stackable** from the maintained exact-name/stat-sheet evidence.
