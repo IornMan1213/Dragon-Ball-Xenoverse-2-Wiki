@@ -1,0 +1,324 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-23",
+  "status": "gap_inventory",
+  "scope": "skills.character_source -> canonical character identity bridge",
+  "canonical_skill_count": 465,
+  "skills_with_character_source": 227,
+  "source_tokens": 232,
+  "exact_bridge_matches": 187,
+  "unresolved_source_tokens": 45,
+  "non_character_source_tokens": 6,
+  "unresolved_character_or_variant_tokens": 39,
+  "findings": {
+    "exact_matches": [
+      "Android 13",
+      "Android 17",
+      "Android 18",
+      "Android 21",
+      "Bardock",
+      "Broly",
+      "Broly (DB Super)",
+      "Broly (Full Power Super Saiyan)",
+      "Burter",
+      "Caulifla (Super Saiyan 2)",
+      "Dabura",
+      "Dyspo",
+      "Frieza (Final Form)",
+      "Fu",
+      "Fused Zamasu",
+      "Future Trunks",
+      "Gamma 1",
+      "Gamma 2",
+      "God of Destruction Belmod",
+      "Gogeta (DB Super)",
+      "Gohan (Adult)",
+      "Gohan (Beast)",
+      "Gohan (Kid)",
+      "Gohan (Teen)",
+      "Goku",
+      "Goku (GT)",
+      "Goku (Mini)",
+      "Goku (Ultra Instinct -Sign-)",
+      "Goku (Ultra Instinct)",
+      "Goku Black (Super Saiyan Rosé) Ultra Supervillain",
+      "Golden Frieza",
+      "Golden Frieza (Ultra Supervillain)",
+      "Goten",
+      "Gotenks",
+      "Great Saiyaman",
+      "Guldo",
+      "Hercule",
+      "Janemba",
+      "Jiren",
+      "Jiren (Full Power)",
+      "Jiren (Full Power) Ultra Supervillain",
+      "Kale (Super Saiyan 2)",
+      "Kefla (Super Saiyan)",
+      "Krillin",
+      "Majin Buu",
+      "Majin Buu (Gohan Absorbed)",
+      "Majuub",
+      "Nail",
+      "Omega Shenron",
+      "Orange Piccolo",
+      "Pan",
+      "Piccolo",
+      "Pikkon",
+      "Recoome",
+      "Ribrianne",
+      "SS3 Vegeta (DAIMA)",
+      "SS4 Goku (DAIMA)",
+      "SSGSS Gogeta",
+      "SSGSS Vegeta (Evolved)",
+      "Super 17",
+      "Super Baby 2",
+      "Super Buu",
+      "Supreme Kai of Time",
+      "Tapion",
+      "Toppo (God of Destruction)",
+      "Trunks (Kid)",
+      "Vados",
+      "Vegeta",
+      "Vegeta (Super Saiyan 4)",
+      "Vegeta (Super Saiyan God)",
+      "Vegeta (Super Saiyan God) Ultra Supervillain",
+      "Vegito",
+      "Videl",
+      "Whis",
+      "Yamcha",
+      "Zamasu"
+    ],
+    "unresolved_character_or_variant": [
+      {
+        "skill_id": "skill-blaster-ball",
+        "skill": "Blaster Ball",
+        "character_source": "Kefla"
+      },
+      {
+        "skill_id": "skill-crazy-finger-shot",
+        "skill": "Crazy Finger Shot",
+        "character_source": "Frieza"
+      },
+      {
+        "skill_id": "skill-death-slash",
+        "skill": "Death Slash",
+        "character_source": "Frieza"
+      },
+      {
+        "skill_id": "skill-destruction-s-conductor",
+        "skill": "Destruction's Conductor",
+        "character_source": "Champa"
+      },
+      {
+        "skill_id": "skill-divine-kamehameha",
+        "skill": "Divine Kamehameha",
+        "character_source": "Goku (Ultra Instinct), Goku (Ultra Instinct -Sign-)"
+      },
+      {
+        "skill_id": "skill-do-or-die",
+        "skill": "Do or Die",
+        "character_source": "Super Saiyan 3 Gotenks"
+      },
+      {
+        "skill_id": "skill-double-death-slicer",
+        "skill": "Double Death Slicer",
+        "character_source": "Frieza"
+      },
+      {
+        "skill_id": "skill-dragon-spiral",
+        "skill": "Dragon Spiral",
+        "character_source": "Goku (Ultra Supervillain Quelled)"
+      },
+      {
+        "skill_id": "skill-emperor-s-edge",
+        "skill": "Emperor's Edge",
+        "character_source": "Frieza"
+      },
+      {
+        "skill_id": "skill-evil-whirlwind",
+        "skill": "Evil Whirlwind",
+        "character_source": "Cell"
+      },
+      {
+        "skill_id": "skill-flash-chaser",
+        "skill": "Flash Chaser",
+        "character_source": "Kefla"
+      },
+      {
+        "skill_id": "skill-full-power-destruction",
+        "skill": "Full Power Destruction",
+        "character_source": "Jiren — Customize Partner"
+      },
+      {
+        "skill_id": "skill-gigantic-breaker",
+        "skill": "Gigantic Breaker",
+        "character_source": "Kefla"
+      },
+      {
+        "skill_id": "skill-gigantic-explosion",
+        "skill": "Gigantic Explosion",
+        "character_source": "Broly (Restrained), Broly (DB Super), Broly Customize Partner"
+      },
+      {
+        "skill_id": "skill-god-of-destruction-s-menace",
+        "skill": "God of Destruction's Menace",
+        "character_source": "Champa"
+      },
+      {
+        "skill_id": "skill-god-of-destruction-s-roar",
+        "skill": "God of Destruction's Roar",
+        "character_source": "Champa"
+      },
+      {
+        "skill_id": "skill-god-punisher",
+        "skill": "God Punisher",
+        "character_source": "Gogeta (Super Saiyan Blue)"
+      },
+      {
+        "skill_id": "skill-headshot",
+        "skill": "Headshot",
+        "character_source": "Beerus"
+      },
+      {
+        "skill_id": "skill-indomitable",
+        "skill": "Indomitable",
+        "character_source": "Goku (Ultra Supervillain Quelled)"
+      },
+      {
+        "skill_id": "skill-instant-rise",
+        "skill": "Instant Rise",
+        "character_source": "Cell"
+      },
+      {
+        "skill_id": "skill-meteor-blow",
+        "skill": "Meteor Blow",
+        "character_source": "Goku / Gohan"
+      },
+      {
+        "skill_id": "skill-meteor-strike",
+        "skill": "Meteor Strike",
+        "character_source": "Goku / Gohan (Kid)"
+      },
+      {
+        "skill_id": "skill-photon-swipe",
+        "skill": "Photon Swipe",
+        "character_source": "Toppo"
+      },
+      {
+        "skill_id": "skill-power-pole-combo",
+        "skill": "Power Pole Combo",
+        "character_source": "Goku (GT) / Goku (GT) customizable partner"
+      },
+      {
+        "skill_id": "skill-raid-blast",
+        "skill": "Raid Blast",
+        "character_source": "Super Saiyan God Vegeta"
+      },
+      {
+        "skill_id": "skill-ray-blast",
+        "skill": "Ray Blast",
+        "character_source": "Kefla"
+      },
+      {
+        "skill_id": "skill-requiem-of-destruction",
+        "skill": "Requiem of Destruction",
+        "character_source": "Whis — Customize Partner"
+      },
+      {
+        "skill_id": "skill-rolling-bullet",
+        "skill": "Rolling Bullet",
+        "character_source": "Android 18 / Android 18 (DB Super) / Great Saiyaman 2"
+      },
+      {
+        "skill_id": "skill-sauzer-blade",
+        "skill": "Sauzer Blade",
+        "character_source": "Sauzer"
+      },
+      {
+        "skill_id": "skill-sonic-bomb",
+        "skill": "Sonic Bomb",
+        "character_source": "Champa"
+      },
+      {
+        "skill_id": "skill-spirit-explosion",
+        "skill": "Spirit Explosion",
+        "character_source": "Cooler"
+      },
+      {
+        "skill_id": "skill-spread-shot-retreat",
+        "skill": "Spread Shot Retreat",
+        "character_source": "Frieza"
+      },
+      {
+        "skill_id": "skill-super-black-kamehameha-rose",
+        "skill": "Super Black Kamehameha Rosé",
+        "character_source": "Goku Black (Super Saiyan Rosé)"
+      },
+      {
+        "skill_id": "skill-super-destructo-disc",
+        "skill": "Super Destructo-Disc",
+        "character_source": "Krillin / Android 18"
+      },
+      {
+        "skill_id": "skill-total-detonation-ball",
+        "skill": "Total Detonation Ball",
+        "character_source": "Toppo"
+      },
+      {
+        "skill_id": "skill-venus-fist",
+        "skill": "Venus Fist",
+        "character_source": "Goku (Ultra Supervillain Quelled)"
+      },
+      {
+        "skill_id": "skill-wild-buster",
+        "skill": "Wild Buster",
+        "character_source": "Vegeta (GT)"
+      },
+      {
+        "skill_id": "skill-x-100-big-bang-kamehameha",
+        "skill": "X 100 Big Bang Kamehameha",
+        "character_source": "Vegeta (Super Saiyan Blue)"
+      },
+      {
+        "skill_id": "skill-zigzag-express",
+        "skill": "Zigzag Express",
+        "character_source": "Majin (Male)"
+      }
+    ],
+    "non_character_sources": [
+      {
+        "skill_id": "skill-beast",
+        "skill": "Beast",
+        "character_source": "CaC / Universal"
+      },
+      {
+        "skill_id": "skill-kaioken",
+        "skill": "Kaioken",
+        "character_source": "CaC / Universal"
+      },
+      {
+        "skill_id": "skill-ki-explosion",
+        "skill": "Ki Explosion",
+        "character_source": "Vegeta / Nappa / Cell / Captain Ginyu / other character users"
+      },
+      {
+        "skill_id": "skill-potential-unleashed",
+        "skill": "Potential Unleashed",
+        "character_source": "CaC / Universal"
+      },
+      {
+        "skill_id": "skill-the-power-to-overcome",
+        "skill": "The Power to Overcome",
+        "character_source": "CaC / Future Saga Chapter 4"
+      },
+      {
+        "skill_id": "skill-ultra-instinct",
+        "skill": "Ultra Instinct",
+        "character_source": "CaC / Universal"
+      }
+    ]
+  },
+  "evidence_boundary": "This is an identity/navigation gap inventory, not an assertion that unresolved source strings are incorrect. Variant naming, cast-only forms, customize-partner labels, and aggregate user lists require explicit reconciliation before adding bridge records.",
+  "next_action": "Reconcile unresolved character_source tokens against the canonical character roster in bounded batches, then generate skill→character reverse navigation only from resolved identities."
+}
