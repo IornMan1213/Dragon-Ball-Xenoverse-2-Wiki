@@ -1744,3 +1744,11 @@
 - [x] Provenance audit added/registered; evidence boundaries preserved.
 - [x] Validation: 452/452 parity, 0 duplicate IDs, 18 stale records remaining.
 - [ ] Next batch: **Tyrant Lancer, Ultimate Charge, Ultrasonic Blitz, Vanishing Ball, Variable Snipe Shot, Variant Drive, Victory Cannon, Volleyball Fist, Wall of Defense, Warp Kamehameha**.
+
+### 2026-09-22 cycle update — Super Soul 224–231 provenance/mechanics refresh
+- [x] Refreshed canonical Super Soul records **224–231** with current maintained catalogue mechanics/provenance while preserving canonical PQ relationship identities.
+- [x] Added audit `docs/data/super-soul-224-through-231-provenance-audit-2026-09-22.json` and validator `scripts/validate_super_soul_224_through_231.py`; both registered in the cross-domain index.
+- [x] Preserved the explicit acquisition conflict on Super Soul 226 instead of inferring a route.
+- [ ] Exact next batch: **Super Souls 232–241** (*I'll show you the power of a true warrior!*, *Don't underestimate my power!*, *I won't forgive you!*, *I'm the one who will win!*, *This is the ultimate hero!*, *Heh heh! I'm not a rusty as I look!*, *I'll take all of you on at once!*, *I am the universe's strongest!*, *I got back my youth and vigor!*, *Goku the legendary Super Saiyan!*).
+
+
