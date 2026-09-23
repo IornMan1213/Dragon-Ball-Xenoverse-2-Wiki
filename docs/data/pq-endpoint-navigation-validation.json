@@ -62,8 +62,8 @@
       "resolution_status": "clean"
     },
     "super_souls": {
-      "unique_canonical_targets": 143,
-      "exact_canonical_matches": 143,
+      "unique_canonical_targets": 142,
+      "exact_canonical_matches": 142,
       "unresolved_targets": 0,
       "explicit_conflict_classifications": 0,
       "explicit_granularity_classifications": 0,
@@ -97,8 +97,8 @@
   "bridge": {
     "equipment_conflicts": 2,
     "dlc_granularity_mappings": 6,
-    "canonical_edge_count_before": 854,
-    "canonical_edge_count_after": 854,
+    "canonical_edge_count_before": 853,
+    "canonical_edge_count_after": 853,
     "conflicts": [
       {
         "pq": "pq-152",
@@ -122,12 +122,12 @@
   },
   "live_recheck": {
     "canonical_pq_records": 186,
-    "canonical_skill_records": 452,
+    "canonical_skill_records": 465,
     "canonical_super_soul_records": 234,
     "canonical_equipment_accessory_records": 173,
-    "canonical_character_names": 149,
+    "canonical_character_names": 151,
     "canonical_dlc_records": 20,
-    "canonical_edge_count": 854,
+    "canonical_edge_count": 853,
     "endpoint_domains": {
       "skills": {
         "edge_count": 244,
@@ -135,8 +135,8 @@
         "missing_targets": []
       },
       "super_souls": {
-        "edge_count": 146,
-        "unique_target_count": 143,
+        "edge_count": 145,
+        "unique_target_count": 142,
         "missing_targets": []
       },
       "equipment": {
@@ -165,5 +165,24 @@
     "Every non-exact source/display endpoint must be explicitly classified before it is considered navigable.",
     "DLC endpoints resolve against the standalone canonical DLC identity layer; bundle/chapter granularity remains explicit."
   ],
-  "status": "clean"
+  "status": "clean",
+  "current_state_reconciliation_2026_09_23": {
+    "date": "2026-09-23",
+    "source": "docs/data/pq-reward-relationships.json plus current canonical domain layers",
+    "canonical_skill_records": 465,
+    "canonical_super_soul_records": 234,
+    "canonical_equipment_accessory_records": 173,
+    "canonical_character_names": 151,
+    "canonical_dlc_records": 20,
+    "canonical_edge_count": 853,
+    "relationship_counts": {
+      "skills": 244,
+      "super_souls": 145,
+      "equipment": 124,
+      "characters": 247,
+      "dlc": 86
+    },
+    "super_soul_reverse_unique_targets": 142,
+    "status": "clean"
+  }
 }
