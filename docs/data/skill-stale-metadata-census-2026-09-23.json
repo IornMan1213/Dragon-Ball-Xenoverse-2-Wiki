@@ -5,84 +5,12 @@
   "source_of_truth": "docs/data/skills.json",
   "live_counts": {
     "canonical_skill_records": 455,
-    "stale_last_verified_records": 316,
-    "current_last_verified_records": 139,
+    "stale_last_verified_records": 304,
+    "current_last_verified_records": 151,
     "duplicate_ids": 0
   },
   "method": "Fresh alphabetical census of canonical records where last_verified != 2026-09-23.",
   "next_stale_records": [
-    {
-      "id": "skill-energy-charge",
-      "name": "Energy Charge",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-energy-dome",
-      "name": "Energy Dome",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-energy-field",
-      "name": "Energy Field",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-energy-minefield",
-      "name": "Energy Minefield",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-energy-release",
-      "name": "Energy Release",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-energy-shot",
-      "name": "Energy Shot",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-eraser-bomb",
-      "name": "Eraser Bomb",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-evil-blast",
-      "name": "Evil Blast",
-      "last_verified": "2026-09-22",
-      "source_count": 4
-    },
-    {
-      "id": "skill-evil-explosion",
-      "name": "Evil Explosion",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-evil-eyes",
-      "name": "Evil Eyes",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-evil-flame",
-      "name": "Evil Flame",
-      "last_verified": "2026-09-22",
-      "source_count": 5
-    },
-    {
-      "id": "skill-evil-flight-strike",
-      "name": "Evil Flight Strike",
-      "last_verified": "2026-09-22",
-      "source_count": 4
-    },
     {
       "id": "skill-evil-ray-strike",
       "name": "Evil Ray Strike",
@@ -130,6 +58,78 @@
       "name": "Eye Beam",
       "last_verified": "2026-09-22",
       "source_count": 3
+    },
+    {
+      "id": "skill-fake-blast",
+      "name": "Fake Blast",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-fake-death",
+      "name": "Fake Death",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-feint-crash",
+      "name": "Feint Crash",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-feint-shot",
+      "name": "Feint Shot",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-fierce-fist",
+      "name": "Fierce Fist",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-fighting-pose-a",
+      "name": "Fighting Pose A",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-fighting-pose-c",
+      "name": "Fighting Pose C",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-fighting-pose-e",
+      "name": "Fighting Pose E",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-fighting-pose-f",
+      "name": "Fighting Pose F",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-fighting-pose-h",
+      "name": "Fighting Pose H",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-fighting-pose-k",
+      "name": "Fighting Pose K",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-final-cannon",
+      "name": "Final Cannon",
+      "last_verified": "2026-09-22",
+      "source_count": 4
     }
   ],
   "validation": {
