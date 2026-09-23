@@ -391,7 +391,8 @@
     "super_soul_158_identity_conflict_reconciliation_2026_09_23": "docs/data/super-soul-158-identity-conflict-reconciliation-2026-09-23.json",
     "super_soul_158_identity_reconciliation_2026_09_23": "docs/data/super-soul-158-identity-reconciliation-2026-09-23.json",
     "super_souls_217_032_evidence_refresh_2026_09_23": "docs/data/super-souls-217-032-evidence-refresh-2026-09-23.json",
-    "skill_character_identity_reconciliation_2026_09_23": "docs/data/skill-character-identity-reconciliation-audit-2026-09-23.json"
+    "skill_character_identity_reconciliation_2026_09_23": "docs/data/skill-character-identity-reconciliation-audit-2026-09-23.json",
+    "character_preset_skill_navigation_audit_2026_09_23": "docs/data/character-preset-skill-navigation-audit-2026-09-23.json"
   },
   "equipment_dlc_reverse_navigation_presentation_2026_09_23": "docs/data/equipment-dlc-reverse-navigation-presentation-audit-2026-09-23.json",
   "docs/data/super-soul-036-through-047-secondary-field-reconciliation-2026-09-23.json": "docs/data/super-soul-036-through-047-secondary-field-reconciliation-2026-09-23.json",
@@ -419,7 +420,8 @@
   "artifacts": {
     "skill_provenance_2026_09_23_hero_through_indomitable": "docs/data/skill-provenance-audit-2026-09-23-hero-through-indomitable.json",
     "skill_provenance_2026_09_23_justice_through_light": "docs/data/skill-provenance-audit-2026-09-23-justice-through-light.json",
-    "skill_provenance_2026_09_23_lightning_through_menacing": "docs/data/skill-provenance-audit-2026-09-23-lightning-through-menacing.json"
+    "skill_provenance_2026_09_23_lightning_through_menacing": "docs/data/skill-provenance-audit-2026-09-23-lightning-through-menacing.json",
+    "character_preset_skill_navigation_audit_2026_09_23": "docs/data/character-preset-skill-navigation-audit-2026-09-23.json"
   },
   "skill_provenance_audit_2026_09_23_meteor_through_one_handed_kamehameha": "docs/data/skill-provenance-audit-2026-09-23-meteor-through-one-handed-kamehameha.json",
   "skill_provenance_audit_2026_09_23_orin_combo_through_power_impact": "docs/data/skill-provenance-audit-2026-09-23-orin-combo-through-power-impact.json",
