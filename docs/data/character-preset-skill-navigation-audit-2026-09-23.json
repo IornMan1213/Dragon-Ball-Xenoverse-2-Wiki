@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-23",
+  "status": "resolved_identity_with_loadout_boundary",
+  "scope": "character/preset ↔ skill navigation",
+  "sources": {
+    "presets": "docs/data/character-presets-record-layer.json",
+    "character_identity_bridge": "docs/data/characters/character-id-identity-bridge.json",
+    "skill_character_identity_bridge": "docs/data/skill-character-identity-bridge-2026-09-23.json"
+  },
+  "counts": {
+    "preset_records": 40,
+    "distinct_presentation_character_ids": 12,
+    "bridged_presentation_character_ids": 12,
+    "unbridged_presentation_character_ids": 0,
+    "resolved_skill_character_edges": 50,
+    "preset_characters_with_character_source_skill_identity": 5,
+    "preset_characters_without_character_source_skill_identity": 7
+  },
+  "checks": {
+    "all_preset_character_ids_resolve_via_explicit_bridge": true,
+    "preset_record_ids_unique": true,
+    "numbered_character_preset_pairs_unique": true,
+    "no_unsupported_preset_loadout_skill_edges": true
+  },
+  "character_source_skill_identity_overlap": [
+    {"character_id":"goku","canonical_character_name":"Goku","skill_ids":["skill-meteor-blow","skill-meteor-strike"]},
+    {"character_id":"gohan-adult","canonical_character_name":"Gohan (Adult)","skill_ids":["skill-meteor-blow"]},
+    {"character_id":"frieza-final-form","canonical_character_name":"Frieza (Final Form)","skill_ids":["skill-death-slash"]},
+    {"character_id":"frieza-first-form","canonical_character_name":"Frieza (1st Form)","skill_ids":["skill-crazy-finger-shot","skill-death-slash","skill-sonic-bomb","skill-spread-shot-retreat"]},
+    {"character_id":"goku-gt","canonical_character_name":"Goku (GT)","skill_ids":["skill-power-pole-combo"]}
+  ],
+  "character_source_skill_identity_gaps": [
+    "Vegeta",
+    "Vegito",
+    "Captain Ginyu",
+    "Goku (Super Saiyan God)",
+    "Goku (Super Saiyan 4)",
+    "Piccolo (Power Awakening)",
+    "Orange Piccolo"
+  ],
+  "evidence_boundary": "Character-source skill links are identity/provenance relationships, not preset loadout claims. The preset layer marks loadouts unresolved, so this audit does not create preset→equipped-skill edges. Characters without a resolved character-source skill edge are evidence gaps, not broken links.",
+  "next": "Audit broader character/preset presentation consumers for deterministic identity/search parity, then pursue source-backed preset loadout evidence only where an explicit loadout source exists."
+}
