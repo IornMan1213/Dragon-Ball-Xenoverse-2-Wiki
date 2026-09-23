@@ -5068,3 +5068,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Updated the accessory producer census, canonicalization audit, DAIMA DLC matrix, TODO, and handoff. No reward semantics were invented or changed.
 - Validation by live re-fetch confirmed the four canonical IDs, alias mappings, bridge matches, and projection counts. Runtime validator execution remains the next gate because GitHub's exposed API does not execute repository scripts in this session.
 - Exact next batch: execute/verify accessory presentation validators when runtime access is available, then continue the strongest concrete DAIMA/HERO OF JUSTICE Pack 2 skill/Super Soul reconciliation cohort.
+
+
+### 2026-09-23 cycle update — DAIMA / HERO OF JUSTICE Pack 2 skill and Super Soul anchor reconciliation
+- Audited canonical PQ skill and Super Soul projections for PQ159–162 and PQ179–181.
+- Found **13 exact canonical skill edges** and **7 canonical-backed Super Soul edges** across the two pack cohorts.
+- Added `docs/data/dlc/daima-hoj2-skill-super-soul-downstream-audit-2026-09-23.json`, registered it in the PQ cross-domain index, and expanded the DLC pack matrix with individual skill/Super Soul IDs.
+- HOJ2 concrete skill anchors: `skill-fierce-fist`, `skill-demonic-destruction`, `skill-demon-ray`, `skill-demon-flash-strike`, `skill-demon-flurry`, `skill-apocalyptic-burst`, `skill-special-beam-cannon-beast`; Super Souls `super-soul-120`, `121`, `061`, `118`, `119`.
+- DAIMA concrete skill anchors: `skill-heat-wave`, `skill-supreme-fury`, `skill-force-edge`, `skill-burning-blast`, `skill-super-kamehameha-ss4-daima`, `skill-final-flash-ss3-daima`; Super Souls `super-soul-145`, `super-soul-062`.
+- No DLC ownership edge or reward semantics were inferred. DAIMA free-update content remains separate.
+- Live GitHub re-fetch/structural validation completed. Runtime/CI execution remains unavailable; no CI success claimed.
+- Exact next batch: reconcile remaining non-PQ skill/Super Soul inventory against canonical records and official advertised pack scope, without converting unresolved completeness into inferred ownership.
