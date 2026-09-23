@@ -3306,3 +3306,10 @@
 - [x] Corrected the prior cycle note's raw-null scan: it was not the repository's strict-thin definition and is superseded.
 - [x] Authoritative live census remains **229 canonical / 0 duplicate IDs / 4 strict-thin**, queue **super-soul-032, super-soul-034, super-soul-158, super-soul-217**.
 - [x] No canonical mechanics were changed by the raw-null scan.
+
+### 2026-09-23 — TODO completion update — current PQ relationship producer-field drift
+- [x] Audited remaining current-looking PQ relationship producer/status metadata.
+- [x] Corrected the stale **854 / 146 Super Soul** current reconciliation in `docs/data/pq-reward-relationships.json` to **859 / 151**.
+- [x] Corrected the stale **860** target-normalization current field in `docs/data/pq-cross-domain-status.json` to **859**.
+- [x] Preserved dated historical counts unchanged.
+- [ ] Recompute the live strict-thin Super Soul census and continue the strongest evidence-supported unresolved cluster.
