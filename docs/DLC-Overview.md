@@ -207,28 +207,29 @@ The canonical DLC identity layer is also exposed here as a player-facing reverse
 
 | DLC identity | Canonical PQs |
 |---|---|
-| Super Pack 1 | [PQ 1](./Parallel-Quests-All/?q=PQ%20001), [PQ 2](./Parallel-Quests-All/?q=PQ%20002), [PQ 3](./Parallel-Quests-All/?q=PQ%20003), [PQ 4](./Parallel-Quests-All/?q=PQ%20004), [PQ 5](./Parallel-Quests-All/?q=PQ%20005), [PQ 6](./Parallel-Quests-All/?q=PQ%20006) |
-| Super Pack 2 | [PQ 7](./Parallel-Quests-All/?q=PQ%20007), [PQ 8](./Parallel-Quests-All/?q=PQ%20008), [PQ 9](./Parallel-Quests-All/?q=PQ%20009), [PQ 10](./Parallel-Quests-All/?q=PQ%20010), [PQ 11](./Parallel-Quests-All/?q=PQ%20011), [PQ 12](./Parallel-Quests-All/?q=PQ%20012) |
-| Super Pack 3 | [PQ 13](./Parallel-Quests-All/?q=PQ%20013), [PQ 14](./Parallel-Quests-All/?q=PQ%20014), [PQ 15](./Parallel-Quests-All/?q=PQ%20015), [PQ 16](./Parallel-Quests-All/?q=PQ%20016), [PQ 17](./Parallel-Quests-All/?q=PQ%20017), [PQ 18](./Parallel-Quests-All/?q=PQ%20018) |
-| Super Pack 4 | [PQ 19](./Parallel-Quests-All/?q=PQ%20019), [PQ 20](./Parallel-Quests-All/?q=PQ%20020), [PQ 21](./Parallel-Quests-All/?q=PQ%20021), [PQ 22](./Parallel-Quests-All/?q=PQ%20022), [PQ 23](./Parallel-Quests-All/?q=PQ%20023), [PQ 24](./Parallel-Quests-All/?q=PQ%20024) |
-| Extra Pack 1 | [PQ 105](./Parallel-Quests-All/?q=PQ%20105), [PQ 106](./Parallel-Quests-All/?q=PQ%20106), [PQ 107](./Parallel-Quests-All/?q=PQ%20107), [PQ 108](./Parallel-Quests-All/?q=PQ%20108), [PQ 109](./Parallel-Quests-All/?q=PQ%20109), [PQ 110](./Parallel-Quests-All/?q=PQ%20110) |
-| Extra Pack 2 | [PQ 111](./Parallel-Quests-All/?q=PQ%20111), [PQ 112](./Parallel-Quests-All/?q=PQ%20112), [PQ 113](./Parallel-Quests-All/?q=PQ%20113), [PQ 114](./Parallel-Quests-All/?q=PQ%20114), [PQ 115](./Parallel-Quests-All/?q=PQ%20115), [PQ 116](./Parallel-Quests-All/?q=PQ%20116) |
-| Extra Pack 3 | [PQ 117](./Parallel-Quests-All/?q=PQ%20117), [PQ 118](./Parallel-Quests-All/?q=PQ%20118), [PQ 119](./Parallel-Quests-All/?q=PQ%20119), [PQ 120](./Parallel-Quests-All/?q=PQ%20120), [PQ 121](./Parallel-Quests-All/?q=PQ%20121), [PQ 122](./Parallel-Quests-All/?q=PQ%20122) |
-| Extra Pack 4 | [PQ 123](./Parallel-Quests-All/?q=PQ%20123), [PQ 124](./Parallel-Quests-All/?q=PQ%20124), [PQ 125](./Parallel-Quests-All/?q=PQ%20125), [PQ 126](./Parallel-Quests-All/?q=PQ%20126), [PQ 127](./Parallel-Quests-All/?q=PQ%20127), [PQ 128](./Parallel-Quests-All/?q=PQ%20128) |
-| Ultra Pack 1 | [PQ 129](./Parallel-Quests-All/?q=PQ%20129), [PQ 130](./Parallel-Quests-All/?q=PQ%20130), [PQ 131](./Parallel-Quests-All/?q=PQ%20131), [PQ 132](./Parallel-Quests-All/?q=PQ%20132), [PQ 133](./Parallel-Quests-All/?q=PQ%20133), [PQ 134](./Parallel-Quests-All/?q=PQ%20134) |
-| Ultra Pack 2 | [PQ 135](./Parallel-Quests-All/?q=PQ%20135), [PQ 136](./Parallel-Quests-All/?q=PQ%20136), [PQ 137](./Parallel-Quests-All/?q=PQ%20137), [PQ 138](./Parallel-Quests-All/?q=PQ%20138), [PQ 139](./Parallel-Quests-All/?q=PQ%20139), [PQ 140](./Parallel-Quests-All/?q=PQ%20140) |
-| Legendary Pack 1 | [PQ 141](./Parallel-Quests-All/?q=PQ%20141), [PQ 142](./Parallel-Quests-All/?q=PQ%20142), [PQ 143](./Parallel-Quests-All/?q=PQ%20143), [PQ 144](./Parallel-Quests-All/?q=PQ%20144), [PQ 145](./Parallel-Quests-All/?q=PQ%20145) |
-| Legendary Pack 2 | [PQ 146](./Parallel-Quests-All/?q=PQ%20146), [PQ 147](./Parallel-Quests-All/?q=PQ%20147), [PQ 148](./Parallel-Quests-All/?q=PQ%20148), [PQ 149](./Parallel-Quests-All/?q=PQ%20149), [PQ 150](./Parallel-Quests-All/?q=PQ%20150) |
-| HERO OF JUSTICE Pack 1 | [PQ 151](./Parallel-Quests-All/?q=PQ%20151), [PQ 152](./Parallel-Quests-All/?q=PQ%20152), [PQ 153](./Parallel-Quests-All/?q=PQ%20153), [PQ 154](./Parallel-Quests-All/?q=PQ%20154) |
-| HERO OF JUSTICE Pack 2 | [PQ 155](./Parallel-Quests-All/?q=PQ%20155), [PQ 156](./Parallel-Quests-All/?q=PQ%20156), [PQ 157](./Parallel-Quests-All/?q=PQ%20157), [PQ 158](./Parallel-Quests-All/?q=PQ%20158) |
-| Conton City Vote Pack | [PQ 159](./Parallel-Quests-All/?q=PQ%20159), [PQ 160](./Parallel-Quests-All/?q=PQ%20160), [PQ 161](./Parallel-Quests-All/?q=PQ%20161) |
-| Dragon Ball DAIMA Pack | [PQ 162](./Parallel-Quests-All/?q=PQ%20162), [PQ 163](./Parallel-Quests-All/?q=PQ%20163), [PQ 164](./Parallel-Quests-All/?q=PQ%20164), [PQ 165](./Parallel-Quests-All/?q=PQ%20165) |
-| FUTURE SAGA Chapter 1 | [PQ 166](./Parallel-Quests-All/?q=PQ%20166), [PQ 167](./Parallel-Quests-All/?q=PQ%20167), [PQ 168](./Parallel-Quests-All/?q=PQ%20168), [PQ 169](./Parallel-Quests-All/?q=PQ%20169), [PQ 170](./Parallel-Quests-All/?q=PQ%20170), [PQ 171](./Parallel-Quests-All/?q=PQ%20171) |
-| FUTURE SAGA Chapter 2 | [PQ 172](./Parallel-Quests-All/?q=PQ%20172), [PQ 173](./Parallel-Quests-All/?q=PQ%20173), [PQ 174](./Parallel-Quests-All/?q=PQ%20174), [PQ 175](./Parallel-Quests-All/?q=PQ%20175) |
-| FUTURE SAGA Chapter 3 | [PQ 176](./Parallel-Quests-All/?q=PQ%20176), [PQ 177](./Parallel-Quests-All/?q=PQ%20177), [PQ 178](./Parallel-Quests-All/?q=PQ%20178) |
-| FUTURE SAGA Chapter 4 | [PQ 185](./Parallel-Quests-All/?q=PQ%20185), [PQ 186](./Parallel-Quests-All/?q=PQ%20186) |
+| Super Pack 1 | [PQ 101](./Parallel-Quests-All/?q=PQ%20101), [PQ 102](./Parallel-Quests-All/?q=PQ%20102), [PQ 103](./Parallel-Quests-All/?q=PQ%20103) |
+| Super Pack 2 | [PQ 104](./Parallel-Quests-All/?q=PQ%20104), [PQ 105](./Parallel-Quests-All/?q=PQ%20105), [PQ 106](./Parallel-Quests-All/?q=PQ%20106) |
+| Super Pack 3 | [PQ 107](./Parallel-Quests-All/?q=PQ%20107), [PQ 108](./Parallel-Quests-All/?q=PQ%20108), [PQ 109](./Parallel-Quests-All/?q=PQ%20109) |
+| Super Pack 4 | [PQ 110](./Parallel-Quests-All/?q=PQ%20110), [PQ 111](./Parallel-Quests-All/?q=PQ%20111), [PQ 112](./Parallel-Quests-All/?q=PQ%20112) |
+| Extra Pack 1 | [PQ 113](./Parallel-Quests-All/?q=PQ%20113), [PQ 114](./Parallel-Quests-All/?q=PQ%20114), [PQ 115](./Parallel-Quests-All/?q=PQ%20115), [PQ 116](./Parallel-Quests-All/?q=PQ%20116), [PQ 117](./Parallel-Quests-All/?q=PQ%20117) |
+| Extra Pack 2 | [PQ 118](./Parallel-Quests-All/?q=PQ%20118), [PQ 119](./Parallel-Quests-All/?q=PQ%20119), [PQ 120](./Parallel-Quests-All/?q=PQ%20120), [PQ 121](./Parallel-Quests-All/?q=PQ%20121), [PQ 122](./Parallel-Quests-All/?q=PQ%20122) |
+| Extra Pack 3 | [PQ 123](./Parallel-Quests-All/?q=PQ%20123), [PQ 124](./Parallel-Quests-All/?q=PQ%20124), [PQ 125](./Parallel-Quests-All/?q=PQ%20125), [PQ 126](./Parallel-Quests-All/?q=PQ%20126), [PQ 127](./Parallel-Quests-All/?q=PQ%20127) |
+| Extra Pack 4 | [PQ 128](./Parallel-Quests-All/?q=PQ%20128), [PQ 129](./Parallel-Quests-All/?q=PQ%20129), [PQ 130](./Parallel-Quests-All/?q=PQ%20130), [PQ 131](./Parallel-Quests-All/?q=PQ%20131), [PQ 132](./Parallel-Quests-All/?q=PQ%20132) |
+| Ultra Pack 1 | [PQ 133](./Parallel-Quests-All/?q=PQ%20133), [PQ 134](./Parallel-Quests-All/?q=PQ%20134), [PQ 135](./Parallel-Quests-All/?q=PQ%20135), [PQ 136](./Parallel-Quests-All/?q=PQ%20136), [PQ 137](./Parallel-Quests-All/?q=PQ%20137) |
+| Ultra Pack 2 | [PQ 138](./Parallel-Quests-All/?q=PQ%20138), [PQ 139](./Parallel-Quests-All/?q=PQ%20139), [PQ 140](./Parallel-Quests-All/?q=PQ%20140), [PQ 141](./Parallel-Quests-All/?q=PQ%20141), [PQ 142](./Parallel-Quests-All/?q=PQ%20142), [PQ 143](./Parallel-Quests-All/?q=PQ%20143) |
+| Legendary Pack 1 | [PQ 144](./Parallel-Quests-All/?q=PQ%20144), [PQ 145](./Parallel-Quests-All/?q=PQ%20145), [PQ 146](./Parallel-Quests-All/?q=PQ%20146) |
+| Legendary Pack 2 | [PQ 147](./Parallel-Quests-All/?q=PQ%20147), [PQ 148](./Parallel-Quests-All/?q=PQ%20148), [PQ 149](./Parallel-Quests-All/?q=PQ%20149), [PQ 150](./Parallel-Quests-All/?q=PQ%20150) |
+| Hero of Justice Pack 1 | [PQ 155](./Parallel-Quests-All/?q=PQ%20155), [PQ 156](./Parallel-Quests-All/?q=PQ%20156), [PQ 157](./Parallel-Quests-All/?q=PQ%20157), [PQ 158](./Parallel-Quests-All/?q=PQ%20158) |
+| Hero of Justice Pack 2 | [PQ 159](./Parallel-Quests-All/?q=PQ%20159), [PQ 160](./Parallel-Quests-All/?q=PQ%20160), [PQ 161](./Parallel-Quests-All/?q=PQ%20161), [PQ 162](./Parallel-Quests-All/?q=PQ%20162) |
+| Conton City Vote Pack | [PQ 151](./Parallel-Quests-All/?q=PQ%20151), [PQ 152](./Parallel-Quests-All/?q=PQ%20152), [PQ 153](./Parallel-Quests-All/?q=PQ%20153), [PQ 154](./Parallel-Quests-All/?q=PQ%20154) |
+| Dragon Ball DAIMA Pack | [PQ 179](./Parallel-Quests-All/?q=PQ%20179), [PQ 180](./Parallel-Quests-All/?q=PQ%20180), [PQ 181](./Parallel-Quests-All/?q=PQ%20181) |
+| Future Saga Chapter 1 | [PQ 163](./Parallel-Quests-All/?q=PQ%20163), [PQ 164](./Parallel-Quests-All/?q=PQ%20164), [PQ 165](./Parallel-Quests-All/?q=PQ%20165), [PQ 166](./Parallel-Quests-All/?q=PQ%20166), [PQ 167](./Parallel-Quests-All/?q=PQ%20167), [PQ 168](./Parallel-Quests-All/?q=PQ%20168), [PQ 169](./Parallel-Quests-All/?q=PQ%20169), [PQ 170](./Parallel-Quests-All/?q=PQ%20170), [PQ 171](./Parallel-Quests-All/?q=PQ%20171), [PQ 172](./Parallel-Quests-All/?q=PQ%20172), [PQ 173](./Parallel-Quests-All/?q=PQ%20173), [PQ 174](./Parallel-Quests-All/?q=PQ%20174) |
+| Future Saga Chapter 2 | [PQ 175](./Parallel-Quests-All/?q=PQ%20175), [PQ 176](./Parallel-Quests-All/?q=PQ%20176), [PQ 177](./Parallel-Quests-All/?q=PQ%20177), [PQ 178](./Parallel-Quests-All/?q=PQ%20178) |
+| Future Saga Chapter 3 | [PQ 182](./Parallel-Quests-All/?q=PQ%20182), [PQ 183](./Parallel-Quests-All/?q=PQ%20183), [PQ 184](./Parallel-Quests-All/?q=PQ%20184) |
+| Future Saga Chapter 4 | [PQ 185](./Parallel-Quests-All/?q=PQ%20185), [PQ 186](./Parallel-Quests-All/?q=PQ%20186) |
 
 > This presentation is a navigation consumer, not a second source of truth. If a reverse-index membership is uncertain, the canonical relationship layer and its provenance remain authoritative.
+
 
 ## Canonical DLC Identity Navigation
 
