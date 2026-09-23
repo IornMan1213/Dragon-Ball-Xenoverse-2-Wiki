@@ -3362,3 +3362,14 @@
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - Commit: `f7b0a6b0da4961b7e67f51b014ac8aa2abf97135`.
 - [ ] Exact next batch: continue the deterministic cross-domain coverage/projection audit, prioritizing a machine-checkable current-field mismatch rather than speculative gameplay data.
+
+
+### 2026-09-23 cycle update — PQ relationship coverage status semantic repair
+- Live canonical relationship coverage is **186/186 PQs**; the authoritative relationship layer is `docs/data/pq-reward-relationships.json`.
+- Found and corrected a deterministic semantic mismatch in `docs/data/pq-cross-domain-status.json`: `relationship_PQ_coverage` was still reporting **182/186** because it reflected the partial reward-batch directory rather than canonical relationship coverage.
+- Changed only the current status projection to **186/186** and preserved the partial research/source-layer limitation separately as **182/186**, missing batch files **PQ1, PQ12, PQ13, PQ14**.
+- No canonical relationship edge, reward identity, or provenance claim was added or removed.
+- Added and registered `docs/data/pq-relationship-coverage-status-repair-2026-09-23.json`.
+- Validation target: **859 total canonical relationships = 244 skill / 151 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming**; relationship coverage **186/186**; reward-batch directory coverage **182/186**.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next batch: continue the deterministic cross-domain coverage/projection audit from the live registry, prioritizing another machine-checkable current-field mismatch or a bounded multi-record navigation/projection repair; do not invent gameplay data.
