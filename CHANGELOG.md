@@ -1954,3 +1954,13 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Added and registered `docs/data/super-soul-200-203-209-stacking-reconciliation-2026-09-22.json`.
 - No acquisition, reward probability, Ultimate Finish condition, duration, magnitude, or unrelated mechanic was changed.
 - Exact next task: recompute the live strict-thin census and continue the next evidence-supported unresolved fields; preserve **032/034** as evidence boundaries where exact-name Limit Burst mechanics remain insufficient.
+
+
+### 2026-09-22 — Super Souls 070–086 secondary-field reconciliation
+- Reconciled **070, 071, 075, 076, 078, 080, 082, 083, 085, and 086** using exact-name player-facing catalogue/stat-sheet evidence.
+- Populated the documented **Limit Burst types/effects** for all ten records.
+- Populated explicit timed durations where the evidence states them: **075/076 = 10s; 082 = 20s; 083 = 10s; 085 = 15s; 086 = 15s**.
+- Set `stacking_behavior` to **Not reported as stackable** where the source provides no stack cap; untimed records retain null duration rather than receiving invented timers.
+- Added and registered `docs/data/super-soul-070-071-075-076-078-080-082-083-085-086-reconciliation-2026-09-22.json`.
+- No acquisition, reward probability, Ultimate Finish condition, or unsupported duration was inferred.
+- Exact next task: recompute the live strict-thin census and continue the next evidence-supported high-impact records; preserve **032/034** as evidence boundaries.
