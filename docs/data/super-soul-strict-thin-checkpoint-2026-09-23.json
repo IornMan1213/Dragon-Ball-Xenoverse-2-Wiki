@@ -6,11 +6,10 @@
   "live_before": {
     "canonical_super_souls": 230,
     "duplicate_ids": 0,
-    "strict_thin": 3,
+    "strict_thin": 2,
     "queue": [
       "super-soul-032",
-      "super-soul-034",
-      "super-soul-217"
+      "super-soul-034"
     ]
   },
   "evidence": [
@@ -116,6 +115,12 @@
         "docs/data/skill-research-batches/skill-batch-50.json"
       ],
       "result": "Removed 158 from the Super Soul canonical layer and PQ Super Soul relationship projections; preserved legacy mapping in the migration audit."
+    },
+    {
+      "id": "super-soul-217",
+      "finding": "Exact-name/item-level evidence from a GameFAQs discussion identifies the Super Soul's Limit Burst as Power Ki Blast with Auto Health and Stamina Up and DEF Down. No trigger wording was established.",
+      "source": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79231190",
+      "result": "Limit Burst type/effect promoted; trigger remains null. 217 exits the strict-thin queue."
     }
   ],
   "limits": [
@@ -124,9 +129,9 @@
     "No 232-236 records were recreated.",
     "Legacy Super Soul 158 identity is preserved as a migration mapping, not as a live Super Soul record."
   ],
-  "result": "Super Soul 158 is no longer in the strict-thin queue because the collision was resolved as a domain identity issue rather than a missing-mechanics issue.",
-  "next_batch": "Super Soul 217 exact-name/item-level Limit Burst research; if no reliable new evidence appears, perform a bounded 034 recheck only when new item-level evidence exists, then continue the broader P1 provenance/data queue.",
-  "next_method": "Do not repeat low-yield 217 searches. Search only for explicit item-level Limit Burst wording; preserve nulls if unavailable.",
+  "result": "Super Soul 217 is no longer strict-thin: all strict core fields are populated, with Limit Burst trigger explicitly unresolved/null.",
+  "next_batch": "Super Soul 034 only if a new item-level/authoritative source can resolve its unresolved fields; otherwise Super Soul 032 or the broader P1 provenance/data queue. Do not repeat low-yield searches already bounded for 217.",
+  "next_method": "Prefer a source that explicitly identifies the exact 034 item and mechanics. Preserve nulls for 034 fields when no item-level evidence exists.",
   "last_updated": "2026-09-23",
   "notes": [
     "2026-09-23: A prior intermediate note attributed 034 to Fu, but the subsequent exact-name pass did not independently substantiate that attribution; the canonical record therefore remains character_source unresolved. The earlier attribution is superseded, not used as mechanics evidence.",
