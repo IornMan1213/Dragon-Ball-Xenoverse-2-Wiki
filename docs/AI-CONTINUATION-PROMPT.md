@@ -5809,3 +5809,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation after write: 455 canonical / 455 index / 256 stale / 0 duplicate IDs; all 12 target records have canonical/index parity for last_verified and mechanics notes.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next batch: Genocide Shell, Giant Storm, Gigantic Breaker, Gigantic Burst, Gigantic Charge, Gigantic Cluster, Gigantic Cross, Gigantic Explosion, Gigantic Meteor, Gigantic Nova, Gigantic Omega, Gigantic Rage. Recompute the live stale queue first.
+
+
+### 2026-09-23 cycle update — P1 Genocide-through-Gigantic Rage skill provenance/mechanics refresh
+- Live census before editing: 455 canonical / 455 index / 256 stale / 0 duplicate IDs.
+- Bounded batch: Genocide Shell, Giant Storm, Gigantic Breaker, Gigantic Burst, Gigantic Charge, Gigantic Cluster, Gigantic Cross, Gigantic Explosion, Gigantic Meteor, Gigantic Nova, Gigantic Omega, Gigantic Rage.
+- Research/evidence: repository exact-name sources plus independent/current corroboration; existing acquisition conflicts and evidence boundaries preserved.
+- Changes: canonical/index last_verified refreshed to 2026-09-23 and bounded mechanics/provenance notes expanded.
+- Audit added and registered: docs/data/skill-provenance-audit-2026-09-23-genocide-through-gigantic-rage.json.
+- Validation after write: 455 canonical / 455 index / 244 stale / 0 duplicate IDs; all 12 target records have canonical/index parity.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next batch: Gigantic Roar, God Breaker, God of Destruction's Anger, God of Destruction's Menace, God of Destruction's Might, God of Destruction's Plaything, God of Destruction's Poise, God of Destruction's Rampage, God of Destruction's Roar, God of Destruction's Wrath, God Punisher, God Splitter. Recompute live stale queue first.
