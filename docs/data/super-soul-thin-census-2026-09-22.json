@@ -6,7 +6,7 @@
   "source_of_truth": "docs/data/super-souls-record-layer.json",
   "canonical_records": 234,
   "duplicate_ids": 0,
-  "strict_thin_records": 148,
+  "strict_thin_records": 142,
   "strict_core_fields": [
     "character_source",
     "trigger_condition",
