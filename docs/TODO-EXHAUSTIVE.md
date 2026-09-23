@@ -4183,3 +4183,12 @@
 - [x] Validation: **455/455 / 0 duplicate IDs / 10 targets synchronized / 340 stale**.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next action: recompute the live stale queue.
+
+
+### 2026-09-23 — TODO completion update — P1 Double Crush through Dust Attack
+- [x] Completed **12 skills**: Double Crush, Double Death Slicer, Double Sunday, Dragon Blitz, Dragon Burn, Dragon Fist, Dragon Spark, Dragon Spiral, Dragon Thunder, Drain Field, Dual Destructo-Disc, Dust Attack.
+- [x] Synchronized canonical/index last_verified to **2026-09-23** while preserving existing acquisition, mechanics, DLC, conflicts, and unresolved evidence boundaries.
+- [x] Added/registered **docs/data/skill-provenance-audit-2026-09-23-double-crush-through-dust-attack.json**.
+- [x] Validation: **455/455 / 0 duplicate IDs / 328 stale**; target source/date parity clean.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next action: recompute the live stale queue before choosing the next batch.
