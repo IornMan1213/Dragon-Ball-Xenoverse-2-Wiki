@@ -5027,3 +5027,15 @@
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [x] Handoff recorded in `docs/AI-CONTINUATION-PROMPT.md` with commit `7ed9ae4117c8b2a09d0a03c2971bfda27c568327`.
 - **Exact next task:** continue P1 provenance/data-quality audits for remaining dated/stale domain artifacts and explicit source-backed data gaps; preserve historical snapshots.
+
+
+### 2026-09-23 cycle update — Unified reverse-index current-baseline synchronization
+- [x] Audited `docs/data/pq-reward-normalization/pq-unified-reverse-index-audit.json` against the current canonical PQ relationship layer.
+- [x] Corrected current live projection/reconciliation metadata from the superseded **854 total / 146 Super Soul** baseline to **853 total / 145 Super Soul**.
+- [x] Preserved the superseded 854/146 values as explicit historical snapshots.
+- [x] Confirmed exact-pair parity remains **0 missing / 0 extra** for skills, Super Souls, equipment, characters, DLC, and farming.
+- [x] Preserved the current equipment split at **84 clothing / 40 accessories / 124 combined**.
+- [x] Updated runtime wording so API-level static parity is not claimed as CI/runtime success.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- Commit: `7f2682d6747894a63f0da932654e2f06c54b2f59`.
+- **Exact next task:** continue the broader current-state producer/consumer census for remaining superseded 854/146 and older skill/character/domain counts, then return to exact-evidence preset reconciliation.
