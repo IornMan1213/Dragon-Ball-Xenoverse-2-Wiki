@@ -6324,3 +6324,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime remains unavailable; no CI success claimed.
 - Commits: bridge `57181f5bf6fe95274e503364ebcbd5b5bac05ee9`; reverse index `84e7e01a89778ebf1b909ce45580b3c998cd3d8`; gap audit `7d351328ec04a75a2ad5d7a2af33722c7dffc883`; reconciliation audit `e903a83070239d54b20828ebafdb066b7d99a8f0`.
 - **Exact next task:** reconcile the remaining **7** identity gaps, starting with canonical-character-layer promotion/reconciliation for **Goku (Ultra Supervillain Quelled)** and **Vegeta (GT)** only if the character-layer evidence contract supports deterministic records; otherwise continue exact canonical-name matches and preserve `Destruction's Conductor` / `Sonic Bomb` conflicts.
+
+
+### 2026-09-23 cycle update — Third bounded skill→character identity batch
+
+- Live gap census before editing: **10 unresolved character/variant entries** after reconciling the previously stale inventory against the existing bridge.
+- Bounded batch: **Sauzer Blade, Spirit Explosion, and Spread Shot Retreat**.
+- Evidence: current Xenoverse 2 skill/character documentation identifies **Jeice → Sauzer Blade**, **Cooler (Final Form) → Spirit Explosion**, and **Frieza (1st Form) → Spread Shot Retreat**; repository canonical character records exist for all three targets.
+- Changes: added **3 resolved skill records / 3 canonical skill→character edges** to `docs/data/skill-character-identity-bridge-2026-09-23.json`; refreshed `docs/data/skill-character-reverse-index-2026-09-23.json`; removed the three resolved entries from the live gap inventory; refreshed the reconciliation audit.
+- Evidence limits preserved: Spread Shot Retreat has many legitimate users, so the bridge records only the canonical identity represented by its source token, not exhaustive equipability. Goku (Ultra Supervillain Quelled), Vegeta (GT), and contradictory Champa/Frieza cases remain outside the bridge until the canonical identity layer or conflict evidence is resolved. Wild Buster is independently documented for Vegeta (GT), but that character is not yet in the canonical character-name layer.
+- Validation: **32 resolved skill records / 43 canonical edges / 32 canonical character targets / 7 unresolved character-or-variant entries / 0 duplicate edges / 0 broken promoted endpoints**; source wording in `skills.json` was not rewritten.
+- CI/runtime remains unavailable; no CI success claimed.
+- Commits: bridge `57181f5bf6fe95274e503364ebcbd5b5bac05ee9`; reverse index `84e7e01a89778ebef1b909ce45580b3c998cd3d8`; gap audit `7d351328ec04a75a2ad5d7a2af33722c7dffc883`; reconciliation audit `e903a83070239d54b20828ebafdb066b7d99a8f0`.
+- **Exact next task:** reconcile the remaining **7** identity gaps, starting with canonical-character-layer promotion/reconciliation for **Goku (Ultra Supervillain Quelled)** and **Vegeta (GT)** only if the character-layer evidence contract supports deterministic records; otherwise continue exact canonical-name matches and preserve `Destruction's Conductor` / `Sonic Bomb` conflicts.
