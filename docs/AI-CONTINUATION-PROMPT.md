@@ -4568,3 +4568,23 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - Commits: `10d87c2d84e57b47809549a7ecb11d195972ec4c`, `7e162c426e44348ae4252d92fd1a8826981947e8`.
 - Exact next task: recompute the strict-thin queue and continue the next evidence-supported early/base-game cluster; prioritize records with multiple unresolved core fields and exact-name evidence, preserving **032/034** as evidence boundaries.
+
+### 2026-09-23 cycle update — Super Soul 100–107 duration/stacking reconciliation
+- Recomputed the live strict-thin queue: **234 canonical / 0 duplicate IDs / 64 records with ≥2 missing strict-core fields** before this batch.
+- Bounded batch: **100–107** — I'm a super hero!; Just figured out who the real villain is!; Help me, Daddy! I'm scared!; Damn... Gonna have to go all out!; Not a single word!; I'm a whole new me.; Shenron really went the extra mile.; Enter the hero!.
+- Exact-name research corpus supplied explicit temporary/persistent semantics for the previously missing duration fields and stacking behavior.
+- Canonical changes:
+  - 100: ~10-second temporary Ki-restoration boost; no stacking reported.
+  - 101: ~30-second one-time lock-on/off restriction; always-on buffs remain persistent; no stacking reported.
+  - 102: ~20-second team attack boost; Ki restoration instantaneous; no stacking reported.
+  - 103: ~60-second delayed activation, then remainder-of-battle persistence; no stacking reported.
+  - 104: instantaneous revival-triggered Ki restoration; no stacking rule reported.
+  - 105: remainder-of-battle persistence after the below-50%-Health trigger; no stacking reported.
+  - 106: instantaneous end-of-battle item-drop-rate effect; no stacking reported.
+  - 107: persistent stacked pose buff; explicit **5-stack cap** retained.
+- Strict-thin queue reduced **64 → 56**.
+- No unsupported stack cap, reward probability, or Ultimate-Finish condition was introduced.
+- Validation: canonical JSON reread/parsed successfully; 234 records remain with 0 duplicate IDs.
+- CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- Commits: `d6705ccee706f74045754c1b6b5b374216cac337`, `370bed450667ddd4c9cde4695e3c4cd17892603a`.
+- Exact next task: recompute the strict-thin queue and continue the next evidence-supported cluster, prioritizing early/base-game/high-impact records and preserving **032/034** evidence boundaries.
