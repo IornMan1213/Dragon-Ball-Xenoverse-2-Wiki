@@ -5997,3 +5997,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation after write: 455 canonical / 455 index / 391 current / 64 stale / 0 duplicate IDs; canonical/index IDs aligned and all 12 targets current.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next batch: Super Explosive Wave, Super Gamma Blast, Super Ghost Buu Attack, Super Ghost Kamikaze Attack, Super Ghost Kamikaze Attack, Super God Fist, Super God Shock Flash, Super Guard, Super Kamehameha, Super Kamehameha (SS4 DAIMA), Super Saiyan, Super Saiyan 2. Recompute the live stale queue first.
+
+
+### 2026-09-23 cycle update — Super Explosive Wave through Super Saiyan 2
+- Live queue before editing: 391 current / 64 stale across 455 canonical records.
+- Completed 12 records, including both distinct IDs sharing the display name Super Ghost Kamikaze Attack (100-Ki Super and 300-Ki Ultimate).
+- Refreshed canonical and index provenance metadata and set all completed records to last_verified=2026-09-23. No unsupported reward gates, race restrictions, or numerical mechanics were added.
+- Validation after correction: 455 canonical / 455 index / 403 current / 52 stale / 0 duplicate IDs; canonical/index IDs aligned.
+- Stale census corrected to reflect the live count of 403 current rather than the initially estimated 402.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next stale batch: Super Saiyan Blue Kaioken, Super Saiyan God, Super Saiyan God Super Saiyan, Super Saiyan God Super Saiyan (Evolved), Super Spirit Bomb, Super Vegeta, Supernova, Supernova Cooler, Supersonic Mode, Supreme Fury, Surging Spirit, Symphonic Destruction.
