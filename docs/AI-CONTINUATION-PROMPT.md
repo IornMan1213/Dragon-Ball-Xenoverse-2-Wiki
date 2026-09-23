@@ -4827,3 +4827,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Verified the live source-of-truth relationship projection remains **859 total = 244 skill + 151 Super Soul + 124 equipment + 247 character + 86 DLC + 7 farming**.
 - [ ] CI/status checks remain unavailable; no CI success claimed.
 - [ ] Exact next batch: recompute the live strict-thin Super Soul census and select the strongest evidence-supported cluster, while keeping **032/034/158/217** explicit evidence boundaries unless item-level evidence resolves them.
+
+### 2026-09-23 cycle update — current PQ relationship producer-field drift repair
+- [x] Audited the remaining current-looking PQ relationship producer/status fields after the prior non-PQ consumer pass.
+- [x] Corrected `docs/data/pq-reward-relationships.json` `current_reconciliation_2026_09_22` from stale **854 / 146 Super Soul** to live **859 / 151 Super Soul**; current domain counts are **244 / 151 / 124 / 247 / 86 / 7**.
+- [x] Corrected `docs/data/pq-cross-domain-status.json` `target_normalization_audit_2026_09_22.total_edges` from stale **860** to authoritative **859**.
+- [x] Preserved dated historical 862/860/840 snapshots and older historical COVERAGE-AUDIT prose.
+- [x] Verified the live source-of-truth relationship projection remains **859 total = 244 skill + 151 Super Soul + 124 equipment + 247 character + 86 DLC + 7 farming**.
+- [ ] CI/status checks remain unavailable; no CI success claimed.
+- [ ] Exact next batch: recompute the live strict-thin Super Soul census and select the strongest evidence-supported cluster, while keeping **032/034/158/217** explicit evidence boundaries unless item-level evidence resolves them.
