@@ -2141,3 +2141,9 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 ## 2026-09-23 — Census correction for Super Soul 217 cycle
 - Corrected the prior cycle note's raw-null scan: it was not the repository's strict-thin definition.
 - The authoritative stored census remains **229 canonical / 0 duplicate IDs / 4 strict-thin**, queue **super-soul-032, super-soul-034, super-soul-158, super-soul-217**.
+
+## 2026-09-23 — Current PQ producer/status drift repair
+- Corrected the current reconciliation projection in `docs/data/pq-reward-relationships.json`: **859 total**, including **151 Super Soul** relationships, matching the canonical current domain reports.
+- Corrected `docs/data/pq-cross-domain-status.json` target-normalization current total from **860** to **859**.
+- Historical 862/860/840 snapshots remain preserved.
+- No canonical relationship identities or edges were invented or changed.
