@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0.0",
+  "title": "Battle Suit preset reconciliation — 2026-09-23",
+  "scope": "Exact source-observed named Battle Suit loadouts where repository numeric preset IDs cannot yet be safely mapped.",
+  "evidence_policy": "Named source-table rows are preserved as observations. No numeric preset ID is assigned from row order, costume order, or proximity.",
+  "records": [
+    {
+      "character_id": "vegeta",
+      "source": "https://dbxv2.fandom.com/wiki/Vegeta",
+      "source_type": "community_wiki_in-game-data-table",
+      "named_loadout": "Battle Suit configuration A",
+      "observed_skills": [
+        "Meteor Strike",
+        "Galick Gun",
+        "Spirit Boost",
+        "Charged Ki Wave",
+        "Super Galick Gun",
+        "Spread Shot Retreat"
+      ],
+      "repository_numeric_mapping": "unresolved",
+      "decision": "retain_as_named_source_observation",
+      "reason": "The repository's unresolved Vegeta numeric preset records cannot be mapped to this named source row without an explicit numeric identifier."
+    },
+    {
+      "character_id": "vegeta",
+      "source": "https://dbxv2.fandom.com/wiki/Vegeta",
+      "source_type": "community_wiki_in-game-data-table",
+      "named_loadout": "Battle Suit configuration B",
+      "observed_skills": [
+        "Sledgehammer",
+        "Energy Wave Combo",
+        "Shine Shot",
+        "Energy Charge",
+        "Full Power Energy Wave",
+        "Explosive Wave"
+      ],
+      "repository_numeric_mapping": "unresolved",
+      "decision": "retain_as_named_source_observation",
+      "reason": "The loadout is directly useful for skill connectivity, but the source evidence available to this layer does not establish which unresolved numeric preset it belongs to."
+    },
+    {
+      "character_id": "vegeta",
+      "source": "https://dbxv2.fandom.com/wiki/Vegeta",
+      "source_type": "community_wiki_in-game-data-table",
+      "named_loadout": "Battle Suit preset 8",
+      "repository_numeric_mapping": "vegeta-preset-8",
+      "decision": "already_verified",
+      "observed_skills": [
+        "Sledgehammer",
+        "Energy Wave Combo",
+        "Big Bang Attack",
+        "Full Power Charge",
+        "Final Flash",
+        "Explosive Wave",
+        "Super Vegeta"
+      ]
+    }
+  ],
+  "unresolved_mapping_rule": "Do not promote named Battle Suit configurations A/B to preset numbers until an explicit source identifier, matching game-data key, or independently corroborated numeric mapping is found.",
+  "next": "Search for explicit numeric/game-data identifiers for Vegeta's unresolved Battle Suit rows; then reconcile only exact matches."
+}
