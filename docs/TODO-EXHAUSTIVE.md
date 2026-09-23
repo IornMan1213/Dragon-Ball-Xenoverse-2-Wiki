@@ -3434,3 +3434,12 @@
 - [x] Preserved exact-pair evidence boundaries; no relationship row was invented, deleted, renamed, or inferred in this cycle.
 - [ ] Runtime/CI remains unavailable; no executable validation success claimed.
 - [ ] Exact next priority: scan the remaining generated/current-facing PQ presentation and reverse-index artifacts for any stale 859/151 scalar or prose explicitly labeled current/live, then continue reusable cross-database navigation parity repairs. Preserve historical snapshots.
+
+
+### 2026-09-23 cycle update — Current PQ presentation/validator drift repair
+- [x] Repaired remaining explicitly current-facing PQ summary/reference/unified-reverse-index/cross-domain/skill-acquisition audit fields to the authoritative 854/146 baseline.
+- [x] Updated `scripts/validate_pq_current_consumer_baseline.py` so current validation no longer consumes the superseded 859/151 historical correction artifact as its expected baseline.
+- [x] Updated `docs/Parallel-Quest-Audit.md` current structured coverage statement to 854 relationships; historical evidence remains preserved.
+- [x] No canonical relationship rows were added, deleted, renamed, or inferred.
+- [ ] Runtime/CI remains unavailable; no executable validation success claimed.
+- [ ] Exact next priority: inspect remaining current-facing PQ page templates and DLC requirement presentation for one-way navigation, stale scalars, and endpoint identity drift; repair deterministic navigation gaps only.
