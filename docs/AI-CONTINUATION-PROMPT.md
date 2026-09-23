@@ -3985,3 +3985,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Preserve the append-only contract: never delete, truncate, reorder, replace, or summarize away prior content in the canonical handoff. Add the newest cycle entry at the end and make its live state authoritative over older historical entries.
 - [x] This clarification applies to all future autonomous continuation work, including Super Souls, skills, PQs, equipment, cross-domain reconciliation, validators, research audits, and other project workstreams.
 - [x] The existing dated early-Super-Souls prompt remains unchanged as a historical/source artifact; its content is not being duplicated into a newly created active prompt.
+
+
+### 2026-09-22 cycle update — Super Soul 206–211 provenance/mechanics refresh
+- [x] Live census after the prior batch: **234 canonical Super Soul records / 31 indexed-status records**.
+- [x] Bounded batch: **super-soul-206 through super-soul-211**.
+- [x] Refreshed all 6 records with exact-name character/DLC provenance, trigger/effect/magnitude, supported duration, Limit Burst data, verification date, and evidence notes.
+- [x] Preserved canonical PQ edges: **206→PQ129, 207→PQ129, 208→PQ130, 209→PQ130, 210→PQ130, 211→PQ131**.
+- [x] Added docs/data/super-soul-206-through-211-provenance-audit-2026-09-22.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Evidence used: maintained Super Soul catalogue, independent Steam discussion, independent GameFAQs reference, and the maintained DLC/PQ listing. Exact-name evidence supports the mechanics while reward/drop probabilities and Ultimate-Finish gating remain unclaimed.
+- [x] Validation: canonical JSON parses at **234 records**; all 6 selected records have the required character/trigger/effect/magnitude/Limit Burst fields; all retain their original PQ relationships; audit/index registration completed.
+- [ ] CI/runtime: no successful workflow/check exposed for the direct-commit chain; no CI success claimed.
+- [x] Commits: da1151f3867b35bb303adb7993145df7c64d95f1, 6a48352fb3b19bea392c74cb61505c1d37cc4cba, 4de772688803160f0ad05519d501374a0b3aca29.
+- [ ] Exact next batch: recompute the **live full Super Soul indexed/thin census** and select the next 4–12 highest-impact unresolved records with strong exact-name evidence and reusable PQ/cross-domain links. Do not assume sequential IDs are automatically the next priority.
