@@ -4078,3 +4078,10 @@
 - Validation from the live main API shows the 455-record canonical/index datasets remain structurally intact; changed records contain no internal tool citation artifacts. The file helper's cached read path reported stale pre-write dates afterward, so do not treat that helper cache as evidence of rollback; main HEAD and commit history confirm the writes landed.
 - CI: Actions exists but successful validation was not exposed; no CI success claimed.
 - Exact next batch: **Burst Rush is already completed above; continue from the next live stale record after Burst Stinger, starting with Buu Buu Ball, Candy Beam, Candy Beam (Super), Celestial Wave, and Chain Destructo-Disc Barrage after recomputing the live stale queue.**
+
+### 2026-09-23 cycle update — P1 Buu Buu Ball through Chain Destructo-Disc Barrage provenance refresh
+- Live queue checkpoint: next stale canonical records were **Buu Buu Ball, Candy Beam, Candy Beam (Super), Celestial Wave, Chain Destructo-Disc Barrage**.
+- Revalidated existing multi-source provenance and refreshed these five records to `2026-09-23` in canonical/index layers. Known conflicts were preserved rather than normalized without evidence, especially Celestial Wave's Basic Reward vs older Ultimate Finish presentation.
+- Added/registered `docs/data/skill-provenance-audit-2026-09-23-buu-through-chain.json`; updated `CHANGELOG.md`.
+- Validation target: **455 canonical / 455 index / 0 duplicate IDs / 5 targets synchronized**. No CI success claimed.
+- Exact next action: recompute live stale state and continue with the next stale records after Chain Destructo-Disc Barrage; do not repeat this batch.
