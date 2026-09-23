@@ -288,6 +288,7 @@
   },
   "registered_audits": {
     "super_soul_thin_census_2026_09_22": "docs/data/super-soul-thin-census-2026-09-22.json",
-    "super_soul_secondary_field_reconciliation_001_003_006_012": "docs/data/super-soul-secondary-field-reconciliation-001-003-006-012-2026-09-22.json"
+    "super_soul_secondary_field_reconciliation_001_003_006_012": "docs/data/super-soul-secondary-field-reconciliation-001-003-006-012-2026-09-22.json",
+    "super_soul_secondary_field_reconciliation_013_014_017_026": "docs/data/super-soul-secondary-field-reconciliation-013-014-017-026-2026-09-22.json"
   }
 }
