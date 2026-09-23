@@ -1761,3 +1761,14 @@
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Exact next priority: finish the remaining thin Super Soul records **232–236** with exact-name evidence, then recompute the broader Super Soul thin-system census before selecting the next batch.
 
+### 2026-09-22 cycle update — Super Soul 232–236 provenance pass
+- [x] Recomputed the live target and completed a bounded evidence pass for **5 canonical Super Soul records (232–236)**.
+- [x] Refreshed DLC provenance and documented Basic Reward placement for PQ152–155.
+- [x] PQ152–154 are documented under the **Conton City Vote Pack**; PQ155 is documented under **Hero of Justice Pack 1**.
+- [x] Preserved exact-name PQ relationships; no canonical relationship edges were changed.
+- [x] Added `docs/data/super-soul-232-through-236-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Evidence boundary preserved: character/effect/trigger/magnitude/duration/stacking/Limit Burst fields remain unresolved where item-level evidence was insufficient; nothing was inferred.
+- [x] Validation: 5/5 records present, current verification date, canonical PQ routes retained, audit registered.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Exact next priority: recompute the **full Super Soul thin-system census** (not another blind sequential batch) and identify the highest-impact remaining canonical gaps, with special attention to records after 241 and cross-domain link completeness.
+
