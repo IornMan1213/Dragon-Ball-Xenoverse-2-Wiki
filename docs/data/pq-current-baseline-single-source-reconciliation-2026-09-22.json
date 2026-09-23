@@ -3,9 +3,9 @@
   "date": "2026-09-23",
   "scope": "Reconcile competing current-looking PQ relationship totals after the PQ99 false equipment endpoint correction",
   "authoritative_current_baseline": {
-    "total_edges": 854,
+    "total_edges": 853,
     "skill": 244,
-    "super_soul": 146,
+    "super_soul": 145,
     "equipment": 124,
     "character": 247,
     "dlc": 86,
@@ -16,7 +16,7 @@
     {
       "file": "docs/data/pq-reference-page-audit.json",
       "state": "current",
-      "total_edges": 854,
+      "total_edges": 853,
       "equipment": 124
     },
     {
@@ -47,5 +47,15 @@
   "stale_current_looking_fields": [],
   "historical_preservation_rule": "Do not rewrite dated 862/860/840 snapshots merely because they are old. Only fields explicitly presented as current/live/baseline may be corrected.",
   "relationship_integrity": "No new relationship edge is inferred by this audit. The PQ99 Mr. Shape Up L equipment endpoint remains excluded from the canonical current edge set.",
-  "next_gate": "Current 854/146 baseline is propagated through the repaired consumer set. Continue exact-pair parity scanning of remaining reverse/navigation projections; preserve dated 859/151/860/862/840 snapshots as historical evidence."
+  "next_gate": "Current 853/145 baseline is propagated through the repaired consumer set after the Super Soul 158 domain migration. Continue exact-pair parity scanning of remaining reverse/navigation projections; preserve prior 854/146 and older snapshots as historical evidence.",
+  "superseded_prior_baseline": {
+    "total_edges": 854,
+    "super_soul": 146,
+    "equipment": 124,
+    "skill": 244,
+    "character": 247,
+    "dlc": 86,
+    "farming": 7,
+    "reason": "Super Soul 158 was removed as a false Super Soul identity and migrated to canonical skill-do-or-die."
+  }
 }
