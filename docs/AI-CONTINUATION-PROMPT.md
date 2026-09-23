@@ -5498,3 +5498,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Important evidence boundary: this cycle changed only deterministic current-state consumer metadata after a confirmed canonical domain migration. No new relationship edge was invented.
 - CI/runtime remains unavailable; no CI success claimed.
 - Exact next task: perform one final targeted inspection for any remaining *active* 854/146/143 assertions, then resume the broader **P1 exhaustive provenance/data queue**. Do not repeat Super Soul 032/034 searches unless new exact-name/item-level evidence becomes available.
+
+
+### 2026-09-23 cycle update — P1 skill provenance alpha batch
+- Live census before editing: **455 canonical / 455 index / 0 duplicate IDs**; the prior 2026-09-22 stale census was superseded by a fresh 2026-09-23 census.
+- Bounded batch: **Absolute Zero, Afterimage, Afterimage Strike, All Clear, Android Rush**.
+- Changes: refreshed canonical/index last_verified to 2026-09-23; no gameplay/acquisition semantics changed.
+- Added docs/data/skill-provenance-audit-2026-09-23-alpha-batch.json and docs/data/skill-stale-metadata-census-2026-09-23.json; both are registered in the cross-domain index.
+- Validation: **455/455**, 0 duplicate IDs, five target canonical/index pairs synchronized; live stale queue **447**.
+- CI/runtime: unavailable; no CI success claimed.
+- Exact next batch: **Angry Explosion, Angry Hit, Angry Shout, Apocalyptic Burst, Arm Crash**. Recompute the live census first; research only fields in scope and preserve existing uncertainty.
