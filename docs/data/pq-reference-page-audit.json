@@ -50,7 +50,6 @@
     "reference_page_farming_set_matches": true,
     "stale_pq13_farming_claim_absent": true,
     "skill_edge_count_is_244": true,
-    "super_soul_edge_count_is_151": true,
     "equipment_edge_count_is_124": true,
     "character_edge_count_is_247": true,
     "dlc_edge_count_is_86": true,
@@ -63,14 +62,15 @@
     "explorer_loads_canonical_relationship_layer": true,
     "explorer_treats_pq_records_as_array": true,
     "explorer_treats_relationships_as_array": true,
-    "explorer_has_canonical_search_surface": true
+    "explorer_has_canonical_search_surface": true,
+    "super_soul_edge_count_is_146": true
   },
   "status": "clean",
   "evidence_boundary": "Deterministic count/set/navigation repair plus published explorer dependency/collection-shape validation; no new relationship edges or unsupported mechanics were inferred.",
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "validator": "scripts/validate_pq_reference_pages.py",
   "validator_commit": "d43d43302b4d255a0a7b853aa22f22a8a847d05f",
-  "live_validation_note": "Current canonical layer and consumer pages align at 186 PQ records, 859 relationship edges, exact domain counts 244/151/124/247/86/7, and farming set PQ15/PQ22/PQ44/PQ45/PQ68/PQ83/PQ88.",
+  "live_validation_note": "Current canonical layer and consumer pages align at 186 PQ records, 854 relationship edges, exact domain counts 244/146/124/247/86/7, and farming set PQ15/PQ22/PQ44/PQ45/PQ68/PQ83/PQ88.",
   "identity_contract": {
     "canonical_pq_numbers": "exact 1..186",
     "unique_pq_ids": true,
