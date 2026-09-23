@@ -4436,3 +4436,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: **234 canonical / 0 duplicate IDs / 130 strict-thin records**; JSON parse succeeded; audit registration parity clean; no internal AI/UI/search citation artifacts detected.
 - CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - Exact next batch: recompute the live strict-thin queue and select the next evidence-supported early/base-game/high-impact cluster; keep **032/034** as explicit evidence boundaries unless independent exact-name mechanics evidence resolves them.
+
+
+### 2026-09-22 cycle update — Super Soul 044/045/046/054/055/178/185 secondary-field reconciliation
+- Live census before editing: **234 canonical / 0 duplicate IDs / 130 strict-thin records**.
+- Bounded batch: **044, 045, 046, 054, 055, 178, 185**.
+- Research/evidence: exact-name Super Soul catalogue plus independent GameFAQs raid/DLC documentation and existing repository research-corpus evidence.
+- Changes: populated Limit Burst effects for **044/045/046**; set **054/055** stacking to **Not reported as stackable**; made **178/185** non-timed duration semantics explicit.
+- Evidence limits preserved: **044** has a documented Ki-vs-Stamina wording discrepancy in its main effect, so that unrelated field was not rewritten; stacking for **044–046** remains unresolved because this pass did not establish a rule/cap.
+- Added/registered audit: `docs/data/super-soul-044-045-046-054-055-178-185-secondary-field-reconciliation-2026-09-22.json`.
+- Validation: **234 canonical / 0 duplicate IDs / 123 strict-thin records**; changed JSON parsed successfully; audit registration confirmed; no unsupported values were inferred.
+- CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- Exact next batch: recompute the live strict-thin queue and continue the next evidence-supported one-field cluster, prioritizing exact-name evidence and cross-database usefulness while preserving real evidence boundaries.
