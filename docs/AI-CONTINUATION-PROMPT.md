@@ -4231,3 +4231,17 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Canonical commit: **46e6deb1efd6a62c5e6fd4f9277d1b892d66cbd9**; census commit: **c69890aae01b0677bacd450554cd424e3c924c64**.
 - [ ] CI/runtime: no successful workflow/check exposed; do not claim CI success.
 - [ ] Exact next batch: continue deterministic partially-verified Super Soul reconciliation, prioritizing **155, 173, 175, 179, 187, 197, 032**, while keeping **034** evidence-bound unless exact-name item-level mechanics become independently established.
+
+
+### 2026-09-22 cycle update — Super Souls 155/173/175/179/187/197 evidence reconciliation + 032 boundary review
+- [x] Recomputed the live canonical Super Soul layer before editing: **234 records / 0 duplicate IDs**.
+- [x] Bounded batch: **155, 173, 175, 179, 187, 197**, the next deterministic high-source partially-verified records from the prior queue.
+- [x] Promoted all six to `verified_secondary` after independent exact-name mechanics/acquisition corroboration.
+- [x] Preserved 179's documented **-20% guard-break recovery** value; historical ~29–30% community testing was not promoted over the maintained canonical/stat-sheet value.
+- [x] Added independent character/DLC/reference evidence where useful, including the Majin Buu page for 187 and current GameFAQs evidence for 197.
+- [x] Re-audited **032** and retained `partially_verified`: PQ185 acquisition is corroborated, but item-level mechanics remain secondary/community-tested and its Limit Burst remains unresolved.
+- [x] Added and registered `docs/data/super-soul-155-173-175-179-187-197-032-evidence-reconciliation-2026-09-22.json`.
+- [x] No canonical PQ relationship identities changed; no reward probabilities, unsupported Ultimate-Finish requirements, or engine-level mechanics were invented.
+- [x] Live status counts after the batch: **71 partially_verified / 11 verified / 112 verified_secondary / 27 researched / 13 indexed**; strict-thin census remains a field-completeness metric and was not artificially reduced by status changes.
+- [ ] CI/runtime: no successful workflow/check exposed; do not claim CI success.
+- [ ] Exact next priority: recompute the live strict-thin Super Soul census and select the next **4–12 evidence-supported partially-verified records** with multiple unresolved applicable fields. Preserve **034** as an evidence boundary and do not force unresolved mechanics.
