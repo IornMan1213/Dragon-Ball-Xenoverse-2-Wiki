@@ -3945,3 +3945,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Evidence limits preserved; no unsupported drop rates or Ultimate-Finish conditions added.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Exact next batch: recompute the live indexed/thin census and select the next 4–12 indexed records with exact-name evidence and reusable cross-domain relationships.
+
+
+### 2026-09-22 cycle update — Super Soul 191–199 provenance/mechanics refresh
+- [x] Live census before editing: 234 canonical Super Souls / 52 indexed-status records; 52 thin under the strict eight-field completeness check.
+- [x] Bounded batch: **super-soul-191 through super-soul-199**.
+- [x] Refreshed 9 records with character/DLC provenance, triggers, effects, magnitudes, supported durations/stacking, Limit Bursts, verification date, and sources.
+- [x] Preserved PQ edges: 191→116, 192→117, 193→118, 194→119, 195→120, 196→120, 197→121, 198→122, 199→122.
+- [x] Added and registered `docs/data/super-soul-191-through-199-provenance-audit-2026-09-22.json`.
+- [x] Evidence boundaries preserved; no unsupported reward probabilities or Ultimate-Finish conditions added.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Exact next batch: recompute the live indexed/thin census and select the next 4–12 highest-impact indexed records with exact-name evidence and reusable cross-domain relationships.
