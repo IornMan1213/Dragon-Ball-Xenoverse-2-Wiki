@@ -1396,18 +1396,20 @@
       "effect_magnitude": "M to both effects",
       "duration": null,
       "stacking_behavior": null,
-      "limit_burst": null,
+      "limit_burst": "Auto Health and Stamina Recovery! DEF Down.",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
       "usable_by_cac": null,
       "race_restriction": null,
       "version_notes": "The repository preserves the Temporal Seam acquisition as the canonical route; a separate collaboration-event report is not used as a required acquisition condition.",
       "verification_status": "verified_secondary",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/guess-you-can-fight.md",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
-      ]
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+      ],
+      "notes": " 2026-09-22 secondary-field reconciliation: exact-name Fandom and independent GameFAQs evidence corroborate the Limit Burst; unresolved duration/stacking fields were intentionally preserved."
     },
     {
       "id": "super-soul-054",
@@ -1480,19 +1482,21 @@
       "effect_magnitude": "XL damage reduction; M Strike Skills",
       "duration": null,
       "stacking_behavior": null,
-      "limit_burst": null,
+      "limit_burst": "Auto Just Guard",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": null,
       "race_restriction": null,
       "dlc_requirement": "None identified",
       "version_notes": "Community measurements in source corpus are not promoted to exact canonical percentages.",
       "verification_status": "verified_secondary",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-refuse-to-give-up.md",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
-      ]
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+      ],
+      "notes": " 2026-09-22 secondary-field reconciliation: exact-name Fandom and independent GameFAQs evidence corroborate the Limit Burst; unresolved duration/stacking fields were intentionally preserved."
     },
     {
       "id": "super-soul-057",
@@ -1563,19 +1567,21 @@
       "effect_magnitude": "XL first Evasive; L Miracle Kneel",
       "duration": null,
       "stacking_behavior": null,
-      "limit_burst": null,
+      "limit_burst": "Auto Health and Stamina Recovery! DEF Down.",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
       "usable_by_cac": null,
       "race_restriction": null,
       "dlc_requirement": "None identified",
       "version_notes": "Community-measured stamina values are not promoted to exact canonical values.",
       "verification_status": "verified_secondary",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-im-sorry.md",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
-      ]
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+      ],
+      "notes": " 2026-09-22 secondary-field reconciliation: exact-name Fandom and independent GameFAQs evidence corroborate the Limit Burst; unresolved duration/stacking fields were intentionally preserved."
     },
     {
       "id": "super-soul-060",
@@ -1742,18 +1748,20 @@
       "effect_magnitude": "L",
       "duration": null,
       "stacking_behavior": null,
-      "limit_burst": null,
+      "limit_burst": "Auto Health and Stamina Recovery! DEF Down.",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
       "usable_by_cac": null,
       "race_restriction": null,
       "version_notes": "Community-measured percentages/durations are not promoted to exact canonical values.",
       "verification_status": "verified_secondary",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/thanks-dende.md",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
-      ]
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+      ],
+      "notes": " 2026-09-22 secondary-field reconciliation: exact-name Fandom and independent GameFAQs evidence corroborate the Limit Burst; unresolved duration/stacking fields were intentionally preserved."
     },
     {
       "id": "super-soul-067",
