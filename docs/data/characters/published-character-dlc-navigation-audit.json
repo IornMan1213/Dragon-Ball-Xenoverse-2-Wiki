@@ -30,8 +30,8 @@
   },
   "identity_contracts": {
     "character_layer": {
-      "canonical_character_count": 149,
-      "canonical_character_unique_count": 149,
+      "canonical_character_count": 151,
+      "canonical_character_unique_count": 151,
       "canonical_character_types_ok": true
     },
     "dlc_character_bridge": {
@@ -59,7 +59,7 @@
   "findings": [
     "Characters.md contained a stale local link to Characters-All.md; the published explorer is Characters-All.html.",
     "All checked local Character/DLC navigation targets exist on main.",
-    "Resolved DLC-character provenance aliases map only to canonical character identities; two unresolved source labels remain explicit.",
+    "Resolved Goku (Ultra Supervillain Quelled) after it entered the canonical layer; Supreme Kai of Time (Ultra Supervillain) remains explicitly unresolved.",
     "All 20 canonical pq_requires_dlc targets resolve exactly once to the standalone DLC identity layer; no orphan DLC identity record is present.",
     "No canonical character, DLC, or PQ relationship identity was changed.",
     "Validator hardening now rejects duplicate published href occurrences, malformed character/DLC identity field types, duplicate bridge targets, duplicate canonical PQ→DLC targets, and malformed PQ→DLC target values."
@@ -69,16 +69,16 @@
     "page_links": "clean",
     "character_identity_bridge": "clean",
     "canonical_dlc_identity": "clean",
-    "live_census": "149 canonical characters / 15 DLC-character bridge records / 20 canonical DLC identities / 86 canonical PQ→DLC edges",
+    "live_census": "151 canonical characters / 15 DLC-character bridge records / 20 canonical DLC identities / 86 canonical PQ→DLC edges",
     "validator_hardening": "clean"
   },
   "status": "clean",
-  "validator_commit": "93cf57755cbca321b476f5d5e4aac52b717b40c3",
+  "validator_commit": "14a328ecedc720ccaaf2ece46b582d6a474ab77d6",
   "results": {
     "dLC_overview_character_navigation": {
       "source_records": 15,
       "resolved_records": 13,
-      "unresolved_records": 2,
+      "unresolved_records": 1,
       "status": "clean_with_explicit_unresolved"
     }
   },
