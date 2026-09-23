@@ -81,11 +81,12 @@
         "parallel_quests",
         "skills",
         "costumes",
-        "stage"
+        "stage",
+        "illustrations"
       ],
       "status": "identity_and_PQ_projection_resolved; paid costume/accessory count and stage identity reconciled; dedicated stage/extra-mission record layers remain unresolved",
       "record_link_repair": "Corrected malformed equipment pq_sources identifiers for its canonical PQ set; non-PQ inventory remains unresolved.",
-      "downstream_matrix_status": "Paid five-item costume/accessory inventory reconciled to canonical records; 7 skills and 5 Super Souls count-reconciled; stage and extra-mission identities remain pack-level.",
+      "downstream_matrix_status": "Paid five-item costume/accessory inventory reconciled to canonical records; 7 skills, 5 Super Souls, 3 characters, and 15 paid illustrations count-reconciled; stage and extra-mission identities remain pack-level.",
       "resolved_domains": [
         "characters",
         "extra_missions_count",
@@ -93,9 +94,11 @@
         "skills",
         "super_souls",
         "costumes_accessories",
-        "stage_identity"
+        "stage_identity",
+        "illustrations_count"
       ],
-      "pack_content_audit": "docs/data/dlc/hero-of-justice-pack-2-paid-content-reconciliation-2026-09-23.json"
+      "pack_content_audit": "docs/data/dlc/hero-of-justice-pack-2-paid-content-reconciliation-2026-09-23.json",
+      "illustration_content_audit": "docs/data/dlc/hero-of-justice-pack-2-paid-illustration-scope-reconciliation-2026-09-23.json"
     }
   ],
   "rules": [
