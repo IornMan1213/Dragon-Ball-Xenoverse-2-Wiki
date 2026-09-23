@@ -1861,3 +1861,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - 025: duration marked **N/A**; its existing once-only trigger behavior remains explicitly captured in `stacking_behavior`.
 - Added and registered `docs/data/super-soul-secondary-field-reconciliation-024-025-2026-09-22.json`.
 - No acquisition, PQ, effect magnitude, or Limit Burst semantics were changed.
+
+
+## 2026-09-22 — Super Soul secondary-field reconciliation (007 / 047)
+- Reconciled **007 Gyau!!!!**: exact-name catalogue/guide evidence documents no special passive effect, so trigger, magnitude, duration, and stacking are `N/A`.
+- Reconciled **047 Kicking a Shadow Dragon in the head is not a wise thing to do!**: independently documented Limit Burst is `Auto Health and Stamina Recovery!; DEF Down.`
+- Preserved all unresolved mechanics rather than inferring them.
+- Added and registered `docs/data/super-soul-secondary-field-reconciliation-007-047-2026-09-22.json`.
