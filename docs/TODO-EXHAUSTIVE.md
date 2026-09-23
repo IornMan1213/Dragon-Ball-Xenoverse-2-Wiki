@@ -4403,3 +4403,12 @@
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Audit blob was prepared, but final audit-file attachment/commit is still pending connector write-path completion.
 - [ ] Exact next batch: Solar Flare, Sonic Bomb, Sonic Rush, Special Beam Cannon, Special Beam Cannon (Beast), Sphere of Destruction, Spirit Ball, Spirit Blaster, Spirit Bomb, Spirit Boost, Spirit Explosion, Spirit Pulse.
+
+
+### 2026-09-23 — TODO completion update — P1 Solar Flare through Spirit Pulse skill provenance/mechanics
+- [x] Completed 12 skills: Solar Flare, Sonic Bomb, Sonic Rush, Special Beam Cannon, Special Beam Cannon (Beast), Sphere of Destruction, Spirit Ball, Spirit Blaster, Spirit Bomb, Spirit Boost, Spirit Explosion, Spirit Pulse.
+- [x] Synchronized canonical/index last_verified to 2026-09-23 and refreshed bounded provenance/mechanics notes from maintained repository sources and current exact-name references.
+- [x] Preserved documented reward-tier conflicts, including Special Beam Cannon (Beast), and did not infer unsupported probabilities or prerequisites.
+- [x] Refreshed docs/data/skill-stale-metadata-census-2026-09-23.json: 455 canonical / 455 index / 379 current / 76 stale / 0 duplicate IDs.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next batch: Spirit Slash, Spread Shot Retreat, Steel Mirage, Stone Bullet, Strike of Revelation, Sudden Death Beam, Sudden Storm, Super Afterimage, Super Black Kamehameha Rosé, Super Donut Volley, Super Dragon Flight, Super Elite Combo.
