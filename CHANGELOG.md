@@ -2604,3 +2604,12 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Research included repository exact-name sources plus independent/current corroboration; no unsupported drop probability, damage number, or CaC restriction was inferred.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next batch: Gigantic Roar, God Breaker, God of Destruction's Anger, God of Destruction's Menace, God of Destruction's Might, God of Destruction's Plaything, God of Destruction's Poise, God of Destruction's Rampage, God of Destruction's Roar, God of Destruction's Wrath, God Punisher, God Splitter.
+
+
+### 2026-09-23 — P1 Gigantic Roar through God Splitter skill provenance/mechanics refresh
+- Completed 12 skills: Gigantic Roar, God Breaker, God of Destruction's Anger, God of Destruction's Menace, God of Destruction's Might, God of Destruction's Plaything, God of Destruction's Poise, God of Destruction's Rampage, God of Destruction's Roar, God of Destruction's Wrath, God Punisher, God Splitter.
+- Refreshed canonical/index last_verified to 2026-09-23 and appended bounded evidence notes; existing acquisition semantics, conflicts, and deferred mechanics were preserved.
+- Added/registered docs/data/skill-provenance-audit-2026-09-23-gigantic-roar-through-god-splitter.json.
+- Validation: 455 canonical / 455 index / 0 duplicate IDs / 232 stale; target parity mismatches 0.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next batch: Godly Chronos Cannon, Godly Display, Gorgeous Shot, Grand Smasher, Gravity Impact, Handy Canon, Hawk Charge, Headshot, Heat Dome Attack, Heat Wave, Heavenly Arrow, Hell Flash.
