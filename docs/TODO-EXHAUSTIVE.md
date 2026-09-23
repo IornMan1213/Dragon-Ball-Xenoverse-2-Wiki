@@ -3554,3 +3554,14 @@
 - [x] Registered the count audit and updated the DLC content matrix.
 - [x] Closed the skill/Super Soul completeness gap for these two paid packs; no unsupported records were invented.
 - [ ] Exact next batch: move to the remaining paid-DLC content domains (HOJ2 costumes/accessories and stage/missions, then DAIMA non-skill/Super-Soul inventory) using official count checks and canonical cross-links.
+
+
+### 2026-09-23 — TODO completion update — HERO OF JUSTICE Pack 2 paid content reconciliation
+- [x] Reconciled the Pack 2 paid costume/accessory inventory against the official count of 5 and five exact canonical PQ-backed records: acc-069 Dr. Hedo Hood, acc-060 Red Ribbon Army Helmet, equip-067 Red Ribbon Soldier 94 Clothes, equip-068 Dr. Hedo Suit, and acc-061 Gohan (Beast) Wig.
+- [x] Reconciled the official 1 new stage identity as Red Ribbon Army (Yard) at pack scope without creating a synthetic stage record.
+- [x] Reconciled the official 2 Extra Missions count at pack scope without creating synthetic mission IDs because no dedicated extra-mission record layer exists.
+- [x] Preserved the paid/free boundary: Cell Max raid costume/accessory rewards remain outside the paid five-item Pack 2 inventory.
+- [x] Added and registered docs/data/dlc/hero-of-justice-pack-2-paid-content-reconciliation-2026-09-23.json and updated the DLC content matrix/link audit.
+- [x] Existing skill/Super Soul count reconciliation remains 7/7 skills and 5/5 Super Souls.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: continue DAIMA paid non-skill/Super-Soul inventory reconciliation, starting with the concrete costume/accessory cohort and official pack-level scope; do not merge free-update records or invent unresolved raid/lobby/stage entries.
