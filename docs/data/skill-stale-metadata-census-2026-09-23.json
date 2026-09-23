@@ -6,47 +6,23 @@
   "live_counts": {
     "canonical_skill_records": 455,
     "index_skill_records": 455,
-    "current_last_verified_records": 439,
-    "stale_last_verified_records": 16,
+    "current_last_verified_records": 451,
+    "stale_last_verified_records": 4,
     "duplicate_ids": 0
   },
-  "method": "Fresh alphabetical census after the Time Skip/Tremor Pulse through Vanishing Ball provenance refresh.",
+  "method": "Fresh alphabetical census after the Variable Snipe Shot through Wild Stinger provenance refresh.",
   "next_stale_records": [
     {
-      "name": "Variable Snipe Shot"
+      "name": "Wolf Fang Fist"
     },
     {
-      "name": "Variant Drive"
+      "name": "X 100 Big Bang Kamehameha"
     },
     {
-      "name": "Venus Fist"
+      "name": "x10 Kamehameha"
     },
     {
-      "name": "Victory Cannon"
-    },
-    {
-      "name": "Victory Rush"
-    },
-    {
-      "name": "Volleyball Fist"
-    },
-    {
-      "name": "Wall of Defense"
-    },
-    {
-      "name": "Warp Kamehameha"
-    },
-    {
-      "name": "Weekend"
-    },
-    {
-      "name": "Wild Buster"
-    },
-    {
-      "name": "Wild Hunt"
-    },
-    {
-      "name": "Wild Stinger"
+      "name": "Zigzag Express"
     }
   ],
   "validation": {
