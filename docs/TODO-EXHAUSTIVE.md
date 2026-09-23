@@ -3852,3 +3852,11 @@
 - [x] Preserved the evidence boundary: PQ186 reward identity is confirmed, but character source, effect, trigger, duration, stacking, and Limit Burst remain unresolved; no Fu attribution was inferred from adjacent clothing rewards.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next task: research **Super Soul 217** for an exact item-level Limit Burst/trigger source; if unresolved, proceed to **158** collision-safe evidence, then **032**.
+
+
+### 2026-09-23 — TODO completion update — Super Soul 158 identity conflict
+- [x] Researched exact-name identity for **Super Soul 158 — “Do or Die”** using independent Xenoverse 2 sources. The name resolves to Nail's **Power Up Type Super Skill**, obtained from PQ49; Nail's Super Soul is **“I must protect Grand Elder Guru!”**. citeturn3search0turn3search2
+- [x] Converted record 158 from an apparently canonical Super Soul entry to an explicit **identity-conflict placeholder**; cleared unsupported Super Soul mechanics/acquisition fields while preserving the PQ49 provenance boundary.
+- [x] Added `docs/data/super-soul-158-identity-conflict-reconciliation-2026-09-23.json` and refreshed the strict-thin checkpoint.
+- [ ] Resolve the canonical ID mapping for the conflict placeholder without silently renaming or merging records.
+- [ ] Then continue **Super Soul 217** Limit Burst evidence, followed by **032**.
