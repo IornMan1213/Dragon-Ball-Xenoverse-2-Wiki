@@ -5406,3 +5406,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: current consumer contracts remain synchronized; CI/runtime unavailable.
 - Commits: census 4c3e1bddce88d9bcd1b489f54e4310bb142667b6; registry 0429c1311a32b559c8d7b7cf4977da03287eb74e.
 - Exact next batch: transition to the P1 exhaustive provenance/data queue, beginning with the strict-thin Super Soul records identified by the current research census.
+
+
+### 2026-09-23 cycle update — Super Soul 034 item-level evidence boundary
+- Live census: **229 canonical / 0 duplicate IDs / 4 strict-thin records** (032, 034, 158, 217).
+- Bounded batch: **Super Soul 034 — “The final battle begins now.”**.
+- Research/evidence: fresh independent PQ guide evidence confirms the exact-name reward in **PQ186 — Frieza's Right-Hand Man**; official Bandai Namco/Nintendo sources continue to establish Future Saga Chapter 4 provenance. citeturn3search0turn3search1
+- Changes: added/registered `docs/data/super-soul-034-item-level-evidence-reconciliation-2026-09-23.json`; refreshed `docs/data/super-soul-strict-thin-checkpoint-2026-09-23.json`; registered the audit in `docs/data/pq-cross-domain-index.json`; logged the cycle in `CHANGELOG.md` and `docs/TODO-EXHAUSTIVE.md`.
+- Evidence limits preserved: no character attribution, trigger, effect, duration, stacking, Limit Burst, drop probability, or Ultimate-Finish mapping was inferred. In particular, proximity to Fu clothing rewards is not treated as item-level proof of Fu ownership.
+- Validation: canonical Super Soul record unchanged; **229 canonical / 0 duplicate IDs / 4 strict-thin records**; audit registration and checkpoint refresh completed.
+- CI/runtime: unavailable; no CI success claimed.
+- Exact next batch: **Super Soul 217** Limit Burst/item-level evidence research; if unresolved, **158** collision-safe evidence research; then **032**.
