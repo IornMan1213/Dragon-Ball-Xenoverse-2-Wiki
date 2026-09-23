@@ -4424,3 +4424,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Added and registered `docs/data/super-soul-104-151-153-reconciliation-2026-09-22.json`.
 - **217 remains unresolved** because exact-name Limit Burst evidence was not independently established in this pass.
 - Exact next task: continue the next evidence-supported unresolved cluster; preserve **032/034** as evidence boundaries.
+
+
+### 2026-09-22 cycle update — Super Soul 049/053/056/058/059/060/063/065 secondary-field reconciliation
+- Live census before editing: **234 canonical / 0 duplicate IDs / 138 strict-thin records**.
+- Bounded batch: **Super Souls 049, 053, 056, 058, 059, 060, 063, and 065**.
+- Research/evidence: maintained exact-name Super Soul catalogue plus the independent historical GameFAQs Super Soul guide already attached to the canonical records; repository research-corpus entries were retained where applicable.
+- Changes: explicit duration semantics added for always-active, condition-bound, one-time, and trigger-bound effects; `stacking_behavior` set to **Not reported as stackable** where no documented stacking rule/cap exists.
+- Evidence limits preserved: no numeric timer, stack cap, acquisition probability, Ultimate-Finish condition, or unrelated mechanic was inferred.
+- Added/registered audit: `docs/data/super-soul-049-053-056-058-059-060-063-065-secondary-field-reconciliation-2026-09-22.json`.
+- Validation: **234 canonical / 0 duplicate IDs / 130 strict-thin records**; JSON parse succeeded; audit registration parity clean; no internal AI/UI/search citation artifacts detected.
+- CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- Exact next batch: recompute the live strict-thin queue and select the next evidence-supported early/base-game/high-impact cluster; keep **032/034** as explicit evidence boundaries unless independent exact-name mechanics evidence resolves them.
