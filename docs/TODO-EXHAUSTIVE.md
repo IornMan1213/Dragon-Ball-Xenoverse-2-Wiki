@@ -3834,3 +3834,12 @@
 - [x] Added/registered the bounded correction audit; canonical relationship arrays and aliases unchanged.
 - [ ] CI/runtime remains unavailable.
 - [ ] Exact next batch: continue active current-state endpoint/status consumer census.
+
+
+### 2026-09-23 — TODO completion update — Current-state PQ consumer census
+- [x] Scanned remaining current-looking PQ consumer scalar/list/endpoint-count assumptions.
+- [x] Confirmed no remaining deterministic current-state drift in the bounded consumer set.
+- [x] Added/registered docs/data/pq-current-state-consumer-census-2026-09-23.json.
+- [x] Historical snapshots preserved.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: begin P1 exhaustive provenance/data work on the strict-thin Super Soul queue.
