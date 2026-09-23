@@ -5,84 +5,12 @@
   "source_of_truth": "docs/data/skills.json",
   "live_counts": {
     "canonical_skill_records": 455,
-    "stale_last_verified_records": 292,
-    "current_last_verified_records": 163,
+    "stale_last_verified_records": 280,
+    "current_last_verified_records": 175,
     "duplicate_ids": 0
   },
   "method": "Fresh alphabetical census of canonical records where last_verified != 2026-09-23.",
   "next_stale_records": [
-    {
-      "id": "skill-fierce-fist",
-      "name": "Fierce Fist",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-fighting-pose-a",
-      "name": "Fighting Pose A",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-fighting-pose-c",
-      "name": "Fighting Pose C",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-fighting-pose-e",
-      "name": "Fighting Pose E",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-fighting-pose-f",
-      "name": "Fighting Pose F",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-fighting-pose-h",
-      "name": "Fighting Pose H",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-fighting-pose-k",
-      "name": "Fighting Pose K",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-final-cannon",
-      "name": "Final Cannon",
-      "last_verified": "2026-09-22",
-      "source_count": 4
-    },
-    {
-      "id": "skill-final-charge",
-      "name": "Final Charge",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-final-explosion",
-      "name": "Final Explosion",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-final-flash",
-      "name": "Final Flash",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-final-flash-ss3-daima",
-      "name": "Final Flash (SS3 DAIMA)",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
     {
       "id": "skill-final-flash-super",
       "name": "Final Flash (Super)",
@@ -130,6 +58,78 @@
       "name": "Flash Chaser",
       "last_verified": "2026-09-22",
       "source_count": 5
+    },
+    {
+      "id": "skill-flash-fist-crush",
+      "name": "Flash Fist Crush",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-flash-strike",
+      "name": "Flash Strike",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-focus-flash",
+      "name": "Focus Flash",
+      "last_verified": "2026-09-22",
+      "source_count": 6
+    },
+    {
+      "id": "skill-force-edge",
+      "name": "Force Edge",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-force-shield",
+      "name": "Force Shield",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-formation",
+      "name": "Formation!",
+      "last_verified": "2026-09-22",
+      "source_count": 5
+    },
+    {
+      "id": "skill-freedom-kick",
+      "name": "Freedom Kick",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-fruit-of-the-tree-of-might",
+      "name": "Fruit of the Tree of Might",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-full-power-charge",
+      "name": "Full Power Charge",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-full-power-destruction",
+      "name": "Full Power Destruction",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-future-super-saiyan",
+      "name": "Future Super Saiyan",
+      "last_verified": "2026-09-22",
+      "source_count": 7
+    },
+    {
+      "id": "skill-galactic-donuts",
+      "name": "Galactic Donuts",
+      "last_verified": "2026-09-22",
+      "source_count": 4
     }
   ],
   "validation": {
