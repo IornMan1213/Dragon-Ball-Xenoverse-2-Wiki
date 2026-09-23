@@ -4241,3 +4241,12 @@
 - [x] Validation: 455/455 / 0 duplicate IDs / 256 stale; target parity clean.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next batch: Genocide Shell, Giant Storm, Gigantic Breaker, Gigantic Burst, Gigantic Charge, Gigantic Cluster, Gigantic Cross, Gigantic Explosion, Gigantic Meteor, Gigantic Nova, Gigantic Omega, Gigantic Rage. Recompute live stale queue before editing.
+
+
+### 2026-09-23 — TODO completion update — P1 Genocide-through-Gigantic Rage skill provenance/mechanics
+- [x] Completed 12 skills: Genocide Shell, Giant Storm, Gigantic Breaker, Gigantic Burst, Gigantic Charge, Gigantic Cluster, Gigantic Cross, Gigantic Explosion, Gigantic Meteor, Gigantic Nova, Gigantic Omega, Gigantic Rage.
+- [x] Synchronized canonical/index last_verified to 2026-09-23 and refreshed bounded mechanics/provenance notes.
+- [x] Added/registered docs/data/skill-provenance-audit-2026-09-23-genocide-through-gigantic-rage.json.
+- [x] Validation: 455/455 / 0 duplicate IDs / 244 stale; target parity clean.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next batch: Gigantic Roar, God Breaker, God of Destruction's Anger, God of Destruction's Menace, God of Destruction's Might, God of Destruction's Plaything, God of Destruction's Poise, God of Destruction's Rampage, God of Destruction's Roar, God of Destruction's Wrath, God Punisher, God Splitter. Recompute live stale queue first.
