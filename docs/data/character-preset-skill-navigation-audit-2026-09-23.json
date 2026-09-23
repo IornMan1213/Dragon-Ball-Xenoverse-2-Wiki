@@ -16,8 +16,8 @@
     "resolved_skill_character_edges": 50,
     "preset_characters_with_character_source_skill_identity": 5,
     "preset_characters_without_character_source_skill_identity": 7,
-    "verified_preset_loadout_records": 7,
-    "verified_loadout_skill_entries": 44
+    "verified_preset_loadout_records": 13,
+    "verified_loadout_skill_entries": 83
   },
   "checks": {
     "all_preset_character_ids_resolve_via_explicit_bridge": true,
@@ -184,9 +184,66 @@
       "character_id": "vegito",
       "preset_number": 3,
       "source": "https://dbxv2.fandom.com/wiki/Vegito"
+    },
+    {
+      "id": "vegeta-preset-8",
+      "character_id": "vegeta",
+      "preset_number": 8,
+      "source": "https://dbxv2.fandom.com/wiki/Vegeta",
+      "skill_names": [
+        "Sledgehammer",
+        "Energy Wave Combo",
+        "Big Bang Attack",
+        "Full Power Charge",
+        "Final Flash",
+        "Explosive Wave",
+        "Super Vegeta"
+      ]
+    },
+    {
+      "id": "captain-ginyu-preset-2",
+      "character_id": "captain-ginyu",
+      "preset_number": 2,
+      "source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu",
+      "skill_names": [
+        "Sledgehammer",
+        "Milky Cannon",
+        "Holstein Shock",
+        "Fighting Pose F",
+        "Full Power Energy Wave",
+        "Body Change",
+        "Break Strike"
+      ]
+    },
+    {
+      "id": "captain-ginyu-preset-3",
+      "character_id": "captain-ginyu",
+      "preset_number": 3,
+      "source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu",
+      "skill_names": [
+        "Sledgehammer",
+        "Milky Cannon",
+        "Consecutive Energy Blast",
+        "Fighting Pose F",
+        "Body Change"
+      ]
+    },
+    {
+      "id": "captain-ginyu-preset-4",
+      "character_id": "captain-ginyu",
+      "preset_number": 4,
+      "source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu",
+      "skill_names": [
+        "Ki Explosion",
+        "Milky Cannon",
+        "Backflip",
+        "Charged Ki Wave",
+        "Full Power Energy Wave",
+        "Break Strike"
+      ]
     }
   ],
-  "evidence_boundary": "Nine preset records have explicit sourced loadouts; remaining indexed records stay unresolved unless an explicit source identifies the same preset number/name. Festival/custom-partner configurations remain separate.",
+  "evidence_boundary": "Thirteen preset records have explicit sourced loadouts; remaining indexed records stay unresolved unless an explicit source identifies the same preset number/name. Captain Ginyu body-swap loadouts are verified at the presentation/preset layer without changing canonical character identity; the source labels the Trunks body row simply 'Trunks'. Festival/custom-partner configurations remain separate.",
   "source_backed_candidates_reviewed": [
     {
       "character_id": "goku",
@@ -197,7 +254,65 @@
     }
   ],
   "next": "Continue source-backed preset-loadout reconciliation in bounded batches; prioritize records where the source explicitly identifies the same preset number/name used by the repository. Do not convert Goku's named table rows into numeric preset IDs until an explicit mapping source is found.",
-  "verified_preset_loadout_records": 9,
+  "verified_preset_loadout_records": [
+    {
+      "id": "vegeta-preset-8",
+      "character_id": "vegeta",
+      "preset_number": 8,
+      "source": "https://dbxv2.fandom.com/wiki/Vegeta",
+      "skill_names": [
+        "Sledgehammer",
+        "Energy Wave Combo",
+        "Big Bang Attack",
+        "Full Power Charge",
+        "Final Flash",
+        "Explosive Wave",
+        "Super Vegeta"
+      ]
+    },
+    {
+      "id": "captain-ginyu-preset-2",
+      "character_id": "captain-ginyu",
+      "preset_number": 2,
+      "source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu",
+      "skill_names": [
+        "Sledgehammer",
+        "Milky Cannon",
+        "Holstein Shock",
+        "Fighting Pose F",
+        "Full Power Energy Wave",
+        "Body Change",
+        "Break Strike"
+      ]
+    },
+    {
+      "id": "captain-ginyu-preset-3",
+      "character_id": "captain-ginyu",
+      "preset_number": 3,
+      "source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu",
+      "skill_names": [
+        "Sledgehammer",
+        "Milky Cannon",
+        "Consecutive Energy Blast",
+        "Fighting Pose F",
+        "Body Change"
+      ]
+    },
+    {
+      "id": "captain-ginyu-preset-4",
+      "character_id": "captain-ginyu",
+      "preset_number": 4,
+      "source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu",
+      "skill_names": [
+        "Ki Explosion",
+        "Milky Cannon",
+        "Backflip",
+        "Charged Ki Wave",
+        "Full Power Energy Wave",
+        "Break Strike"
+      ]
+    }
+  ],
   "verified_loadout_skill_entries": 58,
   "verified_loadouts_have_explicit_sources": true
 }
