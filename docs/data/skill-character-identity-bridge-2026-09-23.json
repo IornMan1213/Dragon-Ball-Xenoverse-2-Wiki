@@ -320,6 +320,36 @@
       ],
       "status": "resolved",
       "basis": "Current Xenoverse 2 documentation states Zigzag Express can only be used by Majin Male CaCs, matching the canonical Majin (Male) identity."
+    },
+    {
+      "skill_id": "skill-sauzer-blade",
+      "skill_name": "Sauzer Blade",
+      "source_token": "Sauzer",
+      "canonical_character_names": [
+        "Jeice"
+      ],
+      "status": "resolved",
+      "basis": "Current Xenoverse 2 skill documentation identifies Jeice as the user of Sauzer Blade; the canonical character roster contains Jeice."
+    },
+    {
+      "skill_id": "skill-spirit-explosion",
+      "skill_name": "Spirit Explosion",
+      "source_token": "Cooler",
+      "canonical_character_names": [
+        "Cooler (Final Form)"
+      ],
+      "status": "resolved",
+      "basis": "Current Xenoverse 2 documentation identifies Spirit Explosion as a skill used by Cooler (Final Form); the canonical roster contains that identity."
+    },
+    {
+      "skill_id": "skill-spread-shot-retreat",
+      "skill_name": "Spread Shot Retreat",
+      "source_token": "Frieza",
+      "canonical_character_names": [
+        "Frieza (1st Form)"
+      ],
+      "status": "resolved",
+      "basis": "Current Xenoverse 2 character/skill documentation explicitly lists Spread Shot Retreat for Frieza (1st Form)'s Customize Partner moveset; the canonical roster contains that identity. Other characters also use the skill, so this edge represents the source-token identity rather than exhaustive equipability."
     }
   ]
 }
