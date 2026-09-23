@@ -2719,3 +2719,9 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Added stable canonical Skill Shop and TP/STP Medal Shop endpoint IDs and deterministic forward/reverse projections for **23** shop-linked skills (**12 + 11**).
 - Added the bounded endpoint-layer audit and updated the cross-database link contract.
 - Historical rotation/price evidence remains provenance; no current-availability or unsupported alternate-route claim was introduced.
+
+
+### 2026-09-23 — Preset navigation audit canonical-list synchronization
+- Repaired the duplicate-key structure in `docs/data/character-preset-skill-navigation-audit-2026-09-23.json` by deriving its verified-loadout list directly from the canonical preset record layer.
+- Synchronized the audit to **23 verified loadouts / 130 verified loadout skill entries** and preserved all unresolved preset evidence boundaries.
+- Commit: `395e30de930397b39cfb1fcafd20b05b78439416`.
