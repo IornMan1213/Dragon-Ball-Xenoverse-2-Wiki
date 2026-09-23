@@ -68,29 +68,33 @@
       "pq_record_id": "pqacc-034",
       "name": "SS4 Goku (DAIMA) Wig & Tail",
       "pq": 179,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-019 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "status": "matched",
+      "reason": "Exact-name identity normalized to canonical accessory ID; previous accr endpoint was historical and is superseded by the current acc-### identity.",
+      "canonical_id": "acc-071"
     },
     {
       "pq_record_id": "pqacc-035",
       "name": "SS3 Vegeta (DAIMA) Wig",
       "pq": 180,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-020 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "status": "matched",
+      "reason": "Exact-name identity normalized to canonical accessory ID; previous accr endpoint was historical and is superseded by the current acc-### identity.",
+      "canonical_id": "acc-072"
     },
     {
       "pq_record_id": "pqacc-036",
       "name": "Glorio Wig",
       "pq": 181,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-021 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "status": "matched",
+      "reason": "Exact-name identity normalized to canonical accessory ID; previous accr endpoint was historical and is superseded by the current acc-### identity.",
+      "canonical_id": "acc-073"
     },
     {
       "pq_record_id": "pqacc-037",
       "name": "Panzy Wig",
       "pq": 181,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-022 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "status": "matched",
+      "reason": "Exact-name identity normalized to canonical accessory ID; previous accr endpoint was historical and is superseded by the current acc-### identity.",
+      "canonical_id": "acc-074"
     },
     {
       "pq_record_id": "pqacc-038",
@@ -140,8 +144,7 @@
     "matched": 28,
     "unresolved": 14,
     "domain_resolved_via_equipment": 2,
-    "remapped_by_exact_name": 28,
-    "domain_resolved_via_equipment": 2
+    "remapped_by_exact_name": 28
   },
   "notes": [
     "This file is derived from the canonical bridge and current accessory record layer.",
