@@ -6375,3 +6375,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: JSON parse passed; **465/465** skill report parity; **0** unresolved PQ→skill edges; **0** orphan skill reverse endpoints; character audit **151/151** canonical character records; **0** missing character targets; **0** orphan reverse targets; **0** duplicate forward pairs.
 - CI/runtime remains unavailable; no CI success claimed.
 - **Exact next task:** continue the cross-database producer/consumer audit on mentor↔skill navigation, then character/preset↔skill navigation, prioritizing deterministic ID mismatches and orphaned reverse links.
+
+
+### 2026-09-23 cycle update — Mentor↔skill producer/consumer navigation
+
+- Audited the live mentor↔skill relationship layer using explicit skills.json.source_mentor IDs against all **33** canonical mentor IDs.
+- Found **137 deterministic mentor→skill edges** covering **134 skills**; **3 skills intentionally have multiple explicit mentor sources** and were preserved as multi-source relationships.
+- No invalid mentor IDs, duplicate edges, orphaned mentors, or non-reciprocal links were found.
+- Populated mentors.json.skills as a deterministic reverse index derived only from canonical source_mentor fields; all **33/33 mentors** now expose their linked skill IDs.
+- Added docs/data/mentor-skill-crosslink-report-2026-09-23.json documenting the relationship graph and validation boundary.
+- Validation: **137 reverse edges**, **0 invalid/non-reciprocal links**, **0 mentors without linked skills**.
+- External mentor documentation independently confirms that Xenoverse 2 instructors/mentors teach skill rewards, supporting the repository's mentor↔skill relationship semantics.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next task:** continue with **character/preset↔skill navigation**, auditing deterministic character identity endpoints against character-source data and preserving legitimate multi-user skill relationships.
