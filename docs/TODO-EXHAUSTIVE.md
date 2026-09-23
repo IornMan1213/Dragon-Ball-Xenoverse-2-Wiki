@@ -2600,3 +2600,14 @@
 - [x] Canonical relationship identities were unchanged; no reward probabilities or unsupported Ultimate-Finish conditions were added.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Exact next priority: recompute the full live Super Soul thin-system census and select the next 4–12 highest-impact canonical gaps with strong exact-name evidence and/or reusable PQ cross-links, with special attention to records after this cluster and remaining identity-collision cases.
+
+
+### 2026-09-22 cycle update — Super Soul 164–172 provenance/mechanics refresh
+- [x] Recomputed the live Super Soul census: 234 canonical records; 79 currently indexed; 221 records missing at least one core mechanics field under the strict eight-field completeness check.
+- [x] Selected the next bounded high-impact batch: **164–172**, all with exact-name PQ relationships and strong catalogue/guide evidence.
+- [x] Refreshed character sources, triggers, effects, magnitudes, supported durations, stacking behavior where explicitly documented, Limit Bursts, verification status/date, and provenance for 9 canonical records.
+- [x] Preserved PQ relationships: 164→PQ94, 165→PQ97, 166→PQ97, 167→PQ102, 168→PQ102, 169→PQ103, 170→PQ103, 171→PQ103, 172→PQ104.
+- [x] Added and registered `docs/data/super-soul-164-through-172-provenance-audit-2026-09-22.json`.
+- [x] No reward probabilities, unsupported Ultimate-Finish conditions, or canonical relationship changes were introduced.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Exact next batch: recompute the live thin census and prioritize the next **4–12 indexed records with exact-name evidence**, continuing beyond 172 while preserving explicit evidence boundaries.
