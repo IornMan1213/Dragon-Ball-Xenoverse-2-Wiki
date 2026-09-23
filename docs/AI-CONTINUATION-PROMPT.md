@@ -5050,3 +5050,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: live re-fetch confirmed matrix structure and registration; canonical DLC identity remains **20 records / 86 PQ→DLC edges**; no canonical relationship row was modified.
 - CI/runtime: unavailable; no CI success claimed.
 - Exact next batch: reconcile the strongest concrete DAIMA/HOJ2 downstream record cohort, prioritizing existing equipment/accessory records and then skill/Super Soul records, while preserving unresolved raid/lobby/stage boundaries.
+
+
+### 2026-09-23 cycle update — DAIMA downstream accessory normalization readiness
+- Concrete DAIMA downstream audit completed: equip-098–equip-105 contain exact source-backed costume/accessory identities for PQ179–181. Official Bandai Namco scope confirms the DAIMA Pack includes costumes/accessories, PQs, skills, Super Souls, and loading-screen illustrations; the free update remains a separate content boundary.
+- Four accessory identities are ready for canonical accessory namespace promotion: equip-099 SS4 Goku (DAIMA) Wig & Tail → candidate acc-071; equip-101 SS3 Vegeta (DAIMA) Wig → acc-072; equip-104 Glorio Wig → acc-073; equip-105 Panzy Wig → acc-074.
+- Added docs/data/dlc/daima-accessory-normalization-audit-2026-09-23.json, registered it in docs/data/pq-cross-domain-index.json, and extended the DAIMA pack matrix with the concrete combined-layer IDs.
+- No canonical relationship endpoint was changed in this cycle; the four records remain in their current combined-layer IDs until the dependent accessory bridge/reverse/presentation projections can be updated atomically.
+- Evidence boundary: these are exact-name identity promotions, not newly inferred content. Reward-slot/guaranteed-drop semantics remain unresolved where not independently established.
+- Exact next batch: atomically normalize the four DAIMA accessory identities into acc-071–acc-074, preserve the existing equipment IDs as aliases, regenerate/validate accessory reverse navigation and presentation consumers, then continue with the next strongest unresolved pack cohort.
