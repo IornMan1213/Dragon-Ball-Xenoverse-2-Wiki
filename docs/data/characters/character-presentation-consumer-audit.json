@@ -15,10 +15,10 @@
     "docs/Character-Core-Profiles.md"
   ],
   "results": {
-    "canonical_character_names": 149,
+    "canonical_character_names": 151,
     "bridge_records": 29,
     "preset_records": 40,
-    "preset_distinct_character_ids": 17,
+    "preset_distinct_character_ids": 12,
     "partner_key_records": 20,
     "partner_distinct_character_ids": 20,
     "partner_reconciliation_distinct_character_ids": 20,
@@ -29,7 +29,7 @@
     "partner_display_name_mismatches": [],
     "status": "clean",
     "character_explorer": {
-      "canonical_character_names": 149,
+      "canonical_character_names": 151,
       "preset_records": 40,
       "preset_distinct_character_ids": 17,
       "explicit_pq_reverse_targets": 75,
@@ -98,7 +98,7 @@
       "preset_record_id_fields_are_strings": true
     },
     "hardening_live_counts": {
-      "canonical_character_names": 149,
+      "canonical_character_names": 151,
       "bridge_records": 29,
       "duplicate_bridge_character_ids": 0,
       "duplicate_bridge_source_names_when_present": 0,
@@ -133,6 +133,6 @@
     "status": "clean"
   },
   "validator": "scripts/validate_character_presentation_consumers.py",
-  "validator_commit": "869d6435813d566a141d1270f97516241d660c00",
+  "validator_commit": "9602b41f2979c10321774afeb5c4d11e500d6056",
   "status": "clean"
 }
