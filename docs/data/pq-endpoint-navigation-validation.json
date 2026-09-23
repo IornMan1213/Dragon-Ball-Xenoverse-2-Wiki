@@ -20,8 +20,8 @@
     },
     "super_souls": {
       "relationship_type": "pq_rewards_super_soul",
-      "edge_count": 146,
-      "unique_target_count": 143,
+      "edge_count": 145,
+      "unique_target_count": 142,
       "missing_target_count": 0,
       "missing_targets": [],
       "status": "clean"
