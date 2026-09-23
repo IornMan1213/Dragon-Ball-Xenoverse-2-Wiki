@@ -25,13 +25,13 @@
       "id": "shop-skill",
       "type": "skill_shop",
       "name": "Skill Shop",
-      "skill_count": 12
+      "skill_count": 13
     },
     {
       "id": "shop-tp-stp-medal",
       "type": "tp_stp_medal_shop",
       "name": "TP / STP Medal Shop",
-      "skill_count": 11
+      "skill_count": 18
     }
   ],
   "forward_edges": [
@@ -57,6 +57,15 @@
       "endpoint_id": "shop-tp-stp-medal",
       "skill_id": "skill-big-bang-kamehameha",
       "skill_name": "Big Bang Kamehameha",
+      "acquisition_type": "tp_medal_shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "last_verified": "2026-09-23",
+      "source_count": 4
+    },
+    {
+      "endpoint_id": "shop-tp-stp-medal",
+      "skill_id": "skill-chaos-shot",
+      "skill_name": "Chaos Shot",
       "acquisition_type": "tp_medal_shop",
       "source_quest_or_shop": "TP Medal Shop",
       "last_verified": "2026-09-23",
@@ -127,12 +136,57 @@
     },
     {
       "endpoint_id": "shop-tp-stp-medal",
+      "skill_id": "skill-galick-cannon",
+      "skill_name": "Galick Cannon",
+      "acquisition_type": "tp_medal_shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "last_verified": "2026-09-23",
+      "source_count": 4
+    },
+    {
+      "endpoint_id": "shop-skill",
+      "skill_id": "skill-giant-storm",
+      "skill_name": "Giant Storm",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop",
+      "last_verified": "2026-09-23",
+      "source_count": 4
+    },
+    {
+      "endpoint_id": "shop-tp-stp-medal",
       "skill_id": "skill-godly-display",
       "skill_name": "Godly Display",
       "acquisition_type": "tp_medal_shop",
       "source_quest_or_shop": "TP Medal Shop",
       "last_verified": "2026-09-23",
       "source_count": 4
+    },
+    {
+      "endpoint_id": "shop-tp-stp-medal",
+      "skill_id": "skill-impulse-slash",
+      "skill_name": "Impulse Slash",
+      "acquisition_type": "tp_medal_shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "last_verified": "2026-09-23",
+      "source_count": 3
+    },
+    {
+      "endpoint_id": "shop-tp-stp-medal",
+      "skill_id": "skill-jumping-energy-wave",
+      "skill_name": "Jumping Energy Wave",
+      "acquisition_type": "tp_medal_shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "last_verified": "2026-09-23",
+      "source_count": 6
+    },
+    {
+      "endpoint_id": "shop-tp-stp-medal",
+      "skill_id": "skill-menacing-flare",
+      "skill_name": "Menacing Flare",
+      "acquisition_type": "tp_medal_shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "last_verified": "2026-09-23",
+      "source_count": 6
     },
     {
       "endpoint_id": "shop-tp-stp-medal",
@@ -190,6 +244,15 @@
     },
     {
       "endpoint_id": "shop-tp-stp-medal",
+      "skill_id": "skill-secret-poison",
+      "skill_name": "Secret Poison",
+      "acquisition_type": "tp_medal_shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "last_verified": "2026-09-23",
+      "source_count": 4
+    },
+    {
+      "endpoint_id": "shop-tp-stp-medal",
       "skill_id": "skill-soaring-fist",
       "skill_name": "Soaring Fist",
       "acquisition_type": "tp_medal_shop",
@@ -241,6 +304,15 @@
       "source_quest_or_shop": "Skill Shop (Conton City) after defeating Kid Buu in the main story",
       "last_verified": "2026-09-23",
       "source_count": 3
+    },
+    {
+      "endpoint_id": "shop-tp-stp-medal",
+      "skill_id": "skill-wild-hunt",
+      "skill_name": "Wild Hunt",
+      "acquisition_type": "tp_medal_shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "last_verified": "2026-09-23",
+      "source_count": 6
     }
   ],
   "reverse_index": [
@@ -250,6 +322,7 @@
         "skill-bending-kamehameha",
         "skill-explosive-wave",
         "skill-fighting-pose-k",
+        "skill-giant-storm",
         "skill-power-pole-combo",
         "skill-pressure-sign",
         "skill-punisher-guard",
@@ -266,23 +339,30 @@
       "skill_ids": [
         "skill-big-bang-attack",
         "skill-big-bang-kamehameha",
+        "skill-chaos-shot",
         "skill-divine-kamehameha",
         "skill-divine-lasso",
         "skill-dragon-fist",
         "skill-emperor-s-death-beam",
         "skill-final-explosion",
+        "skill-galick-cannon",
         "skill-godly-display",
+        "skill-impulse-slash",
+        "skill-jumping-energy-wave",
+        "skill-menacing-flare",
         "skill-namek-finger",
+        "skill-secret-poison",
         "skill-soaring-fist",
-        "skill-sudden-death-beam"
+        "skill-sudden-death-beam",
+        "skill-wild-hunt"
       ]
     }
   ],
   "coverage": {
     "canonical_skill_count": 455,
-    "skill_shop_skills": 12,
-    "tp_stp_medal_shop_skills": 11,
-    "total_shop_linked_skills": 23,
+    "skill_shop_skills": 13,
+    "tp_stp_medal_shop_skills": 18,
+    "total_shop_linked_skills": 31,
     "duplicate_skill_ids": false,
     "unresolved_skill_ids": []
   },
