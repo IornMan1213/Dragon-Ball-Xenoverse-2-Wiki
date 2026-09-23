@@ -2806,27 +2806,6 @@
       "last_verified": "2026-09-22"
     },
     {
-      "id": "equip-099",
-      "name": "SS4 Goku (DAIMA) Wig & Tail",
-      "category": "accessory",
-      "acquisition_routes": [
-        "Parallel Quest 179 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
-      ],
-      "dlc_provenance": "Dragon Ball DAIMA Pack — PQ179",
-      "restrictions": null,
-      "combat_effect": "unresolved",
-      "verification_status": "partially_verified",
-      "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Equipment"
-      ],
-      "parallel_quest_ids": [
-        179
-      ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Bandai Namco and independent PQ documentation confirm the DAIMA wig/tail as a PQ179 costume/accessory reward; accessory classification is explicit.",
-      "last_verified": "2026-09-22"
-    },
-    {
       "id": "equip-100",
       "name": "SS3 Vegeta (DAIMA) Battle Suit",
       "category": "clothing",
@@ -2845,27 +2824,6 @@
         180
       ],
       "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Bandai Namco confirms the SS3 Vegeta (DAIMA) Battle Suit as DAIMA Pack content; the maintained equipment catalog treats the battle suit as a full clothing set.",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "equip-101",
-      "name": "SS3 Vegeta (DAIMA) Wig",
-      "category": "accessory",
-      "acquisition_routes": [
-        "Parallel Quest 180 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
-      ],
-      "dlc_provenance": "Dragon Ball DAIMA Pack",
-      "restrictions": null,
-      "combat_effect": "unresolved",
-      "verification_status": "partially_verified",
-      "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Equipment"
-      ],
-      "parallel_quest_ids": [
-        180
-      ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Independent DLC/PQ evidence confirms the SS3 Vegeta (DAIMA) Wig as the PQ180 wig reward; accessory classification is explicit.",
       "last_verified": "2026-09-22"
     },
     {
@@ -2908,48 +2866,6 @@
         181
       ],
       "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Independent DLC/PQ evidence confirms Panzy's Clothes as a PQ181 clothing reward and a four-piece set.",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "equip-104",
-      "name": "Glorio Wig",
-      "category": "accessory",
-      "acquisition_routes": [
-        "Parallel Quest 181 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
-      ],
-      "dlc_provenance": "Dragon Ball DAIMA Pack",
-      "restrictions": null,
-      "combat_effect": "unresolved",
-      "verification_status": "partially_verified",
-      "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Equipment"
-      ],
-      "parallel_quest_ids": [
-        181
-      ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Independent character/equipment documentation identifies Glorio Wig as a wig accessory from the DAIMA Pack.",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "equip-105",
-      "name": "Panzy Wig",
-      "category": "accessory",
-      "acquisition_routes": [
-        "Parallel Quest 181 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
-      ],
-      "dlc_provenance": "Dragon Ball DAIMA Pack",
-      "restrictions": null,
-      "combat_effect": "unresolved",
-      "verification_status": "partially_verified",
-      "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Equipment"
-      ],
-      "parallel_quest_ids": [
-        181
-      ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Independent character/equipment documentation identifies Panzy Wig as a wig accessory from the DAIMA Pack.",
       "last_verified": "2026-09-22"
     },
     {
@@ -3602,6 +3518,98 @@
       ],
       "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Maintained equipment documentation identifies Goku's Turtle Hermit Gi (Go) as a four-piece clothing set; PQ14 is the documented acquisition route. Exact current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Maintained equipment documentation supports slot coverage: upper_body, lower_body, hands, feet.",
       "last_verified": "2026-09-22"
+    },
+    {
+      "id": "acc-071",
+      "name": "SS4 Goku (DAIMA) Wig & Tail",
+      "category": "accessory",
+      "acquisition_routes": [
+        "Parallel Quest 179 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "Dragon Ball DAIMA Pack — PQ179",
+      "restrictions": "Wig/accessory; exact restrictions remain unresolved.",
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "parallel_quest_ids": [
+        179
+      ],
+      "slot_coverage": [
+        "accessory"
+      ],
+      "notes": "Canonical accessory identity normalized from legacy equipment endpoint equip-099; canonical identity is authoritative. Exact reward probability/slot semantics remain unresolved."
+    },
+    {
+      "id": "acc-072",
+      "name": "SS3 Vegeta (DAIMA) Wig",
+      "category": "accessory",
+      "acquisition_routes": [
+        "Parallel Quest 180 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "Dragon Ball DAIMA Pack — PQ180",
+      "restrictions": "Wig/accessory; exact restrictions remain unresolved.",
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "parallel_quest_ids": [
+        180
+      ],
+      "slot_coverage": [
+        "accessory"
+      ],
+      "notes": "Canonical accessory identity normalized from legacy equipment endpoint equip-101; canonical identity is authoritative. Exact reward probability/slot semantics remain unresolved."
+    },
+    {
+      "id": "acc-073",
+      "name": "Glorio Wig",
+      "category": "accessory",
+      "acquisition_routes": [
+        "Parallel Quest 181 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "Dragon Ball DAIMA Pack — PQ181",
+      "restrictions": "Wig/accessory; exact restrictions remain unresolved.",
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "parallel_quest_ids": [
+        181
+      ],
+      "slot_coverage": [
+        "accessory"
+      ],
+      "notes": "Canonical accessory identity normalized from legacy equipment endpoint equip-104; canonical identity is authoritative. Exact reward probability/slot semantics remain unresolved."
+    },
+    {
+      "id": "acc-074",
+      "name": "Panzy Wig",
+      "category": "accessory",
+      "acquisition_routes": [
+        "Parallel Quest 181 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
+      ],
+      "dlc_provenance": "Dragon Ball DAIMA Pack — PQ181",
+      "restrictions": "Wig/accessory; exact restrictions remain unresolved.",
+      "combat_effect": "unresolved",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "parallel_quest_ids": [
+        181
+      ],
+      "slot_coverage": [
+        "accessory"
+      ],
+      "notes": "Canonical accessory identity normalized from legacy equipment endpoint equip-105; canonical identity is authoritative. Exact reward probability/slot semantics remain unresolved."
     }
   ]
 }
