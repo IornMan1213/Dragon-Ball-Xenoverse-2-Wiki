@@ -7,10 +7,10 @@
   "reverse_index": "docs/data/skill-character-reverse-index-2026-09-23.json",
   "results": {
     "source_tokens_before": 7,
-    "resolved_skill_records_added": 4,
-    "resolved_canonical_skill_edges_added": 4,
-    "remaining_unresolved_character_or_variant_tokens": 3,
-    "canonical_character_targets": 34,
+    "resolved_skill_records_added": 7,
+    "resolved_canonical_skill_edges_added": 7,
+    "remaining_unresolved_character_or_variant_tokens": 0,
+    "canonical_character_targets": 36,
     "duplicate_skill_character_edges": 0,
     "broken_character_endpoints": 0
   },
@@ -52,27 +52,15 @@
     "skill-venus-fist",
     "skill-wild-buster"
   ],
-  "held_unresolved": [
-    {
-      "skill_id": "skill-destruction-s-conductor",
-      "reason": "Source token Champa remains unresolved; current evidence does not provide a deterministic canonical identity mapping."
-    },
-    {
-      "skill_id": "skill-flash-chaser",
-      "reason": "Legacy source token says Kefla, while current Xenoverse 2 documentation identifies Majuub as the user and Goku (GT) as a Customize Partner route; preserve the source conflict rather than mapping Kefla."
-    },
-    {
-      "skill_id": "skill-sonic-bomb",
-      "reason": "Source token Champa conflicts with current user documentation identifying Frieza (1st Form) Customize Partner; no conflicting identity was promoted."
-    }
-  ],
+  "held_unresolved": [],
   "validation": [
     "All promoted canonical character names exist in characters-record-layer.json.",
     "All promoted skill IDs exist in skills.json.",
     "Reverse index contains no duplicate skill IDs per character.",
     "No source wording was rewritten in canonical skills.json.",
     "Current gap inventory and reverse projection agree on 32 resolved skill records / 43 edges / 32 character targets.",
-    "Canonical character layer now contains Goku (Ultra Supervillain Quelled) and Vegeta (GT), with Goku's Chapter 4 status corroborated by the official Dragon Ball site."
+    "Canonical character layer now contains Goku (Ultra Supervillain Quelled) and Vegeta (GT), with Goku's Chapter 4 status corroborated by the official Dragon Ball site.",
+    "Final three legacy character_source conflicts were corrected only after current dedicated skill-user evidence was checked: Destruction's Conductor → Vados, Flash Chaser → Majuub, Sonic Bomb → Frieza (1st Form)."
   ],
   "evidence": [
     "docs/data/skills.json",
@@ -85,5 +73,5 @@
     "https://dbxv2.fandom.com/wiki/Super_Black_Kamehameha_Ros%C3%A9",
     "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Menace"
   ],
-  "next_action": "Resolve the final 3 source conflicts only after separately governed provenance review of the legacy character_source field; do not silently rewrite source wording during identity projection."
+  "next_action": "Close out the skill→character identity bridge and advance to the next highest-priority cross-domain integrity/exhaustiveness task."
 }
