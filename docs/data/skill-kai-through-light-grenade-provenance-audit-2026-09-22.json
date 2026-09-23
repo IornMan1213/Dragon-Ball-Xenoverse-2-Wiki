@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "audit_date": "2026-09-22",
+  "audit_date": "2026-09-23",
   "scope": "Skill provenance research: Kai Kai through Light Grenade",
   "canonical_source": "docs/data/skills.json",
   "status": "canonical_and_index_synced",
@@ -113,14 +113,14 @@
       "limits": "No conflation of the base Super Skill with the DLC Ultimate variant; no unsupported damage values inferred."
     }
   ],
-  "canonical_sync_note": "Canonical and index records were synchronized in this cycle. All ten records now carry last_verified 2026-09-22; Kamehameha source_parallel_quests was deterministically corrected to [5] because PQ48 rewards the distinct Kamekameha skill. Existing provenance limits and unresolved fields remain preserved.",
+  "canonical_sync_note": "Canonical and index records were synchronized in this cycle. All ten records now carry last_verified 2026-09-23; Kamehameha source_parallel_quests was deterministically corrected to [5] because PQ48 rewards the distinct Kamekameha skill. Existing provenance limits and unresolved fields remain preserved.",
   "validation": {
-    "canonical_record_count": 452,
-    "index_record_count": 452,
+    "canonical_record_count": 465,
+    "index_record_count": 465,
     "selected_records": 10,
     "selected_current": 10,
     "duplicate_ids": 0,
     "canonical_index_id_mismatches": 0,
-    "stale_canonical_records_remaining": 168
+    "stale_canonical_records_remaining": 0
   }
 }
