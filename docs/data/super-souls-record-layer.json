@@ -6069,12 +6069,12 @@
       "effect_magnitude": "+12 Ki; +12 Stamina",
       "duration": "Permanent while equipped",
       "stacking_behavior": "Not reported as stackable",
-      "limit_burst": null,
+      "limit_burst": "Power Ki Blast",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "Auto Health and Stamina Up; DEF Down",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Mechanics and provenance refreshed from exact-name secondary documentation while preserving the canonical PQ endpoint and avoiding unsupported reward probabilities or Ultimate-Finish gating. 2026-09-23 semantic-duration reconciliation: Permanent while equipped. No unsupported finite timer inferred. 2026-09-23 Limit Burst/stacking reconciliation: populated evidence-bounded secondary fields from the maintained exact-name Super Soul catalogue; no unsupported numeric cap or timer inferred. 2026-09-23 web evidence refresh: independent community sources continue to corroborate the +12 Ki/+12 Stamina utility and PQ 134 association, but the consulted results do not identify this Super Soul's Limit Burst. Limit Burst fields therefore remain unresolved rather than inferred.",
+      "version_notes": "Mechanics and provenance refreshed from exact-name secondary documentation while preserving the canonical PQ endpoint and avoiding unsupported reward probabilities or Ultimate-Finish gating. 2026-09-23 semantic-duration reconciliation: Permanent while equipped. No unsupported finite timer inferred. 2026-09-23 Limit Burst/stacking reconciliation: populated evidence-bounded secondary fields from the maintained exact-name Super Soul catalogue; no unsupported numeric cap or timer inferred. 2026-09-23 web evidence refresh: independent community sources continue to corroborate the +12 Ki/+12 Stamina utility and PQ 134 association, but the consulted results do not identify this Super Soul's Limit Burst. Limit Burst fields therefore remain unresolved rather than inferred. 2026-09-23 item-level Limit Burst verification: a GameFAQs discussion specifically asking about this exact Super Soul records its Limit Burst as Power Ki Blast with Auto Health and Stamina Up and DEF Down; trigger wording was not established.",
       "verification_status": "researched",
       "last_verified": "2026-09-23",
       "sources": [
@@ -6084,7 +6084,8 @@
         "https://www.reddit.com/r/dbxv/comments/1cj9nwx/",
         "https://www.reddit.com/r/DragonBallXenoverse2/comments/i3kqoi/",
         "https://www.reddit.com/r/dbxv/comments/io742e/",
-        "https://www.reddit.com/r/dbxv/comments/13joxkk/"
+        "https://www.reddit.com/r/dbxv/comments/13joxkk/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79231190"
       ],
       "source_parallel_quests": [
         "pq-134"
