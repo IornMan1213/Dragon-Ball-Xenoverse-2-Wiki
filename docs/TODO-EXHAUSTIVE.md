@@ -4888,3 +4888,13 @@
 - [x] Captain Ginyu Trunks-body naming discrepancy preserved explicitly
 - [ ] CI/runtime remains unavailable; no CI success claimed
 - [ ] Next batch: continue source-backed numbered/name-matched preset reconciliation; do not infer Goku numeric mappings from named rows.
+
+### 2026-09-23 cycle completion tracking — Bardock preset-loadout batch
+- [x] Bardock Preset 1 explicit loadout verification
+- [x] Bardock Preset 2 explicit loadout verification
+- [x] Bardock Preset 3 explicit loadout verification
+- [x] Bardock Preset 4 explicit loadout verification
+- [x] Preset navigation audit expanded to 44 records / 17 verified loadouts
+- [x] Bardock loadout provenance linked to the character in-game-data source
+- [ ] CI/runtime remains unavailable; no CI success claimed
+- [ ] Next batch: continue explicit in-game-data preset reconciliation; do not infer Goku numeric mappings.
