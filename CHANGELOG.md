@@ -2285,3 +2285,13 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Added docs/data/pq-current-state-consumer-census-2026-09-23.json and registered it in the cross-domain index.
 - Live relationship baseline remains 854 total: 244 Skill / 146 Super Soul / 124 Equipment / 247 Character / 86 DLC / 7 Farming; Super Soul reverse 143.
 - Next work transitions to the P1 exhaustive provenance/data queue.
+
+### 2026-09-23 cycle update — Super Soul 034 item-level evidence boundary
+- Bounded batch: **Super Soul 034 — “The final battle begins now.”**
+- Fresh independent evidence: the maintained all-Parallel-Quest guide confirms the exact-name reward in **PQ 186 — Frieza's Right-Hand Man** and the Future Saga Chapter 4 reward context. citeturn3search0turn3search1
+- Result: strengthened the acquisition identity without inventing mechanics. The source does not safely map the two Super Soul names in PQ186 to characters or provide item-level effects/Limit Burst data.
+- Added and registered `docs/data/super-soul-034-item-level-evidence-reconciliation-2026-09-23.json`.
+- Evidence boundary preserved: no Fu character attribution, trigger, effect, duration, stacking, Limit Burst, drop probability, or Ultimate-Finish mapping was inferred.
+- Validation: canonical record unchanged; **229 canonical / 0 duplicate IDs / 4 strict-thin records**; audit registration confirmed.
+- CI/runtime: unavailable; no CI success claimed.
+- Exact next batch: **Super Soul 217** Limit Burst/item-level evidence research; if unresolved, continue to 158 collision-safe evidence research, then 032.
