@@ -4643,3 +4643,15 @@
 - Evidence boundary preserved: these endpoints document cast/boss exposure only and do **not** convert character usage into CaC acquisition or shop/quest availability claims.
 - CI/runtime unavailable; no CI success claimed.
 - **Exact next batch:** audit the remaining `starting_move` records and then perform a full endpoint↔canonical-skill reverse parity check, including duplicate semantic endpoints and skills that have multiple legitimate acquisition/exposure producers.
+
+
+### 2026-09-23 cycle update — Starting-move endpoints and full reverse parity
+- [x] Audited the two explicit `starting_move` canonical records: Afterimage and Super Guard.
+- [x] Added `docs/data/starting-move-endpoints.json`: **2 deterministic character-creation endpoints / 2 forward edges / 2 unique skills**.
+- [x] Preserved Super Guard's separate Skill Shop producer; the starting endpoint records only the character-creation route.
+- [x] Added `docs/data/starting-move-endpoint-audit-2026-09-23.json`; validation passes with zero unresolved IDs and no duplicate endpoint/skill pairs.
+- [x] Recomputed the complete endpoint reverse census: **465 canonical skills / 239 PQ-linked unique skills / 226 non-PQ endpoint-linked unique skills / 465 union coverage / 0 uncovered skills**.
+- [x] Added `docs/data/full-skill-endpoint-reverse-parity-audit-2026-09-23.json` and documented the parity baseline in `CROSS-LINK-CONTRACT.md`.
+- [x] Identified the only multi-producer skill collision pattern as intentional: Super Explosive Wave has two distinct mentor producers (Piccolo Lesson 1 and Future Gohan initiation); no duplicate skill identity was created.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** move from skill endpoint coverage to the next cross-database producer/consumer frontier: audit PQ ↔ skill, mentor ↔ skill, and character/preset ↔ skill navigation for orphaned or display-only links, prioritizing deterministic ID mismatches over descriptive enrichment.
