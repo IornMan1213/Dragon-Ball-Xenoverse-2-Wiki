@@ -1,3 +1,14 @@
+### 2026-09-22 cycle update — Super Soul 156/161/166/172 duration reconciliation
+- Live census before editing: **234 canonical / 0 duplicate IDs / 102 strict-thin records**.
+- Bounded batch: **156, 161, 166, and 172**.
+- Research/evidence: maintained exact-name Super Soul catalogue plus Android 16 documentation, historical GameFAQs evidence, player-facing evidence, and Towa's documented Super Soul description.
+- Changes: separated always-active effects from one-time/battle-start triggers; recorded persistent KO-stack semantics for 161 and 172 without inventing expiration timers.
+- Added/registered audit: `docs/data/super-soul-156-161-166-172-duration-reconciliation-2026-09-22.json`.
+- Evidence limits preserved: no unsupported finite timer, acquisition probability, Ultimate-Finish condition, or new stacking cap was inferred.
+- Validation: **234 canonical / 0 duplicate IDs / 98 strict-thin records**; target records have all eight census fields; audit registration confirmed.
+- CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- Exact next batch: recompute the live strict-thin queue and continue the strongest remaining evidence-supported cluster, prioritizing multi-field reductions and preserving 032/034 as evidence boundaries.
+
 ## 2026-09-22 — Super Soul 087–095 duration reconciliation
 
 - Reconciled duration semantics for **Super Souls 087–095** using exact-name catalogue evidence plus independent GameFAQs documentation.
