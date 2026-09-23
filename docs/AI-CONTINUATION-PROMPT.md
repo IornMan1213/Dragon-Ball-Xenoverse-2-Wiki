@@ -5322,3 +5322,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Commits: `c6ebdf327b149d56cf5a2c730f3318302908dec8`, `2569bb4f2c0007d68254eeb6a233ffb44f4ae3ad`.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next batch: continue searching **current-state consumer sections** for stale 862/125/88 or 148/151 scalar/list assumptions, prioritizing files that present themselves as current rather than dated historical/audit snapshots.
+
+### 2026-09-23 cycle update — Canonical record reverse-navigation Super Soul census correction
+- Live census: **854 canonical PQ edges**; Super Soul **146 forward / 143 unique reverse targets**; equipment **124 forward / 122 reverse targets**.
+- Bounded batch: `docs/data/record-reverse-pq-navigation-audit.json`.
+- Found current-looking Super Soul fields stale at **148 unique targets** and **151 canonical/structured pairs**, despite the audit's own structured mismatch arrays already being clean against the corrected live relationship layer.
+- Corrected current fields to **143 unique targets** and **146/146 exact pairs**; refreshed audit date to 2026-09-23.
+- Added `docs/data/pq-non-pq-record-reverse-navigation-correction-2026-09-23.json` documenting the correction and evidence boundary.
+- Validation: unresolved targets 0, reverse-pair missing 0, extra 0, duplicate canonical pairs 0, structured mismatches 0; canonical relationships/aliases unchanged.
+- Commits: `389a89ae0034b5c67d8022d108fbec481765b1dc`, `1cca40b8b1040331f40df751bacf4e4ccc7f2f27`.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next batch: continue the current-state consumer census for remaining stale scalar/list assumptions and endpoint-name drift, prioritizing undated/current-looking projections.
