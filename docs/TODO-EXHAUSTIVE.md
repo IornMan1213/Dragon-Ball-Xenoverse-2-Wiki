@@ -2778,3 +2778,10 @@
 - [x] Refreshed live census: **234 canonical / 0 duplicate IDs / 182 strict-thin**.
 - [ ] CI/runtime: no successful workflow/check exposed.
 - [ ] Next: continue deterministic partially-verified Super Soul reconciliation, prioritizing 032, 155, 173–175, 177, 179, 186, 187, 197, and 199.
+
+### 2026-09-22 — Super Soul 174/177/186/199 evidence strengthening
+- [x] Added independent historical/community evidence and promoted **174, 177, 186, 199** to `verified_secondary`.
+- [x] Preserved unresolved duration/stacking fields where evidence did not establish an applicable value.
+- [x] Live census: **234 canonical / 0 duplicate IDs / 182 strict-thin**.
+- [ ] CI/runtime: no successful workflow/check exposed.
+- [ ] Next: reconcile **155, 173, 175, 179, 187, 197, 032** using exact-name evidence and strict evidence boundaries.
