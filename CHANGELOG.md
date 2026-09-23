@@ -2506,3 +2506,11 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Validation: **455/455**, **0 duplicate IDs**, target parity **clean**, stale queue **380**.
 - CI/runtime: no successful status exposed; no CI success claimed.
 - Exact next batch: **Darkness Eye Beam, Darkness Rush (Melee), Darkness Rush (Ranged), Darkness Twin Star, Data Input, Dead End Rain, Deadly Dance, Death Ball, Death Beam, Death Crasher**.
+
+## 2026-09-23 — Darkness through Data Input skill provenance/mechanics enrichment
+
+- Enriched **Darkness Eye Beam, Darkness Rush (Melee), Darkness Rush (Ranged), Darkness Twin Star, and Data Input** in canonical and index layers.
+- Added independent/direct provenance where useful and recorded only source-supported mechanics (Ki cost, hit presentation, sweep/trajectory, orbit duration, and Auto Dodge duration).
+- Preserved existing acquisition, reward-tier, Ultimate Finish, race, and DLC evidence boundaries, including the Data Input presentation conflict.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-23-darkness-through-data-input.json`.
+- Validation target: **455 canonical / 455 index / 0 duplicate IDs**; target source/date parity maintained.
