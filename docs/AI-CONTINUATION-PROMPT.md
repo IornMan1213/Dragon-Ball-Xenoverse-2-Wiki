@@ -6428,3 +6428,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validator/CI execution remains unavailable in this hosted session; no execution or CI success is claimed.
 - Commits: validator `9602b41f2979c10321774afeb5c4d11e500d6056`; audit `ebcf61f810999ba209272958a2e7e5a3e410cfc3`.
 - **Exact next batch:** inspect remaining character-facing projections and validators for stale-count or implicit-field assumptions, then consolidate their live parity into the presentation audit before beginning explicit preset-loadout evidence research.
+
+
+### 2026-09-23 cycle update — Character DLC projection parity repair
+- Live inspection found three stale character-facing projections still using the previous **149-character** baseline: `docs/Characters.md`, `docs/data/characters/dlc-character-identity-audit.json`, and `docs/data/characters/published-character-dlc-navigation-audit.json`.
+- The canonical layer now contains **151** names, including the newly canonical `Goku (Ultra Supervillain Quelled)`. Its DLC source label was therefore deterministically resolved to that exact canonical identity; `Supreme Kai of Time (Ultra Supervillain)` remains explicitly unresolved because only the base `Supreme Kai of Time` is canonical and collapsing the variant would be unsupported.
+- Synchronized the three affected projections/audits to the current canonical layer. No unrelated DLC ownership or acquisition facts were changed.
+- Validation: live canonical count 151; DLC bridge remains 15 source records with 14 resolved targets and 1 explicit unresolved label; no missing canonical targets introduced. CI/runtime remains unavailable; no CI success claimed.
+- Commits: bridge `14a328ecedc720ccaaf2ece46b582d6a474ab77d6`; Characters page `434b1c0e28aaa994228bb49202ef1755f8a9cc01`; identity audit `8a6c1b2b352ef3593de7bebf52bfe94fa78fdb27`; published navigation audit `a287750d42078cab5bb29a52beadbd4589d169f7`.
+- **Exact next batch:** continue searching character-facing projections for the old 149 baseline and inspect any remaining validators/audits that assume fixed counts; after that, begin source-backed preset-loadout research only for records with explicit loadout evidence.
