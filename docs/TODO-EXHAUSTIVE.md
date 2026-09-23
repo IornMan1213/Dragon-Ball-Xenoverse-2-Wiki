@@ -3236,7 +3236,7 @@
 - [x] Added audit: `docs/data/super-soul-217-limit-burst-evidence-audit-2026-09-23.json`.
 - [x] Updated `last_verified` and canonical source provenance.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
-- [ ] Remaining strict-thin queue remains **032, 034, 158, 217, 232–236**. 217 is now an explicit evidence-boundary result; next work should move to 034 or the indexed 232–236 records only when item-level evidence can be obtained.
+- [x] The former strict-thin **232–236** entries were resolved as duplicate/misattributed placeholders and removed from the canonical layer; the live strict-thin queue is **032, 034, 158, 217**.
 
 
 ### 2026-09-23 — Super Soul 034 provenance boundary refresh
