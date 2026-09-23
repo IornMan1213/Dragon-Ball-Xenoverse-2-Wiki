@@ -2712,3 +2712,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Live validation: **455 canonical / 455 index / 455 current / 0 stale / 0 duplicate IDs**.
 - CI/runtime unavailable; no CI success claimed.
 - Next priority is broader TODO/handoff recomputation rather than another stale-metadata batch.
+
+
+## 2026-09-23 — Canonical skill shop endpoint layer
+
+- Added stable canonical Skill Shop and TP/STP Medal Shop endpoint IDs and deterministic forward/reverse projections for **23** shop-linked skills (**12 + 11**).
+- Added the bounded endpoint-layer audit and updated the cross-database link contract.
+- Historical rotation/price evidence remains provenance; no current-availability or unsupported alternate-route claim was introduced.
