@@ -4666,3 +4666,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Commits: canonical `b87f227ac130c25bbbcb75683e6318efd1364cae`; census `71eb757df10c3c744d69effb27a2a240f2e94551`.
 - [ ] Exact next batch: remaining duration-only queue, beginning **242, 244, 246** plus any newly recomputed duration-only records; keep 032/034 and indexed-only 158/232–236 as evidence boundaries.
+
+
+### 2026-09-23 cycle update — Super Soul stacking-semantic pass
+- [x] Recomputed live state: **234 canonical / 0 duplicate IDs / 29 strict-thin** before editing.
+- [x] Bounded batch: **210, 212, 240, 241, 242, 244, 246**.
+- [x] Changes: recorded once-only/no-stacking semantics for 210 and 212; recorded `Not reported as stackable` for 240, 241, 242, 244, and 246. No unsupported numeric cap was inferred.
+- [x] Refreshed census: **29 → 23 strict-thin**; canonical remains **234 / 0 duplicates**.
+- [x] Validation: canonical JSON reread/parsed; live strict-thin calculation independently recomputed; stored census updated.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Commits: canonical `4d79ea0a4b87765438fb631d30d8c5681fc4f699`; census `9e0c5651b5617292bc2050106d305829545196fc`.
+- [ ] Exact next priority: recompute queue again. Remaining concentrated gaps are **032/034**, indexed-only **158/232–236**, and records with missing Limit Burst effects/stacking fields; prioritize evidence-backed Limit Burst effect completion where the maintained source corpus already identifies the burst type.
