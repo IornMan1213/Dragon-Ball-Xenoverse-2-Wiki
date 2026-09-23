@@ -2837,4 +2837,13 @@
 - [ ] CI/runtime: no successful workflow/check exposed for this direct-commit chain; no CI success claimed.
 - [ ] Exact next priority: continue the Super Soul thin-system pass with the next indexed canonical batch **232–241**: *I'll show you the power of a true warrior!*, *Don't underestimate my power!*, *I won't forgive you!*, *I'm the one who will win!*, *This is the ultimate hero!*, *Heh heh! I'm not a rusty as I look!*, *I'll take all of you on at once!*, *I am the universe's strongest!*, *I got back my youth and vigor!*, *Goku the legendary Super Saiyan!*; recompute live records before editing and preserve unresolved/conflicting acquisition evidence.
 
+### 2026-09-22 cycle update — Super Soul 237–241 provenance/mechanics refresh
+- [x] Recomputed the live handoff target and researched the remaining indexed tail of the current batch.
+- [x] Refreshed **5 canonical Super Soul records (237–241)** with evidence-backed mechanics, character sources, Limit Burst data, and acquisition provenance.
+- [x] Super Soul 238 uses current Goku (Mini) documentation for exact opponent-count scaling; 239–241 retain explicit PQ21/PQ26/PQ28 relationships.
+- [x] Added `docs/data/super-soul-237-through-241-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved evidence boundaries: no unsupported drop-rate claims and no canonical PQ relationship rewrites.
+- [x] Validation after write: 5/5 selected IDs present, current `last_verified`, effect text populated, sources retained, audit registered.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Exact next priority: finish the remaining thin Super Soul records **232–236** with exact-name evidence, then recompute the broader Super Soul thin-system census before selecting the next batch.
 
