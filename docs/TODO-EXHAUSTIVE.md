@@ -3527,3 +3527,12 @@
 - [x] Extended the DAIMA pack matrix with concrete combined-layer record IDs and accessory promotion candidates.
 - [x] Preserved the no-duplicate/no-inference rule: this is namespace normalization of already existing exact identities, not creation of new content.
 - [ ] Exact next batch: perform the four accessory promotions atomically across equipment-accessories-record-layer.json, accessory-pq-canonical-bridge.json, pq-accessory-crosslink-report.json, reverse indexes, aliases, and presentation consumers; then validate all endpoint navigation before moving to the next pack/domain.
+
+
+### 2026-09-23 — TODO completion update — DAIMA accessory canonicalization
+- [x] Promoted the four exact-name DAIMA accessory identities into canonical `acc-071`–`acc-074` in `equipment-accessories-record-layer.json`.
+- [x] Retained `equip-099`, `equip-101`, `equip-104`, and `equip-105` as legacy equipment-layer alias projections pointing to the canonical accessory IDs.
+- [x] Updated `accessory-pq-canonical-bridge.json` and resolved `pqacc-034`–`pqacc-037` to canonical IDs.
+- [x] Updated `accessory-pq-canonical-remaining.json`, regenerated `pq-accessory-crosslink-report.json`, and expanded the canonicalization audit/census.
+- [x] Post-write target state: 74 canonical accessory IDs, 32 accessory PQ forward/reverse edges, 12 unresolved research bridge entries; no duplicate canonical IDs introduced.
+- [ ] Exact next batch: run the repository's accessory/presentation validators against the normalized graph; then reconcile the next unresolved concrete DAIMA/HOJ2 skill or Super Soul cohort.
