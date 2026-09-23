@@ -4200,3 +4200,11 @@
 - [x] Validation: **455/455 / 0 duplicate IDs / 316 stale**; target parity clean.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next action: recompute the live stale queue before selecting the next batch.
+
+### 2026-09-23 — TODO completion update — P1 Energy Charge through Evil Flight Strike
+- [x] Completed **12 skills**: Energy Charge, Energy Dome, Energy Field, Energy Minefield, Energy Release, Energy Shot, Eraser Bomb, Evil Blast, Evil Explosion, Evil Eyes, Evil Flame, Evil Flight Strike.
+- [x] Synchronized canonical/index `last_verified` to **2026-09-23** while preserving existing evidence boundaries.
+- [x] Added/registered **docs/data/skill-provenance-audit-2026-09-23-energy-through-evil-flight-strike.json**.
+- [x] Validation: **455/455 / 0 duplicate IDs / 304 stale**; target parity clean.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next action: recompute the live stale queue before selecting the next batch.
