@@ -6,25 +6,12 @@
   "live_counts": {
     "canonical_skill_records": 455,
     "index_skill_records": 455,
-    "current_last_verified_records": 451,
-    "stale_last_verified_records": 4,
+    "current_last_verified_records": 455,
+    "stale_last_verified_records": 0,
     "duplicate_ids": 0
   },
-  "method": "Fresh alphabetical census after the Variable Snipe Shot through Wild Stinger provenance refresh.",
-  "next_stale_records": [
-    {
-      "name": "Wolf Fang Fist"
-    },
-    {
-      "name": "X 100 Big Bang Kamehameha"
-    },
-    {
-      "name": "x10 Kamehameha"
-    },
-    {
-      "name": "Zigzag Express"
-    }
-  ],
+  "method": "Fresh alphabetical census after completion of the final four stale skill records.",
+  "next_stale_records": [],
   "validation": {
     "canonical_record_count": 455,
     "index_record_count": 455,
