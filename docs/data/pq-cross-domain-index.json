@@ -284,7 +284,20 @@
     "super_soul_220_223_mechanics": "docs/data/super-soul-220-223-mechanics-audit-2026-09-22.json",
     "super_soul_224_228_mechanics": "docs/data/super-soul-224-228-mechanics-audit-2026-09-22.json",
     "super_soul_229_231_237_239_mechanics": "docs/data/super-soul-229-231-237-239-mechanics-audit-2026-09-22.json",
-    "super_soul_240_244_provenance_mechanics": "docs/data/super-soul-240-244-provenance-mechanics-audit-2026-09-22.json"
+    "super_soul_240_244_provenance_mechanics": "docs/data/super-soul-240-244-provenance-mechanics-audit-2026-09-22.json",
+    "super_soul_242_246_provenance": {
+      "audit_file": "docs/data/super-soul-242-through-246-provenance-audit-2026-09-22.json",
+      "status": "audited",
+      "last_verified": "2026-09-22",
+      "records": [
+        "super-soul-242",
+        "super-soul-243",
+        "super-soul-244",
+        "super-soul-245",
+        "super-soul-246"
+      ],
+      "relationship_changes": 0
+    }
   },
   "registered_audits": {
     "super_soul_thin_census_2026_09_22": "docs/data/super-soul-thin-census-2026-09-22.json",
