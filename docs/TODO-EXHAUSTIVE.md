@@ -4709,3 +4709,14 @@
 - [x] Updated bridge, reverse index, gap inventory, reconciliation audit, and persistent handoff.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** reconcile remaining variant/aggregate entries while preserving contradictory Toppo/Android 21, Champa/Vados/Frieza, and Ultra Supervillain source evidence.
+
+
+### 2026-09-23 cycle update — Meteor Strike / Android 21 / Vegeta / Majin identity batch
+
+- [x] Reconciled 5 additional skill→character entries / 7 canonical edges.
+- [x] Cumulative bridge: **29 resolved skill records / 41 canonical edges / 15 canonical character targets**.
+- [x] Refreshed gap inventory: **17 unresolved character/variant entries remain**.
+- [x] Explicitly preserved legacy Toppo source tokens for Photon Swipe and Total Detonation Ball while mapping their current documented user to Android 21.
+- [x] Updated bridge, reverse index, gap inventory, reconciliation audit, handoff, and TODO.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** reconcile remaining unresolved entries with deterministic canonical identities and explicit conflict preservation.
