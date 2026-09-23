@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-23",
+  "scope": "Strict-thin checkpoint for Super Souls 032, 034, 158, and 217",
+  "purpose": "Record the latest exact-name research pass without promoting unsupported mechanics.",
+  "live_before": {
+    "canonical_super_souls": 229,
+    "duplicate_ids": 0,
+    "strict_thin": 4,
+    "queue": [
+      "super-soul-032",
+      "super-soul-034",
+      "super-soul-158",
+      "super-soul-217"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "super-soul-032",
+      "finding": "Repository and current secondary evidence confirm the PQ185 identity and the below-50%-health +20% all-abilities effect already stored. A current discussion also confirms a second post-KO name/state, but does not establish a separate mechanical effect or Limit Burst.",
+      "source": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81166913?page=10",
+      "result": "No new mechanics promoted."
+    },
+    {
+      "id": "super-soul-034",
+      "finding": "The maintained 186-PQ guide confirms the exact-name PQ186 Basic Reward entry. Current repository Chapter 4 evidence confirms four new Super Souls and keeps the item-level mapping unresolved. A fresh exact-name web pass did not produce an authoritative item-level effect/Limit Burst mapping.",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "result": "Identity/acquisition provenance retained; mechanics remain unresolved."
+    },
+    {
+      "id": "super-soul-158",
+      "finding": "The existing same-name PQ49 Super Skill collision remains the controlling evidence boundary. No new item-level evidence was found that safely separates the Super Soul mechanics from the Super Skill.",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "result": "No mechanics promoted."
+    },
+    {
+      "id": "super-soul-217",
+      "finding": "Exact-name/community evidence continues to corroborate +12 Ki/+12 Stamina and PQ134. A fresh search still did not identify the Super Soul's Limit Burst effect or trigger.",
+      "source": "https://www.reddit.com/r/dbxv/comments/1cj9nwx/",
+      "result": "No Limit Burst fields promoted."
+    }
+  ],
+  "limits": [
+    "No field was filled merely because a same-name skill, character, or generic Limit Burst appeared elsewhere.",
+    "No drop probability or Normal-vs-Ultimate-Finish mapping was inferred.",
+    "No 232-236 records were recreated."
+  ],
+  "result": "Evidence boundaries remain intact; strict-thin queue remains 4.",
+  "next_batch": "Continue item-level evidence search for 034 first, then 217 Limit Burst; only reduce strict-thin when exact-name/item-level evidence supports the missing core fields."
+}
