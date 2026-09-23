@@ -3594,3 +3594,13 @@
 - [x] Added `docs/data/accessory-presentation-validation-2026-09-23.json` as the durable validation result.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: reconcile the next unresolved concrete DAIMA/HOJ2 paid content domain, preserving canonical cross-navigation and refusing unsupported reward/ownership inference.
+
+
+### 2026-09-23 — TODO completion update — HERO OF JUSTICE Pack 2 stage/Extra Mission evidence
+- [x] Reconciled the official Pack 2 scope of **1 stage and 2 Extra Missions** using Bandai Namco's current DLC listing.
+- [x] Confirmed the stage identity **Red Ribbon Army (Yard)** at pack scope without inventing a stage record.
+- [x] Added source-backed evidence for **Extra Mission 14 — The Activation of Cell Max**; because no dedicated Extra Mission record layer exists, the identity remains evidence-only and is not promoted to a synthetic canonical record.
+- [x] Added `docs/data/dlc/hero-of-justice-pack-2-stage-mission-evidence-2026-09-23.json` and linked it from the DLC pack matrix.
+- [x] Preserved the unresolved mission/stage record-layer tasks rather than fabricating IDs or fields.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: continue the remaining concrete paid-DLC inventory gap, with illustration/loading-screen identities as the next evidence-led domain where individual records can be source-backed.
