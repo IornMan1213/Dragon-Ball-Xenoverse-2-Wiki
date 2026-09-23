@@ -6656,3 +6656,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime unavailable; no CI success claimed.
 - Commits: explorer `dae2d7c1b7354d9302ff0c546b4e17834a4cf181`; reverse navigation `852b7dc2469efccc296365b14f1223ffea49697c`; identity resolution `bf8e0e22a814d7da42112c35b7336c6e9b66539b`.
 - **Exact next task:** continue the parity scan for stale canonical skill/character/domain counts in reverse/navigation projections, then resume explicit source-backed preset reconciliation where exact evidence exists.
+
+
+### 2026-09-23 cycle update — Full canonical skill verification-date synchronization
+- [x] Continued the P1 stale-skill verification queue using the existing source-backed `Kai Kai` through `Light Grenade` provenance audit.
+- [x] Refreshed all ten audited canonical skill records to `last_verified: 2026-09-23`: Kai Kai, Kaioken, Kaioken Kamehameha, Kairos Cannon, Kamehameha, Ki Blast Thrust, Ki Explosion, Kill Driver, Last Emperor, and Light Grenade.
+- [x] Freshly parsed `docs/data/skills.json`: **465 total / 465 current / 0 stale / 0 duplicate IDs**.
+- [x] Repaired `docs/data/skill-stale-metadata-census-2026-09-22.json` to reflect the actual live canonical state: 465 current, 0 stale.
+- [x] Updated the Kai-through-Light provenance audit baseline from its superseded 452-record context to 465 and zero remaining stale canonical records.
+- [x] Evidence boundary preserved: existing source-backed acquisition/mechanics findings were not expanded; no unsupported probability, restriction, damage, or reward claims were introduced.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- Commits: canonical skills `7055fc5621fc7f6d27279ac61841241e13e88dd0`; provenance audit `fe00a14921e0f40290034cbaba8e3bb436594c2c`; census `02eb836c312634c9bafdcdf842de9ef1eebb486e`.
+- **Exact next task:** continue the broader P1 provenance/data-quality queue now that canonical skill verification dates are fully current; prioritize remaining stale/dated domain audits and explicit source-backed data gaps, then return to unresolved preset-loadout reconciliation only where exact evidence exists.
