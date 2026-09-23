@@ -141,5 +141,14 @@
   }
 ],
   "evidence_boundary": "Character-source skill links remain identity/provenance relationships, not preset loadout claims. One preset (frieza-final-preset-2) now has an explicit sourced loadout; the remaining indexed preset records remain unresolved. Characters without a resolved character-source skill edge are evidence gaps, not broken links."
-  "next": "Continue source-backed preset-loadout reconciliation in bounded batches, prioritizing records with explicit in-game-data tables; keep indexed-only presets unresolved when no item-level loadout evidence exists."
+  "source_backed_candidates_reviewed": [
+    {
+      "character_id": "goku",
+      "source": "https://dbxv2.fandom.com/wiki/Goku",
+      "evidence": "Current Goku in-game-data table explicitly enumerates named loadout rows (Turtle Hermit Gi 1/2/3, King Kai 1/2, Goku (Go) 1/2/3/4/5, No Character 1-7, Whis Symbol Gi) and their complete skill slots.",
+      "decision": "not_promoted",
+      "reason": "The existing repository records use generic numeric IDs (goku-preset-2 through goku-preset-16), while the source table uses costume/preset names rather than the repository's numeric labels. Promoting by row order would create an unsupported preset-number mapping."
+    }
+  ],
+  "next": "Continue source-backed preset-loadout reconciliation in bounded batches; prioritize records where the source explicitly identifies the same preset number/name used by the repository. Do not convert Goku's named table rows into numeric preset IDs until an explicit mapping source is found."
 }
