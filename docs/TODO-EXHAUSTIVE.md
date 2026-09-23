@@ -3415,3 +3415,12 @@
 - [x] Canonical relationship edge count remains **859**; no canonical relationship rows were modified.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: inspect remaining cross-domain validation files for stale Super Soul 151/148 projections, then continue deterministic navigation parity repairs.
+
+
+### 2026-09-23 — Verified Super Soul source baseline propagated
+- [x] Confirmed authoritative `verified_relationships`: **854 total / 244 skill / 146 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming**; Super Soul reverse targets **143**.
+- [x] Propagated the verified 854/146/143 baseline into current status, audit, producer, presentation, reference-page, and validator layers.
+- [x] Updated the current consumer-baseline correction artifact; prior 859/151 values remain historical where explicitly preserved.
+- [x] No canonical relationship rows were invented or deleted.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Next: scan remaining current-looking artifacts for stale **859/151** projections and reconcile deterministic fields only.
