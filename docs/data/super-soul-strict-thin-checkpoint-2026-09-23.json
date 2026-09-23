@@ -62,6 +62,23 @@
         "https://dbxv2.fandom.com/wiki/Nail",
         "https://ultradragonball.fandom.com/wiki/Stalling"
       ]
+    },
+    {
+      "id": "super-soul-217",
+      "finding": "Fresh exact-name searches corroborated the Krillin Super Soul's PQ 134 association and +12 Ki/+12 Stamina utility, but did not produce reliable item-level Limit Burst evidence; Limit Burst remains unresolved.",
+      "sources": [
+        "https://www.reddit.com/r/dbxv/comments/1cj9nwx/",
+        "https://www.reddit.com/r/dbxv/comments/io742e/",
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/i3kqoi/"
+      ]
+    },
+    {
+      "id": "super-soul-032",
+      "finding": "Fresh PQ catalogue evidence confirms the exact-name reward in PQ 185; current community documentation also records a second displayed name after KO, without establishing a new mechanical effect.",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81166913?page=10"
+      ]
     }
   ],
   "limits": [
@@ -69,7 +86,7 @@
     "No drop probability or Normal-vs-Ultimate-Finish mapping was inferred.",
     "No 232-236 records were recreated."
   ],
-  "result": "Identity reconciliation confirms 158 is a Super Skill/Super Soul name collision, not a missing Super Soul mechanics record.",
+  "result": "Super Soul 217 Limit Burst remains unresolved after fresh exact-name searches; 032 received additional exact-name PQ/state evidence.",
   "next_batch": "Research super-soul-217 Limit Burst/item-level evidence, then super-soul-032. Separately track the 158 collision for canonical Super Skill migration.",
   "next_method": "Continue authoritative/item-level mechanics and Limit Burst research for super-soul-034, then super-soul-217; do not infer mechanics from generic or same-name data.",
   "last_updated": "2026-09-23",
