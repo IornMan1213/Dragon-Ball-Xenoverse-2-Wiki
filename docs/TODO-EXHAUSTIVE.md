@@ -3250,3 +3250,14 @@
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [x] Commits: canonical `0c98d6f4734865455ead5a7ed07ba7af6e164a24`; audit `89adf93a6ded0e838565bb92c1f86dd40808a6da`.
 - [ ] Exact next priority: resolve **034 item identity/mechanics** only with item-level evidence (game-data identifier, exact-name mechanics source, or equivalent). Otherwise move to **232–236 identity resolution** and keep all unresolved boundaries explicit.
+
+
+### 2026-09-23 — TODO completion update — Super Soul 232-236 identity correction
+- [x] Audited queued **Super Souls 232-236** against current catalogue evidence, maintained PQ reward evidence, and existing canonical records.
+- [x] Confirmed the numeric 232-236 positions collide with existing canonical raid Souls 040/036/041/042/043; the queued records were duplicate/misattributed placeholders.
+- [x] Removed canonical records 232-236 and five erroneous PQ152-PQ155 Super Soul relationships; preserved prior provenance history.
+- [x] Corrected PQ151-155 reward projections and reverse indexes to source-backed identities.
+- [x] Added `docs/data/super-soul-232-through-236-identity-correction-2026-09-23.json` and live census `docs/data/super-soul-thin-census-2026-09-23.json`.
+- [x] Live strict-thin queue is now **032, 034, 158, 217**.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Next work: continue 032/034/158/217 with exact-name/item-level evidence; do not recreate 232-236 without a distinct game-data identity key.
