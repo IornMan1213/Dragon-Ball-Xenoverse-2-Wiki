@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-23",
+  "scope": "bounded skill character_source identity reconciliation",
+  "source_inventory": "docs/data/skill-character-source-identity-audit-2026-09-23.json",
+  "bridge": "docs/data/skill-character-identity-bridge-2026-09-23.json",
+  "reverse_index": "docs/data/skill-character-reverse-index-2026-09-23.json",
+  "results": {
+    "source_tokens_before": 39,
+    "resolved_skill_records_added": 6,
+    "resolved_canonical_skill_edges_added": 7,
+    "remaining_unresolved_character_or_variant_tokens": 34,
+    "canonical_character_targets": 6,
+    "duplicate_skill_character_edges": 0,
+    "broken_character_endpoints": 0
+  },
+  "resolved_records": [
+    "skill-blaster-ball",
+    "skill-divine-kamehameha",
+    "skill-god-of-destruction-s-menace",
+    "skill-headshot",
+    "skill-raid-blast",
+    "skill-ray-blast",
+    "skill-super-black-kamehameha-rose"
+  ],
+  "held_unresolved": [
+    {
+      "skill_id": "skill-sonic-bomb",
+      "reason": "source token Champa conflicts with current user documentation identifying Frieza; no identity edge promoted"
+    }
+  ],
+  "validation": [
+    "All promoted canonical character names exist in characters-record-layer.json.",
+    "All promoted skill IDs exist in skills.json.",
+    "Reverse index contains no duplicate skill IDs per character.",
+    "No source wording was rewritten in canonical skills.json."
+  ],
+  "evidence": [
+    "docs/data/skills.json",
+    "docs/data/characters-record-layer.json",
+    "https://dbxv2.fandom.com/wiki/Blaster_Ball",
+    "https://dbxv2.fandom.com/wiki/Divine_Kamehameha",
+    "https://dbxv2.fandom.com/wiki/Headshot",
+    "https://dbxv2.fandom.com/wiki/Characters",
+    "https://dbxv2.fandom.com/wiki/Ray_Blast",
+    "https://dbxv2.fandom.com/wiki/Super_Black_Kamehameha_Ros%C3%A9",
+    "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Menace"
+  ],
+  "next_action": "Reconcile the next bounded unresolved character_source cluster, prioritizing exact canonical variant names and customize-partner identities; do not promote conflict cases such as Sonic Bomb without resolving the source-field contradiction."
+}
