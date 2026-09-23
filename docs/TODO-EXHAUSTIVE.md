@@ -3320,3 +3320,14 @@
 - [x] Corrected stale **860** target-normalization current field to **859**.
 - [x] Preserved dated historical counts unchanged.
 - [ ] Recompute the live strict-thin Super Soul census and continue the strongest evidence-supported unresolved cluster.
+
+
+### 2026-09-23 — Strict-thin census/checkpoint consistency completion
+- [x] Recomputed the authoritative Super Soul strict-thin census: **229 canonical / 0 duplicate IDs / 4 strict-thin** (**032, 034, 158, 217**).
+- [x] Explicitly superseded the earlier raw-null/228-record scan; it is not the repository's strict-thin definition.
+- [x] Audited all four remaining thin records without promoting unsupported mechanics.
+- [x] Corrected the current strict-thin checkpoint's contradictory duplicate **034** entry; canonical 034 remains character_source **unresolved** and mechanics/Limit Burst unresolved.
+- [x] Preserved all historical handoff/TODO entries rather than deleting stale history.
+- [x] Validation: checkpoint parses and matches the authoritative stored queue; canonical Super Soul duplicate-ID count remains **0**.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next task: one compact item-level/game-data evidence pass for **034**, then **217 Limit Burst** if 034 remains blocked; otherwise choose the next deterministic high-impact reconciliation rather than infer values.
