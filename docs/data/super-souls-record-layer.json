@@ -6871,8 +6871,8 @@
       "limit_burst_effect": "Kamehameha ATK Up!",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Current catalogue and historical guide identify Super Saiyan Gohan (Teen), PQ38, initial -5% penalties and the once-only +15% post-ally-KO boost. The maintained catalogue lists Homing and Kamehameha ATK Up! as the Limit Burst.",
-      "verification_status": "partially_verified",
+      "version_notes": "Exact-name mechanics/provenance reconfirmed against the maintained Super Soul catalogue, independent historical guide, and character-page evidence: Super Saiyan Gohan (Teen), PQ38, initial -5% mobility/attack penalties, and the once-only +15% post-ally-KO boosts are consistent across sources. Homing/Kamehameha ATK Up! Limit Burst is retained. No unsupported reward probability or timing was inferred.",
+      "verification_status": "researched",
       "last_verified": "2026-09-22",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
@@ -6902,8 +6902,8 @@
       "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Current catalogue identifies Turles, PQ12, Just Guard trigger, -20 Stamina effect, and Auto Just Guard Limit Burst. Independent community discussion describes the same special stamina-drain behavior; no broader magnitude inference was made.",
-      "verification_status": "partially_verified",
+      "version_notes": "Exact-name mechanics/provenance reconfirmed against the maintained Super Soul catalogue, independent historical guide, character-page evidence, and PQ12 cross-link: Turles, PQ12, Just Guard trigger, -20 Stamina effect, and Auto Just Guard Limit Burst are corroborated. No broader engine-rate, reward probability, or timing claim was inferred.",
+      "verification_status": "researched",
       "last_verified": "2026-09-22",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -6939,7 +6939,8 @@
     "2026-09-22: refreshed Super Souls 237–241 with current catalogue mechanics/provenance. 238 uses the current Goku (Mini) documentation for exact opponent-count scaling; 239–241 retain their established PQ21/PQ26/PQ28 relationships and no unsupported drop rates were added.",
     "2026-09-22: completed a bounded provenance pass for Super Souls 232–236. PQ152–155 titles, DLC provenance, and documented Basic Reward placement were reconciled from the maintained PQ source; exact item-level mechanics were not found in sufficient evidence and remain unresolved rather than inferred.",
     "2026-09-22: refreshed Super Souls 242–246 from exact-name catalogue evidence. 242–246 now have character/effect/Limit Burst mechanics; PQ29/PQ35/PQ36/PQ38/PQ12 provenance was retained. Internal Ki-regeneration rates and unsupported timing/drop-rate details were not inferred.",
-    "2026-09-22: Super Souls 032, 033, and 035 received a secondary-evidence mechanics refresh; exact engine-level rates/timing remain bounded where not independently established."
+    "2026-09-22: Super Souls 032, 033, and 035 received a secondary-evidence mechanics refresh; exact engine-level rates/timing remain bounded where not independently established.",
+    "2026-09-22: promoted Super Souls 245–246 from partially_verified to researched after exact-name mechanics, character identity, Limit Burst, and PQ12/PQ38 provenance were independently reconfirmed; no unsupported reward probabilities or engine-level timing/rates were added."
   ],
   "sources": [
     {
