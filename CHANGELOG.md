@@ -2562,3 +2562,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Preserved existing acquisition, mechanics, DLC, conflicts, and unresolved evidence boundaries.
 - Added `docs/data/skill-provenance-audit-2026-09-23-energy-through-evil-flight-strike.json` and refreshed the stale census.
 - Validation: 455 canonical / 455 index / 0 duplicate IDs / 304 stale after the batch; CI/runtime unavailable.
+
+
+## 2026-09-23 — P1 Evil Ray Strike through Feint Shot provenance refresh
+- Refreshed 12 canonical/index skill records: Evil Ray Strike, Evil Rise Strike, Evil Whirlwind, Excellent Full Course, Explosive Assault, Explosive Buu Buu Punch, Explosive Wave, Eye Beam, Fake Blast, Fake Death, Feint Crash, and Feint Shot.
+- Preserved existing acquisition, mechanics, DLC, conflicts, and unresolved evidence boundaries.
+- Added `docs/data/skill-provenance-audit-2026-09-23-evil-through-feint-shot.json` and refreshed the stale census.
+- Validation: 455 canonical / 455 index / 0 duplicate IDs / 292 stale after the batch; CI/runtime unavailable.
