@@ -4508,3 +4508,13 @@
 - Validation: arithmetic and mentor-sharing invariant pass; canonical skill count 455; no duplicate mentor edge pair detected.
 - CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** audit the 58 remaining non-PQ skill records for deterministic acquisition-layer identity gaps, prioritizing Expert Mission/skill-shop/Time Rift/story consumers and avoiding already-resolved mentor routes.
+
+### 2026-09-23 correction — Skill non-PQ coverage arithmetic
+
+- Recomputed the set difference directly from the live canonical layers and corrected the prior projection's **58** figure.
+- Correct current state: **455 canonical skills = 239 PQ-linked + 130 mentor-linked + 86 other non-PQ/non-mentor**; therefore **216** skills lack `source_parallel_quests`.
+- The 58 figure was an arithmetic/category-overlap error in the projection only; canonical skill and acquisition data were not changed.
+- Added `docs/data/skill-acquisition-coverage-correction-audit-2026-09-23.json` and preserved the prior report/history.
+- Existing priority acquisition layers already contain the identified Expert Mission and shop route identities; no unsupported cross-domain or PQ edges were added.
+- CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** audit the 86 non-PQ/non-mentor skills for missing stable cross-domain IDs/index consumers, beginning with Expert Mission and shop records, then Time Rift/story/tournament routes; prioritize actual producer/consumer mismatches over descriptive route duplication.
