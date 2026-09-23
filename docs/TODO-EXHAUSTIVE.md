@@ -3787,3 +3787,14 @@
 - [x] No canonical relationship changes made.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: continue current-state consumer census for stale scalar/list assumptions and endpoint/status drift.
+
+
+### 2026-09-23 cycle update — Non-PQ cross-domain current-projection correction
+- Live census: **854 canonical PQ relationship edges**; domain counts **244 / 146 / 124 / 247 / 86 / 7**; Super Soul reverse target census **143**.
+- Bounded batch: `docs/data/pq-cross-domain-audit.json` current-projection sections.
+- Found and corrected seven stale current-looking fields: Super Soul reverse **148 → 143**; Super Soul forward/reverse report census **151/148 → 146/143**; current projection total **859 → 854**; current reconciliation artifact total **859 → 854**; obsolete 860-edge wording → 854; current integrity-review Super Soul count **151 → 146**.
+- Added `docs/data/pq-non-pq-cross-domain-audit-current-projection-correction-2026-09-23.json` and registered it in `docs/data/pq-cross-domain-index.md`.
+- Historical 862/860/840 snapshots remain untouched. No canonical relationship edges, identities, or aliases were added or removed.
+- Validation: JSON parse succeeded; current contract remains **854 / 244 / 146 / 124 / 247 / 86 / 7** and Super Soul **146 forward / 143 reverse**; correction audit registered.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next batch: continue the registered non-PQ consumer census for remaining **current-looking** scalar/list assumptions and endpoint/status drift; prioritize undated/current projections and preserve dated historical snapshots.
