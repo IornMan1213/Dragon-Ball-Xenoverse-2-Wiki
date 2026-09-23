@@ -14,6 +14,7 @@ CHECKS = {
         ("character_profiles", "Character-Core-Profiles.md", ROOT / "docs" / "Character-Core-Profiles.md"),
         ("dlc_character_audit", "data/characters/dlc-character-identity-audit.json", ROOT / "docs" / "data" / "characters" / "dlc-character-identity-audit.json"),
         ("dlc_character_bridge", "data/characters/dlc-character-identity-bridge.json", ROOT / "docs" / "data" / "characters" / "dlc-character-identity-bridge.json"),
+        ("dlc_overview_character_navigation", "DLC → Character Identity Navigation", ROOT / "docs" / "DLC-Overview.md"),
     ],
     "docs/DLC-Overview.md": [
         ("canonical_dlc_identity", "./data/dlc/canonical-dlc-identity.json", ROOT / "docs" / "data" / "dlc" / "canonical-dlc-identity.json"),
