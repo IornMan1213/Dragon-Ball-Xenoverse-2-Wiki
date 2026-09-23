@@ -6,10 +6,10 @@
   "canonical_skill_count": 465,
   "skills_with_character_source": 227,
   "source_tokens": 232,
-  "exact_bridge_matches": 200,
-  "unresolved_source_tokens": 32,
+  "exact_bridge_matches": 204,
+  "unresolved_source_tokens": 28,
   "non_character_source_tokens": 6,
-  "unresolved_character_or_variant_tokens": 26,
+  "unresolved_character_or_variant_tokens": 22,
   "findings": {
     "exact_matches": [
       "Android 13",
@@ -111,11 +111,6 @@
         "character_source": "Goku (Ultra Supervillain Quelled)"
       },
       {
-        "skill_id": "skill-evil-whirlwind",
-        "skill": "Evil Whirlwind",
-        "character_source": "Cell"
-      },
-      {
         "skill_id": "skill-flash-chaser",
         "skill": "Flash Chaser",
         "character_source": "Kefla"
@@ -134,16 +129,6 @@
         "skill_id": "skill-indomitable",
         "skill": "Indomitable",
         "character_source": "Goku (Ultra Supervillain Quelled)"
-      },
-      {
-        "skill_id": "skill-instant-rise",
-        "skill": "Instant Rise",
-        "character_source": "Cell"
-      },
-      {
-        "skill_id": "skill-meteor-blow",
-        "skill": "Meteor Blow",
-        "character_source": "Goku / Gohan"
       },
       {
         "skill_id": "skill-meteor-strike",
@@ -189,11 +174,6 @@
         "skill_id": "skill-super-black-kamehameha-rose",
         "skill": "Super Black Kamehameha Rosé",
         "character_source": "Goku Black (Super Saiyan Rosé)"
-      },
-      {
-        "skill_id": "skill-super-destructo-disc",
-        "skill": "Super Destructo-Disc",
-        "character_source": "Krillin / Android 18"
       },
       {
         "skill_id": "skill-total-detonation-ball",
