@@ -6040,3 +6040,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation after write: **455 canonical / 455 index / 439 current / 16 stale / 0 duplicate IDs**; target batch current.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next batch: **Variable Snipe Shot, Variant Drive, Venus Fist, Victory Cannon, Victory Rush, Volleyball Fist, Wall of Defense, Warp Kamehameha, Weekend, Wild Buster, Wild Hunt, Wild Stinger**. Recompute the live stale queue first.
+
+
+### 2026-09-23 cycle update — Variable Snipe Shot through Wild Stinger skill provenance refresh
+- Live census before editing: **455 canonical / 455 index / 439 current / 16 stale / 0 duplicate IDs**.
+- Completed 12 records: **Variable Snipe Shot, Variant Drive, Venus Fist, Victory Cannon, Victory Rush, Volleyball Fist, Wall of Defense, Warp Kamehameha, Weekend, Wild Buster, Wild Hunt, Wild Stinger**.
+- Research/evidence: maintained PQ/mentor research, exact-name skill references, independent corroboration, and official DLC/update documentation were rechecked.
+- Changes: canonical/index last_verified synchronized to 2026-09-23, bounded provenance notes refreshed, and docs/data/skill-provenance-audit-2026-09-23-variable-snipe-shot-through-wild-stinger.json added/registered.
+- Evidence boundaries preserved: Variable Snipe Shot/Wild Stinger retain reward-condition conflicts; Venus Fist retains PQ186 Basic Reward semantics; Warp Kamehameha retains the corrected 400-Ki value and PQ76 reward conflict.
+- Validation after write: **455 canonical / 455 index / 451 current / 4 stale / 0 duplicate IDs**; target batch current.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next batch: **Wolf Fang Fist, X 100 Big Bang Kamehameha, x10 Kamehameha, Zigzag Express**. Recompute the live stale queue first.
