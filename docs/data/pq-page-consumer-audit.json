@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1.0",
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "scope": "PQ explorer page consumer exact canonical reward-pair and projection contract",
   "consumer": "docs/Parallel-Quests-All.html",
   "record_layer": "docs/data/parallel-quests-record-layer.json",
@@ -20,8 +20,8 @@
       "invalid_relationship_pq_ids": 0
     },
     "pq_rewards_super_soul": {
-      "canonical_pairs": 151,
-      "structured_pairs": 151,
+      "canonical_pairs": 146,
+      "structured_pairs": 146,
       "missing": 0,
       "extra": 0,
       "canonical_duplicates": 0,
@@ -72,6 +72,15 @@
       "field": "equipment_rewards",
       "removed": "Mr. Shape Up L",
       "reason": "Canonical relationship layer no longer treats Mr. Shape Up L as equipment; the underlying raw rewards list remains preserved."
+    },
+    {
+      "pq": "pq-151",
+      "field": "super_soul_rewards",
+      "added": [
+        "I'll never forgive you!",
+        "I'm not gonna die until I defeat you!"
+      ],
+      "reason": "Exact canonical relationship targets were present in the general PQ reward list and canonical relationship layer but missing from the structured super_soul_rewards consumer field; added without inventing IDs or gating."
     }
   ],
   "evidence_boundary": "Only exact canonical reward-target fields were synchronized. Existing alias/granularity conflicts remain preserved in their dedicated audits; no targets were inferred or renamed.",
@@ -87,5 +96,5 @@
     "character_projection_duplicate_detection": true,
     "dlc_scalar_projection_duplicate_detection": true
   },
-  "last_verified": "2026-09-22"
+  "last_verified": "2026-09-23"
 }
