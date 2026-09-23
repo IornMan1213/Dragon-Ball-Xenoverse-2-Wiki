@@ -2047,3 +2047,12 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Validation: **234 canonical / 0 duplicate IDs / 123 strict-thin records**; changed JSON parses cleanly; audit registration is present. Unresolved 044–046 stacking semantics remain explicit.
 - CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - Exact next task: recompute the live strict-thin queue and continue the next evidence-supported cluster, prioritizing strong exact-name one-field gaps while preserving genuine evidence boundaries.
+
+
+### 2026-09-22 — Super Soul 070/071/078/080 duration reconciliation
+- Reconciled duration semantics for **070, 071, 078, and 080** from exact-name catalogue/stat-sheet evidence.
+- Recorded explicit non-timed condition/trigger semantics rather than inventing finite timers.
+- Added and registered `docs/data/super-soul-070-071-078-080-duration-reconciliation-2026-09-22.json`.
+- Validation: **234 canonical / 0 duplicate IDs / 119 strict-thin records**; changed records parse cleanly and audit registration is present.
+- CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- Exact next task: recompute the live strict-thin queue and continue the next evidence-supported one-field cluster.
