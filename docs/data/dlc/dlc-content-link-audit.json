@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "1.2.0",
   "scope": "DLC content-domain projection reconciliation",
   "source_of_truth": "docs/data/dlc/canonical-dlc-identity.json",
   "canonical_relationship_source": "docs/data/pq-reward-relationships.json",
@@ -55,7 +55,8 @@
         "lobby_items"
       ],
       "status": "identity_and_PQ_projection_resolved; raid/lobby and complete pack inventory remain unresolved at record level",
-      "record_link_repair": "Corrected malformed equipment pq_sources identifiers for its canonical PQ set; non-PQ inventory remains unresolved."
+      "record_link_repair": "Corrected malformed equipment pq_sources identifiers for its canonical PQ set; non-PQ inventory remains unresolved.",
+      "downstream_matrix_status": "concrete PQ-backed character/skill/Super Soul/equipment anchors are now catalogued separately; complete paid/free-update inventory remains unresolved"
     },
     {
       "projection": "hero-of-justice-pack-2",
@@ -83,7 +84,8 @@
         "stage"
       ],
       "status": "identity_and_PQ_projection_resolved; complete pack inventory/stage mapping remains unresolved at record level",
-      "record_link_repair": "Corrected malformed equipment pq_sources identifiers for its canonical PQ set; non-PQ inventory remains unresolved."
+      "record_link_repair": "Corrected malformed equipment pq_sources identifiers for its canonical PQ set; non-PQ inventory remains unresolved.",
+      "downstream_matrix_status": "concrete PQ-backed character/skill/Super Soul/equipment anchors are now catalogued separately; complete pack and stage inventory remains unresolved"
     }
   ],
   "rules": [
@@ -104,5 +106,6 @@
       "pq-181"
     ],
     "rule": "Only identifier-shape errors with exact PQ provenance were repaired; no new content relationship was inferred."
-  }
+  },
+  "pack_content_matrix": "docs/data/dlc/dlc-pack-content-matrix-2026-09-23.json"
 }
