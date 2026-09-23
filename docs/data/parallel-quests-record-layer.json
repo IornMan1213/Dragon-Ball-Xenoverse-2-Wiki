@@ -1997,9 +1997,7 @@
       "equipment_rewards": [
         "Piccolo's School Clothes"
       ],
-      "super_soul_rewards": [
-        "Do or Die"
-      ],
+      "super_soul_rewards": [],
       "dragon_ball_farming": false,
       "verification_status": "partially_verified",
       "sources": [
@@ -2008,7 +2006,8 @@
       ],
       "skill_ids": [
         "skill-do-or-die"
-      ]
+      ],
+      "super_soul_ids": []
     },
     {
       "id": "pq-050",
