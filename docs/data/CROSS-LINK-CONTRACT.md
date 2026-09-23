@@ -88,3 +88,13 @@ The file docs/data/pq-endpoint-alias-granularity-map.json is the deterministic p
 - Broad DLC pass/bundle labels may map to one or more individually canonical pack requirements; this is a granularity mapping, not an entity merge.
 - One-to-many mappings must remain labeled as granularity and must not be converted into duplicate canonical relationships.
 - Downstream pages may use this bridge to resolve navigation while retaining the canonical target identity and provenance.
+
+
+### Shop endpoint implementation baseline — 2026-09-23
+
+The skill acquisition shop layer now has stable canonical endpoint IDs in docs/data/skill-shop-endpoints.json:
+
+- `shop-skill` — Skill Shop
+- `shop-tp-stp-medal` — TP / STP Medal Shop
+
+The layer currently projects **23 canonical skill edges** (**12 Skill Shop + 11 TP/STP Medal Shop**) with deterministic forward and reverse indexes. It is derived from skills.json acquisition classifications and does not manufacture alternate event/raid relationships from prose. Historical rotation and price evidence remains provenance, not proof of current availability.
