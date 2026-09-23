@@ -3470,3 +3470,13 @@
 - [x] Preserved the canonical-source-of-truth boundary; no relationship or gameplay data was inferred.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next priority: continue published character/DLC presentation-index and generated-content navigation audits, then resume deterministic DLC content-domain reconciliation.
+
+
+### 2026-09-23 — TODO completion update — Super Soul 036–047 secondary fields
+- [x] Recomputed the live thin-system census and bounded the next evidence-supported batch to Super Souls 036–047.
+- [x] Filled missing DLC requirement fields with `None identified` where no paid DLC requirement is established.
+- [x] Reconciled stacking fields to `Not reported as stackable` without inventing numeric caps.
+- [x] Added/registered `docs/data/super-soul-036-through-047-secondary-field-reconciliation-2026-09-23.json`.
+- [x] Refreshed verification dates and added Free Update evidence.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Next: recompute the remaining 24-record thin queue; prioritize 032, 034, 158, and 217, then continue the strongest evidence-supported gaps.
