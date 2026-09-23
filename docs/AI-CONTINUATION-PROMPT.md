@@ -5280,3 +5280,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: mascot/reverse ID sets match exactly; unresolved canonical mascot IDs = 0; equipment/accessory aliases = 0. CI/runtime unavailable.
 - Commits: reverse index **fa046be8c558be85e7b10b6c7b93d694dc5f4b75**; cross-domain registration **d968326b763c6fe8207a01bcf4be5d24edf93c4a**; reconciliation correction **c80819b7da354fa2b5b3a292f118326fd20cd76a**.
 - Exact next batch: resume the five unmatched Support Pack costume identities and resolve equipment-layer capacity/extension safely without inventing unsupported `equip-141+` IDs.
+
+
+### 2026-09-23 cycle update — Support Pack costume equipment-ID capacity decision
+- Live equipment namespace: **equip-140 maximum**; combined canonical equipment/accessory layer remains separate from legacy ID numbering.
+- Bounded batch: **Gogeta Clothes, Future Trunks' Clothes (Super), Broly Clothes, Master Korin's Suit, Orange Star High School Outfit**.
+- Decision: do **not** assign equip-141+ IDs or force clothing into accessory IDs. The repository lacks a documented next-generation equipment-ID allocation mechanism, while current continuation guidance explicitly prohibits invented equip-141–equip-150 records.
+- Added `docs/data/dlc/time-patrol-support-pack-costume-canonical-equipment-capacity-decision-2026-09-23.json` and registered it in `pq-cross-domain-index.json`.
+- Validation: five blocked identities preserved; new equipment IDs = 0; aliases = 0. CI/runtime unavailable.
+- Exact next batch: proceed to the next highest-impact cross-domain consumer/coverage audit; revisit these costumes only after a principled equipment-ID allocation mechanism is designed.
