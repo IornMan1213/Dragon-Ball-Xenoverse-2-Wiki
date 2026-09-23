@@ -6632,3 +6632,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime unavailable; no CI success claimed.
 - Commit: `79316983821a2171396c3aa14d3699787bc435d7`.
 - **Exact next task:** continue the deterministic census for remaining superseded current-state counts (especially the 854 historical/current-baseline consumers) and synchronize only confirmed consumer metadata before returning to source-backed preset reconciliation.
+
+
+### 2026-09-23 cycle update — Remaining 854 current-consumer synchronization
+- [x] Continued the deterministic PQ producer/consumer census and searched remaining explicit 854/146 current-looking projections.
+- [x] Corrected `docs/data/pq-endpoint-alias-granularity-map.json` current validation baseline from 854 to **853**; preserved its role as presentation metadata only.
+- [x] Corrected `docs/data/skill-pq-acquisition-presentation-audit.json` stale canonical skill count from **452** to **465** while preserving its 244 PQ-skill edge count and exact forward/reverse parity.
+- [x] Corrected current consumer entries in `docs/data/pq-current-baseline-single-source-reconciliation-2026-09-22.json` and `docs/data/pq-non-pq-consumer-census-2026-09-22.json` to the authoritative **853 total / 145 Super Soul** baseline. Historical 854/146 and older snapshots remain preserved where explicitly historical.
+- [x] Updated `docs/data/pq-cross-domain-index.md` current relationship wording/metadata to the 853-edge baseline.
+- [x] Validation: changed JSON artifacts reparsed; current scalar totals agree with `docs/data/pq-reward-relationships.json`; no relationship rows were added, deleted, or inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- Commits: alias `432a92360816694eba15a70edf45df55c35aaee3`; skill audit `a4c0083c4f6724c8c9a84a50949595dcaced6beb`; single-source `c2ed2e2b8ad46a1c303fd4e73ec475e2abcdeadf`; consumer census `05ea6cae7584aeb689e776e77616f0f0fa8e8c97`; cross-domain index `34cc9069e1558f85ea5402e20302fc1bbe543b2a`.
+- **Exact next task:** continue exact-pair parity scanning of remaining reverse/navigation projections for stale 853/145/465 assumptions, then return to explicit source-backed preset reconciliation. Never rewrite dated historical baselines merely to match the current state.
