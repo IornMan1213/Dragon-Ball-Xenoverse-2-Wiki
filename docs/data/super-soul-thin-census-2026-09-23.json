@@ -4,27 +4,27 @@
   "domain": "super_souls",
   "purpose": "Live strict-thin census after Super Soul 232-236 identity correction.",
   "source_of_truth": "docs/data/super-souls-record-layer.json",
-  "canonical_records": 229,
+  "canonical_records": 230,
   "duplicate_ids": 0,
   "strict_thin_records": [
     "super-soul-032",
     "super-soul-034",
-    "super-soul-158",
     "super-soul-217"
   ],
   "cross_domain": {
     "canonical_pq_records": 186,
-    "canonical_pq_super_soul_edges": 146,
+    "canonical_pq_super_soul_edges": 145,
     "corrected_pq_range": "151-155",
-    "canonical_pq_super_soul_reverse_targets": 143,
+    "canonical_pq_super_soul_reverse_targets": 142,
     "note": "Live canonical PQ-to-Super Soul relationship coverage is 146 forward edges / 143 unique reverse targets. The canonical relationship source is authoritative; five previously projected consumer edges are not present in verified_relationships and remain an explicit discrepancy boundary."
   },
-  "next_method": "Current strict-thin queue is 032, 034, 158, and 217. Continue deterministic cross-domain consumer reconciliation outside the thin queue before attempting unresolved mechanics.",
+  "next_method": "Current strict-thin queue is 032, 034, and 217 after migrating the false 158 Super Soul collision to canonical skill-do-or-die. Continue deterministic cross-domain consumer reconciliation and then resume bounded evidence work.",
   "status": "complete_current",
   "last_updated": "2026-09-23",
   "notes": [
-    "Five indexed-only 232-236 placeholders were removed after catalogue identity reconciliation.",
-    "PQ151-155 reward projections were synchronized to the maintained PQ evidence.",
-    "Strict-thin queue decreased from 9 to 4 solely through identity correction; no mechanics were inferred."
+    "Super Soul 158 was removed from the canonical Super Soul layer after exact repository evidence established the canonical skill-do-or-die target.",
+    "The legacy 158 identity is preserved in docs/data/super-soul-158-canonical-domain-migration-2026-09-23.json.",
+    "PQ Super Soul coverage is now 145 forward edges / 142 unique reverse targets after removing the false PQ49 Do or Die Super Soul edge.",
+    "Strict-thin queue is now 032, 034, 217; 158 is no longer a Super Soul research item."
   ]
 }
