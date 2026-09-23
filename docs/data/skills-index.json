@@ -235,6 +235,24 @@
       "source_quest_or_shop": "Nappa mentor training — Lesson 1"
     },
     {
+      "id": "skill-assault-rain",
+      "name": "Assault Rain",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "acquisition_reconciled",
+      "acquisition_type": "expert_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Assault_Rain"
+      ],
+      "unlock_method": "Expert Mission 9 — \"The Most Feared Majin\"",
+      "ultimate_finish_required": null,
+      "last_verified": "2026-09-23",
+      "race_restriction": "Not separately established in this promotion",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM09. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.",
+      "source_quest_or_shop": "Expert Mission 9 — \"The Most Feared Majin\""
+    },
+    {
       "id": "skill-assault-vanish",
       "name": "Assault Vanish",
       "class": "Super",
@@ -669,6 +687,24 @@
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
       "source_quest": "Zarbon mentor training — Lesson 2",
       "source_quest_or_shop": "Zarbon mentor training — Lesson 2"
+    },
+    {
+      "id": "skill-blue-hurricane",
+      "name": "Blue Hurricane",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "acquisition_reconciled",
+      "acquisition_type": "expert_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Blue_Hurricane"
+      ],
+      "unlock_method": "Expert Mission 15 — \"Extreme Malice!\"",
+      "ultimate_finish_required": null,
+      "last_verified": "2026-09-23",
+      "race_restriction": "Not separately established in this promotion",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM15. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.",
+      "source_quest_or_shop": "Expert Mission 15 — \"Extreme Malice!\""
     },
     {
       "id": "skill-bluff-kamehameha",
@@ -1934,6 +1970,24 @@
       "source_quest_or_shop": "Expert Mission 20 - Harbinger of Doom"
     },
     {
+      "id": "skill-dead-end-bullet",
+      "name": "Dead End Bullet",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "acquisition_reconciled",
+      "acquisition_type": "expert_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Dead_End_Bullet"
+      ],
+      "unlock_method": "Expert Mission 8 — \"Ominous Androids\"",
+      "ultimate_finish_required": null,
+      "last_verified": "2026-09-23",
+      "race_restriction": "Not separately established in this promotion",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM08. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.",
+      "source_quest_or_shop": "Expert Mission 8 — \"Ominous Androids\""
+    },
+    {
       "id": "skill-dead-end-rain",
       "name": "Dead End Rain",
       "class": "Ultimate",
@@ -2044,6 +2098,24 @@
       "source_quest_or_shop": "Frieza (1st Form) mentor training — Lesson 1"
     },
     {
+      "id": "skill-death-meteor",
+      "name": "Death Meteor",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "acquisition_reconciled",
+      "acquisition_type": "expert_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Death_Meteor"
+      ],
+      "unlock_method": "Expert Mission 7 — \"The Big Gete Star Strikes Back\"",
+      "ultimate_finish_required": null,
+      "last_verified": "2026-09-23",
+      "race_restriction": "Not separately established in this promotion",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM07. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.",
+      "source_quest_or_shop": "Expert Mission 7 — \"The Big Gete Star Strikes Back\""
+    },
+    {
       "id": "skill-death-psycho-bomb",
       "name": "Death Psycho Bomb",
       "class": "Super",
@@ -2116,6 +2188,24 @@
       "mechanics_notes": "Confirmed as Frieza's 100-Ki Ki Blast Super from Lesson 2 training. The dedicated evidence describes a disc projectile with a second input that redirects/tracks it after launch; the user cannot guard while controlling the disc.",
       "source_quest": "Frieza (1st Form) mentor training — Lesson 2",
       "source_quest_or_shop": "Frieza (1st Form) mentor training — Lesson 2"
+    },
+    {
+      "id": "skill-death-wave",
+      "name": "Death Wave",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "acquisition_reconciled",
+      "acquisition_type": "expert_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Death_Wave"
+      ],
+      "unlock_method": "Expert Mission 5 — \"The Galactic Tyrant\"",
+      "ultimate_finish_required": null,
+      "last_verified": "2026-09-23",
+      "race_restriction": "Not separately established in this promotion",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM05. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.",
+      "source_quest_or_shop": "Expert Mission 5 — \"The Galactic Tyrant\""
     },
     {
       "id": "skill-demon-flash-strike",
@@ -5637,6 +5727,24 @@
       "source_quest_or_shop": "Android 16 mentor training"
     },
     {
+      "id": "skill-hellzone-grenade",
+      "name": "Hellzone Grenade",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "acquisition_reconciled",
+      "acquisition_type": "expert_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Hellzone_Grenade"
+      ],
+      "unlock_method": "Expert Mission 10 — \"The Emperor's Worth\"",
+      "ultimate_finish_required": null,
+      "last_verified": "2026-09-23",
+      "race_restriction": "Not separately established in this promotion",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM10. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.",
+      "source_quest_or_shop": "Expert Mission 10 — \"The Emperor's Worth\""
+    },
+    {
       "id": "skill-hero-s-flute",
       "name": "Hero's Flute",
       "class": "Super",
@@ -6957,6 +7065,24 @@
       "mechanics_notes": "100-Ki Ki Blast Super from Captain Ginyu mentor training, Lesson 2. The mentor lesson is the deterministic acquisition endpoint; detailed combat mechanics remain deferred rather than inferred.",
       "source_quest": "Captain Ginyu mentor training — Lesson 2",
       "source_quest_or_shop": "Captain Ginyu mentor training — Lesson 2"
+    },
+    {
+      "id": "skill-murder-grenade",
+      "name": "Murder Grenade",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "acquisition_reconciled",
+      "acquisition_type": "expert_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Murder_Grenade"
+      ],
+      "unlock_method": "Expert Mission 3 — \"Assault of the Great Ape\"",
+      "ultimate_finish_required": null,
+      "last_verified": "2026-09-23",
+      "race_restriction": "Not separately established in this promotion",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM03. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.",
+      "source_quest_or_shop": "Expert Mission 3 — \"Assault of the Great Ape\""
     },
     {
       "id": "skill-mystic-flash",
@@ -8724,6 +8850,24 @@
       ]
     },
     {
+      "id": "skill-shocking-death-ball",
+      "name": "Shocking Death Ball",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "acquisition_reconciled",
+      "acquisition_type": "expert_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Shocking_Death_Ball"
+      ],
+      "unlock_method": "Expert Mission 14 — \"Huge Blasts for Huge Apes!\"",
+      "ultimate_finish_required": null,
+      "last_verified": "2026-09-23",
+      "race_restriction": "Not separately established in this promotion",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM14. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.",
+      "source_quest_or_shop": "Expert Mission 14 — \"Huge Blasts for Huge Apes!\""
+    },
+    {
       "id": "skill-shooting-strike",
       "name": "Shooting Strike",
       "class": "Super",
@@ -9190,6 +9334,24 @@
       ]
     },
     {
+      "id": "skill-spirit-sword",
+      "name": "Spirit Sword",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "acquisition_reconciled",
+      "acquisition_type": "expert_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Spirit_Sword"
+      ],
+      "unlock_method": "Expert Mission 17 — \"In the Realm of the Gods: Goku\"",
+      "ultimate_finish_required": null,
+      "last_verified": "2026-09-23",
+      "race_restriction": "Not separately established in this promotion",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM17. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.",
+      "source_quest_or_shop": "Expert Mission 17 — \"In the Realm of the Gods: Goku\""
+    },
+    {
       "id": "skill-spread-shot-retreat",
       "name": "Spread Shot Retreat",
       "class": "Evasive",
@@ -9457,6 +9619,24 @@
       "source_parallel_quests": [
         31
       ]
+    },
+    {
+      "id": "skill-super-electric-strike",
+      "name": "Super Electric Strike",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "acquisition_reconciled",
+      "acquisition_type": "expert_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Electric_Strike"
+      ],
+      "unlock_method": "Expert Mission 11 — \"The Devil Born from the Dragon Balls\"",
+      "ultimate_finish_required": null,
+      "last_verified": "2026-09-23",
+      "race_restriction": "Not separately established in this promotion",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM11. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.",
+      "source_quest_or_shop": "Expert Mission 11 — \"The Devil Born from the Dragon Balls\""
     },
     {
       "id": "skill-super-elite-combo",
