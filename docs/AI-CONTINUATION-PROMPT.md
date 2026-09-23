@@ -4972,3 +4972,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Historical 859/151 and older snapshots were not rewritten when they are explicitly dated historical records. No relationship edge was inferred or removed in this cycle.
 - Static structural validation/direct repository reads only; runtime/CI remains unavailable and no executable success is claimed.
 - Exact next batch: inspect the remaining current-facing PQ page templates and DLC requirement presentation for one-way navigation, stale scalar fields, and endpoint identity drift; then repair deterministic cross-database navigation gaps before returning to unresolved mechanics/provenance.
+
+
+### 2026-09-23 cycle update — PQ explorer deep-link/DLC navigation repair
+- Live canonical relationship census remains **854 total / 244 skill / 146 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming**.
+- Fixed a concrete navigation defect in `docs/Parallel-Quests-All.html`: inbound `?q=` links now initialize the PQ explorer search field correctly, and PQ→DLC links now target the query-aware `/Search/` surface instead of appending an unsupported query to the static DLC overview.
+- Updated `scripts/validate_pq_explorer_reward_navigation.py` with explicit deep-link and PQ→DLC destination checks.
+- Updated `docs/data/pq-explorer-reward-navigation-audit.json` and `docs/data/pq-direct-template-dlc-consumer-audit-2026-09-22.json` to record the repair and 854-edge current baseline.
+- Direct fetch/static inspection confirmed the validator contains the new checks and the explorer initializes its query after DOM element declaration. Runtime/CI remains unavailable; no executable success claimed.
+- Exact next batch: inspect character and Super Soul reverse-navigation destinations for the same query/deep-link contract, then repair deterministic navigation gaps only.
