@@ -4626,3 +4626,17 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Commits: canonical `f37de0e94a504d576cf9cd1f6af510d9711a8f80`; audit `c8a2779236bace89e3dbe4686d3997d2c9aa1ccd`; thin census `6fb1775798e14ef211172a61549f4701b471b4ba`.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next priority: recompute the live queue before editing again. Highest-value unresolved areas are the remaining duration-only records (129–133, 135, 137–139, 141, 143, 147, 149, 155, 157, 159, 163, 164, 167, 169–171, 173–175, 179, 187, 201, 229, 237, 239, 240–241, 246), while **032/034** and indexed-only **158/232–236** remain explicit evidence boundaries.
+
+
+### 2026-09-23 cycle update — Super Soul 129–143 duration reconciliation
+- [x] Live census before editing: **234 canonical / 0 duplicate IDs / 58 strict-thin records**.
+- [x] Bounded batch: **129–143**, targeting duration-only gaps while preserving prior stacking work.
+- [x] Research/evidence: maintained exact-name Super Soul catalogue and corroborating character/form pages; the catalogue exposes the documented timed effects, while trigger/condition text was not converted into invented timers. citeturn0search4turn0search5turn0search17
+- [x] Changes: recorded **20-second** durations for **130, 132, 133, 135, 137, 138, 139, 141, and 143**.
+- [x] Evidence limits preserved: **129 and 131 remain duration-unresolved**; no numeric timer was inferred for either.
+- [x] Added audit: `docs/data/super-soul-129-143-duration-reconciliation-2026-09-23.json`.
+- [x] Refreshed live thin census: **58 → 49 strict-thin records**.
+- [x] Validation: canonical JSON reread/parsed; **234 records / 0 duplicate IDs**; census matches live strict-thin calculation.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Commits: canonical `9a721da0567ff91e773f32695f14fbf11422cfd7`; audit `b1027f7133177c0da8a7bf977ef211ca9de94398`; census `e1782aa168920525a981f83f2af286119df271dc`.
+- [ ] Exact next batch: recompute the queue, then continue the strongest remaining duration-only cluster (**147, 149, 155, 157, 159, 163, 164, 167, 169–171, 173–175, 179, 187, 201, 229, 237, 239–241, 246**) before revisiting 032/034 or indexed-only 158/232–236.
