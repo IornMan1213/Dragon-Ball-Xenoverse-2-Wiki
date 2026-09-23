@@ -1,3 +1,13 @@
+### 2026-09-23 cycle update — Current PQ consumer baseline correction after Super Soul 158 domain migration
+
+- Live canonical relationship source is now **853 total edges**: 244 skills / 145 Super Souls / 124 equipment / 247 character / 86 DLC / 7 farming; Super Soul reverse projection is **142** unique targets.
+- Completed the active-consumer audit against the post-migration canonical layer and identified deterministic stale wording in the 2026-09-23 current-state consumer census and a validator failure-message typo.
+- Corrected the current-state consumer census to reference the live 853/145/142 baseline and changed its finding for the PQ cross-domain status from the superseded 854/146 baseline to the live canonical baseline.
+- Corrected `scripts/validate_pq_non_pq_consumer_census.py` so its failure message matches the executable 853-edge assertion.
+- Historical 854/146/143 and older 859/151/148/862/860/840 snapshots remain preserved as historical evidence and were not rewritten.
+- Validation boundary: canonical relationship arrays were not changed in this correction; no CI success is claimed.
+- Exact next task: continue the P1 exhaustive provenance/data queue after the current-consumer baseline is synchronized, prioritizing remaining source-backed acquisition/provenance gaps and maintaining cross-database navigation parity.
+
 ### 2026-09-22 cycle update — Super Soul 156/161/166/172 duration reconciliation
 - Live census before editing: **234 canonical / 0 duplicate IDs / 102 strict-thin records**.
 - Bounded batch: **156, 161, 166, and 172**.
