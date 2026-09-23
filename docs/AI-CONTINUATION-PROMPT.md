@@ -5439,3 +5439,8 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - **032:** Fresh Steam PQ catalogue evidence confirms the exact PQ 185 reward. Current GameFAQs discussion documents its second displayed-name state after KO (“Using this power should be no sweat for you guys.”); this is recorded without inferring a second effect.
 - Added evidence-refresh audit and updated checkpoint/TODO/CHANGELOG.
 - Next priority: continue authoritative/item-level 217 Limit Burst research; then perform the next unresolved strict-thin Super Soul batch.
+
+
+### 2026-09-23 continuation correction — strict-thin queue
+- Two targeted web-search passes for **super-soul-217** failed to expose reliable item-level Limit Burst trigger/effect data. Core +12 Ki/+12 Stamina and PQ134 provenance remain corroborated; no Limit Burst inference was made.
+- The strict-thin checkpoint's next queue has been corrected: prioritize **034** for any new authoritative/item-level evidence, while 217 remains bounded and should not receive repetitive low-yield searches unless a source exposes explicit Limit Burst data. Continue tracking **158** as the documented Super Skill name collision.
