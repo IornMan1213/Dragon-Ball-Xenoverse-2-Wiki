@@ -54,7 +54,7 @@ def main() -> int:
     if p["equipment"]["forward"] != 124 or p["equipment"]["reverse"] != 122:
         failures.append("producer equipment projection is not 124/122")
     if producer["master"]["total_relationships"] != 853:
-        failures.append("producer master total is not 854")
+        failures.append("producer master total is not 853")
 
     report = {
         "schema_version":"1.0.0",
