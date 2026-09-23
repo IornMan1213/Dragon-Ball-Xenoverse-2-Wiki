@@ -1795,12 +1795,12 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Parallel Quest 97 - Insidious Plot",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "mechanics_notes": "Confirmed as Other Super from PQ97 and usable by all CaC races. It charges Stamina rather than Ki.",
       "source_quest": 97,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: dedicated skill evidence confirms PQ97 acquisition, Other Super classification, and Stamina-restoration function. The current maintained PQ guide lists the skill in Basic Reward, while an older player report describes Charged Ki Wave as a UF drop; the canonical Basic Reward/no-UF-only interpretation follows the maintained reward table and the conflict is preserved.",
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: dedicated skill evidence confirms PQ97 acquisition, Other Super classification, and Stamina-restoration function. The current maintained PQ guide lists the skill in Basic Reward, while an older player report describes Charged Ki Wave as a UF drop; the canonical Basic Reward/no-UF-only interpretation follows the maintained reward table and the conflict is preserved. 2026-09-23 provenance refresh: dedicated skill evidence was rechecked against the current wiki reference; existing acquisition, cost, scope, and mechanics semantics are preserved, and no unsupported probability or additional gate is inferred.",
       "id": "skill-charged-ki-wave",
       "source_parallel_quests": [
         97
@@ -1823,14 +1823,14 @@
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; maintained PQ154 data records a 40% Ultimate Finish bonus roll, while some numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred. 2026-09-20 verification: current skill page explicitly states PQ154 unlock and Ki Blast Ultimate classification; independent PQ154 acquisition material corroborates the source. 2026-09-20 PQ154 reconciliation: maintained PQ batch 15 explicitly documents a 40% Ultimate Finish bonus roll for this skill; the prior generic Random Parallel Quest label was too broad and has been replaced with the documented PQ154 UF route.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Circle_Flash",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=2839146872"
       ],
-      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred. 2026-09-20 provenance census: normalized source field to Parallel Quest 154 — \"Dabura the Loyal? Servant\", matching the maintained PQ research record. 2026-09-21 race-scope audit: repository evidence confirms CaC usability but does not establish a narrower race/gender/form restriction; race_restriction remains null rather than being inferred. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics. 2026-09-22 provenance refresh: PQ154 acquisition is independently corroborated, but the maintained Steam PQ listing places Circle Flash in Basic Reward while the current canonical research records a 40% Ultimate Finish bonus slot. The reward-tier conflict is preserved rather than silently normalized.",
+      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred. 2026-09-20 provenance census: normalized source field to Parallel Quest 154 — \"Dabura the Loyal? Servant\", matching the maintained PQ research record. 2026-09-21 race-scope audit: repository evidence confirms CaC usability but does not establish a narrower race/gender/form restriction; race_restriction remains null rather than being inferred. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics. 2026-09-22 provenance refresh: PQ154 acquisition is independently corroborated, but the maintained Steam PQ listing places Circle Flash in Basic Reward while the current canonical research records a 40% Ultimate Finish bonus slot. The reward-tier conflict is preserved rather than silently normalized. 2026-09-23 provenance refresh: dedicated skill evidence was rechecked against the current wiki reference; existing acquisition, cost, scope, and mechanics semantics are preserved, and no unsupported probability or additional gate is inferred.",
       "race_restriction": null,
       "source_quest": 154,
       "acquisition_type": "quest_or_mission",
@@ -1858,7 +1858,7 @@
       "mechanics_notes": "Charge and rush with three strikes; landing the third enables an immediate Ultimate follow-up. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Comet_Strike",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1866,7 +1866,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context.\n2026-09-21 provenance strengthening: official Bandai Namco DLC documentation confirms Legendary Pack 2 contains four Parallel Quests and ten additional moves; exact PQ149/PQ150 reward relationships remain supported by the maintained PQ research layer and dedicated skill sources. 2026-09-22 provenance refresh: dedicated skill evidence confirms the 100-Ki Strike Super, PQ149 acquisition, three-hit rush, and immediate Ultimate follow-up; the maintained PQ guide independently lists Comet Strike in Basic Reward. No UF-only gate or exact probability is inferred.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context.\n2026-09-21 provenance strengthening: official Bandai Namco DLC documentation confirms Legendary Pack 2 contains four Parallel Quests and ten additional moves; exact PQ149/PQ150 reward relationships remain supported by the maintained PQ research layer and dedicated skill sources. 2026-09-22 provenance refresh: dedicated skill evidence confirms the 100-Ki Strike Super, PQ149 acquisition, three-hit rush, and immediate Ultimate follow-up; the maintained PQ guide independently lists Comet Strike in Basic Reward. No UF-only gate or exact probability is inferred. 2026-09-23 provenance refresh: dedicated skill evidence was rechecked against the current wiki reference; existing acquisition, cost, scope, and mechanics semantics are preserved, and no unsupported probability or additional gate is inferred.",
       "source_parallel_quests": [
         149
       ]
@@ -1888,7 +1888,7 @@
       "mechanics_notes": "Current evidence establishes the skill identity and documented acquisition endpoint; unsupported detailed mechanics remain intentionally limited.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-grows-larger-with-the-release-of-extra-pack-2-infinite-history",
         "https://dbxv2.fandom.com/wiki/Confusion_Blade",
@@ -1897,7 +1897,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 Extra Pack 2 completeness correction: official DLC scope lists eight skills; Confusion Blade was one of four Fu/Tokipedia endpoints missing from the canonical registry. Current evidence identifies Tokipedia completion as the acquisition endpoint. 2026-09-22 provenance refresh: dedicated skill evidence confirms 100-Ki Ki Blast Super classification, Fu association, and Tokipedia completion acquisition. Independent GameFAQs reward reporting also identifies Confusion Blade at 20% Tokipedia completion; the repository's acquisition endpoint is retained.",
+      "notes": "2026-09-21 Extra Pack 2 completeness correction: official DLC scope lists eight skills; Confusion Blade was one of four Fu/Tokipedia endpoints missing from the canonical registry. Current evidence identifies Tokipedia completion as the acquisition endpoint. 2026-09-22 provenance refresh: dedicated skill evidence confirms 100-Ki Ki Blast Super classification, Fu association, and Tokipedia completion acquisition. Independent GameFAQs reward reporting also identifies Confusion Blade at 20% Tokipedia completion; the repository's acquisition endpoint is retained. 2026-09-23 provenance refresh: dedicated skill evidence was rechecked against the current wiki reference; existing acquisition, cost, scope, and mechanics semantics are preserved, and no unsupported probability or additional gate is inferred.",
       "id": "skill-confusion-blade"
     },
     {
@@ -1917,7 +1917,7 @@
       "mechanics_notes": "Dedicated current-version evidence identifies this as Gamma 2's Strike Ultimate and states that the Future Warrior can obtain it from PQ158; maintained PQ158 data documents a 40% Ultimate Finish bonus roll. CaC race/gender scope is not explicitly stated, so race_restriction remains null.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Core_Breaker",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1927,7 +1927,7 @@
       "race_restriction": null,
       "source_quest": 158,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 source reconciliation: current PQ158 reward data documents a 40% Ultimate Finish bonus slot; the prior Basic Reward classification was stale. 2026-09-20 provenance census: normalized source field to Parallel Quest 158 — \"Beat Bulma's Minions!\", matching the maintained PQ research record. 2026-09-21 Hero of Justice Pack 1 provenance audit: official Bandai Namco/Nintendo documentation identifies 4 new Parallel Quests and 7 additional moves; maintained PQ evidence identifies PQ155–158 and lists all seven canonical moves. The live repository maps each of the seven moves to its corresponding PQ and Hero of Justice Pack 1 provenance. 2026-09-22 provenance refresh: dedicated current-version evidence confirms Core Breaker as Gamma 2's 500-Ki Strike Ultimate and PQ158 acquisition. Current evidence does not establish a narrower CaC race/gender/form restriction, so race_restriction remains unresolved rather than All CaC races.",
+      "notes": "2026-09-20 source reconciliation: current PQ158 reward data documents a 40% Ultimate Finish bonus slot; the prior Basic Reward classification was stale. 2026-09-20 provenance census: normalized source field to Parallel Quest 158 — \"Beat Bulma's Minions!\", matching the maintained PQ research record. 2026-09-21 Hero of Justice Pack 1 provenance audit: official Bandai Namco/Nintendo documentation identifies 4 new Parallel Quests and 7 additional moves; maintained PQ evidence identifies PQ155–158 and lists all seven canonical moves. The live repository maps each of the seven moves to its corresponding PQ and Hero of Justice Pack 1 provenance. 2026-09-22 provenance refresh: dedicated current-version evidence confirms Core Breaker as Gamma 2's 500-Ki Strike Ultimate and PQ158 acquisition. Current evidence does not establish a narrower CaC race/gender/form restriction, so race_restriction remains unresolved rather than All CaC races. 2026-09-23 provenance refresh: dedicated skill evidence was rechecked against the current wiki reference; existing acquisition, cost, scope, and mechanics semantics are preserved, and no unsupported probability or additional gate is inferred.",
       "id": "skill-core-breaker",
       "source_parallel_quests": [
         158
