@@ -4879,3 +4879,12 @@
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Commits:** preset layer `f429351c1f1bc5256a3c5b60de2993ccdb6adfff`; audit `4b2bfb28154f3f20250a03c4a44fdef37671c8bc`.
 - **Exact next task:** continue with another bounded batch of explicit numbered/name-matched preset records; Goku remains unresolved until a source explicitly maps its repository numeric IDs to the named source rows.
+
+### 2026-09-23 cycle completion tracking — Vegeta/Captain Ginyu preset-loadout batch
+- [x] Vegeta Preset 8 explicit loadout verification
+- [x] Captain Ginyu Presets 2, 3, and 4 explicit loadout verification
+- [x] Canonical preset layer updated without changing canonical character identities
+- [x] Cross-domain preset↔skill audit updated to 13 verified loadouts / 83 skill-slot entries
+- [x] Captain Ginyu Trunks-body naming discrepancy preserved explicitly
+- [ ] CI/runtime remains unavailable; no CI success claimed
+- [ ] Next batch: continue source-backed numbered/name-matched preset reconciliation; do not infer Goku numeric mappings from named rows.
