@@ -7444,12 +7444,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Majin Buu mentor training",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Majin Buu mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used.\n2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC/roster provenance, and documented mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used.\n2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC/roster provenance, and documented mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.",
       "id": "skill-innocence-breath",
       "source_mentor": [
         "mentor-majin-buu"
@@ -7472,12 +7472,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Majin Buu mentor training",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Majin Buu mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC/roster provenance, and documented mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC/roster provenance, and documented mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.",
       "id": "skill-innocence-bullet",
       "source_mentor": [
         "mentor-majin-buu"
@@ -7500,12 +7500,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Majin Buu mentor training",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Majin Buu mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC/roster provenance, and documented mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC/roster provenance, and documented mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.",
       "id": "skill-innocence-cannon",
       "source_mentor": [
         "mentor-majin-buu"
@@ -7529,11 +7529,11 @@
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Character skill",
       "mechanics_notes": "Character/boss charge skill; no CaC acquisition route established. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "Character-only",
       "dlc_requirement": "Base Game",
       "acquisition_type": "character_only",
-      "notes": "2026-09-20 roster-status refinement: maintained skill references classify Instant Charge as a Mira (Final Form) character-exclusive skill; raid/boss usage does not establish a CaC acquisition route. 2026-09-21 provenance strengthening: Dragon Ball Wiki's Mira reference independently identifies Instant Charge as one of Final Form Mira's techniques, corroborating the existing character-exclusive scope; no CaC acquisition route is inferred.\n2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC/roster provenance, and documented mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.",
+      "notes": "2026-09-20 roster-status refinement: maintained skill references classify Instant Charge as a Mira (Final Form) character-exclusive skill; raid/boss usage does not establish a CaC acquisition route. 2026-09-21 provenance strengthening: Dragon Ball Wiki's Mira reference independently identifies Instant Charge as one of Final Form Mira's techniques, corroborating the existing character-exclusive scope; no CaC acquisition route is inferred.\n2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC/roster provenance, and documented mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.",
       "id": "skill-instant-charge"
     },
     {
@@ -7553,7 +7553,7 @@
       "mechanics_notes": "300-Stamina Other Evasive. Makes the user briefly invisible while rapidly moving upward; directional input can redirect the movement, including downward movement. The short evasive window restores control quickly but has limited invulnerability.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Instant_Rise",
@@ -7562,7 +7562,7 @@
       "source_quest": 37,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 canonical correction: dedicated skill evidence lists 300 Stamina, correcting the previous 200-Stamina value. Exact PQ title and Basic Reward provenance also refined.\n2026-09-22 provenance refresh: dedicated current skill evidence corroborates the 300-Stamina Evasive classification and rapid vertical escape; directional input can redirect movement, including downward movement despite the skill name. PQ37 Basic Reward remains the maintained acquisition boundary.",
+      "notes": "2026-09-20 canonical correction: dedicated skill evidence lists 300 Stamina, correcting the previous 200-Stamina value. Exact PQ title and Basic Reward provenance also refined.\n2026-09-22 provenance refresh: dedicated current skill evidence corroborates the 300-Stamina Evasive classification and rapid vertical escape; directional input can redirect movement, including downward movement despite the skill name. PQ37 Basic Reward remains the maintained acquisition boundary.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.",
       "id": "skill-instant-rise",
       "source_parallel_quests": [
         37
@@ -7584,13 +7584,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Zamasu mentor training",
       "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Zamasu mentor training — lesson-3.",
       "dlc_requirement": "Extra Pack 1",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.\n2026-09-21 DLC provenance refinement: replaced the generic DLC label with the documented mentor DLC pack.\n2026-09-22 provenance refresh: Zamasu Lesson 3 remains the deterministic acquisition endpoint; classification as a Strike Ultimate and All CaC race scope remain supported. Detailed hit/damage/frame mechanics remain intentionally unresolved.",
+      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.\n2026-09-21 DLC provenance refinement: replaced the generic DLC label with the documented mentor DLC pack.\n2026-09-22 provenance refresh: Zamasu Lesson 3 remains the deterministic acquisition endpoint; classification as a Strike Ultimate and All CaC race scope remain supported. Detailed hit/damage/frame mechanics remain intentionally unresolved.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.",
       "id": "skill-instant-severance",
       "source_mentor": [
         "mentor-zamasu"
@@ -7615,12 +7615,12 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Goku mentor training, Lesson 1",
       "mechanics": "Teleports the user to the opponent; uses no Ki or Stamina.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "mechanics_notes": "Confirmed as Goku Lesson 1, 0 Ki/0 Stamina teleport skill usable by all CaC races. It teleports to the targeted opponent and can be used without a resource cost. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-goku added for the documented mentor-training acquisition route.",
       "source_quest": "Goku mentor training — Lesson 1",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: Goku — Lesson 1 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: maintained Steam instructor guide independently lists Goku Lesson 1 with Instant Transmission as the Basic Reward, corroborating the existing mentor-training acquisition boundary.\n2026-09-22 provenance refresh: Goku Lesson 1 remains the deterministic acquisition endpoint; the skill uses 0 Ki and 0 Stamina and teleports the user to the targeted opponent. No additional gate is inferred.",
+      "notes": "2026-09-19 verification: Goku — Lesson 1 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: maintained Steam instructor guide independently lists Goku Lesson 1 with Instant Transmission as the Basic Reward, corroborating the existing mentor-training acquisition boundary.\n2026-09-22 provenance refresh: Goku Lesson 1 remains the deterministic acquisition endpoint; the skill uses 0 Ki and 0 Stamina and teleports the user to the targeted opponent. No additional gate is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.",
       "id": "skill-instant-transmission",
       "source_mentor": [
         "mentor-goku"
@@ -7649,9 +7649,9 @@
       "acquisition_type": "shop",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Free Update 2",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
-      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.\n2026-09-22 provenance refresh: Free Update 2 provenance and the current TP Medal Shop endpoint remain documented; 100-Ki Ki Blast Super classification and All CaC race scope are retained.",
+      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.\n2026-09-22 provenance refresh: Free Update 2 provenance and the current TP Medal Shop endpoint remain documented; 100-Ki Ki Blast Super classification and All CaC race scope are retained.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.",
       "id": "skill-jumping-energy-wave"
     },
     {
@@ -7671,7 +7671,7 @@
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. The maintained PQ153 drop-condition data assigns this skill to an explicit Ultimate Finish bonus roll.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Justice_Blade",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -7680,7 +7680,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 152,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: current skill page explicitly identifies Parallel Quest 152 as the unlock source. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics.\n2026-09-22 provenance refresh: PQ152 remains the canonical acquisition endpoint with the documented Ultimate Finish bonus-roll condition. The existing note's PQ152 wording is corrected to PQ152; no additional gate is inferred.",
+      "notes": "2026-09-19 verification: current skill page explicitly identifies Parallel Quest 152 as the unlock source. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics.\n2026-09-22 provenance refresh: PQ152 remains the canonical acquisition endpoint with the documented Ultimate Finish bonus-roll condition. The existing note's PQ152 wording is corrected to PQ152; no additional gate is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.",
       "id": "skill-justice-blade",
       "source_parallel_quests": [
         152
@@ -7702,12 +7702,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Gohan (Adult) and Videl mentor training",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Gohan (Adult) and Videl mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used.\n2026-09-22 provenance refresh: Gohan (Adult) and Videl mentor training remains the deterministic Basic Reward endpoint; 300 Ki and All CaC race scope remain supported. Detailed combat mechanics remain deferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used.\n2026-09-22 provenance refresh: Gohan (Adult) and Videl mentor training remains the deterministic Basic Reward endpoint; 300 Ki and All CaC race scope remain supported. Detailed combat mechanics remain deferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.",
       "id": "skill-justice-combination",
       "source_mentor": [
         "mentor-gohan-videl"
@@ -7731,7 +7731,7 @@
       "mechanics_notes": "100-Ki Strike Super associated with Videl (DB Super). The move is acquired from PQ168's Ultimate Finish route; current evidence confirms provenance and character association, while a reliable full hit/damage sequence remains unresolved.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Justice_Drive",
@@ -7740,7 +7740,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 168,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: Steam's current all-PQ reward guide explicitly lists Justice Drive in PQ168's Ultimate Finish reward pool; the quest is \"Videl: Super Mom.\" 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 40% ultimate finish bonus slot route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.\n2026-09-22 provenance refresh: PQ168 remains the canonical Ultimate Finish route. The canonical record's 100-Ki Super classification is retained; the prior mechanics note incorrectly calling it a 400-Ki Ultimate is corrected to avoid class/cost contradiction. Detailed hit/damage mechanics remain unresolved.",
+      "notes": "2026-09-20 audit: Steam's current all-PQ reward guide explicitly lists Justice Drive in PQ168's Ultimate Finish reward pool; the quest is \"Videl: Super Mom.\" 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 40% ultimate finish bonus slot route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.\n2026-09-22 provenance refresh: PQ168 remains the canonical Ultimate Finish route. The canonical record's 100-Ki Super classification is retained; the prior mechanics note incorrectly calling it a 400-Ki Ultimate is corrected to avoid class/cost contradiction. Detailed hit/damage mechanics remain unresolved.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.",
       "id": "skill-justice-drive",
       "source_parallel_quests": [
         168
@@ -7763,7 +7763,7 @@
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. The maintained PQ153 drop-condition data assigns this skill to an explicit Ultimate Finish bonus roll.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Justice_Kick",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -7772,7 +7772,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 152,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance refinement: the maintained PQ152 drop-condition data explicitly assigns Justice Kick to an Ultimate Finish bonus roll.2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics.\n2026-09-22 provenance refresh: PQ152 remains the canonical acquisition endpoint with the documented Ultimate Finish bonus-roll condition. The existing note's PQ152 wording is corrected to PQ152; no additional gate is inferred.",
+      "notes": "2026-09-20 provenance refinement: the maintained PQ152 drop-condition data explicitly assigns Justice Kick to an Ultimate Finish bonus roll.2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics.\n2026-09-22 provenance refresh: PQ152 remains the canonical acquisition endpoint with the documented Ultimate Finish bonus-roll condition. The existing note's PQ152 wording is corrected to PQ152; no additional gate is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.",
       "id": "skill-justice-kick",
       "source_parallel_quests": [
         152
