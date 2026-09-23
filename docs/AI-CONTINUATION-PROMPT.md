@@ -4963,3 +4963,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - The authoritative relationship layer current reconciliation metadata was also synchronized to 854/146; historical 859/151/860/862/840 snapshots were preserved rather than rewritten.
 - Static JSON structure and direct repository reads were used for validation; runtime/CI remains unavailable, so no CI success is claimed.
 - Exact next batch: scan remaining generated/current-facing PQ presentation and reverse-index artifacts for explicitly current/live stale 859/151 values, then continue deterministic cross-database navigation parity work.
+
+
+### 2026-09-23 cycle update — Remaining current PQ presentation/validator drift repair
+- Revalidated the authoritative PQ relationship array at 854 total / 244 skill / 146 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming.
+- Repaired additional explicitly current-facing consumers: `pq-summary-consumer-audit-2026-09-22.json`, `pq-reference-page-audit.json`, `pq-unified-reverse-index-audit.json`, `pq-cross-domain-index.md`, `pq-coverage-audit-current-consumer-drift-2026-09-22.json`, `skill-pq-acquisition-presentation-audit.json`, and `Parallel-Quest-Audit.md`.
+- Updated `scripts/validate_pq_current_consumer_baseline.py` to validate against the authoritative current-baseline reconciliation instead of the superseded historical 859/151 correction artifact, and changed its producer total expectation to 854.
+- Historical 859/151 and older snapshots were not rewritten when they are explicitly dated historical records. No relationship edge was inferred or removed in this cycle.
+- Static structural validation/direct repository reads only; runtime/CI remains unavailable and no executable success is claimed.
+- Exact next batch: inspect the remaining current-facing PQ page templates and DLC requirement presentation for one-way navigation, stale scalar fields, and endpoint identity drift; then repair deterministic cross-database navigation gaps before returning to unresolved mechanics/provenance.
