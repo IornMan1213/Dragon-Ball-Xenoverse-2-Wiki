@@ -5579,3 +5579,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime unavailable; no CI success claimed.
 - Commits: audit `f8678076e6613d2e44890b008c4600653bdc1241`; canonical `d18b607efd547b96539c3b64cb4f5ea67c4751f2`; index `f7fa5eff1a954a711e70291060e8a1bc9f7de3c2`; registry `2ffc91972c9cdba0c63face923ad0be56f971a27`.
 - Exact next batch: **Power Pole Combo** (`skill-power-pole-combo`) only if independent provenance strengthening is available; otherwise move to the next stale canonical batch rather than repeatedly editing a verified two-source record.
+
+
+### 2026-09-23 cycle update — P1 Body-through-Brave-Sword skill provenance refresh
+- Live census before editing: **455 canonical / 455 index / 0 duplicate IDs / 424 stale**.
+- Bounded batch: **Body Change, Bomber DX, Brave Heat, Brave Sword Attack, Brave Sword Slash**.
+- Repository-first evidence review reused the records' existing multi-source provenance; all five targets had 3–5 existing sources. Verification dates were refreshed to **2026-09-23** without changing acquisition tiers, reward probabilities, mechanics, costs, restrictions, or DLC semantics.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-23-body-through-brave-sword.json`.
+- Validation: **455 canonical / 455 index / 0 duplicate IDs**; all five canonical/index pairs synchronized; **419 stale records** remain after the batch.
+- CI/runtime unavailable; no CI success claimed.
+- Commits: canonical `2ae3493f2c7c31388b6644bd6d82fee1cd0f0648`; index `cf69de4a2b43c4e0df0682c3d2617faa8256620e`; audit `e62bc170904a203baca74102bbb36858cea7b3b0`; registry `e083f41e91a4f3b836f2c4adf62bebf83553d348`.
+- Exact next batch: **Break Cannon, Breaker Energy Wave, Brutal Buster, Burning Spin, Burst Charge**; recompute live state before editing.
