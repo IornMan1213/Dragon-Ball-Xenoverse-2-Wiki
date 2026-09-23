@@ -20,7 +20,7 @@
     },
     "super_souls": {
       "relationship_type": "pq_rewards_super_soul",
-      "edge_count": 151,
+      "edge_count": 146,
       "unique_target_count": 148,
       "missing_target_count": 0,
       "missing_targets": [],
@@ -97,8 +97,8 @@
   "bridge": {
     "equipment_conflicts": 2,
     "dlc_granularity_mappings": 6,
-    "canonical_edge_count_before": 859,
-    "canonical_edge_count_after": 859,
+    "canonical_edge_count_before": 854,
+    "canonical_edge_count_after": 854,
     "conflicts": [
       {
         "pq": "pq-152",
@@ -127,7 +127,7 @@
     "canonical_equipment_accessory_records": 173,
     "canonical_character_names": 149,
     "canonical_dlc_records": 20,
-    "canonical_edge_count": 859,
+    "canonical_edge_count": 854,
     "endpoint_domains": {
       "skills": {
         "edge_count": 244,
