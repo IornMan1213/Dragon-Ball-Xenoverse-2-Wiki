@@ -170,7 +170,8 @@
       "target_id": "super-soul-158",
       "target_name": "Do or Die",
       "status": "canonical_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "evidence_note": "Name collision boundary: the PQ49 relationship is preserved, but PQ49's well-documented 'Do or Die' reward is also a Super Skill. The canonical Super Soul record intentionally does not inherit the skill's mechanics or character source until item-level evidence distinguishes the same-name records."
     },
     {
       "pq_id": "pq-058",
@@ -2713,8 +2714,14 @@
     "unresolved_target_routes": 0,
     "broken_forward_endpoints": 0,
     "broken_reverse_endpoints": 0,
-    "last_recomputed": "2026-09-22",
+    "last_recomputed": "2026-09-23",
     "canonical_endpoint_parity": "pass",
-    "source_of_truth": "canonical PQ reward arrays + canonical Super Soul records"
+    "source_of_truth": "canonical PQ reward arrays + canonical Super Soul records",
+    "evidence_bound_target_ids": [
+      "super-soul-158"
+    ],
+    "evidence_boundary_notes": [
+      "super-soul-158 / Do or Die: preserve PQ relationship but do not promote skill mechanics into the Super Soul record."
+    ]
   }
 }
