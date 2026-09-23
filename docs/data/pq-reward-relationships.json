@@ -1861,13 +1861,6 @@
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
-      "pq": "pq-049",
-      "relationship": "pq_rewards_super_soul",
-      "target": "Do or Die",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
       "pq": "pq-058",
       "relationship": "pq_rewards_super_soul",
       "target": "Killed all Earthlings!",
@@ -6258,11 +6251,15 @@
     "super_soul": 146,
     "equipment": 124,
     "character": 247,
-    "dlc": 86,
-    "farming": 7,
-    "pq_rewards_super_soul": 146
+    "dlc": 0,
+    "farming": 0,
+    "pq_rewards_super_soul": 146,
+    "total": 853,
+    "skills": 244,
+    "super_souls": 145,
+    "characters": 0
   },
-  "last_reconciled_scope": "PQ 1-186 reward relationship index synchronized against current canonical cross-link reports; stale equipment endpoints removed and newly reconciled skill/Super Soul/equipment edges added. Canonical relationship reports remain the authoritative projection of canonical data.",
+  "last_reconciled_scope": "2026-09-23 Do or Die Super Skill/Super Soul collision migration",
   "notes": [
     "2026-09-19: Corrected an overly aggressive reconciliation pass. Canonical PQ batch reward arrays are explicitly partial, so edge-only relationships were restored. Only 24 canonical typed reward entries absent from the prior forward layer were added.",
     "2026-09-19: Added 46 reward relationships supported by the repository's source-normalized reward maps. These are marked source_normalized rather than source_backed because the map layer is explicitly partial.",
