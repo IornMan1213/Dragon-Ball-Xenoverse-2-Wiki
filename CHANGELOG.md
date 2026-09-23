@@ -1911,3 +1911,12 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - [x] No canonical PQ relationship identities changed; no unsupported reward probabilities or Ultimate-Finish requirements were added.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Next priority: recompute the strict-thin census and continue the deterministic low-field queue; **034 remains evidence-bound** until item-level mechanics are independently established.
+
+
+### 2026-09-22 — Super Soul secondary-field reconciliation (024–031)
+- Reconciled the missing **Limit Burst effect** field for **024–031** using exact-name Fandom and independent GameFAQs evidence.
+- Populated all eight documented Limit Burst effects without altering acquisition routes, canonical PQ relationships, trigger/effect mechanics, durations, or stacking behavior.
+- Added and registered `docs/data/super-soul-secondary-field-reconciliation-024-031-2026-09-22.json`.
+- Refreshed the thin census to **234 canonical records / 0 duplicate IDs / 174 strict-thin records**.
+- CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- Exact next priority: recompute the live strict-thin queue and select the next **4–12 evidence-supported partially-verified records**; keep **034** evidence-bound unless exact-name item-level mechanics evidence improves.
