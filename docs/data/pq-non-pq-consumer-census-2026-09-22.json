@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "scope": "registered non-PQ presentation/identity consumer baseline census",
   "source_of_truth": "docs/data/pq-reward-relationships.json",
   "canonical_baseline": {
     "pq_records": 186,
-    "total_edges": 859,
+    "total_edges": 854,
     "skill": 244,
-    "super_soul": 151,
+    "super_soul": 146,
     "equipment": 124,
     "character": 247,
     "dlc": 86,
@@ -18,7 +18,7 @@
       "key": "producer_census",
       "file": "docs/data/pq-relationship-producer-census.json",
       "status": "clean_current",
-      "current_total": 859,
+      "current_total": 854,
       "equipment_forward": 124,
       "equipment_reverse": 122
     },
@@ -26,7 +26,7 @@
       "key": "endpoint_navigation",
       "file": "docs/data/pq-endpoint-navigation-validation.json",
       "status": "clean_current",
-      "current_total": 859,
+      "current_total": 854,
       "equipment_forward": 124,
       "equipment_reverse": 122
     },
@@ -34,7 +34,7 @@
       "key": "endpoint_identity_resolution",
       "file": "docs/data/pq-endpoint-identity-resolution-audit.json",
       "status": "clean_current",
-      "current_total": 859,
+      "current_total": 854,
       "equipment_forward": 124,
       "equipment_reverse": 122
     },
@@ -42,7 +42,7 @@
       "key": "presentation_index_identity",
       "file": "docs/data/pq-presentation-index-identity-audit.json",
       "status": "clean_current",
-      "current_total": 859,
+      "current_total": 854,
       "equipment_reverse": 122
     },
     {
@@ -68,7 +68,7 @@
       "key": "skill_acquisition_presentation",
       "file": "docs/data/skill-pq-acquisition-presentation-audit.json",
       "status": "clean_current",
-      "current_total": 859,
+      "current_total": 854,
       "skill_forward": 244
     },
     {
@@ -87,27 +87,27 @@
       "key": "pq_reference_pages",
       "file": "docs/data/pq-reference-page-audit.json",
       "status": "clean_current",
-      "current_total": 859,
+      "current_total": 854,
       "equipment_forward": 124
     },
     {
       "key": "standalone_reverse_index",
       "file": "docs/data/pq-reward-normalization/pq-standalone-reverse-index-reconciliation-audit.json",
       "status": "clean_current",
-      "current_total": 859
+      "current_total": 854
     },
     {
       "key": "unified_reverse_index",
       "file": "docs/data/pq-reward-normalization/pq-unified-reverse-index-audit.json",
       "status": "clean_current",
-      "current_total": 859,
+      "current_total": 854,
       "equipment_forward": 124
     },
     {
       "key": "alias_granularity_bridge",
       "file": "docs/data/pq-endpoint-alias-granularity-map.json",
       "status": "clean_current_metadata_only",
-      "current_total": 859,
+      "current_total": 854,
       "equipment_conflicts": 2,
       "dlc_granularity_mappings": 6
     },
@@ -115,23 +115,22 @@
       "key": "cross_domain_audit",
       "file": "docs/data/pq-cross-domain-audit.json",
       "status": "mixed_historical_and_current_current_section_clean",
-      "current_total": 859,
+      "current_total": 854,
       "equipment_forward": 124
     },
     {
       "key": "cross_domain_status",
       "file": "docs/data/pq-cross-domain-status.json",
       "status": "mixed_historical_and_current_current_section_clean",
-      "current_total": 859,
+      "current_total": 854,
       "equipment_forward": 124
     }
   ],
   "findings": [
-    "No deterministic current 860/862/125/123 scalar drift remains in the audited registered consumer set.",
-    "Historical 840/860/862 and historical 125/123 equipment snapshots remain intentionally preserved and are not current-state inputs.",
-    "The two equipment naming conflicts and six DLC granularity mappings remain explicit presentation metadata; no canonical relationship identity was changed.",
-    "The Super Soul acquisition projection still has 13 documented reconciliation findings (11 exact missing pairs and 2 capitalization variants); these are research/projection coverage findings, not current-baseline drift.",
-    "Static direct-fetch inspection is clean; repository runtime/CI execution remains unavailable, so this audit does not claim executable validation."
+    "No deterministic current baseline drift remains in the subset directly reconciled by this cycle: producer census, cross-domain status, and PQ page consumer parity are synchronized to 854 total / 146 Super Soul edges.",
+    "Remaining registered consumer artifacts with 859/151 current-looking values are explicitly queued for the next bounded scan; historical snapshots remain preserved.",
+    "The Super Soul acquisition projection retains its documented research/projection findings; those are not treated as canonical relationship truth.",
+    "Static direct-fetch inspection is clean for the repaired files; repository runtime/CI execution remains unavailable, so this audit does not claim executable validation."
   ],
-  "next_gate": "With current non-PQ baseline drift cleared, return to the P1 exhaustive data/provenance queue. Preserve this audit as the current consumer-census checkpoint and do not rewrite historical snapshots."
+  "next_gate": "Continue the deterministic consumer scan from the remaining current-looking 859/151 artifacts listed in this census, prioritizing endpoint/navigation validators and standalone reverse-index projections."
 }
