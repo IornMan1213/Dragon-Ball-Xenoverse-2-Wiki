@@ -6668,3 +6668,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime unavailable; no CI success claimed.
 - Commits: canonical skills `7055fc5621fc7f6d27279ac61841241e13e88dd0`; provenance audit `fe00a14921e0f40290034cbaba8e3bb436594c2c`; census `02eb836c312634c9bafdcdf842de9ef1eebb486e`.
 - **Exact next task:** continue the broader P1 provenance/data-quality queue now that canonical skill verification dates are fully current; prioritize remaining stale/dated domain audits and explicit source-backed data gaps, then return to unresolved preset-loadout reconciliation only where exact evidence exists.
+
+
+### 2026-09-23 cycle update — Unified reverse-index current-baseline synchronization
+
+- Completed the next deterministic cross-domain consumer census against the post-Super-Soul-158 canonical relationship layer.
+- Found a stale current-state projection inside `docs/data/pq-reward-normalization/pq-unified-reverse-index-audit.json`: its live projection/reconciliation metadata still reported the superseded **854 total / 146 Super Soul** baseline even though the canonical relationship source is now **853 total / 145 Super Soul**.
+- Preserved the superseded 854/146 values explicitly as historical snapshots rather than deleting history.
+- Synchronized the current audit to **244 skill / 145 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming = 853 total** and confirmed exact-pair parity remains zero missing / zero extra across every domain.
+- Preserved the current equipment projection split at **84 clothing / 40 accessories / 124 combined**.
+- Updated the runtime-gate wording so API-level exact-pair cleanliness is not misrepresented as successful local/CI runtime execution.
+- Commit: `7f2682d6747894a63f0da932654e2f06c54b2f59`.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next task:** continue the broader current-state producer/consumer census beyond the unified reverse index, prioritizing any remaining artifacts whose current metadata still embeds superseded 854/146 or older skill/character/domain counts; preserve historical snapshots and repair only deterministic current-state projections. After that, resume explicit source-backed preset reconciliation where exact evidence exists.
