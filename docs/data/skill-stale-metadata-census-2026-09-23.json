@@ -5,72 +5,12 @@
   "source_of_truth": "docs/data/skills.json",
   "live_counts": {
     "canonical_skill_records": 455,
-    "current_last_verified_records": 343,
-    "stale_last_verified_records": 112,
+    "current_last_verified_records": 355,
+    "stale_last_verified_records": 100,
     "duplicate_ids": 0
   },
-  "method": "Fresh alphabetical census after the Remote Serious Bomb through Rocket Tackle batch.",
+  "method": "Fresh alphabetical census after the Rolling Bullet through Seagull Combination batch.",
   "next_stale_records": [
-    {
-      "id": "skill-rolling-bullet",
-      "name": "Rolling Bullet",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "skill-rolling-hercule-punch",
-      "name": "Rolling Hercule Punch",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "skill-rough-ranger",
-      "name": "Rough Ranger",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "skill-s-s-deadly-bomber",
-      "name": "S.S. Deadly Bomber",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "skill-saiyan-blaster",
-      "name": "Saiyan Blaster",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "skill-saiyan-spirit",
-      "name": "Saiyan Spirit",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "skill-saturday-crash",
-      "name": "Saturday Crash",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "skill-sauzer-blade",
-      "name": "Sauzer Blade",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "skill-savory-slicer",
-      "name": "Savory Slicer",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "skill-scatter-kamehameha",
-      "name": "Scatter Kamehameha",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "skill-scissors-paper-rock",
-      "name": "Scissors Paper Rock",
-      "last_verified": "2026-09-22"
-    },
-    {
-      "id": "skill-seagull-combination",
-      "name": "Seagull Combination",
-      "last_verified": "2026-09-22"
-    },
     {
       "id": "skill-secret-poison",
       "name": "Secret Poison",
@@ -109,6 +49,26 @@
     {
       "id": "skill-side-bridge",
       "name": "Side Bridge",
+      "last_verified": "2026-09-22"
+    },
+    {
+      "id": "skill-sign-of-awakening",
+      "name": "Sign of Awakening",
+      "last_verified": "2026-09-22"
+    },
+    {
+      "id": "skill-sneaky-strike",
+      "name": "Sneaky Strike",
+      "last_verified": "2026-09-22"
+    },
+    {
+      "id": "skill-soaring-fist",
+      "name": "Soaring Fist",
+      "last_verified": "2026-09-22"
+    },
+    {
+      "id": "skill-soaring-rush",
+      "name": "Soaring Rush",
       "last_verified": "2026-09-22"
     }
   ],
