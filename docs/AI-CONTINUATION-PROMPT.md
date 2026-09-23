@@ -4998,3 +4998,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - No canonical relationship, identity, acquisition, or gameplay field was invented or modified.
 - CI/runtime remains unavailable; do not claim CI success.
 - Exact next task: inspect remaining published character/DLC presentation indexes and generated-content navigation for deterministic one-way/orphan destinations; then continue exhaustive DLC content-domain reconciliation.
+
+### 2026-09-23 cycle update — Super Soul 036–047 secondary-field reconciliation
+- Recomputed the live Super Soul census: **229 canonical records / 24 records with at least one currently unresolved core field** under the current ten-field audit definition.
+- Bounded batch: **036–047**.
+- Filled previously absent DLC requirement fields with **None identified** where no paid DLC requirement is established; this does not promote free-update association into a paid-DLC requirement.
+- Reconciled stacking behavior to **Not reported as stackable** across 036–047 where maintained exact-name evidence reports no stacking mechanic or numeric cap.
+- Added Free Update evidence and refreshed verification dates to 2026-09-23.
+- Added/registered audit: `docs/data/super-soul-036-through-047-secondary-field-reconciliation-2026-09-23.json`.
+- Evidence boundaries preserved: no hidden stack cap, paid-DLC ownership, new acquisition route, or gameplay mechanic was inferred.
+- CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- Exact next priority: recompute the remaining **24-record thin-system queue** and target the highest-impact unresolved fields, with **032, 034, 158, and 217** receiving priority because their unresolved fields are substantially broader than the DLC/stacking-only tail.
