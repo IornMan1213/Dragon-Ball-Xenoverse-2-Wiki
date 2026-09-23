@@ -4588,3 +4588,14 @@
 - [ ] Build/reconcile Tokipedia endpoint consumers and cross-links.
 - [ ] Build/reconcile Conton City Patrol endpoint consumers and cross-links.
 - **Exact next task:** Tokipedia and Conton City Patrol endpoint consumers/cross-links.
+
+
+### 2026-09-23 — TODO completion update — Tokipedia endpoint layer
+- [x] Added deterministic Tokipedia endpoints for Confusion Blade, Sneaky Strike, Energy Minefield, and Remote Serious Bomb.
+- [x] Added 4 forward edges and reverse skill→Tokipedia navigation.
+- [x] Reconciled Energy Minefield's stale 60% source field to the evidence-backed 75% completion endpoint.
+- [x] Added Tokipedia endpoint audit with zero broken canonical skill IDs.
+- [ ] Build/reconcile Conton City Patrol endpoint consumers and cross-links.
+- [ ] Reconcile official 32 vs community 33 mentor roster discrepancy.
+- [ ] Audit remaining non-PQ/non-mentor acquisition records for deterministic endpoint gaps.
+- **Exact next task:** Conton City Patrol endpoint consumer layer.
