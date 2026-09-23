@@ -5425,3 +5425,10 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Added/registered the identity-conflict audit and refreshed the strict-thin checkpoint; TODO and CHANGELOG updated.
 - Validation: record preservation and conflict marking completed; CI unavailable.
 - Exact next task: resolve the canonical ID mapping for 158, then research **Super Soul 217** Limit Burst/item-level evidence and **032**.
+
+
+### 2026-09-23 cycle update — Super Soul 158 collision reconciliation
+- External verification confirms the 158 “Do or Die” name belongs to a **Power Up Type Super Skill**, while Nail's Super Soul is “I must protect Grand Elder Guru!”. citeturn0search0turn0search1
+- Record 158 remains a collision placeholder; no Super Soul mechanics are asserted. Canonical migration to the Super Skill domain remains a TODO.
+- Added/registered the reconciliation audit and updated checkpoint/TODO/CHANGELOG.
+- Next exact batch: **Super Soul 217** Limit Burst/item-level evidence, then **032**.
