@@ -5126,3 +5126,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Added `docs/data/dlc/daima-paid-illustration-scope-reconciliation-2026-09-23.json` and registered it in `docs/data/pq-cross-domain-index.json`.
 - Exact next priority: establish a canonical illustration/loading-screen record layer only when the individual eight paid identities can be source-backed, then cross-link them to the DAIMA pack and acquisition relationships. If that evidence remains insufficient, move to the next concrete paid domain rather than inventing records.
 - CI/runtime remains unavailable; no CI success claimed.
+
+
+### 2026-09-23 cycle update — accessory/presentation validation after DAIMA canonicalization
+- Live structural validation completed against the canonical accessory layer and PQ accessory presentation report.
+- Current state: 173 equipment records, 74 canonical accessories, 32 PQ accessory forward/reverse edges, 12 unresolved research records; zero duplicate accessory IDs/names, zero duplicate forward edges, zero stale endpoints, and zero null PQ edges.
+- DAIMA accessory endpoints `acc-071`–`acc-074` resolve to PQ179–181 and remain cross-navigable through the canonical accessory/PQ graph.
+- Added `docs/data/accessory-presentation-validation-2026-09-23.json` and refreshed `docs/data/accessory-canonicalization-audit.json` with the live validation summary.
+- This validates identity/presentation integrity only; exact reward-slot probabilities and guaranteed-drop semantics remain unresolved where not established by source-backed relationships.
+- Exact next priority: reconcile the next unresolved concrete DAIMA/HOJ2 paid content domain, preserving the paid/free boundary and canonical cross-navigation. CI/runtime remains unavailable.
