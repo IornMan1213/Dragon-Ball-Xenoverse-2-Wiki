@@ -1826,3 +1826,12 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - 212–216 received trigger/effect/magnitude and Limit Burst detail; 217 received the corroborated +12 Ki/+12 Stamina effect, with its Limit Burst left unresolved rather than guessed.
 - Static validation: 234 canonical Super Soul records, 25 indexed-status records, 208 thin under the current core-field check, 0 duplicate IDs; six selected records current and source-backed.
 - No canonical PQ relationship identities, reward probabilities, or Ultimate-Finish gates were changed or inferred. Runtime/CI success is not claimed.
+
+
+## 2026-09-22 — Super Soul early/base-game secondary-field reconciliation (001 / 003 / 006 / 012)
+- Reconciled four genuinely non-applicable secondary fields in the canonical Super Soul layer using exact-name catalogue and independent corroboration.
+- Updated 001 effect magnitude/stacking to N/A; 003 stacking to N/A; 006 stacking to N/A; and 012 duration to N/A.
+- Refreshed exact-name source provenance and verification date to 2026-09-22 without changing acquisition identity or Limit Burst semantics.
+- Added docs/data/super-soul-secondary-field-reconciliation-001-003-006-012-2026-09-22.json and registered it in docs/data/pq-cross-domain-index.json.
+- Evidence boundaries preserved; Super Soul 013 remains unresolved where available evidence does not establish duration/magnitude.
+- Static validation target: 234 canonical records, 0 duplicate IDs, strict thin count reduced by four. Runtime/CI unavailable.
