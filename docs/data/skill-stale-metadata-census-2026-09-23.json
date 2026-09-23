@@ -5,84 +5,12 @@
   "source_of_truth": "docs/data/skills.json",
   "live_counts": {
     "canonical_skill_records": 455,
-    "stale_last_verified_records": 328,
-    "current_last_verified_records": 127,
+    "stale_last_verified_records": 316,
+    "current_last_verified_records": 139,
     "duplicate_ids": 0
   },
   "method": "Fresh alphabetical census of canonical records where last_verified != 2026-09-23.",
   "next_stale_records": [
-    {
-      "id": "skill-dynamite-kick",
-      "name": "Dynamite Kick",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-eagle-kick",
-      "name": "Eagle Kick",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-earth-splitting-galick-gun",
-      "name": "Earth Splitting Galick Gun",
-      "last_verified": "2026-09-22",
-      "source_count": 4
-    },
-    {
-      "id": "skill-elegant-blaster",
-      "name": "Elegant Blaster",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-elite-beam",
-      "name": "Elite Beam",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-elite-shooting",
-      "name": "Elite Shooting",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-emperor-s-blast",
-      "name": "Emperor's Blast",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-emperor-s-cannon",
-      "name": "Emperor's Cannon",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-emperor-s-death-beam",
-      "name": "Emperor's Death Beam",
-      "last_verified": "2026-09-22",
-      "source_count": 5
-    },
-    {
-      "id": "skill-emperor-s-edge",
-      "name": "Emperor's Edge",
-      "last_verified": "2026-09-22",
-      "source_count": 5
-    },
-    {
-      "id": "skill-endless-shoot",
-      "name": "Endless Shoot",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-energy-barrier",
-      "name": "Energy Barrier",
-      "last_verified": "2026-09-22",
-      "source_count": 4
-    },
     {
       "id": "skill-energy-charge",
       "name": "Energy Charge",
@@ -130,6 +58,78 @@
       "name": "Evil Blast",
       "last_verified": "2026-09-22",
       "source_count": 4
+    },
+    {
+      "id": "skill-evil-explosion",
+      "name": "Evil Explosion",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-evil-eyes",
+      "name": "Evil Eyes",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-evil-flame",
+      "name": "Evil Flame",
+      "last_verified": "2026-09-22",
+      "source_count": 5
+    },
+    {
+      "id": "skill-evil-flight-strike",
+      "name": "Evil Flight Strike",
+      "last_verified": "2026-09-22",
+      "source_count": 4
+    },
+    {
+      "id": "skill-evil-ray-strike",
+      "name": "Evil Ray Strike",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-evil-rise-strike",
+      "name": "Evil Rise Strike",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-evil-whirlwind",
+      "name": "Evil Whirlwind",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-excellent-full-course",
+      "name": "Excellent Full Course",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-explosive-assault",
+      "name": "Explosive Assault",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-explosive-buu-buu-punch",
+      "name": "Explosive Buu Buu Punch",
+      "last_verified": "2026-09-22",
+      "source_count": 4
+    },
+    {
+      "id": "skill-explosive-wave",
+      "name": "Explosive Wave",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-eye-beam",
+      "name": "Eye Beam",
+      "last_verified": "2026-09-22",
+      "source_count": 3
     }
   ],
   "validation": {
@@ -138,5 +138,5 @@
     "duplicate_ids": 0,
     "status": "clean_census"
   },
-  "evidence_boundary": "A stale last_verified date is a research-priority signal, not evidence that the underlying record is incorrect. Canonical acquisition, mechanics, uncertainty, and source conflicts remain unchanged until independently verified."
+  "evidence_boundary": "A stale last_verified date is a research-priority signal, not evidence that the underlying record is incorrect."
 }
