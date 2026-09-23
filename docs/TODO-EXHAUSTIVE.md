@@ -4786,3 +4786,11 @@
 - [x] Validation: 0 unbridged preset character IDs / 0 duplicate preset records / 0 duplicate numbered character-preset pairs / 0 unsupported loadout-skill promotions.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** audit the broader character/preset presentation consumers for deterministic identity/search parity, then pursue source-backed preset loadout evidence only where the repository has an explicit loadout source.
+
+
+### 2026-09-23 cycle update — Character presentation consumer validator hardening
+- [x] Inspected live character/preset presentation consumers after the character↔skill audit.
+- [x] Hardened `scripts/validate_character_presentation_consumers.py` so the core-profile search-design check recognizes the repository's `searchUrl(` implementation as well as the `Search/` marker, avoiding a false unresolved result.
+- [x] Re-read the live identity bridge: 29 explicit character IDs / 29 unique canonical targets; no duplicate bridge identities observed.
+- [ ] CI/runtime unavailable; validator execution not claimed.
+- **Exact next task:** run/replicate the character presentation consumer audit when executable runtime is available, then expand deterministic character/preset navigation coverage without inventing preset loadouts.
