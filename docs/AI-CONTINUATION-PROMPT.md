@@ -4017,3 +4017,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] The immediately preceding 049/055/060/061 checkpoint contained web citation markup in its prose. Those tokens are **not repository-native provenance syntax** and must not be copied into future handoff/data files.
 - [x] The underlying evidence remains the current Super Soul catalogue, dedicated character pages, independent GameFAQs discussion, and the repository research seed; future handoff entries should name sources plainly or use their repository URL strings, while user-facing responses may cite web sources separately.
 - [x] Append-only history is preserved; this correction supersedes the citation-markup portion of the immediately preceding checkpoint without deleting historical text.
+
+
+### 2026-09-22 cycle update — Future Saga Super Souls 033 and 035 mechanics refresh
+- [x] Selected a high-impact unresolved pair from the live thin census: **super-soul-033** and **super-soul-035**, both tied to PQ185/PQ186 and the Future Saga Chapter 4 cross-domain dataset.
+- [x] Refreshed 033 with the secondary-evidence-supported state-based regeneration/guard-break behavior and **DEF Up! You've Got Super Armor! Ki Rec. SPD Down.** Limit Burst.
+- [x] Refreshed 035 with the secondary-evidence-supported battle-start health-drain/subsequent broad-stat-boost description and **Auto Just Guard** Limit Burst.
+- [x] Preserved canonical PQ edges: **033→PQ185, 035→PQ186**; Super Soul 034 remains intentionally unresolved rather than being populated from speculation.
+- [x] Added `docs/data/super-soul-033-035-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Evidence includes the maintained Super Soul catalogue plus recent community testing/discussion. Numerical values remain explicitly secondary where item-level confirmation is unavailable.
+- [x] Validation: canonical Super Soul layer remains **234 records**; selected records parse with populated Limit Burst fields; canonical PQ relationships unchanged; audit registration completed.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [x] Commits: `5ba2dfc2c7e096d996a91920b195b285329a2db7`, `a1ee80508c04e6a8a9068670314f96fc0cdc6ca3`, `da5df6b2e5b23d57ae3067f696f96bae05f2717b`.
+- [ ] Exact next priority: continue the live thin census with the next highest-impact unresolved records, prioritizing exact-name evidence and PQ/cross-domain reuse; append only to this canonical handoff.
