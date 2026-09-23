@@ -6,47 +6,47 @@
   "live_counts": {
     "canonical_skill_records": 455,
     "index_skill_records": 455,
-    "current_last_verified_records": 379,
-    "stale_last_verified_records": 76,
+    "current_last_verified_records": 391,
+    "stale_last_verified_records": 64,
     "duplicate_ids": 0
   },
-  "method": "Fresh alphabetical census after the Solar Flare through Spirit Pulse batch.",
+  "method": "Fresh alphabetical census after the Spirit Slash through Super Elite Combo batch.",
   "next_stale_records": [
     {
-      "name": "Spirit Slash"
+      "name": "Super Explosive Wave"
     },
     {
-      "name": "Spread Shot Retreat"
+      "name": "Super Gamma Blast"
     },
     {
-      "name": "Steel Mirage"
+      "name": "Super Ghost Buu Attack"
     },
     {
-      "name": "Stone Bullet"
+      "name": "Super Ghost Kamikaze Attack"
     },
     {
-      "name": "Strike of Revelation"
+      "name": "Super Ghost Kamikaze Attack"
     },
     {
-      "name": "Sudden Death Beam"
+      "name": "Super God Fist"
     },
     {
-      "name": "Sudden Storm"
+      "name": "Super God Shock Flash"
     },
     {
-      "name": "Super Afterimage"
+      "name": "Super Guard"
     },
     {
-      "name": "Super Black Kamehameha Rosé"
+      "name": "Super Kamehameha"
     },
     {
-      "name": "Super Donut Volley"
+      "name": "Super Kamehameha (SS4 DAIMA)"
     },
     {
-      "name": "Super Dragon Flight"
+      "name": "Super Saiyan"
     },
     {
-      "name": "Super Elite Combo"
+      "name": "Super Saiyan 2"
     }
   ],
   "validation": {
