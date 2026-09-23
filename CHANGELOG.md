@@ -2576,3 +2576,12 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Preserved existing acquisition, mechanics, DLC, conflicts, and unresolved evidence boundaries.
 - Added `docs/data/skill-provenance-audit-2026-09-23-fierce-fist-through-final-flash-ss3-daima.json` and refreshed the stale census.
 - Validation: 455 canonical / 455 index / 0 duplicate IDs / 280 stale after the batch; CI/runtime unavailable.
+
+
+### 2026-09-23 — P1 Final-through-Force skill provenance/mechanics refresh
+- Completed 12 skills: Final Flash (Super), Final Kamehameha, Final Pose, Final Rampage, Finish Breaker, Finishing Blow, Flash Bomber, Flash Chaser, Flash Fist Crush, Flash Strike, Focus Flash, Force Edge.
+- Synchronized canonical/index last_verified to 2026-09-23 and refreshed bounded mechanics notes from existing/current evidence.
+- Added/registered docs/data/skill-provenance-audit-2026-09-23-final-through-force-edge.json.
+- Validation: 455 canonical / 455 index / 0 duplicate IDs / 268 stale; all 12 targets have canonical/index parity for verification date, mechanics, and sources.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next batch: Force Shield, Formation!, Freedom Kick, Fruit of the Tree of Might, Full Power Charge, Full Power Destruction, Future Super Saiyan, Galactic Donuts, Galick Cannon, Galick Gun, Gamma Blaster, Gamma Impact.
