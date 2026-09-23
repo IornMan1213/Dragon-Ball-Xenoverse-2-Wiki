@@ -41,7 +41,7 @@ def main():
     duplicate_character_preset_pairs=sorted([list(k) for k,v in Counter(numbered_pairs).items() if v>1])
     allowed_record_types={"preset","separate_character"}
     special_records=[{"id":r.get("id"),"record_type":r.get("record_type"),"character_id":r.get("character_id"),"preset_number":r.get("preset_number")} for r in presets if r.get("record_type") and r.get("record_type")!="preset"]
-    invalid_record_types=sorted({"<missing>" if not r.get("record_type") else r.get("record_type") for r in presets}-allowed_record_types)
+    invalid_record_types=sorted({r.get("record_type") for r in presets if r.get("record_type") not in {None,"preset","separate_character"}})
     special_numbering_conflicts=sorted(r.get("id") for r in presets if r.get("record_type")=="separate_character" and r.get("preset_number") is not None)
     partner_ids=sorted({r["character_id"] for r in partners if r.get("character_id")})
     recon_ids=sorted({r["character_id"] for r in recon if r.get("character_id")})
