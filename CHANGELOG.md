@@ -2056,3 +2056,12 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Validation: **234 canonical / 0 duplicate IDs / 119 strict-thin records**; changed records parse cleanly and audit registration is present.
 - CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - Exact next task: recompute the live strict-thin queue and continue the next evidence-supported one-field cluster.
+
+
+### 2026-09-22 — Super Soul 154/160/162/165 stacking reconciliation
+- Reconciled stacking fields for **154, 160, 162, and 165** against the maintained exact-name catalogue and corroborating historical/stat-sheet evidence.
+- Recorded **Not reported as stackable** for all four because the evidence establishes their effect/duration semantics but documents no stacking mechanic or numeric cap.
+- Added and registered `docs/data/super-soul-154-160-162-165-stacking-reconciliation-2026-09-22.json`.
+- Validation: **234 canonical / 0 duplicate IDs / 115 strict-thin records**; changed records parse cleanly and audit registration is present.
+- CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- Exact next task: continue the next evidence-supported thin-field cluster, beginning with **156/161/166/172** duration gaps and preserving unresolved evidence boundaries.
