@@ -172,7 +172,8 @@
         "super-soul-068"
       ],
       "relationship_changes": 0
-    }
+    },
+    "super_soul_024_031_secondary_fields": "docs/data/super-soul-secondary-field-reconciliation-024-031-2026-09-22.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
@@ -302,7 +303,8 @@
     "super_soul_054_reconciliation_2026_09_22": "docs/data/super-soul-054-reconciliation-2026-09-22.json",
     "super_soul_157_159_163_164_reconciliation_2026_09_22": "docs/data/super-soul-157-159-163-164-reconciliation-2026-09-22.json",
     "super_soul_167_169_170_171_reconciliation_2026_09_22": "docs/data/super-soul-167-169-170-171-reconciliation-2026-09-22.json",
-    "super_soul_055_061_reconciliation_2026_09_22": "docs/data/super-soul-055-061-reconciliation-2026-09-22.json"
+    "super_soul_055_061_reconciliation_2026_09_22": "docs/data/super-soul-055-061-reconciliation-2026-09-22.json",
+    "super_soul_secondary_field_reconciliation_024_031": "docs/data/super-soul-secondary-field-reconciliation-024-031-2026-09-22.json"
   },
   "registered_audits": {
     "super_soul_thin_census_2026_09_22": "docs/data/super-soul-thin-census-2026-09-22.json",
@@ -310,6 +312,7 @@
     "super_soul_secondary_field_reconciliation_013_014_017_026": "docs/data/super-soul-secondary-field-reconciliation-013-014-017-026-2026-09-22.json",
     "super_soul_secondary_field_reconciliation_002_004_008_010_011_028_031": "docs/data/super-soul-secondary-field-reconciliation-002-004-008-010-011-028-031-2026-09-22.json",
     "super_soul_secondary_field_reconciliation_024_025": "docs/data/super-soul-secondary-field-reconciliation-024-025-2026-09-22.json",
-    "super_soul_secondary_field_reconciliation_007_047": "docs/data/super-soul-secondary-field-reconciliation-007-047-2026-09-22.json"
+    "super_soul_secondary_field_reconciliation_007_047": "docs/data/super-soul-secondary-field-reconciliation-007-047-2026-09-22.json",
+    "super_soul_secondary_field_reconciliation_024_031": "docs/data/super-soul-secondary-field-reconciliation-024-031-2026-09-22.json"
   }
 }
