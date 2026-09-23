@@ -1132,7 +1132,7 @@
       "mechanics_notes": "Current dedicated Xenoverse 2 documentation confirms Burning Attack as a 100-Ki Ki Blast Super associated with Future Trunks. It is a mid-range projectile with an explosive 2-hit launch behavior. The dedicated skill page identifies PQ41 as the acquisition source; the maintained PQ41 reward guide independently lists Burning Attack under Basic Reward. Current evidence confirms CaC availability; no narrower race/gender/form restriction is established, so none is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burning_Attack",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1141,7 +1141,7 @@
       "source_quest": 41,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance verification: dedicated Xenoverse 2 documentation confirms Ki Blast Super classification, 100 Ki, Future Trunks association, projectile/explosive 2-hit launching behavior, and PQ41 acquisition. Independent PQ41 reward guides place Burning Attack in Basic Reward. No Ultimate Finish-only gate or numeric drop probability is inferred.",
+      "notes": "2026-09-22 provenance verification: dedicated Xenoverse 2 documentation confirms Ki Blast Super classification, 100 Ki, Future Trunks association, projectile/explosive 2-hit launching behavior, and PQ41 acquisition. Independent PQ41 reward guides place Burning Attack in Basic Reward. No Ultimate Finish-only gate or numeric drop probability is inferred.\n 2026-09-23 provenance refresh: current dedicated XV2 documentation and the maintained all-PQ guide independently corroborate PQ41 identity/acquisition; Dragon Ball technique documentation corroborates the Xenoverse 2 Super Skill identity. Existing Basic Reward semantics are retained; no probability or Ultimate Finish-only gate is inferred.",
       "method": "Parallel Quest 41 — \"Warriors’ Annihilation - Future Chapters\" Basic Reward",
       "id": "skill-burning-attack",
       "source_parallel_quests": [
@@ -1165,14 +1165,14 @@
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burning_Blast",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "mechanics": "200 Ki; optional 300 Stamina consumption enables use while under pressure and grants temporary Super Armor.",
-      "notes": "2026-09-20 audit: Steam's current all-PQ reward guide explicitly lists Burning Blast in PQ180's Ultimate Finish reward pool alongside Force Edge. The repository retains PQ180 as the acquisition quest; no separate drop gate is inferred. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.\n2026-09-21 DLC provenance census: Dragon Ball DAIMA Pack is the documented DLC provenance for this skill; the live canonical acquisition endpoint maps to Parallel Quest 180 — \"Battle of Resolve: VS Goku Black\". Bandai Namco's official DAIMA Pack announcement confirms the pack contains Parallel Quests and player-character skills. 2026-09-22 provenance verification: dedicated skill documentation confirms PQ180 and the 200-Ki/optional-300-Stamina Ki Blast Super identity. Existing 50% Ultimate Finish evidence and conflicting reward-list presentation are preserved.",
+      "notes": "2026-09-20 audit: Steam's current all-PQ reward guide explicitly lists Burning Blast in PQ180's Ultimate Finish reward pool alongside Force Edge. The repository retains PQ180 as the acquisition quest; no separate drop gate is inferred. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.\n2026-09-21 DLC provenance census: Dragon Ball DAIMA Pack is the documented DLC provenance for this skill; the live canonical acquisition endpoint maps to Parallel Quest 180 — \"Battle of Resolve: VS Goku Black\". Bandai Namco's official DAIMA Pack announcement confirms the pack contains Parallel Quests and player-character skills. 2026-09-22 provenance verification: dedicated skill documentation confirms PQ180 and the 200-Ki/optional-300-Stamina Ki Blast Super identity. Existing 50% Ultimate Finish evidence and conflicting reward-list presentation are preserved.\n 2026-09-23 provenance refresh: current dedicated XV2 documentation corroborates PQ180, 200-Ki/optional-300-Stamina identity; the maintained all-PQ guide currently presents Burning Blast in its PQ180 Basic Reward list, which conflicts with the repository's explicit 50% Ultimate Finish condition. The existing explicit UF condition is retained and the reward-table conflict remains documented.",
       "race_restriction": "All CaC races",
       "source_quest": 180,
       "acquisition_type": "quest_or_mission",
@@ -1200,7 +1200,7 @@
       "mechanics_notes": "Fiery kick followed by a chasing chop after the initial hit. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burning_Shot",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1208,7 +1208,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: official Bandai Namco DLC documentation independently confirms Legendary Pack 1 scope (4 characters, 4 Parallel Quests, 6 additional moves); the maintained PQ143-PQ146 research layer remains the exact source for each skill's individual quest relationship. 2026-09-22 provenance verification: dedicated skill documentation confirms PQ143 — \"Other World Offensive\" and the 100-Ki Strike Super identity. Independent gameplay evidence reports obtaining it after an Ultimate Finish, but this does not establish a universal mandatory gate; existing canonical semantics remain unchanged.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: official Bandai Namco DLC documentation independently confirms Legendary Pack 1 scope (4 characters, 4 Parallel Quests, 6 additional moves); the maintained PQ143-PQ146 research layer remains the exact source for each skill's individual quest relationship. 2026-09-22 provenance verification: dedicated skill documentation confirms PQ143 — \"Other World Offensive\" and the 100-Ki Strike Super identity. Independent gameplay evidence reports obtaining it after an Ultimate Finish, but this does not establish a universal mandatory gate; existing canonical semantics remain unchanged.\n 2026-09-23 provenance refresh: dedicated XV2 documentation and the maintained all-PQ guide corroborate PQ143 and the Strike Super identity; Dragon Ball technique documentation independently identifies the Xenoverse 2/PQ143 route. Existing UF=false semantics remain because an Ultimate Finish report does not establish a universal mandatory gate.",
       "source_parallel_quests": [
         143
       ]
@@ -1234,13 +1234,13 @@
       "ultimate_finish_required": false,
       "unlock_method": "Parallel Quest 44 — \"Dragon Balls of the Future\" Basic Reward",
       "source_quest": 44,
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "mechanics_notes": "Current dedicated Xenoverse 2 documentation confirms Burning Slash as a 100-Ki Strike Super used by Trunks, with a 5-hit sword sequence and an optional follow-up Ki Blast for a total of 5–9 hits. The dedicated skill page identifies PQ44 as the acquisition source and restricts CaC use to Human/Earthling and Saiyan races. Independent PQ44 reward documentation lists Burning Slash under Basic Reward.",
       "source_quest_or_shop": "Parallel Quest 44 — \"Dragon Balls of the Future\"",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance verification: dedicated Xenoverse 2 documentation confirms Strike Super classification, 100 Ki, Trunks association, sword/weapon behavior, 5–9 hit follow-up sequence, Human/Saiyan CaC restriction, and PQ44 acquisition. Independent PQ44 reward guides explicitly list Burning Slash as a Basic Reward. No Ultimate Finish-only gate or numeric drop probability is inferred.",
+      "notes": "2026-09-22 provenance verification: dedicated Xenoverse 2 documentation confirms Strike Super classification, 100 Ki, Trunks association, sword/weapon behavior, 5–9 hit follow-up sequence, Human/Saiyan CaC restriction, and PQ44 acquisition. Independent PQ44 reward guides explicitly list Burning Slash as a Basic Reward. No Ultimate Finish-only gate or numeric drop probability is inferred.\n 2026-09-23 provenance refresh: dedicated XV2 documentation, the maintained all-PQ guide, Dragon Ball technique documentation, and historical player evidence corroborate PQ44 and the existing Human/Saiyan restriction. Basic Reward semantics are retained; player reports about Ultimate Finish attempts do not establish a universal UF-only gate or probability.",
       "id": "skill-burning-slash",
       "source_parallel_quests": [
         44
@@ -1263,7 +1263,7 @@
       "mechanics_notes": "Current official Dragon Ball documentation identifies Burning Swan as Videl's Super Attack: a slowly moving Ki Blast whose charge increases movement speed and hit count. Dedicated Xenoverse 2 documentation confirms it is a 100-Ki Super and a PQ167 acquisition; the maintained PQ167 guide lists it under Basic Reward. Current evidence supports CaC usability, but no narrower CaC race/gender/form restriction is established beyond the repository's existing all-CaC-races projection.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2573",
         "https://dbxv2.fandom.com/wiki/Burning_Swan",
@@ -1272,7 +1272,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 167,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance reconciliation: official Dragon Ball material confirms Burning Swan as Videl's Super Attack and describes its slow-moving, chargeable Ki Blast behavior. Dedicated Xenoverse 2/PQ documentation identifies PQ167 as the source, and the maintained PQ167 guide explicitly lists Burning Swan as a Basic Reward. A separate skill reference describes the acquisition as a random PQ167 drop; this does not establish a numeric probability or Ultimate Finish-only gate, so those remain unresolved.",
+      "notes": "2026-09-22 provenance reconciliation: official Dragon Ball material confirms Burning Swan as Videl's Super Attack and describes its slow-moving, chargeable Ki Blast behavior. Dedicated Xenoverse 2/PQ documentation identifies PQ167 as the source, and the maintained PQ167 guide explicitly lists Burning Swan as a Basic Reward. A separate skill reference describes the acquisition as a random PQ167 drop; this does not establish a numeric probability or Ultimate Finish-only gate, so those remain unresolved.\n 2026-09-23 provenance refresh: official Dragon Ball material, dedicated XV2 documentation, and the maintained all-PQ guide corroborate Videl's Super Attack identity and PQ167 Basic Reward endpoint. Existing unresolved random-drop wording is preserved; no probability or Ultimate Finish-only gate is inferred.",
       "id": "skill-burning-swan",
       "source_parallel_quests": [
         167
