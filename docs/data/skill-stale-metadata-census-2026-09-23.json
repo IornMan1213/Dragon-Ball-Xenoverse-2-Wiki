@@ -5,84 +5,12 @@
   "source_of_truth": "docs/data/skills.json",
   "live_counts": {
     "canonical_skill_records": 455,
-    "stale_last_verified_records": 196,
-    "current_last_verified_records": 259,
+    "current_last_verified_records": 271,
+    "stale_last_verified_records": 184,
     "duplicate_ids": 0
   },
   "method": "Fresh alphabetical census of canonical records where last_verified != 2026-09-23.",
   "next_stale_records": [
-    {
-      "id": "skill-justice-pose",
-      "name": "Justice Pose",
-      "last_verified": "2026-09-22",
-      "source_count": 4
-    },
-    {
-      "id": "skill-justice-rush",
-      "name": "Justice Rush",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-kai-kai",
-      "name": "Kai Kai",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-kaioken",
-      "name": "Kaioken",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-kaioken-kamehameha",
-      "name": "Kaioken Kamehameha",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-kairos-cannon",
-      "name": "Kairos Cannon",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-kamehameha",
-      "name": "Kamehameha",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-ki-blast-thrust",
-      "name": "Ki Blast Thrust",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-ki-explosion",
-      "name": "Ki Explosion",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-kill-driver",
-      "name": "Kill Driver",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-last-emperor",
-      "name": "Last Emperor",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-light-grenade",
-      "name": "Light Grenade",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
     {
       "id": "skill-lightning-impact",
       "name": "Lightning Impact",
@@ -130,6 +58,78 @@
       "name": "Majin Kamehameha",
       "last_verified": "2026-09-22",
       "source_count": 5
+    },
+    {
+      "id": "skill-masenko",
+      "name": "Masenko",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-maximum-charge",
+      "name": "Maximum Charge",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-meditation",
+      "name": "Meditation",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-menacing-flare",
+      "name": "Menacing Flare",
+      "last_verified": "2026-09-22",
+      "source_count": 6
+    },
+    {
+      "id": "skill-meteor-blow",
+      "name": "Meteor Blow",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-meteor-burst",
+      "name": "Meteor Burst",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-meteor-crash",
+      "name": "Meteor Crash",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-meteor-explosion",
+      "name": "Meteor Explosion",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-meteor-strike",
+      "name": "Meteor Strike",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-mighty-explosive-wave",
+      "name": "Mighty Explosive Wave",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-milky-cannon",
+      "name": "Milky Cannon",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-mystic-flash",
+      "name": "Mystic Flash",
+      "last_verified": "2026-09-22",
+      "source_count": 3
     }
   ],
   "validation": {
