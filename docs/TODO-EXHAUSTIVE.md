@@ -2922,3 +2922,15 @@
 - Added and registered `docs/data/super-soul-104-151-153-reconciliation-2026-09-22.json`.
 - **217 remains unresolved** because exact-name Limit Burst evidence was not independently established in this pass.
 - Exact next task: continue the next evidence-supported unresolved cluster; preserve **032/034** as evidence boundaries.
+
+
+### 2026-09-22 — Super Soul 218–219 mechanics/provenance reconciliation
+- [x] Recomputed the live canonical Super Soul layer: **234 records / 0 duplicate IDs / 152 strict-thin records** under the current eight-field definition.
+- [x] Reconciled **218 — “Pathetic”** and **219 — “Justice is nothing to me now.”** with exact-name catalogue and independent Xenoverse 2 evidence.
+- [x] 218: populated **Vegeta (Super Saiyan God)**, **Ultra Pack 1**, Blazing Attack trigger, **+10% Strike Skills / +10% Ki Blast-based skills / +10% Ki restored**, **3-stack cap**, and **Auto Just Guard** Limit Burst.
+- [x] 219: populated **Toppo**, **Ultra Pack 1**, below-50%-Health trigger, **+20% all damage / +15% defense / +10% stamina recovery speed**, guard-seal downside, and **Super Armor** Limit Burst.
+- [x] Preserved canonical **PQ136** acquisition relationships and did not infer reward probability, Ultimate-Finish requirements, duration, or unsupported stacking semantics.
+- [x] Added and registered `docs/data/super-soul-218-219-mechanics-reconciliation-2026-09-22.json`.
+- [x] Both records remain strict-thin because 218 lacks an explicit duration and 219 lacks independently established duration/stacking semantics; the census was not artificially reduced.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Exact next priority: investigate the highest-impact one-field gaps with strong exact-name evidence — **191, 194, 192, and 196** — for explicit duration/stacking evidence; preserve unresolved fields if the evidence does not establish them, then continue with the next evidence-supported cluster.
