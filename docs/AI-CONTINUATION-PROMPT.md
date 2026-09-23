@@ -6621,3 +6621,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime remains unavailable; no CI success claimed.
 - Commits: validation `f202b61a6033d2155ba596286981a805b95ee046`; audit `d615a237d038ff4822891f335b1150f8f41eb648`; registration `a3bc8cebbf9a2944259cae1cab2f99326cfddeb2`.
 - **Exact next task:** continue the broader deterministic producer/consumer census beyond the PQ endpoint validator, prioritizing remaining current-state projections that still embed superseded skill/character/domain counts; then return to source-backed preset-loadout reconciliation only where explicit loadout evidence exists.
+
+
+### 2026-09-23 cycle update — Skill stale-metadata census synchronization
+- [x] Continued the deterministic producer/consumer census after the PQ endpoint repair.
+- [x] Found `docs/data/skill-stale-metadata-census-2026-09-22.json` still hard-coded to the superseded **452** canonical skill count.
+- [x] Synchronized its live census metadata to the current **465** canonical skill records, with **191 stale** and **274 current** `last_verified` records for the 2026-09-23 cutoff; refreshed audit date/method and validation totals.
+- [x] Preserved the artifact's research-priority semantics: stale verification dates do not imply incorrect skill data, and no canonical skill facts were changed.
+- [x] Validation: JSON reparsed and stale+current totals equal 465.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- Commit: `79316983821a2171396c3aa14d3699787bc435d7`.
+- **Exact next task:** continue the deterministic census for remaining superseded current-state counts (especially the 854 historical/current-baseline consumers) and synchronize only confirmed consumer metadata before returning to source-backed preset reconciliation.
