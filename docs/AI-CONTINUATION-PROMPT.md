@@ -3975,3 +3975,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Commits: 47b0a6e7f191c1858a2fe45f090f5890da4577a1, 177bc63d5bb6a8d3183c4361953774350a57df35, 7f0b04948dcddfbf673ba677b242a220375eafb5.
 - [x] Live census after editing: **234 canonical records / 31 indexed-status records**; 200–205 are no longer indexed-only.
 - [ ] Exact next batch: **Super Soul 206–211** — Hey, you think you could fight a little quieter?!; Don't think I'm gonna show you any gratitude!; Hey, you! You ready for me?!; Hmph. I'm off to take a nap.; Th-Thanks...; and You'd better survive, you got that?!. Use the maintained catalogue plus independent corroboration; preserve the existing PQ129–131 canonical relationships and do not infer reward/drop semantics beyond the relationship layer.
+
+
+### 2026-09-22 cycle correction — Canonical continuation file is append-only
+
+- [x] Clarified the continuation-file rule to prevent this issue from recurring: **future cycle updates, resume checkpoints, corrections, and newly discovered tasks must be appended to the end of `docs/AI-CONTINUATION-PROMPT.md`**.
+- [x] Do **not** create a new replacement/current `AI-CONTINUATION-PROMPT*.md` file merely to hold the next cycle's state. The canonical `docs/AI-CONTINUATION-PROMPT.md` remains the single live continuation handoff.
+- [x] Existing dated `docs/AI-CONTINUATION-PROMPT-CYCLE-*.md` files are historical/source artifacts only. They may be read for context and retained for provenance, but a new cycle should not fork the active handoff into another dated prompt file unless the user explicitly requests a separate historical artifact.
+- [x] Preserve the append-only contract: never delete, truncate, reorder, replace, or summarize away prior content in the canonical handoff. Add the newest cycle entry at the end and make its live state authoritative over older historical entries.
+- [x] This clarification applies to all future autonomous continuation work, including Super Souls, skills, PQs, equipment, cross-domain reconciliation, validators, research audits, and other project workstreams.
+- [x] The existing dated early-Super-Souls prompt remains unchanged as a historical/source artifact; its content is not being duplicated into a newly created active prompt.
