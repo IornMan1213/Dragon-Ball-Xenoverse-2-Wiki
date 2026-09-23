@@ -2701,3 +2701,11 @@
 - [x] Validation: 234 canonical records / 0 duplicate IDs; all six selected records have populated core mechanics and provenance.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Next: recompute the live census and continue the next 4–12 highest-impact unresolved PQ-linked records; 232–236 remain a high-value cluster but must not be populated from weak or mismatched name evidence.
+
+### 2026-09-22 cycle update — Super Soul 240–244 provenance/mechanics refresh
+- [x] Upgraded Super Souls 240–244 to researched using exact-name catalogue evidence and existing independent PQ provenance.
+- [x] Preserved PQ links 240→026, 241→028, 242→029, 243→035, 244→036.
+- [x] Added/registered super-soul-240-244-provenance-mechanics-audit-2026-09-22.json.
+- [x] Validation: 234 records / 0 duplicate IDs; five selected records researched with required core mechanics populated.
+- [ ] CI/runtime: no successful workflow/check exposed.
+- [ ] Next: investigate 232–236 with stronger exact-name evidence; if evidence remains insufficient, skip them rather than fabricate mechanics and continue the next evidence-supported cluster.
