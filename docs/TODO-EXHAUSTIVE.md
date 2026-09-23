@@ -2943,3 +2943,13 @@
 - [x] Live census after edit: **234 canonical / 0 duplicate IDs / 151 strict-thin records**.
 - [x] Added and registered `docs/data/super-soul-192-stacking-reconciliation-2026-09-22.json`.
 - [ ] Exact next priority: continue with the next evidence-supported unresolved Super Soul field; preserve genuinely unresolved duration/stacking semantics rather than manufacturing values.
+
+
+### 2026-09-22 — Super Soul 191/194/196 duration reconciliation
+- [x] Reconciled duration semantics for **191 — “Earth is in your hands now!”**, **194 — “Time to get serious, I guess.”**, and **196 — “You and this planet are history!”** against the maintained Super Soul catalogue.
+- [x] 191: recorded the effect window as **while Hero's Flute is active**.
+- [x] 194: recorded the movement-speed effect as tied to the **below-75%-Health condition**, without inventing a numeric duration.
+- [x] 196: recorded the documented **30-second** temporary Ki Blast-based-skill boost.
+- [x] Live census: **234 canonical / 0 duplicate IDs / 148 strict-thin records**.
+- [x] Added and registered `docs/data/super-soul-191-194-196-duration-reconciliation-2026-09-22.json`.
+- [ ] Next: continue the remaining evidence-supported thin-field cluster; do not manufacture stacking or duration values.
