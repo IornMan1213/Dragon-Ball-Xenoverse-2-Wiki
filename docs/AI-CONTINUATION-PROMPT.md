@@ -4245,3 +4245,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Live status counts after the batch: **71 partially_verified / 11 verified / 112 verified_secondary / 27 researched / 13 indexed**; strict-thin census remains a field-completeness metric and was not artificially reduced by status changes.
 - [ ] CI/runtime: no successful workflow/check exposed; do not claim CI success.
 - [ ] Exact next priority: recompute the live strict-thin Super Soul census and select the next **4–12 evidence-supported partially-verified records** with multiple unresolved applicable fields. Preserve **034** as an evidence boundary and do not force unresolved mechanics.
+
+### 2026-09-22 cycle close — live thin-census recomputation and next queue
+- [x] Recomputed the live canonical Super Soul layer after the 155/173/175/179/187/197 batch: **234 records / 0 duplicate IDs / 182 strict-thin records** under the established eight-field definition.
+- [x] Current high-value partially-verified queue from the live layer: **054** (4 missing core fields), **034** (3; retain evidence boundary), then **157, 159, 163, 164** (2 each).
+- [x] The queue is based on actual missing core fields and source counts, not numeric order alone.
+- [ ] The existing docs/data/super-soul-thin-census-2026-09-22.json remains the prior checkpoint artifact; an attempted direct refresh was blocked by the repository write safety layer, so its older notes were not overwritten.
+- [ ] CI/runtime: no successful workflow/check exposed; do not claim CI success.
+- [ ] Exact next batch: **Super Soul 054** if stronger Limit Burst evidence can be independently established; otherwise skip without fabrication and move to **157/159/163/164**. Keep **034** evidence-bound unless exact-name item-level mechanics evidence improves.
