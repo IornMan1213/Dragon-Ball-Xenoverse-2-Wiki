@@ -2643,3 +2643,12 @@
 - [x] No reward probabilities, unsupported Ultimate-Finish requirements, or canonical relationship changes were introduced.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Exact next batch: recompute the live indexed/thin census and continue with the next 4–12 highest-impact indexed records with exact-name evidence and reusable cross-domain relationships; preserve unresolved identity conflicts such as 158.
+
+
+### 2026-09-22 cycle update — Super Soul 200–205 provenance/mechanics refresh
+- [x] Refreshed canonical Super Soul records **200–205** with evidence-backed character, DLC, trigger/effect/magnitude, duration/stacking, Limit Burst, and provenance fields.
+- [x] Added and registered docs/data/super-soul-200-through-205-provenance-audit-2026-09-22.json.
+- [x] Canonical PQ relationship identities were unchanged; existing routes remain PQ124, PQ126, PQ128, and PQ129 as applicable.
+- [x] Validation: **234 canonical Super Soul records**, selected records current, audit parseable/registered, and no unsupported drop probabilities introduced.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Exact next priority: refresh **Super Soul 206–211** with exact-name mechanics/provenance and preserve their existing PQ129–131 navigation; then recompute the broader live Super Soul census before selecting the next batch.
