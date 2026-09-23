@@ -116,3 +116,10 @@ Added `docs/data/time-rift-story-tournament-endpoints.json` with **11 determinis
 - Added `docs/data/mentor-endpoints.json`: **33 mentor endpoints**, **132 lesson→skill edges**, **131 unique skill endpoints**, and **1 typed non-skill lesson reward** (Zamasu initiation Super Soul).
 - Reverse lookup is included so skill records can navigate back to mentor/lesson producers.
 - No unsupported skill ID is assigned to non-skill rewards; mentor roster count discrepancy remains separate.
+
+
+### Tokipedia endpoint implementation baseline — 2026-09-23
+- Added `docs/data/tokipedia-endpoints.json` with **4 deterministic Tokipedia completion endpoints** and **4 forward skill edges**: Confusion Blade (20%), Sneaky Strike (40%), Energy Minefield (75%), and Remote Serious Bomb (80%).
+- Reverse lookup is included for skill→Tokipedia navigation.
+- Reconciled Energy Minefield's stale `source_quest_or_shop` value from 60% to the evidence-backed 75% endpoint.
+- Tokipedia completion thresholds are requirements, not inferred drop probabilities; unrelated Extra Story rewards are not promoted without explicit Tokipedia evidence.
