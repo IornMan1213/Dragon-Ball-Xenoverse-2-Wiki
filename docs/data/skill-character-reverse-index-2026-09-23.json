@@ -45,6 +45,12 @@
       ]
     },
     {
+      "canonical_character_name": "Cooler (Final Form)",
+      "skill_ids": [
+        "skill-spirit-explosion"
+      ]
+    },
+    {
       "canonical_character_name": "Frieza (1st Form)",
       "skill_ids": [
         "skill-crazy-finger-shot",
@@ -116,6 +122,14 @@
       ]
     },
     {
+      "canonical_character_name": "Goku (Ultra Supervillain Quelled)",
+      "skill_ids": [
+        "skill-dragon-spiral",
+        "skill-indomitable",
+        "skill-venus-fist"
+      ]
+    },
+    {
       "canonical_character_name": "Golden Frieza",
       "skill_ids": [
         "skill-crazy-finger-shot",
@@ -138,6 +152,12 @@
       "canonical_character_name": "Great Saiyaman 2",
       "skill_ids": [
         "skill-rolling-bullet"
+      ]
+    },
+    {
+      "canonical_character_name": "Jeice",
+      "skill_ids": [
+        "skill-sauzer-blade"
       ]
     },
     {
@@ -185,6 +205,12 @@
       ]
     },
     {
+      "canonical_character_name": "Vegeta (GT)",
+      "skill_ids": [
+        "skill-wild-buster"
+      ]
+    },
+    {
       "canonical_character_name": "Vegeta (Super Saiyan God)",
       "skill_ids": [
         "skill-raid-blast"
@@ -195,24 +221,12 @@
       "skill_ids": [
         "skill-requiem-of-destruction"
       ]
-    },
-    {
-      "canonical_character_name": "Jeice",
-      "skill_ids": [
-        "skill-sauzer-blade"
-      ]
-    },
-    {
-      "canonical_character_name": "Cooler (Final Form)",
-      "skill_ids": [
-        "skill-spirit-explosion"
-      ]
     }
   ],
   "counts": {
-    "resolved_skill_records": 32,
-    "resolved_canonical_skill_edges": 43,
-    "canonical_character_targets": 32
+    "resolved_skill_records": 36,
+    "resolved_canonical_skill_edges": 47,
+    "canonical_character_targets": 34
   },
   "evidence_boundary": "This reverse projection contains only resolved identity edges. It does not infer every character that can equip a skill, every customize-partner route, or generic Future Warrior/CaC availability."
 }
