@@ -6,47 +6,47 @@
   "live_counts": {
     "canonical_skill_records": 455,
     "index_skill_records": 455,
-    "current_last_verified_records": 367,
-    "stale_last_verified_records": 88,
+    "current_last_verified_records": 379,
+    "stale_last_verified_records": 76,
     "duplicate_ids": 0
   },
-  "method": "Fresh alphabetical census after the Secret Poison through Soaring Rush batch.",
+  "method": "Fresh alphabetical census after the Solar Flare through Spirit Pulse batch.",
   "next_stale_records": [
     {
-      "name": "Solar Flare"
+      "name": "Spirit Slash"
     },
     {
-      "name": "Sonic Bomb"
+      "name": "Spread Shot Retreat"
     },
     {
-      "name": "Sonic Rush"
+      "name": "Steel Mirage"
     },
     {
-      "name": "Special Beam Cannon"
+      "name": "Stone Bullet"
     },
     {
-      "name": "Special Beam Cannon (Beast)"
+      "name": "Strike of Revelation"
     },
     {
-      "name": "Sphere of Destruction"
+      "name": "Sudden Death Beam"
     },
     {
-      "name": "Spirit Ball"
+      "name": "Sudden Storm"
     },
     {
-      "name": "Spirit Blaster"
+      "name": "Super Afterimage"
     },
     {
-      "name": "Spirit Bomb"
+      "name": "Super Black Kamehameha Rosé"
     },
     {
-      "name": "Spirit Boost"
+      "name": "Super Donut Volley"
     },
     {
-      "name": "Spirit Explosion"
+      "name": "Super Dragon Flight"
     },
     {
-      "name": "Spirit Pulse"
+      "name": "Super Elite Combo"
     }
   ],
   "validation": {
