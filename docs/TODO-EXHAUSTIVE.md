@@ -2511,3 +2511,15 @@
 - [x] Validation: 133/133 lesson rewards typed; 132 skill rewards; 1 Super Soul reward; 131 unique skill endpoints; 0 typed-missing rewards; mentor skill crosslink remains 131 edges with 0 unresolved skill endpoints.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Next priority: continue the non-PQ/thin-system coverage audit, using the same rule: prefer an existing canonical schema/data layer and deterministic cross-domain field/endpoint gaps over placeholder prose.
+
+### 2026-09-22 cycle update — Super Soul 224–231 thin-system enrichment
+- [x] Selected the next deterministic non-PQ/thin-system coverage task after mentor lesson schema typing: enrich indexed Super Soul records with evidence-backed mechanics/provenance.
+- [x] Refreshed **8 canonical Super Soul records (224–231)** with current catalogue trigger/effect/magnitude/duration/Limit Burst data and character sources.
+- [x] Added `docs/data/super-soul-224-through-231-provenance-audit-2026-09-22.json`.
+- [x] Added `scripts/validate_super_soul_224_through_231.py` and registered the audit/validator in `docs/data/pq-cross-domain-index.json`.
+- [x] No canonical PQ relationship identities were changed.
+- [x] Super Soul 226's acquisition-source discrepancy was preserved explicitly rather than guessed.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Exact next batch: **Super Souls 232–241** — *I'll show you the power of a true warrior!*, *Don't underestimate my power!*, *I won't forgive you!*, *I'm the one who will win!*, *This is the ultimate hero!*, *Heh heh! I'm not a rusty as I look!*, *I'll take all of you on at once!*, *I am the universe's strongest!*, *I got back my youth and vigor!*, *Goku the legendary Super Saiyan!*.
+
+
