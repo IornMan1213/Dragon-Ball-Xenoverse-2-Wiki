@@ -4720,3 +4720,12 @@
 - [x] Updated bridge, reverse index, gap inventory, reconciliation audit, handoff, and TODO.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** reconcile remaining unresolved entries with deterministic canonical identities and explicit conflict preservation.
+
+
+### 2026-09-23 cycle update — Third bounded skill→character identity batch
+- [x] Reconciled **Sauzer Blade → Jeice**, **Spirit Explosion → Cooler (Final Form)**, and **Spread Shot Retreat → Frieza (1st Form)**.
+- [x] Refreshed the canonical skill→character bridge to **32 resolved skill records / 43 canonical edges / 32 canonical character targets**.
+- [x] Refreshed the reverse index and gap inventory; **7 unresolved character/variant entries** remain.
+- [x] Preserved source wording and evidence boundaries; no exhaustive equipability claims were inferred from the source-token bridge.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** assess canonical character-layer promotion/reconciliation for **Goku (Ultra Supervillain Quelled)** and **Vegeta (GT)**, then continue the remaining unresolved/conflict entries without fabricating identities.
