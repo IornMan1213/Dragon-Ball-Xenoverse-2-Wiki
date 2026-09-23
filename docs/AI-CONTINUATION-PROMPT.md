@@ -6238,3 +6238,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Identified the only multi-producer skill collision pattern as intentional: Super Explosive Wave has two distinct mentor producers (Piccolo Lesson 1 and Future Gohan initiation); no duplicate skill identity was created.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** move from skill endpoint coverage to the next cross-database producer/consumer frontier: audit PQ ↔ skill, mentor ↔ skill, and character/preset ↔ skill navigation for orphaned or display-only links, prioritizing deterministic ID mismatches over descriptive enrichment.
+
+
+### 2026-09-23 cycle update — Skill → character identity consumer audit
+- [x] Audited all **227 canonical skill records** carrying `character_source`, yielding **232 source tokens**.
+- [x] Resolved **187/232 source tokens** by exact canonical character-name match; **45 remain unresolved** as identity/variant or aggregate-source strings and were not guessed into the character bridge.
+- [x] Separated explicit non-character/aggregate tokens such as `CaC / Universal`, multi-user aggregates, and Future Saga source wording from character identity gaps.
+- [x] Added and registered `docs/data/skill-character-source-identity-audit-2026-09-23.json` as the bounded gap inventory.
+- [x] Evidence boundary preserved: unresolved strings may represent valid cast variants, aliases, customize partners, or aggregate users; no canonical character identity was fabricated.
+- [ ] Reconcile the unresolved character/variant source tokens against the canonical character roster and identity bridge in bounded batches.
+- **Exact next batch:** reconcile the first bounded group of unresolved `character_source` identities (starting with high-confidence canonical-name variants/customize-partner forms), then add only evidence-backed skill→character reverse edges.
