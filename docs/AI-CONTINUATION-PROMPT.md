@@ -5312,3 +5312,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Added `docs/data/pq-non-pq-super-soul-endpoint-consumer-correction-2026-09-23.json` documenting the correction and evidence boundary.
 - Validation: endpoint navigation audit now reports Super Soul 146 edges / 143 targets with zero missing targets; canonical relationship count remains 854. CI/runtime unavailable; no CI success claimed.
 - Exact next batch: continue the registered non-PQ consumer census for remaining **current-looking** stale scalar/list assumptions and endpoint-name drift; leave dated historical/discrepancy snapshots untouched and do not add relationship edges.
+### 2026-09-23 cycle update — Non-PQ presentation/index census synchronization
+- Live census: **854 canonical PQ edges**; domain counts **244 / 146 / 124 / 247 / 86 / 7**; Super Soul reverse target census **143**.
+- Bounded batch: `docs/data/pq-presentation-index-identity-audit.json` and the current section of `docs/data/pq-cross-domain-audit.json`.
+- Found a stale current-looking Super Soul `reverse_records: 148` field in the presentation/index identity audit even though its own live recheck and exact forward-pair contract were already 143/146.
+- Corrected that current presentation field to **143** and refreshed the generated date. Historical 148 evidence remains preserved elsewhere.
+- Found an embedded schema-documentation consumer review in `pq-cross-domain-audit.json` still presenting 125 equipment / 88 DLC and 862-edge totals as if current. Corrected the current-review counts to **124 equipment / 86 DLC** and explicitly labeled the 862/125/88 values historical context.
+- Validation: presentation audit now reports Super Soul reverse records 143, exact forward pairs 146, missing 0, extra 0, duplicates 0; canonical total remains 854. No relationships, identities, or aliases changed.
+- Commits: `c6ebdf327b149d56cf5a2c730f3318302908dec8`, `2569bb4f2c0007d68254eeb6a233ffb44f4ae3ad`.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next batch: continue searching **current-state consumer sections** for stale 862/125/88 or 148/151 scalar/list assumptions, prioritizing files that present themselves as current rather than dated historical/audit snapshots.
