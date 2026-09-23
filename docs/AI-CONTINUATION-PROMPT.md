@@ -5088,3 +5088,17 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Added and registered `docs/data/dlc/daima-hoj2-official-skill-super-soul-count-reconciliation-2026-09-23.json`; updated the DLC content matrix.
 - This closes the skill/Super Soul completeness check for these two paid packs. Official counts were treated as domain-level completeness checks only; no ownership was inferred from PQ requirements and DAIMA free-update content remains separate.
 - Exact next batch: reconcile remaining paid-DLC domains, starting with HOJ2's 5 costumes/accessories and stage/missions, then remaining DAIMA paid inventory, with canonical cross-navigation preserved.
+
+
+### 2026-09-23 cycle update — HERO OF JUSTICE Pack 2 paid content reconciliation
+- Completed a bounded paid-DLC content-domain reconciliation for HERO OF JUSTICE Pack 2.
+- Official publisher/store sources establish 3 characters / 2 Extra Missions / 1 stage / 4 PQs / 7 moves / 5 costumes-accessories / 5 Super Souls / 15 illustrations.
+- Reconciled five paid costume/accessory slots to exact canonical records: acc-069 Dr. Hedo Hood (PQ159), acc-060 Red Ribbon Army Helmet (PQ160), equip-067 Red Ribbon Soldier 94 Clothes (PQ161), equip-068 Dr. Hedo Suit (PQ162), and acc-061 Gohan (Beast) Wig (PQ162).
+- Reconciled the stage identity as Red Ribbon Army (Yard) at pack scope; no synthetic stage record was created because the repository has no dedicated stage record layer.
+- Reconciled the two Extra Missions at pack-count level; no synthetic mission IDs were created because no dedicated extra-mission record layer is present.
+- Preserved the free-update boundary: Cell Max raid costume/accessory rewards are not promoted into the paid five-item Pack 2 inventory.
+- Added/registered docs/data/dlc/hero-of-justice-pack-2-paid-content-reconciliation-2026-09-23.json; updated the DLC pack content matrix and DLC content-link audit.
+- Skill/Super Soul count reconciliation remains 7/7 and 5/5 respectively.
+- Validation by live record inspection: all five exact equipment/accessory IDs resolve in the canonical equipment/accessory layer; all four PQs and five paid equipment/accessory endpoints are source-backed; no canonical relationship rows were invented.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next priority: DAIMA paid non-skill/Super-Soul inventory reconciliation, beginning with the concrete costume/accessory cohort and official pack-level scope; preserve the paid/free-update boundary and do not invent unresolved raid/lobby/stage records.
