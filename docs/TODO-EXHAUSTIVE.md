@@ -4438,3 +4438,12 @@
 - [x] Validation: 455/455 / 0 duplicate IDs / 40 stale / target stale remaining 0.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next batch: Tail Slicer, Taunt, Teleporting Vanishing Ball, Temporal Holy Ray, The Power to Overcome, The Savior Has Come, Thunder Flash, Time Bullet, Time Control, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike; recompute the live stale queue first.
+
+
+### 2026-09-23 — TODO completion update — P1 Tail Slicer through Time Skip/Jump Spike
+- [x] Completed 12 stale records: Tail Slicer, Taunt, Teleporting Vanishing Ball, Temporal Holy Ray, The Power to Overcome, The Savior Has Come, Thunder Flash, Time Bullet, Time Control, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike.
+- [x] Synchronized canonical/index `last_verified` and provenance sources to 2026-09-23; appended bounded evidence notes without removing historical content.
+- [x] Added/registered `docs/data/skill-provenance-audit-2026-09-23-tail-slicer-through-time-skip.json`.
+- [x] Validation: 455/455 / 0 duplicate IDs / 28 stale / target stale remaining 0.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next batch: Time Skip/Tremor Pulse, Timespace Impact, Total Detonation Ball, Trap Shooter, Tri-Beam, Turn Golden, Tyrant Lancer, Ultimate Charge, Ultra Instinct, Ultrasonic Blitz, Unrelenting Barrage, Vanishing Ball; recompute the live stale queue first.
