@@ -6,6 +6,25 @@
   "canonical_character_source": "docs/data/characters-record-layer.json",
   "records": [
     {
+      "canonical_character_name": "Frieza (1st Form)",
+      "skill_ids": [
+        "skill-crazy-finger-shot",
+        "skill-death-slash"
+      ]
+    },
+    {
+      "canonical_character_name": "Frieza (Final Form)",
+      "skill_ids": [
+        "skill-death-slash"
+      ]
+    },
+    {
+      "canonical_character_name": "Frieza (Full Power)",
+      "skill_ids": [
+        "skill-double-death-slicer"
+      ]
+    },
+    {
       "canonical_character_name": "God of Destruction Beerus",
       "skill_ids": [
         "skill-headshot"
@@ -14,13 +33,8 @@
     {
       "canonical_character_name": "God of Destruction Champa",
       "skill_ids": [
-        "skill-god-of-destruction-s-menace"
-      ]
-    },
-    {
-      "canonical_character_name": "Goku (Ultra Instinct)",
-      "skill_ids": [
-        "skill-divine-kamehameha"
+        "skill-god-of-destruction-s-menace",
+        "skill-god-of-destruction-s-roar"
       ]
     },
     {
@@ -30,9 +44,35 @@
       ]
     },
     {
+      "canonical_character_name": "Goku (Ultra Instinct)",
+      "skill_ids": [
+        "skill-divine-kamehameha"
+      ]
+    },
+    {
+      "canonical_character_name": "Golden Frieza",
+      "skill_ids": [
+        "skill-crazy-finger-shot",
+        "skill-emperor-s-edge"
+      ]
+    },
+    {
+      "canonical_character_name": "Golden Frieza (Supervillain)",
+      "skill_ids": [
+        "skill-emperor-s-edge"
+      ]
+    },
+    {
+      "canonical_character_name": "Jiren",
+      "skill_ids": [
+        "skill-full-power-destruction"
+      ]
+    },
+    {
       "canonical_character_name": "Kefla (Super Saiyan)",
       "skill_ids": [
         "skill-blaster-ball",
+        "skill-gigantic-breaker",
         "skill-ray-blast"
       ]
     },
@@ -50,9 +90,9 @@
     }
   ],
   "counts": {
-    "resolved_skill_records": 7,
-    "resolved_canonical_skill_edges": 8,
-    "canonical_character_targets": 6
+    "resolved_skill_records": 14,
+    "resolved_canonical_skill_edges": 18,
+    "canonical_character_targets": 13
   },
   "evidence_boundary": "This reverse projection contains only resolved identity edges. It does not infer every character that can equip a skill, every customize-partner route, or generic Future Warrior/CaC availability."
 }
