@@ -156,7 +156,7 @@
       "file": "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json",
       "scope": "PQ 1-186",
       "semantics": "partial source-normalized reverse index; absence is not a negative claim",
-      "status": "partial source-normalized reverse index; canonical current relationship layer is authoritative at 854 edges"
+      "status": "partial source-normalized reverse index; canonical current relationship layer is authoritative at 853 edges"
     },
     "accessory_bridge": {
       "file": "docs/data/accessory-pq-canonical-bridge.json",
