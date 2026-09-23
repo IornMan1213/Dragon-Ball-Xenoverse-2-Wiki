@@ -4460,3 +4460,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - Commits: `57bd6587cba9e578be16ce36fb6e983c3dc0b6b1`, `5355b18b589161e35e29edc1aa904aeef0be5eff`, `bae2496a52f503c90f635076c3c74c7f5cfabea2`, `b903a68215da89cb78731405ea4c263699c1f52c`, `8a381bb8f2576d1914e3a0d9cd1dde315586ca6c`.
 - Exact next batch: recompute the live strict-thin queue and continue the next evidence-supported one-field cluster; current top candidates begin with **201, 154, 156, 160, 161, 162, 165, 166, 172**, while preserving genuine evidence boundaries.
+
+
+### 2026-09-22 cycle continuation — Super Soul 154/160/162/165 stacking reconciliation
+- Live census before editing: **234 canonical / 0 duplicate IDs / 119 strict-thin records**.
+- Bounded batch: **154, 160, 162, 165**.
+- Research/evidence: maintained exact-name Super Soul catalogue, independent historical Super Soul guide, and player-facing stat-sheet evidence.
+- Changes: `stacking_behavior` set to **Not reported as stackable** for all four; evidence establishes their triggers/effects/durations but does not document stacking or a numeric cap.
+- Added/registered audit: `docs/data/super-soul-154-160-162-165-stacking-reconciliation-2026-09-22.json`.
+- Validation: **234 canonical / 0 duplicate IDs / 115 strict-thin records**; JSON parse succeeded; audit registration confirmed; no unrelated fields changed.
+- CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- Commits: `c26fe9a931a9e560db5661882f0fe9da3fdd5438`, `2f43493b85398c865841a2dca1fcee1cd373b171`, `86114d202a0acbd6daa098b8128d6cd473d393b7`, `76c7cb7275f5dbc2f922a28f347aff83e8eed608`, `35f8d11f8cf1b51a825e22fd30a3d3949db4b7e8`.
+- Exact next batch: recompute the live strict-thin queue and continue the next evidence-supported duration cluster, beginning with **156, 161, 166, 172**; preserve genuine evidence boundaries rather than forcing nulls into guessed timers.
