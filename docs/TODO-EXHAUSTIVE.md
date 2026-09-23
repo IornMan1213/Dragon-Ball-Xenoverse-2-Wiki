@@ -3518,3 +3518,12 @@
 - [x] Validation by live re-fetch: matrix JSON structure is valid; DAIMA resolves to PQ179–181 and HERO OF JUSTICE Pack 2 resolves to PQ159–162; canonical DLC identity layer remains 20 records / 86 PQ→DLC edges; no canonical relationship row changed.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: use the new matrix to reconcile the strongest concrete non-PQ DAIMA/HOJ2 downstream record cohort, starting with existing equipment/accessory records and then skills/Super Souls; do not fill unresolved raid/lobby/stage inventories without record-level evidence.
+
+
+### 2026-09-23 — TODO completion update — DAIMA downstream accessory normalization readiness
+- [x] Reconciled the DAIMA Pack's concrete equipment/accessory downstream layer: equip-098–equip-105 already provide exact source-backed costume/accessory identities for PQ179–181.
+- [x] Identified four exact-name accessory namespace promotions: equip-099 → candidate acc-071, equip-101 → acc-072, equip-104 → acc-073, equip-105 → acc-074.
+- [x] Added docs/data/dlc/daima-accessory-normalization-audit-2026-09-23.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Extended the DAIMA pack matrix with concrete combined-layer record IDs and accessory promotion candidates.
+- [x] Preserved the no-duplicate/no-inference rule: this is namespace normalization of already existing exact identities, not creation of new content.
+- [ ] Exact next batch: perform the four accessory promotions atomically across equipment-accessories-record-layer.json, accessory-pq-canonical-bridge.json, pq-accessory-crosslink-report.json, reverse indexes, aliases, and presentation consumers; then validate all endpoint navigation before moving to the next pack/domain.
