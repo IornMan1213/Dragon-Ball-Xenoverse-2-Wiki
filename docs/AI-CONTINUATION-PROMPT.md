@@ -5143,3 +5143,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Source-backed maintained documentation identifies **Extra Mission 14 — The Activation of Cell Max**. It is recorded as evidence only because no dedicated Extra Mission record layer exists; no synthetic mission ID was created.
 - Added `docs/data/dlc/hero-of-justice-pack-2-stage-mission-evidence-2026-09-23.json` and linked it from the DLC pack matrix.
 - Exact next priority: continue the remaining concrete paid-DLC inventory gap, with illustration/loading-screen identities as the next evidence-led domain where individual records can be source-backed. Preserve the paid/free boundary and avoid synthetic record creation until canonical layers exist. CI/runtime remains unavailable.
+
+
+
+### 2026-09-23 cycle update — DAIMA / HERO OF JUSTICE Pack 2 playable-character count reconciliation
+- Reconciled official paid-DLC playable-character counts against the live canonical character layer: **DAIMA 2/2** and **HERO OF JUSTICE Pack 2 3/3**.
+- Exact canonical identities confirmed: DAIMA — SS4 Goku (DAIMA), SS3 Vegeta (DAIMA); HOJ2 — Gohan (Beast), Orange Piccolo, Piccolo (Power Awakening).
+- Added `docs/data/dlc/daima-hoj2-playable-character-count-reconciliation-2026-09-23.json` and registered the reconciliation in `docs/data/dlc/dlc-pack-content-matrix-2026-09-23.json`.
+- Evidence: official Bandai Namco DAIMA announcement and current DLC overview; existing canonical character layer.
+- Evidence limits preserved: this is a count/identity reconciliation only; no additional DLC ownership, variant identity, or PQ reward relationship was inferred.
+- Validation: canonical character layer contains all five expected identities; audit records `2/2` and `3/3` with zero missing names; matrix updated consistently.
+- CI/runtime: unavailable; no CI success claimed.
+- Exact next batch: choose the next concrete paid-DLC completeness gap with an existing canonical record layer and cross-domain navigation value; do not create illustration/loading-screen identities until individual identities are source-backed.
