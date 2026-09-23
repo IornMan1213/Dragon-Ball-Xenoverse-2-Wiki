@@ -2241,3 +2241,14 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Corrected seven malformed equipment pq_sources identifiers for PQ159–162 and PQ179–181.
 - Recorded the repair in the DLC content-link audit; no new relationship edges were created.
 - Non-PQ DAIMA/HERO OF JUSTICE Pack 2 inventory remains explicitly unresolved.
+
+
+### 2026-09-23 — Non-PQ cross-domain audit current-projection correction
+- Audited the remaining current-looking sections of `docs/data/pq-cross-domain-audit.json` against the live canonical relationship layer.
+- Corrected stale current projection fields: Super Soul **151/148 → 146/143**, current projection total **859 → 854**, and the current integrity-review Super Soul count **151 → 146**.
+- Corrected the current reconciliation artifact wording from an obsolete 860-edge canonical baseline to the live **854-edge** baseline.
+- Preserved dated historical 862/860/840 snapshots and all prior discrepancy evidence; no canonical relationship, identity, or alias was changed.
+- Added and registered `docs/data/pq-non-pq-cross-domain-audit-current-projection-correction-2026-09-23.json`.
+- Validation: JSON parse succeeded; live contract is **854 / 244 / 146 / 124 / 247 / 86 / 7**, with Super Soul **146 forward / 143 reverse**; 0 relationships added/removed.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next batch: continue the registered non-PQ consumer census for remaining current-looking scalar/list assumptions and endpoint/status drift, then return to the P1 exhaustive data/provenance queue.
