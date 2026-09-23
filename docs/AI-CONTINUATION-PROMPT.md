@@ -5508,3 +5508,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: **455/455**, 0 duplicate IDs, five target canonical/index pairs synchronized; live stale queue **447**.
 - CI/runtime: unavailable; no CI success claimed.
 - Exact next batch: **Angry Explosion, Angry Hit, Angry Shout, Apocalyptic Burst, Arm Crash**. Recompute the live census first; research only fields in scope and preserve existing uncertainty.
+
+
+### 2026-09-23 cycle update — P1 skill provenance beta batch
+- Completed **Angry Explosion, Angry Hit, Angry Shout, Apocalyptic Burst, Arm Crash**.
+- Canonical/index last_verified synchronized to **2026-09-23**.
+- Preserved the existing Apocalyptic Burst reward-tier conflict; no unsupported acquisition certainty was introduced.
+- Added beta provenance audit and beta stale-census artifacts and registered the audit in the cross-domain index.
+- Live canonical skill layer remains **455/455 with 0 duplicate IDs**; beta targets are synchronized. CI/runtime unavailable; no CI success claimed.
+- Exact next batch: **Android Kick, Android Rush, Android Shoot, Android S.S. Deadly Bomber, Android Tri-Beam**. Recompute the live census first.
