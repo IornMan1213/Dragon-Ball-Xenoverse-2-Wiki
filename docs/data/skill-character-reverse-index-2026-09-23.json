@@ -19,6 +19,13 @@
       ]
     },
     {
+      "canonical_character_name": "Android 21",
+      "skill_ids": [
+        "skill-photon-swipe",
+        "skill-total-detonation-ball"
+      ]
+    },
+    {
       "canonical_character_name": "Broly (DB Super)",
       "skill_ids": [
         "skill-gigantic-explosion"
@@ -78,13 +85,15 @@
     {
       "canonical_character_name": "Gohan (Kid)",
       "skill_ids": [
-        "skill-meteor-blow"
+        "skill-meteor-blow",
+        "skill-meteor-strike"
       ]
     },
     {
       "canonical_character_name": "Goku",
       "skill_ids": [
-        "skill-meteor-blow"
+        "skill-meteor-blow",
+        "skill-meteor-strike"
       ]
     },
     {
@@ -151,6 +160,12 @@
       ]
     },
     {
+      "canonical_character_name": "Majin (Male)",
+      "skill_ids": [
+        "skill-zigzag-express"
+      ]
+    },
+    {
       "canonical_character_name": "Rosé Goku Black",
       "skill_ids": [
         "skill-super-black-kamehameha-rose"
@@ -160,6 +175,12 @@
       "canonical_character_name": "SSGSS Gogeta",
       "skill_ids": [
         "skill-god-punisher"
+      ]
+    },
+    {
+      "canonical_character_name": "SSGSS Vegeta",
+      "skill_ids": [
+        "skill-x-100-big-bang-kamehameha"
       ]
     },
     {
@@ -176,9 +197,9 @@
     }
   ],
   "counts": {
-    "resolved_skill_records": 24,
-    "resolved_canonical_skill_edges": 34,
-    "canonical_character_targets": 27
+    "resolved_skill_records": 29,
+    "resolved_canonical_skill_edges": 40,
+    "canonical_character_targets": 30
   },
   "evidence_boundary": "This reverse projection contains only resolved identity edges. It does not infer every character that can equip a skill, every customize-partner route, or generic Future Warrior/CaC availability."
 }
