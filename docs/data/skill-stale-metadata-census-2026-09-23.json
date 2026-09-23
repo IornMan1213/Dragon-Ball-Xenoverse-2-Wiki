@@ -5,71 +5,48 @@
   "source_of_truth": "docs/data/skills.json",
   "live_counts": {
     "canonical_skill_records": 455,
-    "current_last_verified_records": 355,
-    "stale_last_verified_records": 100,
+    "index_skill_records": 455,
+    "current_last_verified_records": 367,
+    "stale_last_verified_records": 88,
     "duplicate_ids": 0
   },
-  "method": "Fresh alphabetical census after the Rolling Bullet through Seagull Combination batch.",
+  "method": "Fresh alphabetical census after the Secret Poison through Soaring Rush batch.",
   "next_stale_records": [
     {
-      "id": "skill-secret-poison",
-      "name": "Secret Poison",
-      "last_verified": "2026-09-22"
+      "name": "Solar Flare"
     },
     {
-      "id": "skill-shadow-crusher",
-      "name": "Shadow Crusher",
-      "last_verified": "2026-09-22"
+      "name": "Sonic Bomb"
     },
     {
-      "id": "skill-shield-barrier",
-      "name": "Shield Barrier",
-      "last_verified": "2026-09-22"
+      "name": "Sonic Rush"
     },
     {
-      "id": "skill-shine-shot",
-      "name": "Shine Shot",
-      "last_verified": "2026-09-22"
+      "name": "Special Beam Cannon"
     },
     {
-      "id": "skill-shining-friday",
-      "name": "Shining Friday",
-      "last_verified": "2026-09-22"
+      "name": "Special Beam Cannon (Beast)"
     },
     {
-      "id": "skill-shining-slash",
-      "name": "Shining Slash",
-      "last_verified": "2026-09-22"
+      "name": "Sphere of Destruction"
     },
     {
-      "id": "skill-shooting-strike",
-      "name": "Shooting Strike",
-      "last_verified": "2026-09-22"
+      "name": "Spirit Ball"
     },
     {
-      "id": "skill-side-bridge",
-      "name": "Side Bridge",
-      "last_verified": "2026-09-22"
+      "name": "Spirit Blaster"
     },
     {
-      "id": "skill-sign-of-awakening",
-      "name": "Sign of Awakening",
-      "last_verified": "2026-09-22"
+      "name": "Spirit Bomb"
     },
     {
-      "id": "skill-sneaky-strike",
-      "name": "Sneaky Strike",
-      "last_verified": "2026-09-22"
+      "name": "Spirit Boost"
     },
     {
-      "id": "skill-soaring-fist",
-      "name": "Soaring Fist",
-      "last_verified": "2026-09-22"
+      "name": "Spirit Explosion"
     },
     {
-      "id": "skill-soaring-rush",
-      "name": "Soaring Rush",
-      "last_verified": "2026-09-22"
+      "name": "Spirit Pulse"
     }
   ],
   "validation": {
