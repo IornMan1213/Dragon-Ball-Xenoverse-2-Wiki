@@ -6,10 +6,10 @@
   "method": "Exact canonical-name resolution against each registered identity layer, with non-exact source/display terminology classified only through the explicit endpoint alias/granularity bridge.",
   "canonical_baseline": {
     "pq_records": 186,
-    "relationship_edges": 854,
+    "relationship_edges": 853,
     "counts": {
       "skills": 244,
-      "super_souls": 146,
+      "super_souls": 145,
       "equipment": 124,
       "characters": 247,
       "dlc": 86,
@@ -26,8 +26,8 @@
       "status": "clean"
     },
     "super_souls": {
-      "unique_targets": 143,
-      "exact_matches": 143,
+      "unique_targets": 142,
+      "exact_matches": 142,
       "unresolved": 0,
       "explicit_conflicts": 0,
       "explicit_granularity": 0,
