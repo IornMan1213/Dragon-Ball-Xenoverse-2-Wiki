@@ -6,11 +6,11 @@
   "bridge": "docs/data/skill-character-identity-bridge-2026-09-23.json",
   "reverse_index": "docs/data/skill-character-reverse-index-2026-09-23.json",
   "results": {
-    "source_tokens_before": 39,
-    "resolved_skill_records_added": 29,
-    "resolved_canonical_skill_edges_added": 41,
-    "remaining_unresolved_character_or_variant_tokens": 17,
-    "canonical_character_targets": 30,
+    "source_tokens_before": 10,
+    "resolved_skill_records_added": 32,
+    "resolved_canonical_skill_edges_added": 43,
+    "remaining_unresolved_character_or_variant_tokens": 7,
+    "canonical_character_targets": 32,
     "duplicate_skill_character_edges": 0,
     "broken_character_endpoints": 0
   },
@@ -43,19 +43,47 @@
     "skill-photon-swipe",
     "skill-total-detonation-ball",
     "skill-x-100-big-bang-kamehameha",
-    "skill-zigzag-express"
+    "skill-zigzag-express",
+    "skill-sauzer-blade",
+    "skill-spirit-explosion",
+    "skill-spread-shot-retreat"
   ],
   "held_unresolved": [
     {
+      "skill_id": "skill-destruction-s-conductor",
+      "reason": "Source token remains unresolved pending deterministic identity evidence."
+    },
+    {
+      "skill_id": "skill-dragon-spiral",
+      "reason": "Source token Goku (Ultra Supervillain Quelled) has no matching canonical character identity in the current character_names layer; do not invent a bridge target."
+    },
+    {
+      "skill_id": "skill-flash-chaser",
+      "reason": "Source token Kefla is a variant shorthand; current canonical evidence has not yet been promoted for this token in the bridge."
+    },
+    {
+      "skill_id": "skill-indomitable",
+      "reason": "Source token Goku (Ultra Supervillain Quelled) has no matching canonical character identity in the current character_names layer; do not invent a bridge target."
+    },
+    {
       "skill_id": "skill-sonic-bomb",
-      "reason": "source token Champa conflicts with current user documentation identifying Frieza; no identity edge promoted"
+      "reason": "Source token Champa conflicts with current user documentation identifying Frieza; no identity edge promoted."
+    },
+    {
+      "skill_id": "skill-venus-fist",
+      "reason": "Source token Goku (Ultra Supervillain Quelled) has no matching canonical character identity in the current character_names layer; do not invent a bridge target."
+    },
+    {
+      "skill_id": "skill-wild-buster",
+      "reason": "Source token Vegeta (GT) is deterministically documented, but the current canonical character layer does not yet contain Vegeta (GT); preserve as a character-layer promotion gap."
     }
   ],
   "validation": [
     "All promoted canonical character names exist in characters-record-layer.json.",
     "All promoted skill IDs exist in skills.json.",
     "Reverse index contains no duplicate skill IDs per character.",
-    "No source wording was rewritten in canonical skills.json."
+    "No source wording was rewritten in canonical skills.json.",
+    "Current gap inventory and reverse projection agree on 32 resolved skill records / 43 edges / 32 character targets."
   ],
   "evidence": [
     "docs/data/skills.json",
@@ -68,5 +96,5 @@
     "https://dbxv2.fandom.com/wiki/Super_Black_Kamehameha_Ros%C3%A9",
     "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Menace"
   ],
-  "next_action": "Reconcile the remaining unresolved aggregate-user and variant cluster, prioritizing exact canonical roster matches while preserving contradictory source fields."
+  "next_action": "Reconcile the remaining 7 unresolved identity entries, prioritizing exact canonical-name matches first; separately assess whether the character layer should promote Goku (Ultra Supervillain Quelled) and Vegeta (GT), without fabricating skill→character edges."
 }
