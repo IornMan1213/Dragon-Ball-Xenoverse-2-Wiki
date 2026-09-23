@@ -68,6 +68,23 @@
     "target_count": 12,
     "canonical_record_count": 455,
     "index_record_count": 455,
-    "duplicates": 0
+    "duplicates": 0,
+    "stale_after": 256,
+    "target_parity_mismatches": 0,
+    "ci": "unavailable; no CI success claimed",
+    "next_batch": [
+      "Genocide Shell",
+      "Giant Storm",
+      "Gigantic Breaker",
+      "Gigantic Burst",
+      "Gigantic Charge",
+      "Gigantic Cluster",
+      "Gigantic Cross",
+      "Gigantic Explosion",
+      "Gigantic Meteor",
+      "Gigantic Nova",
+      "Gigantic Omega",
+      "Gigantic Rage"
+    ]
   }
 }
