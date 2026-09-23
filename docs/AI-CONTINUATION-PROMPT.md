@@ -4367,3 +4367,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Added and registered `docs/data/super-soul-095-144-150-reconciliation-2026-09-22.json`.
 - No unsupported acquisition probability, reward semantics, or mechanics were inferred.
 - Exact next task: recompute the live strict-thin census and continue the next evidence-supported cluster; preserve **032/034** as evidence boundaries.
+
+
+### 2026-09-22 — Super Souls 104 / 151–153 reconciliation
+- Corrected **104 — Looks like I mixed up the capsules...**: exact-name evidence identifies its Limit Burst as **Revive Gauge Auto-Recovery!**, replacing the incorrect prior Auto Just Guard value.
+- Reconciled **151–153**: 151 now records the documented **7-second** immunity window and Revive Gauge Auto-Recovery; 152 now records **Rush / ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.**; 153 now records the documented **10-second** Health Auto-Recovery window and **Power / Auto Just Guard**.
+- Preserved 152's stack-limited semantics without inventing a timer.
+- Added and registered `docs/data/super-soul-104-151-153-reconciliation-2026-09-22.json`.
+- **217 remains unresolved** because exact-name Limit Burst evidence was not independently established in this pass.
+- Exact next task: continue the next evidence-supported unresolved cluster; preserve **032/034** as evidence boundaries.
