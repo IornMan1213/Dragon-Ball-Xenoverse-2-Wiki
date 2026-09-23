@@ -92,7 +92,7 @@ def main():
         "dlc_reverse_pairs_unique":len(reverse_pair_list)==len(reverse_pairs),
         "dlc_reverse_dlc_ids_unique":not duplicate_reverse_dlc_ids,
         "dlc_reverse_audit_reports_zero_forward_reverse_mismatch":reverse_audit.get("results",{}).get("forward_to_reverse_mismatches")==0,
-        "all_canonical_dlc_targets_have_reverse_pq_navigation":set(canonical)<=set(reverse.get("reverse_index",{})),
+        "all_canonical_dlc_targets_have_reverse_pq_navigation":set(canonical)<=set(reverse_dlc_ids),
     }
     failed=[k for k,v in checks.items() if not v]
     report={
@@ -106,7 +106,9 @@ def main():
             "content_projection_dlc_references":len(content_ids),
             "future_saga_chapters":len(future),
             "future_saga_dlc_references":len(future_ids),
+            "canonical_dlc_targets_without_reverse_navigation":sorted(set(canonical)-set(reverse_dlc_ids)),
             "canonical_pq_dlc_edges":len(forward_pairs),
+            "canonical_dlc_targets_with_reverse_navigation":len(set(reverse_dlc_ids)&set(canonical)),
             "unresolved_pq_dlc_targets":unresolved_pq_dlc_targets,
             "duplicate_forward_pairs":duplicate_forward_pairs,
             "dlc_reverse_pairs":len(reverse_pairs),
