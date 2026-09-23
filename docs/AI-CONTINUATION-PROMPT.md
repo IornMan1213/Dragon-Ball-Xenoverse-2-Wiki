@@ -4654,3 +4654,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Commits: canonical `56757428417d3cb04f227b13e396b74a9230633d`; audit `90c3fdda3f1938b763a3c7a9e7770fc42426e837`; census `3b046d7d117b2dd26ad5beccc9b7088d21edb72e`.
 - [ ] Exact next batch: recompute the queue and prioritize the remaining **duration-only** records **129, 131, 147, 149, 159, 212, 216, 217, 218, 219, 229, 237, 239–241, 246** where evidence can distinguish permanent/instantaneous/finite behavior. Keep **032/034** and indexed-only **158/232–236** as explicit evidence boundaries.
+
+
+### 2026-09-23 cycle update — Super Soul second semantic-duration pass
+- [x] Recomputed live state: **234 canonical / 0 duplicate IDs / 34 strict-thin** before this pass.
+- [x] Bounded batch: **129, 131, 147, 149, 159, 212, 216, 217, 218, 219, 240, 241**.
+- [x] Populated duration semantics only where the record's trigger/effect structure supports it: instantaneous reward/resource events, permanent effects, condition-bound effects, or stack-lifetime statements. No unsupported finite timer was invented.
+- [x] Preserved the important distinction that **159's 30-second value is an activation delay, not the buff duration**.
+- [x] Refreshed census: **34 → 29 strict-thin**; canonical remains **234 / 0 duplicates**.
+- [x] Validation: canonical JSON reread/parsed and live strict-thin count independently recomputed.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Commits: canonical `b87f227ac130c25bbbcb75683e6318efd1364cae`; census `71eb757df10c3c744d69effb27a2a240f2e94551`.
+- [ ] Exact next batch: remaining duration-only queue, beginning **242, 244, 246** plus any newly recomputed duration-only records; keep 032/034 and indexed-only 158/232–236 as evidence boundaries.
