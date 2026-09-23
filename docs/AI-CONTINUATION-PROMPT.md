@@ -4588,3 +4588,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - Commits: `d6705ccee706f74045754c1b6b5b374216cac337`, `370bed450667ddd4c9cde4695e3c4cd17892603a`.
 - Exact next task: recompute the strict-thin queue and continue the next evidence-supported cluster, prioritizing early/base-game/high-impact records and preserving **032/034** evidence boundaries.
+
+### 2026-09-23 cycle update — Super Soul 121–128 duration/stacking reconciliation
+- Live multi-missing queue before editing: **64** records; after the previous 100–107 pass, the next evidence-rich cluster was **121–128**.
+- Reconciled duration semantics for **121–128** from the maintained exact-name research corpus.
+- Added explicit ~20-second opening duration for 121; condition-bound semantics for 122 and 126; temporary-but-unresolved exact duration for 123 and 127; permanent while equipped for 124 and 128; ~5-second duration for 125.
+- Set stacking to **Not reported as stackable** for all eight because no documented numeric stacking mechanic was established in the evidence used.
+- Evidence limits preserved: no unsupported timer or stack cap was invented.
+- Strict-thin count reduced **56 → 48**.
+- Validation: canonical JSON reread/parsed; 234 records / 0 duplicate IDs.
+- CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- Commits: `314b4679b622f1fa66968c5522589fa493b278ca`, `5ba1cdaf7d392d01fe9a8fbab9302ed0831845ae`.
+- Exact next task: recompute the live strict-thin queue and continue the next evidence-supported early/base-game/high-impact cluster, preserving **032/034** as evidence boundaries.
