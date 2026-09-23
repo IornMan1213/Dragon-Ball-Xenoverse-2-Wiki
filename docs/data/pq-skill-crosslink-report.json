@@ -1,9 +1,9 @@
 {
   "schema_version": "2.0",
   "generated_by": "scripts/validate_pq_skill_links.py",
-  "generated_at": "2026-09-22",
+  "generated_at": "2026-09-23",
   "canonical_pq_records": 186,
-  "canonical_skill_records": 452,
+  "canonical_skill_records": 465,
   "forward_edge_count": 244,
   "reverse_skill_endpoint_count": 239,
   "unresolved_forward_edges": [],
@@ -6523,5 +6523,6 @@
       "reverse_contains_declared_pq": true,
       "status": "resolved"
     }
-  ]
+  ],
+  "live_sync_note": "2026-09-23 live synchronization: canonical skill layer now contains 465 records. PQ↔skill forward relationship counts remain 244 edges / 239 unique skill endpoints; unresolved forward edges and orphan reverse sources remain zero. Kamehameha has a legitimate additional PQ48 forward relationship while its primary declared source_parallel_quests field remains PQ5, so this is not treated as an identity mismatch."
 }
