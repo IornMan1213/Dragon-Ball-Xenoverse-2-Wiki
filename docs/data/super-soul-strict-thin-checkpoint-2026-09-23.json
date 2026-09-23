@@ -23,9 +23,9 @@
     },
     {
       "id": "super-soul-034",
-      "finding": "The maintained 186-PQ guide confirms the exact-name PQ186 Basic Reward entry. Current repository Chapter 4 evidence confirms four new Super Souls and keeps the item-level mapping unresolved. A fresh exact-name web pass did not produce an authoritative item-level effect/Limit Burst mapping.",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-      "result": "Identity/acquisition provenance retained; mechanics remain unresolved."
+      "finding": "Repository Future Saga Chapter 4 artifacts consistently identify the exact-name PQ186 reward inventory entry. The item-evidence reconciliation, effect-evidence file, and provenance audit all explicitly leave item identifier, effect, trigger, and Limit Burst unresolved. Fu appears in the surrounding PQ186 costume inventory, but no item-level evidence maps Fu to this Super Soul, so character source remains unresolved.",
+      "source": "docs/data/future-saga-chapter-4-item-evidence-reconciliation.json; docs/data/future-saga-chapter-4-super-soul-effect-evidence.json; docs/data/super-soul-034-and-036-through-039-provenance-audit-2026-09-22.json",
+      "result": "No canonical mechanics or character source promoted; 034 remains an explicit evidence boundary."
     },
     {
       "id": "super-soul-158",
@@ -50,6 +50,7 @@
   "next_method": "Continue authoritative/item-level mechanics and Limit Burst research for super-soul-034, then super-soul-217; do not infer mechanics from generic or same-name data.",
   "last_updated": "2026-09-23",
   "notes": [
-    "2026-09-23: A prior intermediate note attributed 034 to Fu, but the subsequent exact-name pass did not independently substantiate that attribution; the canonical record therefore remains character_source unresolved. The earlier attribution is superseded, not used as mechanics evidence."
+    "2026-09-23: A prior intermediate note attributed 034 to Fu, but the subsequent exact-name pass did not independently substantiate that attribution; the canonical record therefore remains character_source unresolved. The earlier attribution is superseded, not used as mechanics evidence.",
+    "2026-09-23 final 034 repository-evidence pass: surrounding Fu inventory is not item-level attribution. Existing Future Saga Chapter 4 evidence artifacts independently preserve 034 as unresolved for effect, trigger, item identifier, and Limit Burst."
   ]
 }
