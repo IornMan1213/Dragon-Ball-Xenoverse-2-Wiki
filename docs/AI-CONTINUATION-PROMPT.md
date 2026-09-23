@@ -3912,3 +3912,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Evidence limits preserved: no reward probabilities or unsupported Ultimate-Finish conditions; no duration/stacking values were invented; record 158 remains explicitly unresolved rather than conflating skill and Super Soul mechanics.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Exact next batch: recompute the full live Super Soul thin-system census, then select the next 4–12 highest-impact canonical gaps with strong exact-name evidence and/or reusable PQ cross-links.
+
+
+### 2026-09-22 cycle update — Super Soul 164–172 provenance/mechanics refresh
+- [x] Live census before editing: 234 canonical records; 79 indexed; 221 missing at least one of the eight core mechanics fields under the strict completeness check.
+- [x] Bounded batch: **super-soul-164 through super-soul-172**.
+- [x] Refreshed 9 canonical records with character source, trigger/effect/magnitude, supported duration/stacking, Limit Burst, verification date, and provenance.
+- [x] Preserved canonical PQ edges: 164→94, 165→97, 166→97, 167→102, 168→102, 169→103, 170→103, 171→103, 172→104.
+- [x] Added `docs/data/super-soul-164-through-172-provenance-audit-2026-09-22.json` and registered it in the cross-domain index.
+- [x] No reward probabilities or unsupported Ultimate-Finish mappings were added; no canonical relationship identities changed.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Exact next batch: recompute the live thin census and select the next 4–12 indexed records with exact-name evidence, continuing beyond 172 rather than assuming sequential completion is always optimal.
