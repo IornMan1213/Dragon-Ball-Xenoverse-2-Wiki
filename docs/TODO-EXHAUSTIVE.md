@@ -4465,3 +4465,12 @@
 - [x] Validation: 455/455 / 0 duplicate IDs / 4 stale / target stale remaining 0.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next batch: Wolf Fang Fist, X 100 Big Bang Kamehameha, x10 Kamehameha, Zigzag Express; recompute the live stale queue first.
+
+
+### 2026-09-23 — TODO completion update — Wolf Fang Fist through Zigzag Express
+- [x] Completed the final 4 stale skill records: Wolf Fang Fist, X 100 Big Bang Kamehameha, x10 Kamehameha, Zigzag Express.
+- [x] Synchronized canonical/index provenance metadata to 2026-09-23 and preserved existing evidence bounds.
+- [x] Added/registered docs/data/skill-provenance-audit-2026-09-23-wolf-fang-fist-through-zigzag-express.json.
+- [x] Validation: 455/455 / 0 duplicate IDs / 0 stale; stale skill queue cleared.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Next: recompute broader TODO/handoff priorities and select the highest-impact unfinished cross-domain task.
