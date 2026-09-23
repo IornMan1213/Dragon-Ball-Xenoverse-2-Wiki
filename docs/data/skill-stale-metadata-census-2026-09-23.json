@@ -5,131 +5,111 @@
   "source_of_truth": "docs/data/skills.json",
   "live_counts": {
     "canonical_skill_records": 455,
-    "current_last_verified_records": 307,
-    "stale_last_verified_records": 148,
+    "current_last_verified_records": 331,
+    "stale_last_verified_records": 124,
     "duplicate_ids": 0
   },
-  "method": "Fresh alphabetical census after the Power Pole Pro through Psychic Move batch.",
+  "method": "Fresh alphabetical census after the Psycho Barrier through Recoome Kick batch.",
   "next_stale_records": [
     {
-      "id": "skill-power-pole-pro",
-      "name": "Power Pole Pro",
-      "last_verified": "2026-09-22",
-      "source_count": 4
+      "id": "skill-remote-serious-bomb",
+      "name": "Remote Serious Bomb",
+      "last_verified": "2026-09-22"
     },
     {
-      "id": "skill-power-rush",
-      "name": "Power Rush",
-      "last_verified": "2026-09-22",
-      "source_count": 5
+      "id": "skill-requiem-of-destruction",
+      "name": "Requiem of Destruction",
+      "last_verified": "2026-09-22"
     },
     {
-      "id": "skill-power-wall",
-      "name": "Power Wall",
-      "last_verified": "2026-09-22",
-      "source_count": 3
+      "id": "skill-revenge-death-ball",
+      "name": "Revenge Death Ball",
+      "last_verified": "2026-09-22"
     },
     {
-      "id": "skill-powered-shell",
-      "name": "Powered Shell",
-      "last_verified": "2026-09-22",
-      "source_count": 4
+      "id": "skill-revenge-final-flash",
+      "name": "Revenge Final Flash",
+      "last_verified": "2026-09-22"
     },
     {
-      "id": "skill-prelude-to-destruction",
-      "name": "Prelude to Destruction",
-      "last_verified": "2026-09-22",
-      "source_count": 3
+      "id": "skill-reverse-launcher",
+      "name": "Reverse Launcher",
+      "last_verified": "2026-09-22"
     },
     {
-      "id": "skill-prepare-to-be-punished",
-      "name": "Prepare to be Punished",
-      "last_verified": "2026-09-22",
-      "source_count": 3
+      "id": "skill-reverse-mabakusenko",
+      "name": "Reverse Mabakusenko",
+      "last_verified": "2026-09-22"
     },
     {
-      "id": "skill-present-for-you",
-      "name": "Present For You",
-      "last_verified": "2026-09-22",
-      "source_count": 3
+      "id": "skill-reverse-shot",
+      "name": "Reverse Shot",
+      "last_verified": "2026-09-22"
     },
     {
-      "id": "skill-pressure-sign",
-      "name": "Pressure Sign",
-      "last_verified": "2026-09-22",
-      "source_count": 3
+      "id": "skill-ribrianne-s-eternal-love",
+      "name": "Ribrianne's Eternal Love",
+      "last_verified": "2026-09-22"
     },
     {
-      "id": "skill-pretty-cannon",
-      "name": "Pretty Cannon",
-      "last_verified": "2026-09-22",
-      "source_count": 4
+      "id": "skill-riot-javelin",
+      "name": "Riot Javelin",
+      "last_verified": "2026-09-22"
     },
     {
-      "id": "skill-pretty-charge",
-      "name": "Pretty Charge",
-      "last_verified": "2026-09-22",
-      "source_count": 3
+      "id": "skill-rise-to-action",
+      "name": "Rise to Action",
+      "last_verified": "2026-09-22"
     },
     {
-      "id": "skill-prominence-flash",
-      "name": "Prominence Flash",
-      "last_verified": "2026-09-22",
-      "source_count": 3
+      "id": "skill-rising-rage",
+      "name": "Rising Rage",
+      "last_verified": "2026-09-22"
     },
     {
-      "id": "skill-psychic-move",
-      "name": "Psychic Move",
-      "last_verified": "2026-09-22",
-      "source_count": 3
+      "id": "skill-rocket-tackle",
+      "name": "Rocket Tackle",
+      "last_verified": "2026-09-22"
     },
     {
-      "id": "skill-psycho-barrier",
-      "name": "Psycho Barrier",
-      "last_verified": "2026-09-22",
-      "source_count": 3
+      "id": "skill-rolling-bullet",
+      "name": "Rolling Bullet",
+      "last_verified": "2026-09-22"
     },
     {
-      "id": "skill-psycho-escape",
-      "name": "Psycho Escape",
-      "last_verified": "2026-09-22",
-      "source_count": 3
+      "id": "skill-rolling-hercule-punch",
+      "name": "Rolling Hercule Punch",
+      "last_verified": "2026-09-22"
     },
     {
-      "id": "skill-punisher-guard",
-      "name": "Punisher Guard",
-      "last_verified": "2026-09-22",
-      "source_count": 3
+      "id": "skill-rough-ranger",
+      "name": "Rough Ranger",
+      "last_verified": "2026-09-22"
     },
     {
-      "id": "skill-punisher-shield",
-      "name": "Punisher Shield",
-      "last_verified": "2026-09-22",
-      "source_count": 3
+      "id": "skill-s-s-deadly-bomber",
+      "name": "S.S. Deadly Bomber",
+      "last_verified": "2026-09-22"
     },
     {
-      "id": "skill-pure-progress",
-      "name": "Pure Progress",
-      "last_verified": "2026-09-22",
-      "source_count": 4
+      "id": "skill-saiyan-blaster",
+      "name": "Saiyan Blaster",
+      "last_verified": "2026-09-22"
     },
     {
-      "id": "skill-purification",
-      "name": "Purification",
-      "last_verified": "2026-09-22",
-      "source_count": 4
+      "id": "skill-saiyan-spirit",
+      "name": "Saiyan Spirit",
+      "last_verified": "2026-09-22"
     },
     {
-      "id": "skill-quick-sleep",
-      "name": "Quick Sleep",
-      "last_verified": "2026-09-22",
-      "source_count": 3
+      "id": "skill-saturday-crash",
+      "name": "Saturday Crash",
+      "last_verified": "2026-09-22"
     },
     {
-      "id": "skill-raid-blast",
-      "name": "Raid Blast",
-      "last_verified": "2026-09-22",
-      "source_count": 5
+      "id": "skill-sauzer-blade",
+      "name": "Sauzer Blade",
+      "last_verified": "2026-09-22"
     }
   ],
   "validation": {

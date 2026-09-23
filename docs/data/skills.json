@@ -9647,13 +9647,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Bojack mentor training",
       "mechanics_notes": "100-Ki Ki Blast Super from Bojack mentor training Lesson 2. Current dedicated evidence establishes the mentor endpoint, classification, and cost; finer numerical combat details remain deferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Bojack mentor training — Lesson 2.",
       "dlc_requirement": "Super Pack 3",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved.",
+      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
       "id": "skill-psycho-barrier",
       "source_mentor": [
         "mentor-bojack"
@@ -9675,13 +9675,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 13",
       "mechanics_notes": "Canonical identity, class, category, and acquisition source verified from dedicated skill evidence. Unsupported mechanics are intentionally deferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": 13,
       "dlc_requirement": "Base Game",
       "acquisition_type": "parallel_quest",
-      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint. 2026-09-22 provenance strengthening: Dragon Ball Wiki's Psycho Escape entry independently identifies the technique as a Dragon Ball Xenoverse 2 Future Warrior skill and confirms acquisition from Parallel Quest 12 in the original Xenoverse context; because this conflicts with the Xenoverse 2-specific PQ13 evidence, the repository retains PQ13 and does not reinterpret the older-game reference as a Xenoverse 2 acquisition.",
+      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint. 2026-09-22 provenance strengthening: Dragon Ball Wiki's Psycho Escape entry independently identifies the technique as a Dragon Ball Xenoverse 2 Future Warrior skill and confirms acquisition from Parallel Quest 12 in the original Xenoverse context; because this conflicts with the Xenoverse 2-specific PQ13 evidence, the repository retains PQ13 and does not reinterpret the older-game reference as a Xenoverse 2 acquisition.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
       "id": "skill-psycho-escape",
       "source_parallel_quests": [
         13
@@ -9702,7 +9702,7 @@
       ],
       "stamina_cost": 300,
       "unlock_method": "Skill Shop after completing \"A Momentous Galactic Battle\" (5,000 Zeni)",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
@@ -9714,7 +9714,7 @@
       "ki_cost": 0,
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-20 prerequisite refinement: dedicated skill evidence identifies Punisher Guard as a Skill Shop purchase after completing \"A Momentous Galactic Battle\"; the documented purchase price is 5,000 Zeni. No current shop-rotation claim is inferred.",
+      "notes": "2026-09-20 prerequisite refinement: dedicated skill evidence identifies Punisher Guard as a Skill Shop purchase after completing \"A Momentous Galactic Battle\"; the documented purchase price is 5,000 Zeni. No current shop-rotation claim is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
       "source_quest": "A Momentous Galactic Battle — completion",
       "id": "skill-punisher-guard"
     },
@@ -9737,10 +9737,10 @@
       "source_quest_or_shop": "Parallel Quest 129 — \"Frieza Force on the Hunt\"",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Extra Pack 4",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "mechanics_notes": "100-Ki Ki Blast Super/counter from PQ129 — Frieza Force on the Hunt, Basic Reward. It nullifies/reflects incoming Ki-based attacks and launches a projectile back at the attacker. Current dedicated evidence supports universal CaC availability and the PQ129 Basic Reward route.",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ129 reward listings explicitly include Punisher Shield in the Basic Reward pool; dedicated skill documentation confirms PQ129 acquisition.",
+      "notes": "2026-09-20 audit: PQ129 reward listings explicitly include Punisher Shield in the Basic Reward pool; dedicated skill documentation confirms PQ129 acquisition.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
       "id": "skill-punisher-shield",
       "source_parallel_quests": [
         129
@@ -9763,12 +9763,12 @@
       "research_status": "enriched",
       "unlock_method": "Character-only / non-CaC roster use",
       "mechanics_notes": "Character-only Awoken transformation used by Hit, not an equipable CaC Awoken Skill. Each transformation stage requires 500 Ki; current transformation research identifies the character-only roster status and distinguishes it from CaC unlocks.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "source_quest_or_shop": "Character-only Awoken Skill / roster use",
       "ki_cost": 500,
       "dlc_requirement": "Free Update 1",
       "acquisition_type": "character_only",
-      "notes": "2026-09-20 roster-status refinement: maintained transformation research classifies Pure Progress as a Hit-only character transformation, not a CaC Awoken Skill.",
+      "notes": "2026-09-20 roster-status refinement: maintained transformation research classifies Pure Progress as a Hit-only character transformation, not a CaC Awoken Skill.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
       "id": "skill-pure-progress"
     },
     {
@@ -9787,8 +9787,8 @@
       "ultimate_finish_required": false,
       "ki_cost": 300,
       "mechanics_notes": "300-Ki Majin-only CaC Awoken Skill obtained through the Majin Buu's House Time Rift unlock sequence. It replaces the user's moveset while active; current repository evidence records its transformation effects and the dedicated acquisition endpoint without asserting an Ultimate Finish condition.",
-      "last_verified": "2026-09-22",
-      "notes": "Majin CaC-only Awoken Skill. Requires 300 Ki and replaces the user's moveset while active.",
+      "last_verified": "2026-09-23",
+      "notes": "Majin CaC-only Awoken Skill. Requires 300 Ki and replaces the user's moveset while active.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
       "unlock_method": "Progress the Majin Buu's House Time Rift until Buu has the required family members, then complete the associated Purification unlock fight as a Majin CaC.",
       "research_status": "enriched",
       "source_quest_or_shop": "Majin Buu's House Time Rift — Purification unlock fight",
@@ -9817,11 +9817,11 @@
       "race_restriction": "Majin only",
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Skill Shop after defeating Mira (Final Form) in the main story",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "mechanics_notes": "0-Ki Other Super restricted to Majin CaCs and sold through the Skill Shop after the documented main-story progression. The user sleeps to recover resources while vulnerable; dedicated references describe recovery of health, Ki, and Stamina. No Ultimate Finish condition is involved.",
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-19 shop acquisition verification: current skill documentation confirms the listed shop/wish-start route; no Ultimate Finish is involved.",
+      "notes": "2026-09-19 shop acquisition verification: current skill documentation confirms the listed shop/wish-start route; no Ultimate Finish is involved.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
       "id": "skill-quick-sleep"
     },
     {
@@ -9841,7 +9841,7 @@
       "mechanics_notes": "Confirmed as Super Saiyan God Vegeta's 100-Ki Ki Blast Super from PQ136. Maintained PQ136 data documents a 25% Ultimate Finish slot. Future Warrior technique-list evidence establishes CaC usability; no narrower CaC race/gender/form restriction is identified.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Raid_Blast",
@@ -9852,7 +9852,7 @@
       "source_quest": 136,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 source reconciliation: maintained PQ136 data documents a 25% Ultimate Finish slot for Raid Blast; the prior Basic Reward classification was stale. 2026-09-21 Ultra Pack 1 provenance audit: official Bandai Namco documentation identifies Ultra Pack 1 as containing 10 additional skills and five Parallel Quests (PQ133–137); the maintained all-PQ guide independently maps the ten player-acquirable skills to those quests. Character-only Final Charge and Final Flash (Super) are retained under Ultra Pack 1 because current technique documentation identifies them as Ultra Pack 1 character-exclusive skills; they are distinct from the ten Future Warrior-acquirable skills listed for the pack. This pass verifies DLC provenance only and does not infer reward-slot semantics where sources conflict.",
+      "notes": "2026-09-20 source reconciliation: maintained PQ136 data documents a 25% Ultimate Finish slot for Raid Blast; the prior Basic Reward classification was stale. 2026-09-21 Ultra Pack 1 provenance audit: official Bandai Namco documentation identifies Ultra Pack 1 as containing 10 additional skills and five Parallel Quests (PQ133–137); the maintained all-PQ guide independently maps the ten player-acquirable skills to those quests. Character-only Final Charge and Final Flash (Super) are retained under Ultra Pack 1 because current technique documentation identifies them as Ultra Pack 1 character-exclusive skills; they are distinct from the ten Future Warrior-acquirable skills listed for the pack. This pass verifies DLC provenance only and does not infer reward-slot semantics where sources conflict.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
       "id": "skill-raid-blast",
       "source_parallel_quests": [
         136
@@ -9875,7 +9875,7 @@
       "mechanics_notes": "100 Ki. Up to five directional energy slashes can be followed by a teleporting overhead slash. Current evidence identifies the move as a Strike Super and PQ57 reward; the maintained PQ record does not establish an Ultimate Finish-only requirement, so none is inferred. 2026-09-21 cross-link normalization: source_quest set to canonical PQ numeric ID 57, matching the existing source_quest_or_shop/unlock evidence; this makes the skill directly joinable to the PQ database without changing the documented acquisition semantics.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Rakshasa%27s_Claw",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
@@ -9883,7 +9883,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during cross-database orphan-skill audit. The current Future Warrior technique reference supports CaC use without a narrower race restriction.",
+      "notes": "Added during cross-database orphan-skill audit. The current Future Warrior technique reference supports CaC use without a narrower race restriction.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
       "id": "skill-rakshasa-s-claw",
       "source_quest": 57,
       "source_parallel_quests": [
@@ -9907,7 +9907,7 @@
       "mechanics_notes": "Confirmed as Kefla's 100-Ki Ki Blast Super from PQ125. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain bounded. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Ray_Blast",
@@ -9917,7 +9917,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 125,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ125 reward listings explicitly place Ray Blast in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-20 audit: PQ125 reward listings explicitly place Ray Blast in the Basic Reward pool; no Ultimate Finish-only gate is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
       "id": "skill-ray-blast",
       "source_parallel_quests": [
         125
@@ -9939,13 +9939,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "bardock mentor training",
       "mechanics_notes": "Strike Super rush/lariat technique that moves around the target while leaving a Ki trail; current dedicated evidence lists 100 Ki.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Bardock mentor training — Lesson 1.",
       "dlc_requirement": "Masters Pack (platform-dependent; included in base game on Switch)",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-21 DLC provenance audit: Masters Pack remains intentionally platform-dependent; the pack is distributed as free DLC on PC/Xbox/PlayStation while the Nintendo Switch release includes the Masters content in the base game. No normalization to a platform-neutral label was made.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-21 DLC provenance audit: Masters Pack remains intentionally platform-dependent; the pack is distributed as free DLC on PC/Xbox/PlayStation while the Nintendo Switch release includes the Masters content in the base game. No normalization to a platform-neutral label was made.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
       "id": "skill-rebellion-spear",
       "source_mentor": [
         "mentor-bardock"
@@ -9968,7 +9968,7 @@
       "mechanics_notes": "A fast flying knee that, on a successful hit, temporarily boosts the user's normal/basic attack power. Current mechanics documentation describes it as a single-hit rush attack; the canonical record retains the 100-Ki Super cost and PQ61 Basic Reward route. Exact buff magnitude/duration and drop probability remain unresolved.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Recoome_Kick",
@@ -9977,7 +9977,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 61,
       "acquisition_type": "quest_or_mission",
-      "notes": "",
+      "notes": "2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
       "id": "skill-recoome-kick",
       "source_parallel_quests": [
         61

@@ -5936,3 +5936,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Live census: 455 canonical / 455 index / 307 current / 148 stale / 0 duplicate IDs.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next batch: Power Pole Pro, Power Rush, Power Wall, Powered Shell, Prelude to Destruction, Prepare to be Punished, Present For You, Pressure Sign, Pretty Cannon, Pretty Charge, Prominence Flash, Psychic Move.
+
+
+### 2026-09-23 cycle update — P1 Psycho Barrier through Recoome Kick
+- Completed 12 records: Psycho Barrier, Psycho Escape, Punisher Guard, Punisher Shield, Pure Progress, Purification, Quick Sleep, Raid Blast, Rakshasa's Claw, Ray Blast, Rebellion Spear, Recoome Kick.
+- Canonical/index verification dates synchronized; bounded evidence boundaries preserved.
+- Added and registered docs/data/skill-provenance-audit-2026-09-23-psycho-barrier-through-recoome-kick.json.
+- Live census: 455 canonical / 455 index / 331 current / 124 stale / 0 duplicate IDs.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next batch: Remote Serious Bomb, Requiem of Destruction, Revenge Death Ball, Revenge Final Flash, Reverse Launcher, Reverse Mabakusenko, Reverse Shot, Ribrianne's Eternal Love, Riot Javelin, Rise to Action, Rising Rage, Rocket Tackle.
