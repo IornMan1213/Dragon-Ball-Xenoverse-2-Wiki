@@ -74,8 +74,18 @@
       "repository_numeric_mapping": "unresolved",
       "decision": "retain_unresolved",
       "reason": "Repository search exposes the numeric record but does not expose an explicit source-row loadout or game-data key for Battle Suit 11."
+    },
+    {
+      "character_id": "vegeta",
+      "source": "https://dbxv2.fandom.com/wiki/Vegeta",
+      "source_type": "current_external_table_observation",
+      "named_loadout": "Vegeta preset-count boundary",
+      "observed_skills": [],
+      "repository_numeric_mapping": "unresolved",
+      "decision": "retain_unresolved",
+      "reason": "The current external Vegeta page reports 11 presets, while its rendered In-Game Data table exposes Battle Suit 1-9 plus Training Suit 1-2 and Whis Symbol Battle Suit; it does not expose explicit Battle Suit 10 or 11 rows in the retrieved table. This confirms the repository should not fabricate loadouts for numeric records 10/11."
     }
   ],
   "unresolved_mapping_rule": "Do not assign numeric preset IDs by row order, costume order, or proximity. Explicit source labels such as Battle Suit 1/2 are acceptable exact mappings.",
-  "next": "Search the repository's producer/source corpus or external game-data identifiers for explicit Battle Suit 10 and 11 rows; do not populate loadouts from ordering or unsupported secondary snippets."
+  "next": "Reconcile Vegeta Presets 10 and 11 only if a source exposes explicit names/rows or a matching game-data identifier; otherwise retain the unresolved boundary and move to the next highest-priority preset/data-quality task."
 }
