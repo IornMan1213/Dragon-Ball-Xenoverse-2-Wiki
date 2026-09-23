@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-22",
+  "domain": "super_souls",
+  "purpose": "Live thin-system census and evidence-boundary checkpoint for continued exhaustive Super Soul research.",
+  "source_of_truth": "docs/data/super-souls-record-layer.json",
+  "canonical_records": 234,
+  "duplicate_ids": 0,
+  "strict_thin_records": 139,
+  "strict_core_fields": [
+    "character_source",
+    "trigger_condition",
+    "effect_text",
+    "effect_magnitude",
+    "duration",
+    "stacking_behavior",
+    "limit_burst",
+    "limit_burst_effect"
+  ],
+  "skipped_high_value_cluster": {
+    "records": [
+      "super-soul-232",
+      "super-soul-233",
+      "super-soul-234",
+      "super-soul-235",
+      "super-soul-236"
+    ],
+    "reason": "Exact-name acquisition/DLC evidence is available, but item-level mechanics evidence remains insufficient; no mechanics were inferred."
+  },
+  "cross_domain": {
+    "canonical_pq_forward_edges": 151,
+    "unique_reverse_targets": 148,
+    "unresolved_endpoints": 0
+  },
+  "next_method": "Prioritize early/base-game thin records with multiple unresolved core fields and at least two independent exact-name sources; preserve unresolved fields where evidence does not support a value.",
+  "status": "audited"
+}
