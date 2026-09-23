@@ -110,6 +110,9 @@
       "skill-big-bang-attack",
       "skill-super-destructo-disc",
       "skill-power-pole-combo"
+    ],
+    "cc_mascot": [
+      "mascot-puar"
     ]
   },
   "boundary_rules": [
@@ -117,17 +120,18 @@
     "Storefront descriptions state that some content can be obtained through the in-game shop or by meeting conditions; this audit records pack inclusion/provenance rather than exclusive ownership.",
     "No missing canonical records, IDs, acquisition routes, or relationships are fabricated."
   ],
-  "next_action": "After the Puar identity audit, introduce the smallest dedicated CC Mascot canonical/catalog schema and index, then promote Puar with exact DLC provenance and validate navigation parity. Keep the five unmatched costume identities as evidence-backed equipment inventory gaps; do not invent equip-141+ IDs.",
+  "next_action": "Continue the five unmatched Support Pack costume identities only after resolving whether the existing equipment canonical layer can be safely extended without inventing unsupported IDs; otherwise preserve them as explicit inventory gaps and move to the next highest-impact cross-database audit.",
   "cc_mascot_identity_resolution": {
-    "status": "exact_identity_resolved_but_canonical_domain_missing",
+    "status": "exact_identity_resolved_and_promoted",
     "name": "Puar",
     "audit": "docs/data/dlc/time-patrol-support-pack-puar-cc-mascot-identity-reconciliation-2026-09-23.json",
-    "canonical_id": null,
+    "canonical_id": "mascot-puar",
     "notes": [
       "Official storefronts list Puar as the pack's CC Mascot.",
       "Independent CC Mascot documentation distinguishes Puar from its color variants and identifies separate shop/raid/Support Pack acquisition contexts.",
       "Puar is not equipment or an accessory and must not be assigned an equip-### or acc-### ID.",
       "A dedicated CC Mascot canonical/catalog layer is required before promotion."
-    ]
+    ],
+    "canonical_record": "docs/data/cc-mascots.json"
   }
 }
