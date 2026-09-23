@@ -4759,3 +4759,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [x] Commits: canonical 0c98d6f4734865455ead5a7ed07ba7af6e164a24; audit 89adf93a6ded0e838565bb92c1f86dd40808a6da; TODO dc64ce56a24b3528af429d8433a31d25b5e97c3e.
 - [ ] Exact next priority: resolve **034 item identity/mechanics** only with item-level evidence (game-data identifier, exact-name mechanics source, or equivalent). Otherwise move to **232–236 identity resolution** and keep all unresolved boundaries explicit.
+
+
+### 2026-09-23 cycle update — Super Soul 232-236 identity correction
+- [x] Inspected the live canonical Super Soul, PQ reward, reverse-index, acquisition, and crosslink layers for queued **232-236**.
+- [x] Resolved 232-236 as a **duplicate/misattributed identity problem**, not five missing mechanics records: current catalogue positions 232-236 correspond to raid Souls already represented canonically as 040/036/041/042/043.
+- [x] Removed canonical placeholder records **super-soul-232 through super-soul-236** and their five erroneous PQ152-PQ155 edges; preserved the earlier audit as historical research history.
+- [x] Corrected PQ151-155: PQ151 → “I think I'm getting the hang of this.” + “I'll keep adding a bit of power to my attacks!”; PQ152 → “I will put a stop to you, fiend!”; PQ153 → “There's more where that came from!” + “You're not much of a fun fight!”; PQ154/PQ155 → no Super Soul in the maintained Basic Reward list.
+- [x] Updated the canonical PQ layer, normalized reward map, reverse indexes, acquisition projection, relationship layer, cross-domain reconciliation, and Super Soul crosslink report.
+- [x] Added `docs/data/super-soul-232-through-236-identity-correction-2026-09-23.json` and `docs/data/super-soul-thin-census-2026-09-23.json`.
+- [x] Live result: **229 canonical Super Souls / 146 canonical PQ→Super Soul edges / 4 strict-thin records** (032, 034, 158, 217).
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Next priority: continue the remaining strict-thin queue **032/034/158/217** using exact-name/item-level evidence only; do not recreate 232-236 without a distinct game-data identity key.
