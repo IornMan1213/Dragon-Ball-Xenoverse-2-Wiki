@@ -2277,3 +2277,11 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Corrected stale current reconciliation wording to the live **854 / 146 / 143** relationship contract and documented resolution of the five-edge Super Soul projection discrepancy.
 - Historical values remain preserved; no canonical relationship data changed.
 - Audit: `docs/data/pq-non-pq-current-reconciliation-note-correction-2026-09-23.json`.
+
+
+### 2026-09-23 — Current-state PQ consumer census completion
+- Completed the bounded current-state consumer census across validator, producer, crosslink, status, reverse-index, and normalization consumers.
+- No remaining deterministic current-state scalar/list/endpoint-count drift was identified; historical snapshots remain preserved.
+- Added docs/data/pq-current-state-consumer-census-2026-09-23.json and registered it in the cross-domain index.
+- Live relationship baseline remains 854 total: 244 Skill / 146 Super Soul / 124 Equipment / 247 Character / 86 DLC / 7 Farming; Super Soul reverse 143.
+- Next work transitions to the P1 exhaustive provenance/data queue.
