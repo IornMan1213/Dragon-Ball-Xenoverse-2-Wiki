@@ -57,25 +57,25 @@
             "name": "SS4 Goku (DAIMA) Wig & Tail",
             "current_combined_record": "equip-099",
             "candidate_canonical_accessory_id": "acc-071",
-            "normalization_status": "ready_for_normalization_batch"
+            "normalization_status": "canonicalized"
           },
           {
             "name": "SS3 Vegeta (DAIMA) Wig",
             "current_combined_record": "equip-101",
             "candidate_canonical_accessory_id": "acc-072",
-            "normalization_status": "ready_for_normalization_batch"
+            "normalization_status": "canonicalized"
           },
           {
             "name": "Glorio Wig",
             "current_combined_record": "equip-104",
             "candidate_canonical_accessory_id": "acc-073",
-            "normalization_status": "ready_for_normalization_batch"
+            "normalization_status": "canonicalized"
           },
           {
             "name": "Panzy Wig",
             "current_combined_record": "equip-105",
             "candidate_canonical_accessory_id": "acc-074",
-            "normalization_status": "ready_for_normalization_batch"
+            "normalization_status": "canonicalized"
           }
         ],
         "costumes": [
@@ -102,9 +102,9 @@
         "raid_boss_record_layer",
         "lobby_item_record_layer",
         "complete_loading_screen_inventory",
-        "complete_paid_pack_inventory_after_accessory_normalization"
+        "remaining_non_accessory_paid_pack_inventory"
       ],
-      "evidence_boundary": "The official announcement explicitly separates the paid DAIMA Pack from the free update. Existing PQ-linked records are navigation anchors only; no missing content was promoted into canonical DLC ownership."
+      "evidence_boundary": "The official announcement explicitly separates the paid DAIMA Pack from the free update. Existing PQ-linked records are navigation anchors only; no missing content was promoted into canonical DLC ownership. Four exact DAIMA accessory identities are now canonicalized as acc-071 through acc-074; legacy equip endpoints remain alias projections."
     },
     {
       "dlc_id": "hero-of-justice-pack-2",
