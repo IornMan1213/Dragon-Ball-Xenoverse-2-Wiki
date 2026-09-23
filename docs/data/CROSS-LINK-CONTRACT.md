@@ -110,3 +110,9 @@ Added `docs/data/time-rift-story-tournament-endpoints.json` with **11 determinis
 - The layer currently yields **18 mission endpoints / 18 canonical skill edges / 0 unresolved reward-name gaps**.
 - Unresolved names are retained as producer→consumer gaps; no fabricated skill IDs are allowed.
 - `docs/data/expert-mission-endpoint-audit-2026-09-23.json` records structural validation and the unresolved set.
+
+
+### Mentor endpoint baseline — 2026-09-23
+- Added `docs/data/mentor-endpoints.json`: **33 mentor endpoints**, **132 lesson→skill edges**, **131 unique skill endpoints**, and **1 typed non-skill lesson reward** (Zamasu initiation Super Soul).
+- Reverse lookup is included so skill records can navigate back to mentor/lesson producers.
+- No unsupported skill ID is assigned to non-skill rewards; mentor roster count discrepancy remains separate.
