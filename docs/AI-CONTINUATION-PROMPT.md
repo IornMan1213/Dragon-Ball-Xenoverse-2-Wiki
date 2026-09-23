@@ -4086,3 +4086,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Validation: 234 canonical records / 0 duplicate IDs; all five selected records are researched and have populated core mechanics fields; no canonical PQ edge changed.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Next priority: return to the unresolved Conton City Vote Pack/Hero of Justice cluster 232–236 only when exact-name mechanics evidence is strong enough; otherwise continue the live census for another evidence-supported 4–12 record batch. Do not guess unsupported mechanics.
+### 2026-09-22 cycle update — Super Soul thin-system census / 232–236 evidence-boundary checkpoint
+- Recomputed the live canonical Super Soul layer directly from `docs/data/super-souls-record-layer.json`: **234 canonical records / 0 duplicate IDs**.
+- Re-audited the current high-value tail **Super Souls 232–236**. Their canonical PQ relationships and Conton City Vote Pack / Hero of Justice Pack 1 provenance are source-backed, but the available exact-name evidence still does **not** establish character ownership, trigger/effect/magnitude, duration, stacking, or Limit Burst mechanics. The existing audit `docs/data/super-soul-232-through-236-provenance-audit-2026-09-22.json` therefore remains an evidence-boundary record rather than a mechanics promotion.
+- Independent web evidence confirms the repository's PQ152–155 quest identities, DLC grouping, win conditions, and reward presentation, but does not supply the missing item-level mechanics. No unsupported mechanics were added.
+- Current strict thin check: **139/234 records** are missing at least one of the eight core mechanics/provenance fields used by the current census; this is a coverage metric, not a claim that every missing field is applicable to every soul.
+- New audit artifact: `docs/data/super-soul-thin-census-2026-09-22.json`, capturing the live census, the 232–236 skip decision, and the next deterministic research queue.
+- Cross-domain integrity remains intact: canonical Super Soul PQ projection remains **151 forward edges / 148 unique reverse targets / 0 unresolved endpoints**.
+- CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- Exact next priority: continue the thin-system census with **evidence-supported early/base-game records that still have multiple unresolved core fields**, beginning with the lowest-source, highest-confidence candidates; do not force 232–236 mechanics from acquisition-only evidence.
+
