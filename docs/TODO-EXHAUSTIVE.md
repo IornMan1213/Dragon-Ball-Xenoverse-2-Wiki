@@ -3819,3 +3819,11 @@
 - CI/runtime remains unavailable; no CI success claimed.
 - Commits: `55178412f54065c49cd9a6ed115dd218b045b1a9`, `4dcfa0726ee6e7b17c43f39aef924503af44fb74`, `e83ad2639a067db14740e86d2d7206910706fb56`, `5a56f3f36ba8d6c046810cfa2ead0afc2ccdb8c5`.
 - Exact next batch: continue the current-state consumer census for remaining explicit current/live/baseline scalar or collection assumptions and endpoint/status drift; preserve dated historical snapshots.
+
+
+### 2026-09-23 — TODO completion update — PQ reference validator label drift
+- [x] Corrected stale active validator check labels in `scripts/validate_pq_reference_pages.py`: `relationship_total_is_859` → `relationship_total_is_854`; `super_soul_edge_count_is_151` → `super_soul_edge_count_is_146`.
+- [x] Confirmed executable expressions already enforced the live 854-total / 146-Super-Soul values; no canonical data or validation logic changed.
+- [x] Preserved historical 859/151/148 documentation and correction artifacts.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: continue current-state consumer census for stale executable labels, endpoint names, and undated/current scalar/list assumptions.
