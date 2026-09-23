@@ -3843,3 +3843,12 @@
 - [x] Historical snapshots preserved.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: begin P1 exhaustive provenance/data work on the strict-thin Super Soul queue.
+
+### 2026-09-23 — TODO completion update — Super Soul 034 item-level evidence pass
+- [x] Recomputed the live strict-thin queue: **229 canonical / 0 duplicate IDs / 4 strict-thin records** — 032, 034, 158, 217.
+- [x] Performed a fresh item-level/PQ reward evidence pass for **Super Soul 034 — “The final battle begins now.”**.
+- [x] Independently confirmed the exact-name reward endpoint in **PQ 186 — Frieza's Right-Hand Man** from the maintained all-PQ guide. citeturn3search0turn3search1
+- [x] Added and registered `docs/data/super-soul-034-item-level-evidence-reconciliation-2026-09-23.json` and refreshed the strict-thin checkpoint.
+- [x] Preserved the evidence boundary: PQ186 reward identity is confirmed, but character source, effect, trigger, duration, stacking, and Limit Burst remain unresolved; no Fu attribution was inferred from adjacent clothing rewards.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next task: research **Super Soul 217** for an exact item-level Limit Burst/trigger source; if unresolved, proceed to **158** collision-safe evidence, then **032**.
