@@ -6,7 +6,7 @@
   "source_of_truth": "docs/data/super-souls-record-layer.json",
   "canonical_records": 234,
   "duplicate_ids": 0,
-  "strict_thin_records": 29,
+  "strict_thin_records": 23,
   "strict_core_fields": [
     "character_source",
     "trigger_condition",
@@ -83,13 +83,6 @@
       ]
     },
     {
-      "id": "super-soul-210",
-      "name": "Th-Thanks...",
-      "missing_fields": [
-        "stacking_behavior"
-      ]
-    },
-    {
       "id": "super-soul-211",
       "name": "You'd better survive, you got that?!",
       "missing_fields": [
@@ -100,7 +93,6 @@
       "id": "super-soul-212",
       "name": "Shall we pick up where we left off?",
       "missing_fields": [
-        "stacking_behavior",
         "limit_burst_effect"
       ]
     },
@@ -255,41 +247,6 @@
         "stacking_behavior",
         "limit_burst",
         "limit_burst_effect"
-      ]
-    },
-    {
-      "id": "super-soul-240",
-      "name": "I got back my youth and vigor!",
-      "missing_fields": [
-        "stacking_behavior"
-      ]
-    },
-    {
-      "id": "super-soul-241",
-      "name": "Goku the legendary Super Saiyan!",
-      "missing_fields": [
-        "stacking_behavior"
-      ]
-    },
-    {
-      "id": "super-soul-242",
-      "name": "I'll use all my strength to kill you.",
-      "missing_fields": [
-        "stacking_behavior"
-      ]
-    },
-    {
-      "id": "super-soul-244",
-      "name": "I am...Super Vegeta!!",
-      "missing_fields": [
-        "stacking_behavior"
-      ]
-    },
-    {
-      "id": "super-soul-246",
-      "name": "I actually felt that one...",
-      "missing_fields": [
-        "stacking_behavior"
       ]
     }
   ]
