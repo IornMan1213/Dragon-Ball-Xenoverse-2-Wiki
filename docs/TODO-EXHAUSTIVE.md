@@ -4619,3 +4619,15 @@
 - [x] Static parity result: **465/465 IDs, 0 index-only records, 0 duplicate canonical IDs, 0 duplicate index IDs**.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** recompute the broader non-PQ/non-mentor acquisition endpoint census now that canonical/index skill parity is restored; prioritize remaining deterministic producer/consumer gaps without reopening resolved Expert Mission records.
+
+
+### 2026-09-23 cycle update — Special acquisition canonical endpoint layer
+
+- Recomputed the non-PQ/non-mentor acquisition frontier after canonical skill/index parity repair and endpoint-layer work.
+- Identified **14 remaining skill records** not represented by the existing PQ, mentor, Expert Mission, shop, Time Rift/story/tournament, Tokipedia, or Conton City Patrol endpoint consumers (excluding explicit character-only/startup records).
+- Added `docs/data/special-acquisition-endpoints.json`: **14 deterministic endpoints / 14 forward skill edges / 14 unique canonical skill targets**, covering Beast, Namekian Become Giant, the two Shenron New Super Attack rewards, four Advancement Tests, Super Saiyan 2 stage access, Super Saiyan God wish/Beerus award, both Whis SSGSS routes, Ultra Instinct mastery challenge, and character-only Surging Spirit exposure.
+- Added `docs/data/special-acquisition-endpoint-audit-2026-09-23.json`; validation passes with zero unresolved IDs and no duplicate endpoint/skill pairs.
+- Registered the layer and audit in `docs/data/pq-cross-domain-index.json`.
+- Evidence boundary preserved: endpoint identities are derived from canonical acquisition records; unsupported objectives, probabilities, exact timing, costs, or alternate routes were not invented.
+- CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** recompute the full acquisition endpoint census including this new layer, then inspect the remaining explicit character-only/startup/non-acquirable records and broader cross-database producer/consumer gaps for deterministic link opportunities.
