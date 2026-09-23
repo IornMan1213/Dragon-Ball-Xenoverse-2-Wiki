@@ -226,6 +226,49 @@
       ],
       "status": "resolved_multi",
       "basis": "All three named identities are present in the canonical roster, so the aggregate source can be represented without inventing variants."
+    },
+    {
+      "skill_id": "skill-evil-whirlwind",
+      "skill_name": "Evil Whirlwind",
+      "source_token": "Cell",
+      "canonical_character_names": [
+        "Cell (Perfect)"
+      ],
+      "status": "resolved",
+      "basis": "PQ36 identifies Evil Whirlwind as the reward associated with the Cell Games sequence; the canonical roster represents the relevant Cell identity as Cell (Perfect)."
+    },
+    {
+      "skill_id": "skill-instant-rise",
+      "skill_name": "Instant Rise",
+      "source_token": "Cell",
+      "canonical_character_names": [
+        "Cell (Perfect)"
+      ],
+      "status": "resolved",
+      "basis": "PQ37 identifies Instant Rise in the Perfect Cell quest; the canonical roster represents the relevant Cell identity as Cell (Perfect)."
+    },
+    {
+      "skill_id": "skill-meteor-blow",
+      "skill_name": "Meteor Blow",
+      "source_token": "Goku / Gohan",
+      "canonical_character_names": [
+        "Goku",
+        "Gohan (Kid)",
+        "Gohan (Adult)"
+      ],
+      "status": "resolved_multi",
+      "basis": "The repository's research batch documents Goku, Gohan (Kid), Gohan (Adult), and other customizable partners as users; the canonical character layer provides the three named cast identities."
+    },
+    {
+      "skill_id": "skill-super-destructo-disc",
+      "skill_name": "Super Destructo-Disc",
+      "source_token": "Krillin / Android 18",
+      "canonical_character_names": [
+        "Krillin",
+        "Android 18"
+      ],
+      "status": "resolved_multi",
+      "basis": "Independent Xenoverse 2 documentation identifies Krillin and Android 18 as users; the skill is a Krillin Super Skill and is available through Android 18 Customize Partner."
     }
   ]
 }
