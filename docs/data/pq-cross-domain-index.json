@@ -336,7 +336,8 @@
     "skill_provenance_2026_09_23_gamma_batch": "docs/data/skill-provenance-audit-2026-09-23-gamma-batch.json",
     "skill_provenance_2026_09_23_delta_batch": "docs/data/skill-provenance-audit-2026-09-23-delta-batch.json",
     "skill_provenance_2026_09_23_blaster_batch": "docs/data/skill-provenance-audit-2026-09-23-blaster-batch.json",
-    "skill_big_bang_attack_provenance_2026_09_23": "docs/data/skill-big-bang-attack-provenance-audit-2026-09-23.json"
+    "skill_big_bang_attack_provenance_2026_09_23": "docs/data/skill-big-bang-attack-provenance-audit-2026-09-23.json",
+    "skill_provenance_2026_09_23_blaster_shell_through_bluff": "docs/data/skill-provenance-audit-2026-09-23-blaster-shell-through-bluff.json"
   },
   "registered_audits": {
     "super_soul_thin_census_2026_09_22": "docs/data/super-soul-thin-census-2026-09-22.json",
