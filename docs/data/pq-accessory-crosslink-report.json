@@ -535,14 +535,6 @@
       "source_backed": true
     },
     {
-      "pq_id": "pq-152",
-      "pq_number": 152,
-      "target_id": "acc-065",
-      "target_name": "Android 17 (DB Super) Wig",
-      "status": "identity_matched",
-      "source_backed": true
-    },
-    {
       "pq_id": "pq-154",
       "pq_number": 154,
       "target_id": "acc-066",
@@ -772,11 +764,9 @@
       "target_id": "acc-065",
       "target_name": "Android 17 (DB Super) Wig",
       "pq_ids": [
-        "pq-152",
         "pq-152"
       ],
       "pq_numbers": [
-        152,
         152
       ]
     },
@@ -969,7 +959,7 @@
     "canonical_pq_records": 186,
     "canonical_accessory_records": 74,
     "research_records": 45,
-    "forward_edge_count": 33,
+    "forward_edge_count": 32,
     "reverse_edge_count": 32,
     "unresolved_research_records": 12,
     "stale_endpoint_count": 0,
