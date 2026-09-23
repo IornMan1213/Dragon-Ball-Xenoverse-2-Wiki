@@ -6337,3 +6337,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime remains unavailable; no CI success claimed.
 - Commits: bridge `57181f5bf6fe95274e503364ebcbd5b5bac05ee9`; reverse index `84e7e01a89778ebef1b909ce45580b3c998cd3d8`; gap audit `7d351328ec04a75a2ad5d7a2af33722c7dffc883`; reconciliation audit `e903a83070239d54b20828ebafdb066b7d99a8f0`.
 - **Exact next task:** reconcile the remaining **7** identity gaps, starting with canonical-character-layer promotion/reconciliation for **Goku (Ultra Supervillain Quelled)** and **Vegeta (GT)** only if the character-layer evidence contract supports deterministic records; otherwise continue exact canonical-name matches and preserve `Destruction's Conductor` / `Sonic Bomb` conflicts.
+
+
+### 2026-09-23 cycle update — Future Saga character-layer promotion and identity batch
+
+- Promoted **Goku (Ultra Supervillain Quelled)** and **Vegeta (GT)** into the canonical character-name layer. Vegeta (GT) was already present in the repository DLC-character inventory; Goku (Ultra Supervillain Quelled) is explicitly confirmed as a new playable Future Saga Chapter 4 character by the official Dragon Ball site.
+- Added **4 evidence-backed skill→character edges**: Dragon Spiral → Goku (Ultra Supervillain Quelled), Indomitable → Goku (Ultra Supervillain Quelled), Venus Fist → Goku (Ultra Supervillain Quelled), and Wild Buster → Vegeta (GT). Current Xenoverse 2 evidence directly associates the first three with Goku's new character, while dedicated Wild Buster documentation identifies Vegeta (GT).
+- Canonical identity bridge now contains **36 resolved skill records / 47 canonical skill→character edges / 34 canonical character targets**.
+- Character record layer now contains **151 canonical character names / 55 DLC character names**.
+- Remaining unresolved character-source conflicts: **3** — Destruction's Conductor (Champa token), Flash Chaser (legacy Kefla token conflicts with current Majuub evidence), and Sonic Bomb (Champa token conflicts with current Frieza evidence). Flash Chaser's current documentation identifies Majuub and Goku (GT) Customize Partner rather than Kefla.
+- Source wording remains untouched; conflicts are held for a dedicated provenance correction rather than silently rewritten.
+- Updated character layer, bridge, reverse index, gap inventory, reconciliation audit, and persistent handoff/TODO.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next task:** perform a dedicated provenance reconciliation of the final 3 conflicting character_source fields, with separate source-history evidence before changing canonical skill records.
