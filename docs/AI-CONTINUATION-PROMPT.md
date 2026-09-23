@@ -5155,3 +5155,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: canonical character layer contains all five expected identities; audit records `2/2` and `3/3` with zero missing names; matrix updated consistently.
 - CI/runtime: unavailable; no CI success claimed.
 - Exact next batch: choose the next concrete paid-DLC completeness gap with an existing canonical record layer and cross-domain navigation value; do not create illustration/loading-screen identities until individual identities are source-backed.
+
+
+
+### 2026-09-23 cycle update — HERO OF JUSTICE Pack 2 paid illustration scope
+- Reconciled the official **15 paid illustrations** count using Steam, Nintendo, and Bandai Namco's Xenoverse 2 DLC listing.
+- Added `docs/data/dlc/hero-of-justice-pack-2-paid-illustration-scope-reconciliation-2026-09-23.json`, registered it in the PQ cross-domain index, and updated the DLC pack/content-link matrices.
+- Live-tree inspection again found no dedicated canonical illustration/loading-screen record layer, so no synthetic identities were created.
+- Validation: audit parses; official count is recorded as 15; paid/free boundary preserved; no canonical PQ reward relationships changed.
+- CI/runtime: unavailable; no CI success claimed.
+- Exact next batch: choose the next concrete paid-DLC completeness gap with an existing canonical record layer and cross-domain navigation value; defer individual illustration records until source-backed identities and a canonical layer exist.
