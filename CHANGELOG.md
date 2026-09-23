@@ -2677,3 +2677,12 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Live validation: **455 canonical / 455 index / 0 duplicate IDs / 40 stale**; target stale remaining 0.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next batch: Tail Slicer, Taunt, Teleporting Vanishing Ball, Temporal Holy Ray, The Power to Overcome, The Savior Has Come, Thunder Flash, Time Bullet, Time Control, Time Skip/Back Breaker, Time Skip/Flash Skewer, and Time Skip/Jump Spike; recompute the live stale census before editing.
+
+
+## 2026-09-23 — P1 Tail Slicer through Time Skip/Jump Spike provenance refresh
+- Refreshed 12 stale skill records and synchronized canonical/index provenance metadata.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-23-tail-slicer-through-time-skip.json`.
+- Preserved reward conflicts and unresolved numerical mechanics; no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value was inferred.
+- Live validation: **455 canonical / 455 index / 427 current / 28 stale / 0 duplicate IDs**; no duplicate IDs.
+- CI/runtime unavailable; no CI success claimed.
+- Next batch: Time Skip/Tremor Pulse, Timespace Impact, Total Detonation Ball, Trap Shooter, Tri-Beam, Turn Golden, Tyrant Lancer, Ultimate Charge, Ultra Instinct, Ultrasonic Blitz, Unrelenting Barrage, Vanishing Ball.
