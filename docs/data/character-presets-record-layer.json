@@ -909,6 +909,63 @@
         "loadout_evidence_scope": "Explicit Battle Suit 1 in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
       },
       "loadout_source": "https://dbxv2.fandom.com/wiki/Nappa"
+    },
+    {
+      "id": "recoome-preset-1",
+      "character_id": "recoome",
+      "name": "Recoome Preset 1",
+      "preset_number": 1,
+      "verification_status": "verified",
+      "loadout_status": "verified",
+      "acquisition_status": "community_observed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Recoome"
+      ],
+      "loadout": {
+        "super_attacks": [
+          "Sledgehammer",
+          "Recoome Eraser Gun",
+          "Super Guard",
+          "Fighting Pose J"
+        ],
+        "ultimate_attacks": [
+          "Ultra Fighting Bomber"
+        ],
+        "awoken_skill": null,
+        "evasive_skill": "Turn Retreat",
+        "super_soul": "Your life is mine! Toh!",
+        "loadout_evidence_scope": "Explicit Battle Suit 1 table; loadout evidence only."
+      },
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Recoome"
+    },
+    {
+      "id": "recoome-preset-2",
+      "character_id": "recoome",
+      "name": "Recoome Preset 2",
+      "preset_number": 2,
+      "verification_status": "verified",
+      "loadout_status": "verified",
+      "acquisition_status": "community_observed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Recoome"
+      ],
+      "loadout": {
+        "super_attacks": [
+          "Mighty Explosive Wave",
+          "Energy Wave Combo",
+          "Recoome Kick",
+          "Fighting Pose K"
+        ],
+        "ultimate_attacks": [
+          "Full Power Energy Wave",
+          "Ultra Fighting Bomber"
+        ],
+        "awoken_skill": null,
+        "evasive_skill": "Final Pose",
+        "super_soul": null,
+        "loadout_evidence_scope": "Explicit Battle Suit 2 table; loadout evidence only."
+      },
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Recoome"
     }
   ],
   "unresolved": [
