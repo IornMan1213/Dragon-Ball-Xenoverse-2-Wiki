@@ -4677,3 +4677,14 @@
 - [x] Preserved evidence boundaries: Sonic Bomb remains unresolved because its source token says Champa while current skill documentation identifies Frieza; no conflicting identity was promoted.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** reconcile the next bounded unresolved `character_source` cluster, prioritizing exact canonical variant names and customize-partner identities; preserve conflict cases until independently resolved.
+
+
+### 2026-09-23 cycle update — Second skill→character identity batch
+
+- [x] Extended the bounded skill→character bridge by 7 additional skill records / 10 canonical edges.
+- [x] Cumulative bridge: **14 resolved skill records / 18 canonical edges / 12 canonical character targets**.
+- [x] Refreshed the unresolved identity inventory: **32 unresolved character/variant entries** remain.
+- [x] Preserved conflicting source fields instead of fabricating identities: Destruction's Conductor, Photon Swipe, Total Detonation Ball, Sonic Bomb.
+- [x] Updated bridge, reverse index, reconciliation audit, gap inventory, and persistent handoff.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** reconcile the next unresolved aggregate-user/customize-partner cluster with deterministic canonical identities where evidence permits.
