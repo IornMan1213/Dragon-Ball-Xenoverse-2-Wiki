@@ -966,6 +966,62 @@
         "loadout_evidence_scope": "Explicit Battle Suit 2 table; loadout evidence only."
       },
       "loadout_source": "https://dbxv2.fandom.com/wiki/Recoome"
+    },
+    {
+      "id": "zarbon-preset-1",
+      "character_id": "zarbon",
+      "name": "Zarbon Preset 1",
+      "preset_number": 1,
+      "verification_status": "verified",
+      "loadout_status": "verified",
+      "acquisition_status": "community_observed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Zarbon"
+      ],
+      "loadout": {
+        "super_attacks": [
+          "Gorgeous Shot",
+          "Consecutive Energy Blast",
+          "Audacious Laugh",
+          "Energy Charge"
+        ],
+        "ultimate_attacks": [
+          "Elegant Blaster"
+        ],
+        "evasive_skill": "Bloody Counter",
+        "awoken_skill": null,
+        "super_soul": "H-How could he?!",
+        "loadout_evidence_scope": "Explicit Battle Suit 1 table; loadout evidence only."
+      },
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Zarbon"
+    },
+    {
+      "id": "zarbon-preset-2",
+      "character_id": "zarbon",
+      "name": "Zarbon Preset 2",
+      "preset_number": 2,
+      "verification_status": "verified",
+      "loadout_status": "verified",
+      "acquisition_status": "community_observed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Zarbon"
+      ],
+      "loadout": {
+        "super_attacks": [
+          "Gorgeous Shot",
+          "Energy Wave Combo",
+          "Audacious Laugh",
+          "Energy Charge"
+        ],
+        "ultimate_attacks": [
+          "Elegant Blaster"
+        ],
+        "evasive_skill": "Bloody Counter",
+        "awoken_skill": null,
+        "super_soul": null,
+        "loadout_evidence_scope": "Explicit Battle Suit 2 table; loadout evidence only."
+      },
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Zarbon"
     }
   ],
   "unresolved": [
