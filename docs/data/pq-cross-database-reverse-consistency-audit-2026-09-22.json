@@ -20,8 +20,8 @@
       "status": "clean"
     },
     "super_souls": {
-      "canonical_pairs": 151,
-      "reverse_pairs": 151,
+      "canonical_pairs": 146,
+      "reverse_pairs": 146,
       "missing_reverse_pairs": [],
       "extra_reverse_pairs": [],
       "status": "clean"
