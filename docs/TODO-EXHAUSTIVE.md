@@ -3080,3 +3080,11 @@
 - [x] All nine batch records now have all eight strict-core fields populated.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next priority: recompute the strict-thin queue and continue the next evidence-supported early/base-game/high-impact cluster; preserve **032/034** as evidence boundaries.
+
+### 2026-09-23 — Super Soul 051, 096–099 reconciliation
+- [x] Reconciled duration/stacking fields for **051, 096, 097, 098, 099**.
+- [x] Preserved evidence boundaries; only the explicit **3-stack** cap for 096 was promoted.
+- [x] Strict-thin census reduced **85 → 80**.
+- [x] Re-read canonical JSON and confirmed **234 records / 0 duplicate IDs / 80 strict-thin**.
+- [ ] CI/runtime remains unavailable.
+- [ ] Next: recompute strict-thin queue and continue the next evidence-supported early/base-game cluster; preserve **032/034** evidence boundaries.
