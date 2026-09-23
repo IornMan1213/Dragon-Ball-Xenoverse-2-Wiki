@@ -4600,3 +4600,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - Commits: `314b4679b622f1fa66968c5522589fa493b278ca`, `5ba1cdaf7d392d01fe9a8fbab9302ed0831845ae`.
 - Exact next task: recompute the live strict-thin queue and continue the next evidence-supported early/base-game/high-impact cluster, preserving **032/034** as evidence boundaries.
+
+
+### 2026-09-23 cycle update — Super Soul 129–143 secondary-field reconciliation
+- [x] Recomputed the live canonical Super Soul layer after the prior 121–128 pass: **234 canonical records / 0 duplicate IDs / 60 strict-thin records** under the eight-field census definition.
+- [x] Bounded batch: **Super Souls 129–143**.
+- [x] Evidence: maintained exact-name Super Soul catalogue plus the independent Madreag Xenoverse 2 research corpus; current web corroboration also confirms the relevant exact-name mechanics, including the explicit stack cap for 133 and explicit timed effects for 134, 136, 140, and 142. citeturn1search0turn2search1turn2search14turn3search0turn4search0
+- [x] Changes: populated evidence-bounded stacking_behavior for all 129–143; retained explicit caps for **133 (5 stacks)** and **135 (10 Super-Attack-trigger stacks / 3 Ultimate-Attack-trigger stacks)**; recorded explicit durations for **134 (10s), 136 (20s), 140 (10s), and 142 (20s)**.
+- [x] Evidence limits preserved: unresolved finite timers for the remaining records stay null; no unsupported timer, reset rule, or numeric stack cap was inferred.
+- [x] Added audit artifact: docs/data/super-soul-129-143-secondary-field-reconciliation-2026-09-23.json.
+- [x] Refreshed docs/data/super-soul-thin-census-2026-09-22.json to the live **60 strict-thin** count and recorded the remaining queue.
+- [x] Commits: canonical d22392aa50d452d45c24d64b865543590959ae70; audit 8f31867b905357061fb18d129a3f44e7aaad6469; thin census ce30cba025c28b769d2f14fdfd1fdcfe09bb96fa.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next priority: recompute the live strict-thin queue before editing again, then take the strongest remaining evidence-rich cluster. Preserve **032/034** as evidence boundaries and keep indexed-only **158/232–236** separate from fully researched records.
