@@ -5440,15 +5440,9 @@
         "skill-spirit-pulse",
         "skill-celestial-wave"
       ],
-      "super_soul_ids": [
-        "super-soul-098",
-        "super-soul-100"
-      ],
       "super_soul_rewards": [
-        "I'll keep adding a bit of power to my attacks!",
         "I think I'm getting the hang of this.",
-        "I'll never forgive you!",
-        "I'm not gonna die until I defeat you!"
+        "I'll keep adding a bit of power to my attacks!"
       ]
     },
     {
@@ -5487,12 +5481,8 @@
         "skill-justice-kick",
         "skill-justice-blade"
       ],
-      "super_soul_ids": [
-        "super-soul-101"
-      ],
       "super_soul_rewards": [
-        "I will put a stop to you, fiend!",
-        "I'll show you the power of a true warrior!"
+        "I will put a stop to you, fiend!"
       ],
       "equipment_rewards": [
         "Android 17 (DB Super) Ranger Outfit",
@@ -5538,15 +5528,9 @@
         "skill-shield-barrier",
         "skill-counter-impact"
       ],
-      "super_soul_ids": [
-        "super-soul-099",
-        "super-soul-102"
-      ],
       "super_soul_rewards": [
-        "You're not much of a fun fight!",
         "There's more where that came from!",
-        "Don't underestimate my power!",
-        "I won't forgive you!"
+        "You're not much of a fun fight!"
       ]
     },
     {
@@ -5584,9 +5568,7 @@
         "skill-sign-of-awakening",
         "skill-circle-flash"
       ],
-      "super_soul_rewards": [
-        "I'm the one who will win!"
-      ],
+      "super_soul_rewards": [],
       "equipment_rewards": [
         "King Vegeta (DB Super)'s Battle Suit",
         "King Vegeta (DB Super) Wig"
@@ -5629,9 +5611,7 @@
         "skill-gamma-blaster",
         "skill-gamma-impact"
       ],
-      "super_soul_rewards": [
-        "This is the ultimate hero!"
-      ],
+      "super_soul_rewards": [],
       "equipment_rewards": [
         "Gamma 2 Helmet",
         "Gamma 2's Helmet"
