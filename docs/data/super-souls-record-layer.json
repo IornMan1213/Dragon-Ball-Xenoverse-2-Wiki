@@ -1447,8 +1447,8 @@
       "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Maintained catalogue and independent build/research discussion corroborate full Ki at battle start plus temporary Ki Auto-Recovery for 30 seconds; no extra stacking behavior is inferred.",
-      "verification_status": "partially_verified",
+      "version_notes": "Maintained catalogue and independent build/research discussion corroborate full Ki at battle start plus temporary Ki Auto-Recovery for 30 seconds; no extra stacking behavior is inferred. Independent maintained catalogue and the repository's research corpus corroborate battle-start full Ki restoration and 30-second Ki Auto-Recovery. The activation occurs at battle start; no separate stacking behavior is documented, so none is inferred.",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/leave-the-rest-to-me.md",
@@ -1618,8 +1618,8 @@
       "usable_by_cac": null,
       "race_restriction": null,
       "dlc_requirement": "None identified",
-      "version_notes": "Maintained catalogue and Gohan (Beast) documentation corroborate Just Guard activation, +5% Strike/+10% Ki Blast per stack, five-stack cap, and Limit Burst. No separate duration is inferred.",
-      "verification_status": "partially_verified",
+      "version_notes": "Maintained catalogue and Gohan (Beast) documentation corroborate Just Guard activation, +5% Strike/+10% Ki Blast per stack, five-stack cap, and Limit Burst. No separate duration is inferred. Independent maintained catalogue and current Gohan (Beast) documentation corroborate Just Guard activation, +5% Strike/+10% Ki Blast per stack, and the five-stack cap. The boost persists as accumulated stacks rather than a separately timed effect; no finite duration is documented.",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/is-that-all.md",
