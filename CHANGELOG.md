@@ -1,3 +1,8 @@
+## 2026-09-23 — PQ relationship coverage status semantic repair
+- Corrected `docs/data/pq-cross-domain-status.json` so canonical relationship coverage is **186/186** rather than the partial reward-batch directory's **182/186**.
+- Preserved the four missing reward-batch files (PQ1, PQ12, PQ13, PQ14) as a separate supporting-source-layer limitation.
+- No canonical relationship edges or reward identities changed.
+
 ### 2026-09-22 cycle update — Super Soul 061/096/097/098/099 duration-stacking reconciliation
 - Live census before editing: **234 canonical / 0 duplicate IDs / 98 strict-thin records**.
 - Bounded batch: **061, 096, 097, 098, and 099**.
