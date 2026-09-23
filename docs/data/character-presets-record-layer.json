@@ -212,6 +212,34 @@
       ]
     },
     {
+      "id": "vegeta-preset-1",
+      "character_id": "vegeta",
+      "name": "Vegeta Preset 1",
+      "preset_number": 1,
+      "verification_status": "verified",
+      "loadout_status": "verified",
+      "acquisition_status": "community_observed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Vegeta"
+      ],
+      "loadout": {
+        "super_attacks": [
+          "Meteor Strike",
+          "Galick Gun",
+          "Spirit Boost",
+          "Charged Ki Wave"
+        ],
+        "ultimate_attacks": [
+          "Super Galick Gun"
+        ],
+        "awoken_skill": null,
+        "evasive_skill": "Spread Shot Retreat",
+        "super_soul": "I am the universe's strongest!",
+        "loadout_evidence_scope": "Explicit Battle Suit 1 in-game-data table; exact numeric preset mapping is directly stated by the source. Preserved as preset evidence and not treated as an acquisition/exclusivity claim."
+      },
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Vegeta"
+    },
+    {
       "id": "vegeta-preset-2",
       "character_id": "vegeta",
       "name": "Vegeta Preset 2",
