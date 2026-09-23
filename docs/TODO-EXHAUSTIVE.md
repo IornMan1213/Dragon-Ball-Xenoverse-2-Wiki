@@ -4765,3 +4765,13 @@
 - [x] Character navigation remains clean: **0 missing targets / 0 orphan reverse targets / 0 duplicate forward pairs**.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next batch:** audit **mentor↔skill** producer/consumer navigation, then **character/preset↔skill** navigation, focusing on deterministic ID mismatches and orphaned reverse links.
+
+
+### 2026-09-23 cycle update — Mentor↔skill producer/consumer navigation
+
+- [x] Audited all **33** canonical mentor IDs against explicit skill source_mentor references.
+- [x] Populated mentors.json.skills as the deterministic reverse navigation layer.
+- [x] Added mentor-skill crosslink audit: **137 edges / 134 skills / 0 invalid IDs / 0 duplicates / 0 orphan mentors / 0 non-reciprocal links**.
+- [x] Preserved the **3 multi-mentor skills** as explicit multi-source relationships.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next batch:** audit **character/preset↔skill navigation**, focusing on deterministic character identity endpoints, character-source fields, and legitimate multi-user relationships.
