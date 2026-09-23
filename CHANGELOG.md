@@ -2541,3 +2541,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Refreshed **10 skills** in canonical/index layers.
 - Rechecked existing provenance and preserved documented acquisition, reward-tier, cost, scope, mechanics, DLC, and conflict boundaries.
 - Added/registered `docs/data/skill-provenance-audit-2026-09-23-divine-through-dodoria.json`.
+
+
+## 2026-09-23 — P1 Double Crush through Dust Attack provenance refresh
+- Refreshed 12 canonical/index skill records: Double Crush, Double Death Slicer, Double Sunday, Dragon Blitz, Dragon Burn, Dragon Fist, Dragon Spark, Dragon Spiral, Dragon Thunder, Drain Field, Dual Destructo-Disc, and Dust Attack.
+- Preserved existing acquisition, mechanics, DLC, reward-condition conflicts, and unresolved evidence boundaries; no unsupported drop probability or Ultimate Finish gate was inferred.
+- Registered `docs/data/skill-provenance-audit-2026-09-23-double-crush-through-dust-attack.json` and refreshed the live stale-metadata census.
+- Validation: 455 canonical / 455 index / 0 duplicate IDs / 328 stale after the batch; CI/runtime unavailable.
