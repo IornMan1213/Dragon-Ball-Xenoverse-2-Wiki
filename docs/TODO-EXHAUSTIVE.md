@@ -3452,3 +3452,12 @@
 - [x] Recorded the repair in the PQ explorer/direct-template navigation audits.
 - [ ] Runtime/CI remains unavailable; no executable validation success claimed.
 - [ ] Exact next priority: inspect character and Super Soul reverse-navigation destinations for the same query/deep-link contract and repair deterministic gaps.
+
+
+### 2026-09-23 cycle update — Dedicated Character/Super Soul reverse-navigation parity
+- [x] Changed PQ→Character links to the dedicated `/Characters-All/?q=` explorer.
+- [x] Changed PQ→Super Soul links to the dedicated `/Super-Souls-All/?q=` explorer.
+- [x] Added validator checks for both dedicated reverse-navigation destinations and recorded the repair in the PQ explorer audit.
+- [x] No canonical relationship rows were changed.
+- [ ] Runtime/CI remains unavailable; no executable validation success claimed.
+- [ ] Exact next priority: inspect Equipment/DLC reverse-navigation presentation and generated content pages for one-way destinations, then repair deterministic navigation gaps.
