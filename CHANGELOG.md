@@ -1,3 +1,14 @@
+## 2026-09-22 — Super Soul 062/064/067/068 secondary-field reconciliation
+
+- Reconciled Super Souls 062, 064, 067, and 068 using maintained exact-name catalogue data and corroborating documentation.
+- Filled documented Limit Burst effects for 062, 064, 067, and 068.
+- Recorded evidence-bounded stacking semantics for 062, 064, and 068; no numeric cap was invented.
+- Recorded non-finite/persistence semantics for 067 and 068 without inventing a timer.
+- Added and registered `docs/data/super-soul-062-064-067-068-secondary-field-reconciliation-2026-09-22.json`.
+- Refreshed the thin census to **234 canonical / 0 duplicate IDs / 111 strict-thin records**.
+- No unrelated acquisition, reward probability, or mechanic fields were changed.
+- CI/Actions success is not claimed; no successful workflow/check was exposed for this direct-commit chain.
+
 ## 2026-09-22 — Super Soul 177/186/197/199 reconciliation
 
 - Reconciled duration and stacking fields for four evidence-rich Super Souls.
