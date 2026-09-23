@@ -3718,3 +3718,11 @@
 - [x] Evidence boundary preserved: the repository currently has **no dedicated canonical CC Mascot record layer**, so no mascot ID was invented and no incomplete equipment/accessory schema was reused.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: introduce the smallest dedicated **CC Mascot canonical/catalog schema and index**, then promote Puar with exact DLC provenance and validate navigation parity. Preserve the five unmatched Support Pack costume identities as evidence-backed equipment inventory gaps and do not invent `equip-141+` IDs.
+\n\n### 2026-09-23 — TODO completion update — Dedicated CC Mascot canonical layer / Puar promotion
+- [x] Added the smallest dedicated CC Mascot canonical layer: `docs/data/cc-mascots.json` plus `docs/data/cc-mascots-index.json`.
+- [x] Promoted exact identity **Puar → `mascot-puar`** without creating an equipment/accessory alias.
+- [x] Registered the mascot layer in `docs/data/pq-cross-domain-index.json` and linked `mascot-puar` from the Time Patrol Support Pack reconciliation.
+- [x] Preserved Puar variant separation and non-exclusive acquisition provenance; Support Pack ownership is not inferred from pack inclusion.
+- [x] Validation: both new JSON layers parse; mascot/index count is 1; Puar ID is unique; DLC reconciliation points to `mascot-puar`.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: validate mascot-layer consumers/reverse navigation, then resume the five remaining Support Pack costume identities while preserving the `equip-140` boundary.\n
