@@ -6609,3 +6609,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Added this evidence boundary to `docs/data/preset-battle-suit-reconciliation-2026-09-23.json`.
 - Commit: `72c73a62768f0428ffda7f81ad13ac9381c88006b`.
 - **Next task:** move to the next highest-priority preset/data-quality task unless explicit game-data identifiers for 10/11 are discovered; do not fabricate missing loadouts.
+
+
+### 2026-09-23 cycle update — PQ endpoint navigation current-baseline synchronization
+- Recomputed the live PQ endpoint/navigation baseline after the 465-skill, 234-Super-Soul, 173-equipment/accessory, and 151-character expansions.
+- Found one deterministic stale consumer: `docs/data/pq-endpoint-navigation-validation.json` still reported the superseded 452-skills / 149-characters / 854-total-edge / 146-Super-Soul snapshot in its current live-recheck and bridge fields.
+- Synchronized the current validation projection to 465 canonical skills / 234 Super Souls / 173 equipment-accessory records / 151 canonical characters / 20 DLC / 853 total PQ relationship edges, with 244 skill / 145 Super Soul / 124 equipment / 247 character / 86 DLC forward edges and 142 unique Super Soul reverse targets.
+- Preserved older 854/146 values as historical context.
+- Added and registered `docs/data/pq-endpoint-navigation-current-baseline-audit-2026-09-23.json`.
+- Validation: JSON reparsed; current endpoint counts match the canonical relationship baseline; no reward relationship or identity was added or removed.
+- CI/runtime remains unavailable; no CI success claimed.
+- Commits: validation `f202b61a6033d2155ba596286981a805b95ee046`; audit `d615a237d038ff4822891f335b1150f8f41eb648`; registration `a3bc8cebbf9a2944259cae1cab2f99326cfddeb2`.
+- **Exact next task:** continue the broader deterministic producer/consumer census beyond the PQ endpoint validator, prioritizing remaining current-state projections that still embed superseded skill/character/domain counts; then return to source-backed preset-loadout reconciliation only where explicit loadout evidence exists.
