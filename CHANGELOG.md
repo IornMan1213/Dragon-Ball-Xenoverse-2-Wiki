@@ -2361,3 +2361,16 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Updated the Super Soul thin census/checkpoint to **230 canonical / 0 duplicate IDs / strict-thin 032 and 034**.
 - Prior 854/146/143 and older 859/151/148, 862/860/840 snapshots remain preserved as historical correction evidence.
 - CI/runtime remains unavailable; no CI success claimed.
+
+
+### 2026-09-23 cycle update — Big Bang Attack provenance strengthening
+- Live census before editing: **455 canonical / 455 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 3 exactly-two-source canonical records**.
+- Bounded batch: **Big Bang Attack** (`skill-big-bang-attack`).
+- Research/evidence: independent GameFAQs TP Medal Shop catalogue corroborates Big Bang Attack as a TP Medal Shop Super and reports a **15 TP Medal** price; the source also notes shop contents are RNG/rotation based. citeturn2search0
+- Changes: canonical/index source arrays gained the GameFAQs source; `last_verified` refreshed to **2026-09-23**; provenance note synchronized with the independently reported 15-TP value and rotation caveat.
+- Evidence limits preserved: no current rotation date, guaranteed availability window, or drop probability was inferred; existing TP Medal Shop acquisition endpoint, 100 Ki cost, Base Game classification, and mechanics were unchanged.
+- Audit added/registered: `docs/data/skill-big-bang-attack-provenance-audit-2026-09-23.json`.
+- Validation: **455/455** canonical/index records; **0 duplicate IDs**; **0 nullable canonical `ki_cost`**; target now has **3 sources**; exact-two-source queue reduced from **3 to 2**.
+- CI: no successful GitHub Actions status exposed; CI success not claimed.
+- Commits: canonical `fb7027968932d25ba2222e85a0043edf6cb590f7`; index `9523f01505b0d5101fb0601e0878a13ee568d09e`; audit `ca0c2cc2c55f5193dabf9159dd41ea3acb51bb51`; registry `4367562e4a4549716e7eb19da1eeb949ab19ac8e`.
+- Exact next batch: **Power Pole Combo** (`skill-power-pole-combo`); recompute the live two-source census first, independently verify its acquisition/source endpoint, and make provenance-only changes within the existing canonical relationship contract.
