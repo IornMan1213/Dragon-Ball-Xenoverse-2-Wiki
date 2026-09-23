@@ -88,6 +88,16 @@
         "https://www.reddit.com/r/dbxv/comments/1cj9nwx",
         "https://www.reddit.com/r/dbxv/comments/1ko5nzw"
       ]
+    },
+    {
+      "id": "super-soul-034",
+      "finding": "A fresh exact-name/item-level pass reconfirmed PQ186 identity but found no reliable character source, effect, trigger, duration, stacking, or Limit Burst data. The surrounding Fu inventory is not item-level attribution.",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
+        "https://www.nintendo.com/us/store/products/dragon-ball-xenoverse-2-future-saga-chapter-4-70050000064689-switch/"
+      ],
+      "result": "No mechanics or character source promoted; new bounded audit registered."
     }
   ],
   "limits": [
@@ -96,8 +106,8 @@
     "No 232-236 records were recreated."
   ],
   "result": "Super Soul 217 remains bounded: core utility/provenance corroborated, Limit Burst unresolved after a second targeted search pass.",
-  "next_batch": "217 Limit Burst research is now bounded after two targeted search passes; next unresolved queue priority is 034, followed by continued 217/032 work only if new item-level evidence becomes available. Separately track 158 collision for canonical Super Skill migration.",
-  "next_method": "Prioritize new authoritative/item-level evidence for 034. Do not repeat low-yield generic/community searches for 217 unless a source exposes explicit item-level Limit Burst data.",
+  "next_batch": "Super Soul 032 Limit Burst/item-level evidence pass; return to 034 only if new item-level evidence appears. Separately track 158 collision for canonical Super Skill migration.",
+  "next_method": "Prioritize exact-name/item-level evidence for 032. Do not repeat low-yield generic/community searches for 034 unless a source exposes explicit item-level mechanics.",
   "last_updated": "2026-09-23",
   "notes": [
     "2026-09-23: A prior intermediate note attributed 034 to Fu, but the subsequent exact-name pass did not independently substantiate that attribution; the canonical record therefore remains character_source unresolved. The earlier attribution is superseded, not used as mechanics evidence.",
