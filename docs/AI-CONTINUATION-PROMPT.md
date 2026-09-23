@@ -5456,3 +5456,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI: unavailable; do not claim CI success.
 - Current handoff commits/updated-file SHAs: audit `e2d618b0ec2ca63ed92f235ec5b0edd3555553c5`; checkpoint `9d94f987567920863cf800fd7d360770d604f4df`; cross-domain index `c0f6d70a001958257e29288632da7888c76c925e`; TODO `11d496ce51df204f83f30bc3ef00e6e475828b9f`; changelog `20b24961a5f76f23e881062495e34d778e123392`.
 - Exact next batch: **Super Soul 032** — perform a fresh exact-name/item-level Limit Burst pass. Return to 034 only if new item-level evidence appears. Separately preserve the 158 Super Skill/Super Soul collision boundary.
+
+
+### 2026-09-23 cycle update — Super Soul 032 Limit Burst evidence boundary
+- Live strict-thin context: **229 canonical / 0 duplicate IDs / 4 strict-thin records** — 032, 034, 158, 217.
+- Bounded batch: **Super Soul 032 — “This power... It's different from any I've ever had.”**.
+- Research/evidence: exact-name/item-level searches plus repository evidence reconfirm PQ185 identity and the existing community-tested below-50%-HP +20% all-abilities effect. Current GameFAQs discussion confirms a second displayed-name state after KO, changing to “Using this power should be no sweat for you guys.”, but does not establish its mechanical effect. citeturn3search0
+- Limit Burst result: no reliable exact-name/item-level source exposed a Limit Burst type, trigger, or effect for 032. No generic/same-character Limit Burst was substituted.
+- Changes: added `docs/data/super-soul-032-limit-burst-evidence-boundary-2026-09-23.json`; registered it in `docs/data/pq-cross-domain-index.json`; refreshed `docs/data/super-soul-strict-thin-checkpoint-2026-09-23.json`; updated TODO and CHANGELOG.
+- Canonical 032 record remains unchanged and partially verified. No PQ relationship or identity data changed.
+- Validation: evidence audit JSON is structurally valid; checkpoint updated; registry entry added; current strict-thin count remains **229 / 0 / 4**. CI/runtime unavailable; no CI success claimed.
+- Commits: audit `5192bb40d567343c3dbc1408d7595f08a69756d0`; registry `fd7f9f9fbe30c27b8b210d7395d90ca083671a3d`; checkpoint `5f2724667d3d1dfbccad266a7dfe0a0b0c0d37fa`; TODO `f0638887d9e886987e38a9e85692d0446c6b700d`; changelog `f9aa4bdeba29fcd56a7ecb1e549d7d268dcc3d93`.
+- Exact next batch: **Super Soul 158 collision-safe canonical migration analysis** — inspect the canonical Super Skill layer, ID/alias conventions, PQ49 crosslinks, and determine the safest non-destructive migration path for the Do or Die name collision. Do not silently rename/merge the Super Soul record or alter PQ relationship identities until mapping is explicitly supported.
