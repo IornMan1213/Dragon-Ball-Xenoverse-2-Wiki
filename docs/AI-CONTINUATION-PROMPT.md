@@ -5009,3 +5009,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Evidence boundaries preserved: no hidden stack cap, paid-DLC ownership, new acquisition route, or gameplay mechanic was inferred.
 - CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - Exact next priority: recompute the remaining **24-record thin-system queue** and target the highest-impact unresolved fields, with **032, 034, 158, and 217** receiving priority because their unresolved fields are substantially broader than the DLC/stacking-only tail.
+
+### 2026-09-23 cycle update — DLC → character identity navigation repair
+- Audited the remaining published character/DLC presentation surface after the Equipment/DLC reverse-navigation pass.
+- Added **DLC → Character Identity Navigation** to `docs/DLC-Overview.md`, driven exclusively by `docs/data/characters/dlc-character-identity-bridge.json`.
+- All **15** maintained DLC headline-character provenance labels are represented: **13 resolved** labels link into the local character Search surface; **2 unresolved** Chapter 4 variants remain explicitly unresolved rather than being collapsed into nearby canonical identities.
+- Extended `scripts/validate_published_character_dlc_navigation.py` to require the new DLC Overview character-navigation section.
+- Updated `docs/data/characters/published-character-dlc-navigation-audit.json` with the new consumer census.
+- No DLC ownership or character relationship edge was created; this is presentation navigation only.
+- Static/direct repository validation only; runtime/CI remains unavailable and no CI success is claimed.
+- Exact next task: continue deterministic DLC content-domain reconciliation, prioritizing pack-level content matrices and missing downstream record links without collapsing unresolved identities.
