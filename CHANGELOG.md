@@ -1819,3 +1819,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Added `docs/data/skill-change-the-future-provenance-audit-2026-09-22.json` and registered it in the cross-domain index.
 - Static validation: 452 canonical / 452 index / 0 duplicate IDs / 396 stale remaining; runtime/CI remains unavailable.
 - Exact next P1 provenance target: `skill-chaos-shot`.
+
+## 2026-09-22 — Super Soul 212–217 provenance/mechanics refresh
+- Refreshed canonical Super Soul records 212–217 with exact-name character/DLC provenance and evidence-backed mechanics while preserving their existing PQ131–134 relationship identities.
+- Added `docs/data/super-soul-212-through-217-provenance-mechanics-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- 212–216 received trigger/effect/magnitude and Limit Burst detail; 217 received the corroborated +12 Ki/+12 Stamina effect, with its Limit Burst left unresolved rather than guessed.
+- Static validation: 234 canonical Super Soul records, 25 indexed-status records, 208 thin under the current core-field check, 0 duplicate IDs; six selected records current and source-backed.
+- No canonical PQ relationship identities, reward probabilities, or Ultimate-Finish gates were changed or inferred. Runtime/CI success is not claimed.
