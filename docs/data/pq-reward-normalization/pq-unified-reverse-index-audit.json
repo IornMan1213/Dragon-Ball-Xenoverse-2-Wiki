@@ -7,12 +7,12 @@
   "result": "clean_after_2026_09_23_exact_pair_census",
   "canonical_counts": {
     "skill": 244,
-    "super_soul": 146,
+    "super_soul": 145,
     "equipment": 124,
     "character": 247,
     "dlc": 86,
     "farming": 7,
-    "total": 854
+    "total": 853
   },
   "live_projection_counts": {
     "skill": 244,
