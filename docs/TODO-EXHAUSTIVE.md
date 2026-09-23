@@ -3096,3 +3096,11 @@
 - [x] Canonical JSON validated: **234 records / 0 duplicate IDs**.
 - [ ] CI/runtime remains unavailable.
 - [ ] Next: recompute strict-thin queue and continue the next evidence-supported cluster; preserve **032/034** boundaries.
+
+### 2026-09-23 — Super Soul 121–128 reconciliation
+- [x] Reconciled duration/stacking fields for **121–128**.
+- [x] Preserved evidence boundaries; no unsupported numeric timers or stacking caps introduced.
+- [x] Strict-thin count reduced **56 → 48**.
+- [x] Canonical JSON validated: **234 records / 0 duplicate IDs**.
+- [ ] CI/runtime remains unavailable.
+- [ ] Next: recompute strict-thin queue and continue the next evidence-supported cluster; preserve **032/034** boundaries.
