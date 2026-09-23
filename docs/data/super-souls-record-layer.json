@@ -837,7 +837,7 @@
       "dlc_requirement": "FUTURE SAGA Chapter 4",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest 186",
-      "effect_text": "Effect unresolved; identity and PQ inventory presence are established, but item-level mechanics have not been independently confirmed.",
+      "effect_text": "Effect remains unresolved; identity, character source, DLC association, and PQ 186 reward presence are confirmed, but item-level mechanics are not independently confirmed.",
       "effect_magnitude": "unresolved",
       "duration": "unresolved",
       "stacking_behavior": "unresolved",
@@ -846,17 +846,19 @@
       "limit_burst_effect": null,
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Do not infer mechanics from the title. Acquisition normalized from an exact-name canonical PQ reward match; exact drop condition/percentage is not asserted.",
+      "version_notes": "PQ 186 reward placement is corroborated by the current 186-PQ guide and repository Future Saga Chapter 4 evidence. Do not infer mechanics from the title; exact reward tier, trigger, magnitude, duration, stacking, and drop probability remain unresolved.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki/blob/main/docs/data/future-saga-chapter-4-super-soul-effect-evidence.json"
       ],
       "first_clear_or_repeat": "PQ 186 reward",
       "source_parallel_quests": [
         "pq-186"
-      ]
+      ],
+      "trigger_condition": null
     },
     {
       "id": "super-soul-035",
@@ -899,23 +901,24 @@
       "acquisition_source": "Hit / Hit Lite Raid individual reward",
       "first_clear_or_repeat": "Individual reward / recurring raid",
       "shop_rotation": null,
-      "trigger_condition": "See effect_text; exact item-level wording retained as secondary evidence",
+      "trigger_condition": "Always; when Ki is maxed out",
       "effect_text": "Always reduces Ki recovery speed; when Ki is maxed out, boosts all attacks.",
-      "effect_magnitude": "reported -20% Ki recovery; +30% all attacks",
+      "effect_magnitude": "-20% Ki recovery speed; +30% all attacks",
       "duration": "unresolved",
       "stacking_behavior": "unresolved",
-      "limit_burst": null,
+      "limit_burst": "Auto Health and Stamina Recovery! DEF Down.",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Secondary catalog records a description/files discrepancy (10% vs 20% Ki recovery); conflict preserved. Audited against the complete canonical 186-PQ reward layer on 2026-09-21; no exact-name PQ reward match was found, so no PQ relationship was inferred.",
+      "version_notes": "Current/archived raid evidence corroborates the effect pairing and Limit Burst. A documented discrepancy remains between the in-game description's 10% wording and the 20% value reported by game files/catalogue evidence; the conflict is preserved.",
       "verification_status": "verified_secondary",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
         "https://dbxv2.fandom.com/wiki/Super_Soul",
-        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/81010605"
+        "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/81010605",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80557420"
       ]
     },
     {
@@ -927,23 +930,23 @@
       "acquisition_source": "Hit / Hit Lite Raid individual reward; also NPC Gogoh after base-game completion",
       "first_clear_or_repeat": "Individual reward / recurring raid",
       "shop_rotation": null,
-      "trigger_condition": "See effect_text; exact item-level wording retained as secondary evidence",
+      "trigger_condition": "When succeeding at a Just Guard",
       "effect_text": "When succeeding at a Just Guard, temporarily boosts Strike Skills.",
       "effect_magnitude": "+15% Strike Skills",
       "duration": "10 seconds",
       "stacking_behavior": "unresolved",
-      "limit_burst": null,
+      "limit_burst": "Auto Just Guard",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Raid is an additional acquisition route; NPC Gogoh remains separately documented. Audited against the complete canonical 186-PQ reward layer on 2026-09-21; no exact-name PQ reward match was found, so no PQ relationship was inferred.",
+      "version_notes": "Raid evidence confirms the reward family; dedicated character documentation confirms the +15% Strike Skills effect and 10-second duration. The separate NPC Gogoh acquisition route remains documented and the raid is not treated as the sole route.",
       "verification_status": "verified_secondary",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
-        "https://dbxv2.fandom.com/wiki/Super_Soul",
-        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/81010605"
+        "https://dbxv2.fandom.com/wiki/Hit",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/81010605",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80557420"
       ]
     },
     {
@@ -955,23 +958,23 @@
       "acquisition_source": "Broly / Broly Lite Raid",
       "first_clear_or_repeat": "Individual reward / recurring raid",
       "shop_rotation": null,
-      "trigger_condition": "See effect_text; exact item-level wording retained as secondary evidence",
+      "trigger_condition": "Always; when Ki is maxed out",
       "effect_text": "Always reduces Stamina recovery speed; when Ki is maxed out, reduces damage taken from all attacks.",
-      "effect_magnitude": "reported -40% Stamina recovery; -20% damage taken",
+      "effect_magnitude": "-40% Stamina recovery speed; -20% damage taken from all attacks",
       "duration": "unresolved",
       "stacking_behavior": "unresolved",
-      "limit_burst": null,
+      "limit_burst": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down.",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Secondary evidence supports the reward/effect pairing; no unsupported recurrence or drop-rate claim. Audited against the complete canonical 186-PQ reward layer on 2026-09-21; no exact-name PQ reward match was found, so no PQ relationship was inferred.",
+      "version_notes": "Broly Lite Raid documentation independently corroborates both effect conditions and the Limit Burst. No unsupported recurrence schedule or drop-rate claim is added.",
       "verification_status": "verified_secondary",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
-        "https://dbxv2.fandom.com/wiki/Super_Soul",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79969134"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79969134",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80661478"
       ]
     },
     {
@@ -983,24 +986,23 @@
       "acquisition_source": "Broly / Broly Lite Raid",
       "first_clear_or_repeat": "Individual reward / recurring raid",
       "shop_rotation": null,
-      "trigger_condition": "See effect_text; exact item-level wording retained as secondary evidence",
+      "trigger_condition": "When the battle begins",
       "effect_text": "When the battle begins, temporarily boosts the strength of all attacks.",
-      "effect_magnitude": "XXL (categorical secondary report)",
-      "duration": "unresolved",
+      "effect_magnitude": "+40% all attack damage; secondary reports also classify the boost as XXL",
+      "duration": "20 seconds",
       "stacking_behavior": "unresolved",
-      "limit_burst": null,
+      "limit_burst": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Categorical XXL magnitude retained; no numeric conversion inferred. Audited against the complete canonical 186-PQ reward layer on 2026-09-21; no exact-name PQ reward match was found, so no PQ relationship was inferred. Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values. Merged duplicate canonical identity; the lower canonical ID is retained as the authoritative record.",
+      "version_notes": "Broly Lite Raid documentation corroborates the battle-start trigger and Limit Burst. Current dedicated character documentation reports +40% for 20 seconds, while older raid documentation labels the effect XXL; both are preserved rather than silently collapsing the categorical/numeric evidence.",
       "verification_status": "verified_secondary",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
-        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/Broly",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79969134",
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-am-going-to-bathe-in-your-blood.md"
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80661478"
       ]
     },
     {
