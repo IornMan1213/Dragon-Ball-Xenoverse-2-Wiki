@@ -38,5 +38,9 @@
     "aliases_created": false
   },
   "evidence_boundary": "The corrected fields are current-state projections. Historical 148/151 baselines remain preserved in dated history/discrepancy artifacts and are not rewritten.",
-  "next_gate": "Continue current-state consumer census for remaining stale scalar/list assumptions and endpoint-name drift; prioritize undated/current-looking projections."
+  "next_gate": "Use docs/data/pq-reward-relationships.json as the live source of truth at 853 total edges / 145 Super Soul forward / 142 reverse targets; preserve this artifact as historical migration evidence.",
+  "status": "historical_superseded",
+  "historical_status_note": "historical/superseded correction artifact: its 854/146/143 values document the pre-158-migration state; the live canonical baseline is now 853/145/142.",
+  "current_canonical_baseline": "853 / 145 / 124 / 247 / 86 / 7",
+  "current_canonical_super_soul_forward_reverse": "145 / 142"
 }
