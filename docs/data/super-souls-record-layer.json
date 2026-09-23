@@ -4689,13 +4689,14 @@
       "usable_by_cac": null,
       "race_restriction": null,
       "version_notes": "Mechanics/provenance refreshed from current maintained Super Soul catalogue plus independent historical/stat-sheet evidence. Exact reward probabilities and unsupported Ultimate-Finish conditions are not asserted here.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://www.scribd.com/document/827102999/XV2-Super-Soul-Stat-sheet",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75505268?page=2"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75505268?page=2",
+        "https://steamcommunity.com/app/454650/discussions/0/1697168437878469759"
       ],
       "source_parallel_quests": [
         "pq-106"
@@ -4786,13 +4787,15 @@
       "usable_by_cac": null,
       "race_restriction": null,
       "version_notes": "Mechanics/provenance refreshed from current maintained Super Soul catalogue plus independent historical/stat-sheet evidence. Exact reward probabilities and unsupported Ultimate-Finish conditions are not asserted here.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://www.scribd.com/document/827102999/XV2-Super-Soul-Stat-sheet",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75505268?page=2"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75505268?page=2",
+        "https://steamcommunity.com/app/454650/discussions/0/1697168437878469759",
+        "https://videogaming.fandom.com/wiki/Now%2C_give_your_father_a_message_for_me."
       ],
       "source_parallel_quests": [
         "pq-108"
@@ -5074,13 +5077,15 @@
       "usable_by_cac": null,
       "race_restriction": null,
       "version_notes": "Mechanics/provenance refreshed from the maintained Super Soul catalogue, DLC provenance, and independent historical evidence. Exact reward probabilities and unsupported Ultimate-Finish conditions are not asserted.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://dbxv2.fandom.com/wiki/DLC",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75505268",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://steamcommunity.com/app/454650/discussions/0/1697168437878469759",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76421943"
       ],
       "source_parallel_quests": [
         "pq-113"
@@ -5500,14 +5505,15 @@
       "usable_by_cac": null,
       "race_restriction": null,
       "version_notes": "Mechanics/provenance refreshed from the maintained Super Soul catalogue, DLC provenance, and independent historical evidence. Exact reward probabilities and unsupported Ultimate-Finish conditions are not asserted.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://dbxv2.fandom.com/wiki/DLC",
         "https://dbxv2.fandom.com/wiki/Hero%27s_Flute",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76421943",
-        "https://steamcommunity.com/app/454650/discussions/0/1694914735996486824"
+        "https://steamcommunity.com/app/454650/discussions/0/1694914735996486824",
+        "https://steamcommunity.com/app/454650/discussions/0/1697168437878469759"
       ],
       "source_parallel_quests": [
         "pq-122"
@@ -6951,7 +6957,8 @@
     "2026-09-22: promoted Super Souls 245–246 from partially_verified to researched after exact-name mechanics, character identity, Limit Burst, and PQ12/PQ38 provenance were independently reconfirmed; no unsupported reward probabilities or engine-level timing/rates were added.",
     "2026-09-22: strengthened raid Super Souls 054, 057, 058, and 063 with independent raid/effect evidence. 057, 058, and 063 now have corroborated Limit Burst fields and were promoted to verified_secondary; 054 remains partially_verified because its Limit Burst is still unresolved. No unsupported timing or probability values were inferred.",
     "2026-09-22: strengthened Super Souls 049 and 060 with the independent historical GameFAQs Super Soul guide; both were promoted to verified_secondary while preserving their documented wording/evidence boundaries.",
-    "2026-09-22: strengthened Super Souls 191, 194, and 196 using exact-name/historical evidence. 191, 194, and 196 now record non-stacking behavior as N/A where directly supported; 194 retains the current +25% all-attacks value despite older reports of a historical +35% state."
+    "2026-09-22: strengthened Super Souls 191, 194, and 196 using exact-name/historical evidence. 191, 194, and 196 now record non-stacking behavior as N/A where directly supported; 194 retains the current +25% all-attacks value despite older reports of a historical +35% state.",
+    "2026-09-22: strengthened Super Souls 174, 177, 186, and 199 with independent historical/community evidence confirming their named trigger/effect behavior. Unresolved duration/stacking fields were intentionally left unchanged where evidence did not establish an applicable value."
   ],
   "sources": [
     {
