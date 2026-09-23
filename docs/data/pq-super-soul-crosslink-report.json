@@ -2632,7 +2632,12 @@
     ],
     "evidence_boundary_notes": [
       "super-soul-158 / Do or Die: preserve PQ relationship but do not promote skill mechanics into the Super Soul record."
-    ]
+    ],
+    "duplicate_keys": 0,
+    "invalid_pq": 0,
+    "unresolved_target_count": 0,
+    "orphan_reverse_endpoints": 0,
+    "status": "clean_current"
   },
   "last_recomputed": "2026-09-23",
   "evidence_boundaries": {},
