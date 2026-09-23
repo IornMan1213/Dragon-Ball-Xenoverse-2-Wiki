@@ -6071,3 +6071,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation after write: **455 canonical / 455 index / 455 current / 0 stale / 0 duplicate IDs**; canonical/index counts and target parity verified.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next priority: recompute broader TODO/handoff priorities now that the stale skill-metadata queue is empty; do not manufacture stale work.
+
+
+### 2026-09-23 cycle update — Cross-database PQ reward/reverse-index consistency repair
+
+- Recomputed the live PQ 1–186 canonical/reverse census across skills, Super Souls, equipment, characters, DLC, and farming.
+- Found exactly one deterministic projection drift: stale unified reverse entry Super Soul “Do or Die” → PQ49. Canonical evidence establishes PQ49 “Do or Die” as the skill-domain record (skill-do-or-die) after the Super Soul 158 migration.
+- Removed only the stale Do or Die: [49] entry from docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json; canonical relationship data was not changed.
+- Added/registering audit: docs/data/pq-cross-database-reverse-consistency-audit-2026-09-23.json.
+- Post-repair validation: 244/244 skills, 145/145 Super Souls, 124/124 equipment, 247/247 characters, 86/86 DLC, and 7/7 farming pairs match exactly; 0 missing / 0 extra pairs across all domains.
+- Updated docs/data/pq-cross-domain-index.json with the clean census.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next task: continue the wider repository consistency census, prioritizing deterministic producer/validator/index mismatches or large missing-field cohorts; preserve canonical source-of-truth and do not reopen the resolved PQ49/Do or Die migration.
