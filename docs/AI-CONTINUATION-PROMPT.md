@@ -4030,3 +4030,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [x] Commits: `5ba2dfc2c7e096d996a91920b195b285329a2db7`, `a1ee80508c04e6a8a9068670314f96fc0cdc6ca3`, `da5df6b2e5b23d57ae3067f696f96bae05f2717b`.
 - [ ] Exact next priority: continue the live thin census with the next highest-impact unresolved records, prioritizing exact-name evidence and PQ/cross-domain reuse; append only to this canonical handoff.
+
+### 2026-09-22 cycle update — Super Soul 212–217 provenance/mechanics refresh
+- [x] Recomputed the live Super Soul census after the prior batch: **234 canonical records / 25 indexed-status records / 208 records thin under the current core-field check / 0 duplicate IDs**.
+- [x] Bounded batch: **super-soul-212 through super-soul-217**, selected as the next PQ-linked cluster after the 206–211 pass and verified against the live canonical layer before editing.
+- [x] Refreshed all 6 records with exact-name character/DLC provenance and evidence-backed mechanics. 212–216 now have populated trigger/effect/magnitude and Limit Burst data; 217 has the corroborated **+12 Ki / +12 Stamina** effect while its Limit Burst remains explicitly unresolved.
+- [x] Preserved canonical PQ navigation: **212→PQ131, 213→PQ132, 214→PQ132, 215→PQ132, 216→PQ133, 217→PQ134**; the existing PQ→Super Soul relationship report remains canonical-backed for all six pairs.
+- [x] Added `docs/data/super-soul-212-through-217-provenance-mechanics-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Evidence used: maintained Super Soul catalogue, maintained all-PQ guide, maintained DLC listing, independent GameFAQs references for PQ132/Kakunsa behavior, and independent community evidence for the Krillin +12/+12 effect. No reward probability or Ultimate-Finish gate was inferred.
+- [x] Validation: canonical JSON parses at **234 records**, **0 duplicate IDs**; all six selected records are current and researched; all six source arrays are populated; canonical PQ identities unchanged; audit/index registration completed.
+- [ ] CI/runtime: no successful workflow/check exposed for the direct-commit chain; no CI success claimed.
+- [x] Commits: canonical `4d22b7fb47f524f0daca589803e707a557c1d364`; audit `ebc72f6ad0d4cbc6ea118978f8553245890b93d5`; cross-domain index `2892951250a4a1c04b8bdc779498ed77bf1d2db0`.
+- [ ] Exact next priority: recompute the **full live Super Soul thin-system census** and select the next **4–12 highest-impact unresolved records** using exact-name evidence and reusable PQ/cross-domain links; do not assume numeric order alone determines priority. Preserve unresolved identity collisions and unresolved fields rather than guessing.
