@@ -3911,3 +3911,13 @@
 - [x] Validation confirmed `skill-do-or-die` remains canonical, PQ49 retains `skill-do-or-die`, PQ49 has no `super_soul-158` edge, and the Super Soul crosslink report has no 158 endpoint.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next task: **Super Soul 217** exact-name/item-level Limit Burst research. Search only for explicit item-level Limit Burst wording; if no new evidence appears, preserve the null and move on rather than repeating low-yield searches.
+### 2026-09-23 — TODO completion update — Super Soul 217 Limit Burst evidence
+- [x] Performed the required targeted exact-name/item-level Limit Burst search for **Super Soul 217 — “Power! A lotta power! It's great!”**.
+- [x] Found an exact-name GameFAQs discussion specifically asking about this Soul's Limit Burst; the response identifies **Power Ki Blast**, with **Auto Health and Stamina Up** and **DEF Down**. citeturn1search0
+- [x] Updated the canonical 217 record with `limit_burst = Power Ki Blast` and `limit_burst_effect = Auto Health and Stamina Up; DEF Down`.
+- [x] Preserved `limit_burst_trigger = null` because the bounded item-specific source does not establish trigger wording.
+- [x] Added and registered `docs/data/super-soul-217-limit-burst-evidence-2026-09-23.json`.
+- [x] Refreshed the strict-thin census/checkpoint: the queue is now **032 and 034**; 217 exits the strict-thin queue because all strict core fields are populated, with the trigger explicitly unresolved/null.
+- [x] No acquisition, character, effect magnitude, duration, or stacking claims were changed.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next task: **Super Soul 034** only if a new item-level/authoritative source can resolve its unresolved fields; otherwise advance to **032 or the broader P1 provenance/data queue** rather than repeating low-yield searches.
