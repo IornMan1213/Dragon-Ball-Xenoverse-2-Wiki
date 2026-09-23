@@ -3984,3 +3984,13 @@
 - [x] Validation: **455 canonical / 455 index / 0 duplicate IDs**; **434** stale records remain.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: **Blades of Judgment, Blaster Ball, Blaster Bomb, Blaster Cannon, Blaster Meteor**; recompute the live census before editing.
+
+
+### 2026-09-23 — TODO completion update — P1 Blaster skill provenance batch
+- [x] Completed **Blades of Judgment, Blaster Ball, Blaster Bomb, Blaster Cannon, Blaster Meteor** provenance refresh.
+- [x] Synchronized canonical/index last_verified dates to **2026-09-23**.
+- [x] Preserved unresolved acquisition/mechanics boundaries and existing PQ reward semantics.
+- [x] Added and registered `skill-provenance-audit-2026-09-23-blaster-batch.json` and `skill-stale-metadata-census-2026-09-23-blaster.json`.
+- [x] Validation: **455 canonical / 455 index / 0 duplicate IDs**; **429** stale records remain.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next batch: **Blaster Shell, Blaster Stream, Blazing Attack, Bloody Counter, Bluff Kamehameha**.
