@@ -3871,3 +3871,22 @@ The complete companion efficiency protocol is incorporated below so the main han
 
 When several tasks are available, choose the highest-impact task that is: (a) directly supported by existing repository evidence, (b) bounded enough to validate in one web-client session, (c) useful to more than one database or reverse link, and (d) unlikely to require broad schema migration. Prefer fixing a deterministic producer/validator/index mismatch over adding low-confidence descriptive prose.
 
+
+
+---
+
+# Consolidation Completion / Current Resume Point — 2026-09-22
+
+- [x] Repository-wide recursive tree inspection confirmed **26** files matching the `docs/AI-CONTINUATION-PROMPT*.md` naming family: the canonical handoff, the efficiency addendum, and **24 dated cycle prompts**.
+- [x] All **25 companion prompt files** have now been incorporated into this canonical `docs/AI-CONTINUATION-PROMPT.md` with their complete source text preserved in dated consolidated sections.
+- [x] The efficiency addendum was also incorporated because it is part of the same `AI-CONTINUATION-PROMPT-*` family and contains operating rules required to interpret the cycle history.
+- [x] Original dated companion files were intentionally retained as historical/source artifacts; no historical prompt was deleted or rewritten.
+- [x] Codebase search confirms the consolidated prompt contains every companion source path; no prefixed companion prompt was omitted.
+- [x] Existing cross-domain registry references to dated cycle checkpoints were not silently rewritten because those files remain valid historical artifacts.
+
+## Current resume point
+- Continue from the latest live handoff state, not from the oldest consolidated cycle note.
+- Current Super Soul state after the latest completed cycle: **234 canonical records; 151 PQ→Super Soul forward edges; 148 reverse targets; 0 unresolved crosslink endpoints**.
+- Latest completed Super Soul batch: **034 and 036–039**.
+- Exact next task: **recompute the full Super Soul thin-system census and select the next 4–12 highest-impact canonical records with strong exact-name evidence and/or reusable PQ cross-links**, preserving unresolved mechanics and acquisition conflicts.
+- Do not treat historical counts or older cycle instructions as current when newer live handoff entries supersede them.
