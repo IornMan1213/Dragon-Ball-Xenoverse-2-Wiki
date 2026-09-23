@@ -3887,3 +3887,14 @@
 - [x] Preserved the evidence boundary: Fu's surrounding PQ 186 costume inventory does not establish that Fu is the character source for this Soul; no mechanics, duration, stacking, Limit Burst, item ID, reward tier, or probability was inferred.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next task: research **Super Soul 032** for a fresh exact-name/item-level Limit Burst pass; return to 034 only if new item-level evidence appears.
+
+### 2026-09-23 — TODO completion update — Super Soul 032 Limit Burst evidence boundary
+- [x] Recomputed the current strict-thin context: **229 canonical / 0 duplicate IDs / 4 strict-thin records**.
+- [x] Performed a fresh exact-name/item-level Limit Burst pass for **Super Soul 032 — “This power... It's different from any I've ever had.”**.
+- [x] Reconfirmed the exact PQ 185 identity and retained the existing community-tested below-50%-HP +20% all-abilities effect without promoting it to fully verified item-level mechanics.
+- [x] Confirmed the KO-triggered alternate displayed-name state (“Using this power should be no sweat for you guys.”) from current GameFAQs discussion, while preserving the boundary that the second state's mechanical effect is not established. citeturn3search0
+- [x] Found no reliable exact-name/item-level source establishing a Limit Burst type, trigger, or effect for 032; no generic or same-character Limit Burst was substituted.
+- [x] Added and registered `docs/data/super-soul-032-limit-burst-evidence-boundary-2026-09-23.json`.
+- [x] Refreshed `docs/data/super-soul-strict-thin-checkpoint-2026-09-23.json` and preserved the canonical record unchanged.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next task: **Super Soul 158 collision-safe canonical migration analysis** — inspect the canonical Super Skill layer, ID/alias conventions, PQ49 crosslinks, and determine the safest non-destructive migration path for the Do or Die collision.
