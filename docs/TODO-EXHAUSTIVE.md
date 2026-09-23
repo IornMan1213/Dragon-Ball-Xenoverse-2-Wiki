@@ -2589,3 +2589,14 @@
 - [x] Consolidation verification found no omitted companion prompt.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Exact next priority: recompute the full Super Soul thin-system census and select the next 4–12 highest-impact canonical records with strong exact-name evidence and/or reusable PQ cross-links.
+
+
+### 2026-09-22 cycle update — Super Soul 154–157 and 159–163 provenance/mechanics refresh
+- [x] Recomputed the live Super Soul thin-system census before editing: 234 canonical records / 151 canonical PQ→Super Soul forward edges / 148 unique reverse targets / 0 unresolved relationship endpoints; 88 records remained in indexed status.
+- [x] Selected a bounded high-impact batch with exact-name PQ cross-links: 154–157 and 159–163; deliberately excluded 158 because the same name is also a skill and the retrieved evidence did not cleanly separate Super Soul mechanics from skill mechanics.
+- [x] Refreshed character source, trigger/effect/magnitude, duration where directly supported, Limit Burst, verification date, and provenance for 9 canonical Super Soul records.
+- [x] Preserved the canonical PQ edges: 154→PQ21/PQ30, 155→PQ40, 156→PQ42, 157→PQ44, 159→PQ63, 160→PQ64, 161→PQ65, 162→PQ92, 163→PQ93.
+- [x] Added docs/data/super-soul-154-157-and-159-through-163-provenance-audit-2026-09-22.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Canonical relationship identities were unchanged; no reward probabilities or unsupported Ultimate-Finish conditions were added.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Exact next priority: recompute the full live Super Soul thin-system census and select the next 4–12 highest-impact canonical gaps with strong exact-name evidence and/or reusable PQ cross-links, with special attention to records after this cluster and remaining identity-collision cases.
