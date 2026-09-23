@@ -4192,3 +4192,11 @@
 - [x] Validation: **455/455 / 0 duplicate IDs / 328 stale**; target source/date parity clean.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next action: recompute the live stale queue before choosing the next batch.
+
+### 2026-09-23 — TODO completion update — P1 Dynamite Kick through Energy Barrier
+- [x] Completed **12 skills**: Dynamite Kick, Eagle Kick, Earth Splitting Galick Gun, Elegant Blaster, Elite Beam, Elite Shooting, Emperor's Blast, Emperor's Cannon, Emperor's Death Beam, Emperor's Edge, Endless Shoot, Energy Barrier.
+- [x] Synchronized canonical/index `last_verified` to **2026-09-23** while preserving existing evidence boundaries.
+- [x] Added/registered **docs/data/skill-provenance-audit-2026-09-23-dynamite-kick-through-energy-barrier.json**.
+- [x] Validation: **455/455 / 0 duplicate IDs / 316 stale**; target parity clean.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next action: recompute the live stale queue before selecting the next batch.
