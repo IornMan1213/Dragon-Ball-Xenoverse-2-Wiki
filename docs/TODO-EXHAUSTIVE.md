@@ -5060,3 +5060,11 @@
 - [x] Preserved historical 854/146/143 migration evidence; no canonical relationship arrays changed.
 - **Exact next task:** classify the remaining dated 854/146/143 correction artifacts so historical values are explicitly labeled, then advance to the queued P1 provenance/data gap.
 - Commits: `329e856d4d9d56b192cac3ea9613600f25e097fd`, `055ae26bf334cc0acee3b25cfde6534a543f7b5e`, `495310d45de45b856762ad6c9dbe9910133b49a5`.
+
+
+### 2026-09-23 cycle update — Correction-artifact classification completed
+- [x] Individually classified the remaining dated 854/146/143 correction artifacts.
+- [x] Marked six pre-migration correction artifacts `historical_superseded` and documented the live 853/145/142 baseline.
+- [x] Preserved original migration values; no canonical relationship rows changed.
+- **Exact next task:** resume queued P1 exhaustive data/provenance work, starting with the seven unresolved PQ41–186 Super Soul acquisition-index differences after recomputing the live pair census.
+- Commits: `5d594441f3ce8a3329d4755255a4608214d6a185`, `71b9627a7765ade404e0bddd503b0b59179879d0`, `80543c69a9d8b033907b86b07dc0100c23cea134`, `382976427a1977032eda1cf545896d4684a408e7`, `9aae29da5b8f46e73d6c7455de4ee5cecec1e747`, `4a47684aff2a2c64748e6e2b9eb8ea60ceff49c0`.
