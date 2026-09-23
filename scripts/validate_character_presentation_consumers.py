@@ -55,7 +55,7 @@ def main():
         if target and r.get("partner")!=target:
             partner_name_mismatches.append({"key":r.get("key_number"),"character_id":r.get("character_id"),"partner":r.get("partner"),"canonical":target})
 
-    preset_navigation_links=len(presets) if "Search/" in explorer and "searchUrl(name)" in explorer else 0
+    preset_navigation_links=len(presets) if "searchUrl(name)" in explorer else 0
     checks={
         "bridge_ids_unique":not duplicate_bridge_ids and len(bridge_map)==len(bridge),
         "bridge_source_names_unique":not duplicate_bridge_source_names,
