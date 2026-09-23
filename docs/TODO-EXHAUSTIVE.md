@@ -3898,3 +3898,16 @@
 - [x] Refreshed `docs/data/super-soul-strict-thin-checkpoint-2026-09-23.json` and preserved the canonical record unchanged.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next task: **Super Soul 158 collision-safe canonical migration analysis** — inspect the canonical Super Skill layer, ID/alias conventions, PQ49 crosslinks, and determine the safest non-destructive migration path for the Do or Die collision.
+
+### 2026-09-23 — TODO completion update — Super Soul 158 canonical domain migration
+- [x] Inspected the live canonical Super Skill layer and confirmed **Do or Die** already exists as `skill-do-or-die`, with PQ49 as its source endpoint and the existing canonical PQ skill crosslink.
+- [x] Confirmed the former **Super Soul 158** entry was only an identity-collision placeholder with no distinct Super Soul mechanics.
+- [x] Removed `super-soul-158` from the canonical Super Soul record layer without changing the canonical Super Skill record.
+- [x] Removed the false PQ49 Super Soul reward array/ID edge and the corresponding producer relationship; preserved the PQ49 Skill edge.
+- [x] Removed the 158 forward/reverse Super Soul crosslink and recorded the domain migration boundary in the cross-domain report.
+- [x] Added and registered `docs/data/super-soul-158-canonical-domain-migration-2026-09-23.json`, preserving the legacy ID → canonical Skill mapping and the evidence boundary.
+- [x] Refreshed the live Super Soul census: **230 canonical records / 0 duplicate IDs / strict-thin queue 032, 034, 217**.
+- [x] Refreshed current PQ Super Soul coverage to **145 forward edges / 142 reverse targets** and synchronized the PQ relationship total to **853**.
+- [x] Validation confirmed `skill-do-or-die` remains canonical, PQ49 retains `skill-do-or-die`, PQ49 has no `super_soul-158` edge, and the Super Soul crosslink report has no 158 endpoint.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next task: **Super Soul 217** exact-name/item-level Limit Burst research. Search only for explicit item-level Limit Burst wording; if no new evidence appears, preserve the null and move on rather than repeating low-yield searches.
