@@ -2374,3 +2374,15 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - CI: no successful GitHub Actions status exposed; CI success not claimed.
 - Commits: canonical `fb7027968932d25ba2222e85a0043edf6cb590f7`; index `9523f01505b0d5101fb0601e0878a13ee568d09e`; audit `ca0c2cc2c55f5193dabf9159dd41ea3acb51bb51`; registry `4367562e4a4549716e7eb19da1eeb949ab19ac8e`.
 - Exact next batch: **Power Pole Combo** (`skill-power-pole-combo`); recompute the live two-source census first, independently verify its acquisition/source endpoint, and make provenance-only changes within the existing canonical relationship contract.
+
+
+### 2026-09-23 cycle update — P1 Blaster-to-Bluff skill provenance batch
+- Live census before editing: **455 canonical / 455 index / 0 duplicate IDs / 429 stale verification dates**.
+- Bounded batch completed: **Blaster Shell, Blaster Stream, Blazing Attack, Bloody Counter, Bluff Kamehameha**.
+- Repository-first evidence review confirmed existing acquisition/provenance endpoints and existing evidence boundaries; all five canonical/index pairs were synchronized to **2026-09-23**.
+- No acquisition tier, reward probability, mechanics, cost, restriction, or DLC semantics were changed. Existing nulls/conflicts were preserved, including Blaster Stream's null race restriction and Blazing Attack's PQ136 25% Ultimate Finish evidence boundary.
+- Added docs/data/skill-provenance-audit-2026-09-23-blaster-shell-through-bluff.json and registered it in docs/data/pq-cross-domain-index.json.
+- Validation: **455/455** canonical/index, **0 duplicate IDs**, all 5 targets synchronized. Fresh live stale census after the batch: **424** stale records. Exact two-source queue remains **Power Pole Combo** and **Super Destructo-Disc**; Power Pole Combo already has a 2026-09-23 verification date and should not be redundantly edited merely because it remains two-source.
+- CI/runtime unavailable; no CI success claimed.
+- Commits: audit d01731c72b5c7d1f99bdd64fd343e17047d0f3c9; canonical 9bf0c07b293dd6915f6cbd3a03dfe2a6f9d9c5ca; index 6ec3be98611a6332214e8341c9a9eaefd5e519f9; registry a91ee9fa58e09f2ac1634ce3905edcbb579ac47c.
+- Exact next batch: **Super Destructo-Disc** (skill-super-destructo-disc); inspect its current canonical/index record and existing source endpoints, then seek one independent corroborating source before making only evidence-backed changes.
