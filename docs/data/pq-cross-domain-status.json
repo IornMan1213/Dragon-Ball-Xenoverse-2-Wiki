@@ -346,7 +346,7 @@
     "character_targets": "75/75 exact canonical character identities; 5 explicit aliases preserved; 0 missing targets.",
     "dlc_targets": "21 unique source-backed DLC targets; 0 duplicate casefold keys after normalization; only FUTURE SAGA Chapter 4 required canonical case normalization on PQ185/PQ186.",
     "preserved_distinction": "Super Pack 1-4 remain distinct source-backed DLC targets and are not collapsed into the broader Super Pass requirement.",
-    "total_edges": 860
+    "total_edges": 859
   },
   "current_total_edges": 859,
   "current_projection_consistency_2026_09_22": {
