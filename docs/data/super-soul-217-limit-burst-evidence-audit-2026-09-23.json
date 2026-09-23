@@ -8,12 +8,17 @@
   "evidence": [
     "https://www.reddit.com/r/DragonBallXenoverse2/comments/i3kqoi/",
     "https://www.reddit.com/r/dbxv/comments/io742e/",
-    "https://www.reddit.com/r/dbxv/comments/13joxkk/"
+    "https://www.reddit.com/r/dbxv/comments/13joxkk/",
+    "https://www.reddit.com/r/dbxv/comments/13joxkk/",
+    "https://www.reddit.com/r/dbxv/comments/io742e/",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80180374"
   ],
-  "finding": "Independent community discussions corroborate the soul's high-Ki/high-Stamina utility and its use in builds, but the consulted evidence does not identify a Limit Burst effect. No Limit Burst effect or trigger was inferred.",
+  "finding": "A fresh targeted September 2026 search again found community confirmation of the +12 Ki/+12 Stamina / XXL utility and PQ134 association, but no result exposed a reliable Limit Burst effect or trigger for this exact Super Soul. The Limit Burst remains unresolved; same-name or generic Super Soul Limit Burst data must not be substituted.",
   "changes": [
     "Added three independent community sources to the canonical record.",
     "Updated last_verified to 2026-09-23.",
-    "Expanded version_notes to explicitly preserve the unresolved Limit Burst evidence boundary."
-  ]
+    "Expanded version_notes to explicitly preserve the unresolved Limit Burst evidence boundary.",
+    "Fresh targeted search performed for the exact name plus Limit Burst terms; no new Limit Burst field promoted."
+  ],
+  "last_search": "2026-09-23"
 }
