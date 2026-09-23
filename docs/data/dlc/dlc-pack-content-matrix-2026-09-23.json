@@ -232,7 +232,6 @@
       "unresolved_domains": [
         "complete_pack_inventory",
         "mission_record_layer",
-        "exact_stage_identity",
         "stage_record_layer",
         "extra_mission_record_layer"
       ],
