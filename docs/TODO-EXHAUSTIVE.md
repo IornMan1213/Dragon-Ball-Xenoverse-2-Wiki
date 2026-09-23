@@ -3974,3 +3974,13 @@
 - [x] Validation: **455 canonical / 455 index / 0 duplicate IDs**; **439** stale records remain.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: **Beast, Become Giant, Bending Kamehameha, Big Bang Kamehameha, Big Bang Knuckle**; recompute the live census before editing.
+
+
+### 2026-09-23 — TODO completion update — P1 skill provenance delta batch
+- [x] Completed **Beast, Become Giant, Bending Kamehameha, Big Bang Kamehameha, Big Bang Knuckle** provenance refresh.
+- [x] Synchronized canonical/index last_verified dates to **2026-09-23**.
+- [x] Preserved the existing Big Bang Knuckle 40% Ultimate Finish vs Basic Reward source conflict.
+- [x] Added and registered docs/data/skill-provenance-audit-2026-09-23-delta-batch.json and docs/data/skill-stale-metadata-census-2026-09-23-delta.json.
+- [x] Validation: **455 canonical / 455 index / 0 duplicate IDs**; **434** stale records remain.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: **Blades of Judgment, Blaster Ball, Blaster Bomb, Blaster Cannon, Blaster Meteor**; recompute the live census before editing.
