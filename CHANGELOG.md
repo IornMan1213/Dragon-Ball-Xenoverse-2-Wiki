@@ -2646,3 +2646,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Canonical/index synchronization completed in commit 43946d7ce293e7cbad4520729e737628fea71a76.
 - Authoritative live census: 455 canonical / 455 index / 307 current / 148 stale / 0 duplicate IDs.
 - Exact next batch: Power Pole Pro, Power Rush, Power Wall, Powered Shell, Prelude to Destruction, Prepare to be Punished, Present For You, Pressure Sign, Pretty Cannon, Pretty Charge, Prominence Flash, Psychic Move.
+
+
+## 2026-09-23 — P1 Power Pole Pro through Psychic Move
+- Completed 12 stale skills and synchronized their index projections to 2026-09-23.
+- Added and registered docs/data/skill-provenance-audit-2026-09-23-power-pole-pro-through-psychic-move.json.
+- Live stale census: 148 stale / 307 current / 455 canonical / 0 duplicate IDs.
+- Exact next batch: Power Pole Pro, Power Rush, Power Wall, Powered Shell, Prelude to Destruction, Prepare to be Punished, Present For You, Pressure Sign, Pretty Cannon, Pretty Charge, Prominence Flash, Psychic Move.

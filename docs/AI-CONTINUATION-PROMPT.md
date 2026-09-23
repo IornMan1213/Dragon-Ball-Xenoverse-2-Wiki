@@ -5927,3 +5927,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - All 12 target records are now actually synchronized to 2026-09-23; target stale remaining: 0.
 - Canonical/index commit: 43946d7ce293e7cbad4520729e737628fea71a76.
 - Exact next batch: Power Pole Pro, Power Rush, Power Wall, Powered Shell, Prelude to Destruction, Prepare to be Punished, Present For You, Pressure Sign, Pretty Cannon, Pretty Charge, Prominence Flash, Psychic Move.
+
+
+### 2026-09-23 cycle update — P1 Power Pole Pro through Psychic Move
+- Completed 12 records: Power Pole Pro, Power Rush, Power Wall, Powered Shell, Prelude to Destruction, Prepare to be Punished, Present For You, Pressure Sign, Pretty Cannon, Pretty Charge, Prominence Flash, Psychic Move.
+- Canonical/index verification dates synchronized; bounded evidence boundaries preserved.
+- Added and registered docs/data/skill-provenance-audit-2026-09-23-power-pole-pro-through-psychic-move.json.
+- Live census: 455 canonical / 455 index / 307 current / 148 stale / 0 duplicate IDs.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next batch: Power Pole Pro, Power Rush, Power Wall, Powered Shell, Prelude to Destruction, Prepare to be Punished, Present For You, Pressure Sign, Pretty Cannon, Pretty Charge, Prominence Flash, Psychic Move.

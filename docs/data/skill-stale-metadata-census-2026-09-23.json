@@ -9,7 +9,7 @@
     "stale_last_verified_records": 148,
     "duplicate_ids": 0
   },
-  "method": "Fresh alphabetical census after the Orin Combo through Power Impact batch.",
+  "method": "Fresh alphabetical census after the Power Pole Pro through Psychic Move batch.",
   "next_stale_records": [
     {
       "id": "skill-power-pole-pro",
@@ -135,8 +135,6 @@
   "validation": {
     "canonical_record_count": 455,
     "index_record_count": 455,
-    "stale_plus_current": 455,
-    "duplicate_ids": 0,
     "status": "clean_census"
   }
 }
