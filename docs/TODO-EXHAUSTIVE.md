@@ -4019,3 +4019,16 @@
 - CI/runtime unavailable; no CI success claimed.
 - Commits: audit d01731c72b5c7d1f99bdd64fd343e17047d0f3c9; canonical 9bf0c07b293dd6915f6cbd3a03dfe2a6f9d9c5ca; index 6ec3be98611a6332214e8341c9a9eaefd5e519f9; registry a91ee9fa58e09f2ac1634ce3905edcbb579ac47c.
 - Exact next batch: **Super Destructo-Disc** (skill-super-destructo-disc); inspect its current canonical/index record and existing source endpoints, then seek one independent corroborating source before making only evidence-backed changes.
+
+
+### 2026-09-23 cycle update — Super Destructo-Disc provenance strengthening
+- Live census before editing: **455 canonical / 455 index / 0 duplicate IDs / 424 stale / 2 exact-two-source records**.
+- Bounded target: **Super Destructo-Disc** (`skill-super-destructo-disc`).
+- Research/evidence: an independent Steam Expert Mission guide lists **EM04 — Invasion of the Evil Super Namek** and **Super Destructo-Disc** under Basic Rewards; an independent Dragon Ball technique reference also identifies Expert Mission 04 as the Future Warrior acquisition route. citeturn0search4turn0search0
+- Changes: added the Steam guide as a third canonical/index source; refreshed `last_verified` to 2026-09-23; appended a provenance note.
+- Evidence limits preserved: no numerical drop rate or guaranteed-per-clear claim was inferred beyond the source's Basic Reward labeling; existing 200-Ki, Ki Blast, EM4 endpoint, CaC scope, and mechanics remain unchanged.
+- Added and registered `docs/data/skill-super-destructo-disc-provenance-audit-2026-09-23.json`.
+- Validation after edit: **455 canonical / 455 index / 0 duplicate IDs / 424 stale / 1 exact-two-source record** (Power Pole Combo remains the only two-source record).
+- CI/runtime unavailable; no CI success claimed.
+- Commits: audit `f8678076e6613d2e44890b008c4600653bdc1241`; canonical `d18b607efd547b96539c3b64cb4f5ea67c4751f2`; index `f7fa5eff1a954a711e70291060e8a1bc9f7de3c2`; registry `2ffc91972c9cdba0c63face923ad0be56f971a27`.
+- Exact next batch: **Power Pole Combo** (`skill-power-pole-combo`) only if independent provenance strengthening is available; otherwise move to the next stale canonical batch rather than repeatedly editing a verified two-source record.
