@@ -339,7 +339,8 @@
     "skill_big_bang_attack_provenance_2026_09_23": "docs/data/skill-big-bang-attack-provenance-audit-2026-09-23.json",
     "skill_provenance_2026_09_23_blaster_shell_through_bluff": "docs/data/skill-provenance-audit-2026-09-23-blaster-shell-through-bluff.json",
     "skill_super_destructo_disc_provenance_2026_09_23": "docs/data/skill-super-destructo-disc-provenance-audit-2026-09-23.json",
-    "skill_provenance_body_through_brave_sword_2026_09_23": "docs/data/skill-provenance-audit-2026-09-23-body-through-brave-sword.json"
+    "skill_provenance_body_through_brave_sword_2026_09_23": "docs/data/skill-provenance-audit-2026-09-23-body-through-brave-sword.json",
+    "skill_provenance_break_through_burst_2026_09_23": "docs/data/skill-provenance-audit-2026-09-23-break-through-burst.json"
   },
   "registered_audits": {
     "super_soul_thin_census_2026_09_22": "docs/data/super-soul-thin-census-2026-09-22.json",
