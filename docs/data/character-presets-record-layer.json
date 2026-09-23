@@ -734,6 +734,127 @@
       "sources": [
         "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2"
       ]
+    },
+    {
+      "id": "bardock-preset-1",
+      "character_id": "bardock",
+      "name": "Bardock Preset 1",
+      "preset_number": 1,
+      "verification_status": "verified",
+      "loadout_status": "verified",
+      "acquisition_status": "community_observed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Bardock",
+        "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
+      ],
+      "loadout": {
+        "super_attacks": [
+          "Meteor Crash",
+          "Tyrant Lancer",
+          "Super Guard",
+          "Energy Charge"
+        ],
+        "ultimate_attacks": [
+          "Full Power Energy Wave",
+          "Super Back Jump"
+        ],
+        "awoken_skill": null,
+        "evasive_skill": null,
+        "super_soul": "Now it's all over...",
+        "loadout_evidence_scope": "Explicit Bardock in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
+      },
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Bardock"
+    },
+    {
+      "id": "bardock-preset-2",
+      "character_id": "bardock",
+      "name": "Bardock Preset 2",
+      "preset_number": 2,
+      "verification_status": "verified",
+      "loadout_status": "verified",
+      "acquisition_status": "community_observed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Bardock",
+        "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
+      ],
+      "loadout": {
+        "super_attacks": [
+          "Meteor Crash",
+          "Tyrant Lancer",
+          "Super Afterimage",
+          "Full Power Charge"
+        ],
+        "ultimate_attacks": [
+          "Brave Heat",
+          "Explosive Wave"
+        ],
+        "awoken_skill": "Super Saiyan",
+        "evasive_skill": null,
+        "super_soul": null,
+        "loadout_evidence_scope": "Explicit Bardock in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
+      },
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Bardock"
+    },
+    {
+      "id": "bardock-preset-3",
+      "character_id": "bardock",
+      "name": "Bardock Preset 3",
+      "preset_number": 3,
+      "verification_status": "verified",
+      "loadout_status": "verified",
+      "acquisition_status": "community_observed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Bardock",
+        "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
+      ],
+      "loadout": {
+        "super_attacks": [
+          "Rebellion Spear",
+          "Energy Wave Combo",
+          "Riot Javelin",
+          "Charged Ki Wave"
+        ],
+        "ultimate_attacks": [
+          "Saiyan Spirit",
+          "Explosive Wave"
+        ],
+        "awoken_skill": null,
+        "evasive_skill": null,
+        "super_soul": null,
+        "loadout_evidence_scope": "Explicit Bardock in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
+      },
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Bardock"
+    },
+    {
+      "id": "bardock-preset-4",
+      "character_id": "bardock",
+      "name": "Bardock Preset 4",
+      "preset_number": 4,
+      "verification_status": "verified",
+      "loadout_status": "verified",
+      "acquisition_status": "community_observed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Bardock",
+        "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
+      ],
+      "loadout": {
+        "super_attacks": [
+          "Rebellion Spear",
+          "Tyrant Lancer",
+          "Riot Javelin",
+          "Maximum Charge"
+        ],
+        "ultimate_attacks": [
+          "Super Ki Explosion",
+          "Saiyan Spirit",
+          "Explosive Wave"
+        ],
+        "awoken_skill": "Super Saiyan",
+        "evasive_skill": null,
+        "super_soul": null,
+        "loadout_evidence_scope": "Explicit Bardock in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
+      },
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Bardock"
     }
   ],
   "unresolved": [
