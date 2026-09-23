@@ -1,3 +1,14 @@
+### 2026-09-23 cycle update — Justice through Light skill provenance refresh
+
+- Completed the next P1 stale-skill batch: **12 records** — Justice Pose, Justice Rush, Kai Kai, Kaioken, Kaioken Kamehameha, Kairos Cannon, Kamehameha, Ki Blast Thrust, Ki Explosion, Kill Driver, Last Emperor, and Light Grenade.
+- Synchronized canonical `docs/data/skills.json` and `docs/data/skills-index.json` with `last_verified=2026-09-23` while preserving existing evidence, acquisition, mechanics, DLC/roster, restriction, reward-tier, and source-conflict semantics.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-23-justice-through-light.json` in the cross-domain index.
+- Refreshed the live skill census: **455 canonical / 271 current / 184 stale / 0 duplicate IDs**.
+- Exact next stale batch: **Lightning Impact, Lightning of Absolution, Lovely Cyclone, Mach Dash, Mach Punch, Maiden Blast, Maiden Burst, Majin Kamehameha, Masenko, Maximum Charge, Meditation, and Menacing Flare**.
+- Evidence boundary preserved: verification refresh does not itself establish unsupported mechanics or acquisition conditions.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next task: process the 12 listed Lightning/Mach/Maiden/Majin/Masenko/Maximum/Meditation/Menacing records against their maintained evidence corpus, synchronize canonical/index layers, add/register the bounded audit, and recompute the stale census.
+
 ### 2026-09-23 cycle update — Innocence through Justice skill provenance refresh
 
 - Completed the next P1 stale-skill batch: **12 records** — Innocence Breath, Innocence Bullet, Innocence Cannon, Instant Charge, Instant Rise, Instant Severance, Instant Transmission, Jumping Energy Wave, Justice Blade, Justice Combination, Justice Drive, and Justice Kick.
