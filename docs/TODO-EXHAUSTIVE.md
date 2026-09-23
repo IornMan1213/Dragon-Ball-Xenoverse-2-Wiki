@@ -5017,3 +5017,13 @@
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [x] Handoff recorded with commit `e9382743aec834e830fc78a7ff6533d4528bbb52`.
 - **Exact next task:** parity scan remaining skill/character/domain navigation projections, then explicit source-backed preset reconciliation.
+
+
+### 2026-09-23 cycle update — Full canonical skill verification-date synchronization
+- [x] Refreshed the ten Kai-through-Light canonical skill records to 2026-09-23 using existing source-backed provenance evidence.
+- [x] Live parse confirms **465/465 current, 0 stale, 0 duplicate IDs** in `docs/data/skills.json`.
+- [x] Repaired the primary stale-metadata census and provenance audit baselines accordingly.
+- [x] No unsupported canonical skill facts or relationship edges were introduced.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [x] Handoff recorded in `docs/AI-CONTINUATION-PROMPT.md` with commit `7ed9ae4117c8b2a09d0a03c2971bfda27c568327`.
+- **Exact next task:** continue P1 provenance/data-quality audits for remaining dated/stale domain artifacts and explicit source-backed data gaps; preserve historical snapshots.
