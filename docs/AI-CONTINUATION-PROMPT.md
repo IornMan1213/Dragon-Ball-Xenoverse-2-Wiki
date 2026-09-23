@@ -4104,4 +4104,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] No canonical PQ relationship was added or removed.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Next priority: continue deterministic early/base-game thin census with exact-name evidence, prioritizing records where missing fields are genuinely applicable rather than N/A.
-
+### 2026-09-22 cycle update — Super Soul secondary-field reconciliation (048 / 050 / 051 / 052)
+- [x] Reconciled **4** early/base-game thin records using exact-name catalogue evidence: 048 “40 ton weights!”, 050 “That's one down!”, 051 “That offer's expired...”, and 052 “Why are you dodging?!”.
+- [x] Filled previously unresolved **Limit Burst type/effect** fields and marked duration/stacking as **N/A** where the documented effects do not establish an applicable duration/stacking mechanic.
+- [x] Did not promote community-measured passive percentages into exact canonical values.
+- [x] Added audit artifact: `docs/data/super-soul-secondary-field-reconciliation-048-050-051-052-2026-09-22.json`.
+- [x] No canonical PQ relationship changed.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Next priority: continue early/base-game thin census, prioritizing records with genuinely unresolved applicable mechanics.
