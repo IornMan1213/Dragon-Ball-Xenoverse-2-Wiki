@@ -5432,3 +5432,10 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Record 158 remains a collision placeholder; no Super Soul mechanics are asserted. Canonical migration to the Super Skill domain remains a TODO.
 - Added/registered the reconciliation audit and updated checkpoint/TODO/CHANGELOG.
 - Next exact batch: **Super Soul 217** Limit Burst/item-level evidence, then **032**.
+
+
+### 2026-09-23 cycle update — Super Souls 217 / 032
+- **217:** Fresh searches corroborate the exact Super Soul, PQ 134 association, and +12 Ki/+12 Stamina utility. No reliable item-level Limit Burst evidence was found, so Limit Burst fields remain null.
+- **032:** Fresh Steam PQ catalogue evidence confirms the exact PQ 185 reward. Current GameFAQs discussion documents its second displayed-name state after KO (“Using this power should be no sweat for you guys.”); this is recorded without inferring a second effect.
+- Added evidence-refresh audit and updated checkpoint/TODO/CHANGELOG.
+- Next priority: continue authoritative/item-level 217 Limit Burst research; then perform the next unresolved strict-thin Super Soul batch.
