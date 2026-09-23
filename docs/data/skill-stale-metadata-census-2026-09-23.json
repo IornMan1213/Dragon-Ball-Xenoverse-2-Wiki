@@ -6,12 +6,15 @@
   "live_counts": {
     "canonical_skill_records": 455,
     "index_skill_records": 455,
-    "current_last_verified_records": 402,
-    "stale_last_verified_records": 53,
+    "current_last_verified_records": 403,
+    "stale_last_verified_records": 52,
     "duplicate_ids": 0
   },
   "method": "Fresh alphabetical census after the Spirit Slash through Super Elite Combo batch.",
   "next_stale_records": [
+    {
+      "name": "Super Saiyan Blue Kaioken"
+    },
     {
       "name": "Super Saiyan God"
     },
@@ -22,31 +25,28 @@
       "name": "Super Saiyan God Super Saiyan (Evolved)"
     },
     {
-      "name": "Super Saiyan God Super Saiyan (SSGSS)"
+      "name": "Super Spirit Bomb"
     },
     {
-      "name": "Super Saiyan God Super Saiyan (Evolved)"
+      "name": "Super Vegeta"
     },
     {
-      "name": "Super Saiyan Rosé"
+      "name": "Supernova"
     },
     {
-      "name": "Super Saiyan Rosé Goku Black"
+      "name": "Supernova Cooler"
     },
     {
-      "name": "Super Saiyan 3"
+      "name": "Supersonic Mode"
     },
     {
-      "name": "Super Saiyan 4"
+      "name": "Supreme Fury"
     },
     {
-      "name": "Super Saiyan Blue"
+      "name": "Surging Spirit"
     },
     {
-      "name": "Super Saiyan Blue (Evolved)"
-    },
-    {
-      "name": "Super Saiyan God"
+      "name": "Symphonic Destruction"
     }
   ],
   "validation": {
