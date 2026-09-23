@@ -2695,3 +2695,12 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Live validation: **455 canonical / 455 index / 439 current / 16 stale / 0 duplicate IDs**.
 - CI/runtime unavailable; no CI success claimed.
 - Next batch: Variable Snipe Shot, Variant Drive, Venus Fist, Victory Cannon, Victory Rush, Volleyball Fist, Wall of Defense, Warp Kamehameha, Weekend, Wild Buster, Wild Hunt, Wild Stinger.
+
+
+## 2026-09-23 — P1 Variable Snipe Shot through Wild Stinger provenance refresh
+- Refreshed 12 stale skill records and synchronized canonical/index provenance metadata.
+- Added and registered docs/data/skill-provenance-audit-2026-09-23-variable-snipe-shot-through-wild-stinger.json.
+- Preserved documented reward conflicts and unresolved mechanics; no unsupported values were inferred.
+- Live validation: **455 canonical / 455 index / 451 current / 4 stale / 0 duplicate IDs**.
+- CI/runtime unavailable; no CI success claimed.
+- Next batch: Wolf Fang Fist, X 100 Big Bang Kamehameha, x10 Kamehameha, Zigzag Express.
