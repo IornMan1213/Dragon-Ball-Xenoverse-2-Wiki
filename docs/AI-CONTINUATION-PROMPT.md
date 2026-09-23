@@ -6681,3 +6681,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Commit: `7f2682d6747894a63f0da932654e2f06c54b2f59`.
 - CI/runtime remains unavailable; no CI success claimed.
 - **Exact next task:** continue the broader current-state producer/consumer census beyond the unified reverse index, prioritizing any remaining artifacts whose current metadata still embeds superseded 854/146 or older skill/character/domain counts; preserve historical snapshots and repair only deterministic current-state projections. After that, resume explicit source-backed preset reconciliation where exact evidence exists.
+
+
+### 2026-09-23 cycle update — Unified reverse-index current-baseline synchronization
+
+- Completed the deterministic cross-domain consumer census for the unified reverse-index audit.
+- Corrected stale current-state metadata in `docs/data/pq-reward-normalization/pq-unified-reverse-index-audit.json` from the superseded 854 total / 146 Super Soul baseline to the current 853 total / 145 Super Soul baseline.
+- Preserved the superseded 854/146 values as explicit historical snapshots.
+- Exact-pair parity remains zero missing / zero extra across skills, Super Souls, equipment, characters, DLC, and farming; equipment remains 84 clothing / 40 accessories / 124 combined.
+- Runtime wording now distinguishes API-level static parity from unavailable CI/runtime execution.
+- Commit: 7f2682d6747894a63f0da932654e2f06c54b2f59.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next task:** continue the broader current-state producer/consumer census for remaining superseded 854/146 or older skill/character/domain counts, preserving historical snapshots and repairing only deterministic current-state projections; then resume exact-evidence preset reconciliation.
