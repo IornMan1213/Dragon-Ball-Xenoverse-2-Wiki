@@ -7,10 +7,10 @@
   "reverse_index": "docs/data/skill-character-reverse-index-2026-09-23.json",
   "results": {
     "source_tokens_before": 39,
-    "resolved_skill_records_added": 7,
-    "resolved_canonical_skill_edges_added": 8,
-    "remaining_unresolved_character_or_variant_tokens": 32,
-    "canonical_character_targets": 6,
+    "resolved_skill_records_added": 14,
+    "resolved_canonical_skill_edges_added": 18,
+    "remaining_unresolved_character_or_variant_tokens": 25,
+    "canonical_character_targets": 11,
     "duplicate_skill_character_edges": 0,
     "broken_character_endpoints": 0
   },
@@ -21,7 +21,14 @@
     "skill-headshot",
     "skill-raid-blast",
     "skill-ray-blast",
-    "skill-super-black-kamehameha-rose"
+    "skill-super-black-kamehameha-rose",
+    "skill-crazy-finger-shot",
+    "skill-death-slash",
+    "skill-double-death-slicer",
+    "skill-emperor-s-edge",
+    "skill-full-power-destruction",
+    "skill-gigantic-breaker",
+    "skill-god-of-destruction-s-roar"
   ],
   "held_unresolved": [
     {
@@ -46,5 +53,5 @@
     "https://dbxv2.fandom.com/wiki/Super_Black_Kamehameha_Ros%C3%A9",
     "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Menace"
   ],
-  "next_action": "Reconcile the next bounded unresolved character_source cluster, prioritizing exact canonical variant names and customize-partner identities; do not promote conflict cases such as Sonic Bomb without resolving the source-field contradiction."
+  "next_action": "Reconcile the next bounded unresolved character_source cluster, prioritizing aggregate-user entries, exact canonical variants, and customize-partner identities; preserve conflicts such as Destruction's Conductor, Photon Swipe, Total Detonation Ball, and Sonic Bomb until their source contradictions are resolved."
 }
