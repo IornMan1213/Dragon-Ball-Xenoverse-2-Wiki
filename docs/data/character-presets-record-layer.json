@@ -815,11 +815,10 @@
           "Charged Ki Wave"
         ],
         "ultimate_attacks": [
-          "Saiyan Spirit",
-          "Explosive Wave"
+          "Saiyan Spirit"
         ],
         "awoken_skill": null,
-        "evasive_skill": null,
+        "evasive_skill": "Explosive Wave",
         "super_soul": null,
         "loadout_evidence_scope": "Explicit Bardock in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
       },
@@ -846,11 +845,10 @@
         ],
         "ultimate_attacks": [
           "Super Ki Explosion",
-          "Saiyan Spirit",
-          "Explosive Wave"
+          "Saiyan Spirit"
         ],
         "awoken_skill": "Super Saiyan",
-        "evasive_skill": null,
+        "evasive_skill": "Explosive Wave",
         "super_soul": null,
         "loadout_evidence_scope": "Explicit Bardock in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
       },
