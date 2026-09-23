@@ -5384,3 +5384,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: source inspection confirms executable expressions remain **854** total and **146** Super Soul; changed Python syntax is structurally unchanged apart from key names. CI/runtime unavailable; no CI success claimed.
 - Commit: `b818e517efe0b1ded021caf78000c78e73d3f86e`.
 - Exact next batch: continue current-state consumer census for remaining stale executable check labels, endpoint names, and undated/current scalar/list assumptions; do not rewrite historical evidence.
+
+
+### 2026-09-23 cycle update — Canonical PQ current reconciliation wording synchronization
+- Live census: **854** canonical relationship edges; **146** Super Soul forward / **143** reverse targets.
+- Bounded batch: `docs/data/pq-reward-relationships.json` current reconciliation object.
+- Corrected stale current wording that still called the live baseline **859** and described the 151/148 Super Soul discrepancy as unresolved.
+- Current note now states the live **854 / 146 / 143** contract and records the five-edge 232-236 projection discrepancy as resolved; dated historical values remain untouched.
+- Added and registered `docs/data/pq-non-pq-current-reconciliation-note-correction-2026-09-23.json`.
+- Validation: canonical arrays/aliases unchanged; current counts remain 854 / 244 / 146 / 124 / 247 / 86 / 7. CI/runtime unavailable.
+- Commits: relationship correction `182383eb90cdab98ecd84e0e46a26a4d75c03dd3`; audit `6198c64dde33d63fad5cf8a03e09549e92be2f4b`; registry `36c97863db9075642fc3ad073848a7f9fa710440`.
+- Exact next batch: continue active current-state endpoint/status consumer census, preserving dated historical snapshots.
