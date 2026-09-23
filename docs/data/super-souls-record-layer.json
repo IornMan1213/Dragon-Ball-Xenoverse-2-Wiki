@@ -860,13 +860,14 @@
       "limit_burst_effect": null,
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "PQ 186 reward placement is corroborated by the current 186-PQ guide and repository Future Saga Chapter 4 evidence. Do not infer mechanics from the title; exact reward tier, trigger, magnitude, duration, stacking, and drop probability remain unresolved.",
+      "version_notes": "PQ 186 reward placement is independently corroborated by the current 186-PQ guide, while official FUTURE SAGA Chapter 4 product documentation confirms that the DLC contains 4 Super Souls and 2 Parallel Quests. The current evidence does not identify which of the four DLC Super Souls corresponds to which reward entry beyond the exact-name PQ listing, and does not independently establish this record's item-level character source or mechanics. Keep trigger, magnitude, duration, stacking, Limit Burst, exact reward tier, and drop probability unresolved until item-level evidence is found.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki/blob/main/docs/data/future-saga-chapter-4-super-soul-effect-evidence.json"
+        "https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki/blob/main/docs/data/future-saga-chapter-4-super-soul-effect-evidence.json",
+        "https://www.nintendo.com/us/store/products/dragon-ball-xenoverse-2-future-saga-chapter-4-70050000064689-switch/"
       ],
       "first_clear_or_repeat": "PQ 186 reward",
       "source_parallel_quests": [
