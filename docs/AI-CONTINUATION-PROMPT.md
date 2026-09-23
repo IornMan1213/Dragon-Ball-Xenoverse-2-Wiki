@@ -4120,3 +4120,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] No canonical PQ relationship changed.
 - [ ] CI/runtime: no successful workflow/check exposed.
 - [ ] Next priority: continue the deterministic early/base-game thin census, prioritizing genuinely unresolved applicable mechanics.
+
+
+### 2026-09-22 cycle update — early Super Soul secondary-field reconciliation (001 / 003 / 006 / 012)
+- [x] Live census before editing: **234 canonical Super Soul records / 0 duplicate IDs / 188 records missing at least one of the current eight strict core fields**.
+- [x] Bounded batch: **super-soul-001, 003, 006, and 012**, selected from the deterministic early/base-game thin queue because their remaining gaps were secondary fields resolvable as genuinely non-applicable from exact-name evidence.
+- [x] Reconciled **001** effect magnitude and stacking as **N/A**; **003** stacking as **N/A**; **006** stacking as **N/A**; and **012** duration as **N/A**.
+- [x] Refreshed source provenance and `last_verified` to **2026-09-22** while preserving acquisition, Limit Burst, and canonical identity semantics.
+- [x] Added `docs/data/super-soul-secondary-field-reconciliation-001-003-006-012-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Evidence limits preserved: no unsupported numeric mechanics, timed windows, or stack behavior were inferred. **Super Soul 013** remains unresolved where available evidence does not establish duration/magnitude.
+- [x] Validation: canonical layer remains **234 records / 0 duplicate IDs**; strict eight-field thin count decreases from **188 to 184**.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [x] Repository writes: canonical, audit, cross-domain index, changelog, and handoff are the bounded outputs for this cycle.
+- [ ] Exact next priority: continue the deterministic early/base-game thin census from the lowest-source/highest-confidence remaining records, beginning with **Super Soul 013** only if exact-name evidence can resolve an applicable field; otherwise skip it and advance. Do not force N/A merely to reduce the thin count.
