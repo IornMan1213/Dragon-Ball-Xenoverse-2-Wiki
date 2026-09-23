@@ -11,9 +11,9 @@
     },
     {
       "name": "Lesson→skill edges",
-      "expected": 131,
+      "expected": 132,
       "actual": 132,
-      "pass": false
+      "pass": true
     },
     {
       "name": "Broken skill endpoints",
@@ -25,6 +25,12 @@
       "name": "Non-skill lesson rewards",
       "expected": 1,
       "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "Unique skill endpoints",
+      "expected": 131,
+      "actual": 131,
       "pass": true
     }
   ],
