@@ -4775,3 +4775,14 @@
 - [x] Preserved the **3 multi-mentor skills** as explicit multi-source relationships.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next batch:** audit **character/preset↔skill navigation**, focusing on deterministic character identity endpoints, character-source fields, and legitimate multi-user relationships.
+
+
+### 2026-09-23 cycle update — Character/preset↔skill navigation audit
+- [x] Audited 40 preset records / 12 distinct presentation character IDs against the explicit character identity bridge; 12/12 resolve to canonical character names.
+- [x] Audited character-source skill identity coverage against the existing 39 resolved skill records / 50 canonical character-source edges.
+- [x] Found 5 preset characters with currently resolved character-source skill identities and 7 without; the 7 are evidence gaps, not broken links, because the skill-character bridge is intentionally scoped to resolved source identities.
+- [x] Confirmed preset loadouts remain explicitly unresolved, so no unsupported preset→equipped-skill edges were promoted.
+- [x] Added and registered docs/data/character-preset-skill-navigation-audit-2026-09-23.json.
+- [x] Validation: 0 unbridged preset character IDs / 0 duplicate preset records / 0 duplicate numbered character-preset pairs / 0 unsupported loadout-skill promotions.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** audit the broader character/preset presentation consumers for deterministic identity/search parity, then pursue source-backed preset loadout evidence only where the repository has an explicit loadout source.
