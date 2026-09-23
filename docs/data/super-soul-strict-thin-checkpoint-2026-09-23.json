@@ -54,6 +54,14 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80404900?page=6"
       ],
       "result": "Identity conflict marked; no mechanics promoted."
+    },
+    {
+      "id": "super-soul-158",
+      "finding": "Do or Die is a Power Up Type Super Skill, while Nail's Super Soul is “I must protect Grand Elder Guru!”",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Nail",
+        "https://ultradragonball.fandom.com/wiki/Stalling"
+      ]
     }
   ],
   "limits": [
@@ -61,8 +69,8 @@
     "No drop probability or Normal-vs-Ultimate-Finish mapping was inferred.",
     "No 232-236 records were recreated."
   ],
-  "result": "Fresh exact-name research resolved Super Soul 158 as an identity conflict: “Do or Die” is documented as Nail's Super Skill, not his Super Soul. The record is preserved as an explicit conflict placeholder with mechanics/acquisition fields cleared rather than silently remapped.",
-  "next_batch": "Resolve the canonical ID mapping for super-soul-158 conflict placeholder; then continue super-soul-217 Limit Burst evidence and super-soul-032.",
+  "result": "Identity reconciliation confirms 158 is a Super Skill/Super Soul name collision, not a missing Super Soul mechanics record.",
+  "next_batch": "Research super-soul-217 Limit Burst/item-level evidence, then super-soul-032. Separately track the 158 collision for canonical Super Skill migration.",
   "next_method": "Continue authoritative/item-level mechanics and Limit Burst research for super-soul-034, then super-soul-217; do not infer mechanics from generic or same-name data.",
   "last_updated": "2026-09-23",
   "notes": [
