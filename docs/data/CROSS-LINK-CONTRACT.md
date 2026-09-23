@@ -139,3 +139,8 @@ The special acquisition endpoint layer in `docs/data/special-acquisition-endpoin
 ## 2026-09-23 — Character-exclusive skill endpoint baseline
 
 `docs/data/character-exclusive-skill-endpoints.json` exposes stable cast/boss character→skill edges for skills whose canonical records explicitly classify them as character-only. These are exposure/navigation edges, not acquisition edges. A character-exclusive endpoint must not imply CaC unlockability or a shop/quest route; canonical `skills.json` remains authoritative for acquisition and usability classification.
+
+
+## 2026-09-23 — Full skill endpoint reverse parity baseline
+
+The full current canonical skill layer now has endpoint coverage across the combined PQ and non-PQ producer/exposure layers: **465/465 canonical skill IDs are represented**. The audit is `docs/data/full-skill-endpoint-reverse-parity-audit-2026-09-23.json`. A skill may have multiple legitimate producers; `skill-super-explosive-wave` is intentionally exposed through both Piccolo Lesson 1 and Future Gohan initiation. Duplicate identity creation is prohibited, while distinct producer relationships remain valid.
