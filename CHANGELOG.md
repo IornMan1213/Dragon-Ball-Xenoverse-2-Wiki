@@ -2528,3 +2528,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Rechecked existing provenance and preserved documented acquisition, reward-tier, cost, scope, mechanics, and DLC semantics.
 - Added/registered `docs/data/skill-provenance-audit-2026-09-23-death-psycho-bomb-through-destruction-concerto.json`.
 - Validation target: **455 canonical / 455 index / 0 duplicate IDs / 10 targets synchronized**.
+
+## 2026-09-23 — Destruction's Conductor through Divine Kamehameha provenance refresh
+
+- Refreshed **10 skills** in canonical/index layers.
+- Rechecked existing provenance and preserved documented acquisition, reward-tier, cost, scope, mechanics, and DLC semantics.
+- Added/registered `docs/data/skill-provenance-audit-2026-09-23-destruction-through-divine-kamehameha.json`.
+- Validation target: **455 canonical / 455 index / 0 duplicate IDs / 10 targets synchronized**.
