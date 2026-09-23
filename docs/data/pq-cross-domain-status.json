@@ -475,5 +475,18 @@
     "result": "no_deterministic_current_count_drift_found_in_audited_reconciliation_artifacts",
     "source_of_truth": "docs/data/pq-reward-relationships.json",
     "current_total_edges": 859
+  },
+  "relationship_PQ_coverage": {
+    "covered_PQs": 186,
+    "missing_PQs": [],
+    "note": "Canonical relationship coverage is derived from docs/data/pq-reward-relationships.json and is complete for PQ 1-186. The reward-batch directory is a separate partial research/source layer and currently lacks batch files for PQ 1, 12, 13, and 14.",
+    "canonical_relationship_coverage": "186/186",
+    "reward_batch_directory_coverage": "182/186",
+    "reward_batch_directory_missing_PQs": [
+      1,
+      12,
+      13,
+      14
+    ]
   }
 }
