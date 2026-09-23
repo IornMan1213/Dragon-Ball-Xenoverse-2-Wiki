@@ -2205,3 +2205,13 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Added `docs/data/pq-current-super-soul-baseline-repair-2026-09-23.json` documenting the repair and evidence boundary.
 - Historical 859/151 and older snapshots remain preserved where they are dated historical records; no canonical relationship edge was invented or deleted.
 - Runtime/CI remains unavailable; no CI success claimed.
+
+
+### 2026-09-23 — Equipment/DLC reverse-navigation presentation repair
+- Audited the published Equipment explorer and DLC Overview against the canonical equipment relationship layer and canonical DLC identity/reverse-index layers.
+- Added a deterministic local-search destination for populated equipment DLC provenance values while preserving existing canonical PQ links.
+- Added a player-facing **Canonical DLC → PQ Reverse Navigation** table to the DLC Overview, linking every canonical DLC identity's reverse PQ set into the local PQ explorer.
+- Added and registered `docs/data/equipment-dlc-reverse-navigation-presentation-audit-2026-09-23.json`.
+- No canonical relationship, identity, gameplay, acquisition, or provenance claim was invented or changed.
+- Runtime/CI remains unavailable; no CI success claimed.
+- Exact next priority: continue published character/DLC presentation-index and generated-content navigation audits, then resume deterministic DLC content-domain reconciliation.
