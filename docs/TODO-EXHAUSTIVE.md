@@ -2580,3 +2580,12 @@
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [x] Commits: `d3ddc3bfd924d2160063563865ccee59b7dd12b0`, `dd1c9349404c38ca16a08637228127b4eac65ca3`, `4c718623d52883f66a161bcb851bf5f188fe1996`, `d52ca87521ba8c75038c4df955cc1334498a57e6`, `1b3528be5d6abb243194ac495ab93cb01a5147de`.
 - [ ] Exact next priority: recompute the **full Super Soul thin-system census** and choose the next **4–12 highest-impact records with strong exact-name evidence and/or reusable PQ cross-links**, rather than blindly continuing by ID.
+
+
+### 2026-09-22 cycle update — Consolidated all AI-CONTINUATION-PROMPT companion prompts
+- [x] Repository-wide prompt-family census completed: 26 `docs/AI-CONTINUATION-PROMPT*.md` files identified.
+- [x] All 24 dated cycle prompts plus `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` were consolidated into `docs/AI-CONTINUATION-PROMPT.md`.
+- [x] Complete source text was preserved; dated source artifacts remain available for historical traceability.
+- [x] Consolidation verification found no omitted companion prompt.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Exact next priority: recompute the full Super Soul thin-system census and select the next 4–12 highest-impact canonical records with strong exact-name evidence and/or reusable PQ cross-links.
