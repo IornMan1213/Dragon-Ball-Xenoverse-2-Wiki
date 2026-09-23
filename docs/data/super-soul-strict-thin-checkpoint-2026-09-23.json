@@ -79,6 +79,15 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81166913?page=10"
       ]
+    },
+    {
+      "id": "super-soul-217",
+      "finding": "Second fresh search pass targeted explicit Limit Burst wording and exact-name combinations. Results corroborate +12 Ki/+12 Stamina and PQ 134 but still do not expose reliable item-level Limit Burst data; no mechanics inferred.",
+      "sources": [
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/i3kqoi",
+        "https://www.reddit.com/r/dbxv/comments/1cj9nwx",
+        "https://www.reddit.com/r/dbxv/comments/1ko5nzw"
+      ]
     }
   ],
   "limits": [
@@ -86,7 +95,7 @@
     "No drop probability or Normal-vs-Ultimate-Finish mapping was inferred.",
     "No 232-236 records were recreated."
   ],
-  "result": "Super Soul 217 Limit Burst remains unresolved after fresh exact-name searches; 032 received additional exact-name PQ/state evidence.",
+  "result": "Super Soul 217 remains bounded: core utility/provenance corroborated, Limit Burst unresolved after a second targeted search pass.",
   "next_batch": "Research super-soul-217 Limit Burst/item-level evidence, then super-soul-032. Separately track the 158 collision for canonical Super Skill migration.",
   "next_method": "Continue authoritative/item-level mechanics and Limit Burst research for super-soul-034, then super-soul-217; do not infer mechanics from generic or same-name data.",
   "last_updated": "2026-09-23",
