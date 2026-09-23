@@ -4813,3 +4813,8 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI: runtime/Actions success remains unavailable; no CI success claimed.
 - Commit: pending until this cycle's audit/handoff/changelog writes complete.
 - Exact next batch: move from blocked **217** to the next deterministic high-impact reconciliation already identified in the handoff, while keeping **032/034/158/217** explicit evidence boundaries unless new item-level evidence appears.
+
+### 2026-09-23 correction — strict-thin census definition
+- Correction to the immediately preceding 217 evidence-boundary entry: the quick raw-null scan used there was **not** the repository's strict-thin census definition and must not be treated as the live strict-thin count.
+- The authoritative stored census at `docs/data/super-soul-thin-census-2026-09-23.json` remains the controlling queue: **229 canonical / 0 duplicate IDs / 4 strict-thin records**, specifically **super-soul-032, super-soul-034, super-soul-158, super-soul-217**.
+- No canonical Super Soul mechanics were changed by the erroneous raw-null scan; it is superseded by this correction.
