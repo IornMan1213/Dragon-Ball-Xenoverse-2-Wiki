@@ -17,7 +17,7 @@
     "preset_characters_with_character_source_skill_identity": 5,
     "preset_characters_without_character_source_skill_identity": 7,
     "verified_preset_loadout_records": 23,
-    "verified_loadout_skill_entries": 148
+    "verified_loadout_skill_entries": 130
   },
   "checks": {
     "all_preset_character_ids_resolve_via_explicit_bridge": true,
@@ -78,8 +78,107 @@
   ],
   "verified_preset_loadouts": [
     {
-      "preset_id": "frieza-final-preset-2",
+      "id": "vegeta-preset-2",
+      "character_id": "vegeta",
+      "name": "Vegeta Preset 2",
+      "preset_number": 2,
+      "skill_names": [
+        "Sledgehammer",
+        "Energy Wave Combo",
+        "Shine Shot",
+        "Energy Charge",
+        "Full Power Energy Wave",
+        "Explosive Wave",
+        "Explosive Wave"
+      ],
+      "source": "https://dbxv2.fandom.com/wiki/Vegeta"
+    },
+    {
+      "id": "vegeta-preset-3",
+      "character_id": "vegeta",
+      "name": "Vegeta Preset 3",
+      "preset_number": 3,
+      "skill_names": [
+        "Meteor Crash",
+        "Earth Splitting Galick Gun",
+        "Finish Breaker",
+        "Energy Charge",
+        "Super Galick Gun",
+        "Explosive Wave",
+        "Explosive Wave"
+      ],
+      "source": "https://dbxv2.fandom.com/wiki/Vegeta"
+    },
+    {
+      "id": "vegeta-preset-6",
+      "character_id": "vegeta",
+      "name": "Vegeta Preset 6",
+      "preset_number": 6,
+      "skill_names": [
+        "Sledgehammer",
+        "Galick Gun",
+        "Finish Breaker",
+        "Full Power Charge",
+        "Full Power Energy Blast Volley",
+        "Super Back Jump"
+      ],
+      "source": "https://dbxv2.fandom.com/wiki/Vegeta"
+    },
+    {
+      "id": "vegeta-preset-7",
+      "character_id": "vegeta",
+      "name": "Vegeta Preset 7",
+      "preset_number": 7,
+      "skill_names": [
+        "Meteor Crash",
+        "Galick Gun",
+        "Afterimage",
+        "Full Power Charge",
+        "Full Power Energy Blast Volley",
+        "Super Galick Gun",
+        "Explosive Wave"
+      ],
+      "source": "https://dbxv2.fandom.com/wiki/Vegeta"
+    },
+    {
+      "id": "vegeta-preset-8",
+      "character_id": "vegeta",
+      "name": "Vegeta Preset 8",
+      "preset_number": 8,
+      "skill_names": [
+        "Sledgehammer",
+        "Energy Wave Combo",
+        "Big Bang Attack",
+        "Full Power Charge",
+        "Final Flash",
+        "Explosive Wave",
+        "Super Vegeta",
+        "Explosive Wave"
+      ],
+      "super_soul": "I am...Super Vegeta!!",
+      "source": "https://dbxv2.fandom.com/wiki/Vegeta"
+    },
+    {
+      "id": "gohan-adult-preset-3",
+      "character_id": "gohan-adult",
+      "name": "Gohan (Adult) Preset 3",
+      "preset_number": 3,
+      "skill_names": [
+        "Ki Blast Cannon",
+        "Kamehameha",
+        "Super Guard",
+        "Full Power Charge",
+        "Full Power Energy Wave",
+        "Spirit Explosion"
+      ],
+      "super_soul": "Gohan! Eat a Senzu Bean!",
+      "source": "https://dbxv2.fandom.com/wiki/Gohan_%28Adult%29"
+    },
+    {
+      "id": "frieza-final-preset-2",
       "character_id": "frieza-final-form",
+      "name": "Frieza (Final Form) Preset 2",
+      "preset_number": 2,
       "skill_names": [
         "Death Slash",
         "Death Beam",
@@ -93,75 +192,10 @@
       "source": "https://dbxv2.fandom.com/wiki/Frieza_%28Final_Form%29"
     },
     {
-      "preset_id": "vegeta-preset-2",
-      "character_id": "vegeta",
-      "skill_names": [
-        "Sledgehammer",
-        "Energy Wave Combo",
-        "Shine Shot",
-        "Energy Charge",
-        "Full Power Energy Wave",
-        "Explosive Wave"
-      ],
-      "source": "https://dbxv2.fandom.com/wiki/Vegeta"
-    },
-    {
-      "preset_id": "vegeta-preset-3",
-      "character_id": "vegeta",
-      "skill_names": [
-        "Meteor Crash",
-        "Earth Splitting Galick Gun",
-        "Finish Breaker",
-        "Energy Charge",
-        "Super Galick Gun",
-        "Explosive Wave"
-      ],
-      "source": "https://dbxv2.fandom.com/wiki/Vegeta"
-    },
-    {
-      "preset_id": "vegeta-preset-6",
-      "character_id": "vegeta",
-      "skill_names": [
-        "Sledgehammer",
-        "Galick Gun",
-        "Finish Breaker",
-        "Full Power Charge",
-        "Full Power Energy Blast Volley",
-        "Super Back Jump"
-      ],
-      "source": "https://dbxv2.fandom.com/wiki/Vegeta"
-    },
-    {
-      "preset_id": "vegeta-preset-7",
-      "character_id": "vegeta",
-      "skill_names": [
-        "Meteor Crash",
-        "Galick Gun",
-        "Afterimage",
-        "Full Power Charge",
-        "Full Power Energy Blast Volley",
-        "Super Galick Gun",
-        "Explosive Wave"
-      ],
-      "source": "https://dbxv2.fandom.com/wiki/Vegeta"
-    },
-    {
-      "preset_id": "gohan-adult-preset-3",
-      "character_id": "gohan-adult",
-      "skill_names": [
-        "Ki Blast Cannon",
-        "Kamehameha",
-        "Super Guard",
-        "Full Power Charge",
-        "Full Power Energy Wave",
-        "Spirit Explosion"
-      ],
-      "super_soul": "Gohan! Eat a Senzu Bean!",
-      "source": "https://dbxv2.fandom.com/wiki/Gohan_%28Adult%29"
-    },
-    {
-      "preset_id": "frieza-first-preset-2",
+      "id": "frieza-first-preset-2",
       "character_id": "frieza-first-form",
+      "name": "Frieza (1st Form) Preset 2",
+      "preset_number": 2,
       "skill_names": [
         "Death Wave",
         "Death Beam",
@@ -174,37 +208,42 @@
       "source": "https://dbxv2.fandom.com/wiki/Frieza_%281st_Form%29"
     },
     {
-      "id": "vegito-preset-2",
+      "id": "vegetto-preset-2",
       "character_id": "vegito",
+      "name": "Vegito Preset 2",
       "preset_number": 2,
+      "skill_names": [
+        "Super Dragon Fist",
+        "Kamehameha",
+        "Instant Transmission",
+        "Charged Ki Wave",
+        "Super Kamehameha",
+        "Spirit Sword",
+        "Spirit Explosion"
+      ],
       "source": "https://dbxv2.fandom.com/wiki/Vegito"
     },
     {
       "id": "vegito-preset-3",
       "character_id": "vegito",
+      "name": "Vegito Preset 3",
       "preset_number": 3,
+      "skill_names": [
+        "Sledgehammer",
+        "Big Bang Attack",
+        "Finish Breaker",
+        "Full Power Charge",
+        "Final Flash",
+        "Spirit Sword",
+        "Explosive Wave"
+      ],
       "source": "https://dbxv2.fandom.com/wiki/Vegito"
     },
     {
-      "id": "vegeta-preset-8",
-      "character_id": "vegeta",
-      "preset_number": 8,
-      "source": "https://dbxv2.fandom.com/wiki/Vegeta",
-      "skill_names": [
-        "Sledgehammer",
-        "Energy Wave Combo",
-        "Big Bang Attack",
-        "Full Power Charge",
-        "Final Flash",
-        "Explosive Wave",
-        "Super Vegeta"
-      ]
-    },
-    {
       "id": "captain-ginyu-preset-2",
       "character_id": "captain-ginyu",
+      "name": "Captain Ginyu Preset 2",
       "preset_number": 2,
-      "source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu",
       "skill_names": [
         "Sledgehammer",
         "Milky Cannon",
@@ -213,26 +252,31 @@
         "Full Power Energy Wave",
         "Body Change",
         "Break Strike"
-      ]
+      ],
+      "super_soul": "Let me show you how it's done.",
+      "source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu"
     },
     {
       "id": "captain-ginyu-preset-3",
       "character_id": "captain-ginyu",
+      "name": "Captain Ginyu Preset 3 (Vegeta)",
       "preset_number": 3,
-      "source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu",
+      "notes": "Source labels this preset as a Vegeta-body configuration; identity mapping requires dedicated verification.",
       "skill_names": [
         "Sledgehammer",
         "Milky Cannon",
         "Consecutive Energy Blast",
         "Fighting Pose F",
         "Body Change"
-      ]
+      ],
+      "source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu"
     },
     {
       "id": "captain-ginyu-preset-4",
       "character_id": "captain-ginyu",
+      "name": "Captain Ginyu Preset 4 (Xeno Trunks)",
       "preset_number": 4,
-      "source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu",
+      "notes": "Source labels this preset as an Xeno Trunks-body configuration; identity mapping requires dedicated verification.",
       "skill_names": [
         "Ki Explosion",
         "Milky Cannon",
@@ -240,70 +284,14 @@
         "Charged Ki Wave",
         "Full Power Energy Wave",
         "Break Strike"
-      ]
-    },
-    {
-      "id": "vegeta-preset-8",
-      "character_id": "vegeta",
-      "preset_number": 8,
-      "source": "https://dbxv2.fandom.com/wiki/Vegeta",
-      "skill_names": [
-        "Sledgehammer",
-        "Energy Wave Combo",
-        "Big Bang Attack",
-        "Full Power Charge",
-        "Final Flash",
-        "Explosive Wave",
-        "Super Vegeta"
-      ]
-    },
-    {
-      "id": "captain-ginyu-preset-2",
-      "character_id": "captain-ginyu",
-      "preset_number": 2,
-      "source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu",
-      "skill_names": [
-        "Sledgehammer",
-        "Milky Cannon",
-        "Holstein Shock",
-        "Fighting Pose F",
-        "Full Power Energy Wave",
-        "Body Change",
-        "Break Strike"
-      ]
-    },
-    {
-      "id": "captain-ginyu-preset-3",
-      "character_id": "captain-ginyu",
-      "preset_number": 3,
-      "source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu",
-      "skill_names": [
-        "Sledgehammer",
-        "Milky Cannon",
-        "Consecutive Energy Blast",
-        "Fighting Pose F",
-        "Body Change"
-      ]
-    },
-    {
-      "id": "captain-ginyu-preset-4",
-      "character_id": "captain-ginyu",
-      "preset_number": 4,
-      "source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu",
-      "skill_names": [
-        "Ki Explosion",
-        "Milky Cannon",
-        "Backflip",
-        "Charged Ki Wave",
-        "Full Power Energy Wave",
-        "Break Strike"
-      ]
+      ],
+      "source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu"
     },
     {
       "id": "bardock-preset-1",
       "character_id": "bardock",
+      "name": "Bardock Preset 1",
       "preset_number": 1,
-      "source": "https://dbxv2.fandom.com/wiki/Bardock",
       "skill_names": [
         "Meteor Crash",
         "Tyrant Lancer",
@@ -311,13 +299,15 @@
         "Energy Charge",
         "Full Power Energy Wave",
         "Super Back Jump"
-      ]
+      ],
+      "super_soul": "Now it's all over...",
+      "source": "https://dbxv2.fandom.com/wiki/Bardock"
     },
     {
       "id": "bardock-preset-2",
       "character_id": "bardock",
+      "name": "Bardock Preset 2",
       "preset_number": 2,
-      "source": "https://dbxv2.fandom.com/wiki/Bardock",
       "skill_names": [
         "Meteor Crash",
         "Tyrant Lancer",
@@ -326,13 +316,14 @@
         "Brave Heat",
         "Explosive Wave",
         "Super Saiyan"
-      ]
+      ],
+      "source": "https://dbxv2.fandom.com/wiki/Bardock"
     },
     {
       "id": "bardock-preset-3",
       "character_id": "bardock",
+      "name": "Bardock Preset 3",
       "preset_number": 3,
-      "source": "https://dbxv2.fandom.com/wiki/Bardock",
       "skill_names": [
         "Rebellion Spear",
         "Energy Wave Combo",
@@ -340,13 +331,14 @@
         "Charged Ki Wave",
         "Saiyan Spirit",
         "Explosive Wave"
-      ]
+      ],
+      "source": "https://dbxv2.fandom.com/wiki/Bardock"
     },
     {
       "id": "bardock-preset-4",
       "character_id": "bardock",
+      "name": "Bardock Preset 4",
       "preset_number": 4,
-      "source": "https://dbxv2.fandom.com/wiki/Bardock",
       "skill_names": [
         "Rebellion Spear",
         "Tyrant Lancer",
@@ -354,15 +346,16 @@
         "Maximum Charge",
         "Super Ki Explosion",
         "Saiyan Spirit",
-        "Explosive Wave",
-        "Super Saiyan"
-      ]
+        "Super Saiyan",
+        "Explosive Wave"
+      ],
+      "source": "https://dbxv2.fandom.com/wiki/Bardock"
     },
     {
       "id": "raditz-preset-1",
       "character_id": "raditz",
+      "name": "Raditz Preset 1",
       "preset_number": 1,
-      "source": "https://dbxv2.fandom.com/wiki/Raditz",
       "skill_names": [
         "Meteor Blow",
         "Double Sunday",
@@ -370,26 +363,28 @@
         "Energy Charge",
         "Weekend",
         "Break Strike"
-      ]
+      ],
+      "source": "https://dbxv2.fandom.com/wiki/Raditz"
     },
     {
       "id": "nappa-preset-1",
       "character_id": "nappa",
+      "name": "Nappa Preset 1",
       "preset_number": 1,
-      "source": "https://dbxv2.fandom.com/wiki/Nappa",
       "skill_names": [
         "Sledgehammer",
         "Energy Shot",
         "Genocide Shell",
         "Full Power Charge",
         "Giant Storm"
-      ]
+      ],
+      "source": "https://dbxv2.fandom.com/wiki/Nappa"
     },
     {
       "id": "recoome-preset-1",
       "character_id": "recoome",
+      "name": "Recoome Preset 1",
       "preset_number": 1,
-      "source": "https://dbxv2.fandom.com/wiki/Recoome",
       "skill_names": [
         "Sledgehammer",
         "Recoome Eraser Gun",
@@ -397,13 +392,15 @@
         "Fighting Pose J",
         "Ultra Fighting Bomber",
         "Turn Retreat"
-      ]
+      ],
+      "super_soul": "Your life is mine! Toh!",
+      "source": "https://dbxv2.fandom.com/wiki/Recoome"
     },
     {
       "id": "recoome-preset-2",
       "character_id": "recoome",
+      "name": "Recoome Preset 2",
       "preset_number": 2,
-      "source": "https://dbxv2.fandom.com/wiki/Recoome",
       "skill_names": [
         "Mighty Explosive Wave",
         "Energy Wave Combo",
@@ -412,13 +409,14 @@
         "Full Power Energy Wave",
         "Ultra Fighting Bomber",
         "Final Pose"
-      ]
+      ],
+      "source": "https://dbxv2.fandom.com/wiki/Recoome"
     },
     {
       "id": "zarbon-preset-1",
       "character_id": "zarbon",
+      "name": "Zarbon Preset 1",
       "preset_number": 1,
-      "source": "https://dbxv2.fandom.com/wiki/Zarbon",
       "skill_names": [
         "Gorgeous Shot",
         "Consecutive Energy Blast",
@@ -426,13 +424,15 @@
         "Energy Charge",
         "Elegant Blaster",
         "Bloody Counter"
-      ]
+      ],
+      "super_soul": "H-How could he?!",
+      "source": "https://dbxv2.fandom.com/wiki/Zarbon"
     },
     {
       "id": "zarbon-preset-2",
       "character_id": "zarbon",
+      "name": "Zarbon Preset 2",
       "preset_number": 2,
-      "source": "https://dbxv2.fandom.com/wiki/Zarbon",
       "skill_names": [
         "Gorgeous Shot",
         "Energy Wave Combo",
@@ -440,10 +440,11 @@
         "Energy Charge",
         "Elegant Blaster",
         "Bloody Counter"
-      ]
+      ],
+      "source": "https://dbxv2.fandom.com/wiki/Zarbon"
     }
   ],
-  "evidence_boundary": "Twenty-three preset records have explicit sourced loadouts; unresolved records remain unresolved unless an explicit source identifies the same preset number/name. Zarbon Presets 1–2 are directly supported by the Battle Suit tables. Festival/custom-partner configurations remain separate.",
+  "evidence_boundary": "The verified preset list is derived deterministically from docs/data/character-presets-record-layer.json records marked loadout_status=verified. No unresolved preset was promoted. Festival/custom-partner configurations remain separate, and source labels such as Captain Ginyu body-swap rows remain identity boundaries.",
   "source_backed_candidates_reviewed": [
     {
       "character_id": "goku",
