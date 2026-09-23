@@ -6150,3 +6150,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Evidence boundary preserved: these are classification corrections based on each record's existing explicit source; no new acquisition route or current rotation claim was inferred.
 - CI/runtime remains unavailable; no CI success claimed.
 - **Exact next task:** build/reconcile the dedicated Expert Mission and mentor endpoint layer, then address Tokipedia/Conton City Patrol endpoint consumers and their cross-links.
+
+
+### 2026-09-23 cycle update — Expert Mission canonical endpoint layer
+- Added `docs/data/expert-mission-endpoints.json`: **18 deterministic EM03–EM20 endpoints**.
+- Resolved **8 mission→canonical-skill edges** and exposed **10 explicit unresolved reward-name consumers** where `skills.json` has no matching canonical record.
+- Added `docs/data/expert-mission-endpoint-audit-2026-09-23.json`; structural validation passes.
+- Unresolved Expert Mission rewards were deliberately not assigned guessed skill IDs. This converts a hidden data gap into an auditable cross-link target.
+- **Exact next task:** promote/reconcile the 10 unresolved Expert Mission skill identities against the repository's research batches, then build the Tokipedia and Conton City Patrol endpoint consumers.
