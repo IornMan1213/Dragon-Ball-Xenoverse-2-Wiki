@@ -6,7 +6,7 @@
   "method": "Exact canonical-name resolution against each registered identity layer, with non-exact source/display terminology classified only through the explicit endpoint alias/granularity bridge.",
   "canonical_baseline": {
     "pq_records": 186,
-    "relationship_edges": 859,
+    "relationship_edges": 854,
     "counts": {"skills":244,"super_souls":151,"equipment":124,"characters":247,"dlc":86,"farming":7}
   },
   "domains": {
