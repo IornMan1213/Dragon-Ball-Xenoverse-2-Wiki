@@ -74,16 +74,13 @@
     {
       "name": "Super Destructo-Disc",
       "id": "skill-super-destructo-disc"
-    }
-  ],
-  "canonical_missing_exact_records": [
+    },
     {
       "name": "Power Pole Combo",
-      "status": "unresolved_canonical_identity",
-      "evidence": "Official pack inclusion only; existing repository research explicitly distinguishes Power Pole from Power Pole Combo.",
-      "note": "No dedicated exact-name canonical research record was found; no ID invented."
+      "id": "skill-power-pole-combo"
     }
   ],
+  "canonical_missing_exact_records": [],
   "pq_navigation_state": {
     "direct_canonical_pq_edges_documented_in_pack_audit": 6,
     "advertised_super_attacks_without_direct_pq_edge": 7,
@@ -98,9 +95,9 @@
   ],
   "validation": {
     "official_attack_count": 13,
-    "exact_canonical_skill_records": 12,
-    "exact_canonical_skill_records_missing": 1,
+    "exact_canonical_skill_records": 13,
+    "exact_canonical_skill_records_missing": 0,
     "json_parse_target": "pass"
   },
-  "next_action": "Research Power Pole Combo as a distinct identity; do not alias it to Power Pole or Power Pole Pro. Then continue the remaining five Support Pack costume identities and Puar."
+  "next_action": "Continue the five remaining unmatched Time Patrol Support Pack costume identities, using individually source-backed evidence and preserving the existing equipment architecture; then reconcile Puar."
 }
