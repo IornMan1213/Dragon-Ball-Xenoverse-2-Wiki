@@ -6299,3 +6299,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime remains unavailable; no CI success claimed.
 - **Next task:** continue the remaining unresolved variant/aggregate cluster, with particular care around contradictory Toppo/Android 21, Champa/Vados/Frieza, and Ultra Supervillain source tokens.
 - Commits: `bcdeda5a3a8705be15a10be7a68e61cc2aa9809c`, `9c28cfeb1c5d187cc5b42c6e5757bb206302730b`, `519f6a9d96b6675ce521cb04f9cc583dde0cb486`, `5f32a282248f443945684aaa0417f63569d7369a`.
+
+
+### 2026-09-23 cycle update — Meteor Strike / Android 21 / Vegeta / Majin identity batch
+
+- Reconciled **5 additional skill→character entries**, adding **7 canonical edges**.
+- Resolved: Meteor Strike → Goku + Gohan (Kid); Photon Swipe → Android 21 with the legacy Toppo token preserved as a conflict; Total Detonation Ball → Android 21 with the legacy Toppo token preserved; X 100 Big Bang Kamehameha → SSGSS Vegeta; Zigzag Express → Majin (Male).
+- Cumulative bridge: **29 resolved skill records / 41 canonical edges / 15 canonical character targets**.
+- Remaining unresolved character/variant entries: **17**.
+- Current external evidence confirms Photon Swipe and Total Detonation Ball as Android 21 skills, while the repository's legacy source tokens remain preserved for provenance/audit purposes. citeturn0search0turn0youtube23
+- CI/runtime remains unavailable; no CI success claimed.
+- **Next task:** reconcile the remaining unresolved entries, prioritizing exact canonical identities while keeping unresolved source conflicts explicit.
+- Commits: `a47c5e547f5f1be0df2d4d1281aca13bd4da41bb`, `461a3dae02404b3667a91af027514d4da73439ff`, `d430781fc8df4c62d1d0f9e421ed792a1ac2f8a9`, `8c716172fa49889e64cd033fcc69e6a706412ee8`.
