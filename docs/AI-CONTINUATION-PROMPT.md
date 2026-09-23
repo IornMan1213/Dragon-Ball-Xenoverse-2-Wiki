@@ -5102,3 +5102,8 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation by live record inspection: all five exact equipment/accessory IDs resolve in the canonical equipment/accessory layer; all four PQs and five paid equipment/accessory endpoints are source-backed; no canonical relationship rows were invented.
 - CI/runtime remains unavailable; no CI success claimed.
 - Exact next priority: DAIMA paid non-skill/Super-Soul inventory reconciliation, beginning with the concrete costume/accessory cohort and official pack-level scope; preserve the paid/free-update boundary and do not invent unresolved raid/lobby/stage records.
+
+
+### 2026-09-23 correction — HERO OF JUSTICE Pack 2 matrix stale-domain cleanup
+- Corrected the live DLC pack matrix after validation: `exact_stage_identity` is no longer listed as unresolved because the stage identity **Red Ribbon Army (Yard)** was reconciled at pack scope.
+- Remaining unresolved Pack 2 domains are limited to complete pack inventory, mission record layer, stage record layer, and extra-mission record layer; no synthetic stage/mission records were introduced.
