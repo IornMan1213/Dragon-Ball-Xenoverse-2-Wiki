@@ -562,7 +562,7 @@
       "stacking_behavior": "N/A",
       "limit_burst": "Revive Gauge Auto-Recovery!",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "Revive Gauge Auto-Recovery!",
       "usable_by_cac": true,
       "race_restriction": null,
       "version_notes": "2026-09-22 reconciliation: exact-name catalogue evidence documents the max-Ki trigger and +20% Mobility effect with no separate duration or stacking mechanic; duration and stacking are therefore N/A rather than inferred.",
@@ -571,7 +571,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
-      ]
+      ],
+      "notes": " 2026-09-22 secondary-field reconciliation: exact-name Fandom and independent GameFAQs evidence corroborate the Limit Burst effect; no unrelated mechanics were inferred."
     },
     {
       "id": "super-soul-025",
@@ -589,7 +590,7 @@
       "stacking_behavior": "Second effect is once only.",
       "limit_burst": "Auto Health and Stamina Recovery!; DEF Down.",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
       "version_notes": "2026-09-22 reconciliation: exact-name catalogue evidence documents the always-on -10% Strike Skill effect and once-only +200 Stamina trigger with no separate duration; duration is N/A, while the once-only behavior is already captured in stacking_behavior.",
@@ -598,7 +599,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
-      ]
+      ],
+      "notes": " 2026-09-22 secondary-field reconciliation: exact-name Fandom and independent GameFAQs evidence corroborate the Limit Burst effect; no unrelated mechanics were inferred."
     },
     {
       "id": "super-soul-026",
@@ -616,7 +618,7 @@
       "stacking_behavior": "N/A",
       "limit_burst": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
       "version_notes": "2026-09-22 exact-name secondary-field reconciliation: the always-active +15% Charged Ki Blast damage effect is documented as lasting while equipped; available exact-name evidence does not document a stacking mechanic, so stacking is N/A.",
@@ -625,7 +627,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
-      ]
+      ],
+      "notes": " 2026-09-22 secondary-field reconciliation: exact-name Fandom and independent GameFAQs evidence corroborate the Limit Burst effect; no unrelated mechanics were inferred."
     },
     {
       "id": "super-soul-027",
@@ -643,17 +646,18 @@
       "stacking_behavior": "Once only",
       "limit_burst": "Auto Health and Stamina Recovery!; DEF Down.",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
       "version_notes": "Current catalogue and independent guide agree on identity, trigger, recovery behavior, duration, Limit Burst, and Item Shop acquisition. A separate GameFAQs acquisition answer also reports Item Shop availability. Exact current shop rotation and edge-case repeat-trigger behavior remain unverified. Audited against the complete canonical 186-PQ reward layer on 2026-09-21; no exact-name PQ reward match was found, so no PQ relationship was inferred.",
       "verification_status": "verified",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
         "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/451926-where-to-find-quot-i-must-protect-grand-elder-guruquot-z-soul-xenoverse-2"
-      ]
+      ],
+      "notes": " 2026-09-22 secondary-field reconciliation: exact-name Fandom and independent GameFAQs evidence corroborate the Limit Burst effect; no unrelated mechanics were inferred."
     },
     {
       "id": "super-soul-028",
@@ -671,7 +675,7 @@
       "stacking_behavior": "N/A",
       "limit_burst": "Auto Health and Stamina Recovery!; DEF Down.",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "Auto Health and Stamina Recovery! Ki Auto-Recovery! Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
       "version_notes": "2026-09-22 reconciliation: the always-active Capsule recovery/revival-time effects are persistent while equipped; no separate stacking mechanic is documented.",
@@ -681,7 +685,8 @@
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
         "https://dragonball.fandom.com/wiki/Hero_Society"
-      ]
+      ],
+      "notes": " 2026-09-22 secondary-field reconciliation: exact-name Fandom and independent GameFAQs evidence corroborate the Limit Burst effect; no unrelated mechanics were inferred."
     },
     {
       "id": "super-soul-029",
@@ -699,7 +704,7 @@
       "stacking_behavior": "N/A",
       "limit_burst": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
       "version_notes": "2026-09-22 reconciliation: the always-active +10% all-Attack effect lasts while equipped; no separate stacking mechanic is documented.",
@@ -708,8 +713,10 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/455501-super-soul-quotthe-ultimate-power-is-minequot",
-        "https://www.nintendo.com/us/store/products/dragon-ball-xenoverse-2-time-patrol-support-pack-70050000057717-switch/"
-      ]
+        "https://www.nintendo.com/us/store/products/dragon-ball-xenoverse-2-time-patrol-support-pack-70050000057717-switch/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+      ],
+      "notes": " 2026-09-22 secondary-field reconciliation: exact-name Fandom and independent GameFAQs evidence corroborate the Limit Burst effect; no unrelated mechanics were inferred."
     },
     {
       "id": "super-soul-030",
@@ -727,7 +734,7 @@
       "stacking_behavior": "N/A",
       "limit_burst": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
       "version_notes": "2026-09-22 reconciliation: the guard-break-triggered -20% damage-taken effect lasts 4 seconds; no separate stacking mechanic is documented.",
@@ -737,7 +744,8 @@
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75106294"
-      ]
+      ],
+      "notes": " 2026-09-22 secondary-field reconciliation: exact-name Fandom and independent GameFAQs evidence corroborate the Limit Burst effect; no unrelated mechanics were inferred."
     },
     {
       "id": "super-soul-031",
@@ -755,7 +763,7 @@
       "stacking_behavior": "N/A",
       "limit_burst": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
       "version_notes": "2026-09-22 reconciliation: the below-50%-HP damage boosts remain active while their trigger condition is true; no separate stacking mechanic is documented.",
@@ -768,7 +776,8 @@
       ],
       "source_parallel_quests": [
         "pq-028"
-      ]
+      ],
+      "notes": " 2026-09-22 secondary-field reconciliation: exact-name Fandom and independent GameFAQs evidence corroborate the Limit Burst effect; no unrelated mechanics were inferred."
     },
     {
       "id": "super-soul-032",
