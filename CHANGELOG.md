@@ -2514,3 +2514,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Preserved existing acquisition, reward-tier, Ultimate Finish, race, and DLC evidence boundaries, including the Data Input presentation conflict.
 - Added and registered `docs/data/skill-provenance-audit-2026-09-23-darkness-through-data-input.json`.
 - Validation target: **455 canonical / 455 index / 0 duplicate IDs**; target source/date parity maintained.
+
+## 2026-09-23 — Dead End Rain through Death Crasher provenance refresh
+
+- Refreshed **Dead End Rain, Deadly Dance, Death Ball, Death Beam, and Death Crasher** in canonical/index layers.
+- Rechecked existing repository provenance and preserved acquisition, reward-tier, scope, cost, mechanics, and Ultimate Finish semantics.
+- Added/registered `docs/data/skill-provenance-audit-2026-09-23-dead-end-rain-through-death-crasher.json`.
+- Validation target: **455 canonical / 455 index / 0 duplicate IDs / 5 targets synchronized**.
