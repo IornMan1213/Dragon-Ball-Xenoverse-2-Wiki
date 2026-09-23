@@ -3604,3 +3604,12 @@
 - [x] Preserved the unresolved mission/stage record-layer tasks rather than fabricating IDs or fields.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: continue the remaining concrete paid-DLC inventory gap, with illustration/loading-screen identities as the next evidence-led domain where individual records can be source-backed.
+
+
+### 2026-09-23 — TODO completion update — DAIMA / HERO OF JUSTICE Pack 2 playable-character count reconciliation
+- [x] Reconciled official paid-DLC playable-character counts against the existing canonical character layer: DAIMA **2/2** and HERO OF JUSTICE Pack 2 **3/3**.
+- [x] Exact canonical identities confirmed: DAIMA — SS4 Goku (DAIMA), SS3 Vegeta (DAIMA); HOJ2 — Gohan (Beast), Orange Piccolo, Piccolo (Power Awakening).
+- [x] Added `docs/data/dlc/daima-hoj2-playable-character-count-reconciliation-2026-09-23.json` and registered the reconciliation in the DLC pack matrix.
+- [x] Preserved the evidence boundary: count reconciliation does not infer additional DLC ownership, character variants, or PQ reward relationships.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: reconcile the next concrete paid-DLC domain with an existing canonical record layer; prioritize a deterministic cross-domain completeness gap over creating a new illustration layer without individually source-backed identities.
