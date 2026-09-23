@@ -5225,3 +5225,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Current Support Pack skill state: **12/13 exact canonical identities; Power Pole Combo remains the only missing exact skill identity.**
 - Validation: modified JSON files parse; promoted IDs are unique; canonical and index record counts both equal 454. CI/runtime remains unavailable.
 - Exact next task: research **Power Pole Combo** as a distinct identity without aliasing it to Power Pole or Power Pole Pro; then continue the five remaining costume identities and Puar.
+
+### 2026-09-23 final parity correction — Support Pack skill promotion cycle
+- [x] Final canonical/index validation after the promotion sequence: `docs/data/skills.json` = **454 records**, `docs/data/skills-index.json` = **454 records**; both have 454 unique IDs; ID sets and name sets are exactly equal.
+- [x] Confirmed both promoted identities exist in both layers: `skill-big-bang-attack` and `skill-super-destructo-disc`.
+- [x] The intermediate one-sided promotion state was repaired by adding the missing counterpart to each layer; the final live repository state is synchronized and validated.
+- [x] Final parity repair commits: `eaa78bca0d308d7b563eab75d57ae641410424fb` and `f09c28c9f30cfc59e4eb4ea5c75e6f0288e94c3f`.
+- [x] No CI success claimed; validation was performed directly against the live canonical and index JSON structures.
+- [ ] Next exact task remains **Power Pole Combo** identity research, followed by the five remaining Support Pack costume identities and Puar.
