@@ -5107,3 +5107,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 ### 2026-09-23 correction — HERO OF JUSTICE Pack 2 matrix stale-domain cleanup
 - Corrected the live DLC pack matrix after validation: `exact_stage_identity` is no longer listed as unresolved because the stage identity **Red Ribbon Army (Yard)** was reconciled at pack scope.
 - Remaining unresolved Pack 2 domains are limited to complete pack inventory, mission record layer, stage record layer, and extra-mission record layer; no synthetic stage/mission records were introduced.
+
+
+### 2026-09-23 cycle update — DAIMA paid costume/accessory completeness reconciliation
+- Reconciled the official DAIMA Pack **8 Costumes/Accessories** count using exact canonical downstream identities: 4 costumes (`equip-098`, `equip-100`, `equip-102`, `equip-103`) and 4 canonical accessories (`acc-071`–`acc-074`, retaining `equip-099`, `equip-101`, `equip-104`, `equip-105` as aliases).
+- The eight identities map to PQ179–181: SS4 Goku (DAIMA) Suit / Wig & Tail, SS3 Vegeta (DAIMA) Battle Suit / Wig, Glorio's Clothes / Wig, and Panzy's Clothes / Wig.
+- Added `docs/data/dlc/daima-paid-costume-accessory-completeness-reconciliation-2026-09-23.json`, registered it in `docs/data/pq-cross-domain-index.json`, and updated the DAIMA DLC pack matrix.
+- Official platform listings independently confirm the paid pack contains **8 Costumes/Accessories**. 
+- Removed the resolved paid costume/accessory gap from the DAIMA matrix. Remaining unresolved DAIMA domains are free-update inventory, raid/lobby record layers, and complete loading-screen inventory; reward-slot/guaranteed-drop semantics remain unresolved where not established by the canonical PQ relationship layer.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next priority: continue remaining DAIMA paid domains only where concrete canonical records and official scope permit; prioritize loading-screen completeness if a canonical illustration layer can be reconciled, otherwise continue the next unresolved paid domain without crossing into free-update ownership.
