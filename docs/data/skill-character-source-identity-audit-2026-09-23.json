@@ -6,10 +6,10 @@
   "canonical_skill_count": 465,
   "skills_with_character_source": 227,
   "source_tokens": 232,
-  "exact_bridge_matches": 219,
-  "unresolved_source_tokens": 13,
+  "exact_bridge_matches": 223,
+  "unresolved_source_tokens": 9,
   "non_character_source_tokens": 6,
-  "unresolved_character_or_variant_tokens": 7,
+  "unresolved_character_or_variant_tokens": 3,
   "findings": {
     "exact_matches": [
       "Android 13",
@@ -96,34 +96,14 @@
         "character_source": "Champa"
       },
       {
-        "skill_id": "skill-dragon-spiral",
-        "skill": "Dragon Spiral",
-        "character_source": "Goku (Ultra Supervillain Quelled)"
-      },
-      {
         "skill_id": "skill-flash-chaser",
         "skill": "Flash Chaser",
         "character_source": "Kefla"
       },
       {
-        "skill_id": "skill-indomitable",
-        "skill": "Indomitable",
-        "character_source": "Goku (Ultra Supervillain Quelled)"
-      },
-      {
         "skill_id": "skill-sonic-bomb",
         "skill": "Sonic Bomb",
         "character_source": "Champa"
-      },
-      {
-        "skill_id": "skill-venus-fist",
-        "skill": "Venus Fist",
-        "character_source": "Goku (Ultra Supervillain Quelled)"
-      },
-      {
-        "skill_id": "skill-wild-buster",
-        "skill": "Wild Buster",
-        "character_source": "Vegeta (GT)"
       }
     ],
     "non_character_sources": [
@@ -160,5 +140,5 @@
     ]
   },
   "evidence_boundary": "This is an identity/navigation gap inventory, not an assertion that unresolved source strings are incorrect. Variant naming, cast-only forms, customize-partner labels, and aggregate user lists require explicit reconciliation before adding bridge records.",
-  "next_action": "Reconcile the remaining unresolved character_source tokens in bounded batches, prioritizing canonical roster identities; preserve source conflicts and promote missing canonical character records only when the character-layer evidence contract permits."
+  "next_action": "Reconcile the remaining 3 character-source conflicts: Destruction's Conductor (Champa), Flash Chaser (legacy Kefla token versus current Majuub evidence), and Sonic Bomb (legacy Champa token versus current Frieza evidence). Preserve conflicts until the source field itself is corrected by a separately governed provenance pass."
 }
