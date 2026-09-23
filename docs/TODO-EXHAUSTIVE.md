@@ -4974,3 +4974,14 @@
 - Added this evidence boundary to `docs/data/preset-battle-suit-reconciliation-2026-09-23.json`.
 - Commit: `72c73a62768f0428ffda7f81ad13ac9381c88006b`.
 - **Next task:** move to the next highest-priority preset/data-quality task unless explicit game-data identifiers for 10/11 are discovered; do not fabricate missing loadouts.
+
+
+### 2026-09-23 cycle update — PQ endpoint navigation current-baseline synchronization
+- [x] Recomputed the live PQ endpoint/navigation baseline after the 465-skill, 234-Super-Soul, 173-equipment/accessory, and 151-character expansions.
+- [x] Corrected the current-state fields in `docs/data/pq-endpoint-navigation-validation.json` from the superseded 452/149/854/146 snapshot to **465 skills / 234 Super Souls / 173 equipment-accessory / 151 characters / 853 total PQ relationship edges / 142 unique Super Soul reverse targets**.
+- [x] Preserved older baseline values as historical context rather than deleting history.
+- [x] Added and registered `docs/data/pq-endpoint-navigation-current-baseline-audit-2026-09-23.json`.
+- [x] Validation: JSON reparsed; endpoint counts match the canonical relationship baseline; no reward relationship or identity was added or removed.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [x] Commits: validation `f202b61a6033d2155ba596286981a805b95ee046`; audit `d615a237d038ff4822891f335b1150f8f41eb648`; registration `a3bc8cebbf9a2944259cae1cab2f99326cfddeb2`; handoff `2069c1d8fca821c165939a2c2a249698956712db`.
+- **Exact next task:** continue the broader deterministic producer/consumer census beyond the PQ endpoint validator, prioritizing remaining current-state projections with superseded skill/character/domain counts; then return to source-backed preset-loadout reconciliation only where explicit loadout evidence exists.
