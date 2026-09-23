@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-23",
+  "scope": "Time Patrol Support Pack paid value-pack content reconciliation",
+  "official_sources": [
+    "https://store.steampowered.com/app/3581800/DRAGON_BALL_XENOVERSE_2__Time_Patrol_Support_Pack/",
+    "https://www.nintendo.com/us/store/products/dragon-ball-xenoverse-2-time-patrol-support-pack-70050000057717-switch/",
+    "https://www.xbox.com/en-US/games/store/dragon-ball-xenoverse-2-time-patrol-support-pack/9NRRJXR84XT0"
+  ],
+  "status": "paid_pack_scope_reconciled; canonical cross-domain coverage partial",
+  "advertised_content": {
+    "consumables": {
+      "energy_capsule_z": 10,
+      "power_capsule_z": 10,
+      "aura_capsule_z": 10,
+      "senzu_essence_capsule": 5,
+      "zen_oh_button": 3,
+      "demon_realm_crystal": 5,
+      "super_mix_capsule_z": 5
+    },
+    "super_attacks": 10,
+    "ultimate_attacks": 3,
+    "costumes": 8,
+    "accessories": 2,
+    "super_souls": 3,
+    "cc_mascots": 1
+  },
+  "canonical_crosslinks": {
+    "pq_skill_edges_found": 6,
+    "pq_skill_edges": [
+      {
+        "id": "skill-kaioken-kamehameha",
+        "name": "Kaioken Kamehameha",
+        "pq": "pq-014"
+      },
+      {
+        "id": "skill-death-psycho-bomb",
+        "name": "Death Psycho Bomb",
+        "pq": "pq-033"
+      },
+      {
+        "id": "skill-justice-pose",
+        "name": "Justice Pose",
+        "pq": "pq-053"
+      },
+      {
+        "id": "skill-warp-kamehameha",
+        "name": "Warp Kamehameha",
+        "pq": "pq-066"
+      },
+      {
+        "id": "skill-super-god-fist",
+        "name": "Super God Fist",
+        "pq": "pq-067"
+      },
+      {
+        "id": "skill-warp-kamehameha",
+        "name": "Warp Kamehameha",
+        "pq": "pq-076"
+      }
+    ],
+    "exact_canonical_equipment_records": [
+      {
+        "id": "equip-024",
+        "name": "Battle Suit (Bardock)",
+        "domain": "equipment"
+      },
+      {
+        "id": "equip-087",
+        "name": "Frieza's Suit (Final Form)",
+        "domain": "equipment"
+      },
+      {
+        "id": "acc-038",
+        "name": "Frieza's Head (Final Form)",
+        "domain": "accessory"
+      },
+      {
+        "id": "acc-039",
+        "name": "Korin Wig with Ears & Tail",
+        "domain": "accessory"
+      }
+    ],
+    "exact_canonical_super_soul_record_found": [
+      {
+        "id": "super-soul-029",
+        "name": "The ultimate power is mine!"
+      }
+    ],
+    "unresolved_or_not_promoted": [
+      "7 advertised Super Attacks have no direct canonical PQ edge in the current PQ crosslink report.",
+      "2 advertised Ultimate Attacks have no direct canonical PQ edge; Warp Kamehameha has two canonical PQ endpoints.",
+      "6 advertised costumes were not exact matches in the canonical equipment record layer under the published names checked.",
+      "No canonical CC Mascot record layer was identified for Puar.",
+      "Two advertised Super Souls were not matched to canonical IDs from the current search; no IDs were inferred.",
+      "Consumable quantities are pack-delivery contents, not canonical collectible identity records."
+    ]
+  },
+  "boundary_rules": [
+    "This is a separately sold value pack, not a PQ-requirement DLC identity; it is not inserted into canonical-dlc-identity.json.",
+    "Storefront descriptions state that some content can be obtained through the in-game shop or by meeting conditions; this audit records pack inclusion/provenance rather than exclusive ownership.",
+    "No missing canonical records, IDs, acquisition routes, or relationships are fabricated."
+  ],
+  "next_action": "Promote only individually source-backed identities into canonical layers; prioritize the two unresolved Super Souls and six unmatched costume names after dedicated record-level evidence is found."
+}
