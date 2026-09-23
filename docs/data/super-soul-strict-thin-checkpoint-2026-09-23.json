@@ -44,6 +44,16 @@
       "finding": "Fresh external verification confirms the exact-name PQ186 reward endpoint. The maintained guide lists “The final battle begins now.” and “I'll use this power to protect everyone!” as PQ186 rewards, but does not map either Super Soul to a character or provide item-level mechanics/Limit Burst.",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
       "result": "Acquisition identity strengthened; strict-thin core mechanics remain unresolved."
+    },
+    {
+      "id": "super-soul-158",
+      "finding": "Exact-name research identifies “Do or Die” as a PQ49 Power Up Type Super Skill used by Nail/Piccolo; Nail's Super Soul is “I must protect Grand Elder Guru!”.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Nail",
+        "https://ultradragonball.fandom.com/wiki/Stalling",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80404900?page=6"
+      ],
+      "result": "Identity conflict marked; no mechanics promoted."
     }
   ],
   "limits": [
@@ -51,8 +61,8 @@
     "No drop probability or Normal-vs-Ultimate-Finish mapping was inferred.",
     "No 232-236 records were recreated."
   ],
-  "result": "Fresh item-level/PQ reward evidence strengthened the exact-name acquisition identity for 034, but no safe character, trigger, effect, duration, stacking, or Limit Burst promotion was found. Strict-thin queue remains 4.",
-  "next_batch": "Continue super-soul-217 Limit Burst/item-level evidence research; if unresolved, proceed to super-soul-158 collision-safe evidence research, then super-soul-032.",
+  "result": "Fresh exact-name research resolved Super Soul 158 as an identity conflict: “Do or Die” is documented as Nail's Super Skill, not his Super Soul. The record is preserved as an explicit conflict placeholder with mechanics/acquisition fields cleared rather than silently remapped.",
+  "next_batch": "Resolve the canonical ID mapping for super-soul-158 conflict placeholder; then continue super-soul-217 Limit Burst evidence and super-soul-032.",
   "next_method": "Continue authoritative/item-level mechanics and Limit Burst research for super-soul-034, then super-soul-217; do not infer mechanics from generic or same-name data.",
   "last_updated": "2026-09-23",
   "notes": [
