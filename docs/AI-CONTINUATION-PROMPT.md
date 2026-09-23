@@ -4926,3 +4926,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] No relationship edge was added, deleted, renamed, or inferred.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: identify the five Super Soul pairs represented by the 151/148 consumer audits but absent from `verified_relationships`, compare them against canonical PQ structured rewards and source-backed records, then either add only evidence-backed relationships or correct stale consumer metadata.
+
+
+### 2026-09-23 cycle update — PQ151 Super Soul consumer parity + 151/148 metadata correction
+- [x] Identified the two concrete canonical/structured Super Soul parity gaps: **PQ151 → “I'll never forgive you!”** and **PQ151 → “I'm not gonna die until I defeat you!”**.
+- [x] Added both exact reward targets to `docs/data/parallel-quests-record-layer.json` from the already-present general PQ151 rewards and source-backed canonical relationships; no Super Soul IDs, gates, probabilities, or mechanics were inferred.
+- [x] Recomputed the real consumer contract: **146 canonical pairs / 146 structured pairs / 0 missing / 0 extra**.
+- [x] Corrected stale `151/148` Super Soul counts in the consumer/navigation validation layer to the verified current **146 forward / 143 reverse** state.
+- [x] Added `docs/data/pq-super-soul-consumer-parity-repair-2026-09-23.json` documenting the exact repair.
+- [x] Canonical relationship edge count remains **859**; no canonical relationship rows were modified.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: inspect remaining cross-domain validation files for stale Super Soul 151/148 projections, then continue deterministic navigation parity repairs.
