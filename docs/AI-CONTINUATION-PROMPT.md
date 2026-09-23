@@ -1,3 +1,13 @@
+### 2026-09-23 cycle update — Residual accessory domain-resolution synchronization
+
+- Completed the deterministic residual accessory reconciliation for **Resistance Helmet (PQ111 / equip-135)** and **Gine (DB Super)'s Accessory (PQ144 / equip-050)**.
+- These were already established as canonical **equipment/accessory-domain** identities; synchronized the residual backlog and bridge to explicit domain_resolved states rather than creating duplicate acc-### identities.
+- Preserved the dedicated accessory graph at **32 forward / 32 reverse** edges and the remaining inventory-identity research backlog at **14** genuinely unresolved records.
+- Added and registered docs/data/accessory-domain-resolution-sync-2026-09-23.json.
+- Validation target: **45 research records / 74 canonical accessory identities / 29 dedicated acc matches / 2 equipment-domain resolutions / 14 unresolved inventory identities / 0 duplicate accessory edges / 0 stale endpoints**.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next task:** recompute the broader post-skill-queue cross-domain census, then prioritize the next highest-impact unresolved identity/projection gap; do not reopen resolved accessory-domain cases.
+
 ### 2026-09-23 cycle update — Lightning through Menacing skill provenance refresh
 
 - Completed the next P1 stale-skill batch: **12 records** — Lightning Impact, Lightning of Absolution, Lovely Cyclone, Mach Dash, Mach Punch, Maiden Blast, Maiden Burst, Majin Kamehameha, Masenko, Maximum Charge, Meditation, and Menacing Flare.
