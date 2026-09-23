@@ -4303,3 +4303,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - No canonical PQ relationship, acquisition identity, reward probability, or Ultimate-Finish requirement changed.
 - CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - Exact next task: continue the live strict-thin queue with the next evidence-supported partially verified records; preserve unresolved fields rather than guessing.
+
+
+### 2026-09-22 cycle correction — live Super Soul queue after 053/056/059/065
+- Live canonical Super Soul layer: **234 records / 0 duplicate IDs / 174 strict-thin records** under the established eight-field definition.
+- Completed secondary-field workstreams in this cycle: **024–031** Limit Burst effects and **053/056/059/065** Limit Burst type/effect fields.
+- Current partially-verified queue from the live canonical layer, ordered by unresolved core-field count/source support: **034** (3 missing; explicit evidence boundary), **202** (2 missing; 1 source), **032** (2 missing; 5 sources), followed by **200, 201, 203–209** (1 unresolved field each, currently single-source records).
+- **034 must remain a skip/boundary unless exact-name item-level mechanics evidence independently resolves its missing fields.** Do not manufacture values from acquisition-only evidence.
+- Exact next task: investigate **032** only if exact-name Limit Burst evidence can be independently established; otherwise move to the next evidence-supported partially-verified cluster and preserve unresolved fields.
+- CI/runtime: no successful workflow/check exposed; do not claim CI success.
