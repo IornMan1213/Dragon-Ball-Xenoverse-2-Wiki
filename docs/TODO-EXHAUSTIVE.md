@@ -2934,3 +2934,12 @@
 - [x] Both records remain strict-thin because 218 lacks an explicit duration and 219 lacks independently established duration/stacking semantics; the census was not artificially reduced.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Exact next priority: investigate the highest-impact one-field gaps with strong exact-name evidence — **191, 194, 192, and 196** — for explicit duration/stacking evidence; preserve unresolved fields if the evidence does not establish them, then continue with the next evidence-supported cluster.
+
+
+### 2026-09-22 — Super Soul 192 stacking-field reconciliation
+- [x] Reconciled **192 — “Get serious, would you?”** using the maintained exact-name Super Soul catalogue/stat sheet plus independent historical evidence.
+- [x] Recorded `stacking_behavior: "Not reported as stackable"` because the documented effect set contains no stacking mechanic; no numeric cap was invented.
+- [x] Preserved the 10-second Ki Blast-based-skill boost, -10 Stamina Just Guard effect, Auto Just Guard Limit Burst, and PQ117 acquisition relationship.
+- [x] Live census after edit: **234 canonical / 0 duplicate IDs / 151 strict-thin records**.
+- [x] Added and registered `docs/data/super-soul-192-stacking-reconciliation-2026-09-22.json`.
+- [ ] Exact next priority: continue with the next evidence-supported unresolved Super Soul field; preserve genuinely unresolved duration/stacking semantics rather than manufacturing values.
