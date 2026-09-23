@@ -7795,7 +7795,7 @@
       "mechanics_notes": "Confirmed as Great Saiyaman's 0-Ki PQ53 Power Up Super, usable by all CaC races. It boosts all stats for 20 seconds. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill in the Basic Reward section, separate from the quest's Ultimate Finish conditions.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Justice_Pose",
@@ -7806,7 +7806,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 53,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 53 as the acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.\n2026-09-22 provenance refresh: PQ53 Basic Reward remains the deterministic acquisition endpoint; the Power Up Super is 0 Ki, lasts 20 seconds, and boosts all abilities. No Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 53 as the acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.\n2026-09-22 provenance refresh: PQ53 Basic Reward remains the deterministic acquisition endpoint; the Power Up Super is 0 Ki, lasts 20 seconds, and boosts all abilities. No Ultimate Finish-only gate is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.",
       "id": "skill-justice-pose",
       "source_parallel_quests": [
         53
@@ -7828,12 +7828,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Gohan (Adult) and Videl mentor training",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Gohan (Adult) and Videl mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-22 provenance refresh: Gohan (Adult) and Videl mentor training remains the deterministic Basic Reward endpoint; 100 Ki and All CaC race scope remain supported. Detailed combat mechanics remain deferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-22 provenance refresh: Gohan (Adult) and Videl mentor training remains the deterministic Basic Reward endpoint; 100 Ki and All CaC race scope remain supported. Detailed combat mechanics remain deferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.",
       "id": "skill-justice-rush",
       "source_mentor": [
         "mentor-gohan-videl"
@@ -7857,7 +7857,7 @@
       "mechanics_notes": "Confirmed as Whis's 100-Ki Other Super from PQ63 and usable by all CaC races. It teleports the user to a selected ally/partner rather than the opponent. Current maintained reward evidence places the skill in PQ63 Basic Reward; no Ultimate Finish-only gate is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Kai_Kai",
@@ -7866,7 +7866,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 63,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ63; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: the GameFAQs Xenoverse 2 walkthrough independently lists Kai Kai among PQ63 rewards, corroborating the existing PQ63 acquisition endpoint; its table does not establish an Ultimate Finish-only gate, so none is inferred.",
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ63; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: the GameFAQs Xenoverse 2 walkthrough independently lists Kai Kai among PQ63 rewards, corroborating the existing PQ63 acquisition endpoint; its table does not establish an Ultimate Finish-only gate, so none is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.",
       "id": "skill-kai-kai",
       "source_parallel_quests": [
         63
@@ -7890,13 +7890,13 @@
       "mechanics_notes": "Stages: 100 Ki (+2.5% Strike/Blast; 3.5 Stamina/sec), 300 Ki (+7.5%; -10% Strike Defense/+10% Blast Defense; 7.5 Stamina/sec; reduced Z-Vanish cost), 500 Ki (+15%; -30% both defenses; 33 Stamina/sec; Z-Vanish costs 0). Drain accelerates at higher stages. Kaioken is the universal CaC Awoken Skill with x1/x3/x20 stages and is explicitly tied to the PQ8 Ultimate Finish.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Kaioken",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "notes": "Universal CaC Awoken Skill. One skill provides Kaioken, x3, and x20 stages according to available Ki; current reference documents 100/300/500 Ki thresholds and stamina drain. 2026-09-20 census note: explicit PQ drop-condition scan reviewed this record; the available condition text is non-specific for Kaioken/Evil Blast/Power Rush, while Lovely Cyclone retains the separately documented source conflict. No automatic gate change was made from generic wording alone.",
+      "notes": "Universal CaC Awoken Skill. One skill provides Kaioken, x3, and x20 stages according to available Ki; current reference documents 100/300/500 Ki thresholds and stamina drain. 2026-09-20 census note: explicit PQ drop-condition scan reviewed this record; the available condition text is non-specific for Kaioken/Evil Blast/Power Rush, while Lovely Cyclone retains the separately documented source conflict. No automatic gate change was made from generic wording alone.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.",
       "source_quest": 8,
       "acquisition_type": "quest_or_mission",
       "id": "skill-kaioken",
@@ -7919,13 +7919,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 14",
       "mechanics_notes": "Kaioken-enhanced Kamehameha Super. Current repository evidence identifies it as a 200-Ki Ki Blast Super with a 22-hit beam; the maintained PQ14 Basic Reward evidence does not establish an Ultimate Finish-only gate.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": 14,
       "dlc_requirement": "Base Game",
       "acquisition_type": "parallel_quest",
-      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint. 2026-09-21 provenance strengthening: maintained Steam all-PQ guide independently lists Kaioken Kamehameha in PQ14 — Saiyan Pride Basic Reward, corroborating the existing PQ14 acquisition endpoint and no-Ultimate-Finish-only interpretation.",
+      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint. 2026-09-21 provenance strengthening: maintained Steam all-PQ guide independently lists Kaioken Kamehameha in PQ14 — Saiyan Pride Basic Reward, corroborating the existing PQ14 acquisition endpoint and no-Ultimate-Finish-only interpretation.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.",
       "id": "skill-kaioken-kamehameha",
       "source_parallel_quests": [
         14
@@ -7950,7 +7950,7 @@
       "mechanics_notes": "Sets four delayed Ki spheres that can be fired automatically after a delay or manually. Holy Inscription hit count can increase the setup up to 12 spheres; the same hit counter is consumed/reset when the powered-up Kairos Cannon is used. Current evidence confirms 100 Ki and CaC availability after the Conton City Tournament route.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Kairos_Cannon",
         "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc",
@@ -7958,7 +7958,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Kairos Cannon as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-21 provenance strengthening: independent Dragon Ball Wiki coverage corroborates Kairos Cannon as Chronoa/Supreme Kai of Time's Xenoverse 2 skill and its Conton City Tournament acquisition; the source is retained as corroboration without changing the repository's Match 2 wording. 2026-09-21 provenance strengthening: Dragon Ball Wiki independently corroborates Kairos Cannon as Chronoa/Supreme Kai of Time's Xenoverse 2 Super Skill and documents the Conton City Tournament 02 (\"Thinning the Herd\") acquisition after unlocking the 3rd tournament. Existing character-only scope and mechanics/acquisition semantics are preserved; no reward probability or additional gate is inferred.",
+      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Kairos Cannon as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-21 provenance strengthening: independent Dragon Ball Wiki coverage corroborates Kairos Cannon as Chronoa/Supreme Kai of Time's Xenoverse 2 skill and its Conton City Tournament acquisition; the source is retained as corroboration without changing the repository's Match 2 wording. 2026-09-21 provenance strengthening: Dragon Ball Wiki independently corroborates Kairos Cannon as Chronoa/Supreme Kai of Time's Xenoverse 2 Super Skill and documents the Conton City Tournament 02 (\"Thinning the Herd\") acquisition after unlocking the 3rd tournament. Existing character-only scope and mechanics/acquisition semantics are preserved; no reward probability or additional gate is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.",
       "id": "skill-kairos-cannon"
     },
     {
@@ -7975,7 +7975,7 @@
       "unlock_method": "Parallel Quest 5 — \"Saiyan Blood\" Basic Reward",
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Parallel Quest 5 — \"Saiyan Blood\"",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "usable_by_cac": true,
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super with three charge levels. PQ05 — Saiyan Blood is the documented acquisition endpoint; PQ48's reward is the distinct Kamekameha skill and is not an acquisition endpoint for Kamehameha.",
       "research_status": "enriched",
@@ -7983,7 +7983,7 @@
       "source_quest": 5,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 source-PQ reconciliation: the canonical PQ relationship index currently associates this skill with PQ05 and PQ48. A maintained research note identifies a possible naming conflict with PQ48 and the distinct Kamekameha skill; that conflict is preserved as research context rather than overriding the canonical relationship index. PQ05 remains the directly documented acquisition quest in this record.",
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 source-PQ reconciliation: the canonical PQ relationship index currently associates this skill with PQ05 and PQ48. A maintained research note identifies a possible naming conflict with PQ48 and the distinct Kamekameha skill; that conflict is preserved as research context rather than overriding the canonical relationship index. PQ05 remains the directly documented acquisition quest in this record.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.",
       "id": "skill-kamehameha",
       "source_parallel_quests": [
         5
@@ -8005,12 +8005,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Yamcha mentor training — Lesson 2",
       "mechanics_notes": "Mentor acquisition endpoint verified through Yamcha's Lesson 2. Current skill evidence records 100 Ki; detailed combat behavior remains deferred rather than inferred from category membership.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Yamcha mentor training — Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.",
       "id": "skill-ki-blast-thrust",
       "source_mentor": [
         "mentor-yamcha"
@@ -8034,7 +8034,7 @@
       "mechanics_notes": "100-Ki Ki Blast Super. Creates a short-range omnidirectional Ki explosion; holding the input spends additional Ki to prolong the explosion. PQ77 Basic Reward is the documented acquisition endpoint.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Ki_Explosion",
@@ -8043,7 +8043,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 77,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 canonical correction: dedicated skill evidence identifies Ki Explosion as a 100-Ki Ki Blast Super, correcting the previous Evasive/200-Stamina classification. Exact PQ title and Basic Reward provenance also refined.",
+      "notes": "2026-09-20 canonical correction: dedicated skill evidence identifies Ki Explosion as a 100-Ki Ki Blast Super, correcting the previous Evasive/200-Stamina classification. Exact PQ title and Basic Reward provenance also refined.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.",
       "id": "skill-ki-explosion",
       "source_parallel_quests": [
         77
@@ -8065,12 +8065,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Turles mentor training",
       "mechanics_notes": "Turles mentor-training reward verified; current skill evidence records 100 Ki and classifies it as a Ki Blast Super. Detailed projectile/follow-up behavior remains deferred rather than inferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Turles mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.",
       "id": "skill-kill-driver",
       "source_mentor": [
         "mentor-turles"
@@ -8094,7 +8094,7 @@
       "mechanics_notes": "0-Ki Ki Blast Ultimate. It can only be used once when the user's Health is low. Current maintained PQ71 Basic Reward evidence establishes the acquisition route without an Ultimate Finish-only gate.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Last_Emperor",
         "https://dragonball.fandom.com/wiki/Last_Emperor",
@@ -8103,7 +8103,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 71,
       "acquisition_type": "quest_or_mission",
-      "notes": " 2026-09-21 provenance strengthening: maintained Steam all-186 Parallel Quests guide independently lists Last Emperor as a PQ71 — Abominable Saiyans Basic Reward, corroborating the existing PQ71 acquisition endpoint. No drop probability or Ultimate Finish requirement was inferred.",
+      "notes": "2026-09-21 provenance strengthening: maintained Steam all-186 Parallel Quests guide independently lists Last Emperor as a PQ71 — Abominable Saiyans Basic Reward, corroborating the existing PQ71 acquisition endpoint. No drop probability or Ultimate Finish requirement was inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.",
       "id": "skill-last-emperor",
       "source_parallel_quests": [
         71
@@ -8125,12 +8125,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Piccolo mentor training — Lesson 2",
       "mechanics_notes": "Piccolo's Lesson 2 mentor reward verified; current skill evidence records 100 Ki and classifies it as a Ki Blast Super. Detailed combat behavior remains deferred rather than inferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Piccolo mentor training — Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.",
       "id": "skill-light-grenade",
       "source_mentor": [
         "mentor-piccolo"
