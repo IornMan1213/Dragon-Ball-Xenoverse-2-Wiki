@@ -5373,3 +5373,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime remains unavailable; no CI success claimed.
 - Commits: `55178412f54065c49cd9a6ed115dd218b045b1a9`, `4dcfa0726ee6e7b17c43f39aef924503af44fb74`, `e83ad2639a067db14740e86d2d7206910706fb56`, `5a56f3f36ba8d6c046810cfa2ead0afc2ccdb8c5`.
 - Exact next batch: continue the current-state consumer census for remaining explicit current/live/baseline scalar or collection assumptions and endpoint/status drift; preserve dated historical snapshots.
+
+
+### 2026-09-23 cycle update — PQ reference validator current-check label correction
+- Live census before/after: **854 canonical PQ relationship edges** — 244 skill / 146 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming.
+- Bounded batch: `scripts/validate_pq_reference_pages.py`.
+- Found two stale **check-name labels** whose executable expressions already enforced the correct live values: `relationship_total_is_859` enforced 854, and `super_soul_edge_count_is_151` enforced 146.
+- Renamed them to `relationship_total_is_854` and `super_soul_edge_count_is_146`. No validation logic or canonical data changed.
+- Evidence limits: dated historical documents and correction artifacts containing 859/151/148 remain preserved; only active validator labels were changed.
+- Validation: source inspection confirms executable expressions remain **854** total and **146** Super Soul; changed Python syntax is structurally unchanged apart from key names. CI/runtime unavailable; no CI success claimed.
+- Commit: `b818e517efe0b1ded021caf78000c78e73d3f86e`.
+- Exact next batch: continue current-state consumer census for remaining stale executable check labels, endpoint names, and undated/current scalar/list assumptions; do not rewrite historical evidence.
