@@ -3770,3 +3770,12 @@
 - [x] No canonical relationships, identities, or aliases were added or changed.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: search current-state consumer sections for stale 862/125/88 or 148/151 scalar/list assumptions; leave dated historical snapshots untouched.
+
+### 2026-09-23 — TODO completion update — Canonical record reverse-navigation Super Soul census correction
+- [x] Corrected `docs/data/record-reverse-pq-navigation-audit.json` Super Soul unique target count from stale 148 to live 143.
+- [x] Corrected stale Super Soul exact-pair fields from 151/151 to live 146/146.
+- [x] Added `docs/data/pq-non-pq-record-reverse-navigation-correction-2026-09-23.json` with validation/evidence boundaries.
+- [x] Confirmed 0 unresolved targets, 0 missing/extra reverse pairs, and 0 duplicate canonical pairs.
+- [x] No canonical relationship or alias changes.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: continue current-state consumer census for stale scalar/list assumptions and endpoint-name drift; preserve dated historical snapshots.
