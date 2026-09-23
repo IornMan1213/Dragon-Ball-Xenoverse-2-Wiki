@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-23",
+  "status": "bounded_resolved_identity_bridge",
+  "scope": "resolved skills.character_source -> canonical character identity bridge",
+  "canonical_skill_source": "docs/data/skills.json",
+  "canonical_character_source": "docs/data/characters-record-layer.json",
+  "rules": [
+    "Canonical character names remain authoritative; this bridge does not rewrite source wording.",
+    "Only exact evidence-backed character identities are promoted from the unresolved token inventory.",
+    "A skill may resolve to multiple canonical character identities when the evidence explicitly names multiple forms/users.",
+    "Conflicting or variant-ambiguous source strings remain unresolved in the gap inventory."
+  ],
+  "records": [
+    {
+      "skill_id": "skill-blaster-ball",
+      "skill_name": "Blaster Ball",
+      "source_token": "Kefla",
+      "canonical_character_names": [
+        "Kefla (Super Saiyan)"
+      ],
+      "status": "resolved",
+      "basis": "Current Xenoverse 2 skill documentation identifies Kefla (Super Saiyan) as the notable user; the canonical roster contains that exact identity."
+    },
+    {
+      "skill_id": "skill-divine-kamehameha",
+      "skill_name": "Divine Kamehameha",
+      "source_token": "Goku (Ultra Instinct), Goku (Ultra Instinct -Sign-)",
+      "canonical_character_names": [
+        "Goku (Ultra Instinct)",
+        "Goku (Ultra Instinct -Sign-)"
+      ],
+      "status": "resolved_multi",
+      "basis": "Current skill documentation and character/preset data explicitly identify both Ultra Instinct and Ultra Instinct -Sign- Goku."
+    },
+    {
+      "skill_id": "skill-god-of-destruction-s-menace",
+      "skill_name": "God of Destruction's Menace",
+      "source_token": "Champa",
+      "canonical_character_names": [
+        "God of Destruction Champa"
+      ],
+      "status": "resolved",
+      "basis": "Current Xenoverse 2 skill documentation identifies the move as Champa's skill; the canonical roster uses the full name God of Destruction Champa."
+    },
+    {
+      "skill_id": "skill-headshot",
+      "skill_name": "Headshot",
+      "source_token": "Beerus",
+      "canonical_character_names": [
+        "God of Destruction Beerus"
+      ],
+      "status": "resolved",
+      "basis": "Current Xenoverse 2 skill documentation identifies God of Destruction Beerus as the user."
+    },
+    {
+      "skill_id": "skill-raid-blast",
+      "skill_name": "Raid Blast",
+      "source_token": "Super Saiyan God Vegeta",
+      "canonical_character_names": [
+        "Vegeta (Super Saiyan God)"
+      ],
+      "status": "resolved",
+      "basis": "Current character/preset documentation identifies Raid Blast as a skill of Vegeta (Super Saiyan God), matching the canonical roster name."
+    },
+    {
+      "skill_id": "skill-ray-blast",
+      "skill_name": "Ray Blast",
+      "source_token": "Kefla",
+      "canonical_character_names": [
+        "Kefla (Super Saiyan)"
+      ],
+      "status": "resolved",
+      "basis": "Current Xenoverse 2 skill documentation identifies Kefla (Super Saiyan) as a user; the canonical roster contains that exact identity."
+    },
+    {
+      "skill_id": "skill-sonic-bomb",
+      "skill_name": "Sonic Bomb",
+      "source_token": "Champa",
+      "canonical_character_names": [],
+      "status": "held_unresolved",
+      "basis": "Not promoted: current skill documentation identifies Frieza as the user despite the source token saying Champa. The token is therefore a provenance/user-field conflict, not a deterministic Champa identity."
+    },
+    {
+      "skill_id": "skill-super-black-kamehameha-rose",
+      "skill_name": "Super Black Kamehameha Rosé",
+      "source_token": "Goku Black (Super Saiyan Rosé)",
+      "canonical_character_names": [
+        "Rosé Goku Black"
+      ],
+      "status": "resolved",
+      "basis": "Current Xenoverse 2 documentation identifies Rosé Goku Black as the user; the canonical roster contains Rosé Goku Black."
+    }
+  ]
+}
