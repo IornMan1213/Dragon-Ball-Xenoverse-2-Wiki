@@ -2543,3 +2543,14 @@
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Exact next priority: recompute the **full Super Soul thin-system census** (not another blind sequential batch) and identify the highest-impact remaining canonical gaps, with special attention to records after 241 and cross-domain link completeness.
 
+### 2026-09-22 cycle update — Super Soul 242–246 mechanics refresh
+- [x] Live census was recomputed before editing; targeted the next thin canonical batch after 232–241.
+- [x] Refreshed **5 records (242–246)** with character sources, triggers, effects, magnitudes, Limit Burst data, and preserved PQ provenance.
+- [x] Exact PQ edges retained: **242→PQ29, 243→PQ35, 244→PQ36, 245→PQ38, 246→PQ12**.
+- [x] Added `docs/data/super-soul-242-through-246-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Evidence limits preserved: no unsupported drop rates; no unsupported Ultimate-Finish mapping; exact internal Ki-regeneration rate/duration details remain unclaimed where evidence was insufficient.
+- [x] Validation: 5/5 records present, current verification date, mechanics populated, sources retained, audit registered.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Live census after edit: 234 records; 88 indexed-status records; 139 records missing at least one core mechanic field.
+- [ ] Exact next batch: continue the thin-system census from the next indexed canonical records after 246, prioritizing batches with strong exact-name evidence and reusable PQ↔Super Soul cross-links.
+
