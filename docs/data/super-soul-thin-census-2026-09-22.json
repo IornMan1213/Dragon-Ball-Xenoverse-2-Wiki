@@ -46,6 +46,7 @@
     "2026-09-22: strengthened Super Soul 201 mechanics/provenance; duration remains genuinely unresolved, so strict-thin count is unchanged.",
     "2026-09-22: eight Super Souls (200, 203–209) had null stacking_behavior reconciled to explicit 'Not reported as stackable' from the maintained exact-name catalogue; no numeric stack caps were inferred.",
     "2026-09-22: reconciled Limit Burst fields and explicitly documented timed durations for Super Souls 070, 071, 075, 076, 078, 080, 082, 083, 085, and 086; no unsupported timers or stack caps were inferred.",
-    "2026-09-22: reconciled Limit Burst and stacking fields for Super Souls 087–094; durations remain unresolved where exact-name evidence provides no explicit timer."
+    "2026-09-22: reconciled Limit Burst and stacking fields for Super Souls 087–094; durations remain unresolved where exact-name evidence provides no explicit timer.",
+    "2026-09-22: reconciled Super Souls 095 and 144–150 Limit Burst fields; explicit 20-second durations recorded for 144–146 only where the maintained catalogue states them."
   ]
 }
