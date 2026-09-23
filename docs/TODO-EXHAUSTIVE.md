@@ -3424,3 +3424,13 @@
 - [x] No canonical relationship rows were invented or deleted.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Next: scan remaining current-looking artifacts for stale **859/151** projections and reconcile deterministic fields only.
+
+
+### 2026-09-23 cycle update — Deterministic current PQ navigation/reverse-index baseline propagation
+- [x] Scanned remaining current-looking PQ consumer/navigation artifacts for stale 859/151 projections after the verified 854/146 canonical source correction.
+- [x] Synchronized current/live fields in endpoint navigation, endpoint identity resolution, cross-database reverse consistency, endpoint alias/granularity, and the superseded thin-census projection.
+- [x] Updated the current-baseline single-source reconciliation artifact so its authoritative live baseline is 854 / 244 / 146 / 124 / 247 / 86 / 7 and its stale-current field queue is empty; dated 859/151/860/862/840 evidence remains historical where explicitly retained.
+- [x] Revalidated the authoritative docs/data/pq-reward-relationships.json raw array: 854 total, including 146 pq_rewards_super_soul relationships.
+- [x] Preserved exact-pair evidence boundaries; no relationship row was invented, deleted, renamed, or inferred in this cycle.
+- [ ] Runtime/CI remains unavailable; no executable validation success claimed.
+- [ ] Exact next priority: scan the remaining generated/current-facing PQ presentation and reverse-index artifacts for any stale 859/151 scalar or prose explicitly labeled current/live, then continue reusable cross-database navigation parity repairs. Preserve historical snapshots.
