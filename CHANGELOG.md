@@ -2667,3 +2667,13 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Added and registered the dedicated provenance audit; refreshed live stale census and continuation metadata.
 - Live census: 112 stale / 343 current / 455 canonical / 0 duplicate IDs.
 - Exact next batch: Rolling Bullet, Rolling Hercule Punch, Rough Ranger, S.S. Deadly Bomber, Saiyan Blaster, Saiyan Spirit, Saturday Crash, Sauzer Blade, Savory Slicer, Scatter Kamehameha, Scissors Paper Rock, Seagull Combination.
+
+
+## 2026-09-23 — P1 Super Saiyan Blue Kaioken through Symphonic Destruction skill provenance refresh
+- Refreshed 12 stale skill records: Super Saiyan Blue Kaioken, Super Saiyan God, Super Saiyan God Super Saiyan, Super Saiyan God Super Saiyan (Evolved), Super Spirit Bomb, Super Vegeta, Supernova, Supernova Cooler, Supersonic Mode, Supreme Fury, Surging Spirit, and Symphonic Destruction.
+- Synchronized canonical/index `last_verified` to 2026-09-23 and preserved existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics.
+- Rechecked maintained exact-name/research evidence and retained bounded evidence limits; no unsupported probability, prerequisite, timer, stacking cap, or restriction was inferred.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-23-super-saiyan-through-symphonic-destruction.json`.
+- Live validation: **455 canonical / 455 index / 0 duplicate IDs / 40 stale**; target stale remaining 0.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next batch: Tail Slicer, Taunt, Teleporting Vanishing Ball, Temporal Holy Ray, The Power to Overcome, The Savior Has Come, Thunder Flash, Time Bullet, Time Control, Time Skip/Back Breaker, Time Skip/Flash Skewer, and Time Skip/Jump Spike; recompute the live stale census before editing.
