@@ -6,7 +6,7 @@
   "source_of_truth": "docs/data/super-souls-record-layer.json",
   "canonical_records": 234,
   "duplicate_ids": 0,
-  "strict_thin_records": 123,
+  "strict_thin_records": 119,
   "strict_core_fields": [
     "character_source",
     "trigger_condition",
@@ -53,6 +53,7 @@
     "2026-09-22: reconciled Super Soul 192 stacking_behavior to explicit 'Not reported as stackable' because maintained exact-name/stat-sheet evidence documents its mechanics without a stacking rule; no numeric stack cap was inferred.",
     "2026-09-22: reconciled duration fields for Super Souls 191, 194, and 196 from maintained catalogue evidence; 194 retains a condition-window description rather than an invented numeric duration.",
     "2026-09-22: reconciled Super Souls 049, 053, 056, 058, 059, 060, 063, and 065 duration/stacking semantics. Condition-bound, always-active, or trigger-bound effects now have explicit non-timed duration semantics, and no reported stacking rule is represented explicitly. Strict-thin count reduced by eight.",
-    "2026-09-22: reconciled Super Souls 044, 045, 046, 054, 055, 178, and 185. Three Limit Burst effects and four duration/stacking fields were resolved with exact-name/independent evidence; unresolved 044–046 stacking semantics remain explicit. Strict-thin count reduced by seven."
+    "2026-09-22: reconciled Super Souls 044, 045, 046, 054, 055, 178, and 185. Three Limit Burst effects and four duration/stacking fields were resolved with exact-name/independent evidence; unresolved 044–046 stacking semantics remain explicit. Strict-thin count reduced by seven.",
+    "2026-09-22: reconciled duration semantics for Super Souls 070, 071, 078, and 080 from exact-name catalogue/stat-sheet evidence. Condition/trigger-bound and always-active effects now have explicit non-timed semantics; no numeric timers were inferred. Strict-thin count reduced by four."
   ]
 }
