@@ -4077,3 +4077,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime: no successful workflow/check exposed for the direct-commit chain; no CI success claimed.
 - [x] Commits: canonical 90f98624fa06d4c8851b9d853061561838660b6a; audit e95ca9de3f089355df5f289ce016427604754129; cross-domain index 8b1007fb668a16abd1c05a9757b070719ed22659.
 - [ ] Exact next priority: recompute the live thin/indexed census and select the next 4–12 unresolved PQ-linked records with strong exact-name evidence; records 232–236 remain a high-value unresolved cluster and should be researched only when exact-name evidence is sufficient. Do not create another dated continuation prompt.
+
+### 2026-09-22 cycle update — Super Soul 240–244 provenance/mechanics refresh
+- [x] Researched the next evidence-supported early-PQ cluster: Super Souls 240–244.
+- [x] Upgraded 240–244 from indexed/partially verified to researched while preserving their existing canonical PQ relationships: 240→PQ026, 241→PQ028, 242→PQ029, 243→PQ035, 244→PQ036.
+- [x] Added maintained Super Soul catalogue provenance to each selected record and retained independent early-PQ references already present where applicable.
+- [x] Added and registered docs/data/super-soul-240-244-provenance-mechanics-audit-2026-09-22.json.
+- [x] Validation: 234 canonical records / 0 duplicate IDs; all five selected records are researched and have populated core mechanics fields; no canonical PQ edge changed.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Next priority: return to the unresolved Conton City Vote Pack/Hero of Justice cluster 232–236 only when exact-name mechanics evidence is strong enough; otherwise continue the live census for another evidence-supported 4–12 record batch. Do not guess unsupported mechanics.
