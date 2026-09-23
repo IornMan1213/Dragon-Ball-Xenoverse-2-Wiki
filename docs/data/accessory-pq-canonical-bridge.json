@@ -173,9 +173,10 @@
       "pq_record_id": "pqacc-021",
       "name": "Resistance Helmet",
       "pq": 111,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-028 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "equip-135",
+      "match_status": "domain_resolved",
+      "note": "Canonical inventory identity is equip-135 (Resistance Helmet), categorized as an accessory; no acc-### duplicate is created.",
+      "canonical_domain": "equipment_accessory"
     },
     {
       "pq_record_id": "pqacc-022",
@@ -213,9 +214,10 @@
       "pq_record_id": "pqacc-026",
       "name": "Gine (DB Super)'s Accessory",
       "pq": 144,
-      "canonical_id": null,
-      "match_status": "researched_unresolved",
-      "note": "Previous bridge endpoint accr-101 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "canonical_id": "equip-050",
+      "match_status": "domain_resolved",
+      "note": "Canonical inventory identity is equip-050 (Gine (DB Super) Set), categorized as an accessory; no acc-### duplicate is created.",
+      "canonical_domain": "equipment_accessory"
     },
     {
       "pq_record_id": "pqacc-027",
@@ -373,9 +375,10 @@
   "summary": {
     "pq_records": 45,
     "matched": 29,
-    "unmatched_or_unresolved": 16,
-    "canonical_accessory_records": 70,
-    "remapped_by_exact_name": 28
+    "unmatched_or_unresolved": 14,
+    "canonical_accessory_records": 74,
+    "remapped_by_exact_name": 28,
+    "domain_resolved_via_equipment": 2
   },
   "sources": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -387,11 +390,11 @@
   ],
   "validation": {
     "canonical_pq_records": 186,
-    "canonical_accessory_records": 70,
+    "canonical_accessory_records": 74,
     "research_records": 45,
-    "forward_edge_count": 28,
-    "reverse_edge_count": 28,
-    "unresolved_research_records": 16,
+    "forward_edge_count": 32,
+    "reverse_edge_count": 32,
+    "unresolved_research_records": 14,
     "remapped_by_exact_name": 28,
     "stale_endpoint_count": 0,
     "duplicate_forward_edges": 0,
