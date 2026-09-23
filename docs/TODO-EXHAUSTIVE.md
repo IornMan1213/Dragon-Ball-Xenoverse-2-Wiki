@@ -2858,3 +2858,12 @@
 - [x] Completed the bounded 024–031 and 053/056/059/065 Limit Burst field reconciliations without changing canonical PQ relationships.
 - [ ] **034** remains an explicit evidence boundary (3 missing core fields); do not force completion.
 - [ ] Next actionable queue: **032** if exact-name Limit Burst evidence is independently established; otherwise advance to the next evidence-supported partially-verified cluster, preserving unresolved fields.
+
+
+### 2026-09-22 — Super Soul 202 (GAAAGH!) mechanics reconciliation
+- Reconciled **Super Soul 202 — GAAAGH!** against exact-name catalogue/community evidence.
+- Clarified that the **-25% guard-break time** is a duration modifier, not a timed buff; `duration` is therefore explicitly marked not applicable rather than left falsely unresolved.
+- Recorded the stacking field as not reported as stackable; no stacking behavior was invented.
+- Promoted the record to **verified_secondary** and added a bounded audit artifact.
+- No acquisition route, reward tier, drop probability, or unrelated mechanic changed.
+- Exact next task: continue the live partially-verified queue, preserving **032** as evidence-bound unless exact-name Limit Burst evidence is independently established.
