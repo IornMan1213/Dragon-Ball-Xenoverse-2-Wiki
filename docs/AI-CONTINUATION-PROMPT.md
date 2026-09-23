@@ -4989,3 +4989,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Updated `docs/data/pq-explorer-reward-navigation-audit.json` to record the navigation parity repair. No relationship edge was changed.
 - Static/direct repository inspection only; runtime/CI remains unavailable and no executable success is claimed.
 - Exact next batch: inspect remaining Equipment/DLC reverse-navigation presentation and any generated content pages for one-way destinations, then continue deterministic cross-database navigation parity.
+
+
+### 2026-09-23 cycle update — Equipment/DLC reverse-navigation presentation repair
+- Audited the published Equipment explorer and DLC Overview against canonical relationship/identity layers.
+- Added Equipment → local DLC search navigation for populated DLC provenance values and DLC Overview → PQ explorer reverse navigation for canonical DLC identities.
+- Added/registered `docs/data/equipment-dlc-reverse-navigation-presentation-audit-2026-09-23.json`.
+- No canonical relationship, identity, acquisition, or gameplay field was invented or modified.
+- CI/runtime remains unavailable; do not claim CI success.
+- Exact next task: inspect remaining published character/DLC presentation indexes and generated-content navigation for deterministic one-way/orphan destinations; then continue exhaustive DLC content-domain reconciliation.
