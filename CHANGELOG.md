@@ -2153,3 +2153,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Corrected `docs/data/pq-cross-domain-status.json` target-normalization current total from **860** to **859**.
 - Historical 862/860/840 snapshots remain preserved.
 - No canonical relationship identities or edges were invented or changed.
+
+
+## 2026-09-23 — Strict-thin checkpoint consistency correction
+- Corrected the current strict-thin checkpoint artifact after detecting a contradictory intermediate Super Soul 034 attribution.
+- The controlling canonical record remains **super-soul-034 character_source = unresolved**; the exact-name evidence pass did not independently substantiate the prior Fu attribution, and its mechanics/Limit Burst fields remain unresolved.
+- Removed the duplicated intermediate 034 evidence entry from the checkpoint; no historical handoff/TODO entries were deleted.
+- Live authoritative strict-thin census remains **229 canonical / 0 duplicate IDs / 4 strict-thin**: **032, 034, 158, 217**.
