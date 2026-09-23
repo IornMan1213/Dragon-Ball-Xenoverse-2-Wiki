@@ -6461,3 +6461,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime remains unavailable; no CI success claimed.
 - **Live preset census:** 40 records, with 1 explicitly verified loadout and the remaining indexed loadouts unresolved.
 - **Exact next task:** reconcile another **4–8 preset loadouts** only from explicit item-level/in-game-data evidence, prioritizing records already represented in `docs/Character-Core-Profiles.md` and the existing preset source corpus.
+
+
+### 2026-09-23 cycle update — Six additional explicit preset-loadout promotions
+- Expanded the source-backed preset layer by six records after independently checking the current in-game-data tables.
+- Promoted **Vegeta Presets 2, 3, 6, and 7; Gohan (Adult) Preset 3; and Frieza (1st Form) Preset 2** to verified loadout status.
+- The existing Frieza (Final Form) Preset 2 promotion remains verified, bringing the live total to **7 verified preset loadouts out of 40 indexed preset records**.
+- Exact slot data is preserved: Super Attacks, Ultimate Attacks, Awoken, Evasive, and Super Soul where the source supplies them. Empty source slots remain null.
+- Updated the cross-domain preset↔skill audit to **7 verified loadout records / 44 skill entries**, with explicit sources and no unsupported edges.
+- External verification confirms the source tables: Vegeta's page enumerates Battle Suit 1–9, Gohan (Adult)'s page enumerates its numbered presets, and Frieza (1st Form)'s page enumerates Battle Suit 2. citeturn2search2turn2search0turn2search1
+- Commits: preset `c3f2eabd39b59466458a45be7f7d1c68ac4e40e8`; audit correction `cdbc3128d7bbe5c8487c77c05ea421eec5535e3f`.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next task:** continue with another **4–8 explicit numbered preset loadouts**, prioritizing Goku and similarly well-sourced records, while keeping Festival/custom-partner configurations separate from ordinary numbered presets.
