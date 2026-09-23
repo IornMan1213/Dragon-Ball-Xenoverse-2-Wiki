@@ -5019,3 +5019,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - No DLC ownership or character relationship edge was created; this is presentation navigation only.
 - Static/direct repository validation only; runtime/CI remains unavailable and no CI success is claimed.
 - Exact next task: continue deterministic DLC content-domain reconciliation, prioritizing pack-level content matrices and missing downstream record links without collapsing unresolved identities.
+
+
+### 2026-09-23 cycle update — DLC reverse-index validator schema repair
+- Audited the live `scripts/validate_dlc_presentation_consumers.py` against the actual `docs/data/dlc/pq-reverse-index.json` schema.
+- Found and repaired a deterministic validator defect: the completeness check incorrectly read a nonexistent `reverse_index` map instead of the live `records[].dlc_id` projection.
+- Added explicit reporting for the number of canonical DLC targets with reverse navigation and any canonical targets lacking it.
+- Updated `docs/data/dlc/dlc-presentation-consumer-audit.json` to record the schema repair and the current **20/20** canonical-DLC reverse-navigation coverage.
+- No canonical DLC identity or PQ relationship was changed.
+- Static/direct repository inspection only; runtime/CI remains unavailable and no CI success is claimed.
+- Exact next task: continue DLC content-domain reconciliation at the record level, beginning with the existing DAIMA and HERO OF JUSTICE Pack 2 projections; missing non-PQ domain coverage must remain explicit rather than inferred.
