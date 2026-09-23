@@ -5203,3 +5203,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Restored docs/TODO-EXHAUSTIVE.md from its pre-cycle live history after an intermediate write-path mistake, preserving the complete append-only history, then appended the Time Patrol Support Pack costume audit as the durable final TODO state.
 - [x] Final TODO commit: d091356d24112c9b9b4bc48f30f8288234cc77b4; final TODO blob restored to the historical base plus the new audit entry.
 - [x] The earlier temporary execution-note mutation is not part of the final TODO content; Git history still records the intermediate commits for traceability.
+
+
+### 2026-09-23 cycle update — Time Patrol Support Pack skill identity reconciliation
+- Live census: canonical skill layer **452 records**; the advertised Support Pack attack list contains **13 attacks**.
+- Bounded batch: all 10 Super Attacks and 3 Ultimate Attacks advertised by the official Time Patrol Support Pack storefronts.
+- Exact canonical skill matches: **10/13** — skill-super-god-fist, skill-wild-hunt, skill-kaioken-kamehameha, skill-death-psycho-bomb, skill-justice-pose, skill-maximum-charge, skill-punisher-guard, skill-warp-kamehameha, skill-impulse-slash, skill-giant-storm.
+- Missing exact canonical identities: **Super Destructo-Disc**, **Big Bang Attack**, and **Power Pole Combo**. Existing research is sufficient to treat Super Destructo-Disc and Big Bang Attack as promotion candidates, while Power Pole Combo remains an identity research gap; Power Pole and Power Pole Pro are explicitly distinct and were not used as aliases.
+- Changes: added docs/data/dlc/time-patrol-support-pack-skill-identity-reconciliation-2026-09-23.json; registered it in docs/data/pq-cross-domain-index.json; refined docs/data/dlc/time-patrol-support-pack-content-reconciliation-2026-09-23.json; appended docs/TODO-EXHAUSTIVE.md.
+- Official pack evidence: Steam/Nintendo/Xbox list the exact 10 Super Attacks and 3 Ultimate Attacks and identify the pack as a value pack; the storefront wording also says some content can be obtained through the in-game shop or conditions, so pack inclusion is not treated as exclusive ownership.
+- Evidence limits preserved: no skill ID was invented; no unsupported reward probability or Ultimate Finish gate was added; promotion of the two source-backed candidates is intentionally deferred until canonical/index files can be updated atomically and parity-validated.
+- Validation: new audit JSON parses; exact canonical skill identity count 10/13; cross-domain audit registration confirmed; CI/runtime remains unavailable.
+- Exact next batch: atomically promote **Super Destructo-Disc** and **Big Bang Attack** into the canonical/index skill layers using their existing research evidence, then validate ID-set parity and downstream projections; separately research **Power Pole Combo**. After that, continue the five remaining Support Pack costume identities and Puar.
