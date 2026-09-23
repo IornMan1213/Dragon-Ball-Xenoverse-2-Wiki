@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "domain": "pq_super_soul",
   "canonical_pq_records": 186,
-  "canonical_target_records": 234,
+  "canonical_target_records": 229,
   "forward_edges": [
     {
       "pq_id": "pq-002",
@@ -918,15 +918,6 @@
       "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-will-put-a-stop-to-you-fiend.md"
     },
     {
-      "pq_id": "pq-152",
-      "pq_number": 152,
-      "target_id": "super-soul-232",
-      "target_name": "I'll show you the power of a true warrior!",
-      "status": "canonical_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-      "evidence_note": "2026-09-23 identity conflict: repository edge is retained, but the current Steam PQ guide does not list this exact-name Soul for the claimed PQ, while the maintained Xenoverse 2 Super Soul catalogue assigns list-order numbers 232-236 to different raid/online-event Souls. Treat mechanics/character provenance as unresolved until item-level identity evidence resolves the conflict."
-    },
-    {
       "pq_id": "pq-153",
       "pq_number": 153,
       "target_id": "super-soul-099",
@@ -941,42 +932,6 @@
       "target_name": "There's more where that came from!",
       "status": "canonical_backed",
       "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/theres-more-where-that-came-from.md"
-    },
-    {
-      "pq_id": "pq-153",
-      "pq_number": 153,
-      "target_id": "super-soul-233",
-      "target_name": "Don't underestimate my power!",
-      "status": "canonical_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-      "evidence_note": "2026-09-23 identity conflict: repository edge is retained, but the current Steam PQ guide does not list this exact-name Soul for the claimed PQ, while the maintained Xenoverse 2 Super Soul catalogue assigns list-order numbers 232-236 to different raid/online-event Souls. Treat mechanics/character provenance as unresolved until item-level identity evidence resolves the conflict."
-    },
-    {
-      "pq_id": "pq-153",
-      "pq_number": 153,
-      "target_id": "super-soul-234",
-      "target_name": "I won't forgive you!",
-      "status": "canonical_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-      "evidence_note": "2026-09-23 identity conflict: repository edge is retained, but the current Steam PQ guide does not list this exact-name Soul for the claimed PQ, while the maintained Xenoverse 2 Super Soul catalogue assigns list-order numbers 232-236 to different raid/online-event Souls. Treat mechanics/character provenance as unresolved until item-level identity evidence resolves the conflict."
-    },
-    {
-      "pq_id": "pq-154",
-      "pq_number": 154,
-      "target_id": "super-soul-235",
-      "target_name": "I'm the one who will win!",
-      "status": "canonical_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-      "evidence_note": "2026-09-23 identity conflict: repository edge is retained, but the current Steam PQ guide does not list this exact-name Soul for the claimed PQ, while the maintained Xenoverse 2 Super Soul catalogue assigns list-order numbers 232-236 to different raid/online-event Souls. Treat mechanics/character provenance as unresolved until item-level identity evidence resolves the conflict."
-    },
-    {
-      "pq_id": "pq-155",
-      "pq_number": 155,
-      "target_id": "super-soul-236",
-      "target_name": "This is the ultimate hero!",
-      "status": "canonical_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-      "evidence_note": "2026-09-23 identity conflict: repository edge is retained, but the current Steam PQ guide does not list this exact-name Soul for the claimed PQ, while the maintained Xenoverse 2 Super Soul catalogue assigns list-order numbers 232-236 to different raid/online-event Souls. Treat mechanics/character provenance as unresolved until item-level identity evidence resolves the conflict."
     },
     {
       "pq_id": "pq-156",
@@ -2337,16 +2292,6 @@
       ]
     },
     {
-      "target_id": "super-soul-232",
-      "target_name": "I'll show you the power of a true warrior!",
-      "pq_ids": [
-        "pq-152"
-      ],
-      "pq_numbers": [
-        152
-      ]
-    },
-    {
       "target_id": "super-soul-099",
       "target_name": "You're not much of a fun fight!",
       "pq_ids": [
@@ -2364,46 +2309,6 @@
       ],
       "pq_numbers": [
         153
-      ]
-    },
-    {
-      "target_id": "super-soul-233",
-      "target_name": "Don't underestimate my power!",
-      "pq_ids": [
-        "pq-153"
-      ],
-      "pq_numbers": [
-        153
-      ]
-    },
-    {
-      "target_id": "super-soul-234",
-      "target_name": "I won't forgive you!",
-      "pq_ids": [
-        "pq-153"
-      ],
-      "pq_numbers": [
-        153
-      ]
-    },
-    {
-      "target_id": "super-soul-235",
-      "target_name": "I'm the one who will win!",
-      "pq_ids": [
-        "pq-154"
-      ],
-      "pq_numbers": [
-        154
-      ]
-    },
-    {
-      "target_id": "super-soul-236",
-      "target_name": "This is the ultimate hero!",
-      "pq_ids": [
-        "pq-155"
-      ],
-      "pq_numbers": [
-        155
       ]
     },
     {
@@ -2710,11 +2615,11 @@
   "unresolved_target_routes": [],
   "validation": {
     "canonical_pq_records": 186,
-    "canonical_target_records": 234,
-    "forward_edge_count": 151,
-    "reverse_edge_count": 148,
-    "unique_pq_endpoints": 98,
-    "unique_target_endpoints": 148,
+    "canonical_target_records": 229,
+    "forward_edge_count": 146,
+    "reverse_edge_count": 143,
+    "unique_pq_endpoints": 96,
+    "unique_target_endpoints": 143,
     "unresolved_target_route_count": 0,
     "unresolved_target_routes": 0,
     "broken_forward_endpoints": 0,
@@ -2730,19 +2635,8 @@
     ]
   },
   "last_recomputed": "2026-09-23",
-  "evidence_boundaries": {
-    "super_souls_232_236_identity_conflict": {
-      "records": [
-        "super-soul-232",
-        "super-soul-233",
-        "super-soul-234",
-        "super-soul-235",
-        "super-soul-236"
-      ],
-      "status": "unresolved_identity_conflict",
-      "retained_relationships": true,
-      "reason": "Current Steam PQ reward evidence does not corroborate the exact-name 232-236 PQ152-155 edges, while the maintained Super Soul catalogue uses numeric list positions 232-236 for different raid/online-event Souls.",
-      "source": "https://dbxv2.fandom.com/wiki/Super_Soul"
-    }
-  }
+  "evidence_boundaries": {},
+  "notes": [
+    "2026-09-23: removed five misidentified indexed-only Super Soul 232-236 records and their PQ152-PQ155 edges after identity reconciliation."
+  ]
 }
