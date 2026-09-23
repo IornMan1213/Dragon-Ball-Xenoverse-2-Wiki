@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "date": "2026-09-23",
-  "scope": "Strict-thin checkpoint for Super Souls 032, 034, and 217 after canonical migration of collision 158",
+  "scope": "Strict-thin checkpoint for Super Souls 032 and 034 after 158 domain migration and 217 Limit Burst resolution",
   "purpose": "Record the latest exact-name research pass without promoting unsupported mechanics.",
   "live_before": {
     "canonical_super_souls": 230,
@@ -130,8 +130,8 @@
     "Legacy Super Soul 158 identity is preserved as a migration mapping, not as a live Super Soul record."
   ],
   "result": "Super Soul 217 is no longer strict-thin: all strict core fields are populated, with Limit Burst trigger explicitly unresolved/null.",
-  "next_batch": "Super Soul 034 only if a new item-level/authoritative source can resolve its unresolved fields; otherwise Super Soul 032 or the broader P1 provenance/data queue. Do not repeat low-yield searches already bounded for 217.",
-  "next_method": "Prefer a source that explicitly identifies the exact 034 item and mechanics. Preserve nulls for 034 fields when no item-level evidence exists.",
+  "next_batch": "Super Soul 032/034 only when new item-level evidence appears; otherwise continue the broader P1 provenance/data queue.",
+  "next_method": "Do not repeat bounded searches that already failed. Preserve unresolved Limit Burst fields for 032/034 unless an exact-name/item-level source provides new evidence.",
   "last_updated": "2026-09-23",
   "notes": [
     "2026-09-23: A prior intermediate note attributed 034 to Fu, but the subsequent exact-name pass did not independently substantiate that attribution; the canonical record therefore remains character_source unresolved. The earlier attribution is superseded, not used as mechanics evidence.",
