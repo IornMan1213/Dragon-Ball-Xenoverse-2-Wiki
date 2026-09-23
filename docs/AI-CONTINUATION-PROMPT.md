@@ -4818,3 +4818,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Correction to the immediately preceding 217 evidence-boundary entry: the quick raw-null scan used there was **not** the repository's strict-thin census definition and must not be treated as the live strict-thin count.
 - The authoritative stored census at `docs/data/super-soul-thin-census-2026-09-23.json` remains the controlling queue: **229 canonical / 0 duplicate IDs / 4 strict-thin records**, specifically **super-soul-032, super-soul-034, super-soul-158, super-soul-217**.
 - No canonical Super Soul mechanics were changed by the erroneous raw-null scan; it is superseded by this correction.
+
+### 2026-09-23 cycle update — current PQ relationship producer-field drift repair
+- [x] Audited the remaining current-looking PQ relationship producer/status fields after the prior non-PQ consumer pass.
+- [x] Corrected `docs/data/pq-reward-relationships.json` `current_reconciliation_2026_09_22` from the stale **854 / 146 Super Soul** projection to the live **859 / 151 Super Soul** projection; all other current domain counts remain **244 / 151 / 124 / 247 / 86 / 7**.
+- [x] Corrected `docs/data/pq-cross-domain-status.json` `target_normalization_audit_2026_09_22.total_edges` from stale **860** to authoritative **859**.
+- [x] Preserved dated historical 862/860/840 snapshots and the older COVERAGE-AUDIT historical prose; those are evidence/history, not current producer state.
+- [x] Verified the live source-of-truth relationship projection remains **859 total = 244 skill + 151 Super Soul + 124 equipment + 247 character + 86 DLC + 7 farming**.
+- [ ] CI/status checks remain unavailable; no CI success claimed.
+- [ ] Exact next batch: recompute the live strict-thin Super Soul census and select the strongest evidence-supported cluster, while keeping **032/034/158/217** explicit evidence boundaries unless item-level evidence resolves them.
