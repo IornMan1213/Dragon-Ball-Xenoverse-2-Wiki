@@ -18,7 +18,7 @@
     "dlc_edges": "populated",
     "farming_edges": "populated"
   },
-  "next_completion_gate": "Current canonical relationship baseline is 859 unique edges (244 skill / 151 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming). Historical 862/840/860 counts remain preserved only in dated audit/history fields. Standalone reverse-index source-map parity is resolved; runtime validator execution remains the next gate before deterministic regeneration.",
+  "next_completion_gate": "Current canonical relationship baseline is 854 unique edges (244 skill / 146 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming). Historical 862/840/860 counts remain preserved only in dated audit/history fields. Standalone reverse-index source-map parity is resolved; runtime validator execution remains the next gate before deterministic regeneration.",
   "current_counts": {
     "skill": 244,
     "super_soul": 146,
@@ -112,7 +112,7 @@
     "interpretation": "PQ 1-14 are not represented in the canonical reward batch directory used by this reconciliation. Do not claim canonical batch exhaustiveness for those four PQs; existing relationship evidence for other PQs remains independently sourced."
   },
   "final_consistency_checks": {
-    "total_edges": 859,
+    "total_edges": 854,
     "duplicates": 0,
     "invalid_pq_numbers": 0,
     "stale_count_fields": 0,
@@ -124,7 +124,7 @@
     "pq_1_interpretation": "No typed skill/Super Soul/equipment reward listed in the cited Basic Reward source; no relationship fabricated.",
     "reverse_counts": {
       "skill": 244,
-      "super_soul": 151,
+      "super_soul": 146,
       "equipment": 124,
       "character": 247,
       "dlc": 86,
@@ -132,7 +132,7 @@
     },
     "forward_counts": {
       "skill": 244,
-      "super_soul": 151,
+      "super_soul": 146,
       "equipment": 124,
       "character": 247,
       "dlc": 86,
@@ -140,7 +140,7 @@
     },
     "audit_counts": {
       "skill": 244,
-      "super_soul": 151,
+      "super_soul": 146,
       "equipment": 124,
       "character": 247,
       "dlc": 86,
@@ -148,7 +148,7 @@
     },
     "status_counts": {
       "skill": 244,
-      "super_soul": 151,
+      "super_soul": 146,
       "equipment": 124,
       "character": 247,
       "dlc": 86,
@@ -191,7 +191,7 @@
     "counts": {
       "forward": {
         "skill": 244,
-        "super_soul": 151,
+        "super_soul": 146,
         "equipment": 125,
         "character": 247,
         "dlc": 88,
@@ -199,7 +199,7 @@
       },
       "audit": {
         "skill": 244,
-        "super_soul": 151,
+        "super_soul": 146,
         "equipment": 125,
         "character": 247,
         "dlc": 88,
@@ -207,7 +207,7 @@
       },
       "status": {
         "skill": 244,
-        "super_soul": 151,
+        "super_soul": 146,
         "equipment": 125,
         "character": 247,
         "dlc": 88,
@@ -215,7 +215,7 @@
       },
       "reverse": {
         "skill": 244,
-        "super_soul": 151,
+        "super_soul": 146,
         "equipment": 125,
         "character": 247,
         "dlc": 88,
@@ -544,7 +544,7 @@
     "date": "2026-09-22",
     "scope": "repository-wide relationship/source integrity review — current live census",
     "checks": {
-      "total_edges": 859,
+      "total_edges": 854,
       "counts": {
         "pq_rewards_skill": 244,
         "pq_rewards_super_soul": 151,
@@ -566,7 +566,7 @@
     "result": "stable_baseline",
     "forward_counts": {
       "skill": 244,
-      "super_soul": 151,
+      "super_soul": 146,
       "equipment": 125,
       "character": 247,
       "dlc": 88,
@@ -575,7 +575,7 @@
     "total_edges": 862,
     "reverse_counts": {
       "skill": 244,
-      "super_soul": 151,
+      "super_soul": 146,
       "equipment": 125,
       "character": 247,
       "dlc": 88,
@@ -583,7 +583,7 @@
     },
     "audit_counts": {
       "skill": 244,
-      "super_soul": 151,
+      "super_soul": 146,
       "equipment": 125,
       "character": 247,
       "dlc": 88,
@@ -591,7 +591,7 @@
     },
     "status_counts": {
       "skill": 244,
-      "super_soul": 151,
+      "super_soul": 146,
       "equipment": 125,
       "character": 247,
       "dlc": 88,
@@ -619,7 +619,7 @@
     "result": "stable_baseline",
     "forward_counts": {
       "skill": 244,
-      "super_soul": 151,
+      "super_soul": 146,
       "equipment": 124,
       "character": 247,
       "dlc": 86,
@@ -628,7 +628,7 @@
     "total_edges": 854,
     "reverse_counts": {
       "skill": 244,
-      "super_soul": 151,
+      "super_soul": 146,
       "equipment": 124,
       "character": 247,
       "dlc": 86,
