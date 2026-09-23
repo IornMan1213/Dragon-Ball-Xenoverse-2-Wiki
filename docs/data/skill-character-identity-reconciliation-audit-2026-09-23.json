@@ -7,9 +7,9 @@
   "reverse_index": "docs/data/skill-character-reverse-index-2026-09-23.json",
   "results": {
     "source_tokens_before": 39,
-    "resolved_skill_records_added": 6,
-    "resolved_canonical_skill_edges_added": 7,
-    "remaining_unresolved_character_or_variant_tokens": 34,
+    "resolved_skill_records_added": 7,
+    "resolved_canonical_skill_edges_added": 8,
+    "remaining_unresolved_character_or_variant_tokens": 32,
     "canonical_character_targets": 6,
     "duplicate_skill_character_edges": 0,
     "broken_character_endpoints": 0
