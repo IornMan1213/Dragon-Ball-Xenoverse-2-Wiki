@@ -3270,3 +3270,7 @@
 - [x] Preserved evidence boundaries for 032, 034, 158, and 217; no strict-thin reduction claimed.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Next priority: **034 item-level mechanics/Limit Burst**, then **217 Limit Burst**.
+
+- [x] Continued the strict-thin **034** pass. Current PQ186 evidence establishes that the two exact-name Super Souls are “The final battle begins now.” and “I'll use this power to protect everyone!”; July 2026 community evidence distinguishes the former as **Fu's** Soul and the latter as Chronoa's. The canonical 034 record now uses **Fu (Ultra Supervillain)** as its character source, while all mechanics/Limit Burst fields remain unresolved because no authoritative item-level specification was found.
+- [x] No mechanics were inferred from the community discussion; the record remains `partially_verified`.
+- [ ] Next priority remains obtaining authoritative/item-level mechanics and Limit Burst data for **034**, then **217 Limit Burst**.
