@@ -380,8 +380,6 @@
     {
       "pq": 151,
       "super_souls": [
-        "I'll never forgive you!",
-        "I'm not gonna die until I defeat you!",
         "I think I'm getting the hang of this.",
         "I'll keep adding a bit of power to my attacks!"
       ]
@@ -389,30 +387,23 @@
     {
       "pq": 152,
       "super_souls": [
-        "I'll show you the power of a true warrior!",
         "I will put a stop to you, fiend!"
       ]
     },
     {
       "pq": 153,
       "super_souls": [
-        "Don't underestimate my power!",
-        "I won't forgive you!",
         "There's more where that came from!",
         "You're not much of a fun fight!"
       ]
     },
     {
       "pq": 154,
-      "super_souls": [
-        "I'm the one who will win!"
-      ]
+      "super_souls": []
     },
     {
       "pq": 155,
-      "super_souls": [
-        "This is the ultimate hero!"
-      ]
+      "super_souls": []
     },
     {
       "pq": 156,
