@@ -2295,3 +2295,13 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Validation: canonical record unchanged; **229 canonical / 0 duplicate IDs / 4 strict-thin records**; audit registration confirmed.
 - CI/runtime: unavailable; no CI success claimed.
 - Exact next batch: **Super Soul 217** Limit Burst/item-level evidence research; if unresolved, continue to 158 collision-safe evidence research, then 032.
+
+
+### 2026-09-23 cycle update — Super Soul 158 identity conflict resolution
+- Bounded batch: **record 158 — “Do or Die.”**
+- Fresh exact-name evidence identifies **Do or Die as Nail's Power Up Type Super Skill from PQ49**, while Nail's Super Soul is separately documented as **“I must protect Grand Elder Guru!”**. citeturn3search0turn3search2
+- Change: record 158 is now an explicit **identity-conflict placeholder**. Unsupported Super Soul mechanics and acquisition metadata were cleared; the record itself was preserved so the discrepancy remains auditable.
+- Added `docs/data/super-soul-158-identity-conflict-reconciliation-2026-09-23.json` and refreshed the strict-thin checkpoint.
+- Evidence boundary: no silent ID remap or rename was performed.
+- CI/runtime: unavailable; no CI success claimed.
+- Exact next task: resolve the canonical ID mapping for the 158 conflict, then continue 217 Limit Burst evidence and 032.
