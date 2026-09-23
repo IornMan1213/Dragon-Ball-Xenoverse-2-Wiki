@@ -2271,3 +2271,9 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Corrected two stale active check-name labels in `scripts/validate_pq_reference_pages.py` to match their already-correct executable expectations: **854 total** and **146 Super Soul**.
 - No canonical relationships, validator logic, historical records, or source evidence changed.
 - Commit: `b818e517efe0b1ded021caf78000c78e73d3f86e`.
+
+
+### 2026-09-23 — Canonical PQ current reconciliation wording correction
+- Corrected stale current reconciliation wording to the live **854 / 146 / 143** relationship contract and documented resolution of the five-edge Super Soul projection discrepancy.
+- Historical values remain preserved; no canonical relationship data changed.
+- Audit: `docs/data/pq-non-pq-current-reconciliation-note-correction-2026-09-23.json`.
