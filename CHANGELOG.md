@@ -2548,3 +2548,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Preserved existing acquisition, mechanics, DLC, reward-condition conflicts, and unresolved evidence boundaries; no unsupported drop probability or Ultimate Finish gate was inferred.
 - Registered `docs/data/skill-provenance-audit-2026-09-23-double-crush-through-dust-attack.json` and refreshed the live stale-metadata census.
 - Validation: 455 canonical / 455 index / 0 duplicate IDs / 328 stale after the batch; CI/runtime unavailable.
+
+
+## 2026-09-23 — P1 Dynamite Kick through Energy Barrier provenance refresh
+- Refreshed 12 canonical/index skill records: Dynamite Kick, Eagle Kick, Earth Splitting Galick Gun, Elegant Blaster, Elite Beam, Elite Shooting, Emperor's Blast, Emperor's Cannon, Emperor's Death Beam, Emperor's Edge, Endless Shoot, Energy Barrier.
+- Preserved existing acquisition, mechanics, DLC, conflicts, and unresolved evidence boundaries.
+- Added `docs/data/skill-provenance-audit-2026-09-23-dynamite-kick-through-energy-barrier.json` and refreshed the stale census.
+- Validation: 455 canonical / 455 index / 0 duplicate IDs / 316 stale after the batch; CI/runtime unavailable.
