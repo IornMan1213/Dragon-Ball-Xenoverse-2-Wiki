@@ -1,3 +1,11 @@
+### 2026-09-22 cycle update — Super Soul 177/186/197/199 reconciliation
+- Reconciled 177/186 time-triggered durations and 197/199 condition-bound durations; stacking is recorded as not reported as stackable.
+- No unsupported expiration or numeric stack cap inferred.
+- Live census: **234 canonical / 0 duplicate IDs / 138 strict-thin records**.
+- Added/registered audit: `docs/data/super-soul-177-186-197-199-reconciliation-2026-09-22.json`.
+- Next: continue evidence-rich unresolved Super Soul fields.
+
+
 ### 2026-09-22 cycle update — Super Soul 176/182/183/184/188/189 stacking reconciliation
 - Reconciled stacking fields for **176, 182, 183, 184, 188, and 189** to **Not reported as stackable** where the maintained catalogue/evidence provides no stacking mechanic or numeric cap.
 - No unsupported duration or stack values were inferred.
