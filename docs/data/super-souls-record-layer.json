@@ -5586,11 +5586,14 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Mechanics and character source refreshed from the maintained Super Soul catalogue and independent corroboration. Exact reward/drop semantics beyond the canonical PQ reward relationship are not asserted.",
-      "verification_status": "partially_verified",
+      "version_notes": "Exact-name mechanics independently corroborated: charged attacks grant +5% normal/Strike damage, charged Ki Blasts grant +5% normal/Ki Blast damage, with each effect stacking up to four times. The maintained catalogue does not specify a timed expiration, so duration remains unresolved rather than guessed.",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/ps4/246438-dragon-ball-xenoverse-2/answers/641312-any-good-basic-attack-super-souls",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://videogaming.fandom.com/wiki/Kefla"
       ],
       "source_parallel_quests": [
         "pq-126"
