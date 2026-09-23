@@ -1631,20 +1631,21 @@
       "trigger_condition": "Once only when health is below 25%",
       "effect_text": "Temporarily boosts strength of all attacks and temporarily activates Ki Auto-Recovery Mode.",
       "effect_magnitude": "XL all attacks",
-      "duration": null,
+      "duration": "20 seconds",
       "stacking_behavior": null,
-      "limit_burst": null,
+      "limit_burst": "Auto Just Guard",
       "limit_burst_trigger": null,
       "limit_burst_effect": null,
       "usable_by_cac": null,
       "race_restriction": null,
       "dlc_requirement": "None identified",
-      "version_notes": "Community-measured duration and percentage are not promoted to exact canonical values.",
-      "verification_status": "verified_secondary",
-      "last_verified": "2026-09-21",
+      "version_notes": "Exact-name mechanics refreshed from the maintained Super Soul catalogue and independent DAIMA-era documentation; the 20-second duration and Auto Just Guard Limit Burst are corroborated. Reward probability remains a separate acquisition claim.",
+      "verification_status": "researched",
+      "last_verified": "2026-09-22",
       "sources": [
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/damn-it-all.md",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/DLC",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80985605"
       ],
       "source_parallel_quests": [
         "pq-180"
@@ -1689,19 +1690,20 @@
       "trigger_condition": "Once only when using Potential Unleashed",
       "effect_text": "Temporarily boosts all attacks and stamina recovery speed.",
       "effect_magnitude": "L all attacks; M stamina recovery speed",
-      "duration": null,
+      "duration": "30 seconds",
       "stacking_behavior": null,
-      "limit_burst": null,
+      "limit_burst": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down.",
       "limit_burst_trigger": null,
       "limit_burst_effect": null,
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Community-measured percentages/durations are not promoted to exact canonical values.",
-      "verification_status": "verified_secondary",
-      "last_verified": "2026-09-21",
+      "version_notes": "Exact-name mechanics refreshed from the maintained Super Soul catalogue and dedicated Potential Unleashed documentation; +15% all attacks, +20% stamina recovery, 30-second duration, and Limit Burst are corroborated.",
+      "verification_status": "researched",
+      "last_verified": "2026-09-22",
       "sources": [
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/you-cant-win.md",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/Potential_Unleashed",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75278024"
       ],
       "source_parallel_quests": [
         "pq-107"
@@ -1748,17 +1750,17 @@
       "effect_magnitude": "M to each; max 3 stacks",
       "duration": null,
       "stacking_behavior": "Up to three stacks",
-      "limit_burst": null,
+      "limit_burst": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
       "limit_burst_trigger": null,
       "limit_burst_effect": null,
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Community-measured percentages/durations are not promoted to exact canonical values.",
-      "verification_status": "verified_secondary",
-      "last_verified": "2026-09-21",
+      "version_notes": "Exact-name mechanics refreshed from the maintained Super Soul catalogue and independent GameFAQs documentation; charged Ki Blast trigger, +10% normal attacks, +10% normal Ki Blasts, three-stack cap, and Limit Burst are corroborated.",
+      "verification_status": "researched",
+      "last_verified": "2026-09-22",
       "sources": [
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/here-it-comes.md",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80617525"
       ],
       "source_parallel_quests": [
         "pq-133"
@@ -1778,17 +1780,18 @@
       "effect_magnitude": "XL revive-time reduction; one-time 50% Ki restoration",
       "duration": null,
       "stacking_behavior": null,
-      "limit_burst": null,
+      "limit_burst": "Auto Health and Stamina Recovery! DEF Down.",
       "limit_burst_trigger": null,
       "limit_burst_effect": null,
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Community-measured percentages/durations are not promoted to exact canonical values.",
-      "verification_status": "verified_secondary",
-      "last_verified": "2026-09-21",
+      "version_notes": "Exact-name mechanics refreshed from the maintained Super Soul catalogue and independent GameFAQs documentation; the permanent -50% revive-time effect, one-time 50% Ki restoration when an ally revives, and Limit Burst are corroborated.",
+      "verification_status": "researched",
+      "last_verified": "2026-09-22",
       "sources": [
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/now-were-even.md",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76365986",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76363437?page=1"
       ],
       "source_parallel_quests": [
         "pq-118"
