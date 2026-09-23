@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "scope": "DLC content-domain projection reconciliation",
   "source_of_truth": "docs/data/dlc/canonical-dlc-identity.json",
   "canonical_relationship_source": "docs/data/pq-reward-relationships.json",
@@ -54,7 +54,8 @@
         "raid_battles",
         "lobby_items"
       ],
-      "status": "identity_and_PQ_projection_resolved; raid/lobby and complete pack inventory remain unresolved at record level"
+      "status": "identity_and_PQ_projection_resolved; raid/lobby and complete pack inventory remain unresolved at record level",
+      "record_link_repair": "Corrected malformed equipment pq_sources identifiers for its canonical PQ set; non-PQ inventory remains unresolved."
     },
     {
       "projection": "hero-of-justice-pack-2",
@@ -81,7 +82,8 @@
         "costumes",
         "stage"
       ],
-      "status": "identity_and_PQ_projection_resolved; complete pack inventory/stage mapping remains unresolved at record level"
+      "status": "identity_and_PQ_projection_resolved; complete pack inventory/stage mapping remains unresolved at record level",
+      "record_link_repair": "Corrected malformed equipment pq_sources identifiers for its canonical PQ set; non-PQ inventory remains unresolved."
     }
   ],
   "rules": [
@@ -89,5 +91,18 @@
     "Parent FUTURE SAGA remains a grouping node; Chapters 1-4 remain canonical DLC identities.",
     "PQ-associated character/reward relationships are reported as navigation evidence, not automatically as complete DLC ownership/content manifests.",
     "Unresolved domains remain explicit; no missing content is inferred."
-  ]
+  ],
+  "date": "2026-09-23",
+  "record_level_repairs": {
+    "equipment_pq_source_ids_fixed": [
+      "pq-159",
+      "pq-160",
+      "pq-161",
+      "pq-162",
+      "pq-179",
+      "pq-180",
+      "pq-181"
+    ],
+    "rule": "Only identifier-shape errors with exact PQ provenance were repaired; no new content relationship was inferred."
+  }
 }
