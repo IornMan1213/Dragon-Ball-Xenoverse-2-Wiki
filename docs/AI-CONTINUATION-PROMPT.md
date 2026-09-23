@@ -5175,3 +5175,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Unresolved canonical gaps remain explicit: two Super Souls, six costume names, several skill endpoints, Puar/CC Mascot, and consumable identity records. No unsupported IDs were created.
 - CI/runtime: unavailable; no CI success claimed.
 - Exact next batch: resolve the remaining Time Patrol Support Pack canonical identity gaps only with record-level evidence, starting with the two unresolved Super Souls and unmatched costume records; then return to DAIMA/HOJ2 unresolved paid domains.
+
+
+### 2026-09-23 cycle update — Time Patrol Support Pack Super Soul identity promotion
+- Promoted the two previously unresolved pack Super Souls into the canonical layer: `super-soul-247` I hope you're reborn as someone good this time. and `super-soul-248` You must die by my hand!.
+- Source-backed mechanics and ordinary in-game acquisition routes were recorded; official pack inclusion is treated as provenance, not exclusive ownership.
+- Added and registered `docs/data/dlc/time-patrol-support-pack-super-soul-identity-reconciliation-2026-09-23.json`.
+- All 3 officially advertised Time Patrol Support Pack Super Souls are now represented canonically.
+- Remaining support-pack gaps: six costume names, several advertised skill endpoints, and Puar/CC Mascot. No unsupported IDs were inferred.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next batch: reconcile the six unmatched costume names against canonical equipment aliases/source records, then resolve remaining skill and Puar gaps only where dedicated canonical layers/evidence exist.
