@@ -18,7 +18,7 @@
       "key": "producer_census",
       "file": "docs/data/pq-relationship-producer-census.json",
       "status": "clean_current",
-      "current_total": 854,
+      "current_total": 853,
       "equipment_forward": 124,
       "equipment_reverse": 122
     },
@@ -26,7 +26,7 @@
       "key": "endpoint_navigation",
       "file": "docs/data/pq-endpoint-navigation-validation.json",
       "status": "clean_current",
-      "current_total": 854,
+      "current_total": 853,
       "equipment_forward": 124,
       "equipment_reverse": 122
     },
@@ -34,7 +34,7 @@
       "key": "endpoint_identity_resolution",
       "file": "docs/data/pq-endpoint-identity-resolution-audit.json",
       "status": "clean_current",
-      "current_total": 854,
+      "current_total": 853,
       "equipment_forward": 124,
       "equipment_reverse": 122
     },
@@ -42,7 +42,7 @@
       "key": "presentation_index_identity",
       "file": "docs/data/pq-presentation-index-identity-audit.json",
       "status": "clean_current",
-      "current_total": 854,
+      "current_total": 853,
       "equipment_reverse": 122
     },
     {
@@ -68,7 +68,7 @@
       "key": "skill_acquisition_presentation",
       "file": "docs/data/skill-pq-acquisition-presentation-audit.json",
       "status": "clean_current",
-      "current_total": 854,
+      "current_total": 853,
       "skill_forward": 244
     },
     {
@@ -87,27 +87,27 @@
       "key": "pq_reference_pages",
       "file": "docs/data/pq-reference-page-audit.json",
       "status": "clean_current",
-      "current_total": 854,
+      "current_total": 853,
       "equipment_forward": 124
     },
     {
       "key": "standalone_reverse_index",
       "file": "docs/data/pq-reward-normalization/pq-standalone-reverse-index-reconciliation-audit.json",
       "status": "clean_current",
-      "current_total": 854
+      "current_total": 853
     },
     {
       "key": "unified_reverse_index",
       "file": "docs/data/pq-reward-normalization/pq-unified-reverse-index-audit.json",
       "status": "clean_current",
-      "current_total": 854,
+      "current_total": 853,
       "equipment_forward": 124
     },
     {
       "key": "alias_granularity_bridge",
       "file": "docs/data/pq-endpoint-alias-granularity-map.json",
       "status": "clean_current_metadata_only",
-      "current_total": 854,
+      "current_total": 853,
       "equipment_conflicts": 2,
       "dlc_granularity_mappings": 6
     },
@@ -127,10 +127,10 @@
     }
   ],
   "findings": [
-    "No deterministic current baseline drift remains in the subset directly reconciled by this cycle: producer census, cross-domain status, and PQ page consumer parity are synchronized to 854 total / 146 Super Soul edges.",
-    "Remaining registered consumer artifacts with 859/151 current-looking values are explicitly queued for the next bounded scan; historical snapshots remain preserved.",
+    "No deterministic current baseline drift remains in the directly reconciled producer/cross-domain/PQ-page subset: current consumers are synchronized to the authoritative 853 total / 145 Super Soul edge baseline.",
+    "Dated 859/854/151/148 values are retained only where they are explicitly historical or record-ID context; current-looking scalar consumers are corrected only when their current-state semantics are established.",
     "The Super Soul acquisition projection retains its documented research/projection findings; those are not treated as canonical relationship truth.",
     "Static direct-fetch inspection is clean for the repaired files; repository runtime/CI execution remains unavailable, so this audit does not claim executable validation."
   ],
-  "next_gate": "Continue the deterministic consumer scan from the remaining current-looking 859/151 artifacts listed in this census, prioritizing endpoint/navigation validators and standalone reverse-index projections."
+  "next_gate": "Continue exact-pair parity scanning of remaining reverse/navigation projections against the authoritative 853/145 baseline, then resume source-backed preset reconciliation."
 }
