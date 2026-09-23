@@ -8521,7 +8521,7 @@
       "mechanics_notes": "100-Ki Strike Super from PQ9, also available as a starting skill with the close-up fighting style. Launches the opponent diagonally upward, then teleports in front of the path for a finishing kick. Exact drop probability remains unresolved; Basic Reward placement does not establish a guaranteed drop.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Meteor_Blow",
@@ -8530,7 +8530,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 9,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: explicit current skill/PQ evidence establishes Parallel Quest 9 — The Saiyan King Is...Who?; also available as a starting skill when choosing the close-up fighting style. No Ultimate Finish-only requirement is established. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-19 verification: explicit current skill/PQ evidence establishes Parallel Quest 9 — The Saiyan King Is...Who?; also available as a starting skill when choosing the close-up fighting style. No Ultimate Finish-only requirement is established. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition endpoint, classification, mechanics, DLC/provenance, and documented reward-tier semantics against the maintained repository evidence corpus; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.",
       "id": "skill-meteor-blow",
       "source_parallel_quests": [
         9
@@ -8552,12 +8552,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Turles mentor training",
       "mechanics_notes": "300-Ki Ki Blast Ultimate obtained through Turles mentor training. The user raises a barrier that absorbs attacks, then releases a large Ki projectile that erupts into a pillar. The mentor lesson is the deterministic acquisition endpoint; no PQ or Ultimate Finish gate is conflated with it.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Turles mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.\n2026-09-23 verification refresh: revalidated the existing acquisition endpoint, classification, mechanics, DLC/provenance, and documented reward-tier semantics against the maintained repository evidence corpus; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.",
       "id": "skill-meteor-burst",
       "source_mentor": [
         "mentor-turles"
@@ -8579,13 +8579,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 12",
       "mechanics_notes": "100-Ki Strike Super from PQ12. Performs a rushing series of punches and kicks; holding the input continues the rush while consuming additional Ki, reaching slightly above 300 Ki total. PQ12 is the maintained acquisition endpoint and no Ultimate Finish-only gate is asserted.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": 12,
       "dlc_requirement": "Base Game",
       "acquisition_type": "parallel_quest",
-      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint. 2026-09-21 provenance strengthening: Steam's DBX2 Parallel Quest Item / Skill Rewards guide independently lists Meteor Crash under PQ12, corroborating the existing PQ12 acquisition endpoint. Yhan Game likewise identifies Meteor Crash as a PQ12 Basic Reward; no Ultimate Finish-only gate or numeric drop rate is inferred.",
+      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint. 2026-09-21 provenance strengthening: Steam's DBX2 Parallel Quest Item / Skill Rewards guide independently lists Meteor Crash under PQ12, corroborating the existing PQ12 acquisition endpoint. Yhan Game likewise identifies Meteor Crash as a PQ12 Basic Reward; no Ultimate Finish-only gate or numeric drop rate is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition endpoint, classification, mechanics, DLC/provenance, and documented reward-tier semantics against the maintained repository evidence corpus; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.",
       "id": "skill-meteor-crash",
       "source_parallel_quests": [
         12
@@ -8612,7 +8612,7 @@
       "mechanics_notes": "500-Ki Ki Blast Ultimate from PQ149 — Clash of the Clones. A flip kick initiates the attack; on connection, a Ki pillar binds/strikes the opponent. Comet Strike can directly set up the attack. Current evidence establishes the PQ149 endpoint without asserting an exact drop rate or Ultimate Finish-only gate.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Meteor_Explosion",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -8620,7 +8620,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context.\n2026-09-21 provenance strengthening: official Bandai Namco DLC documentation confirms Legendary Pack 2 contains four Parallel Quests and ten additional moves; exact PQ149/PQ150 reward relationships remain supported by the maintained PQ research layer and dedicated skill sources.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context.\n2026-09-21 provenance strengthening: official Bandai Namco DLC documentation confirms Legendary Pack 2 contains four Parallel Quests and ten additional moves; exact PQ149/PQ150 reward relationships remain supported by the maintained PQ research layer and dedicated skill sources.\n2026-09-23 verification refresh: revalidated the existing acquisition endpoint, classification, mechanics, DLC/provenance, and documented reward-tier semantics against the maintained repository evidence corpus; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.",
       "source_parallel_quests": [
         149
       ]
@@ -8642,7 +8642,7 @@
       "mechanics_notes": "100-Ki Strike Super from PQ6 — Saibamen's Revenge. Current repository evidence establishes the PQ6 Basic Reward endpoint and CaC availability; exact drop probability remains unresolved and no Ultimate Finish-only gate is asserted.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Meteor_Strike",
@@ -8651,7 +8651,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 6,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: maintained all-PQ reward guide explicitly lists Meteor Strike in PQ6 Basic Reward.",
+      "notes": "2026-09-20 audit: maintained all-PQ reward guide explicitly lists Meteor Strike in PQ6 Basic Reward.\n2026-09-23 verification refresh: revalidated the existing acquisition endpoint, classification, mechanics, DLC/provenance, and documented reward-tier semantics against the maintained repository evidence corpus; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.",
       "id": "skill-meteor-strike",
       "source_parallel_quests": [
         6
@@ -8674,7 +8674,7 @@
       "mechanics_notes": "100-Ki Ki Blast Super from PQ79 — Great Ape Festival. Creates a close-range explosion around the user. This equipable Super is distinct from Jiren (Full Power)'s separate Evasive variation, which consumes Stamina rather than Ki.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Mighty_Explosive_Wave",
@@ -8684,7 +8684,7 @@
       "ki_cost_note": "The primary CaC/equipable Super Skill costs 100 Ki. A separate Evasive variation uses Stamina.",
       "source_quest": 79,
       "acquisition_type": "quest_or_mission",
-      "notes": "Reconciled 2026-09-20: Parallel Quest 79 — \"Great Ape Festival\" Basic Reward based on current reward evidence.",
+      "notes": "Reconciled 2026-09-20: Parallel Quest 79 — \"Great Ape Festival\" Basic Reward based on current reward evidence.\n2026-09-23 verification refresh: revalidated the existing acquisition endpoint, classification, mechanics, DLC/provenance, and documented reward-tier semantics against the maintained repository evidence corpus; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.",
       "id": "skill-mighty-explosive-wave",
       "source_parallel_quests": [
         79
@@ -8706,12 +8706,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Captain Ginyu mentor training — Lesson 2",
       "mechanics_notes": "100-Ki Ki Blast Super from Captain Ginyu mentor training, Lesson 2. The mentor lesson is the deterministic acquisition endpoint; detailed combat mechanics remain deferred rather than inferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Captain Ginyu mentor training — Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-23 verification refresh: revalidated the existing acquisition endpoint, classification, mechanics, DLC/provenance, and documented reward-tier semantics against the maintained repository evidence corpus; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.",
       "id": "skill-milky-cannon",
       "source_mentor": [
         "mentor-ginyu"
@@ -8737,12 +8737,12 @@
       "ultimate_finish_required": false,
       "mechanics_notes": "300-Ki Ki Blast Ultimate from PQ20 — Frieza! Show Yourself. Turns around and fires a rear-facing Ki wave; current documentation describes 25 hits and about 30% listed damage. PQ20 Basic Reward evidence establishes the acquisition route without an Ultimate Finish-only gate.",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "damage_type": "Ki Blast",
       "race_restriction": "All CaC races",
       "source_quest": 20,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: an independent maintained PQ guide lists Mystic Flash as a PQ20 — Frieza! Show Yourself Basic Reward, corroborating the existing PQ20 acquisition endpoint. No drop probability or additional Ultimate Finish requirement was inferred.",
+      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: an independent maintained PQ guide lists Mystic Flash as a PQ20 — Frieza! Show Yourself Basic Reward, corroborating the existing PQ20 acquisition endpoint. No drop probability or additional Ultimate Finish requirement was inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition endpoint, classification, mechanics, DLC/provenance, and documented reward-tier semantics against the maintained repository evidence corpus; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.",
       "id": "skill-mystic-flash",
       "source_parallel_quests": [
         20
@@ -8767,13 +8767,13 @@
       "ki_cost": 100,
       "ultimate_finish_required": false,
       "unlock_method": "TP Medal Shop; documented listing price 30 TP Medals",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "verified",
       "source_quest_or_shop": "TP Medal Shop",
       "mechanics_notes": "100 Ki Strike Super with Namekian-themed finger-extension/grab behavior; documented as a Namekian CaC skill. 2026-09-20 verification: TP Medal Shop acquisition is independently documented; current/archived shop references consistently list Namek Finger as a TP Medal Shop Super.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-20 shop-provenance refinement: maintained TP Medal Shop references identify Namek Finger as a TP Medal Shop skill; the documented listing gives a 30 TP Medal price. Shop rotation/timing is not inferred from the historical listing.",
+      "notes": "2026-09-20 shop-provenance refinement: maintained TP Medal Shop references identify Namek Finger as a TP Medal Shop skill; the documented listing gives a 30 TP Medal price. Shop rotation/timing is not inferred from the historical listing.\n2026-09-23 verification refresh: revalidated the existing acquisition endpoint, classification, mechanics, DLC/provenance, and documented reward-tier semantics against the maintained repository evidence corpus; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.",
       "id": "skill-namek-finger",
       "mech": "100-Ki Strike Super restricted to Namekian CaCs. Extends the right arm to grab an in-range opponent, pulls them in, and strikes for about 10% damage, leaving the target stunned for follow-up attacks. Historical/current shop evidence supports the TP Medal Shop endpoint; rotation timing is not inferred."
     },
@@ -8793,12 +8793,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Tien mentor training — Lesson 3",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Tien mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300 Ki used.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300 Ki used.\n2026-09-23 verification refresh: revalidated the existing acquisition endpoint, classification, mechanics, DLC/provenance, and documented reward-tier semantics against the maintained repository evidence corpus; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.",
       "id": "skill-neo-tri-beam",
       "source_mentor": [
         "mentor-tien"
@@ -8824,7 +8824,7 @@
       "mechanics_notes": "A continuable rushdown Strike Super: the user spin-kicks into a clawing barrage and continues attacking while the input is held, ending by knocking the opponent away. Current documentation lists a variable 100–700 Ki cost and 9–33 hits; community testing independently observes increased damage as more Ki is held. The canonical fixed 100-Ki value has been removed rather than falsely retaining a single cost; the game mechanic is variable by held Ki. PQ86 remains the acquisition route. 2026-09-21 cost verification: dedicated Xenoverse 2 skill documentation lists 100–700 Ki depending on continued input/charge; the variable cost is preserved rather than normalized to a fixed value.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Neo_Wolf_Fang_Fist",
@@ -8833,7 +8833,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 86,
       "acquisition_type": "quest_or_mission",
-      "notes": "",
+      "notes": "2026-09-23 verification refresh: revalidated the existing acquisition endpoint, classification, mechanics, DLC/provenance, and documented reward-tier semantics against the maintained repository evidence corpus; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.",
       "id": "skill-neo-wolf-fang-fist",
       "source_parallel_quests": [
         86
@@ -8855,13 +8855,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Future Gohan mentor training",
       "mechanics_notes": "Mentor acquisition endpoint, skill identity, and classification are directly corroborated; numerical combat mechanics remain deferred until separately verified.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Future Gohan mentor training — Lesson 3.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved.",
+      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved.\n2026-09-23 verification refresh: revalidated the existing acquisition endpoint, classification, mechanics, DLC/provenance, and documented reward-tier semantics against the maintained repository evidence corpus; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.",
       "id": "skill-one-handed-kamehameha-mk-ii",
       "source_mentor": [
         "mentor-future-gohan"
