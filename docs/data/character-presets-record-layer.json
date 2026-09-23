@@ -335,12 +335,30 @@
       "character_id": "vegeta",
       "name": "Vegeta Preset 8",
       "preset_number": 8,
-      "verification_status": "indexed",
-      "loadout_status": "unresolved",
+      "verification_status": "verified",
+      "loadout_status": "verified",
       "acquisition_status": "community_observed",
       "sources": [
-        "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+        "https://www.youtube.com/watch?v=EJ0ICSoKXPc",
+        "https://dbxv2.fandom.com/wiki/Vegeta"
+      ],
+      "loadout": {
+        "super_attacks": [
+          "Sledgehammer",
+          "Energy Wave Combo",
+          "Big Bang Attack",
+          "Full Power Charge"
+        ],
+        "ultimate_attacks": [
+          "Final Flash",
+          "Explosive Wave"
+        ],
+        "awoken_skill": "Super Vegeta",
+        "evasive_skill": "Explosive Wave",
+        "super_soul": "I am...Super Vegeta!!",
+        "loadout_evidence_scope": "Explicit Battle Suit 8 in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
+      },
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Vegeta"
     },
     {
       "id": "vegeta-preset-9",
@@ -543,38 +561,91 @@
       "character_id": "captain-ginyu",
       "name": "Captain Ginyu Preset 2",
       "preset_number": 2,
-      "verification_status": "indexed",
-      "loadout_status": "unresolved",
+      "verification_status": "verified",
+      "loadout_status": "verified",
       "acquisition_status": "community_observed",
       "sources": [
-        "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+        "https://www.youtube.com/watch?v=EJ0ICSoKXPc",
+        "https://dbxv2.fandom.com/wiki/Captain_Ginyu"
+      ],
+      "loadout": {
+        "super_attacks": [
+          "Sledgehammer",
+          "Milky Cannon",
+          "Holstein Shock",
+          "Fighting Pose F"
+        ],
+        "ultimate_attacks": [
+          "Full Power Energy Wave",
+          "Body Change"
+        ],
+        "awoken_skill": null,
+        "evasive_skill": "Break Strike",
+        "super_soul": "Let me show you how it's done.",
+        "loadout_evidence_scope": "Explicit Battle Suit 2 in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
+      },
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu"
     },
     {
       "id": "captain-ginyu-preset-3",
       "character_id": "captain-ginyu",
       "name": "Captain Ginyu Preset 3 (Vegeta)",
       "preset_number": 3,
-      "verification_status": "indexed",
-      "loadout_status": "unresolved",
+      "verification_status": "verified",
+      "loadout_status": "verified",
       "acquisition_status": "community_observed",
       "notes": "Source labels this preset as a Vegeta-body configuration; identity mapping requires dedicated verification.",
       "sources": [
-        "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+        "https://www.youtube.com/watch?v=EJ0ICSoKXPc",
+        "https://dbxv2.fandom.com/wiki/Captain_Ginyu"
+      ],
+      "loadout": {
+        "super_attacks": [
+          "Sledgehammer",
+          "Milky Cannon",
+          "Consecutive Energy Blast",
+          "Fighting Pose F"
+        ],
+        "ultimate_attacks": [
+          "Body Change"
+        ],
+        "awoken_skill": null,
+        "evasive_skill": null,
+        "super_soul": null,
+        "loadout_evidence_scope": "Explicit Vegeta body row in Captain Ginyu's in-game-data table; repository record already identifies Preset 3 as the Vegeta-body configuration. This does not change Captain Ginyu's canonical identity."
+      },
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu"
     },
     {
       "id": "captain-ginyu-preset-4",
       "character_id": "captain-ginyu",
       "name": "Captain Ginyu Preset 4 (Xeno Trunks)",
       "preset_number": 4,
-      "verification_status": "indexed",
-      "loadout_status": "unresolved",
+      "verification_status": "verified",
+      "loadout_status": "verified",
       "acquisition_status": "community_observed",
       "notes": "Source labels this preset as an Xeno Trunks-body configuration; identity mapping requires dedicated verification.",
       "sources": [
-        "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+        "https://www.youtube.com/watch?v=EJ0ICSoKXPc",
+        "https://dbxv2.fandom.com/wiki/Captain_Ginyu"
+      ],
+      "loadout": {
+        "super_attacks": [
+          "Ki Explosion",
+          "Milky Cannon",
+          "Backflip",
+          "Charged Ki Wave"
+        ],
+        "ultimate_attacks": [
+          "Full Power Energy Wave",
+          "Break Strike"
+        ],
+        "awoken_skill": null,
+        "evasive_skill": null,
+        "super_soul": null,
+        "loadout_evidence_scope": "Explicit Trunks body row in Captain Ginyu's in-game-data table; repository record already identifies Preset 4 as the Xeno Trunks-body configuration. The source table labels the row 'Trunks'; this does not change Captain Ginyu's canonical identity."
+      },
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu"
     },
     {
       "id": "captain-ginyu-preset-5",
