@@ -6448,3 +6448,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime remains unavailable; no CI success claimed.
 - **Live census:** 151 canonical characters / 29 explicit character bridge records / 40 preset records / 20 Partner Customization records / 15 DLC-character bridge records / 20 canonical DLC identities.
 - **Exact next task:** search remaining character-facing generated/index consumers and validators for stale fixed-count assumptions or one-way links; after that, pursue source-backed preset-loadout evidence only where an explicit loadout source exists.
+
+
+### 2026-09-23 cycle update — First explicit preset-loadout evidence batch
+- Completed the first bounded source-backed preset-loadout promotion after character identity/presentation parity cleanup.
+- Promoted `frieza-final-preset-2` to `verification_status=verified` / `loadout_status=verified` with the seven explicit skill entries and **Gotcha!** Super Soul documented by the current Frieza (Final Form) in-game-data table. The repository's Character Core Profiles already independently described the two Final Form loadouts.
+- Added the loadout source to the preset record and registered the verified record in `docs/data/character-preset-skill-navigation-audit-2026-09-23.json`.
+- Hardened `scripts/validate_character_presentation_consumers.py` so verified loadouts cannot exist without a structured loadout object and explicit source.
+- No unsupported preset→skill edges, acquisition routes, exclusivity claims, or identity mappings were inferred.
+- Commits: preset `9e351599d2fec6de76528240c419677cbfe7954e`; audit `bebd53de9b4eecaa5af4c17bb10e6f1b0a7a6534`; validator `84c2c29fe6faa1bb70fda2422011a88f48615319`; TODO appended in this cycle.
+- Evidence source: current Frieza (Final Form) in-game-data table lists Final Form 2 as Death Slash / Death Beam / Death Psycho Bomb / Maximum Charge / Full Power Energy Blast Volley / Death Ball / Psychic Move with Gotcha!; the source distinguishes it from Final Form 1. citeturn2search1
+- CI/runtime remains unavailable; no CI success claimed.
+- **Live preset census:** 40 records, with 1 explicitly verified loadout and the remaining indexed loadouts unresolved.
+- **Exact next task:** reconcile another **4–8 preset loadouts** only from explicit item-level/in-game-data evidence, prioritizing records already represented in `docs/Character-Core-Profiles.md` and the existing preset source corpus.
