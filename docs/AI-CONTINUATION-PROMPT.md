@@ -6546,3 +6546,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Web source verified the Recoome Battle Suit 1–2 tables. citeturn0search1
 - [ ] CI/runtime remains unavailable.
 - **Exact next batch:** another unresolved character with explicit Battle Suit rows; preserve exact preset numbering and slot mapping.
+
+### 2026-09-23 cycle update — Zarbon preset-loadout evidence batch
+- [x] Added Zarbon Presets 1–2 from explicit Battle Suit tables: both use Gorgeous Shot, Energy Charge, Elegant Blaster and Bloody Counter, with the documented second-super difference (Consecutive Energy Blast vs Energy Wave Combo).
+- [x] Preset layer now has **50 records / 23 verified loadouts**.
+- [x] Navigation audit now has **151 verified loadout skill entries**.
+- [x] Kept acquisition separate from loadout evidence and preserved Festival/custom-partner boundaries.
+- [x] Web source verified the Zarbon Battle Suit 1–2 tables. citeturn0search1
+- [ ] CI/runtime remains unavailable.
+- **Exact next batch:** continue exact Battle Suit reconciliation for another unresolved character.
