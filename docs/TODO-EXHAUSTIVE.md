@@ -3237,3 +3237,16 @@
 - [x] Updated `last_verified` and canonical source provenance.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Remaining strict-thin queue remains **032, 034, 158, 217, 232–236**. 217 is now an explicit evidence-boundary result; next work should move to 034 or the indexed 232–236 records only when item-level evidence can be obtained.
+
+
+### 2026-09-23 — Super Soul 034 provenance boundary refresh
+- [x] Recomputed/inspected the remaining strict-thin boundary: **032, 034, 158, 217, 232–236**.
+- [x] Bounded batch: **Super Soul 034 — “The final battle begins now.”**
+- [x] Research/evidence: current Steam PQ186 evidence confirms the exact-name reward entry; official Nintendo FUTURE SAGA Chapter 4 documentation confirms the DLC contains **4 Super Souls** and **2 Parallel Quests**.
+- [x] Strengthened canonical provenance and verification date without promoting mechanics or character-source claims that the evidence does not establish.
+- [x] Updated `docs/data/super-soul-034-and-036-through-039-provenance-audit-2026-09-22.json` to record the four-Super-Soul DLC inventory as corroborating context and the remaining item-identity boundary.
+- [x] Evidence limits preserved: trigger, effect, magnitude, duration, stacking, Limit Burst, exact reward tier, drop probability, and independently established character source remain unresolved for 034.
+- [x] Validation: canonical JSON reread/parsed; record 034 remains present and partially_verified; no strict-thin reduction claimed.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [x] Commits: canonical `0c98d6f4734865455ead5a7ed07ba7af6e164a24`; audit `89adf93a6ded0e838565bb92c1f86dd40808a6da`.
+- [ ] Exact next priority: resolve **034 item identity/mechanics** only with item-level evidence (game-data identifier, exact-name mechanics source, or equivalent). Otherwise move to **232–236 identity resolution** and keep all unresolved boundaries explicit.
