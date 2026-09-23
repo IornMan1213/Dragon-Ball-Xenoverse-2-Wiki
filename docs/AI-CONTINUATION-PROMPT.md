@@ -6364,3 +6364,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - The broader non-character/CaC source inventory remains intentionally outside the canonical character bridge.
 - CI/runtime remains unavailable; no CI success claimed.
 - **Exact next task:** close this identity phase and advance to the next highest-priority exhaustive cross-domain/link-integrity task.
+
+
+### 2026-09-23 cycle update — PQ cross-database navigation synchronization
+
+- Live census: **465 canonical skills**, **244 PQ→skill forward edges**, **239 unique skill reverse endpoints**; PQ→skill unresolved forward edges and orphan reverse sources remain **0**.
+- Synchronized `docs/data/pq-skill-crosslink-report.json` from its stale 452-skill baseline to the live **465** canonical skill count without altering its evidence-backed 244/239 relationship graph.
+- Audited the one apparent source-route discrepancy: Kamehameha has a legitimate additional PQ48 relationship while its primary `source_parallel_quests` field remains PQ5; this is preserved as multi-producer acquisition evidence rather than treated as a broken link.
+- Synchronized `docs/data/pq-character-reverse-navigation-audit.json` to the live **151-record** canonical character layer. PQ character relationship counts remain unchanged; the two newly promoted characters are not inferred into PQ relationships without explicit evidence.
+- Validation: JSON parse passed; **465/465** skill report parity; **0** unresolved PQ→skill edges; **0** orphan skill reverse endpoints; character audit **151/151** canonical character records; **0** missing character targets; **0** orphan reverse targets; **0** duplicate forward pairs.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next task:** continue the cross-database producer/consumer audit on mentor↔skill navigation, then character/preset↔skill navigation, prioritizing deterministic ID mismatches and orphaned reverse links.
