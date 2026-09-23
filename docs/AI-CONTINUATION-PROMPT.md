@@ -3890,3 +3890,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Latest completed Super Soul batch: **034 and 036–039**.
 - Exact next task: **recompute the full Super Soul thin-system census and select the next 4–12 highest-impact canonical records with strong exact-name evidence and/or reusable PQ cross-links**, preserving unresolved mechanics and acquisition conflicts.
 - Do not treat historical counts or older cycle instructions as current when newer live handoff entries supersede them.
+
+
+### 2026-09-22 — Self-contained continuation contract clarification
+- [x] Confirmed the canonical handoff must be sufficient for a brand-new AI chat to resume the project without reconstructing intent from individual dated cycle prompts.
+- [x] The canonical handoff preserves **all project goals**, not merely the latest task: the primary goal is an **exhaustive, accurate, research-backed Dragon Ball Xenoverse 2 Wiki and structured research database**, with comprehensive details, provenance, version/history coverage, acquisition/mechanics data, and complete cross-database navigation.
+- [x] The efficiency protocol is part of the operating contract, not an optional optimization. Live census, bounded batches, two-pass research/edit workflow, repository evidence first, field-scoped edits, evidence thresholds, atomic writes, post-write validation, compact state recording, context-efficient retrieval, and safe state preservation all remain active requirements.
+- [x] **Exhaustiveness and efficiency are complementary:** efficiency controls how work is selected and executed; it does not reduce the completeness target or authorize skipping unresolved coverage. Work may be deferred only because it is lower priority, unsupported by evidence, unsafe to change, or outside the current bounded batch.
+- [x] Historical cycle entries remain cumulative history. Their stale counts and old next-task statements must not override newer live state. The **latest live resume checkpoint** is authoritative for the next action.
+- [x] A fresh AI should understand both layers immediately: **(1) the complete long-term objective and operating rules, and (2) the current exact unfinished work/state**, without requiring the user to explain prior chats or reread every dated prompt individually.
+- [x] Cross-domain completion remains project-wide: databases should be linkable and reverse-navigable where evidence supports relationships; unresolved identities, conflicts, and granularity differences must be explicitly recorded rather than guessed.
+- [x] Every completed cycle must advance the exact resume checkpoint and append the new state to this canonical handoff so the next fresh chat inherits the latest project state.
