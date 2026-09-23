@@ -2352,3 +2352,12 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Added `docs/data/super-soul-217-limit-burst-evidence-2026-09-23.json` and registered it in the cross-domain index.
 - Strict-thin queue is now **032 and 034**; 217 exits because its strict core fields are populated.
 - CI/runtime remains unavailable; no CI success claimed.
+
+
+## 2026-09-23 — Post-158 PQ current-consumer baseline synchronization
+- Removing the false **Super Soul 158 / Do or Die** domain collision reduced the authoritative PQ relationship layer from **854 to 853** total edges and the Super Soul projection from **146/143 to 145/142** forward/reverse.
+- Synchronized active PQ reference, audit, status, producer, presentation, endpoint/navigation, reverse-index, and validator consumers to the new live baseline.
+- Added `docs/data/pq-current-baseline-after-super-soul-158-migration-2026-09-23.json` and registered it in the PQ cross-domain index.
+- Updated the Super Soul thin census/checkpoint to **230 canonical / 0 duplicate IDs / strict-thin 032 and 034**.
+- Prior 854/146/143 and older 859/151/148, 862/860/840 snapshots remain preserved as historical correction evidence.
+- CI/runtime remains unavailable; no CI success claimed.
