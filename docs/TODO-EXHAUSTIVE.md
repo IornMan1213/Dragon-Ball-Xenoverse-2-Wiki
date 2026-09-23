@@ -4107,3 +4107,12 @@
 - [x] Validation: **455 canonical / 455 index / 0 duplicate IDs / 400 stale**; target parity clean.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next batch: recompute the live stale queue and continue with **Burst Blitz, Burst Kamehameha, Burst Reflection, Burst Rush, Burst Stinger, Change The Future, Chaos Shot, Chaos Wall, Chaotic Time Impact, Charge**.
+
+
+### 2026-09-23 — TODO completion update — P1 Burst Blitz through Burst Stinger
+- [x] Completed **Burst Blitz, Burst Kamehameha, Burst Reflection, Burst Rush, Burst Stinger** provenance refresh.
+- [x] Synchronized canonical/index verification dates and sources.
+- [x] Added/registered **docs/data/skill-provenance-audit-2026-09-23-burst-blitz-through-burst-stinger.json**.
+- [x] Validation: **455 canonical / 455 index / 0 duplicate IDs / 395 stale**; target parity clean.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next batch: **Change The Future, Chaos Shot, Chaos Wall, Chaotic Time Impact, Charge, Charged Ki Wave, Circle Flash, Comet Strike, Confusion Blade, Core Breaker**.
