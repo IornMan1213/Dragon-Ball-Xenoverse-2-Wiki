@@ -2569,3 +2569,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Preserved existing acquisition, mechanics, DLC, conflicts, and unresolved evidence boundaries.
 - Added `docs/data/skill-provenance-audit-2026-09-23-evil-through-feint-shot.json` and refreshed the stale census.
 - Validation: 455 canonical / 455 index / 0 duplicate IDs / 292 stale after the batch; CI/runtime unavailable.
+
+
+## 2026-09-23 — P1 Fierce Fist through Final Flash (SS3 DAIMA) provenance refresh
+- Refreshed 12 canonical/index skill records: Fierce Fist, Fighting Pose A, Fighting Pose C, Fighting Pose E, Fighting Pose F, Fighting Pose H, Fighting Pose K, Final Cannon, Final Charge, Final Explosion, Final Flash, and Final Flash (SS3 DAIMA).
+- Preserved existing acquisition, mechanics, DLC, conflicts, and unresolved evidence boundaries.
+- Added `docs/data/skill-provenance-audit-2026-09-23-fierce-fist-through-final-flash-ss3-daima.json` and refreshed the stale census.
+- Validation: 455 canonical / 455 index / 0 duplicate IDs / 280 stale after the batch; CI/runtime unavailable.
