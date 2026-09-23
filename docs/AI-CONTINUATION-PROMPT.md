@@ -4505,3 +4505,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - Commits: `c26fe9a931a9e560db5661882f0fe9da3fdd5438`, `2f43493b85398c865841a2dca1fcee1cd373b171`, `86114d202a0acbd6daa098b8128d6cd473d393b7`, `76c7cb7275f5dbc2f922a28f347aff83e8eed608`, `35f8d11f8cf1b51a825e22fd30a3d3949db4b7e8`.
 - Exact next batch: recompute the live strict-thin queue and continue the next evidence-supported duration cluster, beginning with **156, 161, 166, 172**; preserve genuine evidence boundaries rather than forcing nulls into guessed timers.
+### 2026-09-22 cycle update — Super Soul 061/096/097/098/099 duration-stacking reconciliation
+- Live census before editing: **234 canonical / 0 duplicate IDs / 98 strict-thin records**.
+- Bounded batch: **061, 096, 097, 098, and 099**.
+- Research/evidence: maintained exact-name Super Soul catalogue, Madreag research corpus, and independent GameFAQs evidence for the throw-stack mechanics.
+- Changes: 061 and 098 now explicitly preserve accumulated stacks without an undocumented expiration timer; 096 records its 3-second temporary window; 097 records its 30-second boost and once-only trigger; 099 records its battle-start-to-low-health state transition.
+- Added/registered audit: `docs/data/super-soul-061-096-097-098-099-duration-stacking-reconciliation-2026-09-22.json`.
+- Evidence limits preserved: no unsupported timer, stack reset, or new cap was inferred.
+- Validation: **234 canonical / 0 duplicate IDs / 93 strict-thin records**; audit registration confirmed; JSON census refresh succeeded.
+- CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- Exact next batch: recompute the live strict-thin queue and continue the next evidence-supported cluster, prioritizing records with explicit duration/stacking evidence and preserving 032/034 as evidence boundaries.
+
