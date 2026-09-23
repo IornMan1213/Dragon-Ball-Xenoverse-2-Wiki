@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "game": "Dragon Ball Xenoverse 2",
+  "date": "2026-09-23",
+  "scope": "Bounded pack-level content matrix for the two DLC content projections whose non-PQ downstream inventory remains explicitly unresolved.",
+  "verification_policy": "Official publisher sources establish advertised pack scope. Repository canonical records and PQ crosslinks establish concrete downstream navigation anchors. Anchors are not treated as proof of complete pack ownership/content inventory unless independently verified.",
+  "packs": [
+    {
+      "dlc_id": "dragon-ball-daima-pack",
+      "name": "Dragon Ball DAIMA Pack",
+      "official_source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-dragon-ball-daima-pack-now-available",
+      "canonical_pq_ids": ["pq-179", "pq-180", "pq-181"],
+      "advertised_paid_domains": ["playable_characters", "parallel_quests", "skills", "super_souls", "costumes_accessories", "loading_screen_illustrations"],
+      "advertised_free_update_domains": ["raid_boss_battles", "costumes", "super_souls", "skills", "loading_screen_illustrations", "lobby_items"],
+      "concrete_downstream_anchors": {
+        "characters": ["SS4 Goku (DAIMA)", "SS3 Vegeta (DAIMA)"],
+        "parallel_quests": ["pq-179", "pq-180", "pq-181"],
+        "skills": {"canonical_pq_edge_count": 6, "status": "PQ-backed navigation anchor count; individual pack inventory remains separate"},
+        "super_souls": {"canonical_pq_edge_count": 2, "status": "PQ-backed navigation anchor count; individual pack inventory remains separate"},
+        "equipment": {"canonical_pq_edge_count": 8, "status": "PQ-backed equipment/accessory navigation; exact pack inventory remains separate"},
+        "accessories": ["SS4 Goku (DAIMA) Wig & Tail", "SS3 Vegeta (DAIMA) Wig", "Glorio Wig", "Panzy Wig"],
+        "costumes": ["SS4 Goku (DAIMA) Suit", "SS3 Vegeta (DAIMA) Battle Suit", "Glorio's Clothes", "Panzy's Clothes"]
+      },
+      "unresolved_domains": ["complete_paid_pack_inventory", "complete_free_update_inventory", "raid_boss_record_layer", "lobby_item_record_layer", "complete_loading_screen_inventory"],
+      "evidence_boundary": "The official announcement explicitly separates the paid DAIMA Pack from the free update. Existing PQ-linked records are navigation anchors only; no missing content was promoted into canonical DLC ownership."
+    },
+    {
+      "dlc_id": "hero-of-justice-pack-2",
+      "name": "Hero of Justice Pack 2",
+      "official_source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-hero-of-justice-pack-2-dlc-release",
+      "canonical_pq_ids": ["pq-159", "pq-160", "pq-161", "pq-162"],
+      "advertised_paid_domains": ["playable_characters", "parallel_quests", "missions", "skills", "costumes", "stage", "additional_content"],
+      "concrete_downstream_anchors": {
+        "characters": ["Gohan (Beast)", "Piccolo (Power Awakening)", "Orange Piccolo"],
+        "parallel_quests": ["pq-159", "pq-160", "pq-161", "pq-162"],
+        "skills": {"canonical_pq_edge_count": 7, "status": "PQ-backed navigation anchor count; individual pack inventory remains separate"},
+        "super_souls": {"canonical_pq_edge_count": 5, "status": "Existing canonical relationship projection; not promoted to complete pack inventory"},
+        "equipment": {"canonical_pq_edge_count": 5, "status": "PQ-backed equipment navigation; exact pack inventory remains separate"}
+      },
+      "unresolved_domains": ["complete_pack_inventory", "mission_record_layer", "exact_stage_identity", "complete_costume_inventory", "complete_skill_inventory"],
+      "evidence_boundary": "The official release announcement confirms the characters, PQ/missions, skills, costumes, and new stage at pack scope. It does not by itself establish individual acquisition routes or a complete item inventory."
+    }
+  ],
+  "rules": [
+    "Do not infer DLC ownership from a PQ reward merely because the PQ requires the DLC.",
+    "Do not merge free-update DAIMA content into the paid DAIMA Pack.",
+    "Keep concrete downstream anchors navigable while preserving unresolved completeness.",
+    "Future work should replace unresolved pack-level placeholders only with concrete canonical records and source-backed evidence."
+  ]
+}
