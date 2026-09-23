@@ -4165,3 +4165,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] No acquisition, PQ relationship, effect magnitude, or Limit Burst semantics changed.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Next priority: continue the deterministic thin census with the next genuinely unresolved applicable fields; do not force unresolved mechanics without direct evidence.
+
+
+### 2026-09-22 cycle update — Super Soul secondary-field reconciliation (007 / 047)
+- [x] Reconciled **007 Gyau!!!!** as a no-special-effect Super Soul: trigger, magnitude, duration, and stacking are **N/A**; its Revive Gauge Auto-Recovery Limit Burst remains preserved.
+- [x] Reconciled **047** Limit Burst to **Auto Health and Stamina Recovery!; DEF Down.** from independent raid documentation.
+- [x] Added `docs/data/super-soul-secondary-field-reconciliation-007-047-2026-09-22.json` and registered it in the cross-domain index.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Next priority: continue the thin census; 032 and 034 remain unresolved where direct item-level mechanics are still insufficiently evidenced.
