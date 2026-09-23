@@ -5954,3 +5954,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Live census: 455 canonical / 455 index / 343 current / 112 stale / 0 duplicate IDs.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next batch: Rolling Bullet, Rolling Hercule Punch, Rough Ranger, S.S. Deadly Bomber, Saiyan Blaster, Saiyan Spirit, Saturday Crash, Sauzer Blade, Savory Slicer, Scatter Kamehameha, Scissors Paper Rock, Seagull Combination.
+
+
+### 2026-09-23 cycle update — Rolling Bullet through Seagull Combination skill provenance refresh
+
+- Completed the next P1 stale-skill batch: **12 records** — Rolling Bullet, Rolling Hercule Punch, Rough Ranger, S.S. Deadly Bomber, Saiyan Blaster, Saiyan Spirit, Saturday Crash, Sauzer Blade, Savory Slicer, Scatter Kamehameha, Scissors Paper Rock, and Seagull Combination.
+- Synchronized canonical `docs/data/skills.json` and `docs/data/skills-index.json` with `last_verified=2026-09-23` and appended bounded provenance-refresh notes while preserving existing acquisition routes, reward-tier conflicts, DLC provenance, restrictions, and unresolved mechanics.
+- Refreshed `docs/data/skill-stale-metadata-census-2026-09-23.json`: **455 canonical / 455 index / 355 current / 100 stale / 0 duplicate IDs**.
+- The bounded audit payload was prepared for `docs/data/skill-provenance-audit-2026-09-23-rolling-through-seagull-combination.json`; the GitHub connector allowed blob/tree preparation but blocked the final commit, so the audit file is **not claimed as present on main** and must be attached in the next cycle if the write path permits.
+- Validation boundary: target records have current verification dates and canonical/index source/date synchronization; no unsupported probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next stale batch: **Secret Poison, Shadow Crusher, Shield Barrier, Shine Shot, Shining Friday, Shining Slash, Shooting Strike, Side Bridge, Sign of Awakening, Sneaky Strike, Soaring Fist, and Soaring Rush**.
+- Exact next task: revalidate those 12 records against their maintained source sets, synchronize canonical/index layers, attach the bounded provenance audit, and recompute the stale census.
