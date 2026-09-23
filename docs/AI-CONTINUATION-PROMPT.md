@@ -5799,3 +5799,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime: unavailable; no CI success claimed.
 - Commits: canonical `c8a4dbc91bb51dae5aed87fadb083cb24b402e1d`; index `36986485b8c0cffdb29dce4002546b86d26c4f48`; audit `121c04790a61bc2114c0ad4eec5999e8a2eefeb9`; registry `af4e6a177604c007bfa6605bad7472bea32ab11e`; changelog `d577fdafa6b2d19b3b7c4d4e446b4cf6e714d067`; TODO `96e4d72291e59aabf0ffa6fd915f047f84a1cca3`.
 - Exact next batch: **Force Shield, Formation!, Freedom Kick, Fruit of the Tree of Might, Full Power Charge, Full Power Destruction, Future Super Saiyan, Galactic Donuts, Galick Cannon, Galick Gun, Gamma Blaster, Gamma Impact**. Recompute the live stale queue first; do not repeat completed records.
+
+
+### 2026-09-23 cycle update — P1 Force-through-Gamma Impact skill provenance/mechanics refresh
+- Live census before editing: 455 canonical / 455 index / 280 stale / 0 duplicate IDs.
+- Bounded batch: Force Shield, Formation!, Freedom Kick, Fruit of the Tree of Might, Full Power Charge, Full Power Destruction, Future Super Saiyan, Galactic Donuts, Galick Cannon, Galick Gun, Gamma Blaster, Gamma Impact.
+- Changes: refreshed canonical/index last_verified to 2026-09-23 and refreshed bounded mechanics/provenance notes while preserving existing evidence boundaries.
+- Added/registered docs/data/skill-provenance-audit-2026-09-23-force-through-gamma-impact.json and registered it in docs/data/pq-cross-domain-index.json.
+- Validation after write: 455 canonical / 455 index / 256 stale / 0 duplicate IDs; all 12 target records have canonical/index parity for last_verified and mechanics notes.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next batch: Genocide Shell, Giant Storm, Gigantic Breaker, Gigantic Burst, Gigantic Charge, Gigantic Cluster, Gigantic Cross, Gigantic Explosion, Gigantic Meteor, Gigantic Nova, Gigantic Omega, Gigantic Rage. Recompute the live stale queue first.
