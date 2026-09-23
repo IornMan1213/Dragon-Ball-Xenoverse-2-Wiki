@@ -1835,3 +1835,13 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Added docs/data/super-soul-secondary-field-reconciliation-001-003-006-012-2026-09-22.json and registered it in docs/data/pq-cross-domain-index.json.
 - Evidence boundaries preserved; Super Soul 013 remains unresolved where available evidence does not establish duration/magnitude.
 - Static validation target: 234 canonical records, 0 duplicate IDs, strict thin count reduced by four. Runtime/CI unavailable.
+
+
+## 2026-09-22 — Super Soul early/base-game secondary-field reconciliation (013 / 014 / 017 / 026)
+- Reconciled four early/base-game thin records using exact-name catalogue and independent guide evidence.
+- Super Soul 013 now explicitly records N/A for effect magnitude, duration, and stacking because the evidence establishes only the Slow-status effect and supplies no numeric/status duration or stacking mechanic.
+- Super Souls 014, 017, and 026 now explicitly record N/A for stacking; their documented triggers/effects/durations remain unchanged.
+- Super Souls 024 and 025 were intentionally not forced to N/A because their remaining duration semantics are not established by the available exact-name evidence.
+- Added and registered docs/data/super-soul-secondary-field-reconciliation-013-014-017-026-2026-09-22.json.
+- No canonical PQ relationship, acquisition identity, or Limit Burst semantics were changed.
+- Runtime/CI remains unavailable; no CI success claimed.
