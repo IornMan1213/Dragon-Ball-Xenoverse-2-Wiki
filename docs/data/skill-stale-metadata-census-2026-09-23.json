@@ -5,129 +5,129 @@
   "source_of_truth": "docs/data/skills.json",
   "live_counts": {
     "canonical_skill_records": 455,
-    "stale_last_verified_records": 447,
-    "current_last_verified_records": 8,
+    "stale_last_verified_records": 328,
+    "current_last_verified_records": 127,
     "duplicate_ids": 0
   },
   "method": "Fresh alphabetical census of canonical records where last_verified != 2026-09-23.",
   "next_stale_records": [
     {
-      "id": "skill-angry-explosion",
-      "name": "Angry Explosion",
+      "id": "skill-dynamite-kick",
+      "name": "Dynamite Kick",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-eagle-kick",
+      "name": "Eagle Kick",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-earth-splitting-galick-gun",
+      "name": "Earth Splitting Galick Gun",
       "last_verified": "2026-09-22",
       "source_count": 4
     },
     {
-      "id": "skill-angry-hit",
-      "name": "Angry Hit",
+      "id": "skill-elegant-blaster",
+      "name": "Elegant Blaster",
       "last_verified": "2026-09-22",
       "source_count": 3
     },
     {
-      "id": "skill-angry-shout",
-      "name": "Angry Shout",
+      "id": "skill-elite-beam",
+      "name": "Elite Beam",
       "last_verified": "2026-09-22",
       "source_count": 3
     },
     {
-      "id": "skill-apocalyptic-burst",
-      "name": "Apocalyptic Burst",
+      "id": "skill-elite-shooting",
+      "name": "Elite Shooting",
       "last_verified": "2026-09-22",
       "source_count": 3
     },
     {
-      "id": "skill-arm-crash",
-      "name": "Arm Crash",
+      "id": "skill-emperor-s-blast",
+      "name": "Emperor's Blast",
       "last_verified": "2026-09-22",
       "source_count": 3
     },
     {
-      "id": "skill-assault-vanish",
-      "name": "Assault Vanish",
+      "id": "skill-emperor-s-cannon",
+      "name": "Emperor's Cannon",
       "last_verified": "2026-09-22",
-      "source_count": 4
+      "source_count": 3
     },
     {
-      "id": "skill-atomic-blast",
-      "name": "Atomic Blast",
+      "id": "skill-emperor-s-death-beam",
+      "name": "Emperor's Death Beam",
       "last_verified": "2026-09-22",
       "source_count": 5
     },
     {
-      "id": "skill-audacious-laugh",
-      "name": "Audacious Laugh",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-beast",
-      "name": "Beast",
-      "last_verified": "2026-09-22",
-      "source_count": 4
-    },
-    {
-      "id": "skill-become-giant",
-      "name": "Become Giant",
-      "last_verified": "2026-09-22",
-      "source_count": 6
-    },
-    {
-      "id": "skill-bending-kamehameha",
-      "name": "Bending Kamehameha",
+      "id": "skill-emperor-s-edge",
+      "name": "Emperor's Edge",
       "last_verified": "2026-09-22",
       "source_count": 5
     },
     {
-      "id": "skill-big-bang-kamehameha",
-      "name": "Big Bang Kamehameha",
-      "last_verified": "2026-09-22",
-      "source_count": 4
-    },
-    {
-      "id": "skill-big-bang-knuckle",
-      "name": "Big Bang Knuckle",
-      "last_verified": "2026-09-22",
-      "source_count": 4
-    },
-    {
-      "id": "skill-blades-of-judgment",
-      "name": "Blades of Judgment",
+      "id": "skill-endless-shoot",
+      "name": "Endless Shoot",
       "last_verified": "2026-09-22",
       "source_count": 3
     },
     {
-      "id": "skill-blaster-ball",
-      "name": "Blaster Ball",
-      "last_verified": "2026-09-22",
-      "source_count": 5
-    },
-    {
-      "id": "skill-blaster-bomb",
-      "name": "Blaster Bomb",
+      "id": "skill-energy-barrier",
+      "name": "Energy Barrier",
       "last_verified": "2026-09-22",
       "source_count": 4
     },
     {
-      "id": "skill-blaster-cannon",
-      "name": "Blaster Cannon",
-      "last_verified": "2026-09-22",
-      "source_count": 4
-    },
-    {
-      "id": "skill-blaster-meteor",
-      "name": "Blaster Meteor",
+      "id": "skill-energy-charge",
+      "name": "Energy Charge",
       "last_verified": "2026-09-22",
       "source_count": 3
     },
     {
-      "id": "skill-blaster-shell",
-      "name": "Blaster Shell",
+      "id": "skill-energy-dome",
+      "name": "Energy Dome",
       "last_verified": "2026-09-22",
       "source_count": 3
     },
     {
-      "id": "skill-blaster-stream",
-      "name": "Blaster Stream",
+      "id": "skill-energy-field",
+      "name": "Energy Field",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-energy-minefield",
+      "name": "Energy Minefield",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-energy-release",
+      "name": "Energy Release",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-energy-shot",
+      "name": "Energy Shot",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-eraser-bomb",
+      "name": "Eraser Bomb",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-evil-blast",
+      "name": "Evil Blast",
       "last_verified": "2026-09-22",
       "source_count": 4
     }
@@ -135,7 +135,7 @@
   "validation": {
     "canonical_record_count": 455,
     "stale_plus_current": 455,
-    "duplicate_ids": true,
+    "duplicate_ids": 0,
     "status": "clean_census"
   },
   "evidence_boundary": "A stale last_verified date is a research-priority signal, not evidence that the underlying record is incorrect. Canonical acquisition, mechanics, uncertainty, and source conflicts remain unchanged until independently verified."
