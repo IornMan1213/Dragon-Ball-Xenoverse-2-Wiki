@@ -38,7 +38,7 @@
   ],
   "architecture_finding": {
     "current_repo_state": "No dedicated canonical CC Mascot record layer was found in the live repository search.",
-    "existing_dlc_projection": "The DLC content reconciliation already has a cc_mascots count of 1 but no canonical target ID.",
+    "existing_dlc_projection": "The DLC content reconciliation now points to canonical mascot-puar.",
     "required_next_architecture": "Introduce a dedicated CC Mascot identity/catalog layer before assigning a canonical Puar ID, so the domain can support Puar plus its documented color variants and other mascots without forcing them into equipment/accessory schemas."
   },
   "validation": {
