@@ -4412,3 +4412,12 @@
 - [x] Refreshed docs/data/skill-stale-metadata-census-2026-09-23.json: 455 canonical / 455 index / 379 current / 76 stale / 0 duplicate IDs.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next batch: Spirit Slash, Spread Shot Retreat, Steel Mirage, Stone Bullet, Strike of Revelation, Sudden Death Beam, Sudden Storm, Super Afterimage, Super Black Kamehameha Rosé, Super Donut Volley, Super Dragon Flight, Super Elite Combo.
+
+
+### 2026-09-23 — TODO completion update — P1 Spirit Slash through Super Elite Combo
+- [x] Completed 12 skills: Spirit Slash, Spread Shot Retreat, Steel Mirage, Stone Bullet, Strike of Revelation, Sudden Death Beam, Sudden Storm, Super Afterimage, Super Black Kamehameha Rosé, Super Donut Volley, Super Dragon Flight, Super Elite Combo.
+- [x] Synchronized canonical/index last_verified to 2026-09-23 and refreshed bounded provenance/mechanics notes using maintained repository evidence and current exact-name references.
+- [x] Corrected the stale Stone Bullet note that called the skill a Ki Blast Super; current evidence and canonical class identify it as a Strike Super.
+- [x] Refreshed docs/data/skill-stale-metadata-census-2026-09-23.json: 455 canonical / 455 index / 391 current / 64 stale / 0 duplicate IDs.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next batch: Super Explosive Wave, Super Gamma Blast, Super Ghost Buu Attack, Super Ghost Kamikaze Attack, Super Ghost Kamikaze Attack, Super God Fist, Super God Shock Flash, Super Guard, Super Kamehameha, Super Kamehameha (SS4 DAIMA), Super Saiyan, Super Saiyan 2.
