@@ -4321,3 +4321,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Promoted the record to **verified_secondary** and added a bounded audit artifact.
 - No acquisition route, reward tier, drop probability, or unrelated mechanic changed.
 - Exact next task: continue the live partially-verified queue, preserving **032** as evidence-bound unless exact-name Limit Burst evidence is independently established.
+
+
+### 2026-09-22 — Super Soul 201 (Alright! Let's go wreck some faces!) reconciliation
+- Strengthened **Super Soul 201** with exact-name independent mechanics evidence.
+- Confirmed the two separate +5% effects and their independent four-stack caps; the duration remains explicitly unresolved because consulted evidence does not establish a timed expiration.
+- Promoted the record to **verified_secondary** and added a bounded audit artifact.
+- No acquisition route, reward probability, Ultimate Finish condition, or unsupported duration was inferred.
+- Exact next task: continue the live partially-verified queue; **032** remains evidence-bound for Limit Burst fields.
