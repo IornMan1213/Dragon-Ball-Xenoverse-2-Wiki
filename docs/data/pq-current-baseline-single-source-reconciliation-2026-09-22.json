@@ -1,22 +1,51 @@
 {
-  "schema_version":"1.0.0",
-  "date":"2026-09-22",
-  "scope":"Reconcile competing current-looking PQ relationship totals after the PQ99 false equipment endpoint correction",
-  "authoritative_current_baseline":{"total_edges":859,"skill":244,"super_soul":151,"equipment":124,"character":247,"dlc":86,"farming":7},
-  "authoritative_source":"docs/data/pq-current-consumer-baseline-correction-2026-09-22.json",
-  "canonical_relationship_consumer_evidence":[
-    {"file":"docs/data/pq-reference-page-audit.json","state":"current","total_edges":859,"equipment":124},
-    {"file":"docs/data/pq-endpoint-alias-granularity-map.json","state":"current","canonical_edge_count_before":859,"canonical_edge_count_after":859},
-    {"file":"docs/data/skill-pq-acquisition-presentation-audit.json","state":"current","total_edges":859,"skill_edges":244},
-    {"file":"docs/data/pq-cross-domain-index.md","state":"current","total_edges":859,"equipment":124},
-    {"file":"docs/data/pq-current-consumer-baseline-correction-2026-09-22.json","state":"current","total_edges":859,"equipment":124}
+  "schema_version": "1.0.0",
+  "date": "2026-09-23",
+  "scope": "Reconcile competing current-looking PQ relationship totals after the PQ99 false equipment endpoint correction",
+  "authoritative_current_baseline": {
+    "total_edges": 854,
+    "skill": 244,
+    "super_soul": 146,
+    "equipment": 124,
+    "character": 247,
+    "dlc": 86,
+    "farming": 7
+  },
+  "authoritative_source": "docs/data/pq-reward-relationships.json",
+  "canonical_relationship_consumer_evidence": [
+    {
+      "file": "docs/data/pq-reference-page-audit.json",
+      "state": "current",
+      "total_edges": 854,
+      "equipment": 124
+    },
+    {
+      "file": "docs/data/pq-endpoint-alias-granularity-map.json",
+      "state": "current",
+      "canonical_edge_count_before": 854,
+      "canonical_edge_count_after": 854
+    },
+    {
+      "file": "docs/data/skill-pq-acquisition-presentation-audit.json",
+      "state": "current",
+      "total_edges": 854,
+      "skill_edges": 244
+    },
+    {
+      "file": "docs/data/pq-cross-domain-index.md",
+      "state": "current",
+      "total_edges": 854,
+      "equipment": 124
+    },
+    {
+      "file": "docs/data/pq-current-consumer-baseline-correction-2026-09-22.json",
+      "state": "historical_snapshot",
+      "total_edges": 859,
+      "equipment": 124
+    }
   ],
-  "stale_current_looking_fields":[
-    {"file":"docs/data/pq-reward-relationships.json","field":"current_reconciliation_2026_09_22.total_unique_relationships","observed":860,"required":859,"action":"deterministic current-field correction pending safe complete-file write"},
-    {"file":"docs/data/pq-cross-domain-status.json","field":"current projection total_edges","observed":860,"required":859,"action":"deterministic current-field correction pending safe complete-file write"},
-    {"file":"docs/COVERAGE-AUDIT.md","field":"latest current PQ census wording","observed":"862-era wording exists in latest cycle material","required":"859 current baseline","action":"latest current wording should be corrected while dated historical snapshots remain immutable"}
-  ],
-  "historical_preservation_rule":"Do not rewrite dated 862/860/840 snapshots merely because they are old. Only fields explicitly presented as current/live/baseline may be corrected.",
-  "relationship_integrity":"No new relationship edge is inferred by this audit. The PQ99 Mr. Shape Up L equipment endpoint remains excluded from the canonical current edge set.",
-  "next_gate":"Safely patch the three current-looking fields above using a complete-file replacement mechanism, then run exact relationship-pair parity against all registered reverse indexes. If complete file contents cannot be safely obtained, retain this reconciliation audit and do not risk destructive reconstruction."
+  "stale_current_looking_fields": [],
+  "historical_preservation_rule": "Do not rewrite dated 862/860/840 snapshots merely because they are old. Only fields explicitly presented as current/live/baseline may be corrected.",
+  "relationship_integrity": "No new relationship edge is inferred by this audit. The PQ99 Mr. Shape Up L equipment endpoint remains excluded from the canonical current edge set.",
+  "next_gate": "Current 854/146 baseline is propagated through the repaired consumer set. Continue exact-pair parity scanning of remaining reverse/navigation projections; preserve dated 859/151/860/862/840 snapshots as historical evidence."
 }
