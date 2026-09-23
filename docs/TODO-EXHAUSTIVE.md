@@ -3217,3 +3217,12 @@
 - [x] No unsupported mechanics were added to Super Soul 158.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Remaining strict-thin queue: **032, 034, 158, 217, 232–236**. Continue with evidence-backed item-level Limit Burst research for **217** before revisiting unresolved indexed records.
+
+
+### 2026-09-23 — TODO completion update — Super Soul 032 activation-state evidence refresh
+- [x] Added current evidence showing **Super Soul 032** has a second activation/name-state after the user is KO'd: the displayed name changes to “Using this power should be no sweat for you guys.”
+- [x] Preserved the evidence boundary: the source establishes the additional activation/name-state but does **not** establish its mechanical effect, so no Limit Burst or second-state effect was inferred.
+- [x] Updated the canonical record's source list, version notes, and `last_verified` date.
+- [x] Added audit: `docs/data/super-soul-032-activation-state-audit-2026-09-23.json`.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Remaining strict-thin queue remains **032, 034, 158, 217, 232–236**. Next priority remains evidence-backed item-level research for **217 Limit Burst**; do not infer unresolved fields from absence of evidence.
