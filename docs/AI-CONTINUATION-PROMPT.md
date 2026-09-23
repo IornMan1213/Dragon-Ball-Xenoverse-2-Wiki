@@ -4836,3 +4836,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Verified the live source-of-truth relationship projection remains **859 total = 244 skill + 151 Super Soul + 124 equipment + 247 character + 86 DLC + 7 farming**.
 - [ ] CI/status checks remain unavailable; no CI success claimed.
 - [ ] Exact next batch: recompute the live strict-thin Super Soul census and select the strongest evidence-supported cluster, while keeping **032/034/158/217** explicit evidence boundaries unless item-level evidence resolves them.
+
+
+### 2026-09-23 cycle update — strict-thin queue recomputation and checkpoint consistency repair
+- [x] Recomputed the authoritative live strict-thin census from `docs/data/super-souls-record-layer.json` under the repository's eight-field strict-thin definition: **229 canonical / 0 duplicate IDs / 4 strict-thin records**.
+- [x] Confirmed the live queue is exactly **super-soul-032, super-soul-034, super-soul-158, super-soul-217**; the earlier raw-null scan and its 228-record claim are superseded and are not the strict-thin census.
+- [x] Audited the four remaining evidence boundaries: 032 lacks item-level mechanics for its KO/name-state; 034 lacks independently established character source/mechanics/Limit Burst; 158 remains blocked by the same-name Super Skill collision; 217 still lacks exact-name Limit Burst evidence.
+- [x] Repaired `docs/data/super-soul-strict-thin-checkpoint-2026-09-23.json` by removing its contradictory duplicate 034 entry and preserving the unresolved canonical character source.
+- [x] Preserved historical handoff/TODO entries; no history was deleted or rewritten.
+- [x] Canonical Super Soul data was not expanded with unsupported mechanics.
+- [x] Validation: checkpoint JSON parses; live canonical count **229**; duplicate IDs **0**; strict-thin queue **4** and matches the authoritative stored census.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- Commits: checkpoint `6008ed985614a467f7eebda8b27f4bfeeb98d547`; changelog `a53f6614f22647728e08f7e317b1adc8ee82699e`; handoff/TODO pending.
+- [ ] Exact next batch: perform one final compact item-level/game-data evidence pass for **super-soul-034**, then, if still blocked, move to **super-soul-217 Limit Burst**. If neither yields authoritative evidence, stop forcing the thin queue and select the next deterministic high-impact index/producer reconciliation.
