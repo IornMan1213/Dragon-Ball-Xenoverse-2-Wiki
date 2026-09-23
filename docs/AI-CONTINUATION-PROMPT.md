@@ -6600,3 +6600,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - External direct access to the Fandom Vegeta page was blocked during this cycle, so no external source claim was promoted into canonical data.
 - Commit: b29292f3cb7fff8dec04e3ad9045024c1f9eff11.
 - Exact next task: inspect the repository's producer/source corpus and any explicit game-data identifiers for Battle Suit 10 and 11; populate only exact matches.
+
+
+### 2026-09-23 cycle update — External Vegeta preset-count boundary confirmed
+
+- Checked the current external Vegeta in-game-data table: it explicitly lists Battle Suit 1 through 9, Training Suit 1 and 2, and Whis Symbol Battle Suit, while the page metadata reports 11 presets. citeturn0search0
+- The retrieved table does **not** expose explicit Battle Suit 10 or 11 rows. Therefore the repository's numeric 10/11 records remain unresolved rather than receiving inferred loadouts.
+- Added this evidence boundary to `docs/data/preset-battle-suit-reconciliation-2026-09-23.json`.
+- Commit: `72c73a62768f0428ffda7f81ad13ac9381c88006b`.
+- **Next task:** move to the next highest-priority preset/data-quality task unless explicit game-data identifiers for 10/11 are discovered; do not fabricate missing loadouts.
