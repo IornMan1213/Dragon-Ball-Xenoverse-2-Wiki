@@ -11090,12 +11090,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 3 — \"World Tournament Tag Team\"",
       "mechanics_notes": "100 Ki Other Super from PQ03; blinds/stuns opponents in front of the user and is documented as usable by all CaC races.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": 3,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance correction: the maintained PQ reward data explicitly associates Solar Flare with PQ3, \"World Tournament Tag Team\". The prior PQ1 value was stale and has been replaced; no Ultimate Finish-only condition is inferred because the maintained condition does not establish one. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 source-PQ consistency correction: the mechanics note still contained the stale PQ01 reference even though the canonical acquisition/source_parallel_quests fields correctly identify PQ03. Normalized the prose to PQ03 and added direct/current supporting sources.",
+      "notes": "2026-09-20 provenance correction: the maintained PQ reward data explicitly associates Solar Flare with PQ3, \"World Tournament Tag Team\". The prior PQ1 value was stale and has been replaced; no Ultimate Finish-only condition is inferred because the maintained condition does not establish one. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 source-PQ consistency correction: the mechanics note still contained the stale PQ01 reference even though the canonical acquisition/source_parallel_quests fields correctly identify PQ03. Normalized the prose to PQ03 and added direct/current supporting sources. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
       "id": "skill-solar-flare",
       "source_parallel_quests": [
         3
@@ -11118,7 +11118,7 @@
       "mechanics_notes": "100 Ki Strike Super from PQ105; maintained current reward data places it in Basic Reward, while older player reports conflict, so no UF-only gate is asserted.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Sonic_Bomb",
@@ -11127,7 +11127,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 105,
       "acquisition_type": "quest_or_mission",
-      "notes": "",
+      "notes": "2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
       "id": "skill-sonic-bomb",
       "source_parallel_quests": [
         105
@@ -11148,13 +11148,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Future Gohan mentor training",
       "mechanics_notes": "Future Gohan's Sonic Rush is a 100-Ki Strike Super with a short-range barrage; current skill reference describes six hits and a hard knockdown.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Future Gohan mentor training — Lesson 1.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: Future Gohan training is confirmed as the acquisition endpoint; current skill evidence confirms 100 Ki Strike Super classification and a short-range six-hit hard-knockdown sequence.",
+      "notes": "2026-09-22 provenance refresh: Future Gohan training is confirmed as the acquisition endpoint; current skill evidence confirms 100 Ki Strike Super classification and a short-range six-hit hard-knockdown sequence. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
       "id": "skill-sonic-rush",
       "source_mentor": [
         "mentor-future-gohan"
@@ -11177,12 +11177,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Piccolo mentor training — Lesson 3",
       "mechanics_notes": "Piccolo's Lesson 3 reward; 300-Ki Ultimate/Ki Blast identity is corroborated by current skill references.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Piccolo mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: Piccolo Lesson 3 remains the deterministic acquisition endpoint; current skill evidence confirms the 300-Ki Ultimate/Ki Blast identity.",
+      "notes": "2026-09-22 provenance refresh: Piccolo Lesson 3 remains the deterministic acquisition endpoint; current skill evidence confirms the 300-Ki Ultimate/Ki Blast identity. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
       "id": "skill-special-beam-cannon",
       "source_mentor": [
         "mentor-piccolo"
@@ -11206,7 +11206,7 @@
       "mechanics_notes": "Gohan (Beast)'s 500-Ki Ultimate/Ki Blast; current references describe a chargeable beam whose power increases at lower health. PQ162 reward-tier presentation remains a documented source conflict.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Special_Beam_Cannon_(Beast)",
@@ -11217,7 +11217,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 162,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: PQ162 is the canonical acquisition endpoint; current references confirm 500 Ki Ultimate/Ki Blast classification and chargeable/lower-health-stronger behavior. Basic Reward versus Ultimate Finish reward-tier sources remain in conflict.",
+      "notes": "2026-09-22 provenance refresh: PQ162 is the canonical acquisition endpoint; current references confirm 500 Ki Ultimate/Ki Blast classification and chargeable/lower-health-stronger behavior. Basic Reward versus Ultimate Finish reward-tier sources remain in conflict. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
       "id": "skill-special-beam-cannon-beast",
       "source_parallel_quests": [
         162
@@ -11239,12 +11239,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "God of Destruction Beerus mentor training",
       "mechanics_notes": "Beerus's 300-Ki Ki Blast Ultimate; current skill reference describes a large tracking Ki-ball projectile with 13 hits.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "God of Destruction Beerus mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: Beerus mentor training remains the deterministic acquisition endpoint; current skill evidence confirms 300 Ki Ultimate/Ki Blast classification, large projectile behavior, tracking, and a 13-hit profile.",
+      "notes": "2026-09-22 provenance refresh: Beerus mentor training remains the deterministic acquisition endpoint; current skill evidence confirms 300 Ki Ultimate/Ki Blast classification, large projectile behavior, tracking, and a 13-hit profile. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
       "id": "skill-sphere-of-destruction",
       "source_mentor": [
         "mentor-beerus"
@@ -11267,12 +11267,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Yamcha mentor training — Lesson 3",
       "mechanics_notes": "Yamcha's Lesson 3 300-Ki Ki Blast Ultimate; acquisition is confirmed without an Ultimate Finish gate.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Yamcha mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: Yamcha Lesson 3 is confirmed as the acquisition endpoint; current evidence confirms Spirit Ball as Yamcha's Ultimate/Ki Blast skill.",
+      "notes": "2026-09-22 provenance refresh: Yamcha Lesson 3 is confirmed as the acquisition endpoint; current evidence confirms Spirit Ball as Yamcha's Ultimate/Ki Blast skill. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
       "id": "skill-spirit-ball",
       "source_mentor": [
         "mentor-yamcha"
@@ -11296,7 +11296,7 @@
       "mechanics_notes": "PQ129 100-Ki Ki Blast Super; homing Ki Blasts can trigger a rapid follow-up barrage that can be cancelled by guarding.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Spirit_Blaster",
@@ -11306,7 +11306,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 129,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: PQ129 is confirmed as the acquisition endpoint; current evidence confirms 100 Ki Ki Blast Super classification, tracking projectile behavior, follow-up barrage, and guard-cancellable follow-up.",
+      "notes": "2026-09-22 provenance refresh: PQ129 is confirmed as the acquisition endpoint; current evidence confirms 100 Ki Ki Blast Super classification, tracking projectile behavior, follow-up barrage, and guard-cancellable follow-up. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
       "id": "skill-spirit-blaster",
       "source_parallel_quests": [
         129
@@ -11330,12 +11330,12 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Training with Goku",
       "mechanics": "Ki Blast Super learned from Goku mentor training; charge/release projectile.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "mechanics_notes": "Goku mentor Initiation Test 100-Ki Ki Blast Super; launches a large Spirit Bomb projectile.",
       "source_quest": "Goku mentor training",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: Goku's Initiation Test is confirmed as the acquisition endpoint; current instructor evidence confirms Spirit Bomb as a 100-Ki Ki Blast Super with no Ultimate Finish gate.",
+      "notes": "2026-09-22 provenance refresh: Goku's Initiation Test is confirmed as the acquisition endpoint; current instructor evidence confirms Spirit Bomb as a 100-Ki Ki Blast Super with no Ultimate Finish gate. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
       "id": "skill-spirit-bomb",
       "source_mentor": [
         "mentor-goku"
@@ -11357,12 +11357,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Skill Shop",
       "mechanics_notes": "0-Ki Other Super from the Skill Shop; creates a short-lived defensive field that cancels incoming Ki attacks.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-22 provenance refresh: Skill Shop acquisition is confirmed; current evidence confirms 0-Ki Other Super classification and a short defensive window that cancels incoming Ki attacks.",
+      "notes": "2026-09-22 provenance refresh: Skill Shop acquisition is confirmed; current evidence confirms 0-Ki Other Super classification and a short defensive window that cancels incoming Ki attacks. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
       "id": "skill-spirit-boost"
     },
     {
@@ -11382,7 +11382,7 @@
       "mechanics_notes": "200-Stamina Strike Evasive from PQ25; close-range blue explosion knocks nearby opponents away and can be used while taking damage.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Spirit_Explosion",
@@ -11392,7 +11392,7 @@
       "race_restriction": "All CaC races",
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: PQ25 is confirmed as the acquisition endpoint; current evidence confirms a 200-Stamina Strike Evasive usable by CaCs, with a close-range blue explosion that knocks opponents away.",
+      "notes": "2026-09-22 provenance refresh: PQ25 is confirmed as the acquisition endpoint; current evidence confirms a 200-Stamina Strike Evasive usable by CaCs, with a close-range blue explosion that knocks opponents away. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
       "id": "skill-spirit-explosion",
       "source_parallel_quests": [
         25
@@ -11415,7 +11415,7 @@
       "mechanics_notes": "100-Ki Ki Blast Super from PQ151; a slower single-shot variation of Soaring Fist using spirit energy.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Spirit_Pulse",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -11424,7 +11424,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 151,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: PQ151 is confirmed as the acquisition endpoint; current evidence confirms 100-Ki Ki Blast Super classification and the slower single-shot spirit-energy attack; the maintained Ultimate Finish bonus-roll condition is preserved.",
+      "notes": "2026-09-22 provenance refresh: PQ151 is confirmed as the acquisition endpoint; current evidence confirms 100-Ki Ki Blast Super classification and the slower single-shot spirit-energy attack; the maintained Ultimate Finish bonus-roll condition is preserved. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
       "id": "skill-spirit-pulse",
       "source_parallel_quests": [
         151
