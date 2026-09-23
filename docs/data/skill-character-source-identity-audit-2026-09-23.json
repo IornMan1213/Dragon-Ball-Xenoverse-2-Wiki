@@ -6,10 +6,10 @@
   "canonical_skill_count": 465,
   "skills_with_character_source": 227,
   "source_tokens": 232,
-  "exact_bridge_matches": 204,
-  "unresolved_source_tokens": 28,
+  "exact_bridge_matches": 209,
+  "unresolved_source_tokens": 23,
   "non_character_source_tokens": 6,
-  "unresolved_character_or_variant_tokens": 22,
+  "unresolved_character_or_variant_tokens": 17,
   "findings": {
     "exact_matches": [
       "Android 13",
@@ -131,16 +131,6 @@
         "character_source": "Goku (Ultra Supervillain Quelled)"
       },
       {
-        "skill_id": "skill-meteor-strike",
-        "skill": "Meteor Strike",
-        "character_source": "Goku / Gohan (Kid)"
-      },
-      {
-        "skill_id": "skill-photon-swipe",
-        "skill": "Photon Swipe",
-        "character_source": "Toppo"
-      },
-      {
         "skill_id": "skill-raid-blast",
         "skill": "Raid Blast",
         "character_source": "Super Saiyan God Vegeta"
@@ -176,11 +166,6 @@
         "character_source": "Goku Black (Super Saiyan Rosé)"
       },
       {
-        "skill_id": "skill-total-detonation-ball",
-        "skill": "Total Detonation Ball",
-        "character_source": "Toppo"
-      },
-      {
         "skill_id": "skill-venus-fist",
         "skill": "Venus Fist",
         "character_source": "Goku (Ultra Supervillain Quelled)"
@@ -189,16 +174,6 @@
         "skill_id": "skill-wild-buster",
         "skill": "Wild Buster",
         "character_source": "Vegeta (GT)"
-      },
-      {
-        "skill_id": "skill-x-100-big-bang-kamehameha",
-        "skill": "X 100 Big Bang Kamehameha",
-        "character_source": "Vegeta (Super Saiyan Blue)"
-      },
-      {
-        "skill_id": "skill-zigzag-express",
-        "skill": "Zigzag Express",
-        "character_source": "Majin (Male)"
       }
     ],
     "non_character_sources": [
