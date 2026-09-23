@@ -19,6 +19,8 @@ Search the **canonical local PQ record layer**. This explorer does not substitut
 <script>
 (async function(){
   const localUrl='{{ "/data/parallel-quests-record-layer.json" | relative_url }}';
+  const initialQuery=new URLSearchParams(window.location.search).get('q')||'';
+  q.value=initialQuery;
   const results=document.getElementById('results'), q=document.getElementById('q'), stars=document.getElementById('stars'), status=document.getElementById('status'), stats=document.getElementById('stats');
   const escapeHtml=v=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
   const normalize=v=>String(v??'').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'');
@@ -26,7 +28,7 @@ Search the **canonical local PQ record layer**. This explorer does not substitut
   const skillUrl=(term)=>'{{ "/Skills-All/" | relative_url }}?q='+encodeURIComponent(term);
   const soulUrl=(term)=>'{{ "/Search/" | relative_url }}?q='+encodeURIComponent(term);
   const equipmentUrl=(term)=>'{{ "/Search/" | relative_url }}?q='+encodeURIComponent(term);
-  const dlcUrl=(term)=>'{{ "/DLC-Overview/" | relative_url }}?q='+encodeURIComponent(term);
+  const dlcUrl=(term)=>'{{ "/Search/" | relative_url }}?q='+encodeURIComponent(term);
   let records=[];
   let characterByPq={};
   let dlcByPq={};
