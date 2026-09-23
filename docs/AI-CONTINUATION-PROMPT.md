@@ -6555,3 +6555,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Web source verified the Zarbon Battle Suit 1–2 tables. citeturn0search1
 - [ ] CI/runtime remains unavailable.
 - **Exact next batch:** continue exact Battle Suit reconciliation for another unresolved character.
+
+
+### 2026-09-23 cycle update — Preset navigation audit canonical-list synchronization
+
+- Live canonical preset layer: **50 preset records / 23 verified loadouts / 27 unresolved loadouts**.
+- Deterministically repaired `docs/data/character-preset-skill-navigation-audit-2026-09-23.json`: the JSON contained duplicate `verified_preset_loadouts` keys, so the parsed audit exposed only a partial list despite reporting 23 records. Rebuilt the authoritative verified-loadout list directly from `character-presets-record-layer.json` records with `loadout_status=verified`.
+- Corrected verified loadout skill-entry census from the stale **148** to **130** unique verified loadout slot entries represented by the canonical preset records.
+- Preserved all existing preset identities, body-swap evidence boundaries, sources, and unresolved records; no new preset was promoted.
+- Validation: audit JSON reparsed after write; verified-loadout count matches the canonical preset layer (**23**); every verified record has an explicit loadout source; no unresolved preset was promoted.
+- CI/runtime remains unavailable; no CI success claimed.
+- Commit: `395e30de930397b39cfb1fcafd20b05b78439416`.
+- **Exact next batch:** continue exact Battle Suit preset reconciliation for unresolved characters with explicit in-game-data tables; do not infer numeric/name mappings from row order.
