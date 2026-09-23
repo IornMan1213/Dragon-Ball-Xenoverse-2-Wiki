@@ -155,7 +155,8 @@
     "The repository's null policy requires unknown values to remain unresolved rather than guessed.",
     "No acquisition facts were changed in this classification cycle.",
     "Mentor layer now contains 33 canonical mentor identities; 10 mentors have verified skill-route links covering 16 canonical skills. Remaining mentor/training-style records are not guessed until their exact mentor lesson relationship is directly verified.",
-    "2026-09-23 current projection synchronized from live skills.json and mentor-skill-crosslink-report.json."
+    "2026-09-23 current projection synchronized from live skills.json and mentor-skill-crosslink-report.json.",
+    "2026-09-23 correction: recomputed set difference shows 86, not 58, non-PQ/non-mentor skills. The earlier 58 figure was an arithmetic classification error caused by overlapping categories; canonical data was unaffected."
   ],
   "total_classified": 70,
   "unresolved_nonpq_skills": 0,
@@ -167,17 +168,18 @@
     "mentor_like_unlinked": 12,
     "expert_mission_unlinked": 9,
     "character_only_unlinked": 10,
-    "other_unlinked_skill_count": 55,
+    "other_unlinked_skill_count": 86,
     "mentor_edge_rows": 131,
     "mentor_unique_skill_targets": 130,
     "shared_mentor_skill_targets": [
       "skill-super-explosive-wave"
     ],
     "notes": [
-      "Current projection is authoritative for the 2026-09-23 455-record canonical layer; historical 305/71 fields are preserved unchanged.",
-      "130 of 216 skills without source_parallel_quests have deterministic mentor-skill links. One skill, Super Explosive Wave, is shared by two mentors, so mentor edge rows (131) exceed unique mentor-linked skill targets (130) without constituting a duplicate edge.",
-      "Expert Mission and mentor-like classifications are derived from existing acquisition_type/unlock_method and maintained canonical IDs; no new acquisition relationship is inferred.",
-      "The remaining non-PQ cohort remains classified for follow-up rather than being forced into the PQ graph."
-    ]
+      "Correction: the prior projection incorrectly reported 58 remaining non-PQ/non-mentor records because its category arithmetic double-counted overlapping acquisition classifications.",
+      "The live deterministic set difference is 455 canonical minus 239 PQ-linked minus 130 mentor-linked = 86 non-PQ/non-mentor skills.",
+      "All 216 skills without source_parallel_quests are therefore accounted for as 130 mentor-linked + 86 other non-PQ/non-mentor.",
+      "Prior historical fields and audit history are preserved; no acquisition or PQ relationship was changed."
+    ],
+    "non_pq_nonmentor_count": 86
   }
 }
