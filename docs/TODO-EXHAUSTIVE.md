@@ -2801,3 +2801,11 @@
 - [x] Recomputed the live canonical Super Soul census: **234 records / 0 duplicate IDs / 182 strict-thin records** under the eight-field definition.
 - [x] Selected the next evidence-supported queue from the live layer: **054** (4 missing fields), **034** (3; evidence boundary), **157**, **159**, **163**, **164** (2 each).
 - [ ] Next: investigate **054** Limit Burst first; if evidence remains insufficient, preserve it and continue with **157/159/163/164**. Do not force 034 mechanics without exact-name evidence.
+
+### 2026-09-22 — Super Soul 054 reconciliation
+- [x] Reconciled **054 — “Leave my daddy alone!”** with independent raid evidence.
+- [x] Populated the documented **3-second** Strike Skill boost duration and **ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.** Limit Burst.
+- [x] Promoted 054 to `verified_secondary`; preserved the description-vs-game-data percentage discrepancy and did not infer stacking, reward probability, or Ultimate-Finish requirements.
+- [x] Added and registered `docs/data/super-soul-054-reconciliation-2026-09-22.json`.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Next priority: continue with **157, 159, 163, and 164**; keep **034** evidence-bound unless exact-name item-level mechanics evidence improves.
