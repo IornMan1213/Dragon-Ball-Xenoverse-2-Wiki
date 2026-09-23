@@ -50,8 +50,8 @@
     }
   ],
   "counts": {
-    "resolved_skill_records": 6,
-    "resolved_canonical_skill_edges": 7,
+    "resolved_skill_records": 7,
+    "resolved_canonical_skill_edges": 8,
     "canonical_character_targets": 6
   },
   "evidence_boundary": "This reverse projection contains only resolved identity edges. It does not infer every character that can equip a skill, every customize-partner route, or generic Future Warrior/CaC availability."
