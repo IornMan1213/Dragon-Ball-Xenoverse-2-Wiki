@@ -2982,3 +2982,13 @@
 - [x] Refreshed live strict-thin census: **234 canonical / 0 duplicate IDs / 130 strict-thin records**.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Next priority: recompute the live strict-thin queue and continue the next evidence-supported early/base-game/high-impact cluster; preserve **032/034** as evidence boundaries unless exact-name mechanics evidence improves.
+
+
+### 2026-09-22 — Super Soul secondary-field queue update
+- [x] Reconciled **044, 045, 046, 054, 055, 178, and 185** using exact-name and independent evidence.
+- [x] Populated Limit Burst effects for **044–046** and explicit non-timed duration semantics for **178/185**.
+- [x] Set **054/055** stacking behavior to **Not reported as stackable** without inventing numeric caps.
+- [x] Added and registered `docs/data/super-soul-044-045-046-054-055-178-185-secondary-field-reconciliation-2026-09-22.json`.
+- [x] Refreshed live strict-thin census: **234 canonical / 0 duplicate IDs / 123 strict-thin records**.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Next priority: recompute the live strict-thin queue and continue the next evidence-supported one-field cluster; preserve genuine evidence boundaries and the known 044 wording conflict.
