@@ -393,12 +393,28 @@
       "character_id": "vegeta",
       "name": "Vegeta Preset 9",
       "preset_number": 9,
-      "verification_status": "indexed",
-      "loadout_status": "unresolved",
+      "verification_status": "verified",
+      "loadout_status": "verified",
       "acquisition_status": "community_observed",
       "sources": [
-        "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+        "https://dbxv2.fandom.com/wiki/Vegeta"
+      ],
+      "loadout": {
+        "super_attacks": [
+          "Galaxy Breaker (Festival)",
+          "Flash Strike",
+          "Shine Shot",
+          "Burst Charge"
+        ],
+        "ultimate_attacks": [
+          "Super Galick Gun"
+        ],
+        "awoken_skill": null,
+        "evasive_skill": "Spread Shot Retreat",
+        "super_soul": "I am the universe's strongest!",
+        "loadout_evidence_scope": "Explicit Battle Suit 9 in-game-data table; exact numeric preset mapping is directly stated by the source. Preserved as preset evidence and not treated as an acquisition/exclusivity claim."
+      },
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Vegeta"
     },
     {
       "id": "vegeta-preset-10",
