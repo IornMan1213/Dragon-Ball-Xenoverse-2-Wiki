@@ -1,3 +1,14 @@
+### 2026-09-23 cycle update — Lightning through Menacing skill provenance refresh
+
+- Completed the next P1 stale-skill batch: **12 records** — Lightning Impact, Lightning of Absolution, Lovely Cyclone, Mach Dash, Mach Punch, Maiden Blast, Maiden Burst, Majin Kamehameha, Masenko, Maximum Charge, Meditation, and Menacing Flare.
+- Synchronized canonical `docs/data/skills.json` and `docs/data/skills-index.json` with `last_verified=2026-09-23`; existing evidence, reward-tier conflicts, restrictions, and update/DLC provenance were preserved.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-23-lightning-through-menacing.json`.
+- Refreshed the live skill census: **455 canonical / 283 current / 172 stale / 0 duplicate IDs**.
+- Exact next stale batch: **Meteor Blow, Meteor Burst, Meteor Crash, Meteor Explosion, Meteor Strike, Mighty Explosive Wave, Milky Cannon, Mystic Flash, Namek Finger, Neo Tri-Beam, Neo Wolf Fang Fist, and One-Handed Kamehameha mk.II**.
+- Evidence boundary preserved: this verification pass did not infer unsupported probabilities, gates, timers, stacking caps, or restrictions.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next task: process the 12 listed Meteor/Mighty/Milky/Mystic/Namek/Neo/One-Handed records, synchronize canonical/index layers, add/register the bounded audit, and recompute the stale census.
+
 ### 2026-09-23 cycle update — Justice through Light skill provenance refresh
 
 - Completed the next P1 stale-skill batch: **12 records** — Justice Pose, Justice Rush, Kai Kai, Kaioken, Kaioken Kamehameha, Kairos Cannon, Kamehameha, Ki Blast Thrust, Ki Explosion, Kill Driver, Last Emperor, and Light Grenade.
