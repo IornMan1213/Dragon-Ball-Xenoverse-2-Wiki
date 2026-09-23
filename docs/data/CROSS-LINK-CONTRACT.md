@@ -134,3 +134,8 @@ Added `docs/data/time-rift-story-tournament-endpoints.json` with **11 determinis
 ## 2026-09-23 — Special acquisition endpoint baseline
 
 The special acquisition endpoint layer in `docs/data/special-acquisition-endpoints.json` provides stable endpoint IDs for acquisition routes that are not PQ, mentor, Expert Mission, shop, Time Rift/story/tournament, Tokipedia, or Conton City Patrol records. It exposes forward endpoint→skill edges and reverse skill→endpoint navigation. Canonical `skills.json` remains authoritative; the endpoint layer must not invent unsupported acquisition conditions or duplicate canonical skill records.
+
+
+## 2026-09-23 — Character-exclusive skill endpoint baseline
+
+`docs/data/character-exclusive-skill-endpoints.json` exposes stable cast/boss character→skill edges for skills whose canonical records explicitly classify them as character-only. These are exposure/navigation edges, not acquisition edges. A character-exclusive endpoint must not imply CaC unlockability or a shop/quest route; canonical `skills.json` remains authoritative for acquisition and usability classification.
