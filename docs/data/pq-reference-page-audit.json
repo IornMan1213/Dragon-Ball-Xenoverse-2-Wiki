@@ -12,10 +12,10 @@
   ],
   "canonical": {
     "pq_records": 186,
-    "relationship_edges": 854,
+    "relationship_edges": 853,
     "relationship_counts": {
       "skill": 244,
-      "super_soul": 146,
+      "super_soul": 145,
       "equipment": 124,
       "character": 247,
       "dlc": 86,
@@ -43,9 +43,6 @@
     "canonical_pq_count_is_186": true,
     "reference_page_declares_186_records": true,
     "audit_declares_pq186": true,
-    "relationship_total_is_854": true,
-    "reference_page_declares_854_edges": true,
-    "audit_declares_854_edges": true,
     "farming_set_matches_canonical": true,
     "reference_page_farming_set_matches": true,
     "stale_pq13_farming_claim_absent": true,
@@ -63,14 +60,17 @@
     "explorer_treats_pq_records_as_array": true,
     "explorer_treats_relationships_as_array": true,
     "explorer_has_canonical_search_surface": true,
-    "super_soul_edge_count_is_146": true
+    "relationship_total_is_853": true,
+    "reference_page_declares_853_edges": true,
+    "audit_declares_853_edges": true,
+    "super_soul_edge_count_is_145": true
   },
   "status": "clean",
   "evidence_boundary": "Deterministic count/set/navigation repair plus published explorer dependency/collection-shape validation; no new relationship edges or unsupported mechanics were inferred.",
   "date": "2026-09-23",
   "validator": "scripts/validate_pq_reference_pages.py",
   "validator_commit": "d43d43302b4d255a0a7b853aa22f22a8a847d05f",
-  "live_validation_note": "Current canonical layer and consumer pages align at 186 PQ records, 854 relationship edges, exact domain counts 244/146/124/247/86/7, and farming set PQ15/PQ22/PQ44/PQ45/PQ68/PQ83/PQ88.",
+  "live_validation_note": "Current canonical layer and consumer pages align at 186 PQ records, 853 relationship edges, exact domain counts 244/145/124/247/86/7, and farming set PQ15/PQ22/PQ44/PQ45/PQ68/PQ83/PQ88.",
   "identity_contract": {
     "canonical_pq_numbers": "exact 1..186",
     "unique_pq_ids": true,
@@ -92,5 +92,8 @@
     "relationship_collection_guard": "rel.verified_relationships||[]",
     "canonical_search_surface": "/Search/",
     "status": "clean"
-  }
+  },
+  "notes": [
+    "2026-09-23: superseding current baseline after Super Soul 158 domain migration: 854/146 became 853/145; historical prior correction remains preserved elsewhere."
+  ]
 }
