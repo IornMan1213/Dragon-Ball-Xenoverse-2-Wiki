@@ -6704,3 +6704,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Commits: `a53eaf99b5ff62b807bd2a9abd4d118a26500562`, `2d7e6cd7f0d02fdb1f44c079c4b7a6f43f18a243`, `fcad966ac7446c212cc18cd4ed7a016ea7b6ba73`.
 - Remaining 854/146 hits are predominantly historical/correction evidence or stale correction artifacts whose purpose is to document the superseded state; they must not be blindly rewritten.
 - **Exact next task:** inspect the remaining 854/146 search hits individually, classify each as historical versus current-looking, and repair only current-looking consumers. Then continue the P1 provenance/data queue and exact-evidence preset reconciliation.
+
+
+### 2026-09-23 cycle update — Third current-consumer census pass
+
+- Re-scanned live repository 854/146 references and inspected the remaining current-looking cross-domain consumers individually.
+- Repaired `docs/data/pq-cross-domain-status.json`: current reconciliation artifact census now reports 853 edges; producer/master counts and Super Soul forward/reverse counts now use 244/145 and 145/142; partial reverse-index semantics explicitly point to the 853-edge canonical layer.
+- Repaired `docs/data/pq-cross-domain-audit.json`: current reconciliation artifact census now reports 853 edges and its partial reverse-index status points to the 853-edge canonical layer.
+- Reclassified the old `docs/data/pq-current-consumer-baseline-correction-2026-09-22.json` 854/146 correction as superseded historical context while adding the authoritative 853/145 current baseline.
+- Historical 854/146/143 references were retained where they document the migration/correction history; no canonical relationship arrays were changed.
+- Commits: `329e856d4d9d56b192cac3ea9613600f25e097fd`, `055ae26bf334cc0acee3b25cfde6534a543f7b5e`, `495310d45de45b856762ad6c9dbe9910133b49a5`.
+- **Exact next task:** inspect the remaining dated correction artifacts containing 854/146/143 and ensure each explicitly labels those values historical/superseded; then move to the queued P1 provenance/data gap rather than making further baseline-only churn.
