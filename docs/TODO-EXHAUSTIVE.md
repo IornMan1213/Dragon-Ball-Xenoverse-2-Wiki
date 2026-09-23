@@ -3734,3 +3734,12 @@
 - [x] Validation: canonical mascot count 1; reverse-index count 1; ID sets match; unresolved mascot IDs 0; equipment/accessory aliases 0.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: resume the five unmatched Support Pack costume identities and determine whether a safe canonical equipment-layer extension is possible without inventing IDs.
+
+
+### 2026-09-23 — TODO completion update — Support Pack costume equipment-ID capacity decision
+- [x] Audited the canonical equipment-ID architecture against the five exact, source-backed unmatched Support Pack costumes.
+- [x] Confirmed the live legacy equipment namespace ends at `equip-140`; current continuation guidance explicitly prohibits inventing `equip-141+` records.
+- [x] Documented the decision in `docs/data/dlc/time-patrol-support-pack-costume-canonical-equipment-capacity-decision-2026-09-23.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved all five costumes as evidence-backed inventory gaps; created zero unsupported equipment IDs and zero aliases.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: move to the next highest-impact cross-domain consumer/coverage audit; return to these five only after a principled equipment-ID allocation mechanism exists.
