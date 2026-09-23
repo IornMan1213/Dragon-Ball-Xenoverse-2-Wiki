@@ -5666,3 +5666,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: **455/455**, **0 duplicate IDs**, target parity **clean**, stale queue **395**.
 - CI/runtime: no successful status exposed; no CI success claimed.
 - Exact next batch: **Change The Future, Chaos Shot, Chaos Wall, Chaotic Time Impact, Charge, Charged Ki Wave, Circle Flash, Comet Strike, Confusion Blade, Core Breaker**.
+
+
+### 2026-09-23 cycle update — P1 Change The Future through Charge provenance refresh
+- Live census before editing: **455 canonical / 455 index / 395 stale / 0 duplicate IDs**.
+- Completed **Change The Future, Chaos Shot, Chaos Wall, Chaotic Time Impact, Charge**.
+- Refreshed canonical/index verification dates to **2026-09-23**; existing sources, acquisition details, mechanics, and conflicts were preserved.
+- Added/registered **docs/data/skill-provenance-audit-2026-09-23-change-the-future-through-charge.json**.
+- Validation: **455/455**, **0 duplicate IDs**, target parity **clean**, stale queue **390**.
+- CI/runtime: no successful status exposed; no CI success claimed.
+- Exact next batch: **Charged Ki Wave, Circle Flash, Comet Strike, Confusion Blade, Core Breaker, Crush Cannon, Crush Stream, Crusher Ball, Dancing Parapara, Dark Inscription**.
