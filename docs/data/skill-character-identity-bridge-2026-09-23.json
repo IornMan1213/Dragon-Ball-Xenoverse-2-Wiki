@@ -23,75 +23,6 @@
       "basis": "Current Xenoverse 2 skill documentation identifies Kefla (Super Saiyan) as the notable user; the canonical roster contains that exact identity."
     },
     {
-      "skill_id": "skill-divine-kamehameha",
-      "skill_name": "Divine Kamehameha",
-      "source_token": "Goku (Ultra Instinct), Goku (Ultra Instinct -Sign-)",
-      "canonical_character_names": [
-        "Goku (Ultra Instinct)",
-        "Goku (Ultra Instinct -Sign-)"
-      ],
-      "status": "resolved_multi",
-      "basis": "Current skill documentation and character/preset data explicitly identify both Ultra Instinct and Ultra Instinct -Sign- Goku."
-    },
-    {
-      "skill_id": "skill-god-of-destruction-s-menace",
-      "skill_name": "God of Destruction's Menace",
-      "source_token": "Champa",
-      "canonical_character_names": [
-        "God of Destruction Champa"
-      ],
-      "status": "resolved",
-      "basis": "Current Xenoverse 2 skill documentation identifies the move as Champa's skill; the canonical roster uses the full name God of Destruction Champa."
-    },
-    {
-      "skill_id": "skill-headshot",
-      "skill_name": "Headshot",
-      "source_token": "Beerus",
-      "canonical_character_names": [
-        "God of Destruction Beerus"
-      ],
-      "status": "resolved",
-      "basis": "Current Xenoverse 2 skill documentation identifies God of Destruction Beerus as the user."
-    },
-    {
-      "skill_id": "skill-raid-blast",
-      "skill_name": "Raid Blast",
-      "source_token": "Super Saiyan God Vegeta",
-      "canonical_character_names": [
-        "Vegeta (Super Saiyan God)"
-      ],
-      "status": "resolved",
-      "basis": "Current character/preset documentation identifies Raid Blast as a skill of Vegeta (Super Saiyan God), matching the canonical roster name."
-    },
-    {
-      "skill_id": "skill-ray-blast",
-      "skill_name": "Ray Blast",
-      "source_token": "Kefla",
-      "canonical_character_names": [
-        "Kefla (Super Saiyan)"
-      ],
-      "status": "resolved",
-      "basis": "Current Xenoverse 2 skill documentation identifies Kefla (Super Saiyan) as a user; the canonical roster contains that exact identity."
-    },
-    {
-      "skill_id": "skill-sonic-bomb",
-      "skill_name": "Sonic Bomb",
-      "source_token": "Champa",
-      "canonical_character_names": [],
-      "status": "held_unresolved",
-      "basis": "Not promoted: current skill documentation identifies Frieza as the user despite the source token saying Champa. The token is therefore a provenance/user-field conflict, not a deterministic Champa identity."
-    },
-    {
-      "skill_id": "skill-super-black-kamehameha-rose",
-      "skill_name": "Super Black Kamehameha Rosé",
-      "source_token": "Goku Black (Super Saiyan Rosé)",
-      "canonical_character_names": [
-        "Rosé Goku Black"
-      ],
-      "status": "resolved",
-      "basis": "Current Xenoverse 2 documentation identifies Rosé Goku Black as the user; the canonical roster contains Rosé Goku Black."
-    },
-    {
       "skill_id": "skill-crazy-finger-shot",
       "skill_name": "Crazy Finger Shot",
       "source_token": "Frieza",
@@ -114,6 +45,27 @@
       "basis": "Current skill documentation identifies Frieza (1st Form) and Frieza (Final Form) as users; the source token is therefore safely expanded to canonical forms."
     },
     {
+      "skill_id": "skill-divine-kamehameha",
+      "skill_name": "Divine Kamehameha",
+      "source_token": "Goku (Ultra Instinct), Goku (Ultra Instinct -Sign-)",
+      "canonical_character_names": [
+        "Goku (Ultra Instinct)",
+        "Goku (Ultra Instinct -Sign-)"
+      ],
+      "status": "resolved_multi",
+      "basis": "Current skill documentation and character/preset data explicitly identify both Ultra Instinct and Ultra Instinct -Sign- Goku."
+    },
+    {
+      "skill_id": "skill-do-or-die",
+      "skill_name": "Do or Die",
+      "source_token": "Super Saiyan 3 Gotenks",
+      "canonical_character_names": [
+        "Gotenks"
+      ],
+      "status": "resolved",
+      "basis": "The canonical roster contains Gotenks; the source's Super Saiyan 3 form is a form-specific user of the Gotenks character identity."
+    },
+    {
       "skill_id": "skill-double-death-slicer",
       "skill_name": "Double Death Slicer",
       "source_token": "Frieza",
@@ -122,6 +74,15 @@
       ],
       "status": "resolved",
       "basis": "Current skill documentation identifies Frieza (Full Power) as the user."
+    },
+    {
+      "skill_id": "skill-dragon-spiral",
+      "skill_name": "Dragon Spiral",
+      "source_token": "Goku (Ultra Supervillain Quelled)",
+      "canonical_character_names": [
+        "resolved"
+      ],
+      "status": "Official Dragon Ball documentation confirms Goku (Ultra Supervillain Quelled) as a new playable Chapter 4 character; current Xenoverse 2 evidence directly associates Dragon Spiral with that character."
     },
     {
       "skill_id": "skill-emperor-s-edge",
@@ -133,6 +94,16 @@
       ],
       "status": "resolved_multi",
       "basis": "Current skill documentation identifies Golden Frieza and Golden Frieza (Supervillain) as users, with Frieza (1st Form) as a Customize Partner."
+    },
+    {
+      "skill_id": "skill-evil-whirlwind",
+      "skill_name": "Evil Whirlwind",
+      "source_token": "Cell",
+      "canonical_character_names": [
+        "Cell (Perfect)"
+      ],
+      "status": "resolved",
+      "basis": "PQ36 identifies Evil Whirlwind as the reward associated with the Cell Games sequence; the canonical roster represents the relevant Cell identity as Cell (Perfect)."
     },
     {
       "skill_id": "skill-full-power-destruction",
@@ -155,26 +126,6 @@
       "basis": "Current skill documentation identifies Kefla (Super Saiyan) as the notable user."
     },
     {
-      "skill_id": "skill-god-of-destruction-s-roar",
-      "skill_name": "God of Destruction's Roar",
-      "source_token": "Champa",
-      "canonical_character_names": [
-        "God of Destruction Champa"
-      ],
-      "status": "resolved",
-      "basis": "Current skill documentation identifies God of Destruction Champa as the user; canonical character roster uses the full identity."
-    },
-    {
-      "skill_id": "skill-do-or-die",
-      "skill_name": "Do or Die",
-      "source_token": "Super Saiyan 3 Gotenks",
-      "canonical_character_names": [
-        "Gotenks"
-      ],
-      "status": "resolved",
-      "basis": "The canonical roster contains Gotenks; the source's Super Saiyan 3 form is a form-specific user of the Gotenks character identity."
-    },
-    {
       "skill_id": "skill-gigantic-explosion",
       "skill_name": "Gigantic Explosion",
       "source_token": "Broly (Restrained), Broly (DB Super), Broly Customize Partner",
@@ -184,6 +135,26 @@
       ],
       "status": "resolved_multi",
       "basis": "Both named Broly variants exist as canonical character records; the Customize Partner occurrence is retained under the corresponding Broly identity rather than invented as a new character."
+    },
+    {
+      "skill_id": "skill-god-of-destruction-s-menace",
+      "skill_name": "God of Destruction's Menace",
+      "source_token": "Champa",
+      "canonical_character_names": [
+        "God of Destruction Champa"
+      ],
+      "status": "resolved",
+      "basis": "Current Xenoverse 2 skill documentation identifies the move as Champa's skill; the canonical roster uses the full name God of Destruction Champa."
+    },
+    {
+      "skill_id": "skill-god-of-destruction-s-roar",
+      "skill_name": "God of Destruction's Roar",
+      "source_token": "Champa",
+      "canonical_character_names": [
+        "God of Destruction Champa"
+      ],
+      "status": "resolved",
+      "basis": "Current skill documentation identifies God of Destruction Champa as the user; canonical character roster uses the full identity."
     },
     {
       "skill_id": "skill-god-punisher",
@@ -196,46 +167,23 @@
       "basis": "The canonical roster uses SSGSS Gogeta for the Super Saiyan Blue Gogeta identity."
     },
     {
-      "skill_id": "skill-power-pole-combo",
-      "skill_name": "Power Pole Combo",
-      "source_token": "Goku (GT) / Goku (GT) customizable partner",
+      "skill_id": "skill-headshot",
+      "skill_name": "Headshot",
+      "source_token": "Beerus",
       "canonical_character_names": [
-        "Goku (GT)"
+        "God of Destruction Beerus"
       ],
       "status": "resolved",
-      "basis": "The canonical roster contains Goku (GT); the Customize Partner wording is an availability route for that same identity."
+      "basis": "Current Xenoverse 2 skill documentation identifies God of Destruction Beerus as the user."
     },
     {
-      "skill_id": "skill-requiem-of-destruction",
-      "skill_name": "Requiem of Destruction",
-      "source_token": "Whis — Customize Partner",
+      "skill_id": "skill-indomitable",
+      "skill_name": "Indomitable",
+      "source_token": "Goku (Ultra Supervillain Quelled)",
       "canonical_character_names": [
-        "Whis"
+        "resolved"
       ],
-      "status": "resolved",
-      "basis": "The canonical roster contains Whis and the source explicitly identifies the Whis Customize Partner route."
-    },
-    {
-      "skill_id": "skill-rolling-bullet",
-      "skill_name": "Rolling Bullet",
-      "source_token": "Android 18 / Android 18 (DB Super) / Great Saiyaman 2",
-      "canonical_character_names": [
-        "Android 18",
-        "Android 18 (DB Super)",
-        "Great Saiyaman 2"
-      ],
-      "status": "resolved_multi",
-      "basis": "All three named identities are present in the canonical roster, so the aggregate source can be represented without inventing variants."
-    },
-    {
-      "skill_id": "skill-evil-whirlwind",
-      "skill_name": "Evil Whirlwind",
-      "source_token": "Cell",
-      "canonical_character_names": [
-        "Cell (Perfect)"
-      ],
-      "status": "resolved",
-      "basis": "PQ36 identifies Evil Whirlwind as the reward associated with the Cell Games sequence; the canonical roster represents the relevant Cell identity as Cell (Perfect)."
+      "status": "Current Xenoverse 2 evidence directly associates Indomitable with Goku (Ultra Supervillain Quelled); the official Chapter 4 announcement confirms that character identity."
     },
     {
       "skill_id": "skill-instant-rise",
@@ -260,17 +208,6 @@
       "basis": "The repository's research batch documents Goku, Gohan (Kid), Gohan (Adult), and other customizable partners as users; the canonical character layer provides the three named cast identities."
     },
     {
-      "skill_id": "skill-super-destructo-disc",
-      "skill_name": "Super Destructo-Disc",
-      "source_token": "Krillin / Android 18",
-      "canonical_character_names": [
-        "Krillin",
-        "Android 18"
-      ],
-      "status": "resolved_multi",
-      "basis": "Independent Xenoverse 2 documentation identifies Krillin and Android 18 as users; the skill is a Krillin Super Skill and is available through Android 18 Customize Partner."
-    },
-    {
       "skill_id": "skill-meteor-strike",
       "skill_name": "Meteor Strike",
       "source_token": "Goku / Gohan (Kid)",
@@ -292,34 +229,56 @@
       "basis": "The legacy source token says Toppo, but current Xenoverse 2 documentation and current character/moveset evidence identify Photon Swipe as an Android 21 skill. The conflicting source token is preserved rather than silently rewritten."
     },
     {
-      "skill_id": "skill-total-detonation-ball",
-      "skill_name": "Total Detonation Ball",
-      "source_token": "Toppo",
+      "skill_id": "skill-power-pole-combo",
+      "skill_name": "Power Pole Combo",
+      "source_token": "Goku (GT) / Goku (GT) customizable partner",
       "canonical_character_names": [
-        "Android 21"
-      ],
-      "status": "resolved_conflict",
-      "basis": "The legacy source token says Toppo, but current Xenoverse 2 documentation identifies Total Detonation Ball as an Android 21 skill. The conflicting source token is preserved rather than silently rewritten."
-    },
-    {
-      "skill_id": "skill-x-100-big-bang-kamehameha",
-      "skill_name": "X 100 Big Bang Kamehameha",
-      "source_token": "Vegeta (Super Saiyan Blue)",
-      "canonical_character_names": [
-        "SSGSS Vegeta"
+        "Goku (GT)"
       ],
       "status": "resolved",
-      "basis": "PQ100 and current character documentation associate X 100 Big Bang Kamehameha with SSGSS Vegeta; the canonical roster uses SSGSS Vegeta for Super Saiyan Blue Vegeta."
+      "basis": "The canonical roster contains Goku (GT); the Customize Partner wording is an availability route for that same identity."
     },
     {
-      "skill_id": "skill-zigzag-express",
-      "skill_name": "Zigzag Express",
-      "source_token": "Majin (Male)",
+      "skill_id": "skill-raid-blast",
+      "skill_name": "Raid Blast",
+      "source_token": "Super Saiyan God Vegeta",
       "canonical_character_names": [
-        "Majin (Male)"
+        "Vegeta (Super Saiyan God)"
       ],
       "status": "resolved",
-      "basis": "Current Xenoverse 2 documentation states Zigzag Express can only be used by Majin Male CaCs, matching the canonical Majin (Male) identity."
+      "basis": "Current character/preset documentation identifies Raid Blast as a skill of Vegeta (Super Saiyan God), matching the canonical roster name."
+    },
+    {
+      "skill_id": "skill-ray-blast",
+      "skill_name": "Ray Blast",
+      "source_token": "Kefla",
+      "canonical_character_names": [
+        "Kefla (Super Saiyan)"
+      ],
+      "status": "resolved",
+      "basis": "Current Xenoverse 2 skill documentation identifies Kefla (Super Saiyan) as a user; the canonical roster contains that exact identity."
+    },
+    {
+      "skill_id": "skill-requiem-of-destruction",
+      "skill_name": "Requiem of Destruction",
+      "source_token": "Whis — Customize Partner",
+      "canonical_character_names": [
+        "Whis"
+      ],
+      "status": "resolved",
+      "basis": "The canonical roster contains Whis and the source explicitly identifies the Whis Customize Partner route."
+    },
+    {
+      "skill_id": "skill-rolling-bullet",
+      "skill_name": "Rolling Bullet",
+      "source_token": "Android 18 / Android 18 (DB Super) / Great Saiyaman 2",
+      "canonical_character_names": [
+        "Android 18",
+        "Android 18 (DB Super)",
+        "Great Saiyaman 2"
+      ],
+      "status": "resolved_multi",
+      "basis": "All three named identities are present in the canonical roster, so the aggregate source can be represented without inventing variants."
     },
     {
       "skill_id": "skill-sauzer-blade",
@@ -330,6 +289,14 @@
       ],
       "status": "resolved",
       "basis": "Current Xenoverse 2 skill documentation identifies Jeice as the user of Sauzer Blade; the canonical character roster contains Jeice."
+    },
+    {
+      "skill_id": "skill-sonic-bomb",
+      "skill_name": "Sonic Bomb",
+      "source_token": "Champa",
+      "canonical_character_names": [],
+      "status": "held_unresolved",
+      "basis": "Not promoted: current skill documentation identifies Frieza as the user despite the source token saying Champa. The token is therefore a provenance/user-field conflict, not a deterministic Champa identity."
     },
     {
       "skill_id": "skill-spirit-explosion",
@@ -350,6 +317,75 @@
       ],
       "status": "resolved",
       "basis": "Current Xenoverse 2 character/skill documentation explicitly lists Spread Shot Retreat for Frieza (1st Form)'s Customize Partner moveset; the canonical roster contains that identity. Other characters also use the skill, so this edge represents the source-token identity rather than exhaustive equipability."
+    },
+    {
+      "skill_id": "skill-super-black-kamehameha-rose",
+      "skill_name": "Super Black Kamehameha Rosé",
+      "source_token": "Goku Black (Super Saiyan Rosé)",
+      "canonical_character_names": [
+        "Rosé Goku Black"
+      ],
+      "status": "resolved",
+      "basis": "Current Xenoverse 2 documentation identifies Rosé Goku Black as the user; the canonical roster contains Rosé Goku Black."
+    },
+    {
+      "skill_id": "skill-super-destructo-disc",
+      "skill_name": "Super Destructo-Disc",
+      "source_token": "Krillin / Android 18",
+      "canonical_character_names": [
+        "Krillin",
+        "Android 18"
+      ],
+      "status": "resolved_multi",
+      "basis": "Independent Xenoverse 2 documentation identifies Krillin and Android 18 as users; the skill is a Krillin Super Skill and is available through Android 18 Customize Partner."
+    },
+    {
+      "skill_id": "skill-total-detonation-ball",
+      "skill_name": "Total Detonation Ball",
+      "source_token": "Toppo",
+      "canonical_character_names": [
+        "Android 21"
+      ],
+      "status": "resolved_conflict",
+      "basis": "The legacy source token says Toppo, but current Xenoverse 2 documentation identifies Total Detonation Ball as an Android 21 skill. The conflicting source token is preserved rather than silently rewritten."
+    },
+    {
+      "skill_id": "skill-venus-fist",
+      "skill_name": "Venus Fist",
+      "source_token": "Goku (Ultra Supervillain Quelled)",
+      "canonical_character_names": [
+        "resolved"
+      ],
+      "status": "Current Xenoverse 2 evidence directly associates Venus Fist with Goku (Ultra Supervillain Quelled); the official Chapter 4 announcement confirms that character identity."
+    },
+    {
+      "skill_id": "skill-wild-buster",
+      "skill_name": "Wild Buster",
+      "source_token": "Vegeta (GT)",
+      "canonical_character_names": [
+        "resolved"
+      ],
+      "status": "Current Xenoverse 2 skill documentation explicitly lists Wild Buster as a Vegeta (GT) Super Skill; the canonical character layer now promotes Vegeta (GT) from the repository's DLC character inventory."
+    },
+    {
+      "skill_id": "skill-x-100-big-bang-kamehameha",
+      "skill_name": "X 100 Big Bang Kamehameha",
+      "source_token": "Vegeta (Super Saiyan Blue)",
+      "canonical_character_names": [
+        "SSGSS Vegeta"
+      ],
+      "status": "resolved",
+      "basis": "PQ100 and current character documentation associate X 100 Big Bang Kamehameha with SSGSS Vegeta; the canonical roster uses SSGSS Vegeta for Super Saiyan Blue Vegeta."
+    },
+    {
+      "skill_id": "skill-zigzag-express",
+      "skill_name": "Zigzag Express",
+      "source_token": "Majin (Male)",
+      "canonical_character_names": [
+        "Majin (Male)"
+      ],
+      "status": "resolved",
+      "basis": "Current Xenoverse 2 documentation states Zigzag Express can only be used by Majin Male CaCs, matching the canonical Majin (Male) identity."
     }
   ]
 }
