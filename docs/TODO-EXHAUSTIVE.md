@@ -3226,3 +3226,14 @@
 - [x] Added audit: `docs/data/super-soul-032-activation-state-audit-2026-09-23.json`.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Remaining strict-thin queue remains **032, 034, 158, 217, 232–236**. Next priority remains evidence-backed item-level research for **217 Limit Burst**; do not infer unresolved fields from absence of evidence.
+
+
+### 2026-09-23 — TODO completion update — Super Soul 217 Limit Burst evidence boundary
+- [x] Performed a focused web evidence pass for **Super Soul 217 — “Power! A lotta power! It's great!”**.
+- [x] Added independent community evidence corroborating its +12 Ki/+12 Stamina utility and PQ 134 association.
+- [x] No consulted source identified the Soul's **Limit Burst** effect or trigger.
+- [x] Preserved the unresolved Limit Burst fields; no effect was inferred from absence of evidence.
+- [x] Added audit: `docs/data/super-soul-217-limit-burst-evidence-audit-2026-09-23.json`.
+- [x] Updated `last_verified` and canonical source provenance.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Remaining strict-thin queue remains **032, 034, 158, 217, 232–236**. 217 is now an explicit evidence-boundary result; next work should move to 034 or the indexed 232–236 records only when item-level evidence can be obtained.
