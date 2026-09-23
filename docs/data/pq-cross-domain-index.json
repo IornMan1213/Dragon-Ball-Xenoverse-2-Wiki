@@ -177,7 +177,8 @@
     "dlc_pack_content_matrix": "docs/data/dlc/dlc-pack-content-matrix-2026-09-23.json",
     "daima_accessory_normalization": "docs/data/dlc/daima-accessory-normalization-audit-2026-09-23.json",
     "daima_hoj2_skill_super_soul_downstream_audit": "docs/data/dlc/daima-hoj2-skill-super-soul-downstream-audit-2026-09-23.json",
-    "daima_hoj2_official_skill_super_soul_count_reconciliation": "docs/data/dlc/daima-hoj2-official-skill-super-soul-count-reconciliation-2026-09-23.json"
+    "daima_hoj2_official_skill_super_soul_count_reconciliation": "docs/data/dlc/daima-hoj2-official-skill-super-soul-count-reconciliation-2026-09-23.json",
+    "hero_of_justice_pack_2_paid_illustration_scope": "docs/data/dlc/hero-of-justice-pack-2-paid-illustration-scope-reconciliation-2026-09-23.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
