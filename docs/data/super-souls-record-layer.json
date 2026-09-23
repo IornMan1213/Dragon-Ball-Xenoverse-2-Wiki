@@ -1280,12 +1280,13 @@
       "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Maintained catalogue and independent Super Soul research corroborate the always-on +15% Charged Ki Blast effect and Limit Burst; no additional duration/stacking behavior is inferred because the effect is always active.",
-      "verification_status": "partially_verified",
+      "version_notes": "Maintained catalogue and independent Super Soul research corroborate the always-on +15% Charged Ki Blast effect and Limit Burst; no additional duration/stacking behavior is inferred because the effect is always active. Independent historical Super Soul guide corroborates the PQ58 acquisition and always-on Charged Ki Blast effect/Limit Burst; no timed duration or stacking behavior is inferred for an always-active effect.",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/killed-all-earthlings.md",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
       ],
       "source_parallel_quests": [
         "pq-058"
@@ -1586,12 +1587,13 @@
       "usable_by_cac": null,
       "race_restriction": null,
       "dlc_requirement": "None identified",
-      "version_notes": "Maintained catalogue and character documentation corroborate the below-25%-health +20% Ki Blast Skill effect and Limit Burst; the catalogue's wording discrepancy with Charged Ki Blasts is preserved in the research note.",
-      "verification_status": "partially_verified",
+      "version_notes": "Maintained catalogue and character documentation corroborate the below-25%-health +20% Ki Blast Skill effect and Limit Burst; the catalogue's wording discrepancy with Charged Ki Blasts is preserved in the research note. Independent historical Super Soul guide corroborates the PQ93 acquisition and below-25%-health effect/Limit Burst; the known Charged Ki Blast vs Ki Blast Skill wording discrepancy remains explicitly preserved.",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-hate-you.md",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
       ],
       "source_parallel_quests": [
         "pq-093"
@@ -6945,7 +6947,8 @@
     "2026-09-22: refreshed Super Souls 242–246 from exact-name catalogue evidence. 242–246 now have character/effect/Limit Burst mechanics; PQ29/PQ35/PQ36/PQ38/PQ12 provenance was retained. Internal Ki-regeneration rates and unsupported timing/drop-rate details were not inferred.",
     "2026-09-22: Super Souls 032, 033, and 035 received a secondary-evidence mechanics refresh; exact engine-level rates/timing remain bounded where not independently established.",
     "2026-09-22: promoted Super Souls 245–246 from partially_verified to researched after exact-name mechanics, character identity, Limit Burst, and PQ12/PQ38 provenance were independently reconfirmed; no unsupported reward probabilities or engine-level timing/rates were added.",
-    "2026-09-22: strengthened raid Super Souls 054, 057, 058, and 063 with independent raid/effect evidence. 057, 058, and 063 now have corroborated Limit Burst fields and were promoted to verified_secondary; 054 remains partially_verified because its Limit Burst is still unresolved. No unsupported timing or probability values were inferred."
+    "2026-09-22: strengthened raid Super Souls 054, 057, 058, and 063 with independent raid/effect evidence. 057, 058, and 063 now have corroborated Limit Burst fields and were promoted to verified_secondary; 054 remains partially_verified because its Limit Burst is still unresolved. No unsupported timing or probability values were inferred.",
+    "2026-09-22: strengthened Super Souls 049 and 060 with the independent historical GameFAQs Super Soul guide; both were promoted to verified_secondary while preserving their documented wording/evidence boundaries."
   ],
   "sources": [
     {
