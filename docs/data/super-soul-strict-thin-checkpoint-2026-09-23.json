@@ -98,6 +98,15 @@
         "https://www.nintendo.com/us/store/products/dragon-ball-xenoverse-2-future-saga-chapter-4-70050000064689-switch/"
       ],
       "result": "No mechanics or character source promoted; new bounded audit registered."
+    },
+    {
+      "id": "super-soul-032",
+      "finding": "Fresh exact-name Limit Burst searches and repository inspection found no reliable item-level Limit Burst type, trigger, or effect. GameFAQs independently confirms the KO-triggered alternate displayed-name state, but not its mechanics.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81166913?page=10",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "result": "Limit Burst remains unresolved; bounded evidence audit registered."
     }
   ],
   "limits": [
@@ -106,8 +115,8 @@
     "No 232-236 records were recreated."
   ],
   "result": "Super Soul 217 remains bounded: core utility/provenance corroborated, Limit Burst unresolved after a second targeted search pass.",
-  "next_batch": "Super Soul 032 Limit Burst/item-level evidence pass; return to 034 only if new item-level evidence appears. Separately track 158 collision for canonical Super Skill migration.",
-  "next_method": "Prioritize exact-name/item-level evidence for 032. Do not repeat low-yield generic/community searches for 034 unless a source exposes explicit item-level mechanics.",
+  "next_batch": "Super Soul 158 collision-safe canonical migration analysis: inspect the canonical Super Skill layer, ID/alias conventions, PQ49 crosslinks, and determine the safest non-destructive migration path for the Do or Die collision. Do not rename or merge the Super Soul record until mapping is explicitly supported.",
+  "next_method": "Treat 158 as a domain collision, not a mechanics gap. Identify existing canonical Super Skill record/ID or determine that a new mapping artifact is required; preserve all historical Super Soul evidence and avoid changing PQ relationship identities without parity validation.",
   "last_updated": "2026-09-23",
   "notes": [
     "2026-09-23: A prior intermediate note attributed 034 to Fu, but the subsequent exact-name pass did not independently substantiate that attribution; the canonical record therefore remains character_source unresolved. The earlier attribution is superseded, not used as mechanics evidence.",
