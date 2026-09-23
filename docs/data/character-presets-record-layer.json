@@ -853,6 +853,62 @@
         "loadout_evidence_scope": "Explicit Bardock in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
       },
       "loadout_source": "https://dbxv2.fandom.com/wiki/Bardock"
+    },
+    {
+      "id": "raditz-preset-1",
+      "character_id": "raditz",
+      "name": "Raditz Preset 1",
+      "preset_number": 1,
+      "verification_status": "verified",
+      "loadout_status": "verified",
+      "acquisition_status": "community_observed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Raditz"
+      ],
+      "loadout": {
+        "super_attacks": [
+          "Meteor Blow",
+          "Double Sunday",
+          "Afterimage",
+          "Energy Charge"
+        ],
+        "ultimate_attacks": [
+          "Weekend"
+        ],
+        "awoken_skill": null,
+        "evasive_skill": "Break Strike",
+        "super_soul": null,
+        "loadout_evidence_scope": "Explicit Battle Suit 1 in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
+      },
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Raditz"
+    },
+    {
+      "id": "nappa-preset-1",
+      "character_id": "nappa",
+      "name": "Nappa Preset 1",
+      "preset_number": 1,
+      "verification_status": "verified",
+      "loadout_status": "verified",
+      "acquisition_status": "community_observed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Nappa"
+      ],
+      "loadout": {
+        "super_attacks": [
+          "Sledgehammer",
+          "Energy Shot",
+          "Genocide Shell",
+          "Full Power Charge"
+        ],
+        "ultimate_attacks": [
+          "Giant Storm"
+        ],
+        "awoken_skill": null,
+        "evasive_skill": null,
+        "super_soul": null,
+        "loadout_evidence_scope": "Explicit Battle Suit 1 in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
+      },
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Nappa"
     }
   ],
   "unresolved": [
