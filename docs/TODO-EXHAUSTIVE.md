@@ -3670,3 +3670,14 @@
 - [x] Validation: new audit parses; advertised attack count 13; exact canonical skill identities 10; exact canonical identities missing 3; cross-domain registration confirmed.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: atomically promote **Super Destructo-Disc** and **Big Bang Attack** into docs/data/skills.json + docs/data/skills-index.json only after preserving complete schema fields and validating canonical/index parity; separately research **Power Pole Combo** rather than aliasing it to Power Pole or Power Pole Pro. Then continue the remaining five Support Pack costume identities and Puar.
+
+### 2026-09-23 — TODO completion update — Time Patrol Support Pack canonical skill promotions
+- [x] Promoted **Big Bang Attack → skill-big-bang-attack** into both `docs/data/skills.json` and `docs/data/skills-index.json` using the existing research corpus: Super / Ki Blast / 100 Ki / Vegeta association / TP Medal Shop acquisition.
+- [x] Promoted **Super Destructo-Disc → skill-super-destructo-disc** into both canonical skill layers using the existing Expert Mission 4 evidence: Super / Ki Blast / 200 Ki / CaC availability / EM4 acquisition. Exact drop rate and guaranteed-clear semantics remain unresolved and were not invented.
+- [x] Updated `docs/data/skill-canonical-promotion-manifest.json` and `docs/data/skill-research-batches/skill-batch-251.json` to record the promotions.
+- [x] Updated `docs/data/skill-catalog-audit.json`; current canonical/index census is now **454 records**. The older 2026-09-20 status snapshot is preserved separately instead of being incorrectly extrapolated to the current larger census.
+- [x] Reconciled the Time Patrol Support Pack skill audit: **12/13 advertised attacks now have exact canonical identities**; only **Power Pole Combo** remains an exact-identity gap.
+- [x] Updated `docs/data/dlc/time-patrol-support-pack-content-reconciliation-2026-09-23.json` to reflect the two promotions and the single remaining missing skill identity.
+- [x] Validation: canonical and index JSON files parse; promoted IDs are unique; canonical/index counts both equal 454 after the promotions; audit and reconciliation JSON parse successfully.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: research **Power Pole Combo** as a distinct identity without aliasing it to Power Pole or Power Pole Pro, then continue the five remaining Support Pack costume identities and Puar.
