@@ -3049,3 +3049,14 @@
 - CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - Exact next batch: recompute the live strict-thin queue and continue the next evidence-supported cluster, prioritizing records with explicit duration/stacking evidence and preserving 032/034 as evidence boundaries.
 
+
+
+### 2026-09-23 — Unified PQ reverse-index exact-pair census
+- [x] Compared all canonical typed PQ relationship pairs in `docs/data/pq-reward-relationships.json` against `docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json` at exact target/PQ pair level.
+- [x] Equipment was compared as the union of the unified `clothing` and `accessories` domains, preserving the domain distinction.
+- [x] Live parity: **859 canonical / 859 unified / 0 missing / 0 extra / 0 duplicate projection pairs / 0 invalid PQ numbers / 0 invalid list fields**.
+- [x] Current counts: **244 skill / 151 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming**.
+- [x] Found and repaired deterministic audit metadata drift in `docs/data/pq-reward-normalization/pq-unified-reverse-index-audit.json`: current equipment projection split is **84 clothing / 40 accessories = 124**; the prior 83/41 split was stale and is retained only in historical audit context.
+- [x] No canonical relationship identities were changed; partial normalized-source omissions were not promoted into canonical relationships.
+- [ ] Runtime execution of `scripts/validate_pq_unified_reverse_index.py` remains an environment gate; do not claim Python runtime or CI success from this structural connector census.
+- [ ] Exact next task: scan remaining generated/reconciliation artifacts for stale **current-state** producer metadata/counts outside the already audited PQ relationship reports; repair only deterministic drift and preserve historical scope/count records before starting new provenance research.
