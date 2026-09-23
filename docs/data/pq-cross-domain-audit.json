@@ -275,8 +275,8 @@
         "pq_set_mismatches": 0
       },
       "super_souls": {
-        "forward_edges": 151,
-        "reverse_endpoints": 148,
+        "forward_edges": 146,
+        "reverse_endpoints": 143,
         "missing_reverse_endpoints": 0,
         "orphan_reverse_endpoints": 0,
         "pq_set_mismatches": 0
