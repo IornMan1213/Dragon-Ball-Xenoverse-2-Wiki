@@ -2486,3 +2486,13 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Validation: **455/455**, **0 duplicate IDs**, target parity **clean**, stale queue **390**.
 - CI/runtime: no successful status exposed; no CI success claimed.
 - Exact next batch: **Charged Ki Wave, Circle Flash, Comet Strike, Confusion Blade, Core Breaker, Crush Cannon, Crush Stream, Crusher Ball, Dancing Parapara, Dark Inscription**.
+
+
+### 2026-09-23 cycle update — P1 Charged Ki Wave through Core Breaker provenance refresh
+- Live census before editing: **455 canonical / 455 index / 390 stale / 0 duplicate IDs**.
+- Completed **Charged Ki Wave, Circle Flash, Comet Strike, Confusion Blade, Core Breaker**.
+- Rechecked dedicated skill evidence and refreshed canonical/index verification dates to **2026-09-23**; existing acquisition, cost, scope, mechanics, and evidence boundaries were preserved.
+- Added/registered **docs/data/skill-provenance-audit-2026-09-23-charged-ki-wave-through-core-breaker.json**.
+- Validation: **455/455**, **0 duplicate IDs**, target parity **clean**, stale queue **385**.
+- CI/runtime: no successful status exposed; no CI success claimed.
+- Exact next batch: **Crush Cannon, Crush Stream, Crusher Ball, Dancing Parapara, Dark Inscription, Darkness Eye Beam, Darkness Rush (Melee), Darkness Rush (Ranged), Darkness Twin Star, Data Input**.
