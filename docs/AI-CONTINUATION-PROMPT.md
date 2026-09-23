@@ -5264,3 +5264,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime: unavailable; no CI success claimed.
 - Commits: Puar audit **2445200975c2c0f38cc46e704b9c1d9616642635**; cross-domain registration **7161e738b7dfacea0d42afd3c5ad95ca6a1509ca**; content reconciliation **11c4aaa482b215813c3a7859d61b93d75e1feb86**; TODO **36509ef2f68395ddacbdebbc0e169cbd69a783b2**.
 - Exact next batch: introduce the smallest dedicated **CC Mascot canonical/catalog schema and index**, then promote Puar with exact DLC provenance and validate navigation parity. Preserve the five unmatched costume identities as evidence-backed equipment inventory gaps and do not invent `equip-141+` IDs.
+\n\n### 2026-09-23 cycle update — Dedicated CC Mascot canonical layer / Puar promotion
+- Live relevant census before editing: equipment legacy layer ends at **equip-140**; Support Pack Puar was identity-resolved but lacked a canonical domain.
+- Bounded batch: **CC Mascot canonical schema/index + Puar promotion**.
+- Changes: added `docs/data/cc-mascots.json` and `docs/data/cc-mascots-index.json`; promoted `mascot-puar`; registered the layer in `docs/data/pq-cross-domain-index.json`; updated the Support Pack reconciliation and Puar audit.
+- Identity boundary: Puar remains a CC Mascot/lobby-item identity and is not mapped to equipment/accessory IDs. Variant identities remain separate.
+- Validation: JSON parse checks passed; mascot canonical/index counts are both 1; `mascot-puar` is unique; DLC reconciliation points to the canonical ID. CI/runtime unavailable; no CI success claimed.
+- Commits: mascot canonical **69c3bdceaad0993931fc36985d158a3c246a59c3**; mascot index **570f7a8d2e988129d2693681785d9b7aa490c167**; cross-domain registration **044086aa99a4c8fa9d483016154939bec451d7d5**; DLC reconciliation **78fde4c5fba4ca00612f1a23540aa1599b4788c8**; Puar audit **dc6f57345bcdc73678c50009debab75e4782c2fb**.
+- Exact next batch: validate all CC Mascot consumers/reverse-navigation requirements, then continue the five unmatched Support Pack costume identities without inventing `equip-141+` IDs.\n
