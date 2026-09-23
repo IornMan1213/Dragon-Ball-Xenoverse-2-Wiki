@@ -12184,12 +12184,12 @@
       "research_status": "enriched",
       "unlock_method": "Character-only / non-CaC roster use",
       "mechanics_notes": "Character-only Goku transformation requiring 500 Ki for the documented normal and x10 stages; no CaC acquisition route is inferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "source_quest_or_shop": "Character-only Awoken Skill / roster use",
       "ki_cost": 500,
       "dlc_requirement": "Free Update 1",
       "acquisition_type": "character_only",
-      "notes": "Character-only Goku transformation; not an independently unlockable CaC Awoken Skill. Current roster/transformation evidence documents normal and x10 stages.",
+      "notes": "Character-only Goku transformation; not an independently unlockable CaC Awoken Skill. Current roster/transformation evidence documents normal and x10 stages. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred.",
       "id": "skill-super-saiyan-blue-kaioken"
     },
     {
@@ -12209,8 +12209,8 @@
       "ultimate_finish_required": false,
       "ki_cost": 300,
       "mechanics_notes": "300 Ki transformation emphasizing Basic Attack; current consolidated research documents +60% Basic Attack, +50% Ki recovery, and +12.5% movement speed.",
-      "last_verified": "2026-09-22",
-      "notes": "Saiyan CaC-only Awoken Skill. Current acquisition research documents max friendship with Goku, Vegeta, Gohan & Videl, Gotenks, and Pan, followed by Shenron's Super Saiyan God wish and Beerus's handoff.",
+      "last_verified": "2026-09-23",
+      "notes": "Saiyan CaC-only Awoken Skill. Current acquisition research documents max friendship with Goku, Vegeta, Gohan & Videl, Gotenks, and Pan, followed by Shenron's Super Saiyan God wish and Beerus's handoff. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred.",
       "unlock_method": "After maxing friendship with Goku, Vegeta, Gohan & Videl, Gotenks, and Pan, use Shenron's Super Saiyan God wish and then speak with Beerus to receive the skill.",
       "research_status": "enriched",
       "source_quest_or_shop": "Shenron wish for Super Saiyan God; Beerus awards the skill",
@@ -12235,10 +12235,10 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74497359?page=14"
       ],
       "ultimate_finish_required": false,
-      "notes": "Saiyan CaC-only Awoken Skill. Reach level 90 and max friendship with Whis; Whis awards the skill. Non-Saiyan characters may satisfy the award condition but cannot use the Saiyan CaC transformation.",
+      "notes": "Saiyan CaC-only Awoken Skill. Reach level 90 and max friendship with Whis; Whis awards the skill. Non-Saiyan characters may satisfy the award condition but cannot use the Saiyan CaC transformation. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred.",
       "unlock_method": "Reach level 90 and max friendship with Whis; Whis awards the skill.",
       "ki_cost": 500,
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "mechanics_notes": "500 Ki; current consolidated research documents +25% Strike/+25% Blast, +5% Strike/+5% Blast Defense, and 10 Ki/sec drain.",
       "research_status": "enriched",
       "source_quest_or_shop": "Whis training — max friendship and level 90",
@@ -12263,10 +12263,10 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74497359?page=14"
       ],
       "ultimate_finish_required": false,
-      "notes": "Saiyan CaC-only Awoken Skill. Requires level 95, max friendship with Vegeta, and possession of Super Saiyan God Super Saiyan; Whis awards the skill.",
+      "notes": "Saiyan CaC-only Awoken Skill. Requires level 95, max friendship with Vegeta, and possession of Super Saiyan God Super Saiyan; Whis awards the skill. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred.",
       "unlock_method": "Reach level 95, max friendship with Vegeta, and already possess Super Saiyan God Super Saiyan; Whis awards the skill.",
       "ki_cost": 500,
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "mechanics_notes": "500 Ki; current consolidated research documents +35% Strike/+35% Blast, +10% Strike/+10% Blast Defense, and 18 Ki/sec drain.",
       "research_status": "enriched",
       "source_quest_or_shop": "Whis training — max friendship with Vegeta, level 95, SSGSS required",
@@ -12283,11 +12283,12 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
-        "https://dragonball.fandom.com/wiki/Super_Spirit_Bomb"
+        "https://dragonball.fandom.com/wiki/Super_Spirit_Bomb",
+        "https://dbxv2.fandom.com/wiki/Super_Spirit_Bomb"
       ],
       "ki_cost": 300,
       "unlock_method": "Expert Mission 16 — \"In the Realm of the Gods: Vegeta\" Basic Reward.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
@@ -12297,7 +12298,7 @@
       "mechanics_notes": "300 Ki Ki Blast Ultimate from EM16; charges and throws a large Spirit Bomb projectile.",
       "source_quest": "EM-16",
       "acquisition_type": "quest_or_mission",
-      "notes": "Expert Mission 16 Basic Reward is the maintained acquisition endpoint; no Ultimate Finish-only condition is inferred.",
+      "notes": "Expert Mission 16 Basic Reward is the maintained acquisition endpoint; no Ultimate Finish-only condition is inferred. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred.",
       "id": "skill-super-spirit-bomb"
     },
     {
@@ -12316,8 +12317,8 @@
       "ultimate_finish_required": false,
       "ki_cost": 300,
       "mechanics_notes": "300/400 Ki stages; current consolidated research documents the stage-specific Strike/Blast modifiers and increasing Blast-defense effects.",
-      "last_verified": "2026-09-22",
-      "notes": "Saiyan CaC-only two-stage Awoken Skill from Vegeta's Capsule Corporation training progression. Super Vegeta 1/2 activate at 300/400 Ki.",
+      "last_verified": "2026-09-23",
+      "notes": "Saiyan CaC-only two-stage Awoken Skill from Vegeta's Capsule Corporation training progression. Super Vegeta 1/2 activate at 300/400 Ki. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred.",
       "unlock_method": "As a Saiyan CaC, complete the Vegeta training progression at Capsule Corporation; after obtaining Super Saiyan and reaching the later training gate, clear Vegeta's Super Vegeta training mission to receive the Super Vegeta 1/2 Awoken Skill.",
       "research_status": "enriched",
       "source_quest_or_shop": "Vegeta training — Capsule Corporation Time Rift",
@@ -12337,11 +12338,12 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates",
         "https://dragonball.fandom.com/wiki/Supernova",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "https://dbxv2.fandom.com/wiki/Supernova"
       ],
       "ki_cost": 500,
       "unlock_method": "Expert Mission 6 — \"The Depths of Despair\" Basic Reward.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
@@ -12351,7 +12353,7 @@
       "source_quest": "EM-6",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 reward-tier refinement: maintained/independent Expert Mission evidence explicitly lists Supernova in the EM6 Basic Reward pool; no Ultimate Finish-only condition is inferred. 2026-09-22 provenance strengthening: maintained Steam Expert Mission guide independently lists Supernova as the EM06 (The Depths of Despair) Basic Reward. This corroborates the existing EM06 acquisition endpoint and reward tier; no drop probability or additional gate is inferred.",
+      "notes": "2026-09-20 reward-tier refinement: maintained/independent Expert Mission evidence explicitly lists Supernova in the EM6 Basic Reward pool; no Ultimate Finish-only condition is inferred. 2026-09-22 provenance strengthening: maintained Steam Expert Mission guide independently lists Supernova as the EM06 (The Depths of Despair) Basic Reward. This corroborates the existing EM06 acquisition endpoint and reward tier; no drop probability or additional gate is inferred. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred.",
       "id": "skill-supernova"
     },
     {
@@ -12362,7 +12364,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dragonball.fandom.com/wiki/Supernova_Cooler"
       ],
       "unlock_method": "Cooler (Final Form)'s Lesson 3 — complete the instructor lesson to receive Supernova Cooler as the Basic Reward.",
       "research_status": "enriched",
@@ -12370,12 +12373,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Cooler (Final Form) mentor training — Lesson 3",
       "mechanics_notes": "500 Ki Ki Blast Ultimate; mentor acquisition endpoint is verified, while finer combat mechanics remain intentionally bounded pending stronger evidence.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Cooler (Final Form) mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "Cooler (Final Form) Lesson 3 is the verified mentor acquisition endpoint and Basic Reward. Current skill evidence records 500 Ki.",
+      "notes": "Cooler (Final Form) Lesson 3 is the verified mentor acquisition endpoint and Basic Reward. Current skill evidence records 500 Ki. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred.",
       "id": "skill-supernova-cooler",
       "source_mentor": [
         "mentor-cooler"
@@ -12399,12 +12402,12 @@
       "research_status": "enriched",
       "unlock_method": "Character-only / non-CaC roster use",
       "mechanics_notes": "No Ki is required to activate Supersonic Mode; the character-only transformation instead has an automatic Stamina drain while active. Current reference lists Ki Required: None. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate. Race restriction is not applicable to CaC races because this is a character-only roster transformation.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "source_quest_or_shop": "Character-only Awoken Skill / roster use",
       "ki_cost": 0,
       "dlc_requirement": "Conton City Vote Pack",
       "acquisition_type": "character_only",
-      "notes": "2026-09-20 roster-status refinement: maintained transformation research classifies Supersonic Mode as Dyspo-only; it is not an independently unlockable CaC Awoken Skill. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics.",
+      "notes": "2026-09-20 roster-status refinement: maintained transformation research classifies Supersonic Mode as Dyspo-only; it is not an independently unlockable CaC Awoken Skill. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred.",
       "id": "skill-supersonic-mode"
     },
     {
@@ -12424,7 +12427,7 @@
       "mechanics_notes": "100 Ki Strike Super. Current reward evidence places Supreme Fury in PQ179 Ultimate Finish reward; exact drop conditions and additional numerical mechanics remain under research.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Supreme_Fury",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -12433,7 +12436,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 179,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context. 2026-09-21 provenance strengthening: Bandai Namco's official Dragon Ball DAIMA Pack announcement confirms the DLC includes Parallel Quests and player skills; maintained PQ/skill evidence supplies the specific PQ179/PQ181 relationships.",
+      "notes": "2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context. 2026-09-21 provenance strengthening: Bandai Namco's official Dragon Ball DAIMA Pack announcement confirms the DLC includes Parallel Quests and player skills; maintained PQ/skill evidence supplies the specific PQ179/PQ181 relationships. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred.",
       "id": "skill-supreme-fury",
       "source_parallel_quests": [
         179
@@ -12460,11 +12463,11 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races while using Ultra Instinct",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "source_quest_or_shop": "Character-exclusive",
       "mechanics_notes": "Current evidence documents Surging Spirit as an Ultra Instinct built-in CaC action rather than a separately acquired equipable skill; its N/A unlock route is therefore retained.",
       "acquisition_type": "other_nonquest",
-      "notes": "2026-09-20 acquisition-status refinement: current Ultra Instinct documentation confirms Surging Spirit is a built-in CaC action while Ultra Instinct is active, rather than a separately acquired/equipped skill. It should not be treated as a standalone character-exclusive acquisition route. 2026-09-21 DLC provenance audit: composite requirement intentionally preserved because Surging Spirit is documented in both Extra Pack 2 (Ultra Instinct Goku) and Conton City Vote Pack (Ultra Instinct -Sign- Goku); collapsing to either single pack would lose meaningful character/DLC context.",
+      "notes": "2026-09-20 acquisition-status refinement: current Ultra Instinct documentation confirms Surging Spirit is a built-in CaC action while Ultra Instinct is active, rather than a separately acquired/equipped skill. It should not be treated as a standalone character-exclusive acquisition route. 2026-09-21 DLC provenance audit: composite requirement intentionally preserved because Surging Spirit is documented in both Extra Pack 2 (Ultra Instinct Goku) and Conton City Vote Pack (Ultra Instinct -Sign- Goku); collapsing to either single pack would lose meaningful character/DLC context. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred.",
       "id": "skill-surging-spirit"
     },
     {
@@ -12483,12 +12486,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Whis mentor training",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Whis mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred.",
       "id": "skill-symphonic-destruction",
       "source_mentor": [
         "mentor-whis"
