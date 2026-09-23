@@ -2282,14 +2282,15 @@
       "dlc_requirement": "Dragon Ball DAIMA Pack — PQ179",
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Bandai Namco and independent PQ documentation confirm the DAIMA wig/tail as a PQ179 costume/accessory reward; accessory classification is explicit.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Bandai Namco and independent PQ documentation confirm the DAIMA wig/tail as a PQ179 costume/accessory reward; accessory classification is explicit. Legacy equipment endpoint retained as alias projection; canonical accessory identity is acc-071.",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "slot_coverage": [
         "accessory"
-      ]
+      ],
+      "canonical_accessory_id": "acc-071"
     },
     {
       "id": "equip-100",
@@ -2327,14 +2328,15 @@
       "dlc_requirement": "Dragon Ball DAIMA Pack",
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Independent DLC/PQ evidence confirms the SS3 Vegeta (DAIMA) Wig as the PQ180 wig reward; accessory classification is explicit.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Independent DLC/PQ evidence confirms the SS3 Vegeta (DAIMA) Wig as the PQ180 wig reward; accessory classification is explicit. Legacy equipment endpoint retained as alias projection; canonical accessory identity is acc-072.",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "slot_coverage": [
         "accessory"
-      ]
+      ],
+      "canonical_accessory_id": "acc-072"
     },
     {
       "id": "equip-102",
@@ -2395,14 +2397,15 @@
       "dlc_requirement": "Dragon Ball DAIMA Pack",
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Independent character/equipment documentation identifies Glorio Wig as a wig accessory from the DAIMA Pack.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Independent character/equipment documentation identifies Glorio Wig as a wig accessory from the DAIMA Pack. Legacy equipment endpoint retained as alias projection; canonical accessory identity is acc-073.",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "slot_coverage": [
         "accessory"
-      ]
+      ],
+      "canonical_accessory_id": "acc-073"
     },
     {
       "id": "equip-105",
@@ -2416,14 +2419,15 @@
       "dlc_requirement": "Dragon Ball DAIMA Pack",
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Independent character/equipment documentation identifies Panzy Wig as a wig accessory from the DAIMA Pack.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Independent character/equipment documentation identifies Panzy Wig as a wig accessory from the DAIMA Pack. Legacy equipment endpoint retained as alias projection; canonical accessory identity is acc-074.",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "slot_coverage": [
         "accessory"
-      ]
+      ],
+      "canonical_accessory_id": "acc-074"
     },
     {
       "id": "equip-106",
