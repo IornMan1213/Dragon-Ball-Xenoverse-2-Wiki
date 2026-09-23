@@ -36,8 +36,9 @@
     "index_records": 455,
     "duplicate_ids": 0,
     "nullable_canonical_ki_cost": 0,
-    "exact_two_source_records_before": 2,
-    "target_source_count_after": 3
+    "exact_two_source_records_before": 3,
+    "target_source_count_after": 3,
+    "exact_two_source_records_after": 2
   },
   "ci": "No successful GitHub Actions status exposed; CI success not claimed."
 }
