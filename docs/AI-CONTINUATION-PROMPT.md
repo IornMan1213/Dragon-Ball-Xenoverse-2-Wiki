@@ -3923,3 +3923,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] No reward probabilities or unsupported Ultimate-Finish mappings were added; no canonical relationship identities changed.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Exact next batch: recompute the live thin census and select the next 4–12 indexed records with exact-name evidence, continuing beyond 172 rather than assuming sequential completion is always optimal.
+
+
+### 2026-09-22 cycle update — Super Soul 173–181 provenance/mechanics refresh
+- [x] Live census before editing: 234 canonical Super Souls / 70 indexed-status records.
+- [x] Bounded batch: **super-soul-173 through super-soul-181**.
+- [x] Refreshed 9 records with character/DLC provenance, triggers, effects, magnitudes, supported duration/stacking, Limit Bursts, verification date, and sources.
+- [x] Preserved PQ edges: 173→105, 174→106, 175→106, 176→106/108, 177→108, 178→109, 179→109, 180→110, 181→110.
+- [x] Added `docs/data/super-soul-173-through-181-provenance-audit-2026-09-22.json` and registered it in the cross-domain index.
+- [x] Evidence limits preserved; no reward probabilities or unsupported Ultimate-Finish requirements added.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Exact next batch: recompute the live indexed/thin census and select the next 4–12 indexed records with exact-name evidence and reusable PQ/cross-domain relationships.
