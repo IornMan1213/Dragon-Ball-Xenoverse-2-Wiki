@@ -5303,3 +5303,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Preserved the five-edge Super Soul discrepancy boundary: `super-soul-232` through `super-soul-236` remain removed from the live canonical relationship projection; no relationship was re-added merely to satisfy stale metadata.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next task: continue the **non-PQ consumer/navigation integrity** gate by auditing the remaining registered presentation/reverse-navigation consumers for stale **854/146** baselines, one-way links, scalar/list assumptions, and endpoint-name drift; do not add relationship edges.
+### 2026-09-23 cycle update — Non-PQ endpoint-navigation baseline correction
+- Live census before editing: **854 canonical PQ relationship edges**; Super Soul domain **146 forward / 143 unique reverse targets**.
+- Bounded batch: `docs/data/pq-endpoint-navigation-validation.json` plus its deterministic validator label contract.
+- Found stale current-looking Super Soul target scalars in the endpoint-navigation audit: three fields still said **148** even though the live relationship/reverse layer is **143**.
+- Corrected those three current consumer fields to **143** and refreshed the audit generation date to 2026-09-23; no canonical relationships or identities were changed.
+- Corrected stale validator check labels in `scripts/validate_pq_reference_pages.py`: labels now explicitly say **854** and **146** rather than obsolete 859/151 names while preserving the already-correct assertions.
+- Added `docs/data/pq-non-pq-super-soul-endpoint-consumer-correction-2026-09-23.json` documenting the correction and evidence boundary.
+- Validation: endpoint navigation audit now reports Super Soul 146 edges / 143 targets with zero missing targets; canonical relationship count remains 854. CI/runtime unavailable; no CI success claimed.
+- Exact next batch: continue the registered non-PQ consumer census for remaining **current-looking** stale scalar/list assumptions and endpoint-name drift; leave dated historical/discrepancy snapshots untouched and do not add relationship edges.
