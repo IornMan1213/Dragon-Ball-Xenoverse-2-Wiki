@@ -2318,3 +2318,11 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 ### 2026-09-23 — Super Soul 217 / 032 evidence refresh
 - Fresh exact-name research corroborated Super Soul 217's PQ 134 association and +12 Ki/+12 Stamina utility, but did not establish its Limit Burst; the repository leaves those fields unresolved.
 - Fresh PQ 185 evidence confirms Super Soul 032's exact reward identity and a documented second displayed name after KO; no unsupported second-state mechanics were added.
+
+
+## 2026-09-23 — Super Soul 034 bounded item-level evidence pass
+- Reconfirmed the exact-name PQ 186 reward identity for “The final battle begins now.”.
+- Performed a fresh exact-name/item-level search for character source, effect, trigger, duration, stacking, and Limit Burst; no reliable item-level evidence established those fields.
+- Preserved the boundary that Fu's adjacent PQ 186 costume inventory does not prove Fu ownership of the Soul.
+- Added `docs/data/super-soul-034-item-level-evidence-boundary-2026-09-23.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- Updated the strict-thin checkpoint; the next focused queue item is Super Soul 032.
