@@ -1,16 +1,15 @@
 {
   "schema_version": "1.0.0",
   "date": "2026-09-23",
-  "scope": "Strict-thin checkpoint for Super Souls 032, 034, 158, and 217",
+  "scope": "Strict-thin checkpoint for Super Souls 032, 034, and 217 after canonical migration of collision 158",
   "purpose": "Record the latest exact-name research pass without promoting unsupported mechanics.",
   "live_before": {
-    "canonical_super_souls": 229,
+    "canonical_super_souls": 230,
     "duplicate_ids": 0,
-    "strict_thin": 4,
+    "strict_thin": 3,
     "queue": [
       "super-soul-032",
       "super-soul-034",
-      "super-soul-158",
       "super-soul-217"
     ]
   },
@@ -107,16 +106,27 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "result": "Limit Burst remains unresolved; bounded evidence audit registered."
+    },
+    {
+      "id": "super-soul-158",
+      "finding": "Canonical-domain migration completed: the live skills layer already contains skill-do-or-die for PQ49, and PQ skill crosslinks identify it as the canonical Do or Die record. The former Super Soul 158 collision placeholder had no distinct Super Soul mechanics.",
+      "sources": [
+        "docs/data/skills.json",
+        "docs/data/pq-skill-crosslink-report.json",
+        "docs/data/skill-research-batches/skill-batch-50.json"
+      ],
+      "result": "Removed 158 from the Super Soul canonical layer and PQ Super Soul relationship projections; preserved legacy mapping in the migration audit."
     }
   ],
   "limits": [
     "No field was filled merely because a same-name skill, character, or generic Limit Burst appeared elsewhere.",
     "No drop probability or Normal-vs-Ultimate-Finish mapping was inferred.",
-    "No 232-236 records were recreated."
+    "No 232-236 records were recreated.",
+    "Legacy Super Soul 158 identity is preserved as a migration mapping, not as a live Super Soul record."
   ],
-  "result": "Super Soul 217 remains bounded: core utility/provenance corroborated, Limit Burst unresolved after a second targeted search pass.",
-  "next_batch": "Super Soul 158 collision-safe canonical migration analysis: inspect the canonical Super Skill layer, ID/alias conventions, PQ49 crosslinks, and determine the safest non-destructive migration path for the Do or Die collision. Do not rename or merge the Super Soul record until mapping is explicitly supported.",
-  "next_method": "Treat 158 as a domain collision, not a mechanics gap. Identify existing canonical Super Skill record/ID or determine that a new mapping artifact is required; preserve all historical Super Soul evidence and avoid changing PQ relationship identities without parity validation.",
+  "result": "Super Soul 158 is no longer in the strict-thin queue because the collision was resolved as a domain identity issue rather than a missing-mechanics issue.",
+  "next_batch": "Super Soul 217 exact-name/item-level Limit Burst research; if no reliable new evidence appears, perform a bounded 034 recheck only when new item-level evidence exists, then continue the broader P1 provenance/data queue.",
+  "next_method": "Do not repeat low-yield 217 searches. Search only for explicit item-level Limit Burst wording; preserve nulls if unavailable.",
   "last_updated": "2026-09-23",
   "notes": [
     "2026-09-23: A prior intermediate note attributed 034 to Fu, but the subsequent exact-name pass did not independently substantiate that attribution; the canonical record therefore remains character_source unresolved. The earlier attribution is superseded, not used as mechanics evidence.",
