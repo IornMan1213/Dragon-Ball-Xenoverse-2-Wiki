@@ -13230,7 +13230,7 @@
       "mechanics_notes": "100-Ki Ki Blast Super associated with Android 18 (DB Super). It has multiple input variations, including a charged overhead shot and a back-jump shot. The maintained explicit drop-condition assigns a 45% Ultimate Finish route, while the maintained PQ reward table also presents the skill under Basic Reward; the conflict is preserved.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Variable_Snipe_Shot",
@@ -13239,7 +13239,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 165,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 165 is documented as an acquisition route; the explicit drop-condition record now documents an Ultimate Finish requirement. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 45% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context. 2026-09-22 provenance refresh: current PQ165 evidence reconfirms Variable Snipe Shot in the quest reward data; the explicit 45% Ultimate Finish condition remains the canonical gate while the conflicting Basic Reward presentation is retained as source context.",
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 165 is documented as an acquisition route; the explicit drop-condition record now documents an Ultimate Finish requirement. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 45% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context. 2026-09-22 provenance refresh: current PQ165 evidence reconfirms Variable Snipe Shot in the quest reward data; the explicit 45% Ultimate Finish condition remains the canonical gate while the conflicting Basic Reward presentation is retained as source context. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.",
       "id": "skill-variable-snipe-shot",
       "source_parallel_quests": [
         165
@@ -13263,7 +13263,7 @@
       "mechanics_notes": "100-Ki Strike Super from PQ123. The user rushes forward with a punch/knee sequence and can use an additional directional input plus attack input to fire an unblockable shockwave; guarding cancels the rush. Current evidence identifies PQ123 as the acquisition route and Extra Pack 3 as DLC provenance.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -13271,7 +13271,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Variant_Drive"
       ],
-      "notes": "2026-09-20 race-scope reconciliation: Dragon Ball Wiki explicitly lists Future Warrior as a Xenoverse 2 user and states the Future Warrior can obtain Variant Drive from PQ123. This establishes CaC availability; no narrower race/gender/form restriction is documented, so the canonical scope is All CaC races. 2026-09-22 provenance refresh: dedicated current skill evidence reconfirms the 100-Ki Strike classification, PQ123 acquisition, rush/shockwave behavior, and Extra Pack 3 provenance.",
+      "notes": "2026-09-20 race-scope reconciliation: Dragon Ball Wiki explicitly lists Future Warrior as a Xenoverse 2 user and states the Future Warrior can obtain Variant Drive from PQ123. This establishes CaC availability; no narrower race/gender/form restriction is documented, so the canonical scope is All CaC races. 2026-09-22 provenance refresh: dedicated current skill evidence reconfirms the 100-Ki Strike classification, PQ123 acquisition, rush/shockwave behavior, and Extra Pack 3 provenance. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.",
       "race_restriction": "All CaC races",
       "source_quest": 123,
       "acquisition_type": "quest_or_mission",
@@ -13298,16 +13298,17 @@
       "mechanics_notes": "500 Ki Strike Ultimate from the Future Saga Chapter 4 PQ reward pool. Exact drop/follow-up behavior remains under research. UF audit 2026-09-19: the maintained PQ guide places this skill in the quest's Basic Reward list, separate from the listed Ultimate Finish conditions. 2026-09-20 verification: current reward data explicitly confirms the documented acquisition route for Venus Fist. 2026-09-20 reward-tier refinement: maintained PQ data documents this as the Basic Reward route; the recorded condition is preserved without inference beyond the maintained corpus.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
-        "https://steamcommunity.com/app/454650/discussions/0/564787571097573891/"
+        "https://steamcommunity.com/app/454650/discussions/0/564787571097573891/",
+        "https://dbxv2.fandom.com/wiki/Venus_Fist"
       ],
       "race_restriction": "All CaC races",
       "source_quest": 186,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance cleanup: the maintained PQ reward guide explicitly places Venus Fist in PQ186's Basic Reward list. Older/secondary references have described a broader PQ185–186 reward pool; the canonical route follows the maintained explicit PQ186 listing while retaining no unsupported PQ185 claim. 2026-09-21 provenance strengthening: Bandai Namco's July 8, 2026 official Future Saga Chapter 4 launch announcement independently confirms Chapter 4 includes Parallel Quests and additional moves; existing PQ186/Venus Fist acquisition semantics are unchanged. 2026-09-22 provenance strengthening: An independent Steam discussion corroborates Venus Fist as the move from PQ186; it does not establish a drop rate or alter the canonical Basic Reward classification. No new drop probability, Ultimate Finish gate, or acquisition restriction is inferred from this source.",
+      "notes": "2026-09-20 provenance cleanup: the maintained PQ reward guide explicitly places Venus Fist in PQ186's Basic Reward list. Older/secondary references have described a broader PQ185–186 reward pool; the canonical route follows the maintained explicit PQ186 listing while retaining no unsupported PQ185 claim. 2026-09-21 provenance strengthening: Bandai Namco's July 8, 2026 official Future Saga Chapter 4 launch announcement independently confirms Chapter 4 includes Parallel Quests and additional moves; existing PQ186/Venus Fist acquisition semantics are unchanged. 2026-09-22 provenance strengthening: An independent Steam discussion corroborates Venus Fist as the move from PQ186; it does not establish a drop rate or alter the canonical Basic Reward classification. No new drop probability, Ultimate Finish gate, or acquisition restriction is inferred from this source. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.",
       "id": "skill-venus-fist",
       "source_parallel_quests": [
         186
@@ -13331,7 +13332,7 @@
       "mechanics_notes": "300-Stamina Ki Blast Evasive from PQ54. The user fires a mouth Ki Wave that launches nearby opponents and recoil-propels the user backward for distance. Current dedicated evidence confirms the Evasive classification and stamina cost.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Victory_Cannon",
@@ -13341,7 +13342,7 @@
       "race_restriction": "All CaC races",
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance refinement: current dedicated skill documentation and the maintained PQ reward guide identify the exact quest title and place Victory Cannon in Basic Reward. No Ultimate Finish-only gate is asserted. 2026-09-22 provenance refresh: dedicated current skill evidence reconfirms PQ54, Ki Blast Evasive classification, and 300-Stamina recoil behavior.",
+      "notes": "2026-09-20 provenance refinement: current dedicated skill documentation and the maintained PQ reward guide identify the exact quest title and place Victory Cannon in Basic Reward. No Ultimate Finish-only gate is asserted. 2026-09-22 provenance refresh: dedicated current skill evidence reconfirms PQ54, Ki Blast Evasive classification, and 300-Stamina recoil behavior. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.",
       "id": "skill-victory-cannon",
       "source_parallel_quests": [
         54
@@ -13356,12 +13357,13 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74526115"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74526115",
+        "https://dbxv2.fandom.com/wiki/Victory_Rush"
       ],
       "ki_cost": 300,
       "research_status": "enriched",
       "unlock_method": "Parallel Quest 89 — \"Super-Super Ultimate Series of Battles!\" Basic Reward",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
@@ -13370,7 +13372,7 @@
       "source_quest": 89,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance strengthening: A GameFAQs Xenoverse 2 discussion independently identifies Victory Rush as a drop from PQ89 — Super-Super Ultimate Series of Battles!. No new drop probability, Ultimate Finish gate, or acquisition restriction is inferred from this source.",
+      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance strengthening: A GameFAQs Xenoverse 2 discussion independently identifies Victory Rush as a drop from PQ89 — Super-Super Ultimate Series of Battles!. No new drop probability, Ultimate Finish gate, or acquisition restriction is inferred from this source. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.",
       "id": "skill-victory-rush",
       "source_parallel_quests": [
         89
@@ -13384,7 +13386,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Volleyball_Fist"
       ],
       "unlock_method": "Tien's Lesson 1 — complete the instructor lesson to receive Volleyball Fist as the Basic Reward.",
       "research_status": "enriched",
@@ -13392,12 +13395,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Tien mentor training — Lesson 1",
       "mechanics_notes": "100-Ki Strike Super with a three-stage rush/knockdown sequence. The user dashes to the target, performs the volleyball-themed attack, and spikes the opponent down. Tien's Lesson 1 is the Future Warrior acquisition endpoint.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Tien mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: dedicated current skill evidence reconfirms the 100-Ki cost and three-stage rush/knockdown behavior; Tien Lesson 1 remains the deterministic acquisition endpoint.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: dedicated current skill evidence reconfirms the 100-Ki cost and three-stage rush/knockdown behavior; Tien Lesson 1 remains the deterministic acquisition endpoint. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.",
       "id": "skill-volleyball-fist",
       "source_mentor": [
         "mentor-tien"
@@ -13422,12 +13425,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 10 — \"Saiyan Survivors\"",
       "mechanics_notes": "0-Ki Other Super from PQ10. The user teleports in front of an ally and absorbs incoming attacks while held; when no ally is available it targets the nearest enemy. Holding the command extends the stance, which functions as a block and consumes stamina when attacks connect.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": 10,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ10; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: current skill documentation identifies PQ10 as the unlock source; an independent skill guide lists PQ10 — Wall of Defense, and a launch-era all-PQ guide lists Wall of Defense in PQ10's Basic Reward. Existing acquisition semantics are preserved. 2026-09-22 provenance refresh: dedicated current skill evidence reconfirms the 0-Ki defensive behavior and PQ10 acquisition; no unsupported stamina or damage values were added.",
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ10; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: current skill documentation identifies PQ10 as the unlock source; an independent skill guide lists PQ10 — Wall of Defense, and a launch-era all-PQ guide lists Wall of Defense in PQ10's Basic Reward. Existing acquisition semantics are preserved. 2026-09-22 provenance refresh: dedicated current skill evidence reconfirms the 0-Ki defensive behavior and PQ10 acquisition; no unsupported stamina or damage values were added. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.",
       "id": "skill-wall-of-defense",
       "source_parallel_quests": [
         10
@@ -13451,7 +13454,7 @@
       "mechanics_notes": "400-Ki Ki Blast Ultimate. The user charges a Kamehameha, teleports to the locked-on target, and fires the beam; dedicated current evidence reports 24 hits and approximately 30% damage. PQ76 is the canonical acquisition endpoint. Reward-tier evidence is conflicting across maintained sources, so no new Ultimate Finish gate is asserted.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Warp_Kamehameha",
@@ -13460,7 +13463,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 76,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 deterministic correction: dedicated current skill evidence reports Warp Kamehameha at 400 Ki, correcting the stale 300-Ki canonical value. The same evidence confirms the teleport-to-target, 24-hit beam behavior; conflicting PQ76 reward-tier presentations remain explicit.",
+      "notes": "2026-09-22 deterministic correction: dedicated current skill evidence reports Warp Kamehameha at 400 Ki, correcting the stale 300-Ki canonical value. The same evidence confirms the teleport-to-target, 24-hit beam behavior; conflicting PQ76 reward-tier presentations remain explicit. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.",
       "id": "skill-warp-kamehameha",
       "source_parallel_quests": [
         66,
@@ -13476,7 +13479,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Weekend"
       ],
       "unlock_method": "Raditz's Lesson 3 — complete the instructor lesson to receive Weekend as the Basic Reward.",
       "research_status": "enriched",
@@ -13484,12 +13488,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Raditz mentor training — Lesson 3",
       "mechanics_notes": "300-Ki Ki Blast Ultimate learned from Raditz's Lesson 3. The user charges beams in both hands and fires them as a controllable long-range attack; the back-direction input spreads the beams into a V-shape. Current dedicated evidence reports 16 hits and approximately 30% damage.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Raditz mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300 Ki used. 2026-09-22 provenance refresh: current dedicated skill evidence confirms 300 Ki, 16-hit beam behavior, controllable/V-shaped firing, and Raditz training acquisition.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300 Ki used. 2026-09-22 provenance refresh: current dedicated skill evidence confirms 300 Ki, 16-hit beam behavior, controllable/V-shaped firing, and Raditz training acquisition. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.",
       "id": "skill-weekend",
       "source_mentor": [
         "mentor-raditz"
@@ -13513,7 +13517,7 @@
       "mechanics_notes": "100-Ki Ki Blast Super from PQ153. The user rushes directly toward the opponent and follows with a punch/kick sequence; an additional input consumes another 100 Ki and fires a Ki Wave. Current dedicated evidence reports 15% total damage for the documented sequence.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Wild_Buster",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -13522,7 +13526,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 153,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ153 and describes Wild Buster as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics. 2026-09-22 provenance refresh: dedicated evidence confirms 100 Ki base cost, 200 Ki with the additional input, PQ153 acquisition, and the rush-plus-Ki-Wave behavior; the maintained 45% Ultimate Finish condition remains explicit.",
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ153 and describes Wild Buster as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics. 2026-09-22 provenance refresh: dedicated evidence confirms 100 Ki base cost, 200 Ki with the additional input, PQ153 acquisition, and the rush-plus-Ki-Wave behavior; the maintained 45% Ultimate Finish condition remains explicit. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.",
       "id": "skill-wild-buster",
       "source_parallel_quests": [
         153
@@ -13551,9 +13555,9 @@
       "acquisition_type": "shop",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Free Update 2",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
-      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred. 2026-09-22 deterministic classification correction: current dedicated skill evidence identifies Wild Hunt as a Strike Super, correcting the stale Ki Blast subcategory. The 100-Ki TP Medal Shop acquisition and four-hit/hard-knockdown behavior are confirmed.",
+      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred. 2026-09-22 deterministic classification correction: current dedicated skill evidence identifies Wild Hunt as a Strike Super, correcting the stale Ki Blast subcategory. The 100-Ki TP Medal Shop acquisition and four-hit/hard-knockdown behavior are confirmed. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.",
       "id": "skill-wild-hunt"
     },
     {
@@ -13573,16 +13577,17 @@
       "mechanics_notes": "100-Ki Strike Super from PQ172. The user rushes forward with a sharp kick; on hit, a follow-up kick launches the opponent backward and permits an immediate follow-up technique. Current dedicated evidence reports 11 hits.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests",
+        "https://dbxv2.fandom.com/wiki/Wild_Stinger"
       ],
       "race_restriction": "All CaC races",
       "source_quest": 172,
       "acquisition_type": "quest_or_mission",
-      "notes": "Corrected 2026-09-20: PQ172 Ultimate Finish reward is treated as CaC-accessible; character association does not by itself establish character exclusivity. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 45% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context. 2026-09-21 provenance audit: Wild Stinger is tied to Future Saga Chapter 1 through its documented PQ 171/172 reward context and the official DLC move documentation; the existing DLC classification is preserved. 2026-09-21 low-source provenance strengthening: current maintained Parallel Quests documentation independently corroborates the PQ relationship; existing Ultimate Finish/drop-condition semantics are preserved, including the reward-table presentation conflict where applicable. 2026-09-22 deterministic correction: current dedicated skill evidence confirms Wild Stinger at 100 Ki, resolving the prior unresolved-cost note. The documented PQ172 acquisition and Ultimate Finish conflict are preserved.",
+      "notes": "Corrected 2026-09-20: PQ172 Ultimate Finish reward is treated as CaC-accessible; character association does not by itself establish character exclusivity. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 45% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context. 2026-09-21 provenance audit: Wild Stinger is tied to Future Saga Chapter 1 through its documented PQ 171/172 reward context and the official DLC move documentation; the existing DLC classification is preserved. 2026-09-21 low-source provenance strengthening: current maintained Parallel Quests documentation independently corroborates the PQ relationship; existing Ultimate Finish/drop-condition semantics are preserved, including the reward-table presentation conflict where applicable. 2026-09-22 deterministic correction: current dedicated skill evidence confirms Wild Stinger at 100 Ki, resolving the prior unresolved-cost note. The documented PQ172 acquisition and Ultimate Finish conflict are preserved. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.",
       "id": "skill-wild-stinger",
       "source_parallel_quests": [
         172
