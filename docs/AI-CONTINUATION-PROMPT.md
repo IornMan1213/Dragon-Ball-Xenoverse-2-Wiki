@@ -5602,3 +5602,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime unavailable; no CI success claimed.
 - Commits: canonical `62a84b6fc501c00ee8e79f34b4a072bd6dff54dd`; index `c5716f8635c33bd9ac423e58fecb68bfb13a7bc2`; audit `28559c46a3dfded35b2525a3b5e51fb6bc08d644`; registry `eb14d28afd00784b41cb000a9ae0080b85094ae7`.
 - Exact next queue: recompute live state and continue from the next stale canonical record after **Burst Charge**; do not promote legacy-only Burning Spin unless a deliberate catalog-ingestion task is selected.
+
+
+### 2026-09-23 cycle update — P1 Burning skill provenance refresh
+- Live census before editing: **455 canonical / 455 index / 0 duplicate IDs / 415 stale verification dates**.
+- Bounded batch: **Burning Attack, Burning Blast, Burning Shot, Burning Slash, Burning Swan**.
+- Research/evidence: rechecked dedicated Xenoverse 2 records plus maintained PQ reward evidence. Burning Attack/PQ41, Burning Blast/PQ180, Burning Shot/PQ143, Burning Slash/PQ44, and Burning Swan/PQ167 endpoints are corroborated. Burning Blast's existing 50% Ultimate Finish condition remains preserved despite the maintained reward guide's conflicting Basic Reward presentation.
+- Changes: refreshed last_verified to **2026-09-23** and synchronized provenance notes in both `docs/data/skills.json` and `docs/data/skills-index.json`; no acquisition tier, reward probability, mechanics, cost, restriction, or DLC semantics were changed.
+- Audit: added and registered `docs/data/skill-provenance-audit-2026-09-23-burning-through-burst.json`.
+- Validation: **455 canonical / 455 index / 0 duplicate IDs / 5 targets synchronized**; stale queue reduced to **410**; canonical/index target parity clean.
+- CI/runtime unavailable; no CI success claimed.
+- Commits: canonical `e2f22cd8f5d043dea022d310d8ecb78487e86d2b`; index `4bd2b8dd8029f41a8bbd512117d062b279ff9fd1`; audit `77fbf6a59b94bf6a452aaa769fa271b533ab2358`; registry `0b8832c46102a6bf96d5017de1ff5b023e3e969d`; changelog `b98ed18cac01589b0b7b9dc9d7dd7daabccc9aa2`.
+- Exact next batch: **Burst Blitz, Burst Kamehameha, Burst Reflection**; recompute the live stale queue first and continue from **Burst Blitz** onward. Do not repeat verified records.
