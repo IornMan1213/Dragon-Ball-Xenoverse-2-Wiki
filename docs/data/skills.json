@@ -576,7 +576,7 @@
       "mechanics_notes": "Summons a Barrier of Light/halo that fires red energy blades; holding the input increases the number of blades. Blades that hit terrain or surroundings can explode and damage nearby opponents, and firing after a knockaway can steer the blades toward the target. The canonical record retains the 300-Ki Ultimate cost and PQ112 Basic Reward route; exact hit counts, damage values, and drop probability remain unresolved.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Blades_of_Judgment",
@@ -608,7 +608,7 @@
       "mechanics_notes": "Dedicated current-version evidence confirms Blaster Ball as a 100–500 Ki Ki Blast Super from PQ125. Repeated input extends the barrage up to 13 total hits. No unsupported CaC race/gender/form restriction was inferred. Current evidence confirms CaC availability and no narrower CaC race/gender/form restriction is established; no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Blaster_Ball",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -644,7 +644,7 @@
       "mechanics_notes": "Launch a projectile that splits into additional blasts on contact or after time passes. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Blaster_Bomb",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -677,7 +677,7 @@
       "mechanics_notes": "Scatter a barrage of Ki blasts; closer-range hits deal more damage. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Blaster_Cannon",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -707,7 +707,7 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Broly mentor training",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Broly mentor training",
       "dlc_requirement": "Base Game",
