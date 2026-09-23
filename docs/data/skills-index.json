@@ -381,6 +381,26 @@
       "source_quest_or_shop": "Skill Shop (Conton City) after main-story completion"
     },
     {
+      "id": "skill-big-bang-attack",
+      "name": "Big Bang Attack",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "tp_medal_shop",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/big-bang-attack.md",
+        "https://dbxv2.fandom.com/wiki/Big_Bang_Attack"
+      ],
+      "unlock_method": "TP Medal Shop purchase; research corpus reports a 15 TP Medal regular-rotation purchase.",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-23",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-23 canonical promotion: existing repository research corroborates identity, Ki Blast classification, 100 Ki cost, Vegeta association, and TP Medal Shop acquisition. No shop rotation date or drop probability is asserted.",
+      "mechanics_notes": "The forming sphere can damage the target before launch and can absorb minor Ki Blasts. Current research preserves the documented charge/contact behavior while avoiding unsupported universal damage figures.",
+      "source_quest_or_shop": "TP Medal Shop"
+    },
+    {
       "id": "skill-big-bang-kamehameha",
       "name": "Big Bang Kamehameha",
       "class": "Super",
