@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-22",
+  "scope": "Super Soul records 232-236 provenance pass",
+  "source_of_truth": "docs/data/super-souls-record-layer.json",
+  "records": [
+    "super-soul-232",
+    "super-soul-233",
+    "super-soul-234",
+    "super-soul-235",
+    "super-soul-236"
+  ],
+  "evidence": [
+    "Maintained Steam PQ guide for PQ152-155 titles, DLC grouping, win conditions, and Basic Reward lists.",
+    "Repository canonical PQ reward relationship and normalized reward layers independently corroborate the exact-name Super Soul→PQ edges."
+  ],
+  "results": {
+    "records_refreshed": 5,
+    "dlc_provenance_refreshed": 5,
+    "basic_reward_placement_refreshed": 5,
+    "canonical_relationship_changes": 0,
+    "mechanics_inferred": 0
+  },
+  "unresolved": [
+    "Character source, trigger/effect, magnitude, duration, stacking, and Limit Burst remain unresolved for these five records because sufficient item-level evidence was not located in this cycle."
+  ],
+  "status": "audited"
+}
