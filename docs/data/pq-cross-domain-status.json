@@ -317,8 +317,8 @@
         "pq_set_mismatches": 0
       },
       "super_souls": {
-        "forward_edges": 151,
-        "reverse_endpoints": 148,
+        "forward_edges": 146,
+        "reverse_endpoints": 143,
         "missing_reverse_endpoints": 0,
         "orphan_reverse_endpoints": 0,
         "pq_set_mismatches": 0
@@ -399,8 +399,8 @@
       },
       "super_souls": {
         "report": "docs/data/pq-super-soul-crosslink-report.json",
-        "forward_edges": 151,
-        "reverse_endpoints": 148,
+        "forward_edges": 146,
+        "reverse_endpoints": 143,
         "duplicate_keys": 0,
         "invalid_pq": 0,
         "unresolved": 0,
@@ -474,7 +474,7 @@
     },
     "result": "no_deterministic_current_count_drift_found_in_audited_reconciliation_artifacts",
     "source_of_truth": "docs/data/pq-reward-relationships.json",
-    "current_total_edges": 859
+    "current_total_edges": 854
   },
   "relationship_PQ_coverage": {
     "covered_PQs": 186,
