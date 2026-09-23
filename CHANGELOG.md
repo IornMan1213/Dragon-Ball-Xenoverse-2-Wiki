@@ -2215,3 +2215,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - No canonical relationship, identity, gameplay, acquisition, or provenance claim was invented or changed.
 - Runtime/CI remains unavailable; no CI success claimed.
 - Exact next priority: continue published character/DLC presentation-index and generated-content navigation audits, then resume deterministic DLC content-domain reconciliation.
+
+
+### 2026-09-23 — Super Soul 036–047 secondary-field reconciliation
+- Reconciled DLC requirement and stacking fields across Super Souls 036–047.
+- Preserved free-update vs paid-DLC distinction and recorded stacking only to the evidence-supported “Not reported as stackable” state.
+- Added `docs/data/super-soul-036-through-047-secondary-field-reconciliation-2026-09-23.json` and registered it in the cross-domain index.
+- No acquisition route, gameplay mechanic, or numeric stack cap was inferred.
