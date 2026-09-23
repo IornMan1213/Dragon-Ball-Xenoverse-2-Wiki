@@ -19,8 +19,8 @@
       "status": "exact"
     },
     "super_souls": {
-      "canonical_edges": 151,
-      "record_edges": 151,
+      "canonical_edges": 146,
+      "record_edges": 146,
       "exact_missing": 0,
       "exact_extra": 0,
       "status": "exact"
@@ -75,5 +75,5 @@
     "super_soul_id_array_cardinality": "not globally equivalent to Super Soul reward count because IDs are partial/legacy enrichment fields",
     "provenance_preserved": true
   },
-  "next_action": "Resolve only documented equipment name/granularity conflicts through an explicit alias layer; do not collapse distinct canonical target strings."
+  "next_action": "Continue non-PQ consumer/navigation integrity auditing; the Super Soul projection is synchronized to the live 146-edge canonical relationship source. Resolve only documented equipment name/granularity conflicts through an explicit alias layer; do not collapse distinct canonical target strings."
 }
