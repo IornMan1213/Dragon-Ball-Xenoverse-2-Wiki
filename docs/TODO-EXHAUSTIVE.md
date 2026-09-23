@@ -4985,3 +4985,13 @@
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [x] Commits: validation `f202b61a6033d2155ba596286981a805b95ee046`; audit `d615a237d038ff4822891f335b1150f8f41eb648`; registration `a3bc8cebbf9a2944259cae1cab2f99326cfddeb2`; handoff `2069c1d8fca821c165939a2c2a249698956712db`.
 - **Exact next task:** continue the broader deterministic producer/consumer census beyond the PQ endpoint validator, prioritizing remaining current-state projections with superseded skill/character/domain counts; then return to source-backed preset-loadout reconciliation only where explicit loadout evidence exists.
+
+
+### 2026-09-23 cycle update — Skill stale-metadata census synchronization
+- [x] Found and repaired the stale **452** canonical-skill count in `docs/data/skill-stale-metadata-census-2026-09-22.json`.
+- [x] Synchronized the census to **465** live canonical skills (**191 stale / 274 current** verification-date records as of 2026-09-23).
+- [x] Preserved the evidence boundary and made no unsupported canonical skill-data changes.
+- [x] Validation: JSON reparsed; stale+current = 465.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [x] Commit: `79316983821a2171396c3aa14d3699787bc435d7`.
+- **Exact next task:** continue deterministic census of remaining superseded current-state counts, especially 854 historical/current-baseline consumers, then resume source-backed preset reconciliation.
