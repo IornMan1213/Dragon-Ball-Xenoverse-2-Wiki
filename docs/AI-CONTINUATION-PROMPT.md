@@ -5696,3 +5696,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: **455/455**, **0 duplicate IDs**, target parity **clean**, stale queue **380**.
 - CI/runtime: no successful status exposed; no CI success claimed.
 - Exact next batch: **Darkness Eye Beam, Darkness Rush (Melee), Darkness Rush (Ranged), Darkness Twin Star, Data Input, Dead End Rain, Deadly Dance, Death Ball, Death Beam, Death Crasher**.
+
+### 2026-09-23 cycle update — P1 Darkness-through-Data-Input skill enrichment
+- Completed **Darkness Eye Beam, Darkness Rush (Melee), Darkness Rush (Ranged), Darkness Twin Star, and Data Input** as the next bounded skill-provenance/mechanics batch.
+- Added independent/direct sources where they materially strengthened provenance; expanded mechanics notes only from cited dedicated skill evidence.
+- Preserved all existing acquisition, reward-tier, Ultimate Finish, race, cost, and DLC evidence boundaries. Data Input's Extra Pack 1 vs Free Update 5 presentation conflict remains explicit.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-23-darkness-through-data-input.json`.
+- Validation target: **455 canonical / 455 index / 0 duplicate IDs**; changed target source/date parity clean.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next action: recompute the live stale queue after this batch and continue from the next stale canonical records after **Data Input**; do not repeat these five records or promote legacy-only records without a deliberate catalog-ingestion task.
