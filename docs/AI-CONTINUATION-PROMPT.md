@@ -6158,3 +6158,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Added `docs/data/expert-mission-endpoint-audit-2026-09-23.json`; structural validation passes.
 - Unresolved Expert Mission rewards were deliberately not assigned guessed skill IDs. This converts a hidden data gap into an auditable cross-link target.
 - **Exact next task:** promote/reconcile the 10 unresolved Expert Mission skill identities against the repository's research batches, then build the Tokipedia and Conton City Patrol endpoint consumers.
+
+
+### 2026-09-23 cycle update — Expert Mission canonical promotion/reconciliation
+- Promoted the 10 previously unresolved Expert Mission reward identities into `docs/data/skills.json`, increasing the canonical skill layer from 455 to **465 records**.
+- Reconciled the dedicated Expert Mission endpoint layer to **18 EM03–EM20 endpoints / 18 canonical skill edges / 0 unresolved reward-name gaps**.
+- Added explicit acquisition metadata while preserving unresolved exact drop rates and guarantee conditions; no per-clear guarantee was inferred.
+- Updated `docs/data/expert-mission-endpoint-audit-2026-09-23.json` and the cross-link contract.
+- **Exact next task:** inspect and build/reconcile the **mentor endpoint layer**, then address **Tokipedia and Conton City Patrol endpoint consumers/cross-links**.
