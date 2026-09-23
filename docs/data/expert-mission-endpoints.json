@@ -10,14 +10,14 @@
       "type": "expert_mission",
       "expert_mission": 3,
       "mission_title": "Assault of the Great Ape",
-      "skills": [],
+      "skills": [
+        "skill-murder-grenade"
+      ],
       "reward_names": [
         "Murder Grenade"
       ],
       "status": "partially_verified",
-      "notes": [
-        "Reward is indexed by name but has no matching canonical skills.json record; retained as an unresolved producer→consumer gap rather than assigning a guessed ID."
-      ]
+      "notes": []
     },
     {
       "id": "em-04",
@@ -38,14 +38,14 @@
       "type": "expert_mission",
       "expert_mission": 5,
       "mission_title": "The Galactic Tyrant",
-      "skills": [],
+      "skills": [
+        "skill-death-wave"
+      ],
       "reward_names": [
         "Death Wave"
       ],
       "status": "partially_verified",
-      "notes": [
-        "Reward is indexed by name but has no matching canonical skills.json record; retained as an unresolved producer→consumer gap rather than assigning a guessed ID."
-      ]
+      "notes": []
     },
     {
       "id": "em-06",
@@ -66,70 +66,70 @@
       "type": "expert_mission",
       "expert_mission": 7,
       "mission_title": "The Big Gete Star Strikes Back",
-      "skills": [],
+      "skills": [
+        "skill-death-meteor"
+      ],
       "reward_names": [
         "Death Meteor"
       ],
       "status": "partially_verified",
-      "notes": [
-        "Reward is indexed by name but has no matching canonical skills.json record; retained as an unresolved producer→consumer gap rather than assigning a guessed ID."
-      ]
+      "notes": []
     },
     {
       "id": "em-08",
       "type": "expert_mission",
       "expert_mission": 8,
       "mission_title": "Ominous Androids",
-      "skills": [],
+      "skills": [
+        "skill-dead-end-bullet"
+      ],
       "reward_names": [
         "Dead End Bullet"
       ],
       "status": "partially_verified",
-      "notes": [
-        "Reward is indexed by name but has no matching canonical skills.json record; retained as an unresolved producer→consumer gap rather than assigning a guessed ID."
-      ]
+      "notes": []
     },
     {
       "id": "em-09",
       "type": "expert_mission",
       "expert_mission": 9,
       "mission_title": "The Most Feared Majin",
-      "skills": [],
+      "skills": [
+        "skill-assault-rain"
+      ],
       "reward_names": [
         "Assault Rain"
       ],
       "status": "partially_verified",
-      "notes": [
-        "Reward is indexed by name but has no matching canonical skills.json record; retained as an unresolved producer→consumer gap rather than assigning a guessed ID."
-      ]
+      "notes": []
     },
     {
       "id": "em-10",
       "type": "expert_mission",
       "expert_mission": 10,
       "mission_title": "The Emperor's Worth",
-      "skills": [],
+      "skills": [
+        "skill-hellzone-grenade"
+      ],
       "reward_names": [
         "Hellzone Grenade"
       ],
       "status": "partially_verified",
-      "notes": [
-        "Reward is indexed by name but has no matching canonical skills.json record; retained as an unresolved producer→consumer gap rather than assigning a guessed ID."
-      ]
+      "notes": []
     },
     {
       "id": "em-11",
       "type": "expert_mission",
       "expert_mission": 11,
       "mission_title": "The Devil Born from the Dragon Balls",
-      "skills": [],
+      "skills": [
+        "skill-super-electric-strike"
+      ],
       "reward_names": [
         "Super Electric Strike"
       ],
       "status": "partially_verified",
-      "notes": [
-        "Reward is indexed by name but has no matching canonical skills.json record; retained as an unresolved producer→consumer gap rather than assigning a guessed ID."
-      ]
+      "notes": []
     },
     {
       "id": "em-12",
@@ -164,28 +164,28 @@
       "type": "expert_mission",
       "expert_mission": 14,
       "mission_title": "Huge Blasts for Huge Apes!",
-      "skills": [],
+      "skills": [
+        "skill-shocking-death-ball"
+      ],
       "reward_names": [
         "Shocking Death Ball"
       ],
       "status": "partially_verified",
-      "notes": [
-        "Reward is indexed by name but has no matching canonical skills.json record; retained as an unresolved producer→consumer gap rather than assigning a guessed ID."
-      ]
+      "notes": []
     },
     {
       "id": "em-15",
       "type": "expert_mission",
       "expert_mission": 15,
       "mission_title": "Extreme Malice!",
-      "skills": [],
+      "skills": [
+        "skill-blue-hurricane"
+      ],
       "reward_names": [
         "Blue Hurricane"
       ],
       "status": "partially_verified",
-      "notes": [
-        "Reward is indexed by name but has no matching canonical skills.json record; retained as an unresolved producer→consumer gap rather than assigning a guessed ID."
-      ]
+      "notes": []
     },
     {
       "id": "em-16",
@@ -206,14 +206,14 @@
       "type": "expert_mission",
       "expert_mission": 17,
       "mission_title": null,
-      "skills": [],
+      "skills": [
+        "skill-spirit-sword"
+      ],
       "reward_names": [
         "Spirit Sword"
       ],
       "status": "partially_verified",
-      "notes": [
-        "Reward is indexed by name but has no matching canonical skills.json record; retained as an unresolved producer→consumer gap rather than assigning a guessed ID."
-      ]
+      "notes": []
     },
     {
       "id": "em-18",
@@ -260,12 +260,40 @@
   ],
   "forward_edges": [
     {
+      "endpoint_id": "em-03",
+      "skill_id": "skill-murder-grenade"
+    },
+    {
       "endpoint_id": "em-04",
       "skill_id": "skill-super-destructo-disc"
     },
     {
+      "endpoint_id": "em-05",
+      "skill_id": "skill-death-wave"
+    },
+    {
       "endpoint_id": "em-06",
       "skill_id": "skill-supernova"
+    },
+    {
+      "endpoint_id": "em-07",
+      "skill_id": "skill-death-meteor"
+    },
+    {
+      "endpoint_id": "em-08",
+      "skill_id": "skill-dead-end-bullet"
+    },
+    {
+      "endpoint_id": "em-09",
+      "skill_id": "skill-assault-rain"
+    },
+    {
+      "endpoint_id": "em-10",
+      "skill_id": "skill-hellzone-grenade"
+    },
+    {
+      "endpoint_id": "em-11",
+      "skill_id": "skill-super-electric-strike"
     },
     {
       "endpoint_id": "em-12",
@@ -276,8 +304,20 @@
       "skill_id": "skill-dead-end-rain"
     },
     {
+      "endpoint_id": "em-14",
+      "skill_id": "skill-shocking-death-ball"
+    },
+    {
+      "endpoint_id": "em-15",
+      "skill_id": "skill-blue-hurricane"
+    },
+    {
       "endpoint_id": "em-16",
       "skill_id": "skill-super-spirit-bomb"
+    },
+    {
+      "endpoint_id": "em-17",
+      "skill_id": "skill-spirit-sword"
     },
     {
       "endpoint_id": "em-18",
@@ -294,12 +334,40 @@
   ],
   "reverse_index": [
     {
+      "skill_id": "skill-murder-grenade",
+      "endpoint_id": "em-03"
+    },
+    {
       "skill_id": "skill-super-destructo-disc",
       "endpoint_id": "em-04"
     },
     {
+      "skill_id": "skill-death-wave",
+      "endpoint_id": "em-05"
+    },
+    {
       "skill_id": "skill-supernova",
       "endpoint_id": "em-06"
+    },
+    {
+      "skill_id": "skill-death-meteor",
+      "endpoint_id": "em-07"
+    },
+    {
+      "skill_id": "skill-dead-end-bullet",
+      "endpoint_id": "em-08"
+    },
+    {
+      "skill_id": "skill-assault-rain",
+      "endpoint_id": "em-09"
+    },
+    {
+      "skill_id": "skill-hellzone-grenade",
+      "endpoint_id": "em-10"
+    },
+    {
+      "skill_id": "skill-super-electric-strike",
+      "endpoint_id": "em-11"
     },
     {
       "skill_id": "skill-angry-explosion",
@@ -310,8 +378,20 @@
       "endpoint_id": "em-13"
     },
     {
+      "skill_id": "skill-shocking-death-ball",
+      "endpoint_id": "em-14"
+    },
+    {
+      "skill_id": "skill-blue-hurricane",
+      "endpoint_id": "em-15"
+    },
+    {
       "skill_id": "skill-super-spirit-bomb",
       "endpoint_id": "em-16"
+    },
+    {
+      "skill_id": "skill-spirit-sword",
+      "endpoint_id": "em-17"
     },
     {
       "skill_id": "skill-focus-flash",
@@ -328,51 +408,10 @@
   ],
   "coverage": {
     "mission_endpoints": 18,
-    "canonical_skill_edges": 8,
-    "unresolved_reward_names": 10,
-    "resolved_mission_endpoints": 8,
-    "unresolved": [
-      {
-        "endpoint_id": "em-03",
-        "skill_name": "Murder Grenade"
-      },
-      {
-        "endpoint_id": "em-05",
-        "skill_name": "Death Wave"
-      },
-      {
-        "endpoint_id": "em-07",
-        "skill_name": "Death Meteor"
-      },
-      {
-        "endpoint_id": "em-08",
-        "skill_name": "Dead End Bullet"
-      },
-      {
-        "endpoint_id": "em-09",
-        "skill_name": "Assault Rain"
-      },
-      {
-        "endpoint_id": "em-10",
-        "skill_name": "Hellzone Grenade"
-      },
-      {
-        "endpoint_id": "em-11",
-        "skill_name": "Super Electric Strike"
-      },
-      {
-        "endpoint_id": "em-14",
-        "skill_name": "Shocking Death Ball"
-      },
-      {
-        "endpoint_id": "em-15",
-        "skill_name": "Blue Hurricane"
-      },
-      {
-        "endpoint_id": "em-17",
-        "skill_name": "Spirit Sword"
-      }
-    ]
+    "canonical_skill_edges": 18,
+    "unresolved_reward_names": 0,
+    "resolved_mission_endpoints": 18,
+    "unresolved": []
   },
   "nonclaims": [
     "Listed skill rewards are not treated as guaranteed per clear.",
