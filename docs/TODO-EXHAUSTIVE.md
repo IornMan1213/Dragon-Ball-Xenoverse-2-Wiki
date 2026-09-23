@@ -2796,3 +2796,8 @@
 - [x] Live canonical Super Soul layer: **234 records / 0 duplicate IDs**.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Next priority: recompute the live strict-thin census and select the next **4–12 highest-impact evidence-supported partially-verified records** with genuinely unresolved applicable fields. Preserve unresolved identity/evidence boundaries and do not manufacture values.
+
+### 2026-09-22 cycle close — live Super Soul thin queue
+- [x] Recomputed the live canonical Super Soul census: **234 records / 0 duplicate IDs / 182 strict-thin records** under the eight-field definition.
+- [x] Selected the next evidence-supported queue from the live layer: **054** (4 missing fields), **034** (3; evidence boundary), **157**, **159**, **163**, **164** (2 each).
+- [ ] Next: investigate **054** Limit Burst first; if evidence remains insufficient, preserve it and continue with **157/159/163/164**. Do not force 034 mechanics without exact-name evidence.
