@@ -4099,3 +4099,11 @@
 - Added/registered the new provenance audit and updated `CHANGELOG.md`.
 - Validation target: **455 canonical / 455 index / 0 duplicate IDs / 5 targets synchronized**. No CI success claimed.
 - Exact next action: recompute live stale state and continue with the next stale records after **Core Breaker**; do not repeat this batch.
+
+### 2026-09-23 — TODO completion update — P1 Core-through-Critical skill provenance batch
+- [x] Completed **Counter Burst, Counter Impact, Crazy Finger Shot, Crimson Edge, Critical Upper** provenance refresh.
+- [x] Synchronized canonical/index verification dates to **2026-09-23** and preserved existing evidence boundaries.
+- [x] Added and registered **docs/data/skill-provenance-audit-2026-09-23-core-through-critical-upper.json** and **docs/data/skill-stale-metadata-census-2026-09-23-core-through-critical-upper.json**.
+- [x] Validation: **455 canonical / 455 index / 0 duplicate IDs / 400 stale**; target parity clean.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next batch: recompute the live stale queue and continue with **Burst Blitz, Burst Kamehameha, Burst Reflection, Burst Rush, Burst Stinger, Change The Future, Chaos Shot, Chaos Wall, Chaotic Time Impact, Charge**.
