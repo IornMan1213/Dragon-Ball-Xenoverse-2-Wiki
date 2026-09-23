@@ -6284,10 +6284,10 @@
     "duplicate_relationship_keys": 0,
     "notes": [
       "Two duplicate PQ185/PQ186 Future Saga Chapter 4 relationship entries were merged because the schema defines one relationship key per PQ/relationship/target; the retained official source is supplemented by a notes field containing the corroborating Steam source.",
-      "Historical 862/860-edge counts remain preserved in dated audit/history sections; current relationship arrays and current derived counts use the unique 859-edge baseline."
+      "Historical 862/860/859-edge counts remain preserved in dated audit/history sections; current relationship arrays and current derived counts use the unique 854-edge baseline."
     ],
     "live_super_soul_forward": 146,
     "live_super_soul_reverse": 143,
-    "note": "Correction on 2026-09-23: the live verified_relationships array contains 146 pq_rewards_super_soul edges / 143 reverse targets. Other derived/consumer audits declare 151/148, creating an unresolved source/projection discrepancy. Do not treat 151 as canonical until the five-edge delta is identified and validated."
+    "note": "Correction on 2026-09-23: the live verified_relationships array contains 146 pq_rewards_super_soul edges / 143 reverse targets. The prior five-edge source/projection discrepancy was resolved on 2026-09-23 by removing the misidentified indexed-only Super Soul 232-236 relationships. Current canonical state is authoritative at 146 forward edges / 143 reverse targets."
   }
 }
