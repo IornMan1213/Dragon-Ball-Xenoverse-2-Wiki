@@ -2693,3 +2693,11 @@
 - [x] Validation: 234 canonical records / 0 duplicate IDs; all 9 selected records researched with required core mechanics populated.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Next: recompute the live indexed/thin census and continue the next 4–12 highest-impact unresolved PQ-linked records using exact-name evidence and reusable cross-domain links; do not guess unsupported mechanics or overwrite unresolved identities.
+
+### 2026-09-22 cycle update — Super Soul 229–231 and 237–239 mechanics/status refresh
+- [x] Upgraded Super Soul 229–231 and 237–239 from indexed to researched using exact-name mechanics evidence.
+- [x] Preserved PQ relationships: 229→PQ143, 230→PQ145, 231→PQ151, 237→PQ158, 238→PQ178, 239→PQ021.
+- [x] Added and registered super-soul-229-231-237-239-mechanics-audit-2026-09-22.json.
+- [x] Validation: 234 canonical records / 0 duplicate IDs; all six selected records have populated core mechanics and provenance.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Next: recompute the live census and continue the next 4–12 highest-impact unresolved PQ-linked records; 232–236 remain a high-value cluster but must not be populated from weak or mismatched name evidence.
