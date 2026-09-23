@@ -3901,3 +3901,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] A fresh AI should understand both layers immediately: **(1) the complete long-term objective and operating rules, and (2) the current exact unfinished work/state**, without requiring the user to explain prior chats or reread every dated prompt individually.
 - [x] Cross-domain completion remains project-wide: databases should be linkable and reverse-navigable where evidence supports relationships; unresolved identities, conflicts, and granularity differences must be explicitly recorded rather than guessed.
 - [x] Every completed cycle must advance the exact resume checkpoint and append the new state to this canonical handoff so the next fresh chat inherits the latest project state.
+
+
+### 2026-09-22 cycle update — Super Soul 154–157 and 159–163 provenance/mechanics refresh
+- [x] Live census before editing: 234 canonical Super Soul records / 151 canonical PQ→Super Soul edges / 148 unique reverse targets / 0 unresolved endpoints; 88 indexed-status records.
+- [x] Bounded batch: super-soul-154 through 157 and 159 through 163. Record 158 was intentionally held because its exact name overlaps the Do or Die skill and retrieved evidence did not cleanly isolate a Super Soul-specific mechanic set.
+- [x] Refreshed 9 canonical records with exact-name character sources, trigger/effect/magnitude data, supported durations, Limit Burst data, provenance, and last_verified 2026-09-22.
+- [x] Added docs/data/super-soul-154-157-and-159-through-163-provenance-audit-2026-09-22.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Canonical PQ relationship identities were unchanged; selected endpoints remain navigable through the existing reverse relationship layer.
+- [x] Evidence limits preserved: no reward probabilities or unsupported Ultimate-Finish conditions; no duration/stacking values were invented; record 158 remains explicitly unresolved rather than conflating skill and Super Soul mechanics.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Exact next batch: recompute the full live Super Soul thin-system census, then select the next 4–12 highest-impact canonical gaps with strong exact-name evidence and/or reusable PQ cross-links.
