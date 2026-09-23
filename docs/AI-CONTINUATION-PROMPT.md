@@ -4733,3 +4733,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Updated `last_verified` and canonical source provenance.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Remaining strict-thin queue remains **032, 034, 158, 217, 232–236**. 217 is now an explicit evidence-boundary result; next work should move to 034 or the indexed 232–236 records only when item-level evidence can be obtained.
+
+
+### 2026-09-23 cycle update — Super Soul 232–236 indexed identity-conflict audit
+- [x] Live state at cycle start: **234 canonical / 0 duplicate IDs / 9 strict-thin records**; remaining queue is **032, 034, 158, 217, 232–236**.
+- [x] Investigated the indexed-only **Super Soul 232–236** cluster as the next evidence-boundary workstream.
+- [x] Research/evidence: the current Steam all-PQ guide explicitly lists PQ152's Super Soul reward as **"I will put a stop to you, fiend!"** and PQ153's listed Souls as **"You're not much of a fun fight!"** and **"There's more where that came from!"**; it does not corroborate the repository's indexed-only exact-name 232–236 PQ152–155 edges. The maintained Xenoverse 2 Super Soul catalogue independently uses numeric list positions **232–236** for different raid/online-event Souls: **"You fool! Why are you laughing?", "Buu's reached full power!", "Not on my watch!", "Over here, you idiot...", and "Bye-bye, universe!"**. This establishes an identity conflict rather than mechanics evidence.
+- [x] Preserved the repository relationships rather than deleting or silently remapping them; added an explicit evidence-conflict boundary to `docs/data/pq-super-soul-crosslink-report.json`.
+- [x] Updated `docs/data/super-soul-232-through-236-provenance-audit-2026-09-22.json` with the conflict, current evidence, and the rule that mechanics/character provenance must not be promoted across the unresolved identity boundary.
+- [x] No mechanics, duration, stacking, Limit Burst, character source, drop probability, or canonical relationship was invented or changed.
+- [x] Validation: both changed JSON artifacts were parsed before write; the crosslink report retains all existing 232–236 edges and records the new evidence-boundary metadata; no strict-thin count reduction is claimed because the conflict does not establish item-level mechanics.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [x] Commits: audit `5d7edf87c502a94dac7b535530d508036e21ba57`; crosslink report `6ac41e7716acf3050df63509a58cace50ccf3be5`.
+- [ ] Exact next batch: continue the remaining strict-thin queue with **Super Soul 034** only if stronger item-level evidence can distinguish it from title-only/PQ provenance; otherwise move to **Super Souls 232–236 identity resolution** using item-level identifiers/game-data evidence rather than numeric list position, while keeping **032, 158, and 217** as explicit evidence boundaries. Do not infer mechanics from name/PQ collisions.
