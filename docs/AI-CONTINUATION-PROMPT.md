@@ -4253,3 +4253,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] The existing docs/data/super-soul-thin-census-2026-09-22.json remains the prior checkpoint artifact; an attempted direct refresh was blocked by the repository write safety layer, so its older notes were not overwritten.
 - [ ] CI/runtime: no successful workflow/check exposed; do not claim CI success.
 - [ ] Exact next batch: **Super Soul 054** if stronger Limit Burst evidence can be independently established; otherwise skip without fabrication and move to **157/159/163/164**. Keep **034** evidence-bound unless exact-name item-level mechanics evidence improves.
+
+### 2026-09-22 — Super Soul 054 reconciliation
+- [x] Reconciled **054 — “Leave my daddy alone!”** with independent raid evidence.
+- [x] Populated the documented **3-second** Strike Skill boost duration and **ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.** Limit Burst.
+- [x] Promoted 054 to `verified_secondary`; preserved the description-vs-game-data percentage discrepancy and did not infer stacking, reward probability, or Ultimate-Finish requirements.
+- [x] Added and registered `docs/data/super-soul-054-reconciliation-2026-09-22.json`.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Next priority: continue with **157, 159, 163, and 164**; keep **034** evidence-bound unless exact-name item-level mechanics evidence improves.
