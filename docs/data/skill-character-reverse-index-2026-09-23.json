@@ -48,7 +48,8 @@
       "canonical_character_name": "Frieza (1st Form)",
       "skill_ids": [
         "skill-crazy-finger-shot",
-        "skill-death-slash"
+        "skill-death-slash",
+        "skill-spread-shot-retreat"
       ]
     },
     {
@@ -194,12 +195,24 @@
       "skill_ids": [
         "skill-requiem-of-destruction"
       ]
+    },
+    {
+      "canonical_character_name": "Jeice",
+      "skill_ids": [
+        "skill-sauzer-blade"
+      ]
+    },
+    {
+      "canonical_character_name": "Cooler (Final Form)",
+      "skill_ids": [
+        "skill-spirit-explosion"
+      ]
     }
   ],
   "counts": {
-    "resolved_skill_records": 29,
-    "resolved_canonical_skill_edges": 40,
-    "canonical_character_targets": 30
+    "resolved_skill_records": 32,
+    "resolved_canonical_skill_edges": 43,
+    "canonical_character_targets": 32
   },
   "evidence_boundary": "This reverse projection contains only resolved identity edges. It does not infer every character that can equip a skill, every customize-partner route, or generic Future Warrior/CaC availability."
 }
