@@ -2235,3 +2235,9 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Corrected the DLC presentation validator to consume the live `records[].dlc_id` reverse-index schema.
 - Added explicit canonical DLC reverse-navigation coverage reporting: **20/20** targets currently represented.
 - Recorded the repair in the DLC presentation consumer audit; no canonical relationship data changed.
+
+
+### 2026-09-23 — DLC pack record-link integrity repair
+- Corrected seven malformed equipment pq_sources identifiers for PQ159–162 and PQ179–181.
+- Recorded the repair in the DLC content-link audit; no new relationship edges were created.
+- Non-PQ DAIMA/HERO OF JUSTICE Pack 2 inventory remains explicitly unresolved.
