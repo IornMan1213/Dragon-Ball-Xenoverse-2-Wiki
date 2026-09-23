@@ -1,0 +1,295 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-23",
+  "game": "Dragon Ball Xenoverse 2",
+  "status": "canonical_skill_shop_endpoint_layer",
+  "purpose": "Stable canonical shop endpoints for skill acquisition navigation. Primary acquisition edges are derived only from canonical skill acquisition_type and source_quest_or_shop fields; alternate routes remain in skill provenance and are not silently promoted to new endpoints.",
+  "endpoint_policy": {
+    "skill_shop": {
+      "id": "shop-skill",
+      "name": "Skill Shop",
+      "location": "Conton City",
+      "currency": "Zeni",
+      "source_semantics": "Canonical Skill Shop acquisition endpoint."
+    },
+    "tp_stp_medal_shop": {
+      "id": "shop-tp-stp-medal",
+      "name": "TP / STP Medal Shop",
+      "location": "Conton City",
+      "currency": "TP/STP Medals",
+      "source_semantics": "Canonical TP/STP Medal Shop acquisition endpoint. Historical rotation/price evidence does not imply current availability."
+    }
+  },
+  "endpoints": [
+    {
+      "id": "shop-skill",
+      "type": "skill_shop",
+      "name": "Skill Shop",
+      "skill_count": 12
+    },
+    {
+      "id": "shop-tp-stp-medal",
+      "type": "tp_stp_medal_shop",
+      "name": "TP / STP Medal Shop",
+      "skill_count": 11
+    }
+  ],
+  "forward_edges": [
+    {
+      "endpoint_id": "shop-skill",
+      "skill_id": "skill-bending-kamehameha",
+      "skill_name": "Bending Kamehameha",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop (Conton City) after main-story completion",
+      "last_verified": "2026-09-23",
+      "source_count": 5
+    },
+    {
+      "endpoint_id": "shop-tp-stp-medal",
+      "skill_id": "skill-big-bang-attack",
+      "skill_name": "Big Bang Attack",
+      "acquisition_type": "tp_medal_shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "last_verified": "2026-09-23",
+      "source_count": 3
+    },
+    {
+      "endpoint_id": "shop-tp-stp-medal",
+      "skill_id": "skill-big-bang-kamehameha",
+      "skill_name": "Big Bang Kamehameha",
+      "acquisition_type": "tp_medal_shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "last_verified": "2026-09-23",
+      "source_count": 4
+    },
+    {
+      "endpoint_id": "shop-tp-stp-medal",
+      "skill_id": "skill-divine-kamehameha",
+      "skill_name": "Divine Kamehameha",
+      "acquisition_type": "tp_medal_shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "last_verified": "2026-09-23",
+      "source_count": 4
+    },
+    {
+      "endpoint_id": "shop-tp-stp-medal",
+      "skill_id": "skill-divine-lasso",
+      "skill_name": "Divine Lasso",
+      "acquisition_type": "tp_medal_shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "last_verified": "2026-09-23",
+      "source_count": 3
+    },
+    {
+      "endpoint_id": "shop-tp-stp-medal",
+      "skill_id": "skill-dragon-fist",
+      "skill_name": "Dragon Fist",
+      "acquisition_type": "tp_medal_shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "last_verified": "2026-09-23",
+      "source_count": 4
+    },
+    {
+      "endpoint_id": "shop-tp-stp-medal",
+      "skill_id": "skill-emperor-s-death-beam",
+      "skill_name": "Emperor's Death Beam",
+      "acquisition_type": "tp_medal_shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "last_verified": "2026-09-23",
+      "source_count": 5
+    },
+    {
+      "endpoint_id": "shop-skill",
+      "skill_id": "skill-explosive-wave",
+      "skill_name": "Explosive Wave",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop (Conton City) after main-story completion",
+      "last_verified": "2026-09-23",
+      "source_count": 3
+    },
+    {
+      "endpoint_id": "shop-skill",
+      "skill_id": "skill-fighting-pose-k",
+      "skill_name": "Fighting Pose K",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop after The Ginyu Force Strikes",
+      "last_verified": "2026-09-23",
+      "source_count": 3
+    },
+    {
+      "endpoint_id": "shop-tp-stp-medal",
+      "skill_id": "skill-final-explosion",
+      "skill_name": "Final Explosion",
+      "acquisition_type": "tp_medal_shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "last_verified": "2026-09-23",
+      "source_count": 3
+    },
+    {
+      "endpoint_id": "shop-tp-stp-medal",
+      "skill_id": "skill-godly-display",
+      "skill_name": "Godly Display",
+      "acquisition_type": "tp_medal_shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "last_verified": "2026-09-23",
+      "source_count": 4
+    },
+    {
+      "endpoint_id": "shop-tp-stp-medal",
+      "skill_id": "skill-namek-finger",
+      "skill_name": "Namek Finger",
+      "acquisition_type": "tp_medal_shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "last_verified": "2026-09-23",
+      "source_count": 4
+    },
+    {
+      "endpoint_id": "shop-skill",
+      "skill_id": "skill-power-pole-combo",
+      "skill_name": "Power Pole Combo",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop",
+      "last_verified": "2026-09-23",
+      "source_count": 2
+    },
+    {
+      "endpoint_id": "shop-skill",
+      "skill_id": "skill-pressure-sign",
+      "skill_name": "Pressure Sign",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop (Conton City)",
+      "last_verified": "2026-09-23",
+      "source_count": 3
+    },
+    {
+      "endpoint_id": "shop-skill",
+      "skill_id": "skill-punisher-guard",
+      "skill_name": "Punisher Guard",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop after completing A Momentous Galactic Battle",
+      "last_verified": "2026-09-23",
+      "source_count": 3
+    },
+    {
+      "endpoint_id": "shop-skill",
+      "skill_id": "skill-quick-sleep",
+      "skill_name": "Quick Sleep",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop after defeating Mira (Final Form) in the main story",
+      "last_verified": "2026-09-23",
+      "source_count": 3
+    },
+    {
+      "endpoint_id": "shop-skill",
+      "skill_id": "skill-reverse-mabakusenko",
+      "skill_name": "Reverse Mabakusenko",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop",
+      "last_verified": "2026-09-23",
+      "source_count": 3
+    },
+    {
+      "endpoint_id": "shop-tp-stp-medal",
+      "skill_id": "skill-soaring-fist",
+      "skill_name": "Soaring Fist",
+      "acquisition_type": "tp_medal_shop",
+      "source_quest_or_shop": "TP Medal Shop / STP Medal Shop",
+      "last_verified": "2026-09-23",
+      "source_count": 3
+    },
+    {
+      "endpoint_id": "shop-skill",
+      "skill_id": "skill-spirit-boost",
+      "skill_name": "Spirit Boost",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop",
+      "last_verified": "2026-09-23",
+      "source_count": 3
+    },
+    {
+      "endpoint_id": "shop-tp-stp-medal",
+      "skill_id": "skill-sudden-death-beam",
+      "skill_name": "Sudden Death Beam",
+      "acquisition_type": "tp_medal_shop",
+      "source_quest_or_shop": "TP Medal Shop / STP Medal Shop / Double Crystal Raid",
+      "last_verified": "2026-09-23",
+      "source_count": 4
+    },
+    {
+      "endpoint_id": "shop-skill",
+      "skill_id": "skill-super-afterimage",
+      "skill_name": "Super Afterimage",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop (Conton City)",
+      "last_verified": "2026-09-23",
+      "source_count": 4
+    },
+    {
+      "endpoint_id": "shop-skill",
+      "skill_id": "skill-super-god-shock-flash",
+      "skill_name": "Super God Shock Flash",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop",
+      "last_verified": "2026-09-23",
+      "source_count": 3
+    },
+    {
+      "endpoint_id": "shop-skill",
+      "skill_id": "skill-time-bullet",
+      "skill_name": "Time Bullet",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop (Conton City) after defeating Kid Buu in the main story",
+      "last_verified": "2026-09-23",
+      "source_count": 3
+    }
+  ],
+  "reverse_index": [
+    {
+      "endpoint_id": "shop-skill",
+      "skill_ids": [
+        "skill-bending-kamehameha",
+        "skill-explosive-wave",
+        "skill-fighting-pose-k",
+        "skill-power-pole-combo",
+        "skill-pressure-sign",
+        "skill-punisher-guard",
+        "skill-quick-sleep",
+        "skill-reverse-mabakusenko",
+        "skill-spirit-boost",
+        "skill-super-afterimage",
+        "skill-super-god-shock-flash",
+        "skill-time-bullet"
+      ]
+    },
+    {
+      "endpoint_id": "shop-tp-stp-medal",
+      "skill_ids": [
+        "skill-big-bang-attack",
+        "skill-big-bang-kamehameha",
+        "skill-divine-kamehameha",
+        "skill-divine-lasso",
+        "skill-dragon-fist",
+        "skill-emperor-s-death-beam",
+        "skill-final-explosion",
+        "skill-godly-display",
+        "skill-namek-finger",
+        "skill-soaring-fist",
+        "skill-sudden-death-beam"
+      ]
+    }
+  ],
+  "coverage": {
+    "canonical_skill_count": 455,
+    "skill_shop_skills": 12,
+    "tp_stp_medal_shop_skills": 11,
+    "total_shop_linked_skills": 23,
+    "duplicate_skill_ids": false,
+    "unresolved_skill_ids": []
+  },
+  "nonclaims": [
+    "A shop endpoint does not establish current rotation availability.",
+    "A historical price does not establish a current price.",
+    "Alternate acquisition routes in notes/sources are not converted into additional canonical shop/event edges without their own endpoint layer.",
+    "The endpoint layer does not infer drop rates, first-clear guarantees, or progression gates beyond the canonical skill record."
+  ]
+}
