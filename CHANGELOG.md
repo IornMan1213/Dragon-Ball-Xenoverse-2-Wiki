@@ -2594,3 +2594,13 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Validation: 455 canonical / 455 index / 0 duplicate IDs / 256 stale; target canonical/index parity clean.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next batch: Genocide Shell, Giant Storm, Gigantic Breaker, Gigantic Burst, Gigantic Charge, Gigantic Cluster, Gigantic Cross, Gigantic Explosion, Gigantic Meteor, Gigantic Nova, Gigantic Omega, Gigantic Rage.
+
+
+### 2026-09-23 — P1 Genocide-through-Gigantic Rage skill provenance/mechanics refresh
+- Completed 12 skills: Genocide Shell, Giant Storm, Gigantic Breaker, Gigantic Burst, Gigantic Charge, Gigantic Cluster, Gigantic Cross, Gigantic Explosion, Gigantic Meteor, Gigantic Nova, Gigantic Omega, Gigantic Rage.
+- Refreshed canonical/index last_verified to 2026-09-23 and expanded bounded mechanics/provenance notes while preserving existing acquisition semantics, conflicts, and nulls.
+- Added/registered docs/data/skill-provenance-audit-2026-09-23-genocide-through-gigantic-rage.json.
+- Validation: 455 canonical / 455 index / 0 duplicate IDs / 244 stale; target parity clean.
+- Research included repository exact-name sources plus independent/current corroboration; no unsupported drop probability, damage number, or CaC restriction was inferred.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next batch: Gigantic Roar, God Breaker, God of Destruction's Anger, God of Destruction's Menace, God of Destruction's Might, God of Destruction's Plaything, God of Destruction's Poise, God of Destruction's Rampage, God of Destruction's Roar, God of Destruction's Wrath, God Punisher, God Splitter.
