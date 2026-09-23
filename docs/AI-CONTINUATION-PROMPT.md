@@ -2881,3 +2881,16 @@
 - [ ] Live census after edit: 234 records; 88 indexed-status records; 139 records missing at least one core mechanic field.
 - [ ] Exact next batch: continue the thin census using the next contiguous high-value records with PQ links, especially records **034 and 036–039**, while preserving evidence boundaries.
 
+
+
+### 2026-09-22 cycle update — Super Soul 034 and 036–039 provenance/mechanics refresh
+- [x] Live census before editing: **234 canonical Super Soul records / 151 canonical PQ→Super Soul forward edges / 148 unique reverse targets / 0 unresolved crosslink endpoints**; the prior thin-system queue identified **034 and 036–039** as the next bounded high-value records.
+- [x] Refreshed **5 canonical records (034, 036–039)** in `docs/data/super-souls-record-layer.json`.
+- [x] Record 034: refreshed PQ 186/Future Saga Chapter 4 provenance and current verification date, while keeping trigger/effect/magnitude/duration/stacking/Limit Burst unresolved because no independent item-level mechanics evidence was found.
+- [x] Records 036–039: refreshed exact trigger/effect/magnitude/duration evidence where supported and added the documented Limit Burst effects. Record 036 retains the 10% description vs 20% game-file/catalogue conflict; record 039 retains the categorical XXL vs numeric +40% representation difference.
+- [x] Added `docs/data/super-soul-034-and-036-through-039-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Canonical PQ relationship layer was not changed; the existing PQ 186 → record 034 relationship remains intact.
+- [x] Validation after write: **234/234 canonical records parse; 0 duplicate IDs; 5/5 selected records current; 151 forward Super Soul edges / 148 reverse targets / 0 unresolved endpoints; audit registration resolves**.
+- [ ] CI/runtime: no successful workflow/check exposed for this direct-commit chain; no CI success claimed.
+- [x] Commits: canonical `d3ddc3bfd924d2160063563865ccee59b7dd12b0`; audit `dd1c9349404c38ca16a08637228127b4eac65ca3`; cross-domain registration `4c718623d52883f66a161bcb851bf5f188fe1996`.
+- [ ] Exact next priority: recompute the full Super Soul thin-system census and select the next **4–12 highest-impact canonical records with strong exact-name evidence and/or reusable PQ cross-links**, rather than blindly continuing by numeric ID. Preserve unresolved mechanics and acquisition conflicts.
