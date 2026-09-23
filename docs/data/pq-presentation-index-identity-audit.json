@@ -51,7 +51,7 @@
     "unresolved_canonical_ids": [],
     "status": "resolved"
   },
-  "canonical_edge_count": 859,
+  "canonical_edge_count": 854,
   "status": "resolved",
   "notes": [
     "The accessory reverse report uses canonical equipment/accessory IDs; unresolved research-only accessory records remain explicitly outside canonical navigation.",
@@ -61,10 +61,10 @@
   "generated": "2026-09-22",
   "live_recheck": {
     "canonical_pq_records": 186,
-    "canonical_edge_count": 859,
+    "canonical_edge_count": 854,
     "reverse_counts": {
       "skills": 239,
-      "super_souls": 148,
+      "super_souls": 143,
       "equipment": 122,
       "accessories": 28
     },
@@ -84,8 +84,8 @@
       "duplicates": 0
     },
     "super_souls": {
-      "canonical_pairs": 151,
-      "report_pairs": 151,
+      "canonical_pairs": 146,
+      "report_pairs": 146,
       "missing": 0,
       "extra": 0,
       "duplicates": 0
