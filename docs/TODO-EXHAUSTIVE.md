@@ -3536,3 +3536,12 @@
 - [x] Updated `accessory-pq-canonical-remaining.json`, regenerated `pq-accessory-crosslink-report.json`, and expanded the canonicalization audit/census.
 - [x] Post-write target state: 74 canonical accessory IDs, 32 accessory PQ forward/reverse edges, 12 unresolved research bridge entries; no duplicate canonical IDs introduced.
 - [ ] Exact next batch: run the repository's accessory/presentation validators against the normalized graph; then reconcile the next unresolved concrete DAIMA/HOJ2 skill or Super Soul cohort.
+
+
+### 2026-09-23 — TODO completion update — DAIMA / HERO OF JUSTICE Pack 2 skill and Super Soul anchors
+- [x] Audited all concrete canonical skill and Super Soul PQ edges for PQ159–162 and PQ179–181.
+- [x] Recorded **13 skill edges** and **7 Super Soul edges** as concrete downstream navigation anchors.
+- [x] Added `docs/data/dlc/daima-hoj2-skill-super-soul-downstream-audit-2026-09-23.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Expanded the DLC content matrix with individual canonical skill and Super Soul IDs for both packs.
+- [x] Preserved the ownership boundary: these are PQ-linked navigation anchors, not a complete DLC inventory and not evidence for free-update DAIMA ownership.
+- [ ] Exact next batch: reconcile the remaining concrete HOJ2/DAIMA non-PQ skill/Super Soul inventory against canonical records, prioritizing records advertised by the official pack scope but not yet represented by PQ-backed anchors.
