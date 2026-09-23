@@ -2519,13 +2519,6 @@
       "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-will-put-a-stop-to-you-fiend.md"
     },
     {
-      "pq": "pq-152",
-      "relationship": "pq_rewards_super_soul",
-      "target": "I'll show you the power of a true warrior!",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
       "pq": "pq-153",
       "relationship": "pq_rewards_super_soul",
       "target": "You're not much of a fun fight!",
@@ -2538,34 +2531,6 @@
       "target": "There's more where that came from!",
       "status": "source_backed",
       "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/theres-more-where-that-came-from.md"
-    },
-    {
-      "pq": "pq-153",
-      "relationship": "pq_rewards_super_soul",
-      "target": "Don't underestimate my power!",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-153",
-      "relationship": "pq_rewards_super_soul",
-      "target": "I won't forgive you!",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-154",
-      "relationship": "pq_rewards_super_soul",
-      "target": "I'm the one who will win!",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-155",
-      "relationship": "pq_rewards_super_soul",
-      "target": "This is the ultimate hero!",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq": "pq-156",
@@ -6290,11 +6255,12 @@
   ],
   "current_counts": {
     "skill": 244,
-    "super_soul": 151,
+    "super_soul": 146,
     "equipment": 124,
     "character": 247,
     "dlc": 86,
-    "farming": 7
+    "farming": 7,
+    "pq_rewards_super_soul": 146
   },
   "last_reconciled_scope": "PQ 1-186 reward relationship index synchronized against current canonical cross-link reports; stale equipment endpoints removed and newly reconciled skill/Super Soul/equipment edges added. Canonical relationship reports remain the authoritative projection of canonical data.",
   "notes": [
@@ -6305,11 +6271,11 @@
     "2026-09-22: Deterministic cross-domain reconciliation synchronized skill, Super Soul, and equipment reward relationships to their current canonical cross-link reports. Removed stale Mr. Shape Up M equipment edge and obsolete PQ66 Whis Symbol Gi edge; added current PQ76 Whis Symbol Gi and six accessory-related/equipment canonical endpoints plus missing skill and Super Soul relationships."
   ],
   "current_reconciliation_2026_09_22": {
-    "date": "2026-09-22",
-    "total_unique_relationships": 859,
+    "date": "2026-09-23",
+    "total_unique_relationships": 854,
     "counts": {
       "pq_rewards_skill": 244,
-      "pq_rewards_super_soul": 151,
+      "pq_rewards_super_soul": 146,
       "pq_rewards_equipment": 124,
       "pq_features_character": 247,
       "pq_requires_dlc": 86,
