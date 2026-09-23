@@ -6105,3 +6105,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Existing priority acquisition layers already contain the identified Expert Mission and shop route identities; no unsupported cross-domain or PQ edges were added.
 - CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** audit the 86 non-PQ/non-mentor skills for missing stable cross-domain IDs/index consumers, beginning with Expert Mission and shop records, then Time Rift/story/tournament routes; prioritize actual producer/consumer mismatches over descriptive route duplication.
+
+### 2026-09-23 cycle update — Skill acquisition cross-domain endpoint audit
+
+- [x] Audited the live non-PQ skill acquisition endpoint consumers against `skills.json`, the Expert Mission acquisition index, and `advancement-tests.json`.
+- [x] Verified all **18 Expert Mission acquisition-index records** resolve to canonical skill IDs, with deterministic EM03–EM20 endpoint IDs available for downstream consumers.
+- [x] Verified all **4 Advancement Test skill links** resolve to canonical skill IDs and stable advancement-test IDs.
+- [x] Added `docs/data/skill-acquisition-cross-domain-endpoint-audit-2026-09-23.json`.
+- [x] No unsupported acquisition relationships or PQ edges were added.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** build/identify canonical endpoint layers for the largest remaining acquisition systems (Skill Shop / TP-STP Medal Shop first, then Time Rift/story/tournament), using stable IDs and linking existing skill records without duplicating canonical skills.
