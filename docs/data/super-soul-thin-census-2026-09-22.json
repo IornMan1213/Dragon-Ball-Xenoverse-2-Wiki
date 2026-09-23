@@ -43,6 +43,7 @@
     "2026-09-22: reconciled Limit Burst effects for Super Souls 024–031 from exact-name Fandom/GameFAQs evidence; no acquisition or canonical PQ relationships changed. Strict-thin count reduced by eight.",
     "2026-09-22: reconciled Limit Burst type/effect fields for Super Souls 053, 056, 059, and 065; strict-thin count remains 174 because duration/stacking gaps remain genuinely unresolved.",
     "2026-09-22: Super Soul 202 duration semantics reconciled; strict-thin definition remains unchanged at 174 because the census intentionally requires concrete duration/stacking values rather than N/A semantic annotations.",
-    "2026-09-22: strengthened Super Soul 201 mechanics/provenance; duration remains genuinely unresolved, so strict-thin count is unchanged."
+    "2026-09-22: strengthened Super Soul 201 mechanics/provenance; duration remains genuinely unresolved, so strict-thin count is unchanged.",
+    "2026-09-22: eight Super Souls (200, 203–209) had null stacking_behavior reconciled to explicit 'Not reported as stackable' from the maintained exact-name catalogue; no numeric stack caps were inferred."
   ]
 }
