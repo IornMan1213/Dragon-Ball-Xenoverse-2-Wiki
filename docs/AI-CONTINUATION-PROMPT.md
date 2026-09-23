@@ -4156,3 +4156,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Preserved acquisition, PQ cross-links, effect magnitudes, and Limit Burst semantics.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Next priority: continue deterministic early/base-game thin census, prioritizing records whose remaining fields can be directly established without speculative values.
+
+
+### 2026-09-22 cycle update — Super Soul secondary-field reconciliation (024 / 025)
+- [x] Reconciled the previously unresolved **024** and **025** duration gaps using stronger exact-name catalogue evidence.
+- [x] 024 duration = **N/A** and stacking = **N/A**; 025 duration = **N/A** while its once-only behavior remains documented in stacking_behavior.
+- [x] Added `docs/data/super-soul-secondary-field-reconciliation-024-025-2026-09-22.json` and registered it in the cross-domain index.
+- [x] No acquisition, PQ relationship, effect magnitude, or Limit Burst semantics changed.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Next priority: continue the deterministic thin census with the next genuinely unresolved applicable fields; do not force unresolved mechanics without direct evidence.
