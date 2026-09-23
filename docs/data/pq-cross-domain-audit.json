@@ -490,7 +490,7 @@
       "file": "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json",
       "scope": "PQ 1-186",
       "semantics": "partial source-normalized reverse index; absence is not a negative claim",
-      "status": "not treated as a replacement for the 854-edge canonical relationship layer"
+      "status": "partial source-normalized reverse index; current canonical relationship layer is authoritative at 853 edges"
     },
     "accessory_bridge": {
       "file": "docs/data/accessory-pq-canonical-bridge.json",
@@ -502,7 +502,7 @@
     },
     "result": "no_deterministic_current_count_drift_found_in_audited_reconciliation_artifacts",
     "source_of_truth": "docs/data/pq-reward-relationships.json",
-    "current_total_edges": 854
+    "current_total_edges": 853
   },
   "equipment_reverse_coverage": {
     "forward_edges": 124,
