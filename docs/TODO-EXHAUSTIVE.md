@@ -4116,3 +4116,12 @@
 - [x] Validation: **455 canonical / 455 index / 0 duplicate IDs / 395 stale**; target parity clean.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next batch: **Change The Future, Chaos Shot, Chaos Wall, Chaotic Time Impact, Charge, Charged Ki Wave, Circle Flash, Comet Strike, Confusion Blade, Core Breaker**.
+
+
+### 2026-09-23 — TODO completion update — P1 Change The Future through Charge
+- [x] Completed **Change The Future, Chaos Shot, Chaos Wall, Chaotic Time Impact, Charge** provenance refresh.
+- [x] Synchronized canonical/index verification dates to **2026-09-23** while preserving existing evidence boundaries.
+- [x] Added/registered **docs/data/skill-provenance-audit-2026-09-23-change-the-future-through-charge.json**.
+- [x] Validation: **455 canonical / 455 index / 0 duplicate IDs / 390 stale**; target parity clean.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next batch: **Charged Ki Wave, Circle Flash, Comet Strike, Confusion Blade, Core Breaker, Crush Cannon, Crush Stream, Crusher Ball, Dancing Parapara, Dark Inscription**.
