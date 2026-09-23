@@ -46,3 +46,5 @@ The canonical relationship layer is now the authoritative source for **854 uniqu
 The next deterministic gate is **non-PQ consumer/navigation integrity**: audit remaining registered presentation and reverse-navigation consumers for stale relationship baselines, one-way navigation, scalar/list assumptions, and endpoint-name drift. This pass must not add relationship edges. Legacy display names, bundle-vs-pack granularity, or unresolved identity conflicts must remain explicitly classified rather than inferred.
 
 Canonical relationship data remains authoritative. Normalized research maps, verification status, reverse indexes, and presentation bridges are projections/evidence layers and must never override canonical relationships.
+
+- `docs/data/pq-non-pq-current-endpoint-census-correction-2026-09-23.json` records the current Super Soul endpoint-census correction (146 forward / 143 reverse) without rewriting dated historical snapshots.
