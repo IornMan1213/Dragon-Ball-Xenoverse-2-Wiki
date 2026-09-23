@@ -4133,3 +4133,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [x] Repository writes: canonical, audit, cross-domain index, changelog, and handoff are the bounded outputs for this cycle.
 - [ ] Exact next priority: continue the deterministic early/base-game thin census from the lowest-source/highest-confidence remaining records, beginning with **Super Soul 013** only if exact-name evidence can resolve an applicable field; otherwise skip it and advance. Do not force N/A merely to reduce the thin count.
+
+
+### 2026-09-22 cycle update — early Super Soul secondary-field reconciliation (013 / 014 / 017 / 026)
+- [x] Live batch selected from the current early/base-game thin census after the previous 001/003/006/012 pass.
+- [x] Reconciled **013 Kieeeee!!**, **014 Your life is mine! Toh!**, **017 Unleash your power!!**, and **026 Let me show you how it's done.** using exact-name catalogue and independent guide evidence.
+- [x] 013: set effect magnitude, duration, and stacking to **N/A** because only the Slow-status effect is documented and no numeric magnitude/duration/stacking mechanic is established.
+- [x] 014, 017, 026: set stacking to **N/A**; existing trigger/effect/duration and Limit Burst fields were preserved.
+- [x] Added `docs/data/super-soul-secondary-field-reconciliation-013-014-017-026-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved evidence boundary: **024** and **025** remain unresolved for duration rather than being forced to N/A.
+- [x] Canonical PQ relationships and acquisition identities were unchanged.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Exact next batch: continue the early/base-game thin census, prioritizing records whose remaining missing fields are directly resolvable from exact-name evidence; revisit 024/025 only if stronger duration evidence appears.
