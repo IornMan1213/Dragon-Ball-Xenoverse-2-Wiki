@@ -3842,12 +3842,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Hercule mentor training",
       "mechanics_notes": "100-Ki Strike Super from Hercule's mentor training. Current mentor evidence confirms the lesson reward endpoint; detailed combat mechanics remain intentionally deferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Hercule mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-dynamite-kick",
       "source_mentor": [
         "mentor-hercule"
@@ -3870,12 +3870,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Gohan (Adult) and Videl mentor training",
       "mechanics_notes": "100-Ki Strike Super from Gohan (Adult) and Videl's mentor training. Current mentor evidence confirms the reward endpoint; detailed combat mechanics remain intentionally deferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Gohan (Adult) and Videl mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-eagle-kick",
       "source_mentor": [
         "mentor-gohan-videl"
@@ -3899,7 +3899,7 @@
       "mechanics_notes": "200-Ki Ki Blast Super from PQ11. Maintained PQ evidence documents a 50% Ultimate Finish roll while a separate reward listing presents it among Basic Rewards; the conflicting presentation is preserved rather than silently normalized.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Earth_Splitting_Galick_Gun",
@@ -3909,7 +3909,7 @@
       "source_quest": 11,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 source reconciliation: maintained PQ11 data documents a 50% Ultimate Finish roll for Earth Splitting Galick Gun; the Basic Reward-list placement is retained as source metadata, so the canonical gate follows the explicit drop condition. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit.",
+      "notes": "2026-09-20 source reconciliation: maintained PQ11 data documents a 50% Ultimate Finish roll for Earth Splitting Galick Gun; the Basic Reward-list placement is retained as source metadata, so the canonical gate follows the explicit drop condition. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-earth-splitting-galick-gun",
       "source_parallel_quests": [
         11
@@ -3931,12 +3931,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Zarbon mentor training — Lesson 3",
       "mechanics_notes": "300-Ki Ki Blast Ultimate from Zarbon Lesson 3. Current mentor evidence confirms the lesson reward endpoint; detailed combat mechanics remain intentionally deferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Zarbon mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-elegant-blaster",
       "source_mentor": [
         "mentor-zarbon"
@@ -3959,13 +3959,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "jaco mentor training",
       "mechanics_notes": "Ki Blast Super fired from Jaco's ray gun; current dedicated evidence lists 100 Ki and describes a thin beam with knockback.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Jaco mentor training — Lesson 1.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: dedicated skill evidence confirms the Ki Blast Super, 100 Ki cost, Jaco association, and Jaco training acquisition; the maintained instructor guide independently identifies Lesson 1 as the Basic Reward. Existing acquisition semantics are preserved.",
+      "notes": "2026-09-22 provenance refresh: dedicated skill evidence confirms the Ki Blast Super, 100 Ki cost, Jaco association, and Jaco training acquisition; the maintained instructor guide independently identifies Lesson 1 as the Basic Reward. Existing acquisition semantics are preserved. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-elite-beam",
       "source_mentor": [
         "mentor-jaco"
@@ -3987,13 +3987,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "jaco mentor training",
       "mechanics_notes": "Ki Blast Super associated with Jaco's Galactic Patrol ray gun; current aggregate testing evidence lists 100 Ki, while the maintained mentor guide establishes the Lesson 2 acquisition.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Jaco mentor training — Lesson 2.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: dedicated skill evidence confirms Elite Shooting as Jaco's Xenoverse 2 Super Skill; the maintained instructor guide independently identifies Lesson 2 as the Basic Reward. Existing 100-Ki and mentor acquisition semantics are preserved.",
+      "notes": "2026-09-22 provenance refresh: dedicated skill evidence confirms Elite Shooting as Jaco's Xenoverse 2 Super Skill; the maintained instructor guide independently identifies Lesson 2 as the Basic Reward. Existing 100-Ki and mentor acquisition semantics are preserved. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-elite-shooting",
       "source_mentor": [
         "mentor-jaco"
@@ -4016,12 +4016,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 70 / TP Medal Shop",
       "mechanics_notes": "Current evidence confirms Emperor's Blast as a 100-Ki Ki Blast Super associated with Golden Frieza; the existing PQ70/TP Medal Shop acquisition record is retained. Reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": 70,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance correction: current dedicated evidence and Future Warrior technique documentation identify Emperor's Blast as Golden Frieza's 100-Ki Ki Blast Super. The prior mechanics wording that referred to Hercule was corrected to Golden Frieza; PQ70/TP Medal Shop acquisition remains unchanged.",
+      "notes": "2026-09-22 provenance correction: current dedicated evidence and Future Warrior technique documentation identify Emperor's Blast as Golden Frieza's 100-Ki Ki Blast Super. The prior mechanics wording that referred to Hercule was corrected to Golden Frieza; PQ70/TP Medal Shop acquisition remains unchanged. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "character_source": "Golden Frieza",
       "id": "skill-emperor-s-blast",
       "source_parallel_quests": [
@@ -4045,7 +4045,7 @@
       "mechanics_notes": "Current dedicated evidence has conflicted with the maintained reward map: the dedicated skill page reports PQ184, while the maintained reward-normalization map assigns the skill to PQ183. The canonical acquisition follows the maintained reward map pending further reconciliation. It can generate up to eight Ki Blasts, with some capable of paralysis, and additional input launches them together. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Emperor's_Cannon",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4054,7 +4054,7 @@
       "source_quest": 183,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current evidence reconfirms the Super/Ki Blast classification, Golden Frieza (Ultra Supervillain) association, and multi-projectile/paralysis mechanics. The existing PQ183 canonical acquisition is retained while the documented PQ183-vs-PQ184 source conflict remains explicit.",
+      "notes": "2026-09-22 provenance refresh: current evidence reconfirms the Super/Ki Blast classification, Golden Frieza (Ultra Supervillain) association, and multi-projectile/paralysis mechanics. The existing PQ183 canonical acquisition is retained while the documented PQ183-vs-PQ184 source conflict remains explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-emperor-s-cannon",
       "source_parallel_quests": [
         183
@@ -4073,7 +4073,7 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74518730"
       ],
       "ki_cost": 400,
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "ultimate_finish_required": false,
       "dlc_requirement": "Base Game",
       "character_source": "Golden Frieza",
@@ -4084,7 +4084,7 @@
       "race_restriction": "All CaC races",
       "research_status": "enriched",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-22 provenance correction: current dedicated evidence lists a 400+ Ki Ultimate that begins at 400 Ki and consumes additional stored Ki; the canonical ki_cost was corrected from 300 to 400. TP Medal Shop/base-game acquisition semantics are preserved.",
+      "notes": "2026-09-22 provenance correction: current dedicated evidence lists a 400+ Ki Ultimate that begins at 400 Ki and consumes additional stored Ki; the canonical ki_cost was corrected from 300 to 400. TP Medal Shop/base-game acquisition semantics are preserved. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-emperor-s-death-beam"
     },
     {
@@ -4104,7 +4104,7 @@
       "mechanics_notes": "PQ99 Basic Reward placement is explicitly documented in the maintained all-PQ guide; current Fandom data also lists TP Medal Shop. Neither source establishes Ultimate Finish as an acquisition requirement, so ultimate_finish_required=false.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Emperor's_Edge",
@@ -4115,7 +4115,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 99,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: dedicated evidence confirms the 100-Ki Strike Super and TP Medal Shop route; the maintained PQ99 guide independently lists Emperor's Edge in PQ99's Basic Reward. Existing no-Ultimate-Finish-gate semantics are preserved.",
+      "notes": "2026-09-22 provenance refresh: dedicated evidence confirms the 100-Ki Strike Super and TP Medal Shop route; the maintained PQ99 guide independently lists Emperor's Edge in PQ99's Basic Reward. Existing no-Ultimate-Finish-gate semantics are preserved. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-emperor-s-edge",
       "source_parallel_quests": [
         99
@@ -4137,12 +4137,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Android 18 mentor training",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "race_restriction": "All CaC races",
       "source_quest": "Android 18 mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current skill evidence confirms the mentor acquisition and 100-Ki cost; the repository's existing Android 18 Lesson endpoint is retained without inventing additional reward mechanics.",
+      "notes": "2026-09-22 provenance refresh: current skill evidence confirms the mentor acquisition and 100-Ki cost; the repository's existing Android 18 Lesson endpoint is retained without inventing additional reward mechanics. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-endless-shoot",
       "source_mentor": [
         "mentor-android-18"
@@ -4162,7 +4162,7 @@
       ],
       "stamina_cost": 300,
       "unlock_method": "Parallel Quest 32 - \"Multiple Cell Jr. Hunt\" Basic Reward",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "research_status": "enriched",
       "source_quest": 32,
       "source_quest_or_shop": "Parallel Quest 32 — \"Multiple Cell Jr. Hunt\"",
@@ -4175,7 +4175,7 @@
       "ki_cost": 0,
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: dedicated evidence confirms the 300-Stamina Strike Evasive, PQ32 acquisition, Ki-wave cancellation, and expandable knockback barrier. The existing Basic-vs-Ultimate-Finish acquisition conflict remains explicitly preserved.",
+      "notes": "2026-09-22 provenance refresh: dedicated evidence confirms the 300-Stamina Strike Evasive, PQ32 acquisition, Ki-wave cancellation, and expandable knockback barrier. The existing Basic-vs-Ultimate-Finish acquisition conflict remains explicitly preserved. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
       "id": "skill-energy-barrier",
       "source_parallel_quests": [
         32
