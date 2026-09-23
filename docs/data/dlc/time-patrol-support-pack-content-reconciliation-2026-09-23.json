@@ -91,7 +91,6 @@
       "7 advertised Super Attacks have no direct canonical PQ edge in the current PQ crosslink report; this includes canonical non-PQ/other-route records as well as the three missing exact identities.",
       "2 advertised Ultimate Attacks have no direct canonical PQ edge; Warp Kamehameha has two canonical PQ endpoints.",
       "5 advertised costumes remain without exact canonical equipment records after the 2026-09-23 identity audit; Vegito Clothes resolves to equip-078. Gogeta Clothes and Broly Clothes are source-backed via PQ57/PQ47 but lack exact canonical records; Future Trunks' Clothes (Super) is catalogued without a canonical record; Master Korin's Suit and Orange Star High School Outfit remain official-pack identities without exact canonical records.",
-      "No canonical CC Mascot record layer was identified for Puar.",
       "Two advertised Super Souls were previously unresolved and are now promoted as super-soul-247 and super-soul-248.",
       "Consumable quantities are pack-delivery contents, not canonical collectible identity records."
     ],
@@ -130,7 +129,7 @@
       "Official storefronts list Puar as the pack's CC Mascot.",
       "Independent CC Mascot documentation distinguishes Puar from its color variants and identifies separate shop/raid/Support Pack acquisition contexts.",
       "Puar is not equipment or an accessory and must not be assigned an equip-### or acc-### ID.",
-      "A dedicated CC Mascot canonical/catalog layer is required before promotion."
+      "The dedicated CC Mascot canonical/catalog layer now contains mascot-puar and has a matching reverse index."
     ],
     "canonical_record": "docs/data/cc-mascots.json"
   }
