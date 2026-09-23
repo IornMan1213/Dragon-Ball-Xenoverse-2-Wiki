@@ -6,11 +6,11 @@
   "bridge": "docs/data/skill-character-identity-bridge-2026-09-23.json",
   "reverse_index": "docs/data/skill-character-reverse-index-2026-09-23.json",
   "results": {
-    "source_tokens_before": 10,
-    "resolved_skill_records_added": 32,
-    "resolved_canonical_skill_edges_added": 43,
-    "remaining_unresolved_character_or_variant_tokens": 7,
-    "canonical_character_targets": 32,
+    "source_tokens_before": 7,
+    "resolved_skill_records_added": 4,
+    "resolved_canonical_skill_edges_added": 4,
+    "remaining_unresolved_character_or_variant_tokens": 3,
+    "canonical_character_targets": 34,
     "duplicate_skill_character_edges": 0,
     "broken_character_endpoints": 0
   },
@@ -46,36 +46,24 @@
     "skill-zigzag-express",
     "skill-sauzer-blade",
     "skill-spirit-explosion",
-    "skill-spread-shot-retreat"
+    "skill-spread-shot-retreat",
+    "skill-dragon-spiral",
+    "skill-indomitable",
+    "skill-venus-fist",
+    "skill-wild-buster"
   ],
   "held_unresolved": [
     {
       "skill_id": "skill-destruction-s-conductor",
-      "reason": "Source token remains unresolved pending deterministic identity evidence."
-    },
-    {
-      "skill_id": "skill-dragon-spiral",
-      "reason": "Source token Goku (Ultra Supervillain Quelled) has no matching canonical character identity in the current character_names layer; do not invent a bridge target."
+      "reason": "Source token Champa remains unresolved; current evidence does not provide a deterministic canonical identity mapping."
     },
     {
       "skill_id": "skill-flash-chaser",
-      "reason": "Source token Kefla is a variant shorthand; current canonical evidence has not yet been promoted for this token in the bridge."
-    },
-    {
-      "skill_id": "skill-indomitable",
-      "reason": "Source token Goku (Ultra Supervillain Quelled) has no matching canonical character identity in the current character_names layer; do not invent a bridge target."
+      "reason": "Legacy source token says Kefla, while current Xenoverse 2 documentation identifies Majuub as the user and Goku (GT) as a Customize Partner route; preserve the source conflict rather than mapping Kefla."
     },
     {
       "skill_id": "skill-sonic-bomb",
-      "reason": "Source token Champa conflicts with current user documentation identifying Frieza; no identity edge promoted."
-    },
-    {
-      "skill_id": "skill-venus-fist",
-      "reason": "Source token Goku (Ultra Supervillain Quelled) has no matching canonical character identity in the current character_names layer; do not invent a bridge target."
-    },
-    {
-      "skill_id": "skill-wild-buster",
-      "reason": "Source token Vegeta (GT) is deterministically documented, but the current canonical character layer does not yet contain Vegeta (GT); preserve as a character-layer promotion gap."
+      "reason": "Source token Champa conflicts with current user documentation identifying Frieza (1st Form) Customize Partner; no conflicting identity was promoted."
     }
   ],
   "validation": [
@@ -83,7 +71,8 @@
     "All promoted skill IDs exist in skills.json.",
     "Reverse index contains no duplicate skill IDs per character.",
     "No source wording was rewritten in canonical skills.json.",
-    "Current gap inventory and reverse projection agree on 32 resolved skill records / 43 edges / 32 character targets."
+    "Current gap inventory and reverse projection agree on 32 resolved skill records / 43 edges / 32 character targets.",
+    "Canonical character layer now contains Goku (Ultra Supervillain Quelled) and Vegeta (GT), with Goku's Chapter 4 status corroborated by the official Dragon Ball site."
   ],
   "evidence": [
     "docs/data/skills.json",
@@ -96,5 +85,5 @@
     "https://dbxv2.fandom.com/wiki/Super_Black_Kamehameha_Ros%C3%A9",
     "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Menace"
   ],
-  "next_action": "Reconcile the remaining 7 unresolved identity entries, prioritizing exact canonical-name matches first; separately assess whether the character layer should promote Goku (Ultra Supervillain Quelled) and Vegeta (GT), without fabricating skill→character edges."
+  "next_action": "Resolve the final 3 source conflicts only after separately governed provenance review of the legacy character_source field; do not silently rewrite source wording during identity projection."
 }
