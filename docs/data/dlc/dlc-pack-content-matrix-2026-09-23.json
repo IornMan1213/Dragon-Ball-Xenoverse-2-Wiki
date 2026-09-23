@@ -107,7 +107,15 @@
             "name": "Panzy's Clothes",
             "record_id": "equip-103"
           }
-        ]
+        ],
+        "skill_super_soul_count_reconciliation": {
+          "status": "count_reconciled",
+          "official_moves": 6,
+          "canonical_skills": 6,
+          "official_super_souls": 2,
+          "canonical_super_souls": 2,
+          "audit": "docs/data/dlc/daima-hoj2-official-skill-super-soul-count-reconciliation-2026-09-23.json"
+        }
       },
       "unresolved_domains": [
         "complete_free_update_inventory",
@@ -176,6 +184,14 @@
         "equipment": {
           "canonical_pq_edge_count": 5,
           "status": "PQ-backed equipment navigation; exact pack inventory remains separate"
+        },
+        "skill_super_soul_count_reconciliation": {
+          "status": "count_reconciled",
+          "official_moves": 7,
+          "canonical_skills": 7,
+          "official_super_souls": 5,
+          "canonical_super_souls": 5,
+          "audit": "docs/data/dlc/daima-hoj2-official-skill-super-soul-count-reconciliation-2026-09-23.json"
         }
       },
       "unresolved_domains": [
