@@ -3806,3 +3806,16 @@
 - Registry `dcda02a0dad1ccfc5c96793d1162942d15a5d6c5`.
 - Changelog `da56ca26075760f36db81c7efe72520250034e5a`.
 - Handoff append `c6d88595d5fb32d0b85990853d336b9267ed6656` plus checkpoint `abcd1182c97d566c43d3b6badab1dcad42870687`.
+
+
+### 2026-09-23 cycle update — Non-PQ endpoint census synchronization
+- Live census: **854 canonical PQ edges**; Super Soul **146 forward / 143 reverse targets**.
+- Bounded batch: current endpoint/projection fields in `docs/data/pq-cross-domain-audit.json` and `docs/data/pq-cross-domain-status.json`.
+- Corrected `pq-cross-domain-audit.json.endpoint_census_2026_09_22.reverse_index_checks.super_souls` from stale **151/148** to **146/143**.
+- Corrected `pq-cross-domain-status.json.current_projection_consistency_2026_09_22.reverse_projection_counts.super_souls` from **148** to **143**.
+- Preserved dated 862/860/859/125/88 process snapshots and older integrity/schema history; no canonical relationship or identity data changed.
+- Added and registered `docs/data/pq-non-pq-current-endpoint-census-correction-2026-09-23.json`.
+- Validation: changed JSON parses; current Super Soul endpoint census is **146/143**; canonical total remains **854**; 0 relationships and 0 aliases changed.
+- CI/runtime remains unavailable; no CI success claimed.
+- Commits: `55178412f54065c49cd9a6ed115dd218b045b1a9`, `4dcfa0726ee6e7b17c43f39aef924503af44fb74`, `e83ad2639a067db14740e86d2d7206910706fb56`, `5a56f3f36ba8d6c046810cfa2ead0afc2ccdb8c5`.
+- Exact next batch: continue the current-state consumer census for remaining explicit current/live/baseline scalar or collection assumptions and endpoint/status drift; preserve dated historical snapshots.
