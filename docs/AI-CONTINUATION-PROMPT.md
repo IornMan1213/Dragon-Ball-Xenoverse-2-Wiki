@@ -5987,3 +5987,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation after write: 455 canonical / 455 index / 379 current / 76 stale / 0 duplicate IDs; all 12 targets current and canonical/index IDs aligned.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next batch: Spirit Slash, Spread Shot Retreat, Steel Mirage, Stone Bullet, Strike of Revelation, Sudden Death Beam, Sudden Storm, Super Afterimage, Super Black Kamehameha Rosé, Super Donut Volley, Super Dragon Flight, Super Elite Combo. Recompute the live stale queue first.
+
+
+### 2026-09-23 cycle update — P1 Spirit Slash through Super Elite Combo skill provenance/mechanics refresh
+- Live census before editing: 455 canonical / 455 index / 379 current / 76 stale / 0 duplicate IDs.
+- Completed 12 records: Spirit Slash, Spread Shot Retreat, Steel Mirage, Stone Bullet, Strike of Revelation, Sudden Death Beam, Sudden Storm, Super Afterimage, Super Black Kamehameha Rosé, Super Donut Volley, Super Dragon Flight, Super Elite Combo.
+- Research/evidence: maintained repository source sets plus current exact-name skill references; documented acquisition and mechanics boundaries preserved.
+- Changes: canonical/index last_verified synchronized to 2026-09-23; bounded notes refreshed. Corrected the stale Stone Bullet note from Ki Blast Super to Strike Super.
+- Validation after write: 455 canonical / 455 index / 391 current / 64 stale / 0 duplicate IDs; canonical/index IDs aligned and all 12 targets current.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next batch: Super Explosive Wave, Super Gamma Blast, Super Ghost Buu Attack, Super Ghost Kamikaze Attack, Super Ghost Kamikaze Attack, Super God Fist, Super God Shock Flash, Super Guard, Super Kamehameha, Super Kamehameha (SS4 DAIMA), Super Saiyan, Super Saiyan 2. Recompute the live stale queue first.
