@@ -2344,3 +2344,11 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Current Super Soul census: **230 canonical / 0 duplicate IDs / 3 strict-thin records (032, 034, 217)**.
 - Current PQ Super Soul coverage: **145 forward / 142 reverse targets**; total PQ relationship projection: **853**.
 - CI/runtime remains unavailable; no CI success claimed.
+
+
+## 2026-09-23 — Super Soul 217 Limit Burst verification
+- Targeted exact-name research found a GameFAQs discussion specifically identifying the Limit Burst for **“Power! A lotta power! It's great!”** as **Power Ki Blast**, with **Auto Health and Stamina Up** and **DEF Down**. citeturn1search0
+- Updated the canonical 217 record with the item-specific Limit Burst type/effect; trigger remains null because no trigger wording was established.
+- Added `docs/data/super-soul-217-limit-burst-evidence-2026-09-23.json` and registered it in the cross-domain index.
+- Strict-thin queue is now **032 and 034**; 217 exits because its strict core fields are populated.
+- CI/runtime remains unavailable; no CI success claimed.
