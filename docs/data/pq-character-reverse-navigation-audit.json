@@ -29,6 +29,10 @@
     "policy": "Aliases are presentation/source-name metadata only; canonical relationship targets remain unchanged."
   },
   "page_index_review": {
+    "query_deep_link_support": true,
+    "query_parameter": "q",
+    "destination_contract": "/Characters-All/?q=<canonical character name>",
+    "direct_fetch_verified": true,
     "canonical_relationship_targets_resolve": true,
     "reverse_index_parity": true,
     "pq_set_mismatches": 0,
