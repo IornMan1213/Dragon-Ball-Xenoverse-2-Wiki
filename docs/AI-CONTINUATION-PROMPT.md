@@ -6408,3 +6408,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Re-read the live identity bridge: **29 explicit character IDs / 29 unique canonical targets**; no duplicate bridge identities observed.
 - Commit: 253338af8f60a8c87b0171b81709008477e9d0f1.
 - **Exact next task:** run/replicate the character presentation consumer audit against the hardened validator if executable runtime is available; then expand deterministic character/preset navigation coverage without inventing preset loadouts.
+
+
+### 2026-09-23 cycle update — Character presentation consumer audit hardening
+- Live census: **151 canonical characters / 29 explicit identity-bridge records / 40 preset records / 20 Partner Customization records**.
+- Hardened `scripts/validate_character_presentation_consumers.py` again: the explorer navigation check now correctly keys on the actual `searchUrl(name)` implementation instead of requiring an unrelated `Search/` token; static `Character-Core-Profiles.md` content is no longer treated as a search UI consumer merely because it lacks that token.
+- Live structural checks: bridge uniqueness, canonical targets, all 12 preset character IDs bridged, all 20 partner IDs bridged, partner reconciliation parity, preset uniqueness, preset-number pair uniqueness, canonical explorer link, explorer search implementation, and no hard-coded preset labels all remain clean.
+- The prior audit correctly exposed the validator mismatch; no data records were changed and no unsupported loadout links were introduced.
+- Validator execution remains unavailable in the hosted environment; the equivalent live census was manually replicated against the current files. CI remains unavailable.
+- Commit: 34f499a43f82e4e25106ad451b4039269167bf92.
+- **Exact next batch:** inspect the remaining character-facing generated/index consumers for deterministic canonical-ID parity, especially any pages/data projections not covered by this validator, before expanding preset loadout research.
