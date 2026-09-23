@@ -2130,3 +2130,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - PQ151 retains two documented Super Souls; PQ152 one; PQ153 two; PQ154 and PQ155 none in the maintained Basic Reward list.
 - Added `docs/data/super-soul-232-through-236-identity-correction-2026-09-23.json` and `docs/data/super-soul-thin-census-2026-09-23.json`.
 - Live result: **229 canonical Super Souls / 146 canonical PQ→Super Soul edges / 4 strict-thin records**. No mechanics were inferred and no CI success is claimed.
+
+## 2026-09-23 — Super Soul 217 fresh Limit Burst evidence boundary
+- Re-ran exact-name/item-level searches for **“Power! A lotta power! It's great!”** and Limit Burst terminology.
+- No new authoritative/item-level evidence established the Soul's Limit Burst type, trigger, or effect; generic utility discussion was not promoted.
+- Appended the evidence boundary to `docs/data/super-soul-217-limit-burst-evidence-audit-2026-09-23.json`.
+- Live census remains **229 canonical / 0 duplicate IDs / 228 strict-thin records**.
+- No CI success claimed.
