@@ -2334,3 +2334,13 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - No generic or same-character Limit Burst was substituted; canonical 032 remains unchanged and partially verified.
 - Added `docs/data/super-soul-032-limit-burst-evidence-boundary-2026-09-23.json` and registered it in `docs/data/pq-cross-domain-index.json`.
 - Advanced the strict-thin queue to the **158 Do or Die Super Skill / Super Soul collision** for non-destructive canonical migration analysis.
+
+
+## 2026-09-23 — Super Soul 158 canonical domain migration
+- Resolved the **Do or Die** identity collision as a domain-mapping issue rather than a missing Super Soul mechanics issue.
+- The live canonical Skills layer already contains `skill-do-or-die` for PQ49, so the former `super-soul-158` placeholder was removed from the Super Soul canonical layer.
+- Removed the false PQ49 Super Soul relationship while preserving the PQ49 Skill relationship.
+- Added `docs/data/super-soul-158-canonical-domain-migration-2026-09-23.json` and registered it in the cross-domain index to preserve the legacy ID mapping and evidence boundary.
+- Current Super Soul census: **230 canonical / 0 duplicate IDs / 3 strict-thin records (032, 034, 217)**.
+- Current PQ Super Soul coverage: **145 forward / 142 reverse targets**; total PQ relationship projection: **853**.
+- CI/runtime remains unavailable; no CI success claimed.
