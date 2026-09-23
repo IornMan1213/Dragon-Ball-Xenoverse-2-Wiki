@@ -5,84 +5,12 @@
   "source_of_truth": "docs/data/skills.json",
   "live_counts": {
     "canonical_skill_records": 455,
-    "current_last_verified_records": 295,
-    "stale_last_verified_records": 160,
+    "current_last_verified_records": 307,
+    "stale_last_verified_records": 148,
     "duplicate_ids": 0
   },
   "method": "Fresh alphabetical census after the Orin Combo through Power Impact batch.",
   "next_stale_records": [
-    {
-      "id": "skill-orin-combo",
-      "name": "Orin Combo",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-paralysis",
-      "name": "Paralysis",
-      "last_verified": "2026-09-22",
-      "source_count": 5
-    },
-    {
-      "id": "skill-paralyze-beam",
-      "name": "Paralyze Beam",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-pendulum-bullet",
-      "name": "Pendulum Bullet",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-perfect-kamehameha",
-      "name": "Perfect Kamehameha",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-perfect-shot",
-      "name": "Perfect Shot",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-petrifying-spit",
-      "name": "Petrifying Spit",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-phantom-fist",
-      "name": "Phantom Fist",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-photon-swipe",
-      "name": "Photon Swipe",
-      "last_verified": "2026-09-22",
-      "source_count": 5
-    },
-    {
-      "id": "skill-potential-unleashed",
-      "name": "Potential Unleashed",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-power-blitz",
-      "name": "Power Blitz",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
-    {
-      "id": "skill-power-impact",
-      "name": "Power Impact",
-      "last_verified": "2026-09-22",
-      "source_count": 3
-    },
     {
       "id": "skill-power-pole-pro",
       "name": "Power Pole Pro",
@@ -130,6 +58,78 @@
       "name": "Pressure Sign",
       "last_verified": "2026-09-22",
       "source_count": 3
+    },
+    {
+      "id": "skill-pretty-cannon",
+      "name": "Pretty Cannon",
+      "last_verified": "2026-09-22",
+      "source_count": 4
+    },
+    {
+      "id": "skill-pretty-charge",
+      "name": "Pretty Charge",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-prominence-flash",
+      "name": "Prominence Flash",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-psychic-move",
+      "name": "Psychic Move",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-psycho-barrier",
+      "name": "Psycho Barrier",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-psycho-escape",
+      "name": "Psycho Escape",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-punisher-guard",
+      "name": "Punisher Guard",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-punisher-shield",
+      "name": "Punisher Shield",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-pure-progress",
+      "name": "Pure Progress",
+      "last_verified": "2026-09-22",
+      "source_count": 4
+    },
+    {
+      "id": "skill-purification",
+      "name": "Purification",
+      "last_verified": "2026-09-22",
+      "source_count": 4
+    },
+    {
+      "id": "skill-quick-sleep",
+      "name": "Quick Sleep",
+      "last_verified": "2026-09-22",
+      "source_count": 3
+    },
+    {
+      "id": "skill-raid-blast",
+      "name": "Raid Blast",
+      "last_verified": "2026-09-22",
+      "source_count": 5
     }
   ],
   "validation": {

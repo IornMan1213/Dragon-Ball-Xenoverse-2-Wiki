@@ -2640,3 +2640,9 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Live stale census: 160 stale / 295 current / 455 canonical / 0 duplicate IDs.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next batch: Orin Combo, Paralysis, Paralyze Beam, Pendulum Bullet, Perfect Kamehameha, Perfect Shot, Petrifying Spit, Phantom Fist, Photon Swipe, Potential Unleashed, Power Blitz, Power Impact.
+
+
+## 2026-09-23 — Orin-through-Power post-write census correction
+- Canonical/index synchronization completed in commit 43946d7ce293e7cbad4520729e737628fea71a76.
+- Authoritative live census: 455 canonical / 455 index / 307 current / 148 stale / 0 duplicate IDs.
+- Exact next batch: Power Pole Pro, Power Rush, Power Wall, Powered Shell, Prelude to Destruction, Prepare to be Punished, Present For You, Pressure Sign, Pretty Cannon, Pretty Charge, Prominence Flash, Psychic Move.

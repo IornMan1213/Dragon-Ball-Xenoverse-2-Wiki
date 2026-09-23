@@ -5920,3 +5920,10 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Live census: 455 canonical / 295 current / 160 stale / 0 duplicate IDs.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next batch: Orin Combo, Paralysis, Paralyze Beam, Pendulum Bullet, Perfect Kamehameha, Perfect Shot, Petrifying Spit, Phantom Fist, Photon Swipe, Potential Unleashed, Power Blitz, Power Impact.
+
+
+### 2026-09-23 correction — Orin-through-Power live census supersedes earlier same-cycle entry
+- The earlier cycle entry was written before the canonical/index synchronization commit completed. The **authoritative post-write live census is 455 canonical / 455 index / 307 current / 148 stale / 0 duplicate IDs**.
+- All 12 target records are now actually synchronized to 2026-09-23; target stale remaining: 0.
+- Canonical/index commit: 43946d7ce293e7cbad4520729e737628fea71a76.
+- Exact next batch: Power Pole Pro, Power Rush, Power Wall, Powered Shell, Prelude to Destruction, Prepare to be Punished, Present For You, Pressure Sign, Pretty Cannon, Pretty Charge, Prominence Flash, Psychic Move.
