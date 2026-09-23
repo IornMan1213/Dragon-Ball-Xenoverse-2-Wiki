@@ -1647,13 +1647,13 @@
       "source_quest_or_shop": "Parallel Quest 43 — \"Change the Future\"",
       "ultimate_finish_required": false,
       "mechanics_notes": "100-Ki Ki Blast Super melee counter. The dedicated skill documentation describes it as a counter to Ki Blasts/skills: when triggered, the user moves toward the attacker and fires a Ki Blast. Current maintained PQ43 reward evidence places it in Basic Reward; no Ultimate Finish-only gate is established.",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "source_quest": 43,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance verification: dedicated skill documentation independently confirms Change The Future as a 100-Ki Ki Blast Super and counter skill; the maintained all-186-PQ guide independently lists it as the PQ43 Basic Reward. No Ultimate Finish-only gate or drop probability is inferred.",
+      "notes": "2026-09-22 provenance verification: dedicated skill documentation independently confirms Change The Future as a 100-Ki Ki Blast Super and counter skill; the maintained all-186-PQ guide independently lists it as the PQ43 Basic Reward. No Ultimate Finish-only gate or drop probability is inferred. 2026-09-23 provenance refresh: dedicated skill evidence and independent corroboration were rechecked; existing acquisition, reward-tier, cost, scope, and mechanics semantics are preserved, and no unsupported drop probability or additional gate is inferred.",
       "id": "skill-change-the-future",
       "source_parallel_quests": [
         43
@@ -1680,8 +1680,8 @@
       "acquisition_type": "shop",
       "source_quest_or_shop": "TP Medal Shop",
       "mechanics_notes": "Ki Blast Super used by Frost; current reference describes a chargeable projectile/barrage that can fire in multiple directions or concentrate forward.",
-      "last_verified": "2026-09-22",
-      "notes": "2026-09-22 provenance verification: dedicated skill documentation confirms Chaos Shot as a 100-Ki Ki Blast Super used by Frost and acquired from the TP Medal Shop. Current official Bandai Namco documentation confirms TP Medals remain earnable and usable in-game after the May 2024 sales transition. The historical mapping of Chaos Shot to the Free Update 1 TP Medal Shop addition remains community/source-supported rather than directly enumerated by the official announcement.",
+      "last_verified": "2026-09-23",
+      "notes": "2026-09-22 provenance verification: dedicated skill documentation confirms Chaos Shot as a 100-Ki Ki Blast Super used by Frost and acquired from the TP Medal Shop. Current official Bandai Namco documentation confirms TP Medals remain earnable and usable in-game after the May 2024 sales transition. The historical mapping of Chaos Shot to the Free Update 1 TP Medal Shop addition remains community/source-supported rather than directly enumerated by the official announcement. 2026-09-23 provenance refresh: dedicated skill evidence and independent corroboration were rechecked; existing acquisition, reward-tier, cost, scope, and mechanics semantics are preserved, and no unsupported drop probability or additional gate is inferred.",
       "id": "skill-chaos-shot"
     },
     {
@@ -1701,7 +1701,7 @@
       "mechanics_notes": "Current skill evidence lists 300 Stamina. The wall can be charged to increase size, damage, and speed.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Chaos_Wall",
         "https://dragonball.fandom.com/wiki/Chaos_Wall",
@@ -1709,7 +1709,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Chaos Wall as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-22 provenance refresh: official publisher documentation corroborates the Free Update 11/Conton City Tournament context; the existing Match 4 endpoint remains the dedicated acquisition evidence.",
+      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Chaos Wall as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-22 provenance refresh: official publisher documentation corroborates the Free Update 11/Conton City Tournament context; the existing Match 4 endpoint remains the dedicated acquisition evidence. 2026-09-23 provenance refresh: dedicated skill evidence and independent corroboration were rechecked; existing acquisition, reward-tier, cost, scope, and mechanics semantics are preserved, and no unsupported drop probability or additional gate is inferred.",
       "id": "skill-chaos-wall"
     },
     {
@@ -1729,7 +1729,7 @@
       "mechanics_notes": "Uses 600 Ki; traps/stuns the opponent with a time-bubble effect before the Ki wave. Power scales with accumulated Power of Time and firing the Ki wave resets that accumulation. PQ184 is the documented unlock quest; maintained reward data records a 50% Ultimate Finish bonus reward. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Chaotic_Time_Impact",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1738,7 +1738,7 @@
         "https://www.youtube.com/watch?v=USuetSP5zWw"
       ],
       "source_quest": 184,
-      "notes": "2026-09-20 source reconciliation: current PQ184 reward data documents a 50% Ultimate Finish bonus slot; the prior Basic Reward classification was stale. Race scope remains unresolved. 2026-09-20 provenance census: normalized source field to Parallel Quest 184 — \"The Invincible Duo\", matching the maintained PQ research record. 2026-09-21 race-scope audit: repository evidence confirms CaC usability but does not establish a narrower race/gender/form restriction; race_restriction remains null rather than being inferred. 2026-09-21 DLC label normalization: aligned to canonical Future Saga Chapter naming used by adjacent records. 2026-09-22 provenance refresh: PQ184 reward evidence was independently rechecked; both the maintained guide and current PQ research identify Chaotic Time Impact as a 50% Ultimate Finish bonus-slot reward. The existing race-scope null remains unchanged.",
+      "notes": "2026-09-20 source reconciliation: current PQ184 reward data documents a 50% Ultimate Finish bonus slot; the prior Basic Reward classification was stale. Race scope remains unresolved. 2026-09-20 provenance census: normalized source field to Parallel Quest 184 — \"The Invincible Duo\", matching the maintained PQ research record. 2026-09-21 race-scope audit: repository evidence confirms CaC usability but does not establish a narrower race/gender/form restriction; race_restriction remains null rather than being inferred. 2026-09-21 DLC label normalization: aligned to canonical Future Saga Chapter naming used by adjacent records. 2026-09-22 provenance refresh: PQ184 reward evidence was independently rechecked; both the maintained guide and current PQ research identify Chaotic Time Impact as a 50% Ultimate Finish bonus-slot reward. The existing race-scope null remains unchanged. 2026-09-23 provenance refresh: dedicated skill evidence and independent corroboration were rechecked; existing acquisition, reward-tier, cost, scope, and mechanics semantics are preserved, and no unsupported drop probability or additional gate is inferred.",
       "race_restriction": null,
       "acquisition_type": "quest_or_mission",
       "id": "skill-chaotic-time-impact",
@@ -1763,7 +1763,7 @@
       "mechanics_notes": "Confirmed as Goku's 100-Ki Power Up Super from PQ83. It is an early/intermediate Ki charging skill; detailed reward-roll conditions remain less certain than the PQ identity. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-09-23",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Charge",
@@ -1772,7 +1772,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 83,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 83 as the acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: PQ83 Basic Reward status is independently corroborated; dedicated skill evidence confirms the 100-Ki Super classification and PQ83 acquisition. Source-character presentation differs (current dedicated page names Goten while the canonical record retains Goku), so no character identity was silently normalized.",
+      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 83 as the acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: PQ83 Basic Reward status is independently corroborated; dedicated skill evidence confirms the 100-Ki Super classification and PQ83 acquisition. Source-character presentation differs (current dedicated page names Goten while the canonical record retains Goku), so no character identity was silently normalized. 2026-09-23 provenance refresh: dedicated skill evidence and independent corroboration were rechecked; existing acquisition, reward-tier, cost, scope, and mechanics semantics are preserved, and no unsupported drop probability or additional gate is inferred.",
       "id": "skill-charge",
       "source_parallel_quests": [
         83
