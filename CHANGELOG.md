@@ -2222,3 +2222,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Preserved free-update vs paid-DLC distinction and recorded stacking only to the evidence-supported “Not reported as stackable” state.
 - Added `docs/data/super-soul-036-through-047-secondary-field-reconciliation-2026-09-23.json` and registered it in the cross-domain index.
 - No acquisition route, gameplay mechanic, or numeric stack cap was inferred.
+
+
+### 2026-09-23 — DLC → character identity navigation
+- Added DLC headline-character navigation to the local character Search surface from the maintained DLC identity bridge.
+- Represented all 15 baseline labels: 13 resolved destinations and 2 explicit unresolved Chapter 4 variants.
+- Extended the published character/DLC navigation validator and audit.
+- No canonical relationship or ownership edge was changed.
