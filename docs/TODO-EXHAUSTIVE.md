@@ -3070,3 +3070,13 @@
 - [x] Re-read edited JSON files and confirmed current metadata matches **859 / 244 / 151 / 124 / 247 / 86 / 7**.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next priority: recompute the live strict-thin Super Soul census and continue the next evidence-supported high-impact one-field cluster; preserve **032/034** as evidence boundaries.
+
+### 2026-09-23 — Super Soul 087–095 canonical secondary-field synchronization
+- [x] Reconciled/synchronized canonical duration fields for **087–090 and 092–095**; 091 was already synchronized.
+- [x] Set stacking behavior to **Not reported as stackable** for **087–095** where no documented stacking mechanic/cap exists.
+- [x] Preserved 089's unresolved finite timer and did not invent stack caps.
+- [x] Refreshed strict-thin census from **93 → 85**.
+- [x] Registered canonical-sync metadata in the existing 087–095 reconciliation audit and refreshed the live thin-census artifact.
+- [x] All nine batch records now have all eight strict-core fields populated.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next priority: recompute the strict-thin queue and continue the next evidence-supported early/base-game/high-impact cluster; preserve **032/034** as evidence boundaries.
