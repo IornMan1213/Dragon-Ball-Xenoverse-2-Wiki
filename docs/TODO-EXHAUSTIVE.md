@@ -3373,3 +3373,14 @@
 - Validation target: **859 total canonical relationships = 244 skill / 151 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming**; relationship coverage **186/186**; reward-batch directory coverage **182/186**.
 - CI/runtime remains unavailable; no CI success claimed.
 - Exact next batch: continue the deterministic cross-domain coverage/projection audit from the live registry, prioritizing another machine-checkable current-field mismatch or a bounded multi-record navigation/projection repair; do not invent gameplay data.
+
+
+### 2026-09-23 cycle update — Super Soul thin-census current projection repair
+- [x] Recomputed the live canonical PQ→Super Soul relationship baseline against the authoritative relationship producer: **151 forward edges / 148 unique reverse targets**.
+- [x] Found deterministic current-field drift in `docs/data/super-soul-thin-census-2026-09-23.json`: its `cross_domain.canonical_pq_super_soul_edges` still said **146**, reflecting the earlier 232–236 identity-correction snapshot rather than the current canonical relationship layer.
+- [x] Corrected the live thin-census projection to **151/148** and clarified the next method; no canonical Super Soul relationship was added or removed.
+- [x] Added and registered `docs/data/super-soul-thin-census-current-projection-repair-2026-09-23.json`.
+- [x] Preserved the historical 146 after-count in the dated identity-correction artifact; historical records were not rewritten.
+- [x] Validation: thin census parses; canonical Super Soul count remains **229**; strict-thin queue remains **032, 034, 158, 217**; current PQ→Super Soul baseline matches producer/status layers at **151 forward / 148 reverse**.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: continue deterministic high-impact reconciliation outside the exhausted thin queue, prioritizing current projection/index drift or another reusable cross-domain/navigation repair; do not infer unresolved mechanics.
