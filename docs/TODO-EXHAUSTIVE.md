@@ -2953,3 +2953,11 @@
 - [x] Live census: **234 canonical / 0 duplicate IDs / 148 strict-thin records**.
 - [x] Added and registered `docs/data/super-soul-191-194-196-duration-reconciliation-2026-09-22.json`.
 - [ ] Next: continue the remaining evidence-supported thin-field cluster; do not manufacture stacking or duration values.
+
+
+### 2026-09-22 — Super Soul 176/182/183/184/188/189 stacking reconciliation
+- [x] Reconciled stacking fields for **176, 182, 183, 184, 188, and 189** as **Not reported as stackable** where the maintained effect sets document no stacking mechanic or numeric cap.
+- [x] Preserved existing triggers and durations; no unsupported numeric stack caps were invented.
+- [x] Live census: **234 canonical / 0 duplicate IDs / 142 strict-thin records**.
+- [x] Added and registered `docs/data/super-soul-176-182-183-184-188-189-stacking-reconciliation-2026-09-22.json`.
+- [ ] Next: continue evidence-rich unresolved Super Soul thin-field records.
