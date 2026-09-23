@@ -5608,18 +5608,20 @@
       "trigger_condition": "When guard is broken",
       "effect_text": "Shortens the user's guard-break duration.",
       "effect_magnitude": "-25% guard-break time",
-      "duration": null,
-      "stacking_behavior": null,
+      "duration": "Not applicable as a timed buff; the effect modifies the duration of the user's guard-break state when triggered.",
+      "stacking_behavior": "Not reported as stackable; a single guard-break-duration modifier applies.",
       "limit_burst": "Auto Health and Stamina Recovery! DEF Down.",
       "limit_burst_trigger": null,
       "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Mechanics and character source refreshed from the maintained Super Soul catalogue and independent corroboration. Exact reward/drop semantics beyond the canonical PQ reward relationship are not asserted.",
-      "verification_status": "partially_verified",
+      "version_notes": "Exact-name mechanics independently corroborated: when guard is broken, GAAAGH! shortens the user's guard-break duration by 25%. The effect is a duration modifier rather than a timed buff, so duration is recorded as not applicable; no stacking behavior is documented.",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-22",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://videogaming.fandom.com/wiki/GAAAGH%21"
       ],
       "source_parallel_quests": [
         "pq-128"
