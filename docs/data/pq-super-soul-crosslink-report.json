@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "domain": "pq_super_soul",
   "canonical_pq_records": 186,
-  "canonical_target_records": 229,
+  "canonical_target_records": 228,
   "forward_edges": [
     {
       "pq_id": "pq-002",
@@ -163,15 +163,6 @@
       "target_name": "Getting beat up makes me cranky...",
       "status": "canonical_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq_id": "pq-049",
-      "pq_number": 49,
-      "target_id": "super-soul-158",
-      "target_name": "Do or Die",
-      "status": "canonical_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-      "evidence_note": "Name collision boundary: the PQ49 relationship is preserved, but PQ49's well-documented 'Do or Die' reward is also a Super Skill. The canonical Super Soul record intentionally does not inherit the skill's mechanics or character source until item-level evidence distinguishes the same-name records."
     },
     {
       "pq_id": "pq-058",
@@ -1365,16 +1356,6 @@
       ],
       "pq_numbers": [
         44
-      ]
-    },
-    {
-      "target_id": "super-soul-158",
-      "target_name": "Do or Die",
-      "pq_ids": [
-        "pq-049"
-      ],
-      "pq_numbers": [
-        49
       ]
     },
     {
@@ -2616,10 +2597,10 @@
   "validation": {
     "canonical_pq_records": 186,
     "canonical_target_records": 229,
-    "forward_edge_count": 146,
-    "reverse_edge_count": 143,
+    "forward_edge_count": 145,
+    "reverse_edge_count": 142,
     "unique_pq_endpoints": 96,
-    "unique_target_endpoints": 143,
+    "unique_target_endpoints": 142,
     "unresolved_target_route_count": 0,
     "unresolved_target_routes": 0,
     "broken_forward_endpoints": 0,
@@ -2627,12 +2608,8 @@
     "last_recomputed": "2026-09-23",
     "canonical_endpoint_parity": "pass",
     "source_of_truth": "canonical PQ reward arrays + canonical Super Soul records",
-    "evidence_bound_target_ids": [
-      "super-soul-158"
-    ],
-    "evidence_boundary_notes": [
-      "super-soul-158 / Do or Die: preserve PQ relationship but do not promote skill mechanics into the Super Soul record."
-    ],
+    "evidence_bound_target_ids": [],
+    "evidence_boundary_notes": [],
     "duplicate_keys": 0,
     "invalid_pq": 0,
     "unresolved_target_count": 0,
@@ -2641,7 +2618,14 @@
     "discrepancy_note": "The five-edge 151/148 delta was resolved by removing misidentified indexed-only Super Soul 232-236 relationships. Current canonical state is 146 forward edges / 143 reverse endpoints; dated historical discrepancy records retain the former 151/148 state."
   },
   "last_recomputed": "2026-09-23",
-  "evidence_boundaries": {},
+  "evidence_boundaries": {
+    "super-soul-158": {
+      "status": "migrated_out_of_domain",
+      "legacy_id": "super-soul-158",
+      "canonical_skill_id": "skill-do-or-die",
+      "reason": "Exact repository evidence establishes Do or Die as the canonical PQ49 Super Skill; no distinct Super Soul identity is established."
+    }
+  },
   "notes": [
     "2026-09-23: removed five misidentified indexed-only Super Soul 232-236 records and their PQ152-PQ155 edges after identity reconciliation."
   ]
