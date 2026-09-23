@@ -6,47 +6,47 @@
   "live_counts": {
     "canonical_skill_records": 455,
     "index_skill_records": 455,
-    "current_last_verified_records": 403,
-    "stale_last_verified_records": 52,
+    "current_last_verified_records": 415,
+    "stale_last_verified_records": 40,
     "duplicate_ids": 0
   },
-  "method": "Fresh alphabetical census after the Spirit Slash through Super Elite Combo batch.",
+  "method": "Fresh alphabetical census after the Super Saiyan Blue Kaioken through Symphonic Destruction provenance refresh.",
   "next_stale_records": [
     {
-      "name": "Super Saiyan Blue Kaioken"
+      "name": "Tail Slicer"
     },
     {
-      "name": "Super Saiyan God"
+      "name": "Taunt"
     },
     {
-      "name": "Super Saiyan God Super Saiyan"
+      "name": "Teleporting Vanishing Ball"
     },
     {
-      "name": "Super Saiyan God Super Saiyan (Evolved)"
+      "name": "Temporal Holy Ray"
     },
     {
-      "name": "Super Spirit Bomb"
+      "name": "The Power to Overcome"
     },
     {
-      "name": "Super Vegeta"
+      "name": "The Savior Has Come"
     },
     {
-      "name": "Supernova"
+      "name": "Thunder Flash"
     },
     {
-      "name": "Supernova Cooler"
+      "name": "Time Bullet"
     },
     {
-      "name": "Supersonic Mode"
+      "name": "Time Control"
     },
     {
-      "name": "Supreme Fury"
+      "name": "Time Skip/Back Breaker"
     },
     {
-      "name": "Surging Spirit"
+      "name": "Time Skip/Flash Skewer"
     },
     {
-      "name": "Symphonic Destruction"
+      "name": "Time Skip/Jump Spike"
     }
   ],
   "validation": {
