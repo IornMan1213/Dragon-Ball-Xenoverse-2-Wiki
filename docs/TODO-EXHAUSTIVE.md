@@ -3707,3 +3707,14 @@
 - [x] Validation: official pack scope remains 8 costumes; six-target batch remains 1 exact canonical match + 5 exact canonical gaps; zero new canonical IDs and zero identity aliases were created.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next task: resolve the canonical equipment-layer capacity/ID architecture question for these five evidence-backed identities without inventing equip-141+ records; if the layer remains intentionally closed at equip-140, preserve the five as explicit inventory gaps and then proceed to the Puar/CC Mascot identity gap.
+
+
+### 2026-09-23 — TODO completion update — Time Patrol Support Pack Puar / CC Mascot identity
+- [x] Researched **Puar** as the remaining advertised Time Patrol Support Pack CC Mascot using official PlayStation/Nintendo/Steam/Xbox storefront evidence plus independent CC Mascot documentation.
+- [x] Resolved the identity domain: **Puar is a CC Mascot/lobby-item identity, not equipment or an accessory**; no `equip-###` or `acc-###` alias was created.
+- [x] Confirmed the exact published Support Pack identity is **Puar**. Independent CC Mascot evidence also distinguishes Puar from Puar color variants and documents non-DLC acquisition routes, so the Support Pack is not treated as exclusive ownership.
+- [x] Added `docs/data/dlc/time-patrol-support-pack-puar-cc-mascot-identity-reconciliation-2026-09-23.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Updated `docs/data/dlc/time-patrol-support-pack-content-reconciliation-2026-09-23.json` with the resolved identity and canonical-domain boundary.
+- [x] Evidence boundary preserved: the repository currently has **no dedicated canonical CC Mascot record layer**, so no mascot ID was invented and no incomplete equipment/accessory schema was reused.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: introduce the smallest dedicated **CC Mascot canonical/catalog schema and index**, then promote Puar with exact DLC provenance and validate navigation parity. Preserve the five unmatched Support Pack costume identities as evidence-backed equipment inventory gaps and do not invent `equip-141+` IDs.
