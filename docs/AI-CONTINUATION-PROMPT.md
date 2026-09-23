@@ -4981,3 +4981,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Updated `docs/data/pq-explorer-reward-navigation-audit.json` and `docs/data/pq-direct-template-dlc-consumer-audit-2026-09-22.json` to record the repair and 854-edge current baseline.
 - Direct fetch/static inspection confirmed the validator contains the new checks and the explorer initializes its query after DOM element declaration. Runtime/CI remains unavailable; no executable success claimed.
 - Exact next batch: inspect character and Super Soul reverse-navigation destinations for the same query/deep-link contract, then repair deterministic navigation gaps only.
+
+
+### 2026-09-23 cycle update — Dedicated Character/Super Soul reverse-navigation parity
+- Repaired `docs/Parallel-Quests-All.html` so explicit PQ→Character links target `/Characters-All/?q=` and PQ→Super Soul links target `/Super-Souls-All/?q=`. Both destinations already consume query deep links, giving relationship endpoints a dedicated searchable destination.
+- Extended `scripts/validate_pq_explorer_reward_navigation.py` with explicit checks for both dedicated destinations.
+- Updated `docs/data/pq-explorer-reward-navigation-audit.json` to record the navigation parity repair. No relationship edge was changed.
+- Static/direct repository inspection only; runtime/CI remains unavailable and no executable success is claimed.
+- Exact next batch: inspect remaining Equipment/DLC reverse-navigation presentation and any generated content pages for one-way destinations, then continue deterministic cross-database navigation parity.
