@@ -4185,3 +4185,18 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Commits: canonical `8ab4dc33f3461fc597e95e8a9099e2f8c5ee1620`; audit `65c7afd2d65c0d3d48cf8ce72fc1f2b686f02229`; cross-domain index `b71d470f8449e24847f5b84573755c08e1aa5b86`.
 - [ ] CI/runtime: no successful workflow/check exposed; do not claim CI success.
 - [ ] Exact next priority: recompute the live Super Soul thin-system census using the repository's established census definition, then select the next **4–12 highest-impact unresolved records**. The **232–236** cluster remains explicitly evidence-bound and should only be promoted if exact-name item-level mechanics evidence is found; otherwise skip it and continue to another evidence-supported cluster. Do not create another dated continuation prompt.
+
+### 2026-09-22 cycle update — Raid Super Souls 054/057/058/063 evidence strengthening
+- [x] Recomputed the live Super Soul corpus and selected the next high-impact partially verified raid cluster: **054, 057, 058, 063**.
+- [x] Added independent raid/effect evidence to all four records.
+- [x] **057 — Can I attack now?** now has corroborated Limit Burst (**ATK Up! / Ki Auto-Recovery! / Stamina Rec. SPD Down.**) and is promoted to `verified_secondary`.
+- [x] **058 — Now I'm MAD!** now has corroborated Limit Burst (**DEF Up! / You've Got Super Armor! / Ki Rec. SPD Down.**) and is promoted to `verified_secondary`.
+- [x] **063 — Zudodoeyaahh!** now has corroborated **+100% / XXL throw boost** and **Auto Just Guard** Limit Burst and is promoted to `verified_secondary`.
+- [x] **054 — Leave my daddy alone!** gained independent raid-reward evidence, but remains `partially_verified` because its Limit Burst is still unresolved.
+- [x] Refreshed `docs/data/super-soul-thin-census-2026-09-22.json`.
+- [x] Post-edit live validation: **234 canonical / 0 duplicate IDs**; statuses **86 partially_verified / 11 verified / 97 verified_secondary / 27 researched / 13 indexed**.
+- [x] Live strict-thin count is **182** under the current eight-field census definition. This differs from the older checkpoint's 139 and should be treated as the freshly recomputed live value, not as a regression claim.
+- [x] Evidence boundaries preserved: no unsupported exact timing, reward probability, or internal engine-rate values were promoted.
+- [x] Commit: canonical Super Soul data **55fbdb048c4e63eb019c52986e81ebf12b805697**; refreshed census **507ea19864a4c5c78a5a17629c71b86feb6e7278**.
+- [ ] CI/runtime: no successful workflow/check exposed; do not claim CI success.
+- [ ] Exact next priority: continue the deterministic partially-verified Super Soul census, preferring records with multiple unresolved core fields and at least two independent exact-name sources. Recheck **054** only if stronger Limit Burst evidence appears; otherwise move to the next evidence-supported cluster. Do not create a new continuation prompt.
