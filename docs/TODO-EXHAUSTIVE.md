@@ -3088,3 +3088,11 @@
 - [x] Re-read canonical JSON and confirmed **234 records / 0 duplicate IDs / 80 strict-thin**.
 - [ ] CI/runtime remains unavailable.
 - [ ] Next: recompute strict-thin queue and continue the next evidence-supported early/base-game cluster; preserve **032/034** evidence boundaries.
+
+### 2026-09-23 — Super Soul 100–107 reconciliation
+- [x] Reconciled duration/stacking fields for **100–107**.
+- [x] Preserved evidence boundaries; explicit **5-stack** cap retained only for 107.
+- [x] Strict-thin multi-missing queue reduced **64 → 56**.
+- [x] Canonical JSON validated: **234 records / 0 duplicate IDs**.
+- [ ] CI/runtime remains unavailable.
+- [ ] Next: recompute strict-thin queue and continue the next evidence-supported cluster; preserve **032/034** boundaries.
