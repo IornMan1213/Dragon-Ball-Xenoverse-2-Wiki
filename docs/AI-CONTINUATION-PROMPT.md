@@ -6183,3 +6183,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Reconciled a deterministic field mismatch for Energy Minefield: canonical `unlock_method` and maintained evidence establish 75%, while `source_quest_or_shop` still contained stale 60% wording; it is now synchronized to 75%.
 - Added `docs/data/tokipedia-endpoint-audit-2026-09-23.json`; validation passes with zero broken skill IDs.
 - **Exact next task:** build/reconcile the Conton City Patrol endpoint consumer layer, then audit remaining non-PQ/non-mentor acquisition records for deterministic endpoint gaps.
+
+
+### 2026-09-23 cycle update — Conton City Patrol canonical endpoint layer
+- Added `docs/data/conton-city-patrol-endpoints.json`: **3 deterministic Patrol endpoints / 3 forward skill edges / 3 unique skill targets**.
+- Covered Patrol 04 → Gigantic Cross, Patrol 10 → Saiyan Blaster, and Patrol 17 → Gigantic Nova.
+- Added `docs/data/conton-city-patrol-endpoint-audit-2026-09-23.json`; validation passes with zero broken canonical skill IDs.
+- Patrol event acquisition is kept distinct from mentor-training acquisition.
+- **Exact next task:** audit remaining non-PQ/non-mentor acquisition records for deterministic endpoint gaps and reconcile any missing canonical cross-links.
