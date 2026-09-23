@@ -1895,3 +1895,11 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - [x] No canonical PQ relationship identities changed and no unsupported reward probabilities or Ultimate-Finish requirements were added.
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [ ] Next priority: inspect **034** evidence boundary, then recompute the strict-thin queue for the next 4–12 records.
+
+### 2026-09-22 — Super Souls 167/169/170/171 evidence reconciliation
+- [x] Promoted **167, 169, 170, and 171** to `verified_secondary` after exact-name catalogue and independent historical/PQ evidence reconciliation.
+- [x] Preserved applicable-state/event semantics without inventing finite timers or stacking rules.
+- [x] Added and registered `docs/data/super-soul-167-169-170-171-reconciliation-2026-09-22.json`.
+- [x] No canonical PQ relationship identities changed; no unsupported reward probabilities or Ultimate-Finish requirements were added.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [ ] Next priority: recompute the live strict-thin census and select the next evidence-supported batch; **034 remains an explicit evidence boundary** rather than a forced completion target.
