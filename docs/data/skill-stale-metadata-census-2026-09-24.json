@@ -6,63 +6,63 @@
   "live_counts": {
     "canonical_skill_records": 465,
     "index_skill_records": 465,
-    "current_last_verified_records": 206,
-    "stale_last_verified_records": 259,
+    "current_last_verified_records": 218,
+    "stale_last_verified_records": 247,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
     {
-      "id": "skill-full-power-charge",
-      "name": "Full Power Charge"
+      "id": "skill-gigantic-charge",
+      "name": "Gigantic Charge"
     },
     {
-      "id": "skill-full-power-destruction",
-      "name": "Full Power Destruction"
+      "id": "skill-giant-cluster",
+      "name": "Gigantic Cluster"
     },
     {
-      "id": "skill-future-super-saiyan",
-      "name": "Future Super Saiyan"
+      "id": "skill-gigantic-cross",
+      "name": "Gigantic Cross"
     },
     {
-      "id": "skill-galactic-donuts",
-      "name": "Galactic Donuts"
+      "id": "skill-gigantic-explosion",
+      "name": "Gigantic Explosion"
     },
     {
-      "id": "skill-galick-cannon",
-      "name": "Galick Cannon"
+      "id": "skill-gigantic-meteor",
+      "name": "Gigantic Meteor"
     },
     {
-      "id": "skill-galick-gun",
-      "name": "Galick Gun"
+      "id": "skill-gigantic-nova",
+      "name": "Gigantic Nova"
     },
     {
-      "id": "skill-gamma-blaster",
-      "name": "Gamma Blaster"
+      "id": "skill-gigantic-omega",
+      "name": "Gigantic Omega"
     },
     {
-      "id": "skill-gamma-impact",
-      "name": "Gamma Impact"
+      "id": "skill-gigantic-rage",
+      "name": "Gigantic Rage"
     },
     {
-      "id": "skill-genocide-shell",
-      "name": "Genocide Shell"
+      "id": "skill-gigantic-roar",
+      "name": "Gigantic Roar"
     },
     {
-      "id": "skill-giant-storm",
-      "name": "Giant Storm"
+      "id": "skill-god-breaker",
+      "name": "God Breaker"
     },
     {
-      "id": "skill-gigantic-breaker",
-      "name": "Gigantic Breaker"
+      "id": "skill-god-of-destruction-s-anger",
+      "name": "God of Destruction's Anger"
     },
     {
-      "id": "skill-gigantic-burst",
-      "name": "Gigantic Burst"
+      "id": "skill-god-of-destruction-s-menace",
+      "name": "God of Destruction's Menace"
     }
   ],
   "notes": [
     "Canonical/index counts and IDs remain aligned.",
-    "Counts computed from the live canonical dataset after the completed 12-record batch.",
+    "Counts computed from the live canonical dataset after this bounded batch.",
     "Existing acquisition, reward, mechanics, restriction, DLC/update, and evidence-conflict semantics were preserved."
   ]
 }
