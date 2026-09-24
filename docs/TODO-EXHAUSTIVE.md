@@ -6252,3 +6252,11 @@
 - [x] Rejected older-Xenoverse and wrong-form/SSGSS evidence from contaminating Xenoverse 2 base-Goku records.
 - [x] Updated `docs/data/character-preset-loadout-promotion-gates-2026-09-24.json` with the version-aware evidence boundary.
 - [ ] **Next:** find version-correct numeric-preset + complete-loadout evidence for unresolved records.
+
+
+### 2026-09-24 cycle completion — fresh preset source verification
+- [x] Re-searched unresolved Goku Presets 2–5 with fresh web evidence.
+- [x] Confirmed numeric identity without promoting unsupported loadouts.
+- [x] Rejected SSGSS Goku Preset 4 evidence as the wrong roster identity for base Goku Preset 4.
+- [x] Updated the preset evidence-gate audit.
+- [ ] **Next:** locate complete version-correct numeric-preset loadout evidence.
