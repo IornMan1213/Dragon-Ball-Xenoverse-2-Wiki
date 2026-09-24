@@ -6745,3 +6745,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation target: **151 canonical character records / 247 PQ→character edges / 75 unique relationship targets / 0 inferred relationship additions**.
 - CI/runtime remains unavailable; no CI success claimed.
 - **Exact next task:** continue the deterministic producer/consumer census for any remaining stale current-state skill/domain counts, then resume explicit source-backed preset-loadout reconciliation.
+
+
+### 2026-09-23 cycle update — Skill acquisition endpoint consumer synchronization
+
+- Completed a fresh live endpoint census after restoring canonical/index skill parity to **465/465**.
+- Repaired six current-looking consumers that still used the superseded **455** skill baseline.
+- Current acquisition endpoint census is now aligned: **18 Expert Mission**, **31 shop**, **13 Time Rift/story/tournament**, **4 Tokipedia**, **3 Conton City Patrol**, **14 special acquisition**, **10 character-exclusive**, and **2 starting-move** endpoint layers; full endpoint reverse parity reports **465/465 covered skills, 0 uncovered**.
+- Corrected non-PQ coverage arithmetic to **465 = 239 PQ-linked + 226 non-PQ; 226 = 131 unique mentor-linked + 95 non-PQ/non-mentor**.
+- Added and registered `docs/data/skill-acquisition-endpoint-consumer-synchronization-2026-09-23.json`.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next task:** advance the P1 acquisition/provenance queue from the current 95 non-PQ/non-mentor skills, beginning with remaining ambiguous/under-sourced endpoint routes such as Ultra Instinct, and preserve evidence boundaries rather than inferring relationships.
