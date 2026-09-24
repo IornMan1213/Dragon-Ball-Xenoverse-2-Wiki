@@ -7534,3 +7534,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime remains unavailable; no CI success claimed.
 - Commits: audit `791e0f7fc6ab83debf76913e335629a9619ed15f`; cross-domain registration `d7648d2a13b42c6572c66baeafa299821d19ede4`.
 - **Exact next priority:** audit `docs/data/accessory-raid-identity-reconciliation-2026-09.json` against the live canonical accessory layer for exact matches among Tapion Wig, Cheelai Wig variants, Tights Hat, Universe 6 S. Kai's Helper's Hat, Lord Zuno's Topknot Wig, Android 21 Wig & Glasses, Hercule Wig 2, and Tiencha Wig. Preserve unresolved status unless an exact canonical identity is established.
+
+
+### 2026-09-24 cycle completion — raid accessory exact-identity reconciliation
+- Audited `docs/data/accessory-raid-identity-reconciliation-2026-09.json` against the live canonical accessory and equipment-accessory layers.
+- Promoted six exact identities: **Tapion Wig (accr-106), Tights Hat (accr-107), Universe 6 Supreme Kai's Helper's Hat (accr-108), Lord Zuno's Topknot Wig (accr-109), Android 21 Wig & Glasses (accr-110), Tiencha Wig (accr-111)**.
+- Updated the raid/gift bridge to use the new canonical IDs; it now contains **14 resolved / 2 unresolved** records.
+- Three identities remain unresolved: **Cheelai Wig, Cheelai Wig (w/Scouter), Hercule Wig 2**. No near-name merge was performed.
+- Added and registered `docs/data/accessory-raid-identity-reconciliation-audit-2026-09-24.json`.
+- Validation: **9 identity records / 6 exact matches / 3 unresolved / 111 canonical records / 14 resolved bridge records / 2 unresolved bridge records / all IDs valid / exact unmatched-list parity / no near-name merges**.
+- CI/runtime unavailable; no CI success claimed.
+- Commits: canonical promotion `86e7222cce556658ff4e6bc2cf83603e9e0eac0f`; reconciliation `a61a25584a61a7cd95f93c9ce1877af424f44083`; bridge update `4bdaa252cb25aafb51e7ade626cfdd1edf70329c`; audit `4c99cb4817193ec83bdcd2359fc0a0d5c293f114`; registration `875aa4efad2823fd291a14638f986f11c1cc997a`.
+- **Exact next priority:** reconcile the remaining three unresolved raid accessory identities against existing repository research/equipment sources, promoting only exact evidence-backed matches; then resume the event/raid non-PQ consumer scan.
