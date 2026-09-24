@@ -188,6 +188,31 @@ The canonical research layer currently contains **37 raid/event-associated Super
 | super-soul-127 | That's a dead ball now, right? | Raid Quest Event | Gohan (Future) Online Raid | verified_secondary |
 | super-soul-128 | Nothing beats flying! | Raid Quest Event | Transforming Gogeta (DB Super) Online Raid | verified_secondary |
 | super-soul-129 | There was actually five of me! | Raid Quest Event | Ginyu Force Online Raid | verified_secondary |
+| super-soul-052 | Why are you dodging?! | Raid Quest | Limited-time Raid Quest event reward; Transforming Bardock raid damage-milestone track | partially_verified |
+| super-soul-054 | Leave my daddy alone! | Raid Quest | Limited-time Raid Quest event reward; Supervillain Perfect Cell raid | verified_secondary |
+| super-soul-057 | Can I attack now? | Raid Quest | Limited-time Raid Quest Event Reward; Majin Buu (Gohan Absorbed) raid | verified_secondary |
+| super-soul-058 | Now I'm MAD! | Raid Quest | Limited-time Raid Quest Event Reward; Dabura raid | verified_secondary |
+| super-soul-063 | Zudodoeyaahh! | Raid Quest | Limited-time Raid Quest Event Reward; True Terror in Saiyan Form / DBS Broly raid | verified_secondary |
+| super-soul-074 | Goku! Time for dinner! | Raid Quest Event | Limited-Time Raid Quest Event Reward | verified_secondary |
+| super-soul-082 | Let's get round two started! | Raid Quest Event | Limited-Time Raid Quest Event Reward | verified_secondary |
+| super-soul-083 | I can finally get my hands dirty again. | Raid Quest Event | Limited-Time Raid Quest Event Reward | verified_secondary |
+| super-soul-092 | I think I'm finally warmed up now! | Raid Quest Event | Limited-Time Raid Quest Event Reward | verified_secondary |
+| super-soul-094 | Your energy is now mine to wield. | Raid Quest Event | Limited-Time Raid Quest Event Reward | verified_secondary |
+| super-soul-095 | I've got something extra special for you! | Raid Quest Event | Limited-Time Raid Quest Event Reward | verified_secondary |
+| super-soul-096 | It must be some kind of trick... | Raid Quest Event | Hercule Online Raid | verified_secondary |
+| super-soul-097 | It all comes down to this! | Raid Quest Event | Transforming Goku (GT) Online Raid | verified_secondary |
+| super-soul-103 | Emoc htorf! Peas and Carrots! | Raid Quest Event | Dyspo Online Raid | verified_secondary |
+| super-soul-104 | Looks like I mixed up the capsules... | Raid Quest Event | Transforming Majin Buu Online Raid | verified_secondary |
+| super-soul-111 | I can tell you're an amateur by the way you pose! | Raid Quest Event | Gamma 2 Online Raid | verified_secondary |
+| super-soul-112 | That's minus ten points! | Raid Quest Event | Super 17 Online Raid | verified_secondary |
+| super-soul-115 | Help me, Daddy! I'm scared! | Raid Quest Event | Transforming Cooler Online Raid | verified_secondary |
+| super-soul-116 | Damn... Gonna have to go all out! | Raid Quest Event | Cell Max Online Raid | verified_secondary |
+| super-soul-117 | Not a single word! | Raid Quest Event | Android 13 Online Raid | verified_secondary |
+| super-soul-127 | That's a dead ball now, right? | Raid Quest Event | Gohan (Future) Online Raid | verified_secondary |
+| super-soul-128 | Nothing beats flying! | Raid Quest Event | Transforming Gogeta (DB Super) Online Raid | verified_secondary |
+| super-soul-129 | There was actually five of me! | Raid Quest Event | Ginyu Force Online Raid | verified_secondary |
+| super-soul-135 | I learned a lot from how you fight. | Limited Time Event | Limited Time Event Reward | verified_secondary |
+| super-soul-136 | You intend to defy me?! | Raid Quest Event | Broly (Restrained) Online Raid | verified_secondary |
 | super-soul-135 | I learned a lot from how you fight. | Limited Time Event | Limited Time Event Reward | verified_secondary |
 | super-soul-136 | You intend to defy me?! | Raid Quest Event | Broly (Restrained) Online Raid | verified_secondary |
 
