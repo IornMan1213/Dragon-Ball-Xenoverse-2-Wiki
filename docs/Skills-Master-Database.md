@@ -1,6 +1,6 @@
 # Skills Master Database
 
-Dragon Ball Xenoverse 2 has hundreds of skills across the base game and years of DLC. This page is the research hub for the complete skills project; the interactive [Skills Database](skills-database.html) is the preferred browsing experience.
+Dragon Ball Xenoverse 2 has hundreds of skills across the base game and years of DLC. This page is the research hub for the complete skills project; the interactive [Skills Database](Skills-All.html) is the preferred browsing experience.
 
 > **Data policy:** a skill name or category is only treated as confirmed index data when it appears in a source category or game-data reference. Mechanics such as damage, costs, unlock requirements and combo properties are marked as verified only after a separate check. This keeps the database useful without turning guesses into facts.
 
@@ -118,4 +118,4 @@ This makes the wiki suitable for search, filters, build recommendations and futu
 
 **Primary source**: Dragon Ball Xenoverse 2 Wiki on Fandom, especially the Skills category and its subcategories. Fandom's category pages identify the skill taxonomy and member lists; this project uses those pages as a reference/index while writing its own database presentation and explanatory material.
 
-**Related**: [Interactive Skills Database](skills-database.html) · [Skills Detail](Skills-Detail.md) · [Skill Unlock Methods](Skill-Unlock-Methods.md) · [Builds](Builds.md)
+**Related**: [Interactive Skills Database](Skills-All.html) · [Skills Detail](Skills-Detail.md) · [Skill Unlock Methods](Skill-Unlock-Methods.md) · [Builds](Builds.md)
