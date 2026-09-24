@@ -125,3 +125,17 @@
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Commits: 87fa639c94f0780cb33b46f2035802c403ba5f41, 2d69bafbd3e166d668872d68ed27732911c1ec67, 78a0644372c7672686bacf34ed37760789e61da5, 0239483523cab6072e67434c321aa93115025720, 11459e95569738042a35f6d9ad06831e4477bfea, 80f92ffa20e431e86f51c5b6e839c27c6495b7e1, b3d2d237c9f011b4e779bcf54db2b35b3fcc1f77, e7f8122973e53eacfe9c23c876b138be09c02d57.
 - [ ] **Exact next batch:** continue the deterministic current-facing non-PQ/mentor consumer scan for stale scalar counts, orphan endpoint IDs, and one-way navigation. In parallel, only promote Time Skip/Tremor Pulse when a canonical skill record is actually added through the standard skill research/indexing pipeline; do not infer it from category membership alone.
+
+
+### 2026-09-24 cycle completion — mentor-derived acquisition consumer reconciliation
+- [x] Live census exposed a second-order projection issue after the prior Hit endpoint repair: several current-facing acquisition consumers still counted the removed `skill-time-skip-tremor-pulse` relationship as resolved.
+- [x] Corrected `docs/data/mentors.json` so Hit's unresolved Time Skip/Tremor Pulse lesson is not present in the resolved mentor skill projection.
+- [x] Corrected current fields in `docs/data/skill-acquisition-coverage-report.json`, `docs/data/skill-acquisition-coverage-current-audit-2026-09-23.json`, and `docs/data/skill-acquisition-coverage-current-projection-audit-2026-09-24.json` to use **131 resolved mentor→skill edges / 130 unique resolved skill targets**.
+- [x] Corrected `docs/data/mentor-presentation-consumer-audit-2026-09-24.json` and `docs/Mentors.md` to distinguish **132 typed skill reward lessons** from **131 resolved skill endpoints**, with **1 unresolved skill lesson**.
+- [x] Historical 132-edge/131-target snapshots were preserved where explicitly labeled historical; they were not rewritten as if they were current.
+- [x] Added `docs/data/mentor-derived-acquisition-consumer-reconciliation-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: Hit unresolved endpoint absent from resolved `mentors.json` and `mentor-endpoints.json`; crosslink resolved edge count 131; current acquisition projection 131/130; presentation 132 typed skill rewards + 131 resolved edges + 1 unresolved lesson; broken endpoints 0.
+- [x] No canonical skill ID was fabricated and no historical snapshot was deleted.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Commits: `4c8a77005be84045272125b9fb3c93a336b7fc42`, `39366242e462c7d3bbf34db88fd123a820b51ee2`, `dbb1f73eb890630e9aaab38ebcea6e7d9cab9bbb`, `3713b8b7ce2abb3f862643ef4e0528bebc47e4e4`, `87953194b8cc48c24cadacf9b5d6c40ef48c8e4f`, `c1f9f353a19e42a15f88aff3e76f821806bb8100`, `e29694f8837f49e2d3e647b056a85ac13c3189ef`, `f76ca44dadf71bd3e58597a74b27d2f9f9c75a17`.
+- [ ] **Exact next batch:** continue the deterministic non-PQ/mentor consumer scan, searching current-facing projections for any remaining references to `skill-time-skip-tremor-pulse` or stale current 132-edge/131-target mentor counts; preserve explicitly historical snapshots.
