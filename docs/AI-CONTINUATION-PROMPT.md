@@ -6923,3 +6923,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: **465/465 canonical/index IDs**, **0 duplicate IDs**, **96 current / 369 stale** after editing.
 - CI/runtime remains unavailable; no CI success claimed.
 - Exact next stale batch: **Death Beam; Death Crasher; Death Meteor; Death Psycho Bomb; Death Slash; Death Slicer; Death Wave; Demon Flash Strike; Demon Flurry; Demon Ray; Demonic Destruction; Destruction's Concerto: Comet**.
+
+
+### 2026-09-24 cycle update — Death through Destruction skill provenance refresh
+
+- Completed the next bounded P1 provenance batch: **12 skill records** — Death Beam, Death Crasher, Death Meteor, Death Psycho Bomb, Death Slash, Death Slicer, Death Wave, Demon Flash Strike, Demon Flurry, Demon Ray, Demonic Destruction, and Destruction's Concerto: Comet.
+- Refreshed canonical `docs/data/skills.json` and `docs/data/skills-index.json`; all 12 now carry `last_verified=2026-09-24`.
+- Added/updated `docs/data/skill-provenance-audit-2026-09-24-death-through-destruction.json` and refreshed `docs/data/skill-stale-metadata-census-2026-09-24.json`.
+- Live skill verification census after the batch: **465 canonical / 465 index / 108 current / 357 stale / 0 duplicate IDs**.
+- Existing acquisition endpoints, reward semantics, mechanics, restrictions, DLC/update provenance, and evidence boundaries were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions were introduced.
+- Commits: canonical `fe65f577f7d1e67f9bb61319aa9f66e96348025d`; index `9998b83047c36c44c47776fd1f4407221b6c31e6`; audit `16a59314a5830b3a45c2487d6fcf0a564263cef6`; census `5470c5701c58e6e2135dd1f90d9facb77545cf6f`.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next stale batch:** Demon Wing Flash; Die Die Missile Barrage; Dimension Ray; Divine Kamehameha; Divine Lasso; Dodoria Headbutt; Double Destructo-Disc; Double Sunday; Dragon Blitz; Dragon Burner; Dragon Fist; Dragon Flash.

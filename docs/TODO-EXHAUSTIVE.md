@@ -5241,3 +5241,13 @@
 - [x] Validation: **465/465 canonical/index IDs, 0 duplicate IDs, 96 current, 369 stale**.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next batch:** Death Beam; Death Crasher; Death Meteor; Death Psycho Bomb; Death Slash; Death Slicer; Death Wave; Demon Flash Strike; Demon Flurry; Demon Ray; Demonic Destruction; Destruction's Concerto: Comet.
+
+
+### 2026-09-24 cycle update — Death through Destruction skill provenance refresh
+
+- [x] Completed the bounded P1 provenance batch for Death Beam, Death Crasher, Death Meteor, Death Psycho Bomb, Death Slash, Death Slicer, Death Wave, Demon Flash Strike, Demon Flurry, Demon Ray, Demonic Destruction, and Destruction's Concerto: Comet.
+- [x] Synchronized canonical/index skill verification metadata and added the bounded provenance audit.
+- [x] Refreshed the live stale census to **465 canonical / 465 index / 108 current / 357 stale / 0 duplicate IDs**.
+- [x] Preserved existing acquisition, reward, mechanics, restriction, DLC/update, and evidence-boundary semantics; no unsupported facts were inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** process the next 12 stale records — Demon Wing Flash; Die Die Missile Barrage; Dimension Ray; Divine Kamehameha; Divine Lasso; Dodoria Headbutt; Double Destructo-Disc; Double Sunday; Dragon Blitz; Dragon Burner; Dragon Fist; Dragon Flash.
