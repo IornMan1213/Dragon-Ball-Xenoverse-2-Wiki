@@ -7546,3 +7546,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime unavailable; no CI success claimed.
 - Commits: canonical promotion `86e7222cce556658ff4e6bc2cf83603e9e0eac0f`; reconciliation `a61a25584a61a7cd95f93c9ce1877af424f44083`; bridge update `4bdaa252cb25aafb51e7ade626cfdd1edf70329c`; audit `4c99cb4817193ec83bdcd2359fc0a0d5c293f114`; registration `875aa4efad2823fd291a14638f986f11c1cc997a`.
 - **Exact next priority:** reconcile the remaining three unresolved raid accessory identities against existing repository research/equipment sources, promoting only exact evidence-backed matches; then resume the event/raid non-PQ consumer scan.
+
+
+### 2026-09-24 cycle completion — unresolved raid accessory boundary + backlog synchronization
+- Rechecked **Cheelai Wig**, **Cheelai Wig (w/Scouter)**, and **Hercule Wig 2** against canonical/equipment records and route research. No exact canonical identity exists for these three in the current layer; Hercule Wig 2 remains distinct from Hercule Wig.
+- Synchronized `docs/data/accessory-unmatched-route-backlog.json`: the six previously reconciled raid identities were removed from the unmatched backlog; **5 unresolved route identities remain** there.
+- Reviewed existing event/raid evidence and found no dedicated generic raid skill endpoint layer suitable for deterministic forward/reverse projection. No speculative endpoint relationships were added.
+- CI/runtime unavailable; no CI success claimed.
+- Commit: backlog synchronization `09beac8740fbf239c75b2456664c0783681f933e`.
+- **Exact next priority:** audit the remaining unresolved accessory route candidates against canonical/equipment/route-specific layers, then continue deterministic event/raid non-PQ consumer scanning.
