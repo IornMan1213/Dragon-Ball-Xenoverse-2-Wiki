@@ -6134,3 +6134,12 @@
 - [x] Validation: embedded projection now contains 25 rows and exactly 162 skill entries; all IDs match the canonical verified-record set.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** continue deterministic character/preset/event consumer scanning for stale projections and one-way navigation; then resume source-backed preset/loadout expansion for unresolved characters where explicit numeric mapping exists.
+
+
+### 2026-09-24 cycle completion — Vegeta Preset 10/11 numeric identity evidence refresh
+- [x] Rechecked the unresolved Battle Suit 10/11 boundary against the repository's cited community video source.
+- [x] Upgraded the evidence from a generic repository search result to explicit video chapter timestamps: **Vegeta Preset 10 at 39:09** and **Vegeta Preset 11 at 42:06**.
+- [x] Kept both loadouts unresolved because the chapter metadata does not expose their six skill slots; no skill configuration was inferred.
+- [x] Updated `docs/data/preset-battle-suit-reconciliation-2026-09-23.json` with the direct numeric-identity evidence and preserved the unresolved-loadout boundary.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next batch:** continue source-backed preset/loadout expansion where the source directly exposes both numeric identity and skill configuration; otherwise continue deterministic non-PQ event/raid/Festival consumer scanning.
