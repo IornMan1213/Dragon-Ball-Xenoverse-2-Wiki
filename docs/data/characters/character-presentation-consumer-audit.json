@@ -135,7 +135,7 @@
     "status": "clean"
   },
   "validator": "scripts/validate_character_presentation_consumers.py",
-  "validator_commit": "9602b41f2979c10321774afeb5c4d11e500d6056",
+  "validator_commit": "6b2c15a4a34609b8ed6583d6cc465fb922cf5e30",
   "status": "clean",
   "notes": [
     "2026-09-24 live producer refresh: character-presets-record-layer.json now contains 51 records across 17 presentation character IDs, including 46 numbered preset records and 5 separate-character records; 25 records carry verified loadouts with 162 skill-slot entries. Prior 40/12 presentation counts were stale consumer projections.",
