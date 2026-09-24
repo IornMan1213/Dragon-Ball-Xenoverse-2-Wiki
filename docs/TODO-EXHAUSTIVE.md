@@ -5696,3 +5696,13 @@
 - [x] Added and registered `docs/data/mentor-skill-coverage-audit-2026-09-24.json`.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next priority:** continue the machine-checkable non-PQ reverse-projection audit against another current-facing consumer or partial research index.
+
+
+### 2026-09-24 cycle completion — Expert Mission acquisition cross-link completion
+- [x] Audited the Expert Mission acquisition index against the canonical Expert Mission endpoint layer.
+- [x] Added canonical `skill_id` and `endpoint_id` to all **18/18** maintained EM03–EM20 acquisition records using exact-name matching.
+- [x] Added and registered `docs/data/expert-mission-acquisition-index-audit-2026-09-24.json`.
+- [x] Validation: **18/18 cross-linked / 0 missing IDs / 0 duplicates / 0 unresolved names / exact parity clean**.
+- [x] Preserved partial acquisition evidence boundaries; no drop-rate or guarantee claims were upgraded.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next priority:** continue the remaining non-PQ reverse-projection audit, prioritizing another acquisition/event/identity consumer that can be deterministically reconciled.
