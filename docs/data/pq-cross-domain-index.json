@@ -566,5 +566,7 @@
   "live_skill_baseline_reconciliation_2026_09_24": "docs/data/live-skill-baseline-reconciliation-2026-09-24.json",
   "current_skill_projection_stale_scalar_scan_2026_09_24": "docs/data/current-skill-projection-stale-scalar-scan-2026-09-24.json",
   "skill_p1_provenance_coverage_gap_2026_09_24": "docs/data/skill-p1-provenance-coverage-gap-2026-09-24.json",
-  "skill_research_time_skip_tremor_pulse_2026_09_24": "docs/data/skill-research-batches/skill-batch-225.json"
+  "skill_research_time_skip_tremor_pulse_2026_09_24": "docs/data/skill-research-batches/skill-batch-225.json",
+  "skill_research_gap_boiling_ball_evidence_audit_2026_09_24": "docs/data/skill-research-gaps-boiling-ball-evidence-audit-2026-09-24.json",
+  "skill_research_gap_tricky_strike_evidence_audit_2026_09_24": "docs/data/skill-research-gaps-tricky-strike-evidence-audit-2026-09-24.json"
 }
