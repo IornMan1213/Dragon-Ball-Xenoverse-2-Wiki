@@ -75,7 +75,7 @@ The machine-readable layer contains **45 accessory/PQ research records**. The se
 
 PQ152, **Dyspo's Wanted Man**, lists Android 17 (DB Super)'s Wig; PQ154, **Dabura the Loyal? Servant**, lists King Vegeta (DB Super) Wig; PQ155, **I Need a Hero... Pose!**, lists Gamma 2's Helmet; and PQ156, **Hunting Down Dr. Hedo**, lists Gamma 1's Helmet. The DLC documentation independently associates these items with their respective DLC packs. citeturn0search1turn0search2
 
-The Hero of Justice PQ layer also identifies later accessories including Red Ribbon Army Helmet, Gohan (Beast) Wig, and Videl (DB Super) Wig. These remain tied to individual quests rather than being flattened into a generic DLC acquisition label. citeturn0search1
+The Hero of Justice PQ layer also identifies later accessories including Red Ribbon Army Helmet, Gohan (Beast) Wig, and Videl (DB Super) Wig. These remain tied to individual quests rather than being flattened into a generic DLC acquisition label. 
 
 ## DAIMA and later DLC coverage
 
