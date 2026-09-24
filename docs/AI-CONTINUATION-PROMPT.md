@@ -7929,3 +7929,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Commits: `7ea91ff0403f739b47fd70d9c60dc45c7db86a7f`, `5be337c4c398f450dba87ad819a0c3757ec861ad`.
 - Live census after editing: **153 / 469 / 174 / 853 / 11**.
 - **Exact next batch:** continue the deterministic non-PQ consumer scan for remaining event/raid/Festival presentation surfaces and stale count/list assumptions; prioritize a bounded surface with existing canonical/audit evidence, then return to exhaustive preset/loadout coverage.
+
+
+### 2026-09-24 cycle update — Future Saga Chapter 4 character audit count synchronization
+- Re-fetched the live canonical character producer and found `docs/data/future-saga-chapter-4-character-navigation-audit-2026-09-24.json` still asserted **153** canonical characters.
+- Synchronized that current-facing audit to the live producer count of **152** from `docs/data/characters-record-layer.json`.
+- Preserved the two publisher-backed Chapter 4 character identities and exact identity-resolution results; no preset, loadout, unlock, skill, Partner Customization, or PQ relationship was inferred.
+- Added an explicit current-state note distinguishing the superseded 153 value from the live 152-character producer.
+- Validation: edited audit JSON parses successfully; Chapter 4 record count remains 2; unresolved identity records remain 0; unsupported variant collapses remain 0.
+- CI/runtime remains unavailable; no CI success claimed.
+- Commit: audit update `28abdd784aebd7ff3fa23cad848083464db2a4b9`; TODO update `076567228427c51cf230677305052547cd3da11a`.
+- **Exact next batch:** continue deterministic event/raid/Festival/Chapter 4 and remaining character/preset current-consumer scanning for stale scalar counts, orphan targets, one-way navigation, and canonical-ID drift; once clean, resume the highest-impact source-backed preset/loadout tranche.
