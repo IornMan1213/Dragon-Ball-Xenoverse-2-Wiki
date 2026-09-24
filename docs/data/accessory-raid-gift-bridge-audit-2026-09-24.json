@@ -5,18 +5,21 @@
   "source": "docs/data/accessory-raid-gift-canonical-bridge.json",
   "canonical_identity_source": "docs/data/accessory-canonical-reconciliation.json",
   "counts": {
-    "bridge_records": 16,
-    "canonical_accessory_records": 105,
-    "resolved_bridge_records": 10,
-    "unresolved_candidate_records": 6,
-    "unique_resolved_canonical_ids": 6,
+    "bridge_records": 18,
+    "canonical_accessory_records": 116,
+    "resolved_bridge_records": 17,
+    "route_family_only_records": 1,
+    "unresolved_candidate_records": 0,
+    "unique_resolved_canonical_ids": 14,
     "duplicate_source_ids": 0,
-    "unresolved_candidate_names": 6
+    "unresolved_candidate_names": 0
   },
   "checks": {
     "all_resolved_canonical_ids_exist": true,
     "source_ids_unique": true,
-    "unmatched_candidate_list_exact": true
+    "unmatched_candidate_list_exact": true,
+    "bridge_record_count_current": true,
+    "canonical_record_count_current": true
   },
   "findings": {
     "missing_canonical_ids": [],
@@ -24,22 +27,38 @@
     "unmatched_candidate_mismatch": {
       "in_records_but_not_declared": [],
       "declared_but_not_in_records": []
+    },
+    "stale_prior_snapshot": {
+      "bridge_records": 16,
+      "canonical_accessory_records": 105,
+      "unresolved_candidate_records": 6,
+      "status": "historical_stale_snapshot"
     }
   },
   "multi_route_canonical_ids": [
     {
       "canonical_id": "accr-001",
-      "source_ids": ["raidgift-002", "raidgift-015"]
+      "source_ids": [
+        "raidgift-002",
+        "raidgift-015"
+      ]
     },
     {
       "canonical_id": "accr-002",
-      "source_ids": ["raidgift-003", "raidgift-014"]
+      "source_ids": [
+        "raidgift-003",
+        "raidgift-014"
+      ]
     },
     {
       "canonical_id": "accr-003",
-      "source_ids": ["raidgift-004", "raidgift-013", "raidgift-016"]
+      "source_ids": [
+        "raidgift-004",
+        "raidgift-013",
+        "raidgift-016"
+      ]
     }
   ],
-  "evidence_boundary": "This audit checks identity resolution and bridge consistency only. Historical raid/event availability, reward thresholds, recurrence, and unresolved candidate identities remain non-canonical; no new accessory identity or route is inferred.",
+  "evidence_boundary": "This audit checks current bridge identity resolution and consistency only. Historical raid/event availability, reward thresholds, recurrence, and route probabilities remain non-canonical; no new accessory identity or route is inferred. The former 16-record/6-unresolved audit values are preserved only as stale historical snapshot metadata.",
   "status": "clean"
 }
