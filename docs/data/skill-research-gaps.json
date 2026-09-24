@@ -84,7 +84,7 @@
         "Xenoverse 2 community catalog explicitly lists Baked Sphere among skills unobtainable by CaC.",
         "Xenoverse 2 gameplay documentation and character move lists place Baked Sphere in Supervillain-controlled character movesets."
       ],
-      "reason": "Xenoverse 2-specific evidence confirms Baked Sphere as a CaC-unavailable Ultimate associated with Supervillain/Masked Future Warrior usage. The repository's canonical Ki-cost field remains unverified; no cost is inferred from another game or unofficial implementation. Current verification reconfirms its Xenoverse 2 Ultimate/Supervillain usage and CaC-unavailable boundary; Ki cost remains unresolved."
+      "reason": "Xenoverse 2-specific evidence confirms Baked Sphere as a CaC-unavailable Ultimate associated with Supervillain/Masked Future Warrior usage. Current technique taxonomy supports Explosive Wave as the research subcategory. Only the canonical numeric Ki cost remains unverified."
     },
     {
       "name": "Boulder Toss",
