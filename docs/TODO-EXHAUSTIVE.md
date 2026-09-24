@@ -5232,3 +5232,12 @@
 - [x] Validation: **465/465 canonical/index IDs, 0 duplicate IDs, 84 current, 381 stale**.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next batch:** Crusher Ball; Dancing Parapara; Dark Inscription; Darkness Eye Beam; Darkness Rush (Melee); Darkness Rush (Ranged); Darkness Twin Star; Data Input; Dead End Bullet; Dead End Rain; Deadly Dance; Death Ball.
+
+
+### 2026-09-24 cycle update — Crusher Ball through Death Ball provenance refresh
+- [x] Bounded P1 batch: **Crusher Ball; Dancing Parapara; Dark Inscription; Darkness Eye Beam; Darkness Rush (Melee); Darkness Rush (Ranged); Darkness Twin Star; Data Input; Dead End Bullet; Dead End Rain; Deadly Dance; Death Ball**.
+- [x] Refreshed canonical last_verified to **2026-09-24** using existing repository evidence; acquisition/reward/mechanics/DLC semantics preserved.
+- [x] Added `docs/data/skill-provenance-audit-2026-09-24-crusher-ball-through-death-ball.json` and refreshed the live stale census.
+- [x] Validation: **465/465 canonical/index IDs, 0 duplicate IDs, 96 current, 369 stale**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next batch:** Death Beam; Death Crasher; Death Meteor; Death Psycho Bomb; Death Slash; Death Slicer; Death Wave; Demon Flash Strike; Demon Flurry; Demon Ray; Demonic Destruction; Destruction's Concerto: Comet.
