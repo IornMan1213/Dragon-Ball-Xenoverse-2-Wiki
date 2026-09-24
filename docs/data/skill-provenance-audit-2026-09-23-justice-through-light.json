@@ -55,8 +55,8 @@
   "evidence_boundary": "Verification refresh preserves evidence-bounded acquisition, mechanics, DLC/roster, restriction, reward-tier, and conflict claims; no unsupported probability, gate, timer, stacking cap, or restriction is inferred.",
   "validation": {
     "target_records": 12,
-    "canonical_records": 455,
-    "index_records": 455,
+    "canonical_records": 465,
+    "index_records": 465,
     "duplicate_ids": 0,
     "status": "static_sync"
   }
