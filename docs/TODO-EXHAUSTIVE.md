@@ -6519,3 +6519,13 @@
 - [x] Commit: `212637a29f7f991d7e6cbf849594a08a80263b7f`; registry commit `19e22b72755010ae967b5c8c8d601ebdec6b1862`.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next:** resume the highest-impact evidence-gated numeric preset batch, seeking a single artifact that binds a numeric preset identifier to its complete eight-slot configuration; if still unavailable, perform the next bounded provenance pass over the thinnest unresolved skill endpoint records without inference.
+
+### 2026-09-24 completed Goku numeric preset loadout evidence recheck
+- [x] Audited all 16 currently indexed unresolved Goku numeric preset records: 2–12 and 14–18.
+- [x] Current Fandom search evidence confirms Goku's numeric preset table exists and exposes direct numeric Preset → Skills → Super Soul mapping for rows visible in the indexed search result; the current page reports 19 main-slot presets. citeturn0search4
+- [x] Community unlock-video chapters independently confirm discovery/acquisition events for multiple targeted Goku presets, but do not constitute complete eight-slot loadout evidence. citeturn0youtube12
+- [x] No loadout was promoted because the directly extractable evidence did not expose complete eight-slot configurations for the targeted records. No inference from neighboring preset order or video timestamps was used.
+- [x] Added `docs/data/goku-numeric-preset-loadout-evidence-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: 16 targets checked; 0 loadout promotions; 0 unsupported promotions.
+- [x] Commits: `c157430190381c158d742297bf9dc0dca78435a7` (audit), `c7fe5492d96331c211e92bc9ce057eae35831dcc` (registry).
+- [ ] **Exact next:** locate a directly extractable complete Goku preset table or equivalent artifact, then promote verified loadouts in a batch. If unavailable, move to Vegeta 10–11 / Captain Ginyu 5–6 using the same evidence gate.
