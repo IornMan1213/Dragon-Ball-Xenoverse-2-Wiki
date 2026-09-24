@@ -7762,3 +7762,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Commits: stale metadata `1c999336198262dab2f43a799bf6e166d060e6d7`; coverage current audit `e450c38f282620bd8d8be7492c89a15b25b5c78e`; baseline synchronization `21e8711b342b34fdd5b3a75b61a73960e33bc93c`; character-source audit `db5fddc7af27339a1e495a00ba2829b1b5555875`; mentor report `6f1c0c9d12158fbdd246aba62b81b72158824380`.
 - Validation: all edited JSON documents re-fetched successfully after writes; current counts and arithmetic are internally consistent. CI/runtime remains unavailable; no CI success claimed.
 - **Exact next priority:** continue the same deterministic census into **event/raid/Festival/Chapter 4 and character/preset presentation consumers**, then repair any current-facing stale counts or one-way/orphan navigation found there before returning to source-backed preset-loadout expansion.
+
+
+### 2026-09-24 cycle update — Future Saga Chapter 4 character consumer reconciliation
+
+- Continued the event/Festival/Chapter 4 and character/preset consumer scan.
+- Found a stale reconciliation statement in docs/data/future-saga-chapter-4-character-records.json: it still described the two official Chapter 4 character identities as an overlay awaiting canonical catalog refresh, even though both exact names are now present in characters-record-layer.json and the live canonical roster is **153**.
+- Reconciled both Chapter 4 character records to exact canonical identity matches without adding preset/loadout, unlock, skill, or Partner Customization claims.
+- Added docs/data/future-saga-chapter-4-character-navigation-audit-2026-09-24.json: **2/2 exact canonical matches, 0 unresolved identities, 0 unsupported variant collapses, 0 loadout promotions**.
+- Registered the audit in docs/data/pq-cross-domain-index.json.
+- Preserved the separate Chapter 4 provenance view; the two records remain a Chapter 4 content overlay rather than replacing the canonical character layer.
+- Commits: Chapter 4 reconciliation 15567496c9b48309baf721cb8f7e195a9a538cc3; audit cf610db4f677bf7909aed150ba6a5f0ffdf4baeb; index registration c94cfa9f88db58acc7e6aedd15147d3fa99e3ecb.
+- Validation: edited JSON reparsed successfully; exact-name identity parity is clean; no unsupported loadout or gameplay data was introduced. CI/runtime remains unavailable; no CI success claimed.
+- **Exact next priority:** continue scanning the remaining Chapter 4/Festival/event and character/preset projections for stale current baselines or one-way links, then resume source-backed preset-loadout research only where explicit numbered/name-matched evidence exists.
