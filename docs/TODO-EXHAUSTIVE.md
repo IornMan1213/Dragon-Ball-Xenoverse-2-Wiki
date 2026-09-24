@@ -6226,3 +6226,12 @@
 - [x] Preserved PQ-number references such as PQ153 and dated historical snapshots; no character identity or relationship was inferred or changed.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next priority:** continue deterministic current-facing event/raid/Festival/character/preset consumer scanning for stale scalars, duplicate presentation rows, orphan targets, one-way navigation, and canonical-ID drift; then resume the highest-impact source-backed preset/loadout or thin-domain expansion.
+
+
+### 2026-09-24 cycle completion — exact Goku (GT) Preset 2 loadout
+- [x] Completed the current Event/Raid/Festival/Chapter 4 consumer scan at the live baseline without finding deterministic stale current metadata requiring another repair.
+- [x] Promoted `goku-gt-preset-2` to `loadout_status=verified` using exact named-loadout evidence plus independent numeric-preset identity evidence.
+- [x] Added all 8 skill-slot entries: Power Pole Combo, Kamehameha, Instant Transmission, Charged Ki Wave, Super Spirit Bomb, Super Kamehameha, Spirit Explosion, and Super Saiyan.
+- [x] Updated preset/loadout audit census from **25 / 162** to **26 / 170** verified loadouts / skill-slot entries.
+- [x] Preserved evidence boundaries: no acquisition, exclusivity, reward, or gameplay claim was inferred.
+- [ ] **Next:** continue unresolved preset families only where both numeric identity and complete skill configuration are directly evidenced; otherwise retain unresolved status and move to the next family.
