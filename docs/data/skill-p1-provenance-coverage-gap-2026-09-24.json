@@ -18,7 +18,7 @@
     {
       "name": "Next unresolved P1 target",
       "status": "pending_selection",
-      "evidence_boundary": "Select the next existing research record with an explicit provenance gap. Do not create a canonical identity solely to fill a gap."
+      "evidence_boundary": "Continue selecting existing partially verified research records; only promote fields supported by current Xenoverse 2-specific evidence."
     }
   ],
   "method": "Select records with existing direct research artifacts and incomplete enrichment; strengthen provenance/acquisition/mechanics only where existing evidence supports the field. Do not manufacture new numeric mechanics or acquisition gates.",
@@ -28,10 +28,11 @@
     "canonical_index_parity": true,
     "ci": "Unavailable; no CI success claimed."
   },
-  "exact_next": "Select the next P1 provenance target from the remaining unresolved research corpus, enrich only evidence-backed fields, then validate canonical/index parity and cross-domain registration.",
+  "exact_next": "Select the next unresolved P1 provenance target from the existing research corpus, refresh evidence-backed fields, register the audit, and preserve canonical/index parity.",
   "completed_targets": [
     "Savage Strike",
     "Quick Sleep",
-    "Pressure Sign"
+    "Pressure Sign",
+    "Punisher Shield"
   ]
 }
