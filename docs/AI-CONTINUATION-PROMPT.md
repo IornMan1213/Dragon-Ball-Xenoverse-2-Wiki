@@ -575,3 +575,15 @@
 - [x] Validation passed for the affected JSON records; canonical skill layer remains 469/469.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next: continue unresolved thin-domain research and seek direct evidence for missing canonical fields; do not infer Ki costs, subcategories, or acquisition routes.
+
+
+### 2026-09-24 cycle completion — Boulder Toss + Boulder Break subtype reconciliation
+- [x] Re-read the live continuation handoff, efficiency addendum, and exhaustive TODO before editing.
+- [x] Reconciled **Boulder Toss** (skill ID 441) and **Boulder Break** (skill ID 442) against the existing repository batch-286 taxonomy correction and current Xenoverse 2 Great Ape quest/technique evidence.
+- [x] Updated `docs/data/skill-research-gaps-boulder-toss-evidence-audit-2026-09-24.json` and `docs/data/skill-research-gaps-boulder-break-evidence-audit-2026-09-24.json` so **Strike** is recorded as research-supported while numeric `ki_cost` remains unresolved.
+- [x] Updated `docs/data/skill-research-gaps.json`; both records now have only `ki_cost` unresolved.
+- [x] Preserved the canonical 469/469 boundary: no manual insertion into `skills.json` / `skills-index.json` because the supported builder/runtime remains unavailable.
+- [x] Validation: changed JSON records remain structurally valid; both audit paths are already registered in `docs/data/pq-cross-domain-index.json`; no acquisition relationship or numeric cost was invented.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [x] Commits: `16dff54fa5ee6e89f73d2dcddc3345ccefff00f0`, `e41283c72a743c6d35a39a897fe97db5df3cdc73`, `e6c177f40b4db06912c39ed615e15d5727eb37ef`.
+- [ ] **Exact next:** continue the remaining unresolved gap set, prioritizing **Boiling Burg**, **Energy Boil**, **Baked Sphere**, **Boiling Ball**, and **Tricky Strike** only where direct Xenoverse 2 evidence can resolve a currently missing field. If no direct evidence resolves a field, preserve the null/unresolved boundary and do not infer from another game or generic animation terminology.
