@@ -2841,3 +2841,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Extended `docs/data/canonical-explorer-self-navigation-audit-2026-09-24-b.json`; the audit was already registered in the central cross-domain index.
 - Validation: 0 generic Search self-link definitions remain in the Skill Explorer; audit parses and passes; no canonical data or relationship semantics changed.
 - CI/runtime unavailable; no CI success claimed.
+
+
+## 2026-09-24 — Current preset/loadout evidence boundary
+- Recomputed the canonical preset layer at 51 records / 26 verified loadouts / 25 unresolved and validated required evidence fields on all 26 verified records.
+- Added and registered docs/data/preset-loadout-current-evidence-audit-2026-09-24.json.
+- No unresolved preset loadout was promoted because available evidence does not safely bind numeric preset IDs to complete configurations.
+- CI/runtime unavailable; no CI success claimed.
