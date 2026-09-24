@@ -6,28 +6,29 @@
   "live_counts": {
     "canonical_skill_records": 465,
     "index_skill_records": 465,
-    "current_last_verified_records": 132,
-    "stale_last_verified_records": 333,
+    "current_last_verified_records": 134,
+    "stale_last_verified_records": 331,
     "duplicate_ids": 0
   },
   "current_date": "2026-09-24",
   "next_stale_batch": [
-    "skill-energy-wave",
-    "skill-energy-zone",
-    "skill-evil-whirlwind",
-    "skill-explosive-assault",
-    "skill-explosive-bomber",
-    "skill-explosive-buu-buu-punch",
-    "skill-explosive-scream",
-    "skill-explosive-shot",
-    "skill-explosive-surge",
-    "skill-extended-beam",
-    "skill-extra-large-genocide-shell",
-    "skill-eye-laser"
+    "skill-divinity-unleashed",
+    "skill-do-or-die",
+    "skill-dodon-ray",
+    "skill-dodoria-beam",
+    "skill-dodoria-launcher",
+    "skill-double-crush",
+    "skill-double-death-slicer",
+    "skill-dragon-burn",
+    "skill-dragon-spark",
+    "skill-dragon-spiral",
+    "skill-drain-field",
+    "skill-dual-destructo-disc"
   ],
   "notes": [
     "Stale means last_verified != 2026-09-24; stale metadata is a priority signal, not evidence that a record is incorrect.",
-    "This census follows the 12-record Dragon Thunder through Energy Shot refresh.",
-    "No canonical skill identities or acquisition relationships were changed by the refresh."
+    "This census was recomputed directly from the live canonical skill layer after the Destruction through Divine Wrath provenance refresh.",
+    "Canonical and index ID parity was verified before publishing this census.",
+    "The prior census contained 9 stale IDs not present in the live canonical/index layers; those historical projection errors are superseded by this live recomputation and are not treated as canonical records."
   ]
 }
