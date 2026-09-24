@@ -25,28 +25,28 @@ Every EM record should capture, where evidence exists:
 
 The current reference set enumerates **20 Expert Missions**, while older/base-game references sometimes use a narrower 17-mission scope. The wiki keeps scope explicit rather than silently mixing historical and current catalogs.
 
-| EM | Title | Primary boss / encounter | Initial documented reward | Research state |
+| EM | Title | Primary boss / encounter | Initial documented reward | Canonical skill endpoint | Research state |
 |---:|---|---|---|---|
 | 01 | Expert Missions - Tutorial 1 | Great Ape Nappa | 100 Zeni | partially_verified |
 | 02 | Expert Missions - Tutorial 2 | Turles | 100 Zeni | partially_verified |
-| 03 | Assault of the Great Ape | Great Ape Nappa | 3,000 Zeni; 2 TP Medals; Murder Grenade | partially_verified |
-| 04 | Invasion of the Evil Super Namek | Lord Slug | 3,200 Zeni; 2 TP Medals; Super Destructo-Disc | partially_verified |
-| 05 | The Galactic Tyrant | Turles | 2,800 Zeni; 2 TP Medals; Death Wave | partially_verified |
-| 06 | The Depths of Despair | Great Ape Vegeta | 4,500 Zeni; 3 TP Medals; Supernova | partially_verified |
-| 07 | The Big Gete Star Strikes Back | Metal Cooler | 4,500 Zeni; Death Meteor | partially_verified |
-| 08 | Ominous Androids | Cell (Full Power) | 4,500 Zeni; Dead End Bullet | partially_verified |
-| 09 | The Most Feared Majin | Kid Buu | 9,600 Zeni; Assault Rain | partially_verified |
-| 10 | The Emperor's Worth | Golden Frieza | 9,600 Zeni; 6 TP Medals; Hellzone Grenade | partially_verified |
-| 11 | The Devil Born from the Dragon Balls | Supervillain Omega Shenron | 10,080 Zeni; Super Electric Strike | partially_verified |
-| 12 | Attack of the Lone Supersoldier | Great Ape Bardock | 10,080 Zeni; Angry Explosion | partially_verified |
-| 13 | A History of Mixed Battles! | Rotating/mixed superboss encounters | 21,600 Zeni; Dead End Rain; additional raid-related rewards reported | partially_verified |
-| 14 | Huge Blasts for Huge Apes! | Great Ape Nappa / Vegeta / Baby / Bardock | 21,600 Zeni; Shocking Death Ball | partially_verified |
-| 15 | Extreme Malice! | Rotating Supervillain encounters | 24,000 Zeni; Blue Hurricane | partially_verified |
-| 16 | In the Realm of the Gods: Vegeta | SSGSS Vegeta | 30,000 Zeni; 16 TP Medals; Super Spirit Bomb | partially_verified |
-| 17 | In the Realm of the Gods: Goku | SSGSS Goku | 30,000 Zeni; 16 TP Medals; Spirit Sword / Spirit Bomb naming varies by source | partially_verified |
-| 18 | The Ultimate Evil: Broly | Supervillain Broly | 35,000 Zeni; 18 TP Medals; Focus Flash | partially_verified |
-| 19 | A Truly Hellish Transformation | Supervillain Janemba | 35,000 Zeni; 18 TP Medals; Tail Slicer | indexed |
-| 20 | Harbinger of Doom | Android 13 / Dabura / Majin Buu (Gohan Absorbed) / Fused Zamasu | 35,000 Zeni; 20 TP Medals; Data Input | indexed |
+| 03 | Assault of the Great Ape | Great Ape Nappa | 3,000 Zeni; 2 TP Medals; Murder Grenade | [Murder Grenade](./Skills-All.html?q=Murder%20Grenade) | partially_verified |
+| 04 | Invasion of the Evil Super Namek | Lord Slug | 3,200 Zeni; 2 TP Medals; Super Destructo-Disc | [Super Destructo-Disc](./Skills-All.html?q=Super%20Destructo-Disc) | partially_verified |
+| 05 | The Galactic Tyrant | Turles | 2,800 Zeni; 2 TP Medals; Death Wave | [Death Wave](./Skills-All.html?q=Death%20Wave) | partially_verified |
+| 06 | The Depths of Despair | Great Ape Vegeta | 4,500 Zeni; 3 TP Medals; Supernova | [Supernova](./Skills-All.html?q=Supernova) | partially_verified |
+| 07 | The Big Gete Star Strikes Back | Metal Cooler | 4,500 Zeni; Death Meteor | [Death Meteor](./Skills-All.html?q=Death%20Meteor) | partially_verified |
+| 08 | Ominous Androids | Cell (Full Power) | 4,500 Zeni; Dead End Bullet | [Dead End Bullet](./Skills-All.html?q=Dead%20End%20Bullet) | partially_verified |
+| 09 | The Most Feared Majin | Kid Buu | 9,600 Zeni; Assault Rain | [Assault Rain](./Skills-All.html?q=Assault%20Rain) | partially_verified |
+| 10 | The Emperor's Worth | Golden Frieza | 9,600 Zeni; 6 TP Medals; Hellzone Grenade | [Hellzone Grenade](./Skills-All.html?q=Hellzone%20Grenade) | partially_verified |
+| 11 | The Devil Born from the Dragon Balls | Supervillain Omega Shenron | 10,080 Zeni; Super Electric Strike | [Super Electric Strike](./Skills-All.html?q=Super%20Electric%20Strike) | partially_verified |
+| 12 | Attack of the Lone Supersoldier | Great Ape Bardock | 10,080 Zeni; Angry Explosion | [Angry Explosion](./Skills-All.html?q=Angry%20Explosion) | partially_verified |
+| 13 | A History of Mixed Battles! | Rotating/mixed superboss encounters | 21,600 Zeni; Dead End Rain; additional raid-related rewards reported | [Dead End Rain](./Skills-All.html?q=Dead%20End%20Rain) | partially_verified |
+| 14 | Huge Blasts for Huge Apes! | Great Ape Nappa / Vegeta / Baby / Bardock | 21,600 Zeni; Shocking Death Ball | [Shocking Death Ball](./Skills-All.html?q=Shocking%20Death%20Ball) | partially_verified |
+| 15 | Extreme Malice! | Rotating Supervillain encounters | 24,000 Zeni; Blue Hurricane | [Blue Hurricane](./Skills-All.html?q=Blue%20Hurricane) | partially_verified |
+| 16 | In the Realm of the Gods: Vegeta | SSGSS Vegeta | 30,000 Zeni; 16 TP Medals; Super Spirit Bomb | [Super Spirit Bomb](./Skills-All.html?q=Super%20Spirit%20Bomb) | partially_verified |
+| 17 | In the Realm of the Gods: Goku | SSGSS Goku | 30,000 Zeni; 16 TP Medals; Spirit Sword / Spirit Bomb naming varies by source | [Spirit Sword](./Skills-All.html?q=Spirit%20Sword) | partially_verified |
+| 18 | The Ultimate Evil: Broly | Supervillain Broly | 35,000 Zeni; 18 TP Medals; Focus Flash | [Focus Flash](./Skills-All.html?q=Focus%20Flash) | partially_verified |
+| 19 | A Truly Hellish Transformation | Supervillain Janemba | 35,000 Zeni; 18 TP Medals; Tail Slicer | [Tail Slicer](./Skills-All.html?q=Tail%20Slicer) | indexed |
+| 20 | Harbinger of Doom | Android 13 / Dabura / Majin Buu (Gohan Absorbed) / Fused Zamasu | 35,000 Zeni; 20 TP Medals; Data Input | [Data Input](./Skills-All.html?q=Data%20Input) | indexed |
 
 The reward column is an **indexing layer**, not a claim that every listed item is guaranteed on every clear. Exact guaranteed, first-clear, repeat, RNG, and version-dependent rewards will be separated in the individual records. Current references also disagree on some reward values/names, so conflicting evidence remains visible rather than being normalized into false certainty.
 
