@@ -6,46 +6,46 @@
   "live_counts": {
     "canonical_skill_records": 469,
     "index_skill_records": 469,
-    "current_last_verified_records": 383,
-    "stale_last_verified_records": 86,
+    "current_last_verified_records": 395,
+    "stale_last_verified_records": 74,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
     {
-      "name": "Sphere of Destruction"
+      "name": "Strike of Revelation"
     },
     {
-      "name": "Spirit Ball"
+      "name": "Sudden Death Beam"
     },
     {
-      "name": "Spirit Blaster"
+      "name": "Sudden Storm"
     },
     {
-      "name": "Spirit Bomb"
+      "name": "Super Afterimage"
     },
     {
-      "name": "Spirit Boost"
+      "name": "Super Black Kamehameha Rosé"
     },
     {
-      "name": "Spirit Explosion"
+      "name": "Super Destructo-Disc"
     },
     {
-      "name": "Spirit Pulse"
+      "name": "Super Donut Volley"
     },
     {
-      "name": "Spirit Slash"
+      "name": "Super Dragon Flight"
     },
     {
-      "name": "Spirit Sword"
+      "name": "Super Electric Strike"
     },
     {
-      "name": "Spread Shot Retreat"
+      "name": "Super Elite Combo"
     },
     {
-      "name": "Steel Mirage"
+      "name": "Super Explosive Wave"
     },
     {
-      "name": "Stone Bullet"
+      "name": "Super Gamma Blast"
     }
   ],
   "notes": [
