@@ -7960,3 +7960,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Loadouts remain unresolved because the source chapter metadata does not expose their skill slots; no skill configuration was inferred.
 - Commit: reconciliation audit `6371d96a5828745276dec226c6e318b7e0f05657`; TODO `d32895d67f47dd571361bdd82bf6f08f7b2e7bfa`.
 - **Exact next batch:** continue source-backed preset/loadout expansion only where numeric identity and skill configuration are directly supported; otherwise continue deterministic non-PQ event/raid/Festival consumer scanning.
+
+
+### 2026-09-24 cycle update — Super Soul guide census synchronization
+- Deterministically compared docs/Super-Souls.md with the live docs/data/super-souls-record-layer.json.
+- Found a stale current-facing census: the guide said **42 populated records**, while the canonical producer contains **230** records.
+- Updated only the census sentence to 230 and preserved historical batch descriptions and unresolved research boundaries.
+- Validation: canonical count re-read as 230; edited guide re-fetched successfully.
+- Commit: guide 870b1e31759f52a17d0f967e372fcbcb4c314a39; TODO 78218b4ee99e64c24b82c2f267d9393eaceec7a4.
+- **Exact next batch:** continue deterministic non-PQ event/raid/Festival/Chapter 4 consumer scanning for stale scalar counts and one-way navigation; then resume source-backed preset/loadout expansion.
