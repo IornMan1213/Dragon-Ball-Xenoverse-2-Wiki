@@ -5077,3 +5077,12 @@
 - [x] Updated the acquisition-index reconciliation audit; no canonical relationship changes.
 - **Exact next task:** advance to the next highest-impact P1 provenance/data structural gap with a fresh live census first.
 - Commits: 4b0123e187a5335daa950989123670a9a02e7d00, 3e27d876578b379eb104c080b3a24b9d8b1caaa2.
+
+
+### 2026-09-23 cycle update — Character-count consumer synchronization
+- [x] Recomputed the live canonical character baseline at **151** records.
+- [x] Repaired the remaining current-looking **149-character** consumers found by the deterministic census: `docs/data/pq-cross-domain-audit.json` and `docs/data/dlc/daima-hoj2-playable-character-count-reconciliation-2026-09-23.json`.
+- [x] Added and registered `docs/data/character-count-consumer-synchronization-2026-09-23.json`.
+- [x] Preserved dated historical 149-character snapshots; no character identity or PQ relationship edge was inferred or changed.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** continue the remaining current-state producer/consumer census for stale skill/domain counts; then return to explicit source-backed preset reconciliation where exact evidence exists.
