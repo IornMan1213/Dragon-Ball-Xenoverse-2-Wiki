@@ -2848,3 +2848,11 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Added and registered docs/data/preset-loadout-current-evidence-audit-2026-09-24.json.
 - No unresolved preset loadout was promoted because available evidence does not safely bind numeric preset IDs to complete configurations.
 - CI/runtime unavailable; no CI success claimed.
+
+
+
+## 2026-09-24 — Preset evidence corroboration
+- Cross-checked unresolved numeric preset identities against current Goku in-game data and a dated Burcol unlock/preset video.
+- Numeric identity is corroborated for several records, but no safe numeric-to-complete-loadout binding was established.
+- Updated the preset evidence audit; no unsupported loadouts were promoted.
+
