@@ -5479,3 +5479,15 @@
 - Existing evidence boundaries and conflicts were preserved; no unsupported mechanics or acquisition details were invented.
 - CI/runtime remains unavailable; no CI success claimed.
 - Exact next stale batch: Raid Blast; Rakshasa's Claw; Ray Blast; Rebellion Spear; Recoome Kick; Remote Serious Bomb; Requiem of Destruction; Revenge Death Ball; Revenge Final Flash; Reverse Launcher; Reverse Mabakusenko; Reverse Shot.
+
+
+### 2026-09-24 cycle update — Raid Blast through Reverse Shot provenance refresh
+
+- Completed the bounded P1 provenance batch: **Raid Blast; Rakshasa's Claw; Ray Blast; Rebellion Spear; Recoome Kick; Remote Serious Bomb; Requiem of Destruction; Revenge Death Ball; Revenge Final Flash; Reverse Launcher; Reverse Mabakusenko; Reverse Shot**.
+- Synchronized canonical `docs/data/skills.json` and `docs/data/skills-index.json`; all 12 targets now have `last_verified=2026-09-24`.
+- Added `docs/data/skill-provenance-audit-2026-09-24-raid-blast-through-reverse-shot.json` with the bounded evidence/validation record.
+- Live validation: **469 canonical / 469 index / 347 current / 122 stale / 0 duplicate-ID condition**; canonical/index IDs and verification dates remain aligned.
+- Existing acquisition endpoints, reward semantics, restrictions, mechanics, DLC/update provenance, and evidence conflicts were preserved. No unsupported probabilities, Ultimate Finish gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.
+- CI/runtime remains unavailable; no CI success claimed.
+- Commits: canonical `8388dd8cd9a8833d8cda24461c772354b9c9219d`; index `0914d90007e0a4ded33aa3f3a9f46d703a788ff8`; audit `00f42306d0f63f7f577eb490eabe23276c5be4a6`; census `22f13bebc85a4f5a8cb48e2486a85fa9ffdafbf3`.
+- **Exact next stale batch:** **Quick Sleep; Ribrianne's Eternal Love; Riot Javelin; Rise to Action; Rising Rage; Rocket Tackle; Rolling Bullet; Rolling Hercule Punch; Rough Ranger; S.S. Deadly Bomber; Saiyan Blaster; Saiyan Spirit**.
