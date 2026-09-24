@@ -5114,3 +5114,14 @@
 - [x] Validation: **465 canonical skills / 0 duplicate IDs / 10 reviewed IDs resolve / provenance audit pass**.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** reconcile the remaining partially verified Expert Mission endpoint-layer records using explicit evidence, then continue the non-PQ/non-mentor acquisition gaps (including Ultra Instinct) without inferred relationships.
+
+
+### 2026-09-23 cycle update — Full Expert Mission endpoint provenance reconciliation
+- [x] Reconciled all **18/18** Expert Mission endpoint rows against the independent all-Expert-Missions guide.
+- [x] Completed and verified EM16–20 mission titles.
+- [x] Added explicit per-endpoint provenance blocks and changed the endpoint-layer status to source-backed.
+- [x] Confirmed Basic Reward placement for 17/18 endpoint rows; preserved the EM17 Spirit Bomb vs Spirit Sword conflict without assigning Spirit Sword a Basic Reward tier from the conflicting guide.
+- [x] Expanded the Expert Mission provenance audit to record all 18 endpoint rows.
+- [x] Preserved canonical endpoint IDs and skill IDs; no new relationships or drop-rate claims were inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** advance to the remaining **95 non-PQ/non-mentor** skill acquisition/provenance gaps, prioritizing explicit special-route evidence such as Ultra Instinct.
