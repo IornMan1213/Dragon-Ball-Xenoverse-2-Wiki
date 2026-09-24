@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "audit_date": "2026-09-24",
   "audit_id": "qq-bang-provenance-refresh-2026-09-24",
-  "scope": "P1 thin-domain QQ Bang structured research refresh — synthesis system, Super Mix Capsule Z, and Bardock/Beerus recipe family",
+  "scope": "P1 thin-domain QQ Bang structured research refresh — synthesis system, Super Mix Capsule Z, and Bardock/Beerus recipe family; expanded with two community-observed result records",
   "source_of_truth": "docs/data/qq-bangs-record-layer.json",
   "records": [
     {
@@ -43,6 +43,26 @@
         "last_verified refreshed to 2026-09-24",
         "recipe-family provenance refreshed; deterministic-output claim explicitly excluded"
       ]
+    },
+    {
+      "id": "qq-observed-001",
+      "name": "Pride Trooper Uniform top + Light Heart Suit bottom — observed six-stat output",
+      "evidence": [
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/17mrexx/"
+      ],
+      "changes": [
+        "added as a single community-observed six-stat vector; explicitly not treated as deterministic"
+      ]
+    },
+    {
+      "id": "qq-observed-002",
+      "name": "Beerus top + Light Heart Suit top — community-reported high-tier result family",
+      "evidence": [
+        "https://steamcommunity.com/app/454650/discussions/0/3879347492855720788/"
+      ],
+      "changes": [
+        "added as a non-vector community result family because source reports variance without a stable exact output"
+      ]
     }
   ],
   "evidence_limits": [
@@ -51,11 +71,12 @@
     "Exact current Super Mix Capsule Z drop rates/availability and version-specific probability tables remain unresolved."
   ],
   "validation": {
-    "record_count": 3,
+    "record_count": 5,
     "all_target_ids_present": true,
     "last_verified_parity": true,
     "unsupported_exact_output_promotions": 0,
     "status": "clean",
-    "ci": "unavailable; no CI success claimed"
+    "ci": "unavailable; no CI success claimed",
+    "observed_result_records_added": 2
   }
 }
