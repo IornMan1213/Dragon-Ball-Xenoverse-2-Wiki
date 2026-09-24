@@ -7832,3 +7832,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - The 18-record raid/gift bridge remains fully resolved; all 11 raid identity canonical IDs exist.
 - No acquisition, availability, reward probability, or new identity inference was introduced.
 - Exact next priority: continue deterministic event/raid/Festival and non-PQ acquisition consumer scanning.
+
+
+### 2026-09-24 cycle update — accessory/equipment current consumer count synchronization
+- Current consumer census found two stale live projections: equipment/accessory presentation audit at **173** vs live **174**, and current accessory presentation audit at **9** raid identities vs reconciled **11**.
+- Corrected both current-facing projections and registered them in the cross-domain index.
+- JSON parse validation passed for both edited audits and the index.
+- Historical dated cross-route artifacts were left untouched.
+- No new identities, routes, availability, probabilities, or gameplay facts were inferred.
+- Exact next batch: continue event/raid/Festival/non-PQ consumer navigation checks for orphan targets and one-way links.
