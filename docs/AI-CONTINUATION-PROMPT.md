@@ -100,7 +100,7 @@
 - [x] Synchronized them to the live canonical **152-character** producer without changing the 247 character relationship edges, 75 unique relationship targets, aliases, or reverse mappings.
 - [x] Added `docs/data/current-character-consumer-scan-2026-09-24.json` and registered it in the cross-domain index.
 - [x] Validation: canonical character count 152; character relationship edges 247; missing canonical targets 0; orphan reverse targets 0; duplicate forward pairs 0.
-- [x] Web research also reconfirmed that the strongest readily indexed numeric-preset source still exposes numeric identity/unlock placement rather than complete slot configurations; no unsupported preset promotion was made. citeturn0youtube20turn0youtube21
+- [x] Web research also reconfirmed that the strongest readily indexed numeric-preset source still exposes numeric identity/unlock placement rather than complete slot configurations; no unsupported preset promotion was made. 
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** continue scanning current Event/Raid/Festival/Chapter 4 and non-PQ record consumers for stale scalar/count metadata and one-way navigation, then return to direct numeric preset + complete configuration evidence.
 
@@ -147,7 +147,7 @@
 
 ### 2026-09-24 cycle completion — Vegeta Presets 10–11 evidence pass
 - [x] Audited both unresolved numeric Vegeta presets.
-- [x] Numeric identity is corroborated by the community unlock sequence, while complete eight-slot loadout evidence remains unavailable from directly extractable results. citeturn0youtube12turn0search3
+- [x] Numeric identity is corroborated by the community unlock sequence, while complete eight-slot loadout evidence remains unavailable from directly extractable results. 
 - [x] No unsupported promotion was made.
 - [x] Added/registered the Vegeta 10–11 evidence audit and preserved unresolved status.
 - [x] Commits: `c74f76e6a70352f4ef665910e27c4c4511e764bf`, `216775a5189aa8bf504e4625fdeb47a282bc069a`, `1d8b8f083f68104f1aaf92c681e9ac38d307751c`.
@@ -155,7 +155,7 @@
 
 ### 2026-09-24 cycle completion — Captain Ginyu Presets 5–6 evidence pass
 - [x] Audited both unresolved numeric presets.
-- [x] Numeric identities are independently corroborated, but complete eight-slot configurations are not directly extractable with a safe numeric mapping. citeturn0youtube12turn0search2
+- [x] Numeric identities are independently corroborated, but complete eight-slot configurations are not directly extractable with a safe numeric mapping. 
 - [x] No unsupported promotion was made.
 - [x] Added/registered the Captain Ginyu evidence audit.
 - [x] Commits: `44d5cfa2921f201e94aad91a91d148cfcf3247c3`, `4af784c97d1c7133e53492485466e7a877865ae8`.
