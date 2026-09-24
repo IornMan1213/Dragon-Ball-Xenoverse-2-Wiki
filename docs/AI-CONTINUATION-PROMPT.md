@@ -284,3 +284,14 @@
 - [x] Preserved evidence boundaries: no unsupported damage, drop-rate, timing, or acquisition-gate claims are authorized by this transition artifact.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next:** enrich Savage Strike, then Quick Sleep and Pressure Sign, in canonical and index layers with an audit artifact and cross-domain registration.
+
+### 2026-09-24 cycle completion — Savage Strike canonical-integration tooling boundary + Quick Sleep P1 refresh
+- [x] Re-read the live handoff, efficiency addendum, and exhaustive TODO before editing.
+- [x] Confirmed the live canonical/index skill baseline remains **469/469**, with Quick Sleep and Pressure Sign already present in both index/canonical layers and Savage Strike absent from both.
+- [x] Inspected the canonical build contract: `scripts/build_skills_from_research.py` consumes `docs/data/skill-research-batches/` and writes both `skills.json` and `skills-index.json` atomically.
+- [x] Confirmed the GitHub file interface available in this session cannot safely fetch the complete oversized `docs/data/skills.json` payload for a lossless direct replacement; therefore no speculative/manual reconstruction of the canonical catalog was attempted.
+- [x] Refreshed the existing `docs/data/skill-provenance-audit-2026-09-24-quick-sleep-through-saiyan-spirit.json` for the Quick Sleep P1 boundary; no unsupported timing, probability, gate, or narrower restriction claims were added.
+- [x] Revalidated the existing skill-shop endpoint projection structure before leaving canonical/index semantics unchanged.
+- [x] Preserved the Savage Strike research/audit boundary from the previous cycle; no index-only insertion was made.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** perform a lossless canonical build from the live research batches (prefer the repository's `build_skills_from_research.py` execution path) so Savage Strike is added to both canonical and generated/index layers atomically; then validate schema, 470/470 parity, duplicate IDs, and downstream acquisition/cross-domain projections. If execution remains unavailable, preserve the 469/469 catalog and do not reconstruct `skills.json` manually.
