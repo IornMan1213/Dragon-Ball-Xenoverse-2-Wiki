@@ -352,3 +352,13 @@
 - [x] Validation: endpoint IDs unique, forward endpoint IDs resolve, reverse/forward pair counts remain aligned, 13 linked skill IDs resolve against the canonical layer.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next:** continue the non-PQ reverse-projection audit from the current 469-skill endpoint union, focusing on Tokipedia/Patrol/special-acquisition consumers for orphaned or stale current-facing skill IDs.
+
+
+### 2026-09-24 continuation — Tokipedia/Patrol non-PQ projection synchronization
+- [x] Live consumer scan confirmed the current special-acquisition layer is already reconciled at **16 endpoints / 16 forward edges / 16 unique skills**, including Hyper/Ice reverse targets; no special-layer orphan was found.
+- [x] Refreshed all 4 Tokipedia endpoints and all 3 Conton City Patrol endpoints to `last_verified=2026-09-24`; no skill relationships or acquisition facts were changed.
+- [x] Refreshed `docs/data/full-skill-endpoint-reverse-parity-audit-2026-09-23.json` to the current 2026-09-24 boundary while preserving its historical filename/history and current 469-skill union parity.
+- [x] Registered the refreshed full parity audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: **469 canonical skills / 469 union coverage**, Tokipedia 4, Patrol 3, Special 16; no duplicate endpoint-skill pairs or unresolved IDs in the audited layers.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next:** inspect the remaining current-facing non-PQ endpoint consumers (character-exclusive and starting-move layers) for stale verification metadata or orphaned skill targets, then proceed to the next evidence-backed P1 enrichment.
