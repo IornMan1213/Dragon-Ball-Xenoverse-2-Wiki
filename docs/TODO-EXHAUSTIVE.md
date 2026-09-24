@@ -5620,3 +5620,15 @@
 - [x] Preserved existing mentor/PQ acquisition endpoints, Male Majin restriction, mechanics bounds, source sets, and evidence limitations; no unsupported probabilities, prerequisites, timers, frame data, stacking caps, or damage values were introduced.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next priority: continue the deterministic post-stale-queue cross-domain coverage/projection audit, prioritizing machine-checkable current-field mismatches or navigation/index drift over speculative gameplay-data expansion.
+
+
+### 2026-09-24 cycle update — recovered Hyper/Ice endpoint coverage reconciliation
+- [x] Live canonical census confirmed **469 skills / 239 PQ-linked / 230 without PQ**. The prior endpoint projection covered only 465, exposing exactly four uncovered canonical IDs.
+- [x] Identified the four recovered canonical records from the existing 2026-09-24 Hyper/Ice coverage recovery: **Hyper Drain; Hyper Movement; Ice Cannon; Ice Claw**.
+- [x] Added deterministic navigation edges: Hyper Drain → Skill Shop; Hyper Movement → TP/STP Medal Shop; Ice Cannon → Shenron new Ultimate Attack; Ice Claw → Shenron new Super Attack.
+- [x] Updated `docs/data/skill-shop-endpoints.json`, `docs/data/special-acquisition-endpoints.json`, `docs/data/skill-acquisition-coverage-report.json`, `docs/data/full-skill-endpoint-reverse-parity-audit-2026-09-23.json`, and `docs/data/skill-acquisition-endpoint-consumer-synchronization-2026-09-23.json`.
+- [x] Added and registered `docs/data/skill-endpoint-coverage-reconciliation-2026-09-24-hyper-and-ice.json`.
+- [x] Deterministic validation: **469 canonical / 239 PQ-linked / 230 non-PQ endpoint targets / 469 endpoint union / 0 uncovered / canonical-index aligned**.
+- [x] No PQ relationship was invented; endpoint identities derive from canonical acquisition/recovery records.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next priority: continue the live cross-domain producer/consumer audit from the now-complete 469-skill endpoint union, checking remaining reverse-navigation projections and validator assumptions for stale counts or orphan targets.
