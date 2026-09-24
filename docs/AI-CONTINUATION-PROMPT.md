@@ -139,3 +139,15 @@
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Commits: `4c8a77005be84045272125b9fb3c93a336b7fc42`, `39366242e462c7d3bbf34db88fd123a820b51ee2`, `dbb1f73eb890630e9aaab38ebcea6e7d9cab9bbb`, `3713b8b7ce2abb3f862643ef4e0528bebc47e4e4`, `87953194b8cc48c24cadacf9b5d6c40ef48c8e4f`, `c1f9f353a19e42a15f88aff3e76f821806bb8100`, `e29694f8837f49e2d3e647b056a85ac13c3189ef`, `f76ca44dadf71bd3e58597a74b27d2f9f9c75a17`.
 - [ ] **Exact next batch:** continue the deterministic non-PQ/mentor consumer scan, searching current-facing projections for any remaining references to `skill-time-skip-tremor-pulse` or stale current 132-edge/131-target mentor counts; preserve explicitly historical snapshots.
+
+
+### 2026-09-24 cycle completion — remaining mentor acquisition stale-count sweep
+- [x] Re-ran the current-facing non-PQ/mentor consumer sweep against the live repository after the prior reconciliation.
+- [x] Found one remaining current stale projection in `docs/data/skill-acquisition-coverage-report.json`: top-level `mentor_edge_rows` / `mentor_unique_skill_targets` still held 132/131 despite the nested current projection already being 131/130.
+- [x] Corrected those top-level current counts to **131 resolved mentor→skill edges / 130 unique resolved targets** and updated the associated current note.
+- [x] Confirmed `docs/data/mentors.json`, `docs/data/mentors-record-layer.json`, and `docs/data/mentor-endpoints.json` contain **0** current references to `skill-time-skip-tremor-pulse`; the remaining occurrences are only explicit historical/audit evidence describing the removed stale edge.
+- [x] Confirmed historical `docs/COVERAGE-AUDIT.md` entries containing 132/131 are historical records and were preserved per append-only rules.
+- [x] Validation: current mentor projection is 131/130; canonical mentor lesson census remains 133 rewards with 132 typed skill rewards, 1 non-skill reward, and 1 unresolved skill lesson; broken endpoints 0.
+- [x] Commit: `db9db28c1d35a43babeda0098e8ff79c8871e587`.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next:** perform the next bounded current-facing non-PQ acquisition consumer sweep, prioritizing stale scalar projections and one-way links outside the mentor layer; preserve all explicitly historical counts.
