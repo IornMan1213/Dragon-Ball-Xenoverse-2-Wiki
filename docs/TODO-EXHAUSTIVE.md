@@ -5179,3 +5179,14 @@
 - [ ] CI/runtime unavailable; no CI success claimed.
 - Commits: 7e277e8a024534c052115b3bb38ff625ddc61177, 48d744c3ca3261b3bea43bc50aec3986b5bd327a, 333d307893dc5e8344db00141dcb23db68332a42, a777b2f69384b8147eac709c958e01b2d1eceeec, e4befb948c2b400a23fe23f6cbc62b2818067fcb.
 - **Exact next task:** continue the 95 endpoint-linked non-PQ/non-mentor provenance queue, prioritizing the thinnest-source records in bounded 4–12 record batches.
+
+
+### 2026-09-24 cycle update — Blades of Judgment / Blaster Ball provenance refresh
+- [x] Live census before editing: **465 canonical / 465 index / 429 stale / 0 duplicate IDs**.
+- [x] Bounded P1 batch: **Blades of Judgment; Blaster Ball**.
+- [x] Refreshed canonical `last_verified` to **2026-09-24** using existing repository evidence; acquisition/reward/mechanics/DLC semantics preserved.
+- [x] Added and registered `docs/data/skill-provenance-audit-2026-09-24-blades-through-blaster-ball.json`.
+- [x] Refreshed `docs/data/skill-stale-metadata-census-2026-09-24.json`.
+- [x] Validation: **465/465 canonical/index IDs, 0 duplicate IDs, 36 current, 429 stale**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next batch:** Blaster Meteor; Blaster Shell; Blaster Stream; Blazing Attack; Bloody Counter; Blue Hurricane; Bluff Kamehameha; Body Change; Bomber DX; Brave Heat; Brave Sword Attack; Brave Sword Slash.
