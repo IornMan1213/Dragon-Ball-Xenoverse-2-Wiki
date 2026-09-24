@@ -7797,3 +7797,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: audit JSON and cross-domain index were written successfully and the identity checks are deterministic from repository data. This is not a claim of complete Festival inventory or current event scheduling. CI/runtime remains unavailable.
 - Commits: audit `4b161b0e2bd4b6bf1a45bf5d2010c97ef19e1fab`; index registration `d9883b5cb25e4d5c47fa9bbf2b7bdce55a40f405`.
 - **Exact next priority:** continue the remaining raid/event projections, especially explicit raid/gift accessory and Super Soul consumers, for stale current baselines and one-way canonical navigation; preserve historical snapshots and avoid inventing event endpoints.
+
+
+### 2026-09-24 cycle update — raid/event Super Soul presentation consumer coverage
+
+- Audited `docs/Super-Souls-Database.md` against the live canonical Super Soul record layer for raid/event-associated records.
+- Confirmed **230 canonical Super Soul records / 37 raid-or-event-associated records / 0 duplicate IDs**.
+- The prior narrative raid sections surfaced **12/37** existing raid/event records; the remaining **25** canonical records were presentation gaps, not missing identities.
+- Added a complete current raid/event presentation index to `docs/Super-Souls-Database.md`, preserving the canonical acquisition type/source and verification status for every record.
+- Added and registered `docs/data/super-soul-raid-event-presentation-consumer-audit-2026-09-24.json`.
+- No current availability, recurrence schedule, drop probability, guarantee, or new PQ relationship was inferred.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next priority:** continue deterministic current-facing event/raid and remaining cross-domain consumer scanning for stale counts, orphan targets, one-way navigation, and canonical-ID drift; then resume the highest-impact source-backed thin-domain expansion.
