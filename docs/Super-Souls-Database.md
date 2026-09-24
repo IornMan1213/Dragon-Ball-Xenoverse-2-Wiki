@@ -192,3 +192,13 @@ The canonical research layer currently contains **37 raid/event-associated Super
 | super-soul-136 | You intend to defy me?! | Raid Quest Event | Broly (Restrained) Online Raid | verified_secondary |
 
 This index is now complete at **37/37** raid/event canonical names surfaced. The earlier **12/37** result is retained in the dated audit history; this current presentation table does not upgrade evidence status or invent route details.
+
+
+## Canonical database navigation
+
+- [Super Souls](Super-Souls-All.html) — searchable canonical Super Soul records.
+- [Parallel Quests](Parallel-Quests-All.html) — PQ source and reward navigation.
+- [Skills](Skills-All.html) — related canonical skill research.
+- [Characters](Characters-All.html) — canonical character identities.
+
+These links are navigation surfaces only; they do not establish unresolved relationships or acquisition/mechanics facts.
