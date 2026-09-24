@@ -1,3 +1,10 @@
+## 2026-09-24 — Savage Strike P1 provenance enrichment
+
+- Strengthened Savage Strike research provenance for identity, 100-Ki Strike classification, CaC availability, TP Medal Shop route, alternate teleport input, and knockback pursuit.
+- Preserved conflicting historical TP Medal prices and unresolved combat measurements.
+- Added and registered `docs/data/skill-savage-strike-p1-provenance-enrichment-2026-09-24.json`.
+- Advanced the P1 queue to Pressure Sign. CI/runtime unavailable; no CI success claimed.
+
 ## 2026-09-24 — Time Skip/Tremor Pulse research enrichment
 
 - Strengthened the existing Hit mentor research record with current direct evidence for Time Skip/Tremor Pulse: Strike Evasive, 200 Stamina, CaC usability, Hit Lesson 3/fourth mentor reward, Super Class prerequisite, unblockable directional teleport behavior, and a source-backed 7% damage reference retained as research-only.
