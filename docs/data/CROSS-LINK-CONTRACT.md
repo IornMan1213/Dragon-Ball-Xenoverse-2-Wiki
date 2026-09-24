@@ -102,7 +102,7 @@ The layer currently projects **23 canonical skill edges** (**12 Skill Shop + 11 
 
 ### Time Rift / story / tournament endpoint implementation baseline — 2026-09-23
 
-Added `docs/data/time-rift-story-tournament-endpoints.json` with **11 deterministic endpoints** and **14 forward skill edges**: four Time Rift progression endpoints, two story-mission endpoints, and five Conton City Tournament match endpoints. Match 5 legitimately maps to two skills. Tokipedia, Conton City Patrol, and the currently ambiguous Ultra Instinct route remain separate research targets rather than being inferred into this layer.
+Added `docs/data/time-rift-story-tournament-endpoints.json` with **11 deterministic endpoints** and **14 forward skill edges**: four Time Rift progression endpoints, two story-mission endpoints, and five Conton City Tournament match endpoints. Match 5 legitimately maps to two skills. Tokipedia, Conton City Patrol, and the Ultra Instinct special-acquisition route are represented in their dedicated endpoint layers; the Ultra Instinct route is source-backed and remains separate from unrelated endpoint types.
 
 
 ### Expert Mission acquisition endpoint baseline — 2026-09-23
