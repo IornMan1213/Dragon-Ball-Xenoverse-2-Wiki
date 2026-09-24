@@ -7448,3 +7448,17 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime unavailable; no CI success claimed.
 - Commits: acquisition cross-link `53deaccaf922a594acc53961c6bf6cf1eceedfe7`; audit `75db6a55cb92cb68ca9d4efa83c4c73add9538c5`; index registration `2635039459c6b8503bd1acb629ae0d880411d3c1`.
 - Exact next priority: continue the remaining non-PQ reverse-projection audit, prioritizing another acquisition/event/identity consumer whose current layer can be deterministically reconciled.
+
+
+### 2026-09-24 cycle update — live DLC/PQ projection count reconciliation
+
+- Audited the DLC presentation consumer chain and its PQ relationship source after the Expert Mission cross-link batch.
+- Found a deterministic stale top-level projection in `docs/data/pq-reward-relationships.json`: `current_counts` incorrectly reported **0 DLC / 0 farming / 0 characters**, while the live `verified_relationships` array and current reconciliation section contained **86 DLC / 7 farming / 247 character** relationships.
+- Recomputed the live relationship census directly from `verified_relationships` and synchronized `current_counts` to **244 skills / 145 Super Souls / 124 equipment / 247 characters / 86 DLC / 7 farming / 853 total**.
+- Refreshed the DLC presentation audit at `docs/data/dlc/dlc-presentation-consumer-audit-2026-09-24.json`; all **20 canonical DLC identities** still have reverse PQ navigation with **86/86 exact forward↔reverse pairs**, and the Future Saga chapter/content identity checks remain clean.
+- Registered the new DLC audit in `docs/data/pq-cross-domain-index.json`.
+- Validation: changed JSON parsed successfully; relationship counts were recomputed from the live array; DLC reverse layer remains **20 targets / 86 forward / 86 reverse / 0 mismatches / 0 orphan targets**; no acquisition relationship was invented.
+- Evidence boundary preserved: count synchronization does not upgrade gameplay or acquisition evidence.
+- CI/runtime unavailable; no CI success claimed.
+- Commits: PQ count reconciliation `b6b9381a4a71acfe63a60f588aeecb86fa478828`; DLC audit `e87d1e442e0e42d4137f27be583500a9089374f8`; audit registration `a1f969d67095281d67f1f0a009febcaa50749878`.
+- Exact next priority: continue the remaining non-PQ reverse-projection audit, targeting another stale current-field or orphan-target consumer with deterministic repository evidence.
