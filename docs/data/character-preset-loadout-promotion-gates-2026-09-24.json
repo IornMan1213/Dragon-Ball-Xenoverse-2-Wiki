@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-24",
+  "scope": "Evidence gate for unresolved character preset loadout promotion",
+  "rule": "Promote only when numeric preset identity and a complete named skill configuration are independently explicit; otherwise preserve unresolved status.",
+  "checked": [
+    {
+      "id": "goku-preset-2",
+      "identity": "numeric identity confirmed by maintained video evidence",
+      "loadout": "not promoted; public search returned preset identity/unlock evidence but not a complete explicit skill table"
+    },
+    {
+      "id": "goku-preset-3",
+      "identity": "numeric identity confirmed by maintained video evidence",
+      "loadout": "not promoted; no complete explicit skill table located"
+    },
+    {
+      "id": "goku-preset-4",
+      "identity": "numeric identity confirmed by maintained video evidence",
+      "loadout": "not promoted; search results mention Sledgehammer/Burst Kamehameha/Warp Kamehameha only in an SSGSS Goku discussion and do not establish the base Goku Preset 4 loadout"
+    },
+    {
+      "id": "goku-preset-5",
+      "identity": "numeric identity confirmed by maintained video evidence",
+      "loadout": "not promoted; no complete explicit skill table located"
+    },
+    {
+      "id": "vegeta-preset-10",
+      "identity": "numeric identity confirmed by maintained video evidence",
+      "loadout": "not promoted; no complete explicit skill table located"
+    },
+    {
+      "id": "vegeta-preset-11",
+      "identity": "numeric identity confirmed by maintained video evidence",
+      "loadout": "not promoted; no complete explicit skill table located"
+    },
+    {
+      "id": "captain-ginyu-preset-5",
+      "identity": "numeric identity confirmed by maintained video evidence",
+      "loadout": "not promoted; no complete explicit skill table located"
+    },
+    {
+      "id": "captain-ginyu-preset-6",
+      "identity": "numeric identity confirmed by maintained video evidence",
+      "loadout": "not promoted; no complete explicit skill table located"
+    }
+  ],
+  "external_evidence": [
+    "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
+  ],
+  "outcome": "No unresolved record was promoted on identity-only or partial-skill evidence. This gate prevents accidental row-order inference and keeps the canonical producer conservative.",
+  "next": "Continue searching remaining unresolved families for sources that explicitly bind preset number to a complete eight-slot configuration; prioritize first-party/maintained reference tables over community unlock-only videos."
+}
