@@ -1,3 +1,13 @@
+### 2026-09-24 cycle update — raid/event Super Soul audit self-metadata synchronization
+
+- Re-fetched the live raid/event Super Soul presentation audit after the 25-record consumer repair.
+- Deterministic issue found: the consumer table had already reached **37/37**, but the audit's own top-level fields still reported the pre-repair **12/37** state.
+- Synchronized `docs/data/super-soul-raid-event-presentation-consumer-audit-2026-09-24.json` to **37 surfaced / 0 missing / 0 missing records / pass**, including `consumer_rows_after_repair=37`.
+- No canonical Super Soul identities or acquisition relationships changed; availability, recurrence, probability, and guarantee uncertainty remains explicit.
+- Validation: modified JSON re-fetched and parses successfully; consumer/audit parity is now synchronized. CI/runtime remains unavailable; no CI success claimed.
+- Commit: `0ec61d1094d6732b8580ef6ae65fa2bed817929e`.
+- **Exact next batch:** continue deterministic Event/Raid/Festival/Chapter 4 consumer scanning for stale self-reported audit metadata, one-way navigation, orphan targets, and canonical-ID drift; then resume the highest-impact source-backed preset/loadout tranche.
+
 ### 2026-09-24 cycle update — raid/event Super Soul presentation coverage repair
 
 - Reconciled `docs/Super-Souls-Database.md` against the canonical raid/event-associated Super Soul producer.
