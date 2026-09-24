@@ -26,6 +26,13 @@ Mentor availability can depend on:
 - Ownership of the relevant DLC
 - Mentor-specific conditions such as collecting costumes
 
+## Canonical Mentor Database
+
+The structured mentor layer is now the source for the live mentor explorer: **33 canonical mentor identities / 133 lesson reward objects / 132 skill rewards / 1 non-skill reward / 131 mentor→skill edge rows / 130 unique canonical skill targets**. One lesson remains intentionally unresolved as a skill endpoint (Hit's Time Skip/Tremor Pulse), while Zamasu's initiation reward is explicitly typed as a Super Soul rather than treated as a missing skill. The explorer preserves these evidence boundaries and links verified lesson skills into the local skill database.
+
+- **[Every Mentor — Live Explorer](Mentors-All.html)** — searchable canonical mentor records and lesson→skill navigation.
+- **[Every Skill — Live Explorer](Skills-All.html)** — searchable canonical skill records with mentor→mentor-explorer reverse navigation.
+
 ## Cataloged Mentors
 
 The current community catalog contains these 33 entries:
@@ -89,7 +96,7 @@ Hit, Bojack, Zamasu.
 
 ## Database Roadmap
 
-The structured mentor baseline now records the source-count discrepancy and system mechanics. The next pass is to convert the catalog into one normalized record per mentor with exact lesson names, lesson order, unlock conditions, skill type, reward, DLC requirement, and source provenance.
+The catalog has been normalized into `docs/data/mentors-record-layer.json`, with exact lesson names/order, canonical skill IDs where verified, typed non-skill rewards, source provenance, and a dedicated cross-link report. Remaining work is field-level enrichment (for example exact unlock conditions and additional gameplay metadata) where direct evidence exists; the current explorer does not infer those fields.
 
 **Sources:**
 - [Bandai Namco — Dragon Ball Xenoverse 2 official website](https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2)
