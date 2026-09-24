@@ -2956,3 +2956,13 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Added two source-backed community-observed QQ Bang records to the structured research layer.
 - Preserved one exact reported six-stat vector (-1/+5/+5/+5/+5/-1) and one variable high-tier recipe family without fabricating an output vector.
 - Extended and registered the QQ Bang provenance audit; canonical-vs-community evidence boundaries remain explicit.
+
+
+### 2026-09-24 continuation — current skill-count projection reconciliation
+- [x] Live source-of-truth census confirmed at **469 canonical skills / 469 index skills / 0 duplicate IDs**.
+- [x] Found two current-facing projection files still carrying the superseded **465** skill baseline: `docs/data/pq-skill-crosslink-report.json` and `docs/data/pq-endpoint-navigation-current-baseline-audit-2026-09-23.json`.
+- [x] Reconciled those deterministic count scalars to **469** without modifying PQ→skill relationships or inventing edges.
+- [x] Added `docs/data/live-skill-baseline-reconciliation-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: canonical/index parity **469/469**; duplicate IDs **0**; unresolved PQ→skill edges **0**; unsupported relationships added **0**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next:** continue scanning remaining current-facing projections for stale 465/older skill-count scalars, then return to source-backed P1 provenance enrichment once deterministic projection drift is exhausted.
