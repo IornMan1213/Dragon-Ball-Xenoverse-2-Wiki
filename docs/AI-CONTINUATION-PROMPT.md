@@ -8231,3 +8231,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Updated current-presentation-consumer-scan-2026-09-24.json and TODO.
 - CI/runtime unavailable; no CI success claimed.
 - **Exact next batch:** inspect remaining system/reference consumers for canonical-ID drift and one-way navigation, prioritizing surfaces not yet covered by the current presentation scan.
+
+
+### 2026-09-24 cycle update — homepage canonical explorer target synchronization
+- Audited the live homepage consumer after the broader non-PQ navigation pass.
+- Found current homepage links still routing Characters, Super Souls, and Equipment database destinations through legacy landing pages; the live canonical searchable explorers are Characters-All.html, Super-Souls-All.html, and Equipment-All.html. Mentor links were already canonical.
+- Repaired the affected homepage links to canonical explorers.
+- Added and registered `docs/data/homepage-canonical-explorer-navigation-audit-2026-09-24.json`.
+- Validation: 0 targeted obsolete landing-link occurrences remain in `docs/index.md`; all canonical explorer targets exist; navigation-only audit passes.
+- Evidence boundary preserved: no canonical records, relationships, acquisition routes, unlock conditions, mechanics, or historical audit snapshots were changed.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next batch: continue deterministic scan of remaining system/reference landing consumers for stale canonical explorer targets and scalar drift, prioritizing DLC/system/reference pages not covered by registered audits; then resume evidence-gated preset/loadout research only where numeric identity plus complete configuration is directly evidenced.
