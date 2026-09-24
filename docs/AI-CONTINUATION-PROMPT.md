@@ -7998,3 +7998,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Validation: new JSON parses; central index re-read after registration; no current consumer mismatch found in this bounded scope.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** inspect the next uncovered current consumer surface for stale scalar/list assumptions and one-way navigation; if clean, begin the highest-impact source-backed preset/loadout tranche only where numeric preset identity and configuration are directly bound by evidence.
+
+
+### 2026-09-24 cycle completion — Goku preset numeric identity evidence refresh
+- [x] Live census before editing: `character-presets-record-layer.json` = **51 records / 17 presentation character IDs / 25 verified loadouts / 162 verified skill-slot entries / 26 unresolved loadout records**.
+- [x] Bounded batch: existing unresolved Goku preset records `goku-preset-2` through `goku-preset-18` (excluding the absent preset 13 record).
+- [x] Added explicit timestamped numeric-identity observations from the maintained community video: Goku Presets 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17 and 18.
+- [x] Updated `docs/data/character-preset-skill-navigation-audit-2026-09-23.json` so the Goku candidate now records numeric identity as confirmed while keeping loadout promotion blocked.
+- [x] Evidence boundary preserved: the video labels the preset numbers but does **not** expose complete six-slot configurations; no skills were inferred from row order, costume order, or proximity.
+- [x] Validation: reconciliation JSON and navigation audit both parse/re-fetch successfully; the canonical preset producer remains unchanged at 51 records / 25 verified loadouts / 162 skill entries.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next batch:** locate a source exposing both explicit Goku numeric preset labels and complete skill slots. If unavailable, move to the next unresolved preset family rather than guessing Goku loadouts.
