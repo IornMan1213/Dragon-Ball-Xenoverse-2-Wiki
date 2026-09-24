@@ -5351,3 +5351,12 @@
 - [x] The earlier 194/271 count in the preceding entry is superseded by this live post-write census; historical text remains preserved.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next stale batch:** **Full Power Charge; Full Power Destruction; Future Super Saiyan; Galactic Donuts; Galick Cannon; Galick Gun; Gamma Blaster; Gamma Impact; Genocide Shell; Giant Storm; Gigantic Breaker; Gigantic Burst**.
+
+### 2026-09-24 cycle update — Full Power Charge through Gigantic Burst provenance refresh
+- [x] Completed bounded P1 batch: **Full Power Charge; Full Power Destruction; Future Super Saiyan; Galactic Donuts; Galick Cannon; Galick Gun; Gamma Blaster; Gamma Impact; Genocide Shell; Giant Storm; Gigantic Breaker; Gigantic Burst**.
+- [x] Synchronized canonical/index verification metadata to `2026-09-24` for all 12 targets.
+- [x] Added and registered the bounded provenance audit and refreshed the stale-metadata census.
+- [x] Validation: **465 canonical / 465 index / 0 duplicate IDs / 218 current / 247 stale**; target parity clean.
+- [x] Existing acquisition, reward, mechanics, restriction, DLC/update, and evidence-conflict semantics preserved; no unsupported fields inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next stale batch:** **Gigantic Charge; Gigantic Cluster; Gigantic Cross; Gigantic Explosion; Gigantic Meteor; Gigantic Nova; Gigantic Omega; Gigantic Rage; Gigantic Roar; God Breaker; God of Destruction's Anger; God of Destruction's Menace**.
