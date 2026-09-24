@@ -27,8 +27,8 @@
     "Added provenance note while preserving existing uncertainty about per-clear guarantee/drop rate."
   ],
   "validation": {
-    "canonical_records": 455,
-    "index_records": 455,
+    "canonical_records": 465,
+    "index_records": 465,
     "duplicate_ids": 0,
     "target_source_count": 3
   }
