@@ -2943,3 +2943,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - [x] Navigation-only validation passed; no relationship, acquisition, drop-rate, or gameplay facts were introduced.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** continue scanning remaining local reference/database consumers for missing canonical explorer bridges and stale current-facing scalars; preserve historical snapshots, then return to evidence-gated numeric preset/loadout research.
+
+
+## 2026-09-24 — QQ Bang thin-domain provenance refresh
+- Refreshed the structured QQ Bang research layer for the synthesis system, Super Mix Capsule Z, and the Bardock + Beerus recipe family.
+- Added current source-backed provenance for the Clothing Mixing Shop, PQ/Expert Mission Tour acquisition routes, and the Super Mix Capsule Z synthesis path while preserving RNG/recipe uncertainty.
+- Added and registered `docs/data/qq-bang-provenance-refresh-2026-09-24.json`.
+- No exact six-stat QQ Bang output or deterministic recipe result was promoted without direct observed-result evidence.
