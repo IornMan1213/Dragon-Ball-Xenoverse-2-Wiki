@@ -1,3 +1,11 @@
+### 2026-09-24 cycle completion — Acid skill-gap evidence enrichment
+- [x] Strengthened the unresolved `Acid` research record with Xenoverse 2-specific evidence for its cast-only/CaC-unavailable boundary and Saibaman 2 Crystal Raid/Training presence.
+- [x] Added `docs/data/skill-research-gaps-acid-evidence-audit-2026-09-24.json` with explicit evidence and guardrails.
+- [x] Reduced unresolved Acid fields to `ki_cost` and `unlock_method`; no unsupported numeric or acquisition data was invented.
+- [x] Preserved the canonical skill boundary; no unsupported promotion was attempted.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue `Boiling Burg` with direct Xenoverse 2 evidence, then proceed to the next thin-domain task.
+
 ### 2026-09-24 cycle completion — Energy Boil skill-gap evidence enrichment
 - [x] Strengthened the unresolved `Energy Boil` research record with Xenoverse 2-specific identity evidence: skill ID 10540, CaC-unavailable status, and Final Form Demigra ownership.
 - [x] Added direct Xenoverse 2 restoration/mod evidence describing Energy Boil as an evasive, plus independent reference corroboration of the Evasive classification and behavior.
