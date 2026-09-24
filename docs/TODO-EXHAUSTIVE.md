@@ -1,4 +1,11 @@
 
+### 2026-09-24 completed Future Saga Chapter 4 presentation consumer audit
+- [x] Added `docs/data/future-saga-chapter-4-presentation-consumer-audit-2026-09-24.json`.
+- [x] Registered the audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Verified current Chapter 4 presentation parity for 1 Extra Mission, 2 PQs, 4 moves/1 Awoken, 6 costumes/accessories, 4 Super Souls, and 8 loading-screen illustrations.
+- [x] Preserved explicit unresolved states for individual mission/reward/item/battle/gallery details; no unsupported facts were promoted.
+- [ ] **Next:** scan remaining event/raid/Festival/Chapter 4 consumers for stale scalars and one-way navigation; then start the next exhaustive preset/loadout research tranche if the deterministic scan is clean.
+
 ### 2026-09-24 completed Festival audit registry cleanup
 - [x] Registered the existing Festival skill-character presentation audit in docs/data/pq-cross-domain-index.json.
 - [x] Added the registry synchronization to CHANGELOG.md.
