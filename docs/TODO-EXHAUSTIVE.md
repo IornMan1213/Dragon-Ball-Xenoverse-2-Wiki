@@ -6124,3 +6124,13 @@
 - [x] Revalidated the edited JSON by parsing the complete updated document.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** continue deterministic event/raid/Festival/Chapter 4 and remaining character/preset current-consumer scanning for stale scalar counts, orphan targets, one-way navigation, and canonical-ID drift; once that consumer layer is clean, resume the highest-impact source-backed preset/loadout tranche.
+
+
+### 2026-09-24 cycle completion — preset/loadout audit projection synchronization
+- [x] Audited `docs/data/character-preset-skill-navigation-audit-2026-09-23.json` against the canonical `docs/data/character-presets-record-layer.json`.
+- [x] Found a deterministic internal projection mismatch: the audit's top-level count correctly reported **25 verified loadouts / 162 verified loadout skill-slot entries**, but its embedded `verified_preset_loadouts` array still contained only **23** rows from an earlier snapshot.
+- [x] Regenerated the embedded projection directly from the **25** canonical records marked `loadout_status=verified`.
+- [x] Preserved Super Soul labels separately from the 162 skill-slot count; no acquisition, exclusivity, preset-number, or identity inference was introduced.
+- [x] Validation: embedded projection now contains 25 rows and exactly 162 skill entries; all IDs match the canonical verified-record set.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next batch:** continue deterministic character/preset/event consumer scanning for stale projections and one-way navigation; then resume source-backed preset/loadout expansion for unresolved characters where explicit numeric mapping exists.
