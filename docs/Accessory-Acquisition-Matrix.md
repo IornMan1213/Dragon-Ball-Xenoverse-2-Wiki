@@ -25,7 +25,7 @@ The acquisition matrix tracks canonical identities across gifts, Parallel Quests
 | 185 | Goku (Ultra Supervillain Quelled) Wig | Partially verified | Basic reward list identifies the accessory; player reports indicate reward-condition/online behavior may warrant dedicated testing. |
 | 186 | None in the checked basic reward list | Indexed negative | Current reward listing contains clothing/sets, Super Souls and a skill, but no accessory. |
 
-The structured source for this pass is `docs/data/accessory-pq-audit-169-186.json`. The current complete PQ guide explicitly lists the accessories in PQ179-PQ185 and the absence of an accessory in PQ186's basic reward list. citeturn0search0
+The structured source for this pass is `docs/data/accessory-pq-audit-169-186.json`. The current complete PQ guide explicitly lists the accessories in PQ179-PQ185 and the absence of an accessory in PQ186's basic reward list. 
 
 PQ184 remains a special case: the accessory is present in the basic reward list, while the current research corpus separately records a 50% Ultimate-Finish reward chance. These facts are not collapsed into a generic guaranteed-drop statement.
 
