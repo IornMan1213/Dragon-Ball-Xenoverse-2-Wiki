@@ -1,5 +1,13 @@
 # Super Souls – Farming & Acquisition Guide
 
+## Canonical Super Soul Explorer
+For record-level searching and cross-database navigation, use the canonical [Super Souls Explorer](Super-Souls-All.html). The explorer provides the structured record surface while this page retains the broader farming and acquisition guidance.
+
+- [Search every Super Soul record](Super-Souls-All.html)
+- [Browse Parallel Quests](Parallel-Quests-All.html)
+- [Browse Equipment & Accessories](Equipment-All.html)
+
+
 Super Souls are equippable items that provide conditional or always-on effects. They are essential for builds, Limit Burst synergy, and efficient leveling.
 
 ## Primary Ways to Obtain Super Souls
