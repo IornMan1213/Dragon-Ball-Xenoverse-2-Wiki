@@ -1,31 +1,32 @@
 {
   "schema_version": "1.0.0",
   "audit_date": "2026-09-24",
-  "scope": "Live canonical skill verification-date metadata census",
+  "scope": "Live canonical/index skill verification-date metadata census",
   "source_of_truth": "docs/data/skills.json",
   "live_counts": {
     "canonical_skill_records": 465,
     "index_skill_records": 465,
-    "current_last_verified_records": 170,
-    "stale_last_verified_records": 295,
+    "current_last_verified_records": 122,
+    "stale_last_verified_records": 343,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
-    "skill-explosive-assault",
-    "skill-explosive-buu-buu-punch",
-    "skill-explosive-wave",
-    "skill-eye-beam",
-    "skill-fake-blast",
-    "skill-fake-death",
-    "skill-feint-crash",
-    "skill-feint-shot",
-    "skill-fierce-fist",
-    "skill-fighting-pose-a",
-    "skill-fighting-pose-c",
-    "skill-fighting-pose-e"
+    "skill-blaster-meteor",
+    "skill-blaster-shell",
+    "skill-blaster-stream",
+    "skill-blazing-attack",
+    "skill-bloody-counter",
+    "skill-blue-hurricane",
+    "skill-bluff-kamehameha",
+    "skill-body-change",
+    "skill-bomber-dx",
+    "skill-brave-heat",
+    "skill-brave-sword-attack",
+    "skill-brave-sword-slash"
   ],
   "notes": [
-    "Recomputed directly from live canonical/index layers after the Energy Minefield through Excellent Full Course refresh.",
-    "Canonical/index ID parity verified."
+    "Recomputed from the live index layer after the Explosive through Fighting Pose refresh; canonical count remains the established 465-record corpus.",
+    "Canonical/index parity is expected from the targeted synchronized writes; the canonical fetch endpoint returned an empty payload during this census read, so no new claim of independent full-file parsing is made.",
+    "The prior census established 465/465 parity and the 12 targeted canonical records were successfully updated."
   ]
 }
