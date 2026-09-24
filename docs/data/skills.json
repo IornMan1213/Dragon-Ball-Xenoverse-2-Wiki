@@ -11158,9 +11158,9 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Expert Mission 14 — \"Huge Blasts for Huge Apes!\"",
       "acquisition_type": "expert_mission",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM14. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM14. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-shocking-death-ball"
     },
     {
@@ -11180,7 +11180,7 @@
       "mechanics_notes": "100 Ki Ki Blast Super from PQ156; current maintained reward data places it in the 50% Ultimate Finish bonus slot.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Shooting_Strike",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -11189,7 +11189,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 156,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ156's current maintained reward data lists Shooting Strike in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate. 2026-09-21 Hero of Justice Pack 1 provenance audit: official Bandai Namco/Nintendo documentation identifies 4 new Parallel Quests and 7 additional moves; maintained PQ evidence identifies PQ155–158 and lists all seven canonical moves. The live repository maps each of the seven moves to its corresponding PQ and Hero of Justice Pack 1 provenance. 2026-09-23 research refresh: current skill evidence corroborates the 100-Ki Ki Blast Super classification and PQ156 endpoint; the maintained 50% Ultimate Finish bonus-slot condition remains the repository's documented route.",
+      "notes": "2026-09-20 audit: PQ156's current maintained reward data lists Shooting Strike in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate. 2026-09-21 Hero of Justice Pack 1 provenance audit: official Bandai Namco/Nintendo documentation identifies 4 new Parallel Quests and 7 additional moves; maintained PQ evidence identifies PQ155–158 and lists all seven canonical moves. The live repository maps each of the seven moves to its corresponding PQ and Hero of Justice Pack 1 provenance. 2026-09-23 research refresh: current skill evidence corroborates the 100-Ki Ki Blast Super classification and PQ156 endpoint; the maintained 50% Ultimate Finish bonus-slot condition remains the repository's documented route.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-shooting-strike",
       "source_parallel_quests": [
         156
@@ -11212,7 +11212,7 @@
       "mechanics_notes": "100 Ki Ki Blast Super from PQ39; throws a disc that returns like a boomerang. No narrower CaC restriction established.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Side_Bridge",
@@ -11221,7 +11221,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 39,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance reconciliation: current maintained PQ reward evidence explicitly lists this skill in the Basic Reward set. Dedicated/current skill evidence confirms the corresponding PQ acquisition; exact individual reward probability remains unresolved, and no Ultimate Finish-only gate is inferred. 2026-09-23 research refresh: current skill evidence corroborates the 100-Ki Ki Blast Super classification, PQ39 endpoint, and returning-disc/boomerang behavior; no individual drop probability is inferred.",
+      "notes": "2026-09-20 provenance reconciliation: current maintained PQ reward evidence explicitly lists this skill in the Basic Reward set. Dedicated/current skill evidence confirms the corresponding PQ acquisition; exact individual reward probability remains unresolved, and no Ultimate Finish-only gate is inferred. 2026-09-23 research refresh: current skill evidence corroborates the 100-Ki Ki Blast Super classification, PQ39 endpoint, and returning-disc/boomerang behavior; no individual drop probability is inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-side-bridge",
       "source_parallel_quests": [
         39
@@ -11244,7 +11244,7 @@
       "mechanics_notes": "300 Ki Ki Blast Ultimate from PQ154; maintained reward data documents a 40% Ultimate Finish bonus roll.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Sign_of_Awakening",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -11253,7 +11253,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 154,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance census: normalized source field to Parallel Quest 154 — \"Dabura the Loyal? Servant\", matching the maintained PQ research record. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics. 2026-09-23 research refresh: current skill evidence corroborates the 300-Ki Ki Blast Ultimate classification, PQ154 endpoint, rush-plus-energy-wave behavior, and alternate-input rear attack; the maintained 40% Ultimate Finish bonus-slot condition remains unchanged.",
+      "notes": "2026-09-20 provenance census: normalized source field to Parallel Quest 154 — \"Dabura the Loyal? Servant\", matching the maintained PQ research record. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics. 2026-09-23 research refresh: current skill evidence corroborates the 300-Ki Ki Blast Ultimate classification, PQ154 endpoint, rush-plus-energy-wave behavior, and alternate-input rear attack; the maintained 40% Ultimate Finish bonus-slot condition remains unchanged.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-sign-of-awakening",
       "source_parallel_quests": [
         154
@@ -11276,7 +11276,7 @@
       "mechanics_notes": "100 Ki Strike Super acquired through Tokipedia completion; current Extra Pack 2 evidence identifies it as a Fu/Tokipedia endpoint.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-grows-larger-with-the-release-of-extra-pack-2-infinite-history",
         "https://dbxv2.fandom.com/wiki/Sneaky_Strike",
@@ -11284,7 +11284,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 Extra Pack 2 completeness correction: official DLC scope lists eight skills; Sneaky Strike was one of four Fu/Tokipedia endpoints missing from the canonical registry. Current evidence identifies Tokipedia completion as the acquisition endpoint. 2026-09-23 research refresh: current skill evidence corroborates the 100-Ki Strike Super classification and Tokipedia completion endpoint; its controllable vanish and cancel-by-guard behavior are documented.",
+      "notes": "2026-09-21 Extra Pack 2 completeness correction: official DLC scope lists eight skills; Sneaky Strike was one of four Fu/Tokipedia endpoints missing from the canonical registry. Current evidence identifies Tokipedia completion as the acquisition endpoint. 2026-09-23 research refresh: current skill evidence corroborates the 100-Ki Strike Super classification and Tokipedia completion endpoint; its controllable vanish and cancel-by-guard behavior are documented.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-sneaky-strike"
     },
     {
@@ -11304,7 +11304,7 @@
       "mechanics_notes": "Current skill evidence lists 100 Ki. It was initially character-limited but is usable by CaCs after the Supreme Kai of Time content became available.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Soaring_Fist",
         "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc",
@@ -11312,7 +11312,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Soaring Fist as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-22 provenance strengthening: Dragon Ball Wiki independently confirms Soaring Fist as a Xenoverse 2 Super Skill and states that the Future Warrior can purchase it from the TP Medal Shop following Update 1.14. Existing official DLC/update provenance and TP/STP shop endpoint are retained; no additional shop rotation or purchase condition is inferred. 2026-09-23 research refresh: current sources corroborate Soaring Fist as a 100-Ki Super available to the Future Warrior through the TP Medal Shop after Update 1.14; its Ultra Instinct integration as a modified Ki-blast behavior is retained without inferring shop rotation details.",
+      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Soaring Fist as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-22 provenance strengthening: Dragon Ball Wiki independently confirms Soaring Fist as a Xenoverse 2 Super Skill and states that the Future Warrior can purchase it from the TP Medal Shop following Update 1.14. Existing official DLC/update provenance and TP/STP shop endpoint are retained; no additional shop rotation or purchase condition is inferred. 2026-09-23 research refresh: current sources corroborate Soaring Fist as a 100-Ki Super available to the Future Warrior through the TP Medal Shop after Update 1.14; its Ultra Instinct integration as a modified Ki-blast behavior is retained without inferring shop rotation details.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-soaring-fist"
     },
     {
@@ -11332,7 +11332,7 @@
       "mechanics_notes": "100 Ki Strike Super from PQ177; maintained reward data documents a 50% Ultimate Finish gate.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Soaring_Rush",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -11341,7 +11341,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 177,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ177's current maintained reward data lists Soaring Rush at a 50% Ultimate Finish gate; the generic PQ reward field is refined without inventing an additional prerequisite. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred. 2026-09-23 research refresh: current skill evidence corroborates the 100-Ki Strike Super classification and PQ177 endpoint; the maintained 50% Ultimate Finish reward condition remains unchanged.",
+      "notes": "2026-09-20 audit: PQ177's current maintained reward data lists Soaring Rush at a 50% Ultimate Finish gate; the generic PQ reward field is refined without inventing an additional prerequisite. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred. 2026-09-23 research refresh: current skill evidence corroborates the 100-Ki Strike Super classification and PQ177 endpoint; the maintained 50% Ultimate Finish reward condition remains unchanged.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-soaring-rush",
       "source_parallel_quests": [
         177
@@ -11364,12 +11364,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 3 — \"World Tournament Tag Team\"",
       "mechanics_notes": "100 Ki Other Super from PQ03; blinds/stuns opponents in front of the user and is documented as usable by all CaC races.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "race_restriction": "All CaC races",
       "source_quest": 3,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance correction: the maintained PQ reward data explicitly associates Solar Flare with PQ3, \"World Tournament Tag Team\". The prior PQ1 value was stale and has been replaced; no Ultimate Finish-only condition is inferred because the maintained condition does not establish one. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 source-PQ consistency correction: the mechanics note still contained the stale PQ01 reference even though the canonical acquisition/source_parallel_quests fields correctly identify PQ03. Normalized the prose to PQ03 and added direct/current supporting sources. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
+      "notes": "2026-09-20 provenance correction: the maintained PQ reward data explicitly associates Solar Flare with PQ3, \"World Tournament Tag Team\". The prior PQ1 value was stale and has been replaced; no Ultimate Finish-only condition is inferred because the maintained condition does not establish one. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 source-PQ consistency correction: the mechanics note still contained the stale PQ01 reference even though the canonical acquisition/source_parallel_quests fields correctly identify PQ03. Normalized the prose to PQ03 and added direct/current supporting sources. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-solar-flare",
       "source_parallel_quests": [
         3
@@ -11392,7 +11392,7 @@
       "mechanics_notes": "100 Ki Strike Super from PQ105; maintained current reward data places it in Basic Reward, while older player reports conflict, so no UF-only gate is asserted.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Sonic_Bomb",
@@ -11401,7 +11401,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 105,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-23 provenance correction: dedicated current skill documentation identifies Frieza (1st Form) as a Customize Partner user, with Omega Shenron and Super Baby 2 also listed. The legacy character_source value Champa was incorrect and is corrected to Frieza (1st Form); the PQ105 acquisition remains unchanged.",
+      "notes": "2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-23 provenance correction: dedicated current skill documentation identifies Frieza (1st Form) as a Customize Partner user, with Omega Shenron and Super Baby 2 also listed. The legacy character_source value Champa was incorrect and is corrected to Frieza (1st Form); the PQ105 acquisition remains unchanged.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-sonic-bomb",
       "source_parallel_quests": [
         105
@@ -11422,13 +11422,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Future Gohan mentor training",
       "mechanics_notes": "Future Gohan's Sonic Rush is a 100-Ki Strike Super with a short-range barrage; current skill reference describes six hits and a hard knockdown.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Future Gohan mentor training — Lesson 1.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: Future Gohan training is confirmed as the acquisition endpoint; current skill evidence confirms 100 Ki Strike Super classification and a short-range six-hit hard-knockdown sequence. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
+      "notes": "2026-09-22 provenance refresh: Future Gohan training is confirmed as the acquisition endpoint; current skill evidence confirms 100 Ki Strike Super classification and a short-range six-hit hard-knockdown sequence. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-sonic-rush",
       "source_mentor": [
         "mentor-future-gohan"
@@ -11451,12 +11451,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Piccolo mentor training — Lesson 3",
       "mechanics_notes": "Piccolo's Lesson 3 reward; 300-Ki Ultimate/Ki Blast identity is corroborated by current skill references.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "race_restriction": "All CaC races",
       "source_quest": "Piccolo mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: Piccolo Lesson 3 remains the deterministic acquisition endpoint; current skill evidence confirms the 300-Ki Ultimate/Ki Blast identity. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
+      "notes": "2026-09-22 provenance refresh: Piccolo Lesson 3 remains the deterministic acquisition endpoint; current skill evidence confirms the 300-Ki Ultimate/Ki Blast identity. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-special-beam-cannon",
       "source_mentor": [
         "mentor-piccolo"
@@ -11480,7 +11480,7 @@
       "mechanics_notes": "Gohan (Beast)'s 500-Ki Ultimate/Ki Blast; current references describe a chargeable beam whose power increases at lower health. PQ162 reward-tier presentation remains a documented source conflict.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Special_Beam_Cannon_(Beast)",
@@ -11491,7 +11491,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 162,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: PQ162 is the canonical acquisition endpoint; current references confirm 500 Ki Ultimate/Ki Blast classification and chargeable/lower-health-stronger behavior. Basic Reward versus Ultimate Finish reward-tier sources remain in conflict. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
+      "notes": "2026-09-22 provenance refresh: PQ162 is the canonical acquisition endpoint; current references confirm 500 Ki Ultimate/Ki Blast classification and chargeable/lower-health-stronger behavior. Basic Reward versus Ultimate Finish reward-tier sources remain in conflict. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-special-beam-cannon-beast",
       "source_parallel_quests": [
         162
