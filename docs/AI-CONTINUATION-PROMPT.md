@@ -8082,3 +8082,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - GameFAQs material identifying SSGSS Goku Preset 4 skills was rejected for base Goku Preset 4 because the roster identity differs. citeturn0search1
 - No promotion was made. Updated `docs/data/character-preset-loadout-promotion-gates-2026-09-24.json`; commit `7842e1f9e93f26e18dc121b602c72d2db9cde816`.
 - **Next priority:** continue unresolved preset families until a version-correct source explicitly binds numeric preset identity to a complete named configuration.
+
+
+### 2026-09-24 cycle update — mentor explorer cross-navigation
+
+- Recomputed the live mentor baseline before editing: **33 canonical mentor identities / 133 lesson reward objects / 132 skill rewards / 1 typed non-skill reward / 131 mentor→skill edge rows / 130 unique canonical skill targets / 0 broken skill endpoints**.
+- Added `docs/Mentors-All.html` as a live canonical mentor explorer backed directly by `docs/data/mentors-record-layer.json`.
+- Updated `docs/Skills-All.html` so mentor provenance links back to `Mentors-All.html`, completing the presentation-level mentor↔skill loop.
+- Updated `docs/Mentors.md` and `README.md` to expose the explorer and corrected the stale normalization roadmap statement.
+- Added `docs/data/mentor-presentation-consumer-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- Evidence limits preserved: Hit's Time Skip/Tremor Pulse remains explicitly unresolved; Zamasu's initiation reward is a typed Super Soul. No unsupported unlock, friendship, probability, or gameplay facts were introduced.
+- Validation: modified JSON files re-fetched and parsed successfully; registration and bidirectional presentation wiring verified. CI/runtime remains unavailable; no CI success claimed.
+- Commits: `5e0b1f9eac15c4b498b276224c0cf6284a0e97ec`, `936abf839c14511b8dcc553d0021801ab018a737`, `9f94adde5ea0548c7b7d9659b3ac4628f61d706a`, `be02e842d461835aa20446173bb4c235f530f65c`, `75b934300c149b81cbefab6ece14d38bcd8a92ba`, `b9debc512aa10616e90ab67ec116b9a16bae425e`.
+- **Exact next batch:** inspect the next uncovered current non-PQ presentation consumer, prioritizing the Expert Mission endpoint layer/page/search navigation for stale counts, one-way links, orphan targets, and canonical-ID drift; then resume source-backed preset/loadout expansion where direct numeric identity plus complete configuration can be established.
