@@ -50,7 +50,7 @@ title: Dragon Ball Xenoverse 2 Wiki
     <a class="pulse-card" href="{{ '/Parallel-Quests-All/' | relative_url }}"><strong>186</strong><span>numbered Parallel Quests tracked</span><small>Includes Future Saga Chapter 4</small></a>
     <a class="pulse-card" href="{{ '/Awoken-All/' | relative_url }}"><strong>18</strong><span>Awoken/Transformation targets</span><small>CaC and character-only states are separated</small></a>
     <a class="pulse-card" href="{{ '/Mentors/' | relative_url }}"><strong>33+</strong><span>mentor records in the research layer</span><small>Unlocks and progression continue to be reconciled</small></a>
-    <a class="pulse-card" href="{{ '/Super-Souls-Database/' | relative_url }}"><strong>18</strong><span>Super Soul records populated</span><small>Acquisition and effect fields remain independently verifiable</small></a>
+    <a class="pulse-card" href="{{ '/Super-Souls-Database/' | relative_url }}"><strong>230</strong><span>canonical Super Soul records</span><small>Acquisition and effect fields remain independently verifiable</small></a>
     <a class="pulse-card" href="{{ '/QQ-Bang-Database/' | relative_url }}"><strong>QQ</strong><span>QQ Bang research layer</span><small>Synthesis system, six-stat schema, Super Mix Capsule Z, and recipe provenance</small></a>
     <a class="pulse-card" href="{{ '/Equipment-Database/' | relative_url }}"><strong>NEW</strong><span>Equipment research track</span><small>Individual gear, clothing, accessories, acquisition, stats, and version provenance</small></a>
     <a class="pulse-card" href="{{ '/Accessory-Shop-Database/' | relative_url }}"><strong>51</strong><span>Accessory Shop research records</span><small>Scouters, headwear, wigs, eyewear, props, staffs, and special accessories</small></a>
