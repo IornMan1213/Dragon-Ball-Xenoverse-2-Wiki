@@ -2769,3 +2769,13 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Expanded the Expert Mission provenance audit to cover all 18 endpoint rows.
 - No canonical endpoint IDs, skill identities, acquisition relationships, drop rates, or per-clear guarantees were inferred. CI/runtime remains unavailable.
 - **Next:** continue the remaining 95 non-PQ/non-mentor acquisition/provenance gaps, prioritizing explicit special-route evidence such as Ultra Instinct.
+
+
+### 2026-09-23 — Ultra Instinct special-route provenance strengthening
+
+- Strengthened canonical Ultra Instinct provenance with an independent In Pursuit of Mastery level reference confirming that the Jiren (Full Power) challenge unlocks the Awoken Skill.
+- Updated the special-acquisition endpoint to the explicit source-backed route and removed the stale unresolved-route wording from the cross-link contract.
+- Corrected EM17 endpoint reward-tier metadata to null because the reconciled all-Expert-Missions guide says Spirit Bomb in EM17 rather than Spirit Sword; the conflict remains explicit and no reward tier is inferred for Spirit Sword.
+- Live structural target remains **465 canonical skills / 239 PQ-linked / 226 non-PQ / 95 unique non-PQ/non-mentor endpoint targets / 131 unique mentor-linked targets**; no canonical relationship rows changed.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next batch: thinnest-source records in the remaining 95 endpoint-linked non-PQ/non-mentor provenance queue.
