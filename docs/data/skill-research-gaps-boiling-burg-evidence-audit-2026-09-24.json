@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-24",
+  "skill_name": "Boiling Burg",
+  "skill_id": "skill-boiling-burg",
+  "status": "evidence_enriched_unresolved",
+  "scope": "bounded Xenoverse 2-specific evidence enrichment",
+  "evidence": [
+    {
+      "type": "xenoverse2_id",
+      "claim": "Boiling Burg is skill ID 540, CaC-unavailable, assigned to Demon God Demigra (Final Form).",
+      "source": "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
+    },
+    {
+      "type": "xenoverse2_pq",
+      "claim": "Legend Patrol's Defend History! Unknown Battle lists Boiling Burg on Final Form Demigra.",
+      "source": "https://videogaming.fandom.com/wiki/Defend_History%21_Unknown_Battle"
+    },
+    {
+      "type": "xenoverse2_cac_catalog",
+      "claim": "Boiling Burg appears on a Xenoverse 2 catalog of skills unobtainable by CaC.",
+      "source": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79567595"
+    },
+    {
+      "type": "xenoverse2_reference",
+      "claim": "Boiling Burg is described as Final Demigra's Ultimate attack in Xenoverse 2.",
+      "source": "https://dragonball.fandom.com/wiki/Demigra"
+    }
+  ],
+  "resolved_fields": {
+    "classification": "Ultimate",
+    "cac_available": false,
+    "character_source": "Demon God Demigra (Final Form)",
+    "attack_description": "Multiple dark-energy pillars erupt/chase the opponent; the move interferes with lock-on targeting while active."
+  },
+  "unresolved_fields": [
+    "ki_cost"
+  ],
+  "guardrails": [
+    "Do not infer Ki cost from Dragon Ball Xenoverse, Heroes, Dokkan, or mod implementation.",
+    "Do not create a CaC acquisition route from NPC/boss usage.",
+    "Do not promote to canonical skills.json without supported builder execution and required field coverage."
+  ]
+}
