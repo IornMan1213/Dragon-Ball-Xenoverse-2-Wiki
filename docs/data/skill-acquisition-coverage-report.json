@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "game": "Dragon Ball Xenoverse 2",
   "status": "canonical_skill_acquisition_coverage_audit",
-  "last_verified": "2026-09-23",
+  "last_verified": "2026-09-24",
   "purpose": "Classify canonical skills that do not have source_parallel_quests, preventing non-PQ acquisition routes from being incorrectly forced into the PQ graph.",
   "source_skill_count": 305,
   "pq_linked_skill_count": 234,
@@ -161,25 +161,25 @@
   "total_classified": 70,
   "unresolved_nonpq_skills": 0,
   "current_projection_2026_09_23": {
-    "source_skill_count": 455,
+    "source_skill_count": 465,
     "pq_linked_skill_count": 239,
-    "unlinked_skill_count": 216,
-    "mentor_linked_unlinked_pq": 130,
+    "unlinked_skill_count": 226,
+    "mentor_linked_unlinked_pq": 131,
     "mentor_like_unlinked": 12,
     "expert_mission_unlinked": 9,
     "character_only_unlinked": 10,
-    "other_unlinked_skill_count": 86,
-    "mentor_edge_rows": 131,
+    "other_unlinked_skill_count": 95,
+    "mentor_edge_rows": 132,
     "mentor_unique_skill_targets": 130,
     "shared_mentor_skill_targets": [
       "skill-super-explosive-wave"
     ],
     "notes": [
-      "Correction: the prior projection incorrectly reported 58 remaining non-PQ/non-mentor records because its category arithmetic double-counted overlapping acquisition classifications.",
-      "The live deterministic set difference is 455 canonical minus 239 PQ-linked minus 130 mentor-linked = 86 non-PQ/non-mentor skills.",
-      "All 216 skills without source_parallel_quests are therefore accounted for as 130 mentor-linked + 86 other non-PQ/non-mentor.",
-      "Prior historical fields and audit history are preserved; no acquisition or PQ relationship was changed."
+      "2026-09-24 current-baseline repair: synchronized this projection to the live 465-record canonical/index skill layer after the 10 Expert Mission records were promoted into skills-index.json.",
+      "The live deterministic arithmetic is 465 canonical - 239 PQ-linked = 226 without PQ; 226 = 131 mentor-linked skill targets + 95 non-PQ/non-mentor endpoint targets.",
+      "The mentor crosslink layer remains 131 edge rows / 130 unique skill endpoints; endpoint-target counts are classification counts and may overlap at the source-field level.",
+      "Historical 455/239/216 and older classification snapshots remain preserved outside this current projection."
     ],
-    "non_pq_nonmentor_count": 86
+    "non_pq_nonmentor_count": 95
   }
 }
