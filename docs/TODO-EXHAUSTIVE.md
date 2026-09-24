@@ -5414,3 +5414,11 @@
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Discover/research **Hollow Rush; Ice Rain; Ice Sheet**; no sufficiently direct repository research record was found in the current live search.
 - **Exact next stale batch:** **Heroic Counter; Ill Bomber; Impact Flare; Impulse Slash; Indomitable; Innocence Breath; Innocence Bullet; Innocence Cannon; Instant Charge; Instant Rise; Instant Transmission; Jumping Energy Wave**.
+
+### 2026-09-24 cycle update — Heroic Counter through Jumping Energy Wave provenance refresh
+- [x] Refreshed the 12 canonical/index skill records: **Heroic Counter; Ill Bomber; Impact Flare; Impulse Slash; Indomitable; Innocence Breath; Innocence Bullet; Innocence Cannon; Instant Charge; Instant Rise; Instant Transmission; Jumping Energy Wave**.
+- [x] Added/registered the bounded provenance audit and refreshed live census.
+- [x] Live validation: **469 canonical / 469 index / 275 current / 194 stale / 0 duplicate IDs**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Continue discovery for **Hollow Rush; Ice Rain; Ice Sheet** without fabricating records.
+- **Exact next stale batch:** **Justice Blade; Justice Combination; Justice Drive; Justice Kick; Justice Pose; Justice Rush; Kai Kai; Kaioken; Kaioken Assault; Kaioken Kamehameha; Ki Blast Cannon; Ki Blast Thrust**.
