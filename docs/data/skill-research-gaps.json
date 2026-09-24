@@ -113,7 +113,41 @@
         "Xenoverse 2-specific reference material identifies Boulder Break as a Super Skill used by Great Apes and describes it as a variation of Boulder Toss."
       ],
       "reason": "Xenoverse 2-specific evidence establishes Boulder Break as a CaC-unavailable Super Skill used by Great Apes. Its physical/projectile class is documented externally, but the repository's canonical subtype mapping and Ki cost remain unverified."
+    },
+    {
+      "name": "Boiling Ball",
+      "status": "unresolved",
+      "known_identity": "Demon God Demigra (Final Form) attack",
+      "missing": [
+        "subcategory",
+        "ki_cost"
+      ],
+      "evidence": [
+        "Xenoverse 2 Character ID List assigns skill ID 541 to Boiling Ball, marks it CaC-unavailable, and identifies Demon God Demigra (Final Form) as its source.",
+        "A Xenoverse 2 skill-list artifact places Boiling Ball in the Super Skills section.",
+        "Legend Patrol's Defend History! Unknown Battle lists Boiling Ball on Final Form Demigra.",
+        "Xenoverse 2 Demigra reference material describes the move's three spinning dark-energy spheres and its Time Rift behavior.",
+        "A Xenoverse 2 catalog of skills unobtainable by CaC lists Boiling Ball."
+      ],
+      "reason": "Xenoverse 2-specific evidence establishes Boiling Ball as a CaC-unavailable Super Skill used by Final Form Demigra. The repository subtype and canonical Ki-cost fields remain unverified."
+    },
+    {
+      "name": "Tricky Strike",
+      "status": "unresolved",
+      "known_identity": "Demon God Demigra (Final Form) attack",
+      "missing": [
+        "subcategory",
+        "ki_cost"
+      ],
+      "evidence": [
+        "Xenoverse 2 Character ID List assigns skill ID 542 to Tricky Strike, marks it CaC-unavailable, and identifies Demon God Demigra (Final Form) as its source.",
+        "A Xenoverse 2 skill-list artifact places Tricky Strike in the Super Skills section.",
+        "Legend Patrol's Defend History! Unknown Battle lists Tricky Strike on Final Form Demigra.",
+        "Xenoverse 2 Demigra reference material documents Tricky Strike's three teleporting variants.",
+        "A Xenoverse 2 catalog of skills unobtainable by CaC lists Tricky Strike."
+      ],
+      "reason": "Xenoverse 2-specific evidence establishes Tricky Strike as a CaC-unavailable Super Skill used by Final Form Demigra. The repository subtype and canonical Ki-cost fields remain unverified."
     }
   ],
-  "notes": "2026-09-24 Howl tranche: Evasive classification and CaC-unavailable status strengthened from Xenoverse 2-specific artifacts; Ki cost and acquisition remain unresolved and are not promoted. 2026-09-24 Baked Sphere tranche: strengthened Xenoverse 2-specific Ultimate/CaC-unavailable classification; Ki cost remains unresolved and is not promoted."
+  "notes": "2026-09-24 Howl tranche: Evasive classification and CaC-unavailable status strengthened from Xenoverse 2-specific artifacts; Ki cost and acquisition remain unresolved and are not promoted. 2026-09-24 Baked Sphere tranche: strengthened Xenoverse 2-specific Ultimate/CaC-unavailable classification; Ki cost remains unresolved and is not promoted. 2026-09-24 Boiling Ball/Tricky Strike tranche: strengthened Xenoverse 2-specific identity, Super Skill classification, Final Form Demigra ownership, and CaC-unavailable boundaries; repository subtype and Ki cost remain unresolved and are not promoted."
 }
