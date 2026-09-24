@@ -6,38 +6,58 @@
   "live_counts": {
     "canonical_skill_records": 469,
     "index_skill_records": 469,
-    "current_last_verified_records": 299,
-    "stale_last_verified_records": 170,
+    "current_last_verified_records": 311,
+    "stale_last_verified_records": 158,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
     {
-      "id": "skill-masterful-presence",
-      "name": "Masterful Presence"
+      "id": "skill-phantom-fist",
+      "name": "Phantom Fist"
     },
     {
-      "id": "skill-meteor-blow",
-      "name": "Meteor Blow"
+      "id": "skill-photon-swipe",
+      "name": "Photon Swipe"
     },
     {
-      "id": "skill-meteor-crash",
-      "name": "Meteor Crash"
+      "id": "skill-potential-unleashed",
+      "name": "Potential Unleashed"
     },
     {
-      "id": "skill-meteor-explosion",
-      "name": "Meteor Explosion"
+      "id": "skill-power-blitz",
+      "name": "Power Blitz"
     },
     {
-      "id": "skill-meteor-strike",
-      "name": "Meteor Strike"
+      "id": "skill-power-impact",
+      "name": "Power Impact"
     },
     {
-      "id": "skill-mighty-explosion",
-      "name": "Mighty Explosion"
+      "id": "skill-power-pole-combo",
+      "name": "Power Pole Combo"
     },
     {
-      "id": "skill-miracle-knee",
-      "name": "Miracle Knee"
+      "id": "skill-power-pole-pro",
+      "name": "Power Pole Pro"
+    },
+    {
+      "id": "skill-power-rush",
+      "name": "Power Rush"
+    },
+    {
+      "id": "skill-power-wall",
+      "name": "Power Wall"
+    },
+    {
+      "id": "skill-powered-shell",
+      "name": "Powered Shell"
+    },
+    {
+      "id": "skill-prelude-to-destruction",
+      "name": "Prelude to Destruction"
+    },
+    {
+      "id": "skill-prepare-to-be-punished",
+      "name": "Prepare to be Punished"
     }
   ],
   "notes": [
@@ -52,6 +72,7 @@
     "2026-09-24 provenance refresh completed for Justice Blade through Ki Blast Thrust; canonical/index verification-date parity remains aligned.",
     "Current live counts after this batch are 469 canonical / 469 index / 287 current / 182 stale / 0 duplicate IDs.",
     "Next alphabetical stale batch is Ki Explosion through Majin Kamehameha.",
-    "2026-09-24: Ki Explosion through Majin Kamehameha provenance batch completed; canonical/index parity validated at 469 records with zero mismatches."
+    "2026-09-24: Ki Explosion through Majin Kamehameha provenance batch completed; canonical/index parity validated at 469 records with zero mismatches.",
+    "2026-09-24: Masenko through Petrifying Spit provenance batch completed; canonical/index parity validated at 469 records with zero mismatches."
   ]
 }
