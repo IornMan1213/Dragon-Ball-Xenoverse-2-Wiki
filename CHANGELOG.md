@@ -1,3 +1,10 @@
+## 2026-09-24 — Dimensional Hole P1 provenance refresh
+
+- Revalidated Dimensional Hole as a Super / Ki Blast Counter with 0 Ki and PQ80 Basic Reward acquisition.
+- Added and registered the P1 provenance enrichment audit.
+- Preserved unresolved probability, stamina, frame, and universal damage fields.
+- CI/runtime unavailable; no CI success claimed.
+
 ## 2026-09-24 — Critical Upper P1 provenance refresh
 
 - Revalidated Critical Upper as a 100-Ki Strike Super obtained from Dodoria Lesson 1.
