@@ -145,5 +145,19 @@
     "inferred_acquisition_routes": 0,
     "inferred_variant_collapses": 0
   },
-  "evidence_boundary": "This is a navigation/identity consumer audit only. It confirms exact-name resolution against the canonical character layer. It does not establish complete preset counts, preset numbering, loadouts, unlock routes, Festival progression, Partner Customization keys, or historical availability."
+  "evidence_boundary": "This is a navigation/identity consumer audit only. It confirms exact-name resolution against the canonical character layer. It does not establish complete preset counts, preset numbering, loadouts, unlock routes, Festival progression, Partner Customization keys, or historical availability.",
+  "navigation_contract": {
+    "status": "pass",
+    "canonical_explorers": {
+      "characters": "Characters-All.html",
+      "skills": "Skills-All.html",
+      "parallel_quests": "Parallel-Quests-All.html",
+      "equipment": "Equipment-All.html",
+      "super_souls": "Super-Souls-All.html"
+    },
+    "consumer_navigation_added": true,
+    "relationship_inference": false,
+    "note": "Explorer links are presentation navigation only; preset identity, loadout, acquisition, and ownership still require explicit evidence."
+  },
+  "validation_note": "Navigation section added to docs/Character-Preset-Research.md using existing canonical explorer targets; no preset or relationship records changed."
 }

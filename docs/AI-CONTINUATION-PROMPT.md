@@ -8225,3 +8225,10 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Restored docs/AI-CONTINUATION-PROMPT.md from the latest non-empty continuation-handoff revision before appending this entry; the current main-branch file had become unexpectedly empty, so historical handoff state is preserved from that prior revision and current TODO history remains authoritative for subsequent reconciliation.
 - Validation: canonical preset JSON = 51/26/25/0 duplicates; edited JSON projections parse and agree with the producer; numeric unresolved set remains 20/20; CI/runtime remains unavailable and no CI success is claimed.
 - Exact next batch: continue deterministic current-facing preset/character consumer scanning for stale projections and one-way navigation; then pursue direct numeric preset-label + complete eight-slot configuration evidence for the unresolved families, without row-order/costume-order inference.
+
+### 2026-09-24 cycle update — Character Preset Research canonical explorer bridge
+- Audited docs/Character-Preset-Research.md as the high-connectivity preset research landing page after the preset projection census synchronization.
+- Added explicit navigation to the live canonical Characters, Skills, Parallel Quests, Equipment/Accessories, and Super Souls explorers, so sourced preset research can move directly into the canonical databases.
+- Added navigation_contract to docs/data/character-preset-research-presentation-consumer-audit-2026-09-24.json and verified all five targets exist in the live repository tree.
+- Evidence boundary preserved: these are navigation aids only; no preset identity, loadout, acquisition, ownership, or relationship was inferred.
+- Exact next batch: continue the deterministic preset/character consumer scan for remaining stale projections and one-way links, then resume direct numeric preset-label + complete configuration evidence research.

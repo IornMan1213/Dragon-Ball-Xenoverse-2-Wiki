@@ -61,6 +61,18 @@ The next detailed pass should prioritize:
 9. **Jiren/Hit/Toppo** — base, transformed and Supervillain/Ultra Supervillain identities.
 10. **DLC/event characters** — Festival, Crystal Raid and Partner Customization records.
 
+## Canonical explorer navigation
+
+Use the live searchable explorers when moving from preset research into the canonical entity layers:
+
+- **Characters:** [Characters-All.html](Characters-All.html) — canonical character identity/search surface.
+- **Skills:** [Skills-All.html](Skills-All.html) — canonical skill identity/search surface for reconciling sourced preset skill slots.
+- **Parallel Quests:** [Parallel-Quests-All.html](Parallel-Quests-All.html) — canonical PQ surface for sourced acquisition relationships.
+- **Equipment / Accessories:** [Equipment-All.html](Equipment-All.html) — canonical equipment identity/search surface when a preset source names relevant equipment.
+- **Super Souls:** [Super-Souls-All.html](Super-Souls-All.html) — canonical Super Soul identity/search surface when a preset source names a Super Soul.
+
+These links are navigation aids only. Reaching an explorer does **not** establish a preset relationship, acquisition route, loadout, or ownership claim; those relationships still require the evidence rules below.
+
 ## Source-provenance policy
 
 Each future preset record should retain:
