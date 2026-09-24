@@ -1,3 +1,9 @@
+### 2026-09-24 completed residual accessory homepage consumer repair
+- [x] Re-scanned current-facing accessory count consumers.
+- [x] Corrected `docs/index.md` from stale **53 / 37** accessory counts to the live **51 / 116** shop/canonical counts.
+- [x] Preserved historical counts in research/audit history.
+- [ ] **Next:** continue deterministic consumer scanning for uncovered character/preset and event/raid-linked presentation drift.
+
 ### 2026-09-24 completed canonical farming presentation consumer
 - [x] Added canonical `pq_farming_route` loading/rendering to `docs/Parallel-Quests-All.html`.
 - [x] Added and registered `docs/data/farming/pq-farming-presentation-consumer-audit-2026-09-24.json`.
