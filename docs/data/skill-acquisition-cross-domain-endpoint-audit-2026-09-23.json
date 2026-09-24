@@ -12,7 +12,8 @@
     "All 18 Expert Mission endpoint records resolve to canonical skill IDs in skills.json; EM03–EM20 endpoint IDs are deterministic and consumed by the canonical Expert Mission endpoint layer.",
     "All 4 advancement-test records resolve to canonical skill IDs and stable advancement-test IDs.",
     "Canonical mentor, Expert Mission, Skill Shop/TP-STP Medal Shop, Time Rift/story/tournament, Tokipedia, Conton City Patrol, starting-move, special-acquisition, and character-exclusive endpoint layers are now present in the repository.",
-    "No new relationship should be inferred solely from unlock_method prose; endpoint layers consume dedicated canonical records and preserve evidence boundaries."
+    "No new relationship should be inferred solely from unlock_method prose; endpoint layers consume dedicated canonical records and preserve evidence boundaries.",
+    "2026-09-23 Ultra Instinct provenance strengthening: the dedicated In Pursuit of Mastery reference explicitly states that completing the Jiren (Full Power) challenge unlocks Ultra Instinct; the special endpoint now cites this source and no additional prerequisite or alternate route is inferred."
   ],
   "expert_mission_records": [
     {
@@ -172,7 +173,10 @@
     "all_em_canonical_ids": true,
     "all_advancement_skill_ids": true,
     "missing_endpoint_layers": 0,
-    "status": "pass"
+    "status": "pass",
+    "ultra_instinct_special_endpoint_source_backed": true,
+    "non_pq_nonmentor_endpoint_target_count": 95,
+    "canonical_skill_count": 465
   },
   "acquisition_type_census": {
     "skill_shop": 13,
@@ -185,9 +189,9 @@
     "character_only": 10,
     "starting_move": 2
   },
-  "census_note": "Post-normalization live census from skills.json: 465 canonical skills. Shop endpoint layer has 31 linked skills; Expert Mission endpoint layer has 18; mentor layer has 132 lesson→skill edges across 131 unique skill targets. Counts are classification/endpoint counts and may overlap.",
+  "census_note": "Post-normalization live census from skills.json: 465 canonical skills = 239 PQ-linked + 226 non-PQ; the non-PQ endpoint union contains 95 unique non-PQ/non-mentor skill targets and the mentor layer contains 131 unique skill targets. Counts are classification/endpoint counts and may overlap at the source-field level.",
   "next_research": [
-    "Reconcile remaining endpoint-layer provenance/metadata gaps, especially ambiguous acquisition routes such as Ultra Instinct, without inventing relationships.",
+    "Continue source-backed provenance strengthening for the remaining 95 non-PQ/non-mentor endpoint-linked skills; prioritize records with thin source coverage while preserving existing evidence boundaries.",
     "Keep all endpoint layers aligned with the 465-record canonical skill registry and full endpoint reverse-parity audit."
   ]
 }
