@@ -359,7 +359,8 @@
     "skill_acquisition_coverage_current_projection_hardening_2026_09_24": "docs/data/skill-acquisition-coverage-current-projection-audit-2026-09-24.json",
     "tokipedia_endpoint_projection_audit_2026_09_24": "docs/data/tokipedia-endpoint-audit-2026-09-24.json",
     "starting_move_endpoint_audit_2026_09_24": "docs/data/starting-move-endpoint-audit-2026-09-24.json",
-    "character_exclusive_skill_endpoint_audit_2026_09_24": "docs/data/character-exclusive-skill-endpoint-audit-2026-09-24.json"
+    "character_exclusive_skill_endpoint_audit_2026_09_24": "docs/data/character-exclusive-skill-endpoint-audit-2026-09-24.json",
+    "equipment_accessory_presentation_consumer_audit_2026_09_24": "docs/data/equipment-accessory-presentation-consumer-audit-2026-09-24.json"
   },
   "registered_audits": {
     "super_soul_thin_census_2026_09_22": "docs/data/super-soul-thin-census-2026-09-22.json",
