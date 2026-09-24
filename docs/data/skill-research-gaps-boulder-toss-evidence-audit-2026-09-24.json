@@ -17,27 +17,27 @@
       "source": "https://dbxv2.fandom.com/wiki/Great_Ape_Festival"
     },
     {
-      "type": "xenoverse2_moveset",
-      "claim": "Xenoverse 2 Expert Mission and story/PQ references also show Boulder Toss in Great Ape movesets.",
-      "source": "https://dbxv2.fandom.com/wiki/Great_Ape_Festival"
+      "type": "xenoverse2_taxonomy_correction",
+      "claim": "Repository research batch 286 reconciles the earlier Other placeholder to Strike, using current Xenoverse 2 Great Ape quest documentation and the physical boulder-throw behavior as the taxonomy basis.",
+      "source": "docs/data/skill-research-batches/skill-batch-286.json"
     },
     {
       "type": "current_web_verification",
-      "claim": "Current Xenoverse 2 PQ and Expert Mission references independently show Boulder Toss on Great Ape Nappa and/or Vegeta; a current Great Ape skill overview classifies it as a Super Attack.",
+      "claim": "Current Xenoverse 2 quest documentation independently shows Boulder Toss on Great Ape Nappa/Vegeta and identifies it as a Great Ape Super Attack.",
       "source": "https://dbxv2.fandom.com/wiki/Great_Ape_Festival"
     }
   ],
   "resolved_fields": {
     "classification": "Super Skill",
+    "subcategory_research": "Strike",
     "cac_available": false,
     "character_source": "Great Ape Nappa; Great Ape Vegeta"
   },
   "unresolved_fields": [
-    "subcategory",
     "ki_cost"
   ],
+  "canonical_integration_status": "subcategory is research-supported by the repository's batch-286 correction, but canonical skills.json/skills-index.json integration remains blocked on the supported builder/runtime.",
   "guardrails": [
-    "Do not infer the repository subtype from generic physical/projectile terminology without a validated taxonomy mapping.",
     "Do not infer Ki cost from another game or unofficial implementation.",
     "Do not create a CaC acquisition route from enemy-only usage.",
     "Do not promote to canonical skills.json without supported builder execution and required field coverage."
