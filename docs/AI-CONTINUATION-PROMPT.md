@@ -76,3 +76,13 @@
 - [x] Commits: `3130d721e5ff6ea2e34f73d7d4fadec27ee3e80f` (audit), `78f37d623e56e75e83a3058783f38a9b1ce69f86` (registry), `6fd68438871d94447255eb7addeac5b3f2ed2ec0` (TODO).
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** pursue direct numeric preset + complete configuration evidence for Goku Presets 2–12 and 14–18, Vegeta 10–11, and Captain Ginyu 5–6. Only promote a loadout when one source directly binds the numeric preset label to the complete configuration. If no such source is found, record the evidence boundary and move to the next thin structured domain rather than infer by order or proximity.
+
+### 2026-09-24 cycle completion — strict-thin Super Soul 032/034 evidence refresh
+- [x] Rechecked the remaining strict-thin records `super-soul-032` and `super-soul-034`.
+- [x] PQ guide evidence confirms exact reward identity: 032 is a PQ 185 reward and 034 is a PQ 186 reward. citeturn3search2
+- [x] Current GameFAQs discussion independently corroborates the additional activation/name-state observation already preserved for 032; it does not establish the second state's mechanics. citeturn4view0
+- [x] No sufficiently reliable item-level evidence was found for 034's mechanics, Limit Burst, or character source; explicit unresolved/null fields remain unchanged.
+- [x] Added `docs/data/super-soul-032-034-strict-thin-evidence-refresh-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Commits: `212637a29f7f991d7e6cbf849594a08a80263b7f` (audit), `19e22b72755010ae967b5c8c8d601ebdec6b1862` (registry), `7a59e408f851e424c97b1f492af192fee6d84c05` (TODO).
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next batch:** resume direct numeric preset + complete eight-slot configuration evidence. Prioritize Goku Presets 2–12 and 14–18, Vegeta 10–11, and Captain Ginyu 5–6, but promote only when one artifact directly binds the numeric preset label to its complete configuration; otherwise record the evidence boundary and continue to the next thin provenance batch.
