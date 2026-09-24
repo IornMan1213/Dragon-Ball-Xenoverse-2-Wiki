@@ -216,7 +216,8 @@
     "goku_preset_loadout_source_boundary_2026_09_24": "docs/data/goku-preset-loadout-source-boundary-2026-09-24.json",
     "dlc_character_explorer_navigation_2026_09_24": "docs/data/dlc/dlc-character-explorer-navigation-audit-2026-09-24.json",
     "canonical_explorer_self_navigation_2026_09_24": "docs/data/canonical-explorer-self-navigation-audit-2026-09-24.json",
-    "remaining_canonical_cross_navigation_2026_09_24": "docs/data/remaining-canonical-cross-navigation-audit-2026-09-24.json"
+    "remaining_canonical_cross_navigation_2026_09_24": "docs/data/remaining-canonical-cross-navigation-audit-2026-09-24.json",
+    "canonical_explorer_self_navigation_2026_09_24_b": "docs/data/canonical-explorer-self-navigation-audit-2026-09-24-b.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
