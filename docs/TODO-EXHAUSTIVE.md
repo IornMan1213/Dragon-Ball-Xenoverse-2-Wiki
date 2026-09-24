@@ -6398,3 +6398,12 @@
 - [x] No unsupported numeric-to-loadout promotion was made.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** continue deterministic current-facing reference/landing consumer scan for stale counts, orphan targets, and canonical-ID drift; return to preset research only with direct numeric-label + complete skill-slot evidence.
+
+
+### 2026-09-24 cycle completion — canonical explorer target inventory
+- [x] Inspected current landing/navigation surfaces and verified canonical searchable explorer targets: Characters-All.html, Skills-All.html, Parallel-Quests-All.html, Equipment-All.html, Super-Souls-All.html, Awoken-All.html, and Mentors-All.html.
+- [x] Confirmed no Expert-Missions-All.html target is emitted; Expert Missions remain on their existing landing/database surfaces.
+- [x] Confirmed Parallel-Quests-All.html reward/character navigation uses canonical explorer targets, with DLC retaining generic Search fallback because DLC-Overview is a landing page.
+- [x] Extended docs/data/current-presentation-consumer-scan-2026-09-24.json with the explorer target inventory.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next batch:** inspect remaining system/reference consumers for canonical-ID drift and one-way navigation, prioritizing any surface not covered by the current presentation scan.
