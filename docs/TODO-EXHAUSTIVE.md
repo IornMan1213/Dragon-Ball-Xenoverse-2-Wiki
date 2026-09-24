@@ -6548,3 +6548,13 @@
 - [x] Added and registered `docs/data/captain-ginyu-5-6-preset-loadout-evidence-audit-2026-09-24.json`.
 - [x] Commits: `44d5cfa2921f201e94aad91a91d148cfcf3247c3`, `4af784c97d1c7133e53492485466e7a877865ae8`.
 - [ ] **Exact next:** find a source explicitly binding Captain Ginyu Presets 5–6 to complete loadout rows; if unavailable, proceed to the next unresolved numeric preset batch without inference.
+
+
+### 2026-09-24 completed mentor endpoint producer/consumer synchronization
+- [x] Reconciled the current Hit mentor lesson 3 endpoint for **Time Skip/Tremor Pulse** without fabricating a canonical skill ID.
+- [x] Cleared the unsupported Hit lesson skill_id from docs/data/mentors-record-layer.json and removed the orphan endpoint from docs/data/mentor-endpoints.json forward/reverse projections.
+- [x] Synchronized current mentor presentation and coverage consumers to **33 mentors / 133 lesson reward objects / 131 typed skill rewards / 1 typed non-skill reward / 131 mentor→skill edges / 130 unique skill targets / 1 unresolved skill lesson / 0 broken endpoints**.
+- [x] Added and registered docs/data/mentor-endpoint-consumer-synchronization-2026-09-24.json.
+- [x] Evidence confirms the exact lesson identity/acquisition route: Hit's fourth mentor reward / Lesson 3 is Time Skip/Tremor Pulse. Canonical skill identity remains unresolved.
+- [x] Validation passed for endpoint parity and current consumer agreement; CI/runtime remains unavailable.
+- [ ] **Next:** continue the deterministic non-PQ/mentor consumer scan for stale scalars, orphan endpoint IDs, and one-way navigation; only promote Time Skip/Tremor Pulse after a standard canonical skill record exists.
