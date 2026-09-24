@@ -5785,3 +5785,14 @@
 - [x] Preserved the boundary that raid/event history establishes route evidence, not current availability, reward probability, or a new canonical accessory identity.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next priority:** audit `docs/data/accessory-raid-identity-reconciliation-2026-09.json` against the live canonical accessory layer; machine-check whether any of its nine unresolved/route-reconciled raid identities now have an exact canonical match, while explicitly preserving unresolved names and never merging near-name variants without evidence.
+
+
+### 2026-09-24 cycle completion — raid accessory exact-identity reconciliation
+- [x] Audited `docs/data/accessory-raid-identity-reconciliation-2026-09.json` against the live canonical accessory layer and maintained equipment-accessory record layer.
+- [x] Promoted **6 exact identities** into the canonical accessory layer: **Tapion Wig → accr-106; Tights Hat → accr-107; Universe 6 Supreme Kai's Helper's Hat → accr-108; Lord Zuno's Topknot Wig → accr-109; Android 21 Wig & Glasses → accr-110; Tiencha Wig → accr-111**.
+- [x] Updated the raid/gift bridge to use those canonical IDs; bridge now has **14 resolved / 2 unresolved** records.
+- [x] Preserved **Cheelai Wig, Cheelai Wig (w/Scouter), and Hercule Wig 2** as unresolved; no near-name merge was made with Hercule Wig, and the Cheelai variants remain distinct.
+- [x] Added and registered `docs/data/accessory-raid-identity-reconciliation-audit-2026-09-24.json`.
+- [x] Validation: **9 raid identity records / 6 exact canonical matches / 3 unresolved / 111 canonical accessory records / 16 raid-gift bridge records / 14 bridge-resolved / 2 bridge-unresolved / 0 broken canonical IDs / exact unmatched-list parity / no near-name merges**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next priority:** reconcile the remaining 3 unresolved raid accessory identities (Cheelai Wig, Cheelai Wig (w/Scouter), Hercule Wig 2) against existing repository research/equipment sources; only promote an exact identity when source evidence establishes it, otherwise preserve the explicit unresolved boundary. Then continue the event/raid non-PQ consumer scan.
