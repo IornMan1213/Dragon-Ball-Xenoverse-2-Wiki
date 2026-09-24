@@ -16,8 +16,8 @@
     "resolved_skill_character_edges": 50,
     "preset_characters_with_character_source_skill_identity": 5,
     "preset_characters_without_character_source_skill_identity": 7,
-    "verified_preset_loadout_records": 25,
-    "verified_loadout_skill_entries": 162
+    "verified_preset_loadout_records": 26,
+    "verified_loadout_skill_entries": 170
   },
   "checks": {
     "all_preset_character_ids_resolve_via_explicit_bridge": true,
@@ -447,6 +447,23 @@
         "Elegant Blaster",
         "Bloody Counter"
       ]
+    },
+    {
+      "id": "goku-gt-preset-2",
+      "character_id": "goku-gt",
+      "name": "Goku (GT) Preset 2",
+      "preset_number": 2,
+      "skill_names": [
+        "Power Pole Combo",
+        "Kamehameha",
+        "Instant Transmission",
+        "Charged Ki Wave",
+        "Super Spirit Bomb",
+        "Super Kamehameha",
+        "Spirit Explosion",
+        "Super Saiyan"
+      ],
+      "super_soul": null
     }
   ],
   "evidence_boundary": "The verified preset list is derived deterministically from docs/data/character-presets-record-layer.json records marked loadout_status=verified. No unresolved preset was promoted. Festival/custom-partner configurations remain separate, and source labels such as Captain Ginyu body-swap rows remain identity boundaries.",
@@ -663,12 +680,11 @@
       ]
     }
   ],
-  "verified_loadout_skill_entries": 162,
+  "verified_loadout_skill_entries": 170,
   "verified_loadouts_have_explicit_sources": true,
   "notes": [
-    "2026-09-24 live producer census refresh: synchronized maintained preset-record and verified-loadout counts to 51 records / 17 presentation character IDs / 25 verified loadouts / 162 verified loadout skill-slot entries. No unresolved identity was promoted.",
-    "2026-09-24 projection repair: regenerated the embedded verified_preset_loadouts list from the 25 canonical preset records marked loadout_status=verified; the prior embedded list contained only 23 rows while the top-level count correctly reported 25. The embedded skill-entry projection excludes Super Soul labels and now equals the canonical 162 verified loadout skill-slot entries.",
-    "2026-09-24 numeric identity refresh: 16 existing Goku preset IDs now have direct timestamped numeric identity evidence; no skill-slot projection was promoted."
+    "2026-09-24 numeric identity refresh: 16 existing Goku preset IDs now have direct timestamped numeric identity evidence; no skill-slot projection was promoted.",
+    "2026-09-24 exact loadout promotion: Goku (GT) Preset 2 is now verified from the explicit Uniform 2 skill table plus independent numeric-preset identity evidence. Eight skill-slot entries were promoted; the verified loadout census is now 26 records / 170 skill-slot entries."
   ],
   "evidence_updates": [
     {
@@ -683,6 +699,19 @@
       "decision": "numeric_identity_confirmed_loadout_not_promoted",
       "evidence_source": "docs/data/preset-battle-suit-reconciliation-2026-09-23.json",
       "reason": "Community video directly labels these numeric presets, but does not bind their complete skill-slot configurations; numeric identity and loadout configuration remain separate evidence requirements."
+    },
+    {
+      "date": "2026-09-24",
+      "scope": [
+        "goku-gt-preset-2"
+      ],
+      "decision": "exact_loadout_promoted",
+      "evidence_sources": [
+        "https://dbxv2.fandom.com/wiki/Goku_%28GT%29",
+        "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
+      ],
+      "reason": "The maintained Goku (GT) page explicitly labels Uniform 2 and provides the complete eight-slot configuration; the existing numeric evidence independently identifies repository Preset 2. No row-order inference is required."
     }
-  ]
+  ],
+  "verified_loadout_loadout_records": null
 }
