@@ -493,5 +493,6 @@
   "skill_provenance_audit_2026_09_24_strike_through_super_gamma_blast": "docs/data/skill-provenance-audit-2026-09-24-strike-through-super-gamma-blast.json",
   "skill_provenance_audit_2026_09_24_x10_kamehameha_through_zigzag_express": "docs/data/skill-provenance-audit-2026-09-24-x10-kamehameha-through-zigzag-express.json",
   "skill_endpoint_coverage_reconciliation_2026_09_24_hyper_and_ice": "docs/data/skill-endpoint-coverage-reconciliation-2026-09-24-hyper-and-ice.json",
-  "current_skill_domain_consumer_scan_2026_09_24": "docs/data/current-skill-domain-consumer-scan-2026-09-24.json"
+  "current_skill_domain_consumer_scan_2026_09_24": "docs/data/current-skill-domain-consumer-scan-2026-09-24.json",
+  "future_saga_chapter_4_character_navigation_audit_2026_09_24": "docs/data/future-saga-chapter-4-character-navigation-audit-2026-09-24.json"
 }
