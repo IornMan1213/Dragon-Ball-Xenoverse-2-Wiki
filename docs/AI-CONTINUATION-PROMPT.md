@@ -7103,3 +7103,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Live census after batch: **465 canonical / 465 index / 254 current / 211 stale / 0 duplicate IDs**.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next stale batch:** **Hollow Rush; Holy Inscription; Holy Wrath; Hyper Drain; Hyper Movement; Hyper Tornado; Ice Cannon; Ice Claw; Ice Rain; Ice Sheet; Ill Rain; Instant Severance**.
+
+
+### 2026-09-24 cycle update — Hollow→Instant Severance queue reconciliation
+- [x] Refreshed the **5 queued records actually present** in the canonical dataset: **Holy Inscription; Holy Wrath; Hyper Tornado; Ill Rain; Instant Severance**.
+- [x] Synchronized canonical/index `last_verified=2026-09-24` and added the bounded provenance audit.
+- [x] Explicitly reconciled the queue: **Hollow Rush; Hyper Drain; Hyper Movement; Ice Cannon; Ice Claw; Ice Rain; Ice Sheet** are absent from canonical `skills.json`; they were **not fabricated or falsely marked verified** and remain data-coverage/discovery work.
+- [x] Live census: **465 canonical / 465 index / 259 current / 206 stale / 0 duplicate IDs**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Next coverage/discovery targets:** **Hollow Rush; Hyper Drain; Hyper Movement; Ice Cannon; Ice Claw; Ice Rain; Ice Sheet**. After those are resolved, resume the alphabetical stale queue.
