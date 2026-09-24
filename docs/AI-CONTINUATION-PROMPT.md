@@ -8172,3 +8172,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Commits: `8ebe02da1b06e9a7524480d85356817f7923dec7`, `f7e8db160e08e6406c89bb62e505261432b45acd`, `238efc5198da1fed5f11b29c56cded6aa13cdcc1`, `f3c25b54d5ce2a9ef0668c41cfb6440cd65a91fc`, `6b0c43f4075d99449b801079da21ff5a75dc6831`.
 - CI/runtime remains unavailable; no CI success claimed.
 - **Exact next priority:** continue the deterministic non-PQ landing/reference scan for remaining generic Search links, stale explorer targets, stale counts/list assumptions, orphan navigation, and canonical-ID drift. Then begin the highest-impact source-backed preset/loadout tranche only where direct numeric identity + complete configuration evidence exists.
+
+
+### 2026-09-24 continuation — character explorer self-navigation and DLC fallback correction
+
+- Continued the non-PQ explorer scan and found `Characters-All.html` still routed both character-name and local-search links through generic `/Search/`.
+- Repaired both character self-navigation paths to `Characters-All.html?q=...`.
+- During validation, confirmed `DLC-Overview.md` is a landing page rather than a queryable DLC explorer; restored the PQ DLC fallback from `DLC-Overview/?q=...` to generic `/Search/?q=...` rather than leaving a non-functional query target.
+- Added and registered `docs/data/canonical-explorer-self-navigation-audit-2026-09-24-b.json`.
+- Validation: character self-navigation repaired; DLC fallback semantics restored; 0 relationship changes; audit pass.
+- Commits: `acdaddb4f40dc712f11bf200ff84b41ac58b1165`, `74ef56c99925f7c7a52c737cec25694e37df88a5`, `50358977cd4c71bde3dc7776af653b9570385373`, plus central index registration below.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next priority:** finish the remaining non-PQ landing/reference scan for stale explorer targets, stale counts/list assumptions, orphan navigation, and canonical-ID drift before entering evidence-gated preset/loadout expansion.
