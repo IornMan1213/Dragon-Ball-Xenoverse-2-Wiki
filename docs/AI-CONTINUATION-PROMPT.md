@@ -1,3 +1,11 @@
+### 2026-09-24 cycle completion — bounded skill P1 provenance enrichment, PQ61–PQ70
+- [x] Added `docs/data/skill-p1-provenance-enrichment-2026-09-24-recoome-pq61-batch.json` for 8 partially enriched base-game/PQ skills: Fighting Pose H, Teleporting Vanishing Ball, Ill Rain, Scissors Paper Rock, Super God Fist, Angry Shout, Headshot, and Emperor's Blast.
+- [x] Recorded only directly supported classification, cost, acquisition, and mechanics evidence; exact reward slots/probabilities and Ultimate-Finish requirements remain unresolved where not directly established.
+- [x] Registered the audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved canonical/index parity; no manual reconstruction of oversized `skills.json`/index files was attempted.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next:** select the next evidence-backed thin skill tranche from the research corpus; when a repository-backed runtime or Actions dispatch becomes available, execute the standard builder to integrate staged research atomically and then validate canonical/index parity plus downstream acquisition projections.
+
 ### 2026-09-24 cycle completion — Savage Strike provenance boundary and audit registration
 - [x] Refreshed `docs/data/skill-research-batches/skill-batch-163.json` for Savage Strike with current evidence: SSGSS Vegito identity, Strike Super classification, TP Medal Shop acquisition, 100 Ki evidence, and alternate-input/knockback-pursuit mechanics.
 - [x] Preserved the TP Medal Shop price conflict: dated sources report 200 TP Medals while a later secondary guide reports 300; no exact current price was promoted.
