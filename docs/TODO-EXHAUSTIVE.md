@@ -5982,3 +5982,11 @@
 - [x] Preserved Chapter 4 provenance separately from canonical character identity and did not infer preset/loadout/skill/customization data.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** scan remaining Chapter 4/Festival/event and character/preset projections for stale baselines and one-way navigation before further preset research.
+
+
+### 2026-09-24 completed — character presentation consumer count drift
+- [x] Reconciled the current `character-presentation-consumer-audit.json` nested character counts from **151** to the live **153** canonical identity baseline.
+- [x] Preserved preset/PQ/loadout counts and all identity boundaries; no unsupported relationships were added.
+- [x] Confirmed `Characters.md` already exposes 153 and Chapter 4 identities are exact canonical matches.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** inspect remaining current-facing **event/raid/Festival** projections for stale counts, one-way links, and canonical-ID drift; preserve dated historical snapshots.
