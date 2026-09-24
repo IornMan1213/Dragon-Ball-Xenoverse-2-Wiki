@@ -5706,3 +5706,13 @@
 - [x] Preserved partial acquisition evidence boundaries; no drop-rate or guarantee claims were upgraded.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next priority:** continue the remaining non-PQ reverse-projection audit, prioritizing another acquisition/event/identity consumer that can be deterministically reconciled.
+
+
+### 2026-09-24 cycle completion — live DLC/PQ projection count reconciliation
+- [x] Found and repaired stale top-level `current_counts` in `docs/data/pq-reward-relationships.json`: DLC, farming, and character counts were incorrectly zero despite populated live relationship arrays.
+- [x] Recomputed and synchronized current counts to **244 skills / 145 Super Souls / 124 equipment / 247 characters / 86 DLC / 7 farming / 853 total**.
+- [x] Refreshed and registered `docs/data/dlc/dlc-presentation-consumer-audit-2026-09-24.json`.
+- [x] Validation: **20 canonical DLC targets / 86 forward / 86 reverse / 0 mismatches / 0 orphan targets**; current relationship census matches the live array.
+- [x] No gameplay/acquisition evidence was upgraded or inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next priority:** continue the remaining non-PQ reverse-projection audit against another deterministic stale-field or orphan-target consumer.
