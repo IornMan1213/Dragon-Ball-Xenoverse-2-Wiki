@@ -1,4 +1,11 @@
 
+### 2026-09-24 completed live character count reconciliation
+- [x] Recomputed the canonical character producer directly from `docs/data/characters-record-layer.json`: **152** names.
+- [x] Corrected current-facing character/navigation consumers that had drifted to **153**.
+- [x] Confirmed both Chapter 4 publisher-confirmed identities are present; no unsupported 153rd identity was invented.
+- [x] Preserved earlier 153 claims as historical context rather than rewriting the handoff history.
+- [ ] **Next:** continue event/raid/Festival/Chapter 4 consumer scanning from the corrected 152-character baseline, then resume exhaustive preset/loadout research.
+
 ### 2026-09-24 completed Future Saga Chapter 4 presentation consumer audit
 - [x] Added `docs/data/future-saga-chapter-4-presentation-consumer-audit-2026-09-24.json`.
 - [x] Registered the audit in `docs/data/pq-cross-domain-index.json`.
