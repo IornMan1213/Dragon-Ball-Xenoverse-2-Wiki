@@ -1,3 +1,14 @@
+### 2026-09-24 completed deterministic non-PQ accessory consumer reconciliation
+- [x] Audited `docs/Equipment-All.html` against the current equipment/accessory and PQ relationship producers after the 2026-09-24 raid accessory identity reconciliation.
+- [x] Added `docs/data/accessory-presentation-consumer-current-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Validated the current presentation baseline: **174 combined equipment/accessory records / 116 current canonical accessory identities / 124 PQ→equipment edges / 122 unique PQ equipment targets / 9 resolved raid identities / 18 resolved raid-gift bridge records**.
+- [x] Confirmed the explorer derives its displayed record count from the live canonical record layer and its PQ navigation from the authoritative relationship layer; no hard-coded stale accessory total is present.
+- [x] Corrected stale current-facing dashboard/documentation counts: `docs/Accessory-Canonical-Database.md` 88 → 116 canonical reconciliation identities; `docs/index.md` Accessory Shop 53 → 51 and canonical accessories 37 → 116.
+- [x] Preserved the separate 74-record legacy `acc-###` PQ accessory projection and did not merge it into the 116-record `accr-###` reconciliation namespace.
+- [x] No new relationship or acquisition fact was inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Next:** continue deterministic post-accessory non-PQ consumer scanning for current-facing equipment/raid/event or character/preset stale counts, orphan targets, one-way navigation, and canonical-ID drift.
+
 ### 2026-09-24 cycle update — Masenko through Petrifying Spit
 
 - Completed the next bounded P1 provenance batch: 12 records — Masenko, Maximum Charge, Meditation, Menacing Flare, Murder Grenade, Orin Combo, Paralysis, Paralyze Beam, Pendulum Bullet, Perfect Kamehameha, Perfect Shot, and Petrifying Spit.
