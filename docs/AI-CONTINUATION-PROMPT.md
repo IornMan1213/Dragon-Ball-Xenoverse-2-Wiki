@@ -652,3 +652,13 @@
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [x] Commits: audit `edc3e89b7b42840e6904a12f0d63f202e45fb769`; registry `2065e1e6bb40a23372cb39521c9b69610e2d4c29`; gap ledger `0d14d81919b5d0d000c4eff2dd670c67be0fa6d9`; changelog `644deb0ae208aeb7c4275ce92615c5583bd080b1`.
 - [ ] **Exact next:** continue the remaining unresolved thin-domain queue only where direct Xenoverse 2 evidence can resolve a currently missing canonical field; otherwise return to the source-backed P1 enrichment queue while Savage Strike remains staged for atomic builder integration.
+
+
+### 2026-09-24 cycle completion — Acid evidence refresh
+- [x] Selected **Acid** as the next unresolved thin-domain candidate because only its numeric Ki cost remained missing after Xenoverse 2-specific class/identity reconciliation.
+- [x] Added `docs/data/skill-research-gaps-acid-evidence-refresh-2026-09-24.json` and registered it in the cross-domain index.
+- [x] Reconfirmed normal Acid **ID 140** versus separate raid Acid **ID 143**, Super classification, CaC-unavailable status, and Saibaman 2 usage from Xenoverse 2-specific references. Sources: Xenoverse 2 Character ID List; Xenoverse 2 Skills Guide; Saibaman reference; CaC-unobtainable skill discussion.
+- [x] Preserved the only unresolved canonical field: numeric `ki_cost`. No cost or acquisition route was inferred.
+- [x] Canonical skill catalogs remain at the established **469/469** boundary; no unsupported promotion was made.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue the remaining unresolved thin-domain queue, prioritizing a candidate where direct Xenoverse 2 evidence can resolve an actual missing field rather than merely repeating identity confirmation.
