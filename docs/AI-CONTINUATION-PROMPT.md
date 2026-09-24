@@ -162,3 +162,14 @@
 - [x] Commit: `1376634625eecdd45b66db014218231b737d270d`.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next:** continue the bounded non-PQ reverse-projection sweep for the next machine-checkable stale scalar or orphan target, starting with Expert Mission / shop / special endpoint consumers.
+
+
+### 2026-09-24 cycle completion — stale metadata census validation repair
+- [x] Bounded non-PQ reverse-projection sweep inspected Expert Mission, shop, special, Tokipedia, starting-move, and character-exclusive endpoint consumers.
+- [x] Found one current-looking stale validation block in `docs/data/skill-stale-metadata-census-2026-09-23.json`: `validation.canonical_record_count` / `index_record_count` remained 465/465 while the live census and audit date were already 469/469 and 2026-09-24.
+- [x] Corrected validation counts to **469/469** and clarified the filename/history boundary without deleting the historical 465 context.
+- [x] Confirmed current Expert Mission, special, starting-move, and Tokipedia endpoint audits are internally parity-clean; no additional orphan or stale endpoint scalar was found in this bounded pass.
+- [x] Validation: canonical/index 469/469; stale last-verified records 0; endpoint projections inspected remain internally cross-linkable.
+- [x] CI/runtime unavailable; no CI success claimed.
+- [x] Commit: `f295e2ae1c0c2ada350e068aae1550c8ba0d7b52`.
+- [ ] **Exact next:** continue the non-PQ reverse-projection sweep into remaining current-facing acquisition indexes/projections, prioritizing one-way links and stale scalar assertions outside the already-clean endpoint audits.
