@@ -69,7 +69,7 @@
   "evidence_boundary": "Deterministic count/set/navigation repair plus published explorer dependency/collection-shape validation; no new relationship edges or unsupported mechanics were inferred.",
   "date": "2026-09-23",
   "validator": "scripts/validate_pq_reference_pages.py",
-  "validator_commit": "d43d43302b4d255a0a7b853aa22f22a8a847d05f",
+  "validator_commit": "c483dfdd9817223249b49a864a346fd8d2245ab5",
   "live_validation_note": "Current canonical layer and consumer pages align at 186 PQ records, 853 relationship edges, exact domain counts 244/145/124/247/86/7, and farming set PQ15/PQ22/PQ44/PQ45/PQ68/PQ83/PQ88.",
   "identity_contract": {
     "canonical_pq_numbers": "exact 1..186",
@@ -94,6 +94,7 @@
     "status": "clean"
   },
   "notes": [
-    "2026-09-23: superseding current baseline after Super Soul 158 domain migration: 854/146 became 853/145; historical prior correction remains preserved elsewhere."
+    "2026-09-23: superseding current baseline after Super Soul 158 domain migration: 854/146 became 853/145; historical prior correction remains preserved elsewhere.",
+    "2026-09-24: validator hardening now rejects the obsolete Parallel-Quests-All.md target even when the live HTML explorer link is present."
   ]
 }
