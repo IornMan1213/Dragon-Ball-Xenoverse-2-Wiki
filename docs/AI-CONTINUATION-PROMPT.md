@@ -645,7 +645,7 @@
 ### 2026-09-24 cycle completion — Energy Boil evidence-boundary refresh
 - [x] Re-read the live continuation handoff, efficiency addendum, and exhaustive TODO before selecting the bounded batch.
 - [x] Added `docs/data/skill-research-gaps-energy-boil-evidence-boundary-refresh-2026-09-24.json`.
-- [x] Reconfirmed Xenoverse 2 ID **10540** / short ID **540**, Final Form Demigra ownership, CaC-unavailable status, and Evasive classification from the current Xenoverse 2 ID list and skills guide; independent Demigra reference corroborates the Evasive role and defensive energy/teleport behavior. citeturn3search0turn3search1turn3search4
+- [x] Reconfirmed Xenoverse 2 ID **10540** / short ID **540**, Final Form Demigra ownership, CaC-unavailable status, and Evasive classification from the current Xenoverse 2 ID list and skills guide; independent Demigra reference corroborates the Evasive role and defensive energy/teleport behavior. Sources: Xenoverse 2 Character ID List; Xenoverse 2 Skills Guide; Demigra reference.
 - [x] Preserved the evidence boundary: the accessible sources do not expose the repository's Evasive subcategory or a trustworthy numeric Ki cost, so neither field was inferred.
 - [x] Updated `docs/data/skill-research-gaps.json` with the refreshed evidence-boundary note and registered the audit in `docs/data/pq-cross-domain-index.json`.
 - [x] Validation: JSON audit parses; canonical/index baseline remains **469/469** with **0 duplicate IDs**; no canonical promotion or unsupported acquisition route was introduced.
