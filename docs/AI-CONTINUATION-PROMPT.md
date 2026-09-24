@@ -8021,3 +8021,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Validation: new audit parses, central cross-domain index re-fetched with the registration, and canonical preset producer remains unchanged.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** search for an explicit numeric Goku preset table/game-data identifier containing complete skill slots; if unavailable, move to the next unresolved preset family.
+
+
+### 2026-09-24 cycle completion — source-backed preset identity tranche (Vegeta / Goku GT / Captain Ginyu)
+- [x] Live producer baseline remains **51 preset records / 25 verified loadouts / 162 verified skill-slot entries**.
+- [x] Added direct numeric-identity observations for **Vegeta Presets 10 and 11, Goku (GT) Preset 2, and Captain Ginyu Presets 5 and 6** to `docs/data/preset-battle-suit-reconciliation-2026-09-23.json`.
+- [x] Evidence source: Burcol's 2024-11-22 preset-index video explicitly labels Vegeta 10 at 39:09, Vegeta 11 at 42:06, Captain Ginyu 5 at 31:23, Captain Ginyu 6 at 41:34, and Goku GT 2 at 45:50 (also repeated at 46:56).
+- [x] Updated `docs/data/character-preset-skill-navigation-audit-2026-09-23.json` with the five-record evidence boundary.
+- [x] Evidence limit preserved: numeric identity is confirmed, but the source does not expose the complete skill-slot configuration for those numeric IDs. No row-order, costume-order, or proximity inference was used; no loadouts were promoted.
+- [x] Validation: both JSON files re-serialized successfully through the GitHub write path; canonical preset counts remain unchanged.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next batch:** find a source directly binding the numeric IDs for these five records to complete skill configurations; if unavailable, continue to the next unresolved family.
