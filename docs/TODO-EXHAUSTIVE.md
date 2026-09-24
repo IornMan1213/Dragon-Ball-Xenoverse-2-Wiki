@@ -6735,3 +6735,12 @@
 - [x] No unsupported frame data, damage values, drop probabilities, or hidden shop gates were promoted.
 - [ ] Canonical/index remain **469/469** until the repository's builder actually executes; no Actions run/status is exposed for the triggering commits.
 - [ ] **Next:** continue the P1 evidence-enrichment queue with **Quick Sleep**, then reconcile downstream endpoint/cross-domain projections; retain Savage Strike as staged research awaiting atomic canonical build.
+
+### 2026-09-24 cycle completion — Quick Sleep shop endpoint provenance reconciliation
+- [x] Refreshed Quick Sleep research provenance to the live 2026-09-24 evidence boundary: Majin-only Other Super, 0 Ki, 0 Stamina, Skill Shop after defeating Mira (Final Form) in the main story.
+- [x] Preserved the TP/STP Medal rotation mention as alternate provenance only; no second canonical endpoint or current rotation/price claim was introduced.
+- [x] Refreshed the canonical `docs/data/skill-shop-endpoints.json` Quick Sleep edge from `last_verified=2026-09-23` to `2026-09-24`.
+- [x] Added and registered `docs/data/quick-sleep-shop-endpoint-provenance-reconciliation-2026-09-24.json`.
+- [x] Validation target: 469 canonical skills / 469 index skills / 1 Quick Sleep shop edge / 0 duplicate Quick Sleep edges / 0 unresolved Quick Sleep endpoint.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next:** reconcile downstream Quick Sleep consumers to the refreshed endpoint date, then continue with the next evidence-backed P1 target only where a bounded canonical/index or endpoint change is directly supported.
