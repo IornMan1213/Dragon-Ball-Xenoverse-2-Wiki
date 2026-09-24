@@ -6282,3 +6282,13 @@
 - [x] Evidence boundaries preserved: no per-clear skill guarantee, drop rate, prerequisite, or EM17 Spirit Sword/Spirit Bomb conflict resolution was inferred. The Expert Mission endpoint layer remains the identity/navigation source.
 - [x] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next batch:** continue deterministic current-facing consumer scanning outside the already-covered PQ/mentor/Expert Mission surfaces, prioritizing remaining homepage/reference count drift, one-way links, orphan targets, and canonical-ID namespace confusion; after that, resume the highest-impact source-backed preset/loadout tranche only where numeric preset identity and complete configuration are directly evidenced.
+
+
+### 2026-09-24 cycle completion — homepage current consumer synchronization
+- [x] Re-scanned the current homepage consumer after the mentor and Expert Mission presentation repairs.
+- [x] Repointed all homepage mentor destinations from the general mentor page to the canonical `Mentors-All.html` explorer and replaced the loose **33+** label with the exact **33 canonical mentor identities** count.
+- [x] Confirmed current homepage scalars/semantics: **672** is explicitly a skill-category-membership metric, **186** numbered PQs, **18** Awoken/Transformation targets, **230** canonical Super Souls, **51** Accessory Shop records, **116** canonical accessory identities, **36** TP/STP equipment-shop records, **45** Accessory→PQ research records, and **20** Expert Missions. These values are not treated as interchangeable canonical-record counts.
+- [x] Added `docs/data/homepage-current-consumer-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: homepage mentor navigation now resolves to the canonical explorer; audit status = pass; historical dated audit files were intentionally left unchanged.
+- [x] No new acquisition relationships, preset/loadout mappings, unlock conditions, or gameplay facts were inferred. CI/runtime remains unavailable.
+- [ ] **Exact next batch:** scan the remaining non-PQ reference/summary consumers for stale scalar metrics and one-way navigation (especially Guides, Skills-Complete-Database, DLC overview, and system landing pages), then move into the highest-impact source-backed preset/loadout tranche with direct numeric identity + complete configuration evidence.
