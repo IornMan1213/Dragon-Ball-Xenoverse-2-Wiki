@@ -26,5 +26,8 @@
     "target_records_current": 12,
     "current_last_verified_records": 359,
     "stale_last_verified_records": 110
-  }
+  },
+  "notes": [
+    "2026-09-24 continuation: revalidated Quick Sleep and the bounded P1 range against the existing canonical records and acquisition endpoint evidence; no unsupported timing, probability, gate, or narrower restriction claims were added."
+  ]
 }
