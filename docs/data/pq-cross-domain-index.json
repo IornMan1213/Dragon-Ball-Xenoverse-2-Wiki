@@ -213,7 +213,8 @@
     "global_layout_explorer_navigation_2026_09_24": "docs/data/global-layout-canonical-explorer-navigation-audit-2026-09-24.json",
     "current_presentation_consumer_scan_2026_09_24": "docs/data/current-presentation-consumer-scan-2026-09-24.json",
     "current_event_raid_festival_chapter4_consumer_scan_2026_09_24": "docs/data/current-event-raid-festival-chapter4-consumer-scan-2026-09-24.json",
-    "goku_preset_loadout_source_boundary_2026_09_24": "docs/data/goku-preset-loadout-source-boundary-2026-09-24.json"
+    "goku_preset_loadout_source_boundary_2026_09_24": "docs/data/goku-preset-loadout-source-boundary-2026-09-24.json",
+    "dlc_character_explorer_navigation_2026_09_24": "docs/data/dlc/dlc-character-explorer-navigation-audit-2026-09-24.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
