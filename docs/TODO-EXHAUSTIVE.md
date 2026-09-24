@@ -6446,3 +6446,11 @@
 - [x] Kept Expert Missions on its existing route because no canonical explorer currently exists.
 - [x] Updated the global navigation audit with the repaired target.
 - [ ] Next: continue remaining stale-count/legacy-destination/one-way-link scan, then resume direct preset/loadout evidence research.
+
+### 2026-09-24 completed PQ explorer validator contract synchronization
+- [x] Audited the live PQ explorer against its consumer validator after canonical cross-database navigation repairs.
+- [x] Repaired the stale `scripts/validate_pq_page_consumers.py` skill-navigation assertion so it validates the live `Skills-All.html?q=...` contract instead of the obsolete Search-based `searchUrl(v)` assumption.
+- [x] Added and registered `docs/data/pq-explorer-validator-contract-synchronization-2026-09-24.json`.
+- [x] Preserved the intentional PQ→DLC Search fallback and all canonical relationship/acquisition semantics.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Next: continue deterministic Event/Raid/Festival/Chapter 4 consumer scanning, then resume evidence-gated numeric preset/loadout expansion.
