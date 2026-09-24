@@ -1,4 +1,13 @@
 
+## 2026-09-24 — P1 skill provenance refresh: Dancing through Darkness Rush
+
+- Refreshed five stale provenance audits with current evidence: Dancing Parapara, Dark Inscription, Darkness Eye Beam, Darkness Rush (Melee), and Darkness Rush (Ranged).
+- Added and registered `docs/data/skill-provenance-refresh-2026-09-24-dancing-through-darkness-rush.json`.
+- Reconfirmed Pan initiation, PQ182, and Lord Slug Lesson 1/3 acquisition boundaries without adding unsupported routes or probabilities.
+- Preserved the documented Namekian/non-Namekian Darkness Rush split and historical provenance records.
+- CI/runtime remains unavailable; no CI success claimed.
+
+
 ## 2026-09-24 — Bounded non-PQ acquisition consumer sweep
 
 - Added and registered `docs/data/current-nonpq-acquisition-consumer-sweep-2026-09-24.json` after the mentor endpoint/count reconciliation.
