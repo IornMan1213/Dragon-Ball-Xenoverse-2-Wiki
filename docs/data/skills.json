@@ -5480,13 +5480,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Vegeta mentor training",
       "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred. Current evidence documents a 19-projectile Ki-blast barrage; all projectiles together are listed at approximately 25% damage.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Vegeta mentor training — lesson-1.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 100-Ki Ki Blast Super from Vegeta training. It rapidly fires a 19-projectile Ki Blast barrage and can be used while jumping; the mentor Lesson 1 endpoint remains the acquisition source.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 100-Ki Ki Blast Super from Vegeta training. It rapidly fires a 19-projectile Ki Blast barrage and can be used while jumping; the mentor Lesson 1 endpoint remains the acquisition source.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-finish-breaker",
       "source_mentor": [
         "mentor-vegeta"
@@ -5509,12 +5509,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Whis mentor training",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred. Current evidence documents the close-range chop/restand behavior: it can quickly reposition behind a knocked-back opponent and permits immediate follow-up movement, basic attacks, or skills.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "race_restriction": "All CaC races",
       "source_quest": "Whis mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 100-Ki Strike Super from Whis training. It is a close-range single-hit restand attack that can teleport to the opponent after a knockback or when used near them, then permits immediate follow-up attacks.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 100-Ki Strike Super from Whis training. It is a close-range single-hit restand attack that can teleport to the opponent after a knockback or when used near them, then permits immediate follow-up attacks.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-finishing-blow",
       "source_mentor": [
         "mentor-whis"
@@ -5538,7 +5538,7 @@
       "mechanics_notes": "100 Ki base cost; holding the input continues the barrage and can extend the hit count by spending additional Ki. Current evidence identifies Flash Bomber as a PQ95 Ultimate Finish reward; exact drop percentage remains unresolved. 2026-09-21 cross-link normalization: source_quest set to canonical PQ numeric ID 95, matching the existing source_quest_or_shop/unlock evidence; this makes the skill directly joinable to the PQ database without changing the documented acquisition semantics. Current evidence documents a 21-hit base barrage that can be extended to 56 hits by spending an additional 200 Ki, with the extended version listed at approximately 40% damage.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Flash_Bomber",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76173007",
@@ -5546,7 +5546,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: PQ95 reward documentation confirms Flash Bomber in the PQ95 skill reward set. Existing Ultimate Finish requirement retained; exact drop percentage remains unresolved. 100-Ki sustained Ki-blast barrage can be extended with additional Ki.",
+      "notes": "2026-09-22 provenance/mechanics refresh: PQ95 reward documentation confirms Flash Bomber in the PQ95 skill reward set. Existing Ultimate Finish requirement retained; exact drop percentage remains unresolved. 100-Ki sustained Ki-blast barrage can be extended with additional Ki.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-flash-bomber",
       "source_quest": 95,
       "source_parallel_quests": [
@@ -5570,7 +5570,7 @@
       "mechanics_notes": "Current evidence confirms Flash Chaser as a 100-Ki Ki Blast Super from PQ138. It is associated with Kefla; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. Current evidence documents 3–8 hits, with an initial four-blast set, optional additional blasts, spread control, and a follow-up homing input; the maximum listed output is approximately 15% damage over 8 hits.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Flash_Chaser",
@@ -5581,7 +5581,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 138,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms Flash Chaser as a 100-Ki Ki Blast Super from PQ138 and associated with Kefla. Existing 34% Ultimate Finish roll retained as documented; no narrower CaC restriction inferred.\n2026-09-23 provenance correction: dedicated current skill documentation and independent Majuub DLC evidence identify Majuub as the primary user; Goku (GT) has a Customize Partner route. The legacy character_source value Kefla was incorrect and is corrected to Majuub; the PQ138 acquisition remains unchanged.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms Flash Chaser as a 100-Ki Ki Blast Super from PQ138 and associated with Kefla. Existing 34% Ultimate Finish roll retained as documented; no narrower CaC restriction inferred.\n2026-09-23 provenance correction: dedicated current skill documentation and independent Majuub DLC evidence identify Majuub as the primary user; Goku (GT) has a Customize Partner route. The legacy character_source value Kefla was incorrect and is corrected to Majuub; the PQ138 acquisition remains unchanged.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-flash-chaser",
       "source_parallel_quests": [
         138
@@ -5605,11 +5605,11 @@
       "source_quest_or_shop": "Shenron wish",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "mechanics_notes": "Current dataset evidence identifies Flash Fist Crush as a 100-Ki Strike Super obtained from a Shenron wish and a universal counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. Current evidence documents a universal counter that works against both strikes and Ki Blasts; the attack is listed at approximately 20% damage.",
       "source_quest": null,
       "acquisition_type": "other_nonquest",
-      "notes": "2026-09-22 mechanics/provenance refresh: dedicated evidence confirms the 100-Ki universal Strike counter obtained from Shenron's “I want a new Super Attack” wish. The stance counters incoming attacks including Ki Blasts and can execute offensively after the stance window.",
+      "notes": "2026-09-22 mechanics/provenance refresh: dedicated evidence confirms the 100-Ki universal Strike counter obtained from Shenron's “I want a new Super Attack” wish. The stance counters incoming attacks including Ki Blasts and can execute offensively after the stance window.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-flash-fist-crush"
     },
     {
@@ -5627,13 +5627,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Vegeta mentor training",
       "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred. Current evidence documents the explosion-at-destination behavior and the ability to attack again to increase damage; it remains a 100-Ki Vegeta mentor Super.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Vegeta mentor training — lesson-2.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 mentor refresh: Vegeta Lesson 2 is independently corroborated as the acquisition endpoint. The 100-Ki Ki Blast Super concentrates Ki at the target's current/future position and detonates it in a small explosion.",
+      "notes": "2026-09-22 mentor refresh: Vegeta Lesson 2 is independently corroborated as the acquisition endpoint. The 100-Ki Ki Blast Super concentrates Ki at the target's current/future position and detonates it in a small explosion.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-flash-strike",
       "source_mentor": [
         "mentor-vegeta"
@@ -5663,9 +5663,9 @@
       "acquisition_type": "quest_or_mission",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Free Update 2",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
-      "notes": "2026-09-22 mechanics/provenance refresh: current dedicated evidence confirms Expert Mission 18, 100 Ki, and Ki Blast Super classification. It launches a large sphere followed by a rapid smaller-Ki-blast barrage if the initial sphere connects and can be used during Boost Dash.",
+      "notes": "2026-09-22 mechanics/provenance refresh: current dedicated evidence confirms Expert Mission 18, 100 Ki, and Ki Blast Super classification. It launches a large sphere followed by a rapid smaller-Ki-blast barrage if the initial sphere connects and can be used during Boost Dash.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-focus-flash"
     },
     {
@@ -5685,7 +5685,7 @@
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. Current evidence documents a 2-hit kick/energy-slash sequence with an immediate follow-up after a successful initial hit; it remains the PQ180 Super.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Force_Edge",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -5694,7 +5694,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 180,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current DLC documentation identifies Force Edge as one of the six skills in the Dragon Ball DAIMA Pack, with PQ180 as its documented Ultimate Finish reward route. Existing 50% Ultimate Finish condition and reward-table presentation conflict are preserved.",
+      "notes": "2026-09-22 provenance refresh: current DLC documentation identifies Force Edge as one of the six skills in the Dragon Ball DAIMA Pack, with PQ180 as its documented Ultimate Finish reward route. Existing 50% Ultimate Finish condition and reward-table presentation conflict are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-force-edge",
       "source_parallel_quests": [
         180
@@ -5717,7 +5717,7 @@
       "mechanics_notes": "Current dedicated evidence confirms Force Shield as a 200-Stamina Ki Blast Evasive from PQ59, used by Vegito. It creates a blue barrier that cancels Ki waves and can be held while consuming Ki. No unsupported CaC race/gender/form restriction was added. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established. 2026-09-23 refresh: preserved the documented PQ59 Basic Reward route and the held-barrier Ki consumption behavior; no narrower CaC restriction inferred.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Force_Shield",
@@ -5726,7 +5726,7 @@
       "source_quest": 59,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: PQ59 reward documentation confirms the acquisition relationship. Current skill evidence identifies a 200-Stamina Ki Blast Evasive that creates a barrier capable of canceling Ki waves; Basic Reward status remains documented with no UF-only gate.",
+      "notes": "2026-09-22 provenance/mechanics refresh: PQ59 reward documentation confirms the acquisition relationship. Current skill evidence identifies a 200-Stamina Ki Blast Evasive that creates a barrier capable of canceling Ki waves; Basic Reward status remains documented with no UF-only gate.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-force-shield",
       "source_parallel_quests": [
         59
@@ -5749,7 +5749,7 @@
       "mechanics_notes": "Confirmed as Ribrianne's 100-Ki PQ133 Ultimate Finish Power Up Super. Holding/charging changes the duration, documented at about 30, 31.5, and 33 seconds for the three charge levels. Current evidence supports CaC usability without a narrower race/gender/form restriction. 2026-09-23 refresh: preserved the three documented charge-duration levels (~30, ~31.5, ~33 seconds) and PQ133 Ultimate Finish acquisition gate.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -5760,7 +5760,7 @@
       "source_quest": 133,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: PQ133 is confirmed as the acquisition quest, with the existing 25% Ultimate Finish roll retained. The 100-Ki Power Up Super has three charge/duration levels, approximately 30, 31.5, and 33 seconds.",
+      "notes": "2026-09-22 provenance/mechanics refresh: PQ133 is confirmed as the acquisition quest, with the existing 25% Ultimate Finish roll retained. The 100-Ki Power Up Super has three charge/duration levels, approximately 30, 31.5, and 33 seconds.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-formation",
       "source_parallel_quests": [
         133
@@ -5783,7 +5783,7 @@
       "mechanics_notes": "A tracking rush in which the user flies around the opponent and lands multiple kicks before knocking them downward. If used after knocking an opponent away, the attack can track the target. Current documentation describes four hits; the canonical record retains the 100-Ki Super cost and PQ29 route. 2026-09-23 refresh: preserved the documented four-hit tracking rush and post-knockback tracking behavior; no unsupported damage values added.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Freedom_Kick",
@@ -5792,7 +5792,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 29,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: PQ29 reward documentation confirms Freedom Kick in the quest reward set. It is a 100-Ki Strike Super that tracks the opponent through a multi-kick rush; current documentation describes four hits and tracking after knockback.",
+      "notes": "2026-09-22 provenance/mechanics refresh: PQ29 reward documentation confirms Freedom Kick in the quest reward set. It is a 100-Ki Strike Super that tracks the opponent through a multi-kick rush; current documentation describes four hits and tracking after knockback.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-freedom-kick",
       "source_parallel_quests": [
         29
@@ -5814,12 +5814,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Turles mentor training",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred. 2026-09-23 refresh: mentor acquisition remains verified; exact combat mechanics remain intentionally deferred rather than inferred.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "race_restriction": "All CaC races",
       "source_quest": "Turles mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 mentor/mechanics refresh: current dedicated evidence confirms Turles Instructor Quest 3 as the acquisition endpoint and a 100-Ki Power Up Super lasting 30 seconds. Additional input during the eating animation teleports the user in front of the opponent for a stunning attack.",
+      "notes": "2026-09-22 mentor/mechanics refresh: current dedicated evidence confirms Turles Instructor Quest 3 as the acquisition endpoint and a 100-Ki Power Up Super lasting 30 seconds. Additional input during the eating animation teleports the user in front of the opponent for a stunning attack.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-fruit-of-the-tree-of-might",
       "source_mentor": [
         "mentor-turles"
