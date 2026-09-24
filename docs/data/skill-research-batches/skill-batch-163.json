@@ -4,18 +4,20 @@
   "verification_policy": "Single-skill Strike Super research: verify Xenoverse 2 identity, acquisition route, cost, and documented mechanics. Preserve unresolved values as null.",
   "research_scope": "Savage Strike — Strike Super / SSGSS Vegito skill research.",
   "verification_audit": {
-    "audited": "2026-09-17",
-    "method": "Compared repository research coverage with Xenoverse 2-specific documentation and independent Xenoverse 2 gameplay/acquisition references.",
+    "audited": "2026-09-24",
+    "method": "Reconciled the repository research record against current Xenoverse 2-specific references and dated acquisition evidence, preserving source conflicts instead of inferring an exact TP Medal Shop price.",
     "duplicate_check": {
       "status": "passed",
-      "selected_records": ["Savage Strike"],
+      "selected_records": [
+        "Savage Strike"
+      ],
       "duplicate_count": 0,
       "identity_note": "No existing repository research batch for Savage Strike was found."
     },
     "classification_finding": "Savage Strike is a Strike Super associated with SSGSS Vegito.",
-    "acquisition_finding": "Current Xenoverse 2 references identify Savage Strike as an SSGSS Vegito Super Skill obtained through the Skill Shop route.",
+    "acquisition_finding": "Savage Strike is a Strike Super associated with SSGSS Vegito and is obtainable by the Future Warrior through the TP Medal Shop. Historical sources establish TP Medal Shop availability; exact current price/rotation timing remains unresolved.",
     "finish_policy": "ultimate_finish_required remains null because the documented route is not established here as a Parallel Quest Ultimate Finish reward.",
-    "cost_policy": "Exact Ki cost is left null because the reviewed evidence did not establish a sufficiently reliable canonical current value."
+    "cost_policy": "Ki cost is supported as 100 Ki by current secondary reference evidence; exact TP Medal Shop price is not promoted because dated sources conflict (200 TP in launch-era/rotation documentation versus 300 TP in a later secondary guide)."
   },
   "records": [
     {
@@ -26,23 +28,26 @@
       "usable_by_cac": true,
       "character_source": "SSGSS Vegito / SSGSS Vegito customizable partner",
       "dlc_requirement": null,
-      "ki_cost": null,
+      "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Skill Shop",
-      "source_quest_or_shop": "Skill Shop",
+      "unlock_method": "TP Medal Shop (limited-time rotation)",
+      "source_quest_or_shop": "TP Medal Shop",
       "ultimate_finish_required": null,
-      "skill_description": "A Strike Super with a forward punch and an alternate Instant Transmission follow-up that can pursue a knocked-back opponent and deliver a downward punch.",
-      "mechanics_notes": "The skill has multiple input modes. The alternate input performs an Instant Transmission-style teleport above the opponent for a downward punch; community gameplay references also document its use as a combo follow-up. Exact frame data and damage values are not promoted to canonical data.",
-      "acquisition_notes": "Current Xenoverse 2 references identify Savage Strike as an SSGSS Vegito Super Skill available through the Skill Shop. Exact shop timing/price is not encoded without stronger evidence.",
+      "skill_description": "A Strike Super with a forward punch and an alternate Instant Transmission-style teleport above the opponent for a downward punch; the forward route can pursue a knocked-back opponent.",
+      "mechanics_notes": "The skill has multiple input modes. The alternate input performs an Instant Transmission-style teleport above the opponent for a downward punch; current gameplay/reference evidence also documents knockback pursuit and combo-extension use. Exact frame data, damage values, stamina effects, and matchup windows are not promoted to canonical data.",
+      "acquisition_notes": "Historical and current-reference evidence places Savage Strike in the TP Medal Shop. Exact TP Medal price and rotation timing remain unresolved because available dated sources report different prices; no exact shop price is encoded.",
       "pve_notes": "Skill Shop acquisition; no Parallel Quest or Ultimate Finish requirement established.",
       "pvp_notes": "The alternate input can pursue a knocked-back opponent; detailed matchup and frame behavior remains version-sensitive.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Savage_Strike",
         "https://dragonball.fandom.com/wiki/Savage_Strike",
-        "https://steamcommunity.com/app/454650/discussions/0/3726197342895914480/",
+        "https://steamcommunity.com/app/454650/discussions/0/1470841715941013139/",
+        "https://steamcommunity.com/app/454650/discussions/0/1368380934257020994/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77319677?page=1",
+        "https://sihmar.com/wie-bekomme-ich-den-savage-strike-in-xenoverse-2/",
         "https://www.youtube.com/watch?v=nPSb_Qmoq0w"
       ]
     }
