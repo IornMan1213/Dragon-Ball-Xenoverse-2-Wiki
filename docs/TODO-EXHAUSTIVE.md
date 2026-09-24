@@ -6664,3 +6664,13 @@
 - [x] Evidence boundary maintained: exact vectors are stored only when directly reported; recipe families without exact outputs remain non-vector research records.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next:** continue P1 thin-domain expansion; prioritize a domain where existing canonical records can be expanded with source-backed observed fields or deterministic cross-domain relationships, while preserving historical/community evidence separately from verified canonical facts.
+
+
+### 2026-09-24 continuation — current skill-count projection reconciliation
+- [x] Live source-of-truth census confirmed at **469 canonical skills / 469 index skills / 0 duplicate IDs**.
+- [x] Found two current-facing projection files still carrying the superseded **465** skill baseline: `docs/data/pq-skill-crosslink-report.json` and `docs/data/pq-endpoint-navigation-current-baseline-audit-2026-09-23.json`.
+- [x] Reconciled those deterministic count scalars to **469** without modifying PQ→skill relationships or inventing edges.
+- [x] Added `docs/data/live-skill-baseline-reconciliation-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: canonical/index parity **469/469**; duplicate IDs **0**; unresolved PQ→skill edges **0**; unsupported relationships added **0**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next:** continue scanning remaining current-facing projections for stale 465/older skill-count scalars, then return to source-backed P1 provenance enrichment once deterministic projection drift is exhausted.
