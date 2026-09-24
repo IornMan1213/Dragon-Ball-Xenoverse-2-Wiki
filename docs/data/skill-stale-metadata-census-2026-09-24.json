@@ -6,26 +6,26 @@
   "live_counts": {
     "canonical_skill_records": 465,
     "index_skill_records": 465,
-    "current_last_verified_records": 158,
-    "stale_last_verified_records": 307,
+    "current_last_verified_records": 170,
+    "stale_last_verified_records": 295,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
-    "skill-energy-minefield",
-    "skill-energy-release",
-    "skill-eraser-bomb",
-    "skill-evil-blast",
-    "skill-evil-explosion",
-    "skill-evil-eyes",
-    "skill-evil-flame",
-    "skill-evil-flight-strike",
-    "skill-evil-ray-strike",
-    "skill-evil-rise-strike",
-    "skill-evil-whirlwind",
-    "skill-excellent-full-course"
+    "skill-explosive-assault",
+    "skill-explosive-buu-buu-punch",
+    "skill-explosive-wave",
+    "skill-eye-beam",
+    "skill-fake-blast",
+    "skill-fake-death",
+    "skill-feint-crash",
+    "skill-feint-shot",
+    "skill-fierce-fist",
+    "skill-fighting-pose-a",
+    "skill-fighting-pose-c",
+    "skill-fighting-pose-e"
   ],
   "notes": [
-    "Recomputed directly from the live canonical/index layers after the Dust through Energy refresh.",
+    "Recomputed directly from live canonical/index layers after the Energy Minefield through Excellent Full Course refresh.",
     "Canonical/index ID parity verified."
   ]
 }
