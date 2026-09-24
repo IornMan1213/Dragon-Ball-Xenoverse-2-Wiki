@@ -4,7 +4,7 @@
   "status": "indexed_record_population",
   "source_index": "https://dbxv2.fandom.com/wiki/Category:Characters",
   "source_category_count": 155,
-  "canonical_character_record_count": 151,
+  "canonical_character_record_count": 152,
   "source_non_character_items": [
     "Category:CaC Races",
     "Category:Characters by Race",
@@ -13,9 +13,9 @@
     "Category:Supervillain",
     "Template:Infobox character"
   ],
-  "dlc_source_count": 55,
+  "dlc_source_count": 56,
   "dlc_source": "https://dbxv2.fandom.com/wiki/Category:DLC_Characters",
-  "record_policy": "Source category items are reconciled into canonical character identities. Category/template links shown inside the source category are tracked separately and are not misclassified as characters. Gameplay fields are not guessed; they remain unresolved until independently sourced.",
+  "record_policy": "Source category items are reconciled into canonical character identities, with explicitly publisher-confirmed DLC character identities added when the current source category has not yet exposed the new record. Category/template links shown inside the source category are tracked separately and are not misclassified as characters. Gameplay fields are not guessed; they remain unresolved until independently sourced.",
   "character_names": [
     "Android 13",
     "Android 16",
@@ -132,8 +132,6 @@
     "Recoome",
     "Ribrianne",
     "Rosé Goku Black",
-    "Saibaman",
-    "Sanud",
     "SS3 Vegeta (DAIMA)",
     "SS4 Goku (DAIMA)",
     "SSGSS Gogeta",
@@ -141,10 +139,13 @@
     "SSGSS Vegeta",
     "SSGSS Vegeta (Evolved)",
     "SSGSS Vegito",
+    "Saibaman",
+    "Sanud",
     "Super 17",
     "Super Baby 2",
     "Super Buu",
     "Supreme Kai of Time",
+    "Supreme Kai of Time (Ultra Supervillain)",
     "Tapion",
     "Tien",
     "Toppo (God of Destruction)",
@@ -217,6 +218,7 @@
     "SSGSS Vegeta (Evolved)",
     "SSGSS Vegito",
     "Super Baby 2",
+    "Supreme Kai of Time (Ultra Supervillain)",
     "Tapion",
     "Toppo (God of Destruction)",
     "Vados",
@@ -230,7 +232,8 @@
   "sources": [
     "https://dbxv2.fandom.com/wiki/Category:Characters",
     "https://dbxv2.fandom.com/wiki/Category:DLC_Characters",
-    "https://en.dragon-ball-official.com/news/01_4313.html"
+    "https://en.dragon-ball-official.com/news/01_4313.html",
+    "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
   ],
-  "last_verified": "2026-09-23"
+  "last_verified": "2026-09-24"
 }
