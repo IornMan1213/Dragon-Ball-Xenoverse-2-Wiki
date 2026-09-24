@@ -6508,3 +6508,14 @@
 - [x] Commits: `3130d721e5ff6ea2e34f73d7d4fadec27ee3e80f` (audit), `78f37d623e56e75e83a3058783f38a9b1ce69f86` (registry).
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next:** continue evidence-gated numeric preset/loadout research for Goku Presets 2–12 and 14–18, Vegeta 10–11, and Captain Ginyu 5–6 only where one source directly binds the numeric preset label to a complete configuration; otherwise expand the next thin structured domain without inference.
+
+### 2026-09-24 completed strict-thin Super Soul 032/034 evidence refresh
+- [x] Rechecked the two remaining strict-thin Super Soul records: `super-soul-032` and `super-soul-034`.
+- [x] Confirmed PQ 185 and PQ 186 exact-name reward identity from the current 186-PQ guide.
+- [x] Confirmed the community-reported second activation/name-state for Super Soul 032: after the relevant activation, its displayed name changes when the user is KO'd. This observation was already preserved in the canonical record and therefore required no speculative field promotion.
+- [x] Searched current community discussion for Super Soul 034 mechanics; no sufficiently reliable item-level evidence was found to resolve its effect, Limit Burst, or character source. Explicit null/unresolved fields remain intact.
+- [x] Added `docs/data/super-soul-032-034-strict-thin-evidence-refresh-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: 2/2 targets resolved; unsupported promotions 0; explicit unresolved fields preserved.
+- [x] Commit: `212637a29f7f991d7e6cbf849594a08a80263b7f`; registry commit `19e22b72755010ae967b5c8c8d601ebdec6b1862`.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next:** resume the highest-impact evidence-gated numeric preset batch, seeking a single artifact that binds a numeric preset identifier to its complete eight-slot configuration; if still unavailable, perform the next bounded provenance pass over the thinnest unresolved skill endpoint records without inference.
