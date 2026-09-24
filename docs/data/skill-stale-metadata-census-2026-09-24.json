@@ -6,28 +6,31 @@
   "live_counts": {
     "canonical_skill_records": 469,
     "index_skill_records": 469,
-    "current_last_verified_records": 323,
-    "stale_last_verified_records": 146,
+    "current_last_verified_records": 335,
+    "stale_last_verified_records": 134,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
     {
-      "name": "Pride Trooper"
-    },
-    {
-      "name": "Punisher Drive"
-    },
-    {
-      "name": "Purification"
-    },
-    {
       "name": "Raid Blast"
     },
     {
-      "name": "Raiding Hammer"
+      "name": "Rakshasa's Claw"
+    },
+    {
+      "name": "Ray Blast"
     },
     {
       "name": "Rebellion Spear"
+    },
+    {
+      "name": "Recoome Kick"
+    },
+    {
+      "name": "Remote Serious Bomb"
+    },
+    {
+      "name": "Requiem of Destruction"
     },
     {
       "name": "Revenge Death Ball"
@@ -36,16 +39,13 @@
       "name": "Revenge Final Flash"
     },
     {
-      "name": "Ribrianne Loves You"
+      "name": "Reverse Launcher"
     },
     {
-      "name": "Rocket Tackle"
+      "name": "Reverse Mabakusenko"
     },
     {
-      "name": "Rolling Hercule Punch"
-    },
-    {
-      "name": "Rolling Bullet"
+      "name": "Reverse Shot"
     }
   ],
   "notes": [
@@ -62,6 +62,7 @@
     "Next alphabetical stale batch is Ki Explosion through Majin Kamehameha.",
     "2026-09-24: Ki Explosion through Majin Kamehameha provenance batch completed; canonical/index parity validated at 469 records with zero mismatches.",
     "2026-09-24: Masenko through Petrifying Spit provenance batch completed; canonical/index parity validated at 469 records with zero mismatches.",
-    "2026-09-24: Phantom Fist through Prepare to be Punished completed; canonical/index parity remains 469/469 with zero mismatches."
+    "2026-09-24: Phantom Fist through Prepare to be Punished completed; canonical/index parity remains 469/469 with zero mismatches.",
+    "2026-09-24: Present For You through Purification completed; corrected the next-stale queue to reflect the live canonical alphabetical sequence."
   ]
 }
