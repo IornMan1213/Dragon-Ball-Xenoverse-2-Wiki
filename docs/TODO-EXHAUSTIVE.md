@@ -6589,3 +6589,10 @@
 - [x] Commit: `1376634625eecdd45b66db014218231b737d270d`.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Next:** bounded non-PQ reverse-projection sweep across Expert Mission, shop, special, and remaining endpoint consumers.
+
+### 2026-09-24 completed stale metadata census validation repair
+- [x] Reconciled the current-looking validation block in `docs/data/skill-stale-metadata-census-2026-09-23.json` from 465/465 to the live 469/469 canonical/index baseline.
+- [x] Preserved historical 465 context and did not alter canonical skill data.
+- [x] Commit: `f295e2ae1c0c2ada350e068aae1550c8ba0d7b52`.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Next:** sweep remaining current-facing acquisition indexes/projections for one-way links and stale scalars.
