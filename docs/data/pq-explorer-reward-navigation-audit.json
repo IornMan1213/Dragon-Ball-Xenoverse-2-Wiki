@@ -55,7 +55,7 @@
   },
   "status": "clean",
   "evidence_boundary": "Canonical PQ reward and DLC identity layers are authoritative. The explorer consumes canonical pq_requires_dlc targets for both navigation and displayed DLC labels; structured reward reports remain exact-pair reconciled. Search/landing-page destinations do not imply dedicated per-record pages.",
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "validator": "scripts/validate_pq_explorer_reward_navigation.py",
   "validator_commit": "fbc54443a0e52801b1e408ce359a4bd0140124ce",
   "structured_reward_consumer_parity": {
@@ -109,5 +109,6 @@
       "query_parameter": "q",
       "direct_fetch_verified": true
     }
-  }
+  },
+  "note_2026_09_24": "Rechecked against the live canonical PQ reward relationship layer after the skill endpoint reconciliation. PQ reward-domain counts remain 244 skills, 145 Super Souls, 124 equipment, and 86 DLC edges; exact structured parity remains clean."
 }
