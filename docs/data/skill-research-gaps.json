@@ -18,11 +18,12 @@
         "unlock_method"
       ],
       "evidence": [
-        "Xenoverse 2 character/skill enumeration identifies Acid as a cast-only Saibaman skill and CaC-unavailable.",
-        "Xenoverse 2-specific community documentation records Acid on Saibaman 2, the Crystal Raid/Training-only Saibaman preset.",
-        "Xenoverse 2 reference material distinguishes Acid from Saibabeam and identifies Saibaman variants as users."
+        "Xenoverse 2 Character ID List assigns Acid ID 140, marks it CaC-unavailable, and identifies Saibaman; it separately lists raid-boss Acid as ID 143.",
+        "A Xenoverse 2 skill-list artifact lists Acid at IDs 140 and 143 under Super Skills.",
+        "The Xenoverse 2 Saibaman page lists Acid on Saibaman 2.",
+        "A dated Xenoverse 2 community discussion identifies Acid in the Saibaman 2 raid moveset."
       ],
-      "reason": "Xenoverse 2-specific evidence now establishes the skill identity, cast-only/CaC-unavailable boundary, and Crystal Raid/Training Saibaman-2 presence, but the repository's canonical Ki-cost and acquisition/unlock fields remain unverified."
+      "reason": "Xenoverse 2-specific evidence now establishes Acid as a CaC-unavailable Super Skill used by Saibaman variants, including Saibaman 2, with normal skill ID 140 and a separate raid-boss Acid ID 143. Ki cost and canonical acquisition remain unverified."
     },
     {
       "name": "Howl",
@@ -33,11 +34,12 @@
         "unlock_method"
       ],
       "evidence": [
-        "Great Ape Festival and related Xenoverse 2 PQ enemy tables list Howl on Great Ape Nappa, Vegeta and Bardock.",
-        "A Xenoverse 2 skill-list artifact identifies Howl as Evasive Skill ID 10440 and marks it CaC-unavailable.",
-        "A dated Xenoverse 2 save-data reference independently labels Howl as an Evasive skill and documents its activation restriction/behavior."
+        "Xenoverse 2 Character ID List assigns Howl ID 10440, marks it CaC-unavailable, and identifies Great Ape.",
+        "Great Ape Festival lists Howl on Great Ape Nappa, Vegeta, and Bardock.",
+        "Saiyan Survivors lists Howl on Great Ape Nappa and Vegeta.",
+        "Power x10 x2? Great Ape Transformation lists Howl on Great Ape Nappa and Vegeta."
       ],
-      "reason": "Xenoverse 2-specific evidence now establishes the Evasive classification and CaC restriction, but a sufficiently direct source for the repository's Ki-cost field and canonical unlock/acquisition endpoint has not been established."
+      "reason": "Xenoverse 2-specific evidence now independently establishes Howl as a CaC-unavailable Evasive Skill used by Great Ape enemies across multiple PQ/story encounters. Ki cost and canonical acquisition remain unverified."
     },
     {
       "name": "Boiling Burg",
@@ -149,5 +151,5 @@
       "reason": "Xenoverse 2-specific evidence establishes Tricky Strike as a CaC-unavailable Super Skill used by Final Form Demigra. The repository subtype and canonical Ki-cost fields remain unverified."
     }
   ],
-  "notes": "2026-09-24 Howl tranche: Evasive classification and CaC-unavailable status strengthened from Xenoverse 2-specific artifacts; Ki cost and acquisition remain unresolved and are not promoted. 2026-09-24 Baked Sphere tranche: strengthened Xenoverse 2-specific Ultimate/CaC-unavailable classification; Ki cost remains unresolved and is not promoted. 2026-09-24 Boiling Ball/Tricky Strike tranche: strengthened Xenoverse 2-specific identity, Super Skill classification, Final Form Demigra ownership, and CaC-unavailable boundaries; repository subtype and Ki cost remain unresolved and are not promoted."
+  "notes": "2026-09-24 Howl tranche: Evasive classification and CaC-unavailable status strengthened from Xenoverse 2-specific artifacts; Ki cost and acquisition remain unresolved and are not promoted. 2026-09-24 Baked Sphere tranche: strengthened Xenoverse 2-specific Ultimate/CaC-unavailable classification; Ki cost remains unresolved and is not promoted. 2026-09-24 Boiling Ball/Tricky Strike tranche: strengthened Xenoverse 2-specific identity, Super Skill classification, Final Form Demigra ownership, and CaC-unavailable boundaries; repository subtype and Ki cost remain unresolved and are not promoted. 2026-09-24 Acid/Howl tranche: strengthened Xenoverse 2-specific ID, classification, cast-source, and recurring moveset evidence; Ki cost and acquisition remain unresolved and are not promoted."
 }
