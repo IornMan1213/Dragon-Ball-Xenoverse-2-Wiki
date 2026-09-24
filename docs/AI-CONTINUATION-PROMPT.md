@@ -8125,3 +8125,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: 0 obsolete target occurrences, 2 canonical target occurrences, target exists, audit pass. No skill data/relationship semantics changed.
 - Commits: `9b1bb7d52291f3c4f606f673de72657b451b814f`, `ae92516011e417822279c9cd92b409994fc4a467`, `fa6b305448965ac2ed58b96bf980b644bb5fd02d`, `3f148cbe088be4cf51138f5733998027b0019af3`.
 - **Exact next batch:** scan remaining non-PQ landing/reference consumers for obsolete explorer targets, stale scalar/list assumptions, orphan navigation, and canonical-ID drift; then resume evidence-gated preset/loadout expansion.
+
+
+### 2026-09-24 cycle update — global layout canonical explorer navigation
+- Audited `docs/_layouts/home.html` and `docs/_layouts/wiki.html` as global navigation consumers.
+- Repointed Skills → `Skills-All.html`, Characters → `Characters-All.html`, and Mentors → `Mentors-All.html` in both layouts so the site's primary navigation opens the canonical searchable databases directly.
+- Added and registered `docs/data/global-layout-canonical-explorer-navigation-audit-2026-09-24.json`.
+- Validation passed: 3 canonical routes present in each layout; obsolete landing routes removed from these surfaces. Navigation-only; no data semantics changed.
+- Commits: `841842db129e2d150794c8c004367c9e706a4fd2`, `257d87aa8831e5b8bce226836905db34e493b3b8`, `2151bd552b00e167c96913b1b69542ed578e8430`, `5e1a4e5f1ccc418bab43a332aa48f205e5b71ad3`.
+- **Exact next batch:** deterministic scan of remaining reference/landing pages for stale explorer targets, one-way links, and canonical-ID/count drift, prioritizing DLC/system landing consumers.
