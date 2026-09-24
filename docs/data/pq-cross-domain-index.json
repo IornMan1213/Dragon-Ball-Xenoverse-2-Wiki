@@ -453,5 +453,6 @@
   "skill_provenance_audit_2026_09_24_atomic_through_blaster": "docs/data/skill-provenance-audit-2026-09-24-atomic-through-blaster.json",
   "skill_stale_metadata_census_2026_09_24": "docs/data/skill-stale-metadata-census-2026-09-24.json",
   "pq_current_consumer_854_search_classification_2026_09_24": "docs/data/pq-current-consumer-854-search-classification-2026-09-24.json",
-  "skill_provenance_audit_2026_09_24_destruction_through_divine_wrath": "docs/data/skill-provenance-audit-2026-09-24-destruction-through-divine-wrath.json"
+  "skill_provenance_audit_2026_09_24_destruction_through_divine_wrath": "docs/data/skill-provenance-audit-2026-09-24-destruction-through-divine-wrath.json",
+  "skill_provenance_audit_2026_09_24_divinity_through_dual_destructo_disc": "docs/data/skill-provenance-audit-2026-09-24-divinity-through-dual-destructo-disc.json"
 }
