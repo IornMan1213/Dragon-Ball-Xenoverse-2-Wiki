@@ -5796,3 +5796,12 @@
 - [x] Validation: **9 raid identity records / 6 exact canonical matches / 3 unresolved / 111 canonical accessory records / 16 raid-gift bridge records / 14 bridge-resolved / 2 bridge-unresolved / 0 broken canonical IDs / exact unmatched-list parity / no near-name merges**.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next priority:** reconcile the remaining 3 unresolved raid accessory identities (Cheelai Wig, Cheelai Wig (w/Scouter), Hercule Wig 2) against existing repository research/equipment sources; only promote an exact identity when source evidence establishes it, otherwise preserve the explicit unresolved boundary. Then continue the event/raid non-PQ consumer scan.
+
+
+### 2026-09-24 cycle completion — unresolved raid accessory boundary + backlog synchronization
+- [x] Rechecked the remaining three raid identity candidates (**Cheelai Wig**, **Cheelai Wig (w/Scouter)**, **Hercule Wig 2**) against the repository's canonical accessory and equipment layers and route research.
+- [x] No exact canonical records were found for those three; **Hercule Wig 2** was explicitly kept separate from canonical **Hercule Wig**.
+- [x] Synchronized `docs/data/accessory-unmatched-route-backlog.json`: removed the six identities already reconciled in the previous batch and retained unresolved route candidates rather than treating absence as proof of nonexistence. Backlog now contains **5** unresolved route identities.
+- [x] Existing event/raid evidence was reviewed; the repository currently has route research but no dedicated generic raid skill endpoint layer that can be deterministically projected without inventing relationships. No speculative event/raid endpoint layer was created.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next priority:** audit the remaining five accessory unmatched-route candidates (**Cheelai Wig, Cheelai Wig (w/Scouter), Hercule Wig 2, Golden Turtle Hermit's Shell, Turtle Hermit's Beard, plus the SSGSS Goku Wig route if still represented by a separate backlog source**) against the canonical/equipment layers and route-specific records, then continue the event/raid non-PQ consumer scan using only deterministic existing endpoint structures.
