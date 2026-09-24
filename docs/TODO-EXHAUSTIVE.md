@@ -5539,3 +5539,10 @@
 - Validation: **469 canonical / 469 index / 395 current / 74 stale / 0 duplicate IDs / canonical-index IDs aligned**.
 - CI/runtime remains unavailable; no CI success claimed.
 - **Exact next stale batch:** **Strike of Revelation; Sudden Death Beam; Sudden Storm; Super Afterimage; Super Black Kamehameha Rosé; Super Destructo-Disc; Super Donut Volley; Super Dragon Flight; Super Electric Strike; Super Elite Combo; Super Explosive Wave; Super Gamma Blast**.
+
+
+### 2026-09-24 cycle status — Strike of Revelation through Super Gamma Blast research reconciliation
+- [x] Completed repository-first evidence reconciliation for the exact 12-record stale batch: Strike of Revelation; Sudden Death Beam; Sudden Storm; Super Afterimage; Super Black Kamehameha Rosé; Super Destructo-Disc; Super Donut Volley; Super Dragon Flight; Super Electric Strike; Super Elite Combo; Super Explosive Wave; Super Gamma Blast.
+- [x] Added `docs/data/skill-provenance-audit-2026-09-24-strike-through-super-gamma-blast.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [ ] Canonical/index `last_verified` synchronization remains pending because the available GitHub connector cannot safely retrieve the oversized canonical `docs/data/skills.json` blob in this cycle; no partial overwrite was attempted.
+- [ ] Exact continuation action: safely synchronize these 12 canonical/index records, recompute `docs/data/skill-stale-metadata-census-2026-09-24.json`, validate canonical/index parity, then proceed to the next stale batch without inventing missing evidence.
