@@ -6,58 +6,46 @@
   "live_counts": {
     "canonical_skill_records": 469,
     "index_skill_records": 469,
-    "current_last_verified_records": 311,
-    "stale_last_verified_records": 158,
+    "current_last_verified_records": 323,
+    "stale_last_verified_records": 146,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
     {
-      "id": "skill-phantom-fist",
-      "name": "Phantom Fist"
+      "name": "Pride Trooper"
     },
     {
-      "id": "skill-photon-swipe",
-      "name": "Photon Swipe"
+      "name": "Punisher Drive"
     },
     {
-      "id": "skill-potential-unleashed",
-      "name": "Potential Unleashed"
+      "name": "Purification"
     },
     {
-      "id": "skill-power-blitz",
-      "name": "Power Blitz"
+      "name": "Raid Blast"
     },
     {
-      "id": "skill-power-impact",
-      "name": "Power Impact"
+      "name": "Raiding Hammer"
     },
     {
-      "id": "skill-power-pole-combo",
-      "name": "Power Pole Combo"
+      "name": "Rebellion Spear"
     },
     {
-      "id": "skill-power-pole-pro",
-      "name": "Power Pole Pro"
+      "name": "Revenge Death Ball"
     },
     {
-      "id": "skill-power-rush",
-      "name": "Power Rush"
+      "name": "Revenge Final Flash"
     },
     {
-      "id": "skill-power-wall",
-      "name": "Power Wall"
+      "name": "Ribrianne Loves You"
     },
     {
-      "id": "skill-powered-shell",
-      "name": "Powered Shell"
+      "name": "Rocket Tackle"
     },
     {
-      "id": "skill-prelude-to-destruction",
-      "name": "Prelude to Destruction"
+      "name": "Rolling Hercule Punch"
     },
     {
-      "id": "skill-prepare-to-be-punished",
-      "name": "Prepare to be Punished"
+      "name": "Rolling Bullet"
     }
   ],
   "notes": [
@@ -73,6 +61,7 @@
     "Current live counts after this batch are 469 canonical / 469 index / 287 current / 182 stale / 0 duplicate IDs.",
     "Next alphabetical stale batch is Ki Explosion through Majin Kamehameha.",
     "2026-09-24: Ki Explosion through Majin Kamehameha provenance batch completed; canonical/index parity validated at 469 records with zero mismatches.",
-    "2026-09-24: Masenko through Petrifying Spit provenance batch completed; canonical/index parity validated at 469 records with zero mismatches."
+    "2026-09-24: Masenko through Petrifying Spit provenance batch completed; canonical/index parity validated at 469 records with zero mismatches.",
+    "2026-09-24: Phantom Fist through Prepare to be Punished completed; canonical/index parity remains 469/469 with zero mismatches."
   ]
 }
