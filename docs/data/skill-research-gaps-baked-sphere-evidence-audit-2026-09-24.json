@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-24",
+  "skill_name": "Baked Sphere",
+  "skill_id": "skill-baked-sphere",
+  "status": "evidence_enriched_unresolved",
+  "scope": "bounded Xenoverse 2-specific evidence enrichment",
+  "evidence": [
+    {
+      "type": "xenoverse2_id",
+      "claim": "Baked Sphere is skill ID 531 and is marked CaC-unavailable.",
+      "source": "Xenoverse 2 Character ID List"
+    },
+    {
+      "type": "xenoverse2_cac_catalog",
+      "claim": "Baked Sphere is listed among skills unobtainable by CaC and is identified as an Ultimate skill.",
+      "source": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79567595"
+    },
+    {
+      "type": "xenoverse2_gameplay",
+      "claim": "Baked Sphere is used by villainous/supervillain opponents as a dark explosive-wave style attack.",
+      "source": "https://www.youtube.com/watch?v=pg3lf_SFuZA"
+    }
+  ],
+  "resolved_fields": {
+    "classification": "Ultimate",
+    "subcategory": "Explosive Wave",
+    "cac_available": false
+  },
+  "unresolved_fields": [
+    "ki_cost"
+  ],
+  "guardrails": [
+    "Do not infer Ki cost from older Xenoverse or animation descriptions.",
+    "Do not create a CaC acquisition route from NPC/enemy usage.",
+    "Do not promote to canonical skills.json without the supported builder and required field coverage."
+  ]
+}
