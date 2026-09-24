@@ -1,3 +1,11 @@
+
+### 2026-09-24 cycle update — Festival audit registration cleanup
+
+- Registered the existing Festival skill-character presentation audit in docs/data/pq-cross-domain-index.json under navigation_audits.festival_skill_character_navigation.
+- This closes the discoverability gap between the verified Festival presentation surface and the central cross-domain audit registry.
+- No canonical records, relationship edges, acquisition routes, or gameplay facts changed in this cleanup.
+- Changelog updated with commit 571cd2f2921d61d3334075ef8b173e57ef2da687.
+- **Next priority:** continue deterministic event/raid/Festival/Chapter 4 consumer scanning for stale scalar/list assumptions and one-way navigation; prioritize uncovered current presentation surfaces, then resume exhaustive preset/loadout research.
 ### 2026-09-24 cycle update — current character/equipment/raid consumer synchronization
 
 - Re-scanned current-facing non-PQ consumers after the Chapter 4 character identity and final raid-accessory reconciliation.
