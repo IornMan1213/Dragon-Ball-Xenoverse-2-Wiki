@@ -5322,3 +5322,14 @@
 - [x] Preserved existing conflicts and evidence limits; no unsupported fields inferred.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next batch:** **Fighting Pose F, Fighting Pose H, Fighting Pose K, Final Cannon, Final Charge, Final Explosion, Final Flash, Final Flash (SS3 DAIMA), Final Flash (Super), Final Kamehameha, Final Pose, Final Rampage**.
+
+
+### 2026-09-24 cycle update — Fighting Pose F through Final Rampage provenance refresh
+
+- [x] Completed the next bounded P1 provenance batch: **Fighting Pose F; Fighting Pose H; Fighting Pose K; Final Cannon; Final Charge; Final Explosion; Final Flash; Final Flash (SS3 DAIMA); Final Flash (Super); Final Kamehameha; Final Pose; Final Rampage**.
+- [x] Synchronized canonical `docs/data/skills.json` and `docs/data/skills-index.json`; all 12 target records now carry `last_verified=2026-09-24`.
+- [x] Added and registered `docs/data/skill-provenance-audit-2026-09-24-fighting-pose-f-through-final-rampage.json` and refreshed `docs/data/skill-stale-metadata-census-2026-09-24.json`.
+- [x] Validation target: **465 canonical / 465 index / 0 duplicate IDs / 194 current / 271 stale**.
+- [x] Preserved existing acquisition, reward, classification, mechanics, restriction, DLC/update, and evidence-conflict semantics; no unsupported fields were inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next stale batch:** **Finish Breaker; Finishing Blow; Flash Bomber; Flash Chaser; Flash Fist Crush; Flash Strike; Focus Flash; Force Edge; Force Shield; Formation!; Freedom Kick; Fruit of the Tree of Might**.

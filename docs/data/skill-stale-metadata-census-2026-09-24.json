@@ -6,27 +6,27 @@
   "live_counts": {
     "canonical_skill_records": 465,
     "index_skill_records": 465,
-    "current_last_verified_records": 182,
-    "stale_last_verified_records": 283,
+    "current_last_verified_records": 194,
+    "stale_last_verified_records": 271,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
-    "skill-fighting-pose-f",
-    "skill-fighting-pose-h",
-    "skill-fighting-pose-k",
-    "skill-final-cannon",
-    "skill-final-charge",
-    "skill-final-explosion",
-    "skill-final-flash",
-    "skill-final-flash-ss3-daima",
-    "skill-final-flash-super",
-    "skill-final-kamehameha",
-    "skill-final-pose",
-    "skill-final-rampage"
+    "skill-finish-breaker",
+    "skill-finishing-blow",
+    "skill-flash-bomber",
+    "skill-flash-chaser",
+    "skill-flash-fist-crush",
+    "skill-flash-strike",
+    "skill-focus-flash",
+    "skill-force-edge",
+    "skill-force-shield",
+    "skill-formation",
+    "skill-freedom-kick",
+    "skill-fruit-of-the-tree-of-might"
   ],
   "notes": [
-    "Canonical current count advances from the established 170-record census by the 12 completed records in this cycle.",
-    "Canonical/index record-count and ID parity remain 465/465 with zero duplicate IDs; the index verification-date layer contains older historical dates for some previously refreshed records, so current/stale counts are anchored to the canonical source of truth.",
-    "Canonical fetch returned an empty payload during one read attempt; targeted canonical writes completed successfully and the established canonical census arithmetic was preserved."
+    "Canonical current count advances by the 12 completed records in this cycle.",
+    "Canonical/index record-count and ID parity remain anchored to the 465-record live baseline; verification-date counts are computed from canonical docs/data/skills.json.",
+    "This cycle changed only verification/provenance metadata and audit registration; existing acquisition, reward, mechanics, restriction, DLC/update, and evidence-conflict semantics were preserved."
   ]
 }

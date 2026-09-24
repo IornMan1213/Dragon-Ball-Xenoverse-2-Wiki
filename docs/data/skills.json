@@ -5133,12 +5133,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Captain Ginyu mentor training — Initiation Test",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "race_restriction": "All CaC races",
       "source_quest": "Captain Ginyu mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super from Captain Ginyu's Initiation Test. It grants Hyper Armor for 12 seconds and greatly reduces Stamina regeneration while active. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super from Captain Ginyu's Initiation Test. It grants Hyper Armor for 12 seconds and greatly reduces Stamina regeneration while active. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-fighting-pose-f",
       "source_mentor": [
         "mentor-ginyu"
@@ -5162,7 +5162,7 @@
       "mechanics_notes": "Corrected user attribution to Guldo. Confirmed as 0-Ki PQ61 Power Up Super that reduces damage taken for 20 seconds; usable by CaCs. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Fighting_Pose_H",
@@ -5171,7 +5171,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 61,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super from PQ61 Basic Reward. It reduces damage taken for 20 seconds; the existing correction identifying Guldo as the notable user is retained. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super from PQ61 Basic Reward. It reduces damage taken for 20 seconds; the existing correction identifying Guldo as the notable user is retained. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-fighting-pose-h",
       "source_parallel_quests": [
         61
@@ -5189,7 +5189,7 @@
       ],
       "ki_cost": 0,
       "mechanics_notes": "Confirmed as 0-Ki Skill Shop Power Up Super after The Ginyu Force Strikes. It grants Super Armor for 8 seconds; usable by all CaC races.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
       "duration_seconds": 8,
       "ultimate_finish_required": false,
@@ -5201,7 +5201,7 @@
       "source_quest": "The Ginyu Force Strikes — Skill Shop unlock",
       "dlc_requirement": "Base Game",
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super sold in the Skill Shop after The Ginyu Force Strikes. It grants Super Armor for 8 seconds; no Ultimate-Finish requirement is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super sold in the Skill Shop after The Ginyu Force Strikes. It grants Super Armor for 8 seconds; no Ultimate-Finish requirement is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-fighting-pose-k"
     },
     {
@@ -5221,7 +5221,7 @@
       "mechanics_notes": "Current dedicated evidence identifies Final Cannon as a 100-Ki Strike Super used by Trunks (Kid). It is a rush/short-range six-hit attack that launches the opponent. Current acquisition evidence states the Future Warrior can obtain it as a random reward from Kid Trunks in PQ52; no Ultimate Finish-only gate is established.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Final_Cannon",
@@ -5231,7 +5231,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 52,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 100-Ki Strike Super from PQ52's reward pool. It is a short-range rush attack with six hits that launches the opponent; the exact individual reward probability remains unresolved. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 100-Ki Strike Super from PQ52's reward pool. It is a short-range rush attack with six hits that launches the opponent; the exact individual reward probability remains unresolved. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-final-cannon",
       "source_parallel_quests": [
         52
@@ -5255,13 +5255,13 @@
       "usable_by_cac": false,
       "ultimate_finish_required": false,
       "unlock_method": "Character-exclusive to Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
       "source_quest_or_shop": "Character-exclusive",
       "mechanics_notes": "Character-exclusive charge skill for Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
       "race_restriction": "Character-only",
       "acquisition_type": "character_only",
-      "notes": "2026-09-22 provenance/mechanics refresh: current dedicated evidence confirms this as SSGSS Vegeta (Evolved)'s character-exclusive Other Super, unavailable to CaCs. Ki charging begins very slowly and accelerates rapidly after about two seconds, functioning similarly to Ultimate Charge. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current dedicated evidence confirms this as SSGSS Vegeta (Evolved)'s character-exclusive Other Super, unavailable to CaCs. Ki charging begins very slowly and accelerates rapidly after about two seconds, functioning similarly to Ultimate Charge. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-final-charge"
     },
     {
@@ -5276,7 +5276,7 @@
       ],
       "ki_cost": 300,
       "unlock_method": "TP Medal Shop; documented listing price 200 TP Medals",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "ultimate_finish_required": false,
       "dlc_requirement": "Base Game",
       "character_source": "SSGSS Vegeta (Evolved)",
@@ -5286,7 +5286,7 @@
       "research_status": "enriched",
       "mechanics_notes": "500 Ki Ki Blast Ultimate; user detonates a large area explosion around themselves, consuming health during the technique. 2026-09-20 verification: current canonical source set explicitly identifies the acquisition route as PQ173 Basic Reward / TP Medal Shop, respectively; no unresolved acquisition-condition conflict remains for these records.",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-22 deterministic mechanics correction: current dedicated skill evidence lists 300 Ki, not the prior 500 Ki value. It creates a large area explosion, can be prolonged by spending Stamina, and leaves the user vulnerable afterward. TP Medal Shop purchase remains the documented Future Warrior route at 200 TP Medals. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
+      "notes": "2026-09-22 deterministic mechanics correction: current dedicated skill evidence lists 300 Ki, not the prior 500 Ki value. It creates a large area explosion, can be prolonged by spending Stamina, and leaves the user vulnerable afterward. TP Medal Shop purchase remains the documented Future Warrior route at 200 TP Medals. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-final-explosion"
     },
     {
@@ -5304,13 +5304,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Vegeta mentor training",
       "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Vegeta mentor training — lesson-3.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 300-Ki Ki Blast Ultimate from Vegeta's Lesson 3. It fires a long beam after charging energy in both hands; dedicated mentor evidence confirms the Lesson 3 acquisition endpoint. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 300-Ki Ki Blast Ultimate from Vegeta's Lesson 3. It fires a long beam after charging energy in both hands; dedicated mentor evidence confirms the Lesson 3 acquisition endpoint. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-final-flash",
       "source_mentor": [
         "mentor-vegeta"
@@ -5336,9 +5336,9 @@
       "ultimate_finish_required": false,
       "mechanics_notes": "Base activation uses 400 Ki; holding the input while the attack lands spends additional available Ki for a power boost.",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "mechanics": "400 Ki base cost; while the attack lands, holding input can consume all additional available Ki for a major power boost.",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 400+ Ki Ki Blast Ultimate from PQ181 Basic Reward. Holding the input as the beam lands spends additional available Ki for an enlarged power boost; the current skill page documents a 22–53-hit beam. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 400+ Ki Ki Blast Ultimate from PQ181 Basic Reward. Holding the input as the beam lands spends additional available Ki for an enlarged power boost; the current skill page documents a 22–53-hit beam. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "race_restriction": "All CaC races",
       "source_quest": 181,
       "acquisition_type": "quest_or_mission",
@@ -5362,13 +5362,13 @@
       "unlock_method": "Character-exclusive skill; not equippable by CaCs",
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Character skill",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "usable_by_cac": false,
       "mechanics_notes": "Current evidence confirms Final Flash (Super) as a 200-Ki character-exclusive Ki Blast Super and not a CaC-equippable skill; the existing usable_by_cac=false boundary is retained. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable. Current evidence also documents a 24-hit beam and approximately 30% total damage; it remains character-exclusive/unavailable to CaCs.",
       "race_restriction": "Character-only",
       "dlc_requirement": "Ultra Pack 1",
       "acquisition_type": "character_only",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 200-Ki Ki Blast Super is SSGSS Vegeta (Evolved)'s character-exclusive variant and unavailable to CaCs. It fires a long beam from both hands and deals a 24-hit knockback sequence.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 200-Ki Ki Blast Super is SSGSS Vegeta (Evolved)'s character-exclusive variant and unavailable to CaCs. It fires a long beam from both hands and deals a 24-hit knockback sequence.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-final-flash-super"
     },
     {
@@ -5385,11 +5385,11 @@
       "unlock_method": "Parallel Quest 91 — \"Saiyan Revolt\" Basic Reward; also available through the TP Medal Shop and Double Crystal Raids",
       "source_quest_or_shop": "TP Medal Shop / Parallel Quest 91 / Double Crystal Raids",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "usable_by_cac": true,
       "mechanics_notes": "22-hit Ki Blast Ultimate; charges a Final Flash-like shot before switching to Super Kamehameha. Current evidence documents a 22-hit beam and approximately 40% total damage; the sequence begins as Final Flash and transitions into Super Kamehameha.",
       "research_status": "enriched",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 500-Ki Ki Blast Ultimate is available through TP Medal Shop, PQ91 Basic Reward, and Double Crystal Raids. It begins as a Final Flash-like charge and transitions into a Super Kamehameha beam; current PQ evidence explicitly lists it as a Basic Reward.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 500-Ki Ki Blast Ultimate is available through TP Medal Shop, PQ91 Basic Reward, and Double Crystal Raids. It begins as a Final Flash-like charge and transitions into a Super Kamehameha beam; current PQ evidence explicitly lists it as a Basic Reward.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "race_restriction": "All CaC races",
       "source_quest": 91,
       "dlc_requirement": "Base Game",
@@ -5413,7 +5413,7 @@
       ],
       "stamina_cost": 200,
       "unlock_method": "Parallel Quest 74 — \"Galactic Patrol Away\"",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
@@ -5426,7 +5426,7 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": 74,
       "acquisition_type": "parallel_quest",
-      "notes": "2026-09-22 provenance/conflict refresh: current dedicated skill evidence currently lists Skill Shop as the unlock while maintained PQ evidence maps the acquisition to PQ74. The repository preserves the existing PQ74 cross-link and documents the source conflict rather than silently replacing the established database relationship. Mechanics evidence confirms a 200-Stamina Power Up Evasive with a close-range shockwave and temporary Basic Attack increase.",
+      "notes": "2026-09-22 provenance/conflict refresh: current dedicated skill evidence currently lists Skill Shop as the unlock while maintained PQ evidence maps the acquisition to PQ74. The repository preserves the existing PQ74 cross-link and documents the source conflict rather than silently replacing the established database relationship. Mechanics evidence confirms a 200-Stamina Power Up Evasive with a close-range shockwave and temporary Basic Attack increase.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "skill_description": "Final Pose is a Power Up Evasive skill.",
       "id": "skill-final-pose",
       "source_parallel_quests": [
@@ -5450,7 +5450,7 @@
       "mechanics_notes": "500 Ki; multi-stage rush/ground-impact sequence. Exact CaC acquisition/drop semantics remain under reconciliation because current public skill-page evidence emphasizes the character user. Current evidence documents a 15-hit sequence: rush/knockdown, rear sledgehammer, Final Flash-like wave, then the finishing ground punch.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Rampage",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -5459,7 +5459,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 174,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 500-Ki Strike Ultimate from PQ174 and its multi-stage rush → rear sledgehammer → Final Flash-like wave → ground punch sequence. The existing Ultimate-Finish/60% acquisition semantics and conflicting reward-table presentation remain preserved.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 500-Ki Strike Ultimate from PQ174 and its multi-stage rush → rear sledgehammer → Final Flash-like wave → ground punch sequence. The existing Ultimate-Finish/60% acquisition semantics and conflicting reward-table presentation remain preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-final-rampage",
       "source_parallel_quests": [
         174

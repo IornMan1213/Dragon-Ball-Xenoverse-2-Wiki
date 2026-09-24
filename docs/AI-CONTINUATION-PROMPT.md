@@ -7028,3 +7028,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime remains unavailable; no CI success claimed.
 - Commits: canonical `b42ec428af2122a22e66c4c466dd78287f2da999`; index `bdd9364a5bfeebd2634cb917989b1fe190432ad4`; audit `841066793f6a76341b63d425d23ab0dfb1d21ae5`; cross-domain registration `4ff75ac9297b9072c50050006d2d37e23c06405e`; census `846111ae6f3edd31365846ad35568133c5772385`.
 - **Exact next task:** process the 12 listed Fighting Pose F through Final Rampage records against their maintained evidence corpus, synchronize canonical/index layers, add/register the bounded audit, and recompute the live stale census.
+
+
+### 2026-09-24 cycle update — Fighting Pose F through Final Rampage provenance refresh
+
+- [x] Completed the next bounded P1 provenance batch: **Fighting Pose F; Fighting Pose H; Fighting Pose K; Final Cannon; Final Charge; Final Explosion; Final Flash; Final Flash (SS3 DAIMA); Final Flash (Super); Final Kamehameha; Final Pose; Final Rampage**.
+- [x] Synchronized canonical `docs/data/skills.json` and `docs/data/skills-index.json`; all 12 target records now carry `last_verified=2026-09-24`.
+- [x] Added and registered `docs/data/skill-provenance-audit-2026-09-24-fighting-pose-f-through-final-rampage.json` and refreshed `docs/data/skill-stale-metadata-census-2026-09-24.json`.
+- [x] Validation target: **465 canonical / 465 index / 0 duplicate IDs / 194 current / 271 stale**.
+- [x] Preserved existing acquisition, reward, classification, mechanics, restriction, DLC/update, and evidence-conflict semantics; no unsupported fields were inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next stale batch:** **Finish Breaker; Finishing Blow; Flash Bomber; Flash Chaser; Flash Fist Crush; Flash Strike; Focus Flash; Force Edge; Force Shield; Formation!; Freedom Kick; Fruit of the Tree of Might**.
