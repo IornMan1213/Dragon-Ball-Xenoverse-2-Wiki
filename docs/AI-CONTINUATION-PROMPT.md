@@ -7615,3 +7615,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] No unsupported acquisition routes were inferred.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next priority:** continue deterministic consumer scanning outside the skill endpoint census, targeting stale current counts/IDs in character/preset, event/raid, or equipment navigation indexes.
+
+
+### 2026-09-24 cycle completion — PQ navigation current-layer reconciliation
+- [x] Audited the PQ endpoint navigation consumer against the live canonical layers.
+- [x] Corrected the current scalar boundary: **469 skills / 151 characters / 173 equipment-accessory records**, with the authoritative PQ relationship baseline at **853 edges** (244 skills, 145 Super Souls, 124 equipment, 247 characters, 86 DLC, 7 farming).
+- [x] Added `docs/data/pq-endpoint-navigation-current-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved the older 465-skill consumer audit as historical evidence.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next priority:** scan event/raid and equipment navigation consumers for stale current counts or orphan canonical targets.
