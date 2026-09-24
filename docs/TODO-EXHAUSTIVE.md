@@ -6235,3 +6235,12 @@
 - [x] Updated preset/loadout audit census from **25 / 162** to **26 / 170** verified loadouts / skill-slot entries.
 - [x] Preserved evidence boundaries: no acquisition, exclusivity, reward, or gameplay claim was inferred.
 - [ ] **Next:** continue unresolved preset families only where both numeric identity and complete skill configuration are directly evidenced; otherwise retain unresolved status and move to the next family.
+
+
+### 2026-09-24 cycle completion — preset promotion evidence gate
+- [x] Audited unresolved Goku 2–5, Vegeta 10–11, and Captain Ginyu 5–6 for direct loadout evidence.
+- [x] Confirmed the available unlock video establishes preset identities but not complete eight-slot configurations.
+- [x] Rejected an SSGSS Goku Preset 4 community loadout as evidence for base Goku Preset 4 because the character identity does not match.
+- [x] Added `docs/data/character-preset-loadout-promotion-gates-2026-09-24.json` to preserve the evidence gate and avoid row-order inference.
+- [x] Kept all affected records unresolved rather than promoting unsupported skill assignments.
+- [ ] **Next:** locate explicit numeric-preset + complete-loadout evidence for the remaining unresolved families.
