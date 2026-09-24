@@ -43,11 +43,22 @@
       "id": "captain-ginyu-preset-6",
       "identity": "numeric identity confirmed by maintained video evidence",
       "loadout": "not promoted; no complete explicit skill table located"
+    },
+    {
+      "id": "goku-preset-2..5",
+      "web_research_2026_09_24": [
+        "Burcol's 2024-11-22 DLC 18 video description explicitly identifies Goku Presets 2, 3, 4, and 5 at distinct timestamps.",
+        "A surfaced Fandom Goku preset table supplies a complete loadout for a Goku '2nd preset' and '4th preset', but the surfaced page is Dragon Ball XenoVerse Wiki rather than an unambiguous Xenoverse 2 source, so it is not sufficient for promotion.",
+        "A GameFAQs result documents SSGSS Goku Preset 4 skills, but that is a different roster identity and cannot be applied to base Goku Preset 4."
+      ],
+      "decision": "identity evidence strengthened; complete Xenoverse 2 loadout evidence remains insufficient, so no promotion."
     }
   ],
   "external_evidence": [
+    "https://www.youtube.com/watch?v=EJ0ICSoKXPc",
     "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
   ],
   "outcome": "No unresolved record was promoted on identity-only or partial-skill evidence. This gate prevents accidental row-order inference and keeps the canonical producer conservative.",
-  "next": "Continue searching remaining unresolved families for sources that explicitly bind preset number to a complete eight-slot configuration; prioritize first-party/maintained reference tables over community unlock-only videos."
+  "next": "Continue searching remaining unresolved families for sources that explicitly bind preset number to a complete eight-slot configuration; prioritize first-party/maintained reference tables over community unlock-only videos.",
+  "evidence_note_2026_09_24": "Web research strengthened numeric identity coverage for Goku Presets 2–5, but deliberately did not cross-apply similarly named preset tables from other Xenoverse versions/forms. This preserves the project's indexed-versus-verified boundary."
 }
