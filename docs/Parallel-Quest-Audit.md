@@ -7,7 +7,7 @@ title: Parallel Quest Audit
 
 > **Browse the live quest catalog:** [Every Parallel Quest](Parallel-Quests-All.html)
 
-This is the exhaustive Parallel Quest verification pass. The audit covers the repository's canonical numbered PQ range through **PQ186**, while distinguishing **numbered-record coverage** from external research claims about currently standalone missions. Some maintained datamined research reports **183 standalone PQs** because they classify PQ36 as cut; the repository's canonical player-facing record layer intentionally retains **PQ36 as a numbered record** and preserves the historical conflict in provenance. Therefore, this audit must not silently replace the canonical 186-record layer with an external 183-mission count. citeturn0search0
+This is the exhaustive Parallel Quest verification pass. The audit covers the repository's canonical numbered PQ range through **PQ186**, while distinguishing **numbered-record coverage** from external research claims about currently standalone missions. Some maintained datamined research reports **183 standalone PQs** because they classify PQ36 as cut; the repository's canonical player-facing record layer intentionally retains **PQ36 as a numbered record** and preserves the historical conflict in provenance. Therefore, this audit must not silently replace the canonical 186-record layer with an external 183-mission count. 
 
 ## Record standard
 
@@ -105,7 +105,7 @@ A 7-star crossover quest. The existing audit preserves the Rosé Goku Black heal
 
 The wiki distinguishes **canonical numbered-record coverage** from **external claims about currently available standalone missions**. A quest is not marked complete merely because its title or number has been indexed: objectives, rewards, and Ultimate Finish conditions must be checked before promotion. Where external research and the canonical record layer disagree about numbering (including PQ36), the conflict remains explicit rather than changing the canonical identity layer.
 
-**Current structured audit coverage: canonical numbered PQ1–PQ186.** The canonical relationship baseline is **853 unique edges** across skills, Super Souls, equipment, characters, DLC, and farming. The consumer/navigation layer must resolve displayed targets to these canonical relationship and identity layers without inventing aliases or relationship edges. External research that counts fewer standalone missions because of PQ36 or other numbering interpretations remains provenance/history; it does not replace the canonical 186-record player-facing layer. citeturn0search0
+**Current structured audit coverage: canonical numbered PQ1–PQ186.** The canonical relationship baseline is **853 unique edges** across skills, Super Souls, equipment, characters, DLC, and farming. The consumer/navigation layer must resolve displayed targets to these canonical relationship and identity layers without inventing aliases or relationship edges. External research that counts fewer standalone missions because of PQ36 or other numbering interpretations remains provenance/history; it does not replace the canonical 186-record player-facing layer. 
 
 ## Primary research corpus
 
