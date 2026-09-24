@@ -5849,3 +5849,10 @@
 - [x] Confirmed no canonical endpoint relationship required modification; only stale documentation was corrected.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next priority:** scan remaining cross-link documentation and machine-readable indexes for deterministic stale endpoint counts/IDs.
+
+
+### 2026-09-24 cycle completion — current non-PQ skill endpoint consumer census
+- [x] Added and registered a current 2026-09-24 non-PQ skill endpoint consumer audit: **469 canonical / 239 PQ-linked / 230 non-PQ / 469 covered / 0 uncovered**.
+- [x] Kept the 2026-09-23 audit as historical evidence.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next priority:** scan character/preset, event/raid, and equipment navigation indexes for deterministic stale current counts or orphan IDs.
