@@ -7523,3 +7523,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] No endpoint changes were inferred; cast/boss exposure remains distinct from CaC acquisition.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** audit the remaining non-PQ endpoint/index consumers for current 469-baseline drift, prioritizing any unregistered Expert Mission/current acquisition projection or event/raid gap that can be machine-checked without inventing relationships.
+
+
+### 2026-09-24 cycle completion — raid/gift accessory partial-research bridge audit
+- Audited `docs/data/accessory-raid-gift-canonical-bridge.json` against `docs/data/accessory-canonical-reconciliation.json`.
+- Validation: **16 bridge records / 10 resolved route records / 6 unresolved candidate records / 6 unique resolved canonical IDs / 0 duplicate source IDs / 0 missing canonical IDs**; the unresolved candidate list exactly matches the six null-canonical records.
+- Confirmed expected multi-route reuse for **accr-001, accr-002, and accr-003**; no duplicate inventory identities were created.
+- Added `docs/data/accessory-raid-gift-bridge-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- Evidence boundary preserved: historical raid/event availability, reward thresholds, recurrence, and unresolved candidate identities remain non-canonical; no new accessory identity or route was inferred.
+- CI/runtime remains unavailable; no CI success claimed.
+- Commits: audit `791e0f7fc6ab83debf76913e335629a9619ed15f`; cross-domain registration `d7648d2a13b42c6572c66baeafa299821d19ede4`.
+- **Exact next priority:** audit `docs/data/accessory-raid-identity-reconciliation-2026-09.json` against the live canonical accessory layer for exact matches among Tapion Wig, Cheelai Wig variants, Tights Hat, Universe 6 S. Kai's Helper's Hat, Lord Zuno's Topknot Wig, Android 21 Wig & Glasses, Hercule Wig 2, and Tiencha Wig. Preserve unresolved status unless an exact canonical identity is established.
