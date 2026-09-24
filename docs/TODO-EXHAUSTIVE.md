@@ -6143,3 +6143,12 @@
 - [x] Updated `docs/data/preset-battle-suit-reconciliation-2026-09-23.json` with the direct numeric-identity evidence and preserved the unresolved-loadout boundary.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** continue source-backed preset/loadout expansion where the source directly exposes both numeric identity and skill configuration; otherwise continue deterministic non-PQ event/raid/Festival consumer scanning.
+
+
+### 2026-09-24 cycle completion — Super Soul guide census synchronization
+- [x] Deterministically compared the current-facing docs/Super-Souls.md catalogue census with docs/data/super-souls-record-layer.json.
+- [x] Found stale prose claiming the canonical layer contained **42** records while the live canonical producer contains **230** records.
+- [x] Updated only that current census statement to **230**, preserving the surrounding historical research-batch narrative and evidence boundaries.
+- [x] Validation: canonical producer re-read at 230 records; edited guide re-fetched after commit and target wording was replaced without unrelated normalization.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next batch:** continue deterministic non-PQ event/raid/Festival/Chapter 4 consumer scanning for stale scalar counts and one-way navigation; then resume source-backed preset/loadout expansion.
