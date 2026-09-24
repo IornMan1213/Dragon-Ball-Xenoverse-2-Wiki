@@ -1,3 +1,12 @@
+### 2026-09-24 cycle update — bounded current presentation consumer scan
+
+- Added `docs/data/current-presentation-consumer-scan-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- Deterministic current baseline verified: **152 canonical characters / 51 preset records / 25 verified preset loadouts / 162 verified loadout skill-slot entries / 2 Chapter 4 PQs**.
+- Existing character presentation navigation remains clean: preset character IDs resolve, reverse character targets have no orphans, and current Character Encyclopedia count consumers use the live 152-character producer.
+- Goku remains a documented research boundary rather than an unsupported promotion: the source-observed Goku in-game-data table exposes named loadout rows, but the repository's numeric Goku preset IDs cannot safely be mapped by row order. No Goku loadout was invented.
+- The new scan deliberately does not claim complete event history, preset numbering, loadouts, acquisition conditions, rotation, drop rates, or chronology.
+- **Exact next priority:** continue exact source-to-numeric preset mapping only where a source directly binds the mapping; otherwise proceed to the next highest-impact thin-domain research tranche while preserving canonical cross-domain navigation and no-inference rules.
+
 ### 2026-09-24 cycle update — high-connectivity character preset presentation consumer audit
 
 - Audited the named high-connectivity preset targets in `docs/Character-Preset-Research.md` against the live canonical character identity layer `docs/data/characters-record-layer.json`.
