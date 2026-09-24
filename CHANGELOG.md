@@ -3036,3 +3036,11 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Preserved unresolved repository fields: `subcategory` and `ki_cost`; no unsupported acquisition route or numeric cost was promoted.
 - Canonical skill layer remains **469 / 469**; no manual oversized-catalog reconstruction was attempted.
 - CI/runtime remains unavailable; no CI success claimed.
+
+
+### 2026-09-24 — Acid + Howl skill-gap evidence enrichment
+- Strengthened the unresolved research records for **Acid** and **Howl** with Xenoverse 2-specific IDs, classifications, CaC restrictions, and recurring cast/moveset evidence.
+- Added/updated `docs/data/skill-research-gaps-acid-evidence-audit-2026-09-24.json` and `docs/data/skill-research-gaps-howl-evidence-audit-2026-09-24.json`; registered both in the cross-domain index.
+- Preserved unresolved `ki_cost` and acquisition fields; Acid's normal ID 140 and separate raid-boss ID 143 remain explicitly distinct.
+- No canonical promotion or unsupported acquisition route was introduced.
+- CI/runtime remains unavailable; no CI success claimed.
