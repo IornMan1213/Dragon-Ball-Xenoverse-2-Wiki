@@ -7272,3 +7272,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime remains unavailable; no CI success claimed.
 - **Exact next stale batch:** **Super Ghost Buu Attack; Super Ghost Kamikaze Attack (Super); Super Ghost Kamikaze Attack (Ultimate); Super God Fist; Super God Shock Flash; Super Guard; Super Kamehameha; Super Kamehameha (SS4 DAIMA); Super Saiyan; Super Saiyan 2; Super Saiyan Blue Kaioken; Super Saiyan God**.
 - The two Super Ghost Kamikaze Attack records remain distinct canonical IDs/classes; do not merge them based on the shared display name.
+
+
+### 2026-09-24 cycle completion — Super Ghost Buu Attack through Super Saiyan God
+
+- Completed repository-first bounded provenance refresh for 12 stale records: **Super Ghost Buu Attack; Super Ghost Kamikaze Attack (Super); Super Ghost Kamikaze Attack (Ultimate); Super God Fist; Super God Shock Flash; Super Guard; Super Kamehameha; Super Kamehameha (SS4 DAIMA); Super Saiyan; Super Saiyan 2; Super Saiyan Blue Kaioken; Super Saiyan God**.
+- Synchronized canonical `docs/data/skills.json` and `docs/data/skills-index.json` to `last_verified=2026-09-24` for all 12.
+- Added `docs/data/skill-provenance-audit-2026-09-24-super-ghost-through-super-saiyan-god.json`.
+- Validation: **469 canonical / 469 index / 419 current / 50 stale / 0 duplicate IDs / canonical-index ID order aligned**.
+- Preserved important identity boundaries: Super Ghost Kamikaze Attack Super vs Ultimate remain separate IDs; Super Saiyan 2 remains a stage of Super Saiyan; Super Saiyan Blue Kaioken remains character-only/non-CaC.
+- No unsupported drop rates, UF requirements, damage values, timers, stacking caps, or prerequisites were promoted.
+- CI/runtime remains unavailable; no CI success claimed.
+- Commits: canonical `44b7d19a9c65b79a5bfe2ab738a666b1f6d2ec72`; index `d808278be71df9fa02337b1c62782509b192d6a4`; audit `50e09e6dc2cd2884ccb7f0257f71862f23f6326a`; census `a0f91de6ad7469130182c873a41454526de33446`.
+- **Exact next batch:** **Super Saiyan God Super Saiyan; Super Saiyan God Super Saiyan (Evolved); Super Spirit Bomb; Super Vegeta; Supernova; Supernova Cooler; Supersonic Mode; Supreme Fury; Surging Spirit; Symphonic Destruction; Tail Slicer; Taunt**.
