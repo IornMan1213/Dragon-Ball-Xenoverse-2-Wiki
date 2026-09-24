@@ -620,7 +620,7 @@
 - [x] Reconciled both unresolved Demigra skills against repository research batch 289 and current Xenoverse 2-specific evidence. **Boiling Ball (ID 541)** is research-supported as a **Super / Ki Blast**; **Tricky Strike (ID 542)** is research-supported as a **Super / Strike**.
 - [x] Updated docs/data/skill-research-gaps.json so both records now have only ki_cost unresolved; no CaC acquisition route or numeric cost was invented.
 - [x] Updated both dedicated evidence audits to preserve the resolved subtype and explicit unresolved Ki-cost boundary.
-- [x] Current web corroboration confirms IDs 541/542, Final Form Demigra ownership, CaC-unavailable status, Super Skill listing, and the documented Demigra behaviors; the Legend Patrol encounter lists both skills on Final Form Demigra. citeturn1search0turn1search3turn1search13turn1search1
+- [x] Current external corroboration confirms IDs 541/542, Final Form Demigra ownership, CaC-unavailable status, Super Skill listing, and the documented Demigra behaviors; the Legend Patrol encounter lists both skills on Final Form Demigra.
 - [x] Validation: updated JSON files were parsed successfully by the GitHub JSON update path; canonical skill catalogs remain untouched at the established 469/469 boundary.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [x] Commits: 97a09fd5653ef8fd497b202e5059f77e86ffdd09, 16b4c1a5c67429e262c5200260ad1fd6f9a417c9, 617559a481b5dc12033dd3b7a6d6d3025ae7f7ad.
