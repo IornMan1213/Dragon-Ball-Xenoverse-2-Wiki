@@ -32,8 +32,8 @@
     "No rotation date, guaranteed availability window, or drop probability inferred."
   ],
   "validation": {
-    "canonical_records": 455,
-    "index_records": 455,
+    "canonical_records": 465,
+    "index_records": 465,
     "duplicate_ids": 0,
     "nullable_canonical_ki_cost": 0,
     "exact_two_source_records_before": 3,
