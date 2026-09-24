@@ -5,6 +5,13 @@
 - [x] Preserved the canonical skill builder boundary: Savage Strike remains staged in research and is not manually inserted into the oversized 469/469 canonical catalogs.
 - [ ] **Exact next:** poll the queued Repository quality rerun. If it completes successfully, use the available validation result to advance toward the supported Skills Catalog Sync path; if it fails again, inspect the new failure before changing canonical data. Numeric preset/loadout promotion remains evidence-gated.
 
+### 2026-09-24 cycle update — retried failed Repository quality workflow
+- [x] Re-inspected the live GitHub Actions state after the previous continuation commit: Repository quality run `36072545830` failed in `Check for internal artifacts`.
+- [x] Re-ran the failed workflow jobs through the available GitHub Actions interface; run attempt **2** is now queued.
+- [ ] **Validation remains pending:** the rerun has not completed, so no CI success is claimed yet.
+- [x] Preserved the canonical skill builder boundary: Savage Strike remains staged in research and is not manually inserted into the oversized 469/469 canonical catalogs.
+- [ ] **Exact next:** poll the queued Repository quality rerun. If it completes successfully, use the available validation result to advance toward the supported Skills Catalog Sync path; if it fails again, inspect the new failure before changing canonical data. Numeric preset/loadout promotion remains evidence-gated.
+
 ### 2026-09-24 cycle completion — numeric preset evidence recheck
 - [x] Rechecked independent Burcol numeric-preset unlock artifacts and the current Xenoverse 2 Goku in-game-data source.
 - [x] Added the recheck to `docs/data/numeric-preset-complete-loadout-source-audit-2026-09-24.json`.
