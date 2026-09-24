@@ -8184,3 +8184,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Commits: `acdaddb4f40dc712f11bf200ff84b41ac58b1165`, `74ef56c99925f7c7a52c737cec25694e37df88a5`, `50358977cd4c71bde3dc7776af653b9570385373`, plus central index registration below.
 - CI/runtime remains unavailable; no CI success claimed.
 - **Exact next priority:** finish the remaining non-PQ landing/reference scan for stale explorer targets, stale counts/list assumptions, orphan navigation, and canonical-ID drift before entering evidence-gated preset/loadout expansion.
+
+
+### 2026-09-24 continuation — global navigation explorer-target audit
+- Audited current global Jekyll navigation after the prior explorer repairs.
+- Repointed the wiki sidebar's Super Souls link to Super-Souls-All.html and Awoken Skills to Awoken-All.html, the existing canonical searchable explorers.
+- Verified that an attempted Expert Missions explorer route was invalid because docs/Expert-Missions-All.html does not exist; reverted that route to the existing Expert-Missions landing page rather than introducing a broken target.
+- Added and registered docs/data/global-navigation-canonical-explorer-audit-2026-09-24-c.json.
+- Validation: no broken Expert Missions target remains; canonical Super Soul/Awoken explorer targets exist; navigation-only changes; 0 data/relationship changes.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next priority: continue the deterministic non-PQ scan for stale counts/list assumptions, orphan navigation, and canonical-ID drift; only after that start evidence-gated preset/loadout expansion with direct numeric identity + complete configuration evidence.
