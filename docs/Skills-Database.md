@@ -22,6 +22,17 @@ This page keeps core skill information **on-wiki**. Full exhaustive tables live 
 ## Canonical acquisition boundary
 For PQ skill acquisition, the canonical `pq_rewards_skill` relationship is the source of truth for the identity of the PQ→skill association. It does not, by itself, establish that the skill is guaranteed, requires an Ultimate Finish, comes from a particular enemy, or has a numerical drop rate. Those are research/evidence fields and require independent support.
 
+## Festival of Universes — Named Skill Routes
+The current repository evidence contains three explicitly named Festival skill routes. These are presented as Festival acquisitions rather than PQ relationships.
+
+| Skill | Source character | Route |
+|---|---|---|
+| Galaxy Breaker (Festival) | Vegeta | Festival of Universes — Max Camaraderie with Vegeta |
+| God Bind (Festival) | Goku (Super Saiyan God) | Festival of Universes — Max Camaraderie with Goku (Super Saiyan God) |
+| Justice Crush (Festival) | Dyspo | Festival of Universes — Max Camaraderie with Dyspo |
+
+**Evidence boundary:** the maintained Festival research batch establishes these three named records and their source characters/routes. It does **not** establish a complete Festival skill inventory, event scheduling/current availability, or unsupported PQ/raid relationships. See `docs/data/festival-skill-character-navigation-audit-2026-09-24.json` for the identity/navigation audit.
+
 ## Awoken Skills (Transformations)
 **Universal / Multi-race**
 - Kaioken (x1 / x3 / x20)
