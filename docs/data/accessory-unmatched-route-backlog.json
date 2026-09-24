@@ -35,14 +35,6 @@
       ],
       "reason": "Separate from SSGSS Goku Wig PQ route unless inventory identity is confirmed identical.",
       "priority": "high"
-    },
-    {
-      "name": "Turtle Hermit's Beard",
-      "source_layers": [
-        "crystal_raid"
-      ],
-      "reason": "Accessory identity is documented but not yet represented in canonical reconciliation.",
-      "priority": "medium"
     }
   ],
   "rules": [
@@ -84,6 +76,12 @@
     {
       "name": "Tiencha Wig",
       "resolved_on": "2026-09-24",
+      "canonical_source": "docs/data/accessory-canonical-reconciliation.json"
+    },
+    {
+      "name": "Turtle Hermit's Beard",
+      "resolved_on": "2026-09-24",
+      "canonical_id": "accr-112",
       "canonical_source": "docs/data/accessory-canonical-reconciliation.json"
     }
   ],
