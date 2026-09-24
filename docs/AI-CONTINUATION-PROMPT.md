@@ -1,3 +1,11 @@
+### 2026-09-24 cycle completion — Boiling Burg skill-gap evidence enrichment
+- [x] Strengthened the unresolved `Boiling Burg` record with Xenoverse 2-specific skill ID 540, CaC-unavailable status, Final Form Demigra ownership, Legend Patrol presence, and independent CaC-unobtainable catalog evidence.
+- [x] Added `docs/data/skill-research-gaps-boiling-burg-evidence-audit-2026-09-24.json`.
+- [x] Resolved the classification boundary to **Ultimate** while leaving only `ki_cost` unresolved.
+- [x] Preserved the canonical skill boundary; no unsupported promotion or numeric cost inference was made.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue the next unresolved skill gap after Boiling Burg, prioritizing the remaining cast-only/legacy skill records with the strongest available Xenoverse 2 evidence.
+
 ### 2026-09-24 cycle completion — Acid skill-gap evidence enrichment
 - [x] Strengthened the unresolved `Acid` research record with Xenoverse 2-specific evidence for its cast-only/CaC-unavailable boundary and Saibaman 2 Crystal Raid/Training presence.
 - [x] Added `docs/data/skill-research-gaps-acid-evidence-audit-2026-09-24.json` with explicit evidence and guardrails.
