@@ -5805,3 +5805,12 @@
 - [x] Existing event/raid evidence was reviewed; the repository currently has route research but no dedicated generic raid skill endpoint layer that can be deterministically projected without inventing relationships. No speculative event/raid endpoint layer was created.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next priority:** audit the remaining five accessory unmatched-route candidates (**Cheelai Wig, Cheelai Wig (w/Scouter), Hercule Wig 2, Golden Turtle Hermit's Shell, Turtle Hermit's Beard, plus the SSGSS Goku Wig route if still represented by a separate backlog source**) against the canonical/equipment layers and route-specific records, then continue the event/raid non-PQ consumer scan using only deterministic existing endpoint structures.
+
+
+### 2026-09-24 cycle completion — Turtle Hermit's Beard exact accessory reconciliation
+- [x] Audited the remaining unmatched accessory candidates against the maintained equipment/accessories layer.
+- [x] Promoted **Turtle Hermit's Beard** as canonical accessory `accr-112`, backed by the exact existing equipment identity `acc-032`; no name variant was merged.
+- [x] Removed Turtle Hermit's Beard from `docs/data/accessory-unmatched-route-backlog.json`; **4 unresolved route candidates remain**.
+- [x] Kept **Golden Turtle Hermit's Shell**, **Cheelai Wig**, **Hercule Wig 2**, and **SSGSS Goku's Wig** unresolved because current repository evidence does not establish an exact canonical identity without a near-name or route-only assumption.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next priority:** reconcile the remaining four unmatched accessory candidates, beginning with Golden Turtle Hermit's Shell and SSGSS Goku's Wig, then continue deterministic event/raid non-PQ consumer scanning.
