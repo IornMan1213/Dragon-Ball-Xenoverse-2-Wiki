@@ -1,3 +1,14 @@
+## 2026-09-24 — Accessory presentation consumer reconciliation
+
+- Audited `docs/Equipment-All.html` against the current equipment/accessory and authoritative PQ relationship layers after the final raid accessory identity reconciliation.
+- Added and registered `docs/data/accessory-presentation-consumer-current-audit-2026-09-24.json`.
+- Current validation baseline: **174 combined equipment/accessory presentation records / 116 current canonical `accr-###` accessory identities / 124 PQ→equipment edges / 122 unique PQ equipment targets / 9 resolved raid identity records / 18 resolved raid-gift bridge records**.
+- Confirmed the explorer derives its displayed record count from the live record layer and PQ navigation from `pq-reward-relationships.json`; no stale hard-coded accessory total exists in the presentation.
+- Corrected current-facing accessory dashboard/documentation counts: canonical accessory reconciliation **88 → 116**, Accessory Shop research **53 → 51**, and the homepage canonical accessory count **37 → 116**.
+- Preserved the separate legacy **74 `acc-###` PQ accessory projection** and did not merge it with the **116 `accr-###`** canonical reconciliation namespace.
+- No new relationship, acquisition condition, raid availability, probability, or Ultimate Finish fact was inferred.
+- CI/runtime remains unavailable; no CI success claimed.
+
 ## 2026-09-23 — PQ relationship coverage status semantic repair
 - Corrected `docs/data/pq-cross-domain-status.json` so canonical relationship coverage is **186/186** rather than the partial reward-batch directory's **182/186**.
 - Preserved the four missing reward-batch files (PQ1, PQ12, PQ13, PQ14) as a separate supporting-source-layer limitation.
