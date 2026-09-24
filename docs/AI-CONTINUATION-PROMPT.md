@@ -6959,3 +6959,18 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime unavailable; no CI success claimed.
 - Commit: `2a9a4931974138077ece8f3e7746c599864ebee2`.
 - **Exact next stale batch:** Energy Wave; Energy Zone; Evil Whirlwind; Explosive Assault; Explosive Bomber; Explosive Buu Buu Punch; Explosive Scream; Explosive Shot; Explosive Surge; Extended Beam; Extra Large Genocide Shell; Eye Laser.
+
+
+### 2026-09-24 cycle update — Live stale-skill census correction + Destruction through Divine Wrath provenance refresh
+
+- Live census audit found the prior 2026-09-24 stale census was not a faithful projection of the live canonical layer: **9 of its listed next-batch IDs were absent from both canonical and index records**. No phantom records were created.
+- Recomputed directly from live `docs/data/skills.json` and `docs/data/skills-index.json`: **465 canonical / 465 index / 134 current / 331 stale / 0 duplicate IDs**, with canonical/index ID parity confirmed.
+- Completed the actual next bounded P1 batch: **12 skills** — Destruction's Concerto: Meteor; Destruction's Concerto: Starfall; Destruction's Conductor; Destructive Fission; Destructive Flare; Destructive Fracture; Destructo-Disc; Dimension Cannon; Dimensional Hole; Divine Ray Bomb; Divine Spear; Divine Wrath: Purification.
+- Synchronized canonical/index `last_verified=2026-09-24`; existing acquisition, reward, mechanics, DLC/update, restriction, and evidence-boundary semantics were preserved.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-24-destruction-through-divine-wrath.json`.
+- Rebuilt `docs/data/skill-stale-metadata-census-2026-09-24.json` from the live canonical layer; the next actual stale batch is **Divinity Unleashed; Do or Die; Dodon Ray; Dodoria Beam; Dodoria Launcher; Double Crush; Double Death Slicer; Dragon Burn; Dragon Spark; Dragon Spiral; Drain Field; Dual Destructo-Disc**.
+- Updated `docs/data/pq-cross-domain-index.json` to register the new audit artifact.
+- Evidence boundary preserved: no unsupported drop probabilities, prerequisites, timers, frame data, damage values, stacking caps, or narrower restrictions were inferred. Historical census/projection errors remain documented as superseded context rather than being deleted.
+- CI/runtime remains unavailable; no CI success claimed.
+- Commits: canonical `2ed261133e076e4a810e5d5e0164886d62a6d518`; index `a97c9889c4efba946d95ffe547de674b4111f5af`; audit `642a49f0ec3efb5e1495769d1f00d8b47acdcfb4`; live census `76794dd4dee17df7e481d7876bb614d16c7a6ffe`; cross-domain registration `55bd304aeffbe99782289d4f5c552f3321f40822`.
+- **Exact next task:** process the 12 listed Divinity-through-Dual-Destructo-Disc records against their maintained evidence corpus, synchronize canonical/index layers, add/register the bounded audit, and recompute the live stale census before selecting another batch.
