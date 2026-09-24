@@ -5304,3 +5304,12 @@
 - [x] Preserved existing conflicts and evidence limits; no unsupported fields inferred.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next batch:** **Energy Minefield, Energy Release, Eraser Bomb, Evil Blast, Evil Explosion, Evil Eyes, Evil Flame, Evil Flight Strike, Evil Ray Strike, Evil Rise Strike, Evil Whirlwind, Excellent Full Course**.
+
+
+### 2026-09-24 cycle update — Energy Minefield through Excellent Full Course provenance refresh
+- [x] Refreshed 12 canonical/index skill records: **Energy Minefield, Energy Release, Eraser Bomb, Evil Blast, Evil Explosion, Evil Eyes, Evil Flame, Evil Flight Strike, Evil Ray Strike, Evil Rise Strike, Evil Whirlwind, Excellent Full Course**.
+- [x] Added and registered the bounded provenance audit.
+- [x] Recomputed live census: **465 canonical / 465 index / 170 current / 295 stale / 0 duplicate IDs**.
+- [x] Preserved existing conflicts and evidence limits; no unsupported fields inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next batch:** **Explosive Assault, Explosive Buu-Buu Punch, Explosive Wave, Eye Beam, Fake Blast, Fake Death, Feint Crash, Feint Shot, Fierce Fist, Fighting Pose A, Fighting Pose C, Fighting Pose E**.
