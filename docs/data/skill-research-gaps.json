@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "game": "Dragon Ball Xenoverse 2",
-  "last_audited": "2026-09-17",
+  "last_audited": "2026-09-24",
   "purpose": "Explicit ledger of skill identities found during enumeration that are not promoted to canonical records because Xenoverse 2-specific class/subcategory evidence is insufficient or conflicting.",
   "rules": [
     "Do not invent class/subcategory, Ki cost, acquisition, DLC, CaC availability, or Ultimate Finish requirements.",
@@ -31,15 +31,15 @@
       "status": "unresolved",
       "known_identity": "Great Ape-exclusive skill used by Great Ape enemies",
       "missing": [
-        "class",
-        "subcategory",
         "ki_cost",
         "unlock_method"
       ],
       "evidence": [
-        "Great Ape Festival and related PQ enemy tables list Howl for Great Ape Nappa, Vegeta, Bardock and Baby"
+        "Great Ape Festival and related Xenoverse 2 PQ enemy tables list Howl on Great Ape Nappa, Vegeta and Bardock.",
+        "A Xenoverse 2 skill-list artifact identifies Howl as Evasive Skill ID 10440 and marks it CaC-unavailable.",
+        "A dated Xenoverse 2 save-data reference independently labels Howl as an Evasive skill and documents its activation restriction/behavior."
       ],
-      "reason": "Identity and cast restriction are established, but a reliable Xenoverse 2 skill page establishing its canonical class/subcategory was not located."
+      "reason": "Xenoverse 2-specific evidence now establishes the Evasive classification and CaC restriction, but a sufficiently direct source for the repository's Ki-cost field and canonical unlock/acquisition endpoint has not been established."
     },
     {
       "name": "Boiling Burg",
@@ -85,5 +85,5 @@
       "reason": "Cross-game descriptions disagree with or do not explicitly establish the current Xenoverse 2 canonical class/subcategory, so it remains a gap rather than a guessed record."
     }
   ],
-  "notes": "Saibabeam was intentionally excluded from this ledger because Batch 294 established its research record. Boiling Ball and Tricky Strike were likewise covered in Batch 289."
+  "notes": "2026-09-24 Howl tranche: Evasive classification and CaC-unavailable status strengthened from Xenoverse 2-specific artifacts; Ki cost and acquisition remain unresolved and are not promoted."
 }
