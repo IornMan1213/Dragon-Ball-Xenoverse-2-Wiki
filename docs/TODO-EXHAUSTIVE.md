@@ -5998,3 +5998,14 @@
 - [x] Confirmed **3/3** explicit Festival skill source characters resolve to canonical identities; no unsupported PQ/raid/preset edges were created.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** audit remaining raid/event projections, prioritizing explicit raid/gift accessory and Super Soul consumers for stale current baselines and one-way canonical navigation.
+
+
+### 2026-09-24 cycle completion — raid/event Super Soul presentation consumer coverage
+- [x] Audited `docs/Super-Souls-Database.md` against the canonical `docs/data/super-souls-record-layer.json` raid/event acquisition population.
+- [x] Confirmed **230 canonical Super Soul records / 37 raid-or-event-associated records / 0 duplicate canonical IDs**.
+- [x] Found the narrative raid sections surfaced only **12/37** canonical raid/event records; **25** existing canonical records were not presented by that consumer.
+- [x] Added a complete current raid/event presentation index covering all 37 existing canonical records, preserving each record's existing acquisition type/source and verification status.
+- [x] Added and registered `docs/data/super-soul-raid-event-presentation-consumer-audit-2026-09-24.json`.
+- [x] Explicitly preserved the boundary that presentation coverage does not establish current availability, recurrence schedules, drop probabilities, guarantees, or new PQ relationships.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next priority:** continue deterministic current-facing event/raid and remaining cross-domain consumer scanning for stale counts, orphan targets, one-way navigation, and canonical-ID drift; then resume the highest-impact source-backed thin-domain expansion.
