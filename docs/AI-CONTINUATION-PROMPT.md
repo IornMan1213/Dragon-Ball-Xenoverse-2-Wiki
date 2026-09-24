@@ -7475,3 +7475,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime unavailable; no CI success claimed.
 - Commits: endpoint audit `4a429eb0d3587d7b79c7a1b99095b0ac903a4c33`; audit registration `4b16f06129b2664e4939f638e6406c925d51fc12`; contract correction `9f11c3889d9d97354bd650b96b5919ba5618d8fb`.
 - Exact next priority: continue scanning the remaining non-PQ endpoint consumers for deterministic stale current fields or orphan targets, prioritizing event/raid and character/preset navigation layers.
+
+
+### 2026-09-24 cycle completion — Conton City Patrol endpoint projection audit
+- [x] Audited `docs/data/conton-city-patrol-endpoints.json` against its existing canonical skill identities and exact forward/reverse projection.
+- [x] Confirmed **3 endpoints / 3 forward edges / 3 reverse edges / 3 unique skill targets / 0 unresolved skill IDs** for Conton City Patrol 04, 10, and 17.
+- [x] Added and registered `docs/data/conton-city-patrol-endpoint-audit-2026-09-24.json`.
+- [x] Forward↔reverse parity is exact; no additional patrol reward relationship was inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next priority:** continue the deterministic non-PQ reverse-projection audit, prioritizing the next current-facing event/raid or character/preset consumer with machine-checkable orphan/count drift; do not turn partial research absence into negative canonical claims.

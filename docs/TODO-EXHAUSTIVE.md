@@ -5726,3 +5726,12 @@
 - [x] No new relationship or gameplay evidence was inferred.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next priority:** continue deterministic non-PQ consumer scanning, prioritizing event/raid and character/preset navigation layers.
+
+
+### 2026-09-24 cycle completion — Conton City Patrol endpoint projection audit
+- [x] Audited `docs/data/conton-city-patrol-endpoints.json` against its existing canonical skill identities and exact forward/reverse projection.
+- [x] Confirmed **3 endpoints / 3 forward edges / 3 reverse edges / 3 unique skill targets / 0 unresolved skill IDs** for Conton City Patrol 04, 10, and 17.
+- [x] Added and registered `docs/data/conton-city-patrol-endpoint-audit-2026-09-24.json`.
+- [x] Forward↔reverse parity is exact; no additional patrol reward relationship was inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next priority:** continue the deterministic non-PQ reverse-projection audit, prioritizing the next current-facing event/raid or character/preset consumer with machine-checkable orphan/count drift; do not turn partial research absence into negative canonical claims.
