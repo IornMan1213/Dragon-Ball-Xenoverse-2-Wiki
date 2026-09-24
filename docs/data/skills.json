@@ -13927,10 +13927,116 @@
       "source_parallel_quests": [
         85
       ]
+    },
+    {
+      "name": "Hyper Drain",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "character_source": "CaC",
+      "dlc_requirement": "Base Game",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Skill Shop after Android Warfare",
+      "source_quest_or_shop": "Skill Shop after Android Warfare",
+      "ultimate_finish_required": false,
+      "skill_description": "A CaC-exclusive grab Super that steals both Ki and Stamina.",
+      "mechanics_notes": "The maintained research reference identifies Hyper Drain as a Strike Super that steals both Ki and Stamina. Exact amounts and detailed timing remain unresolved and are not inferred.",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "last_verified": "2026-09-24",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Hyper_Drain",
+        "https://dbxv2.fandom.com/wiki/Grab"
+      ],
+      "race_restriction": "All CaC races",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-24 coverage recovery: promoted the pre-existing Skill Research Batch 38 record into canonical coverage after live repository search confirmed it was absent. Acquisition, classification, and CaC scope are source-backed; exact drain amounts/timing remain unresolved.",
+      "id": "skill-hyper-drain"
+    },
+    {
+      "name": "Hyper Movement",
+      "class": "Evasive",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "character_source": "Hit",
+      "dlc_requirement": "Base Game",
+      "ki_cost": null,
+      "stamina_cost": 200,
+      "damage_type": "Strike",
+      "unlock_method": "TP Medal Shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "ultimate_finish_required": false,
+      "skill_description": "An Evasive skill that teleports to the opponent and attacks, with landing interception behavior after knockback.",
+      "mechanics_notes": "The maintained Evasive research identifies Hyper Movement as a 200-Stamina Strike Evasive, available to CaCs through the TP Medal Shop. It teleports to the opponent and can intercept their landing position after knockback.",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "last_verified": "2026-09-24",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill",
+        "https://dragonball.fandom.com/wiki/Hyper_Movement"
+      ],
+      "race_restriction": "All CaC races",
+      "acquisition_type": "shop",
+      "notes": "2026-09-24 coverage recovery: promoted the pre-existing Strike Evasive research record into canonical coverage after live repository search confirmed it was absent. TP Medal Shop acquisition, 200 Stamina cost, CaC usability, and documented teleport/landing-interception behavior are retained; no unsupported timing or damage values were inferred.",
+      "id": "skill-hyper-movement"
+    },
+    {
+      "name": "Ice Cannon",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Eis Shenron; Omega Shenron Customize Partner",
+      "dlc_requirement": "Base Game",
+      "ki_cost": 300,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Shenron wish — I want a new Ultimate Attack!",
+      "source_quest_or_shop": "Shenron wish — I want a new Ultimate Attack!",
+      "ultimate_finish_required": null,
+      "skill_description": "A freezing Ki Blast Ultimate that hits five times and freezes the opponent.",
+      "mechanics_notes": "The maintained catalog research identifies Ice Cannon as a 300-Ki Ki Blast Ultimate available to CaCs through the Shenron wish for a new Ultimate Attack; the documented effect is a five-hit freezing projectile.",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "last_verified": "2026-09-24",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ice_Cannon"
+      ],
+      "race_restriction": "All CaC races",
+      "acquisition_type": "wish",
+      "notes": "2026-09-24 coverage recovery: promoted the pre-existing Skill Research Batch 307 record into canonical coverage after live repository search confirmed it was absent. Classification, 300 Ki cost, CaC availability, wish endpoint, and documented freezing effect are retained without unsupported reward or probability claims.",
+      "id": "skill-ice-cannon"
+    },
+    {
+      "name": "Ice Claw",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "character_source": "Eis Shenron; Omega Shenron Customize Partner",
+      "dlc_requirement": "Base Game",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Shenron wish — I want a new Super Attack!",
+      "source_quest_or_shop": "Shenron wish — I want a new Super Attack!",
+      "ultimate_finish_required": null,
+      "skill_description": "A short-range Strike Super using claw strikes that blind the opponent.",
+      "mechanics_notes": "The maintained catalog research identifies Ice Claw as a 100-Ki Strike Super available to CaCs through the Shenron wish for a new Super Attack; the documented effect is short-range claw strikes that blind the opponent.",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "last_verified": "2026-09-24",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ice_Claw"
+      ],
+      "race_restriction": "All CaC races",
+      "acquisition_type": "wish",
+      "notes": "2026-09-24 coverage recovery: promoted the pre-existing Skill Research Batch 286 record into canonical coverage after live repository search confirmed it was absent. Classification, 100 Ki cost, CaC availability, wish endpoint, and blinding effect are retained without unsupported probability claims.",
+      "id": "skill-ice-claw"
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-23",
+    "last_updated": "2026-09-24",
     "expert_mission_canonical_promotions": 10
   }
 }
