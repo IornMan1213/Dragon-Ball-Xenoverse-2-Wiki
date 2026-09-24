@@ -7167,3 +7167,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Rechecked the live canonical/index projections after the Heroic Counter batch; **469/469 records, 469/469 unique IDs, and 0 verification-date mismatches**.
 - [x] Synchronized **60** stale index verification dates to their canonical counterparts.
 - **Exact next stale batch from canonical order:** **Justice Blade; Justice Combination; Justice Drive; Justice Kick; Justice Pose; Justice Rush; Kai Kai; Kaioken; Kaioken Kamehameha; Kairos Cannon; Kamehameha; Ki Blast Thrust**.
+
+### 2026-09-24 cycle update — Phantom Fist through Prepare to be Punished
+- Completed 12 bounded P1 provenance refreshes: Phantom Fist; Photon Swipe; Potential Unleashed; Power Blitz; Power Impact; Power Pole Combo; Power Pole Pro; Power Rush; Power Wall; Powered Shell; Prelude to Destruction; Prepare to be Punished.
+- Synchronized canonical/index skill layers; all 12 now carry last_verified=2026-09-24.
+- Validation: 469 canonical / 469 index / 0 duplicate IDs / 0 canonical-index mismatches.
+- Refreshed stale census: 323 current / 146 stale.
+- Preserved existing evidence boundaries and conflicts; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions introduced.
+- CI/runtime unavailable; no CI success claimed.
+- Exact next batch: Pride Trooper; Punisher Drive; Purification; Raid Blast; Raiding Hammer; Rebellion Spear; Revenge Death Ball; Revenge Final Flash; Ribrianne Loves You; Rocket Tackle; Rolling Hercule Punch; Rolling Bullet.
