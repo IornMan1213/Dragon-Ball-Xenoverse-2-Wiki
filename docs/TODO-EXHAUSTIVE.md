@@ -5586,3 +5586,11 @@
 - [x] Added and registered `docs/data/skill-provenance-audit-2026-09-24-total-detonation-ball-through-variant-drive.json`.
 - [x] Recomputed census: **469 canonical / 469 index / 455 current / 14 stale / 0 duplicate IDs / canonical-index IDs aligned**.
 - [ ] Exact next stale batch: **Venus Fist; Victory Cannon; Victory Rush; Volleyball Fist; Wall of Defense; Warp Kamehameha; Weekend; Wild Buster; Wild Hunt; Wild Stinger; Wolf Fang Fist; X 100 Big Bang Kamehameha**.
+
+
+### 2026-09-24 cycle completion — Venus Fist through X 100 Big Bang Kamehameha
+- [x] Completed bounded P1 provenance refresh for 12 records: **Venus Fist; Victory Cannon; Victory Rush; Volleyball Fist; Wall of Defense; Warp Kamehameha; Weekend; Wild Buster; Wild Hunt; Wild Stinger; Wolf Fang Fist; X 100 Big Bang Kamehameha**.
+- [x] Synchronized canonical/index `last_verified=2026-09-24` for all 12.
+- [x] Added and registered `docs/data/skill-provenance-audit-2026-09-24-venus-fist-through-x-100-big-bang-kamehameha.json`.
+- [x] Recomputed census: **469 canonical / 469 index / 467 current / 2 stale / 0 duplicate IDs / canonical-index IDs aligned**.
+- [ ] Exact next stale batch: **x10 Kamehameha; Zigzag Express**.
