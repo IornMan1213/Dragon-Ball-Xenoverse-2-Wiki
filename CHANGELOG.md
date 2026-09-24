@@ -1,3 +1,11 @@
+## 2026-09-24 — P1 Death skill provenance extension
+
+- Refreshed Death Ball and Death Crasher provenance to 2026-09-24.
+- Reconfirmed direct Frieza mentor Lesson 3/Lesson 1 endpoint mappings.
+- Extended the active provenance batch from 5 to 7 validated targets.
+- Preserved evidence boundaries and made no unsupported probability/acquisition claims.
+- CI/runtime unavailable; no CI success claimed.
+
 
 ## 2026-09-24 — P1 skill provenance refresh: Dancing through Darkness Rush
 
