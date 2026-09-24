@@ -5295,3 +5295,12 @@
 - [x] Preserved existing conflicts and evidence limits; no unsupported fields inferred.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next batch:** **Dust Attack, Eagle Kick, Elegant Blaster, Elite Shooting, Emperor's Blast, Emperor's Cannon, Emperor's Death Beam, Emperor's Edge, Endless Shoot, Energy Charge, Energy Dome, Energy Field**.
+
+
+### 2026-09-24 cycle update — Dust through Energy Field provenance refresh
+- [x] Refreshed 12 canonical/index skill records: **Dust Attack, Eagle Kick, Elegant Blaster, Elite Shooting, Emperor's Blast, Emperor's Cannon, Emperor's Death Beam, Emperor's Edge, Endless Shoot, Energy Charge, Energy Dome, Energy Field**.
+- [x] Added and registered the bounded provenance audit.
+- [x] Recomputed live census: **465 canonical / 465 index / 158 current / 307 stale / 0 duplicate IDs**.
+- [x] Preserved existing conflicts and evidence limits; no unsupported fields inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next batch:** **Energy Minefield, Energy Release, Eraser Bomb, Evil Blast, Evil Explosion, Evil Eyes, Evil Flame, Evil Flight Strike, Evil Ray Strike, Evil Rise Strike, Evil Whirlwind, Excellent Full Course**.
