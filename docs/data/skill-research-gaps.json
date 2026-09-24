@@ -78,10 +78,11 @@
       ],
       "evidence": [
         "Xenoverse 2 character ID list identifies Baked Sphere as skill ID 531 and CaC-unavailable.",
-        "A Xenoverse 2 community skill-catalog discussion lists Baked Sphere among Ultimate skills unobtainable by CaC.",
-        "Xenoverse 2-specific gameplay documentation describes Baked Sphere as a dark explosive-wave skill used by villainous/supervillain opponents."
+        "Xenoverse 2-specific Future Warrior documentation identifies Baked Sphere as the Masked Future Warrior's Ultimate Skill and a Crystal Raid Supervillain-state skill.",
+        "Xenoverse 2 community catalog explicitly lists Baked Sphere among skills unobtainable by CaC.",
+        "Xenoverse 2 gameplay documentation and character move lists place Baked Sphere in Supervillain-controlled character movesets."
       ],
-      "reason": "Xenoverse 2-specific evidence now establishes the skill as a CaC-unavailable Ultimate/explosive-wave attack, but a sufficiently direct source for the repository's Ki-cost field has not been established."
+      "reason": "Xenoverse 2-specific evidence confirms Baked Sphere as a CaC-unavailable Ultimate associated with Supervillain/Masked Future Warrior usage. The repository's canonical Ki-cost field remains unverified; no cost is inferred from another game or unofficial implementation."
     }
   ],
   "notes": "2026-09-24 Howl tranche: Evasive classification and CaC-unavailable status strengthened from Xenoverse 2-specific artifacts; Ki cost and acquisition remain unresolved and are not promoted. 2026-09-24 Baked Sphere tranche: strengthened Xenoverse 2-specific Ultimate/CaC-unavailable classification; Ki cost remains unresolved and is not promoted."
