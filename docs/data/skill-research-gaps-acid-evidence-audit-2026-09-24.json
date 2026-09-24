@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-24",
+  "skill_name": "Acid",
+  "skill_id": "skill-acid",
+  "status": "evidence_enriched_unresolved",
+  "scope": "bounded Xenoverse 2-specific evidence enrichment",
+  "evidence": [
+    {
+      "type": "xenoverse2_cast",
+      "claim": "Acid is a Saibaman skill in Xenoverse 2 and is unavailable to CaCs.",
+      "source": "https://dragonball.fandom.com/wiki/Acid"
+    },
+    {
+      "type": "xenoverse2_preset",
+      "claim": "Saibaman 2, used for Crystal Raids/Training, has Acid equipped.",
+      "source": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79749533"
+    },
+    {
+      "type": "xenoverse2_gameplay",
+      "claim": "Acid is used by Saibaman variants in Xenoverse 2; it is distinct from Saibabeam.",
+      "source": "https://dragonball.fandom.com/wiki/Saibamen"
+    }
+  ],
+  "resolved_fields": {
+    "classification": "Super",
+    "cac_available": false,
+    "character_source": "Saibaman variants"
+  },
+  "unresolved_fields": [
+    "ki_cost",
+    "unlock_method"
+  ],
+  "guardrails": [
+    "Do not infer Ki cost from Xenoverse or other games.",
+    "Do not create a CaC acquisition route from NPC/Crystal Raid-only usage.",
+    "Do not promote to canonical skills.json without supported builder execution and required field coverage."
+  ]
+}
