@@ -6009,3 +6009,13 @@
 - [x] Explicitly preserved the boundary that presentation coverage does not establish current availability, recurrence schedules, drop probabilities, guarantees, or new PQ relationships.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next priority:** continue deterministic current-facing event/raid and remaining cross-domain consumer scanning for stale counts, orphan targets, one-way navigation, and canonical-ID drift; then resume the highest-impact source-backed thin-domain expansion.
+
+
+### 2026-09-24 cycle completion — Accessory PQ presentation consumer count reconciliation
+- [x] Audited docs/Accessory-PQ-Database.md against the current accessory PQ bridge and canonical reconciliation layer.
+- [x] Corrected stale presentation wording/counts: current canonical accessory reconciliation is 116 accr-### identities, while the PQ bridge is 45 research records / 35 resolved / 10 unresolved / 34 unique resolved targets.
+- [x] Preserved the two resolved broader-domain accessory endpoints (equip-135, equip-050) rather than creating duplicate acc-### identities.
+- [x] Added and registered docs/data/accessory-pq-presentation-consumer-audit-2026-09-24.json.
+- [x] No reward relationship, guarantee, drop rate, inventory identity, or acquisition route was inferred or changed.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next priority: continue deterministic current-facing event/raid/Festival/character/preset consumer scanning, especially remaining equipment/accessory pages and cross-route indexes, for stale counts, orphan targets, one-way navigation, and canonical-ID drift.
