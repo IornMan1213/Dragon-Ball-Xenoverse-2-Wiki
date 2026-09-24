@@ -6092,3 +6092,11 @@
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next priority:** continue deterministic character/preset and event/raid/Festival consumer scanning, then begin machine-readable preset/loadout expansion for the highest-connectivity character targets, starting with Goku, without filling unsupported fields by inference.
 
+
+### 2026-09-24 completed bounded current presentation consumer scan
+- [x] Added `docs/data/current-presentation-consumer-scan-2026-09-24.json` covering current character/preset and Chapter 4 presentation surfaces.
+- [x] Registered the scan in `docs/data/pq-cross-domain-index.json`.
+- [x] Verified the live baseline: **152 canonical characters / 51 preset records / 25 verified preset loadouts / 162 verified loadout skill-slot entries / 2 Chapter 4 PQs**.
+- [x] Confirmed the existing character presentation audit remains clean for unresolved preset IDs and orphan reverse character targets.
+- [x] Documented the Goku loadout boundary: source-observed named rows cannot safely be mapped to repository numeric preset IDs by row order, so no unsupported Goku loadouts were promoted.
+- [ ] **Next:** continue exact source-to-numeric preset mapping only where a source directly binds the mapping; otherwise proceed to the next highest-impact thin-domain research tranche without inference.
