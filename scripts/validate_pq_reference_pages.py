@@ -74,7 +74,7 @@ def main():
         "farming_set_matches_canonical": farming == expected_farming,
         "reference_page_farming_set_matches": "15 / 22 / 44 / 45 / 68 / 83 / 88" in page,
         "stale_pq13_farming_claim_absent": "13 / 15 / 22 / 68" not in page,
-        "reference_page_links_live_explorer": "Parallel-Quests-All.html" in page,
+        "reference_page_links_live_explorer": "Parallel-Quests-All.html" in page and "Parallel-Quests-All.md" not in page,
     }
     result = {
         "schema_version": "1.2.0",
