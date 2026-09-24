@@ -5387,3 +5387,12 @@
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Live validation:** **465 canonical / 465 index / 242 current / 223 stale / 0 duplicate IDs**.
 - **Exact next batch:** **Gravity Impact; Handy Canon; Hawk Charge; Headshot; Heat Dome Attack; Heat Wave; Heavenly Arrow; Hell Flash; Hellzone Grenade; Hero's Flute; Hero's Pose; Heroic Assault**.
+
+
+### 2026-09-24 cycle update — Gravity Impact through Heroic Assault provenance refresh
+- [x] Completed bounded P1 batch: **Gravity Impact; Handy Canon; Hawk Charge; Headshot; Heat Dome Attack; Heat Wave; Heavenly Arrow; Hell Flash; Hellzone Grenade; Hero's Flute; Hero's Pose; Heroic Assault**.
+- [x] Synchronized canonical/index verification metadata to `2026-09-24` and added the bounded provenance audit.
+- [x] Preserved existing acquisition, reward, classification, mechanics, restriction, DLC/update, and evidence-conflict semantics without unsupported additions.
+- [x] Live validation: **465 canonical / 465 index / 254 current / 211 stale / 0 duplicate IDs**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next batch:** **Hollow Rush; Holy Inscription; Holy Wrath; Hyper Drain; Hyper Movement; Hyper Tornado; Ice Cannon; Ice Claw; Ice Rain; Ice Sheet; Ill Rain; Instant Severance**.
