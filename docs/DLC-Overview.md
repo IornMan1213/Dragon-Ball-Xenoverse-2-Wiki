@@ -207,21 +207,21 @@ The resolved DLC headline-character labels below link into the local character s
 
 | DLC headline-character label | Canonical character destination | Resolution |
 |---|---|---|
-| Goku Black (Super Saiyan Rosé), Ultra Supervillain | [Goku Black (Super Saiyan Rosé) Ultra Supervillain]({{ "/Search/" | relative_url }}?q=Goku%20Black%20(Super%20Saiyan%20Ros%C3%A9)%20Ultra%20Supervillain) | explicit_alias |
-| Vegeta (Super Saiyan God) Ultra Supervillain | [Vegeta (Super Saiyan God) Ultra Supervillain]({{ "/Search/" | relative_url }}?q=Vegeta%20(Super%20Saiyan%20God)%20Ultra%20Supervillain) | exact |
-| Broly (Restrained) | [Broly (Restrained)]({{ "/Search/" | relative_url }}?q=Broly%20(Restrained)) | exact |
-| Videl (DB Super) | [Videl (DB Super)]({{ "/Search/" | relative_url }}?q=Videl%20(DB%20Super)) | exact |
-| Android 18 (DB Super) | [Android 18 (DB Super)]({{ "/Search/" | relative_url }}?q=Android%2018%20(DB%20Super)) | exact |
-| Jiren (Full Power, Ultra Supervillain) | [Jiren (Full Power) Ultra Supervillain]({{ "/Search/" | relative_url }}?q=Jiren%20(Full%20Power)%20Ultra%20Supervillain) | explicit_alias |
-| Belmod | [God of Destruction Belmod]({{ "/Search/" | relative_url }}?q=God%20of%20Destruction%20Belmod) | explicit_alias |
-| Goku (Mini) | [Goku (Mini)]({{ "/Search/" | relative_url }}?q=Goku%20(Mini)) | exact |
-| Supreme Kai of Time (Ultra Supervillain) | [Supreme Kai of Time (Ultra Supervillain)]({{ "/Search/" | relative_url }}?q=Supreme%20Kai%20of%20Time%20(Ultra%20Supervillain)) | publisher_confirmed_identity |
-| Goku (Ultra Supervillain Quelled) | [Goku (Ultra Supervillain Quelled)]({{ "/Search/" | relative_url }}?q=Goku%20(Ultra%20Supervillain%20Quelled)) | publisher_confirmed_identity |
-| Super Saiyan 4 Goku (DAIMA) | [SS4 Goku (DAIMA)]({{ "/Search/" | relative_url }}?q=SS4%20Goku%20(DAIMA)) | explicit_alias |
-| Super Saiyan 3 Vegeta (DAIMA) | [SS3 Vegeta (DAIMA)]({{ "/Search/" | relative_url }}?q=SS3%20Vegeta%20(DAIMA)) | explicit_alias |
-| Gohan (Beast) | [Gohan (Beast)]({{ "/Search/" | relative_url }}?q=Gohan%20(Beast)) | exact |
-| Piccolo (Power Awakening) | [Piccolo (Power Awakening)]({{ "/Search/" | relative_url }}?q=Piccolo%20(Power%20Awakening)) | exact |
-| Orange Piccolo | [Orange Piccolo]({{ "/Search/" | relative_url }}?q=Orange%20Piccolo) | exact |
+| Goku Black (Super Saiyan Rosé), Ultra Supervillain | [Goku Black (Super Saiyan Rosé) Ultra Supervillain]({{ "/Characters-All/" | relative_url }}?q=Goku%20Black%20(Super%20Saiyan%20Ros%C3%A9)%20Ultra%20Supervillain) | explicit_alias |
+| Vegeta (Super Saiyan God) Ultra Supervillain | [Vegeta (Super Saiyan God) Ultra Supervillain]({{ "/Characters-All/" | relative_url }}?q=Vegeta%20(Super%20Saiyan%20God)%20Ultra%20Supervillain) | exact |
+| Broly (Restrained) | [Broly (Restrained)]({{ "/Characters-All/" | relative_url }}?q=Broly%20(Restrained)) | exact |
+| Videl (DB Super) | [Videl (DB Super)]({{ "/Characters-All/" | relative_url }}?q=Videl%20(DB%20Super)) | exact |
+| Android 18 (DB Super) | [Android 18 (DB Super)]({{ "/Characters-All/" | relative_url }}?q=Android%2018%20(DB%20Super)) | exact |
+| Jiren (Full Power, Ultra Supervillain) | [Jiren (Full Power) Ultra Supervillain]({{ "/Characters-All/" | relative_url }}?q=Jiren%20(Full%20Power)%20Ultra%20Supervillain) | explicit_alias |
+| Belmod | [God of Destruction Belmod]({{ "/Characters-All/" | relative_url }}?q=God%20of%20Destruction%20Belmod) | explicit_alias |
+| Goku (Mini) | [Goku (Mini)]({{ "/Characters-All/" | relative_url }}?q=Goku%20(Mini)) | exact |
+| Supreme Kai of Time (Ultra Supervillain) | [Supreme Kai of Time (Ultra Supervillain)]({{ "/Characters-All/" | relative_url }}?q=Supreme%20Kai%20of%20Time%20(Ultra%20Supervillain)) | publisher_confirmed_identity |
+| Goku (Ultra Supervillain Quelled) | [Goku (Ultra Supervillain Quelled)]({{ "/Characters-All/" | relative_url }}?q=Goku%20(Ultra%20Supervillain%20Quelled)) | publisher_confirmed_identity |
+| Super Saiyan 4 Goku (DAIMA) | [SS4 Goku (DAIMA)]({{ "/Characters-All/" | relative_url }}?q=SS4%20Goku%20(DAIMA)) | explicit_alias |
+| Super Saiyan 3 Vegeta (DAIMA) | [SS3 Vegeta (DAIMA)]({{ "/Characters-All/" | relative_url }}?q=SS3%20Vegeta%20(DAIMA)) | explicit_alias |
+| Gohan (Beast) | [Gohan (Beast)]({{ "/Characters-All/" | relative_url }}?q=Gohan%20(Beast)) | exact |
+| Piccolo (Power Awakening) | [Piccolo (Power Awakening)]({{ "/Characters-All/" | relative_url }}?q=Piccolo%20(Power%20Awakening)) | exact |
+| Orange Piccolo | [Orange Piccolo]({{ "/Characters-All/" | relative_url }}?q=Orange%20Piccolo) | exact |
 
 > This is presentation navigation only. The bridge does not create DLC ownership or character relationships.
 
