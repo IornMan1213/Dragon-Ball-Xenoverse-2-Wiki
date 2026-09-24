@@ -6715,3 +6715,9 @@
 - [x] Preserved the Savage Strike research/audit boundary from the previous cycle; no index-only insertion was made.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next:** perform a lossless canonical build from the live research batches (prefer the repository's `build_skills_from_research.py` execution path) so Savage Strike is added to both canonical and generated/index layers atomically; then validate schema, 470/470 parity, duplicate IDs, and downstream acquisition/cross-domain projections. If execution remains unavailable, preserve the 469/469 catalog and do not reconstruct `skills.json` manually.
+
+### 2026-09-24 continuation — canonical builder execution boundary
+- [x] Re-inspected the live canonical builder and `.github/workflows/skills-sync.yml`; the workflow has `workflow_dispatch` but the available GitHub connector exposes no workflow-dispatch action.
+- [x] Confirmed the builder imports all local `skill-batch-*.json` research records and writes `skills.json` + `skills-index.json` together, so Savage Strike is correctly staged in research but should not be manually reconstructed into the oversized canonical files.
+- [x] Confirmed the latest commits do not have associated workflow runs exposed by the connector; no build/validation success is claimed.
+- [ ] **Next:** run the existing Skills Catalog Sync workflow through an available Actions-dispatch mechanism (or execute the builder in a repository-backed runtime) and then validate the generated 470/470 catalog, duplicate IDs, schema, PQ links, and acquisition projections.
