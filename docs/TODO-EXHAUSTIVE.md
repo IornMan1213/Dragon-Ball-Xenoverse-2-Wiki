@@ -5554,3 +5554,11 @@
 - [x] Recomputed `docs/data/skill-stale-metadata-census-2026-09-24.json`: **469 canonical / 469 index / 407 current / 62 stale / 0 duplicate IDs**.
 - [x] Canonical/index ID order and membership validated as aligned.
 - [ ] Exact next stale batch: **Super Ghost Buu Attack; Super Ghost Kamikaze Attack (Super); Super Ghost Kamikaze Attack (Ultimate); Super God Fist; Super God Shock Flash; Super Guard; Super Kamehameha; Super Kamehameha (SS4 DAIMA); Super Saiyan; Super Saiyan 2; Super Saiyan Blue Kaioken; Super Saiyan God**.
+
+
+### 2026-09-24 cycle completion — Super Ghost Buu Attack through Super Saiyan God
+- [x] Completed bounded P1 provenance refresh for: **Super Ghost Buu Attack; Super Ghost Kamikaze Attack (Super); Super Ghost Kamikaze Attack (Ultimate); Super God Fist; Super God Shock Flash; Super Guard; Super Kamehameha; Super Kamehameha (SS4 DAIMA); Super Saiyan; Super Saiyan 2; Super Saiyan Blue Kaioken; Super Saiyan God**.
+- [x] Synchronized canonical and index `last_verified=2026-09-24` for all 12 records.
+- [x] Added `docs/data/skill-provenance-audit-2026-09-24-super-ghost-through-super-saiyan-god.json`.
+- [x] Recomputed census: **469 canonical / 469 index / 419 current / 50 stale / 0 duplicate IDs / canonical-index IDs aligned**.
+- [ ] Exact next stale batch: **Super Saiyan God Super Saiyan; Super Saiyan God Super Saiyan (Evolved); Super Spirit Bomb; Super Vegeta; Supernova; Supernova Cooler; Supersonic Mode; Supreme Fury; Surging Spirit; Symphonic Destruction; Tail Slicer; Taunt**.
