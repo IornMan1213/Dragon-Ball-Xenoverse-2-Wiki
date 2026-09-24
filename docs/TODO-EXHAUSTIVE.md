@@ -5313,3 +5313,12 @@
 - [x] Preserved existing conflicts and evidence limits; no unsupported fields inferred.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next batch:** **Explosive Assault, Explosive Buu-Buu Punch, Explosive Wave, Eye Beam, Fake Blast, Fake Death, Feint Crash, Feint Shot, Fierce Fist, Fighting Pose A, Fighting Pose C, Fighting Pose E**.
+
+
+### 2026-09-24 cycle update — Explosive Assault through Fighting Pose E provenance refresh
+- [x] Refreshed 12 canonical/index skill records: **Explosive Assault, Explosive Buu Buu Punch, Explosive Wave, Eye Beam, Fake Blast, Fake Death, Feint Crash, Feint Shot, Fierce Fist, Fighting Pose A, Fighting Pose C, Fighting Pose E**.
+- [x] Added and registered the bounded provenance audit.
+- [x] Corrected/recomputed canonical-source census: **465 canonical / 465 index / 182 current / 283 stale / 0 duplicate IDs**.
+- [x] Preserved existing conflicts and evidence limits; no unsupported fields inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next batch:** **Fighting Pose F, Fighting Pose H, Fighting Pose K, Final Cannon, Final Charge, Final Explosion, Final Flash, Final Flash (SS3 DAIMA), Final Flash (Super), Final Kamehameha, Final Pose, Final Rampage**.
