@@ -26,7 +26,7 @@ description: Canonical local skill catalog with research status and acquisition 
 (async()=>{
   const url='{{ "/data/skills.json" | relative_url }}', $=id=>document.getElementById(id);
   const esc=v=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-  const searchUrl=v=>'{{ "/Search/" | relative_url }}?q='+encodeURIComponent(v);
+  const searchUrl=v=>'{{ "/Skills-All/" | relative_url }}?q='+encodeURIComponent(v);
   const mentorUrl=v=>'{{ "/Mentors-All/" | relative_url }}?q='+encodeURIComponent(v);
   const pqUrl=v=>'{{ "/Parallel-Quests-All/" | relative_url }}?q='+encodeURIComponent('PQ '+v);
   const initialQuery=new URLSearchParams(location.search).get('q')||'';
