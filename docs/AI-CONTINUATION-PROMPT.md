@@ -7123,3 +7123,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Unresolved discovery targets:** **Hollow Rush; Ice Rain; Ice Sheet**. No sufficiently direct repository research record was located for these names, so they were not fabricated.
 - **Exact next stale batch:** **Heroic Counter; Ill Bomber; Impact Flare; Impulse Slash; Indomitable; Innocence Breath; Innocence Bullet; Innocence Cannon; Instant Charge; Instant Rise; Instant Transmission; Jumping Energy Wave**.
+
+### 2026-09-24 cycle update — Heroic Counter through Jumping Energy Wave provenance refresh
+- [x] Completed bounded P1 provenance batch: **Heroic Counter; Ill Bomber; Impact Flare; Impulse Slash; Indomitable; Innocence Breath; Innocence Bullet; Innocence Cannon; Instant Charge; Instant Rise; Instant Transmission; Jumping Energy Wave**.
+- [x] Synchronized canonical/index `last_verified=2026-09-24` for all 12 records and added the bounded audit `docs/data/skill-provenance-audit-2026-09-24-heroic-counter-through-jumping-energy-wave.json`.
+- [x] Registered the audit in `docs/data/pq-cross-domain-index.json` and refreshed the stale census.
+- [x] Live validation: **469 canonical / 469 index / 275 current / 194 stale / 0 duplicate IDs**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Unresolved discovery targets remain:** **Hollow Rush; Ice Rain; Ice Sheet**. No sufficiently direct repository research record was located; do not fabricate them.
+- **Exact next stale batch:** **Justice Blade; Justice Combination; Justice Drive; Justice Kick; Justice Pose; Justice Rush; Kai Kai; Kaioken; Kaioken Assault; Kaioken Kamehameha; Ki Blast Cannon; Ki Blast Thrust**.
