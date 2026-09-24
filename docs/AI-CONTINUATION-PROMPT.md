@@ -8222,3 +8222,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Updated `docs/data/preset-loadout-current-evidence-audit-2026-09-24.json`; promotion count remains 0.
 - **Next:** seek direct numeric-label + complete-skill-slot evidence; otherwise move to the next exhaustive coverage task without inferring mappings.
 
+
+
+### 2026-09-24 cycle update — canonical explorer target inventory
+- Inspected current landing/navigation surfaces and verified canonical searchable explorers: Characters-All.html, Skills-All.html, Parallel-Quests-All.html, Equipment-All.html, Super-Souls-All.html, Awoken-All.html, and Mentors-All.html.
+- Confirmed Expert Missions correctly have no Expert-Missions-All.html target and remain on existing landing/database surfaces.
+- Confirmed Parallel-Quests-All.html uses canonical explorer targets for structured reward/character navigation and keeps DLC on generic Search fallback because DLC-Overview is a landing page.
+- Updated current-presentation-consumer-scan-2026-09-24.json and TODO.
+- CI/runtime unavailable; no CI success claimed.
+- **Exact next batch:** inspect remaining system/reference consumers for canonical-ID drift and one-way navigation, prioritizing surfaces not yet covered by the current presentation scan.
