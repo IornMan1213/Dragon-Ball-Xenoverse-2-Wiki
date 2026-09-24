@@ -1,3 +1,13 @@
+### 2026-09-24 cycle update — Masenko through Petrifying Spit
+
+- Completed the next bounded P1 provenance batch: 12 records — Masenko, Maximum Charge, Meditation, Menacing Flare, Murder Grenade, Orin Combo, Paralysis, Paralyze Beam, Pendulum Bullet, Perfect Kamehameha, Perfect Shot, and Petrifying Spit.
+- Synchronized docs/data/skills.json and docs/data/skills-index.json; all 12 now have last_verified=2026-09-24.
+- Validation: 469 canonical / 469 index / 0 duplicate IDs / 0 canonical-index identity or verification-date mismatches.
+- Refreshed docs/data/skill-stale-metadata-census-2026-09-24.json: 311 current / 158 stale.
+- Existing evidence boundaries were preserved. Current sources support the maintained acquisition endpoints; no unsupported mechanics or probabilities were introduced.
+- Exact next stale alphabetical batch: Phantom Fist; Photon Swipe; Potential Unleashed; Power Blitz; Power Impact; Power Pole Combo; Power Pole Pro; Power Rush; Power Wall; Powered Shell; Prelude to Destruction; Prepare to be Punished.
+- CI remains unavailable; no CI success claimed.
+
 ### 2026-09-24 cycle update — Ki Explosion through Majin Kamehameha
 
 - Completed the next bounded P1 provenance batch: 12 records — Ki Explosion, Kill Driver, Last Emperor, Light Grenade, Lightning Impact, Lightning of Absolution, Lovely Cyclone, Mach Dash, Mach Punch, Maiden Blast, Maiden Burst, and Majin Kamehameha.
