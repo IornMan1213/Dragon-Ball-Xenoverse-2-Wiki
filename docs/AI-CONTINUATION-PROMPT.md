@@ -7824,3 +7824,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Added and registered docs/data/accessory-shop-presentation-consumer-audit-2026-09-24.json.
 - No shop identity, price, rotation, progression requirement, or acquisition route was inferred.
 - Exact next priority: continue deterministic event/raid/Festival and non-PQ acquisition consumer scanning for stale current counts, orphan targets, one-way navigation, and canonical-ID drift.
+
+
+### 2026-09-24 cycle update — raid accessory identity count drift correction
+- Found a deterministic internal mismatch: `accessory-raid-identity-reconciliation-audit-2026-09-24.json` declared **9** raid identities while its resolved list contained **11**.
+- Corrected the audit to **11/11**, then synchronized the dependent canonical database wording and current canonicalization projection to 11.
+- The 18-record raid/gift bridge remains fully resolved; all 11 raid identity canonical IDs exist.
+- No acquisition, availability, reward probability, or new identity inference was introduced.
+- Exact next priority: continue deterministic event/raid/Festival and non-PQ acquisition consumer scanning.
