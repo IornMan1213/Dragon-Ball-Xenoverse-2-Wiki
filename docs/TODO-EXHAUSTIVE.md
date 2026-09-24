@@ -6475,3 +6475,14 @@
 - [x] No preset/loadout promotion was made; the 20-record evidence boundary remains unchanged.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** find an artifact that displays both the numeric preset identifier and its complete slot configuration in the same evidence source; otherwise move to the next deterministic thin-domain consumer rather than infer from costume/row order.
+
+
+### 2026-09-24 cycle completion — current character consumer synchronization
+- [x] Continued the deterministic consumer scan instead of inferring unresolved preset/loadout data.
+- [x] Found two current-facing character consumers still carrying the superseded **151-character** baseline: `docs/data/character-count-consumer-synchronization-2026-09-23.json` and `docs/data/pq-character-reverse-navigation-audit.json`.
+- [x] Synchronized them to the live canonical **152-character** producer without changing the 247 character relationship edges, 75 unique relationship targets, aliases, or reverse mappings.
+- [x] Added `docs/data/current-character-consumer-scan-2026-09-24.json` and registered it in the cross-domain index.
+- [x] Validation: canonical character count 152; character relationship edges 247; missing canonical targets 0; orphan reverse targets 0; duplicate forward pairs 0.
+- [x] Web research also reconfirmed that the strongest readily indexed numeric-preset source still exposes numeric identity/unlock placement rather than complete slot configurations; no unsupported preset promotion was made. citeturn0youtube20turn0youtube21
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next batch:** continue scanning current Event/Raid/Festival/Chapter 4 and non-PQ record consumers for stale scalar/count metadata and one-way navigation, then return to direct numeric preset + complete configuration evidence.
