@@ -6,28 +6,28 @@
   "live_counts": {
     "canonical_skill_records": 465,
     "index_skill_records": 465,
-    "current_last_verified_records": 120,
-    "stale_last_verified_records": 345,
+    "current_last_verified_records": 132,
+    "stale_last_verified_records": 333,
     "duplicate_ids": 0
   },
   "current_date": "2026-09-24",
   "next_stale_batch": [
-    "skill-dragon-thunder",
-    "skill-dragon-tornado",
-    "skill-dragon-wind",
-    "skill-dragonic-aura",
-    "skill-dramatic-crush",
-    "skill-dynamite-kick",
-    "skill-earth-splitting-galick-gun",
-    "skill-electric-shock",
-    "skill-elite-beam",
-    "skill-emergency-combo",
-    "skill-energy-barrier",
-    "skill-energy-shot"
+    "skill-energy-wave",
+    "skill-energy-zone",
+    "skill-evil-whirlwind",
+    "skill-explosive-assault",
+    "skill-explosive-bomber",
+    "skill-explosive-buu-buu-punch",
+    "skill-explosive-scream",
+    "skill-explosive-shot",
+    "skill-explosive-surge",
+    "skill-extended-beam",
+    "skill-extra-large-genocide-shell",
+    "skill-eye-laser"
   ],
   "notes": [
     "Stale means last_verified != 2026-09-24; stale metadata is a priority signal, not evidence that a record is incorrect.",
-    "This census follows the 12-record Demon Wing Flash through Dragon Flash refresh.",
+    "This census follows the 12-record Dragon Thunder through Energy Shot refresh.",
     "No canonical skill identities or acquisition relationships were changed by the refresh."
   ]
 }

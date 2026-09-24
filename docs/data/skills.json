@@ -3827,13 +3827,13 @@
       "unlock_method": "N/A — character-only skill; unavailable for CaC",
       "usable_by_cac": false,
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "mechanics_notes": "100-Ki Strike Super belonging to Omega Shenron and unavailable to CaCs. Independent skill/ID evidence corroborates the character-only scope; no PQ or reward route is asserted.",
       "source_quest_or_shop": "Character skill",
       "race_restriction": "Character-only",
       "dlc_requirement": "Base Game",
       "acquisition_type": "character_only",
-      "notes": "2026-09-20 acquisition-status refinement: dedicated skill evidence classifies Dragon Thunder as Omega Shenron's character-only Strike Super and explicitly states it is unavailable to CaCs. 2026-09-21 provenance strengthening: an independent Xenoverse 2 character/skill ID list identifies Dragon Thunder as a non-CaC skill associated with Omega Shenron, corroborating the character-only scope. No PQ/source-quest or reward-tier route is asserted because the canonical evidence explicitly gives Unlock: N/A. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
+      "notes": "2026-09-20 acquisition-status refinement: dedicated skill evidence classifies Dragon Thunder as Omega Shenron's character-only Strike Super and explicitly states it is unavailable to CaCs. 2026-09-21 provenance strengthening: an independent Xenoverse 2 character/skill ID list identifies Dragon Thunder as a non-CaC skill associated with Omega Shenron, corroborating the character-only scope. No PQ/source-quest or reward-tier route is asserted because the canonical evidence explicitly gives Unlock: N/A. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference. 2026-09-24 P1 provenance refresh: repository-maintained evidence was rechecked for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries and conflicts were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.",
       "character_source": "Omega Shenron",
       "id": "skill-dragon-thunder"
     },
@@ -3947,12 +3947,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Hercule mentor training",
       "mechanics_notes": "100-Ki Strike Super from Hercule's mentor training. Current mentor evidence confirms the lesson reward endpoint; detailed combat mechanics remain intentionally deferred.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "race_restriction": "All CaC races",
       "source_quest": "Hercule mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference. 2026-09-24 P1 provenance refresh: repository-maintained evidence was rechecked for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries and conflicts were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.",
       "id": "skill-dynamite-kick",
       "source_mentor": [
         "mentor-hercule"
@@ -4004,7 +4004,7 @@
       "mechanics_notes": "200-Ki Ki Blast Super from PQ11. Maintained PQ evidence documents a 50% Ultimate Finish roll while a separate reward listing presents it among Basic Rewards; the conflicting presentation is preserved rather than silently normalized.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Earth_Splitting_Galick_Gun",
@@ -4014,7 +4014,7 @@
       "source_quest": 11,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 source reconciliation: maintained PQ11 data documents a 50% Ultimate Finish roll for Earth Splitting Galick Gun; the Basic Reward-list placement is retained as source metadata, so the canonical gate follows the explicit drop condition. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
+      "notes": "2026-09-20 source reconciliation: maintained PQ11 data documents a 50% Ultimate Finish roll for Earth Splitting Galick Gun; the Basic Reward-list placement is retained as source metadata, so the canonical gate follows the explicit drop condition. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference. 2026-09-24 P1 provenance refresh: repository-maintained evidence was rechecked for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries and conflicts were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.",
       "id": "skill-earth-splitting-galick-gun",
       "source_parallel_quests": [
         11
@@ -4064,13 +4064,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "jaco mentor training",
       "mechanics_notes": "Ki Blast Super fired from Jaco's ray gun; current dedicated evidence lists 100 Ki and describes a thin beam with knockback.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Jaco mentor training — Lesson 1.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: dedicated skill evidence confirms the Ki Blast Super, 100 Ki cost, Jaco association, and Jaco training acquisition; the maintained instructor guide independently identifies Lesson 1 as the Basic Reward. Existing acquisition semantics are preserved. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
+      "notes": "2026-09-22 provenance refresh: dedicated skill evidence confirms the Ki Blast Super, 100 Ki cost, Jaco association, and Jaco training acquisition; the maintained instructor guide independently identifies Lesson 1 as the Basic Reward. Existing acquisition semantics are preserved. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference. 2026-09-24 P1 provenance refresh: repository-maintained evidence was rechecked for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries and conflicts were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.",
       "id": "skill-elite-beam",
       "source_mentor": [
         "mentor-jaco"
@@ -4267,7 +4267,7 @@
       ],
       "stamina_cost": 300,
       "unlock_method": "Parallel Quest 32 - \"Multiple Cell Jr. Hunt\" Basic Reward",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
       "source_quest": 32,
       "source_quest_or_shop": "Parallel Quest 32 — \"Multiple Cell Jr. Hunt\"",
@@ -4280,7 +4280,7 @@
       "ki_cost": 0,
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: dedicated evidence confirms the 300-Stamina Strike Evasive, PQ32 acquisition, Ki-wave cancellation, and expandable knockback barrier. The existing Basic-vs-Ultimate-Finish acquisition conflict remains explicitly preserved. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
+      "notes": "2026-09-22 provenance refresh: dedicated evidence confirms the 300-Stamina Strike Evasive, PQ32 acquisition, Ki-wave cancellation, and expandable knockback barrier. The existing Basic-vs-Ultimate-Finish acquisition conflict remains explicitly preserved. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference. 2026-09-24 P1 provenance refresh: repository-maintained evidence was rechecked for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries and conflicts were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.",
       "id": "skill-energy-barrier",
       "source_parallel_quests": [
         32
@@ -4444,7 +4444,7 @@
       "mechanics_notes": "Fire chargeable Ki Blasts; charged shots are more powerful. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Energy_Shot",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4452,7 +4452,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current dedicated evidence and an independent PQ22 reward guide reconfirm Energy Shot as a 100-Ki Ki Blast Super from PQ22's Basic Reward pool. No unsupported exact drop probability or Ultimate Finish gate is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
+      "notes": "2026-09-22 provenance refresh: current dedicated evidence and an independent PQ22 reward guide reconfirm Energy Shot as a 100-Ki Ki Blast Super from PQ22's Basic Reward pool. No unsupported exact drop probability or Ultimate Finish gate is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference. 2026-09-24 P1 provenance refresh: repository-maintained evidence was rechecked for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries and conflicts were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.",
       "source_parallel_quests": [
         22
       ]
