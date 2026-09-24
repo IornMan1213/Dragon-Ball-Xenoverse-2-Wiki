@@ -63,5 +63,24 @@
   ],
   "relationship_changes": 0,
   "promotion_count": 0,
-  "next": "Find a source that directly binds numeric Goku Presets 2-18, Vegeta Presets 10-11, or Captain Ginyu Presets 5-6 to complete skill-slot configurations. Do not infer from row order, costume order, chapter order, or visual proximity."
+  "next": "Find a source that directly binds numeric Goku Presets 2-18, Vegeta Presets 10-11, or Captain Ginyu Presets 5-6 to complete skill-slot configurations. Do not infer from row order, costume order, chapter order, or visual proximity.",
+  "external_corroboration": {
+    "checked_2026_09_24": [
+      {
+        "source": "https://dbxv2.fandom.com/wiki/Goku",
+        "finding": "Provides complete Goku preset loadouts under costume/preset names, but does not directly bind those names to the repository numeric IDs for the unresolved records.",
+        "result": "insufficient_for_numeric_promotion"
+      },
+      {
+        "source": "https://www.youtube.com/watch?v=IPtv-OZVe80",
+        "finding": "Burcol's 2022 unlock/preset video directly labels several unresolved numeric Goku, Vegeta, and Captain Ginyu presets by timestamp, including Goku 8/10/12/14/18, Vegeta 11, and Captain Ginyu 5/6.",
+        "result": "numeric_identity_only"
+      },
+      {
+        "source": "https://dbxv2.fandom.com/wiki/Goku_%28Super_Saiyan_God%29",
+        "finding": "Provides a complete named SSG Goku loadout, but does not establish the repository numeric preset identity for the unresolved SSG record.",
+        "result": "insufficient_for_numeric_promotion"
+      }
+    ]
+  }
 }
