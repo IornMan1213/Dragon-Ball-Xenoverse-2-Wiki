@@ -5610,3 +5610,13 @@
 - [x] Added and registered `docs/data/skill-provenance-audit-2026-09-24-total-detonation-ball-through-variant-drive.json`.
 - [x] Recomputed census: **469 canonical / 469 index / 467 current / 2 stale / 0 duplicate IDs / canonical-index IDs aligned**.
 - [ ] Exact next stale batch: **x10 Kamehameha; Zigzag Express**.
+
+
+### 2026-09-24 cycle completion — x10 Kamehameha through Zigzag Express
+- [x] Completed the final bounded P1 stale-skill provenance refresh for **x10 Kamehameha** and **Zigzag Express**.
+- [x] Synchronized canonical `docs/data/skills.json` and `docs/data/skills-index.json` so both targets have `last_verified=2026-09-24`.
+- [x] Added and registered `docs/data/skill-provenance-audit-2026-09-24-x10-kamehameha-through-zigzag-express.json`.
+- [x] Recomputed `docs/data/skill-stale-metadata-census-2026-09-24.json`: **469 canonical / 469 index / 469 current / 0 stale / 0 duplicate IDs**.
+- [x] Preserved existing mentor/PQ acquisition endpoints, Male Majin restriction, mechanics bounds, source sets, and evidence limitations; no unsupported probabilities, prerequisites, timers, frame data, stacking caps, or damage values were introduced.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next priority: continue the deterministic post-stale-queue cross-domain coverage/projection audit, prioritizing machine-checkable current-field mismatches or navigation/index drift over speculative gameplay-data expansion.
