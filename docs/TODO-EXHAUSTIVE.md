@@ -5889,3 +5889,11 @@
 - [x] Preserved noncanonical equipment acquisition metadata and documented route conflicts; historical snapshots remain intact.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next priority:** deterministic non-PQ equipment/accessory presentation-consumer scanning for stale counts, one-way navigation, and canonical-ID drift.
+
+
+### 2026-09-24 cycle completion — non-PQ equipment/accessory presentation consumer audit
+- [x] Audited `docs/Equipment-All.html` for canonical data loading, PQ reverse-link derivation, local-search navigation, DLC-provenance navigation, and target resolution.
+- [x] Verified **124 canonical equipment edges / 122 unique targets / 0 unresolved / 0 duplicate pairs**.
+- [x] Added and registered `docs/data/equipment-accessory-presentation-consumer-audit-2026-09-24.json`.
+- [ ] CI/runtime unavailable; browser behavior remains an environment gate.
+- **Exact next priority:** scan remaining non-PQ equipment/accessory presentation consumers for one-way links and canonical-ID drift.
