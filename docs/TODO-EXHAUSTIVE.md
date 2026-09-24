@@ -6341,3 +6341,12 @@
 - [x] Evidence boundary preserved: navigation-only changes.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** deterministic non-PQ landing/reference scan for remaining generic Search links, stale explorer targets, stale counts/list assumptions, orphan navigation, and canonical-ID drift; then evidence-gated preset/loadout expansion.
+
+
+### 2026-09-24 cycle completion — character explorer self-navigation and DLC fallback correction
+- [x] Repaired both `Characters-All.html` character self/search links to the canonical Character Explorer.
+- [x] Verified DLC landing-page fallback semantics and restored PQ DLC links to generic Search because `DLC-Overview` is not a query explorer.
+- [x] Added and registered `canonical-explorer-self-navigation-audit-2026-09-24-b.json`.
+- [x] Validation passed with no relationship/data changes.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next batch:** finish remaining non-PQ landing/reference scan for stale explorer targets, stale counts/list assumptions, orphan navigation, and canonical-ID drift.
