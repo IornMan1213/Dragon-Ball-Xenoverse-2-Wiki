@@ -1,3 +1,9 @@
+## 2026-09-24 — E-series skill provenance refresh
+
+- Refreshed the existing Dynamite Kick through Energy Barrier aggregate provenance audit to 2026-09-24.
+- Revalidated 12 E-series skill targets while preserving existing evidence boundaries and unresolved fields.
+- No unsupported acquisition, reward probability, cost, or mechanics claims were added.
+
 ## 2026-09-24 — Death Beam provenance reconciliation
 
 - Refreshed the individual Death Beam provenance audit to 2026-09-24.
