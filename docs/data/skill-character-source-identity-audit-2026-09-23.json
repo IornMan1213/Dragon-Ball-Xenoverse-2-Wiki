@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "audit_date": "2026-09-23",
+  "audit_date": "2026-09-24",
   "status": "gap_inventory",
   "scope": "skills.character_source -> canonical character identity bridge",
-  "canonical_skill_count": 465,
+  "canonical_skill_count": 469,
   "skills_with_character_source": 227,
   "source_tokens": 232,
   "exact_bridge_matches": 226,
@@ -124,5 +124,5 @@
     ]
   },
   "evidence_boundary": "This is an identity/navigation gap inventory, not an assertion that unresolved source strings are incorrect. Variant naming, cast-only forms, customize-partner labels, and aggregate user lists require explicit reconciliation before adding bridge records.",
-  "next_action": "Identity bridge source-token conflicts are resolved for the current character-source audit. Next work should move to the broader exhaustive cross-domain/link integrity queue while preserving non-character/CaC source tokens outside this bridge."
+  "next_action": "Identity bridge source-token conflicts are resolved for the current character-source audit. The four recovered 2026-09-24 skills add no character_source tokens, so bridge-match counts remain unchanged. Next work should move to the broader exhaustive cross-domain/link integrity queue while preserving non-character/CaC source tokens outside this bridge."
 }
