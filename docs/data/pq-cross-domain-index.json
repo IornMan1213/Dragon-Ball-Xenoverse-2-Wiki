@@ -546,5 +546,6 @@
   "mentor_endpoint_consumer_synchronization_2026_09_24": "docs/data/mentor-endpoint-consumer-synchronization-2026-09-24.json",
   "mentor_derived_acquisition_consumer_reconciliation_2026_09_24": "docs/data/mentor-derived-acquisition-consumer-reconciliation-2026-09-24.json",
   "current_nonpq_acquisition_consumer_sweep_2026_09_24": "docs/data/current-nonpq-acquisition-consumer-sweep-2026-09-24.json",
-  "skill_provenance_refresh_2026_09_24_dancing_through_darkness_rush": "docs/data/skill-provenance-refresh-2026-09-24-dancing-through-darkness-rush.json"
+  "skill_provenance_refresh_2026_09_24_dancing_through_darkness_rush": "docs/data/skill-provenance-refresh-2026-09-24-dancing-through-darkness-rush.json",
+  "qq_bang_provenance_refresh_2026_09_24": "docs/data/qq-bang-provenance-refresh-2026-09-24.json"
 }
