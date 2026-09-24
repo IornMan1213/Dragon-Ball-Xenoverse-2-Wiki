@@ -2453,7 +2453,7 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 
 ## 2026-09-23 — Super Soul 032 Limit Burst evidence boundary
 - Completed a fresh exact-name/item-level Limit Burst research pass for “This power... It's different from any I've ever had.”.
-- Current evidence confirms PQ185 identity and the KO-triggered alternate displayed-name state, but does not establish the second state's mechanical effect or any Limit Burst type/trigger/effect. citeturn3search0
+- Current evidence confirms PQ185 identity and the KO-triggered alternate displayed-name state, but does not establish the second state's mechanical effect or any Limit Burst type/trigger/effect. 
 - No generic or same-character Limit Burst was substituted; canonical 032 remains unchanged and partially verified.
 - Added `docs/data/super-soul-032-limit-burst-evidence-boundary-2026-09-23.json` and registered it in `docs/data/pq-cross-domain-index.json`.
 - Advanced the strict-thin queue to the **158 Do or Die Super Skill / Super Soul collision** for non-destructive canonical migration analysis.
@@ -2470,7 +2470,7 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 
 
 ## 2026-09-23 — Super Soul 217 Limit Burst verification
-- Targeted exact-name research found a GameFAQs discussion specifically identifying the Limit Burst for **“Power! A lotta power! It's great!”** as **Power Ki Blast**, with **Auto Health and Stamina Up** and **DEF Down**. citeturn1search0
+- Targeted exact-name research found a GameFAQs discussion specifically identifying the Limit Burst for **“Power! A lotta power! It's great!”** as **Power Ki Blast**, with **Auto Health and Stamina Up** and **DEF Down**. 
 - Updated the canonical 217 record with the item-specific Limit Burst type/effect; trigger remains null because no trigger wording was established.
 - Added `docs/data/super-soul-217-limit-burst-evidence-2026-09-23.json` and registered it in the cross-domain index.
 - Strict-thin queue is now **032 and 034**; 217 exits because its strict core fields are populated.
@@ -2489,7 +2489,7 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 ### 2026-09-23 cycle update — Big Bang Attack provenance strengthening
 - Live census before editing: **455 canonical / 455 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 3 exactly-two-source canonical records**.
 - Bounded batch: **Big Bang Attack** (`skill-big-bang-attack`).
-- Research/evidence: independent GameFAQs TP Medal Shop catalogue corroborates Big Bang Attack as a TP Medal Shop Super and reports a **15 TP Medal** price; the source also notes shop contents are RNG/rotation based. citeturn2search0
+- Research/evidence: independent GameFAQs TP Medal Shop catalogue corroborates Big Bang Attack as a TP Medal Shop Super and reports a **15 TP Medal** price; the source also notes shop contents are RNG/rotation based. 
 - Changes: canonical/index source arrays gained the GameFAQs source; `last_verified` refreshed to **2026-09-23**; provenance note synchronized with the independently reported 15-TP value and rotation caveat.
 - Evidence limits preserved: no current rotation date, guaranteed availability window, or drop probability was inferred; existing TP Medal Shop acquisition endpoint, 100 Ki cost, Base Game classification, and mechanics were unchanged.
 - Audit added/registered: `docs/data/skill-big-bang-attack-provenance-audit-2026-09-23.json`.
