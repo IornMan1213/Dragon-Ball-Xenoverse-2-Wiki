@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2.0",
-  "date": "2026-09-22",
+  "date": "2026-09-24",
   "scope": "published Character/DLC page local navigation plus canonical identity resolution",
   "pages": {
     "docs/Characters.md": {
@@ -60,7 +60,7 @@
     "Characters.md contained a stale local link to Characters-All.md; the published explorer is Characters-All.html.",
     "All checked local Character/DLC navigation targets exist on main.",
     "Resolved Goku (Ultra Supervillain Quelled) after it entered the canonical layer; Supreme Kai of Time (Ultra Supervillain) remains explicitly unresolved.",
-    "All 20 canonical pq_requires_dlc targets resolve exactly once to the standalone DLC identity layer; no orphan DLC identity record is present.",
+    "All 20 canonical pq_requires_dlc targets resolve exactly once to the standalone DLC identity layer; no orphan DLC identity record is present. The live character record layer now contains 151 unique canonical character names; the older 149-name figure in historical 2026-09-22 notes is not a current census.",
     "No canonical character, DLC, or PQ relationship identity was changed.",
     "Validator hardening now rejects duplicate published href occurrences, malformed character/DLC identity field types, duplicate bridge targets, duplicate canonical PQ→DLC targets, and malformed PQ→DLC target values."
   ],
@@ -70,7 +70,21 @@
     "character_identity_bridge": "clean",
     "canonical_dlc_identity": "clean",
     "live_census": "151 canonical characters / 15 DLC-character bridge records / 20 canonical DLC identities / 86 canonical PQ→DLC edges",
-    "validator_hardening": "clean"
+    "validator_hardening": "clean",
+    "current_character_identity_census": {
+      "canonical_character_count": 151,
+      "canonical_character_unique_count": 151,
+      "bridge_records": 15,
+      "resolved_bridge_targets": 14,
+      "unresolved_source_labels": 1,
+      "canonical_dlc_identity_records": 20,
+      "canonical_pq_dlc_edges": 86,
+      "canonical_pq_dlc_unique_targets": 20,
+      "orphan_dlc_identities": 0,
+      "duplicate_bridge_sources": 0,
+      "duplicate_bridge_targets": 0,
+      "status": "clean"
+    }
   },
   "status": "clean",
   "validator_commit": "14a328ecedc720ccaaf2ece46b582d6a474ab77d6",
