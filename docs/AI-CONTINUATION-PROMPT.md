@@ -8057,3 +8057,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - No acquisition condition, exclusivity, reward route, or gameplay mechanic was inferred from the loadout evidence.
 - Commits: `b8ca3975c908b081825b431cbb5d620068f01241` (canonical preset producer) and `effaa5f8f1c78149483b67287dceb07d029ccaa8` (preset↔skill navigation audit).
 - **Exact next priority:** continue the unresolved preset families using the same two-part evidence requirement: an explicit numeric preset identity plus a complete named skill configuration. Do not promote Goku/Vegeta/Ginyu records that have numeric identity only.
+
+
+### 2026-09-24 continuation — preset promotion evidence gate
+
+- Continued the unresolved preset/loadout tranche after the exact Goku (GT) Preset 2 promotion.
+- Audited unresolved Goku 2–5, Vegeta 10–11, and Captain Ginyu 5–6 against available public evidence. The maintained unlock video independently establishes preset-number identity, but does **not** provide a complete named eight-slot loadout table in its indexed description.
+- A search result containing Sledgehammer/Burst Kamehameha/Warp Kamehameha refers to **SSGSS Goku Preset 4** in a community discussion, not base Goku Preset 4, so it was explicitly rejected as evidence for `goku-preset-4`.
+- Added `docs/data/character-preset-loadout-promotion-gates-2026-09-24.json` documenting these evidence boundaries and preventing identity-only/partial-loadout promotion.
+- No unresolved preset was incorrectly promoted. This is intentional data-quality progress: numeric identity and complete skill configuration remain separate evidence requirements.
+- Commit: `92337da37406706ebd1c0a298600e703af238a9d`.
+- **Exact next priority:** continue searching remaining unresolved preset families for sources explicitly binding preset number to a complete named configuration, prioritizing maintained/first-party reference tables over unlock-only community videos.
