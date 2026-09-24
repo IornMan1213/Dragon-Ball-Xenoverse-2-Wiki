@@ -7595,3 +7595,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime unavailable; no CI success claimed.
 - Commits: projection clarification b5ae4e774f624cd37d8d8d99dde5535e510aced2; projection audit 961e6a18025a0acf5354c4f76f53a3053a5d0c2d; index registration e79eb0611e60ab812dc9fe88bc8af3ef2b093987.
 - Exact next priority: continue the deterministic non-PQ consumer scan, targeting the next stale current-field/count projection or orphan target in event/raid or character/preset navigation; do not collapse the separate acc and accr namespaces.
+
+
+### 2026-09-24 cycle completion — Time Rift/story/tournament endpoint contract drift correction
+- [x] Compared the live `docs/data/time-rift-story-tournament-endpoints.json` against its current audit and cross-link contract.
+- [x] Found a deterministic documentation drift: the live layer contains **11 endpoints / 13 forward skill edges**, while `docs/data/CROSS-LINK-CONTRACT.md` still stated 14 forward edges.
+- [x] Corrected the contract to the live validated **13-forward-edge** count. Match 5 remains the legitimate two-skill endpoint; the other 10 endpoints each contribute one edge.
+- [x] No data relationship was changed; this was a consumer/documentation count correction only.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next priority:** continue deterministic non-PQ consumer scanning for stale counts/IDs in remaining cross-link documentation and machine-readable indexes, prioritizing mismatches against already-audited live endpoint layers.
