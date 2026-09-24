@@ -6169,3 +6169,15 @@
 - [x] Validation: live database section re-fetched after write; 37 rows, 37 unique IDs, 0 duplicates. The historical 12/37 result remains explicitly described as historical rather than current state.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next priority:** continue deterministic current-facing **event/raid/Festival/Chapter 4 consumer scanning** for duplicate presentation rows, stale scalar/coverage claims, one-way navigation, orphan targets, and canonical-ID drift; then resume source-backed preset/loadout expansion.
+
+
+### 2026-09-24 cycle completion — Event/Raid/Festival/Chapter 4 consumer scan
+- [x] Added `docs/data/current-event-raid-festival-chapter4-consumer-scan-2026-09-24.json` covering the current presentation surfaces for raid/event Super Souls, Festival skill→character navigation, and Future Saga Chapter 4.
+- [x] Raid/event presentation: **37/37 surfaced, 0 missing, 0 duplicate presentation IDs**; the older 12/37 statement is explicitly historical.
+- [x] Festival navigation: **3/3 explicit skill rows resolve to exact canonical characters; 0 unresolved identities; 0 unsupported preset/PQ/raid promotions**.
+- [x] Chapter 4 presentation: publisher-backed headline counts remain synchronized at **1 Extra Mission / 2 PQs / 4 moves / 1 Awoken Skill / 6 costumes-accessories / 4 Super Souls / 8 loading-screen illustrations**; unresolved item/mission/battle detail remains explicit.
+- [x] Character cross-check: live `docs/Characters.md` and the character presentation audit both report **152** canonical identities; no edit was required.
+- [x] Registered the new scan in `docs/data/pq-cross-domain-index.json` for central cross-database discoverability.
+- [x] Validation: new JSON parses; central index re-read after registration; no current consumer mismatch found in this bounded scope.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next batch:** inspect the next uncovered current consumer surface for stale scalar/list assumptions and one-way navigation; if clean, begin the highest-impact source-backed preset/loadout tranche only where numeric preset identity and configuration are directly bound by evidence.
