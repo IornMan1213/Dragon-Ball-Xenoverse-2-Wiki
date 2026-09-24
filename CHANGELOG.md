@@ -1,3 +1,10 @@
+
+## 2026-09-24 — Mentor explorer cross-navigation
+- Added `docs/Mentors-All.html`, a live explorer backed by the canonical 33-mentor record layer.
+- Added `docs/data/mentor-presentation-consumer-audit-2026-09-24.json` and registered it in the cross-domain index.
+- Connected mentor lesson skills to the skill explorer and added the reverse mentor navigation from skill records.
+- Current validation baseline: **33 mentors / 133 lesson rewards / 132 skill rewards / 1 typed Super Soul reward / 131 mentor→skill edges / 130 unique skill targets / 0 broken endpoints**.
+- Evidence boundaries preserved; CI/runtime unavailable.
 ### 2026-09-24 cycle update — raid/event Super Soul presentation coverage repair
 - Completed the current raid/event Super Soul presentation index in `docs/Super-Souls-Database.md`.
 - Added the 25 previously omitted canonical raid/event records, bringing the presentation surface to **37/37** records from `docs/data/super-soul-raid-event-presentation-consumer-audit-2026-09-24.json`.
