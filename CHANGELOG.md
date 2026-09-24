@@ -2823,3 +2823,8 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Live structural target remains **465 canonical skills / 239 PQ-linked / 226 non-PQ / 95 unique non-PQ/non-mentor endpoint targets / 131 unique mentor-linked targets**; no canonical relationship rows changed.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next batch: thinnest-source records in the remaining 95 endpoint-linked non-PQ/non-mentor provenance queue.
+
+
+### September 24, 2026 — Chapter 4 character audit count synchronization
+- Corrected the current Future Saga Chapter 4 character-navigation audit from a stale **153** canonical-character count to the live **152** canonical identities in `docs/data/characters-record-layer.json`.
+- Preserved the two Chapter 4 character identities and exact identity-resolution results; no preset/loadout/acquisition relationship was inferred.
