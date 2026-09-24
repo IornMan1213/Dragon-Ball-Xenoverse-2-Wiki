@@ -6558,3 +6558,15 @@
 - [x] Evidence confirms the exact lesson identity/acquisition route: Hit's fourth mentor reward / Lesson 3 is Time Skip/Tremor Pulse. Canonical skill identity remains unresolved.
 - [x] Validation passed for endpoint parity and current consumer agreement; CI/runtime remains unavailable.
 - [ ] **Next:** continue the deterministic non-PQ/mentor consumer scan for stale scalars, orphan endpoint IDs, and one-way navigation; only promote Time Skip/Tremor Pulse after a standard canonical skill record exists.
+
+
+### 2026-09-24 completed mentor-derived acquisition consumer reconciliation
+- [x] Reconciled current-facing mentor-derived skill acquisition projections after the Hit → Time Skip/Tremor Pulse endpoint repair.
+- [x] Removed the unresolved Hit skill ID from `docs/data/mentors.json` resolved projection.
+- [x] Current mentor acquisition projection is now **131 resolved mentor→skill edges / 130 unique resolved skill targets**.
+- [x] Preserved the distinction between **132 typed skill reward lessons** and **131 resolved canonical skill endpoints**, with **1 unresolved skill lesson**.
+- [x] Corrected current acquisition/presentation audits and `docs/Mentors.md`; historical snapshots remain preserved.
+- [x] Added/registered `docs/data/mentor-derived-acquisition-consumer-reconciliation-2026-09-24.json`.
+- [x] Validation passed: no unresolved Hit skill ID in resolved projections, 0 broken endpoints, crosslink/current acquisition parity maintained.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Next:** continue the deterministic non-PQ/mentor consumer scan for any remaining current-facing references to `skill-time-skip-tremor-pulse` or stale 132-edge/131-target counts; preserve explicitly historical snapshots.
