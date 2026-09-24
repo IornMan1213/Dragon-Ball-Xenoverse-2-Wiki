@@ -28,8 +28,8 @@ Search the **canonical local PQ record layer**. This explorer does not substitut
   const skillUrl=(term)=>'{{ "/Skills-All/" | relative_url }}?q='+encodeURIComponent(term);
   const characterUrl=(term)=>'{{ "/Characters-All/" | relative_url }}?q='+encodeURIComponent(term);
   const soulUrl=(term)=>'{{ "/Super-Souls-All/" | relative_url }}?q='+encodeURIComponent(term);
-  const equipmentUrl=(term)=>'{{ "/Search/" | relative_url }}?q='+encodeURIComponent(term);
-  const dlcUrl=(term)=>'{{ "/Search/" | relative_url }}?q='+encodeURIComponent(term);
+  const equipmentUrl=(term)=>'{{ "/Equipment-All/" | relative_url }}?q='+encodeURIComponent(term);
+  const dlcUrl=(term)=>'{{ "/DLC-Overview/" | relative_url }}?q='+encodeURIComponent(term);
   let records=[];
   let characterByPq={};
   let dlcByPq={};
@@ -47,7 +47,7 @@ Search the **canonical local PQ record layer**. This explorer does not substitut
   function characterLinks(pqId){
     const values=characterByPq[pqId]||[];
     if(!values.length) return '';
-    return '<div class="pq-links"><strong>Characters:</strong> '+values.map(v=>'<a href="'+escapeHtml(searchUrl(v))+'">'+escapeHtml(v)+'</a>').join(', ')+'</div>';
+    return '<div class="pq-links"><strong>Characters:</strong> '+values.map(v=>'<a href="'+escapeHtml(characterUrl(v))+'">'+escapeHtml(v)+'</a>').join(', ')+'</div>';
   }
   function rewardLinks(values,label,urlBuilder){
     if(!Array.isArray(values)||!values.length) return '';
