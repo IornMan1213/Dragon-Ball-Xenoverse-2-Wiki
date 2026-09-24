@@ -6,8 +6,8 @@
   "live_counts": {
     "canonical_skill_records": 465,
     "index_skill_records": 465,
-    "current_last_verified_records": 254,
-    "stale_last_verified_records": 211,
+    "current_last_verified_records": 259,
+    "stale_last_verified_records": 206,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
@@ -16,24 +16,12 @@
       "name": "Hollow Rush"
     },
     {
-      "id": "skill-holy-inscription",
-      "name": "Holy Inscription"
-    },
-    {
-      "id": "skill-holy-wrath",
-      "name": "Holy Wrath"
-    },
-    {
       "id": "skill-hyper-drain",
       "name": "Hyper Drain"
     },
     {
       "id": "skill-hyper-movement",
       "name": "Hyper Movement"
-    },
-    {
-      "id": "skill-hyper-tornado",
-      "name": "Hyper Tornado"
     },
     {
       "id": "skill-ice-cannon",
@@ -50,19 +38,12 @@
     {
       "id": "skill-ice-sheet",
       "name": "Ice Sheet"
-    },
-    {
-      "id": "skill-ill-rain",
-      "name": "Ill Rain"
-    },
-    {
-      "id": "skill-instant-severance",
-      "name": "Instant Severance"
     }
   ],
   "notes": [
     "Canonical/index counts and IDs remain aligned.",
     "Counts computed from live canonical data after the completed bounded batch.",
-    "Existing acquisition, reward, mechanics, restriction, DLC/update, and evidence-conflict semantics were preserved."
+    "Existing acquisition, reward, mechanics, restriction, DLC/update, and evidence-conflict semantics were preserved.",
+    "Seven names from the prior queue were absent from the canonical dataset and were deliberately not fabricated; they remain discovery/data-coverage work rather than verified provenance work."
   ]
 }
