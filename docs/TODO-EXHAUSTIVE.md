@@ -5251,3 +5251,15 @@
 - [x] Preserved existing acquisition, reward, mechanics, restriction, DLC/update, and evidence-boundary semantics; no unsupported facts were inferred.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** process the next 12 stale records — Demon Wing Flash; Die Die Missile Barrage; Dimension Ray; Divine Kamehameha; Divine Lasso; Dodoria Headbutt; Double Destructo-Disc; Double Sunday; Dragon Blitz; Dragon Burner; Dragon Fist; Dragon Flash.
+
+
+### 2026-09-24 cycle update — Demon through Dragon skill provenance refresh
+
+- Completed the next bounded P1 provenance batch: **12 skill records** — Demon Wing Flash; DIE DIE Missile Barrage; Dimension Ray; Divine Kamehameha; Divine Lasso; Dodoria Headbutt; Double Destructo-Disc; Double Sunday; Dragon Blitz; Dragon Burner; Dragon Fist; Dragon Flash.
+- Refreshed canonical and index metadata to `last_verified=2026-09-24`; existing acquisition endpoints, reward semantics, mechanics, restrictions, and DLC/update provenance were preserved.
+- Added `docs/data/skill-provenance-audit-2026-09-24-demon-through-dragon.json` and refreshed the live stale census.
+- Validation: **465 canonical / 465 index / 0 duplicate IDs / 120 current / 345 stale**.
+- No unsupported probabilities, prerequisites, timers, frame data, damage values, stacking caps, or narrower restrictions were inferred.
+- CI/runtime remains unavailable; no CI success claimed.
+- Commit: `cfa334ec6a47f2e2c79ffc8a19ea27941eac9a5a`.
+- **Exact next stale batch:** Dragon Thunder; Dragon Tornado; Dragon Wind; Dragonic Aura; Dramatic Crush; Dynamite Kick; Earth-Splitting Galick Gun; Electric Shock; Elite Beam; Emergency Combo; Energy Barrier; Energy Shot.
