@@ -1,3 +1,14 @@
+### 2026-09-24 cycle update — Justice through Ki Blast Thrust skill provenance refresh
+
+- Completed the next bounded P1 provenance batch: **12 skill records** — Justice Blade, Justice Combination, Justice Drive, Justice Kick, Justice Pose, Justice Rush, Kai Kai, Kaioken, Kaioken Kamehameha, Kairos Cannon, Kamehameha, and Ki Blast Thrust.
+- Synchronized canonical `docs/data/skills.json` and `docs/data/skills-index.json`; all 12 now carry `last_verified=2026-09-24`.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-24-justice-through-ki-blast-thrust.json`.
+- Refreshed the live verification-date census: **469 canonical / 469 index / 287 current / 182 stale / 0 duplicate IDs**.
+- Preserved existing acquisition endpoints, reward semantics, restrictions, mechanics, DLC/update provenance, and source-conflict boundaries. No unsupported drop probabilities, Ultimate Finish gates, timers, damage values, stacking caps, or narrower restrictions were introduced.
+- CI/runtime remains unavailable; no CI success claimed.
+- Commits: canonical `7fc97d71e4a770f42eea7df61589d2e397dbb3fa`; index `6ab56967dbec64cf78e149c2d3faca40a374f051`; audit `e6f8d0eb95ac24fe6b70592f8365a67388a99179`; census `bf4284d0c2eb726f95f8aa1c63d28464ee4aab10`; cross-domain registration `06f1ebc6a32b710a9a6bb8f8bec577989f2e40ba`.
+- **Exact next batch:** Ki Explosion; Kill Driver; Last Emperor; Light Grenade; Lightning Impact; Lightning of Absolution; Lovely Cyclone; Mach Dash; Mach Punch; Maiden Blast; Maiden Burst; Majin Kamehameha.
+
 ### 2026-09-24 cycle update — Atomic through Blaster skill provenance refresh + final 854-baseline consumer classification
 
 - Completed the next bounded P1 provenance batch: **12 skill records** — Atomic Blast, Audacious Laugh, Beast, Become Giant, Bending Kamehameha, Big Bang Attack, Big Bang Kamehameha, Big Bang Knuckle, Blades of Judgment, Blaster Ball, Blaster Bomb, and Blaster Cannon.
