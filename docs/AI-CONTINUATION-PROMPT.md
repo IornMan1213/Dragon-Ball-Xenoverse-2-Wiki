@@ -6784,3 +6784,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Expanded docs/data/skill-expert-mission-provenance-audit-2026-09-23.json to record the 18-row endpoint reconciliation.
 - No new canonical skill identities, acquisition relationships, drop probabilities, or per-clear guarantees were inferred.
 - **Exact next task:** move from the now-source-checked Expert Mission endpoint layer to the remaining **95 non-PQ/non-mentor** acquisition/provenance skills, prioritizing explicit special-route gaps such as Ultra Instinct; preserve evidence boundaries.
+
+
+### 2026-09-23 cycle update — Ultra Instinct special-route provenance strengthening
+
+- Live census before editing: **465 canonical skills / 239 PQ-linked / 226 non-PQ**; the combined non-PQ endpoint union resolves **95 unique non-PQ/non-mentor skill targets**, while the mentor layer resolves **131 unique skill targets**.
+- Bounded batch: skill-ultra-instinct, special-ultra-instinct, the EM17 endpoint conflict metadata, and the acquisition cross-domain audit/contract.
+- Research/evidence: the maintained In Pursuit of Mastery level reference explicitly states that completing the Jiren (Full Power) challenge unlocks Ultra Instinct. citeturn1search1 The dedicated Ultra Instinct reference independently identifies the Jiren (Full Power) challenge as the unlock route. citeturn1search0
+- Changes: added the independent In Pursuit of Mastery source to the canonical Ultra Instinct record; strengthened the special endpoint wording/source; clarified the cross-link contract so Ultra Instinct is no longer described as an unresolved special-route target; corrected EM17 provenance metadata so its reward tier is intentionally null because the reconciled guide says Spirit Bomb rather than Spirit Sword.
+- Evidence limits preserved: no additional Ultra Instinct prerequisite, drop probability, alternate route, or unsupported reward-tier claim was inferred. The EM17 Spirit Sword/Spirit Bomb conflict remains explicit.
+- Validation target: canonical skill count remains **465**; endpoint union remains complete at **465/465**; no canonical IDs or relationship rows were changed.
+- CI/runtime remains unavailable; no CI success claimed.
+- Commits: 7e277e8a024534c052115b3bb38ff625ddc61177, 48d744c3ca3261b3bea43bc50aec3986b5bd327a, 333d307893dc5e8344db00141dcb23db68332a42, a777b2f69384b8147eac709c958e01b2d1eceeec, e4befb948c2b400a23fe23f6cbc62b2818067fcb.
+- **Exact next batch:** continue the 95 endpoint-linked non-PQ/non-mentor provenance queue with the thinnest-source records first; recompute source counts and endpoint parity before each bounded 4–12 record batch. Do not reopen already source-backed Ultra Instinct or the reconciled Expert Mission endpoint layer unless new evidence appears.
