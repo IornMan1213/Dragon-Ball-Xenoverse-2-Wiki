@@ -1,3 +1,14 @@
+### 2026-09-24 cycle update — high-connectivity character preset presentation consumer audit
+
+- Audited the named high-connectivity preset targets in `docs/Character-Preset-Research.md` against the live canonical character identity layer `docs/data/characters-record-layer.json`.
+- Added `docs/data/character-preset-research-presentation-consumer-audit-2026-09-24.json` with **10 target groups / 0 groups without an exact canonical identity match**.
+- Registered the audit in `docs/data/pq-cross-domain-index.json` under both navigation audits and registered audits, preserving central cross-database discoverability.
+- The audit deliberately does **not** infer preset numbering, loadouts, acquisition routes, Festival progression, Partner Customization keys, historical availability, or variant equivalence; it only proves the presentation targets resolve to existing canonical identities.
+- Live canonical character producer remains **152** according to `docs/data/characters-record-layer.json`; the source-category count of 155 is not treated as the canonical identity count.
+- Validation: audit JSON parses; central index parses and points to the new audit; 10/10 target groups resolve; 0 inferred preset/loadout/acquisition records; 0 variant collapses.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next priority:** continue deterministic current-facing **character/preset and event/raid/Festival/Chapter 4 consumer scanning** for stale scalars, one-way links, orphan targets, and canonical-ID drift. Once that consumer layer is exhausted, begin machine-readable preset/loadout expansion for the highest-connectivity character targets, starting with Goku, while preserving the no-inference evidence boundary.
+
 
 ### 2026-09-24 cycle update — character producer/consumer count correction
 
