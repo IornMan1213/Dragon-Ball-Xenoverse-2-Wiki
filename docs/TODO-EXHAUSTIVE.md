@@ -5897,3 +5897,11 @@
 - [x] Added and registered `docs/data/equipment-accessory-presentation-consumer-audit-2026-09-24.json`.
 - [ ] CI/runtime unavailable; browser behavior remains an environment gate.
 - **Exact next priority:** scan remaining non-PQ equipment/accessory presentation consumers for one-way links and canonical-ID drift.
+
+
+### 2026-09-24 cycle completion — special acquisition current skill-baseline reconciliation
+- [x] Corrected `docs/data/special-acquisition-endpoint-audit-2026-09-23.json` from stale **465** canonical skills to live **469**.
+- [x] Verified special endpoint integrity: **14/14/14**, zero unresolved or duplicate endpoint pairs.
+- [x] Registered the refreshed audit in `docs/data/pq-cross-domain-index.json`.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next priority:** continue deterministic event/raid and acquisition-index consumer scanning for stale 469 counts, orphan IDs, and one-way navigation.
