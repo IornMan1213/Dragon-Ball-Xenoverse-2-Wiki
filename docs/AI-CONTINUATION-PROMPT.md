@@ -8147,3 +8147,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Commits: 953b39825d1da4097ce8e39ed8b9f0e522bf0f6e (DLC page), 5cf9b1f836acf60fba4b8ce4b72e039f19c661c1 (audit), 03a43523a7e6fe8dd5c48b348270073352fc816f (central index registration).
 - CI/runtime remains unavailable; no CI success claimed.
 - Exact next priority: continue deterministic current-facing DLC/system landing consumer scanning for stale explorer targets, stale scalar/list assumptions, one-way navigation, orphan targets, and canonical-ID drift. After this consumer layer is clean, resume evidence-gated preset/loadout expansion only where a source directly binds numeric preset identity to a complete named configuration.
+
+
+### 2026-09-24 continuation — canonical Super Soul/equipment explorer self-navigation
+
+- Audited the live `Super-Souls-All.html` and `Equipment-All.html` entity-card navigation contracts.
+- Found both explorers routed their entity-name/self links through the generic `/Search/` surface despite each having a canonical dedicated explorer.
+- Repaired Super Soul self-links to `Super-Souls-All.html?q=...` and equipment/accessory self-links to `Equipment-All.html?q=...`.
+- Added `docs/data/canonical-explorer-self-navigation-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- Validation: 2/2 explorer self-navigation consumers repaired; 0 canonical relationship changes; audit status = pass.
+- PQ reverse navigation and all data/acquisition semantics were preserved unchanged.
+- Commits: `502e2dfd9796142a94fa86e51245479431e2dca3`, `9b79b7342eb83ab0163256892c6c7cf47d7591c0`, `557fb91a39768e7f93782eb6fc7944e52100bf8a`, `85fac0b2ce0e74b3cbbba78b1aeb01bd9262c579`.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next priority:** continue the deterministic scan of remaining non-PQ entity/reference explorers and landing pages for generic Search self-links, stale explorer targets, one-way cross-database navigation, stale counts, and canonical-ID drift; then resume evidence-gated preset/loadout research.
