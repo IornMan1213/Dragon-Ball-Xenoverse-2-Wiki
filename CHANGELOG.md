@@ -2950,3 +2950,9 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Added current source-backed provenance for the Clothing Mixing Shop, PQ/Expert Mission Tour acquisition routes, and the Super Mix Capsule Z synthesis path while preserving RNG/recipe uncertainty.
 - Added and registered `docs/data/qq-bang-provenance-refresh-2026-09-24.json`.
 - No exact six-stat QQ Bang output or deterministic recipe result was promoted without direct observed-result evidence.
+
+
+### 2026-09-24 — QQ Bang observed-result expansion
+- Added two source-backed community-observed QQ Bang records to the structured research layer.
+- Preserved one exact reported six-stat vector (-1/+5/+5/+5/+5/-1) and one variable high-tier recipe family without fabricating an output vector.
+- Extended and registered the QQ Bang provenance audit; canonical-vs-community evidence boundaries remain explicit.
