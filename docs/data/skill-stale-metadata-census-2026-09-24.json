@@ -6,29 +6,27 @@
   "live_counts": {
     "canonical_skill_records": 465,
     "index_skill_records": 465,
-    "current_last_verified_records": 134,
-    "stale_last_verified_records": 331,
+    "current_last_verified_records": 146,
+    "stale_last_verified_records": 319,
     "duplicate_ids": 0
   },
-  "current_date": "2026-09-24",
   "next_stale_batch": [
-    "skill-divinity-unleashed",
-    "skill-do-or-die",
-    "skill-dodon-ray",
-    "skill-dodoria-beam",
-    "skill-dodoria-launcher",
-    "skill-double-crush",
-    "skill-double-death-slicer",
-    "skill-dragon-burn",
-    "skill-dragon-spark",
-    "skill-dragon-spiral",
-    "skill-drain-field",
-    "skill-dual-destructo-disc"
+    "skill-dust-attack",
+    "skill-eagle-kick",
+    "skill-elegant-blaster",
+    "skill-elite-shooting",
+    "skill-emperor-s-blast",
+    "skill-emperor-s-cannon",
+    "skill-emperor-s-death-beam",
+    "skill-emperor-s-edge",
+    "skill-endless-shoot",
+    "skill-energy-charge",
+    "skill-energy-dome",
+    "skill-energy-field"
   ],
   "notes": [
-    "Stale means last_verified != 2026-09-24; stale metadata is a priority signal, not evidence that a record is incorrect.",
-    "This census was recomputed directly from the live canonical skill layer after the Destruction through Divine Wrath provenance refresh.",
-    "Canonical and index ID parity was verified before publishing this census.",
-    "The prior census contained 9 stale IDs not present in the live canonical/index layers; those historical projection errors are superseded by this live recomputation and are not treated as canonical records."
+    "Recomputed directly from the live canonical/index layers after the Divinity through Dual Destructo-Disc refresh.",
+    "Canonical/index ID parity verified.",
+    "Stale is defined as last_verified != 2026-09-24."
   ]
 }
