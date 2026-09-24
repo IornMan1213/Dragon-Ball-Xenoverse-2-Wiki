@@ -7786,3 +7786,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: edited JSON re-fetched and parsed successfully. A repository search still returns older 151-bearing dated/historical consumers (`pq-endpoint-navigation-current-baseline-audit-2026-09-23.json`, partner customization audit) and search-index lag may retain the just-edited fragment; these were not rewritten as historical artifacts. CI/runtime remains unavailable; no CI success claimed.
 - Commit: `44cd5745393f2f2e83b406fe85d33f2f55d3c72a`.
 - **Exact next priority:** inspect the remaining **event/raid/Festival** current-facing projections and distinguish genuinely current consumers from dated snapshots, prioritizing deterministic count/index drift and one-way navigation without inventing event endpoints.
+
+
+### 2026-09-24 cycle update — Festival skill/source identity navigation audit
+
+- Audited the explicitly maintained Festival of Universes skill records in `docs/data/skill-research-batches/skill-batch-264.json`.
+- Added `docs/data/festival-skill-character-navigation-audit-2026-09-24.json` covering the three explicitly named Festival skills: **Galaxy Breaker (Festival)** → Vegeta, **God Bind (Festival)** → Goku (Super Saiyan God), and **Justice Crush (Festival)** → Dyspo.
+- All **3/3** source-character names resolve to canonical character identities; all three skills are also present in the repository's unavailable-for-CaC index. No PQ, raid, preset, or unsupported Festival endpoint was inferred.
+- Registered the audit in `docs/data/pq-cross-domain-index.json`.
+- Validation: audit JSON and cross-domain index were written successfully and the identity checks are deterministic from repository data. This is not a claim of complete Festival inventory or current event scheduling. CI/runtime remains unavailable.
+- Commits: audit `4b161b0e2bd4b6bf1a45bf5d2010c97ef19e1fab`; index registration `d9883b5cb25e4d5c47fa9bbf2b7bdce55a40f405`.
+- **Exact next priority:** continue the remaining raid/event projections, especially explicit raid/gift accessory and Super Soul consumers, for stale current baselines and one-way canonical navigation; preserve historical snapshots and avoid inventing event endpoints.
