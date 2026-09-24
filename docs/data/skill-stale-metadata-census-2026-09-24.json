@@ -6,64 +6,64 @@
   "live_counts": {
     "canonical_skill_records": 469,
     "index_skill_records": 469,
-    "current_last_verified_records": 443,
-    "stale_last_verified_records": 26,
+    "current_last_verified_records": 455,
+    "stale_last_verified_records": 14,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
     {
-      "name": "Total Detonation Ball",
-      "id": "skill-total-detonation-ball"
+      "name": "Venus Fist",
+      "id": "skill-venus-fist"
     },
     {
-      "name": "Trap Shooter",
-      "id": "skill-trap-shooter"
+      "name": "Victory Cannon",
+      "id": "skill-victory-cannon"
     },
     {
-      "name": "Tri-Beam",
-      "id": "skill-tri-beam"
+      "name": "Victory Rush",
+      "id": "skill-victory-rush"
     },
     {
-      "name": "Turn Golden",
-      "id": "skill-turn-golden"
+      "name": "Volleyball Fist",
+      "id": "skill-volleyball-fist"
     },
     {
-      "name": "Tyrant Lancer",
-      "id": "skill-tyrant-lancer"
+      "name": "Wall of Defense",
+      "id": "skill-wall-of-defense"
     },
     {
-      "name": "Ultimate Charge",
-      "id": "skill-ultimate-charge"
+      "name": "Warp Kamehameha",
+      "id": "skill-warp-kamehameha"
     },
     {
-      "name": "Ultra Instinct",
-      "id": "skill-ultra-instinct"
+      "name": "Weekend",
+      "id": "skill-weekend"
     },
     {
-      "name": "Ultrasonic Blitz",
-      "id": "skill-ultrasonic-blitz"
+      "name": "Wild Buster",
+      "id": "skill-wild-buster"
     },
     {
-      "name": "Unrelenting Barrage",
-      "id": "skill-unrelenting-barrage"
+      "name": "Wild Hunt",
+      "id": "skill-wild-hunt"
     },
     {
-      "name": "Vanishing Ball",
-      "id": "skill-vanishing-ball"
+      "name": "Wild Stinger",
+      "id": "skill-wild-stinger"
     },
     {
-      "name": "Variable Snipe Shot",
-      "id": "skill-variable-snipe-shot"
+      "name": "Wolf Fang Fist",
+      "id": "skill-wolf-fang-fist"
     },
     {
-      "name": "Variant Drive",
-      "id": "skill-variant-drive"
+      "name": "X 100 Big Bang Kamehameha",
+      "id": "skill-x-100-big-bang-kamehameha"
     }
   ],
   "notes": [
-    "Recomputed from live canonical/index data after the Teleporting Vanishing Ball through Timespace Impact batch.",
+    "Recomputed from live canonical/index data after the Total Detonation Ball through Variant Drive batch.",
     "Canonical/index IDs and ordering remain aligned.",
-    "Existing evidence boundaries and conflicts preserved.",
+    "Existing evidence boundaries and reward conflicts preserved.",
     "CI/runtime remains unavailable; no CI success claimed."
   ]
 }
