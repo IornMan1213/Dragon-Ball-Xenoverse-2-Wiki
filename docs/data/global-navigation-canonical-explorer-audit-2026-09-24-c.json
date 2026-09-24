@@ -7,12 +7,6 @@
   ],
   "changes": [
     {
-      "label": "Quests",
-      "from": "/Parallel-Quests/",
-      "to": "/Parallel-Quests/",
-      "note": "home navigation target was not changed because replacement pattern did not match this layout; wiki retains landing route pending broader migration"
-    },
-    {
       "label": "Super Souls",
       "from": "/Super-Souls/",
       "to": "/Super-Souls-All/",
@@ -33,8 +27,10 @@
       "from": "/Parallel-Quests/",
       "to": "/Parallel-Quests-All/",
       "files": [
+        "docs/_layouts/home.html",
         "docs/_layouts/wiki.html"
-      ]
+      ],
+      "note": "Both live layouts already point to the canonical explorer; no additional layout repair was required in this continuation scan."
     }
   ],
   "reverted": {
@@ -44,5 +40,11 @@
     "reason": "canonical explorer file does not exist; avoid broken navigation"
   },
   "status": "pass",
-  "evidence_boundary": "Navigation-only. No data, identity, acquisition, unlock, or gameplay relationships changed."
+  "evidence_boundary": "Navigation-only. No data, identity, acquisition, unlock, or gameplay relationships changed.",
+  "post_scan": {
+    "home_parallel_quests_target": "/Parallel-Quests-All/",
+    "wiki_parallel_quests_target": "/Parallel-Quests-All/",
+    "expert_missions_target": "/Expert-Missions/",
+    "broken_canonical_targets": 0
+  }
 }
