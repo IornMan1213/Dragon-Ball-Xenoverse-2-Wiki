@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "audit_date": "2026-09-24",
-  "scope": "P1 stale skill provenance refresh — Dancing Parapara through Darkness Rush",
+  "scope": "P1 stale skill provenance refresh — Dancing Parapara through Death Crasher",
   "targets": [
     {
       "skill_id": "skill-dancing-parapara",
@@ -27,6 +27,16 @@
       "skill_id": "skill-darkness-rush-ranged",
       "status": "reconfirmed",
       "evidence": "Lord Slug Lesson 3 provides the ranged variant for Namekian Future Warriors; current documentation identifies it as a 300-Ki Strike Ultimate."
+    },
+    {
+      "skill_id": "skill-death-ball",
+      "status": "reconfirmed",
+      "evidence": "Frieza mentor Lesson 3 endpoint maps directly to Death Ball."
+    },
+    {
+      "skill_id": "skill-death-crasher",
+      "status": "reconfirmed",
+      "evidence": "Frieza mentor Lesson 1 endpoint maps directly to Death Crasher."
     }
   ],
   "evidence_boundary": [
@@ -36,7 +46,7 @@
     "Historical audit files were retained and refreshed in place."
   ],
   "validation": {
-    "target_count": 5,
+    "target_count": 7,
     "status": "pass"
   }
 }
