@@ -11,22 +11,58 @@
     "duplicate_ids": 0
   },
   "next_stale_batch": [
-    "skill-finish-breaker",
-    "skill-finishing-blow",
-    "skill-flash-bomber",
-    "skill-flash-chaser",
-    "skill-flash-fist-crush",
-    "skill-flash-strike",
-    "skill-focus-flash",
-    "skill-force-edge",
-    "skill-force-shield",
-    "skill-formation",
-    "skill-freedom-kick",
-    "skill-fruit-of-the-tree-of-might"
+    {
+      "id": "skill-finish-breaker",
+      "name": "Finish Breaker"
+    },
+    {
+      "id": "skill-finishing-blow",
+      "name": "Finishing Blow"
+    },
+    {
+      "id": "skill-flash-bomber",
+      "name": "Flash Bomber"
+    },
+    {
+      "id": "skill-flash-chaser",
+      "name": "Flash Chaser"
+    },
+    {
+      "id": "skill-flash-fist-crush",
+      "name": "Flash Fist Crush"
+    },
+    {
+      "id": "skill-flash-strike",
+      "name": "Flash Strike"
+    },
+    {
+      "id": "skill-focus-flash",
+      "name": "Focus Flash"
+    },
+    {
+      "id": "skill-force-edge",
+      "name": "Force Edge"
+    },
+    {
+      "id": "skill-force-shield",
+      "name": "Force Shield"
+    },
+    {
+      "id": "skill-formation",
+      "name": "Formation!"
+    },
+    {
+      "id": "skill-freedom-kick",
+      "name": "Freedom Kick"
+    },
+    {
+      "id": "skill-fruit-of-the-tree-of-might",
+      "name": "Fruit of the Tree of Might"
+    }
   ],
   "notes": [
-    "Canonical current count advances by the 12 completed records in this cycle.",
-    "Canonical/index record-count and ID parity remain anchored to the 465-record live baseline; verification-date counts are computed from canonical docs/data/skills.json.",
-    "This cycle changed only verification/provenance metadata and audit registration; existing acquisition, reward, mechanics, restriction, DLC/update, and evidence-conflict semantics were preserved."
+    "Canonical/index counts and IDs remain aligned.",
+    "Counts computed from the live canonical dataset after this bounded batch.",
+    "Existing acquisition, reward, mechanics, restriction, DLC/update, and evidence-conflict semantics were preserved."
   ]
 }
