@@ -5342,4 +5342,4 @@
 - [x] Evidence: reused existing per-record source corpus; acquisition, reward, mechanics, restriction, DLC/update, and conflict semantics were preserved.
 - [x] Validation: **465 canonical / 465 index / 0 duplicate IDs / 194 current / 271 stale**; target parity clean.
 - [ ] CI/runtime unavailable; no CI success claimed.
-- **Exact next stale batch:** **Finish Breaker; Finishing Blow; Flash Bomber; Flash Chaser; Flash Fist Crush; Flash Strike; Focus Flash; Force Edge; Force Shield; Formation!; Freedom Kick; Fruit of the Tree of Might**.
+- **Exact next stale batch:** **Full Power Charge; Full Power Destruction; Future Super Saiyan; Galactic Donuts; Galick Cannon; Galick Gun; Gamma Blaster; Gamma Impact; Genocide Shell; Giant Storm; Gigantic Breaker; Gigantic Burst**.
