@@ -1,3 +1,13 @@
+### 2026-09-24 cycle update — Ki Explosion through Majin Kamehameha
+
+- Completed the next bounded P1 provenance batch: 12 records — Ki Explosion, Kill Driver, Last Emperor, Light Grenade, Lightning Impact, Lightning of Absolution, Lovely Cyclone, Mach Dash, Mach Punch, Maiden Blast, Maiden Burst, and Majin Kamehameha.
+- Synchronized docs/data/skills.json and docs/data/skills-index.json; all 12 now have last_verified=2026-09-24.
+- Validation: 469 canonical / 469 index / 0 duplicate IDs / 0 canonical-index identity or verification-date mismatches.
+- Refreshed docs/data/skill-stale-metadata-census-2026-09-24.json; current live count is 299 current / 170 stale.
+- No unsupported mechanics or acquisition claims were added; existing evidence boundaries remain intact.
+- Exact next stale alphabetical batch: Masenko; Maximum Charge; Meditation; Menacing Flare; Murder Grenade; Orin Combo; Paralysis; Paralyze Beam; Pendulum Bullet; Perfect Kamehameha; Perfect Shot; Petrifying Spit.
+- CI remains unavailable; no CI success claimed.
+
 ### 2026-09-24 cycle update — Justice through Ki Blast Thrust skill provenance refresh
 
 - Completed the next bounded P1 provenance batch: **12 skill records** — Justice Blade, Justice Combination, Justice Drive, Justice Kick, Justice Pose, Justice Rush, Kai Kai, Kaioken, Kaioken Kamehameha, Kairos Cannon, Kamehameha, and Ki Blast Thrust.
