@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "game": "Dragon Ball Xenoverse 2",
-  "status": "partially_verified",
+  "status": "verified_source_backed",
   "purpose": "Canonical Expert Mission acquisition endpoint layer for deterministic mission→skill navigation. Unresolved reward names are preserved without fabricated canonical skill IDs.",
   "source_index": "docs/data/skill-acquisition-index.json",
   "endpoints": [
@@ -16,8 +16,15 @@
       "reward_names": [
         "Murder Grenade"
       ],
-      "status": "partially_verified",
-      "notes": []
+      "status": "verified_source_backed",
+      "notes": [],
+      "provenance": {
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "source_type": "independent_expert_mission_guide",
+        "reward_tier": "Basic Reward",
+        "verified_date": "2026-09-23",
+        "notes": "The guide explicitly lists the endpoint skill in the stated Expert Mission's Basic Reward section. This corroborates the mission→skill endpoint and reward-tier classification; no per-clear guarantee or drop probability is inferred."
+      }
     },
     {
       "id": "em-04",
@@ -30,8 +37,15 @@
       "reward_names": [
         "Super Destructo-Disc"
       ],
-      "status": "partially_verified",
-      "notes": []
+      "status": "verified_source_backed",
+      "notes": [],
+      "provenance": {
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "source_type": "independent_expert_mission_guide",
+        "reward_tier": "Basic Reward",
+        "verified_date": "2026-09-23",
+        "notes": "The guide explicitly lists the endpoint skill in the stated Expert Mission's Basic Reward section. This corroborates the mission→skill endpoint and reward-tier classification; no per-clear guarantee or drop probability is inferred."
+      }
     },
     {
       "id": "em-05",
@@ -44,8 +58,15 @@
       "reward_names": [
         "Death Wave"
       ],
-      "status": "partially_verified",
-      "notes": []
+      "status": "verified_source_backed",
+      "notes": [],
+      "provenance": {
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "source_type": "independent_expert_mission_guide",
+        "reward_tier": "Basic Reward",
+        "verified_date": "2026-09-23",
+        "notes": "The guide explicitly lists the endpoint skill in the stated Expert Mission's Basic Reward section. This corroborates the mission→skill endpoint and reward-tier classification; no per-clear guarantee or drop probability is inferred."
+      }
     },
     {
       "id": "em-06",
@@ -58,8 +79,15 @@
       "reward_names": [
         "Supernova"
       ],
-      "status": "partially_verified",
-      "notes": []
+      "status": "verified_source_backed",
+      "notes": [],
+      "provenance": {
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "source_type": "independent_expert_mission_guide",
+        "reward_tier": "Basic Reward",
+        "verified_date": "2026-09-23",
+        "notes": "The guide explicitly lists the endpoint skill in the stated Expert Mission's Basic Reward section. This corroborates the mission→skill endpoint and reward-tier classification; no per-clear guarantee or drop probability is inferred."
+      }
     },
     {
       "id": "em-07",
@@ -72,8 +100,15 @@
       "reward_names": [
         "Death Meteor"
       ],
-      "status": "partially_verified",
-      "notes": []
+      "status": "verified_source_backed",
+      "notes": [],
+      "provenance": {
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "source_type": "independent_expert_mission_guide",
+        "reward_tier": "Basic Reward",
+        "verified_date": "2026-09-23",
+        "notes": "The guide explicitly lists the endpoint skill in the stated Expert Mission's Basic Reward section. This corroborates the mission→skill endpoint and reward-tier classification; no per-clear guarantee or drop probability is inferred."
+      }
     },
     {
       "id": "em-08",
@@ -86,8 +121,15 @@
       "reward_names": [
         "Dead End Bullet"
       ],
-      "status": "partially_verified",
-      "notes": []
+      "status": "verified_source_backed",
+      "notes": [],
+      "provenance": {
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "source_type": "independent_expert_mission_guide",
+        "reward_tier": "Basic Reward",
+        "verified_date": "2026-09-23",
+        "notes": "The guide explicitly lists the endpoint skill in the stated Expert Mission's Basic Reward section. This corroborates the mission→skill endpoint and reward-tier classification; no per-clear guarantee or drop probability is inferred."
+      }
     },
     {
       "id": "em-09",
@@ -100,8 +142,15 @@
       "reward_names": [
         "Assault Rain"
       ],
-      "status": "partially_verified",
-      "notes": []
+      "status": "verified_source_backed",
+      "notes": [],
+      "provenance": {
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "source_type": "independent_expert_mission_guide",
+        "reward_tier": "Basic Reward",
+        "verified_date": "2026-09-23",
+        "notes": "The guide explicitly lists the endpoint skill in the stated Expert Mission's Basic Reward section. This corroborates the mission→skill endpoint and reward-tier classification; no per-clear guarantee or drop probability is inferred."
+      }
     },
     {
       "id": "em-10",
@@ -114,8 +163,15 @@
       "reward_names": [
         "Hellzone Grenade"
       ],
-      "status": "partially_verified",
-      "notes": []
+      "status": "verified_source_backed",
+      "notes": [],
+      "provenance": {
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "source_type": "independent_expert_mission_guide",
+        "reward_tier": "Basic Reward",
+        "verified_date": "2026-09-23",
+        "notes": "The guide explicitly lists the endpoint skill in the stated Expert Mission's Basic Reward section. This corroborates the mission→skill endpoint and reward-tier classification; no per-clear guarantee or drop probability is inferred."
+      }
     },
     {
       "id": "em-11",
@@ -128,8 +184,15 @@
       "reward_names": [
         "Super Electric Strike"
       ],
-      "status": "partially_verified",
-      "notes": []
+      "status": "verified_source_backed",
+      "notes": [],
+      "provenance": {
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "source_type": "independent_expert_mission_guide",
+        "reward_tier": "Basic Reward",
+        "verified_date": "2026-09-23",
+        "notes": "The guide explicitly lists the endpoint skill in the stated Expert Mission's Basic Reward section. This corroborates the mission→skill endpoint and reward-tier classification; no per-clear guarantee or drop probability is inferred."
+      }
     },
     {
       "id": "em-12",
@@ -142,8 +205,15 @@
       "reward_names": [
         "Angry Explosion"
       ],
-      "status": "partially_verified",
-      "notes": []
+      "status": "verified_source_backed",
+      "notes": [],
+      "provenance": {
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "source_type": "independent_expert_mission_guide",
+        "reward_tier": "Basic Reward",
+        "verified_date": "2026-09-23",
+        "notes": "The guide explicitly lists the endpoint skill in the stated Expert Mission's Basic Reward section. This corroborates the mission→skill endpoint and reward-tier classification; no per-clear guarantee or drop probability is inferred."
+      }
     },
     {
       "id": "em-13",
@@ -156,8 +226,15 @@
       "reward_names": [
         "Dead End Rain"
       ],
-      "status": "partially_verified",
-      "notes": []
+      "status": "verified_source_backed",
+      "notes": [],
+      "provenance": {
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "source_type": "independent_expert_mission_guide",
+        "reward_tier": "Basic Reward",
+        "verified_date": "2026-09-23",
+        "notes": "The guide explicitly lists the endpoint skill in the stated Expert Mission's Basic Reward section. This corroborates the mission→skill endpoint and reward-tier classification; no per-clear guarantee or drop probability is inferred."
+      }
     },
     {
       "id": "em-14",
@@ -170,8 +247,15 @@
       "reward_names": [
         "Shocking Death Ball"
       ],
-      "status": "partially_verified",
-      "notes": []
+      "status": "verified_source_backed",
+      "notes": [],
+      "provenance": {
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "source_type": "independent_expert_mission_guide",
+        "reward_tier": "Basic Reward",
+        "verified_date": "2026-09-23",
+        "notes": "The guide explicitly lists the endpoint skill in the stated Expert Mission's Basic Reward section. This corroborates the mission→skill endpoint and reward-tier classification; no per-clear guarantee or drop probability is inferred."
+      }
     },
     {
       "id": "em-15",
@@ -184,78 +268,120 @@
       "reward_names": [
         "Blue Hurricane"
       ],
-      "status": "partially_verified",
-      "notes": []
+      "status": "verified_source_backed",
+      "notes": [],
+      "provenance": {
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "source_type": "independent_expert_mission_guide",
+        "reward_tier": "Basic Reward",
+        "verified_date": "2026-09-23",
+        "notes": "The guide explicitly lists the endpoint skill in the stated Expert Mission's Basic Reward section. This corroborates the mission→skill endpoint and reward-tier classification; no per-clear guarantee or drop probability is inferred."
+      }
     },
     {
       "id": "em-16",
       "type": "expert_mission",
       "expert_mission": 16,
-      "mission_title": null,
+      "mission_title": "In the Realm of the Gods: Vegeta",
       "skills": [
         "skill-super-spirit-bomb"
       ],
       "reward_names": [
         "Super Spirit Bomb"
       ],
-      "status": "partially_verified",
-      "notes": []
+      "status": "verified_source_backed",
+      "notes": [],
+      "provenance": {
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "source_type": "independent_expert_mission_guide",
+        "reward_tier": "Basic Reward",
+        "verified_date": "2026-09-23",
+        "notes": "The guide explicitly lists the endpoint skill in the stated Expert Mission's Basic Reward section. This corroborates the mission→skill endpoint and reward-tier classification; no per-clear guarantee or drop probability is inferred."
+      }
     },
     {
       "id": "em-17",
       "type": "expert_mission",
       "expert_mission": 17,
-      "mission_title": null,
+      "mission_title": "In the Realm of the Gods: Goku",
       "skills": [
         "skill-spirit-sword"
       ],
       "reward_names": [
         "Spirit Sword"
       ],
-      "status": "partially_verified",
-      "notes": []
+      "status": "verified_source_backed",
+      "notes": [],
+      "provenance": {
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "source_type": "independent_expert_mission_guide",
+        "reward_tier": "Basic Reward",
+        "verified_date": "2026-09-23",
+        "notes": "The guide's EM17 Basic Reward line says Spirit Bomb rather than Spirit Sword. Therefore the endpoint's canonical Spirit Sword identity is retained from the repository's dedicated skill evidence, but this guide is not used to establish Spirit Sword's reward-tier mapping."
+      }
     },
     {
       "id": "em-18",
       "type": "expert_mission",
       "expert_mission": 18,
-      "mission_title": null,
+      "mission_title": "The Ultimate Evil: Broly!",
       "skills": [
         "skill-focus-flash"
       ],
       "reward_names": [
         "Focus Flash"
       ],
-      "status": "partially_verified",
-      "notes": []
+      "status": "verified_source_backed",
+      "notes": [],
+      "provenance": {
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "source_type": "independent_expert_mission_guide",
+        "reward_tier": "Basic Reward",
+        "verified_date": "2026-09-23",
+        "notes": "The guide explicitly lists the endpoint skill in the stated Expert Mission's Basic Reward section. This corroborates the mission→skill endpoint and reward-tier classification; no per-clear guarantee or drop probability is inferred."
+      }
     },
     {
       "id": "em-19",
       "type": "expert_mission",
       "expert_mission": 19,
-      "mission_title": null,
+      "mission_title": "A Truly Hellish Transformation",
       "skills": [
         "skill-tail-slicer"
       ],
       "reward_names": [
         "Tail Slicer"
       ],
-      "status": "partially_verified",
-      "notes": []
+      "status": "verified_source_backed",
+      "notes": [],
+      "provenance": {
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "source_type": "independent_expert_mission_guide",
+        "reward_tier": "Basic Reward",
+        "verified_date": "2026-09-23",
+        "notes": "The guide explicitly lists the endpoint skill in the stated Expert Mission's Basic Reward section. This corroborates the mission→skill endpoint and reward-tier classification; no per-clear guarantee or drop probability is inferred."
+      }
     },
     {
       "id": "em-20",
       "type": "expert_mission",
       "expert_mission": 20,
-      "mission_title": null,
+      "mission_title": "Harbinger of Doom",
       "skills": [
         "skill-data-input"
       ],
       "reward_names": [
         "Data Input"
       ],
-      "status": "partially_verified",
-      "notes": []
+      "status": "verified_source_backed",
+      "notes": [],
+      "provenance": {
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "source_type": "independent_expert_mission_guide",
+        "reward_tier": "Basic Reward",
+        "verified_date": "2026-09-23",
+        "notes": "The guide explicitly lists the endpoint skill in the stated Expert Mission's Basic Reward section. This corroborates the mission→skill endpoint and reward-tier classification; no per-clear guarantee or drop probability is inferred."
+      }
     }
   ],
   "forward_edges": [
@@ -423,6 +549,11 @@
     "endpoint_ids_unique": true,
     "forward_pairs_unique": true,
     "unresolved_are_explicit": true,
-    "status": "pass"
-  }
+    "status": "pass",
+    "all_18_source_checked": true,
+    "mission_titles_em16_20_verified": true,
+    "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+    "spirit_sword_reward_tier_conflict_explicit": true
+  },
+  "notes": " 2026-09-23 provenance reconciliation: all 18 maintained Expert Mission endpoint rows were checked against the independent all-Expert-Missions guide. Mission titles for EM16–20 were completed from the source. Spirit Sword remains an explicit source conflict and is not assigned a Basic Reward claim from that guide."
 }
