@@ -6899,3 +6899,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: **465/465 canonical/index IDs**, **0 duplicate IDs**, **72 current / 393 stale** after editing.
 - CI/runtime remains unavailable; no CI success claimed.
 - Exact next stale batch: **Charged Ki Wave; Circle Flash; Comet Strike; Confusion Blade; Core Breaker; Counter Burst; Counter Impact; Crazy Finger Shot; Crimson Edge; Critical Upper; Crush Cannon; Crush Stream**.
+
+
+### 2026-09-24 cycle update — Charged Ki Wave through Crush Stream provenance refresh
+
+- Live census before editing: **465 canonical / 465 index / 393 stale / 0 duplicate IDs**.
+- Completed the next bounded P1 batch: **12 skill records** — Charged Ki Wave; Circle Flash; Comet Strike; Confusion Blade; Core Breaker; Counter Burst; Counter Impact; Crazy Finger Shot; Crimson Edge; Critical Upper; Crush Cannon; Crush Stream.
+- Repository-first evidence review used the existing maintained source/provenance records for each target; source-backed acquisition and evidence boundaries were preserved rather than inferred or expanded.
+- Refreshed canonical last_verified to **2026-09-24** for all 12 targets. No canonical skill identity or acquisition relationship was changed.
+- Added `docs/data/skill-provenance-audit-2026-09-24-charged-ki-wave-through-crush-stream.json` and refreshed `docs/data/skill-stale-metadata-census-2026-09-24.json`.
+- Validation: **465/465 canonical/index IDs**, **0 duplicate IDs**, **84 current / 381 stale** after editing.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next stale batch: **Crusher Ball; Dancing Parapara; Dark Inscription; Darkness Eye Beam; Darkness Rush (Melee); Darkness Rush (Ranged); Darkness Twin Star; Data Input; Dead End Bullet; Dead End Rain; Deadly Dance; Death Ball**.
