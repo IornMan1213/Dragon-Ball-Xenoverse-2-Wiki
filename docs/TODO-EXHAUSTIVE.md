@@ -6570,3 +6570,13 @@
 - [x] Validation passed: no unresolved Hit skill ID in resolved projections, 0 broken endpoints, crosslink/current acquisition parity maintained.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Next:** continue the deterministic non-PQ/mentor consumer scan for any remaining current-facing references to `skill-time-skip-tremor-pulse` or stale 132-edge/131-target counts; preserve explicitly historical snapshots.
+
+
+### 2026-09-24 completed remaining mentor acquisition stale-count sweep
+- [x] Found and corrected the final current top-level stale mentor acquisition counts in `docs/data/skill-acquisition-coverage-report.json`: **132/131 → 131/130** resolved edges/targets.
+- [x] Confirmed the removed Hit → `skill-time-skip-tremor-pulse` ID has no current canonical/projection occurrence; remaining occurrences are explicitly historical/audit evidence.
+- [x] Preserved historical `docs/COVERAGE-AUDIT.md` counts under append-only rules.
+- [x] Validation: current mentor projection 131 resolved edges / 130 unique targets; 133 lesson rewards / 132 typed skill rewards / 1 non-skill reward / 1 unresolved skill lesson; 0 broken endpoints.
+- [x] Commit: `db9db28c1d35a43babeda0098e8ff79c8871e587`.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Next:** bounded current-facing non-PQ acquisition consumer sweep outside the mentor layer, prioritizing stale scalar projections and one-way links.
