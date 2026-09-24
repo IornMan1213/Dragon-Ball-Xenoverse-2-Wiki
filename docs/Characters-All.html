@@ -18,7 +18,7 @@ Search the canonical character identity layer. Preset records and explicit Paral
 (async function(){
  const q=document.getElementById('q'), pq=document.getElementById('pq'), stats=document.getElementById('stats'), results=document.getElementById('results');
  const esc=v=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
- const searchUrl=v=>'{{ "/Search/" | relative_url }}?q='+encodeURIComponent(v);
+ const searchUrl=v=>'{{ "/Characters-All/" | relative_url }}?q='+encodeURIComponent(v);
  const pqUrl=v=>'{{ "/Parallel-Quests-All/" | relative_url }}?q='+encodeURIComponent('PQ '+v);
  let names=[],presets=[],bridge={},index={};
  function render(){
