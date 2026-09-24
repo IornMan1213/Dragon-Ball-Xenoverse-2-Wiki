@@ -1,3 +1,15 @@
+### 2026-09-24 cycle update — current accessory presentation consumer reconciliation
+
+- Audited the current non-PQ equipment/accessory presentation surface `docs/Equipment-All.html` against the live canonical/evidence layers after the final raid accessory identity reconciliation.
+- Added and registered `docs/data/accessory-presentation-consumer-current-audit-2026-09-24.json`.
+- Current machine-checkable baseline: **174 combined equipment/accessory presentation records / 116 current canonical `accr-###` accessory identities / 74 legacy `acc-###` PQ accessory projection identities / 124 PQ→equipment forward edges / 122 unique PQ equipment targets / 9 raid identity records resolved / 18 raid-gift bridge records resolved**.
+- Confirmed `Equipment-All.html` derives its record count from `equipment-accessories-record-layer.json` at runtime and derives PQ links only from authoritative `pq-reward-relationships.json`; it does not hard-code the stale 74/88 accessory count.
+- Confirmed the raid/gift bridge remains provenance-only and does not create PQ relationship edges; no orphan canonical accessory target, missing raid canonical ID, or unresolved raid identity remains in the checked current layers.
+- Corrected stale current-facing accessory counts in `docs/Accessory-Canonical-Database.md` (**88 → 116** current canonical reconciliation identities; legacy 74-record PQ projection explicitly distinguished) and `docs/index.md` (**Accessory Shop 53 → 51**, **canonical accessories 37 → 116**).
+- No new acquisition relationship, raid availability, reward probability, Ultimate Finish condition, or canonical identity was inferred in this consumer pass.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next priority:** continue deterministic post-accessory non-PQ consumer scanning, prioritizing any remaining current-facing equipment/raid/event or character/preset count drift, orphan targets, one-way navigation, and canonical-ID namespace confusion. Then resume the highest-priority source-backed provenance queue without reopening resolved accessory identities.
+
 ### 2026-09-24 cycle update — Masenko through Petrifying Spit
 
 - Completed the next bounded P1 provenance batch: 12 records — Masenko, Maximum Charge, Meditation, Menacing Flare, Murder Grenade, Orin Combo, Paralysis, Paralyze Beam, Pendulum Bullet, Perfect Kamehameha, Perfect Shot, and Petrifying Spit.
