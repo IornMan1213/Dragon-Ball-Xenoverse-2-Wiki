@@ -61,7 +61,7 @@ This is an active research track, not a future polish task. The presence of a pa
 ## Latest validation result
 
 - Commit b42c5759: the four canonical skill verification-status values were normalized from invalid `corrected`/`researched` states to schema-valid `partially_verified` states in both canonical files.
-- Commit 2c20abe5: cleanup was strengthened to remove bare `filecite`/`memcite` markers in addition to PUA spans and turn references.
+- Commit 2c20abe5: cleanup was strengthened to remove bare ``/`` markers in addition to PUA spans and turn references.
 - Commit 2c20abe5: Repository Quality and Clean Internal Artifacts still fail; Pages is still building. Skills Sync was not triggered by the status/cleanup-only changes.
 - The available connector exposes check-run failure counts but not the underlying annotation payloads, so the root cause remains unresolved.
 
