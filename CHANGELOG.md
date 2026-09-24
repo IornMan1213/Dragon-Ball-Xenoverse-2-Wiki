@@ -1,3 +1,10 @@
+## 2026-09-24 — Time Skip/Tremor Pulse research enrichment
+
+- Strengthened the existing Hit mentor research record with current direct evidence for Time Skip/Tremor Pulse: Strike Evasive, 200 Stamina, CaC usability, Hit Lesson 3/fourth mentor reward, Super Class prerequisite, unblockable directional teleport behavior, and a source-backed 7% damage reference retained as research-only.
+- Added and registered `docs/data/skill-time-skip-tremor-pulse-research-enrichment-2026-09-24.json`.
+- Preserved the unresolved canonical boundary; no canonical skill or mentor edge was fabricated.
+- CI/runtime unavailable; no CI success claimed.
+
 ## 2026-09-24 — E-series skill provenance refresh
 
 - Refreshed the existing Dynamite Kick through Energy Barrier aggregate provenance audit to 2026-09-24.
