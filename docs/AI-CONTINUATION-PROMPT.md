@@ -1,3 +1,10 @@
+### 2026-09-24 cycle completion — artifact-check investigation after CI retry
+- [x] Polled Repository quality run `36072900893`; attempt 2 completed **failure** at `Check for internal artifacts`.
+- [x] Inspected the live checker contract and verified semantic repository search finds no current `turn10file`, `turn11file`, or other indexed internal-marker matches.
+- [x] Confirmed the previous cleanup was effective for the affected tracked files, but GitHub's job exposes no usable log payload (404 BlobNotFound), so the exact failing tracked path cannot be established from the available Actions API.
+- [x] Did not weaken or bypass the artifact checker merely to force CI green.
+- [ ] **Exact next:** obtain a deterministic full-tree scan against the exact Git checkout (or usable CI logs) to identify the remaining artifact path before modifying additional files. Preserve checker semantics.
+
 ### 2026-09-24 cycle completion — repository internal-artifact cleanup + Actions retry
 - [x] Investigated the repeated `Repository quality → Check for internal artifacts` failures instead of treating them as generic CI unavailability.
 - [x] Inspected `scripts/check_repo_artifacts.py` and `scripts/strip_internal_artifacts.py` to identify the exact forbidden marker contract.
