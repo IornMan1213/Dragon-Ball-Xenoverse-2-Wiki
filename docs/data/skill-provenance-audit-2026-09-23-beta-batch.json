@@ -36,8 +36,8 @@
   ],
   "evidence_boundary": "Existing acquisition-tier conflicts and unresolved mechanics were not overwritten or inferred away.",
   "validation": {
-    "canonical_records": 455,
-    "index_records": 455,
+    "canonical_records": 465,
+    "index_records": 465,
     "duplicate_ids": 0,
     "target_records": 5,
     "canonical_index_targets_synchronized": true
