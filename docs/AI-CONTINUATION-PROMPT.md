@@ -1,3 +1,12 @@
+### 2026-09-24 cycle completion — Energy Boil skill-gap evidence enrichment
+- [x] Strengthened the unresolved `Energy Boil` research record with Xenoverse 2-specific identity evidence: skill ID 10540, CaC-unavailable status, and Final Form Demigra ownership.
+- [x] Added direct Xenoverse 2 restoration/mod evidence describing Energy Boil as an evasive, plus independent reference corroboration of the Evasive classification and behavior.
+- [x] Added `docs/data/skill-research-gaps-energy-boil-evidence-audit-2026-09-24.json` with explicit evidence boundaries.
+- [x] Reduced the unresolved field set to canonical `subcategory` and `ki_cost`; no acquisition route or numeric combat value was invented.
+- [x] Preserved the canonical 469/469 skill boundary; no unsupported promotion was attempted.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue the next unresolved thin skill gap (`Acid` or `Boiling Burg`) with direct Xenoverse 2 evidence, then return to the next highest-priority deterministic thin-domain consumer.
+
 ### 2026-09-24 cycle completion — Baked Sphere skill-gap evidence enrichment
 - [x] Strengthened the unresolved `Baked Sphere` record with Xenoverse 2-specific evidence for its Ultimate/explosive-wave classification and CaC-unavailable status.
 - [x] Added `docs/data/skill-research-gaps-baked-sphere-evidence-audit-2026-09-24.json` with explicit source/evidence boundaries.
