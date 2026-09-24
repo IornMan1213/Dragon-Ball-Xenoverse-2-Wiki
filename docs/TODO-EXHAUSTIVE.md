@@ -6417,3 +6417,13 @@
 - [x] Validation: targeted obsolete landing links = 0; canonical explorer targets present; audit status = pass.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** deterministic scan of remaining system/reference landing consumers for stale explorer targets and scalar/count drift, especially DLC, Super Soul/Equipment reference pages, and system landing pages not covered by the current audit registry; then return to direct-evidence preset/loadout expansion.
+
+
+### 2026-09-24 completed preset projection census synchronization
+- [x] Recomputed the live canonical preset producer directly from docs/data/character-presets-record-layer.json: 51 records / 26 verified loadouts / 25 unresolved loadouts / 0 duplicate IDs.
+- [x] Revalidated scripts/validate_preset_loadout_evidence.py: all 26 verified records have loadout object + explicit loadout source + non-empty sources; the 20-record numeric unresolved boundary remains intact.
+- [x] Corrected three stale current-facing projections from 25 → 26 verified loadouts: docs/data/current-presentation-consumer-scan-2026-09-24.json, docs/data/characters/character-presentation-consumer-audit.json, and docs/data/goku-preset-loadout-source-boundary-2026-09-24.json.
+- [x] Direct numeric-to-complete-loadout web research remained insufficient for Goku Presets 2–18, Vegeta Presets 10–11, and Captain Ginyu Presets 5–6; no unsupported promotion was made.
+- [x] Restored the unexpectedly empty docs/AI-CONTINUATION-PROMPT.md from the latest non-empty handoff revision and appended the current cycle state.
+- [x] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Next: continue deterministic preset/character consumer scanning for stale projections and one-way navigation, then pursue direct numeric preset-label + complete eight-slot configuration evidence only where explicitly supported.

@@ -8216,30 +8216,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Commits: 62902eeeef940f9858746cc37655a645ddf0183e, c20c6999a18d67dbde343f435f36c6eeaab717c9.
 - Exact next batch: locate direct numeric-to-complete-loadout evidence for Goku Presets 2–18, Vegeta Presets 10–11, or Captain Ginyu Presets 5–6.
 
-### 2026-09-24 cycle update — preset evidence corroboration
-- Checked current Goku in-game-data and the dated Burcol preset/unlock video against unresolved numeric records.
-- Video corroborates numeric identity for several unresolved presets, but current Goku data does not safely bind named loadouts to those numeric IDs.
-- Updated `docs/data/preset-loadout-current-evidence-audit-2026-09-24.json`; promotion count remains 0.
-- **Next:** seek direct numeric-label + complete-skill-slot evidence; otherwise move to the next exhaustive coverage task without inferring mappings.
 
-
-
-### 2026-09-24 cycle update — canonical explorer target inventory
-- Inspected current landing/navigation surfaces and verified canonical searchable explorers: Characters-All.html, Skills-All.html, Parallel-Quests-All.html, Equipment-All.html, Super-Souls-All.html, Awoken-All.html, and Mentors-All.html.
-- Confirmed Expert Missions correctly have no Expert-Missions-All.html target and remain on existing landing/database surfaces.
-- Confirmed Parallel-Quests-All.html uses canonical explorer targets for structured reward/character navigation and keeps DLC on generic Search fallback because DLC-Overview is a landing page.
-- Updated current-presentation-consumer-scan-2026-09-24.json and TODO.
-- CI/runtime unavailable; no CI success claimed.
-- **Exact next batch:** inspect remaining system/reference consumers for canonical-ID drift and one-way navigation, prioritizing surfaces not yet covered by the current presentation scan.
-
-
-### 2026-09-24 cycle update — homepage canonical explorer target synchronization
-- Audited the live homepage consumer after the broader non-PQ navigation pass.
-- Found current homepage links still routing Characters, Super Souls, and Equipment database destinations through legacy landing pages; the live canonical searchable explorers are Characters-All.html, Super-Souls-All.html, and Equipment-All.html. Mentor links were already canonical.
-- Repaired the affected homepage links to canonical explorers.
-- Added and registered `docs/data/homepage-canonical-explorer-navigation-audit-2026-09-24.json`.
-- Validation: 0 targeted obsolete landing-link occurrences remain in `docs/index.md`; all canonical explorer targets exist; navigation-only audit passes.
-- Evidence boundary preserved: no canonical records, relationships, acquisition routes, unlock conditions, mechanics, or historical audit snapshots were changed.
-- CI/runtime remains unavailable; no CI success claimed.
-- Commits: `23708d40ce8a28ea60660d99bdbc2db9df2d195e`, `25fc89bc396b70d55d18887f5ce48106dfdb257e`, `1f52b28bcf518a98ac643d839fa82834da206b3d`.
-- Exact next batch: continue deterministic scan of remaining system/reference landing consumers for stale canonical explorer targets and scalar drift, prioritizing DLC/system/reference pages not covered by registered audits; then resume evidence-gated preset/loadout research only where numeric identity plus complete configuration is directly evidenced.
+### 2026-09-24 cycle update — preset projection census synchronization and handoff restoration
+- Live canonical preset producer: 51 records / 26 verified loadouts / 25 unresolved loadouts / 0 duplicate IDs.
+- Deterministic validator scripts/validate_preset_loadout_evidence.py independently confirms all 26 verified records have a loadout object, explicit loadout source, and non-empty sources; the 20-record numeric unresolved boundary remains intact.
+- Current consumer scan found three stale current-facing projections that still reported 25 verified loadouts: docs/data/current-presentation-consumer-scan-2026-09-24.json, docs/data/characters/character-presentation-consumer-audit.json, and docs/data/goku-preset-loadout-source-boundary-2026-09-24.json. These were synchronized to the live 26-record producer without changing any preset identity or loadout.
+- The direct numeric-to-complete-loadout web search did not locate sufficient evidence for the unresolved Goku 2–18, Vegeta 10–11, or Captain Ginyu 5–6 records; the existing evidence gate remains in force and no promotions were made.
+- Restored docs/AI-CONTINUATION-PROMPT.md from the latest non-empty continuation-handoff revision before appending this entry; the current main-branch file had become unexpectedly empty, so historical handoff state is preserved from that prior revision and current TODO history remains authoritative for subsequent reconciliation.
+- Validation: canonical preset JSON = 51/26/25/0 duplicates; edited JSON projections parse and agree with the producer; numeric unresolved set remains 20/20; CI/runtime remains unavailable and no CI success is claimed.
+- Exact next batch: continue deterministic current-facing preset/character consumer scanning for stale projections and one-way navigation; then pursue direct numeric preset-label + complete eight-slot configuration evidence for the unresolved families, without row-order/costume-order inference.
