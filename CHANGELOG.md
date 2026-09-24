@@ -1976,7 +1976,7 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 
 ### 2026-09-22 cycle update — Super Soul acquisition reconciliation PQ58
 - [x] Bounded batch: reconciled canonical PQ58 → Super Soul `Killed all Earthlings!` into the partial PQ41–186 acquisition projection.
-- [x] External evidence: the maintained Super Soul/PQ references explicitly identify `Killed all Earthlings!` as obtained from **Parallel Quest 58**. citeturn0search0turn0search2
+- [x] External evidence: the maintained Super Soul/PQ references explicitly identify `Killed all Earthlings!` as obtained from **Parallel Quest 58**. 
 - [x] No canonical relationship was modified; this was a provenance/projection reconciliation only.
 - [x] Exact post-edit comparison: **133** canonical PQ41–186 Super Soul pairs / **128** indexed pairs / **126** exact overlap / **7** remaining differences. Remaining differences are five exact canonical gaps (both PQ158 entries, PQ174, PQ178, PQ179) plus the two capitalization variants at PQ164/PQ173.
 - [x] Updated `docs/data/super-souls/pq-acquisition-index-041-186.json` and `docs/data/super-souls/pq-acquisition-index-reconciliation-audit.json`.
@@ -2411,7 +2411,7 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 
 ### 2026-09-23 cycle update — Super Soul 034 item-level evidence boundary
 - Bounded batch: **Super Soul 034 — “The final battle begins now.”**
-- Fresh independent evidence: the maintained all-Parallel-Quest guide confirms the exact-name reward in **PQ 186 — Frieza's Right-Hand Man** and the Future Saga Chapter 4 reward context. citeturn3search0turn3search1
+- Fresh independent evidence: the maintained all-Parallel-Quest guide confirms the exact-name reward in **PQ 186 — Frieza's Right-Hand Man** and the Future Saga Chapter 4 reward context. 
 - Result: strengthened the acquisition identity without inventing mechanics. The source does not safely map the two Super Soul names in PQ186 to characters or provide item-level effects/Limit Burst data.
 - Added and registered `docs/data/super-soul-034-item-level-evidence-reconciliation-2026-09-23.json`.
 - Evidence boundary preserved: no Fu character attribution, trigger, effect, duration, stacking, Limit Burst, drop probability, or Ultimate-Finish mapping was inferred.
@@ -2422,7 +2422,7 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 
 ### 2026-09-23 cycle update — Super Soul 158 identity conflict resolution
 - Bounded batch: **record 158 — “Do or Die.”**
-- Fresh exact-name evidence identifies **Do or Die as Nail's Power Up Type Super Skill from PQ49**, while Nail's Super Soul is separately documented as **“I must protect Grand Elder Guru!”**. citeturn3search0turn3search2
+- Fresh exact-name evidence identifies **Do or Die as Nail's Power Up Type Super Skill from PQ49**, while Nail's Super Soul is separately documented as **“I must protect Grand Elder Guru!”**. 
 - Change: record 158 is now an explicit **identity-conflict placeholder**. Unsupported Super Soul mechanics and acquisition metadata were cleared; the record itself was preserved so the discrepancy remains auditable.
 - Added `docs/data/super-soul-158-identity-conflict-reconciliation-2026-09-23.json` and refreshed the strict-thin checkpoint.
 - Evidence boundary: no silent ID remap or rename was performed.
@@ -2431,7 +2431,7 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 
 
 ### 2026-09-23 cycle update — Super Soul 158 collision reconciliation
-- Fresh web evidence confirms **Do or Die** is a Power Up Type Super Skill and that Nail's actual Super Soul is **“I must protect Grand Elder Guru!”**. citeturn0search0turn0search1
+- Fresh web evidence confirms **Do or Die** is a Power Up Type Super Skill and that Nail's actual Super Soul is **“I must protect Grand Elder Guru!”**. 
 - The repository now treats record 158 as a **skill-name collision placeholder**, not as a Super Soul with unknown mechanics.
 - Added/registered `docs/data/super-soul-158-identity-reconciliation-2026-09-23.json`; checkpoint, TODO, and handoff updated.
 - No unsupported Super Soul fields were restored.
@@ -2514,7 +2514,7 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 ### 2026-09-23 cycle update — Super Destructo-Disc provenance strengthening
 - Live census before editing: **455 canonical / 455 index / 0 duplicate IDs / 424 stale / 2 exact-two-source records**.
 - Bounded target: **Super Destructo-Disc** (`skill-super-destructo-disc`).
-- Research/evidence: an independent Steam Expert Mission guide lists **EM04 — Invasion of the Evil Super Namek** and **Super Destructo-Disc** under Basic Rewards; an independent Dragon Ball technique reference also identifies Expert Mission 04 as the Future Warrior acquisition route. citeturn0search4turn0search0
+- Research/evidence: an independent Steam Expert Mission guide lists **EM04 — Invasion of the Evil Super Namek** and **Super Destructo-Disc** under Basic Rewards; an independent Dragon Ball technique reference also identifies Expert Mission 04 as the Future Warrior acquisition route. 
 - Changes: added the Steam guide as a third canonical/index source; refreshed `last_verified` to 2026-09-23; appended a provenance note.
 - Evidence limits preserved: no numerical drop rate or guaranteed-per-clear claim was inferred beyond the source's Basic Reward labeling; existing 200-Ki, Ki Blast, EM4 endpoint, CaC scope, and mechanics remain unchanged.
 - Added and registered `docs/data/skill-super-destructo-disc-provenance-audit-2026-09-23.json`.
@@ -2581,7 +2581,7 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 ### 2026-09-23 cycle update — P1 Core-through-Critical skill provenance refresh
 - Live census before editing: **455 canonical / 455 index / 1 exact-two-source / 405 stale verification dates**.
 - Bounded batch: **Counter Burst, Counter Impact, Crazy Finger Shot, Crimson Edge, Critical Upper**.
-- Research/evidence: dedicated Xenoverse 2 references and independent corroboration were rechecked; the official Dragon Ball site independently corroborates Counter Impact's counter behavior. citeturn2search0turn2search1turn2search2turn3search1turn2search6turn3search7
+- Research/evidence: dedicated Xenoverse 2 references and independent corroboration were rechecked; the official Dragon Ball site independently corroborates Counter Impact's counter behavior. 
 - Changes: synchronized canonical/index sources and refreshed all five targets to **2026-09-23**; Counter Impact gained the official Dragon Ball source.
 - Evidence limits/conflicts preserved: no unsupported drop probability, extra gate, or narrower CaC restriction was inferred.
 - Added/registered **docs/data/skill-provenance-audit-2026-09-23-core-through-critical-upper.json** and **docs/data/skill-stale-metadata-census-2026-09-23-core-through-critical-upper.json**.
@@ -2964,7 +2964,7 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - [x] Synchronized them to the live canonical **152-character** producer without changing the 247 character relationship edges, 75 unique relationship targets, aliases, or reverse mappings.
 - [x] Added `docs/data/current-character-consumer-scan-2026-09-24.json` and registered it in the cross-domain index.
 - [x] Validation: canonical character count 152; character relationship edges 247; missing canonical targets 0; orphan reverse targets 0; duplicate forward pairs 0.
-- [x] Web research also reconfirmed that the strongest readily indexed numeric-preset source still exposes numeric identity/unlock placement rather than complete slot configurations; no unsupported preset promotion was made. citeturn0youtube20turn0youtube21
+- [x] Web research also reconfirmed that the strongest readily indexed numeric-preset source still exposes numeric identity/unlock placement rather than complete slot configurations; no unsupported preset promotion was made. 
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** continue scanning current Event/Raid/Festival/Chapter 4 and non-PQ record consumers for stale scalar/count metadata and one-way navigation, then return to direct numeric preset + complete configuration evidence.
 
