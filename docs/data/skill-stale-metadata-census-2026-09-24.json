@@ -6,63 +6,63 @@
   "live_counts": {
     "canonical_skill_records": 465,
     "index_skill_records": 465,
-    "current_last_verified_records": 194,
-    "stale_last_verified_records": 271,
+    "current_last_verified_records": 206,
+    "stale_last_verified_records": 259,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
     {
-      "id": "skill-finish-breaker",
-      "name": "Finish Breaker"
+      "id": "skill-full-power-charge",
+      "name": "Full Power Charge"
     },
     {
-      "id": "skill-finishing-blow",
-      "name": "Finishing Blow"
+      "id": "skill-full-power-destruction",
+      "name": "Full Power Destruction"
     },
     {
-      "id": "skill-flash-bomber",
-      "name": "Flash Bomber"
+      "id": "skill-future-super-saiyan",
+      "name": "Future Super Saiyan"
     },
     {
-      "id": "skill-flash-chaser",
-      "name": "Flash Chaser"
+      "id": "skill-galactic-donuts",
+      "name": "Galactic Donuts"
     },
     {
-      "id": "skill-flash-fist-crush",
-      "name": "Flash Fist Crush"
+      "id": "skill-galick-cannon",
+      "name": "Galick Cannon"
     },
     {
-      "id": "skill-flash-strike",
-      "name": "Flash Strike"
+      "id": "skill-galick-gun",
+      "name": "Galick Gun"
     },
     {
-      "id": "skill-focus-flash",
-      "name": "Focus Flash"
+      "id": "skill-gamma-blaster",
+      "name": "Gamma Blaster"
     },
     {
-      "id": "skill-force-edge",
-      "name": "Force Edge"
+      "id": "skill-gamma-impact",
+      "name": "Gamma Impact"
     },
     {
-      "id": "skill-force-shield",
-      "name": "Force Shield"
+      "id": "skill-genocide-shell",
+      "name": "Genocide Shell"
     },
     {
-      "id": "skill-formation",
-      "name": "Formation!"
+      "id": "skill-giant-storm",
+      "name": "Giant Storm"
     },
     {
-      "id": "skill-freedom-kick",
-      "name": "Freedom Kick"
+      "id": "skill-gigantic-breaker",
+      "name": "Gigantic Breaker"
     },
     {
-      "id": "skill-fruit-of-the-tree-of-might",
-      "name": "Fruit of the Tree of Might"
+      "id": "skill-gigantic-burst",
+      "name": "Gigantic Burst"
     }
   ],
   "notes": [
     "Canonical/index counts and IDs remain aligned.",
-    "Counts computed from the live canonical dataset after this bounded batch.",
+    "Counts computed from the live canonical dataset after the completed 12-record batch.",
     "Existing acquisition, reward, mechanics, restriction, DLC/update, and evidence-conflict semantics were preserved."
   ]
 }
