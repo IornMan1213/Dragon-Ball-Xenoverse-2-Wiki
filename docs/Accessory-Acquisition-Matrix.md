@@ -29,7 +29,7 @@ The structured source for this pass is `docs/data/accessory-pq-audit-169-186.jso
 
 PQ184 remains a special case: the accessory is present in the basic reward list, while the current research corpus separately records a 50% Ultimate-Finish reward chance. These facts are not collapsed into a generic guaranteed-drop statement.
 
-PQ185 also receives a research flag rather than a fabricated requirement: recent player reports describe inconsistent clothing rewards and possible online/offline differences, but those reports do not establish a definitive hidden unlock rule. citeturn0search2turn0search3
+PQ185 also receives a research flag rather than a fabricated requirement: recent player reports describe inconsistent clothing rewards and possible online/offline differences, but those reports do not establish a definitive hidden unlock rule. 
 
 ## Cross-route records
 
