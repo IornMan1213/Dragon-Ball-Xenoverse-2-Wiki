@@ -6260,3 +6260,14 @@
 - [x] Rejected SSGSS Goku Preset 4 evidence as the wrong roster identity for base Goku Preset 4.
 - [x] Updated the preset evidence-gate audit.
 - [ ] **Next:** locate complete version-correct numeric-preset loadout evidence.
+
+
+### 2026-09-24 cycle completion — mentor explorer cross-navigation
+- [x] Live mentor baseline verified from the canonical layer: **33 mentor identities / 133 lesson reward objects / 132 skill rewards / 1 typed non-skill reward / 131 mentor→skill edge rows / 130 unique canonical skill targets / 0 broken skill endpoints**.
+- [x] Added `docs/Mentors-All.html`, a live canonical mentor explorer that reads `docs/data/mentors-record-layer.json` and exposes lesson→skill links into `Skills-All.html`.
+- [x] Updated `docs/Skills-All.html` so canonical skill records with mentor provenance link back to the mentor explorer, completing the presentation-level mentor↔skill navigation loop.
+- [x] Updated `docs/Mentors.md` and `README.md` to expose the new explorer and replaced the obsolete roadmap claim that the mentor catalog still needed normalization.
+- [x] Added and registered `docs/data/mentor-presentation-consumer-audit-2026-09-24.json` in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved the evidence boundary: Hit's Time Skip/Tremor Pulse remains the single unresolved skill lesson because no canonical skill ID exists; Zamasu's initiation reward remains typed as a Super Soul rather than a missing skill. No unlock condition, friendship threshold, reward probability, or gameplay mechanic was inferred.
+- [x] Validation: audit JSON parses; cross-domain index parses and contains the new registration; explorer and reverse-navigation wiring were re-fetched and checked for the expected canonical data paths. CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next batch:** inspect the next uncovered current non-PQ presentation consumer, prioritizing the Expert Mission endpoint layer and its page/search navigation for stale counts, one-way links, orphan targets, and canonical-ID drift; preserve unresolved evidence boundaries, then resume source-backed preset/loadout expansion where direct numeric identity plus complete configuration can be established.
