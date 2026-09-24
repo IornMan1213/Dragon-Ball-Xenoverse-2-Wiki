@@ -5632,3 +5632,14 @@
 - [x] No PQ relationship was invented; endpoint identities derive from canonical acquisition/recovery records.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next priority: continue the live cross-domain producer/consumer audit from the now-complete 469-skill endpoint union, checking remaining reverse-navigation projections and validator assumptions for stale counts or orphan targets.
+
+
+### 2026-09-24 cycle update — live PQ producer/consumer projection audit
+- [x] Re-read the live continuation instructions and audited the deterministic PQ producer/consumer layers after the 469-skill endpoint-union repair.
+- [x] Confirmed the canonical PQ relationship master remains **853 edges**: 244 skills, 145 Super Souls, 124 equipment, 247 character, 86 DLC, 7 farming.
+- [x] Confirmed PQ reward presentation remains exact-pair clean: skill 244/244, Super Soul 145/145, equipment 124/124, DLC 86/86; unresolved and duplicate structured pairs remain zero.
+- [x] Confirmed the live skill acquisition endpoint projection remains **469 canonical / 239 PQ-linked / 230 non-PQ endpoint targets / 469 union / 0 uncovered** across mentor, expert mission, story/tournament, shop, Tokipedia, Conton City Patrol, special acquisition, character-exclusive, and starting-move layers.
+- [x] Refreshed `docs/data/pq-cross-domain-status.json`, `docs/data/pq-relationship-producer-census.json`, and `docs/data/pq-explorer-reward-navigation-audit.json` with the current 2026-09-24 reconciliation state.
+- [x] No canonical PQ relationship changes were necessary; the remaining partial research/source-normalized artifacts are explicitly preserved as non-canonical layers.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next priority: inspect remaining cross-domain reverse projections beyond the PQ reward layer (especially character/DLC identity bridges and partial research indexes) for deterministic orphan, stale-count, or target-resolution drift; do not convert partial research absence into negative canonical claims.
