@@ -4,7 +4,7 @@
   "scope": "P1 stale skill provenance research — Strike of Revelation through Super Gamma Blast",
   "source_of_truth": "docs/data/skills.json",
   "index": "docs/data/skills-index.json",
-  "status": "researched_pending_canonical_sync",
+  "status": "completed",
   "selection_policy": "Next exact alphabetical stale canonical batch from the live 2026-09-24 census.",
   "records": [
     {
@@ -153,15 +153,20 @@
     }
   ],
   "changes": [
-    "Completed repository-first evidence reconciliation for all 12 queued stale records.",
-    "Prepared bounded provenance audit; canonical and generated index last_verified fields are intentionally not changed in this cycle because the canonical skills.json blob is not safely writable through the available connector response."
+    "Refreshed last_verified to 2026-09-24 in canonical and index layers for all 12 selected records.",
+    "Recomputed the live stale metadata census after synchronization.",
+    "Registered audit remains in docs/data/pq-cross-domain-index.json."
   ],
   "evidence_boundary": "This audit records evidence already present in the repository. It does not promote unsupported mechanics, drop rates, timers, damage values, stacking caps, or narrower restrictions.",
   "validation": {
+    "canonical_records": 469,
+    "index_records": 469,
     "target_records": 12,
+    "target_current": 12,
     "duplicate_ids": 0,
-    "canonical_index_sync": false,
-    "reason": "Canonical skills.json content is not safely retrievable/writable through the available GitHub file operation in this cycle; no partial overwrite attempted."
+    "canonical_index_ids_aligned": true,
+    "current_last_verified_records": 407,
+    "stale_last_verified_records": 62
   },
   "ci": "Unavailable; no CI success claimed."
 }
