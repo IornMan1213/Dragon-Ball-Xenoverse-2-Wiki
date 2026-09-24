@@ -6215,3 +6215,14 @@
 - [x] Validation: both JSON files re-serialized successfully through the GitHub write path; canonical preset counts remain unchanged.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** find a source directly binding the numeric IDs for these five records to complete skill configurations; if unavailable, continue to the next unresolved family.
+
+
+### 2026-09-24 cycle completion — current character-count consumer drift repair
+- [x] Re-ran the live current-facing character consumer scan against `docs/data/characters-record-layer.json` rather than relying on stale repository search-index excerpts.
+- [x] Confirmed the canonical producer contains **152** character identities.
+- [x] Corrected `docs/data/characters/published-character-dlc-navigation-audit.json` from its superseded 153 live-count assertion to **152**, and corrected obsolete 151-name current prose while preserving historical context.
+- [x] Corrected `docs/data/current-skill-domain-consumer-scan-2026-09-24.json` from its internal 153-character baseline/repair wording to **152**.
+- [x] Re-fetched the related current consumers and confirmed the PQ endpoint validation, character presentation audit, partner-character navigation audit, current character/equipment/raid synchronization audit, DLC character-count reconciliation, and Chapter 4 character audit all use the live **152** count.
+- [x] Preserved PQ-number references such as PQ153 and dated historical snapshots; no character identity or relationship was inferred or changed.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next priority:** continue deterministic current-facing event/raid/Festival/character/preset consumer scanning for stale scalars, duplicate presentation rows, orphan targets, one-way navigation, and canonical-ID drift; then resume the highest-impact source-backed preset/loadout or thin-domain expansion.
