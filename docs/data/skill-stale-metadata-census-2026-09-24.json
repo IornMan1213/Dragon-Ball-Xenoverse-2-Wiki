@@ -6,8 +6,8 @@
   "live_counts": {
     "canonical_skill_records": 469,
     "index_skill_records": 469,
-    "current_last_verified_records": 263,
-    "stale_last_verified_records": 206,
+    "current_last_verified_records": 275,
+    "stale_last_verified_records": 194,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
@@ -66,6 +66,7 @@
     "Existing acquisition, reward, mechanics, restriction, DLC/update, and evidence-conflict semantics were preserved.",
     "Seven names from the prior queue were absent from the canonical dataset and were deliberately not fabricated; they remain discovery/data-coverage work rather than verified provenance work.",
     "2026-09-24 coverage recovery promoted four previously researched but missing canonical records: Hyper Drain, Hyper Movement, Ice Cannon, and Ice Claw.",
-    "Hollow Rush, Ice Rain, and Ice Sheet remain unresolved discovery targets because no sufficiently direct repository research record was located in the live repository search."
+    "Hollow Rush, Ice Rain, and Ice Sheet remain unresolved discovery targets because no sufficiently direct repository research record was located in the live repository search.",
+    "2026-09-24 provenance refresh completed for Heroic Counter through Jumping Energy Wave; four previously recovered Hyper/Ice records remain current and Hollow Rush/Ice Rain/Ice Sheet remain unresolved discovery targets."
   ]
 }
