@@ -37,7 +37,7 @@ Only one Super Soul can be equipped at a time on a preset. Because copies are sh
 
 The machine-readable source of truth is `docs/data/super-souls-record-layer.json`.
 
-The canonical layer currently contains **42 populated records** (18 initial records plus the eight promoted records from research batch 03). This is an enumerated research population, not a claim that the game's full Super Soul catalogue has been completed.
+The canonical layer currently contains **230 records**. This is an enumerated research population, not a claim that the game's full Super Soul catalogue has been completed.
 
 ### Canonical records
 
