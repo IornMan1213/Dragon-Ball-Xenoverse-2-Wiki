@@ -1,3 +1,15 @@
+### 2026-09-24 cycle update — P1 Meteor/One-Handed and Absolute Zero/Assault Vanish provenance refresh
+
+- Completed two bounded P1 provenance batches: **24 skill records** across Meteor Blow → One-Handed Kamehameha mk.II and Absolute Zero → Assault Vanish.
+- Synchronized canonical `docs/data/skills.json` and `docs/data/skills-index.json`; all 24 now carry `last_verified=2026-09-24`.
+- Added and registered:
+  - `docs/data/skill-provenance-audit-2026-09-24-meteor-through-one-handed.json`
+  - `docs/data/skill-provenance-audit-2026-09-24-absolute-zero-through-assault-vanish.json`
+- Preserved existing acquisition endpoints, reward semantics, restrictions, mechanics, and evidence boundaries. No unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions were introduced.
+- The current canonical/index baseline remains **465 / 465**. The remaining date-based provenance queue is 429 records after these two batches.
+- **Exact next batch:** Atomic Blast; Audacious Laugh; Beast; Become Giant; Bending Kamehameha; Big Bang Attack; Big Bang Kamehameha; Big Bang Knuckle; Blades of Judgment; Blaster Ball; Blaster Bomb; Blaster Cannon.
+- CI/runtime remains unavailable; no CI success claimed.
+
 ### 2026-09-24 cycle update — Acquisition coverage legacy-projection normalization
 
 - Audited remaining current-looking skill-count consumers and found `docs/data/skill-acquisition-coverage-report.json` still exposed an obsolete top-level **305 / 234 / 71** projection while its newer 465-record projection was nested.
