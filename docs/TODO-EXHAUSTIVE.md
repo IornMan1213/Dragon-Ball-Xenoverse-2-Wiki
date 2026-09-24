@@ -5881,3 +5881,11 @@
 - [x] Confirmed existing cross-domain registration; no new relationship edge or canonical identity was inferred.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next priority:** continue deterministic non-PQ equipment/accessory navigation scanning for stale record counts, one-way links, and canonical-ID drift.
+
+### 2026-09-24 cycle completion — record reverse-navigation current-baseline refresh
+- [x] Refreshed `docs/data/record-reverse-pq-navigation-audit.json` to the current **853-edge / 145 Super Soul / 124 equipment** baseline.
+- [x] Equipment exact-pair parity: **124/124**, no missing/extra/duplicate pairs.
+- [x] Super Soul exact-pair parity: **145/145**, no missing/extra/duplicate pairs.
+- [x] Preserved noncanonical equipment acquisition metadata and documented route conflicts; historical snapshots remain intact.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next priority:** deterministic non-PQ equipment/accessory presentation-consumer scanning for stale counts, one-way navigation, and canonical-ID drift.
