@@ -6271,3 +6271,14 @@
 - [x] Preserved the evidence boundary: Hit's Time Skip/Tremor Pulse remains the single unresolved skill lesson because no canonical skill ID exists; Zamasu's initiation reward remains typed as a Super Soul rather than a missing skill. No unlock condition, friendship threshold, reward probability, or gameplay mechanic was inferred.
 - [x] Validation: audit JSON parses; cross-domain index parses and contains the new registration; explorer and reverse-navigation wiring were re-fetched and checked for the expected canonical data paths. CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next batch:** inspect the next uncovered current non-PQ presentation consumer, prioritizing the Expert Mission endpoint layer and its page/search navigation for stale counts, one-way links, orphan targets, and canonical-ID drift; preserve unresolved evidence boundaries, then resume source-backed preset/loadout expansion where direct numeric identity plus complete configuration can be established.
+
+
+### 2026-09-24 cycle completion — Expert Mission presentation navigation + residual homepage consumer drift
+- [x] Audited the live Expert Mission system index against the canonical `docs/data/expert-mission-endpoints.json` layer.
+- [x] Added canonical skill endpoint links to `docs/Expert-Missions.md` for all **18/18** maintained EM→skill endpoint rows; EM01–02 remain intentionally without skill links because the endpoint layer contains 18 non-tutorial skill endpoints.
+- [x] Added `docs/data/expert-mission-presentation-consumer-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: **20/20** mission index entries remain present; **18/18** canonical EM skill endpoints render as direct `Skills-All.html?q=` links; audit status = pass; 0 broken endpoint links.
+- [x] Corrected a residual current-facing homepage drift in `docs/index.md`: Super Soul census changed from the stale **18 populated records** to the live **230 canonical records**. Historical research counts were not rewritten.
+- [x] Evidence boundaries preserved: no per-clear skill guarantee, drop rate, prerequisite, or EM17 Spirit Sword/Spirit Bomb conflict resolution was inferred. The Expert Mission endpoint layer remains the identity/navigation source.
+- [x] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next batch:** continue deterministic current-facing consumer scanning outside the already-covered PQ/mentor/Expert Mission surfaces, prioritizing remaining homepage/reference count drift, one-way links, orphan targets, and canonical-ID namespace confusion; after that, resume the highest-impact source-backed preset/loadout tranche only where numeric preset identity and complete configuration are directly evidenced.
