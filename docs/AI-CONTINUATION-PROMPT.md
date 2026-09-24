@@ -641,3 +641,14 @@
 - [x] Updated `docs/data/skill-research-gaps.json` with the independent class evidence and retained the no-inference boundary for numeric Ki cost.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next:** continue the unresolved queue, prioritizing another field that can be directly resolved from Xenoverse 2-specific evidence; do not infer numeric costs from other games or mods.
+
+### 2026-09-24 cycle completion — Energy Boil evidence-boundary refresh
+- [x] Re-read the live continuation handoff, efficiency addendum, and exhaustive TODO before selecting the bounded batch.
+- [x] Added `docs/data/skill-research-gaps-energy-boil-evidence-boundary-refresh-2026-09-24.json`.
+- [x] Reconfirmed Xenoverse 2 ID **10540** / short ID **540**, Final Form Demigra ownership, CaC-unavailable status, and Evasive classification from the current Xenoverse 2 ID list and skills guide; independent Demigra reference corroborates the Evasive role and defensive energy/teleport behavior. citeturn3search0turn3search1turn3search4
+- [x] Preserved the evidence boundary: the accessible sources do not expose the repository's Evasive subcategory or a trustworthy numeric Ki cost, so neither field was inferred.
+- [x] Updated `docs/data/skill-research-gaps.json` with the refreshed evidence-boundary note and registered the audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: JSON audit parses; canonical/index baseline remains **469/469** with **0 duplicate IDs**; no canonical promotion or unsupported acquisition route was introduced.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [x] Commits: audit `edc3e89b7b42840e6904a12f0d63f202e45fb769`; registry `2065e1e6bb40a23372cb39521c9b69610e2d4c29`; gap ledger `0d14d81919b5d0d000c4eff2dd670c67be0fa6d9`; changelog `644deb0ae208aeb7c4275ce92615c5583bd080b1`.
+- [ ] **Exact next:** continue the remaining unresolved thin-domain queue only where direct Xenoverse 2 evidence can resolve a currently missing canonical field; otherwise return to the source-backed P1 enrichment queue while Savage Strike remains staged for atomic builder integration.
