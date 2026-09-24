@@ -441,5 +441,6 @@
   "character_exclusive_skill_endpoint_audit_2026_09_23": "docs/data/character-exclusive-skill-endpoint-audit-2026-09-23.json",
   "starting_move_endpoints": "docs/data/starting-move-endpoints.json",
   "starting_move_endpoint_audit_2026_09_23": "docs/data/starting-move-endpoint-audit-2026-09-23.json",
-  "skill_character_source_identity_audit_2026_09_23": "docs/data/skill-character-source-identity-audit-2026-09-23.json"
+  "skill_character_source_identity_audit_2026_09_23": "docs/data/skill-character-source-identity-audit-2026-09-23.json",
+  "character_count_consumer_synchronization_2026_09_23": "docs/data/character-count-consumer-synchronization-2026-09-23.json"
 }
