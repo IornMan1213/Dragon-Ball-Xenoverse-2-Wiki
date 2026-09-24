@@ -1,3 +1,11 @@
+### 2026-09-24 cycle completion — numeric preset evidence recheck
+- [x] Rechecked independent Burcol numeric-preset unlock artifacts and the current Xenoverse 2 Goku in-game-data source.
+- [x] Added the recheck to `docs/data/numeric-preset-complete-loadout-source-audit-2026-09-24.json`.
+- [x] Confirmed the current evidence still supports numeric identity only; the complete named Goku loadouts cannot be safely mapped to repository numeric IDs.
+- [x] Kept promotions at **0** and preserved the no-row-order/no-costume-order/no-chapter-order inference rule.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next:** locate a direct numeric-ID + complete-eight-slot source artifact, or proceed to the next highest-impact thin research tranche if that artifact cannot be found.
+
 ### 2026-09-24 cycle completion — global navigation audit reconciliation
 - [x] Re-inspected live `docs/_layouts/home.html` and `docs/_layouts/wiki.html`.
 - [x] Confirmed both layouts already use the canonical `Parallel-Quests-All/` destination; the previous audit note claiming the home layout remained on the legacy route was stale.
