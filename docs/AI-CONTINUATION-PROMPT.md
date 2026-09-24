@@ -7345,3 +7345,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Commits: canonical `2efb474837f3d351e3952267d16ba2909f678383`; index `92d8cc5868ad19d5f914d227105340af886508d8`; audit `3934c4c0d3ba8f0febc747ebb644ee04697b32fe`; census `6880b95899232bd6f0472a533bd68ac1a5b720f6`; cross-domain registration `9c302c5a927c8c7c2f216cf352141fe0582f6538`; TODO `12ac11b8d3ed9344d1e52f3dbd24d7a2a0130108`.
 - CI/runtime remains unavailable; no CI success claimed.
 - **Exact next priority:** continue the deterministic post-stale-queue cross-domain coverage/projection audit, prioritizing machine-checkable current-field mismatches or navigation/index drift rather than speculative gameplay-data expansion.
+
+
+### 2026-09-24 cycle update — recovered Hyper/Ice endpoint coverage reconciliation
+- Live canonical census: **469 skills / 239 PQ-linked / 230 without PQ**. The previous deterministic endpoint projection still reflected the older 465-skill layer, leaving exactly four canonical IDs uncovered.
+- Identified recovered canonical records: **Hyper Drain; Hyper Movement; Ice Cannon; Ice Claw**.
+- Added deterministic navigation edges: Hyper Drain → Skill Shop; Hyper Movement → TP/STP Medal Shop; Ice Cannon → Shenron new Ultimate Attack; Ice Claw → Shenron new Super Attack.
+- Updated skill shop, special acquisition, acquisition coverage, full endpoint parity, and endpoint-consumer synchronization projections.
+- Added and registered `docs/data/skill-endpoint-coverage-reconciliation-2026-09-24-hyper-and-ice.json`.
+- Validation: **469 canonical / 239 PQ-linked / 230 non-PQ endpoint targets / 469 endpoint union / 0 uncovered / canonical-index aligned**. No PQ relationship was invented.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next priority: continue the live cross-domain producer/consumer audit from the now-complete 469-skill endpoint union, checking remaining reverse-navigation projections and validator assumptions for stale counts or orphan targets.
