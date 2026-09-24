@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-24",
+  "scope": "raid/Crystal Raid/mentor-gift accessory partial-research bridge reconciliation",
+  "source": "docs/data/accessory-raid-gift-canonical-bridge.json",
+  "canonical_identity_source": "docs/data/accessory-canonical-reconciliation.json",
+  "counts": {
+    "bridge_records": 16,
+    "canonical_accessory_records": 105,
+    "resolved_bridge_records": 10,
+    "unresolved_candidate_records": 6,
+    "unique_resolved_canonical_ids": 6,
+    "duplicate_source_ids": 0,
+    "unresolved_candidate_names": 6
+  },
+  "checks": {
+    "all_resolved_canonical_ids_exist": true,
+    "source_ids_unique": true,
+    "unmatched_candidate_list_exact": true
+  },
+  "findings": {
+    "missing_canonical_ids": [],
+    "duplicate_source_ids": [],
+    "unmatched_candidate_mismatch": {
+      "in_records_but_not_declared": [],
+      "declared_but_not_in_records": []
+    }
+  },
+  "multi_route_canonical_ids": [
+    {
+      "canonical_id": "accr-001",
+      "source_ids": ["raidgift-002", "raidgift-015"]
+    },
+    {
+      "canonical_id": "accr-002",
+      "source_ids": ["raidgift-003", "raidgift-014"]
+    },
+    {
+      "canonical_id": "accr-003",
+      "source_ids": ["raidgift-004", "raidgift-013", "raidgift-016"]
+    }
+  ],
+  "evidence_boundary": "This audit checks identity resolution and bridge consistency only. Historical raid/event availability, reward thresholds, recurrence, and unresolved candidate identities remain non-canonical; no new accessory identity or route is inferred.",
+  "status": "clean"
+}
