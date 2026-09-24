@@ -1,21 +1,21 @@
 {
   "schema_version": "1.0",
-  "audit_date": "2026-09-23",
+  "audit_date": "2026-09-24",
   "status": "pass",
   "scope": "full canonical skill endpoint reverse parity after starting-move layer",
-  "canonical_skill_count": 465,
+  "canonical_skill_count": 469,
   "pq_linked_unique_skill_count": 239,
-  "non_pq_endpoint_unique_skill_count": 226,
-  "union_skill_count": 465,
+  "non_pq_endpoint_unique_skill_count": 230,
+  "union_skill_count": 469,
   "uncovered_skill_ids": [],
   "layer_counts": {
     "mentor_endpoints": 132,
     "expert_mission_endpoints": 18,
-    "skill_shop_endpoints": 31,
+    "skill_shop_endpoints": 33,
     "time_rift_story_tournament_endpoints": 13,
     "tokipedia_endpoints": 4,
     "conton_city_patrol_endpoints": 3,
-    "special_acquisition_endpoints": 14,
+    "special_acquisition_endpoints": 16,
     "character_exclusive_skill_endpoints": 10,
     "starting_move_endpoints": 2
   },
@@ -34,5 +34,5 @@
     "duplicate_endpoint_skill_pairs": 0,
     "legitimate_multi_producer_skill_count": 1
   },
-  "evidence_boundary": "Coverage proves navigable producer/exposure representation, not that every listed route is simultaneously available in every game version. Version-sensitive availability remains governed by each canonical endpoint's evidence metadata."
+  "evidence_boundary": "Coverage proves navigable producer/exposure representation, not that every listed route is simultaneously available in every game version. Version-sensitive availability remains governed by each canonical endpoint's evidence metadata. Four skills promoted in the 2026-09-24 Hyper/Ice coverage recovery were subsequently added to their deterministic shop/special endpoint layers, restoring 469-record union parity."
 }
