@@ -7409,3 +7409,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime unavailable; no CI success claimed.
 - Commits: shop audit 5187d122e475078c0f2784b0fe388d463df9bd1f; coverage synchronization 5716f6aa22c6df793853cd3be79799cde11cd725; cross-domain registration 12aa841d5b6c7fecd5e103716452b07dfc5c6e85.
 - Exact next priority: inspect the next machine-checkable non-PQ reverse projection/consumer for stale current counts or orphan targets, continuing from the live 469-skill endpoint union rather than speculative gameplay expansion.
+
+
+### 2026-09-24 cycle update — special acquisition reverse-index parity repair
+
+- Audited the next machine-checkable non-PQ reverse projection after the shop/coverage reconciliation.
+- Found a deterministic drift in docs/data/special-acquisition-endpoints.json: the 2026-09-24 Hyper/Ice recovery had added forward edges for **Ice Cannon** and **Ice Claw**, but their reverse_index entries and coverage counts still reflected the historical 14-edge layer.
+- Added reverse navigation for skill-ice-cannon → special-shenron-new-ultimate-ice-cannon and skill-ice-claw → special-shenron-new-super-ice-claw; recomputed live coverage to **16 endpoints / 16 forward edges / 16 unique skill targets**.
+- Added and registered docs/data/special-acquisition-endpoint-audit-2026-09-24.json.
+- Validation: **16 forward pairs / 16 reverse pairs / exact forward↔reverse parity true / 16 unique skills / 0 unresolved IDs / audit pass**.
+- Evidence boundary preserved: no new acquisition route was inferred; the repair only completed reverse navigation for already-existing canonical forward edges.
+- CI/runtime unavailable; no CI success claimed.
+- Commit: special endpoint repair 67c1bd2c55404ae247bf350e7b2da062df944885; audit d7a484622f615ee0227be8e9ea20dbdc404e3df8; cross-domain registration 62a99df5abb65077983fd4f6f2b4f17c60e2a515.
+- Exact next priority: continue the machine-checkable non-PQ reverse-projection audit, selecting the next current-facing consumer with stale counts or orphan targets.
