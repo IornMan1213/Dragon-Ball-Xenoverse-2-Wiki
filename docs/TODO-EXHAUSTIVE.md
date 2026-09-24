@@ -6100,3 +6100,10 @@
 - [x] Confirmed the existing character presentation audit remains clean for unresolved preset IDs and orphan reverse character targets.
 - [x] Documented the Goku loadout boundary: source-observed named rows cannot safely be mapped to repository numeric preset IDs by row order, so no unsupported Goku loadouts were promoted.
 - [ ] **Next:** continue exact source-to-numeric preset mapping only where a source directly binds the mapping; otherwise proceed to the next highest-impact thin-domain research tranche without inference.
+
+### 2026-09-24 completed raid/event Super Soul presentation coverage repair
+- [x] Reconciled the current `docs/Super-Souls-Database.md` raid/event presentation table against the canonical raid/event-associated Super Soul producer.
+- [x] Added the **25 previously missing canonical raid/event records (052, 054, 057, 058, 063, 074, 082, 083, 092, 094, 095, 096, 097, 103, 104, 111, 112, 115, 116, 117, 127, 128, 129, 135, 136)** to the presentation index.
+- [x] Closed `docs/data/super-soul-raid-event-presentation-consumer-audit-2026-09-24.json`: **37/37 surfaced, 0 missing, 0 duplicate canonical IDs, all raid IDs resolve**.
+- [x] Preserved acquisition/effect verification states from the canonical producer; no current raid availability, recurrence, probability, or guarantee was inferred.
+- [ ] **Next:** continue deterministic event/raid/Festival/Chapter 4 consumer scanning for remaining one-way navigation and stale scalar issues, then resume the highest-impact source-backed preset/loadout tranche.
