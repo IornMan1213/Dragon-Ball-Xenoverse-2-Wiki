@@ -62,7 +62,7 @@
   ],
   "notes": [
     "Canonical/index counts and IDs remain aligned.",
-    "Counts computed after the bounded 12-record refresh.",
+    "Counts computed from live canonical data after the completed bounded batch.",
     "Existing acquisition, reward, mechanics, restriction, DLC/update, and evidence-conflict semantics were preserved."
   ]
 }
