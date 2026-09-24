@@ -6763,3 +6763,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Synchronized current 2026-09-23 provenance-audit validation blocks that still referenced the superseded 455-record baseline to **465/465** canonical/index records with zero duplicate IDs.
 - Historical 455-record narrative snapshots remain preserved where they document the audit-time state.
 - **Exact next task:** continue the P1 acquisition/provenance queue from the live **95 non-PQ/non-mentor** skills, prioritizing explicit endpoint/provenance gaps rather than further baseline-only cleanup.
+
+### 2026-09-23 cycle update — Expert Mission skill provenance refresh
+
+- Completed a source-backed P1 provenance batch for ten Expert Mission skills that previously had only one acquisition source and were marked `partially_verified`: Murder Grenade (EM3), Death Wave (EM5), Death Meteor (EM7), Dead End Bullet (EM8), Assault Rain (EM9), Hellzone Grenade (EM10), Super Electric Strike (EM11), Shocking Death Ball (EM14), Blue Hurricane (EM15), and Spirit Sword (EM17).
+- Added an independent maintained all-Expert-Missions guide to nine records and a separate GameFAQs corroborator to Spirit Sword. For the nine records, the guide explicitly places the skill in the mission's Basic Reward list; Spirit Sword's guide text is not used for reward-tier classification because its EM17 entry says "Spirit Bomb".
+- Promoted all ten canonical records to `verified_current_scope` / `enriched`; no drop probability, first-clear guarantee, rotation, or additional progression gate was inferred.
+- Added and registered `docs/data/skill-expert-mission-provenance-audit-2026-09-23.json`.
+- Live validation after the change: **465 canonical skill records / 0 duplicate IDs**; all ten reviewed IDs resolve and the provenance audit passes.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next task:** continue the P1 Expert Mission endpoint/provenance queue by reconciling the remaining endpoint-layer partial records (especially EM04, EM06, EM12, EM13, and EM16–20) using explicit source evidence, then return to the remaining non-PQ/non-mentor acquisition gaps such as Ultra Instinct. Preserve endpoint-layer separation and do not infer relationships.
