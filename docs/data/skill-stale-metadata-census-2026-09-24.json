@@ -6,58 +6,58 @@
   "live_counts": {
     "canonical_skill_records": 465,
     "index_skill_records": 465,
-    "current_last_verified_records": 242,
-    "stale_last_verified_records": 223,
+    "current_last_verified_records": 254,
+    "stale_last_verified_records": 211,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
     {
-      "id": "skill-gravity-impact",
-      "name": "Gravity Impact"
+      "id": "skill-hollow-rush",
+      "name": "Hollow Rush"
     },
     {
-      "id": "skill-handy-canon",
-      "name": "Handy Canon"
+      "id": "skill-holy-inscription",
+      "name": "Holy Inscription"
     },
     {
-      "id": "skill-hawk-charge",
-      "name": "Hawk Charge"
+      "id": "skill-holy-wrath",
+      "name": "Holy Wrath"
     },
     {
-      "id": "skill-headshot",
-      "name": "Headshot"
+      "id": "skill-hyper-drain",
+      "name": "Hyper Drain"
     },
     {
-      "id": "skill-heat-dome-attack",
-      "name": "Heat Dome Attack"
+      "id": "skill-hyper-movement",
+      "name": "Hyper Movement"
     },
     {
-      "id": "skill-heat-wave",
-      "name": "Heat Wave"
+      "id": "skill-hyper-tornado",
+      "name": "Hyper Tornado"
     },
     {
-      "id": "skill-heavenly-arrow",
-      "name": "Heavenly Arrow"
+      "id": "skill-ice-cannon",
+      "name": "Ice Cannon"
     },
     {
-      "id": "skill-hell-flash",
-      "name": "Hell Flash"
+      "id": "skill-ice-claw",
+      "name": "Ice Claw"
     },
     {
-      "id": "skill-hellzone-grenade",
-      "name": "Hellzone Grenade"
+      "id": "skill-ice-rain",
+      "name": "Ice Rain"
     },
     {
-      "id": "skill-hero-s-flute",
-      "name": "Hero's Flute"
+      "id": "skill-ice-sheet",
+      "name": "Ice Sheet"
     },
     {
-      "id": "skill-hero-s-pose",
-      "name": "Hero's Pose"
+      "id": "skill-ill-rain",
+      "name": "Ill Rain"
     },
     {
-      "id": "skill-heroic-assault",
-      "name": "Heroic Assault"
+      "id": "skill-instant-severance",
+      "name": "Instant Severance"
     }
   ],
   "notes": [
