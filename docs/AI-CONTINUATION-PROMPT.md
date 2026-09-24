@@ -7604,3 +7604,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] No data relationship was changed; this was a consumer/documentation count correction only.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next priority:** continue deterministic non-PQ consumer scanning for stale counts/IDs in remaining cross-link documentation and machine-readable indexes, prioritizing mismatches against already-audited live endpoint layers.
+
+
+### 2026-09-24 cycle completion — current non-PQ skill endpoint consumer census
+- [x] Audited the current non-PQ skill endpoint consumer state against skills.json and the 2026-09-24 endpoint synchronization baseline.
+- [x] Confirmed **469 canonical skills / 239 PQ-linked / 230 non-PQ / 469 endpoint-union covered / 0 uncovered**.
+- [x] Confirmed current endpoint-layer counts: mentor 132, Expert Mission 18, shop 33, Time Rift/story/tournament 13, Tokipedia 4, Conton City Patrol 3, special 16, character-exclusive 10, starting-move 2.
+- [x] Added docs/data/skill-acquisition-cross-domain-endpoint-audit-2026-09-24.json as the current consumer audit and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Preserved the older 2026-09-23 465-skill census as historical evidence; no historical record was deleted or rewritten.
+- [x] No unsupported acquisition routes were inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next priority:** continue deterministic consumer scanning outside the skill endpoint census, targeting stale current counts/IDs in character/preset, event/raid, or equipment navigation indexes.
