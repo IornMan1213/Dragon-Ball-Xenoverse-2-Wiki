@@ -173,3 +173,15 @@
 - [x] CI/runtime unavailable; no CI success claimed.
 - [x] Commit: `f295e2ae1c0c2ada350e068aae1550c8ba0d7b52`.
 - [ ] **Exact next:** continue the non-PQ reverse-projection sweep into remaining current-facing acquisition indexes/projections, prioritizing one-way links and stale scalar assertions outside the already-clean endpoint audits.
+
+
+### 2026-09-24 cycle completion — bounded non-PQ acquisition consumer sweep
+- [x] Continued the deterministic current-facing non-PQ acquisition consumer scan after the mentor endpoint reconciliation and stale metadata census repair.
+- [x] Added `docs/data/current-nonpq-acquisition-consumer-sweep-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Revalidated the current producer/consumer contracts: **469 canonical skills / 239 PQ-linked / 230 without PQ / 131 resolved mentor→skill edges / 130 unique mentor skill targets / 99 non-PQ/non-mentor endpoint targets / 469 endpoint-covered skills / 0 uncovered**.
+- [x] Revalidated the current Time Rift/story/tournament layer at **13** forward skill edges and the current shop layer at **33** forward skill edges.
+- [x] Search hits containing 465/132 or older character/equipment baselines were classified as historical comparison/provenance or already-reconciled audit context; no additional current-facing producer field required repair in this bounded pass.
+- [x] Evidence boundary preserved: no acquisition route, mechanics, probability, availability, or preset/loadout mapping was inferred.
+- [x] CI/runtime unavailable; no CI success claimed.
+- [x] Commits: `ce21a83bc88cb66ca7c89366d742bed3a67adf4f` (audit), `64d3061e569edc66f229f8d3cda8cb0ecbd04866` (registry).
+- [ ] **Exact next batch:** resume the P1 source-backed provenance queue or continue evidence-gated numeric preset/loadout research. For presets, promote only when one artifact directly binds the numeric preset label to its complete configuration; otherwise record the boundary and move to the next thin structured domain.
