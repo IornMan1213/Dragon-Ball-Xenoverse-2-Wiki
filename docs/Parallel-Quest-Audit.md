@@ -36,7 +36,7 @@ Structured in `pq-batch-02.json`. Covers Saiyan, Namek, and Ginyu Force quests, 
 Structured in `pq-batch-03.json`. Covers Frieza/Namek, Cooler, Android, and Hercule quests, including Dragon Ball recovery, time-limit, escort, and revived-enemy conditions.
 
 ### Batch 4 — PQ31–PQ40
-Structured in `pq-batch-04.json`. Covers Cell training through Future Warriors. **PQ36 is a preserved historical conflict:** the historical maintained Steam/game-specific transcription lists a PQ36, while current maintained datamined research identifies PQ36 as cut and the live numbering as skipping 36. The audit preserves the evidence rather than silently deleting the historical record. citeturn0search0turn0search1
+Structured in `pq-batch-04.json`. Covers Cell training through Future Warriors. **PQ36 is a preserved historical conflict:** the historical maintained Steam/game-specific transcription lists a PQ36, while current maintained datamined research identifies PQ36 as cut and the live numbering as skipping 36. The audit preserves the evidence rather than silently deleting the historical record. 
 
 ### Batch 5 — PQ41–PQ50
 Structured in `pq-batch-05.json`. Covers Future Androids, Dragon Ball collection, Android 16, Broly/Vegeta protection, World Tournament, Namek training, and Majin Buu quests.
@@ -81,7 +81,7 @@ Structured in `pq-batch-16.json`. Covers the final Hero of Justice Pack 2 quests
 Structured in `pq-batch-17.json`. Covers Future Saga Chapters 1–2 and the Dragon Ball DAIMA Pack. The maintained Steam transcription independently confirms the quest names, DLC labels, objective sequences, lose conditions, and documented reward lists; GameFAQs corroborates the Ultimate Finish objective sequences for PQ171–178.
 
 ### Batch 18 — PQ181–PQ186
-Structured in `pq-batch-18.json`. This is the final numbered block. The maintained Steam 186-PQ transcription confirms the six quest names, DLC assignments, objective sequences, lose conditions, and documented rewards; GameFAQs independently corroborates the Ultimate Finish sequences. The structured records explicitly leave exact reward-slot/drop percentages unresolved where they are not established. fileciteturn848file0L2-L10
+Structured in `pq-batch-18.json`. This is the final numbered block. The maintained Steam 186-PQ transcription confirms the six quest names, DLC assignments, objective sequences, lose conditions, and documented rewards; GameFAQs independently corroborates the Ultimate Finish sequences. The structured records explicitly leave exact reward-slot/drop percentages unresolved where they are not established. fileL2-L10
 
 - **PQ181 — The Greatest Training Ever:** clear under 15 minutes, then defeat Beerus and the others; Super Kamehameha (SS4 DAIMA) and Final Flash (SS3 DAIMA) are documented.
 - **PQ182 — Frieza's Fervent Wish:** clear under 10 minutes, then defeat SSGSS Gogeta; Dark Inscription is documented.
