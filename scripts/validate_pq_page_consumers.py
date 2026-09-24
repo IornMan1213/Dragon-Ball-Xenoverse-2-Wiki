@@ -83,7 +83,7 @@ def main():
       "canonical_pq_record_count_nonzero": bool(records),
       "unique_pq_ids": len(set(ids))==len(records),
       "unique_pq_numbers": len(set(nums))==len(records),
-      "pq_skill_crosslinks_use_search": "skill_rewards" in html and "searchUrl(v)" in html,
+      "pq_skill_crosslinks_use_skill_explorer": "skill_rewards" in html and "skillUrl(v)" in html and "rewardLinks(r.skill_rewards,'Skills',skillUrl)" in html,
       "canonical_skill_reward_fields_match": not contracts["pq_rewards_skill"]["missing"] and not contracts["pq_rewards_skill"]["extra"] and not contracts["pq_rewards_skill"]["canonical_duplicates"] and not contracts["pq_rewards_skill"]["record_duplicates"] and not contracts["pq_rewards_skill"]["shape_errors"] and not contracts["pq_rewards_skill"]["relationship_pq_ids_invalid"],
       "canonical_super_soul_reward_fields_match": not contracts["pq_rewards_super_soul"]["missing"] and not contracts["pq_rewards_super_soul"]["extra"] and not contracts["pq_rewards_super_soul"]["canonical_duplicates"] and not contracts["pq_rewards_super_soul"]["record_duplicates"] and not contracts["pq_rewards_super_soul"]["shape_errors"] and not contracts["pq_rewards_super_soul"]["relationship_pq_ids_invalid"],
       "canonical_equipment_reward_fields_match": not contracts["pq_rewards_equipment"]["missing"] and not contracts["pq_rewards_equipment"]["extra"] and not contracts["pq_rewards_equipment"]["canonical_duplicates"] and not contracts["pq_rewards_equipment"]["record_duplicates"] and not contracts["pq_rewards_equipment"]["shape_errors"] and not contracts["pq_rewards_equipment"]["relationship_pq_ids_invalid"],
