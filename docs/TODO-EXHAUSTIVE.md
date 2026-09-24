@@ -6727,3 +6727,11 @@
 - [x] This commit touched `docs/data/skill-research-batches/**`, a path covered by `.github/workflows/skills-sync.yml`, providing the repository's native push-trigger route for the canonical build.
 - [x] Checked the resulting commit for Actions workflow runs and combined commit statuses; the connector exposed **no workflow run and no status**, so execution cannot be claimed.
 - [ ] **Next:** if Actions execution remains unavailable, continue source-backed P1 enrichment on the next target (Quick Sleep → Pressure Sign) while retaining Savage Strike at 469/469 until a real canonical build executes.
+
+### 2026-09-24 continuation — Pressure Sign P1 provenance refresh
+- [x] Revalidated dedicated Batch 125 for **Pressure Sign** against the current Skill Shop endpoint projection.
+- [x] Refreshed Pressure Sign research to `last_verified=2026-09-24` and `verified_current_scope`; preserved Super / Strike identity, universal-counter behavior, 100 Ki cost, Skill Shop acquisition, and null Ultimate Finish requirement.
+- [x] Added the refresh to the existing Quick Sleep-through-Saiyan Spirit provenance audit.
+- [x] No unsupported frame data, damage values, drop probabilities, or hidden shop gates were promoted.
+- [ ] Canonical/index remain **469/469** until the repository's builder actually executes; no Actions run/status is exposed for the triggering commits.
+- [ ] **Next:** continue the P1 evidence-enrichment queue with **Quick Sleep**, then reconcile downstream endpoint/cross-domain projections; retain Savage Strike as staged research awaiting atomic canonical build.
