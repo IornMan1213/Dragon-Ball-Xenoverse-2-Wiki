@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "domain": "skills",
   "scope": "P1 stale-last_verified provenance refresh — Dynamite Kick through Energy Barrier",
   "source_of_truth": "docs/data/skills.json",
@@ -122,9 +122,10 @@
     }
   ],
   "changes": [
-    "Refreshed twelve canonical/index skill records to 2026-09-23.",
+    "Refreshed twelve canonical/index skill records to 2026-09-24.",
     "Rechecked existing repository provenance and current independent references where useful; preserved documented mechanics, acquisition, conflicts, and unresolved fields.",
-    "No unsupported probability, reward gate, cost, or mechanics inference was added."
+    "No unsupported probability, reward gate, cost, or mechanics inference was added.",
+    "Revalidated the existing E-series source set; no semantic field corrections were made."
   ],
   "evidence_limits": [
     "Stale metadata was treated as a research-priority signal, not proof of incorrect data.",
@@ -139,8 +140,9 @@
     "index": 455,
     "duplicate_ids": 0,
     "target_count": 12,
-    "target_source_and_date_parity": true
+    "target_source_and_date_parity": true,
+    "audit_date": "2026-09-24"
   },
   "status": "audited",
-  "last_verified": "2026-09-23"
+  "last_verified": "2026-09-24"
 }
