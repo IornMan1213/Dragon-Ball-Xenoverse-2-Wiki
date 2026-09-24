@@ -6084,3 +6084,11 @@
 - [x] Confirmed no PQ/raid/preset relationship was inferred or added.
 - [x] Validation and commit state recorded in the append-only handoff.
 - [ ] **Next:** continue deterministic non-PQ event/raid/Festival consumer scanning, then resume exhaustive preset/loadout expansion.
+### 2026-09-24 completion — high-connectivity character preset presentation consumer audit
+- [x] Audited the named high-connectivity preset targets in `docs/Character-Preset-Research.md` against `docs/data/characters-record-layer.json`.
+- [x] Added `docs/data/character-preset-research-presentation-consumer-audit-2026-09-24.json` covering 10 target groups with **0 groups lacking an exact canonical identity match**.
+- [x] Registered the audit in `docs/data/pq-cross-domain-index.json` so preset research is discoverable from the central cross-domain registry.
+- [x] Preserved the critical evidence boundary: this audit establishes presentation/identity resolution only; it does **not** infer preset numbering, loadouts, acquisition routes, Festival progression, Partner Customization keys, or variant equivalence.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next priority:** continue deterministic character/preset and event/raid/Festival consumer scanning, then begin machine-readable preset/loadout expansion for the highest-connectivity character targets, starting with Goku, without filling unsupported fields by inference.
+
