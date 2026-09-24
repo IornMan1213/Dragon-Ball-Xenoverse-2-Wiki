@@ -3,7 +3,7 @@
   "audit_date": "2026-09-24",
   "skill_name": "Tricky Strike",
   "skill_id": "skill-tricky-strike",
-  "status": "evidence_enriched_unresolved",
+  "status": "evidence_reconciled_unresolved",
   "scope": "bounded Xenoverse 2-specific evidence enrichment",
   "evidence": [
     {
@@ -30,20 +30,25 @@
       "type": "xenoverse2_cac_catalog",
       "claim": "A Xenoverse 2 catalog of skills unobtainable by CaC lists Tricky Strike.",
       "source": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79567595"
+    },
+    {
+      "type": "repository_research_reconciliation",
+      "claim": "Repository research batch 289 records Tricky Strike as a Super Skill with Strike subtype; this is treated as repository research evidence rather than a cross-game inference.",
+      "source": "docs/data/skill-research-batches/skill-batch-289.json"
     }
   ],
   "resolved_fields": {
     "classification": "Super Skill",
     "cac_available": false,
     "character_source": "Demon God Demigra (Final Form)",
-    "attack_description": "A multi-variant teleporting attack that can produce an uppercut, explosive punch, or Boiling Breath-style blue energy cloud depending on the selected variant."
+    "attack_description": "A multi-variant teleporting attack that can produce an uppercut, explosive punch, or Boiling Breath-style blue energy cloud depending on the selected variant.",
+    "subcategory": "Strike"
   },
   "unresolved_fields": [
-    "subcategory",
     "ki_cost"
   ],
   "guardrails": [
-    "Do not infer the repository subtype from generic teleport/melee/projectile terminology without a validated taxonomy mapping.",
+    "Retain the repository-supported Strike subtype; do not infer a numeric Ki cost from other games or mod implementations.",
     "Do not infer Ki cost from Dragon Ball Xenoverse, Heroes, or unofficial/mod implementations.",
     "Do not create a CaC acquisition route from NPC/boss usage.",
     "Do not promote to canonical skills.json without supported builder execution and required field coverage."
