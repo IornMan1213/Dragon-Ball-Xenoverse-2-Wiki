@@ -6321,3 +6321,13 @@
 - [x] Presentation-only change; no DLC ownership, character identity, preset/loadout, acquisition, or gameplay relationship was inferred.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next batch: continue deterministic current-facing DLC/system landing consumer scanning for stale explorer targets, stale scalar/list assumptions, one-way navigation, orphan targets, and canonical-ID drift; then resume evidence-gated preset/loadout expansion.
+
+
+### 2026-09-24 cycle completion — canonical Super Soul/equipment explorer self-navigation
+- [x] Audited `docs/Super-Souls-All.html` and `docs/Equipment-All.html` self-navigation.
+- [x] Repaired Super Soul entity links to `Super-Souls-All.html?q=...` and equipment/accessory entity links to `Equipment-All.html?q=...` instead of generic `/Search/`.
+- [x] Added and registered `docs/data/canonical-explorer-self-navigation-audit-2026-09-24.json`.
+- [x] Validation: 2/2 self-navigation consumers repaired; 0 relationship changes; audit pass.
+- [x] Preserved PQ reverse navigation and all acquisition/data semantics.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next batch:** continue deterministic scanning of remaining non-PQ entity/reference explorers and landing pages for generic Search self-links, stale explorer targets, one-way cross-database navigation, stale counts, and canonical-ID drift; then resume evidence-gated preset/loadout research.
