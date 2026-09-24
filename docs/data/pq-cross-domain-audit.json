@@ -28,6 +28,7 @@
     "farming": 7
   },
   "character_resolution": {
+    "canonical_character_record_count": 151,
     "edges": 247,
     "canonical_targets": 75,
     "method": "Explicit character mentions in objectives/ultimate_finish; documented aliases only",
@@ -318,7 +319,7 @@
     "character": {
       "forward_edges": 247,
       "unique_targets": 75,
-      "canonical_character_record_count": 149,
+      "canonical_character_record_count": 151,
       "exact_target_identity_matches": 75,
       "missing_canonical_targets": 0,
       "documented_aliases": 5,
