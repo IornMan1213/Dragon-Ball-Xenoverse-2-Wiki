@@ -7075,3 +7075,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Validation: **465 canonical / 465 index / 0 duplicate IDs / 230 current / 235 stale**; target parity clean.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next stale batch:** **God of Destruction's Might; God of Destruction's Plaything; God of Destruction's Poise; God of Destruction's Rampage; God of Destruction's Roar; God of Destruction's Wrath; God Punisher; God Splitter; Godly Chronos Cannon; Godly Display; Gorgeous Shot; Grand Smasher**.
+
+### 2026-09-24 cycle update — Gigantic Charge through God of Destruction's Menace provenance refresh
+- [x] Completed bounded P1 batch: **Gigantic Charge; Gigantic Cluster; Gigantic Cross; Gigantic Explosion; Gigantic Meteor; Gigantic Nova; Gigantic Omega; Gigantic Rage; Gigantic Roar; God Breaker; God of Destruction's Anger; God of Destruction's Menace**.
+- [x] Synchronized canonical/index verification metadata to `2026-09-24` for all 12 targets.
+- [x] Added and registered the bounded provenance audit and refreshed the stale-metadata census.
+- [x] Validation: **465 canonical / 465 index / 0 duplicate IDs / 230 current / 235 stale**; target parity clean.
+- [x] Existing acquisition, reward, mechanics, restriction, DLC/update, and evidence-conflict semantics preserved; no unsupported fields inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next stale batch:** **God of Destruction's Might; God of Destruction's Plaything; God of Destruction's Poise; God of Destruction's Rampage; God of Destruction's Roar; God of Destruction's Wrath; God Punisher; God Splitter; Godly Chronos Cannon; Godly Display; Gorgeous Shot; Grand Smasher**.
