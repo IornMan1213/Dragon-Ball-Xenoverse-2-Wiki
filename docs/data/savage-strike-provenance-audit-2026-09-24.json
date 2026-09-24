@@ -37,7 +37,11 @@
     "unsupported_price_promotions": 0,
     "unsupported_damage_promotions": 0,
     "canonical_index_parity_preserved": true,
-    "current_skill_baseline_preserved": 469
+    "current_skill_baseline_preserved": 469,
+    "research_batch_consistency_check": "passed"
   },
-  "next": "Integrate skill-savage-strike into the canonical skills.json and skills-index.json together through the repository's supported canonical build/update path, then synchronize any acquisition/cross-domain projections that require the new canonical endpoint."
+  "next": "Integrate skill-savage-strike into the canonical skills.json and skills-index.json together through the repository's supported canonical build/update path, then synchronize any acquisition/cross-domain projections that require the new canonical endpoint.",
+  "changes": [
+    "Corrected a research-record terminology inconsistency: Savage Strike acquisition is TP Medal Shop, not the generic Skill Shop label used in the PvE note."
+  ]
 }
