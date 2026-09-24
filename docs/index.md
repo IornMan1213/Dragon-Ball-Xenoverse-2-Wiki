@@ -38,7 +38,7 @@ title: Dragon Ball Xenoverse 2 Wiki
   <a href="{{ '/Builds/' | relative_url }}"><b>⚔️ Builds</b><span>Practical setups for different playstyles</span></a>
   <a href="{{ '/Farming-Hub/' | relative_url }}"><b>🎯 Farming Hub</b><span>Rewards, routes, and efficient farming</span></a>
   <a href="{{ '/Characters/' | relative_url }}"><b>👥 Characters</b><span>Forms, presets, unlocks, DLC, and relationships</span></a>
-  <a href="{{ '/Mentors/' | relative_url }}"><b>🥋 Mentors</b><span>Lessons, skills, friendship, and unlock routes</span></a>
+  <a href="{{ '/Mentors-All/' | relative_url }}"><b>🥋 Mentors</b><span>Search all 33 canonical mentors and their lesson skill links</span></a>
   <a href="{{ '/Conton-City/' | relative_url }}"><b>🏙️ Conton City</b><span>Hub services, Time Rifts, NPCs, travel, and progression</span></a>
   <a href="{{ '/Level-Cap-Attributes/' | relative_url }}"><b>📈 Level & Stats</b><span>Leveling, attributes, and late-game progression</span></a>
 </section>
@@ -49,7 +49,7 @@ title: Dragon Ball Xenoverse 2 Wiki
     <a class="pulse-card" href="{{ '/Skills-All/' | relative_url }}"><strong>672</strong><span>skill category memberships indexed</span><small>Research target — not 672 fully verified records</small></a>
     <a class="pulse-card" href="{{ '/Parallel-Quests-All/' | relative_url }}"><strong>186</strong><span>numbered Parallel Quests tracked</span><small>Includes Future Saga Chapter 4</small></a>
     <a class="pulse-card" href="{{ '/Awoken-All/' | relative_url }}"><strong>18</strong><span>Awoken/Transformation targets</span><small>CaC and character-only states are separated</small></a>
-    <a class="pulse-card" href="{{ '/Mentors/' | relative_url }}"><strong>33+</strong><span>mentor records in the research layer</span><small>Unlocks and progression continue to be reconciled</small></a>
+    <a class="pulse-card" href="{{ '/Mentors-All/' | relative_url }}"><strong>33</strong><span>canonical mentor identities</span><small>Lesson rewards and skill cross-links are independently tracked</small></a>
     <a class="pulse-card" href="{{ '/Super-Souls-Database/' | relative_url }}"><strong>230</strong><span>canonical Super Soul records</span><small>Acquisition and effect fields remain independently verifiable</small></a>
     <a class="pulse-card" href="{{ '/QQ-Bang-Database/' | relative_url }}"><strong>QQ</strong><span>QQ Bang research layer</span><small>Synthesis system, six-stat schema, Super Mix Capsule Z, and recipe provenance</small></a>
     <a class="pulse-card" href="{{ '/Equipment-Database/' | relative_url }}"><strong>NEW</strong><span>Equipment research track</span><small>Individual gear, clothing, accessories, acquisition, stats, and version provenance</small></a>
@@ -107,7 +107,7 @@ title: Dragon Ball Xenoverse 2 Wiki
   <div class="section-heading"><div><p class="eyebrow">EXPLORE THE WIKI</p><h2>Browse by category</h2></div></div>
   <div class="link-grid">
     <a href="{{ '/Characters/' | relative_url }}">Characters <span>→</span></a>
-    <a href="{{ '/Mentors/' | relative_url }}">Mentors <span>→</span></a>
+    <a href="{{ '/Mentors-All/' | relative_url }}">Mentors <span>→</span></a>
     <a href="{{ '/Equipment-Database/' | relative_url }}">Equipment <span>→</span></a>
     <a href="{{ '/Accessory-Shop-Database/' | relative_url }}">Accessory Shop <span>→</span></a>
     <a href="{{ '/TP-STP-Medal-Shop-Database/' | relative_url }}">TP / STP Shops <span>→</span></a>
