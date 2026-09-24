@@ -6790,3 +6790,11 @@
 - [x] Preserved the unresolved canonical boundary: no `skill-time-skip-tremor-pulse` record was inserted into `skills.json` or `skills-index.json`, and no mentor endpoint edge was restored by inference.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Next:** losslessly run the standard skill builder when runtime is available; then validate canonical/index parity and reconcile the Hit mentor endpoint. If unavailable, continue the next evidence-backed thin-domain enrichment rather than guessing.
+
+
+### 2026-09-24 completed Savage Strike P1 provenance enrichment
+- [x] Strengthened Savage Strike research provenance without changing canonical identity or inventing a shop price.
+- [x] Added and registered `docs/data/skill-savage-strike-p1-provenance-enrichment-2026-09-24.json`.
+- [x] Advanced `docs/data/skill-p1-provenance-coverage-gap-2026-09-24.json`; Pressure Sign is now the next bounded P1 target.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Next:** evidence-bound Pressure Sign provenance audit and canonical/index validation.
