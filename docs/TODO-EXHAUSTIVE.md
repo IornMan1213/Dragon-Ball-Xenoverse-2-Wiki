@@ -6580,3 +6580,12 @@
 - [x] Commit: `db9db28c1d35a43babeda0098e8ff79c8871e587`.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Next:** bounded current-facing non-PQ acquisition consumer sweep outside the mentor layer, prioritizing stale scalar projections and one-way links.
+
+
+### 2026-09-24 completed non-PQ endpoint-layer stale mentor count repair
+- [x] Found the remaining current stale mentor endpoint-layer scalar in `docs/data/skill-acquisition-cross-domain-endpoint-audit-2026-09-24.json`.
+- [x] Corrected mentor endpoint count **132 → 131** and recorded the 130 unique resolved target baseline.
+- [x] Preserved historical counts and made no unsupported acquisition inference.
+- [x] Commit: `1376634625eecdd45b66db014218231b737d270d`.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Next:** bounded non-PQ reverse-projection sweep across Expert Mission, shop, special, and remaining endpoint consumers.
