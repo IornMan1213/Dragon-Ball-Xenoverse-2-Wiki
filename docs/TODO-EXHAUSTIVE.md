@@ -5286,3 +5286,12 @@
 - [x] Canonical/index ID parity remains exact; no duplicate IDs.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next batch:** **Divinity Unleashed; Do or Die; Dodon Ray; Dodoria Beam; Dodoria Launcher; Double Crush; Double Death Slicer; Dragon Burn; Dragon Spark; Dragon Spiral; Drain Field; Dual Destructo-Disc**.
+
+
+### 2026-09-24 cycle update — Divinity through Dual Destructo-Disc provenance refresh
+- [x] Refreshed 12 canonical/index skill records: **Divinity Unleashed, Do or Die, Dodon Ray, Dodoria Beam, Dodoria Launcher, Double Crush, Double Death Slicer, Dragon Burn, Dragon Spark, Dragon Spiral, Drain Field, Dual Destructo-Disc**.
+- [x] Added and registered the bounded provenance audit.
+- [x] Recomputed live census: **465 canonical / 465 index / 146 current / 319 stale / 0 duplicate IDs**.
+- [x] Preserved existing conflicts and evidence limits; no unsupported fields inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next batch:** **Dust Attack, Eagle Kick, Elegant Blaster, Elite Shooting, Emperor's Blast, Emperor's Cannon, Emperor's Death Beam, Emperor's Edge, Endless Shoot, Energy Charge, Energy Dome, Energy Field**.
