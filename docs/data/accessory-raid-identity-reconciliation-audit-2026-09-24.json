@@ -9,8 +9,8 @@
     "docs/data/equipment-accessories-record-layer.json"
   ],
   "counts": {
-    "raid_identity_records": 9,
-    "exactly_resolved": 9,
+    "raid_identity_records": 11,
+    "exactly_resolved": 11,
     "unresolved": 0,
     "canonical_accessory_records": 116,
     "raid_gift_bridge_records": 18,
