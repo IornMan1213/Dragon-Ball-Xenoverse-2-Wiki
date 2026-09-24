@@ -40,5 +40,8 @@
     "no_broken_skill_endpoints": true,
     "no_new_relationships_inferred": true
   },
-  "evidence_boundary": "The unresolved Hit lesson remains unresolved because no canonical skill record exists in the repository. This audit does not infer or fabricate a skill identity."
+  "evidence_boundary": "The unresolved Hit lesson remains unresolved because no canonical skill record exists in the repository. This audit does not infer or fabricate a skill identity.",
+  "changes": [
+    "Separated Zamasu's non-skill Super Soul reward from unresolved skill endpoints in the coverage projection; the only unresolved skill lesson remains Hit's Time Skip/Tremor Pulse."
+  ]
 }
