@@ -7236,3 +7236,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: **469 canonical / 469 index / 383 current / 86 stale / 0 duplicate IDs / canonical-index IDs aligned**.
 - CI/runtime remains unavailable; no CI success claimed.
 - **Exact next stale batch:** **Sphere of Destruction; Spirit Ball; Spirit Blaster; Spirit Bomb; Spirit Boost; Spirit Explosion; Spirit Pulse; Spirit Slash; Spirit Sword; Spread Shot Retreat; Steel Mirage; Stone Bullet**.
+
+
+### 2026-09-24 cycle update — Sphere of Destruction through Stone Bullet provenance refresh
+
+- Live census before editing: **469 canonical / 469 index / 383 current / 86 stale**.
+- Completed bounded P1 provenance batch: **Sphere of Destruction; Spirit Ball; Spirit Blaster; Spirit Bomb; Spirit Boost; Spirit Explosion; Spirit Pulse; Spirit Slash; Spirit Sword; Spread Shot Retreat; Steel Mirage; Stone Bullet**.
+- Synchronized canonical `docs/data/skills.json` and `docs/data/skills-index.json`; all 12 targets now have `last_verified=2026-09-24`.
+- Added `docs/data/skill-provenance-audit-2026-09-24-sphere-of-destruction-through-stone-bullet.json` with bounded evidence/validation results.
+- Existing acquisition, reward, mechanics, restriction, DLC/update provenance, and evidence conflicts were preserved; no unsupported mechanics or acquisition conditions were promoted.
+- Validation: **469 canonical / 469 index / 395 current / 74 stale / 0 duplicate IDs / canonical-index IDs aligned**.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next stale batch:** **Strike of Revelation; Sudden Death Beam; Sudden Storm; Super Afterimage; Super Black Kamehameha Rosé; Super Destructo-Disc; Super Donut Volley; Super Dragon Flight; Super Electric Strike; Super Elite Combo; Super Explosive Wave; Super Gamma Blast**.
