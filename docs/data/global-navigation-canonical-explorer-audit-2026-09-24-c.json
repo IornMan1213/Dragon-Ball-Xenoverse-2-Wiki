@@ -27,6 +27,14 @@
       "files": [
         "docs/_layouts/wiki.html"
       ]
+    },
+    {
+      "label": "Parallel Quests",
+      "from": "/Parallel-Quests/",
+      "to": "/Parallel-Quests-All/",
+      "files": [
+        "docs/_layouts/wiki.html"
+      ]
     }
   ],
   "reverted": {
