@@ -7817,3 +7817,10 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Added and registered docs/data/accessory-pq-presentation-consumer-audit-2026-09-24.json.
 - No acquisition, reward, guarantee, drop-rate, or identity inference was introduced.
 - Exact next priority: continue deterministic current-facing event/raid/Festival/character/preset consumer scanning, especially remaining equipment/accessory pages and cross-route indexes, for stale counts, orphan targets, one-way navigation, and canonical-ID drift.
+
+
+### 2026-09-24 cycle update — Accessory Shop presentation consumer count reconciliation
+- Corrected docs/Accessory-Shop-Database.md from stale 49-record wording to the live **51 populated shop records**, explicitly preserving unresolved shop-051/shop-052.
+- Added and registered docs/data/accessory-shop-presentation-consumer-audit-2026-09-24.json.
+- No shop identity, price, rotation, progression requirement, or acquisition route was inferred.
+- Exact next priority: continue deterministic event/raid/Festival and non-PQ acquisition consumer scanning for stale current counts, orphan targets, one-way navigation, and canonical-ID drift.
