@@ -18,7 +18,7 @@
     "status": "clean"
   },
   "reverse_navigation": {
-    "skill_count": 465,
+    "skill_count": 469,
     "canonical_pq_skill_edges": 244,
     "reverse_set_mismatches": 0,
     "consumer": "docs/Skills-All.html",
