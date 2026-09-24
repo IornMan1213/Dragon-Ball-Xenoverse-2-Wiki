@@ -6,58 +6,58 @@
   "live_counts": {
     "canonical_skill_records": 465,
     "index_skill_records": 465,
-    "current_last_verified_records": 230,
-    "stale_last_verified_records": 235,
+    "current_last_verified_records": 242,
+    "stale_last_verified_records": 223,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
     {
-      "id": "skill-god-of-destruction-s-might",
-      "name": "God of Destruction's Might"
+      "id": "skill-gravity-impact",
+      "name": "Gravity Impact"
     },
     {
-      "id": "skill-god-of-destruction-s-plaything",
-      "name": "God of Destruction's Plaything"
+      "id": "skill-handy-canon",
+      "name": "Handy Canon"
     },
     {
-      "id": "skill-god-of-destruction-s-poise",
-      "name": "God of Destruction's Poise"
+      "id": "skill-hawk-charge",
+      "name": "Hawk Charge"
     },
     {
-      "id": "skill-god-of-destruction-s-rampage",
-      "name": "God of Destruction's Rampage"
+      "id": "skill-headshot",
+      "name": "Headshot"
     },
     {
-      "id": "skill-god-of-destruction-s-roar",
-      "name": "God of Destruction's Roar"
+      "id": "skill-heat-dome-attack",
+      "name": "Heat Dome Attack"
     },
     {
-      "id": "skill-god-of-destruction-s-wrath",
-      "name": "God of Destruction's Wrath"
+      "id": "skill-heat-wave",
+      "name": "Heat Wave"
     },
     {
-      "id": "skill-god-punisher",
-      "name": "God Punisher"
+      "id": "skill-heavenly-arrow",
+      "name": "Heavenly Arrow"
     },
     {
-      "id": "skill-god-splitter",
-      "name": "God Splitter"
+      "id": "skill-hell-flash",
+      "name": "Hell Flash"
     },
     {
-      "id": "skill-godly-chronos-cannon",
-      "name": "Godly Chronos Cannon"
+      "id": "skill-hellzone-grenade",
+      "name": "Hellzone Grenade"
     },
     {
-      "id": "skill-godly-display",
-      "name": "Godly Display"
+      "id": "skill-hero-s-flute",
+      "name": "Hero's Flute"
     },
     {
-      "id": "skill-gorgeous-shot",
-      "name": "Gorgeous Shot"
+      "id": "skill-hero-s-pose",
+      "name": "Hero's Pose"
     },
     {
-      "id": "skill-grand-smasher",
-      "name": "Grand Smasher"
+      "id": "skill-heroic-assault",
+      "name": "Heroic Assault"
     }
   ],
   "notes": [
