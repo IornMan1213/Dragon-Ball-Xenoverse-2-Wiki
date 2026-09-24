@@ -7665,3 +7665,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime unavailable; browser runtime behavior remains an environment gate.
 - **Commits:** `085da6759418d7279b011d3d8b35903d01517898`, `bd68e333e02cfb5a17b830130ea93150397d8951`.
 - **Exact next priority:** continue deterministic non-PQ equipment/accessory navigation scanning for additional presentation consumers and canonical-ID drift, then proceed to the P1 provenance/data queue.
+
+
+### 2026-09-24 cycle completion — special acquisition current skill-baseline reconciliation
+- [x] Audited `docs/data/special-acquisition-endpoint-audit-2026-09-23.json` against the live canonical `docs/data/skills.json` layer and `docs/data/special-acquisition-endpoints.json`.
+- [x] Corrected the stale current `canonical_skill_count` from **465** to the live **469**. Endpoint integrity remains **14 endpoints / 14 forward edges / 14 unique skills / 0 unresolved IDs / 0 duplicate endpoint IDs / 0 duplicate endpoint-skill pairs**.
+- [x] Preserved the former 465 value as historical context via the audit's append-only note; endpoint relationships were not changed.
+- [x] Registered the refreshed audit in `docs/data/pq-cross-domain-index.json`.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Commits:** `fc03db826db00ba99dc02471aaa16b55f756f969`, `6a83e78d536bfa683498c03d4625046655cd9684`.
+- **Exact next priority:** continue deterministic non-PQ event/raid and acquisition-index consumer scanning for stale 469 skill counts, orphan IDs, and one-way navigation; prioritize current-facing machine-readable audits over speculative raid endpoint creation.
