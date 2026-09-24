@@ -3071,3 +3071,11 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Current Xenoverse 2-specific documentation supports **Strike Super**, **PQ86**, and variable **100–700 Ki** usage for Neo Wolf Fang Fist.
 - Preserved unresolved exact drop probability, frame data, and universal damage measurements; no Ultimate Finish-only gate was inferred. citeturn3search0turn3search1
 - CI/runtime remains unavailable; no CI success claimed.
+
+## 2026-09-24 — Energy Boil evidence-boundary refresh
+
+- Added `docs/data/skill-research-gaps-energy-boil-evidence-boundary-refresh-2026-09-24.json`.
+- Reconfirmed Xenoverse 2 ID 10540/short ID 540, Final Form Demigra ownership, CaC-unavailable status, and Evasive classification from current skill-list/ID evidence.
+- Preserved the unresolved repository `subcategory` and numeric `ki_cost` fields because the accessible Xenoverse 2 evidence does not expose either value.
+- Registered the audit in `docs/data/pq-cross-domain-index.json`; canonical skill/index parity remains 469/469 and no canonical promotion was attempted.
+- CI/runtime remains unavailable; no CI success claimed.
