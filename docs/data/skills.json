@@ -13,7 +13,7 @@
       ],
       "stamina_cost": 300,
       "unlock_method": "Parallel Quest 96 — \"The Shadow Dragons\" Basic Reward",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
       "source_quest": 96,
       "source_quest_or_shop": "Parallel Quest 96 — \"The Shadow Dragons\"",
@@ -26,7 +26,7 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 acquisition refinement: current PQ reward listings explicitly place Absolute Zero in PQ96 Basic Reward. A separate older video guide describes the skill as a PQ96 Ultimate Finish reward; this source conflict is retained rather than collapsing it into a false certainty. 2026-09-22 independent verification: the maintained all-186-PQ Steam guide again explicitly lists Absolute Zero under PQ96 Basic Reward, while the dedicated Fandom page identifies PQ96 as the unlock. The older UF claim remains preserved as a historical source conflict; no drop probability is inferred.",
+      "notes": "2026-09-20 acquisition refinement: current PQ reward listings explicitly place Absolute Zero in PQ96 Basic Reward. A separate older video guide describes the skill as a PQ96 Ultimate Finish reward; this source conflict is retained rather than collapsing it into a false certainty. 2026-09-22 independent verification: the maintained all-186-PQ Steam guide again explicitly lists Absolute Zero under PQ96 Basic Reward, while the dedicated Fandom page identifies PQ96 as the unlock. The older UF claim remains preserved as a historical source conflict; no drop probability is inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-absolute-zero",
       "source_parallel_quests": [
         96
@@ -51,10 +51,10 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Starting move / initial 'Mixed' choice",
       "mechanics": "Teleport/evasion movement: user leaves an afterimage and can redirect during the move.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "mechanics_notes": "Confirmed as Other Super; repository's 100-Ki cost and all-CaC-race availability retained.",
       "acquisition_type": "starting_move",
-      "notes": "2026-09-22 provenance verification: the dedicated Xenoverse 2 skill reference identifies Afterimage as the starting move for the Mixed fighting-style choice, matching the repository's current acquisition endpoint. The CaC creation documentation independently states that the Mixed choice determines the starting skill set and includes Afterimage. The legacy Xenoverse reference is not treated as a Xenoverse 2 acquisition source. No PQ acquisition, drop probability, or Ultimate Finish gate is inferred.",
+      "notes": "2026-09-22 provenance verification: the dedicated Xenoverse 2 skill reference identifies Afterimage as the starting move for the Mixed fighting-style choice, matching the repository's current acquisition endpoint. The CaC creation documentation independently states that the Mixed choice determines the starting skill set and includes Afterimage. The legacy Xenoverse reference is not treated as a Xenoverse 2 acquisition source. No PQ acquisition, drop probability, or Ultimate Finish gate is inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-afterimage"
     },
     {
@@ -74,13 +74,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 81 — \"Wake UP!\"",
       "mechanics_notes": "Confirmed as Other Super from PQ81 and usable by all CaC races. It creates an afterimage while moving and can transition into follow-up attacks. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": 81,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ81; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: direct skill documentation and Dragon Ball technique documentation are supplemented by an all-PQ guide and a launch-era Steam guide, both independently listing PQ81 (Wake Up!) with Afterimage Strike as a Basic Reward. Existing PQ81 acquisition semantics are preserved. 2026-09-22 independent provenance verification: the live Afterimage Strike reference explicitly identifies Parallel Quest 81 — \"Wake Up!\" as the unlock, while the maintained all-186-PQ Steam guide and an independent PQ81 record list Afterimage Strike under Basic Reward. The acquisition endpoint and non-Ultimate-Finish semantics are therefore retained; no drop probability is inferred.",
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ81; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: direct skill documentation and Dragon Ball technique documentation are supplemented by an all-PQ guide and a launch-era Steam guide, both independently listing PQ81 (Wake Up!) with Afterimage Strike as a Basic Reward. Existing PQ81 acquisition semantics are preserved. 2026-09-22 independent provenance verification: the live Afterimage Strike reference explicitly identifies Parallel Quest 81 — \"Wake Up!\" as the unlock, while the maintained all-186-PQ Steam guide and an independent PQ81 record list Afterimage Strike under Basic Reward. The acquisition endpoint and non-Ultimate-Finish semantics are therefore retained; no drop probability is inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-afterimage-strike",
       "source_parallel_quests": [
         81
@@ -102,12 +102,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Cell (Perfect) mentor training",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "race_restriction": "All CaC races",
       "source_quest": "Cell (Perfect) mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 independent provenance check: the maintained instructor-quest guide lists All Clear as Cell's Initiation Test Basic Reward; the dedicated All Clear reference states it is obtained from training with Cell (Perfect), and the mentor roster independently lists All Clear among Cell's rewards. No quest/PQ acquisition or Ultimate Finish gate is inferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 independent provenance check: the maintained instructor-quest guide lists All Clear as Cell's Initiation Test Basic Reward; the dedicated All Clear reference states it is obtained from training with Cell (Perfect), and the mentor roster independently lists All Clear among Cell's rewards. No quest/PQ acquisition or Ultimate Finish gate is inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-all-clear",
       "source_mentor": [
         "mentor-cell"
@@ -129,13 +129,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Android 16 mentor training",
       "mechanics_notes": "Mentor acquisition endpoint, skill identity, and classification are directly corroborated; numerical combat mechanics remain deferred until separately verified.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Android 16 mentor training — Lesson 2.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved. 2026-09-22 independent provenance verification: current Dragon Ball Wiki documentation identifies Android Rush as Android 16 Training Lesson 2; a current mentor-training video independently identifies Lesson 2 as Android Rush.",
+      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved. 2026-09-22 independent provenance verification: current Dragon Ball Wiki documentation identifies Android Rush as Android 16 Training Lesson 2; a current mentor-training video independently identifies Lesson 2 as Android Rush.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-android-rush",
       "source_mentor": [
         "mentor-android-16"
@@ -159,13 +159,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Expert Mission 12",
       "mechanics_notes": "Canonical skill identity, classification, and acquisition source verified; combat details remain bounded to directly evidenced fields.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Expert Mission 12",
       "dlc_requirement": "Base Game",
       "acquisition_type": "expert_mission",
-      "notes": "Added during Dual Ultimate relationship audit because the mentor's Dual Ultimate depends on this canonical base skill. 2026-09-21 provenance strengthening: current skill documentation identifies Expert Mission 12 — Attack of the Lone Super Soldier; a launch-era Expert Mission guide independently lists Angry Explosion as EM12 Basic Reward; a contemporaneous gameplay video documents the EM12 unlock route. Existing Expert Mission acquisition semantics are preserved. 2026-09-22 independent provenance verification: the dedicated Xenoverse 2 skill reference identifies Expert Mission 12 — \"Attack of the Lone Super Soldier\" as the unlock and classifies Angry Explosion as a 300-Ki Ki Blast Ultimate.",
+      "notes": "Added during Dual Ultimate relationship audit because the mentor's Dual Ultimate depends on this canonical base skill. 2026-09-21 provenance strengthening: current skill documentation identifies Expert Mission 12 — Attack of the Lone Super Soldier; a launch-era Expert Mission guide independently lists Angry Explosion as EM12 Basic Reward; a contemporaneous gameplay video documents the EM12 unlock route. Existing Expert Mission acquisition semantics are preserved. 2026-09-22 independent provenance verification: the dedicated Xenoverse 2 skill reference identifies Expert Mission 12 — \"Attack of the Lone Super Soldier\" as the unlock and classifies Angry Explosion as a 300-Ki Ki Blast Ultimate.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-angry-explosion",
       "source_mentor": [
         "mentor-nappa",
@@ -188,12 +188,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Majin Buu mentor training — Lesson 1",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "race_restriction": "All CaC races",
       "source_quest": "Majin Buu mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-22 independent provenance verification: current skill documentation identifies Training with Majin Buu as the unlock and records Angry Hit as a 100-Ki Strike Super; the Dragon Ball Wiki specifically identifies School Quest Lesson 1 of Majin Buu Training as the acquisition endpoint.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-22 independent provenance verification: current skill documentation identifies Training with Majin Buu as the unlock and records Angry Hit as a 100-Ki Strike Super; the Dragon Ball Wiki specifically identifies School Quest Lesson 1 of Majin Buu Training as the acquisition endpoint.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-angry-hit",
       "source_mentor": [
         "mentor-majin-buu"
@@ -212,7 +212,7 @@
       ],
       "stamina_cost": 300,
       "unlock_method": "Parallel Quest 68 — \"Old Rivals and Dragon Balls\" Basic Reward",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
       "source_quest": 68,
       "source_quest_or_shop": "Parallel Quest 68 — \"Old Rivals and Dragon Balls\"",
@@ -225,7 +225,7 @@
       "ki_cost": 0,
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence identifies the exact quest title and lists Angry Shout in Basic Reward. No unsupported drop probability or Ultimate Finish-only gate is asserted. 2026-09-22 independent provenance verification: the maintained all-PQ Steam guide explicitly lists Angry Shout under PQ68 — \"Old Rivals and Dragon Balls\" Basic Reward; contemporaneous player discussion independently confirms acquisition from completing PQ68 but does not establish a numerical drop rate or Ultimate Finish requirement.",
+      "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence identifies the exact quest title and lists Angry Shout in Basic Reward. No unsupported drop probability or Ultimate Finish-only gate is asserted. 2026-09-22 independent provenance verification: the maintained all-PQ Steam guide explicitly lists Angry Shout under PQ68 — \"Old Rivals and Dragon Balls\" Basic Reward; contemporaneous player discussion independently confirms acquisition from completing PQ68 but does not establish a numerical drop rate or Ultimate Finish requirement.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-angry-shout",
       "source_parallel_quests": [
         68
@@ -248,13 +248,13 @@
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. 2026-09-20 verification: current skill page explicitly states PQ161 unlock; the maintained PQ guide lists Apocalyptic Burst as a Basic Reward. 2026-09-20 audit: PQ161's current maintained reward data lists Apocalyptic Burst in a 45% Ultimate Finish bonus slot; the prior generic/random PQ wording is refined to the explicit gate. Current external reward listings conflict on Basic Reward versus Ultimate Finish bonus placement; canonical tier remains unchanged pending stronger deterministic evidence.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Apocalyptic_Burst",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "notes": "2026-09-20 audit: PQ161's current maintained reward data lists Apocalyptic Burst in a 45% Ultimate Finish bonus slot; the prior generic/random PQ wording is refined to the explicit gate. 2026-09-22 provenance reconciliation: current dedicated skill documentation confirms PQ161 as the acquisition endpoint; the maintained all-186-PQ guide and an independent PQ161 gameplay record place Apocalyptic Burst in the displayed Basic Reward list, while the repository's existing reward-tier evidence records it as a 45% Ultimate Finish bonus slot. The conflict is retained rather than silently changing ultimate_finish_required; no drop probability is inferred.",
+      "notes": "2026-09-20 audit: PQ161's current maintained reward data lists Apocalyptic Burst in a 45% Ultimate Finish bonus slot; the prior generic/random PQ wording is refined to the explicit gate. 2026-09-22 provenance reconciliation: current dedicated skill documentation confirms PQ161 as the acquisition endpoint; the maintained all-186-PQ guide and an independent PQ161 gameplay record place Apocalyptic Burst in the displayed Basic Reward list, while the repository's existing reward-tier evidence records it as a 45% Ultimate Finish bonus slot. The conflict is retained rather than silently changing ultimate_finish_required; no drop probability is inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "race_restriction": "All CaC races",
       "source_quest": 161,
       "acquisition_type": "quest_or_mission",
@@ -279,12 +279,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Nappa mentor training — Lesson 1",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "race_restriction": "All CaC races",
       "source_quest": "Nappa mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance verification: current independent references confirm Arm Crash is Nappa's Lesson 1 training reward; Steam's instructor-quest guide explicitly lists Arm Crash as Lesson 1's Basic Reward, and Dragon Ball Wiki independently identifies Nappa's Lesson 1 as the Xenoverse 2 acquisition route. No semantic correction required.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance verification: current independent references confirm Arm Crash is Nappa's Lesson 1 training reward; Steam's instructor-quest guide explicitly lists Arm Crash as Lesson 1's Basic Reward, and Dragon Ball Wiki independently identifies Nappa's Lesson 1 as the Xenoverse 2 acquisition route. No semantic correction required.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-arm-crash",
       "source_mentor": [
         "mentor-nappa"
@@ -307,9 +307,9 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Expert Mission 9 — \"The Most Feared Majin\"",
       "acquisition_type": "expert_mission",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM09. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM09. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-assault-rain"
     },
     {
@@ -331,12 +331,12 @@
       "source_quest_or_shop": "PQ131 — Fight of the Fusions! Vegito vs Gogeta",
       "dlc_requirement": "Extra Pack 4",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "stamina_cost": 100,
       "mechanics_notes": "Confirmed as Other Super from PQ131 and usable by all CaC races. Costs 100 Ki and 100 Stamina, warping behind the target; holding the input prolongs invisibility/reappearance position. Current independent PQ reward documentation lists Assault Vanish under PQ131's Basic Reward.",
       "source_quest": 131,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance refinement: the maintained PQ131 drop-condition data explicitly assigns this skill to a 25% Ultimate Finish roll; the earlier generic acquisition wording did not establish the gate. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-21 cross-field correction: independent PQ reward documentation lists Assault Vanish under PQ131's Basic Reward, conflicting with the prior 25% Ultimate Finish-roll fields. The canonical unlock method and Ultimate Finish requirement were corrected to match the directly documented Basic Reward classification; no drop percentage is retained. 2026-09-22 provenance verification: current independent PQ131 evidence confirms Assault Vanish is obtainable from Parallel Quest 131, with independent gameplay documentation identifying the skill as the PQ131 unlock. The repository's existing Basic Reward classification and 2026-09-21 conflict resolution are preserved; no drop probability or Ultimate Finish gate is reintroduced.",
+      "notes": "2026-09-20 provenance refinement: the maintained PQ131 drop-condition data explicitly assigns this skill to a 25% Ultimate Finish roll; the earlier generic acquisition wording did not establish the gate. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-21 cross-field correction: independent PQ reward documentation lists Assault Vanish under PQ131's Basic Reward, conflicting with the prior 25% Ultimate Finish-roll fields. The canonical unlock method and Ultimate Finish requirement were corrected to match the directly documented Basic Reward classification; no drop percentage is retained. 2026-09-22 provenance verification: current independent PQ131 evidence confirms Assault Vanish is obtainable from Parallel Quest 131, with independent gameplay documentation identifying the skill as the PQ131 unlock. The repository's existing Basic Reward classification and 2026-09-21 conflict resolution are preserved; no drop probability or Ultimate Finish gate is reintroduced.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-assault-vanish",
       "source_parallel_quests": [
         131
