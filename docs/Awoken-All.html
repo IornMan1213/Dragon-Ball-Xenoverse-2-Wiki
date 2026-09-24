@@ -21,7 +21,7 @@ Search the repository's **canonical local skill database** for explicitly classi
   const q=document.getElementById('q'), race=document.getElementById('race'), results=document.getElementById('results'), stats=document.getElementById('stats');
   const esc=v=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
   const norm=v=>String(v??'').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'');
-  const searchUrl=v=>'{{ "/Search/" | relative_url }}?q='+encodeURIComponent(v);
+  const searchUrl=v=>'{{ "/Awoken-All/" | relative_url }}?q='+encodeURIComponent(v);
   let rows=[];
   function render(){
     const term=norm(q.value.trim()), rr=norm(race.value);
