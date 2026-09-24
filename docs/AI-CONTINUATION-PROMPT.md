@@ -103,3 +103,11 @@
 - [x] Added/registered the Vegeta 10–11 evidence audit and preserved unresolved status.
 - [x] Commits: `c74f76e6a70352f4ef665910e27c4c4511e764bf`, `216775a5189aa8bf504e4625fdeb47a282bc069a`, `1d8b8f083f68104f1aaf92c681e9ac38d307751c`.
 - [ ] **Exact next:** Captain Ginyu Presets 5–6.
+
+### 2026-09-24 cycle completion — Captain Ginyu Presets 5–6 evidence pass
+- [x] Audited both unresolved numeric presets.
+- [x] Numeric identities are independently corroborated, but complete eight-slot configurations are not directly extractable with a safe numeric mapping. citeturn0youtube12turn0search2
+- [x] No unsupported promotion was made.
+- [x] Added/registered the Captain Ginyu evidence audit.
+- [x] Commits: `44d5cfa2921f201e94aad91a91d148cfcf3247c3`, `4af784c97d1c7133e53492485466e7a877865ae8`.
+- [ ] **Exact next:** seek direct numeric 5/6 loadout binding; otherwise continue to the next unresolved preset batch.
