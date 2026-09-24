@@ -53,10 +53,10 @@ title: Dragon Ball Xenoverse 2 Wiki
     <a class="pulse-card" href="{{ '/Super-Souls-Database/' | relative_url }}"><strong>18</strong><span>Super Soul records populated</span><small>Acquisition and effect fields remain independently verifiable</small></a>
     <a class="pulse-card" href="{{ '/QQ-Bang-Database/' | relative_url }}"><strong>QQ</strong><span>QQ Bang research layer</span><small>Synthesis system, six-stat schema, Super Mix Capsule Z, and recipe provenance</small></a>
     <a class="pulse-card" href="{{ '/Equipment-Database/' | relative_url }}"><strong>NEW</strong><span>Equipment research track</span><small>Individual gear, clothing, accessories, acquisition, stats, and version provenance</small></a>
-    <a class="pulse-card" href="{{ '/Accessory-Shop-Database/' | relative_url }}"><strong>53</strong><span>Accessory Shop research records</span><small>Scouters, headwear, wigs, eyewear, props, staffs, and special accessories</small></a>
+    <a class="pulse-card" href="{{ '/Accessory-Shop-Database/' | relative_url }}"><strong>51</strong><span>Accessory Shop research records</span><small>Scouters, headwear, wigs, eyewear, props, staffs, and special accessories</small></a>
     <a class="pulse-card" href="{{ '/TP-STP-Medal-Shop-Database/' | relative_url }}"><strong>36</strong><span>TP/STP equipment shop records</span><small>Historical rotations, prices, clothing, accessories, and currency provenance</small></a>
     <a class="pulse-card" href="{{ '/Accessory-PQ-Database/' | relative_url }}"><strong>45</strong><span>Accessory → PQ research records</span><small>PQ routes, reward-condition research, conflicts, and alternate acquisition paths</small></a>
-    <a class="pulse-card" href="{{ '/Accessory-Canonical-Database/' | relative_url }}"><strong>37</strong><span>canonical accessory identities</span><small>Identity reconciliation across PQ, shop, raid, gift, wish, and DLC routes</small></a>
+    <a class="pulse-card" href="{{ '/Accessory-Canonical-Database/' | relative_url }}"><strong>116</strong><span>canonical accessory identities</span><small>Identity reconciliation across PQ, shop, raid, gift, wish, and DLC routes</small></a>
   </div>
 </section>
 
