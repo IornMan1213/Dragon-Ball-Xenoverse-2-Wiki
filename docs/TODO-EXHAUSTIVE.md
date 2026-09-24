@@ -5125,3 +5125,14 @@
 - [x] Preserved canonical endpoint IDs and skill IDs; no new relationships or drop-rate claims were inferred.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** advance to the remaining **95 non-PQ/non-mentor** skill acquisition/provenance gaps, prioritizing explicit special-route evidence such as Ultra Instinct.
+
+
+### 2026-09-23 cycle update — Ultra Instinct special-route provenance strengthening
+- [x] Recomputed the live acquisition census: **465 canonical / 239 PQ-linked / 226 non-PQ**, with **95 unique non-PQ/non-mentor endpoint targets** and **131 unique mentor-linked skill targets**.
+- [x] Strengthened skill-ultra-instinct with independent In Pursuit of Mastery evidence and updated special-ultra-instinct to a source-backed explicit route.
+- [x] Removed the stale description of Ultra Instinct as an unresolved special-route target from the cross-link contract.
+- [x] Corrected EM17 endpoint reward-tier metadata to null so the preserved Spirit Bomb vs Spirit Sword conflict is not represented as a false Basic Reward claim.
+- [x] Preserved canonical IDs, relationships, and evidence boundaries; no new acquisition edge was inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- Commits: 7e277e8a024534c052115b3bb38ff625ddc61177, 48d744c3ca3261b3bea43bc50aec3986b5bd327a, 333d307893dc5e8344db00141dcb23db68332a42, a777b2f69384b8147eac709c958e01b2d1eceeec, e4befb948c2b400a23fe23f6cbc62b2818067fcb.
+- **Exact next task:** continue the 95 endpoint-linked non-PQ/non-mentor provenance queue, prioritizing the thinnest-source records in bounded 4–12 record batches.
