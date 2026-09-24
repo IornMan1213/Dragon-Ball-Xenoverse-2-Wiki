@@ -74,16 +74,15 @@
       "status": "unresolved",
       "known_identity": "Villainous/Supervillain cast skill",
       "missing": [
-        "class",
-        "subcategory",
         "ki_cost"
       ],
       "evidence": [
-        "Xenoverse 2 PQ enemy tables list Baked Sphere for villainous characters",
-        "Dragon Ball technique documentation describes its Xenoverse lineage"
+        "Xenoverse 2 character ID list identifies Baked Sphere as skill ID 531 and CaC-unavailable.",
+        "A Xenoverse 2 community skill-catalog discussion lists Baked Sphere among Ultimate skills unobtainable by CaC.",
+        "Xenoverse 2-specific gameplay documentation describes Baked Sphere as a dark explosive-wave skill used by villainous/supervillain opponents."
       ],
-      "reason": "Cross-game descriptions disagree with or do not explicitly establish the current Xenoverse 2 canonical class/subcategory, so it remains a gap rather than a guessed record."
+      "reason": "Xenoverse 2-specific evidence now establishes the skill as a CaC-unavailable Ultimate/explosive-wave attack, but a sufficiently direct source for the repository's Ki-cost field has not been established."
     }
   ],
-  "notes": "2026-09-24 Howl tranche: Evasive classification and CaC-unavailable status strengthened from Xenoverse 2-specific artifacts; Ki cost and acquisition remain unresolved and are not promoted."
+  "notes": "2026-09-24 Howl tranche: Evasive classification and CaC-unavailable status strengthened from Xenoverse 2-specific artifacts; Ki cost and acquisition remain unresolved and are not promoted. 2026-09-24 Baked Sphere tranche: strengthened Xenoverse 2-specific Ultimate/CaC-unavailable classification; Ki cost remains unresolved and is not promoted."
 }
