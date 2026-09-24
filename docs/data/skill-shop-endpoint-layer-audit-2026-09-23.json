@@ -2,15 +2,16 @@
   "schema_version": "1.0.0",
   "date": "2026-09-23",
   "scope": "skill shop / TP-STP medal shop canonical endpoint layer",
-  "canonical_skill_count": 455,
-  "shop_linked_skill_count": 23,
+  "canonical_skill_count": 465,
+  "shop_linked_skill_count": 31,
   "endpoint_count": 2,
-  "forward_edge_count": 23,
+  "forward_edge_count": 31,
   "reverse_endpoint_count": 2,
   "exact_skill_ids": [
     "skill-bending-kamehameha",
     "skill-big-bang-attack",
     "skill-big-bang-kamehameha",
+    "skill-chaos-shot",
     "skill-divine-kamehameha",
     "skill-divine-lasso",
     "skill-dragon-fist",
@@ -18,19 +19,26 @@
     "skill-explosive-wave",
     "skill-fighting-pose-k",
     "skill-final-explosion",
+    "skill-galick-cannon",
+    "skill-giant-storm",
     "skill-godly-display",
+    "skill-impulse-slash",
+    "skill-jumping-energy-wave",
+    "skill-menacing-flare",
     "skill-namek-finger",
     "skill-power-pole-combo",
     "skill-pressure-sign",
     "skill-punisher-guard",
     "skill-quick-sleep",
     "skill-reverse-mabakusenko",
+    "skill-secret-poison",
     "skill-soaring-fist",
     "skill-spirit-boost",
     "skill-sudden-death-beam",
     "skill-super-afterimage",
     "skill-super-god-shock-flash",
-    "skill-time-bullet"
+    "skill-time-bullet",
+    "skill-wild-hunt"
   ],
   "validation": {
     "canonical_ids_resolve": true,
@@ -42,11 +50,10 @@
     "status": "pass"
   },
   "findings": [
-    "The live canonical skill layer contains 12 Skill Shop records and 11 TP/STP Medal Shop records, for 23 shop-linked skills.",
-    "Both shop systems now have stable canonical endpoint IDs and deterministic forward/reverse projections.",
-    "Canonical acquisition_type and source_quest_or_shop remain authoritative; alternate routes are retained in the skill records rather than duplicated as unsupported relationships.",
-    "Historical rotation/price evidence is preserved as provenance and is not interpreted as current availability.",
-    "Normalized seven legacy `shop` records whose canonical source is TP/STP Medal Shop, plus one mixed Skill Shop/Expert Mission record to Skill Shop and one to Expert Mission; the shop endpoint projection was then synchronized to 31 total shop-linked skills."
+    "The live canonical skill layer contains 13 Skill Shop records and 18 TP/STP Medal Shop records, for 31 shop-linked skills.",
+    "Both shop systems have stable canonical endpoint IDs and deterministic forward/reverse projections.",
+    "Canonical acquisition_type and source_quest_or_shop remain authoritative; alternate routes are retained in skill provenance rather than duplicated as unsupported relationships.",
+    "Historical rotation/price evidence is preserved as provenance and is not interpreted as current availability."
   ],
   "next_research": [
     "Build the equivalent canonical Time Rift/story/tournament endpoint layer.",
