@@ -16,10 +16,9 @@
   "finding": "The current verification-date queue is exhausted. Further P1 work must enrich evidence fields rather than merely refresh last_verified.",
   "priority_targets": [
     {
-      "name": "Pressure Sign",
-      "research_batch": "docs/data/skill-research-batches/skill-batch-125.json",
-      "status": "next",
-      "evidence_boundary": "Existing research establishes universal counter identity and Skill Shop acquisition; preserve version-sensitive frame/matchup limits."
+      "name": "Next unresolved P1 target",
+      "status": "pending_selection",
+      "evidence_boundary": "Select the next existing research record with an explicit provenance gap. Do not create a canonical identity solely to fill a gap."
     }
   ],
   "method": "Select records with existing direct research artifacts and incomplete enrichment; strengthen provenance/acquisition/mechanics only where existing evidence supports the field. Do not manufacture new numeric mechanics or acquisition gates.",
@@ -29,9 +28,10 @@
     "canonical_index_parity": true,
     "ci": "Unavailable; no CI success claimed."
   },
-  "exact_next": "Enrich Pressure Sign's canonical/research provenance only where the existing direct evidence supports a change, then audit canonical/index parity and cross-domain registration. Preserve version-sensitive frame/matchup limits.",
+  "exact_next": "Select the next P1 provenance target from the remaining unresolved research corpus, enrich only evidence-backed fields, then validate canonical/index parity and cross-domain registration.",
   "completed_targets": [
     "Savage Strike",
-    "Quick Sleep"
+    "Quick Sleep",
+    "Pressure Sign"
   ]
 }
