@@ -7572,3 +7572,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Remaining backlog: **Cheelai Wig** and **Hercule Wig 2**; separate Cheelai Wig (w/Scouter) remains unresolved and must remain distinct.
 - Commits: canonical `12440befd24764336991664ee0f9663a450f4f8e`, backlog `44867c76bbca59bc772c5c1892d57859809683e8`, bridge `dd94f44a30895702d1b5ddef7cbace36c5d04178`, identity reconciliation `efdb4bd4e00218bf9faef62045d9555dc1219ca6`, audit `8a875802faef430391909caf090d17b02d97e971`.
 - **Exact next priority:** reconcile the remaining Cheelai variants and Hercule Wig 2, then continue deterministic event/raid non-PQ consumer scanning.
+
+
+### 2026-09-24 cycle completion — exact Cheelai variants + Hercule Wig 2 accessory reconciliation
+- Completed the next bounded P1 accessory identity reconciliation against the maintained canonical/equipment layers and independent inventory/model evidence.
+- Promoted **Cheelai Wig → accr-114 (model ID 779)**, **Cheelai Wig (w/Scouter) → accr-115 (model ID 777)**, and **Hercule Wig 2 → accr-116 (model ID 946)** as distinct canonical accessory identities. The Cheelai variants were explicitly kept separate; Hercule Wig 2 was not merged with canonical Hercule Wig.
+- Synchronized `docs/data/accessory-canonical-reconciliation.json`, `docs/data/accessory-raid-gift-canonical-bridge.json`, `docs/data/accessory-unmatched-route-backlog.json`, `docs/data/accessory-raid-identity-reconciliation-2026-09.json`, and `docs/data/accessory-raid-identity-reconciliation-audit-2026-09-24.json`.
+- Evidence used: repository-maintained route records; Online Raid documentation; Bandai Namco's documented Hercule Wig 2 raid reward; independent Cheelai character/raid documentation; independent Xenoverse 2 inventory/model ID reference identifying model IDs 777, 779, and 946. Historical availability remains route evidence, not a current-availability claim. No reward probabilities were inferred.
+- Validation: **116 canonical accessory records / 9 raid identity records / 9 exactly resolved / 0 unresolved / 18 bridge records / 18 bridge-resolved / 0 bridge-unresolved / 0 broken canonical IDs**; all five changed JSON files parsed successfully.
+- CI/runtime remains unavailable; no CI success claimed.
+- Commits: canonical `402dc256c5c21838418d04ffeeed4d6fa5af5bcb`; bridge `301c8c00c7b718ac6ac247e8e7330dd444c79b8c`; backlog `6f11ae76118436a6ac7e258ad2a536075e119901`; identity reconciliation `d724f7f7363754d3f3db78beada1eb4e0d5e73ab`; audit `099a4825553c04bef5c6967473c376a13530cd37`.
+- **Exact next priority:** continue the deterministic post-accessory event/raid non-PQ consumer scan, starting with the next machine-checkable current-facing projection or orphan/count drift; do not create a speculative generic raid skill endpoint layer where the repository lacks deterministic structured edges.
