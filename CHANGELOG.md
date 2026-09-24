@@ -3028,3 +3028,11 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Added and registered `docs/data/quick-sleep-shop-endpoint-provenance-reconciliation-2026-09-24.json`.
 - Preserved the TP/STP Medal rotation as alternate provenance only; no current rotation, price, or second endpoint was inferred.
 - Live skill baseline remains 469 canonical / 469 index; CI/runtime unavailable.
+
+
+### 2026-09-24 — Great Ape/legacy Demigra skill-gap evidence enrichment
+- Strengthened the unresolved research records for **Boiling Ball** (skill ID 541) and **Tricky Strike** (skill ID 542) with Xenoverse 2-specific identity, Super Skill classification, Final Form Demigra ownership, and CaC-unavailable evidence.
+- Added `docs/data/skill-research-gaps-boiling-ball-evidence-audit-2026-09-24.json` and `docs/data/skill-research-gaps-tricky-strike-evidence-audit-2026-09-24.json` and registered both in `docs/data/pq-cross-domain-index.json`.
+- Preserved unresolved repository fields: `subcategory` and `ki_cost`; no unsupported acquisition route or numeric cost was promoted.
+- Canonical skill layer remains **469 / 469**; no manual oversized-catalog reconstruction was attempted.
+- CI/runtime remains unavailable; no CI success claimed.
