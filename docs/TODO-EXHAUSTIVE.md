@@ -6192,3 +6192,15 @@
 - [x] Validation: reconciliation JSON and navigation audit both parse/re-fetch successfully; the canonical preset producer remains unchanged at 51 records / 25 verified loadouts / 162 skill entries.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** locate a source exposing both explicit Goku numeric preset labels and complete skill slots. If unavailable, move to the next unresolved preset family rather than guessing Goku loadouts.
+
+
+### 2026-09-24 cycle completion — Goku preset loadout source-boundary audit
+- [x] Live producer census: **51 canonical preset records / 25 verified loadouts / 162 verified skill-slot entries**; 16 existing Goku numeric preset records remain loadout-unresolved.
+- [x] Reviewed the current Goku in-game-data source: it exposes **19 named main-slot loadout rows with complete skill configurations**, but those rows use costume/named labels rather than the repository numeric preset IDs.
+- [x] Cross-checked the maintained community video: it explicitly labels the existing repository Goku numeric presets **2–12 and 14–18**, but its chapter index does not expose their skill-slot configurations.
+- [x] Created and registered `docs/data/goku-preset-loadout-source-boundary-2026-09-24.json` documenting the complementary evidence and the exact unresolved numeric-to-named mapping boundary.
+- [x] No row-order, costume-order, or proximity mapping was promoted; canonical Goku loadouts remain unresolved until a source directly binds numeric preset IDs to complete configurations.
+- [x] During the current-consumer scan, direct live fetches confirm the canonical character producer and `docs/Characters.md` remain at **152** identities; a repository search result showing 153 was stale search indexing and was not treated as live evidence. No character-count edit was made.
+- [x] Validation: new audit parses, central cross-domain index re-fetched with the registration, and canonical preset producer remains unchanged.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next batch:** search for an explicit numeric Goku preset table/game-data identifier containing complete skill slots; if unavailable, move to the next unresolved preset family.
