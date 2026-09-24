@@ -6734,3 +6734,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Updated the acquisition-index reconciliation audit to the current **127/127 exact-pair parity**, zero missing, zero extra, zero duplicate structured pairs.
 - Commits: 4b0123e187a5335daa950989123670a9a02e7d00; audit 3e27d876578b379eb104c080b3a24b9d8b1caaa2.
 - **Exact next task:** continue the P1 provenance/data queue with the next highest-impact structural gap, recomputing its live census first; avoid reopening the now-clean acquisition projection unless new evidence appears.
+
+
+### 2026-09-23 cycle update — Character-count consumer synchronization
+
+- Completed the deterministic current-state character-count census for the remaining explicit **149-character** consumers.
+- Repaired `docs/data/pq-cross-domain-audit.json` to reflect the live **151** canonical character-record layer while preserving its historical 149/older relationship snapshots.
+- Repaired `docs/data/dlc/daima-hoj2-playable-character-count-reconciliation-2026-09-23.json` validation metadata from 149 to **151**; official pack character counts and canonical-name matches were unchanged.
+- Added and registered `docs/data/character-count-consumer-synchronization-2026-09-23.json`.
+- Validation target: **151 canonical character records / 247 PQ→character edges / 75 unique relationship targets / 0 inferred relationship additions**.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next task:** continue the deterministic producer/consumer census for any remaining stale current-state skill/domain counts, then resume explicit source-backed preset-loadout reconciliation.
