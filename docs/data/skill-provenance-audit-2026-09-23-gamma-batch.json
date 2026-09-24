@@ -24,8 +24,8 @@
   ],
   "evidence_boundary": "No unresolved reward conflict, drop probability, mechanics, or restriction was rewritten.",
   "validation": {
-    "canonical_records": 455,
-    "index_records": 455,
+    "canonical_records": 465,
+    "index_records": 465,
     "duplicate_ids": 0,
     "target_records": 3,
     "canonical_index_targets_synchronized": true
