@@ -596,3 +596,13 @@
 - [x] Preserved evidence boundaries and did not modify oversized canonical catalogs.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next: continue the remaining unresolved skill-gap queue, prioritizing fields directly resolvable from Xenoverse 2-specific evidence.
+
+
+### 2026-09-24 continuation — Acid + Howl acquisition-boundary reconciliation
+- [x] Audited **Acid** and **Howl** as the next unresolved queue items using current Xenoverse 2-specific references plus the live research audits.
+- [x] Acid: preserved distinct normal skill ID **140** and raid-boss ID **143**; classification is Super Skill; CaC acquisition is not documented; only `ki_cost` remains unresolved.
+- [x] Howl: classification is Evasive Skill; CaC acquisition is not documented; only `ki_cost` remains unresolved.
+- [x] Updated the central gap ledger and both dedicated audits to explicitly record the no-CaC-unlock boundary rather than leaving `unlock_method` ambiguously unresolved.
+- [x] Current web verification corroborates Acid's Saibaman usage and Howl's Great Ape/Evasive usage, but did not expose a trustworthy canonical numeric Ki cost.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue the remaining unresolved skill-gap queue, prioritizing records with fields that can be resolved by direct Xenoverse 2 evidence; do not infer numeric Ki costs from other games or mods.
