@@ -568,5 +568,7 @@
   "skill_p1_provenance_coverage_gap_2026_09_24": "docs/data/skill-p1-provenance-coverage-gap-2026-09-24.json",
   "skill_research_time_skip_tremor_pulse_2026_09_24": "docs/data/skill-research-batches/skill-batch-225.json",
   "skill_research_gap_boiling_ball_evidence_audit_2026_09_24": "docs/data/skill-research-gaps-boiling-ball-evidence-audit-2026-09-24.json",
-  "skill_research_gap_tricky_strike_evidence_audit_2026_09_24": "docs/data/skill-research-gaps-tricky-strike-evidence-audit-2026-09-24.json"
+  "skill_research_gap_tricky_strike_evidence_audit_2026_09_24": "docs/data/skill-research-gaps-tricky-strike-evidence-audit-2026-09-24.json",
+  "skill_research_gap_acid_evidence_audit_2026_09_24": "docs/data/skill-research-gaps-acid-evidence-audit-2026-09-24.json",
+  "skill_research_gap_howl_evidence_audit_2026_09_24": "docs/data/skill-research-gaps-howl-evidence-audit-2026-09-24.json"
 }
