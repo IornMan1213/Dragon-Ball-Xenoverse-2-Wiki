@@ -6019,3 +6019,13 @@
 - [x] No reward relationship, guarantee, drop rate, inventory identity, or acquisition route was inferred or changed.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next priority: continue deterministic current-facing event/raid/Festival/character/preset consumer scanning, especially remaining equipment/accessory pages and cross-route indexes, for stale counts, orphan targets, one-way navigation, and canonical-ID drift.
+
+
+### 2026-09-24 cycle completion — Accessory Shop presentation consumer count reconciliation
+- [x] Audited docs/Accessory-Shop-Database.md against accessory-shop-research.json and accessory-shop-canonical-bridge.json.
+- [x] Corrected stale page wording from 49 to the live **51 populated shop records**.
+- [x] Preserved shop-051 and shop-052 as unresolved historical slots rather than reconstructing them by assumption.
+- [x] Added and registered docs/data/accessory-shop-presentation-consumer-audit-2026-09-24.json.
+- [x] Validation: structured shop layer and bridge both contain 51 populated records; 4 existing canonical identities remain intentionally unmatched to exact shop IDs.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next priority: continue deterministic event/raid/Festival and non-PQ acquisition consumer scanning for stale current counts, orphan targets, one-way navigation, and canonical-ID drift.
