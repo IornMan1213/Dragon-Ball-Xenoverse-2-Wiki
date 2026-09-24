@@ -2742,3 +2742,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Non-PQ coverage arithmetic is now **465 = 239 PQ-linked + 226 non-PQ; 226 = 131 unique mentor-linked + 95 non-PQ/non-mentor**.
 - Added `docs/data/skill-acquisition-endpoint-consumer-synchronization-2026-09-23.json` and registered it in the cross-domain index.
 - Validation: 465 canonical / 465 index / 0 duplicate IDs / full endpoint union 465 / 0 uncovered. CI/runtime unavailable.
+
+
+### 2026-09-23 — Current provenance-audit validation metadata sync
+
+- Synchronized current dated skill provenance audit validation metadata to the live **465 canonical / 465 index** baseline while preserving historical audit-time narrative counts.
+- No canonical skill facts, acquisition relationships, or mechanics were changed by this metadata-only pass.
+- CI/runtime unavailable.
