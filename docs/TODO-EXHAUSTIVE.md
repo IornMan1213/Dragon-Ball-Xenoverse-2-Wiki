@@ -1,3 +1,10 @@
+### 2026-09-24 completed/ongoing CI execution recovery — Repository quality rerun
+- [x] Inspected the latest Repository quality workflow run (`36072545830`), which failed at `Check for internal artifacts`.
+- [x] Used the available Actions permission to re-run the failed jobs; attempt **2** is queued.
+- [ ] Do not mark CI as passed until the rerun reaches a completed successful conclusion.
+- [x] No canonical skill catalog reconstruction or unsupported preset/loadout mapping was performed.
+- [ ] **Next:** poll the rerun and act on its actual result; continue preserving direct-evidence gates.
+
 ### 2026-09-24 completed numeric preset evidence recheck — Goku/Vegeta/Captain Ginyu
 - [x] Rechecked two independent dated Burcol preset-unlock artifacts and the current Xenoverse 2 Goku in-game-data page.
 - [x] Strengthened numeric-identity corroboration for the unresolved Goku/Vegeta/Captain Ginyu preset records.
