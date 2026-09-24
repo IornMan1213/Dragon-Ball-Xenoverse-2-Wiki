@@ -6292,3 +6292,13 @@
 - [x] Validation: homepage mentor navigation now resolves to the canonical explorer; audit status = pass; historical dated audit files were intentionally left unchanged.
 - [x] No new acquisition relationships, preset/loadout mappings, unlock conditions, or gameplay facts were inferred. CI/runtime remains unavailable.
 - [ ] **Exact next batch:** scan the remaining non-PQ reference/summary consumers for stale scalar metrics and one-way navigation (especially Guides, Skills-Complete-Database, DLC overview, and system landing pages), then move into the highest-impact source-backed preset/loadout tranche with direct numeric identity + complete configuration evidence.
+
+
+### 2026-09-24 cycle completion — non-PQ skill reference navigation repair
+- [x] Audited the next uncovered current non-PQ skill-reference consumers: `docs/Guides.md` and `docs/Skills-Master-Database.md`.
+- [x] Found both still linked to the obsolete `skills-database.html` target despite the canonical live explorer being `Skills-All.html`.
+- [x] Repaired both links to `Skills-All.html`; no canonical skill data or acquisition relationship was changed.
+- [x] Added and registered `docs/data/non-pq-skill-reference-navigation-audit-2026-09-24.json`.
+- [x] Validation: obsolete target occurrences = 0 in the two audited consumers; new target occurrences = 2; canonical explorer exists; audit status = pass.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next batch:** continue scanning remaining non-PQ landing/reference consumers for obsolete explorer targets, stale scalar/list assumptions, orphan navigation, and canonical-ID drift; then resume source-backed preset/loadout expansion only where numeric identity + complete configuration are directly evidenced.
