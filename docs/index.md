@@ -48,7 +48,7 @@ title: Dragon Ball Xenoverse 2 Wiki
   <div class="pulse-grid">
     <a class="pulse-card" href="{{ '/Skills-All/' | relative_url }}"><strong>672</strong><span>skill category memberships indexed</span><small>Research target — not 672 fully verified records</small></a>
     <a class="pulse-card" href="{{ '/Parallel-Quests-All/' | relative_url }}"><strong>186</strong><span>numbered Parallel Quests tracked</span><small>Includes Future Saga Chapter 4</small></a>
-    <a class="pulse-card" href="{{ '/Awoken-All/' | relative_url }}"><strong>18</strong><span>Awoken/Transformation targets</span><small>CaC and character-only states are separated</small></a>
+    <a class="pulse-card" href="{{ '/Awoken-All/' | relative_url }}"><strong>15</strong><span>canonical Awoken/Transformation records</span><small>Five additional named forms are documented as stages within parent records</small></a>
     <a class="pulse-card" href="{{ '/Mentors-All/' | relative_url }}"><strong>33</strong><span>canonical mentor identities</span><small>Lesson rewards and skill cross-links are independently tracked</small></a>
     <a class="pulse-card" href="{{ '/Super-Souls-All/' | relative_url }}"><strong>230</strong><span>canonical Super Soul records</span><small>Acquisition and effect fields remain independently verifiable</small></a>
     <a class="pulse-card" href="{{ '/QQ-Bang-Database/' | relative_url }}"><strong>QQ</strong><span>QQ Bang research layer</span><small>Synthesis system, six-stat schema, Super Mix Capsule Z, and recipe provenance</small></a>
