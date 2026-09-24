@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-24",
+  "skill_name": "Boulder Break",
+  "skill_id": "skill-boulder-break",
+  "status": "evidence_enriched_unresolved",
+  "scope": "bounded Xenoverse 2-specific evidence enrichment",
+  "evidence": [
+    {
+      "type": "xenoverse2_id",
+      "claim": "Xenoverse 2 Character ID List assigns skill ID 442 and marks it CaC-unavailable.",
+      "source": "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
+    },
+    {
+      "type": "xenoverse2_moveset",
+      "claim": "Great Ape Festival lists Boulder Break on Great Ape Nappa and Great Ape Bardock.",
+      "source": "https://dbxv2.fandom.com/wiki/Great_Ape_Festival"
+    },
+    {
+      "type": "xenoverse2_moveset",
+      "claim": "Xenoverse 2 PQ/Expert Mission references also show Boulder Break on Great Ape Baby and Great Ape Nappa.",
+      "source": "https://dbxv2.fandom.com/wiki/Great_Ape_Festival"
+    },
+    {
+      "type": "xenoverse2_moveset",
+      "claim": "Dragon Ball reference material describes Boulder Break as a Super Skill used by Great Apes.",
+      "source": "https://dbxv2.fandom.com/wiki/Great_Ape_Festival"
+    }
+  ],
+  "resolved_fields": {
+    "classification": "Super Skill",
+    "cac_available": false,
+    "character_source": "Great Ape Nappa; Great Ape Bardock; Great Ape Baby"
+  },
+  "unresolved_fields": [
+    "subcategory",
+    "ki_cost"
+  ],
+  "guardrails": [
+    "Do not infer the repository subtype from generic physical/projectile terminology without a validated taxonomy mapping.",
+    "Do not infer Ki cost from another game or unofficial implementation.",
+    "Do not create a CaC acquisition route from enemy-only usage.",
+    "Do not promote to canonical skills.json without supported builder execution and required field coverage."
+  ]
+}
