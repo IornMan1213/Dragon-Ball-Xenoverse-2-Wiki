@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-24",
+  "scope": "P1 skill provenance coverage gap after live current verification census",
+  "source_of_truth": [
+    "docs/data/skills.json",
+    "docs/data/skills-index.json",
+    "docs/data/skill-stale-metadata-census-2026-09-24.json"
+  ],
+  "live_baseline": {
+    "canonical_skill_records": 469,
+    "index_skill_records": 469,
+    "current_last_verified_records": 469,
+    "stale_last_verified_records": 0
+  },
+  "finding": "The current verification-date queue is exhausted. Further P1 work must enrich evidence fields rather than merely refresh last_verified.",
+  "priority_targets": [
+    {
+      "name": "Savage Strike",
+      "research_batch": "docs/data/skill-research-batches/skill-batch-163.json",
+      "evidence_boundary": "Existing direct skill references support identity, TP Medal Shop acquisition, 100 Ki Strike classification and alternate input behavior; do not promote community damage measurements to canonical values."
+    },
+    {
+      "name": "Quick Sleep",
+      "research_batch": "docs/data/skill-research-batches/skills-batch-02.json",
+      "evidence_boundary": "Existing research establishes Majin/Other Super identity and Skill Shop route; exact shop timing/price should remain unasserted unless directly supported."
+    },
+    {
+      "name": "Pressure Sign",
+      "research_batch": "docs/data/skill-research-batches/skill-batch-125.json",
+      "evidence_boundary": "Existing research establishes universal counter identity and Skill Shop acquisition; preserve version-sensitive frame/matchup limits."
+    }
+  ],
+  "method": "Select records with existing direct research artifacts and incomplete enrichment; strengthen provenance/acquisition/mechanics only where existing evidence supports the field. Do not manufacture new numeric mechanics or acquisition gates.",
+  "validation": {
+    "stale_queue_exhausted": true,
+    "duplicate_ids": 0,
+    "canonical_index_parity": true,
+    "ci": "Unavailable; no CI success claimed."
+  },
+  "exact_next": "Enrich the selected thin research records in canonical and index layers, starting with Savage Strike, then Quick Sleep and Pressure Sign, while adding an audit artifact and cross-domain registration."
+}
