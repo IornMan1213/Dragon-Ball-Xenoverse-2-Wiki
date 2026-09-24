@@ -1,3 +1,12 @@
+### 2026-09-24 cycle update — Future Saga Chapter 4 character identity presentation
+
+- Audited remaining character/DLC presentation drift and found two publisher-confirmed Chapter 4 playable identities missing from the older canonical character source-category snapshot: **Supreme Kai of Time (Ultra Supervillain)** and **Goku (Ultra Supervillain Quelled)**.
+- Added both as distinct canonical character identities using Bandai Namco's July 8, 2026 final-DLC announcement as explicit publisher provenance; no alias collapse to the base characters was performed.
+- Synchronized `docs/Characters.md` to **153 canonical identities** and `docs/DLC-Overview.md` so both Chapter 4 headline-character destinations resolve through the local character search surface.
+- Resolved the previously unresolved `Supreme Kai of Time (Ultra Supervillain)` entry in the DLC identity bridge/audit; current DLC headline-character identity audit is clean with 0 unresolved labels.
+- Existing preset/PQ navigation boundaries remain unchanged: adding an identity does not invent presets, unlock routes, raid history, or PQ relationships.
+- **Exact next priority:** continue deterministic current-facing consumer scanning, especially event/raid/Festival/Chapter 4 presentation surfaces and stale scalar assertions, then resume source-backed thin-domain expansion.
+
 ### 2026-09-24 cycle update — residual current accessory homepage consumer drift
 
 - Re-scanned current-facing accessory count consumers after the canonical reconciliation and farming presentation passes.
