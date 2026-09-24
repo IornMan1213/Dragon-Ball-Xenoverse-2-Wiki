@@ -5963,3 +5963,13 @@
 - [x] Final checked state: PQ endpoint validation **469/234/174/153/20 with 853 edges**, PQ skill presentation **469/244 with exact reverse parity**, consumer scan **pass**, index JSON **valid**.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** continue deterministic event/raid/Festival/Chapter 4 and character/preset consumer scanning.
+
+
+### 2026-09-24 completed broader current skill consumer census
+- [x] Synchronized five current-facing skill projections from the superseded 465 baseline to the live **469** canonical/index baseline.
+- [x] Current non-PQ arithmetic is now **469 - 239 = 230**, with **131** unique mentor-linked targets and **99** non-PQ/non-mentor endpoint targets.
+- [x] Confirmed the four recovered Hyper/Ice skills do not introduce character-source or mentor-source identities, so those bridge edge counts remain unchanged.
+- [x] Re-fetched edited JSON consumers after writes and confirmed current counts/parity.
+- [x] Preserved dated historical audits containing 465/455 counts as historical evidence.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** deterministic census of **event/raid/Festival/Chapter 4 and character/preset presentation consumers**, repairing only current-facing stale counts, one-way navigation, orphan targets, and identity drift supported by repository evidence.
