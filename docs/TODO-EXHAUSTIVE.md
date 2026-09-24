@@ -6983,3 +6983,14 @@
 - [ ] No canonical skill promotion; 469/469 boundary preserved.
 - [ ] CI/runtime unavailable.
 - [ ] Exact next: continue unresolved thin-domain research, seeking direct evidence for currently missing fields rather than duplicating identity-only corroboration.
+
+
+### 2026-09-24 cycle completion — Boulder Toss + Boulder Break subtype reconciliation
+- [x] Re-read the live continuation handoff, efficiency addendum, and exhaustive TODO before editing.
+- [x] Reconciled **Boulder Toss** (skill ID 441) and **Boulder Break** (skill ID 442) against the existing repository batch-286 taxonomy correction and current Xenoverse 2 Great Ape quest/technique evidence.
+- [x] Updated both dedicated evidence audits to record **Strike** as research-supported while retaining unresolved numeric `ki_cost`.
+- [x] Updated `docs/data/skill-research-gaps.json`: both records now have only `ki_cost` unresolved.
+- [x] Preserved the canonical integration boundary: no manual insertion into the 469/469 oversized canonical catalogs; supported builder/runtime remains unavailable.
+- [x] Validation: audit JSON and central gap ledger were updated through the GitHub API; registry already contains both audit paths; no gameplay/acquisition relationship was invented.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next: continue the remaining unresolved gap set, prioritizing **Boiling Burg**, **Energy Boil**, **Baked Sphere**, **Boiling Ball**, and **Tricky Strike** only where direct Xenoverse 2 evidence can resolve a currently missing field; otherwise preserve the evidence boundary.
