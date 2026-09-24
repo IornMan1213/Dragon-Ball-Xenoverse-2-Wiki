@@ -1,3 +1,14 @@
+### 2026-09-24 cycle update — current character/equipment/raid consumer synchronization
+
+- Re-scanned current-facing non-PQ consumers after the Chapter 4 character identity and final raid-accessory reconciliation.
+- Found stale current projections that still exposed **151 characters**, **465 skills**, **173 equipment/accessory records**, or **9 raid accessory identities**, despite the live producers being **153 / 469 / 174 / 11**.
+- Synchronized these current consumers: `docs/data/characters/character-presentation-consumer-audit.json`, `docs/data/characters/partner-customization-character-navigation-audit.json`, `docs/data/characters/published-character-dlc-navigation-audit.json`, `docs/data/dlc/daima-hoj2-playable-character-count-reconciliation-2026-09-23.json`, `docs/data/pq-endpoint-navigation-validation.json`, `docs/data/accessory-presentation-consumer-current-audit-2026-09-24.json`, and `docs/data/accessory-canonicalization-current-projection-audit-2026-09-24.json`.
+- Updated the DLC character presentation audit to **15/15 resolved bridge records / 0 unresolved labels** now that both Chapter 4 identities resolve exactly.
+- Added and registered `docs/data/current-character-equipment-raid-consumer-synchronization-2026-09-24.json`.
+- Validation boundary: metadata/current-consumer synchronization only; no new character preset, raid availability, reward probability, acquisition route, PQ relationship, or gameplay fact was inferred.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next priority:** continue deterministic current-facing **event/raid/Festival and remaining character/preset/navigation consumers**. Search for stale scalar/list assumptions, one-way links, orphan targets, and canonical-ID drift; preserve dated historical snapshots. After current consumer drift is exhausted, resume the highest-impact source-backed thin-domain expansion, with exhaustive preset/loadout coverage still a distinct research gap.
+
 ### 2026-09-24 cycle update — Future Saga Chapter 4 character identity presentation
 
 - Audited remaining character/DLC presentation drift and found two publisher-confirmed Chapter 4 playable identities missing from the older canonical character source-category snapshot: **Supreme Kai of Time (Ultra Supervillain)** and **Goku (Ultra Supervillain Quelled)**.
