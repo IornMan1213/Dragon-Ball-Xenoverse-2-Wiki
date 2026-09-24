@@ -6435,3 +6435,8 @@
 - [x] Verified the five canonical explorer targets exist in the live repository tree.
 - [x] Preserved the evidence boundary: navigation changes do not create preset/loadout/acquisition relationships.
 - [ ] Next: continue deterministic preset/character consumer scanning for stale projections and one-way links, then pursue explicit numeric preset + complete configuration evidence.
+
+### 2026-09-24 completed system/reference canonical explorer bridge
+- [x] Added canonical explorer navigation to DLC Overview, Super Souls, Equipment, Mentors, Awoken Skills, and Parallel Quests reference pages.
+- [x] Kept navigation-only semantics separate from factual relationship/acquisition/mechanics evidence.
+- [ ] Next: scan remaining system/reference consumers for stale counts, legacy destinations, and one-way links; then resume direct preset/loadout evidence research.

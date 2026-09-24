@@ -67,3 +67,14 @@ The repository treats `docs/data/pq-reward-relationships.json` as the authoritat
 User-supplied Parallel Quest compilation (mechanics + full numbered list with conditions and rewards), used as the basis for this practical, original index and summary. Cross-referenced with known high-value community routes.
 
 This page continues to grow as a useful local reference. Specific ranges or individual PQs can be detailed further on request without turning the file into a raw encyclopedia dump.
+
+
+## Canonical database navigation
+
+- [Parallel Quests](Parallel-Quests-All.html) — searchable canonical PQ records.
+- [Skills](Skills-All.html) — skill reward navigation.
+- [Super Souls](Super-Souls-All.html) — Super Soul reward navigation.
+- [Equipment](Equipment-All.html) — equipment/accessory reward navigation.
+- [Characters](Characters-All.html) — character relationship navigation.
+
+These links are navigation surfaces only; they do not establish unresolved relationships or acquisition/mechanics facts.

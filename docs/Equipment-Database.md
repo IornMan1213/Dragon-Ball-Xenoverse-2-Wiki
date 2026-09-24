@@ -139,3 +139,13 @@ The catalog index is therefore deliberately allowed to contain more names than t
 - Version changes and discontinued routes.
 - Equipment-to-QQ-Bang recipe cross-links.
 - Equipment-to-build and Super Soul cross-links.
+
+
+## Canonical database navigation
+
+- [Equipment](Equipment-All.html) — searchable equipment/accessory records.
+- [Parallel Quests](Parallel-Quests-All.html) — PQ reward navigation.
+- [Characters](Characters-All.html) — canonical character identities.
+- [Super Souls](Super-Souls-All.html) — related build-effect records.
+
+These links are navigation surfaces only; they do not establish unresolved relationships or acquisition/mechanics facts.

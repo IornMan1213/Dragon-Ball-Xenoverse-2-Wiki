@@ -50,3 +50,12 @@ A late-game universal transformation tied to Future Saga Chapter 4. It has a two
 The structured list currently uses **partially verified** status by default. A transformation is promoted to **verified** only after its current unlock route, resource behavior, major mechanical effects, race restriction, and patch-sensitive behavior have been checked against the source set.
 
 Character-only forms are deliberately not mixed into this CaC catalog. That prevents forms seen on playable presets from being incorrectly presented as Xenoverse 2 CaC unlocks.
+
+
+## Canonical database navigation
+
+- [Awoken Skills](Awoken-All.html) — searchable canonical Awoken records.
+- [Skills](Skills-All.html) — canonical skill explorer for related research.
+- [Characters](Characters-All.html) — character/form identity navigation.
+
+These links are navigation surfaces only; they do not establish unresolved relationships or acquisition/mechanics facts.
