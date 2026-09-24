@@ -507,14 +507,29 @@
     ],
     "skill-ultra-instinct": [
       "special-ultra-instinct"
+    ],
+    "skill-ice-cannon": [
+      "special-shenron-new-ultimate-ice-cannon"
+    ],
+    "skill-ice-claw": [
+      "special-shenron-new-super-ice-claw"
     ]
   },
   "coverage": {
-    "endpoint_count": 14,
-    "forward_edge_count": 14,
-    "unique_skill_count": 14,
+    "endpoint_count": 16,
+    "forward_edge_count": 16,
+    "unique_skill_count": 16,
     "unresolved_skill_ids": []
   },
   "evidence_policy": "Canonical skill acquisition fields are authoritative. Do not infer unsupported reward conditions, probabilities, or alternate acquisition routes.",
-  "date": "2026-09-24"
+  "date": "2026-09-24",
+  "validation": {
+    "canonical_ids_resolve": true,
+    "forward_reverse_exact_pair_parity": true,
+    "duplicate_endpoint_ids": false,
+    "duplicate_endpoint_skill_pairs": false,
+    "status": "pass",
+    "corrected_on": "2026-09-24",
+    "correction": "Added reverse navigation for the two Hyper/Ice recovery skills already present in the forward endpoint layer."
+  }
 }
