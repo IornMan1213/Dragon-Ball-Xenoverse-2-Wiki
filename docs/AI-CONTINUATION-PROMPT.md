@@ -8106,3 +8106,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - No reward guarantees, rates, prerequisites, or disputed EM17 reward naming were inferred.
 - Commits: `df6365efefa90fb032f6467ac096eeafd7080a81`, `9917acc512ec2cbbd511e950f6d3c6fe4bc8d119`, `1727ea191031d5a8654b4a53b815768f203cfb27`, `22e37ca53f35a652f83a2f932be1fddb294b3700`.
 - **Exact next batch:** continue deterministic current-facing consumer scanning outside the already-covered PQ/mentor/Expert Mission surfaces, prioritizing homepage/reference count drift, one-way links, orphan targets, and canonical-ID namespace confusion; then resume source-backed preset/loadout expansion only where direct numeric identity plus complete configuration is evidenced.
+
+
+### 2026-09-24 cycle update — homepage current consumer synchronization
+- Re-scanned `docs/index.md` after the mentor/Expert Mission consumer repairs.
+- Repointed homepage mentor links to `Mentors-All.html` and synchronized the displayed mentor count from loose **33+** to exact **33 canonical mentor identities**.
+- Confirmed current homepage metric semantics: 672 skill category memberships (explicitly not canonical record count), 186 PQs, 18 Awoken/Transformation targets, 230 canonical Super Souls, 51 Accessory Shop records, 116 canonical accessory identities, 36 TP/STP shop records, 45 Accessory→PQ research records, and 20 Expert Missions.
+- Added `docs/data/homepage-current-consumer-audit-2026-09-24.json` and registered it in the central cross-domain index.
+- Validation: audit passes and homepage navigation target is canonical; no historical audit snapshots were rewritten; no unsupported relationships or gameplay facts were introduced.
+- Commits: `d76d0bc30e7a501829e6b125de39c48de1ec280f`, `76f696556becda432f2706231c28d1de9c49a0c9`, `9b9d5d4f16f0e781ee0fc3e56d4f4e5baf304599`.
+- **Exact next batch:** scan remaining non-PQ reference/summary consumers for stale scalar metrics and one-way navigation, especially Guides, Skills-Complete-Database, DLC overview, and system landing pages; then begin the highest-impact source-backed preset/loadout tranche only with direct numeric identity + complete configuration evidence.
