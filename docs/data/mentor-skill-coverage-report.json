@@ -572,9 +572,7 @@
         "skill-heavenly-arrow",
         "skill-instant-severance"
       ],
-      "unresolved_skill_names": [
-        "I'm thinking of becoming a GodTuber"
-      ]
+      "unresolved_skill_names": []
     }
   ],
   "notes": [
@@ -583,7 +581,8 @@
     "Gotenks' duplicated Super Ghost Kamikaze Attack entry is preserved exactly as the consulted guide presents it.",
     "2026-09-21 mentor expansion linked Pan, Jaco, Goku, and Bardock lesson endpoints to canonical skill IDs; exact skill identity was required before linking.",
     "2026-09-21 validation correction: removed the pre-existing Hit → Time Skip/Tremor Pulse endpoint from the resolved index because no canonical skill record exists yet; preserved the lesson as an explicit unresolved endpoint rather than inventing an ID.",
-    "2026-09-24 live reconciliation: removed the stale Hit → skill-time-skip-tremor-pulse entry from linked_skill_ids because no canonical skill record exists; retained the lesson as the single unresolved skill endpoint. This aligns the coverage report with mentors-record-layer.json and mentor-skill-crosslink-report.json."
+    "2026-09-24 live reconciliation: removed the stale Hit → skill-time-skip-tremor-pulse entry from linked_skill_ids because no canonical skill record exists; retained the lesson as the single unresolved skill endpoint. This aligns the coverage report with mentors-record-layer.json and mentor-skill-crosslink-report.json.",
+    "2026-09-24 typed-reward cleanup: Zamasu's \"I'm thinking of becoming a GodTuber\" reward is a non-skill Super Soul, not an unresolved skill endpoint, so it is no longer listed under unresolved_skill_names. The only unresolved skill lesson is Hit's Time Skip/Tremor Pulse."
   ],
   "sources": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
