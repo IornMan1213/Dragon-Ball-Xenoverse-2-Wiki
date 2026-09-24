@@ -5,7 +5,7 @@ title: Mentors Database
 
 # Mentors Database
 
-Mentors, Masters, or Instructors are Conton City NPCs who provide training missions and unique skills. Each mentor offers four training missions. Mentor choice also affects Challenge Quest assistance, commentary, Parallel Quest appearances, friendship progression, and some Extra Story content. citeturn0search1
+Mentors, Masters, or Instructors are Conton City NPCs who provide training missions and unique skills. Each mentor offers four training missions. Mentor choice also affects Challenge Quest assistance, commentary, Parallel Quest appearances, friendship progression, and some Extra Story content. 
 
 ## Mentor record schema
 
@@ -29,15 +29,15 @@ The standard mentor path is:
 3. Select **Be my instructor**.
 4. Complete the four training missions.
 5. Increase friendship through quests and mentor interactions.
-6. At maximum friendship, unlock the mentor's Dual Ultimate and partner-gauge progression. citeturn0search1
+6. At maximum friendship, unlock the mentor's Dual Ultimate and partner-gauge progression. 
 
 ## Friendship system
 
-Friendship can be increased by going on quests with the mentor while they are your instructor, talking to them when returning to Conton City, and using certain costumes. The current friendship level is visible through **Play Data → Instructor Information**. citeturn0search1
+Friendship can be increased by going on quests with the mentor while they are your instructor, talking to them when returning to Conton City, and using certain costumes. The current friendship level is visible through **Play Data → Instructor Information**. 
 
 ## Partner Gauge
 
-After maximum friendship, the mentor gains a Partner Gauge. Its level affects the strength of the mentor's Dual Ultimate. The gauge can be raised through quests, using the Dual Ultimate, and fighting alongside the mentor in Extra Story content. citeturn0search1
+After maximum friendship, the mentor gains a Partner Gauge. Its level affects the strength of the mentor's Dual Ultimate. The gauge can be raised through quests, using the Dual Ultimate, and fighting alongside the mentor in Extra Story content. 
 
 ## Database expansion target
 
@@ -53,6 +53,6 @@ The finished mentor database should include every available mentor, including DL
 - nicknames/marks
 - relevant Extra Story differences
 
-The Fandom reference currently reports **33 available mentors including DLC characters**, but the project should keep this as a versioned count rather than hard-coding it as permanently true. citeturn0search1
+The Fandom reference currently reports **33 available mentors including DLC characters**, but the project should keep this as a versioned count rather than hard-coding it as permanently true. 
 
 **Primary reference:** [Mentors — Xenoverse 2 Wiki](https://dbxv2.fandom.com/wiki/Mentors).
