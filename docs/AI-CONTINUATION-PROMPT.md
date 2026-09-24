@@ -8095,3 +8095,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: modified JSON files re-fetched and parsed successfully; registration and bidirectional presentation wiring verified. CI/runtime remains unavailable; no CI success claimed.
 - Commits: `5e0b1f9eac15c4b498b276224c0cf6284a0e97ec`, `936abf839c14511b8dcc553d0021801ab018a737`, `9f94adde5ea0548c7b7d9659b3ac4628f61d706a`, `be02e842d461835aa20446173bb4c235f530f65c`, `75b934300c149b81cbefab6ece14d38bcd8a92ba`, `b9debc512aa10616e90ab67ec116b9a16bae425e`.
 - **Exact next batch:** inspect the next uncovered current non-PQ presentation consumer, prioritizing the Expert Mission endpoint layer/page/search navigation for stale counts, one-way links, orphan targets, and canonical-ID drift; then resume source-backed preset/loadout expansion where direct numeric identity plus complete configuration can be established.
+
+
+### 2026-09-24 cycle update — Expert Mission presentation navigation + residual homepage consumer drift
+- Audited `docs/Expert-Missions.md` against `docs/data/expert-mission-endpoints.json`.
+- Added direct canonical skill links for all **18/18** maintained EM→skill endpoints while preserving EM01–02 as tutorial missions without skill endpoints in the maintained layer.
+- Added `docs/data/expert-mission-presentation-consumer-audit-2026-09-24.json` and registered it in the central cross-domain index.
+- Validation: 20/20 mission index entries remain present; 18/18 skill endpoint links render; audit passes with 0 broken endpoints.
+- Found and corrected residual homepage drift: `docs/index.md` incorrectly stated 18 populated Super Soul records; current canonical producer is 230. Historical counts remain preserved elsewhere.
+- No reward guarantees, rates, prerequisites, or disputed EM17 reward naming were inferred.
+- Commits: `df6365efefa90fb032f6467ac096eeafd7080a81`, `9917acc512ec2cbbd511e950f6d3c6fe4bc8d119`, `1727ea191031d5a8654b4a53b815768f203cfb27`, `22e37ca53f35a652f83a2f932be1fddb294b3700`.
+- **Exact next batch:** continue deterministic current-facing consumer scanning outside the already-covered PQ/mentor/Expert Mission surfaces, prioritizing homepage/reference count drift, one-way links, orphan targets, and canonical-ID namespace confusion; then resume source-backed preset/loadout expansion only where direct numeric identity plus complete configuration is evidenced.
