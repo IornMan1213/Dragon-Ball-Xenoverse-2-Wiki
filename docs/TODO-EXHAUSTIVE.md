@@ -5503,3 +5503,15 @@
 - CI/runtime remains unavailable; no CI success claimed.
 - Commits: canonical `ad745bb666f54492a67100a37d38687562e462d8`; index `5e8008253c6951ff96a42f2e7b85d5b206b88870`; audit `67b1da4421c43c49f89585ca8ef64f2f1d316c0c`; census `c5d181131790af2d5d660fe23db2443aa13cc8fe`.
 - **Exact next stale batch:** **Saturday Crash; Sauzer Blade; Savory Slicer; Scatter Kamehameha; Scissors Paper Rock; Seagull Combination; Secret Poison; Shadow Crusher; Shield Barrier; Shine Shot; Shining Friday; Shining Slash**.
+
+
+### 2026-09-24 cycle update — Saturday Crash through Shining Slash provenance refresh
+
+- Live census before editing: **469 canonical / 469 index / 359 current / 110 stale**.
+- Completed bounded P1 provenance batch: **Saturday Crash; Sauzer Blade; Savory Slicer; Scatter Kamehameha; Scissors Paper Rock; Seagull Combination; Secret Poison; Shadow Crusher; Shield Barrier; Shine Shot; Shining Friday; Shining Slash**.
+- Synchronized canonical `docs/data/skills.json` and `docs/data/skills-index.json`; all 12 targets now have `last_verified=2026-09-24`.
+- Added `docs/data/skill-provenance-audit-2026-09-24-saturday-crash-through-shining-slash.json` with bounded evidence/validation results.
+- Existing evidence conflicts were preserved, including Shield Barrier's PQ153 reward-tier conflict; no unsupported mechanics or acquisition conditions were promoted.
+- Validation: **469 canonical / 469 index / 371 current / 98 stale / 0 duplicate IDs / canonical-index IDs aligned**.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next stale batch:** **Shocking Death Ball; Shooting Strike; Side Bridge; Sign of Awakening; Sneaky Strike; Soaring Fist; Soaring Rush; Solar Flare; Sonic Bomb; Sonic Rush; Special Beam Cannon; Special Beam Cannon (Beast)**.
