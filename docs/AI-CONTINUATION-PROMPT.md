@@ -7969,3 +7969,10 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: canonical count re-read as 230; edited guide re-fetched successfully.
 - Commit: guide 870b1e31759f52a17d0f967e372fcbcb4c314a39; TODO 78218b4ee99e64c24b82c2f267d9393eaceec7a4.
 - **Exact next batch:** continue deterministic non-PQ event/raid/Festival/Chapter 4 consumer scanning for stale scalar counts and one-way navigation; then resume source-backed preset/loadout expansion.
+
+### 2026-09-24 cycle update — Super Soul database census synchronization
+- Found a second current-facing stale census in `docs/Super-Souls-Database.md`: **42** versus **230** live canonical Super Soul records.
+- Corrected only that current census; historical dated research sections were preserved.
+- Validation: canonical layer re-read at 230; database re-fetched after commit with synchronized current census.
+- Commit: database 031381e91ab798183b20e6d90bc35df8b240b1d6; TODO 95ff8af5da2ae0cc50a744530769a9314daaab7a.
+- **Exact next batch:** continue deterministic non-PQ Event/Raid/Festival/Chapter 4 current-facing consumer scanning, then resume source-backed preset/loadout expansion.
