@@ -6989,3 +6989,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime remains unavailable; no CI success claimed.
 - Commits: canonical `00b4b70c97ddfaa168f0e7975c75a993919ef026`; index `4f220d2d038b5fcd589b97d1fed15708adf47452`; audit `5c28e5e3e5b6cf587e0ab39e82646c87ae2156ac`; cross-domain registration `41c91260fb9559f72861969292ee5e02f4591321`; census `8874f973bc8f911debadd26a10d69a009af7c1e2`.
 - **Exact next task:** process the 12 listed Dust-through-Energy records against their maintained evidence corpus, synchronize canonical/index layers, add/register the bounded audit, and recompute the live stale census.
+
+
+### 2026-09-24 cycle update — Dust through Energy Field provenance refresh
+
+- Completed the next bounded P1 batch: **Dust Attack, Eagle Kick, Elegant Blaster, Elite Shooting, Emperor's Blast, Emperor's Cannon, Emperor's Death Beam, Emperor's Edge, Endless Shoot, Energy Charge, Energy Dome, Energy Field**.
+- Synchronized canonical/index `last_verified=2026-09-24` for all 12 records while preserving existing acquisition routes, reward semantics, classifications, mechanics, restrictions, and known conflicts.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-24-dust-through-energy-field.json`.
+- Recomputed the live stale census: **465 canonical / 465 index / 158 current / 307 stale / 0 duplicate IDs**; canonical/index parity remains exact.
+- Exact next stale batch: **Energy Minefield, Energy Release, Eraser Bomb, Evil Blast, Evil Explosion, Evil Eyes, Evil Flame, Evil Flight Strike, Evil Ray Strike, Evil Rise Strike, Evil Whirlwind, Excellent Full Course**.
+- Evidence boundary preserved: no unsupported probability, Ultimate Finish gate, prerequisite, timer, frame data, damage value, stacking cap, or narrower restriction was inferred.
+- CI/runtime remains unavailable; no CI success claimed.
+- Commits: canonical `8c0e688387251daa5ae5d505919502ab4588da1b`; index `df094007f0c7b6acbe9a2b366d16182853c0f9a5`; audit `b51f193cee67e57d53b638f34a9e723c9800e797`; cross-domain registration `ce4d83f7fea4c267e3d4adbb40778ef38f6782ef`; census `ad98967f438a0d8e123360e04b8484708b80490a`.
+- **Exact next task:** process the 12 listed Energy Minefield through Excellent Full Course records against their maintained evidence corpus, synchronize canonical/index layers, add/register the bounded audit, and recompute the live stale census.
