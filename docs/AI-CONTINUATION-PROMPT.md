@@ -1,3 +1,16 @@
+### 2026-09-24 cycle update — Atomic through Blaster skill provenance refresh + final 854-baseline consumer classification
+
+- Completed the next bounded P1 provenance batch: **12 skill records** — Atomic Blast, Audacious Laugh, Beast, Become Giant, Bending Kamehameha, Big Bang Attack, Big Bang Kamehameha, Big Bang Knuckle, Blades of Judgment, Blaster Ball, Blaster Bomb, and Blaster Cannon.
+- Synchronized canonical `docs/data/skills.json` and `docs/data/skills-index.json`; all 12 now carry `last_verified=2026-09-24`.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-24-atomic-through-blaster.json`.
+- Added and registered the live verification-date census `docs/data/skill-stale-metadata-census-2026-09-24.json`: **465 canonical / 465 index / 36 current on 2026-09-24 / 429 stale / 0 duplicate IDs**.
+- Completed the final active-consumer search for superseded **854 / 146 / 143** PQ relationship assertions. Remaining occurrences are explicitly historical/superseded audit context or mixed historical sections whose live fields already use **853 / 145 / 142**; no live relationship array required rewriting.
+- Added and registered `docs/data/pq-current-consumer-854-search-classification-2026-09-24.json`.
+- Preserved all historical counts and evidence boundaries; no unsupported acquisition probability, Ultimate Finish gate, timer, damage value, stacking cap, or narrower restriction was introduced.
+- CI/runtime remains unavailable; no CI success claimed.
+- Commits: canonical skill refresh `657df5ff9d03b57473ceffd02456ed82b5ed9ffb`; index refresh `729714efd384c6319cd592e53357de5d064d820c`; provenance audit `b5021782f77119f5ac6b81d71b64bc74838d2280`; census `39b5593c8b7e82f2fed6bcd2d2d3c7448ca237af`; consumer classification `c69d0b1d33e03dc43226f027f959042bc643aa39`; cross-domain index registration `82dea5332a5e4e6fce66b05390ada57ff575f395`.
+- **Exact next batch:** Blaster Meteor; Blaster Shell; Blaster Stream; Blazing Attack; Bloody Counter; Blue Hurricane; Bluff Kamehameha; Body Change; Bomber DX; Brave Heat; Brave Sword Attack; Brave Sword Slash.
+
 ### 2026-09-24 cycle update — P1 Meteor/One-Handed and Absolute Zero/Assault Vanish provenance refresh
 
 - Completed two bounded P1 provenance batches: **24 skill records** across Meteor Blow → One-Handed Kamehameha mk.II and Absolute Zero → Assault Vanish.
