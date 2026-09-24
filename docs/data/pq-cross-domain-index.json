@@ -548,5 +548,6 @@
   "current_nonpq_acquisition_consumer_sweep_2026_09_24": "docs/data/current-nonpq-acquisition-consumer-sweep-2026-09-24.json",
   "skill_provenance_refresh_2026_09_24_dancing_through_darkness_rush": "docs/data/skill-provenance-refresh-2026-09-24-dancing-through-darkness-rush.json",
   "qq_bang_provenance_refresh_2026_09_24": "docs/data/qq-bang-provenance-refresh-2026-09-24.json",
-  "qq_bang_observed_results_refresh_2026_09_24": "docs/data/qq-bang-provenance-refresh-2026-09-24.json"
+  "qq_bang_observed_results_refresh_2026_09_24": "docs/data/qq-bang-provenance-refresh-2026-09-24.json",
+  "live_skill_baseline_reconciliation_2026_09_24": "docs/data/live-skill-baseline-reconciliation-2026-09-24.json"
 }
