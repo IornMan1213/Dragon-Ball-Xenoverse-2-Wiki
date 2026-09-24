@@ -6,51 +6,51 @@
   "live_counts": {
     "canonical_skill_records": 469,
     "index_skill_records": 469,
-    "current_last_verified_records": 395,
-    "stale_last_verified_records": 74,
+    "current_last_verified_records": 407,
+    "stale_last_verified_records": 62,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
     {
-      "name": "Strike of Revelation"
+      "name": "Super Ghost Buu Attack"
     },
     {
-      "name": "Sudden Death Beam"
+      "name": "Super Ghost Kamikaze Attack"
     },
     {
-      "name": "Sudden Storm"
+      "name": "Super Ghost Kamikaze Attack"
     },
     {
-      "name": "Super Afterimage"
+      "name": "Super God Fist"
     },
     {
-      "name": "Super Black Kamehameha Rosé"
+      "name": "Super God Shock Flash"
     },
     {
-      "name": "Super Destructo-Disc"
+      "name": "Super Guard"
     },
     {
-      "name": "Super Donut Volley"
+      "name": "Super Kamehameha"
     },
     {
-      "name": "Super Dragon Flight"
+      "name": "Super Kamehameha (SS4 DAIMA)"
     },
     {
-      "name": "Super Electric Strike"
+      "name": "Super Saiyan"
     },
     {
-      "name": "Super Elite Combo"
+      "name": "Super Saiyan 2"
     },
     {
-      "name": "Super Explosive Wave"
+      "name": "Super Saiyan Blue Kaioken"
     },
     {
-      "name": "Super Gamma Blast"
+      "name": "Super Saiyan God"
     }
   ],
   "notes": [
     "Canonical/index counts and IDs remain aligned.",
-    "Counts computed from live canonical data after the completed bounded batch.",
+    "Counts recomputed from live canonical and index data after the Strike of Revelation through Super Gamma Blast batch.",
     "Existing acquisition, reward, mechanics, restriction, DLC/update, and evidence-conflict semantics were preserved.",
     "CI/runtime remains unavailable; no CI success is claimed."
   ]
