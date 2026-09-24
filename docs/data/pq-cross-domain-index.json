@@ -544,5 +544,6 @@
   "vegeta_10_11_preset_loadout_evidence_audit_2026_09_24": "docs/data/vegeta-10-11-preset-loadout-evidence-audit-2026-09-24.json",
   "captain_ginyu_5_6_preset_loadout_evidence_audit_2026_09_24": "docs/data/captain-ginyu-5-6-preset-loadout-evidence-audit-2026-09-24.json",
   "mentor_endpoint_consumer_synchronization_2026_09_24": "docs/data/mentor-endpoint-consumer-synchronization-2026-09-24.json",
-  "mentor_derived_acquisition_consumer_reconciliation_2026_09_24": "docs/data/mentor-derived-acquisition-consumer-reconciliation-2026-09-24.json"
+  "mentor_derived_acquisition_consumer_reconciliation_2026_09_24": "docs/data/mentor-derived-acquisition-consumer-reconciliation-2026-09-24.json",
+  "current_nonpq_acquisition_consumer_sweep_2026_09_24": "docs/data/current-nonpq-acquisition-consumer-sweep-2026-09-24.json"
 }
