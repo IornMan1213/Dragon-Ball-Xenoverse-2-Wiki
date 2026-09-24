@@ -151,3 +151,14 @@
 - [x] Commit: `db9db28c1d35a43babeda0098e8ff79c8871e587`.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next:** perform the next bounded current-facing non-PQ acquisition consumer sweep, prioritizing stale scalar projections and one-way links outside the mentor layer; preserve all explicitly historical counts.
+
+
+### 2026-09-24 cycle completion — non-PQ endpoint-layer stale mentor count repair
+- [x] Continued the current-facing non-PQ acquisition consumer sweep.
+- [x] Found a stale current mentor endpoint-layer scalar in `docs/data/skill-acquisition-cross-domain-endpoint-audit-2026-09-24.json`: `endpoint_layers.mentor` was 132 even though the corrected live mentor endpoint layer is 131 resolved edges.
+- [x] Corrected the current audit to **131 mentor edges / 130 unique mentor skill targets**; no other endpoint-layer counts were changed and no acquisition route was inferred.
+- [x] Deterministic search found no second current file with the same `endpoint_layers mentor=132` pattern; remaining 132 occurrences are historical or audit provenance unless explicitly identified as current.
+- [x] Validation: current canonical skills 469; full endpoint union 469/469; mentor resolved edge layer 131; broken/unresolved canonical endpoints 0 in the audited projection.
+- [x] Commit: `1376634625eecdd45b66db014218231b737d270d`.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next:** continue the bounded non-PQ reverse-projection sweep for the next machine-checkable stale scalar or orphan target, starting with Expert Mission / shop / special endpoint consumers.
