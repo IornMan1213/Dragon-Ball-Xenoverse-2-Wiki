@@ -7248,3 +7248,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: **469 canonical / 469 index / 395 current / 74 stale / 0 duplicate IDs / canonical-index IDs aligned**.
 - CI/runtime remains unavailable; no CI success claimed.
 - **Exact next stale batch:** **Strike of Revelation; Sudden Death Beam; Sudden Storm; Super Afterimage; Super Black Kamehameha Rosé; Super Destructo-Disc; Super Donut Volley; Super Dragon Flight; Super Electric Strike; Super Elite Combo; Super Explosive Wave; Super Gamma Blast**.
+
+
+### 2026-09-24 cycle update — Strike of Revelation through Super Gamma Blast research reconciliation
+
+- Completed repository-first evidence reconciliation for the exact 12-record P1 stale batch: **Strike of Revelation; Sudden Death Beam; Sudden Storm; Super Afterimage; Super Black Kamehameha Rosé; Super Destructo-Disc; Super Donut Volley; Super Dragon Flight; Super Electric Strike; Super Elite Combo; Super Explosive Wave; Super Gamma Blast**.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-24-strike-through-super-gamma-blast.json`.
+- Preserved existing evidence limits: unresolved reward-slot/drop percentages, historical partial verification, multi-mentor provenance, and Expert Mission guarantee/drop uncertainty were not overwritten or guessed.
+- Canonical/index `last_verified` synchronization is **pending** because the available GitHub connector cannot safely retrieve the oversized canonical `docs/data/skills.json` blob in this cycle; no partial overwrite was attempted. `docs/data/skills-index.json` was therefore intentionally left unchanged to preserve canonical/index parity.
+- Validation: audit JSON parsed before commit; audit registered in the cross-domain index; TODO/handoff append-only updates committed; **no canonical/index parity claim for this batch**.
+- CI/runtime remains unavailable; no CI success claimed.
+- Commits: audit `4092afd7a13822b2677ad7111cfd43f3522769e1`; cross-domain registration `5f7fa9c2d81631a148112355d4955802ce7e2a78`; TODO status `7548f8edb9e6134306f5d0bc26af7eacce8b4f1d`.
+- **Exact next action:** safely synchronize the 12 canonical/index records above, recompute `docs/data/skill-stale-metadata-census-2026-09-24.json`, validate 469/469 identity/date parity, then continue the next stale batch. Do not fabricate or partially overwrite `skills.json`.
