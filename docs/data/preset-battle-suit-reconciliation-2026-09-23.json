@@ -264,10 +264,65 @@
       "observed_skills": [],
       "evidence_timestamp": "42:06",
       "evidence": "The source description explicitly labels Goku Preset 18 at 42:06. This confirms the numeric preset identity but does not expose the six skill slots, so no loadout fields are promoted."
+    },
+    {
+      "character_id": "vegeta",
+      "source": "https://www.youtube.com/watch?v=EJ0ICSoKXPc",
+      "source_type": "community_video_timestamp",
+      "named_loadout": "Vegeta Preset 10",
+      "repository_numeric_mapping": "vegeta-preset-10",
+      "decision": "numeric_identity_confirmed_loadout_unresolved",
+      "observed_skills": [],
+      "evidence_timestamp": "39:09",
+      "evidence": "The source description explicitly labels Vegeta Preset 10 at 39:09. This confirms the numeric preset identity but does not expose the complete skill-slot configuration, so no loadout fields are promoted."
+    },
+    {
+      "character_id": "vegeta",
+      "source": "https://www.youtube.com/watch?v=EJ0ICSoKXPc",
+      "source_type": "community_video_timestamp",
+      "named_loadout": "Vegeta Preset 11",
+      "repository_numeric_mapping": "vegeta-preset-11",
+      "decision": "numeric_identity_confirmed_loadout_unresolved",
+      "observed_skills": [],
+      "evidence_timestamp": "42:06",
+      "evidence": "The source description explicitly labels Vegeta Preset 11 at 42:06. This confirms the numeric preset identity but does not expose the complete skill-slot configuration, so no loadout fields are promoted."
+    },
+    {
+      "character_id": "goku-gt",
+      "source": "https://www.youtube.com/watch?v=EJ0ICSoKXPc",
+      "source_type": "community_video_timestamp",
+      "named_loadout": "Goku GT Preset 2",
+      "repository_numeric_mapping": "goku-gt-preset-2",
+      "decision": "numeric_identity_confirmed_loadout_unresolved",
+      "observed_skills": [],
+      "evidence_timestamp": "45:50",
+      "evidence": "The source description explicitly labels Goku GT Preset 2 at 45:50. This confirms the numeric preset identity but does not expose the complete skill-slot configuration, so no loadout fields are promoted."
+    },
+    {
+      "character_id": "captain-ginyu",
+      "source": "https://www.youtube.com/watch?v=EJ0ICSoKXPc",
+      "source_type": "community_video_timestamp",
+      "named_loadout": "Captain Ginyu Preset 5",
+      "repository_numeric_mapping": "captain-ginyu-preset-5",
+      "decision": "numeric_identity_confirmed_loadout_unresolved",
+      "observed_skills": [],
+      "evidence_timestamp": "31:23",
+      "evidence": "The source description explicitly labels Captain Ginyu Preset 5 at 31:23. This confirms the numeric preset identity but does not expose the complete skill-slot configuration, so no loadout fields are promoted."
+    },
+    {
+      "character_id": "captain-ginyu",
+      "source": "https://www.youtube.com/watch?v=EJ0ICSoKXPc",
+      "source_type": "community_video_timestamp",
+      "named_loadout": "Captain Ginyu Preset 6",
+      "repository_numeric_mapping": "captain-ginyu-preset-6",
+      "decision": "numeric_identity_confirmed_loadout_unresolved",
+      "observed_skills": [],
+      "evidence_timestamp": "41:34",
+      "evidence": "The source description explicitly labels Captain Ginyu Preset 6 at 41:34. This confirms the numeric preset identity but does not expose the complete skill-slot configuration, so no loadout fields are promoted."
     }
   ],
   "unresolved_mapping_rule": "Do not assign numeric preset IDs by row order, costume order, or proximity. Explicit source labels such as Battle Suit 1/2 are acceptable exact mappings.",
-  "next": "Use a source that exposes both explicit Goku numeric preset identity and complete skill slots before promoting any Goku loadout; otherwise continue the next unresolved preset family.",
+  "next": "Find a source that directly binds the numeric preset IDs for Vegeta 10/11, Goku (GT) 2, and Captain Ginyu 5/6 to their complete skill configurations; do not infer from row order or costume order.",
   "notes": [
     "2026-09-24 source-boundary refresh: the existing community video source directly labels Vegeta Preset 10 at 39:09 and Vegeta Preset 11 at 42:06. This strengthens numeric identity provenance for both records, but the chapter list does not expose their skill slots; no loadout fields were promoted.",
     "2026-09-24 numeric-identity refresh: the current community video description explicitly labels Goku Presets 2-18 except Preset 13; the repository currently has no goku-preset-13 record. The 16 labels below confirm existing repository numeric identities without exposing skill slots, so loadouts remain unresolved."
