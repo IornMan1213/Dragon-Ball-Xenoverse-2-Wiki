@@ -57,23 +57,27 @@
     },
     {
       "character_id": "vegeta",
-      "source": "https://dbxv2.fandom.com/wiki/Vegeta",
-      "source_type": "repository_search_result",
+      "source": "https://www.youtube.com/watch?v=EJ0ICSoKXPc",
+      "source_type": "community_video_timestamp",
       "named_loadout": "Battle Suit 10",
       "observed_skills": [],
       "repository_numeric_mapping": "unresolved",
       "decision": "retain_unresolved",
-      "reason": "Repository search exposes the numeric record but does not expose an explicit source-row loadout or game-data key for Battle Suit 10."
+      "reason": "Exact numeric preset identity is directly named by the source; no skill-slot projection is promoted.",
+      "evidence_timestamp": "39:09",
+      "evidence": "The video chapter explicitly labels Vegeta Preset 10 at 39:09. This confirms the repository numeric preset identity but does not expose the six skill slots, so loadout_status remains unresolved."
     },
     {
       "character_id": "vegeta",
-      "source": "https://dbxv2.fandom.com/wiki/Vegeta",
-      "source_type": "repository_search_result",
+      "source": "https://www.youtube.com/watch?v=EJ0ICSoKXPc",
+      "source_type": "community_video_timestamp",
       "named_loadout": "Battle Suit 11",
       "observed_skills": [],
       "repository_numeric_mapping": "unresolved",
       "decision": "retain_unresolved",
-      "reason": "Repository search exposes the numeric record but does not expose an explicit source-row loadout or game-data key for Battle Suit 11."
+      "reason": "Exact numeric preset identity is directly named by the source; no skill-slot projection is promoted.",
+      "evidence_timestamp": "42:06",
+      "evidence": "The video chapter explicitly labels Vegeta Preset 11 at 42:06. This confirms the repository numeric preset identity but does not expose the six skill slots, so loadout_status remains unresolved."
     },
     {
       "character_id": "vegeta",
@@ -87,5 +91,8 @@
     }
   ],
   "unresolved_mapping_rule": "Do not assign numeric preset IDs by row order, costume order, or proximity. Explicit source labels such as Battle Suit 1/2 are acceptable exact mappings.",
-  "next": "Reconcile Vegeta Presets 10 and 11 only if a source exposes explicit names/rows or a matching game-data identifier; otherwise retain the unresolved boundary and move to the next highest-priority preset/data-quality task."
+  "next": "Reconcile Vegeta Presets 10 and 11 only if a source exposes explicit names/rows or a matching game-data identifier; otherwise retain the unresolved boundary and move to the next highest-priority preset/data-quality task.",
+  "notes": [
+    "2026-09-24 source-boundary refresh: the existing community video source directly labels Vegeta Preset 10 at 39:09 and Vegeta Preset 11 at 42:06. This strengthens numeric identity provenance for both records, but the chapter list does not expose their skill slots; no loadout fields were promoted."
+  ]
 }
