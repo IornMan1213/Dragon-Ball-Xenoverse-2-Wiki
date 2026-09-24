@@ -219,7 +219,8 @@
     "remaining_canonical_cross_navigation_2026_09_24": "docs/data/remaining-canonical-cross-navigation-audit-2026-09-24.json",
     "canonical_explorer_self_navigation_2026_09_24_b": "docs/data/canonical-explorer-self-navigation-audit-2026-09-24-b.json",
     "global_navigation_canonical_explorer_2026_09_24_c": "docs/data/global-navigation-canonical-explorer-audit-2026-09-24-c.json",
-    "homepage_canonical_explorer_targets": "docs/data/homepage-canonical-explorer-navigation-audit-2026-09-24.json"
+    "homepage_canonical_explorer_targets": "docs/data/homepage-canonical-explorer-navigation-audit-2026-09-24.json",
+    "skill_p1_provenance_enrichment_2026_09_24_recoome_pq61_batch": "docs/data/skill-p1-provenance-enrichment-2026-09-24-recoome-pq61-batch.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
@@ -503,7 +504,8 @@
     "quick_sleep_shop_endpoint_provenance_reconciliation_2026_09_24": "docs/data/quick-sleep-shop-endpoint-provenance-reconciliation-2026-09-24.json",
     "recoome_kick_research_reconciliation_2026_09_24": "docs/data/recoome-kick-research-reconciliation-2026-09-24.json",
     "time_rift_story_tournament_endpoint_audit_2026_09_24": "docs/data/time-rift-story-tournament-endpoint-audit-2026-09-24.json",
-    "full_skill_endpoint_reverse_parity_audit_2026_09_24": "docs/data/full-skill-endpoint-reverse-parity-audit-2026-09-23.json"
+    "full_skill_endpoint_reverse_parity_audit_2026_09_24": "docs/data/full-skill-endpoint-reverse-parity-audit-2026-09-23.json",
+    "skill_p1_provenance_enrichment_2026_09_24_recoome_pq61_batch": "docs/data/skill-p1-provenance-enrichment-2026-09-24-recoome-pq61-batch.json"
   },
   "skill_provenance_audit_2026_09_23_meteor_through_one_handed_kamehameha": "docs/data/skill-provenance-audit-2026-09-23-meteor-through-one-handed-kamehameha.json",
   "skill_provenance_audit_2026_09_23_orin_combo_through_power_impact": "docs/data/skill-provenance-audit-2026-09-23-orin-combo-through-power-impact.json",
