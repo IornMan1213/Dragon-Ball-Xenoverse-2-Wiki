@@ -2725,3 +2725,11 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Repaired the duplicate-key structure in `docs/data/character-preset-skill-navigation-audit-2026-09-23.json` by deriving its verified-loadout list directly from the canonical preset record layer.
 - Synchronized the audit to **23 verified loadouts / 130 verified loadout skill entries** and preserved all unresolved preset evidence boundaries.
 - Commit: `395e30de930397b39cfb1fcafd20b05b78439416`.
+
+
+### 2026-09-23 — Character-count consumer synchronization
+
+- Repaired the remaining current-looking **149-character** consumer metadata in `docs/data/pq-cross-domain-audit.json` and `docs/data/dlc/daima-hoj2-playable-character-count-reconciliation-2026-09-23.json` to the live **151-character** canonical baseline.
+- Added and registered `docs/data/character-count-consumer-synchronization-2026-09-23.json`.
+- Preserved historical 149-record evidence; no character identities or PQ relationship edges were changed or inferred.
+- JSON validation passed for all changed JSON artifacts; CI/runtime remains unavailable.
