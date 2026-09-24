@@ -6,63 +6,53 @@
   "live_counts": {
     "canonical_skill_records": 469,
     "index_skill_records": 469,
-    "current_last_verified_records": 335,
-    "stale_last_verified_records": 134,
+    "current_last_verified_records": 347,
+    "stale_last_verified_records": 122,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
     {
-      "name": "Raid Blast"
+      "name": "Quick Sleep"
     },
     {
-      "name": "Rakshasa's Claw"
+      "name": "Ribrianne's Eternal Love"
     },
     {
-      "name": "Ray Blast"
+      "name": "Riot Javelin"
     },
     {
-      "name": "Rebellion Spear"
+      "name": "Rise to Action"
     },
     {
-      "name": "Recoome Kick"
+      "name": "Rising Rage"
     },
     {
-      "name": "Remote Serious Bomb"
+      "name": "Rocket Tackle"
     },
     {
-      "name": "Requiem of Destruction"
+      "name": "Rolling Bullet"
     },
     {
-      "name": "Revenge Death Ball"
+      "name": "Rolling Hercule Punch"
     },
     {
-      "name": "Revenge Final Flash"
+      "name": "Rough Ranger"
     },
     {
-      "name": "Reverse Launcher"
+      "name": "S.S. Deadly Bomber"
     },
     {
-      "name": "Reverse Mabakusenko"
+      "name": "Saiyan Blaster"
     },
     {
-      "name": "Reverse Shot"
+      "name": "Saiyan Spirit"
     }
   ],
   "notes": [
     "Canonical/index counts and IDs remain aligned.",
     "Counts computed from live canonical data after the completed bounded batch.",
     "Existing acquisition, reward, mechanics, restriction, DLC/update, and evidence-conflict semantics were preserved.",
-    "Seven names from the prior queue were absent from the canonical dataset and were deliberately not fabricated; they remain discovery/data-coverage work rather than verified provenance work.",
-    "2026-09-24 coverage recovery promoted four previously researched but missing canonical records: Hyper Drain, Hyper Movement, Ice Cannon, and Ice Claw.",
-    "Hollow Rush, Ice Rain, and Ice Sheet remain unresolved discovery targets because no sufficiently direct repository research record was located in the live repository search.",
-    "2026-09-24 provenance refresh completed for Heroic Counter through Jumping Energy Wave; four previously recovered Hyper/Ice records remain current and Hollow Rush/Ice Rain/Ice Sheet remain unresolved discovery targets.",
-    "Index verification-date parity was rechecked after this batch; 0 canonical↔index verification-date mismatches remain.",
-    "2026-09-24 provenance refresh completed for Justice Blade through Ki Blast Thrust; canonical/index verification-date parity remains aligned.",
-    "Current live counts after this batch are 469 canonical / 469 index / 287 current / 182 stale / 0 duplicate IDs.",
-    "Next alphabetical stale batch is Ki Explosion through Majin Kamehameha.",
-    "2026-09-24: Ki Explosion through Majin Kamehameha provenance batch completed; canonical/index parity validated at 469 records with zero mismatches.",
-    "2026-09-24: Masenko through Petrifying Spit provenance batch completed; canonical/index parity validated at 469 records with zero mismatches.",
-    "2026-09-24: Phantom Fist through Prepare to be Punished completed; canonical/index parity remains 469/469 with zero mismatches.",
-    "2026-09-24: Present For You through Purification completed; corrected the next-stale queue to reflect the live canonical alphabetical sequence."
+    "2026-09-24 provenance refresh completed for Raid Blast through Reverse Shot; canonical/index verification-date parity remains aligned.",
+    "CI/runtime remains unavailable; no CI success is claimed."
   ]
 }
