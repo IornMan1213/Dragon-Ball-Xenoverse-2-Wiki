@@ -6302,3 +6302,12 @@
 - [x] Validation: obsolete target occurrences = 0 in the two audited consumers; new target occurrences = 2; canonical explorer exists; audit status = pass.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** continue scanning remaining non-PQ landing/reference consumers for obsolete explorer targets, stale scalar/list assumptions, orphan navigation, and canonical-ID drift; then resume source-backed preset/loadout expansion only where numeric identity + complete configuration are directly evidenced.
+
+
+### 2026-09-24 cycle completion — global layout canonical explorer navigation
+- [x] Audited both global Jekyll layouts: `docs/_layouts/home.html` and `docs/_layouts/wiki.html`.
+- [x] Repointed global Skills, Characters, and Mentors navigation to the canonical searchable explorers: `Skills-All.html`, `Characters-All.html`, and `Mentors-All.html`.
+- [x] Added `docs/data/global-layout-canonical-explorer-navigation-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: all three canonical routes are present in both layouts and obsolete landing routes were removed from these global navigation surfaces; audit status = pass.
+- [x] Navigation-only change; no canonical records, relationships, or research assertions were altered. CI/runtime remains unavailable.
+- [ ] **Exact next batch:** continue deterministic scan of remaining reference/landing pages for stale explorer targets, one-way links, and canonical-ID/count drift; prioritize DLC/system landing consumers before evidence-gated preset/loadout expansion.
