@@ -6,46 +6,46 @@
   "live_counts": {
     "canonical_skill_records": 469,
     "index_skill_records": 469,
-    "current_last_verified_records": 371,
-    "stale_last_verified_records": 98,
+    "current_last_verified_records": 383,
+    "stale_last_verified_records": 86,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
     {
-      "name": "Shocking Death Ball"
+      "name": "Sphere of Destruction"
     },
     {
-      "name": "Shooting Strike"
+      "name": "Spirit Ball"
     },
     {
-      "name": "Side Bridge"
+      "name": "Spirit Blaster"
     },
     {
-      "name": "Sign of Awakening"
+      "name": "Spirit Bomb"
     },
     {
-      "name": "Sneaky Strike"
+      "name": "Spirit Boost"
     },
     {
-      "name": "Soaring Fist"
+      "name": "Spirit Explosion"
     },
     {
-      "name": "Soaring Rush"
+      "name": "Spirit Pulse"
     },
     {
-      "name": "Solar Flare"
+      "name": "Spirit Slash"
     },
     {
-      "name": "Sonic Bomb"
+      "name": "Spirit Sword"
     },
     {
-      "name": "Sonic Rush"
+      "name": "Spread Shot Retreat"
     },
     {
-      "name": "Special Beam Cannon"
+      "name": "Steel Mirage"
     },
     {
-      "name": "Special Beam Cannon (Beast)"
+      "name": "Stone Bullet"
     }
   ],
   "notes": [
