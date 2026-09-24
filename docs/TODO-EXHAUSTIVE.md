@@ -1,3 +1,11 @@
+### 2026-09-24 completed bounded skill P1 provenance enrichment — PQ61–PQ70 tranche
+- [x] Added `docs/data/skill-p1-provenance-enrichment-2026-09-24-recoome-pq61-batch.json` covering Fighting Pose H, Teleporting Vanishing Ball, Ill Rain, Scissors Paper Rock, Super God Fist, Angry Shout, Headshot, and Emperor's Blast.
+- [x] Strengthened source-backed classification, resource cost, acquisition endpoint, and directly documented mechanics fields without promoting reward probabilities, Ultimate-Finish requirements, or unsupported numeric combat data.
+- [x] Registered the audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved canonical/index parity: no oversized canonical catalog was manually reconstructed or changed in this runtime-limited cycle.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next:** continue the next evidence-backed thin skill tranche from the existing research corpus, then run the standard canonical builder when repository-backed execution is available; validate canonical/index parity and downstream acquisition projections after builder execution.
+
 ### 2026-09-24 completed raid/event Super Soul audit synchronization
 - [x] Re-fetched the live `docs/data/super-soul-raid-event-presentation-consumer-audit-2026-09-24.json` after the presentation repair and found its own top-level coverage fields were stale (**12 surfaced / 25 missing**) despite the consumer table being repaired.
 - [x] Synchronized the audit to the live consumer: **37 surfaced / 0 missing / 0 missing-record entries / pass**, with `consumer_rows_after_repair=37`.
