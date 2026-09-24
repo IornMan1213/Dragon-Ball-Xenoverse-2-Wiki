@@ -7002,3 +7002,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime remains unavailable; no CI success claimed.
 - Commits: canonical `8c0e688387251daa5ae5d505919502ab4588da1b`; index `df094007f0c7b6acbe9a2b366d16182853c0f9a5`; audit `b51f193cee67e57d53b638f34a9e723c9800e797`; cross-domain registration `ce4d83f7fea4c267e3d4adbb40778ef38f6782ef`; census `ad98967f438a0d8e123360e04b8484708b80490a`.
 - **Exact next task:** process the 12 listed Energy Minefield through Excellent Full Course records against their maintained evidence corpus, synchronize canonical/index layers, add/register the bounded audit, and recompute the live stale census.
+
+
+### 2026-09-24 cycle update — Energy Minefield through Excellent Full Course provenance refresh
+
+- Completed bounded P1 batch: **Energy Minefield, Energy Release, Eraser Bomb, Evil Blast, Evil Explosion, Evil Eyes, Evil Flame, Evil Flight Strike, Evil Ray Strike, Evil Rise Strike, Evil Whirlwind, Excellent Full Course**.
+- Synchronized canonical/index `last_verified=2026-09-24` for all 12 records while preserving existing acquisition routes, reward semantics, classifications, mechanics, restrictions, DLC/update provenance, and known conflicts.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-24-energy-minefield-through-excellent-full-course.json`.
+- Recomputed live census: **465 canonical / 465 index / 170 current / 295 stale / 0 duplicate IDs**; canonical/index parity remains exact.
+- Exact next stale batch: **Explosive Assault, Explosive Buu-Buu Punch, Explosive Wave, Eye Beam, Fake Blast, Fake Death, Feint Crash, Feint Shot, Fierce Fist, Fighting Pose A, Fighting Pose C, Fighting Pose E**.
+- Evidence boundary preserved; no unsupported probability, prerequisite, timer, frame data, damage value, stacking cap, or narrower restriction was inferred.
+- CI/runtime remains unavailable; no CI success claimed.
+- Commits: canonical `896ce19dfa81957e826fc127aa1b7e25bde849da`; index `acc8ae513fee48aeac589eeb21d755dbbb84b0ca`; audit `b0231f202a3dff1653f0b2a4b72976777045c313`; cross-domain registration `3dfca26f898c8fd1aae0217e015e5f4df48a65e9`; census `07ede12b0b3ffab165c7099b1ec739bacd7f029b`.
+- **Exact next task:** process the 12 listed Explosive Assault through Fighting Pose E records against their maintained evidence corpus, synchronize canonical/index layers, add/register the bounded audit, and recompute the live stale census.
