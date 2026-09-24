@@ -7200,3 +7200,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime remains unavailable; no CI success claimed.
 - Commits: canonical `8388dd8cd9a8833d8cda24461c772354b9c9219d`; index `0914d90007e0a4ded33aa3f3a9f46d703a788ff8`; audit `00f42306d0f63f7f577eb490eabe23276c5be4a6`; census `22f13bebc85a4f5a8cb48e2486a85fa9ffdafbf3`.
 - **Exact next stale batch:** **Quick Sleep; Ribrianne's Eternal Love; Riot Javelin; Rise to Action; Rising Rage; Rocket Tackle; Rolling Bullet; Rolling Hercule Punch; Rough Ranger; S.S. Deadly Bomber; Saiyan Blaster; Saiyan Spirit**.
+
+
+### 2026-09-24 cycle update — Quick Sleep through Saiyan Spirit provenance refresh
+
+- Completed the bounded P1 provenance batch: **Quick Sleep; Ribrianne's Eternal Love; Riot Javelin; Rise to Action; Rising Rage; Rocket Tackle; Rolling Bullet; Rolling Hercule Punch; Rough Ranger; S.S. Deadly Bomber; Saiyan Blaster; Saiyan Spirit**.
+- Synchronized canonical `docs/data/skills.json` and `docs/data/skills-index.json`; all 12 targets now have `last_verified=2026-09-24`.
+- Added `docs/data/skill-provenance-audit-2026-09-24-quick-sleep-through-saiyan-spirit.json` with the bounded evidence/validation record.
+- Live validation: **469 canonical / 469 index / 359 current / 110 stale / 0 duplicate IDs**; canonical/index IDs remain aligned.
+- Existing acquisition endpoints, reward semantics, restrictions, mechanics, DLC/update provenance, and evidence conflicts were preserved. No unsupported probabilities, Ultimate Finish gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.
+- CI/runtime remains unavailable; no CI success claimed.
+- Commits: canonical `ad745bb666f54492a67100a37d38687562e462d8`; index `5e8008253c6951ff96a42f2e7b85d5b206b88870`; audit `67b1da4421c43c49f89585ca8ef64f2f1d316c0c`; census `c5d181131790af2d5d660fe23db2443aa13cc8fe`.
+- **Exact next stale batch:** **Saturday Crash; Sauzer Blade; Savory Slicer; Scatter Kamehameha; Scissors Paper Rock; Seagull Combination; Secret Poison; Shadow Crusher; Shield Barrier; Shine Shot; Shining Friday; Shining Slash**.
