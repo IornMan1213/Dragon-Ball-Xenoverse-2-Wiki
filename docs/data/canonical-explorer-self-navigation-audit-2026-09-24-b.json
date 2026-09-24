@@ -3,7 +3,8 @@
   "date": "2026-09-24",
   "scope": [
     "docs/Characters-All.html",
-    "docs/Parallel-Quests-All.html"
+    "docs/Parallel-Quests-All.html",
+    "docs/Skills-All.html"
   ],
   "repairs": [
     {
@@ -19,9 +20,17 @@
       "from": "/DLC-Overview/?q=...",
       "to": "/Search/?q=...",
       "purpose": "restore generic fallback because DLC-Overview is not a query explorer"
+    },
+    {
+      "file": "docs/Skills-All.html",
+      "count": 1,
+      "from": "/Search/",
+      "to": "/Skills-All/",
+      "purpose": "skill entity card self-navigation"
     }
   ],
   "status": "pass",
   "relationship_changes": 0,
+  "resolved_self_navigation": 3,
   "evidence_boundary": "Navigation-only. Generic Search remains the intentional fallback where no dedicated DLC query explorer exists."
 }
