@@ -7023,3 +7023,13 @@
 - [x] Preserved unresolved exact drop probability, frame data, and universal damage fields; no unsupported Ultimate Finish gate was added.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next:** continue the next partially verified P1 research target with direct Xenoverse 2 evidence, while preserving unresolved technical fields.
+
+### 2026-09-24 cycle completion — Boiling Ball + Tricky Strike subtype reconciliation
+- [x] Reconciled Boiling Ball (ID 541) and Tricky Strike (ID 542) against repository research batch 289 and current Xenoverse 2-specific evidence.
+- [x] Boiling Ball is research-supported as Super / Ki Blast; Tricky Strike is research-supported as Super / Strike.
+- [x] Updated docs/data/skill-research-gaps.json so both records now have only ki_cost unresolved; no CaC acquisition route or numeric cost was invented.
+- [x] Updated both dedicated evidence audits to preserve the resolved subtype and explicit unresolved Ki-cost boundary.
+- [x] Canonical skill catalogs remain untouched at the established 469/469 boundary.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [x] Commits: 97a09fd5653ef8fd497b202e5059f77e86ffdd09, 16b4c1a5c67429e262c5200260ad1fd6f9a417c9, 617559a481b5dc12033dd3b7a6d6d3025ae7f7ad, bd5524d7a7964868074fd7033be420e057ece610.
+- [ ] **Exact next:** continue the next unresolved thin-domain candidate after Boiling Ball/Tricky Strike, prioritizing a record whose remaining field can be resolved by direct Xenoverse 2 evidence; preserve the 469/469 canonical boundary until the supported builder/runtime is available.
