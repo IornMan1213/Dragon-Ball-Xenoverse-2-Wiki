@@ -10094,7 +10094,7 @@
       "mechanics_notes": "Confirmed as Super Saiyan God Vegeta's 100-Ki Ki Blast Super from PQ136. Maintained PQ136 data documents a 25% Ultimate Finish slot. Future Warrior technique-list evidence establishes CaC usability; no narrower CaC race/gender/form restriction is identified.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Raid_Blast",
@@ -10105,7 +10105,7 @@
       "source_quest": 136,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 source reconciliation: maintained PQ136 data documents a 25% Ultimate Finish slot for Raid Blast; the prior Basic Reward classification was stale. 2026-09-21 Ultra Pack 1 provenance audit: official Bandai Namco documentation identifies Ultra Pack 1 as containing 10 additional skills and five Parallel Quests (PQ133–137); the maintained all-PQ guide independently maps the ten player-acquirable skills to those quests. Character-only Final Charge and Final Flash (Super) are retained under Ultra Pack 1 because current technique documentation identifies them as Ultra Pack 1 character-exclusive skills; they are distinct from the ten Future Warrior-acquirable skills listed for the pack. This pass verifies DLC provenance only and does not infer reward-slot semantics where sources conflict.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
+      "notes": "2026-09-20 source reconciliation: maintained PQ136 data documents a 25% Ultimate Finish slot for Raid Blast; the prior Basic Reward classification was stale. 2026-09-21 Ultra Pack 1 provenance audit: official Bandai Namco documentation identifies Ultra Pack 1 as containing 10 additional skills and five Parallel Quests (PQ133–137); the maintained all-PQ guide independently maps the ten player-acquirable skills to those quests. Character-only Final Charge and Final Flash (Super) are retained under Ultra Pack 1 because current technique documentation identifies them as Ultra Pack 1 character-exclusive skills; they are distinct from the ten Future Warrior-acquirable skills listed for the pack. This pass verifies DLC provenance only and does not infer reward-slot semantics where sources conflict.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-raid-blast",
       "source_parallel_quests": [
         136
@@ -10128,7 +10128,7 @@
       "mechanics_notes": "100 Ki. Up to five directional energy slashes can be followed by a teleporting overhead slash. Current evidence identifies the move as a Strike Super and PQ57 reward; the maintained PQ record does not establish an Ultimate Finish-only requirement, so none is inferred. 2026-09-21 cross-link normalization: source_quest set to canonical PQ numeric ID 57, matching the existing source_quest_or_shop/unlock evidence; this makes the skill directly joinable to the PQ database without changing the documented acquisition semantics.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Rakshasa%27s_Claw",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
@@ -10136,7 +10136,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during cross-database orphan-skill audit. The current Future Warrior technique reference supports CaC use without a narrower race restriction.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
+      "notes": "Added during cross-database orphan-skill audit. The current Future Warrior technique reference supports CaC use without a narrower race restriction.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-rakshasa-s-claw",
       "source_quest": 57,
       "source_parallel_quests": [
@@ -10160,7 +10160,7 @@
       "mechanics_notes": "Confirmed as Kefla's 100-Ki Ki Blast Super from PQ125. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain bounded. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Ray_Blast",
@@ -10170,7 +10170,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 125,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ125 reward listings explicitly place Ray Blast in the Basic Reward pool; no Ultimate Finish-only gate is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
+      "notes": "2026-09-20 audit: PQ125 reward listings explicitly place Ray Blast in the Basic Reward pool; no Ultimate Finish-only gate is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-ray-blast",
       "source_parallel_quests": [
         125
@@ -10192,13 +10192,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "bardock mentor training",
       "mechanics_notes": "Strike Super rush/lariat technique that moves around the target while leaving a Ki trail; current dedicated evidence lists 100 Ki.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Bardock mentor training — Lesson 1.",
       "dlc_requirement": "Masters Pack (platform-dependent; included in base game on Switch)",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-21 DLC provenance audit: Masters Pack remains intentionally platform-dependent; the pack is distributed as free DLC on PC/Xbox/PlayStation while the Nintendo Switch release includes the Masters content in the base game. No normalization to a platform-neutral label was made.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-21 DLC provenance audit: Masters Pack remains intentionally platform-dependent; the pack is distributed as free DLC on PC/Xbox/PlayStation while the Nintendo Switch release includes the Masters content in the base game. No normalization to a platform-neutral label was made.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-rebellion-spear",
       "source_mentor": [
         "mentor-bardock"
@@ -10221,7 +10221,7 @@
       "mechanics_notes": "A fast flying knee that, on a successful hit, temporarily boosts the user's normal/basic attack power. Current mechanics documentation describes it as a single-hit rush attack; the canonical record retains the 100-Ki Super cost and PQ61 Basic Reward route. Exact buff magnitude/duration and drop probability remain unresolved.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Recoome_Kick",
@@ -10230,7 +10230,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 61,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
+      "notes": "2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-recoome-kick",
       "source_parallel_quests": [
         61
@@ -10253,7 +10253,7 @@
       "mechanics_notes": "Current evidence establishes the skill identity and documented acquisition endpoint; unsupported detailed mechanics remain intentionally limited.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-grows-larger-with-the-release-of-extra-pack-2-infinite-history",
         "https://dbxv2.fandom.com/wiki/Remote_Serious_Bomb",
@@ -10261,7 +10261,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 Extra Pack 2 completeness correction: official DLC scope lists eight skills; Remote Serious Bomb was one of four Fu/Tokipedia endpoints missing from the canonical registry. Current evidence identifies Tokipedia completion as the acquisition endpoint and 300 Ki as the current activation cost; no obsolete second-stage Ki cost is asserted.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
+      "notes": "2026-09-21 Extra Pack 2 completeness correction: official DLC scope lists eight skills; Remote Serious Bomb was one of four Fu/Tokipedia endpoints missing from the canonical registry. Current evidence identifies Tokipedia completion as the acquisition endpoint and 300 Ki as the current activation cost; no obsolete second-stage Ki cost is asserted.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-remote-serious-bomb"
     },
     {
@@ -10283,12 +10283,12 @@
       "ultimate_finish_required": false,
       "mechanics_notes": "Dedicated current-version evidence confirms Requiem of Destruction as a 300-Ki Ki Blast Ultimate from PQ106, used by Vados and Whis Customize Partner. The page does not explicitly establish CaC race/gender/form scope. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current PQ guide explicitly lists Requiem of Destruction in the Basic Reward section of Parallel Quest 106 — A Destructive Showdown, establishing the acquisition route without an Ultimate Finish requirement. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward section; no Ultimate Finish-only gate is asserted.",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "damage_type": "Ki Blast",
       "race_restriction": "All CaC races",
       "source_quest": 106,
       "acquisition_type": "quest_or_mission",
-      "notes": " 2026-09-22 provenance strengthening: the maintained Steam all-Parallel-Quest guide independently lists Requiem of Destruction in PQ106's Basic Reward section, corroborating the existing acquisition route; no drop probability or Ultimate Finish gate is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
+      "notes": " 2026-09-22 provenance strengthening: the maintained Steam all-Parallel-Quest guide independently lists Requiem of Destruction in PQ106's Basic Reward section, corroborating the existing acquisition route; no drop probability or Ultimate Finish gate is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-requiem-of-destruction",
       "source_parallel_quests": [
         106
@@ -10311,7 +10311,7 @@
       "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for Revenge Death Ball; no Ultimate Finish requirement is recorded for this route. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward route; no Ultimate Finish-only gate is asserted.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -10321,7 +10321,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 127,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
+      "notes": "2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-revenge-death-ball",
       "source_parallel_quests": [
         127
@@ -10344,7 +10344,7 @@
       "mechanics_notes": "Ki Blast Super that fires a Final Flash-like beam and can be extended by holding the input, consuming additional Ki; dedicated current evidence reports 100–300 Ki usage. Exact damage/frame values remain unresolved.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -10354,7 +10354,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 124,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
+      "notes": "2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-revenge-final-flash",
       "source_parallel_quests": [
         124
@@ -10375,13 +10375,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Bojack mentor training",
       "mechanics_notes": "Mentor acquisition endpoint, skill identity, and classification are directly corroborated; numerical combat mechanics remain deferred until separately verified.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Bojack mentor training — Initiation Test.",
       "dlc_requirement": "Super Pack 3",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
+      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-reverse-launcher",
       "source_mentor": [
         "mentor-bojack"
@@ -10401,7 +10401,7 @@
       "research_status": "enriched",
       "ki_cost": 300,
       "unlock_method": "Skill Shop (Conton City)",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "mechanics_notes": "Current dedicated evidence confirms Reverse Mabakusenko as a 300-Ki Ki Blast Ultimate from the Skill Shop and a universal counter. Current users include Piccolo, Pikkon, Gohan (Beast), and customizable partners; this does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
       "source_quest_or_shop": "Skill Shop",
       "ultimate_finish_required": false,
@@ -10409,7 +10409,7 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the skill shop (conton city) acquisition route. No quest or Ultimate Finish route is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
+      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the skill shop (conton city) acquisition route. No quest or Ultimate Finish route is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-reverse-mabakusenko"
     },
     {
@@ -10429,7 +10429,7 @@
       "mechanics_notes": "Fires four Ki bullets; missed shots can reverse and track back toward the target. At red health, the attack increases to eight blasts. Exact frame data remains unresolved.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Reverse_Shot",
@@ -10440,7 +10440,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 123,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ123 reward listings explicitly place Reverse Shot in the Basic Reward pool; no Ultimate Finish-only gate is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
+      "notes": "2026-09-20 audit: PQ123 reward listings explicitly place Reverse Shot in the Basic Reward pool; no Ultimate Finish-only gate is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-reverse-shot",
       "source_parallel_quests": [
         123
