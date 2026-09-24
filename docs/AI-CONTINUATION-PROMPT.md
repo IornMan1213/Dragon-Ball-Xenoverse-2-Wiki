@@ -111,3 +111,17 @@
 - [x] Added/registered the Captain Ginyu evidence audit.
 - [x] Commits: `44d5cfa2921f201e94aad91a91d148cfcf3247c3`, `4af784c97d1c7133e53492485466e7a877865ae8`.
 - [ ] **Exact next:** seek direct numeric 5/6 loadout binding; otherwise continue to the next unresolved preset batch.
+
+
+### 2026-09-24 cycle completion — mentor endpoint producer/consumer synchronization
+- [x] Continued the deterministic thin-domain consumer scan and found a real current-layer inconsistency around Hit's **Time Skip/Tremor Pulse** lesson.
+- [x] Direct current evidence confirms Time Skip/Tremor Pulse is Hit's fourth mentor reward and an Evasive skill; the maintained instructor guide identifies it specifically as Hit Lesson 3's Basic Reward. Sources: https://dbxv2.fandom.com/wiki/Hit and https://steamcommunity.com/sharedfiles/filedetails/?id=810107584
+- [x] Corrected docs/data/mentors-record-layer.json: preserved the exact lesson skill name and reward_type=skill, but cleared the unsupported skill_id and removed the unresolved ID from Hit's skills array.
+- [x] Corrected docs/data/mentor-endpoints.json: removed the orphan skill-time-skip-tremor-pulse from endpoint lessons, forward edges, and reverse index; live endpoint coverage is now 33 mentors / 131 lesson→skill edges / 130 unique skill endpoints / 0 broken endpoints / 1 non-skill lesson reward.
+- [x] Synchronized docs/data/mentor-skill-coverage-report.json, docs/data/mentor-skill-coverage-audit-2026-09-24.json, docs/data/mentor-presentation-consumer-audit-2026-09-24.json, and docs/Mentors.md to the corrected 133 lesson reward objects / 131 typed skill rewards / 1 typed non-skill reward / 131 mentor→skill edges / 130 unique skill targets / 1 unresolved skill lesson baseline.
+- [x] Added and registered docs/data/mentor-endpoint-consumer-synchronization-2026-09-24.json.
+- [x] Validation: Hit lesson 3 retains explicit unresolved identity; no skill-time-skip-tremor-pulse endpoint remains in mentor-endpoints.json; crosslink edge count = 131; broken endpoints = 0; presentation and coverage audits agree on the 131/130/1 baseline.
+- [x] No canonical skill ID was fabricated. The unresolved lesson remains evidence-gated until the normal canonical skill-record path adds the missing skill record.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Commits: 87fa639c94f0780cb33b46f2035802c403ba5f41, 2d69bafbd3e166d668872d68ed27732911c1ec67, 78a0644372c7672686bacf34ed37760789e61da5, 0239483523cab6072e67434c321aa93115025720, 11459e95569738042a35f6d9ad06831e4477bfea, 80f92ffa20e431e86f51c5b6e839c27c6495b7e1, b3d2d237c9f011b4e779bcf54db2b35b3fcc1f77, e7f8122973e53eacfe9c23c876b138be09c02d57.
+- [ ] **Exact next batch:** continue the deterministic current-facing non-PQ/mentor consumer scan for stale scalar counts, orphan endpoint IDs, and one-way navigation. In parallel, only promote Time Skip/Tremor Pulse when a canonical skill record is actually added through the standard skill research/indexing pipeline; do not infer it from category membership alone.
