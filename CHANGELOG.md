@@ -1,4 +1,10 @@
 
+## 2026-09-24 — Correct live character producer/consumer count
+
+- Recomputed `docs/data/characters-record-layer.json` at **152 canonical character names** and synchronized current-facing consumers that still asserted 153.
+- Confirmed the two Chapter 4 identities remain present; no additional identity was inferred from the stale count.
+- Earlier dated 153-count records remain historical and are not treated as the current producer baseline.
+
 ## 2026-09-24 — Future Saga Chapter 4 presentation consumer audit
 
 - Added `docs/data/future-saga-chapter-4-presentation-consumer-audit-2026-09-24.json` and registered it in the cross-domain audit index.
