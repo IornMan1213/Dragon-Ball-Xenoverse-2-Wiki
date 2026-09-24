@@ -6,27 +6,26 @@
   "live_counts": {
     "canonical_skill_records": 465,
     "index_skill_records": 465,
-    "current_last_verified_records": 146,
-    "stale_last_verified_records": 319,
+    "current_last_verified_records": 158,
+    "stale_last_verified_records": 307,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
-    "skill-dust-attack",
-    "skill-eagle-kick",
-    "skill-elegant-blaster",
-    "skill-elite-shooting",
-    "skill-emperor-s-blast",
-    "skill-emperor-s-cannon",
-    "skill-emperor-s-death-beam",
-    "skill-emperor-s-edge",
-    "skill-endless-shoot",
-    "skill-energy-charge",
-    "skill-energy-dome",
-    "skill-energy-field"
+    "skill-energy-minefield",
+    "skill-energy-release",
+    "skill-eraser-bomb",
+    "skill-evil-blast",
+    "skill-evil-explosion",
+    "skill-evil-eyes",
+    "skill-evil-flame",
+    "skill-evil-flight-strike",
+    "skill-evil-ray-strike",
+    "skill-evil-rise-strike",
+    "skill-evil-whirlwind",
+    "skill-excellent-full-course"
   ],
   "notes": [
-    "Recomputed directly from the live canonical/index layers after the Divinity through Dual Destructo-Disc refresh.",
-    "Canonical/index ID parity verified.",
-    "Stale is defined as last_verified != 2026-09-24."
+    "Recomputed directly from the live canonical/index layers after the Dust through Energy refresh.",
+    "Canonical/index ID parity verified."
   ]
 }
