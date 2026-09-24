@@ -1,3 +1,11 @@
+### 2026-09-24 cycle completion — Howl skill-gap evidence enrichment
+- [x] Strengthened the unresolved `Howl` research record with Xenoverse 2-specific evidence establishing its Evasive classification/subtype and CaC-unavailable status.
+- [x] Added `docs/data/skill-research-gaps-howls-evidence-audit-2026-09-24.json` with source-backed evidence and explicit unresolved `ki_cost` / `unlock_method` boundaries.
+- [x] Preserved the canonical boundary: no `skills.json` or `skills-index.json` promotion was made because the supported builder/runtime remains unavailable and acquisition evidence is incomplete.
+- [x] Updated `docs/data/skill-research-gaps.json` accordingly; Howl now has fewer unresolved identity fields without inventing acquisition data.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** continue the next highest-impact evidence-backed thin skill gap (Acid, Boiling Burg, Energy Boil, or Baked Sphere) or another deterministic thin-domain consumer; do not promote unresolved skills until required canonical fields are directly supported and the builder path is available.
+
 ### 2026-09-24 cycle completion — Actions runner-level failure confirmed
 - [x] Polled the newest runs on current main `da7857e601145c88ca0dbd83af0d60e03c97c682`: Repository quality `36073363212` and Clean internal artifacts `36073363279` both fail.
 - [x] Both failed jobs start and finish within about two seconds and expose **zero workflow steps** in the GitHub Actions job payload. Their job-log endpoints return `BlobNotFound`.
