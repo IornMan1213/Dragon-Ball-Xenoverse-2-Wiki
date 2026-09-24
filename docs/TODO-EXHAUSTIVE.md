@@ -5515,3 +5515,15 @@
 - Validation: **469 canonical / 469 index / 371 current / 98 stale / 0 duplicate IDs / canonical-index IDs aligned**.
 - CI/runtime remains unavailable; no CI success claimed.
 - **Exact next stale batch:** **Shocking Death Ball; Shooting Strike; Side Bridge; Sign of Awakening; Sneaky Strike; Soaring Fist; Soaring Rush; Solar Flare; Sonic Bomb; Sonic Rush; Special Beam Cannon; Special Beam Cannon (Beast)**.
+
+
+### 2026-09-24 cycle update — Shocking Death Ball through Special Beam Cannon (Beast) provenance refresh
+
+- Live census before editing: **469 canonical / 469 index / 371 current / 98 stale**.
+- Completed bounded P1 provenance batch: **Shocking Death Ball; Shooting Strike; Side Bridge; Sign of Awakening; Sneaky Strike; Soaring Fist; Soaring Rush; Solar Flare; Sonic Bomb; Sonic Rush; Special Beam Cannon; Special Beam Cannon (Beast)**.
+- Synchronized canonical `docs/data/skills.json` and `docs/data/skills-index.json`; all 12 targets now have `last_verified=2026-09-24`.
+- Added `docs/data/skill-provenance-audit-2026-09-24-shocking-death-ball-through-special-beam-cannon-beast.json`.
+- Existing acquisition, reward, mechanics, restriction, DLC/update provenance, and evidence conflicts were preserved; no unsupported mechanics or acquisition conditions were promoted.
+- Validation: **469 canonical / 469 index / 383 current / 86 stale / 0 duplicate IDs / canonical-index IDs aligned**.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next stale batch:** **Sphere of Destruction; Spirit Ball; Spirit Blaster; Spirit Bomb; Spirit Boost; Spirit Explosion; Spirit Pulse; Spirit Slash; Spirit Sword; Spread Shot Retreat; Steel Mirage; Stone Bullet**.
