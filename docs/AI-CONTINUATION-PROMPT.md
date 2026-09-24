@@ -7293,3 +7293,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Added and registered `docs/data/skill-provenance-audit-2026-09-24-super-saiyan-god-super-saiyan-through-taunt.json`.
 - [x] Recomputed census: **469 canonical / 469 index / 431 current / 38 stale / 0 duplicate IDs / canonical-index IDs aligned**.
 -  Exact next stale batch: **Teleporting Vanishing Ball; Temporal Holy Ray; The Power to Overcome; The Savior Has Come; Thunder Flash; Time Bullet; Time Control; Time Skip/Back Breaker; Time Skip/Flash Skewer; Time Skip/Jump Spike; Time Skip/Tremor Pulse; Timespace Impact**.
+
+
+### 2026-09-24 cycle completion — Teleporting Vanishing Ball through Timespace Impact
+- [x] Completed bounded P1 provenance refresh for 12 records: **Teleporting Vanishing Ball; Temporal Holy Ray; The Power to Overcome; The Savior Has Come; Thunder Flash; Time Bullet; Time Control; Time Skip/Back Breaker; Time Skip/Flash Skewer; Time Skip/Jump Spike; Time Skip/Tremor Pulse; Timespace Impact**.
+- [x] Synchronized canonical/index `last_verified=2026-09-24` for all 12.
+- [x] Added and registered `docs/data/skill-provenance-audit-2026-09-24-teleporting-vanishing-ball-through-timespace-impact.json`.
+- [x] Recomputed census: **469 canonical / 469 index / 443 current / 26 stale / 0 duplicate IDs / canonical-index IDs aligned**.
+- [ ] Exact next stale batch: **Total Detonation Ball; Trap Shooter; Tri-Beam; Turn Golden; Tyrant Lancer; Ultimate Charge; Ultra Instinct; Ultrasonic Blitz; Unrelenting Barrage; Vanishing Ball; Variable Snipe Shot; Variant Drive**.
