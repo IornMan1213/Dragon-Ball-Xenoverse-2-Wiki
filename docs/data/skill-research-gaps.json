@@ -91,30 +91,30 @@
       "status": "unresolved",
       "known_identity": "Great Ape-exclusive Super Skill used by Great Ape enemies",
       "missing": [
-        "subcategory",
         "ki_cost"
       ],
       "evidence": [
         "Xenoverse 2 Character ID List assigns Boulder Toss skill ID 441, marks it CaC-unavailable, and identifies Great Ape as its source.",
         "Xenoverse 2 PQ and Expert Mission tables repeatedly list Boulder Toss on Great Ape Nappa and/or Great Ape Vegeta.",
-        "Xenoverse 2-specific reference material identifies Boulder Toss as a Super Skill used by Great Apes."
+        "Xenoverse 2-specific reference material identifies Boulder Toss as a Super Skill used by Great Apes.",
+        "Repository batch 286 reconciles the earlier Other placeholder to Strike using current Xenoverse 2 Great Ape quest documentation."
       ],
-      "reason": "Xenoverse 2-specific evidence establishes Boulder Toss as a CaC-unavailable Super Skill used by Great Apes. The repository taxonomy subtype and canonical Ki cost remain unverified; the physical/projectile description is not converted into a repository subtype without a direct taxonomy mapping. Current verification reconfirms its Xenoverse 2 Super classification, Great Ape usage, and CaC-unavailable boundary; subtype and Ki cost remain unresolved."
+      "reason": "Xenoverse 2-specific evidence establishes Boulder Toss as a CaC-unavailable Super Skill used by Great Ape Nappa/Vegeta, and repository batch 286 supports the canonical Strike subtype. Only the numeric Ki cost remains unverified; canonical integration still awaits the supported builder/runtime."
     },
     {
       "name": "Boulder Break",
       "status": "unresolved",
       "known_identity": "Great Ape-exclusive Super Skill used by Great Ape enemies",
       "missing": [
-        "subcategory",
         "ki_cost"
       ],
       "evidence": [
         "Xenoverse 2 Character ID List assigns Boulder Break skill ID 442, marks it CaC-unavailable, and identifies Great Ape as its source.",
         "Xenoverse 2 PQ and Expert Mission tables list Boulder Break on Great Ape Nappa, Great Ape Bardock, and Great Ape Baby.",
-        "Xenoverse 2-specific reference material identifies Boulder Break as a Super Skill used by Great Apes and describes it as a variation of Boulder Toss."
+        "Xenoverse 2-specific reference material identifies Boulder Break as a Super Skill used by Great Apes and describes it as a variation of Boulder Toss.",
+        "Repository batch 286 reconciles the earlier Other placeholder to Strike using current Xenoverse 2 Great Ape quest documentation."
       ],
-      "reason": "Xenoverse 2-specific evidence establishes Boulder Break as a CaC-unavailable Super Skill used by Great Apes. Its physical/projectile class is documented externally, but the repository's canonical subtype mapping and Ki cost remain unverified. Current verification reconfirms its Xenoverse 2 Super classification, Great Ape usage, and CaC-unavailable boundary; repository subtype and Ki cost remain unresolved."
+      "reason": "Xenoverse 2-specific evidence establishes Boulder Break as a CaC-unavailable Super Skill used by Great Ape Nappa/Bardock/Baby, and repository batch 286 supports the canonical Strike subtype. Only the numeric Ki cost remains unverified; canonical integration still awaits the supported builder/runtime."
     },
     {
       "name": "Boiling Ball",
