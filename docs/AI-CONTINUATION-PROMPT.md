@@ -6974,3 +6974,18 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime remains unavailable; no CI success claimed.
 - Commits: canonical `2ed261133e076e4a810e5d5e0164886d62a6d518`; index `a97c9889c4efba946d95ffe547de674b4111f5af`; audit `642a49f0ec3efb5e1495769d1f00d8b47acdcfb4`; live census `76794dd4dee17df7e481d7876bb614d16c7a6ffe`; cross-domain registration `55bd304aeffbe99782289d4f5c552f3321f40822`.
 - **Exact next task:** process the 12 listed Divinity-through-Dual-Destructo-Disc records against their maintained evidence corpus, synchronize canonical/index layers, add/register the bounded audit, and recompute the live stale census before selecting another batch.
+
+
+### 2026-09-24 cycle update — Divinity through Dual Destructo-Disc provenance refresh
+
+- Live census before editing: **465 canonical / 465 index / 134 current / 331 stale / 0 duplicate IDs**.
+- Completed bounded P1 batch: **Divinity Unleashed, Do or Die, Dodon Ray, Dodoria Beam, Dodoria Launcher, Double Crush, Double Death Slicer, Dragon Burn, Dragon Spark, Dragon Spiral, Drain Field, Dual Destructo-Disc**.
+- Synchronized canonical `docs/data/skills.json` and `docs/data/skills-index.json` to `last_verified=2026-09-24` for all 12 records.
+- Preserved existing acquisition routes, reward semantics, mechanics, DLC/update provenance, restrictions, and documented conflicts. In particular, Dragon Spark's UF/50% evidence conflict, Dragon Spiral's PQ185/PQ186 conflict, and Drain Field's acquisition-route conflict were not collapsed into unsupported certainty.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-24-divinity-through-dual-destructo-disc.json`.
+- Recomputed the live stale census: **465 canonical / 465 index / 146 current / 319 stale / 0 duplicate IDs**. Canonical/index ID parity remains exact.
+- Exact next stale batch: **Dust Attack, Eagle Kick, Elegant Blaster, Elite Shooting, Emperor's Blast, Emperor's Cannon, Emperor's Death Beam, Emperor's Edge, Endless Shoot, Energy Charge, Energy Dome, Energy Field**.
+- Evidence limits preserved: no unsupported probability, Ultimate Finish gate, prerequisite, timer, frame data, damage value, stacking cap, or narrower restriction was inferred.
+- CI/runtime remains unavailable; no CI success claimed.
+- Commits: canonical `00b4b70c97ddfaa168f0e7975c75a993919ef026`; index `4f220d2d038b5fcd589b97d1fed15708adf47452`; audit `5c28e5e3e5b6cf587e0ab39e82646c87ae2156ac`; cross-domain registration `41c91260fb9559f72861969292ee5e02f4591321`; census `8874f973bc8f911debadd26a10d69a009af7c1e2`.
+- **Exact next task:** process the 12 listed Dust-through-Energy records against their maintained evidence corpus, synchronize canonical/index layers, add/register the bounded audit, and recompute the live stale census.
