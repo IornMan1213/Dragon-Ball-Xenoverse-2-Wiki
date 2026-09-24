@@ -447,5 +447,8 @@
   "skill_character_source_identity_audit_2026_09_23": "docs/data/skill-character-source-identity-audit-2026-09-23.json",
   "character_count_consumer_synchronization_2026_09_23": "docs/data/character-count-consumer-synchronization-2026-09-23.json",
   "skill_acquisition_endpoint_consumer_synchronization_2026_09_23": "docs/data/skill-acquisition-endpoint-consumer-synchronization-2026-09-23.json",
-  "skill_expert_mission_provenance_audit_2026_09_23": "docs/data/skill-expert-mission-provenance-audit-2026-09-23.json"
+  "skill_expert_mission_provenance_audit_2026_09_23": "docs/data/skill-expert-mission-provenance-audit-2026-09-23.json",
+  "skill_provenance_audit_2026_09_24_atomic_through_blaster": "docs/data/skill-provenance-audit-2026-09-24-atomic-through-blaster.json",
+  "skill_stale_metadata_census_2026_09_24": "docs/data/skill-stale-metadata-census-2026-09-24.json",
+  "pq_current_consumer_854_search_classification_2026_09_24": "docs/data/pq-current-consumer-854-search-classification-2026-09-24.json"
 }
