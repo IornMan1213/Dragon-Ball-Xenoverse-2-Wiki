@@ -18,7 +18,7 @@
     "full_endpoint_union_skills": 469,
     "pq_relationship_edges": 853,
     "pq_skill_edges": 244,
-    "canonical_character_names": 153,
+    "canonical_character_names": 152,
     "canonical_equipment_accessory_records": 174
   },
   "findings": [
@@ -26,7 +26,7 @@
       "path": "docs/data/pq-endpoint-navigation-validation.json",
       "classification": "current_consumer",
       "issue": "live_recheck and current_state_reconciliation exposed superseded 465-skill, 173-equipment/accessory, and 151-character baselines",
-      "resolution": "refreshed current domain counts to 469 skills, 174 equipment/accessory records, and 153 character identities; preserved relationship counts and historical provenance"
+      "resolution": "refreshed current domain counts to 469 skills, 174 equipment/accessory records, and 152 character identities; preserved relationship counts and historical provenance"
     },
     {
       "path": "docs/data/skill-pq-acquisition-presentation-audit.json",
