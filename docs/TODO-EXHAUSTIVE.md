@@ -6369,3 +6369,14 @@
 - [x] No skill identity, acquisition, provenance, mechanics, PQ relationship, mentor relationship, or gameplay fact was changed.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** continue deterministic non-PQ landing/reference scanning for stale scalar/list assumptions, one-way links, orphan targets, and canonical-ID drift across system pages and reference consumers; then resume evidence-gated preset/loadout expansion only where numeric preset identity and complete configuration are directly evidenced.
+
+### 2026-09-24 cycle completion — current preset/loadout evidence boundary
+- [x] Recomputed the live canonical preset layer: 51 canonical preset/character configuration records / 26 verified loadout records / 25 unresolved loadout records.
+- [x] Deterministically checked all 26 verified loadout records for required evidence fields; 26/26 have a loadout object, loadout source, and non-empty source list.
+- [x] Audited the unresolved numeric core: Goku Presets 2–12 and 14–18, Vegeta Presets 10–11, and Captain Ginyu Presets 5–6 have direct numeric-identity observations from the maintained community video, but not complete numeric-to-loadout bindings.
+- [x] Cross-checked current external evidence for the boundary: the current Goku in-game-data table exposes complete named/costume loadouts but does not safely bind them to repository numeric IDs; the Orange Piccolo page exposes a complete one-preset named loadout but no repository numeric preset ID.
+- [x] Added and registered docs/data/preset-loadout-current-evidence-audit-2026-09-24.json.
+- [x] Preserved the evidence boundary: 0 preset loadout promotions were made; no row-order, costume-order, chapter-order, or visual-proximity mapping was inferred.
+- [x] Validation: canonical preset JSON parsed; 26/26 verified records satisfy required evidence fields; audit JSON and central index registration validated.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next batch: locate a source that directly binds numeric Goku Presets 2–18, Vegeta Presets 10–11, or Captain Ginyu Presets 5–6 to complete skill-slot configurations; promote only directly bound configurations, then synchronize the preset navigation audit and canonical projections.
