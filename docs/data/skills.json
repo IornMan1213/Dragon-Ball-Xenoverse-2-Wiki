@@ -2914,7 +2914,7 @@
       "mechanics_notes": "Current dedicated evidence confirms a 100-200 Ki Ki Blast Super from PQ106. It places a Ki ball behind the opponent; Destruction's Conductor splits it into five projectiles that launch at the target.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Destruction's_Concerto%3A_Meteor",
@@ -2924,7 +2924,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 106,
       "acquisition_type": "quest_or_mission",
-      "notes": " 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
+      "notes": " 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-destruction-s-concerto-meteor",
       "source_parallel_quests": [
         106
@@ -2947,7 +2947,7 @@
       "mechanics_notes": "Current dedicated evidence confirms a 100-200 Ki Ki Blast Super from PQ104. It creates two Ki blasts; Destruction's Conductor splits them into six smaller orbs that bombard the opponent.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Destruction's_Concerto%3A_Starfall",
@@ -2956,7 +2956,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 104,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ104 reward listings explicitly place Destruction's Concerto: Starfall in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
+      "notes": "2026-09-20 audit: PQ104 reward listings explicitly place Destruction's Concerto: Starfall in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-destruction-s-concerto-starfall",
       "source_parallel_quests": [
         104
@@ -2979,7 +2979,7 @@
       "mechanics_notes": "Current dedicated evidence confirms a 0-Ki Strike Super from PQ106. It is a close-range slap that recovers Ki and serves as the trigger for the three Destruction's Concerto variants, changing their projectile behavior.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Destruction's_Conductor",
@@ -2988,7 +2988,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 106,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ106 reward listings explicitly place Destruction's Conductor in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-23 provenance correction: dedicated current skill documentation identifies Vados as the primary user, with Whis as a Customize Partner. The legacy character_source value Champa was incorrect and is corrected to Vados; the PQ106 acquisition remains unchanged.",
+      "notes": "2026-09-20 audit: PQ106 reward listings explicitly place Destruction's Conductor in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-23 provenance correction: dedicated current skill documentation identifies Vados as the primary user, with Whis as a Customize Partner. The legacy character_source value Champa was incorrect and is corrected to Vados; the PQ106 acquisition remains unchanged.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-destruction-s-conductor",
       "source_parallel_quests": [
         106
@@ -3013,7 +3013,7 @@
       "mechanics_notes": "Current dedicated evidence confirms the PQ146 Ki Blast Ultimate route. Existing acquisition semantics are retained; the current record does not infer a drop probability beyond the maintained PQ reward evidence.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Destructive_Fission",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3021,7 +3021,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: official Bandai Namco DLC documentation independently confirms Legendary Pack 1 scope (4 characters, 4 Parallel Quests, 6 additional moves); the maintained PQ143-PQ146 research layer remains the exact source for each skill's individual quest relationship. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: official Bandai Namco DLC documentation independently confirms Legendary Pack 1 scope (4 characters, 4 Parallel Quests, 6 additional moves); the maintained PQ143-PQ146 research layer remains the exact source for each skill's individual quest relationship. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "source_parallel_quests": [
         146
       ]
@@ -3045,7 +3045,7 @@
       "mechanics_notes": "Current dedicated evidence confirms the PQ145 Ki Blast Super route. Existing acquisition semantics are retained; the current record does not infer a drop probability beyond the maintained PQ reward evidence.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Destructive_Flare",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3053,7 +3053,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: official Bandai Namco DLC documentation independently confirms Legendary Pack 1 scope (4 characters, 4 Parallel Quests, 6 additional moves); the maintained PQ143-PQ146 research layer remains the exact source for each skill's individual quest relationship. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: official Bandai Namco DLC documentation independently confirms Legendary Pack 1 scope (4 characters, 4 Parallel Quests, 6 additional moves); the maintained PQ143-PQ146 research layer remains the exact source for each skill's individual quest relationship. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "source_parallel_quests": [
         145
       ]
@@ -3077,7 +3077,7 @@
       "mechanics_notes": "Current dedicated evidence confirms a 100-Ki Strike Super from PQ145. It strikes and binds the opponent with Hakai energy before kicking them away, and the resulting knockback can be followed by an Ultimate or movement. Existing all-CaC-races scope and PQ145 acquisition are retained.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Destructive_Fracture",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3085,7 +3085,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-22 provenance refresh: current dedicated evidence reconfirms the canonical acquisition endpoint/classification and preserves unresolved evidence boundaries; no unsupported drop probability or gate was added. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-22 provenance refresh: current dedicated evidence reconfirms the canonical acquisition endpoint/classification and preserves unresolved evidence boundaries; no unsupported drop probability or gate was added. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "source_parallel_quests": [
         145
       ]
@@ -3106,13 +3106,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Krillin mentor training",
       "mechanics_notes": "Current dedicated evidence confirms a 100-Ki Ki Blast Super from Krillin's Lesson 2. The disc is slow, tracks the target, and is unblockable; existing all-CaC-races scope and mentor-krillin endpoint are retained.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Krillin mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved. 2026-09-22 provenance refresh: current dedicated evidence reconfirms the canonical acquisition endpoint/classification and preserves unresolved evidence boundaries; no unsupported drop probability or gate was added. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
+      "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved. 2026-09-22 provenance refresh: current dedicated evidence reconfirms the canonical acquisition endpoint/classification and preserves unresolved evidence boundaries; no unsupported drop probability or gate was added. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-destructo-disc",
       "source_mentor": [
         "mentor-krillin"
@@ -3163,7 +3163,7 @@
       "mechanics_notes": "Current dedicated evidence confirms Dimension Cannon as a 300-Stamina Ki Blast Evasive from PQ59. It fires a short-range mouth Ki wave with six documented hits; a connecting attack can knock back and break a guarding opponent. The corrected Evasive classification and stamina-only cost model are retained.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Dimension_Cannon",
@@ -3173,7 +3173,7 @@
       "source_quest": 59,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 correction: prior canonical classification as a 300-Ki Super was incorrect; current evidence identifies Dimension Cannon as a 300-Stamina Ki Blast Evasive. 2026-09-21 Ki-cost verification: current Dimension Cannon evidence explicitly lists 300 Stamina Used for this Evasive Skill and does not list Ki expenditure; canonical ki_cost=0 follows the repository's stamina-only Evasive convention. No unsupported Ki value was inferred. 2026-09-22 provenance refresh: current dedicated evidence reconfirms the canonical acquisition endpoint/classification and preserves unresolved evidence boundaries; no unsupported drop probability or gate was added. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
+      "notes": "2026-09-20 correction: prior canonical classification as a 300-Ki Super was incorrect; current evidence identifies Dimension Cannon as a 300-Stamina Ki Blast Evasive. 2026-09-21 Ki-cost verification: current Dimension Cannon evidence explicitly lists 300 Stamina Used for this Evasive Skill and does not list Ki expenditure; canonical ki_cost=0 follows the repository's stamina-only Evasive convention. No unsupported Ki value was inferred. 2026-09-22 provenance refresh: current dedicated evidence reconfirms the canonical acquisition endpoint/classification and preserves unresolved evidence boundaries; no unsupported drop probability or gate was added. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-dimension-cannon",
       "source_parallel_quests": [
         59
@@ -3231,10 +3231,10 @@
       "source_quest_or_shop": "Parallel Quest 80 — \"The Return of the Giant Ape-Fest\"",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "mechanics_notes": "Current dedicated evidence confirms Dimensional Hole as a Ki Blast Super from PQ80 Basic Reward. The current repository preserves the 0-Ki value because the available evidence does not establish a positive Ki expenditure; no Ultimate Finish-only gate is inferred.",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ80 reward tables explicitly list Dimensional Hole as a Basic Reward. Dedicated skill documentation independently confirms PQ80 acquisition; no Ultimate Finish-only gate is inferred. 2026-09-21 low-source provenance strengthening: the maintained all-PQ guide independently lists Dimensional Hole in PQ80 — The Return of the Giant Ape-Fest's Basic Reward list. Existing PQ80 acquisition and Basic Reward semantics are preserved; no Ultimate Finish-only gate or drop probability is inferred. 2026-09-22 provenance refresh: current dedicated evidence reconfirms the canonical acquisition endpoint/classification and preserves unresolved evidence boundaries; no unsupported drop probability or gate was added. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
+      "notes": "2026-09-20 audit: PQ80 reward tables explicitly list Dimensional Hole as a Basic Reward. Dedicated skill documentation independently confirms PQ80 acquisition; no Ultimate Finish-only gate is inferred. 2026-09-21 low-source provenance strengthening: the maintained all-PQ guide independently lists Dimensional Hole in PQ80 — The Return of the Giant Ape-Fest's Basic Reward list. Existing PQ80 acquisition and Basic Reward semantics are preserved; no Ultimate Finish-only gate or drop probability is inferred. 2026-09-22 provenance refresh: current dedicated evidence reconfirms the canonical acquisition endpoint/classification and preserves unresolved evidence boundaries; no unsupported drop probability or gate was added. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-dimensional-hole",
       "source_parallel_quests": [
         80
@@ -3308,7 +3308,7 @@
       "mechanics_notes": "300-Ki Ki Blast Ultimate from PQ173. Current reward evidence places it in PQ173's Ultimate Finish bonus slot at 45%; Future Saga Chapter 1 provenance is retained. Exact combat numbers are not asserted here because current bounded evidence is stronger on identity and acquisition than detailed mechanics.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Divine_Ray_Bomb",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3318,7 +3318,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 173,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ173's current maintained reward data lists Divine Ray Bomb in a 45% Ultimate Finish bonus slot; the repository now records the concrete gate rather than generic PQ reward wording. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred. 2026-09-21 provenance correction: Future Saga Chapter 1 contains Divine Ray Bomb; PQ173 “Decoding Dinner” is a Chapter 1 Parallel Quest. Official Bandai Namco documentation lists 15 Chapter 1 skills, and maintained PQ/DLC evidence identifies Divine Ray Bomb among that Chapter 1 skill set. The prior Chapter 2 label was incorrect and is corrected without changing the PQ173 acquisition or reward-tier fields. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
+      "notes": "2026-09-20 audit: PQ173's current maintained reward data lists Divine Ray Bomb in a 45% Ultimate Finish bonus slot; the repository now records the concrete gate rather than generic PQ reward wording. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred. 2026-09-21 provenance correction: Future Saga Chapter 1 contains Divine Ray Bomb; PQ173 “Decoding Dinner” is a Chapter 1 Parallel Quest. Official Bandai Namco documentation lists 15 Chapter 1 skills, and maintained PQ/DLC evidence identifies Divine Ray Bomb among that Chapter 1 skill set. The prior Chapter 2 label was incorrect and is corrected without changing the PQ173 acquisition or reward-tier fields. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-divine-ray-bomb",
       "source_parallel_quests": [
         173
@@ -3341,7 +3341,7 @@
       "mechanics_notes": "200-Ki Ki Blast Super from PQ171. Current evidence supports CaC acquisition/use and a 50% Ultimate Finish reward route; the repository's CaC usability correction is retained. Conflicting historical reward-list presentation is preserved rather than silently normalized.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3350,7 +3350,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 171,
       "acquisition_type": "quest_or_mission",
-      "notes": "Corrected 2026-09-20: PQ acquisition is player/CaC-accessible; character association does not make the skill character-exclusive. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context. 2026-09-21 provenance audit: Divine Spear is tied to Future Saga Chapter 1 through its documented PQ 171/172 reward context and the official DLC move documentation; the existing DLC classification is preserved. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
+      "notes": "Corrected 2026-09-20: PQ acquisition is player/CaC-accessible; character association does not make the skill character-exclusive. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context. 2026-09-21 provenance audit: Divine Spear is tied to Future Saga Chapter 1 through its documented PQ 171/172 reward context and the official DLC move documentation; the existing DLC classification is preserved. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-divine-spear",
       "source_parallel_quests": [
         171
@@ -3373,7 +3373,7 @@
       "mechanics_notes": "300-Ki Ki Blast Ultimate from PQ112 Basic Reward. Current evidence describes a large stationary energy sphere that remains in place before vanishing/exploding. Exact drop probability remains unresolved and no Ultimate Finish gate is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Divine_Wrath%3A_Purification",
@@ -3383,7 +3383,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 112,
       "acquisition_type": "quest_or_mission",
-      "notes": " 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
+      "notes": " 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "id": "skill-divine-wrath-purification",
       "source_parallel_quests": [
         112
