@@ -1,3 +1,10 @@
+## 2026-09-24 — Critical Upper P1 provenance refresh
+
+- Revalidated Critical Upper as a 100-Ki Strike Super obtained from Dodoria Lesson 1.
+- Added and registered the P1 provenance enrichment audit.
+- Preserved unsupported stamina, frame, probability, and universal damage fields.
+- CI/runtime unavailable; no CI success claimed.
+
 ## 2026-09-24 — Punisher Shield P1 provenance refresh
 
 - Refreshed Punisher Shield research provenance for Super/Ki Blast identity, Counter taxonomy, CaC availability, Extra Pack 4 provenance, 100 Ki, and PQ129 acquisition.
