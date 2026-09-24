@@ -100,7 +100,7 @@
 - [x] Synchronized them to the live canonical **152-character** producer without changing the 247 character relationship edges, 75 unique relationship targets, aliases, or reverse mappings.
 - [x] Added `docs/data/current-character-consumer-scan-2026-09-24.json` and registered it in the cross-domain index.
 - [x] Validation: canonical character count 152; character relationship edges 247; missing canonical targets 0; orphan reverse targets 0; duplicate forward pairs 0.
-- [x] Web research also reconfirmed that the strongest readily indexed numeric-preset source still exposes numeric identity/unlock placement rather than complete slot configurations; no unsupported preset promotion was made. citeturn0youtube20turn0youtube21
+- [x] Web research also reconfirmed that the strongest readily indexed numeric-preset source still exposes numeric identity/unlock placement rather than complete slot configurations; no unsupported preset promotion was made. citeturn0youtube20turn0youtube21
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** continue scanning current Event/Raid/Festival/Chapter 4 and non-PQ record consumers for stale scalar/count metadata and one-way navigation, then return to direct numeric preset + complete configuration evidence.
 
@@ -128,8 +128,8 @@
 
 ### 2026-09-24 cycle completion — strict-thin Super Soul 032/034 evidence refresh
 - [x] Rechecked the remaining strict-thin records `super-soul-032` and `super-soul-034`.
-- [x] PQ guide evidence confirms exact reward identity: 032 is a PQ 185 reward and 034 is a PQ 186 reward. citeturn3search2
-- [x] Current GameFAQs discussion independently corroborates the additional activation/name-state observation already preserved for 032; it does not establish the second state's mechanics. citeturn4view0
+- [x] PQ guide evidence confirms exact reward identity: 032 is a PQ 185 reward and 034 is a PQ 186 reward. citeturn3search2
+- [x] Current GameFAQs discussion independently corroborates the additional activation/name-state observation already preserved for 032; it does not establish the second state's mechanics. citeturn4view0
 - [x] No sufficiently reliable item-level evidence was found for 034's mechanics, Limit Burst, or character source; explicit unresolved/null fields remain unchanged.
 - [x] Added `docs/data/super-soul-032-034-strict-thin-evidence-refresh-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
 - [x] Commits: `212637a29f7f991d7e6cbf849594a08a80263b7f` (audit), `19e22b72755010ae967b5c8c8d601ebdec6b1862` (registry), `7a59e408f851e424c97b1f492af192fee6d84c05` (TODO).
@@ -138,8 +138,8 @@
 
 ### 2026-09-24 cycle completion — Goku numeric preset loadout evidence recheck
 - [x] Audited all 16 indexed unresolved Goku numeric preset records (2–12, 14–18).
-- [x] Search evidence confirms the current Fandom Goku page exposes a numeric Preset → Skills → Super Soul table and reports 19 main-slot presets. citeturn0search4
-- [x] Community unlock-video chapters corroborate numeric discovery/acquisition events for several targets but not complete eight-slot configurations. citeturn0youtube12
+- [x] Search evidence confirms the current Fandom Goku page exposes a numeric Preset → Skills → Super Soul table and reports 19 main-slot presets. citeturn0search4
+- [x] Community unlock-video chapters corroborate numeric discovery/acquisition events for several targets but not complete eight-slot configurations. citeturn0youtube12
 - [x] No unsupported loadout promotion was made; indexed/unresolved status remains intact.
 - [x] Added and registered `docs/data/goku-numeric-preset-loadout-evidence-audit-2026-09-24.json`.
 - [x] Commits: `c157430190381c158d742297bf9dc0dca78435a7`, `c7fe5492d96331c211e92bc9ce057eae35831dcc`.
@@ -147,7 +147,7 @@
 
 ### 2026-09-24 cycle completion — Vegeta Presets 10–11 evidence pass
 - [x] Audited both unresolved numeric Vegeta presets.
-- [x] Numeric identity is corroborated by the community unlock sequence, while complete eight-slot loadout evidence remains unavailable from directly extractable results. citeturn0youtube12turn0search3
+- [x] Numeric identity is corroborated by the community unlock sequence, while complete eight-slot loadout evidence remains unavailable from directly extractable results. citeturn0youtube12turn0search3
 - [x] No unsupported promotion was made.
 - [x] Added/registered the Vegeta 10–11 evidence audit and preserved unresolved status.
 - [x] Commits: `c74f76e6a70352f4ef665910e27c4c4511e764bf`, `216775a5189aa8bf504e4625fdeb47a282bc069a`, `1d8b8f083f68104f1aaf92c681e9ac38d307751c`.
@@ -155,7 +155,7 @@
 
 ### 2026-09-24 cycle completion — Captain Ginyu Presets 5–6 evidence pass
 - [x] Audited both unresolved numeric presets.
-- [x] Numeric identities are independently corroborated, but complete eight-slot configurations are not directly extractable with a safe numeric mapping. citeturn0youtube12turn0search2
+- [x] Numeric identities are independently corroborated, but complete eight-slot configurations are not directly extractable with a safe numeric mapping. citeturn0youtube12turn0search2
 - [x] No unsupported promotion was made.
 - [x] Added/registered the Captain Ginyu evidence audit.
 - [x] Commits: `44d5cfa2921f201e94aad91a91d148cfcf3247c3`, `4af784c97d1c7133e53492485466e7a877865ae8`.
