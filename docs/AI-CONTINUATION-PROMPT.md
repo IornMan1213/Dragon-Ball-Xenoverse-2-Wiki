@@ -7356,3 +7356,8 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: **469 canonical / 239 PQ-linked / 230 non-PQ endpoint targets / 469 endpoint union / 0 uncovered / canonical-index aligned**. No PQ relationship was invented.
 - CI/runtime remains unavailable; no CI success claimed.
 - Exact next priority: continue the live cross-domain producer/consumer audit from the now-complete 469-skill endpoint union, checking remaining reverse-navigation projections and validator assumptions for stale counts or orphan targets.
+
+
+### 2026-09-24 cycle correction — commit ledger for Hyper/Ice endpoint reconciliation
+- Commits: shop endpoints `4726e2c10eeaef2ec1ce78b11e36469b135d4cb7`; special endpoints `e6f90960cdad15c60efcfb79dd09b470e8f371ea`; acquisition coverage `a642ad8d4be8e901c2522406304d188586987a05`; full parity `1a4dcbfe521e75d08a0b763956e03f0ba825cd1d`; endpoint consumer synchronization `0043f8a6540149f12edfa36499551ba3f3346f2b`; reconciliation audit `230201af0c595c2568daa17dadda19a23cbf67ad`; cross-domain registration `b75fbfe8b69b3315cb5c50419a562ef29f473ac8`; TODO `110250c9f180e5990fe74efb8f900091f19e0842`; handoff `87eb613a853274f431bb18360ef6a48a2e1ac9f1`.
+- Final live validation after all writes: **469 canonical / 469 index / 239 PQ-linked / 230 non-PQ endpoint targets / 469 endpoint union / 0 uncovered / 0 duplicate IDs**.
