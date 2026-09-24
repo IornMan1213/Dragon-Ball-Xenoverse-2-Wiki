@@ -18,7 +18,7 @@
     "dlc_edges": "populated",
     "farming_edges": "populated"
   },
-  "next_completion_gate": "Current canonical relationship baseline is 853 unique edges (244 skill / 145 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming). Continue final active-consumer search for stale 854/146/143 assertions, then resume P1 provenance/data work.",
+  "next_completion_gate": "Current canonical relationship baseline is 853 unique edges (244 skill / 145 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming). Active-consumer stale-count audit completed for the current PQ reward projection; continue deterministic reverse-projection audits outside the PQ reward layer.",
   "current_counts": {
     "skill": 244,
     "super_soul": 145,
@@ -639,5 +639,24 @@
     "historical_note": "Older 862/860/840 snapshots remain preserved under explicitly historical keys.",
     "supersedes_prior_current_baseline": "854/146/124/247/86/7 after Super Soul 158 migration"
   },
-  "current_total_edges": 853
+  "current_total_edges": 853,
+  "active_consumer_audit_2026_09_24": {
+    "date": "2026-09-24",
+    "status": "clean_for_current_consumer_scope",
+    "current_total_edges": 853,
+    "counts": {
+      "skill": 244,
+      "super_soul": 145,
+      "equipment": 124,
+      "character": 247,
+      "dlc": 86,
+      "farming": 7
+    },
+    "known_historical_count_families_preserved": [
+      "854/146/143",
+      "862/151/125/88",
+      "860"
+    ],
+    "note": "Historical snapshots remain intentionally preserved; current consumers must use the live canonical baseline."
+  }
 }
