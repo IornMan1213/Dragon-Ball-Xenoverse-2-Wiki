@@ -7055,3 +7055,12 @@
 - [x] Updated the central Energy Boil gap note without promoting unsupported taxonomy, cost, acquisition, or canonical catalog data.
 - [x] Validation: canonical/index **469/469**, duplicate IDs **0**; changed JSON artifact parses; no CI success claimed.
 - [ ] **Exact next:** continue the remaining unresolved thin-domain queue only where direct Xenoverse 2 evidence can resolve a missing field; otherwise resume source-backed P1 enrichment.
+
+
+### 2026-09-24 cycle completion — Acid evidence refresh
+- [x] Added and registered the Acid evidence refresh audit.
+- [x] Reconfirmed normal ID 140 and separate raid ID 143, Super classification, CaC-unavailable boundary, and Saibaman 2 usage.
+- [x] Numeric Ki cost remains unresolved; no unsupported canonical promotion was made.
+- [x] Canonical skill/index boundary remains 469/469.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue the unresolved thin-domain queue where direct Xenoverse 2 evidence can resolve a missing field.
