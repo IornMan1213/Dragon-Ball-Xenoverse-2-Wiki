@@ -6,46 +6,46 @@
   "live_counts": {
     "canonical_skill_records": 469,
     "index_skill_records": 469,
-    "current_last_verified_records": 359,
-    "stale_last_verified_records": 110,
+    "current_last_verified_records": 371,
+    "stale_last_verified_records": 98,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
     {
-      "name": "Saturday Crash"
+      "name": "Shocking Death Ball"
     },
     {
-      "name": "Sauzer Blade"
+      "name": "Shooting Strike"
     },
     {
-      "name": "Savory Slicer"
+      "name": "Side Bridge"
     },
     {
-      "name": "Scatter Kamehameha"
+      "name": "Sign of Awakening"
     },
     {
-      "name": "Scissors Paper Rock"
+      "name": "Sneaky Strike"
     },
     {
-      "name": "Seagull Combination"
+      "name": "Soaring Fist"
     },
     {
-      "name": "Secret Poison"
+      "name": "Soaring Rush"
     },
     {
-      "name": "Shadow Crusher"
+      "name": "Solar Flare"
     },
     {
-      "name": "Shield Barrier"
+      "name": "Sonic Bomb"
     },
     {
-      "name": "Shine Shot"
+      "name": "Sonic Rush"
     },
     {
-      "name": "Shining Friday"
+      "name": "Special Beam Cannon"
     },
     {
-      "name": "Shining Slash"
+      "name": "Special Beam Cannon (Beast)"
     }
   ],
   "notes": [
