@@ -372,3 +372,13 @@
 - [x] No drop probability, hidden prerequisite, frame data, or invulnerability duration was inferred.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next:** perform the lossless canonical skill build when a repository-backed builder/Actions runtime is available, promoting `skill-time-skip-tremor-pulse` into canonical/index together and then reconciling the Hit mentor endpoint/projections. If execution remains unavailable, continue the next thin-domain evidence-enrichment tranche without changing the unresolved canonical boundary.
+
+
+### 2026-09-24 cycle completion — Savage Strike P1 provenance enrichment
+- [x] Live skill baseline remains 469 canonical / 469 index / 0 duplicate IDs; the stale-date queue remains exhausted.
+- [x] Strengthened the existing Savage Strike research record with current evidence: Strike Super, 100 Ki, CaC-usable, TP Medal Shop limited-time route, alternate teleport-above/downward-punch input, and knockback pursuit.
+- [x] Preserved the unresolved TP Medal price/rotation conflict and did not promote damage, frame, stamina, or matchup measurements.
+- [x] Added `docs/data/skill-savage-strike-p1-provenance-enrichment-2026-09-24.json` and registered it in the cross-domain index.
+- [x] Advanced the P1 coverage-gap artifact so Savage Strike and Quick Sleep are completed and Pressure Sign is the next bounded target.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** audit Pressure Sign against its existing direct evidence, making only evidence-backed canonical/research changes, then validate canonical/index parity and registration.
