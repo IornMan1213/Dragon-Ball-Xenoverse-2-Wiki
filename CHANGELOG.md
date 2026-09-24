@@ -2749,3 +2749,13 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Synchronized current dated skill provenance audit validation metadata to the live **465 canonical / 465 index** baseline while preserving historical audit-time narrative counts.
 - No canonical skill facts, acquisition relationships, or mechanics were changed by this metadata-only pass.
 - CI/runtime unavailable.
+
+
+
+### 2026-09-23 — Expert Mission skill provenance refresh
+
+- Refreshed ten previously under-sourced Expert Mission skill records: Murder Grenade, Death Wave, Death Meteor, Dead End Bullet, Assault Rain, Hellzone Grenade, Super Electric Strike, Shocking Death Ball, Blue Hurricane, and Spirit Sword.
+- Added independent Expert Mission guide corroboration for nine records and a separate GameFAQs corroborator for Spirit Sword; nine records now explicitly document Basic Reward placement from the guide.
+- Preserved the Spirit Sword source conflict boundary: the guide's EM17 text says "Spirit Bomb", so it was not used to establish Spirit Sword's reward tier.
+- Promoted all ten records to `verified_current_scope` / `enriched` and added `docs/data/skill-expert-mission-provenance-audit-2026-09-23.json` to the cross-domain index.
+- No drop rates, first-clear guarantees, additional gates, or new canonical relationships were inferred. CI/runtime remains unavailable.
