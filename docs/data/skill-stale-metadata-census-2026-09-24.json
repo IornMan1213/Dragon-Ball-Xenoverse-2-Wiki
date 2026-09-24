@@ -6,28 +6,28 @@
   "live_counts": {
     "canonical_skill_records": 465,
     "index_skill_records": 465,
-    "current_last_verified_records": 48,
-    "stale_last_verified_records": 417,
+    "current_last_verified_records": 60,
+    "stale_last_verified_records": 405,
     "duplicate_ids": 0
   },
   "current_date": "2026-09-24",
   "next_stale_batch": [
-    "skill-break-cannon",
-    "skill-breaker-energy-wave",
-    "skill-brutal-buster",
-    "skill-burning-attack",
-    "skill-burning-blast",
-    "skill-burning-shot",
-    "skill-burning-slash",
-    "skill-burning-swan",
-    "skill-burst-blitz",
-    "skill-burst-charge",
-    "skill-burst-kamehameha",
-    "skill-burst-reflection"
+    "skill-burst-rush",
+    "skill-burst-stinger",
+    "skill-buu-buu-ball",
+    "skill-candy-beam",
+    "skill-candy-beam-super",
+    "skill-celestial-wave",
+    "skill-chain-destructo-disc-barrage",
+    "skill-change-the-future",
+    "skill-chaos-shot",
+    "skill-chaos-wall",
+    "skill-chaotic-time-impact",
+    "skill-charge"
   ],
   "notes": [
     "Stale means last_verified != 2026-09-24; stale metadata is a priority signal, not evidence that a record is incorrect.",
-    "This census follows the 12-record Blaster Meteor through Brave Sword Slash refresh.",
+    "This census follows the 12-record Break Cannon through Burst Reflection refresh.",
     "No canonical skill identities or acquisition relationships were changed by the census."
   ]
 }
