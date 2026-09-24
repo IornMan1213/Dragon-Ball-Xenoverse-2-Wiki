@@ -1,3 +1,12 @@
+### 2026-09-24 cycle update — raid/event Super Soul presentation coverage repair
+
+- Reconciled `docs/Super-Souls-Database.md` against the canonical raid/event-associated Super Soul producer.
+- Added the **25 previously missing records** to the presentation index, bringing coverage to **37/37 raid/event records surfaced**.
+- Updated `docs/data/super-soul-raid-event-presentation-consumer-audit-2026-09-24.json` to **pass: 37 surfaced / 0 missing / 0 duplicate canonical IDs / all raid IDs resolve**.
+- Preserved every producer verification state and acquisition-family wording; no current raid availability, recurrence schedule, drop probability, or reward guarantee was inferred.
+- Updated `docs/TODO-EXHAUSTIVE.md` with the completed coverage repair and next priority.
+- **Exact next priority:** continue deterministic event/raid/Festival/Chapter 4 consumer scanning for remaining one-way navigation and stale scalar issues, then resume the highest-impact source-backed preset/loadout tranche.
+
 ### 2026-09-24 cycle update — bounded current presentation consumer scan
 
 - Added `docs/data/current-presentation-consumer-scan-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
