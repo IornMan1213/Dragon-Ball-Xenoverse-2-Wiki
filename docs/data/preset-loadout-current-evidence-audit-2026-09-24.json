@@ -82,5 +82,15 @@
         "result": "insufficient_for_numeric_promotion"
       }
     ]
+  },
+  "validation": {
+    "preset_loadout_validator": "scripts/validate_preset_loadout_evidence.py",
+    "live_record_count": 51,
+    "verified_loadout_count": 26,
+    "invalid_verified_records": [],
+    "expected_numeric_unresolved_count": 20,
+    "present_numeric_unresolved_count": 20,
+    "duplicate_record_ids": 0,
+    "status": "pass"
   }
 }
