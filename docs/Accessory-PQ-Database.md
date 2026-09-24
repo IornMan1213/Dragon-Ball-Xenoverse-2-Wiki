@@ -73,13 +73,13 @@ The machine-readable layer contains **45 accessory/PQ research records**. The se
 
 ## Conton City Vote and Hero of Justice coverage
 
-PQ152, **Dyspo's Wanted Man**, lists Android 17 (DB Super)'s Wig; PQ154, **Dabura the Loyal? Servant**, lists King Vegeta (DB Super) Wig; PQ155, **I Need a Hero... Pose!**, lists Gamma 2's Helmet; and PQ156, **Hunting Down Dr. Hedo**, lists Gamma 1's Helmet. The DLC documentation independently associates these items with their respective DLC packs. citeturn0search1turn0search2
+PQ152, **Dyspo's Wanted Man**, lists Android 17 (DB Super)'s Wig; PQ154, **Dabura the Loyal? Servant**, lists King Vegeta (DB Super) Wig; PQ155, **I Need a Hero... Pose!**, lists Gamma 2's Helmet; and PQ156, **Hunting Down Dr. Hedo**, lists Gamma 1's Helmet. The DLC documentation independently associates these items with their respective DLC packs. 
 
 The Hero of Justice PQ layer also identifies later accessories including Red Ribbon Army Helmet, Gohan (Beast) Wig, and Videl (DB Super) Wig. These remain tied to individual quests rather than being flattened into a generic DLC acquisition label. 
 
 ## DAIMA and later DLC coverage
 
-The later PQ guide provides accessory/equipment research leads for PQ179–185, including SS4 Goku (DAIMA) Wig & Tail, SS3 Vegeta (DAIMA) Wig, Glorio Wig, Panzy Wig, Golden Frieza Head, Broly Wig (Black Hair, Normal), Dragon Ball Balloon, and Goku (Ultra Supervillain Quelled) Wig. The Dragon Ball Balloon has stronger evidence: current Madreag quest data records it as a **50% Ultimate Finish reward**, while the other late-DLC records remain indexed until their exact reward mechanics are reconciled. citeturn0search8turn0search9
+The later PQ guide provides accessory/equipment research leads for PQ179–185, including SS4 Goku (DAIMA) Wig & Tail, SS3 Vegeta (DAIMA) Wig, Glorio Wig, Panzy Wig, Golden Frieza Head, Broly Wig (Black Hair, Normal), Dragon Ball Balloon, and Goku (Ultra Supervillain Quelled) Wig. The Dragon Ball Balloon has stronger evidence: current Madreag quest data records it as a **50% Ultimate Finish reward**, while the other late-DLC records remain indexed until their exact reward mechanics are reconciled. 
 
 This is intentional: a research lead is useful, but it is not the same thing as a verified acquisition condition.
 
