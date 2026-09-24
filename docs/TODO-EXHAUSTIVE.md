@@ -6952,3 +6952,16 @@
 - [x] Preserved unsupported probability, stamina, frame, and universal damage data.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Next:** select the next unresolved P1 provenance target.
+
+### 2026-09-24 cycle completion — Boiling Ball + Tricky Strike skill-gap evidence enrichment
+- [x] Re-read the live continuation handoff, efficiency addendum, and exhaustive TODO before selecting the batch.
+- [x] Completed the exact next Great Ape/legacy unresolved candidate set: **Boiling Ball** (skill ID 541) and **Tricky Strike** (skill ID 542).
+- [x] Added dedicated audits: `docs/data/skill-research-gaps-boiling-ball-evidence-audit-2026-09-24.json` and `docs/data/skill-research-gaps-tricky-strike-evidence-audit-2026-09-24.json`.
+- [x] Strengthened both records with Xenoverse 2-specific identity, **Super Skill** classification, Final Form Demigra ownership, and CaC-unavailable evidence; Tricky Strike's three documented variants and Boiling Ball's dark-energy-sphere behavior are retained as research evidence.
+- [x] Updated `docs/data/skill-research-gaps.json` and registered both audits in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved unresolved canonical fields: **subcategory** and **ki_cost** for both records. No numeric cost, CaC acquisition route, or canonical promotion was inferred.
+- [x] Validation: research-gap JSON parses; audit files were created; central registry references both new files; canonical skill baseline remains **469 / 469** and no canonical catalog was manually reconstructed.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [x] Commits: audit files `9a0a37e477f7654cf95711cabf1c72aeb760aa2b`, `20fad844d6e3ab28abf14e656dd7f7dc28a3dfb7`; gap ledger `d2c11a533eec8f20e629e7093e8c91271ce45fbc`; registry `b3adb5e2acbf1b495ccfce5fc785b39d471e42fd`; changelog `a56f317b2d2fb6cd2387f33de87c4da2f1742a25`.
+- [ ] **Exact next:** continue the remaining unresolved thin-domain candidate set after Boiling Ball/Tricky Strike, prioritizing the strongest direct Xenoverse 2 evidence. Preserve the 469/469 canonical boundary until the supported builder/runtime is available.
+
