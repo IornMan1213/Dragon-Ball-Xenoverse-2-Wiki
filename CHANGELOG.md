@@ -1,3 +1,9 @@
+
+## 2026-09-24 — Future Saga Chapter 4 presentation consumer audit
+
+- Added `docs/data/future-saga-chapter-4-presentation-consumer-audit-2026-09-24.json` and registered it in the cross-domain audit index.
+- Verified the two Chapter 4 presentation pages match the indexed official content counts and preserve unresolved item-level details.
+- No canonical relationship or gameplay data changed.
 ## 2026-09-24 — Future Saga Chapter 4 character identity presentation repair
 
 - Added the publisher-confirmed Chapter 4 playable identities **Supreme Kai of Time (Ultra Supervillain)** and **Goku (Ultra Supervillain Quelled)** to the canonical character layer.
