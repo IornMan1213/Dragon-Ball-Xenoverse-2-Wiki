@@ -6388,3 +6388,13 @@
 - [x] Promotion count remains 0; no numeric-to-named mapping was inferred from ordering or visual proximity.
 - [ ] Exact next batch: search for a direct source that exposes both the numeric preset label and its complete skill slots; if none exists, continue other exhaustive repository coverage rather than weakening the evidence boundary.
 
+
+### 2026-09-24 cycle completion — preset/loadout evidence boundary validator
+- [x] Added `scripts/validate_preset_loadout_evidence.py` to enforce the evidence gate for numeric preset/loadout promotion.
+- [x] Validator requires every verified loadout to contain a loadout object, explicit loadout_source, and non-empty sources; current live result: **26/26 pass**.
+- [x] Validator preserves the unresolved numeric boundary for **20** expected records: Goku Presets 2–12 and 14–18, Vegeta Presets 10–11, Captain Ginyu Presets 5–6.
+- [x] Live census: **51** preset records, **26** verified loadouts, **25** unresolved; **0 duplicate IDs**.
+- [x] Updated `docs/data/preset-loadout-current-evidence-audit-2026-09-24.json` with validator/parity results.
+- [x] No unsupported numeric-to-loadout promotion was made.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next batch:** continue deterministic current-facing reference/landing consumer scan for stale counts, orphan targets, and canonical-ID drift; return to preset research only with direct numeric-label + complete skill-slot evidence.
