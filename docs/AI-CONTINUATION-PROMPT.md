@@ -65,3 +65,14 @@
 - [x] Navigation-only validation passed; no relationship, acquisition, drop-rate, or gameplay facts were introduced.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** continue scanning remaining local reference/database consumers for missing canonical explorer bridges and stale current-facing scalars; preserve historical snapshots, then return to evidence-gated numeric preset/loadout research.
+
+### 2026-09-24 cycle completion — remaining system/reference consumer scan
+- [x] Audited remaining high-connectivity system/reference surfaces: Skills Master/Complete Database, Characters, Mentors, Awoken Skills, DLC Overview, Super Souls, QQ Bangs, QQ Bang Database, and Expert Missions.
+- [x] Added and registered `docs/data/system-reference-consumer-scan-2026-09-24.json`.
+- [x] Confirmed dedicated canonical explorer destinations are used where they exist; no stale explorer destination or unsupported replacement target was found in this bounded scan.
+- [x] Preserved source-category snapshot semantics in Skills Master Database and separate official mentor-count context. No current canonical total was inferred from those snapshots.
+- [x] Preserved the no-explorer boundary for Super Soul, QQ Bang, and Expert Mission landing/reference surfaces.
+- [x] No relationship, acquisition, probability, mechanics, or completeness facts were added.
+- [x] Commits: `3130d721e5ff6ea2e34f73d7d4fadec27ee3e80f` (audit), `78f37d623e56e75e83a3058783f38a9b1ce69f86` (registry), `6fd68438871d94447255eb7addeac5b3f2ed2ec0` (TODO).
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next batch:** pursue direct numeric preset + complete configuration evidence for Goku Presets 2–12 and 14–18, Vegeta 10–11, and Captain Ginyu 5–6. Only promote a loadout when one source directly binds the numeric preset label to the complete configuration. If no such source is found, record the evidence boundary and move to the next thin structured domain rather than infer by order or proximity.
