@@ -6244,3 +6244,11 @@
 - [x] Added `docs/data/character-preset-loadout-promotion-gates-2026-09-24.json` to preserve the evidence gate and avoid row-order inference.
 - [x] Kept all affected records unresolved rather than promoting unsupported skill assignments.
 - [ ] **Next:** locate explicit numeric-preset + complete-loadout evidence for the remaining unresolved families.
+
+
+### 2026-09-24 cycle completion — version-aware preset evidence audit
+- [x] Re-searched Goku Presets 2–5 for complete loadout evidence.
+- [x] Strengthened numeric identity evidence using the maintained Burcol preset-index source.
+- [x] Rejected older-Xenoverse and wrong-form/SSGSS evidence from contaminating Xenoverse 2 base-Goku records.
+- [x] Updated `docs/data/character-preset-loadout-promotion-gates-2026-09-24.json` with the version-aware evidence boundary.
+- [ ] **Next:** find version-correct numeric-preset + complete-loadout evidence for unresolved records.
