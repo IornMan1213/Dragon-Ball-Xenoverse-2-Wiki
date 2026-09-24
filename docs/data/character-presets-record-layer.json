@@ -535,12 +535,29 @@
       "character_id": "goku-gt",
       "name": "Goku (GT) Preset 2",
       "preset_number": 2,
-      "verification_status": "indexed",
-      "loadout_status": "unresolved",
+      "verification_status": "verified",
+      "loadout_status": "verified",
       "acquisition_status": "community_observed",
       "sources": [
+        "https://dbxv2.fandom.com/wiki/Goku_%28GT%29",
         "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+      ],
+      "loadout": {
+        "super_attacks": [
+          "Power Pole Combo",
+          "Kamehameha",
+          "Instant Transmission",
+          "Charged Ki Wave"
+        ],
+        "ultimate_attacks": [
+          "Super Spirit Bomb",
+          "Super Kamehameha"
+        ],
+        "awoken_skill": "Super Saiyan",
+        "evasive_skill": "Spirit Explosion",
+        "loadout_evidence_scope": "The Goku (GT) source table explicitly labels this configuration Uniform 2 and provides all eight skill slots; the maintained numeric-preset evidence independently identifies repository Goku (GT) Preset 2. The shared explicit number and complete named configuration support exact promotion without relying on row order."
+      },
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Goku_%28GT%29"
     },
     {
       "id": "vegetto-preset-2",
