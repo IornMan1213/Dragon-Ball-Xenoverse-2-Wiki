@@ -6841,3 +6841,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime remains unavailable; no CI success claimed.
 - Commits: 7e277e8a024534c052115b3bb38ff625ddc61177, 48d744c3ca3261b3bea43bc50aec3986b5bd327a, 333d307893dc5e8344db00141dcb23db68332a42, a777b2f69384b8147eac709c958e01b2d1eceeec, e4befb948c2b400a23fe23f6cbc62b2818067fcb.
 - **Exact next batch:** continue the 95 endpoint-linked non-PQ/non-mentor provenance queue with the thinnest-source records first; recompute source counts and endpoint parity before each bounded 4–12 record batch. Do not reopen already source-backed Ultra Instinct or the reconciled Expert Mission endpoint layer unless new evidence appears.
+
+
+### 2026-09-24 cycle update — Blades of Judgment / Blaster Ball provenance refresh
+
+- Completed the next bounded P1 provenance batch: **2 skill records** — Blades of Judgment and Blaster Ball.
+- Live census before editing: **465 canonical / 465 index / 429 stale / 0 duplicate IDs**.
+- Repository-first evidence reused the maintained multi-source records and existing acquisition audits: Blades of Judgment is tied to PQ112 and existing 3-source provenance; Blaster Ball is tied to PQ125 and existing 4-source provenance. Existing acquisition routes, reward semantics, mechanics, costs, restrictions, and DLC semantics were preserved.
+- Refreshed canonical `last_verified` to **2026-09-24** for both targets; no new acquisition edge or unsupported mechanics was inferred. The canonical/index contract remains ID-parity synchronized; the index intentionally does not carry `last_verified`.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-24-blades-through-blaster-ball.json`.
+- Refreshed `docs/data/skill-stale-metadata-census-2026-09-24.json` from the live canonical layer.
+- Validation: **465/465 canonical/index IDs**, **0 duplicate IDs**, **36 current / 429 stale** after editing; affected records retain their prior semantic fields.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next stale batch: **Blaster Meteor; Blaster Shell; Blaster Stream; Blazing Attack; Bloody Counter; Blue Hurricane; Bluff Kamehameha; Body Change; Bomber DX; Brave Heat; Brave Sword Attack; Brave Sword Slash**.
