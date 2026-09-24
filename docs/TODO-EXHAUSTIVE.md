@@ -6407,3 +6407,13 @@
 - [x] Extended docs/data/current-presentation-consumer-scan-2026-09-24.json with the explorer target inventory.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** inspect remaining system/reference consumers for canonical-ID drift and one-way navigation, prioritizing any surface not covered by the current presentation scan.
+
+
+### 2026-09-24 cycle completion — homepage canonical explorer target synchronization
+- [x] Re-audited `docs/index.md` against the live canonical explorer inventory.
+- [x] Repaired legacy homepage destinations for Characters, Super Souls, and Equipment so they open the canonical searchable explorers where one exists.
+- [x] Preserved existing canonical counts and semantics; no data/relationship facts were altered.
+- [x] Added `docs/data/homepage-canonical-explorer-navigation-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: targeted obsolete landing links = 0; canonical explorer targets present; audit status = pass.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next batch:** deterministic scan of remaining system/reference landing consumers for stale explorer targets and scalar/count drift, especially DLC, Super Soul/Equipment reference pages, and system landing pages not covered by the current audit registry; then return to direct-evidence preset/loadout expansion.
