@@ -386,7 +386,8 @@
     "accessory_shop_presentation_consumer_2026_09_24": "docs/data/accessory-shop-presentation-consumer-audit-2026-09-24.json",
     "skill_savage_strike_provenance_2026_09_24": "docs/data/savage-strike-provenance-audit-2026-09-24.json",
     "skill_provenance_present_through_purification_2026_09_24": "docs/data/skill-provenance-audit-2026-09-24-present-through-purification.json",
-    "skill_provenance_quick_sleep_through_saiyan_spirit_2026_09_24": "docs/data/skill-provenance-audit-2026-09-24-quick-sleep-through-saiyan-spirit.json"
+    "skill_provenance_quick_sleep_through_saiyan_spirit_2026_09_24": "docs/data/skill-provenance-audit-2026-09-24-quick-sleep-through-saiyan-spirit.json",
+    "skill_time_skip_tremor_pulse_research_enrichment_2026_09_24": "docs/data/skill-time-skip-tremor-pulse-research-enrichment-2026-09-24.json"
   },
   "registered_audits": {
     "super_soul_thin_census_2026_09_22": "docs/data/super-soul-thin-census-2026-09-22.json",
@@ -558,5 +559,6 @@
   "qq_bang_observed_results_refresh_2026_09_24": "docs/data/qq-bang-provenance-refresh-2026-09-24.json",
   "live_skill_baseline_reconciliation_2026_09_24": "docs/data/live-skill-baseline-reconciliation-2026-09-24.json",
   "current_skill_projection_stale_scalar_scan_2026_09_24": "docs/data/current-skill-projection-stale-scalar-scan-2026-09-24.json",
-  "skill_p1_provenance_coverage_gap_2026_09_24": "docs/data/skill-p1-provenance-coverage-gap-2026-09-24.json"
+  "skill_p1_provenance_coverage_gap_2026_09_24": "docs/data/skill-p1-provenance-coverage-gap-2026-09-24.json",
+  "skill_research_time_skip_tremor_pulse_2026_09_24": "docs/data/skill-research-batches/skill-batch-225.json"
 }
