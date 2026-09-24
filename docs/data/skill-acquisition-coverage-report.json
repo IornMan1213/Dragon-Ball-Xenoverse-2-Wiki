@@ -31,7 +31,7 @@
     "2026-09-24 consumer normalization: promoted the live 465-record current projection to the report top level; the prior 305/234/71 projection and its detailed category ID lists are preserved under legacy_projection_2026_09_23 rather than presented as current.",
     "Endpoint-layer counts are edge/consumer counts and are not a disjoint partition of the 226 unique non-PQ skills; use current_projection_2026_09_23 for the deterministic unique-skill arithmetic.",
     "2026-09-24 endpoint recovery correction: four canonical skills promoted by the Hyper/Ice coverage recovery were absent from the 465-record endpoint projection. Hyper Drain and Hyper Movement are now represented in skill-shop-endpoints.json; Ice Cannon and Ice Claw are represented in special-acquisition-endpoints.json.",
-    "2026-09-24 live reverse-projection reconciliation: current canonical skill layer is 469 records, with 239 PQ-linked and 230 without PQ; mentor endpoint layer is 132 edge rows / 131 unique skill targets, and the non-PQ/non-mentor endpoint union is 99 unique skill targets.",
+    "2026-09-24 live reverse-projection reconciliation: current canonical skill layer is 469 records, with 239 PQ-linked and 230 without PQ; mentor endpoint layer is 131 resolved edge rows / 130 unique resolved skill targets, and the non-PQ/non-mentor endpoint union is 99 unique skill targets.",
     "2026-09-24 synchronization: mentor projection uses 131 resolved mentor→skill edges / 130 unique targets; Hit → Time Skip/Tremor Pulse remains one explicit unresolved lesson and is not counted as a resolved endpoint."
   ],
   "total_classified": 230,
@@ -224,5 +224,7 @@
       "starting_move": 2
     },
     "arithmetic_note": "469 - 239 = 230; endpoint-layer counts overlap and are not a disjoint partition."
-  }
+  },
+  "mentor_edge_rows": 131,
+  "mentor_unique_skill_targets": 130
 }
