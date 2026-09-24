@@ -12,12 +12,22 @@
   },
   "current_date": "2026-09-24",
   "next_stale_batch": [
-    "skill-blades-of-judgment",
-    "skill-blaster-ball"
+    "skill-blaster-meteor",
+    "skill-blaster-shell",
+    "skill-blaster-stream",
+    "skill-blazing-attack",
+    "skill-bloody-counter",
+    "skill-blue-hurricane",
+    "skill-bluff-kamehameha",
+    "skill-body-change",
+    "skill-bomber-dx",
+    "skill-brave-heat",
+    "skill-brave-sword-attack",
+    "skill-brave-sword-slash"
   ],
   "notes": [
     "Stale means last_verified != 2026-09-24; stale metadata is a priority signal, not evidence that a record is incorrect.",
-    "This census follows the 12-record Atomic Blast through Blaster Cannon refresh.",
+    "This census follows the bounded Blades of Judgment / Blaster Ball provenance refresh.",
     "No canonical skill identities or acquisition relationships were changed by the census."
   ]
 }
