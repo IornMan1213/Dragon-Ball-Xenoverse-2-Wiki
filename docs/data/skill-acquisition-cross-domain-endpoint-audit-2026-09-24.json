@@ -10,7 +10,7 @@
   "endpoint_union_skill_count": 469,
   "uncovered_skill_count": 0,
   "endpoint_layers": {
-    "mentor": 132,
+    "mentor": 131,
     "expert_mission": 18,
     "time_rift_story_tournament": 13,
     "shop": 33,
@@ -25,8 +25,14 @@
     "index_ids_resolve": true,
     "full_endpoint_union_complete": true,
     "uncovered_skill_ids": [],
-    "status": "pass"
+    "status": "pass",
+    "mentor_edge_rows": 131,
+    "mentor_unique_skill_targets": 130
   },
   "historical_boundary": "The 2026-09-23 cross-domain audit retained its 465-skill census as historical evidence. This current audit supersedes that consumer census for current counts without deleting the historical record.",
-  "evidence_boundary": "Endpoint coverage establishes deterministic navigable producer/exposure relationships already represented by repository evidence. It does not infer alternate acquisition routes, probabilities, prerequisites, or version availability."
+  "evidence_boundary": "Endpoint coverage establishes deterministic navigable producer/exposure relationships already represented by repository evidence. It does not infer alternate acquisition routes, probabilities, prerequisites, or version availability.",
+  "changes": [
+    "Corrected the stale current mentor endpoint-layer count from 132 to 131 resolved mentor→skill edges after the Hit Time Skip/Tremor Pulse unresolved-boundary reconciliation.",
+    "Preserved all other endpoint-layer counts and did not infer new acquisition routes."
+  ]
 }
