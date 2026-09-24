@@ -6331,3 +6331,13 @@
 - [x] Preserved PQ reverse navigation and all acquisition/data semantics.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** continue deterministic scanning of remaining non-PQ entity/reference explorers and landing pages for generic Search self-links, stale explorer targets, one-way cross-database navigation, stale counts, and canonical-ID drift; then resume evidence-gated preset/loadout research.
+
+
+### 2026-09-24 cycle completion — remaining canonical cross-database navigation repair
+- [x] Audited `Parallel-Quests-All.html`, `Awoken-All.html`, and `Partner-Customization.md` for deterministic cross-database navigation.
+- [x] Repaired **24** links: PQ→Equipment (1), PQ→DLC (1), PQ→Characters (1), Awoken→Awoken Explorer (1), Partner Customization→Characters (20).
+- [x] Added and registered `docs/data/remaining-canonical-cross-navigation-audit-2026-09-24.json`.
+- [x] Validation: 24/24 targeted links repaired; no data/relationship semantics changed; audit pass.
+- [x] Evidence boundary preserved: navigation-only changes.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next batch:** deterministic non-PQ landing/reference scan for remaining generic Search links, stale explorer targets, stale counts/list assumptions, orphan navigation, and canonical-ID drift; then evidence-gated preset/loadout expansion.
