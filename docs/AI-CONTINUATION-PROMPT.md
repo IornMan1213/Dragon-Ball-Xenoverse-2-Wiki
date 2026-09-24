@@ -1,3 +1,12 @@
+### 2026-09-24 cycle update — completed skill verification-date queue
+
+- Re-read the live skill provenance state rather than trusting the older handoff batch.
+- Confirmed the previously planned **Power Pole Pro → Purification** provenance tranche had already been completed in `docs/data/skill-provenance-audit-2026-09-24-present-through-purification.json`.
+- Live canonical/index skill census is now **469 / 469**, with **469 current `last_verified` records, 0 stale records, 0 duplicate IDs**.
+- The completed 12-record tranche refreshed Present For You, Pressure Sign, Pretty Cannon, Pretty Charge, Prominence Flash, Psychic Move, Psycho Barrier, Psycho Escape, Punisher Guard, Punisher Shield, Pure Progress, and Purification without changing unsupported acquisition probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.
+- The earlier Power Pole Pro → Psychic Move audit artifacts are preserved as provenance history; the current 2026-09-24 census supersedes their stale-queue state.
+- **Exact next priority:** move off the exhausted skill metadata queue and resume the P1 exhaustive-coverage audit of thin systems/pages. Prioritize the next under-documented structured domain identified by the live TODO/handoff, while preserving canonical cross-links and provenance boundaries. Do not invent completeness from page existence.
+
 ### 2026-09-24 cycle update — current accessory presentation consumer reconciliation
 
 - Audited the current non-PQ equipment/accessory presentation surface `docs/Equipment-All.html` against the live canonical/evidence layers after the final raid accessory identity reconciliation.
