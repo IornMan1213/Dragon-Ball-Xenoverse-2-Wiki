@@ -15,8 +15,8 @@
     "canonical_accessory_reconciliation_records": 116,
     "pq_equipment_forward_edges": 124,
     "pq_equipment_unique_targets": 122,
-    "raid_identity_records": 9,
-    "raid_identity_resolved": 9,
+    "raid_identity_records": 11,
+    "raid_identity_resolved": 11,
     "raid_gift_bridge_records": 18,
     "raid_gift_bridge_resolved": 18,
     "raid_gift_bridge_unresolved": 0
