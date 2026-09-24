@@ -57,11 +57,12 @@
       "identity": "cast-exclusive Demigra skill",
       "usable_by_cac": false,
       "character_source": "Demon God Demigra (Final Form)",
-      "taxonomy_status": "unresolved",
-      "reason": "Sources conflict across game versions; Xenoverse 2 identity is clear, but a dedicated current XV2 stat page was not accessible.",
+      "taxonomy_status": "class_resolved",
+      "reason": "Current Xenoverse 2 evidence resolves Boiling Burg as an Ultimate Skill: the long-form skill ID list places ID 5540 (short ID 540) under Ultimate skills and identifies Final Form Demigra as the user. Exact subtype and canonical Ki cost remain unverified.",
       "sources": [
         "https://videogamemods.com/the-citadel/dragon-ball-xenoverse-2/mods/demon-god-demigra-2",
-        "https://videogaming.fandom.com/wiki/Boiling_Burg"
+        "https://videogaming.fandom.com/wiki/Boiling_Burg",
+        "https://www.scribd.com/document/723438373/Super-skills-dragon-ball"
       ]
     },
     {
