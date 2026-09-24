@@ -17,5 +17,8 @@
     "consumer_rows_after_repair": 37
   },
   "boundary": "The audit identifies presentation coverage only. It does not infer raid recurrence, current availability, drop probability, reward guarantees, or new PQ relationships.",
-  "status": "pass"
+  "status": "pass",
+  "notes": [
+    "Revalidated after the 2026-09-24 presentation index repair; all 37 canonical raid/event-associated records are now surfaced."
+  ]
 }
