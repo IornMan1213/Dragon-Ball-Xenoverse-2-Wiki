@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
   "generated_by": "AI continuation live-repository audit",
-  "generated_at": "2026-09-23",
+  "generated_at": "2026-09-24",
   "scope": "Deterministic mentor↔skill producer/consumer navigation",
   "source_of_truth": "skills.json source_mentor + mentors.json canonical mentor IDs",
   "canonical_mentor_records": 33,
-  "canonical_skill_records": 465,
+  "canonical_skill_records": 469,
   "mentor_skill_edge_count": 137,
   "skills_with_mentor_source": 134,
   "skills_with_multiple_mentors": [
@@ -38,7 +38,7 @@
   "duplicate_edges": [],
   "orphaned_mentors": [],
   "validation": "resolved",
-  "semantics": "Mentor skills are derived from explicit canonical skill source_mentor fields; multiple mentor edges are preserved.",
+  "semantics": "Mentor skills are derived from explicit canonical skill source_mentor fields; multiple mentor edges are preserved. The four recovered 2026-09-24 skills have no source_mentor field, so mentor edge counts remain unchanged.",
   "edges": [
     {
       "mentor_id": "mentor-cell",
