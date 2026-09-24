@@ -6,58 +6,58 @@
   "live_counts": {
     "canonical_skill_records": 469,
     "index_skill_records": 469,
-    "current_last_verified_records": 275,
-    "stale_last_verified_records": 194,
+    "current_last_verified_records": 287,
+    "stale_last_verified_records": 182,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
     {
-      "id": "skill-justice-blade",
-      "name": "Justice Blade"
+      "id": "skill-ki-explosion",
+      "name": "Ki Explosion"
     },
     {
-      "id": "skill-justice-combination",
-      "name": "Justice Combination"
+      "id": "skill-kill-driver",
+      "name": "Kill Driver"
     },
     {
-      "id": "skill-justice-drive",
-      "name": "Justice Drive"
+      "id": "skill-last-emperor",
+      "name": "Last Emperor"
     },
     {
-      "id": "skill-justice-kick",
-      "name": "Justice Kick"
+      "id": "skill-light-grenade",
+      "name": "Light Grenade"
     },
     {
-      "id": "skill-justice-pose",
-      "name": "Justice Pose"
+      "id": "skill-lightning-impact",
+      "name": "Lightning Impact"
     },
     {
-      "id": "skill-justice-rush",
-      "name": "Justice Rush"
+      "id": "skill-lightning-of-absolution",
+      "name": "Lightning of Absolution"
     },
     {
-      "id": "skill-kai-kai",
-      "name": "Kai Kai"
+      "id": "skill-lovely-cyclone",
+      "name": "Lovely Cyclone"
     },
     {
-      "id": "skill-kaioken",
-      "name": "Kaioken"
+      "id": "skill-mach-dash",
+      "name": "Mach Dash"
     },
     {
-      "id": "skill-kaioken-kamehameha",
-      "name": "Kaioken Kamehameha"
+      "id": "skill-mach-punch",
+      "name": "Mach Punch"
     },
     {
-      "id": "skill-kairos-cannon",
-      "name": "Kairos Cannon"
+      "id": "skill-maiden-blast",
+      "name": "Maiden Blast"
     },
     {
-      "id": "skill-kamehameha",
-      "name": "Kamehameha"
+      "id": "skill-maiden-burst",
+      "name": "Maiden Burst"
     },
     {
-      "id": "skill-ki-blast-thrust",
-      "name": "Ki Blast Thrust"
+      "id": "skill-majin-kamehameha",
+      "name": "Majin Kamehameha"
     }
   ],
   "notes": [
@@ -68,6 +68,9 @@
     "2026-09-24 coverage recovery promoted four previously researched but missing canonical records: Hyper Drain, Hyper Movement, Ice Cannon, and Ice Claw.",
     "Hollow Rush, Ice Rain, and Ice Sheet remain unresolved discovery targets because no sufficiently direct repository research record was located in the live repository search.",
     "2026-09-24 provenance refresh completed for Heroic Counter through Jumping Energy Wave; four previously recovered Hyper/Ice records remain current and Hollow Rush/Ice Rain/Ice Sheet remain unresolved discovery targets.",
-    "Index verification-date parity was rechecked after this batch; 0 canonical↔index verification-date mismatches remain."
+    "Index verification-date parity was rechecked after this batch; 0 canonical↔index verification-date mismatches remain.",
+    "2026-09-24 provenance refresh completed for Justice Blade through Ki Blast Thrust; canonical/index verification-date parity remains aligned.",
+    "Current live counts after this batch are 469 canonical / 469 index / 287 current / 182 stale / 0 duplicate IDs.",
+    "Next alphabetical stale batch is Ki Explosion through Majin Kamehameha."
   ]
 }
