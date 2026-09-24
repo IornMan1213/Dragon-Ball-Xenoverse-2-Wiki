@@ -3063,3 +3063,11 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - [x] Preserved all guardrails: no cross-game cost inference, no enemy-only acquisition routes, and no manual insertion into the oversized canonical skill catalogs.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next:** continue the remaining unresolved skill-gap queue after this five-record pass, prioritizing fields that can be directly resolved from Xenoverse 2-specific evidence rather than repeating identity verification.
+
+
+## 2026-09-24 — Neo Wolf Fang Fist P1 provenance enrichment
+
+- Added `docs/data/skill-neo-wolf-fang-fist-p1-provenance-enrichment-2026-09-24.json`.
+- Current Xenoverse 2-specific documentation supports **Strike Super**, **PQ86**, and variable **100–700 Ki** usage for Neo Wolf Fang Fist.
+- Preserved unresolved exact drop probability, frame data, and universal damage measurements; no Ultimate Finish-only gate was inferred. citeturn3search0turn3search1
+- CI/runtime remains unavailable; no CI success claimed.
