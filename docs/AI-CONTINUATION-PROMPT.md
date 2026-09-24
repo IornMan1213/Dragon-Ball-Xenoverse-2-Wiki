@@ -7654,3 +7654,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Commit:** `fa03ad84146ff19762f811225ba251a92cfb37b3`.
 - **Exact next priority:** continue deterministic non-PQ equipment/accessory presentation-consumer scanning for stale counts, one-way navigation, and canonical-ID drift, then move into the P1 provenance/data queue where the handoff specifies.
+
+
+### 2026-09-24 cycle completion — non-PQ equipment/accessory presentation consumer audit
+- [x] Audited live `docs/Equipment-All.html` against the canonical equipment/accessory record layer and canonical PQ relationship layer.
+- [x] Confirmed the presentation consumer loads `equipment-accessories-record-layer.json` and `pq-reward-relationships.json`, derives PQ links only from `pq_rewards_equipment`, and provides local Search navigation for record names and DLC provenance.
+- [x] Current relationship target census: **124 canonical equipment edges / 122 unique targets / 0 unresolved targets / 0 duplicate pairs**; canonical total remains **853 edges**.
+- [x] Added `docs/data/equipment-accessory-presentation-consumer-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] No canonical identity, acquisition route, or relationship was inferred or created.
+- [ ] CI/runtime unavailable; browser runtime behavior remains an environment gate.
+- **Commits:** `085da6759418d7279b011d3d8b35903d01517898`, `bd68e333e02cfb5a17b830130ea93150397d8951`.
+- **Exact next priority:** continue deterministic non-PQ equipment/accessory navigation scanning for additional presentation consumers and canonical-ID drift, then proceed to the P1 provenance/data queue.
