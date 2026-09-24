@@ -7112,3 +7112,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Live census: **465 canonical / 465 index / 259 current / 206 stale / 0 duplicate IDs**.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Next coverage/discovery targets:** **Hollow Rush; Hyper Drain; Hyper Movement; Ice Cannon; Ice Claw; Ice Rain; Ice Sheet**. After those are resolved, resume the alphabetical stale queue.
+
+
+### 2026-09-24 cycle update — researched Hyper/Ice coverage recovery
+- [x] Recovered and promoted **4 previously researched but missing canonical records**: **Hyper Drain; Hyper Movement; Ice Cannon; Ice Claw**.
+- [x] Sources were existing repository research batches, not invented data: Batch 38 (Hyper Drain), Batch 225 (Hyper Movement), Batch 307 (Ice Cannon), and Batch 286 (Ice Claw).
+- [x] Synchronized canonical/index layers with matching IDs and preserved unresolved fields rather than inferring unsupported values.
+- [x] Added bounded recovery audit: `docs/data/skill-coverage-recovery-2026-09-24-hyper-and-ice.json`.
+- [x] Live validation: **469 canonical / 469 index / 263 current / 206 stale / 0 duplicate IDs**; canonical↔index target parity clean.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Unresolved discovery targets:** **Hollow Rush; Ice Rain; Ice Sheet**. No sufficiently direct repository research record was located for these names, so they were not fabricated.
+- **Exact next stale batch:** **Heroic Counter; Ill Bomber; Impact Flare; Impulse Slash; Indomitable; Innocence Breath; Innocence Bullet; Innocence Cannon; Instant Charge; Instant Rise; Instant Transmission; Jumping Energy Wave**.
