@@ -8068,3 +8068,10 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - No unresolved preset was incorrectly promoted. This is intentional data-quality progress: numeric identity and complete skill configuration remain separate evidence requirements.
 - Commit: `92337da37406706ebd1c0a298600e703af238a9d`.
 - **Exact next priority:** continue searching remaining unresolved preset families for sources explicitly binding preset number to a complete named configuration, prioritizing maintained/first-party reference tables over unlock-only community videos.
+
+
+### 2026-09-24 continuation — version-aware preset evidence audit
+- Re-searched unresolved Goku Presets 2–5 using current web evidence. The maintained Burcol source explicitly identifies the numeric presets, strengthening identity coverage, but does not expose complete named loadouts in its indexed description. citeturn2youtube25
+- Rejected cross-version evidence: a surfaced Fandom table with complete Goku preset loadouts is explicitly for the older Dragon Ball XenoVerse Wiki, not an unambiguous Xenoverse 2 source. A separate GameFAQs result for SSGSS Goku Preset 4 is a different roster identity. No cross-version or cross-form assignment was made.
+- Updated `docs/data/character-preset-loadout-promotion-gates-2026-09-24.json` with this evidence boundary. Commit: `db708d64cd150aeb4c1dbf9b2907551745808552`.
+- **Next priority:** continue unresolved preset families, seeking version-correct sources that explicitly bind preset number to complete named skill configurations.
