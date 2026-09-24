@@ -57,7 +57,9 @@
       "2026-09-24 live reconciliation: canonical skills.json now contains 469 records, including Hyper Drain, Hyper Movement, Ice Cannon, and Ice Claw. These four were the only canonical IDs absent from the previous 465-record endpoint union and are now covered by deterministic shop/special endpoint edges.",
       "2026-09-24 live projection synchronization: corrected the stale nested 465/226/130-target snapshot to the current 469/230/131-target baseline; historical 465 figures remain in the preceding note for provenance."
     ],
-    "non_pq_nonmentor_count": 99
+    "non_pq_nonmentor_count": 99,
+    "status": "superseded_historical_projection",
+    "superseded_by": "current_projection_2026_09_24"
   },
   "legacy_projection_2026_09_23": {
     "source_skill_count": 305,
@@ -201,5 +203,25 @@
     "special": 16,
     "character_exclusive": 10,
     "starting_move": 2
+  },
+  "current_projection_2026_09_24": {
+    "source_skill_count": 469,
+    "pq_linked_skill_count": 239,
+    "unlinked_skill_count": 230,
+    "mentor_edge_rows": 132,
+    "mentor_unique_skill_targets": 131,
+    "non_pq_nonmentor_count": 99,
+    "endpoint_layers": {
+      "mentor": 132,
+      "expert_mission": 18,
+      "time_rift_story_tournament": 13,
+      "shop": 33,
+      "tokipedia": 4,
+      "conton_city_patrol": 3,
+      "special": 16,
+      "character_exclusive": 10,
+      "starting_move": 2
+    },
+    "arithmetic_note": "469 - 239 = 230; endpoint-layer counts overlap and are not a disjoint partition."
   }
 }

@@ -7494,3 +7494,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] No acquisition, DLC, or character identity relationship was inferred.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next priority:** continue deterministic non-PQ reverse-projection scanning, prioritizing event/raid acquisition consumers and any remaining stale current-field/count projections.
+
+
+### 2026-09-24 cycle completion — skill acquisition coverage current-projection hardening
+- [x] Preserved the stale nested 465/226-era projection as historical state and explicitly marked it superseded.
+- [x] Added live **469 canonical / 239 PQ-linked / 230 unlinked** projection with current endpoint-layer counts.
+- [x] Added and registered `docs/data/skill-acquisition-coverage-current-projection-audit-2026-09-24.json`.
+- [x] Validation: **469 - 239 = 230**; overlapping endpoint layers are not a disjoint partition.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next batch:** scan Tokipedia/starting-move and remaining unregistered non-PQ endpoint audits for stale projections or orphan targets.
