@@ -606,3 +606,11 @@
 - [x] Current web verification corroborates Acid's Saibaman usage and Howl's Great Ape/Evasive usage, but did not expose a trustworthy canonical numeric Ki cost.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next:** continue the remaining unresolved skill-gap queue, prioritizing records with fields that can be resolved by direct Xenoverse 2 evidence; do not infer numeric Ki costs from other games or mods.
+
+
+### 2026-09-24 continuation — Neo Wolf Fang Fist P1 provenance enrichment
+- [x] Selected **Neo Wolf Fang Fist** as the next P1 enrichment target after the current verification-date census was exhausted.
+- [x] Added the dedicated provenance audit and confirmed current Xenoverse 2 evidence for Strike Super classification, PQ86 acquisition, and variable **100–700 Ki** usage. citeturn3search0turn3search1
+- [x] Preserved unresolved exact drop probability, frame data, and universal damage measurements; no unsupported Ultimate Finish requirement was inferred.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue the next partially verified P1 research target with direct Xenoverse 2 evidence; do not manufacture technical measurements.
