@@ -5814,3 +5814,13 @@
 - [x] Kept **Golden Turtle Hermit's Shell**, **Cheelai Wig**, **Hercule Wig 2**, and **SSGSS Goku's Wig** unresolved because current repository evidence does not establish an exact canonical identity without a near-name or route-only assumption.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next priority:** reconcile the remaining four unmatched accessory candidates, beginning with Golden Turtle Hermit's Shell and SSGSS Goku's Wig, then continue deterministic event/raid non-PQ consumer scanning.
+
+
+### 2026-09-24 cycle completion — Golden Shell + SSGSS Goku raid reconciliation
+- [x] Reconciled **SSGSS Goku's Wig** as an alias of existing canonical `accr-096` (**SSGSS Goku Wig**) using independent inventory/model evidence; no duplicate canonical identity created.
+- [x] Promoted **Turtle Hermit's Golden Shell** as distinct canonical accessory `accr-113`; independent model evidence distinguishes it from **Turtle Hermit's Shell**, while Online Raid evidence establishes the raid route.
+- [x] Kept the reported Crystal Raid attribution for the Golden Shell explicitly unconfirmed rather than treating route-list wording as proof.
+- [x] Updated raid identity reconciliation, raid-gift bridge, unmatched backlog, and reconciliation audit.
+- [x] Remaining backlog candidates: **Cheelai Wig** and **Hercule Wig 2**. The separate **Cheelai Wig (w/Scouter)** identity record also remains unresolved and must not be merged with Cheelai Wig.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next priority:** reconcile Cheelai Wig / Cheelai Wig (w/Scouter) and Hercule Wig 2 against inventory/model evidence, then perform the deterministic event/raid non-PQ consumer scan.
