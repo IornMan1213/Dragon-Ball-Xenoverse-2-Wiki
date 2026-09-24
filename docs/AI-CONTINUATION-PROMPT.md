@@ -1,3 +1,13 @@
+### 2026-09-24 cycle completion — repository internal-artifact cleanup + Actions retry
+- [x] Investigated the repeated `Repository quality → Check for internal artifacts` failures instead of treating them as generic CI unavailability.
+- [x] Inspected `scripts/check_repo_artifacts.py` and `scripts/strip_internal_artifacts.py` to identify the exact forbidden marker contract.
+- [x] Removed residual assistant citation/export markers from the affected tracked documentation/research artifacts, including residual `citeturn...`, `turn...`, `filecite`, and `memcite` strings.
+- [x] Re-fetched the affected files from `main` after cleanup and verified the targeted set contains **0** remaining forbidden citation markers.
+- [x] Re-ran Repository quality run `36072900893`; attempt **2** is currently queued.
+- [ ] CI result is still pending; do not claim a successful quality check until the queued attempt completes.
+- [x] No canonical skill reconstruction or unsupported preset/loadout promotion was performed.
+- [ ] **Exact next:** poll Repository quality attempt 2. If it fails again, identify the remaining tracked artifact from the actual current tree before further edits; if it passes, return to the supported Savage Strike canonical-builder execution path.
+
 ### 2026-09-24 cycle update — retried failed Repository quality workflow
 - [x] Re-inspected the live GitHub Actions state after the previous continuation commit: Repository quality run `36072545830` failed in `Check for internal artifacts`.
 - [x] Re-ran the failed workflow jobs through the available GitHub Actions interface; run attempt **2** is now queued.
