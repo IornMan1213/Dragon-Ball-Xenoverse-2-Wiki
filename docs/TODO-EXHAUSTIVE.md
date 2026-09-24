@@ -6359,3 +6359,13 @@
 - [x] Validation passed; no data/relationship semantics changed.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next batch: deterministic scan for stale counts/list assumptions, orphan navigation, and canonical-ID drift, then evidence-gated preset/loadout expansion.
+
+### 2026-09-24 cycle completion — skill explorer self-navigation repair
+- [x] Audited `docs/Skills-All.html` as the remaining canonical entity explorer with a generic `/Search/?q=` self-link.
+- [x] Repointed the skill-card entity link to `Skills-All.html?q=...`, keeping skill navigation inside the canonical searchable Skill Explorer.
+- [x] Extended `docs/data/canonical-explorer-self-navigation-audit-2026-09-24-b.json` to record the Skill Explorer repair alongside the previously audited Character Explorer/fallback scope.
+- [x] Confirmed the central cross-domain index already registers the audit; no index mutation was required.
+- [x] Validation: `Skills-All.html` contains **0** generic Search self-link definitions and **1** canonical Skill Explorer self-link definition; audit JSON parses; audit status = pass; central index registration resolves.
+- [x] No skill identity, acquisition, provenance, mechanics, PQ relationship, mentor relationship, or gameplay fact was changed.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next batch:** continue deterministic non-PQ landing/reference scanning for stale scalar/list assumptions, one-way links, orphan targets, and canonical-ID drift across system pages and reference consumers; then resume evidence-gated preset/loadout expansion only where numeric preset identity and complete configuration are directly evidenced.
