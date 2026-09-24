@@ -1,3 +1,11 @@
+### 2026-09-24 completed repository artifact cleanup — CI recovery
+- [x] Investigated the repeated Repository quality artifact-check failure and inspected the repository's checker/cleaner contract.
+- [x] Removed residual internal citation/export markers from the affected tracked documentation/research files.
+- [x] Re-fetched the affected files from `main` and verified the targeted set has **0** forbidden citation markers.
+- [x] Re-ran Repository quality run `36072900893`; attempt **2** is queued.
+- [ ] CI remains pending until that attempt completes successfully.
+- [ ] **Next:** poll the rerun; if it fails, identify the remaining current-tree artifact before making further edits.
+
 ### 2026-09-24 completed/ongoing CI execution recovery — Repository quality rerun
 - [x] Inspected the latest Repository quality workflow run (`36072545830`), which failed at `Check for internal artifacts`.
 - [x] Used the available Actions permission to re-run the failed jobs; attempt **2** is queued.
