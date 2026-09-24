@@ -29,7 +29,7 @@
     }
   ],
   "validation": {
-    "canonical_character_record_count": 153,
+    "canonical_character_record_count": 152,
     "missing_expected_names": [],
     "synthetic_records_created": false,
     "ownership_inference": false,
