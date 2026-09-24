@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-24",
+  "status": "pass_with_explicit_unresolved",
+  "scope": "mentor lesson→skill coverage projection reconciliation",
+  "canonical_sources": [
+    "docs/data/mentors-record-layer.json",
+    "docs/data/mentor-skill-crosslink-report.json",
+    "docs/data/skill-acquisition-coverage-report.json"
+  ],
+  "results": {
+    "canonical_mentor_records": 33,
+    "lesson_reward_objects": 133,
+    "typed_skill_rewards": 132,
+    "typed_non_skill_rewards": 1,
+    "mentor_skill_forward_edges": 131,
+    "unique_skill_targets": 130,
+    "unresolved_skill_lessons": 1,
+    "unresolved_skill_lessons_detail": [
+      {
+        "mentor_id": "mentor-hit",
+        "mentor_name": "Hit",
+        "skill_name": "Time Skip/Tremor Pulse"
+      }
+    ],
+    "broken_skill_endpoints": 0,
+    "stale_linked_skill_ids_removed": [
+      "skill-time-skip-tremor-pulse"
+    ],
+    "canonical_skill_count": 469
+  },
+  "findings": [
+    "mentor-skill-coverage-report.json contained a stale linked skill ID for Hit → Time Skip/Tremor Pulse even though the canonical mentor layer and crosslink report intentionally leave that lesson unresolved.",
+    "The stale edge inflated linked mentor skill edges from the live 131 to 132 and incorrectly reduced the explicit unresolved boundary.",
+    "The corrected projection now matches the canonical mentor lesson layer and crosslink report without inventing a skill ID."
+  ],
+  "validation": {
+    "coverage_matches_crosslink_edge_count": true,
+    "unresolved_boundary_explicit": true,
+    "no_broken_skill_endpoints": true,
+    "no_new_relationships_inferred": true
+  },
+  "evidence_boundary": "The unresolved Hit lesson remains unresolved because no canonical skill record exists in the repository. This audit does not infer or fabricate a skill identity."
+}
