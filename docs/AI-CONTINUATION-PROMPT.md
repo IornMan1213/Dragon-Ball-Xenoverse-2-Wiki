@@ -1,3 +1,11 @@
+### 2026-09-24 cycle completion — Baked Sphere skill-gap evidence enrichment
+- [x] Strengthened the unresolved `Baked Sphere` record with Xenoverse 2-specific Ultimate classification, CaC-unavailable boundary, Supervillain/Masked Future Warrior usage, and Crystal Raid context.
+- [x] Added `docs/data/skill-research-gaps-baked-sphere-evidence-audit-2026-09-24.json` with explicit evidence and guardrails.
+- [x] Preserved the unresolved boundary at `ki_cost`; no unsupported numeric cost or acquisition route was invented.
+- [x] Validated the updated gap ledger on the live `main` branch.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue the next unresolved thin-domain skill after Baked Sphere, using Xenoverse 2-specific evidence before any canonical promotion.
+
 ### 2026-09-24 cycle completion — Boiling Burg skill-gap evidence enrichment
 - [x] Strengthened the unresolved `Boiling Burg` record with Xenoverse 2-specific skill ID 540, CaC-unavailable status, Final Form Demigra ownership, Legend Patrol presence, and independent CaC-unobtainable catalog evidence.
 - [x] Added `docs/data/skill-research-gaps-boiling-burg-evidence-audit-2026-09-24.json`.
