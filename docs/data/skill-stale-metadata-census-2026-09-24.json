@@ -6,58 +6,38 @@
   "live_counts": {
     "canonical_skill_records": 469,
     "index_skill_records": 469,
-    "current_last_verified_records": 287,
-    "stale_last_verified_records": 182,
+    "current_last_verified_records": 299,
+    "stale_last_verified_records": 170,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
     {
-      "id": "skill-ki-explosion",
-      "name": "Ki Explosion"
+      "id": "skill-masterful-presence",
+      "name": "Masterful Presence"
     },
     {
-      "id": "skill-kill-driver",
-      "name": "Kill Driver"
+      "id": "skill-meteor-blow",
+      "name": "Meteor Blow"
     },
     {
-      "id": "skill-last-emperor",
-      "name": "Last Emperor"
+      "id": "skill-meteor-crash",
+      "name": "Meteor Crash"
     },
     {
-      "id": "skill-light-grenade",
-      "name": "Light Grenade"
+      "id": "skill-meteor-explosion",
+      "name": "Meteor Explosion"
     },
     {
-      "id": "skill-lightning-impact",
-      "name": "Lightning Impact"
+      "id": "skill-meteor-strike",
+      "name": "Meteor Strike"
     },
     {
-      "id": "skill-lightning-of-absolution",
-      "name": "Lightning of Absolution"
+      "id": "skill-mighty-explosion",
+      "name": "Mighty Explosion"
     },
     {
-      "id": "skill-lovely-cyclone",
-      "name": "Lovely Cyclone"
-    },
-    {
-      "id": "skill-mach-dash",
-      "name": "Mach Dash"
-    },
-    {
-      "id": "skill-mach-punch",
-      "name": "Mach Punch"
-    },
-    {
-      "id": "skill-maiden-blast",
-      "name": "Maiden Blast"
-    },
-    {
-      "id": "skill-maiden-burst",
-      "name": "Maiden Burst"
-    },
-    {
-      "id": "skill-majin-kamehameha",
-      "name": "Majin Kamehameha"
+      "id": "skill-miracle-knee",
+      "name": "Miracle Knee"
     }
   ],
   "notes": [
@@ -71,6 +51,7 @@
     "Index verification-date parity was rechecked after this batch; 0 canonical↔index verification-date mismatches remain.",
     "2026-09-24 provenance refresh completed for Justice Blade through Ki Blast Thrust; canonical/index verification-date parity remains aligned.",
     "Current live counts after this batch are 469 canonical / 469 index / 287 current / 182 stale / 0 duplicate IDs.",
-    "Next alphabetical stale batch is Ki Explosion through Majin Kamehameha."
+    "Next alphabetical stale batch is Ki Explosion through Majin Kamehameha.",
+    "2026-09-24: Ki Explosion through Majin Kamehameha provenance batch completed; canonical/index parity validated at 469 records with zero mismatches."
   ]
 }
