@@ -1453,15 +1453,14 @@
         {
           "lesson": "lesson-3",
           "skill_name": "Time Skip/Tremor Pulse",
-          "skill_id": "skill-time-skip-tremor-pulse",
+          "skill_id": null,
           "reward_type": "skill"
         }
       ],
       "skills": [
         "skill-time-skip-flash-skewer",
         "skill-time-skip-back-breaker",
-        "skill-time-skip-jump-spike",
-        "skill-time-skip-tremor-pulse"
+        "skill-time-skip-jump-spike"
       ],
       "dual_ultimate": {
         "name": "DUAL Time Skip/Molotov",
@@ -1473,7 +1472,7 @@
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
       ],
-      "verification_status": "lesson_skill_names_and_skill_endpoints_verified",
+      "verification_status": "lesson_skill_names_verified",
       "last_verified": "2026-09-21"
     },
     {
