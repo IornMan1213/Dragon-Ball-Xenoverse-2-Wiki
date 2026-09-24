@@ -21,7 +21,7 @@ The Parallel Quest accessory research layer connects individual accessories to t
 
 ## Current research population
 
-The machine-readable layer contains **45 accessory/PQ research records**. The canonical accessory identity layer now contains **64 `acc-###` records**, with **22 PQ→accessory identity matches** and **23 research identities still unresolved**. Eight early/base-game identities were promoted or normalized in the latest reconciliation pass; the remaining research leads stay unresolved where inventory-level evidence is insufficient. Some records are deliberately `indexed` rather than `partially_verified` where the evidence establishes a research lead but not the exact inventory component.
+The machine-readable layer contains **45 accessory/PQ research records**. The separate current canonical accessory reconciliation layer contains **116 `accr-###` identities**; it must not be confused with the PQ-linked `acc-###` projection. The current PQ bridge contains **45 research records, 35 with a resolved canonical endpoint (34 unique canonical targets), and 10 still unresolved**. Two resolved records use the broader `equipment_accessory` domain (`equip-135` and `equip-050`) rather than creating duplicate `acc-###` identities. The remaining research leads stay unresolved where inventory-level evidence is insufficient. Some records are deliberately `indexed` rather than `partially_verified` where the evidence establishes a research lead but not the exact inventory component.
 
 | Accessory / research item | PQ | State |
 |---|---:|---|
