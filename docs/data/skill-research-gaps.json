@@ -83,6 +83,36 @@
         "Xenoverse 2 gameplay documentation and character move lists place Baked Sphere in Supervillain-controlled character movesets."
       ],
       "reason": "Xenoverse 2-specific evidence confirms Baked Sphere as a CaC-unavailable Ultimate associated with Supervillain/Masked Future Warrior usage. The repository's canonical Ki-cost field remains unverified; no cost is inferred from another game or unofficial implementation."
+    },
+    {
+      "name": "Boulder Toss",
+      "status": "unresolved",
+      "known_identity": "Great Ape-exclusive Super Skill used by Great Ape enemies",
+      "missing": [
+        "subcategory",
+        "ki_cost"
+      ],
+      "evidence": [
+        "Xenoverse 2 Character ID List assigns Boulder Toss skill ID 441, marks it CaC-unavailable, and identifies Great Ape as its source.",
+        "Xenoverse 2 PQ and Expert Mission tables repeatedly list Boulder Toss on Great Ape Nappa and/or Great Ape Vegeta.",
+        "Xenoverse 2-specific reference material identifies Boulder Toss as a Super Skill used by Great Apes."
+      ],
+      "reason": "Xenoverse 2-specific evidence establishes Boulder Toss as a CaC-unavailable Super Skill used by Great Apes. The repository taxonomy subtype and canonical Ki cost remain unverified; the physical/projectile description is not converted into a repository subtype without a direct taxonomy mapping."
+    },
+    {
+      "name": "Boulder Break",
+      "status": "unresolved",
+      "known_identity": "Great Ape-exclusive Super Skill used by Great Ape enemies",
+      "missing": [
+        "subcategory",
+        "ki_cost"
+      ],
+      "evidence": [
+        "Xenoverse 2 Character ID List assigns Boulder Break skill ID 442, marks it CaC-unavailable, and identifies Great Ape as its source.",
+        "Xenoverse 2 PQ and Expert Mission tables list Boulder Break on Great Ape Nappa, Great Ape Bardock, and Great Ape Baby.",
+        "Xenoverse 2-specific reference material identifies Boulder Break as a Super Skill used by Great Apes and describes it as a variation of Boulder Toss."
+      ],
+      "reason": "Xenoverse 2-specific evidence establishes Boulder Break as a CaC-unavailable Super Skill used by Great Apes. Its physical/projectile class is documented externally, but the repository's canonical subtype mapping and Ki cost remain unverified."
     }
   ],
   "notes": "2026-09-24 Howl tranche: Evasive classification and CaC-unavailable status strengthened from Xenoverse 2-specific artifacts; Ki cost and acquisition remain unresolved and are not promoted. 2026-09-24 Baked Sphere tranche: strengthened Xenoverse 2-specific Ultimate/CaC-unavailable classification; Ki cost remains unresolved and is not promoted."
