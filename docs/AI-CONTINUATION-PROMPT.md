@@ -8075,3 +8075,10 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Rejected cross-version evidence: a surfaced Fandom table with complete Goku preset loadouts is explicitly for the older Dragon Ball XenoVerse Wiki, not an unambiguous Xenoverse 2 source. A separate GameFAQs result for SSGSS Goku Preset 4 is a different roster identity. No cross-version or cross-form assignment was made.
 - Updated `docs/data/character-preset-loadout-promotion-gates-2026-09-24.json` with this evidence boundary. Commit: `db708d64cd150aeb4c1dbf9b2907551745808552`.
 - **Next priority:** continue unresolved preset families, seeking version-correct sources that explicitly bind preset number to complete named skill configurations.
+
+
+### 2026-09-24 continuation — fresh preset source verification
+- Performed another current web search for complete loadouts for unresolved Goku Presets 2–5. Burcol's Xenoverse 2 DLC 18 guide explicitly identifies the numeric presets, including Presets 2/3/4/5, but its indexed description does not enumerate their complete skill configurations. citeturn0youtube20
+- GameFAQs material identifying SSGSS Goku Preset 4 skills was rejected for base Goku Preset 4 because the roster identity differs. citeturn0search1
+- No promotion was made. Updated `docs/data/character-preset-loadout-promotion-gates-2026-09-24.json`; commit `7842e1f9e93f26e18dc121b602c72d2db9cde816`.
+- **Next priority:** continue unresolved preset families until a version-correct source explicitly binds numeric preset identity to a complete named configuration.
