@@ -8160,3 +8160,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Commits: `502e2dfd9796142a94fa86e51245479431e2dca3`, `9b79b7342eb83ab0163256892c6c7cf47d7591c0`, `557fb91a39768e7f93782eb6fc7944e52100bf8a`, `85fac0b2ce0e74b3cbbba78b1aeb01bd9262c579`.
 - CI/runtime remains unavailable; no CI success claimed.
 - **Exact next priority:** continue the deterministic scan of remaining non-PQ entity/reference explorers and landing pages for generic Search self-links, stale explorer targets, one-way cross-database navigation, stale counts, and canonical-ID drift; then resume evidence-gated preset/loadout research.
+
+
+### 2026-09-24 continuation — remaining canonical cross-database navigation repair
+
+- Audited the next uncovered cross-database consumers: `docs/Parallel-Quests-All.html`, `docs/Awoken-All.html`, and `docs/Partner-Customization.md`.
+- Repaired **24** deterministic navigation links: PQ → Equipment (1), PQ → DLC (1), PQ → Characters (1), Awoken self/explorer (1), and all 20 Partner Customization key → Character Explorer links (20).
+- Added `docs/data/remaining-canonical-cross-navigation-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- Validation: 24/24 targeted links repaired; 0 relationship/data semantics changed; audit status = pass.
+- Navigation-only evidence boundary preserved; no character identity, DLC ownership, reward, unlock, preset, or gameplay facts were inferred.
+- Commits: `8ebe02da1b06e9a7524480d85356817f7923dec7`, `f7e8db160e08e6406c89bb62e505261432b45acd`, `238efc5198da1fed5f11b29c56cded6aa13cdcc1`, `f3c25b54d5ce2a9ef0668c41cfb6440cd65a91fc`, `6b0c43f4075d99449b801079da21ff5a75dc6831`.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next priority:** continue the deterministic non-PQ landing/reference scan for remaining generic Search links, stale explorer targets, stale counts/list assumptions, orphan navigation, and canonical-ID drift. Then begin the highest-impact source-backed preset/loadout tranche only where direct numeric identity + complete configuration evidence exists.
