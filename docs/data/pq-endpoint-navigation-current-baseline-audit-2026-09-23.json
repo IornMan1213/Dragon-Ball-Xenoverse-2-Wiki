@@ -10,7 +10,7 @@
   ],
   "validation": {
     "canonical_pq_records": 186,
-    "canonical_skill_records": 465,
+    "canonical_skill_records": 469,
     "canonical_super_soul_records": 234,
     "canonical_equipment_accessory_records": 173,
     "canonical_character_names": 151,
@@ -29,5 +29,6 @@
     "status": "pass"
   },
   "evidence_boundary": "This is a deterministic projection/consumer synchronization. No new reward relationship, canonical identity, acquisition route, or source fact was inferred.",
-  "commit_reference": "f202b61a6033d2155ba596286981a805b95ee046"
+  "commit_reference": "f202b61a6033d2155ba596286981a805b95ee046",
+  "reconciliation_note": "2026-09-24 live baseline correction: canonical skill layer is 469 records; historical 465-record generation context is preserved in prior audit history."
 }
