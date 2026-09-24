@@ -12,29 +12,12 @@
       "priority": "high"
     },
     {
-      "name": "Golden Turtle Hermit's Shell",
-      "source_layers": [
-        "online_raid",
-        "crystal_raid"
-      ],
-      "reason": "Accessory must be separated from Golden Turtle Hermit Gi clothing before promotion.",
-      "priority": "high"
-    },
-    {
       "name": "Hercule Wig 2",
       "source_layers": [
         "online_raid"
       ],
       "reason": "Numbered variant must be kept separate from Hercule Wig until inventory identity is confirmed.",
       "priority": "medium"
-    },
-    {
-      "name": "SSGSS Goku's Wig",
-      "source_layers": [
-        "crystal_raid"
-      ],
-      "reason": "Separate from SSGSS Goku Wig PQ route unless inventory identity is confirmed identical.",
-      "priority": "high"
     }
   ],
   "rules": [
@@ -83,6 +66,20 @@
       "resolved_on": "2026-09-24",
       "canonical_id": "accr-112",
       "canonical_source": "docs/data/accessory-canonical-reconciliation.json"
+    },
+    {
+      "name": "SSGSS Goku's Wig",
+      "resolved_on": "2026-09-24",
+      "canonical_id": "accr-096",
+      "canonical_source": "docs/data/accessory-canonical-reconciliation.json",
+      "resolution": "Alias reconciled to the existing SSGSS Goku Wig identity using independent inventory/model evidence."
+    },
+    {
+      "name": "Golden Turtle Hermit's Shell",
+      "resolved_on": "2026-09-24",
+      "canonical_id": "accr-113",
+      "canonical_source": "docs/data/accessory-canonical-reconciliation.json",
+      "resolution": "Promoted as distinct Golden Shell accessory; not merged with Turtle Hermit's Shell or Golden Turtle Hermit Gi."
     }
   ],
   "last_reconciled": "2026-09-24"
