@@ -2976,3 +2976,13 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - [x] Validation: live canonical/index baseline **469/469**, duplicate IDs **0**, remaining current stale skill-count scalars **0** in the bounded search.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next:** return to source-backed P1 provenance enrichment, selecting the next canonical skill batch with direct existing evidence and preserving unresolved mechanics/probability fields.
+
+
+### 2026-09-24 continuation — P1 provenance queue transition
+- [x] Confirmed the live skill verification queue is exhausted: **469/469 current, 0 stale, 0 duplicate IDs**.
+- [x] Established that the next P1 work should enrich evidence fields rather than perform redundant `last_verified` refreshes.
+- [x] Added `docs/data/skill-p1-provenance-coverage-gap-2026-09-24.json` identifying the next evidence-backed enrichment targets: **Savage Strike**, **Quick Sleep**, and **Pressure Sign**.
+- [x] Registered the gap/priority artifact in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved evidence boundaries: no unsupported damage, drop-rate, timing, or acquisition-gate claims are authorized by this transition artifact.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next:** enrich Savage Strike, then Quick Sleep and Pressure Sign, in canonical and index layers with an audit artifact and cross-domain registration.
