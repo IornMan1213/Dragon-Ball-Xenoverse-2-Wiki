@@ -65,11 +65,12 @@
     {
       "source_id": "raidgift-006",
       "name": "Cheelai Wig",
-      "canonical_id": null,
-      "status": "new_identity_candidate",
+      "canonical_id": "accr-114",
+      "status": "partially_verified",
       "route_refs": [
         "Time Patroller Takedown"
-      ]
+      ],
+      "note": "Exact inventory/model evidence establishes Cheelai Wig as a distinct canonical accessory (model ID 779); do not merge with the scouter variant."
     },
     {
       "source_id": "raidgift-007",
@@ -173,11 +174,31 @@
         "Great Ape Baby raid",
         "Crystal Raid Battle"
       ]
+    },
+    {
+      "source_id": "raidgift-017",
+      "name": "Cheelai Wig (w/Scouter)",
+      "canonical_id": "accr-115",
+      "status": "partially_verified",
+      "route_refs": [
+        "Impending Danger",
+        "Jiren raid"
+      ],
+      "note": "Exact inventory/model evidence establishes the scouter variant as a distinct canonical accessory (model ID 777); do not merge with Cheelai Wig."
+    },
+    {
+      "source_id": "raidgift-018",
+      "name": "Hercule Wig 2",
+      "canonical_id": "accr-116",
+      "status": "partially_verified",
+      "route_refs": [
+        "Revenge of the Tuffle: Reloaded",
+        "Humanity's Greatest Threat"
+      ],
+      "note": "Exact inventory/model evidence establishes Hercule Wig 2 as distinct from Hercule Wig; official event documentation and raid documentation establish the listed routes."
     }
   ],
-  "unmatched_candidates": [
-    "Cheelai Wig"
-  ],
+  "unmatched_candidates": [],
   "rules": [
     "Duplicate route records are expected when one canonical accessory is obtainable through multiple systems.",
     "Online Raid and Crystal Raid remain distinct route types even when the reward item is identical.",
