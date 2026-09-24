@@ -15,27 +15,137 @@
     "non_tutorial_skill_records": 18,
     "fully_verified_records": 0,
     "partially_verified_records": 18,
-    "unresolved_exact_drop_rates": 18
+    "unresolved_exact_drop_rates": 18,
+    "cross_linked_records": 18,
+    "records_missing_canonical_skill_id": 0
   },
   "records": [
-    {"skill":"Murder Grenade","expert_mission":3,"status":"partially_verified"},
-    {"skill":"Super Destructo-Disc","expert_mission":4,"status":"partially_verified"},
-    {"skill":"Death Wave","expert_mission":5,"status":"partially_verified"},
-    {"skill":"Supernova","expert_mission":6,"status":"partially_verified"},
-    {"skill":"Death Meteor","expert_mission":7,"status":"partially_verified"},
-    {"skill":"Dead End Bullet","expert_mission":8,"status":"partially_verified"},
-    {"skill":"Assault Rain","expert_mission":9,"status":"partially_verified"},
-    {"skill":"Hellzone Grenade","expert_mission":10,"status":"partially_verified"},
-    {"skill":"Super Electric Strike","expert_mission":11,"status":"partially_verified"},
-    {"skill":"Angry Explosion","expert_mission":12,"status":"partially_verified"},
-    {"skill":"Dead End Rain","expert_mission":13,"status":"partially_verified"},
-    {"skill":"Shocking Death Ball","expert_mission":14,"status":"partially_verified"},
-    {"skill":"Blue Hurricane","expert_mission":15,"status":"partially_verified"},
-    {"skill":"Super Spirit Bomb","expert_mission":16,"status":"partially_verified"},
-    {"skill":"Spirit Sword","expert_mission":17,"status":"partially_verified"},
-    {"skill":"Focus Flash","expert_mission":18,"status":"partially_verified"},
-    {"skill":"Tail Slicer","expert_mission":19,"status":"partially_verified"},
-    {"skill":"Data Input","expert_mission":20,"status":"partially_verified"}
+    {
+      "skill": "Murder Grenade",
+      "expert_mission": 3,
+      "status": "partially_verified",
+      "skill_id": "skill-murder-grenade",
+      "endpoint_id": "em-03"
+    },
+    {
+      "skill": "Super Destructo-Disc",
+      "expert_mission": 4,
+      "status": "partially_verified",
+      "skill_id": "skill-super-destructo-disc",
+      "endpoint_id": "em-04"
+    },
+    {
+      "skill": "Death Wave",
+      "expert_mission": 5,
+      "status": "partially_verified",
+      "skill_id": "skill-death-wave",
+      "endpoint_id": "em-05"
+    },
+    {
+      "skill": "Supernova",
+      "expert_mission": 6,
+      "status": "partially_verified",
+      "skill_id": "skill-supernova",
+      "endpoint_id": "em-06"
+    },
+    {
+      "skill": "Death Meteor",
+      "expert_mission": 7,
+      "status": "partially_verified",
+      "skill_id": "skill-death-meteor",
+      "endpoint_id": "em-07"
+    },
+    {
+      "skill": "Dead End Bullet",
+      "expert_mission": 8,
+      "status": "partially_verified",
+      "skill_id": "skill-dead-end-bullet",
+      "endpoint_id": "em-08"
+    },
+    {
+      "skill": "Assault Rain",
+      "expert_mission": 9,
+      "status": "partially_verified",
+      "skill_id": "skill-assault-rain",
+      "endpoint_id": "em-09"
+    },
+    {
+      "skill": "Hellzone Grenade",
+      "expert_mission": 10,
+      "status": "partially_verified",
+      "skill_id": "skill-hellzone-grenade",
+      "endpoint_id": "em-10"
+    },
+    {
+      "skill": "Super Electric Strike",
+      "expert_mission": 11,
+      "status": "partially_verified",
+      "skill_id": "skill-super-electric-strike",
+      "endpoint_id": "em-11"
+    },
+    {
+      "skill": "Angry Explosion",
+      "expert_mission": 12,
+      "status": "partially_verified",
+      "skill_id": "skill-angry-explosion",
+      "endpoint_id": "em-12"
+    },
+    {
+      "skill": "Dead End Rain",
+      "expert_mission": 13,
+      "status": "partially_verified",
+      "skill_id": "skill-dead-end-rain",
+      "endpoint_id": "em-13"
+    },
+    {
+      "skill": "Shocking Death Ball",
+      "expert_mission": 14,
+      "status": "partially_verified",
+      "skill_id": "skill-shocking-death-ball",
+      "endpoint_id": "em-14"
+    },
+    {
+      "skill": "Blue Hurricane",
+      "expert_mission": 15,
+      "status": "partially_verified",
+      "skill_id": "skill-blue-hurricane",
+      "endpoint_id": "em-15"
+    },
+    {
+      "skill": "Super Spirit Bomb",
+      "expert_mission": 16,
+      "status": "partially_verified",
+      "skill_id": "skill-super-spirit-bomb",
+      "endpoint_id": "em-16"
+    },
+    {
+      "skill": "Spirit Sword",
+      "expert_mission": 17,
+      "status": "partially_verified",
+      "skill_id": "skill-spirit-sword",
+      "endpoint_id": "em-17"
+    },
+    {
+      "skill": "Focus Flash",
+      "expert_mission": 18,
+      "status": "partially_verified",
+      "skill_id": "skill-focus-flash",
+      "endpoint_id": "em-18"
+    },
+    {
+      "skill": "Tail Slicer",
+      "expert_mission": 19,
+      "status": "partially_verified",
+      "skill_id": "skill-tail-slicer",
+      "endpoint_id": "em-19"
+    },
+    {
+      "skill": "Data Input",
+      "expert_mission": 20,
+      "status": "partially_verified",
+      "skill_id": "skill-data-input",
+      "endpoint_id": "em-20"
+    }
   ],
   "nonclaims": [
     "The index does not assert that an indexed skill is guaranteed on every clear.",
@@ -49,5 +159,8 @@
     "Reconcile first-clear versus repeat acquisition where evidence exists.",
     "Separate ordinary mission skill drops from raid-linked skills.",
     "Expand acquisition indexing beyond Expert Missions into Parallel Quests, mentors, shops, raids, tournaments, and other systems."
+  ],
+  "notes": [
+    "2026-09-24 cross-link reconciliation: promoted the canonical skill_id and Expert Mission endpoint_id from expert-mission-endpoints.json into all 18 maintained acquisition-index records. Exact reward-name matching was required; no new skill identity or acquisition route was inferred."
   ]
 }
