@@ -633,3 +633,11 @@
 - [x] Preserved the evidence boundary: `subcategory` and `ki_cost` remain unresolved because the new evidence does not expose a trustworthy canonical XV2 subtype or numeric cost. No subtype was inferred from animation/function wording.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next:** continue the remaining unresolved queue, prioritizing a record where direct Xenoverse 2 evidence can resolve an actual missing field; do not repeat identity-only enrichment unless it materially changes the evidence boundary.
+
+### 2026-09-24 continuation — Boiling Burg class reconciliation
+- [x] Selected **Boiling Burg** as the next queue item where direct Xenoverse 2 evidence could resolve a real metadata field.
+- [x] Reconciled the short skill ID **540** with long-form ID **5540** and confirmed that the Xenoverse 2 skill-list artifact places **Boiling Burg in the Ultimate Skill section**; the ID list identifies Final Form Demigra as its user and CaC-unavailable status.
+- [x] Updated `docs/data/skill-research-batches/unresolved-candidates-287.json` from taxonomy unresolved to class-resolved, while leaving exact subtype and Ki cost unresolved.
+- [x] Updated `docs/data/skill-research-gaps.json` with the independent class evidence and retained the no-inference boundary for numeric Ki cost.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue the unresolved queue, prioritizing another field that can be directly resolved from Xenoverse 2-specific evidence; do not infer numeric costs from other games or mods.
