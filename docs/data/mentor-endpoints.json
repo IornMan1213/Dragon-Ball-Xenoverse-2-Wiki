@@ -1294,25 +1294,18 @@
           "skill_id": "skill-time-skip-jump-spike",
           "skill_name": "Time Skip/Jump Spike",
           "reward_type": "skill"
-        },
-        {
-          "lesson": "lesson-3",
-          "skill_id": "skill-time-skip-tremor-pulse",
-          "skill_name": "Time Skip/Tremor Pulse",
-          "reward_type": "skill"
         }
       ],
       "skills": [
         "skill-time-skip-flash-skewer",
         "skill-time-skip-back-breaker",
-        "skill-time-skip-jump-spike",
-        "skill-time-skip-tremor-pulse"
+        "skill-time-skip-jump-spike"
       ],
       "dual_ultimate": {
         "name": "DUAL Time Skip/Molotov",
         "skill_id": "dual-dual-time-skip-molotov"
       },
-      "status": "lesson_skill_names_and_skill_endpoints_verified"
+      "status": "lesson_skill_names_verified"
     },
     {
       "id": "mentor-bojack",
@@ -2018,11 +2011,6 @@
       "mentor_id": "mentor-hit",
       "lesson": "lesson-2",
       "skill_id": "skill-time-skip-jump-spike"
-    },
-    {
-      "mentor_id": "mentor-hit",
-      "lesson": "lesson-3",
-      "skill_id": "skill-time-skip-tremor-pulse"
     },
     {
       "mentor_id": "mentor-bojack",
@@ -3543,18 +3531,6 @@
       ]
     },
     {
-      "skill_id": "skill-time-skip-tremor-pulse",
-      "mentor_ids": [
-        "mentor-hit"
-      ],
-      "lessons": [
-        {
-          "mentor_id": "mentor-hit",
-          "lesson": "lesson-3"
-        }
-      ]
-    },
-    {
       "skill_id": "skill-reverse-launcher",
       "mentor_ids": [
         "mentor-bojack"
@@ -3641,8 +3617,8 @@
   ],
   "coverage": {
     "mentors": 33,
-    "lesson_skill_edges": 132,
-    "unique_skill_endpoints": 131,
+    "lesson_skill_edges": 131,
+    "unique_skill_endpoints": 130,
     "broken_skill_endpoints": 0,
     "non_skill_lesson_rewards": 1
   },
