@@ -25,6 +25,16 @@
       "type": "current_web_verification",
       "claim": "Current Xenoverse 2 reference material independently identifies Energy Boil as Final Demigra's Evasive Skill.",
       "source": "https://dragonball.fandom.com/wiki/Demigra"
+    },
+    {
+      "type": "current_external_reference",
+      "claim": "Current reference material explicitly identifies Energy Boil as Final Demigra's Evasive Skill and describes it as surrounding him with energy, teleporting, then gathering Ki.",
+      "source": "https://dragonball.fandom.com/wiki/Demigra"
+    },
+    {
+      "type": "xenoverse2_skill_index",
+      "claim": "The Xenoverse 2 skill guide lists Energy Boil as Evasive skill ID 10540; the Xenoverse 2 character ID list marks ID 10540 as CaC-unavailable and assigned to Final Form Demigra.",
+      "source": "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
     }
   ],
   "resolved_fields": {
@@ -37,7 +47,7 @@
     "ki_cost"
   ],
   "guardrails": [
-    "Do not infer a subcategory from the move's animation or generic Ki terminology.",
+    "Do not promote a subcategory solely from the defensive/charge behavior description. Existing repository taxonomy distinguishes Ki Blast, Strike, Other, and Power Up evasives; direct XV2 subtype evidence is still required.",
     "Do not infer Ki cost from older Xenoverse data or mod implementation details.",
     "Do not create a CaC acquisition route from NPC/enemy usage.",
     "Do not promote to canonical skills.json without the supported builder and required field coverage."
