@@ -6,28 +6,28 @@
   "live_counts": {
     "canonical_skill_records": 465,
     "index_skill_records": 465,
-    "current_last_verified_records": 96,
-    "stale_last_verified_records": 369,
+    "current_last_verified_records": 108,
+    "stale_last_verified_records": 357,
     "duplicate_ids": 0
   },
   "current_date": "2026-09-24",
   "next_stale_batch": [
-    "skill-death-beam",
-    "skill-death-crasher",
-    "skill-death-meteor",
-    "skill-death-psycho-bomb",
-    "skill-death-slash",
-    "skill-death-slicer",
-    "skill-death-wave",
-    "skill-demon-flash-strike",
-    "skill-demon-flurry",
-    "skill-demon-ray",
-    "skill-demonic-destruction",
-    "skill-destruction-s-concerto-comet"
+    "skill-demon-wing-flash",
+    "skill-die-die-missile-barrage",
+    "skill-dimension-ray",
+    "skill-divine-kamehameha",
+    "skill-divine-lasso",
+    "skill-dodoria-headbutt",
+    "skill-double-destructo-disc",
+    "skill-double-sunday",
+    "skill-dragon-blitz",
+    "skill-dragon-burner",
+    "skill-dragon-fist",
+    "skill-dragon-flash"
   ],
   "notes": [
     "Stale means last_verified != 2026-09-24; stale metadata is a priority signal, not evidence that a record is incorrect.",
-    "This census follows the 12-record Crusher Ball through Death Ball refresh.",
+    "This census follows the 12-record Death Beam through Destruction's Concerto: Comet refresh.",
     "No canonical skill identities or acquisition relationships were changed by the refresh."
   ]
 }
