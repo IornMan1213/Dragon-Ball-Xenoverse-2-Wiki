@@ -7,7 +7,7 @@ title: Parallel Quest Audit
 
 > **Browse the live quest catalog:** [Every Parallel Quest](Parallel-Quests-All.html)
 
-This is the exhaustive Parallel Quest verification pass. The audit covers the repository's canonical numbered PQ range through **PQ186**, while distinguishing **numbered-record coverage** from external research claims about currently standalone missions. Some maintained datamined research reports **183 standalone PQs** because they classify PQ36 as cut; the repository's canonical player-facing record layer intentionally retains **PQ36 as a numbered record** and preserves the historical conflict in provenance. Therefore, this audit must not silently replace the canonical 186-record layer with an external 183-mission count. citeturn0search0
+This is the exhaustive Parallel Quest verification pass. The audit covers the repository's canonical numbered PQ range through **PQ186**, while distinguishing **numbered-record coverage** from external research claims about currently standalone missions. Some maintained datamined research reports **183 standalone PQs** because they classify PQ36 as cut; the repository's canonical player-facing record layer intentionally retains **PQ36 as a numbered record** and preserves the historical conflict in provenance. Therefore, this audit must not silently replace the canonical 186-record layer with an external 183-mission count. citeturn0search0
 
 ## Record standard
 
@@ -36,7 +36,7 @@ Structured in `pq-batch-02.json`. Covers Saiyan, Namek, and Ginyu Force quests, 
 Structured in `pq-batch-03.json`. Covers Frieza/Namek, Cooler, Android, and Hercule quests, including Dragon Ball recovery, time-limit, escort, and revived-enemy conditions.
 
 ### Batch 4 — PQ31–PQ40
-Structured in `pq-batch-04.json`. Covers Cell training through Future Warriors. **PQ36 is a preserved historical conflict:** the historical maintained Steam/game-specific transcription lists a PQ36, while current maintained datamined research identifies PQ36 as cut and the live numbering as skipping 36. The audit preserves the evidence rather than silently deleting the historical record. citeturn0search0turn0search1
+Structured in `pq-batch-04.json`. Covers Cell training through Future Warriors. **PQ36 is a preserved historical conflict:** the historical maintained Steam/game-specific transcription lists a PQ36, while current maintained datamined research identifies PQ36 as cut and the live numbering as skipping 36. The audit preserves the evidence rather than silently deleting the historical record. citeturn0search0turn0search1
 
 ### Batch 5 — PQ41–PQ50
 Structured in `pq-batch-05.json`. Covers Future Androids, Dragon Ball collection, Android 16, Broly/Vegeta protection, World Tournament, Namek training, and Majin Buu quests.
@@ -81,7 +81,7 @@ Structured in `pq-batch-16.json`. Covers the final Hero of Justice Pack 2 quests
 Structured in `pq-batch-17.json`. Covers Future Saga Chapters 1–2 and the Dragon Ball DAIMA Pack. The maintained Steam transcription independently confirms the quest names, DLC labels, objective sequences, lose conditions, and documented reward lists; GameFAQs corroborates the Ultimate Finish objective sequences for PQ171–178.
 
 ### Batch 18 — PQ181–PQ186
-Structured in `pq-batch-18.json`. This is the final numbered block. The maintained Steam 186-PQ transcription confirms the six quest names, DLC assignments, objective sequences, lose conditions, and documented rewards; GameFAQs independently corroborates the Ultimate Finish sequences. The structured records explicitly leave exact reward-slot/drop percentages unresolved where they are not established. fileciteturn848file0L2-L10
+Structured in `pq-batch-18.json`. This is the final numbered block. The maintained Steam 186-PQ transcription confirms the six quest names, DLC assignments, objective sequences, lose conditions, and documented rewards; GameFAQs independently corroborates the Ultimate Finish sequences. The structured records explicitly leave exact reward-slot/drop percentages unresolved where they are not established. fileciteturn848file0L2-L10
 
 - **PQ181 — The Greatest Training Ever:** clear under 15 minutes, then defeat Beerus and the others; Super Kamehameha (SS4 DAIMA) and Final Flash (SS3 DAIMA) are documented.
 - **PQ182 — Frieza's Fervent Wish:** clear under 10 minutes, then defeat SSGSS Gogeta; Dark Inscription is documented.
@@ -105,7 +105,7 @@ A 7-star crossover quest. The existing audit preserves the Rosé Goku Black heal
 
 The wiki distinguishes **canonical numbered-record coverage** from **external claims about currently available standalone missions**. A quest is not marked complete merely because its title or number has been indexed: objectives, rewards, and Ultimate Finish conditions must be checked before promotion. Where external research and the canonical record layer disagree about numbering (including PQ36), the conflict remains explicit rather than changing the canonical identity layer.
 
-**Current structured audit coverage: canonical numbered PQ1–PQ186.** The canonical relationship baseline is **853 unique edges** across skills, Super Souls, equipment, characters, DLC, and farming. The consumer/navigation layer must resolve displayed targets to these canonical relationship and identity layers without inventing aliases or relationship edges. External research that counts fewer standalone missions because of PQ36 or other numbering interpretations remains provenance/history; it does not replace the canonical 186-record player-facing layer. citeturn0search0
+**Current structured audit coverage: canonical numbered PQ1–PQ186.** The canonical relationship baseline is **853 unique edges** across skills, Super Souls, equipment, characters, DLC, and farming. The consumer/navigation layer must resolve displayed targets to these canonical relationship and identity layers without inventing aliases or relationship edges. External research that counts fewer standalone missions because of PQ36 or other numbering interpretations remains provenance/history; it does not replace the canonical 186-record player-facing layer. citeturn0search0
 
 ## Primary research corpus
 
