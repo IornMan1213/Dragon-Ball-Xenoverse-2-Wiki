@@ -1,3 +1,12 @@
+### 2026-09-24 cycle completion — Great Ape Boulder skill-gap evidence enrichment
+- [x] Added unresolved research records for `Boulder Toss` and `Boulder Break` to `docs/data/skill-research-gaps.json`.
+- [x] Added dedicated evidence audits for both skills.
+- [x] Confirmed Xenoverse 2 skill IDs **441 (Boulder Toss)** and **442 (Boulder Break)**, both CaC-unavailable Great Ape skills.
+- [x] Confirmed both are **Super Skills**; retained `subcategory` and `ki_cost` as unresolved because generic projectile/physical terminology does not establish the repository taxonomy or numeric cost.
+- [x] Preserved the canonical boundary; no unsupported promotion or acquisition route was invented.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue the remaining Great Ape/legacy unresolved candidate set, beginning with `Boiling Ball` and then `Tricky Strike`, using direct Xenoverse 2 evidence.
+
 ### 2026-09-24 cycle completion — Baked Sphere skill-gap evidence enrichment
 - [x] Strengthened the unresolved `Baked Sphere` record with Xenoverse 2-specific Ultimate classification, CaC-unavailable boundary, Supervillain/Masked Future Warrior usage, and Crystal Raid context.
 - [x] Added `docs/data/skill-research-gaps-baked-sphere-evidence-audit-2026-09-24.json` with explicit evidence and guardrails.
