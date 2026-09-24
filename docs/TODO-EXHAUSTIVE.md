@@ -6814,3 +6814,11 @@
 - [x] Preserved unsupported stamina, frame, probability, and universal damage claims.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Next:** select the next unresolved P1 provenance target.
+
+
+### 2026-09-24 completed Dimensional Hole P1 provenance refresh
+- [x] Verified Dimensional Hole identity/classification, CaC availability, 0 Ki, and PQ80 Basic Reward route.
+- [x] Added and registered `docs/data/skill-dimensional-hole-p1-provenance-enrichment-2026-09-24.json`.
+- [x] Preserved unsupported probability, stamina, frame, and universal damage data.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Next:** select the next unresolved P1 provenance target.
