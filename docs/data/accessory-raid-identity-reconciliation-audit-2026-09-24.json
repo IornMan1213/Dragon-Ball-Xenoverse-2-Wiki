@@ -12,26 +12,58 @@
     "raid_identity_records": 9,
     "exactly_resolved": 6,
     "unresolved": 3,
-    "canonical_accessory_records": 111,
+    "canonical_accessory_records": 113,
     "raid_gift_bridge_records": 16,
-    "bridge_resolved": 14,
-    "bridge_unresolved": 2
+    "bridge_resolved": 15,
+    "bridge_unresolved": 1
   },
   "resolved": [
-    {"name":"Tapion Wig","id":"accr-106"},
-    {"name":"Tights Hat","id":"accr-107"},
-    {"name":"Universe 6 S. Kai's Helper's Hat","id":"accr-108"},
-    {"name":"Lord Zuno's Topknot Wig","id":"accr-109"},
-    {"name":"Android 21 Wig & Glasses","id":"accr-110"},
-    {"name":"Tiencha Wig","id":"accr-111"}
+    {
+      "name": "Tapion Wig",
+      "id": "accr-106"
+    },
+    {
+      "name": "Tights Hat",
+      "id": "accr-107"
+    },
+    {
+      "name": "Universe 6 S. Kai's Helper's Hat",
+      "id": "accr-108"
+    },
+    {
+      "name": "Lord Zuno's Topknot Wig",
+      "id": "accr-109"
+    },
+    {
+      "name": "Android 21 Wig & Glasses",
+      "id": "accr-110"
+    },
+    {
+      "name": "Tiencha Wig",
+      "id": "accr-111"
+    },
+    {
+      "name": "Golden Turtle Hermit's Shell",
+      "id": "accr-113",
+      "basis": "independent inventory/model evidence; distinct from Turtle Hermit's Shell and Golden Turtle Hermit Gi"
+    },
+    {
+      "name": "SSGSS Goku's Wig",
+      "id": "accr-096",
+      "basis": "independent inventory/model evidence reconciles apostrophe variant to existing SSGSS Goku Wig"
+    }
   ],
-  "unresolved": ["Cheelai Wig","Cheelai Wig (w/Scouter)","Hercule Wig 2"],
+  "unresolved": [
+    "Cheelai Wig",
+    "Cheelai Wig (w/Scouter)",
+    "Hercule Wig 2"
+  ],
   "checks": {
     "all_resolved_identity_ids_exist": true,
     "all_bridge_ids_exist": true,
     "bridge_unmatched_list_matches_null_records": true,
     "no_near_name_merges": true
   },
-  "evidence_boundary": "Six exact identities were promoted because the maintained equipment-accessories record layer contains exact named records. Cheelai Wig, Cheelai Wig (w/Scouter), and Hercule Wig 2 remain unresolved because no exact canonical record is present; near-name records such as Hercule Wig are not merged. This does not establish current event availability or reward probability.",
+  "evidence_boundary": "The six exact raid identities previously promoted remain exact canonical matches. Golden Turtle Hermit's Shell is now a distinct canonical accessory (accr-113) supported by independent inventory/model evidence and Online Raid documentation; its Crystal Raid attribution remains unconfirmed. SSGSS Goku's Wig is reconciled as a naming variant of accr-096 using independent inventory/model evidence. Cheelai Wig, Cheelai Wig (w/Scouter), and Hercule Wig 2 remain unresolved; no near-name merges are performed. Current availability and reward probability remain outside this identity audit.",
   "status": "clean"
 }
