@@ -5562,3 +5562,11 @@
 - [x] Added `docs/data/skill-provenance-audit-2026-09-24-super-ghost-through-super-saiyan-god.json`.
 - [x] Recomputed census: **469 canonical / 469 index / 419 current / 50 stale / 0 duplicate IDs / canonical-index IDs aligned**.
 - [ ] Exact next stale batch: **Super Saiyan God Super Saiyan; Super Saiyan God Super Saiyan (Evolved); Super Spirit Bomb; Super Vegeta; Supernova; Supernova Cooler; Supersonic Mode; Supreme Fury; Surging Spirit; Symphonic Destruction; Tail Slicer; Taunt**.
+
+
+### 2026-09-24 cycle completion — Super Saiyan God Super Saiyan through Taunt
+- [x] Completed bounded P1 provenance refresh for 12 records: **Super Saiyan God Super Saiyan; Super Saiyan God Super Saiyan (Evolved); Super Spirit Bomb; Super Vegeta; Supernova; Supernova Cooler; Supersonic Mode; Supreme Fury; Surging Spirit; Symphonic Destruction; Tail Slicer; Taunt**.
+- [x] Synchronized canonical/index `last_verified=2026-09-24` for all 12.
+- [x] Added and registered `docs/data/skill-provenance-audit-2026-09-24-super-saiyan-god-super-saiyan-through-taunt.json`.
+- [x] Recomputed census: **469 canonical / 469 index / 431 current / 38 stale / 0 duplicate IDs / canonical-index IDs aligned**.
+- [ ] Exact next stale batch: **Teleporting Vanishing Ball; Temporal Holy Ray; The Power to Overcome; The Savior Has Come; Thunder Flash; Time Bullet; Time Control; Time Skip/Back Breaker; Time Skip/Flash Skewer; Time Skip/Jump Spike; Time Skip/Tremor Pulse; Timespace Impact**.
