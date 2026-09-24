@@ -6854,3 +6854,23 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: **465/465 canonical/index IDs**, **0 duplicate IDs**, **36 current / 429 stale** after editing; affected records retain their prior semantic fields.
 - CI/runtime remains unavailable; no CI success claimed.
 - Exact next stale batch: **Blaster Meteor; Blaster Shell; Blaster Stream; Blazing Attack; Bloody Counter; Blue Hurricane; Bluff Kamehameha; Body Change; Bomber DX; Brave Heat; Brave Sword Attack; Brave Sword Slash**.
+
+
+### 2026-09-24 cycle correction — stale-queue target reconciliation
+
+- The prior cycle entry/census contained a stale-queue mismatch: **Blades of Judgment** and **Blaster Ball** were already current at `last_verified=2026-09-24` when rechecked. No semantic data change was required for those two records; the historical entry is preserved unchanged as required.
+- The authoritative live canonical queue was recomputed from `docs/data/skills.json`; the actual next stale batch is the 12 records processed in the immediately following entry: Blaster Meteor through Brave Sword Slash.
+- The earlier census/audit/handoff commits are retained as historical correction context; this entry supersedes their queue interpretation without deleting history.
+
+
+### 2026-09-24 cycle update — Blaster Meteor through Brave Sword Slash provenance refresh
+
+- Live census before editing: **465 canonical / 465 index / 429 stale / 0 duplicate IDs**.
+- Completed the next bounded P1 provenance batch: **12 skill records** — Blaster Meteor, Blaster Shell, Blaster Stream, Blazing Attack, Bloody Counter, Blue Hurricane, Bluff Kamehameha, Body Change, Bomber DX, Brave Heat, Brave Sword Attack, and Brave Sword Slash.
+- Repository-first evidence review reused the maintained multi-source records and existing provenance audits. Existing acquisition endpoints, reward semantics, mechanics, costs, restrictions, and DLC semantics were preserved; no unsupported probability, Ultimate Finish gate, timer, damage value, stacking cap, or narrower restriction was introduced.
+- Refreshed canonical `last_verified` to **2026-09-24** for all 12 targets. The canonical/index ID contract remains synchronized; the index intentionally omits `last_verified`.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-24-blaster-meteor-through-brave-sword.json`.
+- Refreshed `docs/data/skill-stale-metadata-census-2026-09-24.json` from the live canonical layer.
+- Validation: **465/465 canonical/index IDs**, **0 duplicate IDs**, **48 current / 417 stale** after editing.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next stale batch: **Break Cannon; Breaker Energy Wave; Brutal Buster; Burning Attack; Burning Blast; Burning Shot; Burning Slash; Burning Swan; Burst Blitz; Burst Charge; Burst Kamehameha; Burst Reflection**.
