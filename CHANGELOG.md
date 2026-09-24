@@ -3045,3 +3045,11 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - No canonical promotion or unsupported acquisition route was introduced.
 - CI/runtime remains unavailable; no CI success claimed.
 - 2026-09-24: Refreshed Xenoverse 2 evidence audits for Boiling Burg, Energy Boil, Baked Sphere, Boulder Toss, and Boulder Break; unresolved Ki-cost/subtype fields remain intentionally unpromoted.
+
+
+### 2026-09-24 — Boulder subtype evidence reconciliation
+- Reconciled the research-gap records for **Boulder Toss** (skill ID 441) and **Boulder Break** (skill ID 442) against the repository's existing batch-286 taxonomy correction and current Xenoverse 2 Great Ape quest evidence.
+- Promoted only the **research-layer subtype** from unresolved to **Strike** for both records; the numeric `ki_cost` remains unresolved.
+- Updated and registered audit evidence; no canonical `skills.json` / `skills-index.json` promotion was attempted because the supported builder/runtime remains unavailable.
+- Preserved the CaC-unavailable boundary and did not infer any acquisition route or numeric cost.
+- Live canonical/index baseline remains **469 / 469**; CI/runtime remains unavailable and no CI success is claimed.
