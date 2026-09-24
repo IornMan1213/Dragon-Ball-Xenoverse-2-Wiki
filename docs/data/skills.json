@@ -11513,12 +11513,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "God of Destruction Beerus mentor training",
       "mechanics_notes": "Beerus's 300-Ki Ki Blast Ultimate; current skill reference describes a large tracking Ki-ball projectile with 13 hits.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "race_restriction": "All CaC races",
       "source_quest": "God of Destruction Beerus mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: Beerus mentor training remains the deterministic acquisition endpoint; current skill evidence confirms 300 Ki Ultimate/Ki Blast classification, large projectile behavior, tracking, and a 13-hit profile. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
+      "notes": "2026-09-22 provenance refresh: Beerus mentor training remains the deterministic acquisition endpoint; current skill evidence confirms 300 Ki Ultimate/Ki Blast classification, large projectile behavior, tracking, and a 13-hit profile. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-sphere-of-destruction",
       "source_mentor": [
         "mentor-beerus"
@@ -11541,12 +11541,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Yamcha mentor training — Lesson 3",
       "mechanics_notes": "Yamcha's Lesson 3 300-Ki Ki Blast Ultimate; acquisition is confirmed without an Ultimate Finish gate.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "race_restriction": "All CaC races",
       "source_quest": "Yamcha mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: Yamcha Lesson 3 is confirmed as the acquisition endpoint; current evidence confirms Spirit Ball as Yamcha's Ultimate/Ki Blast skill. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
+      "notes": "2026-09-22 provenance refresh: Yamcha Lesson 3 is confirmed as the acquisition endpoint; current evidence confirms Spirit Ball as Yamcha's Ultimate/Ki Blast skill. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-spirit-ball",
       "source_mentor": [
         "mentor-yamcha"
@@ -11570,7 +11570,7 @@
       "mechanics_notes": "PQ129 100-Ki Ki Blast Super; homing Ki Blasts can trigger a rapid follow-up barrage that can be cancelled by guarding.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Spirit_Blaster",
@@ -11580,7 +11580,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 129,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: PQ129 is confirmed as the acquisition endpoint; current evidence confirms 100 Ki Ki Blast Super classification, tracking projectile behavior, follow-up barrage, and guard-cancellable follow-up. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
+      "notes": "2026-09-22 provenance refresh: PQ129 is confirmed as the acquisition endpoint; current evidence confirms 100 Ki Ki Blast Super classification, tracking projectile behavior, follow-up barrage, and guard-cancellable follow-up. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-spirit-blaster",
       "source_parallel_quests": [
         129
@@ -11604,12 +11604,12 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Training with Goku",
       "mechanics": "Ki Blast Super learned from Goku mentor training; charge/release projectile.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
       "mechanics_notes": "Goku mentor Initiation Test 100-Ki Ki Blast Super; launches a large Spirit Bomb projectile.",
       "source_quest": "Goku mentor training",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: Goku's Initiation Test is confirmed as the acquisition endpoint; current instructor evidence confirms Spirit Bomb as a 100-Ki Ki Blast Super with no Ultimate Finish gate. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
+      "notes": "2026-09-22 provenance refresh: Goku's Initiation Test is confirmed as the acquisition endpoint; current instructor evidence confirms Spirit Bomb as a 100-Ki Ki Blast Super with no Ultimate Finish gate. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-spirit-bomb",
       "source_mentor": [
         "mentor-goku"
@@ -11631,12 +11631,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Skill Shop",
       "mechanics_notes": "0-Ki Other Super from the Skill Shop; creates a short-lived defensive field that cancels incoming Ki attacks.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-22 provenance refresh: Skill Shop acquisition is confirmed; current evidence confirms 0-Ki Other Super classification and a short defensive window that cancels incoming Ki attacks. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
+      "notes": "2026-09-22 provenance refresh: Skill Shop acquisition is confirmed; current evidence confirms 0-Ki Other Super classification and a short defensive window that cancels incoming Ki attacks. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-spirit-boost"
     },
     {
@@ -11656,7 +11656,7 @@
       "mechanics_notes": "200-Stamina Strike Evasive from PQ25; close-range blue explosion knocks nearby opponents away and can be used while taking damage.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Spirit_Explosion",
@@ -11666,7 +11666,7 @@
       "race_restriction": "All CaC races",
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: PQ25 is confirmed as the acquisition endpoint; current evidence confirms a 200-Stamina Strike Evasive usable by CaCs, with a close-range blue explosion that knocks opponents away. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
+      "notes": "2026-09-22 provenance refresh: PQ25 is confirmed as the acquisition endpoint; current evidence confirms a 200-Stamina Strike Evasive usable by CaCs, with a close-range blue explosion that knocks opponents away. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-spirit-explosion",
       "source_parallel_quests": [
         25
@@ -11689,7 +11689,7 @@
       "mechanics_notes": "100-Ki Ki Blast Super from PQ151; a slower single-shot variation of Soaring Fist using spirit energy.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Spirit_Pulse",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -11698,7 +11698,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 151,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: PQ151 is confirmed as the acquisition endpoint; current evidence confirms 100-Ki Ki Blast Super classification and the slower single-shot spirit-energy attack; the maintained Ultimate Finish bonus-roll condition is preserved. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
+      "notes": "2026-09-22 provenance refresh: PQ151 is confirmed as the acquisition endpoint; current evidence confirms 100-Ki Ki Blast Super classification and the slower single-shot spirit-energy attack; the maintained Ultimate Finish bonus-roll condition is preserved. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-spirit-pulse",
       "source_parallel_quests": [
         151
@@ -11721,7 +11721,7 @@
       "mechanics_notes": "Dedicated current-version evidence confirms Spirit Slash as a 200-Stamina Strike Evasive from PQ02. The Gohan (DBS Super Hero) variant uses 300 Stamina and can be charged to teleport behind the opponent. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Spirit_Slash",
@@ -11731,7 +11731,7 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": 2,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: PQ2 is the documented acquisition endpoint; current repository research classifies this as a 200-Stamina Strike Evasive usable by CaCs. The DBS Super Hero variant is distinct and should not be conflated with the base PQ2 record. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
+      "notes": "2026-09-22 provenance refresh: PQ2 is the documented acquisition endpoint; current repository research classifies this as a 200-Stamina Strike Evasive usable by CaCs. The DBS Super Hero variant is distinct and should not be conflated with the base PQ2 record. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-spirit-slash",
       "source_parallel_quests": [
         2
@@ -11753,9 +11753,9 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Expert Mission 17 — \"In the Realm of the Gods: Goku\"",
       "acquisition_type": "expert_mission",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM17. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing. Existing acquisition semantics are retained without inferring a drop probability or additional gate.",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM17. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing. Existing acquisition semantics are retained without inferring a drop probability or additional gate.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-spirit-sword"
     },
     {
@@ -11775,7 +11775,7 @@
       "mechanics_notes": "Dedicated current-version evidence confirms Spread Shot Retreat as a 300-Stamina Ki Blast Evasive from PQ28. It retreats while firing a tracking barrage that can stun. The current Evasive classification places it with Ki Blast/Energy Barrage-type Evasives. No unsupported CaC race/gender/form restriction was inferred. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Spread_Shot_Retreat",
@@ -11785,7 +11785,7 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": 28,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current repository character/preset evidence associates Spread Shot Retreat with Vegeta's Battle Suit preset. Acquisition semantics remain preserved from the canonical record rather than inferred from preset presence. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
+      "notes": "2026-09-22 provenance refresh: current repository character/preset evidence associates Spread Shot Retreat with Vegeta's Battle Suit preset. Acquisition semantics remain preserved from the canonical record rather than inferred from preset presence. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-spread-shot-retreat",
       "source_parallel_quests": [
         28
@@ -11808,7 +11808,7 @@
       "mechanics_notes": "Dedicated current-version evidence corrects Steel Mirage to a 100-Ki Ki Blast Super from PQ165. It rushes past the opponent and attacks from behind with a Destructo-Disc. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Steel_Mirage",
@@ -11817,7 +11817,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 165,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current repository skill research and catalog evidence were rechecked; canonical classification/acquisition fields are retained where the reviewed evidence does not establish a stronger deterministic correction. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
+      "notes": "2026-09-22 provenance refresh: current repository skill research and catalog evidence were rechecked; canonical classification/acquisition fields are retained where the reviewed evidence does not establish a stronger deterministic correction. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-steel-mirage",
       "source_parallel_quests": [
         165
@@ -11840,7 +11840,7 @@
       "mechanics_notes": "Corrected to a **Strike Super**, 100 Ki, PQ56. It throws up to 22 rocks and can be charged to greatly extend range; Hercule's version is categorized as Ki Blast. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. Explicit current reward evidence lists this skill in PQ56's Basic Reward set, so the acquisition route does not require an Ultimate Finish.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Stone_Bullet",
@@ -11850,7 +11850,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 56,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: PQ56 Basic Reward evidence is established in the repository; current catalog research classifies Stone Bullet as a Strike Super and retains no Ultimate Finish requirement. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
+      "notes": "2026-09-22 provenance refresh: PQ56 Basic Reward evidence is established in the repository; current catalog research classifies Stone Bullet as a Strike Super and retains no Ultimate Finish requirement. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
       "id": "skill-stone-bullet",
       "source_parallel_quests": [
         56
