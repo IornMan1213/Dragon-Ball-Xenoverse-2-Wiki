@@ -1,3 +1,12 @@
+### 2026-09-24 cycle update — canonical farming presentation consumer
+
+- Audited the remaining canonical farming presentation path after the farming reverse identity layer was already clean.
+- Added canonical farming-route rendering to `docs/Parallel-Quests-All.html`: PQ cards now load `pq_farming_route` edges from `docs/data/pq-reward-relationships.json` and expose search navigation for the canonical target.
+- Added `docs/data/farming/pq-farming-presentation-consumer-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- Validation: **7 farming forward edges / 1 canonical target (Dragon Balls) / PQ15, PQ22, PQ44, PQ45, PQ68, PQ83, PQ88 / 0 unresolved / 0 orphan reverse records / 0 duplicate PQ edges**; presentation consumer now explicitly renders those canonical routes.
+- No farming relationship edge, route efficiency claim, drop probability, guarantee, or Ultimate Finish condition was inferred.
+- **Exact next priority:** continue deterministic remaining non-PQ/cross-domain presentation consumer scanning for one-way navigation, stale scalars, orphan targets, and identity drift; prioritize character/preset or event/raid consumers that are not already covered by the registered audits, then resume source-backed thin-domain expansion.
+
 ### 2026-09-24 cycle update — completed skill verification-date queue
 
 - Re-read the live skill provenance state rather than trusting the older handoff batch.
