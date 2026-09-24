@@ -1,5 +1,13 @@
 # Skills Database (Expanded Local Reference)
 
+## Canonical Skill Explorer
+For record-level searching and cross-database navigation, use the canonical [Skills Explorer](Skills-All.html). It links individual skills to supported acquisition and related records without replacing the evidence boundaries of this local reference.
+
+- [Search every skill record](Skills-All.html)
+- [Browse Characters](Characters-All.html)
+- [Browse Parallel Quests](Parallel-Quests-All.html)
+
+
 This page keeps core skill information **on-wiki**. Full exhaustive tables live on Fandom; this wiki hosts categorized lists, acquisition methods, and notable examples so users can work without leaving.
 
 ## Skill Slot Structure
