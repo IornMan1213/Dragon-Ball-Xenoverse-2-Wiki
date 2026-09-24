@@ -6721,3 +6721,9 @@
 - [x] Confirmed the builder imports all local `skill-batch-*.json` research records and writes `skills.json` + `skills-index.json` together, so Savage Strike is correctly staged in research but should not be manually reconstructed into the oversized canonical files.
 - [x] Confirmed the latest commits do not have associated workflow runs exposed by the connector; no build/validation success is claimed.
 - [ ] **Next:** run the existing Skills Catalog Sync workflow through an available Actions-dispatch mechanism (or execute the builder in a repository-backed runtime) and then validate the generated 470/470 catalog, duplicate IDs, schema, PQ links, and acquisition projections.
+
+### 2026-09-24 continuation — Savage Strike sync trigger attempt
+- [x] Marked the completed Savage Strike research batch as `canonical_integration_ready=true`, explicitly authorizing the existing builder to consume it while preserving the unresolved TP Medal Shop price.
+- [x] This commit touched `docs/data/skill-research-batches/**`, a path covered by `.github/workflows/skills-sync.yml`, providing the repository's native push-trigger route for the canonical build.
+- [x] Checked the resulting commit for Actions workflow runs and combined commit statuses; the connector exposed **no workflow run and no status**, so execution cannot be claimed.
+- [ ] **Next:** if Actions execution remains unavailable, continue source-backed P1 enrichment on the next target (Quick Sleep → Pressure Sign) while retaining Savage Strike at 469/469 until a real canonical build executes.
