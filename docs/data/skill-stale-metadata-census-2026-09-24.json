@@ -6,22 +6,13 @@
   "live_counts": {
     "canonical_skill_records": 469,
     "index_skill_records": 469,
-    "current_last_verified_records": 467,
-    "stale_last_verified_records": 2,
+    "current_last_verified_records": 469,
+    "stale_last_verified_records": 0,
     "duplicate_ids": 0
   },
-  "next_stale_batch": [
-    {
-      "name": "x10 Kamehameha",
-      "id": "skill-x10-kamehameha"
-    },
-    {
-      "name": "Zigzag Express",
-      "id": "skill-zigzag-express"
-    }
-  ],
+  "next_stale_batch": [],
   "notes": [
-    "Recomputed from live canonical/index data after the Total Detonation Ball through Variant Drive batch.",
+    "Recomputed from live canonical/index data after the final x10 Kamehameha through Zigzag Express batch.",
     "Canonical/index IDs and ordering remain aligned.",
     "Existing evidence boundaries and conflicts preserved.",
     "CI/runtime remains unavailable; no CI success claimed."
