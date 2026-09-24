@@ -315,9 +315,9 @@
       "provenance": {
         "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
         "source_type": "independent_expert_mission_guide",
-        "reward_tier": "Basic Reward",
+        "reward_tier": null,
         "verified_date": "2026-09-23",
-        "notes": "The guide's EM17 Basic Reward line says Spirit Bomb rather than Spirit Sword. Therefore the endpoint's canonical Spirit Sword identity is retained from the repository's dedicated skill evidence, but this guide is not used to establish Spirit Sword's reward-tier mapping."
+        "notes": "The guide's EM17 Basic Reward line says Spirit Bomb rather than Spirit Sword. Therefore the endpoint's canonical Spirit Sword identity is retained from dedicated skill evidence, but this guide is not used to establish a Spirit Sword reward tier. Reward-tier field is intentionally null for this endpoint."
       }
     },
     {
