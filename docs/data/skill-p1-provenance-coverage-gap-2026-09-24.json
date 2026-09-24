@@ -28,11 +28,12 @@
     "canonical_index_parity": true,
     "ci": "Unavailable; no CI success claimed."
   },
-  "exact_next": "Select the next unresolved P1 provenance target from the existing research corpus, refresh evidence-backed fields, register the audit, and preserve canonical/index parity.",
+  "exact_next": "Select the next unresolved P1 provenance target from the existing research corpus, refresh only evidence-backed fields, register the audit, and preserve canonical/index parity.",
   "completed_targets": [
     "Savage Strike",
     "Quick Sleep",
     "Pressure Sign",
-    "Punisher Shield"
+    "Punisher Shield",
+    "Critical Upper"
   ]
 }
