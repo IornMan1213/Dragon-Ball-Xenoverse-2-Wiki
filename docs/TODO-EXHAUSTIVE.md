@@ -1,3 +1,12 @@
+### 2026-09-24 completed global navigation audit reconciliation
+- [x] Re-inspected both live layouts after the prior navigation migration.
+- [x] Confirmed `docs/_layouts/home.html` and `docs/_layouts/wiki.html` both already target `/Parallel-Quests-All/`; the prior audit's "home navigation not changed" note was stale.
+- [x] Reconciled `docs/data/global-navigation-canonical-explorer-audit-2026-09-24-c.json` with the live layout state.
+- [x] Confirmed Expert Missions remains `/Expert-Missions/` because no canonical Expert Missions explorer exists.
+- [x] No gameplay, acquisition, identity, or relationship data changed.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next:** continue the highest-impact exhaustive preset/loadout evidence tranche, requiring a direct numeric-preset-to-complete-loadout binding before promotion.
+
 ### 2026-09-24 completed bounded skill P1 provenance enrichment — PQ61–PQ70 tranche
 - [x] Added `docs/data/skill-p1-provenance-enrichment-2026-09-24-recoome-pq61-batch.json` covering Fighting Pose H, Teleporting Vanishing Ball, Ill Rain, Scissors Paper Rock, Super God Fist, Angry Shout, Headshot, and Emperor's Blast.
 - [x] Strengthened source-backed classification, resource cost, acquisition endpoint, and directly documented mechanics fields without promoting reward probabilities, Ultimate-Finish requirements, or unsupported numeric combat data.
