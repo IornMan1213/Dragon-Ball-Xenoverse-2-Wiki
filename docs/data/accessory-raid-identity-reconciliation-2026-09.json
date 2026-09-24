@@ -15,21 +15,23 @@
     },
     {
       "source_name": "Cheelai Wig",
-      "canonical_id": null,
-      "status": "unresolved",
+      "canonical_id": "accr-114",
+      "status": "resolved_exact_canonical_identity",
       "evidence": [
-        "Online Raid Quest documentation lists Cheelai Wig separately from Cheelai Wig (w/Scouter)."
+        "Online Raid Quest documentation lists Cheelai Wig separately from Cheelai Wig (w/Scouter).",
+        "Independent inventory/model reference identifies Cheelai Wig as model ID 779, distinct from the scouter variant."
       ],
-      "notes": "Treat the no-scouter and with-scouter versions as separate named variants until inventory evidence proves otherwise."
+      "notes": "Exact canonical identity promoted; Time Patroller Takedown remains route evidence only."
     },
     {
       "source_name": "Cheelai Wig (w/Scouter)",
-      "canonical_id": null,
-      "status": "unresolved",
+      "canonical_id": "accr-115",
+      "status": "resolved_exact_canonical_identity",
       "evidence": [
-        "Online Raid Quest documentation lists the scouter variant separately."
+        "Online Raid Quest documentation lists the scouter variant separately.",
+        "Independent inventory/model reference identifies the scouter variant as model ID 777, distinct from Cheelai Wig."
       ],
-      "notes": "Do not merge with the normal Cheelai Wig."
+      "notes": "Exact canonical identity promoted; Impending Danger/Jiren raid remains route evidence only."
     },
     {
       "source_name": "Tights Hat",
@@ -69,12 +71,14 @@
     },
     {
       "source_name": "Hercule Wig 2",
-      "canonical_id": null,
-      "status": "unresolved",
+      "canonical_id": "accr-116",
+      "status": "resolved_exact_canonical_identity",
       "evidence": [
-        "Raid documentation lists Hercule Wig 2 through raid routes."
+        "Raid documentation lists Hercule Wig 2 through raid routes.",
+        "Independent inventory/model reference identifies Hercule Wig 2 as model ID 946, distinct from Hercule Wig.",
+        "Official Bandai Namco event documentation lists Hercule Wig 2 as an individual raid reward."
       ],
-      "notes": "Must remain distinct from Hercule Wig unless the game's inventory names demonstrate equivalence."
+      "notes": "Exact canonical identity promoted; raid history remains route evidence only."
     },
     {
       "source_name": "Tiencha Wig",
@@ -95,6 +99,9 @@
   ],
   "sources": [
     "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
-    "https://dbxv2.fandom.com/wiki/Free_Update"
+    "https://dbxv2.fandom.com/wiki/Free_Update",
+    "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-new-dlc-character-and-7-day-consecutive-world-tournament",
+    "https://dragonball.fandom.com/wiki/Cheelai",
+    "https://www.scribd.com/document/827095341/Demons-Xenoverse-ID-List"
   ]
 }
