@@ -6538,3 +6538,13 @@
 - [x] Added and registered `docs/data/vegeta-10-11-preset-loadout-evidence-audit-2026-09-24.json`.
 - [x] Commits: `c74f76e6a70352f4ef665910e27c4c4511e764bf`, `216775a5189aa8bf504e4625fdeb47a282bc069a`, `1d8b8f083f68104f1aaf92c681e9ac38d307751c`.
 - [ ] **Exact next:** audit Captain Ginyu Presets 5–6 with the same complete-loadout evidence gate.
+
+### 2026-09-24 completed Captain Ginyu Presets 5–6 evidence pass
+- [x] Audited both unresolved numeric Captain Ginyu presets.
+- [x] Community unlock evidence explicitly identifies Preset 5 at 31:23 and Preset 6 at 41:34, but does not expose complete loadouts. citeturn0youtube12
+- [x] Japanese gameplay reference documents Ginyu configurations, but does not bind its unlabeled configurations to numeric Presets 5–6; no sequence inference was used. citeturn0search2
+- [x] Legacy GameFAQs documentation provides variant skills but does not establish current numeric 5–6 mapping. citeturn0search1
+- [x] No loadout fields were promoted; both records remain indexed/unresolved.
+- [x] Added and registered `docs/data/captain-ginyu-5-6-preset-loadout-evidence-audit-2026-09-24.json`.
+- [x] Commits: `44d5cfa2921f201e94aad91a91d148cfcf3247c3`, `4af784c97d1c7133e53492485466e7a877865ae8`.
+- [ ] **Exact next:** find a source explicitly binding Captain Ginyu Presets 5–6 to complete loadout rows; if unavailable, proceed to the next unresolved numeric preset batch without inference.
