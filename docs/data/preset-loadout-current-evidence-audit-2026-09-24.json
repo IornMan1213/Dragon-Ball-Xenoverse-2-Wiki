@@ -6,7 +6,8 @@
     "canonical_preset_records": 51,
     "verified_loadout_records": 26,
     "unresolved_loadout_records": 25,
-    "verified_loadout_skill_entries": 0
+    "verified_loadout_skill_entries": 162,
+    "verified_loadout_skill_entries_definition": "Count of populated Super Attack, Ultimate Attack, and Evasive Skill slots across the 26 verified loadouts; Awoken Skill slots are tracked separately and excluded from this metric."
   },
   "checks": [
     {
@@ -80,6 +81,11 @@
         "source": "https://dbxv2.fandom.com/wiki/Goku_%28Super_Saiyan_God%29",
         "finding": "Provides a complete named SSG Goku loadout, but does not establish the repository numeric preset identity for the unresolved SSG record.",
         "result": "insufficient_for_numeric_promotion"
+      },
+      {
+        "source": "repository canonical producer docs/data/character-presets-record-layer.json",
+        "finding": "Live producer contains 51 preset records, 26 verified loadouts, and 162 populated Super Attack/Ultimate Attack/Evasive slots across verified loadouts; this replaces the stale 0 scalar in this audit without changing any preset identity or loadout evidence.",
+        "result": "current_scalar_reconciled"
       }
     ]
   },
@@ -91,6 +97,7 @@
     "expected_numeric_unresolved_count": 20,
     "present_numeric_unresolved_count": 20,
     "duplicate_record_ids": 0,
-    "status": "pass"
+    "status": "pass",
+    "verified_loadout_skill_entries": 162
   }
 }
