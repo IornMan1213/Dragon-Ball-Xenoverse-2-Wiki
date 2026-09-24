@@ -6,52 +6,64 @@
   "live_counts": {
     "canonical_skill_records": 469,
     "index_skill_records": 469,
-    "current_last_verified_records": 419,
-    "stale_last_verified_records": 50,
+    "current_last_verified_records": 431,
+    "stale_last_verified_records": 38,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
     {
-      "name": "Super Saiyan God Super Saiyan"
+      "name": "Teleporting Vanishing Ball",
+      "id": "skill-teleporting-vanishing-ball"
     },
     {
-      "name": "Super Saiyan God Super Saiyan (Evolved)"
+      "name": "Temporal Holy Ray",
+      "id": "skill-temporal-holy-ray"
     },
     {
-      "name": "Super Spirit Bomb"
+      "name": "The Power to Overcome",
+      "id": "skill-the-power-to-overcome"
     },
     {
-      "name": "Super Vegeta"
+      "name": "The Savior Has Come",
+      "id": "skill-the-savior-has-come"
     },
     {
-      "name": "Supernova"
+      "name": "Thunder Flash",
+      "id": "skill-thunder-flash"
     },
     {
-      "name": "Supernova Cooler"
+      "name": "Time Bullet",
+      "id": "skill-time-bullet"
     },
     {
-      "name": "Supersonic Mode"
+      "name": "Time Control",
+      "id": "skill-time-control"
     },
     {
-      "name": "Supreme Fury"
+      "name": "Time Skip/Back Breaker",
+      "id": "skill-time-skip-back-breaker"
     },
     {
-      "name": "Surging Spirit"
+      "name": "Time Skip/Flash Skewer",
+      "id": "skill-time-skip-flash-skewer"
     },
     {
-      "name": "Symphonic Destruction"
+      "name": "Time Skip/Jump Spike",
+      "id": "skill-time-skip-jump-spike"
     },
     {
-      "name": "Tail Slicer"
+      "name": "Time Skip/Tremor Pulse",
+      "id": "skill-time-skip-tremor-pulse"
     },
     {
-      "name": "Taunt"
+      "name": "Timespace Impact",
+      "id": "skill-timespace-impact"
     }
   ],
   "notes": [
-    "Canonical/index counts and IDs remain aligned.",
-    "Counts recomputed from live canonical data after the Super Ghost Buu Attack through Super Saiyan God batch.",
-    "Existing acquisition, reward, mechanics, restriction, DLC/update, and evidence-conflict semantics were preserved.",
-    "CI/runtime remains unavailable; no CI success is claimed."
+    "Counts recomputed from live canonical data after the Super Saiyan God Super Saiyan through Taunt batch.",
+    "Canonical/index IDs and ordering remain aligned.",
+    "Existing evidence boundaries and conflicts preserved.",
+    "CI/runtime remains unavailable; no CI success claimed."
   ]
 }
