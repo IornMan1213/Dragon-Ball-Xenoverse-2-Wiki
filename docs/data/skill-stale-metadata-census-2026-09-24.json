@@ -6,28 +6,28 @@
   "live_counts": {
     "canonical_skill_records": 465,
     "index_skill_records": 465,
-    "current_last_verified_records": 60,
-    "stale_last_verified_records": 405,
+    "current_last_verified_records": 72,
+    "stale_last_verified_records": 393,
     "duplicate_ids": 0
   },
   "current_date": "2026-09-24",
   "next_stale_batch": [
-    "skill-burst-rush",
-    "skill-burst-stinger",
-    "skill-buu-buu-ball",
-    "skill-candy-beam",
-    "skill-candy-beam-super",
-    "skill-celestial-wave",
-    "skill-chain-destructo-disc-barrage",
-    "skill-change-the-future",
-    "skill-chaos-shot",
-    "skill-chaos-wall",
-    "skill-chaotic-time-impact",
-    "skill-charge"
+    "skill-charged-ki-wave",
+    "skill-circle-flash",
+    "skill-comet-strike",
+    "skill-confusion-blade",
+    "skill-core-breaker",
+    "skill-counter-burst",
+    "skill-counter-impact",
+    "skill-crazy-finger-shot",
+    "skill-crimson-edge",
+    "skill-critical-upper",
+    "skill-crush-cannon",
+    "skill-crush-stream"
   ],
   "notes": [
     "Stale means last_verified != 2026-09-24; stale metadata is a priority signal, not evidence that a record is incorrect.",
-    "This census follows the 12-record Break Cannon through Burst Reflection refresh.",
+    "This census follows the 12-record Burst Rush through Charge refresh.",
     "No canonical skill identities or acquisition relationships were changed by the census."
   ]
 }
