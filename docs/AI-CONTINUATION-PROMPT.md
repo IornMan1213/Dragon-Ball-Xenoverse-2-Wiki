@@ -13,3 +13,12 @@
 - [x] Confirmed Expert Missions remains on its existing route because no canonical Expert Missions explorer file exists.
 - [x] Preserved navigation-only semantics; no factual relationships changed.
 - [ ] **Next:** continue remaining consumer scan for stale counts/legacy destinations and one-way links, then return to direct numeric preset-label + complete eight-slot configuration evidence.
+
+### 2026-09-24 cycle completion — PQ explorer validator contract synchronization
+- [x] Inspected the live `docs/Parallel-Quests-All.html` explorer and the related PQ consumer validators after the canonical explorer navigation bridge.
+- [x] Found a stale deterministic validator assumption in `scripts/validate_pq_page_consumers.py`: it still described PQ→Skill navigation as Search-based and checked for the obsolete `searchUrl(v)` contract, while the live explorer uses `skillUrl(v)` → `Skills-All.html?q=...`.
+- [x] Repaired that validator contract only; no canonical relationship, acquisition, or gameplay data changed.
+- [x] Added and registered `docs/data/pq-explorer-validator-contract-synchronization-2026-09-24.json`.
+- [x] Static validation: the repaired assertion now matches the live explorer's canonical skill reward-link construction; intentional PQ→DLC generic Search fallback remains documented because DLC-Overview is not a query explorer.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next batch:** continue deterministic Event/Raid/Festival/Chapter 4 consumer scanning for stale self-reported metadata, one-way navigation, orphan targets, and canonical-ID drift; then resume direct numeric preset-label + complete eight-slot configuration evidence only where explicitly supported.
