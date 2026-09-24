@@ -111,7 +111,7 @@ This correction is intentional: the project goal is an exhaustive encyclopedia, 
 - [ ] Improve mentor progression, training-stage rewards, and DLC mentor availability data.
 - [ ] Expand Conton City and Time Rift records with complete NPC, service, progression, collectible, and access relationships.
 - [ ] Continue removing internal/tool artifacts from repository text.
-- [ ] Diagnose the cleanup/repository-quality artifact failure; `strip_internal_artifacts.py` now also removes bare `filecite`/`memcite` markers, but the workflows still fail and the connector exposes no usable logs.
+- [ ] Diagnose the cleanup/repository-quality artifact failure; `strip_internal_artifacts.py` now also removes bare ``/`` markers, but the workflows still fail and the connector exposes no usable logs.
 - [ ] Recheck native GitHub Pages deployment status after repository changes; do not mark it successful until an actual successful run is observable.
 - [ ] Run/strengthen data audits for duplicate names, invalid enums, missing sources, contradictory CaC/race metadata, and incomplete acquisition fields.
 - [ ] Continue improving the GitHub Pages website: navigation, search/explorer UI, responsive layout, data cards, typography, accessibility, empty/error states, and visual consistency.
