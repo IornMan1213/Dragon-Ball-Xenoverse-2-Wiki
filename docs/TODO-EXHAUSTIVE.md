@@ -5666,3 +5666,13 @@
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next batch: inspect the next non-PQ reverse projection/partial research index for deterministic current-count or target-resolution drift, prioritizing DLC presentation consumers and mentor/shop/event reverse indexes before speculative content expansion.
 - Commit: published Character/DLC navigation audit `548baafb8f08ae44ac18eff0b9b2b31a84af8d56`.
+
+
+### 2026-09-24 cycle completion — live non-PQ shop/coverage consumer reconciliation
+- [x] Audited the live docs/data/skill-shop-endpoints.json producer against current canonical skill coverage and identified the superseded 2026-09-23 **465 / 13 / 18** shop audit projection.
+- [x] Added and registered docs/data/skill-shop-endpoint-layer-audit-2026-09-24.json with the current **469 canonical / 14 Skill Shop / 19 TP-STP / 33 total shop-linked** census.
+- [x] Synchronized the nested current projection in docs/data/skill-acquisition-coverage-report.json to **469 canonical / 239 PQ-linked / 230 non-PQ / 131 unique mentor skill targets / 99 non-PQ non-mentor targets** while preserving historical 465-era figures.
+- [x] Removed stale current claims that mentors and Expert Missions were missing canonical endpoint layers; the canonical endpoint layers are now present and separately audited.
+- [x] Validation: **469 canonical / 239 PQ-linked / 230 non-PQ / 131 mentor targets / 99 non-PQ non-mentor targets / 33 shop-linked skills / forward↔reverse shop parity clean / 0 unresolved shop skill IDs**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next priority:** inspect the next machine-checkable non-PQ reverse projection/consumer for stale counts or orphan targets, prioritizing another deterministic consumer over speculative content expansion.
