@@ -6874,3 +6874,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: **465/465 canonical/index IDs**, **0 duplicate IDs**, **48 current / 417 stale** after editing.
 - CI/runtime remains unavailable; no CI success claimed.
 - Exact next stale batch: **Break Cannon; Breaker Energy Wave; Brutal Buster; Burning Attack; Burning Blast; Burning Shot; Burning Slash; Burning Swan; Burst Blitz; Burst Charge; Burst Kamehameha; Burst Reflection**.
+
+
+### 2026-09-24 cycle update — Break Cannon through Burst Reflection provenance refresh
+
+- Live census before editing: **465 canonical / 465 index / 417 stale / 0 duplicate IDs**.
+- Completed the next bounded P1 batch: **12 skill records** — Break Cannon; Breaker Energy Wave; Brutal Buster; Burning Attack; Burning Blast; Burning Shot; Burning Slash; Burning Swan; Burst Blitz; Burst Charge; Burst Kamehameha; Burst Reflection .
+- Repository-first evidence review used the existing maintained source/provenance records for each target; source-backed acquisition and evidence boundaries were preserved rather than inferred or expanded.
+- Refreshed canonical last_verified to **2026-09-24** for all 12 targets. No canonical skill identity or acquisition relationship was changed.
+- Added `docs/data/skill-provenance-audit-2026-09-24-break-through-burst.json`.
+- Refreshed `docs/data/skill-stale-metadata-census-2026-09-24.json` from the live canonical layer.
+- Validation: **465/465 canonical/index IDs**, **0 duplicate IDs**, **60 current / 405 stale** after editing.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next stale batch: **Burst Rush; Burst Stinger; Buu Buu Ball; Candy Beam; Candy Beam (Super); Celestial Wave; Chain Destructo-Disc Barrage; Change The Future; Chaos Shot; Chaos Wall; Chaotic Time Impact; Charge**.
