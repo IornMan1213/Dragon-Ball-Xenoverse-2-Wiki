@@ -1,10 +1,10 @@
 # Character Encyclopedia
 
-The character section is being built as a **record-by-record encyclopedia**, not merely a roster list. The source reconciliation currently contains **151 canonical character identities** from a source category that exposed 155 items, plus a separately tracked 54-entry DLC-character category. The difference is intentional: category/template/race-navigation items are not silently counted as characters.
+The character section is being built as a **record-by-record encyclopedia**, not merely a roster list. The source reconciliation currently contains **153 canonical character identities** from a source category that exposed 155 items, plus a separately tracked 54-entry DLC-character category. The difference is intentional: category/template/race-navigation items are not silently counted as characters.
 
 ## Canonical character explorer
 
-The published **[Every Character Explorer](Characters-All.html)** now exposes all 151 canonical identities with indexed preset records and explicit PQ reverse-navigation links. It is a navigation/index surface, not a claim that every character's unlock, preset, DLC, or gameplay field is fully researched.
+The published **[Every Character Explorer](Characters-All.html)** now exposes all 153 canonical identities with indexed preset records and explicit PQ reverse-navigation links. It is a navigation/index surface, not a claim that every character's unlock, preset, DLC, or gameplay field is fully researched.
 
 ## Hard-written character profiles
 
@@ -56,7 +56,7 @@ The DLC headline-character baseline now has an explicit presentation bridge to t
 
 ## Canonical roster index
 
-The following names are the current canonical record layer. They are intentionally preserved as individual searchable identities; forms and variants are not silently merged just because they share a base character.
+The following names are the current canonical record layer. The two Chapter 4 identities added from publisher-confirmed DLC evidence are retained even though the older source-category snapshot had not yet exposed them. They are intentionally preserved as individual searchable identities; forms and variants are not silently merged just because they share a base character.
 
 ### Androids, Bio-Androids and related
 
