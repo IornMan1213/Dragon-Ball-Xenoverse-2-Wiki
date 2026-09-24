@@ -1,3 +1,9 @@
+
+### 2026-09-24 completed Festival audit registry cleanup
+- [x] Registered the existing Festival skill-character presentation audit in docs/data/pq-cross-domain-index.json.
+- [x] Added the registry synchronization to CHANGELOG.md.
+- [x] Confirmed no canonical relationship or gameplay data changed.
+- [ ] **Next:** continue deterministic event/raid/Festival/Chapter 4 consumer scanning, then resume exhaustive preset/loadout research.
 ### 2026-09-24 completed current character/equipment/raid consumer synchronization
 - [x] Re-scanned current-facing non-PQ consumers after Chapter 4 character and final raid-accessory identity reconciliation.
 - [x] Repaired stale current projections from **151 → 153 characters**, **465 → 469 skills**, **173 → 174 equipment/accessory records**, and **9 → 11 raid accessory identities**.
