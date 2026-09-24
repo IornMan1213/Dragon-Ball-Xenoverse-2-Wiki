@@ -145,8 +145,8 @@
   },
   "validator": "scripts/validate_record_reverse_pq_navigation.py",
   "evidence_boundary": "Canonical PQ links and structured PQ ID fields establish relationship identity only. Exact (record, PQ) pair parity is checked in both directions; acquisition prose may preserve historical/source conflicts and does not establish reward guarantees, Ultimate Finish requirements, drop rates, or unresolved acquisition claims. The 2026-09-22 presentation hardening also requires each indexed Super Soul/equipment record card to link its canonical name to the local full-text Search surface, preserving the existing explorer-to-PQ reverse links.",
-  "date": "2026-09-23",
-  "status": "clean",
+  "date": "2026-09-24",
+  "status": "clean_current_853",
   "validator_commit": "0560e25e6a48545878bdfcd6436de251e85aa18c",
   "exact_forward_pair_contract": {
     "super_souls": {
@@ -175,5 +175,34 @@
     "record_search_navigation": true,
     "search_query_navigation": true
   },
-  "next_action": "Continue exact-pair parity scanning of remaining reverse/navigation projections against the current 853-edge / 145-Super-Soul canonical relationship layer; preserve historical 854/146 snapshots."
+  "next_action": "Continue exact-pair parity scanning of remaining reverse/navigation projections against the current 853-edge / 145-Super-Soul canonical relationship layer; prioritize non-PQ equipment/accessory presentation consumers and preserve historical 854/146 snapshots.",
+  "current_baseline": {
+    "total_edges": 853,
+    "skill": 244,
+    "super_soul": 145,
+    "equipment": 124,
+    "character": 247,
+    "dlc": 86,
+    "farming": 7
+  },
+  "validation_refresh": {
+    "equipment": {
+      "canonical_pair_count": 124,
+      "structured_pair_count_for_canonical_targets": 124,
+      "reverse_pair_missing": [],
+      "reverse_pair_extra": [],
+      "duplicate_canonical_pairs": 0,
+      "duplicate_structured_pairs": 0
+    },
+    "super_souls": {
+      "canonical_pair_count": 145,
+      "structured_pair_count_for_canonical_targets": 145,
+      "reverse_pair_missing": [],
+      "reverse_pair_extra": [],
+      "duplicate_canonical_pairs": 0,
+      "duplicate_structured_pairs": 0
+    },
+    "current_source_route_conflicts_preserved": true,
+    "historical_counts_preserved": true
+  }
 }
