@@ -40,16 +40,17 @@
   "resolved_fields": {
     "classification": "Super Skill",
     "cac_available": false,
-    "character_source": "Saibaman / Saibaman 2; separate raid-boss Acid ID also documented"
+    "character_source": "Saibaman / Saibaman 2; separate raid-boss Acid ID also documented",
+    "acquisition_status": "Not obtainable by CaC / no CaC unlock route documented"
   },
   "unresolved_fields": [
-    "ki_cost",
-    "unlock_method"
+    "ki_cost"
   ],
   "guardrails": [
     "Do not infer Ki cost from Xenoverse or other games.",
     "Do not create a CaC acquisition route from NPC/Crystal Raid-only usage.",
     "Do not promote to canonical skills.json without supported builder execution and required field coverage.",
-    "Do not merge skill ID 140 and raid-boss skill ID 143 without explicit canonical identity mapping."
+    "Do not merge skill ID 140 and raid-boss skill ID 143 without explicit canonical identity mapping.",
+    "Do not invent a CaC unlock route when the skill is documented as CaC-unavailable."
   ]
 }
