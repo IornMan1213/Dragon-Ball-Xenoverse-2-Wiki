@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-24",
+  "scope": "Live canonical skill verification-date metadata census",
+  "source_of_truth": "docs/data/skills.json",
+  "live_counts": {
+    "canonical_skill_records": 465,
+    "index_skill_records": 465,
+    "current_last_verified_records": 36,
+    "stale_last_verified_records": 429,
+    "duplicate_ids": 0
+  },
+  "current_date": "2026-09-24",
+  "next_stale_batch": [
+    "skill-blades-of-judgment",
+    "skill-blaster-ball"
+  ],
+  "notes": [
+    "Stale means last_verified != 2026-09-24; stale metadata is a priority signal, not evidence that a record is incorrect.",
+    "This census follows the 12-record Atomic Blast through Blaster Cannon refresh.",
+    "No canonical skill identities or acquisition relationships were changed by the census."
+  ]
+}
