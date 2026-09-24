@@ -7395,3 +7395,17 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next batch: inspect the next non-PQ reverse projection/partial research index for deterministic current-count or target-resolution drift, prioritizing DLC presentation consumers and mentor/shop/event reverse indexes before speculative content expansion.
 - Commit: published Character/DLC navigation audit `548baafb8f08ae44ac18eff0b9b2b31a84af8d56`.
+
+
+### 2026-09-24 cycle update — live non-PQ shop/coverage consumer reconciliation
+
+- Completed the next deterministic P1 cross-domain consumer audit after the 469-skill endpoint-union repair.
+- Audited the live shop endpoint producer docs/data/skill-shop-endpoints.json against its canonical skill source and found the historical 2026-09-23 shop audit still exposed the superseded **465 / 13 Skill Shop / 18 TP-STP** projection.
+- Added docs/data/skill-shop-endpoint-layer-audit-2026-09-24.json with the live **469 canonical / 14 Skill Shop / 19 TP-STP / 33 total shop-linked skill edges** census and registered it in docs/data/pq-cross-domain-index.json.
+- Reconciled docs/data/skill-acquisition-coverage-report.json current nested projection from the stale **465 / 226 / 130 mentor-target** snapshot to the live **469 / 230 / 131 mentor-target / 99 non-PQ-non-mentor** baseline. The old 465-era figures remain explicitly preserved in historical notes.
+- Corrected the coverage report's current interpretation of mentor and Expert Mission layers: stable canonical endpoint layers now exist, so they are no longer listed as missing canonical layers.
+- Validation: **469 canonical skills / 239 PQ-linked / 230 non-PQ / 131 unique mentor skill targets / 99 non-PQ non-mentor targets / 33 shop-linked skills / forward↔reverse shop skill-ID parity true / audit registered / 0 unresolved shop skill IDs**.
+- Evidence limits preserved: shop endpoint projections do not establish current rotation, price, drop rate, first-clear guarantee, or progression timing beyond canonical evidence.
+- CI/runtime unavailable; no CI success claimed.
+- Commits: shop audit 5187d122e475078c0f2784b0fe388d463df9bd1f; coverage synchronization 5716f6aa22c6df793853cd3be79799cde11cd725; cross-domain registration 12aa841d5b6c7fecd5e103716452b07dfc5c6e85.
+- Exact next priority: inspect the next machine-checkable non-PQ reverse projection/consumer for stale current counts or orphan targets, continuing from the live 469-skill endpoint union rather than speculative gameplay expansion.
