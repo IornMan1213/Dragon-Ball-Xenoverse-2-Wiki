@@ -1,3 +1,12 @@
+### 2026-09-24 cycle update — Current 465-skill baseline consumer synchronization
+
+- [x] Reconciled `docs/data/skill-acquisition-coverage-report.json` to the live **465 canonical / 239 PQ-linked / 226 without PQ / 131 mentor-linked / 95 non-PQ/non-mentor** skill baseline.
+- [x] Reconciled the live stale-metadata census to **465 canonical / 465 index / 465 current / 0 stale / 0 duplicate IDs** after Expert Mission index promotion.
+- [x] Added and registered `docs/data/skill-current-baseline-consumer-synchronization-2026-09-24.json`.
+- [x] Preserved historical 455-record counts; no canonical skill identities or acquisition relationships were changed.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** search remaining current-looking consumers for superseded skill/domain counts, repair only live assertions, then continue bounded source-backed provenance work across the 95 non-PQ/non-mentor endpoint targets.
+
 ### 2026-09-23 cycle update — Residual accessory domain-resolution synchronization
 
 - Completed the deterministic residual accessory reconciliation for **Resistance Helmet (PQ111 / equip-135)** and **Gine (DB Super)'s Accessory (PQ144 / equip-050)**.
