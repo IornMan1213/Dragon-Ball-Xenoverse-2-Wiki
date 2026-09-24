@@ -6,28 +6,28 @@
   "live_counts": {
     "canonical_skill_records": 465,
     "index_skill_records": 465,
-    "current_last_verified_records": 36,
-    "stale_last_verified_records": 429,
+    "current_last_verified_records": 48,
+    "stale_last_verified_records": 417,
     "duplicate_ids": 0
   },
   "current_date": "2026-09-24",
   "next_stale_batch": [
-    "skill-blaster-meteor",
-    "skill-blaster-shell",
-    "skill-blaster-stream",
-    "skill-blazing-attack",
-    "skill-bloody-counter",
-    "skill-blue-hurricane",
-    "skill-bluff-kamehameha",
-    "skill-body-change",
-    "skill-bomber-dx",
-    "skill-brave-heat",
-    "skill-brave-sword-attack",
-    "skill-brave-sword-slash"
+    "skill-break-cannon",
+    "skill-breaker-energy-wave",
+    "skill-brutal-buster",
+    "skill-burning-attack",
+    "skill-burning-blast",
+    "skill-burning-shot",
+    "skill-burning-slash",
+    "skill-burning-swan",
+    "skill-burst-blitz",
+    "skill-burst-charge",
+    "skill-burst-kamehameha",
+    "skill-burst-reflection"
   ],
   "notes": [
     "Stale means last_verified != 2026-09-24; stale metadata is a priority signal, not evidence that a record is incorrect.",
-    "This census follows the bounded Blades of Judgment / Blaster Ball provenance refresh.",
+    "This census follows the 12-record Blaster Meteor through Brave Sword Slash refresh.",
     "No canonical skill identities or acquisition relationships were changed by the census."
   ]
 }
