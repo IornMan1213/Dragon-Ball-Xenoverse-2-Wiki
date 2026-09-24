@@ -7583,3 +7583,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime remains unavailable; no CI success claimed.
 - Commits: canonical `402dc256c5c21838418d04ffeeed4d6fa5af5bcb`; bridge `301c8c00c7b718ac6ac247e8e7330dd444c79b8c`; backlog `6f11ae76118436a6ac7e258ad2a536075e119901`; identity reconciliation `d724f7f7363754d3f3db78beada1eb4e0d5e73ab`; audit `099a4825553c04bef5c6967473c376a13530cd37`.
 - **Exact next priority:** continue the deterministic post-accessory event/raid non-PQ consumer scan, starting with the next machine-checkable current-facing projection or orphan/count drift; do not create a speculative generic raid skill endpoint layer where the repository lacks deterministic structured edges.
+
+
+### 2026-09-24 cycle completion — accessory canonical projection count boundary
+- Audited the stale accessory canonicalization projection after the raid identity layer reached 116 accr canonical identities.
+- Confirmed the legacy PQ accessory projection remains intentionally separate at 74 acc identities / 32 forward PQ edges / 32 reverse PQ edges; it is not a complete current accessory-inventory count.
+- Updated docs/data/accessory-canonicalization-audit.json to explicitly distinguish the legacy PQ projection from the current 116-record canonical reconciliation layer.
+- Added and registered docs/data/accessory-canonicalization-current-projection-audit-2026-09-24.json.
+- Validation: 74/32/32 legacy PQ projection internally consistent; 116 current canonical reconciliation records; 9 raid identity records; 0 unresolved; no cross-namespace PQ edges inferred.
+- Evidence boundary preserved: non-PQ raid/event/shop/gift/wish identities do not receive PQ edges without explicit PQ provenance.
+- CI/runtime unavailable; no CI success claimed.
+- Commits: projection clarification b5ae4e774f624cd37d8d8d99dde5535e510aced2; projection audit 961e6a18025a0acf5354c4f76f53a3053a5d0c2d; index registration e79eb0611e60ab812dc9fe88bc8af3ef2b093987.
+- Exact next priority: continue the deterministic non-PQ consumer scan, targeting the next stale current-field/count projection or orphan target in event/raid or character/preset navigation; do not collapse the separate acc and accr namespaces.
