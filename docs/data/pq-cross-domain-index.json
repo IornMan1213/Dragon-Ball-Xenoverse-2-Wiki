@@ -549,5 +549,6 @@
   "skill_provenance_refresh_2026_09_24_dancing_through_darkness_rush": "docs/data/skill-provenance-refresh-2026-09-24-dancing-through-darkness-rush.json",
   "qq_bang_provenance_refresh_2026_09_24": "docs/data/qq-bang-provenance-refresh-2026-09-24.json",
   "qq_bang_observed_results_refresh_2026_09_24": "docs/data/qq-bang-provenance-refresh-2026-09-24.json",
-  "live_skill_baseline_reconciliation_2026_09_24": "docs/data/live-skill-baseline-reconciliation-2026-09-24.json"
+  "live_skill_baseline_reconciliation_2026_09_24": "docs/data/live-skill-baseline-reconciliation-2026-09-24.json",
+  "current_skill_projection_stale_scalar_scan_2026_09_24": "docs/data/current-skill-projection-stale-scalar-scan-2026-09-24.json"
 }
