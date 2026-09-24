@@ -1,4 +1,12 @@
 
+## 2026-09-24 — Bounded non-PQ acquisition consumer sweep
+
+- Added and registered `docs/data/current-nonpq-acquisition-consumer-sweep-2026-09-24.json` after the mentor endpoint/count reconciliation.
+- Revalidated the current skill acquisition endpoint union at **469/469 covered skills with 0 uncovered**, with **131 resolved mentor edges / 130 unique mentor targets / 99 non-PQ non-mentor targets**.
+- Confirmed the current Time Rift/story/tournament and shop endpoint layers remain at **13** and **33** forward skill edges.
+- Classified remaining old-baseline search hits as historical/provenance or already-reconciled audit context; no unsupported current-field rewrite was made.
+- Preserved the evidence boundary and CI/runtime-unavailable status.
+
 ## 2026-09-24 — Mentor explorer cross-navigation
 - Added `docs/Mentors-All.html`, a live explorer backed by the canonical 33-mentor record layer.
 - Added `docs/data/mentor-presentation-consumer-audit-2026-09-24.json` and registered it in the cross-domain index.
