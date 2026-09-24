@@ -25,6 +25,11 @@
       "type": "current_web_verification",
       "claim": "Current reference material identifies Baked Sphere as an Explosive Wave/Energy Shield technique appearing in Xenoverse 2 and used by Supervillain fighters.",
       "source": "https://dragonball.fandom.com/wiki/Baked_Sphere"
+    },
+    {
+      "type": "current_web_verification",
+      "claim": "Current Dragon Ball reference material independently classifies Baked Sphere as an Explosive Wave/Energy Shield technique and confirms its Xenoverse 2 appearance and Supervillain usage.",
+      "source": "https://dragonball.fandom.com/wiki/Baked_Sphere"
     }
   ],
   "resolved_fields": {
@@ -39,5 +44,6 @@
     "Do not infer Ki cost from older Xenoverse or animation descriptions.",
     "Do not create a CaC acquisition route from NPC/enemy usage.",
     "Do not promote to canonical skills.json without the supported builder and required field coverage."
-  ]
+  ],
+  "notes": "2026-09-24 follow-up: targeted Ki-cost search did not expose a trustworthy canonical Xenoverse 2 numeric cost. The audit therefore remains unresolved only for ki_cost."
 }
