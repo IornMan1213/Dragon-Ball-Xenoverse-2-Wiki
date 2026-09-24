@@ -6,62 +6,62 @@
   "live_counts": {
     "canonical_skill_records": 469,
     "index_skill_records": 469,
-    "current_last_verified_records": 431,
-    "stale_last_verified_records": 38,
+    "current_last_verified_records": 443,
+    "stale_last_verified_records": 26,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
     {
-      "name": "Teleporting Vanishing Ball",
-      "id": "skill-teleporting-vanishing-ball"
+      "name": "Total Detonation Ball",
+      "id": "skill-total-detonation-ball"
     },
     {
-      "name": "Temporal Holy Ray",
-      "id": "skill-temporal-holy-ray"
+      "name": "Trap Shooter",
+      "id": "skill-trap-shooter"
     },
     {
-      "name": "The Power to Overcome",
-      "id": "skill-the-power-to-overcome"
+      "name": "Tri-Beam",
+      "id": "skill-tri-beam"
     },
     {
-      "name": "The Savior Has Come",
-      "id": "skill-the-savior-has-come"
+      "name": "Turn Golden",
+      "id": "skill-turn-golden"
     },
     {
-      "name": "Thunder Flash",
-      "id": "skill-thunder-flash"
+      "name": "Tyrant Lancer",
+      "id": "skill-tyrant-lancer"
     },
     {
-      "name": "Time Bullet",
-      "id": "skill-time-bullet"
+      "name": "Ultimate Charge",
+      "id": "skill-ultimate-charge"
     },
     {
-      "name": "Time Control",
-      "id": "skill-time-control"
+      "name": "Ultra Instinct",
+      "id": "skill-ultra-instinct"
     },
     {
-      "name": "Time Skip/Back Breaker",
-      "id": "skill-time-skip-back-breaker"
+      "name": "Ultrasonic Blitz",
+      "id": "skill-ultrasonic-blitz"
     },
     {
-      "name": "Time Skip/Flash Skewer",
-      "id": "skill-time-skip-flash-skewer"
+      "name": "Unrelenting Barrage",
+      "id": "skill-unrelenting-barrage"
     },
     {
-      "name": "Time Skip/Jump Spike",
-      "id": "skill-time-skip-jump-spike"
+      "name": "Vanishing Ball",
+      "id": "skill-vanishing-ball"
     },
     {
-      "name": "Time Skip/Tremor Pulse",
-      "id": "skill-time-skip-tremor-pulse"
+      "name": "Variable Snipe Shot",
+      "id": "skill-variable-snipe-shot"
     },
     {
-      "name": "Timespace Impact",
-      "id": "skill-timespace-impact"
+      "name": "Variant Drive",
+      "id": "skill-variant-drive"
     }
   ],
   "notes": [
-    "Counts recomputed from live canonical data after the Super Saiyan God Super Saiyan through Taunt batch.",
+    "Recomputed from live canonical/index data after the Teleporting Vanishing Ball through Timespace Impact batch.",
     "Canonical/index IDs and ordering remain aligned.",
     "Existing evidence boundaries and conflicts preserved.",
     "CI/runtime remains unavailable; no CI success claimed."
