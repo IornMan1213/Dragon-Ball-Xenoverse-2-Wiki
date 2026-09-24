@@ -5973,3 +5973,12 @@
 - [x] Preserved dated historical audits containing 465/455 counts as historical evidence.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** deterministic census of **event/raid/Festival/Chapter 4 and character/preset presentation consumers**, repairing only current-facing stale counts, one-way navigation, orphan targets, and identity drift supported by repository evidence.
+
+
+### 2026-09-24 completed — Future Saga Chapter 4 character consumer reconciliation
+- [x] Reconciled both Chapter 4 official character records to exact canonical names in the live **153-character** layer.
+- [x] Added and registered docs/data/future-saga-chapter-4-character-navigation-audit-2026-09-24.json.
+- [x] Confirmed **2/2 exact matches / 0 unresolved identities / 0 unsupported variant collapses / 0 loadout promotions**.
+- [x] Preserved Chapter 4 provenance separately from canonical character identity and did not infer preset/loadout/skill/customization data.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** scan remaining Chapter 4/Festival/event and character/preset projections for stale baselines and one-way navigation before further preset research.
