@@ -1,3 +1,12 @@
+### 2026-09-24 cycle update — Acquisition coverage legacy-projection normalization
+
+- Audited remaining current-looking skill-count consumers and found `docs/data/skill-acquisition-coverage-report.json` still exposed an obsolete top-level **305 / 234 / 71** projection while its newer 465-record projection was nested.
+- Promoted the live **465 canonical / 239 PQ-linked / 226 without PQ** baseline to the report's primary fields.
+- Preserved the obsolete projection and detailed category ID lists under `legacy_projection_2026_09_23`; no historical evidence was deleted.
+- Added explicit current endpoint-layer counts while documenting that those layers are overlapping edge/consumer counts, not a disjoint partition of the 226 unique non-PQ skills.
+- Validation: live skill baseline remains 465 canonical/index records, 239 PQ-linked, 226 without PQ, 131 mentor-linked skill targets, and 95 non-PQ/non-mentor endpoint targets.
+- **Exact next task:** continue searching current-facing data consumers for obsolete skill/domain projections; after consumer normalization, resume bounded source-backed provenance work across the 95 non-PQ/non-mentor endpoint targets.
+
 ### 2026-09-24 cycle update — Current 465-skill baseline consumer synchronization
 
 - [x] Reconciled `docs/data/skill-acquisition-coverage-report.json` to the live **465 canonical / 239 PQ-linked / 226 without PQ / 131 mentor-linked / 95 non-PQ/non-mentor** skill baseline.
