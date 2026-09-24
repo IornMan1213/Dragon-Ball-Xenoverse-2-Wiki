@@ -1,3 +1,12 @@
+### 2026-09-24 completed current character/equipment/raid consumer synchronization
+- [x] Re-scanned current-facing non-PQ consumers after Chapter 4 character and final raid-accessory identity reconciliation.
+- [x] Repaired stale current projections from **151 → 153 characters**, **465 → 469 skills**, **173 → 174 equipment/accessory records**, and **9 → 11 raid accessory identities**.
+- [x] Updated current DLC character navigation from **14/15 resolved + 1 unresolved** to **15/15 resolved + 0 unresolved** after exact Chapter 4 identity reconciliation.
+- [x] Added and registered `docs/data/current-character-equipment-raid-consumer-synchronization-2026-09-24.json`.
+- [x] Preserved historical dated snapshots; no relationship edge, acquisition route, preset, raid availability, probability, or gameplay fact was inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Next:** continue deterministic current-facing event/raid/Festival and remaining character/preset/navigation consumer scanning for stale scalars, one-way navigation, orphan targets, and canonical-ID drift; then resume the highest-impact thin-domain source-backed expansion.
+
 ### 2026-09-24 completed Future Saga Chapter 4 character identity presentation repair
 - [x] Added publisher-confirmed `Supreme Kai of Time (Ultra Supervillain)` and `Goku (Ultra Supervillain Quelled)` as distinct canonical character identities.
 - [x] Updated Character Encyclopedia/current explorer counts from 151 to 153.
