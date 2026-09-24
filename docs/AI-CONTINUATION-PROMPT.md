@@ -400,3 +400,11 @@
 - [x] Preserved unsupported stamina, frame, probability, and universal damage fields.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next:** select the next unresolved P1 research target, refresh only evidence-backed fields, register its audit, and preserve canonical/index parity.
+
+
+### 2026-09-24 cycle completion — Dimensional Hole P1 provenance refresh
+- [x] Revalidated Dimensional Hole as a Super / Ki Blast Counter with 0 Ki and PQ80 Basic Reward acquisition.
+- [x] Added and registered `docs/data/skill-dimensional-hole-p1-provenance-enrichment-2026-09-24.json`.
+- [x] Preserved unresolved drop probability, stamina cost, frame data, and universal damage values.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** select the next unresolved P1 research target, refresh only evidence-backed fields, register its audit, and preserve canonical/index parity.
