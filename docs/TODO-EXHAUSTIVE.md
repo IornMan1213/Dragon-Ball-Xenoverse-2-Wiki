@@ -1,3 +1,10 @@
+### 2026-09-24 completed canonical farming presentation consumer
+- [x] Added canonical `pq_farming_route` loading/rendering to `docs/Parallel-Quests-All.html`.
+- [x] Added and registered `docs/data/farming/pq-farming-presentation-consumer-audit-2026-09-24.json`.
+- [x] Validated all **7** canonical farming edges and their reverse/index parity: Dragon Balls via PQ15, PQ22, PQ44, PQ45, PQ68, PQ83, PQ88; 0 unresolved, 0 orphan reverse records, 0 duplicate PQ edges.
+- [x] Preserved the farming evidence boundary: relationship identity does not imply guarantee, drop probability, route efficiency, or Ultimate Finish requirements.
+- [ ] **Next:** continue deterministic non-PQ/cross-domain presentation consumer scanning, prioritizing uncovered character/preset and event/raid consumers for stale scalars, one-way navigation, orphan targets, and canonical identity drift.
+
 ### 2026-09-24 completed skill verification queue
 - [x] Confirmed the Power Pole Pro → Purification provenance tranche had already been completed in `docs/data/skill-provenance-audit-2026-09-24-present-through-purification.json`.
 - [x] Verified live skill census: **469 canonical / 469 index / 469 current / 0 stale / 0 duplicate IDs**.
