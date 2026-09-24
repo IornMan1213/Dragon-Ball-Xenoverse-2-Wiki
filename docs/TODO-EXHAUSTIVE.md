@@ -1,3 +1,12 @@
+### 2026-09-24 completed numeric preset evidence recheck — Goku/Vegeta/Captain Ginyu
+- [x] Rechecked two independent dated Burcol preset-unlock artifacts and the current Xenoverse 2 Goku in-game-data page.
+- [x] Strengthened numeric-identity corroboration for the unresolved Goku/Vegeta/Captain Ginyu preset records.
+- [x] Confirmed the named Goku loadout table exposes complete eight-slot configurations, but it does not directly bind those rows to the repository's numeric preset IDs.
+- [x] Preserved the promotion gate: **0** numeric-to-complete-loadout bindings were promoted; no row-order, costume-order, or chapter-order inference was used.
+- [x] Updated `docs/data/numeric-preset-complete-loadout-source-audit-2026-09-24.json`.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next:** find an artifact that displays the numeric preset identifier and complete eight-slot configuration together; otherwise move to the next highest-impact thin research domain without inventing bindings.
+
 ### 2026-09-24 completed global navigation audit reconciliation
 - [x] Re-inspected both live layouts after the prior navigation migration.
 - [x] Confirmed `docs/_layouts/home.html` and `docs/_layouts/wiki.html` both already target `/Parallel-Quests-All/`; the prior audit's "home navigation not changed" note was stale.
