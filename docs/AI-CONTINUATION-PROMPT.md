@@ -196,3 +196,12 @@
 - [x] Validation: 5/5 provenance targets refreshed and batch registered.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next:** continue alphabetically through the stale P1 skill provenance queue, beginning with the next unrefreshed record after Darkness Rush, while keeping current canonical/index fields and acquisition links synchronized only when directly supported.
+
+
+### 2026-09-24 cycle completion — P1 Death skill provenance extension
+- [x] Refreshed `skill-death-ball` and `skill-death-crasher` provenance audits to 2026-09-24.
+- [x] Reconfirmed direct Frieza mentor endpoint mappings: Death Ball → Lesson 3; Death Crasher → Lesson 1.
+- [x] Extended `docs/data/skill-provenance-refresh-2026-09-24-dancing-through-darkness-rush.json` from 5 to 7 validated targets.
+- [x] Preserved evidence boundaries: no probabilities or unsupported acquisition routes added.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next:** continue the stale P1 skill provenance queue after Death Crasher, refreshing canonical/index provenance only where directly supported.
