@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-24",
+  "skill_name": "Howl",
+  "skill_id": "skill-howl",
+  "status": "evidence_enriched_unresolved",
+  "scope": "bounded Xenoverse 2-specific evidence enrichment",
+  "evidence": [
+    {
+      "type": "xenoverse2_id",
+      "claim": "Xenoverse 2 Character ID List assigns Howl skill ID 10440, marks it CaC-unavailable, and identifies Great Ape as its source.",
+      "source": "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
+    },
+    {
+      "type": "xenoverse2_moveset",
+      "claim": "Great Ape Festival lists Howl on Great Ape Nappa, Great Ape Vegeta, and Great Ape Bardock.",
+      "source": "https://dbxv2.fandom.com/wiki/Great_Ape_Festival"
+    },
+    {
+      "type": "xenoverse2_pq",
+      "claim": "Saiyan Survivors lists Howl on Great Ape Nappa and Great Ape Vegeta.",
+      "source": "https://dbxv2.fandom.com/wiki/Saiyan_Survivors"
+    },
+    {
+      "type": "xenoverse2_story",
+      "claim": "Power x10 x2? Great Ape Transformation lists Howl on Great Ape Nappa and Great Ape Vegeta.",
+      "source": "https://videogaming.fandom.com/wiki/Power_x10_x2%3F_Great_Ape_Transformation"
+    }
+  ],
+  "resolved_fields": {
+    "classification": "Evasive Skill",
+    "cac_available": false,
+    "character_source": "Great Ape Nappa; Great Ape Vegeta; Great Ape Bardock and other Great Ape enemy variants"
+  },
+  "unresolved_fields": [
+    "ki_cost",
+    "unlock_method"
+  ],
+  "guardrails": [
+    "Do not infer Ki cost from another game or unofficial implementation.",
+    "Do not create a CaC acquisition route from enemy-only usage.",
+    "Do not promote to canonical skills.json without supported builder execution and required field coverage."
+  ]
+}
