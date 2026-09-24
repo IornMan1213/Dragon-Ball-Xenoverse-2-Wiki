@@ -267,3 +267,14 @@ The machine-readable DLC relationship layer is backed by a standalone canonical 
 - [DLC presentation consumer audit](./data/dlc/dlc-presentation-consumer-audit.json)
 
 The canonical relationship layer remains authoritative. The identity projection exists to make existing `pq_requires_dlc` targets navigable and validator-resolvable; it is not a replacement for the official DLC baseline or a source for new relationships.
+
+
+## Canonical database navigation
+
+- [Characters](Characters-All.html) — canonical character and preset navigation.
+- [Skills](Skills-All.html) — canonical skill records.
+- [Parallel Quests](Parallel-Quests-All.html) — canonical PQ and reward navigation.
+- [Equipment](Equipment-All.html) — canonical equipment/accessory records.
+- [Super Souls](Super-Souls-All.html) — canonical Super Soul records.
+
+These links are navigation surfaces only; they do not establish unresolved relationships or acquisition/mechanics facts.
