@@ -7094,3 +7094,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Preserved existing acquisition, reward, classification, mechanics, restriction, DLC/update, and evidence-conflict semantics; no unsupported probabilities, prerequisites, timers, damage values, stacking caps, or narrower restrictions were inferred.
 - CI/runtime remains unavailable; no CI success claimed.
 - Exact next stale batch: **Gravity Impact; Handy Canon; Hawk Charge; Headshot; Heat Dome Attack; Heat Wave; Heavenly Arrow; Hell Flash; Hellzone Grenade; Hero's Flute; Hero's Pose; Heroic Assault**.
+
+
+### 2026-09-24 cycle update — Gravity Impact through Heroic Assault provenance refresh
+- Completed bounded P1 batch: **Gravity Impact; Handy Canon; Hawk Charge; Headshot; Heat Dome Attack; Heat Wave; Heavenly Arrow; Hell Flash; Hellzone Grenade; Hero's Flute; Hero's Pose; Heroic Assault**.
+- Synchronized canonical/index verification metadata to `2026-09-24` for all 12 targets and added the bounded provenance audit.
+- Preserved existing acquisition, reward, classification, mechanics, restriction, DLC/update, and evidence-conflict semantics; no unsupported probabilities, prerequisites, timers, damage values, stacking caps, or narrower restrictions were inferred.
+- Live census after batch: **465 canonical / 465 index / 254 current / 211 stale / 0 duplicate IDs**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next stale batch:** **Hollow Rush; Holy Inscription; Holy Wrath; Hyper Drain; Hyper Movement; Hyper Tornado; Ice Cannon; Ice Claw; Ice Rain; Ice Sheet; Ill Rain; Instant Severance**.
