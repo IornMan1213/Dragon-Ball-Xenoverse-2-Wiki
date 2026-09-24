@@ -5774,3 +5774,14 @@
 - [x] No endpoint changes were inferred; cast/boss exposure remains distinct from CaC acquisition.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** audit the remaining non-PQ endpoint/index consumers for current 469-baseline drift, prioritizing any unregistered Expert Mission/current acquisition projection or event/raid gap that can be machine-checked without inventing relationships.
+
+
+### 2026-09-24 cycle completion — raid/gift accessory partial-research bridge audit
+- [x] Audited `docs/data/accessory-raid-gift-canonical-bridge.json` against `docs/data/accessory-canonical-reconciliation.json`.
+- [x] Confirmed **16 bridge records / 10 resolved route records / 6 unresolved candidate records / 6 unique resolved canonical IDs / 0 duplicate source IDs / 0 missing canonical IDs**.
+- [x] Confirmed the six unresolved candidate names are exactly mirrored by the bridge's `unmatched_candidates` list; no candidate was silently promoted or discarded.
+- [x] Confirmed expected multi-route identity reuse for **accr-001, accr-002, and accr-003** without creating duplicate inventory identities.
+- [x] Added and registered `docs/data/accessory-raid-gift-bridge-audit-2026-09-24.json`.
+- [x] Preserved the boundary that raid/event history establishes route evidence, not current availability, reward probability, or a new canonical accessory identity.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next priority:** audit `docs/data/accessory-raid-identity-reconciliation-2026-09.json` against the live canonical accessory layer; machine-check whether any of its nine unresolved/route-reconciled raid identities now have an exact canonical match, while explicitly preserving unresolved names and never merging near-name variants without evidence.
