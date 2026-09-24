@@ -6,62 +6,22 @@
   "live_counts": {
     "canonical_skill_records": 469,
     "index_skill_records": 469,
-    "current_last_verified_records": 455,
-    "stale_last_verified_records": 14,
+    "current_last_verified_records": 467,
+    "stale_last_verified_records": 2,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
     {
-      "name": "Venus Fist",
-      "id": "skill-venus-fist"
+      "name": "x10 Kamehameha",
+      "id": "skill-x10-kamehameha"
     },
     {
-      "name": "Victory Cannon",
-      "id": "skill-victory-cannon"
-    },
-    {
-      "name": "Victory Rush",
-      "id": "skill-victory-rush"
-    },
-    {
-      "name": "Volleyball Fist",
-      "id": "skill-volleyball-fist"
-    },
-    {
-      "name": "Wall of Defense",
-      "id": "skill-wall-of-defense"
-    },
-    {
-      "name": "Warp Kamehameha",
-      "id": "skill-warp-kamehameha"
-    },
-    {
-      "name": "Weekend",
-      "id": "skill-weekend"
-    },
-    {
-      "name": "Wild Buster",
-      "id": "skill-wild-buster"
-    },
-    {
-      "name": "Wild Hunt",
-      "id": "skill-wild-hunt"
-    },
-    {
-      "name": "Wild Stinger",
-      "id": "skill-wild-stinger"
-    },
-    {
-      "name": "Wolf Fang Fist",
-      "id": "skill-wolf-fang-fist"
-    },
-    {
-      "name": "X 100 Big Bang Kamehameha",
-      "id": "skill-x-100-big-bang-kamehameha"
+      "name": "Zigzag Express",
+      "id": "skill-zigzag-express"
     }
   ],
   "notes": [
-    "Recomputed from live canonical/index data after the Total Detonation Ball through Variant Drive batch.",
+    "Recomputed from live canonical/index data after the Venus Fist through X 100 Big Bang Kamehameha batch.",
     "Canonical/index IDs and ordering remain aligned.",
     "Existing evidence boundaries and reward conflicts preserved.",
     "CI/runtime remains unavailable; no CI success claimed."
