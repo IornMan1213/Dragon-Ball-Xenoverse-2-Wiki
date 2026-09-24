@@ -7563,3 +7563,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - The other four remain unresolved because the repository does not currently establish exact identity without assuming equivalence from route/name similarity.
 - Commits: canonical `4e079287b52037f22484b41e1bb56dc6253acde3`; backlog `b75813cc8f3f1c87b0d0f7e7875efe876021f22f`.
 - **Exact next priority:** reconcile the remaining four unmatched accessory candidates, beginning with Golden Turtle Hermit's Shell and SSGSS Goku's Wig, then continue deterministic event/raid non-PQ consumer scanning.
+
+
+### 2026-09-24 cycle completion — Golden Shell + SSGSS Goku raid reconciliation
+- Promoted **Turtle Hermit's Golden Shell → accr-113** as a distinct accessory. Independent model evidence identifies it separately from Turtle Hermit's Shell; Online Raid documentation establishes its raid route. Crystal Raid attribution remains unconfirmed.
+- Reconciled **SSGSS Goku's Wig → accr-096** as a naming variant of the existing SSGSS Goku Wig using independent inventory/model evidence.
+- Updated `accessory-raid-identity-reconciliation-2026-09.json`, `accessory-raid-gift-canonical-bridge.json`, `accessory-unmatched-route-backlog.json`, and `accessory-raid-identity-reconciliation-audit-2026-09-24.json`.
+- Remaining backlog: **Cheelai Wig** and **Hercule Wig 2**; separate Cheelai Wig (w/Scouter) remains unresolved and must remain distinct.
+- Commits: canonical `12440befd24764336991664ee0f9663a450f4f8e`, backlog `44867c76bbca59bc772c5c1892d57859809683e8`, bridge `dd94f44a30895702d1b5ddef7cbace36c5d04178`, identity reconciliation `efdb4bd4e00218bf9faef62045d9555dc1219ca6`, audit `8a875802faef430391909caf090d17b02d97e971`.
+- **Exact next priority:** reconcile the remaining Cheelai variants and Hercule Wig 2, then continue deterministic event/raid non-PQ consumer scanning.
