@@ -5275,3 +5275,14 @@
 - [ ] CI/runtime unavailable; no CI success claimed.
 - Commit: `2a9a4931974138077ece8f3e7746c599864ebee2`.
 - **Exact next stale batch:** Energy Wave; Energy Zone; Evil Whirlwind; Explosive Assault; Explosive Bomber; Explosive Buu Buu Punch; Explosive Scream; Explosive Shot; Explosive Surge; Extended Beam; Extra Large Genocide Shell; Eye Laser.
+
+
+### 2026-09-24 cycle update — Correct stale-census projection and continue live P1 skill queue
+- [x] Detected and documented that the prior live stale census listed 9 IDs absent from both canonical and index skill layers; no phantom records were created.
+- [x] Recomputed the live skill census directly from `docs/data/skills.json` and `docs/data/skills-index.json`: **465 canonical / 465 index / 134 current / 331 stale / 0 duplicate IDs**.
+- [x] Completed the actual 12-record P1 batch: **Destruction's Concerto: Meteor; Destruction's Concerto: Starfall; Destruction's Conductor; Destructive Fission; Destructive Flare; Destructive Fracture; Destructo-Disc; Dimension Cannon; Dimensional Hole; Divine Ray Bomb; Divine Spear; Divine Wrath: Purification**.
+- [x] Added and registered `docs/data/skill-provenance-audit-2026-09-24-destruction-through-divine-wrath.json`.
+- [x] Refreshed the live stale census and preserved historical projection errors as superseded context.
+- [x] Canonical/index ID parity remains exact; no duplicate IDs.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next batch:** **Divinity Unleashed; Do or Die; Dodon Ray; Dodoria Beam; Dodoria Launcher; Double Crush; Double Death Slicer; Dragon Burn; Dragon Spark; Dragon Spiral; Drain Field; Dual Destructo-Disc**.
