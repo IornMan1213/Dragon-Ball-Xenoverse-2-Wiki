@@ -6380,3 +6380,11 @@
 - [x] Validation: canonical preset JSON parsed; 26/26 verified records satisfy required evidence fields; audit JSON and central index registration validated.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next batch: locate a source that directly binds numeric Goku Presets 2–18, Vegeta Presets 10–11, or Captain Ginyu Presets 5–6 to complete skill-slot configurations; promote only directly bound configurations, then synchronize the preset navigation audit and canonical projections.
+
+### 2026-09-24 cycle completion — preset evidence corroboration
+- [x] Checked current Goku in-game-data evidence and a dated Burcol preset/unlock video against the unresolved numeric preset records.
+- [x] Confirmed the video directly labels several unresolved numeric identities (including Goku 8/10/12/14/18, Vegeta 11, and Captain Ginyu 5/6), while the Goku data page supplies complete named loadouts without a safe numeric binding.
+- [x] Added this corroboration to `docs/data/preset-loadout-current-evidence-audit-2026-09-24.json`.
+- [x] Promotion count remains 0; no numeric-to-named mapping was inferred from ordering or visual proximity.
+- [ ] Exact next batch: search for a direct source that exposes both the numeric preset label and its complete skill slots; if none exists, continue other exhaustive repository coverage rather than weakening the evidence boundary.
+
