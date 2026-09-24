@@ -6,51 +6,51 @@
   "live_counts": {
     "canonical_skill_records": 469,
     "index_skill_records": 469,
-    "current_last_verified_records": 407,
-    "stale_last_verified_records": 62,
+    "current_last_verified_records": 419,
+    "stale_last_verified_records": 50,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
     {
-      "name": "Super Ghost Buu Attack"
+      "name": "Super Saiyan God Super Saiyan"
     },
     {
-      "name": "Super Ghost Kamikaze Attack"
+      "name": "Super Saiyan God Super Saiyan (Evolved)"
     },
     {
-      "name": "Super Ghost Kamikaze Attack"
+      "name": "Super Spirit Bomb"
     },
     {
-      "name": "Super God Fist"
+      "name": "Super Vegeta"
     },
     {
-      "name": "Super God Shock Flash"
+      "name": "Supernova"
     },
     {
-      "name": "Super Guard"
+      "name": "Supernova Cooler"
     },
     {
-      "name": "Super Kamehameha"
+      "name": "Supersonic Mode"
     },
     {
-      "name": "Super Kamehameha (SS4 DAIMA)"
+      "name": "Supreme Fury"
     },
     {
-      "name": "Super Saiyan"
+      "name": "Surging Spirit"
     },
     {
-      "name": "Super Saiyan 2"
+      "name": "Symphonic Destruction"
     },
     {
-      "name": "Super Saiyan Blue Kaioken"
+      "name": "Tail Slicer"
     },
     {
-      "name": "Super Saiyan God"
+      "name": "Taunt"
     }
   ],
   "notes": [
     "Canonical/index counts and IDs remain aligned.",
-    "Counts recomputed from live canonical and index data after the Strike of Revelation through Super Gamma Blast batch.",
+    "Counts recomputed from live canonical data after the Super Ghost Buu Attack through Super Saiyan God batch.",
     "Existing acquisition, reward, mechanics, restriction, DLC/update, and evidence-conflict semantics were preserved.",
     "CI/runtime remains unavailable; no CI success is claimed."
   ]
