@@ -22,3 +22,14 @@
 - [x] Static validation: the repaired assertion now matches the live explorer's canonical skill reward-link construction; intentional PQ→DLC generic Search fallback remains documented because DLC-Overview is not a query explorer.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next batch:** continue deterministic Event/Raid/Festival/Chapter 4 consumer scanning for stale self-reported metadata, one-way navigation, orphan targets, and canonical-ID drift; then resume direct numeric preset-label + complete eight-slot configuration evidence only where explicitly supported.
+
+
+### 2026-09-24 cycle completion — preset/loadout current scalar reconciliation
+- [x] Recomputed the live verified-loadout slot census directly from `docs/data/character-presets-record-layer.json`: **51** preset records / **26** verified loadouts / **25** unresolved loadouts.
+- [x] Found and repaired a stale scalar in `docs/data/preset-loadout-current-evidence-audit-2026-09-24.json`: `verified_loadout_skill_entries` was incorrectly left at **0** despite the live producer containing **162 populated Super Attack + Ultimate Attack + Evasive Skill slots** across the 26 verified loadouts.
+- [x] Added an explicit definition for that metric and preserved Awoken Skill slots as a separate field category rather than silently mixing semantics.
+- [x] Revalidated the numeric unresolved boundary: **20** records remain evidence-gated (Goku 2–12/14–18, Vegeta 10–11, Captain Ginyu 5–6); no numeric-to-loadout promotion was made.
+- [x] Added current producer corroboration to the existing preset evidence audit; central audit registration already existed, so no index migration was required.
+- [x] CI/runtime remains unavailable; no CI success claimed.
+- [x] Validation: producer census 51/26/25, populated non-Awoken skill-slot metric 162, duplicate preset IDs 0, unresolved numeric boundary 20.
+- [ ] **Exact next batch:** continue direct-source research for a numeric preset label bound to a complete configuration; if unavailable, move to the next deterministic thin-domain consumer rather than infer by row/costume order.
