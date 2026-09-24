@@ -1,3 +1,11 @@
+### 2026-09-24 cycle completion — global navigation audit reconciliation
+- [x] Re-inspected live `docs/_layouts/home.html` and `docs/_layouts/wiki.html`.
+- [x] Confirmed both layouts already use the canonical `Parallel-Quests-All/` destination; the previous audit note claiming the home layout remained on the legacy route was stale.
+- [x] Reconciled `docs/data/global-navigation-canonical-explorer-audit-2026-09-24-c.json` with the live state.
+- [x] Updated TODO tracking without changing gameplay or relationship data.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next:** continue direct numeric preset-label + complete eight-slot configuration research; do not infer loadouts from row order, costume order, or video chapter proximity.
+
 ### 2026-09-24 cycle completion — bounded skill P1 provenance enrichment, PQ61–PQ70
 - [x] Added `docs/data/skill-p1-provenance-enrichment-2026-09-24-recoome-pq61-batch.json` for 8 partially enriched base-game/PQ skills: Fighting Pose H, Teleporting Vanishing Ball, Ill Rain, Scissors Paper Rock, Super God Fist, Angry Shout, Headshot, and Emperor's Blast.
 - [x] Recorded only directly supported classification, cost, acquisition, and mechanics evidence; exact reward slots/probabilities and Ultimate-Finish requirements remain unresolved where not directly established.
