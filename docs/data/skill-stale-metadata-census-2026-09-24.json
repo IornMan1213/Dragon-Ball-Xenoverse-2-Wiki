@@ -6,28 +6,28 @@
   "live_counts": {
     "canonical_skill_records": 465,
     "index_skill_records": 465,
-    "current_last_verified_records": 108,
-    "stale_last_verified_records": 357,
+    "current_last_verified_records": 120,
+    "stale_last_verified_records": 345,
     "duplicate_ids": 0
   },
   "current_date": "2026-09-24",
   "next_stale_batch": [
-    "skill-demon-wing-flash",
-    "skill-die-die-missile-barrage",
-    "skill-dimension-ray",
-    "skill-divine-kamehameha",
-    "skill-divine-lasso",
-    "skill-dodoria-headbutt",
-    "skill-double-destructo-disc",
-    "skill-double-sunday",
-    "skill-dragon-blitz",
-    "skill-dragon-burner",
-    "skill-dragon-fist",
-    "skill-dragon-flash"
+    "skill-dragon-thunder",
+    "skill-dragon-tornado",
+    "skill-dragon-wind",
+    "skill-dragonic-aura",
+    "skill-dramatic-crush",
+    "skill-dynamite-kick",
+    "skill-earth-splitting-galick-gun",
+    "skill-electric-shock",
+    "skill-elite-beam",
+    "skill-emergency-combo",
+    "skill-energy-barrier",
+    "skill-energy-shot"
   ],
   "notes": [
     "Stale means last_verified != 2026-09-24; stale metadata is a priority signal, not evidence that a record is incorrect.",
-    "This census follows the 12-record Death Beam through Destruction's Concerto: Comet refresh.",
+    "This census follows the 12-record Demon Wing Flash through Dragon Flash refresh.",
     "No canonical skill identities or acquisition relationships were changed by the refresh."
   ]
 }

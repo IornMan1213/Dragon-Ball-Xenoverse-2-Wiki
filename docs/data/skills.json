@@ -3134,12 +3134,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Gotenks mentor training",
       "mechanics_notes": "Current mentor provenance confirms DIE DIE Missile Barrage as Gotenks' 100-Ki Ki Blast Super and a deterministic mentor-training reward. Detailed combat mechanics remain intentionally deferred rather than inferred from the name or animation alone.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "race_restriction": "All CaC races",
       "source_quest": "Gotenks mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-22 provenance refresh: current dedicated evidence reconfirms the canonical acquisition endpoint/classification and preserves unresolved evidence boundaries; no unsupported drop probability or gate was added. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-22 provenance refresh: current dedicated evidence reconfirms the canonical acquisition endpoint/classification and preserves unresolved evidence boundaries; no unsupported drop probability or gate was added. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference. 2026-09-24 P1 provenance refresh: rechecked the existing repository evidence for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.",
       "id": "skill-die-die-missile-barrage",
       "source_mentor": [
         "mentor-gotenks"
@@ -3196,7 +3196,7 @@
       "mechanics_notes": "Current dedicated evidence confirms Dimension Ray as a 400-Ki Ki Blast Ultimate from PQ98. It creates timespace shards and launches a wide barrage documented at 19 hits; the current dedicated page and aggregate Ki Blast Ultimate evidence agree on the 400-Ki cost.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Dimension_Ray",
@@ -3206,7 +3206,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 98,
       "acquisition_type": "quest_or_mission",
-      "notes": " 2026-09-22 provenance refresh: current dedicated evidence reconfirms the canonical acquisition endpoint/classification and preserves unresolved evidence boundaries; no unsupported drop probability or gate was added. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
+      "notes": " 2026-09-22 provenance refresh: current dedicated evidence reconfirms the canonical acquisition endpoint/classification and preserves unresolved evidence boundaries; no unsupported drop probability or gate was added. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference. 2026-09-24 P1 provenance refresh: rechecked the existing repository evidence for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.",
       "id": "skill-dimension-ray",
       "source_parallel_quests": [
         98
@@ -3252,7 +3252,7 @@
         "https://www.reddit.com/r/dbxv/comments/xenoverse2_tp_medal_shop_rotation/"
       ],
       "ki_cost": 200,
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "unlock_method": "TP Medal Shop",
       "ultimate_finish_required": false,
       "dlc_requirement": "Free Update 11",
@@ -3264,7 +3264,7 @@
       "research_status": "enriched",
       "mechanics_notes": "Current evidence confirms Divine Kamehameha as a 200-Ki Ki Blast Super obtained through the TP Medal Shop. It is a moving Kamehameha-style beam with directional movement during charge and an early-fire input. The repository's Free Update 11 provenance is retained separately from shop-rotation acquisition.",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-19 acquisition verification: TP Medal Shop purchase. Current reference material explicitly lists Divine Kamehameha in the TP Medal Shop rotation. 2026-09-21 DLC provenance verification: current reference material identifies Divine Kamehameha as part of the free 1.14.00 update and distributed through the TP Medal Shop; the shop/rotation acquisition context is preserved separately rather than treated as a paid DLC requirement. 2026-09-21 provenance correction: current Free Update documentation places Divine Kamehameha among the 9 new skills introduced in Free Update 11 (alongside Soaring Fist and Godly Display); the prior `Free Update 1.14` label was inconsistent with that documented update chronology. 2026-09-22 provenance refresh: current dedicated evidence reconfirms the canonical acquisition endpoint/classification and preserves unresolved evidence boundaries; no unsupported drop probability or gate was added. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
+      "notes": "2026-09-19 acquisition verification: TP Medal Shop purchase. Current reference material explicitly lists Divine Kamehameha in the TP Medal Shop rotation. 2026-09-21 DLC provenance verification: current reference material identifies Divine Kamehameha as part of the free 1.14.00 update and distributed through the TP Medal Shop; the shop/rotation acquisition context is preserved separately rather than treated as a paid DLC requirement. 2026-09-21 provenance correction: current Free Update documentation places Divine Kamehameha among the 9 new skills introduced in Free Update 11 (alongside Soaring Fist and Godly Display); the prior `Free Update 1.14` label was inconsistent with that documented update chronology. 2026-09-22 provenance refresh: current dedicated evidence reconfirms the canonical acquisition endpoint/classification and preserves unresolved evidence boundaries; no unsupported drop probability or gate was added. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference. 2026-09-24 P1 provenance refresh: rechecked the existing repository evidence for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.",
       "id": "skill-divine-kamehameha"
     },
     {
@@ -3279,7 +3279,7 @@
       ],
       "ki_cost": 300,
       "unlock_method": "TP Medal Shop; also available through STP Medal Shop and Double Crystal Raid Battle",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
@@ -3288,7 +3288,7 @@
       "mechanics_notes": "300-Ki Strike Ultimate. Official Bandai Namco documentation confirms Divine Lasso in the TP Medal Shop rotation; current repository evidence also records STP Medal Shop and Double Crystal Raid Battle availability. The skill remains classified as Strike; historical community reports discuss unusual damage-scaling behavior, but those reports are conflicting and are not used to relabel the canonical damage category.",
       "dlc_requirement": "Free Update 3",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-20 shop-provenance refinement: official Bandai Namco TP Medal Shop schedule explicitly lists Divine Lasso, while current repository evidence also records STP Medal Shop and Double Crystal Raid Battle routes. No quest or Ultimate Finish route is inferred. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
+      "notes": "2026-09-20 shop-provenance refinement: official Bandai Namco TP Medal Shop schedule explicitly lists Divine Lasso, while current repository evidence also records STP Medal Shop and Double Crystal Raid Battle routes. No quest or Ultimate Finish route is inferred. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference. 2026-09-24 P1 provenance refresh: rechecked the existing repository evidence for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.",
       "id": "skill-divine-lasso"
     },
     {
@@ -3525,12 +3525,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Dodoria mentor training — Lesson 2",
       "mechanics_notes": "Mentor acquisition endpoint confirmed: Dodoria Lesson 2. Current repository evidence records 100 Ki used; detailed combat mechanics remain intentionally deferred rather than inferred.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "race_restriction": "All CaC races",
       "source_quest": "Dodoria mentor training — Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference. 2026-09-24 P1 provenance refresh: rechecked the existing repository evidence for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.",
       "id": "skill-dodoria-headbutt",
       "source_mentor": [
         "mentor-dodoria"
@@ -3645,12 +3645,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Raditz mentor training — Initiation Test",
       "mechanics_notes": "100-Ki Ki Blast Super obtained from Raditz's Initiation Test. Current mentor evidence confirms the acquisition endpoint; the two-beam behavior is documented in historical gameplay evidence, but exact hit/damage behavior is not promoted to a hard numeric claim.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "race_restriction": "All CaC races",
       "source_quest": "Raditz mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference. 2026-09-24 P1 provenance refresh: rechecked the existing repository evidence for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.",
       "id": "skill-double-sunday",
       "source_mentor": [
         "mentor-raditz"
@@ -3676,7 +3676,7 @@
       "mechanics_notes": "100-Ki Strike Super from PQ141. Current evidence confirms the knee/kick attack with additional and directional follow-ups/teleport positioning; existing Ultra Pack 2 provenance and PQ141 acquisition semantics are retained.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dragon_Blitz",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3685,7 +3685,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Ultra Pack 2 provenance audit: official Bandai Namco documentation confirms Ultra Pack 2 contains five Parallel Quests and eight techniques; the maintained 186-PQ guide maps the eight canonical skills to PQ138–142. The live canonical source-PQ relationships agree with the DLC label for all eight records. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: PQ141 — Uub's Ultimate Challenge reward documentation independently lists this skill among the Basic Rewards; a contemporaneous PQ141 walkthrough also documents obtaining it. Existing PQ141/Ultra Pack 2 acquisition semantics are preserved. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Ultra Pack 2 provenance audit: official Bandai Namco documentation confirms Ultra Pack 2 contains five Parallel Quests and eight techniques; the maintained 186-PQ guide maps the eight canonical skills to PQ138–142. The live canonical source-PQ relationships agree with the DLC label for all eight records. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: PQ141 — Uub's Ultimate Challenge reward documentation independently lists this skill among the Basic Rewards; a contemporaneous PQ141 walkthrough also documents obtaining it. Existing PQ141/Ultra Pack 2 acquisition semantics are preserved. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference. 2026-09-24 P1 provenance refresh: rechecked the existing repository evidence for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.",
       "source_parallel_quests": [
         141
       ]
@@ -3738,12 +3738,12 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "mechanics_notes": "500-Ki Strike Ultimate available through the TP Medal Shop. Current evidence documents the 14-hit Shenron-finisher sequence and historical 200-TP-Medal shop listing; no quest route is inferred.",
       "source_quest_or_shop": "TP Medal Shop",
       "dlc_requirement": "Base Game",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the tp medal shop; documented historical listing price 200 tp medals acquisition route. No quest or Ultimate Finish route is inferred. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.",
+      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the tp medal shop; documented historical listing price 200 tp medals acquisition route. No quest or Ultimate Finish route is inferred. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference. 2026-09-24 P1 provenance refresh: rechecked the existing repository evidence for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.",
       "id": "skill-dragon-fist"
     },
     {
