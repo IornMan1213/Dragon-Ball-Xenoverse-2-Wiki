@@ -7775,3 +7775,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Commits: Chapter 4 reconciliation 15567496c9b48309baf721cb8f7e195a9a538cc3; audit cf610db4f677bf7909aed150ba6a5f0ffdf4baeb; index registration c94cfa9f88db58acc7e6aedd15147d3fa99e3ecb.
 - Validation: edited JSON reparsed successfully; exact-name identity parity is clean; no unsupported loadout or gameplay data was introduced. CI/runtime remains unavailable; no CI success claimed.
 - **Exact next priority:** continue scanning the remaining Chapter 4/Festival/event and character/preset projections for stale current baselines or one-way links, then resume source-backed preset-loadout research only where explicit numbered/name-matched evidence exists.
+
+
+### 2026-09-24 cycle update — character presentation consumer count drift
+
+- Live character baseline remains **153 canonical identities**, with **51 preset records**, **17 presentation character IDs**, and **247 explicit PQ reverse references**.
+- Bounded scan found remaining superseded **151** scalar values inside the current `docs/data/characters/character-presentation-consumer-audit.json` projection: its root canonical count, character-explorer count, and hardening count were stale despite the same audit already documenting the newer 153-character canonical layer.
+- Repaired those three current-facing values to **153** and appended an explicit evidence-boundary correction. No preset records, character IDs, PQ relationships, or loadout claims changed.
+- `docs/Characters.md` and the Chapter 4 character overlay already exposed the current 153 identity layer; no change was required there.
+- Validation: edited JSON re-fetched and parsed successfully. A repository search still returns older 151-bearing dated/historical consumers (`pq-endpoint-navigation-current-baseline-audit-2026-09-23.json`, partner customization audit) and search-index lag may retain the just-edited fragment; these were not rewritten as historical artifacts. CI/runtime remains unavailable; no CI success claimed.
+- Commit: `44cd5745393f2f2e83b406fe85d33f2f55d3c72a`.
+- **Exact next priority:** inspect the remaining **event/raid/Festival** current-facing projections and distinguish genuinely current consumers from dated snapshots, prioritizing deterministic count/index drift and one-way navigation without inventing event endpoints.
