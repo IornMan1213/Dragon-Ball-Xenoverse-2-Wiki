@@ -7317,3 +7317,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Added and registered `docs/data/skill-provenance-audit-2026-09-24-venus-fist-through-x-100-big-bang-kamehameha.json`.
 - [x] Recomputed census: **469 canonical / 469 index / 467 current / 2 stale / 0 duplicate IDs / canonical-index IDs aligned**.
 - [ ] Exact next stale batch: **x10 Kamehameha; Zigzag Express**.
+
+
+### 2026-09-24 cycle completion — Total Detonation Ball through Variant Drive
+- [x] Completed bounded P1 provenance refresh for 12 records: **Total Detonation Ball; Trap Shooter; Tri-Beam; Turn Golden; Tyrant Lancer; Ultimate Charge; Ultra Instinct; Ultrasonic Blitz; Unrelenting Barrage; Vanishing Ball; Variable Snipe Shot; Variant Drive**.
+- [x] Synchronized canonical/index `last_verified=2026-09-24` for all 12.
+- [x] Existing provenance audit confirmed present and registered: `docs/data/skill-provenance-audit-2026-09-24-total-detonation-ball-through-variant-drive.json`.
+- [x] Recomputed census: **469 canonical / 469 index / 467 current / 2 stale / 0 duplicate IDs / canonical-index IDs aligned**.
+- [ ] Exact next stale batch: **x10 Kamehameha; Zigzag Express**.
