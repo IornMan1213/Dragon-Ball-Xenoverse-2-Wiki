@@ -5686,3 +5686,13 @@
 - [x] Validation: **16 forward pairs / 16 reverse pairs / exact parity clean / audit pass**.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next priority:** continue the machine-checkable non-PQ reverse-projection audit, prioritizing current-facing stale counts or orphan targets.
+
+
+### 2026-09-24 cycle completion — mentor skill coverage projection reconciliation
+- [x] Audited mentor skill coverage against the canonical mentor record layer and mentor crosslink projection.
+- [x] Removed the stale Hit → `skill-time-skip-tremor-pulse` linked ID; retained **Time Skip/Tremor Pulse** as the single explicit unresolved skill lesson.
+- [x] Reconciled current coverage to **33 mentors / 133 lesson reward objects / 132 typed skill rewards / 1 typed non-skill reward / 131 mentor→skill edges / 130 unique targets / 1 unresolved skill lesson / 0 broken endpoints**.
+- [x] Updated the stale canonical skill census from 420 to the live 469 count.
+- [x] Added and registered `docs/data/mentor-skill-coverage-audit-2026-09-24.json`.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next priority:** continue the machine-checkable non-PQ reverse-projection audit against another current-facing consumer or partial research index.
