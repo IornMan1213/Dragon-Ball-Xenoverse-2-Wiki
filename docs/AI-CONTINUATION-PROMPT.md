@@ -7644,3 +7644,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Commit:** `3c4471fa51dff64df1290f8a4b54f5d7f920913f`.
 - **Exact next priority:** continue deterministic non-PQ equipment/accessory navigation scanning, prioritizing current reverse/presentation consumers for stale record counts, one-way links, and canonical-ID drift; preserve route-history uncertainty and never promote raid/event history into canonical relationships without evidence.
+
+### 2026-09-24 cycle completion — record reverse-navigation current-baseline refresh
+- [x] Re-audited `docs/data/record-reverse-pq-navigation-audit.json` against the live canonical relationship baseline and current equipment/Super Soul structured fields.
+- [x] Refreshed the audit from its prior 2026-09-23 state to **2026-09-24**, explicitly recording the current **853-edge / 145 Super Soul / 124 equipment** baseline.
+- [x] Confirmed equipment exact-pair parity remains **124/124**, with zero missing/extra pairs and zero duplicate canonical/structured pairs; the four noncanonical acquisition-metadata PQ fields remain explicitly excluded from canonical relationship parity.
+- [x] Confirmed Super Soul exact-pair parity remains **145/145**, with zero missing/extra pairs and zero duplicate canonical/structured pairs.
+- [x] Preserved documented equipment route conflicts (acc-012 and acc-058) and all historical 854/146 snapshots; no new relationship edge or acquisition claim was inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Commit:** `fa03ad84146ff19762f811225ba251a92cfb37b3`.
+- **Exact next priority:** continue deterministic non-PQ equipment/accessory presentation-consumer scanning for stale counts, one-way navigation, and canonical-ID drift, then move into the P1 provenance/data queue where the handoff specifies.
