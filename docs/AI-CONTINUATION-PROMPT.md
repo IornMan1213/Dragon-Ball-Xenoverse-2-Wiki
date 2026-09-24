@@ -7462,3 +7462,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime unavailable; no CI success claimed.
 - Commits: PQ count reconciliation `b6b9381a4a71acfe63a60f588aeecb86fa478828`; DLC audit `e87d1e442e0e42d4137f27be583500a9089374f8`; audit registration `a1f969d67095281d67f1f0a009febcaa50749878`.
 - Exact next priority: continue the remaining non-PQ reverse-projection audit, targeting another stale current-field or orphan-target consumer with deterministic repository evidence.
+
+
+### 2026-09-24 cycle update — Time Rift/story/tournament endpoint projection audit
+
+- Audited `docs/data/time-rift-story-tournament-endpoints.json` as the next deterministic non-PQ skill endpoint consumer.
+- Found a stale documentation scalar in `docs/data/CROSS-LINK-CONTRACT.md`: it described **14** forward skill edges, while the live endpoint layer contains **11 endpoints / 13 forward edges / 13 unique skills**. Match 5's two skills are already represented as two edges; no missing relationship was found.
+- Added `docs/data/time-rift-story-tournament-endpoint-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- Corrected the current implementation-baseline wording in `docs/data/CROSS-LINK-CONTRACT.md` from 14 to 13 forward edges. No endpoint or relationship was added or removed.
+- Validation: endpoint IDs unique; all forward endpoint IDs resolve; endpoint skill lists exactly match forward edges; 0 duplicate pairs; 0 missing/extra pairs; 13 unique skill targets; audit status clean.
+- Evidence boundary preserved: this was a structural projection correction only; no new acquisition relationship was inferred.
+- CI/runtime unavailable; no CI success claimed.
+- Commits: endpoint audit `4a429eb0d3587d7b79c7a1b99095b0ac903a4c33`; audit registration `4b16f06129b2664e4939f638e6406c925d51fc12`; contract correction `9f11c3889d9d97354bd650b96b5919ba5618d8fb`.
+- Exact next priority: continue scanning the remaining non-PQ endpoint consumers for deterministic stale current fields or orphan targets, prioritizing event/raid and character/preset navigation layers.
