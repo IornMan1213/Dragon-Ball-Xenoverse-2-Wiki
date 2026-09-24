@@ -359,7 +359,7 @@
     }
   ],
   "coverage": {
-    "canonical_skill_count": 455,
+    "canonical_skill_count": 465,
     "skill_shop_skills": 13,
     "tp_stp_medal_shop_skills": 18,
     "total_shop_linked_skills": 31,
