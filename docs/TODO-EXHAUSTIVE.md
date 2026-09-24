@@ -6965,3 +6965,13 @@
 - [x] Commits: audit files `9a0a37e477f7654cf95711cabf1c72aeb760aa2b`, `20fad844d6e3ab28abf14e656dd7f7dc28a3dfb7`; gap ledger `d2c11a533eec8f20e629e7093e8c91271ce45fbc`; registry `b3adb5e2acbf1b495ccfce5fc785b39d471e42fd`; changelog `a56f317b2d2fb6cd2387f33de87c4da2f1742a25`.
 - [ ] **Exact next:** continue the remaining unresolved thin-domain candidate set after Boiling Ball/Tricky Strike, prioritizing the strongest direct Xenoverse 2 evidence. Preserve the 469/469 canonical boundary until the supported builder/runtime is available.
 
+### 2026-09-24 cycle completion — Acid + Howl skill-gap evidence enrichment
+- [x] Continued the unresolved thin-domain research queue after Boiling Ball/Tricky Strike.
+- [x] Enriched **Acid** with Xenoverse 2-specific ID/classification/source evidence: normal Acid ID 140 is CaC-unavailable and tied to Saibaman; separate raid-boss Acid ID 143 is preserved as a distinct variant.
+- [x] Enriched **Howl** with Xenoverse 2-specific ID 10440, Evasive classification, CaC restriction, and recurring Great Ape Nappa/Vegeta/Bardock PQ/story usage.
+- [x] Added/updated the dedicated Acid and Howl evidence audits and registered both in docs/data/pq-cross-domain-index.json.
+- [x] Updated docs/data/skill-research-gaps.json while preserving the unresolved boundary: Acid ki_cost/unlock_method; Howl ki_cost/unlock_method.
+- [x] No canonical skill promotion, CaC acquisition inference, or cross-game Ki-cost inference was made.
+- [x] Web verification corroborated the repository research: the Xenoverse 2 ID list identifies Acid 140 and Howl 10440 as non-CaC skills, while Xenoverse 2-specific pages document the corresponding Saibaman/Great Ape movesets. citeturn2search0turn2search1turn1search7turn1search2
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue the remaining unresolved gap records, prioritizing Boiling Burg / Energy Boil / Baked Sphere / Boulder Toss / Boulder Break with direct Xenoverse 2 evidence; preserve the 469/469 canonical boundary until supported builder execution is available.
