@@ -7624,3 +7624,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Preserved the older 465-skill consumer audit as historical evidence.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next priority:** scan event/raid and equipment navigation consumers for stale current counts or orphan canonical targets.
+
+### 2026-09-24 cycle completion — current PQ consumer baseline synchronization
+- [x] Audited current-facing PQ consumer projections against the authoritative `docs/data/pq-reward-relationships.json` baseline after the Super Soul 158 domain migration.
+- [x] Corrected two stale **854-edge** current-facing assertions: the consumer census entries in `docs/data/pq-non-pq-consumer-census-2026-09-22.json` and the top-level canonical relationship count in `docs/data/pq-direct-template-dlc-consumer-audit-2026-09-22.json` now use the live **853-edge** baseline.
+- [x] Preserved the superseded 854 value explicitly as historical context; no historical handoff/audit record was deleted or rewritten away.
+- [x] Added and registered `docs/data/pq-current-consumer-baseline-synchronization-2026-09-24.json` in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: **853 total / 244 skill / 145 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming**, repaired consumer current totals contain **0 stale 854 assertions**, and the canonical relationship source was unchanged.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Commits:** `0cc5eea25b8764f6b09d739582f40ce03ba74d21`, `770830b19a28bff1c7a81e82f302543748a3d7bd`, `0bc642ff8f88c5dd77afb0f47f3cc7c2a44aecaf`, `0038357640ccbc1d3d4ee59152f058660935da72`.
+- **Exact next priority:** continue deterministic reverse/navigation parity scanning against the **853-edge** baseline, prioritizing remaining current-facing event/raid and equipment/navigation consumers for stale counts, orphan targets, or projection drift before speculative research.
