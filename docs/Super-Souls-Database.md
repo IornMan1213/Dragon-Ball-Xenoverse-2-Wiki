@@ -145,3 +145,50 @@ Records 044–047 have now undergone item-level reconciliation. Three have verif
 | 047 | Kicking a Shadow Dragon in the head is not a wise thing to do! | Shadow Dragon raid family | +5% defense baseline; larger defense boost at ≤10% HP; stamina-damage reduction value unresolved | Partially verified |
 
 Exact raid recurrence schedules and drop probabilities are not inferred from these records.
+
+
+### Complete current raid/event Super Soul presentation index — 2026-09-24
+
+The canonical research layer currently contains **37 raid/event-associated Super Soul records**. This table is a presentation index of those existing canonical records; it does **not** assert current raid availability, recurrence schedules, drop probabilities, or reward guarantees. The canonical layer remains the source of truth for full mechanics and provenance.
+
+| ID | Super Soul | Acquisition type | Acquisition source | Verification |
+|---|---|---|---|---|
+| super-soul-036 | Buu's reached full power! | Online Raid Quest | Hit / Hit Lite Raid individual reward | verified_secondary |
+| super-soul-037 | I'm over 1,000 years old. | Online Raid Quest | Hit / Hit Lite Raid individual reward; also NPC Gogoh after base-game completion | verified_secondary |
+| super-soul-038 | My Ki is building... Overflowing... | Online Raid Quest | Broly / Broly Lite Raid | verified_secondary |
+| super-soul-039 | I am going to bathe in your blood! | Online Raid Quest | Broly / Broly Lite Raid | verified_secondary |
+| super-soul-040 | You fool! Why are you laughing? | Online Raid Quest | An Invitation from Cell Online Raid | verified_secondary |
+| super-soul-041 | Not on my watch! | Online Raid Quest | Hercule Online Raid / individual performance reward | verified_secondary |
+| super-soul-042 | Over here, you idiot... | Online Raid Quest | The Power of the Mask / Masked Saiyan Online Raid | verified_secondary |
+| super-soul-043 | Bye-bye, universe! | Online Raid Quest | Demented Deity Online Raid / anniversary individual performance reward | verified_secondary |
+| super-soul-044 | Let's see you handle THIS kind of power! | Online Raid Quest | Great Ape Baby Online Raid | verified |
+| super-soul-045 | Your time in this fight ends now! | Online Raid Quest | Saibaman / Great Ape Baby Lite Online Raids | verified |
+| super-soul-046 | Kind of human-like, don't you think? | Online Raid Quest | Super 17 Online Raid | verified |
+| super-soul-047 | Kicking a Shadow Dragon in the head is not a wise thing to do! | Online Raid Quest | Shadow Dragon / Heartless Galactic Warrior raid family | partially_verified |
+| super-soul-052 | Why are you dodging?! | Raid Quest | Limited-time Raid Quest event reward; community records the Transforming Bardock raid damage-milestone track | partially_verified |
+| super-soul-054 | Leave my daddy alone! | Raid Quest | Limited-time Raid Quest event reward; community records the Supervillain Perfect Cell raid | verified_secondary |
+| super-soul-057 | Can I attack now? | Raid Quest | Limited-time Raid Quest Event Reward; community records the Majin Buu (Gohan Absorbed) raid | verified_secondary |
+| super-soul-058 | Now I'm MAD! | Raid Quest | Limited-time Raid Quest Event Reward; community records the Dabura raid | verified_secondary |
+| super-soul-063 | Zudodoeyaahh! | Raid Quest | Limited-time Raid Quest Event Reward; community records the True Terror in Saiyan Form / DBS Broly raid | verified_secondary |
+| super-soul-074 | Goku! Time for dinner! | Raid Quest Event | Raid Quest Event Reward — Limited-Time | verified_secondary |
+| super-soul-082 | Let's get round two started! | Raid Quest Event | Raid Quest Event Reward — Limited-Time | verified_secondary |
+| super-soul-083 | I can finally get my hands dirty again. | Raid Quest Event | Raid Quest Event Reward — Limited-Time | verified_secondary |
+| super-soul-092 | I think I'm finally warmed up now! | Raid Quest Event | Raid Quest Event Reward — Limited-Time | verified_secondary |
+| super-soul-094 | Your energy is now mine to wield. | Raid Quest Event | Raid Quest Event Reward — Limited-Time | verified_secondary |
+| super-soul-095 | I've got something extra special for you! | Raid Quest Event | Raid Quest Event Reward — Limited-Time | verified_secondary |
+| super-soul-096 | It must be some kind of trick... | Raid Quest Event | Hercule Online Raid | verified_secondary |
+| super-soul-097 | It all comes down to this! | Raid Quest Event | Transforming Goku (GT) Online Raid | verified_secondary |
+| super-soul-103 | Emoc htorf! Peas and Carrots! | Raid Quest Event | Dyspo Online Raid | verified_secondary |
+| super-soul-104 | Looks like I mixed up the capsules... | Raid Quest Event | Transforming Majin Buu Online Raid | verified_secondary |
+| super-soul-111 | I can tell you're an amateur by the way you pose! | Raid Quest Event | Gamma 2 Online Raid | verified_secondary |
+| super-soul-112 | That's minus ten points! | Raid Quest Event | Super 17 Online Raid | verified_secondary |
+| super-soul-115 | Help me, Daddy! I'm scared! | Raid Quest Event | Transforming Cooler Online Raid | verified_secondary |
+| super-soul-116 | Damn... Gonna have to go all out! | Raid Quest Event | Cell Max Online Raid | verified_secondary |
+| super-soul-117 | Not a single word! | Raid Quest Event | Android 13 Online Raid | verified_secondary |
+| super-soul-127 | That's a dead ball now, right? | Raid Quest Event | Gohan (Future) Online Raid | verified_secondary |
+| super-soul-128 | Nothing beats flying! | Raid Quest Event | Transforming Gogeta (DB Super) Online Raid | verified_secondary |
+| super-soul-129 | There was actually five of me! | Raid Quest Event | Ginyu Force Online Raid | verified_secondary |
+| super-soul-135 | I learned a lot from how you fight. | Limited Time Event | Limited Time Event Reward | verified_secondary |
+| super-soul-136 | You intend to defy me?! | Raid Quest Event | Broly (Restrained) Online Raid | verified_secondary |
+
+This index was added after a deterministic consumer audit found that only **12/37** raid/event canonical names were surfaced by the earlier narrative raid sections. The remaining records are now exposed here without upgrading their evidence status or inventing route details.
