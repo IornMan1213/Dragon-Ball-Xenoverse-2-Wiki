@@ -78,6 +78,21 @@
   ],
   "verified_preset_loadouts": [
     {
+      "id": "vegeta-preset-1",
+      "character_id": "vegeta",
+      "name": "Vegeta Preset 1",
+      "preset_number": 1,
+      "skill_names": [
+        "Meteor Strike",
+        "Galick Gun",
+        "Spirit Boost",
+        "Charged Ki Wave",
+        "Super Galick Gun",
+        "Spread Shot Retreat"
+      ],
+      "super_soul": "I am the universe's strongest!"
+    },
+    {
       "id": "vegeta-preset-2",
       "character_id": "vegeta",
       "name": "Vegeta Preset 2",
@@ -90,8 +105,7 @@
         "Full Power Energy Wave",
         "Explosive Wave",
         "Explosive Wave"
-      ],
-      "source": "https://dbxv2.fandom.com/wiki/Vegeta"
+      ]
     },
     {
       "id": "vegeta-preset-3",
@@ -106,8 +120,7 @@
         "Super Galick Gun",
         "Explosive Wave",
         "Explosive Wave"
-      ],
-      "source": "https://dbxv2.fandom.com/wiki/Vegeta"
+      ]
     },
     {
       "id": "vegeta-preset-6",
@@ -121,8 +134,7 @@
         "Full Power Charge",
         "Full Power Energy Blast Volley",
         "Super Back Jump"
-      ],
-      "source": "https://dbxv2.fandom.com/wiki/Vegeta"
+      ]
     },
     {
       "id": "vegeta-preset-7",
@@ -137,8 +149,7 @@
         "Full Power Energy Blast Volley",
         "Super Galick Gun",
         "Explosive Wave"
-      ],
-      "source": "https://dbxv2.fandom.com/wiki/Vegeta"
+      ]
     },
     {
       "id": "vegeta-preset-8",
@@ -155,8 +166,22 @@
         "Super Vegeta",
         "Explosive Wave"
       ],
-      "super_soul": "I am...Super Vegeta!!",
-      "source": "https://dbxv2.fandom.com/wiki/Vegeta"
+      "super_soul": "I am...Super Vegeta!!"
+    },
+    {
+      "id": "vegeta-preset-9",
+      "character_id": "vegeta",
+      "name": "Vegeta Preset 9",
+      "preset_number": 9,
+      "skill_names": [
+        "Galaxy Breaker (Festival)",
+        "Flash Strike",
+        "Shine Shot",
+        "Burst Charge",
+        "Super Galick Gun",
+        "Spread Shot Retreat"
+      ],
+      "super_soul": "I am the universe's strongest!"
     },
     {
       "id": "gohan-adult-preset-3",
@@ -171,8 +196,7 @@
         "Full Power Energy Wave",
         "Spirit Explosion"
       ],
-      "super_soul": "Gohan! Eat a Senzu Bean!",
-      "source": "https://dbxv2.fandom.com/wiki/Gohan_%28Adult%29"
+      "super_soul": "Gohan! Eat a Senzu Bean!"
     },
     {
       "id": "frieza-final-preset-2",
@@ -188,8 +212,7 @@
         "Death Ball",
         "Psychic Move"
       ],
-      "super_soul": "Gotcha!",
-      "source": "https://dbxv2.fandom.com/wiki/Frieza_%28Final_Form%29"
+      "super_soul": "Gotcha!"
     },
     {
       "id": "frieza-first-preset-2",
@@ -204,8 +227,7 @@
         "Full Power Energy Wave",
         "Supernova",
         "Psychic Move"
-      ],
-      "source": "https://dbxv2.fandom.com/wiki/Frieza_%281st_Form%29"
+      ]
     },
     {
       "id": "vegetto-preset-2",
@@ -220,8 +242,7 @@
         "Super Kamehameha",
         "Spirit Sword",
         "Spirit Explosion"
-      ],
-      "source": "https://dbxv2.fandom.com/wiki/Vegito"
+      ]
     },
     {
       "id": "vegito-preset-3",
@@ -236,8 +257,7 @@
         "Final Flash",
         "Spirit Sword",
         "Explosive Wave"
-      ],
-      "source": "https://dbxv2.fandom.com/wiki/Vegito"
+      ]
     },
     {
       "id": "captain-ginyu-preset-2",
@@ -253,30 +273,26 @@
         "Body Change",
         "Break Strike"
       ],
-      "super_soul": "Let me show you how it's done.",
-      "source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu"
+      "super_soul": "Let me show you how it's done."
     },
     {
       "id": "captain-ginyu-preset-3",
       "character_id": "captain-ginyu",
       "name": "Captain Ginyu Preset 3 (Vegeta)",
       "preset_number": 3,
-      "notes": "Source labels this preset as a Vegeta-body configuration; identity mapping requires dedicated verification.",
       "skill_names": [
         "Sledgehammer",
         "Milky Cannon",
         "Consecutive Energy Blast",
         "Fighting Pose F",
         "Body Change"
-      ],
-      "source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu"
+      ]
     },
     {
       "id": "captain-ginyu-preset-4",
       "character_id": "captain-ginyu",
       "name": "Captain Ginyu Preset 4 (Xeno Trunks)",
       "preset_number": 4,
-      "notes": "Source labels this preset as an Xeno Trunks-body configuration; identity mapping requires dedicated verification.",
       "skill_names": [
         "Ki Explosion",
         "Milky Cannon",
@@ -284,8 +300,7 @@
         "Charged Ki Wave",
         "Full Power Energy Wave",
         "Break Strike"
-      ],
-      "source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu"
+      ]
     },
     {
       "id": "bardock-preset-1",
@@ -300,8 +315,7 @@
         "Full Power Energy Wave",
         "Super Back Jump"
       ],
-      "super_soul": "Now it's all over...",
-      "source": "https://dbxv2.fandom.com/wiki/Bardock"
+      "super_soul": "Now it's all over..."
     },
     {
       "id": "bardock-preset-2",
@@ -316,8 +330,7 @@
         "Brave Heat",
         "Explosive Wave",
         "Super Saiyan"
-      ],
-      "source": "https://dbxv2.fandom.com/wiki/Bardock"
+      ]
     },
     {
       "id": "bardock-preset-3",
@@ -331,8 +344,7 @@
         "Charged Ki Wave",
         "Saiyan Spirit",
         "Explosive Wave"
-      ],
-      "source": "https://dbxv2.fandom.com/wiki/Bardock"
+      ]
     },
     {
       "id": "bardock-preset-4",
@@ -348,8 +360,7 @@
         "Saiyan Spirit",
         "Super Saiyan",
         "Explosive Wave"
-      ],
-      "source": "https://dbxv2.fandom.com/wiki/Bardock"
+      ]
     },
     {
       "id": "raditz-preset-1",
@@ -363,8 +374,7 @@
         "Energy Charge",
         "Weekend",
         "Break Strike"
-      ],
-      "source": "https://dbxv2.fandom.com/wiki/Raditz"
+      ]
     },
     {
       "id": "nappa-preset-1",
@@ -377,8 +387,7 @@
         "Genocide Shell",
         "Full Power Charge",
         "Giant Storm"
-      ],
-      "source": "https://dbxv2.fandom.com/wiki/Nappa"
+      ]
     },
     {
       "id": "recoome-preset-1",
@@ -393,8 +402,7 @@
         "Ultra Fighting Bomber",
         "Turn Retreat"
       ],
-      "super_soul": "Your life is mine! Toh!",
-      "source": "https://dbxv2.fandom.com/wiki/Recoome"
+      "super_soul": "Your life is mine! Toh!"
     },
     {
       "id": "recoome-preset-2",
@@ -409,8 +417,7 @@
         "Full Power Energy Wave",
         "Ultra Fighting Bomber",
         "Final Pose"
-      ],
-      "source": "https://dbxv2.fandom.com/wiki/Recoome"
+      ]
     },
     {
       "id": "zarbon-preset-1",
@@ -425,8 +432,7 @@
         "Elegant Blaster",
         "Bloody Counter"
       ],
-      "super_soul": "H-How could he?!",
-      "source": "https://dbxv2.fandom.com/wiki/Zarbon"
+      "super_soul": "H-How could he?!"
     },
     {
       "id": "zarbon-preset-2",
@@ -440,8 +446,7 @@
         "Energy Charge",
         "Elegant Blaster",
         "Bloody Counter"
-      ],
-      "source": "https://dbxv2.fandom.com/wiki/Zarbon"
+      ]
     }
   ],
   "evidence_boundary": "The verified preset list is derived deterministically from docs/data/character-presets-record-layer.json records marked loadout_status=verified. No unresolved preset was promoted. Festival/custom-partner configurations remain separate, and source labels such as Captain Ginyu body-swap rows remain identity boundaries.",
@@ -657,9 +662,10 @@
       ]
     }
   ],
-  "verified_loadout_skill_entries": 58,
+  "verified_loadout_skill_entries": 162,
   "verified_loadouts_have_explicit_sources": true,
   "notes": [
-    "2026-09-24 live producer census refresh: synchronized maintained preset-record and verified-loadout counts to 51 records / 17 presentation character IDs / 25 verified loadouts / 162 verified loadout skill-slot entries. No unresolved identity was promoted."
+    "2026-09-24 live producer census refresh: synchronized maintained preset-record and verified-loadout counts to 51 records / 17 presentation character IDs / 25 verified loadouts / 162 verified loadout skill-slot entries. No unresolved identity was promoted.",
+    "2026-09-24 projection repair: regenerated the embedded verified_preset_loadouts list from the 25 canonical preset records marked loadout_status=verified; the prior embedded list contained only 23 rows while the top-level count correctly reported 25. The embedded skill-entry projection excludes Super Soul labels and now equals the canonical 162 verified loadout skill-slot entries."
   ]
 }
