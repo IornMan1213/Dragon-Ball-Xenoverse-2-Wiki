@@ -207,7 +207,8 @@
     "future_saga_chapter_4_presentation_consumer": "docs/data/future-saga-chapter-4-presentation-consumer-audit-2026-09-24.json",
     "character_preset_research_presentation_consumer": "docs/data/character-preset-research-presentation-consumer-audit-2026-09-24.json",
     "current_presentation_consumer_scan_2026_09_24": "docs/data/current-presentation-consumer-scan-2026-09-24.json",
-    "current_event_raid_festival_chapter4_consumer_scan_2026_09_24": "docs/data/current-event-raid-festival-chapter4-consumer-scan-2026-09-24.json"
+    "current_event_raid_festival_chapter4_consumer_scan_2026_09_24": "docs/data/current-event-raid-festival-chapter4-consumer-scan-2026-09-24.json",
+    "goku_preset_loadout_source_boundary_2026_09_24": "docs/data/goku-preset-loadout-source-boundary-2026-09-24.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
@@ -434,7 +435,8 @@
     "accessory_raid_gift_bridge_audit_2026_09_24": "docs/data/accessory-raid-gift-bridge-audit-2026-09-24.json",
     "character_preset_research_presentation_consumer_2026_09_24": "docs/data/character-preset-research-presentation-consumer-audit-2026-09-24.json",
     "current_presentation_consumer_scan_2026_09_24": "docs/data/current-presentation-consumer-scan-2026-09-24.json",
-    "current_event_raid_festival_chapter4_consumer_scan_2026_09_24": "docs/data/current-event-raid-festival-chapter4-consumer-scan-2026-09-24.json"
+    "current_event_raid_festival_chapter4_consumer_scan_2026_09_24": "docs/data/current-event-raid-festival-chapter4-consumer-scan-2026-09-24.json",
+    "goku_preset_loadout_source_boundary_2026_09_24": "docs/data/goku-preset-loadout-source-boundary-2026-09-24.json"
   },
   "equipment_dlc_reverse_navigation_presentation_2026_09_23": "docs/data/equipment-dlc-reverse-navigation-presentation-audit-2026-09-23.json",
   "docs/data/super-soul-036-through-047-secondary-field-reconciliation-2026-09-23.json": "docs/data/super-soul-036-through-047-secondary-field-reconciliation-2026-09-23.json",
