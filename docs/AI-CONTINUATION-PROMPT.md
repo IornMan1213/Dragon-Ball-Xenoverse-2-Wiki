@@ -7736,3 +7736,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: repaired current consumers are internally consistent; canonical/index parity remains **469/469**; full endpoint union remains **469/469**; audit JSON and index registration were written successfully. CI/runtime remains unavailable; no CI success claimed.
 - Commits: current consumer scan **c4d79eb35cc83cd3d64604c86373895e890769b1**; cross-domain index registration **e9ec5fcf1d5166610f5b4f6d6253c6b453b12e35**. The two preceding consumer-repair commits were created successfully but their SHAs were not surfaced by the write wrapper.
 - **Exact next priority:** continue deterministic current-facing **event/raid/Festival/Chapter 4 and character/preset** consumer scanning, prioritizing stale scalar/count assertions, one-way navigation, orphan canonical targets, and namespace/identity drift; do not create speculative event/raid endpoints where the repository has only provenance evidence.
+
+
+### 2026-09-24 cycle correction — post-write JSON parity check
+
+- Re-fetched the repaired consumers after the first write and found one remaining stale **465** value in the `reverse_navigation.skill_count` field of `docs/data/skill-pq-acquisition-presentation-audit.json`; corrected it to **469**.
+- The first cross-domain index registration briefly lacked a comma before the new entry; corrected `docs/data/pq-cross-domain-index.json` and re-parsed the index successfully.
+- Final checked state: PQ endpoint validation **469 skills / 234 Super Souls / 174 equipment-accessory records / 153 characters / 20 DLC / 853 edges / clean**; PQ skill presentation audit **469 skills / 244 PQ-skill edges / exact reverse parity / clean**; consumer-scan audit **pass**; cross-domain index JSON **valid**.
+- Correction commits: skill audit `70d8f678ec16546bf4492a7b40b286b1e6434e5e`; cross-domain index JSON fix `c36ac9e148c0af47af94e80acc6525b4f78ffd62`.
+- **Exact next priority unchanged:** continue deterministic current-facing event/raid/Festival/Chapter 4 and character/preset consumer scanning; do not invent event/raid endpoints without explicit evidence.
