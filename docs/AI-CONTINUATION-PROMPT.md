@@ -128,7 +128,7 @@
 
 ### 2026-09-24 cycle completion — strict-thin Super Soul 032/034 evidence refresh
 - [x] Rechecked the remaining strict-thin records `super-soul-032` and `super-soul-034`.
-- [x] PQ guide evidence confirms exact reward identity: 032 is a PQ 185 reward and 034 is a PQ 186 reward. citeturn3search2
+- [x] PQ guide evidence confirms exact reward identity: 032 is a PQ 185 reward and 034 is a PQ 186 reward. 
 - [x] Current GameFAQs discussion independently corroborates the additional activation/name-state observation already preserved for 032; it does not establish the second state's mechanics. citeturn4view0
 - [x] No sufficiently reliable item-level evidence was found for 034's mechanics, Limit Burst, or character source; explicit unresolved/null fields remain unchanged.
 - [x] Added `docs/data/super-soul-032-034-strict-thin-evidence-refresh-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
@@ -138,8 +138,8 @@
 
 ### 2026-09-24 cycle completion — Goku numeric preset loadout evidence recheck
 - [x] Audited all 16 indexed unresolved Goku numeric preset records (2–12, 14–18).
-- [x] Search evidence confirms the current Fandom Goku page exposes a numeric Preset → Skills → Super Soul table and reports 19 main-slot presets. citeturn0search4
-- [x] Community unlock-video chapters corroborate numeric discovery/acquisition events for several targets but not complete eight-slot configurations. citeturn0youtube12
+- [x] Search evidence confirms the current Fandom Goku page exposes a numeric Preset → Skills → Super Soul table and reports 19 main-slot presets. 
+- [x] Community unlock-video chapters corroborate numeric discovery/acquisition events for several targets but not complete eight-slot configurations. 
 - [x] No unsupported loadout promotion was made; indexed/unresolved status remains intact.
 - [x] Added and registered `docs/data/goku-numeric-preset-loadout-evidence-audit-2026-09-24.json`.
 - [x] Commits: `c157430190381c158d742297bf9dc0dca78435a7`, `c7fe5492d96331c211e92bc9ce057eae35831dcc`.
