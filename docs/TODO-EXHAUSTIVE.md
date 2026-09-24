@@ -6643,3 +6643,14 @@
 - [x] Maintained canonical/index parity metadata at 455 records with 0 duplicate IDs in this audit.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next:** continue alphabetically into the next stale P1 provenance range after Energy Barrier, checking existing aggregate audits before creating new artifacts.
+
+
+### 2026-09-24 cycle completion — QQ Bang thin-domain provenance refresh
+- [x] Closed the current skill `last_verified` queue before selecting the next P1 thin structured domain; live skill census remains **469 canonical / 469 index / 469 current / 0 stale / 0 duplicate IDs**.
+- [x] Refreshed the three structured QQ Bang research records in `docs/data/qq-bangs-record-layer.json`: the synthesis system, Super Mix Capsule Z, and the Bardock + Beerus clothing recipe family.
+- [x] Strengthened Super Mix Capsule Z acquisition provenance with current Fandom/FAQ/video evidence covering high-level PQ/Expert Mission Tour routes and the Mixing Shop synthesis path; preserved uncertainty around exact current drop behavior.
+- [x] Preserved RNG semantics: recipe families are not deterministic formulas, and no exact six-stat output was promoted without an observed-result artifact.
+- [x] Added and registered `docs/data/qq-bang-provenance-refresh-2026-09-24.json`.
+- [x] Validation: 3/3 target records present; `last_verified` parity maintained; unsupported exact-output promotions **0**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next batch:** continue P1 thin-domain expansion from the live coverage gaps, prioritizing the next structured domain with a small canonical record layer (or deterministic producer/consumer contract) and direct provenance; do not infer complete QQ Bang inventories or deterministic recipe outputs.
