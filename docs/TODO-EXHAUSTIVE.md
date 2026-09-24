@@ -6798,3 +6798,11 @@
 - [x] Advanced `docs/data/skill-p1-provenance-coverage-gap-2026-09-24.json`; Pressure Sign is now the next bounded P1 target.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Next:** evidence-bound Pressure Sign provenance audit and canonical/index validation.
+
+
+### 2026-09-24 completed Punisher Shield P1 provenance refresh
+- [x] Refreshed Punisher Shield provenance for identity, Counter taxonomy, CaC availability, DLC provenance, Ki cost, and PQ129 acquisition.
+- [x] Added and registered `docs/data/skill-punisher-shield-p1-provenance-enrichment-2026-09-24.json`.
+- [x] Preserved unresolved Ultimate Finish, reward probability, and detailed combat measurements.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Next:** select the next unresolved P1 research target and perform an evidence-bound provenance refresh.
