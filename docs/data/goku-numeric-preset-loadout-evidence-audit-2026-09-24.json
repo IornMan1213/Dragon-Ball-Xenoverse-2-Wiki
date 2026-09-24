@@ -22,8 +22,8 @@
   ],
   "findings": [
     "The canonical preset layer currently indexes all 16 targeted Goku preset identities but intentionally leaves loadout_status unresolved.",
-    "The current Xenoverse 2 Fandom Goku search result explicitly describes Goku as having 19 main-slot presets and exposes a multi-row numeric Preset → Skills → Super Soul table, including direct numeric mapping for several early rows. citeturn0search4",
-    "The available community unlock video independently identifies several targeted numeric preset unlock events, including Goku 2, 8, 10, 12, 14, 17, and 18, but its chapter index is discovery/acquisition evidence rather than a complete eight-slot loadout source. citeturn0youtube12",
+    "The current Xenoverse 2 Fandom Goku search result explicitly describes Goku as having 19 main-slot presets and exposes a multi-row numeric Preset → Skills → Super Soul table, including direct numeric mapping for several early rows. citeturn0search4",
+    "The available community unlock video independently identifies several targeted numeric preset unlock events, including Goku 2, 8, 10, 12, 14, 17, and 18, but its chapter index is discovery/acquisition evidence rather than a complete eight-slot loadout source. citeturn0youtube12",
     "The Fandom page could not be opened for row-by-row extraction during this cycle, so the search-result excerpt is insufficient to promote the remaining records to verified complete loadouts.",
     "No loadout fields were promoted by inference, neighboring preset order, or video chapter association."
   ],
