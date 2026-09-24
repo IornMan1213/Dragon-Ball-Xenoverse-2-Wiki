@@ -6806,3 +6806,11 @@
 - [x] Preserved unresolved Ultimate Finish, reward probability, and detailed combat measurements.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Next:** select the next unresolved P1 research target and perform an evidence-bound provenance refresh.
+
+
+### 2026-09-24 completed Critical Upper P1 provenance refresh
+- [x] Verified Critical Upper identity, classification, 100 Ki cost, and Dodoria Lesson 1 acquisition.
+- [x] Added and registered `docs/data/skill-critical-upper-p1-provenance-enrichment-2026-09-24.json`.
+- [x] Preserved unsupported stamina, frame, probability, and universal damage claims.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Next:** select the next unresolved P1 provenance target.
