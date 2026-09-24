@@ -233,3 +233,13 @@
 - [x] Validation: 3/3 target records present; `last_verified` parity maintained; unsupported exact-output promotions **0**.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** continue P1 thin-domain expansion from the live coverage gaps, prioritizing the next structured domain with a small canonical record layer (or deterministic producer/consumer contract) and direct provenance; do not infer complete QQ Bang inventories or deterministic recipe outputs.
+
+
+### 2026-09-24 continuation — QQ Bang observed-result expansion
+- [x] Added two evidence-gated community-observed QQ Bang records to `docs/data/qq-bangs-record-layer.json`.
+- [x] `qq-observed-001`: preserved an exact six-stat vector reported for Pride Trooper Uniform top + Light Heart Suit bottom + Super Mix Capsule Z: **-1/+5/+5/+5/+5/-1**. This remains a single community observation, not a deterministic recipe.
+- [x] `qq-observed-002`: preserved a Beerus top + Light Heart Suit top high-tier result family report without inventing an exact stat vector; the source explicitly describes variable outcomes.
+- [x] Expanded `docs/data/qq-bang-provenance-refresh-2026-09-24.json` to cover five total target records and registered the refreshed artifact in `docs/data/pq-cross-domain-index.json`.
+- [x] Evidence boundary maintained: exact vectors are stored only when directly reported; recipe families without exact outputs remain non-vector research records.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next:** continue P1 thin-domain expansion; prioritize a domain where existing canonical records can be expanded with source-backed observed fields or deterministic cross-domain relationships, while preserving historical/community evidence separately from verified canonical facts.
