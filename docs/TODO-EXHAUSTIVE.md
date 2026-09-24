@@ -1,3 +1,10 @@
+### 2026-09-24 completed skill verification queue
+- [x] Confirmed the Power Pole Pro → Purification provenance tranche had already been completed in `docs/data/skill-provenance-audit-2026-09-24-present-through-purification.json`.
+- [x] Verified live skill census: **469 canonical / 469 index / 469 current / 0 stale / 0 duplicate IDs**.
+- [x] Preserved all acquisition/reward/restriction uncertainty boundaries; no unsupported mechanics or probabilities introduced.
+- [x] Closed the current skill `last_verified` metadata queue.
+- [ ] **Next:** resume the P1 exhaustive-coverage audit of thin wiki systems/pages, prioritizing the next under-documented structured domain from the live TODO/handoff and preserving canonical cross-domain navigation.
+
 ### 2026-09-24 completed deterministic non-PQ accessory consumer reconciliation
 - [x] Audited `docs/Equipment-All.html` against the current equipment/accessory and PQ relationship producers after the 2026-09-24 raid accessory identity reconciliation.
 - [x] Added `docs/data/accessory-presentation-consumer-current-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
