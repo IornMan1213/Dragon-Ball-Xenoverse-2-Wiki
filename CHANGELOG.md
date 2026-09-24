@@ -1,3 +1,10 @@
+## 2026-09-24 — Residual current accessory homepage consumer repair
+
+- Corrected stale current-facing homepage counts in `docs/index.md`: Accessory Shop **53 → 51** and canonical accessories **37 → 116**.
+- Confirmed `docs/Accessory-Canonical-Database.md` already reflected the current reconciliation state.
+- Historical counts remain preserved in dated research/audit history; no canonical identity or acquisition relationship was changed.
+- Commit: `6be2f9b2b5cfa7cde13fbb05826f2e9642501d83`.
+
 ## 2026-09-24 — Accessory presentation consumer reconciliation
 
 - Audited `docs/Equipment-All.html` against the current equipment/accessory and authoritative PQ relationship layers after the final raid accessory identity reconciliation.
