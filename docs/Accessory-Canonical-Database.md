@@ -16,7 +16,7 @@ The canonical identity layer is the bridge between the wiki's separate accessory
 - **47 shop records** are now represented by explicit canonical IDs in the expanded canonical layer.
 - Four additional shop-linked identities already existed canonically, but their exact shop record IDs remain to be attached without guessing.
 - `shop-051` and `shop-052` remain unresolved data-recovery targets; they are not fabricated.
-- Raid/gift and wish/special research remain separate provenance layers until each item is matched with sufficient evidence. The 2026-09-24 raid identity reconciliation currently has **9/9 exact canonical matches**, while route provenance remains distinct from the PQ relationship graph.
+- Raid/gift and wish/special research remain separate provenance layers until each item is matched with sufficient evidence. The 2026-09-24 raid identity reconciliation currently has **11/11 exact canonical matches**, while route provenance remains distinct from the PQ relationship graph.
 
 These counts describe the repository's research state, not the game's total accessory inventory.
 
