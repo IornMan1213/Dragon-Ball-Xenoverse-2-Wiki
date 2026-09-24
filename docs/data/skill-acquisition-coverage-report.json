@@ -31,7 +31,8 @@
     "Mentor layer now contains 33 canonical mentor identities; 10 mentors have verified skill-route links covering 16 canonical skills. Remaining mentor/training-style records are not guessed until their exact mentor lesson relationship is directly verified.",
     "2026-09-23 current projection synchronized from live skills.json and mentor-skill-crosslink-report.json.",
     "2026-09-23 correction: recomputed set difference shows 86, not 58, non-PQ/non-mentor skills. The earlier 58 figure was an arithmetic classification error caused by overlapping categories; canonical data was unaffected.",
-    "2026-09-24 consumer normalization: promoted the live 465-record current projection to the report top level; the prior 305/234/71 projection and its detailed category ID lists are preserved under legacy_projection_2026_09_23 rather than presented as current."
+    "2026-09-24 consumer normalization: promoted the live 465-record current projection to the report top level; the prior 305/234/71 projection and its detailed category ID lists are preserved under legacy_projection_2026_09_23 rather than presented as current.",
+    "Endpoint-layer counts are edge/consumer counts and are not a disjoint partition of the 226 unique non-PQ skills; use current_projection_2026_09_23 for the deterministic unique-skill arithmetic."
   ],
   "total_classified": 226,
   "unresolved_nonpq_skills": 0,
@@ -189,17 +190,15 @@
     },
     "total_classified": 70
   },
-  "categories": {
-    "time_rift": 8,
-    "story": 7,
+  "current_endpoint_layers_2026_09_24": {
     "mentor": 132,
-    "advancement_test": 4,
+    "expert_mission": 18,
+    "time_rift_story_tournament": 13,
     "shop": 31,
-    "expert_mission": 13,
-    "character_only": 10,
-    "starting": 2,
-    "wish": 3,
-    "mentor_like": 12,
-    "other": 0
+    "tokipedia": 4,
+    "conton_city_patrol": 3,
+    "special": 14,
+    "character_exclusive": 10,
+    "starting_move": 2
   }
 }
