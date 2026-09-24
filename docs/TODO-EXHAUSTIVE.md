@@ -6440,3 +6440,9 @@
 - [x] Added canonical explorer navigation to DLC Overview, Super Souls, Equipment, Mentors, Awoken Skills, and Parallel Quests reference pages.
 - [x] Kept navigation-only semantics separate from factual relationship/acquisition/mechanics evidence.
 - [ ] Next: scan remaining system/reference consumers for stale counts, legacy destinations, and one-way links; then resume direct preset/loadout evidence research.
+
+### 2026-09-24 completed global navigation PQ migration
+- [x] Replaced the live wiki-layout Parallel Quests legacy route with `Parallel-Quests-All/`.
+- [x] Kept Expert Missions on its existing route because no canonical explorer currently exists.
+- [x] Updated the global navigation audit with the repaired target.
+- [ ] Next: continue remaining stale-count/legacy-destination/one-way-link scan, then resume direct preset/loadout evidence research.
