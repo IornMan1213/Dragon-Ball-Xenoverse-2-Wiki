@@ -6311,3 +6311,13 @@
 - [x] Validation: all three canonical routes are present in both layouts and obsolete landing routes were removed from these global navigation surfaces; audit status = pass.
 - [x] Navigation-only change; no canonical records, relationships, or research assertions were altered. CI/runtime remains unavailable.
 - [ ] **Exact next batch:** continue deterministic scan of remaining reference/landing pages for stale explorer targets, one-way links, and canonical-ID/count drift; prioritize DLC/system landing consumers before evidence-gated preset/loadout expansion.
+
+
+### 2026-09-24 cycle completion — DLC character explorer navigation repair
+- [x] Audited docs/DLC-Overview.md headline-character presentation links against the canonical docs/Characters-All.html explorer.
+- [x] Repointed all 15/15 resolved DLC headline-character links from the generic /Search/ target to Characters-All.html?q=..., preserving identity labels and query strings.
+- [x] Added docs/data/dlc/dlc-character-explorer-navigation-audit-2026-09-24.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Validation: 15/15 links target the canonical Character Explorer; 0 unresolved; 0 canonical relationship changes; audit status = pass.
+- [x] Presentation-only change; no DLC ownership, character identity, preset/loadout, acquisition, or gameplay relationship was inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next batch: continue deterministic current-facing DLC/system landing consumer scanning for stale explorer targets, stale scalar/list assumptions, one-way navigation, orphan targets, and canonical-ID drift; then resume evidence-gated preset/loadout expansion.
