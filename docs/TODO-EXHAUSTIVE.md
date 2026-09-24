@@ -1,3 +1,11 @@
+### 2026-09-24 cycle completion — Baked Sphere skill-gap evidence enrichment
+- [x] Strengthened the unresolved `Baked Sphere` record with Xenoverse 2-specific evidence for its Ultimate/explosive-wave classification and CaC-unavailable status.
+- [x] Added `docs/data/skill-research-gaps-baked-sphere-evidence-audit-2026-09-24.json` with explicit source/evidence boundaries.
+- [x] Reduced the unresolved field set to Ki cost only; no acquisition route or numeric combat value was invented.
+- [x] Preserved the canonical 469/469 skill boundary; no canonical promotion was attempted without the supported builder/runtime.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** continue the next unresolved thin skill gap (Acid, Boiling Burg, or Energy Boil) with direct Xenoverse 2 evidence and no unsupported promotion.
+
 ### 2026-09-24 cycle completion — Howl skill-gap evidence enrichment
 - [x] Strengthened the unresolved `Howl` research record with Xenoverse 2-specific evidence establishing its Evasive classification/subtype and CaC-unavailable status.
 - [x] Added `docs/data/skill-research-gaps-howls-evidence-audit-2026-09-24.json` with source-backed evidence and explicit unresolved `ki_cost` / `unlock_method` boundaries.
