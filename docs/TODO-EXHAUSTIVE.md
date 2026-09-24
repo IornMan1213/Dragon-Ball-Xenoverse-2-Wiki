@@ -5824,3 +5824,12 @@
 - [x] Remaining backlog candidates: **Cheelai Wig** and **Hercule Wig 2**. The separate **Cheelai Wig (w/Scouter)** identity record also remains unresolved and must not be merged with Cheelai Wig.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next priority:** reconcile Cheelai Wig / Cheelai Wig (w/Scouter) and Hercule Wig 2 against inventory/model evidence, then perform the deterministic event/raid non-PQ consumer scan.
+
+
+### 2026-09-24 cycle completion — exact Cheelai variants + Hercule Wig 2 accessory reconciliation
+- [x] Promoted **Cheelai Wig → accr-114**, **Cheelai Wig (w/Scouter) → accr-115**, and **Hercule Wig 2 → accr-116** using independent inventory/model evidence and route documentation.
+- [x] Kept Cheelai's two named variants distinct and kept Hercule Wig 2 distinct from canonical Hercule Wig; no near-name merge was performed.
+- [x] Synchronized canonical accessory reconciliation, raid/gift bridge, unmatched-route backlog, raid identity reconciliation, and the 2026-09-24 accessory identity audit.
+- [x] Validation: **116 canonical accessories / 9 raid identity records / 9 resolved / 0 unresolved / 18 bridge records / 18 bridge-resolved / 0 bridge-unresolved / 0 broken canonical IDs**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next priority:** continue deterministic post-accessory event/raid non-PQ consumer scanning, prioritizing current-facing stale counts, orphan targets, and reverse-index drift over speculative endpoint creation.
