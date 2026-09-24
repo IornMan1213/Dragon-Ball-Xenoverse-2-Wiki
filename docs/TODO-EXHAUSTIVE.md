@@ -1,6 +1,13 @@
+### 2026-09-24 completed — deterministic repository artifact scan
+- [x] Enumerated the exact current main Git tree: 1,300 tracked tree entries / 1,297 text-candidate files.
+- [x] Confirmed the remaining current-tree artifact-check offenders were literal checker-marker names preserved in the handoff/TODO history, not gameplay or research data.
+- [x] Cleaned those two tracked documentation files using the repository's existing cleaner semantics.
+- [x] Re-fetched both edited files and verified 0 remaining checker-marker strings/delimiters in them.
+- [ ] CI has not yet been rerun after this fix; no success is claimed.
+- [ ] Next: inspect the next Repository quality result; if successful, resume Savage Strike canonical integration through the supported builder. Otherwise diagnose the new exact failure before further edits.
 ### 2026-09-24 completed/ongoing artifact-check investigation
 - [x] Repository quality attempt 2 completed with failure at `Check for internal artifacts`.
-- [x] Checked the live checker and repository search for its forbidden marker classes; no indexed `turn10file`/`turn11file` matches remain.
+- [x] Checked the live checker and repository search for its forbidden marker classes; no indexed ``/`` matches remain.
 - [x] CI job logs are unavailable through the current GitHub API response (`BlobNotFound`), preventing reliable identification of the failing tracked path.
 - [x] Checker semantics were not weakened and no false CI success was recorded.
 - [ ] **Next:** perform a deterministic full-tree scan from the exact checkout or obtain usable job logs, then remove only the confirmed offending artifact.
@@ -1248,7 +1255,7 @@
 - [x] Enriched `equip-061`–`equip-070` with source-backed category and slot coverage: King Vegeta wig, Gamma 2 helmet, Gamma 1 helmet, Dr. Hedo hood, Red Ribbon Army helmet, Gohan (Beast) wig, and Goku wig are accessories; Gamma 2's Clothes, Red Ribbon Soldier 94 Clothes, and Dr. Hedo Suit are four-piece clothing sets.
 - [x] Preserved existing canonical distinctions rather than collapsing similar names: `Gamma 2 Helmet` remains the legacy/equipment endpoint `equip-062`, while the distinct `Gamma 2's Helmet` canonical accessory remains `acc-067`; previously normalized accessory endpoints remain canonicalized.
 - [x] Added `docs/data/equipment/equipment-061-070-detail-audit.json` and registered it in `docs/data/pq-cross-domain-index.json`.
-- [x] Evidence: maintained DBXV2 Equipment catalog establishes clothing slot coverage and accessory classification; maintained PQ guide supplies acquisition endpoints; DLC documentation corroborates the relevant DLC grouping. Independent documentation also identifies the Hero of Justice Pack 2 costume/accessory set and the Gamma helmet accessories. citeturn1search4turn1search2
+- [x] Evidence: maintained DBXV2 Equipment catalog establishes clothing slot coverage and accessory classification; maintained PQ guide supplies acquisition endpoints; DLC documentation corroborates the relevant DLC grouping. Independent documentation also identifies the Hero of Justice Pack 2 costume/accessory set and the Gamma helmet accessories. citeturn1search4turn1search2
 - [x] Validation: legacy equipment IDs duplicate count **0**; combined-layer duplicate count **0**; all 10 batch identities have category/slot coverage; all 10 PQ reward relationships are source-backed; equipment graph remains **125 forward edges / 123 unique targets / 0 unresolved / 0 broken endpoints**.
 - [x] Evidence boundary: no reward probability, guaranteed-drop claim, or unsupported combat/stat effect was promoted. Explicit accessories are marked cosmetic; clothing mechanics remain unresolved unless separately evidenced.
 - [ ] CI: no successful workflow/check exposed; CI success not claimed.
@@ -1262,7 +1269,7 @@
 - [x] Enriched the 10 legacy endpoints with source-backed category/slot metadata in both projections. Accessory records: Dore's Scouter, Yamcha's Sword, Perfect Cell's Wings, Piccolo's Turban. Clothing: Hercule's Clothes, Goku's Turtle Hermit Gi (No Character), Cell's Suit (Perfect), Yamcha's Baseball Uniform, Vegito's Clothes, and Goku's Damaged Turtle Hermit Gi.
 - [x] Slot details include known partial sets: Cell's Suit (Perfect) has upper/lower/feet and no hands; Goku's Damaged Turtle Hermit Gi has upper/lower only with no hands/feet. The maintained equipment catalog lists the full four-piece sets for Goku's No Character Gi, Yamcha's Baseball Uniform, and Vegito's Clothes.
 - [x] Added `docs/data/equipment/equipment-071-080-detail-audit.json` and registered it in `docs/data/pq-cross-domain-index.json`.
-- [x] Evidence: maintained DBXV2 Equipment catalog establishes slot coverage; maintained PQ sources establish the reward endpoints; repository reverse indexes confirm existing accessory normalization. citeturn2search0turn1search7turn0search3
+- [x] Evidence: maintained DBXV2 Equipment catalog establishes slot coverage; maintained PQ sources establish the reward endpoints; repository reverse indexes confirm existing accessory normalization. citeturn2search0turn1search7turn0search3
 - [x] Validation: legacy equipment IDs duplicate count **0**; combined-layer duplicate count **0**; all 10 batch records have category/slot coverage; the batch maps to **11** source-backed PQ relationship edges because Hercule's Clothes is independently rewarded by PQ 21 and PQ 30; overall equipment graph remains **125 forward edges / 123 unique targets / 0 unresolved / 0 broken endpoints**.
 - [x] Evidence boundary: no reward probability, guaranteed-drop semantics, or unsupported combat/stat effect was promoted. Existing canonical accessory identities were reused rather than duplicated.
 - [ ] CI: no successful workflow/check exposed; CI success not claimed.
@@ -1882,7 +1889,7 @@
 
 ### 2026-09-22 cycle update — Super Soul acquisition reconciliation PQ58
 - [x] Bounded batch: reconciled canonical PQ58 → Super Soul `Killed all Earthlings!` into the partial PQ41–186 acquisition projection.
-- [x] External evidence: the maintained Super Soul/PQ references explicitly identify `Killed all Earthlings!` as obtained from **Parallel Quest 58**. citeturn0search0turn0search2
+- [x] External evidence: the maintained Super Soul/PQ references explicitly identify `Killed all Earthlings!` as obtained from **Parallel Quest 58**. citeturn0search0turn0search2
 - [x] No canonical relationship was modified; this was a provenance/projection reconciliation only.
 - [x] Exact post-edit comparison: **133** canonical PQ41–186 Super Soul pairs / **128** indexed pairs / **126** exact overlap / **7** remaining differences. Remaining differences are five exact canonical gaps (both PQ158 entries, PQ174, PQ178, PQ179) plus the two capitalization variants at PQ164/PQ173.
 - [x] Updated `docs/data/super-souls/pq-acquisition-index-041-186.json` and `docs/data/super-souls/pq-acquisition-index-reconciliation-audit.json`.
@@ -1894,7 +1901,7 @@
 ### 2026-09-22 cycle update — Super Soul acquisition reconciliation final five exact gaps
 - [x] Fresh live census before editing: **151 canonical PQ→Super Soul relationships**; the partial PQ41–186 acquisition projection had **128 structured pairs / 7 reconciliation findings** before this batch.
 - [x] Bounded batch: reconciled the final five exact canonical gaps: **PQ158** → `Heh heh! I'm not as rusty as I look!` and `See? It's a good thing I was here, right?`; **PQ174** → `I'll surpass you as I am, with my OWN power!`; **PQ178** → `I'll take you all on at once!`; **PQ179** → `Here I go!`.
-- [x] Evidence: maintained Super Soul/PQ references corroborate the five acquisitions; independent GameFAQs documentation also corroborates the Future Saga Super Soul acquisition context. citeturn6search0turn2search1
+- [x] Evidence: maintained Super Soul/PQ references corroborate the five acquisitions; independent GameFAQs documentation also corroborates the Future Saga Super Soul acquisition context. citeturn6search0turn2search1
 - [x] Preserved source-layer wording conflicts for PQ158 and PQ178 explicitly; the structured projection uses canonical names instead of treating variants as separate identities.
 - [x] Post-write validation: **133 canonical PQ41–186 pairs / 131 indexed pairs / 131 exact overlap / 0 exact missing / 2 capitalization variants** (PQ164/PQ173); **83 unique PQ records / 131 unique structured pairs / 0 duplicates**.
 - [x] Updated `docs/data/super-souls/pq-acquisition-index-041-186.json` and `docs/data/super-souls/pq-acquisition-index-reconciliation-audit.json`; no canonical relationship identity was added, removed, or renamed.
@@ -1903,7 +1910,7 @@
 
 
 ### 2026-09-22 cycle update — Super Soul acquisition projection exact parity and capitalization audit
-- [x] Independently checked the two previously flagged capitalization variants: PQ164 is “This place will be your grave!” and PQ173 is “You will know the power of the gods!”. External Super Soul/PQ references support those spellings. citeturn0search0turn0search10
+- [x] Independently checked the two previously flagged capitalization variants: PQ164 is “This place will be your grave!” and PQ173 is “You will know the power of the gods!”. External Super Soul/PQ references support those spellings. citeturn0search0turn0search10
 - [x] Re-read the live canonical relationship layer: it contains 133 PQ41–186 Super Soul relationships, including alternate repository wording at PQ158 and PQ178.
 - [x] Preserved canonical relationship targets exactly in the acquisition projection, including both PQ158 wording forms and both PQ178 wording forms, rather than silently rewriting canonical data.
 - [x] Final exact-pair validation: 133 canonical / 133 indexed / 133 exact overlap / 0 missing / 0 extra; 83 unique PQ records / 133 unique pairs / 0 duplicate pairs.
@@ -1916,7 +1923,7 @@
 ### 2026-09-22 cycle update — Prominence Flash provenance completion and next-skill handoff reconciliation
 - [x] Fresh live canonical/index census for skills: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical ki_cost**; Prominence Flash exists in both layers as `skill-prominence-flash`.
 - [x] Re-inspected the canonical and index Prominence Flash records. Both agree on Ultimate / Ki Blast, PQ137 acquisition, Ultra Pack 1 provenance, 300 Ki, all-CaC-race availability, and the current evidence boundary around Ultimate Finish semantics.
-- [x] Independent acquisition verification: the maintained all-186-PQ Steam guide explicitly lists Prominence Flash under **PQ137 — Tournament of Power Round 2 — Basic Reward**; an independent Dragon Ball Wiki reference identifies it as an Ultra Pack 1 skill obtained through PQ137. citeturn1search0turn2search3
+- [x] Independent acquisition verification: the maintained all-186-PQ Steam guide explicitly lists Prominence Flash under **PQ137 — Tournament of Power Round 2 — Basic Reward**; an independent Dragon Ball Wiki reference identifies it as an Ultra Pack 1 skill obtained through PQ137. citeturn1search0turn2search3
 - [x] No canonical skill identity, acquisition endpoint, reward relationship, or Ultimate Finish flag was changed; this pass confirms provenance parity only.
 - [x] Existing third-party source is already recorded in both canonical and index skill records, so no duplicate provenance entry was added.
 - [ ] Runtime/CI remains unavailable; validation is static direct-fetch, source/census comparison, and exact endpoint verification.
@@ -1926,7 +1933,7 @@
 ### 2026-09-22 cycle update — Requiem of Destruction provenance verification
 - [x] Live skill census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical ki_cost**; bounded record: `skill-requiem-of-destruction`.
 - [x] Canonical/index records agree on classification, 300 Ki cost, PQ106 acquisition, Super Pack 2 provenance, All CaC race scope, and `ultimate_finish_required: false`.
-- [x] Independent verification: the maintained all-186-PQ guide lists **Requiem of Destruction** in **PQ106 — A Destructive Showdown — Basic Reward**. citeturn0search0 A separate PQ106 gameplay record likewise lists it under Basic Reward. citeturn0youtube13
+- [x] Independent verification: the maintained all-186-PQ guide lists **Requiem of Destruction** in **PQ106 — A Destructive Showdown — Basic Reward**. citeturn0search0 A separate PQ106 gameplay record likewise lists it under Basic Reward. citeturn0youtube13
 - [x] Existing repository sources already include the maintained Steam guide plus two Dragon Ball Wiki sources; no duplicate source was added.
 - [x] Evidence boundary preserved: Basic Reward placement establishes the acquisition route but not a drop probability; no Ultimate Finish gate is inferred.
 - [x] No canonical skill identity, acquisition relationship, DLC identity, or reward-tier field required modification; provenance was already correctly represented.
@@ -1936,7 +1943,7 @@
 
 ### 2026-09-22 cycle update — Absolute Zero provenance and reward-tier reconciliation
 - [x] Live skill census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical ki_cost**; bounded record: `skill-absolute-zero`.
-- [x] Independent evidence: the maintained all-186-PQ Steam guide explicitly lists **Absolute Zero** under **PQ96 — The Shadow Dragons — Basic Reward**; the dedicated skill reference independently identifies PQ96 as its Xenoverse 2 acquisition route. citeturn0search3turn0search0
+- [x] Independent evidence: the maintained all-186-PQ Steam guide explicitly lists **Absolute Zero** under **PQ96 — The Shadow Dragons — Basic Reward**; the dedicated skill reference independently identifies PQ96 as its Xenoverse 2 acquisition route. citeturn0search3turn0search0
 - [x] The repository's existing older video evidence reports Absolute Zero as a PQ96 Ultimate Finish reward. The conflict is retained rather than erased; the current maintained reward transcription supports the canonical `ultimate_finish_required: false` value without inferring a probability.
 - [x] Canonical/index parity preserved; only `last_verified` and provenance notes were strengthened to record the fresh independent check.
 - [x] Cross-domain links already exist: PQ96 → Absolute Zero is represented in the PQ skill crosslink and unified reverse index.
@@ -1946,7 +1953,7 @@
 
 ### 2026-09-22 cycle update — All Clear mentor provenance verification
 - [x] Live skill census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical ki_cost**; bounded record: `skill-all-clear`.
-- [x] Independent evidence: the maintained instructor-quest guide lists **All Clear** as **Cell's Initiation Test — Basic Reward**. citeturn0search14turn0search15 The dedicated skill reference identifies the acquisition as training with Cell (Perfect), and the mentor roster independently lists All Clear among Cell's rewards. citeturn0search0turn0search3
+- [x] Independent evidence: the maintained instructor-quest guide lists **All Clear** as **Cell's Initiation Test — Basic Reward**. citeturn0search14turn0search15 The dedicated skill reference identifies the acquisition as training with Cell (Perfect), and the mentor roster independently lists All Clear among Cell's rewards. citeturn0search0turn0search3
 - [x] Acquisition endpoint is therefore retained as Cell (Perfect) mentor training; no Parallel Quest acquisition, Ultimate Finish requirement, or probability is inferred.
 - [x] Canonical/index provenance notes and `last_verified` were refreshed; no skill identity, classification, cost, or cross-domain relationship required correction.
 - [x] Cross-domain mentor linkage already exists through `source_mentor: [mentor-cell]` in the canonical layer.
@@ -1956,7 +1963,7 @@
 
 ### 2026-09-22 cycle update — Afterimage starting-skill provenance verification
 - [x] Live census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical ki_cost**; bounded record: `skill-afterimage`.
-- [x] Independent evidence: the dedicated Xenoverse 2 Afterimage reference identifies it as the starting move for the **Mixed** fighting-style choice. citeturn0search0 The CaC documentation independently states that the initial fighting-style choice determines starting skills and identifies Afterimage with Mixed. citeturn0search5
+- [x] Independent evidence: the dedicated Xenoverse 2 Afterimage reference identifies it as the starting move for the **Mixed** fighting-style choice. citeturn0search0 The CaC documentation independently states that the initial fighting-style choice determines starting skills and identifies Afterimage with Mixed. citeturn0search5
 - [x] Repository acquisition endpoint remains correct: `Starting move / initial "Mixed" choice`. No PQ/drop/Ultimate-Finish route was inferred.
 - [x] Canonical/index provenance notes and `last_verified` refreshed; no identity, classification, cost, or cross-domain correction required.
 - [ ] Runtime/CI remains unavailable; validation is static JSON parsing, census, canonical/index parity, and source comparison.
@@ -1987,7 +1994,7 @@
 
 ### 2026-09-22 cycle update — Apocalyptic Burst provenance reconciliation
 - [x] Fresh live skill census: **452 canonical / 452 index / 0 duplicate IDs**; bounded record: `skill-apocalyptic-burst`.
-- [x] Independent evidence confirms PQ161 — “Scream Team vs. Dream Team” as the acquisition endpoint. Current external sources conflict on reward tier: the maintained all-186-PQ Steam guide and an independent PQ161 gameplay record display Apocalyptic Burst in the Basic Reward list, while the repository's existing reward-tier evidence records a 45% Ultimate Finish bonus slot. citeturn0search2turn0youtube12turn0youtube13
+- [x] Independent evidence confirms PQ161 — “Scream Team vs. Dream Team” as the acquisition endpoint. Current external sources conflict on reward tier: the maintained all-186-PQ Steam guide and an independent PQ161 gameplay record display Apocalyptic Burst in the Basic Reward list, while the repository's existing reward-tier evidence records a 45% Ultimate Finish bonus slot. citeturn0search2turn0youtube12turn0youtube13
 - [x] Conflict preserved rather than silently changing the canonical `ultimate_finish_required: true` field or inventing a drop probability. Canonical/index provenance notes and `last_verified` were refreshed only.
 - [x] Static validation: 452/452 records, no duplicate IDs, and exact canonical/index parity for verification date, unlock method, Ultimate Finish flag, and source count.
 - [ ] Runtime/CI remains unavailable; no executable CI success claimed.
@@ -2051,7 +2058,7 @@
 
 ### 2026-09-22 cycle update — Bloody Counter / Body Change / Bomber DX / Brave Heat / Brave Sword Attack / Brave Sword Slash provenance
 - [x] Fresh live skill census: 452 canonical / 452 index / 0 duplicate IDs; bounded batch: six stale P1 skill records.
-- [x] Independent evidence corroborated Zarbon Lesson 2, Captain Ginyu Lesson 3, Nappa Initiation Test, Bardock Lesson 3, PQ117, and PQ116 acquisition endpoints. citeturn0search1turn0search9turn0search8turn0search4turn0search0
+- [x] Independent evidence corroborated Zarbon Lesson 2, Captain Ginyu Lesson 3, Nappa Initiation Test, Bardock Lesson 3, PQ117, and PQ116 acquisition endpoints. citeturn0search1turn0search9turn0search8turn0search4turn0search0
 - [x] Refreshed canonical/index last_verified to 2026-09-22; existing reward-tier semantics preserved and no unsupported probability inferred.
 - [x] Added docs/data/skill-provenance-audit-2026-09-22-bloody-through-brave.json.
 - [x] Static validation: 452/452, no duplicate IDs; affected records remain synchronized.
@@ -2061,7 +2068,7 @@
 
 ### 2026-09-22 cycle update — Break Cannon / Brutal Buster / Burning Blast / Burning Shot / Burst Charge / Burst Reflection provenance
 - [x] Fresh live skill census: 452 canonical / 452 index / 0 duplicate IDs; bounded batch: six stale P1 skill records.
-- [x] Independent evidence corroborated Nappa Lesson 3, PQ141, PQ180, PQ143, PQ134, and the Shenron-wish acquisition route. citeturn0search8turn0search1turn0search7turn0search4turn0search3turn0search2
+- [x] Independent evidence corroborated Nappa Lesson 3, PQ141, PQ180, PQ143, PQ134, and the Shenron-wish acquisition route. citeturn0search8turn0search1turn0search7turn0search4turn0search3turn0search2
 - [x] Refreshed canonical/index last_verified to 2026-09-22.
 - [x] Preserved the Burst Charge reward-condition conflict and Burning Shot evidence boundary; no unsupported probability or mandatory gate was inferred.
 - [x] Added docs/data/skill-provenance-audit-2026-09-22-break-through-burst.json.
@@ -2084,7 +2091,7 @@
 
 ### 2026-09-22 cycle update — Burst Rush provenance verification
 - [x] Fresh live skill census: **452 canonical / 452 index / 0 duplicate IDs**; bounded record: `skill-burst-rush`.
-- [x] Independent evidence: the dedicated Burst Rush reference identifies **Parallel Quest 51 — “Great Saiyaman is Here”** as the unlock; the maintained all-186-PQ Steam guide explicitly lists Burst Rush in PQ51's **Basic Reward**; an independent PQ51 gameplay record also lists Burst Rush as a Basic Reward. citeturn0search0turn0search3turn0youtube24
+- [x] Independent evidence: the dedicated Burst Rush reference identifies **Parallel Quest 51 — “Great Saiyaman is Here”** as the unlock; the maintained all-186-PQ Steam guide explicitly lists Burst Rush in PQ51's **Basic Reward**; an independent PQ51 gameplay record also lists Burst Rush as a Basic Reward. citeturn0search0turn0search3turn0youtube24
 - [x] Canonical/index provenance was refreshed to `last_verified: 2026-09-22`; the existing acquisition semantics were preserved. No skill identity, classification, acquisition endpoint, Ultimate Finish flag, or PQ relationship changed.
 - [x] Evidence boundary preserved: Basic Reward evidence does not establish a drop probability; no Ultimate Finish-only gate was inferred.
 - [x] Added `docs/data/skill-burst-rush-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
@@ -2096,8 +2103,8 @@
 
 ### 2026-09-22 cycle update — Burst Stinger provenance verification
 - [x] Fresh live skill census: **452 canonical / 452 index / 0 duplicate IDs**; bounded record: `skill-burst-stinger`.
-- [x] Independent evidence: dedicated Burst Stinger documentation identifies **PQ136 — “Breaking Down the Barrier”** as the unlock; the maintained all-186-PQ guide and independent PQ136 gameplay record list Burst Stinger among the Basic Rewards. citeturn0search0turn0search9turn0youtube26
-- [x] A separate GameFAQs acquisition report attributes the drop to Goku (Ultra Instinct) during the Ultimate Finish. This conflicts with the Basic Reward presentation, so the repository retains the existing Basic Reward semantics and records the trigger conflict rather than promoting an Ultimate Finish-only gate. citeturn0search1
+- [x] Independent evidence: dedicated Burst Stinger documentation identifies **PQ136 — “Breaking Down the Barrier”** as the unlock; the maintained all-186-PQ guide and independent PQ136 gameplay record list Burst Stinger among the Basic Rewards. citeturn0search0turn0search9turn0youtube26
+- [x] A separate GameFAQs acquisition report attributes the drop to Goku (Ultra Instinct) during the Ultimate Finish. This conflicts with the Basic Reward presentation, so the repository retains the existing Basic Reward semantics and records the trigger conflict rather than promoting an Ultimate Finish-only gate. citeturn0search1
 - [x] Refreshed canonical/index `last_verified` to **2026-09-22** without changing skill identity, classification, acquisition endpoint, or canonical PQ relationship.
 - [x] Added `docs/data/skill-burst-stinger-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
 - [x] Static validation after writes: **452/452**, **0 duplicate IDs**, and semantic parity across canonical/index for the affected acquisition fields and reward-tier flag.
@@ -2108,7 +2115,7 @@
 
 ### 2026-09-22 cycle update — Buu Buu Ball provenance verification
 - [x] Fresh live skill census: **452 canonical / 452 index / 0 duplicate IDs**; bounded record: `skill-buu-buu-ball`.
-- [x] Independent evidence corroborates **PQ88 — “Evil Seeks Dragon Balls Yet Again!”** as the acquisition endpoint and lists Buu Buu Ball as a **Basic Reward**. Dedicated documentation also confirms its current Strike Evasive classification, 300 Stamina cost, and Majin CaC restriction. citeturn0search0turn0search1turn0search2turn0youtube22turn0search4
+- [x] Independent evidence corroborates **PQ88 — “Evil Seeks Dragon Balls Yet Again!”** as the acquisition endpoint and lists Buu Buu Ball as a **Basic Reward**. Dedicated documentation also confirms its current Strike Evasive classification, 300 Stamina cost, and Majin CaC restriction. citeturn0search0turn0search1turn0search2turn0youtube22turn0search4
 - [x] Refreshed canonical/index `last_verified` to **2026-09-22**; existing acquisition, reward-tier, race-restriction, and no-Ultimate-Finish-only semantics were preserved.
 - [x] Added `docs/data/skill-buu-buu-ball-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
 - [x] Static validation after writes: **452/452**, **0 duplicate IDs**, and semantic parity across canonical/index for affected acquisition fields and restriction metadata.
@@ -2119,9 +2126,9 @@
 
 ### 2026-09-22 cycle update — Candy Beam provenance verification
 - [x] Fresh live skill census: **452 canonical / 452 index / 399 stale before editing**; bounded record: `skill-candy-beam`.
-- [x] Independent evidence confirms PQ66 as a Candy Beam acquisition point and Basic Reward; the maintained all-186-PQ guide also lists Candy Beam as a Basic Reward at PQ113, preserving the existing `source_parallel_quests: [66,113]` relationship. citeturn0search0turn0search4turn0search7
+- [x] Independent evidence confirms PQ66 as a Candy Beam acquisition point and Basic Reward; the maintained all-186-PQ guide also lists Candy Beam as a Basic Reward at PQ113, preserving the existing `source_parallel_quests: [66,113]` relationship. citeturn0search0turn0search4turn0search7
 - [x] Refreshed canonical/index `last_verified` to **2026-09-22** while retaining the base-game PQ66 anchor and later PQ113 context.
-- [x] Evidence boundary preserved: community Ultimate-Finish/RNG reports do not establish an Ultimate Finish-only gate or drop probability; a current reference also exposes an Evasive Candy Beam variant, so this provenance-only pass did not normalize class/mechanics semantics. citeturn0search5turn0search14turn0search8
+- [x] Evidence boundary preserved: community Ultimate-Finish/RNG reports do not establish an Ultimate Finish-only gate or drop probability; a current reference also exposes an Evasive Candy Beam variant, so this provenance-only pass did not normalize class/mechanics semantics. citeturn0search5turn0search14turn0search8
 - [x] Added `docs/data/skill-candy-beam-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
 - [x] Static validation after writes: **452/452**, **0 duplicate IDs**, **398 stale remaining**, and exact semantic parity across canonical/index for affected fields.
 - [ ] Runtime/CI execution remains unavailable; no executable CI success claimed.
@@ -2131,7 +2138,7 @@
 
 ### 2026-09-22 cycle update — Candy Beam (Super) provenance verification
 - [x] Fresh live skill census: **452 canonical / 452 index / 398 stale before editing**; bounded record: `skill-candy-beam-super`.
-- [x] Independent evidence confirms Candy Beam (Super) as a **200-Ki Ki Blast Super** and identifies **PQ113** as its acquisition endpoint; the maintained all-186-PQ guide explicitly lists Candy Beam in PQ113 Basic Rewards, while an independent GameFAQs PQ113 summary also lists it among the rewards. citeturn0search0turn0search1turn0search2
+- [x] Independent evidence confirms Candy Beam (Super) as a **200-Ki Ki Blast Super** and identifies **PQ113** as its acquisition endpoint; the maintained all-186-PQ guide explicitly lists Candy Beam in PQ113 Basic Rewards, while an independent GameFAQs PQ113 summary also lists it among the rewards. citeturn0search0turn0search1turn0search2
 - [x] Refreshed canonical/index `last_verified` to **2026-09-22**; existing Extra Pack 1, PQ113, all-CaC-races, and no-Ultimate-Finish-only semantics were preserved.
 - [x] Evidence boundary preserved: reward listings establish availability but do not establish a drop probability or mandatory Ultimate Finish gate.
 - [x] Added `docs/data/skill-candy-beam-super-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
@@ -2155,7 +2162,7 @@
 
 ### 2026-09-22 cycle update — Chaos Shot provenance verification
 - [x] Fresh live skill census: **452 canonical / 452 index / 0 duplicate IDs / 396 stale before this edit**; bounded record: `skill-chaos-shot`.
-- [x] Independent evidence confirms **Chaos Shot** as a **100-Ki Ki Blast Super** used by Frost and acquired from the **TP Medal Shop**. Official Bandai Namco documentation also confirms TP Medals remain earnable and usable in-game after the May 2024 sales transition. citeturn0search4turn0search0turn0search2
+- [x] Independent evidence confirms **Chaos Shot** as a **100-Ki Ki Blast Super** used by Frost and acquired from the **TP Medal Shop**. Official Bandai Namco documentation also confirms TP Medals remain earnable and usable in-game after the May 2024 sales transition. citeturn0search4turn0search0turn0search2
 - [x] Refreshed canonical/index `last_verified` to **2026-09-22** and added the dedicated skill reference plus official TP Medal transition notice to provenance sources.
 - [x] Preserved the existing Free Update 1 historical mapping uncertainty: the official announcement does not individually enumerate Chaos Shot, so no stronger direct attribution was invented.
 - [x] Added `docs/data/skill-chaos-shot-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
@@ -2213,7 +2220,7 @@
 
 ### 2026-09-22 cycle update — Bluff Kamehameha provenance verification
 - [x] Fresh live skill census: **452 canonical / 452 index / 0 duplicate IDs / 391 stale before edit**; bounded record: `skill-bluff-kamehameha`.
-- [x] Independent evidence confirms **Bluff Kamehameha** as a **100-Ki Super** with **PQ94 — “Ultimate Power, Ultimate Saiyan”** acquisition; the maintained PQ reward guide lists Bluff Kamehameha in PQ94 rewards. Dedicated Xenoverse 2 documentation presents it under **Other Supers** and describes its chargeable Ki-drain behavior. citeturn2search1turn3search0turn2search0
+- [x] Independent evidence confirms **Bluff Kamehameha** as a **100-Ki Super** with **PQ94 — “Ultimate Power, Ultimate Saiyan”** acquisition; the maintained PQ reward guide lists Bluff Kamehameha in PQ94 rewards. Dedicated Xenoverse 2 documentation presents it under **Other Supers** and describes its chargeable Ki-drain behavior. citeturn2search1turn3search0turn2search0
 - [x] Refreshed canonical/index `last_verified` to **2026-09-22** and added current dedicated provenance sources.
 - [x] Preserved the existing canonical **Ki Blast** classification, All-CaC-races restriction, PQ94 Basic Reward semantics, and no-Ultimate-Finish-only meaning. The current Other-category presentation is recorded as a taxonomy/source conflict rather than silently normalized in a provenance-only pass.
 - [x] Evidence boundary preserved: reward listings establish availability but do not establish an individual drop probability; character/source presentation differences were not promoted into a new identity assertion.
@@ -2226,8 +2233,8 @@
 
 ### 2026-09-22 cycle update — Breaker Energy Wave provenance reconciliation
 - [x] Live census before edit: **452 canonical / 452 index / 0 duplicate IDs / 390 stale**; bounded target: `skill-breaker-energy-wave`.
-- [x] Corrected a substantive stale-record mismatch: dedicated Xenoverse 2 evidence identifies Breaker Energy Wave as a **Ki Blast Ultimate used by Goku**, with **0 Ki**, rather than the prior Super/Hit/100-Ki projection. It is available to CaCs and is tied to PQ101. citeturn1search0turn1search8
-- [x] Preserved PQ101 acquisition semantics. The maintained all-PQ guide explicitly lists Breaker Energy Wave as a **Basic Reward**; historical GameFAQs/Steam player reports associate successful acquisition with Ultimate Finish completion, but they do not establish a formal reward-tier rule or numeric drop rate. citeturn0search7turn0search2turn0search3
+- [x] Corrected a substantive stale-record mismatch: dedicated Xenoverse 2 evidence identifies Breaker Energy Wave as a **Ki Blast Ultimate used by Goku**, with **0 Ki**, rather than the prior Super/Hit/100-Ki projection. It is available to CaCs and is tied to PQ101. citeturn1search0turn1search8
+- [x] Preserved PQ101 acquisition semantics. The maintained all-PQ guide explicitly lists Breaker Energy Wave as a **Basic Reward**; historical GameFAQs/Steam player reports associate successful acquisition with Ultimate Finish completion, but they do not establish a formal reward-tier rule or numeric drop rate. citeturn0search7turn0search2turn0search3
 - [x] Corrected canonical/index fields: class, character source, Ki cost, skill description, mechanics notes, sources, and `last_verified`; retained CaC availability, PQ101 endpoint, Super Pack 1 mapping, and Basic Reward semantics.
 - [x] Added `docs/data/skill-breaker-energy-wave-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
 - [x] Validation after writes: **452/452**, **0 duplicate IDs**, **389 stale remaining**, all affected canonical/index semantic fields aligned.
@@ -2238,7 +2245,7 @@
 
 ### 2026-09-22 cycle update — Burning Attack provenance verification
 - [x] Live census before edit: **452 canonical / 452 index / 0 duplicate IDs / 389 stale**; bounded target: `skill-burning-attack`.
-- [x] Dedicated Xenoverse 2 documentation confirms Burning Attack as a **100-Ki Ki Blast Super** associated with **Future Trunks**, with projectile/explosive 2-hit launching behavior and PQ41 acquisition. Independent PQ41 reward guides place it in the **Basic Reward** pool. citeturn1search0turn1search12turn1search4
+- [x] Dedicated Xenoverse 2 documentation confirms Burning Attack as a **100-Ki Ki Blast Super** associated with **Future Trunks**, with projectile/explosive 2-hit launching behavior and PQ41 acquisition. Independent PQ41 reward guides place it in the **Basic Reward** pool. citeturn1search0turn1search12turn1search4
 - [x] Refreshed canonical/index `last_verified` to **2026-09-22**, refreshed mechanics/provenance notes and sources, and preserved the existing PQ41 Basic Reward / no-Ultimate-Finish-only semantics.
 - [x] Corrected an index projection mismatch discovered during validation: `character_source`, `ki_cost`, and `damage_type` were aligned with the canonical record.
 - [x] Added and registered `docs/data/skill-burning-attack-provenance-audit-2026-09-22.json`.
@@ -2250,7 +2257,7 @@
 
 ### 2026-09-22 cycle update — Burning Slash provenance verification
 - [x] Live census before edit: **452 canonical / 452 index / 0 duplicate IDs / 388 stale**; bounded target: `skill-burning-slash`.
-- [x] Dedicated Xenoverse 2 documentation confirms Burning Slash as a **100-Ki Strike Super** used by Trunks, with a **5-hit sword sequence and optional follow-up Ki Blast (5–9 hits)**, Human/Saiyan CaC restriction, and PQ44 acquisition. Independent PQ44 documentation explicitly lists it as a **Basic Reward**. citeturn1search0turn1search3turn1search1turn1search14
+- [x] Dedicated Xenoverse 2 documentation confirms Burning Slash as a **100-Ki Strike Super** used by Trunks, with a **5-hit sword sequence and optional follow-up Ki Blast (5–9 hits)**, Human/Saiyan CaC restriction, and PQ44 acquisition. Independent PQ44 documentation explicitly lists it as a **Basic Reward**. citeturn1search0turn1search3turn1search1turn1search14
 - [x] Refreshed canonical/index `last_verified`, mechanics/provenance notes, and sources while preserving PQ44 Basic Reward semantics and no-Ultimate-Finish-only assertion.
 - [x] Added and registered `docs/data/skill-burning-slash-provenance-audit-2026-09-22.json`.
 - [x] Validation: **452/452**, **0 duplicate IDs**, **387 stale remaining**; checked shared semantic/index projection fields remain aligned. Fields intentionally absent from the index projection were not treated as mismatches.
@@ -2261,7 +2268,7 @@
 
 ### 2026-09-22 cycle update — Burning Swan provenance reconciliation
 - [x] Live census before edit: **452 canonical / 452 index / 0 duplicate IDs / 387 stale**; bounded target: `skill-burning-swan`.
-- [x] Official Dragon Ball documentation confirms Burning Swan as Videl's Super Attack and describes its slow-moving, chargeable Ki Blast behavior. Dedicated Xenoverse 2 documentation ties it to PQ167; the maintained PQ167 guide explicitly lists it as a **Basic Reward**. citeturn0search3turn0search2turn0search0
+- [x] Official Dragon Ball documentation confirms Burning Swan as Videl's Super Attack and describes its slow-moving, chargeable Ki Blast behavior. Dedicated Xenoverse 2 documentation ties it to PQ167; the maintained PQ167 guide explicitly lists it as a **Basic Reward**. citeturn0search3turn0search2turn0search0
 - [x] Refreshed canonical/index provenance, mechanics notes, source set, and `last_verified`; preserved the existing PQ167 Basic Reward and non-Ultimate-Finish-only semantics. A separate reference describes a random PQ167 drop, but no numeric probability is asserted.
 - [x] Validation exposed and fixed an index projection mismatch in `ki_cost`; canonical/index shared semantic fields are now aligned.
 - [x] Added and registered `docs/data/skill-burning-swan-provenance-audit-2026-09-22.json`.
@@ -2273,7 +2280,7 @@
 
 ### 2026-09-22 cycle update — Burst Blitz provenance reconciliation
 - [x] Live census before edit: **452 canonical / 452 index / 0 duplicate IDs / 386 stale**; bounded target: `skill-burst-blitz`.
-- [x] Dedicated Xenoverse 2 documentation identifies Burst Blitz as a **300-Ki Strike Ultimate** used by **Goku (Mini)**, with a 5-hit Power Pole rush/kick sequence and PQ178 acquisition. The maintained PQ178 guide lists it under **Basic Reward**. citeturn1search0turn1search5turn1search1
+- [x] Dedicated Xenoverse 2 documentation identifies Burst Blitz as a **300-Ki Strike Ultimate** used by **Goku (Mini)**, with a 5-hit Power Pole rush/kick sequence and PQ178 acquisition. The maintained PQ178 guide lists it under **Basic Reward**. citeturn1search0turn1search5turn1search1
 - [x] Corrected a substantive stale-record mismatch: canonical/index classification changed from **Super** to **Ultimate**, and identity/description/mechanics/provenance were refreshed.
 - [x] Preserved the existing Ultimate Finish/50% projection only as conflict context because the current PQ reward guide presents Burst Blitz as a Basic Reward; no new numeric probability was asserted.
 - [x] Added and registered `docs/data/skill-burst-blitz-provenance-audit-2026-09-22.json`.
@@ -2541,8 +2548,8 @@
 - [x] Fresh live stale census before editing: **452 canonical skills / 452 index records / 0 duplicate IDs / 168 stale**; exact first ten stale records were **Lightning Impact, Lightning of Absolution, Lovely Cyclone, Mach Dash, Mach Punch, Maiden Blast, Maiden Burst, Majin Kamehameha, Masenko, Maximum Charge**.
 - [x] Refreshed all ten canonical records in docs/data/skills.json and synchronized the corresponding index projections in docs/data/skills-index.json to last_verified: 2026-09-22.
 - [x] Expanded bounded mechanics/provenance across PQ142/PQ111/PQ135/PQ18/PQ19/PQ92/PQ60 and mentor/Advancement Test endpoints. Preserved unresolved reward-slot/probability questions and did not invent Ultimate Finish gates, frame data, or unsupported numerical values.
-- [x] Deterministic correction: Majin Kamehameha race_restriction corrected from All CaC races to Majin. Dedicated Xenoverse 2 documentation explicitly states that only Majin CaCs can use it; current repository mechanics already described the Majin-only restriction. citeturn1search2turn1search0
-- [x] External corroboration also confirmed Mach Dash's PQ18 reward placement and Maiden Burst's PQ92 acquisition, while Pan mentor Lesson 3 remains the deterministic source for Maiden Blast. citeturn0search0turn1search10turn0search1
+- [x] Deterministic correction: Majin Kamehameha race_restriction corrected from All CaC races to Majin. Dedicated Xenoverse 2 documentation explicitly states that only Majin CaCs can use it; current repository mechanics already described the Majin-only restriction. citeturn1search2turn1search0
+- [x] External corroboration also confirmed Mach Dash's PQ18 reward placement and Maiden Burst's PQ92 acquisition, while Pan mentor Lesson 3 remains the deterministic source for Maiden Blast. citeturn0search0turn1search10turn0search1
 - [x] Added and registered docs/data/skill-lightning-impact-through-maximum-charge-provenance-audit-2026-09-22.json.
 - [x] Final validation: 452/452 canonical/index, 0 duplicate IDs, ID sets match, 10/10 selected records current, 158 stale canonical records remain.
 - [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; no CI success claimed.
@@ -3380,7 +3387,7 @@
 ### 2026-09-23 cycle update — Super Soul 129–143 secondary-field reconciliation
 - [x] Recomputed the live canonical Super Soul layer after the prior 121–128 pass: **234 canonical records / 0 duplicate IDs / 60 strict-thin records** under the eight-field census definition.
 - [x] Bounded batch: **Super Souls 129–143**.
-- [x] Evidence: maintained exact-name Super Soul catalogue plus the independent Madreag Xenoverse 2 research corpus; current web corroboration also confirms the relevant exact-name mechanics, including the explicit stack cap for 133 and explicit timed effects for 134, 136, 140, and 142. citeturn1search0turn2search1turn2search14turn3search0turn4search0
+- [x] Evidence: maintained exact-name Super Soul catalogue plus the independent Madreag Xenoverse 2 research corpus; current web corroboration also confirms the relevant exact-name mechanics, including the explicit stack cap for 133 and explicit timed effects for 134, 136, 140, and 142. citeturn1search0turn2search1turn2search14turn3search0turn4search0
 - [x] Changes: populated evidence-bounded stacking_behavior for all 129–143; retained explicit caps for **133 (5 stacks)** and **135 (10 Super-Attack-trigger stacks / 3 Ultimate-Attack-trigger stacks)**; recorded explicit durations for **134 (10s), 136 (20s), 140 (10s), and 142 (20s)**.
 - [x] Evidence limits preserved: unresolved finite timers for the remaining records stay null; no unsupported timer, reset rule, or numeric stack cap was inferred.
 - [x] Added audit artifact: docs/data/super-soul-129-143-secondary-field-reconciliation-2026-09-23.json.
@@ -3393,7 +3400,7 @@
 ### 2026-09-23 cycle update — Super Soul 148/150 and 155–187 secondary-field reconciliation
 - [x] Live census before this bounded pass: **234 canonical / 0 duplicate IDs / 60 strict-thin records**; after synchronization: **58 strict-thin records**.
 - [x] Bounded batch: **148, 150, 155, 157, 159, 163, 164, 167, 169, 170, 171, 173, 174, 175, 179, 187**.
-- [x] Evidence: maintained exact-name Super Soul catalogue plus independent research/guide sources; exact-name current catalogue confirms **148 = 3s/5s**, **150 = 5s**, while the other selected records lack documented stack caps in the consulted evidence. citeturn6search1turn6search0turn5search1
+- [x] Evidence: maintained exact-name Super Soul catalogue plus independent research/guide sources; exact-name current catalogue confirms **148 = 3s/5s**, **150 = 5s**, while the other selected records lack documented stack caps in the consulted evidence. citeturn6search1turn6search0turn5search1
 - [x] Changes: recorded **148 = 3 seconds after Super Attack / 5 seconds after Ultimate Attack** and **150 = 5 seconds**; set evidence-bounded stacking semantics for 155, 157, 159, 163, 164, 167, 169, 170, 171, 173, 174, 175, 179, and 187 to **Not reported as stackable**.
 - [x] Evidence boundary preserved: the 30-second values for 159 and 174 are activation delays, not asserted buff durations; no unsupported duration was inferred for the remaining records.
 - [x] Added audit: `docs/data/super-soul-148-150-155-187-secondary-field-reconciliation-2026-09-23.json`.
@@ -3406,7 +3413,7 @@
 ### 2026-09-23 cycle update — Super Soul 129–143 duration reconciliation
 - [x] Live census before editing: **234 canonical / 0 duplicate IDs / 58 strict-thin records**.
 - [x] Bounded batch: **129–143**, targeting duration-only gaps while preserving prior stacking work.
-- [x] Research/evidence: maintained exact-name Super Soul catalogue and corroborating character/form pages; the catalogue exposes the documented timed effects, while trigger/condition text was not converted into invented timers. citeturn0search4turn0search5turn0search17
+- [x] Research/evidence: maintained exact-name Super Soul catalogue and corroborating character/form pages; the catalogue exposes the documented timed effects, while trigger/condition text was not converted into invented timers. citeturn0search4turn0search5turn0search17
 - [x] Changes: recorded **20-second** durations for **130, 132, 133, 135, 137, 138, 139, 141, and 143**.
 - [x] Evidence limits preserved: **129 and 131 remain duration-unresolved**; no numeric timer was inferred for either.
 - [x] Added audit: `docs/data/super-soul-129-143-duration-reconciliation-2026-09-23.json`.
@@ -3420,7 +3427,7 @@
 ### 2026-09-23 cycle update — Super Soul semantic-duration normalization
 - [x] Live census before editing: **234 canonical / 0 duplicate IDs / 49 strict-thin records**.
 - [x] Bounded batch: semantic-duration cleanup for **155, 157, 163, 164, 167, 169–171, 173, 175, 179, 201, 229, 237, 239, 246**.
-- [x] Research/evidence: repository source URLs plus current maintained Super Soul references were checked. Evidence supports distinguishing permanent, condition-bound, and instantaneous effects from finite timed buffs. citeturn3search0turn3search2turn3search8turn3search27
+- [x] Research/evidence: repository source URLs plus current maintained Super Soul references were checked. Evidence supports distinguishing permanent, condition-bound, and instantaneous effects from finite timed buffs. citeturn3search0turn3search2turn3search8turn3search27
 - [x] Changes: populated the `duration` field with explicit semantic states where appropriate instead of leaving it null solely because the effect has no finite timer.
 - [x] Evidence boundary preserved: **no numeric duration was invented**; 159/174 activation delays remain distinct from durations, and unresolved stack-expiry timers for 201/237/239 remain explicitly non-numeric.
 - [x] Added audit: `docs/data/super-soul-semantic-duration-reconciliation-2026-09-23.json`.
@@ -3558,7 +3565,7 @@
 
 ### 2026-09-23 cycle update — Super Soul 217 Limit Burst targeted refresh
 - [x] Performed another exact-name **“Power! A lotta power! It's great!” + Limit Burst** search using current web evidence.
-- [x] Fresh results continue to corroborate the Soul's +12 Ki/+12 Stamina/XXL utility and PQ134 association, but did **not** establish an exact Limit Burst effect or trigger. citeturn1reddit2turn1search0
+- [x] Fresh results continue to corroborate the Soul's +12 Ki/+12 Stamina/XXL utility and PQ134 association, but did **not** establish an exact Limit Burst effect or trigger. citeturn1reddit2turn1search0
 - [x] Updated `docs/data/super-soul-217-limit-burst-evidence-audit-2026-09-23.json` with the fresh evidence boundary.
 - [x] No generic/same-name Limit Burst was substituted; canonical 217 Limit Burst fields remain unresolved.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
@@ -3955,10 +3962,10 @@
 
 ### 2026-09-23 — TODO completion update — Time Patrol Support Pack Power Pole Combo identity
 - [x] Researched **Power Pole Combo** as a distinct canonical identity rather than aliasing it to Power Pole or Power Pole Pro.
-- [x] Confirmed dedicated Xenoverse 2 evidence: **Super / Strike / 100 Ki / CaC-usable / Goku (GT)**, with Skill Shop acquisition and seven-hit Power Pole combo behavior. citeturn1search0turn1search1
+- [x] Confirmed dedicated Xenoverse 2 evidence: **Super / Strike / 100 Ki / CaC-usable / Goku (GT)**, with Skill Shop acquisition and seven-hit Power Pole combo behavior. citeturn1search0turn1search1
 - [x] Promoted skill-power-pole-combo into both docs/data/skills.json and docs/data/skills-index.json.
 - [x] Added docs/data/dlc/time-patrol-support-pack-power-pole-combo-identity-reconciliation-2026-09-23.json and registered it in docs/data/pq-cross-domain-index.json.
-- [x] Time Patrol Support Pack skill audit is now **13/13 exact canonical identities**; no advertised attack remains an exact canonical skill-identity gap. The official storefront independently lists Power Pole Combo among the pack's Super Attacks. citeturn1search5turn1search4
+- [x] Time Patrol Support Pack skill audit is now **13/13 exact canonical identities**; no advertised attack remains an exact canonical skill-identity gap. The official storefront independently lists Power Pole Combo among the pack's Super Attacks. citeturn1search5turn1search4
 - [x] Updated Support Pack content reconciliation, promotion manifest, and skill catalog audit; current canonical/index census is **455 records**.
 - [x] Validation target: canonical/index parity must remain exact after promotion; no unsupported reward probability or Ultimate Finish gate was added.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
@@ -4118,7 +4125,7 @@
 ### 2026-09-23 — TODO completion update — Super Soul 034 item-level evidence pass
 - [x] Recomputed the live strict-thin queue: **229 canonical / 0 duplicate IDs / 4 strict-thin records** — 032, 034, 158, 217.
 - [x] Performed a fresh item-level/PQ reward evidence pass for **Super Soul 034 — “The final battle begins now.”**.
-- [x] Independently confirmed the exact-name reward endpoint in **PQ 186 — Frieza's Right-Hand Man** from the maintained all-PQ guide. citeturn3search0turn3search1
+- [x] Independently confirmed the exact-name reward endpoint in **PQ 186 — Frieza's Right-Hand Man** from the maintained all-PQ guide. citeturn3search0turn3search1
 - [x] Added and registered `docs/data/super-soul-034-item-level-evidence-reconciliation-2026-09-23.json` and refreshed the strict-thin checkpoint.
 - [x] Preserved the evidence boundary: PQ186 reward identity is confirmed, but character source, effect, trigger, duration, stacking, and Limit Burst remain unresolved; no Fu attribution was inferred from adjacent clothing rewards.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
@@ -4126,7 +4133,7 @@
 
 
 ### 2026-09-23 — TODO completion update — Super Soul 158 identity conflict
-- [x] Researched exact-name identity for **Super Soul 158 — “Do or Die”** using independent Xenoverse 2 sources. The name resolves to Nail's **Power Up Type Super Skill**, obtained from PQ49; Nail's Super Soul is **“I must protect Grand Elder Guru!”**. citeturn3search0turn3search2
+- [x] Researched exact-name identity for **Super Soul 158 — “Do or Die”** using independent Xenoverse 2 sources. The name resolves to Nail's **Power Up Type Super Skill**, obtained from PQ49; Nail's Super Soul is **“I must protect Grand Elder Guru!”**. citeturn3search0turn3search2
 - [x] Converted record 158 from an apparently canonical Super Soul entry to an explicit **identity-conflict placeholder**; cleared unsupported Super Soul mechanics/acquisition fields while preserving the PQ49 provenance boundary.
 - [x] Added `docs/data/super-soul-158-identity-conflict-reconciliation-2026-09-23.json` and refreshed the strict-thin checkpoint.
 - [ ] Resolve the canonical ID mapping for the conflict placeholder without silently renaming or merging records.
@@ -4134,7 +4141,7 @@
 
 
 ### 2026-09-23 — TODO completion update — Super Soul 158 canonical collision boundary
-- [x] Reconciled 158 as a **Super Skill / Super Soul name collision**, not an unresolved Super Soul mechanic record. External evidence explicitly separates Nail's Do or Die skill from his Super Soul “I must protect Grand Elder Guru!”. citeturn0search0turn0search1
+- [x] Reconciled 158 as a **Super Skill / Super Soul name collision**, not an unresolved Super Soul mechanic record. External evidence explicitly separates Nail's Do or Die skill from his Super Soul “I must protect Grand Elder Guru!”. citeturn0search0turn0search1
 - [x] Preserved the collision placeholder and prohibited unsupported Super Soul mechanics from returning to the record.
 - [x] Registered `docs/data/super-soul-158-identity-reconciliation-2026-09-23.json` and refreshed the checkpoint.
 - [ ] Migrate the collision to the canonical Super Skill domain when the repository's ID-mapping mechanism is ready.
@@ -4152,8 +4159,8 @@
 ### 2026-09-23 — TODO completion update — Super Soul 034 bounded item-level evidence pass
 - [x] Recomputed the live strict-thin queue before research: **229 canonical / 0 duplicate IDs / 4 strict-thin records** — 032, 034, 158, 217.
 - [x] Performed a fresh exact-name/item-level evidence pass for **Super Soul 034 — “The final battle begins now.”**.
-- [x] Reconfirmed the exact PQ 186 reward identity from the maintained all-PQ guide and the official Chapter 4 four-Super-Soul DLC inventory context. citeturn1search0
-- [x] Checked current Chapter 4 community discussion for exact-name mechanics; no reliable effect/trigger/Limit Burst evidence for 034 was found. citeturn3reddit24
+- [x] Reconfirmed the exact PQ 186 reward identity from the maintained all-PQ guide and the official Chapter 4 four-Super-Soul DLC inventory context. citeturn1search0
+- [x] Checked current Chapter 4 community discussion for exact-name mechanics; no reliable effect/trigger/Limit Burst evidence for 034 was found. citeturn3reddit24
 - [x] Added and registered `docs/data/super-soul-034-item-level-evidence-boundary-2026-09-23.json`.
 - [x] Preserved the evidence boundary: Fu's surrounding PQ 186 costume inventory does not establish that Fu is the character source for this Soul; no mechanics, duration, stacking, Limit Burst, item ID, reward tier, or probability was inferred.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
@@ -4163,7 +4170,7 @@
 - [x] Recomputed the current strict-thin context: **229 canonical / 0 duplicate IDs / 4 strict-thin records**.
 - [x] Performed a fresh exact-name/item-level Limit Burst pass for **Super Soul 032 — “This power... It's different from any I've ever had.”**.
 - [x] Reconfirmed the exact PQ 185 identity and retained the existing community-tested below-50%-HP +20% all-abilities effect without promoting it to fully verified item-level mechanics.
-- [x] Confirmed the KO-triggered alternate displayed-name state (“Using this power should be no sweat for you guys.”) from current GameFAQs discussion, while preserving the boundary that the second state's mechanical effect is not established. citeturn3search0
+- [x] Confirmed the KO-triggered alternate displayed-name state (“Using this power should be no sweat for you guys.”) from current GameFAQs discussion, while preserving the boundary that the second state's mechanical effect is not established. citeturn3search0
 - [x] Found no reliable exact-name/item-level source establishing a Limit Burst type, trigger, or effect for 032; no generic or same-character Limit Burst was substituted.
 - [x] Added and registered `docs/data/super-soul-032-limit-burst-evidence-boundary-2026-09-23.json`.
 - [x] Refreshed `docs/data/super-soul-strict-thin-checkpoint-2026-09-23.json` and preserved the canonical record unchanged.
@@ -4184,7 +4191,7 @@
 - [ ] Exact next task: **Super Soul 217** exact-name/item-level Limit Burst research. Search only for explicit item-level Limit Burst wording; if no new evidence appears, preserve the null and move on rather than repeating low-yield searches.
 ### 2026-09-23 — TODO completion update — Super Soul 217 Limit Burst evidence
 - [x] Performed the required targeted exact-name/item-level Limit Burst search for **Super Soul 217 — “Power! A lotta power! It's great!”**.
-- [x] Found an exact-name GameFAQs discussion specifically asking about this Soul's Limit Burst; the response identifies **Power Ki Blast**, with **Auto Health and Stamina Up** and **DEF Down**. citeturn1search0
+- [x] Found an exact-name GameFAQs discussion specifically asking about this Soul's Limit Burst; the response identifies **Power Ki Blast**, with **Auto Health and Stamina Up** and **DEF Down**. citeturn1search0
 - [x] Updated the canonical 217 record with `limit_burst = Power Ki Blast` and `limit_burst_effect = Auto Health and Stamina Up; DEF Down`.
 - [x] Preserved `limit_burst_trigger = null` because the bounded item-specific source does not establish trigger wording.
 - [x] Added and registered `docs/data/super-soul-217-limit-burst-evidence-2026-09-23.json`.
@@ -4270,7 +4277,7 @@
 ### 2026-09-23 cycle update — Big Bang Attack provenance strengthening
 - Live census before editing: **455 canonical / 455 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 3 exactly-two-source canonical records**.
 - Bounded batch: **Big Bang Attack** (`skill-big-bang-attack`).
-- Research/evidence: independent GameFAQs TP Medal Shop catalogue corroborates Big Bang Attack as a TP Medal Shop Super and reports a **15 TP Medal** price; the source notes shop contents are RNG/rotation based. citeturn2search0
+- Research/evidence: independent GameFAQs TP Medal Shop catalogue corroborates Big Bang Attack as a TP Medal Shop Super and reports a **15 TP Medal** price; the source notes shop contents are RNG/rotation based. citeturn2search0
 - Changes: canonical/index sources gained the GameFAQs source; `last_verified` refreshed to **2026-09-23**; provenance note synchronized.
 - Evidence limits preserved: no current rotation date, guaranteed availability window, or drop probability was inferred; existing acquisition endpoint, 100 Ki cost, Base Game classification, and mechanics were unchanged.
 - Audit: `docs/data/skill-big-bang-attack-provenance-audit-2026-09-23.json` added and registered in `docs/data/pq-cross-domain-index.json`.
@@ -4295,7 +4302,7 @@
 ### 2026-09-23 cycle update — Super Destructo-Disc provenance strengthening
 - Live census before editing: **455 canonical / 455 index / 0 duplicate IDs / 424 stale / 2 exact-two-source records**.
 - Bounded target: **Super Destructo-Disc** (`skill-super-destructo-disc`).
-- Research/evidence: an independent Steam Expert Mission guide lists **EM04 — Invasion of the Evil Super Namek** and **Super Destructo-Disc** under Basic Rewards; an independent Dragon Ball technique reference also identifies Expert Mission 04 as the Future Warrior acquisition route. citeturn0search4turn0search0
+- Research/evidence: an independent Steam Expert Mission guide lists **EM04 — Invasion of the Evil Super Namek** and **Super Destructo-Disc** under Basic Rewards; an independent Dragon Ball technique reference also identifies Expert Mission 04 as the Future Warrior acquisition route. citeturn0search4turn0search0
 - Changes: added the Steam guide as a third canonical/index source; refreshed `last_verified` to 2026-09-23; appended a provenance note.
 - Evidence limits preserved: no numerical drop rate or guaranteed-per-clear claim was inferred beyond the source's Basic Reward labeling; existing 200-Ki, Ki Blast, EM4 endpoint, CaC scope, and mechanics remain unchanged.
 - Added and registered `docs/data/skill-super-destructo-disc-provenance-audit-2026-09-23.json`.
@@ -5051,7 +5058,7 @@
 - [x] Recorded the exact sourced skill slots and Super Souls where explicitly present; blank Awoken/Evasive/Super Soul slots remain null rather than being inferred.
 - [x] Updated `docs/data/character-preset-skill-navigation-audit-2026-09-23.json` to **7 verified loadout records / 44 skill entries** and corrected its JSON structure.
 - [x] Manual post-write inspection confirmed every verified record has a structured loadout and explicit loadout source.
-- [x] External source verification: the current Vegeta table explicitly enumerates Battle Suit 1–9 loadouts; Gohan (Adult) explicitly enumerates its numbered presets; Frieza (1st Form) explicitly enumerates Battle Suit 2. citeturn2search2turn2search0turn2search1
+- [x] External source verification: the current Vegeta table explicitly enumerates Battle Suit 1–9 loadouts; Gohan (Adult) explicitly enumerates its numbered presets; Frieza (1st Form) explicitly enumerates Battle Suit 2. citeturn2search2turn2search0turn2search1
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Commits:** preset layer `c3f2eabd39b59466458a45be7f7d1c68ac4e40e8`; corrected audit `cdbc3128d7bbe5c8487c77c05ea421eec5535e3f`.
 - **Exact next batch:** continue with another **4–8 explicit preset records**, prioritizing Goku and other records whose numbered in-game-data tables can be matched unambiguously to the existing preset IDs; do not promote Festival/custom-partner configurations as ordinary numbered presets.
@@ -5059,7 +5066,7 @@
 
 ### 2026-09-23 cycle update — Goku preset evidence boundary review
 - [x] Reviewed the current Goku in-game-data table as the next high-priority preset source.
-- [x] Confirmed the source provides complete named loadouts across Goku's many rows, including Turtle Hermit Gi, King Kai, Goku (Go), No Character, and Whis Symbol configurations. citeturn2search0
+- [x] Confirmed the source provides complete named loadouts across Goku's many rows, including Turtle Hermit Gi, King Kai, Goku (Go), No Character, and Whis Symbol configurations. citeturn2search0
 - [x] **Did not promote Goku's numeric repository records** because `goku-preset-2` through `goku-preset-16` do not have an explicit source mapping to those named table rows. Row-order conversion would be an unsupported inference.
 - [x] Added this evidence boundary to `docs/data/character-preset-skill-navigation-audit-2026-09-23.json`.
 - [ ] CI/runtime unavailable; no CI success claimed.
@@ -5068,8 +5075,8 @@
 
 
 ### 2026-09-23 cycle update — Vegito explicit preset-loadout promotion
-- [x] Verified **Vegito Preset 2** directly against the current Vegito in-game-data table: Super Dragon Fist / Kamehameha / Instant Transmission / Charged Ki Wave; Super Kamehameha / Spirit Sword; Spirit Explosion; no Super Soul listed. citeturn0search0
-- [x] Verified **Vegito Preset 3** directly against the same table: Sledgehammer / Big Bang Attack / Finish Breaker / Full Power Charge; Final Flash / Spirit Sword; Explosive Wave; no Super Soul listed. citeturn0search0
+- [x] Verified **Vegito Preset 2** directly against the current Vegito in-game-data table: Super Dragon Fist / Kamehameha / Instant Transmission / Charged Ki Wave; Super Kamehameha / Spirit Sword; Spirit Explosion; no Super Soul listed. citeturn0search0
+- [x] Verified **Vegito Preset 3** directly against the same table: Sledgehammer / Big Bang Attack / Finish Breaker / Full Power Charge; Final Flash / Spirit Sword; Explosive Wave; no Super Soul listed. citeturn0search0
 - [x] Updated the preset record layer and cross-domain audit to **9 verified preset loadouts / 58 verified skill-slot entries**.
 - [x] Repaired the audit JSON separator exposed during the update and re-parsed the resulting document successfully before committing.
 - [x] Kept Festival/custom-partner configurations separate and made no acquisition/exclusivity claims from preset presence.
@@ -5143,7 +5150,7 @@
 
 ### 2026-09-23 cycle update — Vegeta Battle Suit exact preset reconciliation
 
-- Used the live Vegeta in-game-data table as explicit numeric evidence: **Battle Suit 1, Battle Suit 2, and Battle Suit 9** are directly labeled by preset number. citeturn0search0
+- Used the live Vegeta in-game-data table as explicit numeric evidence: **Battle Suit 1, Battle Suit 2, and Battle Suit 9** are directly labeled by preset number. citeturn0search0
 - Promoted `vegeta-preset-1` from absent/unresolved to a fully sourced verified record with Meteor Strike / Galick Gun / Spirit Boost / Charged Ki Wave / Super Galick Gun / Spread Shot Retreat and Super Soul `I am the universe's strongest!`.
 - Reconciled the existing `vegeta-preset-2` evidence to the explicit Battle Suit 2 source row rather than relying on row order.
 - Promoted `vegeta-preset-9` to verified with Galaxy Breaker (Festival) / Flash Strike / Shine Shot / Burst Charge / Super Galick Gun / Spread Shot Retreat and the documented Super Soul.
@@ -5166,7 +5173,7 @@
 
 ### 2026-09-23 cycle update — External Vegeta preset-count boundary confirmed
 
-- Checked the current external Vegeta in-game-data table: it explicitly lists Battle Suit 1 through 9, Training Suit 1 and 2, and Whis Symbol Battle Suit, while the page metadata reports 11 presets. citeturn0search0
+- Checked the current external Vegeta in-game-data table: it explicitly lists Battle Suit 1 through 9, Training Suit 1 and 2, and Whis Symbol Battle Suit, while the page metadata reports 11 presets. citeturn0search0
 - The retrieved table does **not** expose explicit Battle Suit 10 or 11 rows. Therefore the repository's numeric 10/11 records remain unresolved rather than receiving inferred loadouts.
 - Added this evidence boundary to `docs/data/preset-battle-suit-reconciliation-2026-09-23.json`.
 - Commit: `72c73a62768f0428ffda7f81ad13ac9381c88006b`.
@@ -6531,7 +6538,7 @@
 - [x] Synchronized them to the live canonical **152-character** producer without changing the 247 character relationship edges, 75 unique relationship targets, aliases, or reverse mappings.
 - [x] Added `docs/data/current-character-consumer-scan-2026-09-24.json` and registered it in the cross-domain index.
 - [x] Validation: canonical character count 152; character relationship edges 247; missing canonical targets 0; orphan reverse targets 0; duplicate forward pairs 0.
-- [x] Web research also reconfirmed that the strongest readily indexed numeric-preset source still exposes numeric identity/unlock placement rather than complete slot configurations; no unsupported preset promotion was made. citeturn0youtube20turn0youtube21
+- [x] Web research also reconfirmed that the strongest readily indexed numeric-preset source still exposes numeric identity/unlock placement rather than complete slot configurations; no unsupported preset promotion was made. citeturn0youtube20turn0youtube21
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** continue scanning current Event/Raid/Festival/Chapter 4 and non-PQ record consumers for stale scalar/count metadata and one-way navigation, then return to direct numeric preset + complete configuration evidence.
 
@@ -6570,8 +6577,8 @@
 
 ### 2026-09-24 completed Goku numeric preset loadout evidence recheck
 - [x] Audited all 16 currently indexed unresolved Goku numeric preset records: 2–12 and 14–18.
-- [x] Current Fandom search evidence confirms Goku's numeric preset table exists and exposes direct numeric Preset → Skills → Super Soul mapping for rows visible in the indexed search result; the current page reports 19 main-slot presets. citeturn0search4
-- [x] Community unlock-video chapters independently confirm discovery/acquisition events for multiple targeted Goku presets, but do not constitute complete eight-slot loadout evidence. citeturn0youtube12
+- [x] Current Fandom search evidence confirms Goku's numeric preset table exists and exposes direct numeric Preset → Skills → Super Soul mapping for rows visible in the indexed search result; the current page reports 19 main-slot presets. citeturn0search4
+- [x] Community unlock-video chapters independently confirm discovery/acquisition events for multiple targeted Goku presets, but do not constitute complete eight-slot loadout evidence. citeturn0youtube12
 - [x] No loadout was promoted because the directly extractable evidence did not expose complete eight-slot configurations for the targeted records. No inference from neighboring preset order or video timestamps was used.
 - [x] Added `docs/data/goku-numeric-preset-loadout-evidence-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
 - [x] Validation: 16 targets checked; 0 loadout promotions; 0 unsupported promotions.
@@ -6580,8 +6587,8 @@
 
 ### 2026-09-24 completed Vegeta Presets 10–11 evidence pass
 - [x] Rechecked both unresolved numeric preset records against directly extractable current evidence.
-- [x] Community unlock evidence explicitly identifies Vegeta Presets 10 and 11, but only as acquisition/discovery events, not complete loadouts. citeturn0youtube12
-- [x] Current Vegeta in-game-data search evidence exposes the numeric preset table, but directly extractable results did not provide complete Presets 10–11 rows sufficient for eight-slot promotion. citeturn0search3
+- [x] Community unlock evidence explicitly identifies Vegeta Presets 10 and 11, but only as acquisition/discovery events, not complete loadouts. citeturn0youtube12
+- [x] Current Vegeta in-game-data search evidence exposes the numeric preset table, but directly extractable results did not provide complete Presets 10–11 rows sufficient for eight-slot promotion. citeturn0search3
 - [x] Preserved both records as indexed/unresolved; no inferred skills, awoken, evasive, or Super Soul fields were added.
 - [x] Added and registered `docs/data/vegeta-10-11-preset-loadout-evidence-audit-2026-09-24.json`.
 - [x] Commits: `c74f76e6a70352f4ef665910e27c4c4511e764bf`, `216775a5189aa8bf504e4625fdeb47a282bc069a`, `1d8b8f083f68104f1aaf92c681e9ac38d307751c`.
@@ -6589,9 +6596,9 @@
 
 ### 2026-09-24 completed Captain Ginyu Presets 5–6 evidence pass
 - [x] Audited both unresolved numeric Captain Ginyu presets.
-- [x] Community unlock evidence explicitly identifies Preset 5 at 31:23 and Preset 6 at 41:34, but does not expose complete loadouts. citeturn0youtube12
-- [x] Japanese gameplay reference documents Ginyu configurations, but does not bind its unlabeled configurations to numeric Presets 5–6; no sequence inference was used. citeturn0search2
-- [x] Legacy GameFAQs documentation provides variant skills but does not establish current numeric 5–6 mapping. citeturn0search1
+- [x] Community unlock evidence explicitly identifies Preset 5 at 31:23 and Preset 6 at 41:34, but does not expose complete loadouts. citeturn0youtube12
+- [x] Japanese gameplay reference documents Ginyu configurations, but does not bind its unlabeled configurations to numeric Presets 5–6; no sequence inference was used. citeturn0search2
+- [x] Legacy GameFAQs documentation provides variant skills but does not establish current numeric 5–6 mapping. citeturn0search1
 - [x] No loadout fields were promoted; both records remain indexed/unresolved.
 - [x] Added and registered `docs/data/captain-ginyu-5-6-preset-loadout-evidence-audit-2026-09-24.json`.
 - [x] Commits: `44d5cfa2921f201e94aad91a91d148cfcf3247c3`, `4af784c97d1c7133e53492485466e7a877865ae8`.

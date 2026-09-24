@@ -1,6 +1,13 @@
+### 2026-09-24 cycle completion — deterministic repository artifact scan
+- [x] Inspected the exact current main Git tree (eacaa98aad689933c867a3e718de52c29a539f0a) and enumerated 1,300 tracked tree entries / 1,297 text-candidate files from the recursive Git tree.
+- [x] Reconciled the failed artifact-check result against the live checker contract; the remaining confirmed current-tree offenders were the handoff/TODO history entries that quoted checker-marker names as literal text.
+- [x] Applied the repository's own cleaner semantics to those two tracked files only; no gameplay data, research evidence, canonical records, or validator logic was changed.
+- [x] Re-fetched the edited files from main and confirmed they contain 0 remaining checker-marker strings/delimiters covered by the cleaner contract.
+- [ ] CI has not been rerun after this fix; do not claim Repository quality success until a completed successful run is observable.
+- [ ] Exact next: poll/inspect the next Repository quality result; if clean, resume the staged Savage Strike canonical-builder path. If another artifact failure appears, identify it from the exact current tree before changing content.
 ### 2026-09-24 cycle completion — artifact-check investigation after CI retry
 - [x] Polled Repository quality run `36072900893`; attempt 2 completed **failure** at `Check for internal artifacts`.
-- [x] Inspected the live checker contract and verified semantic repository search finds no current `turn10file`, `turn11file`, or other indexed internal-marker matches.
+- [x] Inspected the live checker contract and verified semantic repository search finds no current ``, ``, or other indexed internal-marker matches.
 - [x] Confirmed the previous cleanup was effective for the affected tracked files, but GitHub's job exposes no usable log payload (404 BlobNotFound), so the exact failing tracked path cannot be established from the available Actions API.
 - [x] Did not weaken or bypass the artifact checker merely to force CI green.
 - [ ] **Exact next:** obtain a deterministic full-tree scan against the exact Git checkout (or usable CI logs) to identify the remaining artifact path before modifying additional files. Preserve checker semantics.
@@ -8,7 +15,7 @@
 ### 2026-09-24 cycle completion — repository internal-artifact cleanup + Actions retry
 - [x] Investigated the repeated `Repository quality → Check for internal artifacts` failures instead of treating them as generic CI unavailability.
 - [x] Inspected `scripts/check_repo_artifacts.py` and `scripts/strip_internal_artifacts.py` to identify the exact forbidden marker contract.
-- [x] Removed residual assistant citation/export markers from the affected tracked documentation/research artifacts, including residual `citeturn...`, `turn...`, `filecite`, and `memcite` strings.
+- [x] Removed residual assistant citation/export markers from the affected tracked documentation/research artifacts, including residual `citeturn...`, `turn...`, ``, and `` strings.
 - [x] Re-fetched the affected files from `main` after cleanup and verified the targeted set contains **0** remaining forbidden citation markers.
 - [x] Re-ran Repository quality run `36072900893`; attempt **2** is currently queued.
 - [ ] CI result is still pending; do not claim a successful quality check until the queued attempt completes.
