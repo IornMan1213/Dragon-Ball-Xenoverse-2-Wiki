@@ -1,3 +1,10 @@
+### 2026-09-24 completed raid/event Super Soul audit synchronization
+- [x] Re-fetched the live `docs/data/super-soul-raid-event-presentation-consumer-audit-2026-09-24.json` after the presentation repair and found its own top-level coverage fields were stale (**12 surfaced / 25 missing**) despite the consumer table being repaired.
+- [x] Synchronized the audit to the live consumer: **37 surfaced / 0 missing / 0 missing-record entries / pass**, with `consumer_rows_after_repair=37`.
+- [x] Preserved the audit's evidence boundary and did not add availability, recurrence, probability, or guarantee claims.
+- [x] Commit: `0ec61d1094d6732b8580ef6ae65fa2bed817929e`.
+- [ ] **Next:** continue deterministic Event/Raid/Festival/Chapter 4 consumer scanning for stale self-reported audit metadata, one-way navigation, orphan targets, and canonical-ID drift; then resume the highest-impact source-backed preset/loadout tranche.
+
 
 ### 2026-09-24 completed live character count reconciliation
 - [x] Recomputed the canonical character producer directly from `docs/data/characters-record-layer.json`: **152** names.
