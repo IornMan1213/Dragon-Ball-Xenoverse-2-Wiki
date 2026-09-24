@@ -5190,3 +5190,18 @@
 - [x] Validation: **465/465 canonical/index IDs, 0 duplicate IDs, 36 current, 429 stale**.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next batch:** Blaster Meteor; Blaster Shell; Blaster Stream; Blazing Attack; Bloody Counter; Blue Hurricane; Bluff Kamehameha; Body Change; Bomber DX; Brave Heat; Brave Sword Attack; Brave Sword Slash.
+
+
+### 2026-09-24 cycle correction — stale-queue target reconciliation
+- [x] Recomputed the live stale queue after confirming Blades of Judgment and Blaster Ball were already current; preserved the prior history rather than rewriting it.
+- [x] Authoritative next batch selected from the live canonical layer: Blaster Meteor; Blaster Shell; Blaster Stream; Blazing Attack; Bloody Counter; Blue Hurricane; Bluff Kamehameha; Body Change; Bomber DX; Brave Heat; Brave Sword Attack; Brave Sword Slash.
+
+
+### 2026-09-24 cycle update — Blaster Meteor through Brave Sword Slash provenance refresh
+- [x] Live census before editing: **465 canonical / 465 index / 429 stale / 0 duplicate IDs**.
+- [x] Bounded P1 batch: **Blaster Meteor; Blaster Shell; Blaster Stream; Blazing Attack; Bloody Counter; Blue Hurricane; Bluff Kamehameha; Body Change; Bomber DX; Brave Heat; Brave Sword Attack; Brave Sword Slash**.
+- [x] Refreshed canonical `last_verified` to **2026-09-24** using existing repository evidence; acquisition/reward/mechanics/DLC semantics preserved.
+- [x] Added and registered `docs/data/skill-provenance-audit-2026-09-24-blaster-meteor-through-brave-sword.json` and refreshed the live stale census.
+- [x] Validation: **465/465 canonical/index IDs, 0 duplicate IDs, 48 current, 417 stale**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next batch:** Break Cannon; Breaker Energy Wave; Brutal Buster; Burning Attack; Burning Blast; Burning Shot; Burning Slash; Burning Swan; Burst Blitz; Burst Charge; Burst Kamehameha; Burst Reflection.
