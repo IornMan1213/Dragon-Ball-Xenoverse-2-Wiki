@@ -1,3 +1,10 @@
+### 2026-09-24 cycle update — raid/event Super Soul presentation coverage repair
+- Completed the current raid/event Super Soul presentation index in `docs/Super-Souls-Database.md`.
+- Added the 25 previously omitted canonical raid/event records, bringing the presentation surface to **37/37** records from `docs/data/super-soul-raid-event-presentation-consumer-audit-2026-09-24.json`.
+- Preserved canonical verification states and acquisition evidence boundaries; no current-event schedule, recurrence, probability, or guarantee was inferred.
+- Audit validation: **0 missing records, 0 duplicate canonical IDs, all raid IDs resolve**.
+- Commit sequence: `e5fef555cab384f726d560c1b2cf6a2b3c8f4368`, `4c958f7a6f0b792a001cd2c5b30f58c589fc41dd`, `2e3856d030ee7d76ac7730b720aaf1e0f3357274`, `3605d65ca3dad08ad679d084c3e603bb712747fa`.
+
 
 ## 2026-09-24 — Correct live character producer/consumer count
 
