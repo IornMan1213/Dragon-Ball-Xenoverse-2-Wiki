@@ -5676,3 +5676,13 @@
 - [x] Validation: **469 canonical / 239 PQ-linked / 230 non-PQ / 131 mentor targets / 99 non-PQ non-mentor targets / 33 shop-linked skills / forward↔reverse shop parity clean / 0 unresolved shop skill IDs**.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next priority:** inspect the next machine-checkable non-PQ reverse projection/consumer for stale counts or orphan targets, prioritizing another deterministic consumer over speculative content expansion.
+
+
+### 2026-09-24 cycle completion — special acquisition reverse-index parity repair
+- [x] Found and repaired the deterministic special-acquisition reverse-index drift introduced by the Hyper/Ice coverage recovery.
+- [x] Added reverse entries for **Ice Cannon** and **Ice Claw** to match their existing forward endpoint edges.
+- [x] Recomputed live special acquisition coverage to **16 endpoints / 16 forward edges / 16 unique skill targets / 0 unresolved IDs**.
+- [x] Added and registered docs/data/special-acquisition-endpoint-audit-2026-09-24.json.
+- [x] Validation: **16 forward pairs / 16 reverse pairs / exact parity clean / audit pass**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next priority:** continue the machine-checkable non-PQ reverse-projection audit, prioritizing current-facing stale counts or orphan targets.
