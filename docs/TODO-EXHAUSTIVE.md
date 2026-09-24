@@ -5872,3 +5872,12 @@
 - [x] Validation: **853 total / 244 skill / 145 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming**, with **0 stale 854 assertions** in the repaired current-facing consumers.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next priority:** continue deterministic reverse/navigation parity scanning against the **853-edge** baseline, prioritizing remaining current-facing event/raid and equipment/navigation consumers for stale counts, orphan targets, or projection drift.
+
+### 2026-09-24 cycle completion — raid accessory bridge audit current-layer reconciliation
+- [x] Audited `docs/data/accessory-raid-gift-canonical-bridge.json` against the current canonical accessory layer.
+- [x] Corrected stale audit counts from **16/105/6 unresolved** to the live **18 bridge records / 116 canonical accessories / 0 unmatched candidates**.
+- [x] Current bridge integrity: **17 resolved + 1 route-family-only / 14 unique canonical IDs / 0 duplicate source IDs / 0 missing canonical IDs / 0 unresolved candidates**.
+- [x] Preserved the superseded counts as explicit stale historical snapshot metadata.
+- [x] Confirmed existing cross-domain registration; no new relationship edge or canonical identity was inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next priority:** continue deterministic non-PQ equipment/accessory navigation scanning for stale record counts, one-way links, and canonical-ID drift.
