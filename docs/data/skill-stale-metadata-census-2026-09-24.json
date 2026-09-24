@@ -6,63 +6,63 @@
   "live_counts": {
     "canonical_skill_records": 465,
     "index_skill_records": 465,
-    "current_last_verified_records": 218,
-    "stale_last_verified_records": 247,
+    "current_last_verified_records": 230,
+    "stale_last_verified_records": 235,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
     {
-      "id": "skill-gigantic-charge",
-      "name": "Gigantic Charge"
+      "id": "skill-god-of-destruction-s-might",
+      "name": "God of Destruction's Might"
     },
     {
-      "id": "skill-giant-cluster",
-      "name": "Gigantic Cluster"
+      "id": "skill-god-of-destruction-s-plaything",
+      "name": "God of Destruction's Plaything"
     },
     {
-      "id": "skill-gigantic-cross",
-      "name": "Gigantic Cross"
+      "id": "skill-god-of-destruction-s-poise",
+      "name": "God of Destruction's Poise"
     },
     {
-      "id": "skill-gigantic-explosion",
-      "name": "Gigantic Explosion"
+      "id": "skill-god-of-destruction-s-rampage",
+      "name": "God of Destruction's Rampage"
     },
     {
-      "id": "skill-gigantic-meteor",
-      "name": "Gigantic Meteor"
+      "id": "skill-god-of-destruction-s-roar",
+      "name": "God of Destruction's Roar"
     },
     {
-      "id": "skill-gigantic-nova",
-      "name": "Gigantic Nova"
+      "id": "skill-god-of-destruction-s-wrath",
+      "name": "God of Destruction's Wrath"
     },
     {
-      "id": "skill-gigantic-omega",
-      "name": "Gigantic Omega"
+      "id": "skill-god-punisher",
+      "name": "God Punisher"
     },
     {
-      "id": "skill-gigantic-rage",
-      "name": "Gigantic Rage"
+      "id": "skill-god-splitter",
+      "name": "God Splitter"
     },
     {
-      "id": "skill-gigantic-roar",
-      "name": "Gigantic Roar"
+      "id": "skill-godly-chronos-cannon",
+      "name": "Godly Chronos Cannon"
     },
     {
-      "id": "skill-god-breaker",
-      "name": "God Breaker"
+      "id": "skill-godly-display",
+      "name": "Godly Display"
     },
     {
-      "id": "skill-god-of-destruction-s-anger",
-      "name": "God of Destruction's Anger"
+      "id": "skill-gorgeous-shot",
+      "name": "Gorgeous Shot"
     },
     {
-      "id": "skill-god-of-destruction-s-menace",
-      "name": "God of Destruction's Menace"
+      "id": "skill-grand-smasher",
+      "name": "Grand Smasher"
     }
   ],
   "notes": [
     "Canonical/index counts and IDs remain aligned.",
-    "Counts computed from the live canonical dataset after this bounded batch.",
+    "Counts computed after the bounded 12-record refresh.",
     "Existing acquisition, reward, mechanics, restriction, DLC/update, and evidence-conflict semantics were preserved."
   ]
 }
