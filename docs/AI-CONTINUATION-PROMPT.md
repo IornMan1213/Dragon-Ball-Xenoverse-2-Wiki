@@ -7634,3 +7634,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Commits:** `0cc5eea25b8764f6b09d739582f40ce03ba74d21`, `770830b19a28bff1c7a81e82f302543748a3d7bd`, `0bc642ff8f88c5dd77afb0f47f3cc7c2a44aecaf`, `0038357640ccbc1d3d4ee59152f058660935da72`.
 - **Exact next priority:** continue deterministic reverse/navigation parity scanning against the **853-edge** baseline, prioritizing remaining current-facing event/raid and equipment/navigation consumers for stale counts, orphan targets, or projection drift before speculative research.
+
+### 2026-09-24 cycle completion — raid accessory bridge audit current-layer reconciliation
+- [x] Audited `docs/data/accessory-raid-gift-canonical-bridge.json` against `docs/data/accessory-canonical-reconciliation.json` and the current raid identity layer.
+- [x] Found and corrected a stale audit snapshot: `docs/data/accessory-raid-gift-bridge-audit-2026-09-24.json` still reported **16 bridge records / 105 canonical accessories / 6 unresolved candidates**, while the live bridge now contains **18 records / 116 canonical accessory records / 0 unmatched candidates**.
+- [x] Reconciled the audit to the live layer: **17 resolved bridge records + 1 route-family-only record / 14 unique canonical IDs / 0 duplicate source IDs / 0 missing canonical IDs / 0 unresolved candidates**.
+- [x] Preserved the former 16/105/6 values as explicitly stale historical snapshot metadata rather than deleting the discrepancy history.
+- [x] Existing cross-domain registration was confirmed; no relationship edge or canonical identity was invented.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Commit:** `3c4471fa51dff64df1290f8a4b54f5d7f920913f`.
+- **Exact next priority:** continue deterministic non-PQ equipment/accessory navigation scanning, prioritizing current reverse/presentation consumers for stale record counts, one-way links, and canonical-ID drift; preserve route-history uncertainty and never promote raid/event history into canonical relationships without evidence.
