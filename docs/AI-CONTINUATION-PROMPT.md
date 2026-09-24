@@ -8194,3 +8194,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: no broken Expert Missions target remains; canonical Super Soul/Awoken explorer targets exist; navigation-only changes; 0 data/relationship changes.
 - CI/runtime remains unavailable; no CI success claimed.
 - Exact next priority: continue the deterministic non-PQ scan for stale counts/list assumptions, orphan navigation, and canonical-ID drift; only after that start evidence-gated preset/loadout expansion with direct numeric identity + complete configuration evidence.
+
+### 2026-09-24 cycle update — skill explorer self-navigation repair
+- Audited `docs/Skills-All.html` as the remaining canonical entity explorer with a generic `/Search/?q=` self-link.
+- Repointed the skill-card self/entity link to `Skills-All.html?q=...`; no canonical skill data or acquisition relationship changed.
+- Extended `docs/data/canonical-explorer-self-navigation-audit-2026-09-24-b.json` to include the Skill Explorer repair; the audit was already registered in `docs/data/pq-cross-domain-index.json`.
+- Validation: 0 generic Search self-link definitions remain in `Skills-All.html`; 1 canonical Skill Explorer self-link definition is present; audit JSON parses with status=pass; central index registration is present.
+- Evidence boundary: navigation-only. No skill identity, acquisition, provenance, mechanics, PQ relationship, mentor relationship, or gameplay fact was inferred.
+- CI/runtime remains unavailable; no CI success claimed.
+- Commit(s): `ee91ca9845529ba399b09f2f19b335301b936b6f`, `4ece4165ac6cf98fc69908d34f7108e20bd2e989`.
+- **Exact next batch:** continue deterministic non-PQ landing/reference scanning for stale scalar/list assumptions, one-way links, orphan targets, and canonical-ID drift across remaining system/reference consumers; then resume evidence-gated preset/loadout expansion only where numeric preset identity and complete configuration are directly evidenced.
