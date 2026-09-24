@@ -7435,3 +7435,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime unavailable; no CI success claimed.
 - Commits: coverage repair `e7ea1d894b22ff22a4ef72cf309f545b5563b23f`; audit `df4b59cd3bed9b8672820de91542ba5d6fdf750d`; cross-domain registration `c7893670d315529eaf4110fcf860e633a26b9254`.
 - Exact next priority: continue the machine-checkable non-PQ reverse-projection audit, next targeting another current-facing consumer or partial research index with deterministic stale counts/orphan targets.
+
+
+### 2026-09-24 cycle update — Expert Mission acquisition cross-link completion
+
+- Audited `docs/data/skill-acquisition-index.json` against the canonical `docs/data/expert-mission-endpoints.json` layer.
+- The acquisition index's 18 maintained EM03–EM20 records were name-only, despite the endpoint layer already containing stable canonical `skill_id` and `endpoint_id` values. This limited direct bidirectional navigation.
+- Promoted exact-match `skill_id` and `endpoint_id` fields into all **18/18** acquisition-index records.
+- Added `docs/data/expert-mission-acquisition-index-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- Validation: **18 acquisition records / 18 endpoint records / 18 canonical skill-ID links / 18 endpoint-ID links / 0 missing IDs / 0 duplicate IDs / 0 unresolved names / exact parity clean**.
+- Evidence boundary preserved: this is an identity/navigation improvement only; it does not upgrade partial drop evidence into guaranteed drops or exact rates.
+- CI/runtime unavailable; no CI success claimed.
+- Commits: acquisition cross-link `53deaccaf922a594acc53961c6bf6cf1eceedfe7`; audit `75db6a55cb92cb68ca9d4efa83c4c73add9538c5`; index registration `2635039459c6b8503bd1acb629ae0d880411d3c1`.
+- Exact next priority: continue the remaining non-PQ reverse-projection audit, prioritizing another acquisition/event/identity consumer whose current layer can be deterministically reconciled.
