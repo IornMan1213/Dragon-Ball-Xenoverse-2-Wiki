@@ -3,7 +3,7 @@
   "audit_date": "2026-09-24",
   "skill_name": "Boiling Ball",
   "skill_id": "skill-boiling-ball",
-  "status": "evidence_enriched_unresolved",
+  "status": "evidence_reconciled_unresolved",
   "scope": "bounded Xenoverse 2-specific evidence enrichment",
   "evidence": [
     {
@@ -30,20 +30,25 @@
       "type": "xenoverse2_cac_catalog",
       "claim": "A Xenoverse 2 catalog of skills unobtainable by CaC lists Boiling Ball.",
       "source": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79567595"
+    },
+    {
+      "type": "repository_research_reconciliation",
+      "claim": "Repository research batch 289 records Boiling Ball as a Super Skill with Ki Blast subtype; this is treated as repository research evidence rather than a cross-game inference.",
+      "source": "docs/data/skill-research-batches/skill-batch-289.json"
     }
   ],
   "resolved_fields": {
     "classification": "Super Skill",
     "cac_available": false,
     "character_source": "Demon God Demigra (Final Form)",
-    "attack_description": "Final Demigra teleports away, forms three spinning dark-energy spheres, and uses them to target the opponent; the move has a distinct transformation/Time Rift behavior."
+    "attack_description": "Final Demigra teleports away, forms three spinning dark-energy spheres, and uses them to target the opponent; the move has a distinct transformation/Time Rift behavior.",
+    "subcategory": "Ki Blast"
   },
   "unresolved_fields": [
-    "subcategory",
     "ki_cost"
   ],
   "guardrails": [
-    "Do not infer the repository subtype from generic projectile or transformation terminology without a validated taxonomy mapping.",
+    "Retain the repository-supported Ki Blast subtype; keep numeric Ki cost unresolved and do not replace the subtype with a generic projectile label.",
     "Do not infer Ki cost from Dragon Ball Xenoverse, Heroes, or unofficial/mod implementations.",
     "Do not create a CaC acquisition route from NPC/boss usage.",
     "Do not promote to canonical skills.json without supported builder execution and required field coverage."
