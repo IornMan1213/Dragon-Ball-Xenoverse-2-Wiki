@@ -7745,3 +7745,20 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Final checked state: PQ endpoint validation **469 skills / 234 Super Souls / 174 equipment-accessory records / 153 characters / 20 DLC / 853 edges / clean**; PQ skill presentation audit **469 skills / 244 PQ-skill edges / exact reverse parity / clean**; consumer-scan audit **pass**; cross-domain index JSON **valid**.
 - Correction commits: skill audit `70d8f678ec16546bf4492a7b40b286b1e6434e5e`; cross-domain index JSON fix `c36ac9e148c0af47af94e80acc6525b4f78ffd62`.
 - **Exact next priority unchanged:** continue deterministic current-facing event/raid/Festival/Chapter 4 and character/preset consumer scanning; do not invent event/raid endpoints without explicit evidence.
+
+
+### 2026-09-24 cycle update — broader current skill consumer census
+
+- Continued the current-facing producer/consumer census beyond the PQ endpoint validator.
+- Found five current-facing skill-domain projections still carrying the superseded **465** baseline after the Hyper Drain / Hyper Movement / Ice Cannon / Ice Claw endpoint recovery.
+- Synchronized these live consumers to the **469 canonical / 469 index** skill layer:
+  - `docs/data/skill-stale-metadata-census-2026-09-23.json` → 469/469 current metadata records, 0 stale, 0 duplicates.
+  - `docs/data/skill-acquisition-coverage-current-audit-2026-09-23.json` → 469 canonical, 239 PQ-linked, 230 non-PQ, 131 unique mentor-linked, 99 non-PQ/non-mentor endpoint targets; current endpoint arithmetic now uses 18 Expert Mission + 33 shop + 13 Time Rift/story/tournament + 4 Tokipedia + 3 Conton City Patrol + 16 special + 10 character-only + 2 starting = 99.
+  - `docs/data/skill-current-baseline-consumer-synchronization-2026-09-24.json` → 469/469 current parity and 99 non-PQ/non-mentor endpoint targets.
+  - `docs/data/skill-character-source-identity-audit-2026-09-23.json` → current canonical skill count 469; the four recovered skills have no character_source tokens, so identity-bridge match counts remain unchanged.
+  - `docs/data/mentor-skill-crosslink-report-2026-09-23.json` → current canonical skill count 469; the four recovered skills have no source_mentor field, so mentor edge counts remain unchanged.
+- Revalidated the already repaired PQ consumers: `pq-endpoint-navigation-validation.json` remains **186 PQs / 469 skills / 234 Super Souls / 174 equipment-accessory records / 153 characters / 20 DLC / 853 relationship edges / clean**; `skill-pq-acquisition-presentation-audit.json` remains **469 skills / 244 PQ-skill edges / exact forward↔reverse parity / clean**.
+- Historical 465/455 audits remain preserved where their dates and filenames identify them as historical snapshots; no historical evidence was deleted or rewritten merely to erase old counts.
+- Commits: stale metadata `1c999336198262dab2f43a799bf6e166d060e6d7`; coverage current audit `e450c38f282620bd8d8be7492c89a15b25b5c78e`; baseline synchronization `21e8711b342b34fdd5b3a75b61a73960e33bc93c`; character-source audit `db5fddc7af27339a1e495a00ba2829b1b5555875`; mentor report `6f1c0c9d12158fbdd246aba62b81b72158824380`.
+- Validation: all edited JSON documents re-fetched successfully after writes; current counts and arithmetic are internally consistent. CI/runtime remains unavailable; no CI success claimed.
+- **Exact next priority:** continue the same deterministic census into **event/raid/Festival/Chapter 4 and character/preset presentation consumers**, then repair any current-facing stale counts or one-way/orphan navigation found there before returning to source-backed preset-loadout expansion.
