@@ -5833,3 +5833,12 @@
 - [x] Validation: **116 canonical accessories / 9 raid identity records / 9 resolved / 0 unresolved / 18 bridge records / 18 bridge-resolved / 0 bridge-unresolved / 0 broken canonical IDs**.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next priority:** continue deterministic post-accessory event/raid non-PQ consumer scanning, prioritizing current-facing stale counts, orphan targets, and reverse-index drift over speculative endpoint creation.
+
+
+### 2026-09-24 cycle completion — accessory canonical projection count boundary
+- [x] Distinguished the legacy 74 acc identities / 32 PQ-edge accessory projection from the current 116 accr canonical reconciliation layer.
+- [x] Added and registered docs/data/accessory-canonicalization-current-projection-audit-2026-09-24.json.
+- [x] Updated the canonicalization audit with explicit cross-namespace count/projection boundaries.
+- [x] Validation: legacy forward/reverse PQ parity clean; current canonical count 116; raid identity count 9 with 0 unresolved; no unsupported PQ edges inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next priority: continue deterministic non-PQ consumer scanning for stale current fields/counts or orphan targets in event/raid or character/preset navigation layers.
