@@ -5378,3 +5378,12 @@
 - [x] Existing acquisition, reward, mechanics, restriction, DLC/update, and evidence-conflict semantics preserved; no unsupported fields inferred.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next stale batch:** **God of Destruction's Might; God of Destruction's Plaything; God of Destruction's Poise; God of Destruction's Rampage; God of Destruction's Roar; God of Destruction's Wrath; God Punisher; God Splitter; Godly Chronos Cannon; Godly Display; Gorgeous Shot; Grand Smasher**.
+
+### 2026-09-24 cycle update — God of Destruction's Might through Grand Smasher provenance refresh
+- [x] Completed the bounded P1 provenance batch: **God of Destruction's Might; God of Destruction's Plaything; God of Destruction's Poise; God of Destruction's Rampage; God of Destruction's Roar; God of Destruction's Wrath; God Punisher; God Splitter; Godly Chronos Cannon; Godly Display; Gorgeous Shot; Grand Smasher**.
+- [x] Synchronized canonical/index `last_verified` metadata to **2026-09-24** and preserved existing acquisition, reward, mechanics, restriction, DLC/update, and evidence semantics.
+- [x] Added and registered the bounded provenance audit and refreshed the live stale census.
+- [x] Corrected stale cross-domain index registrations that pointed at nonexistent Gigantic→God audit files; the actual bounded audit is now registered.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Live validation:** **465 canonical / 465 index / 242 current / 223 stale / 0 duplicate IDs**.
+- **Exact next batch:** **Gravity Impact; Handy Canon; Hawk Charge; Headshot; Heat Dome Attack; Heat Wave; Heavenly Arrow; Hell Flash; Hellzone Grenade; Hero's Flute; Hero's Pose; Heroic Assault**.
