@@ -1564,6 +1564,22 @@
       "route_refs": {},
       "status": "partially_verified",
       "identity_note": "Exact named identity is present in the maintained equipment-accessories record layer as acc-046; shop and raid routes are retained as separate acquisition routes."
+    },
+    {
+      "id": "accr-112",
+      "canonical_name": "Turtle Hermit's Beard",
+      "aliases": [],
+      "routes": [
+        "Crystal Raid",
+        "Accessory Shop"
+      ],
+      "route_refs": {
+        "shop": [
+          "shop-020? route requires source reconciliation"
+        ]
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact accessory identity is present in the maintained equipment-accessories record layer as acc-032. Crystal Raid provenance is route evidence; current availability and exact shop/reward conditions remain unresolved."
     }
   ],
   "unresolved_alias_groups": [
