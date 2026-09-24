@@ -5765,3 +5765,12 @@
 - [x] Evidence boundaries preserved; no additional acquisition route inferred.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** scan remaining non-PQ endpoint layers for unregistered audits or stale cross-domain projections, then reconcile any deterministic count/ID drift found.
+
+
+### 2026-09-24 cycle completion — character-exclusive endpoint current-baseline audit
+- [x] Audited `docs/data/character-exclusive-skill-endpoints.json` against the live **469-record** canonical skill layer.
+- [x] Confirmed **10 endpoints / 10 forward edges / 10 unique skill targets / 0 unresolved IDs / 0 duplicate endpoint pairs**.
+- [x] Added `docs/data/character-exclusive-skill-endpoint-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] No endpoint changes were inferred; cast/boss exposure remains distinct from CaC acquisition.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next batch:** audit the remaining non-PQ endpoint/index consumers for current 469-baseline drift, prioritizing any unregistered Expert Mission/current acquisition projection or event/raid gap that can be machine-checked without inventing relationships.
