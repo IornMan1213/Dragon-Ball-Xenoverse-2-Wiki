@@ -143,4 +143,10 @@ The special acquisition endpoint layer in `docs/data/special-acquisition-endpoin
 
 ## 2026-09-23 — Full skill endpoint reverse parity baseline
 
-The full current canonical skill layer now has endpoint coverage across the combined PQ and non-PQ producer/exposure layers: **465/465 canonical skill IDs are represented**. The audit is `docs/data/full-skill-endpoint-reverse-parity-audit-2026-09-23.json`. A skill may have multiple legitimate producers; `skill-super-explosive-wave` is intentionally exposed through both Piccolo Lesson 1 and Future Gohan initiation. Duplicate identity creation is prohibited, while distinct producer relationships remain valid.
+The full current canonical skill layer now has endpoint coverage across the combined PQ and non-PQ producer/exposure layers: **469/469 canonical skill IDs are represented**. The audit is `docs/data/full-skill-endpoint-reverse-parity-audit-2026-09-23.json`. The current union is 469 canonical skill IDs after the 2026-09-24 Hyper/Ice endpoint reconciliation. A skill may have multiple legitimate producers; `skill-super-explosive-wave` is intentionally exposed through both Piccolo Lesson 1 and Future Gohan initiation. Duplicate identity creation is prohibited, while distinct producer relationships remain valid.
+
+
+### 2026-09-24 — Cross-domain consumer baseline correction
+- The live canonical PQ relationship baseline is **853 edges**: 244 skill, 145 Super Soul, 124 equipment, 247 character, 86 DLC, and 7 farming.
+- Historical 854/146/143 and older 862/151/125/88 snapshots remain preserved as historical correction context and must not be used as current consumer counts.
+- The full skill endpoint union is **469/469**, with zero uncovered canonical skill IDs after the Hyper Drain, Hyper Movement, Ice Cannon, and Ice Claw reconciliation.
