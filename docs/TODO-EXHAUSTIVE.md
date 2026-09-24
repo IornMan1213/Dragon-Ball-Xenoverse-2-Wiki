@@ -6350,3 +6350,12 @@
 - [x] Validation passed with no relationship/data changes.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** finish remaining non-PQ landing/reference scan for stale explorer targets, stale counts/list assumptions, orphan navigation, and canonical-ID drift.
+
+
+### 2026-09-24 cycle completion — global navigation explorer-target audit
+- [x] Repointed wiki sidebar Super Souls → Super-Souls-All.html and Awoken Skills → Awoken-All.html.
+- [x] Verified Expert Missions has no Expert-Missions-All.html; retained the existing landing route to avoid a broken link.
+- [x] Added and registered global-navigation-canonical-explorer-audit-2026-09-24-c.json.
+- [x] Validation passed; no data/relationship semantics changed.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next batch: deterministic scan for stale counts/list assumptions, orphan navigation, and canonical-ID drift, then evidence-gated preset/loadout expansion.
