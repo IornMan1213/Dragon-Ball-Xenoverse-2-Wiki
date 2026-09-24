@@ -5955,3 +5955,11 @@
 - [x] No canonical acquisition relationship, probability, Ultimate Finish requirement, or gameplay field was inferred.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** continue deterministic current-facing **event/raid/Festival/Chapter 4 and character/preset** consumer scanning for stale counts, one-way navigation, orphan targets, and canonical identity drift; then resume the highest-impact thin-domain source-backed expansion.
+
+
+### 2026-09-24 cycle correction — post-write parity validation
+- [x] Corrected the remaining stale `reverse_navigation.skill_count` value from **465** to **469** in `docs/data/skill-pq-acquisition-presentation-audit.json`.
+- [x] Corrected and revalidated the cross-domain index JSON separator after registering the new current skill-domain consumer audit.
+- [x] Final checked state: PQ endpoint validation **469/234/174/153/20 with 853 edges**, PQ skill presentation **469/244 with exact reverse parity**, consumer scan **pass**, index JSON **valid**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** continue deterministic event/raid/Festival/Chapter 4 and character/preset consumer scanning.
