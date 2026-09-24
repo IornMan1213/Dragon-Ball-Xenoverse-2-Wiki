@@ -25,6 +25,11 @@
       "type": "xenoverse2_moveset",
       "claim": "Dragon Ball reference material describes Boulder Break as a Super Skill used by Great Apes.",
       "source": "https://dbxv2.fandom.com/wiki/Great_Ape_Festival"
+    },
+    {
+      "type": "current_web_verification",
+      "claim": "Current Xenoverse 2 PQ and Expert Mission references independently show Boulder Break on Great Ape Nappa/Bardock; current technique reference explicitly calls it a Projectile and a Super Skill in Xenoverse 2.",
+      "source": "https://dragonball.fandom.com/wiki/Boulder_Break"
     }
   ],
   "resolved_fields": {
