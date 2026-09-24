@@ -8134,3 +8134,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation passed: 3 canonical routes present in each layout; obsolete landing routes removed from these surfaces. Navigation-only; no data semantics changed.
 - Commits: `841842db129e2d150794c8c004367c9e706a4fd2`, `257d87aa8831e5b8bce226836905db34e493b3b8`, `2151bd552b00e167c96913b1b69542ed578e8430`, `5e1a4e5f1ccc418bab43a332aa48f205e5b71ad3`.
 - **Exact next batch:** deterministic scan of remaining reference/landing pages for stale explorer targets, one-way links, and canonical-ID/count drift, prioritizing DLC/system landing consumers.
+
+
+### 2026-09-24 continuation — DLC character explorer navigation repair
+
+- Audited docs/DLC-Overview.md headline-character presentation bridge against the live canonical character explorer.
+- Found 15/15 resolved DLC headline-character presentation links still targeting the generic /Search/ surface even though docs/Characters-All.html is the canonical searchable character explorer.
+- Repointed all 15 links to Characters-All.html?q=..., preserving the existing encoded query strings and identity labels exactly.
+- Added docs/data/dlc/dlc-character-explorer-navigation-audit-2026-09-24.json and registered it in docs/data/pq-cross-domain-index.json under navigation_audits.
+- Validation: 15/15 links now target the canonical Character Explorer; 0 unresolved links; 0 canonical relationship changes; audit status = pass.
+- Evidence boundary preserved: this was presentation navigation only. No DLC ownership, character identity, preset/loadout, acquisition, or gameplay relationship was inferred or changed.
+- Commits: 953b39825d1da4097ce8e39ed8b9f0e522bf0f6e (DLC page), 5cf9b1f836acf60fba4b8ce4b72e039f19c661c1 (audit), 03a43523a7e6fe8dd5c48b348270073352fc816f (central index registration).
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next priority: continue deterministic current-facing DLC/system landing consumer scanning for stale explorer targets, stale scalar/list assumptions, one-way navigation, orphan targets, and canonical-ID drift. After this consumer layer is clean, resume evidence-gated preset/loadout expansion only where a source directly binds numeric preset identity to a complete named configuration.
