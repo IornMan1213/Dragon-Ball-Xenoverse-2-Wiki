@@ -6,53 +6,52 @@
   "live_counts": {
     "canonical_skill_records": 469,
     "index_skill_records": 469,
-    "current_last_verified_records": 347,
-    "stale_last_verified_records": 122,
+    "current_last_verified_records": 359,
+    "stale_last_verified_records": 110,
     "duplicate_ids": 0
   },
   "next_stale_batch": [
     {
-      "name": "Quick Sleep"
+      "name": "Saturday Crash"
     },
     {
-      "name": "Ribrianne's Eternal Love"
+      "name": "Sauzer Blade"
     },
     {
-      "name": "Riot Javelin"
+      "name": "Savory Slicer"
     },
     {
-      "name": "Rise to Action"
+      "name": "Scatter Kamehameha"
     },
     {
-      "name": "Rising Rage"
+      "name": "Scissors Paper Rock"
     },
     {
-      "name": "Rocket Tackle"
+      "name": "Seagull Combination"
     },
     {
-      "name": "Rolling Bullet"
+      "name": "Secret Poison"
     },
     {
-      "name": "Rolling Hercule Punch"
+      "name": "Shadow Crusher"
     },
     {
-      "name": "Rough Ranger"
+      "name": "Shield Barrier"
     },
     {
-      "name": "S.S. Deadly Bomber"
+      "name": "Shine Shot"
     },
     {
-      "name": "Saiyan Blaster"
+      "name": "Shining Friday"
     },
     {
-      "name": "Saiyan Spirit"
+      "name": "Shining Slash"
     }
   ],
   "notes": [
     "Canonical/index counts and IDs remain aligned.",
     "Counts computed from live canonical data after the completed bounded batch.",
     "Existing acquisition, reward, mechanics, restriction, DLC/update, and evidence-conflict semantics were preserved.",
-    "2026-09-24 provenance refresh completed for Raid Blast through Reverse Shot; canonical/index verification-date parity remains aligned.",
     "CI/runtime remains unavailable; no CI success is claimed."
   ]
 }
