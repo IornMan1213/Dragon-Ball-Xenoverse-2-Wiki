@@ -30,15 +30,16 @@
   "resolved_fields": {
     "classification": "Evasive Skill",
     "cac_available": false,
-    "character_source": "Great Ape Nappa; Great Ape Vegeta; Great Ape Bardock and other Great Ape enemy variants"
+    "character_source": "Great Ape Nappa; Great Ape Vegeta; Great Ape Bardock and other Great Ape enemy variants",
+    "acquisition_status": "Not obtainable by CaC / no CaC unlock route documented"
   },
   "unresolved_fields": [
-    "ki_cost",
-    "unlock_method"
+    "ki_cost"
   ],
   "guardrails": [
     "Do not infer Ki cost from another game or unofficial implementation.",
     "Do not create a CaC acquisition route from enemy-only usage.",
-    "Do not promote to canonical skills.json without supported builder execution and required field coverage."
+    "Do not promote to canonical skills.json without supported builder execution and required field coverage.",
+    "Do not invent a CaC unlock route when the skill is documented as CaC-unavailable."
   ]
 }
