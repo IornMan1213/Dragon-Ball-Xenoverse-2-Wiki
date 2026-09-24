@@ -342,3 +342,13 @@
 - [x] Canonical/index baseline remains **469/469** with no duplicate canonical IDs introduced.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next:** continue deterministic duplicate/stale research-consumer reconciliation around the next unresolved P1 skill, then make only source-backed canonical-safe changes while Savage Strike remains staged for atomic builder integration.
+
+
+### 2026-09-24 continuation — Time Rift/story/tournament projection synchronization
+- [x] Re-read the live handoff, efficiency addendum, and exhaustive TODO before editing.
+- [x] Identified a current-facing endpoint consumer whose metadata still reflected the 2026-09-23 verification boundary: `docs/data/time-rift-story-tournament-endpoints.json`.
+- [x] Refreshed its 11 endpoint records to `last_verified=2026-09-24`; preserved the established **11 endpoints / 13 forward edges / 13 unique skills** without inventing relationships.
+- [x] Reconciled `docs/data/time-rift-story-tournament-endpoint-audit-2026-09-24.json` to the live **469-skill** canonical baseline and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: endpoint IDs unique, forward endpoint IDs resolve, reverse/forward pair counts remain aligned, 13 linked skill IDs resolve against the canonical layer.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next:** continue the non-PQ reverse-projection audit from the current 469-skill endpoint union, focusing on Tokipedia/Patrol/special-acquisition consumers for orphaned or stale current-facing skill IDs.
