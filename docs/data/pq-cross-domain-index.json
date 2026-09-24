@@ -199,7 +199,8 @@
     "accessory_raid_identity_reconciliation_2026_09_24": "docs/data/accessory-raid-identity-reconciliation-audit-2026-09-24.json",
     "accessory_canonicalization_current_projection": "docs/data/accessory-canonicalization-current-projection-audit-2026-09-24.json",
     "skill_acquisition_cross_domain_current_2026_09_24": "docs/data/skill-acquisition-cross-domain-endpoint-audit-2026-09-24.json",
-    "pq_endpoint_navigation_current_2026_09_24": "docs/data/pq-endpoint-navigation-current-audit-2026-09-24.json"
+    "pq_endpoint_navigation_current_2026_09_24": "docs/data/pq-endpoint-navigation-current-audit-2026-09-24.json",
+    "current_pq_consumer_baseline_2026_09_24": "docs/data/pq-current-consumer-baseline-synchronization-2026-09-24.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
