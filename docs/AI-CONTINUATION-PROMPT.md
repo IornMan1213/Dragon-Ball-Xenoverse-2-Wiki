@@ -7503,3 +7503,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Validation: **469 - 239 = 230**; overlapping endpoint layers are not a disjoint partition.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** scan Tokipedia/starting-move and remaining unregistered non-PQ endpoint audits for stale projections or orphan targets.
+
+
+### 2026-09-24 cycle completion — Tokipedia and starting-move endpoint reconciliation
+- [x] Audited `docs/data/tokipedia-endpoints.json`: **4 endpoints / 4 forward edges / 4 reverse edges / 4 unique skill targets / 0 broken IDs**.
+- [x] Found and corrected the remaining deterministic canonical/index mismatch for **Energy Minefield**: index `source_quest_or_shop` was still **60%**, while canonical and endpoint evidence establish **75% Tokipedia completion**.
+- [x] Added `docs/data/tokipedia-endpoint-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Audited `docs/data/starting-move-endpoints.json`: **2 endpoints / 2 forward edges / 2 reverse targets / 0 broken IDs / exact parity**.
+- [x] Added `docs/data/starting-move-endpoint-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Evidence boundaries preserved; no additional acquisition route inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next batch:** scan remaining non-PQ endpoint layers for unregistered audits or stale cross-domain projections, then reconcile any deterministic count/ID drift found.
