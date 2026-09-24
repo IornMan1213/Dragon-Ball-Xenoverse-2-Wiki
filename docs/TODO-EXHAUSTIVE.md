@@ -5842,3 +5842,10 @@
 - [x] Validation: legacy forward/reverse PQ parity clean; current canonical count 116; raid identity count 9 with 0 unresolved; no unsupported PQ edges inferred.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next priority: continue deterministic non-PQ consumer scanning for stale current fields/counts or orphan targets in event/raid or character/preset navigation layers.
+
+
+### 2026-09-24 cycle completion — Time Rift/story/tournament endpoint contract drift correction
+- [x] Corrected `docs/data/CROSS-LINK-CONTRACT.md` from 14 to the live validated **13 forward skill edges** for the 11-endpoint Time Rift/story/tournament layer.
+- [x] Confirmed no canonical endpoint relationship required modification; only stale documentation was corrected.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next priority:** scan remaining cross-link documentation and machine-readable indexes for deterministic stale endpoint counts/IDs.
