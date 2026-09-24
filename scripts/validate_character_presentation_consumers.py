@@ -24,7 +24,7 @@ def main():
     import re
     preset_label_pattern=re.compile(r"(?i)\b(?:[A-Za-z][A-Za-z0-9()'’ -]+\s+)?Preset\s+\d+")
     markdown_preset_labels=sorted(set(preset_label_pattern.findall(characters_page+"\\n"+core_profiles)))
-    characters_explorer_link="Characters-All.html" in characters_page or "Characters-All.md" in characters_page
+    characters_explorer_link="Characters-All.html" in characters_page and "Characters-All.md" not in characters_page
     core_profile_search_design=("Search/" in core_profiles or "searchUrl(" in core_profiles or not markdown_preset_labels)
 
     bridge_ids=[r.get("character_id") for r in bridge]
