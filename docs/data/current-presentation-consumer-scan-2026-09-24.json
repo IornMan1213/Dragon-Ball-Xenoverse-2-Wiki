@@ -44,6 +44,7 @@
       "detail": "The source-observed Goku in-game-data table exposes named loadout rows, but repository numeric Goku preset IDs cannot safely be mapped by row order. No Goku loadout was promoted."
     }
   ],
+  "landing_target_inventory": {"status": "pass", "canonical_explorers": ["Characters-All.html","Skills-All.html","Parallel-Quests-All.html","Equipment-All.html","Super-Souls-All.html","Awoken-All.html","Mentors-All.html"], "expert_missions_all_target": false},
   "evidence_boundary": "This bounded scan does not establish complete event history, complete preset numbering, complete loadouts, acquisition conditions, rotation, drop rates, or historical chronology.",
   "next": "Resolve additional exact numeric preset mappings only where a source directly binds the source row to the repository preset ID; otherwise continue the highest-impact thin-domain research without inference."
 }
