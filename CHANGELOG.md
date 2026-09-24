@@ -3044,3 +3044,4 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Preserved unresolved `ki_cost` and acquisition fields; Acid's normal ID 140 and separate raid-boss ID 143 remain explicitly distinct.
 - No canonical promotion or unsupported acquisition route was introduced.
 - CI/runtime remains unavailable; no CI success claimed.
+- 2026-09-24: Refreshed Xenoverse 2 evidence audits for Boiling Burg, Energy Boil, Baked Sphere, Boulder Toss, and Boulder Break; unresolved Ki-cost/subtype fields remain intentionally unpromoted.
