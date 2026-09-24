@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-24",
+  "scope": "Current skill baseline consumer synchronization",
+  "source_of_truth": "docs/data/skills.json",
+  "changes": [
+    "Reconciled the current skill acquisition coverage projection from the superseded 455-record baseline to the live 465-record canonical/index layer.",
+    "Reconciled the live stale-metadata census from 455/455 to 465/465 after Expert Mission index promotion.",
+    "Confirmed the live endpoint-consumer arithmetic at 465 canonical skills / 239 PQ-linked / 226 without PQ / 131 mentor-linked skill targets / 95 non-PQ/non-mentor endpoint targets.",
+    "Preserved historical 455-record snapshots and did not alter canonical skill identities or acquisition relationships."
+  ],
+  "validation": {
+    "canonical_skill_records": 465,
+    "index_skill_records": 465,
+    "duplicate_canonical_ids": 0,
+    "duplicate_index_ids": 0,
+    "stale_last_verified_records": 0,
+    "non_pq_nonmentor_endpoint_targets": 95,
+    "mentor_skill_edge_rows": 131,
+    "mentor_unique_skill_targets": 130,
+    "status": "pass",
+    "ci_status": "unavailable; no CI success claimed"
+  },
+  "next_research": [
+    "Search remaining current-looking consumers for superseded skill/domain counts and repair only live assertions.",
+    "Then continue bounded source-backed provenance strengthening across the 95 non-PQ/non-mentor endpoint targets, prioritizing thin-source records and preserving endpoint-layer separation."
+  ]
+}
