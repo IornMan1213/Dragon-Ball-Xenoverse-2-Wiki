@@ -123,13 +123,13 @@
     {
       "source_id": "raidgift-012",
       "name": "Golden Turtle Hermit's Shell",
-      "canonical_id": null,
-      "status": "new_identity_candidate",
+      "canonical_id": "accr-113",
+      "status": "partially_verified",
       "route_refs": [
         "Fused Zamasu raid reward family",
-        "Crystal Raid Battle"
+        "Online Raid Quest"
       ],
-      "note": "Accessory kept separate from Golden Turtle Hermit Gi clothing."
+      "note": "Canonical identity promoted as Turtle Hermit's Golden Shell; kept distinct from Turtle Hermit's Shell and Golden Turtle Hermit Gi. Crystal Raid attribution remains unconfirmed in the current evidence set."
     },
     {
       "source_id": "raidgift-013",
@@ -176,8 +176,7 @@
     }
   ],
   "unmatched_candidates": [
-    "Cheelai Wig",
-    "Golden Turtle Hermit's Shell"
+    "Cheelai Wig"
   ],
   "rules": [
     "Duplicate route records are expected when one canonical accessory is obtainable through multiple systems.",
