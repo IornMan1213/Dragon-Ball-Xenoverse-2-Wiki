@@ -1,4 +1,13 @@
 
+### 2026-09-24 cycle update — character producer/consumer count correction
+
+- Deterministic scan found a live-source mismatch: `docs/data/characters-record-layer.json` contains **152** canonical character names, including both Chapter 4 identities, while several consumers/audits still asserted **153**.
+- Corrected the affected current-facing character/navigation projections and `docs/Characters.md` from 153 to the live producer count of 152. The explorer itself reads `character_names` directly, so its actual live dataset was already 152.
+- The earlier 153 count is retained only in prior dated history; it is superseded for current use and is not treated as evidence for an additional character identity.
+- No missing character was inferred or added. Official Chapter 4 sources establish the two new identities but do not establish a 153rd total roster identity. citeturn1search0turn1search5
+- Validation: canonical character list = 152; Chapter 4 identities present; current presentation/audit consumers synchronized to 152; no new PQ/partner/preset/gameplay relationships added. CI/runtime remains unavailable.
+- **Next exact batch:** continue deterministic event/raid/Festival/Chapter 4 consumer scanning from the corrected 152-character baseline; then resume the next source-backed preset/loadout tranche.
+
 ### 2026-09-24 cycle update — Future Saga Chapter 4 presentation consumer audit
 
 - Audited `docs/Future-Saga-Chapter-4-Research.md` and `docs/Future-Saga.md` against the indexed Chapter 4 system/content records.
