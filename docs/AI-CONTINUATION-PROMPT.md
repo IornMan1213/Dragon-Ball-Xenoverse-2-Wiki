@@ -7176,3 +7176,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Preserved existing evidence boundaries and conflicts; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions introduced.
 - CI/runtime unavailable; no CI success claimed.
 - Exact next batch: Pride Trooper; Punisher Drive; Purification; Raid Blast; Raiding Hammer; Rebellion Spear; Revenge Death Ball; Revenge Final Flash; Ribrianne Loves You; Rocket Tackle; Rolling Hercule Punch; Rolling Bullet.
+
+### 2026-09-24 cycle update — Present For You through Purification
+
+- Completed the bounded P1 provenance batch: 12 records — Present For You, Pressure Sign, Pretty Cannon, Pretty Charge, Prominence Flash, Psychic Move, Psycho Barrier, Psycho Escape, Punisher Guard, Punisher Shield, Pure Progress, and Purification.
+- Synchronized docs/data/skills.json and docs/data/skills-index.json; all 12 now have last_verified=2026-09-24.
+- Added docs/data/skill-provenance-audit-2026-09-24-present-through-purification.json.
+- Validation: 469 canonical / 469 index / 0 duplicate IDs / 0 canonical-index mismatches.
+- Refreshed docs/data/skill-stale-metadata-census-2026-09-24.json: 335 current / 134 stale.
+- Corrected the stale queue to the live canonical alphabetical sequence after Purification; the prior attempted queue contained names absent from the live canonical dataset.
+- Existing evidence boundaries and conflicts were preserved; no unsupported mechanics or acquisition details were invented.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next stale batch: Raid Blast; Rakshasa's Claw; Ray Blast; Rebellion Spear; Recoome Kick; Remote Serious Bomb; Requiem of Destruction; Revenge Death Ball; Revenge Final Flash; Reverse Launcher; Reverse Mabakusenko; Reverse Shot.
