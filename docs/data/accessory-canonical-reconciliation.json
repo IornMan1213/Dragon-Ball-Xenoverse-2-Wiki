@@ -1349,10 +1349,12 @@
       "id": "accr-096",
       "canonical_name": "SSGSS Goku Wig",
       "aliases": [
-        "Super Saiyan Blue Goku Wig"
+        "Super Saiyan Blue Goku Wig",
+        "SSGSS Goku's Wig"
       ],
       "routes": [
-        "PQ76"
+        "PQ76",
+        "Crystal Raid"
       ],
       "route_refs": {
         "shop": []
@@ -1575,6 +1577,22 @@
       "route_refs": {},
       "status": "partially_verified",
       "identity_note": "Exact accessory identity is present in the maintained equipment-accessories record layer as acc-032. Crystal Raid provenance is route evidence; current availability and exact shop/reward conditions remain unresolved."
+    },
+    {
+      "id": "accr-113",
+      "canonical_name": "Turtle Hermit's Golden Shell",
+      "aliases": [
+        "Golden Turtle Hermit's Shell",
+        "Golden Turtle Hermit Shell"
+      ],
+      "routes": [
+        "Online Raid Quest"
+      ],
+      "route_refs": {
+        "shop": []
+      },
+      "status": "partially_verified",
+      "identity_note": "Independent inventory/model evidence identifies this as a distinct accessory (model ID 942), separate from Turtle Hermit's Shell. Online Raid documentation lists it as a raid accessory reward; Crystal Raid attribution remains unconfirmed in the current evidence set."
     }
   ],
   "unresolved_alias_groups": [
