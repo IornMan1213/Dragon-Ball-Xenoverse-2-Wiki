@@ -6159,3 +6159,13 @@
 - [x] Validation: live canonical layer remains 230 records; edited database fetched after commit and the current census is synchronized.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** continue deterministic non-PQ Event/Raid/Festival/Chapter 4 consumer scanning, including current-facing prose outside dated historical sections, then resume source-backed preset/loadout expansion.
+
+
+### 2026-09-24 cycle completion — raid/event Super Soul presentation deduplication
+- [x] Re-scanned the current `docs/Super-Souls-Database.md` raid/event presentation index against its canonical IDs.
+- [x] Found a deterministic presentation-only duplication: **62 table rows / 37 unique canonical IDs**, with **25 canonical IDs duplicated**.
+- [x] Removed the duplicate presentation rows, leaving **37 rows / 37 unique IDs / 0 duplicate presentation IDs**. Canonical Super Soul records and provenance were unchanged.
+- [x] Updated `docs/data/super-soul-raid-event-presentation-consumer-audit-2026-09-24.json` with before/after row counts and duplicate-row census; canonical audit remains **37/37 surfaced, 0 missing, all raid IDs resolve**.
+- [x] Validation: live database section re-fetched after write; 37 rows, 37 unique IDs, 0 duplicates. The historical 12/37 result remains explicitly described as historical rather than current state.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next priority:** continue deterministic current-facing **event/raid/Festival/Chapter 4 consumer scanning** for duplicate presentation rows, stale scalar/coverage claims, one-way navigation, orphan targets, and canonical-ID drift; then resume source-backed preset/loadout expansion.
