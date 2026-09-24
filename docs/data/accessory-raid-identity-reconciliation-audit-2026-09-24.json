@@ -10,12 +10,12 @@
   ],
   "counts": {
     "raid_identity_records": 9,
-    "exactly_resolved": 6,
-    "unresolved": 3,
-    "canonical_accessory_records": 113,
-    "raid_gift_bridge_records": 16,
-    "bridge_resolved": 15,
-    "bridge_unresolved": 1
+    "exactly_resolved": 9,
+    "unresolved": 0,
+    "canonical_accessory_records": 116,
+    "raid_gift_bridge_records": 18,
+    "bridge_resolved": 18,
+    "bridge_unresolved": 0
   },
   "resolved": [
     {
@@ -51,19 +51,30 @@
       "name": "SSGSS Goku's Wig",
       "id": "accr-096",
       "basis": "independent inventory/model evidence reconciles apostrophe variant to existing SSGSS Goku Wig"
+    },
+    {
+      "name": "Cheelai Wig",
+      "id": "accr-114",
+      "basis": "independent inventory/model evidence, model ID 779, plus raid route evidence"
+    },
+    {
+      "name": "Cheelai Wig (w/Scouter)",
+      "id": "accr-115",
+      "basis": "independent inventory/model evidence, model ID 777, plus Impending Danger/Jiren raid evidence"
+    },
+    {
+      "name": "Hercule Wig 2",
+      "id": "accr-116",
+      "basis": "independent inventory/model evidence, model ID 946, plus official/raid route evidence"
     }
   ],
-  "unresolved": [
-    "Cheelai Wig",
-    "Cheelai Wig (w/Scouter)",
-    "Hercule Wig 2"
-  ],
+  "unresolved": [],
   "checks": {
     "all_resolved_identity_ids_exist": true,
     "all_bridge_ids_exist": true,
     "bridge_unmatched_list_matches_null_records": true,
     "no_near_name_merges": true
   },
-  "evidence_boundary": "The six exact raid identities previously promoted remain exact canonical matches. Golden Turtle Hermit's Shell is now a distinct canonical accessory (accr-113) supported by independent inventory/model evidence and Online Raid documentation; its Crystal Raid attribution remains unconfirmed. SSGSS Goku's Wig is reconciled as a naming variant of accr-096 using independent inventory/model evidence. Cheelai Wig, Cheelai Wig (w/Scouter), and Hercule Wig 2 remain unresolved; no near-name merges are performed. Current availability and reward probability remain outside this identity audit.",
+  "evidence_boundary": "All nine raid identity records now have exact canonical matches. Cheelai Wig (accr-114), Cheelai Wig (w/Scouter) (accr-115), and Hercule Wig 2 (accr-116) are distinct identities supported by independent inventory/model evidence and route documentation; no near-name merges were performed. Current availability and reward probability remain outside this identity audit.",
   "status": "clean"
 }
