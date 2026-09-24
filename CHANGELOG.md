@@ -1,3 +1,10 @@
+## 2026-09-24 — Future Saga Chapter 4 character identity presentation repair
+
+- Added the publisher-confirmed Chapter 4 playable identities **Supreme Kai of Time (Ultra Supervillain)** and **Goku (Ultra Supervillain Quelled)** to the canonical character layer.
+- Updated Character Encyclopedia/DLC presentation counts and resolved the previously unresolved Supreme Kai of Time DLC identity bridge entry.
+- Official Bandai Namco announcement: https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now
+- No preset, unlock route, raid history, PQ relationship, or gameplay mechanic was inferred from the publisher announcement.
+
 ## 2026-09-24 — Residual current accessory homepage consumer repair
 
 - Corrected stale current-facing homepage counts in `docs/index.md`: Accessory Shop **53 → 51** and canonical accessories **37 → 116**.
