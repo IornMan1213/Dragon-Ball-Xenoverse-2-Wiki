@@ -5086,3 +5086,13 @@
 - [x] Preserved dated historical 149-character snapshots; no character identity or PQ relationship edge was inferred or changed.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** continue the remaining current-state producer/consumer census for stale skill/domain counts; then return to explicit source-backed preset reconciliation where exact evidence exists.
+
+
+### 2026-09-23 cycle update — Skill acquisition endpoint consumer synchronization
+- [x] Recomputed the live skill endpoint census from the canonical 465-record skill layer.
+- [x] Repaired six current-looking consumers that still embedded the superseded 455-skill baseline: `skill-acquisition-cross-domain-endpoint-audit-2026-09-23.json`, `skill-shop-endpoint-layer-audit-2026-09-23.json`, `skill-shop-endpoints.json`, `skill-acquisition-coverage-current-audit-2026-09-23.json`, `skill-acquisition-coverage-correction-audit-2026-09-23.json`, and `time-rift-story-tournament-endpoint-audit-2026-09-23.json`.
+- [x] Synchronized current route counts: **465 canonical / 239 PQ-linked / 226 without PQ / 131 unique mentor-linked / 95 non-PQ non-mentor**; endpoint layers include **18 Expert Mission, 31 shop, 13 Time Rift/story/tournament, 4 Tokipedia, 3 Conton City Patrol, 14 special acquisition, 10 character-exclusive, and 2 starting-move** endpoint edges/counts as documented.
+- [x] Added and registered `docs/data/skill-acquisition-endpoint-consumer-synchronization-2026-09-23.json`.
+- [x] Validation: canonical/index parity **465/465**, 0 duplicate IDs, full endpoint union **465**, uncovered skills **0**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** continue the P1 acquisition/provenance queue from the current 95 non-PQ/non-mentor skills, prioritizing the remaining ambiguous/under-sourced endpoint routes (especially Ultra Instinct and other explicit evidence gaps), while preserving endpoint-layer separation and avoiding inferred PQ edges.
