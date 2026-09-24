@@ -8640,14 +8640,14 @@
       "unlock_method": "Kid Gohan mentor training — Lesson 2.",
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Gohan (Kid) mentor training",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "usable_by_cac": true,
       "mechanics_notes": "100-Ki Ki Blast Super obtained from Kid Gohan mentor training, Lesson 2. Opposite directional input performs a back-jump before firing. Mentor Lesson 2 is the deterministic acquisition endpoint and requires no Ultimate Finish.",
       "race_restriction": "All CaC races",
       "source_quest": "Gohan (Kid) mentor training — School Quest Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, restriction, DLC/update provenance, and reward-tier semantics against the maintained evidence corpus; no unsupported probabilities, gates, or numerical mechanics were added.",
+      "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, restriction, DLC/update provenance, and reward-tier semantics against the maintained evidence corpus; no unsupported probabilities, gates, or numerical mechanics were added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
       "id": "skill-masenko",
       "source_mentor": [
         "mentor-gohan-kid"
@@ -8670,12 +8670,12 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Advancement Test - God Class",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
       "mechanics_notes": "Charge Super obtained from the Advancement Test — God Class reward. It is usable by all CaC races and is the highest standard charge rate among the three normal charge skills. Current independent guide evidence corroborates the God Class Advancement Test endpoint; no Ultimate Finish gate is involved.",
       "source_quest": "Advancement Test — God Class",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: Steam's Good Build Balance guide independently lists Maximum Charge as an Advancement Test — God Class unlock, corroborating the existing deterministic acquisition endpoint.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, restriction, DLC/update provenance, and reward-tier semantics against the maintained evidence corpus; no unsupported probabilities, gates, or numerical mechanics were added.",
+      "notes": "2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: Steam's Good Build Balance guide independently lists Maximum Charge as an Advancement Test — God Class unlock, corroborating the existing deterministic acquisition endpoint.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, restriction, DLC/update provenance, and reward-tier semantics against the maintained evidence corpus; no unsupported probabilities, gates, or numerical mechanics were added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
       "id": "skill-maximum-charge",
       "source_advancement_test": "advancement-test-god"
     },
@@ -8691,7 +8691,7 @@
       ],
       "ki_cost": 0,
       "mechanics_notes": "0-Ki Power-Up Super from PQ122. Entering meditation raises maximum Ki to 1500 and grants automatic Ki recovery for 20 seconds after the stance completes. Current evidence supports the PQ122 acquisition endpoint; community reports about Ultimate Finish difficulty conflict, so no UF-only gate is asserted.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
       "duration_seconds": 20,
       "unlock_method": "Parallel Quest 122 — Basic Reward",
@@ -8702,7 +8702,7 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Extra Pack 2",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 122 as the acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, restriction, DLC/update provenance, and reward-tier semantics against the maintained evidence corpus; no unsupported probabilities, gates, or numerical mechanics were added.",
+      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 122 as the acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, restriction, DLC/update provenance, and reward-tier semantics against the maintained evidence corpus; no unsupported probabilities, gates, or numerical mechanics were added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
       "id": "skill-meditation",
       "source_parallel_quests": [
         122
@@ -8731,9 +8731,9 @@
       "acquisition_type": "tp_medal_shop",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Free Update 2",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
-      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, restriction, DLC/update provenance, and reward-tier semantics against the maintained evidence corpus; no unsupported probabilities, gates, or numerical mechanics were added.",
+      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, restriction, DLC/update provenance, and reward-tier semantics against the maintained evidence corpus; no unsupported probabilities, gates, or numerical mechanics were added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
       "id": "skill-menacing-flare"
     },
     {
@@ -8966,9 +8966,9 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Expert Mission 3 — \"Assault of the Great Ape\"",
       "acquisition_type": "expert_mission",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM03. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM03. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
       "id": "skill-murder-grenade"
     },
     {
@@ -9139,13 +9139,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Krillin mentor training",
       "mechanics_notes": "Mentor acquisition and classification corroborated by dedicated skill and mentor references; additional combat mechanics are deferred unless directly evidenced.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Krillin mentor training — lesson-1.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "mentor_training",
-      "notes": "2026-09-21 mentor graph completion.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-21 mentor graph completion.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
       "id": "skill-orin-combo",
       "source_mentor": [
         "mentor-krillin"
@@ -9169,7 +9169,7 @@
       "mechanics_notes": "Confirmed as a 300-Ki Strike Ultimate from PQ34. The move freezes the opponent with telekinesis and then strikes with an ice pillar; current Future Warrior references establish CaC availability. The maintained PQ listing places it in the Basic Reward section, so no Ultimate Finish-only acquisition gate is recorded.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Paralysis",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
@@ -9180,7 +9180,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 34,
       "acquisition_type": "quest_or_mission",
-      "notes": "Canonical classification corrected from Super/Ki Blast to Ultimate/Strike; PQ34 Basic Reward acquisition retained.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.",
+      "notes": "Canonical classification corrected from Super/Ki Blast to Ultimate/Strike; PQ34 Basic Reward acquisition retained.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
       "id": "skill-paralysis",
       "source_parallel_quests": [
         34
@@ -9204,7 +9204,7 @@
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ04. It can paralyze/hold the target; exact drop gating remains bounded. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Paralyze_Beam",
@@ -9213,7 +9213,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 4,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
       "id": "skill-paralyze-beam",
       "source_parallel_quests": [
         4
@@ -9237,7 +9237,7 @@
       "mechanics_notes": "Confirmed as a 300-Ki Ki Blast Ultimate from PQ166. It fires a pendulum-like projectile; exact drop gating remains bounded. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Ultimate Finish reward-condition listing in the maintained PQ guide the explicit drop-condition record assigns this skill to the Ultimate Finish reward condition.\n2026-09-23 mechanics correction: retained the canonical Ultimate/Ki Blast classification and corrected the stale mechanics note's 100-Ki label to the canonical 300-Ki Ultimate cost. Existing PQ166 Ultimate Finish acquisition conflict is preserved; no new gate inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Pendulum_Bullet",
@@ -9246,7 +9246,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 166,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 166 is documented as an acquisition route; the explicit drop-condition record now documents an Ultimate Finish requirement. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 166 is documented as an acquisition route; the explicit drop-condition record now documents an Ultimate Finish requirement. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
       "id": "skill-pendulum-bullet",
       "source_parallel_quests": [
         166
@@ -9270,12 +9270,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Cell (Perfect) mentor training",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.\n2026-09-23 mechanics enrichment: confirmed as Cell (Perfect)'s mentor reward and a 400-Ki Ultimate; corroborating references document its beam/charge behavior and tracking, while exact damage/hit-count values remain deferred.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "race_restriction": "All CaC races",
       "source_quest": "Cell (Perfect) mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
       "id": "skill-perfect-kamehameha",
       "source_mentor": [
         "mentor-cell"
@@ -9302,12 +9302,12 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Training with Cell (Perfect)",
       "mechanics": "Slow, tracking Ki Blast Super; charged finger shot.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from Cell (Perfect) mentor training and usable by all CaC races. It is a slow, tracking, charged finger shot. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-cell added for the documented mentor-training acquisition route.",
       "source_quest": "Cell (Perfect) mentor training",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved. 2026-09-21 provenance strengthening: Dragon Ball Wiki independently identifies Perfect Shot as a Xenoverse 2 mentor reward from Cell (Perfect)'s School Quest Lesson 2. Existing Cell mentor/Lesson 2 acquisition semantics are preserved; no Ultimate Finish requirement is introduced.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved. 2026-09-21 provenance strengthening: Dragon Ball Wiki independently identifies Perfect Shot as a Xenoverse 2 mentor reward from Cell (Perfect)'s School Quest Lesson 2. Existing Cell mentor/Lesson 2 acquisition semantics are preserved; no Ultimate Finish requirement is introduced.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
       "id": "skill-perfect-shot",
       "source_mentor": [
         "mentor-cell"
@@ -9332,7 +9332,7 @@
       "mechanics_notes": "Confirmed as Dabura's 100-Ki Other Super from PQ114 and usable by all CaC races. The spit petrifies an opponent on contact; the effect ends if the target is struck. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
@@ -9341,7 +9341,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 114,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 114. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1. 2026-09-22 provenance strengthening: Dragon Ball Wiki's Stone Spit entry independently confirms Xenoverse 2's Petrifying Spit as a Future Warrior reward from Parallel Quest 114 and identifies it as one of Dabura's Super Skills; no new drop probability, Ultimate Finish gate, or prerequisite is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 114. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1. 2026-09-22 provenance strengthening: Dragon Ball Wiki's Stone Spit entry independently confirms Xenoverse 2's Petrifying Spit as a Future Warrior reward from Parallel Quest 114 and identifies it as one of Dabura's Super Skills; no new drop probability, Ultimate Finish gate, or prerequisite is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
       "id": "skill-petrifying-spit",
       "source_parallel_quests": [
         114
