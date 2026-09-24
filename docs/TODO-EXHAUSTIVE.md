@@ -5263,3 +5263,15 @@
 - CI/runtime remains unavailable; no CI success claimed.
 - Commit: `cfa334ec6a47f2e2c79ffc8a19ea27941eac9a5a`.
 - **Exact next stale batch:** Dragon Thunder; Dragon Tornado; Dragon Wind; Dragonic Aura; Dramatic Crush; Dynamite Kick; Earth-Splitting Galick Gun; Electric Shock; Elite Beam; Emergency Combo; Energy Barrier; Energy Shot.
+
+
+### 2026-09-24 cycle update — Dragon through Energy skill provenance refresh
+
+- [x] Completed the next bounded P1 batch: **Dragon Thunder; Dragon Tornado; Dragon Wind; Dragonic Aura; Dramatic Crush; Dynamite Kick; Earth Splitting Galick Gun; Electric Shock; Elite Beam; Emergency Combo; Energy Barrier; Energy Shot**.
+- [x] Refreshed canonical/index `last_verified` to **2026-09-24** and preserved existing acquisition, reward, mechanics, restriction, DLC/update, and evidence-boundary semantics.
+- [x] Added `docs/data/skill-provenance-audit-2026-09-24-dragon-through-energy.json` and refreshed the stale census.
+- [x] Validation: **465 canonical / 465 index / 0 duplicate IDs / 132 current / 333 stale**.
+- [x] No unsupported probabilities, prerequisites, timers, frame data, damage values, stacking caps, or narrower restrictions were inferred; existing conflicts remain explicit.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- Commit: `2a9a4931974138077ece8f3e7746c599864ebee2`.
+- **Exact next stale batch:** Energy Wave; Energy Zone; Evil Whirlwind; Explosive Assault; Explosive Bomber; Explosive Buu Buu Punch; Explosive Scream; Explosive Shot; Explosive Surge; Extended Beam; Extra Large Genocide Shell; Eye Laser.
