@@ -15,7 +15,7 @@
     "docs/Character-Core-Profiles.md"
   ],
   "results": {
-    "canonical_character_names": 151,
+    "canonical_character_names": 153,
     "bridge_records": 29,
     "preset_records": 51,
     "preset_distinct_character_ids": 17,
@@ -138,6 +138,7 @@
   "validator_commit": "9602b41f2979c10321774afeb5c4d11e500d6056",
   "status": "clean",
   "notes": [
-    "2026-09-24 live producer refresh: character-presets-record-layer.json now contains 51 records across 17 presentation character IDs, including 46 numbered preset records and 5 separate-character records; 25 records carry verified loadouts with 162 skill-slot entries. Prior 40/12 presentation counts were stale consumer projections."
+    "2026-09-24 live producer refresh: character-presets-record-layer.json now contains 51 records across 17 presentation character IDs, including 46 numbered preset records and 5 separate-character records; 25 records carry verified loadouts with 162 skill-slot entries. Prior 40/12 presentation counts were stale consumer projections.",
+    "2026-09-24 publisher-confirmed Chapter 4 identity refresh: added Supreme Kai of Time (Ultra Supervillain) and Goku (Ultra Supervillain Quelled) to the canonical character layer from Bandai Namco's final-DLC announcement. These were not present in the older source-category snapshot; they are not inferred aliases."
   ]
 }
