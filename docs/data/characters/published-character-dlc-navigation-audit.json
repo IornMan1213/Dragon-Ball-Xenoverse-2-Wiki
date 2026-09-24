@@ -60,7 +60,7 @@
     "Characters.md contained a stale local link to Characters-All.md; the published explorer is Characters-All.html.",
     "All checked local Character/DLC navigation targets exist on main.",
     "Resolved Goku (Ultra Supervillain Quelled) after it entered the canonical layer; Supreme Kai of Time (Ultra Supervillain) now resolves exactly to the canonical character identity.",
-    "All 20 canonical pq_requires_dlc targets resolve exactly once to the standalone DLC identity layer; no orphan DLC identity record is present. The live character record layer now contains 151 unique canonical character names; the older 149-name figure in historical 2026-09-22 notes is not a current census.",
+    "All 20 canonical pq_requires_dlc targets resolve exactly once to the standalone DLC identity layer; no orphan DLC identity record is present. The live character record layer now contains 152 unique canonical character names; older 149-name and 151-name figures are historical snapshots and are not current censuses.",
     "No canonical character, DLC, or PQ relationship identity was changed.",
     "Validator hardening now rejects duplicate published href occurrences, malformed character/DLC identity field types, duplicate bridge targets, duplicate canonical PQ→DLC targets, and malformed PQ→DLC target values."
   ],
