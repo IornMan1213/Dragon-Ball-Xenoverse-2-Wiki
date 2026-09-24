@@ -6694,3 +6694,14 @@
 - [x] Preserved evidence boundaries: no unsupported damage, drop-rate, timing, or acquisition-gate claims are authorized by this transition artifact.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next:** enrich Savage Strike, then Quick Sleep and Pressure Sign, in canonical and index layers with an audit artifact and cross-domain registration.
+
+### 2026-09-24 cycle completion — Savage Strike provenance boundary and audit registration
+- [x] Refreshed `docs/data/skill-research-batches/skill-batch-163.json` for Savage Strike with current evidence: SSGSS Vegito identity, Strike Super classification, TP Medal Shop acquisition, 100 Ki evidence, and alternate-input/knockback-pursuit mechanics.
+- [x] Preserved the TP Medal Shop price conflict: dated sources report 200 TP Medals while a later secondary guide reports 300; no exact current price was promoted.
+- [x] Added and registered `docs/data/savage-strike-provenance-audit-2026-09-24.json`.
+- [x] Also registered the already-updated 2026-09-24 Present For You→Purification and Quick Sleep→Saiyan Spirit provenance audit artifacts so current research evidence is represented in the cross-domain registry.
+- [x] Verified the live canonical/index layers remain **469/469**; Savage Strike is not currently present in either canonical `skills.json` or `skills-index.json`.
+- [x] Intentionally did **not** insert an index-only Savage Strike record, because that would break canonical/index parity.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** integrate `skill-savage-strike` into canonical `docs/data/skills.json` and `docs/data/skills-index.json` together through the supported canonical build/update path, then reconcile any acquisition/cross-domain projections that require the new canonical endpoint. Preserve the unresolved TP Medal Shop price conflict and do not infer from legacy TP rotation data.
+
