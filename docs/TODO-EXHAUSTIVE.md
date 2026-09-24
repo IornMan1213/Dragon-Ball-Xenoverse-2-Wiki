@@ -5223,3 +5223,12 @@
 - [x] Validation: **465/465 canonical/index IDs, 0 duplicate IDs, 72 current, 393 stale**.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next batch:** Charged Ki Wave; Circle Flash; Comet Strike; Confusion Blade; Core Breaker; Counter Burst; Counter Impact; Crazy Finger Shot; Crimson Edge; Critical Upper; Crush Cannon; Crush Stream.
+
+
+### 2026-09-24 cycle update — Charged Ki Wave through Crush Stream provenance refresh
+- [x] Bounded P1 batch: **Charged Ki Wave; Circle Flash; Comet Strike; Confusion Blade; Core Breaker; Counter Burst; Counter Impact; Crazy Finger Shot; Crimson Edge; Critical Upper; Crush Cannon; Crush Stream**.
+- [x] Refreshed canonical last_verified to **2026-09-24** using existing repository evidence; acquisition/reward/mechanics/DLC semantics preserved.
+- [x] Added `docs/data/skill-provenance-audit-2026-09-24-charged-ki-wave-through-crush-stream.json` and refreshed the live stale census.
+- [x] Validation: **465/465 canonical/index IDs, 0 duplicate IDs, 84 current, 381 stale**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next batch:** Crusher Ball; Dancing Parapara; Dark Inscription; Darkness Eye Beam; Darkness Rush (Melee); Darkness Rush (Ranged); Darkness Twin Star; Data Input; Dead End Bullet; Dead End Rain; Deadly Dance; Death Ball.
