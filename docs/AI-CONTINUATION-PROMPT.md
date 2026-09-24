@@ -7422,3 +7422,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime unavailable; no CI success claimed.
 - Commit: special endpoint repair 67c1bd2c55404ae247bf350e7b2da062df944885; audit d7a484622f615ee0227be8e9ea20dbdc404e3df8; cross-domain registration 62a99df5abb65077983fd4f6f2b4f17c60e2a515.
 - Exact next priority: continue the machine-checkable non-PQ reverse-projection audit, selecting the next current-facing consumer with stale counts or orphan targets.
+
+
+### 2026-09-24 cycle update — mentor skill coverage projection reconciliation
+
+- Audited the next current-facing non-PQ consumer after the special-acquisition repair: `docs/data/mentor-skill-coverage-report.json` against `docs/data/mentors-record-layer.json` and `docs/data/mentor-skill-crosslink-report.json`.
+- Found deterministic projection drift: the coverage report still counted **132** linked mentor skill edges and retained `skill-time-skip-tremor-pulse` for Hit, while the canonical mentor layer and crosslink report intentionally leave **Time Skip/Tremor Pulse** unresolved because no canonical skill record exists.
+- Repaired the projection by removing the stale linked ID while retaining the lesson as the single explicit unresolved skill endpoint.
+- Current mentor coverage is now **33 mentors / 133 lesson reward objects / 132 typed skill rewards / 1 typed non-skill reward / 131 mentor→skill edges / 130 unique skill targets / 1 explicit unresolved skill lesson / 0 broken endpoints**.
+- Added `docs/data/mentor-skill-coverage-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- Updated the coverage report's canonical skill census from stale 420 to the live 469 count; no acquisition relationship was invented.
+- CI/runtime unavailable; no CI success claimed.
+- Commits: coverage repair `e7ea1d894b22ff22a4ef72cf309f545b5563b23f`; audit `df4b59cd3bed9b8672820de91542ba5d6fdf750d`; cross-domain registration `c7893670d315529eaf4110fcf860e633a26b9254`.
+- Exact next priority: continue the machine-checkable non-PQ reverse-projection audit, next targeting another current-facing consumer or partial research index with deterministic stale counts/orphan targets.
