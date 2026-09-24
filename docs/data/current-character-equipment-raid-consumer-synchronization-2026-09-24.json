@@ -10,7 +10,7 @@
     "docs/data/skills.json"
   ],
   "live_baseline": {
-    "canonical_characters": 153,
+    "canonical_characters": 152,
     "canonical_skills": 469,
     "canonical_equipment_accessory_records": 174,
     "canonical_pq_edges": 853,
@@ -27,7 +27,7 @@
     "docs/data/accessory-canonicalization-current-projection-audit-2026-09-24.json"
   ],
   "checks": {
-    "character_current_consumers_use_153": true,
+    "character_current_consumers_use_152": true,
     "skill_current_pq_consumer_uses_469": true,
     "equipment_current_pq_consumer_uses_174": true,
     "raid_accessory_current_consumers_use_11": true,
