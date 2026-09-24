@@ -8215,3 +8215,10 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime remains unavailable; no CI success claimed.
 - Commits: 62902eeeef940f9858746cc37655a645ddf0183e, c20c6999a18d67dbde343f435f36c6eeaab717c9.
 - Exact next batch: locate direct numeric-to-complete-loadout evidence for Goku Presets 2–18, Vegeta Presets 10–11, or Captain Ginyu Presets 5–6.
+
+### 2026-09-24 cycle update — preset evidence corroboration
+- Checked current Goku in-game-data and the dated Burcol preset/unlock video against unresolved numeric records.
+- Video corroborates numeric identity for several unresolved presets, but current Goku data does not safely bind named loadouts to those numeric IDs.
+- Updated `docs/data/preset-loadout-current-evidence-audit-2026-09-24.json`; promotion count remains 0.
+- **Next:** seek direct numeric-label + complete-skill-slot evidence; otherwise move to the next exhaustive coverage task without inferring mappings.
+
