@@ -1460,7 +1460,7 @@
       "source_quest_or_shop": "Parallel Quest 51 — \"Great Saiyaman is Here\"",
       "ultimate_finish_required": false,
       "mechanics_notes": "Current evidence confirms Burst Rush as a 100-Ki Strike Super and melee counter from PQ51. The dedicated page identifies Gohan (Adult) and customizable variants; no CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "source_quest": 51,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
@@ -1489,7 +1489,7 @@
       "mechanics_notes": "Current evidence confirms Burst Stinger as a 100-Ki Ki Blast Super from PQ136. Maintained PQ136 data documents a 25% first-clear reward slot; no Ultimate Finish-only gate is established.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Burst_Stinger",
@@ -1522,7 +1522,7 @@
       "mechanics_notes": "300 Stamina Strike Evasive from PQ88; the user rolls into a controllable ball and bounces repeatedly. Current dedicated skill evidence classifies it as an Evasive rather than a Super.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Buu_Buu_Ball",
@@ -1555,7 +1555,7 @@
       "mechanics_notes": "Current evidence confirms the base Candy Beam record as a 100-Ki Ki Blast Super from PQ66. The current record's explicit Majin CaC restriction is retained; the 200-Ki Candy Beam (Super) variant is a separate skill entry.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Candy_Beam",
@@ -1588,7 +1588,7 @@
       "mechanics_notes": "Dedicated current-version evidence confirms Candy Beam (Super) as a 200-Ki Ki Blast Super from PQ113. It transforms the target into candy, deals no direct damage, and reduces the target's Ki Blast skill damage; the existing all-CaC-races restriction is retained.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
@@ -1620,7 +1620,7 @@
       "mechanics_notes": "300-Stamina Ki Blast Evasive. Launches a wave of energy upward; dedicated documentation describes a 7-hit wave that can lift a nearby opponent. Current maintained PQ151 reward evidence lists Celestial Wave in Basic Reward. A separate video guide describes it as an Ultimate Finish reward, so the exact reward gate remains source-conflicted.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Celestial_Wave",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1654,7 +1654,7 @@
       "mechanics_notes": "Creates and launches five Destructo-Discs in sequence. The attack is unblockable and deals its damage across five hits; the in-game warning specifically notes that it cannot be guarded. The canonical record retains the 300-Ki Ultimate cost and PQ46 Basic Reward route; exact frame data and drop probability remain unresolved.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Chain_Destructo-Disc_Barrage",
@@ -1689,7 +1689,7 @@
       "source_quest_or_shop": "Parallel Quest 43 — \"Change the Future\"",
       "ultimate_finish_required": false,
       "mechanics_notes": "100-Ki Ki Blast Super melee counter. The dedicated skill documentation describes it as a counter to Ki Blasts/skills: when triggered, the user moves toward the attacker and fires a Ki Blast. Current maintained PQ43 reward evidence places it in Basic Reward; no Ultimate Finish-only gate is established.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
@@ -1722,7 +1722,7 @@
       "acquisition_type": "tp_medal_shop",
       "source_quest_or_shop": "TP Medal Shop",
       "mechanics_notes": "Ki Blast Super used by Frost; current reference describes a chargeable projectile/barrage that can fire in multiple directions or concentrate forward.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "notes": "2026-09-22 provenance verification: dedicated skill documentation confirms Chaos Shot as a 100-Ki Ki Blast Super used by Frost and acquired from the TP Medal Shop. Current official Bandai Namco documentation confirms TP Medals remain earnable and usable in-game after the May 2024 sales transition. The historical mapping of Chaos Shot to the Free Update 1 TP Medal Shop addition remains community/source-supported rather than directly enumerated by the official announcement. 2026-09-23 provenance refresh: dedicated skill evidence and independent corroboration were rechecked; existing acquisition, reward-tier, cost, scope, and mechanics semantics are preserved, and no unsupported drop probability or additional gate is inferred.",
       "id": "skill-chaos-shot"
     },
@@ -1743,7 +1743,7 @@
       "mechanics_notes": "Current skill evidence lists 300 Stamina. The wall can be charged to increase size, damage, and speed.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Chaos_Wall",
         "https://dragonball.fandom.com/wiki/Chaos_Wall",
@@ -1771,7 +1771,7 @@
       "mechanics_notes": "Uses 600 Ki; traps/stuns the opponent with a time-bubble effect before the Ki wave. Power scales with accumulated Power of Time and firing the Ki wave resets that accumulation. PQ184 is the documented unlock quest; maintained reward data records a 50% Ultimate Finish bonus reward. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Chaotic_Time_Impact",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1805,7 +1805,7 @@
       "mechanics_notes": "Confirmed as Goku's 100-Ki Power Up Super from PQ83. It is an early/intermediate Ki charging skill; detailed reward-roll conditions remain less certain than the PQ identity. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Charge",
