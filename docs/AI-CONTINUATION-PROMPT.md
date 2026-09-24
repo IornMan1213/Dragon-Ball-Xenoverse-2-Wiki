@@ -391,3 +391,12 @@
 - [x] Marked Punisher Shield complete in the P1 coverage artifact.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next:** select the next unresolved P1 research target, refresh only evidence-backed fields, register its audit, and preserve canonical/index parity.
+
+
+### 2026-09-24 cycle completion — Critical Upper P1 provenance refresh
+- [x] Revalidated Critical Upper as a Super / Strike skill with 100 Ki and Dodoria Lesson 1 acquisition.
+- [x] Added current mentor/skill evidence and refreshed the research record to `verified_current_scope`.
+- [x] Added and registered `docs/data/skill-critical-upper-p1-provenance-enrichment-2026-09-24.json`.
+- [x] Preserved unsupported stamina, frame, probability, and universal damage fields.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** select the next unresolved P1 research target, refresh only evidence-backed fields, register its audit, and preserve canonical/index parity.
