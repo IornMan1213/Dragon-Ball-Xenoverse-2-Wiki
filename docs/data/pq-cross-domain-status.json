@@ -498,5 +498,34 @@
       14
     ]
   },
-  "last_verified": "2026-09-23"
+  "last_verified": "2026-09-24",
+  "cross_domain_endpoint_reconciliation_2026_09_24": {
+    "date": "2026-09-24",
+    "canonical_skills": 469,
+    "pq_linked_unique_skills": 239,
+    "non_pq_endpoint_unique_skills": 230,
+    "endpoint_union": 469,
+    "uncovered_skills": 0,
+    "duplicate_skill_ids": 0,
+    "canonical_index_aligned": true,
+    "layers": {
+      "mentor": 132,
+      "expert_mission": 18,
+      "time_rift_story_tournament": 13,
+      "shop": 33,
+      "tokipedia": 4,
+      "conton_city_patrol": 3,
+      "special": 16,
+      "character_exclusive": 10,
+      "starting_move": 2
+    },
+    "recovered": [
+      "skill-hyper-drain",
+      "skill-hyper-movement",
+      "skill-ice-cannon",
+      "skill-ice-claw"
+    ],
+    "result": "clean",
+    "note": "The four skills recovered in the current endpoint projection are now represented by deterministic shop/special navigation edges. This is separate from the 853-edge PQ relationship master layer."
+  }
 }
