@@ -8116,3 +8116,12 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: audit passes and homepage navigation target is canonical; no historical audit snapshots were rewritten; no unsupported relationships or gameplay facts were introduced.
 - Commits: `d76d0bc30e7a501829e6b125de39c48de1ec280f`, `76f696556becda432f2706231c28d1de9c49a0c9`, `9b9d5d4f16f0e781ee0fc3e56d4f4e5baf304599`.
 - **Exact next batch:** scan remaining non-PQ reference/summary consumers for stale scalar metrics and one-way navigation, especially Guides, Skills-Complete-Database, DLC overview, and system landing pages; then begin the highest-impact source-backed preset/loadout tranche only with direct numeric identity + complete configuration evidence.
+
+
+### 2026-09-24 cycle update — non-PQ skill reference navigation repair
+- Audited `docs/Guides.md` and `docs/Skills-Master-Database.md` for current skill explorer navigation.
+- Both contained obsolete `skills-database.html` links; the live canonical explorer is `Skills-All.html`.
+- Repaired both consumers and added `docs/data/non-pq-skill-reference-navigation-audit-2026-09-24.json`, registered in the central cross-domain index.
+- Validation: 0 obsolete target occurrences, 2 canonical target occurrences, target exists, audit pass. No skill data/relationship semantics changed.
+- Commits: `9b1bb7d52291f3c4f606f673de72657b451b814f`, `ae92516011e417822279c9cd92b409994fc4a467`, `fa6b305448965ac2ed58b96bf980b644bb5fd02d`, `3f148cbe088be4cf51138f5733998027b0019af3`.
+- **Exact next batch:** scan remaining non-PQ landing/reference consumers for obsolete explorer targets, stale scalar/list assumptions, orphan navigation, and canonical-ID drift; then resume evidence-gated preset/loadout expansion.
