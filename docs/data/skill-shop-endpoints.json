@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "game": "Dragon Ball Xenoverse 2",
   "status": "canonical_skill_shop_endpoint_layer",
   "purpose": "Stable canonical shop endpoints for skill acquisition navigation. Primary acquisition edges are derived only from canonical skill acquisition_type and source_quest_or_shop fields; alternate routes remain in skill provenance and are not silently promoted to new endpoints.",
@@ -25,13 +25,13 @@
       "id": "shop-skill",
       "type": "skill_shop",
       "name": "Skill Shop",
-      "skill_count": 13
+      "skill_count": 14
     },
     {
       "id": "shop-tp-stp-medal",
       "type": "tp_stp_medal_shop",
       "name": "TP / STP Medal Shop",
-      "skill_count": 18
+      "skill_count": 19
     }
   ],
   "forward_edges": [
@@ -313,6 +313,24 @@
       "source_quest_or_shop": "TP Medal Shop",
       "last_verified": "2026-09-23",
       "source_count": 6
+    },
+    {
+      "endpoint_id": "shop-skill",
+      "skill_id": "skill-hyper-drain",
+      "skill_name": "Hyper Drain",
+      "acquisition_type": "quest_or_mission",
+      "source_quest_or_shop": "Skill Shop after Android Warfare",
+      "last_verified": "2026-09-24",
+      "source_count": 2
+    },
+    {
+      "endpoint_id": "shop-tp-stp-medal",
+      "skill_id": "skill-hyper-movement",
+      "skill_name": "Hyper Movement",
+      "acquisition_type": "shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "last_verified": "2026-09-24",
+      "source_count": 2
     }
   ],
   "reverse_index": [
@@ -331,7 +349,8 @@
         "skill-spirit-boost",
         "skill-super-afterimage",
         "skill-super-god-shock-flash",
-        "skill-time-bullet"
+        "skill-time-bullet",
+        "skill-hyper-drain"
       ]
     },
     {
@@ -354,15 +373,16 @@
         "skill-secret-poison",
         "skill-soaring-fist",
         "skill-sudden-death-beam",
-        "skill-wild-hunt"
+        "skill-wild-hunt",
+        "skill-hyper-movement"
       ]
     }
   ],
   "coverage": {
-    "canonical_skill_count": 465,
-    "skill_shop_skills": 13,
-    "tp_stp_medal_shop_skills": 18,
-    "total_shop_linked_skills": 31,
+    "canonical_skill_count": 469,
+    "skill_shop_skills": 14,
+    "tp_stp_medal_shop_skills": 19,
+    "total_shop_linked_skills": 33,
     "duplicate_skill_ids": false,
     "unresolved_skill_ids": []
   },
@@ -370,6 +390,7 @@
     "A shop endpoint does not establish current rotation availability.",
     "A historical price does not establish a current price.",
     "Alternate acquisition routes in notes/sources are not converted into additional canonical shop/event edges without their own endpoint layer.",
-    "The endpoint layer does not infer drop rates, first-clear guarantees, or progression gates beyond the canonical skill record."
+    "The endpoint layer does not infer drop rates, first-clear guarantees, or progression gates beyond the canonical skill record.",
+    "2026-09-24 recovery: Hyper Drain and Hyper Movement were promoted into canonical skills.json and now receive deterministic shop navigation edges from their canonical acquisition fields."
   ]
 }
