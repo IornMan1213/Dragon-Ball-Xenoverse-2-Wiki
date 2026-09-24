@@ -6038,3 +6038,13 @@
 - [x] No new identity or route was inferred; only deterministic count/projection drift was repaired.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next priority: continue deterministic event/raid/Festival and non-PQ acquisition consumer scanning for stale counts, orphan targets, one-way navigation, and canonical-ID drift.
+
+
+### 2026-09-24 cycle completion — accessory/equipment current consumer count synchronization
+- [x] Live census exposed two stale current-facing counts: `equipment-accessory-presentation-consumer-audit-2026-09-24.json` reported 173 record-layer records while the live layer contains 174; `accessory-presentation-consumer-current-audit-2026-09-24.json` reported 9 raid identities while the reconciled audit contains 11.
+- [x] Corrected the two current projections to **174 equipment/accessory records** and **11/11 raid identities resolved**.
+- [x] Registered both count-sync audits in `docs/data/pq-cross-domain-index.json`.
+- [x] Revalidated all edited JSON documents successfully.
+- [x] Preserved dated historical `docs/data/accessory-cross-route-audit.json` values as historical evidence; no historical snapshot was rewritten.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next batch: continue deterministic event/raid/Festival/non-PQ current consumers, focusing on orphan canonical targets and one-way navigation after count drift is exhausted.
