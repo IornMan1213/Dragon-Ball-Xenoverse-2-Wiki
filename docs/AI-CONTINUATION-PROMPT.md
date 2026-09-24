@@ -8204,3 +8204,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime remains unavailable; no CI success claimed.
 - Commit(s): `ee91ca9845529ba399b09f2f19b335301b936b6f`, `4ece4165ac6cf98fc69908d34f7108e20bd2e989`.
 - **Exact next batch:** continue deterministic non-PQ landing/reference scanning for stale scalar/list assumptions, one-way links, orphan targets, and canonical-ID drift across remaining system/reference consumers; then resume evidence-gated preset/loadout expansion only where numeric preset identity and complete configuration are directly evidenced.
+
+### 2026-09-24 cycle update — current preset/loadout evidence boundary
+- Recomputed the live preset layer: 51 canonical records / 26 verified loadouts / 25 unresolved loadouts.
+- Verified all 26 existing loadout records contain a loadout object, loadout source, and non-empty source list.
+- Audited the unresolved numeric core: Goku Presets 2–12 and 14–18, Vegeta Presets 10–11, and Captain Ginyu Presets 5–6. The maintained community video directly labels the numeric identities but does not expose their complete configurations.
+- Cross-checked the current Goku in-game-data table and Orange Piccolo page; both reinforce the repository evidence boundary rather than safely providing numeric-to-loadout mappings.
+- Added and registered docs/data/preset-loadout-current-evidence-audit-2026-09-24.json.
+- No preset loadout was promoted and no row/costume/chapter ordering was used as a proxy for numeric identity.
+- CI/runtime remains unavailable; no CI success claimed.
+- Commits: 62902eeeef940f9858746cc37655a645ddf0183e, c20c6999a18d67dbde343f435f36c6eeaab717c9.
+- Exact next batch: locate direct numeric-to-complete-loadout evidence for Goku Presets 2–18, Vegeta Presets 10–11, or Captain Ginyu Presets 5–6.
