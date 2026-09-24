@@ -6975,3 +6975,11 @@
 - [x] Web verification corroborated the repository research: the Xenoverse 2 ID list identifies Acid 140 and Howl 10440 as non-CaC skills, while Xenoverse 2-specific pages document the corresponding Saibaman/Great Ape movesets. citeturn2search0turn2search1turn1search7turn1search2
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next:** continue the remaining unresolved gap records, prioritizing Boiling Burg / Energy Boil / Baked Sphere / Boulder Toss / Boulder Break with direct Xenoverse 2 evidence; preserve the 469/469 canonical boundary until supported builder execution is available.
+
+### 2026-09-24 continuation — five unresolved skill audits registered
+- [x] Refreshed Energy Boil, Baked Sphere, Boulder Toss, and Boulder Break evidence audits; Boiling Burg was refreshed in the preceding cycle.
+- [x] Updated the central research-gap ledger and registered all five audits in `docs/data/pq-cross-domain-index.json`.
+- [x] JSON validation passed for all affected research-gap records.
+- [ ] No canonical skill promotion; 469/469 boundary preserved.
+- [ ] CI/runtime unavailable.
+- [ ] Exact next: continue unresolved thin-domain research, seeking direct evidence for currently missing fields rather than duplicating identity-only corroboration.
