@@ -7852,3 +7852,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Historical dated cross-route artifacts were left untouched.
 - No new identities, routes, availability, probabilities, or gameplay facts were inferred.
 - Exact next batch: continue event/raid/Festival/non-PQ consumer navigation checks for orphan targets and one-way links.
+
+### 2026-09-24 cycle update — Festival skill presentation consumer
+
+- Live census before editing: **153 canonical characters / 469 canonical skills / 174 equipment-accessory records / 853 PQ edges / 11 raid accessory identity records**.
+- Bounded batch: the three explicitly maintained Festival of Universes skill records in `docs/data/skill-research-batches/skill-batch-264.json`: **Galaxy Breaker (Festival)**, **God Bind (Festival)**, and **Justice Crush (Festival)**.
+- Repository evidence: `docs/data/festival-skill-character-navigation-audit-2026-09-24.json` already established exact source-character identity for all 3 records and explicitly prohibited unsupported PQ/raid/preset promotion.
+- Changes: expanded `docs/Skills-Database.md` with a dedicated Festival section containing all 3 named skill routes and their source characters; extended the Festival audit with an explicit presentation-consumer parity check.
+- Evidence limits preserved: this does not claim a complete Festival inventory, event schedule/current availability, camaraderie threshold beyond the maintained route wording, or any new PQ/raid relationship.
+- Validation: changed Markdown and JSON were re-fetched from `main`; audit JSON parses structurally; 3/3 presentation rows correspond to the maintained Festival records; no PQ edges were added. CI/runtime unavailable; no CI success claimed.
+- Commits: `7ea91ff0403f739b47fd70d9c60dc45c7db86a7f`, `5be337c4c398f450dba87ad819a0c3757ec861ad`.
+- Live census after editing: **153 / 469 / 174 / 853 / 11**.
+- **Exact next batch:** continue the deterministic non-PQ consumer scan for remaining event/raid/Festival presentation surfaces and stale count/list assumptions; prioritize a bounded surface with existing canonical/audit evidence, then return to exhaustive preset/loadout coverage.
