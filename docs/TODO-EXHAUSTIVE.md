@@ -5944,3 +5944,14 @@
 - [x] Registered the refreshed audit in `docs/data/pq-cross-domain-index.json`.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next priority:** continue deterministic event/raid and acquisition-index consumer scanning for stale 469 counts, orphan IDs, and one-way navigation.
+
+
+### 2026-09-24 completed current skill-domain consumer drift reconciliation
+- [x] Recomputed the live skill/domain baseline at **469 canonical / 469 index / 469 current / 0 stale / 0 duplicate IDs**, with **239 PQ-linked / 230 non-PQ endpoint / 469 full endpoint union**.
+- [x] Repaired stale current-facing 465-record assertions in `docs/data/pq-endpoint-navigation-validation.json` and `docs/data/skill-pq-acquisition-presentation-audit.json`.
+- [x] Refreshed current PQ endpoint consumer counts to **469 skills / 153 characters / 174 equipment-accessory records** without changing the **853-edge** relationship graph.
+- [x] Added and registered `docs/data/current-skill-domain-consumer-scan-2026-09-24.json`.
+- [x] Preserved dated 2026-09-23 audits and bounded provenance artifacts as historical evidence; no historical content was deleted.
+- [x] No canonical acquisition relationship, probability, Ultimate Finish requirement, or gameplay field was inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** continue deterministic current-facing **event/raid/Festival/Chapter 4 and character/preset** consumer scanning for stale counts, one-way navigation, orphan targets, and canonical identity drift; then resume the highest-impact thin-domain source-backed expansion.
