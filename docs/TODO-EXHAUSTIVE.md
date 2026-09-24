@@ -5396,3 +5396,12 @@
 - [x] Live validation: **465 canonical / 465 index / 254 current / 211 stale / 0 duplicate IDs**.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next batch:** **Hollow Rush; Holy Inscription; Holy Wrath; Hyper Drain; Hyper Movement; Hyper Tornado; Ice Cannon; Ice Claw; Ice Rain; Ice Sheet; Ill Rain; Instant Severance**.
+
+
+### 2026-09-24 cycle update — Hollow→Instant Severance queue reconciliation
+- [x] Refreshed available queued records: **Holy Inscription; Holy Wrath; Hyper Tornado; Ill Rain; Instant Severance**.
+- [x] Synchronized canonical/index provenance metadata and added the bounded audit.
+- [x] Confirmed **Hollow Rush; Hyper Drain; Hyper Movement; Ice Cannon; Ice Claw; Ice Rain; Ice Sheet** are absent from canonical `skills.json`; did not fabricate records. Added them to the active data-coverage/discovery queue.
+- [x] Live validation: **465 canonical / 465 index / 259 current / 206 stale / 0 duplicate IDs**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Next discovery targets:** **Hollow Rush; Hyper Drain; Hyper Movement; Ice Cannon; Ice Claw; Ice Rain; Ice Sheet**.
