@@ -7015,3 +7015,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime remains unavailable; no CI success claimed.
 - Commits: canonical `896ce19dfa81957e826fc127aa1b7e25bde849da`; index `acc8ae513fee48aeac589eeb21d755dbbb84b0ca`; audit `b0231f202a3dff1653f0b2a4b72976777045c313`; cross-domain registration `3dfca26f898c8fd1aae0217e015e5f4df48a65e9`; census `07ede12b0b3ffab165c7099b1ec739bacd7f029b`.
 - **Exact next task:** process the 12 listed Explosive Assault through Fighting Pose E records against their maintained evidence corpus, synchronize canonical/index layers, add/register the bounded audit, and recompute the live stale census.
+
+
+### 2026-09-24 cycle update — Explosive Assault through Fighting Pose E provenance refresh
+
+- Completed bounded P1 batch: **Explosive Assault, Explosive Buu Buu Punch, Explosive Wave, Eye Beam, Fake Blast, Fake Death, Feint Crash, Feint Shot, Fierce Fist, Fighting Pose A, Fighting Pose C, Fighting Pose E**.
+- Synchronized canonical/index `last_verified=2026-09-24` for all 12 records while preserving acquisition routes, reward semantics, classifications, mechanics, restrictions, and known conflicts.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-24-explosive-through-fighting-pose.json`.
+- Corrected/recomputed the canonical-source census to **465 canonical / 465 index / 182 current / 283 stale / 0 duplicate IDs**. Canonical/index record-count and ID parity remain exact; historical index verification dates are not used as the canonical current/stale source-of-truth.
+- Exact next stale batch: **Fighting Pose F, Fighting Pose H, Fighting Pose K, Final Cannon, Final Charge, Final Explosion, Final Flash, Final Flash (SS3 DAIMA), Final Flash (Super), Final Kamehameha, Final Pose, Final Rampage**.
+- Evidence boundary preserved; no unsupported probability, prerequisite, timer, frame data, damage value, stacking cap, or narrower restriction was inferred.
+- CI/runtime remains unavailable; no CI success claimed.
+- Commits: canonical `b42ec428af2122a22e66c4c466dd78287f2da999`; index `bdd9364a5bfeebd2634cb917989b1fe190432ad4`; audit `841066793f6a76341b63d425d23ab0dfb1d21ae5`; cross-domain registration `4ff75ac9297b9072c50050006d2d37e23c06405e`; census `846111ae6f3edd31365846ad35568133c5772385`.
+- **Exact next task:** process the 12 listed Fighting Pose F through Final Rampage records against their maintained evidence corpus, synchronize canonical/index layers, add/register the bounded audit, and recompute the live stale census.
