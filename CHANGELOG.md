@@ -2759,3 +2759,13 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Preserved the Spirit Sword source conflict boundary: the guide's EM17 text says "Spirit Bomb", so it was not used to establish Spirit Sword's reward tier.
 - Promoted all ten records to `verified_current_scope` / `enriched` and added `docs/data/skill-expert-mission-provenance-audit-2026-09-23.json` to the cross-domain index.
 - No drop rates, first-clear guarantees, additional gates, or new canonical relationships were inferred. CI/runtime remains unavailable.
+
+
+### 2026-09-23 — Full Expert Mission endpoint provenance reconciliation
+
+- Reconciled all **18/18** Expert Mission endpoint rows against the independent all-Expert-Missions guide.
+- Completed EM16–20 mission titles and added per-endpoint provenance metadata; endpoint-layer status is now source-backed.
+- Confirmed Basic Reward placement for 17 endpoint rows. Preserved the EM17 Spirit Bomb vs Spirit Sword source conflict rather than inferring Spirit Sword's reward tier.
+- Expanded the Expert Mission provenance audit to cover all 18 endpoint rows.
+- No canonical endpoint IDs, skill identities, acquisition relationships, drop rates, or per-clear guarantees were inferred. CI/runtime remains unavailable.
+- **Next:** continue the remaining 95 non-PQ/non-mentor acquisition/provenance gaps, prioritizing explicit special-route evidence such as Ultra Instinct.
