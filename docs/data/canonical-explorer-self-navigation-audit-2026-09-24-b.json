@@ -1,0 +1,27 @@
+{
+  "audit_id": "canonical-explorer-self-navigation-audit-2026-09-24-b",
+  "date": "2026-09-24",
+  "scope": [
+    "docs/Characters-All.html",
+    "docs/Parallel-Quests-All.html"
+  ],
+  "repairs": [
+    {
+      "file": "docs/Characters-All.html",
+      "count": 2,
+      "from": "/Search/",
+      "to": "/Characters-All/",
+      "purpose": "character entity name and local explorer links"
+    },
+    {
+      "file": "docs/Parallel-Quests-All.html",
+      "count": 1,
+      "from": "/DLC-Overview/?q=...",
+      "to": "/Search/?q=...",
+      "purpose": "restore generic fallback because DLC-Overview is not a query explorer"
+    }
+  ],
+  "status": "pass",
+  "relationship_changes": 0,
+  "evidence_boundary": "Navigation-only. Generic Search remains the intentional fallback where no dedicated DLC query explorer exists."
+}
