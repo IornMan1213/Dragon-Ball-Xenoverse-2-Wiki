@@ -7048,3 +7048,10 @@
 - [x] Updated `docs/data/skill-research-gaps.json` with the independent class evidence and retained the no-inference boundary for numeric Ki cost.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next:** continue the unresolved queue, prioritizing another field that can be directly resolved from Xenoverse 2-specific evidence; do not infer numeric costs from other games or mods.
+
+### 2026-09-24 cycle completion — Energy Boil evidence-boundary refresh
+- [x] Added `docs/data/skill-research-gaps-energy-boil-evidence-boundary-refresh-2026-09-24.json` and registered it in the cross-domain index.
+- [x] Reconfirmed Xenoverse 2 ID 10540/short ID 540, Final Form Demigra ownership, CaC-unavailable status, and Evasive classification; current accessible evidence still does not expose the repository subcategory or numeric Ki cost.
+- [x] Updated the central Energy Boil gap note without promoting unsupported taxonomy, cost, acquisition, or canonical catalog data.
+- [x] Validation: canonical/index **469/469**, duplicate IDs **0**; changed JSON artifact parses; no CI success claimed.
+- [ ] **Exact next:** continue the remaining unresolved thin-domain queue only where direct Xenoverse 2 evidence can resolve a missing field; otherwise resume source-backed P1 enrichment.
