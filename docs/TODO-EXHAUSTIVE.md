@@ -6606,3 +6606,14 @@
 - [x] No acquisition, mechanics, probability, availability, or preset/loadout inference was introduced.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Next:** resume P1 source-backed provenance enrichment or direct numeric preset/loadout evidence; only promote a numeric preset when one artifact directly binds its label to the complete configuration.
+
+
+### 2026-09-24 cycle completion — P1 Dancing-through-Darkness-Rush provenance refresh
+- [x] Refreshed five stale P1 skill provenance audits with current evidence: `skill-dancing-parapara`, `skill-dark-inscription`, `skill-darkness-eye-beam`, `skill-darkness-rush-melee`, and `skill-darkness-rush-ranged`.
+- [x] Added and registered `docs/data/skill-provenance-refresh-2026-09-24-dancing-through-darkness-rush.json`.
+- [x] Reconfirmed Pan initiation acquisition for Dancing Parapara; PQ182 acquisition for Dark Inscription; Lord Slug Lesson 1/3 acquisition for Darkness Eye Beam and both Darkness Rush variants.
+- [x] Reconfirmed the documented Namekian/non-Namekian split for Darkness Rush without inferring any additional relationship.
+- [x] Preserved evidence limits: no drop probabilities or unsupported acquisition routes were added; historical audits remain intact.
+- [x] Validation: 5/5 provenance targets refreshed and batch registered.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next:** continue alphabetically through the stale P1 skill provenance queue, beginning with the next unrefreshed record after Darkness Rush, while keeping current canonical/index fields and acquisition links synchronized only when directly supported.
