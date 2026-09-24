@@ -362,3 +362,13 @@
 - [x] Validation: **469 canonical skills / 469 union coverage**, Tokipedia 4, Patrol 3, Special 16; no duplicate endpoint-skill pairs or unresolved IDs in the audited layers.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next:** inspect the remaining current-facing non-PQ endpoint consumers (character-exclusive and starting-move layers) for stale verification metadata or orphaned skill targets, then proceed to the next evidence-backed P1 enrichment.
+
+
+### 2026-09-24 cycle completion — Time Skip/Tremor Pulse research enrichment
+- [x] Reopened the evidence-gated Hit mentor lesson after the current endpoint reconciliation instead of fabricating a canonical skill ID.
+- [x] Enriched `docs/data/skill-research-batches/skill-batch-225.json` with current direct evidence for **Time Skip/Tremor Pulse**: Strike Evasive, 200 Stamina, CaC-usable, Hit Lesson 3 / fourth mentor reward, Super Class prerequisite, unblockable behind/front directional behavior, and the directly documented 7% damage reference.
+- [x] Added and registered `docs/data/skill-time-skip-tremor-pulse-research-enrichment-2026-09-24.json`.
+- [x] Preserved the canonical evidence boundary: the skill remains absent from `skills.json` / `skills-index.json`, and the mentor edge remains unresolved until the standard canonical builder integrates the record.
+- [x] No drop probability, hidden prerequisite, frame data, or invulnerability duration was inferred.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** perform the lossless canonical skill build when a repository-backed builder/Actions runtime is available, promoting `skill-time-skip-tremor-pulse` into canonical/index together and then reconciling the Hit mentor endpoint/projections. If execution remains unavailable, continue the next thin-domain evidence-enrichment tranche without changing the unresolved canonical boundary.
