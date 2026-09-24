@@ -101,3 +101,12 @@ The catalog has been normalized into `docs/data/mentors-record-layer.json`, with
 **Sources:**
 - [Bandai Namco — Dragon Ball Xenoverse 2 official website](https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2)
 - [Dragon Ball Xenoverse 2 Wiki — Mentors](https://dbxv2.fandom.com/wiki/Mentors)
+
+
+## Canonical database navigation
+
+- [Mentors](Mentors-All.html) — searchable mentor records and lesson navigation.
+- [Skills](Skills-All.html) — canonical skill records and mentor-skill relationships.
+- [Characters](Characters-All.html) — canonical character identities.
+
+These links are navigation surfaces only; they do not establish unresolved relationships or acquisition/mechanics facts.
