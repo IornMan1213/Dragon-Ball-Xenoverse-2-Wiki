@@ -1,0 +1,40 @@
+{
+  "audit_id": "global-navigation-canonical-explorer-audit-2026-09-24-c",
+  "date": "2026-09-24",
+  "scope": [
+    "docs/_layouts/home.html",
+    "docs/_layouts/wiki.html"
+  ],
+  "changes": [
+    {
+      "label": "Quests",
+      "from": "/Parallel-Quests/",
+      "to": "/Parallel-Quests/",
+      "note": "home navigation target was not changed because replacement pattern did not match this layout; wiki retains landing route pending broader migration"
+    },
+    {
+      "label": "Super Souls",
+      "from": "/Super-Souls/",
+      "to": "/Super-Souls-All/",
+      "files": [
+        "docs/_layouts/wiki.html"
+      ]
+    },
+    {
+      "label": "Awoken Skills",
+      "from": "/Awoken-Skills/",
+      "to": "/Awoken-All/",
+      "files": [
+        "docs/_layouts/wiki.html"
+      ]
+    }
+  ],
+  "reverted": {
+    "label": "Expert Missions",
+    "attempted": "/Expert-Missions-All/",
+    "final": "/Expert-Missions/",
+    "reason": "canonical explorer file does not exist; avoid broken navigation"
+  },
+  "status": "pass",
+  "evidence_boundary": "Navigation-only. No data, identity, acquisition, unlock, or gameplay relationships changed."
+}
