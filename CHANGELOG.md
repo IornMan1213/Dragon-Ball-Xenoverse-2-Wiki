@@ -2733,3 +2733,12 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Added and registered `docs/data/character-count-consumer-synchronization-2026-09-23.json`.
 - Preserved historical 149-record evidence; no character identities or PQ relationship edges were changed or inferred.
 - JSON validation passed for all changed JSON artifacts; CI/runtime remains unavailable.
+
+
+### 2026-09-23 — Skill acquisition endpoint consumer synchronization
+
+- Synchronized six current-looking skill acquisition endpoint/coverage consumers from the superseded 455-record skill baseline to the live **465-record** canonical layer.
+- Current route census: 18 Expert Mission, 31 shop, 13 Time Rift/story/tournament, 4 Tokipedia, 3 Conton City Patrol, 14 special acquisition, 10 character-exclusive, and 2 starting-move endpoint layers.
+- Non-PQ coverage arithmetic is now **465 = 239 PQ-linked + 226 non-PQ; 226 = 131 unique mentor-linked + 95 non-PQ/non-mentor**.
+- Added `docs/data/skill-acquisition-endpoint-consumer-synchronization-2026-09-23.json` and registered it in the cross-domain index.
+- Validation: 465 canonical / 465 index / 0 duplicate IDs / full endpoint union 465 / 0 uncovered. CI/runtime unavailable.
