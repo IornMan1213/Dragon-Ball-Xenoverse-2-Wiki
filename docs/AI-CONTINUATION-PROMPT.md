@@ -7084,3 +7084,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Existing acquisition, reward, mechanics, restriction, DLC/update, and evidence-conflict semantics preserved; no unsupported fields inferred.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next stale batch:** **God of Destruction's Might; God of Destruction's Plaything; God of Destruction's Poise; God of Destruction's Rampage; God of Destruction's Roar; God of Destruction's Wrath; God Punisher; God Splitter; Godly Chronos Cannon; Godly Display; Gorgeous Shot; Grand Smasher**.
+
+### 2026-09-24 cycle update — God of Destruction's Might through Grand Smasher provenance refresh
+- Completed the bounded P1 provenance batch: **12 skill records** — God of Destruction's Might; God of Destruction's Plaything; God of Destruction's Poise; God of Destruction's Rampage; God of Destruction's Roar; God of Destruction's Wrath; God Punisher; God Splitter; Godly Chronos Cannon; Godly Display; Gorgeous Shot; Grand Smasher.
+- Synchronized canonical `docs/data/skills.json` and `docs/data/skills-index.json`; all 12 target records now carry `last_verified=2026-09-24`.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-24-god-of-destruction-through-grand-smasher.json`.
+- Refreshed `docs/data/skill-stale-metadata-census-2026-09-24.json`: **465 canonical / 465 index / 242 current / 223 stale / 0 duplicate IDs**.
+- Corrected the cross-domain index by removing two stale/nonexistent prior audit registrations for the same Gigantic→God range and registering the actual bounded audit path; no historical handoff entries were deleted.
+- Preserved existing acquisition, reward, classification, mechanics, restriction, DLC/update, and evidence-conflict semantics; no unsupported probabilities, prerequisites, timers, damage values, stacking caps, or narrower restrictions were inferred.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next stale batch: **Gravity Impact; Handy Canon; Hawk Charge; Headshot; Heat Dome Attack; Heat Wave; Heavenly Arrow; Hell Flash; Hellzone Grenade; Hero's Flute; Hero's Pose; Heroic Assault**.
