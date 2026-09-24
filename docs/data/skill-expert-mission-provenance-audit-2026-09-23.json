@@ -4,7 +4,7 @@
   "status": "pass",
   "scope": "P1 Expert Mission acquisition/provenance refresh for previously partially_verified canonical skill records",
   "canonical_skill_count": 465,
-  "records_reviewed": 10,
+  "records_reviewed": 18,
   "records_updated": 10,
   "evidence_sources": {
     "primary_skill_reference": "https://dbxv2.fandom.com",
@@ -128,12 +128,30 @@
     "source_backed_acquisition_endpoints": true,
     "basic_reward_tier_supported_for_9_of_10": true,
     "spirit_sword_tier_not_inferred": true,
-    "unsupported_drop_rates_added": false
+    "unsupported_drop_rates_added": false,
+    "all_18_endpoint_rows_source_checked": true,
+    "mission_titles_em16_20_verified": true
   },
   "evidence_boundary": [
     "The 2016 Steam guide is used only as an independent acquisition/reward-tier corroborator.",
     "Spirit Sword uses a separate GameFAQs corroborator because the Steam guide's EM17 text labels the reward as Spirit Bomb and is not treated as authoritative for Spirit Sword's reward tier.",
     "No drop probability, first-clear guarantee, rotation, or additional progression gate is inferred from these sources.",
     "Canonical skill identities and endpoint relationships were not changed."
-  ]
+  ],
+  "endpoint_layer_reconciliation": {
+    "status": "pass",
+    "reviewed_endpoints": 18,
+    "source_checked": 18,
+    "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+    "mission_titles_completed": [
+      "EM16",
+      "EM17",
+      "EM18",
+      "EM19",
+      "EM20"
+    ],
+    "basic_reward_supported": 17,
+    "spirit_sword_conflict": "EM17 guide line says Spirit Bomb; Spirit Sword reward tier intentionally not inferred",
+    "no_drop_rates_inferred": true
+  }
 }
