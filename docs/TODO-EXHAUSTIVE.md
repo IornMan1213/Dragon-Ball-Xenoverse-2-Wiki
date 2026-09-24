@@ -5422,3 +5422,7 @@
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Continue discovery for **Hollow Rush; Ice Rain; Ice Sheet** without fabricating records.
 - **Exact next stale batch:** **Justice Blade; Justice Combination; Justice Drive; Justice Kick; Justice Pose; Justice Rush; Kai Kai; Kaioken; Kaioken Assault; Kaioken Kamehameha; Ki Blast Cannon; Ki Blast Thrust**.
+### 2026-09-24 validation correction — canonical/index parity and exact next queue
+- [x] Rechecked the live canonical/index projections after the Heroic Counter batch; **469/469 records, 469/469 unique IDs, and 0 verification-date mismatches**.
+- [x] Synchronized **60** stale index verification dates to their canonical counterparts.
+- **Exact next stale batch from canonical order:** **Justice Blade; Justice Combination; Justice Drive; Justice Kick; Justice Pose; Justice Rush; Kai Kai; Kaioken; Kaioken Kamehameha; Kairos Cannon; Kamehameha; Ki Blast Thrust**.
