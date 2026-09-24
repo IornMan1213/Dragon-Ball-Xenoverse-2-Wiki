@@ -8045,3 +8045,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: live canonical producer and repaired current consumers were re-fetched after writes; current character baseline is 152. CI/runtime remains unavailable; no CI success claimed.
 - Commits from this cycle: `32337de23b02a767c335c234c1a50f596559c13b` (published Character/DLC audit synchronization) and `40c331bef31b7855c1010d35de0782e296303c75` (current skill-domain consumer synchronization).
 - **Exact next priority:** continue deterministic current-facing event/raid/Festival/character/preset consumer scanning for stale scalars, duplicate presentation rows, orphan targets, one-way navigation, and canonical-ID drift. Once this current-consumer layer is clean, resume the highest-impact source-backed preset/loadout or thin-domain expansion, only where evidence directly binds the structured fields.
+
+
+### 2026-09-24 continuation — exact Goku (GT) preset loadout promotion
+
+- Deterministic current Event/Raid/Festival/Chapter 4 consumer scan was already clean at the current **152-character / 469-skill / 174-equipment-accessory / 853-PQ-edge** baseline; no new relationship edges were inferred.
+- Advanced the source-backed preset/loadout tranche instead of stopping at consumer metadata.
+- Promoted `goku-gt-preset-2` from unresolved to **verified loadout** in `docs/data/character-presets-record-layer.json`.
+- Evidence is exact: the maintained Goku (GT) source table explicitly labels **Uniform 2** and exposes all eight skill slots (Power Pole Combo, Kamehameha, Instant Transmission, Charged Ki Wave, Super Spirit Bomb, Super Kamehameha, Spirit Explosion, Super Saiyan); the existing timestamped community evidence independently identifies the repository record as **Goku (GT) Preset 2**. No row-order inference was used.
+- Updated `docs/data/character-preset-skill-navigation-audit-2026-09-23.json`: verified preset loadouts **25 → 26** and verified loadout skill entries **162 → 170**.
+- No acquisition condition, exclusivity, reward route, or gameplay mechanic was inferred from the loadout evidence.
+- Commits: `b8ca3975c908b081825b431cbb5d620068f01241` (canonical preset producer) and `effaa5f8f1c78149483b67287dceb07d029ccaa8` (preset↔skill navigation audit).
+- **Exact next priority:** continue the unresolved preset families using the same two-part evidence requirement: an explicit numeric preset identity plus a complete named skill configuration. Do not promote Goku/Vegeta/Ginyu records that have numeric identity only.
