@@ -382,3 +382,12 @@
 - [x] Advanced the P1 coverage-gap artifact so Savage Strike and Quick Sleep are completed and Pressure Sign is the next bounded target.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next:** audit Pressure Sign against its existing direct evidence, making only evidence-backed canonical/research changes, then validate canonical/index parity and registration.
+
+
+### 2026-09-24 cycle completion — Punisher Shield P1 provenance refresh
+- [x] Refreshed Punisher Shield research provenance: Super / Ki Blast, Counter taxonomy, CaC availability, Extra Pack 4 provenance, 100 Ki, and PQ129 acquisition.
+- [x] Preserved `ultimate_finish_required: null`, unresolved reward probability, and version-sensitive mechanics rather than inventing values.
+- [x] Added and registered `docs/data/skill-punisher-shield-p1-provenance-enrichment-2026-09-24.json`.
+- [x] Marked Punisher Shield complete in the P1 coverage artifact.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** select the next unresolved P1 research target, refresh only evidence-backed fields, register its audit, and preserve canonical/index parity.
