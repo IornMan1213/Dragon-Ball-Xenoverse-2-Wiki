@@ -117,9 +117,8 @@
     {
       "name": "Boiling Ball",
       "status": "unresolved",
-      "known_identity": "Demon God Demigra (Final Form) attack",
+      "known_identity": "Demon God Demigra (Final Form) Super Skill (Ki Blast subtype), CaC-unavailable",
       "missing": [
-        "subcategory",
         "ki_cost"
       ],
       "evidence": [
@@ -129,14 +128,13 @@
         "Xenoverse 2 Demigra reference material describes the move's three spinning dark-energy spheres and its Time Rift behavior.",
         "A Xenoverse 2 catalog of skills unobtainable by CaC lists Boiling Ball."
       ],
-      "reason": "Xenoverse 2-specific evidence establishes Boiling Ball as a CaC-unavailable Super Skill used by Final Form Demigra. The repository subtype and canonical Ki-cost fields remain unverified."
+      "reason": "Xenoverse 2-specific evidence establishes Boiling Ball as a CaC-unavailable Super Skill used by Final Form Demigra. The repository subtype and canonical Ki-cost fields remain unverified. Repository research batch 289 already records the Xenoverse 2 subtype as Ki Blast; this subtype is retained as research-backed taxonomy, while numeric Ki cost remains unverified."
     },
     {
       "name": "Tricky Strike",
       "status": "unresolved",
-      "known_identity": "Demon God Demigra (Final Form) attack",
+      "known_identity": "Demon God Demigra (Final Form) Super Skill (Strike subtype), CaC-unavailable",
       "missing": [
-        "subcategory",
         "ki_cost"
       ],
       "evidence": [
@@ -146,8 +144,8 @@
         "Xenoverse 2 Demigra reference material documents Tricky Strike's three teleporting variants.",
         "A Xenoverse 2 catalog of skills unobtainable by CaC lists Tricky Strike."
       ],
-      "reason": "Xenoverse 2-specific evidence establishes Tricky Strike as a CaC-unavailable Super Skill used by Final Form Demigra. The repository subtype and canonical Ki-cost fields remain unverified."
+      "reason": "Xenoverse 2-specific evidence establishes Tricky Strike as a CaC-unavailable Super Skill used by Final Form Demigra. The repository subtype and canonical Ki-cost fields remain unverified. Repository research batch 289 already records the Xenoverse 2 subtype as Strike; this subtype is retained as research-backed taxonomy, while numeric Ki cost remains unverified."
     }
   ],
-  "notes": "2026-09-24 Howl tranche: Evasive classification and CaC-unavailable status strengthened from Xenoverse 2-specific artifacts; Ki cost and acquisition remain unresolved and are not promoted. 2026-09-24 Baked Sphere tranche: strengthened Xenoverse 2-specific Ultimate/CaC-unavailable classification; Ki cost remains unresolved and is not promoted. 2026-09-24 Boiling Ball/Tricky Strike tranche: strengthened Xenoverse 2-specific identity, Super Skill classification, Final Form Demigra ownership, and CaC-unavailable boundaries; repository subtype and Ki cost remain unresolved and are not promoted. 2026-09-24 Acid/Howl tranche: strengthened Xenoverse 2-specific ID, classification, cast-source, and recurring moveset evidence; Ki cost and acquisition remain unresolved and are not promoted."
+  "notes": "2026-09-24 Howl tranche: Evasive classification and CaC-unavailable status strengthened from Xenoverse 2-specific artifacts; Ki cost and acquisition remain unresolved and are not promoted. 2026-09-24 Baked Sphere tranche: strengthened Xenoverse 2-specific Ultimate/CaC-unavailable classification; Ki cost remains unresolved and is not promoted. 2026-09-24 Boiling Ball/Tricky Strike tranche: strengthened Xenoverse 2-specific identity, Super Skill classification, Final Form Demigra ownership, and CaC-unavailable boundaries; repository subtype and Ki cost remain unresolved and are not promoted. 2026-09-24 Acid/Howl tranche: strengthened Xenoverse 2-specific ID, classification, cast-source, and recurring moveset evidence; Ki cost and acquisition remain unresolved and are not promoted. 2026-09-24 subtype reconciliation: Boiling Ball and Tricky Strike were reconciled against repository batch 289 and current Xenoverse 2-specific evidence; Boiling Ball is research-supported as Ki Blast and Tricky Strike as Strike. Numeric Ki cost remains unresolved and neither record is promoted to canonical catalogs."
 }
