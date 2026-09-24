@@ -17,8 +17,8 @@
   "results": {
     "canonical_character_names": 151,
     "bridge_records": 29,
-    "preset_records": 40,
-    "preset_distinct_character_ids": 12,
+    "preset_records": 51,
+    "preset_distinct_character_ids": 17,
     "partner_key_records": 20,
     "partner_distinct_character_ids": 20,
     "partner_reconciliation_distinct_character_ids": 20,
@@ -30,7 +30,7 @@
     "status": "clean",
     "character_explorer": {
       "canonical_character_names": 151,
-      "preset_records": 40,
+      "preset_records": 51,
       "preset_distinct_character_ids": 17,
       "explicit_pq_reverse_targets": 75,
       "explicit_pq_reverse_references": 247,
@@ -49,8 +49,8 @@
       }
     },
     "preset_presentation": {
-      "total_records": 40,
-      "explorer_character_navigation_records": 40,
+      "total_records": 51,
+      "explorer_character_navigation_records": 51,
       "unresolved_character_ids": [],
       "identity_label_conflicts": [
         {
@@ -70,7 +70,7 @@
       "duplicate_preset_record_ids": [],
       "duplicate_numbered_character_preset_pairs": [],
       "record_types": {
-        "preset": 35,
+        "preset": 46,
         "separate_character": 5
       },
       "null_preset_number_special_records": [
@@ -103,7 +103,7 @@
       "duplicate_bridge_character_ids": 0,
       "duplicate_bridge_source_names_when_present": 0,
       "malformed_bridge_character_ids": 0,
-      "preset_records": 40,
+      "preset_records": 51,
       "duplicate_preset_record_ids": 0,
       "malformed_preset_record_ids": 0
     },
@@ -114,7 +114,9 @@
       "core_profiles_expose_search_design": true,
       "hard_coded_preset_label_matches": [],
       "status": "clean"
-    }
+    },
+    "verified_preset_loadout_records": 25,
+    "verified_loadout_skill_entries": 162
   },
   "evidence_boundary": "Identity/navigation parity remains clean. This cycle additionally verifies that bridge character IDs and preset record IDs are string-shaped and unique, and that optional bridge source_name values are unique when present. Missing optional source_name is not treated as a duplicate. Markdown consumer inspection additionally checks the Character Encyclopedia's canonical explorer link and the core profile page for hard-coded preset labels; no preset labels were found in those two Markdown consumers.",
   "rules": [
@@ -134,5 +136,8 @@
   },
   "validator": "scripts/validate_character_presentation_consumers.py",
   "validator_commit": "9602b41f2979c10321774afeb5c4d11e500d6056",
-  "status": "clean"
+  "status": "clean",
+  "notes": [
+    "2026-09-24 live producer refresh: character-presets-record-layer.json now contains 51 records across 17 presentation character IDs, including 46 numbered preset records and 5 separate-character records; 25 records carry verified loadouts with 162 skill-slot entries. Prior 40/12 presentation counts were stale consumer projections."
+  ]
 }

@@ -5735,3 +5735,13 @@
 - [x] Forward↔reverse parity is exact; no additional patrol reward relationship was inferred.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next priority:** continue the deterministic non-PQ reverse-projection audit, prioritizing the next current-facing event/raid or character/preset consumer with machine-checkable orphan/count drift; do not turn partial research absence into negative canonical claims.
+
+
+### 2026-09-24 cycle completion — character/preset presentation consumer census refresh
+- [x] Reconciled the live `docs/data/character-presets-record-layer.json` producer against the character presentation consumer audit and preset↔skill navigation audit.
+- [x] Corrected stale presentation counts from **40** to **51 preset records** and from **12** to **17 distinct presentation character IDs**; the live layer contains **46 numbered preset records + 5 separate-character records**.
+- [x] Synchronized verified-loadout counts to **25 records / 162 skill-slot entries**.
+- [x] Preserved all identity boundaries, including the unresolved Captain Ginyu body-swap presentation labels and the five separate-character records.
+- [x] No acquisition, DLC, or character identity relationship was inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next priority:** continue deterministic non-PQ reverse-projection scanning, prioritizing event/raid acquisition consumers and any remaining stale current-field/count projections.

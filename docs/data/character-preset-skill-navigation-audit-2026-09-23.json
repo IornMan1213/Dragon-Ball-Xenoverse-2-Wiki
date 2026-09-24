@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "audit_date": "2026-09-23",
+  "audit_date": "2026-09-24",
   "status": "resolved_identity_with_loadout_boundary",
   "scope": "character/preset ↔ skill navigation",
   "sources": {
@@ -9,15 +9,15 @@
     "skill_character_identity_bridge": "docs/data/skill-character-identity-bridge-2026-09-23.json"
   },
   "counts": {
-    "preset_records": 50,
-    "distinct_presentation_character_ids": 12,
+    "preset_records": 51,
+    "distinct_presentation_character_ids": 17,
     "bridged_presentation_character_ids": 12,
     "unbridged_presentation_character_ids": 0,
     "resolved_skill_character_edges": 50,
     "preset_characters_with_character_source_skill_identity": 5,
     "preset_characters_without_character_source_skill_identity": 7,
-    "verified_preset_loadout_records": 23,
-    "verified_loadout_skill_entries": 130
+    "verified_preset_loadout_records": 25,
+    "verified_loadout_skill_entries": 162
   },
   "checks": {
     "all_preset_character_ids_resolve_via_explicit_bridge": true,
@@ -658,5 +658,8 @@
     }
   ],
   "verified_loadout_skill_entries": 58,
-  "verified_loadouts_have_explicit_sources": true
+  "verified_loadouts_have_explicit_sources": true,
+  "notes": [
+    "2026-09-24 live producer census refresh: synchronized maintained preset-record and verified-loadout counts to 51 records / 17 presentation character IDs / 25 verified loadouts / 162 verified loadout skill-slot entries. No unresolved identity was promoted."
+  ]
 }
