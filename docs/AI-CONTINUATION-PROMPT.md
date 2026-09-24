@@ -7722,3 +7722,17 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Commits:** `fc03db826db00ba99dc02471aaa16b55f756f969`, `6a83e78d536bfa683498c03d4625046655cd9684`.
 - **Exact next priority:** continue deterministic non-PQ event/raid and acquisition-index consumer scanning for stale 469 skill counts, orphan IDs, and one-way navigation; prioritize current-facing machine-readable audits over speculative raid endpoint creation.
+
+
+### 2026-09-24 cycle update — current skill-domain consumer drift reconciliation
+
+- Live census before editing: **469 canonical skills / 469 index skills / 469 current last_verified / 0 stale / 0 duplicate IDs; 239 PQ-linked unique skills / 230 non-PQ endpoint unique skills / 469 full endpoint union; 853 PQ relationship edges / 244 PQ→skill edges; 153 canonical character identities / 174 combined equipment-accessory records**.
+- Bounded scan: searched current-looking skill/domain consumers for superseded 465-record assertions after the Hyper Drain / Hyper Movement / Ice Cannon / Ice Claw endpoint recovery.
+- Repaired `docs/data/pq-endpoint-navigation-validation.json`: current live reconciliation now uses **469 skills / 174 equipment-accessory records / 153 character identities**, while preserving the authoritative **853-edge** relationship graph and all endpoint pair counts.
+- Repaired `docs/data/skill-pq-acquisition-presentation-audit.json`: current validation/reverse-navigation count now uses **469 canonical skills** while preserving **244 PQ→skill edges**, exact forward/reverse parity, and zero unresolved targets.
+- Added `docs/data/current-skill-domain-consumer-scan-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- Classified dated 2026-09-23 audits and per-batch provenance artifacts containing 465 as historical snapshots; they were not rewritten or deleted.
+- Evidence boundary: no canonical skill identity, PQ relationship, acquisition route, probability, Ultimate Finish condition, or gameplay field was inferred or changed.
+- Validation: repaired current consumers are internally consistent; canonical/index parity remains **469/469**; full endpoint union remains **469/469**; audit JSON and index registration were written successfully. CI/runtime remains unavailable; no CI success claimed.
+- Commits: current consumer scan **c4d79eb35cc83cd3d64604c86373895e890769b1**; cross-domain index registration **e9ec5fcf1d5166610f5b4f6d6253c6b453b12e35**. The two preceding consumer-repair commits were created successfully but their SHAs were not surfaced by the write wrapper.
+- **Exact next priority:** continue deterministic current-facing **event/raid/Festival/Chapter 4 and character/preset** consumer scanning, prioritizing stale scalar/count assertions, one-way navigation, orphan canonical targets, and namespace/identity drift; do not create speculative event/raid endpoints where the repository has only provenance evidence.
