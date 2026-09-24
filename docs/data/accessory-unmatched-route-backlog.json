@@ -2,24 +2,7 @@
   "schema_version": "1.0.0",
   "record_type": "accessory_unmatched_route_backlog",
   "purpose": "Tracks accessory route records that should not yet be forced into the canonical inventory layer.",
-  "records": [
-    {
-      "name": "Cheelai Wig",
-      "source_layers": [
-        "online_raid"
-      ],
-      "reason": "Raid identity established but no canonical identity yet.",
-      "priority": "high"
-    },
-    {
-      "name": "Hercule Wig 2",
-      "source_layers": [
-        "online_raid"
-      ],
-      "reason": "Numbered variant must be kept separate from Hercule Wig until inventory identity is confirmed.",
-      "priority": "medium"
-    }
-  ],
+  "records": [],
   "rules": [
     "Do not create a canonical identity merely because an item appears in a raid reward list.",
     "Numbered variants remain separate until inventory-level evidence establishes equivalence.",
@@ -80,6 +63,27 @@
       "canonical_id": "accr-113",
       "canonical_source": "docs/data/accessory-canonical-reconciliation.json",
       "resolution": "Promoted as distinct Golden Shell accessory; not merged with Turtle Hermit's Shell or Golden Turtle Hermit Gi."
+    },
+    {
+      "name": "Cheelai Wig",
+      "resolved_on": "2026-09-24",
+      "canonical_id": "accr-114",
+      "canonical_source": "docs/data/accessory-canonical-reconciliation.json",
+      "resolution": "Promoted as exact canonical identity using independent inventory/model evidence (model ID 779) plus raid route evidence; kept separate from the scouter variant."
+    },
+    {
+      "name": "Cheelai Wig (w/Scouter)",
+      "resolved_on": "2026-09-24",
+      "canonical_id": "accr-115",
+      "canonical_source": "docs/data/accessory-canonical-reconciliation.json",
+      "resolution": "Promoted as exact distinct canonical identity using independent inventory/model evidence (model ID 777) plus Impending Danger/Jiren raid evidence; not merged with Cheelai Wig."
+    },
+    {
+      "name": "Hercule Wig 2",
+      "resolved_on": "2026-09-24",
+      "canonical_id": "accr-116",
+      "canonical_source": "docs/data/accessory-canonical-reconciliation.json",
+      "resolution": "Promoted as exact distinct canonical identity using independent inventory/model evidence (model ID 946) plus official/raid route evidence; not merged with Hercule Wig."
     }
   ],
   "last_reconciled": "2026-09-24"
