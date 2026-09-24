@@ -1,3 +1,11 @@
+### 2026-09-24 completed Future Saga Chapter 4 character identity presentation repair
+- [x] Added publisher-confirmed `Supreme Kai of Time (Ultra Supervillain)` and `Goku (Ultra Supervillain Quelled)` as distinct canonical character identities.
+- [x] Updated Character Encyclopedia/current explorer counts from 151 to 153.
+- [x] Resolved the previously unresolved Supreme Kai of Time Chapter 4 DLC identity bridge entry; DLC headline-character identity audit is now clean.
+- [x] Updated Chapter 4 DLC presentation links to the canonical character search surface.
+- [x] Preserved the evidence boundary: no preset, unlock, raid, PQ, or gameplay relationships were inferred.
+- [ ] **Next:** scan event/raid/Festival/Chapter 4 presentation consumers and stale scalar assertions.
+
 ### 2026-09-24 completed residual accessory homepage consumer repair
 - [x] Re-scanned current-facing accessory count consumers.
 - [x] Corrected `docs/index.md` from stale **53 / 37** accessory counts to the live **51 / 116** shop/canonical counts.
