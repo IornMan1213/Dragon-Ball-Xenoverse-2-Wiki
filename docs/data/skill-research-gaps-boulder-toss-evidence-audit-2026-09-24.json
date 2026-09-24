@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-24",
+  "skill_name": "Boulder Toss",
+  "skill_id": "skill-boulder-toss",
+  "status": "evidence_enriched_unresolved",
+  "scope": "bounded Xenoverse 2-specific evidence enrichment",
+  "evidence": [
+    {
+      "type": "xenoverse2_id",
+      "claim": "Xenoverse 2 Character ID List assigns skill ID 441 and marks it CaC-unavailable.",
+      "source": "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
+    },
+    {
+      "type": "xenoverse2_moveset",
+      "claim": "Great Ape Festival lists Boulder Toss on Great Ape Nappa and Great Ape Vegeta.",
+      "source": "https://dbxv2.fandom.com/wiki/Great_Ape_Festival"
+    },
+    {
+      "type": "xenoverse2_moveset",
+      "claim": "Xenoverse 2 Expert Mission and story/PQ references also show Boulder Toss in Great Ape movesets.",
+      "source": "https://dbxv2.fandom.com/wiki/Great_Ape_Festival"
+    }
+  ],
+  "resolved_fields": {
+    "classification": "Super Skill",
+    "cac_available": false,
+    "character_source": "Great Ape Nappa; Great Ape Vegeta"
+  },
+  "unresolved_fields": [
+    "subcategory",
+    "ki_cost"
+  ],
+  "guardrails": [
+    "Do not infer the repository subtype from generic physical/projectile terminology without a validated taxonomy mapping.",
+    "Do not infer Ki cost from another game or unofficial implementation.",
+    "Do not create a CaC acquisition route from enemy-only usage.",
+    "Do not promote to canonical skills.json without supported builder execution and required field coverage."
+  ]
+}
