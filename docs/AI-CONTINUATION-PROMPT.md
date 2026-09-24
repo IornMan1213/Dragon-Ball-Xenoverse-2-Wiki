@@ -8032,3 +8032,16 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Validation: both JSON files re-serialized successfully through the GitHub write path; canonical preset counts remain unchanged.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** find a source directly binding the numeric IDs for these five records to complete skill configurations; if unavailable, continue to the next unresolved family.
+
+
+### 2026-09-24 cycle update — live character-count consumer drift repair
+
+- Re-ran the live current-facing character consumer scan after the recent Chapter 4 identity corrections instead of trusting stale search-index excerpts.
+- Canonical producer `docs/data/characters-record-layer.json` is **152** character identities. Several current consumers/audits still contained an internal superseded **153** scalar despite otherwise reporting current 2026-09-24 state.
+- Repaired `docs/data/characters/published-character-dlc-navigation-audit.json`: current live census/current character identity count now **152**; its obsolete 151-name prose was also corrected to distinguish historical 149/151 snapshots from the current producer.
+- Repaired `docs/data/current-skill-domain-consumer-scan-2026-09-24.json`: current baseline and its recorded repair resolution now use **152** characters rather than 153.
+- Direct live fetches confirmed `docs/data/pq-endpoint-navigation-validation.json`, `docs/data/characters/character-presentation-consumer-audit.json`, `docs/data/characters/partner-customization-character-navigation-audit.json`, `docs/data/current-character-equipment-raid-consumer-synchronization-2026-09-24.json`, `docs/data/dlc/daima-hoj2-playable-character-count-reconciliation-2026-09-23.json`, and `docs/data/future-saga-chapter-4-character-navigation-audit-2026-09-24.json` already use the current **152** producer count. PQ-number values such as PQ153 are unrelated and were not altered.
+- No character identity, preset, loadout, PQ relationship, DLC ownership, or gameplay fact was added or inferred. Historical dated snapshots remain preserved.
+- Validation: live canonical producer and repaired current consumers were re-fetched after writes; current character baseline is 152. CI/runtime remains unavailable; no CI success claimed.
+- Commits from this cycle: `32337de23b02a767c335c234c1a50f596559c13b` (published Character/DLC audit synchronization) and `40c331bef31b7855c1010d35de0782e296303c75` (current skill-domain consumer synchronization).
+- **Exact next priority:** continue deterministic current-facing event/raid/Festival/character/preset consumer scanning for stale scalars, duplicate presentation rows, orphan targets, one-way navigation, and canonical-ID drift. Once this current-consumer layer is clean, resume the highest-impact source-backed preset/loadout or thin-domain expansion, only where evidence directly binds the structured fields.
