@@ -5716,3 +5716,13 @@
 - [x] No gameplay/acquisition evidence was upgraded or inferred.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next priority:** continue the remaining non-PQ reverse-projection audit against another deterministic stale-field or orphan-target consumer.
+
+
+### 2026-09-24 cycle completion — Time Rift/story/tournament endpoint projection audit
+- [x] Audited `docs/data/time-rift-story-tournament-endpoints.json` and confirmed **11 endpoints / 13 forward edges / 13 unique skills**.
+- [x] Corrected stale contract wording claiming 14 forward edges; live Match 5 contributes two legitimate edges and the maintained layer totals 13.
+- [x] Added and registered `docs/data/time-rift-story-tournament-endpoint-audit-2026-09-24.json`.
+- [x] Validation: **0 duplicate pairs / 0 missing pairs / 0 extra pairs / all endpoint IDs resolve / audit clean**.
+- [x] No new relationship or gameplay evidence was inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next priority:** continue deterministic non-PQ consumer scanning, prioritizing event/raid and character/preset navigation layers.
