@@ -7,7 +7,7 @@
     "docs/data/characters-record-layer.json",
     "docs/data/characters/dlc-character-identity-bridge.json"
   ],
-  "canonical_character_count": 153,
+  "canonical_character_count": 152,
   "chapter4_character_records": 2,
   "records": [
     {
@@ -27,7 +27,8 @@
     "unsupported_variant_collapses": 0,
     "preset_loadouts_promoted": 0,
     "partner_customization_claims_added": 0,
-    "status": "pass"
+    "status": "pass",
+    "note": "Live canonical character producer `docs/data/characters-record-layer.json` contains 152 identities; the prior 153 value was stale and is superseded by the current producer count."
   },
-  "evidence_boundary": "This audit establishes character identity/navigation parity only. It does not infer preset numbering, loadouts, unlock conditions, skills, DLC ownership beyond the Chapter 4 provenance source, or Partner Customization eligibility."
+  "evidence_boundary": "This audit establishes character identity/navigation parity only. It does not infer preset numbering, loadouts, unlock conditions, skills, DLC ownership beyond the Chapter 4 provenance source, or Partner Customization eligibility. Current canonical character count is 152; dated historical 153-count statements are not current-state evidence."
 }
