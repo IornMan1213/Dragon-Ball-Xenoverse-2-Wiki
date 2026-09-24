@@ -7333,3 +7333,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Added and registered `docs/data/skill-provenance-audit-2026-09-24-total-detonation-ball-through-variant-drive.json`.
 - [x] Recomputed census: **469 canonical / 469 index / 467 current / 2 stale / 0 duplicate IDs / canonical-index IDs aligned**.
 - [ ] Exact next stale batch: **x10 Kamehameha; Zigzag Express**.
+
+
+### 2026-09-24 cycle completion — x10 Kamehameha through Zigzag Express
+- Completed the final bounded P1 stale-skill provenance refresh: **x10 Kamehameha** and **Zigzag Express**.
+- Synchronized canonical `docs/data/skills.json` and `docs/data/skills-index.json`; both targets now carry `last_verified=2026-09-24`.
+- Added and registered `docs/data/skill-provenance-audit-2026-09-24-x10-kamehameha-through-zigzag-express.json`.
+- Recomputed the live verification-date census: **469 canonical / 469 index / 469 current / 0 stale / 0 duplicate IDs**; canonical/index identity and ordering remain aligned.
+- Evidence used: maintained repository research plus current external references for Goku Lesson 2/x10 Kamehameha and PQ85/Zigzag Express. Existing acquisition endpoints, mechanics, mentor/PQ links, restrictions, and source boundaries were preserved.
+- No unsupported probabilities, prerequisites, timers, frame data, stacking caps, or damage values were introduced.
+- Commits: canonical `2efb474837f3d351e3952267d16ba2909f678383`; index `92d8cc5868ad19d5f914d227105340af886508d8`; audit `3934c4c0d3ba8f0febc747ebb644ee04697b32fe`; census `6880b95899232bd6f0472a533bd68ac1a5b720f6`; cross-domain registration `9c302c5a927c8c7c2f216cf352141fe0582f6538`; TODO `12ac11b8d3ed9344d1e52f3dbd24d7a2a0130108`.
+- CI/runtime remains unavailable; no CI success claimed.
+- **Exact next priority:** continue the deterministic post-stale-queue cross-domain coverage/projection audit, prioritizing machine-checkable current-field mismatches or navigation/index drift rather than speculative gameplay-data expansion.
