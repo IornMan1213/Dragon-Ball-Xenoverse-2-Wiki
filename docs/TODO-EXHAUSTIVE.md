@@ -6596,3 +6596,13 @@
 - [x] Commit: `f295e2ae1c0c2ada350e068aae1550c8ba0d7b52`.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Next:** sweep remaining current-facing acquisition indexes/projections for one-way links and stale scalars.
+
+
+### 2026-09-24 completed bounded non-PQ acquisition consumer sweep
+- [x] Added and registered `docs/data/current-nonpq-acquisition-consumer-sweep-2026-09-24.json`.
+- [x] Revalidated current skill acquisition projection and endpoint parity at **469 canonical / 239 PQ-linked / 230 non-PQ / 131 resolved mentor edges / 130 unique mentor targets / 99 non-PQ non-mentor targets / 469 endpoint-covered / 0 uncovered**.
+- [x] Confirmed current Time Rift/story/tournament and shop endpoint layers remain 13 and 33 forward skill edges respectively.
+- [x] Classified remaining 465/132-style search hits as historical/provenance or already-reconciled audit context; no additional current-facing scalar repair was justified.
+- [x] No acquisition, mechanics, probability, availability, or preset/loadout inference was introduced.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Next:** resume P1 source-backed provenance enrichment or direct numeric preset/loadout evidence; only promote a numeric preset when one artifact directly binds its label to the complete configuration.
