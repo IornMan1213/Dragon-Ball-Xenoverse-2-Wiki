@@ -15,7 +15,7 @@ The machine-readable inventory is stored in:
 
 `docs/data/accessory-shop-research.json`
 
-The current population contains **49 unique shop-route records** after duplicate-name cleanup, covering:
+The current structured shop research contains **51 populated shop records** (shop-001 through shop-050 plus shop-053). Two historical record slots, `shop-051` and `shop-052`, remain unresolved and are not reconstructed by assumption. The current population therefore contains 51 populated records, covering:
 
 - Scouters and New/Old Model Scouters
 - Headwear and character hats
