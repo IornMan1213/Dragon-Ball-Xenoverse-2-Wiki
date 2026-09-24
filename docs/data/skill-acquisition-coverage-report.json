@@ -32,7 +32,8 @@
     "Endpoint-layer counts are edge/consumer counts and are not a disjoint partition of the 226 unique non-PQ skills; use current_projection_2026_09_23 for the deterministic unique-skill arithmetic.",
     "2026-09-24 endpoint recovery correction: four canonical skills promoted by the Hyper/Ice coverage recovery were absent from the 465-record endpoint projection. Hyper Drain and Hyper Movement are now represented in skill-shop-endpoints.json; Ice Cannon and Ice Claw are represented in special-acquisition-endpoints.json.",
     "2026-09-24 live reverse-projection reconciliation: current canonical skill layer is 469 records, with 239 PQ-linked and 230 without PQ; mentor endpoint layer is 131 resolved edge rows / 130 unique resolved skill targets, and the non-PQ/non-mentor endpoint union is 99 unique skill targets.",
-    "2026-09-24 synchronization: mentor projection uses 131 resolved mentor→skill edges / 130 unique targets; Hit → Time Skip/Tremor Pulse remains one explicit unresolved lesson and is not counted as a resolved endpoint."
+    "2026-09-24 synchronization: mentor projection uses 131 resolved mentor→skill edges / 130 unique targets; Hit → Time Skip/Tremor Pulse remains one explicit unresolved lesson and is not counted as a resolved endpoint.",
+    "2026-09-24 Quick Sleep endpoint provenance reconciliation: refreshed the canonical Skill Shop evidence without changing non-PQ classification or introducing an alternate canonical edge."
   ],
   "total_classified": 230,
   "unresolved_nonpq_skills": 0,
@@ -56,7 +57,8 @@
       "The mentor crosslink layer remains 131 edge rows / 130 unique skill endpoints; endpoint-target counts are classification counts and may overlap at the source-field level.",
       "Historical 455/239/216 and older classification snapshots remain preserved outside this current projection.",
       "2026-09-24 live reconciliation: canonical skills.json now contains 469 records, including Hyper Drain, Hyper Movement, Ice Cannon, and Ice Claw. These four were the only canonical IDs absent from the previous 465-record endpoint union and are now covered by deterministic shop/special endpoint edges.",
-      "2026-09-24 live projection synchronization: corrected the stale nested 465/226/130-target snapshot to the current 469/230/131-target baseline; historical 465 figures remain in the preceding note for provenance."
+      "2026-09-24 live projection synchronization: corrected the stale nested 465/226/130-target snapshot to the current 469/230/131-target baseline; historical 465 figures remain in the preceding note for provenance.",
+      "2026-09-24 Quick Sleep endpoint provenance reconciliation: Quick Sleep remains classified as a shop-linked non-PQ skill; no additional acquisition edge was inferred."
     ],
     "non_pq_nonmentor_count": 99,
     "status": "superseded_historical_projection",
