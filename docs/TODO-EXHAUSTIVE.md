@@ -5205,3 +5205,12 @@
 - [x] Validation: **465/465 canonical/index IDs, 0 duplicate IDs, 48 current, 417 stale**.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next batch:** Break Cannon; Breaker Energy Wave; Brutal Buster; Burning Attack; Burning Blast; Burning Shot; Burning Slash; Burning Swan; Burst Blitz; Burst Charge; Burst Kamehameha; Burst Reflection.
+
+
+### 2026-09-24 cycle update — Break Cannon through Burst Reflection provenance refresh
+- [x] Bounded P1 batch: **Break Cannon; Breaker Energy Wave; Brutal Buster; Burning Attack; Burning Blast; Burning Shot; Burning Slash; Burning Swan; Burst Blitz; Burst Charge; Burst Kamehameha; Burst Reflection**.
+- [x] Refreshed canonical last_verified to **2026-09-24** using existing repository evidence; acquisition/reward/mechanics/DLC semantics preserved.
+- [x] Added `docs/data/skill-provenance-audit-2026-09-24-break-through-burst.json` and refreshed the live stale census.
+- [x] Validation: **465/465 canonical/index IDs, 0 duplicate IDs, 60 current, 405 stale**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next batch:** Burst Rush; Burst Stinger; Buu Buu Ball; Candy Beam; Candy Beam (Super); Celestial Wave; Chain Destructo-Disc Barrage; Change The Future; Chaos Shot; Chaos Wall; Chaotic Time Impact; Charge.
