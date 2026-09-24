@@ -6773,3 +6773,14 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Live validation after the change: **465 canonical skill records / 0 duplicate IDs**; all ten reviewed IDs resolve and the provenance audit passes.
 - CI/runtime remains unavailable; no CI success claimed.
 - **Exact next task:** continue the P1 Expert Mission endpoint/provenance queue by reconciling the remaining endpoint-layer partial records (especially EM04, EM06, EM12, EM13, and EM16–20) using explicit source evidence, then return to the remaining non-PQ/non-mentor acquisition gaps such as Ultra Instinct. Preserve endpoint-layer separation and do not infer relationships.
+
+
+### 2026-09-23 cycle update — Full Expert Mission endpoint provenance reconciliation
+
+- Reconciled the remaining partially verified Expert Mission endpoint layer against the independent all-Expert-Missions guide.
+- All **18/18** maintained EM endpoint rows are now source-checked; EM16–20 mission titles were completed as Vegeta/Goku/Ultimate Evil: Broly/A Truly Hellish Transformation/Harbinger of Doom.
+- The guide explicitly supports Basic Reward placement for **17/18** canonical endpoint rows. EM17 remains an explicit evidence conflict: the guide's Basic Reward line says **Spirit Bomb**, while the canonical endpoint is **Spirit Sword**; the repository therefore does not infer a Spirit Sword Basic Reward tier from that source.
+- Updated docs/data/expert-mission-endpoints.json to source-backed status with per-endpoint provenance, while preserving all endpoint IDs/skill IDs.
+- Expanded docs/data/skill-expert-mission-provenance-audit-2026-09-23.json to record the 18-row endpoint reconciliation.
+- No new canonical skill identities, acquisition relationships, drop probabilities, or per-clear guarantees were inferred.
+- **Exact next task:** move from the now-source-checked Expert Mission endpoint layer to the remaining **95 non-PQ/non-mentor** acquisition/provenance skills, prioritizing explicit special-route gaps such as Ultra Instinct; preserve evidence boundaries.
