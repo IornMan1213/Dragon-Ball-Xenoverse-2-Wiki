@@ -6,22 +6,20 @@
   "results": {
     "source_records": 15,
     "bridge_records": 15,
-    "exact": 7,
+    "exact": 8,
     "explicit_alias": 7,
-    "unresolved_source_labels": 1,
+    "unresolved_source_labels": 0,
     "invalid_canonical_targets": 0,
-    "status": "clean_with_explicit_unresolved_labels"
+    "status": "clean"
   },
-  "unresolved": [
-    {
-      "source_name": "Supreme Kai of Time (Ultra Supervillain)",
-      "reason": "No exact canonical character identity with this variant label exists in the current canonical layer; mapping to Supreme Kai of Time would collapse a potentially distinct variant."
-    }
-  ],
+  "unresolved": [],
   "rules": [
     "Canonical character names remain authoritative.",
     "Explicit source aliases may resolve to canonical names only when the intended identity is unambiguous.",
     "Unresolved variant labels are preserved and are never silently mapped to a base character or nearby form.",
     "This bridge does not create DLC ownership or character relationships."
+  ],
+  "notes": [
+    "2026-09-24: Supreme Kai of Time (Ultra Supervillain) was added to the canonical character layer from the publisher-confirmed Future Saga Chapter 4 identity, allowing the previously unresolved DLC headline label to resolve exactly."
   ]
 }
