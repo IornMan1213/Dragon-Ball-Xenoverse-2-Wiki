@@ -1494,6 +1494,76 @@
       },
       "status": "verified_identity",
       "identity_note": "Current equipment references identify Android 15's Shades & Hat as a single accessory and document its TP Medal Shop availability. The research label 'Android 15's Sunglasses' is therefore treated as a component/description alias, not a separate inventory item."
+    },
+    {
+      "id": "accr-106",
+      "canonical_name": "Tapion Wig",
+      "aliases": [],
+      "routes": [
+        "Ranked event",
+        "Raid/event research"
+      ],
+      "route_refs": {},
+      "status": "partially_verified",
+      "identity_note": "Exact named identity is present in the maintained equipment-accessories record layer as acc-044; raid/event route evidence is preserved without implying current availability."
+    },
+    {
+      "id": "accr-107",
+      "canonical_name": "Tights Hat",
+      "aliases": [],
+      "routes": [
+        "Crystal Raid reward"
+      ],
+      "route_refs": {},
+      "status": "partially_verified",
+      "identity_note": "Exact named identity is present in the maintained equipment-accessories record layer as acc-050; Crystal Raid route remains historical/partial evidence."
+    },
+    {
+      "id": "accr-108",
+      "canonical_name": "Universe 6 Supreme Kai's Helper's Hat",
+      "aliases": [
+        "Universe 6 S. Kai's Helper's Hat"
+      ],
+      "routes": [
+        "Crystal Raid reward"
+      ],
+      "route_refs": {},
+      "status": "partially_verified",
+      "identity_note": "Exact named identity is present in the maintained equipment-accessories record layer as acc-048; the shorter raid-research wording is retained as an alias."
+    },
+    {
+      "id": "accr-109",
+      "canonical_name": "Lord Zuno's Topknot Wig",
+      "aliases": [],
+      "routes": [
+        "Crystal Raid reward"
+      ],
+      "route_refs": {},
+      "status": "partially_verified",
+      "identity_note": "Exact named identity is present in the maintained equipment-accessories record layer as acc-049; route evidence remains partial."
+    },
+    {
+      "id": "accr-110",
+      "canonical_name": "Android 21 Wig & Glasses",
+      "aliases": [],
+      "routes": [
+        "Raid reward"
+      ],
+      "route_refs": {},
+      "status": "partially_verified",
+      "identity_note": "Exact combined reward identity is present in the maintained equipment-accessories record layer as acc-043; it is not split into separate wig/glasses identities."
+    },
+    {
+      "id": "accr-111",
+      "canonical_name": "Tiencha Wig",
+      "aliases": [],
+      "routes": [
+        "Crystal Raid reward",
+        "Accessory Shop"
+      ],
+      "route_refs": {},
+      "status": "partially_verified",
+      "identity_note": "Exact named identity is present in the maintained equipment-accessories record layer as acc-046; shop and raid routes are retained as separate acquisition routes."
     }
   ],
   "unresolved_alias_groups": [
