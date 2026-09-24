@@ -6752,3 +6752,13 @@
 - [x] No additional acquisition relationship or alternate canonical endpoint was inferred.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next:** continue deterministic current-facing consumer scanning for stale skill endpoint/count metadata; prioritize the next evidence-backed P1 gap only after projection drift is exhausted.
+
+
+### 2026-09-24 continuation — Recoome Kick research-record reconciliation
+- [x] Audited duplicate research records for `skill-recoome-kick` after deterministic consumer scanning found both batch 15 and batch 51 records.
+- [x] Kept the later verified batch-15 record as the preferred current research source and marked the older batch-51 record `superseded_research_record` without deleting historical evidence.
+- [x] Added and registered `docs/data/recoome-kick-research-reconciliation-2026-09-24.json`.
+- [x] Preserved PQ61 linkage and the unresolved exact reward-slot/drop percentage; no new canonical acquisition edge was inferred.
+- [x] Canonical/index baseline remains **469/469** with no duplicate canonical IDs introduced.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next:** continue deterministic duplicate/stale research-consumer reconciliation around the next unresolved P1 skill, then make only source-backed canonical-safe changes while Savage Strike remains staged for atomic builder integration.
