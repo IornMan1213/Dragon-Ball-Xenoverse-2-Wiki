@@ -7809,3 +7809,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - No current availability, recurrence schedule, drop probability, guarantee, or new PQ relationship was inferred.
 - CI/runtime remains unavailable; no CI success claimed.
 - **Exact next priority:** continue deterministic current-facing event/raid and remaining cross-domain consumer scanning for stale counts, orphan targets, one-way navigation, and canonical-ID drift; then resume the highest-impact source-backed thin-domain expansion.
+
+
+### 2026-09-24 cycle update — Accessory PQ presentation consumer count reconciliation
+- Corrected docs/Accessory-PQ-Database.md stale canonical/projection wording: the current canonical accessory reconciliation layer is 116 accr-### identities, while its PQ bridge contains 45 research records / 35 resolved / 10 unresolved / 34 unique resolved targets.
+- Preserved broader-domain resolutions for Resistance Helmet and Gine's set rather than creating duplicate canonical accessory identities.
+- Added and registered docs/data/accessory-pq-presentation-consumer-audit-2026-09-24.json.
+- No acquisition, reward, guarantee, drop-rate, or identity inference was introduced.
+- Exact next priority: continue deterministic current-facing event/raid/Festival/character/preset consumer scanning, especially remaining equipment/accessory pages and cross-route indexes, for stale counts, orphan targets, one-way navigation, and canonical-ID drift.
