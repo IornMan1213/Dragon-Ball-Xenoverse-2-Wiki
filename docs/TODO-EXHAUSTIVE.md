@@ -5643,3 +5643,14 @@
 - [x] No canonical PQ relationship changes were necessary; the remaining partial research/source-normalized artifacts are explicitly preserved as non-canonical layers.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next priority: inspect remaining cross-domain reverse projections beyond the PQ reward layer (especially character/DLC identity bridges and partial research indexes) for deterministic orphan, stale-count, or target-resolution drift; do not convert partial research absence into negative canonical claims.
+
+
+### 2026-09-24 cycle update — current consumer baseline and cross-link contract audit
+- [x] Audited remaining active PQ consumer assertions after the 853-edge correction; current canonical PQ counts remain **244 skill / 145 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming**, 853 total.
+- [x] Confirmed historical 854/146/143 and older 862/151/125/88 snapshots are retained as historical context rather than current truth.
+- [x] Updated `docs/data/pq-cross-domain-audit.json` to record the completed current-consumer baseline gate.
+- [x] Updated `docs/data/CROSS-LINK-CONTRACT.md` to replace the stale 465/465 skill endpoint statement with the live **469/469** endpoint-union baseline and document the Hyper/Ice reconciliation.
+- [x] Current skill endpoint union remains **469 canonical / 469 represented / 0 uncovered**; canonical/index alignment remains intact.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next priority: audit the remaining non-PQ reverse projections and identity bridges (character, DLC, mentor/shop/event, and partial research indexes) for orphan targets and stale current-field counts, beginning with the next machine-checkable projection that can be reconciled without inventing relationships.
+- Commits: PQ cross-domain audit `93957a432075f5f08ec1496326c236b4f0cc2f82`; cross-link contract `0691d85d9f827fcab665dba75a5107e835020a22`.
