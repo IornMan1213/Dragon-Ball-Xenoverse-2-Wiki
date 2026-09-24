@@ -28,7 +28,7 @@ Mentor availability can depend on:
 
 ## Canonical Mentor Database
 
-The structured mentor layer is now the source for the live mentor explorer: **33 canonical mentor identities / 133 lesson reward objects / 131 skill rewards / 1 non-skill reward / 131 mentor→skill edge rows / 130 unique canonical skill targets**. One lesson remains intentionally unresolved as a skill endpoint (Hit's Time Skip/Tremor Pulse), while Zamasu's initiation reward is explicitly typed as a Super Soul rather than treated as a missing skill. The explorer preserves these evidence boundaries and links verified lesson skills into the local skill database.
+The structured mentor layer is now the source for the live mentor explorer: **33 canonical mentor identities / 133 lesson reward objects / 132 typed skill rewards / 1 non-skill reward / 131 resolved mentor→skill edge rows / 130 unique canonical skill targets / 1 unresolved skill lesson**. One lesson remains intentionally unresolved as a skill endpoint (Hit's Time Skip/Tremor Pulse), while Zamasu's initiation reward is explicitly typed as a Super Soul rather than treated as a missing skill. The explorer preserves these evidence boundaries and links verified lesson skills into the local skill database.
 
 - **[Every Mentor — Live Explorer](Mentors-All.html)** — searchable canonical mentor records and lesson→skill navigation.
 - **[Every Skill — Live Explorer](Skills-All.html)** — searchable canonical skill records with mentor→mentor-explorer reverse navigation.
