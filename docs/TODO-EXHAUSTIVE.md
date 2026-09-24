@@ -5856,3 +5856,10 @@
 - [x] Kept the 2026-09-23 audit as historical evidence.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next priority:** scan character/preset, event/raid, and equipment navigation indexes for deterministic stale current counts or orphan IDs.
+
+
+### 2026-09-24 cycle completion — PQ navigation current-layer reconciliation
+- [x] Added current PQ navigation consumer audit with **469 skills / 151 characters / 173 equipment-accessory records** and **853 authoritative PQ relationships**.
+- [x] Registered the audit and preserved older scalar snapshots as historical evidence.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next priority:** scan event/raid and equipment navigation consumers for stale current counts or orphan canonical targets.
