@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-24",
+  "scope": "bounded Xenoverse 2-specific Acid evidence refresh",
+  "skill": {
+    "name": "Acid",
+    "normal_skill_id": 140,
+    "raid_skill_id": 143,
+    "class": "Super",
+    "usable_by_cac": false,
+    "character_source": "Saibaman variants"
+  },
+  "evidence": [
+    {
+      "source": "Xenoverse 2 Character ID List",
+      "url": "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List",
+      "establishes": [
+        "ID 140 Acid is CaC-unavailable.",
+        "ID 143 is a separate Acid entry for the raid-boss variant."
+      ]
+    },
+    {
+      "source": "Dragon Ball Xenoverse 2 Skills Guide",
+      "url": "https://www.scribd.com/document/723438373/Super-skills-dragon-ball",
+      "establishes": [
+        "IDs 140 and 143 are listed as Acid in the Super Skills section."
+      ]
+    },
+    {
+      "source": "Xenoverse 2 Saibaman reference",
+      "url": "https://dbxv2.fandom.com/wiki/Saibaman",
+      "establishes": [
+        "Saibaman 2 uses Acid in its Xenoverse 2 moveset."
+      ]
+    },
+    {
+      "source": "Xenoverse 2 CaC-unobtainable skill discussion",
+      "url": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79567595",
+      "establishes": [
+        "Acid is included among skills unobtainable by CaC."
+      ],
+      "limitation": "Community-maintained and dated; corroboration only."
+    }
+  ],
+  "unresolved_fields": [
+    "ki_cost"
+  ],
+  "guardrails": [
+    "Do not merge normal ID 140 and raid ID 143 into one gameplay record without source-backed equivalence.",
+    "Do not infer numeric Ki cost from Xenoverse, another game, or animation.",
+    "Do not invent a CaC acquisition route."
+  ]
+}
