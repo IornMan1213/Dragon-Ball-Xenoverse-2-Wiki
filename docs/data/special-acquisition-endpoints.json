@@ -339,6 +339,48 @@
         "https://dbxv2.fandom.com/wiki/Super_Attack"
       ],
       "notes": "Endpoint identity is derived only from the canonical skill acquisition record; unresolved objectives, timing, costs, probabilities, or alternate routes remain unmodeled unless explicitly present in canonical data."
+    },
+    {
+      "id": "special-shenron-new-ultimate-ice-cannon",
+      "name": "Shenron — New Ultimate Attack (Ice Cannon)",
+      "acquisition_system": "special_acquisition",
+      "verification_status": "source_backed",
+      "route": "Shenron wish for a new Ultimate Attack",
+      "skill_ids": [
+        "skill-ice-cannon"
+      ],
+      "forward_edges": [
+        {
+          "endpoint_id": "special-shenron-new-ultimate-ice-cannon",
+          "skill_id": "skill-ice-cannon",
+          "relationship": "acquires_or_exposes"
+        }
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ice_Cannon"
+      ],
+      "notes": "Endpoint identity is derived from the canonical skill acquisition record; no reward probability or alternate route is inferred."
+    },
+    {
+      "id": "special-shenron-new-super-ice-claw",
+      "name": "Shenron — New Super Attack (Ice Claw)",
+      "acquisition_system": "special_acquisition",
+      "verification_status": "source_backed",
+      "route": "Shenron wish for a new Super Attack",
+      "skill_ids": [
+        "skill-ice-claw"
+      ],
+      "forward_edges": [
+        {
+          "endpoint_id": "special-shenron-new-super-ice-claw",
+          "skill_id": "skill-ice-claw",
+          "relationship": "acquires_or_exposes"
+        }
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ice_Claw"
+      ],
+      "notes": "Endpoint identity is derived from the canonical skill acquisition record; no reward probability or alternate route is inferred."
     }
   ],
   "forward_edges": [
@@ -411,6 +453,16 @@
       "endpoint_id": "special-surging-spirit",
       "skill_id": "skill-surging-spirit",
       "relationship": "acquires_or_exposes"
+    },
+    {
+      "endpoint_id": "special-shenron-new-ultimate-ice-cannon",
+      "skill_id": "skill-ice-cannon",
+      "relationship": "acquires_or_exposes"
+    },
+    {
+      "endpoint_id": "special-shenron-new-super-ice-claw",
+      "skill_id": "skill-ice-claw",
+      "relationship": "acquires_or_exposes"
     }
   ],
   "reverse_index": {
@@ -463,5 +515,6 @@
     "unique_skill_count": 14,
     "unresolved_skill_ids": []
   },
-  "evidence_policy": "Canonical skill acquisition fields are authoritative. Do not infer unsupported reward conditions, probabilities, or alternate acquisition routes."
+  "evidence_policy": "Canonical skill acquisition fields are authoritative. Do not infer unsupported reward conditions, probabilities, or alternate acquisition routes.",
+  "date": "2026-09-24"
 }
