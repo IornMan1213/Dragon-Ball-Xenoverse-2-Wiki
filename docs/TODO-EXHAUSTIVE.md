@@ -6029,3 +6029,12 @@
 - [x] Validation: structured shop layer and bridge both contain 51 populated records; 4 existing canonical identities remain intentionally unmatched to exact shop IDs.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next priority: continue deterministic event/raid/Festival and non-PQ acquisition consumer scanning for stale current counts, orphan targets, one-way navigation, and canonical-ID drift.
+
+
+### 2026-09-24 cycle completion — raid accessory identity count drift correction
+- [x] Reconciled the current raid accessory identity audit: its resolved array contains **11** identities, not 9; corrected `docs/data/accessory-raid-identity-reconciliation-audit-2026-09-24.json` from 9/9 to **11/11**.
+- [x] Corrected the dependent current projection and canonical database wording from **9** raid identities to **11**.
+- [x] Confirmed all 11 resolved canonical IDs exist and the 18-record raid/gift bridge remains fully resolved.
+- [x] No new identity or route was inferred; only deterministic count/projection drift was repaired.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next priority: continue deterministic event/raid/Festival and non-PQ acquisition consumer scanning for stale counts, orphan targets, one-way navigation, and canonical-ID drift.
