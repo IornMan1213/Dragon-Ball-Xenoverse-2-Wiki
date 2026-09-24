@@ -8241,4 +8241,5 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: 0 targeted obsolete landing-link occurrences remain in `docs/index.md`; all canonical explorer targets exist; navigation-only audit passes.
 - Evidence boundary preserved: no canonical records, relationships, acquisition routes, unlock conditions, mechanics, or historical audit snapshots were changed.
 - CI/runtime remains unavailable; no CI success claimed.
+- Commits: `23708d40ce8a28ea60660d99bdbc2db9df2d195e`, `25fc89bc396b70d55d18887f5ce48106dfdb257e`, `1f52b28bcf518a98ac643d839fa82834da206b3d`.
 - Exact next batch: continue deterministic scan of remaining system/reference landing consumers for stale canonical explorer targets and scalar drift, prioritizing DLC/system/reference pages not covered by registered audits; then resume evidence-gated preset/loadout research only where numeric identity plus complete configuration is directly evidenced.
