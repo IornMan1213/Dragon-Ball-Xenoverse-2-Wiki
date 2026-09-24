@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-24",
+  "scope": "Quick Sleep through Saiyan Spirit P1 skill provenance refresh",
+  "record_count": 12,
+  "records": [
+    "Quick Sleep",
+    "Ribrianne's Eternal Love",
+    "Riot Javelin",
+    "Rise to Action",
+    "Rising Rage",
+    "Rocket Tackle",
+    "Rolling Bullet",
+    "Rolling Hercule Punch",
+    "Rough Ranger",
+    "S.S. Deadly Bomber",
+    "Saiyan Blaster",
+    "Saiyan Spirit"
+  ],
+  "source_policy": "Repository evidence first; existing source sets and maintained acquisition/reward evidence were revalidated. No unsupported mechanics or acquisition conditions were promoted.",
+  "validation": {
+    "canonical_skill_records": 469,
+    "index_skill_records": 469,
+    "duplicate_ids": 0,
+    "id_parity": true,
+    "target_records_current": 12,
+    "current_last_verified_records": 359,
+    "stale_last_verified_records": 110
+  }
+}
