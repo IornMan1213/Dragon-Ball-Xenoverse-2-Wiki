@@ -7049,3 +7049,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Validation: **465 canonical / 465 index / 0 duplicate IDs / 194 current / 271 stale**; target parity clean.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next stale batch:** **Full Power Charge; Full Power Destruction; Future Super Saiyan; Galactic Donuts; Galick Cannon; Galick Gun; Gamma Blaster; Gamma Impact; Genocide Shell; Giant Storm; Gigantic Breaker; Gigantic Burst**.
+
+### 2026-09-24 cycle correction — Finish Breaker through Fruit live census reconciliation
+- [x] Post-write reconciliation confirmed the canonical refresh is live: **465 canonical / 465 index / 206 current / 259 stale / 0 duplicate IDs**.
+- [x] All 12 target records have matching canonical/index IDs and `last_verified=2026-09-24`.
+- [x] The bounded audit validates **12/12 target source-date parity** with **259 stale after**.
+- [x] The earlier 194/271 count in the preceding entry is superseded by this live post-write census; historical text remains preserved.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next stale batch:** **Full Power Charge; Full Power Destruction; Future Super Saiyan; Galactic Donuts; Galick Cannon; Galick Gun; Gamma Blaster; Gamma Impact; Genocide Shell; Giant Storm; Gigantic Breaker; Gigantic Burst**.
