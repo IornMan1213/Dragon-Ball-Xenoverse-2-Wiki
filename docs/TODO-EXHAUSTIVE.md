@@ -5405,3 +5405,12 @@
 - [x] Live validation: **465 canonical / 465 index / 259 current / 206 stale / 0 duplicate IDs**.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Next discovery targets:** **Hollow Rush; Hyper Drain; Hyper Movement; Ice Cannon; Ice Claw; Ice Rain; Ice Sheet**.
+
+
+### 2026-09-24 cycle update — researched Hyper/Ice coverage recovery
+- [x] Promoted **Hyper Drain; Hyper Movement; Ice Cannon; Ice Claw** from existing research batches into canonical/index coverage.
+- [x] Preserved source-backed classifications, costs, acquisition endpoints, and mechanics bounds; unresolved details remain explicitly unresolved.
+- [x] Added recovery audit and refreshed live census: **469 canonical / 469 index / 263 current / 206 stale / 0 duplicate IDs**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Discover/research **Hollow Rush; Ice Rain; Ice Sheet**; no sufficiently direct repository research record was found in the current live search.
+- **Exact next stale batch:** **Heroic Counter; Ill Bomber; Impact Flare; Impulse Slash; Indomitable; Innocence Breath; Innocence Bullet; Innocence Cannon; Instant Charge; Instant Rise; Instant Transmission; Jumping Energy Wave**.
