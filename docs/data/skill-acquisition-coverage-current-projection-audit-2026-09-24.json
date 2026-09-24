@@ -7,8 +7,8 @@
     "canonical_skill_count": 469,
     "pq_linked_skill_count": 239,
     "unlinked_skill_count": 230,
-    "mentor_edge_rows": 132,
-    "mentor_unique_skill_targets": 131,
+    "mentor_edge_rows": 131,
+    "mentor_unique_skill_targets": 130,
     "non_pq_nonmentor_endpoint_targets": 99,
     "expert_mission_edges": 18,
     "time_rift_story_tournament_edges": 13,
@@ -21,5 +21,8 @@
     "arithmetic": "469 - 239 = 230",
     "status": "clean"
   },
-  "evidence_boundary": "Metadata reconciliation only; no acquisition relationships inferred."
+  "evidence_boundary": "Metadata reconciliation only; no acquisition relationships inferred.",
+  "notes": [
+    "Mentor projection reconciled 2026-09-24: 131 resolved edges / 130 unique targets; one Hit lesson remains explicitly unresolved."
+  ]
 }
