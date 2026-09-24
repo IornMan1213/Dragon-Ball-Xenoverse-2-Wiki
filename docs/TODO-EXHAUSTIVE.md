@@ -6529,3 +6529,12 @@
 - [x] Validation: 16 targets checked; 0 loadout promotions; 0 unsupported promotions.
 - [x] Commits: `c157430190381c158d742297bf9dc0dca78435a7` (audit), `c7fe5492d96331c211e92bc9ce057eae35831dcc` (registry).
 - [ ] **Exact next:** locate a directly extractable complete Goku preset table or equivalent artifact, then promote verified loadouts in a batch. If unavailable, move to Vegeta 10–11 / Captain Ginyu 5–6 using the same evidence gate.
+
+### 2026-09-24 completed Vegeta Presets 10–11 evidence pass
+- [x] Rechecked both unresolved numeric preset records against directly extractable current evidence.
+- [x] Community unlock evidence explicitly identifies Vegeta Presets 10 and 11, but only as acquisition/discovery events, not complete loadouts. citeturn0youtube12
+- [x] Current Vegeta in-game-data search evidence exposes the numeric preset table, but directly extractable results did not provide complete Presets 10–11 rows sufficient for eight-slot promotion. citeturn0search3
+- [x] Preserved both records as indexed/unresolved; no inferred skills, awoken, evasive, or Super Soul fields were added.
+- [x] Added and registered `docs/data/vegeta-10-11-preset-loadout-evidence-audit-2026-09-24.json`.
+- [x] Commits: `c74f76e6a70352f4ef665910e27c4c4511e764bf`, `216775a5189aa8bf504e4625fdeb47a282bc069a`, `1d8b8f083f68104f1aaf92c681e9ac38d307751c`.
+- [ ] **Exact next:** audit Captain Ginyu Presets 5–6 with the same complete-loadout evidence gate.
