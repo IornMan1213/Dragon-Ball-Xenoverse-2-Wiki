@@ -203,7 +203,8 @@
     "current_pq_consumer_baseline_2026_09_24": "docs/data/pq-current-consumer-baseline-synchronization-2026-09-24.json",
     "accessory_presentation_consumer_current_2026_09_24": "docs/data/accessory-presentation-consumer-current-audit-2026-09-24.json",
     "farming_presentation_consumer_2026_09_24": "docs/data/farming/pq-farming-presentation-consumer-audit-2026-09-24.json",
-    "festival_skill_character_navigation": "docs/data/festival-skill-character-navigation-audit-2026-09-24.json"
+    "festival_skill_character_navigation": "docs/data/festival-skill-character-navigation-audit-2026-09-24.json",
+    "future_saga_chapter_4_presentation_consumer": "docs/data/future-saga-chapter-4-presentation-consumer-audit-2026-09-24.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
