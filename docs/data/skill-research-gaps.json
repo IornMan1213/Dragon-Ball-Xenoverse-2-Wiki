@@ -60,14 +60,15 @@
       "status": "unresolved",
       "known_identity": "Demon God Demigra (Final Form) attack",
       "missing": [
-        "class",
         "subcategory",
         "ki_cost"
       ],
       "evidence": [
-        "Xenoverse 2 Legend Patrol enemy table lists Energy Boil on Final Form Demigra"
+        "Xenoverse 2 Character ID List assigns skill ID 10540 to Energy Boil, marks it CaC-unavailable, and identifies Demon God Demigra (Final Form) as its source.",
+        "A Xenoverse 2 Demigra restoration/mod artifact explicitly describes Energy Boil as functioning as an evasive for Final Form Demigra.",
+        "A Dragon Ball reference independently identifies Energy Boil as Final Demigra's Evasive Skill and describes its energy/teleport/ki-gathering behavior."
       ],
-      "reason": "Current Xenoverse 2-specific subtype evidence was not located."
+      "reason": "Xenoverse 2-specific evidence now establishes the Evasive classification and CaC restriction, but the repository's canonical subcategory and Ki-cost fields remain unverified."
     },
     {
       "name": "Baked Sphere",
