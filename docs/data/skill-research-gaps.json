@@ -14,17 +14,15 @@
       "status": "unresolved",
       "known_identity": "Cast-exclusive Super used by Saibaman variants",
       "missing": [
-        "class",
-        "subcategory",
         "ki_cost",
         "unlock_method"
       ],
       "evidence": [
-        "docs/data/skills.json audit: absent",
-        "Xenoverse 2 character ID list identifies Acid as CaC-unavailable",
-        "Xenoverse 2 PQ evidence identifies Kyukonman/Kaiwareman as users"
+        "Xenoverse 2 character/skill enumeration identifies Acid as a cast-only Saibaman skill and CaC-unavailable.",
+        "Xenoverse 2-specific community documentation records Acid on Saibaman 2, the Crystal Raid/Training-only Saibaman preset.",
+        "Xenoverse 2 reference material distinguishes Acid from Saibabeam and identifies Saibaman variants as users."
       ],
-      "reason": "Current dedicated searches did not establish the Xenoverse 2 attack/subcategory fields strongly enough."
+      "reason": "Xenoverse 2-specific evidence now establishes the skill identity, cast-only/CaC-unavailable boundary, and Crystal Raid/Training Saibaman-2 presence, but the repository's canonical Ki-cost and acquisition/unlock fields remain unverified."
     },
     {
       "name": "Howl",
