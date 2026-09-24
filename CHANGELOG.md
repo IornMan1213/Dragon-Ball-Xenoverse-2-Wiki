@@ -2835,3 +2835,9 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 ### September 24, 2026 — Chapter 4 character audit count synchronization
 - Corrected the current Future Saga Chapter 4 character-navigation audit from a stale **153** canonical-character count to the live **152** canonical identities in `docs/data/characters-record-layer.json`.
 - Preserved the two Chapter 4 character identities and exact identity-resolution results; no preset/loadout/acquisition relationship was inferred.
+
+## 2026-09-24 — Skill Explorer self-navigation repair
+- Repointed `docs/Skills-All.html` skill-card self/entity links from generic `/Search/?q=` to the canonical `Skills-All.html?q=...` explorer.
+- Extended `docs/data/canonical-explorer-self-navigation-audit-2026-09-24-b.json`; the audit was already registered in the central cross-domain index.
+- Validation: 0 generic Search self-link definitions remain in the Skill Explorer; audit parses and passes; no canonical data or relationship semantics changed.
+- CI/runtime unavailable; no CI success claimed.
