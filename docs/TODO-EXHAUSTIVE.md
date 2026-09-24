@@ -6152,3 +6152,10 @@
 - [x] Validation: canonical producer re-read at 230 records; edited guide re-fetched after commit and target wording was replaced without unrelated normalization.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next batch:** continue deterministic non-PQ event/raid/Festival/Chapter 4 consumer scanning for stale scalar counts and one-way navigation; then resume source-backed preset/loadout expansion.
+
+### 2026-09-24 cycle completion — Super Soul database census synchronization
+- [x] Found a second current-facing stale Super Soul census in `docs/Super-Souls-Database.md`: **42** populated records versus **230** live canonical records.
+- [x] Corrected only the current census statement to **230**; historical research-batch tables and dated history remain unchanged.
+- [x] Validation: live canonical layer remains 230 records; edited database fetched after commit and the current census is synchronized.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next batch:** continue deterministic non-PQ Event/Raid/Festival/Chapter 4 consumer scanning, including current-facing prose outside dated historical sections, then resume source-backed preset/loadout expansion.
