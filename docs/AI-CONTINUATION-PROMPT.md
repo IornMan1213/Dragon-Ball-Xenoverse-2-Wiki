@@ -625,3 +625,11 @@
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [x] Commits: 97a09fd5653ef8fd497b202e5059f77e86ffdd09, 16b4c1a5c67429e262c5200260ad1fd6f9a417c9, 617559a481b5dc12033dd3b7a6d6d3025ae7f7ad.
 - [ ] **Exact next:** continue the next unresolved thin-domain candidate after Boiling Ball/Tricky Strike, prioritizing a record whose remaining field can be resolved by direct Xenoverse 2 evidence; preserve the 469/469 canonical boundary until the supported builder/runtime is available.
+
+### 2026-09-24 continuation — Energy Boil evidence-boundary pass
+- [x] Followed the post-Boiling Ball/Tricky Strike queue and selected **Energy Boil** as the next unresolved thin-domain record.
+- [x] Added current external/reference evidence confirming **Energy Boil = Final Form Demigra's Evasive Skill**, including the defensive/teleport/ki-gathering behavior; Xenoverse 2 ID evidence confirms **ID 10540**, CaC-unavailable status, and Final Form Demigra ownership. 
+- [x] Strengthened the dedicated Energy Boil evidence audit and central gap ledger.
+- [x] Preserved the evidence boundary: `subcategory` and `ki_cost` remain unresolved because the new evidence does not expose a trustworthy canonical XV2 subtype or numeric cost. No subtype was inferred from animation/function wording.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue the remaining unresolved queue, prioritizing a record where direct Xenoverse 2 evidence can resolve an actual missing field; do not repeat identity-only enrichment unless it materially changes the evidence boundary.
