@@ -6744,3 +6744,11 @@
 - [x] Validation target: 469 canonical skills / 469 index skills / 1 Quick Sleep shop edge / 0 duplicate Quick Sleep edges / 0 unresolved Quick Sleep endpoint.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next:** reconcile downstream Quick Sleep consumers to the refreshed endpoint date, then continue with the next evidence-backed P1 target only where a bounded canonical/index or endpoint change is directly supported.
+
+
+### 2026-09-24 continuation — Quick Sleep downstream consumer synchronization
+- [x] Scanned repository consumers for Quick Sleep after the endpoint provenance refresh.
+- [x] Synchronized `docs/data/skill-acquisition-coverage-report.json` to the live **469 canonical / 239 PQ-linked / 230 non-PQ** baseline and recorded Quick Sleep's unchanged shop-linked classification.
+- [x] No additional acquisition relationship or alternate canonical endpoint was inferred.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next:** continue deterministic current-facing consumer scanning for stale skill endpoint/count metadata; prioritize the next evidence-backed P1 gap only after projection drift is exhausted.
