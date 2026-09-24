@@ -5104,3 +5104,13 @@
 - [x] Revalidated representative updated audits by direct fetch/JSON parse.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next task:** continue the P1 acquisition/provenance queue from the live **95 non-PQ/non-mentor** skill set, prioritizing explicit endpoint/provenance gaps rather than baseline-only cleanup.
+
+### 2026-09-23 cycle update — Expert Mission skill provenance refresh
+- [x] Recomputed the live P1 acquisition/provenance target and selected the ten previously under-sourced Expert Mission skill records with explicit acquisition endpoints.
+- [x] Added independent source corroboration for Murder Grenade, Death Wave, Death Meteor, Dead End Bullet, Assault Rain, Hellzone Grenade, Super Electric Strike, Shocking Death Ball, and Blue Hurricane; the corroborating guide explicitly lists each as a Basic Reward for its Expert Mission.
+- [x] Added separate GameFAQs corroboration for Spirit Sword; deliberately did not use the guide's EM17 "Spirit Bomb" text to infer a Spirit Sword reward tier.
+- [x] Promoted all ten canonical skill records to `verified_current_scope` and `enriched`, while preserving the existing acquisition endpoint and evidence boundary.
+- [x] Added and registered `docs/data/skill-expert-mission-provenance-audit-2026-09-23.json`.
+- [x] Validation: **465 canonical skills / 0 duplicate IDs / 10 reviewed IDs resolve / provenance audit pass**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next task:** reconcile the remaining partially verified Expert Mission endpoint-layer records using explicit evidence, then continue the non-PQ/non-mentor acquisition gaps (including Ultra Instinct) without inferred relationships.
