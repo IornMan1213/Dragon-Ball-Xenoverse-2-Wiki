@@ -1,3 +1,10 @@
+## 2026-09-24 — Punisher Shield P1 provenance refresh
+
+- Refreshed Punisher Shield research provenance for Super/Ki Blast identity, Counter taxonomy, CaC availability, Extra Pack 4 provenance, 100 Ki, and PQ129 acquisition.
+- Preserved unresolved reward probability, Ultimate Finish, and detailed combat measurements.
+- Added and registered `docs/data/skill-punisher-shield-p1-provenance-enrichment-2026-09-24.json`.
+- CI/runtime unavailable; no CI success claimed.
+
 ## 2026-09-24 — Savage Strike P1 provenance enrichment
 
 - Strengthened Savage Strike research provenance for identity, 100-Ki Strike classification, CaC availability, TP Medal Shop route, alternate teleport input, and knockback pursuit.
