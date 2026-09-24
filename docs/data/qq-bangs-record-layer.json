@@ -115,6 +115,61 @@
         "https://steamcommunity.com/app/454650/discussions/0/3073118388414099681/",
         "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/632375-how-to-get-five-star-qq-bang"
       ]
+    },
+    {
+      "id": "qq-observed-001",
+      "record_type": "community_observed_result",
+      "name": "Pride Trooper Uniform top + Light Heart Suit bottom — observed six-stat output",
+      "stars": 6,
+      "health": -1,
+      "ki": 5,
+      "stamina": 5,
+      "basic_attack": 5,
+      "strike_supers": 5,
+      "ki_blast_supers": -1,
+      "clothing_inputs": "Pride Trooper Uniform top and Light Heart Suit bottom",
+      "mixing_item": "Super Mix Capsule Z",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Community-observed synthesis report",
+      "rng_notes": "Single community-observed result; it demonstrates variance but is not sufficient to establish a deterministic recipe or population distribution.",
+      "build_tags": [
+        "Ki + Stamina",
+        "Basic Attack",
+        "Strike Supers",
+        "Community observed"
+      ],
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-24",
+      "sources": [
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/17mrexx/"
+      ]
+    },
+    {
+      "id": "qq-observed-002",
+      "record_type": "community_observed_result",
+      "name": "Beerus top + Light Heart Suit top — community-reported high-tier result family",
+      "stars": 6,
+      "health": null,
+      "ki": null,
+      "stamina": null,
+      "basic_attack": null,
+      "strike_supers": null,
+      "ki_blast_supers": null,
+      "clothing_inputs": "Beerus top and Light Heart Suit top",
+      "mixing_item": "Super Mix Capsule Z",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Community recipe/result report",
+      "rng_notes": "Source reports multiple outcomes ranging roughly 15–19 total positive points in one user's attempts and describes the result as a gamble. No exact six-stat vector is preserved here because the source does not provide a stable canonical output.",
+      "build_tags": [
+        "Ki Blast-focused",
+        "Community observed",
+        "Recipe family"
+      ],
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-24",
+      "sources": [
+        "https://steamcommunity.com/app/454650/discussions/0/3879347492855720788/"
+      ]
     }
   ]
 }
