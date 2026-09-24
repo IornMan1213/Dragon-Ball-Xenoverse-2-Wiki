@@ -1,3 +1,10 @@
+### 2026-09-24 completed/ongoing artifact-check investigation
+- [x] Repository quality attempt 2 completed with failure at `Check for internal artifacts`.
+- [x] Checked the live checker and repository search for its forbidden marker classes; no indexed `turn10file`/`turn11file` matches remain.
+- [x] CI job logs are unavailable through the current GitHub API response (`BlobNotFound`), preventing reliable identification of the failing tracked path.
+- [x] Checker semantics were not weakened and no false CI success was recorded.
+- [ ] **Next:** perform a deterministic full-tree scan from the exact checkout or obtain usable job logs, then remove only the confirmed offending artifact.
+
 ### 2026-09-24 completed repository artifact cleanup — CI recovery
 - [x] Investigated the repeated Repository quality artifact-check failure and inspected the repository's checker/cleaner contract.
 - [x] Removed residual internal citation/export markers from the affected tracked documentation/research files.
