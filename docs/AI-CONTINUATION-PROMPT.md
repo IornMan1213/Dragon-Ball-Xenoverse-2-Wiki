@@ -6911,3 +6911,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - Validation: **465/465 canonical/index IDs**, **0 duplicate IDs**, **84 current / 381 stale** after editing.
 - CI/runtime remains unavailable; no CI success claimed.
 - Exact next stale batch: **Crusher Ball; Dancing Parapara; Dark Inscription; Darkness Eye Beam; Darkness Rush (Melee); Darkness Rush (Ranged); Darkness Twin Star; Data Input; Dead End Bullet; Dead End Rain; Deadly Dance; Death Ball**.
+
+
+### 2026-09-24 cycle update — Crusher Ball through Death Ball provenance refresh
+
+- Live census before editing: **465 canonical / 465 index / 381 stale / 0 duplicate IDs**.
+- Completed the next bounded P1 batch: **12 skill records** — Crusher Ball; Dancing Parapara; Dark Inscription; Darkness Eye Beam; Darkness Rush (Melee); Darkness Rush (Ranged); Darkness Twin Star; Data Input; Dead End Bullet; Dead End Rain; Deadly Dance; Death Ball.
+- Repository-first evidence review used the existing maintained source/provenance records for each target; source-backed acquisition and evidence boundaries were preserved rather than inferred or expanded.
+- Refreshed canonical last_verified to **2026-09-24** for all 12 targets. No canonical skill identity or acquisition relationship was changed.
+- Added `docs/data/skill-provenance-audit-2026-09-24-crusher-ball-through-death-ball.json` and refreshed `docs/data/skill-stale-metadata-census-2026-09-24.json`.
+- Validation: **465/465 canonical/index IDs**, **0 duplicate IDs**, **96 current / 369 stale** after editing.
+- CI/runtime remains unavailable; no CI success claimed.
+- Exact next stale batch: **Death Beam; Death Crasher; Death Meteor; Death Psycho Bomb; Death Slash; Death Slicer; Death Wave; Demon Flash Strike; Demon Flurry; Demon Ray; Demonic Destruction; Destruction's Concerto: Comet**.
