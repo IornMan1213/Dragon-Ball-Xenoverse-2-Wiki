@@ -1593,6 +1593,47 @@
       },
       "status": "partially_verified",
       "identity_note": "Independent inventory/model evidence identifies this as a distinct accessory (model ID 942), separate from Turtle Hermit's Shell. Online Raid documentation lists it as a raid accessory reward; Crystal Raid attribution remains unconfirmed in the current evidence set."
+    },
+    {
+      "id": "accr-114",
+      "canonical_name": "Cheelai Wig",
+      "aliases": [],
+      "routes": [
+        "Online Raid Quest"
+      ],
+      "route_refs": {
+        "shop": []
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact inventory/model reference identifies Cheelai Wig as a distinct accessory (model ID 779), separate from Cheelai Wig (w/ Scouter). Online Raid documentation establishes the Time Patroller Takedown route; current availability and reward conditions remain unresolved."
+    },
+    {
+      "id": "accr-115",
+      "canonical_name": "Cheelai Wig (w/Scouter)",
+      "aliases": [
+        "Cheelai's Wig (w/ Scouter)"
+      ],
+      "routes": [
+        "Online Raid Quest"
+      ],
+      "route_refs": {
+        "shop": []
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact inventory/model reference identifies the scouter variant as a distinct accessory (model ID 777), separate from Cheelai Wig. Independent raid/character documentation identifies it as Cheelai's female-exclusive accessory from the Impending Danger/Jiren raid route; current availability and reward conditions remain unresolved."
+    },
+    {
+      "id": "accr-116",
+      "canonical_name": "Hercule Wig 2",
+      "aliases": [],
+      "routes": [
+        "Online Raid Quest"
+      ],
+      "route_refs": {
+        "shop": []
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact inventory/model reference identifies Hercule Wig 2 as a distinct accessory (model ID 946), separate from Hercule Wig. Official Bandai Namco event documentation and current raid documentation establish raid reward routes; current availability and reward conditions remain unresolved."
     }
   ],
   "unresolved_alias_groups": [
@@ -1645,6 +1686,9 @@
     "https://enjoi7.sakura.ne.jp/db_newproject2/ac.html",
     "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/81168369",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-    "https://www.gameskinny.com/tips/dragon-ball-xenoverse-guide-equipment-and-accessory-list/"
+    "https://www.gameskinny.com/tips/dragon-ball-xenoverse-guide-equipment-and-accessory-list/",
+    "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-new-dlc-character-and-7-day-consecutive-world-tournament",
+    "https://dragonball.fandom.com/wiki/Cheelai",
+    "https://www.scribd.com/document/827095341/Demons-Xenoverse-ID-List"
   ]
 }
