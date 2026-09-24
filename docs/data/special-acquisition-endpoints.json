@@ -298,7 +298,7 @@
       "name": "Ultra Instinct unlock challenge",
       "acquisition_system": "special_acquisition",
       "verification_status": "source_backed",
-      "route": "Clear the relevant Jiren (Full Power) mastery challenge after the prerequisite route.",
+      "route": "Complete \"In Pursuit of Mastery\" against Jiren (Full Power) to unlock Ultra Instinct.",
       "skill_ids": [
         "skill-ultra-instinct"
       ],
@@ -312,9 +312,10 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ultra_Instinct",
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
-        "https://dragonball.fandom.com/wiki/Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/Future_Warrior_%28Xenoverse_2%29",
+        "https://videogaming.fandom.com/wiki/In_Pursuit_of_Mastery"
       ],
-      "notes": "Endpoint identity is derived only from the canonical skill acquisition record; unresolved objectives, timing, costs, probabilities, or alternate routes remain unmodeled unless explicitly present in canonical data."
+      "notes": "The In Pursuit of Mastery reference explicitly states that completing the Jiren (Full Power) level unlocks Ultra Instinct. This corroborates the endpoint identity and unlock route; no additional prerequisite, probability, or alternate route is inferred."
     },
     {
       "id": "special-surging-spirit",
