@@ -7039,3 +7039,13 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [x] Preserved existing acquisition, reward, classification, mechanics, restriction, DLC/update, and evidence-conflict semantics; no unsupported fields were inferred.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next stale batch:** **Finish Breaker; Finishing Blow; Flash Bomber; Flash Chaser; Flash Fist Crush; Flash Strike; Focus Flash; Force Edge; Force Shield; Formation!; Freedom Kick; Fruit of the Tree of Might**.
+
+### 2026-09-24 cycle update — Finish Breaker through Fruit of the Tree of Might provenance refresh
+- [x] Live census before editing: **465 canonical / 465 index / 194 current / 271 stale / 0 duplicate IDs**.
+- [x] Completed bounded P1 batch: **Finish Breaker; Finishing Blow; Flash Bomber; Flash Chaser; Flash Fist Crush; Flash Strike; Focus Flash; Force Edge; Force Shield; Formation!; Freedom Kick; Fruit of the Tree of Might**.
+- [x] Synchronized canonical/index verification metadata to `2026-09-24` for all 12 targets.
+- [x] Added and registered the bounded provenance audit and refreshed the stale-metadata census.
+- [x] Evidence: reused existing per-record source corpus; acquisition, reward, mechanics, restriction, DLC/update, and conflict semantics were preserved.
+- [x] Validation: **465 canonical / 465 index / 0 duplicate IDs / 194 current / 271 stale**; target parity clean.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next stale batch:** **Finish Breaker; Finishing Blow; Flash Bomber; Flash Chaser; Flash Fist Crush; Flash Strike; Focus Flash; Force Edge; Force Shield; Formation!; Freedom Kick; Fruit of the Tree of Might**.
