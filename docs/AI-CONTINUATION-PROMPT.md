@@ -7383,3 +7383,15 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] Exact next priority: audit the remaining non-PQ reverse projections and identity bridges (character, DLC, mentor/shop/event, and partial research indexes) for orphan targets and stale current-field counts, beginning with the next machine-checkable projection that can be reconciled without inventing relationships.
 - Commits: PQ cross-domain audit `93957a432075f5f08ec1496326c236b4f0cc2f82`; cross-link contract `0691d85d9f827fcab665dba75a5107e835020a22`.
+
+
+### 2026-09-24 cycle update — character/DLC identity bridge live-census reconciliation
+- [x] Re-read the live continuation instructions, efficiency addendum, and exhaustive TODO before continuing.
+- [x] Audited the machine-checkable published Character/DLC navigation contract and its canonical identity inputs: `docs/data/characters-record-layer.json`, `docs/data/characters/dlc-character-identity-bridge.json`, `docs/data/dlc/canonical-dlc-identity.json`, and `scripts/validate_published_character_dlc_navigation.py`.
+- [x] Resolved a documentation-census drift: the live canonical character record layer contains **151 unique characters**, while an older 2026-09-22 historical note still referenced 149. The historical note was preserved; no canonical identity was invented or removed.
+- [x] Refreshed `docs/data/characters/published-character-dlc-navigation-audit.json` to 2026-09-24 with current counts: **151 canonical characters / 15 DLC-character bridge records / 20 canonical DLC identities / 86 canonical PQ→DLC edges / 20 unique DLC targets**; 14 bridge targets resolve and 1 source label remains intentionally unresolved.
+- [x] Deterministic identity checks remain clean: 0 missing character targets, 0 unresolved records carrying canonical targets, 0 duplicate bridge sources/targets, 0 orphan DLC identities, 0 duplicate DLC IDs/names, and 0 malformed PQ→DLC targets.
+- [x] Preserved the partial-research boundary: the unresolved Supreme Kai of Time (Ultra Supervillain) source label remains unresolved rather than being mapped to a nearby canonical identity.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next batch: inspect the next non-PQ reverse projection/partial research index for deterministic current-count or target-resolution drift, prioritizing DLC presentation consumers and mentor/shop/event reverse indexes before speculative content expansion.
+- Commit: published Character/DLC navigation audit `548baafb8f08ae44ac18eff0b9b2b31a84af8d56`.
