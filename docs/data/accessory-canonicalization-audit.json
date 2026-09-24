@@ -467,7 +467,8 @@
   "notes": [
     "Six legacy equipment accessory endpoints were normalized to canonical acc-### identities in the 2026-09-22 bounded reconciliation batch.",
     "2026-09-23: Normalized DAIMA accessory identities to acc-071 through acc-074 from exact-name combined-layer records equip-099/equip-101/equip-104/equip-105; legacy equipment endpoints remain alias projections.",
-    "2026-09-23 validator reconciliation: live equipment-accessories-record-layer.json contains 74 canonical accessory records; pq-accessory-crosslink-report.json now reports 74 canonical accessories, 32 forward edges, 32 reverse edges, 12 unresolved research records, zero duplicate forward edges, zero stale endpoints, and endpoint_integrity=pass."
+    "2026-09-23 validator reconciliation: live equipment-accessories-record-layer.json contains 74 canonical accessory records; pq-accessory-crosslink-report.json now reports 74 canonical accessories, 32 forward edges, 32 reverse edges, 12 unresolved research records, zero duplicate forward edges, zero stale endpoints, and endpoint_integrity=pass.",
+    "2026-09-24: The legacy PQ accessory projection remains 74 `acc-###` identity records / 32 PQ edges; this is intentionally distinct from the newer canonical reconciliation layer, which now contains 116 `accr-###` accessory identities. The 74-record PQ projection must not be interpreted as the total current canonical accessory inventory."
   ],
   "validation_summary": {
     "canonical_accessory_records": 74,
@@ -477,6 +478,11 @@
     "unresolved_pq_research_records": 12,
     "duplicate_forward_edges": 0,
     "stale_endpoint_count": 0,
-    "endpoint_integrity": "pass"
+    "endpoint_integrity": "pass",
+    "current_canonical_reconciliation_records": 116,
+    "legacy_pq_projection_records": 74,
+    "legacy_pq_projection_forward_edges": 32,
+    "legacy_pq_projection_reverse_edges": 32,
+    "projection_boundary": "The `acc-###` PQ crosslink layer and `accr-###` canonical accessory reconciliation layer are separate identity/projection layers; no duplicate inventory identity is implied by the differing counts."
   }
 }
