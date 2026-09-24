@@ -39,5 +39,12 @@
     "no_preset_loadout_promoted": true
   },
   "evidence_boundary": "The maintained Festival research batch provides three explicit Festival skill records and named character sources. All three source character names are present in the canonical character layer. The unavailable-for-CaC index independently lists the three Festival skills. This audit proves identity/navigation readiness only; it does not claim complete Festival skill inventory, event scheduling, reward timing, camaraderie thresholds beyond the maintained route wording, or current availability.",
-  "status": "clean"
+  "status": "clean",
+  "presentation_consumer": {
+    "page": "docs/Skills-Database.md",
+    "section": "Festival of Universes — Named Skill Routes",
+    "named_skill_rows": 3,
+    "rows_match_records": true,
+    "no_pq_edges_inferred": true
+  }
 }
