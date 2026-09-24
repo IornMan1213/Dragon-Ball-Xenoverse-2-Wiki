@@ -13,7 +13,7 @@
     "legacy_pq_forward_edges": 32,
     "legacy_pq_reverse_edges": 32,
     "current_accr_canonical_records": 116,
-    "current_raid_identity_records": 9,
+    "current_raid_identity_records": 11,
     "current_raid_unresolved": 0
   },
   "findings": [
