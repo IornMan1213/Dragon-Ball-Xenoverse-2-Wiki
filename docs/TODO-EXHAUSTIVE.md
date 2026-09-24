@@ -5214,3 +5214,12 @@
 - [x] Validation: **465/465 canonical/index IDs, 0 duplicate IDs, 60 current, 405 stale**.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - **Exact next batch:** Burst Rush; Burst Stinger; Buu Buu Ball; Candy Beam; Candy Beam (Super); Celestial Wave; Chain Destructo-Disc Barrage; Change The Future; Chaos Shot; Chaos Wall; Chaotic Time Impact; Charge.
+
+
+### 2026-09-24 cycle update — Burst Rush through Charge provenance refresh
+- [x] Bounded P1 batch: **Burst Rush; Burst Stinger; Buu Buu Ball; Candy Beam; Candy Beam (Super); Celestial Wave; Chain Destructo-Disc Barrage; Change The Future; Chaos Shot; Chaos Wall; Chaotic Time Impact; Charge**.
+- [x] Refreshed canonical last_verified to **2026-09-24** using existing repository evidence; acquisition/reward/mechanics/DLC semantics preserved.
+- [x] Added `docs/data/skill-provenance-audit-2026-09-24-burst-through-charge.json` and refreshed the live stale census.
+- [x] Validation: **465/465 canonical/index IDs, 0 duplicate IDs, 72 current, 393 stale**.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- **Exact next batch:** Charged Ki Wave; Circle Flash; Comet Strike; Confusion Blade; Core Breaker; Counter Burst; Counter Impact; Crazy Finger Shot; Crimson Edge; Critical Upper; Crush Cannon; Crush Stream.
