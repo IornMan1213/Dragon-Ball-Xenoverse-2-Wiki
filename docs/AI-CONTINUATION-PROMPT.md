@@ -1,3 +1,11 @@
+### 2026-09-24 cycle update — residual current accessory homepage consumer drift
+
+- Re-scanned current-facing accessory count consumers after the canonical reconciliation and farming presentation passes.
+- Found `docs/index.md` still exposed historical **53 Accessory Shop / 37 canonical accessory** counts despite the live current state being **51 / 116**.
+- Corrected only those live homepage assertions; historical research files and dated audit history were not rewritten.
+- Confirmed `docs/Accessory-Canonical-Database.md` already carries the current **116 canonical identities / 51 shop records** state.
+- **Exact next priority:** continue deterministic current-facing consumer scanning outside the already-covered accessory/PQ layers, prioritizing remaining character/preset and event/raid-linked presentation consumers and stale scalar/count assertions.
+
 ### 2026-09-24 cycle update — canonical farming presentation consumer
 
 - Audited the remaining canonical farming presentation path after the farming reverse identity layer was already clean.
