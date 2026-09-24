@@ -6674,3 +6674,13 @@
 - [x] Validation: canonical/index parity **469/469**; duplicate IDs **0**; unresolved PQ→skill edges **0**; unsupported relationships added **0**.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next:** continue scanning remaining current-facing projections for stale 465/older skill-count scalars, then return to source-backed P1 provenance enrichment once deterministic projection drift is exhausted.
+
+
+### 2026-09-24 continuation — current skill projection stale-scalar scan closed
+- [x] Searched current-facing skill projections for superseded 465-record scalar patterns after the live baseline reconciliation.
+- [x] Classified dated provenance/research artifacts retaining 465 as historical batch context; they were preserved unchanged under the append-only history rule.
+- [x] Confirmed the two current-facing projections previously identified are reconciled to **469**.
+- [x] Added and registered `docs/data/current-skill-projection-stale-scalar-scan-2026-09-24.json`.
+- [x] Validation: live canonical/index baseline **469/469**, duplicate IDs **0**, remaining current stale skill-count scalars **0** in the bounded search.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] **Exact next:** return to source-backed P1 provenance enrichment, selecting the next canonical skill batch with direct existing evidence and preserving unresolved mechanics/probability fields.
