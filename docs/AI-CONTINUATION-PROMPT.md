@@ -7555,3 +7555,11 @@ When several tasks are available, choose the highest-impact task that is: (a) di
 - CI/runtime unavailable; no CI success claimed.
 - Commit: backlog synchronization `09beac8740fbf239c75b2456664c0783681f933e`.
 - **Exact next priority:** audit the remaining unresolved accessory route candidates against canonical/equipment/route-specific layers, then continue deterministic event/raid non-PQ consumer scanning.
+
+
+### 2026-09-24 cycle completion — Turtle Hermit's Beard exact accessory reconciliation
+- Promoted **Turtle Hermit's Beard → `accr-112`** using the exact existing `acc-032` equipment identity. Route evidence remains bounded; no unsupported shop/reward condition was added.
+- Removed Turtle Hermit's Beard from the unmatched route backlog. **4 unresolved candidates remain:** Cheelai Wig, Golden Turtle Hermit's Shell, Hercule Wig 2, and SSGSS Goku's Wig.
+- The other four remain unresolved because the repository does not currently establish exact identity without assuming equivalence from route/name similarity.
+- Commits: canonical `4e079287b52037f22484b41e1bb56dc6253acde3`; backlog `b75813cc8f3f1c87b0d0f7e7875efe876021f22f`.
+- **Exact next priority:** reconcile the remaining four unmatched accessory candidates, beginning with Golden Turtle Hermit's Shell and SSGSS Goku's Wig, then continue deterministic event/raid non-PQ consumer scanning.
