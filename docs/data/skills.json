@@ -9364,12 +9364,12 @@
       "race_restriction": "All CaC races",
       "source_quest_or_shop": "Parallel Quest 97 — \"Insidious Plot\"",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ97, usable by all CaC races. The technique feints/teleports behind the opponent before striking; timing and follow-up behavior remain implementation-sensitive. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
       "source_quest": 97,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ97; no Ultimate Finish-only condition is established for this record. 2026-09-19 deterministic acquisition verification: Parallel Quest 97. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance strengthening: Dragon Ball Wiki's Phantom Fist entry independently confirms Xenoverse 2 acquisition by the Future Warrior as a reward from Parallel Quest 97, while identifying Phantom Fist as a Super Skill; no new drop probability, Ultimate Finish gate, or prerequisite is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ97; no Ultimate Finish-only condition is established for this record. 2026-09-19 deterministic acquisition verification: Parallel Quest 97. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance strengthening: Dragon Ball Wiki's Phantom Fist entry independently confirms Xenoverse 2 acquisition by the Future Warrior as a reward from Parallel Quest 97, while identifying Phantom Fist as a Super Skill; no new drop probability, Ultimate Finish gate, or prerequisite is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.",
       "id": "skill-phantom-fist",
       "source_parallel_quests": [
         97
@@ -9392,7 +9392,7 @@
       "mechanics_notes": "100-Ki Ki Blast Super from PQ139. Fires a fast photon projectile that can be steered/extended by continued input; current canonical acquisition evidence records a 37% Ultimate Finish bonus roll. No additional gate is inferred beyond the documented UF condition.\n2026-09-23 mechanics/provenance refresh: corroborating raid/PQ references support its 100-Ki Ki Blast Super classification and its documented use against the Gigantic Ki Blast; no broader mechanics or damage values were inferred.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Photon_Swipe",
@@ -9403,7 +9403,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 139,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-21 Ultra Pack 2 provenance audit: official Bandai Namco documentation confirms Ultra Pack 2 contains five Parallel Quests and eight techniques; the maintained 186-PQ guide maps the eight canonical skills to PQ138–142. The live canonical source-PQ relationships agree with the DLC label for all eight records. This pass verifies DLC provenance only and does not normalize reward-tier semantics.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-21 Ultra Pack 2 provenance audit: official Bandai Namco documentation confirms Ultra Pack 2 contains five Parallel Quests and eight techniques; the maintained 186-PQ guide maps the eight canonical skills to PQ138–142. The live canonical source-PQ relationships agree with the DLC label for all eight records. This pass verifies DLC provenance only and does not normalize reward-tier semantics.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.",
       "id": "skill-photon-swipe",
       "source_parallel_quests": [
         139
@@ -9427,13 +9427,13 @@
       "mechanics_notes": "500 Ki; +15% Strike and Blast, +5% Strike and Blast Defense. The current research corpus notes the in-game Ki-recovery text is misleading; do not treat it as a damage or recovery bonus beyond the documented values. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate. 2026-09-21 cross-domain normalization: canonical Advancement Test endpoint advancement-test-super added from the existing acquisition record.\n2026-09-23 mechanics/provenance enrichment: corroborating references continue to support the 500-Ki Awoken classification and documented attack/defense modifiers; the final Advancement Test remains the acquisition endpoint.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Potential_Unleashed",
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
         "https://steamcommunity.com/app/454650/discussions/0/305510202679840741/"
       ],
-      "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +15% all attacks and +5% damage reduction. 2026-09-20 provenance refinement: repository Advancement Tests research explicitly identifies the final Super Class test as the Potential Unleashed reward and the prior Easy-through-God Z-Rank requirement. 2026-09-22 provenance strengthening: Steam community discussion independently corroborates that Potential Unleashed is obtained from the Advancement Tests and the final test becomes available after the required prior Z-ranks; no unsupported shortcut, probability, or additional prerequisite is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.",
+      "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +15% all attacks and +5% damage reduction. 2026-09-20 provenance refinement: repository Advancement Tests research explicitly identifies the final Super Class test as the Potential Unleashed reward and the prior Easy-through-God Z-Rank requirement. 2026-09-22 provenance strengthening: Steam community discussion independently corroborates that Potential Unleashed is obtained from the Advancement Tests and the final test becomes available after the required prior Z-ranks; no unsupported shortcut, probability, or additional prerequisite is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.",
       "source_quest": "Patroller Academy — Super Class Advancement Test",
       "acquisition_type": "quest_or_mission",
       "id": "skill-potential-unleashed",
@@ -9455,12 +9455,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Android 18 mentor training",
       "mechanics_notes": "100-Ki Ki Blast Super from Android 18 mentor training. Fires a rapid series of ki blasts at the opponent; current evidence establishes the mentor endpoint and cost, while exact hit/damage values remain deferred.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "race_restriction": "All CaC races",
       "source_quest": "Android 18 mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.",
       "id": "skill-power-blitz",
       "source_mentor": [
         "mentor-android-18"
@@ -9484,7 +9484,7 @@
       "mechanics_notes": "100-Ki Ki Blast Super from PQ120 — Whis's Special Training. Fires a powerful straight Ki Blast that can stagger the opponent. The canonical classification is Ki Blast, correcting the stale Strike description in the legacy prose; PQ120 Basic Reward remains the acquisition endpoint.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Power_Impact",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
@@ -9493,7 +9493,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 120,
       "acquisition_type": "quest_or_mission",
-      "notes": " 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 2.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.",
+      "notes": " 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 2.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.",
       "id": "skill-power-impact",
       "source_parallel_quests": [
         120
@@ -9520,13 +9520,13 @@
       "pvp_notes": "Tracking and multi-hit behavior can support combo pressure, but exact matchup/frame behavior is version-sensitive.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Power_Pole_Combo",
         "https://dragonball.fandom.com/wiki/Power_Pole"
       ],
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-23 canonical promotion: dedicated current Xenoverse 2 evidence confirms Power Pole Combo as a distinct Strike Super, separate from Power Pole and Power Pole Pro, with 100 Ki cost, Goku (GT) use, and Skill Shop acquisition. The Support Pack is treated as provenance/early access rather than exclusive ownership.",
+      "notes": "2026-09-23 canonical promotion: dedicated current Xenoverse 2 evidence confirms Power Pole Combo as a distinct Strike Super, separate from Power Pole and Power Pole Pro, with 100 Ki cost, Goku (GT) use, and Skill Shop acquisition. The Support Pack is treated as provenance/early access rather than exclusive ownership.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.",
       "id": "skill-power-pole-combo"
     },
     {
@@ -9545,8 +9545,8 @@
       "ultimate_finish_required": false,
       "ki_cost": 0,
       "mechanics_notes": "0-Ki Earthling-only Awoken Skill. Summons the Nimbus and Power Pole and changes the user's basic moveset; super armor is active during the transformed state, which ends when the user is hit by hitstun or grabbed. Acquisition is through the Great Saiyaman questline at Hercule's House after the documented level requirement.",
-      "last_verified": "2026-09-23",
-      "notes": "Earthling CaC-only Awoken Skill. Requires 0 Ki; summons Nimbus/Power Pole, changes the basic moveset, and ends when hitstun or a grab connects.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
+      "last_verified": "2026-09-24",
+      "notes": "Earthling CaC-only Awoken Skill. Requires 0 Ki; summons Nimbus/Power Pole, changes the basic moveset, and ends when hitstun or a grab connects.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.",
       "unlock_method": "At level 35 or higher, complete the Great Saiyaman questline at Hercule's House Time Rift and clear the final unlock mission.",
       "research_status": "enriched",
       "source_quest_or_shop": "Great Saiyaman questline — Hercule's House Time Rift",
@@ -9575,7 +9575,7 @@
       "mechanics_notes": "1000-Ki Strike Ultimate from PQ122. Performs a 14-hit rushdown sequence and requires 1000 Ki to activate. PQ122 Ultimate Finish is the documented acquisition condition; no additional unsupported drop probability is asserted.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
@@ -9586,7 +9586,7 @@
       "source_quest": 122,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 census note: explicit PQ drop-condition scan reviewed this record; the available condition text is non-specific for Kaioken/Evil Blast/Power Rush, while Lovely Cyclone retains the separately documented source conflict. No automatic gate change was made from generic wording alone. 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 2.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
+      "notes": "2026-09-20 census note: explicit PQ drop-condition scan reviewed this record; the available condition text is non-specific for Kaioken/Evil Blast/Power Rush, while Lovely Cyclone retains the separately documented source conflict. No automatic gate change was made from generic wording alone. 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 2.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.",
       "id": "skill-power-rush",
       "source_parallel_quests": [
         122
@@ -9611,7 +9611,7 @@
       "mechanics_notes": "500-Ki Ki Blast Ultimate from PQ150 — Battle of the Mind. Generates a large advancing wall of flame; directional input controls how far the wall travels. Current evidence establishes PQ150 and the 500-Ki classification without asserting an exact drop rate.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Power_Wall",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -9619,7 +9619,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context.\n2026-09-21 provenance strengthening: official Bandai Namco DLC documentation confirms Legendary Pack 2 contains four Parallel Quests and ten additional moves; exact PQ149/PQ150 reward relationships remain supported by the maintained PQ research layer and dedicated skill sources.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context.\n2026-09-21 provenance strengthening: official Bandai Namco DLC documentation confirms Legendary Pack 2 contains four Parallel Quests and ten additional moves; exact PQ149/PQ150 reward relationships remain supported by the maintained PQ research layer and dedicated skill sources.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.",
       "source_parallel_quests": [
         150
       ]
@@ -9641,7 +9641,7 @@
       "mechanics_notes": "100-Ki Ki Blast Super from PQ128 — Legendary Super Saiyan Smackdown. Fires a large forward-moving energy projectile associated with Broly (Full Power Super Saiyan). The equipable Super is Ki Blast, not Strike; current PQ evidence places it in the Basic Reward route and no UF-only gate is asserted.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -9651,7 +9651,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 128,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
+      "notes": "2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.",
       "id": "skill-powered-shell",
       "source_parallel_quests": [
         128
@@ -9673,12 +9673,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Whis mentor training",
       "mechanics_notes": "100-Ki Strike Super from Whis mentor training. Performs a destructive close-range strike sequence; current repository evidence securely establishes the mentor acquisition endpoint and 100-Ki cost, while finer hit/damage details remain deferred.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "race_restriction": "All CaC races",
       "source_quest": "Whis mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.",
       "id": "skill-prelude-to-destruction",
       "source_mentor": [
         "mentor-whis"
@@ -9701,13 +9701,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "pan mentor training",
       "mechanics_notes": "0-Ki Power Up Super from Pan mentor training Lesson 1. Grants an S-level power boost for 10 seconds while the user remains locked onto the target; current dedicated evidence establishes the 0-Ki cost and mentor endpoint.",
-      "last_verified": "2026-09-23",
+      "last_verified": "2026-09-24",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Pan mentor training — Lesson 1.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.",
       "id": "skill-prepare-to-be-punished",
       "source_mentor": [
         "mentor-pan"
