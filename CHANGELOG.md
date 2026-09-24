@@ -2856,3 +2856,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Numeric identity is corroborated for several records, but no safe numeric-to-complete-loadout binding was established.
 - Updated the preset evidence audit; no unsupported loadouts were promoted.
 
+
+
+## 2026-09-24 — PQ explorer validator contract synchronization
+- Corrected `scripts/validate_pq_page_consumers.py`, which still asserted a Search-based PQ→Skill link contract after the live explorer had migrated PQ skill rewards to the canonical `Skills-All.html?q=...` explorer.
+- Added and registered `docs/data/pq-explorer-validator-contract-synchronization-2026-09-24.json`.
+- Preserved the intentional generic Search fallback for PQ→DLC because DLC-Overview is a landing page, while PQ→Skills/Super Souls/Equipment/Characters remain canonical explorer links.
+- Validation is static contract comparison; CI/runtime remains unavailable and no CI success is claimed.
