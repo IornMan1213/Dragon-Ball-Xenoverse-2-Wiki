@@ -295,11 +295,12 @@
       "name": "Assault Rain",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Assault_Rain"
+        "https://dbxv2.fandom.com/wiki/Assault_Rain",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
       ],
-      "unlock_method": "Expert Mission 9 — \"The Most Feared Majin\"",
+      "unlock_method": "Expert Mission 9 — \"The Most Feared Majin\" Basic Reward.",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "race_restriction": "Not separately established in this promotion",
@@ -307,8 +308,8 @@
       "source_quest_or_shop": "Expert Mission 9 — \"The Most Feared Majin\"",
       "acquisition_type": "expert_mission",
       "last_verified": "2026-09-23",
-      "research_status": "acquisition_reconciled",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM09. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.",
+      "research_status": "enriched",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM09. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.",
       "id": "skill-assault-rain"
     },
     {
@@ -862,11 +863,12 @@
       "name": "Blue Hurricane",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Blue_Hurricane"
+        "https://dbxv2.fandom.com/wiki/Blue_Hurricane",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
       ],
-      "unlock_method": "Expert Mission 15 — \"Extreme Malice!\"",
+      "unlock_method": "Expert Mission 15 — \"Extreme Malice!\" Basic Reward.",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "race_restriction": "Not separately established in this promotion",
@@ -874,8 +876,8 @@
       "source_quest_or_shop": "Expert Mission 15 — \"Extreme Malice!\"",
       "acquisition_type": "expert_mission",
       "last_verified": "2026-09-23",
-      "research_status": "acquisition_reconciled",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM15. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.",
+      "research_status": "enriched",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM15. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.",
       "id": "skill-blue-hurricane"
     },
     {
@@ -2445,11 +2447,12 @@
       "name": "Dead End Bullet",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Dead_End_Bullet"
+        "https://dbxv2.fandom.com/wiki/Dead_End_Bullet",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
       ],
-      "unlock_method": "Expert Mission 8 — \"Ominous Androids\"",
+      "unlock_method": "Expert Mission 8 — \"Ominous Androids\" Basic Reward.",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "race_restriction": "Not separately established in this promotion",
@@ -2457,8 +2460,8 @@
       "source_quest_or_shop": "Expert Mission 8 — \"Ominous Androids\"",
       "acquisition_type": "expert_mission",
       "last_verified": "2026-09-23",
-      "research_status": "acquisition_reconciled",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM08. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.",
+      "research_status": "enriched",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM08. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.",
       "id": "skill-dead-end-bullet"
     },
     {
@@ -2606,11 +2609,12 @@
       "name": "Death Meteor",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Death_Meteor"
+        "https://dbxv2.fandom.com/wiki/Death_Meteor",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
       ],
-      "unlock_method": "Expert Mission 7 — \"The Big Gete Star Strikes Back\"",
+      "unlock_method": "Expert Mission 7 — \"The Big Gete Star Strikes Back\" Basic Reward.",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "race_restriction": "Not separately established in this promotion",
@@ -2618,8 +2622,8 @@
       "source_quest_or_shop": "Expert Mission 7 — \"The Big Gete Star Strikes Back\"",
       "acquisition_type": "expert_mission",
       "last_verified": "2026-09-23",
-      "research_status": "acquisition_reconciled",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM07. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.",
+      "research_status": "enriched",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM07. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.",
       "id": "skill-death-meteor"
     },
     {
@@ -2719,11 +2723,12 @@
       "name": "Death Wave",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Death_Wave"
+        "https://dbxv2.fandom.com/wiki/Death_Wave",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
       ],
-      "unlock_method": "Expert Mission 5 — \"The Galactic Tyrant\"",
+      "unlock_method": "Expert Mission 5 — \"The Galactic Tyrant\" Basic Reward.",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "race_restriction": "Not separately established in this promotion",
@@ -2731,8 +2736,8 @@
       "source_quest_or_shop": "Expert Mission 5 — \"The Galactic Tyrant\"",
       "acquisition_type": "expert_mission",
       "last_verified": "2026-09-23",
-      "research_status": "acquisition_reconciled",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM05. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.",
+      "research_status": "enriched",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM05. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.",
       "id": "skill-death-wave"
     },
     {
@@ -7161,11 +7166,12 @@
       "name": "Hellzone Grenade",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Hellzone_Grenade"
+        "https://dbxv2.fandom.com/wiki/Hellzone_Grenade",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
       ],
-      "unlock_method": "Expert Mission 10 — \"The Emperor's Worth\"",
+      "unlock_method": "Expert Mission 10 — \"The Emperor's Worth\" Basic Reward.",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "race_restriction": "Not separately established in this promotion",
@@ -7173,8 +7179,8 @@
       "source_quest_or_shop": "Expert Mission 10 — \"The Emperor's Worth\"",
       "acquisition_type": "expert_mission",
       "last_verified": "2026-09-23",
-      "research_status": "acquisition_reconciled",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM10. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.",
+      "research_status": "enriched",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM10. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.",
       "id": "skill-hellzone-grenade"
     },
     {
@@ -8842,11 +8848,12 @@
       "name": "Murder Grenade",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Murder_Grenade"
+        "https://dbxv2.fandom.com/wiki/Murder_Grenade",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
       ],
-      "unlock_method": "Expert Mission 3 — \"Assault of the Great Ape\"",
+      "unlock_method": "Expert Mission 3 — \"Assault of the Great Ape\" Basic Reward.",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "race_restriction": "Not separately established in this promotion",
@@ -8854,8 +8861,8 @@
       "source_quest_or_shop": "Expert Mission 3 — \"Assault of the Great Ape\"",
       "acquisition_type": "expert_mission",
       "last_verified": "2026-09-23",
-      "research_status": "acquisition_reconciled",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM03. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.",
+      "research_status": "enriched",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM03. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.",
       "id": "skill-murder-grenade"
     },
     {
@@ -11033,11 +11040,12 @@
       "name": "Shocking Death Ball",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Shocking_Death_Ball"
+        "https://dbxv2.fandom.com/wiki/Shocking_Death_Ball",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
       ],
-      "unlock_method": "Expert Mission 14 — \"Huge Blasts for Huge Apes!\"",
+      "unlock_method": "Expert Mission 14 — \"Huge Blasts for Huge Apes!\" Basic Reward.",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "race_restriction": "Not separately established in this promotion",
@@ -11045,8 +11053,8 @@
       "source_quest_or_shop": "Expert Mission 14 — \"Huge Blasts for Huge Apes!\"",
       "acquisition_type": "expert_mission",
       "last_verified": "2026-09-23",
-      "research_status": "acquisition_reconciled",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM14. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.",
+      "research_status": "enriched",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM14. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.",
       "id": "skill-shocking-death-ball"
     },
     {
@@ -11627,9 +11635,10 @@
       "name": "Spirit Sword",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Spirit_Sword"
+        "https://dbxv2.fandom.com/wiki/Spirit_Sword",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74510541"
       ],
       "unlock_method": "Expert Mission 17 — \"In the Realm of the Gods: Goku\"",
       "ultimate_finish_required": null,
@@ -11639,8 +11648,8 @@
       "source_quest_or_shop": "Expert Mission 17 — \"In the Realm of the Gods: Goku\"",
       "acquisition_type": "expert_mission",
       "last_verified": "2026-09-23",
-      "research_status": "acquisition_reconciled",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM17. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.",
+      "research_status": "enriched",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM17. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing. Existing acquisition semantics are retained without inferring a drop probability or additional gate.",
       "id": "skill-spirit-sword"
     },
     {
@@ -11977,11 +11986,12 @@
       "name": "Super Electric Strike",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Super_Electric_Strike"
+        "https://dbxv2.fandom.com/wiki/Super_Electric_Strike",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
       ],
-      "unlock_method": "Expert Mission 11 — \"The Devil Born from the Dragon Balls\"",
+      "unlock_method": "Expert Mission 11 — \"The Devil Born from the Dragon Balls\" Basic Reward.",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "race_restriction": "Not separately established in this promotion",
@@ -11989,8 +11999,8 @@
       "source_quest_or_shop": "Expert Mission 11 — \"The Devil Born from the Dragon Balls\"",
       "acquisition_type": "expert_mission",
       "last_verified": "2026-09-23",
-      "research_status": "acquisition_reconciled",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM11. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.",
+      "research_status": "enriched",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM11. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.",
       "id": "skill-super-electric-strike"
     },
     {
