@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-24",
+  "scope": "raid accessory identity reconciliation against canonical accessory layer",
+  "sources": [
+    "docs/data/accessory-raid-identity-reconciliation-2026-09.json",
+    "docs/data/accessory-raid-gift-canonical-bridge.json",
+    "docs/data/accessory-canonical-reconciliation.json",
+    "docs/data/equipment-accessories-record-layer.json"
+  ],
+  "counts": {
+    "raid_identity_records": 9,
+    "exactly_resolved": 6,
+    "unresolved": 3,
+    "canonical_accessory_records": 111,
+    "raid_gift_bridge_records": 16,
+    "bridge_resolved": 14,
+    "bridge_unresolved": 2
+  },
+  "resolved": [
+    {"name":"Tapion Wig","id":"accr-106"},
+    {"name":"Tights Hat","id":"accr-107"},
+    {"name":"Universe 6 S. Kai's Helper's Hat","id":"accr-108"},
+    {"name":"Lord Zuno's Topknot Wig","id":"accr-109"},
+    {"name":"Android 21 Wig & Glasses","id":"accr-110"},
+    {"name":"Tiencha Wig","id":"accr-111"}
+  ],
+  "unresolved": ["Cheelai Wig","Cheelai Wig (w/Scouter)","Hercule Wig 2"],
+  "checks": {
+    "all_resolved_identity_ids_exist": true,
+    "all_bridge_ids_exist": true,
+    "bridge_unmatched_list_matches_null_records": true,
+    "no_near_name_merges": true
+  },
+  "evidence_boundary": "Six exact identities were promoted because the maintained equipment-accessories record layer contains exact named records. Cheelai Wig, Cheelai Wig (w/Scouter), and Hercule Wig 2 remain unresolved because no exact canonical record is present; near-name records such as Hercule Wig are not merged. This does not establish current event availability or reward probability.",
+  "status": "clean"
+}
