@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-24",
+  "audit_id": "qq-bang-provenance-refresh-2026-09-24",
+  "scope": "P1 thin-domain QQ Bang structured research refresh — synthesis system, Super Mix Capsule Z, and Bardock/Beerus recipe family",
+  "source_of_truth": "docs/data/qq-bangs-record-layer.json",
+  "records": [
+    {
+      "id": "qq-system-001",
+      "name": "QQ Bang synthesis system",
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/Clothing_Mixing_Shop",
+        "https://www.gameskinny.com/tips/dragon-ball-xenoverse-2-qq-bangs-guide/",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/02-gear-qqbangs-souls-stats.md"
+      ],
+      "changes": [
+        "last_verified refreshed to 2026-09-24",
+        "mixing location and RNG wording refreshed from current source evidence"
+      ]
+    },
+    {
+      "id": "qq-mix-001",
+      "name": "Super Mix Capsule Z",
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/Clothing_Mixing_Shop",
+        "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/632375-how-to-get-five-star-qq-bang",
+        "https://www.youtube.com/watch?v=XBy_oawrYnk"
+      ],
+      "changes": [
+        "last_verified refreshed to 2026-09-24",
+        "acquisition route expanded to documented PQ/EM Tour and Mixing Shop synthesis paths"
+      ]
+    },
+    {
+      "id": "qq-recipe-001",
+      "name": "Bardock + Beerus clothing recipe family",
+      "evidence": [
+        "https://www.youtube.com/watch?v=XBy_oawrYnk",
+        "https://steamcommunity.com/app/454650/discussions/0/3073118388414099681/",
+        "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/632375-how-to-get-five-star-qq-bang"
+      ],
+      "changes": [
+        "last_verified refreshed to 2026-09-24",
+        "recipe-family provenance refreshed; deterministic-output claim explicitly excluded"
+      ]
+    }
+  ],
+  "evidence_limits": [
+    "No exact six-stat output was promoted because the refreshed evidence establishes recipe/use routes and variance, not a single canonical guaranteed result.",
+    "Community recipe families remain research observations and are not treated as deterministic formulas.",
+    "Exact current Super Mix Capsule Z drop rates/availability and version-specific probability tables remain unresolved."
+  ],
+  "validation": {
+    "record_count": 3,
+    "all_target_ids_present": true,
+    "last_verified_parity": true,
+    "unsupported_exact_output_promotions": 0,
+    "status": "clean",
+    "ci": "unavailable; no CI success claimed"
+  }
+}
