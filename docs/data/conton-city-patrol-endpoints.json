@@ -12,7 +12,7 @@
       "skill_name": "Gigantic Cross",
       "acquisition_type": "conton_city_patrol",
       "verification_status": "verified_current_scope",
-      "last_verified": "2026-09-23"
+      "last_verified": "2026-09-24"
     },
     {
       "id": "patrol-saiyan-blaster",
@@ -22,7 +22,7 @@
       "skill_name": "Saiyan Blaster",
       "acquisition_type": "conton_city_patrol",
       "verification_status": "verified_current_scope",
-      "last_verified": "2026-09-23"
+      "last_verified": "2026-09-24"
     },
     {
       "id": "patrol-gigantic-nova",
@@ -32,7 +32,7 @@
       "skill_name": "Gigantic Nova",
       "acquisition_type": "conton_city_patrol",
       "verification_status": "verified_current_scope",
-      "last_verified": "2026-09-23"
+      "last_verified": "2026-09-24"
     }
   ],
   "forward_edges": [
@@ -79,5 +79,6 @@
     "Only explicit Conton City Patrol acquisition strings in canonical skill records are promoted.",
     "Mentor training rewards are kept separate from Conton City Patrol event endpoints.",
     "No unsupported completion gates, drop rates, or reward probabilities are inferred."
-  ]
+  ],
+  "date": "2026-09-24"
 }
