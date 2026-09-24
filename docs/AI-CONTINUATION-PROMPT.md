@@ -587,3 +587,12 @@
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [x] Commits: `16dff54fa5ee6e89f73d2dcddc3345ccefff00f0`, `e41283c72a743c6d35a39a897fe97db5df3cdc73`, `e6c177f40b4db06912c39ed615e15d5727eb37ef`.
 - [ ] **Exact next:** continue the remaining unresolved gap set, prioritizing **Boiling Burg**, **Energy Boil**, **Baked Sphere**, **Boiling Ball**, and **Tricky Strike** only where direct Xenoverse 2 evidence can resolve a currently missing field. If no direct evidence resolves a field, preserve the null/unresolved boundary and do not infer from another game or generic animation terminology.
+
+
+### 2026-09-24 continuation — Demigra five-skill gap reconciliation
+- [x] Audited Boiling Burg, Energy Boil, Baked Sphere, Boiling Ball, and Tricky Strike.
+- [x] Reconciled Baked Sphere research taxonomy to Explosive Wave; only ki_cost remains unresolved.
+- [x] Added and registered docs/data/skill-research-gap-reconciliation-2026-09-24-demigra-five.json.
+- [x] Preserved evidence boundaries and did not modify oversized canonical catalogs.
+- [ ] CI/runtime unavailable; no CI success claimed.
+- [ ] Exact next: continue the remaining unresolved skill-gap queue, prioritizing fields directly resolvable from Xenoverse 2-specific evidence.
