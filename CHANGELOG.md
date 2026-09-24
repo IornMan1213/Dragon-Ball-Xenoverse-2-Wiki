@@ -2986,3 +2986,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - [x] Preserved evidence boundaries: no unsupported damage, drop-rate, timing, or acquisition-gate claims are authorized by this transition artifact.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next:** enrich Savage Strike, then Quick Sleep and Pressure Sign, in canonical and index layers with an audit artifact and cross-domain registration.
+
+
+## 2026-09-24 — Quick Sleep shop endpoint provenance reconciliation
+- Refreshed Quick Sleep research provenance and the canonical Skill Shop endpoint verification date to 2026-09-24.
+- Added and registered `docs/data/quick-sleep-shop-endpoint-provenance-reconciliation-2026-09-24.json`.
+- Preserved the TP/STP Medal rotation as alternate provenance only; no current rotation, price, or second endpoint was inferred.
+- Live skill baseline remains 469 canonical / 469 index; CI/runtime unavailable.
