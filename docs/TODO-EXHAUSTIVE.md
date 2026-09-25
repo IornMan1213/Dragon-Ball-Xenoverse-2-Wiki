@@ -281,3 +281,17 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Commit: `00657db919550b4d5b114992df14108bdbde3402`.
 - [x] **Exact next:** perform the fresh repository-wide under-enriched/partially-verified census required by the handoff; prioritize the next deterministic provenance/index gap or a bounded current-evidence target outside the completed PQ86-PQ100 Batch 54 tranche.
+
+
+### 2026-09-25 cycle completion — Hyper Drain / Hyper Movement / Ice Cannon / Ice Claw current-evidence promotion
+- Live canonical census before promotion: **469 records**; exactly **4** remained `partially_verified | enriched`: Hyper Drain, Hyper Movement, Ice Cannon, and Ice Claw.
+- [x] Added four dedicated current-evidence audits and registered all four in `docs/data/pq-cross-domain-index.json`.
+- [x] Promoted all four canonical records to `verified_current_scope` and refreshed their index projections to `last_verified: 2026-09-25`.
+- [x] Hyper Drain: current evidence establishes Strike Super, 100 Ki, CaC-only use, Skill Shop after Android Warfare, and 1-Stamina/2-Ki drain behavior.
+- [x] Hyper Movement: current evidence establishes Strike Evasive, 200 Stamina, TP Medal Shop, teleport/punch behavior, and knockback interception use.
+- [x] Ice Cannon: current evidence establishes 300-Ki Ki Blast Ultimate, Shenron-wish acquisition, five-hit freezing projectile, and approximately 3-second freeze.
+- [x] Ice Claw: current evidence establishes 100-Ki Strike Super, Shenron-wish acquisition, two-hit claw attack, and blinding effect.
+- [x] Refreshed Hyper Drain and Hyper Movement shop endpoint timestamps to 2026-09-25.
+- [x] Validation: canonical/index parity is clean for all four; current status census is now **264 verified_current_scope + 178 verified/enriched + 27 verified/verified = 469 total**, with **0 partially_verified** canonical skills.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** begin the next under-enriched frontier: the **27 `verified | verified` canonical records**. Start with a fresh evidence census for **Apocalyptic Burst, Blaster Stream, Chain Destructo-Disc Barrage, and Circle Flash**, and promote/enrich only fields directly supported by current Xenoverse 2 evidence.
