@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-victory-rush-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "scope": [
+    "Victory Rush"
+  ],
+  "result": "Promoted to verified_current_scope. Current Xenoverse 2-specific skill documentation and the maintained PQ89 reward transcription support the Strike Ultimate classification, 300-Ki cost, PQ89 endpoint, and documented 13-hit teleporting sequence ending in an axe kick.",
+  "evidence_sources": [
+    "DBXV2 Fandom — Victory Rush",
+    "Dragon Ball Wiki — Victory Rush",
+    "Steam Community — Dragon Ball Xenoverse 2 All 186 Parallel Quests",
+    "GameFAQs — Xenoverse 2 PQ discussion"
+  ],
+  "reward_semantics": {
+    "status": "unresolved",
+    "ultimate_finish_required": null,
+    "drop_probability": null
+  },
+  "limits": [
+    "No universal damage value promoted.",
+    "No hidden reward gate inferred from reward placement."
+  ]
+}
