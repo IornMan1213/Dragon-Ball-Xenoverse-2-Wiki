@@ -1,3 +1,10 @@
+### 2026-09-25 cycle completion — artifact-checker current-tree cleanup and pre-run CI diagnosis
+- [x] Removed literal checker-marker names from the continuation history that were themselves being scanned as forbidden artifacts.
+- [x] Direct current-tree verification of the handoff is clean for the known checker patterns.
+- [x] Latest post-fix Actions still fail Repository quality and Clean internal artifacts before exposing usable runner steps/logs.
+- [ ] CI success remains unverified; validators remain unchanged.
+- [ ] **Exact next:** inspect the next Actions result; if the same pre-run failure persists, treat the CI blocker as externally unobservable and continue the next deterministic data-quality/content task without weakening validation.
+
 ### 2026-09-25 cycle completion — post-cleanup CI verification
 - [x] Inspected post-cleanup Actions for HEAD `26c7f897298b0b6a521b9ee82dc27b8216fbde01`; Repository quality and Clean internal artifacts still fail.
 - [x] Revalidated the artifact-check contract and directly verified the handoff no longer contains the known internal citation markers.
