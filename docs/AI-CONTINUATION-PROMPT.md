@@ -561,3 +561,14 @@
 - [x] Added/registered four current-evidence audits and Skill Research Batch 355; 469/469 baseline parity maintained, no duplicate IDs, unsupported gates/probabilities not promoted.
 - [ ] CI remains unverified.
 - [x] **Exact next:** continue the shortest-evidence P records, beginning with Prepare to be Punished / Power Rush / Pretty Cannon as appropriate, then proceed alphabetically.
+
+
+### 2026-09-25 cycle completion — Skill Batch 356 Power Pole Combo provenance refresh
+- [x] Live census before editing: **469 canonical / 469 index / 0 duplicate IDs**; the existing canonical/index relationship for Power Pole Combo was already present and stable.
+- [x] Added `docs/data/skill-power-pole-combo-current-evidence-audit-2026-09-25.json` with current official Time Patrol Support Pack evidence plus the existing dedicated skill evidence.
+- [x] Refreshed canonical and index **Power Pole Combo** records to `last_verified: 2026-09-25` and added independent official Nintendo/Xbox package provenance; classification, 100-Ki cost, Skill Shop endpoint, Goku (GT) association, and seven-hit mechanics remain unchanged.
+- [x] Added and registered `docs/data/skill-research-batches/skill-batch-356.json`.
+- [x] Preserved the acquisition boundary: official package listings corroborate inclusion but do not establish exclusivity; no new prerequisite, drop probability, or Ultimate Finish gate was inferred.
+- [x] Validation: canonical/index ID parity remains **469/469**, duplicate IDs **0**, shared status/date fields synchronized for the target, and the new audit/batch registrations resolve to existing files.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** perform the fresh post-Batch-356 P1 census and continue with the next under-enriched/low-source canonical target, prioritizing a deterministic provenance gap or the next genuinely thin record rather than repeating already enriched records.
