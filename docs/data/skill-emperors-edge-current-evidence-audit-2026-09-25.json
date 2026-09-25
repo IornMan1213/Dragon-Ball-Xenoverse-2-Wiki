@@ -1,0 +1,26 @@
+{
+  "audit_id": "skill-emperors-edge-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "scope": [
+    "Emperor's Edge"
+  ],
+  "result": "Current acquisition evidence supports a current-scope verification refresh; exact subtype semantics remain bounded.",
+  "mechanics": {
+    "classification": "Ki Blast Super",
+    "ki_cost": 100,
+    "behavior": "Frieza-style precision energy attack; repository retains no speculative subtype beyond the Ki Blast classification.",
+    "acquisition": "Parallel Quest 99 — Frieza Race Revivified"
+  },
+  "acquisition_evidence": {
+    "pq99_reward": "The maintained PQ reward transcription lists Emperor's Edge as a Basic Reward.",
+    "independent_context": "Current Future Warrior technique references identify Emperor's Edge with Frieza's technique family."
+  },
+  "limits": {
+    "drop_probability": null,
+    "ultimate_finish_required": null
+  },
+  "sources": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)"
+  ]
+}
