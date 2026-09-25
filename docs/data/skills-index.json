@@ -1982,18 +1982,23 @@
       "name": "Dead End Bullet",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
-      "research_status": "acquisition_reconciled",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
       "acquisition_type": "expert_mission",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Dead_End_Bullet"
+        "https://dbxv2.fandom.com/wiki/Dead_End_Bullet",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://dragonball.fandom.com/wiki/Photon_Strike",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75528786"
       ],
       "unlock_method": "Expert Mission 8 — \"Ominous Androids\"",
       "ultimate_finish_required": null,
       "last_verified": "2026-09-24",
       "race_restriction": "Not separately established in this promotion",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM08. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.",
-      "source_quest_or_shop": "Expert Mission 8 — \"Ominous Androids\""
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM08. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-25 provenance promotion: current Xenoverse 2-specific evidence directly confirms Dead End Bullet as a 300-Ki Ki Blast Ultimate from Expert Mission 8 — \"Ominous Androids\"; independent Future Warrior/technique documentation confirms the EM08 acquisition, while the dedicated skill page documents its 21-hit overhead barrage. Exact drop probability/guarantee remains unasserted.",
+      "source_quest_or_shop": "Expert Mission 8 — \"Ominous Androids\"",
+      "ki_cost": 300,
+      "mechanics_notes": "300-Ki Ki Blast Ultimate. The user jumps upward and rains Ki Blasts downward onto a concentrated point; current dedicated evidence records 21 hits and knockback, with 30% total damage in its documented test profile."
     },
     {
       "id": "skill-dead-end-rain",
