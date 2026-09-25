@@ -7275,3 +7275,11 @@
 - [x] Preserved verified canonical parity at **469/469** and unresolved evidence limits.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** complete **skill-batch-180 — Phantom Fist**.
+
+### 2026-09-24 — TODO completion update — Phantom Fist P1 provenance verification
+- [x] Completed **skill-batch-180 — Phantom Fist** with Xenoverse 2 identity, Super/Other classification, 100 Ki cost, PQ97 acquisition, and defensive stamina-recovery mechanics.
+- [x] Added and registered the Phantom Fist provenance audit.
+- [x] Preserved the 469/469 canonical/index boundary; no unsupported canonical promotion was made.
+- [x] Preserved unresolved stamina cost, exact timing/repeat behavior, drop probability, and Ultimate Finish fields where evidence was insufficient.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** inspect and complete the next deterministic skill research batch after 180 using the same bounded provenance workflow.
