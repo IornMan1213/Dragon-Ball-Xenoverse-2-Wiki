@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "audit_id": "skill-batch-302-cost-evidence-audit-2026-09-24",
+  "date": "2026-09-24",
+  "scope": [
+    "Energy Cannon",
+    "Darkness Mixer"
+  ],
+  "records": [
+    {
+      "name": "Energy Cannon",
+      "identity": {
+        "skill_id": 540,
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "usable_by_cac": false,
+        "character_source": "Demon God Demigra (Final Form)"
+      },
+      "cost_status": "unresolved",
+      "evidence": [
+        "The repository's existing Xenoverse 2 Character ID evidence identifies ID 540 / ENC as Energy Cannon, CaC-unavailable, used by Demon God Demigra (Final Form).",
+        "A current indexed Xenoverse 2 skill-list source places Energy Cannon among the Super Skills and the repository batch already records its Ki Blast taxonomy.",
+        "The checked current sources did not expose a reliable numeric in-combat Ki cost."
+      ],
+      "boundary": "Do not infer a numeric Ki cost from shop-price data, cross-game Energy Cannon/Kiai names, animation, or analogous skills."
+    },
+    {
+      "name": "Darkness Mixer",
+      "identity": {
+        "skill_id": 538,
+        "class": "Super",
+        "subcategory": "Other",
+        "usable_by_cac": false,
+        "character_source": "Villainous/Supervillain characters and Demon God Demigra"
+      },
+      "cost_status": "0 Ki",
+      "evidence": [
+        "Current Xenoverse 2 skill documentation identifies Darkness Mixer as an Other Super, a charge skill, and normally unavailable to CaCs.",
+        "Current secondary gameplay documentation explicitly states that Darkness Mixer does not cost anything to use.",
+        "A current character reference lists Darkness Mixer on Supervillain presets and Demon God Demigra, corroborating its cast-only usage boundary."
+      ],
+      "boundary": "The zero-cost value is recorded as current gameplay evidence; no stamina cost, frame data, or exact charge-rate numeric values are promoted from these sources."
+    }
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Darkness_Mixer",
+    "https://www.gamersdecide.com/articles/dragon-ball-xenoverse-2-best-charge-ability?page=1,0",
+    "https://dbxv2.fandom.com/wiki/Characters",
+    "https://www.scribd.com/document/723438373/Super-skills-dragon-ball",
+    "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
+  ]
+}
