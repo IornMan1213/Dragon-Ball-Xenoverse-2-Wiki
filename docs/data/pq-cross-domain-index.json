@@ -69,7 +69,8 @@
     "skill_sudden_death_beam_p1_provenance": "docs/data/skill-sudden-death-beam-p1-provenance-verification-2026-09-24.json",
     "skill_rough_ranger_p1_provenance": "docs/data/skill-rough-ranger-p1-provenance-verification-2026-09-24.json",
     "skill_dragon_burn_p1_provenance": "docs/data/skill-dragon-burn-p1-provenance-verification-2026-09-24.json",
-    "skill_absolute_zero_p1_provenance_2026_09_24": "docs/data/skill-absolute-zero-p1-provenance-verification-2026-09-24.json"
+    "skill_absolute_zero_p1_provenance_2026_09_24": "docs/data/skill-absolute-zero-p1-provenance-verification-2026-09-24.json",
+    "skill_burst_reflection_p1_provenance_2026_09_24": "docs/data/skill-burst-reflection-p1-provenance-verification-2026-09-24.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",
