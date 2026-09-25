@@ -8090,3 +8090,10 @@
 - [x] No canonical promotion was attempted; the records already exist in the live canonical/index layer.
 - [ ] CI remains unverified.
 - [ ] **Next:** select the next deterministic partially verified Ki Blast Ultimate tranche, excluding these already-reconciled records.
+
+### 2026-09-25 — TODO completion update — Batch 318 Divine-series evidence refresh
+- [x] Refreshed **Divine Lasso, Divine Ray Bomb, Divine Spear, Divine Wrath: Purification** with current direct evidence.
+- [x] Added and registered `docs/data/skill-batch-318-divine-series-evidence-refresh-2026-09-25.json`.
+- [x] Preserved unresolved reward/FI/frame/restriction fields rather than inferring them.
+- [ ] CI remains unverified.
+- [ ] **Next:** Divinity Unleashed, Do or Die, Dodon Ray, then adjacent stale records.
