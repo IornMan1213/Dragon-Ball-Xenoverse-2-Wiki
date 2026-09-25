@@ -7579,3 +7579,11 @@
 - [x] Validation remains **469/469** canonical/index with **0 duplicate IDs**.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** inspect current Actions state, then process **skill-batch-221**.
+
+
+### 2026-09-24 — TODO completion update — Batches 221–227
+- [x] Refreshed Batches **221–227** and completed the Strike Evasive research/reconciliation chain.
+- [x] Preserved all documented source conflicts, character-only restrictions, acquisition uncertainty, and canonical-promotion boundaries.
+- [x] Validation remains **469/469** canonical/index with **0 duplicate IDs**.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** begin the Ki Blast Evasive queue from Batch 227, starting with **Special Beam Blast**.
