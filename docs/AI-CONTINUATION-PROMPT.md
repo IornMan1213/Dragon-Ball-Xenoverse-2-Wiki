@@ -358,3 +358,16 @@
 - [x] Validation: canonical status census is now **264 verified_current_scope/enriched + 182 verified/enriched + 23 verified/verified = 469**. All four targets have current dates and enriched research status. Index records match the shared status/date fields; index intentionally does not duplicate every canonical field such as Ki cost.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** continue the remaining `verified | verified` frontier with **Core Breaker, Death Ball, Destruction's Concerto: Meteor, Dimension Ray**, performing the same current-evidence census and only correcting fields with direct support.
+
+
+### 2026-09-25 cycle completion — Core Breaker / Death Ball / Destruction's Concerto: Meteor / Dimension Ray enrichment
+- Fresh live census: **469 canonical skills**; the remaining `verified | verified` frontier was **23** after the previous cycle. This bounded batch completed the next four.
+- [x] Added current-evidence audits for **Core Breaker**, **Death Ball**, and **Destruction's Concerto: Meteor**; the existing **Dimension Ray** audit was revalidated and registered.
+- [x] Promoted all four to `research_status: enriched` and refreshed canonical/index `last_verified` to **2026-09-25**.
+- [x] Core Breaker: retained **500 Ki Strike Ultimate**, PQ158, and the maintained **40% Ultimate-Finish bonus slot**; no narrower CaC race restriction inferred.
+- [x] Death Ball: retained **400 Ki Ki Blast Ultimate**, Frieza Lesson 3 deterministic mentor acquisition, and documented tracking/18-hit mechanics; no RNG or Ultimate-Finish gate inferred.
+- [x] Destruction's Concerto: Meteor: retained **100-200 Ki Ki Blast Super**, PQ106 Basic Reward, and Super Pack 2 provenance; corrected the stale skill description from Ultimate to **Super**.
+- [x] Dimension Ray: retained **400 Ki Ki Blast Ultimate**, PQ98 Basic Reward, and documented 19-hit wide barrage; no drop probability or hidden gate inferred.
+- [x] Validation: **264 verified_current_scope/enriched + 186 verified/enriched + 19 verified/verified = 469**. All four canonical/index shared status/date fields match and all four cross-domain audit registrations resolve.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** continue the remaining `verified | verified` frontier with **Gigantic Explosion, God of Destruction's Poise, Meteor Strike, Namek Finger**, using the same bounded current-evidence policy.
