@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-25",
+  "scope": "Final Pose current Xenoverse 2 provenance/mechanics refresh",
+  "evidence_policy": "Current Xenoverse 2-specific skill evidence controls the canonical mechanics value; older/general Xenoverse references are retained only as discrepancy provenance. PQ guide and historical player report establish acquisition context. No unsupported reward probability or guaranteed-drop semantics are inferred.",
+  "records": [
+    {
+      "name": "Final Pose",
+      "canonical_endpoint": "Parallel Quest 74 — Galactic Patrol, Away!",
+      "verified_fields": [
+        "Power Up Evasive classification",
+        "200 Stamina current XV2-specific value",
+        "close-range shockwave",
+        "knockback",
+        "approximately 2% damage",
+        "temporary basic-attack increase",
+        "approximately 11.5–12 second duration",
+        "PQ74 acquisition endpoint",
+        "Recoome character-drop context"
+      ],
+      "discrepancies": [
+        {
+          "field": "stamina_cost",
+          "current_value": 200,
+          "older_value": 300,
+          "handling": "retain 200 as current XV2-specific canonical value; preserve 300 only as provenance discrepancy"
+        }
+      ],
+      "unresolved_fields": [
+        "numeric drop probability",
+        "guaranteed-drop semantics"
+      ],
+      "current_sources": [
+        "https://dbxv2.fandom.com/wiki/Final_Pose",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74997123"
+      ],
+      "conclusion": "Promote to verified_current_scope for supported current mechanics/provenance fields while preserving the historical 300-Stamina discrepancy and reward randomness uncertainty."
+    }
+  ]
+}
