@@ -66,7 +66,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74515401",
         "https://steamcommunity.com/app/454650/discussions/0/1697168437858553062"
-      ]
+      ],
+      "research_status": "enriched"
     },
     {
       "name": "Atomic Blast",
@@ -91,7 +92,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Prince_of_Destruction_Vegeta",
         "https://dbxv2.fandom.com/wiki/SSGSS_Vegeta_%28Evolved%29"
-      ]
+      ],
+      "research_status": "enriched"
     },
     {
       "name": "Buu Buu Ball",
@@ -116,7 +118,8 @@
         "https://dragonball.fandom.com/wiki/Buu_Buu_Ball",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76170072"
-      ]
+      ],
+      "research_status": "enriched"
     },
     {
       "name": "Victory Rush",
@@ -141,7 +144,8 @@
         "https://dragonball.fandom.com/wiki/Victory_Rush",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74530088",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "research_status": "enriched"
     },
     {
       "name": "III Bomber",
@@ -164,7 +168,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ill_Bomber",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "research_status": "enriched"
     },
     {
       "name": "Final Kamehameha",
@@ -189,7 +194,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74502922",
         "https://www.youtube.com/watch?v=E-_wVESIgmY"
-      ]
+      ],
+      "research_status": "enriched"
     },
     {
       "name": "Maiden Burst",
@@ -215,7 +221,8 @@
         "https://dragonball.fandom.com/wiki/Maiden_Burst",
         "https://steamcommunity.com/app/454650/discussions/0/276237094316646624/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
-      ]
+      ],
+      "research_status": "enriched"
     },
     {
       "name": "Bluff Kamehameha",
@@ -280,13 +287,16 @@
       "source_quest_or_shop": "Parallel Quest 96",
       "ultimate_finish_required": null,
       "skill_description": "Uses a defensive evasive technique that creates a freezing effect around the user.",
-      "mechanics_notes": "Current Xenoverse 2 reference identifies Absolute Zero as a Ki Blast Evasive using 300 Stamina; the user takes a counter stance and attackers are frozen for about 3 seconds.",
-      "verification_status": "verified",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "300-Stamina Ki Blast Evasive counter. The user takes a stance and briefly freezes themselves; an attacker who makes contact is frozen for about 3 seconds. Current PQ96 reward evidence lists Absolute Zero as a Basic Reward. Transfer-from-Xenoverse is also documented as an alternate route; exact drop probability remains unresolved.",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Absolute_Zero",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Absolute_Zero"
+      ],
+      "research_status": "enriched",
+      "notes": "2026-09-25 current-evidence promotion: current Xenoverse 2-specific documentation confirms the 300-Stamina Ki Blast Evasive, PQ96 endpoint, and approximately 3-second freeze. The maintained PQ96 reward transcription independently places Absolute Zero in Basic Reward. Historical transfer and older UF claims are preserved as provenance; no drop probability or hidden UF gate is inferred."
     },
     {
       "name": "Charged Ki Wave",
@@ -359,7 +369,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "current_evidence_audit": "docs/data/skill-dimension-ray-current-evidence-audit-2026-09-25.json"
+      "current_evidence_audit": "docs/data/skill-dimension-ray-current-evidence-audit-2026-09-25.json",
+      "research_status": "enriched"
     },
     {
       "name": "Emperor's Edge",
@@ -383,7 +394,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
       ],
-      "current_evidence_audit": "docs/data/skill-emperors-edge-current-evidence-audit-2026-09-25.json"
+      "current_evidence_audit": "docs/data/skill-emperors-edge-current-evidence-audit-2026-09-25.json",
+      "research_status": "enriched"
     },
     {
       "name": "X100 Big Bang Kamehameha",
@@ -407,7 +419,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
       ],
-      "current_evidence_audit": "docs/data/skill-x100-big-bang-kamehameha-current-evidence-audit-2026-09-25.json"
+      "current_evidence_audit": "docs/data/skill-x100-big-bang-kamehameha-current-evidence-audit-2026-09-25.json",
+      "research_status": "enriched"
     }
   ],
   "audit_note": "2026-09-24 P1 enrichment follow-up: refreshed Charged Ki Wave, Phantom Fist, Bluff Kamehameha, Emperor's Edge, and X100 Big Bang Kamehameha from current skill/technique references and the maintained PQ reward transcription. Resource costs and core classifications were promoted only where directly supported; exact reward probabilities remain unresolved."
