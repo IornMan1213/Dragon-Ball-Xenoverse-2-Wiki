@@ -88,7 +88,8 @@
     "skill_batch_328_cast_exclusive_demigra_2026_09_25": "docs/data/skill-research-batches/skill-batch-328.json",
     "skill_batch_329_cast_legacy_2026_09_25": "docs/data/skill-research-batches/skill-batch-329.json",
     "skill_batch_330_energy_boil_2026_09_25": "docs/data/skill-research-batches/skill-batch-330.json",
-    "pq_endpoint_alias_granularity_current_scalar_reconciliation_2026_09_25": "docs/data/pq-endpoint-alias-granularity-current-scalar-reconciliation-2026-09-25.json"
+    "pq_endpoint_alias_granularity_current_scalar_reconciliation_2026_09_25": "docs/data/pq-endpoint-alias-granularity-current-scalar-reconciliation-2026-09-25.json",
+    "pq_unified_reverse_index_live_scalar_correction_2026_09_25": "docs/data/pq-unified-reverse-index-live-scalar-correction-2026-09-25.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",
