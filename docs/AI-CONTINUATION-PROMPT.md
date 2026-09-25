@@ -1260,3 +1260,13 @@
 - [x] Commit: `b36c5f284635bb893a13388d6b4b260323804d15`.
 - [ ] CI success remains unverified; Actions continue to fail without usable workflow-step/log output.
 - [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-215**.
+
+
+### 2026-09-24 cycle completion — Batches 215–217 Heroic Assault reconciliation
+- [x] Refreshed **Batch 215** counter-taxonomy audit and retained its six findings without unsupported subtype or acquisition changes.
+- [x] Followed the previously unresolved **Heroic Assault** discrepancy into **Batch 216**: confirmed the canonical identity as **Super / Strike**, 100 Ki, PQ156 Basic Reward, Future Warrior availability, Gamma 1 / Hero of Justice Pack 1 source, and conditional melee-counter behavior during the rush. No unsupported drop probability or frame data was added.
+- [x] Refreshed **Batch 217**: current Category:Counter Skills remains a published 25-item category; Heroic Assault's presence on the Counter Skill taxonomy page but absence from that category is preserved as a source-taxonomy discrepancy rather than silently changing the category count.
+- [x] Validation remains **469/469** canonical/index with **0 duplicate IDs** and no speculative canonical promotion.
+- [x] Commits: `ed53460b14a4e1ad7bc35e329d786083e0ac5755`, `2d67688f0765262fafc83b38aa6467eae1e10d9f`, `786377c851a39850dd49e165aefc8261483139a2`.
+- [ ] CI remains unverified; latest Repository quality failures do not expose usable workflow-step/log output.
+- [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-218**.
