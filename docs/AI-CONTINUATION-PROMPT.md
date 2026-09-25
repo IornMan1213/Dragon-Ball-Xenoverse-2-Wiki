@@ -455,3 +455,20 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Commits: `8c6f3873d424be588e0f7ba44789d78389190e28`, `4f59140b4f3386667a14db3e4f91a30eb670cd33`, `3963b079bc020e74af77a648bdaa8b42c26a6b6c`, `4e069717b830099e3326900f665f07df8fddc6c6`, `32ce76057fc3d6c6c8eaaecddb40ba39f7b142f5`, `d5f499d18e544aa1622f8810b71c242789eb352e`, `03d531ff7f1fe4f62c8867108f5ce521dc2d3d6d`, `b3f5e3de867599ebc9b8e8751dc91e6701b0a102`.
 - [ ] **Exact next:** resolve the live canonical/index baseline discrepancy safely before claiming further canonical promotions, then continue the next alphabetical enriched-corpus provenance targets after **Hawk Charge**. If the canonical 470 baseline is confirmed, synchronize the four refreshed records to `last_verified: 2026-09-25` without altering their existing identities or relationships.
+
+
+### 2026-09-25 cycle update — Skill Batch 348 Justice provenance/mechanics refresh
+
+- [x] Fresh live current-facing baseline confirmed from the latest repository audits: **470 canonical skills / 470 index skills / 0 duplicate IDs**; current stale-scalar scan reports **0 current 469-count consumers** and preserves historical 469 snapshots.
+- [x] Completed bounded source-backed P1 refresh for **Justice Blade, Justice Combination, Justice Kick, and Justice Pose**.
+- [x] Added dedicated current-evidence audits for all four and registered them plus Skill Research Batch 348 in `docs/data/pq-cross-domain-index.json`.
+- [x] Justice Blade: current evidence supports 100-Ki Strike Super, PQ152 endpoint, rapid 11-hit Ki-blade sequence, and compatible Ultimate follow-up behavior; existing 40% Ultimate-Finish route remains bounded.
+- [x] Justice Combination: current evidence supports 300-Ki Strike Ultimate, Gohan (Adult) & Videl mentor endpoint, fast kick opener/multi-hit rush/blue-energy finisher; no unsupported lesson numbering or damage value added.
+- [x] Justice Kick: current evidence supports 100-Ki base / 200-Ki additional-input Strike Super, PQ152 endpoint, weak-Ki-Blast cancellation, and Justice Crush follow-up; source-reported damage remains explicitly bounded.
+- [x] Justice Pose: current evidence supports Power Up Super, 100 Ki, PQ53 Basic Reward, and a 20-second all-stat boost; historical cross-game acquisition differences remain provenance only.
+- [x] Evidence limits preserved: no fabricated reward probabilities, hidden gates, frame data, universal damage values, or narrower restrictions.
+- [x] Validation: all four audit files and Batch 348 parse; all five cross-domain registrations resolve; no relationship identities changed.
+- [ ] Canonical/index promotion is **not claimed** for these four because the large generated `docs/data/skills.json` cannot be safely reconstructed through the current connector for a complete synchronized replacement.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Commits: `3b92cd88cc84529387943a4cc311d9413d509890`, `951183c528eabfc08b4efb0f8dfdd970f71cf436`, `bcb477d10db97ab71bacc8772db78fe88e3f4bec`, `de8d8abe262e88f2d8ea100fd43a29633602ebf9`, `5039d5c61d7085bb23d53909a8435584884b2b85`, `85bf9ee741431e2a79fa7a2e969eebdab888a8ba`.
+- [ ] **Exact next:** continue the source-backed P1 provenance queue after the Justice tranche, preferring the next under-enriched canonical skill with direct current Xenoverse 2 evidence; when a safe complete canonical write path is available, synchronize the four Batch 348 records to `last_verified: 2026-09-25` without changing their identities or relationships.
