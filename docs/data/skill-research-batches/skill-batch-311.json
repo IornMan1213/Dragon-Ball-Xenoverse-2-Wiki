@@ -7,7 +7,7 @@
     {
       "name": "Blue Hurricane",
       "class": "Ultimate",
-      "subcategory": "Ki Blast",
+      "subcategory": "Strike",
       "ki_cost": 300,
       "usable_by_cac": null,
       "character_source": "Burter",
@@ -18,7 +18,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-all-ultimate-attacks/"
-      ]
+      ],
+      "notes": " 2026-09-25 taxonomy parity correction: current Xenoverse 2 skill documentation and the live canonical/index projection classify Blue Hurricane as a Strike Ultimate; the earlier Ki Blast classification in this historical batch was stale. Acquisition evidence (EM15 Basic Reward) is unchanged."
     },
     {
       "name": "Assault Rain",
@@ -85,5 +86,5 @@
       ]
     }
   ],
-  "notes": "Batch 311 evidence refresh corrected Blue Hurricane character attribution from the stale Gogeta entry to Burter, established 300 Ki and EM15 Basic Reward provenance, and established Assault Rain at 300 Ki with Super Buu provenance and EM9 Basic Reward provenance. CaC availability, drop probability, exact frame data, and version-sensitive damage remain unresolved. Batch 311 follow-up: Spirit Ball, Death Meteor, and Minus Energy Power Ball were reconciled from current Xenoverse 2 evidence. Death Meteor is retained as Strike rather than forcing it into the Ki Blast subcategory solely because this batch originated as Ki Blast research."
+  "notes": "Batch 311 evidence refresh corrected Blue Hurricane character attribution from the stale Gogeta entry to Burter, established 300 Ki and EM15 Basic Reward provenance, and established Assault Rain at 300 Ki with Super Buu provenance and EM9 Basic Reward provenance. CaC availability, drop probability, exact frame data, and version-sensitive damage remain unresolved. Batch 311 follow-up: Spirit Ball, Death Meteor, and Minus Energy Power Ball were reconciled from current Xenoverse 2 evidence. Death Meteor is retained as Strike rather than forcing it into the Ki Blast subcategory solely because this batch originated as Ki Blast research. 2026-09-25 follow-up: Blue Hurricane taxonomy corrected from Ki Blast to Strike to match current canonical/index classification and the maintained Strike Ultimate catalog; no acquisition semantics were changed."
 }
