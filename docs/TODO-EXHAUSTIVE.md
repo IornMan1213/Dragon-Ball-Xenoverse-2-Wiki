@@ -7100,3 +7100,11 @@
 - [x] No gameplay data, research evidence, canonical records, or task history was removed.
 - [ ] CI remains unverified; no success claimed.
 - [ ] **Exact next:** continue the queued substantive P1 research batch; do not weaken the artifact checker.
+
+
+### 2026-09-24 cycle completion — Wolf Fang Fist P1 provenance verification
+- [x] Verified Wolf Fang Fist as a Super / Strike skill with 100 Ki, Yamcha mentor Lesson 1 acquisition, CaC usability, and documented 15-hit rush / knock-away mechanics.
+- [x] Preserved unresolved stamina, frame-data, and universal damage values rather than inferring them.
+- [x] Added and registered the dedicated provenance audit; canonical/index boundary remains 469/469.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue the next partially verified research batch where direct Xenoverse 2 evidence can resolve substantive missing fields.
