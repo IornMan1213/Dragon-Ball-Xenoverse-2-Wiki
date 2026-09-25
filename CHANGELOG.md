@@ -3153,3 +3153,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Refreshed Burst Rush, Super God Shock Flash, and Heroic Counter audit metadata to current verification scope.
 - Preserved counter taxonomy separately from canonical skill class/subcategory and retained existing acquisition/Ultimate-Finish semantics.
 - Canonical/index baseline remains **469/469** with **0 duplicate IDs**.
+
+
+### 2026-09-24 — Batches 215–217 Heroic Assault reconciliation
+- Refreshed current Counter Skill taxonomy research and completed the Heroic Assault follow-up.
+- Heroic Assault remains Super / Strike with PQ156 acquisition and a separately represented conditional melee-counter behavior.
+- Preserved the published 25-item Counter Skills category count while tracking its taxonomy-page discrepancy explicitly.
+- Canonical/index baseline remains **469/469** with **0 duplicate IDs**.
