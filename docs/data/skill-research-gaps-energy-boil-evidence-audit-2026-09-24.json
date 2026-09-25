@@ -60,11 +60,10 @@
   "resolved_fields": {
     "classification": "Evasive",
     "cac_available": false,
-    "character_source": "Demon God Demigra (Final Form)",
-    "subcategory": "Other",
-    "subcategory_evidence_boundary": "The source establishes the broad Evasive skill class, but the repository's subcategory taxonomy is Ki Blast/Strike/Other/Power Up; no direct XV2 subtype label beyond Evasive was found. Retained as Other at the research layer only."
+    "character_source": "Demon God Demigra (Final Form)"
   },
   "unresolved_fields": [
+    "subcategory",
     "ki_cost"
   ],
   "guardrails": [
@@ -73,5 +72,5 @@
     "Do not create a CaC acquisition route from NPC/enemy usage.",
     "Do not promote to canonical skills.json without the supported builder and required field coverage."
   ],
-  "notes": "2026-09-25 follow-up: the current-indexed Xenoverse 2 skill guide explicitly places ID 10540 Energy Boil in the Evasive section. This resolves the broad research classification to Evasive and leaves the repository subtype and numeric Ki cost unresolved. No canonical catalog promotion is made."
+  "notes": "2026-09-25 follow-up: the current-indexed Xenoverse 2 skill guide explicitly places ID 10540 Energy Boil in the Evasive section, corroborating the already-resolved broad classification. The repository subtype and numeric Ki cost remain unresolved because the source does not expose the repository's Ki Blast/Strike/Other/Power Up subtype taxonomy. No canonical catalog promotion is made."
 }
