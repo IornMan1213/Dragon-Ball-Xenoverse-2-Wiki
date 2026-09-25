@@ -711,3 +711,15 @@
 - [x] Research-layer record is now `verified`; canonical/index catalogs remain **469/469** and were not manually reconstructed.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next:** continue with the next existing partially verified research batch after Wolf Fang Fist where direct Xenoverse 2 evidence can resolve substantive missing fields; preserve nulls for unsupported numeric/version-sensitive values and do not promote into canonical catalogs without the supported builder.
+
+
+### 2026-09-24 cycle completion — Power Pole P1 provenance verification
+- [x] Selected existing partially verified **Power Pole** (research batch 165) as the next substantive target after Wolf Fang Fist.
+- [x] Confirmed **Super / Strike**, **100 Ki**, CaC usability, **Skill Shop** acquisition, and long-range weapon mechanics from current Xenoverse 2-specific documentation.
+- [x] Confirmed the documented straight-line single-hit behavior and increased damage against grounded/pinned opponents.
+- [x] Corrected the research-layer DLC provenance to **GT Pack 1**; older Xenoverse evidence is used only for DLC provenance, not to import its shop price into Xenoverse 2.
+- [x] Explicitly preserved unresolved stamina, exact frame/hitbox, universal damage, and Xenoverse 2 Skill Shop price fields rather than importing unsupported values.
+- [x] Added `docs/data/skill-power-pole-p1-provenance-verification-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Research-layer record is now `verified`; canonical/index catalogs remain **469/469** and were not manually reconstructed.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue with the next existing partially verified research batch after Power Pole where current Xenoverse 2 evidence can resolve substantive missing fields; preserve nulls for unsupported numeric/version-sensitive values and do not promote into canonical catalogs without the supported builder.
