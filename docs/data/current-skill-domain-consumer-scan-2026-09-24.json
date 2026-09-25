@@ -9,17 +9,17 @@
     "docs/data/skill-stale-metadata-census-2026-09-24.json"
   ],
   "live_baseline": {
-    "canonical_skill_records": 469,
-    "index_skill_records": 469,
-    "current_last_verified_records": 469,
+    "canonical_skill_records": 470,
+    "index_skill_records": 470,
+    "current_last_verified_records": 470,
     "stale_last_verified_records": 0,
     "pq_linked_unique_skills": 239,
-    "non_pq_endpoint_unique_skills": 230,
-    "full_endpoint_union_skills": 469,
+    "non_pq_endpoint_unique_skills": 231,
+    "full_endpoint_union_skills": 470,
     "pq_relationship_edges": 853,
     "pq_skill_edges": 244,
     "canonical_character_names": 152,
-    "canonical_equipment_accessory_records": 174
+    "canonical_equipment_accessory_records": 173
   },
   "findings": [
     {
