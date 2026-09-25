@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-batch-317-evidence-reconciliation-2026-09-25",
+  "date": "2026-09-25",
+  "scope": "Direct current Xenoverse 2 evidence reconciliation for the eight skills carried forward by the persistent handoff.",
+  "policy": "Reconcile existing canonical evidence; do not overwrite stronger existing fields, infer reward probabilities, or resolve documented source conflicts without direct evidence.",
+  "records": [
+    {
+      "name": "Angry Explosion",
+      "ki_cost": 300,
+      "acquisition": "Expert Mission 12 - Attack of the Lone Super Soldier",
+      "ultimate_finish_required": false,
+      "summary": "Ki Blast Ultimate; canonical acquisition and classification already corroborated; combat details remain bounded.",
+      "evidence_status": "reconciled_against_current_canonical_sources"
+    },
+    {
+      "name": "Assault Rain",
+      "ki_cost": 300,
+      "acquisition": "Expert Mission 9 — The Most Feared Majin",
+      "ultimate_finish_required": null,
+      "summary": "Ki Blast Ultimate; EM9 acquisition corroborated; exact drop/guarantee semantics remain unresolved.",
+      "evidence_status": "reconciled_against_current_canonical_sources"
+    },
+    {
+      "name": "Brave Heat",
+      "ki_cost": 300,
+      "acquisition": "Bardock mentor training — Lesson 3.",
+      "ultimate_finish_required": false,
+      "summary": "Ki Blast Ultimate; Bardock Lesson 3 endpoint corroborated; current evidence describes a rush into a beam.",
+      "evidence_status": "reconciled_against_current_canonical_sources"
+    },
+    {
+      "name": "Break Cannon",
+      "ki_cost": "300+",
+      "acquisition": "Nappa's Lesson 3 — complete the instructor lesson to receive Break Cannon as the Basic Reward.",
+      "ultimate_finish_required": false,
+      "summary": "Ki Blast Ultimate; variable 300+ Ki preserved; mentor endpoint corroborated.",
+      "evidence_status": "reconciled_against_current_canonical_sources"
+    },
+    {
+      "name": "Breaker Energy Wave",
+      "ki_cost": 0,
+      "acquisition": "Parallel Quest 101 — Seeking Fighters for Tournament (Basic Reward)",
+      "ultimate_finish_required": false,
+      "summary": "Ki Blast Ultimate; 0 Ki and one-use low-health behavior corroborated; historical player reports of Ultimate Finish acquisition are preserved as a conflict, not normalized.",
+      "evidence_status": "reconciled_against_current_canonical_sources"
+    },
+    {
+      "name": "Chain Destructo-Disc Barrage",
+      "ki_cost": 300,
+      "acquisition": "Parallel Quest 46 — 16 of the Official History (Basic Reward)",
+      "ultimate_finish_required": false,
+      "summary": "Ki Blast Ultimate; five-disc sequence and unblockable behavior corroborated; All CaC races supported by existing evidence.",
+      "evidence_status": "reconciled_against_current_canonical_sources"
+    },
+    {
+      "name": "Chaotic Time Impact",
+      "ki_cost": 600,
+      "acquisition": "Parallel Quest 184 — Ultimate Finish bonus reward (50% bonus slot)",
+      "ultimate_finish_required": true,
+      "summary": "Ki Blast Ultimate; Power-of-Time scaling/time-bubble behavior corroborated; race restriction remains null.",
+      "evidence_status": "reconciled_against_current_canonical_sources"
+    },
+    {
+      "name": "Circle Flash",
+      "ki_cost": 300,
+      "acquisition": "Parallel Quest 154 — Ultimate Finish bonus slot (40%)",
+      "ultimate_finish_required": true,
+      "summary": "Ki Blast Ultimate; PQ154 acquisition corroborated; reward-tier conflict with an independent Basic Reward listing remains explicitly preserved.",
+      "evidence_status": "reconciled_against_current_canonical_sources"
+    }
+  ],
+  "evidence_boundary": "No exact frame data, version-sensitive damage, drop probability, or narrower race/gender/form restrictions were added where unresolved. Existing source conflicts remain preserved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Angry_Explosion",
+    "https://dbxv2.fandom.com/wiki/Assault_Rain",
+    "https://dbxv2.fandom.com/wiki/Brave_Heat",
+    "https://dbxv2.fandom.com/wiki/Break_Cannon",
+    "https://dbxv2.fandom.com/wiki/Breaker_Energy_Wave",
+    "https://dbxv2.fandom.com/wiki/Chain_Destructo-Disc_Barrage",
+    "https://dbxv2.fandom.com/wiki/Chaotic_Time_Impact",
+    "https://dbxv2.fandom.com/wiki/Circle_Flash"
+  ]
+}
