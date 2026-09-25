@@ -549,3 +549,15 @@
 - [x] Corrected the existing Murder Grenade audit's internal audit_id typo so its identifier matches its registered filename.
 - [ ] CI remains unverified.
 - [x] **Exact next:** continue the shortest remaining M/N/O mechanics records, then advance alphabetically once this frontier is exhausted.
+
+
+### 2026-09-25 cycle completion — Skill Batch 355 P mechanics/provenance refresh
+- [x] Advanced alphabetically from the exhausted M/N/O low-detail frontier into **P** records.
+- [x] Completed **Psycho Escape, Psycho Barrier, Power Blitz, and Present For You**.
+- [x] Psycho Escape: documented 200 Stamina, telekinetic freeze, lock-on removal, safe retreat, and no-damage behavior; preserved the older-game PQ-number conflict instead of overriding Xenoverse 2-specific PQ13 evidence.
+- [x] Psycho Barrier: documented 100 Ki, defensive barrier, expansion input, and 2% per-hit source value; preserved the conflicting expansion-count wording across references.
+- [x] Power Blitz: documented 100 Ki, two-hit pincer/tracking behavior and source-reported 15% total damage.
+- [x] Present For You: documented 100 Ki, randomized healing/explosive outcomes, and the observable box interaction without inventing outcome probabilities.
+- [x] Added/registered four current-evidence audits and Skill Research Batch 355; 469/469 baseline parity maintained, no duplicate IDs, unsupported gates/probabilities not promoted.
+- [ ] CI remains unverified.
+- [x] **Exact next:** continue the shortest-evidence P records, beginning with Prepare to be Punished / Power Rush / Pretty Cannon as appropriate, then proceed alphabetically.
