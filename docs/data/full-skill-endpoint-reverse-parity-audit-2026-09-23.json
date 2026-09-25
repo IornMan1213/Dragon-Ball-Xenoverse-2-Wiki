@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
-  "audit_date": "2026-09-24",
+  "audit_date": "2026-09-25",
   "status": "pass",
   "scope": "full canonical skill endpoint reverse parity after starting-move layer",
-  "canonical_skill_count": 469,
+  "canonical_skill_count": 470,
   "pq_linked_unique_skill_count": 239,
   "non_pq_endpoint_unique_skill_count": 230,
-  "union_skill_count": 469,
+  "union_skill_count": 470,
   "uncovered_skill_ids": [],
   "layer_counts": {
     "mentor_endpoints": 132,
@@ -34,5 +34,5 @@
     "duplicate_endpoint_skill_pairs": 0,
     "legitimate_multi_producer_skill_count": 1
   },
-  "evidence_boundary": "Coverage proves navigable producer/exposure representation, not that every listed route is simultaneously available in every game version. Version-sensitive availability remains governed by each canonical endpoint's evidence metadata. Four skills promoted in the 2026-09-24 Hyper/Ice coverage recovery were subsequently added to their deterministic shop/special endpoint layers, restoring 469-record union parity. Tokipedia and Conton City Patrol endpoint metadata were refreshed to the 2026-09-24 current verification boundary without changing their established 4/3 edge counts."
+  "evidence_boundary": "Coverage proves navigable producer/exposure representation, not that every listed route is simultaneously available in every game version. Version-sensitive availability remains governed by each canonical endpoint's evidence metadata. Four skills promoted in the 2026-09-24 Hyper/Ice coverage recovery were subsequently added to their deterministic shop/special endpoint layers, restoring 469-record union parity. Tokipedia and Conton City Patrol endpoint metadata were refreshed to the 2026-09-24 current verification boundary without changing their established 4/3 edge counts. Current 2026-09-25 cross-domain consumer reconciliation supersedes the older 469-record projection: 470 canonical IDs are represented in the endpoint union, with 239 PQ-linked unique skills and 230 unique non-PQ endpoint targets; one legitimate overlap exists between producer domains."
 }
