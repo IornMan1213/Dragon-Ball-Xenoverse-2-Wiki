@@ -7517,3 +7517,13 @@
 - [x] Refreshed verification to **2026-09-24** and registered the audit in the cross-domain index.
 - [x] Preserved null Ultimate Finish handling for the Skill Shop route.
 - [ ] **Next:** process **skill-batch-208 — Super Afterimage and God Breaker**.
+
+
+### 2026-09-24 — TODO completion update — Batch 209 historical reconciliation correction
+- [x] Corrected Batch 140's invalid Flash Fist Crush duplicate reference: Batch 127 is Deadly Dance, not Flash Fist Crush.
+- [x] Refreshed Batch 209 to 2026-09-24 and registered both the Batch 209 reconciliation and Batch 140 correction in the cross-domain index.
+- [x] Preserved current Flash Fist Crush as Super / Strike / Universal Counter with 100 Ki and Shenron-wish acquisition; no duplicate canonical identity was created.
+- [x] Revalidated Dragon Thunder and Shadow Crusher without changing their established findings.
+- [x] Validation baseline: **469/469** canonical/index, **0 duplicate IDs**; no canonical catalog reconstruction.
+- [ ] CI remains unverified because the latest quality/clean runs expose no workflow steps or usable logs.
+- [ ] **Exact next:** inspect current Actions state, then process **skill-batch-210** with direct Xenoverse 2 evidence and the same bounded provenance/correction workflow.
