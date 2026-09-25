@@ -60,3 +60,13 @@
 - [x] Registered the audit in `docs/data/pq-cross-domain-index.json` and preserved the 470/470 canonical/index boundary.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] **Exact next:** continue the remaining partially verified/under-enriched canonical skill provenance queue with a target where current Xenoverse 2-specific evidence can promote an actual canonical field; do not repeat closed endpoint-consumer audits.
+
+
+### 2026-09-25 cycle completion — Requiem of Destruction current-evidence provenance refresh
+- [x] Selected **Requiem of Destruction** as the next under-enriched canonical skill provenance target after the Last Emperor refresh.
+- [x] Added `docs/data/skill-requiem-of-destruction-current-evidence-audit-2026-09-25.json` with current Xenoverse 2-specific skill evidence, independent PQ reward evidence, Bandai Namco Super Pack 2 provenance, and partner-customization context.
+- [x] Refreshed Batch 316 for Requiem of Destruction to preserve the supported 300-Ki Ki Blast Ultimate identity, PQ106 endpoint, and bounded mechanics.
+- [x] Preserved the Basic Reward vs. reported Ultimate-Finish reward conflict; `ultimate_finish_required` remains null rather than being inferred.
+- [x] Registered the audit in `docs/data/pq-cross-domain-index.json`; 470/470 canonical/index parity remains unchanged.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** continue the remaining partially verified/under-enriched skill provenance queue with another record where current Xenoverse 2-specific evidence can materially strengthen fields, while preserving unresolved reward semantics.
