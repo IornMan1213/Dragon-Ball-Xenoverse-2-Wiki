@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-25",
+  "scope": "Current unified reverse-index scalar reconciliation",
+  "source_of_truth": "docs/data/pq-reward-relationships.json",
+  "consumer": "docs/data/pq-reward-normalization/pq-unified-reverse-index-audit.json",
+  "finding": {
+    "field": "live_exact_reconciliation",
+    "before": {
+      "skill": 244,
+      "super_soul": 146,
+      "equipment": 124,
+      "character": 247,
+      "dlc": 86,
+      "farming": 7,
+      "total": 854
+    },
+    "expected_current": {
+      "skill": 244,
+      "super_soul": 145,
+      "equipment": 124,
+      "character": 247,
+      "dlc": 86,
+      "farming": 7,
+      "total": 853
+    },
+    "reason": "The consumer's live_exact_reconciliation block retained a superseded pre-Super-Soul-158 migration scalar while the same file's canonical_counts/live_projection_counts and the authoritative PQ relationship layer are 853 total / 145 Super Soul."
+  },
+  "change": {
+    "status": "repaired",
+    "relationships_changed": 0,
+    "canonical_ids_changed": 0,
+    "acquisition_routes_inferred": 0,
+    "historical_snapshots_rewritten": 0,
+    "historical_854_146_values_preserved": true
+  },
+  "validation": {
+    "current_total_edges": 853,
+    "current_super_soul_edges": 145,
+    "current_equipment_edges": 124,
+    "current_character_edges": 247,
+    "current_dlc_edges": 86,
+    "current_farming_edges": 7,
+    "result": "clean"
+  },
+  "ci": "Unavailable; no CI success claimed.",
+  "exact_next": "Continue exact-pair parity scanning of remaining reverse/navigation projections for another explicitly current stale scalar; do not rewrite historical 854/146 snapshots."
+}
