@@ -2350,3 +2350,14 @@
 - [x] Preserved historical 465/469-count snapshots; no historical artifact was rewritten and no acquisition route, probability, prerequisite, or version claim was inferred.
 - [ ] CI/runtime execution remains unavailable; no CI success claimed.
 - [ ] **Exact next:** proceed with source-backed P1 provenance enrichment for partially verified skill records now that current deterministic endpoint coverage is closed; prioritize a bounded batch with direct Xenoverse 2-specific evidence and then recheck canonical/index parity.
+
+### 2026-09-25 cycle completion — Skill research Batch 331: The Power to Overcome
+- [x] Confirmed no existing Batch 331+ artifact before editing; Batch 330 was the prior research batch.
+- [x] Added `docs/data/skill-research-batches/skill-batch-331.json` for **The Power to Overcome**.
+- [x] Strengthened the existing Awoken record with Future Saga Chapter 4 provenance, the final-story unlock endpoint (Quest No. 31 — Ultimate All-Out Showdown), universal CaC scope, and the documented two-stage resource behavior.
+- [x] Preserved unresolved exact HP-drain/Ki-recovery rates, cooldown duration, damage modifiers, frame data, and hitbox data; no canonical promotion or relationship change was made.
+- [x] Registered Batch 331 in `docs/data/pq-cross-domain-index.json` and advanced `docs/data/skill-catalog-audit.json` to **latest_research_batch 331**.
+- [x] JSON structure was constructed as a single-record bounded research artifact; no canonical `skills.json` / `skills-index.json` reconstruction was attempted.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** check for any Batch 332+ artifact; if absent, continue the next genuinely evidence-backed partially verified skill/provenance target or deterministic current-facing consumer mismatch. Preserve the 470/470 canonical boundary and do not invent unresolved numeric mechanics.
+
