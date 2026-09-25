@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "kill-spirit-sword-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Spirit Sword",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "class": "Ultimate",
+    "subcategory": "Strike",
+    "ki_cost": 400,
+    "source_quest_or_shop": "Expert Mission 17 — In the Realm of the Gods: Goku"
+  },
+  "limits": [
+    "Exact reward probability remains unresolved.",
+    "No first-clear guarantee is inferred.",
+    "No unsupported Ultimate-Finish-only gate is inferred."
+  ],
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Spirit_Sword",
+    "https://dbxv2.fandom.com/wiki/Expert_Mission",
+    "https://dragonball.fandom.com/wiki/Spirit_Sword",
+    "https://steamcommunity.com/app/454650/discussions/0/276237094323595262/"
+  ]
+}
