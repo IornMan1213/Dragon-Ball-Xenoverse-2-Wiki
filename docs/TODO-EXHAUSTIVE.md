@@ -87,3 +87,11 @@
 - [x] Preserved unresolved reward probability and Ultimate-Finish semantics.
 - [ ] CI remains unverified.
 - [x] **Exact next:** continue with Final Kamehameha and the remaining under-enriched Batch 54 provenance queue.
+
+
+### 2026-09-25 completion — Final Kamehameha current-evidence provenance promotion
+- [x] Added current-evidence audit and registered it in the cross-domain index.
+- [x] Promoted Batch 54 Final Kamehameha to `verified_current_scope` for classification, 500-Ki cost, PQ91 endpoint, current alternate acquisition routes, and 22-hit beam mechanics.
+- [x] Preserved unresolved Ultimate-Finish/drop-probability semantics.
+- [ ] CI remains unverified.
+- [x] **Exact next:** continue the remaining under-enriched Batch 54/provenance queue.
