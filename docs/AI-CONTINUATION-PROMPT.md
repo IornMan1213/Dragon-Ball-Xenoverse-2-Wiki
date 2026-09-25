@@ -674,3 +674,13 @@
 - [x] Evidence limits preserved: no hidden probabilities, frame data, or unsupported timing inferred.
 - [ ] CI remains unverified.
 - [x] **Exact next:** fresh global thin-record census; shortest remaining 78-character mechanics records are **Fighting Pose A, Fighting Pose F, Innocence Breath, Innocence Bullet, Innocence Cannon, Justice Rush, Shining Friday, Strike of Revelation, Sudden Storm, Super Explosive Wave**.
+
+### 2026-09-25 cycle completion — Skill Batch 365 thin mechanics/provenance research
+- [x] Continued the post-Batch-364 thin-record frontier with **Fighting Pose A, Fighting Pose F, Innocence Breath, and Innocence Bullet**.
+- [x] Added four dedicated current-evidence audits under `docs/data/` and added `docs/data/skill-research-batches/skill-batch-365.json`.
+- [x] Registered all five new evidence artifacts in `docs/data/pq-cross-domain-index.json`; index registration count is now 270 keys.
+- [x] Strengthened bounded current Xenoverse 2 mechanics/provenance: Fighting Pose A auto-guard; Fighting Pose F Stamina-over-Health defensive behavior; Innocence Breath 300-Ki sweeping/unblockable Ki Blast Ultimate; Innocence Bullet 100-Ki paired projectile/poison Super.
+- [x] Preserved uncertainty boundaries: no unsupported duration, poison tick rate, frame data, hidden gates, or universal damage values were inferred.
+- [ ] Canonical `skills.json` / `skills-index.json` were intentionally not partially rewritten because the connector cannot safely reconstruct the complete generated files; existing canonical identities and relationships remain untouched.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** continue the same thin-record frontier with **Innocence Cannon, Justice Rush, Shining Friday, Strike of Revelation, Sudden Storm, Super Explosive Wave**, then perform another fresh thin-record census rather than assuming the historical ordering remains current.
