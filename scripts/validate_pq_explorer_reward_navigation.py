@@ -83,6 +83,22 @@ def main():
     dlc_duplicate_pairs = len(dlc_pairs) - len(set(dlc_pairs))
     dlc_duplicate_names = len(dlc_names) != len(dlc)
     dlc_duplicate_ids = len(dlc_ids) != len(dlc)
+    relationship_keys = [
+        (str(edge.get("relationship")), str(edge.get("pq")), str(edge.get("target")))
+        for edge in rel
+    ]
+    relationship_type_counts = {}
+    for key in relationship_keys:
+        relationship_type_counts[key[0]] = relationship_type_counts.get(key[0], 0) + 1
+    duplicate_canonical_relationship_keys = len(relationship_keys) - len(set(relationship_keys))
+    expected_relationship_counts = {
+        "pq_rewards_skill": 244,
+        "pq_rewards_super_soul": 145,
+        "pq_rewards_equipment": 124,
+        "pq_features_character": 247,
+        "pq_requires_dlc": 86,
+        "pq_farming_route": 7,
+    }
 
     skills = {record["name"] for record in load("skills.json")["records"]}
     souls = {record["name"] for record in load("super-souls-record-layer.json")["records"]}
@@ -123,6 +139,9 @@ def main():
         "dlc_identity_names_unique": not dlc_duplicate_names,
         "dlc_identity_ids_unique": not dlc_duplicate_ids,
         "dlc_relationship_pairs_unique": dlc_duplicate_pairs == 0,
+        "canonical_relationship_total_is_853": len(rel) == 853,
+        "canonical_relationship_type_counts_match_live_baseline": relationship_type_counts == expected_relationship_counts,
+        "canonical_relationship_keys_unique": duplicate_canonical_relationship_keys == 0,
         "dlc_identity_has_id_for_every_name": len(dlc_name_to_id) == len(dlc_names),
         "skill_targets_resolve": not unresolved["skills"],
         "soul_targets_resolve": not unresolved["souls"],
@@ -157,6 +176,8 @@ def main():
             "dlc_unique_targets": len({edge["target"] for edge in dlc_edges}),
             "dlc_identity_records": len(dlc),
             "dlc_duplicate_pairs": dlc_duplicate_pairs,
+            "relationship_type_counts": relationship_type_counts,
+            "duplicate_canonical_relationship_keys": duplicate_canonical_relationship_keys,
         },
         "unresolved_canonical_targets": unresolved,
         "checks": checks,
