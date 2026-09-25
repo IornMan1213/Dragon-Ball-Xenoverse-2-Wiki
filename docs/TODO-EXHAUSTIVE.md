@@ -8150,3 +8150,12 @@
 - [x] Validation: 470 skills-index records, Batch 311 has 5 records, JSON clean, cross-domain index 153 keys.
 - [ ] CI remains unverified.
 - [ ] Next: continue deterministic taxonomy parity checks across remaining partially_verified Ultimate records and their historical research batches.
+
+
+### 2026-09-25 — TODO completion update — Ultimate EM taxonomy parity validator
+- [x] Compared all **13** records in `skill-expert-mission-acquisition-early.json` against the live **470-record** skills index.
+- [x] Found **0 class/subcategory mismatches**; Death Meteor and Blue Hurricane now agree as Strike across the corrected layers.
+- [x] Added and registered `docs/data/ultimate-em-taxonomy-parity-audit-2026-09-25.json`.
+- [x] Validation passed; cross-domain index now **154** keys.
+- [ ] CI remains unverified.
+- [ ] **Next:** inspect remaining historical/catalog parity for Shocking Death Ball and Spirit Sword, then continue to the next deterministic invariant.
