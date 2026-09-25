@@ -6,10 +6,10 @@
   "canonical_mentor_records": 33,
   "mentors_audited": 33,
   "lesson_records_audited": 133,
-  "linked_skill_edges": 131,
-  "unresolved_skill_endpoints": 1,
-  "fully_linked_mentors": 32,
-  "partially_linked_mentors": 1,
+  "linked_skill_edges": 132,
+  "unresolved_skill_endpoints": 0,
+  "fully_linked_mentors": 33,
+  "partially_linked_mentors": 0,
   "records": [
     {
       "mentor_id": "mentor-krillin",
@@ -535,11 +535,10 @@
       "linked_skill_ids": [
         "skill-time-skip-flash-skewer",
         "skill-time-skip-back-breaker",
-        "skill-time-skip-jump-spike"
+        "skill-time-skip-jump-spike",
+        "skill-time-skip-tremor-pulse"
       ],
-      "unresolved_skill_names": [
-        "Time Skip/Tremor Pulse"
-      ]
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-bojack",
@@ -581,21 +580,20 @@
     "Gotenks' duplicated Super Ghost Kamikaze Attack entry is preserved exactly as the consulted guide presents it.",
     "2026-09-21 mentor expansion linked Pan, Jaco, Goku, and Bardock lesson endpoints to canonical skill IDs; exact skill identity was required before linking.",
     "2026-09-21 validation correction: removed the pre-existing Hit → Time Skip/Tremor Pulse endpoint from the resolved index because no canonical skill record exists yet; preserved the lesson as an explicit unresolved endpoint rather than inventing an ID.",
-    "2026-09-24 live reconciliation: removed the stale Hit → skill-time-skip-tremor-pulse entry from linked_skill_ids because no canonical skill record exists; retained the lesson as the single unresolved skill endpoint. This aligns the coverage report with mentors-record-layer.json and mentor-skill-crosslink-report.json.",
-    "2026-09-24 typed-reward cleanup: Zamasu's \"I'm thinking of becoming a GodTuber\" reward is a non-skill Super Soul, not an unresolved skill endpoint, so it is no longer listed under unresolved_skill_names. The only unresolved skill lesson is Hit's Time Skip/Tremor Pulse."
+    "2026-09-25 live reconciliation: the existing canonical skill record resolves Hit Lesson 3 deterministically; mentor coverage is fully linked at 132 edges / 131 unique skill targets."
   ],
   "sources": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
     "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2"
   ],
   "canonical_skill_records": 470,
-  "unique_skill_endpoints": 130,
+  "unique_skill_endpoints": 131,
   "validation": {
     "canonical_mentor_records": 33,
     "mentors_with_skill_links": 33,
-    "mentor_to_skill_edge_count": 131,
-    "unique_skill_endpoints": 130,
-    "unresolved_edge_count": 1,
+    "mentor_to_skill_edge_count": 132,
+    "unique_skill_endpoints": 131,
+    "unresolved_edge_count": 0,
     "broken_skill_endpoints": 0,
     "mentor_lesson_reward_count": 133,
     "typed_skill_reward_count": 132,
