@@ -3102,3 +3102,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Added `docs/data/skill-absolute-zero-p1-provenance-verification-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
 - Refreshed `docs/data/skill-research-batches/skill-batch-197.json`; canonical/index catalogs remain **469/469** and were not manually expanded.
 - Actions on the latest commits continue to expose runner-level failures with zero workflow steps/logs; no CI success is claimed.
+
+### 2026-09-24 — Burst Reflection P1 provenance verification
+- Refreshed **Burst Reflection** research batch 198 with current Xenoverse 2 identity, 100 Ki, Shenron-wish acquisition, Future Warrior availability, Nuova Shenron context, and barrier/beam mechanics.
+- Added and registered docs/data/skill-burst-reflection-p1-provenance-verification-2026-09-24.json.
+- Preserved the distinction between current Xenoverse 2 Shenron acquisition and older Xenoverse-era PQ wording; no unsupported Ultimate Finish dependency was inferred.
+- Canonical/index parity remains **469/469** and no unsupported promotion was made.
+- CI remains unverified.
