@@ -78,7 +78,8 @@
     "skill_batch_308_cast_exclusive_ultimate_2026_09_24": "docs/data/skill-batch-308-cast-exclusive-ultimate-evidence-audit-2026-09-24.json",
     "skill_batch_56_appetizing_rush_evidence_audit_2026_09_24": "docs/data/skill-batch-56-appetizing-rush-evidence-audit-2026-09-24.json",
     "skill_batch_309_ki_blast_ultimate_evidence_audit_2026_09_24": "docs/data/skill-batch-309-ki-blast-ultimate-evidence-audit-2026-09-24.json",
-    "skill_batch_310_ki_blast_ultimate_evidence_audit_2026_09_24": "docs/data/skill-batch-310-ki-blast-ultimate-evidence-audit-2026-09-24.json"
+    "skill_batch_310_ki_blast_ultimate_evidence_audit_2026_09_24": "docs/data/skill-batch-310-ki-blast-ultimate-evidence-audit-2026-09-24.json",
+    "accessory_android14_bardock_super_scouter_evidence": "docs/data/accessory-android14-bardock-super-scouter-evidence-audit-2026-09-24.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",
@@ -643,15 +644,10 @@
   "skill_research_batch_302_cost_evidence_audit_2026_09_24": "docs/data/skill-batch-302-cost-evidence-audit-2026-09-24.json",
   "skill_batch_303_audacious_laugh_evidence_audit_2026_09_24": "docs/data/skill-batch-303-audacious-laugh-evidence-audit-2026-09-24.json",
   "skill_batch_305_other_ultimate_provenance_audit_2026_09_24": "docs/data/skill-batch-305-other-ultimate-provenance-audit-2026-09-24.json",
-  "skill_batch_306_ki_blast_ultimate_evidence_audit_2026_09_24": "docs/data/skill-batch-306-ki-blast-ultimate-evidence-audit-2026-09-24.json"
-  ,
-  "skill_batch_311_blue_hurricane_assault_rain_evidence_audit_2026_09_24": "docs/data/skill-batch-311-blue-hurricane-assault-rain-evidence-audit-2026-09-24.json"
-  ,
-  "skill_batch_311_remaining_evidence_audit_2026_09_24": "docs/data/skill-batch-311-remaining-evidence-audit-2026-09-24.json"
-  ,
-  "android_13_hat_residual_identity_evidence_2026_09_24": "docs/data/android-13-hat-residual-identity-evidence-2026-09-24.json"
-,
-  "kale_caulifla_accessory_domain_resolution_audit_2026_09_24": "docs/data/kale-caulifla-accessory-domain-resolution-audit-2026-09-24.json"
-,
+  "skill_batch_306_ki_blast_ultimate_evidence_audit_2026_09_24": "docs/data/skill-batch-306-ki-blast-ultimate-evidence-audit-2026-09-24.json",
+  "skill_batch_311_blue_hurricane_assault_rain_evidence_audit_2026_09_24": "docs/data/skill-batch-311-blue-hurricane-assault-rain-evidence-audit-2026-09-24.json",
+  "skill_batch_311_remaining_evidence_audit_2026_09_24": "docs/data/skill-batch-311-remaining-evidence-audit-2026-09-24.json",
+  "android_13_hat_residual_identity_evidence_2026_09_24": "docs/data/android-13-hat-residual-identity-evidence-2026-09-24.json",
+  "kale_caulifla_accessory_domain_resolution_audit_2026_09_24": "docs/data/kale-caulifla-accessory-domain-resolution-audit-2026-09-24.json",
   "late_dlc_accessory_domain_resolution_audit_2026_09_24": "docs/data/late-dlc-accessory-domain-resolution-audit-2026-09-24.json"
 }
