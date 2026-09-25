@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-25",
+  "scope": "PQ-facing summary/reference consumer contract audit",
+  "validator": "scripts/validate_pq_summary_consumers.py",
+  "canonical": {
+    "pq_records": 186,
+    "relationship_edges": 853,
+    "skill": 244,
+    "super_soul": 145,
+    "equipment": 124,
+    "character": 247,
+    "dlc": 86,
+    "farming": 7,
+    "farming_pqs": [
+      "PQ15",
+      "PQ22",
+      "PQ44",
+      "PQ45",
+      "PQ68",
+      "PQ83",
+      "PQ88"
+    ]
+  },
+  "consumers": [
+    {
+      "file": "docs/Guides.md",
+      "status": "clean",
+      "checks": [
+        "Database-first workflow links to the local Skills Database and keeps source/requirements/Ultimate-Finish verification separate."
+      ]
+    },
+    {
+      "file": "docs/Skills-Database.md",
+      "status": "clean",
+      "checks": [
+        "Explicitly states canonical PQ→skill association does not establish guaranteed reward, Ultimate Finish, enemy trigger, or drop rate."
+      ]
+    },
+    {
+      "file": "docs/Skills-Complete-Database.md",
+      "status": "clean",
+      "checks": [
+        "Separates indexed coverage from verified acquisition/mechanics and warns that PQ association is not a guaranteed-drop claim."
+      ]
+    },
+    {
+      "file": "docs/Skills-Unlock-Database.md",
+      "status": "clean",
+      "checks": [
+        "Separates canonical PQ→skill association from independently verified Ultimate Finish/trigger/drop fields."
+      ]
+    },
+    {
+      "file": "docs/QQ-Bangs.md",
+      "status": "clean",
+      "checks": [
+        "PQ83 Super Mix Capsule Z route is explicitly community/research evidence and not a canonical farming relationship."
+      ]
+    },
+    {
+      "file": "docs/Farming-Hub.md",
+      "status": "clean",
+      "checks": [
+        "Uses the exact seven canonical Dragon Ball farming PQs and preserves reward-trigger/guarantee uncertainty."
+      ]
+    },
+    {
+      "file": "docs/Farming-Routes.md",
+      "status": "clean",
+      "checks": [
+        "Uses the exact seven canonical Dragon Ball farming PQs without ranking them as universally fastest/best."
+      ]
+    },
+    {
+      "file": "docs/Equipment-Database.md",
+      "status": "clean",
+      "checks": [
+        "Separates DLC provenance from actual acquisition conditions and keeps inventory/verification distinct."
+      ]
+    },
+    {
+      "file": "docs/Accessory-PQ-Database.md",
+      "status": "clean",
+      "checks": [
+        "Keeps accessory/PQ research conditions separate from guaranteed-drop claims and preserves unresolved late-PQ evidence."
+      ]
+    }
+  ],
+  "checks": {
+    "pq_record_layer": "186 records; exact numbered set 1–186",
+    "relationship_counts": "244 skill / 145 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming",
+    "farming_set": "PQ15/PQ22/PQ44/PQ45/PQ68/PQ83/PQ88",
+    "superseded_current_scalars": "0 in audited summary/reference consumers",
+    "contract_failures": 0
+  },
+  "evidence_boundary": "This audit validates current summary/reference consumer wording and canonical scalar/set consistency. It does not infer reward guarantees, Ultimate Finish requirements, drop rates, or new relationships from prose."
+}
