@@ -7645,3 +7645,14 @@
 - [x] Validation: JSON parsed successfully; canonical/index boundary remains **469/469** with **0 duplicate IDs** and no speculative canonical promotion.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** continue **skill-batch-251**, reconciling Saturday Crash, Consecutive Energy Blast, Super Destructo-Disc, and Earth Splitting Galick Gun against current canonical/PQ/provenance evidence.
+
+### 2026-09-24 cycle completion — Batch 251 Ki Blast Super historical reconciliation
+- [x] Reconciled all four Batch 251 records against current mentor/PQ/provenance evidence.
+- [x] Verified **Saturday Crash** through the live Raditz mentor endpoint and retained its previously verified 100 Ki cost.
+- [x] Preserved **Consecutive Energy Blast**'s Skill Shop acquisition without inventing a shop rotation, price, or probability.
+- [x] Confirmed **Super Destructo-Disc** had already been promoted to the canonical/index layer; no duplicate promotion was performed, and its unresolved Expert Mission drop-rate/guarantee semantics remain explicit.
+- [x] Confirmed **Earth Splitting Galick Gun → PQ11** through the canonical PQ reward relationship/reverse index while preserving the existing Ultimate-Finish evidence conflict instead of guessing a definitive gate.
+- [x] Added `docs/data/skill-batch-251-reconciliation-2026-09-24.json` and refreshed the historical batch verification/status metadata.
+- [x] Validation: JSON parsed successfully; canonical/index boundary remains **469/469** with **0 duplicate IDs**.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** continue **skill-batch-252**, reconciling Death Slicer, Ki Blast Cannon, Dodon Ray, Death Slash, Burst Attack, and Kairos Cannon.
