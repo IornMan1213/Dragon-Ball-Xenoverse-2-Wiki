@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "audit_date": "2026-09-24",
+  "audit_date": "2026-09-25",
   "scope": "Current mentor presentation consumer and bidirectional mentor↔skill navigation",
   "source_of_truth": [
     "docs/data/mentors-record-layer.json",
@@ -15,16 +15,16 @@
     "lesson_reward_objects": 133,
     "typed_skill_rewards": 132,
     "typed_non_skill_rewards": 1,
-    "mentor_skill_edge_rows": 131,
-    "unique_skill_targets": 130,
+    "mentor_skill_edge_rows": 132,
+    "unique_skill_targets": 131,
     "broken_skill_endpoints": 0,
-    "unresolved_skill_lessons": 1
+    "unresolved_skill_lessons": 0
   },
   "navigation": {
     "mentor_to_skill": "pass",
     "skill_to_mentor": "pass",
     "skill_query_navigation": "Mentors-All.html?q=<mentor>",
-    "unresolved_skill_lesson": "Hit — Time Skip/Tremor Pulse; retained as an explicit evidence boundary because no canonical skill ID exists",
+    "unresolved_skill_lesson": null,
     "non_skill_reward": "Zamasu initiation reward is explicitly typed as Super Soul and excluded from skill endpoint counts"
   },
   "checks": {
@@ -34,5 +34,6 @@
     "no_broken_skill_endpoints": true,
     "no_new_relationships_inferred": true
   },
-  "evidence_boundary": "This audit validates presentation wiring and canonical identity resolution only. It does not infer mentor unlock conditions, friendship thresholds, reward probabilities, gameplay mechanics, or a canonical skill ID for the unresolved Hit lesson."
+  "evidence_boundary": "This current audit validates presentation wiring and canonical identity resolution only. Hit Lesson 3 now resolves deterministically to the existing canonical skill-time-skip-tremor-pulse record; no new skill identity is fabricated.",
+  "status": "current_reconciled"
 }
