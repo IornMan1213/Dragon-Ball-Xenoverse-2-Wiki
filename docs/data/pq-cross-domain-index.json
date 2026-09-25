@@ -628,6 +628,7 @@
   "skill_shadow_crusher_p1_audit_2026_09_24": "docs/data/skill-research-batches/skill-batch-206.json",
   "skill_reverse_mabakusenko_p1_audit_2026_09_24": "docs/data/skill-research-batches/skill-batch-207.json",
   "skill_batch_209_historical_reconciliation_2026_09_24": "docs/data/skill-research-batches/skill-batch-209.json",
-  "skill_batch_140_flash_fist_crush_correction_2026_09_24": "docs/data/skill-research-batches/skill-batch-140.json"
-  ,"skill_batch_252_reconciliation":"docs/data/skill-batch-252-reconciliation-2026-09-24.json"
+  "skill_batch_140_flash_fist_crush_correction_2026_09_24": "docs/data/skill-research-batches/skill-batch-140.json",
+  "skill_batch_252_reconciliation": "docs/data/skill-batch-252-reconciliation-2026-09-24.json",
+  "skill_research_gaps_datamined_cost_boundary_2026_09_24": "docs/data/skill-research-gaps-datamined-cost-boundary-2026-09-24.json"
 }
