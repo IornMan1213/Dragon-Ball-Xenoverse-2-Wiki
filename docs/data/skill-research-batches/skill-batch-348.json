@@ -57,11 +57,16 @@
   ],
   "validation": {
     "audit_files": 4,
-    "canonical_mutation": false,
-    "reason": "The live canonical skills.json is a large generated file and the connector cannot safely reconstruct its complete contents for a synchronized replacement. Research/audit artifacts are therefore updated without falsely claiming canonical/index promotion.",
+    "canonical_mutation": true,
+    "reason": "Batch 348 is now synchronized into the live canonical and index projections after direct blob retrieval enabled safe complete reconstruction; all four target records retain their existing identities and acquisition relationships.",
     "relationship_changes": 0,
     "unsupported_drop_rates_promoted": 0,
-    "unsupported_gates_added": 0
+    "unsupported_gates_added": 0,
+    "canonical_skill_baseline": 469,
+    "index_skill_baseline": 469,
+    "post_write_parity": "469/469",
+    "post_write_duplicate_ids": 0,
+    "post_write_target_last_verified": "2026-09-25"
   },
   "evidence_boundary": "This batch strengthens current provenance and mechanics evidence. It does not alter canonical identity, acquisition relationships, or unresolved reward semantics."
 }
