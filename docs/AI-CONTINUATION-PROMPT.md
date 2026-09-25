@@ -485,3 +485,14 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Commits: Justice canonical `061b5fa75572f53ada7487111be790ba321992f2`; Justice index `0a3f18b8211690188d5ee0d10c0d660aec482660`; Batch 348 validation `d4fd993dbae626be1870008a8255c5401fd0fc2a`; Kai audits `85e135efbeb0d7044da14e673eb07bea56c75959`, `edab0e5d019c231f201d5c33ef220c2b830127c0`, `00ba751e17ec1807c24f91bd63de52dbb8c432a5`, `e9c7d464656bcbf9c5e935efe1fa99fd210d3f75`; Batch 349 `61ba059ecf8f0052dc9e64a9587b104e157140a3`; cross-domain registration `623d463eea0f5970c08796736367626a7c1b05f9`; Kai canonical `02c17944a3235d4aad5ca953f55414712ec56975`; Kai index `675e4132cabb2d43c599913976a1066ee7f9f797`.
 - [ ] **Exact next:** continue the alphabetical source-backed enriched-corpus provenance/mechanics queue after **Kairos Cannon**, beginning with the next under-documented K records; prioritize records whose current mechanics notes remain shallow or whose evidence set is small, while preserving canonical/index parity at the verified 469 baseline.
+
+
+### 2026-09-25 cycle completion — Skill Batch 350 L-series mechanics/provenance refresh
+
+- [x] Continued the alphabetical enriched-corpus queue after the K records with **Last Emperor, Light Grenade, Lightning Impact, and Lightning of Absolution**.
+- [x] Added four dedicated current-evidence audits plus `docs/data/skill-research-batches/skill-batch-350.json` and registered all five artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Expanded mechanics using current DBXV2 skill references: Last Emperor health-gated 0-Ki/21-hit behavior; Light Grenade's three-stage button-mash behavior; Lightning Impact's charge/paralysis behavior and 20-hit reference; Lightning of Absolution's tracking/two-hit behavior.
+- [x] Preserved source-reported damage values as bounded reference data rather than universal patch-independent guarantees.
+- [x] Canonical/index synchronization completed: **469/469 records, identical ID sets, 0 duplicates**; all four targets now `last_verified: 2026-09-25` and mechanics fields match.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the next under-documented L-series record(s) after Lightning of Absolution, using the same current-evidence audit → batch → cross-domain registration → canonical/index parity workflow.
