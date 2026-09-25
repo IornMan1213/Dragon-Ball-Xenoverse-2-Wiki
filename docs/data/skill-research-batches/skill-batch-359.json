@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 359,
+  "created": "2026-09-25",
+  "type": "zero_mechanics_refresh",
+  "records": [
+    "skill-death-wave",
+    "skill-hellzone-grenade",
+    "skill-murder-grenade",
+    "skill-shocking-death-ball"
+  ],
+  "validation": {
+    "canonical_count": 469,
+    "index_count": 469,
+    "duplicate_ids": 0,
+    "relationship_changes": 0,
+    "unsupported_values_promoted": 0
+  }
+}
