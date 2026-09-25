@@ -41,7 +41,7 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-25",
-  "latest_research_batch": 322,
+  "latest_research_batch": 323,
   "canonical_catalog_generated": "2026-09-14",
   "canonical_sync_pending": false,
   "current_research_focus": "Skill DLC/PQ provenance and character-only completeness",
@@ -126,7 +126,8 @@
     "2026-09-25: Batch 319 refreshed Divinity Unleashed, Do or Die, and Dodon Ray while preserving unresolved reward-slot/Ultimate-Finish semantics.",
     "2026-09-25: Batch 320 refreshed Atomic Blast, Bending Kamehameha, Big Bang Attack, and Big Bang Kamehameha without inventing shop rotation or reward-probability data.",
     "2026-09-25: Batch 321 refreshed Bloody Sauce, Burst Attack, Confusion Blade, Consecutive Energy Blast, and Crazy Finger Shot; Bloody Sauce remains explicitly non-normal-CaC outside Crystal Raid/Training context.",
-    "2026-09-25: Batch 322 refreshed Death Wave and Murder Grenade from current mission/skill evidence, preserving Basic Reward semantics without inferring first-clear guarantees or drop probabilities."
+    "2026-09-25: Batch 322 refreshed Death Wave and Murder Grenade from current mission/skill evidence, preserving Basic Reward semantics without inferring first-clear guarantees or drop probabilities.",
+    "2026-09-25: Batch 323 consolidated source-backed Expert Mission provenance for Supernova (EM6), Dead End Bullet (EM8), Hellzone Grenade (EM10), and Super Electric Strike (EM11); exact drop/guarantee semantics remain unresolved and no canonical reconstruction was performed."
   ],
   "partially_verified_count": 0,
   "verified_count": 205,
