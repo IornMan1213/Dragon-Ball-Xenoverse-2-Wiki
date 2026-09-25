@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 325,
+  "created": "2026-09-25",
+  "type": "evidence_refresh",
+  "scope": "Expert Mission Super provenance tranche covering the remaining current EM03-05 records after Batches 322-324",
+  "records": [
+    {
+      "name": "Murder Grenade",
+      "id": "skill-murder-grenade",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "character_source": "Nappa; Bardock (Customize Partner)",
+      "acquisition": "Expert Mission 3 — Assault of the Great Ape",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Murder_Grenade",
+        "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/faqs/74285?page=2"
+      ],
+      "evidence": "Current Xenoverse 2 skill documentation identifies Murder Grenade as a Ki Blast Super, gives a 100 Ki cost, and names Expert Mission 3 as the acquisition endpoint. The maintained GameFAQs guide independently confirms the EM03 mission context.",
+      "limits": [
+        "Exact per-clear drop probability and first-clear guarantee remain unresolved.",
+        "No Ultimate Finish-only requirement is inferred from the consulted evidence."
+      ]
+    },
+    {
+      "name": "Super Destructo-Disc",
+      "id": "skill-super-destructo-disc",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 200,
+      "character_source": "Krillin; Android 18 (Customize Partner); Goku (Super Saiyan God) (Customize Partner)",
+      "acquisition": "Expert Mission 4 — Invasion of the Evil Super Namek",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Destructo-Disc",
+        "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/faqs/74285?page=2"
+      ],
+      "evidence": "Current Xenoverse 2 skill documentation identifies Super Destructo-Disc as a Ki Blast Super, gives a 200 Ki cost, and names Expert Mission 4 as the acquisition endpoint. Its documented properties include tracking and an unblockable projectile; these mechanics are recorded as descriptive evidence rather than frame-accurate data.",
+      "limits": [
+        "Exact per-clear drop probability and first-clear guarantee remain unresolved.",
+        "No Ultimate Finish-only requirement is inferred from the consulted evidence."
+      ]
+    },
+    {
+      "name": "Death Wave",
+      "id": "skill-death-wave",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "character_source": "Frieza (1st Form); Frieza (Final Form); Frieza (Full Power); Dodoria (Customize Partner); Janemba (Customize Partner)",
+      "acquisition": "Expert Mission 5 — The Galactic Tyrant",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Death_Wave",
+        "https://gamefaqs.gamespot.com/xboxone/190457-dragon-ball-xenoverse-2/answers/444805-where-can-i-find-the-super-attack-death-wave",
+        "https://dragonball.fandom.com/wiki/Death_Wave"
+      ],
+      "evidence": "Current Xenoverse 2 skill documentation identifies Death Wave as a Ki Blast Super, gives a 100 Ki cost, and names Expert Mission 5 as the acquisition endpoint. The GameFAQs accepted answer independently confirms EM05 acquisition; Dragon Ball Wiki corroborates the move identity and Frieza association.",
+      "limits": [
+        "Exact per-clear drop probability and first-clear guarantee remain unresolved.",
+        "No Ultimate Finish-only requirement is inferred from the consulted evidence."
+      ]
+    }
+  ],
+  "evidence_boundary": "This batch refreshes the remaining current EM03-05 Super records using direct Xenoverse 2 skill documentation plus independent mission/acquisition references. It does not infer reward probabilities, first-clear guarantees, Ultimate Finish gating, frame data, version-sensitive damage, or canonical promotion.",
+  "validation": {
+    "records": 3,
+    "canonical_promotion": false,
+    "canonical_reconstruction": false,
+    "canonical_skill_baseline": 470,
+    "index_skill_baseline": 470,
+    "duplicate_ids": 0
+  }
+}
