@@ -840,5 +840,9 @@
   "skill_kaioken_current_evidence_audit_2026_09_25": "docs/data/skill-kaioken-current-evidence-audit-2026-09-25.json",
   "skill_kaioken_kamehameha_current_evidence_audit_2026_09_25": "docs/data/skill-kaioken-kamehameha-current-evidence-audit-2026-09-25.json",
   "skill_kairos_cannon_current_evidence_audit_2026_09_25": "docs/data/skill-kairos-cannon-current-evidence-audit-2026-09-25.json",
-  "skill_research_batch_349_2026_09_25": "docs/data/skill-research-batches/skill-batch-349.json"
+  "skill_research_batch_349_2026_09_25": "docs/data/skill-research-batches/skill-batch-349.json",
+  "skill_light_grenade_current_evidence_audit_2026-09-25": "docs/data/skill-light-grenade-current-evidence-audit-2026-09-25.json",
+  "skill_lightning_impact_current_evidence_audit_2026-09-25": "docs/data/skill-lightning-impact-current-evidence-audit-2026-09-25.json",
+  "skill_lightning_of_absolution_current_evidence_audit_2026-09-25": "docs/data/skill-lightning-of-absolution-current-evidence-audit-2026-09-25.json",
+  "skill_research_batch_350_2026_09_25": "docs/data/skill-research-batches/skill-batch-350.json"
 }
