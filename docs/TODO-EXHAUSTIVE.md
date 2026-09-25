@@ -8496,3 +8496,13 @@
 - [x] Current acquisition/endpoint layers remain identity-only and source-bounded: no guaranteed drops, numerical rates, or new acquisition routes were inferred.
 - [ ] CI/runtime execution remains unavailable; no CI success claimed.
 - [ ] **Exact next:** continue the non-PQ skill endpoint/provenance census from the now-current 470-record baseline, prioritizing another stale machine-readable scalar or a thin endpoint layer with incomplete reverse parity; preserve historical snapshots and do not promote unsupported acquisition mechanics.
+
+
+### 2026-09-25 continuation cycle — non-PQ endpoint coverage validator hardening
+- [x] Re-read the live 470-record skill baseline and the current non-PQ reverse/navigation reconciliation; current non-PQ coverage is **231/231**, with no uncovered non-PQ skill IDs.
+- [x] Added `scripts/validate_non_pq_skill_endpoint_coverage.py` to machine-check the current 470 canonical skill registry, 239 unique PQ skill targets, 231 non-PQ skills, endpoint-union coverage, and broken endpoint IDs across the nine deterministic non-PQ producer layers.
+- [x] Added `docs/data/non-pq-skill-endpoint-coverage-validator-audit-2026-09-25.json` recording a clean **231/231** current coverage baseline.
+- [x] Registered the audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved historical 465/469-count snapshots; no historical artifact was rewritten and no acquisition route, probability, prerequisite, or version claim was inferred.
+- [ ] CI/runtime execution remains unavailable; no CI success claimed.
+- [ ] **Exact next:** proceed with source-backed P1 provenance enrichment for partially verified skill records now that current deterministic endpoint coverage is closed; prioritize a bounded batch with direct Xenoverse 2-specific evidence and then recheck canonical/index parity.
