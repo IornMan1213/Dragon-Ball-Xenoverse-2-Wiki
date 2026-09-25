@@ -583,3 +583,15 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Commits: canonical `aa3ff1b`, index `3db7ba6`, batch `c1299f7`, audit `69ca3ed`, registry `6ba8ccd`.
 - [x] **Exact next:** perform a fresh post-Batch-357 P1 census, then continue the next genuinely under-documented P record(s), prioritizing deterministic provenance/mechanics gaps and cross-domain usefulness.
+
+
+### 2026-09-25 cycle completion — Skill Batch 358 low-detail Ultimate mechanics refresh
+- [x] Fresh live census: **469 canonical / 469 index / 0 duplicate IDs** before the batch.
+- [x] Completed **Assault Rain, Blue Hurricane, Dead End Bullet, Death Meteor**, the next globally thinnest mechanics records (2 sources and zero mechanics text).
+- [x] Expanded mechanics using current Xenoverse 2-specific skill references: hit/trajectory/control behavior, costs, Expert Mission endpoints, and bounded source-reported damage where explicitly provided.
+- [x] Added `docs/data/skill-batch-358-current-evidence-audit-2026-09-25.json` and `docs/data/skill-research-batches/skill-batch-358.json`; registered both in the cross-domain index.
+- [x] Canonical/index records synchronized to `last_verified: 2026-09-25`; no relationship identities changed.
+- [x] Evidence limits preserved: source-reported damage is not treated as independently benchmarked; no probabilities, hidden prerequisites, new UF gates, exact frame/timing, or hitbox claims inferred.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Commits: canonical `d96aa50`, index `00318f7`, audit `986e6c6`, batch `6b58859`, registry `1a6fe10`.
+- [x] **Exact next:** fresh post-Batch-358 census, then continue the next genuinely under-documented global records, prioritizing remaining zero-mechanics entries before broad alphabetical expansion.
