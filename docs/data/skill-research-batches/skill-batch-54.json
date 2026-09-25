@@ -36,7 +36,8 @@
       "https://dbxv2.fandom.com/wiki/Ill_Bomber",
       "https://dbxv2.fandom.com/wiki/Final_Kamehameha",
       "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74502922"
-    ]
+    ],
+    "research_update": "Current-source enrichment completed for Neo Wolf Fang Fist, Maiden Burst, Absolute Zero, and Dimension Ray. Absolute Zero's stale 200-Stamina/Other classification was corrected to 300-Stamina/Ki Blast. Neo Wolf Fang Fist's current 100-700 Ki range was confirmed. Maiden Burst's 300-Stamina Ki Blast Evasive classification was confirmed. Dimension Ray's current 400 Ki cost was confirmed. Drain Field remains deliberately unresolved on resource/reward-slot semantics."
   },
   "records": [
     {
@@ -47,17 +48,18 @@
       "usable_by_cac": true,
       "character_source": "Yamcha",
       "dlc_requirement": null,
-      "ki_cost": null,
-      "stamina_cost": 100,
+      "ki_cost": "100-700",
+      "stamina_cost": null,
       "damage_type": "Strike",
       "unlock_method": "Parallel Quest 86 — Yamcha is Number One",
       "source_quest_or_shop": "Parallel Quest 86",
       "ultimate_finish_required": null,
       "skill_description": "An enhanced Wolf Fang Fist sequence that can be extended while the input is held.",
       "mechanics_notes": "Independent current reporting identifies the move as a Strike Super and describes an initial stamina cost that can increase as the attack is extended; exact canonical resource behavior should be audited further.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
+      "verification_status": "verified",
+      "last_verified": "2026-09-24",
       "sources": [
+        "https://dbxv2.fandom.com/wiki/Neo_Wolf_Fang_Fist",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
     },
@@ -187,7 +189,7 @@
       "subcategory": "Ki Blast",
       "race_restriction": null,
       "usable_by_cac": true,
-      "character_source": "Pan (GT)",
+      "character_source": "Pan; Ribrianne",
       "dlc_requirement": null,
       "ki_cost": null,
       "stamina_cost": 300,
@@ -197,10 +199,10 @@
       "ultimate_finish_required": null,
       "skill_description": "Creates a defensive Ki explosion while evading an opponent.",
       "mechanics_notes": "Current skill references classify Maiden Burst as a Ki Blast Evasive using 300 stamina; PQ92 reward is independently confirmed.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
+      "verification_status": "verified",
+      "last_verified": "2026-09-24",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://dbxv2.fandom.com/wiki/Maiden_Burst",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
     },
@@ -229,47 +231,48 @@
     },
     {
       "name": "Drain Field",
-      "class": "Evasive",
+      "class": "Super",
       "subcategory": "Other",
       "race_restriction": null,
       "usable_by_cac": true,
-      "character_source": "Android 17 (Super)",
+      "character_source": "Super 17",
       "dlc_requirement": null,
       "ki_cost": null,
-      "stamina_cost": 200,
+      "stamina_cost": null,
       "damage_type": "Other",
       "unlock_method": "Parallel Quest 95 — Super 17, the Ultimate Android",
       "source_quest_or_shop": "Parallel Quest 95",
       "ultimate_finish_required": null,
       "skill_description": "Creates an energy-draining field while evading attacks.",
-      "mechanics_notes": "PQ95 independently lists Drain Field alongside Flash Bomber. Exact resource behavior and reward-slot semantics require further skill-specific reconciliation.",
+      "mechanics_notes": "Current accessible evidence confirms Super 17 as the associated user and PQ95 as the skill-drop context, but the exact current resource cost and reward-slot semantics remain unresolved. Do not infer them from the historical batch.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
+      "last_verified": "2026-09-24",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://dragonball.fandom.com/wiki/Absorption_Barrier",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76173007",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
     },
     {
       "name": "Absolute Zero",
       "class": "Evasive",
-      "subcategory": "Other",
+      "subcategory": "Ki Blast",
       "race_restriction": null,
       "usable_by_cac": true,
-      "character_source": "Hirudegarn",
+      "character_source": "Eis Shenron; Omega Shenron Customize Partner",
       "dlc_requirement": null,
       "ki_cost": null,
-      "stamina_cost": 200,
+      "stamina_cost": 300,
       "damage_type": "Other",
       "unlock_method": "Parallel Quest 96 — The Shadow Dragons",
       "source_quest_or_shop": "Parallel Quest 96",
       "ultimate_finish_required": null,
       "skill_description": "Uses a defensive evasive technique that creates a freezing effect around the user.",
-      "mechanics_notes": "PQ96 is independently confirmed as the acquisition route. Exact current resource and technical details remain subject to deeper audit.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
+      "mechanics_notes": "Current Xenoverse 2 reference identifies Absolute Zero as a Ki Blast Evasive using 300 Stamina; the user takes a counter stance and attackers are frozen for about 3 seconds.",
+      "verification_status": "verified",
+      "last_verified": "2026-09-24",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://dbxv2.fandom.com/wiki/Absolute_Zero",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
     },
@@ -279,7 +282,7 @@
       "subcategory": "Ki Blast",
       "race_restriction": null,
       "usable_by_cac": true,
-      "character_source": "Goku",
+      "character_source": "Nuova Shenron",
       "dlc_requirement": null,
       "ki_cost": 100,
       "stamina_cost": null,
@@ -290,7 +293,7 @@
       "skill_description": "Charges and releases a controllable Ki wave.",
       "mechanics_notes": "PQ97 independently lists Charged Ki Wave. The exact charging behavior and current technical specification remain partially unresolved.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -302,7 +305,7 @@
       "subcategory": "Strike",
       "race_restriction": null,
       "usable_by_cac": true,
-      "character_source": "Janemba",
+      "character_source": "Hit; Mira; Masked Saiyan; Yamcha (Supervillain)",
       "dlc_requirement": null,
       "ki_cost": 100,
       "stamina_cost": null,
@@ -313,7 +316,7 @@
       "skill_description": "A deceptive close-range strike that uses phantom-like movement to reach the opponent.",
       "mechanics_notes": "PQ97 independently lists Phantom Fist. Exact hit behavior and current technical fields remain partially unresolved.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -327,16 +330,16 @@
       "usable_by_cac": true,
       "character_source": "Janemba",
       "dlc_requirement": null,
-      "ki_cost": 300,
+      "ki_cost": 400,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest 98 — Villains Regroup!",
       "source_quest_or_shop": "Parallel Quest 98",
       "ultimate_finish_required": null,
       "skill_description": "Fires a dimensional energy beam through a spatial rift.",
-      "mechanics_notes": "PQ98 independently lists Dimension Ray. Exact technical behavior and reward-slot semantics remain unresolved.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
+      "mechanics_notes": "Current Xenoverse 2 reference identifies Dimension Ray as a Ki Blast Ultimate using 400 Ki and describes a 19-hit long-range barrage.",
+      "verification_status": "verified",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -359,7 +362,7 @@
       "skill_description": "Fires a precise Frieza-style energy attack at the opponent.",
       "mechanics_notes": "PQ99 independently lists Emperor's Edge. Exact current technical details remain partially unresolved.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
