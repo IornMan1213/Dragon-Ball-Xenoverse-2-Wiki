@@ -1,3 +1,15 @@
+### 2026-09-24 cycle completion — Dragon Burn P1 provenance verification
+- [x] Completed **skill-batch-196 — Dragon Burn** with **Evasive / Ki Blast** classification and separate Counter Skill taxonomy.
+- [x] Confirmed **200 Stamina**, Future Warrior usability, Nuova Shenron provenance, and GT Pack 2 association.
+- [x] Revalidated **PQ82 — Ultimate Brotherly Battle** as the acquisition quest.
+- [x] Preserved **Ultimate Finish requirement as unresolved** rather than inventing a condition.
+- [x] Strengthened counter mechanics: attackers during the active stance are paralyzed and burned for about three seconds.
+- [x] Added and registered `docs/data/skill-dragon-burn-p1-provenance-verification-2026-09-24.json`.
+- [x] Preserved unresolved Ki cost, exact active frames/hitboxes, drop probability, and version-sensitive damage.
+- [x] Preserved the **469/469** canonical boundary; no unsupported canonical promotion was made.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-197**.
+
 ### 2026-09-24 cycle completion — Rough Ranger P1 provenance verification
 - [x] Completed **skill-batch-195 — Rough Ranger** with Xenoverse 2 **Super / Strike / Universal Counter** classification, **100 Ki**, Android 17 (DB Super) association, and Extra Pack 2 provenance.
 - [x] Revalidated **PQ119 — A Ranger's Duty** as the acquisition quest and preserved the repository-supported **Ultimate Finish** interpretation.
