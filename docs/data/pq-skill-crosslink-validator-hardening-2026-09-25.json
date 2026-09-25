@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-25",
+  "scope": "PQ→skill forward/reverse crosslink validator hardening",
+  "validator": "scripts/validate_pq_skill_links.py",
+  "live_counts": {
+    "pq_records": 186,
+    "skill_records": 469,
+    "forward_edges": 244,
+    "reverse_unique_skill_endpoints": 239
+  },
+  "expected": {
+    "pq_records": 186,
+    "skill_records": 469,
+    "forward_edges": 244
+  },
+  "invariants": {
+    "pq_number_range": "1-186",
+    "duplicate_forward_pairs": 0,
+    "unresolved_forward_edges": 0,
+    "orphaned_reverse_sources": 0
+  },
+  "interpretation": "Reverse endpoint count is intentionally lower than forward edge count when multiple PQs reference the same skill. The forward graph is the canonical relationship count.",
+  "status": "clean",
+  "evidence_boundary": "Validator-only hardening. No PQ→skill relationship, skill identity, acquisition condition, Ultimate Finish condition, or drop-rate field was inferred or changed."
+}
