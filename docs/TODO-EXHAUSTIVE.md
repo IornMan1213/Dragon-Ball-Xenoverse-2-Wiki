@@ -7854,3 +7854,13 @@
 - [x] Commits: audit `797552a796628bfa03c6bee48d4739377bfd7c78`; Batch 302 `cbe3a0f74e728c753ab4adf6f6928822cc4fa7fc`; cross-domain index `83fe67845639662549b40f06429c59a14922c6f7`.
 - [x] Live census after editing: **469 canonical/index records**, **0 duplicate IDs**, **9 unresolved research-gap records**.
 - [ ] **Exact next:** inspect the current Actions state, then continue **skill-batch-303 — Audacious Laugh** and resolve only fields with direct current Xenoverse 2 evidence; preserve existing acquisition/classification boundaries and do not invent a new batch identity.
+
+### 2026-09-24 cycle completion — Batch 303 Audacious Laugh evidence resolution
+- [x] Continued the exact next task from the prior handoff: **skill-batch-303 — Audacious Laugh**.
+- [x] Current evidence confirms: **Super / Other**, **100 Ki**, **CaC/Future Warrior usable**, Zarbon as character source, and acquisition through **Zarbon's Initiation Test**.
+- [x] Effect refined to a non-damaging taunt that slows the locked-on opponent's movement.
+- [x] Existing `dlc_requirement: null` and `ultimate_finish_required: false` were retained; no unsupported dependency was introduced.
+- [x] Added `docs/data/skill-batch-303-audacious-laugh-evidence-audit-2026-09-24.json`.
+- [x] Updated `docs/data/skill-research-batches/skill-batch-303.json`.
+- [x] Registered the audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Next: continue the remaining research/cross-domain priorities after rechecking the live TODO and handoff; do not create duplicate batch identities.
