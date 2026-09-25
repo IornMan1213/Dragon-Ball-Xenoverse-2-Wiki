@@ -63,6 +63,30 @@ def main():
         item={"skill_id":skill.get("id"),"skill":skill.get("name"),"declared_pq_id":expected["id"] if expected else f"pq-{declared:03d}","declared_pq_number":declared,"reverse_contains_declared_pq":ok,"status":"resolved" if ok else "orphaned_reverse_source"}
         source_audit.append(item)
         if not ok: orphaned.append(item)
+    # Current-state invariants: the reverse endpoint count may be lower than the
+    # forward edge count because multiple PQs can legitimately point to one skill.
+    # Validate the actual forward graph rather than treating reverse endpoint count
+    # as a relationship count.
+    forward_pair_keys={(e["pq_id"], e["skill_id"]) for e in forward}
+    invalid_forward_pq_ids=[e for e in forward if e.get("pq_id") not in {r.get("id") for r in pq_records}]
+    duplicate_forward_pairs=len(forward)-len(forward_pair_keys)
+    current_invariants={
+        "pq_record_count":len(pq_records),
+        "skill_record_count":len(skill_records),
+        "forward_edge_count":len(forward),
+        "reverse_skill_endpoint_count":len(reverse),
+        "expected_pq_record_count":186,
+        "expected_skill_record_count":469,
+        "expected_forward_edge_count":244,
+        "duplicate_forward_pairs":duplicate_forward_pairs,
+        "invalid_forward_pq_id_count":len(invalid_forward_pq_ids),
+        "pq_number_range_is_1_to_186":sorted(pq_by_number)==list(range(1,187)),
+        "canonical_forward_invariants_pass":(
+            len(pq_records)==186 and len(skill_records)==469 and len(forward)==244
+            and duplicate_forward_pairs==0 and not invalid_forward_pq_ids
+            and sorted(pq_by_number)==list(range(1,187))
+        ),
+    }
     report={
         "schema_version":"2.0",
         "generated_by":"scripts/validate_pq_skill_links.py",
@@ -73,7 +97,8 @@ def main():
         "reverse_skill_endpoint_count":len(reverse),
         "unresolved_forward_edges":unresolved,
         "orphaned_reverse_sources":orphaned,
-        "status":"resolved" if not unresolved and not orphaned else "unresolved_links",
+        "status":"resolved" if not unresolved and not orphaned and current_invariants["canonical_forward_invariants_pass"] else "unresolved_links",
+        "current_invariants":current_invariants,
         "interpretation":"ID-based bidirectional relationship report. Forward edges come from the canonical PQ record layer; reverse endpoints are derived from those same evidence-backed edges. Canonical skill acquisition routes are separately checked against their declared PQ endpoint.",
         "forward_edges":forward,
         "reverse_edges":reverse,
