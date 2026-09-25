@@ -4,9 +4,9 @@
   "status": "canonical_skill_acquisition_coverage_audit",
   "last_verified": "2026-09-25",
   "purpose": "Classify canonical skills that do not have source_parallel_quests, preventing non-PQ acquisition routes from being incorrectly forced into the PQ graph.",
-  "source_skill_count": 469,
+  "source_skill_count": 470,
   "pq_linked_skill_count": 239,
-  "unlinked_skill_count": 230,
+  "unlinked_skill_count": 231,
   "interpretation": {
     "time_rift": "Already represented through Time Rift endpoints; no PQ edge should be inferred.",
     "story": "Already represented or explicitly story/Skill Shop acquisition; no PQ edge should be inferred.",
@@ -46,8 +46,8 @@
     "expert_mission_unlinked": 9,
     "character_only_unlinked": 10,
     "other_unlinked_skill_count": 98,
-    "mentor_edge_rows": 133,
-    "mentor_unique_skill_targets": 132,
+    "mentor_edge_rows": 132,
+    "mentor_unique_skill_targets": 131,
     "shared_mentor_skill_targets": [
       "skill-super-explosive-wave"
     ],
@@ -207,9 +207,9 @@
     "starting_move": 2
   },
   "current_projection_2026_09_24": {
-    "source_skill_count": 469,
+    "source_skill_count": 470,
     "pq_linked_skill_count": 239,
-    "unlinked_skill_count": 230,
+    "unlinked_skill_count": 231,
     "mentor_edge_rows": 131,
     "mentor_unique_skill_targets": 130,
     "non_pq_nonmentor_count": 99,
@@ -237,8 +237,8 @@
     "expert_mission_unlinked": 9,
     "character_only_unlinked": 10,
     "other_unlinked_skill_count": 98,
-    "mentor_edge_rows": 133,
-    "mentor_unique_skill_targets": 132,
+    "mentor_edge_rows": 132,
+    "mentor_unique_skill_targets": 131,
     "shared_mentor_skill_targets": [
       "skill-super-explosive-wave"
     ],
