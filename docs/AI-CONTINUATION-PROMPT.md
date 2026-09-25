@@ -981,3 +981,13 @@
 - [x] Canonical/index boundary remains **469/469**; no canonical promotion was attempted.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-186** using the same bounded provenance workflow.
+
+### 2026-09-24 cycle completion — Super Afterimage P1 provenance verification
+- [x] Completed **skill-batch-186 — Super Afterimage**.
+- [x] Revalidated **Super / Other**, 100 Ki, Conton City Skill Shop acquisition, movement/afterimage mechanics, and Counter Skill cross-taxonomy.
+- [x] Distinguished Super Afterimage from the separate Afterimage Strike skill and its PQ81 acquisition route.
+- [x] Added and registered **docs/data/skill-super-afterimage-p1-provenance-verification-2026-09-24.json**.
+- [x] Preserved unresolved stamina, exact frame/invulnerability/matchup data, and Partner Customization/CaC distinction.
+- [x] Canonical/index boundary remains **469/469**; no unsupported canonical promotion was attempted.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-187**.
