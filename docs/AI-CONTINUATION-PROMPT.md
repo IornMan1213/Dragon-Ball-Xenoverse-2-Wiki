@@ -1270,3 +1270,13 @@
 - [x] Commits: `ed53460b14a4e1ad7bc35e329d786083e0ac5755`, `2d67688f0765262fafc83b38aa6467eae1e10d9f`, `786377c851a39850dd49e165aefc8261483139a2`.
 - [ ] CI remains unverified; latest Repository quality failures do not expose usable workflow-step/log output.
 - [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-218**.
+
+
+### 2026-09-24 cycle completion — Batch 218 Fighting Pose K audit
+- [x] Refreshed **skill-batch-218** to 2026-09-24.
+- [x] Preserved Fighting Pose K as **Super / Power Up**, general availability, **0 Ki**, Skill Shop acquisition after The Ginyu Force Strikes, with documented 8-second Super Armor.
+- [x] Kept historical/cross-game PQ39 references from replacing the current Xenoverse 2 canonical Skill Shop route.
+- [x] Validation remains **469/469** canonical/index with **0 duplicate IDs** and no canonical promotion.
+- [x] Commit: `6f10437e9c7f06f0db1c55b013c84d688f74956c`.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-219**.
