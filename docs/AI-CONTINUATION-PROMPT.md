@@ -2225,3 +2225,15 @@
 - [x] Readback validation: Batch 329, skill-gap ledger, catalog audit, and cross-domain registry all parsed successfully.
 - [ ] CI remains unverified; the latest exposed Repository Quality job previously failed with no downloadable log payload, so no success is claimed.
 - [ ] **Exact next:** continue the remaining thin skill-gap queue with the next evidence-backed record(s), prioritizing a genuinely new classification/mechanics field rather than another cost-only dead end; maintain the current 470/470 canonical/index boundary.
+
+
+### 2026-09-25 cycle completion — Skill research Batch 330: Energy Boil boundary refresh
+- [x] Added `docs/data/skill-research-batches/skill-batch-330.json` for **Energy Boil**.
+- [x] Reconfirmed Xenoverse 2-specific identity: **ID 10540/540**, **Evasive**, **Final Form Demon God Demigra**, **CaC-unavailable**.
+- [x] Independent evidence also describes the move as an Evasive Skill that surrounds Demigra in an energy sphere, teleports, and gathers Ki; this strengthens mechanics/provenance context without importing unsupported combat numbers.
+- [x] Deliberately left the repository attack subcategory unresolved because the current evidence does not establish that taxonomy; no value was guessed.
+- [x] Numeric Ki cost remains unresolved. Because Evasive Skills primarily use Stamina, no Ki value was inferred.
+- [x] Updated `docs/data/skill-research-gaps.json`, advanced `docs/data/skill-catalog-audit.json` to **latest_research_batch 330**, and registered Batch 330 in `docs/data/pq-cross-domain-index.json`.
+- [x] Re-fetched and parsed the changed research batch, gap ledger, catalog audit, and cross-domain registry successfully.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** continue the remaining thin skill-gap queue only where a new classification/mechanics/provenance field can be established; otherwise proceed to the next deterministic current-facing producer/consumer mismatch.
