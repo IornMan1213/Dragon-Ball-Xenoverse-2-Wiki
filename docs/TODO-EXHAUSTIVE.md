@@ -1,3 +1,12 @@
+### 2026-09-25 cycle completion — Expert Mission Ultimate provenance Batch 324
+- [x] Confirmed no existing Batch 325+ artifact on the live branch before proceeding.
+- [x] Added `docs/data/skill-research-batches/skill-batch-324.json` for **Death Meteor (EM7)**, **Assault Rain (EM9)**, **Angry Explosion (EM12)**, **Dead End Rain (EM13)**, **Shocking Death Ball (EM14)**, and **Blue Hurricane (EM15)**.
+- [x] Preserved the documented Death Meteor Strike taxonomy correction, Blue Hurricane/Burter identity correction, and historical Shocking Death Ball evidence boundaries.
+- [x] Registered Batch 324 in `docs/data/pq-cross-domain-index.json` and advanced `docs/data/skill-catalog-audit.json` to **324**.
+- [x] Preserved the **470/470** canonical/index boundary and made no unsupported canonical promotion.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** check for Batch 325+; if absent, continue the next deterministic Expert Mission/skill provenance tranche or stale cross-domain consumer audit.
+ 
 ### 2026-09-25 cycle completion — Expert Mission Ultimate provenance Batch 323
 - [x] Confirmed no newer `skill-batch-324+` artifact exists on the live branch.
 - [x] Added `docs/data/skill-research-batches/skill-batch-323.json` covering **Supernova (EM6)**, **Dead End Bullet (EM8)**, **Hellzone Grenade (EM10)**, and **Super Electric Strike (EM11)**.
