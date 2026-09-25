@@ -672,3 +672,11 @@
 - [x] Canonical/index layers remain untouched at **469/469** because Savage Strike still requires atomic builder integration when the supported runtime is available.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next:** continue source-backed P1 enrichment from the research corpus; prioritize actual evidence-field improvements rather than redundant last_verified refreshes, while retaining Savage Strike as staged canonical-builder work.
+
+
+### 2026-09-24 cycle completion — Quick Sleep handoff reconciliation
+- [x] Recorded the substantive Quick Sleep correction: research-layer Ki cost is 300, replacing stale 0, based on current Xenoverse 2-specific evidence.
+- [x] Preserved the Majin-only restriction and existing acquisition/mechanics boundaries; no unsupported recovery-rate or timing values were added.
+- [x] Canonical/index boundary remains 469/469; no unsupported promotion.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue substantive source-backed P1 enrichment with another field that direct Xenoverse 2 evidence can resolve.
