@@ -2177,3 +2177,13 @@
 - [x] Validation: changed JSON parsed successfully; **0 relationship edges changed / 0 canonical IDs changed / 0 acquisition routes inferred / 0 historical snapshots rewritten**.
 - [ ] CI remains unverified; no successful Actions result is claimed.
 - [ ] **Exact next:** continue the current producer/consumer census for the next genuinely current one-way endpoint mismatch or source-backed thin-domain enrichment, prioritizing current cross-domain presentation consumers rather than repeating resolved scalar counts.
+
+### 2026-09-25 cycle completion — PQ endpoint navigation equipment baseline correction
+- [x] Continued the current producer/consumer parity queue and found one remaining current-facing scalar mismatch.
+- [x] Corrected `docs/data/pq-endpoint-navigation-current-audit-2026-09-24.json` from **174 → 173** combined equipment/accessory records to match the direct canonical layer recount (**173 records / 173 unique IDs**).
+- [x] Added and registered `docs/data/pq-endpoint-navigation-equipment-baseline-correction-2026-09-25.json`.
+- [x] Confirmed the surrounding live baselines remain **470 skills / 234 Super Souls / 152 characters / 20 DLC records / 853 PQ relationship edges**.
+- [x] No relationship edges, canonical identities, acquisition routes, reward semantics, or historical snapshots were changed.
+- [x] Re-fetched and validated the corrected consumer, correction artifact, and cross-domain registry as JSON.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** continue scanning current-facing consumers for another one-way mismatch; if the live census remains clean, move to the next source-backed thin-domain enrichment rather than repeating the equipment/accessory baseline audit.
