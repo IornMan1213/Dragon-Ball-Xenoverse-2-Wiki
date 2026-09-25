@@ -971,3 +971,13 @@
 - [x] Canonical/index boundary remains 469/469; no canonical promotion was attempted.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** inspect current Actions state, then continue skill-batch-185 using the same bounded provenance workflow.
+
+### 2026-09-24 cycle completion — Dragon Thunder P1 provenance refresh
+- [x] Completed/refresh-verified **skill-batch-185 — Dragon Thunder**.
+- [x] Reconciled Xenoverse 2-specific mechanics: **Super / Strike**, 100 Ki, cast-exclusive to Omega Shenron / Omega Shenron (Supervillain), unavailable to Future Warrior/CaC, with the short-range anti-air spike-impalement implementation.
+- [x] Added **docs/data/skill-dragon-thunder-p1-provenance-verification-2026-09-24.json** and registered it in **docs/data/pq-cross-domain-index.json**.
+- [x] Explicitly recorded the source conflict: a secondary source describes a different backward electric-shock implementation; it was not imported into the Xenoverse 2 canonical mechanics because Xenoverse 2-specific character/move documentation supports the spike-impalement implementation.
+- [x] Preserved unresolved stamina, exact frame/hitbox/damage, and CaC acquisition fields.
+- [x] Canonical/index boundary remains **469/469**; no canonical promotion was attempted.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-186** using the same bounded provenance workflow.
