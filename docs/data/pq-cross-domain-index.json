@@ -93,7 +93,8 @@
     "pq_explorer_reward_navigation_validator_hardening_2026_09_25": "docs/data/pq-explorer-reward-navigation-validator-hardening-2026-09-25.json",
     "pq_page_consumer_validator_hardening_2026_09_25": "docs/data/pq-page-consumer-validator-hardening-2026-09-25.json",
     "skill_pq_reverse_validator_hardening_2026_09_25": "docs/data/skill-pq-reverse-validator-hardening-2026-09-25.json",
-    "record_reverse_pq_validator_hardening_2026_09_25": "docs/data/record-reverse-pq-validator-hardening-2026-09-25.json"
+    "record_reverse_pq_validator_hardening_2026_09_25": "docs/data/record-reverse-pq-validator-hardening-2026-09-25.json",
+    "skill_batch_331_the_power_to_overcome_2026_09_25": "docs/data/skill-research-batches/skill-batch-331.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",
