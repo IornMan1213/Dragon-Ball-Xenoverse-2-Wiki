@@ -40,7 +40,7 @@
       "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421&feed=steam_community_announcements",
       "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80886757"
     ],
-    "research_update": "Ki Explosion was promoted to verified_current_scope after current Xenoverse 2-specific skill documentation, Bandai Namco's historical DLC 2 balance announcement, and independent PQ77 acquisition discussion corroborated its 100-Ki Ki Blast Super identity, hold-to-prolong behavior, and PQ77 endpoint. Reward probability and hidden Ultimate-Finish semantics remain unresolved."
+    "research_update": "Batch 52 current-evidence pass completed for Dust Attack, Mighty Explosive Wave, and Dimensional Hole. All three are promoted to verified_current_scope using current Xenoverse 2-specific skill documentation plus independent/community corroboration. Reward probability and Ultimate-Finish-only semantics remain unresolved where not directly established."
   },
   "records": [
     {
@@ -229,12 +229,13 @@
       "source_quest_or_shop": "Parallel Quest 78",
       "ultimate_finish_required": null,
       "skill_description": "A dust-based technique used to obscure or interfere with the opponent.",
-      "mechanics_notes": "Independent Future Warrior technique references classify Dust Attack as one of Piccolo's Super Skills and the character-ID reference marks it CaC-usable. Exact resource cost is left unresolved.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
+      "mechanics_notes": "Current Xenoverse 2-specific documentation describes Dust Attack as a Super Skill that fires a burst of Ki in front of the user. The repository's prior research identifies PQ78 as its acquisition endpoint. Independent video evidence specifically demonstrates Dust Attack as the PQ78 skill reward, while GameFAQs reports document repeated PQ78 runs without a drop and uncertainty over whether an Ultimate Finish is required; therefore no numeric probability or hidden Ultimate-Finish gate is promoted.",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
       "sources": [
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List",
+        "https://dbxv2.fandom.com/wiki/Dust_Attack",
+        "https://www.youtube.com/watch?v=S_ITGsfePSQ",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74551377",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
       ]
     },
@@ -253,12 +254,13 @@
       "source_quest_or_shop": "Parallel Quest 79",
       "ultimate_finish_required": null,
       "skill_description": "Unleashes an explosive Ki wave around the user.",
-      "mechanics_notes": "Current skill-category references classify the base-game Mighty Explosive Wave as a Ki Blast Super. A separate later Evasive Mighty Explosive Wave exists for Jiren (Full Power); this record is specifically the PQ79 base-game Super Skill.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
+      "mechanics_notes": "Current Xenoverse 2-specific documentation classifies the base-game Mighty Explosive Wave as a 100-Ki Ki Blast Super, obtained from PQ79. It creates a short-range purple explosion around the user, documented at six hits and about 10% damage. The separate Jiren (Full Power) Evasive variation must not be conflated with this PQ79 Super. Community discussion independently describes the Super as a one-bar, non-extendable AOE with restand/combo-extension behavior; this player-reported behavior is retained as secondary mechanics evidence.",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
       "sources": [
-        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List",
-        "https://gamefaqs.gamespot.com/boards/277190-dragon-ball-xenoverse-2/79680756",
+        "https://dbxv2.fandom.com/wiki/Mighty_Explosive_Wave",
+        "https://dragonball.fandom.com/wiki/Mighty_Explosive_Wave",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80786171",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
       ]
     },
@@ -277,11 +279,12 @@
       "source_quest_or_shop": "Parallel Quest 80",
       "ultimate_finish_required": null,
       "skill_description": "Creates a dimensional hole that absorbs a normal Ki Blast and sends a projectile back through a portal behind the opponent.",
-      "mechanics_notes": "Current skill-specific data classifies Dimensional Hole as a Ki Blast Super with 0 Ki. It functions as a counter to basic Ki Blast attacks and launches the returned projectile behind the opponent.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
+      "mechanics_notes": "Current Xenoverse 2-specific documentation classifies Dimensional Hole as a 0-Ki Ki Blast Super and counter. The user creates a clear barrier that absorbs a Basic Ki Blast and returns a projectile through a portal behind the opponent; current skill-specific data documents about 15% damage and forward knockback. PQ80 — The Return of the Giant Ape-Fest remains the acquisition endpoint.",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dimensional_Hole",
+        "https://dragonball.fandom.com/wiki/Dimensional_Hole",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
       ]
     }
