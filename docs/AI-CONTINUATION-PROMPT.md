@@ -1636,3 +1636,13 @@
 - [x] Web evidence: dedicated Xenoverse 2 references directly expose the relevant costs, classifications, acquisition endpoints, and mechanics. citeturn1search0turn1search1turn1search2turn1search3turn1search8
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** inspect the next deterministic partially verified tranche after Batch 307 and continue promoting/enriching records only where direct Xenoverse 2 evidence adds new coverage; preserve nulls where it does not.
+
+
+### 2026-09-24 cycle completion — Batch 308 cast-exclusive Ultimate evidence boundary
+- [x] Continued **skill-batch-308 — Lightning Impact, Final Galick Rush, Lovely Showtime, Super Dragon Flight (Ultimate)**.
+- [x] Revalidated current Xenoverse 2 cast-exclusive Ultimate taxonomy and 300-Ki costs, CaC-unavailable variant identities, and DLC associations from the maintained evidence sources.
+- [x] Added and registered `docs/data/skill-batch-308-cast-exclusive-ultimate-evidence-audit-2026-09-24.json`.
+- [x] Preserved unresolved unlock methods/Ultimate Finish semantics and the distinction between cast-exclusive variants and similarly named CaC-usable skills.
+- [x] Validation: changed JSON parsed successfully and the cross-domain registry points to the live audit file; no canonical promotion was attempted.
+- [ ] CI remains unverified; no workflow run is exposed yet for commit `0316e35e6a260e32d287bd2d00da6100250744ee`.
+- [ ] **Exact next:** inspect the next deterministic partially verified/cast-exclusive skill tranche after Batch 308, using direct Xenoverse 2 evidence for genuinely missing fields and preserving nulls where evidence is insufficient.
