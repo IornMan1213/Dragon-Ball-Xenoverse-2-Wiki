@@ -1173,3 +1173,16 @@
 - [x] Current Actions rerun inspection: Repository quality and Clean internal artifacts still complete as failures with no exposed workflow steps/logs. No CI success is claimed.
 - [x] Corrected live commit sequence: `dc3c8029`, `4a49a1b9`, `cd31986c`, `5e41fd44`, `85126d70`, `d7c72351`, `59436781`, `6a3863ed`.
 - [ ] **Exact next:** continue **skill-batch-203 — Demon Flash Strike** after inspecting current Actions state, using the same bounded P1 provenance workflow and preserving the 469/469 canonical boundary.
+
+
+### 2026-09-24 cycle completion — Demon Flash Strike P1 provenance verification
+- [x] Live repository census from the current provenance audit: **465 canonical / 465 index / 0 duplicate IDs**; no catalog reconstruction performed.
+- [x] Completed **skill-batch-203 — Demon Flash Strike**.
+- [x] Revalidated **Super / Strike / Counter Skill**, **100 Ki**, Gohan (Beast), Future Warrior/CaC usability, **Hero of Justice Pack 2**, and **PQ160 — Pan in Peril**.
+- [x] Revalidated the **Melee Counter** taxonomy and PQ160 reward semantics; no unsupported Ultimate Finish gate or drop probability was added.
+- [x] Refreshed `docs/data/skill-research-batches/skill-batch-203.json` to **2026-09-24**, preserving the current evidence boundary and historical Ver. 1.21.00 counter behavior issue.
+- [x] Current dedicated evidence documents the kick counter and optional teleport/punch/blue-Ki-Blast follow-up; approximately 25% counter and 20% follow-up damage remain source-reported rather than promoted into unsupported frame data.
+- [x] Evidence limits preserved: exact current frame/hitbox data, stamina cost, drop probability, and matchup-specific exceptions remain unresolved.
+- [x] Web cross-check: current Xenoverse 2 Demon Flash Strike page and Counter Skill taxonomy corroborate Strike Super / Melee Counter classification, PQ160 acquisition, 100 Ki, and mechanics; community/GameFAQs evidence was used only for the historical behavior/fix context. citeturn0search1turn0search3turn0search9
+- [ ] CI success remains unverified; no unsupported CI conclusion made.
+- [ ] **Exact next:** inspect current Actions state, then continue with **skill-batch-204** using the same bounded P1 provenance workflow and preserve current 465/465 parity.
