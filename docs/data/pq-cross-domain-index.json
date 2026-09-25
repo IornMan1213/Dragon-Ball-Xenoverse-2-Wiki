@@ -676,5 +676,7 @@
   "non_pq_skill_reverse_navigation_final_reconciliation_2026_09_25": "docs/data/non-pq-skill-reverse-navigation-final-reconciliation-2026-09-25.json",
   "skill_research_batch_323_expert_mission_ultimate_provenance_2026_09_25": "docs/data/skill-research-batches/skill-batch-323.json",
   "skill_research_batch_324_expert_mission_ultimate_provenance_2026_09_25": "docs/data/skill-research-batches/skill-batch-324.json",
-  "equipment_record_reverse_navigation_current_scalar_parity_2026_09_25": "docs/data/equipment-record-reverse-navigation-current-scalar-parity-2026-09-25.json"
+  "equipment_record_reverse_navigation_current_scalar_parity_2026_09_25": "docs/data/equipment-record-reverse-navigation-current-scalar-parity-2026-09-25.json",
+  "pq_endpoint_navigation_current_domain_count_parity_2026_09_25": "docs/data/pq-endpoint-navigation-current-domain-count-parity-2026-09-25.json"
+
 }
