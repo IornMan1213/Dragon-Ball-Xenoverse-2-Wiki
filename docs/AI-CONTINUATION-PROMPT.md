@@ -50,3 +50,13 @@
 - [x] Preserved unresolved drop probability/guarantee conditions; no unsupported relationship or reward gate was added.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] Exact next: continue the remaining partially verified/under-enriched canonical skill provenance queue with the next record where current Xenoverse 2-specific evidence can promote fields.
+
+
+### 2026-09-25 cycle completion — Last Emperor current-evidence provenance refresh
+- [x] Selected **Last Emperor** as the next partially verified P1 research target after the 470/470 endpoint and reverse-navigation closures.
+- [x] Added `docs/data/skill-last-emperor-current-evidence-audit-2026-09-25.json` with bounded current evidence from an independent Xenoverse 2 Steam discussion and acquisition/tutorial context, while reusing the repository's existing skill-specific evidence.
+- [x] Refreshed `docs/data/skill-research-batches/skill-batch-52.json` for Last Emperor: verification date advanced to 2026-09-25, independent sources added, and the 0-Ki/low-health/one-use mechanics boundary strengthened.
+- [x] Preserved unresolved PQ71 reward-slot/probability and Ultimate Finish semantics; no unsupported numeric mechanics or acquisition gate was inferred.
+- [x] Registered the audit in `docs/data/pq-cross-domain-index.json` and preserved the 470/470 canonical/index boundary.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** continue the remaining partially verified/under-enriched canonical skill provenance queue with a target where current Xenoverse 2-specific evidence can promote an actual canonical field; do not repeat closed endpoint-consumer audits.
