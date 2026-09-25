@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 341,
+  "created": "2026-09-25",
+  "type": "evidence_reconciliation",
+  "scope": "Current Xenoverse 2 provenance/mechanics promotion for Dead End Bullet",
+  "records": [
+    {
+      "id": "skill-dead-end-bullet",
+      "name": "Dead End Bullet",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "acquisition_endpoint": "Expert Mission 8 — Ominous Androids",
+      "ki_cost": 300,
+      "mechanics": "Overhead Ki-blast barrage aimed at a concentrated point; current dedicated evidence records 21 hits and knockback.",
+      "promoted_fields": [
+        "verification_status",
+        "research_status",
+        "source_quest_or_shop",
+        "ki_cost",
+        "mechanics_notes"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Dead_End_Bullet",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://dragonball.fandom.com/wiki/Photon_Strike",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75528786"
+      ],
+      "limits": [
+        "No numeric drop probability promoted",
+        "No per-clear guarantee inferred"
+      ]
+    }
+  ],
+  "validation": {
+    "records": 1,
+    "canonical_promotions": true,
+    "numeric_drop_rates_promoted": 0,
+    "unsupported_gates_added": 0,
+    "relationship_changes": 0
+  },
+  "evidence_boundary": "Batch 341 promotes a partially verified Expert Mission skill using current Xenoverse 2-specific evidence without inventing reward probabilities or guarantee conditions."
+}
