@@ -12,14 +12,15 @@
         "https://dbxv2.fandom.com/wiki/Absolute_Zero",
         "https://dbxv2.fandom.com/wiki/Evasive_Skill",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Absolute_Zero"
       ],
       "unlock_method": "Parallel Quest 96 — \"The Shadow Dragons\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 acquisition refinement: current PQ reward listings explicitly place Absolute Zero in PQ96 Basic Reward. A separate older video guide describes the skill as a PQ96 Ultimate Finish reward; this source conflict is retained rather than collapsing it into a false certainty. 2026-09-22 independent verification: the maintained all-186-PQ Steam guide again explicitly lists Absolute Zero under PQ96 Basic Reward, while the dedicated Fandom page identifies PQ96 as the unlock. The older UF claim remains preserved as a historical source conflict; no drop probability is inferred. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "300-Stamina Ki Blast Evasive. The user takes a stance and freezes attackers who strike them; current dedicated evidence describes the freeze lasting about 3 seconds. The maintained PQ96 reward listing explicitly places Absolute Zero in Basic Reward, so no Ultimate Finish-only gate is established. No narrower CaC race/gender/form restriction is established.",
+      "notes": "2026-09-25 current-evidence promotion: current Xenoverse 2-specific documentation confirms the 300-Stamina Ki Blast Evasive, PQ96 endpoint, and approximately 3-second freeze. Maintained PQ96 reward evidence independently places Absolute Zero in Basic Reward. Historical transfer/UF claims remain provenance only; no probability or hidden gate is inferred.",
+      "mechanics_notes": "300-Stamina Ki Blast Evasive counter. The user takes a stance and freezes themselves; attackers who strike them are frozen for about 3 seconds.",
       "source_quest": 96,
       "source_quest_or_shop": "Parallel Quest 96 — \"The Shadow Dragons\"",
       "source_parallel_quests": [
