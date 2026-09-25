@@ -8280,3 +8280,13 @@
 - [x] All changed JSON parsed successfully.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the deterministic current producer/consumer census for the next stale scalar or one-way cross-domain presentation mismatch.
+
+
+### 2026-09-25 cycle completion — Correct current domain baseline after direct canonical recount
+- [x] Corrected an earlier unsupported current equipment/accessory baseline: direct canonical layer recount is **173 records / 173 unique IDs**, so current consumers were synchronized **174 → 173**.
+- [x] Corrected remaining current skill-domain drift **469 → 470**.
+- [x] Preserved **853 PQ relationship edges** and all per-domain edge counts.
+- [x] Added/registered `docs/data/current-domain-baseline-correction-2026-09-25.json`.
+- [x] Changed JSON validated successfully; historical snapshots remain preserved.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue deterministic producer/consumer parity from live counts **470 skills / 173 equipment-accessory / 152 characters**.
