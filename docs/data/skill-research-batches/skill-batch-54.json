@@ -36,9 +36,11 @@
       "https://dbxv2.fandom.com/wiki/Ill_Bomber",
       "https://dbxv2.fandom.com/wiki/Final_Kamehameha",
       "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74502922",
-      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76170072"
+      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76170072",
+      "https://dbxv2.fandom.com/wiki/Prince_of_Destruction_Vegeta",
+      "https://dbxv2.fandom.com/wiki/SSGSS_Vegeta_%28Evolved%29"
     ],
-    "research_update": "Current-source enrichment completed for Neo Wolf Fang Fist, Maiden Burst, Absolute Zero, and Dimension Ray. Absolute Zero's stale 200-Stamina/Other classification was corrected to 300-Stamina/Ki Blast. Neo Wolf Fang Fist's current 100-700 Ki range was confirmed. Maiden Burst's 300-Stamina Ki Blast Evasive classification was confirmed. Dimension Ray's current 400 Ki cost was confirmed. Drain Field remains deliberately unresolved on resource/reward-slot semantics. Buu Buu Ball was promoted to verified_current_scope after current skill documentation and an independent PQ88 reward transcription confirmed its Strike Evasive identity, 300-Stamina cost, Majin restriction, and Basic Reward endpoint; an older player discussion's Ultimate-Finish belief is retained as historical conflict rather than canonical requirement."
+    "research_update": "Current-source enrichment completed for Neo Wolf Fang Fist, Maiden Burst, Absolute Zero, and Dimension Ray. Absolute Zero's stale 200-Stamina/Other classification was corrected to 300-Stamina/Ki Blast. Neo Wolf Fang Fist's current 100-700 Ki range was confirmed. Maiden Burst's 300-Stamina Ki Blast Evasive classification was confirmed. Dimension Ray's current 400 Ki cost was confirmed. Drain Field remains deliberately unresolved on resource/reward-slot semantics. Buu Buu Ball was promoted to verified_current_scope after current skill documentation and an independent PQ88 reward transcription confirmed its Strike Evasive identity, 300-Stamina cost, Majin restriction, and Basic Reward endpoint; an older player discussion's Ultimate-Finish belief is retained as historical conflict rather than canonical requirement. Atomic Blast was promoted to verified_current_scope after current Xenoverse 2-specific documentation confirmed its 100-Ki Ki Blast Super identity, PQ87 endpoint, charge-state behavior, and documented use by Prince of Destruction Vegeta and SSGSS Vegeta (Evolved). Historical Basic Reward vs. Ultimate-Finish interpretations remain outside the canonical requirement field."
   },
   "records": [
     {
@@ -79,12 +81,14 @@
       "source_quest_or_shop": "Parallel Quest 87",
       "ultimate_finish_required": null,
       "skill_description": "Fires a chargeable Ki wave; timing the release before full charge can produce the stronger documented behavior.",
-      "mechanics_notes": "Current Xenoverse 2 skill reference classifies Atomic Blast as a Ki Blast Super using 100 Ki. It is chargeable; the reference distinguishes no-charge, partial-charge, and full-charge behavior and notes different behavior when used by SSGSS Vegeta (Evolved). Exact universal damage percentages are not promoted.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "Current Xenoverse 2-specific documentation confirms Atomic Blast as a 100-Ki Ki Blast Super unlocked through PQ87. It is chargeable: no-charge, partial-charge, and full-charge releases have distinct documented behavior, with stronger timing/grounded-release cases; SSGSS Vegeta (Evolved) has a faster/close-range charging variant. Universal damage percentages are not promoted as canonical.",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Atomic_Blast",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Prince_of_Destruction_Vegeta",
+        "https://dbxv2.fandom.com/wiki/SSGSS_Vegeta_%28Evolved%29"
       ]
     },
     {
