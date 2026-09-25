@@ -1420,3 +1420,13 @@
 - [x] Validation remains **469/469 canonical/index**, **0 duplicate IDs**; no canonical reconstruction.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** select the next deterministic partially verified/enrichment target after Batch 54 using the live census and handoff; preserve evidence boundaries.
+
+
+### 2026-09-24 cycle completion — Boulder Toss + Boulder Break Expert Mission provenance follow-up
+- [x] Re-read the live continuation handoff and exhaustive TODO, then reconciled the handoff's stale `skill-batch-197` placeholder against the current live TODO/gap ledger rather than inventing an unmaterialized batch.
+- [x] Strengthened **Boulder Toss** and **Boulder Break** with an additional independent current Xenoverse 2 mission-use source: **Expert Mission 3 — Assault of the Great Ape** lists both skills in Great Ape Nappa's moveset.
+- [x] Updated `docs/data/skill-research-gaps-boulder-toss-evidence-audit-2026-09-24.json`, `docs/data/skill-research-gaps-boulder-break-evidence-audit-2026-09-24.json`, and the central `docs/data/skill-research-gaps.json` ledger.
+- [x] Preserved the existing evidence boundary: both remain CaC-unavailable Great Ape Super Skills with research-supported Strike taxonomy; numeric Ki costs remain unresolved and no canonical promotion was attempted.
+- [x] Live canonical/index boundary remains **469/469**; no canonical identity or relationship was fabricated.
+- [x] Current main commit observed at start of this cycle was `84a1ab801bb606c2e90b50eb8063c86db0699d08`; no workflow runs or combined status checks are exposed for that commit, so no CI success is claimed.
+- [ ] **Exact next:** continue the remaining unresolved skill-gap queue with **Acid** first, using direct Xenoverse 2 evidence; preserve unresolved Ki cost rather than inferring it. Do not invent `skill-batch-197` until a concrete batch target is established by the live queue.
