@@ -1766,3 +1766,12 @@
 - [ ] **Repair required:** synchronize only the stale top-level current scalar fields in `docs/data/skill-acquisition-coverage-report.json` to **131 / 130**, then re-run the current consumer scan. The available GitHub write path rejected the direct mutation attempt during this cycle, so the stale file itself was not falsely marked repaired.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** perform that scalar repair, validate the report against `docs/data/skill-acquisition-coverage-current-projection-audit-2026-09-24.json` and `docs/data/skill-acquisition-cross-domain-endpoint-audit-2026-09-24.json`, then continue the remaining non-PQ consumer scan.
+
+
+### 2026-09-25 continuation — mentor coverage scalar repair completed
+- [x] Repaired the stale current-facing top-level mentor scalar fields in `docs/data/skill-acquisition-coverage-report.json`: `mentor_edge_rows` **132 → 131** and `mentor_unique_skill_targets` **131 → 130**.
+- [x] Validated the repaired report against `skill-acquisition-coverage-current-projection-audit-2026-09-24.json` and `skill-acquisition-cross-domain-endpoint-audit-2026-09-24.json`; both independently report **131 / 130** and clean/pass status.
+- [x] Preserved the historical 132/131 values only in provenance text where appropriate; current-facing projection is now synchronized.
+- [x] Commit: `398f721d788120280e6d9f09489c66f4d04e3480`.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** continue the deterministic non-PQ consumer scan for remaining stale scalar counts, orphan endpoint IDs, and one-way navigation.
