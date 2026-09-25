@@ -80,7 +80,8 @@
     "skill_batch_309_ki_blast_ultimate_evidence_audit_2026_09_24": "docs/data/skill-batch-309-ki-blast-ultimate-evidence-audit-2026-09-24.json",
     "skill_batch_310_ki_blast_ultimate_evidence_audit_2026_09_24": "docs/data/skill-batch-310-ki-blast-ultimate-evidence-audit-2026-09-24.json",
     "accessory_android14_bardock_super_scouter_evidence": "docs/data/accessory-android14-bardock-super-scouter-evidence-audit-2026-09-24.json",
-    "skill_batch_316_evidence_refresh_2026_09_25": "docs/data/skill-batch-316-evidence-refresh-2026-09-25.json"
+    "skill_batch_316_evidence_refresh_2026_09_25": "docs/data/skill-batch-316-evidence-refresh-2026-09-25.json",
+    "skill_batch_317_evidence_reconciliation_2026_09_25": "docs/data/skill-batch-317-evidence-reconciliation-2026-09-25.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",
