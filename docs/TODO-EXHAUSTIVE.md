@@ -8405,3 +8405,11 @@
 - [x] Registered Batch 330 and advanced the skill audit to **330**; JSON readback passed.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue only with a genuinely new evidence-backed skill field, otherwise return to deterministic current-facing parity scanning.
+
+
+### 2026-09-25 cycle completion — PQ alias/granularity scalar audit correction
+- [x] Verified `pq-endpoint-alias-granularity-map.json` already uses the authoritative **853** current relationship baseline.
+- [x] Corrected the stale classification in the reconciliation layer with a dedicated audit artifact; no canonical relationship data changed.
+- [x] Registered the artifact; JSON validation passed.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue current-facing reverse/navigation consumer scanning for the next real mismatch.
