@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-24",
+  "scope": "Skill Research Batch 310 — Ki Blast Ultimate evidence enrichment",
+  "policy": "Promote only fields directly supported by current Xenoverse 2-specific skill references. Preserve unresolved reward probability and Ultimate-Finish semantics.",
+  "records": [
+    {
+      "name": "Super Ghost Kamikaze Attack",
+      "id": "skill-super-ghost-kamikaze-attack",
+      "supported": [
+        "Ultimate",
+        "Ki Blast",
+        "300 Ki",
+        "Training with Gotenks",
+        "5 hits",
+        "ghost projectile behavior"
+      ],
+      "unresolved": [
+        "reward probability",
+        "Ultimate Finish requirement"
+      ],
+      "evidence": "Dedicated current page identifies the Ultimate variant as a 300-Ki, 5-hit Ki Blast Ultimate from Gotenks; mentor documentation lists it as Gotenks Lesson 4."
+    },
+    {
+      "name": "Full Power Energy Blast Volley",
+      "id": "skill-full-power-energy-blast-volley",
+      "supported": [
+        "Ultimate",
+        "Ki Blast",
+        "300 Ki",
+        "29 hits",
+        "tracking/barrage behavior",
+        "CaC-compatible"
+      ],
+      "unresolved": [
+        "precise acquisition semantics beyond starting/skill availability"
+      ],
+      "evidence": "Current Xenoverse 2 page identifies it as a 300-Ki Ki Blast Ultimate with up to 29 hits and tracking; current character/mentor documentation shows broad character and partner usage."
+    },
+    {
+      "name": "Neo Tri-Beam",
+      "id": "skill-neo-tri-beam",
+      "supported": [
+        "Ultimate",
+        "Ki Blast",
+        "300 Ki",
+        "Training with Tien Lesson 4",
+        "100-1400 Stamina per repeated use",
+        "Tien/Yamcha partner",
+        "repeat-input behavior"
+      ],
+      "unresolved": [
+        "exact reward probability",
+        "Ultimate Finish requirement"
+      ],
+      "evidence": "Current Xenoverse 2 page directly documents the 300-Ki cost, Tien Lesson 4 unlock, 100-1400 stamina expenditure, and repeat-fire behavior."
+    },
+    {
+      "name": "Vacation Delete",
+      "id": "skill-vacation-delete",
+      "supported": [
+        "Ultimate",
+        "Ki Blast",
+        "300 Ki",
+        "Skill Shop",
+        "8 hits",
+        "5-second paralysis",
+        "listed users"
+      ],
+      "unresolved": [
+        "current shop price",
+        "Ultimate Finish requirement"
+      ],
+      "evidence": "Current Xenoverse 2 page directly documents Skill Shop acquisition, 300 Ki, 8-hit explosion, and 5-second paralysis."
+    },
+    {
+      "name": "Breaker Energy Wave",
+      "id": "skill-breaker-energy-wave",
+      "supported": [
+        "Ultimate",
+        "Ki Blast",
+        "0 Ki",
+        "PQ101",
+        "CaC-compatible",
+        "single-use low-health condition"
+      ],
+      "unresolved": [
+        "exact damage"
+      ],
+      "evidence": "Current Xenoverse 2 page directly states 0 Ki, PQ101, CaC availability, and its once-only low-health activation rule."
+    },
+    {
+      "name": "God of Destruction's Menace",
+      "id": "skill-god-of-destructions-menace",
+      "supported": [
+        "Ultimate",
+        "Ki Blast",
+        "300 Ki",
+        "PQ105",
+        "Super Pack 2",
+        "26 hits",
+        "tracking/additional input"
+      ],
+      "unresolved": [
+        "reward probability",
+        "Ultimate Finish requirement"
+      ],
+      "evidence": "Current Xenoverse 2 page directly documents Super Pack 2/PQ105 provenance, 300 Ki, 26-hit maximum behavior, and Champa usage."
+    },
+    {
+      "name": "Revenge Death Ball",
+      "id": "skill-revenge-death-ball",
+      "supported": [
+        "Ultimate",
+        "Ki Blast",
+        "300+ Ki",
+        "PQ127",
+        "Extra Pack 3",
+        "12-22 hits",
+        "30-70% listed damage",
+        "charge-to-recover-Ki behavior"
+      ],
+      "unresolved": [
+        "exact CaC canonical metadata if source variant changes"
+      ],
+      "evidence": "Current Xenoverse 2 page directly documents PQ127/Extra Pack 3 provenance, 300+ Ki, 12-22 hits, and charge behavior."
+    },
+    {
+      "name": "Gigantic Burst",
+      "id": "skill-gigantic-burst",
+      "supported": [
+        "Ultimate",
+        "Ki Blast",
+        "500 Ki",
+        "PQ127",
+        "25 hits",
+        "CaC-compatible",
+        "2-stage behavior"
+      ],
+      "unresolved": [
+        "reward probability",
+        "Ultimate Finish requirement"
+      ],
+      "evidence": "Current Xenoverse 2 page directly documents PQ127, 500 Ki, 25 hits, CaC availability, and two-stage Ray Blast-to-beam behavior."
+    },
+    {
+      "name": "Prominence Flash",
+      "id": "skill-prominence-flash",
+      "supported": [
+        "Ultimate",
+        "Ki Blast",
+        "300 Ki",
+        "PQ137",
+        "38 hits",
+        "Vegeta SSG/Customize Partner provenance",
+        "damage scaling through third activation"
+      ],
+      "unresolved": [
+        "reward probability",
+        "Ultimate Finish requirement"
+      ],
+      "evidence": "Current Xenoverse 2 page directly documents PQ137, 300 Ki, 38-hit behavior, users, and cumulative-use damage scaling."
+    }
+  ]
+}
