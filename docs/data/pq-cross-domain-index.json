@@ -64,7 +64,8 @@
     "skill_heroic_counter_p1_provenance": "docs/data/skill-heroic-counter-p1-provenance-verification-2026-09-24.json",
     "skill_counter_impact_p1_provenance": "docs/data/skill-counter-impact-p1-provenance-verification-2026-09-24.json",
     "skill_punisher_shield_p1_provenance": "docs/data/skill-punisher-shield-p1-provenance-verification-2026-09-24.json",
-    "skill_counter_burst_p1_provenance": "docs/data/skill-counter-burst-p1-provenance-verification-2026-09-24.json"
+    "skill_counter_burst_p1_provenance": "docs/data/skill-counter-burst-p1-provenance-verification-2026-09-24.json",
+    "skill_change_the_future_p1_provenance": "docs/data/skill-change-the-future-p1-provenance-verification-2026-09-24.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",
