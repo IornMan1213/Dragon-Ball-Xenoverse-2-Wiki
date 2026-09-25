@@ -620,3 +620,16 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Commits: canonical `16c58fd`, index `64321fd`, audit `46d3f4f`, batch `16ea0c9`, registry `ea301ed`.
 - [x] **Exact next:** fresh global thin-record census; prioritize records with the shortest mechanics/source footprint, then continue deterministic provenance/mechanics enrichment while preserving uncertainty boundaries and cross-domain links.
+
+
+### 2026-09-25 cycle completion — Skill Batch 361 thin mentor mechanics enrichment
+- [x] Fresh global census of the 469 canonical skill corpus found the shortest current mechanics footprints at 78 characters across multiple records.
+- [x] Completed **All Clear, Angry Hit, Arm Crash, and Audacious Laugh** with current Xenoverse 2-specific mechanics evidence.
+- [x] Added `docs/data/skill-batch-361-thin-mentor-mechanics-audit-2026-09-25.json` and `docs/data/skill-research-batches/skill-batch-361.json`; registered both in the cross-domain index.
+- [x] All Clear: documented 100-Ki Strike behavior, frontal sweeping wave, Ki-Wave negation, knockback, guard-compatible/invulnerable use, and bounded ~10% source-reported damage.
+- [x] Angry Hit: documented 100-Ki teleport strike, single-hit knockdown, and bounded ~20% source-reported damage.
+- [x] Arm Crash: documented 100-Ki rush/lariat guard break, ~1.5x charged travel, and bounded ~20% source-reported damage.
+- [x] Audacious Laugh: documented 100-Ki non-damaging slowdown, short-delay stagger, and lock-on requirement.
+- [x] Canonical/index parity target preserved at **469/469** with 0 duplicate IDs; only mechanics/provenance fields changed for the four targets.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** fresh global thin-record census; continue the next shortest mechanics/source footprints, then move through deterministic provenance gaps while preserving cross-domain links and uncertainty boundaries.
