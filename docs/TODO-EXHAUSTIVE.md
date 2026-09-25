@@ -217,3 +217,11 @@
 - [x] Preserved unresolved reward probability/Ultimate-Finish semantics and historical conflicts.
 - [ ] CI remains unverified.
 - [x] **Exact next:** continue the remaining under-enriched canonical skill provenance queue after live census.
+
+
+### 2026-09-25 completion — Batch 54 PQ86-PQ100 full provenance census
+- [x] Promoted **Absolute Zero** to `verified_current_scope`.
+- [x] Set all 15 Batch 54 records to explicit `research_status: enriched` without altering unresolved reward semantics.
+- [x] Added and registered the Absolute Zero current-evidence audit.
+- [ ] CI remains unverified.
+- [x] **Exact next:** fresh repository-wide census for the next under-enriched/partially-verified canonical skill batch outside Batch 54.
