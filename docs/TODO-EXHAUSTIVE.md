@@ -7625,3 +7625,13 @@
 - [x] Validation: all changed JSON parsed successfully; no canonical/index reconstruction was attempted.
 - [ ] CI success remains unverified; the current Actions API exposes no workflow run for the previous documentation commit.
 - [ ] **Exact next:** continue **skill-batch-249**, using the same historical-batch reconciliation approach and only promote/change canonical fields when current evidence is stronger than the historical batch.
+
+### 2026-09-24 cycle completion — Batch 249 Ki Blast Super current reconciliation
+- [x] Reconciled all seven Batch 249 candidates against the live PQ/provenance layers instead of carrying forward the original 2026-09-17 acquisition endpoints unchanged.
+- [x] Corrected the research-layer PQ endpoints: Gigantic Cluster and Eraser Bomb → **PQ163**; Variable Snipe Shot → **PQ165**; Burning Swan → **PQ167**; Emperor's Cannon → **PQ183** with the existing PQ183-vs-PQ184 conflict preserved.
+- [x] Added Gigantic Cross's deterministic **Conton City Patrol 04** endpoint without collapsing it into the historical PQ142 provenance.
+- [x] Corrected **Swallow Shot** from CaC-usable/PQ159 to **cast-exclusive Videl (DB Super)** with no player acquisition endpoint; current Super Attack and Videl references support the cast-exclusive classification. citeturn1search0turn1search1
+- [x] Added `docs/data/skill-batch-249-reconciliation-2026-09-24.json`.
+- [x] Preserved the **469/469** canonical/index boundary and **0 duplicate IDs**; Swallow Shot is deliberately not manually inserted into generated canonical files because the supported lossless builder path is unavailable.
+- [x] JSON validation completed successfully; CI remains unverified.
+- [ ] **Exact next:** continue **skill-batch-250**, reconciling its historical Ki Blast Super records against the current canonical/provenance/PQ layers and preserving cast-exclusive/raid-only boundaries.
