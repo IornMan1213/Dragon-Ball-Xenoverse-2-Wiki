@@ -7452,3 +7452,10 @@
 - [x] Preserved the 469/469 canonical/index boundary and unresolved/version-sensitive mechanics.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** inspect current Actions state, then determine the next live research batch after 200.
+
+### 2026-09-24 — TODO completion update — Time Skip/Jump Spike P1 provenance verification
+- [x] Completed **skill-batch-201 — Time Skip/Jump Spike** with current Xenoverse 2 identity, 100 Ki, Hit Lesson 2 acquisition, Future Warrior availability, Super Pack 1 context, and forward-rush mechanics.
+- [x] Added and registered the Time Skip/Jump Spike provenance audit.
+- [x] Preserved the 469/469 canonical/index boundary and unresolved numeric/frame evidence.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** inspect current Actions state, then determine the next live research batch after 201.
