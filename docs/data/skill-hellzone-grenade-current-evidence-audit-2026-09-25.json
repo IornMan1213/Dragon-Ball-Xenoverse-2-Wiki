@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "kill-hellzone-grenade-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Hellzone Grenade",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "class": "Ultimate",
+    "subcategory": "Ki Blast",
+    "ki_cost": 300,
+    "source_quest_or_shop": "Expert Mission 10 — The Emperor's Worth",
+    "mechanics": "300-Ki Ki Blast Ultimate that creates two Ki balls, surrounds the opponent with a five-hit homing barrage, and is documented at about 20% full-sequence damage."
+  },
+  "limits": [
+    "Exact Expert Mission reward probability remains unresolved.",
+    "No per-clear guarantee is inferred solely from Basic Reward placement."
+  ],
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Hellzone_Grenade",
+    "https://dragonball.fandom.com/wiki/Hellzone_Grenade",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
+  ]
+}
