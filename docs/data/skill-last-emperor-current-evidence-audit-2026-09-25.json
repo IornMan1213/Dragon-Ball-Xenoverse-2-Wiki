@@ -38,13 +38,15 @@
     "cost": "0 Ki remains supported; the independent Steam discussion explicitly distinguishes Last Emperor from Emperor's Death Beam and states that Last Emperor does not use Ki.",
     "restriction": "The low-health activation condition and one-use-per-activation-state behavior are independently corroborated by the Steam discussion.",
     "mechanics": "The existing 21-hit beam note remains bounded to repository skill-specific evidence; no new universal damage, frame, or hitbox value is inferred.",
-    "acquisition": "The repository retains Parallel Quest 71 as the acquisition endpoint, but the reviewed evidence does not establish the exact reward slot/probability or an Ultimate Finish-only requirement."
+    "acquisition": "The repository retains Parallel Quest 71 as the acquisition endpoint, but the reviewed evidence does not establish the exact reward slot/probability or an Ultimate Finish-only requirement.",
+    "result": "Last Emperor current-evidence promotion supports the research-layer fields without changing canonical identity or unresolved acquisition semantics."
   },
   "evidence_limits": [
     "Exact PQ71 reward-slot semantics remain unresolved.",
     "No numerical drop probability is inferred.",
     "No new damage, frame, hitbox, or timing values are promoted.",
-    "Canonical promotion is deferred because the current canonical builder/runtime is not available through the connector."
+    "Canonical promotion is deferred because the current canonical builder/runtime is not available through the connector.",
+    "TP Medal Shop and Partner Customization are retained as current provenance context; no unsupported reward probability or hidden requirement is inferred."
   ],
-  "result": "Current-evidence refresh complete; research-layer provenance strengthened without changing canonical identity or unresolved acquisition semantics."
+  "result": "Current-evidence provenance promotion complete; research-layer status advanced to verified_current_scope while unresolved acquisition semantics remain explicitly bounded."
 }
