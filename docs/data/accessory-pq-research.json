@@ -8,51 +8,373 @@
     "verified": "Accessory identity, PQ source, relevant condition, and applicable alternate-route/version details are reconciled against sufficient independent evidence."
   },
   "records": [
-    {"id":"pqacc-001","name":"Piccolo's Turban","pq":3,"acquisition_condition":"PQ reward listing","alternate_routes":"Accessory Shop reported","verification_status":"partially_verified"},
-    {"id":"pqacc-002","name":"Four-Star Dragon Ball Hat","pq":5,"acquisition_condition":"PQ reward listing","alternate_routes":null,"verification_status":"partially_verified"},
-    {"id":"pqacc-003","name":"Chiaotzu's Hat (With Collar)","pq":9,"acquisition_condition":"PQ reward listing","alternate_routes":"Accessory Shop reported; exact variant distinction retained","verification_status":"partially_verified"},
-    {"id":"pqacc-004","name":"Goku's Wig","pq":25,"acquisition_condition":"PQ reward listing","alternate_routes":null,"source_conflicts":"Some historical inventories report different numbering; PQ25 remains the currently documented mapping in the source set.","verification_status":"partially_verified"},
-    {"id":"pqacc-005","name":"Android 19's Hat","pq":28,"acquisition_condition":"PQ reward listing","alternate_routes":"Accessory Shop reported","verification_status":"partially_verified"},
-    {"id":"pqacc-006","name":"Dore's Scouter","pq":27,"acquisition_condition":"PQ reward listing","alternate_routes":null,"verification_status":"partially_verified"},
-    {"id":"pqacc-007","name":"Tapion's Sword","pq":22,"acquisition_condition":"PQ reward listing reported by historical source","alternate_routes":"Later shop inventories require separate reconciliation","verification_status":"partially_verified"},
-    {"id":"pqacc-008","name":"Yamcha's Sword","pq":29,"acquisition_condition":"PQ reward reported by historical guide","alternate_routes":"Accessory Shop reported","source_conflicts":"Other historical sources associate Yamcha's Sword with PQ36; conflict retained.","verification_status":"partially_verified"},
-    {"id":"pqacc-009","name":"Great Saiyaman Bandana 1","pq":51,"acquisition_condition":"PQ reward listing","alternate_routes":null,"verification_status":"partially_verified"},
-    {"id":"pqacc-010","name":"Great Saiyaman Bandana 2","pq":53,"acquisition_condition":"PQ reward listing","alternate_routes":null,"verification_status":"partially_verified"},
-    {"id":"pqacc-011","name":"Goku Wig (Super Saiyan)","pq":63,"acquisition_condition":"PQ reward listing","alternate_routes":null,"verification_status":"partially_verified"},
-    {"id":"pqacc-012","name":"Jaco's State-of-the-Art Radio","pq":72,"acquisition_condition":"PQ reward listing","alternate_routes":null,"verification_status":"partially_verified"},
-    {"id":"pqacc-013","name":"Tagoma's Scouter","pq":73,"acquisition_condition":"PQ reward listing","alternate_routes":null,"verification_status":"partially_verified"},
-    {"id":"pqacc-014","name":"SSGSS Goku Wig","pq":76,"acquisition_condition":"PQ reward listing","alternate_routes":null,"verification_status":"partially_verified"},
-    {"id":"pqacc-015","name":"Pan's Bandana","pq":93,"acquisition_condition":"PQ reward listing","alternate_routes":null,"verification_status":"partially_verified"},
-    {"id":"pqacc-016","name":"Yamcha Baseball Hat","pq":97,"acquisition_condition":"PQ reward listing","alternate_routes":"Raid/event route reported separately","verification_status":"partially_verified"},
-    {"id":"pqacc-017","name":"SSGSS Vegeta Wig","pq":100,"acquisition_condition":"PQ reward listing","alternate_routes":null,"verification_status":"partially_verified"},
-    {"id":"pqacc-018","name":"SS4 Wig & Tail (Goku)","pq":110,"acquisition_condition":"Ultimate Finish reward; current research corpus reports guaranteed on Ultimate Finish","alternate_routes":"DLC Pack 4 provenance","verification_status":"partially_verified"},
-    {"id":"pqacc-019","name":"Bulma (Kid) Wig","pq":149,"acquisition_condition":"PQ reward listing","alternate_routes":null,"verification_status":"partially_verified"},
-    {"id":"pqacc-020","name":"Great Saiyaman Helmet","pq":51,"acquisition_condition":"PQ reward/NPC progression relationship reported","alternate_routes":null,"verification_status":"partially_verified"},
-    {"id":"pqacc-021","name":"Resistance Helmet","pq":111,"acquisition_condition":"PQ111 reward","alternate_routes":"DLC Pack 4 accessory","verification_status":"partially_verified"},
-    {"id":"pqacc-022","name":"Android 13's Hat","pq":105,"acquisition_condition":"PQ105 reward listing","alternate_routes":"TP Medal Shop reported in historical accessory inventories","verification_status":"partially_verified"},
-    {"id":"pqacc-023","name":"Android 14's Hat","pq":104,"acquisition_condition":"PQ104 reward listing reported","alternate_routes":null,"verification_status":"partially_verified"},
-    {"id":"pqacc-024","name":"Android 15's Sunglasses","pq":null,"acquisition_condition":"No PQ route established in current evidence","alternate_routes":"TP Medal Shop/free-update route","verification_status":"indexed"},
-    {"id":"pqacc-025","name":"Bardock (DB Super)'s Scouter","pq":146,"acquisition_condition":"PQ146 accessory reward reported","alternate_routes":null,"verification_status":"partially_verified"},
-    {"id":"pqacc-026","name":"Gine (DB Super)'s Accessory","pq":144,"acquisition_condition":"PQ144 accessory reward reported; exact item naming/slot requires reconciliation","alternate_routes":null,"verification_status":"indexed"},
-    {"id":"pqacc-027","name":"Kale's Accessory","pq":148,"acquisition_condition":"PQ148 accessory reward reported; exact item naming/variant requires reconciliation","alternate_routes":null,"verification_status":"indexed"},
-    {"id":"pqacc-028","name":"Caulifla's Accessory","pq":147,"acquisition_condition":"PQ147 accessory reward reported; exact item naming/variant requires reconciliation","alternate_routes":null,"verification_status":"indexed"},
-    {"id":"pqacc-029","name":"Android 17 (DB Super)'s Ranger Accessory","pq":152,"acquisition_condition":"Older catalog entry; exact accessory identity requires reconciliation","alternate_routes":null,"source_conflicts":"A separate current record identifies Android 17 (DB Super)'s Ranger Accessory as a component-level equipment relationship; do not merge it with the distinct Android 17 (DB Super) Wig record without inventory-level evidence.","verification_status":"indexed"},
-    {"id":"pqacc-030","name":"Red Ribbon Army Helmet","pq":160,"acquisition_condition":"Basic reward listing on PQ160, Pan in Peril","alternate_routes":null,"verification_status":"partially_verified"},
-    {"id":"pqacc-031","name":"Gohan (Beast) Wig","pq":162,"acquisition_condition":"Basic reward listing on PQ162","alternate_routes":null,"verification_status":"partially_verified"},
-    {"id":"pqacc-032","name":"Videl (DB Super) Wig","pq":168,"acquisition_condition":"Basic reward listing on PQ168, Videl: Super Mom","alternate_routes":null,"verification_status":"partially_verified"},
-    {"id":"pqacc-033","name":"Dr. Hedo Hood","pq":159,"acquisition_condition":"PQ159 reward listing; exact reward-slot condition requires reconciliation","alternate_routes":null,"verification_status":"partially_verified"},
-    {"id":"pqacc-034","name":"SS4 Goku (DAIMA) Wig & Tail","pq":179,"acquisition_condition":"PQ179 reward association reported; exact reward mechanism requires reconciliation","alternate_routes":"DAIMA-era DLC provenance","verification_status":"indexed"},
-    {"id":"pqacc-035","name":"SS3 Vegeta (DAIMA) Wig","pq":180,"acquisition_condition":"PQ180 reward association reported; exact reward mechanism requires reconciliation","alternate_routes":"DAIMA-era DLC provenance","verification_status":"indexed"},
-    {"id":"pqacc-036","name":"Glorio Wig","pq":181,"acquisition_condition":"PQ181 reward association reported; exact reward mechanism requires reconciliation","alternate_routes":"DAIMA-era DLC provenance","verification_status":"indexed"},
-    {"id":"pqacc-037","name":"Panzy Wig","pq":181,"acquisition_condition":"PQ181 reward association reported; exact reward mechanism requires reconciliation","alternate_routes":"DAIMA-era DLC provenance","verification_status":"indexed"},
-    {"id":"pqacc-038","name":"Golden Frieza Head","pq":182,"acquisition_condition":"PQ182 reward association reported; exact reward mechanism requires reconciliation","alternate_routes":"DAIMA-era DLC provenance","verification_status":"indexed"},
-    {"id":"pqacc-039","name":"Broly Wig (Black Hair, Normal)","pq":183,"acquisition_condition":"PQ183 reward association reported; exact reward mechanism requires reconciliation","alternate_routes":"DAIMA-era DLC provenance","verification_status":"indexed"},
-    {"id":"pqacc-040","name":"Dragon Ball Balloon","pq":184,"acquisition_condition":"Ultimate Finish reward; current Madreag quest data reports 50%","alternate_routes":"DAIMA-era DLC provenance","reward_chance_percent":50,"reward_condition":"Ultimate Finish bonus slot","verification_status":"partially_verified"},
-    {"id":"pqacc-041","name":"Goku (Ultra Supervillain Quelled) Wig","pq":185,"acquisition_condition":"PQ185 reward association reported; exact reward mechanism requires reconciliation","alternate_routes":"Future Saga Chapter 4 provenance","verification_status":"indexed"},
-    {"id":"pqacc-042","name":"Android 17 (DB Super) Wig","pq":152,"acquisition_condition":"Basic reward listing on PQ152","alternate_routes":"Conton City Vote Pack provenance","verification_status":"partially_verified"},
-    {"id":"pqacc-043","name":"King Vegeta (DB Super) Wig","pq":154,"acquisition_condition":"Basic reward listing on PQ154","alternate_routes":"Conton City Vote Pack provenance","verification_status":"partially_verified"},
-    {"id":"pqacc-044","name":"Gamma 2's Helmet","pq":155,"acquisition_condition":"Basic reward listing on PQ155","alternate_routes":"Hero of Justice Pack 1 provenance","verification_status":"partially_verified"},
-    {"id":"pqacc-045","name":"Gamma 1's Helmet","pq":156,"acquisition_condition":"Basic reward listing on PQ156","alternate_routes":"Hero of Justice Pack 1 provenance","verification_status":"partially_verified"}
+    {
+      "id": "pqacc-001",
+      "name": "Piccolo's Turban",
+      "pq": 3,
+      "acquisition_condition": "PQ reward listing",
+      "alternate_routes": "Accessory Shop reported",
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-002",
+      "name": "Four-Star Dragon Ball Hat",
+      "pq": 5,
+      "acquisition_condition": "PQ reward listing",
+      "alternate_routes": null,
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-003",
+      "name": "Chiaotzu's Hat (With Collar)",
+      "pq": 9,
+      "acquisition_condition": "PQ reward listing",
+      "alternate_routes": "Accessory Shop reported; exact variant distinction retained",
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-004",
+      "name": "Goku's Wig",
+      "pq": 25,
+      "acquisition_condition": "PQ reward listing",
+      "alternate_routes": null,
+      "source_conflicts": "Some historical inventories report different numbering; PQ25 remains the currently documented mapping in the source set.",
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-005",
+      "name": "Android 19's Hat",
+      "pq": 28,
+      "acquisition_condition": "PQ reward listing",
+      "alternate_routes": "Accessory Shop reported",
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-006",
+      "name": "Dore's Scouter",
+      "pq": 27,
+      "acquisition_condition": "PQ reward listing",
+      "alternate_routes": null,
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-007",
+      "name": "Tapion's Sword",
+      "pq": 22,
+      "acquisition_condition": "PQ reward listing reported by historical source",
+      "alternate_routes": "Later shop inventories require separate reconciliation",
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-008",
+      "name": "Yamcha's Sword",
+      "pq": 29,
+      "acquisition_condition": "PQ reward reported by historical guide",
+      "alternate_routes": "Accessory Shop reported",
+      "source_conflicts": "Other historical sources associate Yamcha's Sword with PQ36; conflict retained.",
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-009",
+      "name": "Great Saiyaman Bandana 1",
+      "pq": 51,
+      "acquisition_condition": "PQ reward listing",
+      "alternate_routes": null,
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-010",
+      "name": "Great Saiyaman Bandana 2",
+      "pq": 53,
+      "acquisition_condition": "PQ reward listing",
+      "alternate_routes": null,
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-011",
+      "name": "Goku Wig (Super Saiyan)",
+      "pq": 63,
+      "acquisition_condition": "PQ reward listing",
+      "alternate_routes": null,
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-012",
+      "name": "Jaco's State-of-the-Art Radio",
+      "pq": 72,
+      "acquisition_condition": "PQ reward listing",
+      "alternate_routes": null,
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-013",
+      "name": "Tagoma's Scouter",
+      "pq": 73,
+      "acquisition_condition": "PQ reward listing",
+      "alternate_routes": null,
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-014",
+      "name": "SSGSS Goku Wig",
+      "pq": 76,
+      "acquisition_condition": "PQ reward listing",
+      "alternate_routes": null,
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-015",
+      "name": "Pan's Bandana",
+      "pq": 93,
+      "acquisition_condition": "PQ reward listing",
+      "alternate_routes": null,
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-016",
+      "name": "Yamcha Baseball Hat",
+      "pq": 97,
+      "acquisition_condition": "PQ reward listing",
+      "alternate_routes": "Raid/event route reported separately",
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-017",
+      "name": "SSGSS Vegeta Wig",
+      "pq": 100,
+      "acquisition_condition": "PQ reward listing",
+      "alternate_routes": null,
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-018",
+      "name": "SS4 Wig & Tail (Goku)",
+      "pq": 110,
+      "acquisition_condition": "Ultimate Finish reward; current research corpus reports guaranteed on Ultimate Finish",
+      "alternate_routes": "DLC Pack 4 provenance",
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-019",
+      "name": "Bulma (Kid) Wig",
+      "pq": 149,
+      "acquisition_condition": "PQ reward listing",
+      "alternate_routes": null,
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-020",
+      "name": "Great Saiyaman Helmet",
+      "pq": 51,
+      "acquisition_condition": "PQ reward/NPC progression relationship reported",
+      "alternate_routes": null,
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-021",
+      "name": "Resistance Helmet",
+      "pq": 111,
+      "acquisition_condition": "PQ111 reward",
+      "alternate_routes": "DLC Pack 4 accessory",
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-022",
+      "name": "Android 13's Hat",
+      "pq": 105,
+      "acquisition_condition": "PQ105 reward listing",
+      "alternate_routes": "TP Medal Shop reported in historical accessory inventories",
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-023",
+      "name": "Android 14's Hat",
+      "pq": 104,
+      "acquisition_condition": "PQ104 reward listing reported",
+      "alternate_routes": null,
+      "verification_status": "partially_verified",
+      "source_conflicts": "Current Xenoverse 2 equipment sources identify PQ104 as Android 14's Clothes, not a separately named Android 14's Hat accessory; canonical inventory identity remains unresolved."
+    },
+    {
+      "id": "pqacc-024",
+      "name": "Android 15's Sunglasses",
+      "pq": null,
+      "acquisition_condition": "No PQ route established in current evidence",
+      "alternate_routes": "TP Medal Shop/free-update route",
+      "verification_status": "indexed"
+    },
+    {
+      "id": "pqacc-025",
+      "name": "Bardock (DB Super)'s Scouter",
+      "pq": 146,
+      "acquisition_condition": "PQ146 accessory reward reported",
+      "alternate_routes": null,
+      "verification_status": "partially_verified",
+      "source_conflicts": "Current Xenoverse 2 PQ146 sources identify Bardock (DB Super)'s Clothes, not a separately named Bardock (DB Super)'s Scouter accessory; canonical inventory identity remains unresolved."
+    },
+    {
+      "id": "pqacc-026",
+      "name": "Gine (DB Super)'s Accessory",
+      "pq": 144,
+      "acquisition_condition": "PQ144 accessory reward reported; exact item naming/slot requires reconciliation",
+      "alternate_routes": null,
+      "verification_status": "indexed"
+    },
+    {
+      "id": "pqacc-027",
+      "name": "Kale's Accessory",
+      "pq": 148,
+      "acquisition_condition": "PQ148 accessory reward reported; exact item naming/variant requires reconciliation",
+      "alternate_routes": null,
+      "verification_status": "indexed"
+    },
+    {
+      "id": "pqacc-028",
+      "name": "Caulifla's Accessory",
+      "pq": 147,
+      "acquisition_condition": "PQ147 accessory reward reported; exact item naming/variant requires reconciliation",
+      "alternate_routes": null,
+      "verification_status": "indexed"
+    },
+    {
+      "id": "pqacc-029",
+      "name": "Android 17 (DB Super)'s Ranger Accessory",
+      "pq": 152,
+      "acquisition_condition": "Older catalog entry; exact accessory identity requires reconciliation",
+      "alternate_routes": null,
+      "source_conflicts": "A separate current record identifies Android 17 (DB Super)'s Ranger Accessory as a component-level equipment relationship; do not merge it with the distinct Android 17 (DB Super) Wig record without inventory-level evidence.",
+      "verification_status": "indexed"
+    },
+    {
+      "id": "pqacc-030",
+      "name": "Red Ribbon Army Helmet",
+      "pq": 160,
+      "acquisition_condition": "Basic reward listing on PQ160, Pan in Peril",
+      "alternate_routes": null,
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-031",
+      "name": "Gohan (Beast) Wig",
+      "pq": 162,
+      "acquisition_condition": "Basic reward listing on PQ162",
+      "alternate_routes": null,
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-032",
+      "name": "Videl (DB Super) Wig",
+      "pq": 168,
+      "acquisition_condition": "Basic reward listing on PQ168, Videl: Super Mom",
+      "alternate_routes": null,
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-033",
+      "name": "Dr. Hedo Hood",
+      "pq": 159,
+      "acquisition_condition": "PQ159 reward listing; exact reward-slot condition requires reconciliation",
+      "alternate_routes": null,
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-034",
+      "name": "SS4 Goku (DAIMA) Wig & Tail",
+      "pq": 179,
+      "acquisition_condition": "PQ179 reward association reported; exact reward mechanism requires reconciliation",
+      "alternate_routes": "DAIMA-era DLC provenance",
+      "verification_status": "indexed"
+    },
+    {
+      "id": "pqacc-035",
+      "name": "SS3 Vegeta (DAIMA) Wig",
+      "pq": 180,
+      "acquisition_condition": "PQ180 reward association reported; exact reward mechanism requires reconciliation",
+      "alternate_routes": "DAIMA-era DLC provenance",
+      "verification_status": "indexed"
+    },
+    {
+      "id": "pqacc-036",
+      "name": "Glorio Wig",
+      "pq": 181,
+      "acquisition_condition": "PQ181 reward association reported; exact reward mechanism requires reconciliation",
+      "alternate_routes": "DAIMA-era DLC provenance",
+      "verification_status": "indexed"
+    },
+    {
+      "id": "pqacc-037",
+      "name": "Panzy Wig",
+      "pq": 181,
+      "acquisition_condition": "PQ181 reward association reported; exact reward mechanism requires reconciliation",
+      "alternate_routes": "DAIMA-era DLC provenance",
+      "verification_status": "indexed"
+    },
+    {
+      "id": "pqacc-038",
+      "name": "Golden Frieza Head",
+      "pq": 182,
+      "acquisition_condition": "PQ182 reward association reported; exact reward mechanism requires reconciliation",
+      "alternate_routes": "DAIMA-era DLC provenance",
+      "verification_status": "indexed"
+    },
+    {
+      "id": "pqacc-039",
+      "name": "Broly Wig (Black Hair, Normal)",
+      "pq": 183,
+      "acquisition_condition": "PQ183 reward association reported; exact reward mechanism requires reconciliation",
+      "alternate_routes": "DAIMA-era DLC provenance",
+      "verification_status": "indexed"
+    },
+    {
+      "id": "pqacc-040",
+      "name": "Dragon Ball Balloon",
+      "pq": 184,
+      "acquisition_condition": "Ultimate Finish reward; current Madreag quest data reports 50%",
+      "alternate_routes": "DAIMA-era DLC provenance",
+      "reward_chance_percent": 50,
+      "reward_condition": "Ultimate Finish bonus slot",
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-041",
+      "name": "Goku (Ultra Supervillain Quelled) Wig",
+      "pq": 185,
+      "acquisition_condition": "PQ185 reward association reported; exact reward mechanism requires reconciliation",
+      "alternate_routes": "Future Saga Chapter 4 provenance",
+      "verification_status": "indexed"
+    },
+    {
+      "id": "pqacc-042",
+      "name": "Android 17 (DB Super) Wig",
+      "pq": 152,
+      "acquisition_condition": "Basic reward listing on PQ152",
+      "alternate_routes": "Conton City Vote Pack provenance",
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-043",
+      "name": "King Vegeta (DB Super) Wig",
+      "pq": 154,
+      "acquisition_condition": "Basic reward listing on PQ154",
+      "alternate_routes": "Conton City Vote Pack provenance",
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-044",
+      "name": "Gamma 2's Helmet",
+      "pq": 155,
+      "acquisition_condition": "Basic reward listing on PQ155",
+      "alternate_routes": "Hero of Justice Pack 1 provenance",
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-045",
+      "name": "Gamma 1's Helmet",
+      "pq": 156,
+      "acquisition_condition": "Basic reward listing on PQ156",
+      "alternate_routes": "Hero of Justice Pack 1 provenance",
+      "verification_status": "partially_verified"
+    }
   ],
   "research_rules": [
     "A PQ appearing beside an accessory does not automatically establish whether the item is a guaranteed scripted reward, normal reward, Ultimate Finish reward, or random bonus-slot reward.",
