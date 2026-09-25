@@ -1,3 +1,9 @@
+### 2026-09-25 cycle completion — Batch 296 acquisition-endpoint enrichment
+- [x] Filled four previously-null Batch 296 acquisition endpoints from direct Xenoverse 2 evidence: Giga Boost → Conton City Skill Shop; Holstein Shock → PQ15; Emperor's Sign → TP Medal Shop; Position Shift → Skill Shop after defeating Kid Buu.
+- [x] Added and registered the dated acquisition refresh audit.
+- [x] Preserved unresolved numeric Ki costs and the 469/469 canonical boundary.
+- [ ] CI success remains unverified because failed jobs expose no usable runner/log payload.
+- [ ] **Exact next:** continue the next source-backed partially verified skill tranche after Batch 296/297 without inventing a batch identity.
 ### 2026-09-25 cycle completion — artifact-checker current-tree cleanup and pre-run CI diagnosis
 - [x] Removed literal checker-marker names from the continuation history that were themselves being scanned as forbidden artifacts.
 - [x] Direct current-tree verification of the handoff is clean for the known checker patterns.
