@@ -8290,3 +8290,12 @@
 - [x] Changed JSON validated successfully; historical snapshots remain preserved.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue deterministic producer/consumer parity from live counts **470 skills / 173 equipment-accessory / 152 characters**.
+
+
+### 2026-09-25 cycle completion — Equipment/accessory domain-layer semantics audit
+- [x] Established the current merged equipment/accessory layer at **173 / 173 unique IDs**.
+- [x] Documented the separate 138-record equipment projection, 74-record legacy accessory projection, 116-record accessory reconciliation layer, and 124/122 PQ equipment relationship graph.
+- [x] Added/registered docs/data/equipment-accessory-domain-layer-semantics-audit-2026-09-25.json.
+- [x] No relationships or identities changed; JSON validation passed.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue current producer/consumer parity or source-backed thin-domain enrichment; do not repeat the already-resolved equipment scalar recount.
