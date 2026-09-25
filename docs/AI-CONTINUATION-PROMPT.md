@@ -472,3 +472,16 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Commits: `3b92cd88cc84529387943a4cc311d9413d509890`, `951183c528eabfc08b4efb0f8dfdd970f71cf436`, `bcb477d10db97ab71bacc8772db78fe88e3f4bec`, `de8d8abe262e88f2d8ea100fd43a29633602ebf9`, `5039d5c61d7085bb23d53909a8435584884b2b85`, `85bf9ee741431e2a79fa7a2e969eebdab888a8ba`.
 - [ ] **Exact next:** continue the source-backed P1 provenance queue after the Justice tranche, preferring the next under-enriched canonical skill with direct current Xenoverse 2 evidence; when a safe complete canonical write path is available, synchronize the four Batch 348 records to `last_verified: 2026-09-25` without changing their identities or relationships.
+
+
+### 2026-09-25 correction + cycle completion — Batch 348 canonical synchronization and Skill Batch 349 Kai enrichment
+
+- [x] **Baseline correction:** direct blob retrieval of the large canonical file established the actual live baseline as **469 canonical / 469 index / 0 duplicate IDs**. Earlier same-day 470/470 statements in historical handoff entries are preserved as historical records and are superseded by this direct live recount; they were not silently deleted.
+- [x] Completed the previously pending canonical synchronization for **Justice Blade, Justice Combination, Justice Kick, and Justice Pose** from Batch 348. All four now have `last_verified: 2026-09-25` in both canonical and index layers, with evidence-backed mechanics notes synchronized.
+- [x] Added four current-evidence audits and Skill Research Batch 349 for **Kai Kai, Kaioken, Kaioken Kamehameha, and Kairos Cannon**; registered all five artifacts in the cross-domain index.
+- [x] Batch 349 canonical/index promotion completed: mechanics/provenance fields were strengthened from existing current repository evidence, while acquisition endpoints and identities were preserved.
+- [x] Validation after writes: **469/469 canonical/index records, identical ID sets, 0 duplicates**; all eight Justice/Kai targets checked have `last_verified: 2026-09-25`, and canonical/index `mechanics_notes` match for the current batch targets.
+- [x] Evidence limits preserved: no unsupported reward probabilities, hidden gates, frame timings, universal damage values, or patch-independent balance claims were added.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Commits: Justice canonical `061b5fa75572f53ada7487111be790ba321992f2`; Justice index `0a3f18b8211690188d5ee0d10c0d660aec482660`; Batch 348 validation `d4fd993dbae626be1870008a8255c5401fd0fc2a`; Kai audits `85e135efbeb0d7044da14e673eb07bea56c75959`, `edab0e5d019c231f201d5c33ef220c2b830127c0`, `00ba751e17ec1807c24f91bd63de52dbb8c432a5`, `e9c7d464656bcbf9c5e935efe1fa99fd210d3f75`; Batch 349 `61ba059ecf8f0052dc9e64a9587b104e157140a3`; cross-domain registration `623d463eea0f5970c08796736367626a7c1b05f9`; Kai canonical `02c17944a3235d4aad5ca953f55414712ec56975`; Kai index `675e4132cabb2d43c599913976a1066ee7f9f797`.
+- [ ] **Exact next:** continue the alphabetical source-backed enriched-corpus provenance/mechanics queue after **Kairos Cannon**, beginning with the next under-documented K records; prioritize records whose current mechanics notes remain shallow or whose evidence set is small, while preserving canonical/index parity at the verified 469 baseline.
