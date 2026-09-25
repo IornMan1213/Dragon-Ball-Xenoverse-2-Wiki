@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-final-kamehameha-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Final Kamehameha",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "class": "Ultimate",
+    "subcategory": "Ki Blast",
+    "ki_cost": 500,
+    "damage_type": "Ki Blast",
+    "source_quest_or_shop": "Parallel Quest 91; TP Medal Shop; Double Crystal Raids",
+    "unlock_method": "Parallel Quest 91 — Saiyan Revolt; also currently documented through the TP Medal Shop and Double Crystal Raids",
+    "mechanics": "Charges a Final Flash, transitions into a Super Kamehameha, and fires a long-range 22-hit beam.",
+    "character_source": "Vegito; SSGSS Vegito; SSGSS Vegito customizable partner"
+  },
+  "reward_evidence": {
+    "pq91_basic_reward": "Final Kamehameha is listed in the maintained PQ91 Basic Reward transcription.",
+    "independent_confirmation": "A separate PQ91 Rank-Z gameplay listing also records Final Kamehameha under Basic Reward."
+  },
+  "historical_conflict": {
+    "ultimate_finish_required": null,
+    "note": "Archived player discussion reports obtaining it after Ultimate Finish and frames the result as RNG, but this is anecdotal and conflicts with maintained reward transcriptions that list the skill under Basic Reward. No requirement or probability is inferred."
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Final_Kamehameha",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74502922",
+    "https://www.youtube.com/watch?v=E-_wVESIgmY"
+  ],
+  "limits": [
+    "The current skill reference's numeric damage statement is not promoted as a universal canonical combat value.",
+    "No reward probability is inferred.",
+    "The historical Ultimate-Finish discussion is retained as provenance conflict rather than converted into a canonical acquisition gate."
+  ]
+}
