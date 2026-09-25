@@ -1,3 +1,14 @@
+### 2026-09-24 cycle completion — Sudden Death Beam P1 provenance verification
+- [x] Completed **skill-batch-194 — Sudden Death Beam** with Xenoverse 2 **Super / Ki Blast / Counter Skill** classification, Goku Black (Super Saiyan Rosé) association, Super Pack 3 provenance, and Future Warrior usability.
+- [x] Revalidated current acquisition routes: **TP Medal Shop / STP Medal Shop / Double Crystal Raid Battle**.
+- [x] Preserved the distinction between the historical **170 TP Medal shop price** and the unresolved in-combat Ki cost.
+- [x] Strengthened universal-counter mechanics evidence: the documented trigger covers basic, Strike, or Ki Blast attacks; triggered activation teleports behind the opponent and fires a Ki Wave.
+- [x] Added and registered `docs/data/skill-sudden-death-beam-p1-provenance-verification-2026-09-24.json`.
+- [x] Preserved unresolved Ki/stamina cost, exact frame/hitbox, drop probability, and version-sensitive damage fields.
+- [x] Preserved the **469/469** canonical skill/index boundary; no unsupported canonical promotion was made.
+- [ ] CI success remains unverified; no CI success claimed.
+- [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-195** using the same bounded P1 provenance workflow.
+
 ### 2026-09-24 cycle completion — Change The Future P1 provenance verification
 - [x] Completed **skill-batch-193 — Change The Future** with Xenoverse 2 **Super / Ki Blast / Counter Skill** classification, **100 Ki**, Future Warrior availability, and **PQ43 — Change the Future** acquisition.
 - [x] Confirmed the skill is a **Basic Reward** on PQ43; no Ultimate Finish requirement was invented.
