@@ -1119,3 +1119,14 @@
 - [ ] CI success remains unverified; current Actions continue to expose immediate/zero-step failures.
 - [x] Sources checked: Xenoverse 2 Burst Reflection reference, Counter Skills category, Wish reference, Dragon Ball Wiki's Xenoverse 2 appearance/acquisition context, and historical GameFAQs discussion.
 - [ ] **Exact next:** continue **skill-batch-199 — Time Skip/Back Breaker** using the same bounded P1 provenance workflow; inspect live Actions first and preserve 469/469 parity.
+
+### 2026-09-24 cycle completion — Time Skip/Back Breaker P1 provenance verification
+- [x] Completed **skill-batch-199 — Time Skip/Back Breaker**.
+- [x] Revalidated **Super / Strike**, Counter Skill taxonomy, 100 Ki, Hit Lesson 1 acquisition, Future Warrior/CaC usability, and Super Pack 1 context.
+- [x] Preserved instructor-training acquisition as non-PQ; `ultimate_finish_required=false` and no PQ drop probability inferred.
+- [x] Refreshed rear-counter mechanics and preserved unresolved stamina, exact frame/hitbox/range, damage, and matchup data.
+- [x] Added `docs/data/skill-time-skip-back-breaker-p1-provenance-verification-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Refreshed `docs/data/skill-research-batches/skill-batch-199.json` with `last_verified: 2026-09-24`.
+- [x] Canonical/index boundary remains **469/469**; no unsupported canonical promotion.
+- [x] Current Actions inspected: latest Repository quality and Clean internal artifacts runs fail without useful step output; Pages is currently in progress on the latest commit. No CI success is claimed.
+- [ ] **Exact next:** continue **skill-batch-200 — Time Skip/Flash Skewer** using the same bounded P1 provenance workflow.
