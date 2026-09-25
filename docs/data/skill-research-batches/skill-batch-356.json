@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 356,
+  "created": "2026-09-25",
+  "type": "evidence_reconciliation",
+  "scope": "Current Xenoverse 2 provenance refresh for Power Pole Combo.",
+  "records": [
+    {
+      "name": "Power Pole Combo",
+      "id": "skill-power-pole-combo",
+      "audit": "docs/data/skill-power-pole-combo-current-evidence-audit-2026-09-25.json"
+    }
+  ],
+  "validation": {
+    "canonical_skill_baseline": 469,
+    "index_skill_baseline": 469,
+    "duplicate_ids": 0,
+    "relationship_changes": 0,
+    "unsupported_drop_rates_promoted": 0,
+    "unsupported_gates_added": 0,
+    "source_reported_values_bounded": true,
+    "source_conflicts_preserved": true
+  }
+}
