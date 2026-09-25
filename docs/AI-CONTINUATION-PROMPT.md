@@ -25,3 +25,11 @@
 - [x] Registered Batch 339 in `docs/data/pq-cross-domain-index.json`; no canonical relationship or identity was changed and no numeric drop rates were inferred.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] **Exact next:** continue the remaining source-backed P1 provenance/data queue with the next partially verified or under-enriched canonical record; avoid redoing the exhausted thin-domain cost queue.
+
+
+### 2026-09-25 cycle completion — Canonical skill provenance normalization
+- [x] Promoted **Ice Cannon** from partially verified to `verified_current_scope` after confirming current Xenoverse 2-specific evidence directly supports its 300-Ki Ki Blast Ultimate classification, Shenron-wish acquisition, CaC availability, and freezing behavior.
+- [x] Normalized **x10 Kamehameha** `source_quest_or_shop` to the canonical `Goku mentor training — Lesson 2` spelling; no semantic acquisition change.
+- [x] Preserved unresolved reward-frequency/prerequisite details and made no unsupported mechanics claims.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** continue the remaining under-enriched canonical skill provenance queue, prioritizing records where current Xenoverse 2-specific evidence can promote an actual field rather than repeating closed audits.
