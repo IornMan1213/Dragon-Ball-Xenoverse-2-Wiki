@@ -41,7 +41,7 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-25",
-  "latest_research_batch": 336,
+  "latest_research_batch": 337,
   "canonical_catalog_generated": "2026-09-14",
   "canonical_sync_pending": false,
   "current_research_focus": "Source-backed P1 skill provenance enrichment and deterministic current-consumer parity after the 470/470 baseline",
@@ -141,7 +141,8 @@
     "2026-09-25: Added Skill Research Batch 334 for Super Destructo-Disc (EM04), Supernova (EM06), Death Meteor (EM07), and Dead End Bullet (EM08). Current skill references support the listed mission endpoints and Ki costs; independent corroboration was added without promoting drop rates or first-clear guarantees.",
     "2026-09-25: Added Skill Research Batch 335 for Assault Rain (EM09), Hellzone Grenade (EM10), Super Electric Strike (EM11), and Angry Explosion (EM12). Current Xenoverse 2 skill documentation and independent mission/reward evidence support the listed endpoints and Ki costs; no drop rate or first-clear guarantee was promoted.",
     "2026-09-25: Batch 336 resolved the EM17 reward-name research boundary for Spirit Sword. Current Xenoverse 2 skill/mission references, Dragon Ball reference material, and contemporaneous Steam evidence identify Spirit Sword as the EM17 reward; an older all-Expert-Missions guide's Spirit Bomb label is preserved as historical conflicting evidence. No drop probability, first-clear guarantee, or canonical reconstruction was introduced.",
-    "2026-09-25: Corrected stale top-level current skill-catalog metadata from 455 / 2026-09-23 to the live 470 / 2026-09-25 canonical-index baseline. The nested 454 value remains preserved as historical verification-state data; no skill identity, relationship, or acquisition data changed."
+    "2026-09-25: Corrected stale top-level current skill-catalog metadata from 455 / 2026-09-23 to the live 470 / 2026-09-25 canonical-index baseline. The nested 454 value remains preserved as historical verification-state data; no skill identity, relationship, or acquisition data changed.",
+    "2026-09-25: Batch 337 reconciled the Lightning Impact internal variant boundary. Xenoverse 2 evidence distinguishes short ID 1100 as the CaC-usable/player variant and short ID 1103 as a separate CaC-unusable/cast variant sharing the display name. The existing canonical skill-lightning-impact remains the PQ142 player identity; no duplicate canonical skill was created and no PQ relationship was changed."
   ],
   "partially_verified_count": 0,
   "verified_count": 205,
