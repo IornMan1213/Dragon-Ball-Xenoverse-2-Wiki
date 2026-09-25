@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 336,
+  "created": "2026-09-25",
+  "type": "evidence_reconciliation",
+  "scope": "Expert Mission 17 Spirit Sword reward identity conflict resolution",
+  "records": [
+    {
+      "name": "Spirit Sword",
+      "id": "skill-spirit-sword",
+      "classification": "Ultimate",
+      "subcategory": "Strike",
+      "cast_only": false,
+      "evidence": [
+        "Current Xenoverse 2 skill documentation identifies Spirit Sword as a Strike Ultimate, 400 Ki, unlocked from Expert Mission 17 — In the Realm of the Gods: Goku.",
+        "The current Xenoverse 2 Expert Mission list independently identifies EM17 as rewarding Spirit Sword.",
+        "Dragon Ball reference material independently states that in Xenoverse 2 Spirit Sword is obtained by the Future Warrior as a reward in Expert Mission 17.",
+        "A launch-era Steam discussion explicitly distinguishes Super Spirit Bomb as EM16 and Spirit Sword as EM17, providing contemporaneous acquisition corroboration.",
+        "An independent Expert Mission guide contains an EM17 Spirit Bomb naming line; this is retained as historical conflicting evidence rather than promoted over the direct Spirit Sword evidence."
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Spirit_Sword",
+        "https://dbxv2.fandom.com/wiki/Expert_Mission",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://dragonball.fandom.com/wiki/Spirit_Sword",
+        "https://steamcommunity.com/app/454650/discussions/0/276237094323595262/",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "https://en.paperblog.com/unlock-all-expert-missions-xenoverse-2-6883431/",
+        "https://www.youtube.com/watch?v=wlH_bwL3FY8"
+      ],
+      "promoted_fields": {
+        "expert_mission": 17,
+        "mission_title": "In the Realm of the Gods: Goku",
+        "reward_tier": "Basic Reward",
+        "ki_used": 400,
+        "reward_identity": "Spirit Sword"
+      },
+      "limits": [
+        "No numerical drop probability or first-clear guarantee is inferred.",
+        "The older all-Expert-Missions guide's EM17 Spirit Bomb label is preserved as historical source conflict; it is not treated as the current reward identity because multiple direct/current and contemporaneous sources identify Spirit Sword.",
+        "No canonical skills.json or skills-index.json reconstruction/promotion was performed; the existing canonical Spirit Sword identity and Strike Ultimate taxonomy are unchanged."
+      ]
+    }
+  ],
+  "validation": {
+    "records": 1,
+    "canonical_promotion": false,
+    "relationship_changes": 0,
+    "reward_identity_conflicts_resolved": 1,
+    "numeric_drop_rates_promoted": 0,
+    "guarantees_promoted": 0,
+    "canonical_skill_baseline": 470,
+    "index_skill_baseline": 470
+  },
+  "evidence_boundary": "Batch 336 resolves the EM17 reward-name research boundary in favor of the already-canonical Spirit Sword identity using current Xenoverse 2 skill/mission references plus independent corroboration. The contradictory historical EM17 Spirit Bomb label remains documented as source history; no drop probability, guarantee, or unsupported canonical rewrite is introduced."
+}
