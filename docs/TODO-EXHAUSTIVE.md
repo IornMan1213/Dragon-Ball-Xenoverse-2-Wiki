@@ -7957,3 +7957,13 @@
 - [x] Preserved unresolved CaC, drop-rate, frame-data, and version-sensitive damage boundaries; no unsupported canonical promotion.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** continue Batch 311 with Spirit Ball, Death Meteor, and Minus Energy Power Ball using direct Xenoverse 2 evidence.
+
+
+### 2026-09-24 cycle completion — Batch 311 remaining three-skill evidence reconciliation
+- [x] Spirit Ball enriched: 300 Ki, Yamcha Lesson 3, controllable/tracking Ki Blast projectile.
+- [x] Death Meteor enriched: 300 Ki, EM7 acquisition; corrected to Strike classification rather than forcing Ki Blast taxonomy.
+- [x] Minus Energy Power Ball enriched: 500 Ki, Guru-expanded Shenron wish, 39-hit long-range Ki Blast.
+- [x] Added and registered the remaining Batch 311 evidence audit.
+- [x] JSON validation completed; unsupported drop/CaC/frame/damage claims preserved as unresolved.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** inspect the remaining unfinished research census and continue the next deterministic partially verified tranche after Batch 311.
