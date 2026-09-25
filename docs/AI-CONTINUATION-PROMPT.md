@@ -830,3 +830,16 @@
 - [x] Validation: changed JSON parsed successfully; canonical/index parity remains **469/469**.
 - [ ] CI success remains unverified; no CI success claimed.
 - [ ] **Exact next:** continue **skill-batch-175.json — Smile Charge** using the same bounded provenance workflow, with live canonical evidence checked first.
+
+
+### 2026-09-24 cycle completion — Smile Charge P1 provenance verification
+- [x] Live canonical census remains **469** skill records; Smile Charge is absent from the current canonical index, so no unsupported promotion was attempted.
+- [x] Completed bounded research batch **skill-research-batches/skill-batch-175.json — Smile Charge**.
+- [x] Revalidated Xenoverse 2 **Super / Strike**, **100 Ki**, and **CaC-unavailable** status using current Xenoverse 2-specific skill documentation.
+- [x] Reconciled the character/customization endpoint: Android 17 has Smile Charge in a preset; Android 17 (DB Super) exposes Smile Charge through Partner Customization after Customization Unlock Key 8 unlocks that partner, where the skill can be purchased.
+- [x] Strengthened mechanics evidence: grab, rush, single-hit, mid-range, knockback; Strike-class damage despite the Ki-wave visual component.
+- [x] Added `docs/data/skill-smile-charge-p1-provenance-verification-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved evidence limits: stamina, exact frame/hitbox/damage values, and any Ultimate Finish requirement remain unresolved; historical PQ/Official History references remain context only.
+- [x] Validation: changed JSON records parsed; canonical/index baseline remains **469/469**; no canonical mutation was made.
+- [ ] CI success remains unverified; no CI success claimed.
+- [ ] **Exact next:** continue **skill-research-batches/skill-batch-176.json — Mach Punch** using the same bounded P1 provenance workflow, with live canonical evidence checked first.
