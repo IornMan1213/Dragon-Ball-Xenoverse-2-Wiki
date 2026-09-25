@@ -2107,3 +2107,14 @@
 - [ ] CI remains unverified; no successful Actions result is claimed.
 - [ ] Historical 469/174 artifacts remain untouched where their dated scope makes them historical evidence.
 - [ ] **Exact next:** continue the current producer/consumer census using live canonical source counts (**470 skills / 173 equipment-accessory / 152 characters**) and prioritize the next deterministic cross-domain mismatch; do not treat historical 469/174 snapshots as current baselines.
+
+
+### 2026-09-25 cycle completion — Equipment/accessory domain-layer semantics audit
+- [x] Reconciled the apparent 173/174 discrepancy by auditing actual layer semantics rather than changing counts again.
+- [x] Direct current parse: docs/data/equipment-accessories-record-layer.json = **173 records / 173 unique IDs**.
+- [x] Separate projections confirmed: equipment-record-layer.json = **138** legacy/normalized equipment records; legacy acc-### accessory projection = **74**; newer accessory reconciliation layer = **116**; authoritative PQ equipment graph = **124 forward edges / 122 unique targets**.
+- [x] Documented that these layers are not arithmetically additive. Dated enrichment artifacts containing 174 are historical/contextual and are not evidence that the current merged presentation layer has 174 records.
+- [x] Added and registered docs/data/equipment-accessory-domain-layer-semantics-audit-2026-09-25.json.
+- [x] Validation: new audit and cross-domain registry parse successfully; **0 relationship edges changed / 0 identities created / 0 acquisition routes inferred / 0 historical artifacts rewritten**.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the current producer/consumer parity queue using explicit layer semantics; prioritize a genuinely current one-way endpoint mismatch or source-backed thin-domain enrichment rather than another scalar-only equipment recount.
