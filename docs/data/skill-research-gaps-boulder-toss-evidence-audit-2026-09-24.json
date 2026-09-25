@@ -25,6 +25,11 @@
       "type": "current_web_verification",
       "claim": "Current Xenoverse 2 quest documentation independently shows Boulder Toss on Great Ape Nappa/Vegeta and identifies it as a Great Ape Super Attack.",
       "source": "https://dbxv2.fandom.com/wiki/Great_Ape_Festival"
+    },
+    {
+      "type": "xenoverse2_expert_mission",
+      "claim": "Expert Mission 3 — Assault of the Great Ape lists Boulder Toss in Great Ape Nappa's active moveset, independently confirming its use in current Xenoverse 2 mission content.",
+      "source": "https://videogaming.fandom.com/wiki/Assault_of_the_Great_Ape"
     }
   ],
   "resolved_fields": {
