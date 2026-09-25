@@ -7489,3 +7489,10 @@
 - [x] Refreshed `docs/data/skill-research-batches/skill-batch-203.json` to 2026-09-24 and preserved unresolved exact frame/hitbox, stamina, probability, and matchup evidence.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-204** using the bounded P1 provenance workflow.
+
+
+### 2026-09-24 TODO completion — Counter Impact taxonomy reconciliation
+- [x] Completed **skill-batch-204**.
+- [x] Counter Impact taxonomy correction verified: **Super / Ki Blast / Counter Skill**, subtype unresolved/null.
+- [x] Refreshed verification to **2026-09-24** and registered batch 204 in the cross-domain index.
+- [ ] **Next:** inspect and process **skill-batch-205**.
