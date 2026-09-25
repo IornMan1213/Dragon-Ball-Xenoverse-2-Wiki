@@ -8121,3 +8121,13 @@
 - [x] Preserved unresolved reward probabilities, shop pricing/rotation, exact frame data, version-sensitive damage, and unsupported narrower restrictions.
 - [ ] CI remains unverified; no successful Actions result is claimed.
 - [ ] **Next:** recompute the live Ki Blast Super catalog and select the next 4–12 existing partially verified records after Batch 321, excluding Batches 316–321 and using direct current Xenoverse 2 evidence only where it can materially resolve fields.
+
+
+### 2026-09-25 — TODO completion update — Batch 322 Death Wave / Murder Grenade
+- [x] Recomputed the post-Batch-321 Ki Blast Super scope; only **Death Wave** and **Murder Grenade** remained as existing `partially_verified` records, so the batch intentionally contains 2 rather than inventing additional targets.
+- [x] Added `docs/data/skill-research-batches/skill-batch-322.json` and `docs/data/skill-batch-322-death-wave-murder-grenade-evidence-refresh-2026-09-25.json`.
+- [x] Registered Batch 322 in `docs/data/pq-cross-domain-index.json`.
+- [x] Confirmed EM5/Death Wave and EM3/Murder Grenade current Basic Reward endpoints; preserved unresolved exact drop/guarantee semantics and did not infer first-clear guarantees.
+- [x] JSON validation passed for all changed research/audit/index files.
+- [ ] CI remains unverified.
+- [ ] **Next:** recompute the live Ki Blast Super catalog and continue with the next research-incomplete records after Batch 322, excluding Batches 316–322.
