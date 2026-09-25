@@ -97,19 +97,19 @@
       "character_source": "Zamasu",
       "dlc_requirement": null,
       "ki_cost": null,
-      "stamina_cost": null,
-      "damage_type": "Other",
+      "stamina_cost": 300,
+      "damage_type": "Strike",
       "unlock_method": "Parallel Quest 73 — Frieza's Siege Against Earth!",
       "source_quest_or_shop": "Parallel Quest 73",
       "ultimate_finish_required": null,
-      "skill_description": "An evasive teleportation technique that repositions the user.",
-      "mechanics_notes": "Current skill data and the character-ID reference classify Psychic Move as an Evasive skill usable by CaCs. The accessible sources used here do not establish a sufficiently reliable stamina cost, so it remains unresolved.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
+      "skill_description": "Teleport behind the opponent and create a short-range shockwave that knocks them away.",
+      "mechanics_notes": "Current Xenoverse 2-specific skill documentation classifies Psychic Move as a 300-Stamina Strike Evasive. It teleports the user behind the opponent and creates a short-range shockwave that deals approximately 5% damage and knocks the opponent away. Independent player reports support that PQ73 completion does not guarantee the skill and that repeated Ultimate Finishes can still fail to award it; no numeric drop probability or Ultimate-Finish-only gate is inferred.",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Psychic_Move",
-        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
+        "https://gamefaqs.gamespot.com/xboxone/204216-dragon-ball-xenoverse-2/answers/616970-how-to-get-psychic-move",
+        "https://www.reddit.com/r/dbxv/comments/cglr5j/do_i_have_to_get_an_ultimate_finish_in_order_to_obtain_the_skill_psychic_move/"
       ]
     },
     {
