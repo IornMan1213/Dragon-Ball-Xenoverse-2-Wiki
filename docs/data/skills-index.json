@@ -7279,20 +7279,22 @@
       "name": "Neo Wolf Fang Fist",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "verified",
-      "research_status": "verified",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Neo_Wolf_Fang_Fist",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74515401",
+        "https://steamcommunity.com/app/454650/discussions/0/1697168437858553062"
       ],
       "unlock_method": "Parallel Quest 86 — Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-23 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "A continuable rushdown Strike Super: the user spin-kicks into a clawing barrage and continues attacking while the input is held, ending by knocking the opponent away. Current documentation lists a variable 100–700 Ki cost and 9–33 hits; community testing independently observes increased damage as more Ki is held. The canonical fixed 100-Ki value has been removed rather than falsely retaining a single cost; the game mechanic is variable by held Ki. PQ86 remains the acquisition route. 2026-09-21 cost verification: dedicated Xenoverse 2 skill documentation lists 100–700 Ki depending on continued input/charge; the variable cost is preserved rather than normalized to a fixed value.",
+      "notes": "2026-09-25 current-evidence promotion: current Xenoverse 2-specific documentation confirms the variable 100–700 Ki Strike Super and 9–33 hit continuable rush. Independent reward documentation corroborates PQ86 as the acquisition endpoint. Historical reports about older resource behavior are preserved as provenance; no unsupported drop probability or hidden Ultimate-Finish gate is inferred.",
+      "mechanics_notes": "A continuable rushdown Strike Super: the user spin-kicks into a clawing barrage and continues attacking while the input is held, ending by knocking the opponent away. Current documentation lists a variable 100–700 Ki cost and 9–33 hits, with up to 40% documented full-sequence damage. PQ86 remains the acquisition route; exact reward probability remains unresolved.",
       "source_quest": 86,
       "source_quest_or_shop": "Parallel Quest 86 — \"Yamcha is Number One\"",
       "source_parallel_quests": [
