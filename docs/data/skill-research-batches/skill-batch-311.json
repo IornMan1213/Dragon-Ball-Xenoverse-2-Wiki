@@ -8,13 +8,13 @@
       "name": "Blue Hurricane",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "ki_cost": null,
+      "ki_cost": 300,
       "usable_by_cac": null,
-      "character_source": "Gogeta (Super Saiyan)",
+      "character_source": "Burter",
       "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Rapidly spinning aerial Ki Blast attack.",
+      "unlock_method": "Expert Mission 15 — \"Extreme Malice!\" Basic Reward",
+      "ultimate_finish_required": false,
+      "effect": "Rapidly spinning aerial Ki Blast attack; current documentation describes a large twister that can be moved with the control stick.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-all-ultimate-attacks/"
@@ -24,13 +24,13 @@
       "name": "Assault Rain",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "ki_cost": null,
+      "ki_cost": 300,
       "usable_by_cac": null,
-      "character_source": "Majin Buu (Gohan Absorbed)",
+      "character_source": "Super Buu",
       "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Wide-area barrage of falling Ki blasts.",
+      "unlock_method": "Expert Mission 9 — \"The Most Feared Majin\" Basic Reward",
+      "ultimate_finish_required": false,
+      "effect": "Wide-area barrage of falling Ki blasts; current documentation describes tracking, long-range, 10-hit behavior.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-all-ultimate-attacks/"
@@ -85,5 +85,5 @@
       ]
     }
   ],
-  "notes": "Only class/subcategory and user identity were promoted where the retrieved taxonomy supports them. Numeric Ki costs, CaC availability, DLC and acquisition are left null rather than inferred. This deliberately favors a smaller verified identity layer over filling uncertain metadata."
+  "notes": "Batch 311 evidence refresh corrected Blue Hurricane character attribution from the stale Gogeta entry to Burter, established 300 Ki and EM15 Basic Reward provenance, and established Assault Rain at 300 Ki with Super Buu provenance and EM9 Basic Reward provenance. CaC availability, drop probability, exact frame data, and version-sensitive damage remain unresolved."
 }
