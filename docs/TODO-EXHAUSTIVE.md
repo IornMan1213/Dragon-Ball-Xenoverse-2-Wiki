@@ -8397,3 +8397,11 @@
 - [x] Registered the batch and advanced the skill audit to **329**; JSON readback passed.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the remaining evidence-backed thin skill-gap queue, seeking new resolvable fields rather than repeating unsupported Ki-cost searches.
+
+
+### 2026-09-25 cycle completion — Skill research Batch 330: Energy Boil
+- [x] Added the Energy Boil evidence refresh and reconfirmed Evasive / Final Form Demigra / CaC-unavailable / IDs 10540/540.
+- [x] Preserved unresolved attack subcategory and numeric Ki cost; no unsupported value was promoted.
+- [x] Registered Batch 330 and advanced the skill audit to **330**; JSON readback passed.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue only with a genuinely new evidence-backed skill field, otherwise return to deterministic current-facing parity scanning.
