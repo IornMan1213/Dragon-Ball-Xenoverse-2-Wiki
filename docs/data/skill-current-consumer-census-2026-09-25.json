@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-25",
+  "scope": "Second-pass current-facing skill-count consumer census after live 470-record canonical/index baseline.",
+  "source_of_truth": [
+    "docs/data/skills.json",
+    "docs/data/skills-index.json"
+  ],
+  "repaired_consumers": [
+    "docs/data/pq-endpoint-navigation-current-audit-2026-09-24.json",
+    "docs/data/skill-acquisition-cross-domain-endpoint-audit-2026-09-24.json",
+    "docs/data/homepage-current-consumer-audit-2026-09-24.json",
+    "docs/data/skill-shop-endpoints.json",
+    "docs/data/mentor-skill-coverage-report.json"
+  ],
+  "validation": {
+    "live_canonical_skill_records": 470,
+    "live_index_skill_records": 470,
+    "current_consumer_count_repairs": 5,
+    "relationship_edges_changed": 0,
+    "acquisition_routes_inferred": 0,
+    "historical_snapshot_files_rewritten": 0,
+    "status": "pass"
+  },
+  "notes": [
+    "These five files contained current-facing scalar/count assertions tied to the superseded 469-record baseline.",
+    "Historical per-batch artifacts retaining 469 are intentionally preserved as dated evidence and were not treated as current consumers.",
+    "No canonical skill identity, relationship, reward probability, or gameplay field was changed."
+  ],
+  "next_gate": "Resume deterministic non-PQ reverse/navigation parity scanning after the current 469/470 scalar census."
+}
