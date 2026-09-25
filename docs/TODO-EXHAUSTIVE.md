@@ -8413,3 +8413,11 @@
 - [x] Registered the artifact; JSON validation passed.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue current-facing reverse/navigation consumer scanning for the next real mismatch.
+
+
+### 2026-09-25 cycle completion — unified reverse-index live scalar correction
+- [x] Corrected the explicitly current `live_exact_reconciliation` block in `docs/data/pq-reward-normalization/pq-unified-reverse-index-audit.json` from superseded **854 / 146 Super Soul** to authoritative **853 / 145**.
+- [x] Added/registered `docs/data/pq-unified-reverse-index-live-scalar-correction-2026-09-25.json`.
+- [x] Preserved historical 854/146 snapshots and made **0 relationship / 0 canonical-ID / 0 acquisition-route** changes.
+- [x] JSON validation passed after write; CI remains unverified/unavailable.
+- [ ] **Exact next:** continue exact-pair parity scanning of remaining reverse/navigation projections for another explicitly current stale scalar.
