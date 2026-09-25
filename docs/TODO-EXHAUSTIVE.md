@@ -403,3 +403,12 @@
 - [ ] Canonical/index fields were intentionally not rewritten because the generated `skills.json` cannot be safely reconstructed through the connector for a complete synchronized write.
 - [ ] CI remains unverified.
 - [ ] **Next:** continue the source-backed P1 provenance queue after Justice, then synchronize Batch 348 canonical/index projections once a safe complete write path is available.
+
+
+### 2026-09-25 completion — Batch 348 synchronization + Skill Batch 349 Kai enrichment
+- [x] Corrected the live baseline from stale historical 470 claims to **469 canonical / 469 index / 0 duplicates** using direct canonical blob retrieval.
+- [x] Synchronized Batch 348's four Justice records into both canonical and index layers with `last_verified: 2026-09-25` and enriched mechanics notes.
+- [x] Added and registered Batch 349 audits for **Kai Kai, Kaioken, Kaioken Kamehameha, Kairos Cannon** and synchronized all four canonical/index records.
+- [x] Validation: 469/469 parity, identical ID sets, 0 duplicates, eight current targets synchronized.
+- [ ] CI remains unverified.
+- [ ] **Next:** continue after Kairos Cannon with the next shallow/low-evidence K records; keep canonical/index parity at 469 and use bounded evidence-backed mechanics/provenance updates.
