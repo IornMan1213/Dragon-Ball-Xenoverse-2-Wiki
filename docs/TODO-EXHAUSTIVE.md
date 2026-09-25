@@ -7833,3 +7833,12 @@
 - [x] No unsupported acquisition or canonical promotion was introduced.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** continue with Batch 302 and resolve only directly supported missing fields.
+
+### 2026-09-24 — TODO completion update — Batch 302 verification
+- [x] Verified Batch 302 Energy Cannon and Darkness Mixer against current Xenoverse 2-specific evidence.
+- [x] Confirmed Darkness Mixer remains an Other Super, Crystal Raid-capable, and normally unavailable to CaCs; numeric Ki cost remains unresolved.
+- [x] Preserved Energy Cannon as a Ki Blast Super for Demon God Demigra; no unsupported cost or acquisition endpoint was added.
+- [x] Refreshed skill-batch-302.json with the evidence boundary.
+- [x] No unsupported canonical promotion was introduced.
+- [ ] CI success remains unverified.
+- [ ] Exact next: continue with Batch 303 and resolve only directly supported missing fields.
