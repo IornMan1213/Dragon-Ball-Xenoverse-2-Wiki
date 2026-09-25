@@ -7571,3 +7571,11 @@
 - [x] Validation remains **469/469** canonical/index with **0 duplicate IDs**.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** inspect current Actions state, then process **skill-batch-219**.
+
+
+### 2026-09-24 — TODO completion update — Batches 219–220
+- [x] Refreshed **skill-batch-219** nine Fighting Pose records and **skill-batch-220** remaining Power Up Super records.
+- [x] Preserved evidence-bounded acquisition and Ultimate Finish fields; no historical cross-game source was promoted over current Xenoverse 2 evidence.
+- [x] Validation remains **469/469** canonical/index with **0 duplicate IDs**.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** inspect current Actions state, then process **skill-batch-221**.
