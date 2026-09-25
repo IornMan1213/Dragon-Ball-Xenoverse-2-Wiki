@@ -442,3 +442,16 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Final cross-domain registration commit: **11c8f5478e6f604cb8ea8e7961abbc81f9f70541**.
 - [x] **Verified-frontier milestone complete.** Next work should begin with a fresh live census of the broader enriched corpus and choose the highest-impact remaining TODO, prioritizing deterministic cross-database/linkage/validation gaps and then deeper mechanics/provenance enrichment.
+
+
+### 2026-09-25 cycle update — Skill Batch 347 current-evidence refresh (Gorgeous Shot / Grand Smasher / Gravity Impact / Hawk Charge)
+
+- [x] Read the live handoff, efficiency addendum, and exhaustive TODO before selecting work; continued the alphabetical enriched-corpus provenance stream recorded after Batch 346.
+- [x] Added dedicated current-evidence audits for **Gorgeous Shot**, **Grand Smasher**, **Gravity Impact**, and **Hawk Charge** under `docs/data/`.
+- [x] Added `docs/data/skill-research-batches/skill-batch-347.json` as an evidence-refresh batch and registered the batch plus all four audits in `docs/data/pq-cross-domain-index.json`.
+- [x] Evidence refresh: Gorgeous Shot is corroborated as Zarbon's 100-Ki Ki Blast Super with the Lesson 1 mentor endpoint and overhead/close-range beam behavior; Grand Smasher as Bojack's 300–400-Ki Ki Blast Ultimate with the additional-input 100-Ki unblockable detonation; Gravity Impact as Cell (Perfect)'s 100-Ki Ki Blast Super with Ki-Blast cancellation and long knockback; Hawk Charge as Gohan & Videl's Strike Super with the 100-Ki base route and documented 200-Ki Gohan (DBS Super Hero) variant.
+- [x] Preserved evidence boundaries: no unsupported reward probabilities, hidden gates, universal damage values, or variant-specific mechanics were generalized beyond the cited evidence.
+- [x] Validation: all four audit JSON files, Batch 347, and the cross-domain index parse successfully; registrations resolve to the new files. The live `docs/data/skills-index.json` currently contains **469** records, while the large canonical `docs/data/skills.json` could not be safely read through the connector in this cycle, so **canonical/index parity is not claimed** and no canonical projection was falsely marked updated.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Commits: `8c6f3873d424be588e0f7ba44789d78389190e28`, `4f59140b4f3386667a14db3e4f91a30eb670cd33`, `3963b079bc020e74af77a648bdaa8b42c26a6b6c`, `4e069717b830099e3326900f665f07df8fddc6c6`, `32ce76057fc3d6c6c8eaaecddb40ba39f7b142f5`, `d5f499d18e544aa1622f8810b71c242789eb352e`, `03d531ff7f1fe4f62c8867108f5ce521dc2d3d6d`, `b3f5e3de867599ebc9b8e8751dc91e6701b0a102`.
+- [ ] **Exact next:** resolve the live canonical/index baseline discrepancy safely before claiming further canonical promotions, then continue the next alphabetical enriched-corpus provenance targets after **Hawk Charge**. If the canonical 470 baseline is confirmed, synchronize the four refreshed records to `last_verified: 2026-09-25` without altering their existing identities or relationships.
