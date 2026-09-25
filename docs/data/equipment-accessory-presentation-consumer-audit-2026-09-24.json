@@ -8,7 +8,7 @@
   ],
   "consumer": "docs/Equipment-All.html",
   "counts": {
-    "record_layer_records": 174,
+    "record_layer_records": 173,
     "canonical_equipment_edges": 124,
     "unique_canonical_equipment_targets": 122,
     "unresolved_targets": 0,
