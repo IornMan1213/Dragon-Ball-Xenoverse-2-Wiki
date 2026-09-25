@@ -3124,3 +3124,12 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Refreshed research batch 201 with current Xenoverse 2 identity, Hit Lesson 2 acquisition, 100 Ki, Strike/Counter taxonomy, Super Pack 1 context, and forward-rush mechanics.
 - Added and registered the Time Skip/Jump Spike provenance audit.
 - Preserved unresolved numeric/frame evidence and the 469/469 canonical boundary.
+
+
+## 2026-09-24 — Ultrasonic Blitz P1 provenance refresh
+
+- Revalidated Ultrasonic Blitz as a 100-Ki Strike Super / Melee Counter from current Xenoverse 2 evidence.
+- Revalidated PQ151 — Even Further Beyond, Basic Reward semantics, Future Warrior usability, and Conton City Vote Pack context.
+- Added and registered `docs/data/skill-ultrasonic-blitz-p1-provenance-verification-2026-09-24.json`.
+- Refreshed `docs/data/skill-research-batches/skill-batch-202.json` while preserving unresolved counter frames, hitboxes, current damage, stamina cost, and drop probability.
+- Canonical/index parity remains 469/469; CI success remains unverified because current Actions failures expose no usable workflow steps/logs.
