@@ -1186,3 +1186,12 @@
 - [x] Web cross-check: current Xenoverse 2 Demon Flash Strike page and Counter Skill taxonomy corroborate Strike Super / Melee Counter classification, PQ160 acquisition, 100 Ki, and mechanics; community/GameFAQs evidence was used only for the historical behavior/fix context. citeturn0search1turn0search3turn0search9
 - [ ] CI success remains unverified; no unsupported CI conclusion made.
 - [ ] **Exact next:** inspect current Actions state, then continue with **skill-batch-204** using the same bounded P1 provenance workflow and preserve current 465/465 parity.
+
+
+### 2026-09-24 continuation — Counter Impact correction completed
+- [x] Completed **skill-batch-204 — Counter Impact taxonomy reconciliation**.
+- [x] Verified the correction: Counter Impact remains **Super / Ki Blast / Counter Skill**, while `counter_subtype` remains **null** because current subtype evidence does not assign it to Melee, Ki, or Universal Counter.
+- [x] Refreshed `last_verified` to **2026-09-24** and changed verification status to `corrected_verified`.
+- [x] Registered batch 204 in `docs/data/pq-cross-domain-index.json` under `skill_counter_impact_taxonomy_reconciliation_2026_09_24`.
+- [x] No unsupported subtype or canonical identity was fabricated.
+- [ ] **Exact next:** continue with **skill-batch-205**, inspecting its live contents before editing.
