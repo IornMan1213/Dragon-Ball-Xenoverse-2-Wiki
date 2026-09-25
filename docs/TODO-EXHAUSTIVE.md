@@ -7563,3 +7563,11 @@
 - [x] Validation remains **469/469** canonical/index with **0 duplicate IDs**.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** inspect current Actions state, then process **skill-batch-218**.
+
+
+### 2026-09-24 — TODO completion update — Batch 218
+- [x] Refreshed **skill-batch-218** Fighting Pose K audit with current Xenoverse 2 acquisition and mechanics evidence.
+- [x] Preserved current Skill Shop acquisition and avoided substituting historical PQ39/cross-game references.
+- [x] Validation remains **469/469** canonical/index with **0 duplicate IDs**.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** inspect current Actions state, then process **skill-batch-219**.
