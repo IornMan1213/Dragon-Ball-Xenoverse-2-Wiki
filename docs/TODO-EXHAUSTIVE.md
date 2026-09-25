@@ -7510,3 +7510,10 @@
 - [x] Refreshed verification to **2026-09-24** and registered the audit in the cross-domain index.
 - [x] Preserved null Ultimate Finish handling for the non-PQ mentor route.
 - [ ] **Next:** process **skill-batch-207 — Reverse Mabakusenko**.
+
+
+### 2026-09-24 TODO completion — Reverse Mabakusenko
+- [x] Completed **skill-batch-207** and verified the existing classification/acquisition fields.
+- [x] Refreshed verification to **2026-09-24** and registered the audit in the cross-domain index.
+- [x] Preserved null Ultimate Finish handling for the Skill Shop route.
+- [ ] **Next:** process **skill-batch-208 — Super Afterimage and God Breaker**.
