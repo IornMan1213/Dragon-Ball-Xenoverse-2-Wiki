@@ -852,3 +852,17 @@
 - [x] Direct changed-file validation still passes for the Smile Charge batch/audit/index edits: JSON parses, no citation/export artifact markers were introduced into those changed research files, and canonical/index remains **469/469**.
 - [ ] CI success remains unverified.
 - [ ] **Exact next remains:** continue **skill-batch-176 — Mach Punch**; do not weaken artifact checking or infer canonical data from the zero-step failure.
+
+
+### 2026-09-24 cycle completion — Mach Punch P1 provenance verification
+- [x] Live canonical census remains **469**; Mach Punch was not promoted because the supported builder/runtime boundary remains unavailable.
+- [x] Completed **skill-research-batches/skill-batch-176.json — Mach Punch**.
+- [x] Revalidated Xenoverse 2 **Super / Strike**, **100 Ki**, Future Warrior availability, and **PQ19 — Fierce Battle! Ginyu Force** acquisition against current Xenoverse 2-specific documentation and independent PQ evidence.
+- [x] Confirmed PQ19 lists Mach Punch as a **Basic Reward**; no Ultimate Finish dependency was inferred.
+- [x] Confirmed Captain Ginyu and Jiren Partner Customization availability as later endpoints.
+- [x] Strengthened mechanics: short-range rapid punch rush, 7-hit/knock-away characterization, and Space Mach Attack combination with Mach Kick.
+- [x] Added `docs/data/skill-mach-punch-p1-provenance-verification-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved evidence limits: stamina, exact frame/tracking/hitbox/damage values remain null/unpromoted.
+- [x] Validation: changed JSON parsed successfully; canonical/index parity remains **469/469**.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** continue the next deterministic research batch after 176 using the same bounded provenance workflow; inspect the next batch file before changing any canonical data.
