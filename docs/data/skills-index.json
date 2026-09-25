@@ -2116,18 +2116,22 @@
       "name": "Death Meteor",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "acquisition_reconciled",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
       "acquisition_type": "expert_mission",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Death_Meteor"
+        "https://dbxv2.fandom.com/wiki/Death_Meteor",
+        "https://dragonball.fandom.com/wiki/Death_Meteor",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
       ],
       "unlock_method": "Expert Mission 7 — \"The Big Gete Star Strikes Back\"",
       "ultimate_finish_required": null,
       "last_verified": "2026-09-25",
       "race_restriction": "Not separately established in this promotion",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM07. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 parity correction: synchronized the index projection with the repository's reconciled Strike Ultimate classification. Current dedicated Xenoverse 2 skill evidence explicitly classifies Death Meteor as Strike; it is not retained under Ki Blast merely because the Expert Mission acquisition index groups it with Ki Blast records.",
-      "source_quest_or_shop": "Expert Mission 7 — \"The Big Gete Star Strikes Back\""
+      "notes": "2026-09-25 current-evidence promotion: current Xenoverse 2-specific documentation confirms Ultimate / Strike classification, 300-Ki cost, and Expert Mission 7 — The Big Gete Star Strikes Back acquisition. Basic Reward evidence is preserved; exact drop probability/guarantee remains unresolved.",
+      "source_quest_or_shop": "Expert Mission 7 — \"The Big Gete Star Strikes Back\"",
+      "ki_cost": 300,
+      "mechanics_notes": "300-Ki Strike Ultimate with tracking meteor projectiles. The user rises slightly, summons rocks, and launches them toward the opponent while an invisible barrier prevents close interruption during the skill."
     },
     {
       "id": "skill-death-psycho-bomb",
@@ -2208,18 +2212,22 @@
       "name": "Death Wave",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
-      "research_status": "acquisition_reconciled",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
       "acquisition_type": "expert_mission",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Death_Wave"
+        "https://dbxv2.fandom.com/wiki/Death_Wave",
+        "https://gamefaqs.gamespot.com/xboxone/190458-dragon-ball-xenoverse-2/answers/444805-where-can-i-find-the-super-attack-death-wave",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
       ],
       "unlock_method": "Expert Mission 5 — \"The Galactic Tyrant\"",
       "ultimate_finish_required": null,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "Not separately established in this promotion",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM05. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "source_quest_or_shop": "Expert Mission 5 — \"The Galactic Tyrant\""
+      "notes": "2026-09-25 current-evidence promotion: current Xenoverse 2-specific documentation confirms Super / Ki Blast classification, 100-Ki cost, and Expert Mission 5 — The Galactic Tyrant acquisition. Basic Reward evidence is preserved; exact drop probability/guarantee remains unresolved.",
+      "source_quest_or_shop": "Expert Mission 5 — \"The Galactic Tyrant\"",
+      "ki_cost": 100,
+      "mechanics_notes": "100-Ki Ki Blast Super that fires a long-range vertical Ki wave; current skill documentation records a single hit with knockback and about 15% documented damage."
     },
     {
       "id": "skill-demon-flash-strike",
@@ -5745,18 +5753,22 @@
       "name": "Hellzone Grenade",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
-      "research_status": "acquisition_reconciled",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
       "acquisition_type": "expert_mission",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Hellzone_Grenade"
+        "https://dbxv2.fandom.com/wiki/Hellzone_Grenade",
+        "https://dragonball.fandom.com/wiki/Hellzone_Grenade",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
       ],
       "unlock_method": "Expert Mission 10 — \"The Emperor's Worth\"",
       "ultimate_finish_required": null,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "Not separately established in this promotion",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM10. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "source_quest_or_shop": "Expert Mission 10 — \"The Emperor's Worth\""
+      "notes": "2026-09-25 current-evidence promotion: current Xenoverse 2-specific documentation confirms Ultimate / Ki Blast classification, 300-Ki cost, and Expert Mission 10 — The Emperor's Worth acquisition. Basic Reward evidence is preserved; exact drop probability/guarantee remains unresolved.",
+      "source_quest_or_shop": "Expert Mission 10 — \"The Emperor's Worth\"",
+      "ki_cost": 300,
+      "mechanics_notes": "300-Ki Ki Blast Ultimate that creates two Ki balls, surrounds the opponent with a five-hit homing barrage, and is documented at about 20% full-sequence damage."
     },
     {
       "id": "skill-hero-s-flute",
@@ -7193,18 +7205,21 @@
       "name": "Murder Grenade",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
-      "research_status": "acquisition_reconciled",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
       "acquisition_type": "expert_mission",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Murder_Grenade"
+        "https://dbxv2.fandom.com/wiki/Murder_Grenade",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
       ],
       "unlock_method": "Expert Mission 3 — \"Assault of the Great Ape\"",
       "ultimate_finish_required": null,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "Not separately established in this promotion",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM03. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
-      "source_quest_or_shop": "Expert Mission 3 — \"Assault of the Great Ape\""
+      "notes": "2026-09-25 current-evidence promotion: current Xenoverse 2-specific documentation confirms Super / Ki Blast classification, 100-Ki cost, and Expert Mission 3 — Assault of the Great Ape acquisition. Basic Reward evidence is preserved; exact drop probability/guarantee remains unresolved.",
+      "source_quest_or_shop": "Expert Mission 3 — \"Assault of the Great Ape\"",
+      "ki_cost": 100,
+      "mechanics_notes": "100-Ki Ki Blast Super. Throws a Ki ball that erupts into a pillar on contact; current documentation records about 10% damage and directional control over throw distance."
     },
     {
       "id": "skill-mystic-flash",
