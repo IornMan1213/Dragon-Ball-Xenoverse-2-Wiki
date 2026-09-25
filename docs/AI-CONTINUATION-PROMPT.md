@@ -1536,3 +1536,12 @@
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue to the next deterministic partially verified skill research batch after 296 and resolve genuinely missing fields with direct Xenoverse 2 evidence.
 
+
+### 2026-09-25 cycle completion — post-cleanup CI verification
+- [x] Live post-cleanup Actions state inspected on `26c7f897298b0b6a521b9ee82dc27b8216fbde01`: **Repository quality failed**, **Clean internal artifacts failed**, and Pages remained in progress.
+- [x] Repository artifact checker contract was re-read; it scans all Git-tracked text files for assistant citation/export markers.
+- [x] Re-fetched the handoff directly after cleanup and verified it contains no `filecite`, `memcite`, `turn0search`-style identifiers, or Unicode private-use citation delimiters.
+- [x] GitHub search indexing still returns stale historical matches for some removed identifiers, so those search results are not treated as proof of current-tree contents.
+- [x] No validator weakening or canonical skill promotion was performed.
+- [ ] CI success remains unverified because the failing jobs expose no workflow steps, runner ID, or usable logs through the available GitHub interface.
+- [ ] **Exact next:** identify the remaining current-tree artifact(s) causing the post-cleanup failure using repository-visible evidence or a workflow output that becomes observable; once the artifact failure is resolved, resume the next deterministic research batch after Batch 297.
