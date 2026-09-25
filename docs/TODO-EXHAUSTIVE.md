@@ -7680,3 +7680,10 @@
 - [x] Validation remains **469/469 canonical/index**, **0 duplicate IDs**; no canonical reconstruction.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the next partially verified Batch 54 target with direct current evidence.
+### 2026-09-24 — TODO completion update — Drain Field reconciliation
+- [x] Reconciled Drain Field's PQ95 acquisition and Other/Super identity using current repository reward data and independent community evidence.
+- [x] Preserved the zero-cost claim as attributed community evidence rather than unsupported game-data fact; exact drop probability remains unresolved.
+- [x] Added `docs/data/drain-field-reconciliation-2026-09-24.json`.
+- [x] Validation remains **469/469 canonical/index**, **0 duplicate IDs**; no canonical reconstruction.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the next partially verified Batch 54 target.
