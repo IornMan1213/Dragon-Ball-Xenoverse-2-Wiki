@@ -572,3 +572,14 @@
 - [x] Validation: canonical/index ID parity remains **469/469**, duplicate IDs **0**, shared status/date fields synchronized for the target, and the new audit/batch registrations resolve to existing files.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** perform the fresh post-Batch-356 P1 census and continue with the next under-enriched/low-source canonical target, prioritizing a deterministic provenance gap or the next genuinely thin record rather than repeating already enriched records.
+
+### 2026-09-25 cycle completion — Skill Batch 357 P mechanics/provenance refresh
+- [x] Live pre-write baseline: **469 canonical / 469 index / 0 duplicate IDs**.
+- [x] Completed **Prepare to be Punished, Power Rush, Pretty Cannon, Pretty Charge** with current Xenoverse 2 reference checks plus maintained repository evidence.
+- [x] Refreshed all four canonical and index records to `last_verified: 2026-09-25`; no relationship identities changed.
+- [x] Added `docs/data/skill-batch-357-current-evidence-audit-2026-09-25.json` and `docs/data/skill-research-batches/skill-batch-357.json`, and registered both in the cross-domain index.
+- [x] Existing boundaries preserved: Pan Lesson 1 for Prepare to be Punished; PQ122 Ultimate Finish for Power Rush; PQ133 Basic Reward for Pretty Cannon; Ribrianne character-only Ultra Pack 1 for Pretty Charge.
+- [x] No unsupported reward probability, hidden prerequisite, new Ultimate Finish gate, frame data, exact timing, damage, or stacking cap promoted.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Commits: canonical `aa3ff1b`, index `3db7ba6`, batch `c1299f7`, audit `69ca3ed`, registry `6ba8ccd`.
+- [x] **Exact next:** perform a fresh post-Batch-357 P1 census, then continue the next genuinely under-documented P record(s), prioritizing deterministic provenance/mechanics gaps and cross-domain usefulness.
