@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-scissors-paper-rock-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Scissors Paper Rock",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Strike",
+    "ki_cost": 100,
+    "source_quest_or_shop": "Parallel Quest 65 — \"The New Warriors\"",
+    "unlock_method": "Parallel Quest 65 — Basic Reward",
+    "character_source": "Goku (GT)",
+    "mechanics": "Three selectable short-range branches: Rock performs a strike, Scissors blinds the opponent, and Paper knocks the target away; combining all three produces a three-hit sequence."
+  },
+  "limits": [
+    "Exact reward probability remains unresolved.",
+    "No Ultimate-Finish-only gate is inferred from maintained PQ65 reward evidence."
+  ],
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Scissors_Paper_Rock",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://dbxv2.fandom.com/wiki/Goku_%28GT%29"
+  ]
+}
