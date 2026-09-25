@@ -1751,3 +1751,8 @@
 - [ ] CI success remains unverified; no successful Actions result was exposed during this cycle.
 - [x] Commits: `08d569d0abbf2916b9fddd14427032cba0b987ed`, `885e95c633b3ca65a489f2de8894205668cb82c7`, `c00c56d5d7d411714e55222ce989732057bcc82a`, `a487d9d29d333e69f1fab295a9e820b4392064ed`, `9d8281859d2ef81315e121e452ac9293e7028a64`.
 - [ ] **Exact next:** continue the remaining evidence-backed residual accessory queue only where an exact current inventory endpoint can be established; otherwise return to the deterministic non-PQ/mentor consumer scan and preserve unresolved accessory identities rather than creating speculative canonical records.
+
+
+### 2026-09-24 correction — residual accessory cycle commit list
+- [x] Correction to the immediately preceding cycle entry: the `accessory-pq-research.json` update commit is **`c00c56d5d7d411714e55222ce989732057bcc82a`**. The prior entry contained a truncated/incorrect final suffix in that commit ID; no repository history is being rewritten.
+- [x] The other cycle commits remain `08d569d0abbf2916b9fddd14427032cba0b987ed`, `885e95c633b3ca65a489f2de8894205668cb7f01`, `a487d9d29d333e69f1fab295a9e820b4392064ed`, and `9d8281859d2ef81315e121e452ac9293e7028a64`.
