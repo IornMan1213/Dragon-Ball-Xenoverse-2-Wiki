@@ -643,3 +643,13 @@
 - [x] Preserved evidence boundaries: source-reported damage is bounded; no hidden probabilities, gates, frame data, or exact timing inferred.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** fresh global thin-record census and continue the shortest remaining mechanics/source footprints.
+
+
+### 2026-09-25 cycle completion — Skill Batch 363 thin mentor mechanics
+- [x] Fresh post-Batch-362 census selected the next shortest mechanics records: **Bomber DX, Break Cannon, Endless Shoot, Evil Explosion** (78-character mechanics placeholders).
+- [x] Promoted current Xenoverse 2-specific mechanics for all four: attack behavior, hit/charge behavior, documented costs, and source-reported damage where explicitly available.
+- [x] Added/registered `docs/data/skill-batch-363-thin-mentor-mechanics-audit-2026-09-25.json` and `docs/data/skill-research-batches/skill-batch-363.json`.
+- [x] Canonical/index records synchronized to `last_verified: 2026-09-25`; no acquisition or relationship identities changed.
+- [x] Evidence limits preserved: no hidden gates, probabilities, frame data, or unsupported timing claims inferred.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** fresh global thin-record census; continue the shortest remaining mechanics/source footprints, then deterministic provenance gaps.
