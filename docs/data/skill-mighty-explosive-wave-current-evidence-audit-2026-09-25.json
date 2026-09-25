@@ -1,0 +1,19 @@
+{
+  "audit_id": "skill-mighty-explosive-wave-current-evidence-audit-2026-09-25",
+  "scope": [
+    "Mighty Explosive Wave"
+  ],
+  "result": "Promoted to verified_current_scope. Current Xenoverse 2-specific documentation supports the base-game Super classification, 100-Ki cost, PQ79 endpoint, and short-range explosion mechanics.",
+  "mechanics": {
+    "classification": "Ki Blast Super",
+    "ki_cost": 100,
+    "behavior": "Short-range purple explosion around the user; documented six hits and about 10% damage.",
+    "acquisition": "Parallel Quest 79 — Great Ape Festival"
+  },
+  "reward_semantics": {
+    "status": "corroborated endpoint only",
+    "ultimate_finish_required": null,
+    "drop_probability": null,
+    "notes": "No numeric probability or hidden Ultimate-Finish gate promoted."
+  }
+}
