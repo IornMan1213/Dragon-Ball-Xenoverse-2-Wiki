@@ -554,7 +554,7 @@
 ### 2026-09-25 completion — Skill Batch 364 thin mechanics + Fake Blast correction
 - [x] Completed **Evil Eyes, Fake Blast, Fake Death, Feint Crash** and synchronized canonical/index records.
 - [x] Corrected Fake Blast to **Ki Blast Evasive / 200 Stamina** using current dedicated and Evasive references.
-- [ ] Batch 364 audit/research-batch artifacts and cross-domain registration remain pending because the connector safety layer blocked their creation after the data writes.
+- [x] Batch 364 audit/research-batch artifacts were created and cross-domain registration completed after retry.
 - [x] No unsupported probabilities, frame data, or timing claims promoted.
 - [ ] CI remains unverified.
-- [x] **Exact next:** create/register Batch 364 audit + research-batch artifacts, validate parity, then continue the shortest remaining mechanics/source footprints.
+- [x] **Exact next:** fresh global thin-record census; continue with **Fighting Pose A, Fighting Pose F, Innocence Breath, Innocence Bullet, Innocence Cannon, Justice Rush, Shining Friday, Strike of Revelation, Sudden Storm, Super Explosive Wave**.
