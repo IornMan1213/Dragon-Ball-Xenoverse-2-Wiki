@@ -40,7 +40,7 @@
       "https://dbxv2.fandom.com/wiki/Prince_of_Destruction_Vegeta",
       "https://dbxv2.fandom.com/wiki/SSGSS_Vegeta_%28Evolved%29"
     ],
-    "research_update": "Current-evidence promotion completed for Neo Wolf Fang Fist and Maiden Burst. Maiden Burst is confirmed as a 300-Stamina Ki Blast Evasive with short-range explosive knockback and PQ92 acquisition; Basic Reward evidence is preserved without inferring a guaranteed drop."
+    "research_update": "Current-evidence promotion completed for Bluff Kamehameha, Drain Field, Charged Ki Wave, and Phantom Fist; current classifications, mechanics boundaries, and PQ94/PQ95/PQ97 endpoints are supported, while reward probability and Ultimate-Finish semantics remain bounded."
   },
   "records": [
     {
@@ -233,12 +233,13 @@
       "ultimate_finish_required": null,
       "skill_description": "Performs a fake Kamehameha that can manipulate the opponent rather than functioning as a conventional damaging beam.",
       "mechanics_notes": "Current Xenoverse 2 skill references classify Bluff Kamehameha as an Other Super using 100 Ki; it is a deceptive Kamehameha-style utility skill rather than a conventional damaging beam.",
-      "verification_status": "verified",
-      "last_verified": "2026-09-24",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Bluff_Kamehameha",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
-      ]
+      ],
+      "research_status": "enriched"
     },
     {
       "name": "Drain Field",
@@ -256,12 +257,13 @@
       "ultimate_finish_required": null,
       "skill_description": "Creates an energy-draining field while evading attacks.",
       "mechanics_notes": "Current evidence identifies Drain Field as Super 17's Other-type Super. PQ95's maintained reward transcription lists Drain Field alongside Flash Bomber as a Basic Reward. Community testing consistently reports that the move absorbs incoming Ki-based attacks and returns Ki to the user; accessible testing reports zero Ki cost. Exact game-data resource value and drop probability are not independently established here.",
-      "verification_status": "verified",
-      "last_verified": "2026-09-24",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76173007"
-      ]
+      ],
+      "research_status": "enriched"
     },
     {
       "name": "Absolute Zero",
@@ -302,13 +304,14 @@
       "ultimate_finish_required": null,
       "skill_description": "Charges and releases a controllable Ki wave.",
       "mechanics_notes": "Current skill-specific evidence classifies Charged Ki Wave as an Other Super using 100 Ki. It restores Stamina by consuming Ki and completes faster than Rise to Action. PQ97 is the Future Warrior acquisition route.",
-      "verification_status": "verified",
-      "last_verified": "2026-09-24",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Charged_Ki_Wave",
         "https://dragonball.fandom.com/wiki/Charged_Ki_Wave",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
-      ]
+      ],
+      "research_status": "enriched"
     },
     {
       "name": "Phantom Fist",
@@ -326,12 +329,13 @@
       "ultimate_finish_required": null,
       "skill_description": "A deceptive close-range strike that uses phantom-like movement to reach the opponent.",
       "mechanics_notes": "Current skill-specific evidence classifies Phantom Fist as an Other Super using 100 Ki. It functions as an afterimage-style evasive state; successfully evading an attack restores roughly 100 Stamina. PQ97 is the Future Warrior acquisition route.",
-      "verification_status": "verified",
-      "last_verified": "2026-09-24",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Phantom_Fist",
         "https://dragonball.fandom.com/wiki/Phantom_Fist"
-      ]
+      ],
+      "research_status": "enriched"
     },
     {
       "name": "Dimension Ray",
