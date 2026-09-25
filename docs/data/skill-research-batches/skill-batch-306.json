@@ -42,11 +42,13 @@
       "usable_by_cac": true,
       "character_source": "Android 17; Android 17 (DB Super)",
       "dlc_requirement": null,
-      "unlock_method": "Expert Mission 11 - The Devil Born from the Dragon Balls",
-      "ultimate_finish_required": null,
-      "effect": "Large tracking electrical Ki wave with multiple hits.",
+      "unlock_method": "Expert Mission 11 — \"The Devil Born from the Dragon Balls\" Basic Reward.",
+      "ultimate_finish_required": false,
+      "effect": "Wide-range, long-range tracking Ki Blast wave; 17-hit projectile that deals 40% damage across its hits.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Super_Electric_Strike"
+        "https://dbxv2.fandom.com/wiki/Super_Electric_Strike",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
       ]
     },
     {
@@ -57,11 +59,13 @@
       "usable_by_cac": true,
       "character_source": "Omega Shenron; Omega Shenron (Supervillain); Mira",
       "dlc_requirement": null,
-      "unlock_method": "Shenron wish: I want another Ultimate Attack! (again)",
-      "ultimate_finish_required": null,
-      "effect": "Condensed minus-energy projectile that can hit repeatedly during setup and launch.",
+      "unlock_method": "Guru-expanded Shenron wish — \"I want another Ultimate Attack!\".",
+      "ultimate_finish_required": false,
+      "effect": "Condensed minus-energy Ki sphere; the charge/setup can hit repeatedly before the projectile launches, for up to 39 hits.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Minus_Energy_Power_Ball"
+        "https://dbxv2.fandom.com/wiki/Minus_Energy_Power_Ball",
+        "https://dbxv2.fandom.com/wiki/Wish",
+        "https://dragonball.fandom.com/wiki/Negative_Karma_Ball"
       ]
     }
   ]
