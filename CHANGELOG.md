@@ -3109,3 +3109,8 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Preserved the distinction between current Xenoverse 2 Shenron acquisition and older Xenoverse-era PQ wording; no unsupported Ultimate Finish dependency was inferred.
 - Canonical/index parity remains **469/469** and no unsupported promotion was made.
 - CI remains unverified.
+
+### 2026-09-24 — Time Skip/Back Breaker P1 provenance verification
+- Refreshed **Time Skip/Back Breaker** research batch 199 with Xenoverse 2 Strike Super/Counter taxonomy, 100 Ki, Hit Lesson 1 acquisition, Future Warrior usability, and rear-counter mechanics.
+- Added and registered the Time Skip/Back Breaker provenance audit.
+- Preserved unresolved numeric/matchup evidence and the 469/469 canonical boundary.
