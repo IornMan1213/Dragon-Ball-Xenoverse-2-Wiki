@@ -95,3 +95,11 @@
 - [x] Preserved unresolved Ultimate-Finish/drop-probability semantics.
 - [ ] CI remains unverified.
 - [x] **Exact next:** continue the remaining under-enriched Batch 54/provenance queue.
+
+
+### 2026-09-25 completion — Counter Burst current-evidence provenance promotion
+- [x] Added current-evidence audit and registered it in the cross-domain index.
+- [x] Promoted Batch 52 Counter Burst to `verified_current_scope` for classification, 100-Ki cost, PQ75 endpoint, six-hit counter mechanics, and partner-customization context.
+- [x] Preserved unresolved reward/drop semantics.
+- [ ] CI remains unverified.
+- [x] **Exact next:** continue the remaining under-enriched Batch 52 skill provenance queue.
