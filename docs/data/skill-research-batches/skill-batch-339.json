@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 339,
+  "created": "2026-09-25",
+  "type": "evidence_reconciliation",
+  "scope": "Current Xenoverse 2 acquisition/mechanics reconciliation for Psycho Escape, Justice Pose, and Kaioken",
+  "records": [
+    {
+      "name": "Psycho Escape",
+      "id": "skill-psycho-escape",
+      "classification": "Evasive",
+      "subcategory": "Other",
+      "acquisition": "Parallel Quest 13 — Namekian Dragon Balls",
+      "stamina_cost": 200,
+      "evidence": [
+        "Current Xenoverse 2 skill documentation identifies Psycho Escape as an Other Evasive used by Guldo and obtained from PQ13.",
+        "The maintained all-186-PQ guide lists Psycho Escape under PQ13 Basic Rewards.",
+        "A launch-era Steam discussion independently confirms players obtain Psycho Escape from PQ13 and documents the reward-drop uncertainty without establishing a numeric rate.",
+        "Current dedicated skill documentation describes telekinetic immobilization followed by forced lock-off and escape; the move deals no damage and consumes 200 Stamina."
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Psycho_Escape",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://steamcommunity.com/app/454650/discussions/0/305510202671835491/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80749645"
+      ],
+      "promoted_fields": {
+        "source_quest_or_shop": "Parallel Quest 13 — Namekian Dragon Balls",
+        "reward_tier": "Basic Reward",
+        "stamina_cost": 200,
+        "subcategory": "Other"
+      },
+      "limits": [
+        "No numerical drop probability is promoted.",
+        "Older cross-game acquisition references are not treated as Xenoverse 2 evidence.",
+        "Exact frame timing and version-sensitive behavior remain unresolved."
+      ]
+    },
+    {
+      "name": "Justice Pose",
+      "id": "skill-justice-pose",
+      "classification": "Super",
+      "subcategory": "Power Up",
+      "acquisition": "Parallel Quest 53 — The Fist of Justice",
+      "ki_cost": 0,
+      "duration": "20 seconds",
+      "evidence": [
+        "Current Xenoverse 2 skill documentation identifies Justice Pose as a Power Up Super obtained from PQ53 and used by Great Saiyaman/Great Saiyaman 2.",
+        "The maintained all-186-PQ guide lists Justice Pose under PQ53 Basic Rewards.",
+        "Independent Dragon Ball reference material identifies PQ53 as the Xenoverse 2 Future Warrior acquisition route.",
+        "Current skill documentation states that the pose boosts all abilities for 20 seconds; the repository already records the 0-Ki Power Up semantics."
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Justice_Pose",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Justice_Finishing_Pose"
+      ],
+      "promoted_fields": {
+        "source_quest_or_shop": "Parallel Quest 53 — The Fist of Justice",
+        "reward_tier": "Basic Reward",
+        "ki_cost": 0,
+        "duration": "20 seconds",
+        "effect_scope": "all abilities"
+      },
+      "limits": [
+        "No numerical drop probability is promoted.",
+        "No Ultimate-Finish-only gate is inferred.",
+        "Version-sensitive exact modifier values remain bounded to existing repository evidence."
+      ]
+    },
+    {
+      "name": "Kaioken",
+      "id": "skill-kaioken",
+      "classification": "Awoken",
+      "subcategory": "Race",
+      "acquisition": "Parallel Quest 8 — Invade Earth",
+      "ultimate_finish_required": true,
+      "evidence": [
+        "Current Xenoverse 2 skill documentation identifies Kaioken as a universal CaC Awoken Skill obtained from PQ8 with an Ultimate Finish.",
+        "Current documentation records the 100/300/500 Ki thresholds for Kaioken, x3 Kaioken, and x20 Kaioken and the corresponding stamina-drain behavior.",
+        "A launch-era Steam discussion states that the PQ8 Ultimate Finish occurs by preserving Nappa through the Goku sequence, defeating the resulting x3 Kaioken Goku, and that the skill reward is RNG-dependent.",
+        "Current GameFAQs answers independently associate Kaioken with the PQ8 Ultimate Finish and report the reward as a non-guaranteed drop; these reports are retained as historical corroboration rather than as a numeric probability."
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Kaioken",
+        "https://steamcommunity.com/app/454650/discussions/0/305509857567659283/?l=english",
+        "https://gamefaqs.gamespot.com/pc/204216-dragon-ball-xenoverse-2/answers/444382-parallel-quest-8-kaioken-help",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74467853"
+      ],
+      "promoted_fields": {
+        "source_quest_or_shop": "Parallel Quest 8 — Invade Earth",
+        "ultimate_finish_required": true,
+        "ki_thresholds": [
+          100,
+          300,
+          500
+        ],
+        "stages": [
+          "Kaioken",
+          "Kaioken x3",
+          "Kaioken x20"
+        ]
+      },
+      "limits": [
+        "No numerical drop probability is promoted.",
+        "Historical player reports about exact reward timing are not treated as deterministic mechanics beyond the established Ultimate Finish boundary.",
+        "Version-sensitive balance values remain bounded to current documented mechanics."
+      ]
+    }
+  ],
+  "validation": {
+    "records": 3,
+    "canonical_promotion": false,
+    "relationship_changes": 0,
+    "numeric_drop_rates_promoted": 0,
+    "unsupported_gates_added": 0
+  },
+  "evidence_boundary": "This batch strengthens current Xenoverse 2 acquisition and mechanics provenance for three already-indexed skills. It preserves existing canonical relationships and does not infer numerical drop rates or unsupported reward conditions."
+}
