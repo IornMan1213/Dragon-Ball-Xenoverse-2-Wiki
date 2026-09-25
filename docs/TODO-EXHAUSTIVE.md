@@ -7311,3 +7311,10 @@
 - [x] Preserved the 469/469 canonical/index boundary and unresolved evidence fields.
 - [ ] CI remains unverified.
 - [ ] Exact next: inspect current Actions reruns, then complete skill-batch-184.
+
+### 2026-09-24 — TODO completion update — Punisher Drive P1 provenance verification
+- [x] Completed skill-batch-184 — Punisher Drive with Xenoverse 2 identity, Super/Strike classification, Skill Shop acquisition, rapid invisible-rush mechanics, and Soul Punisher separation.
+- [x] Added and registered the Punisher Drive provenance audit.
+- [x] Preserved the 469/469 canonical/index boundary and unresolved evidence fields.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** inspect current Actions state, then complete skill-batch-185.
