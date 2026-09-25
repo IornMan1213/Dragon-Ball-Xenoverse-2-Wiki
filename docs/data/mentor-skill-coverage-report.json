@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "game": "Dragon Ball Xenoverse 2",
-  "generated_by": "live_canonical_reconciliation_2026-09-24",
+  "generated_by": "live_canonical_reconciliation_2026-09-25",
   "scope": "All 33 mentor lesson-to-skill coverage audit",
   "canonical_mentor_records": 33,
   "mentors_audited": 33,
@@ -588,7 +588,7 @@
     "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
     "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2"
   ],
-  "canonical_skill_records": 469,
+  "canonical_skill_records": 470,
   "unique_skill_endpoints": 130,
   "validation": {
     "canonical_mentor_records": 33,
@@ -601,7 +601,7 @@
     "typed_skill_reward_count": 132,
     "typed_non_skill_reward_count": 1,
     "typed_non_skill_unresolved_count": 0,
-    "canonical_skill_records": 469,
+    "canonical_skill_records": 470,
     "status": "clean_with_one_explicit_unresolved_skill_lesson"
   }
 }
