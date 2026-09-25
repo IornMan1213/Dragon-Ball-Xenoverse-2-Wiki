@@ -8035,3 +8035,13 @@
 - [x] Current main is `1bf72b0cd61d9746f48cc0679ffe7340b67e0525`; its quality/artifact/Pages runs were queued at inspection time.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** inspect the queued runs, then continue exact-pair reverse/navigation scanning if the runner failure persists.
+
+
+### 2026-09-25 — Batch 312 evidence refresh completion
+- [x] Confirmed latest Actions failures are runner-level (zero exposed steps/logs), not actionable repository test output.
+- [x] Rechecked current non-PQ/Event/Raid/Festival/Chapter 4 consumers: current presentation baselines remain 152 characters / 469 skills / 174 equipment-accessory records / 11 raid accessory identities; checked consumer audits are clean.
+- [x] Refreshed all 10 Batch 312 Ki Blast Ultimate records from direct current Xenoverse 2 pages.
+- [x] Corrected Break Cannon to 300+ Ki and Perfect Kamehameha to 400 Ki with Cell (Perfect) Lesson 4 acquisition; confirmed Requiem of Destruction's Super Pack 2 association.
+- [x] Added/registered `docs/data/skill-batch-312-ki-blast-ultimate-evidence-refresh-2026-09-25.json`; changed JSON re-parsed successfully.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** continue the next direct-evidence Batch 312/313 record; preserve unresolved fields and source conflicts.
