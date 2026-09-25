@@ -880,3 +880,16 @@
 - [x] Validation: changed JSON parsed successfully; canonical/index parity remains **469/469**.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** continue **skill-batch-178 — Shadow Crusher** using the same bounded provenance workflow.
+
+
+### 2026-09-24 cycle completion — Shadow Crusher P1 provenance refresh
+- [x] Live canonical census remains **469**; Shadow Crusher already existed as a verified canonical record, so no promotion was required.
+- [x] Completed **skill-research-batches/skill-batch-178.json — Shadow Crusher**.
+- [x] Revalidated **Super / Strike**, Ki Blast-counter behavior, 100 Ki canonical cost, CaC availability, and **Cooler (Final Form) mentor Lesson 1** acquisition.
+- [x] Independent instructor evidence confirms Shadow Crusher is Cooler's Lesson 1 Basic Reward; Dragon Ball technique documentation independently confirms the Xenoverse 2 counter behavior and acquisition endpoint. citeturn0search0turn0search1
+- [x] Preserved deterministic mentor acquisition semantics; no Parallel Quest or Ultimate Finish dependency was inferred.
+- [x] Added `docs/data/skill-shadow-crusher-p1-provenance-verification-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved evidence limits: exact frame timing, hitbox geometry, stamina interactions, and universal damage values remain unresolved.
+- [x] Validation: changed JSON parsed successfully; canonical/index parity remains **469/469**.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** continue **skill-batch-179 — Fake Death** using the same bounded provenance workflow.
