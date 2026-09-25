@@ -16,3 +16,12 @@
 - [x] Added the community source to the canonical Super Soul 034 provenance list while preserving all unresolved mechanics/Limit Burst fields; no relationship, identity, acquisition route, or historical snapshot changed.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] **Exact next:** continue the remaining source-backed P1 provenance/data queue, prioritizing a partially verified structured record where direct Xenoverse 2-specific evidence can promote a field; do not infer unresolved values from community reports alone.
+
+
+### 2026-09-25 cycle completion — Skill Research Batch 339 current acquisition/mechanics reconciliation
+- [x] Added `docs/data/skill-research-batches/skill-batch-339.json` covering Psycho Escape, Justice Pose, and Kaioken.
+- [x] Reconciled current Xenoverse 2 acquisition/reward evidence: PQ13 Basic Reward for Psycho Escape, PQ53 Basic Reward for Justice Pose, and PQ8 Ultimate Finish for Kaioken.
+- [x] Strengthened documented mechanics boundaries: Psycho Escape 200 Stamina/Other Evasive behavior, Justice Pose 0-Ki/20-second all-abilities Power Up, and Kaioken's 100/300/500 Ki stage thresholds.
+- [x] Registered Batch 339 in `docs/data/pq-cross-domain-index.json`; no canonical relationship or identity was changed and no numeric drop rates were inferred.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** continue the remaining source-backed P1 provenance/data queue with the next partially verified or under-enriched canonical record; avoid redoing the exhausted thin-domain cost queue.
