@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 353,
+  "created": "2026-09-25",
+  "type": "evidence_reconciliation",
+  "scope": "Current Xenoverse 2 mechanics/provenance refresh for One-Handed Kamehameha mk.II, Orin Combo, Mighty Explosive Wave, and Masenko.",
+  "records": [
+    {
+      "name": "One-Handed Kamehameha mk.II",
+      "id": "skill-one-handed-kamehameha-mk-ii",
+      "audit": "docs/data/skill-one-handed-kamehameha-mkii-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Orin Combo",
+      "id": "skill-orin-combo",
+      "audit": "docs/data/skill-orin-combo-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Mighty Explosive Wave",
+      "id": "skill-mighty-explosive-wave",
+      "audit": "docs/data/skill-mighty-explosive-wave-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Masenko",
+      "id": "skill-masenko",
+      "audit": "docs/data/skill-masenko-current-evidence-audit-2026-09-25.json"
+    }
+  ],
+  "validation": {
+    "canonical_skill_baseline": 469,
+    "index_skill_baseline": 469,
+    "duplicate_ids": 0,
+    "relationship_changes": 0,
+    "unsupported_drop_rates_promoted": 0,
+    "unsupported_gates_added": 0,
+    "source_reported_values_bounded": true
+  },
+  "evidence_boundary": "Only directly supported current Xenoverse 2 behavior was promoted. Numerical damage/frame data remains bounded where current evidence is insufficient."
+}
