@@ -174,14 +174,15 @@
       "unlock_method": "Parallel Quest 76 — Eternal Rival",
       "source_quest_or_shop": "Parallel Quest 76",
       "ultimate_finish_required": null,
-      "skill_description": "Charges a Kamehameha, teleports to the locked-on opponent, and fires at close range.",
-      "mechanics_notes": "Current skill-specific data classifies Warp Kamehameha as a Ki Blast Ultimate using 400 Ki and documents teleport/tracking behavior. An older reference lists 300 Ki; the current skill-specific value is retained while the discrepancy remains provenance.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
+      "skill_description": "Charge a Kamehameha, teleport to the locked-on opponent, and fire at close range.",
+      "mechanics_notes": "Current Xenoverse 2-specific skill documentation confirms Warp Kamehameha as a 400-Ki Ki Blast Ultimate with beam, teleport, tracking, long-range, and knockback characteristics. The user charges the Kamehameha, then teleports to the locked-on opponent and fires, with current documentation recording approximately 30% damage over 24 hits. PQ76 is the acquisition endpoint; additional Partner Customization availability is documented for multiple Goku-family presets. An older general Xenoverse reference lists 300 Ki, so that historical discrepancy is preserved rather than silently overwriting it. No numeric drop probability is inferred.",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Warp_Kamehameha",
         "https://dbxenoverse.fandom.com/wiki/Warp_Kamehameha_%28Skill%29",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
+        "https://dragonball.fandom.com/wiki/Instant_Kamehameha",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
     },
     {
