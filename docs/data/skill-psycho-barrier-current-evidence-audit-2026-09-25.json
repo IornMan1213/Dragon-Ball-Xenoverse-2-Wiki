@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-psycho-barrier-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Psycho Barrier",
+  "result": "current_evidence_refresh",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Ki Blast",
+    "source_quest_or_shop": "Bojack mentor training — Lesson 2",
+    "mechanics": "100-Ki defensive barrier that blocks attacks; additional input expands it. Current dedicated documentation reports 2% damage per hit. Expansion-count wording conflicts across references, so no single maximum is asserted."
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Psycho_Barrier",
+    "https://dragonball.fandom.com/wiki/Energy_Shield"
+  ],
+  "limits": [
+    "No unsupported drop probabilities, hidden gates, exact frame data, or unverified damage/healing scaling is inferred."
+  ]
+}
