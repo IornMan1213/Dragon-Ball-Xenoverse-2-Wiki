@@ -7825,3 +7825,11 @@
 - [x] Updated `docs/data/skill-research-batches/skill-batch-296.json` with the evidence boundary.
 - [ ] CI success remains unverified; no successful Actions result is claimed.
 - [ ] **Exact next:** move to the next deterministic partially verified skill-research batch after 296 and resolve only fields for which direct Xenoverse 2 evidence adds new coverage; do not invent a new batch identity.
+
+### 2026-09-24 — TODO completion update — Batch 301 verification
+- [x] Verified Batch 301 cast-exclusive/raid Ultimate records against current Xenoverse 2 Ultimate Attack documentation.
+- [x] Confirmed 300-Ki status for Final Galick Rush and Super Dragon Flight (Ultimate); preserved Explosive Scream as unobtainable for CaCs.
+- [x] Refreshed `docs/data/skill-research-batches/skill-batch-301.json` with the evidence boundary.
+- [x] No unsupported acquisition or canonical promotion was introduced.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** continue with Batch 302 and resolve only directly supported missing fields.
