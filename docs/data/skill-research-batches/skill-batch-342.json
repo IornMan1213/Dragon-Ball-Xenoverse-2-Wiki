@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 342,
+  "created": "2026-09-25",
+  "type": "evidence_reconciliation",
+  "scope": "Current Xenoverse 2 provenance/mechanics promotion for the next verified research frontier",
+  "records": [
+    {
+      "id": "skill-neo-wolf-fang-fist",
+      "name": "Neo Wolf Fang Fist",
+      "class": "Super",
+      "subcategory": "Strike",
+      "acquisition_endpoint": "Parallel Quest 86 — \"Yamcha is Number One\"",
+      "ki_cost": "100-700",
+      "mechanics": "Continuable 9–33 hit rush; holding the input continues the clawing sequence; current documentation records up to 40% full-sequence damage.",
+      "promoted_fields": [
+        "verification_status",
+        "research_status",
+        "last_verified",
+        "mechanics_notes"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Neo_Wolf_Fang_Fist",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
+      ],
+      "limits": [
+        "Exact PQ reward probability unresolved.",
+        "No hidden Ultimate-Finish-only gate inferred."
+      ]
+    },
+    {
+      "id": "skill-power-impact",
+      "name": "Power Impact",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "acquisition_endpoint": "Parallel Quest 120 — \"Whis's Special Training\"",
+      "ki_cost": 100,
+      "mechanics": "Chargeable projectile; 5 base hits, up to 15 fully charged, with a temporary 1.5% Ultimate Attack power increase for 20 seconds after a fully charged hit.",
+      "promoted_fields": [
+        "subcategory",
+        "research_status",
+        "last_verified",
+        "skill_description",
+        "mechanics_notes"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Power_Impact",
+        "https://dragonball.fandom.com/wiki/Power_Impact"
+      ],
+      "limits": [
+        "Reward-tier conflict preserved; no numeric drop probability or UF-only gate inferred."
+      ]
+    },
+    {
+      "id": "skill-powered-shell",
+      "name": "Powered Shell",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "acquisition_endpoint": "Parallel Quest 128 — \"Legendary Super Saiyan Smackdown\"",
+      "ki_cost": 100,
+      "mechanics": "Single-hit controllable Ki Blast projectile; 5% documented damage, alternate backward firing input, and up to 300 Stamina activation while being damaged.",
+      "promoted_fields": [
+        "subcategory",
+        "research_status",
+        "last_verified",
+        "skill_description",
+        "mechanics_notes"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Powered_Shell",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "limits": [
+        "Exact reward probability unresolved; no UF-only gate inferred."
+      ]
+    },
+    {
+      "id": "skill-pressure-sign",
+      "name": "Pressure Sign",
+      "class": "Super",
+      "subcategory": "Strike",
+      "acquisition_endpoint": "Skill Shop (Conton City)",
+      "ki_cost": 100,
+      "mechanics": "Universal counter; on a successful counter the user teleports behind the attacker and kicks them.",
+      "promoted_fields": [
+        "research_status",
+        "last_verified",
+        "mechanics_notes"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Pressure_Sign",
+        "https://dragonball.fandom.com/wiki/Pressure_Sign"
+      ],
+      "limits": [
+        "Skill Shop endpoint retained; Distorted Time Egg timing claim remains unpromoted."
+      ]
+    }
+  ],
+  "validation": {
+    "records": 4,
+    "canonical_promotions": true,
+    "numeric_drop_rates_promoted": 0,
+    "unsupported_gates_added": 0,
+    "relationship_changes": 0
+  },
+  "evidence_boundary": "Batch 342 promotes the next four live verified/verified records using current Xenoverse 2-specific evidence. Existing acquisition conflicts and uncertainty remain bounded."
+}
