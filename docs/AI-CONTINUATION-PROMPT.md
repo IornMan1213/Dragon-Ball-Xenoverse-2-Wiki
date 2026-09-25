@@ -281,3 +281,13 @@
 - [x] Synchronized `docs/data/skill-acquisition-index.json` for **Death Meteor**, **Death Wave**, **Hellzone Grenade**, and **Murder Grenade** from `partially_verified` to `verified_current_scope` after the current-evidence promotion.
 - [x] This closes the producer/consumer status mismatch discovered during post-write validation; no skill identity or endpoint relationship changed.
 - [x] **Exact next:** continue with **Shocking Death Ball** and **Spirit Sword**, then re-census the remaining partially verified acquisition records.
+
+
+### 2026-09-25 cycle completion — Expert Mission EM04/06/14/17 provenance promotion
+- [x] Promoted **Super Destructo-Disc**, **Supernova**, **Shocking Death Ball**, and **Spirit Sword** to `verified_current_scope`.
+- [x] Confirmed current classifications/resource costs: Super Destructo-Disc 200-Ki Ki Blast Super; Supernova 500-Ki Ki Blast Ultimate; Shocking Death Ball 300-Ki Ki Blast Ultimate; Spirit Sword 400-Ki Strike Ultimate.
+- [x] Confirmed EM04, EM06, EM14, and EM17 acquisition endpoints and synchronized the reverse acquisition index.
+- [x] Added four current-evidence audits and registered them in the cross-domain index.
+- [x] Preserved unresolved drop probability, first-clear guarantee, and historical reward-name conflicts; no unsupported UF-only gate was inferred.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** continue the remaining partially verified Expert Mission records, starting with **Dead End Bullet**, **Assault Rain**, **Super Electric Strike**, and **Angry Explosion**, after a live canonical census.
