@@ -1314,3 +1314,13 @@
 - [ ] CI remains unverified; current Actions failures still expose no usable workflow-step logs.
 - [x] Commits: `690c2f734a4bd85112103c53ffc2fc026eb3adbb`, `117a236229ed0fa222bd71be992e2aed438fcb2c`, `c9c2faae2d5307239e81041e447b6e5413f6f877`, `a1ad282ba4da286c5c4f7b45581fd1f87d2738e6`, `64fc7b095b72152820cb248c014b2285e1a6487e`, `4b6f443de6da48989473c606172de999382ad826`, `6c602c8cf7ccebaed42b9be8f83a547e6172412c`.
 - [ ] **Exact next:** inspect current Actions state, then continue the Ki Blast Evasive/cross-domain cleanup from **skill-batch-235**, beginning with the documented category/source conflict around Mach Dash/Final Pose and the Batch 221 provenance note.
+
+
+### 2026-09-24 cycle update — Evasive category transition Batches 235–237
+- [x] Inspected current Actions before editing: the latest Pages build/deployment run is **in_progress** on commit `34149cb5c58c97031342112d830446f2dfbffcae`; no CI success is claimed for the repository-quality/clean-artifacts workflows.
+- [x] Refreshed **Batches 235–237** to 2026-09-24 with validation metadata.
+- [x] Preserved the **Power Up Evasives = 2** category boundary (Final Pose, Mach Dash) and its contradiction between generic CaC wording and individual/user evidence.
+- [x] Audited Other Evasives through Batch 237, preserving Evasive/Super variants, cast-only restrictions, and the Vanisher Guard → Punisher Guard historical rename.
+- [x] Validation remains **469/469** canonical/index with **0 duplicate IDs** and no speculative canonical promotion.
+- [x] Commits: `d07f20e29cd1dea9736ee8db13fb3514e799eec5`, `bb6970b462596f3c4a610cc1a70359f7884847be`, `072808576a59697012e5d7ec869af6c5c58b0a07`.
+- [ ] **Exact next:** process **skill-batch-238**, then continue the remaining Evasive reconciliation chain while preserving source conflicts and canonical/index parity.
