@@ -510,3 +510,16 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Commits: canonical `373675a`, index `6fbac1d`, audit `7223510`, batch `7dedc23`, registry `7cf7263`.
 - [x] **Exact next:** fresh post-Batch-359 census, then finish the remaining zero-mechanics frontier with **Spirit Sword** and **Super Electric Strike** before selecting the next thinnest global records.
+
+
+### 2026-09-25 cycle completion — Skill Batch 360 zero-mechanics frontier completion
+- [x] Fresh live evidence refresh completed for the final two zero-mechanics records: **Spirit Sword** and **Super Electric Strike**.
+- [x] Spirit Sword mechanics now document 400 Ki, Strike classification, EM17 provenance, three-hit stab/slash sequence, connection requirement, and source-reported damage boundary.
+- [x] Super Electric Strike mechanics now document 300 Ki, Ki Blast classification, EM11 provenance, wide-range tracking wave, 17-hit sequence, knockback, and source-reported damage boundary.
+- [x] Added/registered Batch 360 audit and research-batch files; synchronized canonical/index records.
+- [x] Post-write validation target remains **469 canonical / 469 index / 0 duplicate IDs**; no skill relationships were changed.
+- [x] Zero-mechanics frontier is now complete across the current 469-skill corpus.
+- [x] No unsupported probabilities, hidden prerequisites, new Ultimate Finish gates, frame data, exact timing, or stacking caps were promoted.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Commits: canonical `16c58fd`, index `64321fd`, audit `46d3f4f`, batch `16ea0c9`, registry `ea301ed`.
+- [x] **Exact next:** fresh global thin-record census; prioritize records with the shortest mechanics/source footprint, then continue deterministic provenance/mechanics enrichment while preserving uncertainty boundaries and cross-domain links.
