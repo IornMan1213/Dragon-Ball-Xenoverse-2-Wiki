@@ -393,3 +393,13 @@
 - [ ] CI remains unverified.
 - [ ] **Follow-up TODO:** safely reconcile the live canonical `skills.json` vs `skills-index.json` baseline before promoting the four refreshed records; do not claim 470/470 until both layers are directly validated.
 - [ ] **Next research TODO:** continue the alphabetical enriched-corpus provenance stream after Hawk Charge once the baseline reconciliation is complete.
+
+
+### 2026-09-25 completion — Skill Batch 348 Justice provenance/mechanics refresh
+- [x] Refreshed **Justice Blade, Justice Combination, Justice Kick, Justice Pose** with current Xenoverse 2-specific and independent evidence.
+- [x] Added/registered four dedicated audits plus `skill-batch-348.json`.
+- [x] Preserved reward semantics and evidence conflicts; no unsupported rates/gates added.
+- [x] Validation: four audits + Batch 348 parse; cross-domain registrations resolve; relationships unchanged.
+- [ ] Canonical/index fields were intentionally not rewritten because the generated `skills.json` cannot be safely reconstructed through the connector for a complete synchronized write.
+- [ ] CI remains unverified.
+- [ ] **Next:** continue the source-backed P1 provenance queue after Justice, then synchronize Batch 348 canonical/index projections once a safe complete write path is available.
