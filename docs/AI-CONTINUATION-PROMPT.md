@@ -1674,3 +1674,17 @@
 - [x] Preserved unresolved reward-probability and Ultimate-Finish fields.
 - [ ] CI remains unverified; no workflow runs exposed.
 - [ ] **Exact next:** Batch 311 — Blue Hurricane and Assault Rain first.
+
+
+### 2026-09-24 cycle completion — Batch 311 Blue Hurricane / Assault Rain evidence correction
+- [x] Continued the exact handoff priority: Batch 311 — Blue Hurricane and Assault Rain first.
+- [x] Corrected a stale research identity in docs/data/skill-research-batches/skill-batch-311.json: Blue Hurricane is Burter's Ki Blast Ultimate, not Gogeta (Super Saiyan).
+- [x] Added direct current evidence for Blue Hurricane: 300 Ki, EM15 — Extreme Malice!, Basic Reward, with the documented movable tornado/twister behavior.
+- [x] Added direct current evidence for Assault Rain: 300 Ki, Super Buu provenance, EM9 — The Most Feared Majin, Basic Reward, with documented tracking/long-range/10-hit rain behavior.
+- [x] Added docs/data/skill-batch-311-blue-hurricane-assault-rain-evidence-audit-2026-09-24.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Parsed all changed JSON successfully and checked changed files for assistant citation/export artifact markers; none found.
+- [x] Preserved unresolved CaC availability, drop probability, exact frame data, and version-sensitive damage; no unsupported Ultimate-Finish requirement was added. Basic Reward evidence is not treated as a drop-rate guarantee.
+- [x] No canonical skills.json promotion was attempted because the bounded pass is an evidence/research correction and the supported canonical builder/runtime remains unavailable.
+- [ ] CI success remains unverified; no usable workflow-step/log result is exposed by the current GitHub connector.
+- [x] Commits: 4575e5172e541bd944c05605ce3f2a487ac3b1c7, 881266e63468f89543f7af3213b75e809c8c73ff, d4a9e7259f6758e32aa91295074de7b9e251fd54.
+- [ ] **Exact next:** continue the next deterministic partially verified skill tranche after Batch 311, using direct Xenoverse 2 evidence; prioritize the remaining Batch 311 records (Spirit Ball, Death Meteor, Minus Energy Power Ball) and preserve nulls where evidence is insufficient.
