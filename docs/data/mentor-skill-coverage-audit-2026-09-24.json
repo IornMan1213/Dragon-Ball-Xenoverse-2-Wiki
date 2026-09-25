@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "audit_date": "2026-09-24",
+  "audit_date": "2026-09-25",
   "status": "pass_with_explicit_unresolved",
   "scope": "mentor lesson→skill coverage projection reconciliation",
   "canonical_sources": [
@@ -13,35 +13,26 @@
     "lesson_reward_objects": 133,
     "typed_skill_rewards": 132,
     "typed_non_skill_rewards": 1,
-    "mentor_skill_forward_edges": 131,
-    "unique_skill_targets": 130,
-    "unresolved_skill_lessons": 1,
-    "unresolved_skill_lessons_detail": [
-      {
-        "mentor_id": "mentor-hit",
-        "mentor_name": "Hit",
-        "skill_name": "Time Skip/Tremor Pulse"
-      }
-    ],
+    "mentor_skill_forward_edges": 132,
+    "unique_skill_targets": 131,
+    "unresolved_skill_lessons": 0,
+    "unresolved_skill_lessons_detail": [],
     "broken_skill_endpoints": 0,
-    "stale_linked_skill_ids_removed": [
-      "skill-time-skip-tremor-pulse"
-    ],
-    "canonical_skill_count": 469
+    "stale_linked_skill_ids_removed": [],
+    "canonical_skill_count": 470
   },
   "findings": [
-    "mentor-skill-coverage-report.json contained a stale linked skill ID for Hit → Time Skip/Tremor Pulse even though the canonical mentor layer and crosslink report intentionally leave that lesson unresolved.",
-    "The stale edge inflated linked mentor skill edges from the live 131 to 132 and incorrectly reduced the explicit unresolved boundary.",
-    "The corrected projection now matches the canonical mentor lesson layer and crosslink report without inventing a skill ID."
+    "The prior unresolved Hit → Time Skip/Tremor Pulse boundary was caused by the mentor layer predating the canonical skill record. The exact canonical skill now exists, so the mentor endpoint can be restored deterministically."
   ],
   "validation": {
     "coverage_matches_crosslink_edge_count": true,
-    "unresolved_boundary_explicit": true,
+    "unresolved_boundary_explicit": false,
     "no_broken_skill_endpoints": true,
     "no_new_relationships_inferred": true
   },
-  "evidence_boundary": "The unresolved Hit lesson remains unresolved because no canonical skill record exists in the repository. This audit does not infer or fabricate a skill identity.",
+  "evidence_boundary": "The repair uses an exact canonical skill ID already present in the live skill index and the exact mentor lesson name; no new skill identity is fabricated.",
   "changes": [
-    "Separated Zamasu's non-skill Super Soul reward from unresolved skill endpoints in the coverage projection; the only unresolved skill lesson remains Hit's Time Skip/Tremor Pulse."
+    "Restored Hit Lesson 3 → skill-time-skip-tremor-pulse across the mentor endpoint/crosslink/coverage projections.",
+    "Synchronized the audit to the current 470-record canonical skill layer."
   ]
 }
