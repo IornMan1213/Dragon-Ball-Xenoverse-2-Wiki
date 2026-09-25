@@ -6367,10 +6367,10 @@
       ],
       "unlock_method": "Parallel Quest 152 — \"Dyspo's Wanted Man\" Ultimate Finish bonus reward (40% roll)",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 verification: current skill page explicitly identifies Parallel Quest 152 as the unlock source. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics.\n2026-09-22 provenance refresh: PQ152 remains the canonical acquisition endpoint with the documented Ultimate Finish bonus-roll condition. The existing note's PQ152 wording is corrected to PQ152; no additional gate is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. The maintained PQ153 drop-condition data assigns this skill to an explicit Ultimate Finish bonus roll.",
+      "mechanics_notes": "100-Ki Strike Super learned/used by Dyspo. Current evidence documents a rapid 11-hit blue Ki-blade sequence and an Ultimate follow-up state on successful connection; exact compatible-Ultimate list and universal frame/damage data remain unresolved.",
       "source_quest": 152,
       "source_quest_or_shop": "Parallel Quest 152 — \"Dyspo's Wanted Man\"",
       "source_parallel_quests": [
@@ -6392,10 +6392,10 @@
       ],
       "unlock_method": "Gohan (Adult) and Videl's mentor training — complete the corresponding lesson to receive Justice Combination as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used.\n2026-09-22 provenance refresh: Gohan (Adult) and Videl mentor training remains the deterministic Basic Reward endpoint; 300 Ki and All CaC race scope remain supported. Detailed combat mechanics remain deferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "mechanics_notes": "300-Ki Strike Ultimate learned from Gohan (Adult) & Videl mentor training. Current evidence documents a fast high-kick opener into a multi-hit rush ending in a blue-energy palm strike; the final hit can be vanished. Exact universal damage/frame values remain unresolved.",
       "source_quest": "Gohan (Adult) and Videl mentor training",
       "source_quest_or_shop": "Gohan (Adult) and Videl mentor training"
     },
@@ -6439,10 +6439,10 @@
       ],
       "unlock_method": "Parallel Quest 152 — \"Dyspo's Wanted Man\" Ultimate Finish bonus reward (40% roll)",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 provenance refinement: the maintained PQ152 drop-condition data explicitly assigns Justice Kick to an Ultimate Finish bonus roll.2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics.\n2026-09-22 provenance refresh: PQ152 remains the canonical acquisition endpoint with the documented Ultimate Finish bonus-roll condition. The existing note's PQ152 wording is corrected to PQ152; no additional gate is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. The maintained PQ153 drop-condition data assigns this skill to an explicit Ultimate Finish bonus roll.",
+      "mechanics_notes": "100-Ki Strike Super associated with Dyspo. Current evidence documents a forward rolling kick that can cancel weak Ki Blasts; an additional input spends 100 more Ki for the Justice Crush Ki-wave follow-up. Source-reported damage values remain version/source-bounded.",
       "source_quest": 152,
       "source_quest_or_shop": "Parallel Quest 152 — \"Dyspo's Wanted Man\"",
       "source_parallel_quests": [
@@ -6465,10 +6465,10 @@
       ],
       "unlock_method": "Parallel Quest 53 — \"The Fist of Justice!\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 53 as the acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.\n2026-09-22 provenance refresh: PQ53 Basic Reward remains the deterministic acquisition endpoint; the Power Up Super is 0 Ki, lasts 20 seconds, and boosts all abilities. No Ultimate Finish-only gate is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "Confirmed as Great Saiyaman's 0-Ki PQ53 Power Up Super, usable by all CaC races. It boosts all stats for 20 seconds. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill in the Basic Reward section, separate from the quest's Ultimate Finish conditions.",
+      "mechanics_notes": "0-Ki Power Up Super acquired from PQ53 Basic Reward. The user performs the Justice Pose and receives an all-stat boost for 20 seconds. No universal numeric stat multiplier is promoted.",
       "source_quest": 53,
       "source_quest_or_shop": "Parallel Quest 53 — \"The Fist of Justice!\"",
       "source_parallel_quests": [
@@ -11368,5 +11368,5 @@
       "skill_description": "Zigzag Express is a Strike Super skill associated with Majin (Male)."
     }
   ],
-  "last_updated": "2026-09-24"
+  "last_updated": "2026-09-25"
 }
