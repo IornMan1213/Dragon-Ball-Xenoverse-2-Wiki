@@ -6830,8 +6830,8 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-25 current-evidence refresh: current Xenoverse 2 documentation confirms the 200-Stamina Power Up Evasive and PQ18 endpoint. The move creates distance and temporarily increases movement speed; exact duration/multiplier remain unpromoted.",
-      "mechanics_notes": "200-Stamina Power Up Evasive from PQ18 — Force Entrance Exam. The user performs the dash/pose sequence, creates distance, and temporarily gains increased movement speed. Exact duration and speed multiplier are not asserted.",
+      "notes": "2026-09-25 current-evidence refresh: current documentation confirms PQ18, 200 Stamina, temporary speed increase, and the Power Up Evasive classification. The exact displayed duration differs slightly between stat and property text; both are preserved rather than silently normalized.",
+      "mechanics_notes": "200-Stamina Power Up Evasive from PQ18 — Force Entrance Exam. The user flies over the opponent to a safe distance and gains a temporary movement-speed increase; current documentation reports about 11.5–12 seconds and a 1.5% speed increase. It is classified as a Power Up Evasive, not a damaging Ki Blast Evasive.",
       "source_quest": 18,
       "source_quest_or_shop": "Parallel Quest 18 — \"Force Entrance Exam\"",
       "source_parallel_quests": [
@@ -6905,8 +6905,8 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-25 current-evidence promotion: current Xenoverse 2-specific documentation confirms Maiden Burst as a 300-Stamina Ki Blast Evasive with short-range explosive knockback. PQ92 is corroborated as the acquisition endpoint and maintained reward evidence places the skill in Basic Reward; no hidden Ultimate-Finish gate or probability is inferred.",
-      "mechanics_notes": "300-Stamina Ki Blast Evasive. Propels the user forward with a short-range Ki explosion that deals about 5% damage and knocks nearby opponents away. Current evidence supports Pan and Ribrianne usage; exact reward probability remains unresolved.",
+      "notes": "2026-09-25 current-evidence refresh: current documentation confirms PQ92, 300 Stamina, forward explosive movement, short-range single-hit knockback, and the documented 5% damage value. The value is treated as source-reported rather than independently generalized.",
+      "mechanics_notes": "300-Stamina Ki Blast Evasive from PQ92 — Revenge of the Tuffle. The user propels forward with a Ki explosion, damaging nearby opponents and knocking them away; current documentation reports 5% damage. It is a short-range, single-hit counterattack rather than a Power Up Evasive.",
       "source_quest": 92,
       "source_quest_or_shop": "Parallel Quest 92 — \"Revenge of the Tuffle\"",
       "source_parallel_quests": [
@@ -7147,8 +7147,8 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: maintained all-PQ reward guide explicitly lists Meteor Strike in PQ6 Basic Reward.\n2026-09-23 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "100-Ki Strike Super from PQ6 — Saibamen's Revenge. Current repository evidence establishes the PQ6 Basic Reward endpoint and CaC availability; exact drop probability remains unresolved and no Ultimate Finish-only gate is asserted.",
+      "notes": "2026-09-25 current-evidence refresh: current documentation confirms the two-hit teleporting kick sequence, PQ6 acquisition, Ki cost, and conditional hard-knockdown/cancel behavior. No unsupported damage or frame values are promoted.",
+      "mechanics_notes": "100-Ki Strike Super from PQ6 — Saibamen's Revenge. Performs a launching kick, then teleports in front of the opponent's path for a second kick. The second hit can produce a hard knockdown when the user is close enough to the ground and strikes the opponent's back; the second hit can also be canceled into another Super or a stamina break.",
       "source_quest": 6,
       "source_quest_or_shop": "Parallel Quest 6 — \"Saibamen's Revenge\"",
       "source_parallel_quests": [
