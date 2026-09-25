@@ -159,3 +159,14 @@
 - [x] Validation: parsed Batch 52 and the cross-domain index and confirmed the promoted record and audit registration.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** continue Batch 52 with **Final Pose**, applying the same bounded current-evidence policy.
+
+
+### 2026-09-25 cycle completion — Final Pose current-evidence provenance promotion
+- [x] Promoted **Final Pose** in Skill Research Batch 52 to `verified_current_scope` using current Xenoverse 2-specific skill evidence plus PQ74/reward corroboration.
+- [x] Confirmed Power Up Evasive classification, **200 Stamina** current XV2-specific value, close-range shockwave, knockback, approximately 2% documented damage, and temporary basic-attack increase lasting about 11.5–12 seconds.
+- [x] Preserved the historical **300-Stamina discrepancy** instead of silently overwriting it; the current XV2-specific 200 value is canonical.
+- [x] Added and registered `docs/data/skill-final-pose-current-evidence-audit-2026-09-25.json`.
+- [x] Preserved unresolved reward probability/guarantee semantics.
+- [x] Validation: parsed Batch 52 and the cross-domain index and confirmed the promoted record and audit registration.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** continue Batch 52 with **Counter Burst**, applying the same bounded current-evidence policy.
