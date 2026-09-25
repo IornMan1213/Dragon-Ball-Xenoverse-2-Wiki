@@ -768,3 +768,15 @@
 - [x] Validation: JSON records parse; canonical count remains **469**; no canonical promotion was attempted because the supported builder/runtime remains unavailable.
 - [ ] CI success remains unverified; no CI success claimed.
 - [ ] **Exact next:** continue **skill-research-batches/skill-batch-170.json — Dynamite Kick**, using the same bounded P1 provenance workflow; then proceed to the next deterministic research batch.
+
+
+### 2026-09-24 cycle update — Dynamite Kick P1 provenance verification
+- [x] Live canonical census: **469** skill records; Dynamite Kick was not promoted because the supported builder/runtime remains unavailable.
+- [x] Bounded batch: **skill-research-batches/skill-batch-170.json — Dynamite Kick**.
+- [x] Revalidated Xenoverse 2 **Super / Strike**, **100 Ki**, CaC usability, and **Training with Hercule** acquisition using current Xenoverse 2-specific evidence plus independent mentor/training corroboration.
+- [x] Strengthened mechanics evidence: short-range chargeable kick, increased follow-up sequence while charging, up to 13 hits, and knockback finish.
+- [x] Added `docs/data/skill-dynamite-kick-p1-provenance-verification-2026-09-24.json` and updated batch 170.
+- [x] Preserved evidence limits: stamina, exact frame/hitbox data, and stable universal numeric damage remain unresolved/version-sensitive.
+- [x] Validation: changed JSON parsed successfully; canonical count remains **469**; no unsupported canonical/index mutation made.
+- [ ] CI success remains unverified; no CI success claimed.
+- [ ] **Exact next:** continue the next highest-priority deterministic research batch after 170, preferring existing partially verified skill records with direct Xenoverse 2 evidence and cross-database value.
