@@ -7437,3 +7437,10 @@
 - [x] Preserved the 469/469 canonical/index boundary and unresolved numeric/matchup evidence.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** complete **skill-batch-199 — Time Skip/Back Breaker** using direct Xenoverse 2 evidence and the same bounded provenance workflow.
+
+### 2026-09-24 — TODO completion update — Time Skip/Back Breaker P1 provenance verification
+- [x] Completed **skill-batch-199 — Time Skip/Back Breaker** with current Xenoverse 2 identity, 100 Ki, Hit Lesson 1 acquisition, Future Warrior availability, and rear-counter mechanics.
+- [x] Added and registered the Time Skip/Back Breaker provenance audit.
+- [x] Preserved the 469/469 canonical/index boundary and unresolved evidence fields.
+- [ ] CI remains unverified; latest Pages run is in progress while quality/clean runs fail without useful step output.
+- [ ] **Exact next:** complete **skill-batch-200 — Time Skip/Flash Skewer**.
