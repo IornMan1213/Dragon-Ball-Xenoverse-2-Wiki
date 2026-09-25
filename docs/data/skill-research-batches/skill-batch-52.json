@@ -121,18 +121,19 @@
       "character_source": "Ginyu Force",
       "dlc_requirement": null,
       "ki_cost": null,
-      "stamina_cost": null,
+      "stamina_cost": 200,
       "damage_type": "Other",
       "unlock_method": "Parallel Quest 74 — Galactic Patrol, Away!",
       "source_quest_or_shop": "Parallel Quest 74",
       "ultimate_finish_required": null,
-      "skill_description": "A pose-based evasive technique.",
-      "mechanics_notes": "The character-ID reference identifies Final Pose as a CaC Evasive skill. Exact stamina cost and detailed effect were not promoted without a sufficiently direct current technical source.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
+      "skill_description": "Strike a pose, then create a close-range shockwave that knocks the opponent away and temporarily increases normal attack power.",
+      "mechanics_notes": "Current Xenoverse 2-specific skill documentation classifies Final Pose as a Power Up Evasive with 200 Stamina Used, a close-range shockwave/knockback effect, approximately 2% documented damage, and a temporary basic-attack increase lasting about 11.5–12 seconds. Older Xenoverse-era/general references list 300 Stamina; the current XV2-specific value is retained and the older value is preserved only as provenance context. PQ74 is the documented acquisition endpoint, while player reports identify the skill as a Recoome character drop; no guaranteed-drop or numeric probability is inferred.",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
       "sources": [
-        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
+        "https://dbxv2.fandom.com/wiki/Final_Pose",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74997123"
       ]
     },
     {
