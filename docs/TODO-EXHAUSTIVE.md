@@ -7535,3 +7535,13 @@
 - [x] Validation baseline remains **469/469** canonical/index with **0 duplicate IDs**.
 - [x] Commit: `767d1fb9747ab8c3746a4bcf51be3c9fb06fed5c`.
 - [ ] **Exact next:** inspect current Actions state, then process **skill-batch-210**.
+
+
+### 2026-09-24 — TODO completion update — Batches 210–213 audit-chain refresh
+- [x] Finalized **skill-batch-210** historical Flash Fist Crush correction and refreshed its verification metadata.
+- [x] Refreshed **skill-batch-211** post-correction audit for Counter Impact, Burst Reflection, and Change The Future.
+- [x] Refreshed **skill-batch-212** acquisition/taxonomy audit for Absolute Zero, Dragon Burn, Dimensional Hole, and Counter Burst.
+- [x] Refreshed **skill-batch-213** counter-taxonomy audit for Counter Burst, Ultrasonic Blitz, and Demon Flash Strike.
+- [x] Validation baseline remains **469/469** canonical/index with **0 duplicate IDs**; no speculative records were created.
+- [ ] CI remains unverified because the Actions jobs continue to fail without exposed workflow steps/logs.
+- [ ] **Exact next:** inspect current Actions state, then process **skill-batch-214**.
