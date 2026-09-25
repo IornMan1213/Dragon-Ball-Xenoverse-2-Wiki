@@ -1,4 +1,12 @@
-### 2026-09-24 cycle completion — Skill Research Batch 297 provenance refresh
+### 2026-09-24 cycle completion — internal-artifact cleanup and CI diagnosis
+- [x] Inspected the current Actions state: Repository quality and Clean internal artifacts failed on commit `64d0c981451c47b63c8c3781896d9ed81f5df535`; Pages remained in progress.
+- [x] Inspected the live artifact checker contract. Its forbidden-marker scan was not weakened.
+- [x] Identified committed assistant citation/export markup in the continuation history, CHANGELOG, and TP/STP Medal Shop database; these were documentation artifacts, not intended wiki data.
+- [x] Removed the detected internal citation spans/identifiers from `docs/AI-CONTINUATION-PROMPT.md`, `CHANGELOG.md`, and `docs/TP-STP-Medal-Shop-Database.md` without changing the substantive research statements.
+- [x] Directly re-fetched the three edited files after cleanup and verified their contents are valid UTF-8 text with no remaining assistant citation markup in those files.
+- [x] Preserved the repository's 469/469 canonical skill boundary and did not weaken or bypass validation.
+- [ ] CI success remains unverified because the connector cannot expose usable job logs; a subsequent push is required to observe whether the artifact-check failure is resolved.
+- [ ] **Exact next:** inspect the newly triggered Actions results after this cleanup; if Repository quality is clean, resume the next deterministic research/builder task. If it still fails, inspect the exact current-tree artifact report before changing any additional content.\n\n### 2026-09-24 cycle completion — Skill Research Batch 297 provenance refresh
 - [x] Continued **skill-batch-297** for **Blaster Stream, Brave Heat, Chain Destructo-Disc Barrage, and Circle Flash**.
 - [x] Reconfirmed all four as **Ki Blast Ultimates using 300 Ki** from current Xenoverse 2 references.
 - [x] Reconfirmed acquisition endpoints: **PQ148**, **Bardock mentor training**, **PQ46**, and **PQ154**, respectively.
