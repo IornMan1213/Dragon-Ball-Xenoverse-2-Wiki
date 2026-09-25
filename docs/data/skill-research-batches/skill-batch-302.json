@@ -18,13 +18,14 @@
       "sources": [
         "https://dbxenoverse.fandom.com/wiki/Energy_Cannon_%28Skill%29",
         "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
-      ]
+      ],
+      "notes": "2026-09-24 cost-boundary refresh: current Xenoverse 2-specific identity/classification/cast-only evidence was rechecked, but the reviewed sources expose no reliable numeric in-combat Ki cost. Existing null is preserved; shop-price data and cross-game Energy Cannon/Kiai references are not used as cost evidence."
     },
     {
       "name": "Darkness Mixer",
       "class": "Super",
       "subcategory": "Other",
-      "ki_cost": null,
+      "ki_cost": 0,
       "usable_by_cac": false,
       "character_source": "Yamcha (Supervillain) and other Supervillain/Raid characters; Demon God Demigra",
       "dlc_requirement": null,
@@ -34,8 +35,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Darkness_Mixer",
         "https://dbxv2.fandom.com/wiki/Super_Attack"
-      ]
+      ],
+      "notes": "2026-09-24 cost verification: current Xenoverse 2 skill documentation confirms Other Super/cast-only status, while current gameplay documentation explicitly states the move does not cost anything to use. Recorded as 0 Ki in the research layer; no stamina/frame/charge-rate numeric values inferred."
     }
   ],
-  "notes": "Both records were absent from docs/data/skills.json and had not been represented by an earlier research batch. Energy Cannon has explicit Super/Ki Blast taxonomy and cast-only Demigra ownership. Darkness Mixer has explicit Other Super taxonomy and cast-only status. Numeric Ki costs remain null where the dedicated sources do not provide them. 2026-09-24 verification: current Xenoverse 2-specific evidence independently confirms Darkness Mixer as an Other Super, Crystal Raid-capable, normally unavailable to CaCs, and used by Supervillain characters; numeric Ki cost remains unresolved. Energy Cannon's existing Ki Blast Super/Demon God Demigra classification remains unchanged; no new reliable numeric cost or acquisition endpoint was found, so nulls are preserved."
+  "notes": "2026-09-24 cost verification: Darkness Mixer is now research-resolved to 0 Ki from current gameplay evidence; Energy Cannon remains null because the checked Xenoverse 2-specific sources do not expose a reliable numeric in-combat cost. No unsupported canonical promotion was made."
 }
