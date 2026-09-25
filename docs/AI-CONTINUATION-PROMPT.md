@@ -669,8 +669,8 @@
 - [x] Fresh census selected **Evil Eyes, Fake Blast, Fake Death, Feint Crash**, all at the 78-character mechanics tier.
 - [x] Added current Xenoverse 2 mechanics evidence for all four and synchronized canonical/index records.
 - [x] **Fake Blast corrected:** dedicated and Evasive references classify it as a **Ki Blast Evasive using 200 Stamina**, not a Super/0-Ki record.
-- [ ] Batch 364 audit/research-batch artifact creation was blocked by the connector safety layer after canonical/index writes; this remains the first exact follow-up before the next batch.
-- [ ] Cross-domain registry for Batch 364 is likewise pending until the artifact exists.
+- [x] Batch 364 audit/research-batch artifacts were created and validated after the connector safety-layer retry.
+- [x] Batch 364 audit and research-batch paths are registered in `docs/data/pq-cross-domain-index.json`.
 - [x] Evidence limits preserved: no hidden probabilities, frame data, or unsupported timing inferred.
 - [ ] CI remains unverified.
-- [x] **Exact next:** create/register Batch 364 audit + research-batch artifacts and cross-domain entries, validate canonical/index parity, then run a fresh thin-record census.
+- [x] **Exact next:** fresh global thin-record census; shortest remaining 78-character mechanics records are **Fighting Pose A, Fighting Pose F, Innocence Breath, Innocence Bullet, Innocence Cannon, Justice Rush, Shining Friday, Strike of Revelation, Sudden Storm, Super Explosive Wave**.
