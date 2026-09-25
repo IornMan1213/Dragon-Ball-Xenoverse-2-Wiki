@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-24",
+  "scope": [
+    "pqacc-027",
+    "pqacc-028"
+  ],
+  "findings": [
+    {
+      "research_id": "pqacc-027",
+      "name": "Kale's Accessory",
+      "pq": 148,
+      "canonical_domain": "equipment_accessory",
+      "canonical_id": "equip-055",
+      "canonical_name": "Kale Wig",
+      "evidence": [
+        "Current equipment-accessories record layer identifies equip-055 as Kale Wig, category accessory.",
+        "Current PQ-equipment crosslink report points PQ148 to equip-055.",
+        "Maintained PQ guide documents Kale Wig as a PQ148 Basic Reward."
+      ],
+      "limits": [
+        "No separate acc-### identity is required or invented. Exact reward probability is not inferred."
+      ]
+    },
+    {
+      "research_id": "pqacc-028",
+      "name": "Caulifla's Accessory",
+      "pq": 147,
+      "canonical_domain": "equipment_accessory",
+      "canonical_id": "equip-053",
+      "canonical_name": "Caulifla Wig",
+      "evidence": [
+        "Current equipment-accessories record layer identifies equip-053 as Caulifla Wig, category accessory.",
+        "Current PQ-equipment crosslink report points PQ147 to equip-053.",
+        "Maintained PQ guide documents Caulifla Wig as a PQ147 Basic Reward."
+      ],
+      "limits": [
+        "No separate acc-### identity is required or invented. Exact reward probability is not inferred."
+      ]
+    }
+  ],
+  "resolution": "Both residual research labels are now domain-resolved through existing canonical equipment/accessory identities. The external inventory catalog independently lists Kale Wig and Caulifla Wig as accessory identities, while the maintained PQ guide supplies PQ148/PQ147 reward provenance. The repository's canonical graph already contains the exact equip endpoints, so creating duplicate acc-### records would reduce integrity."
+}
