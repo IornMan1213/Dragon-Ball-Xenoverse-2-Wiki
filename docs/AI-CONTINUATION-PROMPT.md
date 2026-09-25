@@ -247,3 +247,12 @@
 - [x] Synchronized the current-facing skills index and registered the audit in the cross-domain index.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** continue the remaining source-backed P1 provenance queue with the next under-enriched canonical skill.
+
+
+### 2026-09-25 cycle completion — Batch 54 PQ94/PQ95/PQ97 provenance promotion
+- [x] Promoted **Bluff Kamehameha**, **Drain Field**, **Charged Ki Wave**, and **Phantom Fist** to `verified_current_scope`.
+- [x] Added and registered four current-evidence audits.
+- [x] Preserved unresolved reward probability/Ultimate-Finish conflicts and historical resource discrepancies.
+- [x] Synchronized canonical Batch 54 and skills-index records plus cross-domain audit registrations.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** continue the remaining under-enriched canonical skill provenance queue after a fresh live census.
