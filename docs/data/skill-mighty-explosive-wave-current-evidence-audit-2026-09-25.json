@@ -1,19 +1,20 @@
 {
+  "schema_version": "1.0.0",
   "audit_id": "skill-mighty-explosive-wave-current-evidence-audit-2026-09-25",
-  "scope": [
-    "Mighty Explosive Wave"
-  ],
-  "result": "Promoted to verified_current_scope. Current Xenoverse 2-specific documentation supports the base-game Super classification, 100-Ki cost, PQ79 endpoint, and short-range explosion mechanics.",
-  "mechanics": {
-    "classification": "Ki Blast Super",
-    "ki_cost": 100,
-    "behavior": "Short-range purple explosion around the user; documented six hits and about 10% damage.",
-    "acquisition": "Parallel Quest 79 — Great Ape Festival"
+  "audit_date": "2026-09-25",
+  "target": "Mighty Explosive Wave",
+  "result": "current_evidence_refresh",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Ki Blast",
+    "source_quest_or_shop": "Parallel Quest 79 — \"Great Ape Festival\"",
+    "mechanics": "100-Ki close-range explosion centered on the user; distinct from Jiren (Full Power)'s Stamina-based Evasive version."
   },
-  "reward_semantics": {
-    "status": "corroborated endpoint only",
-    "ultimate_finish_required": null,
-    "drop_probability": null,
-    "notes": "No numeric probability or hidden Ultimate-Finish gate promoted."
-  }
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Mighty_Explosive_Wave",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "limits": [
+    "No unsupported drop probabilities, hidden gates, exact frame data, or version-sensitive damage values are inferred."
+  ]
 }
