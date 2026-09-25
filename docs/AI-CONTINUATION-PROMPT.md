@@ -2259,3 +2259,13 @@
 - [ ] CI remains unavailable; no workflow success is claimed.
 - [x] Commits: `d3a84cadf09f744541b2f76e82df48ec5b2ad82b`, `a7889c8237844259265a2b677fc2280ee51ba84d`, `eabcf1a8048f8772ae2f2d2ae6d38f5a5b1af140`.
 - [ ] **Exact next:** continue exact-pair parity scanning of remaining reverse/navigation projections for another explicitly current stale scalar; do not rewrite historical 854/146 snapshots.
+
+
+### 2026-09-25 continuation cycle — PQ explorer validator baseline hardening
+- [x] Audited the next registered PQ explorer/reference validator after the reverse-index scalar repair.
+- [x] Hardened `scripts/validate_pq_explorer_reward_navigation.py` so it now asserts the complete live six-domain relationship baseline, not only skill/Super Soul/equipment parity: **853 total = 244 skill / 145 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming**.
+- [x] Added duplicate canonical `(relationship, PQ, target)` detection to the explorer validator.
+- [x] Added `docs/data/pq-explorer-reward-navigation-validator-hardening-2026-09-25.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] No canonical relationship, identity, or acquisition data was changed; this is validator-only hardening.
+- [ ] Runtime/CI execution remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue auditing the remaining PQ explorer/reference validators for hidden scalar assumptions, endpoint-only checks, and incomplete domain coverage.
