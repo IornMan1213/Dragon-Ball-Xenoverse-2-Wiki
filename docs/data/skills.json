@@ -11766,10 +11766,11 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Expert Mission 17 — \"In the Realm of the Gods: Goku\"",
       "acquisition_type": "expert_mission",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "research_status": "enriched",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM17. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing. Existing acquisition semantics are retained without inferring a drop probability or additional gate.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
-      "id": "skill-spirit-sword"
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM17. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing. Existing acquisition semantics are retained without inferring a drop probability or additional gate.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.\n2026-09-25 Batch 360 zero-mechanics frontier completion: current Xenoverse 2-specific evidence expanded bounded combat mechanics while preserving existing Expert Mission acquisition semantics. No unsupported probability, hidden prerequisite, Ultimate Finish gate, frame data, exact timing, or stacking cap was inferred.",
+      "id": "skill-spirit-sword",
+      "mechanics_notes": "400-Ki Strike Ultimate from Expert Mission 17 — In the Realm of the Gods: Goku. The user extends a long Ki blade for a stab, then spins twice for follow-up slashes; current Xenoverse 2-specific evidence describes a 3-hit sequence and 50% source-reported damage. The follow-up does not occur if the initial stab fails to connect. The move can interact with nearby targets because of its blade hitbox; exact hitbox geometry and timing are not promoted."
     },
     {
       "name": "Spread Shot Retreat",
@@ -12117,10 +12118,11 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Expert Mission 11 — \"The Devil Born from the Dragon Balls\"",
       "acquisition_type": "expert_mission",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "research_status": "enriched",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM11. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.",
-      "id": "skill-super-electric-strike"
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM11. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.\n2026-09-25 Batch 360 zero-mechanics frontier completion: current Xenoverse 2-specific evidence expanded bounded combat mechanics while preserving existing Expert Mission acquisition semantics. No unsupported probability, hidden prerequisite, Ultimate Finish gate, frame data, exact timing, or stacking cap was inferred.",
+      "id": "skill-super-electric-strike",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from Expert Mission 11 — The Devil Born from the Dragon Balls. The user throws a large, wide-range Ki wave toward the locked-on opponent; current Xenoverse 2-specific evidence describes projectile/wave tracking, long-range coverage, 17 hits, knockback, and 40% source-reported damage. The existing EM11 acquisition endpoint is retained."
     },
     {
       "name": "Super Elite Combo",
