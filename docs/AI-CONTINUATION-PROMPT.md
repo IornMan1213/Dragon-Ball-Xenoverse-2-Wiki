@@ -2373,3 +2373,13 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] **Exact next:** check for any Batch 333+ artifact; if absent, continue the next deterministic Expert Mission/research tranche or stale current-facing consumer audit, with EM17 conflict resolution only if stronger evidence becomes available.
 
+### 2026-09-25 cycle completion — Skill research Batch 333: Acid availability boundary
+- [x] Confirmed no existing Batch 333+ artifact before proceeding.
+- [x] Added `docs/data/skill-research-batches/skill-batch-333.json` for **Acid**.
+- [x] Strengthened the current availability/provenance boundary: Acid is non-CaC and is documented on the Saibaman/Saibaman 2 Crystal Raid side rather than as a normal Future Warrior acquisition.
+- [x] Preserved the unresolved numeric Ki cost and detailed combat values; no unsupported numeric mechanic was added.
+- [x] Registered Batch 333 in `docs/data/pq-cross-domain-index.json` and advanced `docs/data/skill-catalog-audit.json` to **latest_research_batch 333**.
+- [x] No canonical skill identity, PQ relationship, acquisition route, or drop condition was changed.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** check for Batch 334+; if absent, continue the next remaining partially verified skill/provenance target (Howl → Boiling Burg → Energy Boil → Baked Sphere/Boulder/Boiling Ball/Tricky Strike as evidence permits), or switch to the next machine-checkable stale consumer if that yields stronger deterministic progress.
+
