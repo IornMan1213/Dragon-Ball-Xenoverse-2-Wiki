@@ -3133,3 +3133,11 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Added and registered `docs/data/skill-ultrasonic-blitz-p1-provenance-verification-2026-09-24.json`.
 - Refreshed `docs/data/skill-research-batches/skill-batch-202.json` while preserving unresolved counter frames, hitboxes, current damage, stamina cost, and drop probability.
 - Canonical/index parity remains 469/469; CI success remains unverified because current Actions failures expose no usable workflow steps/logs.
+
+
+### 2026-09-24 — Batch 209 historical reconciliation correction
+- Corrected the historical Flash Fist Crush duplicate claim in Batch 140: Batch 127 is **Deadly Dance**, not Flash Fist Crush.
+- Refreshed Batch 209 to 2026-09-24 and registered the reconciliation in `docs/data/pq-cross-domain-index.json`.
+- Preserved current Flash Fist Crush identity as Super / Strike / Universal Counter with 100 Ki and Shenron-wish acquisition; no duplicate canonical identity was created.
+- Revalidated the unchanged Dragon Thunder and Shadow Crusher findings.
+- Validation target remains the established **469/469** canonical/index boundary with **0 duplicate IDs**.
