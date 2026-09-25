@@ -139,3 +139,13 @@
 - [x] Validation: parsed the updated Batch 52/index/audit JSON and confirmed the Last Emperor promotion and registration.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** continue Batch 52 with **Burst Kamehameha**.
+
+
+### 2026-09-25 cycle completion — Burst Kamehameha current-evidence provenance promotion
+- [x] Promoted **Burst Kamehameha** in Skill Research Batch 52 to `verified_current_scope` using current Xenoverse 2-specific skill evidence plus independent PQ72 reward/drop discussion.
+- [x] Confirmed Ki Blast Super classification, 100-Ki initial cost with an additional 100-Ki extension input, PQ72 acquisition endpoint, multi-hit beam behavior, and documented character-source coverage.
+- [x] Preserved unresolved reward semantics: no Ultimate-Finish-only requirement or numeric drop probability was inferred from community evidence.
+- [x] Registered `docs/data/skill-burst-kamehameha-current-evidence-audit-2026-09-25.json` in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: parsed Batch 52 and the cross-domain index; confirmed the Burst Kamehameha record is current and the audit registration resolves to the existing file.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** continue Batch 52 with the next remaining under-enriched record, **Psychic Move**, using the same bounded current-evidence policy.
