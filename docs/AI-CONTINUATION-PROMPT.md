@@ -2118,3 +2118,13 @@
 - [x] Validation: new audit and cross-domain registry parse successfully; **0 relationship edges changed / 0 identities created / 0 acquisition routes inferred / 0 historical artifacts rewritten**.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the current producer/consumer parity queue using explicit layer semantics; prioritize a genuinely current one-way endpoint mismatch or source-backed thin-domain enrichment rather than another scalar-only equipment recount.
+
+
+### 2026-09-25 cycle completion — Energy Boil evidence refresh
+- [x] Continued the thin skill-gap queue after the current producer/consumer census found no new supported stale scalar; targeted **Energy Boil** using current Xenoverse 2 evidence.
+- [x] Added current indexed skill-guide evidence explicitly placing **Energy Boil ID 10540** in the Evasive Skill section.
+- [x] Refined `docs/data/skill-research-gaps-energy-boil-evidence-audit-2026-09-24.json`: broad Evasive classification is corroborated; repository subtype and numeric `ki_cost` remain unresolved.
+- [x] Added and registered `docs/data/energy-boil-evidence-refresh-2026-09-25.json`.
+- [x] Validation: all changed/readback JSON parsed successfully; **0 relationship edges changed / 0 canonical IDs created / 0 canonical records promoted / 0 acquisition routes inferred**.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the remaining cast-only/legacy skill-gap queue, prioritizing the next record with a concrete Xenoverse 2-specific classification field that can be resolved without inventing a cost or acquisition route.
