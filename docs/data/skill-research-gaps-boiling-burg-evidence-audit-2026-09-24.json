@@ -29,6 +29,21 @@
     {
       "type": "xenoverse2_context_refresh",
       "claim": "Current external verification confirms Boiling Burg remains a Final Form Demigra Ultimate and is independently listed among Xenoverse 2 skills unavailable to CaCs."
+    },
+    {
+      "type": "xenoverse2_reference",
+      "claim": "A current indexed Xenoverse 2 skill ID list assigns Boiling Burg short ID 540 (long ID 5540), marks it CaC-unavailable, and identifies Demon God Demigra (Final Form) as the owner.",
+      "source": "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
+    },
+    {
+      "type": "xenoverse2_cac_catalog",
+      "claim": "A maintained Xenoverse 2 list of skills unobtainable by CaC explicitly includes Boiling Burg.",
+      "source": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79567595"
+    },
+    {
+      "type": "xenoverse2_move_reference",
+      "claim": "A Dragon Ball reference describes Boiling Burg as Final Demigra's Ultimate attack and notes the dark-energy pillars/lock-on behavior documented for the Xenoverse implementation.",
+      "source": "https://dragonball.fandom.com/wiki/Demigra"
     }
   ],
   "resolved_fields": {
@@ -44,5 +59,6 @@
     "Do not infer Ki cost from Dragon Ball Xenoverse, Heroes, Dokkan, or mod implementation.",
     "Do not create a CaC acquisition route from NPC/boss usage.",
     "Do not promote to canonical skills.json without supported builder execution and required field coverage."
-  ]
+  ],
+  "notes": "2026-09-24 follow-up: independent indexed Xenoverse 2 sources reconfirm Boiling Burg as long ID 5540 / short ID 540, CaC-unavailable, and owned by Final Form Demigra. A separate CaC-unobtainable catalog independently lists the skill. The documented move behavior is consistent with Final Demigra's Ultimate identity. Numeric Ki cost remains unresolved; no cross-game or inferred cost is promoted."
 }
