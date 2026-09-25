@@ -15,9 +15,11 @@
     {
       "domain": "Frieza Race Skills",
       "issue": "Current source research indicates 2 records while earlier repository notes expected 4.",
-      "action": "Recheck the current category and reconcile historical/source drift.",
+      "action": "Keep the two-name set synchronized with the current category. Treat future additions/removals as deltas and separately verify each record's restrictions, acquisition, costs, mechanics, and provenance.",
       "priority": "high",
-      "status": "open"
+      "status": "resolved",
+      "resolved_at": "2026-09-24",
+      "resolution": "Current Xenoverse 2 Frieza Race Skills category exposes exactly 2 entries: Darkness Rush (Melee) and Turn Golden. The repository's frieza-race-skills catalog already contains the same two names; the earlier expectation of four is historical/source drift, not a current missing-record gap."
     },
     {
       "domain": "Lovely Showtime",
