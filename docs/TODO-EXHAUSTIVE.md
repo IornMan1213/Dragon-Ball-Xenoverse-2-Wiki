@@ -365,3 +365,12 @@
 - [x] Canonical/index parity: **469/469**, duplicate IDs: **0**.
 - [ ] CI remains unverified.
 - [x] **Exact next:** **Super God Fist, Variant Drive, Zigzag Express** — final three verified|verified records.
+
+
+### 2026-09-25 cycle completion — Skill Batch 345 / verified-frontier closure
+- [x] Live census: **469 canonical / 469 index / 3 verified|verified frontier**.
+- [x] Completed **Super God Fist, Variant Drive, Zigzag Express** with current-evidence audits and enriched research status.
+- [x] Preserved the Zigzag Express acquisition conflict instead of silently resolving it.
+- [x] Canonical/index parity: **469/469**, duplicate IDs: **0**, remaining verified|verified: **0**.
+- [ ] CI remains unverified.
+- [x] **Verified-frontier closure:** all 469 canonical skills are now at least research-enriched or better; next cycle must perform a fresh broader census and select the next highest-impact unfinished TODO rather than assuming another verified-frontier batch exists.
