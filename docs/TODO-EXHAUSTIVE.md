@@ -7267,3 +7267,11 @@
 - [x] Preserved the verified 469/469 canonical/index boundary and unresolved numeric evidence fields.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** complete **skill-batch-179 — Fake Death**.
+
+
+### 2026-09-24 — TODO completion update — Fake Death
+- [x] Completed **skill-batch-179 — Fake Death** and resolved the previously blocked repository write.
+- [x] Added and registered the Fake Death provenance audit.
+- [x] Preserved verified canonical parity at **469/469** and unresolved evidence limits.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** complete **skill-batch-180 — Phantom Fist**.
