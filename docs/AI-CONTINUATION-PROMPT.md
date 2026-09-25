@@ -1452,3 +1452,13 @@
 - [x] No cross-game or inferred Ki cost was promoted; canonical/index boundary remains **469/469**.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue with **Energy Boil**, prioritizing its unresolved repository subcategory and numeric Ki cost using direct Xenoverse 2 evidence.
+
+
+### 2026-09-24 cycle completion — Energy Boil evidence follow-up
+- [x] Strengthened **Energy Boil** with independent Xenoverse 2 ID-list, encounter, and CaC-unobtainable evidence.
+- [x] Reconfirmed **long ID 10540 / short ID 540**, Final Form Demigra ownership, Evasive classification, and CaC-unavailable status.
+- [x] Updated the dedicated Energy Boil audit and central gap ledger.
+- [x] Preserved unresolved repository **subcategory** and **numeric Ki cost**; no unsupported promotion or cross-game inference.
+- [x] Canonical/index boundary remains **469/469**.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue with **Baked Sphere**, then the remaining unresolved cast-only skill records.
