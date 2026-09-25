@@ -1,66 +1,118 @@
 {
-  "schema_version":"1.0.0",
-  "batch_id":335,
-  "created":"2026-09-25",
-  "type":"evidence_reconciliation",
-  "scope":"Expert Mission skill provenance tranche EM09-12",
-  "records":[
+  "schema_version": "1.0.0",
+  "batch_id": 335,
+  "created": "2026-09-25",
+  "type": "evidence_reconciliation",
+  "scope": "Expert Mission skill provenance tranche EM09-12",
+  "records": [
     {
-      "name":"Assault Rain",
-      "id":"skill-assault-rain",
-      "expert_mission":9,
-      "mission_title":"The Most Feared Majin",
-      "canonical_class":"Ultimate",
-      "canonical_subcategory":"Ki Blast",
-      "promoted_fields":{"source_quest_or_shop":"Expert Mission 9 - The Most Feared Majin","ki_cost":300},
-      "evidence":"Current Xenoverse 2 skill documentation explicitly identifies EM09, Ki Blast Ultimate classification, and 300 Ki. The maintained all-Expert-Missions guide independently lists Assault Rain as the EM09 Basic Reward.",
-      "sources":["https://dbxv2.fandom.com/wiki/Assault_Rain","https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"],
-      "limits":["Exact drop probability and first-clear guarantee remain unresolved."]
+      "name": "Assault Rain",
+      "id": "skill-assault-rain",
+      "expert_mission": 9,
+      "mission_title": "The Most Feared Majin",
+      "canonical_class": "Ultimate",
+      "canonical_subcategory": "Ki Blast",
+      "promoted_fields": {
+        "source_quest_or_shop": "Expert Mission 9 - The Most Feared Majin",
+        "ki_cost": 300
+      },
+      "evidence": "Current Xenoverse 2 skill documentation explicitly identifies EM09, Ki Blast Ultimate classification, and 300 Ki. The maintained all-Expert-Missions guide independently lists Assault Rain as the EM09 Basic Reward.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Assault_Rain",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
+      ],
+      "limits": [
+        "Exact drop probability and first-clear guarantee remain unresolved."
+      ],
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25"
     },
     {
-      "name":"Hellzone Grenade",
-      "id":"skill-hellzone-grenade",
-      "expert_mission":10,
-      "mission_title":"The Emperor's Worth",
-      "canonical_class":"Ultimate",
-      "canonical_subcategory":"Ki Blast",
-      "promoted_fields":{"source_quest_or_shop":"Expert Mission 10 - The Emperor's Worth","ki_cost":300},
-      "evidence":"Current Xenoverse 2 skill documentation explicitly identifies EM10, Ki Blast Ultimate classification, and 300 Ki. Dragon Ball reference material independently states that the Future Warrior can obtain it as a random reward from EM10; an archived GameFAQs discussion independently identifies EM10.",
-      "sources":["https://dbxv2.fandom.com/wiki/Hellzone_Grenade","https://dragonball.fandom.com/wiki/Hellzone_Grenade","https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74503104","https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"],
-      "limits":["The historical random-reward statement is not converted into a numerical drop rate.","Exact first-clear guarantee remains unresolved."]
+      "name": "Hellzone Grenade",
+      "id": "skill-hellzone-grenade",
+      "expert_mission": 10,
+      "mission_title": "The Emperor's Worth",
+      "canonical_class": "Ultimate",
+      "canonical_subcategory": "Ki Blast",
+      "promoted_fields": {
+        "source_quest_or_shop": "Expert Mission 10 - The Emperor's Worth",
+        "ki_cost": 300
+      },
+      "evidence": "Current Xenoverse 2 skill documentation explicitly identifies EM10, Ki Blast Ultimate classification, and 300 Ki. Dragon Ball reference material independently states that the Future Warrior can obtain it as a random reward from EM10; an archived GameFAQs discussion independently identifies EM10.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Hellzone_Grenade",
+        "https://dragonball.fandom.com/wiki/Hellzone_Grenade",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74503104",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
+      ],
+      "limits": [
+        "The historical random-reward statement is not converted into a numerical drop rate.",
+        "Exact first-clear guarantee remains unresolved."
+      ],
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25"
     },
     {
-      "name":"Super Electric Strike",
-      "id":"skill-super-electric-strike",
-      "expert_mission":11,
-      "mission_title":"The Devil Born from the Dragon Balls",
-      "canonical_class":"Ultimate",
-      "canonical_subcategory":"Ki Blast",
-      "promoted_fields":{"source_quest_or_shop":"Expert Mission 11 - The Devil Born from the Dragon Balls","ki_cost":300},
-      "evidence":"Current Xenoverse 2 skill documentation explicitly identifies EM11, Ki Blast Ultimate classification, and 300 Ki. Independent Steam mission documentation lists Super Electric Strike as the EM11 Basic Reward, while video and GameFAQs references independently identify EM11 as its acquisition mission.",
-      "sources":["https://dbxv2.fandom.com/wiki/Super_Electric_Strike","https://steamcommunity.com/sharedfiles/filedetails/?id=816459527","https://www.youtube.com/watch?v=tCo_n4D4bBs","https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74763521"],
-      "limits":["Community references about usefulness or RNG are not treated as balance facts or numerical drop rates.","Exact first-clear guarantee remains unresolved."]
+      "name": "Super Electric Strike",
+      "id": "skill-super-electric-strike",
+      "expert_mission": 11,
+      "mission_title": "The Devil Born from the Dragon Balls",
+      "canonical_class": "Ultimate",
+      "canonical_subcategory": "Ki Blast",
+      "promoted_fields": {
+        "source_quest_or_shop": "Expert Mission 11 - The Devil Born from the Dragon Balls",
+        "ki_cost": 300
+      },
+      "evidence": "Current Xenoverse 2 skill documentation explicitly identifies EM11, Ki Blast Ultimate classification, and 300 Ki. Independent Steam mission documentation lists Super Electric Strike as the EM11 Basic Reward, while video and GameFAQs references independently identify EM11 as its acquisition mission.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Electric_Strike",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "https://www.youtube.com/watch?v=tCo_n4D4bBs",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74763521"
+      ],
+      "limits": [
+        "Community references about usefulness or RNG are not treated as balance facts or numerical drop rates.",
+        "Exact first-clear guarantee remains unresolved."
+      ],
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25"
     },
     {
-      "name":"Angry Explosion",
-      "id":"skill-angry-explosion",
-      "expert_mission":12,
-      "mission_title":"Attack of the Lone Supersoldier",
-      "canonical_class":"Ultimate",
-      "canonical_subcategory":"Ki Blast",
-      "promoted_fields":{"source_quest_or_shop":"Expert Mission 12 - Attack of the Lone Supersoldier","ki_cost":300},
-      "evidence":"Current Xenoverse 2 skill documentation explicitly identifies EM12, Ki Blast Ultimate classification, and 300 Ki. The maintained all-Expert-Missions guide independently lists Angry Explosion as the EM12 Basic Reward; Dragon Ball reference material also identifies EM12 as its Future Warrior reward endpoint.",
-      "sources":["https://dbxv2.fandom.com/wiki/Angry_Explosion","https://dragonball.fandom.com/wiki/Angry_Explosion","https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"],
-      "limits":["Exact drop probability and first-clear guarantee remain unresolved.","Community discussion about damage/balance is not promoted as canonical numeric balance data."]
+      "name": "Angry Explosion",
+      "id": "skill-angry-explosion",
+      "expert_mission": 12,
+      "mission_title": "Attack of the Lone Supersoldier",
+      "canonical_class": "Ultimate",
+      "canonical_subcategory": "Ki Blast",
+      "promoted_fields": {
+        "source_quest_or_shop": "Expert Mission 12 - Attack of the Lone Supersoldier",
+        "ki_cost": 300
+      },
+      "evidence": "Current Xenoverse 2 skill documentation explicitly identifies EM12, Ki Blast Ultimate classification, and 300 Ki. The maintained all-Expert-Missions guide independently lists Angry Explosion as the EM12 Basic Reward; Dragon Ball reference material also identifies EM12 as its Future Warrior reward endpoint.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Angry_Explosion",
+        "https://dragonball.fandom.com/wiki/Angry_Explosion",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
+      ],
+      "limits": [
+        "Exact drop probability and first-clear guarantee remain unresolved.",
+        "Community discussion about damage/balance is not promoted as canonical numeric balance data."
+      ],
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25"
     }
   ],
-  "validation":{
-    "records":4,
-    "canonical_promotion":false,
-    "relationship_changes":0,
-    "numeric_costs_promoted":4,
-    "drop_rates_promoted":0,
-    "guarantees_promoted":0
+  "validation": {
+    "records": 4,
+    "canonical_promotion": false,
+    "relationship_changes": 0,
+    "numeric_costs_promoted": 4,
+    "drop_rates_promoted": 0,
+    "guarantees_promoted": 0
   },
-  "evidence_boundary":"Batch 335 strengthens four existing Expert Mission acquisition records using current Xenoverse 2 skill documentation and independent mission/reward corroboration. Only explicit mission endpoints and current Ki costs are promoted; reward-generation mechanics and numerical drop rates remain unresolved."
+  "evidence_boundary": "Batch 335 strengthens four existing Expert Mission acquisition records using current Xenoverse 2 skill documentation and independent mission/reward corroboration. Only explicit mission endpoints and current Ki costs are promoted; reward-generation mechanics and numerical drop rates remain unresolved."
 }
