@@ -7816,3 +7816,12 @@
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue to the next deterministic partially verified skill research batch after 296 and resolve genuinely missing fields with direct Xenoverse 2 evidence.
 
+
+### 2026-09-24 — TODO completion update — Batch 296 cost evidence boundary
+- [x] Rechecked the remaining Batch 296 null Ki-cost fields for **Giga Boost, Holstein Shock, Emperor's Sign, and Position Shift** against current Xenoverse 2-specific references.
+- [x] Confirmed their existing Super/Other classifications and acquisition endpoints remain supported: Giga Boost → Conton City Skill Shop; Holstein Shock → PQ15; Emperor's Sign → TP Medal Shop; Position Shift → Skill Shop after defeating Kid Buu.
+- [x] Added `docs/data/skill-batch-296-cost-evidence-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved all four numeric Ki costs as unresolved because the checked current references expose no reliable numeric value; no cross-game or analogous-skill inference was used.
+- [x] Updated `docs/data/skill-research-batches/skill-batch-296.json` with the evidence boundary.
+- [ ] CI success remains unverified; no successful Actions result is claimed.
+- [ ] **Exact next:** move to the next deterministic partially verified skill-research batch after 296 and resolve only fields for which direct Xenoverse 2 evidence adds new coverage; do not invent a new batch identity.
