@@ -267,7 +267,8 @@
     "pq_summary_consumer_contract_2026_09_25": "docs/data/pq-summary-consumer-contract-audit-2026-09-25.json",
     "pq_skill_crosslink_validator_hardening_2026_09_25": "docs/data/pq-skill-crosslink-validator-hardening-2026-09-25.json",
     "skill_thin_domain_gap_closure_2026_09_25": "docs/data/skill-thin-domain-gap-closure-audit-2026-09-25.json",
-    "skill_acquisition_endpoint_parity_2026_09_25": "docs/data/skill-acquisition-endpoint-parity-audit-2026-09-25.json"
+    "skill_acquisition_endpoint_parity_2026_09_25": "docs/data/skill-acquisition-endpoint-parity-audit-2026-09-25.json",
+    "non_pq_skill_endpoint_coverage_validator_2026_09_25": "docs/data/non-pq-skill-endpoint-coverage-validator-audit-2026-09-25.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
