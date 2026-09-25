@@ -1785,3 +1785,13 @@
 - [x] Commit: `052fdd3ff45323c3ddc9efbb8dbacc0a14d37470`.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the current-facing non-PQ consumer scan, prioritizing numeric/count fields that distinguish typed rewards from resolved canonical endpoints; preserve historical snapshots and unresolved boundaries.
+
+
+### 2026-09-25 cycle update — mentor endpoint synchronization count repair
+- [x] Continued the deterministic mentor consumer scan and found `docs/data/mentor-endpoint-consumer-synchronization-2026-09-24.json` still had the semantic stale value `typed_skill_rewards=131`.
+- [x] Corrected that field to **132**, matching the presentation audit and derived reconciliation: 132 typed skill rewards = 131 resolved canonical mentor→skill edges + 1 explicitly unresolved Hit lesson.
+- [x] Preserved `mentor_skill_edges=131`, `unique_skill_targets=130`, `unresolved_skill_lessons=1`, and `broken_skill_endpoints=0`.
+- [x] Re-fetched the repaired file and validated all five counts.
+- [x] Commit: `6c5dfb4be447edcec7648a108526c127ebb4af64`.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue scanning current-facing mentor/non-PQ consumers for remaining semantic count drift; distinguish typed reward counts from resolved canonical endpoint counts and preserve historical snapshots.
