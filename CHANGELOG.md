@@ -3185,3 +3185,9 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Corrected Special Beam Blast and Dimension Cannon availability and preserved source/index conflicts rather than normalizing them away.
 - Preserved cast-only and variant-specific implementations, including Peeler Storm's Evasive/Super distinction.
 - Validation baseline remains **469/469** with **0 duplicate IDs**.
+
+
+### 2026-09-24 — Evasive Batches 235–237
+- Refreshed the Power Up and Other Evasive research/reconciliation chain through Batch 237.
+- Preserved documented source conflicts and cast/CaC restrictions rather than normalizing ambiguous generic tables.
+- Validation remains **469/469** with **0 duplicate IDs**.
