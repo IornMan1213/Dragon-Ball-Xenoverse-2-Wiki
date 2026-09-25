@@ -3119,3 +3119,8 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Refreshed research batch 200 with current Xenoverse 2 identity, Hit Initiation Test acquisition, 100 Ki, Strike/Counter taxonomy, and Super Pack 1 context.
 - Corrected the stale/conflicting Super Pack 2 attribution and preserved the blockability/version conflict as unresolved.
 - Added and registered the Time Skip/Flash Skewer provenance audit.
+
+### 2026-09-24 — Time Skip/Jump Spike P1 provenance verification
+- Refreshed research batch 201 with current Xenoverse 2 identity, Hit Lesson 2 acquisition, 100 Ki, Strike/Counter taxonomy, Super Pack 1 context, and forward-rush mechanics.
+- Added and registered the Time Skip/Jump Spike provenance audit.
+- Preserved unresolved numeric/frame evidence and the 469/469 canonical boundary.
