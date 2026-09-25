@@ -783,16 +783,16 @@
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://dbxv2.fandom.com/wiki/Bomber_DX",
+        "https://dbxenoverse.fandom.com/wiki/Bomber_DX_%28Skill%29",
+        "https://dragonball.fandom.com/wiki/Bomber_DX"
       ],
       "unlock_method": "Nappa's Initiation Test — complete the instructor lesson to receive Bomber DX as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance verification: current dedicated and independent documentation corroborates the existing mentor/PQ acquisition endpoint and skill identity; no unsupported reward probability or Ultimate Finish requirement is inferred. 2026-09-23 bounded provenance refresh: existing multi-source evidence was rechecked against the canonical record; no acquisition tier, reward probability, mechanics, cost, restriction, or DLC semantics were changed.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance verification: current dedicated and independent documentation corroborates the existing mentor/PQ acquisition endpoint and skill identity; no unsupported reward probability or Ultimate Finish requirement is inferred. 2026-09-23 bounded provenance refresh: existing multi-source evidence was rechecked against the canonical record; no acquisition tier, reward probability, mechanics, cost, restriction, or DLC semantics were changed.\n2026-09-25 mechanics enrichment: 100-Ki Ki Blast Super. The user charges the Ki wave for about a second, then fires a purple mid-range blast from the left hand for a single-hit knockback attack. Current Xenoverse 2-specific evidence reports about 15% damage and confirms that Bomber DX can absorb/cancel incoming Ki Blasts, including charged Ki Blasts. The documented in-game warning is a long activation period.",
+      "mechanics_notes": "100-Ki Ki Blast Super. The user charges the Ki wave for about a second, then fires a purple mid-range blast from the left hand for a single-hit knockback attack. Current Xenoverse 2-specific evidence reports about 15% damage and confirms that Bomber DX can absorb/cancel incoming Ki Blasts, including charged Ki Blasts. The documented in-game warning is a long activation period.",
       "source_quest": "Nappa mentor training — Initiation Test",
       "source_quest_or_shop": "Nappa mentor training — Initiation Test"
     },
@@ -880,16 +880,16 @@
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://dbxv2.fandom.com/wiki/Break_Cannon",
+        "https://dragonball.fandom.com/wiki/Break_Cannon",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75458066"
       ],
       "unlock_method": "Nappa's Lesson 3 — complete the instructor lesson to receive Break Cannon as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300+ Ki used. 2026-09-22 provenance verification: independent instructor documentation confirms Nappa Lesson 3 as the Break Cannon reward and identifies it as Nappa's Ki Blast Ultimate; no acquisition correction required. 2026-09-23 bounded provenance refresh: existing multi-source evidence was rechecked against the canonical record; no acquisition tier, reward probability, mechanics, cost, restriction, or DLC semantics were changed.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300+ Ki used. 2026-09-22 provenance verification: independent instructor documentation confirms Nappa Lesson 3 as the Break Cannon reward and identifies it as Nappa's Ki Blast Ultimate; no acquisition correction required. 2026-09-23 bounded provenance refresh: existing multi-source evidence was rechecked against the canonical record; no acquisition tier, reward probability, mechanics, cost, restriction, or DLC semantics were changed.\n2026-09-25 mechanics enrichment: 300+ Ki Ki Blast Ultimate. The user cracks their knuckles and fires a mid-range beam from the mouth. It can hit up to 15 times; current Xenoverse 2-specific evidence reports about 15% base damage over the 15-hit sequence, with results varying according to the amount of Ki stored. The move is learned from Nappa's Lesson 3.",
+      "mechanics_notes": "300+ Ki Ki Blast Ultimate. The user cracks their knuckles and fires a mid-range beam from the mouth. It can hit up to 15 times; current Xenoverse 2-specific evidence reports about 15% base damage over the 15-hit sequence, with results varying according to the amount of Ki stored. The move is learned from Nappa's Lesson 3.",
       "source_quest": "Nappa mentor training — Lesson 3",
       "source_quest_or_shop": "Nappa mentor training — Lesson 3"
     },
@@ -3432,16 +3432,15 @@
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://dbxv2.fandom.com/wiki/Endless_Shoot",
+        "https://dbxenoverse.fandom.com/wiki/Endless_Shoot_%28Skill%29"
       ],
       "unlock_method": "Android 18's mentor training — complete the corresponding lesson to receive Endless Shoot as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-22 provenance refresh: current skill evidence confirms the mentor acquisition and 100-Ki cost; the repository's existing Android 18 Lesson endpoint is retained without inventing additional reward mechanics. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-22 provenance refresh: current skill evidence confirms the mentor acquisition and 100-Ki cost; the repository's existing Android 18 Lesson endpoint is retained without inventing additional reward mechanics. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-25 mechanics enrichment: 100+ Ki Ki Blast Super. The user jumps back and fires a straight barrage of Ki beams. The base sequence fires 5 blasts for about 10% damage; holding the input consumes additional Ki, up to 400 extra, allowing up to 19 blasts and about 30% total damage. The target can be changed while the barrage is active. The skill's listed base cost is 100 Ki.",
+      "mechanics_notes": "100+ Ki Ki Blast Super. The user jumps back and fires a straight barrage of Ki beams. The base sequence fires 5 blasts for about 10% damage; holding the input consumes additional Ki, up to 400 extra, allowing up to 19 blasts and about 30% total damage. The target can be changed while the barrage is active. The skill's listed base cost is 100 Ki.",
       "source_quest": "Android 18 mentor training",
       "source_quest_or_shop": "Android 18 mentor training"
     },
@@ -3667,16 +3666,16 @@
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://dbxv2.fandom.com/wiki/Evil_Explosion_%28Super%29",
+        "https://dragonball.fandom.com/wiki/Evil_Explosion",
+        "https://dbxenoverse.fandom.com/wiki/Evil_Explosion_%28Skill%29"
       ],
       "unlock_method": "Piccolo's Initiation Test — complete the instructor lesson to receive Evil Explosion as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-22 provenance refresh: current dedicated evidence confirms Evil Explosion as Piccolo's 100-Ki chargeable Ki Blast Super and mentor reward. It can be charged through three stages; detailed combo behavior is retained only where directly evidenced. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-22 provenance refresh: current dedicated evidence confirms Evil Explosion as Piccolo's 100-Ki chargeable Ki Blast Super and mentor reward. It can be charged through three stages; detailed combo behavior is retained only where directly evidenced. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-25 mechanics enrichment: 100-Ki Ki Blast Super. The user charges energy in both fists and releases a short-range yellow blast. The attack has three charge stages, increasing its effective range; current Xenoverse 2-specific evidence also documents that a fully charged Level 3 use can teleport a Super Saiyan user to the opponent before firing. The attack deals high stamina damage on block at full charge. The skill remains Piccolo's Initiation Test reward.",
+      "mechanics_notes": "100-Ki Ki Blast Super. The user charges energy in both fists and releases a short-range yellow blast. The attack has three charge stages, increasing its effective range; current Xenoverse 2-specific evidence also documents that a fully charged Level 3 use can teleport a Super Saiyan user to the opponent before firing. The attack deals high stamina damage on block at full charge. The skill remains Piccolo's Initiation Test reward.",
       "source_quest": "Piccolo mentor training — Initiation Test",
       "source_quest_or_shop": "Piccolo mentor training — Initiation Test"
     },
