@@ -78,5 +78,12 @@
   ],
   "notes": "Angry Shout and Headshot are character-only in the current Evasive catalog because no Future Warrior acquisition is listed there. Hyper Movement and Time Skip/Tremor Pulse explicitly have Future Warrior acquisition, so they are CaC-usable. Hyper Movement is a TP Medal Shop acquisition, while Time Skip/Tremor Pulse is learned through Hit training.",
   "last_verified": "2026-09-24",
-  "research_update": "2026-09-24: direct-source enrichment confirms Hit Lesson 3, fourth mentor reward, 200 Stamina, Strike Evasive identity, CaC usability, directional behind/front teleport behavior, unblockable property, and a 7% damage reference. Canonical mentor endpoint remains unresolved until the standard skill builder integrates the canonical record."
+  "research_update": "2026-09-24: direct-source enrichment confirms Hit Lesson 3, fourth mentor reward, 200 Stamina, Strike Evasive identity, CaC usability, directional behind/front teleport behavior, unblockable property, and a 7% damage reference. Canonical mentor endpoint remains unresolved until the standard skill builder integrates the canonical record.",
+  "verification_status": "audited_current_scope",
+  "validation": {
+    "canonical_index_boundary": "469/469",
+    "duplicate_ids": 0,
+    "canonical_promotion": false,
+    "evidence_bounded": true
+  }
 }
