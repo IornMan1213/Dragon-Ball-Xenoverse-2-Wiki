@@ -63,7 +63,7 @@ def main() -> int:
         "skill_unlock_preserves_pq_boundary": "Canonical PQ→skill association; independently verified Ultimate Finish/trigger/drop fields" in texts["skill_unlock_database"],
         "qq_bangs_pq83_is_noncanonical_farming_claim": "community/research acquisition lead" in texts["qq_bangs"] and "not a canonical `pq_features_farming` relationship" in texts["qq_bangs"],
         "farming_hub_uses_canonical_dragon_ball_set": all(f"PQ{pq}" in texts["farming_hub"] for pq in sorted(EXPECTED_FARMING_PQS)),
-        "farming_hub_preserves_acquisition_uncertainty": "does not treat the existence of a PQ→skill relationship as proof of a guaranteed or Ultimate-Finish-only skill reward" in texts["farming_hub"],
+        "farming_hub_preserves_acquisition_uncertainty": "do not treat the existence of a PQ→skill relationship as proof of a guaranteed or Ultimate-Finish-only skill reward" in texts["farming_hub"],
         "farming_routes_does_not_rank_canonical_farming_set": "does not rank them by clear speed or drop probability" in texts["farming_routes"] and "does not treat it as a universal best route" in texts["farming_routes"],
         "equipment_database_separates_acquisition_layers": "DLC ownership must never replace the actual unlock condition" in texts["equipment_database"],
         "accessory_pq_database_preserves_reward_condition_boundary": "does **not** establish whether an accessory is" in texts["accessory_pq_database"],
