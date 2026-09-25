@@ -1545,3 +1545,11 @@
 - [x] No validator weakening or canonical skill promotion was performed.
 - [ ] CI success remains unverified because the failing jobs expose no workflow steps, runner ID, or usable logs through the available GitHub interface.
 - [ ] **Exact next:** identify the remaining current-tree artifact(s) causing the post-cleanup failure using repository-visible evidence or a workflow output that becomes observable; once the artifact failure is resolved, resume the next deterministic research batch after Batch 297.
+### 2026-09-25 cycle completion — artifact-checker current-tree cleanup and pre-run CI diagnosis
+- [x] Identified an actual checker-triggering mistake in the continuation history: the handoff itself repeated the names of forbidden internal marker patterns while documenting the cleanup, causing the strict checker to flag its own documentation.
+- [x] Removed those literal marker names and residual citation text from `docs/AI-CONTINUATION-PROMPT.md`.
+- [x] Direct current-tree verification of the handoff now reports zero known forbidden citation/tool-result markers and zero targeted private-use delimiters.
+- [x] Post-fix Actions for `8cae9cd6adcddb15765a63755e59395e9c65010c`: Repository quality and Clean internal artifacts still fail, while Pages is in progress.
+- [x] The failed quality/cleanup jobs again expose no runner steps, runner ID, or usable logs; this is consistent with the previously observed pre-run/infrastructure failure and does not provide evidence of another current-tree artifact.
+- [ ] CI success remains unverified; no validator was weakened and no canonical data was promoted speculatively.
+- [ ] **Exact next:** inspect the next observable Actions result. If the jobs still terminate before runner steps, record the infrastructure blocker and resume the next deterministic data-quality/content task rather than repeatedly rewriting clean documentation.
