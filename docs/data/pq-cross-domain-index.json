@@ -98,7 +98,8 @@
     "skill_batch_332_expert_mission_16_18_19_20_2026_09_25": "docs/data/skill-research-batches/skill-batch-332.json",
     "skill_batch_333_acid_availability_2026_09_25": "docs/data/skill-research-batches/skill-batch-333.json",
     "skill_batch_334_em_04_08_2026_09_25": "docs/data/skill-research-batches/skill-batch-334.json",
-    "skill_batch_335_em_09_12_2026_09_25": "docs/data/skill-research-batches/skill-batch-335.json"
+    "skill_batch_335_em_09_12_2026_09_25": "docs/data/skill-research-batches/skill-batch-335.json",
+    "skill_batch_336_em17_spirit_sword_2026_09_25": "docs/data/skill-research-batches/skill-batch-336.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",
