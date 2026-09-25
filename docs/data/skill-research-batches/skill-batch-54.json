@@ -348,7 +348,7 @@
     {
       "name": "Emperor's Edge",
       "class": "Super",
-      "subcategory": "Strike",
+      "subcategory": "Ki Blast",
       "race_restriction": null,
       "usable_by_cac": true,
       "character_source": "Frieza",
@@ -360,7 +360,7 @@
       "source_quest_or_shop": "Parallel Quest 99",
       "ultimate_finish_required": null,
       "skill_description": "Fires a precise Frieza-style energy attack at the opponent.",
-      "mechanics_notes": "Current Future Warrior technique references identify Emperor's Edge as Golden Frieza's Super Skill and place it among Frieza-style Death Wave variants. PQ99 is the base-game acquisition endpoint in the maintained reward transcription.",
+      "mechanics_notes": "Current Future Warrior technique references identify Emperor's Edge as Golden Frieza's Super Skill and place it among Frieza-style Death Wave variants. PQ99 is the base-game acquisition endpoint in the maintained reward transcription. The current evidence reviewed here does not independently establish a different attack-type label beyond its Frieza energy-attack family, so no speculative subtype is promoted.",
       "verification_status": "verified",
       "last_verified": "2026-09-24",
       "sources": [
