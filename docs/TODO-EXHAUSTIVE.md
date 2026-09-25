@@ -8367,3 +8367,13 @@
 - [x] Re-fetched and validated the corrected consumer, correction artifact, and cross-domain registry as JSON.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] **Exact next:** continue scanning current-facing consumers for another one-way mismatch; if the live census remains clean, move to the next source-backed thin-domain enrichment rather than repeating the equipment/accessory baseline audit.
+
+
+### 2026-09-25 cycle completion — Skill research Batch 328: Final Form Demigra cast-only pair
+- [x] Added `docs/data/skill-research-batches/skill-batch-328.json` for **Boiling Ball** and **Tricky Strike**.
+- [x] Revalidated Xenoverse 2-specific identity/classification boundaries: Boiling Ball = **Super / Ki Blast / ID 541 / CaC-unavailable**; Tricky Strike = **Super / Strike / ID 542 / CaC-unavailable**; both are used by Final Form Demon God Demigra.
+- [x] Reconfirmed cast-only provenance through Legend Patrol, independent CaC-unobtainable documentation, and the current skill-index corpus; no Future Warrior acquisition route was inferred.
+- [x] Preserved unresolved Ki costs and version-sensitive combat details; no canonical promotion or relationship edge changed.
+- [x] Registered Batch 328 and advanced the skill catalog audit to **latest_research_batch 328**.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** continue the remaining evidence-backed thin-domain skill-gap queue and/or deterministic current-facing producer/consumer scan; do not invent unresolved costs or acquisition routes.
