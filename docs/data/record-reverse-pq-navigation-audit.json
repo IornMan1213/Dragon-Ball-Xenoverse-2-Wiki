@@ -44,7 +44,7 @@
       "consumer": "docs/Equipment-All.html",
       "record_layer": "docs/data/equipment-accessories-record-layer.json",
       "relationship": "pq_rewards_equipment",
-      "record_count": 173,
+      "record_count": 174,
       "canonical_edges": 124,
       "unique_canonical_targets": 122,
       "unresolved_targets": [],
@@ -145,8 +145,8 @@
   },
   "validator": "scripts/validate_record_reverse_pq_navigation.py",
   "evidence_boundary": "Canonical PQ links and structured PQ ID fields establish relationship identity only. Exact (record, PQ) pair parity is checked in both directions; acquisition prose may preserve historical/source conflicts and does not establish reward guarantees, Ultimate Finish requirements, drop rates, or unresolved acquisition claims. The 2026-09-22 presentation hardening also requires each indexed Super Soul/equipment record card to link its canonical name to the local full-text Search surface, preserving the existing explorer-to-PQ reverse links.",
-  "date": "2026-09-24",
-  "status": "clean_current_853",
+  "date": "2026-09-25",
+  "status": "clean_current_853_scalar_reconciled",
   "validator_commit": "0560e25e6a48545878bdfcd6436de251e85aa18c",
   "exact_forward_pair_contract": {
     "super_souls": {
@@ -175,7 +175,7 @@
     "record_search_navigation": true,
     "search_query_navigation": true
   },
-  "next_action": "Continue exact-pair parity scanning of remaining reverse/navigation projections against the current 853-edge / 145-Super-Soul canonical relationship layer; prioritize non-PQ equipment/accessory presentation consumers and preserve historical 854/146 snapshots.",
+  "next_action": "Continue exact-pair parity scanning of remaining reverse/navigation projections after the equipment record-count scalar repair; preserve historical 854/146 snapshots.",
   "current_baseline": {
     "total_edges": 853,
     "skill": 244,
