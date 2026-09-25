@@ -106,3 +106,14 @@
 - [x] Validation: parsed updated JSON structures and checked the III Bomber record plus index registration; no canonical relationship or identity was changed.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** continue Batch 54 with **Final Kamehameha**, then the next remaining partially verified/under-enriched record where direct current Xenoverse 2 evidence can promote a canonical research field.
+
+
+### 2026-09-25 cycle completion — Final Kamehameha current-evidence provenance promotion
+- [x] Added `docs/data/skill-final-kamehameha-current-evidence-audit-2026-09-25.json`.
+- [x] Promoted **Final Kamehameha** in Skill Research Batch 54 to `verified_current_scope` using current skill documentation plus independent PQ91 reward evidence.
+- [x] Confirmed 500-Ki Ki Blast Ultimate identity, 22-hit beam mechanics, and current acquisition routes (PQ91, TP Medal Shop, Double Crystal Raids).
+- [x] Preserved the historical Ultimate-Finish/RNG discussion as provenance conflict; `ultimate_finish_required` and probability remain unresolved.
+- [x] Registered the audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: parsed the updated Batch 54/index JSON and confirmed the Final Kamehameha record and audit registration.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** continue Batch 54 with the next remaining under-enriched record where current Xenoverse 2-specific evidence can materially promote a canonical field.
