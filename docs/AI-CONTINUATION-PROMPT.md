@@ -1393,3 +1393,14 @@
 - [x] Canonical/index boundary remains **469/469** with **0 duplicate IDs**; no canonical reconstruction or speculative promotion was performed.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] **Exact next:** continue the next deterministic open high-value enrichment/reconciliation target from the live queue or P1 gap census; prioritize direct evidence that can resolve an actual field conflict rather than merely refreshing timestamps.
+### 2026-09-24 continuation — PQ86-PQ100 P1 skill enrichment
+- [x] Selected the next deterministic unfinished consumer from the P1 gap census: **skill-batch-54**, which contains partially verified base-game skills from PQ86-PQ100.
+- [x] Enriched **Neo Wolf Fang Fist** with current 100–700 Ki, Strike Super classification, PQ86 endpoint, and current 9–33 hit/continuable behavior.
+- [x] Enriched **Maiden Burst** as a 300-Stamina Ki Blast Evasive from PQ92.
+- [x] Corrected and verified **Absolute Zero** from the stale 200-Stamina/Other classification to **Ki Blast Evasive / 300 Stamina**, with Eis Shenron/Omega Shenron user evidence and the 3-second freeze counter.
+- [x] Verified **Dimension Ray** as a **400-Ki Ki Blast Ultimate** with the current 19-hit barrage description.
+- [x] Preserved **Drain Field** resource/reward-slot uncertainty instead of inferring a cost or slot from historical material.
+- [x] Added `docs/data/skill-batch-54-enrichment-audit-2026-09-24.json` and refreshed `skill-batch-54.json`.
+- [x] Validation remains **469/469 canonical/index**, **0 duplicate IDs**, with no canonical reconstruction.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the next partially verified PQ86-PQ100 enrichment target from Batch 54, prioritizing fields that current Xenoverse 2 evidence can resolve.
