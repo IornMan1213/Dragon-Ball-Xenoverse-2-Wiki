@@ -111,3 +111,12 @@
 - [x] Preserved unresolved reward/drop semantics.
 - [ ] CI remains unverified.
 - [x] **Exact next:** continue Batch 52 with Burst Kamehameha.
+
+
+### 2026-09-25 completion — Burst Kamehameha current-evidence provenance promotion
+- [x] Promoted Batch 52's **Burst Kamehameha** record to `verified_current_scope` using current Xenoverse 2-specific skill evidence and independent PQ72 reward/drop discussion.
+- [x] Confirmed Ki Blast Super classification, 100-Ki initial cost plus a second 100-Ki extension input, PQ72 endpoint, and multi-hit beam behavior.
+- [x] Preserved unresolved Ultimate-Finish/drop semantics; no unsupported numeric probability or gate was added.
+- [x] Registered the current-evidence audit in `docs/data/pq-cross-domain-index.json`.
+- [ ] CI remains unverified.
+- [x] **Exact next:** continue Batch 52 with **Psychic Move** and then the next remaining under-enriched record where direct current Xenoverse 2 evidence can promote a canonical research field.
