@@ -36,18 +36,15 @@
     "canonical_skills": 470,
     "pq_unique_skill_targets": 239,
     "non_pq_canonical_skills": 231,
-    "non_pq_endpoint_union": 230,
-    "uncovered_non_pq_skills": [
-      "skill-time-skip-tremor-pulse"
-    ],
-    "unresolved_endpoint_reason": "Time Skip/Tremor Pulse remains intentionally unresolved in the mentor endpoint layer; its canonical skill identity exists, but the current mentor consumer explicitly withholds the skill_id pending normal endpoint reconciliation."
+    "non_pq_endpoint_union": 231,
+    "uncovered_non_pq_skills": []
   },
   "validation": {
     "duplicate_canonical_skill_ids": 0,
     "shop_forward_reverse_pair_parity": true,
     "acquisition_relationships_inferred": 0,
     "canonical_skill_ids_promoted": 0,
-    "status": "pass_with_explicit_unresolved"
+    "status": "pass"
   },
-  "next_gate": "Reconcile the single remaining non-PQ uncovered canonical skill, Time Skip/Tremor Pulse, against the current mentor-layer unresolved boundary without fabricating a new relationship."
+  "next_gate": "Non-PQ canonical skill coverage is now closed at 231/231; continue the next current reverse/navigation invariant or source-backed thin-domain enrichment."
 }
