@@ -297,3 +297,14 @@
 - Live census after editing: **18** EM03-20 non-tutorial acquisition records; **8 verified_current_scope**, **10 partially_verified**; **18 exact drop rates unresolved**.
 - Canonical/index parity validated for the eight promoted skills: all show `verified_current_scope`, `research_status: enriched`, and `last_verified: 2026-09-25`.
 - Exact next: promote the next bounded tranche beginning with **Dead End Bullet, Assault Rain, Super Electric Strike, and Angry Explosion**.
+
+
+### 2026-09-25 cycle completion — Expert Mission EM08-12 acquisition projection reconciliation
+- Live census before editing: 18 EM03-20 non-tutorial acquisition records; 8 verified, 10 partially verified.
+- [x] Reconciled **Dead End Bullet**, **Assault Rain**, **Super Electric Strike**, and **Angry Explosion** from stale `partially_verified` acquisition projections to `verified_current_scope`.
+- [x] Closed Skill Research Batch 335 (EM09-12) and registered four dedicated current-evidence audits.
+- [x] Evidence confirms current 300-Ki Ki Blast Ultimate classification and EM08/09/11/12 endpoints; maintained Expert Mission reward evidence corroborates the mission reward endpoints.
+- [x] Preserved unresolved exact reward probability, first-clear guarantee, and unsupported Ultimate-Finish-only semantics.
+- [x] Validation: live acquisition census is now **12 verified / 6 partially verified / 18 unresolved exact drop rates**; canonical records for all four were already `verified_current_scope`, so this cycle closes the projection parity gap.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** continue the remaining six partially verified Expert Mission records: **Dead End Rain, Blue Hurricane, Super Spirit Bomb, Focus Flash, Tail Slicer, Data Input**, beginning with a live canonical/source census.
