@@ -8082,3 +8082,11 @@
 - [x] Validation: **470 canonical/index records, 0 duplicate IDs, 5/5 Batch 316 audit records, JSON parse clean, no internal citation/export markup in changed research/index files**.
 - [ ] CI remains unverified; no usable workflow result was exposed for the latest evidence-registration commit.
 - [ ] **Next:** direct-evidence refresh for **Angry Explosion, Assault Rain, Brave Heat, Break Cannon, Breaker Energy Wave, Chain Destructo-Disc Barrage, Chaotic Time Impact, and Circle Flash**.
+
+### 2026-09-25 — TODO completion update — Batch 317 evidence reconciliation
+- [x] Reconciled **8** handoff-carried Ki Blast Ultimate records and added `docs/data/skill-batch-317-evidence-reconciliation-2026-09-25.json`.
+- [x] Registered the audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved existing reward conflicts/nulls and did not invent drop rates, frame data, damage, or narrower restrictions.
+- [x] No canonical promotion was attempted; the records already exist in the live canonical/index layer.
+- [ ] CI remains unverified.
+- [ ] **Next:** select the next deterministic partially verified Ki Blast Ultimate tranche, excluding these already-reconciled records.
