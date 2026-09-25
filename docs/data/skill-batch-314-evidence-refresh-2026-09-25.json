@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-batch-314-evidence-refresh-2026-09-25",
+  "date": "2026-09-25",
+  "scope": "Direct current Xenoverse 2 evidence refresh for Batch 314.",
+  "records": [
+    {
+      "name": "X4 Kaioken Kamehameha",
+      "ki_cost": "300 - 400",
+      "unlock_method": "Skill Shop",
+      "mechanics": "15 hits/30% base; additional input adds 20% over 28 hits and causes 3s fatigue."
+    },
+    {
+      "name": "X20 Kaioken Kamehameha",
+      "ki_cost": 500,
+      "unlock_method": "Skill Shop",
+      "mechanics": "23 hits/45% total; Kaioken rush followed by powered Kamehameha."
+    },
+    {
+      "name": "Dual Destructo-Disc",
+      "ki_cost": 300,
+      "unlock_method": "Training with Android 18",
+      "mechanics": "Two tracking unblockable discs; 2 hits/30% damage."
+    },
+    {
+      "name": "Innocence Breath",
+      "ki_cost": 300,
+      "unlock_method": "Training with Majin Buu",
+      "mechanics": "Unblockable sweeping mouth-fired Ki wave; one hit/30% damage."
+    },
+    {
+      "name": "Maiden Blast",
+      "ki_cost": 300,
+      "unlock_method": "Training with Pan",
+      "mechanics": "Ki explosion followed by concentrated blast; 34 hits/30% damage."
+    }
+  ],
+  "evidence_boundary": "No reward probabilities, Ultimate Finish requirements, shop prices, version history, or canonical IDs inferred."
+}
