@@ -47,3 +47,11 @@
 - [x] Preserved unresolved drop/guarantee conditions.
 - [ ] CI remains unverified.
 - [ ] Exact next: continue the remaining partially verified/under-enriched canonical skill provenance queue.
+
+
+### 2026-09-25 completion — Last Emperor current-evidence provenance refresh
+- [x] Added a bounded current-evidence audit for **Last Emperor** and registered it in the cross-domain index.
+- [x] Refreshed Batch 52 provenance/evidence for Last Emperor and strengthened the 0-Ki, low-health, one-use mechanics boundary.
+- [x] Preserved unresolved PQ71 reward-slot/probability and Ultimate Finish semantics; no unsupported acquisition gate or numeric combat value was added.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the remaining partially verified/under-enriched canonical skill provenance queue with a target where direct current Xenoverse 2 evidence can promote a canonical field.
