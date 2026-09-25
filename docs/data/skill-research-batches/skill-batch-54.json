@@ -40,7 +40,7 @@
       "https://dbxv2.fandom.com/wiki/Prince_of_Destruction_Vegeta",
       "https://dbxv2.fandom.com/wiki/SSGSS_Vegeta_%28Evolved%29"
     ],
-    "research_update": "Current-source enrichment completed for Neo Wolf Fang Fist, Maiden Burst, Absolute Zero, and Dimension Ray. Absolute Zero's stale 200-Stamina/Other classification was corrected to 300-Stamina/Ki Blast. Neo Wolf Fang Fist's current 100-700 Ki range was confirmed. Maiden Burst's 300-Stamina Ki Blast Evasive classification was confirmed. Dimension Ray's current 400 Ki cost was confirmed. Drain Field remains deliberately unresolved on resource/reward-slot semantics. Buu Buu Ball was promoted to verified_current_scope after current skill documentation and an independent PQ88 reward transcription confirmed its Strike Evasive identity, 300-Stamina cost, Majin restriction, and Basic Reward endpoint; an older player discussion's Ultimate-Finish belief is retained as historical conflict rather than canonical requirement. Atomic Blast was promoted to verified_current_scope after current Xenoverse 2-specific documentation confirmed its 100-Ki Ki Blast Super identity, PQ87 endpoint, charge-state behavior, and documented use by Prince of Destruction Vegeta and SSGSS Vegeta (Evolved). Historical Basic Reward vs. Ultimate-Finish interpretations remain outside the canonical requirement field."
+    "research_update": "Current-source enrichment completed for Neo Wolf Fang Fist, Maiden Burst, Absolute Zero, and Dimension Ray. Absolute Zero's stale 200-Stamina/Other classification was corrected to 300-Stamina/Ki Blast. Neo Wolf Fang Fist's current 100-700 Ki range was confirmed. Maiden Burst's 300-Stamina Ki Blast Evasive classification was confirmed. Dimension Ray's current 400 Ki cost was confirmed. Drain Field remains deliberately unresolved on resource/reward-slot semantics. Buu Buu Ball was promoted to verified_current_scope after current skill documentation and an independent PQ88 reward transcription confirmed its Strike Evasive identity, 300-Stamina cost, Majin restriction, and Basic Reward endpoint; an older player discussion's Ultimate-Finish belief is retained as historical conflict rather than canonical requirement. Atomic Blast was promoted to verified_current_scope after current Xenoverse 2-specific documentation confirmed its 100-Ki Ki Blast Super identity, PQ87 endpoint, charge-state behavior, and documented use by Prince of Destruction Vegeta and SSGSS Vegeta (Evolved). Historical Basic Reward vs. Ultimate-Finish interpretations remain outside the canonical requirement field. III Bomber was promoted to verified_current_scope after current Xenoverse 2-specific documentation confirmed its 100-Ki Ki Blast Super identity, Majin CaC restriction, PQ90 endpoint, and unblockable explosion/invisibility behavior; reward probability and Ultimate-Finish semantics remain unresolved."
   },
   "records": [
     {
@@ -156,9 +156,9 @@
       "source_quest_or_shop": "Parallel Quest 90",
       "ultimate_finish_required": null,
       "skill_description": "Creates an unblockable explosion and hides the user from opponent lock-on.",
-      "mechanics_notes": "Current Xenoverse 2 skill reference identifies III Bomber as the same skill also documented as Ill Bomber/Revenge Death Bomber: a Ki Blast Super using 100 Ki and restricted to Majin CaCs. The explosion is unblockable; the user becomes invisible for the documented duration and can move while invisible. The historical III Bomber naming from PQ90 is retained as provenance rather than creating a duplicate skill.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "Current Xenoverse 2-specific documentation identifies III Bomber (also documented as Ill Bomber/Revenge Death Bomber) as a Ki Blast Super using 100 Ki and restricted to Majin CaCs. The attack creates an unblockable explosion and hides the user from opponent lock-on for about 5 seconds while allowing movement during invisibility.",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ill_Bomber",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
