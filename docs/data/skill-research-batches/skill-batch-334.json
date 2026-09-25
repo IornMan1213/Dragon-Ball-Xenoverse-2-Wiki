@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 334,
+  "created": "2026-09-25",
+  "type": "evidence_reconciliation",
+  "scope": "Expert Mission skill provenance tranche EM04-08",
+  "records": [
+    {
+      "name": "Super Destructo-Disc",
+      "id": "skill-super-destructo-disc",
+      "expert_mission": 4,
+      "mission_title": "Invasion of the Evil Super Namek",
+      "canonical_class": "Super",
+      "canonical_subcategory": "Ki Blast",
+      "evidence": "Current Xenoverse 2 skill documentation explicitly associates Super Destructo-Disc with EM04 and lists 200 Ki. Independent video documentation also identifies EM04 as the acquisition mission.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Destructo-Disc",
+        "https://www.youtube.com/watch?v=4lDa8uhmDU8"
+      ],
+      "promoted_fields": {
+        "source_quest_or_shop": "Expert Mission 4 - Invasion of the Evil Super Namek",
+        "ki_cost": 200
+      },
+      "limits": [
+        "Exact drop probability and first-clear guarantee remain unresolved."
+      ]
+    },
+    {
+      "name": "Supernova",
+      "id": "skill-supernova",
+      "expert_mission": 6,
+      "mission_title": "The Depths of Despair",
+      "canonical_class": "Ultimate",
+      "canonical_subcategory": "Ki Blast",
+      "evidence": "Current Xenoverse 2 skill documentation explicitly associates Supernova with EM06 and lists 500 Ki. Independent GameFAQs and Steam reports corroborate the EM06 acquisition endpoint; a GameFAQs answer explicitly notes that the move is not an automatic drop.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Supernova",
+        "https://gamefaqs.gamespot.com/xboxone/190458-dragon-ball-xenoverse-2/answers/574504-how-do-you-get-supernova-in-xenoverse-two",
+        "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/597797-i-have-finished-expert-mission-6-but-i-didnt-get-supernova",
+        "https://steamcommunity.com/app/454650/discussions/0/276237094322406262/"
+      ],
+      "promoted_fields": {
+        "source_quest_or_shop": "Expert Mission 6 - The Depths of Despair",
+        "ki_cost": 500
+      },
+      "limits": [
+        "The GameFAQs report supports non-automatic acquisition but does not establish a numerical drop rate; no rate is promoted.",
+        "Historical reports about mission bugs are retained only as provenance context, not as a current mission-state claim."
+      ]
+    },
+    {
+      "name": "Death Meteor",
+      "id": "skill-death-meteor",
+      "expert_mission": 7,
+      "mission_title": "The Big Gete Star Strikes Back",
+      "canonical_class": "Ultimate",
+      "canonical_subcategory": "Strike",
+      "evidence": "Current Xenoverse 2 skill documentation explicitly associates Death Meteor with EM07, classifies it as a Strike Ultimate, and lists 300 Ki.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Death_Meteor"
+      ],
+      "promoted_fields": {
+        "source_quest_or_shop": "Expert Mission 7 - The Big Gete Star Strikes Back",
+        "ki_cost": 300
+      },
+      "limits": [
+        "Exact drop probability and first-clear guarantee remain unresolved."
+      ]
+    },
+    {
+      "name": "Dead End Bullet",
+      "id": "skill-dead-end-bullet",
+      "expert_mission": 8,
+      "mission_title": "Ominous Androids",
+      "canonical_class": "Ultimate",
+      "canonical_subcategory": "Ki Blast",
+      "evidence": "Current Xenoverse 2 skill documentation explicitly associates Dead End Bullet with EM08, classifies it as a Ki Blast Ultimate, and lists 300 Ki. Independent GameFAQs and video documentation corroborate EM08 as the acquisition mission.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Dead_End_Bullet",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75528786",
+        "https://www.youtube.com/watch?v=jDoowT4_-ME"
+      ],
+      "promoted_fields": {
+        "source_quest_or_shop": "Expert Mission 8 - Ominous Androids",
+        "ki_cost": 300
+      },
+      "limits": [
+        "Exact drop probability and first-clear guarantee remain unresolved."
+      ]
+    }
+  ],
+  "validation": {
+    "records": 4,
+    "canonical_promotion": false,
+    "relationship_changes": 0,
+    "numeric_costs_promoted": 4,
+    "drop_rates_promoted": 0,
+    "guarantees_promoted": 0
+  },
+  "evidence_boundary": "Batch 334 strengthens four existing Expert Mission acquisition records using current Xenoverse 2-specific skill pages plus independent corroboration. It promotes only explicit mission endpoints and current Ki costs; reward-generation mechanics remain unresolved."
+}
