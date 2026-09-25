@@ -412,3 +412,12 @@
 - [x] Validation: 469/469 parity, identical ID sets, 0 duplicates, eight current targets synchronized.
 - [ ] CI remains unverified.
 - [ ] **Next:** continue after Kairos Cannon with the next shallow/low-evidence K records; keep canonical/index parity at 469 and use bounded evidence-backed mechanics/provenance updates.
+
+
+### 2026-09-25 completion — Skill Batch 350
+- [x] Refreshed **Last Emperor, Light Grenade, Lightning Impact, Lightning of Absolution** with current Xenoverse 2 mechanics/provenance evidence.
+- [x] Added four audits + Batch 350 and registered them in the cross-domain index.
+- [x] Canonical/index parity: **469/469**, identical IDs, **0 duplicates**; all four targets verified on 2026-09-25.
+- [x] Preserved bounded source-reported damage values and unresolved timing/probability limits.
+- [ ] CI remains unverified.
+- [ ] **Next:** continue the next under-documented L-series records after Lightning of Absolution.
