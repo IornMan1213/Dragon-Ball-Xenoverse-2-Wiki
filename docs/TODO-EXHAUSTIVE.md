@@ -7774,3 +7774,11 @@
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue Batch 296's remaining unresolved records (**Giga Boost, Holstein Shock, Emperor's Sign, Position Shift**) seeking direct Xenoverse 2 numeric-cost evidence, then proceed through the next deterministic partially verified batch.
 
+### 2026-09-24 continuation — Batch 296 provenance refresh
+- [x] Continued **skill-batch-296** across Giga Boost, Holstein Shock, Emperor's Sign, and Position Shift.
+- [x] Added independent current Xenoverse 2 corroboration for their identities and acquisition/usage boundaries: Giga Boost (Dodoria/Skill Shop), Holstein Shock (Ginyu/PQ15), Emperor's Sign (Frieza/TP Medal Shop), and Position Shift (Towa/Skill Shop after Kid Buu).
+- [x] Numeric Ki costs remain unresolved because the retrieved current sources did not expose those values; no costs were inferred from older Xenoverse, gameplay discussion, or mechanics.
+- [x] Updated and registered the batch refresh.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue to the next deterministic partially verified skill research batch after 296 and resolve genuinely missing fields with direct Xenoverse 2 evidence.
+
