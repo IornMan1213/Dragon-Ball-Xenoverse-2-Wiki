@@ -221,12 +221,12 @@
       "source_quest_or_shop": "Parallel Quest 94",
       "ultimate_finish_required": null,
       "skill_description": "Performs a fake Kamehameha that can manipulate the opponent rather than functioning as a conventional damaging beam.",
-      "mechanics_notes": "Current skill-specific references classify Bluff Kamehameha as an Other Super using 100 Ki. PQ94 is independently confirmed as an acquisition route.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
+      "mechanics_notes": "Current Xenoverse 2 skill references classify Bluff Kamehameha as an Other Super using 100 Ki; it is a deceptive Kamehameha-style utility skill rather than a conventional damaging beam.",
+      "verification_status": "verified",
+      "last_verified": "2026-09-24",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://dbxv2.fandom.com/wiki/Bluff_Kamehameha",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
       ]
     },
     {
@@ -278,10 +278,10 @@
     {
       "name": "Charged Ki Wave",
       "class": "Super",
-      "subcategory": "Ki Blast",
+      "subcategory": "Other",
       "race_restriction": null,
       "usable_by_cac": true,
-      "character_source": "Nuova Shenron",
+      "character_source": "Multiple fighters including Future Warrior; Nuova Shenron",
       "dlc_requirement": null,
       "ki_cost": 100,
       "stamina_cost": null,
@@ -290,18 +290,19 @@
       "source_quest_or_shop": "Parallel Quest 97",
       "ultimate_finish_required": null,
       "skill_description": "Charges and releases a controllable Ki wave.",
-      "mechanics_notes": "PQ97 independently lists Charged Ki Wave. The exact charging behavior and current technical specification remain partially unresolved.",
-      "verification_status": "partially_verified",
+      "mechanics_notes": "Current skill-specific evidence classifies Charged Ki Wave as an Other Super using 100 Ki. It restores Stamina by consuming Ki and completes faster than Rise to Action. PQ97 is the Future Warrior acquisition route.",
+      "verification_status": "verified",
       "last_verified": "2026-09-24",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://dbxv2.fandom.com/wiki/Charged_Ki_Wave",
+        "https://dragonball.fandom.com/wiki/Charged_Ki_Wave",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
       ]
     },
     {
       "name": "Phantom Fist",
       "class": "Super",
-      "subcategory": "Strike",
+      "subcategory": "Other",
       "race_restriction": null,
       "usable_by_cac": true,
       "character_source": "Hit; Mira; Masked Saiyan; Yamcha (Supervillain)",
@@ -313,12 +314,12 @@
       "source_quest_or_shop": "Parallel Quest 97",
       "ultimate_finish_required": null,
       "skill_description": "A deceptive close-range strike that uses phantom-like movement to reach the opponent.",
-      "mechanics_notes": "PQ97 independently lists Phantom Fist. Exact hit behavior and current technical fields remain partially unresolved.",
-      "verification_status": "partially_verified",
+      "mechanics_notes": "Current skill-specific evidence classifies Phantom Fist as an Other Super using 100 Ki. It functions as an afterimage-style evasive state; successfully evading an attack restores roughly 100 Stamina. PQ97 is the Future Warrior acquisition route.",
+      "verification_status": "verified",
       "last_verified": "2026-09-24",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://dbxv2.fandom.com/wiki/Phantom_Fist",
+        "https://dragonball.fandom.com/wiki/Phantom_Fist"
       ]
     },
     {
@@ -347,7 +348,7 @@
     {
       "name": "Emperor's Edge",
       "class": "Super",
-      "subcategory": "Ki Blast",
+      "subcategory": "Strike",
       "race_restriction": null,
       "usable_by_cac": true,
       "character_source": "Frieza",
@@ -359,12 +360,12 @@
       "source_quest_or_shop": "Parallel Quest 99",
       "ultimate_finish_required": null,
       "skill_description": "Fires a precise Frieza-style energy attack at the opponent.",
-      "mechanics_notes": "PQ99 independently lists Emperor's Edge. Exact current technical details remain partially unresolved.",
-      "verification_status": "partially_verified",
+      "mechanics_notes": "Current Future Warrior technique references identify Emperor's Edge as Golden Frieza's Super Skill and place it among Frieza-style Death Wave variants. PQ99 is the base-game acquisition endpoint in the maintained reward transcription.",
+      "verification_status": "verified",
       "last_verified": "2026-09-24",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
       ]
     },
     {
@@ -382,14 +383,14 @@
       "source_quest_or_shop": "Parallel Quest 100",
       "ultimate_finish_required": null,
       "skill_description": "Fires an enormous combined Big Bang Attack and Kamehameha energy wave.",
-      "mechanics_notes": "PQ100 is independently confirmed as an acquisition route. The skill is also associated with the TP Medal Shop; exact reward-slot semantics remain unresolved.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
+      "mechanics_notes": "Current Future Warrior technique references identify x100 Big Bang Kamehameha as Gogeta's Ultimate Skill. PQ100 is the maintained base-game acquisition endpoint; the TP Medal Shop is also an acquisition route in current technique documentation.",
+      "verification_status": "verified",
+      "last_verified": "2026-09-24",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
       ]
     }
   ],
-  "audit_note": "2026-09-24 P1 enrichment: refreshed Atomic Blast, Buu Buu Ball, Victory Rush, III Bomber, and Final Kamehameha from current Xenoverse 2-specific skill references plus the maintained PQ86-PQ100 reward transcription. Buu Buu Ball's stale Ultimate/Ki Blast classification was corrected in the research layer to Strike Evasive with 300 stamina. Final Kamehameha's Ultimate-Finish requirement remains unresolved because accessible evidence conflicts."
+  "audit_note": "2026-09-24 P1 enrichment follow-up: refreshed Charged Ki Wave, Phantom Fist, Bluff Kamehameha, Emperor's Edge, and X100 Big Bang Kamehameha from current skill/technique references and the maintained PQ reward transcription. Resource costs and core classifications were promoted only where directly supported; exact reward probabilities remain unresolved."
 }
