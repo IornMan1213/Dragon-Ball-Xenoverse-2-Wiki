@@ -104,7 +104,11 @@
     "skill_batch_337_lightning_impact_variant_2026_09_25": "docs/data/skill-research-batches/skill-batch-337.json",
     "skill_batch_338_current_evidence_refresh_2026_09_25": "docs/data/skill-research-batches/skill-batch-338.json",
     "full_skill_endpoint_reverse_parity_current_2026_09_25": "docs/data/full-skill-endpoint-reverse-parity-audit-2026-09-23.json",
-    "skill_victory_rush_current_evidence_audit_2026_09_25": "docs/data/skill-victory-rush-current-evidence-audit-2026-09-25.json"
+    "skill_victory_rush_current_evidence_audit_2026_09_25": "docs/data/skill-victory-rush-current-evidence-audit-2026-09-25.json",
+    "skill_hyper_drain_current_evidence_audit_2026_09_25": "docs/data/skill-hyper-drain-current-evidence-audit-2026-09-25.json",
+    "skill_hyper_movement_current_evidence_audit_2026_09_25": "docs/data/skill-hyper-movement-current-evidence-audit-2026-09-25.json",
+    "skill_ice_cannon_current_evidence_audit_2026_09_25": "docs/data/skill-ice-cannon-current-evidence-audit-2026-09-25.json",
+    "skill_ice_claw_current_evidence_audit_2026_09_25": "docs/data/skill-ice-claw-current-evidence-audit-2026-09-25.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",
