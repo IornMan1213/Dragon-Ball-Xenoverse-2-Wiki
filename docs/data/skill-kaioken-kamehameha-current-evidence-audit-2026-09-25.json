@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-kaioken-kamehameha-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Kaioken Kamehameha",
+  "result": "current_evidence_refresh",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Ki Blast",
+    "ki_cost": 200,
+    "source_quest_or_shop": "Parallel Quest 14 — \"Saiyan Pride\" Basic Reward",
+    "unlock_method": "PQ14 reward route",
+    "mechanics": "Kaioken-enhanced Kamehameha beam; current repository evidence records a 22-hit beam and the Basic Reward route does not establish an Ultimate-Finish-only gate.",
+    "character_source": "Goku"
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Kaioken_Kamehameha",
+    "https://dbxv2.fandom.com/wiki/Parallel_Quests",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "limits": [
+    "No drop probability is promoted.",
+    "The 22-hit count is retained as current skill-reference evidence, not universal frame-perfect damage behavior.",
+    "The skill is kept distinct from Kaioken Kamehameha x4/x20 Ultimate variants."
+  ]
+}
