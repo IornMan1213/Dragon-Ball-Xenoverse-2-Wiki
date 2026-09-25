@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 329,
+  "created": "2026-09-25",
+  "type": "evidence_refresh",
+  "scope": "Cast-only / legacy skill provenance refresh: Acid, Howl, Boiling Burg, Baked Sphere",
+  "records": [
+    {
+      "name": "Acid",
+      "id": "skill-acid",
+      "classification": "Super",
+      "cast_only": true,
+      "ids": [
+        140,
+        143
+      ],
+      "source_user": "Saibaman variants / raid-boss variant",
+      "sources": [
+        "https://www.scribd.com/document/723438373/Super-skills-dragon-ball",
+        "https://dbxv2.fandom.com/wiki/Saibaman",
+        "https://dragonball.fandom.com/wiki/Acid",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79567595"
+      ],
+      "evidence": "The Xenoverse 2 skills guide lists Acid at IDs 140 and 143 in the Super Skills section. The current Saibaman reference exposes Acid in the Saibaman 2 moveset. The independent unobtainable-by-CaC list includes Acid. The technique reference identifies Acid as a Saibaman technique and a Xenoverse Super Skill. Normal ID 140 and raid ID 143 remain distinct identities in the repository research boundary.",
+      "limits": [
+        "Numeric Ki cost remains unresolved.",
+        "The two IDs are not collapsed into one canonical identity.",
+        "No alternate Future Warrior acquisition route is inferred."
+      ]
+    },
+    {
+      "name": "Howl",
+      "id": "skill-howl",
+      "classification": "Evasive",
+      "cast_only": true,
+      "ids": [
+        10440
+      ],
+      "source_user": "Great Ape enemies",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Great_Ape_Festival",
+        "https://dragonball.fandom.com/wiki/Howl",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79567595"
+      ],
+      "evidence": "Great Ape Festival lists Howl in the Evasive slot for Great Ape Nappa, Vegeta, and Bardock. Independent Xenoverse-series reference material identifies Howl as an Evasive Skill used by non-playable Great Ape bosses. The maintained Xenoverse 2 unobtainable-by-CaC list includes Howl.",
+      "limits": [
+        "Numeric Ki cost remains unresolved.",
+        "Exact current Xenoverse 2 internal cost is not inferred from other games."
+      ]
+    },
+    {
+      "name": "Boiling Burg",
+      "id": "skill-boiling-burg",
+      "classification": "Ultimate",
+      "cast_only": true,
+      "ids": [
+        540,
+        5540
+      ],
+      "source_user": "Demon God Demigra (Final Form)",
+      "sources": [
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List",
+        "https://www.scribd.com/document/723438373/Super-skills-dragon-ball",
+        "https://videogaming.fandom.com/wiki/Boiling_Burg",
+        "https://dragonball.fandom.com/wiki/Demigra",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79567595"
+      ],
+      "evidence": "The Xenoverse 2 ID list identifies short ID 540 / long ID 5540 as Boiling Burg, marks it unavailable to CaC, and assigns Final Form Demigra. The maintained skills guide places 5540 Boiling Burg in the Ultimate section. Independent references identify it as Final Demigra's Ultimate and the unobtainable-by-CaC list includes it.",
+      "limits": [
+        "Numeric Ki cost remains unresolved.",
+        "No Future Warrior acquisition route is inferred."
+      ]
+    },
+    {
+      "name": "Baked Sphere",
+      "id": "skill-baked-sphere",
+      "classification": "Ultimate",
+      "cast_only": false,
+      "ids": [
+        531,
+        5531
+      ],
+      "source_user": "Masked Future Warrior / Supervillain fighters",
+      "sources": [
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List",
+        "https://www.scribd.com/document/723438373/Super-skills-dragon-ball",
+        "https://dragonball.fandom.com/wiki/Baked_Sphere",
+        "https://dragonball.fandom.com/wiki/Future_Warrior",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79567595"
+      ],
+      "evidence": "The Xenoverse 2 ID list identifies Baked Sphere at short ID 531 / long ID 5531 as unavailable to CaC and tied to Demon God Demigra. The maintained skills guide places 5531 in the Ultimate section. Independent Future Warrior documentation explicitly describes Baked Sphere as the Masked Future Warrior's Ultimate Skill in Xenoverse 2, while the move reference classifies it as an explosive-wave technique. This refresh therefore preserves the existing Ultimate identity and confirms that Baked Sphere should not be treated as purely cast-only.",
+      "limits": [
+        "Numeric Ki cost remains unresolved.",
+        "This evidence does not establish a shop/PQ acquisition route for the canonical Future Warrior skill variant."
+      ]
+    }
+  ],
+  "evidence_boundary": "This batch strengthens Xenoverse 2-specific classification and cast/CaC boundaries for four legacy skill-gap records. It intentionally does not promote unresolved numeric Ki costs or invent acquisition routes. Baked Sphere is explicitly retained as a canonical-use Ultimate rather than being classified as purely cast-only.",
+  "validation": {
+    "records": 4,
+    "canonical_promotion": false,
+    "canonical_reconstruction": false,
+    "relationship_changes": 0,
+    "acquisition_routes_inferred": 0,
+    "unresolved_costs": 4
+  }
+}
