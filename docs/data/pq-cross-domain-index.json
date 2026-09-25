@@ -771,5 +771,9 @@
   "skill_drain_field_current_evidence_audit_2026_09_25": "docs/data/skill-drain-field-current-evidence-audit-2026-09-25.json",
   "skill_charged_ki_wave_current_evidence_audit_2026_09_25": "docs/data/skill-charged-ki-wave-current-evidence-audit-2026-09-25.json",
   "skill_phantom_fist_current_evidence_audit_2026_09_25": "docs/data/skill-phantom-fist-current-evidence-audit-2026-09-25.json",
-  "skill_absolute_zero_current_evidence_audit_2026_09_25": "docs/data/skill-absolute-zero-current-evidence-audit-2026-09-25.json"
+  "skill_absolute_zero_current_evidence_audit_2026_09_25": "docs/data/skill-absolute-zero-current-evidence-audit-2026-09-25.json",
+  "skill_death_meteor_current_evidence_audit_2026_09_25": "docs/data/skill-death-meteor-current-evidence-audit-2026-09-25.json",
+  "skill_death_wave_current_evidence_audit_2026_09_25": "docs/data/skill-death-wave-current-evidence-audit-2026-09-25.json",
+  "skill_hellzone_grenade_current_evidence_audit_2026_09_25": "docs/data/skill-hellzone-grenade-current-evidence-audit-2026-09-25.json",
+  "skill_murder_grenade_current_evidence_audit_2026_09_25": "docs/data/skill-murder-grenade-current-evidence-audit-2026-09-25.json"
 }
