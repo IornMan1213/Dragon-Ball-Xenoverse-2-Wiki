@@ -1563,3 +1563,12 @@
 - [x] Preserved the 469/469 canonical boundary; no canonical promotion was made.
 - [ ] CI success remains unverified because the available GitHub interface still exposes no runner steps/log payload for the failing jobs.
 - [ ] **Exact next:** continue the next source-backed partially verified skill tranche after Batch 296/297, using direct Xenoverse 2 evidence to resolve genuinely missing fields; do not invent a new batch identity.
+### 2026-09-24 cycle completion — Batch 296 remaining Ki-cost evidence boundary
+- [x] Completed the bounded Batch 296 follow-up for **Giga Boost, Holstein Shock, Emperor's Sign, and Position Shift**.
+- [x] Rechecked current Xenoverse 2 evidence for identity, classification, and acquisition: Giga Boost → Conton City Skill Shop; Holstein Shock → PQ15; Emperor's Sign → TP Medal Shop; Position Shift → Skill Shop after defeating Kid Buu.
+- [x] Added and registered `docs/data/skill-batch-296-cost-evidence-audit-2026-09-24.json`; refreshed `docs/data/skill-research-batches/skill-batch-296.json` with the evidence boundary.
+- [x] No numeric Ki cost was promoted: all four checked sources remain silent on a reliable current numeric value. Time Control remains the only Batch 296 cost resolved in the prior pass at **100 Ki**.
+- [x] Preserved the canonical **469/469** boundary; no canonical reconstruction or speculative promotion was attempted.
+- [x] Validation: changed JSON files were generated from parsed JSON and written successfully; cross-domain registration and TODO/handoff append completed.
+- [ ] CI success remains unverified; do not claim success without an observable successful run.
+- [ ] **Exact next:** continue with the next deterministic partially verified skill-research batch after Batch 296, using repository evidence first and only promoting fields directly supported by current Xenoverse 2 evidence.
