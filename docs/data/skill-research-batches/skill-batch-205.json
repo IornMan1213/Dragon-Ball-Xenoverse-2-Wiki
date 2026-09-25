@@ -14,6 +14,6 @@
     "correction_required":false
   },
   "audit_conclusion":"No correction committed for Punisher Shield. The conservative null Ultimate Finish value is retained rather than converted to false without explicit reward-condition evidence.",
-  "verification_status":"audited",
-  "last_verified":"2026-09-17"
+  "verification_status":"audited_verified",
+  "last_verified":"2026-09-24"
 }
