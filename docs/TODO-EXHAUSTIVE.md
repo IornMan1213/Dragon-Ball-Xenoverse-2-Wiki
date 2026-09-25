@@ -7702,3 +7702,12 @@
 - [x] Preserved the **469/469** canonical/index boundary and did not promote either cast-only skill without the supported builder/runtime.
 - [ ] CI remains unverified; the current main commit exposes no workflow runs/status checks through the available GitHub interface.
 - [ ] **Exact next:** continue the remaining unresolved skill-gap queue with **Acid** using direct Xenoverse 2 evidence, then proceed through the remaining unresolved records without inventing numeric costs.
+
+
+### 2026-09-24 — TODO completion update — Acid evidence follow-up
+- [x] Added independent Xenoverse 2 evidence for Acid's Super classification and CaC-unavailable boundary.
+- [x] Preserved normal Acid ID 140 versus raid-boss Acid ID 143 as separate identities.
+- [x] Kept numeric Ki cost unresolved and made no unsupported canonical promotion.
+- [x] Canonical/index boundary remains **469/469**.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the remaining unresolved skill-gap queue, beginning with **Boiling Burg / Energy Boil / Baked Sphere** using direct Xenoverse 2 evidence.
