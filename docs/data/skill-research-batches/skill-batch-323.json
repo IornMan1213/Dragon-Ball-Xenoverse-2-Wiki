@@ -50,6 +50,16 @@
       ],
       "limits": [
         "Exact drop probability and guarantee semantics remain unresolved."
+      ],
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate that creates two Ki balls, surrounds the opponent with a five-hit homing barrage, and is documented at about 20% full-sequence damage.",
+      "notes": "2026-09-25 current-evidence promotion: current Xenoverse 2-specific documentation confirms Ultimate / Ki Blast classification, 300-Ki cost, and Expert Mission 10 — The Emperor's Worth acquisition. Maintained Expert Mission reward evidence lists the skill as a Basic Reward; exact drop probability/guarantee remains unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Hellzone_Grenade",
+        "https://dragonball.fandom.com/wiki/Hellzone_Grenade",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
       ]
     },
     {
