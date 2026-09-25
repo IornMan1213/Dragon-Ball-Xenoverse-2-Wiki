@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 337,
+  "created": "2026-09-25",
+  "type": "variant_provenance_reconciliation",
+  "scope": "Lightning Impact variant identity / CaC boundary reconciliation",
+  "records": [
+    {
+      "name": "Lightning Impact",
+      "id": "skill-lightning-impact",
+      "classification": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "pq_endpoint": "PQ142 — Timespace Tussle",
+      "evidence": [
+        "The canonical/player-obtainable Lightning Impact research path is associated with PQ142 Basic Reward and 300 Ki.",
+        "Xenoverse 2 Character ID evidence distinguishes short ID 1100 as the CaC-usable Lightning Impact variant from short ID 1103 as a separate CaC-unusable Lightning Impact variant.",
+        "The cast-exclusive variant is separately documented as a 300-Ki Ultimate associated with Ultra Pack 2; its exact player acquisition endpoint is not inferred from the PQ142 relationship because the variant identity differs.",
+        "Current PQ142 relationship data links the canonical skill identity `skill-lightning-impact` to Timespace Tussle; the research boundary therefore keeps the player/canonical endpoint distinct from the cast-exclusive variant."
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://dbxv2.fandom.com/wiki/Lightning_Impact",
+        "https://dbxv2.fandom.com/wiki/Parallel_Quest_142",
+        "https://dragonball.fandom.com/wiki/Lightning_Impact"
+      ],
+      "variant_boundary": {
+        "player_variant_short_id": 1100,
+        "player_variant_cac_usable": true,
+        "cast_variant_short_id": 1103,
+        "cast_variant_cac_usable": false,
+        "shared_display_name": true,
+        "shared_canonical_skill_identity": true,
+        "distinct_internal_variant_identity": true
+      },
+      "unresolved": [
+        "Exact player-facing differentiation in the wiki presentation between the 1100 and 1103 internal variants.",
+        "Exact acquisition endpoint for the cast-exclusive 1103 variant.",
+        "Version-sensitive damage/frame/hitbox values.",
+        "No new canonical ID should be created solely from the short-ID variant distinction unless the repository's canonical identity rules require it."
+      ],
+      "guardrails": [
+        "Do not merge the 1103 cast-only variant into the 1100 CaC-use claim.",
+        "Do not create a second canonical Lightning Impact identity solely because the internal short IDs differ.",
+        "Do not infer a separate player acquisition route for the cast-only variant from PQ142.",
+        "Preserve the existing PQ142 → skill-lightning-impact relationship."
+      ]
+    }
+  ],
+  "evidence_boundary": "Batch 337 resolves the important variant/CaC boundary for Lightning Impact without changing the canonical relationship layer. The display name is shared, but Xenoverse 2 internal IDs distinguish a CaC-usable short ID 1100 variant from a CaC-unusable short ID 1103 variant. The repository's canonical `skill-lightning-impact` remains the player/PQ142 identity; the cast-only variant remains a research-layer variant rather than an invented duplicate canonical skill."
+}
