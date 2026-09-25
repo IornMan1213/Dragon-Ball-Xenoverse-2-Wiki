@@ -512,3 +512,16 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Commits: `fe6fa28`, `59081a3`, `6e7974b`, `23b7768`, `d9188580`, `ef86ea8`, `9f40361`.
 - [x] **Exact next:** continue the remaining under-documented enriched-corpus frontier after Majin Kamehameha, starting with the next stale/low-evidence **M/N** records; prefer a 4-record mechanics/provenance batch with direct current Xenoverse 2 evidence, while preserving 469/469 parity.
+
+
+### 2026-09-25 cycle completion — Skill Batch 352 M/N mechanics + provenance refresh
+- [x] Live baseline remains **469 canonical/index skill records** with no duplicate IDs.
+- [x] Completed **Milky Cannon, Neo Tri-Beam, Murder Grenade, and Namek Finger**.
+- [x] Added/confirmed current-evidence audits and Skill Research Batch 352.
+- [x] Milky Cannon mechanics expanded: 100-Ki chargeable projectile, quick initial travel followed by a slow phase of about 3 seconds; charging extends pre-slow travel distance; documented knockback/10% source-reported damage.
+- [x] Neo Tri-Beam mechanics expanded: 300-Ki Ultimate, 5% source-reported per initial shot, repeat shots consume 100 Stamina each; **corrected acquisition endpoint from stale Lesson 3 to current Lesson 4**.
+- [x] Murder Grenade mechanics expanded: 100-Ki ballistic projectile/pillar, 10% source-reported damage, directional distance controls; unresolved reward probability remains explicitly unresolved.
+- [x] Namek Finger mechanics expanded: 100-Ki Namekian-only grab/stun Super with 10% source-reported damage; archived TP Medal Shop evidence continues to support the 30-TP-Medal listing, while current generic shop wording is not used to erase the historical endpoint.
+- [x] Registered Batch 352 and all four audit paths in `skills-index.json`; parity remains 469/469.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** continue the remaining under-documented enriched-corpus frontier after Namek Finger, prioritizing the next M/N/O records with the shortest mechanics evidence and checking for stale acquisition/classification endpoints before enrichment.
