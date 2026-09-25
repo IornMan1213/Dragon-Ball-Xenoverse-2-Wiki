@@ -8055,3 +8055,12 @@
 - [x] Changed JSON re-parsed successfully.
 - [ ] CI success remains unverified.
 - [ ] Exact next: continue the next existing partially verified tranche after Batch 313 with direct evidence.
+
+
+### 2026-09-25 — Batch 314 evidence refresh completion
+- [x] Refreshed all five Batch 314 Ki Blast Ultimate records with direct current Xenoverse 2 evidence.
+- [x] Corrected X4 Kaioken Kamehameha to 300-400 Ki and enriched staged-hit/fatigue mechanics; enriched X20 Kaioken Kamehameha, Dual Destructo-Disc, Innocence Breath, and Maiden Blast.
+- [x] Added/registered docs/data/skill-batch-314-evidence-refresh-2026-09-25.json; changed JSON re-parsed successfully.
+- [x] Preserved unresolved reward probabilities, Ultimate Finish requirements, shop pricing, version history, and canonical IDs.
+- [ ] CI success remains unverified.
+- [ ] Exact next: continue Batch 315 direct-evidence research.
