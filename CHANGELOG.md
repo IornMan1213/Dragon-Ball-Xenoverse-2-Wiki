@@ -3147,3 +3147,9 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Finalized the historical Flash Fist Crush provenance correction and refreshed the related counter/acquisition audits through Batches 211–213.
 - Preserved canonical/index parity at **469/469** with **0 duplicate IDs** and no speculative canonical records.
 - Kept unresolved mechanics and reward semantics evidence-bounded.
+
+
+### 2026-09-24 — Batch 214 counter-taxonomy refresh
+- Refreshed Burst Rush, Super God Shock Flash, and Heroic Counter audit metadata to current verification scope.
+- Preserved counter taxonomy separately from canonical skill class/subcategory and retained existing acquisition/Ultimate-Finish semantics.
+- Canonical/index baseline remains **469/469** with **0 duplicate IDs**.
