@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-kaioken-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Kaioken",
+  "result": "current_evidence_refresh",
+  "supported_fields": {
+    "class": "Awoken",
+    "subcategory": "Race",
+    "ki_cost": "100 / 300 / 500 stage thresholds",
+    "source_quest_or_shop": "Parallel Quest 8 — \"Invade Earth\" Ultimate Finish",
+    "unlock_method": "Complete PQ8 with an Ultimate Finish",
+    "mechanics": "Universal CaC Awoken with Kaioken, Kaioken x3, and Kaioken x20 stages. Current maintained evidence records increasing Ki thresholds and escalating stamina drain; x3 and x20 provide progressively larger offensive boosts with increasingly severe defense/drain tradeoffs.",
+    "character_source": "CaC / Universal"
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Kaioken",
+    "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
+    "https://dbxv2.fandom.com/wiki/Category:Transformations"
+  ],
+  "limits": [
+    "The repository preserves unresolved probability/guarantee semantics where generic PQ condition text is insufficient; the Ultimate Finish acquisition endpoint itself is retained.",
+    "Exact frame data and version-specific balance changes are not inferred.",
+    "Stage bonuses are bounded to the maintained current skill evidence rather than generalized to every patch/version."
+  ]
+}
