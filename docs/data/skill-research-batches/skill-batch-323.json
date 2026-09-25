@@ -1,0 +1,81 @@
+{
+  "batch_id": 323,
+  "created": "2026-09-25",
+  "type": "evidence_refresh",
+  "scope": "Expert Mission Ultimate provenance tranche following Batch 322",
+  "records": [
+    {
+      "id": "skill-supernova",
+      "name": "Supernova",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "acquisition": "Expert Mission 6 — The Depths of Despair; current repository EM acquisition mapping identifies Supernova as the associated skill.",
+      "evidence": [
+        "docs/data/skill-expert-mission-acquisition-early.json",
+        "docs/data/skill-research-batches/skill-batch-96.json",
+        "docs/data/skill-research-batches/skill-batch-97.json"
+      ],
+      "limits": [
+        "Exact per-clear drop probability remains unresolved.",
+        "No first-clear guarantee inferred from endpoint mapping."
+      ]
+    },
+    {
+      "id": "skill-dead-end-bullet",
+      "name": "Dead End Bullet",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "acquisition": "Expert Mission 8 — Ominous Androids; Basic Reward endpoint supported by the maintained Expert Mission provenance audit.",
+      "evidence": [
+        "docs/data/skill-expert-mission-acquisition-early.json",
+        "docs/data/skill-expert-mission-provenance-audit-2026-09-23.json"
+      ],
+      "limits": [
+        "Exact drop probability and guarantee semantics remain unresolved."
+      ]
+    },
+    {
+      "id": "skill-hellzone-grenade",
+      "name": "Hellzone Grenade",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "acquisition": "Expert Mission 10 — The Emperor's Worth; Basic Reward endpoint supported by the maintained Expert Mission provenance audit.",
+      "evidence": [
+        "docs/data/skill-expert-mission-acquisition-early.json",
+        "docs/data/skill-expert-mission-provenance-audit-2026-09-23.json",
+        "docs/data/skill-provenance-audit-2026-09-24-gravity-impact-through-heroic-assault.json"
+      ],
+      "limits": [
+        "Exact drop probability and guarantee semantics remain unresolved."
+      ]
+    },
+    {
+      "id": "skill-super-electric-strike",
+      "name": "Super Electric Strike",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "acquisition": "Expert Mission 11 — The Devil Born from the Dragon Balls; Basic Reward endpoint supported by the maintained Expert Mission provenance audit.",
+      "evidence": [
+        "docs/data/skill-expert-mission-acquisition-early.json",
+        "docs/data/skill-expert-mission-provenance-audit-2026-09-23.json",
+        "docs/data/skill-provenance-audit-2026-09-24-strike-through-super-gamma-blast.json"
+      ],
+      "limits": [
+        "Exact drop probability and guarantee semantics remain unresolved."
+      ]
+    }
+  ],
+  "evidence_boundary": "This refresh consolidates existing source-backed Xenoverse 2 Expert Mission provenance without inferring probabilities, first-clear guarantees, rotation data, frame data, or version-sensitive damage.",
+  "validation": {
+    "records": 4,
+    "canonical_promotion": false,
+    "canonical_reconstruction": false,
+    "canonical_skill_baseline": 470,
+    "index_skill_baseline": 470,
+    "duplicate_ids": 0
+  }
+}
