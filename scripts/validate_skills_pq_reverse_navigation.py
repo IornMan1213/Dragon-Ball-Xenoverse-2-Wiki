@@ -21,7 +21,17 @@ def main():
     for e in rel:
         if e.get("relationship")=="pq_rewards_skill" and e.get("target") and e.get("pq"):
             canonical_pair_list.append((e["target"], int(str(e["pq"]).replace("pq-",""))))
-    duplicate_pairs = sorted(set(p for p in canonical_pair_list if canonical_pair_list.count(p) > 1))
+    duplicate_pairs = sorted({p for p in canonical_pair_list if canonical_pair_list.count(p) > 1})
+    malformed_canonical_rows = [
+        e for e in rel if e.get("relationship")=="pq_rewards_skill"
+        and (not isinstance(e.get("pq"),str) or not isinstance(e.get("target"),str) or not e.get("pq") or not e.get("target"))
+    ]
+    invalid_canonical_pqs = sorted({
+        int(str(e["pq"]).replace("pq-","")) for e in rel
+        if e.get("relationship")=="pq_rewards_skill" and isinstance(e.get("pq"),str)
+        and str(e["pq"]).replace("pq-","").isdigit()
+        and not 1 <= int(str(e["pq"]).replace("pq-","")) <= 186
+    })
     for r in skills:
         actual=set(map(int,r.get("source_parallel_quests",[])))
         expected=canonical.get(r["name"],set())
@@ -37,6 +47,9 @@ def main():
       "pq_links_rendered": "Canonical PQs:" in h and "source_parallel_quests" in h,
       "pq_search_is_encoded": "encodeURIComponent('PQ '+v)" in h,
       "search_includes_pq_field": "s.source_parallel_quests" in h,
+      "canonical_skill_edge_count_is_244": len(canonical_pair_list)==244,
+      "canonical_skill_pq_ids_are_1_to_186": not invalid_canonical_pqs,
+      "canonical_skill_rows_are_well_formed": not malformed_canonical_rows,
       "canonical_reverse_sets_match": not mismatches,
       "exact_forward_reverse_pair_parity": not missing_pairs and not extra_pairs,
       "canonical_targets_resolve": not unresolved_targets,
@@ -46,7 +59,7 @@ def main():
     out={"schema_version":"1.0.0","scope":"Skills-All canonical PQ reverse navigation",
          "consumer":"docs/Skills-All.html","canonical_source":"docs/data/pq-reward-relationships.json",
          "skill_count":len(skills),"canonical_pq_skill_edges":sum(len(v) for v in canonical.values()),
-         "reverse_set_mismatches":mismatches,"missing_reverse_pairs":missing_pairs,"extra_reverse_pairs":extra_pairs,"unresolved_canonical_targets":unresolved_targets,"duplicate_reverse_pairs":duplicate_pairs,"checks":checks,
+         "reverse_set_mismatches":mismatches,"missing_reverse_pairs":missing_pairs,"extra_reverse_pairs":extra_pairs,"unresolved_canonical_targets":unresolved_targets,"duplicate_reverse_pairs":duplicate_pairs,"malformed_canonical_rows":len(malformed_canonical_rows),"invalid_canonical_pqs":invalid_canonical_pqs,"checks":checks,
          "status":"clean" if all(checks.values()) else "unresolved",
          "evidence_boundary":"Links expose only canonical PQ identity. They do not imply reward guarantees, Ultimate Finish requirements, drop rates, or other acquisition semantics."}
     print(json.dumps(out,indent=2,ensure_ascii=False)); return 0 if out["status"]=="clean" else 1
