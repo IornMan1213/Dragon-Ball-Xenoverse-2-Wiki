@@ -1011,3 +1011,14 @@
 - [x] Canonical/index boundary remains **469/469**; no unsupported canonical promotion was attempted.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-189**.
+
+### 2026-09-24 cycle completion — Counter Impact P1 provenance verification
+- [x] Completed **skill-batch-189 — Counter Impact**.
+- [x] Revalidated **Super / Ki Blast**, 100 Ki, PQ153 acquisition, Basic Reward evidence, Counter Skill taxonomy, and the melee-triggered stance/warp/Ki Wave mechanics. citeturn1search0turn1search4
+- [x] Verified Conton City Vote Pack provenance against official Bandai Namco documentation: the pack added Vegeta (GT), four Parallel Quests, and ten additional moves. citeturn1search5turn1search9
+- [x] Preserved the important distinction that generic Counter Skill categorization does not prove a universal all-attack trigger; the documented Counter Impact trigger is melee.
+- [x] Added and registered **docs/data/skill-counter-impact-p1-provenance-verification-2026-09-24.json**.
+- [x] Preserved unresolved stamina, exact frame/matchup data, drop probability, and CaC-usability evidence.
+- [x] Canonical/index boundary remains **469/469**; no unsupported canonical promotion was attempted.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-190**.
