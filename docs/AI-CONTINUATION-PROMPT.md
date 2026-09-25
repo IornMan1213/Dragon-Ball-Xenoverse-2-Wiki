@@ -1809,3 +1809,11 @@
 - [ ] CI: the push-triggered Repository quality and Wiki data audit runs for commit fa714a332c2d8330ad7bbff5539070bc14b495af both failed with zero exposed workflow steps; the subsequent PQ navigation repair commit b16717265b2b606618ac08b7b6d74427c9aeb558 has not yet been verified for CI success.
 - [x] Commits: fa714a332c2d8330ad7bbff5539070bc14b495af (mentor typed-skill count repair); b16717265b2b606618ac08b7b6d74427c9aeb558 (PQ current navigation count repair).
 - [ ] Exact next: inspect the Actions runs for b16717265b2b606618ac08b7b6d74427c9aeb558; if failures again expose zero steps/logs, preserve the runner-level CI boundary and continue the remaining exact-pair reverse/navigation scan, prioritizing current non-PQ equipment/accessory presentation consumers. If usable logs appear, fix only the exact reported failure.
+
+
+### 2026-09-25 cycle correction — CI runner failure confirmed after consumer repairs
+- [x] The first handoff/TODO append commit `06b87bb911bebfb083439e2c3ccdc5fac3dbf270` triggered Repository quality and Clean internal artifacts; both failed immediately with zero exposed workflow steps/logs.
+- [x] Repository quality job `107978584183` and Clean internal artifacts job `107978584475` both returned completed/failure with `steps=null` and no logs, matching the previously observed runner-level failure pattern rather than an observable checker finding.
+- [x] The newest main commit is `1bf72b0cd61d9746f48cc0679ffe7340b67e0525`; its Repository quality, Clean internal artifacts, and Pages runs were queued when inspected. No CI success is claimed.
+- [x] Current repository work remains limited to evidence-backed consumer-count reconciliation; no validator weakening, speculative cleanup, canonical gameplay-data mutation, or historical snapshot deletion was performed.
+- [ ] **Exact next:** inspect the queued Actions runs for `1bf72b0cd61d9746f48cc0679ffe7340b67e0525`; if they again fail with zero steps/logs, preserve the runner-level CI boundary and continue the remaining current exact-pair reverse/navigation scan, prioritizing non-PQ equipment/accessory presentation consumers.
