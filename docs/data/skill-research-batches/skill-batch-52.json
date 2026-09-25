@@ -151,7 +151,7 @@
       "source_quest_or_shop": "Parallel Quest 75",
       "ultimate_finish_required": null,
       "skill_description": "Counters an incoming Ki Blast and returns a more powerful Ki Blast to the opponent.",
-      "mechanics_notes": "Current Xenoverse 2-specific documentation confirms Counter Burst as a 100-Ki Ki Blast Super. It projects an energy shield that absorbs an incoming Ki Blast attack and returns a stronger Ki Blast counter; current skill data documents a six-hit counter projectile. PQ75 is the CaC acquisition endpoint, and current documentation also records Partner Customization availability for SSGSS Vegeta.",
+      "mechanics_notes": "Current Xenoverse 2-specific documentation confirms Counter Burst as a 100-Ki Ki Blast Super. It projects an energy shield that absorbs an incoming Ki Blast attack and returns a stronger Ki Blast counter; current skill data documents a six-hit counter projectile. PQ75 is the CaC acquisition endpoint, and current documentation also records Partner Customization availability for SSGSS Vegeta. Exact numeric stamina expenditure is not promoted because no sufficiently direct current source was established in this pass.",
       "verification_status": "verified_current_scope",
       "last_verified": "2026-09-25",
       "sources": [
