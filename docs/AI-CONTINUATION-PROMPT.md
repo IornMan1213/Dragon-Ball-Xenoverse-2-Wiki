@@ -962,3 +962,12 @@
 - [x] Canonical/index boundary remains 469/469; no canonical promotion was attempted.
 - [ ] CI success remains unverified.
 - [ ] Exact next: inspect current Actions reruns, then continue skill-batch-184 using the same bounded provenance workflow.
+
+### 2026-09-24 cycle completion — Punisher Drive P1 provenance verification
+- [x] Completed skill-research-batches/skill-batch-184.json — Punisher Drive.
+- [x] Revalidated Xenoverse 2 Super / Strike identity, Skill Shop acquisition after relevant story progression, invisible rapid-rush mechanics, and separation from Soul Punisher. Independent documentation specifies the Masked Saiyan Saga story gate.
+- [x] Added docs/data/skill-punisher-drive-p1-provenance-verification-2026-09-24.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Preserved evidence limits: current Ki cost, stamina cost, exact frame/damage/tracking/guard behavior remain unresolved where evidence was insufficient; no Ultimate Finish requirement inferred.
+- [x] Canonical/index boundary remains 469/469; no canonical promotion was attempted.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** inspect current Actions state, then continue skill-batch-185 using the same bounded provenance workflow.
