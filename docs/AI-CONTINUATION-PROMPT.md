@@ -2200,3 +2200,16 @@
 - [x] New research JSON and updated registry/audit were written successfully.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] **Exact next:** continue the remaining unresolved cast-only/legacy skill-gap queue with the strongest evidence-backed field opportunities (after the already refreshed Boiling Ball/Tricky Strike pair), while continuing deterministic current-facing consumer parity checks when a genuinely current mismatch is found.
+
+
+### 2026-09-25 cycle completion — Current reverse/navigation consumer reconciliation
+- [x] Live census found two deterministic current-facing stale boundaries rather than reopening historical snapshots: the mentor presentation audit still reported **Hit → Time Skip/Tremor Pulse** unresolved, while the reverse equipment audit still reported **174** records although the live equipment/accessory layer contains **173 / 173 unique IDs**.
+- [x] Confirmed the exact existing canonical mentor endpoint before editing: `mentor-endpoints.json` and `mentor-skill-crosslink-report.json` already resolve Hit Lesson 3 to `skill-time-skip-tremor-pulse`; no skill identity or acquisition relationship had to be invented.
+- [x] Reconciled `docs/data/mentor-presentation-consumer-audit-2026-09-24.json` to **132 mentor skill edges / 131 unique skill targets / 0 unresolved lessons**.
+- [x] Closed `docs/data/non-pq-skill-reverse-navigation-parity-2026-09-25.json`: non-PQ canonical coverage is now **231 / 231**, with **0 uncovered non-PQ skills**.
+- [x] Corrected `docs/data/record-reverse-pq-navigation-audit.json` equipment/accessory current record scalar **174 → 173**, matching the live `equipment-accessories-record-layer.json` and current Equipment-All presentation audits.
+- [x] Added `docs/data/current-reverse-navigation-consumer-reconciliation-2026-09-25.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: changed JSON re-fetched and parsed successfully; **470 canonical skills / 470 index skills / 231 non-PQ canonical / 231 non-PQ endpoint union / 173 equipment-accessory records / 853 PQ relationship edges / 124 PQ equipment edges**. **0 relationship edges changed / 0 canonical IDs added / 0 acquisition routes inferred / 0 historical snapshots rewritten**.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] Historical 174/469/other dated snapshots remain preserved where their scope is explicitly historical.
+- [ ] **Exact next:** continue the current exact-pair reverse/navigation census beyond the now-clean mentor and equipment scalar boundaries; prioritize the next machine-checkable one-way consumer mismatch or a bounded evidence-backed thin-domain enrichment, without repeating resolved counts.
