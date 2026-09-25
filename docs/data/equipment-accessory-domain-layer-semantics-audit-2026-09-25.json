@@ -1,0 +1,24 @@
+{
+  "schema_version":"1.0.0",
+  "audit_date":"2026-09-25",
+  "scope":"Equipment/accessory domain-layer semantics and current-count boundary reconciliation",
+  "layers":{
+    "equipment_record_layer":{"records":138,"source":"docs/data/equipment-record-layer.json","role":"legacy/normalized equipment projection"},
+    "equipment_accessories_record_layer":{"records":173,"unique_ids":173,"source":"docs/data/equipment-accessories-record-layer.json","role":"current merged presentation record layer"},
+    "legacy_accessory_namespace":{"records":74,"role":"acc-### PQ accessory projection; not equivalent to total merged inventory"},
+    "accessory_reconciliation_layer":{"records":116,"role":"accr-### canonical reconciliation research layer"},
+    "pq_equipment_relationships":{"forward_edges":124,"unique_targets":122,"source":"docs/data/pq-reward-relationships.json","role":"authoritative PQ reward relationship graph"}
+  },
+  "finding":"The prior 174 value appears in dated enrichment/reconciliation artifacts and must not be used as the current merged-layer scalar. Direct current parsing establishes 173 records in equipment-accessories-record-layer.json. The 138-record equipment projection and 74-record legacy accessory namespace are separate projections and must not be arithmetically summed into a current inventory count.",
+  "validation":{
+    "merged_layer_unique_ids":173,
+    "equipment_layer_unique_ids":138,
+    "pq_equipment_edges":124,
+    "pq_unique_targets":122,
+    "relationship_edges_changed":0,
+    "identities_created":0,
+    "acquisition_routes_inferred":0,
+    "historical_artifacts_rewritten":false
+  },
+  "evidence_boundary":"This audit establishes layer semantics and current scalar provenance only. It does not infer missing inventory identities or new PQ reward relationships."
+}
