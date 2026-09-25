@@ -3200,3 +3200,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Repaired a deterministic canonical/index mismatch by removing orphaned index-only Serious Bomb; final live parity is 469 canonical / 469 index / 0 duplicate IDs.
 - Exact reward probabilities and unsupported Ultimate-Finish gates remain unresolved where evidence does not establish them; no numeric drop rates were invented.
 - CI remains unverified.
+
+
+## 2026-09-25 — Skill Batch 343
+- Promoted Recoome Kick, Sauzer Blade, Savory Slicer, and Scissors Paper Rock to current verified/enriched coverage.
+- Corrected character-source identities for Sauzer Blade (Jeice), Savory Slicer (Android 21), and Scissors Paper Rock (Goku GT) from current dedicated Xenoverse 2 evidence.
+- Added four current-evidence audits plus Skill Research Batch 343 and registered them in the cross-domain index.
+- Final parity: 469 canonical / 469 index / 0 duplicate IDs; CI remains unverified.
