@@ -1,0 +1,27 @@
+{
+  "audit_id": "skill-dimension-ray-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "scope": [
+    "Dimension Ray"
+  ],
+  "result": "Current Xenoverse 2-specific evidence supports a current-scope verification refresh.",
+  "mechanics": {
+    "classification": "Ki Blast Ultimate",
+    "ki_cost": 400,
+    "behavior": "Creates spatial shards that launch in a wide long-range barrage; current skill documentation describes 19 hits and knockback.",
+    "acquisition": "Parallel Quest 98 — Villains Regroup!"
+  },
+  "acquisition_evidence": {
+    "pq98_reward": "The maintained PQ reward transcription lists Dimension Ray as a Basic Reward.",
+    "independent_context": "Archived player discussion independently identifies PQ98 as the reward endpoint and notes TP Medal Shop availability."
+  },
+  "limits": {
+    "drop_probability": null,
+    "ultimate_finish_required": null
+  },
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Dimension_Ray",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74473403"
+  ]
+}
