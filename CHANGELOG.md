@@ -3172,3 +3172,9 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Refreshed Fighting Pose F/G/A/B/C/D/E/H/I and remaining documented Power Up Super audit metadata.
 - Preserved evidence-bounded Ultimate Finish/acquisition fields and current Xenoverse 2 source precedence.
 - Canonical/index baseline remains **469/469** with **0 duplicate IDs**.
+
+
+### 2026-09-24 — Batches 221–227 Evasive audit chain
+- Refreshed the Evasive correction and Strike Evasive research chain through Evil Whirlwind.
+- Preserved source conflicts and character-only/variant distinctions without speculative canonical promotion.
+- Validation baseline remains **469/469** with **0 duplicate IDs**.
