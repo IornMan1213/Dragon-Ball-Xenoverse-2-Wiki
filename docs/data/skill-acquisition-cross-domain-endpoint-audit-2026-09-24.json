@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "scope": "current non-PQ skill acquisition cross-domain endpoint consumer reconciliation",
   "source_of_truth": "docs/data/skills.json",
   "consumer_sync_source": "docs/data/skill-acquisition-endpoint-consumer-synchronization-2026-09-23.json",
-  "canonical_skill_count": 469,
+  "canonical_skill_count": 470,
   "pq_linked_skill_count": 239,
   "non_pq_skill_count": 230,
-  "endpoint_union_skill_count": 469,
+  "endpoint_union_skill_count": 470,
   "uncovered_skill_count": 0,
   "endpoint_layers": {
     "mentor": 131,
