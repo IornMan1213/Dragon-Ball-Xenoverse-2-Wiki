@@ -4,18 +4,21 @@
   "verification_policy": "Single-skill Strike Super research: reconcile Xenoverse 2 identity, acquisition route, costs, mechanics, Counter Skills taxonomy, and reward-slot evidence. Preserve unsupported fields as null.",
   "research_scope": "God Breaker — Strike Super / melee counter research.",
   "verification_audit": {
-    "audited": "2026-09-17",
-    "method": "Compared repository commit history with current Xenoverse 2-specific skill documentation, independent Dragon Ball documentation, and the all-186 Parallel Quest reward guide.",
+    "audited": "2026-09-24",
+    "method": "Reconciled repository research with Xenoverse 2-specific skill documentation and independent Dragon Ball documentation.",
     "duplicate_check": {
       "status": "passed",
-      "selected_records": ["God Breaker"],
+      "selected_records": [
+        "God Breaker"
+      ],
       "duplicate_count": 0,
-      "identity_note": "No existing repository research batch for God Breaker was found. Canonical identity is Super / Strike; its melee-counter behavior is represented by Counter Skills taxonomy without creating a second identity."
+      "identity_note": "No duplicate repository research batch was found; God Breaker remains a single Super Skill identity."
     },
-    "classification_finding": "Current Xenoverse 2 documentation lists God Breaker as a Ki Blast Super whose counter condition is Strike/melee. The repository's Strike Super taxonomy therefore describes the counter classification, while damage_type preserves the documented Ki Blast output.",
-    "acquisition_finding": "God Breaker is obtained from Parallel Quest 44 — Dragon Balls of the Future.",
-    "finish_policy": "ultimate_finish_required is false because the all-186 Parallel Quest reward guide explicitly lists God Breaker under PQ44 Basic Reward rather than an Ultimate Finish reward slot.",
-    "cost_policy": "The documented Ki cost is 100; stamina cost remains null because the reviewed canonical sources do not establish a reliable stamina value."
+    "classification_finding": "Xenoverse 2-specific documentation classifies God Breaker as a Ki Blast Super with a Strike Counter characteristic. The repository retains Super / Strike taxonomy for its melee-counter family while damage_type remains Ki Blast.",
+    "acquisition_finding": "God Breaker is obtainable by the Future Warrior from PQ44 — Dragon Balls of the Future. Independent Dragon Ball documentation also identifies the PQ44 route and later Tapion Partner Customization availability.",
+    "finish_policy": "ultimate_finish_required remains false: the repository's all-186 PQ reward guide records God Breaker as a PQ44 basic reward rather than an Ultimate Finish reward.",
+    "cost_policy": "100 Ki is directly documented; stamina cost remains null.",
+    "mechanics_finding": "The counter activates when struck by Strike or basic melee attacks, including grabs, then stuns/turns toward the attacker and fires a yellow Ki Blast. Exact active-frame and damage values remain version-sensitive."
   },
   "records": [
     {
@@ -33,12 +36,12 @@
       "source_quest_or_shop": "Parallel Quest 44 — Dragon Balls of the Future",
       "ultimate_finish_required": false,
       "skill_description": "A Strike-counter Super that places the user in a defensive stance; when struck by a Strike or basic melee attack during the active window, the user stuns the attacker and fires a yellow Ki Blast.",
-      "mechanics_notes": "The Xenoverse 2 skill reference documents God Breaker as a Strike Counter. It can activate against Strike skills and basic melee attacks, including grabs, then turns toward the triggering opponent and fires a Ki Blast. Exact frame timing and version-specific matchup behavior are not promoted to canonical numeric data.",
-      "acquisition_notes": "The documented Xenoverse 2 acquisition route is PQ44. The all-186 PQ guide places God Breaker in the Basic Reward list; the exact random-drop probability is unresolved.",
+      "mechanics_notes": "Xenoverse 2 documentation describes a defensive pose that counters Strike skills and basic melee attacks, including grabs. On activation the attacker is stunned, the user turns toward the triggering opponent, and a yellow Ki Blast is fired. The move is categorized as a Ki Blast Super while functioning as a melee/Strike counter; this is not a taxonomy contradiction.",
+      "acquisition_notes": "Future Warrior acquisition is PQ44 — Dragon Balls of the Future. The all-186 reward guide places it in the Basic Reward slot; exact random-drop probability remains unresolved. Partner Customization later permits Tapion access, which is cast-character customization rather than a separate CaC acquisition route.",
       "pve_notes": "PQ44 basic reward; no Ultimate Finish requirement established.",
       "pvp_notes": "Melee/Strike counter that can also catch grabs. Detailed frame and matchup claims remain version-sensitive.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
+      "verification_status": "verified",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_Breaker",
         "https://dragonball.fandom.com/wiki/God_Breaker",
