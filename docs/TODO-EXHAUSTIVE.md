@@ -63,3 +63,11 @@
 - [x] Preserved the conflicting Basic Reward vs. reported Ultimate-Finish semantics; no unsupported reward gate or drop probability was added.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the remaining partially verified/under-enriched skill provenance queue.
+
+
+### 2026-09-25 completion — Buu Buu Ball current-evidence provenance promotion
+- [x] Added the current-evidence audit for **Buu Buu Ball** and registered it in the cross-domain index.
+- [x] Promoted Batch 54's research record to `verified_current_scope` for classification, 300-Stamina cost, Majin restriction, and PQ88 endpoint.
+- [x] Preserved unresolved Ultimate-Finish/drop semantics; no unsupported probability or guarantee was added.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the remaining partially verified/under-enriched skill provenance queue.
