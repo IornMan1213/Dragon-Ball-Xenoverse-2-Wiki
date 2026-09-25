@@ -1961,3 +1961,14 @@
 - [ ] CI remains unverified; no successful Actions result is claimed.
 - [x] Commits: Batch 311 correction a42259e89dbb48bee4b4f6ab6bb126846f03f7c0; parity audit a217115002bf40130662e3561b1c7403901ea1bf; registry c0a2d38c9208befa4ec727b4139e8502f1709a04.
 - [ ] Exact next: continue the same deterministic parity sweep through the remaining partially_verified Ultimate records, prioritizing any historical research-batch/catalog projection mismatch before new prose enrichment.
+
+
+### 2026-09-25 cycle completion — Ultimate Expert Mission taxonomy parity validator
+- [x] Performed a live parity comparison between the 13-record `docs/data/skill-expert-mission-acquisition-early.json` projection and the current 470-record `docs/data/skills-index.json` canonical/index layer.
+- [x] Checked all 13 EM03–15 projection records; **0 class/subcategory mismatches** were found. The previously corrected Death Meteor and Blue Hurricane Strike classifications now agree across layers.
+- [x] Confirmed the remaining relevant Ultimate EM projections (Assault Rain, Dead End Bullet, Hellzone Grenade, Shocking Death Ball) remain `Ultimate / Ki Blast`; no unnecessary edits were made.
+- [x] Added `docs/data/ultimate-em-taxonomy-parity-audit-2026-09-25.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: all changed/readback JSON parsed successfully; 470 skill records; 13 acquisition projection records; cross-domain registry now **154** keys; no duplicate projection skill names or internal citation artifacts detected.
+- [ ] CI remains unverified; no successful Actions result is claimed.
+- [x] Commits: parity audit `c6f729087a94df66384894fec283907e74b92533`; registry `40939e68ca3ed0bab1449cb32424f36d202aef9d`.
+- [ ] **Exact next:** continue the partially_verified Ultimate parity sweep outside the EM03–15 projection, comparing remaining historical research batches and catalog projections for **Shocking Death Ball and Spirit Sword**, then move to the next deterministic cross-database invariant if no mismatch is found.
