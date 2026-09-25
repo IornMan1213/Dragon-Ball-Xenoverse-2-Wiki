@@ -10218,10 +10218,10 @@
       "source_quest_or_shop": "Parallel Quest 61 — \"The Cell Games Continued\"",
       "ultimate_finish_required": false,
       "skill_description": "Recoome Kick is a Super Strike skill associated with Recoome.",
-      "mechanics_notes": "A fast flying knee that, on a successful hit, temporarily boosts the user's normal/basic attack power. Current mechanics documentation describes it as a single-hit rush attack; the canonical record retains the 100-Ki Super cost and PQ61 Basic Reward route. Exact buff magnitude/duration and drop probability remain unresolved.",
-      "verification_status": "verified",
-      "research_status": "verified",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "Fast single-hit flying knee/side-kick rush; on a successful hit, the user's normal/basic attack power is temporarily increased. Current skill documentation lists 10% damage.",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Recoome_Kick",
@@ -10230,7 +10230,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 61,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.\n2026-09-25 current-evidence promotion: dedicated Xenoverse 2 evidence revalidated identity, classification, cost, acquisition endpoint, and bounded mechanics. Exact attack-buff magnitude/duration and individual reward probability remain unresolved. The repository does not infer a hidden Ultimate-Finish-only gate because maintained PQ61 evidence places Recoome Kick in Basic Reward.",
       "id": "skill-recoome-kick",
       "source_parallel_quests": [
         61
@@ -10813,7 +10813,7 @@
       "class": "Super",
       "subcategory": "Strike",
       "usable_by_cac": true,
-      "character_source": "Sauzer",
+      "character_source": "Jeice",
       "dlc_requirement": "Base Game",
       "ki_cost": 100,
       "stamina_cost": null,
@@ -10822,10 +10822,10 @@
       "source_quest_or_shop": "Parallel Quest 27 — \"Metal Cooler Riot\"",
       "ultimate_finish_required": false,
       "skill_description": "Sauzer Blade is a Super Strike skill associated with Sauzer.",
-      "mechanics_notes": "100 Ki Strike Super forming a Ki blade and performing five tracking slashes; current skill evidence documents Parallel Quest 27 as the acquisition source.",
-      "verification_status": "verified",
-      "research_status": "verified",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "Creates a Ki blade and performs five tracking slashes; current skill documentation records about 10% total damage and notes the blade cancels weak Ki Blasts.",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Sauzer_Blade",
@@ -10834,7 +10834,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 27,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.\n2026-09-25 current-evidence promotion: dedicated Xenoverse 2 evidence revalidated identity, classification, cost, acquisition endpoint, and bounded mechanics. Exact reward probability remains unresolved. No narrower CaC race/gender/form restriction is inferred from Jeice's character association.",
       "id": "skill-sauzer-blade",
       "source_parallel_quests": [
         27
@@ -10845,7 +10845,7 @@
       "class": "Super",
       "subcategory": "Strike",
       "usable_by_cac": true,
-      "character_source": "Android 18",
+      "character_source": "Android 21",
       "dlc_requirement": "Ultra Pack 2",
       "ki_cost": 100,
       "stamina_cost": null,
@@ -10854,10 +10854,10 @@
       "source_quest_or_shop": "Parallel Quest 140 — \"Spirit Bomb Away!\"",
       "ultimate_finish_required": true,
       "skill_description": "Savory Slicer is a Super Strike skill associated with Android 18.",
-      "mechanics_notes": "100 Ki Strike Super that forms blades on both hands and spins toward the target; current skill evidence documents nine hits, weak-Ki-Blast resistance while charging, and Parallel Quest 140 as the acquisition source.",
-      "verification_status": "verified",
-      "research_status": "verified",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "Forms Ki blades on both hands and spins toward the opponent; current skill documentation records nine hits, about 20% damage, and resistance to weak Ki Blasts while charging forward.",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -10868,7 +10868,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 140,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 Ultra Pack 2 provenance audit: official Bandai Namco documentation confirms Ultra Pack 2 contains five Parallel Quests and eight techniques; the maintained 186-PQ guide maps the eight canonical skills to PQ138–142. The live canonical source-PQ relationships agree with the DLC label for all eight records. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-21 Ultra Pack 2 provenance audit: official Bandai Namco documentation confirms Ultra Pack 2 contains five Parallel Quests and eight techniques; the maintained 186-PQ guide maps the eight canonical skills to PQ138–142. The live canonical source-PQ relationships agree with the DLC label for all eight records. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.\n2026-09-25 current-evidence promotion: dedicated Xenoverse 2 evidence revalidated identity, classification, cost, acquisition endpoint, and bounded mechanics. The accessible current quest page lists Savory Slicer among rewards but does not itself expose the exact reward-slot probability; the repository's maintained reward normalization retains the Ultimate-Finish bonus-slot route. Exact drop probability remains unresolved.",
       "id": "skill-savory-slicer",
       "source_parallel_quests": [
         140
@@ -10908,7 +10908,7 @@
       "class": "Super",
       "subcategory": "Strike",
       "usable_by_cac": true,
-      "character_source": "Gotenks",
+      "character_source": "Goku (GT)",
       "dlc_requirement": "Base Game",
       "ki_cost": 100,
       "stamina_cost": null,
@@ -10917,10 +10917,10 @@
       "source_quest_or_shop": "Parallel Quest 65 — \"The New Warriors\"",
       "ultimate_finish_required": false,
       "skill_description": "Scissors Paper Rock is a Super Strike skill associated with Gotenks.",
-      "mechanics_notes": "100 Ki multi-stage Strike Super with three selectable branches: Rock strikes, Scissors blinds, and Paper knocks the target away; combining branches produces a three-hit sequence.",
-      "verification_status": "verified",
-      "research_status": "verified",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "Three selectable short-range branches: Rock performs a strike, Scissors blinds the opponent, and Paper knocks the target away; combining all three produces a three-hit sequence.",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Scissors_Paper_Rock",
@@ -10929,7 +10929,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 65,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.\n2026-09-25 current-evidence promotion: dedicated Xenoverse 2 evidence revalidated identity, classification, cost, acquisition endpoint, and bounded mechanics. Exact reward probability remains unresolved. No Ultimate-Finish-only gate is inferred from maintained PQ65 reward evidence.",
       "id": "skill-scissors-paper-rock",
       "source_parallel_quests": [
         65
@@ -14034,9 +14034,5 @@
         85
       ]
     }
-  ],
-  "metadata": {
-    "last_updated": "2026-09-24",
-    "expert_mission_canonical_promotions": 10
-  }
+  ]
 }
