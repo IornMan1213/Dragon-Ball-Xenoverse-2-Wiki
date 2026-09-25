@@ -7318,3 +7318,10 @@
 - [x] Preserved the 469/469 canonical/index boundary and unresolved evidence fields.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** inspect current Actions state, then complete skill-batch-185.
+
+### 2026-09-24 — TODO completion update — Dragon Thunder P1 provenance refresh
+- [x] Completed/refresh-verified **skill-batch-185 — Dragon Thunder** with cast exclusivity, Super/Strike classification, 100 Ki, Omega Shenron user context, and Xenoverse 2-specific anti-air mechanics.
+- [x] Added and registered the Dragon Thunder provenance audit, including the source-conflict note.
+- [x] Preserved the 469/469 canonical/index boundary and unresolved numeric evidence fields.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** inspect current Actions state, then complete **skill-batch-186**.
