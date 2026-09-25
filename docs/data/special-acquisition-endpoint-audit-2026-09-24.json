@@ -4,7 +4,7 @@
   "status": "pass",
   "scope": "live special acquisition endpoint forward/reverse parity",
   "source_endpoint_layer": "docs/data/special-acquisition-endpoints.json",
-  "canonical_skill_count": 469,
+  "canonical_skill_count": 470,
   "endpoint_count": 16,
   "forward_edge_count": 16,
   "reverse_skill_target_count": 16,
