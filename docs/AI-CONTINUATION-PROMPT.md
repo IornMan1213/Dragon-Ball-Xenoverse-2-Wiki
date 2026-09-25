@@ -429,3 +429,16 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Commits include Batch 344 audit/batch/canonical/index/cross-domain writes; final cross-domain registration commit **017e5566838727f2c5530eee055cdb9c1a979a6d**.
 - [x] **Exact next:** continue **Super God Fist, Variant Drive, Zigzag Express** with a fresh live evidence census. This is the final three-record verified frontier.
+
+
+### 2026-09-25 cycle completion — Skill Batch 345 / final verified frontier
+- [x] Fresh live census before editing: **469 canonical / 469 index / 3 verified|verified frontier records**.
+- [x] Completed the final verified frontier: **Super God Fist, Variant Drive, Zigzag Express**.
+- [x] Super God Fist: current evidence confirms 100-Ki Strike Super, PQ67 Basic Reward, fast single-hit pseudo-grab punch, and Super Armor bypass properties; exact drop probability remains unresolved.
+- [x] Variant Drive: current evidence confirms 100-Ki Strike Super, PQ123 Basic Reward, punch/knee rush, directional unblockable shockwave input, and guard cancellation; current source-reported damage values are bounded in the audit rather than over-generalized.
+- [x] Zigzag Express: current evidence confirms 100-Ki Male Majin-only Strike Super, PQ85 Basic Reward, controllable short rush/four-hit behavior. A current Fandom page displays Skill Shop as its endpoint, conflicting with multiple maintained PQ sources and Dragon Ball Wiki; the conflict is explicitly preserved rather than silently normalized.
+- [x] Added Skill Research Batch 345 plus three dedicated current-evidence audits and registered all four artifacts in the cross-domain index.
+- [x] Validation: **469/469 canonical/index parity, 0 duplicate IDs, 0 verified|verified frontier records remain**; all three targets are current-dated and enriched; all four cross-domain registrations resolve.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Final cross-domain registration commit: **11c8f5478e6f604cb8ea8e7961abbc81f9f70541**.
+- [x] **Verified-frontier milestone complete.** Next work should begin with a fresh live census of the broader enriched corpus and choose the highest-impact remaining TODO, prioritizing deterministic cross-database/linkage/validation gaps and then deeper mechanics/provenance enrichment.
