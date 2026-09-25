@@ -1,31 +1,31 @@
 {
-  "schema_version":"1.0.0",
-  "date":"2026-09-25",
-  "scope":"Current PQ endpoint navigation consumer reconciliation against live canonical layers",
-  "source_of_truth":"docs/data/pq-reward-relationships.json",
-  "canonical_layers":{
-    "pq_records":186,
-    "skill_records":470,
-    "super_soul_records":234,
-    "equipment_accessory_records":174,
-    "character_names":152,
-    "dlc_records":20
+  "schema_version": "1.0.0",
+  "date": "2026-09-25",
+  "scope": "Current PQ endpoint navigation consumer reconciliation against live canonical layers",
+  "source_of_truth": "docs/data/pq-reward-relationships.json",
+  "canonical_layers": {
+    "pq_records": 186,
+    "skill_records": 470,
+    "super_soul_records": 234,
+    "equipment_accessory_records": 173,
+    "character_names": 152,
+    "dlc_records": 20
   },
-  "relationship_baseline":{
-    "total_edges":853,
-    "skills":244,
-    "super_souls":145,
-    "equipment":124,
-    "characters":247,
-    "dlc":86,
-    "farming":7,
-    "super_soul_reverse_unique_targets":142
+  "relationship_baseline": {
+    "total_edges": 853,
+    "skills": 244,
+    "super_souls": 145,
+    "equipment": 124,
+    "characters": 247,
+    "dlc": 86,
+    "farming": 7,
+    "super_soul_reverse_unique_targets": 142
   },
-  "validation":{
-    "unresolved_targets":0,
-    "duplicate_relationship_keys":0,
-    "status":"pass"
+  "validation": {
+    "unresolved_targets": 0,
+    "duplicate_relationship_keys": 0,
+    "status": "pass"
   },
-  "historical_boundary":"The 2026-09-23 current-baseline audit contained a 465-skill canonical count. This audit supersedes that scalar for current skill-layer navigation while preserving the historical audit unchanged.",
-  "evidence_boundary":"This is a deterministic consumer synchronization. Canonical relationship arrays remain authoritative; no new reward relationship, character identity, acquisition route, or DLC relationship was inferred."
+  "historical_boundary": "The 2026-09-23 current-baseline audit contained a 465-skill canonical count. This audit supersedes that scalar for current skill-layer navigation while preserving the historical audit unchanged. The 2026-09-25 direct canonical recount established 173 current combined equipment/accessory records; the prior 174 scalar was a superseded current-consumer value and is corrected here.",
+  "evidence_boundary": "This is a deterministic consumer synchronization. Canonical relationship arrays remain authoritative; no new reward relationship, character identity, acquisition route, or DLC relationship was inferred."
 }
