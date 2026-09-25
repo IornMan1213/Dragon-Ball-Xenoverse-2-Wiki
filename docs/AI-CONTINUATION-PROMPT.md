@@ -1250,3 +1250,13 @@
 - [x] Commits: `09061bb5acd51956587386cdeb51182e5aa3db2c`, `dfdeb76e5a2817813c9d443df91e6226a77bb42b`, `c869168ba473808352fa4af1d1972bf50db9f603`, `04f0df0c6894cac5cd8f17b7236e430ede70e2e6`.
 - [ ] CI success remains unverified; current Actions continue to show immediate failures without usable workflow-step/log output on these documentation commits.
 - [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-214** using the same evidence-first audit/correction workflow.
+
+
+### 2026-09-24 cycle completion — Batch 214 counter-taxonomy refresh
+- [x] Refreshed **skill-batch-214** to 2026-09-24 for Burst Rush, Super God Shock Flash, and Heroic Counter.
+- [x] Preserved **Burst Rush = Strike / Melee Counter / PQ51 Ultimate Finish**, **Super God Shock Flash = Strike / Melee Counter / Skill Shop**, and **Heroic Counter = Strike / Universal Counter / PQ155 Basic Reward**.
+- [x] Kept counter taxonomy separate from canonical class/subcategory and preserved existing Ultimate-Finish semantics.
+- [x] Validation metadata records **469/469** canonical/index, **0 duplicate IDs**, and no canonical promotion.
+- [x] Commit: `b36c5f284635bb893a13388d6b4b260323804d15`.
+- [ ] CI success remains unverified; Actions continue to fail without usable workflow-step/log output.
+- [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-215**.
