@@ -7064,3 +7064,11 @@
 - [x] Canonical skill/index boundary remains 469/469.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next:** continue the unresolved thin-domain queue where direct Xenoverse 2 evidence can resolve a missing field.
+
+
+### 2026-09-24 cycle completion — Savage Strike acquisition-terminology consistency correction
+- [x] Corrected the Savage Strike research record's generic Skill Shop wording to **TP Medal Shop**, matching its canonical acquisition fields and provenance evidence.
+- [x] Updated the dedicated Savage Strike audit; unresolved TP Medal price/rotation conflict remains preserved.
+- [x] Canonical/index parity remains **469/469**; no premature promotion was made.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue source-backed P1 enrichment with substantive evidence-field improvements.
