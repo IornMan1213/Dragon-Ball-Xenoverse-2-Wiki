@@ -1603,3 +1603,14 @@
 - [x] Updated `docs/data/skill-research-batches/skill-batch-303.json`.
 - [x] Registered the audit in `docs/data/pq-cross-domain-index.json`.
 - [x] Next: continue the remaining research/cross-domain priorities after rechecking the live TODO and handoff; do not create duplicate batch identities.
+
+### 2026-09-24 cycle completion — Batch 305 Other Ultimate provenance refresh
+- [x] Advanced to the next deterministic batch after Batch 303: **skill-batch-305 — Body Change, Energy Zone, The Saviour Has Come**.
+- [x] Revalidated all three as **Other Ultimates with 300 Ki** using current Xenoverse 2-specific documentation.
+- [x] Strengthened acquisition endpoints: Body Change → **Captain Ginyu Lesson 3**; Energy Zone → **Skill Shop after defeating Mira (Final Form)**; The Saviour Has Come → **Mr. Satan Lesson 3**.
+- [x] Preserved `ultimate_finish_required: false`; no drop-rate or Ultimate-Finish semantics were invented.
+- [x] Added `docs/data/skill-batch-305-other-ultimate-provenance-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Updated `docs/data/skill-research-batches/skill-batch-305.json`.
+- [x] External evidence checked: current Xenoverse 2 Ultimate documentation plus independent Dragon Ball and instructor-guide sources. citeturn0search1turn0search2turn0search3turn0search5turn0search6turn0search8
+- [ ] CI success remains unverified; no successful Actions result is claimed.
+- [ ] **Exact next:** inspect the live unfinished census and continue the next deterministic partially verified batch after Batch 305, prioritizing missing acquisition/mechanics fields with direct Xenoverse 2 evidence and preserving unresolved values where evidence is insufficient.
