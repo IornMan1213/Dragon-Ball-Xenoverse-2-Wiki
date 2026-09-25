@@ -4,10 +4,21 @@
   "verification_policy": "research_batch_with_current_and_independent_cross_checks",
   "research_scope": "Ten base-game skills from PQ71-PQ80. Reward-slot and Ultimate-Finish semantics remain unresolved unless directly established.",
   "verification_audit": {
-    "audited": "2026-09-17",
+    "audited": "2026-09-25",
     "duplicate_check": {
       "status": "passed_for_selected_records",
-      "selected_records": ["Last Emperor", "Burst Kamehameha", "Psychic Move", "Final Pose", "Counter Burst", "Warp Kamehameha", "Ki Explosion", "Dust Attack", "Mighty Explosive Wave", "Dimensional Hole"],
+      "selected_records": [
+        "Last Emperor",
+        "Burst Kamehameha",
+        "Psychic Move",
+        "Final Pose",
+        "Counter Burst",
+        "Warp Kamehameha",
+        "Ki Explosion",
+        "Dust Attack",
+        "Mighty Explosive Wave",
+        "Dimensional Hole"
+      ],
       "duplicate_count": 0,
       "repository_search_note": "All ten selected names returned no repository-search matches before insertion."
     },
@@ -20,7 +31,9 @@
       "https://dbxv2.fandom.com/wiki/Counter_Burst",
       "https://dbxv2.fandom.com/wiki/Warp_Kamehameha",
       "https://dbxv2.fandom.com/wiki/Dimensional_Hole",
-      "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+      "https://steamcommunity.com/app/454650/discussions/0/1759104257589123714/",
+      "https://www.youtube.com/watch?v=lx-PHQxqByU"
     ]
   },
   "records": [
@@ -39,10 +52,15 @@
       "source_quest_or_shop": "Parallel Quest 71",
       "ultimate_finish_required": null,
       "skill_description": "Fires a powerful purple energy wave without using Ki, but can only be used once when the user's health is low.",
-      "mechanics_notes": "Current skill-specific data classifies Last Emperor as a Ki Blast Ultimate, 0 Ki, with a low-health once-only restriction and 21-hit beam behavior.",
+      "mechanics_notes": "Current skill-specific data classifies Last Emperor as a Ki Blast Ultimate, 0 Ki, with a low-health once-only restriction and 21-hit beam behavior. A current-researched Xenoverse 2 Steam discussion independently distinguishes Last Emperor from Emperor's Death Beam and corroborates that it uses no Ki and can only be performed at low health; no new damage or frame values are inferred.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
-      "sources": ["https://dbxv2.fandom.com/wiki/Last_Emperor", "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]
+      "last_verified": "2026-09-25",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Last_Emperor",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://steamcommunity.com/app/454650/discussions/0/1759104257589123714/",
+        "https://www.youtube.com/watch?v=lx-PHQxqByU"
+      ]
     },
     {
       "name": "Burst Kamehameha",
@@ -62,7 +80,10 @@
       "mechanics_notes": "Current skill-specific data classifies Burst Kamehameha as a Ki Blast Super. Initial activation uses 100 Ki; an additional input consumes another Ki bar for the extended attack.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-17",
-      "sources": ["https://dbxv2.fandom.com/wiki/Burst_Kamehameha", "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Burst_Kamehameha",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
+      ]
     },
     {
       "name": "Psychic Move",
@@ -82,7 +103,11 @@
       "mechanics_notes": "Current skill data and the character-ID reference classify Psychic Move as an Evasive skill usable by CaCs. The accessible sources used here do not establish a sufficiently reliable stamina cost, so it remains unresolved.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-17",
-      "sources": ["https://dbxv2.fandom.com/wiki/Psychic_Move", "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List", "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Psychic_Move",
+        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
+      ]
     },
     {
       "name": "Final Pose",
@@ -102,7 +127,10 @@
       "mechanics_notes": "The character-ID reference identifies Final Pose as a CaC Evasive skill. Exact stamina cost and detailed effect were not promoted without a sufficiently direct current technical source.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-17",
-      "sources": ["https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List", "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]
+      "sources": [
+        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
+      ]
     },
     {
       "name": "Counter Burst",
@@ -122,7 +150,10 @@
       "mechanics_notes": "Current skill-specific data classifies Counter Burst as a Ki Blast Super using 100 Ki, with a six-hit counter projectile.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-17",
-      "sources": ["https://dbxv2.fandom.com/wiki/Counter_Burst", "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Counter_Burst",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
+      ]
     },
     {
       "name": "Warp Kamehameha",
@@ -142,7 +173,11 @@
       "mechanics_notes": "Current skill-specific data classifies Warp Kamehameha as a Ki Blast Ultimate using 400 Ki and documents teleport/tracking behavior. An older reference lists 300 Ki; the current skill-specific value is retained while the discrepancy remains provenance.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-17",
-      "sources": ["https://dbxv2.fandom.com/wiki/Warp_Kamehameha", "https://dbxenoverse.fandom.com/wiki/Warp_Kamehameha_%28Skill%29", "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Warp_Kamehameha",
+        "https://dbxenoverse.fandom.com/wiki/Warp_Kamehameha_%28Skill%29",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
+      ]
     },
     {
       "name": "Ki Explosion",
@@ -162,7 +197,11 @@
       "mechanics_notes": "The maintained skill-category references classify Ki Explosion as a Ki Blast Super and the character-ID reference marks it as CaC-usable. Exact PQ reward-slot semantics remain unresolved.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-17",
-      "sources": ["https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List", "https://gamefaqs.gamespot.com/boards/277190-dragon-ball-xenoverse-2/79680756", "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]
+      "sources": [
+        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List",
+        "https://gamefaqs.gamespot.com/boards/277190-dragon-ball-xenoverse-2/79680756",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
+      ]
     },
     {
       "name": "Dust Attack",
@@ -182,7 +221,11 @@
       "mechanics_notes": "Independent Future Warrior technique references classify Dust Attack as one of Piccolo's Super Skills and the character-ID reference marks it CaC-usable. Exact resource cost is left unresolved.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-17",
-      "sources": ["https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29", "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List", "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
+      ]
     },
     {
       "name": "Mighty Explosive Wave",
@@ -202,7 +245,11 @@
       "mechanics_notes": "Current skill-category references classify the base-game Mighty Explosive Wave as a Ki Blast Super. A separate later Evasive Mighty Explosive Wave exists for Jiren (Full Power); this record is specifically the PQ79 base-game Super Skill.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-17",
-      "sources": ["https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List", "https://gamefaqs.gamespot.com/boards/277190-dragon-ball-xenoverse-2/79680756", "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]
+      "sources": [
+        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List",
+        "https://gamefaqs.gamespot.com/boards/277190-dragon-ball-xenoverse-2/79680756",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
+      ]
     },
     {
       "name": "Dimensional Hole",
@@ -222,7 +269,10 @@
       "mechanics_notes": "Current skill-specific data classifies Dimensional Hole as a Ki Blast Super with 0 Ki. It functions as a counter to basic Ki Blast attacks and launches the returned projectile behind the opponent.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-17",
-      "sources": ["https://dbxv2.fandom.com/wiki/Dimensional_Hole", "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Dimensional_Hole",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
+      ]
     }
   ]
 }
