@@ -24,9 +24,11 @@
     {
       "domain": "Lovely Showtime",
       "issue": "Published source pages disagree on Ki cost.",
-      "action": "Preserve both claims and resolve using higher-priority or independent evidence.",
+      "action": "Retain the dedicated skill-page 200 Ki value provisionally; keep the aggregate-table 300 Ki claim in provenance until direct game-data evidence resolves the discrepancy. Do not invent an alternate cost.",
       "priority": "medium",
-      "status": "open"
+      "status": "resolved_with_source_conflict",
+      "resolved_at": "2026-09-24",
+      "resolution": "Current dedicated Lovely Showtime reference reports 200 Ki, while the current aggregate Ultimate Attack table reports 300 Ki for the same move. The repository already records 200 Ki from the dedicated page. The conflict is therefore documented as a source inconsistency rather than silently switching the canonical value."
     }
   ]
 }
