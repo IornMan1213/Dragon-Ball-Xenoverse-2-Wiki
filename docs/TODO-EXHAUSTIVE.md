@@ -225,3 +225,11 @@
 - [x] Added and registered the Absolute Zero current-evidence audit.
 - [ ] CI remains unverified.
 - [x] **Exact next:** fresh repository-wide census for the next under-enriched/partially-verified canonical skill batch outside Batch 54.
+
+
+### 2026-09-25 completion — Expert Mission skill provenance promotion
+- [x] Promoted **Death Meteor**, **Death Wave**, **Hellzone Grenade**, and **Murder Grenade** to `verified_current_scope`.
+- [x] Added and registered four current-evidence audits.
+- [x] Preserved unresolved Expert Mission reward probability/guarantee semantics.
+- [ ] CI remains unverified.
+- [x] **Exact next:** continue with **Shocking Death Ball** and **Spirit Sword**, then the next partially verified Expert Mission skill.
