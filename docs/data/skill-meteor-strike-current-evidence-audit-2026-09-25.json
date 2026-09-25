@@ -2,28 +2,18 @@
   "schema_version": "1.0.0",
   "audit_id": "skill-meteor-strike-current-evidence-audit-2026-09-25",
   "audit_date": "2026-09-25",
-  "scope": [
-    "Meteor Strike"
+  "target": "Meteor Strike",
+  "result": "current_evidence_refresh",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Strike",
+    "source_quest_or_shop": "Parallel Quest 6 — Saibamen's Revenge",
+    "mechanics": "100-Ki two-hit Strike Super: launching kick followed by a teleporting second kick. The second hit can cause a hard knockdown from the opponent's back when near the ground and can be canceled into another Super or stamina break."
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Meteor_Strike"
   ],
-  "result": "Current Xenoverse 2-specific evidence supports a current-scope verification refresh.",
-  "mechanics": {
-    "classification": "Strike Super",
-    "ki_cost": 100,
-    "acquisition": "Parallel Quest 6 — Saibamen's Revenge",
-    "behavior": "Launching kick sends the opponent forward; the user teleports into the opponent's path for a second kick. The second hit can be canceled into another Super or Stamina Break, and a rear hit near the ground can cause a hard knockdown.",
-    "reward": "Current skill documentation lists PQ6 as the acquisition endpoint; maintained repository reward data lists Meteor Strike as a Basic Reward.",
-    "sources": [
-      "https://dbxv2.fandom.com/wiki/Meteor_Strike",
-      "https://dragonball.fandom.com/wiki/Meteor_Strike",
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
-    ]
-  },
-  "limits": {
-    "drop_probability": null,
-    "unsupported_hidden_prerequisites": null
-  },
-  "evidence_boundary": [
-    "Version-sensitive damage/frame data is not promoted unless directly supported.",
-    "No narrower race/gender/form restriction is inferred beyond directly documented scope."
+  "limits": [
+    "Source-reported numerical values are bounded to the cited documentation; no unsupported drop probabilities, hidden gates, frame data, or damage scaling are inferred."
   ]
 }
