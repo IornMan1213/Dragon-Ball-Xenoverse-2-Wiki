@@ -1553,3 +1553,13 @@
 - [x] The failed quality/cleanup jobs again expose no runner steps, runner ID, or usable logs; this is consistent with the previously observed pre-run/infrastructure failure and does not provide evidence of another current-tree artifact.
 - [ ] CI success remains unverified; no validator was weakened and no canonical data was promoted speculatively.
 - [ ] **Exact next:** inspect the next observable Actions result. If the jobs still terminate before runner steps, record the infrastructure blocker and resume the next deterministic data-quality/content task rather than repeatedly rewriting clean documentation.
+### 2026-09-25 cycle completion — Batch 296 acquisition-endpoint enrichment
+- [x] Inspected the latest Actions result on `641c7d92c1e6f8b5384c7e403037d51cddecf7ef`: Repository quality and Clean internal artifacts failed with completed jobs exposing no workflow steps/log payload; Pages remained in progress.
+- [x] Confirmed the known current handoff marker scan is clean and did not repeatedly rewrite already-clean documentation.
+- [x] Resumed the source-backed P1 provenance queue with the four remaining Batch 296 records whose acquisition endpoints were still null: **Giga Boost**, **Holstein Shock**, **Emperor's Sign**, and **Position Shift**.
+- [x] Populated deterministic `unlock_method` values from direct/current Xenoverse 2 evidence: Conton City Skill Shop, PQ15, TP Medal Shop, and Skill Shop after defeating Kid Buu respectively.
+- [x] Added `docs/data/skill-batch-296-acquisition-endpoint-refresh-2026-09-25.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved unresolved numeric Ki costs and did not infer Ultimate Finish/guarantee semantics.
+- [x] Preserved the 469/469 canonical boundary; no canonical promotion was made.
+- [ ] CI success remains unverified because the available GitHub interface still exposes no runner steps/log payload for the failing jobs.
+- [ ] **Exact next:** continue the next source-backed partially verified skill tranche after Batch 296/297, using direct Xenoverse 2 evidence to resolve genuinely missing fields; do not invent a new batch identity.
