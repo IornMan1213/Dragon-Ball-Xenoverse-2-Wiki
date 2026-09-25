@@ -399,3 +399,19 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Commits: audit files/batch/canonical/index/cross-domain writes completed; final index-parity repair commit **055508d38363e7a3bdd95d0416ce711581fa5993**.
 - [x] **Exact next:** continue the remaining `verified | verified` frontier with **Recoome Kick, Sauzer Blade, Savory Slicer, and Scissors Paper Rock** using a fresh current-evidence census; do not rely on the older stale TODO ordering that still names already-enriched records.
+
+
+### 2026-09-25 cycle completion — Skill Batch 343 verified-frontier promotion
+- [x] Fresh live census before editing: **469 canonical / 469 index / 11 verified|verified frontier records**.
+- [x] Promoted the next bounded tranche: **Recoome Kick, Sauzer Blade, Savory Slicer, Scissors Paper Rock** to verified_current_scope + research_status: enriched.
+- [x] Current Xenoverse 2 evidence revalidated class, Ki cost, PQ endpoint, and bounded mechanics for all four; maintained reward semantics were preserved where evidence remains incomplete.
+- [x] Corrected three stale character-source fields: **Sauzer Blade → Jeice**, **Savory Slicer → Android 21**, **Scissors Paper Rock → Goku (GT)**.
+- [x] Recoome Kick: 100-Ki Strike Super, PQ61 Basic Reward, fast single-hit rush, temporary Basic Attack boost, documented 10% damage; exact buff magnitude/duration and drop probability remain unresolved.
+- [x] Sauzer Blade: 100-Ki Strike Super, PQ27 Basic Reward, five tracking slashes, weak-Ki-Blast cancellation, documented 10% damage; exact reward probability remains unresolved.
+- [x] Savory Slicer: 100-Ki Strike Super, PQ140, nine-hit blade rush, weak-Ki-Blast resistance while charging, Android 21 identity; maintained Ultimate-Finish bonus-slot route and unresolved probability preserved.
+- [x] Scissors Paper Rock: 100-Ki Strike Super, PQ65 Basic Reward, three selectable branches and three-hit combination behavior; Goku (GT) identity synchronized.
+- [x] Added Skill Research Batch 343 and four dedicated current-evidence audits; registered all five artifacts in the cross-domain index.
+- [x] Validation: **469/469 canonical/index parity, 0 duplicate IDs**, all four targets enriched/current-dated, and cross-domain registrations resolve.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Final cross-domain registration commit: **9a685c4bb6be841ec1c2db901c0b0792a3fb99d2**.
+- [x] **Exact next:** **Seagull Combination, Shining Slash, Shooting Strike, Soaring Rush**, beginning with another live evidence census.
