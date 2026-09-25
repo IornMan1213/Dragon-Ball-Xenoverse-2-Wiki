@@ -254,7 +254,8 @@
     "canonical_explorer_self_navigation_2026_09_24_b": "docs/data/canonical-explorer-self-navigation-audit-2026-09-24-b.json",
     "global_navigation_canonical_explorer_2026_09_24_c": "docs/data/global-navigation-canonical-explorer-audit-2026-09-24-c.json",
     "homepage_canonical_explorer_targets": "docs/data/homepage-canonical-explorer-navigation-audit-2026-09-24.json",
-    "skill_p1_provenance_enrichment_2026_09_24_recoome_pq61_batch": "docs/data/skill-p1-provenance-enrichment-2026-09-24-recoome-pq61-batch.json"
+    "skill_p1_provenance_enrichment_2026_09_24_recoome_pq61_batch": "docs/data/skill-p1-provenance-enrichment-2026-09-24-recoome-pq61-batch.json",
+    "current_reverse_navigation_consumer_reconciliation_2026_09_25": "docs/data/current-reverse-navigation-consumer-reconciliation-2026-09-25.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
