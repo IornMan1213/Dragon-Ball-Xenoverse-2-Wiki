@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-justice-pose-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Justice Pose",
+  "result": "current_evidence_refresh",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Power Up",
+    "ki_cost": 100,
+    "source_quest_or_shop": "Parallel Quest 53 — \"The Fist of Justice!\" Basic Reward",
+    "unlock_method": "PQ53 reward; current documentation also identifies Great Saiyaman/Great Saiyaman 2 and Jaco customization context",
+    "mechanics": "The user performs a pose and receives an all-stat boost for 20 seconds.",
+    "character_source": "Great Saiyaman; Great Saiyaman 2; Jaco (Customize Partner)"
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Justice_Pose",
+    "https://dragonball.fandom.com/wiki/Justice_Finishing_Pose",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://fightabase.com/gamesMain.aspx?id=1035&sId=2"
+  ],
+  "limits": [
+    "Current skill documentation supports the 20-second duration; no universal numeric stat multiplier is promoted here.",
+    "Historical Xenoverse naming/acquisition differences are retained as cross-game provenance only.",
+    "No additional gender/race restriction is inferred beyond the canonical skill record's existing scope."
+  ]
+}
