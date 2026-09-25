@@ -9949,8 +9949,8 @@
       "name": "Super God Fist",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "verified",
-      "research_status": "verified",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -9960,15 +9960,17 @@
       ],
       "unlock_method": "Parallel Quest 67 — Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 race-scope reconciliation: Dragon Ball Wiki explicitly lists Future Warrior as a Xenoverse 2 user and states the Future Warrior can obtain Super God Fist from PQ67. This establishes CaC availability; no narrower race/gender/form restriction is documented, so the canonical scope is All CaC races. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill in the Basic Reward section, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: PQ67 acquisition is documented by the maintained PQ reward guide and independent GameFAQs reports identifying PQ67 as the source. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward section; no Ultimate Finish-only gate is asserted.",
+      "notes": "2026-09-20 race-scope reconciliation: Dragon Ball Wiki explicitly lists Future Warrior as a Xenoverse 2 user and states the Future Warrior can obtain Super God Fist from PQ67. This establishes CaC availability; no narrower race/gender/form restriction is documented, so the canonical scope is All CaC races. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims.\n2026-09-25 final-frontier promotion: Fast single-hit right-hand punch coated in Ki; on connection the camera zooms in on the impact. Its pseudo-grab properties can bypass Super Armor, although it can still be blocked/vanished in relevant situations. Evidence limits preserved: PQ67 acquisition is corroborated by current skill documentation and the maintained PQ guide; exact drop probability is unresolved. No narrower CaC race/gender/form restriction is inferred.",
+      "mechanics_notes": "Fast single-hit right-hand punch coated in Ki; on connection the camera zooms in on the impact. Its pseudo-grab properties can bypass Super Armor, although it can still be blocked/vanished in relevant situations.",
       "source_quest": 67,
       "source_quest_or_shop": "Parallel Quest 67 — \"Power of a Super Saiyan God\"",
       "source_parallel_quests": [
         67
-      ]
+      ],
+      "character_source": "Goku",
+      "skill_description": "Super God Fist is a Strike Super skill associated with Goku."
     },
     {
       "id": "skill-super-god-shock-flash",
@@ -10986,8 +10988,8 @@
       "name": "Variant Drive",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "verified",
-      "research_status": "verified",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -10998,16 +11000,18 @@
       ],
       "unlock_method": "Parallel Quest 123 — Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 race-scope reconciliation: Dragon Ball Wiki explicitly lists Future Warrior as a Xenoverse 2 user and states the Future Warrior can obtain Variant Drive from PQ123. This establishes CaC availability; no narrower race/gender/form restriction is documented, so the canonical scope is All CaC races. 2026-09-22 provenance refresh: dedicated current skill evidence reconfirms the 100-Ki Strike classification, PQ123 acquisition, rush/shockwave behavior, and Extra Pack 3 provenance. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.",
-      "mechanics_notes": "100-Ki Strike Super from PQ123. The user rushes forward with a punch/knee sequence and can use an additional directional input plus attack input to fire an unblockable shockwave; guarding cancels the rush. Current evidence identifies PQ123 as the acquisition route and Extra Pack 3 as DLC provenance.",
+      "notes": "2026-09-20 race-scope reconciliation: Dragon Ball Wiki explicitly lists Future Warrior as a Xenoverse 2 user and states the Future Warrior can obtain Variant Drive from PQ123. This establishes CaC availability; no narrower race/gender/form restriction is documented, so the canonical scope is All CaC races. 2026-09-22 provenance refresh: dedicated current skill evidence reconfirms the 100-Ki Strike classification, PQ123 acquisition, rush/shockwave behavior, and Extra Pack 3 provenance. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.\n2026-09-25 final-frontier promotion: Rushes forward with a punch and knee; directional input plus attack input can fire an unblockable shockwave that knocks the opponent away, while guarding cancels the rush. Current skill documentation records about 10% melee and 15% shockwave damage. Evidence limits preserved: Steam PQ guide explicitly lists Variant Drive as a Basic Reward; independent Dragon Ball documentation describes it as a random PQ123 reward. Exact underlying drop probability is unresolved. Red-health damage modifiers reported by the current Fandom page are preserved only as source context and are not promoted into canonical numeric mechanics here.",
+      "mechanics_notes": "Rushes forward with a punch and knee; directional input plus attack input can fire an unblockable shockwave that knocks the opponent away, while guarding cancels the rush. Current skill documentation records about 10% melee and 15% shockwave damage.",
       "source_quest": 123,
       "source_quest_or_shop": "Parallel Quest 123 — \"Planetary Possession\"",
       "source_parallel_quests": [
         123
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "character_source": "Super Baby 2",
+      "skill_description": "Variant Drive is a Strike Super skill associated with Super Baby 2."
     },
     {
       "id": "skill-venus-fist",
@@ -11340,8 +11344,8 @@
       "name": "Zigzag Express",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "verified",
-      "research_status": "verified",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -11351,15 +11355,17 @@
       ],
       "unlock_method": "Parallel Quest 85 — Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "Majin male",
-      "notes": "2026-09-22 provenance refresh: current PQ85 reward evidence confirms Basic Reward acquisition, while current Future Warrior documentation independently confirms the Male Majin-only usability restriction and charge-direction behavior. 2026-09-23 final-stale-queue refresh: dedicated current evidence and maintained acquisition documentation were rechecked; existing acquisition/classification/mechanics bounds are preserved without inferring unsupported probability, prerequisite, timer, frame data, stacking cap, or damage values.",
-      "mechanics_notes": "100-Ki Strike Super restricted to Male Majin CaCs. The user charges forward with air wrapped around the body and can control the direction slightly; PQ85 'Power Berserkers' lists Zigzag Express as a Basic Reward. Current Future Warrior documentation confirms the Male Majin restriction.",
+      "notes": "2026-09-22 provenance refresh: current PQ85 reward evidence confirms Basic Reward acquisition, while current Future Warrior documentation independently confirms the Male Majin-only usability restriction and charge-direction behavior. 2026-09-23 final-stale-queue refresh: dedicated current evidence and maintained acquisition documentation were rechecked; existing acquisition/classification/mechanics bounds are preserved without inferring unsupported probability, prerequisite, timer, frame data, stacking cap, or damage values.\n2026-09-25 final-frontier promotion: Controllable short rush that spins the user with air warped around the body; current documentation records a four-hit rush and slight directional control. Evidence limits preserved: Current Fandom skill page currently displays Skill Shop as an obtained-from endpoint, conflicting with the maintained PQ85 evidence and Dragon Ball Wiki's PQ85 acquisition statement. The repository preserves PQ85 as the documented acquisition source because multiple independent PQ sources explicitly list Zigzag Express in PQ85 Basic Reward. Male Majin usability restriction is supported; no additional form/timing/damage claims are promoted.",
+      "mechanics_notes": "Controllable short rush that spins the user with air warped around the body; current documentation records a four-hit rush and slight directional control.",
       "source_quest": 85,
       "source_quest_or_shop": "Parallel Quest 85 — \"Power Berserkers\"",
       "source_parallel_quests": [
         85
-      ]
+      ],
+      "character_source": "Majin (Male)",
+      "skill_description": "Zigzag Express is a Strike Super skill associated with Majin (Male)."
     }
   ],
   "last_updated": "2026-09-24"
