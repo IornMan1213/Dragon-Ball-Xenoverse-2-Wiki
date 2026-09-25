@@ -1001,3 +1001,13 @@
 - [x] Canonical/index boundary remains **469/469**; no unsupported canonical promotion was attempted.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-188**.
+
+### 2026-09-24 cycle completion — Heroic Counter P1 provenance verification
+- [x] Completed **skill-batch-188 — Heroic Counter**.
+- [x] Revalidated **Super / Strike**, 100 Ki, universal-counter behavior, PQ155 acquisition, and Basic Reward evidence.
+- [x] Verified DLC provenance: official Bandai Namco documentation confirms HERO OF JUSTICE Pack 1 added four Parallel Quests and seven additional moves and introduced Gamma 1, Gamma 2, and Gohan (DBS Super Hero). citeturn1search1turn1search3
+- [x] Added and registered **docs/data/skill-heroic-counter-p1-provenance-verification-2026-09-24.json**.
+- [x] Preserved unresolved stamina, exact frame/damage/matchup data, and drop probability.
+- [x] Canonical/index boundary remains **469/469**; no unsupported canonical promotion was attempted.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-189**.
