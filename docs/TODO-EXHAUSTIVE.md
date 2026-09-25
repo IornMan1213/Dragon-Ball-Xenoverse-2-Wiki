@@ -186,3 +186,10 @@
 - [x] Validation completed against live Batch 52 and cross-domain registration.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** continue Batch 52 with **Ki Explosion**.
+
+### 2026-09-25 Batch 54 PQ98-PQ100 continuation
+- [x] Add current-evidence audit for Dimension Ray.
+- [x] Add current-evidence audit for Emperor's Edge.
+- [x] Add current-evidence audit for X100 Big Bang Kamehameha.
+- [ ] Synchronize the three audits into canonical Batch 54 records and register PQ ↔ skill cross-domain links.
+
