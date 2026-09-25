@@ -700,3 +700,14 @@
 - [x] No gameplay data, research evidence, canonical records, or task history was removed.
 - [ ] CI remains unverified; no success claimed.
 - [ ] **Exact next:** continue the queued substantive P1 research batch; do not weaken the artifact checker.
+
+
+### 2026-09-24 cycle completion — Wolf Fang Fist P1 provenance verification
+- [x] Selected existing partially verified **Wolf Fang Fist** (research batch 164) because direct Xenoverse 2 evidence could resolve classification, acquisition, Ki cost, users, and mechanics rather than merely refreshing `last_verified`.
+- [x] Confirmed **Super / Strike**, **100 Ki**, CaC usability, Yamcha mentor acquisition, and Lesson 1 reward semantics.
+- [x] Confirmed the documented **15-hit rush**, knock-away ending, and post-attack recovery behavior.
+- [x] Preserved unresolved stamina cost, exact frame data, and universal numeric damage values instead of inferring them.
+- [x] Added `docs/data/skill-wolf-fang-fist-p1-provenance-verification-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Research-layer record is now `verified`; canonical/index catalogs remain **469/469** and were not manually reconstructed.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue with the next existing partially verified research batch after Wolf Fang Fist where direct Xenoverse 2 evidence can resolve substantive missing fields; preserve nulls for unsupported numeric/version-sensitive values and do not promote into canonical catalogs without the supported builder.
