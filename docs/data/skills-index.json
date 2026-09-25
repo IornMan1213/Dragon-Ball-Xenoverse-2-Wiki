@@ -2228,7 +2228,7 @@
       "notes": "2026-09-25 current-evidence promotion: current Xenoverse 2-specific documentation confirms Super / Ki Blast classification, 100-Ki cost, and Expert Mission 5 — The Galactic Tyrant acquisition. Basic Reward evidence is preserved; exact drop probability/guarantee remains unresolved.",
       "source_quest_or_shop": "Expert Mission 5 — \"The Galactic Tyrant\"",
       "ki_cost": 100,
-      "mechanics_notes": "100-Ki Ki Blast Super that fires a long-range vertical Ki wave; current skill documentation records a single hit with knockback and about 15% documented damage."
+      "mechanics_notes": "100-Ki Ki Blast Super that fires a long-range vertical Ki wave; current skill documentation records a single hit with knockback and about 15% documented damage. Batch 359 current-evidence refresh: bounded combat mechanics expanded from exact Xenoverse 2 skill references; unsupported probabilities, gates, frame data, and exact timing remain unpromoted."
     },
     {
       "id": "skill-demon-flash-strike",
@@ -5770,7 +5770,7 @@
       "notes": "2026-09-25 current-evidence promotion: current Xenoverse 2-specific documentation confirms Ultimate / Ki Blast classification, 300-Ki cost, and Expert Mission 10 — The Emperor's Worth acquisition. Basic Reward evidence is preserved; exact drop probability/guarantee remains unresolved.",
       "source_quest_or_shop": "Expert Mission 10 — \"The Emperor's Worth\"",
       "ki_cost": 300,
-      "mechanics_notes": "300-Ki Ki Blast Ultimate that creates two Ki balls, surrounds the opponent with a five-hit homing barrage, and is documented at about 20% full-sequence damage."
+      "mechanics_notes": "300-Ki Ki Blast Ultimate that creates two Ki balls, surrounds the opponent with a five-hit homing barrage, and is documented at about 20% full-sequence damage. Batch 359 current-evidence refresh: bounded combat mechanics expanded from exact Xenoverse 2 skill references; unsupported probabilities, gates, frame data, and exact timing remain unpromoted."
     },
     {
       "id": "skill-hero-s-flute",
@@ -7221,7 +7221,7 @@
       "notes": "2026-09-25 current-evidence refresh: current Xenoverse 2 documentation confirms the 100-Ki Ki Blast Super from Expert Mission 3 and its ballistic control. The projectile can be thrown farther or shorter with directional input; exact reward probability remains unresolved.",
       "source_quest_or_shop": "Expert Mission 3 — \"Assault of the Great Ape\"",
       "ki_cost": 100,
-      "mechanics_notes": "100-Ki Ki Blast Super from Expert Mission 3 — Assault of the Great Ape. Quickly throws a purple Ki ball that erupts into a pillar when it hits the ground or opponent. Current documentation reports 10% damage; up input doubles the throw distance and down input halves it. The ballistic arc changes with directional movement toward/away from the target."
+      "mechanics_notes": "100-Ki Ki Blast Super from Expert Mission 3 — Assault of the Great Ape. Quickly throws a purple Ki ball that erupts into a pillar when it hits the ground or opponent. Current documentation reports 10% damage; up input doubles the throw distance and down input halves it. The ballistic arc changes with directional movement toward/away from the target. Batch 359 current-evidence refresh: bounded combat mechanics expanded from exact Xenoverse 2 skill references; unsupported probabilities, gates, frame data, and exact timing remain unpromoted."
     },
     {
       "id": "skill-mystic-flash",
@@ -9023,7 +9023,8 @@
       "race_restriction": "Not separately established in this promotion",
       "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM14. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-25 current-evidence promotion: Expert Mission endpoint and current classification/resource cost reconciled with independent acquisition evidence; exact reward probability and first-clear guarantee remain unresolved.",
       "source_quest_or_shop": "Expert Mission 14 — \"Huge Blasts for Huge Apes!\"",
-      "ki_cost": 300
+      "ki_cost": 300,
+      "mechanics_notes": " Batch 359 current-evidence refresh: bounded combat mechanics expanded from exact Xenoverse 2 skill references; unsupported probabilities, gates, frame data, and exact timing remain unpromoted."
     },
     {
       "id": "skill-shooting-strike",
