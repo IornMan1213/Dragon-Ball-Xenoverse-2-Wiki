@@ -633,3 +633,13 @@
 - [x] Canonical/index parity target preserved at **469/469** with 0 duplicate IDs; only mechanics/provenance fields changed for the four targets.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** fresh global thin-record census; continue the next shortest mechanics/source footprints, then move through deterministic provenance gaps while preserving cross-domain links and uncertainty boundaries.
+
+
+### 2026-09-25 cycle completion — Skill Batch 362 thin mentor mechanics + Bloody Counter correction
+- [x] Fresh post-Batch-361 census selected the next shortest mechanics records: **Blaster Meteor, Blaster Shell, Bloody Counter, Body Change**.
+- [x] Added current Xenoverse 2-specific mechanics for all four and synchronized canonical/index verification dates.
+- [x] **Bloody Counter corrected:** evidence classifies it as a **Strike Evasive**, using 300 Stamina; the prior Super/0-Ki classification was corrected. Its Zarbon Lesson 2 acquisition endpoint remains unchanged.
+- [x] Added/registered Batch 362 audit and research-batch files.
+- [x] Preserved evidence boundaries: source-reported damage is bounded; no hidden probabilities, gates, frame data, or exact timing inferred.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** fresh global thin-record census and continue the shortest remaining mechanics/source footprints.
