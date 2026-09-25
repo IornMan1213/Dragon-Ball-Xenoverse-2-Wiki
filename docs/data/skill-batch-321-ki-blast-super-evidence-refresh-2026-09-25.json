@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-25",
+  "scope": "Direct current Xenoverse 2 evidence refresh for five existing Ki Blast Super research records after Batch 320",
+  "status": "completed",
+  "records": [
+    {
+      "name": "Bloody Sauce",
+      "result": "evidence_refreshed",
+      "key_fields": {
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "ki_cost": 100,
+        "unlock_method": "Expert Mission 20: Harbinger of Doom",
+        "usable_by_cac": false,
+        "mechanics": "Current dedicated evidence lists 100 Ki and limits created-character use to Crystal Raid or Training mode; the move is otherwise associated with Supervillain/boss characters. It is not treated as a normal unrestricted CaC skill."
+      }
+    },
+    {
+      "name": "Burst Attack",
+      "result": "evidence_refreshed",
+      "key_fields": {
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "ki_cost": 100,
+        "unlock_method": "Shenron wish: \"I want a new Super Attack!\"",
+        "usable_by_cac": true,
+        "mechanics": "Current dedicated evidence reports a 100-Ki projectile, 5-hit explosive/launching behavior, and about 15% total damage. The documented acquisition is the Shenron new-Super-Attack wish rather than a PQ route."
+      }
+    },
+    {
+      "name": "Confusion Blade",
+      "result": "evidence_refreshed",
+      "key_fields": {
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "ki_cost": 100,
+        "unlock_method": "Complete 50% of Tokipedia",
+        "usable_by_cac": true,
+        "mechanics": "Current evidence reports a close-range opening hit followed by three tracking hits, with the initial and follow-up damage described separately. The skill remains a 100-Ki Ki Blast Super; no numeric drop probability is inferred from the Tokipedia reward presentation."
+      }
+    },
+    {
+      "name": "Consecutive Energy Blast",
+      "result": "evidence_refreshed",
+      "key_fields": {
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "ki_cost": 100,
+        "unlock_method": "Skill Shop",
+        "usable_by_cac": true,
+        "mechanics": "Current dedicated evidence reports 10 projectiles/hits and about 10% total damage at the documented base cost. The maintained repository Skill Shop route is preserved without inventing a rotation, price, or progression threshold."
+      }
+    },
+    {
+      "name": "Crazy Finger Shot",
+      "result": "evidence_refreshed",
+      "key_fields": {
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "ki_cost": 100,
+        "unlock_method": "Parallel Quest 26: \"Clash of Kin!\"",
+        "usable_by_cac": true,
+        "mechanics": "Current dedicated evidence reports a 100-Ki base activation and up to 14 blasts, with continued firing consuming up to 800 Ki total and producing about 40% total damage. The PQ26 route is preserved; no unsupported Ultimate Finish gate or drop probability is asserted."
+      }
+    }
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Bloody_Sauce",
+    "https://dbxv2.fandom.com/wiki/Super_Attack",
+    "https://dbxv2.fandom.com/wiki/Burst_Attack",
+    "https://dragonball.fandom.com/wiki/Burst_Attack",
+    "https://dbxv2.fandom.com/wiki/Confusion_Blade",
+    "https://dragonball.fandom.com/wiki/Confusion_Blade",
+    "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-grows-larger-with-the-release-of-extra-pack-2-infinite-history",
+    "https://dbxv2.fandom.com/wiki/Consecutive_Energy_Blast",
+    "https://dbxv2.fandom.com/wiki/Skill_Shop",
+    "https://dbxv2.fandom.com/wiki/Crazy_Finger_Shot",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "evidence_limits": [
+    "Reward probabilities, shop prices/rotations, exact frame data, version-specific damage scaling, and narrower race/gender/form restrictions remain unresolved unless directly supported.",
+    "Historical/source conflicts remain preserved; current Xenoverse 2 acquisition evidence is not replaced by older Xenoverse-era wording.",
+    "No canonical skills.json or skills-index.json reconstruction/promotion is performed in this bounded research-only refresh."
+  ],
+  "validation": {
+    "records": 5,
+    "json_parse": "pass",
+    "canonical_promotion": false,
+    "canonical_reconstruction": false,
+    "ci": "unverified"
+  }
+}
