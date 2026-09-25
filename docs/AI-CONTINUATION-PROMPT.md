@@ -1831,3 +1831,16 @@
 - [x] Re-fetched and parsed Batch 312, the new evidence audit, and the cross-domain index successfully.
 - [ ] CI remains unverified; no successful Actions result is claimed.
 - [ ] **Exact next:** continue Batch 312/313 research only where direct current Xenoverse 2 evidence can resolve missing fields, starting with the next unrefreshed Batch 312/313 record; preserve source conflicts/nulls and do not reconstruct canonical `skills.json` without a supported complete-file write path.
+
+
+### 2026-09-25 cycle continuation — Batch 313 evidence refresh
+- [x] Continued into skill-batch-313 using direct current Xenoverse 2 evidence.
+- [x] Refreshed Super Kamehameha: 300 Ki, Goku Lesson 4, multi-hit beam behavior plus documented SSGSS Gogeta charge-interruption and Gohan (DBS Super Hero) counter variants.
+- [x] Refreshed Saiyan Spirit: 300 Ki, TP Medal Shop/PQ84, 10 hits and 30% total damage, Saiyan-CaC restriction.
+- [x] Refreshed Explosive Assault: 300 Ki, Gohan (Kid) training, 22 hits / 40% total damage, followed by about one second of user exhaustion.
+- [x] Refreshed Special Beam Cannon (Ultimate): 300 Ki, Piccolo training, unblockable long-range one-hit beam / 30% damage.
+- [x] Added and registered docs/data/skill-batch-313-evidence-refresh-2026-09-25.json.
+- [x] Re-fetched and parsed Batch 313, the evidence audit, and the cross-domain index successfully.
+- [x] Preserved unresolved drop probabilities, Ultimate Finish conditions, shop-price semantics, and version history.
+- [ ] CI remains unverified.
+- [ ] Exact next: continue the next existing partially verified skill-research tranche after Batch 313 with direct evidence.
