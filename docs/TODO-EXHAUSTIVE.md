@@ -8465,3 +8465,13 @@
 - [x] No canonical relationship, identity, reward condition, or acquisition route was changed.
 - [ ] CI/runtime remains unavailable; no CI success is claimed.
 - [ ] **Exact next:** continue the current PQ-facing producer/consumer census beyond these nine summary/reference pages, prioritizing any remaining registered landing/search consumer or machine-checkable one-way navigation mismatch; if the current consumer chain is clean, resume the next source-backed thin-domain/provenance tranche. Preserve historical baselines and unresolved reward mechanics.
+
+
+### 2026-09-25 cycle update — PQ→skill crosslink validator hardening
+- [x] Live census before editing: **186 PQ records / 469 skill records / 244 canonical PQ→skill edges / 239 unique skill endpoints**; unresolved forward edges and orphaned reverse source routes were both **0**.
+- [x] Hardened `scripts/validate_pq_skill_links.py` with explicit current invariants: PQ records **186**, skill records **469**, forward edges **244**, exact PQ number range **1–186**, zero duplicate forward (PQ,skill) pairs, and zero invalid forward PQ IDs.
+- [x] Preserved the important graph distinction: **239 reverse skill endpoints is not a stale 239-edge baseline**; multiple PQs can legitimately reference the same skill. The validator now checks the canonical forward edge count instead of conflating reverse endpoint cardinality with relationship count.
+- [x] Added `docs/data/pq-skill-crosslink-validator-hardening-2026-09-25.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation by live report readback: 186/469/244 baseline matches; unresolved forward edges **0**; orphaned reverse sources **0**; no canonical relationship or skill identity data changed.
+- [ ] CI/runtime remains unavailable; no CI success is claimed.
+- [ ] **Exact next:** continue the remaining PQ-facing producer/consumer census, prioritizing the next machine-checkable validator/projection with a potentially stale current scalar or endpoint-count assumption; preserve historical snapshots and avoid changing canonical relationships without evidence.
