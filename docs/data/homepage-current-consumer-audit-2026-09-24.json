@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "audit_date": "2026-09-24",
+  "audit_date": "2026-09-25",
   "scope": "Current homepage cross-domain navigation consumer scan after mentor and Expert Mission explorer additions",
   "source_of_truth": [
     "docs/index.md",
@@ -17,7 +17,7 @@
     "expert_mission_count_displayed": 20,
     "expert_mission_count_matches_canonical_layer": true,
     "skill_homepage_metric_semantics": "672 category memberships, explicitly not 672 canonical records",
-    "skill_canonical_record_count": 469,
+    "skill_canonical_record_count": 470,
     "super_soul_canonical_record_count": 230,
     "accessory_canonical_identity_count": 116,
     "accessory_shop_record_count": 51
