@@ -7444,3 +7444,11 @@
 - [x] Preserved the 469/469 canonical/index boundary and unresolved evidence fields.
 - [ ] CI remains unverified; latest Pages run is in progress while quality/clean runs fail without useful step output.
 - [ ] **Exact next:** complete **skill-batch-200 — Time Skip/Flash Skewer**.
+
+### 2026-09-24 — TODO completion update — Time Skip/Flash Skewer P1 provenance verification
+- [x] Completed **skill-batch-200 — Time Skip/Flash Skewer** with current Xenoverse 2 identity, 100 Ki, Hit Initiation Test acquisition, Future Warrior availability, and Strike-counter mechanics.
+- [x] Corrected DLC context to **Super Pack 1** and documented the conflicting secondary attribution rather than propagating it.
+- [x] Added and registered the Time Skip/Flash Skewer provenance audit.
+- [x] Preserved the 469/469 canonical/index boundary and unresolved/version-sensitive mechanics.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** inspect current Actions state, then determine the next live research batch after 200.
