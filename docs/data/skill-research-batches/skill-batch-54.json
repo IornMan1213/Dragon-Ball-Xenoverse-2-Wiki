@@ -4,7 +4,7 @@
   "verification_policy": "research_batch_with_current_and_independent_cross_checks",
   "research_scope": "Fifteen base-game skills from PQ86-PQ100. Reward-slot and Ultimate-Finish semantics remain unresolved unless directly established.",
   "verification_audit": {
-    "audited": "2026-09-24",
+    "audited": "2026-09-25",
     "duplicate_check": {
       "status": "passed_for_selected_records",
       "selected_records": [
@@ -35,9 +35,10 @@
       "https://dbxv2.fandom.com/wiki/Victory_Rush",
       "https://dbxv2.fandom.com/wiki/Ill_Bomber",
       "https://dbxv2.fandom.com/wiki/Final_Kamehameha",
-      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74502922"
+      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74502922",
+      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76170072"
     ],
-    "research_update": "Current-source enrichment completed for Neo Wolf Fang Fist, Maiden Burst, Absolute Zero, and Dimension Ray. Absolute Zero's stale 200-Stamina/Other classification was corrected to 300-Stamina/Ki Blast. Neo Wolf Fang Fist's current 100-700 Ki range was confirmed. Maiden Burst's 300-Stamina Ki Blast Evasive classification was confirmed. Dimension Ray's current 400 Ki cost was confirmed. Drain Field remains deliberately unresolved on resource/reward-slot semantics."
+    "research_update": "Current-source enrichment completed for Neo Wolf Fang Fist, Maiden Burst, Absolute Zero, and Dimension Ray. Absolute Zero's stale 200-Stamina/Other classification was corrected to 300-Stamina/Ki Blast. Neo Wolf Fang Fist's current 100-700 Ki range was confirmed. Maiden Burst's 300-Stamina Ki Blast Evasive classification was confirmed. Dimension Ray's current 400 Ki cost was confirmed. Drain Field remains deliberately unresolved on resource/reward-slot semantics. Buu Buu Ball was promoted to verified_current_scope after current skill documentation and an independent PQ88 reward transcription confirmed its Strike Evasive identity, 300-Stamina cost, Majin restriction, and Basic Reward endpoint; an older player discussion's Ultimate-Finish belief is retained as historical conflict rather than canonical requirement."
   },
   "records": [
     {
@@ -101,13 +102,14 @@
       "source_quest_or_shop": "Parallel Quest 88",
       "ultimate_finish_required": null,
       "skill_description": "Rolls into a ball and bounces while the user can freely control movement.",
-      "mechanics_notes": "Current Xenoverse 2 skill reference classifies Buu Buu Ball as a Strike Evasive using 300 stamina. The move bounces three times, can be freely controlled while bouncing, and deals minor contact damage. This corrects the stale batch classification as an Ultimate/Ki Blast skill.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "Current Xenoverse 2-specific evidence confirms Buu Buu Ball as a Strike Evasive using 300 Stamina, restricted to Majin CaCs, with three controllable bounces and minor contact damage. The current PQ88 reward transcription places Buu Buu Ball in the Basic Reward list. Historical player discussion reports an Ultimate-Finish belief, so ultimate_finish_required remains null and no drop probability is inferred.",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Buu_Buu_Ball",
         "https://dragonball.fandom.com/wiki/Buu_Buu_Ball",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76170072"
       ]
     },
     {
