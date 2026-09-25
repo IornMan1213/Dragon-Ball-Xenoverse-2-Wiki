@@ -1867,3 +1867,14 @@
 - [x] Preserved unresolved CaC, Ultimate Finish, reward-probability, shop-price, version-history, and canonical-ID boundaries.
 - [ ] CI remains unverified.
 - [ ] Exact next: continue Batch 316 direct-evidence research.
+
+### 2026-09-25 cycle completion — Batch 316 direct-evidence refresh
+- [x] Live census after the preceding commits: **470 canonical skill-index records / 470 unique IDs / 0 duplicate IDs**. This supersedes older 469/469 historical notes; no historical entry was rewritten.
+- [x] Bounded batch: **skill-batch-316** — Blaster Stream, Full Power Destruction, Gigantic Burst, Lightning Impact, and Requiem of Destruction.
+- [x] Refreshed the research-only Batch 316 records with direct current Xenoverse 2 evidence for Ki costs, acquisition endpoints, CaC usability where explicitly established, and supported mechanics.
+- [x] Added `docs/data/skill-batch-316-evidence-refresh-2026-09-25.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved unresolved Ultimate-Finish requirements, reward probabilities, exact frame data, version-sensitive damage, and unsupported race restrictions rather than inferring them.
+- [x] Validation: Batch 316 contains **5/5** records; evidence audit contains **5/5** records; canonical/index duplicate-ID census is **0**; all changed JSON parsed successfully; changed research/index files contain no internal assistant citation/export markup.
+- [x] Canonical promotion was not attempted: all five names already exist in the current 470-record canonical/index layer, but the supported builder/runtime contract is still unavailable and the canonical 469/469 history must not be rewritten speculatively.
+- [ ] CI success remains unverified. The commit workflow-run endpoint exposed no PR-triggered workflow runs for the latest evidence-registration commit; no CI success is claimed.
+- [ ] Exact next batch: perform the next direct-evidence Ki Blast Ultimate refresh across **Angry Explosion, Assault Rain, Brave Heat, Break Cannon, Breaker Energy Wave, Chain Destructo-Disc Barrage, Chaotic Time Impact, and Circle Flash**, preserving existing acquisition/reward conflicts and only promoting fields directly supported by current Xenoverse 2 evidence.
