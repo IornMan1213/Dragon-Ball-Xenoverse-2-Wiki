@@ -2095,3 +2095,15 @@
 - [x] Validation: updated audit, new parity audit, and cross-domain index all parse successfully; **0 relationship edges changed / 0 acquisition relationships inferred / 0 historical snapshots rewritten**.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the current producer/consumer census for the next stale domain scalar or one-way cross-domain presentation mismatch, prioritizing equipment/accessory and PQ-facing consumers before reopening already-clean skill reverse-navigation invariants.
+
+
+### 2026-09-25 cycle completion — Correct current domain baseline after direct canonical recount
+- [x] Live census caught an inconsistency in the prior 174-equipment/current-consumer reconciliation: direct parse of `docs/data/equipment-accessories-record-layer.json` contains **173 records / 173 unique IDs**, not 174. The canonical file was not changed by the prior 40 commits, confirming the 174 consumer scalar was unsupported rather than a new canonical record.
+- [x] Reconciled current-facing equipment/accessory consumers back to the live **173** record layer, while preserving the **124 PQ equipment edges / 122 unique PQ targets**.
+- [x] Reconciled the remaining current skill-domain consumer drift from **469 → 470** and synchronized current skill parity to **470 canonical / 470 index / 231 non-PQ / 239 PQ-linked**.
+- [x] Corrected `pq-endpoint-navigation-validation.json`, the Equipment-All/accessory presentation audits, system reference consumer, current character/equipment/raid synchronization, and current skill-domain consumer audit.
+- [x] Added and registered `docs/data/current-domain-baseline-correction-2026-09-25.json`; corrected the earlier 2026-09-25 domain-parity audit rather than preserving the unsupported 174 current baseline.
+- [x] Validation: all changed JSON parses successfully; current-facing files no longer contain the stale 174/469 scalar literals targeted by this batch. **0 relationship edges changed / 0 acquisition relationships inferred / 0 canonical IDs added / 0 historical snapshots rewritten**.
+- [ ] CI remains unverified; no successful Actions result is claimed.
+- [ ] Historical 469/174 artifacts remain untouched where their dated scope makes them historical evidence.
+- [ ] **Exact next:** continue the current producer/consumer census using live canonical source counts (**470 skills / 173 equipment-accessory / 152 characters**) and prioritize the next deterministic cross-domain mismatch; do not treat historical 469/174 snapshots as current baselines.
