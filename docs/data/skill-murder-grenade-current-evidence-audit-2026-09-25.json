@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "audit_id": "kill-murder-grenade-current-evidence-audit-2026-09-25",
+  "audit_id": "skill-murder-grenade-current-evidence-audit-2026-09-25",
   "audit_date": "2026-09-25",
   "target": "Murder Grenade",
-  "result": "verified_current_scope",
+  "result": "current_evidence_refresh",
   "supported_fields": {
     "class": "Super",
     "subcategory": "Ki Blast",
