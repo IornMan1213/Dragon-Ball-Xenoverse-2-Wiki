@@ -131,9 +131,9 @@
       "source_quest_or_shop": "Parallel Quest 89",
       "ultimate_finish_required": null,
       "skill_description": "Teleports into the opponent and performs a multi-hit rush ending in an axe kick.",
-      "mechanics_notes": "Current Xenoverse 2 skill reference classifies Victory Rush as a Strike Ultimate using 300 Ki. The documented sequence uses repeated teleporting movement, totals 13 hits, and ends with an axe kick that knocks the opponent down. Exact universal damage values and reward probability remain unresolved.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "Current Xenoverse 2-specific evidence supports Victory Rush as a 300-Ki Strike Ultimate from PQ89, using a documented 13-hit teleporting rush ending in an axe kick. Exact universal damage and drop probability remain unresolved.",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Victory_Rush",
         "https://dragonball.fandom.com/wiki/Victory_Rush",
