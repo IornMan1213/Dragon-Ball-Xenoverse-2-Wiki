@@ -15,8 +15,8 @@
   ],
   "live_baselines": {
     "canonical_character_names": 152,
-    "canonical_skill_index_target": 469,
-    "canonical_combined_equipment_accessory_records": 174
+    "canonical_skill_index_target": 470,
+    "canonical_combined_equipment_accessory_records": 173
   },
   "findings": [
     {
