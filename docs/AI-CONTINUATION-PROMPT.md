@@ -843,3 +843,12 @@
 - [x] Validation: changed JSON records parsed; canonical/index baseline remains **469/469**; no canonical mutation was made.
 - [ ] CI success remains unverified; no CI success claimed.
 - [ ] **Exact next:** continue **skill-research-batches/skill-batch-176.json — Mach Punch** using the same bounded P1 provenance workflow, with live canonical evidence checked first.
+
+
+### 2026-09-24 cycle validation update — Smile Charge CI result
+- [x] Repository quality run **36092956273** and Clean internal artifacts run **36092956276** were triggered by the Smile Charge/handoff commits and both completed **failure**.
+- [x] Repository quality exposes only **Check for internal artifacts** with **zero workflow steps**; no checker step executed and no actionable log is exposed from the job payload.
+- [x] The same runner-level/zero-step failure pattern is therefore retained as an Actions observability/execution issue rather than used to justify canonical data changes.
+- [x] Direct changed-file validation still passes for the Smile Charge batch/audit/index edits: JSON parses, no citation/export artifact markers were introduced into those changed research files, and canonical/index remains **469/469**.
+- [ ] CI success remains unverified.
+- [ ] **Exact next remains:** continue **skill-batch-176 — Mach Punch**; do not weaken artifact checking or infer canonical data from the zero-step failure.
