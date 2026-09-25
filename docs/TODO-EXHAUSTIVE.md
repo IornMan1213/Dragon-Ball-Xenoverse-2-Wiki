@@ -558,3 +558,11 @@
 - [x] No unsupported probabilities, frame data, or timing claims promoted.
 - [ ] CI remains unverified.
 - [x] **Exact next:** fresh global thin-record census; continue with **Fighting Pose A, Fighting Pose F, Innocence Breath, Innocence Bullet, Innocence Cannon, Justice Rush, Shining Friday, Strike of Revelation, Sudden Storm, Super Explosive Wave**.
+
+### 2026-09-25 completion — Skill Batch 365 thin mechanics/provenance research
+- [x] Completed **Fighting Pose A, Fighting Pose F, Innocence Breath, Innocence Bullet** from the fresh thin-record frontier.
+- [x] Added four current-evidence audits and Skill Batch 365; registered all five paths in the cross-domain index.
+- [x] Preserved bounded evidence and did not infer unsupported duration, poison tick rate, frame data, hidden gates, or universal damage values.
+- [ ] Canonical/index generated skill files were not partially rewritten because the safe connector path cannot reconstruct the complete files; no false canonical synchronization is claimed.
+- [ ] CI remains unverified.
+- [x] **Exact next:** **Innocence Cannon, Justice Rush, Shining Friday, Strike of Revelation, Sudden Storm, Super Explosive Wave**.
