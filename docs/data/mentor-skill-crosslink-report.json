@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
   "game": "Dragon Ball Xenoverse 2",
-  "generated_by": "manual_canonical_sync_2026-09-21",
+  "generated_by": "manual_canonical_sync_2026-09-25",
   "canonical_mentor_records": 33,
   "mentors_with_skill_links": 33,
-  "mentor_to_skill_edge_count": 131,
+  "mentor_to_skill_edge_count": 132,
   "forward_edges": [
     {
       "mentor_id": "mentor-android-16",
@@ -67,6 +67,26 @@
       "skill_id": "skill-tyrant-lancer"
     },
     {
+      "mentor_id": "mentor-beerus",
+      "mentor_name": "God of Destruction Beerus",
+      "skill_id": "skill-god-of-destruction-s-anger"
+    },
+    {
+      "mentor_id": "mentor-beerus",
+      "mentor_name": "God of Destruction Beerus",
+      "skill_id": "skill-god-of-destruction-s-rampage"
+    },
+    {
+      "mentor_id": "mentor-beerus",
+      "mentor_name": "God of Destruction Beerus",
+      "skill_id": "skill-god-of-destruction-s-wrath"
+    },
+    {
+      "mentor_id": "mentor-beerus",
+      "mentor_name": "God of Destruction Beerus",
+      "skill_id": "skill-sphere-of-destruction"
+    },
+    {
       "mentor_id": "mentor-bojack",
       "mentor_name": "Bojack",
       "skill_id": "skill-grand-smasher"
@@ -105,26 +125,6 @@
       "mentor_id": "mentor-broly",
       "mentor_name": "Broly",
       "skill_id": "skill-gigantic-omega"
-    },
-    {
-      "mentor_id": "mentor-ginyu",
-      "mentor_name": "Captain Ginyu",
-      "skill_id": "skill-body-change"
-    },
-    {
-      "mentor_id": "mentor-ginyu",
-      "mentor_name": "Captain Ginyu",
-      "skill_id": "skill-fighting-pose-a"
-    },
-    {
-      "mentor_id": "mentor-ginyu",
-      "mentor_name": "Captain Ginyu",
-      "skill_id": "skill-fighting-pose-f"
-    },
-    {
-      "mentor_id": "mentor-ginyu",
-      "mentor_name": "Captain Ginyu",
-      "skill_id": "skill-milky-cannon"
     },
     {
       "mentor_id": "mentor-cell",
@@ -207,46 +207,6 @@
       "skill_id": "skill-death-slicer"
     },
     {
-      "mentor_id": "mentor-beerus",
-      "mentor_name": "God of Destruction Beerus",
-      "skill_id": "skill-god-of-destruction-s-anger"
-    },
-    {
-      "mentor_id": "mentor-beerus",
-      "mentor_name": "God of Destruction Beerus",
-      "skill_id": "skill-god-of-destruction-s-rampage"
-    },
-    {
-      "mentor_id": "mentor-beerus",
-      "mentor_name": "God of Destruction Beerus",
-      "skill_id": "skill-god-of-destruction-s-wrath"
-    },
-    {
-      "mentor_id": "mentor-beerus",
-      "mentor_name": "God of Destruction Beerus",
-      "skill_id": "skill-sphere-of-destruction"
-    },
-    {
-      "mentor_id": "mentor-gohan-videl",
-      "mentor_name": "Gohan (Adult) and Videl",
-      "skill_id": "skill-eagle-kick"
-    },
-    {
-      "mentor_id": "mentor-gohan-videl",
-      "mentor_name": "Gohan (Adult) and Videl",
-      "skill_id": "skill-hawk-charge"
-    },
-    {
-      "mentor_id": "mentor-gohan-videl",
-      "mentor_name": "Gohan (Adult) and Videl",
-      "skill_id": "skill-justice-combination"
-    },
-    {
-      "mentor_id": "mentor-gohan-videl",
-      "mentor_name": "Gohan (Adult) and Videl",
-      "skill_id": "skill-justice-rush"
-    },
-    {
       "mentor_id": "mentor-future-gohan",
       "mentor_name": "Gohan (Future)",
       "skill_id": "skill-energy-dome"
@@ -267,6 +227,26 @@
       "skill_id": "skill-super-explosive-wave"
     },
     {
+      "mentor_id": "mentor-ginyu",
+      "mentor_name": "Captain Ginyu",
+      "skill_id": "skill-body-change"
+    },
+    {
+      "mentor_id": "mentor-ginyu",
+      "mentor_name": "Captain Ginyu",
+      "skill_id": "skill-fighting-pose-a"
+    },
+    {
+      "mentor_id": "mentor-ginyu",
+      "mentor_name": "Captain Ginyu",
+      "skill_id": "skill-fighting-pose-f"
+    },
+    {
+      "mentor_id": "mentor-ginyu",
+      "mentor_name": "Captain Ginyu",
+      "skill_id": "skill-milky-cannon"
+    },
+    {
       "mentor_id": "mentor-gohan-kid",
       "mentor_name": "Gohan (Kid)",
       "skill_id": "skill-evil-ray-strike"
@@ -285,6 +265,26 @@
       "mentor_id": "mentor-gohan-kid",
       "mentor_name": "Gohan (Kid)",
       "skill_id": "skill-masenko"
+    },
+    {
+      "mentor_id": "mentor-gohan-videl",
+      "mentor_name": "Gohan (Adult) and Videl",
+      "skill_id": "skill-eagle-kick"
+    },
+    {
+      "mentor_id": "mentor-gohan-videl",
+      "mentor_name": "Gohan (Adult) and Videl",
+      "skill_id": "skill-hawk-charge"
+    },
+    {
+      "mentor_id": "mentor-gohan-videl",
+      "mentor_name": "Gohan (Adult) and Videl",
+      "skill_id": "skill-justice-combination"
+    },
+    {
+      "mentor_id": "mentor-gohan-videl",
+      "mentor_name": "Gohan (Adult) and Videl",
+      "skill_id": "skill-justice-rush"
     },
     {
       "mentor_id": "mentor-goku",
@@ -362,6 +362,11 @@
       "skill_id": "skill-time-skip-jump-spike"
     },
     {
+      "mentor_id": "mentor-hit",
+      "mentor_name": "Hit",
+      "skill_id": "skill-time-skip-tremor-pulse"
+    },
+    {
       "mentor_id": "mentor-jaco",
       "mentor_name": "Jaco",
       "skill_id": "skill-elite-beam"
@@ -400,31 +405,6 @@
       "mentor_id": "mentor-krillin",
       "mentor_name": "Krillin",
       "skill_id": "skill-scatter-kamehameha"
-    },
-    {
-      "mentor_id": "mentor-slug",
-      "mentor_name": "Lord Slug",
-      "skill_id": "skill-darkness-eye-beam"
-    },
-    {
-      "mentor_id": "mentor-slug",
-      "mentor_name": "Lord Slug",
-      "skill_id": "skill-darkness-rush-melee"
-    },
-    {
-      "mentor_id": "mentor-slug",
-      "mentor_name": "Lord Slug",
-      "skill_id": "skill-darkness-rush-ranged"
-    },
-    {
-      "mentor_id": "mentor-slug",
-      "mentor_name": "Lord Slug",
-      "skill_id": "skill-darkness-twin-star"
-    },
-    {
-      "mentor_id": "mentor-slug",
-      "mentor_name": "Lord Slug",
-      "skill_id": "skill-evil-eyes"
     },
     {
       "mentor_id": "mentor-majin-buu",
@@ -525,6 +505,31 @@
       "mentor_id": "mentor-raditz",
       "mentor_name": "Raditz",
       "skill_id": "skill-weekend"
+    },
+    {
+      "mentor_id": "mentor-slug",
+      "mentor_name": "Lord Slug",
+      "skill_id": "skill-darkness-eye-beam"
+    },
+    {
+      "mentor_id": "mentor-slug",
+      "mentor_name": "Lord Slug",
+      "skill_id": "skill-darkness-rush-melee"
+    },
+    {
+      "mentor_id": "mentor-slug",
+      "mentor_name": "Lord Slug",
+      "skill_id": "skill-darkness-rush-ranged"
+    },
+    {
+      "mentor_id": "mentor-slug",
+      "mentor_name": "Lord Slug",
+      "skill_id": "skill-darkness-twin-star"
+    },
+    {
+      "mentor_id": "mentor-slug",
+      "mentor_name": "Lord Slug",
+      "skill_id": "skill-evil-eyes"
     },
     {
       "mentor_id": "mentor-tien",
@@ -675,13 +680,14 @@
     "2026-09-21 reconciliation: Gotenks, Turles, Broly, and God of Destruction Beerus lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. The Gotenks ultimate route retains its distinct canonical skill ID despite sharing the displayed skill name with the Super Ghost Kamikaze Attack route.",
     "2026-09-21 reconciliation: Whis, Pan, Jaco, and Goku lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Pan's existing Dancing Parapara edge and Goku's existing Spirit Bomb/Instant Transmission edges were preserved without duplication.",
     "2026-09-21 reconciliation: Gohan (Future), Bardock, Bojack, and Zamasu lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Zamasu's initiation lesson has no canonical skill ID and was intentionally left unlinked.",
-    "2026-09-22 typed-reward reconciliation: the canonical mentor layer contains 133 lesson reward objects: 132 skill rewards and one non-skill Super Soul reward (Zamasu initiation). The Super Soul is represented as reward_type=super_soul with reward_id=super-soul-143, so it is intentionally excluded from mentor→skill edge counts rather than reported as an unresolved skill endpoint."
+    "2026-09-22 typed-reward reconciliation: the canonical mentor layer contains 133 lesson reward objects: 132 skill rewards and one non-skill Super Soul reward (Zamasu initiation). The Super Soul is represented as reward_type=super_soul with reward_id=super-soul-143, so it is intentionally excluded from mentor→skill edge counts rather than reported as an unresolved skill endpoint.",
+    "2026-09-25 canonical reconciliation: Hit Lesson 3 Time Skip/Tremor Pulse now resolves to the existing canonical skill-time-skip-tremor-pulse record; restored the exact mentor endpoint without inference."
   ],
   "validation": {
     "canonical_mentor_records": 33,
     "mentors_with_skill_links": 33,
-    "mentor_to_skill_edge_count": 131,
-    "unique_skill_endpoints": 130,
+    "mentor_to_skill_edge_count": 132,
+    "unique_skill_endpoints": 131,
     "unresolved_edge_count": 0,
     "broken_skill_endpoints": 0,
     "mentor_lesson_reward_count": 133,
