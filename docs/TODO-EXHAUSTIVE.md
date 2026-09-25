@@ -8202,3 +8202,13 @@
 - [x] Validation: **470 canonical skills / 239 PQ-linked / 231 non-PQ / 230 resolved non-PQ endpoint targets / 1 explicit unresolved target / 0 canonical IDs promoted / 0 acquisition relationships inferred**.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** reconcile the remaining **Time Skip/Tremor Pulse** mentor-layer endpoint boundary against the canonical skill and current mentor evidence, preserving the unresolved state unless the normal endpoint-reconciliation evidence threshold is met.
+
+
+### 2026-09-25 cycle completion — Final non-PQ reverse/navigation reconciliation
+- [x] Reconciled the last uncovered non-PQ canonical skill: **Time Skip/Tremor Pulse** (`skill-time-skip-tremor-pulse`), whose exact canonical record now exists in the 470-record skill index.
+- [x] Restored **Hit Lesson 3 → Time Skip/Tremor Pulse** across `mentor-endpoints.json`, `mentor-skill-crosslink-report.json`, and `mentor-skill-coverage-report.json` using the exact existing canonical ID; no skill identity was inferred or fabricated.
+- [x] Synchronized `skill-acquisition-coverage-report.json` to the current 470/239/231 baseline and added a current 2026-09-25 projection.
+- [x] Added and registered `docs/data/non-pq-skill-reverse-navigation-final-reconciliation-2026-09-25.json`.
+- [x] Final validation: **470 canonical / 239 PQ-linked / 231 non-PQ / 231 resolved non-PQ endpoint targets / 0 unresolved non-PQ skills / 132 mentor skill edges / 131 unique mentor skill targets / 0 broken endpoints**.
+- [ ] CI remains unverified; no successful Actions result is claimed.
+- [ ] **Exact next:** resume the deterministic producer/consumer parity queue outside the now-clean non-PQ reverse-navigation invariant, prioritizing any remaining current 470-count consumer or cross-domain endpoint mismatch not already audited.
