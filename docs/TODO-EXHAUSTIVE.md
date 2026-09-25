@@ -8097,3 +8097,10 @@
 - [x] Preserved unresolved reward/FI/frame/restriction fields rather than inferring them.
 - [ ] CI remains unverified.
 - [ ] **Next:** Divinity Unleashed, Do or Die, Dodon Ray, then adjacent stale records.
+
+### 2026-09-25 — TODO completion update — Batch 319
+- [x] Reconciled **Divinity Unleashed, Do or Die, Dodon Ray**.
+- [x] Added and registered `docs/data/skill-batch-319-divinity-do-or-die-dodon-ray-evidence-reconciliation-2026-09-25.json`.
+- [x] Preserved unresolved reward semantics and evidence boundaries.
+- [ ] CI remains unverified.
+- [ ] **Next:** recompute the live catalog and continue alphabetically after Dodon Ray, excluding completed evidence tranches.
