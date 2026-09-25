@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-ice-cannon-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "scope": [
+    "Ice Cannon"
+  ],
+  "result": "Promoted to verified_current_scope. Current Xenoverse 2-specific evidence supports the 300-Ki Ki Blast Ultimate identity, Shenron wish endpoint, CaC availability, and documented five-hit freezing projectile that freezes the opponent for about 3 seconds.",
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Ice_Cannon",
+    "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+    "https://dragonball.fandom.com/wiki/Ice_Cannon"
+  ],
+  "reward_semantics": {
+    "status": "not applicable to canonical promotion",
+    "ultimate_finish_required": null,
+    "drop_probability": null
+  },
+  "limits": [
+    "The repository preserves the wish endpoint without asserting an unsupported prerequisite beyond the documented Shenron wish.",
+    "The 15% damage value is retained as source/version-sensitive mechanics evidence."
+  ]
+}
