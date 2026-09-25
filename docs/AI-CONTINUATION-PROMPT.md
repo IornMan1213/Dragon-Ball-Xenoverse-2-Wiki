@@ -1211,3 +1211,12 @@
 - [x] Preserved `ultimate_finish_required: null`; mentor training is not a PQ Ultimate Finish condition.
 - [x] Refreshed verification to **2026-09-24**, added supporting references, and registered batch 206 in the cross-domain index.
 - [ ] **Exact next:** process **skill-batch-207 — Reverse Mabakusenko classification and acquisition audit**.
+
+
+### 2026-09-24 continuation — Reverse Mabakusenko audit
+- [x] Completed **skill-batch-207 — Reverse Mabakusenko classification and acquisition audit**.
+- [x] Reverified Ultimate / Ki Blast identity, Universal Counter classification, 300 Ki cost, CaC usability, and Skill Shop acquisition.
+- [x] Preserved null Ultimate Finish handling because the documented route is Skill Shop rather than a PQ reward.
+- [x] Added independent contemporary/community verification and refreshed the batch to **2026-09-24**.
+- [x] Registered batch 207 in the cross-domain index.
+- [ ] **Exact next:** process **skill-batch-208 — Super Afterimage and God Breaker reconciliation**.
