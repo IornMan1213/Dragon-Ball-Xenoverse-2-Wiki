@@ -8064,3 +8064,13 @@
 - [x] Preserved unresolved reward probabilities, Ultimate Finish requirements, shop pricing, version history, and canonical IDs.
 - [ ] CI success remains unverified.
 - [ ] Exact next: continue Batch 315 direct-evidence research.
+
+
+### 2026-09-25 — Batch 315 evidence refresh completion
+- [x] Refreshed all five Batch 315 Ki Blast Ultimate records with direct current Xenoverse 2 evidence.
+- [x] Corrected variable Ki costs: Final Flash (SS3 DAIMA) 400+, Super Kamehameha (SS4 DAIMA) 400-500, Thunder Flash 300-600.
+- [x] Added direct hit/mechanics evidence for Prominence Flash and Mystic Flash.
+- [x] Added/registered docs/data/skill-batch-315-evidence-refresh-2026-09-25.json; changed JSON re-parsed successfully.
+- [x] Preserved unresolved CaC/Ultimate Finish/reward/shop/version/canonical-ID fields.
+- [ ] CI success remains unverified.
+- [ ] Exact next: continue Batch 316 direct-evidence research.
