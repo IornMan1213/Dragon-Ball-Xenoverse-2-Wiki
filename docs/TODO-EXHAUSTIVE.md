@@ -7527,3 +7527,11 @@
 - [x] Validation baseline: **469/469** canonical/index, **0 duplicate IDs**; no canonical catalog reconstruction.
 - [ ] CI remains unverified because the latest quality/clean runs expose no workflow steps or usable logs.
 - [ ] **Exact next:** inspect current Actions state, then process **skill-batch-210** with direct Xenoverse 2 evidence and the same bounded provenance/correction workflow.
+
+
+### 2026-09-24 — TODO reconciliation update — Batch 208 finalized
+- [x] Refreshed **skill-batch-208 — Super Afterimage and God Breaker reconciliation** to 2026-09-24 using the existing dedicated P1 audits; no duplicate canonical research was created.
+- [x] Preserved Super Afterimage's Counter Skills cross-membership without inventing a dedicated subtype and God Breaker's Melee Counter classification/acquisition.
+- [x] Validation baseline remains **469/469** canonical/index with **0 duplicate IDs**.
+- [x] Commit: `767d1fb9747ab8c3746a4bcf51be3c9fb06fed5c`.
+- [ ] **Exact next:** inspect current Actions state, then process **skill-batch-210**.
