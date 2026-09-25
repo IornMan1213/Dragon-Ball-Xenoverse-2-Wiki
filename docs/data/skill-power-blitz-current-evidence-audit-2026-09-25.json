@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-power-blitz-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Power Blitz",
+  "result": "current_evidence_refresh",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Ki Blast",
+    "source_quest_or_shop": "Android 18 mentor training",
+    "mechanics": "100-Ki two-projectile pincer attack; the Ki Blasts loop around toward the opponent's back. Current documentation reports 15% total damage."
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Power_Blitz",
+    "https://dragonball.fandom.com/wiki/Power_Blitz"
+  ],
+  "limits": [
+    "No unsupported drop probabilities, hidden gates, exact frame data, or unverified damage/healing scaling is inferred."
+  ]
+}
