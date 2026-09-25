@@ -25,6 +25,6 @@
     "counter_subtype":null,
     "counter_subtype_note":"Current Counter Skills category includes Counter Impact, but the current Counter Skill subtype page does not assign it to Melee, Ki, or Universal counter lists."
   },
-  "verification_status":"corrected_pending_catalog_reconciliation",
-  "last_verified":"2026-09-17"
+  "verification_status":"corrected_verified",
+  "last_verified":"2026-09-24"
 }
