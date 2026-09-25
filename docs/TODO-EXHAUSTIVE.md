@@ -8346,3 +8346,14 @@
 - [x] New research JSON and updated registry/audit were committed successfully.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] **Exact next:** resume the broader current-domain producer/consumer parity queue and inspect for the next deterministic mismatch or evidence-backed thin skill-gap record; the EM18-20 endpoint tranche is now covered.
+
+### 2026-09-25 cycle completion — PQ accessory producer/consumer parity correction
+- [x] Continued the current producer/consumer parity queue after the EM18-20 provenance tranche.
+- [x] Found a deterministic current scalar mismatch in `docs/data/pq-relationship-producer-census.json`: its accessory producer projection was **32/32**, while the authoritative current cross-domain projection reports **28 forward / 28 reverse accessory endpoints**.
+- [x] Corrected the producer census current accessory projection to **28/28** and registered `docs/data/pq-accessory-producer-consumer-parity-correction-2026-09-25.json`.
+- [x] Preserved the distinction between the dedicated accessory research/report layer (**32 edges**) and the current cross-domain accessory projection (**28 endpoints**); no canonical accessory identities or relationship edges were changed.
+- [x] Preserved **74 canonical accessory identities**, unresolved research records, and the authoritative **853 PQ relationship-edge** baseline.
+- [x] Registered the correction in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: changed JSON parsed successfully; **0 relationship edges changed / 0 canonical IDs changed / 0 acquisition routes inferred / 0 historical snapshots rewritten**.
+- [ ] CI remains unverified; no successful Actions result is claimed.
+- [ ] **Exact next:** continue the current producer/consumer census for the next genuinely current one-way endpoint mismatch or source-backed thin-domain enrichment, prioritizing current cross-domain presentation consumers rather than repeating resolved scalar counts.
