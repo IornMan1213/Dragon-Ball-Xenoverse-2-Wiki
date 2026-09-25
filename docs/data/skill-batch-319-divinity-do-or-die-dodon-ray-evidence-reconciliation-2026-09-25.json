@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-batch-319-divinity-do-or-die-dodon-ray-evidence-reconciliation-2026-09-25",
+  "date": "2026-09-25",
+  "scope": "Deterministic next Ki Blast tranche; reconcile current acquisition/cost/mechanics evidence without promoting unresolved reward conditions.",
+  "records": [
+    {
+      "name": "Divinity Unleashed",
+      "ki_cost": 100,
+      "unlock_method": "Parallel Quest 110 — Heretics from a Dark World; reward",
+      "ultimate_finish_required": null,
+      "mechanics": "Charge-based power-up that increases Ki gain during its active window. Current research evidence supports the PQ110 reward endpoint while leaving exact reward-slot/Ultimate-Finish semantics unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Divinity_Unleashed",
+        "https://dragonball.fandom.com/wiki/Divinity_Unleashed",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Do or Die",
+      "ki_cost": 100,
+      "unlock_method": "Parallel Quest 49 — Namek Berserker; Basic Reward",
+      "ultimate_finish_required": false,
+      "mechanics": "Power-up that grants a temporary defensive/Limit Burst-like protection effect while reducing or managing incoming damage; current evidence supports its 100-Ki Super classification and PQ49 endpoint without asserting version-specific numerical modifiers.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Do_or_Die",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
+      ]
+    },
+    {
+      "name": "Dodon Ray",
+      "ki_cost": 0,
+      "unlock_method": "Tien's Initiation Test — Basic Reward",
+      "ultimate_finish_required": false,
+      "mechanics": "Fast straight-line Ki Blast Super fired from two fingers; current repository evidence supports the 0-Ki cost and Tien mentor endpoint. Detailed frame/damage values remain outside this refresh.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Dodon_Ray",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ]
+    }
+  ],
+  "evidence_boundary": "No unsupported drop rates, frame data, version-sensitive damage, or narrower race/gender/form restrictions were added. Conflicting or unresolved reward semantics remain explicit."
+}
