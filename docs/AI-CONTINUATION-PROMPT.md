@@ -1844,3 +1844,15 @@
 - [x] Preserved unresolved drop probabilities, Ultimate Finish conditions, shop-price semantics, and version history.
 - [ ] CI remains unverified.
 - [ ] Exact next: continue the next existing partially verified skill-research tranche after Batch 313 with direct evidence.
+
+
+### 2026-09-25 cycle continuation — Batch 314 evidence refresh
+- [x] Refreshed all five Batch 314 Ki Blast Ultimate records from direct current Xenoverse 2 pages.
+- [x] Resolved X4 Kaioken Kamehameha to 300-400 Ki with staged 15/28-hit mechanics and 3s fatigue after extension.
+- [x] Resolved X20 Kaioken Kamehameha to 500 Ki with 23-hit/45% mechanics.
+- [x] Enriched Dual Destructo-Disc, Innocence Breath, and Maiden Blast with direct current cost and mechanics evidence.
+- [x] Added and registered docs/data/skill-batch-314-evidence-refresh-2026-09-25.json.
+- [x] Re-fetched and parsed Batch 314, the audit, and cross-domain index successfully.
+- [x] Preserved unresolved reward/Ultimate Finish/shop/version fields and did not infer canonical IDs.
+- [ ] CI remains unverified.
+- [ ] Exact next: continue Batch 315 direct-evidence research.
