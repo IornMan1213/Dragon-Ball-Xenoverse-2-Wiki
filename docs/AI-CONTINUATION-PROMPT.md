@@ -1385,3 +1385,11 @@
 - [x] Validation baseline remains **469 canonical / 469 index / 0 duplicate IDs**; no canonical reconstruction or speculative promotion was performed.
 - [ ] CI remains unverified; the latest batch commits expose no workflow run through the commit-workflow API.
 - [ ] **Exact next:** recompute the live unfinished research/catalog census after Batch 252, then choose the next deterministic evidence-backed consumer. Do not invent a Batch 253 identity if no live batch file exists; preserve the 469/469 canonical boundary and use current Xenoverse 2 evidence before any canonical promotion.
+### 2026-09-24 continuation — Frieza Race catalog + Lovely Showtime reconciliation
+- [x] Recomputed the live open reconciliation queue after Batch 252 rather than inventing Batch 253.
+- [x] Resolved the **Frieza Race Skills** set-difference item: current source category contains exactly **2** entries — **Darkness Rush (Melee)** and **Turn Golden** — and the repository catalog contains the same 2; the historical expectation of four is source/repository drift, not a current omission. Added `docs/data/frieza-race-skills-reconciliation-2026-09-24.json`.
+- [x] Reconciled **Lovely Showtime** cost evidence. The dedicated skill page reports **200 Ki**, while the aggregate Ultimate Attack table reports **300 Ki**. The repository retains 200 Ki from the dedicated page, and the 300-vs-200 discrepancy is now explicitly preserved rather than silently overwritten. Added `docs/data/lovely-showtime-cost-reconciliation-2026-09-24.json`.
+- [x] Updated `docs/data/skill-reconciliation-queue.json` to close the Frieza Race set-drift item and mark Lovely Showtime as resolved-with-source-conflict.
+- [x] Canonical/index boundary remains **469/469** with **0 duplicate IDs**; no canonical reconstruction or speculative promotion was performed.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** continue the next deterministic open high-value enrichment/reconciliation target from the live queue or P1 gap census; prioritize direct evidence that can resolve an actual field conflict rather than merely refreshing timestamps.
