@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 326,
+  "created": "2026-09-25",
+  "type": "evidence_refresh",
+  "scope": "Expert Mission 16-17 Ultimate provenance tranche",
+  "records": [
+    {
+      "name": "Super Spirit Bomb",
+      "id": "skill-super-spirit-bomb",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "character_source": "Goku; Goku (Super Saiyan God); Goku (GT); Goku (Super Saiyan 4) (Customize Partner); Cell (Perfect); Cell (Full Power)",
+      "acquisition": "Expert Mission 16 — In the Realm of the Gods: Vegeta",
+      "reward_tier": "Basic Reward",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Spirit_Bomb",
+        "https://dbxv2.fandom.com/wiki/Expert_Mission",
+        "docs/data/expert-missions-16-17-evidence.json",
+        "docs/data/expert-mission-endpoints.json",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
+      ],
+      "evidence": "Current Xenoverse 2 skill documentation identifies Super Spirit Bomb as a 300-Ki Ki Blast Ultimate and explicitly associates it with EM16. The repository's EM endpoint layer and independent historical reward guide both identify it as the EM16 skill reward.",
+      "mechanics": "Large tracked Spirit Bomb projectile with a long startup; current dedicated evidence describes 14 hits and approximately 85% total damage. The damage figure is retained as source-described mechanics, not as a version-independent canonical damage value.",
+      "limits": [
+        "Exact per-clear drop probability and first-clear guarantee remain unresolved.",
+        "No Ultimate Finish-only requirement is inferred.",
+        "The Festival variant added in later versions is distinct and is not merged into this canonical EM16 record."
+      ]
+    },
+    {
+      "name": "Spirit Sword",
+      "id": "skill-spirit-sword",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "ki_cost": 400,
+      "character_source": "Vegito; SSGSS Vegito (Customize Partner)",
+      "acquisition": "Expert Mission 17 — In the Realm of the Gods: Goku",
+      "reward_tier": "Basic Reward",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Spirit_Sword",
+        "https://dbxv2.fandom.com/wiki/Expert_Mission",
+        "docs/data/expert-missions-16-17-evidence.json",
+        "docs/data/expert-mission-endpoints.json",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
+      ],
+      "evidence": "Current Xenoverse 2 skill documentation identifies Spirit Sword as a 400-Ki Strike Ultimate and explicitly associates it with EM17. The repository's EM endpoint layer and independent historical reward guide identify it as the EM17 skill reward.",
+      "mechanics": "Long Ki-blade thrust followed by two spinning slashes; current dedicated evidence describes 3 hits, knockback, and approximately 50% total damage. The damage figure is retained as source-described mechanics, not as a version-independent canonical damage value.",
+      "limits": [
+        "Exact per-clear drop probability and first-clear guarantee remain unresolved.",
+        "No Ultimate Finish-only requirement is inferred.",
+        "Historical sources sometimes call the EM17 reward Spirit Bomb/Spirit Sword; current Xenoverse 2-specific skill documentation and the repository canonical endpoint resolve the skill identity as Spirit Sword."
+      ]
+    }
+  ],
+  "evidence_boundary": "This batch consolidates current Xenoverse 2-specific skill pages, the repository's existing EM16-17 endpoint/evidence layers, and independent reward documentation. It does not infer probabilities, guarantees, frame data, or version-independent damage. The EM17 historical naming discrepancy is preserved as provenance rather than treated as a second skill.",
+  "validation": {
+    "records": 2,
+    "canonical_promotion": false,
+    "canonical_reconstruction": false,
+    "canonical_skill_baseline": 470,
+    "index_skill_baseline": 470,
+    "duplicate_ids": 0
+  }
+}
