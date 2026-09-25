@@ -7596,3 +7596,11 @@
 - [x] Validation remains **469/469** canonical/index with **0 duplicate IDs**.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** inspect current Actions state, then process **skill-batch-235** and its Mach Dash/Final Pose category-source reconciliation.
+
+
+### 2026-09-24 — TODO completion update — Evasive Batches 235–237
+- [x] Completed the Power Up transition audit and Other Evasive intake through **Batch 237**.
+- [x] Preserved the Final Pose/Mach Dash CaC wording conflict and the Evasive/Super and cast-only distinctions across the Other Evasives.
+- [x] Live validation remains **469/469 canonical/index**, **0 duplicate IDs**.
+- [ ] CI success remains unverified; latest Pages deployment is in progress.
+- [ ] **Exact next:** process **skill-batch-238**.
