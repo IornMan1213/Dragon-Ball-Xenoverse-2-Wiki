@@ -1294,18 +1294,27 @@
           "skill_id": "skill-time-skip-jump-spike",
           "skill_name": "Time Skip/Jump Spike",
           "reward_type": "skill"
+        },
+        {
+          "lesson": "lesson-3",
+          "skill_id": "skill-time-skip-tremor-pulse",
+          "skill_name": "Time Skip/Tremor Pulse",
+          "reward_type": "skill"
         }
       ],
       "skills": [
         "skill-time-skip-flash-skewer",
         "skill-time-skip-back-breaker",
-        "skill-time-skip-jump-spike"
+        "skill-time-skip-jump-spike",
+        "skill-time-skip-tremor-pulse"
       ],
       "dual_ultimate": {
         "name": "DUAL Time Skip/Molotov",
         "skill_id": "dual-dual-time-skip-molotov"
       },
-      "status": "lesson_skill_names_verified"
+      "status": "lesson_skill_names_verified",
+      "verification_status": "lesson_skill_names_and_skill_endpoints_verified",
+      "last_verified": "2026-09-25"
     },
     {
       "id": "mentor-bojack",
