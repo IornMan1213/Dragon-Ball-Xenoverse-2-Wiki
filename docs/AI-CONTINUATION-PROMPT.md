@@ -1130,3 +1130,14 @@
 - [x] Canonical/index boundary remains **469/469**; no unsupported canonical promotion.
 - [x] Current Actions inspected: latest Repository quality and Clean internal artifacts runs fail without useful step output; Pages is currently in progress on the latest commit. No CI success is claimed.
 - [ ] **Exact next:** continue **skill-batch-200 — Time Skip/Flash Skewer** using the same bounded P1 provenance workflow.
+
+### 2026-09-24 cycle completion — Time Skip/Flash Skewer P1 provenance verification
+- [x] Completed **skill-batch-200 — Time Skip/Flash Skewer**.
+- [x] Revalidated **Super / Strike**, Counter Skill taxonomy, 100 Ki, Hit's Initiation Test acquisition, Future Warrior/CaC usability, and **Super Pack 1** context.
+- [x] Corrected the batch's stale DLC attribution: a conflicting secondary page said Super Pack 2, but Hit's mentor listing and the Super Pack 1 skill set support Super Pack 1.
+- [x] Preserved the current reference's short-range/single-hit/approximately-5%-initial-damage mechanics while recording the historical blockability conflict as version-sensitive rather than inventing a resolution.
+- [x] Added `docs/data/skill-time-skip-flash-skewer-p1-provenance-verification-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Refreshed `docs/data/skill-research-batches/skill-batch-200.json` with `last_verified: 2026-09-24`.
+- [x] Canonical/index boundary remains **469/469**; no unsupported canonical promotion.
+- [ ] CI success remains unverified; current Actions failures do not expose useful workflow-step output.
+- [ ] **Exact next:** inspect current Actions state, then continue the next live research batch after 200.
