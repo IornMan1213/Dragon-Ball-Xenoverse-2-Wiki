@@ -35,8 +35,10 @@ def audit(domain, record_file, html, relationship, structured_field):
             malformed_structured_fields.append({"id": r.get("id"), "name": name, "type": type(value).__name__})
     duplicate_record_names = sorted(name for name, count in name_counts.items() if count > 1)
     by_name = {r["name"]: r for r in records}
-    edges = [e for e in load("pq-reward-relationships.json")["verified_relationships"]
-             if e.get("relationship") == relationship]
+    all_edges = load("pq-reward-relationships.json")["verified_relationships"]
+    edges = [e for e in all_edges if e.get("relationship") == relationship]
+    malformed_canonical_rows = [e for e in edges if not isinstance(e.get("target"), str) or not e.get("target") or not isinstance(e.get("pq"), str) or not re.fullmatch(r"pq-\\d{3}", e.get("pq", ""))]
+    invalid_canonical_pq_ids = sorted({int(e["pq"].split("-")[1]) for e in edges if isinstance(e.get("pq"), str) and re.fullmatch(r"pq-\\d{3}", e["pq"]) and not 1 <= int(e["pq"].split("-")[1]) <= 186})
     canonical = {}
     for e in edges:
         canonical.setdefault(e["target"], []).append(e["pq"])
@@ -130,6 +132,9 @@ def audit(domain, record_file, html, relationship, structured_field):
         "reverse_pair_parity": not reverse_pair_missing and not reverse_pair_extra,
         "structured_pq_ids_valid": not invalid_structured_pq_ids,
         "duplicate_structured_pairs": len(structured_pair_list) == len(set(structured_pair_list)),
+        "canonical_domain_edge_count_matches_live_baseline": len(edges) == {"pq_rewards_super_soul":145,"pq_rewards_equipment":124}[relationship],
+        "canonical_rows_well_formed": not malformed_canonical_rows,
+        "canonical_pq_ids_valid": not invalid_canonical_pq_ids,
         "duplicate_canonical_pairs": duplicate_canonical_pairs == 0,
     }
     return {
@@ -150,6 +155,8 @@ def audit(domain, record_file, html, relationship, structured_field):
         "malformed_structured_fields": malformed_structured_fields,
         "duplicate_record_names": duplicate_record_names,
         "duplicate_canonical_pairs": duplicate_canonical_pairs,
+        "malformed_canonical_rows": malformed_canonical_rows,
+        "invalid_canonical_pq_ids": invalid_canonical_pq_ids,
         "duplicate_structured_pairs": len(structured_pair_list) - len(set(structured_pair_list)),
         "checks": checks,
         "status": "clean" if all(checks.values()) else "unresolved",
