@@ -35,6 +35,21 @@
       "type": "xenoverse2_skill_index",
       "claim": "The Xenoverse 2 skill guide lists Energy Boil as Evasive skill ID 10540; the Xenoverse 2 character ID list marks ID 10540 as CaC-unavailable and assigned to Final Form Demigra.",
       "source": "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
+    },
+    {
+      "type": "independent_xenoverse2_id_list",
+      "claim": "The Xenoverse 2 character/skill ID list identifies Energy Boil as Evasive skill long ID 10540 / short ID 540, marks it CaC-unavailable, and assigns it to Demon God Demigra (Final Form).",
+      "source": "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
+    },
+    {
+      "type": "xenoverse2_encounter_reference",
+      "claim": "The Defend History! Unknown Battle entry for Xenoverse 2 lists Final Form Demigra using Energy Boil alongside his other cast-exclusive skills.",
+      "source": "https://videogaming.fandom.com/wiki/Defend_History!_Unknown_Battle"
+    },
+    {
+      "type": "xenoverse2_cac_catalog",
+      "claim": "A maintained Xenoverse 2 list of skills unobtainable by CaC explicitly includes Energy Boil.",
+      "source": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79567595"
     }
   ],
   "resolved_fields": {
@@ -51,5 +66,6 @@
     "Do not infer Ki cost from older Xenoverse data or mod implementation details.",
     "Do not create a CaC acquisition route from NPC/enemy usage.",
     "Do not promote to canonical skills.json without the supported builder and required field coverage."
-  ]
+  ],
+  "notes": "2026-09-24 follow-up: independent Xenoverse 2 ID-list evidence reconfirms Energy Boil as Evasive long ID 10540 / short ID 540, CaC-unavailable, Final Form Demigra-owned. The Xenoverse 2 Defend History encounter independently lists Energy Boil in Final Form Demigra's moveset, and the maintained CaC-unobtainable catalog includes it. No trustworthy repository subcategory or numeric Ki cost was established; both remain unresolved."
 }
