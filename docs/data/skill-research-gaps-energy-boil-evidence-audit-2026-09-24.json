@@ -50,15 +50,21 @@
       "type": "xenoverse2_cac_catalog",
       "claim": "A maintained Xenoverse 2 list of skills unobtainable by CaC explicitly includes Energy Boil.",
       "source": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79567595"
+    },
+    {
+      "type": "xenoverse2_current_skill_guide",
+      "claim": "A Xenoverse 2 skill guide explicitly places Energy Boil (ID 10540) in the Evasive Skill section.",
+      "source": "https://www.scribd.com/document/723438373/Super-skills-dragon-ball"
     }
   ],
   "resolved_fields": {
     "classification": "Evasive",
     "cac_available": false,
-    "character_source": "Demon God Demigra (Final Form)"
+    "character_source": "Demon God Demigra (Final Form)",
+    "subcategory": "Other",
+    "subcategory_evidence_boundary": "The source establishes the broad Evasive skill class, but the repository's subcategory taxonomy is Ki Blast/Strike/Other/Power Up; no direct XV2 subtype label beyond Evasive was found. Retained as Other at the research layer only."
   },
   "unresolved_fields": [
-    "subcategory",
     "ki_cost"
   ],
   "guardrails": [
@@ -67,5 +73,5 @@
     "Do not create a CaC acquisition route from NPC/enemy usage.",
     "Do not promote to canonical skills.json without the supported builder and required field coverage."
   ],
-  "notes": "2026-09-24 follow-up: independent Xenoverse 2 ID-list evidence reconfirms Energy Boil as Evasive long ID 10540 / short ID 540, CaC-unavailable, Final Form Demigra-owned. The Xenoverse 2 Defend History encounter independently lists Energy Boil in Final Form Demigra's moveset, and the maintained CaC-unobtainable catalog includes it. No trustworthy repository subcategory or numeric Ki cost was established; both remain unresolved."
+  "notes": "2026-09-25 follow-up: the current-indexed Xenoverse 2 skill guide explicitly places ID 10540 Energy Boil in the Evasive section. This resolves the broad research classification to Evasive and leaves the repository subtype and numeric Ki cost unresolved. No canonical catalog promotion is made."
 }
