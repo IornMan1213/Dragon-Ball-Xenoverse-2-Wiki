@@ -8111,3 +8111,13 @@
 - [x] Preserved evidence conflicts and unsupported-field boundaries.
 - [ ] CI remains unverified.
 - [ ] **Next:** continue after the Batch 320 boundary with the next unreconciled Ki Blast Super records.
+
+
+### 2026-09-25 — TODO completion update — Batch 321 Ki Blast Super evidence refresh
+- [x] Refreshed **Bloody Sauce, Burst Attack, Confusion Blade, Consecutive Energy Blast, Crazy Finger Shot** using direct current Xenoverse 2 evidence.
+- [x] Added `docs/data/skill-research-batches/skill-batch-321.json` and `docs/data/skill-batch-321-ki-blast-super-evidence-refresh-2026-09-25.json`.
+- [x] Registered the Batch 316–321 evidence artifacts in `docs/data/pq-cross-domain-index.json`, including the previously omitted 316–320 registrations.
+- [x] Validation: **470 skills/index records, 0 duplicate IDs, 5/5 Batch 321 records, JSON parse clean, no canonical reconstruction/promotion**.
+- [x] Preserved unresolved reward probabilities, shop pricing/rotation, exact frame data, version-sensitive damage, and unsupported narrower restrictions.
+- [ ] CI remains unverified; no successful Actions result is claimed.
+- [ ] **Next:** recompute the live Ki Blast Super catalog and select the next 4–12 existing partially verified records after Batch 321, excluding Batches 316–321 and using direct current Xenoverse 2 evidence only where it can materially resolve fields.
