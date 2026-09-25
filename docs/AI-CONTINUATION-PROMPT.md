@@ -42,3 +42,11 @@
 - [x] Preserved unresolved drop probabilities and guarantee conditions; no unsupported reward gate or relationship was added.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] **Exact next:** continue the remaining under-enriched canonical skill provenance queue with the next partially verified/under-enriched record where direct current Xenoverse 2 evidence can promote fields.
+
+
+### 2026-09-25 cycle completion — Skill Research Batch 341 Dead End Bullet provenance promotion
+- [x] Promoted Dead End Bullet from partially verified to `verified_current_scope`, strengthening its EM08 endpoint, 300-Ki Ki Blast Ultimate classification, and documented 21-hit overhead barrage mechanics.
+- [x] Added and registered `docs/data/skill-research-batches/skill-batch-341.json`.
+- [x] Preserved unresolved drop probability/guarantee conditions; no unsupported relationship or reward gate was added.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] Exact next: continue the remaining partially verified/under-enriched canonical skill provenance queue with the next record where current Xenoverse 2-specific evidence can promote fields.
