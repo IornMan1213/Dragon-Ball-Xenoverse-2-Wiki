@@ -8181,3 +8181,13 @@
 - [x] Historical 469-record research artifacts were intentionally preserved rather than rewritten.
 - [ ] CI remains unverified; no successful Actions result is claimed.
 - [ ] **Exact next:** continue the remaining current-facing consumer census for stale **469/470** skill counts, then return to the non-PQ reverse/navigation invariant queue.
+
+
+### 2026-09-25 cycle completion — second-pass current skill consumer census
+- [x] Searched current-facing skill-count consumers after the live canonical/index baseline advanced to **470**.
+- [x] Repaired five current consumers that still exposed **469**: PQ endpoint current audit, non-PQ acquisition endpoint audit, homepage consumer audit, skill-shop endpoint layer, and mentor skill coverage report.
+- [x] Added and registered `docs/data/skill-current-consumer-census-2026-09-25.json`.
+- [x] Validation: **470 canonical / 470 index**, **5 current consumer count repairs**, **0 relationship edges changed**, **0 acquisition routes inferred**, **0 historical snapshots rewritten**.
+- [x] Historical per-batch artifacts retaining 469 were deliberately preserved as dated evidence.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** resume the deterministic non-PQ reverse/navigation parity scan now that the explicit 469/470 current-scalar census has been completed.
