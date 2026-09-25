@@ -194,7 +194,7 @@
       "class": "Ultimate",
       "subcategory": "Ki Blast",
       "verification_status": "verified",
-      "research_status": "verified",
+      "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Apocalyptic_Burst",
@@ -203,7 +203,7 @@
       ],
       "unlock_method": "Parallel Quest 161 — \"Scream Team vs. Dream Team\" Ultimate Finish bonus reward (45% bonus slot)",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 audit: PQ161's current maintained reward data lists Apocalyptic Burst in a 45% Ultimate Finish bonus slot; the prior generic/random PQ wording is refined to the explicit gate. 2026-09-22 provenance reconciliation: current dedicated skill documentation confirms PQ161 as the acquisition endpoint; the maintained all-186-PQ guide and an independent PQ161 gameplay record place Apocalyptic Burst in the displayed Basic Reward list, while the repository's existing reward-tier evidence records it as a 45% Ultimate Finish bonus slot. The conflict is retained rather than silently changing ultimate_finish_required; no drop probability is inferred. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. 2026-09-20 verification: current skill page explicitly states PQ161 unlock; the maintained PQ guide lists Apocalyptic Burst as a Basic Reward. 2026-09-20 audit: PQ161's current maintained reward data lists Apocalyptic Burst in a 45% Ultimate Finish bonus slot; the prior generic/random PQ wording is refined to the explicit gate. Current external reward listings conflict on Basic Reward versus Ultimate Finish bonus placement; canonical tier remains unchanged pending stronger deterministic evidence.",
@@ -211,7 +211,8 @@
       "source_quest_or_shop": "Parallel Quest 161 — \"Scream Team vs. Dream Team\"",
       "source_parallel_quests": [
         161
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "id": "skill-arm-crash",
@@ -626,7 +627,7 @@
       "class": "Ultimate",
       "subcategory": "Ki Blast",
       "verification_status": "verified",
-      "research_status": "verified",
+      "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Blaster_Stream",
@@ -636,7 +637,7 @@
       ],
       "unlock_method": "Parallel Quest 148 — \"Finding Out About Fusion\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": null,
       "notes": "2026-09-20 acquisition refinement: the maintained Steam all-PQ guide lists Blaster Stream in PQ148 Basic Reward. No Ultimate Finish requirement is asserted. 2026-09-21 race-scope audit: repository evidence confirms CaC usability but does not establish a narrower race/gender/form restriction; race_restriction remains null rather than being inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context. 2026-09-21 provenance strengthening: independent PQ documentation identifies PQ148 — Finding Out About Fusion, its reward list includes this skill, and the official Dragon Ball site documents the three Legendary Pack 2 skills. Existing PQ148 acquisition and DLC semantics are preserved. 2026-09-22 provenance verification: current dedicated and independent documentation corroborate the existing acquisition endpoint and skill identity; existing reward-tier/probability semantics are preserved. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.",
       "mechanics_notes": "Chargeable beam; charge increases damage and hit count; follow-up stronger Ki Wave on hit. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. 2026-09-20 verification: current skill page explicitly states PQ148 unlock and Ki Blast Ultimate classification; the PQ148 reward guide independently lists Blaster Stream as a Basic Reward.",
@@ -1333,7 +1334,7 @@
       "class": "Ultimate",
       "subcategory": "Ki Blast",
       "verification_status": "verified",
-      "research_status": "verified",
+      "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1344,7 +1345,7 @@
       ],
       "unlock_method": "Parallel Quest 46 — \"16 of the Official History\" Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 race-scope reconciliation: Dragon Ball Wiki explicitly lists Future Warrior as a Xenoverse 2 user and states the Future Warrior can obtain Chain Destructo Disc from PQ46. This establishes CaC availability; no narrower race/gender/form restriction is documented, so the canonical scope is All CaC races. 2026-09-22 provenance refresh: independent GameFAQs discussion reconfirms PQ46 as the acquisition route. Existing Basic Reward semantics and unresolved drop probability remain unchanged. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-23 provenance refresh: revalidated the existing multi-source evidence for the acquisition endpoint and classification; no unsupported reward probability, Ultimate Finish gate, mechanic, cost, restriction, or DLC condition was added. Existing source conflicts remain preserved.",
       "mechanics_notes": "Creates and launches five Destructo-Discs in sequence. The attack is unblockable and deals its damage across five hits; the in-game warning specifically notes that it cannot be guarded. The canonical record retains the 300-Ki Ultimate cost and PQ46 Basic Reward route; exact frame data and drop probability remain unresolved.",
@@ -1507,7 +1508,7 @@
       "class": "Ultimate",
       "subcategory": "Ki Blast",
       "verification_status": "verified",
-      "research_status": "verified",
+      "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Circle_Flash",
@@ -1517,7 +1518,7 @@
       ],
       "unlock_method": "Parallel Quest 154 — Ultimate Finish bonus slot (40%).",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": null,
       "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred. 2026-09-20 provenance census: normalized source field to Parallel Quest 154 — \"Dabura the Loyal? Servant\", matching the maintained PQ research record. 2026-09-21 race-scope audit: repository evidence confirms CaC usability but does not establish a narrower race/gender/form restriction; race_restriction remains null rather than being inferred. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics. 2026-09-22 provenance refresh: PQ154 acquisition is independently corroborated, but the maintained Steam PQ listing places Circle Flash in Basic Reward while the current canonical research records a 40% Ultimate Finish bonus slot. The reward-tier conflict is preserved rather than silently normalized. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: dedicated skill evidence was rechecked against the current wiki reference; existing acquisition, cost, scope, and mechanics semantics are preserved, and no unsupported probability or additional gate is inferred.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; maintained PQ154 data records a 40% Ultimate Finish bonus roll, while some numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred. 2026-09-20 verification: current skill page explicitly states PQ154 unlock and Ki Blast Ultimate classification; independent PQ154 acquisition material corroborates the source. 2026-09-20 PQ154 reconciliation: maintained PQ batch 15 explicitly documents a 40% Ultimate Finish bonus roll for this skill; the prior generic Random Parallel Quest label was too broad and has been replaced with the documented PQ154 UF route.",
