@@ -3191,3 +3191,12 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Refreshed the Power Up and Other Evasive research/reconciliation chain through Batch 237.
 - Preserved documented source conflicts and cast/CaC restrictions rather than normalizing ambiguous generic tables.
 - Validation remains **469/469** with **0 duplicate IDs**.
+
+
+## 2026-09-25 — Skill Batch 342 verified-frontier promotion
+- Promoted Neo Wolf Fang Fist, Power Impact, Powered Shell, and Pressure Sign from the live `verified | verified` frontier to enriched research coverage (Neo Wolf Fang Fist synchronized to its already-verified-current-scope audit).
+- Added Batch 342 and three dedicated current-evidence audits; preserved the existing Neo Wolf Fang Fist audit.
+- Corrected Power Impact and Powered Shell stale Strike wording to Ki Blast and expanded bounded current mechanics; expanded Pressure Sign counter mechanics.
+- Repaired a deterministic canonical/index mismatch by removing orphaned index-only Serious Bomb; final live parity is 469 canonical / 469 index / 0 duplicate IDs.
+- Exact reward probabilities and unsupported Ultimate-Finish gates remain unresolved where evidence does not establish them; no numeric drop rates were invented.
+- CI remains unverified.
