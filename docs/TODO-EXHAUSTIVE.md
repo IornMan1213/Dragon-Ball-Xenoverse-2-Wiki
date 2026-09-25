@@ -1,3 +1,15 @@
+### 2026-09-25 cycle completion — Batch 52 PQ78-PQ80 verification
+
+- [x] Promoted **Dust Attack**, **Mighty Explosive Wave**, and **Dimensional Hole** to `verified_current_scope` in `docs/data/skill-research-batches/skill-batch-52.json`.
+- [x] Added current-evidence audits for all three skills under `docs/data/`.
+- [x] Registered all three audits in `docs/data/pq-cross-domain-index.json`.
+- [x] Dust Attack: corroborated as the PQ78 Super Skill; reward RNG/Ultimate-Finish semantics remain unresolved.
+- [x] Mighty Explosive Wave: corroborated as the PQ79 100-Ki Ki Blast Super; distinguished from Jiren (Full Power)'s separate Evasive variant.
+- [x] Dimensional Hole: corroborated as the PQ80 0-Ki Ki Blast counter Super; documented the Basic Ki Blast absorption/portal-return behavior.
+- [x] Validation: parsed Batch 52 and cross-domain index after writes; audit registrations resolve to the newly created files.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Next priority:** continue exhaustive skill research beyond Batch 52, preserving cross-domain PQ ↔ skill links and bounded provenance/reward semantics.
+
 ### 2026-09-25 cycle completion — Ki Explosion current-evidence provenance promotion
 
 - [x] Added `docs/data/skill-ki-explosion-current-evidence-audit-2026-09-25.json`.
