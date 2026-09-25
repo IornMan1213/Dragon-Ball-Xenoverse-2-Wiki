@@ -1,3 +1,13 @@
+### 2026-09-25 cycle completion — 470-record current-scalar census
+- [x] Completed the follow-up current-facing scalar census after the six-consumer 469→470 repair.
+- [x] Searched the live repository for stale 469 scalar patterns across canonical skill, index, acquisition, and endpoint reports.
+- [x] Found **23 files containing 469 references**, all classified as historical/completed-audit material or preserved historical notes; no current projection still asserts 469 as its live baseline.
+- [x] Added `docs/data/current-skill-projection-stale-scalar-scan-2026-09-25.json` documenting the 470 baseline, the six reconciled current consumers, the 23 historical hits, and the validation boundary.
+- [x] Preserved historical 469 snapshots instead of rewriting audit history.
+- [x] No canonical skill identities or relationship edges were changed in this cycle.
+- [x] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** resume source-backed P1 skill provenance enrichment, using the already-prepared 2026-09-25 evidence refresh batches (312–316) where appropriate; do not promote research-only identities into the canonical layer without the repository's canonical-builder/duplicate/parity validation.
+ 
 ### 2026-09-25 cycle completion — current 470-record skill consumer parity repair
 - [x] Continued the deterministic producer/consumer parity queue from the previous Time Skip/Tremor Pulse mentor reconciliation.
 - [x] Audited current-facing skill consumers against the live **470-record** canonical/index baseline, with **239 PQ-linked** skills and **231 non-PQ** skills.
