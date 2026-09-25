@@ -39,7 +39,10 @@
         "No numerical drop probability or first-clear guarantee is inferred.",
         "The older all-Expert-Missions guide's EM17 Spirit Bomb label is preserved as historical source conflict; it is not treated as the current reward identity because multiple direct/current and contemporaneous sources identify Spirit Sword.",
         "No canonical skills.json or skills-index.json reconstruction/promotion was performed; the existing canonical Spirit Sword identity and Strike Ultimate taxonomy are unchanged."
-      ]
+      ],
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25"
     }
   ],
   "validation": {
