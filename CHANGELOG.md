@@ -3069,7 +3069,7 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 
 - Added `docs/data/skill-neo-wolf-fang-fist-p1-provenance-enrichment-2026-09-24.json`.
 - Current Xenoverse 2-specific documentation supports **Strike Super**, **PQ86**, and variable **100–700 Ki** usage for Neo Wolf Fang Fist.
-- Preserved unresolved exact drop probability, frame data, and universal damage measurements; no Ultimate Finish-only gate was inferred. citeturn3search0turn3search1
+- Preserved unresolved exact drop probability, frame data, and universal damage measurements; no Ultimate Finish-only gate was inferred. 
 - CI/runtime remains unavailable; no CI success claimed.
 
 ## 2026-09-24 — Energy Boil evidence-boundary refresh
