@@ -1878,3 +1878,12 @@
 - [x] Canonical promotion was not attempted: all five names already exist in the current 470-record canonical/index layer, but the supported builder/runtime contract is still unavailable and the canonical 469/469 history must not be rewritten speculatively.
 - [ ] CI success remains unverified. The commit workflow-run endpoint exposed no PR-triggered workflow runs for the latest evidence-registration commit; no CI success is claimed.
 - [ ] Exact next batch: perform the next direct-evidence Ki Blast Ultimate refresh across **Angry Explosion, Assault Rain, Brave Heat, Break Cannon, Breaker Energy Wave, Chain Destructo-Disc Barrage, Chaotic Time Impact, and Circle Flash**, preserving existing acquisition/reward conflicts and only promoting fields directly supported by current Xenoverse 2 evidence.
+
+### 2026-09-25 cycle completion — Batch 317 evidence reconciliation
+- [x] Reconciled the eight handoff-carried Ki Blast Ultimate records: **Angry Explosion, Assault Rain, Brave Heat, Break Cannon, Breaker Energy Wave, Chain Destructo-Disc Barrage, Chaotic Time Impact, Circle Flash**.
+- [x] Added `docs/data/skill-batch-317-evidence-reconciliation-2026-09-25.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved current canonical costs/acquisition endpoints and existing reward semantics; retained the documented Breaker Energy Wave and Circle Flash reward conflicts rather than silently normalizing them.
+- [x] Preserved unresolved exact frame data, version-sensitive damage, drop probabilities, and unsupported narrower race/gender/form restrictions.
+- [x] Validation target: 8/8 audit records, JSON parse clean, no canonical promotion or speculative reconstruction.
+- [ ] CI success remains unverified; the available workflow endpoint has not exposed usable checker steps/logs.
+- [ ] Exact next: continue the next deterministic partially verified Ki Blast Ultimate tranche after these eight, selecting records with unresolved fields that current Xenoverse 2 evidence can directly resolve; do not duplicate already-reconciled records.
