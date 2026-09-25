@@ -13,8 +13,8 @@
     "current_expert_mission_catalog": "EM01-20",
     "tutorial_skill_rewards": "none currently indexed",
     "non_tutorial_skill_records": 18,
-    "fully_verified_records": 0,
-    "partially_verified_records": 18,
+    "fully_verified_records": 8,
+    "partially_verified_records": 10,
     "unresolved_exact_drop_rates": 18,
     "cross_linked_records": 18,
     "records_missing_canonical_skill_id": 0
@@ -169,6 +169,7 @@
     "Expand acquisition indexing beyond Expert Missions into Parallel Quests, mentors, shops, raids, tournaments, and other systems."
   ],
   "notes": [
-    "2026-09-24 cross-link reconciliation: promoted the canonical skill_id and Expert Mission endpoint_id from expert-mission-endpoints.json into all 18 maintained acquisition-index records. Exact reward-name matching was required; no new skill identity or acquisition route was inferred."
+    "2026-09-24 cross-link reconciliation: promoted the canonical skill_id and Expert Mission endpoint_id from expert-mission-endpoints.json into all 18 maintained acquisition-index records. Exact reward-name matching was required; no new skill identity or acquisition route was inferred.",
+    "2026-09-25 live coverage correction: eight of 18 current EM03-20 non-tutorial acquisition records now have verified_current_scope status; ten remain partially verified. Exact drop rates remain unresolved for all 18."
   ]
 }
