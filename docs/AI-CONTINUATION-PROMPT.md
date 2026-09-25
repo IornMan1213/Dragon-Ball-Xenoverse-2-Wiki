@@ -538,3 +538,14 @@
 - [x] Validation: 469/469 parity maintained; no relationship identity changes; unsupported probabilities/gates not promoted.
 - [ ] CI remains unverified.
 - [x] **Exact next:** continue the next shortest-evidence M/N/O records after Batch 353, prioritizing stale/low-detail mechanics and acquisition endpoints.
+
+
+### 2026-09-25 cycle completion — Skill Batch 354 low-detail M/O mechanics refresh
+- [x] Completed **Mach Dash, Meteor Strike, and Maiden Burst** current-evidence refresh.
+- [x] Mach Dash: documented 200-Stamina Power Up Evasive behavior, temporary movement-speed increase, and the small duration discrepancy between stat/property text without silently normalizing it.
+- [x] Meteor Strike: documented the two-hit launching/teleporting kick, conditional hard knockdown, and second-hit cancel utility.
+- [x] Maiden Burst: documented 300-Stamina explosive forward Evasive behavior, short-range single-hit knockback, and source-reported 5% damage.
+- [x] Added/registered three audits and Skill Research Batch 354; 469/469 baseline parity maintained and no unsupported probabilities/gates promoted.
+- [x] Corrected the existing Murder Grenade audit's internal audit_id typo so its identifier matches its registered filename.
+- [ ] CI remains unverified.
+- [x] **Exact next:** continue the shortest remaining M/N/O mechanics records, then advance alphabetically once this frontier is exhausted.
