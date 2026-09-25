@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 352,
+  "created": "2026-09-25",
+  "type": "evidence_reconciliation",
+  "scope": "Current Xenoverse 2 mechanics/provenance refresh for Milky Cannon, Neo Tri-Beam, Murder Grenade, and Namek Finger.",
+  "records": [
+    {
+      "name": "Milky Cannon",
+      "id": "skill-milky-cannon",
+      "audit": "docs/data/skill-milky-cannon-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Neo Tri-Beam",
+      "id": "skill-neo-tri-beam",
+      "audit": "docs/data/skill-neo-tri-beam-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Murder Grenade",
+      "id": "skill-murder-grenade",
+      "audit": "docs/data/skill-murder-grenade-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Namek Finger",
+      "id": "skill-namek-finger",
+      "audit": "docs/data/skill-namek-finger-current-evidence-audit-2026-09-25.json"
+    }
+  ],
+  "validation": {
+    "canonical_skill_baseline": 469,
+    "index_skill_baseline": 469,
+    "duplicate_ids": 0,
+    "relationship_changes": 0,
+    "unsupported_drop_rates_promoted": 0,
+    "unsupported_gates_added": 0,
+    "stale_lesson_endpoint_corrected": 1,
+    "source_reported_damage_values_bounded": true
+  },
+  "evidence_boundary": "Batch 352 updates only directly evidenced current behavior. Neo Tri-Beam's acquisition endpoint is corrected from stale Lesson 3 to Lesson 4. Namek Finger retains archived TP Medal Shop provenance despite a current generic Skill Shop label because multiple historical shop records specifically identify the TP Medal Shop; rotation timing is not inferred."
+}
