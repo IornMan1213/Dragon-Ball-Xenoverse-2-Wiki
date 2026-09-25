@@ -80,3 +80,13 @@
 - [x] Registered the audit in `docs/data/pq-cross-domain-index.json`.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] **Exact next:** continue the remaining partially verified/under-enriched skill provenance queue with the next record where current Xenoverse 2-specific evidence can materially promote fields.
+
+
+### 2026-09-25 cycle completion — Atomic Blast current-evidence provenance promotion
+- [x] Selected **Atomic Blast** as the next partially verified Batch 54 skill after Buu Buu Ball.
+- [x] Added `docs/data/skill-atomic-blast-current-evidence-audit-2026-09-25.json` with current Xenoverse 2-specific skill, character/preset, and PQ87 evidence.
+- [x] Promoted Batch 54's Atomic Blast research status to `verified_current_scope`, confirming its 100-Ki Ki Blast Super identity, PQ87 endpoint, and documented charge-state behavior.
+- [x] Preserved unresolved reward-tier/drop semantics; no Ultimate-Finish requirement or probability was inferred.
+- [x] Registered the audit in `docs/data/pq-cross-domain-index.json`.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** continue the remaining partially verified/under-enriched skill provenance queue with the next record where current Xenoverse 2-specific evidence can materially promote fields.
