@@ -64,30 +64,33 @@
     "duplicate_relationship_keys": 0,
     "invalid_pq_numbers": 0
   },
-  "next_action": "Runtime execution of scripts/validate_pq_unified_reverse_index.py remains a separate environment gate. The current API-level exact-pair census is clean at 853 canonical edges / 145 Super Soul edges; historical 854/146 snapshots are preserved explicitly.",
+  "next_action": "Continue exact-pair parity scanning of remaining reverse/navigation projections against the authoritative 853-edge / 145-Super-Soul baseline; preserve explicitly historical 854/146 snapshots.",
   "live_exact_reconciliation": {
+    "date": "2026-09-25",
     "source_of_truth": "docs/data/pq-reward-relationships.json",
+    "projection": "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json",
+    "comparison": "exact target/PQ relationship-pair comparison; equipment is the union of clothing and accessories",
     "canonical_pairs": {
       "skill": 244,
-      "super_soul": 146,
+      "super_soul": 145,
       "equipment": 124,
       "character": 247,
       "dlc": 86,
       "farming": 7,
-      "total": 854
+      "total": 853
     },
     "unified_projection_pairs": {
       "skill": 244,
-      "super_soul": 146,
+      "super_soul": 145,
       "equipment": 124,
       "character": 247,
       "dlc": 86,
       "farming": 7,
-      "total": 854
+      "total": 853
     },
     "equipment_projection_domains": {
-      "clothing": 83,
-      "accessories": 41,
+      "clothing": 84,
+      "accessories": 40,
       "combined": 124
     },
     "mismatches": {
@@ -116,29 +119,11 @@
         "extra": 0
       }
     },
-    "invalid_pq_numbers": 0,
-    "duplicate_relationship_keys": 0,
-    "result": "clean",
     "duplicate_projection_pairs": 0,
-    "unified_canonical_reward_pair_parity": {
-      "canonical_pairs": 520,
-      "unified_pairs": 520,
-      "missing": 0,
-      "extra": 0,
-      "duplicate_pairs": 0
-    },
-    "projection_list_field_contract": {
-      "all_domains_use_lists": true,
-      "invalid_list_fields": 0,
-      "duplicate_projection_pairs": 0
-    },
-    "canonical_projection_parity": {
-      "canonical_pairs": 854,
-      "projection_pairs": 854,
-      "missing": 0,
-      "extra": 0,
-      "duplicate_pairs": 0
-    }
+    "invalid_pq_numbers": 0,
+    "invalid_list_fields": 0,
+    "result": "clean",
+    "interpretation": "The unified reverse index has exact canonical pair parity against the current 853-edge relationship layer. The prior 854/146-era values are preserved only in explicitly historical fields below; no canonical relationship was inferred or created."
   },
   "validator_commit": "df07a0cb046f38a6e5ee5973b82c203ae76a79c9",
   "live_exact_reconciliation_2026_09_23": {
