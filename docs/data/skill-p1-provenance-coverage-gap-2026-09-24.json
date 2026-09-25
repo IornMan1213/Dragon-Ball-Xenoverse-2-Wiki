@@ -28,13 +28,14 @@
     "canonical_index_parity": true,
     "ci": "Unavailable; no CI success claimed."
   },
-  "exact_next": "Select the next unresolved P1 provenance target from the existing research corpus, refresh only evidence-backed fields, register the audit, and preserve canonical/index parity.",
+  "exact_next": "Select the next existing partially verified P1 research target after the PQ87-PQ91 batch; enrich only fields directly supported by current Xenoverse 2 evidence, register the audit, preserve canonical/index parity, and do not manually reconstruct the 469/469 canonical catalogs.",
   "completed_targets": [
     "Savage Strike",
     "Quick Sleep",
     "Pressure Sign",
     "Punisher Shield",
     "Critical Upper",
-    "Dimensional Hole"
+    "Dimensional Hole",
+    "Atomic Blast / Buu Buu Ball / Victory Rush / III Bomber / Final Kamehameha"
   ]
 }
