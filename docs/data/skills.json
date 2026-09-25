@@ -724,27 +724,28 @@
       "subcategory": "Ki Blast",
       "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://dbxv2.fandom.com/wiki/Blaster_Meteor",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill",
+        "https://dbxv2.fandom.com/wiki/Mentors"
       ],
       "unlock_method": "Broly's mentor training — complete the corresponding lesson to receive Blaster Meteor as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Broly mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "300-Stamina Ki Blast Evasive. The user takes a stance and creates a sphere of Ki Blasts around themselves; enemies in range are hit 8 times and launched upward. Current skill evidence reports about 5% total damage for the sequence; this value is retained as source-reported rather than universal.",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Broly mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 provenance verification: dedicated documentation and independent sources confirm Broly mentor training as the acquisition route and identify Blaster Meteor as a Ki Blast Evasive. Existing mentor semantics are preserved.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 provenance verification: dedicated documentation and independent sources confirm Broly mentor training as the acquisition route and identify Blaster Meteor as a Ki Blast Evasive. Existing mentor semantics are preserved.\n2026-09-25 mechanics correction/enrichment: 300-Stamina Ki Blast Evasive. The user takes a stance and creates a sphere of Ki Blasts around themselves; enemies in range are hit 8 times and launched upward. Current skill evidence reports about 5% total damage for the sequence; this value is retained as source-reported rather than universal.",
       "id": "skill-blaster-meteor",
       "source_mentor": [
         "mentor-broly"
       ],
-      "ki_cost": 0
+      "ki_cost": 0,
+      "stamina_cost": 300
     },
     {
       "name": "Blaster Shell",
@@ -752,22 +753,21 @@
       "subcategory": "Ki Blast",
       "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://dbxv2.fandom.com/wiki/Blaster_Shell",
+        "https://dbxv2.fandom.com/wiki/Mentors"
       ],
       "unlock_method": "Broly's mentor training — complete the corresponding lesson to receive Blaster Shell as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Broly mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "100-Ki Ki Blast Super. The user slowly throws five Ki Blasts in alternating hands; repeated input speeds up the throws. The full five-hit sequence produces knockback and current skill evidence reports about 15% total damage. No exact input timing is inferred.",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Broly mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 provenance verification: dedicated documentation confirms Broly mentor training as the acquisition route and identifies Blaster Shell as a 100-Ki Blast Super. Existing mentor semantics are preserved.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 provenance verification: dedicated documentation confirms Broly mentor training as the acquisition route and identifies Blaster Shell as a 100-Ki Blast Super. Existing mentor semantics are preserved.\n2026-09-25 mechanics correction/enrichment: 100-Ki Ki Blast Super. The user slowly throws five Ki Blasts in alternating hands; repeated input speeds up the throws. The full five-hit sequence produces knockback and current skill evidence reports about 15% total damage. No exact input timing is inferred.",
       "id": "skill-blaster-shell",
       "source_mentor": [
         "mentor-broly"
@@ -838,31 +838,33 @@
     },
     {
       "name": "Bloody Counter",
-      "class": "Super",
+      "class": "Evasive",
       "subcategory": "Strike",
       "verification_status": "verified_current_scope",
       "sources": [
+        "https://dbxv2.fandom.com/wiki/Bloody_Counter",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill",
         "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://trucos.com/en/video-game/dragon-ball-xenoverse-2-guide-for-ps4-pc-xbox-one/"
       ],
       "unlock_method": "Zarbon's Lesson 2 — complete the instructor lesson to receive Bloody Counter as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Zarbon mentor training — Lesson 2",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "300-Stamina Strike Evasive. The user launches a rapid kick rush that hits 10 times and launches the opponent on the final hit. Holding/pressing the input can extend the rush by consuming Ki; current skill evidence reports about 10% damage for the base sequence. The move is explicitly categorized as a Strike Evasive, correcting the prior Super classification.",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Zarbon mentor training — Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 0 Ki used. 2026-09-22 provenance verification: current dedicated and independent documentation corroborates the existing mentor/PQ acquisition endpoint and skill identity; no unsupported reward probability or Ultimate Finish requirement is inferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 0 Ki used. 2026-09-22 provenance verification: current dedicated and independent documentation corroborates the existing mentor/PQ acquisition endpoint and skill identity; no unsupported reward probability or Ultimate Finish requirement is inferred.\n2026-09-25 mechanics correction/enrichment: 300-Stamina Strike Evasive. The user launches a rapid kick rush that hits 10 times and launches the opponent on the final hit. Holding/pressing the input can extend the rush by consuming Ki; current skill evidence reports about 10% damage for the base sequence. The move is explicitly categorized as a Strike Evasive, correcting the prior Super classification.",
       "id": "skill-bloody-counter",
       "source_mentor": [
         "mentor-zarbon"
       ],
-      "ki_cost": 0
+      "ki_cost": 0,
+      "stamina_cost": 300
     },
     {
       "name": "Blue Hurricane",
@@ -925,22 +927,22 @@
       "subcategory": "Other",
       "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://dbxv2.fandom.com/wiki/Body_Change",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://dbxv2.fandom.com/wiki/Mentors"
       ],
       "unlock_method": "Captain Ginyu's Lesson 3 — complete the instructor lesson to receive Body Change as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Captain Ginyu mentor training — Lesson 3",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "300-Ki Other Ultimate. The user fires a purple beam that functions as a grab; on a successful hit, the user and target swap bodies, including health, Ki, stamina, Super Soul, and skills, while retaining their original voices. Active transformations are released for both participants during the swap. Current Xenoverse 2-specific documentation states the skill is unavailable in PvE content, while it can be used in team battles; the target receives Body Change in the copied skill set but cannot activate it.",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Captain Ginyu mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used. 2026-09-22 provenance verification: current dedicated and independent documentation corroborates the existing mentor/PQ acquisition endpoint and skill identity; no unsupported reward probability or Ultimate Finish requirement is inferred. 2026-09-23 bounded provenance refresh: existing multi-source evidence was rechecked against the canonical record; no acquisition tier, reward probability, mechanics, cost, restriction, or DLC semantics were changed.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used. 2026-09-22 provenance verification: current dedicated and independent documentation corroborates the existing mentor/PQ acquisition endpoint and skill identity; no unsupported reward probability or Ultimate Finish requirement is inferred. 2026-09-23 bounded provenance refresh: existing multi-source evidence was rechecked against the canonical record; no acquisition tier, reward probability, mechanics, cost, restriction, or DLC semantics were changed.\n2026-09-25 mechanics correction/enrichment: 300-Ki Other Ultimate. The user fires a purple beam that functions as a grab; on a successful hit, the user and target swap bodies, including health, Ki, stamina, Super Soul, and skills, while retaining their original voices. Active transformations are released for both participants during the swap. Current Xenoverse 2-specific documentation states the skill is unavailable in PvE content, while it can be used in team battles; the target receives Body Change in the copied skill set but cannot activate it.",
       "id": "skill-body-change",
       "source_mentor": [
         "mentor-ginyu"
