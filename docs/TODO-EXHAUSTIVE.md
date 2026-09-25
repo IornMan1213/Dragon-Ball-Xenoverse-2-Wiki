@@ -7120,3 +7120,14 @@
 - [x] Research-layer record is now `verified`; canonical/index catalogs remain **469/469** and were not manually reconstructed.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next:** continue with the next existing partially verified research batch after Power Pole where current Xenoverse 2 evidence can resolve substantive missing fields; preserve nulls for unsupported numeric/version-sensitive values and do not promote into canonical catalogs without the supported builder.
+
+
+### 2026-09-24 cycle completion — Justice Rush P1 provenance verification
+- [x] Selected existing partially verified **Justice Rush** (research batch 166) as the next substantive target after Power Pole.
+- [x] Reconfirmed **Super / Strike**, **100 Ki**, CaC usability, and Gohan (Adult) & Videl Lesson 1 mentor acquisition from Xenoverse 2-specific evidence.
+- [x] Confirmed the documented ten-hit short-range barrage, launching final kick, and Ultimate-cancel opportunity before the final kick.
+- [x] Preserved unresolved stamina, exact frame/hitbox, and universal numeric damage fields rather than inferring them.
+- [x] Added `docs/data/skill-justice-rush-p1-provenance-verification-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Research-layer record is now `verified`; canonical/index catalogs remain **469/469** and were not manually reconstructed.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue with the next existing partially verified research batch after Justice Rush where current Xenoverse 2 evidence can resolve substantive missing fields; preserve nulls for unsupported numeric/version-sensitive values and do not promote into canonical catalogs without the supported builder.
