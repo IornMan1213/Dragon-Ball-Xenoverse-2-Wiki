@@ -51,5 +51,23 @@
       ]
     }
   ],
-  "notes": "Removed duplicate Serious Bomb identity already established in batch 307; remaining records are Shocking Death Ball, Teleporting Vanishing Ball, and Super Vanishing Ball."
+  "notes": "Removed duplicate Serious Bomb identity already established in batch 307; remaining records are Shocking Death Ball, Teleporting Vanishing Ball, and Super Vanishing Ball.",
+  "last_verified": "2026-09-24",
+  "verification_audit": {
+    "audit": "docs/data/skill-batch-309-ki-blast-ultimate-evidence-audit-2026-09-24.json",
+    "status": "research_enrichment_complete",
+    "fields_strengthened": [
+      "classification",
+      "ki_cost",
+      "acquisition_endpoint",
+      "character_source",
+      "hit_count",
+      "effect"
+    ],
+    "unresolved_preserved": [
+      "drop_probability",
+      "Ultimate_Finish_requirement",
+      "shop_price_for_Super_Vanishing_Ball"
+    ]
+  }
 }
