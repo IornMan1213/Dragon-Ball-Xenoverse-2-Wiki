@@ -126,7 +126,9 @@
     "skill_batch_362_thin_mentor_mechanics_2026_09_25": "docs/data/skill-research-batches/skill-batch-362.json",
     "skill_batch_362_thin_mentor_mechanics_audit_2026_09_25": "docs/data/skill-batch-362-thin-mentor-mechanics-audit-2026-09-25.json",
     "skill_batch_363_thin_mentor_mechanics_2026_09_25": "docs/data/skill-research-batches/skill-batch-363.json",
-    "skill_batch_363_thin_mentor_mechanics_audit_2026_09_25": "docs/data/skill-batch-363-thin-mentor-mechanics-audit-2026-09-25.json"
+    "skill_batch_363_thin_mentor_mechanics_audit_2026_09_25": "docs/data/skill-batch-363-thin-mentor-mechanics-audit-2026-09-25.json",
+    "skill_batch_364_thin_mechanics_2026_09_25": "docs/data/skill-research-batches/skill-batch-364.json",
+    "skill_batch_364_thin_mechanics_audit_2026_09_25": "docs/data/skill-batch-364-thin-mechanics-audit-2026-09-25.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",
