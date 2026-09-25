@@ -1903,3 +1903,11 @@
 - [x] Confirmed current cost/acquisition boundaries for all three records; Dodon Ray remains a 0-Ki mentor skill.
 - [ ] CI remains unverified.
 - [ ] Exact next: continue with the next alphabetically ordered partially verified Ki Blast records after Dodon Ray, starting from the live catalog and excluding all already-reconciled tranches.
+
+### 2026-09-25 cycle completion — Batch 320 Atomic / Big Bang evidence refresh
+- [x] Refreshed **Atomic Blast, Bending Kamehameha, Big Bang Attack, Big Bang Kamehameha** against current-accessible evidence and existing repository provenance.
+- [x] Updated canonical `last_verified` fields to **2026-09-25** while preserving acquisition/classification boundaries.
+- [x] Added `docs/data/skill-batch-320-atomic-big-bang-evidence-refresh-2026-09-25.json` and registered it in the cross-domain index.
+- [x] Preserved unresolved/historical acquisition conflicts and did not add unsupported reward probabilities, shop rotations, frame data, or version-sensitive damage.
+- [ ] CI remains unverified.
+- [ ] Exact next: continue the live Ki Blast Super catalog after the Batch 320 boundary, starting with the next unreconciled alphabetical records.
