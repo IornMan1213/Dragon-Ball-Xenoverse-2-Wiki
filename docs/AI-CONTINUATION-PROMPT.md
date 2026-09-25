@@ -1022,3 +1022,12 @@
 - [x] Canonical/index boundary remains **469/469**; no unsupported canonical promotion was attempted.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-190**.
+
+### 2026-09-24 cycle completion — Punisher Shield P1 provenance verification
+- [x] Completed **skill-batch-190 — Punisher Shield**.
+- [x] Revalidated **Super / Ki Blast**, 100 Ki, PQ129 acquisition, Extra Pack 4 provenance, Future Warrior usability, and barrier/counter mechanics.
+- [x] Added and registered **docs/data/skill-punisher-shield-p1-provenance-verification-2026-09-24.json**.
+- [x] Preserved unresolved stamina, exact duration/frame/damage data, drop probability, and Ultimate Finish dependency.
+- [x] Canonical/index boundary remains **469/469**; no unsupported canonical promotion was attempted.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-191**.
