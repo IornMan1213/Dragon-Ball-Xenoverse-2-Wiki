@@ -116,7 +116,11 @@
     "skill_core_breaker_current_evidence_audit_2026_09_25": "docs/data/skill-core-breaker-current-evidence-audit-2026-09-25.json",
     "skill_death_ball_current_evidence_audit_2026_09_25": "docs/data/skill-death-ball-current-evidence-audit-2026-09-25.json",
     "skill_destructions_concerto_meteor_current_evidence_audit_2026_09_25": "docs/data/skill-destruction-s-concerto-meteor-current-evidence-audit-2026-09-25.json",
-    "skill_dimension_ray_current_evidence_audit_2026_09_25": "docs/data/skill-dimension-ray-current-evidence-audit-2026-09-25.json"
+    "skill_dimension_ray_current_evidence_audit_2026_09_25": "docs/data/skill-dimension-ray-current-evidence-audit-2026-09-25.json",
+    "skill_gigantic_explosion_current_evidence_audit_2026_09_25": "docs/data/skill-gigantic-explosion-current-evidence-audit-2026-09-25.json",
+    "skill_god_of_destructions_poise_current_evidence_audit_2026_09_25": "docs/data/skill-god-of-destructions-poise-current-evidence-audit-2026-09-25.json",
+    "skill_meteor_strike_current_evidence_audit_2026_09_25": "docs/data/skill-meteor-strike-current-evidence-audit-2026-09-25.json",
+    "skill_namek_finger_current_evidence_audit_2026_09_25": "docs/data/skill-namek-finger-current-evidence-audit-2026-09-25.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",
