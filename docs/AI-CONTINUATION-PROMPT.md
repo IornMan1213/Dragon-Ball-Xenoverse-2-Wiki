@@ -1972,3 +1972,14 @@
 - [ ] CI remains unverified; no successful Actions result is claimed.
 - [x] Commits: parity audit `c6f729087a94df66384894fec283907e74b92533`; registry `40939e68ca3ed0bab1449cb32424f36d202aef9d`.
 - [ ] **Exact next:** continue the partially_verified Ultimate parity sweep outside the EM03–15 projection, comparing remaining historical research batches and catalog projections for **Shocking Death Ball and Spirit Sword**, then move to the next deterministic cross-database invariant if no mismatch is found.
+
+
+### 2026-09-25 cycle completion — Shocking Death Ball / Spirit Sword historical parity audit
+- [x] Live baseline remains **470 skills-index records** with the canonical/index taxonomy parity boundary preserved.
+- [x] Compared **Shocking Death Ball** across the Batch 309 research layer, early Expert Mission acquisition layer, provenance audit, and Ki Blast Ultimate evidence audit: all agree on **Ultimate / Ki Blast**; no taxonomy mismatch found.
+- [x] Compared **Spirit Sword** across the Expert Mission reconciliation, Strike Ultimate catalog, EM16–17 evidence, and canonical promotion manifest: all agree on **Ultimate / Strike**.
+- [x] Preserved the historical EM17 **Spirit Sword / Spirit Bomb** naming conflict; no reward-tier, drop-rate, or guarantee claim was introduced or removed.
+- [x] Added and registered `docs/data/ultimate-em-shocking-death-ball-spirit-sword-parity-audit-2026-09-25.json`.
+- [x] Validation: **2 records checked / 0 class-subcategory mismatches / 0 unsupported taxonomy edits / 0 historical conflicts deleted**.
+- [ ] CI remains unverified; no successful workflow result is exposed.
+- [ ] **Exact next:** continue the next deterministic cross-database invariant after the EM taxonomy sweep, prioritizing a small current producer/consumer or reverse-navigation parity check rather than repeating already-clean skill taxonomy audits.
