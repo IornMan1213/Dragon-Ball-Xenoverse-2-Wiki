@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-neo-tri-beam-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Neo Tri-Beam",
+  "result": "current_evidence_refresh",
+  "supported_fields": {
+    "class": "Ultimate",
+    "subcategory": "Ki Blast",
+    "source_quest_or_shop": "Tien mentor training — Lesson 4",
+    "mechanics": "300-Ki Ultimate: user rises and fires a Tri-Beam for 5% damage; repeated inputs fire additional Tri-Beams at 100 Stamina each, with current documentation listing 100–1400 Stamina.",
+    "ki_cost": 300,
+    "stamina_cost": "100 per repeated shot; current reference lists 100–1400 total"
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Neo_Tri-Beam",
+    "https://dbxv2.fandom.com/wiki/Mentors"
+  ],
+  "limits": [
+    "The 5% per-shot damage figure is source-reported.",
+    "No exact input timing or stamina-regeneration interaction is inferred."
+  ]
+}
