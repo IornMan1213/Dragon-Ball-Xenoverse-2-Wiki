@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-25",
+  "scope": "Current-facing producer/consumer synchronization for skill-domain counts after the live 470-record canonical/index baseline was established.",
+  "source_of_truths": [
+    "docs/data/skills.json",
+    "docs/data/skills-index.json"
+  ],
+  "consumers_checked": [
+    {
+      "file": "docs/data/current-character-equipment-raid-consumer-synchronization-2026-09-24.json",
+      "field": "canonical_skills",
+      "before": 469,
+      "after": 470,
+      "status": "repaired"
+    },
+    {
+      "file": "docs/data/pq-endpoint-navigation-validation.json",
+      "field": "canonical_skill_records",
+      "before": 469,
+      "after": 470,
+      "status": "repaired"
+    }
+  ],
+  "invariant": {
+    "canonical_skill_records": 470,
+    "canonical_index_records": 470,
+    "duplicate_skill_ids": 0,
+    "pq_skill_edges": 244,
+    "pq_unique_skill_targets": 239,
+    "unresolved_pq_skill_targets": 0
+  },
+  "historical_policy": "Only explicitly current/live consumer assertions were refreshed. Dated research artifacts retaining 469-record validation snapshots were not rewritten.",
+  "validation": {
+    "stale_current_skill_count_fields_repaired": 2,
+    "relationship_edges_changed": 0,
+    "skill_id_promotions": 0,
+    "acquisition_relationships_inferred": 0,
+    "status": "pass"
+  },
+  "next_gate": "Continue the remaining current-facing consumer census for stale 469/470 skill counts, then return to the non-PQ reverse/navigation invariant queue."
+}
