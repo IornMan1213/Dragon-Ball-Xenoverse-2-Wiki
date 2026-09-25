@@ -12,7 +12,7 @@
   "live_baseline": {
     "canonical_characters": 152,
     "canonical_skills": 470,
-    "canonical_equipment_accessory_records": 174,
+    "canonical_equipment_accessory_records": 173,
     "canonical_pq_edges": 853,
     "raid_accessory_identity_records": 11,
     "raid_accessory_identity_resolved": 11
@@ -29,7 +29,7 @@
   "checks": {
     "character_current_consumers_use_152": true,
     "skill_current_pq_consumer_uses_470": true,
-    "equipment_current_pq_consumer_uses_174": true,
+    "equipment_current_pq_consumer_uses_173": true,
     "raid_accessory_current_consumers_use_11": true,
     "pq_edge_baseline_unchanged": true,
     "no_new_relationship_edges": true,
