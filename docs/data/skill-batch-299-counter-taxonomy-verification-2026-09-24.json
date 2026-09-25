@@ -1,0 +1,13 @@
+{
+  "audit_id": "skill-batch-299-counter-taxonomy-verification-2026-09-24",
+  "date": "2026-09-24",
+  "batch_id": 299,
+  "result": "Verified that the five records retain documented Super/Evasive canonical classes; Counter remains behavioral metadata. No unsupported canonical promotion or cost inference was made.",
+  "records": [
+    "Shadow Crusher",
+    "Super God Shock Flash",
+    "Time Skip/Back Breaker",
+    "Time Skip/Flash Skewer",
+    "Dragon Burn"
+  ]
+}
