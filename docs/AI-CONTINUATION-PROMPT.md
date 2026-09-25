@@ -496,3 +496,19 @@
 - [x] Canonical/index synchronization completed: **469/469 records, identical ID sets, 0 duplicates**; all four targets now `last_verified: 2026-09-25` and mechanics fields match.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the next under-documented L-series record(s) after Lightning of Absolution, using the same current-evidence audit → batch → cross-domain registration → canonical/index parity workflow.
+
+
+### 2026-09-25 cycle completion — Skill Batch 351 Mach/Maiden mechanics refresh
+- [x] Live census before editing: **469 canonical/index skill records**, **0 duplicate IDs**; no remaining un-enriched canonical skills.
+- [x] Bounded batch: **Mach Dash, Mach Punch, Maiden Blast, Majin Kamehameha**.
+- [x] Added four current-evidence audits under `docs/data/` and Skill Research Batch 351 under `docs/data/skill-research-batches/`.
+- [x] Refreshed the current `skills-index.json` projection for all four records and registered all four audits plus Batch 351.
+- [x] Mach Dash: documented 200-Stamina Power Up Evasive behavior and PQ18 endpoint; exact duration/speed multiplier remain unpromoted.
+- [x] Mach Punch: documented the six-punch + finishing-kick sequence and Ultimate-cancel behavior; source-reported damage remains bounded.
+- [x] Maiden Blast: documented the 300-Ki close-range explosion/concentrated blast, 34-hit and approximately 30% source-reported values; kept distinct from Maiden Burst.
+- [x] Majin Kamehameha: corrected/synchronized its projected class to **Super** and documented 100-Ki, three-stage charge, 5–15-hit and approximately 10–15% source-reported behavior plus Majin CaC restriction.
+- [x] Validation: Batch 351 parses; live index remains **469**; all four targets are `research_status: enriched`; all four have `last_verified: 2026-09-25`; audit/batch registrations resolve.
+- [x] Evidence limits preserved: no unsupported drop rates, hidden gates, exact timers, or frame data added.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Commits: `fe6fa28`, `59081a3`, `6e7974b`, `23b7768`, `d9188580`, `ef86ea8`, `9f40361`.
+- [x] **Exact next:** continue the remaining under-documented enriched-corpus frontier after Majin Kamehameha, starting with the next stale/low-evidence **M/N** records; prefer a 4-record mechanics/provenance batch with direct current Xenoverse 2 evidence, while preserving 469/469 parity.
