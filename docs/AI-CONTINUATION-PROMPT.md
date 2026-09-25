@@ -170,3 +170,13 @@
 - [x] Validation: parsed Batch 52 and the cross-domain index and confirmed the promoted record and audit registration.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** continue Batch 52 with **Counter Burst**, applying the same bounded current-evidence policy.
+
+
+### 2026-09-25 cycle completion — Counter Burst current-evidence audit
+- [x] Revalidated **Counter Burst** in Skill Research Batch 52 as `verified_current_scope`.
+- [x] Confirmed 100 Ki Ki Blast Super classification, Ki-counter shield behavior, stronger returned blast, six-hit counter-projectile documentation, PQ75 acquisition, and Partner Customization context.
+- [x] Preserved unresolved exact stamina expenditure and reward-rate/guarantee semantics rather than inferring them.
+- [x] Confirmed current-evidence audit registration in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation completed against the live Batch 52 record and cross-domain index.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** continue Batch 52 with **Warp Kamehameha**.
