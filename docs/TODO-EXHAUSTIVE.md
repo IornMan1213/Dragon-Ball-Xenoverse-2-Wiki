@@ -8140,3 +8140,13 @@
 - [x] Validation: **470 index records**, changed JSON parsed cleanly, no internal citation artifacts detected, cross-domain index now **152** keys.
 - [ ] CI remains unverified.
 - [ ] **Next:** compare remaining partially_verified Ultimate projections — Assault Rain, Blue Hurricane, Dead End Bullet, Hellzone Grenade — against their current catalog/evidence classifications and correct only confirmed mismatches.
+
+
+### 2026-09-25 — TODO completion update — Batch 311 Ultimate taxonomy parity
+- [x] Audited Assault Rain, Blue Hurricane, Dead End Bullet, Hellzone Grenade against live taxonomy projections.
+- [x] Corrected stale historical Batch 311 Blue Hurricane classification from Ki Blast to Strike; live canonical/index was already correct.
+- [x] Confirmed the other three records require no taxonomy changes.
+- [x] Added/registered docs/data/skill-311-ultimate-taxonomy-parity-audit-2026-09-25.json.
+- [x] Validation: 470 skills-index records, Batch 311 has 5 records, JSON clean, cross-domain index 153 keys.
+- [ ] CI remains unverified.
+- [ ] Next: continue deterministic taxonomy parity checks across remaining partially_verified Ultimate records and their historical research batches.
