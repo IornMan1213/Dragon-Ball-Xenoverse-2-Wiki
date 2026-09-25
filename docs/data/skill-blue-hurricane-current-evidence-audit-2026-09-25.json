@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-blue-hurricane-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Blue Hurricane",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "class": "Ultimate",
+    "subcategory": "Strike",
+    "ki_cost": 300,
+    "source_quest_or_shop": "Expert Mission 15 — Extreme Malice!"
+  },
+  "evidence_summary": "Existing current Xenoverse 2-specific skill evidence and repository Expert Mission endpoint/reward evidence reconcile the canonical classification, current resource cost, and acquisition endpoint.",
+  "limits": [
+    "Exact reward probability remains unresolved.",
+    "No first-clear guarantee is inferred.",
+    "No unsupported Ultimate-Finish-only gate is inferred."
+  ],
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Blue_Hurricane",
+    "docs/data/skill-batch-311-blue-hurricane-assault-rain-evidence-audit-2026-09-24.json"
+  ]
+}
