@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-25",
+  "scope": "Historical/catalog taxonomy parity for Shocking Death Ball and Spirit Sword after the Ultimate Expert Mission parity sweep.",
+  "source_of_truth": {
+    "canonical_index": "docs/data/skills-index.json",
+    "research_batch_shocking": "docs/data/skill-research-batches/skill-batch-309.json",
+    "expert_mission_early": "docs/data/skill-expert-mission-acquisition-early.json",
+    "expert_mission_reconciliation": "docs/data/skill-expert-mission-acquisition-reconciliation.json",
+    "strike_catalog": "docs/data/skill-catalog-batches/strike-ultimates.json"
+  },
+  "records": [
+    {
+      "id": "skill-shocking-death-ball",
+      "name": "Shocking Death Ball",
+      "canonical": {
+        "class": "Ultimate",
+        "subcategory": "Ki Blast",
+        "acquisition_type": "expert_mission",
+        "source_quest_or_shop": "Expert Mission 14 — \"Huge Blasts for Huge Apes!\""
+      },
+      "historical_catalog_checks": [
+        {
+          "file": "docs/data/skill-research-batches/skill-batch-309.json",
+          "result": "match",
+          "class": "Ultimate",
+          "subcategory": "Ki Blast"
+        },
+        {
+          "file": "docs/data/skill-expert-mission-acquisition-early.json",
+          "result": "match",
+          "canonical_class": "Ultimate",
+          "canonical_subcategory": "Ki Blast"
+        },
+        {
+          "file": "docs/data/skill-expert-mission-provenance-audit-2026-09-23.json",
+          "result": "match",
+          "evidence_scope": "EM14 acquisition/provenance"
+        },
+        {
+          "file": "docs/data/skill-batch-309-ki-blast-ultimate-evidence-audit-2026-09-24.json",
+          "result": "match",
+          "evidence_scope": "Ki Blast Ultimate, 300 Ki, EM14, mechanics/provenance"
+        }
+      ],
+      "mismatch_count": 0
+    },
+    {
+      "id": "skill-spirit-sword",
+      "name": "Spirit Sword",
+      "canonical": {
+        "class": "Ultimate",
+        "subcategory": "Strike",
+        "acquisition_type": "expert_mission",
+        "source_quest_or_shop": "Expert Mission 17 — \"In the Realm of the Gods: Goku\""
+      },
+      "historical_catalog_checks": [
+        {
+          "file": "docs/data/skill-expert-mission-acquisition-reconciliation.json",
+          "result": "match",
+          "class": "Ultimate",
+          "subcategory": "Strike"
+        },
+        {
+          "file": "docs/data/skill-catalog-batches/strike-ultimates.json",
+          "result": "match",
+          "catalog": "Strike Ultimates"
+        },
+        {
+          "file": "docs/data/expert-missions-16-17-evidence.json",
+          "result": "match",
+          "skill_type": "Ultimate",
+          "skill_attack_type": "Strike"
+        },
+        {
+          "file": "docs/data/skill-canonical-promotion-manifest.json",
+          "result": "match",
+          "evidence_scope": "Spirit Sword identity and Strike Ultimate classification"
+        }
+      ],
+      "mismatch_count": 0,
+      "naming_conflict_preserved": "Older EM17 material labels the reward as Spirit Bomb; current Spirit Sword identity/classification evidence remains Strike Ultimate. This audit does not resolve or rewrite the historical naming conflict."
+    }
+  ],
+  "validation": {
+    "records_checked": 2,
+    "class_subcategory_mismatches": 0,
+    "unsupported_taxonomy_edits": 0,
+    "acquisition_semantics_changed": 0,
+    "historical_conflicts_deleted": 0,
+    "status": "pass"
+  },
+  "evidence_boundary": "This audit validates taxonomy parity only. It does not establish drop rates, guaranteed rewards, Ultimate Finish requirements, timers, or other gameplay mechanics."
+}
