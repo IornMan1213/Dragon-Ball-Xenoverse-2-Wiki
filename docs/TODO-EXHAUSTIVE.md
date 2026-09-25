@@ -191,5 +191,5 @@
 - [x] Add current-evidence audit for Dimension Ray.
 - [x] Add current-evidence audit for Emperor's Edge.
 - [x] Add current-evidence audit for X100 Big Bang Kamehameha.
-- [ ] Synchronize the three audits into canonical Batch 54 records and register PQ ↔ skill cross-domain links.
+- [x] Synchronize the three audits into canonical Batch 54 records and register PQ ↔ skill cross-domain links.
 
