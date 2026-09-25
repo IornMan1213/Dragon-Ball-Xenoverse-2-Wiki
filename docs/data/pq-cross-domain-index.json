@@ -674,5 +674,6 @@
   "skill_current_consumer_census_2026_09_25": "docs/data/skill-current-consumer-census-2026-09-25.json",
   "non_pq_skill_reverse_navigation_parity_2026_09_25": "docs/data/non-pq-skill-reverse-navigation-parity-2026-09-25.json",
   "non_pq_skill_reverse_navigation_final_reconciliation_2026_09_25": "docs/data/non-pq-skill-reverse-navigation-final-reconciliation-2026-09-25.json",
-  "skill_research_batch_323_expert_mission_ultimate_provenance_2026_09_25": "docs/data/skill-research-batches/skill-batch-323.json"
+  "skill_research_batch_323_expert_mission_ultimate_provenance_2026_09_25": "docs/data/skill-research-batches/skill-batch-323.json",
+  "skill_research_batch_324_expert_mission_ultimate_provenance_2026_09_25": "docs/data/skill-research-batches/skill-batch-324.json"
 }
