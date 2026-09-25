@@ -7664,3 +7664,11 @@
 - [x] Validation remains **469/469 canonical/index**, **0 duplicate IDs**, with no canonical reconstruction.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** recompute the live unfinished research/catalog census after Batch 252 and select the next deterministic evidence-backed consumer; no unsupported Batch 253 identity should be invented.
+### 2026-09-24 — TODO completion update — Frieza Race Skills + Lovely Showtime
+- [x] Closed the Frieza Race Skills count discrepancy: current source and repository catalog both contain exactly **Darkness Rush (Melee)** and **Turn Golden**.
+- [x] Added the dated Frieza Race reconciliation audit and preserved skill-level verification as a separate task from category membership.
+- [x] Reconciled Lovely Showtime's Ki-cost conflict: dedicated skill page = **200 Ki**; aggregate Ultimate Attack table = **300 Ki**. Retained 200 provisionally and documented the source conflict for future direct game-data verification.
+- [x] Added the dated Lovely Showtime cost audit.
+- [x] Validation remains **469/469 canonical/index**, **0 duplicate IDs**; no canonical reconstruction.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** select the next deterministic open high-value enrichment/reconciliation target; do not invent Batch 253.
