@@ -41,7 +41,7 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-25",
-  "latest_research_batch": 333,
+  "latest_research_batch": 334,
   "canonical_catalog_generated": "2026-09-14",
   "canonical_sync_pending": false,
   "current_research_focus": "Skill DLC/PQ provenance and character-only completeness",
@@ -137,7 +137,8 @@
     "2026-09-25: Batch 330 refreshed Energy Boil Evasive/cast-only provenance. Repository attack subcategory and numeric Ki cost remain unresolved.",
     "2026-09-25: Added Skill Research Batch 331 for The Power to Overcome. Current Xenoverse 2-specific evidence strengthens Future Saga Chapter 4 provenance, final-story unlock endpoint, universal CaC Awoken scope, and two-stage resource behavior. Exact HP/Ki rates, cooldown, damage, frames, and hitboxes remain unresolved; no canonical promotion or relationship change was made.",
     "2026-09-25: Added Skill Research Batch 332 for Super Spirit Bomb (EM16), Focus Flash (EM18), Tail Slicer (EM19), and Data Input (EM20). Independent Expert Mission evidence supports the listed Basic Reward endpoints; current skill references additionally support selected Ki costs/duration/mechanics. EM17 Spirit Sword remains a separate source-conflict boundary and was not merged or overwritten.",
-    "2026-09-25: Added Skill Research Batch 333 for Acid. Current accessible Xenoverse 2 evidence strengthens the non-CaC / Saibaman 2 Crystal Raid availability boundary. Numeric Ki cost remains unresolved and was not inferred; no canonical skill identity or relationship changed."
+    "2026-09-25: Added Skill Research Batch 333 for Acid. Current accessible Xenoverse 2 evidence strengthens the non-CaC / Saibaman 2 Crystal Raid availability boundary. Numeric Ki cost remains unresolved and was not inferred; no canonical skill identity or relationship changed.",
+    "2026-09-25: Added Skill Research Batch 334 for Super Destructo-Disc (EM04), Supernova (EM06), Death Meteor (EM07), and Dead End Bullet (EM08). Current skill references support the listed mission endpoints and Ki costs; independent corroboration was added without promoting drop rates or first-clear guarantees."
   ],
   "partially_verified_count": 0,
   "verified_count": 205,
