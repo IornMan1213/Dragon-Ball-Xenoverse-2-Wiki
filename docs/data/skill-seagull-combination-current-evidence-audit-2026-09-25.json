@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-seagull-combination-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Seagull Combination",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Strike",
+    "ki_cost": 100,
+    "source_quest_or_shop": "Parallel Quest 167 — \"Fighting for Family\"",
+    "unlock_method": "Parallel Quest 167 — maintained normal/Basic Reward route",
+    "character_source": "Videl (DB Super)",
+    "mechanics": "Flurry of punches followed by a powerful launching kick; additional Ki can increase the number of punches, and an unblockable spinning-kick option can be added."
+  },
+  "limits": [
+    "Official Dragon Ball material establishes the punch-rush, extra-Ki extension, and unblockable spinning-kick behavior; exact hit count/damage and reward probability remain unresolved.",
+    "Maintained repository reward sources disagree on presentation of the normal-clear slot; no Ultimate-Finish-only gate is inferred."
+  ],
+  "evidence_sources": [
+    "https://en.dragon-ball-official.com/news/01_2573.html",
+    "https://dbxv2.fandom.com/wiki/Seagull_Combination",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ]
+}
