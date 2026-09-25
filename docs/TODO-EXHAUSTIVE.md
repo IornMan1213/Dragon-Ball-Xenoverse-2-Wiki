@@ -7189,3 +7189,16 @@
 - [x] Validation: changed JSON parsed successfully; canonical/index parity remains **469/469**.
 - [ ] CI success remains unverified; no CI success claimed.
 - [ ] **Exact next:** continue the next deterministic research batch after 171, using the existing batch sequence and the same bounded provenance workflow.
+
+
+### 2026-09-24 cycle update — Shining Slash P1 provenance refresh
+- [x] Live canonical census remains **469** skill records; Shining Slash already existed in the canonical/index layer, so no promotion was required.
+- [x] Bounded batch: **skill-research-batches/skill-batch-172.json — Shining Slash**.
+- [x] Refreshed **Super / Strike**, **100 Ki**, **Earthling or Saiyan** CaC restriction, and **PQ38 — Power Teams** acquisition against live canonical data and current/independent Xenoverse 2 evidence.
+- [x] Preserved the canonical reward semantics: PQ38 Basic Reward and **no Ultimate Finish requirement**; no drop probability inferred.
+- [x] Strengthened mechanics evidence for the sword-based charged gap-closing/teleport behavior.
+- [x] Added `docs/data/skill-shining-slash-p1-provenance-verification-2026-09-24.json` and updated batch 172.
+- [x] Preserved evidence limits: exact frame, hitbox, damage, and drop-probability values remain unresolved/version-sensitive.
+- [x] Validation: changed JSON parsed successfully; canonical/index parity remains **469/469**.
+- [ ] CI success remains unverified; no CI success claimed.
+- [ ] **Exact next:** continue **skill-batch-173.json — Cross Arm Dive** using the same bounded provenance workflow, with live canonical evidence checked first.
