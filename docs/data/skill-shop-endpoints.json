@@ -31,7 +31,7 @@
       "id": "shop-tp-stp-medal",
       "type": "tp_stp_medal_shop",
       "name": "TP / STP Medal Shop",
-      "skill_count": 19
+      "skill_count": 20
     }
   ],
   "forward_edges": [
@@ -331,6 +331,15 @@
       "source_quest_or_shop": "TP Medal Shop",
       "last_verified": "2026-09-24",
       "source_count": 2
+    },
+    {
+      "endpoint_id": "shop-tp-stp-medal",
+      "skill_id": "skill-serious-bomb",
+      "skill_name": "Serious Bomb",
+      "acquisition_type": "shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "last_verified": "2026-09-24",
+      "source_count": 2
     }
   ],
   "reverse_index": [
@@ -366,23 +375,24 @@
         "skill-final-explosion",
         "skill-galick-cannon",
         "skill-godly-display",
+        "skill-hyper-movement",
         "skill-impulse-slash",
         "skill-jumping-energy-wave",
         "skill-menacing-flare",
         "skill-namek-finger",
         "skill-secret-poison",
+        "skill-serious-bomb",
         "skill-soaring-fist",
         "skill-sudden-death-beam",
-        "skill-wild-hunt",
-        "skill-hyper-movement"
+        "skill-wild-hunt"
       ]
     }
   ],
   "coverage": {
     "canonical_skill_count": 470,
     "skill_shop_skills": 14,
-    "tp_stp_medal_shop_skills": 19,
-    "total_shop_linked_skills": 33,
+    "tp_stp_medal_shop_skills": 20,
+    "total_shop_linked_skills": 34,
     "duplicate_skill_ids": false,
     "unresolved_skill_ids": []
   },
