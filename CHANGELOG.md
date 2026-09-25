@@ -3207,3 +3207,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Corrected character-source identities for Sauzer Blade (Jeice), Savory Slicer (Android 21), and Scissors Paper Rock (Goku GT) from current dedicated Xenoverse 2 evidence.
 - Added four current-evidence audits plus Skill Research Batch 343 and registered them in the cross-domain index.
 - Final parity: 469 canonical / 469 index / 0 duplicate IDs; CI remains unverified.
+
+
+## 2026-09-25 — Skill Batch 344
+- Promoted Seagull Combination, Shining Slash, Shooting Strike, and Soaring Rush to current verified/enriched coverage.
+- Added four current-evidence audits and Batch 344; registered them in the cross-domain index.
+- Expanded mechanics from current official/independent evidence while preserving reward conflicts and unresolved probabilities.
+- Final parity: 469 canonical / 469 index / 0 duplicate IDs; only three verified|verified records remain.
