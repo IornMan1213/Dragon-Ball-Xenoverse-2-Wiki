@@ -2297,3 +2297,15 @@
 - [x] Canonical relationships and record identities were not modified.
 - [ ] CI/runtime execution remains unavailable; no CI success claimed.
 - [ ] **Exact next:** continue auditing the remaining PQ-facing summary/reference consumers for incomplete six-domain coverage or stale current scalars.
+
+
+### 2026-09-25 cycle completion — PQ summary/reference consumer contract audit
+- [x] Continued the deterministic PQ-facing consumer chain after the explorer/reference/reverse-validator hardening passes.
+- [x] Added `scripts/validate_pq_summary_consumers.py` covering **9** current summary/reference consumers: Guides, Skills Database, Skills Complete Database, Skill Unlock Database, QQ Bangs, Farming Hub, Farming Routes, Equipment Database, and Accessory PQ Database.
+- [x] Added `docs/data/pq-summary-consumer-contract-audit-2026-09-25.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Validated the live canonical baseline: **186 PQ records**, exact PQ number set **1–186**, and **853 relationships = 244 skills / 145 Super Souls / 124 equipment / 247 characters / 86 DLC / 7 farming**.
+- [x] Validated the canonical farming set exactly: **PQ15 / PQ22 / PQ44 / PQ45 / PQ68 / PQ83 / PQ88**.
+- [x] Checked all nine consumers for the repository's acquisition-evidence boundary; all required summary contracts passed, and no superseded **860/862/854** current scalar or **151 Super Soul / 125 equipment** baseline was found in the audited consumers.
+- [x] No canonical relationship, identity, reward condition, or acquisition route was changed.
+- [ ] CI/runtime remains unavailable; no CI success is claimed.
+- [ ] **Exact next:** continue the current PQ-facing producer/consumer census beyond these nine summary/reference pages, prioritizing any remaining registered landing/search consumer or machine-checkable one-way navigation mismatch; if the current consumer chain is clean, resume the next source-backed thin-domain/provenance tranche. Preserve historical baselines and unresolved reward mechanics.
