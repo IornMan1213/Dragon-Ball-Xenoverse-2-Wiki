@@ -2279,3 +2279,12 @@
 - [x] Canonical relationship/identity data was not modified.
 - [ ] CI/runtime execution remains unavailable; no CI success claimed.
 - [ ] **Exact next:** continue auditing remaining PQ-facing validators and summary consumers for incomplete domain coverage or stale endpoint/scalar assumptions.
+
+
+### 2026-09-25 continuation cycle — Skills PQ reverse validator hardening
+- [x] Audited `scripts/validate_skills_pq_reverse_navigation.py` for hidden endpoint-only assumptions.
+- [x] Added explicit current canonical invariants: **244 PQ→skill edges**, PQ IDs constrained to **1–186**, and all canonical skill relationship rows must be well formed.
+- [x] Added `docs/data/skill-pq-reverse-validator-hardening-2026-09-25.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] No canonical relationship or skill identity data changed.
+- [ ] CI/runtime execution remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue auditing remaining PQ-facing validators and summary consumers for stale endpoint/scalar assumptions.
