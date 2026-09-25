@@ -6882,14 +6882,16 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Maiden_Burst",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Maiden_Burst",
+        "https://steamcommunity.com/app/454650/discussions/0/276237094316646624/"
       ],
       "unlock_method": "Parallel Quest 92 — \"Revenge of the Tuffle\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 reward/mechanics refinement: dedicated documentation gives the exact PQ92 title, 300-Stamina Ki Blast Evasive classification, and short-range explosive knockback behavior; maintained PQ reward evidence places it in Basic Reward.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, restriction, DLC/update provenance, and reward-tier semantics against the maintained evidence corpus; no unsupported probabilities, gates, or numerical mechanics were added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
-      "mechanics_notes": "300-Stamina Evasive from PQ92 — Revenge of the Tuffle. Propels the user forward with a Ki explosion for a short-range single-hit blast that knocks nearby opponents away; maintained documentation lists about 5% damage. PQ92 Basic Reward placement is retained, with no Ultimate Finish-only gate inferred.",
+      "notes": "2026-09-25 current-evidence promotion: current Xenoverse 2-specific documentation confirms Maiden Burst as a 300-Stamina Ki Blast Evasive with short-range explosive knockback. PQ92 is corroborated as the acquisition endpoint and maintained reward evidence places the skill in Basic Reward; no hidden Ultimate-Finish gate or probability is inferred.",
+      "mechanics_notes": "300-Stamina Ki Blast Evasive. Propels the user forward with a short-range Ki explosion that deals about 5% damage and knocks nearby opponents away. Current evidence supports Pan and Ribrianne usage; exact reward probability remains unresolved.",
       "source_quest": 92,
       "source_quest_or_shop": "Parallel Quest 92 — \"Revenge of the Tuffle\"",
       "source_parallel_quests": [
