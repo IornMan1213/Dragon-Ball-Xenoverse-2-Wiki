@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-assault-rain-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Assault Rain",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "class": "Ultimate",
+    "subcategory": "Ki Blast",
+    "ki_cost": 300,
+    "source_quest_or_shop": "Expert Mission 9 — The Most Feared Majin"
+  },
+  "evidence_summary": "Current Xenoverse 2-specific skill documentation confirms the skill classification, current Ki cost, and Expert Mission endpoint; independent acquisition/reward evidence corroborates the mission endpoint. The maintained Expert Mission guide lists the skill as a Basic Reward for the corresponding mission.",
+  "limits": [
+    "Exact reward probability remains unresolved.",
+    "No first-clear guarantee is inferred.",
+    "No unsupported Ultimate-Finish-only gate is inferred."
+  ],
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Assault_Rain",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
+  ]
+}
