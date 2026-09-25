@@ -7983,3 +7983,11 @@
 - [x] Added/registered the domain-resolution audit; JSON validation passed.
 - [ ] CI/runtime remains unverified.
 - [ ] **Exact next:** audit the next unresolved late-DLC accessory identities, starting with Golden Frieza Head, Broly Wig (Black Hair, Normal), Dragon Ball Balloon, and Goku (Ultra Supervillain Quelled) Wig.
+
+
+### 2026-09-24 cycle completion — four late-DLC accessory domain resolutions
+- [x] Golden Frieza Head → `equip-107`; Broly Wig (Black Hair, Normal) → `equip-109`; Dragon Ball Balloon → `equip-110`; Goku (Ultra Supervillain Quelled) Wig → `equip-112`.
+- [x] Added/registered audit and validated JSON.
+- [x] No duplicate canonical accessory IDs created; unresolved reward-condition details remain separate.
+- [ ] CI/runtime remains unverified.
+- [ ] **Exact next:** continue the remaining unmatched accessory identities, starting with Android 14's Hat and Bardock (DB Super)'s Scouter.
