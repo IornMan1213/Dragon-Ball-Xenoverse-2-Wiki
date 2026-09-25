@@ -71,3 +71,11 @@
 - [x] Preserved unresolved Ultimate-Finish/drop semantics; no unsupported probability or guarantee was added.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the remaining partially verified/under-enriched skill provenance queue.
+
+
+### 2026-09-25 completion — Atomic Blast current-evidence provenance promotion
+- [x] Added the current-evidence audit for **Atomic Blast** and registered it in the cross-domain index.
+- [x] Promoted Batch 54's research record to `verified_current_scope` for identity, 100-Ki cost, Ki Blast Super classification, PQ87 endpoint, and charge behavior.
+- [x] Preserved unresolved reward-tier/drop semantics; no unsupported requirement or probability was added.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the remaining partially verified/under-enriched skill provenance queue.
