@@ -1,9 +1,8 @@
 [object Object]
-### 2026-09-25 completion — Skill Research Batch 337: Lightning Impact variant boundary
-- [x] Added `docs/data/skill-research-batches/skill-batch-337.json` documenting Lightning Impact's internal variant distinction.
-- [x] Recorded short ID **1100** as the CaC-usable/player variant and short ID **1103** as the CaC-unusable/cast variant.
-- [x] Preserved the existing canonical Lightning Impact identity and PQ142 relationship; no duplicate canonical record was created.
-- [x] Registered Batch 337 and advanced the skill research audit to 337.
-- [x] Kept the cast-variant acquisition and version-sensitive mechanics unresolved rather than inferring them.
+### 2026-09-25 completion — Skill Research Batch 338
+- [x] Added Batch 338 for Lightning of Absolution, Lovely Cyclone, Mach Dash, and Maiden Blast.
+- [x] Refreshed supported class/cost/acquisition/mechanics evidence without changing canonical identities.
+- [x] Preserved unresolved reward probabilities, version-sensitive mechanics, Maiden Blast/Maiden Burst distinction, and Mach Dash's existing endpoint discrepancy.
+- [x] Registered Batch 338 and advanced the research audit.
 - [ ] CI remains unverified.
-- [ ] **Exact next:** continue the next genuinely unresolved current-facing variant/provenance or cross-domain navigation target without duplicating completed work.
+- [ ] **Exact next:** continue the next source-backed provenance/cross-domain gap without duplicating completed work.
