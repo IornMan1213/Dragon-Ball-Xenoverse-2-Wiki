@@ -1290,3 +1290,15 @@
 - [x] Commits: `8b96a13144941239a9c1da0a230b1ceacd669acd`, `9916bfe9dee7a235470ab5f6b230406981a74e62`.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-221**.
+
+
+### 2026-09-24 cycle completion — Batches 221–227 Evasive audit chain
+- [x] Refreshed Batches **221–227** to 2026-09-24 and preserved their evidence-bounded corrections/research.
+- [x] Confirmed Mach Dash as Evasive / Power Up; Formation! as Ribrianne-only Super; Justice Pose as PQ53 Basic Reward; and Fighting Sun as Skill Shop.
+- [x] Refreshed the Strike Evasive chain through Spirit Explosion, Turn Retreat, High Tension Turn, Spirit Slash, Spinning Blade, Psychic Move, Energy Barrier, Buu Buu Ball, Angry Shout, Headshot, Hyper Movement, Time Skip/Tremor Pulse, Brutal Buster, Bloody Counter, Evil Flight Strike, and Evil Whirlwind.
+- [x] Preserved the documented source conflict for Spinning Blade rather than silently choosing one acquisition route, and preserved Evil Flight Strike's distinction between the Super and Piccolo Power Awakening Evasive variant.
+- [x] Preserved Time Skip/Tremor Pulse's evidence-backed Hit Lesson 3 data without prematurely promoting it through the canonical builder.
+- [x] Validation remains **469/469** canonical/index with **0 duplicate IDs** and no speculative canonical promotion.
+- [x] Commits: `1cc8aa049e45750cb4a322c190237bd586ece732`, `db208115738b4d84932055b399f76401495d2236`, `4ffaa4938e4b460b6f7ee6fbc4d81b3d5b428364`, `4d57ed75d2db467ee681cc8c90c3a0e38f834731`, `89080abcd601efed7961c9666e9f05ae429480f2`, `7f11b88e42274e2ae9913dd28dabf8f8ba876971`, `13dc8de31f541be1875a25eca5766cf6cb855b40`.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** inspect current Actions state, then continue the Ki Blast Evasive intake beginning with **Special Beam Blast** and the Batch 227 candidate queue.
