@@ -7,20 +7,13 @@
   "supported_fields": {
     "class": "Evasive",
     "subcategory": "Power Up",
-    "stamina_cost": 200,
-    "source_quest_or_shop": "Parallel Quest 18 — \"Force Entrance Exam\"",
-    "mechanics": "Power Up Evasive that creates distance and temporarily increases movement speed.",
-    "character_source": "Burter; Jeice; Dyspo"
+    "source_quest_or_shop": "Parallel Quest 18 — Force Entrance Exam",
+    "mechanics": "200-Stamina Power Up Evasive; flies over the opponent, retreats to safety, and temporarily increases movement speed; current documentation reports about 11.5–12 seconds and 1.5% speed increase."
   },
   "evidence_sources": [
-    "https://dbxv2.fandom.com/wiki/Mach_Dash",
-    "https://dbxv2.fandom.com/wiki/Evasive_Skill",
-    "https://dragonball.fandom.com/wiki/Mach_Dash",
-    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+    "https://dbxv2.fandom.com/wiki/Mach_Dash"
   ],
   "limits": [
-    "Exact buff duration and movement-speed multiplier are not promoted without current numeric evidence.",
-    "No drop probability or hidden Ultimate Finish gate is inferred.",
-    "Historical PQ11/Xenoverse provenance is retained only as provenance; current XV2 acquisition is PQ18."
+    "Source-reported numerical values are bounded to the cited documentation; no unsupported drop probabilities, hidden gates, frame data, or damage scaling are inferred."
   ]
 }
