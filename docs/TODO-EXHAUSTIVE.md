@@ -7503,3 +7503,10 @@
 - [x] Refreshed verification to **2026-09-24** and registered the batch in the cross-domain index.
 - [x] No unsupported Ultimate Finish condition was inferred.
 - [ ] **Next:** process **skill-batch-206 — Shadow Crusher**.
+
+
+### 2026-09-24 TODO completion — Shadow Crusher
+- [x] Completed **skill-batch-206** and verified the existing acquisition/taxonomy fields.
+- [x] Refreshed verification to **2026-09-24** and registered the audit in the cross-domain index.
+- [x] Preserved null Ultimate Finish handling for the non-PQ mentor route.
+- [ ] **Next:** process **skill-batch-207 — Reverse Mabakusenko**.
