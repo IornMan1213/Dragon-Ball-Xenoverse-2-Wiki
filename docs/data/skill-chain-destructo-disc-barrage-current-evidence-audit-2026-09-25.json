@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-chain-destructo-disc-barrage-current-evidence-2026-09-25",
+  "audit_date": "2026-09-25",
+  "scope": "Chain Destructo-Disc Barrage",
+  "status": "current_evidence_reconciled",
+  "result": "Current Xenoverse 2 evidence confirms a 300-Ki Ki Blast Ultimate obtained from PQ46. It launches five Destructo-Discs in sequence and is documented as unblockable. The exact reward probability and any hidden condition remain unresolved; no Ultimate-Finish requirement is inferred.",
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Chain_Destructo-Disc_Barrage",
+    "https://dragonball.fandom.com/wiki/Chain_Destructo_Disc",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "evidence_boundary": [
+    "No unsupported reward probability, hidden prerequisite, frame data, or version-independent numerical mechanics were inferred."
+  ],
+  "corrections": []
+}
