@@ -1203,3 +1203,11 @@
 - [x] Refreshed batch 205 to **2026-09-24** and registered it in the cross-domain index.
 - [x] No canonical correction or unsupported reward condition was introduced.
 - [ ] **Exact next:** process **skill-batch-206 — Shadow Crusher acquisition and Ultimate Finish field audit**.
+
+
+### 2026-09-24 continuation — Shadow Crusher audit
+- [x] Completed **skill-batch-206 — Shadow Crusher acquisition and Ultimate Finish field audit**.
+- [x] Reverified Super / Strike identity, Ki Blast counter behavior, Cooler (Final Form) Lesson 1 acquisition, and CaC usability.
+- [x] Preserved `ultimate_finish_required: null`; mentor training is not a PQ Ultimate Finish condition.
+- [x] Refreshed verification to **2026-09-24**, added supporting references, and registered batch 206 in the cross-domain index.
+- [ ] **Exact next:** process **skill-batch-207 — Reverse Mabakusenko classification and acquisition audit**.
