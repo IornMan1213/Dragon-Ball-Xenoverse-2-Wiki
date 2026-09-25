@@ -23,9 +23,10 @@
     {
       "skill": "Murder Grenade",
       "expert_mission": 3,
-      "status": "partially_verified",
+      "status": "verified_current_scope",
       "skill_id": "skill-murder-grenade",
-      "endpoint_id": "em-03"
+      "endpoint_id": "em-03",
+      "last_verified": "2026-09-25"
     },
     {
       "skill": "Super Destructo-Disc",
@@ -37,9 +38,10 @@
     {
       "skill": "Death Wave",
       "expert_mission": 5,
-      "status": "partially_verified",
+      "status": "verified_current_scope",
       "skill_id": "skill-death-wave",
-      "endpoint_id": "em-05"
+      "endpoint_id": "em-05",
+      "last_verified": "2026-09-25"
     },
     {
       "skill": "Supernova",
@@ -51,9 +53,10 @@
     {
       "skill": "Death Meteor",
       "expert_mission": 7,
-      "status": "partially_verified",
+      "status": "verified_current_scope",
       "skill_id": "skill-death-meteor",
-      "endpoint_id": "em-07"
+      "endpoint_id": "em-07",
+      "last_verified": "2026-09-25"
     },
     {
       "skill": "Dead End Bullet",
@@ -72,9 +75,10 @@
     {
       "skill": "Hellzone Grenade",
       "expert_mission": 10,
-      "status": "partially_verified",
+      "status": "verified_current_scope",
       "skill_id": "skill-hellzone-grenade",
-      "endpoint_id": "em-10"
+      "endpoint_id": "em-10",
+      "last_verified": "2026-09-25"
     },
     {
       "skill": "Super Electric Strike",
