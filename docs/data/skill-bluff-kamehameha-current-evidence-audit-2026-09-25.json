@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-bluff-kamehameha-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Bluff Kamehameha",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Other",
+    "cost": 100,
+    "source_quest_or_shop": "Parallel Quest 94 — Ultimate Power, Ultimate Saiyan",
+    "mechanics": "100-Ki Other Super; deceptive/fake Kamehameha utility that can manipulate/drain the opponent rather than dealing conventional beam damage."
+  },
+  "limits": [
+    "Exact reward probability remains unresolved.",
+    "No hidden Ultimate-Finish-only gate is inferred where the evidence does not establish one."
+  ],
+  "evidence_summary": "Current Xenoverse 2-specific references confirm 100 Ki, Other Super classification, PQ94 acquisition, and Partner Customization availability for later custom skillsets. The maintained PQ94 reward transcription places Bluff Kamehameha in Basic Reward; no guaranteed drop or hidden Ultimate-Finish requirement is inferred.",
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Bluff_Kamehameha",
+    "https://dragonball.fandom.com/wiki/Bluff_Kamehameha",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ]
+}
