@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 349,
+  "created": "2026-09-25",
+  "type": "evidence_reconciliation",
+  "scope": "Current Xenoverse 2 provenance/mechanics refresh for Kai Kai, Kaioken, Kaioken Kamehameha, and Kairos Cannon.",
+  "verification_policy": "Strengthen existing enriched records using maintained current skill/quest/mentor/update evidence; preserve unresolved reward probability, timing, frame, and version-sensitive mechanics.",
+  "records": [
+    {
+      "name": "Kai Kai",
+      "id": "skill-kai-kai",
+      "verification_status": "verified",
+      "research_status": "enriched",
+      "audit": "docs/data/skill-kai-kai-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Kaioken",
+      "id": "skill-kaioken",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "audit": "docs/data/skill-kaioken-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Kaioken Kamehameha",
+      "id": "skill-kaioken-kamehameha",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "audit": "docs/data/skill-kaioken-kamehameha-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Kairos Cannon",
+      "id": "skill-kairos-cannon",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "audit": "docs/data/skill-kairos-cannon-current-evidence-audit-2026-09-25.json"
+    }
+  ],
+  "validation": {
+    "canonical_promotion": true,
+    "canonical_skill_baseline": 469,
+    "index_skill_baseline": 469,
+    "duplicate_ids": 0,
+    "relationship_changes": 0,
+    "unsupported_drop_rates_promoted": 0,
+    "unsupported_gates_added": 0
+  },
+  "evidence_boundary": "This batch expands current mechanics/provenance documentation without changing skill identities, acquisition endpoints, or unresolved reward semantics."
+}
