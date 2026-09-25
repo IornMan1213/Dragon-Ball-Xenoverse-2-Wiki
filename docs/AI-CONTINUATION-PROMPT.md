@@ -1232,3 +1232,12 @@
 - [ ] CI success remains unverified: latest Repository quality and Clean internal artifacts runs on commit `bf6f8777dda075c9baaa8a927b3b7c9dab32c642` failed with no exposed workflow steps/logs.
 - [x] Commits: `9e05e06d00b5dcedfa4f5451335c8580130dec10`, `86aa1e17058cd2e24f40e17fd6ac00d306e24b30`, `2b9b0d0601c360bf2c88e79f5b9c3cbc267a1be3`.
 - [ ] **Exact next:** inspect the current live Actions state after these writes, then process **skill-batch-210** using the same bounded evidence-first workflow; preserve canonical/index parity and do not infer unsupported mechanics.
+
+
+### 2026-09-24 continuation correction — Batch 208 reconciliation finalized
+- [x] Confirmed **skill-batch-208 — Super Afterimage and God Breaker** was already substantively completed by the dedicated P1 audits; refreshed the batch's live verification metadata to **2026-09-24** rather than duplicating canonical work.
+- [x] Preserved **Super Afterimage = Super / Other / Counter Skills membership without a dedicated subtype** and **God Breaker = Super / Strike / Melee Counter**, with their established acquisition routes.
+- [x] Linked validation to the existing dedicated audits for both skills; canonical/index boundary remains **469/469**, duplicate IDs **0**, and no canonical promotion was performed.
+- [x] This closes the stale Batch 208 handoff state before the Batch 209 correction work.
+- [x] Commit: `767d1fb9747ab8c3746a4bcf51be3c9fb06fed5c`.
+- [ ] **Exact next:** inspect current Actions state, then process **skill-batch-210**.
