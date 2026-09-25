@@ -933,3 +933,13 @@
 - [ ] CI success remains unverified until a completed successful rerun with observable execution is available.
 - [x] Direct validation of the changed Phantom Fist and Evil Ray Strike research/audit files found no forbidden internal citation markers (filecite, memcite, turn10file, turn11file).
 - [ ] **Exact next:** inspect the rerun results; then complete **skill-batch-182 — Gigantic Slam** without promoting into the 469/469 canonical catalogs unless the supported builder/runtime becomes available.
+
+### 2026-09-24 cycle completion — Gigantic Slam P1 provenance verification
+- [x] Completed **skill-research-batches/skill-batch-182.json — Gigantic Slam**.
+- [x] Revalidated **Super / Strike**, **100 Ki**, grab/6-hit behavior, explicit **unavailable for CaC** status, Broly user/preset context, and absence of a Future Warrior unlock route. citeturn0search0
+- [x] Confirmed that Partner Customization is a cast-character customization system and must not be conflated with CaC skill availability. citeturn0search6
+- [x] Added **docs/data/skill-gigantic-slam-p1-provenance-verification-2026-09-24.json** and registered it in **docs/data/pq-cross-domain-index.json**.
+- [x] Preserved evidence limits: stamina cost and exact frame/hitbox/damage values remain unresolved; no unsupported unlock route or Ultimate Finish dependency was inferred.
+- [x] Canonical/index boundary remains **469/469**; no canonical promotion was attempted.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** inspect current Actions reruns, then continue **skill-batch-183** using the same bounded provenance workflow.
