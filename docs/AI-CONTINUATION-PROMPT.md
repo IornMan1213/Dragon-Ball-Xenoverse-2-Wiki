@@ -70,3 +70,13 @@
 - [x] Registered the audit in `docs/data/pq-cross-domain-index.json`; 470/470 canonical/index parity remains unchanged.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] **Exact next:** continue the remaining partially verified/under-enriched skill provenance queue with another record where current Xenoverse 2-specific evidence can materially strengthen fields, while preserving unresolved reward semantics.
+
+
+### 2026-09-25 cycle completion — Buu Buu Ball current-evidence provenance promotion
+- [x] Selected **Buu Buu Ball** as the next partially verified/under-enriched skill after the Requiem of Destruction cycle.
+- [x] Added `docs/data/skill-buu-buu-ball-current-evidence-audit-2026-09-25.json` with current Xenoverse 2 skill evidence, independent PQ88 reward evidence, and historical reward-conflict context.
+- [x] Promoted Batch 54's Buu Buu Ball research status to `verified_current_scope`, confirming Strike Evasive classification, 300 Stamina, Majin CaC restriction, and PQ88 endpoint.
+- [x] Preserved the historical Ultimate-Finish belief as unresolved reward semantics; no drop probability or guarantee was inferred.
+- [x] Registered the audit in `docs/data/pq-cross-domain-index.json`.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** continue the remaining partially verified/under-enriched skill provenance queue with the next record where current Xenoverse 2-specific evidence can materially promote fields.
