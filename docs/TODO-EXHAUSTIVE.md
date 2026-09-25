@@ -7429,3 +7429,11 @@
 - [x] No canonical data was changed in response to the runner/observability failure; append-only historical documentation was preserved.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** complete **skill-batch-198 — Burst Reflection** using direct Xenoverse 2 evidence.
+
+### 2026-09-24 — TODO completion update — Burst Reflection P1 provenance verification
+- [x] Completed **skill-batch-198 — Burst Reflection** with current Xenoverse 2 classification, 100 Ki, Shenron-wish acquisition, Future Warrior availability, Nuova Shenron context, and barrier/beam mechanics.
+- [x] Added and registered the Burst Reflection provenance audit.
+- [x] Preserved the GT Pack 2/older-Xenoverse context distinction and did not import a stale PQ acquisition route.
+- [x] Preserved the 469/469 canonical/index boundary and unresolved numeric/matchup evidence.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** complete **skill-batch-199 — Time Skip/Back Breaker** using direct Xenoverse 2 evidence and the same bounded provenance workflow.
