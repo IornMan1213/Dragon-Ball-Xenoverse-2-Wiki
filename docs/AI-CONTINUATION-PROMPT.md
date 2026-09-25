@@ -256,3 +256,13 @@
 - [x] Synchronized canonical Batch 54 and skills-index records plus cross-domain audit registrations.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** continue the remaining under-enriched canonical skill provenance queue after a fresh live census.
+
+
+### 2026-09-25 cycle completion — Batch 54 full PQ86-PQ100 provenance census
+- [x] Promoted **Absolute Zero** to `verified_current_scope` using current Xenoverse 2-specific evidence and PQ96 Basic Reward corroboration.
+- [x] Normalized all 15 Batch 54 records to explicit `research_status: enriched` while preserving individual verification states and historical provenance.
+- [x] Batch 54 is now fully promoted across PQ86-PQ100; unresolved reward probability/Ultimate-Finish semantics remain bounded.
+- [x] Added and registered the Absolute Zero current-evidence audit.
+- [x] Synchronized canonical Batch 54, skills index, and cross-domain index.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** perform a fresh live census of the remaining repository-wide under-enriched/partially-verified canonical skills and select the next bounded source-backed batch outside the now-closed Batch 54.
