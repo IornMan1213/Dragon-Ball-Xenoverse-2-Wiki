@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 327,
+  "created": "2026-09-25",
+  "type": "evidence_refresh",
+  "scope": "Expert Mission 18-20 Super provenance tranche",
+  "records": [
+    {
+      "name": "Focus Flash",
+      "id": "skill-focus-flash",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "acquisition": "Expert Mission 18 — The Ultimate Evil: Broly",
+      "reward_tier": "Basic Reward",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Focus_Flash",
+        "https://dbxv2.fandom.com/wiki/Expert_Mission",
+        "docs/data/expert-missions-18-20-evidence.json",
+        "docs/data/expert-mission-endpoints.json",
+        "docs/data/skill-acquisition-cross-domain-endpoint-audit-2026-09-23.json",
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-update-and-dlc-pack-2"
+      ],
+      "evidence": "Current repository skill indexing identifies Focus Flash as a 100-Ki Ki Blast Super acquired from Expert Mission 18. The EM18 evidence layer independently identifies Focus Flash as the mission skill reward, while the endpoint audit links skill-focus-flash to expert-mission-18. Official Bandai Namco update provenance is retained for the skill's update-era introduction.",
+      "mechanics": "Current dedicated evidence describes an initial large Ki Blast followed by a rapid smaller-blast volley when the initial sphere connects; it can also be used during Boost Dash.",
+      "limits": [
+        "Exact per-clear reward-generation/drop probability remains unresolved.",
+        "No additional prerequisite or Ultimate Finish-only gate is inferred.",
+        "Exact frame data, stacking behavior, and version-independent damage are not promoted."
+      ]
+    },
+    {
+      "name": "Tail Slicer",
+      "id": "skill-tail-slicer",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "acquisition": "Expert Mission 19 — A Truly Hellish Transformation",
+      "reward_tier": "Basic Reward",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Tail_Slicer",
+        "https://dbxv2.fandom.com/wiki/Expert_Mission",
+        "docs/data/expert-missions-18-20-evidence.json",
+        "docs/data/expert-mission-endpoints.json",
+        "docs/data/skill-acquisition-cross-domain-endpoint-audit-2026-09-23.json",
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-update-and-dlc-pack-2"
+      ],
+      "evidence": "Current repository skill indexing identifies Tail Slicer as a 100-Ki Ki Blast Super acquired from Expert Mission 19. The EM19 evidence layer independently identifies Tail Slicer as the mission skill reward, while the endpoint audit links skill-tail-slicer to expert-mission-19. Official Bandai Namco update provenance is retained for the skill's update-era introduction.",
+      "mechanics": "Current dedicated evidence supports the Ki Blast Super classification and EM19 endpoint; detailed combat mechanics remain intentionally bounded to source-supported claims.",
+      "limits": [
+        "Exact per-clear reward-generation/drop probability remains unresolved.",
+        "No additional prerequisite or Ultimate Finish-only gate is inferred.",
+        "Exact frame data, stacking behavior, and version-independent damage are not promoted."
+      ]
+    },
+    {
+      "name": "Data Input",
+      "id": "skill-data-input",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "ki_cost": 100,
+      "acquisition": "Expert Mission 20 — Harbinger of Doom",
+      "reward_tier": "Basic Reward",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Data_Input",
+        "docs/data/expert-missions-18-20-evidence.json",
+        "docs/data/expert-mission-endpoints.json",
+        "https://dragonball.fandom.com/wiki/Data_Input",
+        "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content"
+      ],
+      "evidence": "Current repository skill indexing identifies Data Input as a 100-Ki Power Up Super acquired from EM20 as a Basic Reward. The EM18-20 evidence layer independently identifies Data Input with EM20 and documents its self-buff behavior. Repository provenance preserves the distinction between the free-update EM20 acquisition and Extra Pack 1's paid DLC content.",
+      "mechanics": "Current dedicated evidence describes approximately 20 seconds of automatic dodging against basic melee attacks while the buff remains active.",
+      "limits": [
+        "Exact per-clear reward-generation/drop probability remains unresolved.",
+        "No Ultimate Finish-only gate is inferred.",
+        "The Android 13 preset association does not change the EM20 acquisition endpoint.",
+        "Exact timing edge cases, invulnerability coverage, frame data, and version-independent damage are not promoted."
+      ]
+    }
+  ],
+  "evidence_boundary": "This batch reconciles the EM18-20 skill endpoints using current Xenoverse 2-specific repository evidence, dedicated skill documentation, endpoint/cross-domain audits, and official update/DLC provenance where applicable. It deliberately does not infer numerical drop rates, hidden reward conditions, frame data, or unsupported acquisition gates. Raid-tagged rewards such as Gigantic Ki Blast and Peeler Storm remain separate from the ordinary skill acquisition endpoints.",
+  "validation": {
+    "records": 3,
+    "canonical_promotion": false,
+    "canonical_reconstruction": false,
+    "canonical_skill_baseline": 470,
+    "index_skill_baseline": 470,
+    "duplicate_ids": 0
+  }
+}
