@@ -440,3 +440,11 @@
 - [x] Preserved evidence boundaries around damage values, reward probabilities, shop rotation, timing, and hidden gates.
 - [ ] CI remains unverified.
 - [x] **Next:** continue the next shortest-evidence M/N/O records, checking stale acquisition/classification endpoints first.
+
+
+### 2026-09-25 completion — Skill Batch 353 next M/O mechanics refresh
+- [x] Completed One-Handed Kamehameha mk.II, Orin Combo, Mighty Explosive Wave, and Masenko evidence refresh.
+- [x] Added/registered Batch 353 and four audit records; maintained 469/469 parity and 0 duplicate IDs.
+- [x] Preserved evidence boundaries around unsupported numerical mechanics, probabilities, and hidden gates.
+- [ ] CI remains unverified.
+- [x] **Next:** continue the next shortest-evidence M/N/O records, prioritizing stale/low-detail mechanics and acquisition endpoints.
