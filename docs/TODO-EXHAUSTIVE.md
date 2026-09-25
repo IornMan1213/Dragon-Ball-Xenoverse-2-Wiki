@@ -1,3 +1,14 @@
+### 2026-09-25 cycle completion — Ki Explosion current-evidence provenance promotion
+
+- [x] Added `docs/data/skill-ki-explosion-current-evidence-audit-2026-09-25.json`.
+- [x] Promoted **Ki Explosion** in Skill Research Batch 52 to `verified_current_scope`.
+- [x] Confirmed current Xenoverse 2-specific 100-Ki Ki Blast Super identity, PQ77 endpoint, short-range explosion, and hold-to-prolong behavior; preserved the historical 200→100 Ki change from Bandai Namco's DLC 2 announcement.
+- [x] Added independent PQ77 acquisition discussion while keeping Ultimate-Finish/guarantee semantics unresolved and avoiding unsupported drop probabilities.
+- [x] Registered the current-evidence audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: parsed Batch 52 and the cross-domain index; confirmed the Ki Explosion record is promoted and the audit registration resolves to the existing file.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** continue Batch 52 with **Dust Attack**, then **Mighty Explosive Wave** and **Dimensional Hole**, using the same bounded current-evidence policy.
+
 [object Object]
 ### 2026-09-25 completion — full skill endpoint parity current-baseline correction
 - [x] Corrected the current full endpoint parity audit from the superseded 469-record union to the verified current **470/470** union.
