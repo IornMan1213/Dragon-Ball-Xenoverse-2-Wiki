@@ -7897,3 +7897,16 @@
 - [x] Web evidence: dedicated Xenoverse 2 references directly expose the relevant costs, classifications, acquisition endpoints, and mechanics. citeturn1search0turn1search1turn1search2turn1search3turn1search8
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** inspect the next deterministic partially verified tranche after Batch 307 and continue promoting/enriching records only where direct Xenoverse 2 evidence adds new coverage; preserve nulls where it does not.
+
+
+### 2026-09-24 cycle completion — Batch 308 cast-exclusive Ultimate evidence boundary
+- [x] Bounded batch: **skill-batch-308 — Lightning Impact, Final Galick Rush, Lovely Showtime, Super Dragon Flight (Ultimate)**.
+- [x] Revalidated current Xenoverse 2 cast-exclusive Ultimate taxonomy and 300-Ki costs from the current Ultimate Attack reference.
+- [x] Revalidated CaC-unavailable variant identities against the maintained Xenoverse 2 Character ID List: Final Galick Rush short ID 1572, Lovely Showtime short ID 1561, and Super Dragon Flight (Ultimate) short ID 2081 are not CaC-usable; Lightning Impact's cast-exclusive variant is distinct from its CaC-usable short ID 1100 entry.
+- [x] Revalidated DLC associations: Lightning Impact → Ultra Pack 2; Final Galick Rush and Lovely Showtime → Ultra Pack 1; Super Dragon Flight (Ultimate) has no explicit DLC requirement asserted.
+- [x] Added `docs/data/skill-batch-308-cast-exclusive-ultimate-evidence-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved unresolved unlock methods and Ultimate Finish semantics where the evidence does not establish a CaC acquisition route; no cast-only variant was converted into a fabricated PQ/shop unlock.
+- [x] Validation: audit JSON and cross-domain index re-parsed successfully; registration points to the live audit file; no canonical skill/index reconstruction or unsupported promotion was performed.
+- [ ] CI: no workflow runs are exposed yet for the latest commit `0316e35e6a260e32d287bd2d00da6100250744ee`; no CI success claimed.
+- [x] Commits: audit `74ed5fce17e54e9077152709160e0ce6f44cfd5c`; cross-domain registration `0316e35e6a260e32d287bd2d00da6100250744ee`.
+- [ ] **Exact next:** inspect the next deterministic partially verified/cast-exclusive skill tranche after Batch 308, prioritizing records whose missing fields can be resolved by direct current Xenoverse 2 evidence; preserve the canonical builder boundary until a supported complete-file write path is available.
