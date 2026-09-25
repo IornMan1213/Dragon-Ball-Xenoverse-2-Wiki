@@ -7947,3 +7947,13 @@
 - [ ] CI: no workflow runs exposed for the latest writes; no CI success claimed.
 - [x] Commits: audit `2d51e88b15617cc2ddcadac16426e96f4e87bd3a`; batch `581deac4d9b668b24a275af143b40d9027a9d695`; registry `31daf8470956f2464ec695b8e1579eeb711a98be`.
 - [ ] **Exact next:** continue **skill-batch-311**, beginning with Blue Hurricane and Assault Rain, and resolve only fields directly supported by current Xenoverse 2 evidence.
+
+
+### 2026-09-24 cycle completion — Batch 311 Blue Hurricane / Assault Rain evidence correction
+- [x] Corrected Batch 311 Blue Hurricane identity to Burter; established 300 Ki and EM15 Basic Reward provenance.
+- [x] Established Assault Rain at 300 Ki with Super Buu provenance and EM9 Basic Reward provenance.
+- [x] Added and registered docs/data/skill-batch-311-blue-hurricane-assault-rain-evidence-audit-2026-09-24.json.
+- [x] Changed JSON parsed successfully; no assistant citation/export artifacts detected in the changed files.
+- [x] Preserved unresolved CaC, drop-rate, frame-data, and version-sensitive damage boundaries; no unsupported canonical promotion.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** continue Batch 311 with Spirit Ball, Death Meteor, and Minus Energy Power Ball using direct Xenoverse 2 evidence.
