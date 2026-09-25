@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-24",
+  "scope": "Skill Research Batch 308 — previously absent cast-exclusive Ultimate variants",
+  "source_of_truth": "docs/data/skill-research-batches/skill-batch-308.json",
+  "records": [
+    {
+      "name": "Lightning Impact",
+      "evidence": [
+        "Current Xenoverse 2 Ultimate Attack documentation lists Lightning Impact with 300 Ki and identifies it as a cast-exclusive Ultimate.",
+        "Current Xenoverse 2 Character ID List identifies Lightning Impact short ID 1100 as CaC-usable and the separate 1103 Lightning Impact variant as not CaC-usable; Batch 308 is scoped to the cast-exclusive variant.",
+        "Current Dragon Ball technique documentation associates Lightning Impact with Ultra Pack 2."
+      ],
+      "resolved_fields": [
+        "class",
+        "subcategory",
+        "ki_cost",
+        "character_source",
+        "dlc_requirement",
+        "usable_by_cac"
+      ],
+      "unresolved_fields": [
+        "ultimate_finish_required",
+        "unlock_method for the cast-exclusive variant",
+        "exact mechanics beyond the documented description"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List",
+        "https://dragonball.fandom.com/wiki/Ultimate_Blast"
+      ]
+    },
+    {
+      "name": "Final Galick Rush",
+      "evidence": [
+        "Current Xenoverse 2 Ultimate Attack documentation lists Final Galick Rush as a cast-exclusive Strike Ultimate used by SSGSS Vegeta (Evolved), with 300 Ki and no CaC acquisition.",
+        "Current Xenoverse 2 Character ID List identifies Final Galick Rush short ID 1572 as not CaC-usable.",
+        "Current Dragon Ball technique documentation associates Final Galick Rush with Ultra Pack 1 and SSGSS Evolved Vegeta."
+      ],
+      "resolved_fields": [
+        "class",
+        "subcategory",
+        "ki_cost",
+        "character_source",
+        "dlc_requirement",
+        "usable_by_cac"
+      ],
+      "unresolved_fields": [
+        "unlock_method",
+        "ultimate_finish_required",
+        "exact mechanics beyond the documented description"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List",
+        "https://dragonball.fandom.com/wiki/Ultimate_Blast"
+      ]
+    },
+    {
+      "name": "Lovely Showtime",
+      "evidence": [
+        "Current Xenoverse 2 Ultimate Attack documentation lists Lovely Showtime as the game's Power-Up Ultimate, used by Ribrianne, with 300 Ki and cast-exclusive status.",
+        "Current Xenoverse 2 Character ID List identifies Lovely Showtime short ID 1561 as not CaC-usable.",
+        "Current Dragon Ball technique documentation associates Lovely Showtime with Ultra Pack 1 and Ribrianne."
+      ],
+      "resolved_fields": [
+        "class",
+        "subcategory",
+        "ki_cost",
+        "character_source",
+        "dlc_requirement",
+        "usable_by_cac"
+      ],
+      "unresolved_fields": [
+        "unlock_method",
+        "ultimate_finish_required",
+        "exact mechanics beyond the documented description"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List",
+        "https://dragonball.fandom.com/wiki/Ultimate_Blast"
+      ]
+    },
+    {
+      "name": "Super Dragon Flight (Ultimate)",
+      "evidence": [
+        "Current Xenoverse 2 Ultimate Attack documentation lists Super Dragon Flight (Ultimate) as a cast-exclusive Strike Ultimate used by Gohan (DBS Super Hero), with 300 Ki.",
+        "The same current documentation provides the unique-animation and uppercut-follow-up behavior, establishing this as a distinct Ultimate variant rather than the normal Super Dragon Flight.",
+        "Current Xenoverse 2 Character ID List identifies the Ultimate variant short ID 2081 as not CaC-usable."
+      ],
+      "resolved_fields": [
+        "class",
+        "subcategory",
+        "ki_cost",
+        "character_source",
+        "usable_by_cac",
+        "effect"
+      ],
+      "unresolved_fields": [
+        "unlock_method",
+        "ultimate_finish_required",
+        "explicit DLC requirement"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List"
+      ]
+    }
+  ],
+  "guardrails": [
+    "Do not infer a CaC acquisition route from a cast-exclusive character's skill listing.",
+    "Do not convert a DLC association into an unlock method or Ultimate Finish requirement.",
+    "Do not merge the cast-exclusive variants with similarly named CaC-usable base skills.",
+    "Do not promote these records into canonical skills.json/skills-index.json until the supported canonical builder/write path is available and the repository's canonical identity contract permits the variant identities."
+  ],
+  "validation": {
+    "batch_source_parse": true,
+    "evidence_source_urls_present": true,
+    "canonical_promotion": false
+  }
+}
