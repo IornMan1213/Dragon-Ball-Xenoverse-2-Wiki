@@ -448,3 +448,11 @@
 - [x] Preserved evidence boundaries around unsupported numerical mechanics, probabilities, and hidden gates.
 - [ ] CI remains unverified.
 - [x] **Next:** continue the next shortest-evidence M/N/O records, prioritizing stale/low-detail mechanics and acquisition endpoints.
+
+
+### 2026-09-25 completion — Skill Batch 354 low-detail M/O mechanics refresh
+- [x] Completed Mach Dash, Meteor Strike, and Maiden Burst mechanics/provenance refresh.
+- [x] Added/registered Batch 354 and three audits; maintained 469/469 parity and 0 duplicate IDs.
+- [x] Corrected the Murder Grenade audit identifier typo.
+- [ ] CI remains unverified.
+- [x] **Next:** continue the shortest remaining M/N/O mechanics records, then advance alphabetically when exhausted.
