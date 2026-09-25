@@ -3166,3 +3166,9 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Refreshed Fighting Pose K provenance/mechanics metadata using the current Xenoverse 2 Skill Shop route.
 - Preserved the documented Power Up classification, 0 Ki cost, and 8-second Super Armor duration.
 - Historical PQ references remain contextual rather than replacing the canonical route.
+
+
+### 2026-09-24 — Batches 219–220 Power Up audit refresh
+- Refreshed Fighting Pose F/G/A/B/C/D/E/H/I and remaining documented Power Up Super audit metadata.
+- Preserved evidence-bounded Ultimate Finish/acquisition fields and current Xenoverse 2 source precedence.
+- Canonical/index baseline remains **469/469** with **0 duplicate IDs**.
