@@ -215,3 +215,14 @@
 - [x] Validation completed against live Batch 52 and cross-domain registration.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** continue Batch 52 with **Ki Explosion**.
+
+### 2026-09-25 cycle continuation — Batch 54 PQ98-PQ100 evidence refresh
+
+- [x] Added current-evidence audits for **Dimension Ray**, **Emperor's Edge**, and **X100 Big Bang Kamehameha**.
+- [x] Dimension Ray audit confirms the current 400-Ki Ki Blast Ultimate identity, PQ98 endpoint, 19-hit long-range barrage, and Basic Reward corroboration; exact drop probability/Ultimate-Finish requirement remain unresolved.
+- [x] Emperor's Edge audit preserves the bounded Ki Blast Super classification, 100-Ki cost, PQ99 endpoint, and Basic Reward corroboration without inventing a more specific subtype.
+- [x] X100 Big Bang Kamehameha audit confirms the 500-Ki Ki Blast Ultimate, PQ100/TP Medal Shop routes, 24-hit beam behavior, and lock-off sweep behavior; exact drop probability/Ultimate-Finish requirement remain unresolved.
+- [x] Web evidence was refreshed against current Xenoverse 2-specific skill pages and independent/archived acquisition evidence.
+- [ ] Canonical Batch 54 promotion fields for these records still need synchronization because the repository write gate blocked direct mutation of the existing batch JSON during this continuation.
+- [ ] **Next priority:** synchronize these three audits into Batch 54 and register their cross-domain links, then continue the remaining Batch 54 records.
+
