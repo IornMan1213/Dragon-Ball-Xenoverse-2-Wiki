@@ -103,3 +103,11 @@
 - [x] Preserved unresolved reward/drop semantics.
 - [ ] CI remains unverified.
 - [x] **Exact next:** continue the remaining under-enriched Batch 52 skill provenance queue.
+
+
+### 2026-09-25 completion — Last Emperor current-evidence provenance promotion
+- [x] Completed and refreshed the Last Emperor current-evidence audit.
+- [x] Promoted Batch 52 Last Emperor to `verified_current_scope` for classification, 0-Ki cost, low-health/single-use mechanics, PQ71 provenance, and bounded beam evidence.
+- [x] Preserved unresolved reward/drop semantics.
+- [ ] CI remains unverified.
+- [x] **Exact next:** continue Batch 52 with Burst Kamehameha.
