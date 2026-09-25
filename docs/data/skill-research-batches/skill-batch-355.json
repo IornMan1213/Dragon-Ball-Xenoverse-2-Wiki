@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 355,
+  "created": "2026-09-25",
+  "type": "evidence_reconciliation",
+  "scope": "Current Xenoverse 2 mechanics/provenance refresh for Psycho Escape, Psycho Barrier, Power Blitz, and Present For You.",
+  "records": [
+    {
+      "name": "Psycho Escape",
+      "id": "skill-psycho-escape",
+      "audit": "docs/data/skill-psycho-escape-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Psycho Barrier",
+      "id": "skill-psycho-barrier",
+      "audit": "docs/data/skill-psycho-barrier-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Power Blitz",
+      "id": "skill-power-blitz",
+      "audit": "docs/data/skill-power-blitz-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Present For You",
+      "id": "skill-present-for-you",
+      "audit": "docs/data/skill-present-for-you-current-evidence-audit-2026-09-25.json"
+    }
+  ],
+  "validation": {
+    "canonical_skill_baseline": 469,
+    "index_skill_baseline": 469,
+    "duplicate_ids": 0,
+    "relationship_changes": 0,
+    "unsupported_drop_rates_promoted": 0,
+    "unsupported_gates_added": 0,
+    "source_reported_values_bounded": true,
+    "source_conflicts_preserved": true
+  }
+}
