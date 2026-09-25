@@ -40,7 +40,7 @@
       "https://dbxv2.fandom.com/wiki/Prince_of_Destruction_Vegeta",
       "https://dbxv2.fandom.com/wiki/SSGSS_Vegeta_%28Evolved%29"
     ],
-    "research_update": "Current-source enrichment completed for Neo Wolf Fang Fist, Maiden Burst, Absolute Zero, and Dimension Ray. Absolute Zero's stale 200-Stamina/Other classification was corrected to 300-Stamina/Ki Blast. Neo Wolf Fang Fist's current 100-700 Ki range was confirmed. Maiden Burst's 300-Stamina Ki Blast Evasive classification was confirmed. Dimension Ray's current 400 Ki cost was confirmed. Drain Field remains deliberately unresolved on resource/reward-slot semantics. Buu Buu Ball was promoted to verified_current_scope after current skill documentation and an independent PQ88 reward transcription confirmed its Strike Evasive identity, 300-Stamina cost, Majin restriction, and Basic Reward endpoint; an older player discussion's Ultimate-Finish belief is retained as historical conflict rather than canonical requirement. Atomic Blast was promoted to verified_current_scope after current Xenoverse 2-specific documentation confirmed its 100-Ki Ki Blast Super identity, PQ87 endpoint, charge-state behavior, and documented use by Prince of Destruction Vegeta and SSGSS Vegeta (Evolved). Historical Basic Reward vs. Ultimate-Finish interpretations remain outside the canonical requirement field. III Bomber was promoted to verified_current_scope after current Xenoverse 2-specific documentation confirmed its 100-Ki Ki Blast Super identity, Majin CaC restriction, PQ90 endpoint, and unblockable explosion/invisibility behavior; reward probability and Ultimate-Finish semantics remain unresolved."
+    "research_update": "Current-source enrichment completed for Neo Wolf Fang Fist, Maiden Burst, Absolute Zero, and Dimension Ray. Absolute Zero's stale 200-Stamina/Other classification was corrected to 300-Stamina/Ki Blast. Neo Wolf Fang Fist's current 100-700 Ki range was confirmed. Maiden Burst's 300-Stamina Ki Blast Evasive classification was confirmed. Dimension Ray's current 400 Ki cost was confirmed. Drain Field remains deliberately unresolved on resource/reward-slot semantics. Buu Buu Ball was promoted to verified_current_scope after current skill documentation and an independent PQ88 reward transcription confirmed its Strike Evasive identity, 300-Stamina cost, Majin restriction, and Basic Reward endpoint; an older player discussion's Ultimate-Finish belief is retained as historical conflict rather than canonical requirement. Atomic Blast was promoted to verified_current_scope after current Xenoverse 2-specific documentation confirmed its 100-Ki Ki Blast Super identity, PQ87 endpoint, charge-state behavior, and documented use by Prince of Destruction Vegeta and SSGSS Vegeta (Evolved). Historical Basic Reward vs. Ultimate-Finish interpretations remain outside the canonical requirement field. III Bomber was promoted to verified_current_scope after current Xenoverse 2-specific documentation confirmed its 100-Ki Ki Blast Super identity, Majin CaC restriction, PQ90 endpoint, and unblockable explosion/invisibility behavior; reward probability and Ultimate-Finish semantics remain unresolved. Final Kamehameha was promoted to verified_current_scope after current skill documentation confirmed its 500-Ki Ki Blast Ultimate identity, 22-hit beam mechanics, and current acquisition routes; independent PQ91 reward evidence places it in Basic Reward, while archived player discussion is retained only as historical Ultimate-Finish/RNG conflict."
   },
   "records": [
     {
@@ -179,14 +179,14 @@
       "source_quest_or_shop": "Parallel Quest 91",
       "ultimate_finish_required": null,
       "skill_description": "Charges a Final Flash and transitions into a Super Kamehameha beam.",
-      "mechanics_notes": "Current Xenoverse 2 skill reference classifies Final Kamehameha as a Ki Blast Ultimate using 500 Ki; the reference documents a 22-hit beam sequence. Current reference also lists Parallel Quest 91 and the TP Medal Shop as acquisition routes. Historical player reports specifically discuss Ultimate-Finish attempts and RNG, while the maintained PQ transcription places Final Kamehameha in the PQ91 Basic Reward list; therefore ultimate_finish_required remains unresolved and no drop probability is asserted.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "Current Xenoverse 2-specific documentation confirms Final Kamehameha as a 500-Ki Ki Blast Ultimate. The user charges a Final Flash, transitions into a Super Kamehameha, and fires a long-range 22-hit beam. Current acquisition documentation lists PQ91, the TP Medal Shop, and Double Crystal Raids. PQ91 reward transcription independently places Final Kamehameha in Basic Reward; archived player discussion reports Ultimate-Finish farming, so ultimate_finish_required remains null and no probability is inferred.",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Kamehameha",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/74502922",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74472688"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74502922",
+        "https://www.youtube.com/watch?v=E-_wVESIgmY"
       ]
     },
     {
