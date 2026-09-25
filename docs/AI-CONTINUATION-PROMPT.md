@@ -2187,3 +2187,16 @@
 - [x] Re-fetched and validated the corrected consumer, correction artifact, and cross-domain registry as JSON.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] **Exact next:** continue scanning current-facing consumers for another one-way mismatch; if the live census remains clean, move to the next source-backed thin-domain enrichment rather than repeating the equipment/accessory baseline audit.
+
+
+### 2026-09-25 cycle completion — Skill research Batch 328: Final Form Demigra cast-only pair
+- [x] Confirmed no existing `skill-batch-328` artifact on the live branch before proceeding.
+- [x] Added `docs/data/skill-research-batches/skill-batch-328.json` for **Boiling Ball** and **Tricky Strike**.
+- [x] Strengthened Xenoverse 2-specific identity evidence: Boiling Ball = skill ID 541, Super / Ki Blast, CaC-unavailable, Final Form Demon God Demigra; Tricky Strike = skill ID 542, Super / Strike, CaC-unavailable, Final Form Demon God Demigra.
+- [x] Corroborated the cast-only boundary with Legend Patrol's **Defend History! Unknown Battle**, independent CaC-unobtainable documentation, and current Xenoverse 2 skill-index evidence; Demigra move descriptions were used only for bounded mechanics context.
+- [x] Preserved unresolved numeric Ki costs, exact frame/hitbox/damage data, variant-selection details, and the absence of a documented Future Warrior acquisition route; no canonical promotion or relationship inference was performed.
+- [x] Registered Batch 328 in `docs/data/pq-cross-domain-index.json` and advanced `docs/data/skill-catalog-audit.json` to **latest_research_batch 328**.
+- [x] Preserved the **470/470** canonical/index boundary; no canonical reconstruction was performed.
+- [x] New research JSON and updated registry/audit were written successfully.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** continue the remaining unresolved cast-only/legacy skill-gap queue with the strongest evidence-backed field opportunities (after the already refreshed Boiling Ball/Tricky Strike pair), while continuing deterministic current-facing consumer parity checks when a genuinely current mismatch is found.
