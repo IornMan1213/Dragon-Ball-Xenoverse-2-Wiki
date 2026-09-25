@@ -76,7 +76,8 @@
     "skill_time_skip_jump_spike_p1_provenance_2026_09_24": "docs/data/skill-time-skip-jump-spike-p1-provenance-verification-2026-09-24.json",
     "skill_batch_296_cost_evidence_2026_09_24": "docs/data/skill-batch-296-cost-evidence-audit-2026-09-24.json",
     "skill_batch_308_cast_exclusive_ultimate_2026_09_24": "docs/data/skill-batch-308-cast-exclusive-ultimate-evidence-audit-2026-09-24.json",
-    "skill_batch_56_appetizing_rush_evidence_audit_2026_09_24": "docs/data/skill-batch-56-appetizing-rush-evidence-audit-2026-09-24.json"
+    "skill_batch_56_appetizing_rush_evidence_audit_2026_09_24": "docs/data/skill-batch-56-appetizing-rush-evidence-audit-2026-09-24.json",
+    "skill_batch_309_ki_blast_ultimate_evidence_audit_2026_09_24": "docs/data/skill-batch-309-ki-blast-ultimate-evidence-audit-2026-09-24.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",
