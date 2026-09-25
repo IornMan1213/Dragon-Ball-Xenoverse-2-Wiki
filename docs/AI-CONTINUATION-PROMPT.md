@@ -1376,3 +1376,12 @@
 - [x] Validation: JSON parsed successfully; canonical/index boundary remains **469/469** with **0 duplicate IDs**.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** continue **skill-batch-252**, reconciling Death Slicer, Ki Blast Cannon, Dodon Ray, Death Slash, Burst Attack, and Kairos Cannon.
+### 2026-09-24 cycle completion — Batch 252 Ki Blast Super reconciliation
+- [x] Completed **skill-batch-252** for **Death Slicer, Ki Blast Cannon, Dodon Ray, Death Slash, Burst Attack, and Kairos Cannon** using current Xenoverse 2-specific evidence plus the repository's existing cross-domain layers.
+- [x] Verified Death Slicer, Ki Blast Cannon, Dodon Ray, Death Slash, and Burst Attack identities/acquisition boundaries without adding unsupported Ultimate-Finish, drop-rate, frame, or damage claims.
+- [x] Corrected the stale **Kairos Cannon** character-only boundary: current evidence establishes Future Warrior/CaC access through **Conton City Tournament Match 2 — "Thinning the Herd"**; the repository already contains the corresponding tournament endpoint.
+- [x] Added `docs/data/skill-batch-252-reconciliation-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Refreshed `docs/data/skill-research-batches/skill-batch-252.json` to **2026-09-24**.
+- [x] Validation baseline remains **469 canonical / 469 index / 0 duplicate IDs**; no canonical reconstruction or speculative promotion was performed.
+- [ ] CI remains unverified; the latest batch commits expose no workflow run through the commit-workflow API.
+- [ ] **Exact next:** recompute the live unfinished research/catalog census after Batch 252, then choose the next deterministic evidence-backed consumer. Do not invent a Batch 253 identity if no live batch file exists; preserve the 469/469 canonical boundary and use current Xenoverse 2 evidence before any canonical promotion.
