@@ -3,7 +3,7 @@
   "created":"2026-09-17",
   "research_scope":"Ultrasonic Blitz — Strike Super / Counter Skill.",
   "verification_audit":{
-    "audited":"2026-09-17",
+    "audited":"2026-09-24",
     "duplicate_check":{"status":"passed","repository_history_search":"No prior repository research commit found.","duplicate_count":0},
     "classification_finding":"The Xenoverse 2 Counter Skill reference classifies Ultrasonic Blitz as a melee counter. The skill is a Strike Super; canonical identity is Super / Strike.",
     "acquisition_finding":"Parallel Quest 151, Even Further Beyond, from the Conton City Vote Pack.",
@@ -30,10 +30,10 @@
     "skill_description":"Dodge the opponent's attacks and counterattack with rapid shockwaves.",
     "mechanics_notes":"Current taxonomy identifies it as a melee counter that activates against Strike skills and basic melee attacks, including grabs. Historical community testing also reports command-grab-like behavior, but that detail is not elevated to authoritative mechanics here.",
     "acquisition_notes":"Dragon Ball Wiki identifies PQ151 as the Future Warrior acquisition route.",
-    "pve_notes":"No unsupported drop probability or Ultimate Finish condition was added.",
+    "pve_notes":"No unsupported drop probability or Ultimate Finish condition was added. 2026-09-24 P1 refresh: current Xenoverse 2 references revalidated the Strike Super identity, 100 Ki cost, Melee Counter taxonomy, PQ151 acquisition, Basic Reward semantics, Conton City Vote Pack context, and Future Warrior availability. Exact counter frames, hitboxes, current damage, stamina cost, and probability remain unresolved."",
     "pvp_notes":"Current frame data, exact counter window, and matchup-specific interactions remain unverified.",
     "verification_status":"verified_core_fields",
-    "last_verified":"2026-09-17",
+    "last_verified":"2026-09-24",
     "sources":[
       "https://dbxv2.fandom.com/wiki/Counter_Skill",
       "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
