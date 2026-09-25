@@ -3160,3 +3160,9 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Heroic Assault remains Super / Strike with PQ156 acquisition and a separately represented conditional melee-counter behavior.
 - Preserved the published 25-item Counter Skills category count while tracking its taxonomy-page discrepancy explicitly.
 - Canonical/index baseline remains **469/469** with **0 duplicate IDs**.
+
+
+### 2026-09-24 — Batch 218 Fighting Pose K audit
+- Refreshed Fighting Pose K provenance/mechanics metadata using the current Xenoverse 2 Skill Shop route.
+- Preserved the documented Power Up classification, 0 Ki cost, and 8-second Super Armor duration.
+- Historical PQ references remain contextual rather than replacing the canonical route.
