@@ -7242,3 +7242,12 @@
 - [x] No repository-content conclusion was drawn from the zero-step failure; Smile Charge canonical promotion remains blocked by the existing builder/runtime boundary.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** batch **176 — Mach Punch**.
+
+
+### 2026-09-24 — TODO completion update — Mach Punch P1 provenance verification
+- [x] Completed **skill-batch-176 — Mach Punch**: identity, 100-Ki Strike classification, PQ19 reward route, Future Warrior availability, partner customization endpoints, and mechanics provenance.
+- [x] Added and registered the Mach Punch provenance audit.
+- [x] Preserved the 469/469 canonical/index boundary; no unsupported promotion was made.
+- [x] Preserved unresolved stamina, exact frame/tracking/hitbox/damage, and Ultimate Finish fields.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** inspect and complete the next deterministic skill research batch after 176.
