@@ -1152,3 +1152,16 @@
 - [x] Canonical/index boundary remains **469/469**; no unsupported canonical promotion.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** inspect current Actions state, then continue the next live research batch after 201.
+
+
+### 2026-09-24 cycle completion — Ultrasonic Blitz P1 provenance verification
+- [x] Live census before editing: canonical/index boundary **469/469**; duplicate-ID baseline remains **0**.
+- [x] Completed the next live research target after batch 201: **skill-batch-202 — Ultrasonic Blitz**.
+- [x] Revalidated Xenoverse 2 **Super / Strike / Counter Skill** identity, **100 Ki**, Goku (Ultra Instinct -Sign-) association, Conton City Vote Pack context, Future Warrior usability, and **PQ151 — Even Further Beyond** acquisition.
+- [x] Revalidated the current Counter Skill taxonomy as **Melee Counter** and preserved the repository's Basic Reward interpretation for PQ151 without inventing a probability or Ultimate Finish gate.
+- [x] Added and registered `docs/data/skill-ultrasonic-blitz-p1-provenance-verification-2026-09-24.json` and refreshed `docs/data/skill-research-batches/skill-batch-202.json`.
+- [x] Preserved unresolved exact counter frames/hitboxes, current damage, stamina cost, and drop probability; no unsupported canonical promotion was made.
+- [x] Web evidence checked: current Xenoverse 2 Ultrasonic Blitz reference, Counter Skill taxonomy, Super Attack taxonomy, DLC reference, plus independent community/video corroboration. citeturn2search0turn2search2turn2search3turn2search1
+- [x] Current Actions state was inspected and the failed Repository quality / Clean internal artifacts jobs were rerun; no workflow success is claimed because the exposed jobs still provide no usable step/log evidence.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** inspect the post-rerun Actions state, then continue with the next live research target after **Ultrasonic Blitz**, preserving the 469/469 boundary and using the same bounded P1 provenance workflow.
