@@ -866,3 +866,17 @@
 - [x] Validation: changed JSON parsed successfully; canonical/index parity remains **469/469**.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** continue the next deterministic research batch after 176 using the same bounded provenance workflow; inspect the next batch file before changing any canonical data.
+
+
+### 2026-09-24 cycle completion — Final Cannon P1 provenance verification
+- [x] Live canonical census remains **469**; Final Cannon was not promoted because the supported builder/runtime boundary remains unavailable.
+- [x] Completed **skill-research-batches/skill-batch-177.json — Final Cannon**.
+- [x] Revalidated Xenoverse 2 **Super / Strike**, **100 Ki**, Future Warrior acquisition, and **PQ52 — Super Saiyan Bargain Sale** reward route.
+- [x] Confirmed PQ52 lists Final Cannon as a **Basic Reward**; no Ultimate Finish dependency was inferred.
+- [x] Reconciled later Partner Customization endpoints for Gotenks, Pan, Future Trunks, Tapion, Kefla (Super Saiyan), and Jiren.
+- [x] Strengthened mechanics: short-range rush, 6-hit/launching characterization, upward kick, and follow-up opportunity.
+- [x] Added `docs/data/skill-final-cannon-p1-provenance-verification-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved evidence limits: stamina, exact frame/tracking/hitbox/damage values remain unresolved; Ultimate Finish remains null.
+- [x] Validation: changed JSON parsed successfully; canonical/index parity remains **469/469**.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** continue **skill-batch-178 — Shadow Crusher** using the same bounded provenance workflow.
