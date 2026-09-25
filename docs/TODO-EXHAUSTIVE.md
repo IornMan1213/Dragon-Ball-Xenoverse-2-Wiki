@@ -7414,3 +7414,11 @@
 - [x] Preserved the 469/469 canonical/index boundary and unresolved evidence fields.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** inspect current Actions state, then complete **skill-batch-191**.
+
+### 2026-09-24 — TODO completion update — Absolute Zero P1 provenance verification
+- [x] Completed **skill-batch-197 — Absolute Zero** with current Xenoverse 2 classification, 300 Stamina, Eis Shenron/GT Pack 2 provenance, PQ96 acquisition, and counter/freeze mechanics evidence.
+- [x] Preserved the Basic Reward vs historical random-acquisition discrepancy instead of inventing an Ultimate Finish gate or drop probability.
+- [x] Added and registered `docs/data/skill-absolute-zero-p1-provenance-verification-2026-09-24.json`.
+- [x] Refreshed `docs/data/skill-research-batches/skill-batch-197.json` and preserved canonical/index parity at **469/469** without unsupported promotion.
+- [ ] CI success remains unverified because current Actions failures expose zero workflow steps/logs.
+- [ ] **Exact next:** complete **skill-batch-198 — Burst Reflection** using direct Xenoverse 2 evidence and the same bounded provenance workflow.
