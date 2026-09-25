@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-meteor-strike-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "scope": [
+    "Meteor Strike"
+  ],
+  "result": "Current Xenoverse 2-specific evidence supports a current-scope verification refresh.",
+  "mechanics": {
+    "classification": "Strike Super",
+    "ki_cost": 100,
+    "acquisition": "Parallel Quest 6 — Saibamen's Revenge",
+    "behavior": "Launching kick sends the opponent forward; the user teleports into the opponent's path for a second kick. The second hit can be canceled into another Super or Stamina Break, and a rear hit near the ground can cause a hard knockdown.",
+    "reward": "Current skill documentation lists PQ6 as the acquisition endpoint; maintained repository reward data lists Meteor Strike as a Basic Reward.",
+    "sources": [
+      "https://dbxv2.fandom.com/wiki/Meteor_Strike",
+      "https://dragonball.fandom.com/wiki/Meteor_Strike",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
+    ]
+  },
+  "limits": {
+    "drop_probability": null,
+    "unsupported_hidden_prerequisites": null
+  },
+  "evidence_boundary": [
+    "Version-sensitive damage/frame data is not promoted unless directly supported.",
+    "No narrower race/gender/form restriction is inferred beyond directly documented scope."
+  ]
+}
