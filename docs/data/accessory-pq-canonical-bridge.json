@@ -192,7 +192,8 @@
       "pq": 104,
       "canonical_id": null,
       "match_status": "researched_unresolved",
-      "note": "PQ104 source evidence identifies Android 14's Clothes, not a separately named Android 14's Hat accessory. Current equipment catalog does not establish an exact canonical inventory item matching this research label."
+      "note": "PQ104 source evidence identifies Android 14's Clothes, not a separately named Android 14's Hat accessory. Current equipment catalog does not establish an exact canonical inventory item matching this research label.",
+      "evidence_audit": "docs/data/accessory-android14-bardock-super-scouter-evidence-audit-2026-09-24.json"
     },
     {
       "pq_record_id": "pqacc-024",
@@ -208,7 +209,8 @@
       "pq": 146,
       "canonical_id": null,
       "match_status": "researched_unresolved",
-      "note": "PQ146 source evidence identifies Bardock (DB Super)'s Clothes, not a separately named Bardock (DB Super)'s Scouter accessory. Current equipment catalog does not establish an exact canonical inventory item matching this research label."
+      "note": "PQ146 source evidence identifies Bardock (DB Super)'s Clothes, not a separately named Bardock (DB Super)'s Scouter accessory. Current equipment catalog does not establish an exact canonical inventory item matching this research label.",
+      "evidence_audit": "docs/data/accessory-android14-bardock-super-scouter-evidence-audit-2026-09-24.json"
     },
     {
       "pq_record_id": "pqacc-026",
