@@ -55,3 +55,11 @@
 - [x] Preserved unresolved PQ71 reward-slot/probability and Ultimate Finish semantics; no unsupported acquisition gate or numeric combat value was added.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the remaining partially verified/under-enriched canonical skill provenance queue with a target where direct current Xenoverse 2 evidence can promote a canonical field.
+
+
+### 2026-09-25 completion — Requiem of Destruction current-evidence provenance refresh
+- [x] Added a bounded current-evidence audit for **Requiem of Destruction** and registered it in the cross-domain index.
+- [x] Refreshed Batch 316 with current 300-Ki Ki Blast Ultimate, PQ106, Super Pack 2, and partner-customization evidence.
+- [x] Preserved the conflicting Basic Reward vs. reported Ultimate-Finish semantics; no unsupported reward gate or drop probability was added.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the remaining partially verified/under-enriched skill provenance queue.
