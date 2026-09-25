@@ -6756,11 +6756,11 @@
       "unlock_method": "Parallel Quest 132 — \"The Ultimate Legendary Super Saiyan\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 132 — \"The Ultimate Legendary Super Saiyan\"",
       "ultimate_finish_required": false,
-      "skill_description": "God Punisher is a Ki Blast Ultimate skill associated with Gogeta (Super Saiyan Blue).",
-      "mechanics_notes": "Dedicated current-version evidence corrects God Punisher to a **400-Ki Ki Blast Ultimate**, not a 100-Ki Super. It is obtained from PQ132 and includes the rush/barrage mechanic; Festival variant behavior is documented separately. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. 2026-09-23 refresh: preserved the corrected 400-Ki Ki Blast Ultimate classification and PQ132 route, including the documented rush/barrage behavior. No narrower CaC restriction is inferred.",
+      "skill_description": "God Punisher is a 400-Ki Ki Blast Ultimate associated with Gogeta (Super Saiyan Blue).",
+      "mechanics_notes": "Dedicated current-version evidence confirms a 400-Ki Ki Blast Ultimate from PQ132. The user rushes forward, throws an opening pair of Ki balls, then follows with a barrage; additional input can release the Ki blast portion during the approach, and being hit during the rush can trigger a teleport behind the opponent. Current documentation also records a Festival variant with a distinct presentation. Exact universal damage values are not promoted beyond source-specific documentation; no narrower CaC restriction is inferred. 2026-09-25 current-evidence refresh: current Xenoverse 2-specific references reconfirm the 400-Ki classification, PQ132 endpoint, rush/barrage behavior, and Festival variant boundary; no unsupported drop probability or hidden gate was added.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/God_Punisher",
@@ -6852,13 +6852,14 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "source_quest_or_shop": "TP Medal Shop",
-      "mechanics_notes": "500+ Ki Strike Ultimate. Rushes the opponent, then spends remaining Ki on the final energy sphere; the final blast scales with leftover Ki. Shop availability is rotation-dependent. 2026-09-23 refresh: current evidence reviewed; documented classification, acquisition, and mechanics were preserved, while unsupported numerical details or narrower CaC restrictions were not inferred.",
+      "mechanics_notes": "Current evidence reconfirms Godly Display as a Strike Ultimate obtained through the TP Medal Shop. The user rushes the opponent, performs a melee sequence, then creates a large energy sphere whose strength depends on remaining Ki; if the sphere is dodged, the user can spend Ki to chase the opponent. Shop availability is rotation-dependent. 2026-09-25 current-evidence refresh: the current Dragon Ball reference and maintained Xenoverse 2 skill evidence agree on the TP Medal Shop route and the rush→energy-sphere sequence; no unsupported rotation schedule, damage scalar, or alternate acquisition route was added.",
       "dlc_requirement": "Free Update 11",
       "acquisition_type": "tp_medal_shop",
       "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the tp medal shop; documented historical listing price 500 tp medals acquisition route. No quest or Ultimate Finish route is inferred. 2026-09-21 provenance correction: current Free Update documentation places Godly Display among the 9 new skills introduced in Free Update 11; the prior `Free Update 12` label was inconsistent with that documented update chronology. 2026-09-22 verification refresh: revalidated the existing acquisition/classification provenance against the repository's maintained evidence corpus; existing conflicts and unresolved mechanics remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "id": "skill-godly-display"
+      "id": "skill-godly-display",
+      "skill_description": "Godly Display is a Strike Ultimate that combines a rush sequence with a remaining-Ki-dependent energy sphere."
     },
     {
       "name": "Gorgeous Shot",
@@ -6958,11 +6959,11 @@
       "unlock_method": "Basic Reward in Parallel Quest 115.",
       "source_quest_or_shop": "Parallel Quest 115 — \"Extreme Battle with Android 13!\"",
       "ultimate_finish_required": false,
-      "skill_description": "Handy Canon is a Super Ki Blast skill associated with Android 13.",
-      "mechanics_notes": "Dedicated current-version evidence confirms Handy Canon as a **100-Ki Ki Blast Super** from PQ115. It fires a cancellable barrage of Ki Blasts. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. Explicit current reward evidence lists this skill in PQ115's Basic Reward set, so the acquisition route does not require an Ultimate Finish. 2026-09-23 refresh: current evidence reviewed; documented classification, acquisition, and mechanics were preserved, while unsupported numerical details or narrower CaC restrictions were not inferred.",
+      "skill_description": "Handy Canon is a 100-Ki Ki Blast Super associated with Android 13.",
+      "mechanics_notes": "Current Xenoverse 2 evidence reconfirms Handy Canon as a 100-Ki Ki Blast Super from PQ115. It fires a rapid barrage of Ki Blasts that can be cancelled with a step, enabling continued movement or follow-up pressure. Current reward evidence places it in PQ115 Basic Reward; no Ultimate Finish-only gate is inferred. 2026-09-25 current-evidence refresh: current skill-specific and independent Dragon Ball references reconfirm the 100-Ki cost, PQ115 endpoint, cancellable barrage behavior, and Android 13 identity; no unsupported drop probability was added.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Handy_Canon",
@@ -7019,11 +7020,11 @@
       "unlock_method": "Parallel Quest 69 — \"God of Destruction and His Master\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 69 — \"God of Destruction and His Master\"",
       "ultimate_finish_required": false,
-      "skill_description": "Headshot is a Strike Evasive skill associated with Beerus.",
-      "mechanics_notes": "Dedicated current-version evidence confirms Headshot as Beerus's Strike Evasive, using 300 Stamina, obtained from PQ69. The previous Frieza (Final Form) association and Ki Blast Super classification were incorrect. Reviewed in the current null-race census; maintained Future Warrior/CaC evidence establishes availability, and no narrower CaC race/gender/form restriction is established. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established. 2026-09-23 refresh: current evidence reviewed; documented classification, acquisition, and mechanics were preserved, while unsupported numerical details or narrower CaC restrictions were not inferred.",
+      "skill_description": "Headshot is a 300-Stamina Strike Evasive associated with Beerus.",
+      "mechanics_notes": "Current Xenoverse 2 evidence reconfirms Headshot as Beerus's 300-Stamina Strike Evasive from PQ69. The user flicks the opponent with a close-range single hit that knocks them away; current skill documentation records about 10% damage. Current reward evidence places Headshot in PQ69 Basic Reward, with no Ultimate Finish-only gate established. 2026-09-25 current-evidence refresh: current skill-specific and independent Dragon Ball references reconfirm Beerus attribution, Strike Evasive classification, 300-Stamina cost, PQ69 endpoint, and knockback behavior; the source-reported 10% damage value is retained as source-specific rather than generalized.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Headshot",
@@ -14036,5 +14037,6 @@
         85
       ]
     }
-  ]
+  ],
+  "last_verified": "2026-09-25"
 }
