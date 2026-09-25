@@ -1,0 +1,30 @@
+{
+  "audit_id": "skill-maiden-burst-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "scope": ["Maiden Burst"],
+  "result": "Current Xenoverse 2-specific evidence supports promotion to verified_current_scope.",
+  "mechanics": {
+    "classification": "Ki Blast Evasive",
+    "stamina_cost": 300,
+    "behavior": "Propels the user forward with a pink Ki explosion, dealing about 5% damage to nearby opponents and knocking them away.",
+    "acquisition": "Parallel Quest 92 — Revenge of the Tuffle"
+  },
+  "acquisition_evidence": {
+    "pq92_reward": "The maintained PQ92 reward transcription lists Maiden Burst as a Basic Reward.",
+    "independent_context": "An early Steam discussion explicitly distinguishes the PQ92 Evasive Maiden Burst from Pan's separately trained Ultimate Maiden Blast."
+  },
+  "source_conflict": {
+    "status": "preserved",
+    "notes": "A separate general Dragon Ball Wiki page contains an inconsistent Xenoverse 2 acquisition-history statement referring to mentor training. It is not used to override the direct PQ92-specific evidence."
+  },
+  "limits": {
+    "drop_probability": null,
+    "ultimate_finish_required": null
+  },
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Maiden_Burst",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+    "https://steamcommunity.com/app/454650/discussions/0/276237094316646624/",
+    "https://dragonball.fandom.com/wiki/Maiden_Burst"
+  ]
+}
