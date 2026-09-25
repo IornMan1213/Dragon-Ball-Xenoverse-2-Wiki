@@ -1404,3 +1404,11 @@
 - [x] Validation remains **469/469 canonical/index**, **0 duplicate IDs**, with no canonical reconstruction.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the next partially verified PQ86-PQ100 enrichment target from Batch 54, prioritizing fields that current Xenoverse 2 evidence can resolve.
+### 2026-09-24 continuation — Drain Field reconciliation
+- [x] Continued Batch 54 and resolved the remaining high-value **Drain Field** evidence boundary.
+- [x] Confirmed PQ95's maintained reward transcription lists **Drain Field** alongside Flash Bomber as a Basic Reward; current community testing identifies it as Super 17's Other-type Super that absorbs incoming Ki-based attacks.
+- [x] Retained the reported zero-Ki-cost behavior as community evidence, while deliberately leaving exact game-data resource/drop-probability semantics unpromoted.
+- [x] Added `docs/data/drain-field-reconciliation-2026-09-24.json` and refreshed `skill-batch-54.json`.
+- [x] Validation remains **469/469 canonical/index**, **0 duplicate IDs**; no canonical reconstruction.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the next partially verified Batch 54 record with direct current evidence; prioritize remaining unresolved technical/acquisition fields.
