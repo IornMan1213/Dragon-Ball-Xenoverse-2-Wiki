@@ -8170,3 +8170,14 @@
 - [x] Validation: **2 records checked / 0 class-subcategory mismatches / 0 unsupported taxonomy edits / 0 historical conflicts deleted**.
 - [ ] CI remains unverified; no successful workflow result is exposed.
 - [ ] **Exact next:** continue the next deterministic cross-database invariant after the EM taxonomy sweep, prioritizing a small current producer/consumer or reverse-navigation parity check rather than repeating already-clean skill taxonomy audits.
+
+
+### 2026-09-25 cycle completion — Current skill consumer 470-record baseline synchronization
+- [x] Found two explicitly current-facing consumers still asserting the superseded **469** skill baseline after the live canonical/index layer advanced to **470**.
+- [x] Repaired `docs/data/current-character-equipment-raid-consumer-synchronization-2026-09-24.json` to use **470** canonical skills and renamed its current boolean to `skill_current_pq_consumer_uses_470`.
+- [x] Refreshed `docs/data/pq-endpoint-navigation-validation.json` current/live skill-record fields to **470** while preserving the unchanged **244 PQ skill edges / 239 unique targets / 0 unresolved targets**.
+- [x] Added and registered `docs/data/skill-current-consumer-470-baseline-synchronization-2026-09-25.json`.
+- [x] Validation: **2 stale current count fields repaired / 0 relationship edges changed / 0 skill IDs promoted / 0 acquisition relationships inferred**.
+- [x] Historical 469-record research artifacts were intentionally preserved rather than rewritten.
+- [ ] CI remains unverified; no successful Actions result is claimed.
+- [ ] **Exact next:** continue the remaining current-facing consumer census for stale **469/470** skill counts, then return to the non-PQ reverse/navigation invariant queue.
