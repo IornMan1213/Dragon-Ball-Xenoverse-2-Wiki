@@ -384,3 +384,18 @@
 - [x] Validation: **264 verified_current_scope/enriched + 190 verified/enriched + 15 verified/verified = 469**. All four canonical/index shared status/date fields match.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** continue the remaining `verified | verified` frontier with **Revenge Death Ball, Revenge Final Flash, Reverse Launcher, Reverse Mabakusenko**.
+
+
+### 2026-09-25 cycle completion — Skill Batch 342 verified-frontier promotion
+- [x] Fresh live census before editing: **469 canonical skills / 469 index records / 0 duplicate canonical IDs / exact ID sets match**.
+- [x] Corrected a live index parity defect discovered during the census: removed orphaned index-only **Serious Bomb**; the canonical layer remains the source of truth at 469 records.
+- [x] Promoted the next four live `verified | verified` frontier records: **Neo Wolf Fang Fist**, **Power Impact**, **Powered Shell**, and **Pressure Sign** to enriched research status.
+- [x] Neo Wolf Fang Fist: synchronized canonical status with its existing 2026-09-25 audit; current evidence supports 100–700 Ki, 9–33-hit continuable Strike Super behavior, and PQ86 acquisition.
+- [x] Power Impact: corrected stale canonical prose from Strike to **Ki Blast**, and added current 5–15-hit charge behavior plus the temporary 1.5% Ultimate Attack power increase for 20 seconds; reward-tier conflict remains bounded.
+- [x] Powered Shell: corrected stale canonical prose from Strike to **Ki Blast**, and added current single-hit, 5%-damage, backward-fire, and up-to-300-Stamina damaged-state behavior.
+- [x] Pressure Sign: added current universal-counter mechanics and preserved the Skill Shop endpoint without promoting the community-reported Distorted Time Egg timing claim to a deterministic gate.
+- [x] Added/registerd Batch 342 and three new dedicated current-evidence audits; existing Neo Wolf Fang Fist audit was retained and cross-registered.
+- [x] Validation after editing: **469/469 canonical/index parity, 0 duplicate IDs, 4 target records enriched, 11 `verified | verified` records remain**; cross-domain registrations resolve for Batch 342 and all four target audits.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Commits: audit files/batch/canonical/index/cross-domain writes completed; final index-parity repair commit **055508d38363e7a3bdd95d0416ce711581fa5993**.
+- [x] **Exact next:** continue the remaining `verified | verified` frontier with **Recoome Kick, Sauzer Blade, Savory Slicer, and Scissors Paper Rock** using a fresh current-evidence census; do not rely on the older stale TODO ordering that still names already-enriched records.
