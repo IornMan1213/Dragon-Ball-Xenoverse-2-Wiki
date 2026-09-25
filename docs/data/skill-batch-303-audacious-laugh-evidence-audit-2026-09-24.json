@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "audit_id": "skill-batch-303-audacious-laugh-evidence-audit-2026-09-24",
+  "date": "2026-09-24",
+  "scope": [
+    "Audacious Laugh"
+  ],
+  "resolution": {
+    "name": "Audacious Laugh",
+    "class": "Super",
+    "subcategory": "Other",
+    "ki_cost": 100,
+    "usable_by_cac": true,
+    "character_source": [
+      "Zarbon",
+      "Future Warrior"
+    ],
+    "unlock_method": "Zarbon's Initiation Test",
+    "effect": "Non-damaging taunt that slows the locked-on opponent's movement.",
+    "dlc_requirement": null,
+    "ultimate_finish_required": false
+  },
+  "evidence": [
+    "Current Xenoverse 2-specific skill documentation lists Audacious Laugh as an Other Super, states a 100 Ki requirement, and describes it as non-damaging with a movement-speed slowdown.",
+    "Current mentor documentation lists Zarbon's reward sequence with Audacious Laugh as the initiation reward, followed by Gorgeous Shot, Bloody Counter, and Elegant Blaster.",
+    "Independent Dragon Ball Wiki documentation identifies Zarbon and the Future Warrior as users and states that the Future Warrior learns the technique by completing Zarbon's initiation test."
+  ],
+  "limits": [
+    "No DLC dependency was introduced because the reviewed mentor acquisition evidence does not identify one.",
+    "No Ultimate Finish requirement was introduced because Audacious Laugh is the basic initiation-test reward rather than a PQ Ultimate-Finish reward."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Audacious_Laugh",
+    "https://dragonball.fandom.com/wiki/Audacious_Laugh",
+    "https://dbxv2.fandom.com/wiki/Mentors",
+    "https://www.gamersheroes.com/game-guides/dragon-ball-xenoverse-2-instructor-guide/",
+    "https://www.youtube.com/watch?v=_uNi4Mzj6OE"
+  ]
+}
