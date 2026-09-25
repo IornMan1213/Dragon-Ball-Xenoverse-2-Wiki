@@ -712,5 +712,6 @@
   "pq_accessory_producer_consumer_parity_correction_2026_09_25": "docs/data/pq-accessory-producer-consumer-parity-correction-2026-09-25.json",
   "pq_endpoint_navigation_equipment_baseline_correction_2026_09_25": "docs/data/pq-endpoint-navigation-equipment-baseline-correction-2026-09-25.json",
   "super_soul_034_current_community_evidence_audit_2026_09_25": "docs/data/super-soul-034-current-community-evidence-audit-2026-09-25.json",
-  "skill_research_batch_339_current_pq_and_awoken_reconciliation_2026_09_25": "docs/data/skill-research-batches/skill-batch-339.json"
+  "skill_research_batch_339_current_pq_and_awoken_reconciliation_2026_09_25": "docs/data/skill-research-batches/skill-batch-339.json",
+  "skill_research_batch_340_em9_em15_provenance_2026_09_25": "docs/data/skill-research-batches/skill-batch-340.json"
 }
