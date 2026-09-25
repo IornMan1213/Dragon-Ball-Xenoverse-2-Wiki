@@ -7152,3 +7152,15 @@
 - [x] Preserved unresolved stamina, exact frame/hitbox, and universal damage values; no unsupported numeric promotion was made.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next:** continue batch **169 — Android Kick**, then batch 170 — Dynamite Kick, using direct Xenoverse 2 evidence and preserving unresolved/version-sensitive fields.
+
+
+### 2026-09-24 cycle update — Android Kick P1 provenance verification
+- [x] Live canonical census before editing: **469** skill records; Android Kick is not currently present in `docs/data/skills-index.json`, so no unsupported canonical promotion was attempted.
+- [x] Bounded batch: **skill-research-batches/skill-batch-169.json — Android Kick**.
+- [x] Revalidated Xenoverse 2 **Super / Strike**, **100 Ki**, CaC usability, **Skill Shop** acquisition, and Mira/custom-partner ownership context using current Xenoverse 2-specific evidence.
+- [x] Strengthened mechanics evidence: high somersault, optional second-input diving kick, and back-input backflip behavior.
+- [x] Added `docs/data/skill-android-kick-p1-provenance-verification-2026-09-24.json` and updated batch 169.
+- [x] Evidence limits preserved: stamina, exact frame/hitbox data, universal damage, and any separate Ki cost for the second input remain unresolved/version-sensitive.
+- [x] Validation: JSON records parse; canonical count remains **469**; no canonical promotion was attempted because the supported builder/runtime remains unavailable.
+- [ ] CI success remains unverified; no CI success claimed.
+- [ ] **Exact next:** continue **skill-research-batches/skill-batch-170.json — Dynamite Kick**, using the same bounded P1 provenance workflow; then proceed to the next deterministic research batch.
