@@ -1724,3 +1724,17 @@
 - [ ] CI/runtime remains unverified.
 - [x] Commits: `7c8e842a60d1b24158f6733b6b452749b30ca1b0`, `20d41bc23a923ddecdac171cd3ff55680e5be253`, `d209c0641167de9c701d00392fbaf26a770cd448`.
 - [ ] **Exact next:** continue the residual accessory queue with the next unresolved exact-name candidate, prioritizing Golden Frieza Head / Broly Wig / Dragon Ball Balloon / Goku (Ultra Supervillain Quelled) Wig and checking current canonical equipment identities before creating anything new.
+
+
+### 2026-09-24 cycle completion — four late-DLC accessory domain resolutions
+- [x] Resolved `pqacc-038` Golden Frieza Head → `equip-107`, PQ182.
+- [x] Resolved `pqacc-039` Broly Wig (Black Hair, Normal) → `equip-109`, PQ183.
+- [x] Resolved `pqacc-040` Dragon Ball Balloon → `equip-110`, PQ184.
+- [x] Resolved `pqacc-041` Goku (Ultra Supervillain Quelled) Wig → `equip-112`, PQ185.
+- [x] Added and registered `docs/data/late-dlc-accessory-domain-resolution-audit-2026-09-24.json`.
+- [x] Validation: affected ledger, audit, and cross-domain registry all parse successfully.
+- [x] Preserved canonical namespace integrity; no duplicate `acc-###` identities were created.
+- [x] Kept Dragon Ball Balloon's separate reported 50% Ultimate Finish evidence out of canonical identity/acquisition semantics.
+- [ ] CI/runtime remains unverified.
+- [x] Commits: `63460a5dec9bf7a1ed08077eff2e98c19411b660`, `6ead78edc6d293f604a9f1444f28c9643bcea3fd`, `d0418abddec897f85fe5510f204eb7084945e2ea`.
+- [ ] **Exact next:** continue the residual accessory queue with the remaining unmatched identities; prioritize Android 14's Hat, Bardock (DB Super)'s Scouter, and any remaining records lacking a canonical inventory identity.
