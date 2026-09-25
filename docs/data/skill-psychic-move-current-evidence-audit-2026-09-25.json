@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-25",
+  "scope": "Psychic Move current Xenoverse 2 provenance/mechanics refresh",
+  "evidence_policy": "Direct current Xenoverse 2-specific skill evidence is used for identity, classification, cost, and documented behavior; independent player evidence is used only to corroborate unresolved reward randomness. No unsupported drop probability or Ultimate-Finish-only requirement is inferred.",
+  "records": [
+    {
+      "name": "Psychic Move",
+      "canonical_endpoint": "Parallel Quest 73 — Frieza's Siege Against Earth!",
+      "verified_fields": [
+        "Evasive classification",
+        "Strike classification",
+        "300 Stamina cost",
+        "CaC usability",
+        "PQ73 acquisition endpoint",
+        "teleport-behind behavior",
+        "short-range shockwave",
+        "knockback",
+        "approximately 5% damage"
+      ],
+      "unresolved_fields": [
+        "ultimate_finish_required",
+        "numeric drop probability"
+      ],
+      "current_sources": [
+        "https://dbxv2.fandom.com/wiki/Psychic_Move",
+        "https://gamefaqs.gamespot.com/xboxone/204216-dragon-ball-xenoverse-2/answers/616970-how-to-get-psychic-move",
+        "https://www.reddit.com/r/dbxv/comments/cglr5j/do_i_have_to_get_an_ultimate_finish_in_order_to_obtain_the_skill_psychic_move/"
+      ],
+      "conclusion": "Promote to verified_current_scope for supported canonical mechanics/provenance fields while preserving reward-gate uncertainty."
+    }
+  ]
+}
