@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-shining-slash-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Shining Slash",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Strike",
+    "ki_cost": 100,
+    "source_quest_or_shop": "Parallel Quest 38 — \"Power Teams\"",
+    "unlock_method": "Parallel Quest 38 — Basic Reward",
+    "character_source": "Future Trunks",
+    "mechanics": "Sword-based Strike Super; charging raises the sword and, when released, teleports to the locked-on target for the slash. Current independent documentation records about 10% damage."
+  },
+  "limits": [
+    "Exact frame data and reward probability remain unresolved.",
+    "Current evidence supports Earthling/Saiyan CaC scope; no narrower form/gender gate is inferred."
+  ],
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
+    "https://gamersdecide.com/articles/dragon-ball-xenoverse-2-best-strike-supers",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ]
+}
