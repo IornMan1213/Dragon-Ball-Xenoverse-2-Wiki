@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 348,
+  "created": "2026-09-25",
+  "type": "evidence_reconciliation",
+  "scope": "Current Xenoverse 2 provenance/mechanics refresh for Justice Blade, Justice Combination, Justice Kick, and Justice Pose.",
+  "verification_policy": "Use current Xenoverse 2-specific skill documentation first, independent technique/reference evidence second, and preserve unresolved reward probabilities, hidden gates, and version-sensitive combat values.",
+  "records": [
+    {
+      "name": "Justice Blade",
+      "id": "skill-justice-blade",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": 100,
+      "acquisition": "Parallel Quest 152 — Dyspo's Wanted Man",
+      "research_status": "enriched",
+      "verification_status": "verified_current_scope",
+      "mechanics": "Rapid 11-hit blue Ki-blade sequence with an Ultimate follow-up state on hit.",
+      "audit": "docs/data/skill-justice-blade-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Justice Combination",
+      "id": "skill-justice-combination",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "ki_cost": 300,
+      "acquisition": "Gohan (Adult) & Videl mentor training",
+      "research_status": "enriched",
+      "verification_status": "verified_current_scope",
+      "mechanics": "Fast high-kick opener into a multi-hit rush ending in a blue-energy palm strike; final hit can be vanished.",
+      "audit": "docs/data/skill-justice-combination-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Justice Kick",
+      "id": "skill-justice-kick",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": "100; 200 with additional input",
+      "acquisition": "Parallel Quest 152 — Dyspo's Wanted Man",
+      "research_status": "enriched",
+      "verification_status": "verified_current_scope",
+      "mechanics": "Forward rolling kick that cancels weak Ki Blasts; additional input spends 100 Ki for Justice Crush.",
+      "audit": "docs/data/skill-justice-kick-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Justice Pose",
+      "id": "skill-justice-pose",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "ki_cost": 100,
+      "acquisition": "Parallel Quest 53 — The Fist of Justice!",
+      "research_status": "enriched",
+      "verification_status": "verified_current_scope",
+      "mechanics": "Pose that grants an all-stat boost for 20 seconds.",
+      "audit": "docs/data/skill-justice-pose-current-evidence-audit-2026-09-25.json"
+    }
+  ],
+  "validation": {
+    "audit_files": 4,
+    "canonical_mutation": false,
+    "reason": "The live canonical skills.json is a large generated file and the connector cannot safely reconstruct its complete contents for a synchronized replacement. Research/audit artifacts are therefore updated without falsely claiming canonical/index promotion.",
+    "relationship_changes": 0,
+    "unsupported_drop_rates_promoted": 0,
+    "unsupported_gates_added": 0
+  },
+  "evidence_boundary": "This batch strengthens current provenance and mechanics evidence. It does not alter canonical identity, acquisition relationships, or unresolved reward semantics."
+}
