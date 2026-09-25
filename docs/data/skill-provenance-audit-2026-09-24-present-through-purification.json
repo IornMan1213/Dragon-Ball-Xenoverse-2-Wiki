@@ -180,14 +180,16 @@
   "changes": [
     "Refreshed canonical and index last_verified for the 12 bounded records using existing maintained source sets and current corroborating references.",
     "Preserved acquisition endpoints, reward semantics, restrictions, mechanics, DLC/version provenance, and unresolved evidence boundaries.",
-    "No unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions were introduced."
+    "No unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+    "Corrected Quick Sleep's stale research-layer Ki cost from 0 to 300 based on current Xenoverse 2-specific skill evidence; no other mechanics were promoted."
   ],
   "validation": {
     "canonical_record_count": 469,
     "index_record_count": 469,
     "duplicate_ids": 0,
     "target_count": 12,
-    "target_last_verified": "2026-09-24"
+    "target_last_verified": "2026-09-24",
+    "quick_sleep_cost_correction": "passed"
   },
   "ci": "Unavailable; no CI success claimed."
 }
