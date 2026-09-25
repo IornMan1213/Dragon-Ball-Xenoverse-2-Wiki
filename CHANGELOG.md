@@ -3178,3 +3178,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Refreshed the Evasive correction and Strike Evasive research chain through Evil Whirlwind.
 - Preserved source conflicts and character-only/variant distinctions without speculative canonical promotion.
 - Validation baseline remains **469/469** with **0 duplicate IDs**.
+
+
+### 2026-09-24 — Ki Blast Evasive audit Batches 228–234
+- Audited and refreshed the Ki Blast Evasive research chain through Batch 234.
+- Corrected Special Beam Blast and Dimension Cannon availability and preserved source/index conflicts rather than normalizing them away.
+- Preserved cast-only and variant-specific implementations, including Peeler Storm's Evasive/Super distinction.
+- Validation baseline remains **469/469** with **0 duplicate IDs**.
