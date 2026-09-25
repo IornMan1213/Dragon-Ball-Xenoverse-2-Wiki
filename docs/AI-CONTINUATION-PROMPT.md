@@ -1430,3 +1430,14 @@
 - [x] Live canonical/index boundary remains **469/469**; no canonical identity or relationship was fabricated.
 - [x] Current main commit observed at start of this cycle was `84a1ab801bb606c2e90b50eb8063c86db0699d08`; no workflow runs or combined status checks are exposed for that commit, so no CI success is claimed.
 - [ ] **Exact next:** continue the remaining unresolved skill-gap queue with **Acid** first, using direct Xenoverse 2 evidence; preserve unresolved Ki cost rather than inferring it. Do not invent `skill-batch-197` until a concrete batch target is established by the live queue.
+
+
+### 2026-09-24 cycle completion — Acid evidence follow-up
+- [x] Continued the live unresolved-skill queue with **Acid** rather than inventing a new research batch.
+- [x] Added independent current-indexed Xenoverse 2 evidence: a maintained unobtainable-skills list explicitly includes Acid, and a separate Xenoverse 2 move-list reference identifies Acid as a Super Attack on Saibaman variants.
+- [x] Updated `docs/data/skill-research-gaps-acid-evidence-audit-2026-09-24.json`, its dated refresh, and the central `docs/data/skill-research-gaps.json` ledger.
+- [x] Preserved the ID boundary between normal **Acid ID 140** and raid-boss **Acid ID 143**.
+- [x] Numeric **Ki cost remains unresolved**; no cross-game or unofficial numeric cost was inferred, and no canonical promotion was attempted.
+- [x] Canonical/index boundary remains **469/469** with no duplicate-ID change.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the next unresolved skill-gap record after Acid, prioritizing **Boiling Burg / Energy Boil / Baked Sphere** and other remaining cast-only records with direct Xenoverse 2 evidence. Preserve unresolved numeric fields rather than guessing.
