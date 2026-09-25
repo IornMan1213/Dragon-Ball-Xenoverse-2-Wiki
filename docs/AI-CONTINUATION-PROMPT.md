@@ -1,3 +1,13 @@
+### 2026-09-24 cycle completion — Change The Future P1 provenance verification
+- [x] Completed **skill-batch-193 — Change The Future** with Xenoverse 2 **Super / Ki Blast / Counter Skill** classification, **100 Ki**, Future Warrior availability, and **PQ43 — Change the Future** acquisition.
+- [x] Confirmed the skill is a **Basic Reward** on PQ43; no Ultimate Finish requirement was invented.
+- [x] Added and registered `docs/data/skill-change-the-future-p1-provenance-verification-2026-09-24.json`.
+- [x] Preserved the documented distinction between the actual Ki Blast counter trigger and the in-game description's Strike wording.
+- [x] Preserved unresolved stamina, exact frame/hitbox, drop probability, and version-sensitive damage fields.
+- [x] Preserved the **469/469** canonical skill/index boundary; no unsupported canonical promotion was made.
+- [ ] CI success remains unverified; no CI success claimed.
+- [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-194** using the same bounded P1 provenance workflow.
+
 ### 2026-09-24 cycle completion — Counter Burst P1 provenance verification
 - [x] Completed **skill-batch-192 — Counter Burst** with Xenoverse 2 identity, **Super / Ki Blast / Counter Skill** classification, **100 Ki**, Future Warrior usability, and **PQ75 — Room to Spare** acquisition provenance.
 - [x] Confirmed Counter Burst is a **Basic Reward** on PQ75, so no Ultimate Finish requirement is asserted.
