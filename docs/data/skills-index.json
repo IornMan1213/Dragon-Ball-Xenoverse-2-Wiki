@@ -5060,7 +5060,7 @@
       "class": "Ultimate",
       "subcategory": "Ki Blast",
       "verification_status": "verified",
-      "research_status": "verified",
+      "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -5070,7 +5070,7 @@
       ],
       "unlock_method": "Parallel Quest 164 — Ultimate Finish (40%).",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred. 2026-09-22 mechanics/provenance refresh: current evidence confirms the 600-Ki Ultimate, 400-Stamina continuation while taking damage, CaC Awoken requirement, and PQ164 Ultimate Finish route. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "mechanics_notes": "Uses 600 Ki and can consume 400 Stamina to continue the attack while taking damage. Requires an Awoken Skill for CaCs; Broly (Restrained) can use it without separately activating an Awoken Skill. The skill page lists PQ164 as the unlock quest. 2026-09-20 verification: current skill page identifies PQ164 as the unlock; maintained drop-condition data documents the Ultimate Finish route. 2026-09-20 reward-tier refinement: maintained PQ data documents this as the Ultimate Finish (40%) route; the recorded condition is preserved without inference beyond the maintained corpus. 2026-09-23 refresh: preserved the 600-Ki Ultimate, 400-Stamina continuation while taking damage, CaC Awoken requirement, PQ164 route, and documented 40% Ultimate Finish condition.",
@@ -5333,7 +5333,7 @@
       "class": "Super",
       "subcategory": "Strike",
       "verification_status": "verified",
-      "research_status": "verified",
+      "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_of_Destruction's_Poise",
@@ -5342,7 +5342,7 @@
       ],
       "unlock_method": "Parallel Quest 175 — \"Who's the Next Leader?!\" Ultimate Finish reward (50%)",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 audit: PQ175's current maintained reward data lists God of Destruction's Poise at a 50% Ultimate Finish gate; generic PQ reward wording is replaced with the evidenced reward tier. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. 2026-09-20 audit: PQ175's current maintained reward data lists God of Destruction's Poise at a 50% Ultimate Finish gate; generic PQ reward wording is replaced with the evidenced reward tier. 2026-09-23 refresh: preserved the 100-Ki Strike Super and PQ175 Ultimate Finish route. Existing evidence does not establish a narrower CaC race/gender/form restriction or complete numerical mechanics.",
@@ -5350,7 +5350,8 @@
       "source_quest_or_shop": "Parallel Quest 175 — \"Who's the Next Leader?!\"",
       "source_parallel_quests": [
         175
-      ]
+      ],
+      "ki_cost": "100-300"
     },
     {
       "id": "skill-god-of-destruction-s-rampage",
@@ -7135,7 +7136,7 @@
       "class": "Super",
       "subcategory": "Strike",
       "verification_status": "verified",
-      "research_status": "verified",
+      "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -7144,7 +7145,7 @@
       ],
       "unlock_method": "Parallel Quest 6 — \"Saibamen's Revenge\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 audit: maintained all-PQ reward guide explicitly lists Meteor Strike in PQ6 Basic Reward.\n2026-09-23 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "mechanics_notes": "100-Ki Strike Super from PQ6 — Saibamen's Revenge. Current repository evidence establishes the PQ6 Basic Reward endpoint and CaC availability; exact drop probability remains unresolved and no Ultimate Finish-only gate is asserted.",
@@ -7253,7 +7254,7 @@
       "class": "Super",
       "subcategory": "Strike",
       "verification_status": "verified",
-      "research_status": "verified",
+      "research_status": "enriched",
       "acquisition_type": "tp_medal_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills",
@@ -7263,7 +7264,7 @@
       ],
       "unlock_method": "TP Medal Shop; documented listing price 30 TP Medals",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "Namekian",
       "notes": "2026-09-20 shop-provenance refinement: maintained TP Medal Shop references identify Namek Finger as a TP Medal Shop skill; the documented listing gives a 30 TP Medal price. Shop rotation/timing is not inferred from the historical listing.\n2026-09-23 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
       "mechanics_notes": "100 Ki Strike Super with Namekian-themed finger-extension/grab behavior; documented as a Namekian CaC skill. 2026-09-20 verification: TP Medal Shop acquisition is independently documented; current/archived shop references consistently list Namek Finger as a TP Medal Shop Super.",
