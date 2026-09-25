@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-lightning-of-absolution-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Lightning of Absolution",
+  "result": "current_evidence_refresh",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Ki Blast",
+    "ki_cost": 100,
+    "source_quest_or_shop": "Parallel Quest 111 — \"The Zero Mortal Plan\" Basic Reward",
+    "mechanics": "Tracking long-range lightning Super. Current skill evidence records two hits and source-reported 5% damage; the technique can still connect through its follow-up lightning strikes even when the initial halo lightning misses.",
+    "character_source": "Fused Zamasu"
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Lightning_of_Absolution",
+    "https://dragonball.fandom.com/wiki/Lightning_of_Absolution",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "limits": [
+    "The 5% value is source-reported reference data, not a universal patch-independent damage guarantee.",
+    "No exact tracking/frame timing is inferred.",
+    "No Ultimate Finish-only gate or reward probability is inferred."
+  ]
+}
