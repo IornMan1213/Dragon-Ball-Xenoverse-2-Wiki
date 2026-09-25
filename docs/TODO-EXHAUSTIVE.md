@@ -8074,3 +8074,11 @@
 - [x] Preserved unresolved CaC/Ultimate Finish/reward/shop/version/canonical-ID fields.
 - [ ] CI success remains unverified.
 - [ ] Exact next: continue Batch 316 direct-evidence research.
+
+### 2026-09-25 — TODO completion update — Batch 316 direct-evidence refresh
+- [x] Refreshed `docs/data/skill-research-batches/skill-batch-316.json` for **Blaster Stream, Full Power Destruction, Gigantic Burst, Lightning Impact, and Requiem of Destruction** using current Xenoverse 2 evidence.
+- [x] Added `docs/data/skill-batch-316-evidence-refresh-2026-09-25.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved unresolved Ultimate-Finish, reward-probability, exact-frame, version-sensitive damage, and unsupported race-restriction fields.
+- [x] Validation: **470 canonical/index records, 0 duplicate IDs, 5/5 Batch 316 audit records, JSON parse clean, no internal citation/export markup in changed research/index files**.
+- [ ] CI remains unverified; no usable workflow result was exposed for the latest evidence-registration commit.
+- [ ] **Next:** direct-evidence refresh for **Angry Explosion, Assault Rain, Brave Heat, Break Cannon, Breaker Energy Wave, Chain Destructo-Disc Barrage, Chaotic Time Impact, and Circle Flash**.
