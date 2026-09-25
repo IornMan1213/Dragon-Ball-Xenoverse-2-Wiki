@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-25",
+  "type": "current_consumer_parity_correction",
+  "scope": "PQ endpoint navigation current audit",
+  "source_of_truth": "docs/data/equipment-accessories-record-layer.json",
+  "mismatch": {
+    "consumer_path": "docs/data/pq-endpoint-navigation-current-audit-2026-09-24.json",
+    "field": "canonical_layers.equipment_accessory_records",
+    "previous_value": 174,
+    "current_canonical_value": 173
+  },
+  "correction": {
+    "previous_value": 174,
+    "corrected_value": 173
+  },
+  "preserved": {
+    "pq_records": 186,
+    "skill_records": 470,
+    "super_soul_records": 234,
+    "character_names": 152,
+    "dlc_records": 20,
+    "total_pq_relationship_edges": 853,
+    "relationship_edges_changed": 0
+  },
+  "evidence_boundary": "This is a deterministic current-consumer scalar correction. It does not alter canonical identities, relationship edges, acquisition routes, reward semantics, or historical snapshots.",
+  "validation": {
+    "canonical_record_layer_recount": "173 records / 173 unique IDs",
+    "consumer_now_matches_source": true,
+    "relationship_changes": 0,
+    "identity_changes": 0,
+    "acquisition_routes_inferred": 0,
+    "historical_snapshots_rewritten": 0
+  }
+}
