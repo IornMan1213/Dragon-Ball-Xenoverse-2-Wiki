@@ -120,7 +120,9 @@
     "skill_gigantic_explosion_current_evidence_audit_2026_09_25": "docs/data/skill-gigantic-explosion-current-evidence-audit-2026-09-25.json",
     "skill_god_of_destructions_poise_current_evidence_audit_2026_09_25": "docs/data/skill-god-of-destructions-poise-current-evidence-audit-2026-09-25.json",
     "skill_meteor_strike_current_evidence_audit_2026_09_25": "docs/data/skill-meteor-strike-current-evidence-audit-2026-09-25.json",
-    "skill_namek_finger_current_evidence_audit_2026_09_25": "docs/data/skill-namek-finger-current-evidence-audit-2026-09-25.json"
+    "skill_namek_finger_current_evidence_audit_2026_09_25": "docs/data/skill-namek-finger-current-evidence-audit-2026-09-25.json",
+    "skill_batch_361_thin_mentor_mechanics_2026_09_25": "docs/data/skill-research-batches/skill-batch-361.json",
+    "skill_batch_361_thin_mentor_mechanics_audit_2026_09_25": "docs/data/skill-batch-361-thin-mentor-mechanics-audit-2026-09-25.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",
