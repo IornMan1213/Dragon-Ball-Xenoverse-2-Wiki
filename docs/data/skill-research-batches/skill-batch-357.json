@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 357,
+  "created": "2026-09-25",
+  "type": "current_evidence_refresh",
+  "scope": "Prepare to be Punished, Power Rush, Pretty Cannon, Pretty Charge.",
+  "records": [
+    {
+      "name": "Prepare to be Punished",
+      "id": "skill-prepare-to-be-punished",
+      "status": "enriched",
+      "last_verified": "2026-09-25"
+    },
+    {
+      "name": "Power Rush",
+      "id": "skill-power-rush",
+      "status": "enriched",
+      "last_verified": "2026-09-25"
+    },
+    {
+      "name": "Pretty Cannon",
+      "id": "skill-pretty-cannon",
+      "status": "enriched",
+      "last_verified": "2026-09-25"
+    },
+    {
+      "name": "Pretty Charge",
+      "id": "skill-pretty-charge",
+      "status": "enriched",
+      "last_verified": "2026-09-25"
+    }
+  ],
+  "evidence_summary": "Current Xenoverse 2 character/skill references were rechecked. Prepare to be Punished remains Pan's Super Skill; Power Rush remains Jiren's PQ122 Ultimate Finish Strike Ultimate; Pretty Cannon remains Ribrianne's PQ133 Basic Reward skill; Pretty Charge remains Ribrianne's character-only Ultra Pack 1 charging skill.",
+  "limits": [
+    "No unsupported reward probabilities.",
+    "No hidden prerequisites.",
+    "No new Ultimate Finish gates.",
+    "No unsupported frame, timing, damage, or stacking values."
+  ],
+  "validation": {
+    "canonical_commit": "aa3ff1bfd8be5d1ce91305d10ae2f4b6b770b746",
+    "index_commit": "3db7ba63de56830a99ac4ba75e9cbc8196fd5c7c",
+    "relationship_changes": 0
+  }
+}
