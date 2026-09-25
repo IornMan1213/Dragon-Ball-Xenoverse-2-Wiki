@@ -3141,3 +3141,9 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Preserved current Flash Fist Crush identity as Super / Strike / Universal Counter with 100 Ki and Shenron-wish acquisition; no duplicate canonical identity was created.
 - Revalidated the unchanged Dragon Thunder and Shadow Crusher findings.
 - Validation target remains the established **469/469** canonical/index boundary with **0 duplicate IDs**.
+
+
+### 2026-09-24 — Skills audit-chain refresh: Batches 210–213
+- Finalized the historical Flash Fist Crush provenance correction and refreshed the related counter/acquisition audits through Batches 211–213.
+- Preserved canonical/index parity at **469/469** with **0 duplicate IDs** and no speculative canonical records.
+- Kept unresolved mechanics and reward semantics evidence-bounded.
