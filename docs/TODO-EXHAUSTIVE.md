@@ -7251,3 +7251,11 @@
 - [x] Preserved unresolved stamina, exact frame/tracking/hitbox/damage, and Ultimate Finish fields.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** inspect and complete the next deterministic skill research batch after 176.
+
+
+### 2026-09-24 — TODO completion update — Final Cannon P1 provenance verification
+- [x] Completed **skill-batch-177 — Final Cannon** with identity, 100-Ki Strike classification, PQ52 route, Future Warrior boundary, partner customization endpoints, and mechanics provenance.
+- [x] Added and registered the Final Cannon provenance audit.
+- [x] Preserved the 469/469 canonical/index boundary and unresolved numeric evidence fields.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** complete **skill-batch-178 — Shadow Crusher**.
