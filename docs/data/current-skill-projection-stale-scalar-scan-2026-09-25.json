@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-25",
+  "scope": "Current-facing skill projection stale-scalar scan after promotion to the live 470-record canonical/index baseline",
+  "source_of_truth": [
+    "docs/data/skills.json",
+    "docs/data/skills-index.json"
+  ],
+  "live_baseline": {
+    "canonical_skill_records": 470,
+    "index_skill_records": 470,
+    "duplicate_ids": 0,
+    "pq_linked_skill_count": 239,
+    "non_pq_skill_count": 231
+  },
+  "search_patterns": [
+    "\"canonical_skills\": 469",
+    "\"canonical_skill_count\": 469",
+    "\"live_canonical_skills\": 469",
+    "\"skill_count\": 469",
+    "\"source_skill_count\": 469"
+  ],
+  "current_consumers_reconciled": [
+    "docs/data/skill-acquisition-coverage-report.json",
+    "docs/data/skill-pq-acquisition-presentation-audit.json",
+    "docs/data/skill-shop-endpoint-layer-audit-2026-09-24.json",
+    "docs/data/special-acquisition-endpoint-audit-2026-09-24.json",
+    "docs/data/character-exclusive-skill-endpoint-audit-2026-09-24.json",
+    "docs/data/time-rift-story-tournament-endpoint-audit-2026-09-24.json"
+  ],
+  "remaining_469_hits": {
+    "count": 19,
+    "classification": "historical_or_completed_audit",
+    "action": "preserved unchanged",
+    "examples": [
+      "docs/data/live-skill-baseline-reconciliation-2026-09-24.json",
+      "docs/data/mentor-derived-acquisition-consumer-reconciliation-2026-09-24.json",
+      "docs/data/skill-endpoint-coverage-reconciliation-2026-09-24-hyper-and-ice.json",
+      "docs/data/pq-cross-domain-status.json",
+      "docs/data/pq-relationship-producer-census.json",
+      "docs/data/skill-acquisition-coverage-current-projection-audit-2026-09-24.json",
+      "docs/data/skill-acquisition-endpoint-consumer-synchronization-2026-09-23.json",
+      "docs/data/skill-time-skip-tremor-pulse-research-enrichment-2026-09-24.json"
+    ],
+    "reason": "These files are dated snapshots/reconciliation artifacts whose historical 469-record baseline is part of the audit history; rewriting them would erase provenance rather than repair a current projection."
+  },
+  "validation": {
+    "current_stale_scalar_count": 0,
+    "current_consumers_using_469": 0,
+    "historical_469_hits_preserved": true,
+    "canonical_index_parity": true,
+    "duplicate_ids": 0,
+    "no_relationships_changed": true,
+    "ci": "Unavailable; no CI success claimed."
+  },
+  "next_action": "Resume source-backed P1 skill provenance enrichment; do not rewrite historical 469-record snapshots."
+}
