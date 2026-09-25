@@ -4,18 +4,21 @@
   "verification_policy": "Single-skill Strike Super research: verify Xenoverse 2 identity, cast exclusivity, costs, mechanics, and acquisition status. Preserve N/A unlocks and unsupported fields explicitly.",
   "research_scope": "Dragon Thunder — Strike Super / cast-exclusive research.",
   "verification_audit": {
-    "audited": "2026-09-17",
-    "method": "Compared repository research coverage with Xenoverse 2-specific skill documentation, character data, and independent Dragon Ball documentation.",
+    "audited": "2026-09-24",
+    "method": "Reconciled repository research with current Xenoverse 2-specific technique/character documentation and independent Dragon Ball technique documentation.",
     "duplicate_check": {
       "status": "passed",
-      "selected_records": ["Dragon Thunder"],
+      "selected_records": [
+        "Dragon Thunder"
+      ],
       "duplicate_count": 0,
-      "identity_note": "No existing repository research batch for Dragon Thunder was found. Canonical identity is Super / Strike."
+      "identity_note": "No duplicate research batch for Dragon Thunder was found; canonical identity remains Super / Strike."
     },
-    "classification_finding": "Xenoverse 2-specific documentation classifies Dragon Thunder as a Strike Super and also lists it among Counter Skills and Unavailable for CaC skills.",
-    "acquisition_finding": "Dragon Thunder is a cast-exclusive Omega Shenron Super Skill. It is not obtainable by the Future Warrior, so unlock_method and source_quest_or_shop are explicitly represented as N/A rather than fabricated.",
-    "finish_policy": "ultimate_finish_required is null because there is no Future Warrior acquisition route to which an Ultimate Finish condition could apply.",
-    "cost_policy": "The documented Ki cost is 100. Stamina cost remains null because no reliable canonical stamina value was established."
+    "classification_finding": "Dragon Thunder returns in Xenoverse 2 as Omega Shenron's Super Skill and is treated by the repository as a Strike Super / counter-related skill.",
+    "acquisition_finding": "The reviewed sources consistently identify Omega Shenron and Omega Shenron (Supervillain) as users and state that the Future Warrior cannot obtain Dragon Thunder because of the technique's cast-specific execution.",
+    "finish_policy": "ultimate_finish_required remains null because there is no Future Warrior acquisition route.",
+    "cost_policy": "Repository research records 100 Ki; stamina cost remains null.",
+    "conflict_note": "One secondary source describes a backward electric shock that cannot be blocked, while the repository's Xenoverse 2-specific research describes the in-game spike-impalement anti-air version. The repository preserves the Xenoverse 2-specific characterization rather than importing mechanics from other games."
   },
   "records": [
     {
@@ -33,12 +36,12 @@
       "source_quest_or_shop": "N/A — cast-exclusive Omega Shenron skill",
       "ultimate_finish_required": null,
       "skill_description": "Omega Shenron extends the spikes on his back to impale an opponent above him, producing a short-range multi-hit Strike attack.",
-      "mechanics_notes": "The Xenoverse 2 reference describes Dragon Thunder as a short-range, anti-air, 16-hit, launching Strike Super. It can only connect when the opponent is above the user. Independent character data lists the same skill for Omega Shenron and his Supervillain version.",
-      "acquisition_notes": "The skill is cast-exclusive and cannot be learned or obtained by the Future Warrior. Historical guides that list it as a skill-shop/PQ entry are treated cautiously because they conflict with current Xenoverse 2-specific cast-exclusivity documentation.",
+      "mechanics_notes": "Xenoverse 2-specific research describes Dragon Thunder as a short-range anti-air Strike Super that extends Omega Shenron's back spikes to impale an opponent above him, producing a multi-hit launch. Independent character documentation confirms Dragon Thunder is in both base and Supervillain Omega Shenron's Xenoverse 2 movesets. A conflicting secondary description appears to mix in a different game's implementation; it is not imported into the canonical Xenoverse 2 mechanics.",
+      "acquisition_notes": "Dragon Thunder remains cast-exclusive to Omega Shenron / Omega Shenron (Supervillain) and unavailable to the Future Warrior. The reviewed sources provide no CaC acquisition route, so unlock_method remains Unavailable for CaC and source_quest_or_shop remains N/A.",
       "pve_notes": "Cast-exclusive; no CaC acquisition route or Ultimate Finish requirement.",
       "pvp_notes": "Anti-air, short-range, launching behavior is documented; exact frame and matchup values are not promoted to canonical numeric data.",
       "verification_status": "verified",
-      "last_verified": "2026-09-17",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dragon_Thunder",
         "https://dbxv2.fandom.com/wiki/Super_Attack",
