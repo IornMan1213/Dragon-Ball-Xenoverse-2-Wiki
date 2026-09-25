@@ -8087,10 +8087,10 @@
       "source_quest_or_shop": "Parallel Quest 63 — \"Appetite for Destruction\"",
       "ultimate_finish_required": false,
       "skill_description": "Kai Kai is a Super Other skill associated with Whis.",
-      "mechanics_notes": "Confirmed as Whis's 100-Ki Other Super from PQ63 and usable by all CaC races. It teleports the user to a selected ally/partner rather than the opponent. Current maintained reward evidence places the skill in PQ63 Basic Reward; no Ultimate Finish-only gate is inferred.",
+      "mechanics_notes": "Confirmed as Whis's 100-Ki Other Super from PQ63 Basic Reward. It teleports the user to a selected ally/partner rather than attacking the opponent.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Kai_Kai",
@@ -8099,7 +8099,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 63,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ63; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: the GameFAQs Xenoverse 2 walkthrough independently lists Kai Kai among PQ63 rewards, corroborating the existing PQ63 acquisition endpoint; its table does not establish an Ultimate Finish-only gate, so none is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ63; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: the GameFAQs Xenoverse 2 walkthrough independently lists Kai Kai among PQ63 rewards, corroborating the existing PQ63 acquisition endpoint; its table does not establish an Ultimate Finish-only gate, so none is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 349 current-evidence refresh: current skill, PQ, and independent walkthrough evidence revalidate the PQ63 Basic Reward route and ally-target teleport utility. No Ultimate-Finish-only gate, partner restriction, timing value, or hidden prerequisite is inferred.",
       "id": "skill-kai-kai",
       "source_parallel_quests": [
         63
@@ -8120,16 +8120,16 @@
       "source_quest_or_shop": "Parallel Quest 8 — \"Invade Earth\"",
       "ultimate_finish_required": true,
       "skill_description": "Universal CaC Awoken Skill with Kaioken, Kaioken x3, and Kaioken x20 stages.",
-      "mechanics_notes": "Stages: 100 Ki (+2.5% Strike/Blast; 3.5 Stamina/sec), 300 Ki (+7.5%; -10% Strike Defense/+10% Blast Defense; 7.5 Stamina/sec; reduced Z-Vanish cost), 500 Ki (+15%; -30% both defenses; 33 Stamina/sec; Z-Vanish costs 0). Drain accelerates at higher stages. Kaioken is the universal CaC Awoken Skill with x1/x3/x20 stages and is explicitly tied to the PQ8 Ultimate Finish.",
+      "mechanics_notes": "Universal CaC Awoken with Kaioken, Kaioken x3, and Kaioken x20 stages. Current maintained evidence records 100/300/500 Ki thresholds, escalating stamina drain, offensive bonuses, defensive tradeoffs, and reduced/zero Z-Vanish costs at higher stages.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Kaioken",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "notes": "Universal CaC Awoken Skill. One skill provides Kaioken, x3, and x20 stages according to available Ki; current reference documents 100/300/500 Ki thresholds and stamina drain. 2026-09-20 census note: explicit PQ drop-condition scan reviewed this record; the available condition text is non-specific for Kaioken/Evil Blast/Power Rush, while Lovely Cyclone retains the separately documented source conflict. No automatic gate change was made from generic wording alone.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "Universal CaC Awoken Skill. One skill provides Kaioken, x3, and x20 stages according to available Ki; current reference documents 100/300/500 Ki thresholds and stamina drain. 2026-09-20 census note: explicit PQ drop-condition scan reviewed this record; the available condition text is non-specific for Kaioken/Evil Blast/Power Rush, while Lovely Cyclone retains the separately documented source conflict. No automatic gate change was made from generic wording alone.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 349 current-evidence refresh: current transformation references revalidate the three-stage thresholds and bounded stamina/defense tradeoffs. The PQ8 Ultimate Finish endpoint is preserved; no unsupported probability, guarantee, frame data, or patch-independent balance claim is added.",
       "source_quest": 8,
       "acquisition_type": "quest_or_mission",
       "id": "skill-kaioken",
@@ -8151,14 +8151,14 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 14",
-      "mechanics_notes": "Kaioken-enhanced Kamehameha Super. Current repository evidence identifies it as a 200-Ki Ki Blast Super with a 22-hit beam; the maintained PQ14 Basic Reward evidence does not establish an Ultimate Finish-only gate.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "200-Ki Kaioken-enhanced Kamehameha Super. Current repository evidence records a 22-hit beam and the PQ14 Basic Reward route without establishing an Ultimate-Finish-only gate; the move remains distinct from the Kaioken Kamehameha x4/x20 Ultimate variants.",
+      "last_verified": "2026-09-25",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": 14,
       "dlc_requirement": "Base Game",
       "acquisition_type": "parallel_quest",
-      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint. 2026-09-21 provenance strengthening: maintained Steam all-PQ guide independently lists Kaioken Kamehameha in PQ14 — Saiyan Pride Basic Reward, corroborating the existing PQ14 acquisition endpoint and no-Ultimate-Finish-only interpretation.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint. 2026-09-21 provenance strengthening: maintained Steam all-PQ guide independently lists Kaioken Kamehameha in PQ14 — Saiyan Pride Basic Reward, corroborating the existing PQ14 acquisition endpoint and no-Ultimate-Finish-only interpretation.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 349 current-evidence refresh: current skill/PQ references and the maintained all-PQ guide revalidate the 200-Ki classification, 22-hit reference, and PQ14 endpoint. No drop probability or variant conflation is introduced.",
       "id": "skill-kaioken-kamehameha",
       "source_parallel_quests": [
         14
@@ -8180,10 +8180,10 @@
       "source_quest_or_shop": "Conton City Tournament Match 2",
       "ultimate_finish_required": false,
       "skill_description": "Ki Blast Super that sets delayed Ki Blasts and can scale with Power of Time.",
-      "mechanics_notes": "Sets four delayed Ki spheres that can be fired automatically after a delay or manually. Holy Inscription hit count can increase the setup up to 12 spheres; the same hit counter is consumed/reset when the powered-up Kairos Cannon is used. Current evidence confirms 100 Ki and CaC availability after the Conton City Tournament route.",
+      "mechanics_notes": "100-Ki Ki Blast Super associated with Supreme Kai of Time. It sets delayed Ki spheres that can fire automatically or manually; Holy Inscription hit-count state can increase the setup from four to as many as 12 spheres, with the powered-up Cannon consuming/resetting the setup state.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Kairos_Cannon",
         "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc",
@@ -8191,7 +8191,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Kairos Cannon as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-21 provenance strengthening: independent Dragon Ball Wiki coverage corroborates Kairos Cannon as Chronoa/Supreme Kai of Time's Xenoverse 2 skill and its Conton City Tournament acquisition; the source is retained as corroboration without changing the repository's Match 2 wording. 2026-09-21 provenance strengthening: Dragon Ball Wiki independently corroborates Kairos Cannon as Chronoa/Supreme Kai of Time's Xenoverse 2 Super Skill and documents the Conton City Tournament 02 (\"Thinning the Herd\") acquisition after unlocking the 3rd tournament. Existing character-only scope and mechanics/acquisition semantics are preserved; no reward probability or additional gate is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Kairos Cannon as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-21 provenance strengthening: independent Dragon Ball Wiki coverage corroborates Kairos Cannon as Chronoa/Supreme Kai of Time's Xenoverse 2 skill and its Conton City Tournament acquisition; the source is retained as corroboration without changing the repository's Match 2 wording. 2026-09-21 provenance strengthening: Dragon Ball Wiki independently corroborates Kairos Cannon as Chronoa/Supreme Kai of Time's Xenoverse 2 Super Skill and documents the Conton City Tournament 02 (\"Thinning the Herd\") acquisition after unlocking the 3rd tournament. Existing character-only scope and mechanics/acquisition semantics are preserved; no reward probability or additional gate is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 349 current-evidence refresh: current skill, official Free Update 11 documentation, and independent technique evidence revalidate the 100-Ki cost, tournament endpoint, delayed-sphere setup, and Holy Inscription interaction. Exact delay/frame timings and reward guarantees remain unresolved.",
       "id": "skill-kairos-cannon"
     },
     {
