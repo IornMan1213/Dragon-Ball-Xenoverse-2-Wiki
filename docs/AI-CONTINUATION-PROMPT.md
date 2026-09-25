@@ -662,3 +662,13 @@
 - [x] Canonical skill catalogs remain at the established **469/469** boundary; no unsupported promotion was made.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next:** continue the remaining unresolved thin-domain queue, prioritizing a candidate where direct Xenoverse 2 evidence can resolve an actual missing field rather than merely repeating identity confirmation.
+
+
+### 2026-09-24 cycle completion — Savage Strike acquisition-terminology consistency correction
+- [x] Re-inspected the staged Savage Strike research record before the next P1 transition.
+- [x] Corrected an internal provenance inconsistency in `docs/data/skill-research-batches/skill-batch-163.json`: the PvE note said generic **Skill Shop** while the canonical acquisition fields and evidence establish **TP Medal Shop**. The note now uses TP Medal Shop consistently.
+- [x] Updated `docs/data/savage-strike-provenance-audit-2026-09-24.json` with the correction and a research-batch consistency validation marker.
+- [x] Preserved the unresolved TP Medal price/rotation conflict; no new price or timing was inferred.
+- [x] Canonical/index layers remain untouched at **469/469** because Savage Strike still requires atomic builder integration when the supported runtime is available.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue source-backed P1 enrichment from the research corpus; prioritize actual evidence-field improvements rather than redundant last_verified refreshes, while retaining Savage Strike as staged canonical-builder work.
