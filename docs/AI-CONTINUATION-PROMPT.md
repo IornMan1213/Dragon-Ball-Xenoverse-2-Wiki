@@ -1,10 +1,9 @@
 [object Object]
-### 2026-09-25 cycle completion — Skill Research Batch 337: Lightning Impact variant reconciliation
-- [x] Inspected the live post-470/470 state and checked for a newer research batch before editing; no Batch 337 artifact existed.
-- [x] Added `docs/data/skill-research-batches/skill-batch-337.json` for **Lightning Impact** internal-variant provenance.
-- [x] Reconciled the Xenoverse 2 variant boundary: short ID **1100** is the CaC-usable/player variant, while short ID **1103** is a separate CaC-unusable/cast variant sharing the display name.
-- [x] Preserved the canonical `skill-lightning-impact` identity and existing **PQ142 — Timespace Tussle** relationship; no duplicate canonical skill was created from the internal variant distinction.
-- [x] Registered Batch 337 in `docs/data/pq-cross-domain-index.json` and advanced `docs/data/skill-catalog-audit.json` to **337**.
-- [x] Preserved unresolved cast-variant acquisition, version-sensitive combat values, and presentation differentiation rather than inventing them.
+### 2026-09-25 cycle completion — Skill Research Batch 338: four current-evidence refreshes
+- [x] Added `docs/data/skill-research-batches/skill-batch-338.json` for **Lightning of Absolution, Lovely Cyclone, Mach Dash, and Maiden Blast**.
+- [x] Refreshed directly supported Xenoverse 2 classes, subcategories, resource costs, acquisition endpoints, source-character context, and bounded mechanics.
+- [x] Preserved unresolved reward probabilities and version-sensitive combat values rather than inventing them.
+- [x] Preserved **Maiden Blast** as distinct from **Maiden Burst** and preserved the existing Mach Dash PQ11/PQ18 relationship discrepancy rather than silently deleting historical evidence.
+- [x] Registered Batch 338 in `docs/data/pq-cross-domain-index.json` and advanced `docs/data/skill-catalog-audit.json` to **338**.
 - [ ] CI remains unverified; no workflow success is claimed.
-- [ ] **Exact next:** continue the remaining current-facing cross-domain/variant provenance gaps or the next source-backed research target; preserve the 470/470 canonical boundary and avoid duplicate identities for internal variants.
+- [ ] **Exact next:** continue the next genuinely unresolved current-facing provenance/cross-domain target; preserve the 470/470 canonical boundary and historical conflict evidence.
