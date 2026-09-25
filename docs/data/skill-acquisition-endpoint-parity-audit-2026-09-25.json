@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-25",
+  "scope": "Current Expert Mission skill acquisition endpoint parity",
+  "current_baselines": {
+    "canonical_skills": 470,
+    "expert_mission_acquisition_records": 18,
+    "expert_mission_endpoint_records": 18,
+    "expert_mission_range": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  "historical_stale_snapshot": {
+    "source": "docs/data/skill-acquisition-cross-domain-endpoint-audit-2026-09-23.json",
+    "historical_canonical_skill_count": 465,
+    "handling": "retained as historical; not used as current baseline"
+  },
+  "parity": {
+    "acquisition_unique_skill_ids": 18,
+    "endpoint_unique_skill_ids": 18,
+    "acquisition_endpoint_set_equal": true
+  },
+  "endpoint_shape": {
+    "duplicate_acquisition_skill_ids": false,
+    "duplicate_endpoint_ids": false,
+    "all_acquisition_records_have_skill_ids": true,
+    "all_endpoint_records_have_skill_ids": true
+  },
+  "status": "pass",
+  "evidence_boundary": "Current endpoint parity is structural and identity-based. It does not assert guaranteed drops, numerical rates, or new acquisition routes. The historical 465-skill snapshot remains preserved."
+}
