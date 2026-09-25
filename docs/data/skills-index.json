@@ -11383,6 +11383,8 @@
     "skill_one_handed_kamehameha_mkii_current_evidence_audit_2026_09_25": "docs/data/skill-one-handed-kamehameha-mkii-current-evidence-audit-2026-09-25.json",
     "skill_orin_combo_current_evidence_audit_2026_09_25": "docs/data/skill-orin-combo-current-evidence-audit-2026-09-25.json",
     "skill_mighty_explosive_wave_current_evidence_audit_2026_09_25": "docs/data/skill-mighty-explosive-wave-current-evidence-audit-2026-09-25.json",
-    "skill_masenko_current_evidence_audit_2026_09_25": "docs/data/skill-masenko-current-evidence-audit-2026-09-25.json"
+    "skill_masenko_current_evidence_audit_2026_09_25": "docs/data/skill-masenko-current-evidence-audit-2026-09-25.json",
+    "skill_meteor_strike_current_evidence_audit_2026_09_25": "docs/data/skill-meteor-strike-current-evidence-audit-2026-09-25.json",
+    "skill_maiden_burst_current_evidence_audit_2026_09_25": "docs/data/skill-maiden-burst-current-evidence-audit-2026-09-25.json"
   }
 }
