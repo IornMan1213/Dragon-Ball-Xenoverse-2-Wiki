@@ -7291,3 +7291,9 @@
 - [x] Preserved unresolved stamina, exact frame/tracking/hitbox/damage, and Ultimate Finish fields where evidence was insufficient.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** complete **skill-batch-182** using the same bounded provenance workflow.
+
+### 2026-09-24 — TODO validation update — post-181 Actions rerun
+- [x] Repository quality and Clean internal artifacts both failed immediately with zero exposed workflow steps on the latest Evil Ray Strike commit; this does not identify a repository-content failure.
+- [x] Reran both failed jobs; reruns were accepted successfully and remain pending/processing at handoff time.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** inspect the rerun results, then complete **skill-batch-182 — Gigantic Slam**.
