@@ -374,3 +374,12 @@
 - [x] Canonical/index parity: **469/469**, duplicate IDs: **0**, remaining verified|verified: **0**.
 - [ ] CI remains unverified.
 - [x] **Verified-frontier closure:** all 469 canonical skills are now at least research-enriched or better; next cycle must perform a fresh broader census and select the next highest-impact unfinished TODO rather than assuming another verified-frontier batch exists.
+
+
+### 2026-09-25 cycle completion — Skill Batch 346 broader enriched-corpus refresh
+- [x] Live baseline: 470 canonical skills / 470 index records / 0 duplicate IDs.
+- [x] Refreshed four existing enriched skill records with current Xenoverse 2 evidence and bounded mechanics/provenance updates.
+- [x] Added and registered Skill Batch 346; canonical/index parity preserved.
+- [x] No unsupported drop probability, hidden gate, or relationship was inferred.
+- [ ] CI remains unverified.
+- [x] Exact next: Gorgeous Shot, Grand Smasher, Gravity Impact, Hawk Charge — continue the alphabetical enriched-corpus provenance stream with current-evidence audits.
