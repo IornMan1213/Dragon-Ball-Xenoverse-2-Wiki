@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-light-grenade-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Light Grenade",
+  "result": "current_evidence_refresh",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Ki Blast",
+    "ki_cost": 100,
+    "source_quest_or_shop": "Piccolo mentor training — Lesson 2",
+    "mechanics": "Button-mash chargeable Ki Blast Super with three stages. Stage 1 causes minor hitstun; Stage 2 can restand/juggle-reset and stun; Stage 3 produces greater knockback and damage. Higher stages take longer to fire.",
+    "character_source": "Piccolo"
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Light_Grenade_%28Super%29",
+    "https://dragonball.fandom.com/wiki/Light_Grenade",
+    "https://dbxv2.fandom.com/wiki/Mentors"
+  ],
+  "limits": [
+    "No universal damage numbers or frame timings are inferred.",
+    "The separate Light Grenade Ultimate variant is not conflated with the mentor Super.",
+    "Exact input timing thresholds are not promoted."
+  ]
+}
