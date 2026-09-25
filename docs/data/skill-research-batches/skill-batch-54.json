@@ -40,7 +40,7 @@
       "https://dbxv2.fandom.com/wiki/Prince_of_Destruction_Vegeta",
       "https://dbxv2.fandom.com/wiki/SSGSS_Vegeta_%28Evolved%29"
     ],
-    "research_update": "Current-evidence promotion completed for Neo Wolf Fang Fist. Current Xenoverse 2-specific skill documentation confirms the variable 100–700 Ki Strike Super and 9–33 hit continuable rush; independent PQ reward documentation corroborates PQ86 as the acquisition endpoint. Historical community reports about older resource behavior are retained as provenance and are not used to override current documentation. Exact reward probability and hidden Ultimate-Finish semantics remain unresolved."
+    "research_update": "Current-evidence promotion completed for Neo Wolf Fang Fist and Maiden Burst. Maiden Burst is confirmed as a 300-Stamina Ki Blast Evasive with short-range explosive knockback and PQ92 acquisition; Basic Reward evidence is preserved without inferring a guaranteed drop."
   },
   "records": [
     {
@@ -206,12 +206,15 @@
       "source_quest_or_shop": "Parallel Quest 92",
       "ultimate_finish_required": null,
       "skill_description": "Creates a defensive Ki explosion while evading an opponent.",
-      "mechanics_notes": "Current skill references classify Maiden Burst as a Ki Blast Evasive using 300 stamina; PQ92 reward is independently confirmed.",
-      "verification_status": "verified",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "Current Xenoverse 2-specific documentation confirms Maiden Burst as a 300-Stamina Ki Blast Evasive used by Pan and Ribrianne. The user propels forward with a short-range Ki explosion that deals about 5% damage and knocks nearby opponents away. PQ92 — Revenge of the Tuffle is the documented acquisition endpoint; maintained PQ reward evidence places Maiden Burst in Basic Reward, so no hidden Ultimate-Finish-only gate is inferred.",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Maiden_Burst",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Maiden_Burst",
+        "https://steamcommunity.com/app/454650/discussions/0/276237094316646624/",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
       ]
     },
     {
