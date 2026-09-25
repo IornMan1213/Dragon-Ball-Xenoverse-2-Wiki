@@ -680,5 +680,7 @@
   "pq_endpoint_navigation_current_domain_count_parity_2026_09_25": "docs/data/pq-endpoint-navigation-current-domain-count-parity-2026-09-25.json"
 ,
   "current_domain_baseline_correction_2026_09_25": "docs/data/current-domain-baseline-correction-2026-09-25.json"
+,
+  "equipment_accessory_domain_layer_semantics_audit_2026_09_25": "docs/data/equipment-accessory-domain-layer-semantics-audit-2026-09-25.json"
 
 }
