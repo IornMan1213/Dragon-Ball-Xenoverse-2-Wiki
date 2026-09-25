@@ -1795,3 +1795,17 @@
 - [x] Commit: `6c5dfb4be447edcec7648a108526c127ebb4af64`.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue scanning current-facing mentor/non-PQ consumers for remaining semantic count drift; distinguish typed reward counts from resolved canonical endpoint counts and preserve historical snapshots.
+
+
+### 2026-09-25 cycle update — mentor typed-reward and PQ navigation consumer drift repair
+- [x] Live current skill/domain baseline remains 469 canonical/index records, 0 duplicate IDs, 469/469 full endpoint union parity, with 239 PQ-linked / 230 non-PQ endpoint-covered skills.
+- [x] Reconciled the remaining mentor typed-reward projection drift: current mentor presentation has 133 lesson reward objects = 132 typed skill rewards + 1 typed non-skill reward, with 131 resolved mentor→skill edges, 130 unique canonical targets, 1 unresolved Hit lesson, and 0 broken skill endpoints.
+- [x] Repaired the stale typed_skill_reward_count in docs/data/mentor-skill-coverage-report.json from 131 → 132; the companion current mentor audit/endpoint synchronization layers were re-fetched and already reflected 132, so no redundant rewrite was made.
+- [x] Continued exact-pair/current-consumer scanning against the authoritative PQ relationship baseline of 853 total edges / 244 skills / 145 Super Souls / 124 equipment / 247 characters / 86 DLC / 7 farming.
+- [x] Found one current-facing PQ navigation consumer still using superseded domain counts: docs/data/pq-endpoint-navigation-current-audit-2026-09-24.json reported 173 equipment/accessory records / 151 character names while the live current domain census is 174 / 152.
+- [x] Repaired only those two stale current-facing scalars to 174 / 152; relationship counts remain 853 / 244 / 145 / 124 / 247 / 86 / 7 and no relationship or identity was inferred.
+- [x] JSON validation: repaired PQ navigation audit parses successfully; mentor coverage report parses successfully and now reports 132 typed skill rewards; current mentor presentation/cross-domain counts remain internally consistent.
+- [x] Historical 173/151, 854/146, and older snapshots were preserved where their dated scope/history requires them; no historical artifact was rewritten.
+- [ ] CI: the push-triggered Repository quality and Wiki data audit runs for commit fa714a332c2d8330ad7bbff5539070bc14b495af both failed with zero exposed workflow steps; the subsequent PQ navigation repair commit b16717265b2b606618ac08b7b6d74427c9aeb558 has not yet been verified for CI success.
+- [x] Commits: fa714a332c2d8330ad7bbff5539070bc14b495af (mentor typed-skill count repair); b16717265b2b606618ac08b7b6d74427c9aeb558 (PQ current navigation count repair).
+- [ ] Exact next: inspect the Actions runs for b16717265b2b606618ac08b7b6d74427c9aeb558; if failures again expose zero steps/logs, preserve the runner-level CI boundary and continue the remaining exact-pair reverse/navigation scan, prioritizing current non-PQ equipment/accessory presentation consumers. If usable logs appear, fix only the exact reported failure.
