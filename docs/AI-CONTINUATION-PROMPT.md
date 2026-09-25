@@ -1700,3 +1700,15 @@
 - [ ] CI remains unverified.
 - [x] Commits: 291ab2bc326fd7d22cebd102bde7701a8c9e943a, 3331df3988597e30031ee31aac58e0bd0cc315c4, 8e7fb8c1f3caaa8eb6afcc32663dbf148f5c473c.
 - [ ] **Exact next:** inspect the remaining unfinished research census and continue the next deterministic partially verified tranche after Batch 311; prioritize acquisition/mechanics gaps and cross-domain links, without creating duplicate batch identities.
+
+
+### 2026-09-24 cycle completion — Android 13's Hat residual accessory identity evidence
+- [x] Continued the P1 thin-domain expansion after the skill-gap queue, selecting the unresolved accessory identity `pqacc-022` / Android 13's Hat because direct inventory evidence could strengthen the residual record without inventing a repository ID.
+- [x] Current external Xenoverse 2 evidence identifies **Android 13's Hat as accessory ID 918**, confirms Future Warrior accessory availability, and reports **TP Medal Shop / 7 TP** provenance. citeturn4search0turn4search1turn4search8
+- [x] Updated `docs/data/accessory-pq-canonical-remaining.json` to preserve the stronger exact-item evidence while keeping the repository status **unmatched** because no exact current canonical inventory endpoint exists.
+- [x] Added `docs/data/android-13-hat-residual-identity-evidence-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: new audit, residual identity ledger, and registry all parse as valid JSON.
+- [x] Evidence boundary preserved: external ID 918 is not converted into a repository `acc-###` ID; TP Shop provenance is not turned into a current rotation claim; PQ105 is not treated as a guaranteed reward route.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [x] Commits: `2b4901a002eb0a037613e034ef3b1188ee973631`, `04c322f98a9416d67050944152c33ac18ce53718`, `1ad71d843ca39dc481c83cb15bc45f946c1d1c41`.
+- [ ] **Exact next:** continue the residual accessory identity queue, prioritizing the next unresolved exact-name candidate with direct current inventory evidence; preserve component/clothing ambiguity and never infer a canonical accessory ID from an external numeric ID alone.
