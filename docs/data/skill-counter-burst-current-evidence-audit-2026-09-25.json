@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-counter-burst-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Counter Burst",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Ki Blast",
+    "ki_cost": 100,
+    "damage_type": "Ki Blast",
+    "source_quest_or_shop": "Parallel Quest 75 — Room to Spare; Vegeta SSGSS Partner Customization",
+    "unlock_method": "Parallel Quest 75; current documentation also records Partner Customization availability for SSGSS Vegeta",
+    "mechanics": "Projects an energy shield that absorbs an incoming Ki Blast attack and returns a stronger Ki Blast counter; current skill data documents a six-hit counter projectile.",
+    "character_source": "Vegeta; SSGSS Vegeta; Trunks (Future)"
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Counter_Burst",
+    "https://dragonball.fandom.com/wiki/Counter_Burst",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
+  ],
+  "limits": [
+    "No universal damage percentage is promoted as canonical.",
+    "PQ reward probability and Ultimate-Finish requirement remain unresolved.",
+    "Historical/general discussion is retained as corroboration rather than used to infer hidden reward conditions."
+  ]
+}
