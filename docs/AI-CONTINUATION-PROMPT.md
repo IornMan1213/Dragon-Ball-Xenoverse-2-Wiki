@@ -1775,3 +1775,13 @@
 - [x] Commit: `398f721d788120280e6d9f09489c66f4d04e3480`.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** continue the deterministic non-PQ consumer scan for remaining stale scalar counts, orphan endpoint IDs, and one-way navigation.
+
+
+### 2026-09-25 cycle update — mentor typed-reward consumer reconciliation
+- [x] Re-scanned current mentor/non-PQ consumers after the coverage scalar repair.
+- [x] Found a semantic count drift in `docs/data/mentor-skill-coverage-audit-2026-09-24.json`: `typed_skill_rewards` was **131**, while the live mentor presentation/reconciliation layer records **132 typed skill rewards**, consisting of 131 resolved canonical skill edges plus 1 explicitly unresolved Hit lesson (Time Skip/Tremor Pulse).
+- [x] Corrected only `typed_skill_rewards` **131 → 132**; retained `mentor_skill_forward_edges=131`, `unique_skill_targets=130`, `unresolved_skill_lessons=1`, and `broken_skill_endpoints=0`.
+- [x] Validation passed after re-fetch: 132 typed rewards / 131 resolved edges / 130 unique targets / 1 unresolved lesson / 0 broken endpoints.
+- [x] Commit: `052fdd3ff45323c3ddc9efbb8dbacc0a14d37470`.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the current-facing non-PQ consumer scan, prioritizing numeric/count fields that distinguish typed rewards from resolved canonical endpoints; preserve historical snapshots and unresolved boundaries.
