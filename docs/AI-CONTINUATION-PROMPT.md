@@ -806,3 +806,15 @@
 - [x] Validation: changed JSON parsed successfully; canonical/index parity remains **469/469**.
 - [ ] CI success remains unverified; no CI success claimed.
 - [ ] **Exact next:** continue **skill-batch-173.json — Cross Arm Dive** using the same bounded provenance workflow, with live canonical evidence checked first.
+
+
+### 2026-09-24 cycle update — Cross Arm Dive P1 provenance verification
+- [x] Live canonical census remains **469** skill records; no canonical promotion was required.
+- [x] Bounded batch: **skill-research-batches/skill-batch-173.json — Cross Arm Dive**.
+- [x] Revalidated Xenoverse 2 **Super / Strike**, **100 Ki**, CaC/Future Warrior availability, and **Skill Shop** acquisition using current Xenoverse 2-specific evidence plus independent corroboration.
+- [x] Strengthened mechanics evidence: rising-then-falling attack, cross-arm downward chop, and knockdown behavior; independent community evidence corroborates use after knockdown setups.
+- [x] Added `docs/data/skill-cross-arm-dive-p1-provenance-verification-2026-09-24.json` and updated batch 173.
+- [x] Preserved evidence limits: stamina, exact frame/tracking/hitbox values, and stable universal numeric damage remain unresolved/version-sensitive. Historical Xenoverse shop pricing/progression was not imported.
+- [x] Validation: changed JSON parsed successfully; canonical/index parity remains **469/469**.
+- [ ] CI success remains unverified; no CI success claimed.
+- [ ] **Exact next:** continue the next deterministic research batch after 173 using the existing batch sequence and the same bounded provenance workflow.
