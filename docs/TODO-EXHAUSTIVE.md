@@ -8104,3 +8104,10 @@
 - [x] Preserved unresolved reward semantics and evidence boundaries.
 - [ ] CI remains unverified.
 - [ ] **Next:** recompute the live catalog and continue alphabetically after Dodon Ray, excluding completed evidence tranches.
+
+### 2026-09-25 — TODO completion update — Batch 320
+- [x] Reconciled **Atomic Blast, Bending Kamehameha, Big Bang Attack, Big Bang Kamehameha**.
+- [x] Added and registered `docs/data/skill-batch-320-atomic-big-bang-evidence-refresh-2026-09-25.json`.
+- [x] Preserved evidence conflicts and unsupported-field boundaries.
+- [ ] CI remains unverified.
+- [ ] **Next:** continue after the Batch 320 boundary with the next unreconciled Ki Blast Super records.
