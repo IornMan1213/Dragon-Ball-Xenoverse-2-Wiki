@@ -266,3 +266,12 @@
 - [x] Synchronized canonical Batch 54, skills index, and cross-domain index.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** perform a fresh live census of the remaining repository-wide under-enriched/partially-verified canonical skills and select the next bounded source-backed batch outside the now-closed Batch 54.
+
+
+### 2026-09-25 cycle completion — Expert Mission skill provenance promotion
+- [x] Promoted **Death Meteor**, **Death Wave**, **Hellzone Grenade**, and **Murder Grenade** to `verified_current_scope`.
+- [x] Strengthened current classifications/resource costs and bounded mechanics from current Xenoverse 2 evidence.
+- [x] Added and registered four current-evidence audits.
+- [x] Preserved unresolved Expert Mission reward probability/guarantee semantics.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** continue with **Shocking Death Ball** and **Spirit Sword**, then the next partially verified Expert Mission skill.
