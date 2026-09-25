@@ -6,8 +6,8 @@
   "repairs": [
     {
       "field": "canonical_equipment_accessory_records",
-      "before": 173,
-      "after": 174,
+      "before": 174,
+      "after": 173,
       "status": "repaired"
     },
     {
@@ -25,7 +25,7 @@
     "dlc": 86,
     "total_edges": 853
   },
-  "target_population_note": "The equipment PQ relationship target population remains 173 because the current 174-record equipment/accessory layer includes one record without a canonical pq_rewards_equipment edge. The scalar canonical domain count is therefore distinct from the relationship target count.",
+  "target_population_note": "The equipment PQ relationship target population remains 173 because the current 173-record equipment/accessory layer includes one record without a canonical pq_rewards_equipment edge. The scalar canonical domain count now matches the live canonical record layer; the 173-record PQ relationship target population remains a separate relationship metric.",
   "validation": {
     "stale_current_domain_scalars_repaired": 2,
     "canonical_relationship_edges_changed": 0,
