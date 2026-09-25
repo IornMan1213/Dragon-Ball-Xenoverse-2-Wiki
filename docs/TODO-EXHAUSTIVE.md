@@ -21,3 +21,11 @@
 - [x] Registered the batch in the cross-domain index.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the remaining source-backed P1 provenance/data queue with the next under-enriched canonical record.
+
+
+### 2026-09-25 completion — Canonical skill provenance normalization
+- [x] Promoted Ice Cannon to `verified_current_scope` on direct current Xenoverse 2 evidence.
+- [x] Corrected x10 Kamehameha canonical source-label capitalization/wording.
+- [x] Preserved unresolved probability/prerequisite fields.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the remaining under-enriched canonical skill provenance queue using direct current Xenoverse 2 evidence.
