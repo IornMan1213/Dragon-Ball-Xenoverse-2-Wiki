@@ -7480,3 +7480,12 @@
 - [x] Current Actions rerun inspection: Repository quality and Clean internal artifacts still complete as failures with no exposed workflow steps/logs. No CI success is claimed.
 - [x] Corrected live commit sequence: `dc3c8029`, `4a49a1b9`, `cd31986c`, `5e41fd44`, `85126d70`, `d7c72351`, `59436781`, `6a3863ed`.
 - [ ] **Exact next:** continue **skill-batch-203 — Demon Flash Strike** after inspecting current Actions state, using the same bounded P1 provenance workflow and preserving the 469/469 canonical boundary.
+
+
+### 2026-09-24 TODO completion update — Demon Flash Strike P1 provenance verification
+- [x] Live provenance census: **465 canonical / 465 index / 0 duplicate IDs**.
+- [x] Completed **skill-batch-203 — Demon Flash Strike** with current Super / Strike / Counter Skill classification, 100 Ki, Gohan (Beast), Hero of Justice Pack 2, and PQ160 provenance.
+- [x] Preserved Basic Reward semantics and did not invent an Ultimate Finish gate or drop probability.
+- [x] Refreshed `docs/data/skill-research-batches/skill-batch-203.json` to 2026-09-24 and preserved unresolved exact frame/hitbox, stamina, probability, and matchup evidence.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-204** using the bounded P1 provenance workflow.
