@@ -79,12 +79,13 @@
       "source_quest_or_shop": "Parallel Quest 72",
       "ultimate_finish_required": null,
       "skill_description": "Fires a Kamehameha and can consume additional Ki through a second input to extend the blast and deal more damage.",
-      "mechanics_notes": "Current skill-specific data classifies Burst Kamehameha as a Ki Blast Super. Initial activation uses 100 Ki; an additional input consumes another Ki bar for the extended attack.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
+      "mechanics_notes": "Current Xenoverse 2-specific evidence confirms Burst Kamehameha as a Ki Blast Super with 100 Ki initial activation; a second input during the connecting blast consumes another 100 Ki to prolong the multi-hit beam and deal additional damage. PQ72 is the current acquisition endpoint. Independent reward discussion confirms the skill can fail to drop even after completing PQ72, including an Ultimate Finish, so no Ultimate-Finish-only requirement or numeric drop probability is inferred.",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burst_Kamehameha",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
+        "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/604213-i-have-finished-parallel-quest-72-but-i-didnt-get-burst-kamehameha",
+        "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/74491833"
       ]
     },
     {
