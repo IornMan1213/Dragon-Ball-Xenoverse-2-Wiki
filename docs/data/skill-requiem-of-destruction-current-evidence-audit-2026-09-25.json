@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-requiem-of-destruction-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "scope": [
+    "Requiem of Destruction"
+  ],
+  "canonical_baseline": {
+    "canonical_skill_count": 470,
+    "index_skill_count": 470,
+    "canonical_promotion": 0,
+    "parity_preserved": true
+  },
+  "findings": {
+    "identity": "Ki Blast Ultimate; 300 Ki.",
+    "acquisition": "Current Xenoverse 2-specific skill documentation identifies Parallel Quest 106 — A Destructive Showdown as the acquisition endpoint; Bandai Namco's Super Pack 2 announcement includes Requiem of Destruction among the eight attacks in the pack.",
+    "mechanics": "Large Ki sphere traps/paralyzes the opponent before detonating; dedicated skill documentation describes 3 hits and approximately 40% total damage.",
+    "partner_endpoint": "After the 1.09.00 update, Dragon Ball Wiki documents Requiem of Destruction as available for Whis's Customize Partner after purchase in Partner Customization."
+  },
+  "reward_semantics": {
+    "status": "conflict_preserved",
+    "evidence": [
+      "The maintained Steam PQ guide lists Requiem of Destruction in PQ106 Basic Reward.",
+      "A GameFAQs discussion reports players treating Requiem of Destruction as an Ultimate Finish reward."
+    ],
+    "canonical_action": "Do not promote ultimate_finish_required to true from the conflicting evidence."
+  },
+  "limits": [
+    "Exact drop probability remains unresolved.",
+    "No first-clear guarantee is inferred.",
+    "The approximately 40% damage figure is not treated as universal/version-independent canonical damage.",
+    "The Dragon Ball Wiki overview contains a textual PQ104 typo; the Xenoverse 2-specific skill page and maintained PQ106 guide agree on PQ106."
+  ],
+  "result": "Current evidence materially strengthens identity, 300-Ki cost, PQ106 endpoint, DLC provenance, and partner-customization context without altering canonical relationship or reward-gate semantics."
+}
