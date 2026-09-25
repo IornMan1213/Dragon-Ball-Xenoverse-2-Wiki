@@ -37,5 +37,5 @@
       ]
     }
   ],
-  "notes": "Both records were absent from docs/data/skills.json and had not been represented by an earlier research batch. Energy Cannon has explicit Super/Ki Blast taxonomy and cast-only Demigra ownership. Darkness Mixer has explicit Other Super taxonomy and cast-only status. Numeric Ki costs remain null where the dedicated sources do not provide them."
+  "notes": "Both records were absent from docs/data/skills.json and had not been represented by an earlier research batch. Energy Cannon has explicit Super/Ki Blast taxonomy and cast-only Demigra ownership. Darkness Mixer has explicit Other Super taxonomy and cast-only status. Numeric Ki costs remain null where the dedicated sources do not provide them. 2026-09-24 verification: current Xenoverse 2-specific evidence independently confirms Darkness Mixer as an Other Super, Crystal Raid-capable, normally unavailable to CaCs, and used by Supervillain characters; numeric Ki cost remains unresolved. Energy Cannon's existing Ki Blast Super/Demon God Demigra classification remains unchanged; no new reliable numeric cost or acquisition endpoint was found, so nulls are preserved."
 }
