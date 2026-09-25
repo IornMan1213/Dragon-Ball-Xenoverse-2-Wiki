@@ -223,6 +223,7 @@
 - [x] Emperor's Edge audit preserves the bounded Ki Blast Super classification, 100-Ki cost, PQ99 endpoint, and Basic Reward corroboration without inventing a more specific subtype.
 - [x] X100 Big Bang Kamehameha audit confirms the 500-Ki Ki Blast Ultimate, PQ100/TP Medal Shop routes, 24-hit beam behavior, and lock-off sweep behavior; exact drop probability/Ultimate-Finish requirement remain unresolved.
 - [x] Web evidence was refreshed against current Xenoverse 2-specific skill pages and independent/archived acquisition evidence.
-- [ ] Canonical Batch 54 promotion fields for these records still need synchronization because the repository write gate blocked direct mutation of the existing batch JSON during this continuation.
-- [ ] **Next priority:** synchronize these three audits into Batch 54 and register their cross-domain links, then continue the remaining Batch 54 records.
+- [x] Canonical Batch 54 promotion fields for Dimension Ray, Emperor's Edge, and X100 Big Bang Kamehameha synchronized after the write gate cleared.
+- [x] Registered all three current-evidence audits in `docs/data/pq-cross-domain-index.json` with PQ98/PQ99/PQ100 endpoints.
+- [ ] **Next priority:** continue the remaining Batch 54 records and preserve bounded acquisition/drop semantics.
 
