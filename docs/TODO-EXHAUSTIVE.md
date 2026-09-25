@@ -7728,3 +7728,11 @@
 - [x] Preserved the **469/469** canonical boundary.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** research **Baked Sphere** and continue the cast-only unresolved queue.
+
+
+### 2026-09-24 — TODO completion update — Baked Sphere evidence follow-up
+- [x] Strengthened Baked Sphere with independent Xenoverse 2 identity and CaC-unavailable evidence.
+- [x] Preserved the Explosive Wave research subcategory and unresolved numeric Ki cost.
+- [x] Preserved the **469/469** canonical boundary.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the remaining unresolved cast-only skill queue.
