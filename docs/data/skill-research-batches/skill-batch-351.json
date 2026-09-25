@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 351,
+  "created": "2026-09-25",
+  "type": "evidence_reconciliation",
+  "scope": "Current Xenoverse 2 mechanics/provenance refresh for Mach Dash, Mach Punch, Maiden Blast, and Majin Kamehameha.",
+  "records": [
+    {
+      "name": "Mach Dash",
+      "id": "skill-mach-dash",
+      "audit": "docs/data/skill-mach-dash-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Mach Punch",
+      "id": "skill-mach-punch",
+      "audit": "docs/data/skill-mach-punch-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Maiden Blast",
+      "id": "skill-maiden-blast",
+      "audit": "docs/data/skill-maiden-blast-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Majin Kamehameha",
+      "id": "skill-majin-kamehameha",
+      "audit": "docs/data/skill-majin-kamehameha-current-evidence-audit-2026-09-25.json"
+    }
+  ],
+  "validation": {
+    "canonical_promotion": true,
+    "canonical_skill_baseline": 469,
+    "index_skill_baseline": 469,
+    "duplicate_ids": 0,
+    "relationship_changes": 0,
+    "unsupported_drop_rates_promoted": 0,
+    "unsupported_gates_added": 0,
+    "source_reported_damage_values_bounded": true
+  },
+  "evidence_boundary": "Mechanics notes were expanded only where current Xenoverse 2-specific documentation directly supports the behavior. Source-reported damage/hit counts remain explicitly bounded; exact timers, frame data, probabilities, and hidden gates are not inferred."
+}
