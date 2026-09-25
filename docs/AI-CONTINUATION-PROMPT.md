@@ -96,3 +96,13 @@
 - [x] Current evidence review identified Victory Rush as the next partially verified Batch 54 provenance target; PQ89 reward placement and current skill mechanics are corroborated.
 - [ ] Repository mutation for this target was blocked by the GitHub write safety gate in this cycle; no false completion is recorded.
 - [ ] Exact next: apply the Victory Rush research-layer promotion and audit, then continue the remaining provenance queue.
+
+
+### 2026-09-25 cycle completion — III Bomber current-evidence provenance promotion
+- [x] Added `docs/data/skill-iii-bomber-current-evidence-audit-2026-09-25.json`.
+- [x] Promoted **III Bomber** in Skill Research Batch 54 to `verified_current_scope` using current Xenoverse 2-specific evidence for its Ki Blast Super identity, 100-Ki cost, Majin CaC restriction, PQ90 endpoint, and unblockable explosion/invisibility behavior.
+- [x] Preserved unresolved reward probability and Ultimate-Finish semantics; no unsupported gate or numeric drop rate was added.
+- [x] Registered the audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: parsed updated JSON structures and checked the III Bomber record plus index registration; no canonical relationship or identity was changed.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** continue Batch 54 with **Final Kamehameha**, then the next remaining partially verified/under-enriched record where direct current Xenoverse 2 evidence can promote a canonical research field.
