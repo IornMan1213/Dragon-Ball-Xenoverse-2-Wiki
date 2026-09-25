@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 345,
+  "created": "2026-09-25",
+  "type": "evidence_reconciliation",
+  "scope": "Final verified-frontier promotion for Super God Fist, Variant Drive, and Zigzag Express",
+  "records": [
+    {
+      "id": "skill-super-god-fist",
+      "name": "Super God Fist",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": 100,
+      "source_quest_or_shop": "Parallel Quest 67 — \"Power of a Super Saiyan God\"",
+      "character_source": "Goku",
+      "mechanics": "Fast single-hit right-hand punch coated in Ki; on connection the camera zooms in on the impact. Its pseudo-grab properties can bypass Super Armor, although it can still be blocked/vanished in relevant situations.",
+      "promoted_fields": [
+        "verification_status",
+        "research_status",
+        "last_verified",
+        "character_source",
+        "skill_description",
+        "mechanics_notes"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_God_Fist",
+        "https://dragonball.fandom.com/wiki/Super_God_Fist",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "limits": [
+        "PQ67 acquisition is corroborated by current skill documentation and the maintained PQ guide; exact drop probability is unresolved.",
+        "No narrower CaC race/gender/form restriction is inferred."
+      ]
+    },
+    {
+      "id": "skill-variant-drive",
+      "name": "Variant Drive",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": 100,
+      "source_quest_or_shop": "Parallel Quest 123 — \"Planetary Possession\"",
+      "character_source": "Super Baby 2",
+      "mechanics": "Rushes forward with a punch and knee; directional input plus attack input can fire an unblockable shockwave that knocks the opponent away, while guarding cancels the rush. Current skill documentation records about 10% melee and 15% shockwave damage.",
+      "promoted_fields": [
+        "verification_status",
+        "research_status",
+        "last_verified",
+        "character_source",
+        "skill_description",
+        "mechanics_notes"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Variant_Drive",
+        "https://dragonball.fandom.com/wiki/Variant_Drive",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "limits": [
+        "Steam PQ guide explicitly lists Variant Drive as a Basic Reward; independent Dragon Ball documentation describes it as a random PQ123 reward. Exact underlying drop probability is unresolved.",
+        "Red-health damage modifiers reported by the current Fandom page are preserved only as source context and are not promoted into canonical numeric mechanics here."
+      ]
+    },
+    {
+      "id": "skill-zigzag-express",
+      "name": "Zigzag Express",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": 100,
+      "source_quest_or_shop": "Parallel Quest 85 — \"Power Berserkers\"",
+      "character_source": "Majin (Male)",
+      "mechanics": "Controllable short rush that spins the user with air warped around the body; current documentation records a four-hit rush and slight directional control.",
+      "promoted_fields": [
+        "verification_status",
+        "research_status",
+        "last_verified",
+        "character_source",
+        "skill_description",
+        "mechanics_notes"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Zigzag_Express",
+        "https://dragonball.fandom.com/wiki/Zigzag_Express",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "limits": [
+        "Current Fandom skill page currently displays Skill Shop as an obtained-from endpoint, conflicting with the maintained PQ85 evidence and Dragon Ball Wiki's PQ85 acquisition statement. The repository preserves PQ85 as the documented acquisition source because multiple independent PQ sources explicitly list Zigzag Express in PQ85 Basic Reward.",
+        "Male Majin usability restriction is supported; no additional form/timing/damage claims are promoted."
+      ]
+    }
+  ],
+  "validation": {
+    "records": 3,
+    "unsupported_numeric_drop_rates_promoted": 0,
+    "unsupported_gates_added": 0,
+    "relationship_changes": 0
+  },
+  "evidence_boundary": "The final three verified-frontier skills were enriched using current exact-name Xenoverse 2 evidence. The Zigzag Express acquisition conflict is explicitly preserved rather than silently normalized."
+}
