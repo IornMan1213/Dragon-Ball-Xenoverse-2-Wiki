@@ -1688,3 +1688,15 @@
 - [ ] CI success remains unverified; no usable workflow-step/log result is exposed by the current GitHub connector.
 - [x] Commits: 4575e5172e541bd944c05605ce3f2a487ac3b1c7, 881266e63468f89543f7af3213b75e809c8c73ff, d4a9e7259f6758e32aa91295074de7b9e251fd54.
 - [ ] **Exact next:** continue the next deterministic partially verified skill tranche after Batch 311, using direct Xenoverse 2 evidence; prioritize the remaining Batch 311 records (Spirit Ball, Death Meteor, Minus Energy Power Ball) and preserve nulls where evidence is insufficient.
+
+
+### 2026-09-24 cycle completion — Batch 311 remaining three-skill evidence reconciliation
+- [x] Continued the exact next task: Spirit Ball, Death Meteor, and Minus Energy Power Ball.
+- [x] Spirit Ball: established 300 Ki, Ki Blast Ultimate classification, Yamcha Lesson 3 acquisition, and controllable/tracking projectile behavior.
+- [x] Death Meteor: established 300 Ki and Expert Mission 7 acquisition; corrected the research subcategory to **Strike** because current Xenoverse 2 documentation explicitly classifies it as a Strike Ultimate.
+- [x] Minus Energy Power Ball: established 500 Ki, Ki Blast Ultimate classification, Guru-expanded Shenron wish acquisition, and 39-hit long-range projectile behavior.
+- [x] Added docs/data/skill-batch-311-remaining-evidence-audit-2026-09-24.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Changed JSON was parsed successfully; unsupported drop rates, CaC claims, frame data, and exact damage multipliers were not invented.
+- [ ] CI remains unverified.
+- [x] Commits: 291ab2bc326fd7d22cebd102bde7701a8c9e943a, 3331df3988597e30031ee31aac58e0bd0cc315c4, 8e7fb8c1f3caaa8eb6afcc32663dbf148f5c473c.
+- [ ] **Exact next:** inspect the remaining unfinished research census and continue the next deterministic partially verified tranche after Batch 311; prioritize acquisition/mechanics gaps and cross-domain links, without creating duplicate batch identities.
