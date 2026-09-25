@@ -10,18 +10,19 @@
       "subcategory": "Other",
       "race_restriction": "Majin",
       "usable_by_cac": true,
-      "ki_cost": 0,
+      "ki_cost": 300,
       "stamina_cost": 0,
       "damage_type": "Utility",
       "unlock_method": "Skill Shop after defeating Mira (Final Form) in the main story; TP/STP Medal rotation evidence remains an alternate historical/provenance route.",
       "skill_description": "The user lies down and recovers Health while the button is held. The user is defenseless during the sleep. Purification Majins can also recover Ki and Stamina.",
-      "mechanics_notes": "Majin-only. User lies down and recovers Health while the button is held; the user is defenseless during sleep. Purification Majins can also recover Ki and Stamina. Exact recovery rate, timing, and combat-value figures remain unresolved.",
-      "verification_status": "partially_verified",
+      "mechanics_notes": "Majin-only. User lies down and recovers Health while the button is held; the user is defenseless during sleep. Purification Majins can also recover Ki and Stamina. Exact recovery rate, timing, and combat-value figures remain unresolved. Current Xenoverse 2-specific skill reference explicitly lists 300 Ki used; this supersedes the stale 0-Ki research value.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-24",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/quick-sleep.md",
-        "https://dbxv2.fandom.com/wiki/Quick_Sleep"
+        "https://dbxv2.fandom.com/wiki/Quick_Sleep",
+        "https://dragonball.fandom.com/wiki/Sleep"
       ]
     },
     {
