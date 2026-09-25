@@ -7935,3 +7935,15 @@
 - [ ] CI: no workflow runs exposed for the latest Batch 309 writes; no CI success claimed.
 - [x] Commits: audit `82d70e6ef72b0a63ec37aba094a394325bb402e5`; batch `0117446e4c776f6bfb44a04adf7c0516377f7222`; registry `2fbc9ba78a634828bb544eaab27984a17b8b3794`.
 - [ ] **Exact next:** continue **skill-batch-310**, starting with the next Ki Blast Ultimate whose missing fields can be directly resolved from current Xenoverse 2 evidence.
+
+
+### 2026-09-24 cycle completion — Batch 310 Ki Blast Ultimate evidence enrichment
+- [x] Completed **skill-batch-310** across Super Ghost Kamikaze Attack, Full Power Energy Blast Volley, Neo Tri-Beam, Vacation Delete, Breaker Energy Wave, God of Destruction's Menace, Revenge Death Ball, Gigantic Burst, and Prominence Flash.
+- [x] Strengthened current Xenoverse 2 evidence for classification, Ki costs, acquisition endpoints, user provenance, hit counts, and mechanics where directly supported.
+- [x] Corrected **Breaker Energy Wave** from unresolved cost to **0 Ki**, supported by its dedicated current page and its once-only low-health condition.
+- [x] Preserved unresolved reward-probability and Ultimate-Finish semantics; no unsupported drop logic was introduced.
+- [x] Added/registered `docs/data/skill-batch-310-ki-blast-ultimate-evidence-audit-2026-09-24.json` and updated the research batch.
+- [x] Validation: changed JSON parsed successfully; canonical reconstruction was not attempted.
+- [ ] CI: no workflow runs exposed for the latest writes; no CI success claimed.
+- [x] Commits: audit `2d51e88b15617cc2ddcadac16426e96f4e87bd3a`; batch `581deac4d9b668b24a275af143b40d9027a9d695`; registry `31daf8470956f2464ec695b8e1579eeb711a98be`.
+- [ ] **Exact next:** continue **skill-batch-311**, beginning with Blue Hurricane and Assault Rain, and resolve only fields directly supported by current Xenoverse 2 evidence.
