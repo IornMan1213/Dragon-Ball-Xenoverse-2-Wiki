@@ -5929,17 +5929,17 @@
       "source_quest_or_shop": "Skill Shop after Android Warfare",
       "ultimate_finish_required": false,
       "skill_description": "A CaC-exclusive grab Super that steals both Ki and Stamina.",
-      "mechanics_notes": "The maintained research reference identifies Hyper Drain as a Strike Super that steals both Ki and Stamina. Exact amounts and detailed timing remain unresolved and are not inferred.",
-      "verification_status": "partially_verified",
+      "mechanics_notes": "100-Ki Strike Super exclusive to CaCs. The user grabs the opponent, drains 1 Stamina bar and 2 Ki bars, then punches them away; the user receives 1 Stamina bar and 2 Ki bars, subject to the documented floor behavior when the target has less resource.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Hyper_Drain",
         "https://dbxv2.fandom.com/wiki/Grab"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-24 coverage recovery: promoted the pre-existing Skill Research Batch 38 record into canonical coverage after live repository search confirmed it was absent. Acquisition, classification, and CaC scope are source-backed; exact drain amounts/timing remain unresolved.",
+      "notes": "2026-09-24 coverage recovery: promoted the pre-existing Skill Research Batch 38 record into canonical coverage after live repository search confirmed it was absent. Acquisition, classification, and CaC scope are source-backed; exact drain amounts/timing remain unresolved.\n2026-09-25 current-evidence promotion: dedicated Xenoverse 2 documentation confirms the Strike Super identity, 100 Ki, Skill Shop after Android Warfare endpoint, CaC exclusivity, and documented 1-Stamina/2-Ki drain-and-restore behavior. Exact online timing/edge cases remain outside the canonical claim.",
       "id": "skill-hyper-drain"
     },
     {
@@ -5956,17 +5956,17 @@
       "source_quest_or_shop": "TP Medal Shop",
       "ultimate_finish_required": false,
       "skill_description": "An Evasive skill that teleports to the opponent and attacks, with landing interception behavior after knockback.",
-      "mechanics_notes": "The maintained Evasive research identifies Hyper Movement as a 200-Stamina Strike Evasive, available to CaCs through the TP Medal Shop. It teleports to the opponent and can intercept their landing position after knockback.",
-      "verification_status": "partially_verified",
+      "mechanics_notes": "200-Stamina Strike Evasive. Teleports in front of the opponent and punches; current evidence describes 5% damage and knockback, with a documented follow-up interception use after a prior knockback.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Evasive_Skill",
         "https://dragonball.fandom.com/wiki/Hyper_Movement"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "shop",
-      "notes": "2026-09-24 coverage recovery: promoted the pre-existing Strike Evasive research record into canonical coverage after live repository search confirmed it was absent. TP Medal Shop acquisition, 200 Stamina cost, CaC usability, and documented teleport/landing-interception behavior are retained; no unsupported timing or damage values were inferred.",
+      "notes": "2026-09-24 coverage recovery: promoted the pre-existing Strike Evasive research record into canonical coverage after live repository search confirmed it was absent. TP Medal Shop acquisition, 200 Stamina cost, CaC usability, and documented teleport/landing-interception behavior are retained; no unsupported timing or damage values were inferred.\n2026-09-25 current-evidence promotion: dedicated Xenoverse 2 and Dragon Ball references confirm the 200-Stamina Strike Evasive identity and TP Medal Shop endpoint. Current mechanics evidence documents teleport/punch behavior and the knockback-interception use; exact timing/scaling remains bounded.",
       "id": "skill-hyper-movement"
     },
     {
@@ -6008,16 +6008,16 @@
       "source_quest_or_shop": "Shenron wish — I want a new Ultimate Attack!",
       "ultimate_finish_required": null,
       "skill_description": "A freezing Ki Blast Ultimate that hits five times and freezes the opponent.",
-      "mechanics_notes": "300-Ki freezing Ki Blast Ultimate; current evidence describes a five-hit projectile that freezes the opponent for 3 seconds.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate. The user spins and fires a freezing projectile that deals 15% damage over 5 hits and freezes the opponent for about 3 seconds. Current documentation identifies the Shenron wish endpoint.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ice_Cannon"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "wish",
-      "notes": "2026-09-24 coverage recovery: promoted the pre-existing Skill Research Batch 307 record into canonical coverage after live repository search confirmed it was absent. Classification, 300 Ki cost, CaC availability, wish endpoint, and documented freezing effect are retained without unsupported reward or probability claims. 2026-09-25 provenance promotion: current dedicated Xenoverse 2 evidence directly exposes the 300-Ki Ultimate/Ki Blast classification, Shenron wish endpoint, CaC availability, and freezing behavior. No unsupported wish frequency, prerequisite, or reward probability is inferred.",
+      "notes": "2026-09-24 coverage recovery: promoted the pre-existing Skill Research Batch 307 record into canonical coverage after live repository search confirmed it was absent. Classification, 300 Ki cost, CaC availability, wish endpoint, and documented freezing effect are retained without unsupported reward or probability claims. 2026-09-25 provenance promotion: current dedicated Xenoverse 2 evidence directly exposes the 300-Ki Ultimate/Ki Blast classification, Shenron wish endpoint, CaC availability, and freezing behavior. No unsupported wish frequency, prerequisite, or reward probability is inferred.\n2026-09-25 current-evidence promotion: dedicated Xenoverse 2 documentation confirms the 300-Ki Ki Blast Ultimate identity, Shenron wish acquisition, CaC availability, five-hit freezing projectile, and approximately 3-second freeze. No unsupported prerequisite or reward probability was added.",
       "id": "skill-ice-cannon"
     },
     {
@@ -6034,16 +6034,16 @@
       "source_quest_or_shop": "Shenron wish — I want a new Super Attack!",
       "ultimate_finish_required": null,
       "skill_description": "A short-range Strike Super using claw strikes that blind the opponent.",
-      "mechanics_notes": "The maintained catalog research identifies Ice Claw as a 100-Ki Strike Super available to CaCs through the Shenron wish for a new Super Attack; the documented effect is short-range claw strikes that blind the opponent.",
-      "verification_status": "partially_verified",
+      "mechanics_notes": "100-Ki Strike Super. The user rushes forward and claws the opponent twice, with current evidence describing 10% damage and a brief blinding effect that enables follow-up attacks. The documented acquisition endpoint is the Shenron wish for a new Super Attack.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ice_Claw"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "wish",
-      "notes": "2026-09-24 coverage recovery: promoted the pre-existing Skill Research Batch 286 record into canonical coverage after live repository search confirmed it was absent. Classification, 100 Ki cost, CaC availability, wish endpoint, and blinding effect are retained without unsupported probability claims.",
+      "notes": "2026-09-24 coverage recovery: promoted the pre-existing Skill Research Batch 286 record into canonical coverage after live repository search confirmed it was absent. Classification, 100 Ki cost, CaC availability, wish endpoint, and blinding effect are retained without unsupported probability claims.\n2026-09-25 current-evidence promotion: dedicated Xenoverse 2 documentation confirms the Strike Super identity, 100 Ki, Shenron wish endpoint, and two-hit blinding claw attack. Historical alternate-route descriptions remain provenance only and do not override the current dedicated endpoint.",
       "id": "skill-ice-claw"
     },
     {
