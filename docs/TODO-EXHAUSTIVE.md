@@ -8437,3 +8437,11 @@
 - [x] Canonical relationship/identity data unchanged.
 - [ ] CI/runtime execution remains unavailable.
 - [ ] **Exact next:** audit remaining PQ-facing validators and summary consumers for incomplete domain coverage or stale endpoint/scalar assumptions.
+
+
+### 2026-09-25 continuation cycle — Skills PQ reverse validator hardening
+- [x] Hardened `scripts/validate_skills_pq_reverse_navigation.py` with explicit 244-edge, PQ 1–186, and row-shape invariants.
+- [x] Added/registered the dated hardening audit.
+- [x] Canonical data unchanged.
+- [ ] CI/runtime execution remains unavailable.
+- [ ] **Exact next:** continue auditing remaining PQ-facing validators and summary consumers for stale endpoint/scalar assumptions.
