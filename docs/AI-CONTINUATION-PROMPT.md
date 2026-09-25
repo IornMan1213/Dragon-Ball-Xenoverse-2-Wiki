@@ -180,3 +180,15 @@
 - [x] Validation completed against the live Batch 52 record and cross-domain index.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** continue Batch 52 with **Warp Kamehameha**.
+
+
+### 2026-09-25 cycle completion — Warp Kamehameha current-evidence provenance promotion
+- [x] Promoted **Warp Kamehameha** in Skill Research Batch 52 to `verified_current_scope` using current Xenoverse 2-specific skill evidence and PQ76 corroboration.
+- [x] Confirmed **400 Ki**, Ki Blast Ultimate classification, teleport-to-locked-target behavior, tracking/beam characteristics, knockback, and approximately 30% damage over 24 hits.
+- [x] Confirmed PQ76 — **Eternal Rival** as the acquisition endpoint and preserved Partner Customization context.
+- [x] Preserved the historical **300-Ki discrepancy** from the older general Xenoverse reference rather than silently overwriting it.
+- [x] Added and registered `docs/data/skill-warp-kamehameha-current-evidence-audit-2026-09-25.json`.
+- [x] Preserved unresolved numeric drop-probability semantics.
+- [x] Validation completed against live Batch 52 and cross-domain registration.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** continue Batch 52 with **Ki Explosion**.
