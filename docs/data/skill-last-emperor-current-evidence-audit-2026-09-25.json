@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-25",
+  "audit_id": "skill-last-emperor-current-evidence-audit-2026-09-25",
+  "scope": [
+    "Last Emperor"
+  ],
+  "canonical_baseline": {
+    "canonical_skill_count": 470,
+    "index_skill_count": 470,
+    "current_last_verified_records": 470,
+    "duplicate_ids": 0,
+    "canonical_promotion": 0
+  },
+  "evidence": [
+    {
+      "source": "https://steamcommunity.com/app/454650/discussions/0/1759104257589123714/",
+      "supports": [
+        "Xenoverse 2 identity distinction from Emperor's Death Beam",
+        "0-Ki behavior",
+        "low-health activation",
+        "single-use restriction"
+      ]
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=lx-PHQxqByU",
+      "supports": [
+        "Xenoverse 2 Last Emperor acquisition/tutorial context"
+      ]
+    }
+  ],
+  "repository_evidence_reused": [
+    "docs/data/skill-research-batches/skill-batch-52.json",
+    "https://dbxv2.fandom.com/wiki/Last_Emperor"
+  ],
+  "findings": {
+    "identity": "Last Emperor remains a Ki Blast Ultimate in Xenoverse 2.",
+    "cost": "0 Ki remains supported; the independent Steam discussion explicitly distinguishes Last Emperor from Emperor's Death Beam and states that Last Emperor does not use Ki.",
+    "restriction": "The low-health activation condition and one-use-per-activation-state behavior are independently corroborated by the Steam discussion.",
+    "mechanics": "The existing 21-hit beam note remains bounded to repository skill-specific evidence; no new universal damage, frame, or hitbox value is inferred.",
+    "acquisition": "The repository retains Parallel Quest 71 as the acquisition endpoint, but the reviewed evidence does not establish the exact reward slot/probability or an Ultimate Finish-only requirement."
+  },
+  "evidence_limits": [
+    "Exact PQ71 reward-slot semantics remain unresolved.",
+    "No numerical drop probability is inferred.",
+    "No new damage, frame, hitbox, or timing values are promoted.",
+    "Canonical promotion is deferred because the current canonical builder/runtime is not available through the connector."
+  ],
+  "result": "Current-evidence refresh complete; research-layer provenance strengthened without changing canonical identity or unresolved acquisition semantics."
+}
