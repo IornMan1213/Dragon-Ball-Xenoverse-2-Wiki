@@ -7687,3 +7687,10 @@
 - [x] Validation remains **469/469 canonical/index**, **0 duplicate IDs**; no canonical reconstruction.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the next partially verified Batch 54 target.
+### 2026-09-24 — TODO completion update — Batch 54 second enrichment follow-up
+- [x] Enriched Charged Ki Wave, Phantom Fist, Bluff Kamehameha, Emperor's Edge, and X100 Big Bang Kamehameha with current source evidence.
+- [x] Preserved Emperor's Edge subtype uncertainty after correcting an interim over-specific assertion.
+- [x] Added `docs/data/skill-batch-54-enrichment-followup-2026-09-24.json`.
+- [x] Validation remains **469/469 canonical/index**, **0 duplicate IDs**; no canonical reconstruction.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** recompute the live unfinished census and continue the next deterministic enrichment/reconciliation target.
