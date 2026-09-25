@@ -227,3 +227,13 @@
 - [x] Registered all three current-evidence audits in `docs/data/pq-cross-domain-index.json` with PQ98/PQ99/PQ100 endpoints.
 - [ ] **Next priority:** continue the remaining Batch 54 records and preserve bounded acquisition/drop semantics.
 
+
+
+### 2026-09-25 cycle completion — Neo Wolf Fang Fist current-evidence provenance promotion
+- [x] Promoted **Neo Wolf Fang Fist** in Skill Research Batch 54 to `verified_current_scope`.
+- [x] Added `docs/data/skill-neo-wolf-fang-fist-current-evidence-audit-2026-09-25.json` with current Xenoverse 2-specific skill evidence and independent PQ86 acquisition corroboration.
+- [x] Confirmed the variable **100–700 Ki** cost, **9–33 hit** continuable-rush behavior, Strike Super classification, and PQ86 acquisition endpoint.
+- [x] Preserved historical reports about older resource behavior as provenance; no unsupported drop probability or hidden Ultimate-Finish gate was inferred.
+- [x] Synchronized the current-facing skills index record and registered the audit in the cross-domain index.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** continue the remaining source-backed P1 provenance queue with the next under-enriched canonical skill where current Xenoverse 2-specific evidence can materially strengthen a field; do not repeat closed audits.
