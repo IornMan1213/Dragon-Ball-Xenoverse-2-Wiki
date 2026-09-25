@@ -270,3 +270,14 @@
 - [x] Live validation after editing: **18 verified / 0 partially verified / 18 total**, with exact drop rates unresolved.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** perform a fresh repository-wide census for the next under-enriched/partially-verified canonical skills outside the now-closed EM03-20 acquisition tranche; prioritize deterministic index/provenance gaps before broad descriptive expansion.
+
+
+### 2026-09-25 cycle completion — Victory Rush cross-domain audit registration repair
+- Live census before editing: canonical skill baseline **470**; Batch 54 **Victory Rush** was already `verified_current_scope` and its dedicated current-evidence audit already existed, but the audit was missing from `docs/data/pq-cross-domain-index.json`.
+- [x] Revalidated current evidence: Victory Rush is a **300-Ki Strike Ultimate** acquired from **PQ89 — Super-Super Ultimate Series of Battles!**; current documentation supports the teleporting 13-hit rush ending in an axe kick.
+- [x] Preserved unresolved reward semantics: `ultimate_finish_required` remains `null`; no drop probability or hidden gate was inferred.
+- [x] Registered `skill_victory_rush_current_evidence_audit_2026_09_25` in `docs/data/pq-cross-domain-index.json`, restoring the audit's cross-domain discoverability without changing canonical skill identity or acquisition relationship data.
+- [x] Validation: parsed the updated cross-domain index; confirmed the new registration resolves exactly to `docs/data/skill-victory-rush-current-evidence-audit-2026-09-25.json`. Existing Victory Rush research/audit files remain intact.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Commit: `00657db919550b4d5b114992df14108bdbde3402`.
+- [x] **Exact next:** perform the fresh repository-wide under-enriched/partially-verified census required by the handoff; prioritize the next deterministic provenance/index gap or a bounded current-evidence target outside the completed PQ86-PQ100 Batch 54 tranche.
