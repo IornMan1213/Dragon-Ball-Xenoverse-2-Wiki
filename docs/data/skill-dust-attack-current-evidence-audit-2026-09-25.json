@@ -1,0 +1,18 @@
+{
+  "audit_id": "skill-dust-attack-current-evidence-audit-2026-09-25",
+  "scope": [
+    "Dust Attack"
+  ],
+  "result": "Promoted to verified_current_scope. Current Xenoverse 2-specific documentation and independent PQ78 evidence support the Super Skill classification and acquisition endpoint.",
+  "mechanics": {
+    "classification": "Super",
+    "behavior": "Fires a burst of Ki in front of the user.",
+    "acquisition": "Parallel Quest 78 — Heated, Furious, Ultimate Battle"
+  },
+  "reward_semantics": {
+    "status": "partially corroborated",
+    "ultimate_finish_required": null,
+    "drop_probability": null,
+    "notes": "Community reports show repeated PQ78 runs and uncertainty about Ultimate Finish requirements; no hidden gate or probability is promoted."
+  }
+}
