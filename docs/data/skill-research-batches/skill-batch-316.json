@@ -3,82 +3,93 @@
   "research_type": "skill_research",
   "status": "research_only",
   "created": "2026-09-18",
-  "notes": "Research-only Ki Blast Ultimate candidates. Ultimate-Finish and CaC fields remain null unless the cited evidence explicitly resolves them.",
+  "notes": "Research-only Ki Blast Ultimate candidates. 2026-09-25 direct-evidence refresh enriched Ki costs, acquisition endpoints, and supported mechanics. Ultimate-Finish, reward-probability, and unresolved CaC fields remain null unless directly established.",
   "records": [
     {
       "name": "Blaster Stream",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
       "character_source": "Kale (Super Saiyan 2); Kefla (Super Saiyan)",
-      "source_quest_or_shop": "Parallel Quest 148 — Finding Out About Fusion",
+      "source_quest_or_shop": "Parallel Quest 148 - Finding Out About Fusion",
       "ki_cost": 300,
-      "mechanics_notes": "Chargeable beam; charge increases damage and hit count; follow-up stronger Ki Wave on hit.",
+      "mechanics_notes": "Chargeable straight-line beam; charging increases damage and hit count, with the move described as up to 35 hits; a second Ki Wave follows a successful first hit. Fully charged use requires a hard knockdown or stamina break to land the extended sequence.",
       "ultimate_finish_required": null,
-      "usable_by_cac": null,
+      "usable_by_cac": true,
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Blaster_Stream"
+        "https://dbxv2.fandom.com/wiki/Blaster_Stream",
+        "https://dragonball.fandom.com/wiki/Blaster_Stream"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-25"
     },
     {
       "name": "Full Power Destruction",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
       "character_source": "Jiren (Full Power) Ultra Supervillain; Jiren — Customize Partner",
-      "source_quest_or_shop": "Parallel Quest 177 — Warped Sense of Justice",
+      "source_quest_or_shop": "Parallel Quest 177 - Warped Sense of Justice",
       "ki_cost": 500,
-      "mechanics_notes": "Fires tracking Ki Blasts, then a follow-up blast and cinematic explosion if the opening sequence connects.",
+      "mechanics_notes": "Immediately fires five tracking Ki Blasts; if the opening connects, a follow-up Ki Blast sequence occurs before a short cinematic explosion at the target. The attack is long-range, tracking, multi-hit, and knockback-capable.",
       "ultimate_finish_required": null,
       "usable_by_cac": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/Full_Power_Destruction"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-25"
     },
     {
       "name": "Gigantic Burst",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
       "character_source": "Kefla (Super Saiyan)",
-      "source_quest_or_shop": "Parallel Quest 127 — Multiverse Match of the Century",
+      "source_quest_or_shop": "Parallel Quest 127 - Multiverse Match of the Century",
       "ki_cost": 500,
-      "mechanics_notes": "Two-stage attack: three sweeping Ki Waves followed by a spiraling energy wave; can be entered from Ray Blast when sufficiently fueled.",
+      "mechanics_notes": "Two-stage Ultimate: three sweeping Ray Blasts are followed by a charged spinning-disc energy wave; current evidence describes 25 hits and about 40% damage. Ray Blast can transition directly into Gigantic Burst when enough Ki remains for both skills.",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Gigantic_Burst"
+        "https://dbxv2.fandom.com/wiki/Gigantic_Burst",
+        "https://dragonball.fandom.com/wiki/Gigantic_Burst",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-25"
     },
     {
       "name": "Lightning Impact",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
       "character_source": "Majuub; Goku (GT)",
-      "source_quest_or_shop": "Parallel Quest 142 — Timespace Tussle",
+      "source_quest_or_shop": "Parallel Quest 142 - Timespace Tussle",
       "ki_cost": 300,
-      "mechanics_notes": "Channels Ki into a Ki Wave; rapid input increases charge and damage; opponent is paralyzed if they touch the user while charging.",
+      "mechanics_notes": "The user rises and fires a beam from both hands. Charging is performed by rapidly pressing the input; while charging the user is invulnerable and opponents that touch the user are paralyzed. Current dedicated evidence describes 20 hits at base charge and increased damage when fully charged.",
       "ultimate_finish_required": null,
-      "usable_by_cac": null,
+      "usable_by_cac": true,
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Lightning_Impact"
+        "https://dbxv2.fandom.com/wiki/Lightning_Impact",
+        "https://dragonball.fandom.com/wiki/Lightning_Impact"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-25"
     },
     {
       "name": "Requiem of Destruction",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
       "character_source": "Vados; Whis — Customize Partner",
-      "source_quest_or_shop": "Parallel Quest 106 — A Destructive Showdown",
+      "source_quest_or_shop": "Parallel Quest 106 - A Destructive Showdown",
       "ki_cost": 300,
-      "mechanics_notes": "Traps the opponent in a powerful Ki Blast and detonates it in a large explosion.",
+      "mechanics_notes": "Creates a large Ki sphere around the opponent, paralyzing them before the sphere detonates; current evidence describes 3 hits and about 40% total damage. The skill is associated with Super Pack 2 and can be added to Whis's Customize Partner skillset.",
       "ultimate_finish_required": null,
-      "usable_by_cac": null,
+      "usable_by_cac": true,
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Requiem_of_Destruction"
+        "https://dbxv2.fandom.com/wiki/Requiem_of_Destruction",
+        "https://dragonball.fandom.com/wiki/Requiem_of_Destruction"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-25"
     }
-  ]
+  ],
+  "last_updated": "2026-09-25"
 }
