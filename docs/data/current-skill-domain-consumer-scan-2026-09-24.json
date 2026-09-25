@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "audit_date": "2026-09-24",
-  "scope": "Deterministic current-facing skill/domain consumer scan after the 469-record canonical skill recovery",
+  "scope": "Deterministic current-facing skill/domain consumer scan after the live 470-record canonical skill recovery",
   "source_of_truth": [
     "docs/data/skills.json",
     "docs/data/skills-index.json",
@@ -26,13 +26,13 @@
       "path": "docs/data/pq-endpoint-navigation-validation.json",
       "classification": "current_consumer",
       "issue": "live_recheck and current_state_reconciliation exposed superseded 465-skill, 173-equipment/accessory, and 151-character baselines",
-      "resolution": "refreshed current domain counts to 469 skills, 174 equipment/accessory records, and 152 character identities; preserved relationship counts and historical provenance"
+      "resolution": "refreshed current domain counts to 470 skills, 173 equipment/accessory records, and 152 character identities; preserved relationship counts and historical provenance"
     },
     {
       "path": "docs/data/skill-pq-acquisition-presentation-audit.json",
       "classification": "current_consumer",
       "issue": "validation and reverse-navigation sections exposed a superseded 465-skill baseline",
-      "resolution": "refreshed current skill count to 469 while preserving the 244 PQ-skill edge graph and exact reverse parity"
+      "resolution": "refreshed current skill count to 470 while preserving the 244 PQ-skill edge graph and exact reverse parity"
     },
     {
       "path": "docs/data/skill-acquisition-coverage-current-audit-2026-09-23.json",
@@ -56,9 +56,9 @@
   "validation": {
     "stale_current_consumers_repaired": 2,
     "historical_snapshots_preserved": true,
-    "canonical_index_parity": "469/469",
+    "canonical_index_parity": "470/470",
     "stale_last_verified_records": 0,
-    "full_endpoint_union_parity": "469/469",
+    "full_endpoint_union_parity": "470/470",
     "pq_relationship_edges": 853,
     "pq_skill_edges": 244,
     "status": "pass",
