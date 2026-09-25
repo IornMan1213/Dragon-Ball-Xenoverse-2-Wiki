@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-batch-360-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "scope": [
+    "skill-spirit-sword",
+    "skill-super-electric-strike"
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Spirit_Sword",
+    "https://dbxv2.fandom.com/wiki/Super_Electric_Strike",
+    "https://dragonball.fandom.com/wiki/Spirit_Sword",
+    "https://dragonball.fandom.com/wiki/Super_Electric_Strike"
+  ],
+  "findings": [
+    "Spirit Sword: 400 Ki, Strike Ultimate, EM17, three-hit stab/slash sequence, source-reported 50% damage; follow-up requires the initial stab to connect.",
+    "Super Electric Strike: 300 Ki, Ki Blast Ultimate, EM11, wide-range tracking Ki wave, 17 hits, knockback, source-reported 40% damage."
+  ],
+  "limits": [
+    "Damage values are source-reported and not independently benchmarked.",
+    "No drop probability, hidden prerequisite, new Ultimate Finish gate, exact frame/timing, or stacking-cap claim was added."
+  ],
+  "status": "research_boundary_complete"
+}
