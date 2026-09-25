@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "ultimate-em-taxonomy-parity-2026-09-25",
+  "audit_date": "2026-09-25",
+  "scope": "Cross-database class/subcategory parity for the current Expert Mission acquisition projection",
+  "status": "pass",
+  "live_skill_index_records": 470,
+  "acquisition_projection_records": 13,
+  "comparison": "docs/data/skill-expert-mission-acquisition-early.json records compared by skill name against docs/data/skills-index.json",
+  "result": {
+    "mismatches": 0,
+    "checked_records": 13,
+    "checked_ultimate_records": 10,
+    "checked_ultimate_partial_records": [
+      "Assault Rain",
+      "Blue Hurricane",
+      "Dead End Bullet",
+      "Death Meteor",
+      "Hellzone Grenade",
+      "Shocking Death Ball"
+    ],
+    "spirit_sword_note": "Spirit Sword is not present in the EM03-15 acquisition projection; its canonical Strike classification was already reconciled separately and was not invented into this file."
+  },
+  "evidence_boundaries": [
+    "No acquisition endpoint was changed.",
+    "No drop probability or per-clear guarantee was inferred.",
+    "Historical mission numbering is preserved as documented by the acquisition projection.",
+    "Parity was checked against the live 470-record canonical/index layer."
+  ],
+  "validation": {
+    "json_parse": "pass",
+    "duplicate_skill_names_in_projection": false,
+    "internal_citation_artifacts": false
+  }
+}
