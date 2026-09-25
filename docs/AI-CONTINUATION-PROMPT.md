@@ -943,3 +943,13 @@
 - [x] Canonical/index boundary remains **469/469**; no canonical promotion was attempted.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** inspect current Actions reruns, then continue **skill-batch-183** using the same bounded provenance workflow.
+
+### 2026-09-24 cycle completion — Gigantic Slam P1 provenance verification
+- [x] Completed skill-research-batches/skill-batch-182.json — Gigantic Slam.
+- [x] Revalidated Super / Strike, 100 Ki, grab/6-hit behavior, explicit unavailable-for-CaC status, Broly user/preset context, and absence of a Future Warrior unlock route.
+- [x] Confirmed that Partner Customization is a cast-character customization system and must not be conflated with CaC skill availability.
+- [x] Added docs/data/skill-gigantic-slam-p1-provenance-verification-2026-09-24.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Preserved evidence limits: stamina cost and exact frame/hitbox/damage values remain unresolved; no unsupported unlock route or Ultimate Finish dependency was inferred.
+- [x] Canonical/index boundary remains 469/469; no canonical promotion was attempted.
+- [ ] CI success remains unverified.
+- [ ] Exact next: inspect current Actions reruns, then continue skill-batch-183 using the same bounded provenance workflow.
