@@ -1514,7 +1514,7 @@
 
 ### 2026-09-24 continuation — Batch 296 Time Control cost resolution
 - [x] Advanced the deterministic partially verified skill queue after the thin cast-only pass by auditing **skill-batch-296**.
-- [x] Resolved **Time Control**'s previously null numeric Ki cost to **100 Ki** using dedicated Xenoverse 2 skill documentation, which also confirms its Other/Super classification and stun/barrier behavior. citeturn2search0
+- [x] Resolved **Time Control**'s previously null numeric Ki cost to **100 Ki** using dedicated Xenoverse 2 skill documentation, which also confirms its Other/Super classification and stun/barrier behavior. 
 - [x] Updated `docs/data/skill-research-batches/skill-batch-296.json` and registered the batch in `docs/data/pq-cross-domain-index.json`.
 - [x] No cross-game cost inference was used; remaining Batch 296 null costs remain unresolved.
 - [ ] CI remains unverified.
