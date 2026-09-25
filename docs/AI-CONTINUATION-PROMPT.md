@@ -1895,3 +1895,11 @@
 - [x] Preserved unresolved reward probabilities, Ultimate-Finish gates, frame data, and unsupported CaC/race restrictions.
 - [ ] CI remains unverified.
 - [ ] Exact next: continue alphabetically with **Divinity Unleashed, Do or Die, Dodon Ray**, then adjacent stale records where current evidence can materially improve the canonical record.
+
+### 2026-09-25 cycle completion — Batch 319 Divinity / Do or Die / Dodon Ray reconciliation
+- [x] Reconciled the next deterministic Ki Blast tranche: **Divinity Unleashed, Do or Die, Dodon Ray**.
+- [x] Added `docs/data/skill-batch-319-divinity-do-or-die-dodon-ray-evidence-reconciliation-2026-09-25.json` and registered it in the cross-domain index.
+- [x] Preserved unresolved Divinity Unleashed reward/Ultimate-Finish semantics and avoided unsupported numeric combat claims.
+- [x] Confirmed current cost/acquisition boundaries for all three records; Dodon Ray remains a 0-Ki mentor skill.
+- [ ] CI remains unverified.
+- [ ] Exact next: continue with the next alphabetically ordered partially verified Ki Blast records after Dodon Ray, starting from the live catalog and excluding all already-reconciled tranches.
