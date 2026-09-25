@@ -1220,3 +1220,15 @@
 - [x] Added independent contemporary/community verification and refreshed the batch to **2026-09-24**.
 - [x] Registered batch 207 in the cross-domain index.
 - [ ] **Exact next:** process **skill-batch-208 — Super Afterimage and God Breaker reconciliation**.
+
+
+### 2026-09-24 cycle completion — Batch 209 historical reconciliation correction
+- [x] Live repository census before editing: canonical/index baseline remains **469/469**; duplicate-ID baseline remains **0**.
+- [x] Corrected the historical **Flash Fist Crush** duplicate assertion in `docs/data/skill-research-batches/skill-batch-140.json`: Batch 127 is **Deadly Dance**, not Flash Fist Crush.
+- [x] Refreshed `docs/data/skill-research-batches/skill-batch-209.json` to **2026-09-24** and preserved the unchanged Dragon Thunder / Shadow Crusher findings.
+- [x] Registered Batch 209 and the Batch 140 correction in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved current Flash Fist Crush as **Super / Strike / Universal Counter**, **100 Ki**, with **Shenron — I want a new Super Attack** acquisition; no duplicate canonical record was created.
+- [x] Validation: changed JSON files parse structurally; canonical/index boundary remains **469/469** and no catalog reconstruction was performed.
+- [ ] CI success remains unverified: latest Repository quality and Clean internal artifacts runs on commit `bf6f8777dda075c9baaa8a927b3b7c9dab32c642` failed with no exposed workflow steps/logs.
+- [x] Commits: `9e05e06d00b5dcedfa4f5451335c8580130dec10`, `86aa1e17058cd2e24f40e17fd6ac00d306e24b30`, `2b9b0d0601c360bf2c88e79f5b9c3cbc267a1be3`.
+- [ ] **Exact next:** inspect the current live Actions state after these writes, then process **skill-batch-210** using the same bounded evidence-first workflow; preserve canonical/index parity and do not infer unsupported mechanics.
