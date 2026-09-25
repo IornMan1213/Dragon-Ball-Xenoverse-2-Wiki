@@ -40,7 +40,7 @@
       "https://dbxv2.fandom.com/wiki/Prince_of_Destruction_Vegeta",
       "https://dbxv2.fandom.com/wiki/SSGSS_Vegeta_%28Evolved%29"
     ],
-    "research_update": "Current-source enrichment completed for Neo Wolf Fang Fist, Maiden Burst, Absolute Zero, and Dimension Ray. Absolute Zero's stale 200-Stamina/Other classification was corrected to 300-Stamina/Ki Blast. Neo Wolf Fang Fist's current 100-700 Ki range was confirmed. Maiden Burst's 300-Stamina Ki Blast Evasive classification was confirmed. Dimension Ray's current 400 Ki cost was confirmed. Drain Field remains deliberately unresolved on resource/reward-slot semantics. Buu Buu Ball was promoted to verified_current_scope after current skill documentation and an independent PQ88 reward transcription confirmed its Strike Evasive identity, 300-Stamina cost, Majin restriction, and Basic Reward endpoint; an older player discussion's Ultimate-Finish belief is retained as historical conflict rather than canonical requirement. Atomic Blast was promoted to verified_current_scope after current Xenoverse 2-specific documentation confirmed its 100-Ki Ki Blast Super identity, PQ87 endpoint, charge-state behavior, and documented use by Prince of Destruction Vegeta and SSGSS Vegeta (Evolved). Historical Basic Reward vs. Ultimate-Finish interpretations remain outside the canonical requirement field. III Bomber was promoted to verified_current_scope after current Xenoverse 2-specific documentation confirmed its 100-Ki Ki Blast Super identity, Majin CaC restriction, PQ90 endpoint, and unblockable explosion/invisibility behavior; reward probability and Ultimate-Finish semantics remain unresolved. Final Kamehameha was promoted to verified_current_scope after current skill documentation confirmed its 500-Ki Ki Blast Ultimate identity, 22-hit beam mechanics, and current acquisition routes; independent PQ91 reward evidence places it in Basic Reward, while archived player discussion is retained only as historical Ultimate-Finish/RNG conflict."
+    "research_update": "Batch 54 PQ98-PQ100 current-evidence pass completed for Dimension Ray, Emperor's Edge, and X100 Big Bang Kamehameha. Direct PQ reward transcriptions corroborate the acquisition endpoints; current skill documentation corroborates mechanics. Exact drop probabilities and Ultimate-Finish-only semantics remain unresolved where not directly established."
   },
   "records": [
     {
@@ -344,12 +344,13 @@
       "ultimate_finish_required": null,
       "skill_description": "Fires a dimensional energy beam through a spatial rift.",
       "mechanics_notes": "Current Xenoverse 2 reference identifies Dimension Ray as a Ki Blast Ultimate using 400 Ki and describes a 19-hit long-range barrage.",
-      "verification_status": "verified",
-      "last_verified": "2026-09-24",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "current_evidence_audit": "docs/data/skill-dimension-ray-current-evidence-audit-2026-09-25.json"
     },
     {
       "name": "Emperor's Edge",
@@ -367,12 +368,13 @@
       "ultimate_finish_required": null,
       "skill_description": "Fires a precise Frieza-style energy attack at the opponent.",
       "mechanics_notes": "Current Future Warrior technique references identify Emperor's Edge as Golden Frieza's Super Skill and place it among Frieza-style Death Wave variants. PQ99 is the base-game acquisition endpoint in the maintained reward transcription. The current evidence reviewed here does not independently establish a different attack-type label beyond its Frieza energy-attack family, so no speculative subtype is promoted.",
-      "verification_status": "verified",
-      "last_verified": "2026-09-24",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
-      ]
+      ],
+      "current_evidence_audit": "docs/data/skill-emperors-edge-current-evidence-audit-2026-09-25.json"
     },
     {
       "name": "X100 Big Bang Kamehameha",
@@ -390,12 +392,13 @@
       "ultimate_finish_required": null,
       "skill_description": "Fires an enormous combined Big Bang Attack and Kamehameha energy wave.",
       "mechanics_notes": "Current Future Warrior technique references identify x100 Big Bang Kamehameha as Gogeta's Ultimate Skill. PQ100 is the maintained base-game acquisition endpoint; the TP Medal Shop is also an acquisition route in current technique documentation.",
-      "verification_status": "verified",
-      "last_verified": "2026-09-24",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
-      ]
+      ],
+      "current_evidence_audit": "docs/data/skill-x100-big-bang-kamehameha-current-evidence-audit-2026-09-25.json"
     }
   ],
   "audit_note": "2026-09-24 P1 enrichment follow-up: refreshed Charged Ki Wave, Phantom Fist, Bluff Kamehameha, Emperor's Edge, and X100 Big Bang Kamehameha from current skill/technique references and the maintained PQ reward transcription. Resource costs and core classifications were promoted only where directly supported; exact reward probabilities remain unresolved."
