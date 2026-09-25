@@ -1937,3 +1937,15 @@
 - [ ] CI remains unverified; no successful Actions result is claimed.
 - [x] Commits: research `5486ef1f7aa97d2d74bbac130ef808bba7c3d826`; audit `b413aa57e07700bef147d6d58cba05d1f5ecd156`; registry `b8248f864184bc2dd8b30f622f6df90623beb5b7`.
 - [ ] **Exact next:** recompute the live Ki Blast Super catalog again and continue with the next existing partially verified/research-incomplete records after the Batch 322 scope; prioritize unresolved acquisition/provenance/mechanics fields and avoid reprocessing records already covered by Batches 316–322.
+
+
+### 2026-09-25 cycle completion — Death Meteor taxonomy parity correction
+- [x] Live census: **470 skills-index records**; the Ki Blast Super partial queue is exhausted except the previously reconciled Death Wave/Murder Grenade records, so the next deterministic high-impact issue was a cross-database taxonomy mismatch.
+- [x] Found a stale projection: `docs/data/skills-index.json` classified **Death Meteor** as `Ultimate / Ki Blast`, while current Xenoverse 2 skill evidence, the repository Batch 311 reconciliation, and the Strike Ultimate catalog classify it as **Ultimate / Strike**.
+- [x] Corrected `docs/data/skills-index.json` to `Ultimate / Strike` and refreshed `last_verified` to 2026-09-25.
+- [x] Corrected the corresponding `canonical_subcategory` in `docs/data/skill-expert-mission-acquisition-early.json` from `Ki Blast` to `Strike`; EM07 acquisition endpoint and unresolved drop/guarantee semantics were preserved.
+- [x] Added `docs/data/death-meteor-taxonomy-parity-audit-2026-09-25.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: all four changed/readback JSON files parsed successfully; skills-index remains **470** records; cross-domain registry now has **152** keys; no duplicate-ID or internal citation artifacts detected in changed files.
+- [ ] CI remains unverified; no successful Actions result is claimed.
+- [x] Commits: skills index `45971dab26292ba47634ff6dc5aaf2cef0d10068`; EM acquisition projection `2d63e8d042d40d6268ae504ded3bd9cbd03f78dc`; audit `6dfbb6284cfa5fc4c8366ba4ec0b424014b0b49d`; registry `395968224c8445482c447d277a0b92417a0864b5`.
+- [ ] **Exact next:** audit the remaining partially_verified Ultimate records for the same class/subcategory projection mismatches, beginning with **Assault Rain, Blue Hurricane, Dead End Bullet, and Hellzone Grenade**, using the current Strike/Ki Blast catalog projections and Batch 311+ evidence as the comparison source; do not reopen resolved acquisition semantics unless a projection conflict is found.
