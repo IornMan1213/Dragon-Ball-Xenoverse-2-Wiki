@@ -1911,3 +1911,16 @@
 - [x] Preserved unresolved/historical acquisition conflicts and did not add unsupported reward probabilities, shop rotations, frame data, or version-sensitive damage.
 - [ ] CI remains unverified.
 - [ ] Exact next: continue the live Ki Blast Super catalog after the Batch 320 boundary, starting with the next unreconciled alphabetical records.
+
+
+### 2026-09-25 cycle completion — Batch 321 Ki Blast Super evidence refresh
+- [x] Live census before/after the bounded research write: **470 canonical/index skill records / 470 unique IDs / 0 duplicate IDs**; current verification-date queue remains exhausted, so this cycle stayed in evidence enrichment rather than stale-date churn.
+- [x] Bounded batch: **Bloody Sauce, Burst Attack, Confusion Blade, Consecutive Energy Blast, Crazy Finger Shot**.
+- [x] Added direct current Xenoverse 2 evidence for Ki cost, acquisition endpoint, usability boundaries, and supported mechanics. Notable current boundaries: Bloody Sauce is restricted to Crystal Raid/Training for created characters; Burst Attack uses the Shenron new-Super-Attack wish; Confusion Blade is tied to 50% Tokipedia; Consecutive Energy Blast remains a Skill Shop route; Crazy Finger Shot is tied to PQ26 with continued firing consuming additional Ki.
+- [x] Added `docs/data/skill-research-batches/skill-batch-321.json` and `docs/data/skill-batch-321-ki-blast-super-evidence-refresh-2026-09-25.json`.
+- [x] Registered Batch 316–321 evidence artifacts in `docs/data/pq-cross-domain-index.json`; this repairs the registry omission for the already-completed 316–320 artifacts while adding 321.
+- [x] Validation: all new/changed JSON parsed successfully; skills-index remains **470** records; cross-domain index parses with **150** keys; no canonical catalog reconstruction or speculative promotion was performed.
+- [x] Evidence limits preserved: no unsupported drop probabilities, shop prices/rotations, exact frame data, version-sensitive damage, or narrower race/gender/form restrictions were introduced; historical/source conflicts remain bounded.
+- [ ] CI success remains unverified. The available Actions connector has previously exposed zero-step/no-log failures; no successful CI result is claimed for this cycle.
+- [x] Commits: Batch 321 research `b4fefa45a467d709c2187defda9409a59c37ae67`; Batch 321 audit `38c28a1c275b9ca3424929188393ca772bcd4e1a`; cross-domain registry repair `7816ecafbc9cc9ed33a412a4f651749993335bce`.
+- [ ] **Exact next:** recompute the live Ki Blast Super catalog against the already-reconciled research/audit registry and select the next **4–12 existing partially verified Ki Blast Super records after the Batch 321 boundary**, excluding records already covered by Batches 316–321; use direct current Xenoverse 2 evidence to resolve only fields that can be supported, then register the bounded audit and preserve unresolved conflicts/nulls.
