@@ -2084,3 +2084,14 @@
 - [x] Validation: new audit, cross-domain index, and reverse-navigation audit all parse as valid JSON after fixing the index delimiter introduced during registration; no canonical records or acquisition relationships changed.
 - [ ] CI remains unverified; the latest inspected commit had no exposed status results.
 - [ ] **Exact next:** continue the current producer/consumer exact-pair census from the repaired equipment scalar, prioritizing the next remaining current-facing equipment/accessory or PQ presentation consumer with a machine-checkable stale scalar or one-way navigation mismatch.
+
+
+### 2026-09-25 cycle completion — Current PQ endpoint domain-count parity
+- [x] Continued the current producer/consumer census and found the dated `docs/data/pq-endpoint-navigation-current-baseline-audit-2026-09-23.json` still exposed **173 equipment/accessory** and **151 character** canonical domain counts.
+- [x] Reconciled those current consumer scalars to the live **174 equipment/accessory** and **152 character** canonical layers.
+- [x] Preserved the relationship contract: **244 skill / 145 Super Soul / 124 equipment / 247 character / 86 DLC edges; 853 total edges**.
+- [x] Added and registered `docs/data/pq-endpoint-navigation-current-domain-count-parity-2026-09-25.json`.
+- [x] Explicitly preserved the distinction between **174 total equipment/accessory records** and **173 canonical PQ equipment targets**; the extra current record has no canonical PQ reward edge, so no relationship was fabricated.
+- [x] Validation: updated audit, new parity audit, and cross-domain index all parse successfully; **0 relationship edges changed / 0 acquisition relationships inferred / 0 historical snapshots rewritten**.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the current producer/consumer census for the next stale domain scalar or one-way cross-domain presentation mismatch, prioritizing equipment/accessory and PQ-facing consumers before reopening already-clean skill reverse-navigation invariants.
