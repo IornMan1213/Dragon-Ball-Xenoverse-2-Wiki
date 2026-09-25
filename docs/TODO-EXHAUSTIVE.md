@@ -201,3 +201,11 @@
 - [x] Preserved historical resource-behavior reports without using them to override current evidence; reward probability and hidden Ultimate-Finish semantics remain unresolved.
 - [ ] CI remains unverified.
 - [x] **Exact next:** continue the remaining source-backed P1 provenance queue with the next under-enriched canonical skill.
+
+
+### 2026-09-25 completion — Maiden Burst current-evidence provenance promotion
+- [x] Promoted Batch 54 **Maiden Burst** to `verified_current_scope` with current 300-Stamina Ki Blast Evasive, PQ92, and mechanics evidence.
+- [x] Reconciled and registered the existing current-evidence audit.
+- [x] Preserved the acquisition-history conflict and unresolved reward probability/hidden-gate semantics.
+- [ ] CI remains unverified.
+- [x] **Exact next:** continue the remaining source-backed P1 provenance queue with the next under-enriched canonical skill.
