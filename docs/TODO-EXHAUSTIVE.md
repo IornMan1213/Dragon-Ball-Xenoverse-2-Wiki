@@ -7297,3 +7297,10 @@
 - [x] Reran both failed jobs; reruns were accepted successfully and remain pending/processing at handoff time.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** inspect the rerun results, then complete **skill-batch-182 — Gigantic Slam**.
+
+### 2026-09-24 — TODO completion update — Gigantic Slam P1 provenance verification
+- [x] Completed skill-batch-182 — Gigantic Slam with Xenoverse 2 identity, Super/Strike classification, 100 Ki, grab/6-hit mechanics, and unavailable-for-CaC classification.
+- [x] Added and registered the Gigantic Slam provenance audit.
+- [x] Preserved the 469/469 canonical/index boundary and unresolved numeric evidence fields.
+- [ ] CI remains unverified.
+- [ ] Exact next: inspect current Actions reruns, then complete skill-batch-183.
