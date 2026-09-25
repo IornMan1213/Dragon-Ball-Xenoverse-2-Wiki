@@ -335,3 +335,14 @@
 - [x] Validation: **264 verified_current_scope/enriched + 190 verified/enriched + 15 verified/verified = 469**. All four canonical/index shared status/date fields match.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** continue the remaining `verified | verified` frontier with **Revenge Death Ball, Revenge Final Flash, Reverse Launcher, Reverse Mabakusenko**.
+
+
+### 2026-09-25 cycle completion — Skill Batch 342 verified-frontier correction and promotion
+- [x] Live census: **469 canonical / 469 index / 0 duplicate IDs / ID sets match**.
+- [x] Completed bounded batch: **Neo Wolf Fang Fist, Power Impact, Powered Shell, Pressure Sign**.
+- [x] Added Batch 342 plus three new current-evidence audits; retained/registerd the existing Neo Wolf Fang Fist current-evidence audit.
+- [x] Promoted all four to `research_status: enriched`; Neo Wolf Fang Fist also synchronized to `verified_current_scope` to match its existing audit/index state.
+- [x] Corrected the deterministic index parity defect by removing orphaned index-only **Serious Bomb**; canonical/index are again exactly 469/469.
+- [x] Preserved reward conflicts and unresolved probabilities/gates; no unsupported numeric drop rates were added.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next superseding live census:** **Recoome Kick, Sauzer Blade, Savory Slicer, Scissors Paper Rock**, then continue the remaining seven verified/verified records in live order. Historical TODO entries are retained unchanged for provenance.
