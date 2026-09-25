@@ -526,7 +526,40 @@
     "preset_loadout_current_evidence_2026_09_24": "docs/data/preset-loadout-current-evidence-audit-2026-09-24.json",
     "current_presentation_consumer_scan_2026_09_24": "docs/data/current-presentation-consumer-scan-2026-09-24.json",
     "current_event_raid_festival_chapter4_consumer_scan_2026_09_24": "docs/data/current-event-raid-festival-chapter4-consumer-scan-2026-09-24.json",
-    "goku_preset_loadout_source_boundary_2026_09_24": "docs/data/goku-preset-loadout-source-boundary-2026-09-24.json"
+    "goku_preset_loadout_source_boundary_2026_09_24": "docs/data/goku-preset-loadout-source-boundary-2026-09-24.json",
+    "skill-dimension-ray-current-evidence-audit-2026-09-25": {
+      "file": "docs/data/skill-dimension-ray-current-evidence-audit-2026-09-25.json",
+      "scope": [
+        "Dimension Ray"
+      ],
+      "pq_endpoints": [
+        "PQ98"
+      ],
+      "status": "current_evidence_audit_registered",
+      "registered": "2026-09-25"
+    },
+    "skill-emperors-edge-current-evidence-audit-2026-09-25": {
+      "file": "docs/data/skill-emperors-edge-current-evidence-audit-2026-09-25.json",
+      "scope": [
+        "Emperor's Edge"
+      ],
+      "pq_endpoints": [
+        "PQ99"
+      ],
+      "status": "current_evidence_audit_registered",
+      "registered": "2026-09-25"
+    },
+    "skill-x100-big-bang-kamehameha-current-evidence-audit-2026-09-25": {
+      "file": "docs/data/skill-x100-big-bang-kamehameha-current-evidence-audit-2026-09-25.json",
+      "scope": [
+        "X100 Big Bang Kamehameha"
+      ],
+      "pq_endpoints": [
+        "PQ100"
+      ],
+      "status": "current_evidence_audit_registered",
+      "registered": "2026-09-25"
+    }
   },
   "equipment_dlc_reverse_navigation_presentation_2026_09_23": "docs/data/equipment-dlc-reverse-navigation-presentation-audit-2026-09-23.json",
   "docs/data/super-soul-036-through-047-secondary-field-reconciliation-2026-09-23.json": "docs/data/super-soul-036-through-047-secondary-field-reconciliation-2026-09-23.json",
