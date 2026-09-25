@@ -862,5 +862,10 @@
   "skill_batch_359_current_evidence_audit_2026_09_25": "docs/data/skill-batch-359-current-evidence-audit-2026-09-25.json",
   "skill_research_batch_359": "docs/data/skill-research-batches/skill-batch-359.json",
   "skill_batch_360_current_evidence_audit_2026_09_25": "docs/data/skill-batch-360-current-evidence-audit-2026-09-25.json",
-  "skill_research_batch_360": "docs/data/skill-research-batches/skill-batch-360.json"
+  "skill_research_batch_360": "docs/data/skill-research-batches/skill-batch-360.json",
+  "skill_fighting_pose_a_current_evidence_audit_2026_09_25": "docs/data/skill-fighting-pose-a-current-evidence-audit-2026-09-25.json",
+  "skill_fighting_pose_f_current_evidence_audit_2026_09_25": "docs/data/skill-fighting-pose-f-current-evidence-audit-2026-09-25.json",
+  "skill_innocence_breath_current_evidence_audit_2026_09_25": "docs/data/skill-innocence-breath-current-evidence-audit-2026-09-25.json",
+  "skill_innocence_bullet_current_evidence_audit_2026_09_25": "docs/data/skill-innocence-bullet-current-evidence-audit-2026-09-25.json",
+  "skill_research_batch_365": "docs/data/skill-research-batches/skill-batch-365.json"
 }
