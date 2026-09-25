@@ -6828,10 +6828,10 @@
       ],
       "unlock_method": "Parallel Quest 18 — \"Force Entrance Exam\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence identifies the exact quest title and lists Mach Dash in Basic Reward. No unsupported drop probability or Ultimate Finish-only gate is asserted.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, restriction, DLC/update provenance, and reward-tier semantics against the maintained evidence corpus; no unsupported probabilities, gates, or numerical mechanics were added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
-      "mechanics_notes": "200-Stamina Power Up Evasive from PQ18 — Force Entrance Exam. Creates distance and temporarily increases movement speed. Current PQ18 evidence places Mach Dash in the Basic Reward/first-clear reward pool; no Ultimate Finish-only acquisition gate or narrower CaC restriction is inferred.",
+      "notes": "2026-09-25 current-evidence refresh: current Xenoverse 2 documentation confirms the 200-Stamina Power Up Evasive and PQ18 endpoint. The move creates distance and temporarily increases movement speed; exact duration/multiplier remain unpromoted.",
+      "mechanics_notes": "200-Stamina Power Up Evasive from PQ18 — Force Entrance Exam. The user performs the dash/pose sequence, creates distance, and temporarily gains increased movement speed. Exact duration and speed multiplier are not asserted.",
       "source_quest": 18,
       "source_quest_or_shop": "Parallel Quest 18 — \"Force Entrance Exam\"",
       "source_parallel_quests": [
@@ -6854,10 +6854,10 @@
       ],
       "unlock_method": "Parallel Quest 19 — Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: Steam's live all-PQ guide explicitly lists Mach Punch in PQ19's Basic Reward pool. This replaces the prior generic PQ attribution with a concrete tier.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, restriction, DLC/update provenance, and reward-tier semantics against the maintained evidence corpus; no unsupported probabilities, gates, or numerical mechanics were added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
-      "mechanics_notes": "100-Ki Strike Super from PQ19 — Fierce Battle! Ginyu Force. Fast close-range sequence of six punches followed by a finishing kick that knocks the opponent away; the sequence can be cancelled into an Ultimate on hit. PQ19 Basic Reward placement is retained.",
+      "notes": "2026-09-25 current-evidence refresh: current Xenoverse 2 skill documentation confirms the 100-Ki Strike Super, six-punch sequence plus finishing kick, and Ultimate-cancel behavior. The approximately 10% damage figure is retained as source-reported only.",
+      "mechanics_notes": "100-Ki Strike Super from PQ19 — Fierce Battle! Ginyu Force. User briefly draws back the arm, delivers six rapid punches, then a finishing kick knocks the opponent away; the move can be cancelled into an Ultimate on hit. Current documentation reports approximately 10% damage.",
       "source_quest": 19,
       "source_quest_or_shop": "Parallel Quest 19 — \"Fierce Battle! Ginyu Force\"",
       "source_parallel_quests": [
@@ -6879,10 +6879,10 @@
       ],
       "unlock_method": "Pan mentor training — Lesson 3.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, restriction, DLC/update provenance, and reward-tier semantics against the maintained evidence corpus; no unsupported probabilities, gates, or numerical mechanics were added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
-      "mechanics_notes": "300-Ki Ki Blast Ultimate from Pan mentor training, Lesson 3. Creates a close-range explosion and then concentrates it into a larger blast. Pan Lesson 3 is the deterministic acquisition endpoint; it is distinct from the PQ92 Evasive Maiden Burst.",
+      "notes": "2026-09-25 current-evidence refresh: current Xenoverse 2 documentation confirms the 300-Ki Ki Blast Ultimate from Pan Lesson 3, with a close-range explosion followed by a concentrated blast; 34 hits and approximately 30% damage are retained as source-reported values.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from Pan mentor training — Lesson 3. The user creates a close-range Ki explosion, concentrates it into a large sphere, and detonates it; current documentation reports 34 hits and approximately 30% damage. Distinct from PQ92's Maiden Burst Evasive.",
       "source_quest": "Pan mentor training — Lesson 3.",
       "source_quest_or_shop": "pan mentor training"
     },
@@ -6918,7 +6918,7 @@
       "name": "Majin Kamehameha",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -6930,10 +6930,10 @@
       ],
       "unlock_method": "Parallel Quest 60 — Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "Majin",
-      "notes": "2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, restriction, DLC/update provenance, and reward-tier semantics against the maintained evidence corpus; no unsupported probabilities, gates, or numerical mechanics were added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
-      "mechanics_notes": "100-Ki Ki Blast Super from PQ60 — Blast the Super Spirit Bomb!. Three charge stages; current documentation lists 5 hits at base charge and up to 15 hits at maximum charge, with 10% to 15% listed damage. This skill is restricted to Majin CaCs; the canonical race restriction is corrected from the stale All CaC races value to Majin.",
+      "notes": "2026-09-25 current-evidence refresh: current Xenoverse 2 documentation confirms Majin Kamehameha as a 100-Ki Ki Blast Super restricted to Majin CaCs, with three charge stages and current 5-to-15-hit / approximately 10%-to-15%-damage reporting.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ60 — Blast the Super Spirit Bomb!. Fires a pink Kamehameha chargeable through three stages; current documentation reports 5 hits at base charge and up to 15 hits at maximum charge, with approximately 10% to 15% damage. Restricted to Majin CaCs.",
       "source_quest": 60,
       "source_quest_or_shop": "Parallel Quest 60 — \"Blast the Super Spirit Bomb!\"",
       "source_parallel_quests": [
@@ -11368,5 +11368,11 @@
       "skill_description": "Zigzag Express is a Strike Super skill associated with Majin (Male)."
     }
   ],
-  "last_updated": "2026-09-25"
+  "last_updated": "2026-09-25",
+  "audit_registry": {
+    "skill_mach_dash_current_evidence_audit_2026_09_25": "docs/data/skill-mach-dash-current-evidence-audit-2026-09-25.json",
+    "skill_mach_punch_current_evidence_audit_2026_09_25": "docs/data/skill-mach-punch-current-evidence-audit-2026-09-25.json",
+    "skill_maiden_blast_current_evidence_audit_2026_09_25": "docs/data/skill-maiden-blast-current-evidence-audit-2026-09-25.json",
+    "skill_majin_kamehameha_current_evidence_audit_2026_09_25": "docs/data/skill-majin-kamehameha-current-evidence-audit-2026-09-25.json"
+  }
 }
