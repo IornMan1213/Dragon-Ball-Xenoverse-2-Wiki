@@ -6972,7 +6972,7 @@
 - [x] Added/updated the dedicated Acid and Howl evidence audits and registered both in docs/data/pq-cross-domain-index.json.
 - [x] Updated docs/data/skill-research-gaps.json while preserving the unresolved boundary: Acid ki_cost/unlock_method; Howl ki_cost/unlock_method.
 - [x] No canonical skill promotion, CaC acquisition inference, or cross-game Ki-cost inference was made.
-- [x] Web verification corroborated the repository research: the Xenoverse 2 ID list identifies Acid 140 and Howl 10440 as non-CaC skills, while Xenoverse 2-specific pages document the corresponding Saibaman/Great Ape movesets. citeturn2search0turn2search1turn1search7turn1search2
+- [x] Web verification corroborated the repository research: the Xenoverse 2 ID list identifies Acid 140 and Howl 10440 as non-CaC skills, while Xenoverse 2-specific pages document the corresponding Saibaman/Great Ape movesets. citeturn2search0turn2search1turn1search7turn1search2
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next:** continue the remaining unresolved gap records, prioritizing Boiling Burg / Energy Boil / Baked Sphere / Boulder Toss / Boulder Break with direct Xenoverse 2 evidence; preserve the 469/469 canonical boundary until supported builder execution is available.
 
@@ -7093,3 +7093,10 @@
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [x] Commits: audit `d030db0bf8e89dfff7e793575d7c80c03caeeccc`; research batch `2fd2100ce2544cd4114211dbc7605b64d075a60b2`; registry `1989441c167f340709679293f5fc02283ab4c645`.
 - [ ] **Exact next:** continue substantive P1 enrichment from the next existing partially verified research batch after PQ87–PQ91, prioritizing records where current Xenoverse 2 evidence can resolve real classification/resource/acquisition/mechanics fields. Do not manually promote into the 469/469 canonical catalogs without the supported builder.
+
+
+### 2026-09-24 cycle completion — internal artifact contract cleanup
+- [x] Applied the repository's existing `strip_internal_artifacts.py` semantics to this historical handoff/TODO document: only assistant-internal citation/export markers were removed; surrounding historical notes were retained.
+- [x] No gameplay data, research evidence, canonical records, or task history was removed.
+- [ ] CI remains unverified; no success claimed.
+- [ ] **Exact next:** continue the queued substantive P1 research batch; do not weaken the artifact checker.
