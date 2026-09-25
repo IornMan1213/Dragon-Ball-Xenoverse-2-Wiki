@@ -8,15 +8,15 @@
       "name": "X4 Kaioken Kamehameha",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "ki_cost": null,
+      "ki_cost": "300 - 400",
       "usable_by_cac": true,
       "character_source": "Goku; Goku (Super Saiyan God) Customize Partner; Goku (Super Saiyan 4) Customize Partner",
       "dlc_requirement": null,
       "unlock_method": "Skill Shop",
       "ultimate_finish_required": null,
-      "effect": "Kaioken-powered Kamehameha with additional Ki input to increase power.",
+      "effect": "Kamehameha beam dealing 30% damage over 15 hits; additional input consumes extra Ki, extends the attack to 28 hits for 20% additional damage, and leaves the user tired for 3 seconds.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+        "https://dbxv2.fandom.com/wiki/X4_Kaioken_Kamehameha"
       ]
     },
     {
@@ -29,9 +29,9 @@
       "dlc_requirement": null,
       "unlock_method": "Skill Shop",
       "ultimate_finish_required": null,
-      "effect": "Kaioken rush followed by a powered Kamehameha.",
+      "effect": "Kaioken rush into a powered Kamehameha; 23 hits and 45% total damage.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+        "https://dbxv2.fandom.com/wiki/X20_Kaioken_Kamehameha"
       ]
     },
     {
@@ -44,9 +44,9 @@
       "dlc_requirement": null,
       "unlock_method": "Training with Android 18",
       "ultimate_finish_required": null,
-      "effect": "Two Destructo-Discs fired in a pincer attack.",
+      "effect": "Fires two individually thrown tracking, unblockable Destructo-Discs for 30% damage across 2 hits.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+        "https://dbxv2.fandom.com/wiki/Dual_Destructo-Disc"
       ]
     },
     {
@@ -59,9 +59,9 @@
       "dlc_requirement": null,
       "unlock_method": "Training with Majin Buu",
       "ultimate_finish_required": null,
-      "effect": "Powerful unblockable Ki wave fired from the mouth.",
+      "effect": "Sweeping unblockable Ki wave from the mouth; 30% damage in one hit. Majuub's variant can paralyze during startup.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+        "https://dbxv2.fandom.com/wiki/Innocence_Breath"
       ]
     },
     {
@@ -74,11 +74,11 @@
       "dlc_requirement": null,
       "unlock_method": "Training with Pan",
       "ultimate_finish_required": null,
-      "effect": "Powerful Ki Blast fueled by maiden's rage.",
+      "effect": "Creates a Ki explosion around the user, then concentrates it into a large ball that explodes; 30% damage over 34 hits.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+        "https://dbxv2.fandom.com/wiki/Maiden_Blast"
       ]
     }
   ],
-  "notes": "All ten identities were absent from docs/data/skills.json at the audit point. The current Ultimate Attack taxonomy explicitly supplies their Ki Blast Ultimate classification and acquisition. X4 Kaioken Kamehameha's variable 300-400 Ki cost is represented as null here rather than collapsing its range; Angry Explosion's variable 300+ cost is likewise left null. Duplicate audit on 2026-09-18 removed five identities already represented by earlier research batches: Heat Dome Attack (Batch 17/corrected by Batch 35), Perfect Kamehameha (Batch 312), Angry Explosion (Batch 13), Gigantic Meteor (Batch 306), and Sphere of Destruction (Batch 307). Their earlier research records remain the canonical research history."
+  "notes": "All ten identities were absent from docs/data/skills.json at the audit point. The current Ultimate Attack taxonomy explicitly supplies their Ki Blast Ultimate classification and acquisition. X4 Kaioken Kamehameha's variable 300-400 Ki cost is represented as null here rather than collapsing its range; Angry Explosion's variable 300+ cost is likewise left null. Duplicate audit on 2026-09-18 removed five identities already represented by earlier research batches: Heat Dome Attack (Batch 17/corrected by Batch 35), Perfect Kamehameha (Batch 312), Angry Explosion (Batch 13), Gigantic Meteor (Batch 306), and Sphere of Destruction (Batch 307). Their earlier research records remain the canonical research history. 2026-09-25 evidence refresh: direct current pages resolve X4 Kaioken Kamehameha to 300-400 Ki and 15/28-hit staged mechanics; X20 Kaioken Kamehameha to 500 Ki and 23-hit/45% mechanics; Dual Destructo-Disc to 300 Ki and 2-hit unblockable tracking discs; Innocence Breath to 300 Ki and a one-hit unblockable wave; Maiden Blast to 300 Ki and 34-hit/30% mechanics."
 }
