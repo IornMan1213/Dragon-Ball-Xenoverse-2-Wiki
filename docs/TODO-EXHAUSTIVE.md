@@ -8429,3 +8429,11 @@
 - [x] Preserved canonical data unchanged; validator-only change.
 - [ ] Runtime/CI execution remains unavailable.
 - [ ] **Exact next:** audit remaining PQ explorer/reference validators for hidden scalar assumptions, endpoint-only checks, and incomplete domain coverage.
+
+
+### 2026-09-25 continuation cycle — PQ page consumer validator hardening
+- [x] Hardened `scripts/validate_pq_page_consumers.py` with the complete 186/853 six-domain baseline and exact seven-PQ farming set.
+- [x] Added/registered `docs/data/pq-page-consumer-validator-hardening-2026-09-25.json`.
+- [x] Canonical relationship/identity data unchanged.
+- [ ] CI/runtime execution remains unavailable.
+- [ ] **Exact next:** audit remaining PQ-facing validators and summary consumers for incomplete domain coverage or stale endpoint/scalar assumptions.
