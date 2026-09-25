@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-drain-field-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Drain Field",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Other",
+    "cost": null,
+    "source_quest_or_shop": "Parallel Quest 95 — Super 17, the Ultimate Android",
+    "mechanics": "Other Super used by Super 17 that creates an energy-draining field while evading attacks; community testing reports absorption of incoming Ki-based attacks and Ki return. Exact current game-data resource cost remains unresolved."
+  },
+  "limits": [
+    "Exact reward probability remains unresolved.",
+    "No hidden Ultimate-Finish-only gate is inferred where the evidence does not establish one."
+  ],
+  "evidence_summary": "Current/maintained evidence confirms PQ95 and Basic Reward placement. Community reports document RNG acquisition and differing Ultimate-Finish interpretations; the repository should preserve the evidence boundary rather than asserting a guaranteed drop or exact probability.",
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Drain_Field",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76173007"
+  ]
+}
