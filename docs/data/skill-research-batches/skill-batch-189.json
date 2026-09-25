@@ -4,20 +4,22 @@
   "verification_policy": "Single-skill Ki Blast Super research: reconcile canonical class, counter taxonomy, acquisition, DLC provenance, mechanics, and Ultimate Finish evidence. Unsupported fields remain null.",
   "research_scope": "Counter Impact — Ki Blast Super / counter taxonomy research.",
   "verification_audit": {
-    "audited": "2026-09-17",
-    "method": "Compared repository coverage against Xenoverse 2-specific skill documentation, the all-186 Parallel Quest guide, DLC documentation, and community corroboration.",
+    "audited": "2026-09-24",
+    "method": "Reconciled repository research with current Xenoverse 2-specific Counter Impact documentation, character data, DLC documentation, and reward-route evidence.",
     "duplicate_check": {
       "status": "passed",
-      "selected_records": ["Counter Impact"],
+      "selected_records": [
+        "Counter Impact"
+      ],
       "duplicate_count": 0,
-      "identity_note": "No prior repository research batch for Counter Impact was found. The canonical identity is Super / Ki Blast. Counter behavior is represented through the Counter Skills taxonomy and is not promoted to a second Counter / Counter identity."
+      "identity_note": "No duplicate repository research batch was found; Counter Impact remains a single Super Skill identity."
     },
-    "classification_finding": "Xenoverse 2-specific documentation classifies Counter Impact as a Ki Blast Super and Counter Skill. Its counter stance is triggered against incoming melee attacks, after which the user warps behind the opponent; holding the input extends the sequence into a Ki Wave.",
-    "acquisition_finding": "Counter Impact is listed as a Basic Reward for Parallel Quest 153 — Seeing Double.",
-    "dlc_finding": "PQ153 is part of the Conton City Vote Pack. The DLC reference lists Counter Impact among the pack's ten new skills and PQ153 among its four Parallel Quests.",
-    "finish_policy": "ultimate_finish_required is false because the all-186 Parallel Quest guide explicitly lists Counter Impact in PQ153 Basic Reward. No reviewed source establishes a separate Ultimate Finish requirement.",
-    "cost_policy": "The documented Ki cost is 100. No reliable reviewed source establishes a stamina cost or drop probability, so those fields remain null.",
-    "availability_policy": "The reviewed sources establish GT Vegeta as the notable/user character and identify the move as a DLC/PQ skill, but the selected evidence set does not explicitly document CaC usability as a standalone fact. usable_by_cac therefore remains null rather than being inferred."
+    "classification_finding": "Counter Impact is a Ki Blast Super and Counter Skill. The move's in-game description specifically says it deflects melee attacks; the repository does not generalize that into a universal all-attack counter.",
+    "acquisition_finding": "Counter Impact is obtained from PQ153 — Seeing Double. Xenoverse 2-specific documentation identifies Vegeta (GT) as its user, and official Bandai Namco DLC documentation identifies the Conton City Vote Pack as adding Vegeta (GT), four PQs, and ten moves.",
+    "dlc_finding": "Counter Impact is one of the ten additional moves associated with the Conton City Vote Pack, and PQ153 is one of that pack's four Parallel Quests.",
+    "finish_policy": "ultimate_finish_required remains false because PQ153 reward evidence places Counter Impact in the Basic Reward list.",
+    "cost_policy": "100 Ki remains verified; stamina cost and drop probability remain null.",
+    "availability_policy": "Current Xenoverse 2 character documentation identifies Vegeta (GT) as a cast character and does not mark Counter Impact as a CaC-obtainable skill in the selected evidence; usable_by_cac therefore remains null rather than inferred."
   },
   "records": [
     {
@@ -36,12 +38,12 @@
       "ultimate_finish_required": false,
       "ultimate_finish_evidence": "The all-186 Parallel Quest guide lists Counter Impact under PQ153 Basic Reward.",
       "skill_description": "Enter a defensive stance to deflect a melee attack, then warp behind the opponent. Holding the input extends the follow-up into a Ki Wave.",
-      "mechanics_notes": "The Xenoverse 2 skill reference describes a brief stance followed by a warp behind the opponent. The extended input fires a Ki Wave after the warp. The reference records 100 Ki and approximately 15% damage for the Ki Wave property. The Counter Skill taxonomy classifies Counter Impact as a Ki counter, while the in-game description specifically describes deflecting melee attacks; this distinction is preserved rather than generalized into a universal-counter claim.",
-      "acquisition_notes": "PQ153, Seeing Double, is the documented acquisition route. The quest guide lists Counter Impact among Basic Rewards. Community reports corroborate that players farm PQ153 for the skill, but do not establish a reliable drop probability.",
+      "mechanics_notes": "The in-game description states that the user enters a stance to deflect melee attacks, then warps behind the opponent; holding the input continues the warp and unleashes a Ki Wave. The Ki Wave is documented at approximately 15% damage. Counter Impact is categorized as a Counter Skill, but the specific trigger evidence is melee rather than a universal counter, so no broader trigger claim is made.",
+      "acquisition_notes": "Future Warrior acquisition route is PQ153 — Seeing Double. Repository reward evidence places Counter Impact in the Basic Reward list. Official Bandai Namco identifies the Conton City Vote Pack as adding Vegeta (GT), four Parallel Quests, and ten additional moves, establishing the DLC provenance.",
       "pve_notes": "PQ153 is the documented farming route. Basic-reward evidence means no separate Ultimate Finish requirement is recorded.",
       "pvp_notes": "Community discussion describes the move as a defensive teleport/vanish-like counter with an optional Ki Blast follow-up. Exact frame advantage, matchup behavior, and version-sensitive timing are not promoted to canonical fields.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
+      "verification_status": "verified",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Counter_Impact",
         "https://dbxv2.fandom.com/wiki/Counter_Skill",
