@@ -9521,13 +9521,15 @@
       "pvp_notes": "Tracking and multi-hit behavior can support combo pressure, but exact matchup/frame behavior is version-sensitive.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Power_Pole_Combo",
-        "https://dragonball.fandom.com/wiki/Power_Pole"
+        "https://dragonball.fandom.com/wiki/Power_Pole",
+        "https://www.nintendo.com/us/store/products/dragon-ball-xenoverse-2-time-patrol-support-pack-70050000057717-switch/",
+        "https://www.xbox.com/en-us/games/store/dragon-ball-xenoverse-2-time-patrol-support-pack/9nrrjxr84xt0"
       ],
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-23 canonical promotion: dedicated current Xenoverse 2 evidence confirms Power Pole Combo as a distinct Strike Super, separate from Power Pole and Power Pole Pro, with 100 Ki cost, Goku (GT) use, and Skill Shop acquisition. The Support Pack is treated as provenance/early access rather than exclusive ownership.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.",
+      "notes": "2026-09-23 canonical promotion: dedicated current Xenoverse 2 evidence confirms Power Pole Combo as a distinct Strike Super, separate from Power Pole and Power Pole Pro, with 100 Ki cost, Goku (GT) use, and Skill Shop acquisition. The Support Pack is treated as provenance/early access rather than exclusive ownership.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.\n2026-09-25 current-evidence provenance refresh: official Nintendo and Xbox Time Patrol Support Pack listings independently name Power Pole Combo among the included Super Attacks, corroborating package provenance without changing the broader Skill Shop acquisition endpoint. Dedicated Xenoverse 2 skill evidence continues to support the 100-Ki Strike Super, seven-hit repeated-input behavior, tracking, and Goku (GT) association. No exclusive-purchase claim, new prerequisite, reward probability, or Ultimate Finish gate is inferred.",
       "id": "skill-power-pole-combo"
     },
     {
