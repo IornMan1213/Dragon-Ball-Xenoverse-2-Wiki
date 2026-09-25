@@ -8191,3 +8191,14 @@
 - [x] Historical per-batch artifacts retaining 469 were deliberately preserved as dated evidence.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** resume the deterministic non-PQ reverse/navigation parity scan now that the explicit 469/470 current-scalar census has been completed.
+
+
+### 2026-09-25 cycle completion — Non-PQ reverse/navigation parity repair
+- [x] Recomputed the live non-PQ endpoint union against the **470-record** skill index and the **239 unique PQ-linked skill targets** using the maintained mentor, Expert Mission, shop, Time Rift/story/tournament, Tokipedia, Patrol, special, character-exclusive, and starting-move endpoint layers.
+- [x] Found two uncovered non-PQ canonical skills: **Serious Bomb** and **Time Skip/Tremor Pulse**.
+- [x] Repaired **Serious Bomb** by restoring its existing TP Medal Shop forward/reverse endpoint pair from its canonical `shop` acquisition fields; shop coverage is now **34 linked skills / 34 forward edges**.
+- [x] Preserved **Time Skip/Tremor Pulse** as the single explicit unresolved endpoint because the current mentor layer intentionally withholds its canonical endpoint ID; no relationship was fabricated.
+- [x] Added and registered `docs/data/non-pq-skill-reverse-navigation-parity-2026-09-25.json`.
+- [x] Validation: **470 canonical skills / 239 PQ-linked / 231 non-PQ / 230 resolved non-PQ endpoint targets / 1 explicit unresolved target / 0 canonical IDs promoted / 0 acquisition relationships inferred**.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** reconcile the remaining **Time Skip/Tremor Pulse** mentor-layer endpoint boundary against the canonical skill and current mentor evidence, preserving the unresolved state unless the normal endpoint-reconciliation evidence threshold is met.
