@@ -619,7 +619,7 @@
 - [x] Added/updated the dedicated Acid and Howl evidence audits and registered both in docs/data/pq-cross-domain-index.json.
 - [x] Updated docs/data/skill-research-gaps.json while preserving the unresolved boundary: Acid ki_cost/unlock_method; Howl ki_cost/unlock_method.
 - [x] No canonical skill promotion, CaC acquisition inference, or cross-game Ki-cost inference was made.
-- [x] Web verification corroborated the repository research: the Xenoverse 2 ID list identifies Acid 140 and Howl 10440 as non-CaC skills, while Xenoverse 2-specific pages document the corresponding Saibaman/Great Ape movesets. citeturn2search0turn2search1turn1search7turn1search2
+- [x] Web verification corroborated the repository research: the Xenoverse 2 ID list identifies Acid 140 and Howl 10440 as non-CaC skills, while Xenoverse 2-specific pages document the corresponding Saibaman/Great Ape movesets. cite
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next:** continue the remaining unresolved gap records, prioritizing Boiling Burg / Energy Boil / Baked Sphere / Boulder Toss / Boulder Break with direct Xenoverse 2 evidence; preserve the 469/469 canonical boundary until supported builder execution is available.
 
@@ -664,7 +664,7 @@
 
 ### 2026-09-24 continuation — Neo Wolf Fang Fist P1 provenance enrichment
 - [x] Selected **Neo Wolf Fang Fist** as the next P1 enrichment target after the current verification-date census was exhausted.
-- [x] Added the dedicated provenance audit and confirmed current Xenoverse 2 evidence for Strike Super classification, PQ86 acquisition, and variable **100–700 Ki** usage. citeturn3search0turn3search1
+- [x] Added the dedicated provenance audit and confirmed current Xenoverse 2 evidence for Strike Super classification, PQ86 acquisition, and variable **100–700 Ki** usage. cite
 - [x] Preserved unresolved exact drop probability, frame data, and universal damage measurements; no unsupported Ultimate Finish requirement was inferred.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next:** continue the next partially verified P1 research target with direct Xenoverse 2 evidence; do not manufacture technical measurements.
@@ -940,7 +940,7 @@
 - [x] Live canonical census remains **469**; Shadow Crusher already existed as a verified canonical record, so no promotion was required.
 - [x] Completed **skill-research-batches/skill-batch-178.json — Shadow Crusher**.
 - [x] Revalidated **Super / Strike**, Ki Blast-counter behavior, 100 Ki canonical cost, CaC availability, and **Cooler (Final Form) mentor Lesson 1** acquisition.
-- [x] Independent instructor evidence confirms Shadow Crusher is Cooler's Lesson 1 Basic Reward; Dragon Ball technique documentation independently confirms the Xenoverse 2 counter behavior and acquisition endpoint. citeturn0search0turn0search1
+- [x] Independent instructor evidence confirms Shadow Crusher is Cooler's Lesson 1 Basic Reward; Dragon Ball technique documentation independently confirms the Xenoverse 2 counter behavior and acquisition endpoint. 
 - [x] Preserved deterministic mentor acquisition semantics; no Parallel Quest or Ultimate Finish dependency was inferred.
 - [x] Added `docs/data/skill-shadow-crusher-p1-provenance-verification-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
 - [x] Preserved evidence limits: exact frame timing, hitbox geometry, stamina interactions, and universal damage values remain unresolved.
@@ -951,7 +951,7 @@
 
 ### 2026-09-24 cycle completion — Fake Death P1 provenance refresh
 - [x] Completed **skill-batch-179 — Fake Death** after resolving the prior blocked write.
-- [x] Revalidated **Super / Strike**, **0 Ki**, CaC availability, Yamcha mentor acquisition, fake-KO/I-frame mechanics, and first-lesson reward semantics. citeturn0search0turn0search11
+- [x] Revalidated **Super / Strike**, **0 Ki**, CaC availability, Yamcha mentor acquisition, fake-KO/I-frame mechanics, and first-lesson reward semantics. 
 - [x] Added `docs/data/skill-fake-death-p1-provenance-verification-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
 - [x] Preserved unresolved stamina and exact frame-duration fields; no unsupported numeric mechanics were promoted.
 - [x] Canonical/index boundary remains **469/469**; no canonical promotion was required.
@@ -985,13 +985,13 @@
 - [x] Confirmed the failure mode remains runner/job observability rather than a demonstrated repository-check finding; no checker weakening or speculative cleanup was performed.
 - [x] Re-ran the failed jobs for Repository quality run **36093356049** and Clean internal artifacts run **36093356021**; both reruns were accepted successfully and are now pending/processing.
 - [ ] CI success remains unverified until a completed successful rerun with observable execution is available.
-- [x] Direct validation of the changed Phantom Fist and Evil Ray Strike research/audit files found no forbidden internal citation markers (filecite, memcite, turn10file, turn11file).
+- [x] Direct validation of the changed Phantom Fist and Evil Ray Strike research/audit files found no forbidden internal citation markers (, , , ).
 - [ ] **Exact next:** inspect the rerun results; then complete **skill-batch-182 — Gigantic Slam** without promoting into the 469/469 canonical catalogs unless the supported builder/runtime becomes available.
 
 ### 2026-09-24 cycle completion — Gigantic Slam P1 provenance verification
 - [x] Completed **skill-research-batches/skill-batch-182.json — Gigantic Slam**.
-- [x] Revalidated **Super / Strike**, **100 Ki**, grab/6-hit behavior, explicit **unavailable for CaC** status, Broly user/preset context, and absence of a Future Warrior unlock route. citeturn0search0
-- [x] Confirmed that Partner Customization is a cast-character customization system and must not be conflated with CaC skill availability. citeturn0search6
+- [x] Revalidated **Super / Strike**, **100 Ki**, grab/6-hit behavior, explicit **unavailable for CaC** status, Broly user/preset context, and absence of a Future Warrior unlock route. 
+- [x] Confirmed that Partner Customization is a cast-character customization system and must not be conflated with CaC skill availability. 
 - [x] Added **docs/data/skill-gigantic-slam-p1-provenance-verification-2026-09-24.json** and registered it in **docs/data/pq-cross-domain-index.json**.
 - [x] Preserved evidence limits: stamina cost and exact frame/hitbox/damage values remain unresolved; no unsupported unlock route or Ultimate Finish dependency was inferred.
 - [x] Canonical/index boundary remains **469/469**; no canonical promotion was attempted.
@@ -1059,7 +1059,7 @@
 ### 2026-09-24 cycle completion — Heroic Counter P1 provenance verification
 - [x] Completed **skill-batch-188 — Heroic Counter**.
 - [x] Revalidated **Super / Strike**, 100 Ki, universal-counter behavior, PQ155 acquisition, and Basic Reward evidence.
-- [x] Verified DLC provenance: official Bandai Namco documentation confirms HERO OF JUSTICE Pack 1 added four Parallel Quests and seven additional moves and introduced Gamma 1, Gamma 2, and Gohan (DBS Super Hero). citeturn1search1turn1search3
+- [x] Verified DLC provenance: official Bandai Namco documentation confirms HERO OF JUSTICE Pack 1 added four Parallel Quests and seven additional moves and introduced Gamma 1, Gamma 2, and Gohan (DBS Super Hero). 
 - [x] Added and registered **docs/data/skill-heroic-counter-p1-provenance-verification-2026-09-24.json**.
 - [x] Preserved unresolved stamina, exact frame/damage/matchup data, and drop probability.
 - [x] Canonical/index boundary remains **469/469**; no unsupported canonical promotion was attempted.
@@ -1068,8 +1068,8 @@
 
 ### 2026-09-24 cycle completion — Counter Impact P1 provenance verification
 - [x] Completed **skill-batch-189 — Counter Impact**.
-- [x] Revalidated **Super / Ki Blast**, 100 Ki, PQ153 acquisition, Basic Reward evidence, Counter Skill taxonomy, and the melee-triggered stance/warp/Ki Wave mechanics. citeturn1search0turn1search4
-- [x] Verified Conton City Vote Pack provenance against official Bandai Namco documentation: the pack added Vegeta (GT), four Parallel Quests, and ten additional moves. citeturn1search5turn1search9
+- [x] Revalidated **Super / Ki Blast**, 100 Ki, PQ153 acquisition, Basic Reward evidence, Counter Skill taxonomy, and the melee-triggered stance/warp/Ki Wave mechanics. 
+- [x] Verified Conton City Vote Pack provenance against official Bandai Namco documentation: the pack added Vegeta (GT), four Parallel Quests, and ten additional moves. 
 - [x] Preserved the important distinction that generic Counter Skill categorization does not prove a universal all-attack trigger; the documented Counter Impact trigger is melee.
 - [x] Added and registered **docs/data/skill-counter-impact-p1-provenance-verification-2026-09-24.json**.
 - [x] Preserved unresolved stamina, exact frame/matchup data, drop probability, and CaC-usability evidence.
@@ -1161,7 +1161,7 @@
 - [x] Revalidated the current Counter Skill taxonomy as **Melee Counter** and preserved the repository's Basic Reward interpretation for PQ151 without inventing a probability or Ultimate Finish gate.
 - [x] Added and registered `docs/data/skill-ultrasonic-blitz-p1-provenance-verification-2026-09-24.json` and refreshed `docs/data/skill-research-batches/skill-batch-202.json`.
 - [x] Preserved unresolved exact counter frames/hitboxes, current damage, stamina cost, and drop probability; no unsupported canonical promotion was made.
-- [x] Web evidence checked: current Xenoverse 2 Ultrasonic Blitz reference, Counter Skill taxonomy, Super Attack taxonomy, DLC reference, plus independent community/video corroboration. citeturn2search0turn2search2turn2search3turn2search1
+- [x] Web evidence checked: current Xenoverse 2 Ultrasonic Blitz reference, Counter Skill taxonomy, Super Attack taxonomy, DLC reference, plus independent community/video corroboration. 
 - [x] Current Actions state was inspected and the failed Repository quality / Clean internal artifacts jobs were rerun; no workflow success is claimed because the exposed jobs still provide no usable step/log evidence.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** inspect the post-rerun Actions state, then continue with the next live research target after **Ultrasonic Blitz**, preserving the 469/469 boundary and using the same bounded P1 provenance workflow.
@@ -1183,7 +1183,7 @@
 - [x] Refreshed `docs/data/skill-research-batches/skill-batch-203.json` to **2026-09-24**, preserving the current evidence boundary and historical Ver. 1.21.00 counter behavior issue.
 - [x] Current dedicated evidence documents the kick counter and optional teleport/punch/blue-Ki-Blast follow-up; approximately 25% counter and 20% follow-up damage remain source-reported rather than promoted into unsupported frame data.
 - [x] Evidence limits preserved: exact current frame/hitbox data, stamina cost, drop probability, and matchup-specific exceptions remain unresolved.
-- [x] Web cross-check: current Xenoverse 2 Demon Flash Strike page and Counter Skill taxonomy corroborate Strike Super / Melee Counter classification, PQ160 acquisition, 100 Ki, and mechanics; community/GameFAQs evidence was used only for the historical behavior/fix context. citeturn0search1turn0search3turn0search9
+- [x] Web cross-check: current Xenoverse 2 Demon Flash Strike page and Counter Skill taxonomy corroborate Strike Super / Melee Counter classification, PQ160 acquisition, 100 Ki, and mechanics; community/GameFAQs evidence was used only for the historical behavior/fix context. 
 - [ ] CI success remains unverified; no unsupported CI conclusion made.
 - [ ] **Exact next:** inspect current Actions state, then continue with **skill-batch-204** using the same bounded P1 provenance workflow and preserve current 465/465 parity.
 
@@ -1328,9 +1328,9 @@
 ### 2026-09-24 cycle completion — Batch 238 Evasive CaC-access reconciliation refresh
 - [x] Live baseline confirmed at **469 canonical / 469 index / 0 duplicate IDs**; no new canonical skill identity was created.
 - [x] Refreshed **skill-batch-238** for **Final Pose**, **Mach Dash**, and **Punisher Guard** using current Xenoverse 2 Evasive references.
-- [x] Confirmed Final Pose and Mach Dash as **Power Up Evasives**, 200 Stamina, with Skill Shop and PQ18 acquisition endpoints respectively; the current Evasive reference explicitly places both in its CaC-accessible Power Up table. citeturn1search2turn1search1turn2search0
-- [x] Confirmed Punisher Guard as an **Other Evasive**, 300 Stamina, Skill Shop after story completion, and CaC-accessible in the current Evasive reference; the current Other Evasives category contains it as well. citeturn1search0turn2search0turn3search0
-- [x] Preserved the source-count discrepancy instead of forcing category/table counts into one partition: the Other Evasives category has 11 entries, while the current Evasive reference lists 8 CaC-accessible Other Evasives and separately lists cast-exclusive Evasives. citeturn3search0turn2search0
+- [x] Confirmed Final Pose and Mach Dash as **Power Up Evasives**, 200 Stamina, with Skill Shop and PQ18 acquisition endpoints respectively; the current Evasive reference explicitly places both in its CaC-accessible Power Up table. 
+- [x] Confirmed Punisher Guard as an **Other Evasive**, 300 Stamina, Skill Shop after story completion, and CaC-accessible in the current Evasive reference; the current Other Evasives category contains it as well. 
+- [x] Preserved the source-count discrepancy instead of forcing category/table counts into one partition: the Other Evasives category has 11 entries, while the current Evasive reference lists 8 CaC-accessible Other Evasives and separately lists cast-exclusive Evasives. 
 - [x] Added `docs/data/skill-evasive-cac-access-reconciliation-2026-09-24.json` as the current dated evidence audit and refreshed `skill-batch-238.json`.
 - [x] Validation: changed JSON payloads are structurally generated from parsed source data; canonical/index boundary remains **469/469** with no duplicate-ID change.
 - [ ] CI success remains unverified; no CI success claimed.
@@ -1350,7 +1350,7 @@
 - [x] Reconciled all seven Batch 249 candidates against the live PQ/provenance layers instead of carrying forward the original 2026-09-17 acquisition endpoints unchanged.
 - [x] Corrected the research-layer PQ endpoints: Gigantic Cluster and Eraser Bomb → **PQ163**; Variable Snipe Shot → **PQ165**; Burning Swan → **PQ167**; Emperor's Cannon → **PQ183** with the existing PQ183-vs-PQ184 conflict preserved.
 - [x] Added Gigantic Cross's deterministic **Conton City Patrol 04** endpoint without collapsing it into the historical PQ142 provenance.
-- [x] Corrected **Swallow Shot** from CaC-usable/PQ159 to **cast-exclusive Videl (DB Super)** with no player acquisition endpoint; current Super Attack and Videl references support the cast-exclusive classification. citeturn1search0turn1search1
+- [x] Corrected **Swallow Shot** from CaC-usable/PQ159 to **cast-exclusive Videl (DB Super)** with no player acquisition endpoint; current Super Attack and Videl references support the cast-exclusive classification. 
 - [x] Added `docs/data/skill-batch-249-reconciliation-2026-09-24.json`.
 - [x] Preserved the **469/469** canonical/index boundary and **0 duplicate IDs**; Swallow Shot is deliberately not manually inserted into generated canonical files because the supported lossless builder path is unavailable.
 - [x] JSON validation completed successfully; CI remains unverified.
