@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-recoome-kick-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Recoome Kick",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Strike",
+    "ki_cost": 100,
+    "source_quest_or_shop": "Parallel Quest 61 — \"The Cell Games Continued\"",
+    "unlock_method": "Parallel Quest 61 — Basic Reward",
+    "character_source": "Recoome",
+    "mechanics": "Fast single-hit flying knee/side-kick rush; on a successful hit, the user's normal/basic attack power is temporarily increased. Current skill documentation lists 10% damage."
+  },
+  "limits": [
+    "Exact attack-buff magnitude/duration and individual reward probability remain unresolved.",
+    "The repository does not infer a hidden Ultimate-Finish-only gate because maintained PQ61 evidence places Recoome Kick in Basic Reward."
+  ],
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Recoome_Kick",
+    "https://dragonball.fandom.com/wiki/Recoome_Kick",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ]
+}
