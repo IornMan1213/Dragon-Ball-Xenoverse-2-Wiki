@@ -8333,3 +8333,16 @@
 - [x] New research JSON and updated registry/audit were re-fetched and validated as JSON.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] **Exact next:** continue the deterministic Expert Mission provenance queue with **EM18 Focus Flash** and **EM19 Tail Slicer**, then EM20 Data Input, preserving current canon and unresolved reward semantics.
+
+### 2026-09-25 cycle completion — Expert Mission 18-20 Super provenance Batch 327
+- [x] Confirmed the live continuation queue pointed to EM18 Focus Flash, EM19 Tail Slicer, and EM20 Data Input.
+- [x] Added `docs/data/skill-research-batches/skill-batch-327.json` covering all three endpoints.
+- [x] Reconciled current classifications/costs: Focus Flash = **Super / Ki Blast / 100 Ki**; Tail Slicer = **Super / Ki Blast / 100 Ki**; Data Input = **Super / Power Up / 100 Ki**.
+- [x] Reconfirmed EM18/19/20 acquisition endpoints and Basic Reward semantics from the repository's current skill, EM evidence, endpoint, and cross-domain layers.
+- [x] Preserved the distinction between ordinary skill acquisition and raid-tagged rewards (Gigantic Ki Blast, Brainwash Attack, Peeler Storm).
+- [x] Preserved unresolved exact drop probabilities and hidden reward conditions; no Ultimate Finish-only gate was invented.
+- [x] Registered Batch 327 in `docs/data/pq-cross-domain-index.json` and advanced `docs/data/skill-catalog-audit.json` to **latest_research_batch 327**.
+- [x] Preserved the **470/470** canonical/index boundary; no canonical promotion or reconstruction was performed.
+- [x] New research JSON and updated registry/audit were committed successfully.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** resume the broader current-domain producer/consumer parity queue and inspect for the next deterministic mismatch or evidence-backed thin skill-gap record; the EM18-20 endpoint tranche is now covered.
