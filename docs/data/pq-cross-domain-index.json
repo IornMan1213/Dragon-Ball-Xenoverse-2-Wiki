@@ -95,7 +95,8 @@
     "skill_pq_reverse_validator_hardening_2026_09_25": "docs/data/skill-pq-reverse-validator-hardening-2026-09-25.json",
     "record_reverse_pq_validator_hardening_2026_09_25": "docs/data/record-reverse-pq-validator-hardening-2026-09-25.json",
     "skill_batch_331_the_power_to_overcome_2026_09_25": "docs/data/skill-research-batches/skill-batch-331.json",
-    "skill_batch_332_expert_mission_16_18_19_20_2026_09_25": "docs/data/skill-research-batches/skill-batch-332.json"
+    "skill_batch_332_expert_mission_16_18_19_20_2026_09_25": "docs/data/skill-research-batches/skill-batch-332.json",
+    "skill_batch_333_acid_availability_2026_09_25": "docs/data/skill-research-batches/skill-batch-333.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",
