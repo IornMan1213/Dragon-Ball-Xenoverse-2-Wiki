@@ -8377,3 +8377,14 @@
 - [x] Registered Batch 328 and advanced the skill catalog audit to **latest_research_batch 328**.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] **Exact next:** continue the remaining evidence-backed thin-domain skill-gap queue and/or deterministic current-facing producer/consumer scan; do not invent unresolved costs or acquisition routes.
+
+
+### 2026-09-25 cycle completion — Current reverse/navigation consumer reconciliation
+- [x] Reconciled Hit Lesson 3 → **Time Skip/Tremor Pulse** using the already-existing canonical skill ID; no new identity inferred.
+- [x] Closed non-PQ skill navigation coverage at **231 canonical / 231 endpoint-union**, with **0 uncovered skills**.
+- [x] Corrected current equipment/accessory reverse-navigation scalar **174 → 173** to match the live 173-record layer.
+- [x] Added/registered `docs/data/current-reverse-navigation-consumer-reconciliation-2026-09-25.json`.
+- [x] Preserved **470/470 skills** and **853 PQ relationship edges**; no relationship or acquisition changes.
+- [x] JSON readback validation passed.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the remaining current reverse/navigation producer-consumer census or the next evidence-backed thin-domain batch; do not repeat resolved mentor/equipment count repairs.
