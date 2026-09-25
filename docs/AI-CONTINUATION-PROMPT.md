@@ -2237,3 +2237,14 @@
 - [x] Re-fetched and parsed the changed research batch, gap ledger, catalog audit, and cross-domain registry successfully.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] **Exact next:** continue the remaining thin skill-gap queue only where a new classification/mechanics/provenance field can be established; otherwise proceed to the next deterministic current-facing producer/consumer mismatch.
+
+
+### 2026-09-25 cycle completion — PQ alias/granularity current scalar reconciliation
+- [x] Continued the deterministic current-facing producer/consumer scan and found the next stale-looking field in `docs/data/pq-current-baseline-single-source-reconciliation-2026-09-22.json`: it classified `docs/data/pq-endpoint-alias-granularity-map.json` as stale at **854**.
+- [x] Re-fetched the live alias/granularity bridge and confirmed its own validation is already correct at **853 before / 853 after**; therefore the bridge was not modified.
+- [x] Added `docs/data/pq-endpoint-alias-granularity-current-scalar-reconciliation-2026-09-25.json` documenting the audit-classification correction.
+- [x] Registered the reconciliation artifact in `docs/data/pq-cross-domain-index.json`.
+- [x] No relationship edges, canonical IDs, acquisition routes, or historical snapshots changed.
+- [x] Validation: live bridge and reconciliation artifact parsed successfully; authoritative PQ baseline remains **853 total edges / 244 skill / 145 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming**.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** continue the remaining current-facing reverse/navigation census, prioritizing another stale scalar or one-way endpoint that is actually present in the live consumer rather than audit metadata already superseded by its own current validation.
