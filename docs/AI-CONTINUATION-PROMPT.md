@@ -1,3 +1,13 @@
+### 2026-09-25 cycle completion — Expert Mission Ultimate provenance Batch 323
+- [x] Confirmed no newer `skill-batch-324+` artifact exists on the live branch.
+- [x] Added `docs/data/skill-research-batches/skill-batch-323.json` covering **Supernova (EM6)**, **Dead End Bullet (EM8)**, **Hellzone Grenade (EM10)**, and **Super Electric Strike (EM11)**.
+- [x] Consolidated existing Xenoverse 2 Expert Mission provenance and preserved Basic Reward/endpoint evidence without inferring drop probabilities or first-clear guarantees.
+- [x] Registered Batch 323 in `docs/data/pq-cross-domain-index.json`.
+- [x] Advanced `docs/data/skill-catalog-audit.json` to **latest_research_batch 323**.
+- [x] Preserved the **470/470** canonical/index boundary; no canonical reconstruction or unsupported promotion was performed.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** continue after Batch 323 by checking for a newer research artifact, then reconcile the next deterministic Expert Mission/skill provenance tranche or stale cross-domain consumer.
+ 
 ### 2026-09-25 cycle completion — skill research audit advanced through Batch 322
 - [x] Inspected the live research chain after the 470-record current-consumer census and confirmed that the repository already contains bounded 2026-09-25 evidence refresh/reconciliation artifacts through **skill-batch-322**.
 - [x] Reviewed Batches **317–322**: 317 (eight Ki Blast Ultimate reconciliations), 318 (Divine-series records), 319 (Divinity Unleashed / Do or Die / Dodon Ray), 320 (Atomic Blast / Bending Kamehameha / Big Bang Attack / Big Bang Kamehameha), 321 (five Ki Blast Supers), and 322 (Death Wave / Murder Grenade).
