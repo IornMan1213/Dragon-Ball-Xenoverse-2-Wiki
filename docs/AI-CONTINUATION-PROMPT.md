@@ -1085,3 +1085,15 @@
 - [x] Canonical/index boundary remains **469/469**; no unsupported canonical promotion was attempted.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-191**.
+
+### 2026-09-24 cycle completion — Absolute Zero P1 provenance verification
+- [x] Revalidated **skill-batch-197 — Absolute Zero** as Xenoverse 2 **Evasive / Ki Blast / Counter Skill**, with 300 Stamina, Eis Shenron provenance, GT Pack 2 association, and PQ96 acquisition.
+- [x] Preserved the reward-semantics conflict: the maintained PQ transcription lists Absolute Zero as a PQ96 Basic Reward, while older dedicated material describes random acquisition; no unsupported Ultimate Finish-only condition or drop probability was inferred.
+- [x] Strengthened mechanics evidence for the stationary counter stance and freeze effect; historical patch notes confirm hit-detection/freeze-timing changes, so exact current timing remains version-sensitive.
+- [x] Added `docs/data/skill-absolute-zero-p1-provenance-verification-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Refreshed `docs/data/skill-research-batches/skill-batch-197.json` with current evidence and `last_verified: 2026-09-24`.
+- [x] Live canonical/index baseline remains **469/469**; no unsupported canonical promotion was made.
+- [x] Current Actions inspection: Repository quality, Wiki data audit, Sync Skills Catalog, and Clean internal artifacts runs on commit `8cce8d99c956747c6824d624a252727658885090` all completed with failure and exposed zero workflow steps; this remains an execution/runner observability problem, not a basis for changing canonical data. The newest commit `5172f23bf9e534dbd1eb17751983f89e83595910` has Pages and Clean internal artifacts queued at handoff time.
+- [ ] CI success remains unverified; no CI success claimed.
+- [x] Commits: audit `bd3843e8d303f542100bbaa7835ba7582985c0f7`; batch refresh `8cce8d99c956747c6824d624a252727658885090`; cross-domain registration `5172f23bf9e534dbd1eb17751983f89e83595910`.
+- [ ] **Exact next:** continue **skill-batch-198 — Burst Reflection**, using the same bounded P1 provenance workflow; inspect current Actions state first, preserve the 469/469 canonical boundary, and do not manually reconstruct the catalogs.
