@@ -8299,3 +8299,12 @@
 - [x] No relationships or identities changed; JSON validation passed.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue current producer/consumer parity or source-backed thin-domain enrichment; do not repeat the already-resolved equipment scalar recount.
+
+
+### 2026-09-25 cycle completion — Energy Boil evidence refresh
+- [x] Added current Xenoverse 2 skill-guide evidence confirming Energy Boil ID 10540 is an Evasive Skill.
+- [x] Kept the repository subtype and numeric Ki cost unresolved because the source does not establish them under the repo taxonomy.
+- [x] Added/registered `docs/data/energy-boil-evidence-refresh-2026-09-25.json`.
+- [x] JSON validation passed; no canonical identities or PQ relationships changed.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the next evidence-backed cast-only/legacy skill-gap record with a resolvable classification field.
