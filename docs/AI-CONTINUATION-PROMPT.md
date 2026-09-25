@@ -1302,3 +1302,15 @@
 - [x] Commits: `1cc8aa049e45750cb4a322c190237bd586ece732`, `db208115738b4d84932055b399f76401495d2236`, `4ffaa4938e4b460b6f7ee6fbc4d81b3d5b428364`, `4d57ed75d2db467ee681cc8c90c3a0e38f834731`, `89080abcd601efed7961c9666e9f05ae429480f2`, `7f11b88e42274e2ae9913dd28dabf8f8ba876971`, `13dc8de31f541be1875a25eca5766cf6cb855b40`.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** inspect current Actions state, then continue the Ki Blast Evasive intake beginning with **Special Beam Blast** and the Batch 227 candidate queue.
+
+
+### 2026-09-24 cycle update — Ki Blast Evasive intake Batches 228–234
+- [x] Audited **Batches 228–234** against current repository evidence and targeted current Xenoverse 2 sources.
+- [x] Corrected Batch 228 **Special Beam Blast** to CaC-usable via TP Medal Shop; corrected Batch 230 **Dimension Cannon** to Future Warrior-accessible via PQ59 while retaining Force Shield as cast-only.
+- [x] Refreshed Batch 231's Ki Blast Evasive records and reconciled its provenance through correction Batch 232. Current DBXV2 category evidence remains authoritative where it conflicts with older/broader cross-game descriptions; the Maiden Burst route discrepancy is explicitly preserved.
+- [x] Refreshed Batches 233–234, preserving the **23-entry Ki Blast Evasive category** and the Victory Cannon category/index anomaly rather than silently removing or duplicating it.
+- [x] Preserved cast-exclusive entries and variant distinctions for Saiyan Blaster, Flash Strike (Evasive), Flames of Retribution, Total Evasion, and Peeler Storm.
+- [x] Validation remains **469/469** canonical/index with **0 duplicate IDs** and no speculative canonical promotion.
+- [ ] CI remains unverified; current Actions failures still expose no usable workflow-step logs.
+- [x] Commits: `690c2f734a4bd85112103c53ffc2fc026eb3adbb`, `117a236229ed0fa222bd71be992e2aed438fcb2c`, `c9c2faae2d5307239e81041e447b6e5413f6f877`, `a1ad282ba4da286c5c4f7b45581fd1f87d2738e6`, `64fc7b095b72152820cb248c014b2285e1a6487e`, `4b6f443de6da48989473c606172de999382ad826`, `6c602c8cf7ccebaed42b9be8f83a547e6172412c`.
+- [ ] **Exact next:** inspect current Actions state, then continue the Ki Blast Evasive/cross-domain cleanup from **skill-batch-235**, beginning with the documented category/source conflict around Mach Dash/Final Pose and the Batch 221 provenance note.
