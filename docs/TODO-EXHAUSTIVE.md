@@ -7656,3 +7656,11 @@
 - [x] Validation: JSON parsed successfully; canonical/index boundary remains **469/469** with **0 duplicate IDs**.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** continue **skill-batch-252**, reconciling Death Slicer, Ki Blast Cannon, Dodon Ray, Death Slash, Burst Attack, and Kairos Cannon.
+### 2026-09-24 — TODO completion update — Batch 252 Ki Blast Super reconciliation
+- [x] Completed **skill-batch-252** for Death Slicer, Ki Blast Cannon, Dodon Ray, Death Slash, Burst Attack, and Kairos Cannon.
+- [x] Reconciled current class, subtype, cost, acquisition, and availability evidence; preserved unresolved fields rather than inferring them.
+- [x] Corrected Kairos Cannon from character-only to **Future Warrior/CaC-accessible** through **Conton City Tournament Match 2 — "Thinning the Herd"**.
+- [x] Added and registered `docs/data/skill-batch-252-reconciliation-2026-09-24.json`.
+- [x] Validation remains **469/469 canonical/index**, **0 duplicate IDs**, with no canonical reconstruction.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** recompute the live unfinished research/catalog census after Batch 252 and select the next deterministic evidence-backed consumer; no unsupported Batch 253 identity should be invented.
