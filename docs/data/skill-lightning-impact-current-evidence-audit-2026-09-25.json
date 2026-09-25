@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-lightning-impact-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Lightning Impact",
+  "result": "current_evidence_refresh",
+  "supported_fields": {
+    "class": "Ultimate",
+    "subcategory": "Ki Blast",
+    "ki_cost": 300,
+    "source_quest_or_shop": "Parallel Quest 142 — \"Timespace Tussle\" Basic Reward",
+    "mechanics": "Chargeable beam Ultimate with a 20-hit reference. Rapid input increases charge/damage; the user is invulnerable while charging and attackers who touch the user during charging are paralyzed. Current skill evidence reports 25% base and 35% fully charged damage.",
+    "character_source": "Majuub; Goku (GT)"
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Lightning_Impact",
+    "https://dragonball.fandom.com/wiki/Lightning_Impact",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/78743222",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "limits": [
+    "25%/35% are source-reported reference values, not asserted as universal patch-independent damage.",
+    "No Ultimate Finish-only gate or reward probability is inferred.",
+    "No exact charge duration or frame timing is promoted."
+  ]
+}
