@@ -1,3 +1,12 @@
+### 2026-09-25 cycle completion — skill research audit advanced through Batch 322
+- [x] Inspected the live research chain after the 470-record current-consumer census and confirmed that the repository already contains bounded 2026-09-25 evidence refresh/reconciliation artifacts through **skill-batch-322**.
+- [x] Reviewed Batches **317–322**: 317 (eight Ki Blast Ultimate reconciliations), 318 (Divine-series records), 319 (Divinity Unleashed / Do or Die / Dodon Ray), 320 (Atomic Blast / Bending Kamehameha / Big Bang Attack / Big Bang Kamehameha), 321 (five Ki Blast Supers), and 322 (Death Wave / Murder Grenade).
+- [x] Verified the six batch artifacts are valid structured research records with explicit evidence boundaries; unresolved reward probabilities, version-sensitive damage/frame data, and source conflicts remain unasserted.
+- [x] Advanced `docs/data/skill-catalog-audit.json` from stale **latest_research_batch 315** to **322** and updated its audit date to 2026-09-25, adding dated reconciliation notes for Batches 317–322.
+- [x] Preserved the research-only boundary: no oversized manual reconstruction of `skills.json` / `skills-index.json`, no unsupported canonical promotion, and no invented acquisition probabilities.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** continue the deterministic P1 provenance/research chain after Batch 322, first checking whether a newer evidence artifact already exists before creating a new batch; then reconcile the next stale canonical/research record or cross-domain consumer with direct Xenoverse 2 evidence.
+ 
 ### 2026-09-25 cycle completion — 470-record current-scalar census
 - [x] Completed the follow-up current-facing scalar census after the six-consumer 469→470 repair.
 - [x] Searched the live repository for stale 469 scalar patterns across canonical skill, index, acquisition, and endpoint reports.
