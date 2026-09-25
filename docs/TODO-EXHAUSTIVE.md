@@ -8028,3 +8028,10 @@
 - [x] Changed JSON files re-parsed successfully; no canonical relationships or gameplay data were inferred or altered.
 - [ ] CI remains unverified; the latest prior runs exposed zero workflow steps/logs. The exact next check is the Actions state for commit b16717265b2b606618ac08b7b6d74427c9aeb558.
 - [ ] Exact next: continue exact-pair parity scanning of remaining current reverse/navigation consumers, prioritizing non-PQ equipment/accessory presentation consumers.
+
+
+### 2026-09-25 — TODO CI status correction after consumer repairs
+- [x] Confirmed the consumer-repair push `06b87bb911bebfb083439e2c3ccdc5fac3dbf270` still produces the same zero-step GitHub Actions failure pattern; no repository checker result is observable from those jobs.
+- [x] Current main is `1bf72b0cd61d9746f48cc0679ffe7340b67e0525`; its quality/artifact/Pages runs were queued at inspection time.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** inspect the queued runs, then continue exact-pair reverse/navigation scanning if the runner failure persists.
