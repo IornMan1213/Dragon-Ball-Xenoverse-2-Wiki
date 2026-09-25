@@ -7720,3 +7720,11 @@
 - [x] Preserved the **469/469** canonical boundary.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** research **Energy Boil** subtype and Ki cost with direct Xenoverse 2 evidence.
+
+
+### 2026-09-24 — TODO completion update — Energy Boil evidence follow-up
+- [x] Strengthened Energy Boil with independent Xenoverse 2 ID, encounter, Evasive, ownership, and CaC-unavailable evidence.
+- [x] Preserved unresolved subcategory and numeric Ki cost rather than guessing.
+- [x] Preserved the **469/469** canonical boundary.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** research **Baked Sphere** and continue the cast-only unresolved queue.
