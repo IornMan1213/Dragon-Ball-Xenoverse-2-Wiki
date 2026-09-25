@@ -7694,3 +7694,11 @@
 - [x] Validation remains **469/469 canonical/index**, **0 duplicate IDs**; no canonical reconstruction.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** recompute the live unfinished census and continue the next deterministic enrichment/reconciliation target.
+
+
+### 2026-09-24 — TODO completion update — Boulder Toss + Boulder Break Expert Mission provenance follow-up
+- [x] Added an independent current Xenoverse 2 Expert Mission 3 source to both Boulder Toss and Boulder Break evidence audits.
+- [x] Updated the central unresolved-gap ledger with the additional mission-use provenance while retaining the unresolved numeric Ki-cost boundary.
+- [x] Preserved the **469/469** canonical/index boundary and did not promote either cast-only skill without the supported builder/runtime.
+- [ ] CI remains unverified; the current main commit exposes no workflow runs/status checks through the available GitHub interface.
+- [ ] **Exact next:** continue the remaining unresolved skill-gap queue with **Acid** using direct Xenoverse 2 evidence, then proceed through the remaining unresolved records without inventing numeric costs.
