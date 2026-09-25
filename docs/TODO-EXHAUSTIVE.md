@@ -8261,3 +8261,12 @@
 - [x] Final validation: **470 canonical / 239 PQ-linked / 231 non-PQ / 231 resolved non-PQ endpoint targets / 0 unresolved non-PQ skills / 132 mentor skill edges / 131 unique mentor skill targets / 0 broken endpoints**.
 - [ ] CI remains unverified; no successful Actions result is claimed.
 - [ ] **Exact next:** resume the deterministic producer/consumer parity queue outside the now-clean non-PQ reverse-navigation invariant, prioritizing any remaining current 470-count consumer or cross-domain endpoint mismatch not already audited.
+
+
+### 2026-09-25 cycle completion — Equipment reverse-navigation current scalar parity
+- [x] Found and repaired the stale Equipment reverse-navigation `record_count` scalar: **173 → 174**, matching the live combined equipment/accessory record layer.
+- [x] Added and registered `docs/data/equipment-record-reverse-navigation-current-scalar-parity-2026-09-25.json`.
+- [x] Preserved **124 equipment forward edges / 122 unique canonical targets / 0 missing / 0 extra / 0 duplicate pairs**.
+- [x] Validation passed after correcting the cross-domain index delimiter; all changed/readback JSON now parse cleanly.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the current exact-pair producer/consumer census with the next equipment/accessory or PQ presentation consumer that exposes a deterministic stale scalar or one-way navigation mismatch.
