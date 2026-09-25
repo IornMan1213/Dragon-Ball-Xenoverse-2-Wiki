@@ -63,16 +63,18 @@
     {
       "skill": "Dead End Bullet",
       "expert_mission": 8,
-      "status": "partially_verified",
+      "status": "verified_current_scope",
       "skill_id": "skill-dead-end-bullet",
-      "endpoint_id": "em-08"
+      "endpoint_id": "em-08",
+      "last_verified": "2026-09-25"
     },
     {
       "skill": "Assault Rain",
       "expert_mission": 9,
-      "status": "partially_verified",
+      "status": "verified_current_scope",
       "skill_id": "skill-assault-rain",
-      "endpoint_id": "em-09"
+      "endpoint_id": "em-09",
+      "last_verified": "2026-09-25"
     },
     {
       "skill": "Hellzone Grenade",
@@ -85,16 +87,18 @@
     {
       "skill": "Super Electric Strike",
       "expert_mission": 11,
-      "status": "partially_verified",
+      "status": "verified_current_scope",
       "skill_id": "skill-super-electric-strike",
-      "endpoint_id": "em-11"
+      "endpoint_id": "em-11",
+      "last_verified": "2026-09-25"
     },
     {
       "skill": "Angry Explosion",
       "expert_mission": 12,
-      "status": "partially_verified",
+      "status": "verified_current_scope",
       "skill_id": "skill-angry-explosion",
-      "endpoint_id": "em-12"
+      "endpoint_id": "em-12",
+      "last_verified": "2026-09-25"
     },
     {
       "skill": "Dead End Rain",
