@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 347,
+  "created": "2026-09-25",
+  "verification_policy": "Current Xenoverse 2-specific evidence refresh for existing enriched skill records. Preserve conflicts and unresolved reward semantics; do not infer unsupported probabilities or hidden gates.",
+  "research_scope": "Alphabetical enriched-corpus provenance refresh — Gorgeous Shot, Grand Smasher, Gravity Impact, Hawk Charge.",
+  "records": [
+    {
+      "name": "Gorgeous Shot",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25",
+      "source_quest_or_shop": "Zarbon mentor training — Lesson 1",
+      "ki_cost": 100,
+      "mechanics": "Rapid overhead beam fired directly below the user; mild tracking in combos."
+    },
+    {
+      "name": "Grand Smasher",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25",
+      "source_quest_or_shop": "Bojack mentor training — Lesson 3",
+      "ki_cost": "300-400",
+      "mechanics": "Large green Ki sphere; additional input spends 100 extra Ki to detonate the projectile with an unblockable explosion."
+    },
+    {
+      "name": "Gravity Impact",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25",
+      "source_quest_or_shop": "Cell (Perfect) mentor training",
+      "ki_cost": 100,
+      "mechanics": "Short-range shockwave that can cancel Ki Blasts and creates unusually long knockback for follow-up attacks."
+    },
+    {
+      "name": "Hawk Charge",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25",
+      "source_quest_or_shop": "Gohan & Videl mentor training — Lesson 2",
+      "ki_cost": "100; 200 for Gohan (DBS Super Hero) variant",
+      "mechanics": "Forward elbow rush with palm follow-up; additional input triggers the follow-up during the rush, with a documented 5-hit 200-Ki variant for Gohan (DBS Super Hero)."
+    }
+  ],
+  "evidence_sources": {
+    "Gorgeous Shot": [
+      "https://dbxv2.fandom.com/wiki/Gorgeous_Shot",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+      "https://dragonball.fandom.com/wiki/Shooting_Star_Arrow"
+    ],
+    "Grand Smasher": [
+      "https://dbxv2.fandom.com/wiki/Grand_Smasher",
+      "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+      "https://dragonball.fandom.com/wiki/Grand_Smasher"
+    ],
+    "Gravity Impact": [
+      "https://dbxv2.fandom.com/wiki/Gravity_Impact",
+      "https://dragonball.fandom.com/wiki/Gravity_Impact",
+      "https://steamcommunity.com/app/454650/discussions/0/1697167355225852276/"
+    ],
+    "Hawk Charge": [
+      "https://dbxv2.fandom.com/wiki/Hawk_Charge",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+      "https://dragonballupdates.fandom.com/wiki/Hawk_Arrow"
+    ]
+  },
+  "limits": [
+    "No unsupported drop probabilities or hidden reward gates were added.",
+    "Variant-specific or community-reported numeric mechanics remain bounded to the source that documents them.",
+    "Existing canonical relationships and identities are preserved; this batch records the evidence refresh and does not claim CI success."
+  ]
+}
