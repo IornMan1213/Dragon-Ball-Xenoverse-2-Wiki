@@ -344,3 +344,17 @@
 - [x] Validation: canonical/index parity is clean for all four; current status census is now **264 verified_current_scope + 178 verified/enriched + 27 verified/verified = 469 total**, with **0 partially_verified** canonical skills.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** begin the next under-enriched frontier: the **27 `verified | verified` canonical records**. Start with a fresh evidence census for **Apocalyptic Burst, Blaster Stream, Chain Destructo-Disc Barrage, and Circle Flash**, and promote/enrich only fields directly supported by current Xenoverse 2 evidence.
+
+
+### 2026-09-25 cycle completion — Apocalyptic Burst / Blaster Stream / Chain Destructo-Disc Barrage / Circle Flash enrichment
+- Fresh live census: **469 canonical skills**; before this cycle, **27** were `verified | verified`. The bounded target was the first four records in that frontier.
+- [x] Added four dedicated current-evidence audits and registered all four in `docs/data/pq-cross-domain-index.json`.
+- [x] Promoted the four from `verified` research status to `enriched`; refreshed canonical/index `last_verified` to **2026-09-25**.
+- [x] Corrected a concrete stale canonical value: **Apocalyptic Burst Ki cost 500 → 300**, supported by current Xenoverse 2 skill documentation and independent Dragon Ball reference.
+- [x] Apocalyptic Burst mechanics expanded: charged guard-breaking opening kick, weak-Ki-Blast cancellation aura, two follow-up kicks, finishing Ki Blast, and Evasive/Limit Burst prevention during the attack. PQ161 reward-tier conflict remains preserved.
+- [x] Blaster Stream mechanics expanded: charge-dependent damage/hit count and follow-up Ki Wave; PQ148 Basic Reward and unresolved race scope remain preserved.
+- [x] Chain Destructo-Disc Barrage mechanics expanded: five sequential Destructo-Discs and unblockable behavior; PQ46 Basic Reward and unresolved probability remain preserved.
+- [x] Circle Flash mechanics expanded: ring projectile capture/cutscene and explosion; 300 Ki and 40% documented damage retained, while Basic-vs-Ultimate-Finish reward evidence remains explicitly conflicting.
+- [x] Validation: canonical status census is now **264 verified_current_scope/enriched + 182 verified/enriched + 23 verified/verified = 469**. All four targets have current dates and enriched research status. Index records match the shared status/date fields; index intentionally does not duplicate every canonical field such as Ki cost.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** continue the remaining `verified | verified` frontier with **Core Breaker, Death Ball, Destruction's Concerto: Meteor, Dimension Ray**, performing the same current-evidence census and only correcting fields with direct support.
