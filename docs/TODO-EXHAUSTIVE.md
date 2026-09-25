@@ -7875,3 +7875,13 @@
 - [x] External evidence checked: current Xenoverse 2 Ultimate documentation plus independent Dragon Ball and instructor-guide sources. citeturn0search1turn0search2turn0search3turn0search5turn0search6turn0search8
 - [ ] CI success remains unverified; no successful Actions result is claimed.
 - [ ] **Exact next:** inspect the live unfinished census and continue the next deterministic partially verified batch after Batch 305, prioritizing missing acquisition/mechanics fields with direct Xenoverse 2 evidence and preserving unresolved values where evidence is insufficient.
+
+### 2026-09-24 cycle completion — Batch 306 Ki Blast Ultimate evidence enrichment
+- [x] Continued the next deterministic tranche: **skill-batch-306 — Gigantic Meteor, Gigantic Explosion, Super Electric Strike, Minus Energy Power Ball**.
+- [x] Strengthened **Super Electric Strike** with direct current Xenoverse 2 evidence: **300 Ki**, Ki Blast Ultimate, 17-hit long-range tracking wave, and **Expert Mission 11 Basic Reward** acquisition.
+- [x] Strengthened **Minus Energy Power Ball** with direct current Xenoverse 2 evidence: **500 Ki**, 39-hit Ki Blast Ultimate properties, and Guru-expanded Shenron wish acquisition.
+- [x] Preserved the existing Gigantic Meteor and Gigantic Explosion evidence boundaries; no unsupported damage/frame/drop data was added.
+- [x] Updated `docs/data/skill-research-batches/skill-batch-306.json` and promoted the Super Electric Strike record in `docs/data/skills-index.json`.
+- [x] Web evidence: dedicated Xenoverse 2 documentation confirms Super Electric Strike's 300 Ki/17-hit properties and Minus Energy Power Ball's 500 Ki/39-hit properties; the maintained Expert Mission guide identifies Super Electric Strike as EM11's Basic Reward. citeturn2search0turn2search6turn3search4turn3search5
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** continue the next deterministic partially verified tranche after Batch 306, prioritizing records whose acquisition/mechanics fields can gain new direct Xenoverse 2 evidence; do not infer unsupported numeric values.
