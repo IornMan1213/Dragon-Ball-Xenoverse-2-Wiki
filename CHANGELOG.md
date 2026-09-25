@@ -3092,3 +3092,13 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [x] Commits: audit `d030db0bf8e89dfff7e793575d7c80c03caeeccc`; research batch `2fd2100ce2544cd4114211dbc7605b64d075a60b2`; registry `1989441c167f340709679293f5fc02283ab4c645`.
 - [ ] **Exact next:** continue substantive P1 enrichment from the next existing partially verified research batch after PQ87–PQ91, prioritizing records where current Xenoverse 2 evidence can resolve real classification/resource/acquisition/mechanics fields. Do not manually promote into the 469/469 canonical catalogs without the supported builder.
+
+
+## 2026-09-24 — Absolute Zero P1 provenance verification
+
+- Revalidated **Absolute Zero** (skill-research batch 197) as a Xenoverse 2 **Evasive / Ki Blast / Counter Skill** with **300 Stamina**, Eis Shenron provenance, GT Pack 2 association, and PQ96 acquisition.
+- Preserved the PQ96 reward-semantics boundary: the maintained PQ transcription lists Absolute Zero in Basic Reward, while older dedicated material describes random acquisition; no unsupported Ultimate Finish-only gate or drop probability was inferred.
+- Strengthened mechanics provenance for the stationary counter stance and freeze effect; preserved version-sensitive hit-detection/freeze timing rather than promoting fixed frame data.
+- Added `docs/data/skill-absolute-zero-p1-provenance-verification-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- Refreshed `docs/data/skill-research-batches/skill-batch-197.json`; canonical/index catalogs remain **469/469** and were not manually expanded.
+- Actions on the latest commits continue to expose runner-level failures with zero workflow steps/logs; no CI success is claimed.
