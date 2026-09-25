@@ -7259,3 +7259,11 @@
 - [x] Preserved the 469/469 canonical/index boundary and unresolved numeric evidence fields.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** complete **skill-batch-178 — Shadow Crusher**.
+
+
+### 2026-09-24 — TODO completion update — Shadow Crusher P1 provenance refresh
+- [x] Completed **skill-batch-178 — Shadow Crusher** with current Xenoverse 2 identity, Ki Blast-counter mechanics, 100-Ki canonical cost, CaC boundary, and Cooler Lesson 1 acquisition provenance.
+- [x] Added and registered the Shadow Crusher provenance audit.
+- [x] Preserved the verified 469/469 canonical/index boundary and unresolved numeric evidence fields.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** complete **skill-batch-179 — Fake Death**.
