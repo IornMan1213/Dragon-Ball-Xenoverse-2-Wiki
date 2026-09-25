@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-batch-357-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "scope": [
+    "skill-prepare-to-be-punished",
+    "skill-power-rush",
+    "skill-pretty-cannon",
+    "skill-pretty-charge"
+  ],
+  "findings": {
+    "skill-prepare-to-be-punished": "Pan Super Skill; repository mentor Lesson 1 endpoint retained; 0-Ki Power Up behavior remains bounded.",
+    "skill-power-rush": "Jiren Strike Ultimate; PQ122 Ultimate Finish acquisition retained; 1000-Ki and 14-hit mechanics remain bounded.",
+    "skill-pretty-cannon": "Ribrianne Ki Blast Super; PQ133 Basic Reward and Ultra Pack 1 provenance retained; no UF-only gate inferred.",
+    "skill-pretty-charge": "Ribrianne character-only Power Up Super; Ultra Pack 1 provenance retained; 0-Ki activation is not interpreted as restored-Ki quantity."
+  },
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Characters",
+    "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-ultra-pack-1-trailer"
+  ],
+  "limits": [
+    "No unsupported probabilities, hidden prerequisites, new Ultimate Finish gates, frame data, exact timing, damage, or stacking caps promoted."
+  ],
+  "status": "research_boundary_complete"
+}
