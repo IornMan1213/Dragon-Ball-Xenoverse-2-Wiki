@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-25",
+  "scope": "Non-PQ skill reverse/navigation parity after current 470-record skill baseline.",
+  "sources": [
+    "docs/data/skills-index.json",
+    "docs/data/pq-reward-relationships.json",
+    "docs/data/mentor-endpoints.json",
+    "docs/data/expert-mission-endpoints.json",
+    "docs/data/skill-shop-endpoints.json",
+    "docs/data/time-rift-story-tournament-endpoints.json",
+    "docs/data/tokipedia-endpoints.json",
+    "docs/data/conton-city-patrol-endpoints.json",
+    "docs/data/special-acquisition-endpoints.json",
+    "docs/data/character-exclusive-skill-endpoints.json",
+    "docs/data/starting-move-endpoints.json"
+  ],
+  "before": {
+    "canonical_skills": 470,
+    "pq_unique_skill_targets": 239,
+    "non_pq_canonical_skills": 231,
+    "non_pq_endpoint_union": 229,
+    "uncovered_non_pq_skills": [
+      "skill-time-skip-tremor-pulse",
+      "skill-serious-bomb"
+    ]
+  },
+  "repair": {
+    "skill_id": "skill-serious-bomb",
+    "name": "Serious Bomb",
+    "endpoint": "shop-tp-stp-medal",
+    "basis": "Existing canonical acquisition_type=shop and source_quest_or_shop=TP Medal Shop; no alternate route inferred.",
+    "forward_reverse_pair_restored": true
+  },
+  "after": {
+    "canonical_skills": 470,
+    "pq_unique_skill_targets": 239,
+    "non_pq_canonical_skills": 231,
+    "non_pq_endpoint_union": 230,
+    "uncovered_non_pq_skills": [
+      "skill-time-skip-tremor-pulse"
+    ],
+    "unresolved_endpoint_reason": "Time Skip/Tremor Pulse remains intentionally unresolved in the mentor endpoint layer; its canonical skill identity exists, but the current mentor consumer explicitly withholds the skill_id pending normal endpoint reconciliation."
+  },
+  "validation": {
+    "duplicate_canonical_skill_ids": 0,
+    "shop_forward_reverse_pair_parity": true,
+    "acquisition_relationships_inferred": 0,
+    "canonical_skill_ids_promoted": 0,
+    "status": "pass_with_explicit_unresolved"
+  },
+  "next_gate": "Reconcile the single remaining non-PQ uncovered canonical skill, Time Skip/Tremor Pulse, against the current mentor-layer unresolved boundary without fabricating a new relationship."
+}
