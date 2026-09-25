@@ -1,45 +1,18 @@
 {
-  "schema_version": "1.0.0",
-  "audit_date": "2026-09-24",
-  "skill_name": "Howl",
-  "skill_id": "skill-howl",
-  "status": "evidence_enriched_unresolved",
-  "scope": "bounded Xenoverse 2-specific evidence enrichment",
-  "evidence": [
-    {
-      "type": "xenoverse2_id",
-      "claim": "Xenoverse 2 Character ID List assigns Howl skill ID 10440, marks it CaC-unavailable, and identifies Great Ape as its source.",
-      "source": "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
-    },
-    {
-      "type": "xenoverse2_moveset",
-      "claim": "Great Ape Festival lists Howl on Great Ape Nappa, Great Ape Vegeta, and Great Ape Bardock.",
-      "source": "https://dbxv2.fandom.com/wiki/Great_Ape_Festival"
-    },
-    {
-      "type": "xenoverse2_pq",
-      "claim": "Saiyan Survivors lists Howl on Great Ape Nappa and Great Ape Vegeta.",
-      "source": "https://dbxv2.fandom.com/wiki/Saiyan_Survivors"
-    },
-    {
-      "type": "xenoverse2_story",
-      "claim": "Power x10 x2? Great Ape Transformation lists Howl on Great Ape Nappa and Great Ape Vegeta.",
-      "source": "https://videogaming.fandom.com/wiki/Power_x10_x2%3F_Great_Ape_Transformation"
-    }
+  "audit_id": "skill-research-gaps-howl-evidence-audit-2026-09-24",
+  "date": "2026-09-24",
+  "skill": "Howl",
+  "scope": "Xenoverse 2-specific identity, classification, CaC boundary, recurring encounter provenance, and unresolved numeric cost",
+  "findings": [
+    {"source":"Xenoverse 2 Character ID List","evidence":"ID 10440 / short ID 440, code HOK, Howl; CaC Skill = No; notes identify Great Ape.","supports":["skill identity","CaC-unavailable","Great Ape source","numeric ID"]},
+    {"source":"Great Ape Festival — Xenoverse 2","evidence":"Great Ape Nappa, Great Ape Vegeta, and Great Ape Bardock list Howl.","supports":["recurring Great Ape moveset provenance"]},
+    {"source":"The Return of the Giant Ape-Fest! — Xenoverse 2","evidence":"Great Ape Baby, Nappa, Vegeta, and Bardock list Howl.","supports":["recurring Great Ape moveset provenance","Great Ape Baby association"]},
+    {"source":"Assault of the Great Ape — Expert Mission 3","evidence":"Great Ape Nappa's Xenoverse 2 moveset lists Howl.","supports":["Expert Mission provenance"]},
+    {"source":"Saiyan Survivors — Xenoverse 2","evidence":"Great Ape Nappa and Great Ape Vegeta list Howl.","supports":["PQ provenance"]},
+    {"source":"Power x10 x2? Great Ape Transformation — Xenoverse 2","evidence":"Great Ape Nappa and Great Ape Vegeta list Howl.","supports":["story/Legend Patrol-era provenance"]},
+    {"source":"Power x10! Vegeta Transforms — Xenoverse 2 Legend Patrol","evidence":"Great Ape Vegeta is explicitly listed with Howl as an Evasive Skill.","supports":["Evasive classification","Legend Patrol provenance"]}
   ],
-  "resolved_fields": {
-    "classification": "Evasive Skill",
-    "cac_available": false,
-    "character_source": "Great Ape Nappa; Great Ape Vegeta; Great Ape Bardock and other Great Ape enemy variants",
-    "acquisition_status": "Not obtainable by CaC / no CaC unlock route documented"
-  },
-  "unresolved_fields": [
-    "ki_cost"
-  ],
-  "guardrails": [
-    "Do not infer Ki cost from another game or unofficial implementation.",
-    "Do not create a CaC acquisition route from enemy-only usage.",
-    "Do not promote to canonical skills.json without supported builder execution and required field coverage.",
-    "Do not invent a CaC unlock route when the skill is documented as CaC-unavailable."
-  ]
+  "cost_result":{"numeric_ki_cost":null,"status":"unresolved","reason":"The checked Xenoverse 2-specific sources establish identity/classification and recurring NPC usage but do not expose a numeric Ki cost. No cost is inferred."},
+  "guardrails":["Howl remains CaC-unavailable and Great Ape-exclusive in the repository research boundary.","No acquisition route is invented because the documented encounters are NPC movesets rather than player reward records.","No numeric Ki cost is promoted from cross-game material."],
+  "canonical_promotion":false
 }
