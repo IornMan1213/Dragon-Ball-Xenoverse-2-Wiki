@@ -7991,3 +7991,13 @@
 - [x] No duplicate canonical accessory IDs created; unresolved reward-condition details remain separate.
 - [ ] CI/runtime remains unverified.
 - [ ] **Exact next:** continue the remaining unmatched accessory identities, starting with Android 14's Hat and Bardock (DB Super)'s Scouter.
+
+
+### 2026-09-24 cycle completion — residual accessory evidence boundary: Android 14 / Bardock (DB Super) Scouter
+- [x] Audited Android 14's Hat (PQ104) and Bardock (DB Super)'s Scouter (PQ146) against current Xenoverse 2 equipment/PQ sources.
+- [x] Confirmed both PQs document character **clothing** rewards rather than exact character-specific accessory inventory identities.
+- [x] Added and registered `docs/data/accessory-android14-bardock-super-scouter-evidence-audit-2026-09-24.json`.
+- [x] Linked the audit from the accessory canonical bridge and preserved both records as unresolved; no generic Scouter or clothing-derived accessory was inferred.
+- [x] Changed JSON parsed successfully and contains no internal citation/export markers.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** continue the remaining residual accessory candidates only when exact inventory-level evidence exists; otherwise resume the deterministic non-PQ/mentor consumer scan after Batch 311.
