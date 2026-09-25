@@ -7587,3 +7587,12 @@
 - [x] Validation remains **469/469** canonical/index with **0 duplicate IDs**.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** begin the Ki Blast Evasive queue from Batch 227, starting with **Special Beam Blast**.
+
+
+### 2026-09-24 — TODO completion update — Ki Blast Evasive Batches 228–234
+- [x] Completed the bounded Ki Blast Evasive intake/reconciliation through **Batch 234**.
+- [x] Corrected Special Beam Blast and Dimension Cannon availability; preserved current-source conflicts for Maiden Burst and Victory Cannon.
+- [x] Reconciled cast-exclusive/DLC implementations without speculative CaC promotion.
+- [x] Validation remains **469/469** canonical/index with **0 duplicate IDs**.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** inspect current Actions state, then process **skill-batch-235** and its Mach Dash/Final Pose category-source reconciliation.
