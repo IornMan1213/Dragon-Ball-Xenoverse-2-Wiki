@@ -7922,3 +7922,16 @@
 - [ ] CI: no workflow runs exposed for the latest Batch 56 write; no CI success claimed.
 - [x] Commits: audit `5deaf1b68318563ba22a7a1c6365949ef3f43c33`; registry `b53f2954635e50c174a98eb81cdddc8b88918223`; batch `8e64ee4394da4c1f8e5253871f6f67f8057ea2c7`.
 - [ ] **Exact next:** continue the next existing partially verified skill-research record after Batch 56, using current Xenoverse 2 evidence to resolve classification/acquisition/mechanics where possible and preserving conflicts/nulls where evidence remains insufficient.
+
+
+### 2026-09-24 cycle completion — Batch 309 Ki Blast Ultimate evidence enrichment
+- [x] Continued **skill-batch-309 — Shocking Death Ball, Teleporting Vanishing Ball, Super Vanishing Ball**.
+- [x] Strengthened Shocking Death Ball: Ki Blast Ultimate, 300 Ki, EM14 acquisition, 17-hit projectile/paralysis behavior, Super 17/Android 17 Customize Partner provenance.
+- [x] Strengthened Teleporting Vanishing Ball: Ki Blast Ultimate, 300 Ki, PQ62 acquisition, 15-hit teleporting projectile behavior, Kid Buu provenance.
+- [x] Strengthened Super Vanishing Ball: Ki Blast Ultimate, 300 Ki, Skill Shop acquisition, 18-hit long-range projectile behavior, Kid Buu/Janemba Customize Partner provenance.
+- [x] Added and registered `docs/data/skill-batch-309-ki-blast-ultimate-evidence-audit-2026-09-24.json`.
+- [x] Preserved unresolved drop probability, Ultimate Finish requirements, and shop-price semantics rather than inferring them.
+- [x] Validation: audit and batch JSON parsed successfully; canonical promotion was intentionally not attempted.
+- [ ] CI: no workflow runs exposed for the latest Batch 309 writes; no CI success claimed.
+- [x] Commits: audit `82d70e6ef72b0a63ec37aba094a394325bb402e5`; batch `0117446e4c776f6bfb44a04adf7c0516377f7222`; registry `2fbc9ba78a634828bb544eaab27984a17b8b3794`.
+- [ ] **Exact next:** continue **skill-batch-310**, starting with the next Ki Blast Ultimate whose missing fields can be directly resolved from current Xenoverse 2 evidence.
