@@ -7318,8 +7318,7 @@
       "source_parallel_quests": [
         86
       ],
-      "ki_cost": "100-700",
-      "skill_description": "Neo Wolf Fang Fist is a Super Strike skill associated with Yamcha."
+      "ki_cost": "100-700"
     },
     {
       "id": "skill-one-handed-kamehameha-mk-ii",
@@ -7640,8 +7639,7 @@
       "source_parallel_quests": [
         120
       ],
-      "ki_cost": 100,
-      "skill_description": "Power Impact is a Ki Blast Super skill associated with Jiren."
+      "ki_cost": 100
     },
     {
       "name": "Power Pole Combo",
@@ -7776,8 +7774,7 @@
       "source_parallel_quests": [
         128
       ],
-      "ki_cost": 100,
-      "skill_description": "Powered Shell is a Super Ki Blast skill associated with Broly (Full Power Super Saiyan)."
+      "ki_cost": 100
     },
     {
       "id": "skill-prelude-to-destruction",
@@ -11341,33 +11338,6 @@
       "source_parallel_quests": [
         85
       ]
-    },
-    {
-      "id": "skill-serious-bomb",
-      "name": "Serious Bomb",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "usable_by_cac": true,
-      "character_source": "Mira; Mira (Supervillain); Mira (Final Form); Fu Customize Partner",
-      "dlc_requirement": null,
-      "ki_cost": 500,
-      "stamina_cost": null,
-      "damage_type": "Ki Blast",
-      "unlock_method": "TP Medal Shop",
-      "source_quest_or_shop": "TP Medal Shop",
-      "ultimate_finish_required": false,
-      "skill_description": "A Ki Blast Ultimate that begins with a spinning uppercut and launches a large Ki sphere.",
-      "mechanics_notes": "500-Ki Ki Blast Ultimate; current Xenoverse 2 evidence describes a pseudo-strike opening followed by a long-range Ki sphere, dealing 40% damage over 19 hits.",
-      "verification_status": "verified_current_scope",
-      "research_status": "enriched",
-      "last_verified": "2026-09-24",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Serious_Bomb",
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
-      ],
-      "race_restriction": "All CaC races",
-      "acquisition_type": "shop",
-      "notes": "2026-09-24 Batch 307 coverage recovery: promoted the pre-existing research record after direct current Xenoverse 2 evidence confirmed the 500-Ki Ki Blast Ultimate classification and TP Medal Shop acquisition. No unsupported shop-price, drop-rate, or prerequisite data was inferred."
     }
   ],
   "last_updated": "2026-09-24"
