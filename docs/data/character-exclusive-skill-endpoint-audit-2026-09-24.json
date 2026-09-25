@@ -3,7 +3,7 @@
   "audit_date": "2026-09-24",
   "status": "pass",
   "scope": "current character-exclusive skill endpoint projection against 469-record canonical skill layer",
-  "canonical_skill_count": 469,
+  "canonical_skill_count": 470,
   "endpoint_count": 10,
   "forward_edge_count": 10,
   "unique_skill_count": 10,
@@ -11,7 +11,7 @@
   "duplicate_endpoint_ids": false,
   "duplicate_skill_endpoint_pairs": false,
   "findings": [
-    "All 10 maintained character-exclusive endpoint skill IDs resolve against the current 469-record canonical skill layer.",
+    "All 10 maintained character-exclusive endpoint skill IDs resolve against the current 470-record canonical skill layer.",
     "The endpoint layer remains a presentation/exposure projection; no CaC acquisition route, shop availability, or unlockability is inferred.",
     "No endpoint additions or removals are justified by the canonical 469-record count alone."
   ],
