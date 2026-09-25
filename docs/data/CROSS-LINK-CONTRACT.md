@@ -150,3 +150,9 @@ The full current canonical skill layer now has endpoint coverage across the comb
 - The live canonical PQ relationship baseline is **853 edges**: 244 skill, 145 Super Soul, 124 equipment, 247 character, 86 DLC, and 7 farming.
 - Historical 854/146/143 and older 862/151/125/88 snapshots remain preserved as historical correction context and must not be used as current consumer counts.
 - The full skill endpoint union is **469/469**, with zero uncovered canonical skill IDs after the Hyper Drain, Hyper Movement, Ice Cannon, and Ice Claw reconciliation.
+
+### 2026-09-25 — Full skill endpoint parity current-baseline correction
+- The current cross-domain consumer audit establishes **470 canonical skill IDs / 470 endpoint-union skill IDs / 0 uncovered IDs**.
+- The current endpoint projection contains **239 PQ-linked unique skills** and **230 unique non-PQ endpoint targets**; these sets are not additive because legitimate multi-producer skills can occur in both domains.
+- `docs/data/full-skill-endpoint-reverse-parity-audit-2026-09-23.json` has been synchronized to the current 470-record audit boundary. The older 469-record wording remains only in historical records where it documents the earlier state.
+- No acquisition edge, endpoint identity, canonical skill identity, or historical snapshot was changed by this correction.
