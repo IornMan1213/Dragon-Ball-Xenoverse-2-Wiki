@@ -1483,3 +1483,12 @@
 - [x] Inspected the newest Repository quality run `36096707167` on commit `c1870010ab3118650dbc33c30216bb030f1b0f10`: the job `Check for internal artifacts` failed after about two seconds with **zero workflow steps** and no runner ID/log payload. CI success remains unverified.
 - [ ] **Exact next:** continue the remaining thin-skill queue by seeking an independent Xenoverse 2-specific numeric Ki-cost source for the highest-impact unresolved record; do not promote any cost until directly supported, and do not invent a new research batch identity.
 
+### 2026-09-24 continuation — Howl recurring Xenoverse 2 provenance refresh
+- [x] Continued the unresolved thin-skill queue with **Howl** using independent current Xenoverse 2 encounter evidence.
+- [x] Added/updated `docs/data/skill-research-gaps-howl-evidence-audit-2026-09-24.json` with Great Ape Festival, The Return of the Giant Ape-Fest!, Saiyan Survivors, Expert Mission 3, and Legend Patrol/story provenance.
+- [x] Reconfirmed **ID 10440 / short ID 440**, **CaC-unavailable**, **Great Ape** source, and **Evasive** classification; Legend Patrol explicitly labels Howl as an Evasive Skill.
+- [x] Updated and registered the evidence in `docs/data/skill-research-gaps.json` and `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved numeric **Ki cost as unresolved** and made no canonical promotion or invented acquisition route.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the next remaining thin-skill record after Howl, prioritizing **Boiling Ball / Tricky Strike** and seeking direct Xenoverse 2-specific evidence for any still-unresolved fields.
+
