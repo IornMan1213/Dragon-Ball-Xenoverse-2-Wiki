@@ -193,3 +193,11 @@
 - [x] Add current-evidence audit for X100 Big Bang Kamehameha.
 - [x] Synchronize the three audits into canonical Batch 54 records and register PQ ↔ skill cross-domain links.
 
+
+
+### 2026-09-25 completion — Neo Wolf Fang Fist current-evidence provenance promotion
+- [x] Promoted Batch 54 **Neo Wolf Fang Fist** to `verified_current_scope` with current 100–700 Ki, Strike Super, 9–33 hit continuable-rush, and PQ86 evidence.
+- [x] Added and registered the dedicated current-evidence audit.
+- [x] Preserved historical resource-behavior reports without using them to override current evidence; reward probability and hidden Ultimate-Finish semantics remain unresolved.
+- [ ] CI remains unverified.
+- [x] **Exact next:** continue the remaining source-backed P1 provenance queue with the next under-enriched canonical skill.
