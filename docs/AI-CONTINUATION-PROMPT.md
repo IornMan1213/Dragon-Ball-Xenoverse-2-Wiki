@@ -300,7 +300,7 @@
 ### 2026-09-24 cycle completion — strict-thin Super Soul 032/034 evidence refresh
 - [x] Rechecked the remaining strict-thin records `super-soul-032` and `super-soul-034`.
 - [x] PQ guide evidence confirms exact reward identity: 032 is a PQ 185 reward and 034 is a PQ 186 reward. 
-- [x] Current GameFAQs discussion independently corroborates the additional activation/name-state observation already preserved for 032; it does not establish the second state's mechanics. citeturn4view0
+- [x] Current GameFAQs discussion independently corroborates the additional activation/name-state observation already preserved for 032; it does not establish the second state's mechanics. 
 - [x] No sufficiently reliable item-level evidence was found for 034's mechanics, Limit Burst, or character source; explicit unresolved/null fields remain unchanged.
 - [x] Added `docs/data/super-soul-032-034-strict-thin-evidence-refresh-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
 - [x] Commits: `212637a29f7f991d7e6cbf849594a08a80263b7f` (audit), `19e22b72755010ae967b5c8c8d601ebdec6b1862` (registry), `7a59e408f851e424c97b1f492af192fee6d84c05` (TODO).
@@ -637,7 +637,7 @@
 - [x] Added/updated the dedicated Acid and Howl evidence audits and registered both in docs/data/pq-cross-domain-index.json.
 - [x] Updated docs/data/skill-research-gaps.json while preserving the unresolved boundary: Acid ki_cost/unlock_method; Howl ki_cost/unlock_method.
 - [x] No canonical skill promotion, CaC acquisition inference, or cross-game Ki-cost inference was made.
-- [x] Web verification corroborated the repository research: the Xenoverse 2 ID list identifies Acid 140 and Howl 10440 as non-CaC skills, while Xenoverse 2-specific pages document the corresponding Saibaman/Great Ape movesets. cite
+- [x] Web verification corroborated the repository research: the Xenoverse 2 ID list identifies Acid 140 and Howl 10440 as non-CaC skills, while Xenoverse 2-specific pages document the corresponding Saibaman/Great Ape movesets. 
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next:** continue the remaining unresolved gap records, prioritizing Boiling Burg / Energy Boil / Baked Sphere / Boulder Toss / Boulder Break with direct Xenoverse 2 evidence; preserve the 469/469 canonical boundary until supported builder execution is available.
 
@@ -682,7 +682,7 @@
 
 ### 2026-09-24 continuation — Neo Wolf Fang Fist P1 provenance enrichment
 - [x] Selected **Neo Wolf Fang Fist** as the next P1 enrichment target after the current verification-date census was exhausted.
-- [x] Added the dedicated provenance audit and confirmed current Xenoverse 2 evidence for Strike Super classification, PQ86 acquisition, and variable **100–700 Ki** usage. cite
+- [x] Added the dedicated provenance audit and confirmed current Xenoverse 2 evidence for Strike Super classification, PQ86 acquisition, and variable **100–700 Ki** usage. 
 - [x] Preserved unresolved exact drop probability, frame data, and universal damage measurements; no unsupported Ultimate Finish requirement was inferred.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next:** continue the next partially verified P1 research target with direct Xenoverse 2 evidence; do not manufacture technical measurements.
