@@ -6,3 +6,10 @@
 - [x] Preserved historical 469/465 snapshots and made no relationship or identity changes.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue remaining current-facing consumer parity or the next genuinely unresolved source-backed provenance target.
+
+### 2026-09-25 completion — Super Soul 034 current community-evidence refresh
+- [x] Added a bounded evidence audit for Super Soul 034 (PQ186 reward identity plus current community mechanics lead).
+- [x] Registered the audit in the cross-domain index and preserved explicit unresolved mechanics/Limit Burst fields.
+- [x] No relationship or canonical identity changes; no historical snapshot rewritten.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the remaining source-backed P1 provenance/data queue with direct Xenoverse 2-specific evidence; do not promote mechanics from community reports alone.
