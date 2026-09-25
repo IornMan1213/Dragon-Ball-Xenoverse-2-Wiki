@@ -2319,3 +2319,14 @@
 - [x] Validation by live report readback: 186/469/244 baseline matches; unresolved forward edges **0**; orphaned reverse sources **0**; no canonical relationship or skill identity data changed.
 - [ ] CI/runtime remains unavailable; no CI success is claimed.
 - [ ] **Exact next:** continue the remaining PQ-facing producer/consumer census, prioritizing the next machine-checkable validator/projection with a potentially stale current scalar or endpoint-count assumption; preserve historical snapshots and avoid changing canonical relationships without evidence.
+
+
+### 2026-09-25 cycle update — thin-domain skill gap closure audit
+- [x] Performed a live read of `docs/data/skill-research-gaps.json` after the Batch 328–330 thin-domain provenance tranches.
+- [x] Audited all **8 remaining explicit skill research gaps**: Acid, Howl, Boiling Burg, Energy Boil, Baked Sphere, Boulder Toss, Boulder Break, Boiling Ball, and Tricky Strike are represented by the current gap ledger (8 unresolved identities; Energy Boil retains the additional subcategory gap).
+- [x] Confirmed the cost queue is exhausted: **7** remaining gaps are missing only a defensible numeric Ki cost; Energy Boil is missing numeric Ki cost plus repository subcategory taxonomy.
+- [x] Preserved the evidence boundary: current Xenoverse 2-specific/datamined references do not expose a defensible numeric cost for these records; no cost was inferred from another game, another skill class, or convention. Energy Boil's unresolved subcategory was not guessed.
+- [x] Added `docs/data/skill-thin-domain-gap-closure-audit-2026-09-25.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] No canonical skill identity, relationship, acquisition route, or unsupported numeric mechanic was changed.
+- [ ] CI/runtime remains unavailable; no CI success is claimed.
+- [ ] **Exact next:** return to the remaining existing partially verified skill provenance/acquisition records outside this exhausted thin-domain cost queue; prioritize a bounded evidence-enrichment batch with direct Xenoverse 2-specific acquisition/mechanics support, then validate canonical/index parity.
