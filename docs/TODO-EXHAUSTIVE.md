@@ -38,3 +38,12 @@
 - [x] Preserved unresolved drop/guarantee conditions and made no unsupported relationship changes.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the remaining under-enriched canonical skill provenance queue.
+
+
+### 2026-09-25 completion — Skill Research Batch 341
+- [x] Added Batch 341 for Dead End Bullet provenance/mechanics promotion.
+- [x] Promoted Dead End Bullet to `verified_current_scope` with supported EM08 acquisition, 300-Ki cost, classification, and mechanics.
+- [x] Registered Batch 341 in the cross-domain index.
+- [x] Preserved unresolved drop/guarantee conditions.
+- [ ] CI remains unverified.
+- [ ] Exact next: continue the remaining partially verified/under-enriched canonical skill provenance queue.
