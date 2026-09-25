@@ -57,7 +57,8 @@
     "skill_evil_ray_strike_p1_provenance": "docs/data/skill-evil-ray-strike-p1-provenance-verification-2026-09-24.json",
     "skill_gigantic_slam_p1_provenance": "docs/data/skill-gigantic-slam-p1-provenance-verification-2026-09-24.json",
     "skill_mach_kick_p1_provenance": "docs/data/skill-mach-kick-p1-provenance-verification-2026-09-24.json",
-    "skill_punisher_drive_p1_provenance": "docs/data/skill-punisher-drive-p1-provenance-verification-2026-09-24.json"
+    "skill_punisher_drive_p1_provenance": "docs/data/skill-punisher-drive-p1-provenance-verification-2026-09-24.json",
+    "skill_dragon_thunder_p1_provenance": "docs/data/skill-dragon-thunder-p1-provenance-verification-2026-09-24.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",
@@ -403,7 +404,8 @@
     "skill_evil_ray_strike_p1_provenance_verification_2026_09_24": "docs/data/skill-evil-ray-strike-p1-provenance-verification-2026-09-24.json",
     "skill_gigantic_slam_p1_provenance_verification_2026_09_24": "docs/data/skill-gigantic-slam-p1-provenance-verification-2026-09-24.json",
     "skill_mach_kick_p1_provenance_verification_2026_09_24": "docs/data/skill-mach-kick-p1-provenance-verification-2026-09-24.json",
-    "skill_punisher_drive_p1_provenance_verification_2026_09_24": "docs/data/skill-punisher-drive-p1-provenance-verification-2026-09-24.json"
+    "skill_punisher_drive_p1_provenance_verification_2026_09_24": "docs/data/skill-punisher-drive-p1-provenance-verification-2026-09-24.json",
+    "skill_dragon_thunder_p1_provenance_verification_2026_09_24": "docs/data/skill-dragon-thunder-p1-provenance-verification-2026-09-24.json"
   },
   "registered_audits": {
     "super_soul_thin_census_2026_09_22": "docs/data/super-soul-thin-census-2026-09-22.json",
