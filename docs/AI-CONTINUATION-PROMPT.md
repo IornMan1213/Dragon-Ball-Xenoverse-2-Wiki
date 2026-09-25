@@ -903,3 +903,14 @@
 - [x] Canonical/index boundary remains **469/469**; no canonical promotion was required.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** continue **skill-batch-180 — Phantom Fist**.
+
+### 2026-09-24 cycle completion — Phantom Fist P1 provenance verification
+- [x] Live canonical census remains **469** skill records; Phantom Fist was not promoted because the supported canonical builder/runtime remains unavailable.
+- [x] Completed **skill-research-batches/skill-batch-180.json — Phantom Fist**.
+- [x] Revalidated Xenoverse 2 **Super / Other**, **100 Ki**, Future Warrior acquisition from **PQ97 — Insidious Plot**, and defensive afterimage/counter mechanics using current Xenoverse 2-specific documentation plus independent PQ and mechanics references. Current PQ reward references place Phantom Fist in the **Basic Reward** list.
+- [x] Refreshed the research-layer record to verified and preserved the canonical identity boundary; no unsupported canonical promotion was made.
+- [x] Added docs/data/skill-phantom-fist-p1-provenance-verification-2026-09-24.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Preserved evidence limits: stamina cost, exact activation/frame/repeat timing, and drop probability remain unresolved/version-sensitive; no Ultimate Finish dependency was inferred.
+- [x] Validation: research batch and audit parse as JSON; canonical/index parity remains **469/469**; no canonical mutation was attempted.
+- [ ] CI success remains unverified; no success claimed.
+- [ ] **Exact next:** inspect and complete the next deterministic research batch after 180, prioritizing an existing partially verified skill record with direct Xenoverse 2 evidence and cross-database value.
