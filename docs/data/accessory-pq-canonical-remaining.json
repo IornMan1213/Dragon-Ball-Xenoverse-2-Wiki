@@ -108,29 +108,37 @@
       "pq_record_id": "pqacc-038",
       "name": "Golden Frieza Head",
       "pq": 182,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-023 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "status": "domain_resolved",
+      "reason": "Canonical inventory identity is domain-resolved via equip-107 (Golden Frieza Head), categorized as an accessory and already linked to PQ182 in the canonical PQ-equipment graph. No separate acc-### duplicate is created.",
+      "canonical_domain": "equipment_accessory",
+      "canonical_id": "equip-107"
     },
     {
       "pq_record_id": "pqacc-039",
       "name": "Broly Wig (Black Hair, Normal)",
       "pq": 183,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-024 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "status": "domain_resolved",
+      "reason": "Canonical inventory identity is domain-resolved via equip-109 (Broly Wig (Black Hair, Normal)), categorized as an accessory and already linked to PQ183 in the canonical PQ-equipment graph. No separate acc-### duplicate is created.",
+      "canonical_domain": "equipment_accessory",
+      "canonical_id": "equip-109"
     },
     {
       "pq_record_id": "pqacc-040",
       "name": "Dragon Ball Balloon",
       "pq": 184,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-025 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "status": "domain_resolved",
+      "reason": "Canonical inventory identity is domain-resolved via equip-110 (Dragon Ball Balloon), categorized as an accessory and already linked to PQ184 in the canonical PQ-equipment graph. No separate acc-### duplicate is created.",
+      "canonical_domain": "equipment_accessory",
+      "canonical_id": "equip-110"
     },
     {
       "pq_record_id": "pqacc-041",
       "name": "Goku (Ultra Supervillain Quelled) Wig",
       "pq": 185,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-026 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "status": "domain_resolved",
+      "reason": "Canonical inventory identity is domain-resolved via equip-112 (Goku (Ultra Supervillain Quelled) Wig), categorized as an accessory and already linked to PQ185 in the canonical PQ-equipment graph. No separate acc-### duplicate is created.",
+      "canonical_domain": "equipment_accessory",
+      "canonical_id": "equip-112"
     }
   ],
   "current_external_evidence": [
@@ -150,8 +158,8 @@
     "research_records": 45,
     "canonical_accessory_records": 74,
     "matched": 29,
-    "unresolved": 12,
-    "domain_resolved_via_equipment": 4,
+    "unresolved": 8,
+    "domain_resolved_via_equipment": 8,
     "remapped_by_exact_name": 28
   },
   "notes": [
