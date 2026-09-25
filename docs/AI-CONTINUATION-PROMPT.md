@@ -1665,3 +1665,12 @@
 - [x] Preserved unresolved drop-probability, Ultimate-Finish, and shop-price boundaries.
 - [ ] CI remains unverified; no workflow runs exposed.
 - [ ] **Exact next:** continue Batch 310 with direct current Xenoverse 2 evidence.
+
+
+### 2026-09-24 cycle completion — Batch 310 Ki Blast Ultimate evidence enrichment
+- [x] Completed Batch 310's nine Ki Blast Ultimate records with current Xenoverse 2 evidence for costs, acquisition, provenance, and mechanics where available.
+- [x] Breaker Energy Wave is now explicitly supported as a **0-Ki** CaC-available PQ101 Ultimate with a once-only low-health activation rule.
+- [x] Added/registered the Batch 310 evidence audit and updated the research batch.
+- [x] Preserved unresolved reward-probability and Ultimate-Finish fields.
+- [ ] CI remains unverified; no workflow runs exposed.
+- [ ] **Exact next:** Batch 311 — Blue Hurricane and Assault Rain first.
