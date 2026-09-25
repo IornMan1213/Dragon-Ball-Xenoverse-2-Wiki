@@ -103,9 +103,10 @@
     {
       "skill": "Dead End Rain",
       "expert_mission": 13,
-      "status": "partially_verified",
+      "status": "verified_current_scope",
       "skill_id": "skill-dead-end-rain",
-      "endpoint_id": "em-13"
+      "endpoint_id": "em-13",
+      "last_verified": "2026-09-25"
     },
     {
       "skill": "Shocking Death Ball",
@@ -118,16 +119,18 @@
     {
       "skill": "Blue Hurricane",
       "expert_mission": 15,
-      "status": "partially_verified",
+      "status": "verified_current_scope",
       "skill_id": "skill-blue-hurricane",
-      "endpoint_id": "em-15"
+      "endpoint_id": "em-15",
+      "last_verified": "2026-09-25"
     },
     {
       "skill": "Super Spirit Bomb",
       "expert_mission": 16,
-      "status": "partially_verified",
+      "status": "verified_current_scope",
       "skill_id": "skill-super-spirit-bomb",
-      "endpoint_id": "em-16"
+      "endpoint_id": "em-16",
+      "last_verified": "2026-09-25"
     },
     {
       "skill": "Spirit Sword",
@@ -140,23 +143,26 @@
     {
       "skill": "Focus Flash",
       "expert_mission": 18,
-      "status": "partially_verified",
+      "status": "verified_current_scope",
       "skill_id": "skill-focus-flash",
-      "endpoint_id": "em-18"
+      "endpoint_id": "em-18",
+      "last_verified": "2026-09-25"
     },
     {
       "skill": "Tail Slicer",
       "expert_mission": 19,
-      "status": "partially_verified",
+      "status": "verified_current_scope",
       "skill_id": "skill-tail-slicer",
-      "endpoint_id": "em-19"
+      "endpoint_id": "em-19",
+      "last_verified": "2026-09-25"
     },
     {
       "skill": "Data Input",
       "expert_mission": 20,
-      "status": "partially_verified",
+      "status": "verified_current_scope",
       "skill_id": "skill-data-input",
-      "endpoint_id": "em-20"
+      "endpoint_id": "em-20",
+      "last_verified": "2026-09-25"
     }
   ],
   "nonclaims": [
