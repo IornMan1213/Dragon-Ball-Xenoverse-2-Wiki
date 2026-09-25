@@ -8001,3 +8001,9 @@
 - [x] Changed JSON parsed successfully and contains no internal citation/export markers.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** continue the remaining residual accessory candidates only when exact inventory-level evidence exists; otherwise resume the deterministic non-PQ/mentor consumer scan after Batch 311.
+
+
+### 2026-09-25 — mentor coverage scalar repair
+- [x] Corrected current-facing mentor counts in `skill-acquisition-coverage-report.json` from 132/131 to 131/130.
+- [x] Validated against both current acquisition projection audits; status remains clean/pass.
+- [ ] Continue the non-PQ consumer scan for remaining stale counts, orphan endpoint IDs, and one-way navigation.
