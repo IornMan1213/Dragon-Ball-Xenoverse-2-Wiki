@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-hyper-movement-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "scope": [
+    "Hyper Movement"
+  ],
+  "result": "Promoted to verified_current_scope. Current Xenoverse 2-specific evidence supports the Strike Evasive identity, 200-Stamina cost, TP Medal Shop endpoint, and documented teleport/punch behavior including interception after knockback.",
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Hyper_Movement",
+    "https://dbxv2.fandom.com/wiki/Evasive_Skill",
+    "https://dragonball.fandom.com/wiki/Hyper_Movement"
+  ],
+  "reward_semantics": {
+    "status": "not applicable to canonical promotion",
+    "ultimate_finish_required": null,
+    "drop_probability": null
+  },
+  "limits": [
+    "The documented 5% damage value is retained as source/version-sensitive mechanics evidence rather than a universal balance constant.",
+    "No unsupported timing or damage scaling was inferred."
+  ]
+}
