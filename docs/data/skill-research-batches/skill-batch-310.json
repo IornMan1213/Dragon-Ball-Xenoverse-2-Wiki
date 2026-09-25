@@ -14,7 +14,7 @@
       "dlc_requirement": null,
       "unlock_method": "Training with Gotenks",
       "ultimate_finish_required": null,
-      "effect": "Creates powerful ghost projectiles that attack the opponent.",
+      "effect": "Creates five powerful ghost projectiles that launch sequentially; current documentation identifies a 5-hit long-range projectile Ultimate.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ]
@@ -29,7 +29,7 @@
       "dlc_requirement": null,
       "unlock_method": "Training with Yamcha",
       "ultimate_finish_required": null,
-      "effect": "Fires a controllable barrage of Ki Blasts.",
+      "effect": "Fires a tracking cone/barrage of Ki bullets; current documentation records up to 29 hits and knockback.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ]
@@ -44,7 +44,7 @@
       "dlc_requirement": null,
       "unlock_method": "Training with Tien",
       "ultimate_finish_required": null,
-      "effect": "Launches a fierce Ki Blast barrage with repeated input consuming additional Ki.",
+      "effect": "Fires a Tri-Beam and can be repeated, consuming 100 Stamina per additional use.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ]
@@ -59,7 +59,7 @@
       "dlc_requirement": null,
       "unlock_method": "Skill Shop",
       "ultimate_finish_required": null,
-      "effect": "Creates a giant explosion that can temporarily paralyze the target.",
+      "effect": "Throws a Ki ball that explodes for 8 hits and temporarily paralyzes the target for 5 seconds.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ]
@@ -68,13 +68,13 @@
       "name": "Breaker Energy Wave",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "ki_cost": null,
+      "ki_cost": 0,
       "usable_by_cac": true,
       "character_source": "Goku; Goku (Super Saiyan God) Customize Partner; Goku (GT); Goku (Super Saiyan 4)",
       "dlc_requirement": null,
       "unlock_method": "Parallel Quest 101: Seeking Fighters for Tournament",
       "ultimate_finish_required": null,
-      "effect": "Single-use Ki wave that can only be activated when the opponent is nearly defeated.",
+      "effect": "One-use low-health beam Ultimate; available to CaCs.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ]
@@ -89,7 +89,7 @@
       "dlc_requirement": "Super Pack 2",
       "unlock_method": "Parallel Quest 105: Champa's Hellish Holiday",
       "ultimate_finish_required": null,
-      "effect": "Launches multiple Ki Blasts, with additional inputs firing more blasts.",
+      "effect": "Throws multiple tracking Ki balls; additional inputs can extend the sequence to 26 hits.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ]
@@ -98,13 +98,13 @@
       "name": "Revenge Death Ball",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "ki_cost": 300,
+      "ki_cost": "300+",
       "usable_by_cac": true,
       "character_source": "Super Baby 2",
       "dlc_requirement": "Ultra Pack 1",
       "unlock_method": "Parallel Quest 127: Multiverse Match of the Century",
       "ultimate_finish_required": null,
-      "effect": "Large Ki Blast that can be powered up while recovering Ki.",
+      "effect": "Chargeable tracking Ki sphere; 12 hits at minimum charge and up to 22 at maximum charge while recovering Ki.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ]
@@ -119,7 +119,7 @@
       "dlc_requirement": "Ultra Pack 1",
       "unlock_method": "Parallel Quest 127: Multiverse Match of the Century",
       "ultimate_finish_required": null,
-      "effect": "Sweeping triple Ki-wave attack followed by a combined blast.",
+      "effect": "Two-stage Ultimate: three sweeping Ki waves followed by a combined spiraling beam; 25 hits.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ]
@@ -134,11 +134,17 @@
       "dlc_requirement": "Extra Pack 1",
       "unlock_method": "Parallel Quest 137: Tournament of Power Round 2",
       "ultimate_finish_required": null,
-      "effect": "Sustained Ki-wave attack whose duration and damage increase with additional inputs.",
+      "effect": "Long-range Ki wave whose damage increases through successive activations up to the third use; current page records 38 hits.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ]
     }
   ],
-  "notes": "Removed duplicate Teleporting Vanishing Ball identity already established in batch 309; remaining records are the other Ultimate taxonomy entries."
+  "notes": "Removed duplicate Teleporting Vanishing Ball identity already established in batch 309; remaining records are the other Ultimate taxonomy entries.",
+  "last_verified": "2026-09-24",
+  "verification_audit": {
+    "audit": "docs/data/skill-batch-310-ki-blast-ultimate-evidence-audit-2026-09-24.json",
+    "status": "research_enrichment_complete",
+    "note": "Current Xenoverse 2-specific evidence strengthened costs, acquisition, user provenance, and mechanics where directly exposed; unresolved reward probabilities and Ultimate-Finish semantics remain null."
+  }
 }
