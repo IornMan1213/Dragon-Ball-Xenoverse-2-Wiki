@@ -745,3 +745,14 @@
 - [x] Research-layer record is now `verified`; canonical/index catalogs remain **469/469** and were not manually reconstructed.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next:** continue with the next existing partially verified research batch after Critical Upper where current Xenoverse 2 evidence can resolve substantive missing fields; preserve nulls for unsupported numeric/version-sensitive values and do not promote into canonical catalogs without the supported builder.
+
+
+### 2026-09-24 cycle completion — Rebellion Spear P1 provenance verification
+- [x] Selected existing partially verified **Rebellion Spear** (research batch 168) as the next substantive target after Critical Upper.
+- [x] Revalidated **Super / Strike**, **100 Ki**, CaC usability, and **Bardock mentor training — Lesson 1** acquisition using current Xenoverse 2-specific evidence plus the maintained instructor-quest guide and independent Dragon Ball documentation.
+- [x] Strengthened mechanics evidence: controllable rush/chase movement, yellow Ki trail, and approximately 5-second rush duration before stopping.
+- [x] Preserved unresolved stamina cost, exact frame/hitbox values, and universal damage values rather than inferring them.
+- [x] Updated `docs/data/skill-research-batches/skill-batch-168.json`, added `docs/data/skill-rebellion-spear-p1-provenance-verification-2026-09-24.json`, and registered the audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Canonical/index census remains **469/469**; the existing canonical Rebellion Spear endpoint was already present, so no unsupported catalog reconstruction was performed.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue with existing partially verified research batch **169 — Android Kick**, then batch 170 — Dynamite Kick, applying the same bounded P1 provenance verification and preserving unsupported/version-sensitive fields as null.
