@@ -1,0 +1,77 @@
+{
+  "batch_id": "skill-batch-362",
+  "research_type": "skill_research",
+  "status": "research_only",
+  "created": "2026-09-25",
+  "notes": "Second thin-record mechanics pass. Includes one evidence-backed classification correction: Bloody Counter is an Evasive/Strike skill with 300 Stamina, not a Super.",
+  "records": [
+    {
+      "name": "Blaster Meteor",
+      "class": "Evasive",
+      "subcategory": "Ki Blast",
+      "source_quest_or_shop": "Broly mentor training",
+      "ki_cost": 0,
+      "stamina_cost": 300,
+      "mechanics_notes": "300-Stamina Ki Blast Evasive. The user takes a stance and creates a sphere of Ki Blasts around themselves; enemies in range are hit 8 times and launched upward. Current skill evidence reports about 5% total damage for the sequence; this value is retained as source-reported rather than universal.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Blaster_Meteor",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25"
+    },
+    {
+      "name": "Blaster Shell",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "source_quest_or_shop": "Broly mentor training",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "mechanics_notes": "100-Ki Ki Blast Super. The user slowly throws five Ki Blasts in alternating hands; repeated input speeds up the throws. The full five-hit sequence produces knockback and current skill evidence reports about 15% total damage. No exact input timing is inferred.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Blaster_Shell",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25"
+    },
+    {
+      "name": "Bloody Counter",
+      "class": "Evasive",
+      "subcategory": "Strike",
+      "source_quest_or_shop": "Zarbon mentor training — Lesson 2",
+      "ki_cost": 0,
+      "stamina_cost": 300,
+      "mechanics_notes": "300-Stamina Strike Evasive. The user launches a rapid kick rush that hits 10 times and launches the opponent on the final hit. Holding/pressing the input can extend the rush by consuming Ki; current skill evidence reports about 10% damage for the base sequence. The move is explicitly categorized as a Strike Evasive, correcting the prior Super classification.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Bloody_Counter",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://trucos.com/en/video-game/dragon-ball-xenoverse-2-guide-for-ps4-pc-xbox-one/"
+      ],
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25"
+    },
+    {
+      "name": "Body Change",
+      "class": "Ultimate",
+      "subcategory": "Other",
+      "source_quest_or_shop": "Captain Ginyu mentor training — Lesson 3",
+      "ki_cost": 300,
+      "stamina_cost": null,
+      "mechanics_notes": "300-Ki Other Ultimate. The user fires a purple beam that functions as a grab; on a successful hit, the user and target swap bodies, including health, Ki, stamina, Super Soul, and skills, while retaining their original voices. Active transformations are released for both participants during the swap. Current Xenoverse 2-specific documentation states the skill is unavailable in PvE content, while it can be used in team battles; the target receives Body Change in the copied skill set but cannot activate it.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Body_Change",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25"
+    }
+  ]
+}
