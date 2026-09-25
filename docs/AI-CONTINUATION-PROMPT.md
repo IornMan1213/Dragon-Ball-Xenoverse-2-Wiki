@@ -2213,3 +2213,15 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] Historical 174/469/other dated snapshots remain preserved where their scope is explicitly historical.
 - [ ] **Exact next:** continue the current exact-pair reverse/navigation census beyond the now-clean mentor and equipment scalar boundaries; prioritize the next machine-checkable one-way consumer mismatch or a bounded evidence-backed thin-domain enrichment, without repeating resolved counts.
+
+
+### 2026-09-25 cycle completion — Skill research Batch 329: Acid / Howl / Boiling Burg / Baked Sphere
+- [x] Live producer/consumer census remained clean for the already-reconciled current navigation boundaries; moved to the next evidence-backed thin skill-gap tranche rather than repeating scalar repairs.
+- [x] Added `docs/data/skill-research-batches/skill-batch-329.json` covering **Acid**, **Howl**, **Boiling Burg**, and **Baked Sphere**.
+- [x] Refreshed Xenoverse 2-specific boundaries: Acid = **Super**, distinct normal/raid IDs **140/143**, CaC-unavailable; Howl = **Evasive**, Great Ape cast use; Boiling Burg = **Ultimate**, Final Form Demigra, IDs **540/5540**, CaC-unavailable; Baked Sphere = **Ultimate**, with explicit Masked Future Warrior/Supervillain use, so it is not treated as purely cast-only.
+- [x] Used current-indexed Xenoverse 2 skill-list/ID evidence plus independent move/encounter references; preserved the distinction between direct Xenoverse 2 evidence and broader technique descriptions.
+- [x] Updated `docs/data/skill-research-gaps.json` and advanced `docs/data/skill-catalog-audit.json` to **latest_research_batch 329**; registered Batch 329 in `docs/data/pq-cross-domain-index.json`.
+- [x] Numeric Ki costs remain unresolved for all four; no cost was guessed, no acquisition route was inferred, and no canonical relationship was changed.
+- [x] Readback validation: Batch 329, skill-gap ledger, catalog audit, and cross-domain registry all parsed successfully.
+- [ ] CI remains unverified; the latest exposed Repository Quality job previously failed with no downloadable log payload, so no success is claimed.
+- [ ] **Exact next:** continue the remaining thin skill-gap queue with the next evidence-backed record(s), prioritizing a genuinely new classification/mechanics field rather than another cost-only dead end; maintain the current 470/470 canonical/index boundary.
