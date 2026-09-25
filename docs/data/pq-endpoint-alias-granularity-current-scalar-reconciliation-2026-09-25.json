@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-25",
+  "scope": "Current-facing stale scalar reconciliation for PQ endpoint alias/granularity bridge",
+  "source_of_truth": "docs/data/pq-reward-relationships.json",
+  "target": "docs/data/pq-endpoint-alias-granularity-map.json",
+  "finding": "The live alias/granularity bridge itself already validates canonical_edge_count_before/after as 853, but the earlier single-source reconciliation incorrectly classified it as a stale current-looking 854 field.",
+  "change": "No source bridge change required; corrected the reconciliation audit's stale-field classification instead of modifying the already-correct bridge.",
+  "current_baseline": 853,
+  "relationship_edges_changed": 0,
+  "canonical_id_changes": 0,
+  "acquisition_routes_inferred": 0,
+  "historical_snapshots_rewritten": 0,
+  "status": "pass"
+}
