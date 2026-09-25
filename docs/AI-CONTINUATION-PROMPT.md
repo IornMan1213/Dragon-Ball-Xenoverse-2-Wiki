@@ -1856,3 +1856,14 @@
 - [x] Preserved unresolved reward/Ultimate Finish/shop/version fields and did not infer canonical IDs.
 - [ ] CI remains unverified.
 - [ ] Exact next: continue Batch 315 direct-evidence research.
+
+
+### 2026-09-25 cycle continuation — Batch 315 evidence refresh
+- [x] Refreshed all five Batch 315 Ki Blast Ultimate records from direct current Xenoverse 2 pages.
+- [x] Resolved Final Flash (SS3 DAIMA) to 400+ Ki and 22-53 hits; Super Kamehameha (SS4 DAIMA) to 400-500 Ki and 12-33 hits; Thunder Flash to 300-600 Ki and 19 hits.
+- [x] Enriched Prominence Flash to 300 Ki / 38 hits with damage scaling through the third activation, and Mystic Flash to 300 Ki / 25-hit rear-only behavior.
+- [x] Added and registered docs/data/skill-batch-315-evidence-refresh-2026-09-25.json.
+- [x] Re-fetched and parsed Batch 315, the audit, and cross-domain index successfully.
+- [x] Preserved unresolved CaC, Ultimate Finish, reward-probability, shop-price, version-history, and canonical-ID boundaries.
+- [ ] CI remains unverified.
+- [ ] Exact next: continue Batch 316 direct-evidence research.
