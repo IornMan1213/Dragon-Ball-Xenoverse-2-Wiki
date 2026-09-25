@@ -35,6 +35,16 @@
       "type": "xenoverse2_character",
       "claim": "The Xenoverse 2 Saibaman page lists Acid on Saibaman 2, alongside Saibabeam, Brainwash Attack, Full Power Charge, Full Power Energy Blast Volley, Self-Destruct, and Break Strike.",
       "source": "https://dbxv2.fandom.com/wiki/Saibaman"
+    },
+    {
+      "type": "xenoverse2_unobtainable_list",
+      "claim": "A maintained 2021-update Xenoverse 2 community list explicitly includes Acid among skills unobtainable by CaC, independently corroborating the no-player-acquisition boundary.",
+      "source": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79567595"
+    },
+    {
+      "type": "xenoverse2_current_moveset_reference",
+      "claim": "A Xenoverse 2 move-list reference identifies Acid as a Super Attack on Saibaman variants, including Kyukonman and Tennenman, independently corroborating the Super classification and cast-only use.",
+      "source": "https://gamefaqs.gamespot.com/ps4/248428-dragon-ball-xenoverse-dragon-ball-xenoverse-2/faqs/71414"
     }
   ],
   "resolved_fields": {
@@ -52,5 +62,6 @@
     "Do not promote to canonical skills.json without supported builder execution and required field coverage.",
     "Do not merge skill ID 140 and raid-boss skill ID 143 without explicit canonical identity mapping.",
     "Do not invent a CaC unlock route when the skill is documented as CaC-unavailable."
-  ]
+  ],
+  "notes": "2026-09-24 follow-up: current indexed Xenoverse 2 references independently reconfirm Acid as a cast-only Super Attack and explicitly list Acid among skills unobtainable by CaC. Normal Acid ID 140 remains distinct from raid-boss Acid ID 143. Numeric Ki cost remains unverified; no cross-game cost inference was made."
 }
