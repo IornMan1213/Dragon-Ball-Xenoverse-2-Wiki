@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-milky-cannon-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Milky Cannon",
+  "result": "current_evidence_refresh",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Ki Blast",
+    "source_quest_or_shop": "Captain Ginyu mentor training — Lesson 2",
+    "mechanics": "100-Ki chargeable projectile: quick initial travel, then slow movement for about 3 seconds; charging extends the pre-slow travel distance; contact knocks the opponent back and current documentation reports 10% damage.",
+    "ki_cost": 100
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Milky_Cannon",
+    "https://dragonball.fandom.com/wiki/Milky_Cannon"
+  ],
+  "limits": [
+    "The approximately 10% damage figure is retained as source-reported.",
+    "No exact frame timing or hidden acquisition gate is inferred."
+  ]
+}
