@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-ice-claw-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "scope": [
+    "Ice Claw"
+  ],
+  "result": "Promoted to verified_current_scope. Current Xenoverse 2-specific evidence supports the Strike Super identity, 100-Ki cost, Shenron wish endpoint, CaC availability, and documented two-hit claw attack that blinds the opponent.",
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Ice_Claw",
+    "https://dragonball.fandom.com/wiki/Ice_Claw",
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+  ],
+  "reward_semantics": {
+    "status": "not applicable to canonical promotion",
+    "ultimate_finish_required": null,
+    "drop_probability": null
+  },
+  "limits": [
+    "No unsupported exact blind duration was promoted.",
+    "Conflicting historical acquisition descriptions were not allowed to override the current Xenoverse 2-specific dedicated skill page."
+  ]
+}
