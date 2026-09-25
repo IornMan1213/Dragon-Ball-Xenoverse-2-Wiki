@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 358,
+  "created": "2026-09-25",
+  "type": "low_detail_ultimate_mechanics_refresh",
+  "records": [
+    {
+      "id": "skill-assault-rain",
+      "last_verified": "2026-09-25"
+    },
+    {
+      "id": "skill-blue-hurricane",
+      "last_verified": "2026-09-25"
+    },
+    {
+      "id": "skill-dead-end-bullet",
+      "last_verified": "2026-09-25"
+    },
+    {
+      "id": "skill-death-meteor",
+      "last_verified": "2026-09-25"
+    }
+  ],
+  "validation": {
+    "canonical_count": 469,
+    "index_count": 469,
+    "duplicate_ids": 0,
+    "relationship_changes": 0,
+    "unsupported_values_promoted": 0,
+    "source_limits_preserved": true
+  }
+}
