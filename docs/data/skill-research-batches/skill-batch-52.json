@@ -34,9 +34,13 @@
       "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
       "https://steamcommunity.com/app/454650/discussions/0/1759104257589123714/",
       "https://www.youtube.com/watch?v=lx-PHQxqByU",
-      "https://dragonball.fandom.com/wiki/Counter_Burst"
+      "https://dragonball.fandom.com/wiki/Counter_Burst",
+      "https://dbxv2.fandom.com/wiki/Ki_Explosion",
+      "https://dragonball.fandom.com/wiki/Ki_Explosion",
+      "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421&feed=steam_community_announcements",
+      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80886757"
     ],
-    "research_update": " Counter Burst was promoted to verified_current_scope after current Xenoverse 2-specific skill documentation and independent technique documentation confirmed its 100-Ki Ki Blast Super identity, six-hit counter projectile, PQ75 endpoint, and SSGSS Vegeta customization context; reward probability and Ultimate-Finish semantics remain unresolved. Last Emperor was promoted to verified_current_scope after current Xenoverse 2-specific and independent evidence corroborated its 0-Ki Ultimate identity, low-health/single-use restriction, and PQ71 provenance; exact reward probability and Ultimate-Finish semantics remain unresolved."
+    "research_update": "Ki Explosion was promoted to verified_current_scope after current Xenoverse 2-specific skill documentation, Bandai Namco's historical DLC 2 balance announcement, and independent PQ77 acquisition discussion corroborated its 100-Ki Ki Blast Super identity, hold-to-prolong behavior, and PQ77 endpoint. Reward probability and hidden Ultimate-Finish semantics remain unresolved."
   },
   "records": [
     {
@@ -200,13 +204,14 @@
       "source_quest_or_shop": "Parallel Quest 77",
       "ultimate_finish_required": null,
       "skill_description": "Releases an explosive burst of Ki around the user.",
-      "mechanics_notes": "The maintained skill-category references classify Ki Explosion as a Ki Blast Super and the character-ID reference marks it as CaC-usable. Exact PQ reward-slot semantics remain unresolved.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
+      "mechanics_notes": "Current Xenoverse 2-specific skill documentation confirms Ki Explosion as a 100-Ki Ki Blast Super. The user detonates Ki around themselves in a short-range purple explosion; holding the input prolongs the explosion and can consume additional Ki, with maintained documentation stating it can use up to four Ki bars. Bandai Namco's February 2017 DLC 2 announcement records the historical cost change from 200 Ki to 100 Ki, alongside increased damage and a shortened consecutive-use window. PQ77 — Parent and Child remains the acquisition endpoint. A recent GameFAQs report says the skill is awarded from PQ77 rather than a specific opponent and describes an Ultimate Finish route, but this community evidence is not promoted as a definitive hidden reward gate; exact probability and guarantee semantics remain unresolved.",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
       "sources": [
-        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List",
-        "https://gamefaqs.gamespot.com/boards/277190-dragon-ball-xenoverse-2/79680756",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
+        "https://dbxv2.fandom.com/wiki/Ki_Explosion",
+        "https://dragonball.fandom.com/wiki/Ki_Explosion",
+        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421&feed=steam_community_announcements",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80886757"
       ]
     },
     {
