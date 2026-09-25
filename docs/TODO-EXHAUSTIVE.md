@@ -541,3 +541,11 @@
 - [x] No hidden gates, probabilities, frame data, or unsupported numeric mechanics promoted.
 - [ ] CI remains unverified.
 - [x] **Exact next:** fresh global thin-record census and continue the shortest remaining mechanics/source footprints.
+
+
+### 2026-09-25 completion — Skill Batch 363 thin mentor mechanics
+- [x] Completed **Bomber DX, Break Cannon, Endless Shoot, Evil Explosion** from the fresh shortest-mechanics census.
+- [x] Added/registered Batch 363 audit and research-batch files and synchronized canonical/index records.
+- [x] Preserved source-reported numeric values as bounded evidence and did not infer hidden gates, probabilities, frame data, or unsupported timing.
+- [ ] CI remains unverified.
+- [x] **Exact next:** fresh global thin-record census and continue the shortest remaining mechanics/source footprints.
