@@ -653,3 +653,13 @@
 - [x] Evidence limits preserved: no hidden gates, probabilities, frame data, or unsupported timing claims inferred.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** fresh global thin-record census; continue the shortest remaining mechanics/source footprints, then deterministic provenance gaps.
+
+
+### 2026-09-25 cycle completion — Skill Batch 364 thin mechanics + Fake Blast correction
+- [x] Fresh census selected **Evil Eyes, Fake Blast, Fake Death, Feint Crash**, all at the 78-character mechanics tier.
+- [x] Added current Xenoverse 2 mechanics evidence for all four.
+- [x] **Fake Blast corrected:** dedicated and Evasive references classify it as a **Ki Blast Evasive using 200 Stamina**, not a Super/0-Ki record.
+- [x] Added/registered Batch 364 audit and research-batch files; synchronized canonical/index records.
+- [x] Preserved evidence limits: no hidden probabilities, frame data, or unsupported timing inferred.
+- [ ] CI remains unverified.
+- [x] **Exact next:** fresh global thin-record census; continue the shortest remaining mechanics/source footprints.
