@@ -7195,10 +7195,10 @@
       ],
       "unlock_method": "Captain Ginyu's Lesson 2 — complete the instructor lesson to receive Milky Cannon as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-23 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "100-Ki Ki Blast Super from Captain Ginyu mentor training, Lesson 2. The mentor lesson is the deterministic acquisition endpoint; detailed combat mechanics remain deferred rather than inferred.",
+      "notes": "2026-09-25 current-evidence refresh: current Xenoverse 2 documentation confirms the 100-Ki chargeable projectile Super from Captain Ginyu Lesson 2. The projectile initially travels quickly, then slows for roughly 3 seconds; charge changes how far it travels before slowing. No unsupported damage/timing generalization beyond the cited behavior is promoted.",
+      "mechanics_notes": "100-Ki Ki Blast Super from Captain Ginyu mentor training — Lesson 2. Fires a purple Ki ball that travels quickly for a short distance, then moves slowly for about 3 seconds before disappearing; charging extends the distance traveled before the slow phase. On contact it knocks the opponent back and current documentation reports 10% damage.",
       "source_quest": "Captain Ginyu mentor training — Lesson 2",
       "source_quest_or_shop": "Captain Ginyu mentor training — Lesson 2"
     },
@@ -7218,10 +7218,10 @@
       "ultimate_finish_required": null,
       "last_verified": "2026-09-25",
       "race_restriction": "Not separately established in this promotion",
-      "notes": "2026-09-25 current-evidence promotion: current Xenoverse 2-specific documentation confirms Super / Ki Blast classification, 100-Ki cost, and Expert Mission 3 — Assault of the Great Ape acquisition. Basic Reward evidence is preserved; exact drop probability/guarantee remains unresolved.",
+      "notes": "2026-09-25 current-evidence refresh: current Xenoverse 2 documentation confirms the 100-Ki Ki Blast Super from Expert Mission 3 and its ballistic control. The projectile can be thrown farther or shorter with directional input; exact reward probability remains unresolved.",
       "source_quest_or_shop": "Expert Mission 3 — \"Assault of the Great Ape\"",
       "ki_cost": 100,
-      "mechanics_notes": "100-Ki Ki Blast Super. Throws a Ki ball that erupts into a pillar on contact; current documentation records about 10% damage and directional control over throw distance."
+      "mechanics_notes": "100-Ki Ki Blast Super from Expert Mission 3 — Assault of the Great Ape. Quickly throws a purple Ki ball that erupts into a pillar when it hits the ground or opponent. Current documentation reports 10% damage; up input doubles the throw distance and down input halves it. The ballistic arc changes with directional movement toward/away from the target."
     },
     {
       "id": "skill-mystic-flash",
@@ -7266,8 +7266,8 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-25",
       "race_restriction": "Namekian",
-      "notes": "2026-09-20 shop-provenance refinement: maintained TP Medal Shop references identify Namek Finger as a TP Medal Shop skill; the documented listing gives a 30 TP Medal price. Shop rotation/timing is not inferred from the historical listing.\n2026-09-23 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "100 Ki Strike Super with Namekian-themed finger-extension/grab behavior; documented as a Namekian CaC skill. 2026-09-20 verification: TP Medal Shop acquisition is independently documented; current/archived shop references consistently list Namek Finger as a TP Medal Shop Super.",
+      "notes": "2026-09-25 current-evidence refresh: current skill documentation confirms the 100-Ki Namekian-only Strike Super's grab/stun behavior. TP Medal Shop provenance remains supported by archived shop records listing a 30-TP-Medal price; the current wiki page's generic 'Skill Shop' label is treated as less specific and does not replace the maintained TP Medal evidence.",
+      "mechanics_notes": "100-Ki Strike Super and Namekian grab. The user elongates the right arm; if the opponent is in range, the user pulls them in and strikes for a documented 10% damage, leaving the target stunned for follow-up attacks. For Orange Piccolo, the move functions as his Grab. Archived TP Medal Shop records list Namek Finger at 30 TP Medals; rotation timing is not inferred.",
       "source_quest_or_shop": "TP Medal Shop",
       "ki_cost": 100
     },
@@ -7284,14 +7284,14 @@
         "https://dbxenoverse.fandom.com/wiki/Mentors",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
       ],
-      "unlock_method": "Tien's Lesson 3 — complete the instructor lesson to receive Neo Tri-Beam as the Basic Reward.",
+      "unlock_method": "Tien's Lesson 4 — complete the instructor lesson to receive Neo Tri-Beam as the final mentor reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300 Ki used.\n2026-09-23 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "source_quest": "Tien mentor training — Lesson 3",
-      "source_quest_or_shop": "Tien mentor training — Lesson 3",
+      "notes": "2026-09-25 current-evidence refresh: current Xenoverse 2 documentation identifies Tien's Lesson 4 as the Neo Tri-Beam acquisition endpoint and documents the 300-Ki Ultimate with repeatable shots costing 100 Stamina each. This supersedes the stale Lesson 3 projection.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from Tien mentor training — Lesson 4. The user rises and fires a Tri-Beam for 5% damage; repeating the input fires additional Tri-Beams at 100 Stamina per repeat. Current documentation lists a 100–1400 Stamina range. No unsupported exact timing or damage scaling is inferred.",
+      "source_quest": "Tien mentor training — Lesson 4",
+      "source_quest_or_shop": "Tien mentor training — Lesson 4",
       "ki_cost": 300
     },
     {
