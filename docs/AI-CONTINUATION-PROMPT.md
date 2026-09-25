@@ -1887,3 +1887,11 @@
 - [x] Validation target: 8/8 audit records, JSON parse clean, no canonical promotion or speculative reconstruction.
 - [ ] CI success remains unverified; the available workflow endpoint has not exposed usable checker steps/logs.
 - [ ] Exact next: continue the next deterministic partially verified Ki Blast Ultimate tranche after these eight, selecting records with unresolved fields that current Xenoverse 2 evidence can directly resolve; do not duplicate already-reconciled records.
+
+### 2026-09-25 cycle completion — Batch 318 Divine-series evidence refresh
+- [x] Refreshed four next deterministic records: **Divine Lasso, Divine Ray Bomb, Divine Spear, Divine Wrath: Purification**.
+- [x] Added direct current Xenoverse 2 evidence for Ki cost, acquisition endpoint, classification, and supported mechanics.
+- [x] Added `docs/data/skill-batch-318-divine-series-evidence-refresh-2026-09-25.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved unresolved reward probabilities, Ultimate-Finish gates, frame data, and unsupported CaC/race restrictions.
+- [ ] CI remains unverified.
+- [ ] Exact next: continue alphabetically with **Divinity Unleashed, Do or Die, Dodon Ray**, then adjacent stale records where current evidence can materially improve the canonical record.
