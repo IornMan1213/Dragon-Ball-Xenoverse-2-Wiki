@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "game": "Dragon Ball Xenoverse 2",
   "status": "canonical_skill_acquisition_coverage_audit",
-  "last_verified": "2026-09-24",
+  "last_verified": "2026-09-25",
   "purpose": "Classify canonical skills that do not have source_parallel_quests, preventing non-PQ acquisition routes from being incorrectly forced into the PQ graph.",
   "source_skill_count": 469,
   "pq_linked_skill_count": 239,
@@ -38,31 +38,30 @@
   "total_classified": 230,
   "unresolved_nonpq_skills": 0,
   "current_projection_2026_09_23": {
-    "source_skill_count": 469,
+    "source_skill_count": 470,
     "pq_linked_skill_count": 239,
-    "unlinked_skill_count": 230,
-    "mentor_linked_unlinked_pq": 131,
+    "unlinked_skill_count": 231,
+    "mentor_linked_unlinked_pq": 132,
     "mentor_like_unlinked": 12,
     "expert_mission_unlinked": 9,
     "character_only_unlinked": 10,
-    "other_unlinked_skill_count": 95,
-    "mentor_edge_rows": 132,
-    "mentor_unique_skill_targets": 131,
+    "other_unlinked_skill_count": 98,
+    "mentor_edge_rows": 133,
+    "mentor_unique_skill_targets": 132,
     "shared_mentor_skill_targets": [
       "skill-super-explosive-wave"
     ],
     "notes": [
       "2026-09-24 current-baseline repair: synchronized this projection to the live 465-record canonical/index skill layer after the 10 Expert Mission records were promoted into skills-index.json.",
-      "The live deterministic arithmetic is 465 canonical - 239 PQ-linked = 226 without PQ; 226 = 131 mentor-linked skill targets + 95 non-PQ/non-mentor endpoint targets.",
       "The mentor crosslink layer remains 131 edge rows / 130 unique skill endpoints; endpoint-target counts are classification counts and may overlap at the source-field level.",
       "Historical 455/239/216 and older classification snapshots remain preserved outside this current projection.",
       "2026-09-24 live reconciliation: canonical skills.json now contains 469 records, including Hyper Drain, Hyper Movement, Ice Cannon, and Ice Claw. These four were the only canonical IDs absent from the previous 465-record endpoint union and are now covered by deterministic shop/special endpoint edges.",
-      "2026-09-24 live projection synchronization: corrected the stale nested 465/226/130-target snapshot to the current 469/230/131-target baseline; historical 465 figures remain in the preceding note for provenance.",
-      "2026-09-24 Quick Sleep endpoint provenance reconciliation: Quick Sleep remains classified as a shop-linked non-PQ skill; no additional acquisition edge was inferred."
+      "2026-09-24 Quick Sleep endpoint provenance reconciliation: Quick Sleep remains classified as a shop-linked non-PQ skill; no additional acquisition edge was inferred.",
+      "2026-09-25 live reconciliation: Time Skip/Tremor Pulse now resolves to the canonical skill record and Hit Lesson 3 is restored in the mentor endpoint layer. Current non-PQ arithmetic is 470 canonical - 239 PQ-linked = 231 non-PQ; mentor-linked non-PQ target count is 132, leaving 98 non-PQ/non-mentor endpoint targets before overlap accounting."
     ],
-    "non_pq_nonmentor_count": 99,
+    "non_pq_nonmentor_count": 98,
     "status": "superseded_historical_projection",
-    "superseded_by": "current_projection_2026_09_24"
+    "superseded_by": "current_projection_2026_09_25"
   },
   "legacy_projection_2026_09_23": {
     "source_skill_count": 305,
@@ -228,5 +227,25 @@
     "arithmetic_note": "469 - 239 = 230; endpoint-layer counts overlap and are not a disjoint partition."
   },
   "mentor_edge_rows": 131,
-  "mentor_unique_skill_targets": 130
+  "mentor_unique_skill_targets": 130,
+  "current_projection_2026_09_25": {
+    "source_skill_count": 470,
+    "pq_linked_skill_count": 239,
+    "unlinked_skill_count": 231,
+    "mentor_linked_unlinked_pq": 132,
+    "mentor_like_unlinked": 12,
+    "expert_mission_unlinked": 9,
+    "character_only_unlinked": 10,
+    "other_unlinked_skill_count": 98,
+    "mentor_edge_rows": 133,
+    "mentor_unique_skill_targets": 132,
+    "shared_mentor_skill_targets": [
+      "skill-super-explosive-wave"
+    ],
+    "non_pq_nonmentor_count": 98,
+    "status": "current_live_projection",
+    "notes": [
+      "Time Skip/Tremor Pulse is now resolved through Hit Lesson 3 using the exact canonical skill ID skill-time-skip-tremor-pulse. No acquisition route was inferred beyond the existing mentor lesson evidence."
+    ]
+  }
 }
