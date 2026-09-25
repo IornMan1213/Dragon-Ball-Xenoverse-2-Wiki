@@ -371,3 +371,16 @@
 - [x] Validation: **264 verified_current_scope/enriched + 186 verified/enriched + 19 verified/verified = 469**. All four canonical/index shared status/date fields match and all four cross-domain audit registrations resolve.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** continue the remaining `verified | verified` frontier with **Gigantic Explosion, God of Destruction's Poise, Meteor Strike, Namek Finger**, using the same bounded current-evidence policy.
+
+
+### 2026-09-25 cycle completion — Gigantic Explosion / God of Destruction's Poise / Meteor Strike / Namek Finger enrichment
+- Fresh live census: **469 canonical skills**; the remaining `verified | verified` frontier was **19**. This bounded batch completed the next four.
+- [x] Added and registered dedicated current-evidence audits for all four skills.
+- [x] Promoted all four to `research_status: enriched` and refreshed canonical/index `last_verified` to **2026-09-25**.
+- [x] Gigantic Explosion: confirmed **600-Ki Ki Blast Ultimate**, PQ164, Awoken requirement, 400-Stamina continuation, and maintained 40% Ultimate Finish route.
+- [x] God of Destruction's Poise: confirmed **100-300 Ki Strike Super**, PQ175, extendable dash/rush behavior up to 30 hits, and maintained 50% Ultimate Finish route.
+- [x] Meteor Strike: confirmed **100-Ki Strike Super**, PQ6 Basic Reward, teleporting second kick, Super/Stamina Break cancellation, and hard-knockdown behavior.
+- [x] Namek Finger: confirmed **100-Ki Namekian-only Strike Super**, TP Medal Shop endpoint, grab/stun behavior, and documented 30 TP Medal listing; rotation timing remains unresolved.
+- [x] Validation: **264 verified_current_scope/enriched + 190 verified/enriched + 15 verified/verified = 469**. All four canonical/index shared status/date fields match.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** continue the remaining `verified | verified` frontier with **Revenge Death Ball, Revenge Final Flash, Reverse Launcher, Reverse Mabakusenko**.
