@@ -7736,3 +7736,14 @@
 - [x] Preserved the **469/469** canonical boundary.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the remaining unresolved cast-only skill queue.
+
+### 2026-09-24 cycle completion — Remaining thin-skill datamined cost-boundary census
+- [x] Recomputed the remaining unresolved thin-skill set from the live `docs/data/skill-research-gaps.json`: Acid, Howl, Boiling Burg, Energy Boil, Baked Sphere, Boulder Toss, Boulder Break, Boiling Ball, and Tricky Strike.
+- [x] Checked the current final-update `Madreag/xenoverse_2_wiki` skill pages derived from the 2026-06-06 Steam depot for all nine records.
+- [x] Confirmed that every checked upstream datamined page exposes a **null Ki cost**; no numeric cost was inferred or promoted from class, animation, NPC behavior, or historical/cross-game material.
+- [x] Added `docs/data/skill-research-gaps-datamined-cost-boundary-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Updated the central gap ledger to preserve this evidence boundary and distinguish “published datamined corpus does not expose a cost” from the stronger unsupported claim that the game itself has no cost.
+- [x] Preserved the **469/469** canonical/index boundary and made no unsupported canonical promotion.
+- [x] Inspected the newest Repository quality run `36096707167` on commit `c1870010ab3118650dbc33c30216bb030f1b0f10`: the job `Check for internal artifacts` failed after about two seconds with **zero workflow steps** and no runner ID/log payload. CI success remains unverified.
+- [ ] **Exact next:** continue the remaining thin-skill queue by seeking an independent Xenoverse 2-specific numeric Ki-cost source for the highest-impact unresolved record; do not promote any cost until directly supported, and do not invent a new research batch identity.
+
