@@ -4,18 +4,20 @@
   "verification_policy": "Single-skill Strike Super research: independently reconcile Xenoverse 2 identity, acquisition route, Ki cost, CaC usability, and documented mechanics. Preserve unsupported stamina and version-sensitive values as null.",
   "research_scope": "Android Kick — Strike Super / Skill Shop acquisition research.",
   "verification_audit": {
-    "audited": "2026-09-17",
-    "method": "Compared repository Strike Super coverage with current Xenoverse 2-specific skill documentation and independent Dragon Ball documentation.",
+    "audited": "2026-09-24",
+    "method": "Revalidated the existing research record against current Xenoverse 2-specific Android Kick documentation and the current Super Attack index, with character/preset evidence used to corroborate Mira's in-game ownership. Historical Xenoverse 1 shop data was not used as current proof.",
     "duplicate_check": {
       "status": "passed",
-      "selected_records": ["Android Kick"],
+      "selected_records": [
+        "Android Kick"
+      ],
       "duplicate_count": 0,
       "identity_note": "No existing repository research batch for Android Kick was found. The canonical identity is Super / Strike."
     },
-    "classification_finding": "Current Xenoverse 2 documentation classifies Android Kick as a Strike Super Attack.",
-    "acquisition_finding": "Android Kick is available from the Skill Shop for the Future Warrior; the skill is also available through partner customization for specified characters.",
+    "classification_finding": "Current Xenoverse 2 documentation explicitly classifies Android Kick as a Strike Super Attack and lists 100 Ki.",
+    "acquisition_finding": "Current Xenoverse 2-specific documentation lists Skill Shop as the acquisition route. Current character/preset evidence places Android Kick on Mira's Universe 7 Clothing preset; this is corroborating character ownership, not a replacement for the Future Warrior acquisition endpoint.",
     "finish_policy": "ultimate_finish_required remains null because the documented acquisition route is the Skill Shop rather than a Parallel Quest reward.",
-    "cost_policy": "Ki cost is documented as 100. Stamina cost remains null because the reviewed canonical sources do not establish a reliable stamina value."
+    "cost_policy": "Ki cost is directly documented as 100. Stamina cost remains null because no reliable canonical stamina value was established."
   },
   "records": [
     {
@@ -33,16 +35,17 @@
       "source_quest_or_shop": "Skill Shop",
       "ultimate_finish_required": null,
       "skill_description": "A two-stage Strike Super in which the user performs a somersault and can input the attack again for a quick diving kick.",
-      "mechanics_notes": "The Xenoverse 2 reference describes a high somersault followed by an optional second-input dive kick. Holding back changes the initial movement to a backflip. The second input does not establish an additional Ki cost in the reviewed sources.",
-      "acquisition_notes": "The documented Future Warrior route is purchasing Android Kick from the Skill Shop. Partner customization provides additional character availability and is retained as secondary context.",
+      "mechanics_notes": "Current Xenoverse 2 evidence describes a two-stage short-range Strike Super: the user jumps high with a somersault, then a second input performs a quick diving kick. Holding back changes the initial movement to a backflip. The reviewed evidence does not establish a separate Ki cost for the second input; no unsupported numeric damage/frame data is promoted.",
+      "acquisition_notes": "The current Xenoverse 2 skill page lists Skill Shop as the Future Warrior acquisition route. Character/preset evidence independently places Android Kick on Mira's Universe 7 Clothing 1 and Clothing 4 loadouts; partner/customization availability is retained as secondary context.",
       "pve_notes": "Skill Shop acquisition; no Parallel Quest or Ultimate Finish requirement established.",
-      "pvp_notes": "The flip has invulnerability/punish utility reported in community patch discussion, but exact frame and matchup claims are not promoted to canonical numeric data.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
+      "pvp_notes": "The documented somersault/backflip and optional dive-kick behavior affects movement and follow-up timing. Exact invulnerability, frame, hitbox, and matchup claims are not promoted without stronger version-specific evidence.",
+      "verification_status": "verified",
+      "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Android_Kick",
-        "https://dragonball.fandom.com/wiki/Android_Kick",
-        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80608443"
+        "https://dbxv2.fandom.com/wiki/Super_Attack",
+        "https://dbxv2.fandom.com/wiki/Mira",
+        "https://dragonball.fandom.com/wiki/Android_Kick"
       ]
     }
   ]
