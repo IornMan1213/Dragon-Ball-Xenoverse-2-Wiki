@@ -44,7 +44,7 @@
       "consumer": "docs/Equipment-All.html",
       "record_layer": "docs/data/equipment-accessories-record-layer.json",
       "relationship": "pq_rewards_equipment",
-      "record_count": 174,
+      "record_count": 173,
       "canonical_edges": 124,
       "unique_canonical_targets": 122,
       "unresolved_targets": [],
@@ -175,7 +175,7 @@
     "record_search_navigation": true,
     "search_query_navigation": true
   },
-  "next_action": "Continue exact-pair parity scanning of remaining reverse/navigation projections after the equipment record-count scalar repair; preserve historical 854/146 snapshots.",
+  "next_action": "Continue exact-pair parity scanning of remaining reverse/navigation projections; preserve historical 854/146 snapshots.",
   "current_baseline": {
     "total_edges": 853,
     "skill": 244,
