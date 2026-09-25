@@ -2330,3 +2330,13 @@
 - [x] No canonical skill identity, relationship, acquisition route, or unsupported numeric mechanic was changed.
 - [ ] CI/runtime remains unavailable; no CI success is claimed.
 - [ ] **Exact next:** return to the remaining existing partially verified skill provenance/acquisition records outside this exhausted thin-domain cost queue; prioritize a bounded evidence-enrichment batch with direct Xenoverse 2-specific acquisition/mechanics support, then validate canonical/index parity.
+
+
+### 2026-09-25 continuation cycle — current Expert Mission skill endpoint parity hardening
+- [x] Identified and corrected a stale machine-readable baseline: the 2026-09-23 acquisition cross-domain audit still recorded **465 canonical skills**, while the current canonical registry has **470**.
+- [x] Added `scripts/validate_skill_acquisition_endpoint_parity.py` to enforce the current **470-skill / 18 Expert Mission acquisition / 18 Expert Mission endpoint** baseline, EM03–EM20 coverage, unique endpoint IDs, canonical skill-ID presence, and acquisition↔endpoint skill-set parity.
+- [x] Added `docs/data/skill-acquisition-endpoint-parity-audit-2026-09-25.json`; the older 465-skill audit remains preserved as historical evidence and is explicitly not treated as a current baseline.
+- [x] Registered the new audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Current acquisition/endpoint layers remain identity-only and source-bounded: no guaranteed drops, numerical rates, or new acquisition routes were inferred.
+- [ ] CI/runtime execution remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue the non-PQ skill endpoint/provenance census from the now-current 470-record baseline, prioritizing another stale machine-readable scalar or a thin endpoint layer with incomplete reverse parity; preserve historical snapshots and do not promote unsupported acquisition mechanics.
