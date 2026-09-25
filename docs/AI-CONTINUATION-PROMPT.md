@@ -818,3 +818,15 @@
 - [x] Validation: changed JSON parsed successfully; canonical/index parity remains **469/469**.
 - [ ] CI success remains unverified; no CI success claimed.
 - [ ] **Exact next:** continue the next deterministic research batch after 173 using the existing batch sequence and the same bounded provenance workflow.
+
+
+### 2026-09-24 cycle update — Spirit Stab P1 provenance verification
+- [x] Live canonical census remains **469**; Spirit Stab is absent from the current canonical index, so no unsupported promotion was attempted.
+- [x] Bounded batch: **skill-research-batches/skill-batch-174.json — Spirit Stab**.
+- [x] Revalidated Xenoverse 2 **Super / Strike**, **100 Ki**, CaC usability, SSGSS Vegito association, **Super Pack 4** provenance, and **TP Medal Shop** acquisition using current Xenoverse 2-specific evidence and independent DLC/update records.
+- [x] Strengthened mechanics: long-range Ki-blade thrust, single-hit, re-stand behavior, and documented inability to guard the attack.
+- [x] Added `docs/data/skill-spirit-stab-p1-provenance-verification-2026-09-24.json` and updated batch 174.
+- [x] Preserved evidence limits: stamina, exact frame/hitbox/damage values, and detailed guard-state edge cases remain unresolved/version-sensitive.
+- [x] Validation: changed JSON parsed successfully; canonical/index parity remains **469/469**.
+- [ ] CI success remains unverified; no CI success claimed.
+- [ ] **Exact next:** continue **skill-batch-175.json — Smile Charge** using the same bounded provenance workflow, with live canonical evidence checked first.
