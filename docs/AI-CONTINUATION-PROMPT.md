@@ -925,3 +925,11 @@
 - [x] Validation: research batch and audit parse as JSON; canonical/index parity remains **469/469**; no canonical mutation was attempted.
 - [ ] CI success remains unverified; no success claimed.
 - [ ] **Exact next:** continue **skill-batch-182** using the same bounded provenance workflow.
+
+### 2026-09-24 cycle validation update — post-181 Actions rerun
+- [x] Rechecked live Actions after the Evil Ray Strike commits: Repository quality and Clean internal artifacts again failed immediately with zero exposed workflow steps/log payloads; Pages was still running on the latest TODO commit when inspected.
+- [x] Confirmed the failure mode remains runner/job observability rather than a demonstrated repository-check finding; no checker weakening or speculative cleanup was performed.
+- [x] Re-ran the failed jobs for Repository quality run **36093356049** and Clean internal artifacts run **36093356021**; both reruns were accepted successfully and are now pending/processing.
+- [ ] CI success remains unverified until a completed successful rerun with observable execution is available.
+- [x] Direct validation of the changed Phantom Fist and Evil Ray Strike research/audit files found no forbidden internal citation markers (filecite, memcite, turn10file, turn11file).
+- [ ] **Exact next:** inspect the rerun results; then complete **skill-batch-182 — Gigantic Slam** without promoting into the 469/469 canonical catalogs unless the supported builder/runtime becomes available.
