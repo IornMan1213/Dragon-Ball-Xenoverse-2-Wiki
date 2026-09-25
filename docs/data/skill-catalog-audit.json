@@ -41,7 +41,7 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-25",
-  "latest_research_batch": 329,
+  "latest_research_batch": 330,
   "canonical_catalog_generated": "2026-09-14",
   "canonical_sync_pending": false,
   "current_research_focus": "Skill DLC/PQ provenance and character-only completeness",
@@ -133,7 +133,8 @@
     "2026-09-25: Batch 326 refreshed Super Spirit Bomb (EM16) and Spirit Sword (EM17) as 300-Ki Ki Blast Ultimate and 400-Ki Strike Ultimate respectively. Current Xenoverse 2-specific skill documentation, repository EM endpoint/evidence layers, and independent reward documentation were reconciled. Exact drop probabilities, first-clear guarantees, and Ultimate Finish-only gating remain unresolved; EM17's historical Spirit Bomb/Spirit Sword naming discrepancy is preserved without creating a duplicate canonical identity.",
     "2026-09-25: Batch 327 refreshed Focus Flash (EM18), Tail Slicer (EM19), and Data Input (EM20). Current indexing/evidence establishes 100-Ki Super / Ki Blast for Focus Flash and Tail Slicer, and 100-Ki Super / Power Up for Data Input; EM18-20 endpoints and Basic Reward semantics were reconciled without inventing drop probabilities or hidden gates. Raid-tagged rewards remain separate.",
     "2026-09-25: Added skill-batch-328 evidence refresh for Boiling Ball and Tricky Strike. Current Xenoverse 2-specific identity/index, Legend Patrol, and independent CaC-unobtainable evidence reinforce Boiling Ball as a Super/Ki Blast cast-only skill and Tricky Strike as a Super/Strike cast-only skill used by Final Form Demon God Demigra. Numeric Ki costs remain unresolved; no Future Warrior acquisition route or canonical promotion was inferred.",
-    "2026-09-25: Batch 329 refreshed Acid, Howl, Boiling Burg, and Baked Sphere. Classification/cast-boundary evidence strengthened; unresolved numeric Ki costs remain unpromoted. Baked Sphere is explicitly preserved as an Ultimate with Future Warrior/Supervillain use, not a purely cast-only skill."
+    "2026-09-25: Batch 329 refreshed Acid, Howl, Boiling Burg, and Baked Sphere. Classification/cast-boundary evidence strengthened; unresolved numeric Ki costs remain unpromoted. Baked Sphere is explicitly preserved as an Ultimate with Future Warrior/Supervillain use, not a purely cast-only skill.",
+    "2026-09-25: Batch 330 refreshed Energy Boil Evasive/cast-only provenance. Repository attack subcategory and numeric Ki cost remain unresolved."
   ],
   "partially_verified_count": 0,
   "verified_count": 205,
