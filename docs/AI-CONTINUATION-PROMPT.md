@@ -1,3 +1,13 @@
+### 2026-09-24 cycle completion — Skill Research Batch 297 provenance refresh
+- [x] Continued **skill-batch-297** for **Blaster Stream, Brave Heat, Chain Destructo-Disc Barrage, and Circle Flash**.
+- [x] Reconfirmed all four as **Ki Blast Ultimates using 300 Ki** from current Xenoverse 2 references.
+- [x] Reconfirmed acquisition endpoints: **PQ148**, **Bardock mentor training**, **PQ46**, and **PQ154**, respectively.
+- [x] Strengthened mechanics/evidence boundaries without inventing Ultimate Finish requirements, drop probabilities, or exact frame data.
+- [x] Added `docs/data/skill-batch-297-provenance-refresh-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved the **469/469** canonical/index boundary and made no canonical promotion.
+- [x] Inspected Actions for current commit `5f40eedd17ca2506da91699749174a7c963b75a8`: Repository quality **failed**, Wiki data audit **failed**, Clean internal artifacts **cancelled**. No CI success is claimed.
+- [ ] **Exact next:** continue the next deterministic skill-research tranche after Batch 297, enriching only fields directly supported by current Xenoverse 2 evidence; if the supported canonical builder/runtime becomes available, integrate staged records atomically and validate canonical/index parity plus downstream cross-links.
+
 ### 2026-09-24 cycle completion — Dragon Burn P1 provenance verification
 - [x] Completed **skill-batch-196 — Dragon Burn** with **Evasive / Ki Blast** classification and separate Counter Skill taxonomy.
 - [x] Confirmed **200 Stamina**, Future Warrior usability, Nuova Shenron provenance, and GT Pack 2 association.
