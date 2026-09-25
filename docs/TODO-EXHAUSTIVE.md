@@ -8517,3 +8517,15 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] **Exact next:** check for any Batch 332+ artifact; if absent, continue the next genuinely evidence-backed partially verified skill/provenance target or deterministic current-facing consumer mismatch. Preserve the 470/470 canonical boundary and do not invent unresolved numeric mechanics.
 
+### 2026-09-25 cycle completion — Expert Mission skill provenance Batch 332
+- [x] Confirmed no existing Batch 332+ artifact before proceeding.
+- [x] Added `docs/data/skill-research-batches/skill-batch-332.json` covering **Super Spirit Bomb (EM16)**, **Focus Flash (EM18)**, **Tail Slicer (EM19)**, and **Data Input (EM20)**.
+- [x] Reconciled the four Expert Mission endpoints against the maintained independent all-Expert-Missions guide and current skill references.
+- [x] Promoted only directly supported fields: EM endpoint, mission title, Basic Reward placement, and selected current Ki/mechanics fields.
+- [x] Preserved unresolved numerical drop rates, first-clear guarantees, detailed frame data, and version-sensitive mechanics.
+- [x] Kept **EM17 Spirit Sword** outside this promotion because the independent guide's EM17 line says Spirit Bomb; the repository's separate Spirit Sword conflict boundary remains intact.
+- [x] Registered Batch 332 in `docs/data/pq-cross-domain-index.json` and advanced `docs/data/skill-catalog-audit.json` to **latest_research_batch 332**.
+- [x] Preserved the 470/470 canonical/index boundary; no unsupported canonical promotion was made.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** check for any Batch 333+ artifact; if absent, continue the next deterministic Expert Mission/research tranche or stale current-facing consumer audit, with EM17 conflict resolution only if stronger evidence becomes available.
+
