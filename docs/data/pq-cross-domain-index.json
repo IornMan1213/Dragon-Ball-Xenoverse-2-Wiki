@@ -108,7 +108,11 @@
     "skill_hyper_drain_current_evidence_audit_2026_09_25": "docs/data/skill-hyper-drain-current-evidence-audit-2026-09-25.json",
     "skill_hyper_movement_current_evidence_audit_2026_09_25": "docs/data/skill-hyper-movement-current-evidence-audit-2026-09-25.json",
     "skill_ice_cannon_current_evidence_audit_2026_09_25": "docs/data/skill-ice-cannon-current-evidence-audit-2026-09-25.json",
-    "skill_ice_claw_current_evidence_audit_2026_09_25": "docs/data/skill-ice-claw-current-evidence-audit-2026-09-25.json"
+    "skill_ice_claw_current_evidence_audit_2026_09_25": "docs/data/skill-ice-claw-current-evidence-audit-2026-09-25.json",
+    "skill_apocalyptic_burst_current_evidence_audit_2026_09_25": "docs/data/skill-apocalyptic-burst-current-evidence-audit-2026-09-25.json",
+    "skill_blaster_stream_current_evidence_audit_2026_09_25": "docs/data/skill-blaster-stream-current-evidence-audit-2026-09-25.json",
+    "skill_chain_destructo_disc_barrage_current_evidence_audit_2026_09_25": "docs/data/skill-chain-destructo-disc-barrage-current-evidence-audit-2026-09-25.json",
+    "skill_circle_flash_current_evidence_audit_2026_09_25": "docs/data/skill-circle-flash-current-evidence-audit-2026-09-25.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",
