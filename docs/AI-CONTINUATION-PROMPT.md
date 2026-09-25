@@ -1924,3 +1924,16 @@
 - [ ] CI success remains unverified. The available Actions connector has previously exposed zero-step/no-log failures; no successful CI result is claimed for this cycle.
 - [x] Commits: Batch 321 research `b4fefa45a467d709c2187defda9409a59c37ae67`; Batch 321 audit `38c28a1c275b9ca3424929188393ca772bcd4e1a`; cross-domain registry repair `7816ecafbc9cc9ed33a412a4f651749993335bce`.
 - [ ] **Exact next:** recompute the live Ki Blast Super catalog against the already-reconciled research/audit registry and select the next **4–12 existing partially verified Ki Blast Super records after the Batch 321 boundary**, excluding records already covered by Batches 316–321; use direct current Xenoverse 2 evidence to resolve only fields that can be supported, then register the bounded audit and preserve unresolved conflicts/nulls.
+
+
+### 2026-09-25 cycle completion — Batch 322 Death Wave / Murder Grenade evidence refresh
+- [x] Recomputed the live Ki Blast Super catalog after Batch 321. Only **two existing partially_verified records** remained in the alphabetical post-Crazy-Finger-Shot scope: **Death Wave** and **Murder Grenade**; no fourth qualifying record was fabricated to meet the preferred batch size.
+- [x] Refreshed both records with direct current-accessible Xenoverse 2 evidence and independent Expert Mission corroboration.
+- [x] Death Wave: confirmed 100 Ki, Ki Blast Super classification, long-range vertical wave/knockback behavior, EM5 acquisition, and current Basic Reward placement. Exact drop/guarantee semantics remain unresolved.
+- [x] Murder Grenade: confirmed EM3 acquisition and current Basic Reward placement, plus the maintained 100-Ki tracking/multi-hit explosive behavior. Partner-customization availability remains secondary provenance and is not treated as a separate CaC acquisition route.
+- [x] Added `docs/data/skill-research-batches/skill-batch-322.json` and `docs/data/skill-batch-322-death-wave-murder-grenade-evidence-refresh-2026-09-25.json`.
+- [x] Registered Batch 322 in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: both new research/audit JSON files parsed successfully; cross-domain index parsed successfully with **151** keys; no canonical promotion, drop-rate inference, or first-clear guarantee inference was performed.
+- [ ] CI remains unverified; no successful Actions result is claimed.
+- [x] Commits: research `5486ef1f7aa97d2d74bbac130ef808bba7c3d826`; audit `b413aa57e07700bef147d6d58cba05d1f5ecd156`; registry `b8248f864184bc2dd8b30f622f6df90623beb5b7`.
+- [ ] **Exact next:** recompute the live Ki Blast Super catalog again and continue with the next existing partially verified/research-incomplete records after the Batch 322 scope; prioritize unresolved acquisition/provenance/mechanics fields and avoid reprocessing records already covered by Batches 316–322.
