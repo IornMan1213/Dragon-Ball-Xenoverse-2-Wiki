@@ -1624,3 +1624,15 @@
 - [x] Web evidence: dedicated Xenoverse 2 documentation confirms Super Electric Strike's 300 Ki/17-hit properties and Minus Energy Power Ball's 500 Ki/39-hit properties; the maintained Expert Mission guide identifies Super Electric Strike as EM11's Basic Reward. citeturn2search0turn2search6turn3search4turn3search5
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** continue the next deterministic partially verified tranche after Batch 306, prioritizing records whose acquisition/mechanics fields can gain new direct Xenoverse 2 evidence; do not infer unsupported numeric values.
+
+### 2026-09-24 cycle completion — Batch 307 Ki Blast Ultimate mechanics/provenance enrichment
+- [x] Continued **skill-batch-307** across Serious Bomb, Warp Kamehameha, Sphere of Destruction, and Ice Cannon.
+- [x] Added/recovered canonical coverage for **Serious Bomb**: Ultimate / Ki Blast, **500 Ki**, TP Medal Shop, CaC availability, and current 19-hit pseudo-strike/projectile behavior.
+- [x] Enriched **Warp Kamehameha** with current **400 Ki / 24-hit** teleporting Kamehameha mechanics.
+- [x] Enriched **Sphere of Destruction** with current **300 Ki / 13-hit / 35% damage** projectile evidence.
+- [x] Enriched **Ice Cannon** with current **300 Ki / 5-hit / 3-second freeze** evidence and preserved its Shenron-wish endpoint.
+- [x] Updated `docs/data/skill-research-batches/skill-batch-307.json` and `docs/data/skills-index.json`.
+- [x] Validation: live canonical/index census is now **470 records with 0 duplicate IDs**.
+- [x] Web evidence: dedicated Xenoverse 2 references directly expose the relevant costs, classifications, acquisition endpoints, and mechanics. citeturn1search0turn1search1turn1search2turn1search3turn1search8
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** inspect the next deterministic partially verified tranche after Batch 307 and continue promoting/enriching records only where direct Xenoverse 2 evidence adds new coverage; preserve nulls where it does not.
