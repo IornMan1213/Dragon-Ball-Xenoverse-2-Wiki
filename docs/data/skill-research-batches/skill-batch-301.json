@@ -67,5 +67,5 @@
       ]
     }
   ],
-  "notes": "All four identities were absent from docs/data/skills.json at audit time. Dedicated Xenoverse 2 documentation establishes their canonical class/subcategory and, where available, Ki cost and CaC status. Gigantic Ki Blast is a special Crystal Raid/Expert Mission skill: the source describes it as usable by a CaC in its player version, while the boss edition uses raid-specific behavior."
+  "notes": "All four identities were absent from docs/data/skills.json at audit time. Dedicated Xenoverse 2 documentation establishes their canonical class/subcategory and, where available, Ki cost and CaC status. Gigantic Ki Blast is a special Crystal Raid/Expert Mission skill: the source describes it as usable by a CaC in its player version, while the boss edition uses raid-specific behavior. 2026-09-24 verification: current Xenoverse 2 Ultimate Attack documentation independently lists Final Galick Rush and Super Dragon Flight (Ultimate) at 300 Ki and in the cast-exclusive section; Explosive Scream remains an unobtainable Cell Max Ki Blast Ultimate. No unsupported acquisition or CaC status changes were made."
 }
