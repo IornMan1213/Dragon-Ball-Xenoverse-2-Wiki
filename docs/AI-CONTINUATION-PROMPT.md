@@ -2248,3 +2248,14 @@
 - [x] Validation: live bridge and reconciliation artifact parsed successfully; authoritative PQ baseline remains **853 total edges / 244 skill / 145 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming**.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] **Exact next:** continue the remaining current-facing reverse/navigation census, prioritizing another stale scalar or one-way endpoint that is actually present in the live consumer rather than audit metadata already superseded by its own current validation.
+
+
+### 2026-09-25 cycle completion — unified reverse-index live scalar correction
+- [x] Live census before editing: authoritative PQ relationship layer is **853 total edges** = 244 skills / 145 Super Souls / 124 equipment / 247 characters / 86 DLC / 7 farming; unified reverse projection is intended to match it exactly.
+- [x] Found one deterministic current-field mismatch in `docs/data/pq-reward-normalization/pq-unified-reverse-index-audit.json`: its `live_exact_reconciliation` block still exposed the superseded **854 / 146 Super Soul** pre-migration scalar while the same file's current counts and canonical relationship source were already **853 / 145**.
+- [x] Corrected only that explicitly live reconciliation block to the authoritative **853 / 145** baseline; preserved the separate historical 854/146 sections unchanged.
+- [x] Added `docs/data/pq-unified-reverse-index-live-scalar-correction-2026-09-25.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: all three changed JSON artifacts re-fetched and parsed successfully; no relationship edges, canonical IDs, or acquisition routes changed.
+- [ ] CI remains unavailable; no workflow success is claimed.
+- [x] Commits: `d3a84cadf09f744541b2f76e82df48ec5b2ad82b`, `a7889c8237844259265a2b677fc2280ee51ba84d`, `eabcf1a8048f8772ae2f2d2ae6d38f5a5b1af140`.
+- [ ] **Exact next:** continue exact-pair parity scanning of remaining reverse/navigation projections for another explicitly current stale scalar; do not rewrite historical 854/146 snapshots.
