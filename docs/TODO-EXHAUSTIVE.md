@@ -29,3 +29,12 @@
 - [x] Preserved unresolved probability/prerequisite fields.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the remaining under-enriched canonical skill provenance queue using direct current Xenoverse 2 evidence.
+
+
+### 2026-09-25 completion — Skill Research Batch 340
+- [x] Added Batch 340 for Assault Rain and Blue Hurricane Expert Mission provenance/mechanics promotion.
+- [x] Promoted both canonical records to `verified_current_scope` with directly supported acquisition, cost, classification, and mechanics fields.
+- [x] Registered Batch 340 in the cross-domain index.
+- [x] Preserved unresolved drop/guarantee conditions and made no unsupported relationship changes.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the remaining under-enriched canonical skill provenance queue.
