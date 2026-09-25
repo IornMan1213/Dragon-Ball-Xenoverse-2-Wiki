@@ -1141,3 +1141,14 @@
 - [x] Canonical/index boundary remains **469/469**; no unsupported canonical promotion.
 - [ ] CI success remains unverified; current Actions failures do not expose useful workflow-step output.
 - [ ] **Exact next:** inspect current Actions state, then continue the next live research batch after 200.
+
+### 2026-09-24 cycle completion — Time Skip/Jump Spike P1 provenance verification
+- [x] Completed **skill-batch-201 — Time Skip/Jump Spike**.
+- [x] Revalidated **Super / Strike**, Counter Skill taxonomy, 100 Ki, Hit Lesson 2 acquisition, Future Warrior/CaC usability, and Super Pack 1 context.
+- [x] Cross-checked the instructor reward listing: Hit's Lesson 2 awards Time Skip/Jump Spike; official platform listings confirm Super Pack 1 adds Hit as a master.
+- [x] Revalidated forward rush/time-skip mechanics, reported approximately 20% damage, Strike protection during the rush, and extended range while holding input.
+- [x] Added `docs/data/skill-time-skip-jump-spike-p1-provenance-verification-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Refreshed `docs/data/skill-research-batches/skill-batch-201.json` with `last_verified: 2026-09-24`.
+- [x] Canonical/index boundary remains **469/469**; no unsupported canonical promotion.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** inspect current Actions state, then continue the next live research batch after 201.
