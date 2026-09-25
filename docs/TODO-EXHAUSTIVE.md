@@ -8308,3 +8308,15 @@
 - [x] JSON validation passed; no canonical identities or PQ relationships changed.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the next evidence-backed cast-only/legacy skill-gap record with a resolvable classification field.
+
+### 2026-09-25 cycle completion — Expert Mission Super provenance Batch 325
+- [x] Confirmed no existing Batch 326+ research artifact on the live branch before proceeding.
+- [x] Added `docs/data/skill-research-batches/skill-batch-325.json` covering **Murder Grenade (EM3)**, **Super Destructo-Disc (EM4)**, and **Death Wave (EM5)**.
+- [x] Refreshed Xenoverse 2-specific classifications and costs: Murder Grenade = Super / Ki Blast / 100 Ki; Super Destructo-Disc = Super / Ki Blast / 200 Ki; Death Wave = Super / Ki Blast / 100 Ki.
+- [x] Reconfirmed the Expert Mission acquisition endpoints from current Xenoverse 2 skill documentation and independent mission/acquisition references.
+- [x] Preserved unresolved exact drop probabilities, first-clear guarantees, and Ultimate Finish-only gating; no unsupported reward semantics were inferred.
+- [x] Registered Batch 325 in `docs/data/pq-cross-domain-index.json` and advanced `docs/data/skill-catalog-audit.json` to **latest_research_batch 325**.
+- [x] Preserved the **470/470** canonical/index boundary; no canonical promotion or reconstruction was performed.
+- [x] Changed research JSON validated successfully by direct re-fetch/parse; no internal citation markup was added.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** check for Batch 326+; if absent, continue the next deterministic Expert Mission/skill provenance tranche, prioritizing remaining EM16-17 or another current research-incomplete skill set only where direct Xenoverse 2 evidence supports a bounded batch.
