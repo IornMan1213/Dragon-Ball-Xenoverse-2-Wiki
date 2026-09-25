@@ -1441,3 +1441,14 @@
 - [x] Canonical/index boundary remains **469/469** with no duplicate-ID change.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the next unresolved skill-gap record after Acid, prioritizing **Boiling Burg / Energy Boil / Baked Sphere** and other remaining cast-only records with direct Xenoverse 2 evidence. Preserve unresolved numeric fields rather than guessing.
+
+
+### 2026-09-24 cycle completion — Boiling Burg evidence follow-up
+- [x] Continued the unresolved skill-gap queue with **Boiling Burg**.
+- [x] Added independent Xenoverse 2 ID-list evidence: **long ID 5540 / short ID 540**, CaC-unavailable, Final Form Demigra ownership.
+- [x] Added independent Xenoverse 2 CaC-unobtainable-list evidence and cross-checked the Ultimate/move-behavior reference.
+- [x] Updated `docs/data/skill-research-gaps-boiling-burg-evidence-audit-2026-09-24.json` and `docs/data/skill-research-gaps.json`.
+- [x] Preserved the resolved **Ultimate** classification and left only **numeric Ki cost** unresolved.
+- [x] No cross-game or inferred Ki cost was promoted; canonical/index boundary remains **469/469**.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue with **Energy Boil**, prioritizing its unresolved repository subcategory and numeric Ki cost using direct Xenoverse 2 evidence.
