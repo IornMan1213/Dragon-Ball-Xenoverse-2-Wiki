@@ -1,9 +1,10 @@
 [object Object]
-### 2026-09-25 cycle completion — Skill Research Batch 338: four current-evidence refreshes
-- [x] Added `docs/data/skill-research-batches/skill-batch-338.json` for **Lightning of Absolution, Lovely Cyclone, Mach Dash, and Maiden Blast**.
-- [x] Refreshed directly supported Xenoverse 2 classes, subcategories, resource costs, acquisition endpoints, source-character context, and bounded mechanics.
-- [x] Preserved unresolved reward probabilities and version-sensitive combat values rather than inventing them.
-- [x] Preserved **Maiden Blast** as distinct from **Maiden Burst** and preserved the existing Mach Dash PQ11/PQ18 relationship discrepancy rather than silently deleting historical evidence.
-- [x] Registered Batch 338 in `docs/data/pq-cross-domain-index.json` and advanced `docs/data/skill-catalog-audit.json` to **338**.
+### 2026-09-25 cycle completion — full skill endpoint parity current-baseline correction
+- [x] Audited the current-facing full endpoint consumer after the 470-record canonical/index repair; found `docs/data/full-skill-endpoint-reverse-parity-audit-2026-09-23.json` still exposed the superseded **469** endpoint-union baseline.
+- [x] Reconciled it against the current `skill-acquisition-cross-domain-endpoint-audit-2026-09-24.json`: **470 canonical / 239 PQ-linked / 230 unique non-PQ endpoint targets / 470 endpoint-union / 0 uncovered**.
+- [x] Synchronized the full endpoint parity audit to the current 470 boundary while preserving the older 469 wording as historical context elsewhere.
+- [x] Updated `docs/data/CROSS-LINK-CONTRACT.md` with the current endpoint parity baseline and explicitly documented the non-additive PQ/non-PQ counts caused by legitimate multi-producer overlap.
+- [x] Registered the current parity correction in `docs/data/pq-cross-domain-index.json`.
+- [x] No acquisition relationship, endpoint identity, canonical skill identity, or historical snapshot was changed.
 - [ ] CI remains unverified; no workflow success is claimed.
-- [ ] **Exact next:** continue the next genuinely unresolved current-facing provenance/cross-domain target; preserve the 470/470 canonical boundary and historical conflict evidence.
+- [ ] **Exact next:** continue the remaining current-facing consumer census or next source-backed provenance target; treat the 470/470 endpoint union as the current baseline and preserve historical 469/465 snapshots.
