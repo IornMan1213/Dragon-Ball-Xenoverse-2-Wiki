@@ -7604,3 +7604,14 @@
 - [x] Live validation remains **469/469 canonical/index**, **0 duplicate IDs**.
 - [ ] CI success remains unverified; latest Pages deployment is in progress.
 - [ ] **Exact next:** process **skill-batch-238**.
+
+### 2026-09-24 cycle completion — Batch 238 Evasive CaC-access reconciliation refresh
+- [x] Live baseline confirmed at **469 canonical / 469 index / 0 duplicate IDs**; no new canonical skill identity was created.
+- [x] Refreshed **skill-batch-238** for **Final Pose**, **Mach Dash**, and **Punisher Guard** using current Xenoverse 2 Evasive references.
+- [x] Confirmed Final Pose and Mach Dash as **Power Up Evasives**, 200 Stamina, with Skill Shop and PQ18 acquisition endpoints respectively; the current Evasive reference explicitly places both in its CaC-accessible Power Up table. citeturn1search2turn1search1turn2search0
+- [x] Confirmed Punisher Guard as an **Other Evasive**, 300 Stamina, Skill Shop after story completion, and CaC-accessible in the current Evasive reference; the current Other Evasives category contains it as well. citeturn1search0turn2search0turn3search0
+- [x] Preserved the source-count discrepancy instead of forcing category/table counts into one partition: the Other Evasives category has 11 entries, while the current Evasive reference lists 8 CaC-accessible Other Evasives and separately lists cast-exclusive Evasives. citeturn3search0turn2search0
+- [x] Added `docs/data/skill-evasive-cac-access-reconciliation-2026-09-24.json` as the current dated evidence audit and refreshed `skill-batch-238.json`.
+- [x] Validation: changed JSON payloads are structurally generated from parsed source data; canonical/index boundary remains **469/469** with no duplicate-ID change.
+- [ ] CI success remains unverified; no CI success claimed.
+- [ ] **Exact next:** continue the next live unfinished Evasive/research batch after the current 238 refresh, beginning with **skill-batch-239** only if its historical correction remains unreconciled in the live canonical layer; otherwise choose the next deterministic unfinished consumer from the handoff/TODO queue.
