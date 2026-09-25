@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill_variant_drive_current_evidence_audit_2026_09_25",
+  "audit_date": "2026-09-25",
+  "target": "Variant Drive",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "character_source": "Super Baby 2",
+    "class": "Super",
+    "subcategory": "Strike",
+    "ki_cost": 100,
+    "source_quest_or_shop": "Parallel Quest 123 — \"Planetary Possession\"",
+    "unlock_method": "Parallel Quest 123 — Basic Reward",
+    "mechanics": "Rushes forward with a punch and knee; directional input plus attack input can fire an unblockable shockwave that knocks the opponent away, while guarding cancels the rush. Current skill documentation records about 10% melee and 15% shockwave damage."
+  },
+  "limits": [
+    "Steam PQ guide explicitly lists Variant Drive as a Basic Reward; independent Dragon Ball documentation describes it as a random PQ123 reward. Exact underlying drop probability is unresolved.",
+    "Red-health damage modifiers reported by the current Fandom page are preserved only as source context and are not promoted into canonical numeric mechanics here."
+  ],
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Variant_Drive",
+    "https://dragonball.fandom.com/wiki/Variant_Drive",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ]
+}
