@@ -421,3 +421,13 @@
 - [x] Preserved bounded source-reported damage values and unresolved timing/probability limits.
 - [ ] CI remains unverified.
 - [ ] **Next:** continue the next under-documented L-series records after Lightning of Absolution.
+
+
+### 2026-09-25 completion — Skill Batch 351 Mach/Maiden mechanics refresh
+- [x] Live census: 469 canonical/index skill records; 0 duplicate IDs.
+- [x] Completed Mach Dash, Mach Punch, Maiden Blast, and Majin Kamehameha current-evidence refresh.
+- [x] Added four audits and Skill Batch 351; synchronized the current skills-index projection and registered all new evidence files.
+- [x] Preserved source-reported damage/hit values as bounded evidence and did not infer hidden gates, probabilities, timers, or frame data.
+- [x] Majin Kamehameha projected class synchronized to Super; no relationship identity changed.
+- [ ] CI remains unverified.
+- [x] **Next:** continue the remaining under-documented enriched-corpus frontier after Majin Kamehameha, starting with the next stale/low-evidence M/N records; maintain 469/469 parity.
