@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-core-breaker-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "scope": [
+    "Core Breaker"
+  ],
+  "result": "Current evidence reconfirms Core Breaker as Gamma 2's 500-Ki Strike Ultimate acquired from PQ158. Repository evidence documents a 40% Ultimate-Finish bonus slot. Current evidence does not establish a narrower CaC race/gender/form restriction.",
+  "status": "current_evidence_reconciled",
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Core_Breaker",
+    "https://dragonball.fandom.com/wiki/Core_Breaker",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "evidence_boundary": [
+    "Exact drop probabilities and unsupported hidden prerequisites are not inferred.",
+    "Version-sensitive damage/frame data is not promoted unless directly supported."
+  ],
+  "notes": ""
+}
