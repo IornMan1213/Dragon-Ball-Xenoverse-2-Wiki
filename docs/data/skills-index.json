@@ -5982,7 +5982,7 @@
       "source_quest_or_shop": "Shenron wish — I want a new Ultimate Attack!",
       "ultimate_finish_required": null,
       "skill_description": "A freezing Ki Blast Ultimate that hits five times and freezes the opponent.",
-      "mechanics_notes": "The maintained catalog research identifies Ice Cannon as a 300-Ki Ki Blast Ultimate available to CaCs through the Shenron wish for a new Ultimate Attack; the documented effect is a five-hit freezing projectile.",
+      "mechanics_notes": "300-Ki freezing Ki Blast Ultimate; current evidence describes a five-hit projectile that freezes the opponent for 3 seconds.",
       "verification_status": "partially_verified",
       "research_status": "enriched",
       "last_verified": "2026-09-24",
@@ -9253,14 +9253,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Sphere_of_Destruction"
       ],
       "unlock_method": "God of Destruction Beerus's mentor training — complete the corresponding lesson to receive Sphere of Destruction as the Basic Reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-24",
       "race_restriction": "All CaC races",
       "notes": "2026-09-22 provenance refresh: Beerus mentor training remains the deterministic acquisition endpoint; current skill evidence confirms 300 Ki Ultimate/Ki Blast classification, large projectile behavior, tracking, and a 13-hit profile. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
-      "mechanics_notes": "Beerus's 300-Ki Ki Blast Ultimate; current skill reference describes a large tracking Ki-ball projectile with 13 hits.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate; current evidence describes a large tracking Ki-ball projectile dealing 35% damage over 13 hits.",
       "source_quest": "God of Destruction Beerus mentor training",
       "source_quest_or_shop": "God of Destruction Beerus mentor training",
       "source_mentor": [
@@ -11096,7 +11097,7 @@
       "last_verified": "2026-09-24",
       "race_restriction": "All CaC races",
       "notes": "2026-09-22 deterministic correction: dedicated current skill evidence reports Warp Kamehameha at 400 Ki, correcting the stale 300-Ki canonical value. The same evidence confirms the teleport-to-target, 24-hit beam behavior; conflicting PQ76 reward-tier presentations remain explicit. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.",
-      "mechanics_notes": "400-Ki Ki Blast Ultimate. The user charges a Kamehameha, teleports to the locked-on target, and fires the beam; dedicated current evidence reports 24 hits and approximately 30% damage. PQ76 is the canonical acquisition endpoint. Reward-tier evidence is conflicting across maintained sources, so no new Ultimate Finish gate is asserted.",
+      "mechanics_notes": "400-Ki Ki Blast Ultimate. The user charges a Kamehameha, teleports to the locked-on target, and fires; current evidence reports 24 hits and 30% damage. PQ76 remains the acquisition endpoint.",
       "source_quest": 76,
       "source_quest_or_shop": "Parallel Quest 76 — \"Eternal Rival\"",
       "source_parallel_quests": [
@@ -11301,6 +11302,34 @@
       "source_parallel_quests": [
         85
       ]
+    },
+    {
+      "id": "skill-serious-bomb",
+      "name": "Serious Bomb",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Mira; Mira (Supervillain); Mira (Final Form); Fu Customize Partner",
+      "dlc_requirement": null,
+      "ki_cost": 500,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "TP Medal Shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "ultimate_finish_required": false,
+      "skill_description": "A Ki Blast Ultimate that begins with a spinning uppercut and launches a large Ki sphere.",
+      "mechanics_notes": "500-Ki Ki Blast Ultimate; current Xenoverse 2 evidence describes a pseudo-strike opening followed by a long-range Ki sphere, dealing 40% damage over 19 hits.",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-24",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Serious_Bomb",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ],
+      "race_restriction": "All CaC races",
+      "acquisition_type": "shop",
+      "notes": "2026-09-24 Batch 307 coverage recovery: promoted the pre-existing research record after direct current Xenoverse 2 evidence confirmed the 500-Ki Ki Blast Ultimate classification and TP Medal Shop acquisition. No unsupported shop-price, drop-rate, or prerequisite data was inferred."
     }
-  ]
+  ],
+  "last_updated": "2026-09-24"
 }
