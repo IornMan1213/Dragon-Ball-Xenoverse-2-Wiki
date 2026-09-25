@@ -415,3 +415,17 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Final cross-domain registration commit: **9a685c4bb6be841ec1c2db901c0b0792a3fb99d2**.
 - [x] **Exact next:** **Seagull Combination, Shining Slash, Shooting Strike, Soaring Rush**, beginning with another live evidence census.
+
+
+### 2026-09-25 cycle completion — Skill Batch 344 verified-frontier promotion
+- [x] Fresh live census before editing: **469 canonical / 469 index / 7 verified|verified frontier records**.
+- [x] Promoted **Seagull Combination, Shining Slash, Shooting Strike, Soaring Rush** to `verified_current_scope` + `research_status: enriched`.
+- [x] Seagull Combination: official Dragon Ball evidence confirms Videl's punch flurry, extra-Ki punch extension, powerful launching kick, and optional unblockable spinning kick; PQ167 acquisition/reward conflict remains bounded.
+- [x] Shining Slash: current evidence confirms 100-Ki Strike Super, PQ38 Basic Reward, sword charge/teleport-to-locked-target behavior, and Earthling/Saiyan CaC scope; exact frame data/probability remains unresolved.
+- [x] Shooting Strike: official Dragon Ball evidence confirms Gamma 1's ranged ray-gun projectile followed by a flying kick; PQ156 maintained 50% Ultimate-Finish bonus-slot route remains preserved.
+- [x] Soaring Rush: current evidence confirms 100-Ki Power Pole Strike Super, PQ177, strike/kick/chase sequence, improved Boost Dash behavior, and immediate follow-up capability; maintained 50% Ultimate-Finish route remains preserved.
+- [x] Added **Skill Research Batch 344** plus four dedicated current-evidence audits and registered all five in the cross-domain index.
+- [x] Validation: **469/469 canonical/index parity, 0 duplicate IDs, 3 verified|verified records remain**; all four targets are current-dated and enriched; audit registrations resolve using their hyphenated keys.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Commits include Batch 344 audit/batch/canonical/index/cross-domain writes; final cross-domain registration commit **017e5566838727f2c5530eee055cdb9c1a979a6d**.
+- [x] **Exact next:** continue **Super God Fist, Variant Drive, Zigzag Express** with a fresh live evidence census. This is the final three-record verified frontier.
