@@ -8,7 +8,7 @@
     "pq_rewards_skill_edges": 244
   },
   "validation": {
-    "skill_count": 469,
+    "skill_count": 470,
     "canonical_pq_skill_edges": 244,
     "canonical_crosslink_mismatches": 0,
     "primary_source_outside_canonical": 0,
@@ -18,7 +18,7 @@
     "status": "clean"
   },
   "reverse_navigation": {
-    "skill_count": 469,
+    "skill_count": 470,
     "canonical_pq_skill_edges": 244,
     "reverse_set_mismatches": 0,
     "consumer": "docs/Skills-All.html",
@@ -36,5 +36,5 @@
     "Historical/research-batch evidence is preserved even when unresolved or conflicting.",
     "No canonical relationship edge or skill identity is inferred from presentation-only data."
   ],
-  "current_baseline_note": "The authoritative repository-wide relationship baseline is 853 unique edges; the skill domain remains 244 edges and is unchanged. The canonical skill registry is now 469 records after the Hyper/Ice endpoint recovery; the additional four skills do not change the PQ relationship graph."
+  "current_baseline_note": "The authoritative repository-wide relationship baseline is 853 unique edges; the skill domain remains 244 edges and is unchanged. The canonical skill registry is now 470 records after the Hyper/Ice endpoint recovery; the additional five skills do not change the PQ relationship graph."
 }
