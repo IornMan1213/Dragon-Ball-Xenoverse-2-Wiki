@@ -2074,3 +2074,13 @@
 - [x] Final validation: **470 canonical / 239 PQ-linked / 231 non-PQ / 231 resolved non-PQ endpoint targets / 0 unresolved non-PQ skills / 132 mentor skill edges / 131 unique mentor skill targets / 0 broken endpoints**.
 - [ ] CI remains unverified; no successful Actions result is claimed.
 - [ ] **Exact next:** resume the deterministic producer/consumer parity queue outside the now-clean non-PQ reverse-navigation invariant, prioritizing any remaining current 470-count consumer or cross-domain endpoint mismatch not already audited.
+
+
+### 2026-09-25 cycle completion — Equipment reverse-navigation current scalar parity
+- [x] Live current consumer census found one stale scalar in `docs/data/record-reverse-pq-navigation-audit.json`: the Equipment consumer retained `record_count: 173` while the live combined equipment/accessory record layer and current Equipment-All audits expose **174** records.
+- [x] Repaired only that current-facing scalar to **174** and refreshed the audit status/date; canonical equipment relationships were not changed.
+- [x] Added `docs/data/equipment-record-reverse-navigation-current-scalar-parity-2026-09-25.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved the current relationship contract: **124 canonical equipment edges / 122 unique canonical targets / 0 missing reverse pairs / 0 extra reverse pairs / 0 duplicate pairs**.
+- [x] Validation: new audit, cross-domain index, and reverse-navigation audit all parse as valid JSON after fixing the index delimiter introduced during registration; no canonical records or acquisition relationships changed.
+- [ ] CI remains unverified; the latest inspected commit had no exposed status results.
+- [ ] **Exact next:** continue the current producer/consumer exact-pair census from the repaired equipment scalar, prioritizing the next remaining current-facing equipment/accessory or PQ presentation consumer with a machine-checkable stale scalar or one-way navigation mismatch.
