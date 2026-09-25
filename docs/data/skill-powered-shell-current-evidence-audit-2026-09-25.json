@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-powered-shell-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Powered Shell",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Ki Blast",
+    "ki_cost": 100,
+    "source_quest_or_shop": "Parallel Quest 128 — \"Legendary Super Saiyan Smackdown\"",
+    "unlock_method": "Parallel Quest 128 — Basic Reward",
+    "mechanics": "Single-hit controllable Ki Blast projectile; current documentation records 5% damage, an alternate backward firing input, and up to 300 Stamina for activation while being damaged."
+  },
+  "limits": [
+    "Exact reward probability remains unresolved.",
+    "No Ultimate-Finish-only gate is inferred from the maintained Basic Reward route."
+  ],
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Powered_Shell",
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ]
+}
