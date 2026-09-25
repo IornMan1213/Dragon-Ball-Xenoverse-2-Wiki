@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-hyper-drain-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "scope": [
+    "Hyper Drain"
+  ],
+  "result": "Promoted to verified_current_scope. Current Xenoverse 2-specific evidence supports the Strike Super identity, 100-Ki cost, CaC-only availability, Skill Shop after Android Warfare endpoint, and documented dual drain of 1 Stamina bar and 2 Ki bars.",
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Hyper_Drain",
+    "https://dbxv2.fandom.com/wiki/Grab"
+  ],
+  "reward_semantics": {
+    "status": "not applicable to canonical promotion",
+    "ultimate_finish_required": null,
+    "drop_probability": null
+  },
+  "limits": [
+    "No unsupported PvP/PvE timing or exact interruption guarantees promoted.",
+    "Historical community reports about drain amounts were not used where the current dedicated skill page provides explicit values."
+  ]
+}
