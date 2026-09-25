@@ -383,3 +383,13 @@
 - [x] No unsupported drop probability, hidden gate, or relationship was inferred.
 - [ ] CI remains unverified.
 - [x] Exact next: Gorgeous Shot, Grand Smasher, Gravity Impact, Hawk Charge — continue the alphabetical enriched-corpus provenance stream with current-evidence audits.
+
+
+### 2026-09-25 completion — Skill Batch 347 current-evidence refresh
+- [x] Added and registered current-evidence audits for **Gorgeous Shot, Grand Smasher, Gravity Impact, and Hawk Charge**.
+- [x] Added and registered Skill Batch 347 as an evidence-refresh-only batch; canonical skill/index projections were intentionally not changed because the live canonical file could not be safely read for a synchronized write.
+- [x] Preserved current classifications, costs, mentor endpoints, mechanics boundaries, and source conflicts; no unsupported probabilities or hidden gates added.
+- [x] Validation: new audit files, Batch 347, and cross-domain registrations parse and resolve.
+- [ ] CI remains unverified.
+- [ ] **Follow-up TODO:** safely reconcile the live canonical `skills.json` vs `skills-index.json` baseline before promoting the four refreshed records; do not claim 470/470 until both layers are directly validated.
+- [ ] **Next research TODO:** continue the alphabetical enriched-corpus provenance stream after Hawk Charge once the baseline reconciliation is complete.
