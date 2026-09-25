@@ -1,3 +1,10 @@
+### 2026-09-24 cycle completion — internal-artifact cleanup and CI diagnosis
+- [x] Removed detected assistant citation/export artifacts from the continuation history, CHANGELOG, and TP/STP Medal Shop database.
+- [x] Kept the artifact checker and cleanup workflow strict; no validator weakening.
+- [x] Preserved 469/469 canonical skill/index boundary.
+- [ ] CI success remains unverified until a post-cleanup workflow run completes successfully.
+- [ ] **Exact next:** inspect post-cleanup Actions results before resuming canonical-builder or further content work.
+
 ### 2026-09-24 cycle completion — Skill Research Batch 297 provenance refresh
 - [x] Refreshed Batch 297 for Blaster Stream, Brave Heat, Chain Destructo-Disc Barrage, and Circle Flash with current Xenoverse 2 taxonomy, 300 Ki cost, acquisition endpoints, character/DLC provenance, and directly documented mechanics.
 - [x] Added and registered `docs/data/skill-batch-297-provenance-refresh-2026-09-24.json`.
