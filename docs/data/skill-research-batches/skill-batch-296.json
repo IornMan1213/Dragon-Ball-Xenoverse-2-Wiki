@@ -56,16 +56,17 @@
       "name": "Time Control",
       "class": "Super",
       "subcategory": "Other",
-      "ki_cost": null,
+      "ki_cost": 100,
       "usable_by_cac": true,
       "character_source": "Guldo",
       "dlc_requirement": null,
       "unlock_method": null,
       "ultimate_finish_required": null,
-      "effect": "Telekinetic utility Super that controls/paralyzes an opponent.",
+      "effect": "User takes a stance and freezes the enemy in place, trapping them in a barrier for a few seconds.",
       "sources": [
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
+        "https://dbxv2.fandom.com/wiki/Super_Attack",
+        "https://dbxv2.fandom.com/wiki/Time_Control"
       ]
     },
     {
@@ -85,5 +86,5 @@
       ]
     }
   ],
-  "notes": "The current Xenoverse 2 Super Attack page places all five in Other. Future Warrior technique documentation identifies their users. Exact numeric Ki costs and unlock methods were not established by the reviewed sources, so those fields remain null rather than inferred."
+  "notes": "The current Xenoverse 2 Super Attack page places all five in Other. Future Warrior technique documentation identifies their users. Exact numeric Ki costs and unlock methods were not established by the reviewed sources, so those fields remain null rather than inferred. 2026-09-24 correction: dedicated Xenoverse 2 Time Control documentation explicitly reports Ki Used = 100 and the stun/barrier behavior; this resolves the previously null Ki cost."
 }
