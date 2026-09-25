@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 328,
+  "created": "2026-09-25",
+  "type": "evidence_refresh",
+  "scope": "Cast-only Final Form Demigra skill provenance refresh: Boiling Ball and Tricky Strike",
+  "records": [
+    {
+      "name": "Boiling Ball",
+      "id": "skill-boiling-ball",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "acquisition": "Cast-only / Final Form Demon God Demigra; no Future Warrior acquisition route established",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Boiling_Ball",
+        "https://dragonball.fandom.com/wiki/Demigra",
+        "https://videogaming.fandom.com/wiki/Defend_History%21_Unknown_Battle",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79567595",
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
+      ],
+      "evidence": "Current Xenoverse 2 skill-index evidence identifies Boiling Ball as skill ID 541, CaC-unavailable, and belonging to Final Form Demon God Demigra. The maintained Xenoverse 2 skill-list evidence places Boiling Ball in the Super Skills set. The Legend Patrol Defend History! Unknown Battle lists Boiling Ball in Final Form Demigra's encounter moveset. Independent CaC-unobtainable documentation also lists Boiling Ball. The Demigra reference describes the move as a transformation into three spinning dark-energy spheres that target the opponent; the move is tied to the Time Rift encounter context.",
+      "mechanics": "Final Form Demigra transforms into three spinning dark-energy spheres that target the opponent; being struck can launch or stun the target. Dedicated Xenoverse 2 reference material also notes that Demigra cannot normally be targeted while transformed and can be stunned if hit during the form.",
+      "limits": [
+        "Numeric Ki cost remains unresolved; no cited current source establishes it.",
+        "No Future Warrior acquisition route is inferred from cast-only encounter use.",
+        "Exact damage, frame data, hitbox behavior, and version-sensitive values remain unpromoted.",
+        "The canonical layer is not reconstructed or promoted from this research-only batch."
+      ]
+    },
+    {
+      "name": "Tricky Strike",
+      "id": "skill-tricky-strike",
+      "class": "Super",
+      "subcategory": "Strike",
+      "acquisition": "Cast-only / Final Form Demon God Demigra; no Future Warrior acquisition route established",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Tricky_Strike",
+        "https://dragonball.fandom.com/wiki/Demigra",
+        "https://videogaming.fandom.com/wiki/Defend_History%21_Unknown_Battle",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79567595",
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
+      ],
+      "evidence": "Current Xenoverse 2 skill-index evidence identifies Tricky Strike as skill ID 542, CaC-unavailable, and belonging to Final Form Demon God Demigra. The maintained Xenoverse 2 skill-list evidence places Tricky Strike in the Super Skills set. The Legend Patrol Defend History! Unknown Battle lists Tricky Strike in Final Form Demigra's encounter moveset. Independent CaC-unobtainable documentation also lists Tricky Strike. The Demigra reference documents three variants: teleporting uppercut, teleporting punch, and Boiling Breath.",
+      "mechanics": "Tricky Strike has three documented variants: a teleporting uppercut, a teleporting explosive punch, and a teleporting blue energy cloud/Boiling Breath attack. This supports the repository's Strike subtype boundary without asserting unsupported numeric combat values.",
+      "limits": [
+        "Numeric Ki cost remains unresolved; no cited current source establishes it.",
+        "No Future Warrior acquisition route is inferred from cast-only encounter use.",
+        "Exact variant selection rules, frame data, hitbox behavior, damage, and version-sensitive values remain unpromoted.",
+        "The canonical layer is not reconstructed or promoted from this research-only batch."
+      ]
+    }
+  ],
+  "evidence_boundary": "This bounded research batch refreshes existing research-gap records for two Final Form Demon God Demigra skills using current Xenoverse 2-specific identity/index evidence, Legend Patrol encounter evidence, independent CaC-unobtainable documentation, and Demigra move descriptions. It strengthens the Super/Kit Blast and Super/Strike research taxonomy and cast-only boundary, but intentionally leaves numeric Ki cost unresolved and does not create a Future Warrior acquisition route or promote either record into the canonical catalog.",
+  "validation": {
+    "records": 2,
+    "canonical_promotion": false,
+    "canonical_reconstruction": false,
+    "canonical_skill_baseline": 470,
+    "index_skill_baseline": 470,
+    "duplicate_ids": 0
+  }
+}
