@@ -7554,3 +7554,12 @@
 - [x] Commit: `b36c5f284635bb893a13388d6b4b260323804d15`.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** inspect current Actions state, then process **skill-batch-215**.
+
+
+### 2026-09-24 — TODO completion update — Batches 215–217
+- [x] Refreshed **skill-batch-215** counter-taxonomy reconciliation for Pressure Sign, Rough Ranger, Sudden Death Beam, Phantom Fist, Super Afterimage, and Heroic Assault.
+- [x] Completed the Heroic Assault follow-up through **skill-batch-216** with current Xenoverse 2 identity, acquisition, DLC/source, mechanics, and availability evidence.
+- [x] Refreshed **skill-batch-217** and preserved the 25-item published Counter Skills category while tracking Heroic Assault's taxonomy/category discrepancy separately.
+- [x] Validation remains **469/469** canonical/index with **0 duplicate IDs**.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** inspect current Actions state, then process **skill-batch-218**.
