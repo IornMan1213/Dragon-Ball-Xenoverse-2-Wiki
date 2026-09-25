@@ -2269,3 +2269,13 @@
 - [x] No canonical relationship, identity, or acquisition data was changed; this is validator-only hardening.
 - [ ] Runtime/CI execution remains unavailable; no CI success claimed.
 - [ ] **Exact next:** continue auditing the remaining PQ explorer/reference validators for hidden scalar assumptions, endpoint-only checks, and incomplete domain coverage.
+
+
+### 2026-09-25 continuation cycle — PQ page consumer validator hardening
+- [x] Audited `scripts/validate_pq_page_consumers.py` as the next PQ-facing consumer validator.
+- [x] Closed its remaining coverage gap by asserting the complete live baseline: **186 PQ records; 853 relationships = 244 skills / 145 Super Souls / 124 equipment / 247 characters / 86 DLC / 7 farming**.
+- [x] Added deterministic farming checks for unique pairs, valid PQ IDs, exact count 7, and canonical farming set **PQ15/PQ22/PQ44/PQ45/PQ68/PQ83/PQ88**.
+- [x] Added `docs/data/pq-page-consumer-validator-hardening-2026-09-25.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Canonical relationship/identity data was not modified.
+- [ ] CI/runtime execution remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue auditing remaining PQ-facing validators and summary consumers for incomplete domain coverage or stale endpoint/scalar assumptions.
