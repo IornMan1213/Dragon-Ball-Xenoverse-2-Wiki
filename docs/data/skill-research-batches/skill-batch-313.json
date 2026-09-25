@@ -14,7 +14,7 @@
       "dlc_requirement": null,
       "unlock_method": "Training with Goku - Lesson 4",
       "ultimate_finish_required": null,
-      "effect": "Large multi-hit Kamehameha beam.",
+      "effect": "Charges and fires a large, fast-traveling Kamehameha beam; current page confirms multi-hit behavior. Gogeta (SSGSS) has a unique charge input that grants a temporary 23% all-damage boost and slight movement-speed increase; Gohan (DBS Super Hero) has a counter variant.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Kamehameha"
       ]
@@ -29,7 +29,7 @@
       "dlc_requirement": null,
       "unlock_method": "TP Medal Shop; Parallel Quest 84",
       "ultimate_finish_required": null,
-      "effect": "Pseudo-strike rush into a follow-up Ki beam.",
+      "effect": "Pseudo-strike rush into a blue Ki beam; current page reports 10 hits and 30% total damage. The move is restricted to Saiyan CaCs.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Saiyan_Spirit"
       ]
@@ -44,7 +44,7 @@
       "dlc_requirement": null,
       "unlock_method": "Training with Gohan (Kid)",
       "ultimate_finish_required": null,
-      "effect": "Barrage of Ki blasts and Ki waves.",
+      "effect": "Fires a barrage of Ki balls for 22 hits and 40% total damage, then leaves the user exhausted for about one second.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Explosive_Assault"
       ]
@@ -59,11 +59,11 @@
       "dlc_requirement": null,
       "unlock_method": "Training with Piccolo",
       "ultimate_finish_required": null,
-      "effect": "Unblockable single-hit long-range beam.",
+      "effect": "Fires an unblockable long-range beam for 30% damage in one hit; the damage is the same whether it hits during a combo or after a delayed run-in.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Special_Beam_Cannon_(Ultimate)"
       ]
     }
   ],
-  "notes": "All four identities were absent from docs/data/skills.json during the coverage audit. Dedicated Xenoverse 2 pages establish the canonical Ultimate/Ki Blast classification and 300-Ki cost. CaC availability is explicitly supported by the listed training/TP Shop routes or the Saiyan CaC note."
+  "notes": "All four identities were absent from docs/data/skills.json during the coverage audit. Dedicated Xenoverse 2 pages establish the canonical Ultimate/Ki Blast classification and 300-Ki cost. CaC availability is explicitly supported by the listed training/TP Shop routes or the Saiyan CaC note. 2026-09-25 evidence refresh: current pages confirm the listed mechanics; no unsupported drop probabilities, Ultimate Finish conditions, shop-price semantics, or version history were inferred."
 }
