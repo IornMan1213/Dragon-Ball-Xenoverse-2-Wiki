@@ -4566,17 +4566,15 @@
       "subcategory": "Ki Blast",
       "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://dbxv2.fandom.com/wiki/Evil_Eyes"
       ],
       "unlock_method": "Lord Slug's mentor training — complete the corresponding lesson to receive Evil Eyes as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Lord Slug mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "100-Ki Ki Blast Super. The user places a remote explosion at the opponent's location; when used in a combo, it can instead detonate along the opponent's flight path. Current Xenoverse 2-specific evidence notes slower activation with comparatively low endlag, and a damage profile suited to stationary targets outside combos. Piccolo (Power Awakening) can fire up to two additional blasts after the first.",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Lord Slug mentor training",
       "dlc_requirement": "Base Game",
@@ -4895,31 +4893,32 @@
     },
     {
       "name": "Fake Blast",
-      "class": "Super",
+      "class": "Evasive",
       "subcategory": "Ki Blast",
       "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://dbxv2.fandom.com/wiki/Fake_Blast",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill",
+        "https://dbxv2.fandom.com/wiki/Mentors"
       ],
       "unlock_method": "Cooler (Final Form)'s Lesson 2 — complete the instructor lesson to receive Fake Blast as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Cooler (Final Form) mentor training — Lesson 2",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "Ki Blast Evasive using 200 Stamina. The user fires a close-range Ki wave into the opponent's face, blinding them for 2 seconds; the move deals no damage. Current Xenoverse 2-specific evidence classifies it as an Evasive rather than a Super and lists training with Cooler (Final Form) as the acquisition endpoint.",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Cooler (Final Form) mentor training — Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: current dedicated evidence confirms Fake Blast as Cooler (Final Form)'s 200-Stamina Ki Blast Evasive learned through his training. It blinds the opponent for approximately two seconds and does not deal damage. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current dedicated evidence confirms Fake Blast as Cooler (Final Form)'s 200-Stamina Ki Blast Evasive learned through his training. It blinds the opponent for approximately two seconds and does not deal damage. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-25 correction: current dedicated/Evasive references classify Fake Blast as a Ki Blast Evasive using 200 Stamina, not a Super.",
       "id": "skill-fake-blast",
       "source_mentor": [
         "mentor-cooler"
       ],
-      "ki_cost": 100
+      "ki_cost": 0,
+      "stamina_cost": 200
     },
     {
       "name": "Fake Death",
@@ -4927,17 +4926,16 @@
       "subcategory": "Strike",
       "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://dbxv2.fandom.com/wiki/Fake_Death",
+        "https://dbxv2.fandom.com/wiki/I-frames"
       ],
       "unlock_method": "Yamcha's Initiation Test — complete the instructor lesson to receive Fake Death as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Yamcha mentor training — Initiation Test",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "0-Ki Strike Super. The user falls backward into the Yamcha pose and can hold the input while lying down, then springs up with a kick. Current Xenoverse 2-specific evidence documents generous invulnerability frames during the initial animation and get-up, making the move a defensive counter option as well as a deceptive attack.",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Yamcha mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
@@ -4955,17 +4953,16 @@
       "subcategory": "Strike",
       "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://dbxv2.fandom.com/wiki/Feint_Crash",
+        "https://dbxv2.fandom.com/wiki/Mentors"
       ],
       "unlock_method": "Cooler (Final Form)'s Initiation Test — complete the instructor lesson to receive Feint Crash as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Cooler (Final Form) mentor training — Initiation Test",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "100-Ki Strike Super. The user teleports behind the opponent and performs a restanding punch. An additional input instead teleports to the opposite side and delivers a kick that causes knockback. The regular version can be cancelled into many skills and stamina breaks; the alternate version is more limited and does not properly connect against already knocked-back targets.",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Cooler (Final Form) mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
