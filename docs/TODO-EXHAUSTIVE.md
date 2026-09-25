@@ -7226,3 +7226,12 @@
 - [x] Validation: changed JSON parsed successfully; canonical/index parity remains **469/469**.
 - [ ] CI success remains unverified; no CI success claimed.
 - [ ] **Exact next:** continue **skill-batch-175.json — Smile Charge** using the same bounded provenance workflow, with live canonical evidence checked first.
+
+
+### 2026-09-24 — TODO completion update — Smile Charge P1 provenance verification
+- [x] Completed **skill-batch-175 — Smile Charge** with Xenoverse 2 identity, 100-Ki Strike classification, CaC-unavailable boundary, Android 17/Android 17 (DB Super) Partner Customization endpoint, and mechanics provenance.
+- [x] Added and registered the Smile Charge provenance audit.
+- [x] Preserved the 469/469 canonical/index boundary; no unsupported canonical promotion was made.
+- [x] Preserved unresolved stamina, exact frame/hitbox/damage, and Ultimate Finish fields.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** complete **skill-batch-176 — Mach Punch** using direct Xenoverse 2 evidence and the same bounded provenance workflow.
