@@ -1,0 +1,28 @@
+{
+  "audit_id": "skill-x100-big-bang-kamehameha-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "scope": [
+    "X100 Big Bang Kamehameha"
+  ],
+  "result": "Current Xenoverse 2-specific evidence supports a current-scope verification refresh.",
+  "mechanics": {
+    "classification": "Ki Blast Ultimate",
+    "ki_cost": 500,
+    "behavior": "Charges a Ki ball and fires a long beam; current skill documentation describes 24 hits, knockback, and a lock-off mode that sweeps behind the user.",
+    "acquisition": "Parallel Quest 100 — The Ultimate Rivalry; TP Medal Shop"
+  },
+  "acquisition_evidence": {
+    "pq100_reward": "The maintained PQ reward transcription lists X100 Big Bang Kamehameha as a Basic Reward.",
+    "independent_context": "Current Xenoverse 2 skill documentation and archived player discussion both identify PQ100 and TP Medal Shop as acquisition routes."
+  },
+  "limits": {
+    "drop_probability": null,
+    "ultimate_finish_required": null
+  },
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/X100_Big_Bang_Kamehameha",
+    "https://dragonball.fandom.com/wiki/100x_Big_Bang_Kamehameha",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75091923"
+  ]
+}
