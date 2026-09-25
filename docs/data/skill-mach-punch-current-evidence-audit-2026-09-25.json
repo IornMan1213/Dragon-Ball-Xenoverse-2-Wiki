@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-mach-punch-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Mach Punch",
+  "result": "current_evidence_refresh",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Strike",
+    "ki_cost": 100,
+    "source_quest_or_shop": "Parallel Quest 19 — \"Fierce Battle! Ginyu Force\"",
+    "mechanics": "Close-range rush: six punches followed by a finishing kick that knocks the opponent away; the move can be cancelled into an Ultimate on hit.",
+    "character_source": "Burter; Captain Ginyu (Customize Partner); Jiren (Customize Partner)"
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Mach_Punch",
+    "https://dragonball.fandom.com/wiki/Mach_Punch",
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "limits": [
+    "The source-reported approximately 10% damage is preserved as source-reported rather than generalized to all builds/patch contexts.",
+    "No exact frame timings or drop probability are inferred.",
+    "PQ19 Basic Reward placement is retained; no Ultimate Finish-only gate is inferred."
+  ]
+}
