@@ -2739,10 +2739,11 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Expert Mission 5 — \"The Galactic Tyrant\"",
       "acquisition_type": "expert_mission",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "research_status": "enriched",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM05. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "id": "skill-death-wave"
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM05. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 359 zero-mechanics refresh: current Xenoverse 2-specific evidence supplied bounded combat mechanics while preserving the existing Expert Mission acquisition semantics. No unsupported probability, hidden prerequisite, Ultimate Finish gate, frame data, exact timing, or stacking cap was inferred.",
+      "id": "skill-death-wave",
+      "mechanics_notes": "100-Ki Ki Blast Super from Expert Mission 5 — The Galactic Tyrant. Fires a vertical Ki wave that travels farther than Death Slash and knocks the opponent back; current dedicated evidence reports 15% source-reported damage. Exact timing/frame behavior remains unpromoted."
     },
     {
       "name": "Demon Flash Strike",
@@ -7183,10 +7184,11 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Expert Mission 10 — \"The Emperor's Worth\"",
       "acquisition_type": "expert_mission",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "research_status": "enriched",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM10. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "id": "skill-hellzone-grenade"
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM10. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 359 zero-mechanics refresh: current Xenoverse 2-specific evidence supplied bounded combat mechanics while preserving the existing Expert Mission acquisition semantics. No unsupported probability, hidden prerequisite, Ultimate Finish gate, frame data, exact timing, or stacking cap was inferred.",
+      "id": "skill-hellzone-grenade",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from Expert Mission 10 — The Emperor's Worth. The user creates Ki balls and throws a barrage that surrounds the opponent before homing in; current dedicated evidence describes a five-hit sequence, knockback, and 20% source-reported total damage. The repository retains the EM10 endpoint rather than the older Xenoverse PQ33 route."
     },
     {
       "name": "Hero's Flute",
@@ -8971,10 +8973,11 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Expert Mission 3 — \"Assault of the Great Ape\"",
       "acquisition_type": "expert_mission",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "research_status": "enriched",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM03. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
-      "id": "skill-murder-grenade"
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM03. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.\n2026-09-25 Batch 359 zero-mechanics refresh: current Xenoverse 2-specific evidence supplied bounded combat mechanics while preserving the existing Expert Mission acquisition semantics. No unsupported probability, hidden prerequisite, Ultimate Finish gate, frame data, exact timing, or stacking cap was inferred.",
+      "id": "skill-murder-grenade",
+      "mechanics_notes": "100-Ki Ki Blast Super from Expert Mission 3 — Assault of the Great Ape. Throws a Ki ball that erupts into a vertical pillar on contact with the ground or opponent; current evidence documents directional input that increases or decreases throw distance and a 10% source-reported damage value. No exact ballistic timing is inferred."
     },
     {
       "name": "Mystic Flash",
@@ -11167,10 +11170,11 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Expert Mission 14 — \"Huge Blasts for Huge Apes!\"",
       "acquisition_type": "expert_mission",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "research_status": "enriched",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM14. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
-      "id": "skill-shocking-death-ball"
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM14. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.\n2026-09-25 Batch 359 zero-mechanics refresh: current Xenoverse 2-specific evidence supplied bounded combat mechanics while preserving the existing Expert Mission acquisition semantics. No unsupported probability, hidden prerequisite, Ultimate Finish gate, frame data, exact timing, or stacking cap was inferred.",
+      "id": "skill-shocking-death-ball",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from Expert Mission 14 — Huge Blasts for Huge Apes! Charges a large Ki ball in both hands and launches it straight at the opponent; current dedicated evidence describes a 17-hit sequence, knockback, and 30% source-reported damage. The repository preserves the EM14 acquisition boundary."
     },
     {
       "name": "Shooting Strike",
