@@ -2140,3 +2140,16 @@
 - [x] Changed research JSON validated successfully by direct re-fetch/parse; no internal citation markup was added.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] **Exact next:** check for Batch 326+; if absent, continue the next deterministic Expert Mission/skill provenance tranche, prioritizing remaining EM16-17 or another current research-incomplete skill set only where direct Xenoverse 2 evidence supports a bounded batch.
+
+### 2026-09-25 cycle completion — Expert Mission 16-17 Ultimate provenance Batch 326
+- [x] Confirmed no existing Batch 326+ artifact before proceeding; Batch 325 was the latest research batch at cycle start.
+- [x] Added `docs/data/skill-research-batches/skill-batch-326.json` covering **Super Spirit Bomb (EM16)** and **Spirit Sword (EM17)**.
+- [x] Reconciled current Xenoverse 2-specific classifications/costs: Super Spirit Bomb = **Ultimate / Ki Blast / 300 Ki**; Spirit Sword = **Ultimate / Strike / 400 Ki**.
+- [x] Reconfirmed EM16/EM17 acquisition endpoints and Basic Reward classification through current skill documentation, repository endpoint/evidence layers, and independent reward documentation.
+- [x] Preserved the historical EM17 **Spirit Bomb / Spirit Sword** naming discrepancy without creating a duplicate canonical skill identity.
+- [x] Preserved unresolved exact drop probabilities, first-clear guarantees, and Ultimate Finish-only gating; no unsupported reward semantics were inferred.
+- [x] Registered Batch 326 in `docs/data/pq-cross-domain-index.json` and advanced `docs/data/skill-catalog-audit.json` to **latest_research_batch 326**.
+- [x] Preserved the **470/470** canonical/index boundary; no canonical promotion or reconstruction was performed.
+- [x] New research JSON and updated registry/audit were re-fetched and validated as JSON.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** continue the deterministic Expert Mission provenance queue with **EM18 Focus Flash** and **EM19 Tail Slicer**, then EM20 Data Input, preserving current canon and unresolved reward semantics.
