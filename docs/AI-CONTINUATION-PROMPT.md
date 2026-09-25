@@ -1756,3 +1756,13 @@
 ### 2026-09-24 correction — residual accessory cycle commit list
 - [x] Correction to the immediately preceding cycle entry: the `accessory-pq-research.json` update commit is **`c00c56d5d7d411714e55222ce989732057bcc82a`**. The prior entry contained a truncated/incorrect final suffix in that commit ID; no repository history is being rewritten.
 - [x] The other cycle commits remain `08d569d0abbf2916b9fddd14427032cba0b987ed`, `885e95c633b3ca65a489f2de8894205668cb7f01`, `a487d9d29d333e69f1fab295a9e820b4392064ed`, and `9d8281859d2ef81315e121e452ac9293e7028a64`.
+
+
+### 2026-09-24 cycle continuation — non-PQ/mentor consumer scan found remaining stale projection
+- [x] Re-ran the deterministic current-facing non-PQ/mentor consumer scan after the prior reconciliation.
+- [x] Found a remaining current-facing drift in `docs/data/skill-acquisition-coverage-report.json`: its top-level `mentor_edge_rows` and `mentor_unique_skill_targets` still read **132 / 131**, while its nested current projection and the live mentor endpoint layer are **131 / 130**.
+- [x] Confirmed this is not a new relationship: the repository's current mentor layer remains 131 resolved edges / 130 unique targets, with Hit's Time Skip/Tremor Pulse explicitly unresolved.
+- [x] Confirmed historical/audit occurrences of 132/131 are preserved evidence and should not be rewritten.
+- [ ] **Repair required:** synchronize only the stale top-level current scalar fields in `docs/data/skill-acquisition-coverage-report.json` to **131 / 130**, then re-run the current consumer scan. The available GitHub write path rejected the direct mutation attempt during this cycle, so the stale file itself was not falsely marked repaired.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** perform that scalar repair, validate the report against `docs/data/skill-acquisition-coverage-current-projection-audit-2026-09-24.json` and `docs/data/skill-acquisition-cross-domain-endpoint-audit-2026-09-24.json`, then continue the remaining non-PQ consumer scan.
