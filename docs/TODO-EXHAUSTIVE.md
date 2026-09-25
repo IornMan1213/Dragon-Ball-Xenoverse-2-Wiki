@@ -8131,3 +8131,12 @@
 - [x] JSON validation passed for all changed research/audit/index files.
 - [ ] CI remains unverified.
 - [ ] **Next:** recompute the live Ki Blast Super catalog and continue with the next research-incomplete records after Batch 322, excluding Batches 316–322.
+
+
+### 2026-09-25 — TODO completion update — Death Meteor taxonomy parity correction
+- [x] Corrected the stale `Death Meteor` projection from **Ultimate / Ki Blast** to **Ultimate / Strike** in `docs/data/skills-index.json`.
+- [x] Synchronized `docs/data/skill-expert-mission-acquisition-early.json` to `canonical_subcategory: Strike` while preserving EM07 acquisition and unresolved reward semantics.
+- [x] Added and registered `docs/data/death-meteor-taxonomy-parity-audit-2026-09-25.json`.
+- [x] Validation: **470 index records**, changed JSON parsed cleanly, no internal citation artifacts detected, cross-domain index now **152** keys.
+- [ ] CI remains unverified.
+- [ ] **Next:** compare remaining partially_verified Ultimate projections — Assault Rain, Blue Hurricane, Dead End Bullet, Hellzone Grenade — against their current catalog/evidence classifications and correct only confirmed mismatches.
