@@ -2393,3 +2393,13 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] **Exact next:** continue the remaining early Expert Mission tranche, prioritizing **Assault Rain (EM09), Hellzone Grenade (EM10), Super Electric Strike (EM11), and Angry Explosion (EM12)** with the same evidence boundary.
 
+### 2026-09-25 cycle completion — Skill research Batch 335: Expert Missions 09–12
+- [x] Confirmed no existing Batch 335+ artifact before proceeding.
+- [x] Added `docs/data/skill-research-batches/skill-batch-335.json` covering **Assault Rain (EM09), Hellzone Grenade (EM10), Super Electric Strike (EM11), and Angry Explosion (EM12)**.
+- [x] Reconciled current Xenoverse 2 skill documentation with independent mission/reward corroboration and promoted explicit mission endpoints plus Ki costs.
+- [x] Preserved unresolved drop probabilities and first-clear guarantees; community balance commentary was not promoted as canonical data.
+- [x] Registered Batch 335 in `docs/data/pq-cross-domain-index.json` and advanced `docs/data/skill-catalog-audit.json` to **latest_research_batch 335**.
+- [x] No canonical skill identity or relationship edge was changed.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** continue the remaining early Expert Mission tranche, prioritizing **Dead End Rain (EM13), Shocking Death Ball (EM14), and Blue Hurricane (EM15)**, then reconcile any remaining EM17 conflict only if stronger evidence exists.
+
