@@ -914,3 +914,14 @@
 - [x] Validation: research batch and audit parse as JSON; canonical/index parity remains **469/469**; no canonical mutation was attempted.
 - [ ] CI success remains unverified; no success claimed.
 - [ ] **Exact next:** inspect and complete the next deterministic research batch after 180, prioritizing an existing partially verified skill record with direct Xenoverse 2 evidence and cross-database value.
+
+### 2026-09-24 cycle completion — Evil Ray Strike P1 provenance verification
+- [x] Live canonical census remains **469** skill records; Evil Ray Strike was not promoted because the supported canonical builder/runtime remains unavailable.
+- [x] Completed **skill-research-batches/skill-batch-181.json — Evil Ray Strike**.
+- [x] Revalidated Xenoverse 2 **Super / Strike**, **100 Ki**, Gohan (Kid) mentor acquisition from the Initiation Test, and forward headbutt tracking/guard-break mechanics using current Xenoverse 2-specific evidence plus independent mentor references.
+- [x] Refreshed the research-layer record to verified and preserved the canonical identity boundary; no unsupported canonical promotion was made.
+- [x] Added docs/data/skill-evil-ray-strike-p1-provenance-verification-2026-09-24.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Preserved evidence limits: stamina cost, exact frame/tracking/hitbox, and universal damage values remain unresolved; no Ultimate Finish dependency was inferred.
+- [x] Validation: research batch and audit parse as JSON; canonical/index parity remains **469/469**; no canonical mutation was attempted.
+- [ ] CI success remains unverified; no success claimed.
+- [ ] **Exact next:** continue **skill-batch-182** using the same bounded provenance workflow.
