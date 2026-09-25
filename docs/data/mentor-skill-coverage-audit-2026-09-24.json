@@ -11,7 +11,7 @@
   "results": {
     "canonical_mentor_records": 33,
     "lesson_reward_objects": 133,
-    "typed_skill_rewards": 131,
+    "typed_skill_rewards": 132,
     "typed_non_skill_rewards": 1,
     "mentor_skill_forward_edges": 131,
     "unique_skill_targets": 130,
