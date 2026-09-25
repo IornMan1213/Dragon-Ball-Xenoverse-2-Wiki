@@ -30,17 +30,17 @@ The initial research layer contains **36 equipment/shop records** covering histo
 
 ### TP Medals
 
-TP Medals remain earnable through gameplay and can be spent in-game. Bandai Namco's 2024 currency transition notice states that TP Medal sales through digital stores ended around May 2024 while gameplay-earned TP Medals continued to be usable in-game. urlBandai Namco TP Medal transition noticehttps://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-notice-new-paid-currency-sales-may-2024
+TP Medals remain earnable through gameplay and can be spent in-game. Bandai Namco's 2024 currency transition notice states that TP Medal sales through digital stores ended around May 2024 while gameplay-earned TP Medals continued to be usable in-game. 
 
 ### STP Medals
 
-STP Medals are a separate in-game currency used at the Medal Shop and other locations. Current platform storefront documentation describes them as exchangeable for various in-game items. urlXbox STP Medal listinghttps://www.xbox.com/en-US/games/store/dragon-ball-xenoverse-2-stp-medal-x500/9NHJ4D0MRVT8
+STP Medals are a separate in-game currency used at the Medal Shop and other locations. Current platform storefront documentation describes them as exchangeable for various in-game items. 
 
 ## Rotation evidence
 
-Historical schedules demonstrate that costumes, accessories, gifts, Super Souls, illustrations, and techniques can rotate through the shop. A 2025 schedule, for example, records different weekly costume inventories and explicitly dated windows. urlGameFAQs TP/STP shop schedule archivehttps://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80987260
+Historical schedules demonstrate that costumes, accessories, gifts, Super Souls, illustrations, and techniques can rotate through the shop. A 2025 schedule, for example, records different weekly costume inventories and explicitly dated windows. 
 
-Older records likewise document accessories such as Spike the Devil Man's Head, Mr. Popo's Turban, Launch Wig, Power Pole, Saiyuki Hood, and Tapion's Sword as medal-shop inventory. These are retained as historical evidence, not as proof of today's stock. urlHistorical TP Medal Shop inventory recordhttps://steamcommunity.com/app/454650/discussions/0/305509857566034039/
+Older records likewise document accessories such as Spike the Devil Man's Head, Mr. Popo's Turban, Launch Wig, Power Pole, Saiyuki Hood, and Tapion's Sword as medal-shop inventory. These are retained as historical evidence, not as proof of today's stock. 
 
 ## Research states
 
