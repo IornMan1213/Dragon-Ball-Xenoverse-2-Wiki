@@ -893,3 +893,13 @@
 - [x] Validation: changed JSON parsed successfully; canonical/index parity remains **469/469**.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** continue **skill-batch-179 — Fake Death** using the same bounded provenance workflow.
+
+
+### 2026-09-24 cycle completion — Fake Death P1 provenance refresh
+- [x] Completed **skill-batch-179 — Fake Death** after resolving the prior blocked write.
+- [x] Revalidated **Super / Strike**, **0 Ki**, CaC availability, Yamcha mentor acquisition, fake-KO/I-frame mechanics, and first-lesson reward semantics. citeturn0search0turn0search11
+- [x] Added `docs/data/skill-fake-death-p1-provenance-verification-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved unresolved stamina and exact frame-duration fields; no unsupported numeric mechanics were promoted.
+- [x] Canonical/index boundary remains **469/469**; no canonical promotion was required.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** continue **skill-batch-180 — Phantom Fist**.
