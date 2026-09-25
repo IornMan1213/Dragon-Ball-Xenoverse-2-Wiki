@@ -9516,7 +9516,8 @@
       "race_restriction": "Not separately established in this promotion",
       "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM17. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-25 current-evidence promotion: Expert Mission endpoint and current classification/resource cost reconciled with independent acquisition evidence; exact reward probability and first-clear guarantee remain unresolved.",
       "source_quest_or_shop": "Expert Mission 17 — \"In the Realm of the Gods: Goku\"",
-      "ki_cost": 400
+      "ki_cost": 400,
+      "mechanics_notes": " Batch 360 current-evidence refresh: bounded combat mechanics expanded from current Xenoverse 2-specific skill references; unsupported probabilities, gates, frame data, and exact timing remain unpromoted."
     },
     {
       "id": "skill-spread-shot-retreat",
@@ -9802,11 +9803,11 @@
       ],
       "unlock_method": "Expert Mission 11 — \"The Devil Born from the Dragon Balls\" Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "Not separately established in this promotion",
       "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM11. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-24 Batch 306 evidence refresh: current Xenoverse 2 documentation confirms 300 Ki, Ki Blast Ultimate classification, 17-hit wide-range tracking projectile properties, and EM11 acquisition; the maintained Expert Mission guide identifies Super Electric Strike as the Basic Reward. No drop probability beyond the Basic Reward designation was inferred.",
       "source_quest_or_shop": "Expert Mission 11 — \"The Devil Born from the Dragon Balls\"",
-      "mechanics_notes": "Current evidence: 300 Ki; long-range tracking Ki Blast wave; 17 hits; the dedicated skill page describes the attack as dealing 40% damage over 17 hits. Detailed frame/damage-per-hit values remain unasserted."
+      "mechanics_notes": "Current evidence: 300 Ki; long-range tracking Ki Blast wave; 17 hits; the dedicated skill page describes the attack as dealing 40% damage over 17 hits. Detailed frame/damage-per-hit values remain unasserted. Batch 360 current-evidence refresh: bounded combat mechanics expanded from current Xenoverse 2-specific skill references; unsupported probabilities, gates, frame data, and exact timing remain unpromoted."
     },
     {
       "id": "skill-super-elite-combo",
