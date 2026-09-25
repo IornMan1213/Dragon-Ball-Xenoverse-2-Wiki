@@ -456,3 +456,11 @@
 - [x] Corrected the Murder Grenade audit identifier typo.
 - [ ] CI remains unverified.
 - [x] **Next:** continue the shortest remaining M/N/O mechanics records, then advance alphabetically when exhausted.
+
+
+### 2026-09-25 completion — Skill Batch 355 P mechanics/provenance refresh
+- [x] Completed Psycho Escape, Psycho Barrier, Power Blitz, and Present For You.
+- [x] Added/registered Batch 355 and four audits; maintained 469/469 parity and 0 duplicate IDs.
+- [x] Preserved source conflicts and evidence boundaries; no unsupported probabilities or gates added.
+- [ ] CI remains unverified.
+- [x] **Next:** continue the shortest-evidence P records, then proceed alphabetically.
