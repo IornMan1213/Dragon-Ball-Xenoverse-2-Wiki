@@ -13,3 +13,11 @@
 - [x] No relationship or canonical identity changes; no historical snapshot rewritten.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the remaining source-backed P1 provenance/data queue with direct Xenoverse 2-specific evidence; do not promote mechanics from community reports alone.
+
+
+### 2026-09-25 completion — Skill Research Batch 339
+- [x] Added Batch 339 for Psycho Escape, Justice Pose, and Kaioken acquisition/mechanics reconciliation.
+- [x] Preserved existing canonical identities and relationships; no unsupported drop rates or reward gates added.
+- [x] Registered the batch in the cross-domain index.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the remaining source-backed P1 provenance/data queue with the next under-enriched canonical record.
