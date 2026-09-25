@@ -525,3 +525,16 @@
 - [x] Registered Batch 352 and all four audit paths in `skills-index.json`; parity remains 469/469.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** continue the remaining under-documented enriched-corpus frontier after Namek Finger, prioritizing the next M/N/O records with the shortest mechanics evidence and checking for stale acquisition/classification endpoints before enrichment.
+
+
+### 2026-09-25 cycle completion — Skill Batch 353 next M/O mechanics refresh
+- [x] Live baseline remains **469 canonical/index skill records**, 0 duplicate IDs.
+- [x] Completed **One-Handed Kamehameha mk.II, Orin Combo, Mighty Explosive Wave, and Masenko**.
+- [x] Added and registered four current-evidence audits plus Skill Research Batch 353.
+- [x] Expanded One-Handed Kamehameha mk.II with its documented follow-up-shot/Stamina behavior while avoiding unsupported timing/frame claims.
+- [x] Expanded Orin Combo with its 100-Ki Strike Super / Krillin Lesson 1 endpoint while leaving unsupported numeric combat data unresolved.
+- [x] Expanded Mighty Explosive Wave's 100-Ki close-range explosion behavior and maintained its distinction from Jiren (Full Power)'s Stamina-based Evasive.
+- [x] Expanded Masenko's 100-Ki behavior and documented the opposite-direction back-jump option; Lesson 2 remains the deterministic endpoint.
+- [x] Validation: 469/469 parity maintained; no relationship identity changes; unsupported probabilities/gates not promoted.
+- [ ] CI remains unverified.
+- [x] **Exact next:** continue the next shortest-evidence M/N/O records after Batch 353, prioritizing stale/low-detail mechanics and acquisition endpoints.
