@@ -46,8 +46,8 @@
     "expert_mission_unlinked": 9,
     "character_only_unlinked": 10,
     "other_unlinked_skill_count": 95,
-    "mentor_edge_rows": 131,
-    "mentor_unique_skill_targets": 130,
+    "mentor_edge_rows": 132,
+    "mentor_unique_skill_targets": 131,
     "shared_mentor_skill_targets": [
       "skill-super-explosive-wave"
     ],
