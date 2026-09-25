@@ -79,3 +79,11 @@
 - [x] Preserved unresolved reward-tier/drop semantics; no unsupported requirement or probability was added.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the remaining partially verified/under-enriched skill provenance queue.
+
+
+### 2026-09-25 completion — III Bomber current-evidence provenance promotion
+- [x] Added current-evidence audit for III Bomber and registered it in the cross-domain index.
+- [x] Promoted Batch 54 research status to `verified_current_scope` for classification, 100-Ki cost, Majin CaC restriction, PQ90 endpoint, and documented mechanics.
+- [x] Preserved unresolved reward probability and Ultimate-Finish semantics.
+- [ ] CI remains unverified.
+- [x] **Exact next:** continue with Final Kamehameha and the remaining under-enriched Batch 54 provenance queue.
