@@ -22,7 +22,7 @@
       "name": "Android 13's Hat",
       "pq": 105,
       "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-027 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "reason": "Exact external Xenoverse 2 inventory evidence now identifies Android 13's Hat as accessory ID 918; current external equipment documentation reports TP Medal Shop acquisition for 7 TP, and independent Xenoverse 2 documentation confirms it is an accessory obtainable by the Future Warrior. The repository still has no exact current canonical inventory endpoint/ID for this item, so no acc-### identity is inferred. PQ105 remains a separate research association and is not treated as a guaranteed acquisition route."
     },
     {
       "pq_record_id": "pqacc-023",
@@ -156,5 +156,6 @@
     "Canonical data is authoritative; research and verification evidence remain supporting metadata.",
     "Six additional exact inventory identities were reconciled in the current batch: Yamcha's Baseball Hat, SSGSS Vegeta Wig, SS4 Wig & Tail (Goku), Bulma (Kid) Wig, Red Ribbon Army Helmet, and Gohan (Beast) Wig. Android 13's Hat remains unresolved as a distinct canonical identity despite external TP Medal Shop evidence because it is not present in the current canonical inventory layer.",
     "2026-09-23: synchronized Resistance Helmet (pqacc-021) and Gine (DB Super)'s Accessory (pqacc-026) as explicit equipment/accessory-domain resolutions; no duplicate acc-### identities or new accessory PQ edges were created."
-  ]
+  ],
+  "last_updated": "2026-09-24"
 }
