@@ -2383,3 +2383,13 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] **Exact next:** check for Batch 334+; if absent, continue the next remaining partially verified skill/provenance target (Howl → Boiling Burg → Energy Boil → Baked Sphere/Boulder/Boiling Ball/Tricky Strike as evidence permits), or switch to the next machine-checkable stale consumer if that yields stronger deterministic progress.
 
+### 2026-09-25 cycle completion — Skill research Batch 334: Expert Missions 04–08
+- [x] Confirmed no existing Batch 334+ artifact before editing.
+- [x] Added `docs/data/skill-research-batches/skill-batch-334.json` covering **Super Destructo-Disc (EM04), Supernova (EM06), Death Meteor (EM07), and Dead End Bullet (EM08)**.
+- [x] Reconciled current Xenoverse 2 skill references with independent acquisition corroboration and promoted only explicit mission endpoints and Ki costs.
+- [x] Preserved unresolved drop probabilities and first-clear guarantees; no reward-generation rate was inferred.
+- [x] Registered Batch 334 in `docs/data/pq-cross-domain-index.json` and advanced `docs/data/skill-catalog-audit.json` to **latest_research_batch 334**.
+- [x] No canonical skill identity or relationship edge was changed.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** continue the remaining early Expert Mission tranche, prioritizing **Assault Rain (EM09), Hellzone Grenade (EM10), Super Electric Strike (EM11), and Angry Explosion (EM12)** with the same evidence boundary.
+
