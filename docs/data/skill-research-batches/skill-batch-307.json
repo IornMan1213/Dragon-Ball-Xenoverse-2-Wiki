@@ -13,10 +13,11 @@
       "character_source": "Mira; Mira (Supervillain); Mira (Final Form); Fu Customize Partner",
       "dlc_requirement": null,
       "unlock_method": "TP Medal Shop",
-      "ultimate_finish_required": null,
-      "effect": "Large tracking Ki sphere launched after a spinning uppercut.",
+      "ultimate_finish_required": false,
+      "effect": "Pseudo-strike opening followed by a large long-range Ki sphere; 19-hit attack.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Serious_Bomb"
+        "https://dbxv2.fandom.com/wiki/Serious_Bomb",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ]
     },
     {
@@ -28,8 +29,8 @@
       "character_source": "Goku and multiple Customize Partners",
       "dlc_requirement": null,
       "unlock_method": "Parallel Quest 76 - Eternal Rival",
-      "ultimate_finish_required": null,
-      "effect": "Teleports to the locked-on opponent and fires a Kamehameha.",
+      "ultimate_finish_required": false,
+      "effect": "Teleporting Kamehameha: charges, teleports to the locked-on opponent, then fires for 24 hits.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Warp_Kamehameha"
       ]
@@ -43,8 +44,8 @@
       "character_source": "God of Destruction Beerus",
       "dlc_requirement": null,
       "unlock_method": "Training with God of Destruction Beerus",
-      "ultimate_finish_required": null,
-      "effect": "Large tracking Ki sphere thrown at the opponent.",
+      "ultimate_finish_required": false,
+      "effect": "Large tracking Ki sphere that deals 35% damage over 13 hits.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Sphere_of_Destruction"
       ]
@@ -58,12 +59,12 @@
       "character_source": "Eis Shenron; Omega Shenron Customize Partner",
       "dlc_requirement": null,
       "unlock_method": "Shenron wish - I want a new Ultimate Attack!",
-      "ultimate_finish_required": null,
-      "effect": "Freezing projectile that hits five times and freezes the opponent.",
+      "ultimate_finish_required": false,
+      "effect": "Freezing projectile that deals 15% damage over five hits and freezes the opponent for 3 seconds.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ice_Cannon"
       ]
     }
   ],
-  "notes": "All four identities were absent from docs/data/skills.json immediately before this batch. Dedicated Xenoverse 2 pages explicitly provide Ultimate/Ki Blast classification and numeric Ki costs. CaC availability and acquisition are recorded only where the dedicated page states them."
+  "notes": "2026-09-24 evidence enrichment: current Xenoverse 2 dedicated pages directly expose numeric Ki costs and mechanics for all four records. Serious Bomb is a 500-Ki TP Medal Shop Ultimate; Warp Kamehameha is a 400-Ki PQ76 Ultimate; Sphere of Destruction is a 300-Ki Beerus-training Ultimate; Ice Cannon is a 300-Ki Shenron-wish Ultimate. Reward/finish gates remain unasserted where evidence does not establish them."
 }
