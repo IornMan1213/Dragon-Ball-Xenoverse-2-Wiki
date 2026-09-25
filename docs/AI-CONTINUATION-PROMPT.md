@@ -1656,3 +1656,12 @@
 - [x] Validation passed for all changed JSON and registry linkage; canonical catalog promotion was intentionally not attempted.
 - [ ] CI remains unverified; no workflow run is exposed.
 - [ ] **Exact next:** continue the next existing partially verified skill-research record after Batch 56 with direct Xenoverse 2 evidence and preserve unresolved boundaries.
+
+
+### 2026-09-24 cycle completion — Batch 309 Ki Blast Ultimate evidence enrichment
+- [x] Completed the next deterministic tranche: Shocking Death Ball, Teleporting Vanishing Ball, and Super Vanishing Ball.
+- [x] Added direct current evidence for classification, Ki costs, acquisition endpoints, character provenance, and hit/mechanics data where available.
+- [x] Added/registered the Batch 309 evidence audit and updated the research batch.
+- [x] Preserved unresolved drop-probability, Ultimate-Finish, and shop-price boundaries.
+- [ ] CI remains unverified; no workflow runs exposed.
+- [ ] **Exact next:** continue Batch 310 with direct current Xenoverse 2 evidence.
