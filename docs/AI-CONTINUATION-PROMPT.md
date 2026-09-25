@@ -1,3 +1,14 @@
+### 2026-09-24 cycle completion — Rough Ranger P1 provenance verification
+- [x] Completed **skill-batch-195 — Rough Ranger** with Xenoverse 2 **Super / Strike / Universal Counter** classification, **100 Ki**, Android 17 (DB Super) association, and Extra Pack 2 provenance.
+- [x] Revalidated **PQ119 — A Ranger's Duty** as the acquisition quest and preserved the repository-supported **Ultimate Finish** interpretation.
+- [x] Recorded the source discrepancy: a Steam PQ guide displays Rough Ranger in the reward set without the UF annotation, while Dragon Ball Wiki explicitly states Future Warrior acquisition after Ultimate Finish; existing repository audit/history also preserves the UF interpretation.
+- [x] Strengthened mechanics evidence for the Strike/basic kick response, Ki-based barrier response, and point-blank Ki Blast exception.
+- [x] Added and registered `docs/data/skill-rough-ranger-p1-provenance-verification-2026-09-24.json`.
+- [x] Preserved unresolved stamina cost, exact frame/hitbox data, drop probability, and version-sensitive damage fields.
+- [x] Preserved the **469/469** canonical skill/index boundary; no unsupported canonical promotion was made.
+- [x] Inspected current Actions state: the newest push-triggered **Repository quality** and **Wiki data audit** runs for the current commit are queued; the immediately preceding Repository quality run failed. No CI success is claimed yet.
+- [ ] **Exact next:** continue **skill-batch-196** after checking the resulting Actions state.
+
 ### 2026-09-24 cycle completion — Sudden Death Beam P1 provenance verification
 - [x] Completed **skill-batch-194 — Sudden Death Beam** with Xenoverse 2 **Super / Ki Blast / Counter Skill** classification, Goku Black (Super Saiyan Rosé) association, Super Pack 3 provenance, and Future Warrior usability.
 - [x] Revalidated current acquisition routes: **TP Medal Shop / STP Medal Shop / Double Crystal Raid Battle**.
