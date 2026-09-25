@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-burst-kamehameha-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Burst Kamehameha",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Ki Blast",
+    "ki_cost": "100 initial / 200 with additional input",
+    "damage_type": "Ki Blast",
+    "source_quest_or_shop": "Parallel Quest 72 — First Training",
+    "unlock_method": "Parallel Quest 72",
+    "mechanics": "Multi-hitting beam; a second input while the initial blast is connecting consumes another 100 Ki to prolong the beam and deal additional damage.",
+    "character_source": "SSGSS Goku; Goku; Goku (Super Saiyan God); Goku (GT); Goku (Super Saiyan 4)"
+  },
+  "reward_evidence": {
+    "pq72": "Current skill documentation lists PQ72 as the unlock endpoint; an independent GameFAQs report confirms players may complete PQ72, including an Ultimate Finish, without receiving the skill on that run and describes skill rewards as non-guaranteed drops.",
+    "ultimate_finish_required": null
+  },
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Burst_Kamehameha",
+    "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/604213-i-have-finished-parallel-quest-72-but-i-didnt-get-burst-kamehameha",
+    "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/74491833"
+  ],
+  "limits": [
+    "No exact drop probability is inferred.",
+    "The GameFAQs reward discussion is historical/community evidence, not a canonical numeric reward table.",
+    "No universal damage percentage or frame data is promoted."
+  ]
+}
