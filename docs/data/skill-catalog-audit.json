@@ -41,7 +41,7 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-25",
-  "latest_research_batch": 326,
+  "latest_research_batch": 327,
   "canonical_catalog_generated": "2026-09-14",
   "canonical_sync_pending": false,
   "current_research_focus": "Skill DLC/PQ provenance and character-only completeness",
@@ -130,7 +130,8 @@
     "2026-09-25: Batch 323 consolidated source-backed Expert Mission provenance for Supernova (EM6), Dead End Bullet (EM8), Hellzone Grenade (EM10), and Super Electric Strike (EM11); exact drop/guarantee semantics remain unresolved and no canonical reconstruction was performed.",
     "2026-09-25: Batch 324 consolidated Expert Mission Ultimate provenance for Death Meteor (EM7), Assault Rain (EM9), Angry Explosion (EM12), Dead End Rain (EM13), Shocking Death Ball (EM14), and Blue Hurricane (EM15); historical conflicts and unresolved drop/guarantee semantics remain preserved.",
     "2026-09-25: Batch 325 refreshed the remaining current EM03-05 Super provenance records: Murder Grenade (EM03, 100 Ki, Ki Blast Super), Super Destructo-Disc (EM04, 200 Ki, Ki Blast Super), and Death Wave (EM05, 100 Ki, Ki Blast Super). Direct Xenoverse 2 skill pages plus independent mission/acquisition references were recorded. Exact drop probabilities, first-clear guarantees, and Ultimate Finish-only gating remain unresolved and were not inferred. The 470/470 canonical/index boundary was preserved; no canonical promotion or reconstruction was performed.",
-    "2026-09-25: Batch 326 refreshed Super Spirit Bomb (EM16) and Spirit Sword (EM17) as 300-Ki Ki Blast Ultimate and 400-Ki Strike Ultimate respectively. Current Xenoverse 2-specific skill documentation, repository EM endpoint/evidence layers, and independent reward documentation were reconciled. Exact drop probabilities, first-clear guarantees, and Ultimate Finish-only gating remain unresolved; EM17's historical Spirit Bomb/Spirit Sword naming discrepancy is preserved without creating a duplicate canonical identity."
+    "2026-09-25: Batch 326 refreshed Super Spirit Bomb (EM16) and Spirit Sword (EM17) as 300-Ki Ki Blast Ultimate and 400-Ki Strike Ultimate respectively. Current Xenoverse 2-specific skill documentation, repository EM endpoint/evidence layers, and independent reward documentation were reconciled. Exact drop probabilities, first-clear guarantees, and Ultimate Finish-only gating remain unresolved; EM17's historical Spirit Bomb/Spirit Sword naming discrepancy is preserved without creating a duplicate canonical identity.",
+    "2026-09-25: Batch 327 refreshed Focus Flash (EM18), Tail Slicer (EM19), and Data Input (EM20). Current indexing/evidence establishes 100-Ki Super / Ki Blast for Focus Flash and Tail Slicer, and 100-Ki Super / Power Up for Data Input; EM18-20 endpoints and Basic Reward semantics were reconciled without inventing drop probabilities or hidden gates. Raid-tagged rewards remain separate."
   ],
   "partially_verified_count": 0,
   "verified_count": 205,
