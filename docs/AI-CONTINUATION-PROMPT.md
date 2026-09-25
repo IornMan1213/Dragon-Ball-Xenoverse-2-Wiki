@@ -33,3 +33,12 @@
 - [x] Preserved unresolved reward-frequency/prerequisite details and made no unsupported mechanics claims.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] **Exact next:** continue the remaining under-enriched canonical skill provenance queue, prioritizing records where current Xenoverse 2-specific evidence can promote an actual field rather than repeating closed audits.
+
+
+### 2026-09-25 cycle completion — Skill Research Batch 340 EM9/EM15 provenance promotion
+- [x] Promoted **Assault Rain** from partially verified to `verified_current_scope`, strengthening its EM9 endpoint, 300-Ki Ki Blast Ultimate classification, and documented tracking/10-hit mechanics.
+- [x] Promoted **Blue Hurricane** from partially verified to `verified_current_scope`, strengthening its EM15 endpoint, 300-Ki Strike Ultimate classification, and documented controllable-twister mechanics.
+- [x] Added and registered `docs/data/skill-research-batches/skill-batch-340.json`.
+- [x] Preserved unresolved drop probabilities and guarantee conditions; no unsupported reward gate or relationship was added.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** continue the remaining under-enriched canonical skill provenance queue with the next partially verified/under-enriched record where direct current Xenoverse 2 evidence can promote fields.
