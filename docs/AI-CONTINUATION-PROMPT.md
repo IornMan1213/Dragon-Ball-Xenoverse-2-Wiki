@@ -291,3 +291,9 @@
 - [x] Preserved unresolved drop probability, first-clear guarantee, and historical reward-name conflicts; no unsupported UF-only gate was inferred.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** continue the remaining partially verified Expert Mission records, starting with **Dead End Bullet**, **Assault Rain**, **Super Electric Strike**, and **Angry Explosion**, after a live canonical census.
+
+
+### 2026-09-25 cycle validation — Expert Mission acquisition live census
+- Live census after editing: **18** EM03-20 non-tutorial acquisition records; **8 verified_current_scope**, **10 partially_verified**; **18 exact drop rates unresolved**.
+- Canonical/index parity validated for the eight promoted skills: all show `verified_current_scope`, `research_status: enriched`, and `last_verified: 2026-09-25`.
+- Exact next: promote the next bounded tranche beginning with **Dead End Bullet, Assault Rain, Super Electric Strike, and Angry Explosion**.
