@@ -7472,3 +7472,11 @@
 - [x] Current Actions state was inspected and the failed Repository quality / Clean internal artifacts jobs were rerun; no workflow success is claimed because the exposed jobs still provide no usable step/log evidence.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** inspect the post-rerun Actions state, then continue with the next live research target after **Ultrasonic Blitz**, preserving the 469/469 boundary and using the same bounded P1 provenance workflow.
+
+
+### 2026-09-24 validation correction — Ultrasonic Blitz write set
+- [x] Post-write JSON validation initially found two serialization mistakes in the newly edited batch/index files; both were corrected immediately without changing research semantics.
+- [x] Revalidated `skill-batch-202.json`, `pq-cross-domain-index.json`, and the new Ultrasonic Blitz audit: all three now parse successfully; provenance artifact scan is clean.
+- [x] Current Actions rerun inspection: Repository quality and Clean internal artifacts still complete as failures with no exposed workflow steps/logs. No CI success is claimed.
+- [x] Corrected live commit sequence: `dc3c8029`, `4a49a1b9`, `cd31986c`, `5e41fd44`, `85126d70`, `d7c72351`, `59436781`, `6a3863ed`.
+- [ ] **Exact next:** continue **skill-batch-203 — Demon Flash Strike** after inspecting current Actions state, using the same bounded P1 provenance workflow and preserving the 469/469 canonical boundary.
