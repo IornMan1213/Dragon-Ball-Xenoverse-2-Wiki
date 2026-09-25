@@ -523,3 +523,12 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Commits: canonical `16c58fd`, index `64321fd`, audit `46d3f4f`, batch `16ea0c9`, registry `ea301ed`.
 - [x] **Exact next:** fresh global thin-record census; prioritize records with the shortest mechanics/source footprint, then continue deterministic provenance/mechanics enrichment while preserving uncertainty boundaries and cross-domain links.
+
+
+### 2026-09-25 completion — Skill Batch 361 thin mentor mechanics enrichment
+- [x] Completed **All Clear, Angry Hit, Arm Crash, and Audacious Laugh** from the fresh shortest-mechanics census.
+- [x] Added/registered current-evidence audit `docs/data/skill-batch-361-thin-mentor-mechanics-audit-2026-09-25.json` and research batch `docs/data/skill-research-batches/skill-batch-361.json`.
+- [x] Synchronized canonical/index mechanics and verification dates for all four; no acquisition relationship or canonical identity changed.
+- [x] Preserved bounded evidence: source-reported damage values are not universal balance claims; no hidden gates, probabilities, frame data, or exact timing were invented.
+- [ ] CI remains unverified.
+- [x] **Exact next:** fresh global thin-record census and continue the shortest remaining mechanics/source footprints.
