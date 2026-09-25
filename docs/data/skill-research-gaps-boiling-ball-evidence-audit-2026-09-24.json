@@ -35,6 +35,11 @@
       "type": "repository_research_reconciliation",
       "claim": "Repository research batch 289 records Boiling Ball as a Super Skill with Ki Blast subtype; this is treated as repository research evidence rather than a cross-game inference.",
       "source": "docs/data/skill-research-batches/skill-batch-289.json"
+    },
+    {
+      "type": "web_refresh_2026_09_24",
+      "claim": "2026-09-24 web refresh: current indexed Xenoverse 2 references independently retain Boiling Ball as Final Form Demigra's cast-only technique; the current Character ID List places it at ID 541 / BBL and marks it unavailable to CaC, while the maintained CaC-unobtainable list explicitly includes Boiling Ball. The Demigra reference describes the Xenoverse 2 Time Rift behavior. No numeric Ki cost is exposed by these sources, so the cost remains unresolved.",
+      "source": "Current indexed Xenoverse 2 references: Character ID List, CaC-unobtainable skills list, and Demigra reference."
     }
   ],
   "resolved_fields": {
