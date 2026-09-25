@@ -1462,3 +1462,13 @@
 - [x] Canonical/index boundary remains **469/469**.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue with **Baked Sphere**, then the remaining unresolved cast-only skill records.
+
+
+### 2026-09-24 cycle completion — Baked Sphere evidence follow-up
+- [x] Strengthened **Baked Sphere** with independent Xenoverse 2 ID-list and CaC-unobtainable evidence.
+- [x] Reconfirmed the **Ultimate / CaC-unavailable** boundary and preserved the **Explosive Wave** research subcategory.
+- [x] Updated the dedicated audit and central gap ledger.
+- [x] Preserved **numeric Ki cost** as the only unresolved field; no unsupported cost or acquisition route was promoted.
+- [x] Canonical/index boundary remains **469/469**.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the remaining unresolved cast-only skill records, prioritizing the next documented queue item.
