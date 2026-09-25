@@ -632,5 +632,6 @@
   "skill_batch_252_reconciliation": "docs/data/skill-batch-252-reconciliation-2026-09-24.json",
   "skill_research_gaps_datamined_cost_boundary_2026_09_24": "docs/data/skill-research-gaps-datamined-cost-boundary-2026-09-24.json",
   "skill_research_batch_296": "docs/data/skill-research-batches/skill-batch-296.json",
-  "skill_research_batch_296_refresh_2026_09_24": "docs/data/skill-research-batches/skill-batch-296.json"
+  "skill_research_batch_296_refresh_2026_09_24": "docs/data/skill-research-batches/skill-batch-296.json",
+  "skill_research_batch_297_provenance_refresh_2026_09_24": "docs/data/skill-batch-297-provenance-refresh-2026-09-24.json"
 }
