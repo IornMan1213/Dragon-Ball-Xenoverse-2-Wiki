@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 350,
+  "created": "2026-09-25",
+  "type": "evidence_reconciliation",
+  "scope": "Current Xenoverse 2 provenance/mechanics refresh for Last Emperor, Light Grenade, Lightning Impact, and Lightning of Absolution.",
+  "records": [
+    {
+      "name": "Last Emperor",
+      "id": "skill-last-emperor",
+      "audit": "docs/data/skill-last-emperor-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Light Grenade",
+      "id": "skill-light-grenade",
+      "audit": "docs/data/skill-light-grenade-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Lightning Impact",
+      "id": "skill-lightning-impact",
+      "audit": "docs/data/skill-lightning-impact-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Lightning of Absolution",
+      "id": "skill-lightning-of-absolution",
+      "audit": "docs/data/skill-lightning-of-absolution-current-evidence-audit-2026-09-25.json"
+    }
+  ],
+  "validation": {
+    "canonical_promotion": true,
+    "canonical_skill_baseline": 469,
+    "index_skill_baseline": 469,
+    "duplicate_ids": 0,
+    "relationship_changes": 0,
+    "unsupported_drop_rates_promoted": 0,
+    "unsupported_gates_added": 0,
+    "source_reported_damage_values_bounded": true
+  },
+  "evidence_boundary": "Mechanics notes were expanded from current skill references and independent technique evidence; no unsupported reward probability, exact low-health threshold, frame timing, or patch-independent damage guarantee was introduced."
+}
