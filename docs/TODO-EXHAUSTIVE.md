@@ -7975,3 +7975,11 @@
 - [x] Added and registered the dedicated residual identity audit; all changed JSON parses successfully.
 - [ ] CI/runtime remains unavailable.
 - [ ] **Exact next:** continue the residual accessory identity queue with the next unresolved exact-name candidate supported by direct current inventory evidence.
+
+
+### 2026-09-24 cycle completion — Kale/Caulifla residual accessory domain resolution
+- [x] `pqacc-027` Kale's Accessory → `equip-055` Kale Wig; PQ148 crosslink preserved.
+- [x] `pqacc-028` Caulifla's Accessory → `equip-053` Caulifla Wig; PQ147 crosslink preserved.
+- [x] Added/registered the domain-resolution audit; JSON validation passed.
+- [ ] CI/runtime remains unverified.
+- [ ] **Exact next:** audit the next unresolved late-DLC accessory identities, starting with Golden Frieza Head, Broly Wig (Black Hair, Normal), Dragon Ball Balloon, and Goku (Ultra Supervillain Quelled) Wig.
