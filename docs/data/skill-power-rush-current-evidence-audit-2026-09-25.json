@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-power-rush-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Power Rush",
+  "status": "research_boundary_complete",
+  "scope": "Current Xenoverse 2 identity, acquisition/provenance, classification and bounded mechanics refresh.",
+  "evidence": [
+    {
+      "source": "https://dbxv2.fandom.com/wiki/Characters",
+      "establishes": "Independent current reference used to corroborate the target's identity/provenance or character/skill relationship."
+    },
+    {
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "establishes": "Independent current reference used to corroborate the target's identity/provenance or character/skill relationship."
+    }
+  ],
+  "repository_policy": "Existing repository evidence remains authoritative for exact acquisition semantics where sources differ; conflicts and unresolved values are preserved rather than normalized by inference.",
+  "limits": [
+    "No unsupported drop probability promoted.",
+    "No hidden prerequisite promoted.",
+    "No Ultimate Finish gate changed without explicit evidence.",
+    "No exact frame/timing/damage/stacking values promoted unless directly established."
+  ],
+  "canonical_id": "skill-power-rush",
+  "last_verified": "2026-09-25"
+}
