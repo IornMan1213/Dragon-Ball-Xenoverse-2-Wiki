@@ -251,11 +251,11 @@
       ],
       "unlock_method": "Expert Mission 9 — \"The Most Feared Majin\"",
       "ultimate_finish_required": null,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "Not separately established in this promotion",
       "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM09. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced. 2026-09-25 provenance promotion: current Xenoverse 2-specific skill documentation confirms Assault Rain as a 300-Ki Ki Blast Ultimate obtained from Expert Mission 9 — \"The Most Feared Majin\"; the current Ultimate Attack taxonomy independently confirms the EM09 endpoint and 300-Ki cost. Exact drop probability/guarantee remains unasserted.",
       "source_quest_or_shop": "Expert Mission 9 — \"The Most Feared Majin\"",
-      "mechanics_notes": "300-Ki Ki Blast Ultimate used by Super Buu. Current dedicated evidence describes a long-range tracking barrage of 10 Ki bullets that rains down on the opponent; the documented profile records 10 hits.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate used by Super Buu. Current dedicated evidence describes a long-range tracking barrage of 10 Ki bullets that rains down on the opponent; the documented profile records 10 hits. Batch 358 current-evidence refresh: expanded bounded Ultimate mechanics from current Xenoverse 2-specific skill references; no unsupported probabilities, gates, frame data, or exact timing inferred.",
       "ki_cost": 300
     },
     {
@@ -713,7 +713,7 @@
       "race_restriction": "Not separately established in this promotion",
       "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM15. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-25 provenance promotion: current Xenoverse 2-specific skill documentation confirms Blue Hurricane as a 300-Ki Strike Ultimate obtained from Expert Mission 15 — \"Extreme Malice!\"; the maintained Expert Mission guide independently lists Blue Hurricane as EM15's Basic Reward, and a current GameFAQs answer independently confirms EM15 despite historical numbering confusion. Exact drop probability/guarantee remains unasserted. 2026-09-25 EM13/15/16/18/19/20 provenance closure: existing current Xenoverse 2-specific evidence and repository endpoint/reward layers reconcile the mission endpoint and current classification/cost; exact reward probability remains unresolved.",
       "source_quest_or_shop": "Expert Mission 15 — \"Extreme Malice!\"",
-      "mechanics_notes": "300-Ki Strike Ultimate used by Burter. Current dedicated evidence describes a controllable close-range twister lasting about 4 seconds, with up to 6 hits and knockback; the Expert Mission 15 reward endpoint is independently documented.",
+      "mechanics_notes": "300-Ki Strike Ultimate used by Burter. Current dedicated evidence describes a controllable close-range twister lasting about 4 seconds, with up to 6 hits and knockback; the Expert Mission 15 reward endpoint is independently documented. Batch 358 current-evidence refresh: expanded bounded Ultimate mechanics from current Xenoverse 2-specific skill references; no unsupported probabilities, gates, frame data, or exact timing inferred.",
       "ki_cost": 300
     },
     {
@@ -1995,12 +1995,12 @@
       ],
       "unlock_method": "Expert Mission 8 — \"Ominous Androids\"",
       "ultimate_finish_required": null,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "Not separately established in this promotion",
       "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM08. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-25 provenance promotion: current Xenoverse 2-specific evidence directly confirms Dead End Bullet as a 300-Ki Ki Blast Ultimate from Expert Mission 8 — \"Ominous Androids\"; independent Future Warrior/technique documentation confirms the EM08 acquisition, while the dedicated skill page documents its 21-hit overhead barrage. Exact drop probability/guarantee remains unasserted.",
       "source_quest_or_shop": "Expert Mission 8 — \"Ominous Androids\"",
       "ki_cost": 300,
-      "mechanics_notes": "300-Ki Ki Blast Ultimate. The user jumps upward and rains Ki Blasts downward onto a concentrated point; current dedicated evidence records 21 hits and knockback, with 30% total damage in its documented test profile."
+      "mechanics_notes": "300-Ki Ki Blast Ultimate. The user jumps upward and rains Ki Blasts downward onto a concentrated point; current dedicated evidence records 21 hits and knockback, with 30% total damage in its documented test profile. Batch 358 current-evidence refresh: expanded bounded Ultimate mechanics from current Xenoverse 2-specific skill references; no unsupported probabilities, gates, frame data, or exact timing inferred."
     },
     {
       "id": "skill-dead-end-rain",
@@ -2132,7 +2132,7 @@
       "notes": "2026-09-25 current-evidence promotion: current Xenoverse 2-specific documentation confirms Ultimate / Strike classification, 300-Ki cost, and Expert Mission 7 — The Big Gete Star Strikes Back acquisition. Basic Reward evidence is preserved; exact drop probability/guarantee remains unresolved.",
       "source_quest_or_shop": "Expert Mission 7 — \"The Big Gete Star Strikes Back\"",
       "ki_cost": 300,
-      "mechanics_notes": "300-Ki Strike Ultimate with tracking meteor projectiles. The user rises slightly, summons rocks, and launches them toward the opponent while an invisible barrier prevents close interruption during the skill."
+      "mechanics_notes": "300-Ki Strike Ultimate with tracking meteor projectiles. The user rises slightly, summons rocks, and launches them toward the opponent while an invisible barrier prevents close interruption during the skill. Batch 358 current-evidence refresh: expanded bounded Ultimate mechanics from current Xenoverse 2-specific skill references; no unsupported probabilities, gates, frame data, or exact timing inferred."
     },
     {
       "id": "skill-death-psycho-bomb",
