@@ -9075,9 +9075,9 @@
       "ultimate_finish_required": false,
       "skill_description": "Neo Wolf Fang Fist is a Super Strike skill associated with Yamcha.",
       "mechanics_notes": "A continuable rushdown Strike Super: the user spin-kicks into a clawing barrage and continues attacking while the input is held, ending by knocking the opponent away. Current documentation lists a variable 100–700 Ki cost and 9–33 hits; community testing independently observes increased damage as more Ki is held. The canonical fixed 100-Ki value has been removed rather than falsely retaining a single cost; the game mechanic is variable by held Ki. PQ86 remains the acquisition route. 2026-09-21 cost verification: dedicated Xenoverse 2 skill documentation lists 100–700 Ki depending on continued input/charge; the variable cost is preserved rather than normalized to a fixed value.",
-      "verification_status": "verified",
-      "research_status": "verified",
-      "last_verified": "2026-09-24",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Neo_Wolf_Fang_Fist",
@@ -9086,7 +9086,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 86,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-23 verification refresh: revalidated the existing acquisition endpoint, classification, mechanics, DLC/provenance, and documented reward-tier semantics against the maintained repository evidence corpus; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-23 verification refresh: revalidated the existing acquisition endpoint, classification, mechanics, DLC/provenance, and documented reward-tier semantics against the maintained repository evidence corpus; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 current-evidence promotion: current Xenoverse 2-specific documentation confirms the variable 100–700 Ki Strike Super and 9–33 hit continuable rush. Independent reward documentation corroborates PQ86; exact reward probability and hidden Ultimate-Finish gating remain unresolved.",
       "id": "skill-neo-wolf-fang-fist",
       "source_parallel_quests": [
         86
@@ -9480,11 +9480,11 @@
       "unlock_method": "Parallel Quest 120 — Basic Reward.",
       "source_quest_or_shop": "Parallel Quest 120 — \"Whis's Special Training\"",
       "ultimate_finish_required": false,
-      "skill_description": "Power Impact is a Super Strike skill associated with Jiren.",
-      "mechanics_notes": "100-Ki Ki Blast Super from PQ120 — Whis's Special Training. Fires a powerful straight Ki Blast that can stagger the opponent. The canonical classification is Ki Blast, correcting the stale Strike description in the legacy prose; PQ120 Basic Reward remains the acquisition endpoint.",
+      "skill_description": "Power Impact is a Ki Blast Super skill associated with Jiren.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ120 — Whis's Special Training. Current documentation records 5 base hits, up to 15 fully charged, and a temporary 1.5% Ultimate Attack power increase for 20 seconds after a fully charged hit. The maintained canonical acquisition route remains PQ120 Basic Reward; an independent source presents an Ultimate Finish/random-drop interpretation, which is preserved as a reward-tier conflict rather than promoted to a mandatory gate.",
       "verification_status": "verified",
-      "research_status": "verified",
-      "last_verified": "2026-09-24",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Power_Impact",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
@@ -9493,7 +9493,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 120,
       "acquisition_type": "quest_or_mission",
-      "notes": " 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 2.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.",
+      "notes": " 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 2.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.\n2026-09-25 current-evidence promotion: current Xenoverse 2-specific documentation corrects the legacy Strike wording to Ki Blast and confirms charge behavior, 5–15 hits, and the temporary 1.5% Ultimate Attack power increase. Reward-tier conflict remains bounded.",
       "id": "skill-power-impact",
       "source_parallel_quests": [
         120
@@ -9637,11 +9637,11 @@
       "unlock_method": "Parallel Quest 128 — Basic Reward.",
       "source_quest_or_shop": "Parallel Quest 128 — \"Legendary Super Saiyan Smackdown\"",
       "ultimate_finish_required": false,
-      "skill_description": "Powered Shell is a Super Strike skill associated with Broly (Full Power Super Saiyan).",
-      "mechanics_notes": "100-Ki Ki Blast Super from PQ128 — Legendary Super Saiyan Smackdown. Fires a large forward-moving energy projectile associated with Broly (Full Power Super Saiyan). The equipable Super is Ki Blast, not Strike; current PQ evidence places it in the Basic Reward route and no UF-only gate is asserted.",
+      "skill_description": "Powered Shell is a Super Ki Blast skill associated with Broly (Full Power Super Saiyan).",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ128 — Legendary Super Saiyan Smackdown. The user throws a single Ki Blast projectile in an outward arc; a backward input fires it behind the user. Current documentation records 5% damage and up to 300 Stamina to activate it while being damaged. The maintained PQ128 Basic Reward route remains the acquisition endpoint.",
       "verification_status": "verified",
-      "research_status": "verified",
-      "last_verified": "2026-09-24",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -9651,7 +9651,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 128,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.",
+      "notes": "2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.\n2026-09-25 current-evidence promotion: current Xenoverse 2-specific documentation confirms the Ki Blast classification, 100-Ki cost, single-hit projectile, backward firing input, and up to 300-Stamina damaged-state activation.",
       "id": "skill-powered-shell",
       "source_parallel_quests": [
         128
@@ -9758,11 +9758,11 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Skill Shop (Conton City)",
-      "last_verified": "2026-09-24",
-      "research_status": "verified",
-      "mechanics_notes": "100-Ki Strike Super from the Conton City Skill Shop. Taunts/guards against incoming attacks and can counter an opponent that strikes during its active window; dedicated references identify it as a counter-style Strike Super. The Skill Shop route is retained, while the reported Distorted Time Egg timing claim remains unpromoted to a deterministic prerequisite.",
+      "last_verified": "2026-09-25",
+      "research_status": "enriched",
+      "mechanics_notes": "100-Ki Strike Super from the Conton City Skill Shop. The user taunts during the active counter window; if struck, the move teleports the user behind the attacker and lands a kick. Current documentation identifies Pressure Sign as a universal counter.",
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the Conton City Skill Shop route. A GameFAQs community answer reports the skill appearing after completing the Distorted Time Egg sidequest, but the dedicated skill pages do not establish that prerequisite; the repository therefore preserves the Skill Shop source without promoting the community timing claim to a deterministic gate.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.",
+      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the Conton City Skill Shop route. A GameFAQs community answer reports the skill appearing after completing the Distorted Time Egg sidequest, but the dedicated skill pages do not establish that prerequisite; the repository therefore preserves the Skill Shop source without promoting the community timing claim to a deterministic gate.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.\n2026-09-25 current-evidence promotion: current Xenoverse 2-specific documentation confirms the 100-Ki Strike Super, Skill Shop endpoint, and universal counter behavior. The community-reported Distorted Time Egg timing claim remains unpromoted to a deterministic prerequisite.",
       "id": "skill-pressure-sign"
     },
     {
