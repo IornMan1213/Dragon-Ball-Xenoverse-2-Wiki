@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "scope": "PQ 1-186 canonical endpoint navigation",
   "source_of_truth": "docs/data/pq-reward-relationships.json",
-  "generated": "2026-09-24",
+  "generated": "2026-09-25",
   "canonical_pq_identity": {
     "record_count": 186,
     "unique_id_count": 186,
@@ -122,7 +122,7 @@
   },
   "live_recheck": {
     "canonical_pq_records": 186,
-    "canonical_skill_records": 469,
+    "canonical_skill_records": 470,
     "canonical_super_soul_records": 234,
     "canonical_equipment_accessory_records": 174,
     "canonical_character_names": 152,
@@ -167,9 +167,9 @@
   ],
   "status": "clean",
   "current_state_reconciliation_2026_09_24": {
-    "date": "2026-09-24",
+    "date": "2026-09-25",
     "source": "docs/data/pq-reward-relationships.json plus current canonical domain layers",
-    "canonical_skill_records": 469,
+    "canonical_skill_records": 470,
     "canonical_super_soul_records": 234,
     "canonical_equipment_accessory_records": 174,
     "canonical_character_names": 152,
