@@ -8993,18 +8993,19 @@
       "name": "Shocking Death Ball",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
-      "research_status": "acquisition_reconciled",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
       "acquisition_type": "expert_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Shocking_Death_Ball"
       ],
       "unlock_method": "Expert Mission 14 — \"Huge Blasts for Huge Apes!\"",
       "ultimate_finish_required": null,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "Not separately established in this promotion",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM14. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.",
-      "source_quest_or_shop": "Expert Mission 14 — \"Huge Blasts for Huge Apes!\""
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM14. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-25 current-evidence promotion: Expert Mission endpoint and current classification/resource cost reconciled with independent acquisition evidence; exact reward probability and first-clear guarantee remain unresolved.",
+      "source_quest_or_shop": "Expert Mission 14 — \"Huge Blasts for Huge Apes!\"",
+      "ki_cost": 300
     },
     {
       "id": "skill-shooting-strike",
@@ -9478,18 +9479,19 @@
       "name": "Spirit Sword",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "acquisition_reconciled",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
       "acquisition_type": "expert_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Spirit_Sword"
       ],
       "unlock_method": "Expert Mission 17 — \"In the Realm of the Gods: Goku\"",
       "ultimate_finish_required": null,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "Not separately established in this promotion",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM17. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted.",
-      "source_quest_or_shop": "Expert Mission 17 — \"In the Realm of the Gods: Goku\""
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM17. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-25 current-evidence promotion: Expert Mission endpoint and current classification/resource cost reconciled with independent acquisition evidence; exact reward probability and first-clear guarantee remain unresolved.",
+      "source_quest_or_shop": "Expert Mission 17 — \"In the Realm of the Gods: Goku\"",
+      "ki_cost": 400
     },
     {
       "id": "skill-spread-shot-retreat",
@@ -9699,7 +9701,7 @@
       "mechanics_notes": "200-Ki Ki Blast Super associated with Expert Mission 4. Existing research identifies the disc as fast-tracking and unblockable; exact drop probability and guaranteed-reward semantics remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Destructo-Disc",
         "https://dbxv2.fandom.com/wiki/Expert_Mission",
@@ -9707,7 +9709,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-23 canonical promotion: Expert Mission 4 identity and category are corroborated by the repository's acquisition index and current research batch. The record deliberately does not assert a guaranteed per-clear drop or numerical rate. 2026-09-23 provenance strengthening: independent Steam Expert Mission guide lists Expert Mission 04 — Invasion of the Evil Super Namek and Super Destructo-Disc under Basic Rewards. This corroborates the existing EM4 acquisition endpoint while the canonical record continues to avoid asserting a guaranteed per-clear drop or numerical drop rate.",
+      "notes": "2026-09-23 canonical promotion: Expert Mission 4 identity and category are corroborated by the repository's acquisition index and current research batch. The record deliberately does not assert a guaranteed per-clear drop or numerical rate. 2026-09-23 provenance strengthening: independent Steam Expert Mission guide lists Expert Mission 04 — Invasion of the Evil Super Namek and Super Destructo-Disc under Basic Rewards. This corroborates the existing EM4 acquisition endpoint while the canonical record continues to avoid asserting a guaranteed per-clear drop or numerical drop rate. 2026-09-25 current-evidence promotion: Expert Mission endpoint and current classification/resource cost reconciled with independent acquisition evidence; exact reward probability and first-clear guarantee remain unresolved.",
       "id": "skill-super-destructo-disc"
     },
     {
@@ -10228,7 +10230,7 @@
       "name": "Supernova",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -10239,12 +10241,13 @@
       ],
       "unlock_method": "Expert Mission 6 — \"The Depths of Despair\" Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 reward-tier refinement: maintained/independent Expert Mission evidence explicitly lists Supernova in the EM6 Basic Reward pool; no Ultimate Finish-only condition is inferred. 2026-09-22 provenance strengthening: maintained Steam Expert Mission guide independently lists Supernova as the EM06 (The Depths of Despair) Basic Reward. This corroborates the existing EM06 acquisition endpoint and reward tier; no drop probability or additional gate is inferred. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: synchronized with the canonical record after rechecking the maintained exact-name/research evidence; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved.",
+      "notes": "2026-09-20 reward-tier refinement: maintained/independent Expert Mission evidence explicitly lists Supernova in the EM6 Basic Reward pool; no Ultimate Finish-only condition is inferred. 2026-09-22 provenance strengthening: maintained Steam Expert Mission guide independently lists Supernova as the EM06 (The Depths of Despair) Basic Reward. This corroborates the existing EM06 acquisition endpoint and reward tier; no drop probability or additional gate is inferred. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: synchronized with the canonical record after rechecking the maintained exact-name/research evidence; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved. 2026-09-25 current-evidence promotion: Expert Mission endpoint and current classification/resource cost reconciled with independent acquisition evidence; exact reward probability and first-clear guarantee remain unresolved.",
       "mechanics_notes": "500 Ki Ki Blast Ultimate from Expert Mission 6; creates and throws a large Supernova energy sphere. 2026-09-21 cross-domain normalization: source_quest uses the canonical Expert Mission identifier EM-6, matching the repository's Expert Mission evidence record ID; source_quest_or_shop retains the human-readable mission title.",
       "source_quest": "EM-6",
-      "source_quest_or_shop": "Expert Mission 6"
+      "source_quest_or_shop": "Expert Mission 6",
+      "ki_cost": 500
     },
     {
       "id": "skill-supernova-cooler",
