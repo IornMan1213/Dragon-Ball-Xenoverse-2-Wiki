@@ -1817,3 +1817,17 @@
 - [x] The newest main commit is `1bf72b0cd61d9746f48cc0679ffe7340b67e0525`; its Repository quality, Clean internal artifacts, and Pages runs were queued when inspected. No CI success is claimed.
 - [x] Current repository work remains limited to evidence-backed consumer-count reconciliation; no validator weakening, speculative cleanup, canonical gameplay-data mutation, or historical snapshot deletion was performed.
 - [ ] **Exact next:** inspect the queued Actions runs for `1bf72b0cd61d9746f48cc0679ffe7340b67e0525`; if they again fail with zero steps/logs, preserve the runner-level CI boundary and continue the remaining current exact-pair reverse/navigation scan, prioritizing non-PQ equipment/accessory presentation consumers.
+
+
+### 2026-09-25 cycle continuation — CI boundary + Batch 312 evidence refresh
+- [x] Inspected the latest Actions state: the newest Repository quality and Clean internal artifacts runs for commit `5f0e8a07747b657a9214f950752f3205dc6a57d1` both failed with jobs exposing `steps=null` and no logs; Pages was waiting. This confirms the same runner-level boundary and does not expose a repository checker failure.
+- [x] Re-ran the remaining current non-PQ/Event/Raid/Festival/Chapter 4 presentation scan. Current consumer audits are clean: current character baseline **152**, skill index **469**, equipment/accessory records **174**, raid accessory identities **11**, 853 PQ relationship edges; no stale current navigation or orphan target was found in the checked surfaces.
+- [x] Verified current Equipment-All consumer audit: 174 records, 124 canonical PQ-equipment edges, 122 unique targets, 0 unresolved targets, 0 duplicate relationship pairs.
+- [x] Verified current character/preset consumer audit: 152 characters, 51 preset records, 26 verified preset loadout records, 162 verified loadout skill entries; no unresolved preset character IDs. Goku loadout promotion remains correctly blocked by numeric identity mapping evidence.
+- [x] Moved to the next deterministic research tranche, **skill-batch-312**. Refreshed all 10 records from direct current Xenoverse 2 skill pages.
+- [x] Corrected Batch 312 **Break Cannon** to **300+ Ki** and **Perfect Kamehameha** to **400 Ki / Cell (Perfect) Lesson 4** instead of the previous 300 Ki / Skill Shop projection.
+- [x] Confirmed **Requiem of Destruction → Super Pack 2** from its current page and refreshed direct mechanics/acquisition evidence for all remaining Batch 312 records, without inventing reward probabilities or Ultimate Finish requirements.
+- [x] Added and registered `docs/data/skill-batch-312-ki-blast-ultimate-evidence-refresh-2026-09-25.json` in `docs/data/pq-cross-domain-index.json`.
+- [x] Re-fetched and parsed Batch 312, the new evidence audit, and the cross-domain index successfully.
+- [ ] CI remains unverified; no successful Actions result is claimed.
+- [ ] **Exact next:** continue Batch 312/313 research only where direct current Xenoverse 2 evidence can resolve missing fields, starting with the next unrefreshed Batch 312/313 record; preserve source conflicts/nulls and do not reconstruct canonical `skills.json` without a supported complete-file write path.
