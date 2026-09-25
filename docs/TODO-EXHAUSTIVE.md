@@ -346,3 +346,13 @@
 - [x] Preserved reward conflicts and unresolved probabilities/gates; no unsupported numeric drop rates were added.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next superseding live census:** **Recoome Kick, Sauzer Blade, Savory Slicer, Scissors Paper Rock**, then continue the remaining seven verified/verified records in live order. Historical TODO entries are retained unchanged for provenance.
+
+
+### 2026-09-25 cycle completion — Skill Batch 343
+- [x] Live census: **469 canonical / 469 index / 11 verified|verified frontier**.
+- [x] Completed **Recoome Kick, Sauzer Blade, Savory Slicer, Scissors Paper Rock** with current-evidence audits and enriched research status.
+- [x] Corrected stale character-source identity fields for Sauzer Blade, Savory Slicer, and Scissors Paper Rock.
+- [x] Added Batch 343 and registered all audit/batch links in the cross-domain index.
+- [x] Canonical/index parity: **469/469**, duplicate IDs: **0**.
+- [ ] CI remains unverified.
+- [x] **Exact next:** **Seagull Combination, Shining Slash, Shooting Strike, Soaring Rush**, then continue the remaining three verified/verified records in live order.
