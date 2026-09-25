@@ -5,7 +5,7 @@
   "source_endpoint_layer": "docs/data/skill-shop-endpoints.json",
   "canonical_source": "docs/data/skills.json",
   "results": {
-    "canonical_skill_count": 469,
+    "canonical_skill_count": 470,
     "skill_shop_skills": 14,
     "tp_stp_medal_shop_skills": 20,
     "total_shop_linked_skills": 34,
