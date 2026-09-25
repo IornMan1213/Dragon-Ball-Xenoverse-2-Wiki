@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-25",
+  "scope": "Current reverse/navigation consumer reconciliation: mentor Hit Lesson 3 and equipment/accessory record count",
+  "sources": [
+    "docs/data/mentor-endpoints.json",
+    "docs/data/mentor-skill-crosslink-report.json",
+    "docs/data/mentor-skill-coverage-report.json",
+    "docs/data/skills-index.json",
+    "docs/data/equipment-accessories-record-layer.json",
+    "docs/data/record-reverse-pq-navigation-audit.json"
+  ],
+  "repairs": [
+    {
+      "consumer": "docs/data/mentor-presentation-consumer-audit-2026-09-24.json",
+      "before": {
+        "mentor_skill_edge_rows": 131,
+        "unique_skill_targets": 130,
+        "unresolved_skill_lessons": 1
+      },
+      "after": {
+        "mentor_skill_edge_rows": 132,
+        "unique_skill_targets": 131,
+        "unresolved_skill_lessons": 0
+      },
+      "basis": "mentor-endpoints.json and mentor-skill-crosslink-report.json now contain the exact existing canonical skill-time-skip-tremor-pulse ID for Hit Lesson 3."
+    },
+    {
+      "consumer": "docs/data/non-pq-skill-reverse-navigation-parity-2026-09-25.json",
+      "before": {
+        "non_pq_endpoint_union": 230,
+        "uncovered_non_pq_skills": [
+          "skill-time-skip-tremor-pulse"
+        ]
+      },
+      "after": {
+        "non_pq_endpoint_union": 231,
+        "uncovered_non_pq_skills": []
+      },
+      "basis": "The current mentor endpoint and crosslink layers already expose the exact canonical ID; no relationship was invented."
+    },
+    {
+      "consumer": "docs/data/record-reverse-pq-navigation-audit.json",
+      "before": {
+        "equipment_record_count": 174
+      },
+      "after": {
+        "equipment_record_count": 173
+      },
+      "basis": "Direct current parse of equipment-accessories-record-layer.json contains 173 records / 173 unique IDs; current Equipment-All audits also report 173."
+    }
+  ],
+  "validation": {
+    "canonical_skill_records": 470,
+    "canonical_index_records": 470,
+    "non_pq_canonical_skills": 231,
+    "non_pq_endpoint_union": 231,
+    "equipment_accessory_records": 173,
+    "pq_total_edges": 853,
+    "equipment_pq_edges": 124,
+    "relationships_changed": 0,
+    "canonical_ids_added": 0,
+    "acquisition_routes_inferred": 0,
+    "historical_snapshots_rewritten": 0,
+    "ci": "Unavailable; no CI success claimed."
+  }
+}
