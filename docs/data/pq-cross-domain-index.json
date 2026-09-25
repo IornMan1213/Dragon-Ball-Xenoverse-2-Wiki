@@ -265,7 +265,8 @@
     "skill_p1_provenance_enrichment_2026_09_24_recoome_pq61_batch": "docs/data/skill-p1-provenance-enrichment-2026-09-24-recoome-pq61-batch.json",
     "current_reverse_navigation_consumer_reconciliation_2026_09_25": "docs/data/current-reverse-navigation-consumer-reconciliation-2026-09-25.json",
     "pq_summary_consumer_contract_2026_09_25": "docs/data/pq-summary-consumer-contract-audit-2026-09-25.json",
-    "pq_skill_crosslink_validator_hardening_2026_09_25": "docs/data/pq-skill-crosslink-validator-hardening-2026-09-25.json"
+    "pq_skill_crosslink_validator_hardening_2026_09_25": "docs/data/pq-skill-crosslink-validator-hardening-2026-09-25.json",
+    "skill_thin_domain_gap_closure_2026_09_25": "docs/data/skill-thin-domain-gap-closure-audit-2026-09-25.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
