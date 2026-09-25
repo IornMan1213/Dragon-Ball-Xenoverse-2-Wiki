@@ -8013,3 +8013,9 @@
 - [x] Corrected `mentor-skill-coverage-audit-2026-09-24.json` `typed_skill_rewards` from 131 to 132.
 - [x] Preserved 131 resolved mentor→skill edges, 130 unique canonical targets, 1 unresolved Hit lesson, and 0 broken endpoints.
 - [ ] Continue the current-facing non-PQ consumer scan for semantic count drift and one-way navigation.
+
+
+### 2026-09-25 — mentor endpoint synchronization count repair
+- [x] Corrected current typed mentor skill-reward count from 131 to 132 in `mentor-endpoint-consumer-synchronization-2026-09-24.json`.
+- [x] Kept resolved endpoint counts at 131 edges / 130 unique targets with 1 unresolved lesson and 0 broken endpoints.
+- [ ] Continue semantic count-drift scan across current mentor/non-PQ consumers.
