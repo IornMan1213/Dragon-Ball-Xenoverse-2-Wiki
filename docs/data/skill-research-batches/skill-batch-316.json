@@ -80,12 +80,15 @@
       "character_source": "Vados; Whis — Customize Partner",
       "source_quest_or_shop": "Parallel Quest 106 - A Destructive Showdown",
       "ki_cost": 300,
-      "mechanics_notes": "Creates a large Ki sphere around the opponent, paralyzing them before the sphere detonates; current evidence describes 3 hits and about 40% total damage. The skill is associated with Super Pack 2 and can be added to Whis's Customize Partner skillset.",
+      "mechanics_notes": "Current Xenoverse 2-specific evidence identifies Requiem of Destruction as a 300-Ki Ki Blast Ultimate from PQ106, with a large Ki sphere that traps/paralyzes the opponent and detonates for 3 hits. Dedicated skill documentation reports about 40% total damage; that numeric value remains source/version-sensitive and is not promoted as universal canonical damage. Current DLC documentation confirms Requiem of Destruction as part of Super Pack 2.",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "sources": [
         "https://dbxv2.fandom.com/wiki/Requiem_of_Destruction",
-        "https://dragonball.fandom.com/wiki/Requiem_of_Destruction"
+        "https://dragonball.fandom.com/wiki/Requiem_of_Destruction",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76173007",
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-update-and-dlc-pack-2"
       ],
       "verification_status": "partially_verified",
       "last_verified": "2026-09-25"
