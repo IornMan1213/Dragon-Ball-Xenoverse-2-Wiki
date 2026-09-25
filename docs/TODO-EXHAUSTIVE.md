@@ -8007,3 +8007,9 @@
 - [x] Corrected current-facing mentor counts in `skill-acquisition-coverage-report.json` from 132/131 to 131/130.
 - [x] Validated against both current acquisition projection audits; status remains clean/pass.
 - [ ] Continue the non-PQ consumer scan for remaining stale counts, orphan endpoint IDs, and one-way navigation.
+
+
+### 2026-09-25 — mentor typed-reward consumer reconciliation
+- [x] Corrected `mentor-skill-coverage-audit-2026-09-24.json` `typed_skill_rewards` from 131 to 132.
+- [x] Preserved 131 resolved mentor→skill edges, 130 unique canonical targets, 1 unresolved Hit lesson, and 0 broken endpoints.
+- [ ] Continue the current-facing non-PQ consumer scan for semantic count drift and one-way navigation.
