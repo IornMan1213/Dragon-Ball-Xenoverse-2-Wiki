@@ -1492,3 +1492,13 @@
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the next remaining thin-skill record after Howl, prioritizing **Boiling Ball / Tricky Strike** and seeking direct Xenoverse 2-specific evidence for any still-unresolved fields.
 
+### 2026-09-24 continuation — Boiling Ball + Tricky Strike evidence refresh
+- [x] Continued the documented thin-skill queue with **Boiling Ball** and **Tricky Strike**.
+- [x] Refreshed both dedicated audits using current indexed Xenoverse 2 evidence: Character ID List, maintained CaC-unobtainable list, and Demigra reference material.
+- [x] Reconfirmed **Boiling Ball ID 541 / BBL** and **Tricky Strike ID 542 / TRK**, both CaC-unavailable Final Form Demigra skills.
+- [x] Reconfirmed repository research taxonomy: **Boiling Ball = Ki Blast**, **Tricky Strike = Strike**.
+- [x] Added the refreshed evidence to `docs/data/skill-research-gaps.json` and registered both audits in `docs/data/pq-cross-domain-index.json`.
+- [x] No numeric Ki cost was exposed by the checked sources; both costs remain unresolved and no unsupported canonical promotion was made.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the remaining unresolved thin-skill queue, prioritizing **Acid**/other records only where a new direct Xenoverse 2 source can resolve a currently missing field; otherwise advance to the next deterministic partially verified PQ/skill enrichment target rather than repeating evidence with no new field coverage.
+
