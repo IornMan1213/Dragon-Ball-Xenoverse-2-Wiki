@@ -8569,3 +8569,13 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] Exact next: continue the next genuinely unresolved current skill provenance/acquisition target or deterministic current-facing consumer mismatch; do not duplicate the already-completed EM13–15 evidence refresh.
 
+
+### 2026-09-25 completion — current skill-catalog audit scalar parity correction
+- [x] Detected stale top-level skill-catalog metadata: `455 / 2026-09-23` versus the live `470 / 470` canonical/index baseline.
+- [x] Added `docs/data/skill-catalog-current-scalar-correction-2026-09-25.json` documenting the mismatch.
+- [x] Corrected only `current_canonical_count` to **470** and `current_canonical_last_verified` to **2026-09-25**.
+- [x] Preserved the nested **454** historical verification-state snapshot and all older audit history.
+- [x] No canonical skill identity, relationship, acquisition route, or historical evidence was changed.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the remaining current-facing consumer census or the next source-backed partially verified skill provenance target; do not repeat completed Batch 328–336 work.
+
