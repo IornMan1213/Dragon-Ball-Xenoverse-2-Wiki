@@ -8,7 +8,7 @@
       "name": "Audacious Laugh",
       "class": "Super",
       "subcategory": "Other",
-      "ki_cost": null,
+      "ki_cost": 100,
       "usable_by_cac": true,
       "character_source": "Zarbon; Future Warrior",
       "dlc_requirement": null,
@@ -22,5 +22,5 @@
       ]
     }
   ],
-  "notes": "Dedicated/current documentation identifies Audacious Laugh as a Zarbon Super Skill and a Future Warrior technique learned through Zarbon's initiation test. The repository records the class as Super / Other; the exact numeric Ki cost was not established by the reviewed sources, so it remains null. The negative Ultimate Finish value is supported by the mentor guide listing Audacious Laugh as a Basic Reward of the Initiation Test rather than an Ultimate Finish reward."
+  "notes": "Dedicated/current documentation identifies Audacious Laugh as a Zarbon Super Skill and a Future Warrior technique learned through Zarbon's initiation test. The repository records the class as Super / Other; the exact numeric Ki cost was not established by the reviewed sources, so it remains null. The negative Ultimate Finish value is supported by the mentor guide listing Audacious Laugh as a Basic Reward of the Initiation Test rather than an Ultimate Finish reward. 2026-09-24 verification: current Xenoverse 2-specific documentation explicitly lists Audacious Laugh as an Other Super requiring 100 Ki, with a non-damaging slow effect; Dragon Ball Wiki independently confirms Future Warrior acquisition through Zarbon's initiation test. The existing CaC and acquisition fields are therefore retained."
 }
