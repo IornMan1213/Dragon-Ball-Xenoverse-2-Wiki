@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 340,
+  "created": "2026-09-25",
+  "type": "evidence_reconciliation",
+  "scope": "Current Xenoverse 2 Expert Mission provenance/mechanics promotion for Assault Rain and Blue Hurricane",
+  "records": [
+    {
+      "id": "skill-assault-rain",
+      "name": "Assault Rain",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "acquisition_endpoint": "Expert Mission 9 — The Most Feared Majin",
+      "ki_cost": 300,
+      "mechanics": "Long-range tracking barrage of 10 Ki bullets; current dedicated evidence records 10 hits.",
+      "promoted_fields": [
+        "verification_status",
+        "research_status",
+        "source_quest_or_shop",
+        "ki_cost",
+        "mechanics_notes"
+      ],
+      "limits": [
+        "No numeric drop probability promoted",
+        "No per-clear guarantee inferred"
+      ]
+    },
+    {
+      "id": "skill-blue-hurricane",
+      "name": "Blue Hurricane",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "acquisition_endpoint": "Expert Mission 15 — Extreme Malice!",
+      "ki_cost": 300,
+      "mechanics": "Controllable close-range twister; current dedicated evidence describes about 4 seconds of control, up to 6 hits, and knockback.",
+      "promoted_fields": [
+        "verification_status",
+        "research_status",
+        "source_quest_or_shop",
+        "ki_cost",
+        "mechanics_notes"
+      ],
+      "limits": [
+        "No numeric drop probability promoted",
+        "No per-clear guarantee inferred"
+      ]
+    }
+  ],
+  "validation": {
+    "records": 2,
+    "canonical_promotions": true,
+    "numeric_drop_rates_promoted": 0,
+    "unsupported_gates_added": 0,
+    "relationship_changes": 0
+  },
+  "evidence_boundary": "Batch 340 promotes two previously partially verified Expert Mission skills using direct current Xenoverse 2-specific evidence without inventing drop rates or guarantee conditions."
+}
