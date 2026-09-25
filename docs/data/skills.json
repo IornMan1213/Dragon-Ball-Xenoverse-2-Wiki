@@ -10940,7 +10940,7 @@
       "class": "Super",
       "subcategory": "Strike",
       "usable_by_cac": true,
-      "character_source": "Videl",
+      "character_source": "Videl (DB Super)",
       "dlc_requirement": "Future Saga Chapter 1",
       "ki_cost": 100,
       "stamina_cost": null,
@@ -10948,11 +10948,11 @@
       "unlock_method": "Parallel Quest 167 — \"Fighting for Family\" reward; current maintained datamined record reports a 40% normal-clear slot",
       "source_quest_or_shop": "Parallel Quest 167 — \"Fighting for Family\"",
       "ultimate_finish_required": false,
-      "skill_description": "Seagull Combination is a Super Strike skill associated with Videl.",
-      "mechanics_notes": "Future Saga Chapter 1 Videl (DB Super) Strike Super. Current evidence identifies Parallel Quest 167, 'Fighting for Family', as the acquisition source; the maintained reward data records a random/normal-clear route rather than an Ultimate Finish-only gate.",
-      "verification_status": "verified",
-      "research_status": "verified",
-      "last_verified": "2026-09-24",
+      "skill_description": "Seagull Combination is a Strike Super skill associated with Videl (DB Super).",
+      "mechanics_notes": "Flurry of punches followed by a powerful launching kick; additional Ki can increase the number of punches, and an unblockable spinning-kick option can be added.",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Seagull_Combination",
@@ -10962,7 +10962,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 167,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ167's current maintained reward data lists Seagull Combination as a 40% normal-clear reward; it is not recorded as Ultimate Finish-gated. 2026-09-20 provenance refinement: PQ167 is the documented source. The maintained datamined record reports a 40% normal-clear slot, while the maintained Steam all-PQ guide lists Seagull Combination in the Basic Reward section; both are preserved as source context rather than collapsing the discrepancy. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-20 audit: PQ167's current maintained reward data lists Seagull Combination as a 40% normal-clear reward; it is not recorded as Ultimate Finish-gated. 2026-09-20 provenance refinement: PQ167 is the documented source. The maintained datamined record reports a 40% normal-clear slot, while the maintained Steam all-PQ guide lists Seagull Combination in the Basic Reward section; both are preserved as source context rather than collapsing the discrepancy. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.\n2026-09-25 current-evidence promotion: Flurry of punches followed by a powerful launching kick; additional Ki can increase the number of punches, and an unblockable spinning-kick option can be added. Evidence limits preserved: Official Dragon Ball material establishes the punch-rush, extra-Ki extension, and unblockable spinning-kick behavior; exact hit count/damage and reward probability remain unresolved. Maintained repository reward sources disagree on presentation of the normal-clear slot; no Ultimate-Finish-only gate is inferred.",
       "id": "skill-seagull-combination",
       "source_parallel_quests": [
         167
@@ -11114,7 +11114,7 @@
       "class": "Super",
       "subcategory": "Strike",
       "race_restriction": "Earthling or Saiyan",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
         "https://dragonball.fandom.com/wiki/High_Strike",
@@ -11130,17 +11130,19 @@
       "ultimate_finish_required": false,
       "unlock_method": "Parallel Quest 38 — \"Power Teams\" Basic Reward",
       "source_quest": 38,
-      "last_verified": "2026-09-24",
-      "research_status": "verified",
+      "last_verified": "2026-09-25",
+      "research_status": "enriched",
       "source_quest_or_shop": "Parallel Quest 38 — \"Power Teams\"",
-      "mechanics_notes": "100 Ki Strike Super from PQ38; sword-based attack with documented Human/Saiyan CaC scope and Basic Reward route.",
+      "mechanics_notes": "Sword-based Strike Super; charging raises the sword and, when released, teleports to the locked-on target for the slash. Current independent documentation records about 10% damage.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": " 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-23 research refresh: current skill evidence corroborates the 100-Ki Strike Super classification, PQ38 endpoint, sword/teleport behavior, and Earthling/Saiyan CaC restriction.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
+      "notes": " 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-23 research refresh: current skill evidence corroborates the 100-Ki Strike Super classification, PQ38 endpoint, sword/teleport behavior, and Earthling/Saiyan CaC restriction.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.\n2026-09-25 current-evidence promotion: Sword-based Strike Super; charging raises the sword and, when released, teleports to the locked-on target for the slash. Current independent documentation records about 10% damage. Evidence limits preserved: Exact frame data and reward probability remain unresolved. Current evidence supports Earthling/Saiyan CaC scope; no narrower form/gender gate is inferred.",
       "id": "skill-shining-slash",
       "source_parallel_quests": [
         38
-      ]
+      ],
+      "character_source": "Future Trunks",
+      "skill_description": "Shining Slash is a Strike Super skill associated with Future Trunks."
     },
     {
       "name": "Shocking Death Ball",
@@ -11176,11 +11178,11 @@
       "unlock_method": "Parallel Quest 156 — \"Hunting Down Dr. Hedo\" Ultimate Finish bonus reward (50% bonus slot)",
       "source_quest_or_shop": "Parallel Quest 156 — \"Hunting Down Dr. Hedo\"",
       "ultimate_finish_required": true,
-      "skill_description": "Shooting Strike is a Super Strike skill used by Gamma 1.",
-      "mechanics_notes": "100 Ki Ki Blast Super from PQ156; current maintained reward data places it in the 50% Ultimate Finish bonus slot.",
-      "verification_status": "verified",
-      "research_status": "verified",
-      "last_verified": "2026-09-24",
+      "skill_description": "Shooting Strike is a Ki Blast Super skill associated with Gamma 1.",
+      "mechanics_notes": "Ranged Ki Blast Super: Gamma 1 fires an energy bullet from his ray gun and follows a successful hit with a flying kick.",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Shooting_Strike",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -11189,7 +11191,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 156,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ156's current maintained reward data lists Shooting Strike in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate. 2026-09-21 Hero of Justice Pack 1 provenance audit: official Bandai Namco/Nintendo documentation identifies 4 new Parallel Quests and 7 additional moves; maintained PQ evidence identifies PQ155–158 and lists all seven canonical moves. The live repository maps each of the seven moves to its corresponding PQ and Hero of Justice Pack 1 provenance. 2026-09-23 research refresh: current skill evidence corroborates the 100-Ki Ki Blast Super classification and PQ156 endpoint; the maintained 50% Ultimate Finish bonus-slot condition remains the repository's documented route.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-20 audit: PQ156's current maintained reward data lists Shooting Strike in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate. 2026-09-21 Hero of Justice Pack 1 provenance audit: official Bandai Namco/Nintendo documentation identifies 4 new Parallel Quests and 7 additional moves; maintained PQ evidence identifies PQ155–158 and lists all seven canonical moves. The live repository maps each of the seven moves to its corresponding PQ and Hero of Justice Pack 1 provenance. 2026-09-23 research refresh: current skill evidence corroborates the 100-Ki Ki Blast Super classification and PQ156 endpoint; the maintained 50% Ultimate Finish bonus-slot condition remains the repository's documented route.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.\n2026-09-25 current-evidence promotion: Ranged Ki Blast Super: Gamma 1 fires an energy bullet from his ray gun and follows a successful hit with a flying kick. Evidence limits preserved: Maintained reward data records a 50% Ultimate-Finish bonus slot; exact underlying drop mechanics remain unresolved. Official material establishes the attack sequence but does not by itself establish CaC reward probability.",
       "id": "skill-shooting-strike",
       "source_parallel_quests": [
         156
@@ -11328,11 +11330,11 @@
       "unlock_method": "Parallel Quest 177 — \"Warped Sense of Justice\" Ultimate Finish reward (50%)",
       "source_quest_or_shop": "Parallel Quest 177 — \"Warped Sense of Justice\"",
       "ultimate_finish_required": true,
-      "skill_description": "Soaring Rush is a Super Strike skill associated with Goku (Mini).",
-      "mechanics_notes": "100 Ki Strike Super from PQ177; maintained reward data documents a 50% Ultimate Finish gate.",
-      "verification_status": "verified",
-      "research_status": "verified",
-      "last_verified": "2026-09-24",
+      "skill_description": "Soaring Rush is a Strike Super skill associated with Goku (Mini).",
+      "mechanics_notes": "Power Pole rush: the user strikes and kicks the opponent away, then chases them; holding the fly input improves the forward dash and permits an immediate follow-up.",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Soaring_Rush",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -11341,7 +11343,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 177,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ177's current maintained reward data lists Soaring Rush at a 50% Ultimate Finish gate; the generic PQ reward field is refined without inventing an additional prerequisite. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred. 2026-09-23 research refresh: current skill evidence corroborates the 100-Ki Strike Super classification and PQ177 endpoint; the maintained 50% Ultimate Finish reward condition remains unchanged.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-20 audit: PQ177's current maintained reward data lists Soaring Rush at a 50% Ultimate Finish gate; the generic PQ reward field is refined without inventing an additional prerequisite. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred. 2026-09-23 research refresh: current skill evidence corroborates the 100-Ki Strike Super classification and PQ177 endpoint; the maintained 50% Ultimate Finish reward condition remains unchanged.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.\n2026-09-25 current-evidence promotion: Power Pole rush: the user strikes and kicks the opponent away, then chases them; holding the fly input improves the forward dash and permits an immediate follow-up. Evidence limits preserved: Maintained reward data records a 50% Ultimate-Finish gate; exact probability implementation remains unresolved. No narrower CaC race/gender/form restriction is inferred.",
       "id": "skill-soaring-rush",
       "source_parallel_quests": [
         177
