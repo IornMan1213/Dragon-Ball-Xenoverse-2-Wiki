@@ -8045,3 +8045,13 @@
 - [x] Added/registered `docs/data/skill-batch-312-ki-blast-ultimate-evidence-refresh-2026-09-25.json`; changed JSON re-parsed successfully.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** continue the next direct-evidence Batch 312/313 record; preserve unresolved fields and source conflicts.
+
+
+### 2026-09-25 — Batch 313 evidence refresh completion
+- [x] Refreshed all four Batch 313 Ki Blast Ultimate records from direct current Xenoverse 2 pages.
+- [x] Added and registered docs/data/skill-batch-313-evidence-refresh-2026-09-25.json.
+- [x] Confirmed 300-Ki costs and acquisition endpoints; added direct mechanics for Super Kamehameha, Saiyan Spirit, Explosive Assault, and Special Beam Cannon.
+- [x] Preserved unresolved drop/Ultimate Finish/shop/version fields; no speculative canonical promotion.
+- [x] Changed JSON re-parsed successfully.
+- [ ] CI success remains unverified.
+- [ ] Exact next: continue the next existing partially verified tranche after Batch 313 with direct evidence.
