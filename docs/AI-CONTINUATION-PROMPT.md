@@ -2403,3 +2403,15 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] **Exact next:** continue the remaining early Expert Mission tranche, prioritizing **Dead End Rain (EM13), Shocking Death Ball (EM14), and Blue Hurricane (EM15)**, then reconcile any remaining EM17 conflict only if stronger evidence exists.
 
+
+### 2026-09-25 cycle completion — Expert Mission 17 Spirit Sword provenance conflict resolution (Batch 336)
+- [x] Confirmed no existing skill-batch-336.json artifact before editing.
+- [x] Added docs/data/skill-research-batches/skill-batch-336.json for Spirit Sword (EM17).
+- [x] Resolved the EM17 reward-name research boundary using current Xenoverse 2 Spirit Sword/Expert Mission references, Dragon Ball reference material, and contemporaneous Steam evidence identifying Spirit Sword as the EM17 reward.
+- [x] Preserved the older all-Expert-Missions guide's Spirit Bomb EM17 label as historical conflicting evidence rather than deleting or rewriting the source history.
+- [x] Promoted only bounded research fields: EM17 endpoint, mission title, Basic Reward placement, existing 400 Ki skill cost, and reward identity; no canonical skill identity or relationship edge changed.
+- [x] Registered Batch 336 in docs/data/pq-cross-domain-index.json and advanced docs/data/skill-catalog-audit.json to latest_research_batch 336.
+- [x] Preserved the 470/470 canonical/index boundary and did not reconstruct skills.json / skills-index.json.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] Exact next: inspect the current 470-record skill/research consumer set for another deterministic stale scalar or unresolved source-backed provenance target; if the EM tranche is already covered, prioritize the next partially verified skill acquisition/provenance record rather than duplicating the completed EM13–15 research.
+
