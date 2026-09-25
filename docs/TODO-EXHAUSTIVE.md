@@ -8445,3 +8445,11 @@
 - [x] Canonical data unchanged.
 - [ ] CI/runtime execution remains unavailable.
 - [ ] **Exact next:** continue auditing remaining PQ-facing validators and summary consumers for stale endpoint/scalar assumptions.
+
+
+### 2026-09-25 continuation cycle — Super Soul/equipment reverse PQ validator hardening
+- [x] Hardened `scripts/validate_record_reverse_pq_navigation.py` with explicit 145/124 domain-edge, PQ 1–186, and canonical-row-shape invariants.
+- [x] Added/registered the dated audit artifact.
+- [x] Canonical relationships and identities unchanged.
+- [ ] CI/runtime execution remains unavailable.
+- [ ] **Exact next:** continue auditing remaining PQ-facing summary/reference consumers for incomplete six-domain coverage or stale current scalars.
