@@ -275,3 +275,9 @@
 - [x] Preserved unresolved Expert Mission reward probability/guarantee semantics.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** continue with **Shocking Death Ball** and **Spirit Sword**, then the next partially verified Expert Mission skill.
+
+
+### 2026-09-25 correction — Expert Mission acquisition projection parity
+- [x] Synchronized `docs/data/skill-acquisition-index.json` for **Death Meteor**, **Death Wave**, **Hellzone Grenade**, and **Murder Grenade** from `partially_verified` to `verified_current_scope` after the current-evidence promotion.
+- [x] This closes the producer/consumer status mismatch discovered during post-write validation; no skill identity or endpoint relationship changed.
+- [x] **Exact next:** continue with **Shocking Death Ball** and **Spirit Sword**, then re-census the remaining partially verified acquisition records.
