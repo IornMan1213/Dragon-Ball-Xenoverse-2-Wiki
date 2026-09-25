@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-24",
+  "audit_id": "android-13-hat-residual-identity-evidence-2026-09-24",
+  "scope": "PQ accessory residual identity — Android 13's Hat (pqacc-022 / PQ105)",
+  "status": "research_boundary_complete",
+  "findings": [
+    {
+      "source": "Xenoverse 2 Character ID List",
+      "evidence": "Accessory ID 918 is explicitly named Android 13's Hat.",
+      "supports": [
+        "exact inventory identity name",
+        "numeric source ID"
+      ]
+    },
+    {
+      "source": "Dragon Ball Wiki Android 13 page",
+      "evidence": "Xenoverse 2 appearance section identifies Android 13's Hat as an accessory obtainable by the Future Warrior and notes that it includes a wig/hair component.",
+      "supports": [
+        "accessory identity",
+        "Future Warrior availability",
+        "component description"
+      ]
+    },
+    {
+      "source": "Xenoverse 2 equipment guide",
+      "evidence": "Android 13's Hat is listed as a TP Medal Shop item for 7 TP.",
+      "supports": [
+        "acquisition family",
+        "reported price"
+      ]
+    },
+    {
+      "source": "GameFAQs Xenoverse 2 reports",
+      "evidence": "Contemporary player reports identify the item as being in the TP Medal Shop; a later Q&A records an observed 2018 shop date.",
+      "supports": [
+        "historical shop provenance"
+      ],
+      "limits": [
+        "community reports are secondary and do not establish current rotation"
+      ]
+    }
+  ],
+  "resolution": {
+    "repository_canonical_identity": "not found",
+    "research_status": "unmatched",
+    "pq_relationship": "PQ105 research association remains separate from the TP Medal Shop route",
+    "action": "Do not create a new acc-### ID or equate the external numeric accessory ID 918 with a repository canonical ID. Preserve Android 13's Hat as an unresolved residual identity until the repository's canonical equipment layer can safely map the exact item."
+  },
+  "limits": [
+    "No current shop rotation date is inferred.",
+    "No reward probability or PQ105 guarantee is inferred from the accessory research association.",
+    "The external numeric ID 918 is source evidence only, not a repository identifier."
+  ]
+}
