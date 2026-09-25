@@ -41,7 +41,7 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-25",
-  "latest_research_batch": 331,
+  "latest_research_batch": 332,
   "canonical_catalog_generated": "2026-09-14",
   "canonical_sync_pending": false,
   "current_research_focus": "Skill DLC/PQ provenance and character-only completeness",
@@ -135,7 +135,8 @@
     "2026-09-25: Added skill-batch-328 evidence refresh for Boiling Ball and Tricky Strike. Current Xenoverse 2-specific identity/index, Legend Patrol, and independent CaC-unobtainable evidence reinforce Boiling Ball as a Super/Ki Blast cast-only skill and Tricky Strike as a Super/Strike cast-only skill used by Final Form Demon God Demigra. Numeric Ki costs remain unresolved; no Future Warrior acquisition route or canonical promotion was inferred.",
     "2026-09-25: Batch 329 refreshed Acid, Howl, Boiling Burg, and Baked Sphere. Classification/cast-boundary evidence strengthened; unresolved numeric Ki costs remain unpromoted. Baked Sphere is explicitly preserved as an Ultimate with Future Warrior/Supervillain use, not a purely cast-only skill.",
     "2026-09-25: Batch 330 refreshed Energy Boil Evasive/cast-only provenance. Repository attack subcategory and numeric Ki cost remain unresolved.",
-    "2026-09-25: Added Skill Research Batch 331 for The Power to Overcome. Current Xenoverse 2-specific evidence strengthens Future Saga Chapter 4 provenance, final-story unlock endpoint, universal CaC Awoken scope, and two-stage resource behavior. Exact HP/Ki rates, cooldown, damage, frames, and hitboxes remain unresolved; no canonical promotion or relationship change was made."
+    "2026-09-25: Added Skill Research Batch 331 for The Power to Overcome. Current Xenoverse 2-specific evidence strengthens Future Saga Chapter 4 provenance, final-story unlock endpoint, universal CaC Awoken scope, and two-stage resource behavior. Exact HP/Ki rates, cooldown, damage, frames, and hitboxes remain unresolved; no canonical promotion or relationship change was made.",
+    "2026-09-25: Added Skill Research Batch 332 for Super Spirit Bomb (EM16), Focus Flash (EM18), Tail Slicer (EM19), and Data Input (EM20). Independent Expert Mission evidence supports the listed Basic Reward endpoints; current skill references additionally support selected Ki costs/duration/mechanics. EM17 Spirit Sword remains a separate source-conflict boundary and was not merged or overwritten."
   ],
   "partially_verified_count": 0,
   "verified_count": 205,
