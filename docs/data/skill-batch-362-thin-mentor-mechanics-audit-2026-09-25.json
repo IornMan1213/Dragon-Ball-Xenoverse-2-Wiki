@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-batch-362-thin-mentor-mechanics-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "result": "current_evidence_promotion_and_classification_correction",
+  "records": [
+    {
+      "name": "Blaster Meteor",
+      "supported_fields": {
+        "class": "Evasive",
+        "subcategory": "Ki Blast",
+        "ki_cost": 0,
+        "stamina_cost": 300,
+        "mechanics": "300-Stamina Ki Blast Evasive. The user takes a stance and creates a sphere of Ki Blasts around themselves; enemies in range are hit 8 times and launched upward. Current skill evidence reports about 5% total damage for the sequence; this value is retained as source-reported rather than universal.",
+        "source_quest_or_shop": "Broly mentor training"
+      },
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Blaster_Meteor",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "limits": [
+        "Numeric damage values are source-reported and not asserted as patch-independent.",
+        "No hidden gates, probabilities, frame data, or exact timing inferred."
+      ]
+    },
+    {
+      "name": "Blaster Shell",
+      "supported_fields": {
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "ki_cost": 100,
+        "stamina_cost": null,
+        "mechanics": "100-Ki Ki Blast Super. The user slowly throws five Ki Blasts in alternating hands; repeated input speeds up the throws. The full five-hit sequence produces knockback and current skill evidence reports about 15% total damage. No exact input timing is inferred.",
+        "source_quest_or_shop": "Broly mentor training"
+      },
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Blaster_Shell",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "limits": [
+        "Numeric damage values are source-reported and not asserted as patch-independent.",
+        "No hidden gates, probabilities, frame data, or exact timing inferred."
+      ]
+    },
+    {
+      "name": "Bloody Counter",
+      "supported_fields": {
+        "class": "Evasive",
+        "subcategory": "Strike",
+        "ki_cost": 0,
+        "stamina_cost": 300,
+        "mechanics": "300-Stamina Strike Evasive. The user launches a rapid kick rush that hits 10 times and launches the opponent on the final hit. Holding/pressing the input can extend the rush by consuming Ki; current skill evidence reports about 10% damage for the base sequence. The move is explicitly categorized as a Strike Evasive, correcting the prior Super classification.",
+        "source_quest_or_shop": "Zarbon mentor training — Lesson 2"
+      },
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Bloody_Counter",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://trucos.com/en/video-game/dragon-ball-xenoverse-2-guide-for-ps4-pc-xbox-one/"
+      ],
+      "limits": [
+        "Numeric damage values are source-reported and not asserted as patch-independent.",
+        "No hidden gates, probabilities, frame data, or exact timing inferred."
+      ]
+    },
+    {
+      "name": "Body Change",
+      "supported_fields": {
+        "class": "Ultimate",
+        "subcategory": "Other",
+        "ki_cost": 300,
+        "stamina_cost": null,
+        "mechanics": "300-Ki Other Ultimate. The user fires a purple beam that functions as a grab; on a successful hit, the user and target swap bodies, including health, Ki, stamina, Super Soul, and skills, while retaining their original voices. Active transformations are released for both participants during the swap. Current Xenoverse 2-specific documentation states the skill is unavailable in PvE content, while it can be used in team battles; the target receives Body Change in the copied skill set but cannot activate it.",
+        "source_quest_or_shop": "Captain Ginyu mentor training — Lesson 3"
+      },
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Body_Change",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "limits": [
+        "Numeric damage values are source-reported and not asserted as patch-independent.",
+        "No hidden gates, probabilities, frame data, or exact timing inferred."
+      ]
+    }
+  ],
+  "validation": {
+    "canonical_count": 469,
+    "index_count": 469,
+    "target_count": 4,
+    "ids_unchanged": true
+  }
+}
