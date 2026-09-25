@@ -532,3 +532,12 @@
 - [x] Preserved bounded evidence: source-reported damage values are not universal balance claims; no hidden gates, probabilities, frame data, or exact timing were invented.
 - [ ] CI remains unverified.
 - [x] **Exact next:** fresh global thin-record census and continue the shortest remaining mechanics/source footprints.
+
+
+### 2026-09-25 completion — Skill Batch 362 thin mentor mechanics + Bloody Counter correction
+- [x] Completed **Blaster Meteor, Blaster Shell, Bloody Counter, Body Change**.
+- [x] Corrected Bloody Counter from Super/0-Ki to **Strike Evasive/300 Stamina** based on current skill and Evasive references.
+- [x] Added/registered Batch 362 audit and research-batch files and synchronized canonical/index records.
+- [x] No hidden gates, probabilities, frame data, or unsupported numeric mechanics promoted.
+- [ ] CI remains unverified.
+- [x] **Exact next:** fresh global thin-record census and continue the shortest remaining mechanics/source footprints.
