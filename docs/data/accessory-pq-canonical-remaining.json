@@ -58,15 +58,19 @@
       "pq_record_id": "pqacc-027",
       "name": "Kale's Accessory",
       "pq": 148,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-103 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "status": "domain_resolved",
+      "reason": "Canonical inventory identity is domain-resolved via equip-055 (Kale Wig), categorized as an accessory. The current PQ-equipment relationship graph already points to this exact accessory inventory identity; no separate acc-### duplicate is created.",
+      "canonical_domain": "equipment_accessory",
+      "canonical_id": "equip-055"
     },
     {
       "pq_record_id": "pqacc-028",
       "name": "Caulifla's Accessory",
       "pq": 147,
-      "status": "unmatched",
-      "reason": "Previous bridge endpoint accr-102 is not present in the current canonical accessory layer; no replacement identity is inferred."
+      "status": "domain_resolved",
+      "reason": "Canonical inventory identity is domain-resolved via equip-053 (Caulifla Wig), categorized as an accessory. The current PQ-equipment relationship graph already points to this exact accessory inventory identity; no separate acc-### duplicate is created.",
+      "canonical_domain": "equipment_accessory",
+      "canonical_id": "equip-053"
     },
     {
       "pq_record_id": "pqacc-034",
@@ -146,8 +150,8 @@
     "research_records": 45,
     "canonical_accessory_records": 74,
     "matched": 29,
-    "unresolved": 14,
-    "domain_resolved_via_equipment": 2,
+    "unresolved": 12,
+    "domain_resolved_via_equipment": 4,
     "remapped_by_exact_name": 28
   },
   "notes": [
