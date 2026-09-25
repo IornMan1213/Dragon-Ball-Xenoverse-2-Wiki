@@ -1712,3 +1712,15 @@
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [x] Commits: `2b4901a002eb0a037613e034ef3b1188ee973631`, `04c322f98a9416d67050944152c33ac18ce53718`, `1ad71d843ca39dc481c83cb15bc45f946c1d1c41`.
 - [ ] **Exact next:** continue the residual accessory identity queue, prioritizing the next unresolved exact-name candidate with direct current inventory evidence; preserve component/clothing ambiguity and never infer a canonical accessory ID from an external numeric ID alone.
+
+
+### 2026-09-24 cycle completion — Kale/Caulifla residual accessory domain resolution
+- [x] Resolved `pqacc-027` Kale's Accessory through canonical `equip-055` (Kale Wig), category accessory, already wired to PQ148 in the PQ-equipment graph.
+- [x] Resolved `pqacc-028` Caulifla's Accessory through canonical `equip-053` (Caulifla Wig), category accessory, already wired to PQ147 in the PQ-equipment graph.
+- [x] Independent current equipment/PQ evidence confirms Kale Wig as PQ148 reward and Caulifla Wig as PQ147 reward. citeturn1search3turn1search9
+- [x] Added and registered `docs/data/kale-caulifla-accessory-domain-resolution-audit-2026-09-24.json`.
+- [x] Validation: affected ledger, audit, and cross-domain registry all parse successfully.
+- [x] Preserved namespace integrity: no duplicate `acc-###` identities were created because existing `equip-053`/`equip-055` accessory identities already provide canonical endpoints.
+- [ ] CI/runtime remains unverified.
+- [x] Commits: `7c8e842a60d1b24158f6733b6b452749b30ca1b0`, `20d41bc23a923ddecdac171cd3ff55680e5be253`, `d209c0641167de9c701d00392fbaf26a770cd448`.
+- [ ] **Exact next:** continue the residual accessory queue with the next unresolved exact-name candidate, prioritizing Golden Frieza Head / Broly Wig / Dragon Ball Balloon / Goku (Ultra Supervillain Quelled) Wig and checking current canonical equipment identities before creating anything new.
