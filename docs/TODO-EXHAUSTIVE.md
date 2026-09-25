@@ -1,3 +1,14 @@
+### 2026-09-25 cycle completion — current 470-record skill consumer parity repair
+- [x] Continued the deterministic producer/consumer parity queue from the previous Time Skip/Tremor Pulse mentor reconciliation.
+- [x] Audited current-facing skill consumers against the live **470-record** canonical/index baseline, with **239 PQ-linked** skills and **231 non-PQ** skills.
+- [x] Repaired six current-facing consumers that still exposed the superseded 469-record baseline: `docs/data/skill-acquisition-coverage-report.json`, `docs/data/skill-pq-acquisition-presentation-audit.json`, `docs/data/skill-shop-endpoint-layer-audit-2026-09-24.json`, `docs/data/special-acquisition-endpoint-audit-2026-09-24.json`, `docs/data/character-exclusive-skill-endpoint-audit-2026-09-24.json`, and `docs/data/time-rift-story-tournament-endpoint-audit-2026-09-24.json`.
+- [x] Synchronized the acquisition coverage report to **470 / 239 / 231** and retained the current mentor resolution at **131 resolved edges / 130 unique targets**, with the typed-reward distinction preserved separately.
+- [x] Synchronized current endpoint audits to 470 without changing any acquisition relationships, endpoint IDs, or canonical skill identities.
+- [x] Re-parsed all six changed JSON files successfully.
+- [x] Checked the latest commit workflow association; no workflow run was exposed for the newest direct commit, so no CI success is claimed.
+- [x] Preserved dated 469-record historical/audit snapshots rather than rewriting historical evidence.
+- [ ] **Exact next:** continue the deterministic current-facing consumer census for any remaining stale 469/470 scalar, orphan endpoint ID, or one-way navigation mismatch; after the current-consumer scan is clean, resume the next evidence-backed skill/research tranche. Do not rewrite historical snapshots merely because they contain older baselines.
+ 
 ### 2026-09-25 cycle completion — Batch 296 acquisition-endpoint enrichment
 - [x] Filled four previously-null Batch 296 acquisition endpoints from direct Xenoverse 2 evidence: Giga Boost → Conton City Skill Shop; Holstein Shock → PQ15; Emperor's Sign → TP Medal Shop; Position Shift → Skill Shop after defeating Kid Buu.
 - [x] Added and registered the dated acquisition refresh audit.
