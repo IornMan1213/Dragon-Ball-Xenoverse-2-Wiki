@@ -498,3 +498,15 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Commits: canonical `d96aa50`, index `00318f7`, audit `986e6c6`, batch `6b58859`, registry `1a6fe10`.
 - [x] **Exact next:** fresh post-Batch-358 census, then continue the next genuinely under-documented global records, prioritizing remaining zero-mechanics entries before broad alphabetical expansion.
+
+
+### 2026-09-25 cycle completion — Skill Batch 359 zero-mechanics Ultimate/Super refresh
+- [x] Fresh live census before editing: **469 canonical / 469 index / 0 duplicate IDs**.
+- [x] Completed **Death Wave, Hellzone Grenade, Murder Grenade, Shocking Death Ball**, the next four globally zero-mechanics records.
+- [x] Expanded bounded mechanics from current Xenoverse 2-specific references, including projectile/trajectory behavior, hit counts, control inputs where explicitly documented, and source-reported damage values.
+- [x] Preserved existing Expert Mission acquisition semantics: EM5, EM10, EM3, and EM14 respectively; no older-game acquisition was substituted.
+- [x] Added/registered Batch 359 audit and research-batch files and synchronized canonical/index verification dates.
+- [x] Evidence limits preserved: no unsupported probabilities, hidden prerequisites, new Ultimate Finish gates, frame data, exact timing, or stacking caps.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Commits: canonical `373675a`, index `6fbac1d`, audit `7223510`, batch `7dedc23`, registry `7cf7263`.
+- [x] **Exact next:** fresh post-Batch-359 census, then finish the remaining zero-mechanics frontier with **Spirit Sword** and **Super Electric Strike** before selecting the next thinnest global records.
