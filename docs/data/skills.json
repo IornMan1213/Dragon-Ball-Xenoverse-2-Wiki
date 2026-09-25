@@ -307,10 +307,11 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Expert Mission 9 — \"The Most Feared Majin\"",
       "acquisition_type": "expert_mission",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "research_status": "enriched",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM09. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "id": "skill-assault-rain"
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM09. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 358 low-detail Ultimate mechanics refresh: current Xenoverse 2-specific evidence expanded the bounded mechanics description. No unsupported reward probability, hidden prerequisite, Ultimate Finish gate, frame data, or exact timing was inferred.",
+      "id": "skill-assault-rain",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from Expert Mission 9 — The Most Feared Majin. Fires a barrage of Ki blasts from above that rains onto the target; current dedicated evidence describes tracking, long-range coverage, 10 hits, launching, and 15% total source-reported damage. The Future Warrior acquisition endpoint remains Expert Mission 9."
     },
     {
       "name": "Assault Vanish",
@@ -875,10 +876,11 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Expert Mission 15 — \"Extreme Malice!\"",
       "acquisition_type": "expert_mission",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "research_status": "enriched",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM15. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.",
-      "id": "skill-blue-hurricane"
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM15. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.\n2026-09-25 Batch 358 low-detail Ultimate mechanics refresh: current Xenoverse 2-specific evidence expanded the bounded mechanics description. No unsupported reward probability, hidden prerequisite, Ultimate Finish gate, frame data, or exact timing was inferred.",
+      "id": "skill-blue-hurricane",
+      "mechanics_notes": "300-Ki Strike Ultimate from Expert Mission 15 — Extreme Malice! The user spins into a controllable blue twister; current dedicated evidence describes 1–6 hits, close-range knockback, control-stick movement for about four seconds, and 10% damage per hit. Existing character association with Burter is retained."
     },
     {
       "name": "Bluff Kamehameha",
@@ -2459,10 +2461,11 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Expert Mission 8 — \"Ominous Androids\"",
       "acquisition_type": "expert_mission",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "research_status": "enriched",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM08. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.",
-      "id": "skill-dead-end-bullet"
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM08. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.\n2026-09-25 Batch 358 low-detail Ultimate mechanics refresh: current Xenoverse 2-specific evidence expanded the bounded mechanics description. No unsupported reward probability, hidden prerequisite, Ultimate Finish gate, frame data, or exact timing was inferred.",
+      "id": "skill-dead-end-bullet",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from Expert Mission 8 — Ominous Androids. The user rises and rains Ki blasts downward; current dedicated evidence describes a 21-hit long-range projectile sequence with knockback and 30% total source-reported damage. Community reports about accuracy are treated as usage commentary, not deterministic mechanics."
     },
     {
       "name": "Dead End Rain",
@@ -2621,10 +2624,11 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Expert Mission 7 — \"The Big Gete Star Strikes Back\"",
       "acquisition_type": "expert_mission",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "research_status": "enriched",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM07. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "id": "skill-death-meteor"
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM07. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 358 low-detail Ultimate mechanics refresh: current Xenoverse 2-specific evidence expanded the bounded mechanics description. No unsupported reward probability, hidden prerequisite, Ultimate Finish gate, frame data, or exact timing was inferred.",
+      "id": "skill-death-meteor",
+      "mechanics_notes": "300-Ki Strike Ultimate obtained from Expert Mission 7 — The Big Gete Star Strikes Back. The user rises slightly, creates multiple rocks, and launches them toward the target; current dedicated evidence describes tracking, multiple projectiles, an unbreakable protective barrier during execution, and distance-sensitive damage behavior. Exact frame/timing values remain unpromoted."
     },
     {
       "name": "Death Psycho Bomb",
