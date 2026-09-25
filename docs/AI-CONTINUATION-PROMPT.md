@@ -1412,3 +1412,11 @@
 - [x] Validation remains **469/469 canonical/index**, **0 duplicate IDs**; no canonical reconstruction.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the next partially verified Batch 54 record with direct current evidence; prioritize remaining unresolved technical/acquisition fields.
+### 2026-09-24 continuation — Batch 54 second P1 enrichment follow-up
+- [x] Continued the deterministic Batch 54 PQ86-PQ100 enrichment rather than creating a new speculative batch.
+- [x] Enriched **Charged Ki Wave** (Other Super, 100 Ki, stamina recovery), **Phantom Fist** (Other Super, 100 Ki, afterimage-style evasion with stamina recovery), **Bluff Kamehameha** (Other Super, 100 Ki), **Emperor's Edge** (Golden Frieza Super, 100 Ki; subtype kept evidence-bounded), and **X100 Big Bang Kamehameha** (Ki Blast Ultimate, 500 Ki).
+- [x] Added `docs/data/skill-batch-54-enrichment-followup-2026-09-24.json`.
+- [x] Corrected an interim over-specific Emperor's Edge subtype assertion before finalizing the cycle; the research layer now avoids promoting an unsupported subtype.
+- [x] Validation remains **469/469 canonical/index**, **0 duplicate IDs**; no canonical reconstruction.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** select the next deterministic partially verified/enrichment target after Batch 54 using the live census and handoff; preserve evidence boundaries.
