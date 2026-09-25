@@ -1949,3 +1949,15 @@
 - [ ] CI remains unverified; no successful Actions result is claimed.
 - [x] Commits: skills index `45971dab26292ba47634ff6dc5aaf2cef0d10068`; EM acquisition projection `2d63e8d042d40d6268ae504ded3bd9cbd03f78dc`; audit `6dfbb6284cfa5fc4c8366ba4ec0b424014b0b49d`; registry `395968224c8445482c447d277a0b92417a0864b5`.
 - [ ] **Exact next:** audit the remaining partially_verified Ultimate records for the same class/subcategory projection mismatches, beginning with **Assault Rain, Blue Hurricane, Dead End Bullet, and Hellzone Grenade**, using the current Strike/Ki Blast catalog projections and Batch 311+ evidence as the comparison source; do not reopen resolved acquisition semantics unless a projection conflict is found.
+
+
+### 2026-09-25 cycle completion — Batch 311 Ultimate taxonomy parity audit
+- [x] Audited Assault Rain, Blue Hurricane, Dead End Bullet, and Hellzone Grenade against the live skill-index and maintained Ki Blast/Strike Ultimate catalog projections.
+- [x] Found one stale historical projection: Blue Hurricane was still labeled Ultimate / Ki Blast in docs/data/skill-research-batches/skill-batch-311.json, while the live canonical/index layer and Strike Ultimate catalog classify it as Ultimate / Strike.
+- [x] Corrected only that historical Batch 311 taxonomy field; EM15 acquisition/Basic Reward evidence and unresolved drop semantics were preserved.
+- [x] Confirmed Assault Rain, Dead End Bullet, and Hellzone Grenade already match the live Ultimate / Ki Blast taxonomy; no unnecessary edits made.
+- [x] Added docs/data/skill-311-ultimate-taxonomy-parity-audit-2026-09-25.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Validation: skills-index 470 records; Batch 311 5 records; all changed/readback JSON parsed successfully; cross-domain registry now 153 keys.
+- [ ] CI remains unverified; no successful Actions result is claimed.
+- [x] Commits: Batch 311 correction a42259e89dbb48bee4b4f6ab6bb126846f03f7c0; parity audit a217115002bf40130662e3561b1c7403901ea1bf; registry c0a2d38c9208befa4ec727b4139e8502f1709a04.
+- [ ] Exact next: continue the same deterministic parity sweep through the remaining partially_verified Ultimate records, prioritizing any historical research-batch/catalog projection mismatch before new prose enrichment.
