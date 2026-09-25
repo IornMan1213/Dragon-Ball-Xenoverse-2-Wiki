@@ -7176,3 +7176,16 @@
 - [x] Validation: changed JSON parsed successfully; canonical count remains **469**; no unsupported canonical/index mutation made.
 - [ ] CI success remains unverified; no CI success claimed.
 - [ ] **Exact next:** continue the next highest-priority deterministic research batch after 170, preferring existing partially verified skill records with direct Xenoverse 2 evidence and cross-database value.
+
+
+### 2026-09-24 cycle update — Super Dragon Fist P1 provenance verification
+- [x] Live canonical census remains **469** skill records; no canonical promotion attempted because the supported builder/runtime remains unavailable.
+- [x] Bounded batch: **skill-research-batches/skill-batch-171.json — Super Dragon Fist**.
+- [x] Revalidated Xenoverse 2 **Super / Strike**, **100 Ki**, CaC usability, and **Skill Shop** acquisition using current Xenoverse 2-specific evidence and independent corroboration.
+- [x] Strengthened mechanics evidence: short-distance approach, rapid three-punch rush on contact, multi-hit/rushdown behavior.
+- [x] Explicitly excluded historical Xenoverse 1 PQ42 acquisition from the Xenoverse 2 canonical route.
+- [x] Added `docs/data/skill-super-dragon-fist-p1-provenance-verification-2026-09-24.json` and updated batch 171.
+- [x] Preserved evidence limits: stamina, exact frame/hitbox values, and stable universal numeric damage remain unresolved/version-sensitive.
+- [x] Validation: changed JSON parsed successfully; canonical/index parity remains **469/469**.
+- [ ] CI success remains unverified; no CI success claimed.
+- [ ] **Exact next:** continue the next deterministic research batch after 171, using the existing batch sequence and the same bounded provenance workflow.
