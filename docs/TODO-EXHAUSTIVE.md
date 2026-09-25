@@ -7615,3 +7615,13 @@
 - [x] Validation: changed JSON payloads are structurally generated from parsed source data; canonical/index boundary remains **469/469** with no duplicate-ID change.
 - [ ] CI success remains unverified; no CI success claimed.
 - [ ] **Exact next:** continue the next live unfinished Evasive/research batch after the current 238 refresh, beginning with **skill-batch-239** only if its historical correction remains unreconciled in the live canonical layer; otherwise choose the next deterministic unfinished consumer from the handoff/TODO queue.
+
+### 2026-09-24 cycle completion — Ki Blast Super historical reconciliation Batches 247–248
+- [x] Live canonical/index boundary remains **469/469** with **0 duplicate IDs**; no canonical reconstruction or duplicate promotion was performed.
+- [x] Reconciled historical **Batches 247–248** against the later live provenance/audit chain rather than treating their 2026-09-17 placeholders as current truth.
+- [x] Batch 247: Photon Swipe and Gamma Blaster are already represented in the later canonical layer; later reward-condition audits supersede the original batch's UF placeholders while the historical batch remains preserved.
+- [x] Batch 248: later provenance work supersedes historical nulls for records including Divine Spear, Burning Blast, and Force Edge; Steel Mirage's reward-source conflict remains explicitly preserved rather than guessed.
+- [x] Added `docs/data/skill-kiblast-super-batches-247-248-reconciliation-2026-09-24.json` and refreshed the two historical batch verification/status records.
+- [x] Validation: all changed JSON parsed successfully; no canonical/index reconstruction was attempted.
+- [ ] CI success remains unverified; the current Actions API exposes no workflow run for the previous documentation commit.
+- [ ] **Exact next:** continue **skill-batch-249**, using the same historical-batch reconciliation approach and only promote/change canonical fields when current evidence is stronger than the historical batch.
