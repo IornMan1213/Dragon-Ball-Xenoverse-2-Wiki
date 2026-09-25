@@ -2415,3 +2415,13 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [ ] Exact next: inspect the current 470-record skill/research consumer set for another deterministic stale scalar or unresolved source-backed provenance target; if the EM tranche is already covered, prioritize the next partially verified skill acquisition/provenance record rather than duplicating the completed EM13–15 research.
 
+
+### 2026-09-25 continuation cycle — current skill-catalog audit scalar parity correction
+- [x] Inspected the live 470-record canonical/index baseline after Batch 336 and found a stale top-level `docs/data/skill-catalog-audit.json` current scalar: `current_canonical_count=455` and `current_canonical_last_verified=2026-09-23`.
+- [x] Confirmed the nested `verification_state_counts.current_canonical_count=454` is historical verification-state data and preserved it rather than rewriting history.
+- [x] Added `docs/data/skill-catalog-current-scalar-correction-2026-09-25.json` documenting the mismatch and bounded correction.
+- [x] Synchronized only the audit metadata to `current_canonical_count=470` and `current_canonical_last_verified=2026-09-25`; canonical skill identities, relationships, and acquisition routes were unchanged.
+- [x] Updated `current_research_focus` to the post-470/470 P1 provenance/current-consumer parity phase.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** continue the current-facing producer/consumer census or the next source-backed partially verified skill provenance target; preserve historical baselines and do not duplicate completed Batch 328–336 research.
+
