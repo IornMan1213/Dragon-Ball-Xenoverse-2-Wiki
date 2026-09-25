@@ -7131,3 +7131,14 @@
 - [x] Research-layer record is now `verified`; canonical/index catalogs remain **469/469** and were not manually reconstructed.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] **Exact next:** continue with the next existing partially verified research batch after Justice Rush where current Xenoverse 2 evidence can resolve substantive missing fields; preserve nulls for unsupported numeric/version-sensitive values and do not promote into canonical catalogs without the supported builder.
+
+
+### 2026-09-24 cycle completion — Critical Upper P1 provenance verification
+- [x] Selected existing partially verified **Critical Upper** (research batch 167) as the next substantive target after Justice Rush.
+- [x] Reconfirmed **Super / Strike**, **100 Ki**, CaC usability, and Dodoria mentor acquisition from current Xenoverse 2-specific evidence.
+- [x] Confirmed Lesson 1 as the acquisition point and documented short-range uppercut/launch/follow-up mechanics; later Jiren partner customization availability remains secondary context.
+- [x] Preserved unresolved stamina, exact frame/hitbox, and universal damage values. The dedicated source's displayed 10% damage is retained only as source context, not universal canonical numeric data.
+- [x] Added `docs/data/skill-critical-upper-p1-provenance-verification-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Research-layer record is now `verified`; canonical/index catalogs remain **469/469** and were not manually reconstructed.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue with the next existing partially verified research batch after Critical Upper where current Xenoverse 2 evidence can resolve substantive missing fields; preserve nulls for unsupported numeric/version-sensitive values and do not promote into canonical catalogs without the supported builder.
