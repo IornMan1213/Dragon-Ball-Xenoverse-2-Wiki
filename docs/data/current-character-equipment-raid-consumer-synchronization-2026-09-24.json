@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "audit_date": "2026-09-24",
+  "audit_date": "2026-09-25",
   "scope": "current-facing consumer count synchronization after Chapter 4 character and raid accessory identity expansion",
   "source_of_truths": [
     "docs/data/characters-record-layer.json",
@@ -11,7 +11,7 @@
   ],
   "live_baseline": {
     "canonical_characters": 152,
-    "canonical_skills": 469,
+    "canonical_skills": 470,
     "canonical_equipment_accessory_records": 174,
     "canonical_pq_edges": 853,
     "raid_accessory_identity_records": 11,
@@ -28,7 +28,7 @@
   ],
   "checks": {
     "character_current_consumers_use_152": true,
-    "skill_current_pq_consumer_uses_469": true,
+    "skill_current_pq_consumer_uses_470": true,
     "equipment_current_pq_consumer_uses_174": true,
     "raid_accessory_current_consumers_use_11": true,
     "pq_edge_baseline_unchanged": true,
