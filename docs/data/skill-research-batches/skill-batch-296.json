@@ -17,8 +17,10 @@
       "effect": "Utility Super Skill used by Dodoria.",
       "sources": [
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
-      ]
+        "https://dbxv2.fandom.com/wiki/Super_Attack",
+        "Web refresh 2026-09-24"
+      ],
+      "evidence_boundary": "Current Xenoverse 2 reference independently confirms Giga Boost debuted in Xenoverse 2 as Dodoria's skill and is obtainable by the Future Warrior from the Conton City Skill Shop; numeric Ki cost was not exposed by the retrieved source."
     },
     {
       "name": "Holstein Shock",
@@ -33,8 +35,10 @@
       "effect": "Captain Ginyu utility Super that damages its user.",
       "sources": [
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
-      ]
+        "https://dbxv2.fandom.com/wiki/Super_Attack",
+        "Web refresh 2026-09-24"
+      ],
+      "evidence_boundary": "Current Xenoverse 2 reference independently confirms Holstein Shock returns as Captain Ginyu's Super Skill, is obtainable by the Future Warrior from Parallel Quest 15, and instantly charges two Ki bars; numeric Ki cost was not exposed by the retrieved source."
     },
     {
       "name": "Emperor's Sign",
@@ -49,8 +53,10 @@
       "effect": "Frieza fighting-pose Super whose effects vary by race.",
       "sources": [
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
-      ]
+        "https://dbxv2.fandom.com/wiki/Super_Attack",
+        "Web refresh 2026-09-24"
+      ],
+      "evidence_boundary": "Current Xenoverse 2 reference independently confirms Emperor's Sign is Frieza's Super Skill, appears in 1st Form Frieza loadouts, and is obtainable from the TP Medal Shop; numeric Ki cost was not exposed by the retrieved source."
     },
     {
       "name": "Time Control",
@@ -82,9 +88,11 @@
       "effect": "Utility Super that shifts the user's position.",
       "sources": [
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
-      ]
+        "https://dbxv2.fandom.com/wiki/Super_Attack",
+        "Web refresh 2026-09-24"
+      ],
+      "evidence_boundary": "Current Xenoverse 2 reference independently confirms Position Shift returns as a Super Skill and is obtainable by the Future Warrior from the Skill Shop after defeating Kid Buu; numeric Ki cost was not exposed by the retrieved source."
     }
   ],
-  "notes": "The current Xenoverse 2 Super Attack page places all five in Other. Future Warrior technique documentation identifies their users. Exact numeric Ki costs and unlock methods were not established by the reviewed sources, so those fields remain null rather than inferred. 2026-09-24 correction: dedicated Xenoverse 2 Time Control documentation explicitly reports Ki Used = 100 and the stun/barrier behavior; this resolves the previously null Ki cost."
+  "notes": "The current Xenoverse 2 Super Attack page places all five in Other. Future Warrior technique documentation identifies their users. Exact numeric Ki costs and unlock methods were not established by the reviewed sources, so those fields remain null rather than inferred. 2026-09-24 correction: dedicated Xenoverse 2 Time Control documentation explicitly reports Ki Used = 100 and the stun/barrier behavior; this resolves the previously null Ki cost. 2026-09-24 provenance refresh: Giga Boost, Holstein Shock, Emperor's Sign, and Position Shift each received independent current Xenoverse 2 identity/acquisition corroboration. None of the retrieved sources exposed a numeric Ki cost, so all four costs remain unresolved."
 }
