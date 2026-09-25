@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-25",
+  "scope": "Batch 322 direct current Xenoverse 2 evidence refresh for Death Wave and Murder Grenade",
+  "status": "completed",
+  "records": [
+    {
+      "id": "skill-death-wave",
+      "name": "Death Wave",
+      "result": "evidence_refreshed",
+      "acquisition": "Expert Mission 5 — The Galactic Tyrant; current mission documentation lists Death Wave as a Basic Reward.",
+      "ki_cost": 100,
+      "mechanics": "Current dedicated evidence classifies Death Wave as a Ki Blast Super, 100 Ki, long-range, single-hit knockback, with the documented attack dealing about 15% damage. Independent current-accessible mission documentation corroborates EM5 as the reward endpoint. A separate community report describes repeated damage while a giant Ki blast passes through the wave, but that behavior is treated as community gameplay evidence rather than canonical frame/damage data.",
+      "unresolved": [
+        "Exact drop probability remains unresolved.",
+        "Do not infer first-clear guarantee from Basic Reward classification.",
+        "The 15% figure is source-reported and should not be generalized across versions/builds.",
+        "No narrower race/gender/form restriction is asserted."
+      ]
+    },
+    {
+      "id": "skill-murder-grenade",
+      "name": "Murder Grenade",
+      "result": "evidence_refreshed",
+      "acquisition": "Expert Mission 3 — Assault of the Great Ape; current mission documentation lists Murder Grenade as a Basic Reward.",
+      "ki_cost": 100,
+      "mechanics": "Current repository research and external technique documentation agree on EM3 as the Future Warrior acquisition endpoint. The maintained research description records a 100-Ki activation and tracking multi-hit explosive behavior. Current mission documentation independently lists Murder Grenade as the Basic Reward. Post-update partner customization availability is retained as secondary provenance and is not treated as a separate CaC acquisition route.",
+      "unresolved": [
+        "Exact drop probability remains unresolved.",
+        "Do not infer first-clear guarantee from Basic Reward classification.",
+        "No unsupported damage/frame values are promoted.",
+        "Partner customization availability does not establish a separate CaC unlock requirement."
+      ]
+    }
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Death_Wave",
+    "https://dragonball.fandom.com/wiki/Death_Wave",
+    "https://dbxv2.fandom.com/wiki/Expert_Mission",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+    "https://gamefaqs.gamespot.com/xboxone/190458-dragon-ball-xenoverse-2/answers/444805-where-can-i-find-the-super-attack-death-wave",
+    "https://dbxv2.fandom.com/wiki/Murder_Grenade",
+    "https://dragonball.fandom.com/wiki/Murder_Grenade",
+    "https://dbxenoverse.fandom.com/wiki/03_-_Assault_of_the_Great_Ape"
+  ],
+  "validation": {
+    "records": 2,
+    "json_parse": "pass",
+    "canonical_promotion": false,
+    "drop_rates_inferred": false,
+    "first_clear_guarantee_inferred": false
+  }
+}
