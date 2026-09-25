@@ -8019,3 +8019,12 @@
 - [x] Corrected current typed mentor skill-reward count from 131 to 132 in `mentor-endpoint-consumer-synchronization-2026-09-24.json`.
 - [x] Kept resolved endpoint counts at 131 edges / 130 unique targets with 1 unresolved lesson and 0 broken endpoints.
 - [ ] Continue semantic count-drift scan across current mentor/non-PQ consumers.
+
+
+### 2026-09-25 — TODO completion update — mentor typed-reward + PQ navigation consumer reconciliation
+- [x] Repaired current mentor typed-skill reward count in docs/data/mentor-skill-coverage-report.json to 132, matching 133 lesson rewards minus the 1 typed non-skill Zamasu reward; resolved mentor skill edges remain 131, unique canonical targets 130, unresolved skill lessons 1, broken endpoints 0.
+- [x] Repaired current PQ navigation domain counts in docs/data/pq-endpoint-navigation-current-audit-2026-09-24.json: equipment/accessory records 173 → 174 and character names 151 → 152.
+- [x] Preserved the authoritative PQ relationship baseline at 853 total / 244 skill / 145 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming.
+- [x] Changed JSON files re-parsed successfully; no canonical relationships or gameplay data were inferred or altered.
+- [ ] CI remains unverified; the latest prior runs exposed zero workflow steps/logs. The exact next check is the Actions state for commit b16717265b2b606618ac08b7b6d74427c9aeb558.
+- [ ] Exact next: continue exact-pair parity scanning of remaining current reverse/navigation consumers, prioritizing non-PQ equipment/accessory presentation consumers.
