@@ -953,3 +953,12 @@
 - [x] Canonical/index boundary remains 469/469; no canonical promotion was attempted.
 - [ ] CI success remains unverified.
 - [ ] Exact next: inspect current Actions reruns, then continue skill-batch-183 using the same bounded provenance workflow.
+
+### 2026-09-24 cycle completion — Mach Kick P1 provenance verification
+- [x] Completed skill-research-batches/skill-batch-183.json — Mach Kick.
+- [x] Revalidated Super / Strike, 100 Ki, PQ17 — Ginyu and the Fruit acquisition, six-kick rush mechanics, Space Mach Attack relationship, and later partner-customization context.
+- [x] Added docs/data/skill-mach-kick-p1-provenance-verification-2026-09-24.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Preserved evidence limits: stamina cost, exact frame/damage/transition timing, drop probability, and Ultimate Finish dependency remain unresolved.
+- [x] Canonical/index boundary remains 469/469; no canonical promotion was attempted.
+- [ ] CI success remains unverified.
+- [ ] Exact next: inspect current Actions reruns, then continue skill-batch-184 using the same bounded provenance workflow.
