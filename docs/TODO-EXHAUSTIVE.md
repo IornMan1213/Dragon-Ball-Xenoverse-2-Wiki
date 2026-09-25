@@ -8388,3 +8388,12 @@
 - [x] JSON readback validation passed.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the remaining current reverse/navigation producer-consumer census or the next evidence-backed thin-domain batch; do not repeat resolved mentor/equipment count repairs.
+
+
+### 2026-09-25 cycle completion — Skill research Batch 329: Acid / Howl / Boiling Burg / Baked Sphere
+- [x] Added Batch 329 for four legacy skill-gap records and refreshed their Xenoverse 2-specific classification/cast boundaries.
+- [x] Acid: Super, IDs 140/143, CaC-unavailable; Howl: Evasive Great Ape skill; Boiling Burg: Final Form Demigra Ultimate, IDs 540/5540, CaC-unavailable; Baked Sphere: Ultimate with Masked Future Warrior/Supervillain use.
+- [x] Preserved unresolved numeric Ki costs and did not infer acquisition routes.
+- [x] Registered the batch and advanced the skill audit to **329**; JSON readback passed.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the remaining evidence-backed thin skill-gap queue, seeking new resolvable fields rather than repeating unsupported Ki-cost searches.
