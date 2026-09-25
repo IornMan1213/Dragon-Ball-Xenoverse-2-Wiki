@@ -356,3 +356,12 @@
 - [x] Canonical/index parity: **469/469**, duplicate IDs: **0**.
 - [ ] CI remains unverified.
 - [x] **Exact next:** **Seagull Combination, Shining Slash, Shooting Strike, Soaring Rush**, then continue the remaining three verified/verified records in live order.
+
+
+### 2026-09-25 cycle completion — Skill Batch 344
+- [x] Live census: **469 canonical / 469 index / 7 verified|verified frontier**.
+- [x] Completed **Seagull Combination, Shining Slash, Shooting Strike, Soaring Rush** with current-evidence audits and enriched research status.
+- [x] Preserved Seagull Combination reward-tier conflict, Shooting Strike 50% UF route, and Soaring Rush 50% UF route; no unsupported probabilities added.
+- [x] Canonical/index parity: **469/469**, duplicate IDs: **0**.
+- [ ] CI remains unverified.
+- [x] **Exact next:** **Super God Fist, Variant Drive, Zigzag Express** — final three verified|verified records.
