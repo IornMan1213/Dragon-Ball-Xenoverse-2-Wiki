@@ -27,12 +27,12 @@
   "changes": [
     "Cleared the unsupported skill_id from Hit lesson 3 in mentors-record-layer.json while preserving the exact skill name and reward_type.",
     "Removed the orphan Time Skip/Tremor Pulse endpoint from mentor-endpoints.json forward and reverse projections.",
-    "Synchronized current mentor presentation/coverage counts to 131 typed skill rewards, 131 mentor→skill edge rows, 130 unique skill targets, and one explicit unresolved skill lesson."
+    "Synchronized current mentor presentation/coverage counts to 132 typed skill rewards, 131 mentor→skill edge rows, 130 unique skill targets, and one explicit unresolved skill lesson."
   ],
   "validation": {
     "canonical_mentor_records": 33,
     "lesson_reward_objects": 133,
-    "typed_skill_rewards": 131,
+    "typed_skill_rewards": 132,
     "typed_non_skill_rewards": 1,
     "mentor_skill_edges": 131,
     "unique_skill_targets": 130,
