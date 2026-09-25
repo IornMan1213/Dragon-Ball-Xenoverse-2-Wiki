@@ -1355,3 +1355,13 @@
 - [x] Preserved the **469/469** canonical/index boundary and **0 duplicate IDs**; Swallow Shot is deliberately not manually inserted into generated canonical files because the supported lossless builder path is unavailable.
 - [x] JSON validation completed successfully; CI remains unverified.
 - [ ] **Exact next:** continue **skill-batch-250**, reconciling its historical Ki Blast Super records against the current canonical/provenance/PQ layers and preserving cast-exclusive/raid-only boundaries.
+
+### 2026-09-24 cycle completion — Batch 250 Ki Blast Super historical reconciliation
+- [x] Reconciled all seven Batch 250 records against the current PQ relationship, unavailable-for-CaC, and later catalog/provenance layers.
+- [x] Confirmed **Blades of Judgement** and **Lightning of Absolution** through PQ112/PQ111 reward evidence; confirmed **Holy Wrath** through PQ111 while preserving the later Basic-Reward semantics over the historical UF assertion.
+- [x] Preserved **Light of Justice**, **Seasoning Arrow**, and **Time Shackles** as unavailable-for-CaC/cast-exclusive boundaries without inventing acquisition routes.
+- [x] Preserved **Marbling Drop**'s EM15/raid acquisition uncertainty; later catalog evidence supports EM15/Raid availability, but the repository's Expert Mission documentation still marks the acquisition claim as pending reconciliation. No drop rate or guarantee was inferred.
+- [x] Added `docs/data/skill-batch-250-reconciliation-2026-09-24.json` and refreshed the historical batch verification/status metadata.
+- [x] Validation: JSON parsed successfully; canonical/index boundary remains **469/469** with **0 duplicate IDs** and no speculative canonical promotion.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** continue **skill-batch-251**, reconciling Saturday Crash, Consecutive Energy Blast, Super Destructo-Disc, and Earth Splitting Galick Gun against current canonical/PQ/provenance evidence.
