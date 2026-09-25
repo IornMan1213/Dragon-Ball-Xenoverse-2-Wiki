@@ -1104,3 +1104,18 @@
 - [x] The failure payload therefore still does not establish a newly executed checker finding attributable to the Absolute Zero changes. The repository's checker contract was inspected directly; historical internal citation artifacts remain present in older append-only documentation history, so they are not silently rewritten in this cycle.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** continue **skill-batch-198 — Burst Reflection**; inspect current Actions state first and preserve append-only history plus the 469/469 canonical boundary.
+
+### 2026-09-24 cycle completion — Burst Reflection P1 provenance verification
+- [x] Live bounded target confirmed: **skill-batch-198 — Burst Reflection**.
+- [x] Revalidated Xenoverse 2 identity as **Super / Ki Blast / Counter Skill**, **100 Ki**, Nuova Shenron technique, and Future Warrior/CaC-usable.
+- [x] Revalidated acquisition as **Shenron wish — "I want a new Super Attack!"**, specifically the second-result set containing Ice Claw, Ice Field, Burst Attack, and Burst Reflection; no PQ or Ultimate Finish route was inferred.
+- [x] Preserved GT Pack 2 as character/DLC context while rejecting older Xenoverse-era PQ wording as a current Xenoverse 2 acquisition route.
+- [x] Revalidated barrier/beam mechanics: translucent diamond/lens-like barrier for roughly one second, protective Super Armor during the active window, followed by a beam; approximately 10% damage is reported by the reference.
+- [x] Added docs/data/skill-burst-reflection-p1-provenance-verification-2026-09-24.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Refreshed docs/data/skill-research-batches/skill-batch-198.json.
+- [x] Existing canonical Burst Reflection provenance was already current at 2026-09-24; no unsupported canonical promotion was made.
+- [x] Canonical/index boundary remains **469/469**; no manual catalog reconstruction.
+- [x] Evidence limits preserved: stamina cost, exact frame timing, exact current damage, and matchup/armor interaction data remain unresolved.
+- [ ] CI success remains unverified; current Actions continue to expose immediate/zero-step failures.
+- [x] Sources checked: Xenoverse 2 Burst Reflection reference, Counter Skills category, Wish reference, Dragon Ball Wiki's Xenoverse 2 appearance/acquisition context, and historical GameFAQs discussion.
+- [ ] **Exact next:** continue **skill-batch-199 — Time Skip/Back Breaker** using the same bounded P1 provenance workflow; inspect live Actions first and preserve 469/469 parity.
