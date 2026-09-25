@@ -11,7 +11,7 @@
     "docs/data/accessory-raid-identity-reconciliation-audit-2026-09-24.json"
   ],
   "current_baseline": {
-    "combined_equipment_accessory_records": 174,
+    "combined_equipment_accessory_records": 173,
     "canonical_accessory_reconciliation_records": 116,
     "pq_equipment_forward_edges": 124,
     "pq_equipment_unique_targets": 122,
