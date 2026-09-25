@@ -1,0 +1,68 @@
+{
+  "batch_id": "skill-batch-364",
+  "research_type": "skill_research",
+  "status": "research_only",
+  "created": "2026-09-25",
+  "records": [
+    {
+      "name": "Evil Eyes",
+      "id": "skill-evil-eyes",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "source_quest_or_shop": "Lord Slug mentor training",
+      "mechanics_notes": "100-Ki Ki Blast Super. The user places a remote explosion at the opponent's location; when used in a combo, it can instead detonate along the opponent's flight path. Current Xenoverse 2-specific evidence notes slower activation with comparatively low endlag, and a damage profile suited to stationary targets outside combos. Piccolo (Power Awakening) can fire up to two additional blasts after the first.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Evil_Eyes"
+      ],
+      "last_verified": "2026-09-25"
+    },
+    {
+      "name": "Fake Blast",
+      "id": "skill-fake-blast",
+      "class": "Evasive",
+      "subcategory": "Ki Blast",
+      "ki_cost": 0,
+      "stamina_cost": 200,
+      "source_quest_or_shop": "Cooler (Final Form) mentor training — Lesson 2",
+      "mechanics_notes": "Ki Blast Evasive using 200 Stamina. The user fires a close-range Ki wave into the opponent's face, blinding them for 2 seconds; the move deals no damage. Current Xenoverse 2-specific evidence classifies it as an Evasive rather than a Super and lists training with Cooler (Final Form) as the acquisition endpoint.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fake_Blast",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "last_verified": "2026-09-25"
+    },
+    {
+      "name": "Fake Death",
+      "id": "skill-fake-death",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": 0,
+      "stamina_cost": null,
+      "source_quest_or_shop": "Yamcha mentor training — Initiation Test",
+      "mechanics_notes": "0-Ki Strike Super. The user falls backward into the Yamcha pose and can hold the input while lying down, then springs up with a kick. Current Xenoverse 2-specific evidence documents generous invulnerability frames during the initial animation and get-up, making the move a defensive counter option as well as a deceptive attack.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fake_Death",
+        "https://dbxv2.fandom.com/wiki/I-frames"
+      ],
+      "last_verified": "2026-09-25"
+    },
+    {
+      "name": "Feint Crash",
+      "id": "skill-feint-crash",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "source_quest_or_shop": "Cooler (Final Form) mentor training — Initiation Test",
+      "mechanics_notes": "100-Ki Strike Super. The user teleports behind the opponent and performs a restanding punch. An additional input instead teleports to the opposite side and delivers a kick that causes knockback. The regular version can be cancelled into many skills and stamina breaks; the alternate version is more limited and does not properly connect against already knocked-back targets.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Feint_Crash",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "last_verified": "2026-09-25"
+    }
+  ]
+}
