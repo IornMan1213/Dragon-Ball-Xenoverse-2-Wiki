@@ -8421,3 +8421,11 @@
 - [x] Preserved historical 854/146 snapshots and made **0 relationship / 0 canonical-ID / 0 acquisition-route** changes.
 - [x] JSON validation passed after write; CI remains unverified/unavailable.
 - [ ] **Exact next:** continue exact-pair parity scanning of remaining reverse/navigation projections for another explicitly current stale scalar.
+
+
+### 2026-09-25 continuation cycle — PQ explorer validator baseline hardening
+- [x] Hardened `scripts/validate_pq_explorer_reward_navigation.py` with full 853-edge six-domain baseline assertions and duplicate canonical relationship-key detection.
+- [x] Added/registered `docs/data/pq-explorer-reward-navigation-validator-hardening-2026-09-25.json`.
+- [x] Preserved canonical data unchanged; validator-only change.
+- [ ] Runtime/CI execution remains unavailable.
+- [ ] **Exact next:** audit remaining PQ explorer/reference validators for hidden scalar assumptions, endpoint-only checks, and incomplete domain coverage.
