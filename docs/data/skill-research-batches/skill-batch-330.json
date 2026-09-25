@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 330,
+  "created": "2026-09-25",
+  "type": "evidence_refresh",
+  "scope": "Energy Boil subcategory boundary",
+  "records": [
+    {
+      "name": "Energy Boil",
+      "id": "skill-energy-boil",
+      "classification": "Evasive",
+      "subcategory": "unresolved",
+      "cast_only": true,
+      "skill_ids": [
+        540,
+        10540
+      ],
+      "source_user": "Demon God Demigra (Final Form)",
+      "evidence": [
+        "Current indexed Xenoverse 2 Character ID List assigns 10540/540 ENB Energy Boil to Demon God Demigra (Final Form) and marks it CaC-unavailable.",
+        "Current Xenoverse 2 skill-list material places ID 10540 in the Evasive section.",
+        "Independent Demigra reference describes Energy Boil as Final Demigra's Evasive Skill: he surrounds himself in an energy sphere, teleports, then gathers Ki.",
+        "An independent Xenoverse 2 skills-unobtainable reference lists Energy Boil as Final Form Demigra's Evasive Skill."
+      ],
+      "sources": [
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List",
+        "https://www.scribd.com/document/723438373/Super-skills-dragon-ball",
+        "https://dragonball.fandom.com/wiki/Demigra",
+        "https://gamefaqs.gamespot.com/boards/805627-dragon-ball-xenoverse/71793617"
+      ],
+      "limits": [
+        "Evidence establishes Evasive classification and cast-only boundary, but does not establish the repository's attack subcategory taxonomy for Energy Boil.",
+        "Numeric Ki cost remains unresolved; Evasive Skills generally consume Stamina rather than Ki, so no Ki value is inferred.",
+        "No Future Warrior acquisition route is inferred."
+      ]
+    }
+  ],
+  "validation": {
+    "records": 1,
+    "subcategory_promoted": false,
+    "canonical_promotion": false,
+    "relationship_changes": 0,
+    "acquisition_routes_inferred": 0
+  },
+  "evidence_boundary": "This batch resolves the Evasive classification/cast boundary for Energy Boil but deliberately leaves the repository attack subcategory and numeric Ki cost unresolved."
+}
