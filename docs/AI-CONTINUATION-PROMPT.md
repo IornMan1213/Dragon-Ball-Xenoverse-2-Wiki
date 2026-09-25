@@ -1280,3 +1280,13 @@
 - [x] Commit: `6f10437e9c7f06f0db1c55b013c84d688f74956c`.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-219**.
+
+
+### 2026-09-24 cycle completion — Batches 219–220 Power Up audit refresh
+- [x] Refreshed **skill-batch-219** covering nine Fighting Pose Power Up Supers (F, G, A, B, C, D, E, H, I) to current verification scope.
+- [x] Refreshed **skill-batch-220** covering the remaining documented Power Up Super expansion records, retaining null/unknown acquisition or UF fields where evidence is insufficient.
+- [x] Preserved the rule that historical Xenoverse references do not replace current Xenoverse 2 acquisition evidence.
+- [x] Validation remains **469/469** canonical/index with **0 duplicate IDs** and no speculative canonical promotion.
+- [x] Commits: `8b96a13144941239a9c1da0a230b1ceacd669acd`, `9916bfe9dee7a235470ab5f6b230406981a74e62`.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-221**.
