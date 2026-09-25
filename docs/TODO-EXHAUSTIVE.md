@@ -7304,3 +7304,10 @@
 - [x] Preserved the 469/469 canonical/index boundary and unresolved numeric evidence fields.
 - [ ] CI remains unverified.
 - [ ] Exact next: inspect current Actions reruns, then complete skill-batch-183.
+
+### 2026-09-24 — TODO completion update — Mach Kick P1 provenance verification
+- [x] Completed skill-batch-183 — Mach Kick with Xenoverse 2 identity, Super/Strike classification, 100 Ki, PQ17 acquisition, six-kick mechanics, and Space Mach Attack relationship.
+- [x] Added and registered the Mach Kick provenance audit.
+- [x] Preserved the 469/469 canonical/index boundary and unresolved evidence fields.
+- [ ] CI remains unverified.
+- [ ] Exact next: inspect current Actions reruns, then complete skill-batch-184.
