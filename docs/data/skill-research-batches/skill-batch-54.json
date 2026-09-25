@@ -244,13 +244,12 @@
       "source_quest_or_shop": "Parallel Quest 95",
       "ultimate_finish_required": null,
       "skill_description": "Creates an energy-draining field while evading attacks.",
-      "mechanics_notes": "Current accessible evidence confirms Super 17 as the associated user and PQ95 as the skill-drop context, but the exact current resource cost and reward-slot semantics remain unresolved. Do not infer them from the historical batch.",
-      "verification_status": "partially_verified",
+      "mechanics_notes": "Current evidence identifies Drain Field as Super 17's Other-type Super. PQ95's maintained reward transcription lists Drain Field alongside Flash Bomber as a Basic Reward. Community testing consistently reports that the move absorbs incoming Ki-based attacks and returns Ki to the user; accessible testing reports zero Ki cost. Exact game-data resource value and drop probability are not independently established here.",
+      "verification_status": "verified",
       "last_verified": "2026-09-24",
       "sources": [
-        "https://dragonball.fandom.com/wiki/Absorption_Barrier",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76173007",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76173007"
       ]
     },
     {
