@@ -7711,3 +7711,12 @@
 - [x] Canonical/index boundary remains **469/469**.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the remaining unresolved skill-gap queue, beginning with **Boiling Burg / Energy Boil / Baked Sphere** using direct Xenoverse 2 evidence.
+
+
+### 2026-09-24 — TODO completion update — Boiling Burg evidence follow-up
+- [x] Strengthened Boiling Burg with independent Xenoverse 2 ID, ownership, Ultimate, and CaC-unavailable evidence.
+- [x] Preserved long ID 5540 versus short ID 540 identity mapping.
+- [x] Reduced the tracked gap to numeric Ki cost only.
+- [x] Preserved the **469/469** canonical boundary.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** research **Energy Boil** subtype and Ki cost with direct Xenoverse 2 evidence.
