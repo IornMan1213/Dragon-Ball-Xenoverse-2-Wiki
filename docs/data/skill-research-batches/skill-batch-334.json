@@ -23,7 +23,10 @@
       },
       "limits": [
         "Exact drop probability and first-clear guarantee remain unresolved."
-      ]
+      ],
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25"
     },
     {
       "name": "Supernova",
@@ -46,7 +49,10 @@
       "limits": [
         "The GameFAQs report supports non-automatic acquisition but does not establish a numerical drop rate; no rate is promoted.",
         "Historical reports about mission bugs are retained only as provenance context, not as a current mission-state claim."
-      ]
+      ],
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-25"
     },
     {
       "name": "Death Meteor",
