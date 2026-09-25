@@ -7842,3 +7842,15 @@
 - [x] No unsupported canonical promotion was introduced.
 - [ ] CI success remains unverified.
 - [ ] Exact next: continue with Batch 303 and resolve only directly supported missing fields.
+
+### 2026-09-24 cycle completion — Batch 302 cost-evidence reconciliation
+- [x] Live census before editing: **469 canonical/index records**, **0 duplicate IDs**, and **9 unresolved research-gap records**.
+- [x] Bounded batch: **skill-batch-302 — Energy Cannon and Darkness Mixer**.
+- [x] Research/evidence: current Xenoverse 2 documentation confirms Darkness Mixer as an **Other Super**, normally unavailable to CaCs; current gameplay documentation states it does not cost anything to use. Energy Cannon remains a **Super / Ki Blast**, CaC-unavailable Demigra skill, but the checked current Xenoverse 2-specific sources expose no reliable numeric in-combat Ki cost.
+- [x] Changes: added `docs/data/skill-batch-302-cost-evidence-audit-2026-09-24.json`; updated `docs/data/skill-research-batches/skill-batch-302.json` to record **Darkness Mixer = 0 Ki** in the research layer and preserve Energy Cannon as null; registered the audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Evidence limits preserved: no shop-price-to-Ki inference, no cross-game Energy Cannon/Kiai inference, and no stamina/frame/charge-rate values were invented.
+- [x] Validation: changed JSON files were parsed successfully; canonical/index boundary remains **469/469** with **0 duplicate IDs**; no canonical reconstruction or unsupported promotion was performed.
+- [ ] CI success remains unverified; no successful Actions result is claimed.
+- [x] Commits: audit `797552a796628bfa03c6bee48d4739377bfd7c78`; Batch 302 `cbe3a0f74e728c753ab4adf6f6928822cc4fa7fc`; cross-domain index `83fe67845639662549b40f06429c59a14922c6f7`.
+- [x] Live census after editing: **469 canonical/index records**, **0 duplicate IDs**, **9 unresolved research-gap records**.
+- [ ] **Exact next:** inspect the current Actions state, then continue **skill-batch-303 — Audacious Laugh** and resolve only fields with direct current Xenoverse 2 evidence; preserve existing acquisition/classification boundaries and do not invent a new batch identity.
