@@ -36,7 +36,7 @@
       "https://www.youtube.com/watch?v=lx-PHQxqByU",
       "https://dragonball.fandom.com/wiki/Counter_Burst"
     ],
-    "research_update": " Counter Burst was promoted to verified_current_scope after current Xenoverse 2-specific skill documentation and independent technique documentation confirmed its 100-Ki Ki Blast Super identity, six-hit counter projectile, PQ75 endpoint, and SSGSS Vegeta customization context; reward probability and Ultimate-Finish semantics remain unresolved."
+    "research_update": " Counter Burst was promoted to verified_current_scope after current Xenoverse 2-specific skill documentation and independent technique documentation confirmed its 100-Ki Ki Blast Super identity, six-hit counter projectile, PQ75 endpoint, and SSGSS Vegeta customization context; reward probability and Ultimate-Finish semantics remain unresolved. Last Emperor was promoted to verified_current_scope after current Xenoverse 2-specific and independent evidence corroborated its 0-Ki Ultimate identity, low-health/single-use restriction, and PQ71 provenance; exact reward probability and Ultimate-Finish semantics remain unresolved."
   },
   "records": [
     {
@@ -54,14 +54,14 @@
       "source_quest_or_shop": "Parallel Quest 71",
       "ultimate_finish_required": null,
       "skill_description": "Fires a powerful purple energy wave without using Ki, but can only be used once when the user's health is low.",
-      "mechanics_notes": "Current skill-specific data classifies Last Emperor as a Ki Blast Ultimate, 0 Ki, with a low-health once-only restriction and 21-hit beam behavior. A current-researched Xenoverse 2 Steam discussion independently distinguishes Last Emperor from Emperor's Death Beam and corroborates that it uses no Ki and can only be performed at low health; no new damage or frame values are inferred.",
-      "verification_status": "partially_verified",
+      "mechanics_notes": "Current Xenoverse 2-specific evidence confirms Last Emperor as a 0-Ki Ki Blast Ultimate. It can be activated only at low health and only once per battle; independent discussion distinguishes it from Emperor's Death Beam and corroborates the no-Ki/low-health restriction. Repository skill-specific evidence retains the 21-hit beam note. PQ71 remains the acquisition endpoint; TP Medal Shop and 1st Form Frieza Partner Customization are documented in current skill provenance, but no exact reward probability or Ultimate-Finish-only requirement is inferred.",
+      "verification_status": "verified_current_scope",
       "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Last_Emperor",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://steamcommunity.com/app/454650/discussions/0/1759104257589123714/",
-        "https://www.youtube.com/watch?v=lx-PHQxqByU"
+        "https://www.youtube.com/watch?v=lx-PHQxqByU",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74440337"
       ]
     },
     {
