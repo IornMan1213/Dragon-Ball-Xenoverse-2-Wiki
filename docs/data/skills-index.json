@@ -5983,7 +5983,7 @@
       "ultimate_finish_required": null,
       "skill_description": "A freezing Ki Blast Ultimate that hits five times and freezes the opponent.",
       "mechanics_notes": "300-Ki freezing Ki Blast Ultimate; current evidence describes a five-hit projectile that freezes the opponent for 3 seconds.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-24",
       "sources": [
@@ -5991,7 +5991,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "wish",
-      "notes": "2026-09-24 coverage recovery: promoted the pre-existing Skill Research Batch 307 record into canonical coverage after live repository search confirmed it was absent. Classification, 300 Ki cost, CaC availability, wish endpoint, and documented freezing effect are retained without unsupported reward or probability claims.",
+      "notes": "2026-09-24 coverage recovery: promoted the pre-existing Skill Research Batch 307 record into canonical coverage after live repository search confirmed it was absent. Classification, 300 Ki cost, CaC availability, wish endpoint, and documented freezing effect are retained without unsupported reward or probability claims. 2026-09-25 provenance promotion: current dedicated Xenoverse 2 evidence directly exposes the 300-Ki Ultimate/Ki Blast classification, Shenron wish endpoint, CaC availability, and freezing behavior. No unsupported wish frequency, prerequisite, or reward probability is inferred.",
       "id": "skill-ice-cannon"
     },
     {
@@ -11272,10 +11272,10 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-24",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-22 provenance refresh: current dedicated evidence confirms 200 Ki, five charge stages, and Goku Lesson 2 acquisition; current reference material also documents the technique's enhanced behavior when used during Super Saiyan transformations. 2026-09-23 final-stale-queue refresh: dedicated current evidence and maintained acquisition documentation were rechecked; existing acquisition/classification/mechanics bounds are preserved without inferring unsupported probability, prerequisite, timer, frame data, stacking cap, or damage values.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-22 provenance refresh: current dedicated evidence confirms 200 Ki, five charge stages, and Goku Lesson 2 acquisition; current reference material also documents the technique's enhanced behavior when used during Super Saiyan transformations. 2026-09-23 final-stale-queue refresh: dedicated current evidence and maintained acquisition documentation were rechecked; existing acquisition/classification/mechanics bounds are preserved without inferring unsupported probability, prerequisite, timer, frame data, stacking cap, or damage values. 2026-09-25 data-quality correction: normalized source_quest_or_shop capitalization to the canonical mentor name; no acquisition meaning changed.",
       "mechanics_notes": "200-Ki Ki Blast Super learned from Goku's Lesson 2. The user charges a red Kamehameha through up to five stages; current dedicated evidence documents increasing hit counts from 6 at Stage 1 through 18 at Stage 5 under ideal conditions.",
       "source_quest": "Goku mentor training — Lesson 2.",
-      "source_quest_or_shop": "goku mentor training"
+      "source_quest_or_shop": "Goku mentor training — Lesson 2"
     },
     {
       "id": "skill-zigzag-express",
