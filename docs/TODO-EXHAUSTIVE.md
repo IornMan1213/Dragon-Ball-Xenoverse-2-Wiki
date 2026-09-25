@@ -233,3 +233,12 @@
 - [x] Preserved unresolved Expert Mission reward probability/guarantee semantics.
 - [ ] CI remains unverified.
 - [x] **Exact next:** continue with **Shocking Death Ball** and **Spirit Sword**, then the next partially verified Expert Mission skill.
+
+
+### 2026-09-25 completion — Expert Mission EM04/06/14/17 provenance promotion
+- [x] Promoted **Super Destructo-Disc**, **Supernova**, **Shocking Death Ball**, and **Spirit Sword** to `verified_current_scope`.
+- [x] Added and registered four current-evidence audits.
+- [x] Synchronized canonical skill and Expert Mission acquisition projections.
+- [x] Preserved unresolved reward probability/first-clear/UF semantics and historical reward conflicts.
+- [ ] CI remains unverified.
+- [x] **Exact next:** continue the remaining partially verified Expert Mission records, starting with **Dead End Bullet**, **Assault Rain**, **Super Electric Strike**, and **Angry Explosion**.
