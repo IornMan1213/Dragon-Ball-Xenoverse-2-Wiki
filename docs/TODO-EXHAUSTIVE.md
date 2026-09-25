@@ -7910,3 +7910,15 @@
 - [ ] CI: no workflow runs are exposed yet for the latest commit `0316e35e6a260e32d287bd2d00da6100250744ee`; no CI success claimed.
 - [x] Commits: audit `74ed5fce17e54e9077152709160e0ce6f44cfd5c`; cross-domain registration `0316e35e6a260e32d287bd2d00da6100250744ee`.
 - [ ] **Exact next:** inspect the next deterministic partially verified/cast-exclusive skill tranche after Batch 308, prioritizing records whose missing fields can be resolved by direct current Xenoverse 2 evidence; preserve the canonical builder boundary until a supported complete-file write path is available.
+
+
+### 2026-09-24 cycle completion — Batch 56 Appetizing Rush evidence reconciliation
+- [x] Bounded batch: **skill-batch-56 — Appetizing Rush**.
+- [x] Revalidated current Xenoverse 2 evidence: Strike Ultimate, Android 21, cast-exclusive/CaC-unavailable, and Ultra Pack 2 association.
+- [x] Confirmed the current Character ID evidence distinguishes Appetizing Rush as long ID **6111** / short ID **1111**, CaC Skill = No.
+- [x] Recorded a live-source **Ki-cost conflict**: the dedicated Appetizing Rush page reports **400 Ki**, while the current Ultimate Attack table reports **300 Ki**. Neither value was promoted because the conflict is unresolved.
+- [x] Added and registered `docs/data/skill-batch-56-appetizing-rush-evidence-audit-2026-09-24.json`; updated `docs/data/skill-research-batches/skill-batch-56.json` with the evidence boundary.
+- [x] Validation: audit, research batch, and cross-domain registry parsed successfully; canonical skill catalogs were not reconstructed or speculatively modified.
+- [ ] CI: no workflow runs exposed for the latest Batch 56 write; no CI success claimed.
+- [x] Commits: audit `5deaf1b68318563ba22a7a1c6365949ef3f43c33`; registry `b53f2954635e50c174a98eb81cdddc8b88918223`; batch `8e64ee4394da4c1f8e5253871f6f67f8057ea2c7`.
+- [ ] **Exact next:** continue the next existing partially verified skill-research record after Batch 56, using current Xenoverse 2 evidence to resolve classification/acquisition/mechanics where possible and preserving conflicts/nulls where evidence remains insufficient.
