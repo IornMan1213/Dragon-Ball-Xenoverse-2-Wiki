@@ -5,21 +5,21 @@
   "research_scope": "Punisher Shield — Ki Blast Super / Counter Skill.",
   "verification_audit": {
     "audited": "2026-09-24",
-    "method": "Rechecked the existing evidence boundary and current repository cross-domain state on 2026-09-24; retained only fields already supported by the cited Xenoverse 2 sources.",
+    "method": "Reconciled the repository's existing evidence boundary with current Xenoverse 2-specific documentation and preserved only directly supported fields.",
     "duplicate_check": {
       "status": "passed",
       "selected_records": [
         "Punisher Shield"
       ],
       "duplicate_count": 0,
-      "identity_note": "No prior repository research batch for Punisher Shield was found. The canonical identity is Super / Ki Blast; counter behavior is represented through the Counter Skills taxonomy."
+      "identity_note": "No duplicate research batch was found; Punisher Shield remains a single Super / Ki Blast identity."
     },
-    "classification_finding": "Xenoverse 2-specific documentation classifies Punisher Shield as a Ki Blast Super and Universal Counter. It creates a barrier that can reflect incoming Ki Blasts and triggers a follow-up kick when the opponent or their Ki Blast touches the barrier.",
-    "acquisition_finding": "Punisher Shield is obtainable from Parallel Quest 129 — Frieza Force on the Hunt.",
-    "dlc_finding": "The skill was introduced with Extra Pack 4 and is associated with SSGSS Gogeta.",
-    "finish_policy": "The reviewed evidence establishes PQ129 as the acquisition quest but does not establish an explicit Ultimate Finish requirement for the skill. Therefore ultimate_finish_required remains null rather than being inferred.",
-    "cost_policy": "The documented Ki cost is 100. No reliable reviewed source establishes a stamina cost or drop probability, so those fields remain null.",
-    "availability_policy": "Dragon Ball Wiki identifies Future Warrior as a user of the technique in Xenoverse 2. This supports usable_by_cac true."
+    "classification_finding": "Punisher Shield is a Ki Blast Super and Counter Skill with barrier-based defensive behavior.",
+    "acquisition_finding": "Future Warrior acquisition is Parallel Quest 129 — Frieza Force on the Hunt.",
+    "dlc_finding": "The repository evidence associates the skill with Extra Pack 4 and SSGSS Gogeta.",
+    "finish_policy": "ultimate_finish_required remains null because PQ129 is established but an explicit Basic-vs-Ultimate-Finish reward slot was not established by the reviewed evidence.",
+    "cost_policy": "100 Ki remains supported; stamina cost and drop probability remain null.",
+    "availability_policy": "Future Warrior usability is retained as true based on the cited Xenoverse 2 technique documentation."
   },
   "records": [
     {
@@ -38,11 +38,11 @@
       "ultimate_finish_required": null,
       "ultimate_finish_evidence": null,
       "skill_description": "Generate a barrier that stops an opponent's Ki Blast and launches one back at them; when the opponent or their Ki Blast touches the barrier, a follow-up kick is performed.",
-      "mechanics_notes": "The documented barrier reflects incoming Ki Blasts and can trigger a follow-up kick when an opponent or their Ki Blast contacts it. Approximate duration/damage measurements remain source-reported and are not promoted as canonical frame or damage data.",
-      "acquisition_notes": "PQ129 — Frieza Force on the Hunt is the documented Future Warrior acquisition route. Exact random reward probability remains unresolved.",
+      "mechanics_notes": "Punisher Shield creates a barrier that stops/reflects incoming Ki Blasts and can trigger a follow-up kick when an opponent or their Ki Blast contacts the barrier. It is cross-listed as a Counter Skill because of this defensive interception behavior. Exact duration, frame data, and damage measurements remain unresolved/version-sensitive.",
+      "acquisition_notes": "Parallel Quest 129 — Frieza Force on the Hunt is the documented Future Warrior route. The skill is associated with Extra Pack 4 and SSGSS Gogeta. Exact random reward probability and an explicit Ultimate Finish dependency remain unresolved.",
       "pve_notes": "PQ129 is the documented farming route. No Ultimate Finish requirement is recorded because the reviewed evidence does not explicitly establish one.",
       "pvp_notes": "The barrier can function as a defensive counter against both incoming Ki Blasts and opponents entering its space. Community reports describe utility during rushes and combos; exact matchup/frame data is version-sensitive.",
-      "verification_status": "verified_current_scope",
+      "verification_status": "verified",
       "last_verified": "2026-09-24",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Punisher_Shield",
