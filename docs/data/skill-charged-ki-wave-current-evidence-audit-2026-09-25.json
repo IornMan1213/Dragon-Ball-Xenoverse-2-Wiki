@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-charged-ki-wave-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Charged Ki Wave",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Other",
+    "cost": 100,
+    "source_quest_or_shop": "Parallel Quest 97 — Insidious Plot",
+    "mechanics": "100-Ki Other Super that converts Ki into Stamina and completes much faster than Rise to Action; repeated input can restore additional Stamina while Ki is available."
+  },
+  "limits": [
+    "Exact reward probability remains unresolved.",
+    "No hidden Ultimate-Finish-only gate is inferred where the evidence does not establish one."
+  ],
+  "evidence_summary": "Current Xenoverse 2-specific documentation confirms 100 Ki, Other Super classification, Stamina-restoration behavior, and PQ97 acquisition. PQ97's maintained reward transcription lists Charged Ki Wave as a Basic Reward, while historical community reports discuss conflicting post-update resource behavior; no numeric drop probability is inferred.",
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Charged_Ki_Wave",
+    "https://dragonball.fandom.com/wiki/Charged_Ki_Wave",
+    "https://dbxenoverse.fandom.com/wiki/97_-_Insidious_Plot",
+    "https://steamcommunity.com/app/454650/discussions/0/1735463620079226786"
+  ]
+}
