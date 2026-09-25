@@ -72,7 +72,8 @@
     "skill_absolute_zero_p1_provenance_2026_09_24": "docs/data/skill-absolute-zero-p1-provenance-verification-2026-09-24.json",
     "skill_burst_reflection_p1_provenance_2026_09_24": "docs/data/skill-burst-reflection-p1-provenance-verification-2026-09-24.json",
     "skill_time_skip_back_breaker_p1_provenance_2026_09_24": "docs/data/skill-time-skip-back-breaker-p1-provenance-verification-2026-09-24.json",
-    "skill_time_skip_flash_skewer_p1_provenance_2026_09_24": "docs/data/skill-time-skip-flash-skewer-p1-provenance-verification-2026-09-24.json"
+    "skill_time_skip_flash_skewer_p1_provenance_2026_09_24": "docs/data/skill-time-skip-flash-skewer-p1-provenance-verification-2026-09-24.json",
+    "skill_time_skip_jump_spike_p1_provenance_2026_09_24": "docs/data/skill-time-skip-jump-spike-p1-provenance-verification-2026-09-24.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",
