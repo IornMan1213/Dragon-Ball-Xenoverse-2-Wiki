@@ -40,7 +40,7 @@
       "https://dbxv2.fandom.com/wiki/Prince_of_Destruction_Vegeta",
       "https://dbxv2.fandom.com/wiki/SSGSS_Vegeta_%28Evolved%29"
     ],
-    "research_update": "Batch 54 PQ98-PQ100 current-evidence pass completed for Dimension Ray, Emperor's Edge, and X100 Big Bang Kamehameha. Direct PQ reward transcriptions corroborate the acquisition endpoints; current skill documentation corroborates mechanics. Exact drop probabilities and Ultimate-Finish-only semantics remain unresolved where not directly established."
+    "research_update": "Current-evidence promotion completed for Neo Wolf Fang Fist. Current Xenoverse 2-specific skill documentation confirms the variable 100–700 Ki Strike Super and 9–33 hit continuable rush; independent PQ reward documentation corroborates PQ86 as the acquisition endpoint. Historical community reports about older resource behavior are retained as provenance and are not used to override current documentation. Exact reward probability and hidden Ultimate-Finish semantics remain unresolved."
   },
   "records": [
     {
@@ -58,12 +58,14 @@
       "source_quest_or_shop": "Parallel Quest 86",
       "ultimate_finish_required": null,
       "skill_description": "An enhanced Wolf Fang Fist sequence that can be extended while the input is held.",
-      "mechanics_notes": "Independent current reporting identifies the move as a Strike Super and describes an initial stamina cost that can increase as the attack is extended; exact canonical resource behavior should be audited further.",
-      "verification_status": "verified",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "Current Xenoverse 2-specific documentation confirms Neo Wolf Fang Fist as a Strike Super with a variable 100–700 Ki cost and 9–33 hit continuable rush. The user spin-kicks into a clawing barrage, can continue the sequence while the input is held, and ends by knocking the opponent away. Current documentation records up to 40% damage for the full sequence. Independent current/archived reporting confirms PQ86 — Yamcha is Number One as the acquisition endpoint; exact reward probability and any hidden gate remain unresolved.",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Neo_Wolf_Fang_Fist",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74515401",
+        "https://steamcommunity.com/app/454650/discussions/0/1697168437858553062"
       ]
     },
     {
