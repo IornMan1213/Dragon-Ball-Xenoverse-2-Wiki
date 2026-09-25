@@ -2288,3 +2288,12 @@
 - [x] No canonical relationship or skill identity data changed.
 - [ ] CI/runtime execution remains unavailable; no CI success claimed.
 - [ ] **Exact next:** continue auditing remaining PQ-facing validators and summary consumers for stale endpoint/scalar assumptions.
+
+
+### 2026-09-25 continuation cycle — Super Soul/equipment reverse PQ validator hardening
+- [x] Audited `scripts/validate_record_reverse_pq_navigation.py` for endpoint-only current-state assumptions.
+- [x] Added explicit current domain-edge invariants: **145 Super Soul** and **124 equipment** canonical PQ edges, canonical PQ IDs constrained to **1–186**, and canonical rows must be well formed.
+- [x] Added `docs/data/record-reverse-pq-validator-hardening-2026-09-25.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Canonical relationships and record identities were not modified.
+- [ ] CI/runtime execution remains unavailable; no CI success claimed.
+- [ ] **Exact next:** continue auditing the remaining PQ-facing summary/reference consumers for incomplete six-domain coverage or stale current scalars.
