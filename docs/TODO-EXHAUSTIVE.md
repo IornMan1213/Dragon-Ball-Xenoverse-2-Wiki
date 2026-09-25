@@ -7080,3 +7080,16 @@
 - [x] Canonical/index parity remains 469/469.
 - [ ] CI/runtime unavailable; no CI success claimed.
 - [ ] **Exact next:** continue substantive P1 evidence enrichment.
+
+
+### 2026-09-24 cycle completion — bounded skill P1 provenance enrichment, PQ87–PQ91
+- [x] Selected the next substantive P1 batch from existing research batch 54 after the verification-date queue was exhausted: **Atomic Blast, Buu Buu Ball, Victory Rush, III Bomber, and Final Kamehameha**.
+- [x] Added `docs/data/skill-pq87-pq91-p1-provenance-enrichment-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Refreshed `docs/data/skill-research-batches/skill-batch-54.json` with current Xenoverse 2-specific classification, resource, acquisition, and mechanics evidence.
+- [x] Corrected the research-layer **Buu Buu Ball** classification from stale Ultimate/Ki Blast metadata to **Strike Evasive**, **300 Stamina**, **Majin CaC**; the correction is source-backed by the current Xenoverse 2 skill reference.
+- [x] Added current mechanics evidence for Atomic Blast, Victory Rush, and III Bomber while preserving unresolved universal damage/probability fields.
+- [x] Preserved the **Final Kamehameha** acquisition conflict: current reference lists PQ91 and TP Medal Shop, while historical player reports discuss Ultimate-Finish/RNG behavior and the maintained PQ transcription places it in Basic Rewards. `ultimate_finish_required` remains unresolved; no drop probability was invented.
+- [x] Canonical `skills.json` / `skills-index.json` were not manually reconstructed; the established **469/469** boundary is preserved until the supported builder/runtime is available.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [x] Commits: audit `d030db0bf8e89dfff7e793575d7c80c03caeeccc`; research batch `2fd2100ce2544cd4114211dbc7605b64d075a60b2`; registry `1989441c167f340709679293f5fc02283ab4c645`.
+- [ ] **Exact next:** continue substantive P1 enrichment from the next existing partially verified research batch after PQ87–PQ91, prioritizing records where current Xenoverse 2 evidence can resolve real classification/resource/acquisition/mechanics fields. Do not manually promote into the 469/469 canonical catalogs without the supported builder.
