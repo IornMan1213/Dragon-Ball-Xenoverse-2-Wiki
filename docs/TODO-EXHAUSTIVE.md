@@ -7545,3 +7545,12 @@
 - [x] Validation baseline remains **469/469** canonical/index with **0 duplicate IDs**; no speculative records were created.
 - [ ] CI remains unverified because the Actions jobs continue to fail without exposed workflow steps/logs.
 - [ ] **Exact next:** inspect current Actions state, then process **skill-batch-214**.
+
+
+### 2026-09-24 — TODO completion update — Batch 214 counter-taxonomy refresh
+- [x] Refreshed **skill-batch-214** for Burst Rush, Super God Shock Flash, and Heroic Counter.
+- [x] Preserved their current counter subtypes and acquisition/Ultimate-Finish semantics without changing canonical identities.
+- [x] Validation remains **469/469** canonical/index with **0 duplicate IDs**.
+- [x] Commit: `b36c5f284635bb893a13388d6b4b260323804d15`.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** inspect current Actions state, then process **skill-batch-215**.
