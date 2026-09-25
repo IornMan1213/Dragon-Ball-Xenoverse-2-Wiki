@@ -101,7 +101,8 @@
     "skill_batch_335_em_09_12_2026_09_25": "docs/data/skill-research-batches/skill-batch-335.json",
     "skill_batch_336_em17_spirit_sword_2026_09_25": "docs/data/skill-research-batches/skill-batch-336.json",
     "skill_catalog_current_scalar_correction_2026_09_25": "docs/data/skill-catalog-current-scalar-correction-2026-09-25.json",
-    "skill_batch_337_lightning_impact_variant_2026_09_25": "docs/data/skill-research-batches/skill-batch-337.json"
+    "skill_batch_337_lightning_impact_variant_2026_09_25": "docs/data/skill-research-batches/skill-batch-337.json",
+    "skill_batch_338_current_evidence_refresh_2026_09_25": "docs/data/skill-research-batches/skill-batch-338.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",
