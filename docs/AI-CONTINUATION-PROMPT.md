@@ -128,3 +128,14 @@
 - [x] Validation: parsed the updated Batch 52/index JSON and confirmed the Counter Burst record and audit registration.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** continue Batch 52 with the next under-enriched skill where current Xenoverse 2-specific evidence can materially promote a canonical field.
+
+
+### 2026-09-25 cycle completion — Last Emperor current-evidence provenance promotion
+- [x] Updated `docs/data/skill-last-emperor-current-evidence-audit-2026-09-25.json` with the completed provenance promotion.
+- [x] Promoted **Last Emperor** in Skill Research Batch 52 to `verified_current_scope` using current Xenoverse 2-specific and independent evidence.
+- [x] Confirmed 0-Ki Ki Blast Ultimate identity, low-health/single-use restriction, PQ71 provenance, and bounded beam mechanics evidence.
+- [x] Preserved unresolved reward probability and Ultimate-Finish semantics; no hidden requirement was inferred.
+- [x] Registered the audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: parsed the updated Batch 52/index/audit JSON and confirmed the Last Emperor promotion and registration.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** continue Batch 52 with **Burst Kamehameha**.
