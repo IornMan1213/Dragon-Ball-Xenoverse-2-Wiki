@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-majin-kamehameha-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Majin Kamehameha",
+  "result": "current_evidence_refresh",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Ki Blast",
+    "ki_cost": 100,
+    "source_quest_or_shop": "Parallel Quest 60 — \"Blast the Super Spirit Bomb!\"",
+    "mechanics": "Chargeable pink Kamehameha with three stages; current skill documentation reports 5 hits at base charge and up to 15 hits at maximum charge, with approximately 10% to 15% damage.",
+    "race_restriction": "Majin CaCs",
+    "character_source": "Majin Buu (Good); Super Buu; Kid Buu; Mira; Android 21; Majin CaCs"
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Majin_Kamehameha",
+    "https://dragonball.fandom.com/wiki/Majin_Kamehameha",
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "limits": [
+    "Source-reported hit/damage ranges are bounded to the cited current documentation.",
+    "No exact charge timing or frame data is inferred.",
+    "No hidden reward gate or numeric drop probability is added."
+  ]
+}
