@@ -259,3 +259,14 @@
 - [x] Validation: live acquisition census is now **12 verified / 6 partially verified / 18 unresolved exact drop rates**; canonical records for all four were already `verified_current_scope`, so this cycle closes the projection parity gap.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** continue the remaining six partially verified Expert Mission records: **Dead End Rain, Blue Hurricane, Super Spirit Bomb, Focus Flash, Tail Slicer, Data Input**, beginning with a live canonical/source census.
+
+
+### 2026-09-25 cycle completion — Expert Mission EM13/15/16/18/19/20 provenance closure
+- Live census before editing: 18 EM03-20 non-tutorial acquisition records; 12 verified / 6 partially verified.
+- [x] Promoted **Dead End Rain**, **Blue Hurricane**, **Super Spirit Bomb**, **Focus Flash**, **Tail Slicer**, and **Data Input** to `verified_current_scope` in the canonical skill layer and acquisition projection.
+- [x] Added six current-evidence audits and registered all six cross-domain links.
+- [x] Existing repository evidence confirms current classifications/costs and EM13/15/16/18/19/20 endpoints; Data Input's historical DLC/update provenance conflict remains preserved.
+- [x] Preserved unresolved exact drop probability, first-clear guarantee, and unsupported Ultimate-Finish-only semantics.
+- [x] Live validation after editing: **18 verified / 0 partially verified / 18 total**, with exact drop rates unresolved.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** perform a fresh repository-wide census for the next under-enriched/partially-verified canonical skills outside the now-closed EM03-20 acquisition tranche; prioritize deterministic index/provenance gaps before broad descriptive expansion.
