@@ -1,3 +1,11 @@
+### 2026-09-24 cycle completion — Skill Research Batch 297 provenance refresh
+- [x] Refreshed Batch 297 for Blaster Stream, Brave Heat, Chain Destructo-Disc Barrage, and Circle Flash with current Xenoverse 2 taxonomy, 300 Ki cost, acquisition endpoints, character/DLC provenance, and directly documented mechanics.
+- [x] Added and registered `docs/data/skill-batch-297-provenance-refresh-2026-09-24.json`.
+- [x] Preserved unresolved Ultimate Finish, drop-probability, exact-frame, and version-sensitive damage fields rather than inferring them.
+- [x] Preserved the 469/469 canonical/index boundary; no speculative catalog reconstruction.
+- [ ] CI success remains unverified; current commit's Repository quality and Wiki data audit failed, while Clean internal artifacts was cancelled.
+- [ ] **Exact next:** continue the next deterministic skill-research tranche after Batch 297; do not invent a new batch identity or manually promote records without the supported builder/runtime.
+
 ### 2026-09-24 cycle completion — Dragon Burn P1 provenance verification
 - [x] Completed **skill-batch-196 — Dragon Burn** with **Evasive / Ki Blast** classification and separate Counter Skill taxonomy.
 - [x] Confirmed **200 Stamina**, Future Warrior usability, Nuova Shenron provenance, and GT Pack 2 association.
