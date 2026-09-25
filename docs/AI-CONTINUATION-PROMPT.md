@@ -1572,3 +1572,12 @@
 - [x] Validation: changed JSON files were generated from parsed JSON and written successfully; cross-domain registration and TODO/handoff append completed.
 - [ ] CI success remains unverified; do not claim success without an observable successful run.
 - [ ] **Exact next:** continue with the next deterministic partially verified skill-research batch after Batch 296, using repository evidence first and only promoting fields directly supported by current Xenoverse 2 evidence.
+
+### 2026-09-24 cycle completion — Batch 301 verification
+- [x] Verified Batch 301 against current Xenoverse 2 Ultimate Attack documentation.
+- [x] Confirmed Final Galick Rush and Super Dragon Flight (Ultimate) are 300-Ki cast-exclusive Ultimates; Explosive Scream remains Cell Max's unobtainable Ki Blast Ultimate.
+- [x] Preserved the existing Gigantic Ki Blast raid/Expert Mission distinction and did not infer additional acquisition data.
+- [x] Refreshed `docs/data/skill-research-batches/skill-batch-301.json` with the verification boundary.
+- [x] No unsupported canonical promotion or speculative cost/acquisition inference was made.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** inspect Batch 302 and resolve only fields directly supported by current Xenoverse 2 evidence, preserving nulls where evidence is insufficient.
