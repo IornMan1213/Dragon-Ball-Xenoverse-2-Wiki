@@ -8270,3 +8270,13 @@
 - [x] Validation passed after correcting the cross-domain index delimiter; all changed/readback JSON now parse cleanly.
 - [ ] CI remains unverified.
 - [ ] **Exact next:** continue the current exact-pair producer/consumer census with the next equipment/accessory or PQ presentation consumer that exposes a deterministic stale scalar or one-way navigation mismatch.
+
+
+### 2026-09-25 cycle completion — Current PQ endpoint domain-count parity
+- [x] Repaired stale current PQ endpoint consumer counts: **equipment/accessory 173 → 174** and **characters 151 → 152**.
+- [x] Added/registered `docs/data/pq-endpoint-navigation-current-domain-count-parity-2026-09-25.json`.
+- [x] Preserved **853 total canonical relationship edges** and all per-domain relationship counts.
+- [x] Preserved the distinction between 174 equipment/accessory records and 173 PQ reward targets; no new reward edge was inferred.
+- [x] All changed JSON parsed successfully.
+- [ ] CI remains unverified.
+- [ ] **Exact next:** continue the deterministic current producer/consumer census for the next stale scalar or one-way cross-domain presentation mismatch.
