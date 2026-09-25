@@ -815,5 +815,10 @@
   "skill_sauzer_blade_current_evidence_audit_2026_09_25": "docs/data/skill-sauzer-blade-current-evidence-audit-2026-09-25.json",
   "skill_savory_slicer_current_evidence_audit_2026_09_25": "docs/data/skill-savory-slicer-current-evidence-audit-2026-09-25.json",
   "skill_scissors_paper_rock_current_evidence_audit_2026_09_25": "docs/data/skill-scissors-paper-rock-current-evidence-audit-2026-09-25.json",
-  "skill_batch_343_current_evidence_promotion_2026_09_25": "docs/data/skill-research-batches/skill-batch-343.json"
+  "skill_batch_343_current_evidence_promotion_2026_09_25": "docs/data/skill-research-batches/skill-batch-343.json",
+  "skill-seagull-combination-current-evidence-audit-2026-09-25": "docs/data/skill-seagull-combination-current-evidence-audit-2026-09-25.json",
+  "skill-shining-slash-current-evidence-audit-2026-09-25": "docs/data/skill-shining-slash-current-evidence-audit-2026-09-25.json",
+  "skill-shooting-strike-current-evidence-audit-2026-09-25": "docs/data/skill-shooting-strike-current-evidence-audit-2026-09-25.json",
+  "skill-soaring-rush-current-evidence-audit-2026-09-25": "docs/data/skill-soaring-rush-current-evidence-audit-2026-09-25.json",
+  "skill_batch_344_current_evidence_promotion_2026_09_25": "docs/data/skill-research-batches/skill-batch-344.json"
 }
