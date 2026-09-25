@@ -1738,3 +1738,16 @@
 - [ ] CI/runtime remains unverified.
 - [x] Commits: `63460a5dec9bf7a1ed08077eff2e98c19411b660`, `6ead78edc6d293f604a9f1444f28c9643bcea3fd`, `d0418abddec897f85fe5510f204eb7084945e2ea`.
 - [ ] **Exact next:** continue the residual accessory queue with the remaining unmatched identities; prioritize Android 14's Hat, Bardock (DB Super)'s Scouter, and any remaining records lacking a canonical inventory identity.
+
+
+### 2026-09-24 cycle completion — residual accessory identity evidence boundary: Android 14's Hat and Bardock (DB Super)'s Scouter
+- [x] Recomputed the live residual accessory bridge: the two targeted records remain unresolved at the canonical inventory layer; no duplicate accessory IDs were created.
+- [x] Audited **pqacc-023 — Android 14's Hat (PQ104)** against current Xenoverse 2 equipment evidence. Current equipment documentation and an independent equipment guide identify **Android 14's Clothes** as the PQ104 reward, not a separately named hat/accessory.
+- [x] Audited **pqacc-025 — Bardock (DB Super)'s Scouter (PQ146)** against current Xenoverse 2 PQ/equipment evidence. PQ146 identifies **Bardock (DB Super)'s Clothes**, not a separately named Bardock-specific scouter accessory.
+- [x] Added `docs/data/accessory-android14-bardock-super-scouter-evidence-audit-2026-09-24.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Added the evidence-audit reference to `docs/data/accessory-pq-canonical-bridge.json` and preserved both records as `researched_unresolved` rather than inferring a generic or clothing-derived accessory identity.
+- [x] Added explicit source-conflict/evidence-boundary notes to `docs/data/accessory-pq-research.json`.
+- [x] Validation: all changed JSON files re-parsed successfully; no internal citation/export artifact markers were found in the changed JSON; live `skills-index.json` contains **470** records.
+- [ ] CI success remains unverified; no successful Actions result was exposed during this cycle.
+- [x] Commits: `08d569d0abbf2916b9fddd14427032cba0b987ed`, `885e95c633b3ca65a489f2de8894205668cb82c7`, `c00c56d5d7d411714e55222ce989732057bcc82a`, `a487d9d29d333e69f1fab295a9e820b4392064ed`, `9d8281859d2ef81315e121e452ac9293e7028a64`.
+- [ ] **Exact next:** continue the remaining evidence-backed residual accessory queue only where an exact current inventory endpoint can be established; otherwise return to the deterministic non-PQ/mentor consumer scan and preserve unresolved accessory identities rather than creating speculative canonical records.
