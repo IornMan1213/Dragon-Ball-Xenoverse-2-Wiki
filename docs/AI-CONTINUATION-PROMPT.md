@@ -991,3 +991,13 @@
 - [x] Canonical/index boundary remains **469/469**; no unsupported canonical promotion was attempted.
 - [ ] CI success remains unverified.
 - [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-187**.
+
+### 2026-09-24 cycle completion — God Breaker P1 provenance verification
+- [x] Completed **skill-batch-187 — God Breaker**.
+- [x] Revalidated Xenoverse 2 identity, **100 Ki**, PQ44 acquisition, melee/Strike counter behavior including grabs, and Ki Blast output.
+- [x] Clarified the taxonomy: repository Strike classification represents the melee-counter family, while the resulting attack remains **Ki Blast**.
+- [x] Added and registered **docs/data/skill-god-breaker-p1-provenance-verification-2026-09-24.json**.
+- [x] Preserved unresolved stamina, exact active-frame/damage/tracking data, and random reward probability.
+- [x] Canonical/index boundary remains **469/469**; no unsupported canonical promotion was attempted.
+- [ ] CI success remains unverified.
+- [ ] **Exact next:** inspect current Actions state, then continue **skill-batch-188**.
