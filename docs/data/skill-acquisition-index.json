@@ -31,9 +31,10 @@
     {
       "skill": "Super Destructo-Disc",
       "expert_mission": 4,
-      "status": "partially_verified",
+      "status": "verified_current_scope",
       "skill_id": "skill-super-destructo-disc",
-      "endpoint_id": "em-04"
+      "endpoint_id": "em-04",
+      "last_verified": "2026-09-25"
     },
     {
       "skill": "Death Wave",
@@ -46,9 +47,10 @@
     {
       "skill": "Supernova",
       "expert_mission": 6,
-      "status": "partially_verified",
+      "status": "verified_current_scope",
       "skill_id": "skill-supernova",
-      "endpoint_id": "em-06"
+      "endpoint_id": "em-06",
+      "last_verified": "2026-09-25"
     },
     {
       "skill": "Death Meteor",
@@ -104,9 +106,10 @@
     {
       "skill": "Shocking Death Ball",
       "expert_mission": 14,
-      "status": "partially_verified",
+      "status": "verified_current_scope",
       "skill_id": "skill-shocking-death-ball",
-      "endpoint_id": "em-14"
+      "endpoint_id": "em-14",
+      "last_verified": "2026-09-25"
     },
     {
       "skill": "Blue Hurricane",
@@ -125,9 +128,10 @@
     {
       "skill": "Spirit Sword",
       "expert_mission": 17,
-      "status": "partially_verified",
+      "status": "verified_current_scope",
       "skill_id": "skill-spirit-sword",
-      "endpoint_id": "em-17"
+      "endpoint_id": "em-17",
+      "last_verified": "2026-09-25"
     },
     {
       "skill": "Focus Flash",
