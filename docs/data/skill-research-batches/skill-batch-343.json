@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 343,
+  "created": "2026-09-25",
+  "type": "evidence_reconciliation",
+  "scope": "Current Xenoverse 2 provenance/mechanics promotion for the next four verified frontier skills",
+  "records": [
+    {
+      "id": "skill-recoome-kick",
+      "name": "Recoome Kick",
+      "class": "Super",
+      "subcategory": "Strike",
+      "acquisition_endpoint": "Parallel Quest 61 — \"The Cell Games Continued\"",
+      "ki_cost": 100,
+      "character_source": "Recoome",
+      "mechanics": "Fast single-hit flying knee/side-kick rush; on a successful hit, the user's normal/basic attack power is temporarily increased. Current skill documentation lists 10% damage.",
+      "promoted_fields": [
+        "verification_status",
+        "research_status",
+        "last_verified",
+        "character_source",
+        "mechanics_notes"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Recoome_Kick",
+        "https://dragonball.fandom.com/wiki/Recoome_Kick",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "limits": [
+        "Exact attack-buff magnitude/duration and individual reward probability remain unresolved.",
+        "The repository does not infer a hidden Ultimate-Finish-only gate because maintained PQ61 evidence places Recoome Kick in Basic Reward."
+      ]
+    },
+    {
+      "id": "skill-sauzer-blade",
+      "name": "Sauzer Blade",
+      "class": "Super",
+      "subcategory": "Strike",
+      "acquisition_endpoint": "Parallel Quest 27 — \"Metal Cooler Riot\"",
+      "ki_cost": 100,
+      "character_source": "Jeice",
+      "mechanics": "Creates a Ki blade and performs five tracking slashes; current skill documentation records about 10% total damage and notes the blade cancels weak Ki Blasts.",
+      "promoted_fields": [
+        "verification_status",
+        "research_status",
+        "last_verified",
+        "character_source",
+        "mechanics_notes"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Sauzer_Blade",
+        "https://dragonball.fandom.com/wiki/Sauzer_Blade",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "limits": [
+        "Exact reward probability remains unresolved.",
+        "No narrower CaC race/gender/form restriction is inferred from Jeice's character association."
+      ]
+    },
+    {
+      "id": "skill-savory-slicer",
+      "name": "Savory Slicer",
+      "class": "Super",
+      "subcategory": "Strike",
+      "acquisition_endpoint": "Parallel Quest 140 — \"Spirit Bomb Away!\"",
+      "ki_cost": 100,
+      "character_source": "Android 21",
+      "mechanics": "Forms Ki blades on both hands and spins toward the opponent; current skill documentation records nine hits, about 20% damage, and resistance to weak Ki Blasts while charging forward.",
+      "promoted_fields": [
+        "verification_status",
+        "research_status",
+        "last_verified",
+        "character_source",
+        "mechanics_notes"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Savory_Slicer",
+        "https://dragonball.fandom.com/wiki/Savory_Slicer",
+        "https://dbxv2.fandom.com/wiki/Spirit_Bomb_Away!",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "limits": [
+        "The accessible current quest page lists Savory Slicer among rewards but does not itself expose the exact reward-slot probability; the repository's maintained reward normalization retains the Ultimate-Finish bonus-slot route.",
+        "Exact drop probability remains unresolved."
+      ]
+    },
+    {
+      "id": "skill-scissors-paper-rock",
+      "name": "Scissors Paper Rock",
+      "class": "Super",
+      "subcategory": "Strike",
+      "acquisition_endpoint": "Parallel Quest 65 — \"The New Warriors\"",
+      "ki_cost": 100,
+      "character_source": "Goku (GT)",
+      "mechanics": "Three selectable short-range branches: Rock performs a strike, Scissors blinds the opponent, and Paper knocks the target away; combining all three produces a three-hit sequence.",
+      "promoted_fields": [
+        "verification_status",
+        "research_status",
+        "last_verified",
+        "character_source",
+        "mechanics_notes"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Scissors_Paper_Rock",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Goku_%28GT%29"
+      ],
+      "limits": [
+        "Exact reward probability remains unresolved.",
+        "No Ultimate-Finish-only gate is inferred from maintained PQ65 reward evidence."
+      ]
+    }
+  ],
+  "validation": {
+    "records": 4,
+    "canonical_promotions": true,
+    "numeric_drop_rates_promoted": 0,
+    "unsupported_gates_added": 0,
+    "relationship_changes": 0
+  },
+  "evidence_boundary": "Batch 343 promotes four live verified/verified skills using current Xenoverse 2-specific evidence. Existing reward uncertainty is preserved; no numeric drop probabilities are invented."
+}
