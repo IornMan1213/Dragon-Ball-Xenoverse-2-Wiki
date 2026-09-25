@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-blaster-stream-current-evidence-2026-09-25",
+  "audit_date": "2026-09-25",
+  "scope": "Blaster Stream",
+  "status": "current_evidence_reconciled",
+  "result": "Current Xenoverse 2 evidence confirms a 300-Ki Ki Blast Ultimate obtained from PQ148. The move is chargeable; charge level increases damage/hit count, and a successful first beam produces a follow-up Ki Wave. Current evidence also supports Kale (Super Saiyan 2) and Kefla (Super Saiyan) partner availability while preserving null race_restriction for CaC scope.",
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Blaster_Stream",
+    "https://dragonball.fandom.com/wiki/Blaster_Stream",
+    "https://en.dragon-ball-official.com/news/01_628.html"
+  ],
+  "evidence_boundary": [
+    "No unsupported reward probability, hidden prerequisite, frame data, or version-independent numerical mechanics were inferred."
+  ],
+  "corrections": []
+}
