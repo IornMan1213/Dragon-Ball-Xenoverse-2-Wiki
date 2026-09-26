@@ -62,5 +62,11 @@
     "change": "Added explicit field-type/schema checks for key, reconciliation, and bridge records: positive integer key numbers, non-empty string character IDs/partner names, and non-empty canonical bridge names.",
     "result": "The existing 20-key / 20-reconciliation / 34-bridge navigation contract is unchanged; hardening only rejects malformed inputs.",
     "validator_commit": "895c58bb4ed8102eb70ef954198868d739f3c59f"
+  },
+  "validator_hardening_2026_09_26_bridge_schema": {
+    "change": "Hardened the Partner Customization navigation validator so bridge character_id values and canonical character_names are explicitly non-empty strings before set/dictionary joins; malformed bridge IDs can no longer reach hashing/projection logic implicitly.",
+    "result": "The established navigation counts and identity projection are unchanged.",
+    "validator_commit": "Committed directly to main in this continuation cycle.",
+    "evidence_boundary": "Identity/navigation validation only; no DLC ownership, raid rotation, TP Medal cost, or other partially verified Partner Customization facts are inferred."
   }
 }
