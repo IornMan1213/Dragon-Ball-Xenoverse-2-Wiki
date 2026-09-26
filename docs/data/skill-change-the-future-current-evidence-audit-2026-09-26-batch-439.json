@@ -1,0 +1,22 @@
+{
+  "skill_id": "skill-change-the-future",
+  "name": "Change The Future",
+  "batch": 439,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Change_The_Future",
+    "https://dbxv2.fandom.com/wiki/Change_the_Future_%28Parallel_Quest%29",
+    "https://dragonball.fandom.com/wiki/Change_the_Future",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "findings": [
+    "100-Ki Ki Blast Super counter",
+    "Counters basic Ki Blasts and Ki Blast skills during its active window, then moves toward the attacker and fires a Ki Blast",
+    "The follow-up has i-frames and cannot be interrupted; the blast does not break guard or hyper armor",
+    "Startup visually matches God Breaker and dedicated documentation describes lower endlag",
+    "PQ43 — Change The Future lists the skill in Basic Reward",
+    "The in-game description says Strike Attack, while the documented mechanics identify Ki Blast triggers; this text discrepancy is retained",
+    "Exact active-frame count, endlag, damage, and drop probability remain unresolved"
+  ]
+}
