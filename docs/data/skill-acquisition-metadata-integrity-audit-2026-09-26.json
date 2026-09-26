@@ -11,5 +11,11 @@
   },
   "anomalies": [],
   "status": "pass",
-  "interpretation": "This audit checks internal consistency between acquisition_type, unlock_method, and explicit source_parallel_quests. It does not prove an acquisition claim against external sources."
+  "interpretation": "This audit checks internal consistency between acquisition_type, unlock_method, and explicit source_parallel_quests. It does not prove an acquisition claim against external sources.",
+  "validator": "scripts/validate_skill_acquisition_metadata.py",
+  "validator_hardening_2026_09_26": {
+    "change": "Removed the accidental acceptance of the misspelled 'stp medal shop' token; TP Medal Shop validation now requires the canonical 'tp medal shop' phrase.",
+    "result": "Existing 474-record audit remains pass; no canonical acquisition data changed.",
+    "evidence_boundary": "This audit checks internal consistency between acquisition_type, unlock_method, and explicit source_parallel_quests. It does not prove an acquisition claim against external sources."
+  }
 }
