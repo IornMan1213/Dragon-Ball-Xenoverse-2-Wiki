@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 399,
+  "created": "2026-09-25",
+  "type": "thin-frontier-mechanics-enrichment",
+  "scope": "Next five shortest canonical mechanics records after Batch 398",
+  "records": [
+    {
+      "id": "skill-sonic-bomb",
+      "name": "Sonic Bomb",
+      "mechanics_notes": "100-Ki Strike Super from PQ105, where maintained current reward data places it in the Basic Reward pool. The attack launches a sonic shockwave/blast; older player reports conflict on reward tier, so no Ultimate-Finish-only gate is asserted.",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Sonic_Bomb",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "id": "skill-seagull-combination",
+      "name": "Seagull Combination",
+      "mechanics_notes": "100-Ki Strike Super. Performs a punch flurry followed by a powerful launching kick; additional Ki can extend the punch sequence, and an optional spinning-kick follow-up is unblockable. Current evidence keeps exact frame/damage breakdown bounded.",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Seagull_Combination",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://videogaming.fandom.com/wiki/Seagull_Combination"
+      ]
+    },
+    {
+      "id": "skill-death-crasher",
+      "name": "Death Crasher",
+      "mechanics_notes": "100-Ki Strike Super. Chargeable fists-first rush whose longer charge increases reach and strength; current reference reports 20% damage. Exact charge-frame and hitbox data remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Death_Crasher"
+      ]
+    },
+    {
+      "id": "skill-fighting-pose-f",
+      "name": "Fighting Pose F",
+      "mechanics_notes": "0-Ki Power Up Super granting Hyper Armor for 12 seconds. Incoming damage is redirected to Stamina rather than Health during the effect, while Stamina regeneration is greatly reduced; exact reduction values remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_F"
+      ]
+    },
+    {
+      "id": "skill-super-dragon-flight",
+      "name": "Super Dragon Flight",
+      "mechanics_notes": "300-Ki Strike Ultimate acquired from PQ31. Maintained PQ31 reward data places it in Basic Rewards rather than asserting an Ultimate-Finish-only gate; exact damage and frame details remain bounded.",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Dragon_Flight",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-31.md"
+      ]
+    }
+  ],
+  "validation": {
+    "canonical_record_count": 474,
+    "evidence_policy": "bounded; no unsupported probabilities or frame data"
+  }
+}
