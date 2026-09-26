@@ -1419,5 +1419,15 @@
   "skill_destructive-fracture_current_evidence_audit_2026_09_26_batch_453": "docs/data/skill-destructive-fracture-current-evidence-audit-2026-09-26-batch-453.json",
   "skill_crush-cannon_current_evidence_audit_2026_09_26_batch_453": "docs/data/skill-crush-cannon-current-evidence-audit-2026-09-26-batch-453.json",
   "skill_burning-blast_current_evidence_audit_2026_09_26_batch_453": "docs/data/skill-burning-blast-current-evidence-audit-2026-09-26-batch-453.json",
-  "skill_instant-transmission_current_evidence_audit_2026_09_26_batch_453": "docs/data/skill-instant-transmission-current-evidence-audit-2026-09-26-batch-453.json"
+  "skill_instant-transmission_current_evidence_audit_2026_09_26_batch_453": "docs/data/skill-instant-transmission-current-evidence-audit-2026-09-26-batch-453.json",
+  "skill_batch_454": "docs/data/skill-research-batches/skill-batch-454.json",
+  "skill_batch_454_thin_frontier": "docs/data/skill-research-batches/skill-batch-454-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_evil-flight-strike_current_evidence_audit_2026_09_26_batch_454": "docs/data/skill-evil-flight-strike-current-evidence-audit-2026-09-26-batch-454.json",
+  "skill_meteor-blow_current_evidence_audit_2026_09_26_batch_454": "docs/data/skill-meteor-blow-current-evidence-audit-2026-09-26-batch-454.json",
+  "skill_secret-poison_current_evidence_audit_2026_09_26_batch_454": "docs/data/skill-secret-poison-current-evidence-audit-2026-09-26-batch-454.json",
+  "skill_blaster-stream_current_evidence_audit_2026_09_26_batch_454": "docs/data/skill-blaster-stream-current-evidence-audit-2026-09-26-batch-454.json",
+  "skill_dead-end-rain_current_evidence_audit_2026_09_26_batch_454": "docs/data/skill-dead-end-rain-current-evidence-audit-2026-09-26-batch-454.json",
+  "skill_divine-ray-bomb_current_evidence_audit_2026_09_26_batch_454": "docs/data/skill-divine-ray-bomb-current-evidence-audit-2026-09-26-batch-454.json",
+  "skill_ultimate-charge_current_evidence_audit_2026_09_26_batch_454": "docs/data/skill-ultimate-charge-current-evidence-audit-2026-09-26-batch-454.json",
+  "skill_punisher-guard_current_evidence_audit_2026_09_26_batch_454": "docs/data/skill-punisher-guard-current-evidence-audit-2026-09-26-batch-454.json"
 }
