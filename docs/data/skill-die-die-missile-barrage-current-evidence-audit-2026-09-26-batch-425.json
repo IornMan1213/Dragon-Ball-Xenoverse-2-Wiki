@@ -1,0 +1,25 @@
+{
+  "batch": 425,
+  "date": "2026-09-26",
+  "skill_id": "skill-die-die-missile-barrage",
+  "skill_name": "DIE DIE Missile Barrage",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/DIE_DIE_Missile_Barrage",
+    "https://dragonball.fandom.com/wiki/Continuous_Die_Die_Missile",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+    "https://store.steampowered.com/news/posts/?appids=678950&enddate=1553702019&feed=steam_community_announcements"
+  ],
+  "scope": "Current Xenoverse 2-specific mechanics, acquisition, resource-cost, and version-history evidence reviewed in Batch 425.",
+  "findings": "100-Ki Ki Blast Super learned through Gotenks mentor training. Current repository evidence documents a straight-line barrage of 21 projectiles and source-reported displayed damage of about 15%. The Steam instructor guide independently places DIE DIE Missile Barrage in Gotenks Lesson 2 as the Basic Reward. Bandai/Steam patch notes document historical balance/behavior changes including reduced startup, increased damage, altered blow-away behavior, increased hitstun, and an expanded opening hitbox; those changes establish version history but are not treated as timeless current frame values.",
+  "canonical_changes": {
+    "last_verified": "2026-09-26",
+    "research_status": "enriched",
+    "verification_status": "evidence_reviewed"
+  },
+  "unresolved": [
+    "Exact current frame data is unresolved.",
+    "Exact current damage after later balance changes is not promoted beyond source-reported repository values.",
+    "Patch-specific changes are documented historically and not normalized into a single timeless value."
+  ],
+  "status": "complete"
+}
