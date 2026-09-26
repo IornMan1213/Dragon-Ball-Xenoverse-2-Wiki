@@ -1,0 +1,13 @@
+{
+  "batch": 417,
+  "date": "2026-09-26",
+  "skill_id": "skill-super-god-fist",
+  "skill_name": "Super God Fist",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_God_Fist",
+    "https://steamcommunity.com/app/454650/discussions/0/1696043263503282956/"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "100-Ki Strike Super built around a fast single-hit right-hand punch. On connection the camera zooms in on the impact. Its pseudo-grab properties can bypass Super Armor, but it is still blockable and can be vanished in relevant mid-combo situations; exact startup and current damage remain unresolved.",
+  "boundaries": "Exact frame data, hidden interactions, patch-independent scaling, and unresolved probabilities remain bounded unless directly established by the cited evidence."
+}

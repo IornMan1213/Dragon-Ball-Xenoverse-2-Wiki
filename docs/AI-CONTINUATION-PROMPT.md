@@ -1243,3 +1243,13 @@
 - [x] Evidence boundaries preserved; exact current frames, damage, tracking, and cancel windows remain unresolved where not directly established.
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [x] **Exact next:** fresh 474-record census excluding Batches 396–407, then enrich the next 4–12 shortest genuinely under-detailed records and synchronize canonical/index/provenance in the same cycle.
+
+
+### 2026-09-26 continuation — Skill Research Batch 417 completed
+
+- [x] Fresh 474-record mechanics frontier census excluded Batches 396–416 and selected **Rolling Bullet, Innocence Breath, Tri-Beam, Demon Flurry, Destructo-Disc, Ice Cannon, Super God Fist, Revenge Final Flash, Saturday Crash, Destruction's Conductor, Present For You, and Tyrant Lancer** as the next twelve shortest genuinely under-detailed canonical mechanics records.
+- [x] Expanded current Xenoverse 2-specific mechanics coverage and synchronized canonical `docs/data/skills.json` and projection `docs/data/skills-index.json` for all twelve.
+- [x] Added Batch 417 research data, thin-frontier audit, and twelve current-evidence audit files; registered all artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved evidence boundaries: exact frames, hidden interactions, tracking parameters, patch-independent scaling, and unresolved outcome probabilities were not inferred where unsupported.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [x] **Exact next:** run a fresh 474-record frontier census excluding Batches 396–417 and enrich the next 4–12 shortest genuinely under-detailed canonical mechanics records, synchronizing canonical/index/provenance in the same cycle.

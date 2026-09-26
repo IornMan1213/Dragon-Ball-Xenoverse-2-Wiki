@@ -1,0 +1,13 @@
+{
+  "batch": 417,
+  "date": "2026-09-26",
+  "skill_id": "skill-destructo-disc",
+  "skill_name": "Destructo-Disc",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Destructo-Disc",
+    "https://dbxv2.fandom.com/wiki/Krillin"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "100-Ki Ki Blast Super that throws a slow, single-hit disc with a considerable startup. The disc has mild tracking and is unblockable, can restand the opponent on hit, and can be fired without a lock-on and then made to track after relocking. Exact tracking parameters and current frame data remain unresolved.",
+  "boundaries": "Exact frame data, hidden interactions, patch-independent scaling, and unresolved probabilities remain bounded unless directly established by the cited evidence."
+}

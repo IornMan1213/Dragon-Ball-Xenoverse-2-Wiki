@@ -1,0 +1,13 @@
+{
+  "batch": 417,
+  "date": "2026-09-26",
+  "skill_id": "skill-saturday-crash",
+  "skill_name": "Saturday Crash",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Saturday_Crash",
+    "https://dbxv2.fandom.com/wiki/Mentors"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "100-Ki tracking Ki Blast Super. The user throws a single projectile that paralyzes the opponent for about 1 second and deals a documented 10% damage; its recovery is described as very quick, allowing the user to move in for a follow-up. Exact current projectile speed, recovery frames, and damage scaling remain unresolved.",
+  "boundaries": "Exact frame data, hidden interactions, patch-independent scaling, and unresolved probabilities remain bounded unless directly established by the cited evidence."
+}

@@ -1,0 +1,13 @@
+{
+  "batch": 417,
+  "date": "2026-09-26",
+  "skill_id": "skill-revenge-final-flash",
+  "skill_name": "Revenge Final Flash",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Revenge_Final_Flash",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "100–300-Ki Ki Blast Super. The base beam deals a documented 10% over 10 hits; holding the input spends 200 additional Ki and adds 18 hits for another 10%. When the user is at critical/red health, the beam can extend to 47 hits (48 at very close range) for a documented 30% total and the held Ki drain is reduced, while the total Ki cost remains in the same 100–300 range. Exact current frame and scaling behavior remain unresolved.",
+  "boundaries": "Exact frame data, hidden interactions, patch-independent scaling, and unresolved probabilities remain bounded unless directly established by the cited evidence."
+}

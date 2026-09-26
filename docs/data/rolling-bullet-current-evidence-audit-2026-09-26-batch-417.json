@@ -1,0 +1,13 @@
+{
+  "batch": 417,
+  "date": "2026-09-26",
+  "skill_id": "skill-rolling-bullet",
+  "skill_name": "Rolling Bullet",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Rolling_Bullet",
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "200-Stamina Ki Blast Evasive. The user ascends while scattering Ki bullets around them; the projectiles knock opponents back, and current dedicated documentation reports 2% damage per projectile hit. The reference classifies the move as a rising, mid-range evasive with 1–2 hits; exact projectile count and frame timing remain unresolved.",
+  "boundaries": "Exact frame data, hidden interactions, patch-independent scaling, and unresolved probabilities remain bounded unless directly established by the cited evidence."
+}

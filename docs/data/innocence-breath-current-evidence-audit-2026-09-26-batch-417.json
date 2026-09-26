@@ -1,0 +1,13 @@
+{
+  "batch": 417,
+  "date": "2026-09-26",
+  "skill_id": "skill-innocence-breath",
+  "skill_name": "Innocence Breath",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Innocence_Breath",
+    "https://dbxv2.fandom.com/wiki/Mentors"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "300-Ki Ki Blast Ultimate. The user advances and sweeps a whirlwind-like breath/ki wave from left to right, dealing a documented 30% damage across one hit and ending in a pose. The attack cannot be blocked; Majuub's variant can also paralyze an opponent caught during its initial startup. Exact startup and current damage scaling remain unresolved.",
+  "boundaries": "Exact frame data, hidden interactions, patch-independent scaling, and unresolved probabilities remain bounded unless directly established by the cited evidence."
+}

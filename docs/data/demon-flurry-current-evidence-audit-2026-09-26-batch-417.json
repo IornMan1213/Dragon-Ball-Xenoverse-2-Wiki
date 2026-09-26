@@ -1,0 +1,13 @@
+{
+  "batch": 417,
+  "date": "2026-09-26",
+  "skill_id": "skill-demon-flurry",
+  "skill_name": "Demon Flurry",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Demon_Flurry",
+    "https://en.dragon-ball-official.com/news/01_1870.html"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "100-Ki Strike Super with up to six consecutive attacks. Each correctly timed additional input strengthens the corresponding strike, and the user glows red to signal successful timing; landing the correct timing on all inputs triggers a special camera angle for the final blow. The dedicated reference reports each individual hit at 5%; exact timing windows and patch-independent scaling remain unresolved.",
+  "boundaries": "Exact frame data, hidden interactions, patch-independent scaling, and unresolved probabilities remain bounded unless directly established by the cited evidence."
+}

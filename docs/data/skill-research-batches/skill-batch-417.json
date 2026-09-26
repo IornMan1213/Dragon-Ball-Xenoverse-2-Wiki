@@ -1,0 +1,22 @@
+{
+  "batch": 417,
+  "date": "2026-09-26",
+  "status": "completed",
+  "scope": "Skill mechanics frontier",
+  "excluded_batches": "396-416",
+  "selected": [
+    "Rolling Bullet",
+    "Innocence Breath",
+    "Tri-Beam",
+    "Demon Flurry",
+    "Destructo-Disc",
+    "Ice Cannon",
+    "Super God Fist",
+    "Revenge Final Flash",
+    "Saturday Crash",
+    "Destruction's Conductor",
+    "Present For You",
+    "Tyrant Lancer"
+  ],
+  "evidence_policy": "Promote directly supported Xenoverse 2 mechanics only; preserve uncertainty around exact frames, scaling, tracking parameters, patch-independent balance values, and unresolved probabilities."
+}

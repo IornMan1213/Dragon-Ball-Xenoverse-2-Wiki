@@ -1,0 +1,12 @@
+{
+  "batch": 417,
+  "date": "2026-09-26",
+  "skill_id": "skill-destruction-s-conductor",
+  "skill_name": "Destruction's Conductor",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Destruction%27s_Conductor"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "0-Ki close-range Strike Super. The user slaps the opponent and recovers 50 Ki on use, with an additional 50 Ki when the attack hits; the move also interacts with the three Destruction's Concerto variants, changing their projectile behavior: Starfall fires a barrage, Comet launches a fast single Ki ball, and Meteor splits the ball into five smaller projectiles that travel around the opponent. Exact damage and frame data remain unresolved.",
+  "boundaries": "Exact frame data, hidden interactions, patch-independent scaling, and unresolved probabilities remain bounded unless directly established by the cited evidence."
+}

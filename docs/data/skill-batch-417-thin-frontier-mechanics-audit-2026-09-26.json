@@ -1,0 +1,24 @@
+{
+  "batch": 417,
+  "date": "2026-09-26",
+  "status": "completed",
+  "selected": [
+    "Rolling Bullet",
+    "Innocence Breath",
+    "Tri-Beam",
+    "Demon Flurry",
+    "Destructo-Disc",
+    "Ice Cannon",
+    "Super God Fist",
+    "Revenge Final Flash",
+    "Saturday Crash",
+    "Destruction's Conductor",
+    "Present For You",
+    "Tyrant Lancer"
+  ],
+  "census": {
+    "record_count": 474,
+    "excluded_batches": "396-416",
+    "selection_rule": "Shortest genuinely under-detailed canonical mechanics records after excluding completed frontier batches."
+  }
+}

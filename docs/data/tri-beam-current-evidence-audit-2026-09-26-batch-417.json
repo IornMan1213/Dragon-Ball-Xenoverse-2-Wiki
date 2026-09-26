@@ -1,0 +1,13 @@
+{
+  "batch": 417,
+  "date": "2026-09-26",
+  "skill_id": "skill-tri-beam",
+  "skill_name": "Tri-Beam",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Tri-Beam",
+    "https://dbxv2.fandom.com/wiki/Mentors"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "100-Ki Ki Blast Super. The user takes a firing stance and presses the input again to release the beam; the move can be charged, with the current dedicated reference reporting 10% base damage and up to 30% at maximum charge. A fully charged Tri-Beam is unblockable but leaves the user exhausted for about 2 seconds; exact charge frames and current scaling remain unresolved.",
+  "boundaries": "Exact frame data, hidden interactions, patch-independent scaling, and unresolved probabilities remain bounded unless directly established by the cited evidence."
+}

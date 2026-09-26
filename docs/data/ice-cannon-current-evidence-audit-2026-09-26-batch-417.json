@@ -1,0 +1,12 @@
+{
+  "batch": 417,
+  "date": "2026-09-26",
+  "skill_id": "skill-ice-cannon",
+  "skill_name": "Ice Cannon",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Ice_Cannon"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "300-Ki Ki Blast Ultimate. The user spins vertically and fires a freezing projectile that deals a documented 15% damage over five hits, then freezes the opponent for about 3 seconds. The current Xenoverse 2 reference classifies it as a pseudo-Strike projectile with short-to-long range; exact startup, freeze timing, and patch-independent damage scaling remain unresolved.",
+  "boundaries": "Exact frame data, hidden interactions, patch-independent scaling, and unresolved probabilities remain bounded unless directly established by the cited evidence."
+}

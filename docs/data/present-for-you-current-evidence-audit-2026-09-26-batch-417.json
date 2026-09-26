@@ -1,0 +1,14 @@
+{
+  "batch": 417,
+  "date": "2026-09-26",
+  "skill_id": "skill-present-for-you",
+  "skill_name": "Present For You",
+  "sources": [
+    "https://dragonball.fandom.com/wiki/Present_For_You",
+    "https://dbxv2.fandom.com/wiki/Hercule",
+    "https://dbxv2.fandom.com/wiki/Mentors"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "100-Ki Other Super from Hercule's mentor training. The user places a wrapped present that randomly produces one of two documented outcomes: a healing effect or an explosive attack. Current repository evidence notes that the box opens when hit/touched and that the visual pattern can distinguish the result; no exact healing/damage value or outcome probability is promoted.",
+  "boundaries": "Exact frame data, hidden interactions, patch-independent scaling, and unresolved probabilities remain bounded unless directly established by the cited evidence."
+}

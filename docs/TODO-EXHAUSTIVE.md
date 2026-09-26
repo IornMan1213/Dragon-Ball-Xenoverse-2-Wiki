@@ -1098,3 +1098,12 @@
 - [x] Evidence boundaries preserved; exact current frames, damage, tracking, and cancel windows remain unresolved where not directly established.
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [x] **Exact next:** fresh 474-record census excluding Batches 396–407, then enrich the next 4–12 shortest genuinely under-detailed records and synchronize canonical/index/provenance in the same cycle.
+
+
+### 2026-09-26 TODO progress update — Skill Research Batch 417 completed
+- [x] Fresh 474-record mechanics frontier census excluded Batches 396–416 and selected **Rolling Bullet, Innocence Breath, Tri-Beam, Demon Flurry, Destructo-Disc, Ice Cannon, Super God Fist, Revenge Final Flash, Saturday Crash, Destruction's Conductor, Present For You, and Tyrant Lancer** as the next twelve shortest genuinely under-detailed records.
+- [x] Enriched and synchronized canonical `docs/data/skills.json` and projection `docs/data/skills-index.json`; canonical/index remain 474/474.
+- [x] Added twelve current-evidence audits, Batch 417 research data, thin-frontier audit, and provenance registry entries.
+- [x] Evidence boundaries preserved; unsupported exact frames, hidden conditions, tracking parameters, patch-independent scaling, and outcome probabilities remain unresolved rather than inferred.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [x] **Exact next:** fresh 474-record census excluding Batches 396–417, then enrich the next 4–12 shortest genuinely under-detailed records and synchronize canonical/index/provenance.

@@ -1,0 +1,13 @@
+{
+  "batch": 417,
+  "date": "2026-09-26",
+  "skill_id": "skill-tyrant-lancer",
+  "skill_name": "Tyrant Lancer",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Tyrant_Lancer",
+    "https://dbxv2.fandom.com/wiki/Mentors"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "100-Ki Ki Blast Super. The user advances while charging a blue Ki blast, then fires a single-hit tracking beam; when used closer to the target, the projectile fires sooner. Current dedicated documentation describes the skill as relatively quick and useful as a combo ender; exact startup, tracking parameters, and current damage remain unresolved.",
+  "boundaries": "Exact frame data, hidden interactions, patch-independent scaling, and unresolved probabilities remain bounded unless directly established by the cited evidence."
+}
