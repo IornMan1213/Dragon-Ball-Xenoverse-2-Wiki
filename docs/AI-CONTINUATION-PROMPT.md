@@ -1,3 +1,14 @@
+### 2026-09-26 continuation — Mechanics frontier exhausted; data-integrity pass completed
+- [x] Fresh live Batch 492 census found **0 unaudited canonical skill IDs**: all **474/474** skill IDs now have at least one registered current-evidence audit after collapsing duplicate audit artifacts by stable skill ID.
+- [x] Shifted to deterministic corpus integrity work instead of fabricating another mechanics batch.
+- [x] Detected and corrected stale attack-type wording in seven canonical skill descriptions: **Buu Buu Ball, Core Breaker, Death Slash, Final Cannon, Gigantic Charge, God of Destruction's Roar, and Saiyan Spirit**; corrections were corroborated against current Xenoverse 2-specific evidence.
+- [x] Re-synchronized the seven description corrections into `docs/data/skills-index.json`.
+- [x] Added `docs/data/skill-corpus-data-integrity-audit-2026-09-26.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Field-completeness scan found **0** missing sources, mechanics notes, unlock methods, or source-quest/shop endpoints. Character-source omissions are not automatically defects because many records are CaC-only or otherwise have no single character source; race-restriction omissions likewise require contextual interpretation.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** audit deterministic cross-domain linkage/provenance gaps between the 474 canonical skills and the PQ/acquisition datasets, then fix resolvable broken links rather than starting another redundant mechanics batch.
+
 ### 2026-09-26 continuation — Skill Research Batch 491 completed
 - [x] Fresh live unaudited mechanics frontier census performed after Batch 490; stale candidate lists were not reused.
 - [x] Researched and synchronized **Gigantic Cluster (stable ID `skill-giant-cluster`), Holy Wrath, Gigantic Charge, Pendulum Bullet, and Heat Dome Attack**.
