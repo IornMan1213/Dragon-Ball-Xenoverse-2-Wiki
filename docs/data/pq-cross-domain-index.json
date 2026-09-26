@@ -317,7 +317,8 @@
     "non_pq_skill_endpoint_coverage_validator_2026_09_25": "docs/data/non-pq-skill-endpoint-coverage-validator-audit-2026-09-25.json",
     "skill_pq_live_reverse_index": "docs/data/skill-pq-reverse-index-2026-09-26.json",
     "skill_pq_cross_domain_integrity_audit": "docs/data/skill-pq-cross-domain-linkage-integrity-audit-2026-09-26.json",
-    "skill_pq_crosslink_validator": "scripts/validate_skill_pq_crosslinks.py"
+    "skill_pq_crosslink_validator": "scripts/validate_skill_pq_crosslinks.py",
+    "pq_unrepresented_skill_endpoint_evidence_reconciliation": "docs/data/pq-unrepresented-skill-endpoint-evidence-reconciliation-2026-09-26.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
