@@ -2179,3 +2179,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [ ] docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md remains unavailable at the expected path (GitHub 404).
 - [x] **Exact next:** perform another fresh unaudited mechanics frontier census excluding Batch 466 and every prior registered current-evidence audit, then continue the canonical research/synchronization cycle.
+
+
+### 2026-09-26 continuation — Partner character navigation recovery completed
+- [x] Inspected Git history for the missing Partner Customization navigation artifacts instead of treating current-main 404s as proof that the work never existed.
+- [x] Recovered the latest coherent historical versions of the Partner Customization page, 20-key record layer, 20-key reconciliation layer, canonical character record layer, character identity bridge, navigation audit, and hardened validator.
+- [x] Restored all seven artifacts to `main` and preserved their historical provenance commits in `docs/data/partner-customization-character-navigation-recovery-audit-2026-09-26.json`.
+- [x] Re-ran the navigation contract against the live restored files: **20 key records, 20 reconciliation records, 29 bridge records, 149 canonical character names, 20 page search links, 16 checks passed, 0 failed, 0 identity mismatches**.
+- [x] Registered the recovery audit in `docs/data/pq-cross-domain-index.json`.
+- [x] No DLC ownership, raid rotation, TP Medal cost, or customization-tree claim was promoted by recovery alone.
+- [ ] Exact next: reconcile the recovered character/preset layer against any remaining live character consumer artifacts, then resume the Partner Customization skill→partner relationship census only where explicit evidence exists.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected repository path.
