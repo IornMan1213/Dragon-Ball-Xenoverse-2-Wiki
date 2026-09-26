@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-orin-combo",
+  "name": "Orin Combo",
+  "batch": 436,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Orin_Combo",
+    "https://dbxv2.fandom.com/wiki/Krillin"
+  ],
+  "findings": [
+    "100 Ki Strike Super",
+    "Training with Krillin",
+    "Three spinning kicks while rising followed by Sledgehammer",
+    "Approximately 15% total damage",
+    "Exact frame timing remains unresolved"
+  ]
+}
