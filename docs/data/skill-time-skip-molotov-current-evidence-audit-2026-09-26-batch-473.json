@@ -1,0 +1,24 @@
+{
+  "audit_id": "skill-time-skip-molotov_current_evidence_audit_2026_09_26_batch_473",
+  "batch": 473,
+  "date": "2026-09-26",
+  "skill_id": "skill-time-skip-molotov",
+  "skill_name": "Time Skip/Molotov",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "mechanics_notes": "500-Ki Strike Ultimate from Hit, obtainable through the Dragon Ball wish for an Ultimate Attack. A very short-range opening punch places the opponent into the time-skip sequence, after which a rapid barrage lands and the accumulated blows resolve together when the skip ends. The hit has grab/pseudo-grab properties once connected but can be blocked; exact frame data and universal damage scaling remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Time_Skip/Molotov",
+    "https://dragonball.fandom.com/wiki/Time-Skip/Molotov"
+  ],
+  "evidence_limits": [
+    "Source-reported damage/stamina restoration values are not asserted as universal balance constants.",
+    "Exact startup/active/recovery frames, patch-independent scaling formulas, hidden interaction rules, and reward probabilities remain unresolved unless directly established.",
+    "Existing acquisition/provenance conflicts must be preserved rather than overwritten."
+  ],
+  "canonical_changes": {
+    "mechanics_notes_prepared": true,
+    "last_verified": "2026-09-26",
+    "synchronization_status": "pending_canonical_large_file_update"
+  }
+}
