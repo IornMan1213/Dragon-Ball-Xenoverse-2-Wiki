@@ -1,0 +1,55 @@
+{
+  "batch": 462,
+  "date": "2026-09-26",
+  "scope": "Fresh registered-audit mechanics frontier after Batch 461.",
+  "selected": [
+    "Riot Javelin",
+    "Explosive Assault",
+    "Instant Severance",
+    "Super Kamehameha",
+    "Blaster Ball",
+    "Brave Sword Attack",
+    "Super Kamehameha (SS4 DAIMA)",
+    "Blaster Meteor"
+  ],
+  "method": "Live 474-record census excluding registered current-evidence audits; selected the next eight lowest-detail records.",
+  "records": [
+    {
+      "skill_name": "Riot Javelin",
+      "mechanics_notes": "100-Ki Ki Blast Super from Bardock mentor Lesson 2. The user charges and throws a blue Ki Blast; current dedicated evidence documents full 360-degree tracking at short range and a low-health state below 5000 HP that substantially increases the move's strength and ease of landing. Exact damage scaling and the implementation of the low-health multiplier remain unresolved."
+    },
+    {
+      "skill_name": "Explosive Assault",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from Gohan (Kid) mentor Lesson 3. The user fires a barrage of Ki Blasts/Ki Waves; current dedicated evidence documents 22 hits and about 40% total damage as source-reported, followed by roughly one second of exhaustion/vulnerability. Exact frame data and patch-independent damage scaling remain unresolved."
+    },
+    {
+      "skill_name": "Instant Severance",
+      "mechanics_notes": "300-Ki Strike Ultimate from Zamasu mentor training. The user becomes a Ki blade, rushes toward the opponent, and performs a downward slash; current dedicated evidence documents a 2-hit sequence, knockdown, and about 40% total damage as source-reported. Exact frames and damage scaling remain unresolved."
+    },
+    {
+      "skill_name": "Super Kamehameha",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate taught by Goku. The user charges and fires a large multi-hit Kamehameha beam; current Xenoverse 2-specific evidence confirms the Goku Lesson 4 acquisition endpoint and 300-Ki classification, while historical/community testing reports variable hit completion by range. Exact current hit count, frame timing, and patch-independent damage scaling remain unresolved."
+    },
+    {
+      "skill_name": "Blaster Ball",
+      "mechanics_notes": "100–500-Ki Ki Blast Super from PQ125. The initial use fires two Ki balls and repeated input extends the barrage; current dedicated evidence documents a 2–13-hit range and long-range projectile behavior, with source-reported damage of about 6% for the initial two hits and additional damage across the extended sequence. Exact per-hit scaling and timing remain unresolved."
+    },
+    {
+      "skill_name": "Brave Sword Attack",
+      "mechanics_notes": "300-Ki Strike Ultimate from PQ117. The user readies a sword, rushes forward, and performs a slow-motion single-hit slash that knocks the opponent down; current dedicated evidence reports about 50% damage for the hit and a second input that readies the sword faster. Exact startup/recovery frames and patch-independent damage scaling remain unresolved."
+    },
+    {
+      "skill_name": "Super Kamehameha (SS4 DAIMA)",
+      "mechanics_notes": "400–500-Ki Ki Blast Ultimate from PQ181. The base Kamehameha costs 400 Ki; holding the input spends an additional 100 Ki to extend and strengthen the blast with a longer cinematic sequence. Current dedicated evidence documents 12–33 hits and the optional +100-Ki extension. Exact damage conversion and frame timing remain unresolved."
+    },
+    {
+      "skill_name": "Blaster Meteor",
+      "mechanics_notes": "300-Stamina Ki Blast Evasive from Broly mentor Lesson 1. The user takes a stance and creates a sphere of Ki Blasts around themselves; current dedicated evidence documents an 8-hit short-range sequence that launches nearby enemies and reports about 5% total damage. The numerical damage value remains source-reported rather than a universal balance constant."
+    }
+  ],
+  "validation": {
+    "canonical_count": 474,
+    "index_count": 474,
+    "ordered_id_parity": true
+  }
+}
