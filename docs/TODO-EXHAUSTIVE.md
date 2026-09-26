@@ -2230,3 +2230,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Runtime validator execution and CI/build remain unverified in this environment.
 - [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected repository path (GitHub 404).
 - [x] **Exact next:** inspect the next live validator/consumer for a concrete acceptance, schema, or deterministic-projection gap; prioritize executable integrity and only make evidence-backed data changes.
+
+### 2026-09-26 continuation — Skill acquisition validator schema hardening
+- [x] Inspected the next live deterministic validator, `scripts/validate_skill_acquisition_metadata.py`, and found that it assumed the `records` container and record shapes without explicitly rejecting malformed schema input.
+- [x] Hardened the validator to require a list of exactly **474 object records**, unique non-empty string canonical `id` values, non-empty string skill names, and the required acquisition fields before applying acquisition/PQ consistency rules.
+- [x] Updated `docs/data/skill-acquisition-metadata-integrity-audit-2026-09-26.json` to record the new schema guard; the existing audit remains **474 records / 0 metadata anomalies / 0 invalid PQ endpoints**.
+- [x] No canonical acquisition or skill data was changed.
+- [ ] Runtime validator execution and CI/build remain unverified in this environment.
+- [x] **Exact next:** continue auditing the next live validator/consumer for a concrete schema or deterministic-projection acceptance gap; preserve the evidence boundary around unsupported PQ reward data.
