@@ -76,13 +76,13 @@ def main():
         "forward_edge_count":len(forward),
         "reverse_skill_endpoint_count":len(reverse),
         "expected_pq_record_count":186,
-        "expected_skill_record_count":469,
+        "expected_skill_record_count":470,
         "expected_forward_edge_count":244,
         "duplicate_forward_pairs":duplicate_forward_pairs,
         "invalid_forward_pq_id_count":len(invalid_forward_pq_ids),
         "pq_number_range_is_1_to_186":sorted(pq_by_number)==list(range(1,187)),
         "canonical_forward_invariants_pass":(
-            len(pq_records)==186 and len(skill_records)==469 and len(forward)==244
+            len(pq_records)==186 and len(skill_records)==470 and len(forward)==244
             and duplicate_forward_pairs==0 and not invalid_forward_pq_ids
             and sorted(pq_by_number)==list(range(1,187))
         ),
