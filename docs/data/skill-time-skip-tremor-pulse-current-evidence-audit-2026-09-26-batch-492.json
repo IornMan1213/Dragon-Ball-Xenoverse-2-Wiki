@@ -1,0 +1,15 @@
+{
+  "batch": 492,
+  "date": "2026-09-26",
+  "skill_id": "skill-time-skip-tremor-pulse",
+  "skill_name": "Time Skip/Tremor Pulse",
+  "status": "complete",
+  "findings": "200-Stamina Strike Evasive from Hit mentor training. The current skill page reports 7% damage, teleport-behind behavior, directional front positioning, and unblockable impact. Independent mentor documentation identifies it as Hit's Lesson 3 reward.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Time_Skip/Tremor_Pulse",
+    "https://dbxv2.fandom.com/wiki/Mentors",
+    "https://dragonball.fandom.com/wiki/Time-Skip/Tremor_Pulse",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+  ],
+  "evidence_boundary": "Source-reported damage and stamina values are bounded to the cited skill documentation. Exact invulnerability duration, frame data, hidden targeting rules, and universal behavior are not inferred."
+}
