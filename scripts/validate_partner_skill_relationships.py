@@ -17,6 +17,12 @@ def main() -> int:
     skill_ids = {row["id"] for row in skills["records"]}
     canonical_names = {row["canonical_character_name"] for row in bridge["records"]}
     failures: list[str] = []
+    relationships = rel.get("relationships", [])
+    if not isinstance(relationships, list):
+        failures.append("relationships must be a list")
+        relationships = []
+    elif len(relationships) != 3:
+        failures.append(f"unexpected relationship count: {len(relationships)} (expected 3)")
     seen: set[tuple[str, str]] = set()
 
     if rel.get("schema_version") != "1.0":
@@ -26,7 +32,10 @@ def main() -> int:
     if bridge.get("schema_version") != "1.0.0":
         failures.append("unexpected character bridge schema_version")
 
-    for row in rel.get("relationships", []):
+    for row in relationships:
+        if not isinstance(row, dict):
+            failures.append(f"relationship record must be an object: {row!r}")
+            continue
         key = (row.get("skill_id", ""), row.get("partner_name", ""))
         if row.get("skill_id") not in skill_ids:
             failures.append(f"unknown canonical skill_id: {row.get('skill_id')}")
@@ -38,9 +47,15 @@ def main() -> int:
         if row.get("relationship") != "custom_partner_availability":
             failures.append(f"unexpected relationship: {row.get('relationship')}")
         evidence = row.get("evidence", [])
+        if not isinstance(evidence, list):
+            failures.append(f"evidence must be a list: {key}")
+            evidence = []
         if not evidence:
             failures.append(f"missing evidence: {key}")
         for evidence_path in evidence:
+            if not isinstance(evidence_path, str) or not evidence_path.strip():
+                failures.append(f"invalid evidence path value: {key}: {evidence_path!r}")
+                continue
             if not (ROOT / evidence_path).is_file():
                 failures.append(f"missing evidence file: {key}: {evidence_path}")
 
@@ -50,7 +65,7 @@ def main() -> int:
         return 1
 
     print(
-        f"PASS: {len(rel.get('relationships', []))} partner/custom relationships; "
+        f"PASS: {len(relationships)} partner/custom relationships; "
         f"canonical skill IDs, canonical partner names, uniqueness, relationship types, "
         f"and evidence paths all resolve."
     )
