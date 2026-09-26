@@ -1,3 +1,14 @@
+### 2026-09-26 continuation — Skill Research Batch 426 completed
+
+- [x] Fresh unaudited frontier census selected **Elite Beam, Sphere of Destruction, Crusher Ball, Do or Die** after excluding prior current-evidence audit registrations.
+- [x] Added four current-evidence audit files and `docs/data/skill-research-batches/skill-batch-426.json`.
+- [x] Rechecked current Xenoverse 2-specific mechanics, acquisition endpoints, resource costs, and bounded numeric claims against dedicated skill references and independent technique documentation.
+- [x] Synchronized all four records into `docs/data/skills.json` and `docs/data/skills-index.json`.
+- [x] Registered all Batch 426 artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Validated **474/474** canonical/index IDs with **0 missing / 0 extra**.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census and continue canonical research/synchronization without inventing unsupported values.
+
 ### 2026-09-26 continuation — Skill Research Batch 425 completed
 
 - [x] Fresh canonical frontier census found the shortest four records without a prior current-evidence audit: **DIE DIE Missile Barrage, Victory Cannon, Maiden Blast, Darkness Eye Beam**.
