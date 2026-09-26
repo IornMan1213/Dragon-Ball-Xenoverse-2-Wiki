@@ -837,3 +837,14 @@
 - [x] Commits: canonical `51c7b2e`; four audits `0b5d...` (individual commits); batch `41ccf4c`; batch audit `bafa461`; cross-domain index `35f1d2e`.
 - [x] Evidence limits preserved: no unsupported reward probabilities, hidden prerequisites, frame data, exact timing, or universal damage claims were promoted.
 - [ ] **Exact next:** fresh post-Batch-381 mechanics census, excluding recently enriched targets; current shortest unfinished frontier is **Fighting Pose A (117), Feint Shot (118), Final Flash (SS3 DAIMA) (119), Shooting Strike (119), Solar Flare (119)**, followed by **Super Ghost Kamikaze Attack (123)**.
+
+
+### 2026-09-25 completion — Skill Batch 382
+- [x] Fresh live census began from the canonical skill layer; **469 records / 0 empty mechanics_notes / 0 duplicate IDs** before and after the bounded edit.
+- [x] Enriched **Fighting Pose A, Feint Shot, Shooting Strike, and Solar Flare** with current skill-specific mechanics evidence.
+- [x] Added/registered the Batch 382 research artifact and current-evidence audit references in the cross-domain index.
+- [x] Validation after editing: **469 records / 0 empty mechanics_notes / 0 duplicate IDs**; recently enriched targets are excluded from the next frontier.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Canonical commit: `da8c4ba`; Batch 382: `fb5c7d0`; cross-domain index: `7eb5606`.
+- [x] Evidence limits preserved: no unsupported frame data, hidden prerequisites, reward probabilities, exact universal damage, or patch-independent values promoted.
+- [ ] **Exact next:** fresh evidence check on **Final Flash (SS3 DAIMA) (119), Super Ghost Kamikaze Attack (123), Riot Javelin (125), Rise to Action (126)**, then continue the shortest unfinished mechanics frontier.
