@@ -1,0 +1,12 @@
+{
+  "batch": 493,
+  "date": "2026-09-26",
+  "skill_id": "skill-masenko",
+  "skill_name": "Masenko",
+  "status": "complete",
+  "findings": "100-Ki Ki Blast Super from Kid Gohan mentor Lesson 2. Current documentation describes a fast single-hit beam with knockback and an opposite-direction backflip input.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Masenko"
+  ],
+  "evidence_boundary": "Current Xenoverse 2-specific mechanics and explicit acquisition evidence are bounded to cited source context. Unsupported exact frames, hidden interactions, probabilities, and patch-independent scaling are not inferred."
+}
