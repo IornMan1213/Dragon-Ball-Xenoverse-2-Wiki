@@ -1,0 +1,17 @@
+{
+  "batch": 484,
+  "date": "2026-09-26",
+  "skill_id": "skill-emperor-s-cannon",
+  "skill_name": "Emperor's Cannon",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Emperor%27s_Cannon",
+    "https://videogaming.fandom.com/wiki/Broly_vs._Broly",
+    "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/dlc/future-saga-chapter-3.md"
+  ],
+  "findings": "2026-09-26 Batch 484 current-evidence audit: Emperor's Cannon is a 100-Ki Ki Blast Super used by Golden Frieza (Ultra Supervillain). It can generate up to eight directable Ki Blasts; some can paralyze/stun on contact, and an additional input releases the accumulated blasts together. Current dedicated skill evidence lists PQ184, while maintained repository/PQ evidence maps the acquisition to PQ183; the conflict is retained rather than silently normalized.",
+  "canonical_changes": {
+    "mechanics_notes": "100-Ki Ki Blast Super for Golden Frieza (Ultra Supervillain). Generates up to eight Ki Blasts based on accumulated Power of Time; some can paralyze/stun, and additional input fires the stored blasts together. Current dedicated skill evidence points to PQ184, while the maintained reward map and PQ183 evidence point to PQ183; acquisition conflict remains explicitly bounded.",
+    "last_verified": "2026-09-26",
+    "research_status": "enriched"
+  }
+}
