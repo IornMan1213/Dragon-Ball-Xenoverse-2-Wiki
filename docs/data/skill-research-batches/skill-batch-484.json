@@ -1,0 +1,51 @@
+{
+  "batch": 484,
+  "date": "2026-09-26",
+  "status": "complete",
+  "scope": "Fresh 474-record mechanics frontier after excluding Batches 481-483 and all registered current-evidence audits represented in the live cross-domain index.",
+  "selected": [
+    {
+      "skill_id": "skill-spirit-slash",
+      "skill_name": "Spirit Slash",
+      "mechanics": "200-Stamina Strike Evasive from PQ02; standard use backhands and knocks the target away, while the Gohan (DBS Super Hero) variant costs 300 Stamina and can charge to teleport behind the opponent."
+    },
+    {
+      "skill_id": "skill-gigantic-burst",
+      "skill_name": "Gigantic Burst",
+      "mechanics": "500-Ki Ki Blast Ultimate from PQ127. Fires three forward-sweeping Ray Blasts, then charges and fires a spiraling energy wave; current skill-specific evidence reports about 40% damage over 25 hits. The preceding Ray Blast Super can transition into Gigantic Burst if sufficient Ki remains."
+    },
+    {
+      "skill_id": "skill-gigantic-roar",
+      "skill_name": "Gigantic Roar",
+      "mechanics": "500-Ki unblockable Ki Blast Ultimate from PQ132. Fires a large beam from the user's mouth; current skill-specific evidence reports about 40% base damage, 60% at flashing health, and 80% at the lowest health. Guarding does not block it."
+    },
+    {
+      "skill_id": "skill-emperor-s-cannon",
+      "skill_name": "Emperor's Cannon",
+      "mechanics": "100-Ki Ki Blast Super for Golden Frieza (Ultra Supervillain). Generates up to eight Ki Blasts based on accumulated Power of Time; some can paralyze/stun, and additional input fires the stored blasts together. Current dedicated skill evidence points to PQ184, while the maintained reward map and PQ183 evidence point to PQ183; acquisition conflict remains explicitly bounded."
+    },
+    {
+      "skill_id": "skill-gigantic-breaker",
+      "skill_name": "Gigantic Breaker",
+      "mechanics": "200-Ki Ki Blast Super from PQ126. The user charges a fist and rushes forward for a single-hit attack; current skill-specific evidence reports about 10% damage on a successful hit. Missing leaves the user vulnerable and fires a weaker forward Ki projectile."
+    },
+    {
+      "skill_id": "skill-the-power-to-overcome",
+      "skill_name": "The Power to Overcome",
+      "mechanics": "500-Ki universal CaC Awoken from Future Saga Chapter 4. Stage 1 provides about +20% damage reduction, +5% movement speed, below-50%-health regeneration, and an unblockable sword-strike replacement for grabs. Re-input activates roughly 12 seconds of Unleashed mode with very rapid/infinite-style Ki regeneration, +15% Basic Attack, +30% Strike/Ki Super damage, +10% movement speed, and HP drain. Exact regeneration, cooldown, and some modifier measurements remain source-conflicted."
+    },
+    {
+      "skill_id": "skill-god-of-destruction-s-menace",
+      "skill_name": "God of Destruction's Menace",
+      "mechanics": "300-Ki Ki Blast Ultimate from PQ105. The user charges, throws four Ki Blasts, and can repeat the input to add tracking volleys; current skill-specific evidence reports up to 26 hits and about 30% total damage. Character association is Champa; the existing CaC field is retained pending stronger explicit scope evidence."
+    },
+    {
+      "skill_id": "skill-flash-chaser",
+      "skill_name": "Flash Chaser",
+      "mechanics": "100-Ki Ki Blast Super from PQ138. Fires four Ki Blasts, can add another set, can spread the projectiles with directional input, and can then redirect them to home on the target. Current skill-specific evidence reports 3 hits/about 3% at base and up to 8 hits/about 15% when extended."
+    }
+  ],
+  "sources_policy": "Use current Xenoverse 2-specific evidence and independent corroboration where available. Preserve source-reported values as bounded evidence; do not infer unsupported frames, probabilities, hidden interactions, or patch-independent scaling.",
+  "canonical_sync": "All eight Batch 484 skills synchronized into docs/data/skills.json and docs/data/skills-index.json.",
+  "registry_sync": "Batch 484 research, thin-frontier audit, and eight current-evidence audits registered in docs/data/pq-cross-domain-index.json."
+}
