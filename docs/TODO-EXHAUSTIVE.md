@@ -1,3 +1,10 @@
+### 2026-09-26 continuation — Partner character navigation reference reachability audit
+- [x] Attempted live fetches for the character/preset/navigation artifacts needed to reconcile Partner Customization mappings.
+- [x] Confirmed six PQ cross-domain index references are currently unreachable on `main`: character identity bridge, current character consumer scan, skills↔Super Souls reference navigation audit, numeric preset loadout audit, Partner Customization character navigation audit, and its validator script.
+- [x] Added `docs/data/partner-character-navigation-reference-existence-audit-2026-09-26.json` documenting the current reachability boundary and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved the evidence rule: missing referenced artifacts are not treated as evidence that the underlying data/work never existed, and no unsupported Partner Customization skill edge was added.
+- [ ] Exact next: inspect Git history for the missing artifact paths (or their replacements), recover the latest valid versions, and reconcile them against canonical character/preset records.
+
 ### 2026-09-26 continuation — Phantom Fist evidence reconciliation
 - [x] Read the complete live Batch 473 record for **Phantom Fist** and its current-evidence audit.
 - [x] Confirmed the evidence names **Hit, Mira, Frost, and Fu** as users/skillset contexts, but does not explicitly identify a Partner Customization assignment.
