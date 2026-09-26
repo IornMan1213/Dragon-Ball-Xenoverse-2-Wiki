@@ -1621,3 +1621,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved evidence boundaries; unsupported exact frames, scaling, probabilities, and hidden conditions remain unresolved.
 - [ ] CI/build remains unverified.
 - [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 465 and all prior current-evidence-audited records.
+
+
+### 2026-09-26 TODO progress update — Skill Research Batch 466 completed
+- [x] Researched **Destructive Flare, Instant Charge, Lovely Cyclone, Milky Cannon, Dragon Fist, Sign of Awakening, Variable Snipe Shot, and Crush Stream**.
+- [x] Enriched/synchronized canonical and index datasets; parity remains **474/474**, 0 missing / 0 extra / 0 duplicate IDs.
+- [x] Added Batch 466 research/thin-frontier artifacts, eight current-evidence audits, and provenance registrations.
+- [x] Preserved evidence boundaries; unsupported exact frames, scaling, probabilities, hidden conditions, and patch-independent scaling remain unresolved unless directly evidenced.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 466 and all prior current-evidence-audited records.
