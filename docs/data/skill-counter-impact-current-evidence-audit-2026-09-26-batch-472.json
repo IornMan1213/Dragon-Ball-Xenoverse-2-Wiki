@@ -1,0 +1,23 @@
+{
+  "audit_id": "skill-counter-impact_current_evidence_audit_2026_09_26_batch_472",
+  "batch": 472,
+  "date": "2026-09-26",
+  "skill_id": "skill-counter-impact",
+  "skill_name": "Counter Impact",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Counter_Impact",
+    "https://en.dragon-ball-official.com/news/01_1196.html"
+  ],
+  "mechanics_summary": "100-Ki Ki Blast Super from PQ153. A counter stance warps the user behind the attacker; continued input fires the follow-up Ki Wave. Official DLC material confirms the counter/warp sequence and extra-damage timing.",
+  "evidence_limits": [
+    "Exact frame data and patch-independent scaling are unresolved unless directly established.",
+    "Source-reported damage values are not asserted as universal balance constants.",
+    "Reward/drop probability and hidden interaction details remain unresolved where the cited sources do not establish them."
+  ],
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26"
+  }
+}
