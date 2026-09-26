@@ -1,0 +1,9 @@
+{
+  "batch": 485,
+  "date": "2026-09-26",
+  "skill_id": "skill-godly-display",
+  "skill_name": "Godly Display",
+  "findings": "Current evidence confirms 500+ Ki Strike Ultimate, TP Medal Shop acquisition, rush/multi-hit sequence, remaining-Ki-scaled energy sphere, chase-on-dodge behavior, and 500 TP Medal price in current dedicated documentation.",
+  "canonical_changes": "Canonical mechanics expanded and shop availability kept rotation-dependent rather than asserting a fixed schedule.",
+  "sources": "Current Xenoverse 2-specific evidence cited in the canonical skill record."
+}
