@@ -1,3 +1,11 @@
+### 2026-09-26 TODO progress update — Skill Research Batch 467 completed
+- [x] Researched **Seagull Combination, Remote Serious Bomb, Shooting Strike, Energy Dome, Kaioken, Gorgeous Shot, Gravity Impact, and Hawk Charge**.
+- [x] Enriched/synchronized canonical and index datasets; parity remains **474/474**, 0 missing / 0 extra.
+- [x] Added eight current-evidence audits, Batch 467 research/thin-frontier artifacts, and provenance registrations.
+- [x] Preserved evidence boundaries and explicit source/version conflicts.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 467 and all prior current-evidence-audited records.
+
 ### 2026-09-26 continuation — Skill Research Batch 437 completed
 
 - [x] Fresh unaudited mechanics frontier selected **Majin Kamehameha, Mach Dash, Revenge Death Ball, and Namek Finger** after reconciling the live Batch 436 state and excluding prior current-evidence-audited records.

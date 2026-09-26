@@ -1,0 +1,23 @@
+{
+  "batch": 467,
+  "date": "2026-09-26",
+  "skill_name": "Remote Serious Bomb",
+  "skill_id": "skill-remote-serious-bomb",
+  "status": "completed",
+  "findings": [
+    "300-Ki listing",
+    "80% Tokipedia",
+    "30-second seal",
+    "two-part seal/bomb behavior",
+    "second-stage cost version conflict"
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Remote_Serious_Bomb",
+    "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-grows-larger-with-the-release-of-extra-pack-2-infinite-history",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/78333176"
+  ],
+  "evidence_boundaries": [
+    "Current dedicated documentation and historical patch-era community evidence disagree on second-stage resource cost.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}

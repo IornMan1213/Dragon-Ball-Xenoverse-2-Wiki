@@ -1,0 +1,23 @@
+{
+  "batch": 467,
+  "date": "2026-09-26",
+  "skill_name": "Shooting Strike",
+  "skill_id": "skill-shooting-strike",
+  "status": "completed",
+  "findings": [
+    "100-Ki Super",
+    "Gamma 1 ray-gun projectile",
+    "hit leads to flying/teleporting kick",
+    "source-reported 10% damage",
+    "PQ156 endpoint"
+  ],
+  "sources": [
+    "https://en.dragon-ball-official.com/news/01_1435.html",
+    "https://dbxv2.fandom.com/wiki/Shooting_Strike",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "evidence_boundaries": [
+    "Official DLC material establishes the projectile-to-kick sequence; damage remains source-reported.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}

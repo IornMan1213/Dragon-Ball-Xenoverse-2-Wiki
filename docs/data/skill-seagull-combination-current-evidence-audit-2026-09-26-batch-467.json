@@ -1,0 +1,23 @@
+{
+  "batch": 467,
+  "date": "2026-09-26",
+  "skill_name": "Seagull Combination",
+  "skill_id": "skill-seagull-combination",
+  "status": "completed",
+  "findings": [
+    "100-Ki Strike Super",
+    "PQ167 endpoint",
+    "punch flurry + launching kick",
+    "additional Ki extends punches",
+    "unblockable spinning-kick option"
+  ],
+  "sources": [
+    "https://en.dragon-ball-official.com/news/01_2573.html",
+    "https://dbxv2.fandom.com/wiki/Seagull_Combination",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "evidence_boundaries": [
+    "Official material establishes core mechanics; reward-tier presentation remains source-conflicted.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}

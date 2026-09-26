@@ -1,0 +1,22 @@
+{
+  "batch": 467,
+  "date": "2026-09-26",
+  "skill_name": "Gorgeous Shot",
+  "skill_id": "skill-gorgeous-shot",
+  "status": "completed",
+  "findings": [
+    "100-Ki Super",
+    "Zarbon training",
+    "downward beam",
+    "source-reported 5% damage",
+    "mild combo tracking"
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Gorgeous_Shot",
+    "https://dbxv2.fandom.com/wiki/Mentors"
+  ],
+  "evidence_boundaries": [
+    "Exact startup/recovery and tracking envelope remain unresolved.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}

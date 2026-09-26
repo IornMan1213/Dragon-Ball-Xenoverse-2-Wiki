@@ -1,0 +1,76 @@
+{
+  "batch": 467,
+  "date": "2026-09-26",
+  "scope": "Fresh unaudited mechanics frontier",
+  "skills": [
+    {
+      "skill_id": "skill-seagull-combination",
+      "skill_name": "Seagull Combination",
+      "current_evidence_audit": "docs/data/skill-seagull-combination-current-evidence-audit-2026-09-26-batch-467.json",
+      "primary_source": "https://en.dragon-ball-official.com/news/01_2573.html",
+      "mechanics_boundary": "100-Ki Strike Super. Official Dragon Ball material documents a punch flurry followed by a powerful launching kick; additional Ki increases the number of punches, and an optional spinning-kick follow-up is unblockable. Current repository reward evidence keeps the PQ167 normal-clear presentation conflict explicit; exact hit count, damage, frames, and reward probability remain unresolved."
+    },
+    {
+      "skill_id": "skill-remote-serious-bomb",
+      "skill_name": "Remote Serious Bomb",
+      "current_evidence_audit": "docs/data/skill-remote-serious-bomb-current-evidence-audit-2026-09-26-batch-467.json",
+      "primary_source": "https://dbxv2.fandom.com/wiki/Remote_Serious_Bomb",
+      "mechanics_boundary": "Ki Blast Ultimate from Fu. The first activation places a seal on the locked-on opponent that disables/reverts Awoken Skills for about 30 seconds; reusing the skill on the sealed target generates the Serious Bomb at that location. Current dedicated evidence lists 300 Ki for the skill and 80% Tokipedia completion as the acquisition endpoint, while an older 2021 community report documents a patch-era removal of the second-stage Ki cost; the current second-stage resource cost is therefore retained as source-conflicted rather than silently normalized."
+    },
+    {
+      "skill_id": "skill-shooting-strike",
+      "skill_name": "Shooting Strike",
+      "current_evidence_audit": "docs/data/skill-shooting-strike-current-evidence-audit-2026-09-26-batch-467.json",
+      "primary_source": "https://en.dragon-ball-official.com/news/01_1435.html",
+      "mechanics_boundary": "100-Ki Ki Blast Super from Gamma 1. Official Dragon Ball material describes a ranged ray-gun projectile that, on hit, is followed by a flying kick; current skill-specific evidence identifies the teleporting-kick follow-up and source-reported 10% damage. PQ156 remains the maintained acquisition endpoint; exact startup, hit-confirm window, frames, and reward probability remain unresolved."
+    },
+    {
+      "skill_id": "skill-energy-dome",
+      "skill_name": "Energy Dome",
+      "current_evidence_audit": "docs/data/skill-energy-dome-current-evidence-audit-2026-09-26-batch-467.json",
+      "primary_source": "https://dbxv2.fandom.com/wiki/Energy_Dome",
+      "mechanics_boundary": "300-Stamina Ki Blast Evasive from Future Gohan mentor training. The user creates a barrier that deflects Ki Blasts; a second input enlarges it and pushes opponents away for 1% source-reported damage, while holding maintains the larger barrier and can consume up to 320 Ki. Exact duration, startup/recovery, and frame-level invulnerability remain unresolved."
+    },
+    {
+      "skill_id": "skill-kaioken",
+      "skill_name": "Kaioken",
+      "current_evidence_audit": "docs/data/skill-kaioken-current-evidence-audit-2026-09-26-batch-467.json",
+      "primary_source": "https://dbxv2.fandom.com/wiki/Kaioken",
+      "mechanics_boundary": "Universal CaC Awoken with Kaioken, Kaioken x3, and Kaioken x20 stages. Current maintained evidence records 100/300/500 Ki thresholds and escalating stamina drain; a current transformation reference reports approximately +2.5/+7.5/+15% attack modifiers and 3.5/7.5/33 stamina drain per second, with x3/x20 defensive tradeoffs and reduced/zero Z-Vanish costs. These numerical values remain source-reported and version-bounded; exact current patch-independent balance values and frame timing are not inferred."
+    },
+    {
+      "skill_id": "skill-gorgeous-shot",
+      "skill_name": "Gorgeous Shot",
+      "current_evidence_audit": "docs/data/skill-gorgeous-shot-current-evidence-audit-2026-09-26-batch-467.json",
+      "primary_source": "https://dbxv2.fandom.com/wiki/Gorgeous_Shot",
+      "mechanics_boundary": "100-Ki Ki Blast Super from Zarbon mentor training. The user quickly jumps upward and fires a Ki wave directly below; current skill-specific evidence reports about 5% damage, with mild tracking when used during a combo. Exact startup, recovery, tracking envelope, and frame data remain unresolved."
+    },
+    {
+      "skill_id": "skill-gravity-impact",
+      "skill_name": "Gravity Impact",
+      "current_evidence_audit": "docs/data/skill-gravity-impact-current-evidence-audit-2026-09-26-batch-467.json",
+      "primary_source": "https://dbxv2.fandom.com/wiki/Gravity_Impact",
+      "mechanics_boundary": "100-Ki Ki Blast Super from Cell (Perfect) mentor training. The user charges a green shockwave and releases it at short range; current skill-specific evidence documents cancellation of some incoming Ki Blasts and a long knockback that enables follow-up attacks. Exact activation timing, damage, frame data, and the precise set of nullified Ki Blast interactions remain unresolved."
+    },
+    {
+      "skill_id": "skill-hawk-charge",
+      "skill_name": "Hawk Charge",
+      "current_evidence_audit": "docs/data/skill-hawk-charge-current-evidence-audit-2026-09-26-batch-467.json",
+      "primary_source": "https://dbxv2.fandom.com/wiki/Hawk_Charge",
+      "mechanics_boundary": "100-Ki Strike Super from Gohan (Adult) and Videl mentor training. The user rushes forward with an elbow strike and follows with a palm strike for source-reported 10% total damage; input during the rush can cancel directly into the palm. The Gohan (DBS Super Hero) presentation has a separate 200-Ki five-hit variant. Exact startup, hit-confirm timing, and frame data remain unresolved."
+    }
+  ],
+  "evidence_policy": [
+    "Preserve source-reported values as bounded evidence.",
+    "Do not infer unsupported frame data, hidden gates, probabilities, or patch-independent scaling.",
+    "Retain acquisition/reward/version conflicts."
+  ],
+  "canonical_sync": "All eight Batch 467 records synchronized; canonical/index parity remains 474/474.",
+  "validation": {
+    "canonical_skill_records": 474,
+    "index_skill_records": 474,
+    "expected_missing": 0,
+    "expected_extra": 0
+  },
+  "ci_build": "unverified"
+}

@@ -1,0 +1,52 @@
+{
+  "batch": 467,
+  "date": "2026-09-26",
+  "selection_method": "Fresh live mechanics frontier excluding registered current-evidence audits; eight lowest-detail unaudited records selected for dedicated enrichment.",
+  "selected_skills": [
+    {
+      "skill_id": "skill-seagull-combination",
+      "skill_name": "Seagull Combination",
+      "reason": "Low-detail mechanics frontier candidate before enrichment"
+    },
+    {
+      "skill_id": "skill-remote-serious-bomb",
+      "skill_name": "Remote Serious Bomb",
+      "reason": "Low-detail mechanics frontier candidate before enrichment"
+    },
+    {
+      "skill_id": "skill-shooting-strike",
+      "skill_name": "Shooting Strike",
+      "reason": "Low-detail mechanics frontier candidate before enrichment"
+    },
+    {
+      "skill_id": "skill-energy-dome",
+      "skill_name": "Energy Dome",
+      "reason": "Low-detail mechanics frontier candidate before enrichment"
+    },
+    {
+      "skill_id": "skill-kaioken",
+      "skill_name": "Kaioken",
+      "reason": "Low-detail mechanics frontier candidate before enrichment"
+    },
+    {
+      "skill_id": "skill-gorgeous-shot",
+      "skill_name": "Gorgeous Shot",
+      "reason": "Low-detail mechanics frontier candidate before enrichment"
+    },
+    {
+      "skill_id": "skill-gravity-impact",
+      "skill_name": "Gravity Impact",
+      "reason": "Low-detail mechanics frontier candidate before enrichment"
+    },
+    {
+      "skill_id": "skill-hawk-charge",
+      "skill_name": "Hawk Charge",
+      "reason": "Low-detail mechanics frontier candidate before enrichment"
+    }
+  ],
+  "evidence_policy": [
+    "Preserve source-reported values as bounded evidence.",
+    "Do not infer unsupported frame data, hidden gates, probabilities, or patch-independent scaling.",
+    "Retain acquisition/reward/version conflicts."
+  ]
+}

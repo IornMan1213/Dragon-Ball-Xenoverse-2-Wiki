@@ -1552,5 +1552,15 @@
   "skill_dragon-fist_current_evidence_audit_2026_09_26_batch_466": "docs/data/skill-dragon-fist-current-evidence-audit-2026-09-26-batch-466.json",
   "skill_sign-of-awakening_current_evidence_audit_2026_09_26_batch_466": "docs/data/skill-sign-of-awakening-current-evidence-audit-2026-09-26-batch-466.json",
   "skill_variable-snipe-shot_current_evidence_audit_2026_09_26_batch_466": "docs/data/skill-variable-snipe-shot-current-evidence-audit-2026-09-26-batch-466.json",
-  "skill_crush-stream_current_evidence_audit_2026_09_26_batch_466": "docs/data/skill-crush-stream-current-evidence-audit-2026-09-26-batch-466.json"
+  "skill_crush-stream_current_evidence_audit_2026_09_26_batch_466": "docs/data/skill-crush-stream-current-evidence-audit-2026-09-26-batch-466.json",
+  "skill_seagull-combination_batch_467": "docs/data/skill-seagull-combination-current-evidence-audit-2026-09-26-batch-467.json",
+  "skill_remote-serious-bomb_batch_467": "docs/data/skill-remote-serious-bomb-current-evidence-audit-2026-09-26-batch-467.json",
+  "skill_shooting-strike_batch_467": "docs/data/skill-shooting-strike-current-evidence-audit-2026-09-26-batch-467.json",
+  "skill_energy-dome_batch_467": "docs/data/skill-energy-dome-current-evidence-audit-2026-09-26-batch-467.json",
+  "skill_kaioken_batch_467": "docs/data/skill-kaioken-current-evidence-audit-2026-09-26-batch-467.json",
+  "skill_gorgeous-shot_batch_467": "docs/data/skill-gorgeous-shot-current-evidence-audit-2026-09-26-batch-467.json",
+  "skill_gravity-impact_batch_467": "docs/data/skill-gravity-impact-current-evidence-audit-2026-09-26-batch-467.json",
+  "skill_hawk-charge_batch_467": "docs/data/skill-hawk-charge-current-evidence-audit-2026-09-26-batch-467.json",
+  "skill_batch_467": "docs/data/skill-research-batches/skill-batch-467.json",
+  "skill_batch_467_thin_frontier": "docs/data/skill-research-batches/skill-batch-467-thin-frontier-mechanics-audit-2026-09-26.json"
 }

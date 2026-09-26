@@ -1,0 +1,23 @@
+{
+  "batch": 467,
+  "date": "2026-09-26",
+  "skill_name": "Gravity Impact",
+  "skill_id": "skill-gravity-impact",
+  "status": "completed",
+  "findings": [
+    "100-Ki Super",
+    "Cell training",
+    "shockwave cancels some Ki Blasts",
+    "long knockback",
+    "follow-up window"
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Gravity_Impact",
+    "https://videogaming.fandom.com/wiki/Gravity_Impact",
+    "https://dbxv2.fandom.com/wiki/Mentors"
+  ],
+  "evidence_boundaries": [
+    "Exact activation frames and complete interaction scope remain unresolved.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch": 467,
+  "date": "2026-09-26",
+  "skill_name": "Energy Dome",
+  "skill_id": "skill-energy-dome",
+  "status": "completed",
+  "findings": [
+    "300-Stamina Evasive",
+    "Future Gohan training",
+    "deflects Ki Blasts",
+    "enlargement input",
+    "1% contact damage",
+    "up to 320 Ki maintenance"
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Energy_Dome",
+    "https://dbxv2.fandom.com/wiki/Mentors"
+  ],
+  "evidence_boundaries": [
+    "Exact duration and frame-level invulnerability remain unresolved.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}

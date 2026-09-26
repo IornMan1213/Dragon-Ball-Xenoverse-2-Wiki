@@ -1,3 +1,13 @@
+### 2026-09-26 continuation — Skill Research Batch 467 completed
+
+- [x] Fresh 474-record mechanics frontier selected **Seagull Combination, Remote Serious Bomb, Shooting Strike, Energy Dome, Kaioken, Gorgeous Shot, Gravity Impact, and Hawk Charge**.
+- [x] Added eight current-evidence audits plus Batch 467 research/thin-frontier artifacts.
+- [x] Deepened and synchronized all eight canonical records with bounded current Xenoverse 2 mechanics evidence.
+- [x] Preserved source/version conflicts, including Remote Serious Bomb's second-stage resource-cost discrepancy and Seagull Combination's reward-presentation discrepancy.
+- [x] Canonical/index validation remains **474/474**, with 0 missing / 0 extra.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 467 and every prior registered current-evidence audit.
+
 ### 2026-09-26 continuation — Skill Research Batch 451 completed
 
 - [x] Fresh unaudited mechanics frontier census selected **Force Shield, Eraser Bomb, Evil Flame, Galactic Donuts, Energy Field, Bloody Counter, Supersonic Mode, and Big Bang Attack**.

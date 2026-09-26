@@ -1,0 +1,23 @@
+{
+  "batch": 467,
+  "date": "2026-09-26",
+  "skill_name": "Kaioken",
+  "skill_id": "skill-kaioken",
+  "status": "completed",
+  "findings": [
+    "100/300/500 Ki thresholds",
+    "escalating stamina drain",
+    "source-reported attack modifiers",
+    "x3/x20 defensive tradeoffs",
+    "reduced/zero Z-Vanish costs"
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Kaioken",
+    "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
+    "https://steamcommunity.com/app/454650/discussions/0/5229256689880013507/"
+  ],
+  "evidence_boundaries": [
+    "Transformation numbers remain source-reported/version-bounded.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}

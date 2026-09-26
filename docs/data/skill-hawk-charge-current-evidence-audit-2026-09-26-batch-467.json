@@ -1,0 +1,24 @@
+{
+  "batch": 467,
+  "date": "2026-09-26",
+  "skill_name": "Hawk Charge",
+  "skill_id": "skill-hawk-charge",
+  "status": "completed",
+  "findings": [
+    "100-Ki Strike Super",
+    "Gohan/Videl training",
+    "elbow-to-palm sequence",
+    "source-reported 10% damage",
+    "additional-input cancel",
+    "DBS Super Hero 200-Ki variant"
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Hawk_Charge",
+    "https://dbxv2.fandom.com/wiki/Mentors",
+    "https://dbxv2.fandom.com/wiki/Gohan_%28Adult%29"
+  ],
+  "evidence_boundaries": [
+    "Exact startup and hit-confirm timing remain unresolved.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}
