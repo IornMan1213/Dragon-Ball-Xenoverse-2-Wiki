@@ -1,0 +1,21 @@
+{
+  "batch": 462,
+  "date": "2026-09-26",
+  "skill_name": "Blaster Ball",
+  "skill_id": "skill-blaster-ball",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics/provenance review for the live canonical record.",
+  "findings": [
+    "100–500-Ki Ki Blast Super from PQ125. The initial use fires two Ki balls and repeated input extends the barrage; current dedicated evidence documents a 2–13-hit range and long-range projectile behavior, with source-reported damage of about 6% for the initial two hits and additional damage across the extended sequence. Exact per-hit scaling and timing remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Blaster_Ball",
+    "https://dragonball.fandom.com/wiki/Blaster_Ball",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "No unsupported exact frame data, hidden gates, reward probabilities, or patch-independent scaling is promoted.",
+    "Known source conflicts or historical evidence are retained as provenance rather than silently normalized."
+  ]
+}
