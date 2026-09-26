@@ -1,3 +1,14 @@
+### 2026-09-26 continuation — PQ unrepresented skill-endpoint reconciliation
+- [x] Reconciled all 16 currently unrepresented PQ IDs against current PQ reward references and live canonical skill evidence.
+- [x] Added `docs/data/pq-unrepresented-skill-endpoint-evidence-reconciliation-2026-09-26.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] No new canonical skill→PQ edge was promoted from ambiguous/non-canonical evidence.
+- [x] PQs 1, 30, 35, 47, 48, 93, 102, 103, 107, 108, 144, 157, 169, and 170 currently have no supported canonical skill endpoint in the reviewed evidence.
+- [x] PQ118 remains a schema/domain question because external material associates Dual Masenko with it, while the live repository contains no canonical `skill-dual-masenko` record.
+- [x] PQ121 remains unlinked to Godly Display because the live canonical audit records TP Medal Shop acquisition; the conflicting PQ association is retained as evidence, not normalized.
+- [ ] Exact next: determine whether partner/custom skills need a separate canonical domain, then audit acquisition relationships for all canonical skills whose current source endpoint is shop/mentor/story rather than PQ.
+- [ ] CI/build remains unverified.
+- [ ] Efficiency addendum remains unavailable at the expected repository path (GitHub 404).
+
 ### 2026-09-26 continuation — Live skill↔PQ cross-domain linkage pass completed
 - [x] Audited the live canonical `docs/data/skills.json` against the repository tree after the mechanics frontier reached **474/474**.
 - [x] Deterministically validated **474 unique canonical skill IDs**, **242 skills with explicit `source_parallel_quests` endpoints**, **246 skill→PQ edges**, and **170 represented PQ IDs** within the supported **PQ 1–186** domain.
