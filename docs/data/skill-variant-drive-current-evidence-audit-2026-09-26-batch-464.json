@@ -1,0 +1,18 @@
+{
+  "batch": 464,
+  "date": "2026-09-26",
+  "skill_name": "Variant Drive",
+  "skill_id": "skill-variant-drive",
+  "status": "completed",
+  "findings": [
+    "Ki-based rush Super. The user rushes forward with a punch and knee; directional input plus attack input can produce an unblockable shockwave that knocks the opponent away, while guarding cancels the rush. Current skill documentation records approximately 10% melee damage and 15% shockwave damage. Exact frame timing and patch-independent scaling remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Variant_Drive",
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}
