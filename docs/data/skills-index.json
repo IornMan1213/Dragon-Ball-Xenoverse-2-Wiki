@@ -4357,9 +4357,10 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-26",
       "race_restriction": "Character-only",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 200-Ki Ki Blast Super is SSGSS Vegeta (Evolved)'s character-exclusive variant and unavailable to CaCs. It fires a long beam from both hands and deals a 24-hit knockback sequence.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced. 2026-09-26 current-evidence refresh: dedicated Xenoverse 2 evidence revalidated the 200-Ki Super classification, 24-hit long-range beam/knockback behavior, character-exclusive scope, and source-reported ~30% total damage. Ultra Pack 1 provenance remains bounded to the existing character-skill record; no unsupported CaC route, frame data, or scaling was added.",
-      "mechanics_notes": "200-Ki character-exclusive Ki Blast Super used by SSGSS Vegeta (Evolved); it is not equippable by CaCs. The move fires a long beam from both hands and produces a 24-hit knockback sequence. The maintained dedicated page reports approximately 30% total damage. No CaC acquisition route or Ultimate Finish gate is established.",
-      "source_quest_or_shop": "Character skill"
+      "notes": "2026-09-26 Batch 446 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the 200-Ki cost, 24-hit long-range beam/knockback behavior, character-only scope, and source-reported ~30% damage. No CaC acquisition route, frame data, or scaling was inferred.",
+      "mechanics_notes": "200-Ki character-exclusive Ki Blast Super used by SSGSS Vegeta (Evolved); unavailable to CaCs. The user fires a long beam from both hands, producing a 24-hit knockback sequence; dedicated current evidence reports approximately 30% total damage. It is the first Ultimate Attack repurposed as a Super variant.",
+      "source_quest_or_shop": "Character skill",
+      "ki_cost": 200
     },
     {
       "id": "skill-final-kamehameha",
@@ -4962,12 +4963,13 @@
       ],
       "unlock_method": "Skill Shop",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "Added during Dual Ultimate relationship audit because the mentor's Dual Ultimate depends on this canonical base skill. 2026-09-22 provenance/mechanics refresh: current dedicated skill evidence confirms Skill Shop acquisition, 300 Ki, and the large tracking explosion behavior. Existing mentor/Dual Ultimate relationships remain unchanged. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "300-Ki Ki Blast Ultimate obtained from the Skill Shop. The user charges, then creates a large explosion beneath the target; current dedicated evidence describes it as a long-range, tracking, single-hit launching attack and notes that the user can fly upward to guard against the backdraft. 2026-09-23 refresh: preserved the 300-Ki Skill Shop Ultimate, long-range tracking single-hit launch, and backdraft/vertical-escape behavior. Current official franchise material continues to classify Giant Storm as an Ultimate Attack.",
+      "notes": "2026-09-26 Batch 446 current-evidence audit: current Xenoverse 2 documentation revalidated Skill Shop acquisition, 300-Ki Ultimate classification, long-range tracking explosion, single-hit launch, and backdraft-guard behavior. Exact charge timing and source-reported damage remain bounded.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from the Skill Shop. The user charges, then creates a large explosion beneath the target; dedicated current evidence describes long-range tracking, a single-hit launch, and an upward escape that protects against the backdraft.",
       "source_quest": "Skill Shop",
-      "source_quest_or_shop": "Skill Shop"
+      "source_quest_or_shop": "Skill Shop",
+      "ki_cost": 300
     },
     {
       "id": "skill-gigantic-breaker",
@@ -5509,12 +5511,13 @@
       ],
       "unlock_method": "Zamasu mentor training — lesson-1.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.\n2026-09-21 DLC provenance refinement: replaced the generic DLC label with the documented mentor DLC pack. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred. 2026-09-23 refresh: mentor acquisition and Strike Super classification remain verified; unsupported numerical combat mechanics remain deferred.",
+      "notes": "2026-09-26 Batch 446 current-evidence audit: dedicated Xenoverse 2 evidence expanded the previously deferred mechanics with the held Ki-ball setup, additional-input firing, guard cancellation, 8–17-hit characteristics, and source-reported ~5%/10% damage outcomes. Exact timing/scaling remains unresolved.",
+      "mechanics_notes": "100-Ki Ki Blast Super from Zamasu training. The user creates a Ki sphere in the left hand; an additional input fires it for a documented 10-hit sequence at about 5% total damage, while precise timing can produce a 17-hit sequence at about 10% total damage. Guard input can cancel before firing.",
       "source_quest": "Zamasu mentor training — lesson-1.",
-      "source_quest_or_shop": "Zamasu mentor training"
+      "source_quest_or_shop": "Zamasu mentor training",
+      "ki_cost": 100
     },
     {
       "id": "skill-godly-chronos-cannon",
@@ -7092,11 +7095,12 @@
       ],
       "unlock_method": "TP Medal Shop",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, restriction, DLC/update provenance, and reward-tier semantics against the maintained evidence corpus; no unsupported probabilities, gates, or numerical mechanics were added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
-      "mechanics_notes": "100-Ki Ki Blast Super. Fires an energy wave; if it misses, the user follows with a rapid-movement flying kick. If the wave hits, the attack ends without the follow-up kick. Current repository evidence identifies the TP Medal Shop as the acquisition endpoint and Free Update 2 provenance.",
-      "source_quest_or_shop": "TP Medal Shop"
+      "notes": "2026-09-26 Batch 446 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the 100-Ki Skill Shop endpoint, beam/teleport/pseudo-Strike behavior, and approximately 10% damage on both hit and miss-follow-up paths. Exact frame timing remains unresolved.",
+      "mechanics_notes": "100-Ki Ki Blast Super from the Skill Shop. The user fires a quick Ki wave; if it hits, the attack ends. If it misses, the user teleports behind the opponent and performs a flying kick, with dedicated evidence reporting about 10% damage for either outcome.",
+      "source_quest_or_shop": "TP Medal Shop",
+      "ki_cost": 100
     },
     {
       "id": "skill-meteor-blow",
@@ -11651,7 +11655,13 @@
     "skill_meteor_burst_current_evidence_audit_2026_09_26_batch_445": "docs/data/skill-meteor-burst-current-evidence-audit-2026-09-26-batch-445.json",
     "skill_punisher_shield_current_evidence_audit_2026_09_26_batch_445": "docs/data/skill-punisher-shield-current-evidence-audit-2026-09-26-batch-445.json",
     "skill_research_batch_445": "docs/data/skill-research-batches/skill-batch-445.json",
-    "skill_batch_445_thin_frontier": "docs/data/skill-research-batches/skill-batch-445-thin-frontier-mechanics-audit-2026-09-26.json"
+    "skill_batch_445_thin_frontier": "docs/data/skill-research-batches/skill-batch-445-thin-frontier-mechanics-audit-2026-09-26.json",
+    "skill_giant_storm_current_evidence_audit_2026_09_26_batch_446": "docs/data/skill-giant-storm-current-evidence-audit-2026-09-26-batch-446.json",
+    "skill_god_splitter_current_evidence_audit_2026_09_26_batch_446": "docs/data/skill-god-splitter-current-evidence-audit-2026-09-26-batch-446.json",
+    "skill_final_flash_super_current_evidence_audit_2026_09_26_batch_446": "docs/data/skill-final-flash-super-current-evidence-audit-2026-09-26-batch-446.json",
+    "skill_menacing_flare_current_evidence_audit_2026_09_26_batch_446": "docs/data/skill-menacing-flare-current-evidence-audit-2026-09-26-batch-446.json",
+    "skill_research_batch_446": "docs/data/skill-research-batches/skill-batch-446.json",
+    "skill_batch_446_thin_frontier": "docs/data/skill-research-batches/skill-batch-446-thin-frontier-mechanics-audit-2026-09-26.json"
   },
   "skill_super_vegeta_current_evidence_audit_2026_09_25": "docs/data/skill-super-vegeta-current-evidence-audit-2026-09-25.json",
   "skill_super_saiyan_2_current_evidence_audit_2026_09_25": "docs/data/skill-super-saiyan-2-current-evidence-audit-2026-09-25.json",
