@@ -1,0 +1,10 @@
+{
+  "batch": 491,
+  "date": "2026-09-26",
+  "skill_id": "skill-pendulum-bullet",
+  "skill_name": "Pendulum Bullet",
+  "status": "complete",
+  "findings": "300-Ki Ki Blast Ultimate from PQ166. Pink projectile returns to the user; repeated inputs bounce and enlarge it while consuming additional Ki, ending in an enlarged/exploding release. Detailed documentation and in-game wording differ on maximum bounce count; both are preserved without normalization.",
+  "evidence_boundary": "Current-source behavior and source-reported numerical values are bounded. Unsupported exact frames, universal scaling, hidden interactions, and drop probabilities are not asserted.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}
