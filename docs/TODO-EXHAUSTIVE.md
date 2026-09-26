@@ -1,3 +1,14 @@
+### 2026-09-25 continuation — Skill Research Batch 399 completed
+
+- [x] Fresh 474-record frontier census excluded Batches 396–398 and selected **Sonic Bomb, Seagull Combination, Death Crasher, Fighting Pose F, Super Dragon Flight**.
+- [x] Refreshed canonical mechanics/provenance in both `docs/data/skills.json` and `docs/data/skills-index.json` for all five.
+- [x] Added Batch 399 and five current-evidence audits; the Super Dragon Flight audit was finalized through the Git object/tree path after the contents wrapper rejected a new-file request without a SHA.
+- [x] Registered Batch 399 and all five audits in `docs/data/pq-cross-domain-index.json`.
+- [x] Evidence remained bounded: Sonic Bomb's PQ105 Basic Reward placement is retained despite historical conflicting reports; Seagull Combination's optional unblockable branch, Death Crasher's charge scaling, Fighting Pose F's 12-second Hyper Armor/Stamina behavior, and Super Dragon Flight's PQ31 Basic Reward placement were documented without inventing unresolved frame or probability values.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** run another 474-record frontier census excluding Batches 396–399 and enrich the next least-detailed canonical records, synchronizing both canonical layers and cross-domain provenance in the same cycle.
+
+
 ### 2026-09-25 continuation — Skill Research Batch 398 completed
 
 - [x] Fresh 474-record thin-frontier census excluded completed Batches 396–397 and selected **Chaos Shot, Innocence Cannon, Zigzag Express, Burst Charge, Sauzer Blade**.
