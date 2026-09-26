@@ -1,0 +1,20 @@
+{
+  "batch": 447,
+  "date": "2026-09-26",
+  "status": "complete",
+  "scope": "Fresh unaudited mechanics frontier after excluding prior current-evidence-audited records.",
+  "selected": [
+    "Hell Flash",
+    "Ice Cannon",
+    "Kill Driver",
+    "Feint Crash"
+  ],
+  "evidence_policy": "Current Xenoverse 2-specific evidence was prioritized; secondary damage observations remain explicitly source-reported and no unsupported frame/scaling claims were added.",
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "missing_ids": 0,
+    "extra_ids": 0
+  },
+  "exact_next": "Run another fresh unaudited mechanics frontier census excluding Batch 447 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle."
+}
