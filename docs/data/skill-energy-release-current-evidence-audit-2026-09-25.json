@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-energy-release-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Energy Release",
+  "result": "current_evidence_refresh",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Other",
+    "ki_cost": null,
+    "source_quest_or_shop": null,
+    "mechanics": "Character-exclusive slow charge skill used by Towa; current reference compares its charge behavior to Energy Charge."
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Energy_Release"
+  ],
+  "limits": [
+    "No unsupported frame data, exact damage, reward probability, or hidden acquisition gate is inferred."
+  ]
+}
