@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-24",
+  "scope": "direct numeric preset identity versus complete loadout source research",
+  "targets": [
+    "goku-preset-2",
+    "goku-preset-3",
+    "goku-preset-4",
+    "goku-preset-5",
+    "goku-preset-6",
+    "goku-preset-7",
+    "goku-preset-8",
+    "goku-preset-9",
+    "goku-preset-10",
+    "goku-preset-11",
+    "goku-preset-12",
+    "goku-preset-14",
+    "goku-preset-15",
+    "goku-preset-16",
+    "goku-preset-17",
+    "goku-preset-18",
+    "vegeta-preset-10",
+    "vegeta-preset-11",
+    "captain-ginyu-preset-5",
+    "captain-ginyu-preset-6"
+  ],
+  "sources": [
+    {
+      "url": "https://www.youtube.com/watch?v=EJ0ICSoKXPc",
+      "role": "Burcol 2024-11-22 character/preset unlock video; chapter description directly labels the targeted numeric presets",
+      "result": "numeric_identity_only"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=QIGx9Y95GIE",
+      "role": "Burcol 2023-05-13 character/preset unlock video; chapter description independently labels several targeted numeric presets",
+      "result": "numeric_identity_only"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=jWcw_qK-9o4",
+      "role": "Burcol 2022-07-06 character/preset unlock video; chapter description labels targeted numeric presets",
+      "result": "numeric_identity_only"
+    }
+  ],
+  "findings": [
+    "The independent dated video descriptions corroborate numeric preset identities and unlock/presentation placement, but their indexed chapter descriptions do not expose the complete four-super-attack/two-ultimate/awoken/evasive configuration required by the repository's promotion rule.",
+    "No target was promoted from numeric identity to verified complete loadout.",
+    "The existing evidence boundary remains correct: named in-game-data loadouts cannot safely be mapped to these repository numeric IDs without a direct binding."
+  ],
+  "validation": {
+    "target_count": 20,
+    "numeric_identity_sources": 3,
+    "complete_numeric_loadout_bindings_found": 0,
+    "promotions": 0,
+    "status": "pass_with_explicit_evidence_boundary"
+  },
+  "next": "Continue searching for direct numeric-preset configuration evidence; prioritize sources that display the preset number and the complete slot configuration in the same artifact. Do not infer from costume/row order."
+}
