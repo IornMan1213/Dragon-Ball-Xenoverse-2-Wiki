@@ -1,0 +1,18 @@
+{
+  "batch": 464,
+  "date": "2026-09-26",
+  "skill_name": "Justice Blade",
+  "skill_id": "skill-justice-blade",
+  "status": "completed",
+  "findings": [
+    "100-Ki Strike Super from PQ152, used by Dyspo. The user creates a blue Ki blade and strikes forward for an 11-hit sequence; current evidence documents approximately 15% damage and an on-hit follow-up state that permits a compatible Ultimate with sufficient range/charge time. The exact compatible-Ultimate set and frame data remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Justice_Blade",
+    "https://en.dragon-ball-official.com/news/01_1142.html"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}
