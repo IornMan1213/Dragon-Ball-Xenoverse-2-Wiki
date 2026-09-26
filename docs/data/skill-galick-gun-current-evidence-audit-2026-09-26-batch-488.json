@@ -1,0 +1,14 @@
+{
+  "batch": 488,
+  "date": "2026-09-26",
+  "skill_id": "skill-galick-gun",
+  "skill_name": "Galick Gun",
+  "status": "complete",
+  "findings": "Current evidence confirms 100-Ki three-stage chargeable Ki Blast Super from Vegeta mentor training, with ideal 9/12/15-hit outcomes and shorter charge time than Kamehameha. Historical damage values remain setup-specific.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Galick_Gun",
+    "https://dragonball.fandom.com/wiki/Galick_Gun"
+  ],
+  "evidence_boundary": "Current-source behavior and source-reported numerical values are preserved as bounded evidence. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; canonical/index parity validated at 474/474."
+}
