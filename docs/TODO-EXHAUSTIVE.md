@@ -1,3 +1,15 @@
+### 2026-09-26 TODO progress update — Live skill↔PQ cross-domain linkage pass
+- [x] Audited the live 474-record canonical skill corpus for explicit `source_parallel_quests` relationships.
+- [x] Added `docs/data/skill-pq-reverse-index-2026-09-26.json` with all PQ IDs 1–186 represented explicitly.
+- [x] Added `docs/data/skill-pq-cross-domain-linkage-integrity-audit-2026-09-26.json` and `scripts/validate_skill_pq_crosslinks.py`.
+- [x] Registered the new reverse index, audit, and validator in `docs/data/pq-cross-domain-index.json`.
+- [x] Current deterministic totals: **474 unique skills, 242 skills with PQ endpoints, 246 skill→PQ edges, 170 represented PQ IDs, 16 unrepresented PQ IDs, 0 invalid PQ IDs**.
+- [x] Preserved the evidence boundary: an unrepresented PQ ID means only that no current canonical skill record explicitly points to it; it does **not** mean the PQ has no skill rewards.
+- [x] The historical 244-edge PQ↔skill invariant is now documented as stale against the live 246-edge canonical corpus.
+- [ ] Reconcile PQ IDs **1, 30, 35, 47, 48, 93, 102, 103, 107, 108, 118, 121, 144, 157, 169, 170** against a real PQ/reward corpus and promote only evidence-backed canonical skill endpoints.
+- [ ] CI/build remains unverified.
+- [ ] Efficiency addendum remains unavailable at the expected repository path (GitHub 404).
+
 ### 2026-09-26 TODO progress update — Mechanics frontier exhausted; integrity/linkage work begins
 - [x] Fresh Batch 492 census found **0** canonical skills lacking a registered current-evidence audit; all **474** skill IDs are covered.
 - [x] Corrected seven stale attack-type descriptions and synchronized the corrections across both canonical skill datasets.
