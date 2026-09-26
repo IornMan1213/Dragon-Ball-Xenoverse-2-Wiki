@@ -1995,3 +1995,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved evidence boundaries; unsupported exact frames, probabilities, hidden conditions, and patch-independent scaling remain unresolved unless directly evidenced.
 - [ ] CI/build remains unverified.
 - [x] **Exact next:** fresh unaudited mechanics frontier before Batch 493; do not reuse the Batch 492 candidate list.
+
+
+### 2026-09-26 TODO progress update — Skill Research Batch 493 completed
