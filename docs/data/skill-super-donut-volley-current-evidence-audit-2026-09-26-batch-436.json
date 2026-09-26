@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-super-donut-volley",
+  "name": "Super Donut Volley",
+  "batch": 436,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Donut_Volley",
+    "https://dbxv2.fandom.com/wiki/Gotenks"
+  ],
+  "findings": [
+    "100 Ki Ki Blast Super",
+    "Parallel Quest 55 — Tag with Gotenks",
+    "Additional input fires up to eight energy rings",
+    "Approximately 5% damage for one ring and 20% for all eight",
+    "Exact timing and scaling remain unresolved"
+  ]
+}
