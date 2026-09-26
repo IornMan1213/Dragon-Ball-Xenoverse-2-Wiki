@@ -1,3 +1,7 @@
+- [x] Audited internal acquisition metadata consistency across all 474 canonical skills; added `docs/data/skill-acquisition-metadata-integrity-audit-2026-09-26.json` and `scripts/validate_skill_acquisition_metadata.py`, and registered both in `docs/data/pq-cross-domain-index.json`.
+- [x] Verified required acquisition fields (`unlock_method`, `source_quest_or_shop`, `acquisition_type`) are populated for the full canonical corpus and checked their consistency with explicit PQ endpoints.
+- [ ] Investigate any acquisition metadata anomalies surfaced by the audit before making canonical corrections; external evidence must support each correction.
+
 ### 2026-09-26 TODO progress update — PQ unrepresented-endpoint evidence reconciliation
 - [x] Reconciled all **16 currently unrepresented PQ IDs** against current PQ reward references and live canonical skill evidence.
 - [x] Added `docs/data/pq-unrepresented-skill-endpoint-evidence-reconciliation-2026-09-26.json` and registered it in `docs/data/pq-cross-domain-index.json`.
