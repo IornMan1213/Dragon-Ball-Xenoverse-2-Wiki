@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-rough-ranger-current-evidence-audit-2026-09-25-batch-394",
+  "audit_date": "2026-09-25",
+  "target": "Rough Ranger",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "mechanics_notes": "100-Ki universal counter from Android 17 (DB Super). During its defensive stance, a Strike attack triggers a retaliatory kick for 15% damage; a Ki Blast attack triggers an Energy Field for about 3 seconds, with a documented 5% damage result if the opponent runs into it. Point-blank Ki Blast interactions are documented with the strike-counter behavior.",
+    "source_quest_or_shop": "Parallel Quest 119 — \"A Ranger's Duty\""
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Rough_Ranger",
+    "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+    "https://dragonball.fandom.com/wiki/Rough_Ranger",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76363437",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76363437?page=2"
+  ],
+  "evidence_boundary": "Current Xenoverse 2-specific evidence supports the recorded mechanics. Exact frame data, hidden prerequisites, reward probabilities, and unsupported balance claims are not inferred."
+}

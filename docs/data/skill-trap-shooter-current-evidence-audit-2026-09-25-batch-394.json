@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-trap-shooter-current-evidence-audit-2026-09-25-batch-394",
+  "audit_date": "2026-09-25",
+  "target": "Trap Shooter",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "mechanics_notes": "100-Ki Ki Blast Super used by Bojack. The move fires a tracking 10-hit volley; additional input before release cancels the attack. Current dedicated skill evidence records 5% damage across the barrage.",
+    "source_quest_or_shop": "Bojack mentor training"
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Trap_Shooter",
+    "https://dbxv2.fandom.com/wiki/Mentors",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+  ],
+  "evidence_boundary": "Current Xenoverse 2-specific evidence supports the recorded mechanics. Exact frame data, hidden prerequisites, reward probabilities, and unsupported balance claims are not inferred."
+}

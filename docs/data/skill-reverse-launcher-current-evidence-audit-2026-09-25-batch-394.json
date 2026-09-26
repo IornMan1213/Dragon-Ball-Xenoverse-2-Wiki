@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-reverse-launcher-current-evidence-audit-2026-09-25-batch-394",
+  "audit_date": "2026-09-25",
+  "target": "Reverse Launcher",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "mechanics_notes": "100-Ki Ki Blast Super from Bojack's mentor training. The user fires an initial Ki ball, then teleports behind the opponent and fires a second blast; current dedicated skill evidence records 5% total damage across two hits. The second blast occurs whether or not the first connects.",
+    "source_quest_or_shop": "Bojack mentor training"
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Reverse_Launcher",
+    "https://dbxv2.fandom.com/wiki/Mentors",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+  ],
+  "evidence_boundary": "Current Xenoverse 2-specific evidence supports the recorded mechanics. Exact frame data, hidden prerequisites, reward probabilities, and unsupported balance claims are not inferred."
+}

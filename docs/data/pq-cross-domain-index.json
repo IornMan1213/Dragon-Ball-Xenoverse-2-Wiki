@@ -979,5 +979,10 @@
   "skill_sauzer_blade_current_evidence_audit_2026_09_25_batch_393": "docs/data/skill-sauzer-blade-current-evidence-audit-2026-09-25-batch-393.json",
   "skill_savory_slicer_current_evidence_audit_2026_09_25_batch_393": "docs/data/skill-savory-slicer-current-evidence-audit-2026-09-25-batch-393.json",
   "skill_scissors_paper_rock_current_evidence_audit_2026_09_25_batch_393": "docs/data/skill-scissors-paper-rock-current-evidence-audit-2026-09-25-batch-393.json",
-  "skill_research_batch_393_verified_record_mechanics_recheck_2026_09_25": "docs/data/skill-research-batches/skill-batch-393.json"
+  "skill_research_batch_393_verified_record_mechanics_recheck_2026_09_25": "docs/data/skill-research-batches/skill-batch-393.json",
+  "skill_research_batch_394_skill_trap_shooter_current_evidence_audit_2026_09_25_batch_394_json": "docs/data/skill-trap-shooter-current-evidence-audit-2026-09-25-batch-394.json",
+  "skill_research_batch_394_skill_orin_combo_current_evidence_audit_2026_09_25_batch_394_json": "docs/data/skill-orin-combo-current-evidence-audit-2026-09-25-batch-394.json",
+  "skill_research_batch_394_skill_reverse_launcher_current_evidence_audit_2026_09_25_batch_394_json": "docs/data/skill-reverse-launcher-current-evidence-audit-2026-09-25-batch-394.json",
+  "skill_research_batch_394_skill_rough_ranger_current_evidence_audit_2026_09_25_batch_394_json": "docs/data/skill-rough-ranger-current-evidence-audit-2026-09-25-batch-394.json",
+  "skill_research_batch_394_skill_batch_394_json": "docs/data/skill-research-batches/skill-batch-394.json"
 }

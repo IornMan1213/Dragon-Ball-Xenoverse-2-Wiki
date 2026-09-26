@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-orin-combo-current-evidence-audit-2026-09-25-batch-394",
+  "audit_date": "2026-09-25",
+  "target": "Orin Combo",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "mechanics_notes": "100-Ki Strike Super from Krillin's mentor training. The user performs a rising sequence of kicks and finishes by knocking the opponent down; current dedicated skill evidence records 15% total damage. It has brief startup invulnerability according to the current Krillin documentation.",
+    "source_quest_or_shop": "Krillin mentor training"
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Orin_Combo",
+    "https://dbxv2.fandom.com/wiki/Mentors",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+  ],
+  "evidence_boundary": "Current Xenoverse 2-specific evidence supports the recorded mechanics. Exact frame data, hidden prerequisites, reward probabilities, and unsupported balance claims are not inferred."
+}
