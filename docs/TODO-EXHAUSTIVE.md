@@ -1986,3 +1986,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added/registered the cross-domain index reachability audit.
 - [ ] CI/build remains unverified.
 - [x] **Exact next:** prioritize critical cross-domain references that are safely regenerable from canonical data and required by live navigation/validators.
+
+
+### 2026-09-26 TODO progress update — Skill Research Batch 492 completed
+- [x] Researched **Absolute Zero, Afterimage Strike, Bending Kamehameha, Time Skip/Tremor Pulse, and Rising Rage** from a fresh post-Batch-491 frontier.
+- [x] Enriched/synchronized canonical and index datasets; parity remains **474/474**, with 0 missing / 0 extra IDs.
+- [x] Added five current-evidence audits plus Batch 492 research/thin-frontier artifacts and provenance registrations.
+- [x] Preserved evidence boundaries; unsupported exact frames, probabilities, hidden conditions, and patch-independent scaling remain unresolved unless directly evidenced.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** fresh unaudited mechanics frontier before Batch 493; do not reuse the Batch 492 candidate list.
