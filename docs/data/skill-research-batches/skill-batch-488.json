@@ -1,0 +1,57 @@
+{
+  "batch": 488,
+  "date": "2026-09-26",
+  "status": "complete",
+  "scope": "Fresh live 474-record mechanics frontier excluding skill IDs represented by registered current-evidence audits; eight shortest remaining under-detailed records were enriched.",
+  "selected": [
+    {
+      "name": "Fierce Fist",
+      "finding": "Current skill-specific evidence confirms a 100-Ki three-stage chargeable Strike Super from PQ159; Stage 3 is unblockable, charge can be preserved while guarding, weak Ki Blasts are negated during the attack, and source-reported displayed damage is about 10%/15%/20%.",
+      "change": "Expanded canonical mechanics notes with charge stages, defensive interaction, and bounded damage values."
+    },
+    {
+      "name": "Venus Fist",
+      "finding": "Current 2026 evidence confirms the final-DLC PQ186 acquisition endpoint and a multi-step rush/teleport Strike Ultimate; recent community/video evidence documents low-Health behavior and describes a 3-Ki-bar cost, but exact hit/scaling details remain unresolved.",
+      "change": "Expanded mechanics boundary without promoting unsupported exact hit or scaling data."
+    },
+    {
+      "name": "Handy Canon",
+      "finding": "Current evidence confirms a 100-Ki PQ115 Ki Blast Super that fires a fast scattering barrage and can be step-cancelled into approach/basic follow-ups.",
+      "change": "Expanded canonical mechanics and combo/neutral utility."
+    },
+    {
+      "name": "Full Power Destruction",
+      "finding": "Current evidence confirms a 500-Ki PQ177 Ki Blast Ultimate with five tracking opener shots, a follow-up multi-hit blast, and cinematic explosion; the long full sequence can be Evasived.",
+      "change": "Expanded sequence and counterplay mechanics."
+    },
+    {
+      "name": "Prominence Flash",
+      "finding": "Current evidence confirms a 300-Ki chargeable Ki Blast Ultimate from PQ137; repeated activation increases damage with maintained community evidence indicating a third-use cap, while historical timing/scaling remains bounded.",
+      "change": "Expanded repeated-use behavior while preserving reward and version uncertainty."
+    },
+    {
+      "name": "Galick Gun",
+      "finding": "Current evidence confirms a 100-Ki three-stage chargeable beam with 9/12/15 ideal hit outcomes and shorter charge time than Kamehameha; historical damage remains setup-specific.",
+      "change": "Expanded charge/hit behavior and Super Saiyan repositioning interaction."
+    },
+    {
+      "name": "Ill Rain",
+      "finding": "Current evidence confirms a 100-Ki PQ64 Basic Reward that throws a lingering Ki ball and scatters three tracking projectiles, each documented at about 15% source-reported damage.",
+      "change": "Expanded projectile sequence and bounded damage behavior."
+    },
+    {
+      "name": "Gigantic Cross",
+      "finding": "Current evidence confirms a 100-Ki chargeable 2-hit mouth-generated Ki Blast Super from Conton City Patrol 04; the projectile arcs upward and ends in an explosion.",
+      "change": "Expanded trajectory, charge, and hit-structure mechanics."
+    }
+  ],
+  "sources_policy": "Current Xenoverse 2-specific evidence prioritized. Source-reported numerical values remain source-bound; unsupported frames, universal scaling, hidden interactions, and drop probabilities are not inferred.",
+  "canonical_sync": "All eight selected records synchronized into docs/data/skills.json and docs/data/skills-index.json.",
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "expected_parity": "474/474",
+    "missing_ids": 0,
+    "extra_ids": 0
+  }
+}
