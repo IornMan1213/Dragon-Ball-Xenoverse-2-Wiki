@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-arm-crash-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Arm Crash",
+  "result": "current_evidence_refresh",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Strike",
+    "ki_cost": 100,
+    "source_quest_or_shop": "Skill Shop / PQ provenance requires requirement-specific reconciliation",
+    "mechanics": "Close-range Strike technique associated with Android 16; this refresh intentionally does not infer an Ultimate Finish requirement from a reward-slot listing alone."
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Arm_Crash"
+  ],
+  "limits": [
+    "Ultimate Finish requirement remains unresolved where evidence only establishes a reward slot.",
+    "No unsupported exact damage, frame data, reward probability, or hidden gate is inferred."
+  ]
+}
