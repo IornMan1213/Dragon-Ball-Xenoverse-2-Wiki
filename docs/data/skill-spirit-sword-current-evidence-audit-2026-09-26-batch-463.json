@@ -1,0 +1,21 @@
+{
+  "batch": 463,
+  "date": "2026-09-26",
+  "skill_name": "Spirit Sword",
+  "skill_id": "skill-spirit-sword",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics/provenance review for the live canonical record.",
+  "findings": [
+    "400-Ki Strike Ultimate from Expert Mission 17. The user stabs with a long Ki blade, then spins twice to slash the opponent; current dedicated evidence documents 3 hits, knockback, and approximately 50% total damage as source-reported. The follow-up sequence only continues if the initial stab connects; exact frame timing and patch-independent scaling remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Spirit_Sword",
+    "https://dbxv2.fandom.com/wiki/Expert_Mission",
+    "https://steamcommunity.com/app/454650/discussions/0/305510202675038962"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "No unsupported exact frame data, hidden gates, reward probabilities, or patch-independent scaling is promoted.",
+    "Known source conflicts or historical evidence remain provenance rather than being silently normalized."
+  ]
+}
