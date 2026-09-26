@@ -1,0 +1,24 @@
+{
+  "batch": 425,
+  "date": "2026-09-26",
+  "skill_id": "skill-victory-cannon",
+  "skill_name": "Victory Cannon",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Victory_Cannon",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+  ],
+  "scope": "Current Xenoverse 2-specific mechanics, acquisition, resource-cost, and version-history evidence reviewed in Batch 425.",
+  "findings": "300-Stamina Ki Blast Evasive from PQ54. Current repository evidence describes a mouth-fired Ki Wave that can launch nearby opponents while recoil propels the user backward a substantial distance; the maintained PQ evidence identifies PQ54 Basic Reward. The resource cost is Stamina rather than Ki. Current damage is retained only as source-reported evidence.",
+  "canonical_changes": {
+    "last_verified": "2026-09-26",
+    "research_status": "enriched",
+    "verification_status": "evidence_reviewed"
+  },
+  "unresolved": [
+    "Exact current startup/invulnerability/recovery frames are unresolved.",
+    "Exact recoil distance and hitbox dimensions are unresolved.",
+    "Source-reported damage is not treated as patch-independent."
+  ],
+  "status": "complete"
+}
