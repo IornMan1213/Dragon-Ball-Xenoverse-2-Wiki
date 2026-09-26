@@ -1726,3 +1726,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Evidence boundaries preserved: source-reported numerical values remain bounded; no unsupported frame data, probabilities, hidden gates, or patch-independent scaling were promoted.
 - [ ] CI/build status remains unverified; no workflow success is claimed.
 - [x] **Exact next:** run a fresh live registered-audit frontier census excluding Batch 458 and every prior current-evidence audit, then continue the canonical research/synchronization cycle.
+
+### 2026-09-26 continuation — Skill Research Batch 459 completed
+- [x] Fresh live low-detail mechanics frontier selected **Meditation, Fighting Pose B, Gigantic Meteor, Weekend, Fighting Pose G, Fighting Pose I, Fighting Pose J, and Gigantic Omega**.
+- [x] Added eight current-evidence audits plus Batch 459 research/thin-frontier artifacts.
+- [x] Synchronized canonical `skills.json` and `skills-index.json`; both remain **474 records** with ordered ID parity.
+- [x] Registered Batch 459 and all eight audits in the cross-domain index.
+- [x] Evidence boundaries preserved; unsupported frames, probabilities, hidden gates, and patch-independent scaling were not inferred.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** run a fresh live mechanics frontier census excluding Batch 459 and every prior current-evidence audit, then continue with the next genuinely under-detailed records.
