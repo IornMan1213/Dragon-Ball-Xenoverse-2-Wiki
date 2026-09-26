@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-26",
+  "type": "thin_frontier_mechanics_audit",
+  "method": "Fresh live 474-record census excluding every skill ID represented by a registered current-evidence audit; selected the eight shortest remaining mechanics records.",
+  "selected": [
+    "Fierce Fist",
+    "Venus Fist",
+    "Handy Canon",
+    "Full Power Destruction",
+    "Prominence Flash",
+    "Galick Gun",
+    "Ill Rain",
+    "Gigantic Cross"
+  ],
+  "excluded_policy": "Do not reuse stale candidate lists. Re-census live canonical state before every promotion cycle.",
+  "evidence_boundary": "Current-source behavior and source-reported numeric values are preserved. Exact frames, patch-independent scaling, hidden interactions, and reward probabilities are not inferred."
+}
