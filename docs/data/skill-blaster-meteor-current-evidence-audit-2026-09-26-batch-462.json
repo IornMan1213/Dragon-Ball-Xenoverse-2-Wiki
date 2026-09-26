@@ -1,0 +1,21 @@
+{
+  "batch": 462,
+  "date": "2026-09-26",
+  "skill_name": "Blaster Meteor",
+  "skill_id": "skill-blaster-meteor",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics/provenance review for the live canonical record.",
+  "findings": [
+    "300-Stamina Ki Blast Evasive from Broly mentor Lesson 1. The user takes a stance and creates a sphere of Ki Blasts around themselves; current dedicated evidence documents an 8-hit short-range sequence that launches nearby enemies and reports about 5% total damage. The numerical damage value remains source-reported rather than a universal balance constant."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Blaster_Meteor",
+    "https://dbxv2.fandom.com/wiki/Evasive_Skill",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "No unsupported exact frame data, hidden gates, reward probabilities, or patch-independent scaling is promoted.",
+    "Known source conflicts or historical evidence are retained as provenance rather than silently normalized."
+  ]
+}
