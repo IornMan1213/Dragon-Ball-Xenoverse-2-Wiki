@@ -81,7 +81,7 @@
   "validator_hardening_reverse_metadata_2026_09_26": {
     "change": "Hardened validate_skill_pq_crosslinks.py to explicitly reject malformed checked-in reverse-index roots and drift in schema_version, scope, source, generated_on, canonical_skill_count, represented_pq_count, or total_skill_pq_edges before comparing the deterministic pq_ids projection.",
     "result": "The established 474-skill / 246-edge / 170-represented-PQ contract and deterministic pq_ids projection remain unchanged.",
-    "validator_commit": "latest commit from skill-PQ reverse metadata hardening",
+    "validator_commit": "Committed directly to main in this continuation cycle; repository history is authoritative for the commit identifier.",
     "evidence_boundary": "This validates the checked-in reverse artifact against its canonical skill projection; it does not infer rewards for PQs without explicit source_parallel_quests relationships."
   }
 }
