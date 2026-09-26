@@ -14,9 +14,28 @@ def main() -> int:
     skills = json.loads(SKILLS.read_text(encoding="utf-8"))
     bridge = json.loads(BRIDGE.read_text(encoding="utf-8"))
 
-    skill_ids = {row["id"] for row in skills["records"]}
-    canonical_names = {row["canonical_character_name"] for row in bridge["records"]}
     failures: list[str] = []
+    skill_records = skills.get("records")
+    bridge_records = bridge.get("records")
+    if not isinstance(skill_records, list):
+        failures.append("skills.records must be a list")
+        skill_records = []
+    if not isinstance(bridge_records, list):
+        failures.append("character bridge records must be a list")
+        bridge_records = []
+    if any(not isinstance(row, dict) for row in skill_records):
+        failures.append("every canonical skill record must be an object")
+    if any(not isinstance(row, dict) for row in bridge_records):
+        failures.append("every character bridge record must be an object")
+    skill_ids = {row.get("id") for row in skill_records if isinstance(row, dict)}
+    canonical_names = {row.get("canonical_character_name") for row in bridge_records if isinstance(row, dict)}
+    if any(not isinstance(skill_id, str) or not skill_id.strip() for skill_id in skill_ids):
+        failures.append("canonical skill IDs must be non-empty strings")
+    if any(not isinstance(name, str) or not name.strip() for name in canonical_names):
+        failures.append("canonical partner names must be non-empty strings")
+    if not isinstance(rel, dict):
+        failures.append("relationship source must be an object")
+        rel = {}
     relationships = rel.get("relationships", [])
     if not isinstance(relationships, list):
         failures.append("relationships must be a list")
