@@ -1,0 +1,18 @@
+{
+  "batch": 465,
+  "date": "2026-09-26",
+  "skill_name": "Quick Sleep",
+  "skill_id": "skill-quick-sleep",
+  "status": "completed",
+  "findings": [
+    "300-Ki Other Super restricted to Majin CaCs. The user falls asleep to recover Health; the user is vulnerable and cannot move or use an Evasive while sleeping, and releasing input ends the sleep after the wake-up sequence. In Purification, the skill also restores Ki and Stamina. Exact recovery rate and timing remain unresolved."
+  ],
+  "sources": [
+    "https://dragonball.fandom.com/wiki/Sleep",
+    "https://ultradragonball.fandom.com/wiki/Sleep"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}
