@@ -1825,5 +1825,6 @@
   "skill_angry_explosion_current_evidence_audit_2026_09_26_batch_494": "docs/data/skill-angry-explosion-current-evidence-audit-2026-09-26-batch-494.json",
   "skill_side_bridge_current_evidence_audit_2026_09_26_batch_494": "docs/data/skill-side-bridge-current-evidence-audit-2026-09-26-batch-494.json",
   "skill_confusion_blade_current_evidence_audit_2026_09_26_batch_494": "docs/data/skill-confusion-blade-current-evidence-audit-2026-09-26-batch-494.json",
-  "skill_mechanics_frontier_state_reconciliation_2026_09_26": "docs/data/skill-mechanics-frontier-state-reconciliation-2026-09-26.json"
+  "skill_mechanics_frontier_state_reconciliation_2026_09_26": "docs/data/skill-mechanics-frontier-state-reconciliation-2026-09-26.json",
+  "skill_acquisition_metadata_integrity_audit_2026_09_26": "docs/data/skill-acquisition-metadata-integrity-audit-2026-09-26.json"
 }
