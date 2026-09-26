@@ -1,0 +1,20 @@
+{
+  "batch": 463,
+  "date": "2026-09-26",
+  "skill_name": "Super Afterimage",
+  "skill_id": "skill-super-afterimage",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics/provenance review for the live canonical record.",
+  "findings": [
+    "100-Ki Other Super. The user creates six afterimages for evasion and can use the movement to slip behind a nearby opponent; current dedicated evidence also documents the close-range vanish-behind behavior. A documented 0-Ki timing technique is treated as a usage technique rather than a formal game-data cost change. Exact active timing, teleport distance, and frame data remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Afterimage",
+    "https://dragonball.fandom.com/wiki/Super_Afterimage"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "No unsupported exact frame data, hidden gates, reward probabilities, or patch-independent scaling is promoted.",
+    "Known source conflicts or historical evidence remain provenance rather than being silently normalized."
+  ]
+}
