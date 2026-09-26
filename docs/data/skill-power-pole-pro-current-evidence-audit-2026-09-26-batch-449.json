@@ -1,0 +1,22 @@
+{
+  "skill_id": "skill-power-pole-pro",
+  "name": "Power Pole Pro",
+  "batch": 449,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Power_Pole_Pro"
+  ],
+  "findings": [
+    "0-Ki Human CaC transformation",
+    "Hercule's House endpoint",
+    "Nimbus and Power Pole moveset",
+    "Super Armor",
+    "ends through hitstun/grab/damage threshold",
+    "new movement options"
+  ],
+  "evidence_boundaries": [
+    "No unsupported exact frames, scaling, probabilities, or hidden conditions added. Source-reported damage/stat values remain explicitly source-bound."
+  ]
+}
