@@ -1,0 +1,20 @@
+{
+  "skill_id": "skill-ice-cannon",
+  "name": "Ice Cannon",
+  "batch": 447,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Ice_Cannon"
+  ],
+  "findings": [
+    "300 Ki Ki Blast Ultimate",
+    "Shenron wish — new Ultimate Attack",
+    "Five-hit freezing projectile",
+    "Source-reported ~15% damage",
+    "Freeze lasts about 3 seconds"
+  ],
+  "evidence_boundaries": [
+    "Exact startup and patch-independent scaling remain unresolved."
+  ]
+}
