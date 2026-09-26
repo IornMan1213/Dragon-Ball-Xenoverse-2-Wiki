@@ -4009,8 +4009,8 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-26 Batch 445 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the current cost, acquisition, classification, and bounded mechanics; exact frames/recovery/scaling remain unresolved.",
-      "mechanics_notes": "0-Ki Strike Super from Yamcha training. The user falls backward into the fake-KO pose, can hold input while down, then springs up with a kick. Dedicated evidence documents generous invulnerability during the initial and get-up animations.",
+      "notes": "2026-09-26 Batch 445 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the current cost, acquisition, classification, and bounded mechanics; exact frames/recovery/scaling remain unresolved.\n2026-09-26 Batch 463 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "mechanics_notes": "0-Ki Strike Super from Yamcha training. The user falls backward into the Yamcha fake-KO pose, can hold the input while lying down, then springs up with a kick. Current dedicated evidence documents generous invulnerability frames during the initial animation and get-up kick, with the move not necessarily placing the user on the ground. Exact frame counts and recovery remain unresolved.",
       "source_quest": "Yamcha mentor training — Initiation Test",
       "source_quest_or_shop": "Yamcha mentor training — Initiation Test",
       "ki_cost": 0
@@ -4435,8 +4435,8 @@
       "ultimate_finish_required": true,
       "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 500-Ki Strike Ultimate from PQ174 and its multi-stage rush → rear sledgehammer → Final Flash-like wave → ground punch sequence. The existing Ultimate-Finish/60% acquisition semantics and conflicting reward-table presentation remain preserved. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "500-Ki Strike Ultimate from PQ174; 15-hit rush → rear sledgehammer → Ki-wave → ground-punch sequence. Current evidence states the final full-force attack follows if the Ki wave connects.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 500-Ki Strike Ultimate from PQ174 and its multi-stage rush → rear sledgehammer → Final Flash-like wave → ground punch sequence. The existing Ultimate-Finish/60% acquisition semantics and conflicting reward-table presentation remain preserved. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 463 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "mechanics_notes": "500-Ki Strike Ultimate from PQ174. The user rushes and knocks the opponent forward, vanishes behind them for a sledgehammer, then fires a Final Flash-like Ki wave and finishes with a heavy ground punch. Current dedicated evidence identifies a 15-hit sequence and states the final full-force attack occurs when the Ki wave connects; the move can continue through an opponent's Limit Burst. Exact frame timing and patch-independent damage scaling remain unresolved.",
       "source_quest": 174,
       "source_quest_or_shop": "Parallel Quest 174 — \"Hyper Special Training\"",
       "source_parallel_quests": [
@@ -5796,8 +5796,8 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-26 Batch 447 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the Android 16 training endpoint, 300-Ki Ultimate classification, ground-targeted beam/pillar sequence, 26-hit launching behavior, and source-reported ~70% total damage. No unsupported frame or scaling data added.",
-      "mechanics_notes": "300-Ki Ki Blast Ultimate learned from Android 16 training. The user fires a beam at the ground, causing multiple Ki pillars to erupt; current dedicated evidence describes a 26-hit launching sequence totaling about 70% damage.",
+      "notes": "2026-09-26 Batch 447 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the Android 16 training endpoint, 300-Ki Ultimate classification, ground-targeted beam/pillar sequence, 26-hit launching behavior, and source-reported ~70% total damage. No unsupported frame or scaling data added.\n2026-09-26 Batch 463 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate learned from Android 16. The user aims a beam at the ground, causing multiple Ki pillars to erupt; current dedicated evidence documents a 26-hit launching sequence totaling approximately 70% damage as source-reported. Exact frame timing and patch-independent scaling remain unresolved.",
       "source_quest": "Android 16 mentor training — Lesson 3.",
       "source_quest_or_shop": "Android 16 mentor training",
       "ki_cost": 300
@@ -7549,8 +7549,8 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-26 Batch 441 refresh: mentor acquisition, cost, charge/beam behavior, tracking, and source-reported 21-hit/~40%-damage figure reconfirmed.",
-      "mechanics_notes": "400-Ki Ki Blast Ultimate from Cell (Perfect)'s mentor training. Long charge followed by a stationary Kamehameha; current evidence reports tracking and approximately 40% damage over 21 hits.",
+      "notes": "2026-09-26 Batch 441 refresh: mentor acquisition, cost, charge/beam behavior, tracking, and source-reported 21-hit/~40%-damage figure reconfirmed.\n2026-09-26 Batch 463 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "mechanics_notes": "400-Ki Ki Blast Ultimate from Cell (Perfect)'s mentor Lesson 4. The user performs a long charge, then fires a stationary Kamehameha; current dedicated evidence documents 21 hits and approximately 40% total damage as source-reported. The charge leaves the user exposed and the move cannot be guarded; exact frame timing and patch-independent damage scaling remain unresolved.",
       "source_quest": "Cell (Perfect) mentor training",
       "source_quest_or_shop": "Cell (Perfect) mentor training",
       "ki_cost": 400
@@ -8152,8 +8152,8 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-26 Batch 445 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the current cost, acquisition, classification, and bounded mechanics; exact frames/recovery/scaling remain unresolved.",
-      "mechanics_notes": "100-Ki Ki Blast Super/counter from PQ129. A barrier lasts about 2 seconds, can reflect incoming Ki Blasts and trigger a teleporting kick; close-range use can produce the kick directly. Dedicated evidence reports approximately 7% damage.",
+      "notes": "2026-09-26 Batch 445 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the current cost, acquisition, classification, and bounded mechanics; exact frames/recovery/scaling remain unresolved.\n2026-09-26 Batch 463 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "mechanics_notes": "100-Ki Ki Blast Super/counter from PQ129. The user creates a barrier that lingers for about 2 seconds; an incoming Ki Blast can be reflected and followed by a teleporting kick, while close-range use can trigger the kick directly. Current dedicated evidence reports approximately 7% total damage. Exact frames, recovery, and patch-independent scaling remain unresolved.",
       "source_quest": 129,
       "source_quest_or_shop": "Parallel Quest 129 — \"Frieza Force on the Hunt\"",
       "source_parallel_quests": [
@@ -9127,12 +9127,12 @@
       ],
       "unlock_method": "Expert Mission 14 — \"Huge Blasts for Huge Apes!\"",
       "ultimate_finish_required": null,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "Not separately established in this promotion",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM14. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-25 current-evidence promotion: Expert Mission endpoint and current classification/resource cost reconciled with independent acquisition evidence; exact reward probability and first-clear guarantee remain unresolved.",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM14. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-25 current-evidence promotion: Expert Mission endpoint and current classification/resource cost reconciled with independent acquisition evidence; exact reward probability and first-clear guarantee remain unresolved.\n2026-09-26 Batch 463 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
       "source_quest_or_shop": "Expert Mission 14 — \"Huge Blasts for Huge Apes!\"",
       "ki_cost": 300,
-      "mechanics_notes": " Batch 359 current-evidence refresh: bounded combat mechanics expanded from exact Xenoverse 2 skill references; unsupported probabilities, gates, frame data, and exact timing remain unpromoted."
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from Expert Mission 14. The user charges a large Ki ball with both hands and launches it in a straight line; current dedicated evidence documents a 17-hit sequence and approximately 30% total damage as source-reported. The move is categorized as a long-range projectile with knockback; exact reward probability, frame timing, and patch-independent scaling remain unresolved."
     },
     {
       "id": "skill-shooting-strike",
@@ -9628,12 +9628,12 @@
       ],
       "unlock_method": "Expert Mission 17 — \"In the Realm of the Gods: Goku\"",
       "ultimate_finish_required": null,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "Not separately established in this promotion",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM17. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-25 current-evidence promotion: Expert Mission endpoint and current classification/resource cost reconciled with independent acquisition evidence; exact reward probability and first-clear guarantee remain unresolved.",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM17. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-25 current-evidence promotion: Expert Mission endpoint and current classification/resource cost reconciled with independent acquisition evidence; exact reward probability and first-clear guarantee remain unresolved.\n2026-09-26 Batch 463 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
       "source_quest_or_shop": "Expert Mission 17 — \"In the Realm of the Gods: Goku\"",
       "ki_cost": 400,
-      "mechanics_notes": " Batch 360 current-evidence refresh: bounded combat mechanics expanded from current Xenoverse 2-specific skill references; unsupported probabilities, gates, frame data, and exact timing remain unpromoted."
+      "mechanics_notes": "400-Ki Strike Ultimate from Expert Mission 17. The user stabs with a long Ki blade, then spins twice to slash the opponent; current dedicated evidence documents 3 hits, knockback, and approximately 50% total damage as source-reported. The follow-up sequence only continues if the initial stab connects; exact frame timing and patch-independent scaling remain unresolved."
     },
     {
       "id": "skill-spread-shot-retreat",
@@ -9800,8 +9800,8 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-26 current-evidence refresh: exact-name documentation reconfirms the 100-Ki cost, Other Super classification, six-afterimage behavior, and behind-the-opponent vanish option. The documented 0-Ki timing technique is treated as a usage technique, not a formal game-data requirement.",
-      "mechanics_notes": "100-Ki Other Super/evasive technique. Creates six afterimages for evasion; at close range it can instead vanish the user directly behind the opponent. Exact active timing, teleport distance, and frame data remain unresolved.",
+      "notes": "2026-09-26 current-evidence refresh: exact-name documentation reconfirms the 100-Ki cost, Other Super classification, six-afterimage behavior, and behind-the-opponent vanish option. The documented 0-Ki timing technique is treated as a usage technique, not a formal game-data requirement.\n2026-09-26 Batch 463 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "mechanics_notes": "100-Ki Other Super. The user creates six afterimages for evasion and can use the movement to slip behind a nearby opponent; current dedicated evidence also documents the close-range vanish-behind behavior. A documented 0-Ki timing technique is treated as a usage technique rather than a formal game-data cost change. Exact active timing, teleport distance, and frame data remain unresolved.",
       "source_quest_or_shop": "Skill Shop (Conton City)"
     },
     {
