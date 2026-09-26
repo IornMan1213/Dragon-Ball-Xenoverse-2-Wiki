@@ -5,6 +5,7 @@
 - [x] Corrected stale Photon Swipe character-source attribution to **Android 21**.
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 480 and all prior current-evidence-audited records.
+- [x] **Exact next frontier after Batch 480:** **God of Destruction's Plaything, Dark Inscription, Reverse Mabakusenko, Body Change, Hero's Flute, Indomitable, Crusher Ball, and Rakshasa's Claw**. These are the shortest canonical mechanics records remaining after excluding all registered current-evidence audits; the next cycle must re-census live state before promoting them.
 
 ### 2026-09-26 TODO progress update — Skill Research Batch 479 completed
 - [x] Fresh 474-record mechanics frontier selected **Taunt, Demonic Destruction, Neo Tri-Beam, Divine Lasso, Chaotic Time Impact, Gamma Impact, Gigantic Nova, Brutal Buster** after excluding all registered current-evidence-audited skills.

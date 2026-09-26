@@ -8,6 +8,7 @@
 - [x] Corrected stale **Photon Swipe** character attribution from **Toppo** to **Android 21** using current skill-specific evidence.
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [x] **Exact next:** run a fresh unaudited mechanics frontier census excluding Batch 480 and every prior registered current-evidence audit, then continue the canonical research/synchronization cycle.
+- [x] **Exact next frontier after Batch 480:** **God of Destruction's Plaything, Dark Inscription, Reverse Mabakusenko, Body Change, Hero's Flute, Indomitable, Crusher Ball, and Rakshasa's Claw**. These are the shortest canonical mechanics records remaining after excluding all registered current-evidence audits; the next cycle must re-census live state before promoting them.
 
 ### 2026-09-26 continuation — Batch 479 canonical mechanics enrichment
 
