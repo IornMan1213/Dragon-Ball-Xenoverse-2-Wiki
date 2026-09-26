@@ -2404,3 +2404,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated `docs/data/skill-pq-cross-domain-linkage-integrity-audit-2026-09-26.json` and registered it in `docs/data/pq-cross-domain-index.json`.
 - [ ] CI/build remains unverified; the GitHub-hosted validator was not executed in this environment.
 - [x] **Exact next:** inspect the next live cross-domain validator/consumer for an equivalent concrete integrity gap, prioritizing a deterministic checked-in projection that can be compared to its canonical source.
+
+
+### 2026-09-26 continuation — Batch 494 frontier metadata reconciliation
+- [x] Reconciled the stale Batch 494 mechanics-frontier scalar against the later full-corpus integrity audit.
+- [x] Confirmed the live canonical skill corpus remains **474 records**, with **474 unique skill IDs represented by registered current-evidence audit paths** and **0 unaudited IDs** after stable-ID normalization.
+- [x] Preserved the historical Batch 494 entry and its original 364/119 figures as historical context; they are no longer treated as the current frontier state.
+- [x] Added and registered `docs/data/skill-mechanics-frontier-state-reconciliation-2026-09-26.json` documenting the correction and evidence boundary.
+- [x] No canonical skill, mechanics, acquisition, or relationship data was changed by this reconciliation.
+- [ ] CI/build/runtime execution remains unverified.
+- [x] **Exact next:** continue deterministic cross-domain/provenance/data-integrity work; do not start Batch 495 from the stale 119-item list unless a fresh live census establishes genuinely unaudited canonical skill IDs.
