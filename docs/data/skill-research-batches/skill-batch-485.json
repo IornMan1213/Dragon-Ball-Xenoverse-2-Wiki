@@ -1,0 +1,42 @@
+{
+  "batch": 485,
+  "date": "2026-09-26",
+  "status": "complete",
+  "scope": "Fresh frontier enrichment of the shortest remaining unaudited/under-detailed canonical mechanics records after Batch 484.",
+  "selected": [
+    {
+      "skill_name": "Dancing Parapara",
+      "findings": "Current dedicated evidence confirms 100-Ki Other Super, Pan training acquisition, hypnosis/forced dance, Evasive escape, and rapid Stamina recovery while dancing."
+    },
+    {
+      "skill_name": "God of Destruction's Roar",
+      "findings": "Current dedicated evidence confirms 100-Ki Strike Super from PQ105; no direct damage; rapidly drains enemy Stamina; holding too long exhausts the user and creates about one second of vulnerability."
+    },
+    {
+      "skill_name": "God Punisher",
+      "findings": "Current evidence confirms 400-Ki Ki Blast Ultimate from PQ132, rush/opening pair, 25-ball barrage plus final projectile, re-input release, teleport behind opponent if hit during approach, and distinct Festival variant."
+    },
+    {
+      "skill_name": "Super Saiyan God Super Saiyan (Evolved)",
+      "findings": "Current dedicated/Awoken evidence reconfirms 500-Ki Saiyan-only restriction, level 95+/Vegeta friendship/prior SSGSS prerequisites, +35% attack, +10% damage reduction, and 18-Ki-per-second drain presentation."
+    },
+    {
+      "skill_name": "Total Detonation Ball",
+      "findings": "Current evidence identifies a 100-Ki Ki Blast Super from PQ139 with ascent Super Armor and a single Ki-ball hit documented at about 10% damage."
+    },
+    {
+      "skill_name": "Future Super Saiyan",
+      "findings": "Current evidence confirms 300-Ki one-stage Saiyan Awoken, Future Gohan mission after five Time Distorted Eggs, +10% Basic/+5% Basic Ki Blast/+5% Ki Skill/+10% Strike, no damage reduction, and increased Stamina/movement speeds."
+    },
+    {
+      "skill_name": "Godly Display",
+      "findings": "Current evidence confirms 500+ Ki Strike Ultimate, TP Medal Shop acquisition, rush/multi-hit sequence, remaining-Ki-scaled energy sphere, chase-on-dodge behavior, and 500 TP Medal price in current dedicated documentation."
+    },
+    {
+      "skill_name": "Final Pose",
+      "findings": "Current evidence confirms 200-Stamina Power Up Evasive, close-range shockwave, about 2% damage, about 1.5% Basic Attack increase for about 12 seconds, and Skill Shop acquisition."
+    }
+  ],
+  "sources_policy": "Current Xenoverse 2-specific skill evidence was prioritized. Source-reported numerical values remain explicitly bounded; no unsupported frames, probabilities, hidden conditions, or fixed shop schedules were inferred.",
+  "canonical_sync": "Eight records synchronized in docs/data/skills.json and docs/data/skills-index.json."
+}
