@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-25",
+  "batch": 408,
+  "skill_id": "skill-celestial-wave",
+  "skill_name": "Celestial Wave",
+  "result": "current_evidence_refresh",
+  "mechanics_summary": "300-Stamina Ki Blast Evasive from PQ151, \"Even Further Beyond.\" The user launches a blue energy wave upward; current skill documentation reports 7 hits and about 5% damage, with a nearby opponent being lifted by the wave. The acquisition record remains source-conflicted between Basic Reward and an older Ultimate-Finish presentation, so no exclusive gate is inferred.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Celestial_Wave",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "evidence_limits": [
+    "Exact frames/timing/tracking, patch-independent damage values, and unresolved reward probabilities or gates are not promoted without direct support."
+  ]
+}

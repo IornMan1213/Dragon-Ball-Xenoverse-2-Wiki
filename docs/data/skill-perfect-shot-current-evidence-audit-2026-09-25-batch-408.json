@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-25",
+  "batch": 408,
+  "skill_id": "skill-perfect-shot",
+  "skill_name": "Perfect Shot",
+  "result": "current_evidence_refresh",
+  "mechanics_summary": "100-Ki Ki Blast Super from Cell (Perfect) mentor training, Lesson 2. The user charges a green Ki blast at the fingers before firing; current Xenoverse 2-specific documentation describes a slow, mildly tracking projectile that can continue hitting after the user is free to move and reports about 9 hits. Exact startup, hitbox, damage, and tracking values remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Perfect_Shot",
+    "https://dragonball.fandom.com/wiki/Perfect_Shot"
+  ],
+  "evidence_limits": [
+    "Exact frames/timing/tracking, patch-independent damage values, and unresolved reward probabilities or gates are not promoted without direct support."
+  ]
+}

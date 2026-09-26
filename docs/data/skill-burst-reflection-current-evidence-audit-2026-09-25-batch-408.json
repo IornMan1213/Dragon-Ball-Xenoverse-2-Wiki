@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-25",
+  "batch": 408,
+  "skill_id": "skill-burst-reflection",
+  "skill_name": "Burst Reflection",
+  "result": "current_evidence_refresh",
+  "mechanics_summary": "100-Ki Ki Blast Super / Counter Skill obtained through the Shenron \"I want a new Super Attack!\" route. The user creates a lens-like barrier for about one second, receives protection/Super Armor while it is active, then fires a single Ki wave; current skill documentation reports about 10% damage. Exact frame and interaction behavior remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Burst_Reflection",
+    "https://dragonball.fandom/wiki/Burst_Reflection"
+  ],
+  "evidence_limits": [
+    "Exact frames/timing/tracking, patch-independent damage values, and unresolved reward probabilities or gates are not promoted without direct support."
+  ]
+}

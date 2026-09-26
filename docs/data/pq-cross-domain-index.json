@@ -128,7 +128,17 @@
     "skill_batch_363_thin_mentor_mechanics_2026_09_25": "docs/data/skill-research-batches/skill-batch-363.json",
     "skill_batch_363_thin_mentor_mechanics_audit_2026_09_25": "docs/data/skill-batch-363-thin-mentor-mechanics-audit-2026-09-25.json",
     "skill_batch_364_thin_mechanics_2026_09_25": "docs/data/skill-research-batches/skill-batch-364.json",
-    "skill_batch_364_thin_mechanics_audit_2026_09_25": "docs/data/skill-batch-364-thin-mechanics-audit-2026-09-25.json"
+    "skill_batch_364_thin_mechanics_audit_2026_09_25": "docs/data/skill-batch-364-thin-mechanics-audit-2026-09-25.json",
+    "batch_408_perfect_shot": "docs/data/skill-perfect-shot-current-evidence-audit-2026-09-25-batch-408.json",
+    "batch_408_celestial_wave": "docs/data/skill-celestial-wave-current-evidence-audit-2026-09-25-batch-408.json",
+    "batch_408_super_guard": "docs/data/skill-super-guard-current-evidence-audit-2026-09-25-batch-408.json",
+    "batch_408_spirit_bomb": "docs/data/skill-spirit-bomb-current-evidence-audit-2026-09-25-batch-408.json",
+    "batch_408_afterimage": "docs/data/skill-afterimage-current-evidence-audit-2026-09-25-batch-408.json",
+    "batch_408_burst_reflection": "docs/data/skill-burst-reflection-current-evidence-audit-2026-09-25-batch-408.json",
+    "batch_408_s_s_deadly_bomber": "docs/data/skill-s-s-deadly-bomber-current-evidence-audit-2026-09-25-batch-408.json",
+    "batch_408_thunder_flash": "docs/data/skill-thunder-flash-current-evidence-audit-2026-09-25-batch-408.json",
+    "skill_batch_408": "docs/data/skill-research-batches/skill-batch-408.json",
+    "skill_batch_408_thin_frontier": "docs/data/skill-research-batches/skill-batch-408-thin-frontier-mechanics-audit-2026-09-25.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",

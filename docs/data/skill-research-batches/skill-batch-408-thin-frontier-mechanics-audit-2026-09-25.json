@@ -1,0 +1,80 @@
+{
+  "batch": 408,
+  "date": "2026-09-25",
+  "scope": "Next eight shortest genuinely under-detailed canonical mechanics records after excluding completed Batches 396–407",
+  "status": "completed",
+  "records": [
+    {
+      "id": "skill-perfect-shot",
+      "name": "Perfect Shot",
+      "mechanics_length": 373,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Perfect_Shot",
+        "https://dragonball.fandom.com/wiki/Perfect_Shot"
+      ]
+    },
+    {
+      "id": "skill-celestial-wave",
+      "name": "Celestial Wave",
+      "mechanics_length": 368,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Celestial_Wave",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "skill-super-guard",
+      "name": "Super Guard",
+      "mechanics_length": 346,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Guard",
+        "https://dragonballxenoverse2.wiki/"
+      ]
+    },
+    {
+      "id": "skill-spirit-bomb",
+      "name": "Spirit Bomb",
+      "mechanics_length": 356,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Spirit_Bomb",
+        "https://dragonball.fandom.com/wiki/Spirit_Bomb"
+      ]
+    },
+    {
+      "id": "skill-afterimage",
+      "name": "Afterimage",
+      "mechanics_length": 364,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Afterimage",
+        "https://dragonball.fandom.com/wiki/Afterimage_Technique"
+      ]
+    },
+    {
+      "id": "skill-burst-reflection",
+      "name": "Burst Reflection",
+      "mechanics_length": 352,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Burst_Reflection",
+        "https://dragonball.fandom/wiki/Burst_Reflection"
+      ]
+    },
+    {
+      "id": "skill-s-s-deadly-bomber",
+      "name": "S.S. Deadly Bomber",
+      "mechanics_length": 336,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/S.S._Deadly_Bomber",
+        "https://dragonball.fandom.com/wiki/S.S._Deadly_Bomber"
+      ]
+    },
+    {
+      "id": "skill-thunder-flash",
+      "name": "Thunder Flash",
+      "mechanics_length": 367,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Thunder_Flash",
+        "https://dragonball.fandom.com/wiki/Thunder_Flash"
+      ]
+    }
+  ]
+}

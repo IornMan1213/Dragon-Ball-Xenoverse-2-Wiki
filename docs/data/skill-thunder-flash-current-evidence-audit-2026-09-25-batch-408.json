@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-25",
+  "batch": 408,
+  "skill_id": "skill-thunder-flash",
+  "skill_name": "Thunder Flash",
+  "result": "current_evidence_refresh",
+  "mechanics_summary": "300–600-Ki Ki Blast Ultimate from PQ146, \"Zen-Ohs' Earthly Excursion.\" The user charges energy in a protected stance and then fires a straight beam; holding the input spends up to 300 additional Ki to extend the attack and increase its damage. Current skill documentation describes a 19-hit beam. Exact charge timing, damage scaling, and frame data remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Thunder_Flash",
+    "https://dragonball.fandom.com/wiki/Thunder_Flash"
+  ],
+  "evidence_limits": [
+    "Exact frames/timing/tracking, patch-independent damage values, and unresolved reward probabilities or gates are not promoted without direct support."
+  ]
+}

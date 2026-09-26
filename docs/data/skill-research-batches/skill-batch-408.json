@@ -1,0 +1,80 @@
+{
+  "batch": 408,
+  "date": "2026-09-25",
+  "scope": "Skill mechanics frontier",
+  "status": "completed",
+  "records": [
+    {
+      "id": "skill-perfect-shot",
+      "name": "Perfect Shot",
+      "mechanics_notes": "100-Ki Ki Blast Super from Cell (Perfect) mentor training, Lesson 2. The user charges a green Ki blast at the fingers before firing; current Xenoverse 2-specific documentation describes a slow, mildly tracking projectile that can continue hitting after the user is free to move and reports about 9 hits. Exact startup, hitbox, damage, and tracking values remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Perfect_Shot",
+        "https://dragonball.fandom.com/wiki/Perfect_Shot"
+      ]
+    },
+    {
+      "id": "skill-celestial-wave",
+      "name": "Celestial Wave",
+      "mechanics_notes": "300-Stamina Ki Blast Evasive from PQ151, \"Even Further Beyond.\" The user launches a blue energy wave upward; current skill documentation reports 7 hits and about 5% damage, with a nearby opponent being lifted by the wave. The acquisition record remains source-conflicted between Basic Reward and an older Ultimate-Finish presentation, so no exclusive gate is inferred.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Celestial_Wave",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "skill-super-guard",
+      "name": "Super Guard",
+      "mechanics_notes": "Other Super that creates a blue energy barrier and grants damage immunity while held, continuously consuming Ki. Current Xenoverse 2 documentation lists 100+ Ki use and identifies it as a starting skill for the close-up fighting-style choice / Skill Shop skill. Exact Ki drain rate, activation frames, and interruption behavior remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Guard",
+        "https://dragonballxenoverse2.wiki/"
+      ]
+    },
+    {
+      "id": "skill-spirit-bomb",
+      "name": "Spirit Bomb",
+      "mechanics_notes": "100-Ki Ki Blast Super learned through Goku mentor training. The user raises their hands and charges the projectile for roughly 2–3 seconds before a second input releases it; if the projectile misses, current skill documentation says it redirects like a boomerang for another chance to hit. Exact startup, tracking, damage, and frame data remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Spirit_Bomb",
+        "https://dragonball.fandom.com/wiki/Spirit_Bomb"
+      ]
+    },
+    {
+      "id": "skill-afterimage",
+      "name": "Afterimage",
+      "mechanics_notes": "100-Ki Other Super and starting skill for the Mixed fighting-style choice. The user enters an afterimage pose; with correct timing, the move can evade an incoming attack and reposition the user behind a nearby opponent, while attacks from farther away can be evaded through the movement. Exact invulnerability timing and teleport distance remain version-sensitive.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Afterimage",
+        "https://dragonball.fandom.com/wiki/Afterimage_Technique"
+      ]
+    },
+    {
+      "id": "skill-burst-reflection",
+      "name": "Burst Reflection",
+      "mechanics_notes": "100-Ki Ki Blast Super / Counter Skill obtained through the Shenron \"I want a new Super Attack!\" route. The user creates a lens-like barrier for about one second, receives protection/Super Armor while it is active, then fires a single Ki wave; current skill documentation reports about 10% damage. Exact frame and interaction behavior remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Burst_Reflection",
+        "https://dragonball.fandom/wiki/Burst_Reflection"
+      ]
+    },
+    {
+      "id": "skill-s-s-deadly-bomber",
+      "name": "S.S. Deadly Bomber",
+      "mechanics_notes": "400-Ki Ki Blast Ultimate from PQ115, \"Extreme Battle with Android 13!\" The user creates a Ki ball that heat-seeks the opponent; current Xenoverse 2-specific documentation reports 15 hits and about 30% damage. The maintained acquisition data treats it as a Basic Reward; exact drop probability and frame/hitbox details remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/S.S._Deadly_Bomber",
+        "https://dragonball.fandom.com/wiki/S.S._Deadly_Bomber"
+      ]
+    },
+    {
+      "id": "skill-thunder-flash",
+      "name": "Thunder Flash",
+      "mechanics_notes": "300–600-Ki Ki Blast Ultimate from PQ146, \"Zen-Ohs' Earthly Excursion.\" The user charges energy in a protected stance and then fires a straight beam; holding the input spends up to 300 additional Ki to extend the attack and increase its damage. Current skill documentation describes a 19-hit beam. Exact charge timing, damage scaling, and frame data remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Thunder_Flash",
+        "https://dragonball.fandom.com/wiki/Thunder_Flash"
+      ]
+    }
+  ]
+}

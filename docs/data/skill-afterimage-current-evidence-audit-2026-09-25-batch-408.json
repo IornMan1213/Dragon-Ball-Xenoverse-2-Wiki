@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-25",
+  "batch": 408,
+  "skill_id": "skill-afterimage",
+  "skill_name": "Afterimage",
+  "result": "current_evidence_refresh",
+  "mechanics_summary": "100-Ki Other Super and starting skill for the Mixed fighting-style choice. The user enters an afterimage pose; with correct timing, the move can evade an incoming attack and reposition the user behind a nearby opponent, while attacks from farther away can be evaded through the movement. Exact invulnerability timing and teleport distance remain version-sensitive.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Afterimage",
+    "https://dragonball.fandom.com/wiki/Afterimage_Technique"
+  ],
+  "evidence_limits": [
+    "Exact frames/timing/tracking, patch-independent damage values, and unresolved reward probabilities or gates are not promoted without direct support."
+  ]
+}

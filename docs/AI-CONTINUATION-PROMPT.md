@@ -1,3 +1,14 @@
+### 2026-09-25 continuation — Skill Research Batch 408 completed
+
+- [x] Fresh 474-record mechanics frontier census excluded completed Batches 396–407 and selected **Perfect Shot, Celestial Wave, Super Guard, Spirit Bomb, Afterimage, Burst Reflection, S.S. Deadly Bomber, and Thunder Flash** as the next eight shortest genuinely under-detailed canonical records.
+- [x] Expanded current Xenoverse 2-specific mechanics boundaries for all eight and synchronized both canonical skill layers (`docs/data/skills.json` and `docs/data/skills-index.json`).
+- [x] Added Batch 408 research data, thin-frontier audit, and eight current-evidence audit files.
+- [x] Registered Batch 408 and all eight per-skill audits in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved evidence conflicts and limits: Celestial Wave's reward-tier conflict remains explicit; no unsupported frame data, patch-independent balance values, hidden gates, or drop probabilities were inferred.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** run a fresh 474-record frontier census excluding Batches 396–408 and enrich the next 4–12 shortest genuinely under-detailed canonical mechanics records, synchronizing canonical/index/provenance in the same cycle.
+
+
 ### 2026-09-25 continuation — Skill Research Batch 399 completed
 
 - [x] Fresh 474-record frontier census excluded Batches 396–398 and selected **Sonic Bomb, Seagull Combination, Death Crasher, Fighting Pose F, Super Dragon Flight**.

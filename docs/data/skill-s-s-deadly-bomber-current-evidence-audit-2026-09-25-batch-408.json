@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-25",
+  "batch": 408,
+  "skill_id": "skill-s-s-deadly-bomber",
+  "skill_name": "S.S. Deadly Bomber",
+  "result": "current_evidence_refresh",
+  "mechanics_summary": "400-Ki Ki Blast Ultimate from PQ115, \"Extreme Battle with Android 13!\" The user creates a Ki ball that heat-seeks the opponent; current Xenoverse 2-specific documentation reports 15 hits and about 30% damage. The maintained acquisition data treats it as a Basic Reward; exact drop probability and frame/hitbox details remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/S.S._Deadly_Bomber",
+    "https://dragonball.fandom.com/wiki/S.S._Deadly_Bomber"
+  ],
+  "evidence_limits": [
+    "Exact frames/timing/tracking, patch-independent damage values, and unresolved reward probabilities or gates are not promoted without direct support."
+  ]
+}

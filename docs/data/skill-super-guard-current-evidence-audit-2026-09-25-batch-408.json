@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-25",
+  "batch": 408,
+  "skill_id": "skill-super-guard",
+  "skill_name": "Super Guard",
+  "result": "current_evidence_refresh",
+  "mechanics_summary": "Other Super that creates a blue energy barrier and grants damage immunity while held, continuously consuming Ki. Current Xenoverse 2 documentation lists 100+ Ki use and identifies it as a starting skill for the close-up fighting-style choice / Skill Shop skill. Exact Ki drain rate, activation frames, and interruption behavior remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Guard",
+    "https://dragonballxenoverse2.wiki/"
+  ],
+  "evidence_limits": [
+    "Exact frames/timing/tracking, patch-independent damage values, and unresolved reward probabilities or gates are not promoted without direct support."
+  ]
+}
