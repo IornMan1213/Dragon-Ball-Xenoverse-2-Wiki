@@ -1522,5 +1522,15 @@
   "skill_super-afterimage_current_evidence_audit_2026_09_26_batch_463": "docs/data/skill-super-afterimage-current-evidence-audit-2026-09-26-batch-463.json",
   "skill_hell-flash_current_evidence_audit_2026_09_26_batch_463": "docs/data/skill-hell-flash-current-evidence-audit-2026-09-26-batch-463.json",
   "skill_punisher-shield_current_evidence_audit_2026_09_26_batch_463": "docs/data/skill-punisher-shield-current-evidence-audit-2026-09-26-batch-463.json",
-  "skill_fake-death_current_evidence_audit_2026_09_26_batch_463": "docs/data/skill-fake-death-current-evidence-audit-2026-09-26-batch-463.json"
+  "skill_fake-death_current_evidence_audit_2026_09_26_batch_463": "docs/data/skill-fake-death-current-evidence-audit-2026-09-26-batch-463.json",
+  "skill_batch_464": "docs/data/skill-research-batches/skill-batch-464.json",
+  "skill_batch_464_thin_frontier": "docs/data/skill-research-batches/skill-batch-464-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_paralyze-beam_current_evidence_audit_2026_09_26_batch_464": "docs/data/skill-paralyze-beam-current-evidence-audit-2026-09-26-batch-464.json",
+  "skill_meteor-burst_current_evidence_audit_2026_09_26_batch_464": "docs/data/skill-meteor-burst-current-evidence-audit-2026-09-26-batch-464.json",
+  "skill_final-kamehameha_current_evidence_audit_2026_09_26_batch_464": "docs/data/skill-final-kamehameha-current-evidence-audit-2026-09-26-batch-464.json",
+  "skill_justice-blade_current_evidence_audit_2026_09_26_batch_464": "docs/data/skill-justice-blade-current-evidence-audit-2026-09-26-batch-464.json",
+  "skill_strike-of-revelation_current_evidence_audit_2026_09_26_batch_464": "docs/data/skill-strike-of-revelation-current-evidence-audit-2026-09-26-batch-464.json",
+  "skill_variant-drive_current_evidence_audit_2026_09_26_batch_464": "docs/data/skill-variant-drive-current-evidence-audit-2026-09-26-batch-464.json",
+  "skill_giant-storm_current_evidence_audit_2026_09_26_batch_464": "docs/data/skill-giant-storm-current-evidence-audit-2026-09-26-batch-464.json",
+  "skill_lightning-of-absolution_current_evidence_audit_2026_09_26_batch_464": "docs/data/skill-lightning-of-absolution-current-evidence-audit-2026-09-26-batch-464.json"
 }
