@@ -1,0 +1,15 @@
+{
+  "batch": 488,
+  "date": "2026-09-26",
+  "skill_id": "skill-venus-fist",
+  "skill_name": "Venus Fist",
+  "status": "complete",
+  "findings": "Current 2026 evidence confirms PQ186 Basic Reward provenance and a multi-step rush/teleport Strike Ultimate. Recent community/video evidence documents low-Health behavior and describes a 3-Ki-bar cost; exact hit counts, scaling, and the low-Health modifier remain unresolved.",
+  "sources": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://steamcommunity.com/app/454650/discussions/0/564787571097573891/",
+    "https://www.reddit.com/r/dbxv/comments/1vni4e0/godly_display_venus_fist/"
+  ],
+  "evidence_boundary": "Current-source behavior and source-reported numerical values are preserved as bounded evidence. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; canonical/index parity validated at 474/474."
+}
