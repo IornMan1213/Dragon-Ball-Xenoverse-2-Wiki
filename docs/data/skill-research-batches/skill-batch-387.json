@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 387,
+  "created": "2026-09-25",
+  "type": "short-frontier-mechanics-enrichment",
+  "records": [
+    {
+      "name": "Android Rush",
+      "id": "skill-android-rush",
+      "audit": "docs/data/skill-android-rush-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Burst Charge",
+      "id": "skill-burst-charge",
+      "audit": "docs/data/skill-burst-charge-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Chaos Shot",
+      "id": "skill-chaos-shot",
+      "audit": "docs/data/skill-chaos-shot-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Confusion Blade",
+      "id": "skill-confusion-blade",
+      "audit": "docs/data/skill-confusion-blade-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Death Crasher",
+      "id": "skill-death-crasher",
+      "audit": "docs/data/skill-death-crasher-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Dynamite Kick",
+      "id": "skill-dynamite-kick",
+      "audit": "docs/data/skill-dynamite-kick-current-evidence-audit-2026-09-25.json"
+    }
+  ],
+  "evidence_boundary": "Current Xenoverse 2 mechanics enrichment only; source-reported numeric values remain bounded and unresolved details are not inferred."
+}
