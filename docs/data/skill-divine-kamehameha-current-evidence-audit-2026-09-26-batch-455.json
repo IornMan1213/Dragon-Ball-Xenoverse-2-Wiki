@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-divine-kamehameha",
+  "name": "Divine Kamehameha",
+  "batch": 455,
+  "date": "2026-09-26",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Divine_Kamehameha",
+    "https://dragonball.fandom.com/wiki/Divine_Kamehameha"
+  ],
+  "findings": [
+    "2026-09-26 Batch 455 current-evidence enrichment: 200-Ki Ki Blast Super obtained through the TP Medal Shop. Current skill evidence documents forward movement while charging, left/right control-stick movement, automatic firing when close or after about three seconds, and an additional input for immediate firing. If the user is hit during the forward movement, the move redirects toward the opponent and fires; current documentation states that since DLC 11 it cannot be used while stamina broken. Exact frame data and damage scaling remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
