@@ -1,0 +1,18 @@
+{
+  "batch": 465,
+  "date": "2026-09-26",
+  "skill_name": "Mach Punch",
+  "skill_id": "skill-mach-punch",
+  "status": "completed",
+  "findings": [
+    "100-Ki Strike Super from PQ19. The user briefly pulls back, then releases a six-punch barrage followed by a finishing kick for approximately 10% total source-reported damage. The attack is short-range and can be cancelled into an Ultimate on hit."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Mach_Punch",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}
