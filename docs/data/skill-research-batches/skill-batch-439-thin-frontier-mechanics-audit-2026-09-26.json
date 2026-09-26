@@ -1,0 +1,18 @@
+{
+  "batch": 439,
+  "date": "2026-09-26",
+  "type": "thin_frontier_mechanics_audit",
+  "selected": [
+    "Blades of Judgment",
+    "Sudden Death Beam",
+    "Super Saiyan God",
+    "Change The Future"
+  ],
+  "method": "Fresh mechanics_notes-plus-notes frontier census over the 474-record canonical dataset, excluding records with registered current-evidence audit artifacts. The four shortest remaining unaudited records were selected and rechecked against current skill-specific references and independent corroboration.",
+  "evidence_boundaries": [
+    "Exact frame data is not promoted.",
+    "Patch-independent damage/scaling is not inferred from historical or community reports.",
+    "Documented source conflicts are preserved rather than silently normalized.",
+    "Exact drop probabilities, hidden conditions, and unresolved combo coverage remain unresolved unless directly evidenced."
+  ]
+}
