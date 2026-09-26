@@ -1,0 +1,13 @@
+{
+  "batch": 418,
+  "date": "2026-09-26",
+  "skill_id": "skill-candy-beam",
+  "skill_name": "Candy Beam",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Candy_Beam",
+    "https://dbxv2.fandom.com/wiki/Candy_Beam_%28Super%29"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "100-Ki Ki Blast Super. The user fires a candy-transforming beam that deals no direct damage but applies the candy transformation, preventing the target from attacking and reducing Ki Blast skill damage. The current dedicated reference distinguishes this base Candy Beam from the separate 200-Ki Candy Beam (Super) variant; exact transformation duration and reduction value remain unresolved.",
+  "boundaries": "Exact frame data, hidden interactions, patch-independent scaling, and unresolved status-effect values remain bounded unless directly established by the cited evidence."
+}

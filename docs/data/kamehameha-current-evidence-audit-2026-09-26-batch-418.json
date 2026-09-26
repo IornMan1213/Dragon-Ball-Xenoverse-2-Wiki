@@ -1,0 +1,12 @@
+{
+  "batch": 418,
+  "date": "2026-09-26",
+  "skill_id": "skill-kamehameha",
+  "skill_name": "Kamehameha",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Kamehameha"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "100-Ki Ki Blast Super with three charge levels. Current dedicated Xenoverse 2 documentation reports ideal-condition hit counts of 9 at Level 1, 12 at Level 2, and 15 at Level 3, with fewer hits possible at greater distance. Exact charge frames and patch-independent damage scaling remain unresolved.",
+  "boundaries": "Exact frame data, hidden interactions, patch-independent scaling, and unresolved status-effect values remain bounded unless directly established by the cited evidence."
+}

@@ -1,0 +1,12 @@
+{
+  "batch": 418,
+  "date": "2026-09-26",
+  "skill_id": "skill-dragon-blitz",
+  "skill_name": "Dragon Blitz",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Dragon_Blitz"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "100-Ki Strike Super from PQ141. The base knee-and-kick sequence launches the opponent; additional input adds another attack, while directional input can teleport the user to the target and produce a four-hit sequence. Current dedicated documentation reports 10% total damage for the four-hit route and 12% extra damage for the additional-input route; exact timing remains unresolved.",
+  "boundaries": "Exact frame data, hidden interactions, patch-independent scaling, and unresolved status-effect values remain bounded unless directly established by the cited evidence."
+}

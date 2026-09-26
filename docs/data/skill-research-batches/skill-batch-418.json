@@ -1,0 +1,22 @@
+{
+  "batch": 418,
+  "date": "2026-09-26",
+  "scope": "Skill mechanics frontier",
+  "status": "completed",
+  "excluded_batches": "396-417",
+  "selected": [
+    "Elegant Blaster",
+    "Candy Beam",
+    "Kamehameha",
+    "Prepare to be Punished",
+    "Wild Stinger",
+    "Dragon Blitz",
+    "Elite Beam",
+    "Solar Flare",
+    "The Savior Has Come",
+    "Wolf Fang Fist",
+    "Volleyball Fist",
+    "Fighting Pose F"
+  ],
+  "evidence_policy": "Promote directly supported Xenoverse 2 mechanics only; preserve uncertainty around exact frames, hidden interactions, patch-independent scaling, and unresolved status-effect values."
+}

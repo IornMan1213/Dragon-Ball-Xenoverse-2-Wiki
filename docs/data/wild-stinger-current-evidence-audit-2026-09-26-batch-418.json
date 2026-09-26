@@ -1,0 +1,12 @@
+{
+  "batch": 418,
+  "date": "2026-09-26",
+  "skill_id": "skill-wild-stinger",
+  "skill_name": "Wild Stinger",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Wild_Stinger"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "100-Ki Strike Super from PQ172. The user rushes forward with a sharp kick; on hit, a second kick launches the opponent backward, after which another technique can be used immediately. Current dedicated documentation describes an 11-hit presentation and notes that the move can chase evasive movement; exact startup and damage scaling remain unresolved.",
+  "boundaries": "Exact frame data, hidden interactions, patch-independent scaling, and unresolved status-effect values remain bounded unless directly established by the cited evidence."
+}

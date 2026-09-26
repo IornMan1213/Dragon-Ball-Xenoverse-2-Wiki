@@ -1,0 +1,12 @@
+{
+  "batch": 418,
+  "date": "2026-09-26",
+  "skill_id": "skill-volleyball-fist",
+  "skill_name": "Volleyball Fist",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Volleyball_Fist"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "100-Ki Strike Super with a three-stage, short-range rush ending in a spike knockdown. Current dedicated documentation reports 15% total damage and notes a relatively long startup; it can be followed by ranged attacks after the knockdown. Exact startup and timing remain unresolved.",
+  "boundaries": "Exact frame data, hidden interactions, patch-independent scaling, and unresolved status-effect values remain bounded unless directly established by the cited evidence."
+}

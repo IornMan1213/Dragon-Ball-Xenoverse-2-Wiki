@@ -1,0 +1,13 @@
+{
+  "batch": 418,
+  "date": "2026-09-26",
+  "skill_id": "skill-the-savior-has-come",
+  "skill_name": "The Savior Has Come",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/The_Saviour_Has_Come",
+    "https://dragonball.fandom.com/wiki/The_Savior_Has_Come"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "300-Ki Other Ultimate. The user performs a taunt; when it finishes, enemies in the area are forced to lock onto the user and cannot switch to another target for 10 seconds. It deals no damage. Current dedicated documentation also distinguishes the DUAL variant, which restores both users' health.",
+  "boundaries": "Exact frame data, hidden interactions, patch-independent scaling, and unresolved status-effect values remain bounded unless directly established by the cited evidence."
+}

@@ -1,0 +1,12 @@
+{
+  "batch": 418,
+  "date": "2026-09-26",
+  "skill_id": "skill-wolf-fang-fist",
+  "skill_name": "Wolf Fang Fist",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Wolf_Fang_Fist"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "100-Ki Strike Super from Yamcha's training. The user rushes forward with a multi-hit claw-and-kick barrage ending in knock-away; current dedicated documentation reports 15 hits and about 20% total damage. A short recovery after the ending knockback prevents immediate chase continuation; exact startup remains unresolved.",
+  "boundaries": "Exact frame data, hidden interactions, patch-independent scaling, and unresolved status-effect values remain bounded unless directly established by the cited evidence."
+}

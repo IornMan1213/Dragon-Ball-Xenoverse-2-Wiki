@@ -1,0 +1,13 @@
+{
+  "batch": 418,
+  "date": "2026-09-26",
+  "skill_id": "skill-solar-flare",
+  "skill_name": "Solar Flare",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Solar_Flare",
+    "https://dbxv2.fandom.com/wiki/Status_Effect"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "200-Ki Other Super. The user emits a close-range head flash that blinds nearby opponents rather than focusing on direct damage. Current Xenoverse 2 evidence confirms the blindness status effect and PQ03 acquisition; exact blind duration, radius, and startup remain unresolved.",
+  "boundaries": "Exact frame data, hidden interactions, patch-independent scaling, and unresolved status-effect values remain bounded unless directly established by the cited evidence."
+}

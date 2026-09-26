@@ -1,0 +1,13 @@
+{
+  "batch": 418,
+  "date": "2026-09-26",
+  "skill_id": "skill-prepare-to-be-punished",
+  "skill_name": "Prepare to be Punished",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Prepare_to_be_Punished",
+    "https://dragonball.fandom.com/wiki/Prepare_to_be_Punished"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "0-Ki Power Up Super requiring a lock-on target. It grants an S-level power boost for 10 seconds, but the user cannot switch lock-on targets while the effect is active; current dedicated evidence also notes that losing the lock-on can remove the boost. Exact stat multiplier remains unresolved.",
+  "boundaries": "Exact frame data, hidden interactions, patch-independent scaling, and unresolved status-effect values remain bounded unless directly established by the cited evidence."
+}

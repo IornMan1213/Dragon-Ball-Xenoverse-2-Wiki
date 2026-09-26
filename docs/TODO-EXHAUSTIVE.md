@@ -1107,3 +1107,12 @@
 - [x] Evidence boundaries preserved; unsupported exact frames, hidden conditions, tracking parameters, patch-independent scaling, and outcome probabilities remain unresolved rather than inferred.
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [x] **Exact next:** fresh 474-record census excluding Batches 396–417, then enrich the next 4–12 shortest genuinely under-detailed records and synchronize canonical/index/provenance.
+
+
+### 2026-09-26 TODO progress update — Skill Research Batch 418 completed
+- [x] Fresh 474-record mechanics frontier census excluded Batches 396–417 and selected **Elegant Blaster, Candy Beam, Kamehameha, Prepare to be Punished, Wild Stinger, Dragon Blitz, Elite Beam, Solar Flare, The Savior Has Come, Wolf Fang Fist, Volleyball Fist, Fighting Pose F** as the next twelve shortest genuinely under-detailed records.
+- [x] Enriched and synchronized canonical `docs/data/skills.json` and projection `docs/data/skills-index.json`; canonical/index remain 474/474.
+- [x] Added twelve current-evidence audits, Batch 418 research data, thin-frontier audit, and provenance registry entries.
+- [x] Evidence boundaries preserved; unsupported exact frames, hidden conditions, patch-independent scaling, and unresolved status-effect values remain unresolved rather than inferred.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [x] **Exact next:** fresh 474-record census excluding Batches 396–418, then enrich the next 4–12 shortest genuinely under-detailed records and synchronize canonical/index/provenance.

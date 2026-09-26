@@ -1,0 +1,12 @@
+{
+  "batch": 418,
+  "date": "2026-09-26",
+  "skill_id": "skill-elegant-blaster",
+  "skill_name": "Elegant Blaster",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Elegant_Blaster"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "300-Ki Ki Blast Ultimate. The user becomes invisible for about one second and can move during the invisible phase before reappearing and firing a long, XL-range beam. Current dedicated documentation reports 23 hits and about 40% total damage; exact movement window and patch-independent damage scaling remain unresolved.",
+  "boundaries": "Exact frame data, hidden interactions, patch-independent scaling, and unresolved status-effect values remain bounded unless directly established by the cited evidence."
+}

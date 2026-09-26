@@ -1,0 +1,12 @@
+{
+  "batch": 418,
+  "date": "2026-09-26",
+  "skill_id": "skill-fighting-pose-f",
+  "skill_name": "Fighting Pose F",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Fighting_Pose_F"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "0-Ki Power Up Super. After the pose animation, the user gains Hyper Armor for 12 seconds, causing incoming damage to deplete Stamina instead of Health while greatly reducing Stamina regeneration. The effect can be reset by other buffs, although some buffs overwrite it; exact regeneration penalty remains unresolved.",
+  "boundaries": "Exact frame data, hidden interactions, patch-independent scaling, and unresolved status-effect values remain bounded unless directly established by the cited evidence."
+}

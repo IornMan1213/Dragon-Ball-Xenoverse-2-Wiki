@@ -1,0 +1,24 @@
+{
+  "batch": 418,
+  "date": "2026-09-26",
+  "status": "completed",
+  "selected": [
+    "Elegant Blaster",
+    "Candy Beam",
+    "Kamehameha",
+    "Prepare to be Punished",
+    "Wild Stinger",
+    "Dragon Blitz",
+    "Elite Beam",
+    "Solar Flare",
+    "The Savior Has Come",
+    "Wolf Fang Fist",
+    "Volleyball Fist",
+    "Fighting Pose F"
+  ],
+  "census": {
+    "record_count": 474,
+    "excluded_batches": "396-417",
+    "selection_rule": "Shortest genuinely under-detailed canonical mechanics records after excluding completed frontier batches."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "batch": 418,
+  "date": "2026-09-26",
+  "skill_id": "skill-elite-beam",
+  "skill_name": "Elite Beam",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Elite_Beam"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "100-Ki Ki Blast Super. Jaco fires a thin, mid-range beam from his Galactic Patrol ray gun while posing; the single-hit attack deals about 10% damage and knocks the opponent away. Exact startup and patch-independent damage scaling remain unresolved.",
+  "boundaries": "Exact frame data, hidden interactions, patch-independent scaling, and unresolved status-effect values remain bounded unless directly established by the cited evidence."
+}

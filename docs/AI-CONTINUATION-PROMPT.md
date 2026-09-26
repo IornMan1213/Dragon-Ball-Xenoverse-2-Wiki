@@ -1253,3 +1253,13 @@
 - [x] Preserved evidence boundaries: exact frames, hidden interactions, tracking parameters, patch-independent scaling, and unresolved outcome probabilities were not inferred where unsupported.
 - [ ] CI/build status remains unverified; no workflow success is claimed.
 - [x] **Exact next:** run a fresh 474-record frontier census excluding Batches 396–417 and enrich the next 4–12 shortest genuinely under-detailed canonical mechanics records, synchronizing canonical/index/provenance in the same cycle.
+
+
+### 2026-09-26 continuation — Skill Research Batch 418 completed
+
+- [x] Fresh 474-record mechanics frontier census excluded Batches 396–417 and selected **Elegant Blaster, Candy Beam, Kamehameha, Prepare to be Punished, Wild Stinger, Dragon Blitz, Elite Beam, Solar Flare, The Savior Has Come, Wolf Fang Fist, Volleyball Fist, Fighting Pose F** as the next twelve shortest genuinely under-detailed canonical mechanics records.
+- [x] Expanded current Xenoverse 2-specific mechanics coverage and synchronized canonical `docs/data/skills.json` and projection `docs/data/skills-index.json` for all twelve.
+- [x] Added Batch 418 research data, thin-frontier audit, and twelve current-evidence audit files; registered all artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved evidence boundaries: exact frames, hidden interactions, patch-independent scaling, and unresolved status-effect values were not inferred where unsupported.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [x] **Exact next:** run a fresh 474-record frontier census excluding Batches 396–418 and enrich the next 4–12 shortest genuinely under-detailed canonical mechanics records, synchronizing canonical/index/provenance in the same cycle.
