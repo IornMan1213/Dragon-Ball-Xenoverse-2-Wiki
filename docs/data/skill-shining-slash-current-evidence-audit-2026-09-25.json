@@ -4,11 +4,17 @@
   "audit_date": "2026-09-25",
   "target": "Shining Slash",
   "result": "current_evidence_refresh",
-  "mechanics_notes": "100-Ki Strike Super with a sword, single-hit and chargeable. The user jumps forward and slashes the target; holding the input causes the user to teleport directly to the locked-on opponent before the slash. Current documentation reports 10% damage and restricts the CaC version to Human and Saiyan races. Exact charge timing and frame data remain unresolved.",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Strike",
+    "ki_cost": 100,
+    "source_quest_or_shop": "Parallel Quest 38 - Power Teams",
+    "mechanics": "Single-hit sword Strike Super. Holding the input causes the user to teleport directly to the targeted opponent before the slash."
+  },
   "evidence_sources": [
-    "https://dbxv2.fandom.com/wiki/Shining_Slash",
-    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-    "https://steamcommunity.com/app/454650/discussions/0/152390648096686210/"
+    "https://dbxv2.fandom.com/wiki/Shining_Slash"
   ],
-  "evidence_boundary": "Current Xenoverse 2-specific mechanics and acquisition evidence only; unresolved numerical/frame details remain bounded."
+  "limits": [
+    "No unsupported frame data, exact damage, drop probability, or hidden gate is inferred."
+  ]
 }

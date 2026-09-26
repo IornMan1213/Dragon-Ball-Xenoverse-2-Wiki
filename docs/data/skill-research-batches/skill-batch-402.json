@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 402,
+  "created": "2026-09-25",
+  "type": "thin-frontier-mechanics-enrichment",
+  "scope": "First four genuinely under-detailed canonical skill records after exclusion of Batches 396–401",
+  "records": [
+    {
+      "id": "skill-recoome-kick",
+      "name": "Recoome Kick",
+      "mechanics_notes": "100-Ki Strike Super and single-hit rush. The user poses briefly, then dashes forward with a fast flying knee/side-kick; a successful hit temporarily boosts normal ATK. Current skill-specific documentation reports 10% damage and acquisition from Parallel Quest 61, The Cell Games Continued. Exact boost magnitude and frame data remain unresolved.",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Recoome_Kick",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "id": "skill-dual-destructo-disc",
+      "name": "Dual Destructo-Disc",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate. The user creates two Destructo-Discs and throws them individually in a pincer pattern. The discs track the opponent and are unblockable; current skill-specific documentation reports 30% total damage across the two hits. It is taught by Android 18, and current character data also lists it on Android 18's Skirt Style 2 and Android 18 (DB Super). Exact tracking strength and frame data remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Dual_Destructo-Disc",
+        "https://dbxv2.fandom.com/wiki/Android_18"
+      ]
+    },
+    {
+      "id": "skill-spirit-blaster",
+      "name": "Spirit Blaster",
+      "mechanics_notes": "100-Ki Ki Blast Super. The user fires several slow homing Ki Blasts; if any shot connects, a rapid follow-up barrage activates, reaching 13 total hits in the current reference. Guarding cancels the barrage, allowing a transition to another action. Current documentation notes the full sequence can occupy roughly 3–4 seconds and reports low overall damage, but no exact damage value is treated as canonical here. Exact timing and damage values remain unresolved.",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Spirit_Blaster",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "id": "skill-chain-destructo-disc-barrage",
+      "name": "Chain Destructo-Disc Barrage",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate. The user creates a Destructo-Disc, then repeats the throw four more times while alternating hands. The current skill-specific reference reports 40% total damage across five unblockable hits; it is obtained from Parallel Quest 46, The Official History. Exact spacing, tracking, and frame data remain unresolved.",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Chain_Destructo-Disc_Barrage",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Chain_Destructo_Disc",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74492105",
+        "https://dbxv2.fandom.com/wiki/Krillin"
+      ]
+    }
+  ],
+  "validation": {
+    "canonical_record_count": 474,
+    "evidence_policy": "bounded; no unsupported probabilities, hidden prerequisites, frame data, or patch-independent balance claims"
+  }
+}

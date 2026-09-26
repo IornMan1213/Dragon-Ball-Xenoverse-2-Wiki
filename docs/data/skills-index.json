@@ -1354,14 +1354,15 @@
         "https://dbxv2.fandom.com/wiki/Chain_Destructo-Disc_Barrage",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Chain_Destructo_Disc",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74492105"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74492105",
+        "https://dbxv2.fandom.com/wiki/Krillin"
       ],
       "unlock_method": "Parallel Quest 46 — \"16 of the Official History\" Basic Reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 race-scope reconciliation: Dragon Ball Wiki explicitly lists Future Warrior as a Xenoverse 2 user and states the Future Warrior can obtain Chain Destructo Disc from PQ46. This establishes CaC availability; no narrower race/gender/form restriction is documented, so the canonical scope is All CaC races. 2026-09-22 provenance refresh: independent GameFAQs discussion reconfirms PQ46 as the acquisition route. Existing Basic Reward semantics and unresolved drop probability remain unchanged. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-23 provenance refresh: revalidated the existing multi-source evidence for the acquisition endpoint and classification; no unsupported reward probability, Ultimate Finish gate, mechanic, cost, restriction, or DLC condition was added. Existing source conflicts remain preserved.",
-      "mechanics_notes": "Ki Blast Ultimate: launches five Destructo-Discs in sequence, alternating hands. The maintained current reference reports 40% damage across 5 hits and an unblockable property.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate. The user creates a Destructo-Disc, then repeats the throw four more times while alternating hands. The current skill-specific reference reports 40% total damage across five unblockable hits; it is obtained from Parallel Quest 46, The Official History. Exact spacing, tracking, and frame data remain unresolved.",
       "source_quest": 46,
       "source_quest_or_shop": "Parallel Quest 46 — \"16 of the Official History\"",
       "source_parallel_quests": [
@@ -3153,14 +3154,16 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Dual_Destructo-Disc",
+        "https://dbxv2.fandom.com/wiki/Android_18"
       ],
       "unlock_method": "Android 18's mentor training — complete the corresponding lesson to receive Dual Destructo-Disc as the Basic Reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, classification, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing conflicts and unresolved fields are preserved; no unsupported drop probability, Ultimate Finish gate, prerequisite, timer, frame data, damage value, stacking cap, or narrower restriction is inferred.",
-      "mechanics_notes": "Ki Blast Ultimate: creates and throws two Destructo-Discs individually in a pincer pattern. Current reference reports 30% across 2 unblockable hits, with tracking and 300 Ki.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate. The user creates two Destructo-Discs and throws them individually in a pincer pattern. The discs track the opponent and are unblockable; current skill-specific documentation reports 30% total damage across the two hits. It is taught by Android 18, and current character data also lists it on Android 18's Skirt Style 2 and Android 18 (DB Super). Exact tracking strength and frame data remain unresolved.",
       "source_quest": "Android 18 mentor training",
       "source_quest_or_shop": "Android 18 mentor training"
     },
@@ -8281,7 +8284,7 @@
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.\n2026-09-25 current-evidence promotion: dedicated Xenoverse 2 evidence revalidated identity, classification, cost, acquisition endpoint, and bounded mechanics. Exact attack-buff magnitude/duration and individual reward probability remain unresolved. The repository does not infer a hidden Ultimate-Finish-only gate because maintained PQ61 evidence places Recoome Kick in Basic Reward.",
-      "mechanics_notes": "Fast single-hit flying knee/side-kick rush; on a successful hit, the user's normal/basic attack power is temporarily increased. Current skill documentation lists 10% damage.",
+      "mechanics_notes": "100-Ki Strike Super and single-hit rush. The user poses briefly, then dashes forward with a fast flying knee/side-kick; a successful hit temporarily boosts normal ATK. Current skill-specific documentation reports 10% damage and acquisition from Parallel Quest 61, The Cell Games Continued. Exact boost magnitude and frame data remain unresolved.",
       "source_quest": 61,
       "source_quest_or_shop": "Parallel Quest 61 — \"The Cell Games Continued\"",
       "source_parallel_quests": [
@@ -9409,7 +9412,7 @@
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-22 provenance refresh: PQ129 is confirmed as the acquisition endpoint; current evidence confirms 100 Ki Ki Blast Super classification, tracking projectile behavior, follow-up barrage, and guard-cancellable follow-up. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
-      "mechanics_notes": "Ki Blast Super: fires an initial spread of homing Ki Blasts; if the attack connects, a rapid follow-up barrage is triggered. Current references identify it as a 100-Ki Super.",
+      "mechanics_notes": "100-Ki Ki Blast Super. The user fires several slow homing Ki Blasts; if any shot connects, a rapid follow-up barrage activates, reaching 13 total hits in the current reference. Guarding cancels the barrage, allowing a transition to another action. Current documentation notes the full sequence can occupy roughly 3–4 seconds and reports low overall damage, but no exact damage value is treated as canonical here. Exact timing and damage values remain unresolved.",
       "source_quest": 129,
       "source_quest_or_shop": "Parallel Quest 129 — \"Frieza Force on the Hunt\"",
       "source_parallel_quests": [

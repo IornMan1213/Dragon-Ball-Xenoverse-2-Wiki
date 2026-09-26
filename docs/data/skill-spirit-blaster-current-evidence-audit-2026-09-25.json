@@ -3,13 +3,10 @@
   "audit_id": "skill-spirit-blaster-current-evidence-audit-2026-09-25",
   "audit_date": "2026-09-25",
   "target": "Spirit Blaster",
-  "result": "verified_current_scope",
-  "supported_fields": {
-    "skill_type": "Ki Blast Super",
-    "ki_cost": 100
-  },
+  "result": "current_evidence_refresh",
+  "mechanics_notes": "100-Ki Ki Blast Super. The user fires several slow homing Ki Blasts; if any shot connects, a rapid follow-up barrage activates, reaching 13 total hits in the current reference. Guarding cancels the barrage, allowing a transition to another action. Current documentation notes the full sequence can occupy roughly 3–4 seconds and reports low overall damage, but no exact damage value is treated as canonical here. Exact timing and damage values remain unresolved.",
   "evidence_sources": [
     "https://dbxv2.fandom.com/wiki/Spirit_Blaster"
   ],
-  "evidence_boundary": "Current Xenoverse 2 mechanics evidence is bounded to the cited skill reference and corroborating current research. Exact frame data, reward probabilities, hidden prerequisites, and patch-independent balance claims are not inferred."
+  "evidence_boundary": "Current Xenoverse 2-specific mechanics and acquisition evidence only; unresolved numerical/frame details remain bounded."
 }

@@ -1074,3 +1074,13 @@
 - [x] Evidence boundaries preserved: exact frame timings, multipliers, reward probabilities, and unresolved stack/charge timing were not inferred.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** run a fresh 474-record census excluding Batches 396–401 and begin Batch 402 with the next 4–12 genuinely under-detailed records.
+
+
+### 2026-09-25 cycle completion — Skill Research Batch 402 started
+- [x] Fresh 474-record census excluding Batches 396–401 selected **Recoome Kick, Dual Destructo-Disc, Spirit Blaster, and Chain Destructo-Disc Barrage** as the next four genuinely under-detailed mechanics records.
+- [x] Deepened all four canonical mechanics records with current Xenoverse 2-specific sequence, projectile/strike behavior, hit counts, documented damage, acquisition, and relevant character availability where directly supported.
+- [x] Synchronized canonical `skills.json` and `skills-index.json`; all four remain `verified_current_scope` with 2026-09-25 verification.
+- [x] Added `skill-batch-402.json` and four current-evidence audits; registered the batch in the cross-domain registry.
+- [x] Evidence boundaries preserved: unresolved boost magnitudes, exact frames, tracking strength, exact Spirit Blaster damage/timing, and hidden probabilities were not inferred.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** continue Batch 402 with the next genuinely under-detailed records from the fresh frontier, beginning after these four.
