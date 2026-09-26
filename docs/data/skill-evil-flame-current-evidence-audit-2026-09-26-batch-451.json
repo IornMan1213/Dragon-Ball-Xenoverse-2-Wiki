@@ -1,0 +1,13 @@
+{
+  "skill_id": "skill-evil-flame",
+  "name": "Evil Flame",
+  "batch": 451,
+  "date": "2026-09-26",
+  "status": "completed",
+  "source": "https://dbxv2.fandom.com/wiki/Evil_Flame",
+  "findings": "Current Xenoverse 2-specific mechanics reviewed and canonicalized.",
+  "evidence_boundaries": [
+    "No unsupported exact frames, patch-independent scaling, probabilities, or hidden conditions added.",
+    "Source-reported numerical values remain explicitly source-bound."
+  ]
+}
