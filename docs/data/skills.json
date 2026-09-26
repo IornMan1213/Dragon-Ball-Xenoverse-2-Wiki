@@ -285,13 +285,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Nappa mentor training — Lesson 1",
-      "mechanics_notes": "100-Ki Strike Super. The user pulls the right arm back and rushes forward with a lariat that breaks an opponent's guard on contact. Holding the input extends travel to about 1.5 times the base distance. Current skill documentation reports about 20% damage; the value is retained as source-reported rather than universal.",
-      "last_verified": "2026-09-25",
+      "mechanics_notes": "100-Ki Strike Super. The user pulls the right arm back and rushes forward with a lariat that breaks an opponent's guard on contact. Holding the input extends travel distance and increases power; current Xenoverse 2 evidence confirms the guard-break behavior and Nappa training acquisition. Source-reported damage remains source-specific; exact frame/scaling data is not established.",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": "Nappa mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance verification: current independent references confirm Arm Crash is Nappa's Lesson 1 training reward; Steam's instructor-quest guide explicitly lists Arm Crash as Lesson 1's Basic Reward, and Dragon Ball Wiki independently identifies Nappa's Lesson 1 as the Xenoverse 2 acquisition route. No semantic correction required.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 mechanics promotion: current Xenoverse 2-specific documentation confirms the 100-Ki Strike Super, rush/lariat guard-break behavior, charge-distance extension, and source-reported ~20% damage. No hidden prerequisite, exact timing, or frame data inferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance verification: current independent references confirm Arm Crash is Nappa's Lesson 1 training reward; Steam's instructor-quest guide explicitly lists Arm Crash as Lesson 1's Basic Reward, and Dragon Ball Wiki independently identifies Nappa's Lesson 1 as the Xenoverse 2 acquisition route. No semantic correction required.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 mechanics promotion: current Xenoverse 2-specific documentation confirms the 100-Ki Strike Super, rush/lariat guard-break behavior, charge-distance extension, and source-reported ~20% damage. No hidden prerequisite, exact timing, or frame data inferred.\n2026-09-26 Batch 473 canonical synchronization: mechanics/acquisition evidence promoted from the completed current-evidence audit; unsupported frame/scaling/probability details remain bounded.",
       "id": "skill-arm-crash",
       "source_mentor": [
         "mentor-nappa"
@@ -6477,10 +6477,10 @@
       "source_quest_or_shop": "Parallel Quest 130 — \"Legendary Starving Saiyan Broly\"",
       "ultimate_finish_required": false,
       "skill_description": "Gigantic Rage is a 200-Ki Strike Super obtainable by the Future Warrior.",
-      "mechanics_notes": "200 Ki; close-range grab sequence with five hits and hard knockdown. Super Armor is documented for Broly's own use; it should not be generalized to CaC use without direct evidence. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-23 refresh: preserved the 200-Ki close-range grab/five-hit hard-knockdown behavior and PQ130 Basic Reward route. Independent Extra Pack 4 discussion corroborates the grab-and-ground-strike sequence; character Super Armor is not generalized to CaCs.",
+      "mechanics_notes": "200-Ki Strike Super from PQ130. The user grabs the opponent and slams them into the ground five times, ending in a hard knockdown. Current evidence reports about 15% total damage. Super Armor is documented for Broly (Full Power Super Saiyan)'s use and is not generalized to CaC use.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -6490,7 +6490,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 130,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 mechanics/provenance refresh: current evidence confirms the 200-Ki Strike Super, five-hit close-range grab/hard-knockdown sequence, and PQ130 Basic Reward route. Super Armor documented for Broly is not generalized to CaC use.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 mechanics/provenance refresh: current evidence confirms the 200-Ki Strike Super, five-hit close-range grab/hard-knockdown sequence, and PQ130 Basic Reward route. Super Armor documented for Broly is not generalized to CaC use.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 473 canonical synchronization: five-hit grab/ground-slam sequence and Broly-specific Super Armor boundary promoted; source-reported damage is not generalized.",
       "id": "skill-gigantic-rage",
       "source_parallel_quests": [
         130
@@ -7082,10 +7082,10 @@
       "source_quest_or_shop": "Parallel Quest 69 — \"God of Destruction and His Master\"",
       "ultimate_finish_required": false,
       "skill_description": "Headshot is a 300-Stamina Strike Evasive associated with Beerus.",
-      "mechanics_notes": "Current Xenoverse 2 evidence reconfirms Headshot as Beerus's 300-Stamina Strike Evasive from PQ69. The user flicks the opponent with a close-range single hit that knocks them away; current skill documentation records about 10% damage. Current reward evidence places Headshot in PQ69 Basic Reward, with no Ultimate Finish-only gate established. 2026-09-25 current-evidence refresh: current skill-specific and independent Dragon Ball references reconfirm Beerus attribution, Strike Evasive classification, 300-Stamina cost, PQ69 endpoint, and knockback behavior; the source-reported 10% damage value is retained as source-specific rather than generalized.",
+      "mechanics_notes": "300-Stamina Strike Evasive from PQ69. Beerus performs a close-range single forehead flick that knocks the opponent away; current skill evidence reports about 10% damage. The value is retained as source-reported rather than a universal balance constant.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Headshot",
@@ -7096,7 +7096,7 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": 69,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance refinement: current dedicated skill documentation and the maintained PQ reward guide identify the exact quest title and place Headshot in Basic Reward. No Ultimate Finish-only gate is asserted. 2026-09-22 verification refresh: revalidated the existing acquisition/classification provenance against the repository's maintained evidence corpus; existing conflicts and unresolved mechanics remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-20 provenance refinement: current dedicated skill documentation and the maintained PQ reward guide identify the exact quest title and place Headshot in Basic Reward. No Ultimate Finish-only gate is asserted. 2026-09-22 verification refresh: revalidated the existing acquisition/classification provenance against the repository's maintained evidence corpus; existing conflicts and unresolved mechanics remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 473 canonical synchronization: Beerus attribution, Evasive classification, PQ69 endpoint, single-hit behavior, and source-reported damage promoted from current evidence.",
       "id": "skill-headshot",
       "source_parallel_quests": [
         69
@@ -8012,13 +8012,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Gohan (Adult) and Videl mentor training",
-      "mechanics_notes": "300-Ki Strike Ultimate learned from Gohan (Adult) & Videl mentor training. Current evidence documents a fast high-kick opener into a multi-hit rush ending in a blue-energy palm strike; the final hit can be vanished. Exact universal damage/frame values remain unresolved.",
-      "last_verified": "2026-09-25",
+      "mechanics_notes": "300-Ki Strike Ultimate learned through Gohan (Adult) & Videl mentor training. A fast blue-energy high kick starts the sequence; a successful connection continues through multiple kicks and ends with an energy-coated palm strike. The final hit can be vanished. Exact universal damage/frame values remain unresolved.",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": "Gohan (Adult) and Videl mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used.\n2026-09-22 provenance refresh: Gohan (Adult) and Videl mentor training remains the deterministic Basic Reward endpoint; 300 Ki and All CaC race scope remain supported. Detailed combat mechanics remain deferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 348 current-evidence refresh: current skill documentation and mentor evidence strengthen the combat-sequence description while preserving the deterministic mentor endpoint. No unsupported lesson numbering, damage value, hidden prerequisite, or reward probability is inferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used.\n2026-09-22 provenance refresh: Gohan (Adult) and Videl mentor training remains the deterministic Basic Reward endpoint; 300 Ki and All CaC race scope remain supported. Detailed combat mechanics remain deferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 348 current-evidence refresh: current skill documentation and mentor evidence strengthen the combat-sequence description while preserving the deterministic mentor endpoint. No unsupported lesson numbering, damage value, hidden prerequisite, or reward probability is inferred.\n2026-09-26 Batch 473 canonical synchronization: sequence and vanish behavior promoted from current evidence; no unsupported numerical damage or timing data added.",
       "id": "skill-justice-combination",
       "source_mentor": [
         "mentor-gohan-videl"
@@ -9463,12 +9463,12 @@
       "race_restriction": "All CaC races",
       "source_quest_or_shop": "Parallel Quest 97 — \"Insidious Plot\"",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
-      "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ97, usable by all CaC races. The technique feints/teleports behind the opponent before striking; timing and follow-up behavior remain implementation-sensitive. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
+      "last_verified": "2026-09-26",
+      "mechanics_notes": "100-Ki Other Super from PQ97. The user uses a Phantom/Afterimage-style feint to evade incoming attacks and reappear for the counterstrike; current evidence reports roughly 100 Stamina recovery on successful evasion. Exact timing, invulnerability frames, and implementation-sensitive follow-up behavior remain unresolved.",
       "source_quest": 97,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ97; no Ultimate Finish-only condition is established for this record. 2026-09-19 deterministic acquisition verification: Parallel Quest 97. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance strengthening: Dragon Ball Wiki's Phantom Fist entry independently confirms Xenoverse 2 acquisition by the Future Warrior as a reward from Parallel Quest 97, while identifying Phantom Fist as a Super Skill; no new drop probability, Ultimate Finish gate, or prerequisite is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.",
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ97; no Ultimate Finish-only condition is established for this record. 2026-09-19 deterministic acquisition verification: Parallel Quest 97. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance strengthening: Dragon Ball Wiki's Phantom Fist entry independently confirms Xenoverse 2 acquisition by the Future Warrior as a reward from Parallel Quest 97, while identifying Phantom Fist as a Super Skill; no new drop probability, Ultimate Finish gate, or prerequisite is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.\n2026-09-26 Batch 473 canonical synchronization: current mechanics evidence promoted; the source-reported Stamina recovery is not generalized beyond the cited evidence.",
       "id": "skill-phantom-fist",
       "source_parallel_quests": [
         97
@@ -14357,6 +14357,41 @@
     "skill_one-handed-kamehameha-mk-ii_current_evidence_audit_2026_09_26_batch_433": "docs/data/one-handed-kamehameha-mk-ii-current-evidence-audit-2026-09-26-batch-433.json",
     "skill_innocence-cannon_current_evidence_audit_2026_09_26_batch_433": "docs/data/innocence-cannon-current-evidence-audit-2026-09-26-batch-433.json",
     "skill_sonic-bomb_current_evidence_audit_2026_09_26_batch_433": "docs/data/sonic-bomb-current-evidence-audit-2026-09-26-batch-433.json",
-    "skill_energy-minefield_current_evidence_audit_2026_09_26_batch_433": "docs/data/energy-minefield-current-evidence-audit-2026-09-26-batch-433.json"
+    "skill_energy-minefield_current_evidence_audit_2026_09_26_batch_433": "docs/data/energy-minefield-current-evidence-audit-2026-09-26-batch-433.json",
+    "skill-arm-crash_current_evidence_audit_2026_09_26_batch_473": {
+      "batch": 473,
+      "date": "2026-09-26",
+      "skill_id": "skill-arm-crash",
+      "status": "canonical_synchronized",
+      "artifact": "docs/data/skill-arm-crash-current-evidence-audit-2026-09-26-batch-473.json"
+    },
+    "skill-phantom-fist_current_evidence_audit_2026_09_26_batch_473": {
+      "batch": 473,
+      "date": "2026-09-26",
+      "skill_id": "skill-phantom-fist",
+      "status": "canonical_synchronized",
+      "artifact": "docs/data/skill-phantom-fist-current-evidence-audit-2026-09-26-batch-473.json"
+    },
+    "skill-justice-combination_current_evidence_audit_2026_09_26_batch_473": {
+      "batch": 473,
+      "date": "2026-09-26",
+      "skill_id": "skill-justice-combination",
+      "status": "canonical_synchronized",
+      "artifact": "docs/data/skill-justice-combination-current-evidence-audit-2026-09-26-batch-473.json"
+    },
+    "skill-headshot_current_evidence_audit_2026_09_26_batch_473": {
+      "batch": 473,
+      "date": "2026-09-26",
+      "skill_id": "skill-headshot",
+      "status": "canonical_synchronized",
+      "artifact": "docs/data/skill-headshot-current-evidence-audit-2026-09-26-batch-473.json"
+    },
+    "skill-gigantic-rage_current_evidence_audit_2026_09_26_batch_473": {
+      "batch": 473,
+      "date": "2026-09-26",
+      "skill_id": "skill-gigantic-rage",
+      "status": "canonical_synchronized",
+      "artifact": "docs/data/skill-gigantic-rage-current-evidence-audit-2026-09-26-batch-473.json"
+    }
   }
 }
