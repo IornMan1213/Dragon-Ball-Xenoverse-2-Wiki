@@ -2007,3 +2007,17 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved evidence boundaries; unsupported exact frames, hidden conditions, probabilities, and patch-independent scaling remain unresolved.
 - [ ] CI/build remains unverified.
 - [x] **Exact next:** fresh unaudited mechanics frontier before Batch 495; do not reuse the Batch 494 candidate list.
+
+### 2026-09-26 continuation — Character/navigation reference reconciliation completed
+- [x] Re-read the live continuation/TODO state and followed the pending highest-impact cross-domain recovery task rather than starting another redundant skill mechanics batch.
+- [x] Reconciled the six previously unreachable character/preset/navigation references: character identity bridge, current presentation consumer scan, Skills/Super Souls navigation audit, numeric preset complete-loadout audit, Partner Customization navigation audit, and its validator.
+- [x] Recovered the two missing historical audit artifacts (Skills/Super Souls navigation and numeric preset complete-loadout audit) from their known provenance commits.
+- [x] Corrected the stale current-character-consumer-scan-2026-09-24.json index reference to the live restored current-presentation-consumer-scan-2026-09-24.json artifact instead of creating a duplicate alias.
+- [x] Synchronized the Partner Customization navigation audit to the repaired 34-record identity bridge / 152-name canonical character layer and updated its validator provenance.
+- [x] Updated the character-reference existence audit from action-required/missing to reconciled/reachable, preserving its historical boundary.
+- [x] Refreshed the cross-domain index reachability audit after the recovery pass: 707 live files / 1,608 references / 720 reachable / 888 unreachable; historical/planned references remain preserved.
+- [x] No unsupported Partner Customization skill-to-partner edge was added; navigation identity remains separate from skill availability evidence.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] The efficiency addendum remains unavailable at the expected repository path (GitHub 404).
+- [x] Exact next: inspect the remaining critical unreachable cross-domain references and regenerate only those that are both required by live navigation/validators and safely derivable from canonical data. In particular, prioritize docs/data/pq-reward-relationships.json and the PQ reverse/crosslink artifacts if their canonical source layers are sufficient; otherwise record an explicit evidence boundary instead of manufacturing them.
+
