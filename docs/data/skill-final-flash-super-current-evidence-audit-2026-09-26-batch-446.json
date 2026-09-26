@@ -1,0 +1,9 @@
+{
+  "skill_id": "skill-final-flash-super",
+  "name": "Final Flash (Super)",
+  "batch": 446,
+  "date": "2026-09-26",
+  "status": "complete",
+  "findings": ["200 Ki character-exclusive Ki Blast Super", "SSGSS Vegeta (Evolved)", "24-hit long-range beam/knockback", "Source-reported approximately 30% damage", "Unavailable to CaCs", "Ultimate-derived Super variant"],
+  "evidence_boundaries": ["No CaC route, exact frames, or scaling inferred."]
+}
