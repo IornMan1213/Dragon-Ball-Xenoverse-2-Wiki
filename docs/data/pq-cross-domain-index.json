@@ -1059,5 +1059,13 @@
   "skill_spirit_explosion_current_evidence_audit_2026_09_25_batch_407": "docs/data/skill-spirit-explosion-current-evidence-audit-2026-09-25-batch-407.json",
   "skill_ki_blast_thrust_current_evidence_audit_2026_09_25_batch_407": "docs/data/skill-ki-blast-thrust-current-evidence-audit-2026-09-25-batch-407.json",
   "skill_dodoria_beam_current_evidence_audit_2026_09_25_batch_407": "docs/data/skill-dodoria-beam-current-evidence-audit-2026-09-25-batch-407.json",
-  "skill_research_batch_407": "docs/data/skill-research-batches/skill-batch-407.json"
+  "skill_research_batch_407": "docs/data/skill-research-batches/skill-batch-407.json",
+  "audit_registry": {
+    "skill_research_batch_410": "docs/data/skill-research-batches/skill-batch-410.json",
+    "skill_batch_410_thin_frontier": "docs/data/skill-batch-410-thin-frontier-mechanics-audit-2026-09-25.json",
+    "skill_last-emperor_current_evidence_audit_2026_09_25_batch_410": "docs/data/skill-last-emperor-current-evidence-audit-2026-09-25-batch-410.json",
+    "skill_special-beam-cannon-beast_current_evidence_audit_2026_09_25_batch_410": "docs/data/skill-special-beam-cannon-beast-current-evidence-audit-2026-09-25-batch-410.json",
+    "skill_shine-shot_current_evidence_audit_2026_09_25_batch_410": "docs/data/skill-shine-shot-current-evidence-audit-2026-09-25-batch-410.json",
+    "skill_hyper-movement_current_evidence_audit_2026_09_25_batch_410": "docs/data/skill-hyper-movement-current-evidence-audit-2026-09-25-batch-410.json"
+  }
 }

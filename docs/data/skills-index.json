@@ -5979,17 +5979,18 @@
       "source_quest_or_shop": "TP Medal Shop",
       "ultimate_finish_required": false,
       "skill_description": "An Evasive skill that teleports to the opponent and attacks, with landing interception behavior after knockback.",
-      "mechanics_notes": "200-Stamina Strike Evasive. Teleports in front of the opponent and punches; current evidence describes 5% damage and knockback, with a documented follow-up interception use after a prior knockback.",
+      "mechanics_notes": "200-Stamina Strike Evasive from the TP Medal Shop. The user teleports in front of the opponent and lands a single punch that knocks the opponent away; current skill-specific evidence reports about 5% damage. If used after a prior knockback, the teleport can move the user ahead of the opponent toward their landing point before the punch. Exact teleport timing, interception distance, and frame data remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Evasive_Skill",
-        "https://dragonball.fandom.com/wiki/Hyper_Movement"
+        "https://dragonball.fandom.com/wiki/Hyper_Movement",
+        "https://dbxv2.fandom.com/wiki/Hyper_Movement"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "shop",
-      "notes": "2026-09-24 coverage recovery: promoted the pre-existing Strike Evasive research record into canonical coverage after live repository search confirmed it was absent. TP Medal Shop acquisition, 200 Stamina cost, CaC usability, and documented teleport/landing-interception behavior are retained; no unsupported timing or damage values were inferred.\n2026-09-25 current-evidence promotion: dedicated Xenoverse 2 and Dragon Ball references confirm the 200-Stamina Strike Evasive identity and TP Medal Shop endpoint. Current mechanics evidence documents teleport/punch behavior and the knockback-interception use; exact timing/scaling remains bounded.",
+      "notes": "2026-09-24 coverage recovery: promoted the pre-existing Strike Evasive research record into canonical coverage after live repository search confirmed it was absent. TP Medal Shop acquisition, 200 Stamina cost, CaC usability, and documented teleport/landing-interception behavior are retained; no unsupported timing or damage values were inferred.\n2026-09-25 current-evidence promotion: dedicated Xenoverse 2 and Dragon Ball references confirm the 200-Stamina Strike Evasive identity and TP Medal Shop endpoint. Current mechanics evidence documents teleport/punch behavior and the knockback-interception use; exact timing/scaling remains bounded.\n2026-09-25 Batch 410 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, hidden thresholds, reward probabilities, charge timing, and patch-independent damage remain unresolved.",
       "id": "skill-hyper-movement"
     },
     {
@@ -6734,8 +6735,8 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 provenance strengthening: maintained Steam all-186 Parallel Quests guide independently lists Last Emperor as a PQ71 — Abominable Saiyans Basic Reward, corroborating the existing PQ71 acquisition endpoint. No drop probability or Ultimate Finish requirement was inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
-      "mechanics_notes": "0-Ki Ki Blast Ultimate. It can only be used once when the user's Health is low. Current skill evidence records a 21-hit beam and 40% source-reported damage at the documented reference conditions.",
+      "notes": "2026-09-21 provenance strengthening: maintained Steam all-186 Parallel Quests guide independently lists Last Emperor as a PQ71 — Abominable Saiyans Basic Reward, corroborating the existing PQ71 acquisition endpoint. No drop probability or Ultimate Finish requirement was inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.\n2026-09-25 Batch 410 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, hidden thresholds, reward probabilities, charge timing, and patch-independent damage remain unresolved.",
+      "mechanics_notes": "0-Ki Ki Blast Ultimate. The user charges a purple beam in the right hand and fires a long-range 21-hit attack; current skill-specific evidence reports about 40% total damage under its documented reference conditions. The defining resource rule is health-gated use: when the user's Health is low, the skill can be activated once and does not consume Ki. Exact activation-health threshold, frames, and patch-independent damage are unresolved.",
       "source_quest": 71,
       "source_quest_or_shop": "Parallel Quest 71 — \"Abominable Saiyans\"",
       "source_parallel_quests": [
@@ -8991,8 +8992,8 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: PQ7 reward listings explicitly place Shine Shot in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-23 research refresh: current skill evidence corroborates the 100-Ki Ki Blast Super classification and PQ7 acquisition endpoint; detailed frame/hit values remain outside the evidence boundary.",
-      "mechanics_notes": "Ki Blast Super from Parallel Quest 07. Fires a forward ki-shot sequence; current evidence confirms PQ07 acquisition and Future Warrior availability, while exact hit/frame values remain unresolved.",
+      "notes": "2026-09-20 audit: PQ7 reward listings explicitly place Shine Shot in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-23 research refresh: current skill evidence corroborates the 100-Ki Ki Blast Super classification and PQ7 acquisition endpoint; detailed frame/hit values remain outside the evidence boundary.\n2026-09-25 Batch 410 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, hidden thresholds, reward probabilities, charge timing, and patch-independent damage remain unresolved.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ7. The user fires a small Ki projectile while moving laterally; left/right control changes the movement direction, and the move can be followed immediately by a Boost Dash or Step. Current skill-specific evidence reports a single hit and about 5% damage. Exact movement distance, startup/recovery, and frame data remain unresolved.",
       "source_quest": 7,
       "source_quest_or_shop": "Parallel Quest 7 — \"Raditz's Attack Continues\"",
       "source_parallel_quests": [
@@ -9340,10 +9341,10 @@
       ],
       "unlock_method": "Parallel Quest 162 — \"The Man, the Myth, the Yamcha\" Ultimate Finish bonus reward (45% bonus slot)",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-22 provenance refresh: PQ162 is the canonical acquisition endpoint; current references confirm 500 Ki Ultimate/Ki Blast classification and chargeable/lower-health-stronger behavior. Basic Reward versus Ultimate Finish reward-tier sources remain in conflict. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
-      "mechanics_notes": "Gohan (Beast)'s 500-Ki Ultimate/Ki Blast; current references describe a chargeable beam whose power increases at lower health. PQ162 reward-tier presentation remains a documented source conflict.",
+      "notes": "2026-09-22 provenance refresh: PQ162 is the canonical acquisition endpoint; current references confirm 500 Ki Ultimate/Ki Blast classification and chargeable/lower-health-stronger behavior. Basic Reward versus Ultimate Finish reward-tier sources remain in conflict. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-25 Batch 410 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, hidden thresholds, reward probabilities, charge timing, and patch-independent damage remain unresolved.",
+      "mechanics_notes": "500-Ki Ki Blast Ultimate with a chargeable, unblockable beam. Stage 1/uncharged is reported at 40% damage, Stage 2 at 60%, and Stage 3 at 80% under the current skill reference; the attack becomes stronger at lower Health and at closer range. An alternate control-stick-up input adds a flying stun kick; when the kick connects, current official material states it guarantees the beam hit, while the dedicated skill reference reports a 50% total result for the kick-assisted sequence. The kick can penetrate Super Armor. Exact charge timing, hitbox/frame data, and version-independent damage are not inferred.",
       "source_quest": 162,
       "source_quest_or_shop": "Parallel Quest 162 — \"The Man, the Myth, the Yamcha\"",
       "source_parallel_quests": [

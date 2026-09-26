@@ -1,0 +1,12 @@
+{
+  "skill_id": "skill-special-beam-cannon-beast",
+  "skill_name": "Special Beam Cannon (Beast)",
+  "date": "2026-09-25",
+  "batch": 410,
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "sources": [
+    "https://en.dragon-ball-official.com/news/01_1870.html"
+  ],
+  "findings": "500-Ki Ki Blast Ultimate with a chargeable, unblockable beam. Stage 1/uncharged is reported at 40% damage, Stage 2 at 60%, and Stage 3 at 80% under the current skill reference; the attack becomes stronger at lower Health and at closer range. An alternate control-stick-up input adds a flying stun kick; when the kick connects, current official material states it guarantees the beam hit, while the dedicated skill reference reports a 50% total result for the kick-assisted sequence. The kick can penetrate Super Armor. Exact charge timing, hitbox/frame data, and version-independent damage are not inferred.",
+  "boundaries": "Evidence-backed mechanics only; exact frame timing, hidden thresholds, reward probabilities, and patch-independent balance values remain unresolved where not directly established."
+}

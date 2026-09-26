@@ -1,0 +1,40 @@
+{
+  "batch": 410,
+  "date": "2026-09-25",
+  "scope": "Skill mechanics frontier",
+  "status": "completed",
+  "records": [
+    {
+      "id": "skill-last-emperor",
+      "name": "Last Emperor",
+      "mechanics_notes": "0-Ki Ki Blast Ultimate. The user charges a purple beam in the right hand and fires a long-range 21-hit attack; current skill-specific evidence reports about 40% total damage under its documented reference conditions. The defining resource rule is health-gated use: when the user's Health is low, the skill can be activated once and does not consume Ki. Exact activation-health threshold, frames, and patch-independent damage are unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Last_Emperor"
+      ]
+    },
+    {
+      "id": "skill-special-beam-cannon-beast",
+      "name": "Special Beam Cannon (Beast)",
+      "mechanics_notes": "500-Ki Ki Blast Ultimate with a chargeable, unblockable beam. Stage 1/uncharged is reported at 40% damage, Stage 2 at 60%, and Stage 3 at 80% under the current skill reference; the attack becomes stronger at lower Health and at closer range. An alternate control-stick-up input adds a flying stun kick; when the kick connects, current official material states it guarantees the beam hit, while the dedicated skill reference reports a 50% total result for the kick-assisted sequence. The kick can penetrate Super Armor. Exact charge timing, hitbox/frame data, and version-independent damage are not inferred.",
+      "sources": [
+        "https://en.dragon-ball-official.com/news/01_1870.html"
+      ]
+    },
+    {
+      "id": "skill-shine-shot",
+      "name": "Shine Shot",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ7. The user fires a small Ki projectile while moving laterally; left/right control changes the movement direction, and the move can be followed immediately by a Boost Dash or Step. Current skill-specific evidence reports a single hit and about 5% damage. Exact movement distance, startup/recovery, and frame data remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Shine_Shot"
+      ]
+    },
+    {
+      "id": "skill-hyper-movement",
+      "name": "Hyper Movement",
+      "mechanics_notes": "200-Stamina Strike Evasive from the TP Medal Shop. The user teleports in front of the opponent and lands a single punch that knocks the opponent away; current skill-specific evidence reports about 5% damage. If used after a prior knockback, the teleport can move the user ahead of the opponent toward their landing point before the punch. Exact teleport timing, interception distance, and frame data remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Hyper_Movement"
+      ]
+    }
+  ]
+}

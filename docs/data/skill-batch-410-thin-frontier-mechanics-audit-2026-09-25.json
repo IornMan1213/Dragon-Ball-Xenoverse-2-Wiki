@@ -1,0 +1,20 @@
+{
+  "batch": 410,
+  "date": "2026-09-25",
+  "status": "completed",
+  "census": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "duplicate_canonical_ids": false,
+    "duplicate_index_ids": false
+  },
+  "excluded_batches": "396-409",
+  "selected": [
+    "Last Emperor",
+    "Special Beam Cannon (Beast)",
+    "Shine Shot",
+    "Hyper Movement"
+  ],
+  "rationale": "Fresh 474-record mechanics frontier after the completed Batch 396-409 targets; four short mechanics records were selected for bounded current-evidence enrichment.",
+  "evidence_policy": "Only directly supported Xenoverse 2-specific mechanics are promoted. Exact frames, hidden thresholds, reward probabilities, and patch-independent balance values remain unresolved where not directly established."
+}
