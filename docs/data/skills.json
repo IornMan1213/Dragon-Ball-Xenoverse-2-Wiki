@@ -2481,11 +2481,11 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Expert Mission 8 — \"Ominous Androids\"",
       "acquisition_type": "expert_mission",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "research_status": "enriched",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM08. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.\n2026-09-25 Batch 358 low-detail Ultimate mechanics refresh: current Xenoverse 2-specific evidence expanded the bounded mechanics description. No unsupported reward probability, hidden prerequisite, Ultimate Finish gate, frame data, or exact timing was inferred.",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM08. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.\n2026-09-25 Batch 358 low-detail Ultimate mechanics refresh: current Xenoverse 2-specific evidence expanded the bounded mechanics description. No unsupported reward probability, hidden prerequisite, Ultimate Finish gate, frame data, or exact timing was inferred.\n2026-09-26 Batch 458 current-evidence audit: current Xenoverse 2-specific mechanics and acquisition evidence were rechecked; bounded mechanics were synchronized without promoting unsupported frames, probabilities, or patch-independent scaling.",
       "id": "skill-dead-end-bullet",
-      "mechanics_notes": "300-Ki Ki Blast Ultimate from Expert Mission 8 — Ominous Androids. The user rises and rains Ki blasts downward; current dedicated evidence describes a 21-hit long-range projectile sequence with knockback and 30% total source-reported damage. Community reports about accuracy are treated as usage commentary, not deterministic mechanics."
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from Expert Mission 8. The user jumps upward and rains Ki Blasts downward in a long-range, 21-hit projectile sequence with knockback and about 30% source-reported total damage. Community usage notes are kept separate from deterministic mechanics."
     },
     {
       "name": "Dead End Rain",
@@ -5307,7 +5307,7 @@
       "name": "Final Explosion",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Explosion",
         "https://dragonball.fandom.com/wiki/Final_God_Explosion",
@@ -5315,7 +5315,7 @@
       ],
       "ki_cost": 300,
       "unlock_method": "TP Medal Shop; documented listing price 200 TP Medals",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "ultimate_finish_required": false,
       "dlc_requirement": "Base Game",
       "character_source": "SSGSS Vegeta (Evolved)",
@@ -5323,9 +5323,9 @@
       "race_restriction": "All CaC races",
       "source_quest_or_shop": "TP Medal Shop",
       "research_status": "enriched",
-      "mechanics_notes": "500 Ki Ki Blast Ultimate; user detonates a large area explosion around themselves, consuming health during the technique. 2026-09-20 verification: current canonical source set explicitly identifies the acquisition route as PQ173 Basic Reward / TP Medal Shop, respectively; no unresolved acquisition-condition conflict remains for these records.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate sold in the TP Medal Shop for 200 TP Medals. The user floats for about 2 seconds, releases a large area explosion, and can hold the input to consume Stamina and extend it; dedicated evidence reports a 20-hit base sequence at about 30% damage and leaves the user vulnerable afterward. Exact extended damage and frame data remain unresolved.",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-22 deterministic mechanics correction: current dedicated skill evidence lists 300 Ki, not the prior 500 Ki value. It creates a large area explosion, can be prolonged by spending Stamina, and leaves the user vulnerable afterward. TP Medal Shop purchase remains the documented Future Warrior route at 200 TP Medals. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-22 deterministic mechanics correction: current dedicated skill evidence lists 300 Ki, not the prior 500 Ki value. It creates a large area explosion, can be prolonged by spending Stamina, and leaves the user vulnerable afterward. TP Medal Shop purchase remains the documented Future Warrior route at 200 TP Medals. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 458 current-evidence audit: current Xenoverse 2-specific mechanics and acquisition evidence were rechecked; bounded mechanics were synchronized without promoting unsupported frames, probabilities, or patch-independent scaling.",
       "id": "skill-final-explosion"
     },
     {
@@ -8330,10 +8330,10 @@
       "source_quest_or_shop": "Parallel Quest 77 — \"Parent and Child\"",
       "ultimate_finish_required": false,
       "skill_description": "Ki Explosion is a Ki Blast Super that detonates ki around the user.",
-      "mechanics_notes": "100-Ki Ki Blast Super from PQ77. Creates a short-range omnidirectional purple Ki explosion that hits rapidly; holding the input spends additional Ki, up to four Ki bars total. Its fast startup and full-around coverage make it useful for catching vanishes/side steps and for combo or teleport follow-ups. Exact frame data and universal damage scaling remain unresolved.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ77. Creates a short-range omnidirectional purple explosion; holding the input spends additional Ki and permits repeated/extended explosions up to four Ki bars total. Official update notes document the historical reduction from 200 to 100 Ki and a damage increase; exact modern frame data and universal damage scaling remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Ki_Explosion",
@@ -8342,7 +8342,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 77,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 canonical correction: dedicated skill evidence identifies Ki Explosion as a 100-Ki Ki Blast Super, correcting the previous Evasive/200-Stamina classification. Exact PQ title and Basic Reward provenance also refined.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.\n2026-09-25 Batch 411 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal damage scaling, hidden thresholds, and drop probabilities remain unresolved.",
+      "notes": "2026-09-20 canonical correction: dedicated skill evidence identifies Ki Explosion as a 100-Ki Ki Blast Super, correcting the previous Evasive/200-Stamina classification. Exact PQ title and Basic Reward provenance also refined.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.\n2026-09-25 Batch 411 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal damage scaling, hidden thresholds, and drop probabilities remain unresolved.\n2026-09-26 Batch 458 current-evidence audit: current Xenoverse 2-specific mechanics and acquisition evidence were rechecked; bounded mechanics were synchronized without promoting unsupported frames, probabilities, or patch-independent scaling.",
       "id": "skill-ki-explosion",
       "source_parallel_quests": [
         77
@@ -9718,10 +9718,10 @@
       "source_quest_or_shop": "Parallel Quest 128 — \"Legendary Super Saiyan Smackdown\"",
       "ultimate_finish_required": false,
       "skill_description": "Powered Shell is a Super Ki Blast skill associated with Broly (Full Power Super Saiyan).",
-      "mechanics_notes": "100-Ki Ki Blast Super from PQ128 — Legendary Super Saiyan Smackdown. The user throws a single Ki Blast projectile in an outward arc; a backward input fires it behind the user. Current documentation records 5% damage and up to 300 Stamina to activate it while being damaged. The maintained PQ128 Basic Reward route remains the acquisition endpoint.",
-      "verification_status": "verified",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ128. The user fires a single projectile in an outward arc; backward input fires it behind the user. Current repository evidence records about 5% damage and a damaged-state activation that can spend up to 300 Stamina. Exact activation timing and damage scaling remain unresolved.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -9731,7 +9731,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 128,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.\n2026-09-25 current-evidence promotion: current Xenoverse 2-specific documentation confirms the Ki Blast classification, 100-Ki cost, single-hit projectile, backward firing input, and up to 300-Stamina damaged-state activation.",
+      "notes": "2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.\n2026-09-25 current-evidence promotion: current Xenoverse 2-specific documentation confirms the Ki Blast classification, 100-Ki cost, single-hit projectile, backward firing input, and up to 300-Stamina damaged-state activation.\n2026-09-26 Batch 458 current-evidence audit: current Xenoverse 2-specific mechanics and acquisition evidence were rechecked; bounded mechanics were synchronized without promoting unsupported frames, probabilities, or patch-independent scaling.",
       "id": "skill-powered-shell",
       "source_parallel_quests": [
         128
@@ -12088,8 +12088,8 @@
       "source_quest_or_shop": "Parallel Quest 109 — \"A Fateful Fight With Deity!\"",
       "ultimate_finish_required": false,
       "skill_description": "Super Black Kamehameha Rosé is a Ultimate Ki Blast skill associated with Goku Black (Super Saiyan Rosé).",
-      "mechanics_notes": "500-Ki Ki Blast Ultimate from Parallel Quest 109 — \"A Fateful Fight with a Deity!\" The user punches the opponent and follows with a pink beam, documented at 25 hits and approximately 40% total damage. Current documentation notes a slower initial hit than Super Black Kamehameha and greater beam damage. Exact frame data and reward probability remain unresolved.",
-      "verification_status": "verified",
+      "mechanics_notes": "500-Ki Ki Blast Ultimate from PQ109. The opening pseudo-strike punch is followed by a pink Kamehameha beam; current dedicated evidence documents 25 hits and about 40% total damage. The initial punch is slower than the standard Super Black Kamehameha, while the beam carries the stronger damage portion. Exact frame data and reward probability remain unresolved.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-26",
       "sources": [
@@ -12101,7 +12101,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 109,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 436 current-evidence audit: current Xenoverse 2 documentation confirms PQ109 acquisition, 500 Ki cost, Ki Blast Ultimate classification, 25-hit beam sequence, and approximately 40% total damage. The initial punch is documented as slower than Super Black Kamehameha; exact frame timing and reward probability remain unresolved.",
+      "notes": "2026-09-26 Batch 436 current-evidence audit: current Xenoverse 2 documentation confirms PQ109 acquisition, 500 Ki cost, Ki Blast Ultimate classification, 25-hit beam sequence, and approximately 40% total damage. The initial punch is documented as slower than Super Black Kamehameha; exact frame timing and reward probability remain unresolved.\n2026-09-26 Batch 458 current-evidence audit: current Xenoverse 2-specific mechanics and acquisition evidence were rechecked; bounded mechanics were synchronized without promoting unsupported frames, probabilities, or patch-independent scaling.",
       "id": "skill-super-black-kamehameha-rose",
       "source_parallel_quests": [
         109
@@ -12216,11 +12216,11 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Expert Mission 11 — \"The Devil Born from the Dragon Balls\"",
       "acquisition_type": "expert_mission",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "research_status": "enriched",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM11. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.\n2026-09-25 Batch 360 zero-mechanics frontier completion: current Xenoverse 2-specific evidence expanded bounded combat mechanics while preserving existing Expert Mission acquisition semantics. No unsupported probability, hidden prerequisite, Ultimate Finish gate, frame data, exact timing, or stacking cap was inferred.",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM11. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.\n2026-09-25 Batch 360 zero-mechanics frontier completion: current Xenoverse 2-specific evidence expanded bounded combat mechanics while preserving existing Expert Mission acquisition semantics. No unsupported probability, hidden prerequisite, Ultimate Finish gate, frame data, exact timing, or stacking cap was inferred.\n2026-09-26 Batch 458 current-evidence audit: current Xenoverse 2-specific mechanics and acquisition evidence were rechecked; bounded mechanics were synchronized without promoting unsupported frames, probabilities, or patch-independent scaling.",
       "id": "skill-super-electric-strike",
-      "mechanics_notes": "300-Ki Ki Blast Ultimate from Expert Mission 11 — The Devil Born from the Dragon Balls. The user throws a large, wide-range Ki wave toward the locked-on opponent; current Xenoverse 2-specific evidence describes projectile/wave tracking, long-range coverage, 17 hits, knockback, and 40% source-reported damage. The existing EM11 acquisition endpoint is retained."
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from Expert Mission 11. The user launches a large tracked Ki wave with long-range coverage; current dedicated evidence documents 17 hits, knockback, and about 40% total damage. Existing EM11 acquisition semantics remain unchanged; exact drop probability and frame data remain unresolved."
     },
     {
       "name": "Super Elite Combo",
@@ -12671,11 +12671,11 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74497359?page=14"
       ],
       "ultimate_finish_required": false,
-      "notes": "Saiyan CaC-only Awoken Skill. Reach level 90 and max friendship with Whis; Whis awards the skill. Non-Saiyan characters may satisfy the award condition but cannot use the Saiyan CaC transformation. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred. 2026-09-25 Batch 377 mechanics enrichment: current skill-specific evidence promoted; source-reported numeric effects remain bounded to the cited reference. \n2026-09-26 Batch 435 current-evidence mechanics refresh.",
+      "notes": "Saiyan CaC-only Awoken Skill. Reach level 90 and max friendship with Whis; Whis awards the skill. Non-Saiyan characters may satisfy the award condition but cannot use the Saiyan CaC transformation. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred. 2026-09-25 Batch 377 mechanics enrichment: current skill-specific evidence promoted; source-reported numeric effects remain bounded to the cited reference. \n2026-09-26 Batch 435 current-evidence mechanics refresh.\n2026-09-26 Batch 458 current-evidence audit: current Xenoverse 2-specific mechanics and acquisition evidence were rechecked; bounded mechanics were synchronized without promoting unsupported frames, probabilities, or patch-independent scaling.",
       "unlock_method": "Reach level 90 and max friendship with Whis; Whis awards the skill.",
       "ki_cost": 500,
       "last_verified": "2026-09-26",
-      "mechanics_notes": "500-Ki Saiyan-only Awoken Skill obtained by maxing Whis friendship at level 90+. Current reference data lists +25% all-attack damage, 5% damage reduction, and 10 Ki drain per second; charged Ki attacks gain the Saiyan teleport/vanish behavior. Current references also describe reduced Ki recovery. Exact frame and stamina interactions remain unresolved.",
+      "mechanics_notes": "500-Ki Saiyan-only Awoken Skill. Current evidence confirms level 90+ plus max Whis friendship for acquisition, +25% all attack damage, 5% damage reduction, and 10 Ki drain per second; charged Ki attacks gain the Super Saiyan teleport/vanish behavior. Exact movement/frame and stamina interactions remain unresolved.",
       "research_status": "enriched",
       "source_quest_or_shop": "Whis training — max friendship and level 90",
       "source_quest": "Whis training — max friendship and level 90",
@@ -13902,10 +13902,10 @@
       "source_quest_or_shop": "Parallel Quest 76 — \"Eternal Rival\"",
       "ultimate_finish_required": false,
       "skill_description": "Warp Kamehameha is a Ultimate Ki Blast skill associated with Goku.",
-      "mechanics_notes": "400-Ki Ki Blast Ultimate. The user charges a Kamehameha, teleports to the locked-on target, and fires the beam; dedicated current evidence reports 24 hits and approximately 30% damage. PQ76 is the canonical acquisition endpoint. Reward-tier evidence is conflicting across maintained sources, so no new Ultimate Finish gate is asserted.",
-      "verification_status": "verified",
+      "mechanics_notes": "400-Ki Ki Blast Ultimate from PQ76. The user charges a Kamehameha, teleports to the locked-on opponent, then fires for 24 hits and about 30% source-reported damage. The repository retains conflicting reward-tier evidence and therefore does not assert a new Ultimate Finish gate. Exact teleport timing and frame data remain unresolved.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Warp_Kamehameha",
@@ -13914,7 +13914,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 76,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 deterministic correction: dedicated current skill evidence reports Warp Kamehameha at 400 Ki, correcting the stale 300-Ki canonical value. The same evidence confirms the teleport-to-target, 24-hit beam behavior; conflicting PQ76 reward-tier presentations remain explicit. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.",
+      "notes": "2026-09-22 deterministic correction: dedicated current skill evidence reports Warp Kamehameha at 400 Ki, correcting the stale 300-Ki canonical value. The same evidence confirms the teleport-to-target, 24-hit beam behavior; conflicting PQ76 reward-tier presentations remain explicit. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.\n2026-09-26 Batch 458 current-evidence audit: current Xenoverse 2-specific mechanics and acquisition evidence were rechecked; bounded mechanics were synchronized without promoting unsupported frames, probabilities, or patch-independent scaling.",
       "id": "skill-warp-kamehameha",
       "source_parallel_quests": [
         66,
