@@ -2260,3 +2260,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [x] **Exact next:** continue the cross-domain consumer audit by locating the next live artifact whose cached counts/references are stale against canonical producers, and repair that deterministic mismatch before starting another large mechanics batch.
 
+### 2026-09-26 continuation — Stale character-navigation cache repaired
+- [x] Fresh live audit search found another stale cached baseline in `docs/data/characters/partner-customization-character-navigation-audit.json`: its embedded counts still said **29 bridge records / 151 canonical characters** after the live reconciliation had reached **34 / 152**.
+- [x] Repaired that audit against the live canonical baseline: **20 keys / 20 reconciliation records / 34 bridge records / 152 canonical character names / 20 page links**.
+- [x] Added an explicit reconciliation note documenting that the five restored preset-character mappings changed the aggregate bridge count, not the navigation identity mappings.
+- [x] Rechecked the canonical skill cross-domain layer: **474 skills / 246 explicit skill→PQ edges / 170 represented PQ IDs** remains internally consistent; no stale 473-count artifact was found in the live canonical linkage layer.
+- [x] No unsupported relationship was inferred.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** continue searching for stale cached cross-domain counts against canonical producers, prioritizing character/DLC/PQ consumer artifacts before resuming the mechanics frontier.
+
