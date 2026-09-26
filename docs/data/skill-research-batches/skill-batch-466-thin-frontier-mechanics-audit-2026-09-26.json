@@ -1,0 +1,52 @@
+{
+  "batch": 466,
+  "date": "2026-09-26",
+  "selection_method": "Fresh live mechanics frontier excluding registered current-evidence audits; lowest-detail candidates were reviewed and eight records were selected for dedicated current-evidence enrichment.",
+  "selected_skills": [
+    {
+      "skill_id": "skill-destructive-flare",
+      "skill_name": "Destructive Flare",
+      "reason": "Low-detail mechanics frontier candidate before enrichment"
+    },
+    {
+      "skill_id": "skill-instant-charge",
+      "skill_name": "Instant Charge",
+      "reason": "Low-detail mechanics frontier candidate before enrichment"
+    },
+    {
+      "skill_id": "skill-lovely-cyclone",
+      "skill_name": "Lovely Cyclone",
+      "reason": "Low-detail mechanics frontier candidate before enrichment"
+    },
+    {
+      "skill_id": "skill-milky-cannon",
+      "skill_name": "Milky Cannon",
+      "reason": "Low-detail mechanics frontier candidate before enrichment"
+    },
+    {
+      "skill_id": "skill-dragon-fist",
+      "skill_name": "Dragon Fist",
+      "reason": "Low-detail mechanics frontier candidate before enrichment"
+    },
+    {
+      "skill_id": "skill-sign-of-awakening",
+      "skill_name": "Sign of Awakening",
+      "reason": "Low-detail mechanics frontier candidate before enrichment"
+    },
+    {
+      "skill_id": "skill-variable-snipe-shot",
+      "skill_name": "Variable Snipe Shot",
+      "reason": "Low-detail mechanics frontier candidate before enrichment"
+    },
+    {
+      "skill_id": "skill-crush-stream",
+      "skill_name": "Crush Stream",
+      "reason": "Low-detail mechanics frontier candidate before enrichment"
+    }
+  ],
+  "evidence_policy": [
+    "Preserve source-reported damage/hit counts as bounded evidence.",
+    "Do not infer unsupported frame data, hidden gates, probabilities, or patch-independent scaling.",
+    "Retain acquisition/reward conflicts when sources disagree."
+  ]
+}
