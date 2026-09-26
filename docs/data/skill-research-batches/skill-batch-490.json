@@ -1,0 +1,18 @@
+{
+  "batch": 490,
+  "date": "2026-09-26",
+  "status": "complete",
+  "scope": "Fresh live mechanics frontier after Batch 489; eight shortest records without dedicated registered current-evidence audits were selected and rechecked against current skill/official evidence.",
+  "selected": [
+    "Breaker Energy Wave",
+    "Emperor's Cannon",
+    "Dark Inscription",
+    "Gigantic Cluster",
+    "Heat Wave",
+    "Special Beam Cannon (Beast)",
+    "Crimson Edge",
+    "Potential Unleashed"
+  ],
+  "evidence_boundary": "Current-source mechanics and bounded source-reported values only; unsupported exact frame/scaling/probability claims excluded.",
+  "canonical_sync": "Eight records synchronized into canonical and index datasets."
+}
