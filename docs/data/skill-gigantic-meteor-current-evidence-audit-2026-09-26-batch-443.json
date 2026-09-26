@@ -1,0 +1,21 @@
+{
+  "skill_id": "skill-gigantic-meteor",
+  "name": "Gigantic Meteor",
+  "batch": 443,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Gigantic_Meteor",
+    "https://dbxv2.fandom.com/wiki/Mentors"
+  ],
+  "findings": [
+    "300 Ki Ki Blast Ultimate",
+    "Broly training",
+    "Tracking small Ki Blast explodes after about a second; 4 hits",
+    "~45% damage source-reported; Kale SSJ2 variant distinguished"
+  ],
+  "evidence_boundaries": [
+    "Numerical damage values are retained as source-reported.",
+    "No unsupported frame data, hidden gates, or patch-independent scaling inferred."
+  ]
+}
