@@ -1,0 +1,27 @@
+{
+  "batch": 457,
+  "date": "2026-09-26",
+  "skill_id": "skill-x-100-big-bang-kamehameha",
+  "skill_name": "X 100 Big Bang Kamehameha",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Skill Research Batch 457.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/X100_Big_Bang_Kamehameha",
+    "https://dragonball.fandom.com/wiki/100x_Big_Bang_Kamehameha",
+    "https://gamersdecide.com/articles/dragon-ball-xenoverse-2-best-ultimate-attacks"
+  ],
+  "findings": [
+    "500-Ki Ki Blast Ultimate. The user charges a Ki ball and fires a long beam for a source-reported 50% damage over 24 hits. When lock-on is disabled, the attack can sweep side-to-side/behind the user and the source reports increased single-hit damage. Exact frame timing and patch-independent damage scaling remain unresolved."
+  ],
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26",
+    "research_status": "enriched"
+  },
+  "evidence_boundaries": [
+    "Exact frame data is not promoted.",
+    "Patch-independent damage/scaling is not inferred from source-reported values.",
+    "Reward probabilities and hidden prerequisites are not promoted unless directly evidenced.",
+    "Character-specific usage is not converted into a CaC race/gender/form restriction without direct evidence."
+  ]
+}
