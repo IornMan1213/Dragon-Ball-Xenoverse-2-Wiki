@@ -1,0 +1,10 @@
+{
+  "batch": 491,
+  "date": "2026-09-26",
+  "skill_id": "skill-gigantic-charge",
+  "skill_name": "Gigantic Charge",
+  "status": "complete",
+  "findings": "200-Ki Strike Super from PQ128. Chargeable unblockable rush; longer charging increases travel distance, full charge can break guard, and 300 Stamina can activate it while being damaged. Current documentation reports Super Armor for Broly's use; universal frame/armor behavior is not inferred.",
+  "evidence_boundary": "Current-source behavior and source-reported numerical values are bounded. Unsupported exact frames, universal scaling, hidden interactions, and drop probabilities are not asserted.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}
