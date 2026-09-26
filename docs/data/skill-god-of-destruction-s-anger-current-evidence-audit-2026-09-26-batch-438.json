@@ -1,0 +1,20 @@
+{
+  "skill_id": "skill-god-of-destruction-s-anger",
+  "name": "God of Destruction's Anger",
+  "batch": 438,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Anger",
+    "https://dbxv2.fandom.com/wiki/Mentors"
+  ],
+  "findings": [
+    "200 Ki Ki Blast Super",
+    "Beerus training acquisition",
+    "Long-range single-hit finger beam",
+    "Source-reported 15% damage",
+    "Fully depletes target Stamina even through block",
+    "Current reference classifies the attack as hard knockdown",
+    "Exact frame data and patch-independent balance remain unresolved"
+  ]
+}
