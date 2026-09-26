@@ -1,0 +1,17 @@
+{
+  "skill_id": "skill-petrifying-spit",
+  "name": "Petrifying Spit",
+  "batch": 455,
+  "date": "2026-09-26",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Petrifying_Spit"
+  ],
+  "findings": [
+    "2026-09-26 Batch 455 current-evidence enrichment: 100-Ki Ki Blast Super from PQ114. The user spits a short-range projectile that deals no damage but petrifies/paralyzes the opponent for about two seconds on contact; if the first spit misses, a second can be produced. Current evidence supports Dabura/Fu association and the maintained PQ114 endpoint. Exact startup/recovery and resistance/edge-case behavior remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
