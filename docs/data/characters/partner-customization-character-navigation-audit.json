@@ -59,14 +59,8 @@
     "2026-09-26 consistency correction: the audit contained 18 boolean validation checks, all true, while the recovery audit's summary still reported 16 checks passed. The current audit now records the exact 18/18 boolean-check baseline."
   ],
   "validator_hardening_2026_09_26": {
-    "schema_and_projection": {
-      "changes": [
-        "Reject malformed top-level source containers and non-list record containers.",
-        "Reject non-object key, reconciliation, or bridge records.",
-        "Require the page search query value to deterministically match the linked partner name (spaces encoded as '+')."
-      ],
-      "validator_commit": "31959a25dd2206beb0994bb4a439760b78b8a5ca2",
-      "status": "clean"
-    }
+    "change": "Added explicit field-type/schema checks for key, reconciliation, and bridge records: positive integer key numbers, non-empty string character IDs/partner names, and non-empty canonical bridge names.",
+    "result": "The existing 20-key / 20-reconciliation / 34-bridge navigation contract is unchanged; hardening only rejects malformed inputs.",
+    "validator_commit": "895c58bb4ed8102eb70ef954198868d739f3c59f"
   }
 }
