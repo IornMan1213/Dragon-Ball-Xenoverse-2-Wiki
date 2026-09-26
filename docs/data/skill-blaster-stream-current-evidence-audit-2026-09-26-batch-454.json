@@ -1,0 +1,19 @@
+{
+  "skill_id": "skill-blaster-stream",
+  "name": "Blaster Stream",
+  "batch": 454,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Blaster_Stream",
+    "https://dragonball.fandom.com/wiki/Blaster_Stream"
+  ],
+  "findings": [
+    "2026-09-26 Batch 454 current-evidence enrichment: 300-Ki Ki Blast Ultimate from PQ148. The user charges a straight-line beam; holding the input raises charge level, damage, and hit count, and a successful first beam produces a stronger follow-up Ki Wave. Current evidence reports a 30% total result for the documented two-beam sequence and notes that a hard knockdown or stamina break is required for the fully charged hit. Exact charge breakpoints and patch-independent scaling remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
