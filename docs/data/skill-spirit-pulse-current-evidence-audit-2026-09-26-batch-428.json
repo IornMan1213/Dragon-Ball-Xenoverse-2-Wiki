@@ -1,0 +1,17 @@
+{
+  "skill_id": "skill-spirit-pulse",
+  "skill_name": "Spirit Pulse",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Spirit_Pulse",
+    "https://dragonball.fandom.com/wiki/Spirit_Pulse"
+  ],
+  "findings": "2026-09-26 Batch 428 current-evidence audit: current dedicated Xenoverse 2 documentation corroborates the 100-Ki cost, single fast spirit-energy hit, approximately 10% source-reported damage, and PQ151 acquisition context. Exact frame timing and patch-independent scaling remain unresolved.",
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26",
+    "verification_status": "verified_current_scope"
+  },
+  "batch": 428,
+  "date": "2026-09-26",
+  "status": "complete"
+}

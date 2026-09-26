@@ -1,0 +1,17 @@
+{
+  "skill_id": "skill-mach-punch",
+  "skill_name": "Mach Punch",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Mach_Punch",
+    "https://dragonball.fandom.com/wiki/Mach_Punch"
+  ],
+  "findings": "2026-09-26 Batch 428 current-evidence audit: current dedicated Xenoverse 2 documentation corroborates the 100-Ki cost, six-punch sequence, finishing kick, Ultimate-cancel behavior, PQ19 acquisition, and approximately 10% source-reported damage. Exact frame timing and patch-independent damage scaling remain unresolved.",
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26",
+    "verification_status": "verified_current_scope"
+  },
+  "batch": 428,
+  "date": "2026-09-26",
+  "status": "complete"
+}

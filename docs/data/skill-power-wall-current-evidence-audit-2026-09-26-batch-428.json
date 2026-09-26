@@ -1,0 +1,17 @@
+{
+  "skill_id": "skill-power-wall",
+  "skill_name": "Power Wall",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Power_Wall",
+    "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
+  ],
+  "findings": "2026-09-26 Batch 428 current-evidence audit: current dedicated Xenoverse 2 documentation corroborates the 500-Ki cost, PQ150 acquisition, advancing flame-wall behavior, startup proximity interaction, directional distance control, and approximately 50% source-reported maximum damage. Exact frame timing and patch-independent scaling remain unresolved.",
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26",
+    "verification_status": "verified_current_scope"
+  },
+  "batch": 428,
+  "date": "2026-09-26",
+  "status": "complete"
+}

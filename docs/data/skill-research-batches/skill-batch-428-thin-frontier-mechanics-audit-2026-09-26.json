@@ -1,0 +1,35 @@
+{
+  "batch": 428,
+  "date": "2026-09-26",
+  "status": "complete",
+  "frontier_basis": "Shortest mechanics-note records without a prior current-evidence audit in the live cross-domain registry.",
+  "selected": [
+    {
+      "name": "Mach Punch",
+      "id": "skill-mach-punch",
+      "mechanics_note_length": 422
+    },
+    {
+      "name": "Power Wall",
+      "id": "skill-power-wall",
+      "mechanics_note_length": 471
+    },
+    {
+      "name": "Spirit Pulse",
+      "id": "skill-spirit-pulse",
+      "mechanics_note_length": 479
+    },
+    {
+      "name": "Finish Breaker",
+      "id": "skill-finish-breaker",
+      "mechanics_note_length": 363
+    }
+  ],
+  "excluded_reason": "Records with prior current-evidence audit registrations were excluded; the selected four were the next shortest genuinely unaudited canonical mechanics records.",
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "missing_ids": 0,
+    "extra_ids": 0
+  }
+}
