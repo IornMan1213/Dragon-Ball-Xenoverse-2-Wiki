@@ -1,0 +1,17 @@
+{
+  "batch": 465,
+  "date": "2026-09-26",
+  "skill_name": "Spirit Pulse",
+  "skill_id": "skill-spirit-pulse",
+  "status": "completed",
+  "findings": [
+    "100-Ki Ki Blast Super. The user draws the right fist back and thrusts forward, releasing a fast single spirit-energy projectile/hit. Current reference material reports approximately 10% base damage; that value is retained as source-reported rather than patch-independent."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Spirit_Pulse"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}
