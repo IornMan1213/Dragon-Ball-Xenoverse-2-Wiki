@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-24",
+  "scope": "current canonical character preset/loadout evidence boundary after deterministic consumer scan",
+  "live_census": {
+    "canonical_preset_records": 51,
+    "verified_loadout_records": 26,
+    "unresolved_loadout_records": 25,
+    "verified_loadout_skill_entries": 0
+  },
+  "checks": [
+    {
+      "scope": "character-presets-record-layer",
+      "status": "pass",
+      "finding": "All 26 verified loadout records have a loadout object, loadout_source, and non-empty sources array."
+    },
+    {
+      "scope": "numeric-unresolved-core",
+      "records": [
+        "goku-preset-2",
+        "goku-preset-3",
+        "goku-preset-4",
+        "goku-preset-5",
+        "goku-preset-6",
+        "goku-preset-7",
+        "goku-preset-8",
+        "goku-preset-9",
+        "goku-preset-10",
+        "goku-preset-11",
+        "goku-preset-12",
+        "goku-preset-14",
+        "goku-preset-15",
+        "goku-preset-16",
+        "goku-preset-17",
+        "goku-preset-18",
+        "vegeta-preset-10",
+        "vegeta-preset-11",
+        "captain-ginyu-preset-5",
+        "captain-ginyu-preset-6"
+      ],
+      "status": "evidence_boundary",
+      "finding": "The maintained community-video source directly labels these numeric preset identities, but does not expose complete skill-slot configurations. The current Goku in-game-data table exposes complete named/costume loadouts but does not safely bind them to repository numeric IDs. No row-order or costume-order mapping was used."
+    },
+    {
+      "scope": "orange-piccolo",
+      "status": "evidence_boundary",
+      "finding": "An independent current in-game-data page exposes a complete one-preset Orange Piccolo loadout and Super Soul, but the source names the preset 'Demon Clothes' rather than supplying a repository numeric preset ID. It therefore does not satisfy the numeric-identity promotion rule for the unresolved canonical record."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.youtube.com/watch?v=EJ0ICSoKXPc",
+      "role": "community video chapter index; directly labels the maintained numeric preset identities"
+    },
+    {
+      "url": "https://dbxv2.fandom.com/wiki/Goku",
+      "role": "current in-game-data table; complete Goku loadouts without a safe repository numeric binding"
+    },
+    {
+      "url": "https://dbxv2.fandom.com/wiki/Orange_Piccolo",
+      "role": "current in-game-data table; complete named one-preset loadout without a repository numeric preset ID"
+    }
+  ],
+  "relationship_changes": 0,
+  "promotion_count": 0,
+  "next": "Find a source that directly binds numeric Goku Presets 2-18, Vegeta Presets 10-11, or Captain Ginyu Presets 5-6 to complete skill-slot configurations. Do not infer from row order, costume order, chapter order, or visual proximity."
+}
