@@ -1,0 +1,24 @@
+{
+  "skill_id": "skill-impact-flare",
+  "name": "Impact Flare",
+  "batch": 452,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dragonball.fandom.com/wiki/Infinity_Rush",
+    "https://en.dragon-ball-official.com/news/01_334.html",
+    "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+  ],
+  "findings": [
+    [
+      "100-Ki Ki Blast Super from PQ150 and Jiren (Full Power)",
+      "Invisible-eye Ki barrage with additional-input teleporting rush follow-up",
+      "Exact hit count, damage, tracking and follow-up timing remain unresolved"
+    ]
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
