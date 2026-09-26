@@ -2063,3 +2063,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build remains unverified.
 - [x] **Exact next:** continue the same live-consumer audit for the next stale embedded scalar/reference, prioritizing DLC/PQ navigation consumers that are actually present in the live tree rather than historical index-only paths.
 
+
+
+### 2026-09-26 TODO progress update — Partner skill relationship validator correction
+- [x] Inspected the live Partner Customization skill relationship validator and found a concrete canonical-schema mismatch: the validator read `skill_id` from `docs/data/skills.json`, while the canonical skill corpus stores stable IDs in `id`.
+- [x] Corrected `scripts/validate_partner_skill_relationships.py` to use the canonical `id` field.
+- [x] Revalidated the relationship layer: **474 canonical skills / 3 partner-skill relationships / 3 unique pairs / 0 unknown targets / 0 duplicate pairs / 0 invalid relationship types / 0 missing evidence**; clean.
+- [x] Added and registered `docs/data/partner-skill-relationship-validator-audit-2026-09-26.json`.
+- [x] Refreshed cross-domain reachability after the new audit registration: **730 tree paths / 1,631 references / 739 reachable / 892 unreachable**.
+- [x] No unsupported Partner Customization relationship was added.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] Efficiency addendum remains unavailable at the expected repository path (GitHub 404).
+- [x] **Exact next:** inspect the remaining critical unreachable cross-domain references for a live-required, safely regenerable artifact; preserve historical/planned references and do not manufacture the absent general PQ reward layer from incomplete sources.
