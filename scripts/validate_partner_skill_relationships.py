@@ -11,6 +11,7 @@ def main()->int:
     skills=json.loads(SKILLS.read_text(encoding="utf-8"))
     ids={row["id"] for row in skills}
     failures=[]; seen=set()
+    repo_root=ROOT
     assert rel["schema_version"]=="1.0"
     assert rel["relationship_type"]=="partner_customization"
     for row in rel["relationships"]:
@@ -20,6 +21,8 @@ def main()->int:
         seen.add(key)
         if row.get("relationship")!="custom_partner_availability": failures.append(f"unexpected relationship: {row.get('relationship')}")
         if not row.get("evidence"): failures.append(f"missing evidence: {key}")
+        for evidence_path in row.get("evidence", []):
+            if not (repo_root / evidence_path).is_file(): failures.append(f"missing evidence file: {key}: {evidence_path}")
     if failures:
         for x in failures: print("FAIL:",x)
         return 1
