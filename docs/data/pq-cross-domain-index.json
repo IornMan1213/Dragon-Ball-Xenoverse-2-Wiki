@@ -1399,5 +1399,15 @@
   "skill_energy-field_current_evidence_audit_2026_09_26_batch_451": "docs/data/skill-energy-field-current-evidence-audit-2026-09-26-batch-451.json",
   "skill_bloody-counter_current_evidence_audit_2026_09_26_batch_451": "docs/data/skill-bloody-counter-current-evidence-audit-2026-09-26-batch-451.json",
   "skill_supersonic-mode_current_evidence_audit_2026_09_26_batch_451": "docs/data/skill-supersonic-mode-current-evidence-audit-2026-09-26-batch-451.json",
-  "skill_big-bang-attack_current_evidence_audit_2026_09_26_batch_451": "docs/data/skill-big-bang-attack-current-evidence-audit-2026-09-26-batch-451.json"
+  "skill_big-bang-attack_current_evidence_audit_2026_09_26_batch_451": "docs/data/skill-big-bang-attack-current-evidence-audit-2026-09-26-batch-451.json",
+  "skill_batch_452": "docs/data/skill-research-batches/skill-batch-452.json",
+  "skill_batch_452_thin_frontier": "docs/data/skill-research-batches/skill-batch-452-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_orin-combo_current_evidence_audit_2026_09_26_batch_452": "docs/data/skill-orin-combo-current-evidence-audit-2026-09-26-batch-452.json",
+  "skill_comet-strike_current_evidence_audit_2026_09_26_batch_452": "docs/data/skill-comet-strike-current-evidence-audit-2026-09-26-batch-452.json",
+  "skill_meteor-crash_current_evidence_audit_2026_09_26_batch_452": "docs/data/skill-meteor-crash-current-evidence-audit-2026-09-26-batch-452.json",
+  "skill_assault-vanish_current_evidence_audit_2026_09_26_batch_452": "docs/data/skill-assault-vanish-current-evidence-audit-2026-09-26-batch-452.json",
+  "skill_god-of-destruction-s-might_current_evidence_audit_2026_09_26_batch_452": "docs/data/skill-god-of-destruction-s-might-current-evidence-audit-2026-09-26-batch-452.json",
+  "skill_psychic-move_current_evidence_audit_2026_09_26_batch_452": "docs/data/skill-psychic-move-current-evidence-audit-2026-09-26-batch-452.json",
+  "skill_special-beam-cannon_current_evidence_audit_2026_09_26_batch_452": "docs/data/skill-special-beam-cannon-current-evidence-audit-2026-09-26-batch-452.json",
+  "skill_impact-flare_current_evidence_audit_2026_09_26_batch_452": "docs/data/skill-impact-flare-current-evidence-audit-2026-09-26-batch-452.json"
 }
