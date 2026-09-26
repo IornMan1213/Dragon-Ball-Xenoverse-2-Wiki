@@ -1,0 +1,55 @@
+{
+  "batch": 459,
+  "date": "2026-09-26",
+  "scope": "Fresh low-detail mechanics frontier after Batch 458.",
+  "selected": [
+    "Meditation",
+    "Fighting Pose B",
+    "Gigantic Meteor",
+    "Weekend",
+    "Fighting Pose G",
+    "Fighting Pose I",
+    "Fighting Pose J",
+    "Gigantic Omega"
+  ],
+  "method": "Recomputed the live 474-record corpus and selected the eight shortest mechanics-plus-notes records for dedicated current-evidence synchronization.",
+  "records": [
+    {
+      "skill_name": "Meditation",
+      "mechanics_notes": "0-Ki Power Up Super from PQ122. Completing the meditation stance raises maximum Ki to 1500 and grants temporary Ki Auto-Recovery for 20 seconds. Current evidence describes the charge as hold-to-complete and notes that the effect can coexist with other Power-Up effects during its 20-second duration. Exact recovery rate, startup, and frame timing remain unresolved."
+    },
+    {
+      "skill_name": "Fighting Pose B",
+      "mechanics_notes": "0-Ki Power Up Super from PQ16. The pose grants a temporary Strike-move damage increase for 20 seconds. Current skill-specific documentation confirms the Strike-only scope and duration; exact percentage, stacking behavior, reward probability, and frame timing remain unresolved."
+    },
+    {
+      "skill_name": "Gigantic Meteor",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate learned from Broly training. The user throws a small tracking Ki Blast that explodes after about a second; current skill-specific evidence reports 45% damage over 4 hits. Kale (SSJ2)'s unique variant begins with an uppercut before the distant explosion. Exact timing and patch-independent scaling remain source-bound."
+    },
+    {
+      "skill_name": "Weekend",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from Raditz's Lesson 3. The user charges beams in both hands and fires them as separate energy waves; a back-direction input spreads them into a wide V shape. Current skill evidence reports 16 hits and approximately 30% total damage. Exact frame timing and scaling remain unresolved."
+    },
+    {
+      "skill_name": "Fighting Pose G",
+      "mechanics_notes": "0-Ki Power Up Super that increases Ki Blast skill damage. Current dedicated evidence reports about 8% increased output and a 20-second duration; exact race-dependent duration variants, stacking behavior, and frame data remain unresolved."
+    },
+    {
+      "skill_name": "Fighting Pose I",
+      "mechanics_notes": "0-Ki Power Up Super. After the pose animation, the user gains a Basic Movement Speed increase for 20 seconds; current skill-specific documentation identifies the effect as a movement-speed buff rather than a damage or defensive modifier. Exact speed multiplier and frame timing remain unresolved."
+    },
+    {
+      "skill_name": "Fighting Pose J",
+      "mechanics_notes": "0-Ki Power Up Super associated with Recoome and PQ17. It temporarily increases Stamina recovery. Current evidence supports the PQ17 endpoint and core Power Up identity; exact multiplier, duration, frame data, reward probability, and hidden gates remain unresolved."
+    },
+    {
+      "skill_name": "Gigantic Omega",
+      "mechanics_notes": "100-Ki Strike Super learned from Broly training. The user takes a stance and throws a large Ki Blast from the right hand; current skill-specific evidence reports about 15% damage at close range and 10% at long range. It is documented as a pseudo-Ki Blast with 1–3 hits and knockback. Exact frame data and patch-independent scaling remain unresolved."
+    }
+  ],
+  "validation": {
+    "canonical_count": 474,
+    "index_count": 474,
+    "ordered_id_parity": true
+  }
+}
