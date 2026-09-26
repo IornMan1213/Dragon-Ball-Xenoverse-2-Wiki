@@ -705,3 +705,10 @@
 - [ ] Canonical generated `skills.json` / `skills-index.json` were not partially rewritten because their complete contents cannot be safely reconstructed through the connector.
 - [ ] CI remains unverified.
 - [x] **Exact next:** continue the fresh census with the next older partially-verified mechanics footprints, prioritizing compact deterministic records before broad catalog work.
+
+### 2026-09-25 cycle completion — Skill Batch 368 compact mechanics/source refresh
+- [x] Fresh census continuation selected **Energy Release, Crazy Finger Shot, Death Psycho Bomb, Afterimage Strike**.
+- [x] Added four current-evidence audits and `docs/data/skill-research-batches/skill-batch-368.json`; registered all five artifacts in the cross-domain index.
+- [x] Refreshed bounded mechanics/provenance while preserving unresolved exact damage/reward/frame/hidden-gate fields.
+- [ ] Canonical generated skill files were not partially rewritten; CI remains unverified.
+- [x] **Exact next:** continue fresh census against remaining older partially-verified skill records, prioritizing deterministic mechanics and acquisition footprints.
