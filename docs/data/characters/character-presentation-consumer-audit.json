@@ -16,7 +16,7 @@
   ],
   "results": {
     "canonical_character_names": 152,
-    "bridge_records": 29,
+    "bridge_records": 34,
     "preset_records": 51,
     "preset_distinct_character_ids": 17,
     "partner_key_records": 20,
@@ -116,7 +116,11 @@
       "status": "clean"
     },
     "verified_preset_loadout_records": 25,
-    "verified_loadout_skill_entries": 162
+    "verified_loadout_skill_entries": 162,
+    "partner_customization_navigation": {
+      "bridge_records": 34,
+      "canonical_character_names": 152
+    }
   },
   "evidence_boundary": "Identity/navigation parity remains clean. This cycle additionally verifies that bridge character IDs and preset record IDs are string-shaped and unique, and that optional bridge source_name values are unique when present. Missing optional source_name is not treated as a duplicate. Markdown consumer inspection additionally checks the Character Encyclopedia's canonical explorer link and the core profile page for hard-coded preset labels; no preset labels were found in those two Markdown consumers. 2026-09-24: all current character-count consumers in this audit now use the live 152-character baseline.",
   "rules": [
@@ -139,6 +143,7 @@
   "status": "clean",
   "notes": [
     "2026-09-24 live producer refresh: character-presets-record-layer.json now contains 51 records across 17 presentation character IDs, including 46 numbered preset records and 5 separate-character records; 25 records carry verified loadouts with 162 skill-slot entries. Prior 40/12 presentation counts were stale consumer projections.",
-    "2026-09-24 publisher-confirmed Chapter 4 identity refresh: added Supreme Kai of Time (Ultra Supervillain) and Goku (Ultra Supervillain Quelled) to the canonical character layer from Bandai Namco's final-DLC announcement. These were not present in the older source-category snapshot; they are not inferred aliases."
+    "2026-09-24 publisher-confirmed Chapter 4 identity refresh: added Supreme Kai of Time (Ultra Supervillain) and Goku (Ultra Supervillain Quelled) to the canonical character layer from Bandai Namco's final-DLC announcement. These were not present in the older source-category snapshot; they are not inferred aliases.",
+    "2026-09-26 recovery synchronization: restored 5 explicit preset character bridge records (Bardock, Raditz, Nappa, Recoome, Zarbon), raising the live bridge from 29 to 34 and resolving all 17 presentation character IDs used by the 51-record preset layer."
   ]
 }
