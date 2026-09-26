@@ -1,3 +1,10 @@
+### 2026-09-26 continuation — Partner/custom relationship census follow-up
+- [x] Performed a live repository-wide search for the exact **Partner Customization** phrase across the skill corpus/research artifacts.
+- [x] Expanded the census beyond the three seeded relationship pairs; the live search found only four skill-related artifacts containing the exact phrase: Arm Crash research/audit and Reverse Mabakusenko research/audit. No additional explicit partner-skill pair was discovered from this corpus search.
+- [x] Confirmed that Flash Strike and Psycho Barrier merely cite the Partner Customization reference page; their current evidence does not explicitly document a partner assignment, so no relationship was inferred.
+- [ ] Exact next: broaden the census to partner-character navigation data and skill-user/preset records, then reconcile explicit partner availability against the canonical skill IDs without creating duplicates.
+- [ ] Validator execution and CI/build remain unverified in this environment.
+
 ### 2026-09-26 continuation — Partner/custom skill relationship layer implemented
 - [x] Audited the live repository for existing Partner Customization relationship data; existing artifacts documented partner context inside skill audits/research, but no dedicated canonical skill→partner relationship index was present.
 - [x] Added `docs/data/partner-skill-relationships.json` with a reusable relationship layer separating canonical `skill_id` identity from partner/custom availability.
