@@ -1,0 +1,26 @@
+{
+  "batch": 425,
+  "date": "2026-09-26",
+  "skill_id": "skill-darkness-eye-beam",
+  "skill_name": "Darkness Eye Beam",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Darkness_Eye_Beam",
+    "https://dragonball.fandom.com/wiki/Darkness_Eye_Beam",
+    "https://dbxv2.fandom.com/wiki/Mentors",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+    "https://steamcommunity.com/app/454650/discussions/0/1368380934268102674/"
+  ],
+  "scope": "Current Xenoverse 2-specific mechanics, acquisition, resource-cost, and version-history evidence reviewed in Batch 425.",
+  "findings": "100-Ki Ki Blast Super learned through Lord Slug mentor training. Current repository evidence describes paired eye beams rising from below the user toward the opponent, with a single-hit sweeping presentation and source-reported 15% displayed damage plus knockback. Historical DLC patch notes report increased damage, extended non-passive time, and adjusted attack judgment to make the move easier to land; these are retained as historical version evidence rather than converted into timeless current values.",
+  "canonical_changes": {
+    "last_verified": "2026-09-26",
+    "research_status": "enriched",
+    "verification_status": "evidence_reviewed"
+  },
+  "unresolved": [
+    "Exact current startup/active/recovery frames are unresolved.",
+    "Exact current damage after historical patches is unresolved.",
+    "The patch-note wording is historical and does not establish a current numeric damage value."
+  ],
+  "status": "complete"
+}
