@@ -2449,3 +2449,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No additional Partner Customization assignment or unsupported skill relationship was inferred.
 - [ ] CI/build/runtime remains unverified.
 - [x] **Exact next:** continue auditing the remaining live validators for concrete schema/acceptance gaps, without reconstructing unsupported canonical datasets.
+
+### 2026-09-26 continuation — Skill↔PQ validator source-syntax repair
+- [x] Re-inspected the live `scripts/validate_skill_pq_crosslinks.py` after the previous hardening entry and found that the checked-in `OUT.write_text(...)` call still contained an actual line break inside the string literal, making the validator syntactically invalid despite the documented hardening.
+- [x] Repaired that source-level syntax defect on `main` in commit `af9ce4881eaeba8a8007e475142f7400cc90b6f0`; the exact checked-in reverse-projection equality guard remains intact.
+- [x] Updated `docs/data/skill-pq-cross-domain-linkage-integrity-audit-2026-09-26.json` to record the repair and distinguish source-syntax correction from runtime validation.
+- [x] No canonical skill/PQ relationship data was changed.
+- [ ] Runtime validator execution and CI/build remain unverified in this environment.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected repository path (GitHub 404).
+- [x] **Exact next:** inspect the next live validator/consumer for a concrete acceptance, schema, or deterministic-projection gap; prioritize executable integrity and only make evidence-backed data changes.
