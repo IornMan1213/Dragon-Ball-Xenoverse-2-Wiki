@@ -1,0 +1,19 @@
+{
+  "batch": 461,
+  "date": "2026-09-26",
+  "skill_name": "Burst Rush",
+  "skill_id": "skill-burst-rush",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics/provenance review for the live canonical record.",
+  "findings": [
+    "100-Ki Strike Super and melee counter from PQ51, Great Saiyaman is Here. Current evidence places it in PQ51's Basic Reward listing and documents its counter behavior. No unsupported drop probability, Ultimate Finish gate, or narrower CaC race/gender/form restriction is inferred."
+  ],
+  "sources": [
+    "Repository-maintained current skill/PQ/evidence corpus and dedicated exact-name references reviewed for the live record."
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "No unsupported exact frame data, reward probabilities, hidden gates, or patch-independent scaling is promoted.",
+    "Known source conflicts remain explicit rather than silently normalized."
+  ]
+}
