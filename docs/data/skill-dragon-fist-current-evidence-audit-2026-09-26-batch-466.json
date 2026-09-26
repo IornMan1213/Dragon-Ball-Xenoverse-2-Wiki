@@ -1,0 +1,18 @@
+{
+  "batch": 466,
+  "date": "2026-09-26",
+  "skill_name": "Dragon Fist",
+  "skill_id": "skill-dragon-fist",
+  "status": "completed",
+  "findings": [
+    "500-Ki Strike Ultimate sold through the TP Medal Shop. The user kicks, punches, and then produces a Shenron-image piercing attack; current Xenoverse 2-specific documentation records 14 hits and about 50% total damage. The follow-up can fail if the sequence is interrupted or avoided. Exact startup, recovery, and hit-confirm windows remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Dragon_Fist"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted.",
+    "Documented acquisition/reward conflicts remain explicit rather than normalized without evidence."
+  ]
+}
