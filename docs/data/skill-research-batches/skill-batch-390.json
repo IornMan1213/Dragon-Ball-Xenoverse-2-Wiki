@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 390,
+  "created": "2026-09-25",
+  "type": "short-frontier-mechanics-enrichment",
+  "records": [
+    {
+      "name": "Fighting Pose K",
+      "id": "skill-fighting-pose-k",
+      "audit": "docs/data/skill-fighting-pose-k-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Side Bridge",
+      "id": "skill-side-bridge",
+      "audit": "docs/data/skill-side-bridge-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Rolling Bullet",
+      "id": "skill-rolling-bullet",
+      "audit": "docs/data/skill-rolling-bullet-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Energy Minefield",
+      "id": "skill-energy-minefield",
+      "audit": "docs/data/skill-energy-minefield-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Remote Serious Bomb",
+      "id": "skill-remote-serious-bomb",
+      "audit": "docs/data/skill-remote-serious-bomb-current-evidence-audit-2026-09-25.json"
+    }
+  ],
+  "evidence_boundary": "Current Xenoverse 2 mechanics enrichment only; source-reported numeric values remain bounded and unresolved details are not inferred."
+}
