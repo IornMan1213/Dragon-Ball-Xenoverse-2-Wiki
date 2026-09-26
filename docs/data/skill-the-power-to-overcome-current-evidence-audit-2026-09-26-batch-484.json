@@ -1,0 +1,17 @@
+{
+  "batch": 484,
+  "date": "2026-09-26",
+  "skill_id": "skill-the-power-to-overcome",
+  "skill_name": "The Power to Overcome",
+  "sources": [
+    "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
+    "https://noleep.com/en/dragon-ball-xenoverse-2-the-power-to-overcome/",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=2832908819"
+  ],
+  "findings": "2026-09-26 Batch 484 current-evidence audit: The Power to Overcome is a 500-Ki universal CaC Awoken Skill from Future Saga Chapter 4, unlocked by completing Quest 31, Ultimate All-Out Showdown. Current evidence supports a first stage with about +20% damage reduction and +5% movement speed, below-50%-health regeneration, and an unblockable sword-grab replacement. Re-input activates an approximately 12-second Unleashed stage with very rapid/infinite-style Ki regeneration, +15% basic attack damage, +30% Strike/Ki Super damage, +10% movement speed, and HP drain. Community measurements conflict on some exact values/cooldowns, so those remain source-bounded.",
+  "canonical_changes": {
+    "mechanics_notes": "500-Ki universal CaC Awoken from Future Saga Chapter 4. Stage 1 provides about +20% damage reduction, +5% movement speed, below-50%-health regeneration, and an unblockable sword-strike replacement for grabs. Re-input activates roughly 12 seconds of Unleashed mode with very rapid/infinite-style Ki regeneration, +15% Basic Attack, +30% Strike/Ki Super damage, +10% movement speed, and HP drain. Exact regeneration, cooldown, and some modifier measurements remain source-conflicted.",
+    "last_verified": "2026-09-26",
+    "research_status": "enriched"
+  }
+}
