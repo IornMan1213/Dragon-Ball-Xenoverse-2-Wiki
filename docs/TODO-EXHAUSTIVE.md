@@ -566,3 +566,11 @@
 - [ ] Canonical/index generated skill files were not partially rewritten because the safe connector path cannot reconstruct the complete files; no false canonical synchronization is claimed.
 - [ ] CI remains unverified.
 - [x] **Exact next:** **Innocence Cannon, Justice Rush, Shining Friday, Strike of Revelation, Sudden Storm, Super Explosive Wave**.
+
+### 2026-09-25 completion — Skill Batch 366 thin mechanics/provenance research
+- [x] Completed **Innocence Cannon, Justice Rush, Shining Friday, Strike of Revelation, Sudden Storm, Super Explosive Wave**.
+- [x] Added six current-evidence audits plus Skill Batch 366 and registered all seven artifacts in the cross-domain index.
+- [x] Preserved taxonomy/evidence corrections, including **Super Explosive Wave = Evasive** and **Sudden Storm = 200 Ki**.
+- [x] No unsupported duration, frame, damage, reward-probability, or hidden-gate claims were added.
+- [ ] Canonical generated skill files were not partially rewritten; CI remains unverified.
+- [x] **Exact next:** fresh global thin-record census; select the next shortest/highest-impact mechanics or deterministic provenance gap.
