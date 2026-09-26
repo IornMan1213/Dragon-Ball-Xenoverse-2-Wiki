@@ -684,3 +684,15 @@
 - [ ] CI remains unverified.
 - [x] Fresh census excluded the already-enriched short records from Batches 376–379. The next genuinely unfinished short frontier is **Explosive Assault (131), Final Flash (131)**, followed by the next shortest records.
 - [ ] **Exact next:** fresh evidence check of the unfinished frontier and continue source-bounded mechanics enrichment.
+
+
+### 2026-09-25 completion — Skill Batch 381
+- [x] Fresh live post-Batch-380 census confirmed **469 records / 0 empty mechanics_notes / 0 duplicate IDs**; shortest unfinished frontier was rechecked rather than relying on historical notes.
+- [x] Enriched **Rocket Tackle, Side Bridge, Trap Shooter, and Spirit Blaster** with current Xenoverse 2-specific mechanics evidence.
+- [x] Promoted Trap Shooter and Spirit Blaster to `verified_current_scope`; refreshed all four target verification dates to 2026-09-25.
+- [x] Added four skill current-evidence audits, Skill Batch 381, and a batch audit; registered all artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: **469 records / 0 empty mechanics_notes / 0 duplicate IDs**; all four target records contain the new mechanics text and all Batch 381 audit/batch registrations resolve.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Commits: canonical `51c7b2e`; four audits `0b5d...` (individual commits); batch `41ccf4c`; batch audit `bafa461`; cross-domain index `35f1d2e`.
+- [x] Evidence limits preserved: no unsupported reward probabilities, hidden prerequisites, frame data, exact timing, or universal damage claims were promoted.
+- [ ] **Exact next:** fresh post-Batch-381 mechanics census, excluding recently enriched targets; current shortest unfinished frontier is **Fighting Pose A (117), Feint Shot (118), Final Flash (SS3 DAIMA) (119), Shooting Strike (119), Solar Flare (119)**, followed by **Super Ghost Kamikaze Attack (123)**.
