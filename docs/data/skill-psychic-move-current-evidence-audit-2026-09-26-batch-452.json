@@ -1,0 +1,23 @@
+{
+  "skill_id": "skill-psychic-move",
+  "name": "Psychic Move",
+  "batch": 452,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Psychic_Move",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "findings": [
+    [
+      "300-Stamina Strike Evasive from PQ73",
+      "Teleports behind the opponent and creates a shockwave",
+      "Source-reported 5% damage and knockback"
+    ]
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
