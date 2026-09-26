@@ -741,3 +741,13 @@
 - [x] Commits: canonical `3521c85`; Batch 385 `259fdc7`; cross-domain index `11b92d2`; audits `74f3b4a`, `f227c56`, `b6ca4b3`, `2180f3e`.
 - [x] Evidence limits preserved: no unsupported frame data, hidden prerequisites, reward probabilities, or universal damage claims promoted.
 - [ ] **Exact next:** fresh evidence check on **Time Skip/Tremor Pulse (131), Angry Explosion (134), Brave Heat (134), Burst Reflection (135)**, then continue the shortest unfinished mechanics frontier.
+
+
+### 2026-09-25 completion — Skill Batch 386 short-frontier mechanics enrichment
+- [x] Fresh live census: **469 canonical / 469 index / 0 duplicate IDs / 0 empty mechanics_notes**.
+- [x] Completed **Time Skip/Tremor Pulse, Angry Explosion, Brave Heat, Burst Reflection** with source-bounded current Xenoverse 2 mechanics enrichment.
+- [x] Synchronized canonical/index mechanics_notes and last_verified fields; promoted Burst Reflection to verified_current_scope.
+- [x] Added/updated four current-evidence audits, Skill Batch 386, and the Batch 386 audit; registered all in docs/data/pq-cross-domain-index.json.
+- [x] Validation: canonical/index remain **469/469**, 0 duplicate IDs, and target fields are synchronized.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Next:** fresh post-Batch-386 census excluding recently enriched targets, then continue the shortest genuinely unfinished mechanics/source frontier.
