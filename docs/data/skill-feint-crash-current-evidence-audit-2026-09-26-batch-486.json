@@ -1,0 +1,8 @@
+{
+  "batch": 486,
+  "date": "2026-09-26",
+  "skill_id": "skill-feint-crash",
+  "skill_name": "Feint Crash",
+  "findings": "Current evidence confirms 100-Ki Cooler-training Strike Super, restanding teleport-punch default, and alternate second-input teleport-kick knockback behavior.",
+  "canonical_changes": "Canonical mechanics expanded with both input branches and their distinct follow-up properties."
+}
