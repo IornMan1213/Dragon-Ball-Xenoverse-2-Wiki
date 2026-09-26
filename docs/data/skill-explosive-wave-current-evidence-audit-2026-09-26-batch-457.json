@@ -1,0 +1,26 @@
+{
+  "batch": 457,
+  "date": "2026-09-26",
+  "skill_id": "skill-explosive-wave",
+  "skill_name": "Explosive Wave",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Skill Research Batch 457.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Explosive_Wave",
+    "https://dragonball.fandom.com/wiki/Explosive_Wave"
+  ],
+  "findings": [
+    "300-Stamina Ki Blast Evasive from the Skill Shop. The user creates an area explosion that current skill-specific evidence reports at 2% damage with roughly 1 second of stun. Evasive activation consumes Stamina rather than Ki; exact active frames and patch-independent damage remain unresolved."
+  ],
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26",
+    "research_status": "enriched"
+  },
+  "evidence_boundaries": [
+    "Exact frame data is not promoted.",
+    "Patch-independent damage/scaling is not inferred from source-reported values.",
+    "Reward probabilities and hidden prerequisites are not promoted unless directly evidenced.",
+    "Character-specific usage is not converted into a CaC race/gender/form restriction without direct evidence."
+  ]
+}
