@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-data-input",
+  "name": "Data Input",
+  "batch": 456,
+  "date": "2026-09-26",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Data_Input",
+    "https://dragonball.fandom.com/wiki/Data_Input"
+  ],
+  "findings": [
+    "2026-09-26 Batch 456 current-evidence enrichment: 100-Ki Power Up Super from Expert Mission 20. Current skill evidence documents a 20-second Auto Dodge window that activates during the animation and works while stationary against melee/strike attacks; it can remain effective while stamina broken, but hitstun from other attacks can interrupt normal protection. Evidence also records that it does not cover ordinary Ki attacks and that the technique cannot be combined with Pose F or Pose K. The repository retains the Extra Pack 1 versus Free Update 5 provenance distinction rather than collapsing it."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
