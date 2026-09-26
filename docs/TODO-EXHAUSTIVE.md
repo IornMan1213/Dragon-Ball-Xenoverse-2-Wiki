@@ -730,3 +730,14 @@
 - [x] Commits: canonical `b0cc2a9`; Batch 384 `d888aaf`; cross-domain index `f8dc4e3`; audits `9bebcfe`, `731df6b`, `0291648`, `a7c7edda`.
 - [x] Evidence limits preserved: no unsupported frame data, hidden prerequisites, reward probabilities, or universal damage claims were promoted.
 - [ ] **Exact next:** fresh evidence check on **Final Flash (131), Instant Severance (131), Super God Shock Flash (131), Super Saiyan Blue Kaioken (131)**, then continue the shortest unfinished mechanics frontier.
+
+
+### 2026-09-25 completion — Skill Batch 385
+- [x] Fresh live census from canonical `skills.json`; completed the next four-record short frontier.
+- [x] Enriched **Final Flash, Instant Severance, Super God Shock Flash, and Super Saiyan Blue Kaioken** with source-bounded Xenoverse 2 mechanics notes.
+- [x] Added four current-evidence audits and Batch 385; registered all artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: **469 records / 0 empty mechanics_notes / 0 duplicate IDs**.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Commits: canonical `3521c85`; Batch 385 `259fdc7`; cross-domain index `11b92d2`; audits `74f3b4a`, `f227c56`, `b6ca4b3`, `2180f3e`.
+- [x] Evidence limits preserved: no unsupported frame data, hidden prerequisites, reward probabilities, or universal damage claims promoted.
+- [ ] **Exact next:** fresh evidence check on **Time Skip/Tremor Pulse (131), Angry Explosion (134), Brave Heat (134), Burst Reflection (135)**, then continue the shortest unfinished mechanics frontier.
