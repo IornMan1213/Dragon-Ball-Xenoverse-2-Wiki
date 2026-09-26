@@ -2216,3 +2216,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected path.
 - [x] **Exact next:** perform a fresh live unaudited mechanics frontier census before Batch 493; do not reuse the Batch 492 candidate list.
+
+
+### 2026-09-26 continuation — Skill Research Batch 493 completed
