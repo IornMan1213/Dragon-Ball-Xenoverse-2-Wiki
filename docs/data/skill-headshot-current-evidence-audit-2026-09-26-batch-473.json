@@ -1,0 +1,24 @@
+{
+  "audit_id": "skill-headshot_current_evidence_audit_2026_09_26_batch_473",
+  "batch": 473,
+  "date": "2026-09-26",
+  "skill_id": "skill-headshot",
+  "skill_name": "Headshot",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "mechanics_notes": "300-Stamina Strike Evasive from PQ69. Beerus plants himself and flicks the opponent with a single close-range forehead strike, dealing source-reported 10% damage and knocking the target away. Current documentation identifies it as a single-hit, close-range evasive.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Headshot",
+    "https://dragonball.fandom.com/wiki/Headshot"
+  ],
+  "evidence_limits": [
+    "Source-reported damage/stamina restoration values are not asserted as universal balance constants.",
+    "Exact startup/active/recovery frames, patch-independent scaling formulas, hidden interaction rules, and reward probabilities remain unresolved unless directly established.",
+    "Existing acquisition/provenance conflicts must be preserved rather than overwritten."
+  ],
+  "canonical_changes": {
+    "mechanics_notes_prepared": true,
+    "last_verified": "2026-09-26",
+    "synchronization_status": "pending_canonical_large_file_update"
+  }
+}
