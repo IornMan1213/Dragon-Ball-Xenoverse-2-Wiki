@@ -1,0 +1,21 @@
+{
+  "skill_id": "skill-mystic-flash",
+  "name": "Mystic Flash",
+  "batch": 448,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Mystic_Flash"
+  ],
+  "findings": [
+    "300-Ki cost",
+    "PQ20 endpoint",
+    "rear-only Ki Wave",
+    "25-hit knockback Ultimate",
+    "source-reported 30% total damage",
+    "no unsupported probability"
+  ],
+  "evidence_boundaries": [
+    "No unsupported exact frame, scaling, probability, or hidden-condition claims inferred."
+  ]
+}
