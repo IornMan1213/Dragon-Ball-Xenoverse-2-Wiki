@@ -1099,5 +1099,11 @@
     "skill_destructive-flare_current_evidence_audit_2026_09_25_batch_414": "docs/data/skill-destructive-flare-current-evidence-audit-2026-09-25-batch-414.json",
     "skill_double-crush_current_evidence_audit_2026_09_25_batch_414": "docs/data/skill-double-crush-current-evidence-audit-2026-09-25-batch-414.json",
     "skill_god-of-destruction-s-rampage_current_evidence_audit_2026_09_25_batch_414": "docs/data/skill-god-of-destruction-s-rampage-current-evidence-audit-2026-09-25-batch-414.json"
-  }
+  },
+  "skill_research_batch_415": "docs/data/skill-research-batches/skill-batch-415.json",
+  "skill_batch_415_thin_frontier": "docs/data/skill-batch-415-thin-frontier-mechanics-audit-2026-09-25.json",
+  "skill_god_of_destruction_s_wrath_current_evidence_audit_2026_09_25_batch_415": "docs/data/skill-god-of-destruction-s-wrath-current-evidence-audit-2026-09-25-batch-415.json",
+  "skill_symphonic_destruction_current_evidence_audit_2026_09_25_batch_415": "docs/data/skill-symphonic-destruction-current-evidence-audit-2026-09-25-batch-415.json",
+  "skill_demon_ray_current_evidence_audit_2026_09_25_batch_415": "docs/data/skill-demon-ray-current-evidence-audit-2026-09-25-batch-415.json",
+  "skill_fighting_pose_e_current_evidence_audit_2026_09_25_batch_415": "docs/data/skill-fighting-pose-e-current-evidence-audit-2026-09-25-batch-415.json"
 }

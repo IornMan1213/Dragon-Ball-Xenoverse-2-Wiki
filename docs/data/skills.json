@@ -2830,16 +2830,16 @@
       "character_source": "Gohan (Beast)",
       "dlc_requirement": "Hero of Justice Pack 2",
       "ki_cost": 100,
-      "stamina_cost": null,
+      "stamina_cost": 300,
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest 160 — \"Pan in Peril\" Ultimate Finish Bonus",
       "source_quest_or_shop": "Parallel Quest 160 — \"Pan in Peril\"",
       "ultimate_finish_required": true,
       "skill_description": "Demon Ray is a Super Ki Blast skill used by Gohan (Beast).",
-      "mechanics_notes": "Current dedicated evidence confirms a 100-Ki Ki Blast Super from PQ160. The first projectile can be followed by a Kamehameha-like Ki Wave on additional input; consuming 300 Stamina permits use while being hit.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ160. The user fires a quick Evil Explosion for about 5% damage; an additional input adds a Kamehameha-like Ki Wave for about 3.5% more. Consuming 300 Stamina permits the move to be used while the user is being hit. Exact frame data and patch-independent damage remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demon_Ray",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2848,7 +2848,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 160,
       "acquisition_type": "quest_or_mission",
-      "notes": "Reconciled 2026-09-20: Parallel Quest 160 — \"Pan in Peril\" Ultimate Finish bonus. The maintained PQ160 drop data records a 50% Ultimate Finish bonus roll. 2026-09-20 provenance census: normalized source field to Parallel Quest 160 — \"Pan in Peril\", matching the maintained PQ research record. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "Reconciled 2026-09-20: Parallel Quest 160 — \"Pan in Peril\" Ultimate Finish bonus. The maintained PQ160 drop data records a 50% Ultimate Finish bonus roll. 2026-09-20 provenance census: normalized source field to Parallel Quest 160 — \"Pan in Peril\", matching the maintained PQ research record. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 415 mechanics enrichment: current skill-specific evidence was reconciled into the canonical record; unsupported frame data, hidden conditions, exact scaling, and patch-independent damage remain unresolved.",
       "id": "skill-demon-ray",
       "source_parallel_quests": [
         160
@@ -5122,10 +5122,10 @@
       "source_quest_or_shop": "Parallel Quest 19 — \"Fierce Battle! Ginyu Force\"",
       "ultimate_finish_required": false,
       "skill_description": "Fighting Pose E is a Super Power Up skill associated with Captain Ginyu.",
-      "mechanics_notes": "Confirmed as 0-Ki PQ19 Power Up Super. The pose temporarily increases Basic Attack for 20 seconds; it is usable by CaCs. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
+      "mechanics_notes": "0-Ki Power Up Super from PQ19. The pose temporarily increases Basic Attack for 20 seconds; current skill-specific documentation confirms the duration and all-CaC usability. Exact attack multiplier, activation frames, and stacking interactions remain unresolved.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Fighting_Pose_E",
@@ -5135,7 +5135,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 19,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super from PQ19 Basic Reward. It temporarily increases Basic Attack for 20 seconds; no Ultimate-Finish-only condition is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super from PQ19 Basic Reward. It temporarily increases Basic Attack for 20 seconds; no Ultimate-Finish-only condition is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-25 Batch 415 mechanics enrichment: current skill-specific evidence was reconciled into the canonical record; unsupported frame data, hidden conditions, exact scaling, and patch-independent damage remain unresolved.",
       "id": "skill-fighting-pose-e",
       "source_parallel_quests": [
         19
@@ -6749,20 +6749,22 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Wrath",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
       ],
       "unlock_method": "God of Destruction Beerus's mentor training — complete the corresponding lesson to receive God of Destruction's Wrath as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "God of Destruction Beerus mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred. 2026-09-23 refresh: mentor acquisition remains verified; combat mechanics remain intentionally deferred pending direct evidence.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "100-Ki Ki Blast Super learned from Beerus's mentor training, Lesson 2. The user jumps backward and fires a barrage of Ki Blasts in all directions; current dedicated Xenoverse 2 skill documentation reports a maximum of about 20% damage. Exact projectile count, startup/recovery, tracking, and frame data remain unresolved.",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "God of Destruction Beerus mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 verification refresh: revalidated against the repository's maintained skill/PQ/mentor provenance corpus; existing evidence conflicts and unresolved mechanics are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 verification refresh: revalidated against the repository's maintained skill/PQ/mentor provenance corpus; existing evidence conflicts and unresolved mechanics are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 415 mechanics enrichment: current skill-specific evidence was reconciled into the canonical record; unsupported frame data, hidden conditions, exact scaling, and patch-independent damage remain unresolved.",
       "id": "skill-god-of-destruction-s-wrath",
       "source_mentor": [
         "mentor-beerus"
@@ -12870,7 +12872,7 @@
     {
       "name": "Symphonic Destruction",
       "class": "Ultimate",
-      "subcategory": "Strike",
+      "subcategory": "Ki Blast",
       "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
@@ -12883,13 +12885,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Whis mentor training",
-      "mechanics_notes": "300-Ki long-range Strike Ultimate. Creates a whirlwind in front of the user and sweeps it repeatedly like a conductor; current DBXV2 research documents six directional sweeps and a multi-hit launching attack.",
+      "mechanics_notes": "300-Ki long-range Ki Blast Ultimate from Whis mentor training. The user creates a whirlwind in front of them and sweeps it like a conductor six times; current dedicated Xenoverse 2 documentation reports 25 hits and about 35% total damage, with damage decreasing as distance increases. Exact frames and patch-independent damage remain unresolved.",
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Whis mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred.\n2026-09-25 Batch 372 mechanics enrichment: promoted repository-supported current mechanics; source-reported damage remains bounded and no unsupported frame/timing/probability/hidden-gate claims were added.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred.\n2026-09-25 Batch 372 mechanics enrichment: promoted repository-supported current mechanics; source-reported damage remains bounded and no unsupported frame/timing/probability/hidden-gate claims were added.\n2026-09-25 Batch 415 mechanics enrichment: current skill-specific evidence was reconciled into the canonical record; unsupported frame data, hidden conditions, exact scaling, and patch-independent damage remain unresolved.",
       "id": "skill-symphonic-destruction",
       "source_mentor": [
         "mentor-whis"

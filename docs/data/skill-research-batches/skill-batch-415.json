@@ -1,0 +1,14 @@
+{
+  "batch": 415,
+  "date": "2026-09-25",
+  "status": "completed",
+  "scope": "Skill mechanics frontier",
+  "excluded_batches": "396-414",
+  "selected": [
+    "God of Destruction's Wrath",
+    "Symphonic Destruction",
+    "Demon Ray",
+    "Fighting Pose E"
+  ],
+  "evidence_policy": "Promote directly supported Xenoverse 2 mechanics only; preserve uncertainty around exact frames, projectile counts, scaling, and patch-independent damage."
+}

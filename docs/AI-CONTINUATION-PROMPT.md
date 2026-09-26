@@ -1,3 +1,14 @@
+### 2026-09-25 continuation — Skill Research Batch 415 completed
+
+- [x] Fresh live 474-record mechanics frontier census excluded Batches 396–414 and selected **God of Destruction's Wrath, Symphonic Destruction, Demon Ray, and Fighting Pose E** as the next four shortest genuinely under-detailed canonical mechanics records.
+- [x] Expanded current Xenoverse 2-specific mechanics coverage and synchronized canonical `docs/data/skills.json` and projection `docs/data/skills-index.json` for all four.
+- [x] Corrected **Symphonic Destruction** to the documented **Ki Blast Ultimate** classification in both canonical layers; the prior projection incorrectly labeled it Strike.
+- [x] Promoted **Demon Ray**'s documented 300-Stamina use-while-hit mechanic into the canonical stamina field while retaining its PQ160 Ultimate Finish acquisition semantics.
+- [x] Added Batch 415 research data, thin-frontier audit, and four current-evidence audit files; registered all artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved evidence boundaries: exact frames, projectile counts, exact multipliers/scaling, hidden conditions, and patch-independent damage were not inferred.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [x] **Exact next:** run a fresh 474-record frontier census excluding Batches 396–415 and enrich the next 4–12 shortest genuinely under-detailed canonical mechanics records, synchronizing canonical/index/provenance in the same cycle.
+
 ### 2026-09-25 continuation — Skill Research Batch 414 completed
 
 - [x] Fresh 474-record frontier census excluded Batches 396–413 and selected **Eagle Kick, Destructive Flare, Double Crush, and God of Destruction's Rampage** as the next four shortest genuinely under-detailed canonical mechanics records.
