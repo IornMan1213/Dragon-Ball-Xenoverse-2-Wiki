@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 396,
+  "created": "2026-09-25",
+  "type": "short-frontier-mechanics-enrichment",
+  "research_scope": "Current Xenoverse 2 mechanics enrichment for five previously thin Fighting Pose Super records.",
+  "records": [
+    {
+      "name": "Fighting Pose B",
+      "id": "skill-fighting-pose-b",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "ki_cost": 0,
+      "mechanics_notes": "Current Xenoverse 2 evidence identifies Fighting Pose B as a 0-Ki Power Up Super that temporarily boosts Strike moves for 20 seconds. The current reference places it at PQ16 — Defeat Frieza's Army! and lists Jeice and Captain Ginyu Customize Partner as users. Exact damage multiplier and frame data remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_B"
+      ]
+    },
+    {
+      "name": "Fighting Pose D",
+      "id": "skill-fighting-pose-d",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "ki_cost": 0,
+      "mechanics_notes": "Current Xenoverse 2 evidence identifies Fighting Pose D as a 0-Ki Power Up Super that increases Boost Dash speed for 20 seconds. The current reference places it at PQ15 — Gotta Find That Dragon Ball! and lists Burter and Captain Ginyu Customize Partner as users. Exact speed multiplier and frame data remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_D"
+      ]
+    },
+    {
+      "name": "Fighting Pose G",
+      "id": "skill-fighting-pose-g",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "ki_cost": 0,
+      "mechanics_notes": "Current Xenoverse 2 evidence identifies Fighting Pose G as a Power Up Super using 0 Ki. It raises Ki Blast skill damage; the cited reference reports about 8% increased output, with the buff lasting 25 seconds for Male Saiyans and 20 seconds for Female Saiyans and other races. Exact frame data and patch-independent balance values remain outside scope.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_G"
+      ]
+    },
+    {
+      "name": "Fighting Pose I",
+      "id": "skill-fighting-pose-i",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "ki_cost": 0,
+      "mechanics_notes": "Current Xenoverse 2 evidence identifies Fighting Pose I as a 0-Ki Power Up Super that increases Basic Movement Speed for 20 seconds. Skill Shop access follows completion of The Ginyu Force Strikes. Exact movement multiplier, frame data, and patch-independent balance values remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_I"
+      ]
+    },
+    {
+      "name": "Fighting Pose J",
+      "id": "skill-fighting-pose-j",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "ki_cost": 0,
+      "mechanics_notes": "Current Xenoverse 2 evidence identifies Fighting Pose J as a 0-Ki Power Up Super associated with Recoome and intended to strengthen Strike-oriented offense. The repository preserves exact duration/magnitude as source-bounded until the dedicated current reference is reconciled; no unsupported numerical multiplier is promoted.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_J"
+      ]
+    }
+  ],
+  "verification_audit": {
+    "method": "Current Xenoverse 2-specific skill references were checked for classification, Ki cost, core effect, duration where explicitly stated, and acquisition context. Unsupported multipliers, frame data, reward probabilities, hidden prerequisites, and patch-independent balance claims were not inferred.",
+    "duplicate_screen": "passed",
+    "evidence_limits": "Research-layer promotion only. Existing canonical acquisition relationships and unresolved fields remain unchanged until canonical/index synchronization is performed."
+  }
+}
