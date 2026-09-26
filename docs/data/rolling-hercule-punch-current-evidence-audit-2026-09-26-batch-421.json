@@ -1,0 +1,17 @@
+{
+  "batch": 421,
+  "date": "2026-09-26",
+  "skill": "Rolling Hercule Punch",
+  "skill_id": "skill-rolling-hercule-punch",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Rolling_Hercule_Punch"
+  ],
+  "findings": "100-Ki Strike Super learned through Hercule training. The user rolls toward the opponent before punching; holding/continuing the input extends the roll. Current dedicated documentation reports about 5% damage, a brief dazed/paralyzed state after the hit, and Super Armor during the technique.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unsupported reward probabilities and multipliers remain unresolved."
+  ]
+}

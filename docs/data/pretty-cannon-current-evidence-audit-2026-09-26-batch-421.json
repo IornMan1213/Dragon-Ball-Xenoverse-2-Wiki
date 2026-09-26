@@ -1,0 +1,17 @@
+{
+  "batch": 421,
+  "date": "2026-09-26",
+  "skill": "Pretty Cannon",
+  "skill_id": "skill-pretty-cannon",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Pretty_Cannon"
+  ],
+  "findings": "100-Ki Ki Blast Super from PQ133, 'Ribrianne's Beauty Lesson.' Fires a heart-shaped projectile and is chargeable; current dedicated documentation reports 5% damage across 12 hits at base and 10% across 17 hits when fully charged. Repeated hits also increase Ribrianne's Eternal Love effect; exact scaling beyond the documented endpoints is not asserted.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unsupported reward probabilities and multipliers remain unresolved."
+  ]
+}

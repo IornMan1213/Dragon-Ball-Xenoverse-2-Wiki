@@ -1,0 +1,17 @@
+{
+  "batch": 421,
+  "date": "2026-09-26",
+  "skill": "x10 Kamehameha",
+  "skill_id": "skill-x10-kamehameha",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/X10_Kamehameha"
+  ],
+  "findings": "200-Ki chargeable Ki Blast Super learned from Goku. The red Kamehameha has five charge stages; current dedicated documentation reports ideal-condition hit counts of 6, 9, 12, 15, and 18 from Stage 1 through Stage 5. It is associated with Goku (Super Saiyan 4) and several customizable Goku/Gogeta presets; exact charge timing and universal damage are not inferred.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unsupported reward probabilities and multipliers remain unresolved."
+  ]
+}

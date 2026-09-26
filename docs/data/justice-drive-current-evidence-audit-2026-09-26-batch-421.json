@@ -1,0 +1,19 @@
+{
+  "batch": 421,
+  "date": "2026-09-26",
+  "skill": "Justice Drive",
+  "skill_id": "skill-justice-drive",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://dbxv2.fandom.com/wiki/Videl_%28DB_Super%29"
+  ],
+  "findings": "400-Ki Strike Ultimate associated with Videl (DB Super) and obtainable from PQ168, 'Videl: Super Mom'; the maintained PQ guide lists Justice Drive among PQ168's Basic Rewards. Current skill references identify it as Videl's Strike Ultimate, while current gameplay sources document a cinematic follow-up and interaction with Seagull Combination. Exact damage, startup, and universal combo routes remain unresolved.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unsupported reward probabilities and multipliers remain unresolved."
+  ]
+}

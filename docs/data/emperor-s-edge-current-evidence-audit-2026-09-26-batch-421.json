@@ -1,0 +1,17 @@
+{
+  "batch": 421,
+  "date": "2026-09-26",
+  "skill": "Emperor's Edge",
+  "skill_id": "skill-emperor-s-edge",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Emperor%27s_Edge"
+  ],
+  "findings": "100-Ki Strike Super associated with Golden Frieza and obtainable from the TP Medal Shop; current dedicated documentation describes it as a long-range pseudo-Ki Blast that creates a vertical explosion at the opponent's location. The documented hit deals 10% damage and launches the target a short distance.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unsupported reward probabilities and multipliers remain unresolved."
+  ]
+}

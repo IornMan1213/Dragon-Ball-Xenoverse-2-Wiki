@@ -1,0 +1,18 @@
+{
+  "batch": 421,
+  "date": "2026-09-26",
+  "status": "completed",
+  "scope": "Skill mechanics frontier",
+  "excluded_batches": "396-420",
+  "selected": [
+    "Hero's Pose",
+    "Rolling Hercule Punch",
+    "x10 Kamehameha",
+    "Justice Drive",
+    "Pretty Cannon",
+    "Super Ghost Kamikaze Attack",
+    "Emperor's Edge",
+    "Energy Shot"
+  ],
+  "evidence_policy": "Promote directly supported Xenoverse 2 mechanics only; preserve uncertainty around exact frames, hidden interactions, unsupported multipliers, patch-independent balance, and unresolved probabilities."
+}

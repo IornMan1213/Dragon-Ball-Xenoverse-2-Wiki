@@ -1,0 +1,17 @@
+{
+  "batch": 421,
+  "date": "2026-09-26",
+  "skill": "Hero's Pose",
+  "skill_id": "skill-hero-s-pose",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Hero%27s_Pose"
+  ],
+  "findings": "0-Ki Power Up Super obtained from Jaco Instructor Quest 1. The pose grants a temporary all-ability reinforcement; current skill documentation lists a 10-second duration. Exact individual attack, defense, speed, and other multipliers are not asserted because the current dedicated source does not provide their values.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unsupported reward probabilities and multipliers remain unresolved."
+  ]
+}

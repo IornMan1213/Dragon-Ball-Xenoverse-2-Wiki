@@ -1,0 +1,17 @@
+{
+  "batch": 421,
+  "date": "2026-09-26",
+  "skill": "Energy Shot",
+  "skill_id": "skill-energy-shot",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Energy_Shot"
+  ],
+  "findings": "100-Ki chargeable Ki Blast Super obtained from PQ22, 'Dragon Ball Brawl.' The user throws a Ki ball; current dedicated documentation reports 3% damage at base charge and 15% at maximum charge. The skill is widely present on customizable partner presets, so the canonical record does not infer additional CaC restrictions.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unsupported reward probabilities and multipliers remain unresolved."
+  ]
+}

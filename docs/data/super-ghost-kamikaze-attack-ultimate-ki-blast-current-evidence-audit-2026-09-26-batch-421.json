@@ -1,0 +1,17 @@
+{
+  "batch": 421,
+  "date": "2026-09-26",
+  "skill": "Super Ghost Kamikaze Attack",
+  "skill_id": "skill-super-ghost-kamikaze-attack-ultimate-ki-blast",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Ghost_Kamikaze_Attack_%28Ultimate%29"
+  ],
+  "findings": "300-Ki Ki Blast Ultimate learned through Gotenks training. The user exhales five ghosts which launch sequentially after about five seconds; current dedicated documentation reports the first and last ghosts at 10% damage and intermediate ghosts at up to 20%. The record is the Ultimate variant, distinct from the 100-Ki Super variant.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unsupported reward probabilities and multipliers remain unresolved."
+  ]
+}
