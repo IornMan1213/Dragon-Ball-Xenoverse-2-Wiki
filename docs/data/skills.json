@@ -4423,10 +4423,10 @@
       "source_quest_or_shop": "Tokipedia — 75% completion",
       "ultimate_finish_required": false,
       "skill_description": "Deploys lightning mines that briefly paralyze an opponent when triggered.",
-      "mechanics_notes": "Ki Blast Super: places multiple lingering Ki mines that detonate when an opponent approaches, paralyzing them. Current reference reports 100 Ki, about 2% damage on the trigger hit, and a 4-second linger; obtained by completing 75% of Tokipedia.",
+      "mechanics_notes": "100-Ki Ki Blast Super obtained by completing 75% of Tokipedia. The user throws multiple lingering Ki diamonds/mines that trigger when an opponent approaches; dedicated documentation reports about 2% damage and roughly 1 second of paralysis on contact, with the mines lingering for about 4 seconds. Exact mine count, trigger radius, frame timing, and scaling remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-grows-larger-with-the-release-of-extra-pack-2-infinite-history",
         "https://dbxv2.fandom.com/wiki/Energy_Minefield",
@@ -4434,7 +4434,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 deterministic acquisition correction: current dedicated evidence and independent Tokipedia reward records place Energy Minefield at 75% Tokipedia completion, correcting the prior 60% endpoint. Extra Pack 2 provenance is retained. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference. 2026-09-23 endpoint reconciliation: source_quest_or_shop synchronized from stale 60% wording to the canonical 75% Tokipedia completion endpoint.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
+      "notes": "2026-09-22 deterministic acquisition correction: current dedicated evidence and independent Tokipedia reward records place Energy Minefield at 75% Tokipedia completion, correcting the prior 60% endpoint. Extra Pack 2 provenance is retained. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference. 2026-09-23 endpoint reconciliation: source_quest_or_shop synchronized from stale 60% wording to the canonical 75% Tokipedia completion endpoint.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-26 Batch 433: current dedicated skill evidence rechecked; secondary evidence is qualified and unresolved frame/scaling data is not inferred.",
       "id": "skill-energy-minefield"
     },
     {
@@ -7784,13 +7784,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Majin Buu mentor training",
-      "mechanics_notes": "100-Ki Ki Blast Super obtained through Majin Buu training. Fires a large straight Ki ball; on hit it deals 30% reported damage and launches the opponent across the map. Current evidence identifies Good Buu's second preset as a notable user.",
-      "last_verified": "2026-09-25",
+      "mechanics_notes": "100-Ki Ki Blast Super obtained from Majin Buu training. The user creates and fires a large straight Ki ball; dedicated current documentation reports a 2-hit launching classification and about 30% damage, sending the target far away. A 2026 mechanics video additionally reports that it can pass through Super Armor and that blocking can leave the attacker punishable; this is preserved as secondary/community evidence rather than an authoritative invariant. Exact frames and scaling remain unresolved.",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": "Majin Buu mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC/roster provenance, and documented mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 mechanics enrichment: current skill-specific evidence promoted the documented combat behavior; unsupported frame data, hidden gates, probabilities, and unverified numeric values remain unresolved. 2026-09-25 Batch 398 mechanics refresh: current evidence strengthened core behavior and acquisition boundaries; unsupported frame data and unverified drop probabilities remain unresolved.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC/roster provenance, and documented mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 mechanics enrichment: current skill-specific evidence promoted the documented combat behavior; unsupported frame data, hidden gates, probabilities, and unverified numeric values remain unresolved. 2026-09-25 Batch 398 mechanics refresh: current evidence strengthened core behavior and acquisition boundaries; unsupported frame data and unverified drop probabilities remain unresolved.\n2026-09-26 Batch 433: current dedicated skill evidence rechecked; secondary evidence is qualified and unresolved frame/scaling data is not inferred.",
       "id": "skill-innocence-cannon",
       "source_mentor": [
         "mentor-majin-buu"
@@ -9176,14 +9176,14 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Future Gohan mentor training",
-      "mechanics_notes": "Current mentor acquisition, skill identity, and Ki classification are corroborated. Fires a one-handed Kamehameha variant; exact charge, hit count, damage, and frame properties remain unresolved pending stronger current mechanics evidence.",
-      "last_verified": "2026-09-25",
+      "mechanics_notes": "400–600 Ki Ultimate learned from Future Gohan Training Lesson 4. The user backflips twice, fires a 16-hit Kamehameha for about 40% reported damage, and can input again to fire a second 17-hit blast for about 20% additional damage. It also functions as an Evasive by spending up to 100 Stamina while the user is being damaged. Exact frame windows and damage scaling remain unresolved.",
+      "last_verified": "2026-09-26",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Future Gohan mentor training — Lesson 3.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved.\n2026-09-23 verification refresh: revalidated the existing acquisition endpoint, classification, mechanics, DLC/provenance, and documented reward-tier semantics against the maintained repository evidence corpus; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced. 2026-09-25 mechanics enrichment: current evidence refreshed; unsupported frame data, hidden gates, probabilities, and unverified numeric values remain unresolved.",
+      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved.\n2026-09-23 verification refresh: revalidated the existing acquisition endpoint, classification, mechanics, DLC/provenance, and documented reward-tier semantics against the maintained repository evidence corpus; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced. 2026-09-25 mechanics enrichment: current evidence refreshed; unsupported frame data, hidden gates, probabilities, and unverified numeric values remain unresolved.\n2026-09-26 Batch 433: current dedicated skill evidence rechecked; secondary evidence is qualified and unresolved frame/scaling data is not inferred.",
       "id": "skill-one-handed-kamehameha-mk-ii",
       "source_mentor": [
         "mentor-future-gohan"
@@ -11482,10 +11482,10 @@
       "source_quest_or_shop": "Parallel Quest 105 — \"Champa's Hellish Holiday\"",
       "ultimate_finish_required": false,
       "skill_description": "Sonic Bomb is a Super Strike skill used by Frieza (1st Form) and available through Customize Partner routes.",
-      "mechanics_notes": "100-Ki Strike Super from PQ105, where maintained current reward data places it in the Basic Reward pool. The attack launches a sonic shockwave/blast; older player reports conflict on reward tier, so no Ultimate-Finish-only gate is asserted.",
+      "mechanics_notes": "100-Ki Strike Super obtained from Parallel Quest 105, “Champa's Hellish Holiday.” The user creates an explosion at the opponent's location and can shift the explosion center slightly with the control stick. Dedicated documentation reports about 10% damage; exact tracking, startup, frame timing, and scaling remain unresolved. Reward-tier discrepancies remain preserved rather than silently normalized.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Sonic_Bomb",
@@ -11494,7 +11494,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 105,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-23 provenance correction: dedicated current skill documentation identifies Frieza (1st Form) as a Customize Partner user, with Omega Shenron and Super Baby 2 also listed. The legacy character_source value Champa was incorrect and is corrected to Frieza (1st Form); the PQ105 acquisition remains unchanged.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced. 2026-09-25 Batch 399 mechanics refresh: current evidence strengthened behavior/acquisition boundaries; unresolved numeric/frame details remain explicitly bounded.",
+      "notes": "2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-23 provenance correction: dedicated current skill documentation identifies Frieza (1st Form) as a Customize Partner user, with Omega Shenron and Super Baby 2 also listed. The legacy character_source value Champa was incorrect and is corrected to Frieza (1st Form); the PQ105 acquisition remains unchanged.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced. 2026-09-25 Batch 399 mechanics refresh: current evidence strengthened behavior/acquisition boundaries; unresolved numeric/frame details remain explicitly bounded.\n2026-09-26 Batch 433: current dedicated skill evidence rechecked; secondary evidence is qualified and unresolved frame/scaling data is not inferred.",
       "id": "skill-sonic-bomb",
       "source_parallel_quests": [
         105
@@ -14313,6 +14313,11 @@
     "skill_super-gamma-blast_current_evidence_audit_2026_09_26_batch_432": "docs/data/super-gamma-blast-current-evidence-audit-2026-09-26-batch-432.json",
     "skill_super-ghost-kamikaze-attack_current_evidence_audit_2026_09_26_batch_432": "docs/data/super-ghost-kamikaze-attack-current-evidence-audit-2026-09-26-batch-432.json",
     "skill_final-flash_current_evidence_audit_2026_09_26_batch_432": "docs/data/final-flash-current-evidence-audit-2026-09-26-batch-432.json",
-    "skill_super-god-shock-flash_current_evidence_audit_2026_09_26_batch_432": "docs/data/super-god-shock-flash-current-evidence-audit-2026-09-26-batch-432.json"
+    "skill_super-god-shock-flash_current_evidence_audit_2026_09_26_batch_432": "docs/data/super-god-shock-flash-current-evidence-audit-2026-09-26-batch-432.json",
+    "skill_research_batch_433": "docs/data/skill-research-batches/skill-batch-433.json",
+    "skill_one-handed-kamehameha-mk-ii_current_evidence_audit_2026_09_26_batch_433": "docs/data/one-handed-kamehameha-mk-ii-current-evidence-audit-2026-09-26-batch-433.json",
+    "skill_innocence-cannon_current_evidence_audit_2026_09_26_batch_433": "docs/data/innocence-cannon-current-evidence-audit-2026-09-26-batch-433.json",
+    "skill_sonic-bomb_current_evidence_audit_2026_09_26_batch_433": "docs/data/sonic-bomb-current-evidence-audit-2026-09-26-batch-433.json",
+    "skill_energy-minefield_current_evidence_audit_2026_09_26_batch_433": "docs/data/energy-minefield-current-evidence-audit-2026-09-26-batch-433.json"
   }
 }
