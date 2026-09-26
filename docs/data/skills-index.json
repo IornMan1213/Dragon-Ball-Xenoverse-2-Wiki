@@ -116,7 +116,7 @@
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved. 2026-09-22 independent provenance verification: current Dragon Ball Wiki documentation identifies Android Rush as Android 16 Training Lesson 2; a current mentor-training video independently identifies Lesson 2 as Android Rush. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "Strike Super: three kicks followed by a backhand knockback; directional input changes the opponent's knockback direction. Current reference reports 100 Ki and 10% damage.",
+      "mechanics_notes": "100-Ki Strike Super with a four-hit close-range sequence: three kicks followed by a backhand knockback. Directional control changes the final knockback route: neutral sends the opponent forward, up sends them downward, and down sends them upward. Current reference reports about 10% total damage; exact directional launch distances and frame data remain unresolved.",
       "source_quest": "Android 16 mentor training — Lesson 2.",
       "source_quest_or_shop": "Android 16 mentor training"
     },
@@ -11443,7 +11443,7 @@
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-25 Batch 396 canonical promotion: current evidence synchronized the established Fighting Pose B research record into the canonical skill index. Unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.",
-      "mechanics_notes": "0-Ki Power Up Super; temporarily boosts Strike moves for 20 seconds.",
+      "mechanics_notes": "0-Ki Power Up Super. The pose grants a temporary Strike-move damage increase for 20 seconds. Current skill-specific documentation confirms the Strike-only scope and duration; exact percentage, stacking behavior, and frame timing remain unresolved.",
       "source_quest_or_shop": "Parallel Quest 16 — \"Defeat Frieza's Army!\" Basic Reward"
     },
     {
@@ -11462,7 +11462,7 @@
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-25 Batch 396 canonical promotion: current evidence synchronized the established Fighting Pose D research record into the canonical skill index. Unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.",
-      "mechanics_notes": "0-Ki Power Up Super; temporarily increases Boost Dash speed for 20 seconds.",
+      "mechanics_notes": "0-Ki Power Up Super. The pose grants a temporary Boost Dash speed increase for 20 seconds. Current skill-specific documentation confirms the Boost Dash-specific scope and duration; exact multiplier and frame timing remain unresolved.",
       "source_quest_or_shop": "Parallel Quest 15 — \"Gotta Find That Dragon Ball!\" Basic Reward"
     },
     {
@@ -11500,7 +11500,7 @@
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-25 Batch 396 canonical promotion: current evidence synchronized the established Fighting Pose I research record into the canonical skill index. Unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.",
-      "mechanics_notes": "0-Ki Power Up Super; temporarily increases Basic Movement Speed for 20 seconds.",
+      "mechanics_notes": "0-Ki Power Up Super. After the pose animation, the user gains a Basic Movement Speed increase for 20 seconds; current skill-specific documentation identifies the effect as a movement-speed buff rather than a damage or defensive modifier. Exact speed multiplier and frame timing remain unresolved.",
       "source_quest_or_shop": "Skill Shop after \"The Ginyu Force Strikes\""
     },
     {

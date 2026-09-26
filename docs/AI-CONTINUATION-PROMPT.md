@@ -1054,3 +1054,13 @@
 - [x] Evidence boundaries preserved: current references support charge/branch behavior and documented damage where explicitly reported, but no unsupported frame data, reward probabilities, hidden prerequisites, or patch-independent balance claims were inferred.
 - [ ] CI/build status remains unverified; no workflow success is claimed.
 - [x] **Exact next:** run a fresh 474-record frontier census excluding Batches 396–400 and enrich the next 4–12 genuinely under-detailed canonical records, synchronizing both canonical layers and cross-domain provenance in the same cycle.
+
+
+### 2026-09-25 cycle completion — Skill Research Batch 401 mechanics enrichment
+- [x] Fresh 474-record frontier excluding Batches 396–400 selected **Fighting Pose I, Fighting Pose B, Fighting Pose D, and Android Rush**.
+- [x] Deepened all four mechanics records with current Xenoverse 2-specific effect, sequence, duration, directional, and documented-damage details where directly supported.
+- [x] Synchronized canonical `skills.json` and `skills-index.json`; all four remain `verified_current_scope` with 2026-09-25 verification.
+- [x] Added `skill-research-batches/skill-batch-401.json` and registered it in the cross-domain registry.
+- [x] Evidence boundaries preserved: unresolved multipliers, exact frames, hidden prerequisites, and reward probabilities were not inferred.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** continue Batch 401 with the next four genuinely under-detailed records from the fresh frontier, then complete the handoff entry after the full batch is finished.
