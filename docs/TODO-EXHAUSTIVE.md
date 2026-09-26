@@ -1469,3 +1469,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build status remains unverified; no workflow success is claimed.
 - [ ] Efficiency addendum remains unavailable at the expected path (GitHub 404).
 - [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 449 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
+
+
+### 2026-09-26 TODO progress update — Skill Research Batch 450 completed
+- [x] Fresh 474-record mechanics frontier census excluded every skill with a registered current-evidence audit and selected **Ray Blast, Emperor's Blast, Final Cannon, Godly Chronos Cannon, Vanishing Ball, Evil Whirlwind, God of Destruction's Rampage, and Emperor's Death Beam**.
+- [x] Enriched and synchronized all eight records in `docs/data/skills.json` and `docs/data/skills-index.json`; canonical/index remain 474/474 with 0 missing / 0 extra.
+- [x] Added eight current-evidence audits, `docs/data/skill-research-batches/skill-batch-450.json`, the Batch 450 thin-frontier audit, and provenance registry entries.
+- [x] Corrected stale Emperor's Blast attribution/mechanics wording from Hercule to Frieza/Golden Frieza using current skill evidence.
+- [x] Preserved evidence boundaries: source-reported values remain source-bound; unsupported exact frames, scaling formulas, probabilities, and hidden conditions remain unresolved.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [ ] Efficiency addendum remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 450 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
