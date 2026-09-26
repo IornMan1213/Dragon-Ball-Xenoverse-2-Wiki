@@ -1,0 +1,24 @@
+{
+  "batch": 448,
+  "date": "2026-09-26",
+  "status": "complete",
+  "scope": "Fresh unaudited mechanics frontier after excluding every skill with a registered current-evidence audit.",
+  "selected": [
+    "Wild Buster",
+    "Blaster Bomb",
+    "Divine Spear",
+    "Hyper Tornado",
+    "Angry Hit",
+    "Meteor Strike",
+    "Mystic Flash",
+    "Wall of Defense"
+  ],
+  "evidence_policy": "Current Xenoverse 2-specific evidence was prioritized. Source-reported damage values and behavioral details remain source-bound where not independently established; unsupported exact frames, scaling, probabilities, and hidden conditions are not inferred.",
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "missing_ids": 0,
+    "extra_ids": 0
+  },
+  "exact_next": "Run another fresh unaudited mechanics frontier census excluding Batch 448 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle."
+}
