@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 378,
+  "created": "2026-09-25",
+  "type": "thin_mechanics_enrichment",
+  "scope": "Fresh shortest mechanics frontier after Batch 377.",
+  "records": [
+    {
+      "id": "skill-super-kamehameha-ss4-daima",
+      "name": "Super Kamehameha (SS4 DAIMA)",
+      "mechanics": "400–500 Ki; extendable 12–33-hit beam; extra 100 Ki powers the extended blast.",
+      "source": "https://dbxv2.fandom.com/wiki/Super_Kamehameha_(SS4_DAIMA)"
+    },
+    {
+      "id": "skill-special-beam-cannon",
+      "name": "Special Beam Cannon",
+      "mechanics": "300 Ki; unblockable long-range single-hit beam with knockback.",
+      "source": "https://dbxv2.fandom.com/wiki/Special_Beam_Cannon_(Ultimate)"
+    },
+    {
+      "id": "skill-hero-s-pose",
+      "name": "Hero's Pose",
+      "mechanics": "0 Ki; temporary all-ability power-up; current reference documents 10 seconds and attack/speed/defense enhancement.",
+      "source": "https://dbxv2.fandom.com/wiki/Hero%27s_Pose"
+    },
+    {
+      "id": "skill-spirit-boost",
+      "name": "Spirit Boost",
+      "mechanics": "0 Ki; short protection wave that cancels incoming Ki attacks, including supers and ultimates.",
+      "source": "https://dbxv2.fandom.com/wiki/Spirit_Boost"
+    },
+    {
+      "id": "skill-teleporting-vanishing-ball",
+      "name": "Teleporting Vanishing Ball",
+      "mechanics": "300 Ki; creates a shield/ball, teleports to the target, and delivers a 15-hit knockback projectile.",
+      "source": "https://dbxv2.fandom.com/wiki/Teleporting_Vanishing_Ball"
+    }
+  ],
+  "validation": {
+    "canonical_records": 469,
+    "index_records": 469,
+    "duplicate_ids": 0,
+    "empty_mechanics_notes": 0,
+    "evidence_boundary": "No unsupported frame timing, reward probability, hidden gate, or patch-independent damage claim promoted."
+  }
+}
