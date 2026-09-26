@@ -1,0 +1,12 @@
+{
+  "batch": 494,
+  "date": "2026-09-26",
+  "skill_id": "skill-confusion-blade",
+  "skill_name": "Confusion Blade",
+  "status": "complete",
+  "findings": "100-Ki skill associated with Fu and acquired through Tokipedia completion. Current documentation describes suspended blade-like projectiles followed by homing blasts; exact delay, tracking strength, and hidden completion gates remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Confusion_Blade"
+  ],
+  "evidence_boundary": "Current Xenoverse 2-specific mechanics and explicit acquisition evidence are bounded to cited source context. Unsupported exact frames, hidden interactions, probabilities, and patch-independent scaling are not inferred."
+}
