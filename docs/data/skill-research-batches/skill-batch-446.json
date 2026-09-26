@@ -1,0 +1,10 @@
+{
+  "batch": 446,
+  "date": "2026-09-26",
+  "status": "complete",
+  "scope": "Fresh unaudited mechanics frontier",
+  "selected": ["Giant Storm", "God Splitter", "Final Flash (Super)", "Menacing Flare"],
+  "evidence_policy": "Numerical and timing claims remain source-bound where not independently established.",
+  "validation": {"canonical_records": 474, "index_records": 474, "missing_ids": 0, "extra_ids": 0},
+  "exact_next": "Run a fresh unaudited mechanics frontier census excluding Batch 446 and every prior current-evidence-audited record."
+}
