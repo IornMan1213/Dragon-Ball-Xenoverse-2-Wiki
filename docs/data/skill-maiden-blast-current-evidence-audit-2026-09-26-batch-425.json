@@ -1,0 +1,26 @@
+{
+  "batch": 425,
+  "date": "2026-09-26",
+  "skill_id": "skill-maiden-blast",
+  "skill_name": "Maiden Blast",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Maiden_Blast",
+    "https://dragonball.fandom.com/wiki/Maiden_Blast",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+    "https://www.gameskinny.com/tips/dragon-ball-xenoverse-2-instructor-guide/",
+    "https://www.youtube.com/watch?v=pb7xR4y2JLU"
+  ],
+  "scope": "Current Xenoverse 2-specific mechanics, acquisition, resource-cost, and version-history evidence reviewed in Batch 425.",
+  "findings": "300-Ki Ki Blast Ultimate learned from Pan's Lesson 3. Current repository evidence describes a close-range Ki explosion followed by concentration into a large projectile that detonates; source-reported documentation records 34 hits and about 30% displayed damage. The instructor guide and lesson video independently identify Maiden Blast as Pan's third lesson reward.",
+  "canonical_changes": {
+    "last_verified": "2026-09-26",
+    "research_status": "enriched",
+    "verification_status": "evidence_reviewed"
+  },
+  "unresolved": [
+    "Exact current frame/timing data is unresolved.",
+    "Exact damage scaling and whether all 34 hits land under all positions are unresolved.",
+    "The lesson reward is established; no extra gate is inferred."
+  ],
+  "status": "complete"
+}
