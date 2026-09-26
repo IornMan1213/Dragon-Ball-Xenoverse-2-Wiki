@@ -7427,10 +7427,10 @@
       ],
       "unlock_method": "Krillin mentor training — lesson-1.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-25 current-evidence refresh: current Xenoverse 2 documentation confirms Krillin Lesson 1 as the acquisition endpoint and the 100-Ki Strike Super's combo behavior.",
-      "mechanics_notes": "100-Ki Strike Super from Krillin mentor training — Lesson 1. The user performs a close-range martial-arts combo; current documentation identifies the Orin Combo sequence and its Krillin mentor endpoint. Exact frame data and unsupported damage values are not promoted.",
+      "notes": "2026-09-26 Batch 436 current-evidence audit: current Xenoverse 2 documentation confirms Krillin training as the acquisition endpoint and the 100-Ki Strike Super's ascending kick sequence. The documented sequence ends with a downward Sledgehammer strike for approximately 15% total damage; exact frame data remains unresolved.",
+      "mechanics_notes": "100-Ki Strike Super from Krillin training. The user performs three spinning kicks while rising, then finishes with Sledgehammer for a documented total of approximately 15% damage. Exact frame timing and scaling remain unresolved.",
       "source_quest": "Krillin mentor training — lesson-1.",
       "source_quest_or_shop": "Krillin mentor training",
       "ki_cost": 100
@@ -9681,15 +9681,16 @@
       ],
       "unlock_method": "Basic Reward in Parallel Quest 56.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-22 provenance refresh: PQ56 Basic Reward evidence is established in the repository; current catalog research classifies Stone Bullet as a Strike Super and retains no Ultimate Finish requirement. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
-      "mechanics_notes": "Corrected to a **Strike Super**, 100 Ki, PQ56. It throws up to 22 rocks and can be charged to greatly extend range; Hercule's version is categorized as Ki Blast. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. Explicit current reward evidence lists this skill in PQ56's Basic Reward set, so the acquisition route does not require an Ultimate Finish.",
+      "notes": "2026-09-26 Batch 436 current-evidence audit: current Xenoverse 2 documentation confirms the 100-Ki Strike Super, PQ56 acquisition, up to 22 rocks, and chargeable range extension. The maintained CaC restriction remains broad because no narrower race/gender/form restriction is established.",
+      "mechanics_notes": "100-Ki Strike Super from Parallel Quest 56 — \"Hercule Is Number One.\" Up to 22 rocks can be thrown in one use; holding the input extends range from very short range to more than ten times that baseline. Hercule's character version is categorized as Ki Blast. Exact damage and charge timing remain unresolved.",
       "source_quest": 56,
       "source_quest_or_shop": "Parallel Quest 56 — \"Hercule Is Number One\"",
       "source_parallel_quests": [
         56
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "id": "skill-strike-of-revelation",
@@ -9799,16 +9800,16 @@
       ],
       "unlock_method": "Parallel Quest 109 — Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-22 provenance refresh: PQ109 is the documented acquisition endpoint; current repository reward normalization links the skill to PQ109 while exact reward slot/drop percentage remains unresolved. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for Super Black Kamehameha Rosé; no Ultimate Finish requirement is recorded for this route. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward section; no Ultimate Finish-only gate is asserted.",
+      "notes": "2026-09-26 Batch 436 current-evidence audit: current Xenoverse 2 documentation confirms PQ109 acquisition, 500 Ki cost, Ki Blast Ultimate classification, 25-hit beam sequence, and approximately 40% total damage. The initial punch is documented as slower than Super Black Kamehameha; exact frame timing and reward probability remain unresolved.",
+      "mechanics_notes": "500-Ki Ki Blast Ultimate from Parallel Quest 109 — \"A Fateful Fight with a Deity!\" The user punches the opponent and follows with a pink beam, documented at 25 hits and approximately 40% total damage. Current documentation notes a slower initial hit than Super Black Kamehameha and greater beam damage. Exact frame data and reward probability remain unresolved.",
       "source_quest": 109,
       "source_quest_or_shop": "Parallel Quest 109 — \"A Fateful Fight With Deity!\"",
       "source_parallel_quests": [
         109
       ],
-      "ki_cost": 300,
+      "ki_cost": 500,
       "skill_description": "Super Black Kamehameha Rosé is a Ultimate Ki Blast skill associated with Goku Black (Super Saiyan Rosé)."
     },
     {
@@ -9854,15 +9855,16 @@
       ],
       "unlock_method": "Basic Reward in Parallel Quest 55.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-22 provenance refresh: PQ55 Basic Reward evidence is established; current repository catalog classifies it as a 100-Ki Ki Blast Super usable by CaCs, with no Ultimate Finish requirement. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
-      "mechanics_notes": "Confirmed as Gotenks' 100-Ki Ki Blast Super from PQ55. Additional inputs fire up to eight explosive energy rings. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. Explicit current reward evidence lists this skill in PQ55's Basic Reward set, so the acquisition route does not require an Ultimate Finish.",
+      "notes": "2026-09-26 Batch 436 current-evidence audit: current Xenoverse 2 documentation confirms the 100-Ki Ki Blast Super, PQ55 acquisition, and up to eight additional-input energy rings. One ring is documented at approximately 5% damage and all eight at approximately 20%; exact frame data remains unresolved.",
+      "mechanics_notes": "100-Ki Ki Blast Super from Parallel Quest 55 — \"Tag with Gotenks.\" The user fires a large energy ring; additional inputs allow up to eight rings. Current documentation reports approximately 5% damage for one ring and approximately 20% when all eight are fired. Exact timing and scaling remain unresolved.",
       "source_quest": 55,
       "source_quest_or_shop": "Parallel Quest 55 — \"Tag with Gotenks\"",
       "source_parallel_quests": [
         55
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "id": "skill-super-dragon-flight",
