@@ -1512,5 +1512,15 @@
   "skill_blaster-ball_current_evidence_audit_2026_09_26_batch_462": "docs/data/skill-blaster-ball-current-evidence-audit-2026-09-26-batch-462.json",
   "skill_brave-sword-attack_current_evidence_audit_2026_09_26_batch_462": "docs/data/skill-brave-sword-attack-current-evidence-audit-2026-09-26-batch-462.json",
   "skill_super-kamehameha-ss4-daima_current_evidence_audit_2026_09_26_batch_462": "docs/data/skill-super-kamehameha-ss4-daima-current-evidence-audit-2026-09-26-batch-462.json",
-  "skill_blaster-meteor_current_evidence_audit_2026_09_26_batch_462": "docs/data/skill-blaster-meteor-current-evidence-audit-2026-09-26-batch-462.json"
+  "skill_blaster-meteor_current_evidence_audit_2026_09_26_batch_462": "docs/data/skill-blaster-meteor-current-evidence-audit-2026-09-26-batch-462.json",
+  "skill_batch_463": "docs/data/skill-research-batches/skill-batch-463.json",
+  "skill_batch_463_thin_frontier": "docs/data/skill-research-batches/skill-batch-463-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_final-rampage_current_evidence_audit_2026_09_26_batch_463": "docs/data/skill-final-rampage-current-evidence-audit-2026-09-26-batch-463.json",
+  "skill_perfect-kamehameha_current_evidence_audit_2026_09_26_batch_463": "docs/data/skill-perfect-kamehameha-current-evidence-audit-2026-09-26-batch-463.json",
+  "skill_shocking-death-ball_current_evidence_audit_2026_09_26_batch_463": "docs/data/skill-shocking-death-ball-current-evidence-audit-2026-09-26-batch-463.json",
+  "skill_spirit-sword_current_evidence_audit_2026_09_26_batch_463": "docs/data/skill-spirit-sword-current-evidence-audit-2026-09-26-batch-463.json",
+  "skill_super-afterimage_current_evidence_audit_2026_09_26_batch_463": "docs/data/skill-super-afterimage-current-evidence-audit-2026-09-26-batch-463.json",
+  "skill_hell-flash_current_evidence_audit_2026_09_26_batch_463": "docs/data/skill-hell-flash-current-evidence-audit-2026-09-26-batch-463.json",
+  "skill_punisher-shield_current_evidence_audit_2026_09_26_batch_463": "docs/data/skill-punisher-shield-current-evidence-audit-2026-09-26-batch-463.json",
+  "skill_fake-death_current_evidence_audit_2026_09_26_batch_463": "docs/data/skill-fake-death-current-evidence-audit-2026-09-26-batch-463.json"
 }
