@@ -1,0 +1,19 @@
+{
+  "batch": 459,
+  "date": "2026-09-26",
+  "skill_name": "Fighting Pose G",
+  "skill_id": "skill-fighting-pose-g",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Skill Research Batch 459.",
+  "findings": [
+    "0-Ki Power Up Super that increases Ki Blast skill damage. Current dedicated evidence reports about 8% increased output and a 20-second duration; exact race-dependent duration variants, stacking behavior, and frame data remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/fightingPoseG"
+  ],
+  "evidence_boundaries": [
+    "Exact frame data is not promoted.",
+    "Patch-independent scaling is not inferred from source-reported values.",
+    "Reward probabilities and hidden prerequisites are not promoted unless directly evidenced."
+  ]
+}
