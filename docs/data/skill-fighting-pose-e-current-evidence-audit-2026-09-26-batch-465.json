@@ -1,0 +1,18 @@
+{
+  "batch": 465,
+  "date": "2026-09-26",
+  "skill_name": "Fighting Pose E",
+  "skill_id": "skill-fighting-pose-e",
+  "status": "completed",
+  "findings": [
+    "0-Ki Power Up Super from PQ19. The user performs a pose that temporarily increases Basic Attack for 20 seconds. Current evidence confirms the duration and all-CaC usability; the exact attack multiplier, activation frames, and stacking interactions remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Fighting_Pose_E",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}
