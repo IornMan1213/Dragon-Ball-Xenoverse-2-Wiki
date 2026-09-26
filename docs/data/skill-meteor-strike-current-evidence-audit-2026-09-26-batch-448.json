@@ -1,0 +1,21 @@
+{
+  "skill_id": "skill-meteor-strike",
+  "name": "Meteor Strike",
+  "batch": 448,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Meteor_Strike"
+  ],
+  "findings": [
+    "100-Ki cost",
+    "PQ6 endpoint",
+    "two-hit launching/teleport sequence",
+    "Ki-confirm trigger",
+    "second-hit Super/Stamina-Break cancel",
+    "conditional hard knockdown"
+  ],
+  "evidence_boundaries": [
+    "No unsupported exact frame, scaling, probability, or hidden-condition claims inferred."
+  ]
+}
