@@ -1,0 +1,21 @@
+{
+  "batch": 458,
+  "date": "2026-09-26",
+  "skill_name": "Powered Shell",
+  "skill_id": "skill-powered-shell",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Skill Research Batch 458.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Powered_Shell",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
+  ],
+  "findings": [
+    "100-Ki Ki Blast Super from PQ128. The user fires a single projectile in an outward arc; backward input fires it behind the user. Current repository evidence records about 5% damage and a damaged-state activation that can spend up to 300 Stamina. Exact activation timing and damage scaling remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Exact frame data is not promoted.",
+    "Patch-independent scaling is not inferred from source-reported values.",
+    "Reward probabilities and hidden prerequisites are not promoted unless directly evidenced.",
+    "Community usage commentary is not converted into deterministic mechanics."
+  ]
+}
