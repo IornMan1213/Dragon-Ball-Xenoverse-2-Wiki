@@ -637,3 +637,10 @@
 - [x] Validation: **469/469**, ordered ID parity, 0 empty mechanics_notes.
 - [ ] CI remains unverified.
 - [x] **Next:** Spirit Ball, Spirit Pulse, Chaos Wall, Sign of Awakening, Tail Slicer; Fighting Pose A is already recently enriched.
+
+### 2026-09-25 completion — Skill Batch 375 thin mechanics
+- [x] Marked the Batch 375 target group complete: **Rolling Hercule Punch, Saturday Crash, Super Ghost Kamikaze Attack (Super), Super Ghost Kamikaze Attack (Ultimate), Supernova Cooler**.
+- [x] Added research batch/audit artifacts and registered them in the cross-domain index.
+- [x] Updated the live skills index mechanics fields and verification dates; preserved acquisition/reward semantics and evidence boundaries.
+- [ ] CI remains unverified as a passing state; current runs for this commit reported failures in Repository quality, Wiki data audit, and Clean internal artifacts, with Pages deployment pending at inspection time.
+- [x] **Next:** fresh post-Batch-375 census, then continue the shortest remaining mechanics/source footprints.
