@@ -1782,3 +1782,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved evidence boundaries and version-sensitive conflicts; unsupported exact frames, hidden conditions, probabilities, and patch-independent scaling were not inferred.
 - [ ] CI/build remains unverified.
 - [x] **Exact next:** perform another fresh unaudited mechanics frontier census excluding Batch 464 and every prior registered current-evidence audit.
+
+
+### 2026-09-26 continuation — Skill Research Batch 465 completed
+- [x] Fresh 474-record mechanics frontier excluded every skill with a registered current-evidence audit and selected **Drain Field, Menacing Flare, Quick Sleep, Mach Punch, Power Wall, Spirit Pulse, Finish Breaker, and Fighting Pose E**.
+- [x] Deepened and synchronized all eight canonical records; canonical/index remain **474/474**.
+- [x] Added eight current-evidence audits, Batch 465 research/thin-frontier artifacts, and provenance registrations.
+- [x] Preserved evidence boundaries; unsupported exact frames, hidden conditions, probabilities, and patch-independent scaling were not inferred.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** perform another fresh unaudited mechanics frontier census excluding Batch 465 and every prior registered current-evidence audit.
