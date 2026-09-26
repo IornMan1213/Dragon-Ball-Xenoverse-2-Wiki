@@ -1,0 +1,24 @@
+{
+  "batch": 424,
+  "date": "2026-09-26",
+  "skill_id": "skill-savage-strike",
+  "skill_name": "Savage Strike",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Savage_Strike",
+    "https://dragonball.fandom.com/wiki/Savage_Strike",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79052164"
+  ],
+  "scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Batch 424.",
+  "findings": "100-Ki Strike Super associated with SSGSS Vegito and available through the TP Medal Shop. The normal input performs a forward rushing punch with grab properties and can automatically close distance after a knockback; the alternate input teleports above the target for a descending punch that can cause a hard knockdown. Current documentation emphasizes substantial startup and linear travel, while the alternate route is less reliable because opponents can vanish during its approach.",
+  "canonical_changes": {
+    "mechanics_notes_updated": false,
+    "last_verified": "2026-09-26",
+    "research_status": "evidence_ready_pending_canonical_sync",
+    "verification_status": "evidence_reviewed"
+  },
+  "unresolved": [
+    "Exact startup/active/recovery frames are not asserted.",
+    "Exact current damage scaling is not promoted from community discussion.",
+    "Hidden tracking thresholds and version-specific cancel behavior remain unresolved."
+  ]
+}
