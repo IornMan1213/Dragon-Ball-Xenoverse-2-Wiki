@@ -1025,5 +1025,12 @@
   "skill_surging_spirit_current_evidence_audit_2026_09_25": "docs/data/skill-surging-spirit-current-evidence-audit-2026-09-25.json",
   "skill_research_batch_401": "docs/data/skill-research-batches/skill-batch-401.json",
   "skill_holy_inscription_current_evidence_audit_2026_09_25": "docs/data/skill-holy-inscription-current-evidence-audit-2026-09-25.json",
-  "skill_research_batch_402": "docs/data/skill-research-batches/skill-batch-402.json"
+  "skill_research_batch_402": "docs/data/skill-research-batches/skill-batch-402.json",
+  "last_updated": "2026-09-25",
+  "skill_batch_403": "docs/data/skill-research-batches/skill-batch-403.json",
+  "skill_batch_403_thin_frontier_mechanics_audit_2026_09_25": "docs/data/skill-batch-403-thin-frontier-mechanics-audit-2026-09-25.json",
+  "skill_buu_buu_ball_mechanics_audit_2026_09_25": "docs/data/skill-buu-buu-ball-mechanics-audit-2026-09-25.json",
+  "skill_dodoria_headbutt_current_evidence_audit_2026_09_25": "docs/data/skill-dodoria-headbutt-current-evidence-audit-2026-09-25.json",
+  "skill_dodoria_launcher_current_evidence_audit_2026_09_25": "docs/data/skill-dodoria-launcher-current-evidence-audit-2026-09-25.json",
+  "skill_elite_shooting_current_evidence_audit_2026_09_25": "docs/data/skill-elite-shooting-current-evidence-audit-2026-09-25.json"
 }

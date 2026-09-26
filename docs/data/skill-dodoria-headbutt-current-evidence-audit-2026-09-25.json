@@ -1,0 +1,20 @@
+{
+  "audit_id": "skill_dodoria_headbutt_current_evidence_audit_2026_09_25",
+  "date": "2026-09-25",
+  "skill_id": "skill-dodoria-headbutt",
+  "skill_name": "Dodoria Headbutt",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Dodoria_Headbutt",
+    "https://dragonball.fandom.com/wiki/Dodoria_Head_Breaker"
+  ],
+  "findings": [
+    "100 Ki Strike Super",
+    "charge and guard break",
+    "about 20% source-reported hit damage",
+    "about 4-second miss recovery",
+    "Ultimate transition on hit"
+  ],
+  "evidence_limits": [
+    "Exact frames/timing/tracking and reward probabilities are not promoted where unsupported."
+  ]
+}

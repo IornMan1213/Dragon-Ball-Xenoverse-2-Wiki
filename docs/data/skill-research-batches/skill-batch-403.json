@@ -1,0 +1,67 @@
+{
+  "batch": 403,
+  "date": "2026-09-25",
+  "scope": "Skill mechanics frontier",
+  "records": [
+    {
+      "id": "skill-buu-buu-ball",
+      "name": "Buu Buu Ball",
+      "research_status": "enriched",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
+      "mechanics_notes": "300-Stamina Strike Evasive from PQ88 and restricted to Majin CaCs. The user curls into a ball and bounces three times; the bounce path can be freely controlled with directional input. Current skill-specific evidence reports about 2% damage on contact. Exact invulnerability frames remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Buu_Buu_Ball",
+        "https://dragonball.fandom.com/wiki/Buu_Buu_Ball"
+      ],
+      "evidence_limits": [
+        "Exact frames/timing/tracking and reward probabilities are not promoted where unsupported."
+      ]
+    },
+    {
+      "id": "skill-dodoria-headbutt",
+      "name": "Dodoria Headbutt",
+      "research_status": "enriched",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
+      "mechanics_notes": "100-Ki Strike Super learned from Dodoria's Lesson 2. The user charges forward head-first; a successful hit breaks the opponent's guard and deals about 20% source-reported damage. On a miss, the user remains exposed while rubbing their head for about 4 seconds. A successful hit can immediately transition into an Ultimate. Exact frame data and universal damage values remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Dodoria_Headbutt",
+        "https://dragonball.fandom.com/wiki/Dodoria_Head_Breaker"
+      ],
+      "evidence_limits": [
+        "Exact frames/timing/tracking and reward probabilities are not promoted where unsupported."
+      ]
+    },
+    {
+      "id": "skill-dodoria-launcher",
+      "name": "Dodoria Launcher",
+      "research_status": "enriched",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate learned from Dodoria's Lesson 3. The attack begins with a two-handed energy beam reported at 16 hits and about 10% source-reported damage, followed by a Ki-blast barrage reported at up to 33 hits and about 25% additional damage. Directional input can spread the follow-up blasts instead of keeping them focused on the target. Exact timing, tracking, and universal damage values remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Dodoria_Launcher",
+        "https://dragonball.fandom.com/wiki/Maximum_Buster"
+      ],
+      "evidence_limits": [
+        "Exact frames/timing/tracking and reward probabilities are not promoted where unsupported."
+      ]
+    },
+    {
+      "id": "skill-elite-shooting",
+      "name": "Elite Shooting",
+      "research_status": "enriched",
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-25",
+      "mechanics_notes": "100-Ki Ki Blast Super learned from Jaco's Lesson 2. The user fires repeated energy beams in a ray-gun-style pattern; current technique documentation describes either five-direction firing or rapid repeated shots along the same direction. Xenoverse 2's Future Warrior version reproduces the technique without the physical ray gun. Exact shot count in each in-game branch, tracking, timing, and damage remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Elite_Shooting",
+        "https://dragonball.fandom.com/wiki/Elite_Shooting"
+      ],
+      "evidence_limits": [
+        "Exact frames/timing/tracking and reward probabilities are not promoted where unsupported."
+      ]
+    }
+  ]
+}

@@ -1,1 +1,0 @@
-The cross-domain framework is intentionally marked in-progress. Seed relationship counts represent only explicitly normalized edges created in this pass; they are not claims about the total number of game rewards. Completion requires reconciling every populated reward field in the canonical PQ batches.

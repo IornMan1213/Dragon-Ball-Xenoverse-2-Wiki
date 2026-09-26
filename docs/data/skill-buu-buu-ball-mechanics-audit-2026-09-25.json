@@ -1,0 +1,20 @@
+{
+  "audit_id": "skill_buu_buu_ball_mechanics_audit_2026_09_25",
+  "date": "2026-09-25",
+  "skill_id": "skill-buu-buu-ball",
+  "skill_name": "Buu Buu Ball",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Buu_Buu_Ball",
+    "https://dragonball.fandom.com/wiki/Buu_Buu_Ball"
+  ],
+  "findings": [
+    "300 Stamina Strike Evasive",
+    "three controlled bounces",
+    "free directional control",
+    "about 2% contact damage",
+    "PQ88 endpoint"
+  ],
+  "evidence_limits": [
+    "Exact frames/timing/tracking and reward probabilities are not promoted where unsupported."
+  ]
+}

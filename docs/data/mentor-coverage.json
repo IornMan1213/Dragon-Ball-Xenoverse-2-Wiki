@@ -1,9 +1,0 @@
-{
-  "schema_version":"1.0",
-  "game":"Dragon Ball Xenoverse 2",
-  "status":"coverage_tracker",
-  "expected_mentors":33,
-  "required_per_mentor":["availability","location","unlock_requirements","lesson_1","lesson_2","lesson_3","lesson_4","lesson_skills","friendship_notes","dual_ultimate","sources","verification_status"],
-  "current_index":"docs/data/mentors-index.json",
-  "completion_rule":"All 33 indexed mentors must have record-level lesson and unlock data before the mentor domain can be marked complete."
-}

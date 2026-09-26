@@ -1,1 +1,0 @@
-This branch contains the exhaustive data-model hardening work requested before large-scale database population. Unresolved facts remain unresolved, source drift is tracked, and DLC relationships are modeled explicitly.

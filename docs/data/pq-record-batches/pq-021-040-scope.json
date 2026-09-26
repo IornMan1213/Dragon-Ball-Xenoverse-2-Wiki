@@ -1,1 +1,0 @@
-{"batch":"pq-021-040","start":21,"end":40,"count":20,"scope":"Base-game PQ records with source-backed objectives and reward relationships","excludes":["unverified opponent-specific drop attribution","final canonical cross-domain IDs"],"promotion_rule":"Do not mark verified until independent reward/drop and unlock-chain reconciliation is complete."}

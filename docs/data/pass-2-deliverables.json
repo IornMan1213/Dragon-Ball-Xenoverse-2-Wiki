@@ -1,5 +1,0 @@
-{
-  "schema_version":"1.0",
-  "deliverables":["source governance","Future Saga official baseline","variant enumeration","record completeness contracts","cross-domain relationships","coverage gaps","audit metrics","record population roadmap"],
-  "status":"ready_for_merge"
-}

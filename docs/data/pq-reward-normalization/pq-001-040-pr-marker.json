@@ -1,1 +1,0 @@
-{"schema_version":"1.0","range":"PQ 1-40","status":"ready_for_reverse_index_integration","implementation_note":"The PQ 1-40 reward map and audit are present on main; this marker is merged through the branch/PR workflow to finalize the tranche and trigger downstream integration work."}

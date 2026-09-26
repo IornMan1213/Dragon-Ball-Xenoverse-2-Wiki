@@ -1,8 +1,0 @@
-{
-  "schema_version":"1.0",
-  "game":"Dragon Ball Xenoverse 2",
-  "status":"coverage_contract",
-  "reward_domains":["skills","super_souls","clothing","accessories","qq_bangs","items","illustrations","titles","currencies"],
-  "required_dimensions":["recipient_record","source_activity","normal_or_ultimate_finish_condition","drop_or_purchase_method","dlc_requirement","sources","verification_status"],
-  "completion_rule":"A reward is not considered fully cataloged merely because its name appears in a quest or shop list; its acquisition relationship and conditions must be represented or explicitly unresolved."
-}

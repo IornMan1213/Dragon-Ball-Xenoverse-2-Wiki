@@ -949,3 +949,14 @@
 - [x] Evidence boundaries preserved: unresolved transformation timing, exact drain/combo multipliers, Shining Friday numerical mechanics, and activation/frame data were not inferred.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** continue Batch 402 with the next genuinely under-detailed records from the fresh frontier, beginning after these eight.
+
+
+### 2026-09-25 TODO progress update — Skill Research Batch 403 completed
+
+- [x] Fresh live 474-record frontier census excluded Batches 396–402 and selected **Buu Buu Ball, Dodoria Headbutt, Dodoria Launcher, and Elite Shooting** as the next shortest genuinely under-detailed mechanics records.
+- [x] Enriched and synchronized canonical `docs/data/skills.json` and projection `docs/data/skills-index.json`; all four now carry `last_verified: 2026-09-25`, `research_status: enriched`, and `verified_current_scope`.
+- [x] Added four current-evidence audits, `docs/data/skill-research-batches/skill-batch-403.json`, and `docs/data/skill-batch-403-thin-frontier-mechanics-audit-2026-09-25.json`; registered all artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Evidence boundaries preserved: no unsupported frame, timing, tracking, reward-probability, or patch-independent damage claims were promoted.
+- [x] Validation performed in-memory before write: canonical/index record counts remain 474/474 and the four target IDs are present in both layers with synchronized mechanics strings.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [x] **Exact next:** run a fresh 474-record frontier census excluding Batches 396–403 and enrich the next 4–12 shortest genuinely under-detailed records, synchronizing canonical/index/provenance in the same cycle.

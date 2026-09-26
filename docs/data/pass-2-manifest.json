@@ -1,7 +1,0 @@
-{
-  "schema_version":"1.0",
-  "pass":"exhaustive-data-pass-2",
-  "artifact_count":24,
-  "scope":"Data-model hardening, source governance, Future Saga provenance, variant coverage, record-level completeness contracts and audit targets.",
-  "next":"Large-scale canonical record population and automated reconciliation."
-}

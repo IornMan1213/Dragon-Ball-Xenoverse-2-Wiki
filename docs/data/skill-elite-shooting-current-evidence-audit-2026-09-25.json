@@ -1,0 +1,19 @@
+{
+  "audit_id": "skill_elite_shooting_current_evidence_audit_2026_09_25",
+  "date": "2026-09-25",
+  "skill_id": "skill-elite-shooting",
+  "skill_name": "Elite Shooting",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Elite_Shooting",
+    "https://dragonball.fandom.com/wiki/Elite_Shooting"
+  ],
+  "findings": [
+    "100 Ki Ki Blast Super",
+    "Jaco Lesson 2",
+    "five-direction or same-direction rapid-fire",
+    "Future Warrior uses Ki rather than physical ray gun"
+  ],
+  "evidence_limits": [
+    "Exact frames/timing/tracking and reward probabilities are not promoted where unsupported."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "audit_id": "skill_dodoria_launcher_current_evidence_audit_2026_09_25",
+  "date": "2026-09-25",
+  "skill_id": "skill-dodoria-launcher",
+  "skill_name": "Dodoria Launcher",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Dodoria_Launcher",
+    "https://dragonball.fandom.com/wiki/Maximum_Buster"
+  ],
+  "findings": [
+    "300 Ki Ultimate",
+    "16-hit beam",
+    "27-33 hit barrage",
+    "directional spread control"
+  ],
+  "evidence_limits": [
+    "Exact frames/timing/tracking and reward probabilities are not promoted where unsupported."
+  ]
+}

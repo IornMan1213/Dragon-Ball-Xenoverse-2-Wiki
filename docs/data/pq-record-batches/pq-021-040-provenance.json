@@ -1,1 +1,0 @@
-{"schema_version":"1.0","record_policy":"Every record must retain at least one source. Multiple sources are preferred for reward data. Verification status must not be promoted solely because a reward appears in one guide.","preferred_source_roles":["official","structured_game_data","independent_crosscheck","community_guide"],"batch":"pq-021-040"}

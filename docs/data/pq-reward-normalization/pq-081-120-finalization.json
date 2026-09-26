@@ -1,1 +1,0 @@
-{"schema_version":"1.0","range":"PQ 81-120","status":"normalized","source_count":2,"pq_count":40,"typed_reward_count":109,"reverse_index_domains":["skills","super_souls","clothing","accessories"],"dragon_ball_farming_pqs":[83,88],"unresolved_pqs":[86,87],"policy":"No inferred drop-slot attribution; untyped Zeni/capsule rewards remain in the underlying PQ records."}

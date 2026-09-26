@@ -1,6 +1,0 @@
-{
-  "schema_version":"1.0",
-  "game":"Dragon Ball Xenoverse 2",
-  "indexed_baselines":{"characters":155,"dlc_characters":54,"mentors":33,"transformations":18,"unavailable_for_cac":37,"ki_blast_supers":183,"super_variants":9},
-  "rule":"These are source/index baselines, not claims of complete verified records. Count changes require reconciliation."
-}

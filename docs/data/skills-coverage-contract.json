@@ -1,8 +1,0 @@
-{
-  "schema_version":"1.0",
-  "game":"Dragon Ball Xenoverse 2",
-  "status":"coverage_contract",
-  "required_dimensions":["canonical_name","class","subcategory","category_membership","race_restriction","usable_by_cac","character_source","dlc_requirement","ki_cost","stamina_cost","damage_type","unlock_method","source_quest_or_shop","ultimate_finish_required","skill_description","mechanics_notes","combo_notes","pve_notes","pvp_notes","sources","verification_status","last_verified"],
-  "special_cases":["super_variants","unavailable_for_cac","counter_skills","transformations","race_specific_skill_categories"],
-  "completion_rule":"Indexed category membership is not sufficient for verified mechanics. Every promoted skill must have provenance and explicit unresolved fields where data remains unknown."
-}

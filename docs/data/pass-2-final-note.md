@@ -1,1 +1,0 @@
-Pass 2 is intentionally a governance/data-model pass rather than a claim that the wiki is already exhaustive. It makes the remaining gaps measurable and prevents future population from losing provenance or silently inflating counts.

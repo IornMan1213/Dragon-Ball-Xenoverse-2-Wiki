@@ -1,9 +1,0 @@
-{
-  "schema_version":"1.0",
-  "game":"Dragon Ball Xenoverse 2",
-  "status":"coverage_contract",
-  "baselines":{"characters_source_category":155,"dlc_characters_source_category":54},
-  "required_dimensions":["canonical_name","playability","race_or_type","forms","presets","skills","awoken_or_transformations","unlock_method","dlc_provenance","partner_customization","sources","verification_status"],
-  "special_cases":["Ultra Supervillain variants","DLC-only variants","cast-vs-playable distinction","form-vs-preset distinction","character-exclusive skills"],
-  "completion_rule":"Character category membership is only the enumeration baseline. The character domain is incomplete until forms/presets, availability and provenance relationships are represented."
-}
