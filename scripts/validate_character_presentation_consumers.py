@@ -18,12 +18,14 @@ def main():
     presets=load(DATA/"character-presets-record-layer.json").get("records",[])
     partners=load(DATA/"partner-customization-key-record-layer.json").get("records",[])
     recon=load(DATA/"partner-customization-key-reconciliation.json").get("records",[])
-    explorer=(ROOT/"docs"/"Characters-All.html").read_text(encoding="utf-8")
+    explorer_path=ROOT/"docs"/"Characters-All.html"
+    explorer_exists=explorer_path.is_file()
+    explorer=explorer_path.read_text(encoding="utf-8") if explorer_exists else ""
     characters_page=(ROOT/"docs"/"Characters.md").read_text(encoding="utf-8")
     core_profiles=(ROOT/"docs"/"Character-Core-Profiles.md").read_text(encoding="utf-8")
     import re
     preset_label_pattern=re.compile(r"(?i)\b(?:[A-Za-z][A-Za-z0-9()'’ -]+\s+)?Preset\s+\d+")
-    markdown_preset_labels=sorted(set(preset_label_pattern.findall(characters_page+"\\n"+core_profiles)))
+    markdown_preset_labels=sorted(set(preset_label_pattern.findall(characters_page+"\n"+core_profiles)))
     characters_explorer_link="Characters-All.html" in characters_page or "Characters-All.md" in characters_page
     core_profile_search_design=("Search/" in core_profiles or "searchUrl(" in core_profiles or not markdown_preset_labels)
 
@@ -63,7 +65,8 @@ def main():
         if target and r.get("partner")!=target:
             partner_name_mismatches.append({"key":r.get("key_number"),"character_id":r.get("character_id"),"partner":r.get("partner"),"canonical":target})
 
-    preset_navigation_links=len(presets) if "searchUrl(name)" in explorer else 0
+    preset_navigation_links=len(presets) if explorer_exists and "searchUrl(name)" in explorer else 0
+    preset_navigation_contract_satisfied=(not explorer_exists) or preset_navigation_links==len(presets)
     checks={
         "bridge_ids_unique":not duplicate_bridge_ids and len(bridge_map)==len(bridge),
         "bridge_source_names_unique":not duplicate_bridge_source_names,
@@ -73,7 +76,8 @@ def main():
         "all_partner_character_ids_bridged":not unresolved_partner,
         "partner_reconciliation_id_parity":not partner_parity,
         "partner_display_names_match_canonical_bridge":not partner_name_mismatches,
-        "preset_explorer_has_character_search_navigation":preset_navigation_links==len(presets),
+        "preset_explorer_has_character_search_navigation":preset_navigation_contract_satisfied,
+        "generated_character_explorer_present":explorer_exists,
         "preset_record_ids_unique":not duplicate_preset_ids and len(preset_record_ids)==len(set(preset_record_ids)),
         "preset_id_fields_are_strings":not malformed_preset_ids,
         "numbered_character_preset_pairs_unique":not duplicate_character_preset_pairs,
@@ -87,7 +91,7 @@ def main():
     report={"schema_version":"1.0.0","scope":"character-facing presentation consumers",
       "canonical_source":"docs/data/characters-record-layer.json",
       "bridge":"docs/data/characters/character-id-identity-bridge.json",
-      "consumers":["docs/data/character-presets-record-layer.json","docs/data/partner-customization-key-record-layer.json","docs/data/partner-customization-key-reconciliation.json","docs/Characters-All.html","docs/Characters.md","docs/Character-Core-Profiles.md"],
+      "consumers":["docs/data/character-presets-record-layer.json","docs/data/partner-customization-key-record-layer.json","docs/data/partner-customization-key-reconciliation.json","docs/Characters-All.html (optional generated build output)","docs/Characters.md","docs/Character-Core-Profiles.md"],
       "results":{"canonical_character_names":len(canon),"bridge_records":len(bridge),
         "preset_records":len(presets),"preset_distinct_character_ids":len(preset_ids),
         "partner_key_records":len(partners),"partner_distinct_character_ids":len(partner_ids),
@@ -101,6 +105,7 @@ def main():
         "partner_reconciliation_id_parity_differences":partner_parity,
         "partner_display_name_mismatches":partner_name_mismatches,
         "preset_explorer_navigation_records":preset_navigation_links,
+        "generated_character_explorer_present":explorer_exists,
         "duplicate_preset_record_ids":duplicate_preset_ids,
         "malformed_preset_record_ids":malformed_preset_ids,
         "duplicate_numbered_character_preset_pairs":duplicate_character_preset_pairs,
@@ -116,8 +121,8 @@ def main():
         },
         "checks":checks,
         "status":"clean" if all(checks.values()) else "unresolved"},
-      "evidence_boundary":"This audit proves identity/navigation parity, producer-record integrity, and that any preset explicitly marked loadout_status=verified has a structured loadout plus an explicit loadout source. It does not verify complete preset numbering, unresolved loadouts, unlock routes, DLC ownership, raid rotation, TP Medal costs, or historical update chronology.",
-      "rules":["Canonical character names remain authoritative.","Presentation IDs are resolved only through the explicit bridge.","Unresolved identity variants remain unresolved.","No character identity is inferred from a slug or display-name similarity."]}
+      "evidence_boundary":"This audit proves identity/navigation parity, producer-record integrity, and that any preset explicitly marked loadout_status=verified has a structured loadout plus an explicit loadout source. The generated Characters-All.html explorer is optional in the source checkout; when absent, its build-time navigation check is skipped rather than treated as a source-tree failure. It does not verify complete preset numbering, unresolved loadouts, unlock routes, DLC ownership, raid rotation, TP Medal costs, or historical update chronology.",
+      "rules":["Canonical character names remain authoritative.","Generated HTML explorers are optional build outputs in the source checkout; their navigation contract is checked when present.","Presentation IDs are resolved only through the explicit bridge.","Unresolved identity variants remain unresolved.","No character identity is inferred from a slug or display-name similarity."]}
     print(json.dumps(report,indent=2,ensure_ascii=False))
     return 0 if report["results"]["status"]=="clean" else 1
 
