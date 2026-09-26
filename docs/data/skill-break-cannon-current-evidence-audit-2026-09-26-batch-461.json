@@ -1,0 +1,19 @@
+{
+  "batch": 461,
+  "date": "2026-09-26",
+  "skill_name": "Break Cannon",
+  "skill_id": "skill-break-cannon",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics/provenance review for the live canonical record.",
+  "findings": [
+    "300+ Ki Ki Blast Ultimate from Nappa Lesson 3. The user cracks their knuckles and fires a mid-range beam from the mouth; current evidence documents up to 15 hits and about 15% base damage, with output varying by stored Ki. Exact frame data and scaling remain unresolved."
+  ],
+  "sources": [
+    "Repository-maintained current skill/PQ/evidence corpus and dedicated exact-name references reviewed for the live record."
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "No unsupported exact frame data, reward probabilities, hidden gates, or patch-independent scaling is promoted.",
+    "Known source conflicts remain explicit rather than silently normalized."
+  ]
+}
