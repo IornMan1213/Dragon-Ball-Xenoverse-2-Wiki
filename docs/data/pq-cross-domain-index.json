@@ -1389,5 +1389,15 @@
   "skill_vanishing-ball_current_evidence_audit_2026_09_26_batch_450": "docs/data/skill-vanishing-ball-current-evidence-audit-2026-09-26-batch-450.json",
   "skill_evil-whirlwind_current_evidence_audit_2026_09_26_batch_450": "docs/data/skill-evil-whirlwind-current-evidence-audit-2026-09-26-batch-450.json",
   "skill_god-of-destruction-s-rampage_current_evidence_audit_2026_09_26_batch_450": "docs/data/skill-god-of-destruction-s-rampage-current-evidence-audit-2026-09-26-batch-450.json",
-  "skill_emperor-s-death-beam_current_evidence_audit_2026_09_26_batch_450": "docs/data/skill-emperor-s-death-beam-current-evidence-audit-2026-09-26-batch-450.json"
+  "skill_emperor-s-death-beam_current_evidence_audit_2026_09_26_batch_450": "docs/data/skill-emperor-s-death-beam-current-evidence-audit-2026-09-26-batch-450.json",
+  "skill_batch_451": "docs/data/skill-research-batches/skill-batch-451.json",
+  "skill_batch_451_thin_frontier": "docs/data/skill-research-batches/skill-batch-451-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_force-shield_current_evidence_audit_2026_09_26_batch_451": "docs/data/skill-force-shield-current-evidence-audit-2026-09-26-batch-451.json",
+  "skill_eraser-bomb_current_evidence_audit_2026_09_26_batch_451": "docs/data/skill-eraser-bomb-current-evidence-audit-2026-09-26-batch-451.json",
+  "skill_evil-flame_current_evidence_audit_2026_09_26_batch_451": "docs/data/skill-evil-flame-current-evidence-audit-2026-09-26-batch-451.json",
+  "skill_galactic-donuts_current_evidence_audit_2026_09_26_batch_451": "docs/data/skill-galactic-donuts-current-evidence-audit-2026-09-26-batch-451.json",
+  "skill_energy-field_current_evidence_audit_2026_09_26_batch_451": "docs/data/skill-energy-field-current-evidence-audit-2026-09-26-batch-451.json",
+  "skill_bloody-counter_current_evidence_audit_2026_09_26_batch_451": "docs/data/skill-bloody-counter-current-evidence-audit-2026-09-26-batch-451.json",
+  "skill_supersonic-mode_current_evidence_audit_2026_09_26_batch_451": "docs/data/skill-supersonic-mode-current-evidence-audit-2026-09-26-batch-451.json",
+  "skill_big-bang-attack_current_evidence_audit_2026_09_26_batch_451": "docs/data/skill-big-bang-attack-current-evidence-audit-2026-09-26-batch-451.json"
 }
