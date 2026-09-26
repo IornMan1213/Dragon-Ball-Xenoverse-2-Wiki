@@ -77,5 +77,11 @@
     "change": "Hardened validate_skill_pq_crosslinks.py to reject malformed canonical skill containers/records before projection: records must be a list of 474 objects with non-empty string id/name fields and source_parallel_quests must be a list when present.",
     "result": "No canonical skill→PQ relationship data changed; the established 474-skill / 246-edge / 170-represented-PQ projection remains the expected contract.",
     "validator_commit": "fbb8af7c592b6846cc440a66b824ab506c9141a9"
+  },
+  "validator_hardening_reverse_metadata_2026_09_26": {
+    "change": "Hardened validate_skill_pq_crosslinks.py to explicitly reject malformed checked-in reverse-index roots and drift in schema_version, scope, source, generated_on, canonical_skill_count, represented_pq_count, or total_skill_pq_edges before comparing the deterministic pq_ids projection.",
+    "result": "The established 474-skill / 246-edge / 170-represented-PQ contract and deterministic pq_ids projection remain unchanged.",
+    "validator_commit": "latest commit from skill-PQ reverse metadata hardening",
+    "evidence_boundary": "This validates the checked-in reverse artifact against its canonical skill projection; it does not infer rewards for PQs without explicit source_parallel_quests relationships."
   }
 }
