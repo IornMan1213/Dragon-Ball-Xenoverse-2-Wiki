@@ -1,0 +1,21 @@
+{
+  "batch": 458,
+  "date": "2026-09-26",
+  "skill_name": "Super Electric Strike",
+  "skill_id": "skill-super-electric-strike",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Skill Research Batch 458.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Electric_Strike",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
+  ],
+  "findings": [
+    "300-Ki Ki Blast Ultimate from Expert Mission 11. The user launches a large tracked Ki wave with long-range coverage; current dedicated evidence documents 17 hits, knockback, and about 40% total damage. Existing EM11 acquisition semantics remain unchanged; exact drop probability and frame data remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Exact frame data is not promoted.",
+    "Patch-independent scaling is not inferred from source-reported values.",
+    "Reward probabilities and hidden prerequisites are not promoted unless directly evidenced.",
+    "Community usage commentary is not converted into deterministic mechanics."
+  ]
+}
