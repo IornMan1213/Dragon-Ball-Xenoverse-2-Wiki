@@ -1,3 +1,13 @@
+### 2026-09-26 continuation — Partner/custom skill domain boundary resolved
+- [x] Researched the unresolved Dual Masenko / PQ118 question against current external references and the live repository.
+- [x] Added `docs/data/partner-custom-skill-domain-boundary-audit-2026-09-26.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Confirmed Dual Masenko is both a Future Warrior/CaC-acquirable TP Medal Shop skill and a Future Trunks Custom Partner skill; therefore partner availability does not justify a duplicate canonical skill record.
+- [x] Established the modeling rule: partner/custom availability should be represented as a relationship/domain layer attached to an existing skill ID where the skill is already canonical; genuinely partner-only moves require separate-domain evidence before adding records.
+- [x] Kept PQ118 → Dual Masenko unpromoted because current evidence supports TP Medal Shop acquisition and partner customization, while a third-party PQ guide conflicts with that boundary.
+- [ ] Exact next: audit the repository for existing partner/custom relationship data and, if absent, design a reusable partner-skill relationship schema/index without duplicating canonical skills.
+- [ ] CI/build remains unverified.
+- [ ] Efficiency addendum remains unavailable at the expected repository path (GitHub 404).
+
 ### 2026-09-26 continuation — Acquisition metadata external corroboration pass
 - [x] Re-read the live handoff/TODO and inspected the current acquisition integrity audit.
 - [x] The deterministic acquisition audit remains clean: **474/474 records, 0 missing required acquisition fields, 0 internal metadata anomalies**.
