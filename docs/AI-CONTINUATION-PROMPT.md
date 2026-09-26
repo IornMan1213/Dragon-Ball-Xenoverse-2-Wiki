@@ -1,3 +1,13 @@
+### 2026-09-26 continuation — Skill Research Batch 471 completed
+
+- [x] Fresh 474-record mechanics frontier selected **Fighting Pose H, Brave Heat, Super Ghost Buu Attack, Supreme Fury, Rocket Tackle, Trap Shooter, Murder Grenade, and Chain Destructo-Disc Barrage** after excluding every registered current-evidence audit.
+- [x] Added eight current-evidence audits plus Batch 471 research/thin-frontier artifacts and provenance registrations.
+- [x] Deepened and synchronized all eight canonical/index records with bounded current Xenoverse 2 mechanics evidence.
+- [x] Preserved source-reported values without inventing unsupported frame/scaling data.
+- [x] Canonical/index validation remains **474/474**, 0 missing / 0 extra.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 471 and every prior current-evidence audit.
+
 ### 2026-09-26 continuation — Skill Research Batch 470 completed
 
 - [x] Fresh 474-record mechanics frontier excluded every registered current-evidence audit and selected **Energy Release, Super Destructo-Disc, Android Rush, Burning Attack, Chaos Shot, Surging Spirit, Reverse Shot, and Grand Smasher**.

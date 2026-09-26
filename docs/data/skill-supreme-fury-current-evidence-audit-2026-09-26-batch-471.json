@@ -1,0 +1,11 @@
+{
+  "batch": 471,
+  "date": "2026-09-26",
+  "skill_id": "skill-supreme-fury",
+  "skill_name": "Supreme Fury",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Supreme_Fury"
+  ],
+  "evidence_boundary": "100-Ki Strike Super from PQ179. The user charges a heavy downward strike with super armor; continued melee attacks during the charge are absorbed/rebuffed, increasing the blow's strength, and the fully charged attack can guard-break the attacker and enable a follow-up Ultimate. Current evidence does not establish exact charge frames or damage scaling."
+}

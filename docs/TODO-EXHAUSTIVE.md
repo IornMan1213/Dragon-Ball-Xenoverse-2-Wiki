@@ -1,3 +1,10 @@
+### 2026-09-26 TODO progress update — Skill Research Batch 471 completed
+- [x] Researched **Fighting Pose H, Brave Heat, Super Ghost Buu Attack, Supreme Fury, Rocket Tackle, Trap Shooter, Murder Grenade, and Chain Destructo-Disc Barrage**.
+- [x] Enriched/synchronized canonical and index datasets; validation remains 474/474 with 0 missing / 0 extra.
+- [x] Added eight audits, Batch 471 research/thin-frontier artifacts, and provenance registrations.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 471 and all prior current-evidence-audited records.
+
 ### 2026-09-26 TODO progress update — Skill Research Batch 470 completed
 - [x] Researched **Energy Release, Super Destructo-Disc, Android Rush, Burning Attack, Chaos Shot, Surging Spirit, Reverse Shot, and Grand Smasher**.
 - [x] Enriched/synchronized canonical and index datasets; validation target remains 474/474 with 0 missing / 0 extra.

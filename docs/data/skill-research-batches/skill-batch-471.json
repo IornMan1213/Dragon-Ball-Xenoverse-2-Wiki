@@ -1,0 +1,66 @@
+{
+  "batch": 471,
+  "date": "2026-09-26",
+  "scope": "Fresh unaudited mechanics frontier",
+  "skills": [
+    {
+      "skill_id": "skill-fighting-pose-h",
+      "skill_name": "Fighting Pose H",
+      "mechanics": "0-Ki Power Up Super from PQ61. Activating the pose temporarily reduces incoming damage for the documented 20-second duration. Current dedicated evidence does not establish the exact damage-reduction percentage or frame data.",
+      "source": "https://dbxv2.fandom.com/wiki/Fighting_Pose_H"
+    },
+    {
+      "skill_id": "skill-brave-heat",
+      "skill_name": "Brave Heat",
+      "mechanics": "300-Ki Ki Blast Ultimate learned through Bardock training. It is a pseudo-Strike sequence that begins with a rushing punch and follows with a beam, dealing source-reported 35% total damage over 20 hits. Current evidence notes its chase has greater range than Saiyan Spirit and can track behind the user.",
+      "source": "https://dbxv2.fandom.com/wiki/Brave_Heat"
+    },
+    {
+      "skill_id": "skill-super-ghost-buu-attack",
+      "skill_name": "Super Ghost Buu Attack",
+      "mechanics": "100-Ki Ki Blast Super from PQ113. The user creates five Buu-shaped ghosts; a second input commands them to attack, while leaving them for about five seconds also causes the attack. Current dedicated evidence reports five hits and about 5% total damage.",
+      "source": "https://dbxv2.fandom.com/wiki/Super_Ghost_Buu_Attack"
+    },
+    {
+      "skill_id": "skill-supreme-fury",
+      "skill_name": "Supreme Fury",
+      "mechanics": "100-Ki Strike Super from PQ179. The user charges a heavy downward strike with super armor; continued melee attacks during the charge are absorbed/rebuffed, increasing the blow's strength, and the fully charged attack can guard-break the attacker and enable a follow-up Ultimate. Current evidence does not establish exact charge frames or damage scaling.",
+      "source": "https://dbxv2.fandom.com/wiki/Supreme_Fury"
+    },
+    {
+      "skill_id": "skill-rocket-tackle",
+      "skill_name": "Rocket Tackle",
+      "mechanics": "100-Ki Strike Super learned from Android 16. The user shoulder-charges for source-reported 10% damage and knockback; after a successful knockback it can be used as a chase and teleports to the opponent before the hit.",
+      "source": "https://dbxv2.fandom.com/wiki/Rocket_Tackle"
+    },
+    {
+      "skill_id": "skill-trap-shooter",
+      "skill_name": "Trap Shooter",
+      "mechanics": "100-Ki Ki Blast Super learned through Bojack training. The barrage deals source-reported 5% over 10 hits and tracks at long range; an additional input before release cancels the move, functioning as a feint. Ki is spent when the blast actually fires.",
+      "source": "https://dbxv2.fandom.com/wiki/Trap_Shooter"
+    },
+    {
+      "skill_id": "skill-murder-grenade",
+      "skill_name": "Murder Grenade",
+      "mechanics": "100-Ki Ki Blast Super from Expert Mission 3. A thrown Ki ball erupts into a pillar on impact for source-reported 10% damage; directional input changes its travel distance, with up roughly doubling and down roughly halving the documented baseline throw distance.",
+      "source": "https://dbxv2.fandom.com/wiki/Murder_Grenade"
+    },
+    {
+      "skill_id": "skill-chain-destructo-disc-barrage",
+      "skill_name": "Chain Destructo-Disc Barrage",
+      "mechanics": "300-Ki Ki Blast Ultimate from PQ46. The user throws five Destructo-Discs in sequence for source-reported 40% total damage across five hits; the discs are unblockable and launch the opponent.",
+      "source": "https://dbxv2.fandom.com/wiki/Chain_Destructo-Disc_Barrage"
+    }
+  ],
+  "selection_basis": "Lowest combined mechanics/notes coverage after excluding every registered current-evidence audit.",
+  "evidence_policy": [
+    "Use source-reported values as bounded evidence.",
+    "Do not infer unsupported frames, hidden gates, probabilities, or patch-independent scaling.",
+    "Preserve distinct Super/Ultimate variants."
+  ],
+  "validation": {
+    "canonical_skill_records": 474,
+    "index_skill_records": 474
+  },
+  "ci_build": "unverified"
+}

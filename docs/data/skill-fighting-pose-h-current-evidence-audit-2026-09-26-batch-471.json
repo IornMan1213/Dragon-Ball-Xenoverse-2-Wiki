@@ -1,0 +1,11 @@
+{
+  "batch": 471,
+  "date": "2026-09-26",
+  "skill_id": "skill-fighting-pose-h",
+  "skill_name": "Fighting Pose H",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Fighting_Pose_H"
+  ],
+  "evidence_boundary": "0-Ki Power Up Super from PQ61. Activating the pose temporarily reduces incoming damage for the documented 20-second duration. Current dedicated evidence does not establish the exact damage-reduction percentage or frame data."
+}

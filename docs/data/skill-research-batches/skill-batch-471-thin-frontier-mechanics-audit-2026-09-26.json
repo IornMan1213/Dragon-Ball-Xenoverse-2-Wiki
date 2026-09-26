@@ -1,0 +1,40 @@
+{
+  "batch": 471,
+  "date": "2026-09-26",
+  "selection_method": "Fresh live census over 474 records excluding all current-evidence-audited IDs.",
+  "selected_skills": [
+    {
+      "skill_id": "skill-fighting-pose-h",
+      "skill_name": "Fighting Pose H"
+    },
+    {
+      "skill_id": "skill-brave-heat",
+      "skill_name": "Brave Heat"
+    },
+    {
+      "skill_id": "skill-super-ghost-buu-attack",
+      "skill_name": "Super Ghost Buu Attack"
+    },
+    {
+      "skill_id": "skill-supreme-fury",
+      "skill_name": "Supreme Fury"
+    },
+    {
+      "skill_id": "skill-rocket-tackle",
+      "skill_name": "Rocket Tackle"
+    },
+    {
+      "skill_id": "skill-trap-shooter",
+      "skill_name": "Trap Shooter"
+    },
+    {
+      "skill_id": "skill-murder-grenade",
+      "skill_name": "Murder Grenade"
+    },
+    {
+      "skill_id": "skill-chain-destructo-disc-barrage",
+      "skill_name": "Chain Destructo-Disc Barrage"
+    }
+  ],
+  "next_exclusion_rule": "Exclude Batch 471 and every prior current-evidence audit."
+}
