@@ -1,0 +1,14 @@
+{
+  "batch": 492,
+  "date": "2026-09-26",
+  "skill_id": "skill-bending-kamehameha",
+  "skill_name": "Bending Kamehameha",
+  "status": "complete",
+  "findings": "100-Ki Ki Blast Super from the Skill Shop. Additional input makes the fired Kamehameha track the target; dedicated current documentation reports 10% damage. The repository retains the existing main-story/Skill Shop acquisition boundary.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Bending_Kamehameha",
+    "https://dragonball.fandom.com/wiki/Bending_Kamehameha",
+    "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/519411-how-do-i-get-bending-kamehameha"
+  ],
+  "evidence_boundary": "The 10% damage figure is source-reported and not generalized beyond the cited context. Exact frames, timing, shop rotation dates, and hidden interactions remain unresolved."
+}
