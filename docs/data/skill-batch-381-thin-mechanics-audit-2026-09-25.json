@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-25",
+  "batch_id": 381,
+  "scope": "Fresh thin mechanics frontier",
+  "records": [
+    "Rocket Tackle",
+    "Side Bridge",
+    "Trap Shooter",
+    "Spirit Blaster"
+  ],
+  "result": "current_evidence_refresh",
+  "evidence_boundary": "No unsupported probabilities, hidden prerequisites, frame data, exact timing, or universal damage claims promoted."
+}
