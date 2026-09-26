@@ -751,3 +751,15 @@
 - [x] Validation: canonical/index remain **469/469**, 0 duplicate IDs, and target fields are synchronized.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Next:** fresh post-Batch-386 census excluding recently enriched targets, then continue the shortest genuinely unfinished mechanics/source frontier.
+
+
+### 2026-09-25 completion — Skill Batch 387 short-frontier mechanics enrichment
+- [x] Fresh post-Batch-386 census confirmed **469 canonical skills / 0 duplicate IDs**; selected the next six low-detail records after excluding recent frontier targets.
+- [x] Completed **Android Rush, Burst Charge, Chaos Shot, Confusion Blade, Death Crasher, Dynamite Kick** with source-bounded current Xenoverse 2 mechanics enrichment.
+- [x] Synchronized canonical `docs/data/skills.json` and `docs/data/skills-index.json`; all six now carry `last_verified: 2026-09-25` and `verified_current_scope`.
+- [x] Added six current-evidence audits and Skill Batch 387; registered all seven artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: canonical count **469**, duplicate IDs **0**, and all six target mechanics fields/date/status values are populated.
+- [x] Evidence limits preserved: numeric damage/hit values remain source-reported; no unsupported frame data, hidden prerequisites, reward probabilities, or patch-independent balance claims were inferred.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Commits: canonical `f3a0594`; skill index `ea5048f`; audits `a352562`, `2c963ab`, `b8073f4`, `7009925`, `c1f3b6f`, `e501d02`; Batch 387 `4d8f10f`; cross-domain registration `4bc7455`.
+- [x] **Exact next:** fresh post-Batch-387 census excluding these six and other recently completed frontier targets, then continue the next genuinely low-detail records in a 4–12 record batch.
