@@ -1,0 +1,19 @@
+{
+  "skill_id": "skill-evil-flight-strike",
+  "name": "Evil Flight Strike",
+  "batch": 454,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Evil_Flight_Strike",
+    "https://dragonball.fandom.com/wiki/Evil_Flight_Strike"
+  ],
+  "findings": [
+    "2026-09-26 Batch 454 current-evidence enrichment: 100-Ki Strike Super / 300-Stamina Evasive variant. The CaC version is restricted to Namekians and Majins and rises slowly while flailing with extended arms for eight hits; current dedicated evidence reports 15% total damage and keeps the target airborne for follow-ups. Piccolo (Power Awakening) repurposes the technique as an Evasive. The source explicitly warns that a miss leaves the user exposed; exact active/recovery frames and scaling remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
