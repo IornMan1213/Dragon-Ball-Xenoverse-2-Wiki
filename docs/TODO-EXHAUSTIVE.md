@@ -595,3 +595,11 @@
 - [x] Retained unresolved reward-condition fields and corrected acquisition provenance without unsupported promotion.
 - [ ] Canonical generated skill files were not partially rewritten; CI remains unverified.
 - [x] **Exact next:** fresh census continuation over remaining older partially-verified records.
+
+
+### 2026-09-25 completion — PQ↔skill validator 470-baseline correction
+- [x] Corrected `scripts/validate_pq_skill_links.py` from the stale 469-skill invariant to the live **470** canonical skill baseline.
+- [x] Preserved the established **186 PQ / 244 forward-edge** expectations; no relationship data was changed.
+- [x] Post-write inspection confirms both validator 470-count checks are updated.
+- [ ] Generated cross-link report remains historical until the validator can be executed; CI remains unverified.
+- [x] **Exact next:** execute/reconcile the validator when execution is available, then resume the next fresh thin-record/current-evidence skill batch.
