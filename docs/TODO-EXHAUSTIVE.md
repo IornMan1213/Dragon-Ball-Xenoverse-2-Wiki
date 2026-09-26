@@ -833,3 +833,11 @@
 - [x] Added four Batch 394 evidence audits plus `docs/data/skill-research-batches/skill-batch-394.json` and registered them in the cross-domain registry.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Exact next: fresh census excluding Batch 381–394 targets, then continue the next thinnest records.
+
+
+### 2026-09-25 cycle completion — Skill Batch 395 mechanics deepening
+- [x] Fresh post-Batch-394 census selected the next thin frontier; deepened **Eagle Kick, Sonic Rush, Saiyan Blaster, Shooting Strike, Soaring Rush**.
+- [x] Added explicit current mechanics including Eagle Kick's jump-use/single-hit behavior, Sonic Rush's six-hit knockdown and 15% damage, Saiyan Blaster's 400-Stamina pillar/barrier and Awoken integration, Shooting Strike's beam-to-teleport-kick sequence and 10% damage, and Soaring Rush's documented Power Pole chase/follow-up behavior.
+- [x] Synchronized canonical/index records and added five evidence audits plus `skill-batch-395.json`; registered artifacts in the cross-domain registry.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Exact next: fresh census excluding Batch 381–395 targets, then continue the next thinnest records.
