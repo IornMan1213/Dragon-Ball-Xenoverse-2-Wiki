@@ -1594,3 +1594,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build status remains unverified; no workflow success is claimed.
 - [ ] Repository efficiency addendum remains unavailable at the expected path; GitHub returns 404.
 - [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 462 and all prior current-evidence-audited records.
+
+
+### 2026-09-26 TODO progress update — Skill Research Batch 463 completed
+- [x] Researched **Final Rampage, Perfect Kamehameha, Shocking Death Ball, Spirit Sword, Super Afterimage, Hell Flash, Punisher Shield, and Fake Death**.
+- [x] Enriched/synchronized canonical and index datasets; parity remains **474/474**.
+- [x] Added Batch 463 research/thin-frontier artifacts, eight current-evidence audits, and provenance registrations.
+- [x] Preserved evidence boundaries; unsupported exact frames, scaling, probabilities, hidden conditions, and patch-independent scaling remain unresolved.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 463 and all prior current-evidence-audited records.
