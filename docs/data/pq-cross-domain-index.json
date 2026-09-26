@@ -1369,5 +1369,15 @@
   "skill_angry-hit_current_evidence_audit_2026_09_26_batch_448": "docs/data/skill-angry-hit-current-evidence-audit-2026-09-26-batch-448.json",
   "skill_meteor-strike_current_evidence_audit_2026_09_26_batch_448": "docs/data/skill-meteor-strike-current-evidence-audit-2026-09-26-batch-448.json",
   "skill_mystic-flash_current_evidence_audit_2026_09_26_batch_448": "docs/data/skill-mystic-flash-current-evidence-audit-2026-09-26-batch-448.json",
-  "skill_wall-of-defense_current_evidence_audit_2026_09_26_batch_448": "docs/data/skill-wall-of-defense-current-evidence-audit-2026-09-26-batch-448.json"
+  "skill_wall-of-defense_current_evidence_audit_2026_09_26_batch_448": "docs/data/skill-wall-of-defense-current-evidence-audit-2026-09-26-batch-448.json",
+  "skill_batch_449": "docs/data/skill-research-batches/skill-batch-449.json",
+  "skill_batch_449_thin_frontier": "docs/data/skill-research-batches/skill-batch-449-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_purification_current_evidence_audit_2026_09_26_batch_449": "docs/data/skill-purification-current-evidence-audit-2026-09-26-batch-449.json",
+  "skill_brave-sword-slash_current_evidence_audit_2026_09_26_batch_449": "docs/data/skill-brave-sword-slash-current-evidence-audit-2026-09-26-batch-449.json",
+  "skill_unrelenting-barrage_current_evidence_audit_2026_09_26_batch_449": "docs/data/skill-unrelenting-barrage-current-evidence-audit-2026-09-26-batch-449.json",
+  "skill_burning-slash_current_evidence_audit_2026_09_26_batch_449": "docs/data/skill-burning-slash-current-evidence-audit-2026-09-26-batch-449.json",
+  "skill_turn-golden_current_evidence_audit_2026_09_26_batch_449": "docs/data/skill-turn-golden-current-evidence-audit-2026-09-26-batch-449.json",
+  "skill_gigantic-explosion_current_evidence_audit_2026_09_26_batch_449": "docs/data/skill-gigantic-explosion-current-evidence-audit-2026-09-26-batch-449.json",
+  "skill_burst-blitz_current_evidence_audit_2026_09_26_batch_449": "docs/data/skill-burst-blitz-current-evidence-audit-2026-09-26-batch-449.json",
+  "skill_power-pole-pro_current_evidence_audit_2026_09_26_batch_449": "docs/data/skill-power-pole-pro-current-evidence-audit-2026-09-26-batch-449.json"
 }
