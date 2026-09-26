@@ -1360,3 +1360,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build status remains unverified; no workflow success is claimed.
 - [ ] Repository efficiency addendum remains unavailable at the expected path; GitHub returns 404.
 - [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 439 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
+
+
+### 2026-09-26 TODO progress update — Skill Research Batch 440 completed
+- [x] Fresh 474-record unaudited mechanics frontier census selected **Paralyze Beam, Super Afterimage, Flash Strike, and Finishing Blow** as the next four shortest under-detailed records.
+- [x] Enriched and synchronized all four records in `docs/data/skills.json` and `docs/data/skills-index.json`; canonical/index remain 474/474.
+- [x] Added four current-evidence audits, Batch 440 research data, thin-frontier audit, and six provenance registry entries.
+- [x] Preserved evidence boundaries: exact frames, exact damage/scaling, exact drop probabilities, hidden conditions, and formalization of community timing techniques remain unresolved where not directly evidenced.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [ ] Repository efficiency addendum remains unavailable at the expected path; GitHub returns 404.
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 440 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
