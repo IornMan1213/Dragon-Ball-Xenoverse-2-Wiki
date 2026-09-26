@@ -1,0 +1,1959 @@
+{
+  "schema_version": "1.0",
+  "generated_on": "2026-09-26",
+  "scope": "Canonical skill dataset → Parallel Quest reverse navigation",
+  "source": "docs/data/skills.json",
+  "canonical_skill_count": 474,
+  "represented_pq_count": 170,
+  "total_skill_pq_edges": 246,
+  "pq_ids": {
+    "1": {
+      "skill_count": 0,
+      "skill_ids": [],
+      "skills": [],
+      "relationship_status": "no_canonical_skill_endpoint_in_current_skill_corpus"
+    },
+    "2": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-spirit-slash"
+      ],
+      "skills": [
+        "Spirit Slash"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "3": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-solar-flare"
+      ],
+      "skills": [
+        "Solar Flare"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "4": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-paralyze-beam"
+      ],
+      "skills": [
+        "Paralyze Beam"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "5": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-kamehameha"
+      ],
+      "skills": [
+        "Kamehameha"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "6": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-meteor-strike"
+      ],
+      "skills": [
+        "Meteor Strike"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "7": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-shine-shot"
+      ],
+      "skills": [
+        "Shine Shot"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "8": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-kaioken"
+      ],
+      "skills": [
+        "Kaioken"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "9": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-meteor-blow"
+      ],
+      "skills": [
+        "Meteor Blow"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "10": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-unrelenting-barrage",
+        "skill-wall-of-defense"
+      ],
+      "skills": [
+        "Unrelenting Barrage",
+        "Wall of Defense"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "11": {
+      "skill_count": 3,
+      "skill_ids": [
+        "skill-earth-splitting-galick-gun",
+        "skill-mach-dash",
+        "skill-time-control"
+      ],
+      "skills": [
+        "Earth Splitting Galick Gun",
+        "Mach Dash",
+        "Time Control"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "12": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-meteor-crash"
+      ],
+      "skills": [
+        "Meteor Crash"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "13": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-fighting-pose-c",
+        "skill-psycho-escape"
+      ],
+      "skills": [
+        "Fighting Pose C",
+        "Psycho Escape"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "14": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-kaioken-kamehameha"
+      ],
+      "skills": [
+        "Kaioken Kamehameha"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "15": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-fighting-pose-d"
+      ],
+      "skills": [
+        "Fighting Pose D"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "16": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-fighting-pose-b"
+      ],
+      "skills": [
+        "Fighting Pose B"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "17": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-fighting-pose-j"
+      ],
+      "skills": [
+        "Fighting Pose J"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "18": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-mach-dash",
+        "skill-time-control"
+      ],
+      "skills": [
+        "Mach Dash",
+        "Time Control"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "19": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-fighting-pose-e",
+        "skill-mach-punch"
+      ],
+      "skills": [
+        "Fighting Pose E",
+        "Mach Punch"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "20": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-mystic-flash"
+      ],
+      "skills": [
+        "Mystic Flash"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "21": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-evil-flight-strike"
+      ],
+      "skills": [
+        "Evil Flight Strike"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "22": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-energy-shot"
+      ],
+      "skills": [
+        "Energy Shot"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "23": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-death-slash"
+      ],
+      "skills": [
+        "Death Slash"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "24": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-double-death-slicer"
+      ],
+      "skills": [
+        "Double Death Slicer"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "25": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-spirit-explosion"
+      ],
+      "skills": [
+        "Spirit Explosion"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "26": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-crazy-finger-shot"
+      ],
+      "skills": [
+        "Crazy Finger Shot"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "27": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-sauzer-blade"
+      ],
+      "skills": [
+        "Sauzer Blade"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "28": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-spread-shot-retreat"
+      ],
+      "skills": [
+        "Spread Shot Retreat"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "29": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-energy-field",
+        "skill-freedom-kick"
+      ],
+      "skills": [
+        "Energy Field",
+        "Freedom Kick"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "30": {
+      "skill_count": 0,
+      "skill_ids": [],
+      "skills": [],
+      "relationship_status": "no_canonical_skill_endpoint_in_current_skill_corpus"
+    },
+    "31": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-super-dragon-flight"
+      ],
+      "skills": [
+        "Super Dragon Flight"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "32": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-energy-barrier"
+      ],
+      "skills": [
+        "Energy Barrier"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "33": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-death-psycho-bomb"
+      ],
+      "skills": [
+        "Death Psycho Bomb"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "34": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-crusher-ball",
+        "skill-paralysis"
+      ],
+      "skills": [
+        "Crusher Ball",
+        "Paralysis"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "35": {
+      "skill_count": 0,
+      "skill_ids": [],
+      "skills": [],
+      "relationship_status": "no_canonical_skill_endpoint_in_current_skill_corpus"
+    },
+    "36": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-evil-whirlwind"
+      ],
+      "skills": [
+        "Evil Whirlwind"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "37": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-instant-rise"
+      ],
+      "skills": [
+        "Instant Rise"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "38": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-shining-slash"
+      ],
+      "skills": [
+        "Shining Slash"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "39": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-side-bridge"
+      ],
+      "skills": [
+        "Side Bridge"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "40": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-heat-dome-attack"
+      ],
+      "skills": [
+        "Heat Dome Attack"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "41": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-burning-attack"
+      ],
+      "skills": [
+        "Burning Attack"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "42": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-rolling-bullet"
+      ],
+      "skills": [
+        "Rolling Bullet"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "43": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-change-the-future"
+      ],
+      "skills": [
+        "Change The Future"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "44": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-burning-slash",
+        "skill-god-breaker"
+      ],
+      "skills": [
+        "Burning Slash",
+        "God Breaker"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "45": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-taunt"
+      ],
+      "skills": [
+        "Taunt"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "46": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-chain-destructo-disc-barrage"
+      ],
+      "skills": [
+        "Chain Destructo-Disc Barrage"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "47": {
+      "skill_count": 0,
+      "skill_ids": [],
+      "skills": [],
+      "relationship_status": "no_canonical_skill_endpoint_in_current_skill_corpus"
+    },
+    "48": {
+      "skill_count": 0,
+      "skill_ids": [],
+      "skills": [],
+      "relationship_status": "no_canonical_skill_endpoint_in_current_skill_corpus"
+    },
+    "49": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-do-or-die"
+      ],
+      "skills": [
+        "Do or Die"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "50": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-explosive-buu-buu-punch"
+      ],
+      "skills": [
+        "Explosive Buu Buu Punch"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "51": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-burst-rush"
+      ],
+      "skills": [
+        "Burst Rush"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "52": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-final-cannon"
+      ],
+      "skills": [
+        "Final Cannon"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "53": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-justice-pose"
+      ],
+      "skills": [
+        "Justice Pose"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "54": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-victory-cannon"
+      ],
+      "skills": [
+        "Victory Cannon"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "55": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-super-donut-volley"
+      ],
+      "skills": [
+        "Super Donut Volley"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "56": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-stone-bullet"
+      ],
+      "skills": [
+        "Stone Bullet"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "57": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-rakshasa-s-claw"
+      ],
+      "skills": [
+        "Rakshasa's Claw"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "58": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-vanishing-ball"
+      ],
+      "skills": [
+        "Vanishing Ball"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "59": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-dimension-cannon",
+        "skill-force-shield"
+      ],
+      "skills": [
+        "Dimension Cannon",
+        "Force Shield"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "60": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-majin-kamehameha"
+      ],
+      "skills": [
+        "Majin Kamehameha"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "61": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-fighting-pose-h",
+        "skill-recoome-kick"
+      ],
+      "skills": [
+        "Fighting Pose H",
+        "Recoome Kick"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "62": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-teleporting-vanishing-ball"
+      ],
+      "skills": [
+        "Teleporting Vanishing Ball"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "63": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-kai-kai"
+      ],
+      "skills": [
+        "Kai Kai"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "64": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-ill-rain"
+      ],
+      "skills": [
+        "Ill Rain"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "65": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-scissors-paper-rock"
+      ],
+      "skills": [
+        "Scissors Paper Rock"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "66": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-candy-beam",
+        "skill-warp-kamehameha"
+      ],
+      "skills": [
+        "Candy Beam",
+        "Warp Kamehameha"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "67": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-super-god-fist"
+      ],
+      "skills": [
+        "Super God Fist"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "68": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-angry-shout"
+      ],
+      "skills": [
+        "Angry Shout"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "69": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-headshot"
+      ],
+      "skills": [
+        "Headshot"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "70": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-emperor-s-blast"
+      ],
+      "skills": [
+        "Emperor's Blast"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "71": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-last-emperor"
+      ],
+      "skills": [
+        "Last Emperor"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "72": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-burst-kamehameha"
+      ],
+      "skills": [
+        "Burst Kamehameha"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "73": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-psychic-move"
+      ],
+      "skills": [
+        "Psychic Move"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "74": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-final-pose"
+      ],
+      "skills": [
+        "Final Pose"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "75": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-counter-burst"
+      ],
+      "skills": [
+        "Counter Burst"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "76": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-warp-kamehameha"
+      ],
+      "skills": [
+        "Warp Kamehameha"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "77": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-ki-explosion"
+      ],
+      "skills": [
+        "Ki Explosion"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "78": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-dust-attack"
+      ],
+      "skills": [
+        "Dust Attack"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "79": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-mighty-explosive-wave"
+      ],
+      "skills": [
+        "Mighty Explosive Wave"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "80": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-dimensional-hole"
+      ],
+      "skills": [
+        "Dimensional Hole"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "81": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-afterimage-strike"
+      ],
+      "skills": [
+        "Afterimage Strike"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "82": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-dragon-burn"
+      ],
+      "skills": [
+        "Dragon Burn"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "83": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-charge"
+      ],
+      "skills": [
+        "Charge"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "84": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-saiyan-spirit"
+      ],
+      "skills": [
+        "Saiyan Spirit"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "85": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-zigzag-express"
+      ],
+      "skills": [
+        "Zigzag Express"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "86": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-neo-wolf-fang-fist"
+      ],
+      "skills": [
+        "Neo Wolf Fang Fist"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "87": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-atomic-blast"
+      ],
+      "skills": [
+        "Atomic Blast"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "88": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-buu-buu-ball"
+      ],
+      "skills": [
+        "Buu Buu Ball"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "89": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-victory-rush"
+      ],
+      "skills": [
+        "Victory Rush"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "90": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-ill-bomber"
+      ],
+      "skills": [
+        "Ill Bomber"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "91": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-final-kamehameha"
+      ],
+      "skills": [
+        "Final Kamehameha"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "92": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-maiden-burst"
+      ],
+      "skills": [
+        "Maiden Burst"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "93": {
+      "skill_count": 0,
+      "skill_ids": [],
+      "skills": [],
+      "relationship_status": "no_canonical_skill_endpoint_in_current_skill_corpus"
+    },
+    "94": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-bluff-kamehameha"
+      ],
+      "skills": [
+        "Bluff Kamehameha"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "95": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-drain-field",
+        "skill-flash-bomber"
+      ],
+      "skills": [
+        "Drain Field",
+        "Flash Bomber"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "96": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-absolute-zero"
+      ],
+      "skills": [
+        "Absolute Zero"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "97": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-charged-ki-wave",
+        "skill-phantom-fist"
+      ],
+      "skills": [
+        "Charged Ki Wave",
+        "Phantom Fist"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "98": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-dimension-ray"
+      ],
+      "skills": [
+        "Dimension Ray"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "99": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-emperor-s-edge"
+      ],
+      "skills": [
+        "Emperor's Edge"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "100": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-x-100-big-bang-kamehameha"
+      ],
+      "skills": [
+        "X 100 Big Bang Kamehameha"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "101": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-breaker-energy-wave"
+      ],
+      "skills": [
+        "Breaker Energy Wave"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "102": {
+      "skill_count": 0,
+      "skill_ids": [],
+      "skills": [],
+      "relationship_status": "no_canonical_skill_endpoint_in_current_skill_corpus"
+    },
+    "103": {
+      "skill_count": 0,
+      "skill_ids": [],
+      "skills": [],
+      "relationship_status": "no_canonical_skill_endpoint_in_current_skill_corpus"
+    },
+    "104": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-destruction-s-concerto-comet",
+        "skill-destruction-s-concerto-starfall"
+      ],
+      "skills": [
+        "Destruction's Concerto: Comet",
+        "Destruction's Concerto: Starfall"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "105": {
+      "skill_count": 3,
+      "skill_ids": [
+        "skill-god-of-destruction-s-menace",
+        "skill-god-of-destruction-s-roar",
+        "skill-sonic-bomb"
+      ],
+      "skills": [
+        "God of Destruction's Menace",
+        "God of Destruction's Roar",
+        "Sonic Bomb"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "106": {
+      "skill_count": 3,
+      "skill_ids": [
+        "skill-destruction-s-concerto-meteor",
+        "skill-destruction-s-conductor",
+        "skill-requiem-of-destruction"
+      ],
+      "skills": [
+        "Destruction's Concerto: Meteor",
+        "Destruction's Conductor",
+        "Requiem of Destruction"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "107": {
+      "skill_count": 0,
+      "skill_ids": [],
+      "skills": [],
+      "relationship_status": "no_canonical_skill_endpoint_in_current_skill_corpus"
+    },
+    "108": {
+      "skill_count": 0,
+      "skill_ids": [],
+      "skills": [],
+      "relationship_status": "no_canonical_skill_endpoint_in_current_skill_corpus"
+    },
+    "109": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-super-black-kamehameha-rose"
+      ],
+      "skills": [
+        "Super Black Kamehameha Rosé"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "110": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-divinity-unleashed"
+      ],
+      "skills": [
+        "Divinity Unleashed"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "111": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-holy-wrath",
+        "skill-lightning-of-absolution"
+      ],
+      "skills": [
+        "Holy Wrath",
+        "Lightning of Absolution"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "112": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-blades-of-judgment",
+        "skill-divine-wrath-purification"
+      ],
+      "skills": [
+        "Blades of Judgment",
+        "Divine Wrath: Purification"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "113": {
+      "skill_count": 3,
+      "skill_ids": [
+        "skill-candy-beam",
+        "skill-candy-beam-super",
+        "skill-super-ghost-buu-attack"
+      ],
+      "skills": [
+        "Candy Beam",
+        "Candy Beam (Super)",
+        "Super Ghost Buu Attack"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "114": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-evil-blast",
+        "skill-petrifying-spit"
+      ],
+      "skills": [
+        "Evil Blast",
+        "Petrifying Spit"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "115": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-handy-canon",
+        "skill-s-s-deadly-bomber"
+      ],
+      "skills": [
+        "Handy Canon",
+        "S.S. Deadly Bomber"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "116": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-brave-sword-slash",
+        "skill-hero-s-flute"
+      ],
+      "skills": [
+        "Brave Sword Slash",
+        "Hero's Flute"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "117": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-brave-sword-attack",
+        "skill-evil-flame"
+      ],
+      "skills": [
+        "Brave Sword Attack",
+        "Evil Flame"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "118": {
+      "skill_count": 0,
+      "skill_ids": [],
+      "skills": [],
+      "relationship_status": "no_canonical_skill_endpoint_in_current_skill_corpus"
+    },
+    "119": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-rough-ranger"
+      ],
+      "skills": [
+        "Rough Ranger"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "120": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-power-impact"
+      ],
+      "skills": [
+        "Power Impact"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "121": {
+      "skill_count": 0,
+      "skill_ids": [],
+      "skills": [],
+      "relationship_status": "no_canonical_skill_endpoint_in_current_skill_corpus"
+    },
+    "122": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-meditation",
+        "skill-power-rush"
+      ],
+      "skills": [
+        "Meditation",
+        "Power Rush"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "123": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-reverse-shot",
+        "skill-variant-drive"
+      ],
+      "skills": [
+        "Reverse Shot",
+        "Variant Drive"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "124": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-revenge-final-flash"
+      ],
+      "skills": [
+        "Revenge Final Flash"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "125": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-blaster-ball",
+        "skill-ray-blast"
+      ],
+      "skills": [
+        "Blaster Ball",
+        "Ray Blast"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "126": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-gigantic-breaker"
+      ],
+      "skills": [
+        "Gigantic Breaker"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "127": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-gigantic-burst",
+        "skill-revenge-death-ball"
+      ],
+      "skills": [
+        "Gigantic Burst",
+        "Revenge Death Ball"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "128": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-gigantic-charge",
+        "skill-powered-shell"
+      ],
+      "skills": [
+        "Gigantic Charge",
+        "Powered Shell"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "129": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-punisher-shield",
+        "skill-spirit-blaster"
+      ],
+      "skills": [
+        "Punisher Shield",
+        "Spirit Blaster"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "130": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-gigantic-rage"
+      ],
+      "skills": [
+        "Gigantic Rage"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "131": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-assault-vanish"
+      ],
+      "skills": [
+        "Assault Vanish"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "132": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-gigantic-roar",
+        "skill-god-punisher"
+      ],
+      "skills": [
+        "Gigantic Roar",
+        "God Punisher"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "133": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-formation",
+        "skill-pretty-cannon"
+      ],
+      "skills": [
+        "Formation!",
+        "Pretty Cannon"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "134": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-burst-charge",
+        "skill-ultimate-charge"
+      ],
+      "skills": [
+        "Burst Charge",
+        "Ultimate Charge"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "135": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-lovely-cyclone"
+      ],
+      "skills": [
+        "Lovely Cyclone"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "136": {
+      "skill_count": 3,
+      "skill_ids": [
+        "skill-blazing-attack",
+        "skill-burst-stinger",
+        "skill-raid-blast"
+      ],
+      "skills": [
+        "Blazing Attack",
+        "Burst Stinger",
+        "Raid Blast"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "137": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-prominence-flash",
+        "skill-ribrianne-s-eternal-love"
+      ],
+      "skills": [
+        "Prominence Flash",
+        "Ribrianne's Eternal Love"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "138": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-flash-chaser"
+      ],
+      "skills": [
+        "Flash Chaser"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "139": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-photon-swipe",
+        "skill-total-detonation-ball"
+      ],
+      "skills": [
+        "Photon Swipe",
+        "Total Detonation Ball"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "140": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-savory-slicer"
+      ],
+      "skills": [
+        "Savory Slicer"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "141": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-brutal-buster",
+        "skill-dragon-blitz"
+      ],
+      "skills": [
+        "Brutal Buster",
+        "Dragon Blitz"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "142": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-excellent-full-course",
+        "skill-lightning-impact"
+      ],
+      "skills": [
+        "Excellent Full Course",
+        "Lightning Impact"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "143": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-burning-shot",
+        "skill-hyper-tornado"
+      ],
+      "skills": [
+        "Burning Shot",
+        "Hyper Tornado"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "144": {
+      "skill_count": 0,
+      "skill_ids": [],
+      "skills": [],
+      "relationship_status": "no_canonical_skill_endpoint_in_current_skill_corpus"
+    },
+    "145": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-destructive-flare",
+        "skill-destructive-fracture"
+      ],
+      "skills": [
+        "Destructive Flare",
+        "Destructive Fracture"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "146": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-destructive-fission",
+        "skill-thunder-flash"
+      ],
+      "skills": [
+        "Destructive Fission",
+        "Thunder Flash"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "147": {
+      "skill_count": 3,
+      "skill_ids": [
+        "skill-crush-cannon",
+        "skill-crush-stream",
+        "skill-double-crush"
+      ],
+      "skills": [
+        "Crush Cannon",
+        "Crush Stream",
+        "Double Crush"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "148": {
+      "skill_count": 3,
+      "skill_ids": [
+        "skill-blaster-bomb",
+        "skill-blaster-cannon",
+        "skill-blaster-stream"
+      ],
+      "skills": [
+        "Blaster Bomb",
+        "Blaster Cannon",
+        "Blaster Stream"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "149": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-comet-strike",
+        "skill-meteor-explosion"
+      ],
+      "skills": [
+        "Comet Strike",
+        "Meteor Explosion"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "150": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-impact-flare",
+        "skill-power-wall"
+      ],
+      "skills": [
+        "Impact Flare",
+        "Power Wall"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "151": {
+      "skill_count": 3,
+      "skill_ids": [
+        "skill-celestial-wave",
+        "skill-spirit-pulse",
+        "skill-ultrasonic-blitz"
+      ],
+      "skills": [
+        "Celestial Wave",
+        "Spirit Pulse",
+        "Ultrasonic Blitz"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "152": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-justice-blade",
+        "skill-justice-kick"
+      ],
+      "skills": [
+        "Justice Blade",
+        "Justice Kick"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "153": {
+      "skill_count": 3,
+      "skill_ids": [
+        "skill-counter-impact",
+        "skill-shield-barrier",
+        "skill-wild-buster"
+      ],
+      "skills": [
+        "Counter Impact",
+        "Shield Barrier",
+        "Wild Buster"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "154": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-circle-flash",
+        "skill-sign-of-awakening"
+      ],
+      "skills": [
+        "Circle Flash",
+        "Sign of Awakening"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "155": {
+      "skill_count": 3,
+      "skill_ids": [
+        "skill-gamma-blaster",
+        "skill-gamma-impact",
+        "skill-heroic-counter"
+      ],
+      "skills": [
+        "Gamma Blaster",
+        "Gamma Impact",
+        "Heroic Counter"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "156": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-heroic-assault",
+        "skill-shooting-strike"
+      ],
+      "skills": [
+        "Heroic Assault",
+        "Shooting Strike"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "157": {
+      "skill_count": 0,
+      "skill_ids": [],
+      "skills": [],
+      "relationship_status": "no_canonical_skill_endpoint_in_current_skill_corpus"
+    },
+    "158": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-core-breaker",
+        "skill-super-gamma-blast"
+      ],
+      "skills": [
+        "Core Breaker",
+        "Super Gamma Blast"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "159": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-demonic-destruction",
+        "skill-fierce-fist"
+      ],
+      "skills": [
+        "Demonic Destruction",
+        "Fierce Fist"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "160": {
+      "skill_count": 3,
+      "skill_ids": [
+        "skill-demon-flash-strike",
+        "skill-demon-flurry",
+        "skill-demon-ray"
+      ],
+      "skills": [
+        "Demon Flash Strike",
+        "Demon Flurry",
+        "Demon Ray"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "161": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-apocalyptic-burst"
+      ],
+      "skills": [
+        "Apocalyptic Burst"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "162": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-special-beam-cannon-beast"
+      ],
+      "skills": [
+        "Special Beam Cannon (Beast)"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "163": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-eraser-bomb",
+        "skill-giant-cluster"
+      ],
+      "skills": [
+        "Eraser Bomb",
+        "Gigantic Cluster"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "164": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-gigantic-explosion"
+      ],
+      "skills": [
+        "Gigantic Explosion"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "165": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-steel-mirage",
+        "skill-variable-snipe-shot"
+      ],
+      "skills": [
+        "Steel Mirage",
+        "Variable Snipe Shot"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "166": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-pendulum-bullet"
+      ],
+      "skills": [
+        "Pendulum Bullet"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "167": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-burning-swan",
+        "skill-seagull-combination"
+      ],
+      "skills": [
+        "Burning Swan",
+        "Seagull Combination"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "168": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-justice-drive"
+      ],
+      "skills": [
+        "Justice Drive"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "169": {
+      "skill_count": 0,
+      "skill_ids": [],
+      "skills": [],
+      "relationship_status": "no_canonical_skill_endpoint_in_current_skill_corpus"
+    },
+    "170": {
+      "skill_count": 0,
+      "skill_ids": [],
+      "skills": [],
+      "relationship_status": "no_canonical_skill_endpoint_in_current_skill_corpus"
+    },
+    "171": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-crimson-edge",
+        "skill-divine-spear"
+      ],
+      "skills": [
+        "Crimson Edge",
+        "Divine Spear"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "172": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-big-bang-knuckle",
+        "skill-wild-stinger"
+      ],
+      "skills": [
+        "Big Bang Knuckle",
+        "Wild Stinger"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "173": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-divine-ray-bomb"
+      ],
+      "skills": [
+        "Divine Ray Bomb"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "174": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-final-rampage"
+      ],
+      "skills": [
+        "Final Rampage"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "175": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-god-of-destruction-s-plaything",
+        "skill-god-of-destruction-s-poise"
+      ],
+      "skills": [
+        "God of Destruction's Plaything",
+        "God of Destruction's Poise"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "176": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-god-of-destruction-s-might"
+      ],
+      "skills": [
+        "God of Destruction's Might"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "177": {
+      "skill_count": 3,
+      "skill_ids": [
+        "skill-dragon-spark",
+        "skill-full-power-destruction",
+        "skill-soaring-rush"
+      ],
+      "skills": [
+        "Dragon Spark",
+        "Full Power Destruction",
+        "Soaring Rush"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "178": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-burst-blitz"
+      ],
+      "skills": [
+        "Burst Blitz"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "179": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-heat-wave",
+        "skill-supreme-fury"
+      ],
+      "skills": [
+        "Heat Wave",
+        "Supreme Fury"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "180": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-burning-blast",
+        "skill-force-edge"
+      ],
+      "skills": [
+        "Burning Blast",
+        "Force Edge"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "181": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-final-flash-ss3-daima",
+        "skill-super-kamehameha-ss4-daima"
+      ],
+      "skills": [
+        "Final Flash (SS3 DAIMA)",
+        "Super Kamehameha (SS4 DAIMA)"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "182": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-dark-inscription"
+      ],
+      "skills": [
+        "Dark Inscription"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "183": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-emperor-s-cannon"
+      ],
+      "skills": [
+        "Emperor's Cannon"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "184": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-chaotic-time-impact"
+      ],
+      "skills": [
+        "Chaotic Time Impact"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "185": {
+      "skill_count": 2,
+      "skill_ids": [
+        "skill-dragon-spiral",
+        "skill-indomitable"
+      ],
+      "skills": [
+        "Dragon Spiral",
+        "Indomitable"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    },
+    "186": {
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-venus-fist"
+      ],
+      "skills": [
+        "Venus Fist"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
+    }
+  }
+}
