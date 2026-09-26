@@ -1,0 +1,22 @@
+{
+  "batch": 450,
+  "date": "2026-09-26",
+  "type": "thin_frontier_mechanics_audit",
+  "selected": [
+    "Ray Blast",
+    "Emperor's Blast",
+    "Final Cannon",
+    "Godly Chronos Cannon",
+    "Vanishing Ball",
+    "Evil Whirlwind",
+    "God of Destruction's Rampage",
+    "Emperor's Death Beam"
+  ],
+  "method": "Fresh combined mechanics/notes coverage census over the live 474-record canonical skill set, excluding every skill with a registered current-evidence audit. The eight shortest remaining records were selected and rechecked against current skill-specific references.",
+  "evidence_boundaries": [
+    "Source-reported damage remains source-bound.",
+    "Exact frame data and patch-independent scaling formulas are not inferred.",
+    "Acquisition endpoints remain separate from reward probabilities.",
+    "Current evidence was used to resolve the stale Emperor's Blast/Hercule attribution."
+  ]
+}
