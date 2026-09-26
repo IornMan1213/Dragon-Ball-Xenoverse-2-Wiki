@@ -1,0 +1,15 @@
+{
+  "skill_id": "skill-power-impact",
+  "skill_name": "Power Impact",
+  "batch": 480,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Ki Blast Super; 5 base hits, up to 15 fully charged; source-reported 1.5% Ultimate Attack boost for 20 seconds; Jiren Full Power variant lacks the boost.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Power_Impact",
+    "https://dragonball.fandom.com/wiki/Power_Impact",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76369630"
+  ],
+  "evidence_boundary": "Current-source behavior and numerical values are preserved as source-bound evidence. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

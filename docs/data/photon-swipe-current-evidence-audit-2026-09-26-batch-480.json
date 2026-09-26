@@ -1,0 +1,15 @@
+{
+  "skill_id": "skill-photon-swipe",
+  "skill_name": "Photon Swipe",
+  "batch": 480,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Ki Blast Super; Android 21; left-fingertip beam sweeps right-to-left; source reports about 5% damage and knockback; PQ139 UF bonus route.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Photon_Swipe",
+    "https://videogaming.fandom.com/wiki/Photon_Swipe",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "evidence_boundary": "Current-source behavior and numerical values are preserved as source-bound evidence. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

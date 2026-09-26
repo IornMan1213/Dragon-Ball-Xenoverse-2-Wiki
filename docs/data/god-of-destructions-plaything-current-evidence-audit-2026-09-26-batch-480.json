@@ -1,0 +1,15 @@
+{
+  "skill_id": "skill-god-of-destructions-plaything",
+  "skill_name": "God of Destruction's Plaything",
+  "batch": 480,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Ki Blast Super used by Belmod; one to three returning blasts with charge-controlled count/distance; immediate Boost Dash/Step option; PQ175 acquisition with reward-tier conflict preserved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Plaything",
+    "https://videogaming.fandom.com/wiki/God_of_Destruction%27s_Plaything",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "evidence_boundary": "Current-source behavior and numerical values are preserved as source-bound evidence. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

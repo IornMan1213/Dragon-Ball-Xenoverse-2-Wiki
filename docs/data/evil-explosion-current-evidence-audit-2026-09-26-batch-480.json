@@ -1,0 +1,14 @@
+{
+  "skill_id": "skill-evil-explosion",
+  "skill_name": "Evil Explosion",
+  "batch": 480,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Ki Blast Super; three charge stages; Level 3 Super Saiyan teleport interaction; substantial stamina damage on block at full charge.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Evil_Explosion_%28Super%29",
+    "https://dragonball.fandom.com/wiki/Evil_Explosion"
+  ],
+  "evidence_boundary": "Current-source behavior and numerical values are preserved as source-bound evidence. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

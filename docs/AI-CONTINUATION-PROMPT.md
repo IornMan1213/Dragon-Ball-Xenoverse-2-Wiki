@@ -1,3 +1,14 @@
+### 2026-09-26 continuation — Batch 480 canonical mechanics enrichment
+
+- [x] Read and reconciled the live continuation/TODO state before continuing.
+- [x] Performed a fresh unaudited mechanics frontier excluding every skill ID represented by a registered current-evidence audit.
+- [x] Selected and researched **Evil Explosion, Prominence Flash, Ill Rain, Power Impact, Gigantic Cross, Full Power Destruction, Photon Swipe, God of Destruction's Plaything** as Batch 480.
+- [x] Added eight dedicated current-evidence audit artifacts, Batch 480 research/thin-frontier artifacts, and registry entries.
+- [x] Synchronized all eight records into both canonical skill datasets; canonical/index remain **474/474**.
+- [x] Corrected stale **Photon Swipe** character attribution from **Toppo** to **Android 21** using current skill-specific evidence.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [x] **Exact next:** run a fresh unaudited mechanics frontier census excluding Batch 480 and every prior registered current-evidence audit, then continue the canonical research/synchronization cycle.
+
 ### 2026-09-26 continuation — Batch 479 canonical mechanics enrichment
 
 - [x] Read live continuation/TODO state and performed a fresh mechanics frontier excluding registered current-evidence audits.

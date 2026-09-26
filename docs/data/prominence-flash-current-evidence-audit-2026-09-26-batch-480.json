@@ -1,0 +1,15 @@
+{
+  "skill_id": "skill-prominence-flash",
+  "skill_name": "Prominence Flash",
+  "batch": 480,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "300-Ki Ki Blast Ultimate; chargeable/repeated Ki-wave output increases damage; PQ137 Basic Reward evidence; no UF gate inferred.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Prominence_Flash",
+    "https://videogaming.fandom.com/wiki/Prominence_Flash",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "evidence_boundary": "Current-source behavior and numerical values are preserved as source-bound evidence. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

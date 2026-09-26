@@ -1,3 +1,11 @@
+### 2026-09-26 TODO progress update — Skill Research Batch 480 completed
+- [x] Fresh 474-record mechanics frontier excluded every skill with a registered current-evidence audit and selected **Evil Explosion, Prominence Flash, Ill Rain, Power Impact, Gigantic Cross, Full Power Destruction, Photon Swipe, God of Destruction's Plaything**.
+- [x] Enriched and synchronized all eight records in `docs/data/skills.json` and `docs/data/skills-index.json`; parity remains **474/474**, with 0 missing / 0 extra IDs.
+- [x] Added eight current-evidence audits, Batch 480 research/thin-frontier artifacts, and provenance registrations.
+- [x] Corrected stale Photon Swipe character-source attribution to **Android 21**.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 480 and all prior current-evidence-audited records.
+
 ### 2026-09-26 TODO progress update — Skill Research Batch 479 completed
 - [x] Fresh 474-record mechanics frontier selected **Taunt, Demonic Destruction, Neo Tri-Beam, Divine Lasso, Chaotic Time Impact, Gamma Impact, Gigantic Nova, Brutal Buster** after excluding all registered current-evidence-audited skills.
 - [x] Enriched/synchronized all eight records; canonical/index remain **474/474**, **0 missing / 0 extra**.

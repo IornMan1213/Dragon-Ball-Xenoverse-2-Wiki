@@ -1,0 +1,14 @@
+{
+  "skill_id": "skill-ill-rain",
+  "skill_name": "Ill Rain",
+  "batch": 480,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Ki Blast Super; orb lingers then splits into three tracking projectiles; source reports 15% damage per connecting projectile; PQ64 Basic Reward.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Ill_Rain",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "evidence_boundary": "Current-source behavior and numerical values are preserved as source-bound evidence. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

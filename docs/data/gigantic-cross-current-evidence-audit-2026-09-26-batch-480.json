@@ -1,0 +1,14 @@
+{
+  "skill_id": "skill-gigantic-cross",
+  "skill_name": "Gigantic Cross",
+  "batch": 480,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki chargeable Ki Blast Super; green mouth-generated projectile arcs upward and ends in an explosion; charge increases damage; Patrol 04 acquisition.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Gigantic_Cross",
+    "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content"
+  ],
+  "evidence_boundary": "Current-source behavior and numerical values are preserved as source-bound evidence. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

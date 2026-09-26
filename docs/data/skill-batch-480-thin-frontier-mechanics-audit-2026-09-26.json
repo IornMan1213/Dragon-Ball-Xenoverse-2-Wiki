@@ -1,0 +1,38 @@
+{
+  "batch": 480,
+  "date": "2026-09-26",
+  "scope": "Thin mechanics frontier audit",
+  "selected": [
+    {
+      "skill_name": "Evil Explosion"
+    },
+    {
+      "skill_name": "Prominence Flash"
+    },
+    {
+      "skill_name": "Ill Rain"
+    },
+    {
+      "skill_name": "Power Impact"
+    },
+    {
+      "skill_name": "Gigantic Cross"
+    },
+    {
+      "skill_name": "Full Power Destruction"
+    },
+    {
+      "skill_name": "Photon Swipe"
+    },
+    {
+      "skill_name": "God of Destruction's Plaything"
+    }
+  ],
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "missing_ids": [],
+    "extra_ids": []
+  },
+  "next": "Repeat for Batch 481."
+}
