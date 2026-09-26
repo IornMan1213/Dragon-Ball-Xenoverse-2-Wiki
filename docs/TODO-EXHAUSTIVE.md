@@ -1577,3 +1577,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved source conflicts and evidence boundaries; unsupported exact frames, probabilities, hidden conditions, and patch-independent scaling remain unresolved.
 - [ ] CI/build remains unverified.
 - [x] **Exact next:** fresh registered-audit mechanics frontier excluding Batch 460 and all prior current-evidence audits.
+
+### 2026-09-26 TODO progress update — Skill Research Batch 461 completed
+- [x] Researched **Flash Bomber, Genocide Shell, Spread Shot Retreat, Tail Slicer, Break Cannon, Burst Rush, Temporal Holy Ray, and Victory Rush**.
+- [x] Enriched/synchronized canonical and index datasets; parity remains **474/474**, 0 missing / 0 extra / 0 duplicate IDs.
+- [x] Added Batch 461 research/thin-frontier artifacts, eight current-evidence audits, and provenance registrations.
+- [x] Preserved source conflicts and evidence boundaries; unsupported exact frames, probabilities, hidden conditions, and patch-independent scaling remain unresolved.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** fresh registered-audit mechanics frontier excluding Batch 461 and all prior current-evidence audits.
