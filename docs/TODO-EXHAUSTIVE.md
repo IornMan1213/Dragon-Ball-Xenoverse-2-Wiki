@@ -1,3 +1,10 @@
+### 2026-09-26 TODO progress update — Cross-domain reachability baseline refreshed
+- [x] Recomputed the live cross-domain index against the current `main` Git tree.
+- [x] Updated the reachability audit to **727 tree blobs / 1,634 reference occurrences / 742 reachable / 892 unreachable**.
+- [x] Preserved all historical/planned references and the 18-item critical unreachable set.
+- [x] No unsupported PQ reward/reverse data was generated.
+- [ ] Runtime execution/CI remains unverified.
+- [x] Exact next: continue the next live deterministic cross-domain validator/consumer audit.
 ### 2026-09-26 TODO progress update — Partner Customization recovery-audit count synchronization
 - [x] Corrected the stale recovery-audit summary from 16 to the actual **18/18** passing boolean checks.
 - [x] Confirmed the recovery audit is reachable on current `main` and removed the transient unreachable classification from the reachability audit.
