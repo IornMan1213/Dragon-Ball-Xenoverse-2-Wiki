@@ -1,3 +1,10 @@
+### 2026-09-26 continuation — Skill Research Batch 487 completed
+- [x] Completed and synchronized eight current-evidence skill records: Super Saiyan Blue Kaioken, Super Saiyan 2, Super Vegeta, Namek Finger, Bending Kamehameha, Flash Strike, Finishing Blow, Sudden Death Beam.
+- [x] Canonical/index validation: 474/474, 0 missing, 0 extra.
+- [x] Added Batch 487 research/thin-frontier artifacts and registered current-evidence provenance.
+- [x] Evidence boundaries preserved; CI remains unverified.
+- [x] Exact next: fresh live unaudited mechanics frontier census.
+
 ### 2026-09-26 continuation — Batch 487 checkpoint
 - [x] Fresh live frontier census completed after Batch 486.
 - [x] Rechecked current Xenoverse 2 evidence for Super Saiyan Blue Kaioken, Super Saiyan 2, Super Vegeta, and Namek Finger.
