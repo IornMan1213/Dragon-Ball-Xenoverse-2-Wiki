@@ -1537,3 +1537,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [ ] Efficiency addendum remains unavailable at expected path (404).
 - [x] **Exact next:** fresh unaudited frontier census excluding Batch 441 and prior audits, then continue research/synchronization.
+
+
+### 2026-09-26 continuation — Skill Research Batch 442 completed
+- [x] Fresh frontier census selected **Final Rampage, Formation!, Blaster Meteor, and Weekend**.
+- [x] Added four current-evidence audits, Batch 442 research record, and thin-frontier audit.
+- [x] Synchronized canonical/index skill datasets and registered six provenance artifacts.
+- [x] Registry total: **654 entries**.
+- [x] Evidence boundaries preserved; no unsupported frame/scaling/hidden-condition claims added.
+- [ ] CI/build remains unverified; efficiency addendum remains unavailable at expected path (404).
+- [x] **Exact next:** fresh unaudited mechanics frontier census excluding Batch 442 and all prior audits.
