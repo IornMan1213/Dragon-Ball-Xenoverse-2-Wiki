@@ -1,0 +1,21 @@
+{
+  "skill_id": "skill-gigantic-omega",
+  "name": "Gigantic Omega",
+  "batch": 443,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Gigantic_Omega",
+    "https://dbxv2.fandom.com/wiki/Mentors"
+  ],
+  "findings": [
+    "100 Ki Strike Super",
+    "Broly training",
+    "Large right-hand Ki Blast; pseudo-Ki Blast; 1–3 hits/knockback",
+    "~15% close, ~10% far source-reported"
+  ],
+  "evidence_boundaries": [
+    "Numerical damage values are retained as source-reported.",
+    "No unsupported frame data, hidden gates, or patch-independent scaling inferred."
+  ]
+}
