@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-death-crasher-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Death Crasher",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "attack_type": "Strike",
+    "skill_type": "Super",
+    "ki_cost": 100,
+    "acquisition": "Training with Frieza (1st Form)"
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Death_Crasher"
+  ],
+  "evidence_boundary": "Mechanics are bounded to current Xenoverse 2-specific reference evidence. Exact frame data, reward probability, hidden prerequisites, and patch-independent balance claims are not inferred."
+}
