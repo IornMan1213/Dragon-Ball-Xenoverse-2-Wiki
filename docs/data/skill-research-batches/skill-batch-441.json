@@ -1,0 +1,18 @@
+{
+  "batch": 441,
+  "date": "2026-09-26",
+  "status": "complete",
+  "selected": [
+    "Blaster Ball",
+    "Super Kamehameha (SS4 DAIMA)",
+    "Paralysis",
+    "Perfect Kamehameha"
+  ],
+  "exact_next": "Run another fresh unaudited mechanics frontier census excluding Batch 441 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.",
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "missing_ids": 0,
+    "extra_ids": 0
+  }
+}
