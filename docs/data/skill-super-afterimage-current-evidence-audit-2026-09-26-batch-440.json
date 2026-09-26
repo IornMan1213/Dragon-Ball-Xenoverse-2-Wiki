@@ -1,0 +1,19 @@
+{
+  "skill_id": "skill-super-afterimage",
+  "name": "Super Afterimage",
+  "batch": 440,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Afterimage",
+    "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
+    "https://dragonball.fandom.com/wiki/Super_Afterimage"
+  ],
+  "findings": [
+    "100-Ki Other Super/evasive technique",
+    "Creates six afterimages for evasion",
+    "At close range can vanish directly behind the opponent",
+    "Skill Shop acquisition and all-CaC scope retained",
+    "0-Ki timing is a documented usage technique, not a formal requirement; exact timing/distance/frames unresolved"
+  ]
+}
