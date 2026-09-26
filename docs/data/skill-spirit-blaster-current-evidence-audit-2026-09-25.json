@@ -1,21 +1,15 @@
 {
   "schema_version": "1.0.0",
-  "audit_date": "2026-09-25",
   "audit_id": "skill-spirit-blaster-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
   "target": "Spirit Blaster",
+  "result": "verified_current_scope",
   "supported_fields": {
-    "class": "Super",
-    "subcategory": "Ki Blast",
-    "ki_cost": 100,
-    "source_quest_or_shop": "Parallel Quest 129 — Frieza Force on the Hunt",
-    "mechanics": "Homing Ki Blasts can trigger a rapid follow-up barrage; guarding can cancel the follow-up."
+    "skill_type": "Ki Blast Super",
+    "ki_cost": 100
   },
   "evidence_sources": [
-    "https://dbxv2.fandom.com/wiki/Spirit_Blaster",
-    "https://steamcommunity.com/app/454650/discussions/0/1741105805749702890",
-    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+    "https://dbxv2.fandom.com/wiki/Spirit_Blaster"
   ],
-  "limits": [
-    "No unsupported exact timing, damage, reward probability, or hidden gate is inferred."
-  ]
+  "evidence_boundary": "Current Xenoverse 2 mechanics evidence is bounded to the cited skill reference and corroborating current research. Exact frame data, reward probabilities, hidden prerequisites, and patch-independent balance claims are not inferred."
 }
