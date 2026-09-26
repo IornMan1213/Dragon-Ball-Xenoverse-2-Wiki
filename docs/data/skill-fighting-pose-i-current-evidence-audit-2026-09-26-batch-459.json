@@ -1,0 +1,19 @@
+{
+  "batch": 459,
+  "date": "2026-09-26",
+  "skill_name": "Fighting Pose I",
+  "skill_id": "skill-fighting-pose-i",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Skill Research Batch 459.",
+  "findings": [
+    "0-Ki Power Up Super. After the pose animation, the user gains a Basic Movement Speed increase for 20 seconds; current skill-specific documentation identifies the effect as a movement-speed buff rather than a damage or defensive modifier. Exact speed multiplier and frame timing remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/fightingPoseI"
+  ],
+  "evidence_boundaries": [
+    "Exact frame data is not promoted.",
+    "Patch-independent scaling is not inferred from source-reported values.",
+    "Reward probabilities and hidden prerequisites are not promoted unless directly evidenced."
+  ]
+}
