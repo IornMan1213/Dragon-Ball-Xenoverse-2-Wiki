@@ -303,14 +303,16 @@
         "https://dbxv2.fandom.com/wiki/Atomic_Blast",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://www.youtube.com/watch?v=AF82zAb3TvI"
+        "https://www.youtube.com/watch?v=AF82zAb3TvI",
+        "https://www.dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://mp1st.com/news/dragon-ball-xenoverse-2-update-1-31-punches-out-for-adjustments-conton-city-vote-pack-data-this-july-6"
       ],
       "unlock_method": "Parallel Quest 87 — \"Saiyan Battle\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-22 provenance reconciliation: dedicated skill documentation confirms Atomic Blast as a 100-Ki Ki Blast Super and identifies PQ87 as the unlock source. The maintained all-186-PQ guide lists Atomic Blast under PQ87 Basic Reward. A contemporaneous gameplay guide claims the skill required the Ultimate Finish/random-drop path, creating a historical source conflict; the canonical record preserves the maintained Basic Reward classification and does not infer a drop probability or Ultimate Finish requirement from the conflicting video. 2026-09-25 evidence refresh: current repository provenance and current-accessible Xenoverse 2 references were rechecked; existing acquisition and classification boundaries are retained without introducing unsupported shop rotation dates, reward probabilities, or version-sensitive damage values.",
-      "mechanics_notes": "Dedicated current-version evidence confirms Atomic Blast as a 100-Ki Ki Blast Super from PQ87. It is a chargeable Ki wave whose optimal damage depends on charge timing and whether the user is grounded. Current evidence confirms CaC availability and no narrower CaC race/gender/form restriction is established; no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
+      "notes": "2026-09-22 provenance reconciliation: dedicated skill documentation confirms Atomic Blast as a 100-Ki Ki Blast Super and identifies PQ87 as the unlock source. The maintained all-186-PQ guide lists Atomic Blast under PQ87 Basic Reward. A contemporaneous gameplay guide claims the skill required the Ultimate Finish/random-drop path, creating a historical source conflict; the canonical record preserves the maintained Basic Reward classification and does not infer a drop probability or Ultimate Finish requirement from the conflicting video. 2026-09-25 evidence refresh: current repository provenance and current-accessible Xenoverse 2 references were rechecked; existing acquisition and classification boundaries are retained without introducing unsupported shop rotation dates, reward probabilities, or version-sensitive damage values. 2026-09-26 Batch 469 current-evidence audit: Charge-stage/grounded values are source-reported and version-bounded; exact release timing, frame data, and universal damage formula are not inferred. PQ87 reward-tier conflict remains explicit.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ87. It is a chargeable Ki wave whose damage depends on release timing and whether the user is grounded: current dedicated evidence reports 5% for immediate fire, 20% airborne/25% grounded for the part-charge release, and 5% airborne/10% grounded at full charge. SSGSS Vegeta (Evolved) uses a related presentation in which the move can damage during charging and activates faster. The repository retains the current PQ87 Basic Reward provenance while documenting the historical reward-source conflict.",
       "source_quest": 87,
       "source_quest_or_shop": "Parallel Quest 87 — \"Saiyan Battle\"",
       "source_parallel_quests": [
@@ -747,10 +749,10 @@
       ],
       "unlock_method": "Parallel Quest 94 — \"Ultimate Power, Ultimate Saiyan\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-22 provenance verification: current dedicated Xenoverse 2 documentation confirms Bluff Kamehameha as a 100-Ki Super, PQ94 acquisition, and Other-category presentation; the maintained PQ reward guide lists Bluff Kamehameha in PQ94 rewards. The canonical record preserves its existing Ki Blast classification, CaC availability, and Basic Reward semantics; the source/category presentation difference is retained as evidence context rather than normalized without stronger canonical evidence. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-26 Batch 468 mechanics audit: current exact-name evidence revalidated the 100-Ki cost, PQ94 endpoint, no-damage deceptive presentation, front-facing requirement, and source-reported full-charge Ki drain. The exact drain formula remains unresolved rather than inferred.",
-      "mechanics_notes": "100-Ki Other/Ki Blast Super from PQ94. The user performs a deceptive Kamehameha charge and releases confetti/streamers instead of a damaging beam; it inflicts no damage and reduces the opponent's Ki when they are facing the user. Dedicated current evidence reports up to nine Ki bars drained when fully charged, while older documentation describes the amount as variable with Strike-related scaling; the exact current drain formula is therefore retained as source-bounded. The move has no effect against a back-turned target.",
+      "notes": "2026-09-22 provenance verification: current dedicated Xenoverse 2 documentation confirms Bluff Kamehameha as a 100-Ki Super, PQ94 acquisition, and Other-category presentation; the maintained PQ reward guide lists Bluff Kamehameha in PQ94 rewards. The canonical record preserves its existing Ki Blast classification, CaC availability, and Basic Reward semantics; the source/category presentation difference is retained as evidence context rather than normalized without stronger canonical evidence. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.",
+      "mechanics_notes": "Current evidence confirms Bluff Kamehameha as a 100-Ki Ki Blast Super from PQ94. It is a deceptive Kamehameha-style projectile; no unsupported CaC race/gender/form restriction was inferred. Current evidence confirms CaC availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "source_quest": 94,
       "source_quest_or_shop": "Parallel Quest 94 — \"Ultimate Power, Ultimate Saiyan\"",
       "source_parallel_quests": [
@@ -1156,14 +1158,15 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Burst_Kamehameha",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://www.youtube.com/watch?v=Zq94mw1-sDo"
+        "https://www.youtube.com/watch?v=Zq94mw1-sDo",
+        "https://dragonball.fandom.com/wiki/Burst_Kamehameha"
       ],
       "unlock_method": "Parallel Quest 72 — \"First Training\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: the maintained PQ72 reward listing explicitly includes Burst Kamehameha as a Basic Reward; dedicated skill documentation confirms PQ72. 2026-09-22 provenance refresh: independent Dragon Ball Wiki and maintained PQ72 evidence reconfirm the PQ72 acquisition and Basic Reward presentation; no unsupported reward probability or gate was added. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: dedicated skill evidence and independent corroboration were rechecked; existing acquisition, reward-tier, cost, scope, and mechanics semantics are preserved, and no unsupported drop probability or additional gate is inferred.",
-      "mechanics_notes": "Dedicated current-version evidence confirms Burst Kamehameha as a 100–200 Ki Ki Blast Super from PQ72. A second input spends additional Ki to prolong the beam and increase damage; no unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
+      "notes": "2026-09-20 audit: the maintained PQ72 reward listing explicitly includes Burst Kamehameha as a Basic Reward; dedicated skill documentation confirms PQ72. 2026-09-22 provenance refresh: independent Dragon Ball Wiki and maintained PQ72 evidence reconfirm the PQ72 acquisition and Basic Reward presentation; no unsupported reward probability or gate was added. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: dedicated skill evidence and independent corroboration were rechecked; existing acquisition, reward-tier, cost, scope, and mechanics semantics are preserved, and no unsupported drop probability or additional gate is inferred. 2026-09-26 Batch 469 current-evidence audit: The 100/200-Ki resource model and additional-input behavior are documented; exact startup/recovery frames, damage formulas, and reward probability are not inferred.",
+      "mechanics_notes": "100–200 Ki Ki Blast Super from PQ72. The initial beam is multi-hit; a second input during the beam spends another 100 Ki to prolong the wave and increase damage. Current documentation describes the extended blast as visibly larger near the user and identifies Burst Kamehameha as a fast-acting Kamehameha variant. Exact frame data and patch-independent damage scaling remain unresolved.",
       "source_quest": 72,
       "source_quest_or_shop": "Parallel Quest 72 — \"First Training\"",
       "source_parallel_quests": [
@@ -1637,15 +1640,14 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Counter_Burst",
         "https://dbxv2.fandom.com/wiki/Counter_Burst",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Counter_Skill"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "unlock_method": "Parallel Quest 75 — \"Room to Spare\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-24",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 reward-list refinement: the maintained all-PQ guide explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is assigned. 2026-09-22 provenance refresh: dedicated skill evidence confirms the 100-Ki Ki Blast counter and PQ75 acquisition; the maintained PQ guide independently lists Counter Burst in Basic Reward. No Ultimate Finish-only gate is inferred. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current dedicated evidence and independent corroboration were rechecked for the canonical acquisition/classification endpoint; existing reward-tier, cost, scope, and mechanics semantics are preserved, and no unsupported drop probability or additional gate is inferred. 2026-09-26 Batch 468 mechanics audit: current counter taxonomy and dedicated skill evidence revalidated the 100-Ki cost, PQ75 Basic Reward endpoint, shield-on-hit counter behavior, and Ki-only counter classification. Exact timing and damage remain bounded.",
-      "mechanics_notes": "100-Ki Ki Blast Super and Ki counter from PQ75. The user projects an energy shield; when struck by an applicable Ki Blast attack, the skill counters with a stronger Ki Blast. Current counter taxonomy classifies Counter Burst specifically as a Ki counter rather than a universal or melee counter. Exact timing window, countered-attack coverage, and returned damage remain unresolved.",
+      "notes": "2026-09-20 reward-list refinement: the maintained all-PQ guide explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is assigned. 2026-09-22 provenance refresh: dedicated skill evidence confirms the 100-Ki Ki Blast counter and PQ75 acquisition; the maintained PQ guide independently lists Counter Burst in Basic Reward. No Ultimate Finish-only gate is inferred. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current dedicated evidence and independent corroboration were rechecked for the canonical acquisition/classification endpoint; existing reward-tier, cost, scope, and mechanics semantics are preserved, and no unsupported drop probability or additional gate is inferred.",
+      "mechanics_notes": "Current dataset evidence identifies Counter Burst as a 100-Ki Ki Blast Super from PQ75 and a Ki counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "source_quest": 75,
       "source_quest_or_shop": "Parallel Quest 75 — \"Room to Spare\"",
       "source_parallel_quests": [
@@ -4119,14 +4121,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Fighting_Pose_C",
         "https://dbxv2.fandom.com/wiki/Parallel_Quests",
-        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "unlock_method": "Parallel Quest 13 reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super from PQ13. It removes abnormal statuses and prevents new abnormal statuses for 20 seconds. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
-      "mechanics_notes": "0-Ki Power Up Super from PQ13. The pose removes existing abnormal status effects and prevents abnormal statuses from being applied while its documented 20-second effect is active. The current skill reference classifies it as a Power Up Super; exact defensive/frame properties beyond the status effect are not inferred.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super from PQ13. It removes abnormal statuses and prevents new abnormal statuses for 20 seconds. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added. 2026-09-26 Batch 469 current-evidence audit: The 20-second duration and status-removal/prevention behavior are directly documented; exact activation frames and any additional hidden resistance are not inferred.",
+      "mechanics_notes": "0-Ki Power Up Super from PQ13. Activating the pose removes existing abnormal status effects and prevents abnormal statuses from being applied for the documented 20-second effect. Current skill evidence classifies it as a Power Up Super and does not establish additional defensive/frame properties.",
       "source_quest": 13,
       "source_quest_or_shop": "Parallel Quest 13",
       "source_parallel_quests": [
@@ -4698,14 +4701,15 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Freedom_Kick",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Freedom_Kick"
       ],
       "unlock_method": "Parallel Quest 29 — \"The Dangerous Duo! Warriors Never Rest\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-22 provenance/mechanics refresh: PQ29 reward documentation confirms Freedom Kick in the quest reward set. It is a 100-Ki Strike Super that tracks the opponent through a multi-kick rush; current documentation describes four hits and tracking after knockback. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "A tracking rush in which the user flies around the opponent and lands multiple kicks before knocking them downward. If used after knocking an opponent away, the attack can track the target. Current documentation describes four hits; the canonical record retains the 100-Ki Super cost and PQ29 route. 2026-09-23 refresh: preserved the documented four-hit tracking rush and post-knockback tracking behavior; no unsupported damage values added.",
+      "notes": "2026-09-22 provenance/mechanics refresh: PQ29 reward documentation confirms Freedom Kick in the quest reward set. It is a 100-Ki Strike Super that tracks the opponent through a multi-kick rush; current documentation describes four hits and tracking after knockback. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced. 2026-09-26 Batch 469 current-evidence audit: Four-hit behavior, tracking-after-knockback, 100 Ki, PQ29, and source-reported 10% damage are documented; exact frames and damage scaling are not inferred.",
+      "mechanics_notes": "100-Ki Strike Super from PQ29. The user flies around the opponent in a multi-kick rush and knocks the target downward; current skill-specific evidence classifies it as a 4-hit tracking rush with knockdown. When used after knocking an opponent away, it can track the target. Current documentation reports about 10% damage, which remains source-reported.",
       "source_quest": 29,
       "source_quest_or_shop": "Parallel Quest 29 — \"The Dangerous Duo! Warriors Never Rest\"",
       "source_parallel_quests": [
@@ -6983,10 +6987,10 @@
       ],
       "unlock_method": "Parallel Quest 92 — \"Revenge of the Tuffle\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-25 current-evidence refresh: current documentation confirms PQ92, 300 Stamina, forward explosive movement, short-range single-hit knockback, and the documented 5% damage value. The value is treated as source-reported rather than independently generalized. 2026-09-26 Batch 468 mechanics audit: current exact-name evidence revalidated the 300-Stamina cost, forward explosive movement, short-range single-hit knockback, ~5% source-reported damage, and PQ92 endpoint.",
-      "mechanics_notes": "300-Stamina Evasive from PQ92. The user propels forward with a Ki explosion, damaging nearby opponents and knocking them away; dedicated current evidence classifies it as a short-range, single-hit Evasive and reports about 5% source-reported damage. PQ92 Basic Reward semantics are retained; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-25 current-evidence refresh: current documentation confirms PQ92, 300 Stamina, forward explosive movement, short-range single-hit knockback, and the documented 5% damage value. The value is treated as source-reported rather than independently generalized.",
+      "mechanics_notes": "300-Stamina Ki Blast Evasive from PQ92 — Revenge of the Tuffle. The user propels forward with a Ki explosion, damaging nearby opponents and knocking them away; current documentation reports 5% damage. It is a short-range, single-hit counterattack rather than a Power Up Evasive.",
       "source_quest": 92,
       "source_quest_or_shop": "Parallel Quest 92 — \"Revenge of the Tuffle\"",
       "source_parallel_quests": [
@@ -9908,16 +9912,14 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Dragon_Flight",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-31.md",
-        "https://dbxv2.fandom.com/wiki/Super_Dragon_Flight_%28Super%29",
-        "https://dbxv2.fandom.com/wiki/Super_Dragon_Flight_%28Ultimate%29",
-        "https://en.dragon-ball-official.com/news/01_1435.html"
+        "https://dbxv2.fandom.com/wiki/Super_Dragon_Flight_%28Super%29"
       ],
       "unlock_method": "Parallel Quest 31 — \"Let's Train!\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 source reconciliation: maintained PQ31 data lists Super Dragon Flight in the Basic Reward section; the prior Ultimate Finish wording was stale. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved. 2026-09-25 Batch 399 mechanics refresh: current evidence strengthened behavior/acquisition boundaries; unresolved numeric/frame details remain explicitly bounded.\n2026-09-25 Batch 412 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal scaling, hidden targeting rules, and timing values remain unresolved. 2026-09-26 Batch 468 mechanics audit: corrected and revalidated the canonical Ultimate variant against the dedicated Ultimate reference and official Dragon Ball announcement. The record remains distinct from Super Dragon Flight (Super): 300 Ki, Gohan (DBS Super Hero)-exclusive, two uppercuts, source-reported 30% per hit.",
-      "mechanics_notes": "300-Ki Strike Ultimate used exclusively by Gohan (DBS Super Hero). This is the Ultimate variant of the separate 100-Ki Super Dragon Flight. The Ultimate version performs an uppercut for source-reported 30% damage, then a second uppercut for another source-reported 30%, launching the opponent higher. The official Dragon Ball site explicitly describes it as a unique Ultimate rebirth of the Super Attack with a follow-up after the uppercut connects. It is cast-exclusive and not a CaC acquisition.",
+      "notes": "2026-09-20 source reconciliation: maintained PQ31 data lists Super Dragon Flight in the Basic Reward section; the prior Ultimate Finish wording was stale. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved. 2026-09-25 Batch 399 mechanics refresh: current evidence strengthened behavior/acquisition boundaries; unresolved numeric/frame details remain explicitly bounded.\n2026-09-25 Batch 412 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal scaling, hidden targeting rules, and timing values remain unresolved.",
+      "mechanics_notes": "100-Ki Strike Super from PQ31. The user performs a Ki-powered uppercut for about 10% damage; on hit, another Super Attack can be used immediately as a direct follow-up. Current evidence identifies the transitional property as the defining mechanic. Exact cancel window, frame data, and scaling remain unresolved.",
       "source_quest": 31,
       "source_quest_or_shop": "Parallel Quest 31 — \"Let's Train!\"",
       "source_parallel_quests": [
@@ -9957,14 +9959,15 @@
         "https://dbxv2.fandom.com/wiki/Super_Elite_Combo",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
         "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://dbxenoverse.fandom.com/wiki/Mentors"
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://dragonball.fandom.com/wiki/Super_Elite_Combo"
       ],
       "unlock_method": "Jaco mentor training — Lesson 3.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved. 2026-09-25 mechanics enrichment: current evidence refreshed; unsupported frame data, hidden gates, probabilities, and unverified numeric values remain unresolved.\n2026-09-25 Batch 412 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal scaling, hidden targeting rules, and timing values remain unresolved.",
-      "mechanics_notes": "300-Ki Strike Ultimate from Jaco's training. The user poses, strikes the opponent twice, then fires a Galactic Patrol ray-gun blast; current skill-specific evidence documents 30% total damage over 3 hits. The finishing blast is a pseudo-Ki Blast component. Exact startup/frame data and miss recovery timing remain unresolved.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved. 2026-09-25 mechanics enrichment: current evidence refreshed; unsupported frame data, hidden gates, probabilities, and unverified numeric values remain unresolved.\n2026-09-25 Batch 412 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal scaling, hidden targeting rules, and timing values remain unresolved. 2026-09-26 Batch 469 current-evidence audit: The 300-Ki cost, Jaco training endpoint, 3-hit structure, and source-reported 30% total damage are current evidence; exact frames and per-hit damage are not inferred.",
+      "mechanics_notes": "300-Ki Strike Ultimate from Jaco's training. The user poses, strikes the opponent twice, then fires the Galactic Patrol ray gun; current exact-name evidence classifies the technique as a 3-hit rush/pseudo-Ki Blast sequence and reports about 30% total damage. The finishing ray-gun blast is the final component. Exact startup, miss recovery, and damage distribution are unresolved.",
       "source_quest": "Jaco mentor training — Lesson 3.",
       "source_quest_or_shop": "jaco mentor training"
     },
@@ -10057,14 +10060,15 @@
         "https://dbxenoverse.fandom.com/wiki/Mentors",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
         "https://dbxv2.fandom.com/wiki/Super_Ghost_Kamikaze_Attack_%28Super%29",
-        "https://dragonball.fandom.com/wiki/Super_Ghost_Kamikaze_Attack"
+        "https://dragonball.fandom.com/wiki/Super_Ghost_Kamikaze_Attack",
+        "https://dragonballupdates.fandom.com/wiki/Super_Ghost_Kamikaze_Attack"
       ],
       "unlock_method": "Gotenks's mentor training — complete the corresponding lesson to receive Super Ghost Kamikaze Attack as the Basic Reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims. 2026-09-25 Batch 375 mechanics enrichment: current Xenoverse 2 evidence added bounded mechanics; unresolved frame timing, exact damage, probability, and hidden-gate fields remain unasserted.\n2026-09-26 Batch 432 mechanics enrichment: current Xenoverse 2-specific evidence was rechecked for cost, classification, mechanics, and acquisition context. Exact frames, hidden interactions, unsupported scaling, and unresolved probabilities remain unresolved.",
-      "mechanics_notes": "100-Ki Ki Blast Super learned through Gotenks training. The user creates one ghost that automatically rushes the opponent when they enter range or after about 4 seconds; current dedicated documentation reports a single hit that stuns and deals about 10% damage. Exact startup, tracking limits, and frame timing remain unresolved.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims. 2026-09-25 Batch 375 mechanics enrichment: current Xenoverse 2 evidence added bounded mechanics; unresolved frame timing, exact damage, probability, and hidden-gate fields remain unasserted.\n2026-09-26 Batch 432 mechanics enrichment: current Xenoverse 2-specific evidence was rechecked for cost, classification, mechanics, and acquisition context. Exact frames, hidden interactions, unsupported scaling, and unresolved probabilities remain unresolved. 2026-09-26 Batch 469 current-evidence audit: The one-ghost behavior, approximate four-second trigger, 100 Ki, stun, and source-reported 10% damage are documented; exact tracking envelope, startup, frames, and scaling remain unresolved.",
+      "mechanics_notes": "100-Ki Ki Blast Super learned through Gotenks training. The user exhales one ghost; if the opponent is in range, or after about four seconds, the ghost rushes the target, dealing source-reported 10% damage and stunning them. Current documentation classifies it as a single-hit, long-range, tracking projectile. The 300-Ki five-ghost Ultimate is a distinct record and is not merged into this Super entry.",
       "source_quest": "Gotenks mentor training",
       "source_quest_or_shop": "Gotenks mentor training"
     },
@@ -10081,14 +10085,16 @@
         "https://dbxenoverse.fandom.com/wiki/Mentors",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
         "https://dbxv2.fandom.com/wiki/Super_Ghost_Kamikaze_Attack_%28Ultimate%29",
-        "https://dragonball.fandom.com/wiki/Super_Ghost_Kamikaze_Attack"
+        "https://dragonball.fandom.com/wiki/Super_Ghost_Kamikaze_Attack",
+        "https://dbxv2.fandom.com/wiki/Super_Ghost_Kamikaze_Attack_%28Super%29",
+        "https://dragonballupdates.fandom.com/wiki/Super_Ghost_Kamikaze_Attack"
       ],
       "unlock_method": "Gotenks's mentor training — complete the corresponding lesson to receive Super Ghost Kamikaze Attack as the Basic Reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims. 2026-09-25 Batch 375 mechanics enrichment: current Xenoverse 2 evidence added bounded mechanics; unresolved frame timing, exact damage, probability, and hidden-gate fields remain unasserted.\n2026-09-26 Batch 421 current-evidence enrichment: dedicated/current Xenoverse 2 documentation was rechecked for mechanics, cost, acquisition, hit behavior, and character association. Exact frame data, hidden interactions, unsupported multipliers, and patch-independent balance values remain unresolved unless directly documented.",
-      "mechanics_notes": "300-Ki Ki Blast Ultimate learned through Gotenks training. The user exhales five ghosts which launch sequentially after about five seconds; current dedicated documentation reports the first and last ghosts at 10% damage and intermediate ghosts at up to 20%. The record is the Ultimate variant, distinct from the 100-Ki Super variant.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims. 2026-09-25 Batch 375 mechanics enrichment: current Xenoverse 2 evidence added bounded mechanics; unresolved frame timing, exact damage, probability, and hidden-gate fields remain unasserted.\n2026-09-26 Batch 421 current-evidence enrichment: dedicated/current Xenoverse 2 documentation was rechecked for mechanics, cost, acquisition, hit behavior, and character association. Exact frame data, hidden interactions, unsupported multipliers, and patch-independent balance values remain unresolved unless directly documented. 2026-09-26 Batch 469 current-evidence audit: The one-ghost behavior, approximate four-second trigger, 100 Ki, stun, and source-reported 10% damage are documented; exact tracking envelope, startup, frames, and scaling remain unresolved.",
+      "mechanics_notes": "100-Ki Ki Blast Super learned through Gotenks training. The user exhales one ghost; if the opponent is in range, or after about four seconds, the ghost rushes the target, dealing source-reported 10% damage and stunning them. Current documentation classifies it as a single-hit, long-range, tracking projectile. The 300-Ki five-ghost Ultimate is a distinct record and is not merged into this Super entry.",
       "source_quest": "Gotenks mentor training",
       "source_quest_or_shop": "Gotenks mentor training"
     },
@@ -10132,14 +10138,16 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_God_Shock_Flash",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Super_God_Shock_Flash",
+        "https://dbxenoverse.fandom.com/wiki/Super_God_Shock_Flash_%28Skill%29"
       ],
       "unlock_method": "Skill Shop (Conton City)",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the skill shop (conton city) acquisition route. No quest or Ultimate Finish route is inferred. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims.\n2026-09-26 Batch 432 mechanics enrichment: current Xenoverse 2-specific evidence was rechecked for cost, classification, mechanics, and acquisition context. Exact frames, hidden interactions, unsupported scaling, and unresolved probabilities remain unresolved.",
-      "mechanics_notes": "100-Ki Strike Super counter with grab properties. The user poses to counter melee/strike attacks; when struck during its active counter window, the move answers with a one-inch punch. Current documentation notes that the counter properly works from the front and that the resulting grab-counter hit is difficult to avoid once triggered except through applicable invulnerability. Exact active frames, damage, and scaling remain unresolved.",
+      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the skill shop (conton city) acquisition route. No quest or Ultimate Finish route is inferred. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims.\n2026-09-26 Batch 432 mechanics enrichment: current Xenoverse 2-specific evidence was rechecked for cost, classification, mechanics, and acquisition context. Exact frames, hidden interactions, unsupported scaling, and unresolved probabilities remain unresolved. 2026-09-26 Batch 469 current-evidence audit: The 100-Ki cost, front-facing Strike counter, grab property, and Skill Shop route are documented; exact active frames, damage, and scaling remain unresolved.",
+      "mechanics_notes": "100-Ki Strike Super counter with grab properties. The user poses to counter melee/Strike attacks; if struck during the active counter window, it responds with a one-inch punch. Current dedicated evidence states that it works properly from the front and that the resulting counter hit has grab-like unavoidable behavior once triggered except against applicable invulnerability. The skill is available through the Skill Shop; no quest/Ultimate-Finish acquisition route is inferred.",
       "source_quest_or_shop": "Skill Shop"
     },
     {
@@ -10248,15 +10256,14 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
         "https://dbxv2.fandom.com/wiki/Super_Saiyan",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74469364",
-        "https://dbxv2.fandom.com/wiki/Awoken_Skill"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74469364"
       ],
       "unlock_method": "Super Saiyan 2 is the second stage of the Super Saiyan Awoken Skill; complete the Capsule Corporation Saiyan Awakening/Vegeta route to obtain the Super Saiyan skill, then activate its second stage at 400 Ki.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-25",
       "race_restriction": "Saiyan",
-      "notes": "Super Saiyan 2 is a stage of the single Super Saiyan Awoken Skill, not a separate equipable transformation record. It activates at 400 Ki when the Super Saiyan Awoken Skill is equipped. 2026-09-20 provenance refinement: SS2 is a stage of the Super Saiyan skill rather than a separate reward; its provenance therefore follows the Capsule Corporation Saiyan Awakening route. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims. 2026-09-26 Batch 468 mechanics audit: current transformation references revalidated the 400-Ki stage, Saiyan-only scope, +15%/+7.5% skill modifiers, +10%/+5% defensive modifiers, and reduced Ki restoration. The record remains a stage of the Super Saiyan skill rather than a separate equipable transformation.",
-      "mechanics_notes": "400-Ki second stage of the Super Saiyan Awoken Skill for Saiyan CaCs. Current transformation evidence reports +15% Strike and +7.5% Ki Blast skill damage, +10% Strike and +5% Ki Blast damage resistance, and reduced Ki restoration versus lower stages. Super Saiyan-stage charged Ki Blasts gain the documented teleport-to-target behavior and relevant vanish properties. Exact frame timing is not inferred.",
+      "notes": "Super Saiyan 2 is a stage of the single Super Saiyan Awoken Skill, not a separate equipable transformation record. It activates at 400 Ki when the Super Saiyan Awoken Skill is equipped. 2026-09-20 provenance refinement: SS2 is a stage of the Super Saiyan skill rather than a separate reward; its provenance therefore follows the Capsule Corporation Saiyan Awakening route. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims.",
+      "mechanics_notes": "400 Ki is the second stage of the Super Saiyan Awoken Skill. Current Xenoverse 2-specific transformation documentation reports +15% Strike/+7.5% Ki Blast damage, +10% Strike/+5% Ki Blast defense, and reduced Ki restoration at this stage. Super Saiyan transformations also apply their documented vanish/teleport behavior to relevant combos and charged Ki Blasts; exact frame timing is not inferred.",
       "source_quest": "Capsule Corporation Time Rift — Super Saiyan Awoken Skill",
       "source_quest_or_shop": "Super Saiyan Awoken Skill — second transformation stage"
     },
@@ -10276,10 +10283,10 @@
       ],
       "unlock_method": "Character-only / non-CaC roster use",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-24",
       "race_restriction": "Character-only",
-      "notes": "2026-09-20 roster-status refinement: maintained transformation research classifies Super Saiyan Blue Kaioken as Goku-only; it is not an independently unlockable CaC Awoken Skill. 2026-09-23 provenance refresh: synchronized with the canonical record after rechecking the maintained exact-name/research evidence; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved. 2026-09-26 Batch 468 mechanics audit: current exact-name evidence revalidated the 500-Ki normal/x10 stages, character-only scope, +15%/+35% damage values, movement-cost reductions, stamina-recovery suppression, and health-drain drawback. Exact health-drain rates and frame data remain bounded.",
-      "mechanics_notes": "Character-only Awoken Skill used by SSGSS Goku. Both the normal and x10 stages require 500 Ki. Current dedicated evidence reports +15% all-attack damage for the normal stage and +35% for x10; normal stage reduces Vanish/Z-Vanish/Burst Dash stamina cost to roughly half a bar, while x10 makes those movements free. The transformation suppresses stamina recovery and drains health, with faster health drain at x10. Exact health-drain rate and frame timing remain unresolved.",
+      "notes": "2026-09-20 roster-status refinement: maintained transformation research classifies Super Saiyan Blue Kaioken as Goku-only; it is not an independently unlockable CaC Awoken Skill. 2026-09-23 provenance refresh: synchronized with the canonical record after rechecking the maintained exact-name/research evidence; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved.",
+      "mechanics_notes": "500 Ki is required for the normal Super Saiyan Blue Kaioken stage and 500 Ki for the x10 stage; the transformation is character-only and remains unavailable to CaCs. Current reference documents the 500 Ki requirement and both stages. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate. Race restriction is not applicable to CaC races because this is a character-only roster transformation.",
       "source_quest_or_shop": "Character-only Awoken Skill / roster use"
     },
     {
@@ -10397,10 +10404,10 @@
       ],
       "unlock_method": "As a Saiyan CaC, complete the Vegeta training progression at Capsule Corporation; after obtaining Super Saiyan and reaching the later training gate, clear Vegeta's Super Vegeta training mission to receive the Super Vegeta 1/2 Awoken Skill.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-25",
       "race_restriction": "Saiyan",
-      "notes": "Saiyan CaC-only two-stage Awoken Skill. Activation thresholds are 300/400 Ki for Super Vegeta 1/2. 2026-09-20 provenance refinement: maintained transformation research and current unlock guides place Super Vegeta in Vegeta's Capsule Corporation Time Rift training route; no Ultimate Finish gate is inferred. 2026-09-23 provenance refresh: synchronized with the canonical record after rechecking the maintained exact-name/research evidence; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved. 2026-09-26 Batch 468 mechanics audit: current exact-name evidence revalidated the two-stage 300/400-Ki model, Saiyan-only scope, stage-specific attack/defense modifiers, and charged-Ki-Blast teleport behavior. No unsupported frame or patch-independent scaling was added.",
-      "mechanics_notes": "Saiyan-only two-stage Awoken Skill. Stage 1 activates at 300 Ki and reports +5% Strike/+10% Ki Blast damage with +5% Ki Blast damage resistance; Stage 2 activates at 400 Ki and reports +10% Strike/+17.5% Ki Blast damage with +5% physical/+12.5% Ki Blast resistance. As with Super Saiyan forms, fully charged Ki Blast skills gain the documented teleport behavior. The form's Ki-generation reduction is maintained as source-reported rather than treated as a universal patch-independent value.",
+      "notes": "Saiyan CaC-only two-stage Awoken Skill. Activation thresholds are 300/400 Ki for Super Vegeta 1/2. 2026-09-20 provenance refinement: maintained transformation research and current unlock guides place Super Vegeta in Vegeta's Capsule Corporation Time Rift training route; no Ultimate Finish gate is inferred. 2026-09-23 provenance refresh: synchronized with the canonical record after rechecking the maintained exact-name/research evidence; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved.",
+      "mechanics_notes": "Stages use 300/400 Ki. Current Xenoverse 2-specific documentation identifies Super Vegeta 1 as +5% Strike/+10% Ki Blast damage with +5% Ki Blast defense, and Super Vegeta 2 as +10% Strike/+17.5% Ki Blast damage with +5% physical/+12.5% Ki Blast defense. The form's fully charged Ki Blast behavior also inherits the Super Saiyan charged-blast teleport effect. Exact Ki-generation reduction is retained as a separate researched value rather than inferred here.",
       "source_quest": "Capsule Corporation Time Rift — Vegeta Super Vegeta training",
       "source_quest_or_shop": "Vegeta training — Capsule Corporation Time Rift"
     },
@@ -10420,10 +10427,10 @@
       ],
       "unlock_method": "Expert Mission 6 — \"The Depths of Despair\" Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 reward-tier refinement: maintained/independent Expert Mission evidence explicitly lists Supernova in the EM6 Basic Reward pool; no Ultimate Finish-only condition is inferred. 2026-09-22 provenance strengthening: maintained Steam Expert Mission guide independently lists Supernova as the EM06 (The Depths of Despair) Basic Reward. This corroborates the existing EM06 acquisition endpoint and reward tier; no drop probability or additional gate is inferred. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: synchronized with the canonical record after rechecking the maintained exact-name/research evidence; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved. 2026-09-25 current-evidence promotion: Expert Mission endpoint and current classification/resource cost reconciled with independent acquisition evidence; exact reward probability and first-clear guarantee remain unresolved.",
-      "mechanics_notes": "500 Ki Ki Blast Ultimate from Expert Mission 6; creates and throws a large Supernova energy sphere. 2026-09-21 cross-domain normalization: source_quest uses the canonical Expert Mission identifier EM-6, matching the repository's Expert Mission evidence record ID; source_quest_or_shop retains the human-readable mission title.",
+      "notes": "2026-09-20 reward-tier refinement: maintained/independent Expert Mission evidence explicitly lists Supernova in the EM6 Basic Reward pool; no Ultimate Finish-only condition is inferred. 2026-09-22 provenance strengthening: maintained Steam Expert Mission guide independently lists Supernova as the EM06 (The Depths of Despair) Basic Reward. This corroborates the existing EM06 acquisition endpoint and reward tier; no drop probability or additional gate is inferred. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: synchronized with the canonical record after rechecking the maintained exact-name/research evidence; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved. 2026-09-25 current-evidence promotion: Expert Mission endpoint and current classification/resource cost reconciled with independent acquisition evidence; exact reward probability and first-clear guarantee remain unresolved. 2026-09-26 Batch 469 current-evidence audit: The 500-Ki cost, EM6 endpoint, 18-hit tracking behavior, and source-reported 60% damage are bounded by current references; exact frames and patch-independent scaling remain unresolved.",
+      "mechanics_notes": "500-Ki Ki Blast Ultimate from Expert Mission 6, 'The Depths of Despair'. The user creates a massive orange energy sphere from the index finger and throws it at the target; current dedicated evidence classifies it as a long-range tracking 18-hit projectile/ball with knockback and source-reported 60% total damage. It is distinct from Supernova Cooler, which is Cooler’s separate 500-Ki Ultimate.",
       "source_quest": "EM-6",
       "source_quest_or_shop": "Expert Mission 6",
       "ki_cost": 500
@@ -10445,10 +10452,10 @@
       ],
       "unlock_method": "Cooler (Final Form)'s Lesson 3 — complete the instructor lesson to receive Supernova Cooler as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 500 Ki used. 2026-09-23 provenance refresh: synchronized with the canonical record after rechecking the maintained exact-name/research evidence; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved. 2026-09-25 Batch 375 mechanics enrichment: current Xenoverse 2 evidence added bounded mechanics; unresolved frame timing, exact damage, probability, and hidden-gate fields remain unasserted. 2026-09-25 mechanics enrichment: current evidence refreshed; unsupported frame data, hidden gates, probabilities, and unverified numeric values remain unresolved. 2026-09-26 Batch 468 mechanics audit: current exact-name evidence revalidated the 500-Ki cost, Cooler (Final Form) Lesson 3 endpoint, 18-hit projectile behavior, source-reported ~45% damage, tracking/launching characteristics, and faster-startup distinction from Supernova. Damage remains source-bounded.",
-      "mechanics_notes": "500-Ki Ki Blast Ultimate learned from Cooler (Final Form) Lesson 3. The user rises slightly, charges a large orange Ki sphere in the right hand, and throws it at the target. Current dedicated evidence reports 18 hits and about 45% source-reported damage; the technique has projectile, tracking, long-range, launching characteristics and a faster startup than the separate Supernova at the cost of lower source-reported damage. Exact startup frames and patch-independent damage scaling remain unresolved.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 500 Ki used. 2026-09-23 provenance refresh: synchronized with the canonical record after rechecking the maintained exact-name/research evidence; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved. 2026-09-25 Batch 375 mechanics enrichment: current Xenoverse 2 evidence added bounded mechanics; unresolved frame timing, exact damage, probability, and hidden-gate fields remain unasserted. 2026-09-25 mechanics enrichment: current evidence refreshed; unsupported frame data, hidden gates, probabilities, and unverified numeric values remain unresolved.",
+      "mechanics_notes": "500-Ki Ki Blast Ultimate. Throws a large, power-packed Ki blast; current Xenoverse 2 references identify mentor training with Cooler (Final Form) as the acquisition endpoint. Exact startup, tracking, damage, and charge-frame data remain bounded pending dedicated mechanics evidence.",
       "source_quest": "Cooler (Final Form) mentor training — Lesson 3",
       "source_quest_or_shop": "Cooler (Final Form) mentor training — Lesson 3"
     },

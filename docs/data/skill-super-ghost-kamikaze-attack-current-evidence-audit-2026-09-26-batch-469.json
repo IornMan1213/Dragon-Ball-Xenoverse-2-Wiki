@@ -1,0 +1,13 @@
+{
+  "batch": 469,
+  "date": "2026-09-26",
+  "skill_name": "Super Ghost Kamikaze Attack",
+  "skill_id": "skill-super-ghost-kamikaze-attack",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Ghost_Kamikaze_Attack_%28Super%29",
+    "https://dragonballupdates.fandom.com/wiki/Super_Ghost_Kamikaze_Attack",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+  ],
+  "evidence_boundary": "The one-ghost behavior, approximate four-second trigger, 100 Ki, stun, and source-reported 10% damage are documented; exact tracking envelope, startup, frames, and scaling remain unresolved."
+}

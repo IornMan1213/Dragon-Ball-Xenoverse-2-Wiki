@@ -1,0 +1,13 @@
+{
+  "batch": 469,
+  "date": "2026-09-26",
+  "skill_name": "Burst Kamehameha",
+  "skill_id": "skill-burst-kamehameha",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Burst_Kamehameha",
+    "https://dragonball.fandom.com/wiki/Burst_Kamehameha",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "evidence_boundary": "The 100/200-Ki resource model and additional-input behavior are documented; exact startup/recovery frames, damage formulas, and reward probability are not inferred."
+}

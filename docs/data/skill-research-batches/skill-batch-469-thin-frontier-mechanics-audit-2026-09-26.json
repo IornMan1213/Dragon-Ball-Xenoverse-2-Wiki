@@ -1,0 +1,40 @@
+{
+  "batch": 469,
+  "date": "2026-09-26",
+  "selection_method": "Fresh live census over 474 records, excluding all current-evidence-audited IDs; eight lowest-coverage remaining records selected.",
+  "selected_skills": [
+    {
+      "skill_id": "skill-fighting-pose-c",
+      "skill_name": "Fighting Pose C"
+    },
+    {
+      "skill_id": "skill-burst-kamehameha",
+      "skill_name": "Burst Kamehameha"
+    },
+    {
+      "skill_id": "skill-supernova",
+      "skill_name": "Supernova"
+    },
+    {
+      "skill_id": "skill-freedom-kick",
+      "skill_name": "Freedom Kick"
+    },
+    {
+      "skill_id": "skill-super-elite-combo",
+      "skill_name": "Super Elite Combo"
+    },
+    {
+      "skill_id": "skill-atomic-blast",
+      "skill_name": "Atomic Blast"
+    },
+    {
+      "skill_id": "skill-super-ghost-kamikaze-attack",
+      "skill_name": "Super Ghost Kamikaze Attack"
+    },
+    {
+      "skill_id": "skill-super-god-shock-flash",
+      "skill_name": "Super God Shock Flash"
+    }
+  ],
+  "next_exclusion_rule": "Exclude Batch 469 and every prior current-evidence audit in the next census."
+}

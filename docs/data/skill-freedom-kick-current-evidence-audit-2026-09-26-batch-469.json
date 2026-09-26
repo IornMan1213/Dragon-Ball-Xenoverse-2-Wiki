@@ -1,0 +1,13 @@
+{
+  "batch": 469,
+  "date": "2026-09-26",
+  "skill_name": "Freedom Kick",
+  "skill_id": "skill-freedom-kick",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Freedom_Kick",
+    "https://dragonball.fandom.com/wiki/Freedom_Kick",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "evidence_boundary": "Four-hit behavior, tracking-after-knockback, 100 Ki, PQ29, and source-reported 10% damage are documented; exact frames and damage scaling are not inferred."
+}

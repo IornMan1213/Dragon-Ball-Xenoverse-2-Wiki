@@ -1,0 +1,13 @@
+{
+  "batch": 469,
+  "date": "2026-09-26",
+  "skill_name": "Super Elite Combo",
+  "skill_id": "skill-super-elite-combo",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Elite_Combo",
+    "https://dragonball.fandom.com/wiki/Super_Elite_Combo",
+    "https://dbxv2.fandom.com/wiki/Mentors"
+  ],
+  "evidence_boundary": "The 300-Ki cost, Jaco training endpoint, 3-hit structure, and source-reported 30% total damage are current evidence; exact frames and per-hit damage are not inferred."
+}

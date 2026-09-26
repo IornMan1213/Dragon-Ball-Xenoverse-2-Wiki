@@ -1,0 +1,13 @@
+{
+  "batch": 469,
+  "date": "2026-09-26",
+  "skill_name": "Supernova",
+  "skill_id": "skill-supernova",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Supernova",
+    "https://dragonball.fandom.com/wiki/Supernova",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
+  ],
+  "evidence_boundary": "The 500-Ki cost, EM6 endpoint, 18-hit tracking behavior, and source-reported 60% damage are bounded by current references; exact frames and patch-independent scaling remain unresolved."
+}

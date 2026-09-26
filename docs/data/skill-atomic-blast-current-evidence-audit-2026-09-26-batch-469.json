@@ -1,0 +1,14 @@
+{
+  "batch": 469,
+  "date": "2026-09-26",
+  "skill_name": "Atomic Blast",
+  "skill_id": "skill-atomic-blast",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Atomic_Blast",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+    "https://www.dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+    "https://mp1st.com/news/dragon-ball-xenoverse-2-update-1-31-punches-out-for-adjustments-conton-city-vote-pack-data-this-july-6"
+  ],
+  "evidence_boundary": "Charge-stage/grounded values are source-reported and version-bounded; exact release timing, frame data, and universal damage formula are not inferred. PQ87 reward-tier conflict remains explicit."
+}

@@ -1,0 +1,69 @@
+{
+  "batch": 469,
+  "date": "2026-09-26",
+  "scope": "Fresh unaudited mechanics frontier",
+  "skills": [
+    {
+      "skill_id": "skill-fighting-pose-c",
+      "skill_name": "Fighting Pose C",
+      "current_evidence_audit": "docs/data/skill-fighting-pose-c-current-evidence-audit-2026-09-26-batch-469.json",
+      "mechanics_boundary": "0-Ki Power Up Super from PQ13. Activating the pose removes existing abnormal status effects and prevents abnormal statuses from being applied for the documented 20-second effect. Current skill evidence classifies it as a Power Up Super and does not establish additional defensive/frame properties."
+    },
+    {
+      "skill_id": "skill-burst-kamehameha",
+      "skill_name": "Burst Kamehameha",
+      "current_evidence_audit": "docs/data/skill-burst-kamehameha-current-evidence-audit-2026-09-26-batch-469.json",
+      "mechanics_boundary": "100–200 Ki Ki Blast Super from PQ72. The initial beam is multi-hit; a second input during the beam spends another 100 Ki to prolong the wave and increase damage. Current documentation describes the extended blast as visibly larger near the user and identifies Burst Kamehameha as a fast-acting Kamehameha variant. Exact frame data and patch-independent damage scaling remain unresolved."
+    },
+    {
+      "skill_id": "skill-supernova",
+      "skill_name": "Supernova",
+      "current_evidence_audit": "docs/data/skill-supernova-current-evidence-audit-2026-09-26-batch-469.json",
+      "mechanics_boundary": "500-Ki Ki Blast Ultimate from Expert Mission 6, 'The Depths of Despair'. The user creates a massive orange energy sphere from the index finger and throws it at the target; current dedicated evidence classifies it as a long-range tracking 18-hit projectile/ball with knockback and source-reported 60% total damage. It is distinct from Supernova Cooler, which is Cooler’s separate 500-Ki Ultimate."
+    },
+    {
+      "skill_id": "skill-freedom-kick",
+      "skill_name": "Freedom Kick",
+      "current_evidence_audit": "docs/data/skill-freedom-kick-current-evidence-audit-2026-09-26-batch-469.json",
+      "mechanics_boundary": "100-Ki Strike Super from PQ29. The user flies around the opponent in a multi-kick rush and knocks the target downward; current skill-specific evidence classifies it as a 4-hit tracking rush with knockdown. When used after knocking an opponent away, it can track the target. Current documentation reports about 10% damage, which remains source-reported."
+    },
+    {
+      "skill_id": "skill-super-elite-combo",
+      "skill_name": "Super Elite Combo",
+      "current_evidence_audit": "docs/data/skill-super-elite-combo-current-evidence-audit-2026-09-26-batch-469.json",
+      "mechanics_boundary": "300-Ki Strike Ultimate from Jaco's training. The user poses, strikes the opponent twice, then fires the Galactic Patrol ray gun; current exact-name evidence classifies the technique as a 3-hit rush/pseudo-Ki Blast sequence and reports about 30% total damage. The finishing ray-gun blast is the final component. Exact startup, miss recovery, and damage distribution are unresolved."
+    },
+    {
+      "skill_id": "skill-atomic-blast",
+      "skill_name": "Atomic Blast",
+      "current_evidence_audit": "docs/data/skill-atomic-blast-current-evidence-audit-2026-09-26-batch-469.json",
+      "mechanics_boundary": "100-Ki Ki Blast Super from PQ87. It is a chargeable Ki wave whose damage depends on release timing and whether the user is grounded: current dedicated evidence reports 5% for immediate fire, 20% airborne/25% grounded for the part-charge release, and 5% airborne/10% grounded at full charge. SSGSS Vegeta (Evolved) uses a related presentation in which the move can damage during charging and activates faster. The repository retains the current PQ87 Basic Reward provenance while documenting the historical reward-source conflict."
+    },
+    {
+      "skill_id": "skill-super-ghost-kamikaze-attack",
+      "skill_name": "Super Ghost Kamikaze Attack",
+      "current_evidence_audit": "docs/data/skill-super-ghost-kamikaze-attack-current-evidence-audit-2026-09-26-batch-469.json",
+      "mechanics_boundary": "100-Ki Ki Blast Super learned through Gotenks training. The user exhales one ghost; if the opponent is in range, or after about four seconds, the ghost rushes the target, dealing source-reported 10% damage and stunning them. Current documentation classifies it as a single-hit, long-range, tracking projectile. The 300-Ki five-ghost Ultimate is a distinct record and is not merged into this Super entry."
+    },
+    {
+      "skill_id": "skill-super-god-shock-flash",
+      "skill_name": "Super God Shock Flash",
+      "current_evidence_audit": "docs/data/skill-super-god-shock-flash-current-evidence-audit-2026-09-26-batch-469.json",
+      "mechanics_boundary": "100-Ki Strike Super counter with grab properties. The user poses to counter melee/Strike attacks; if struck during the active counter window, it responds with a one-inch punch. Current dedicated evidence states that it works properly from the front and that the resulting counter hit has grab-like unavoidable behavior once triggered except against applicable invulnerability. The skill is available through the Skill Shop; no quest/Ultimate-Finish acquisition route is inferred."
+    }
+  ],
+  "selection_basis": "Lowest combined mechanics/notes coverage among 474 canonical records after excluding all records with registered current-evidence audits.",
+  "evidence_policy": [
+    "Preserve source-reported damage, hit counts, resource costs, durations, and charge-stage values as bounded evidence.",
+    "Do not infer unsupported frame data, hidden gates, probabilities, or patch-independent scaling.",
+    "Keep Super and Ultimate variants distinct.",
+    "Retain historical acquisition/reward conflicts."
+  ],
+  "validation": {
+    "canonical_skill_records": 474,
+    "index_skill_records": 474,
+    "expected_missing": 0,
+    "expected_extra": 0
+  },
+  "ci_build": "unverified"
+}
