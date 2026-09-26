@@ -1967,3 +1967,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Batch 487 research/provenance artifacts remain to be completed.
 - [ ] CI/build remains unverified.
 - [x] Next: complete Batch 487 artifact registration, then proceed to Bending Kamehameha → Flash Strike → Finishing Blow → Sudden Death Beam after a fresh census.
+
+### 2026-09-26 TODO progress update — Partner character navigation recovery
+- [x] Inspected Git history for the missing Partner Customization navigation artifacts and recovered the latest coherent historical versions.
+- [x] Restored the Partner Customization page, 20-key record/reconciliation layers, canonical character layer, character identity bridge, navigation audit, and hardened validator.
+- [x] Added `docs/data/partner-customization-character-navigation-recovery-audit-2026-09-26.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Live reconciliation: **20 keys / 20 reconciliation records / 29 bridge records / 149 canonical character names / 20 page links / 0 failed checks / 0 identity mismatches**.
+- [ ] Exact next: reconcile the recovered character/preset layer against remaining live character consumer artifacts before expanding Partner Customization skill relationships.
+- [ ] CI/build remains unverified.
