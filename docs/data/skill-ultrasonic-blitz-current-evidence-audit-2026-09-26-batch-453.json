@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-ultrasonic-blitz",
+  "name": "Ultrasonic Blitz",
+  "batch": 453,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Ultrasonic_Blitz"
+  ],
+  "findings": [
+    "100-Ki Strike Super counter. The user enters a counter stance for up to roughly two seconds; when struck, the counter teleports behind the attacker and performs its follow-up strike. The maintained PQ151 reward data assigns the skill to an explicit 50% Ultimate Finish roll. Exact counter-active frames, accepted attack classes, post-counter invulnerability, and damage scaling remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
