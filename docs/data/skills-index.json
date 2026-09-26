@@ -7207,10 +7207,10 @@
       ],
       "unlock_method": "Parallel Quest 6 — \"Saibamen's Revenge\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-25 current-evidence refresh: current documentation confirms the two-hit teleporting kick sequence, PQ6 acquisition, Ki cost, and conditional hard-knockdown/cancel behavior. No unsupported damage or frame values are promoted.",
-      "mechanics_notes": "100-Ki Strike Super from PQ6 — Saibamen's Revenge. Performs a launching kick, then teleports in front of the opponent's path for a second kick. The second hit can produce a hard knockdown when the user is close enough to the ground and strikes the opponent's back; the second hit can also be canceled into another Super or a stamina break.",
+      "notes": "2026-09-26 Batch 436 current-evidence audit: dedicated skill documentation reconfirms the 100-Ki Strike Super, PQ6 endpoint, teleporting two-hit sequence, Ki-confirm trigger, conditional hard-knockdown behavior, and second-hit cancel options. Exact frame data, damage values, and version-independent scaling remain unresolved.",
+      "mechanics_notes": "100-Ki Strike Super from PQ6 — Saibamen's Revenge. The first attack is a launching kick; the user then teleports into the opponent's path for a second kick. If the second kick strikes the opponent's back while the user is close enough to the ground, it can cause a hard knockdown. The first hit can be Ki-confirmed to trigger the teleport, and the second hit can be canceled into another Super or a stamina break. Exact startup/cancel frames and damage scaling remain unresolved.",
       "source_quest": 6,
       "source_quest_or_shop": "Parallel Quest 6 — \"Saibamen's Revenge\"",
       "source_parallel_quests": [
@@ -9677,10 +9677,10 @@
       ],
       "unlock_method": "Basic Reward in Parallel Quest 56.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
-      "mechanics_notes": "Corrected to a **Strike Super**, 100 Ki, PQ56. It throws up to 22 rocks and can be charged to greatly extend range; Hercule's version is categorized as Ki Blast. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. Explicit current reward evidence lists this skill in PQ56's Basic Reward set, so the acquisition route does not require an Ultimate Finish.",
+      "notes": "2026-09-26 Batch 436 current-evidence audit: dedicated skill documentation reconfirms the 100-Ki Strike Super, PQ56 endpoint, up-to-22-rock sequence, and charge-based range extension. Hercule's separate Ki Blast classification is preserved as a character-specific distinction; unsupported per-rock damage, timing, and frame values remain unresolved.",
+      "mechanics_notes": "100-Ki Strike Super from PQ56 — Hercule Is Number One. The user throws a sequence of small rocks, with up to 22 rocks in one use. Holding the input charges the technique and greatly extends its range, from very short range to more than ten times that distance. Hercule's separate version is categorized as a Ki Blast; the equipable CaC skill remains classified as a Strike Super. Exact per-rock timing, damage scaling, and frame data remain unresolved.",
       "source_quest": 56,
       "source_quest_or_shop": "Parallel Quest 56 — \"Hercule Is Number One\"",
       "source_parallel_quests": [
@@ -9795,15 +9795,17 @@
       ],
       "unlock_method": "Parallel Quest 109 — Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for Super Black Kamehameha Rosé; no Ultimate Finish requirement is recorded for this route. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward section; no Ultimate Finish-only gate is asserted.",
+      "notes": "2026-09-26 Batch 436 current-evidence audit: corrected the canonical Ki cost from 300 to 500 using dedicated current skill references; reconfirmed PQ109 acquisition, Ki Blast Ultimate classification, 25-hit sequence, and approximately 40% source-reported total damage. The current PQ page lists the skill in its reward set and separately documents the Ultimate Finish route; no exact drop probability is inferred.",
+      "mechanics_notes": "500-Ki Ki Blast Ultimate from PQ109 — A Fateful Fight with a Deity!. The user first performs a punch/launcher and then fires the pink Rosé Kamehameha, documented at 25 hits and approximately 40% total damage in the current skill reference. The Rosé version has a slower initial punch than Super Black Kamehameha while the beam is documented as the stronger component. Exact startup frames, hit timing, current damage scaling by stats/form, and reward probability remain unresolved.",
       "source_quest": 109,
       "source_quest_or_shop": "Parallel Quest 109 — \"A Fateful Fight With Deity!\"",
       "source_parallel_quests": [
         109
-      ]
+      ],
+      "ki_cost": 500,
+      "skill_description": "Super Black Kamehameha Rosé is an Ultimate Ki Blast skill associated with Goku Black (Super Saiyan Rosé)."
     },
     {
       "name": "Super Destructo-Disc",
@@ -9848,10 +9850,10 @@
       ],
       "unlock_method": "Basic Reward in Parallel Quest 55.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
-      "mechanics_notes": "Confirmed as Gotenks' 100-Ki Ki Blast Super from PQ55. Additional inputs fire up to eight explosive energy rings. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. Explicit current reward evidence lists this skill in PQ55's Basic Reward set, so the acquisition route does not require an Ultimate Finish.",
+      "notes": "2026-09-26 Batch 436 current-evidence audit: dedicated skill documentation reconfirms the 100-Ki Ki Blast Super, PQ55 endpoint, single-ring explosive projectile, and additional-input sequence up to eight rings. The 5% single-ring and 20% full-volley values are retained as source-reported mechanics; unsupported frame and timing values remain unresolved.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ55 — Tag with Gotenks. The user fires an energy ring that explodes on contact; additional inputs can fire up to eight rings in the same use. Current skill documentation reports one ring at about 5% damage and all eight at about 20% total damage. Exact inter-ring timing, tracking, hitstun, and frame data remain unresolved.",
       "source_quest": 55,
       "source_quest_or_shop": "Parallel Quest 55 — \"Tag with Gotenks\"",
       "source_parallel_quests": [
