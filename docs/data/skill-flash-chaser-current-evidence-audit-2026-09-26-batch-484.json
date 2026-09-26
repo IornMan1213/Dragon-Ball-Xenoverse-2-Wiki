@@ -1,0 +1,17 @@
+{
+  "batch": 484,
+  "date": "2026-09-26",
+  "skill_id": "skill-flash-chaser",
+  "skill_name": "Flash Chaser",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Flash_Chaser",
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+  ],
+  "findings": "2026-09-26 Batch 484 current-evidence audit: Flash Chaser is a 100-Ki Ki Blast Super from PQ138. Current skill-specific evidence describes four initial Ki Blasts, an optional second set, spread control, and a later homing input; the listed output is 3 hits/3% at base and up to 8 hits/about 15% when extended. The repository's corrected Majuub character attribution is retained.",
+  "canonical_changes": {
+    "mechanics_notes": "100-Ki Ki Blast Super from PQ138. Fires four Ki Blasts, can add another set, can spread the projectiles with directional input, and can then redirect them to home on the target. Current skill-specific evidence reports 3 hits/about 3% at base and up to 8 hits/about 15% when extended.",
+    "last_verified": "2026-09-26",
+    "research_status": "enriched",
+    "character_source": "Majuub"
+  }
+}
