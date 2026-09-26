@@ -1578,3 +1578,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated provenance registry.
 - [ ] CI/build remains unverified; no workflow success claimed.
 - [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 445 and all prior audited records.
+
+
+### 2026-09-26 continuation — Skill Research Batch 446 in progress
+- [x] Fresh 474-record mechanics frontier identified **Giant Storm, God Splitter, Final Flash (Super), and Menacing Flare** as the next shortest genuinely under-detailed records after excluding prior current-evidence audits.
+- [x] Deepened and synchronized all four canonical records in `docs/data/skills.json`; canonical dataset remains 474 records.
+- [x] Synchronized the four records into `docs/data/skills-index.json`; index remains 474 records.
+- [x] Added the Giant Storm current-evidence audit artifact.
+- [ ] Remaining Batch 446 provenance/audit artifacts and registry registration are blocked by the repository write safety guard in this cycle; do not claim them complete.
+- [ ] CI/build remains unverified.
+- [ ] **Exact next:** finish Batch 446 audit/provenance registration, validate canonical/index parity, then perform the next fresh unaudited frontier census.
