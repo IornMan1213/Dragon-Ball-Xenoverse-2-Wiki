@@ -1,0 +1,19 @@
+{
+  "batch": 487,
+  "date": "2026-09-26",
+  "status": "verification_checkpoint",
+  "records": [
+    "Super Saiyan Blue Kaioken",
+    "Super Saiyan 2",
+    "Super Vegeta",
+    "Namek Finger"
+  ],
+  "scope": "Current-evidence verification after fresh live frontier census.",
+  "evidence_boundary": "Core costs, availability, stages, documented modifiers, and behavior were rechecked. Unsupported exact frames, patch-independent scaling, and hidden interactions remain unresolved.",
+  "next": [
+    "Bending Kamehameha",
+    "Flash Strike",
+    "Finishing Blow",
+    "Sudden Death Beam"
+  ]
+}
