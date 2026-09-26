@@ -1,0 +1,19 @@
+{
+  "skill_id": "skill-crush-cannon",
+  "name": "Crush Cannon",
+  "batch": 453,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://en.dragon-ball-official.com/news/01_496.html",
+    "https://en.dragon-ball-official.com/news/01_585.html"
+  ],
+  "findings": [
+    "Caulifla's Ki Blast Super whose projectile becomes stronger while the fire input is held; the official Dragon Ball site explicitly states that guarding can maintain the energy buildup. The move therefore has a documented charge-versus-release decision rather than a fixed-strength projectile. Exact charge breakpoints, damage values, maximum charge duration, and version-independent scaling remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
