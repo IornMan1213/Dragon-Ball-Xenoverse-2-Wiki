@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-26",
+  "type": "thin_frontier_mechanics_audit",
+  "method": "Fresh live census after Batch 488; audit registry normalized by preserving the skill- prefix when already present. Eight shortest genuinely unaudited records were promoted after excluding registered current-evidence audits.",
+  "selected": [
+    "skill-god-of-destruction-s-roar",
+    "skill-god-of-destruction-s-menace",
+    "skill-hero-s-flute",
+    "skill-beast",
+    "skill-rakshasa-s-claw",
+    "skill-reverse-mabakusenko",
+    "skill-indomitable",
+    "skill-body-change"
+  ],
+  "registry_normalization": "Filename-derived IDs beginning with skill- are retained verbatim; other filenames receive the skill- prefix.",
+  "evidence_boundary": "Do not promote player observations to universal mechanics without corroboration."
+}
