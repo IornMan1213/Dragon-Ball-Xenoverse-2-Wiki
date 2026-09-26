@@ -1431,10 +1431,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 445 and all prior audited records.
 
 
-### 2026-09-26 TODO progress update — Skill Research Batch 446 in progress
-- [x] Fresh frontier selected **Giant Storm, God Splitter, Final Flash (Super), and Menacing Flare**.
-- [x] Enriched/synchronized all four canonical skill records and the skill index; both remain 474 records.
-- [x] Added the Giant Storm audit artifact.
-- [ ] Remaining Batch 446 audit/provenance artifacts and registry registration are still outstanding because repository write safety blocked the remaining writes in this cycle.
+### 2026-09-26 TODO progress update — Skill Research Batch 446 completed
+- [x] Researched **Giant Storm, God Splitter, Final Flash (Super), and Menacing Flare**.
+- [x] Enriched/synchronized canonical and index datasets; parity **474/474**, 0 missing / 0 extra.
+- [x] Added four current-evidence audits, Batch 446 research/thin-frontier artifacts, and provenance registrations.
+- [x] Evidence boundaries preserved; unsupported exact frames, scaling, probabilities, and hidden conditions were not inferred.
 - [ ] CI/build remains unverified.
-- [x] **Exact next:** finish Batch 446 audit/provenance registration and validate canonical/index parity before starting the next frontier.
+- [ ] Efficiency addendum remains unavailable at expected path (GitHub 404).
+- [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 446 and all prior current-evidence-audited records.
