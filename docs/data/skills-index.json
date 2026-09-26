@@ -9168,10 +9168,10 @@
       ],
       "unlock_method": "TP Medal Shop / STP Medal Shop",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Soaring Fist as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-22 provenance strengthening: Dragon Ball Wiki independently confirms Soaring Fist as a Xenoverse 2 Super Skill and states that the Future Warrior can purchase it from the TP Medal Shop following Update 1.14. Existing official DLC/update provenance and TP/STP shop endpoint are retained; no additional shop rotation or purchase condition is inferred. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 research refresh: current sources corroborate Soaring Fist as a 100-Ki Super available to the Future Warrior through the TP Medal Shop after Update 1.14; its Ultra Instinct integration as a modified Ki-blast behavior is retained without inferring shop rotation details.",
-      "mechanics_notes": "Current skill evidence lists 100 Ki. It was initially character-limited but is usable by CaCs after the Supreme Kai of Time content became available.",
+      "mechanics_notes": "100-Ki Strike Super that launches a chargeable burst from a forward punch. One uncharged release hits once; holding the input fires up to three projectiles and increases their range. Current dedicated skill evidence reports 10% damage for one hit and 15% total for three hits. It is usable by CaCs through the TP/STP Medal Shop endpoint.",
       "source_quest_or_shop": "TP Medal Shop / STP Medal Shop"
     },
     {
@@ -10189,10 +10189,10 @@
       ],
       "unlock_method": "After maxing friendship with Goku, Vegeta, Gohan & Videl, Gotenks, and Pan, use Shenron's Super Saiyan God wish and then speak with Beerus to receive the skill.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "Saiyan",
       "notes": "Saiyan CaC-only Awoken Skill despite Beerus awarding it to a character of any race. Requires 300 Ki; normal attacks are the primary damage focus. 2026-09-20 provenance refinement: current guide/research evidence explicitly identifies the five friendship requirements, Shenron wish, and Beerus handoff; no Ultimate Finish gate is inferred. 2026-09-23 provenance refresh: synchronized with the canonical record after rechecking the maintained exact-name/research evidence; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved.",
-      "mechanics_notes": "300 Ki; current consolidated table reports no direct Strike/Blast skill modifier but +60% Basic Attack, +50% Ki recovery, and +12.5% movement speed. This distinction is important: the major attack boost is Basic Attack rather than Super/Ultimate damage. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
+      "mechanics_notes": "300-Ki Saiyan Awoken Skill focused on Basic Attack. Current Xenoverse 2-specific evidence reports +60% Basic Attack, +60% Ki auto-recovery, and about +12.5–13.5% movement speed; it does not directly increase Strike or Ki Blast skill damage. The form's timed heavy-attack follow-up bonus is documented separately; exact combo coverage is not inferred.",
       "source_quest": "Shenron wish + Beerus — Super Saiyan God unlock route",
       "source_quest_or_shop": "Shenron wish for Super Saiyan God; Beerus awards the skill"
     },
