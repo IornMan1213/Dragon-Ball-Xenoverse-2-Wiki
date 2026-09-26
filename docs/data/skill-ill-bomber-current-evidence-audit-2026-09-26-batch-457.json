@@ -1,0 +1,26 @@
+{
+  "batch": 457,
+  "date": "2026-09-26",
+  "skill_id": "skill-ill-bomber",
+  "skill_name": "Ill Bomber",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Skill Research Batch 457.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Ill_Bomber",
+    "https://dragonball.fandom.com/wiki/Revenge_Death_Bomber"
+  ],
+  "findings": [
+    "100-Ki Ki Blast Super restricted to Majin CaCs. The user creates an unblockable close-range explosion, knocking the opponent away while becoming invisible for 5 seconds; current skill-specific evidence reports 15% damage. The user can move while invisible and the opponent cannot lock on during the effect."
+  ],
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26",
+    "research_status": "enriched"
+  },
+  "evidence_boundaries": [
+    "Exact frame data is not promoted.",
+    "Patch-independent damage/scaling is not inferred from source-reported values.",
+    "Reward probabilities and hidden prerequisites are not promoted unless directly evidenced.",
+    "Character-specific usage is not converted into a CaC race/gender/form restriction without direct evidence."
+  ]
+}
