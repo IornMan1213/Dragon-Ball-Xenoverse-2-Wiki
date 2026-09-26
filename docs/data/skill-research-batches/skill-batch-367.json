@@ -1,0 +1,61 @@
+{
+  "batch_id": "skill-batch-367",
+  "research_type": "skill_research",
+  "status": "research_only",
+  "created": "2026-09-25",
+  "records": [
+    {
+      "name": "Fighting Pose H",
+      "id": "skill-fighting-pose-h",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "ki_cost": 0,
+      "source_quest_or_shop": "Parallel Quest 61 - The Cell Games Continued",
+      "mechanics_notes": "20-second Power Up Super that temporarily reduces damage taken.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_H"
+      ],
+      "last_verified": "2026-09-25"
+    },
+    {
+      "name": "Explosive Buu Buu Punch",
+      "id": "skill-explosive-buu-buu-punch",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": 100,
+      "source_quest_or_shop": "Parallel Quest 50 / Majin Chaos reward",
+      "mechanics_notes": "Strike Super that unleashes a barrage of punches; it can also be initiated while jumping, and the user can block incoming attacks until the attack is released.",
+      "sources": [
+        "https://videogaming.fandom.com/wiki/Explosive_Buu_Buu_Punch"
+      ],
+      "last_verified": "2026-09-25"
+    },
+    {
+      "name": "Shining Slash",
+      "id": "skill-shining-slash",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": 100,
+      "source_quest_or_shop": "Parallel Quest 38 - Power Teams",
+      "mechanics_notes": "Single-hit sword Strike Super; holding the input causes teleportation directly to the targeted opponent before the slash.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Shining_Slash"
+      ],
+      "last_verified": "2026-09-25"
+    },
+    {
+      "name": "Burning Attack",
+      "id": "skill-burning-attack",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "source_quest_or_shop": "Parallel Quest 41 - Warriors/Annihilation - Future Chapters",
+      "mechanics_notes": "Ki Blast Super based on Future Trunks's signature technique; historical Xenoverse 2 patches document changes to launch, guard, and vanish interactions.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Burning_Attack"
+      ],
+      "last_verified": "2026-09-25"
+    }
+  ],
+  "notes": "Fresh census refresh. Canonical generated skill files are not partially rewritten through the connector."
+}
