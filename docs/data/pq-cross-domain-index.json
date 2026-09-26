@@ -139,7 +139,8 @@
     "batch_408_thunder_flash": "docs/data/skill-thunder-flash-current-evidence-audit-2026-09-25-batch-408.json",
     "skill_batch_408": "docs/data/skill-research-batches/skill-batch-408.json",
     "skill_batch_408_thin_frontier": "docs/data/skill-research-batches/skill-batch-408-thin-frontier-mechanics-audit-2026-09-25.json",
-    "skill_batch_409": "docs/data/skill-research-batches/skill-batch-409.json"
+    "skill_batch_409": "docs/data/skill-research-batches/skill-batch-409.json",
+    "partner_skill_relationships": "docs/data/partner-skill-relationships.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",
@@ -321,7 +322,8 @@
     "pq_unrepresented_skill_endpoint_evidence_reconciliation": "docs/data/pq-unrepresented-skill-endpoint-evidence-reconciliation-2026-09-26.json",
     "skill_acquisition_metadata_integrity_audit": "docs/data/skill-acquisition-metadata-integrity-audit-2026-09-26.json",
     "skill_acquisition_metadata_validator": "scripts/validate_skill_acquisition_metadata.py",
-    "partner_custom_skill_domain_boundary": "docs/data/partner-custom-skill-domain-boundary-audit-2026-09-26.json"
+    "partner_custom_skill_domain_boundary": "docs/data/partner-custom-skill-domain-boundary-audit-2026-09-26.json",
+    "partner_skill_relationships_validator": "scripts/validate_partner_skill_relationships.py"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
