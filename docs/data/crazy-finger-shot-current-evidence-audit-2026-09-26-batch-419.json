@@ -1,0 +1,24 @@
+{
+  "batch": 419,
+  "date": "2026-09-26",
+  "skill": "Crazy Finger Shot",
+  "skill_id": "skill-crazy-finger-shot",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Crazy_Finger_Shot"
+  ],
+  "findings": "100-Ki Ki Blast Super from PQ26. Holding the input extends the attack to as many as 14 finger-beam blasts, consuming up to 800 Ki total; current documentation reports 40% total damage for the full sequence.",
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26",
+    "research_status": "enriched",
+    "verification_status": "verified_current_scope",
+    "classification_correction": null
+  },
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unresolved reward-slot probabilities remain unresolved."
+  ]
+}

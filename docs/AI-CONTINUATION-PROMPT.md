@@ -1,3 +1,14 @@
+### 2026-09-26 continuation — Skill Research Batch 419 completed
+
+- [x] Fresh 474-record mechanics frontier census excluded Batches 396–418 and selected **Power Rush, Super Explosive Wave, Do or Die, Masenko, Death Slicer, Mighty Explosive Wave, Time Control, Darkness Eye Beam, Evil Ray Strike, Dragon Spark, Become Giant, and Crazy Finger Shot** as the next twelve shortest genuinely under-detailed canonical mechanics records.
+- [x] Enriched and synchronized canonical `docs/data/skills.json` and projection `docs/data/skills-index.json`; canonical/index remain **474/474**.
+- [x] Corrected **Super Explosive Wave**'s canonical classification from Evasive to **Super**, matching its dedicated Super-variant documentation.
+- [x] Added source-backed current mechanics details including documented damage/hit counts, charge/input behavior, tracking/guard-break behavior, time-stop behavior, and Become Giant's current-scope transformation modifiers where directly supported.
+- [x] Added twelve Batch 419 current-evidence audits plus Batch 419 frontier/research artifacts and registered them in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved evidence boundaries: exact frames, hidden interactions, patch-independent scaling, and unresolved reward probabilities remain unresolved rather than inferred.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [x] **Exact next:** run a fresh 474-record frontier census excluding Batches 396–419 and enrich the next 4–12 shortest genuinely under-detailed canonical mechanics records, synchronizing canonical/index/provenance in the same cycle.
+
 ### 2026-09-26 continuation — Skill Research Batch 416 completed
 
 - [x] Fresh 474-record frontier census excluded Batches 396–415 and selected **Wild Hunt, Destructive Fission, Fruit of the Tree of Might, and Power Blitz** as the next four shortest genuinely under-detailed canonical mechanics records.

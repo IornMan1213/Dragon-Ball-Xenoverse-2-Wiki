@@ -1,0 +1,24 @@
+{
+  "batch": 419,
+  "date": "2026-09-26",
+  "skill": "Power Rush",
+  "skill_id": "skill-power-rush",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Power_Rush"
+  ],
+  "findings": "1000-Ki Strike Ultimate from PQ122. Performs a 14-hit rushdown that source documentation reports at 90% total damage. A downward input can route the rush to attack from behind; the move requires the full 1000 Ki to activate. The documented PQ122 Ultimate Finish route is preserved without asserting an unsupported drop probability.",
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26",
+    "research_status": "enriched",
+    "verification_status": "verified_current_scope",
+    "classification_correction": null
+  },
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unresolved reward-slot probabilities remain unresolved."
+  ]
+}

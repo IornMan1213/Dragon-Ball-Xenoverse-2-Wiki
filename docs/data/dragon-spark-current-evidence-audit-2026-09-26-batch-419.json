@@ -1,0 +1,24 @@
+{
+  "batch": 419,
+  "date": "2026-09-26",
+  "skill": "Dragon Spark",
+  "skill_id": "skill-dragon-spark",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Dragon_Spark"
+  ],
+  "findings": "100-Ki Strike Super from PQ177. The user delivers an uppercut with the Power Pole and then extends the pole toward the opponent for a second hit. Holding the input after the uppercut charges the follow-up so it deals more damage the longer it is charged; current documentation identifies the move as a two-hit, chargeable Power Pole attack. Existing 50% Ultimate Finish acquisition evidence and conflicting reward-table presentation are preserved.",
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26",
+    "research_status": "enriched",
+    "verification_status": "verified_current_scope",
+    "classification_correction": null
+  },
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unresolved reward-slot probabilities remain unresolved."
+  ]
+}

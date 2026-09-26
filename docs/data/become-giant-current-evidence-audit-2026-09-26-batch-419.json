@@ -1,0 +1,24 @@
+{
+  "batch": 419,
+  "date": "2026-09-26",
+  "skill": "Become Giant",
+  "skill_id": "skill-become-giant",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Become_Giant"
+  ],
+  "findings": "300-Ki Namekian Awoken Skill. The transformation replaces the normal moveset, grants a form of hyper armor, and continuously drains Stamina; movement and melee attacks can consume additional Stamina. Current documentation reports +15% Basic Attack, +10% Basic Ki Blast, +10% Ki Skill, +15% Strike Skill, +40% Ki auto-recovery, -50% Stamina recovery, and a -40% Stamina auto-drain modifier, while also documenting that the form has no Ultimate/Evasive skills, no normal guard, and no Z-Vanish. Exact balance values are retained as source-reported current-scope data rather than timeless patch-independent claims.",
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26",
+    "research_status": "enriched",
+    "verification_status": "verified_current_scope",
+    "classification_correction": null
+  },
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unresolved reward-slot probabilities remain unresolved."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "batch": 419,
+  "date": "2026-09-26",
+  "skill": "Super Explosive Wave",
+  "skill_id": "skill-super-explosive-wave",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Explosive_Wave_%28Super%29"
+  ],
+  "findings": "200-Ki Ki Blast Super. Fires a controllable beam that can reach XL range and hit up to 10 times; current skill documentation reports up to 10% total damage across 10 hits. A back-input during the command performs a backflip before firing, and guarding after the backflip cancels the attack. The canonical class is corrected to Super to match the dedicated Super-variant documentation.",
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26",
+    "research_status": "enriched",
+    "verification_status": "verified_current_scope",
+    "classification_correction": "Canonical class corrected from Evasive to Super to match the dedicated Super-variant record."
+  },
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unresolved reward-slot probabilities remain unresolved."
+  ]
+}

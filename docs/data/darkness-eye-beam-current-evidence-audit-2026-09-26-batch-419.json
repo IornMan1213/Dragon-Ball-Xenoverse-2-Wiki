@@ -1,0 +1,24 @@
+{
+  "batch": 419,
+  "date": "2026-09-26",
+  "skill": "Darkness Eye Beam",
+  "skill_id": "skill-darkness-eye-beam",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Darkness_Eye_Beam"
+  ],
+  "findings": "100-Ki Ki Blast Super used by Lord Slug. The user fires a pair of eye beams that rise from below the character toward the opponent; the attack is a sweeping/rising single-hit presentation and source documentation reports 15% damage with knockback.",
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26",
+    "research_status": "enriched",
+    "verification_status": "verified_current_scope",
+    "classification_correction": null
+  },
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unresolved reward-slot probabilities remain unresolved."
+  ]
+}

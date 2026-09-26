@@ -1,0 +1,25 @@
+{
+  "batch": 419,
+  "date": "2026-09-26",
+  "skill": "Mighty Explosive Wave",
+  "skill_id": "skill-mighty-explosive-wave",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Mighty_Explosive_Wave",
+    "https://dragonball.fandom.com/wiki/Mighty_Explosive_Wave"
+  ],
+  "findings": "100-Ki Ki Blast Super from PQ79. Creates a close-range explosion centered on the user; current documentation reports 10% total damage across six hits. This equipable Super is distinct from Jiren (Full Power)'s separate Evasive variation, which uses 300 Stamina instead of Ki.",
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26",
+    "research_status": "enriched",
+    "verification_status": "verified_current_scope",
+    "classification_correction": null
+  },
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unresolved reward-slot probabilities remain unresolved."
+  ]
+}

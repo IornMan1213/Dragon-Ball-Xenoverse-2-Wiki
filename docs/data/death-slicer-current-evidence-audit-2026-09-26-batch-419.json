@@ -1,0 +1,24 @@
+{
+  "batch": 419,
+  "date": "2026-09-26",
+  "skill": "Death Slicer",
+  "skill_id": "skill-death-slicer",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Death_Slicer"
+  ],
+  "findings": "100-Ki Ki Blast Super from Frieza (1st Form)'s Lesson 2. The user launches a disc-shaped projectile; pressing the input again after roughly one second redirects/tracks the disc toward the opponent. The dedicated current documentation reports about 7% damage per successful disc hit, and the user cannot guard while controlling the projectile.",
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26",
+    "research_status": "enriched",
+    "verification_status": "verified_current_scope",
+    "classification_correction": null
+  },
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unresolved reward-slot probabilities remain unresolved."
+  ]
+}

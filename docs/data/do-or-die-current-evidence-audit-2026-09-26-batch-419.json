@@ -1,0 +1,24 @@
+{
+  "batch": 419,
+  "date": "2026-09-26",
+  "skill": "Do or Die",
+  "skill_id": "skill-do-or-die",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Do_or_Die"
+  ],
+  "findings": "100-Ki Power Up Super from PQ49 Basic Reward. Activation knocks back nearby enemies and deals a source-reported 1% damage; the resulting effect reduces damage taken by 10% for 20 seconds. No narrower CaC race, gender, or form restriction is inferred.",
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26",
+    "research_status": "enriched",
+    "verification_status": "verified_current_scope",
+    "classification_correction": null
+  },
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unresolved reward-slot probabilities remain unresolved."
+  ]
+}

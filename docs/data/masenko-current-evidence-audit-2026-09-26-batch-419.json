@@ -1,0 +1,24 @@
+{
+  "batch": 419,
+  "date": "2026-09-26",
+  "skill": "Masenko",
+  "skill_id": "skill-masenko",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Masenko"
+  ],
+  "findings": "100-Ki Ki Blast Super learned through Kid Gohan training. It is a fast single-hit beam with knockback; using the opposite directional input performs a backflip before firing. Current documentation also notes a temporary charge option on Gohan (DBS Super Hero), while the shared CaC skill record remains bounded to the common back-jump behavior.",
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26",
+    "research_status": "enriched",
+    "verification_status": "verified_current_scope",
+    "classification_correction": null
+  },
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unresolved reward-slot probabilities remain unresolved."
+  ]
+}
