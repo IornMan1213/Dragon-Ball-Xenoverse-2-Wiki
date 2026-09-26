@@ -2608,13 +2608,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Frieza (1st Form) mentor training — Lesson 1",
-      "mechanics_notes": "Strike Super: chargeable rush that flies fists-first into the opponent. Longer charging increases reach and strength; current reference reports 100 Ki and 20% damage.",
+      "mechanics_notes": "100-Ki Strike Super. Chargeable fists-first rush whose longer charge increases reach and strength; current reference reports 20% damage. Exact charge-frame and hitbox data remain unresolved.",
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Frieza (1st Form) mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current dedicated skill evidence confirms 100 Ki, Strike Super classification, chargeable rush behavior, and Frieza (1st Form) training Lesson 1 acquisition. Mentor documentation independently lists Death Crasher as the Lesson 1 Basic Reward. 2026-09-23 provenance refresh: current repository evidence was rechecked; existing acquisition, reward-tier, scope, cost, and mechanics semantics were preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current dedicated skill evidence confirms 100 Ki, Strike Super classification, chargeable rush behavior, and Frieza (1st Form) training Lesson 1 acquisition. Mentor documentation independently lists Death Crasher as the Lesson 1 Basic Reward. 2026-09-23 provenance refresh: current repository evidence was rechecked; existing acquisition, reward-tier, scope, cost, and mechanics semantics were preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced. 2026-09-25 Batch 399 mechanics refresh: current evidence strengthened behavior/acquisition boundaries; unresolved numeric/frame details remain explicitly bounded.",
       "id": "skill-death-crasher",
       "source_mentor": [
         "mentor-frieza"
@@ -5153,13 +5153,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Captain Ginyu mentor training — Initiation Test",
-      "mechanics_notes": "0-Ki Power Up Super. Grants Hyper Armor for 12 seconds; incoming damage temporarily depletes Stamina instead of Health, while Stamina regeneration is greatly reduced.",
+      "mechanics_notes": "0-Ki Power Up Super granting Hyper Armor for 12 seconds. Incoming damage is redirected to Stamina rather than Health during the effect, while Stamina regeneration is greatly reduced; exact reduction values remain unresolved.",
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Captain Ginyu mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super from Captain Ginyu's Initiation Test. It grants Hyper Armor for 12 seconds and greatly reduces Stamina regeneration while active. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 mechanics enrichment: current skill-specific evidence promoted the documented combat behavior; unsupported frame data, hidden gates, probabilities, and unverified numeric values remain unresolved.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super from Captain Ginyu's Initiation Test. It grants Hyper Armor for 12 seconds and greatly reduces Stamina regeneration while active. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 mechanics enrichment: current skill-specific evidence promoted the documented combat behavior; unsupported frame data, hidden gates, probabilities, and unverified numeric values remain unresolved. 2026-09-25 Batch 399 mechanics refresh: current evidence strengthened behavior/acquisition boundaries; unresolved numeric/frame details remain explicitly bounded.",
       "id": "skill-fighting-pose-f",
       "source_mentor": [
         "mentor-ginyu"
@@ -10984,7 +10984,7 @@
       "source_quest_or_shop": "Parallel Quest 167 — \"Fighting for Family\"",
       "ultimate_finish_required": false,
       "skill_description": "Seagull Combination is a Strike Super skill associated with Videl (DB Super).",
-      "mechanics_notes": "Flurry of punches followed by a powerful launching kick; additional Ki can increase the number of punches, and an unblockable spinning-kick option can be added.",
+      "mechanics_notes": "100-Ki Strike Super. Performs a punch flurry followed by a powerful launching kick; additional Ki can extend the punch sequence, and an optional spinning-kick follow-up is unblockable. Current evidence keeps exact frame/damage breakdown bounded.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-25",
@@ -10997,7 +10997,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 167,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ167's current maintained reward data lists Seagull Combination as a 40% normal-clear reward; it is not recorded as Ultimate Finish-gated. 2026-09-20 provenance refinement: PQ167 is the documented source. The maintained datamined record reports a 40% normal-clear slot, while the maintained Steam all-PQ guide lists Seagull Combination in the Basic Reward section; both are preserved as source context rather than collapsing the discrepancy. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.\n2026-09-25 current-evidence promotion: Flurry of punches followed by a powerful launching kick; additional Ki can increase the number of punches, and an unblockable spinning-kick option can be added. Evidence limits preserved: Official Dragon Ball material establishes the punch-rush, extra-Ki extension, and unblockable spinning-kick behavior; exact hit count/damage and reward probability remain unresolved. Maintained repository reward sources disagree on presentation of the normal-clear slot; no Ultimate-Finish-only gate is inferred.",
+      "notes": "2026-09-20 audit: PQ167's current maintained reward data lists Seagull Combination as a 40% normal-clear reward; it is not recorded as Ultimate Finish-gated. 2026-09-20 provenance refinement: PQ167 is the documented source. The maintained datamined record reports a 40% normal-clear slot, while the maintained Steam all-PQ guide lists Seagull Combination in the Basic Reward section; both are preserved as source context rather than collapsing the discrepancy. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.\n2026-09-25 current-evidence promotion: Flurry of punches followed by a powerful launching kick; additional Ki can increase the number of punches, and an unblockable spinning-kick option can be added. Evidence limits preserved: Official Dragon Ball material establishes the punch-rush, extra-Ki extension, and unblockable spinning-kick behavior; exact hit count/damage and reward probability remain unresolved. Maintained repository reward sources disagree on presentation of the normal-clear slot; no Ultimate-Finish-only gate is inferred. 2026-09-25 Batch 399 mechanics refresh: current evidence strengthened behavior/acquisition boundaries; unresolved numeric/frame details remain explicitly bounded.",
       "id": "skill-seagull-combination",
       "source_parallel_quests": [
         167
@@ -11430,10 +11430,10 @@
       "source_quest_or_shop": "Parallel Quest 105 — \"Champa's Hellish Holiday\"",
       "ultimate_finish_required": false,
       "skill_description": "Sonic Bomb is a Super Strike skill used by Frieza (1st Form) and available through Customize Partner routes.",
-      "mechanics_notes": "100 Ki Strike Super from PQ105; maintained current reward data places it in Basic Reward, while older player reports conflict, so no UF-only gate is asserted.",
-      "verification_status": "verified",
+      "mechanics_notes": "100-Ki Strike Super from PQ105, where maintained current reward data places it in the Basic Reward pool. The attack launches a sonic shockwave/blast; older player reports conflict on reward tier, so no Ultimate-Finish-only gate is asserted.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Sonic_Bomb",
@@ -11442,7 +11442,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 105,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-23 provenance correction: dedicated current skill documentation identifies Frieza (1st Form) as a Customize Partner user, with Omega Shenron and Super Baby 2 also listed. The legacy character_source value Champa was incorrect and is corrected to Frieza (1st Form); the PQ105 acquisition remains unchanged.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-23 provenance correction: dedicated current skill documentation identifies Frieza (1st Form) as a Customize Partner user, with Omega Shenron and Super Baby 2 also listed. The legacy character_source value Champa was incorrect and is corrected to Frieza (1st Form); the PQ105 acquisition remains unchanged.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced. 2026-09-25 Batch 399 mechanics refresh: current evidence strengthened behavior/acquisition boundaries; unresolved numeric/frame details remain explicitly bounded.",
       "id": "skill-sonic-bomb",
       "source_parallel_quests": [
         105
@@ -12118,10 +12118,10 @@
       "source_quest_or_shop": "Parallel Quest 31 — \"Let's Train!\"",
       "ultimate_finish_required": false,
       "skill_description": "Super Dragon Flight is an Ultimate Strike skill associated with Gohan (Adult); it is a 35% Ultimate Finish reward from Parallel Quest 31.",
-      "mechanics_notes": "300-Ki Strike Ultimate. PQ31 is the documented acquisition endpoint; maintained PQ31 reward data places it in Basic Rewards, so no Ultimate Finish-only gate is asserted.",
-      "verification_status": "verified",
+      "mechanics_notes": "300-Ki Strike Ultimate acquired from PQ31. Maintained PQ31 reward data places it in Basic Rewards rather than asserting an Ultimate-Finish-only gate; exact damage and frame details remain bounded.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Dragon_Flight",
@@ -12130,7 +12130,7 @@
       "source_quest": 31,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 source reconciliation: maintained PQ31 data lists Super Dragon Flight in the Basic Reward section; the prior Ultimate Finish wording was stale. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
+      "notes": "2026-09-20 source reconciliation: maintained PQ31 data lists Super Dragon Flight in the Basic Reward section; the prior Ultimate Finish wording was stale. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved. 2026-09-25 Batch 399 mechanics refresh: current evidence strengthened behavior/acquisition boundaries; unresolved numeric/frame details remain explicitly bounded.",
       "id": "skill-super-dragon-flight",
       "source_parallel_quests": [
         31
