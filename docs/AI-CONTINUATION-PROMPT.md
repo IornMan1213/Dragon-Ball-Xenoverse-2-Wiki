@@ -1773,3 +1773,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved evidence boundaries: source-reported numerical values remain bounded; unsupported exact frames, hidden conditions, reward probabilities, and patch-independent scaling were not inferred.
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [x] **Exact next:** perform another fresh unaudited mechanics frontier census excluding Batch 463 and every prior registered current-evidence audit, then continue the canonical research/synchronization cycle.
+
+
+### 2026-09-26 continuation — Skill Research Batch 464 completed
+- [x] Fresh 474-record mechanics frontier excluded every skill with a registered current-evidence audit and selected **Paralyze Beam, Meteor Burst, Final Kamehameha, Justice Blade, Strike of Revelation, Variant Drive, Giant Storm, and Lightning of Absolution**.
+- [x] Deepened and synchronized all eight canonical records; canonical/index remain **474/474**.
+- [x] Added eight current-evidence audits plus Batch 464 research/thin-frontier artifacts and provenance registrations.
+- [x] Preserved evidence boundaries and version-sensitive conflicts; unsupported exact frames, hidden conditions, probabilities, and patch-independent scaling were not inferred.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** perform another fresh unaudited mechanics frontier census excluding Batch 464 and every prior registered current-evidence audit.
