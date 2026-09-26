@@ -3,7 +3,7 @@
   "batch_id": 402,
   "created": "2026-09-25",
   "type": "thin-frontier-mechanics-enrichment",
-  "scope": "First four genuinely under-detailed canonical skill records after exclusion of Batches 396–401",
+  "scope": "Eight-record under-detailed mechanics frontier after exclusion of Batches 396–401",
   "records": [
     {
       "id": "skill-recoome-kick",
@@ -49,6 +49,53 @@
         "https://dragonball.fandom.com/wiki/Chain_Destructo_Disc",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74492105",
         "https://dbxv2.fandom.com/wiki/Krillin"
+      ]
+    },
+    {
+      "id": "skill-turn-golden",
+      "name": "Turn Golden",
+      "mechanics_notes": "300-Ki Awoken Skill restricted to the Frieza race. It transforms the user into Golden Form, changing appearance and substantially enhancing Ki Blast output. Current documentation lists +30% Blast Attack, -5% Blast Defense, and a normal Ki Blast sequence of 13 attacks rather than 15; charged Ki Blasts become a quick blast. The form is obtained through the Frieza race's Frieza Force progression. Exact transformation timing, Ki drain behavior, and every combo-specific damage multiplier are not treated as fully resolved here.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Frieza_Race_Skills",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
+        "https://dbxv2.fandom.com/wiki/Category:Transformations",
+        "https://dbxv2.fandom.com/wiki/Turn_Golden",
+        "https://dbxv2.fandom.com/wiki/Awoken_Skill"
+      ]
+    },
+    {
+      "id": "skill-fighting-pose-a",
+      "name": "Fighting Pose A",
+      "mechanics_notes": "0-Ki Power Up Super that grants temporary Auto Guard after the pose animation. Current skill-specific documentation lists a 12-second duration and acquisition from Captain Ginyu Instructor Quest 2. The effect is a defensive status rather than a damage buff; exact activation frames and the precise set of attacks covered by Auto Guard remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_A"
+      ]
+    },
+    {
+      "id": "skill-shining-friday",
+      "name": "Shining Friday",
+      "mechanics_notes": "Strike Super using a sword-like energy blade. The user advances into a multi-hit slashing sequence and can follow the initial attack with additional input for the move's extended sequence. Current documentation identifies it as a Strike Super and records its sword/blade-based attack behavior; exact Ki cost, hit count, damage, and frame data remain unresolved in the bounded current evidence.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Shining_Friday"
+      ]
+    },
+    {
+      "id": "skill-savory-slicer",
+      "name": "Savory Slicer",
+      "mechanics_notes": "100-Ki Strike Super used by Android 21. The user forms Ki blades from both hands and spins toward the opponent at high speed; the forward movement protects against weak Ki Blasts. The attack hits 9 times and current skill-specific documentation reports 20% total damage. It is obtained from Parallel Quest 140, 'Spirit Bomb Away!'.",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
+        "https://dbxv2.fandom.com/wiki/Savory_Slicer",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Savory_Slicer",
+        "https://dbxv2.fandom.com/wiki/Android_21"
       ]
     }
   ],

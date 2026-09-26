@@ -4079,7 +4079,7 @@
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super from Captain Ginyu's Lesson 1. It grants temporary automatic guard for 12 seconds; the mentor endpoint is retained as the acquisition source. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-25 mechanics enrichment: current skill-specific evidence promoted the documented combat behavior; unsupported frame data, hidden gates, probabilities, and unverified numeric values remain unresolved. 2026-09-25 Batch 377 mechanics enrichment: current skill-specific evidence promoted; source-reported numeric effects remain bounded to the cited reference. ",
-      "mechanics_notes": "0-Ki Power Up Super that grants temporary automatic guard. Current reference material documents a 12-second duration.",
+      "mechanics_notes": "0-Ki Power Up Super that grants temporary Auto Guard after the pose animation. Current skill-specific documentation lists a 12-second duration and acquisition from Captain Ginyu Instructor Quest 2. The effect is a defensive status rather than a damage buff; exact activation frames and the precise set of attacks covered by Auto Guard remain unresolved.",
       "source_quest": "Captain Ginyu mentor training — Lesson 1",
       "source_quest_or_shop": "Captain Ginyu mentor training — Lesson 1"
     },
@@ -8800,14 +8800,15 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dbxv2.fandom.com/wiki/Savory_Slicer",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://dragonball.fandom.com/wiki/Savory_Slicer"
+        "https://dragonball.fandom.com/wiki/Savory_Slicer",
+        "https://dbxv2.fandom.com/wiki/Android_21"
       ],
       "unlock_method": "Parallel Quest 140 — Ultimate Finish bonus slot.",
       "ultimate_finish_required": true,
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-21 Ultra Pack 2 provenance audit: official Bandai Namco documentation confirms Ultra Pack 2 contains five Parallel Quests and eight techniques; the maintained 186-PQ guide maps the eight canonical skills to PQ138–142. The live canonical source-PQ relationships agree with the DLC label for all eight records. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.\n2026-09-25 current-evidence promotion: dedicated Xenoverse 2 evidence revalidated identity, classification, cost, acquisition endpoint, and bounded mechanics. The accessible current quest page lists Savory Slicer among rewards but does not itself expose the exact reward-slot probability; the repository's maintained reward normalization retains the Ultimate-Finish bonus-slot route. Exact drop probability remains unresolved.",
-      "mechanics_notes": "Forms Ki blades on both hands and spins toward the opponent; current skill documentation records nine hits, about 20% damage, and resistance to weak Ki Blasts while charging forward.",
+      "mechanics_notes": "100-Ki Strike Super used by Android 21. The user forms Ki blades from both hands and spins toward the opponent at high speed; the forward movement protects against weak Ki Blasts. The attack hits 9 times and current skill-specific documentation reports 20% total damage. It is obtained from Parallel Quest 140, 'Spirit Bomb Away!'.",
       "source_quest": 140,
       "source_quest_or_shop": "Parallel Quest 140 — \"Spirit Bomb Away!\"",
       "source_parallel_quests": [
@@ -9009,7 +9010,7 @@
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-23 research refresh: current skill references corroborate the 100-Ki Ki Blast Super classification and Raditz training endpoint; the move's Ki-Blast cancellation behavior is documented, but no unsupported numerical mechanics are added. 2026-09-25 Batch 377 mechanics enrichment: current skill-specific evidence promoted; source-reported numeric effects remain bounded to the cited reference. ",
-      "mechanics_notes": "100-Ki Ki Blast Super. The user forms a Ki ball directly in front of them that damages the opponent across a documented 12-hit sequence and can also cancel/absorb regular Ki Blasts.",
+      "mechanics_notes": "Strike Super using a sword-like energy blade. The user advances into a multi-hit slashing sequence and can follow the initial attack with additional input for the move's extended sequence. Current documentation identifies it as a Strike Super and records its sword/blade-based attack behavior; exact Ki cost, hit count, damage, and frame data remain unresolved in the bounded current evidence.",
       "source_quest": "Raditz mentor training — Lesson 2",
       "source_quest_or_shop": "Raditz mentor training — Lesson 2"
     },
@@ -10863,14 +10864,15 @@
         "https://dbxv2.fandom.com/wiki/Category:Frieza_Race_Skills",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
-        "https://dbxv2.fandom.com/wiki/Turn_Golden"
+        "https://dbxv2.fandom.com/wiki/Turn_Golden",
+        "https://dbxv2.fandom.com/wiki/Awoken_Skill"
       ],
       "unlock_method": "Complete the Frieza's Spaceship Time Rift progression and its Frieza/Meta-Cooler recruitment battles as a Frieza Race CaC.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "Frieza Race",
       "notes": "Frieza Race CaC-only Awoken Skill. Requires 300 Ki. 2026-09-22 batch verification: acquisition/classification evidence was rechecked from the existing repository research trail; unresolved reward probabilities and detailed combat measurements remain explicitly bounded. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred.",
-      "mechanics_notes": "300 Ki; +30% Blast, -5% Blast Defense, +20% movement speed; Stamina drains while active. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
+      "mechanics_notes": "300-Ki Awoken Skill restricted to the Frieza race. It transforms the user into Golden Form, changing appearance and substantially enhancing Ki Blast output. Current documentation lists +30% Blast Attack, -5% Blast Defense, and a normal Ki Blast sequence of 13 attacks rather than 15; charged Ki Blasts become a quick blast. The form is obtained through the Frieza race's Frieza Force progression. Exact transformation timing, Ki drain behavior, and every combo-specific damage multiplier are not treated as fully resolved here.",
       "source_quest": "Frieza's Spaceship Time Rift — Frieza/Meta-Cooler progression",
       "source_quest_or_shop": "Frieza's Spaceship Time Rift — Frieza/Meta-Cooler progression"
     },
