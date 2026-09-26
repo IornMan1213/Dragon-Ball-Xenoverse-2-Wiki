@@ -917,5 +917,9 @@
   "skill_trap_shooter_current_evidence_audit_2026_09_25": "docs/data/skill-trap-shooter-current-evidence-audit-2026-09-25.json",
   "skill_spirit_blaster_current_evidence_audit_2026_09_25": "docs/data/skill-spirit-blaster-current-evidence-audit-2026-09-25.json",
   "skill_research_batch_381": "docs/data/skill-research-batches/skill-batch-381.json",
-  "skill_batch_381_thin_mechanics_audit_2026_09_25": "docs/data/skill-batch-381-thin-mechanics-audit-2026-09-25.json"
+  "skill_batch_381_thin_mechanics_audit_2026_09_25": "docs/data/skill-batch-381-thin-mechanics-audit-2026-09-25.json",
+  "skill_research_batch_382": "docs/data/skill-research-batches/skill-batch-382.json",
+  "skill_feint_shot_current_evidence_audit_2026_09_25": "docs/data/skill-feint-shot-current-evidence-audit-2026-09-25.json",
+  "skill_shooting_strike_current_evidence_audit_2026_09_25": "docs/data/skill-shooting-strike-current-evidence-audit-2026-09-25.json",
+  "skill_solar_flare_current_evidence_audit_2026_09_25": "docs/data/skill-solar-flare-current-evidence-audit-2026-09-25.json"
 }
