@@ -774,3 +774,14 @@
 - [ ] CI remains unverified.
 - [x] Post-Batch-374 shortest frontier: **Fighting Pose A (86)**, **Spirit Ball (101)**, **Spirit Pulse (101)**, **Chaos Wall (102)**, **Sign of Awakening (103)**, **Tail Slicer (104)**, **Special Beam Cannon (105)**, **Hero's Pose (108)**, **Spirit Boost (109)**, **Teleporting Vanishing Ball (109)**.
 - [x] Exact next: investigate the fresh shortest frontier, skipping records already recently enriched unless new deterministic evidence is available; prioritize **Spirit Ball, Spirit Pulse, Chaos Wall, Sign of Awakening, Tail Slicer** after the already-completed Fighting Pose A.
+
+### 2026-09-25 cycle completion — Skill Batch 375 shortest mechanics frontier
+- [x] Fresh live census of `docs/data/skills-index.json`: **469 records / 0 duplicate IDs / 0 empty mechanics_notes**; the shortest tier was five 78-character placeholders.
+- [x] Completed **Rolling Hercule Punch, Saturday Crash, Super Ghost Kamikaze Attack (Super), Super Ghost Kamikaze Attack (Ultimate), and Supernova Cooler** with bounded current Xenoverse 2 evidence.
+- [x] Added `docs/data/skill-research-batches/skill-batch-375.json` and `docs/data/skill-batch-375-thin-mechanics-audit-2026-09-25.json`; registered both in `docs/data/pq-cross-domain-index.json`.
+- [x] Updated the live skills index records with mechanics text, 2026-09-25 verification dates, and independent/current evidence URLs; acquisition endpoints and relationship identities were preserved.
+- [x] Preserved evidence limits: source-reported damage/timing and historical patch behavior are bounded evidence; no hidden gates, probabilities, exact frame data, or patch-independent numeric claims were inferred.
+- [x] Validation: Batch 375 and audit JSON parse successfully; cross-domain index parses and contains both new registrations; the skills-index write commit contains the intended five-record diff. The oversized skills-index cannot be re-read through the connector's text endpoint after the write, so no false whole-file parse claim is made.
+- [ ] CI: latest runs for this work failed for Repository quality, Wiki data audit, and Clean internal artifacts; Pages deployment was pending at inspection time. No CI success is claimed.
+- [x] Commits: batch `4d0cd14`, audit `15b4ee1`, skills index `ceda61e`, cross-domain registration `5efc253`.
+- [ ] **Exact next:** perform a fresh post-Batch-375 live census and continue the shortest/highest-impact mechanics footprint, beginning with the next remaining 78-character records (**Super Ghost Kamikaze Attack duplicate Ultimate projection, Supernova Cooler/other ties as applicable**) only after confirming the live index; otherwise select the next genuinely shortest records and avoid repeating already enriched targets.
