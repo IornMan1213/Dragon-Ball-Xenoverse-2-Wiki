@@ -1,0 +1,12 @@
+{
+  "batch": 494,
+  "date": "2026-09-26",
+  "skill_id": "skill-super-saiyan",
+  "skill_name": "Super Saiyan",
+  "status": "complete",
+  "findings": "Current research corroborates the classic Super Saiyan Awoken Skill's 300/400/500-Ki thresholds for stages 1/2/3. It does not continuously drain Ki; instead the classic line reduces Ki regeneration, with stage effects increasing as the form rises. Capsule Corporation/Saiyan Awakening remains the acquisition endpoint.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Saiyan"
+  ],
+  "evidence_boundary": "Current Xenoverse 2-specific mechanics and explicit acquisition evidence are bounded to cited source context. Unsupported exact frames, hidden interactions, probabilities, and patch-independent scaling are not inferred."
+}
