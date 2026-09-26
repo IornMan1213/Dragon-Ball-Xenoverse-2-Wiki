@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-spirit-boost",
+  "name": "Spirit Boost",
+  "batch": 456,
+  "date": "2026-09-26",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Spirit_Boost",
+    "https://dragonball.fandom.com/wiki/Spirit_Boost"
+  ],
+  "findings": [
+    "2026-09-26 Batch 456 current-evidence enrichment: 0-Ki Other Super. The user spreads their arms and emits a short-range red energy wave that cancels incoming Ki attacks, including supers and ultimates, during a brief protection window. Current documentation places the start of that protection when the energy expands rather than when the input animation fully completes; exact duration, frame boundaries, and coverage edge cases remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
