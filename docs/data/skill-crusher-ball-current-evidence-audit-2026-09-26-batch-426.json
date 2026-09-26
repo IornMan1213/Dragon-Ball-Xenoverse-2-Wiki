@@ -1,0 +1,24 @@
+{
+  "batch": 426,
+  "date": "2026-09-26",
+  "skill_id": "skill-crusher-ball",
+  "skill_name": "Crusher Ball",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Crusher_Ball",
+    "https://dragonball.fandom.com/wiki/Crusher_Ball",
+    "https://www.youtube.com/watch?v=uew5M9zife8"
+  ],
+  "scope": "Current Xenoverse 2-specific mechanics, acquisition, and bounded version/context evidence reviewed in Batch 426.",
+  "findings": "100-Ki Ki Blast Super acquired from PQ34. Current Xenoverse 2 documentation describes a high-jump launch followed by a wobbling Ki ball with partial tracking; the current skill page records six hits and about 10% displayed damage. Dragon Ball reference material independently confirms PQ34 as the Xenoverse 2 acquisition endpoint.",
+  "canonical_changes": {
+    "last_verified": "2026-09-26",
+    "research_status": "enriched",
+    "verification_status": "evidence_reviewed"
+  },
+  "unresolved": [
+    "Exact current frame data and tracking behavior are unresolved.",
+    "Exact current damage scaling is unresolved.",
+    "No Ultimate Finish-only gate or exact drop probability is inferred without direct evidence."
+  ],
+  "status": "complete"
+}
