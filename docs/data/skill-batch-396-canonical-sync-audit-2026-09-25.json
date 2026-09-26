@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-batch-396-canonical-sync-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "scope": "Canonical/index promotion of Skill Batch 396",
+  "result": "verified",
+  "promoted_records": [
+    "Fighting Pose B",
+    "Fighting Pose D",
+    "Fighting Pose G",
+    "Fighting Pose I",
+    "Fighting Pose J"
+  ],
+  "canonical_counts": {
+    "skills_json": 474,
+    "skills_index_json": 474
+  },
+  "parity": {
+    "status": "passed",
+    "missing_in_index": 0,
+    "missing_in_skills": 0,
+    "duplicate_skill_ids": 0
+  },
+  "mechanics_sync": "Both canonical layers now contain the five Batch 396 records with matching IDs and source-bounded mechanics.",
+  "limits": "No unsupported frame data, reward probabilities, hidden prerequisites, or patch-independent balance values were introduced. Fighting Pose J exact magnitude/duration remains unresolved.",
+  "next_frontier": "Run a fresh thin-frontier census over the 474 canonical records, prioritizing the shortest/least-enriched mechanics records and cross-domain gaps."
+}
