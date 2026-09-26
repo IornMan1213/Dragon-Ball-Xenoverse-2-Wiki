@@ -1502,5 +1502,15 @@
   "skill_break-cannon_current_evidence_audit_2026_09_26_batch_461": "docs/data/skill-break-cannon-current-evidence-audit-2026-09-26-batch-461.json",
   "skill_burst-rush_current_evidence_audit_2026_09_26_batch_461": "docs/data/skill-burst-rush-current-evidence-audit-2026-09-26-batch-461.json",
   "skill_temporal-holy-ray_current_evidence_audit_2026_09_26_batch_461": "docs/data/skill-temporal-holy-ray-current-evidence-audit-2026-09-26-batch-461.json",
-  "skill_victory-rush_current_evidence_audit_2026_09_26_batch_461": "docs/data/skill-victory-rush-current-evidence-audit-2026-09-26-batch-461.json"
+  "skill_victory-rush_current_evidence_audit_2026_09_26_batch_461": "docs/data/skill-victory-rush-current-evidence-audit-2026-09-26-batch-461.json",
+  "skill_batch_462": "docs/data/skill-research-batches/skill-batch-462.json",
+  "skill_batch_462_thin_frontier": "docs/data/skill-research-batches/skill-batch-462-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_riot-javelin_current_evidence_audit_2026_09_26_batch_462": "docs/data/skill-riot-javelin-current-evidence-audit-2026-09-26-batch-462.json",
+  "skill_explosive-assault_current_evidence_audit_2026_09_26_batch_462": "docs/data/skill-explosive-assault-current-evidence-audit-2026-09-26-batch-462.json",
+  "skill_instant-severance_current_evidence_audit_2026_09_26_batch_462": "docs/data/skill-instant-severance-current-evidence-audit-2026-09-26-batch-462.json",
+  "skill_super-kamehameha_current_evidence_audit_2026_09_26_batch_462": "docs/data/skill-super-kamehameha-current-evidence-audit-2026-09-26-batch-462.json",
+  "skill_blaster-ball_current_evidence_audit_2026_09_26_batch_462": "docs/data/skill-blaster-ball-current-evidence-audit-2026-09-26-batch-462.json",
+  "skill_brave-sword-attack_current_evidence_audit_2026_09_26_batch_462": "docs/data/skill-brave-sword-attack-current-evidence-audit-2026-09-26-batch-462.json",
+  "skill_super-kamehameha-ss4-daima_current_evidence_audit_2026_09_26_batch_462": "docs/data/skill-super-kamehameha-ss4-daima-current-evidence-audit-2026-09-26-batch-462.json",
+  "skill_blaster-meteor_current_evidence_audit_2026_09_26_batch_462": "docs/data/skill-blaster-meteor-current-evidence-audit-2026-09-26-batch-462.json"
 }
