@@ -5022,20 +5022,21 @@
       "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Feint_Crash",
-        "https://dbxv2.fandom.com/wiki/Mentors"
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dragonball.fandom.com/wiki/Feint_Crash"
       ],
       "unlock_method": "Cooler (Final Form)'s Initiation Test — complete the instructor lesson to receive Feint Crash as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Cooler (Final Form) mentor training — Initiation Test",
-      "mechanics_notes": "100-Ki Strike Super learned through Cooler (Final Form) training. The user teleports behind the opponent for a restanding punch; an immediate additional input instead teleports to the opposite side for a kick that causes knockback. The regular path can directly cancel into many skills and stamina breaks, while the alternate path is more limited and does not properly connect against already-knocked-back targets.",
+      "mechanics_notes": "100-Ki Strike Super learned through Cooler training. The user teleports behind the opponent and performs a restanding punch. An immediate additional input changes the sequence to a second teleport and kick that knocks the opponent away. The regular version can be cancelled into many skills and stamina breaks; the alternate version instead creates knockback.",
       "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": "Cooler (Final Form) mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 447 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the Cooler training endpoint, 100-Ki Strike classification, restand/alternate knockback paths, and documented cancel/connectivity differences. No unsupported damage or frame values were inferred.",
+      "notes": "2026-09-26 Batch 447 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the Cooler training endpoint, 100-Ki Strike classification, restand/alternate knockback paths, and documented cancel/connectivity differences. No unsupported damage or frame values were inferred.\nBatch 486 current-evidence refresh confirms the 100-Ki cost, Cooler training route, restand/knockback variants, and their distinct follow-up behavior.",
       "id": "skill-feint-crash",
       "source_mentor": [
         "mentor-cooler"
@@ -5434,7 +5435,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Flash_(Super)",
         "https://dbxv2.fandom.com/wiki/Super_Attack",
-        "https://dragonball.fandom.com/wiki/Final_Flash"
+        "https://dragonball.fandom.com/wiki/Final_Flash",
+        "https://dbxv2.fandom.com/wiki/Final_Flash_%28Super%29"
       ],
       "ki_cost": 200,
       "research_status": "enriched",
@@ -5443,11 +5445,11 @@
       "source_quest_or_shop": "Character skill",
       "last_verified": "2026-09-26",
       "usable_by_cac": false,
-      "mechanics_notes": "200-Ki character-exclusive Ki Blast Super used by SSGSS Vegeta (Evolved); unavailable to CaCs. The user fires a long beam from both hands, producing a 24-hit knockback sequence; dedicated current evidence reports approximately 30% total damage. It is the first Ultimate Attack repurposed as a Super variant.",
+      "mechanics_notes": "200-Ki Ki Blast Super used by SSGSS Vegeta (Evolved) and unavailable to CaCs. Fires a long beam from both hands, dealing about 30% damage over 24 hits before knocking the opponent away. It is the Super variant of Final Flash.",
       "race_restriction": "Character-only",
       "dlc_requirement": "Ultra Pack 1",
       "acquisition_type": "character_only",
-      "notes": "2026-09-26 Batch 446 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the 200-Ki cost, 24-hit long-range beam/knockback behavior, character-only scope, and source-reported ~30% damage. No CaC acquisition route, frame data, or scaling was inferred.",
+      "notes": "2026-09-26 Batch 446 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the 200-Ki cost, 24-hit long-range beam/knockback behavior, character-only scope, and source-reported ~30% damage. No CaC acquisition route, frame data, or scaling was inferred.\nBatch 486 current-evidence refresh confirms the character-exclusive 200-Ki classification, 24-hit beam sequence, source-reported damage, and knockback.",
       "id": "skill-final-flash-super"
     },
     {
@@ -6879,20 +6881,21 @@
         "https://dbxv2.fandom.com/wiki/God_Splitter",
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
-        "https://dbxv2.fandom.com/wiki/Zamasu"
+        "https://dbxv2.fandom.com/wiki/Zamasu",
+        "https://dragonball.fandom.com/wiki/God_Splitter"
       ],
       "unlock_method": "Zamasu mentor training — lesson-1.",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Zamasu mentor training",
-      "mechanics_notes": "100-Ki Ki Blast Super from Zamasu training. The user creates a Ki sphere in the left hand; an additional input fires it for a documented 10-hit sequence at about 5% total damage, while precise timing can produce a 17-hit sequence at about 10% total damage. Guard input can cancel before firing.",
+      "mechanics_notes": "100-Ki Ki Blast Super learned through Zamasu Training. The user creates a large energy sphere in front of them that blocks incoming Ki Blasts and damages enemies who contact it. Additional input launches the sphere; guarding can disperse it. The defensive sphere can therefore function as both a projectile and a Ki-blast barrier.",
       "last_verified": "2026-09-26",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Zamasu mentor training — lesson-1.",
       "dlc_requirement": "Extra Pack 1",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 446 current-evidence audit: dedicated Xenoverse 2 evidence expanded the previously deferred mechanics with the held Ki-ball setup, additional-input firing, guard cancellation, 8–17-hit characteristics, and source-reported ~5%/10% damage outcomes. Exact timing/scaling remains unresolved.",
+      "notes": "2026-09-26 Batch 446 current-evidence audit: dedicated Xenoverse 2 evidence expanded the previously deferred mechanics with the held Ki-ball setup, additional-input firing, guard cancellation, 8–17-hit characteristics, and source-reported ~5%/10% damage outcomes. Exact timing/scaling remains unresolved.\nBatch 486 current-evidence refresh confirms the defensive sphere, Ki-blast blocking, contact damage, launch input, and Zamasu-training acquisition.",
       "id": "skill-god-splitter",
       "source_mentor": [
         "mentor-zamasu"
@@ -8729,7 +8732,7 @@
       "source_quest_or_shop": "Parallel Quest 60 — \"Blast the Super Spirit Bomb!\"",
       "ultimate_finish_required": false,
       "skill_description": "Majin Kamehameha is a Super Ki Blast skill associated with Majin Buu.",
-      "mechanics_notes": "100-Ki Ki Blast Super from PQ60 — Blast the Super Spirit Bomb!. Fires a pink Kamehameha chargeable through three stages; current documentation reports 5 hits at base charge and up to 15 hits at maximum charge, with approximately 10% to 15% damage. Restricted to Majin CaCs. Exact charge timing, hit timing, and stat-scaling behavior remain unresolved.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ60, Blast the Super Spirit Bomb!, restricted to Majin CaCs. Fires a pink Kamehameha chargeable through three stages; current skill evidence reports about 10% damage over 5 hits at base and about 15% over 15 hits at maximum charge. It is also used by several Majin/other character presets.",
       "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-26",
@@ -8743,7 +8746,7 @@
       "race_restriction": "Majin",
       "source_quest": 60,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 437 current-evidence audit: corrected the canonical class from Ultimate to Super using dedicated current skill documentation; reconfirmed 100-Ki cost, PQ60 endpoint, three charge stages, 5-to-15-hit behavior, approximately 10%-to-15% source-reported damage, and Majin-only CaC restriction.",
+      "notes": "2026-09-26 Batch 437 current-evidence audit: corrected the canonical class from Ultimate to Super using dedicated current skill documentation; reconfirmed 100-Ki cost, PQ60 endpoint, three charge stages, 5-to-15-hit behavior, approximately 10%-to-15% source-reported damage, and Majin-only CaC restriction.\nBatch 486 current-evidence refresh confirms the 100-Ki cost, PQ60 route, Majin CaC restriction, three-stage charge, and source-reported base/max output.",
       "id": "skill-majin-kamehameha",
       "source_parallel_quests": [
         60
