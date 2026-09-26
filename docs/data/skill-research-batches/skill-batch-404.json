@@ -1,0 +1,39 @@
+{
+  "batch": 404,
+  "date": "2026-09-25",
+  "status": "frontier_selected_pending_canonical_write",
+  "records": [
+    {
+      "id": "skill-feint-shot",
+      "name": "Feint Shot",
+      "sources": [
+        "Gamers Heroes instructor guide",
+        "Steam instructor guide"
+      ]
+    },
+    {
+      "id": "skill-fighting-pose-k",
+      "name": "Fighting Pose K",
+      "sources": [
+        "Xenoverse 2 community testing",
+        "Steam Xenoverse 2 discussion"
+      ]
+    },
+    {
+      "id": "skill-justice-pose",
+      "name": "Justice Pose",
+      "sources": [
+        "Steam Parallel Quest guide"
+      ]
+    },
+    {
+      "id": "skill-dust-attack",
+      "name": "Dust Attack",
+      "sources": [
+        "Steam Parallel Quest guide",
+        "gameplay/review video"
+      ]
+    }
+  ],
+  "evidence_boundary": "Evidence review completed; canonical mechanics synchronization remains pending because the large skills files rejected the contents update SHA."
+}
