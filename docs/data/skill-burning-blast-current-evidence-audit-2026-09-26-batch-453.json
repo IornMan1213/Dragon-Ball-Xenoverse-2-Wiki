@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-burning-blast",
+  "name": "Burning Blast",
+  "batch": 453,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Burning_Blast"
+  ],
+  "findings": [
+    "current identity and acquisition evidence are corroborated while exact numerical mechanics remain bounded. The record intentionally leaves CaC race/gender/form restrictions null where current evidence does not establish a narrower restriction. Acquisition and character association are kept separate from inferred universal availability; exact hit count, startup, damage scaling, and drop probability remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
