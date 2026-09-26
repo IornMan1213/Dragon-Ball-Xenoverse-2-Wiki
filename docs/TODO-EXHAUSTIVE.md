@@ -976,3 +976,12 @@
 - [x] Evidence boundaries preserved: unsupported exact frames, timing, tracking, damage, and cancel windows remain unresolved rather than being inferred.
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [x] **Exact next:** fresh 474-record census excluding Batches 396–404, then enrich the next 4–12 shortest genuinely under-detailed records and synchronize canonical/index/provenance in the same cycle.
+
+
+### 2026-09-25 TODO progress update — Skill Research Batch 405 completed
+- [x] Fresh 474-record frontier census after Batch 404 selected **Dynamite Kick, Super Saiyan, Burst Stinger, and Destruction's Concerto: Starfall** as the next shortest genuinely under-detailed records.
+- [x] Enriched and synchronized canonical `docs/data/skills.json` and projection `docs/data/skills-index.json`; canonical/index remain 474/474.
+- [x] Added four current-evidence audits, Batch 405 research data, thin-frontier audit, and provenance registry entries.
+- [x] Evidence boundaries preserved; version-sensitive stat/damage values are explicitly bounded rather than presented as timeless balance facts.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [x] **Exact next:** fresh 474-record census excluding Batches 396–405, then enrich the next 4–12 shortest genuinely under-detailed records and synchronize canonical/index/provenance.

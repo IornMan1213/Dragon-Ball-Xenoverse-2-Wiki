@@ -1,0 +1,44 @@
+{
+  "batch": 405,
+  "date": "2026-09-25",
+  "scope": "Skill mechanics frontier",
+  "status": "completed",
+  "records": [
+    {
+      "id": "skill-dynamite-kick",
+      "name": "Dynamite Kick",
+      "mechanics_notes": "100-Ki Strike Super learned through Hercule's training. The move is chargeable and short-range: the base kick is quick but the fully charged version takes several seconds to prepare and can reach a documented 25% source-reported damage. Full charge produces a multi-hit rush ending with another Dynamite Kick in the technique's broader description. Exact charge-frame timing and patch-independent damage remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Dynamite_Kick",
+        "https://dragonball.fandom.com/wiki/Dynamite_Kick"
+      ]
+    },
+    {
+      "id": "skill-super-saiyan",
+      "name": "Super Saiyan",
+      "mechanics_notes": "300-Ki Awoken Skill for Saiyan CaCs. Current documentation places its unlock at Capsule Corporation after the Saiyan progression requirements and describes the classic Super Saiyan line as Ki-gated rather than continuously Ki-draining; Super Saiyan itself increases offensive/defensive stats while reducing Ki regeneration relative to base. It can be powered down manually, and the classic form has no fixed time limit. Exact current stat multipliers and regeneration values should be version-tagged before being treated as definitive.",
+      "sources": [
+        "https://dragonballxenoverse2.wiki/guides/transformations/super-saiyan/",
+        "https://steamcommunity.com/app/454650/discussions/0/341537388316510522/"
+      ]
+    },
+    {
+      "id": "skill-burst-stinger",
+      "name": "Burst Stinger",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ136, 'Breaking Down the Barrier.' The move begins with an unblockable close-range hand thrust and can follow with a Ki wave; current skill documentation reports 10% damage over two hits for the full sequence and 5% for the ranged wave alone. If attacked during startup, the user can evade and perform the chop, and the move can be used during Boost Dash. Exact startup frames and patch-specific damage remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Burst_Stinger",
+        "https://gamefaqs.gamespot.com/boards/190457-dragonball-xenoverse-2/77868870"
+      ]
+    },
+    {
+      "id": "skill-destruction-s-concerto-starfall",
+      "name": "Destruction's Concerto: Starfall",
+      "mechanics_notes": "100–200-Ki Ki Blast Super from DLC Super Pack 2 / PQ104, 'Vados the Talent Scout.' The user creates two green energy spheres to the left and right. When combined with Destruction's Conductor, the spheres split into smaller homing orbs that bombard the target; current skill documentation reports six hits and about 8% total damage for the split sequence. Future Warrior uses the technique without Vados's staff. Exact homing parameters, timing, and patch-independent damage remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Destruction%27s_Concerto%3A_Starfall",
+        "https://dragonball.fandom.com/wiki/Destruction%27s_Concerto%3A_Starfall"
+      ]
+    }
+  ]
+}

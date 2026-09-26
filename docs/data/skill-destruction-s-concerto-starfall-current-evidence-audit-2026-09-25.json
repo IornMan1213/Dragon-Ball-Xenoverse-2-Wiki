@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-25",
+  "batch": 405,
+  "skill_id": "skill-destruction-s-concerto-starfall",
+  "skill_name": "Destruction's Concerto: Starfall",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Destruction%27s_Concerto%3A_Starfall",
+    "https://dragonball.fandom.com/wiki/Destruction%27s_Concerto%3A_Starfall"
+  ],
+  "mechanics_summary": "100–200-Ki Ki Blast Super from DLC Super Pack 2 / PQ104, 'Vados the Talent Scout.' The user creates two green energy spheres to the left and right. When combined with Destruction's Conductor, the spheres split into smaller homing orbs that bombard the target; current skill documentation reports six hits and about 8% total damage for the split sequence. Future Warrior uses the technique without Vados's staff. Exact homing parameters, timing, and patch-independent damage remain unresolved.",
+  "evidence_limits": [
+    "Exact startup/charge/timing/tracking and patch-independent damage values remain unresolved where not directly established."
+  ]
+}

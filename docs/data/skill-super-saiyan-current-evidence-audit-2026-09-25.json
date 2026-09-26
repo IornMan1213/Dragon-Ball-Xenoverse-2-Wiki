@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-25",
+  "batch": 405,
+  "skill_id": "skill-super-saiyan",
+  "skill_name": "Super Saiyan",
+  "sources": [
+    "https://dragonballxenoverse2.wiki/guides/transformations/super-saiyan/",
+    "https://steamcommunity.com/app/454650/discussions/0/341537388316510522/"
+  ],
+  "mechanics_summary": "300-Ki Awoken Skill for Saiyan CaCs. Current documentation places its unlock at Capsule Corporation after the Saiyan progression requirements and describes the classic Super Saiyan line as Ki-gated rather than continuously Ki-draining; Super Saiyan itself increases offensive/defensive stats while reducing Ki regeneration relative to base. It can be powered down manually, and the classic form has no fixed time limit. Exact current stat multipliers and regeneration values should be version-tagged before being treated as definitive.",
+  "evidence_limits": [
+    "Exact startup/charge/timing/tracking and patch-independent damage values remain unresolved where not directly established."
+  ]
+}

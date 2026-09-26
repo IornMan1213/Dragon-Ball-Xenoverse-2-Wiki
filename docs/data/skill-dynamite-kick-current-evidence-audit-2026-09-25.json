@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-25",
+  "batch": 405,
+  "skill_id": "skill-dynamite-kick",
+  "skill_name": "Dynamite Kick",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Dynamite_Kick",
+    "https://dragonball.fandom.com/wiki/Dynamite_Kick"
+  ],
+  "mechanics_summary": "100-Ki Strike Super learned through Hercule's training. The move is chargeable and short-range: the base kick is quick but the fully charged version takes several seconds to prepare and can reach a documented 25% source-reported damage. Full charge produces a multi-hit rush ending with another Dynamite Kick in the technique's broader description. Exact charge-frame timing and patch-independent damage remain unresolved.",
+  "evidence_limits": [
+    "Exact startup/charge/timing/tracking and patch-independent damage values remain unresolved where not directly established."
+  ]
+}

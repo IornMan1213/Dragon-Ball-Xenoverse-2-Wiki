@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-25",
+  "batch": 405,
+  "skill_id": "skill-burst-stinger",
+  "skill_name": "Burst Stinger",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Burst_Stinger",
+    "https://gamefaqs.gamespot.com/boards/190457-dragonball-xenoverse-2/77868870"
+  ],
+  "mechanics_summary": "100-Ki Ki Blast Super from PQ136, 'Breaking Down the Barrier.' The move begins with an unblockable close-range hand thrust and can follow with a Ki wave; current skill documentation reports 10% damage over two hits for the full sequence and 5% for the ranged wave alone. If attacked during startup, the user can evade and perform the chop, and the move can be used during Boost Dash. Exact startup frames and patch-specific damage remain unresolved.",
+  "evidence_limits": [
+    "Exact startup/charge/timing/tracking and patch-independent damage values remain unresolved where not directly established."
+  ]
+}

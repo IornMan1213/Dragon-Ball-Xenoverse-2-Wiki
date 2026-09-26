@@ -1,0 +1,42 @@
+{
+  "batch": 405,
+  "date": "2026-09-25",
+  "records": [
+    {
+      "id": "skill-dynamite-kick",
+      "name": "Dynamite Kick",
+      "mechanics_length": 422,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Dynamite_Kick",
+        "https://dragonball.fandom.com/wiki/Dynamite_Kick"
+      ]
+    },
+    {
+      "id": "skill-super-saiyan",
+      "name": "Super Saiyan",
+      "mechanics_length": 535,
+      "sources": [
+        "https://dragonballxenoverse2.wiki/guides/transformations/super-saiyan/",
+        "https://steamcommunity.com/app/454650/discussions/0/341537388316510522/"
+      ]
+    },
+    {
+      "id": "skill-burst-stinger",
+      "name": "Burst Stinger",
+      "mechanics_length": 449,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Burst_Stinger",
+        "https://gamefaqs.gamespot.com/boards/190457-dragonball-xenoverse-2/77868870"
+      ]
+    },
+    {
+      "id": "skill-destruction-s-concerto-starfall",
+      "name": "Destruction's Concerto: Starfall",
+      "mechanics_length": 492,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Destruction%27s_Concerto%3A_Starfall",
+        "https://dragonball.fandom.com/wiki/Destruction%27s_Concerto%3A_Starfall"
+      ]
+    }
+  ]
+}
