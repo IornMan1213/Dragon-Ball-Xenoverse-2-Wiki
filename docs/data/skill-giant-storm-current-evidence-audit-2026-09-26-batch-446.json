@@ -1,0 +1,20 @@
+{
+  "skill_id": "skill-giant-storm",
+  "name": "Giant Storm",
+  "batch": 446,
+  "date": "2026-09-26",
+  "status": "complete",
+  "source_notes": [
+    "Dragon Ball Xenoverse 2 Wiki — Giant Storm"
+  ],
+  "findings": [
+    "300 Ki Ki Blast Ultimate",
+    "Skill Shop",
+    "Long-range tracking explosion",
+    "Single-hit launch",
+    "Upward escape guards against backdraft"
+  ],
+  "evidence_boundaries": [
+    "Exact charge timing and damage remain source-bound."
+  ]
+}
