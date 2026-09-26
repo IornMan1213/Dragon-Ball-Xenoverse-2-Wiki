@@ -1,3 +1,13 @@
+### 2026-09-26 TODO progress update — Skill Research Batch 490 completed
+- [x] Fresh live mechanics frontier census performed after Batch 489.
+- [x] Researched and synchronized **Breaker Energy Wave, Emperor's Cannon, Dark Inscription, Gigantic Cluster, Heat Wave, Special Beam Cannon (Beast), Crimson Edge, and Potential Unleashed**.
+- [x] Canonical/index parity remains **474/474**, with **0 missing / 0 extra IDs** and ordered parity true.
+- [x] Added Batch 490 research/thin-frontier artifacts and eight current-evidence audits; all ten artifacts registered in the cross-domain index.
+- [x] Evidence boundaries preserved, including the Emperor's Cannon acquisition conflict and source-bounded Special Beam Cannon (Beast) damage figures.
+- [ ] CI/build remains unverified.
+- [ ] Efficiency addendum remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** fresh unaudited mechanics-frontier census excluding Batch 490 and every prior registered current-evidence audit; do not reuse stale candidates.
+
 ### 2026-09-26 TODO progress update — Skill Research Batch 489 completed
 - [x] Fresh live mechanics frontier census performed after Batch 488 with corrected audit filename normalization.
 - [x] Researched and synchronized **God of Destruction's Roar, God of Destruction's Menace, Hero's Flute, Beast, Rakshasa's Claw, Reverse Mabakusenko, Indomitable, and Body Change**.
