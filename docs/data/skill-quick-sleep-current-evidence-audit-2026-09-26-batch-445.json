@@ -1,0 +1,20 @@
+{
+  "skill_id": "skill-quick-sleep",
+  "name": "Quick Sleep",
+  "batch": 445,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Quick_Sleep"
+  ],
+  "findings": [
+    "300 Ki",
+    "Majin CaCs only",
+    "Health recovery; Purification restores Ki/Stamina",
+    "Vulnerable while sleeping"
+  ],
+  "evidence_boundaries": [
+    "Exact recovery rates/timing unresolved.",
+    "Corrected stale canonical 0-Ki value to 300 Ki."
+  ]
+}

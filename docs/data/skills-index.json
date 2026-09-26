@@ -4004,12 +4004,13 @@
       ],
       "unlock_method": "Yamcha's Initiation Test — complete the instructor lesson to receive Fake Death as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-22 provenance/mechanics refresh: current dedicated evidence confirms Fake Death as Yamcha's 0-Ki Strike Super learned through Yamcha's training. It uses a fake-KO pose with generous invulnerability during the setup/get-up sequence and a surprise kick counter. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
-      "mechanics_notes": "0-Ki Strike Super. The user falls backward into the Yamcha pose and can hold the input while lying down, then springs up with a kick. Current Xenoverse 2-specific evidence documents generous invulnerability frames during the initial animation and get-up, making the move a defensive counter option as well as a deceptive attack.",
+      "notes": "2026-09-26 Batch 445 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the current cost, acquisition, classification, and bounded mechanics; exact frames/recovery/scaling remain unresolved.",
+      "mechanics_notes": "0-Ki Strike Super from Yamcha training. The user falls backward into the fake-KO pose, can hold input while down, then springs up with a kick. Dedicated evidence documents generous invulnerability during the initial and get-up animations.",
       "source_quest": "Yamcha mentor training — Initiation Test",
-      "source_quest_or_shop": "Yamcha mentor training — Initiation Test"
+      "source_quest_or_shop": "Yamcha mentor training — Initiation Test",
+      "ki_cost": 0
     },
     {
       "id": "skill-feint-crash",
@@ -7137,12 +7138,13 @@
       ],
       "unlock_method": "Turles's mentor training — complete the corresponding lesson to receive Meteor Burst as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.\n2026-09-23 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "300-Ki Ki Blast Ultimate obtained through Turles mentor training. The user raises a barrier that absorbs attacks, then releases a large Ki projectile that erupts into a pillar. The mentor lesson is the deterministic acquisition endpoint; no PQ or Ultimate Finish gate is conflated with it.",
+      "notes": "2026-09-26 Batch 445 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the current cost, acquisition, classification, and bounded mechanics; exact frames/recovery/scaling remain unresolved.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from Turles training. A brief barrier absorbs attacks before a large Ki projectile erupts into a pillar; dedicated evidence documents 42 hits and approximately 80% total damage, with additional input able to fire faster.",
       "source_quest": "Turles mentor training",
-      "source_quest_or_shop": "Turles mentor training"
+      "source_quest_or_shop": "Turles mentor training",
+      "ki_cost": 300
     },
     {
       "id": "skill-meteor-crash",
@@ -8123,7 +8125,7 @@
       "name": "Punisher Shield",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -8133,10 +8135,10 @@
       ],
       "unlock_method": "Parallel Quest 129 — \"Frieza Force on the Hunt\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: PQ129 reward listings explicitly include Punisher Shield in the Basic Reward pool; dedicated skill documentation confirms PQ129 acquisition.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.",
-      "mechanics_notes": "100-Ki Ki Blast Super/counter from PQ129 — Frieza Force on the Hunt, Basic Reward. It nullifies/reflects incoming Ki-based attacks and launches a projectile back at the attacker. Current dedicated evidence supports universal CaC availability and the PQ129 Basic Reward route.",
+      "notes": "2026-09-26 Batch 445 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the current cost, acquisition, classification, and bounded mechanics; exact frames/recovery/scaling remain unresolved.",
+      "mechanics_notes": "100-Ki Ki Blast Super/counter from PQ129. A barrier lasts about 2 seconds, can reflect incoming Ki Blasts and trigger a teleporting kick; close-range use can produce the kick directly. Dedicated evidence reports approximately 7% damage.",
       "source_quest": 129,
       "source_quest_or_shop": "Parallel Quest 129 — \"Frieza Force on the Hunt\"",
       "source_parallel_quests": [
@@ -8197,7 +8199,7 @@
       "name": "Quick Sleep",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "acquisition_type": "skill_shop",
       "sources": [
@@ -8207,12 +8209,12 @@
       ],
       "unlock_method": "Skill Shop (Conton City), after defeating Mira (Final Form) in the main story",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "Majin only",
-      "notes": "2026-09-19 shop acquisition verification: current skill documentation confirms the listed shop/wish-start route; no Ultimate Finish is involved.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
-      "mechanics_notes": "0-Ki Other Super restricted to Majin CaCs and sold through the Skill Shop after the documented main-story progression. The user sleeps to recover resources while vulnerable; dedicated references describe recovery of health, Ki, and Stamina. No Ultimate Finish condition is involved.",
+      "notes": "2026-09-26 Batch 445 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the current cost, acquisition, classification, and bounded mechanics; exact frames/recovery/scaling remain unresolved.",
+      "mechanics_notes": "300-Ki Other Super restricted to Majin CaCs. Sleep recovers Health; with Purification it also restores Ki and Stamina. The user is vulnerable and cannot move or use an Evasive while sleeping; releasing input ends the sleep after a short wake-up animation.",
       "source_quest_or_shop": "Skill Shop after defeating Mira (Final Form) in the main story",
-      "ki_cost": 0
+      "ki_cost": 300
     },
     {
       "id": "skill-raid-blast",
@@ -11643,7 +11645,13 @@
     "skill_evil_eyes_current_evidence_audit_2026_09_26_batch_444": "docs/data/evil-eyes-current-evidence-audit-2026-09-26-batch-444.json",
     "skill_maximum_charge_current_evidence_audit_2026_09_26_batch_444": "docs/data/maximum-charge-current-evidence-audit-2026-09-26-batch-444.json",
     "skill_research_batch_444": "docs/data/skill-research-batches/skill-batch-444.json",
-    "skill_batch_444_thin_frontier": "docs/data/skill-research-batches/skill-batch-444-thin-frontier-mechanics-audit-2026-09-26.json"
+    "skill_batch_444_thin_frontier": "docs/data/skill-research-batches/skill-batch-444-thin-frontier-mechanics-audit-2026-09-26.json",
+    "skill_quick_sleep_current_evidence_audit_2026_09_26_batch_445": "docs/data/skill-quick-sleep-current-evidence-audit-2026-09-26-batch-445.json",
+    "skill_fake_death_current_evidence_audit_2026_09_26_batch_445": "docs/data/skill-fake-death-current-evidence-audit-2026-09-26-batch-445.json",
+    "skill_meteor_burst_current_evidence_audit_2026_09_26_batch_445": "docs/data/skill-meteor-burst-current-evidence-audit-2026-09-26-batch-445.json",
+    "skill_punisher_shield_current_evidence_audit_2026_09_26_batch_445": "docs/data/skill-punisher-shield-current-evidence-audit-2026-09-26-batch-445.json",
+    "skill_research_batch_445": "docs/data/skill-research-batches/skill-batch-445.json",
+    "skill_batch_445_thin_frontier": "docs/data/skill-research-batches/skill-batch-445-thin-frontier-mechanics-audit-2026-09-26.json"
   },
   "skill_super_vegeta_current_evidence_audit_2026_09_25": "docs/data/skill-super-vegeta-current-evidence-audit-2026-09-25.json",
   "skill_super_saiyan_2_current_evidence_audit_2026_09_25": "docs/data/skill-super-saiyan-2-current-evidence-audit-2026-09-25.json",

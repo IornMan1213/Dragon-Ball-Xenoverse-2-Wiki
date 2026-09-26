@@ -1,0 +1,20 @@
+{
+  "skill_id": "skill-punisher-shield",
+  "name": "Punisher Shield",
+  "batch": 445,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Punisher_Shield"
+  ],
+  "findings": [
+    "100 Ki Ki Blast Super/counter",
+    "PQ129",
+    "Barrier about 2 seconds",
+    "Ki Blast reflection plus teleporting kick",
+    "Approximately 7% damage"
+  ],
+  "evidence_boundaries": [
+    "Duration/damage source-reported; exact frames/scaling unresolved."
+  ]
+}

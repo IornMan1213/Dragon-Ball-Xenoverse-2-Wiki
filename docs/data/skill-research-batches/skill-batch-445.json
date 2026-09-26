@@ -1,0 +1,21 @@
+{
+  "batch": 445,
+  "date": "2026-09-26",
+  "status": "complete",
+  "selected": [
+    "Quick Sleep",
+    "Fake Death",
+    "Meteor Burst",
+    "Punisher Shield"
+  ],
+  "corrections": [
+    "Quick Sleep canonical Ki cost corrected from stale 0 to 300."
+  ],
+  "exact_next": "Run a fresh unaudited mechanics frontier census excluding Batch 445 and all prior current-evidence-audited records.",
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "missing_ids": 0,
+    "extra_ids": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "skill_id": "skill-meteor-burst",
+  "name": "Meteor Burst",
+  "batch": 445,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Meteor_Burst"
+  ],
+  "findings": [
+    "300 Ki Ki Blast Ultimate",
+    "Turles training",
+    "Attack-absorbing barrier",
+    "42 hits; approximately 80% damage",
+    "Additional input fires faster"
+  ],
+  "evidence_boundaries": [
+    "Damage source-reported; exact timing/scaling unresolved."
+  ]
+}

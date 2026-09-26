@@ -1569,3 +1569,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Evidence boundaries preserved; numerical damage claims remain source-reported.
 - [ ] CI/build remains unverified; efficiency addendum remains unavailable at expected path (404).
 - [x] **Exact next:** fresh unaudited mechanics frontier census excluding Batch 443 and all prior audits.
+
+### 2026-09-26 continuation — Skill Research Batch 445 completed
+- [x] Fresh unaudited frontier selected **Quick Sleep, Fake Death, Meteor Burst, and Punisher Shield**.
+- [x] Added four audits plus Batch 445 research/thin-frontier artifacts.
+- [x] Corrected Quick Sleep's stale canonical 0-Ki value to 300 Ki.
+- [x] Synchronized canonical datasets; parity remains 474/474.
+- [x] Updated provenance registry.
+- [ ] CI/build remains unverified; no workflow success claimed.
+- [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 445 and all prior audited records.

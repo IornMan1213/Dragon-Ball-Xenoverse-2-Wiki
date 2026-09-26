@@ -1,0 +1,14 @@
+{
+  "batch": 445,
+  "date": "2026-09-26",
+  "type": "thin_frontier_mechanics_audit",
+  "selected": [
+    "Quick Sleep",
+    "Fake Death",
+    "Meteor Burst",
+    "Punisher Shield"
+  ],
+  "evidence_boundaries": [
+    "No unsupported frame, scaling, probability, or hidden-condition claims added."
+  ]
+}

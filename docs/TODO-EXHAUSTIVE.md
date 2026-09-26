@@ -1420,3 +1420,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build status remains unverified; no workflow success is claimed.
 - [ ] Repository efficiency addendum remains unavailable at the expected path; GitHub returns 404.
 - [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 444 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
+
+
+### 2026-09-26 TODO progress update — Skill Research Batch 445 completed
+- [x] Researched **Quick Sleep, Fake Death, Meteor Burst, and Punisher Shield**.
+- [x] Corrected Quick Sleep from 0 Ki to 300 Ki.
+- [x] Canonical/index parity remains 474/474.
+- [x] Added four audits, Batch 445 research, thin-frontier audit, and provenance entries.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 445 and all prior audited records.

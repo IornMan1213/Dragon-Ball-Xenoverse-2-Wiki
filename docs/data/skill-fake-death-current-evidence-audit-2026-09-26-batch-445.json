@@ -1,0 +1,20 @@
+{
+  "skill_id": "skill-fake-death",
+  "name": "Fake Death",
+  "batch": 445,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Fake_Death",
+    "https://dbxv2.fandom.com/wiki/I-frames"
+  ],
+  "findings": [
+    "0 Ki Strike Super",
+    "Yamcha training",
+    "Hold input while down",
+    "Generous invulnerability"
+  ],
+  "evidence_boundaries": [
+    "No exact frame counts inferred."
+  ]
+}
