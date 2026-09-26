@@ -1,0 +1,14 @@
+{
+  "batch": 488,
+  "date": "2026-09-26",
+  "skill_id": "skill-prominence-flash",
+  "skill_name": "Prominence Flash",
+  "status": "complete",
+  "findings": "Current evidence confirms 300-Ki Ki Blast Ultimate from PQ137. Repeated activations increase damage; maintained community evidence indicates the increase caps at the third use. Exact timing/scaling and reward conflicts remain bounded.",
+  "sources": [
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+    "https://www.reddit.com/r/dbxv/comments/o4lxzx/prominence_flash/"
+  ],
+  "evidence_boundary": "Current-source behavior and source-reported numerical values are preserved as bounded evidence. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; canonical/index parity validated at 474/474."
+}
