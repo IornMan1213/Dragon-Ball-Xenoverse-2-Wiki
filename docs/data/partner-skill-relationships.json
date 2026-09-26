@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-26",
+  "purpose": "Canonical relationship layer for Partner Customization skill availability. This layer supplements, but does not duplicate, the canonical Future Warrior/CaC skill corpus.",
+  "source_skill_corpus": "docs/data/skills.json",
+  "relationship_type": "partner_customization",
+  "identity_rule": "skill_id is always the canonical skill identity; partner_name is the character/custom-partner endpoint identity. Do not create a second skill record for partner availability when the skill already exists canonically.",
+  "evidence_rule": "Every relationship must cite repository evidence. Absence from this index must not be interpreted as proof that a partner cannot use a skill.",
+  "relationships": [
+    {
+      "skill_id": "skill-arm-crash",
+      "skill_name": "Arm Crash",
+      "partner_name": "Bardock",
+      "relationship": "custom_partner_availability",
+      "evidence": [
+        "docs/data/skill-arm-crash-current-evidence-audit-2026-09-26-batch-473.json",
+        "docs/data/skill-research-batches/skill-batch-473.json"
+      ],
+      "evidence_note": "Current Xenoverse 2 evidence explicitly states Bardock custom-partner availability after Partner Customization purchase."
+    },
+    {
+      "skill_id": "skill-arm-crash",
+      "skill_name": "Arm Crash",
+      "partner_name": "Turles",
+      "relationship": "custom_partner_availability",
+      "evidence": [
+        "docs/data/skill-arm-crash-current-evidence-audit-2026-09-26-batch-473.json",
+        "docs/data/skill-research-batches/skill-batch-473.json"
+      ],
+      "evidence_note": "Current Xenoverse 2 evidence explicitly states Turles custom-partner availability after Partner Customization purchase."
+    },
+    {
+      "skill_id": "skill-reverse-mabakusenko",
+      "skill_name": "Reverse Mabakusenko",
+      "partner_name": "Majin Buu (Gohan Absorbed)",
+      "relationship": "custom_partner_availability",
+      "evidence": [
+        "docs/data/skill-batch-481-current-evidence-audit-2026-09-26.json",
+        "docs/data/skill-research-batches/skill-batch-481.json"
+      ],
+      "evidence_note": "Current Xenoverse 2 evidence explicitly identifies Majin Buu (Gohan Absorbed) as using Reverse Mabakusenko via Partner Customization."
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "skill_name": "Dual Masenko",
+      "reason": "The current corpus has no canonical skill-dual-masenko record; partner/custom availability alone is not sufficient to create a duplicate or new canonical record.",
+      "evidence": "docs/data/partner-custom-skill-domain-boundary-audit-2026-09-26.json"
+    }
+  ]
+}
