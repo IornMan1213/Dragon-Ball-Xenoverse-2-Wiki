@@ -1,0 +1,23 @@
+{
+  "batch": 427,
+  "date": "2026-09-26",
+  "skill_id": "skill-super-saiyan-god-super-saiyan-evolved",
+  "skill_name": "Super Saiyan God Super Saiyan (Evolved)",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Saiyan_God_Super_Saiyan_%28Evolved%29",
+    "https://dragonball.fandom.com/wiki/Super_Saiyan_God_SS_Evolved",
+    "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
+  ],
+  "scope": "Current Xenoverse 2-specific mechanics, acquisition, resource costs, and bounded current-state evidence reviewed in Batch 427.",
+  "findings": "500-Ki Saiyan-only Awoken Skill. Current Xenoverse 2 documentation states that it requires level 95 or higher, maximum Vegeta friendship, and prior Super Saiyan God Super Saiyan; Whis grants the skill despite it being usable only by Saiyans. Documented current modifiers include +35% all attack damage, 10% damage reduction, and an 18% Ki-recovery reduction/drain presentation. It also increases movement and stamina recovery according to the maintained skill reference.",
+  "canonical_changes": {
+    "last_verified": "2026-09-26",
+    "research_status": "enriched",
+    "verification_status": "evidence_reviewed"
+  },
+  "unresolved": [
+    "Exact current Ki-drain implementation/timing is not independently measured here.",
+    "Patch-specific modifier history is not collapsed into a timeless frame-by-frame model."
+  ],
+  "status": "complete"
+}
