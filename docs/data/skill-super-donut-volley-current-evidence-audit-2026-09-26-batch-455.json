@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-super-donut-volley",
+  "name": "Super Donut Volley",
+  "batch": 455,
+  "date": "2026-09-26",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Donut_Volley",
+    "https://dragonball.fandom.com/wiki/Super_Donut_Chain"
+  ],
+  "findings": [
+    "2026-09-26 Batch 455 current-evidence enrichment: 100-Ki Ki Blast Super from PQ55. The user fires an energy ring and can add inputs for up to eight rings; current skill-specific evidence reports 5% damage for one ring and 20% when all eight are fired. The move is Gotenks-associated and is also documented as a Future Warrior PQ reward. Exact inter-ring timing, hit confirmation, and scaling remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
