@@ -9,7 +9,7 @@ SKILLS=ROOT/"docs/data/skills.json"
 def main()->int:
     rel=json.loads(REL.read_text(encoding="utf-8"))
     skills=json.loads(SKILLS.read_text(encoding="utf-8"))
-    ids={row["skill_id"] for row in skills}
+    ids={row["id"] for row in skills}
     failures=[]; seen=set()
     assert rel["schema_version"]=="1.0"
     assert rel["relationship_type"]=="partner_customization"
