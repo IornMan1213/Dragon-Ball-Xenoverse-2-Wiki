@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 379,
+  "created": "2026-09-25",
+  "type": "thin_mechanics_enrichment",
+  "scope": "Next shortest genuinely low-detail skill records after excluding recently enriched records.",
+  "records": [
+    {
+      "name": "Saiyan Spirit",
+      "mechanics": "300 Ki; 10-hit pseudo-strike rush into a blue Ki wave; final wave can create a follow-up opening.",
+      "source": "https://dbxv2.fandom.com/wiki/Saiyan_Spirit"
+    },
+    {
+      "name": "Sphere of Destruction",
+      "mechanics": "300 Ki; tracking long-range 13-hit Ki sphere with knockback.",
+      "source": "https://dbxv2.fandom.com/wiki/Sphere_of_Destruction"
+    },
+    {
+      "name": "Elite Beam",
+      "mechanics": "100 Ki; thin mid-range single-hit ray-gun beam with knockback.",
+      "source": "https://dbxv2.fandom.com/wiki/Elite_Beam"
+    },
+    {
+      "name": "Secret Poison",
+      "mechanics": "300 Ki; 2-hit rush Ultimate that punches/kicks the target and inflicts Poison.",
+      "source": "https://dbxv2.fandom.com/wiki/Secret_Poison"
+    },
+    {
+      "name": "Temporal Holy Ray",
+      "mechanics": "100 Ki; delayed clock-sigil beam; Holy Inscription enables up to three placed rays and extra input can fire them together.",
+      "source": "https://dbxv2.fandom.com/wiki/Temporal_Holy_Ray"
+    }
+  ],
+  "evidence_boundary": "No unsupported reward probability, hidden gate, frame data, or patch-independent damage value inferred."
+}
