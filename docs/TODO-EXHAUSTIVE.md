@@ -612,3 +612,12 @@
 - [x] Added and registered Batch 370 audit/research artifacts.
 - [ ] CI remains unverified.
 - [x] **Exact next:** fresh post-Batch-370 `mechanics_notes` census and continue the next shortest genuinely low-detail records.
+
+
+### 2026-09-25 completion — Skill Batches 371–372
+- [x] Fresh post-Batch-370 census confirmed **469/469**, 0 empty `mechanics_notes`.
+- [x] Batch 371 completed Innocence Breath, Innocence Bullet, Neo Tri-Beam, Strike of Revelation, and Sudden Storm.
+- [x] Batch 372 completed Symphonic Destruction, Tri-Beam, Critical Upper, and Super Spirit Bomb.
+- [x] Added and registered both audit/research batches; canonical/index parity remains clean.
+- [ ] CI remains unverified.
+- [x] **Next:** The Savior Has Come (78 chars), then Jumping Energy Wave (79) and Evil Flight Strike (85), using evidence-bound mechanics enrichment.
