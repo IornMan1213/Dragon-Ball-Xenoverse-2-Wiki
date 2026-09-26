@@ -4072,8 +4072,8 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super from Captain Ginyu's Lesson 1. It grants temporary automatic guard for 12 seconds; the mentor endpoint is retained as the acquisition source. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-25 mechanics enrichment: current skill-specific evidence promoted the documented combat behavior; unsupported frame data, hidden gates, probabilities, and unverified numeric values remain unresolved.",
-      "mechanics_notes": "0-Ki Power Up Super. Grants temporary automatic guard for 12 seconds after activation.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super from Captain Ginyu's Lesson 1. It grants temporary automatic guard for 12 seconds; the mentor endpoint is retained as the acquisition source. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-25 mechanics enrichment: current skill-specific evidence promoted the documented combat behavior; unsupported frame data, hidden gates, probabilities, and unverified numeric values remain unresolved. 2026-09-25 Batch 377 mechanics enrichment: current skill-specific evidence promoted; source-reported numeric effects remain bounded to the cited reference. ",
+      "mechanics_notes": "0-Ki Power Up Super that grants temporary automatic guard. Current reference material documents a 12-second duration.",
       "source_quest": "Captain Ginyu mentor training — Lesson 1",
       "source_quest_or_shop": "Captain Ginyu mentor training — Lesson 1"
     },
@@ -8988,14 +8988,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Shining_Friday"
       ],
       "unlock_method": "Raditz's Lesson 2 — complete the instructor lesson to receive Shining Friday as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-23 research refresh: current skill references corroborate the 100-Ki Ki Blast Super classification and Raditz training endpoint; the move's Ki-Blast cancellation behavior is documented, but no unsupported numerical mechanics are added.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-23 research refresh: current skill references corroborate the 100-Ki Ki Blast Super classification and Raditz training endpoint; the move's Ki-Blast cancellation behavior is documented, but no unsupported numerical mechanics are added. 2026-09-25 Batch 377 mechanics enrichment: current skill-specific evidence promoted; source-reported numeric effects remain bounded to the cited reference. ",
+      "mechanics_notes": "100-Ki Ki Blast Super. The user forms a Ki ball directly in front of them that damages the opponent across a documented 12-hit sequence and can also cancel/absorb regular Ki Blasts.",
       "source_quest": "Raditz mentor training — Lesson 2",
       "source_quest_or_shop": "Raditz mentor training — Lesson 2"
     },
@@ -9869,14 +9870,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Super_Explosive_Wave_%28Super%29"
       ],
       "unlock_method": "Piccolo's Lesson 1 — complete the instructor lesson to receive Super Explosive Wave as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21: Future Gohan's Initiation Test also independently teaches this existing canonical skill; multi-mentor provenance is preserved rather than duplicated. 2026-09-21 Ki-cost verification: current skill reference records 200 Ki used. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21: Future Gohan's Initiation Test also independently teaches this existing canonical skill; multi-mentor provenance is preserved rather than duplicated. 2026-09-21 Ki-cost verification: current skill reference records 200 Ki used. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims. 2026-09-25 Batch 377 mechanics enrichment: current skill-specific evidence promoted; source-reported numeric effects remain bounded to the cited reference. ",
+      "mechanics_notes": "200-Ki Ki Blast Super. The user fires a controllable beam that can reach XL range and hit up to 10 times; pressing down during the command adds a backflip before firing, and guarding after the backflip can cancel the attack.",
       "source_quest": "Piccolo mentor training — Lesson 1",
       "source_quest_or_shop": "Piccolo mentor training — Lesson 1"
     },
@@ -10206,10 +10208,10 @@
       ],
       "unlock_method": "Reach level 90 and max friendship with Whis; Whis awards the skill.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "Saiyan",
-      "notes": "Saiyan CaC-only Awoken Skill. Whis can award it to any race that meets the friendship/level requirement, but only Saiyan CaCs can equip/use it. 2026-09-23 provenance refresh: synchronized with the canonical record after rechecking the maintained exact-name/research evidence; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved.",
-      "mechanics_notes": "500 Ki; +25% Strike/+25% Blast, +5% Strike/+5% Blast Defense; drains 10 Ki/sec while active.",
+      "notes": "Saiyan CaC-only Awoken Skill. Whis can award it to any race that meets the friendship/level requirement, but only Saiyan CaCs can equip/use it. 2026-09-23 provenance refresh: synchronized with the canonical record after rechecking the maintained exact-name/research evidence; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved. 2026-09-25 Batch 377 mechanics enrichment: current skill-specific evidence promoted; source-reported numeric effects remain bounded to the cited reference. ",
+      "mechanics_notes": "500-Ki Saiyan-only Awoken Skill with a 25% all-damage increase and 5% damage reduction. It gradually drains Ki; current reference material documents 10 Ki drain per second and reduced Ki recovery. Charged Ki attacks gain the Saiyan teleport/vanish behavior.",
       "source_quest": "Whis training — max friendship and level 90",
       "source_quest_or_shop": "Whis training — max friendship and level 90"
     },
@@ -10227,14 +10229,15 @@
         "https://dbxv2.fandom.com/wiki/Awoken_Skill",
         "https://dbxv2.fandom.com/wiki/Super_Saiyan_God_Super_Saiyan",
         "https://dbxv2.fandom.com/wiki/Super_Saiyan_God_Super_Saiyan_(Evolved)",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74497359?page=14"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74497359?page=14",
+        "https://dbxv2.fandom.com/wiki/Super_Saiyan_God_Super_Saiyan_%28Evolved%29"
       ],
       "unlock_method": "Reach level 95, max friendship with Vegeta, and already possess Super Saiyan God Super Saiyan; Whis awards the skill.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "Saiyan",
-      "notes": "Saiyan CaC-only Awoken Skill. The form is gated behind SSGSS; Whis can award it to any race that meets the requirement, but only Saiyan CaCs can equip/use it. 2026-09-23 provenance refresh: synchronized with the canonical record after rechecking the maintained exact-name/research evidence; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved.",
-      "mechanics_notes": "500 Ki; +35% Strike/+35% Blast, +10% Strike/+10% Blast Defense; drains 18 Ki/sec while active.",
+      "notes": "Saiyan CaC-only Awoken Skill. The form is gated behind SSGSS; Whis can award it to any race that meets the requirement, but only Saiyan CaCs can equip/use it. 2026-09-23 provenance refresh: synchronized with the canonical record after rechecking the maintained exact-name/research evidence; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved. 2026-09-25 Batch 377 mechanics enrichment: current skill-specific evidence promoted; source-reported numeric effects remain bounded to the cited reference. ",
+      "mechanics_notes": "500-Ki Saiyan-only Awoken Skill with a 35% all-damage increase and 10% damage reduction. It drains Ki more rapidly than SSGSS; current reference material documents 18 Ki drain per second and reduced Ki recovery, plus increased stamina and movement speed.",
       "source_quest": "Whis training — max friendship with Vegeta, level 95, SSGSS required",
       "source_quest_or_shop": "Whis training — max friendship with Vegeta, level 95, SSGSS required"
     },
