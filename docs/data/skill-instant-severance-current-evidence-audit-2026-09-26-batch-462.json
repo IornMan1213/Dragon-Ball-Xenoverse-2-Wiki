@@ -1,0 +1,21 @@
+{
+  "batch": 462,
+  "date": "2026-09-26",
+  "skill_name": "Instant Severance",
+  "skill_id": "skill-instant-severance",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics/provenance review for the live canonical record.",
+  "findings": [
+    "300-Ki Strike Ultimate from Zamasu mentor training. The user becomes a Ki blade, rushes toward the opponent, and performs a downward slash; current dedicated evidence documents a 2-hit sequence, knockdown, and about 40% total damage as source-reported. Exact frames and damage scaling remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Instant_Severance",
+    "https://dragonball.fandom.com/wiki/Instant_Severance",
+    "https://dbxv2.fandom.com/wiki/Mentors"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "No unsupported exact frame data, hidden gates, reward probabilities, or patch-independent scaling is promoted.",
+    "Known source conflicts or historical evidence are retained as provenance rather than silently normalized."
+  ]
+}
