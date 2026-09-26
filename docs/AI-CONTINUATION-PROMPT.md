@@ -1,3 +1,15 @@
+### 2026-09-25 cycle completion — Skill Batch 396 research-layer mechanics enrichment
+
+- [x] Fresh post-Batch-395 frontier work continued with five thin Fighting Pose records: **Fighting Pose B, Fighting Pose D, Fighting Pose G, Fighting Pose I, Fighting Pose J**.
+- [x] Added five current-evidence audits under `docs/data/` and `docs/data/skill-research-batches/skill-batch-396.json`.
+- [x] Added and registered `docs/data/skill-batch-396-thin-frontier-mechanics-audit-2026-09-25.json` plus all five per-skill audits and Batch 396 in `docs/data/pq-cross-domain-index.json`.
+- [x] Current evidence confirms B/D/G/I core Power Up identities, 0-Ki cost, effects, and documented acquisition context; J remains deliberately bounded where the current source set does not justify an exact multiplier/duration.
+- [x] No unsupported reward probabilities, hidden prerequisites, frame data, or patch-independent balance claims were promoted.
+- [ ] **Canonical synchronization remains pending:** the GitHub connector currently returns zero-length content for the large `docs/data/skills.json` and `docs/data/skills-index.json` files, so no unsafe whole-file replacement was attempted and no canonical sync is falsely claimed.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** safely synchronize Batch 396 mechanics into canonical/index skill records when a writable large-file path is available; validate canonical/index parity, then continue the next genuinely thin post-Batch-396 frontier.
+
+
 ### 2026-09-25 cycle completion — Batch 52 PQ78-PQ80 verification
 
 - [x] Promoted **Dust Attack**, **Mighty Explosive Wave**, and **Dimensional Hole** to `verified_current_scope` in `docs/data/skill-research-batches/skill-batch-52.json`.
