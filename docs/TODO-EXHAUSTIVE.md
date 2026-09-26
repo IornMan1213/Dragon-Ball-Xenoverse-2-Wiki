@@ -775,3 +775,14 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Commits: canonical `a77320c`; index `a3a59f3`; audits `8f77173`, `e6dd2d9`, `192b794`, `2262dfa`, `3bed646`, `cf44173`; Batch 388 `7a50281`; cross-domain registration `dd19253`.
 - [x] **Exact next:** fresh post-Batch-388 census excluding these six and other recently completed frontier targets, then continue the next genuinely low-detail records in another 4–12 record batch.
+
+
+### 2026-09-25 completion — Skill Batch 389 short-frontier mechanics enrichment
+- [x] Fresh post-Batch-388 census selected the next six low-detail records: **Shooting Strike, Spirit Blaster, Rocket Tackle, Rolling Hercule Punch, Shine Shot, Sonic Rush**.
+- [x] Enriched canonical and projection skill data; all six now carry `last_verified: 2026-09-25` and `verified_current_scope`.
+- [x] Added six current-evidence audits and `docs/data/skill-research-batches/skill-batch-389.json`; registered all seven artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: canonical/index **469/469**, **0 duplicate IDs**, and all six targets have synchronized current verification/date/mechanics fields.
+- [x] Evidence limits preserved: source-reported values remain bounded; no unsupported frame data, hidden prerequisites, reward probabilities, or patch-independent balance claims were inferred.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Commits: canonical `5d3d15e`; index `b98b2e4`; audits `bd023c7`, `da505f6`, `833bee3`, `d0ce279`, `d3fc98d`, `d7c3892`; Batch 389 `1fe57e2`; cross-domain registration `7a2592a`.
+- [x] **Exact next:** fresh post-Batch-389 census excluding these six and other recently completed frontier targets, then continue another 4–12 genuinely low-detail records.
