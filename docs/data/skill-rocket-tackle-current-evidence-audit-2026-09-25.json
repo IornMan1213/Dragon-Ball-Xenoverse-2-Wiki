@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-25",
+  "audit_id": "skill-rocket-tackle-current-evidence-audit-2026-09-25",
+  "target": "Rocket Tackle",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Strike",
+    "ki_cost": 100,
+    "mechanics": "Android 16 charges shoulder-first; after a knockback it can chase/teleport to the opponent before striking."
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Rocket_Tackle",
+    "https://dragonball.fandom.com/wiki/Machine_Impact",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79052164?page=1"
+  ],
+  "limits": [
+    "Source-reported damage and execution observations are not treated as patch-independent frame data; no hidden gate or reward probability is inferred."
+  ]
+}
