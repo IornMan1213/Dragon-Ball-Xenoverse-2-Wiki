@@ -1,0 +1,19 @@
+{
+  "skill_id": "skill-ultimate-charge",
+  "name": "Ultimate Charge",
+  "batch": 454,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Ultimate_Charge",
+    "https://gamefaqs.gamespot.com/switch/190457-dragon-ball-xenoverse-2/answers/599354-what-parallel-quest-can-you-unlock-ultimate-charge"
+  ],
+  "findings": [
+    "2026-09-26 Batch 454 current-evidence enrichment: 0-Ki Other Super charge skill. It begins charging slowly and accelerates the longer the button is held; current skill-specific evidence confirms the accelerating-charge behavior and current references list PQ134, Universe 7's Next God of Destruction, as the acquisition endpoint. The repository retains the known Basic Reward versus Ultimate Finish condition conflict rather than treating either presentation as universally guaranteed. Exact charge curve and frame timing remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
