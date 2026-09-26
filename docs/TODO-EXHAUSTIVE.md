@@ -603,3 +603,12 @@
 - [x] Post-write inspection confirms both validator 470-count checks are updated.
 - [ ] Generated cross-link report remains historical until the validator can be executed; CI remains unverified.
 - [x] **Exact next:** execute/reconcile the validator when execution is available, then resume the next fresh thin-record/current-evidence skill batch.
+
+
+### 2026-09-25 completion — Skill Batch 370
+- [x] Fresh census corrected to the active `mechanics_notes` field: **0 empty records** in the 469-skill canonical corpus; shortest tier was the 78-character placeholder mechanics text.
+- [x] Completed **Fighting Pose A, Fighting Pose F, Innocence Cannon, Justice Rush** with current skill-specific mechanics evidence.
+- [x] Synchronized canonical/index records at **469/469** and added exact skill-page provenance.
+- [x] Added and registered Batch 370 audit/research artifacts.
+- [ ] CI remains unverified.
+- [x] **Exact next:** fresh post-Batch-370 `mechanics_notes` census and continue the next shortest genuinely low-detail records.
