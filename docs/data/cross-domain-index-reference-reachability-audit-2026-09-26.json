@@ -56,5 +56,11 @@
     "2026-09-26 follow-up: three historical/index-only registrations (`dlc-presentation-consumer-audit.json`, `pq-endpoint-navigation-current-audit-2026-09-24.json`, `pq-current-consumer-baseline-synchronization-2026-09-24.json`) were directly checked and are absent from the live tree; search results resolve only to the index itself, so they are not current consumers to reconstruct."
   ],
   "evidence_boundary": "This audit tests only path reachability against the live repository tree. It does not determine whether an unreachable historical artifact should be recreated, whether its underlying claim remains correct, or whether a planned reverse index has enough source data to regenerate safely. Direct absence checks do not establish that historical artifacts should be recreated; no replacement was generated without a live producer/consumer contract.",
-  "next": "Continue with live-present validators/consumers and deterministic projections. Treat absent historical/index-only registrations as provenance unless a current source layer and consumer require reconstruction."
+  "next": "Continue with live-present validators/consumers and deterministic projections. Treat absent historical/index-only registrations as provenance unless a current source layer and consumer require reconstruction.",
+  "validator_hardening_2026_09_26": {
+    "change": "Added scripts/validate_pq_cross_domain_index.py to explicitly validate the canonical PQ cross-domain index container, PQ 1-186 scope, forward-index target, seven reverse-index entity contracts, required key/value fields, farming source field, and non-empty completion rule.",
+    "result": "No relationship endpoints or provenance references were changed or fabricated. The validator formalizes the existing index contract.",
+    "validator_commit": "f94d16cc13781c5f0a69fcbe66bb38c5433d5217",
+    "evidence_boundary": "This validator checks index structure and referenced forward-index existence only; it does not prove the underlying PQ reward claims or recreate absent historical reverse datasets."
+  }
 }
