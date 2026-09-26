@@ -848,3 +848,15 @@
 - [x] Canonical commit: `da8c4ba`; Batch 382: `fb5c7d0`; cross-domain index: `7eb5606`.
 - [x] Evidence limits preserved: no unsupported frame data, hidden prerequisites, reward probabilities, exact universal damage, or patch-independent values promoted.
 - [ ] **Exact next:** fresh evidence check on **Final Flash (SS3 DAIMA) (119), Super Ghost Kamikaze Attack (123), Riot Javelin (125), Rise to Action (126)**, then continue the shortest unfinished mechanics frontier.
+
+
+### 2026-09-25 completion — Skill Batch 383
+- [x] Fresh live census started from canonical `skills.json`; bounded frontier selected from current lengths rather than historical notes.
+- [x] Enriched **Final Flash (SS3 DAIMA), Super Ghost Kamikaze Attack, Riot Javelin, and Rise to Action** with current skill-specific mechanics evidence.
+- [x] Preserved the documented **Rise to Action** stamina-restoration discrepancy instead of silently choosing between conflicting sources.
+- [x] Added four current-evidence audit artifacts and Batch 383; registered them in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: **469 records / 0 empty mechanics_notes / 0 duplicate IDs**; newly enriched targets excluded from the next frontier.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Commits: canonical `ac1815b`; Batch 383 `2029d5a`; cross-domain index `ecfbdfb`.
+- [x] Evidence limits preserved: no unsupported frame data, hidden prerequisites, reward probabilities, or universal damage claims were promoted.
+- [ ] **Exact next:** fresh evidence check on **Rising Rage (128), Super Kamehameha (129), Sneaky Strike (130), Explosive Assault (131)**, then continue the shortest unfinished mechanics frontier.
