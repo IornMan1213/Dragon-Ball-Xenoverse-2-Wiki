@@ -1,0 +1,19 @@
+{
+  "batch": 464,
+  "date": "2026-09-26",
+  "skill_name": "Paralyze Beam",
+  "skill_id": "skill-paralyze-beam",
+  "status": "completed",
+  "findings": [
+    "100-Ki Ki Blast Super from PQ4. The user quickly fires a beam backward; a hit causes the opponent to stagger briefly. Current evidence classifies it as a short-range, single-hit stun/backhit attack. Update 1.26 documentation records faster hit registration and changed damage reaction, so exact timing is version-sensitive; exact stun duration, frame data, and drop probability remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Paralyze_Beam",
+    "https://dragonball.fandom.com/wiki/Paralyze_Beam",
+    "https://mp1st.com/news/dragon-ball-xenoverse-2-update-1-26-march-17-flies-out-for-legendary-pack-1-more"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}
