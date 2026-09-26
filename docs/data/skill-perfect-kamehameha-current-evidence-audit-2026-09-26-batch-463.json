@@ -1,0 +1,21 @@
+{
+  "batch": 463,
+  "date": "2026-09-26",
+  "skill_name": "Perfect Kamehameha",
+  "skill_id": "skill-perfect-kamehameha",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics/provenance review for the live canonical record.",
+  "findings": [
+    "400-Ki Ki Blast Ultimate from Cell (Perfect)'s mentor Lesson 4. The user performs a long charge, then fires a stationary Kamehameha; current dedicated evidence documents 21 hits and approximately 40% total damage as source-reported. The charge leaves the user exposed and the move cannot be guarded; exact frame timing and patch-independent damage scaling remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Perfect_Kamehameha",
+    "https://dbxv2.fandom.com/wiki/Mentors",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "No unsupported exact frame data, hidden gates, reward probabilities, or patch-independent scaling is promoted.",
+    "Known source conflicts or historical evidence remain provenance rather than being silently normalized."
+  ]
+}
