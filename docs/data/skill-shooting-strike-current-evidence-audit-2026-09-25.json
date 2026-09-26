@@ -5,21 +5,11 @@
   "target": "Shooting Strike",
   "result": "verified_current_scope",
   "supported_fields": {
-    "class": "Super",
-    "subcategory": "Ki Blast",
-    "ki_cost": 100,
-    "source_quest_or_shop": "Parallel Quest 156 — \"Hunting Down Dr. Hedo\"",
-    "unlock_method": "Parallel Quest 156 — maintained Ultimate Finish bonus slot",
-    "character_source": "Gamma 1",
-    "mechanics": "Ranged Ki Blast Super: Gamma 1 fires an energy bullet from his ray gun and follows a successful hit with a flying kick."
+    "skill_type": "Ki Blast Super",
+    "ki_cost": 100
   },
-  "limits": [
-    "Maintained reward data records a 50% Ultimate-Finish bonus slot; exact underlying drop mechanics remain unresolved.",
-    "Official material establishes the attack sequence but does not by itself establish CaC reward probability."
-  ],
   "evidence_sources": [
-    "https://en.dragon-ball-official.com/news/01_1435.html",
-    "https://dbxv2.fandom.com/wiki/Shooting_Strike",
-    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-  ]
+    "https://dbxv2.fandom.com/wiki/Shooting_Strike"
+  ],
+  "evidence_boundary": "Current Xenoverse 2 mechanics evidence is bounded to the cited skill reference and corroborating current research. Exact frame data, reward probabilities, hidden prerequisites, and patch-independent balance claims are not inferred."
 }
