@@ -644,3 +644,14 @@
 - [x] Updated the live skills index mechanics fields and verification dates; preserved acquisition/reward semantics and evidence boundaries.
 - [ ] CI remains unverified as a passing state; current runs for this commit reported failures in Repository quality, Wiki data audit, and Clean internal artifacts, with Pages deployment pending at inspection time.
 - [x] **Next:** fresh post-Batch-375 census, then continue the shortest remaining mechanics/source footprints.
+
+
+### 2026-09-25 completion — Skill Batches 376–377 fresh thin-record frontier
+- [x] Batch 376 enriched **Spirit Ball, Spirit Pulse, Chaos Wall, Sign of Awakening, Tail Slicer** and synchronized canonical/index layers at **469/469**.
+- [x] Batch 376 explicitly preserved the Tail Slicer blockability/unblockability source conflict instead of silently choosing one interpretation.
+- [x] Batch 377 then enriched the next shortest live records: **Shining Friday, Super Explosive Wave (Super), Fighting Pose A, Super Saiyan God Super Saiyan, Super Saiyan God Super Saiyan (Evolved)**.
+- [x] Added/registered research and audit artifacts for both batches in the cross-domain index.
+- [x] Fresh live post-Batch-377 census is the next operation; do not assume the historical 78-character frontier remains current.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Canonical/index writes were performed through Git blob reconstruction and direct full-file updates; both were 469 records before/after target synchronization.
+- [ ] **Exact next:** perform a fresh live census of mechanics_notes, exclude recently enriched targets, and continue the shortest/highest-impact records. Prioritize remaining records at or near 78–100 characters, while checking whether their short text is stale before researching them.
