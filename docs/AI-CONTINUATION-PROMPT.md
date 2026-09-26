@@ -969,3 +969,12 @@
 - [x] Added four per-skill audits plus `docs/data/skill-research-batches/skill-batch-393.json` and registered all five artifacts in the cross-domain registry.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Exact next: fresh census excluding Batch 381–393 targets, then continue the next genuinely under-documented records while retaining cross-domain links and evidence boundaries.
+
+
+### 2026-09-25 cycle completion — Skill Batch 394 mechanics deepening
+- [x] Fresh post-Batch-393 census selected **Trap Shooter, Orin Combo, Reverse Launcher, Rough Ranger** as the next genuinely thin records.
+- [x] Deepened current mechanics coverage using dedicated Xenoverse 2 evidence: Trap Shooter's 10-hit cancellable volley; Orin Combo's rising kick sequence/knockdown and documented 15% total damage; Reverse Launcher's two-blast teleport sequence and documented 5% total damage; Rough Ranger's Strike/ Ki counter branches, barrier duration, and documented damage values.
+- [x] Synchronized canonical `docs/data/skills.json` and `docs/data/skills-index.json` verification state.
+- [x] Added four Batch 394 evidence audits plus `docs/data/skill-research-batches/skill-batch-394.json` and registered them in the cross-domain registry.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Exact next: fresh census excluding Batch 381–394 targets, then continue the next thinnest records.
