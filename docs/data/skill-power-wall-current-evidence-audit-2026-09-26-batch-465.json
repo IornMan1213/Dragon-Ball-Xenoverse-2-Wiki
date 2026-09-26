@@ -1,0 +1,18 @@
+{
+  "batch": 465,
+  "date": "2026-09-26",
+  "skill_name": "Power Wall",
+  "skill_id": "skill-power-wall",
+  "status": "completed",
+  "findings": [
+    "500-Ki Ki Blast Ultimate from PQ150 — Battle of the Mind. The user generates a large advancing wall of flame; directional input changes how far the wall travels. Current evidence confirms the PQ150 endpoint and 500-Ki cost; exact damage, frame timing, and drop probability remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Power_Wall",
+    "https://dbxv2.fandom.com/wiki/Parallel_Quest"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}
