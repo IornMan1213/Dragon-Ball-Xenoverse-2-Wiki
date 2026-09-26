@@ -1,0 +1,18 @@
+{
+  "batch": 438,
+  "date": "2026-09-26",
+  "status": "complete",
+  "selected": [
+    "Final Flash (SS3 DAIMA)",
+    "God of Destruction's Anger",
+    "Evil Ray Strike",
+    "Pretty Charge"
+  ],
+  "exact_next": "Run another fresh unaudited mechanics frontier census excluding Batch 438 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.",
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "missing_ids": 0,
+    "extra_ids": 0
+  }
+}
