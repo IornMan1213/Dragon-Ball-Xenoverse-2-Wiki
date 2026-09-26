@@ -1,3 +1,14 @@
+### 2026-09-26 continuation — Skill Research Batch 427 completed
+
+- [x] Fresh unaudited frontier census selected **Hyper Drain, Death Ball, Super Saiyan God Super Saiyan (Evolved), Evil Rise Strike**.
+- [x] Added four current-evidence audits and `docs/data/skill-research-batches/skill-batch-427.json`.
+- [x] Rechecked current Xenoverse 2 mechanics, acquisition endpoints, resource costs, and bounded numeric claims using dedicated skill references plus independent corroboration where available.
+- [x] Synchronized all four records into both canonical skill datasets.
+- [x] Registered all Batch 427 artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Validated **474/474** canonical/index IDs with **0 missing / 0 extra**.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census and continue the canonical research/synchronization cycle.
+
 ### 2026-09-26 continuation — Skill Research Batch 426 completed
 
 - [x] Fresh unaudited frontier census selected **Elite Beam, Sphere of Destruction, Crusher Ball, Do or Die** after excluding prior current-evidence audit registrations.
