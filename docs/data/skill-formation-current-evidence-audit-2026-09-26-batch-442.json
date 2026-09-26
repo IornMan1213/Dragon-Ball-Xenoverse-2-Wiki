@@ -1,0 +1,19 @@
+{
+  "skill_id": "skill-formation",
+  "name": "Formation!",
+  "batch": 442,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Formation%21",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://gamefaqs.gamespot.com/ps4/190458-dragon-ball-xenoverse-2-extra-pack-3/answers/642221-what-do-i-have-to-complete-to-get-the-formation-skill-in-xeno-verse-2"
+  ],
+  "findings": [
+    "100 Ki Power Up Super",
+    "PQ133 Ultimate Finish",
+    "Three charge-duration levels ~30/~31.5/~33 sec",
+    "25% roll retained as source-bound",
+    "Effect magnitude/frames unresolved"
+  ]
+}
