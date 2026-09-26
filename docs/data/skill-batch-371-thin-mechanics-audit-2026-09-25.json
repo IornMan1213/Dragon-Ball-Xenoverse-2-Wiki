@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-batch-371-thin-mechanics-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "result": "current_evidence_mechanics_promotion",
+  "records": [
+    {
+      "name": "Innocence Breath",
+      "id": "skill-innocence-breath",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "mechanics_notes": "300-Ki Ki Blast Ultimate; advances and sweeps a powerful breath/ki wave across the target area, single-hit knockback; dedicated reference describes it as unblockable.",
+      "last_verified": "2026-09-25",
+      "evidence_boundary": "No unsupported frame data, exact timing, probabilities, hidden acquisition gates, or universal damage values promoted."
+    },
+    {
+      "name": "Innocence Bullet",
+      "id": "skill-innocence-bullet",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "mechanics_notes": "100-Ki Ki Blast Super; paired swirling Ki Blasts combine on impact, causing knockback and poison; current evidence states poison persists until death or antidote.",
+      "last_verified": "2026-09-25",
+      "evidence_boundary": "No unsupported frame data, exact timing, probabilities, hidden acquisition gates, or universal damage values promoted."
+    },
+    {
+      "name": "Neo Tri-Beam",
+      "id": "skill-neo-tri-beam",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "mechanics_notes": "300-Ki Ki Blast Ultimate; rises and fires a Tri-Beam, with repeated inputs firing additional shots at 100 Stamina each; current documentation lists 100–1400 Stamina total for repeated shots.",
+      "last_verified": "2026-09-25",
+      "evidence_boundary": "No unsupported frame data, exact timing, probabilities, hidden acquisition gates, or universal damage values promoted."
+    },
+    {
+      "name": "Strike of Revelation",
+      "id": "skill-strike-of-revelation",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": 100,
+      "mechanics_notes": "100-Ki Strike Super from Whis mentor training; current repository evidence confirms the endpoint and cost, while detailed frame/damage/timing behavior remains version-sensitive.",
+      "last_verified": "2026-09-25",
+      "evidence_boundary": "No unsupported frame data, exact timing, probabilities, hidden acquisition gates, or universal damage values promoted."
+    },
+    {
+      "name": "Sudden Storm",
+      "id": "skill-sudden-storm",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 200,
+      "mechanics_notes": "200-Ki Ki Blast Super from Turles mentor training; current repository evidence confirms class, cost, and mentor endpoint; exact frame and damage values remain unresolved.",
+      "last_verified": "2026-09-25",
+      "evidence_boundary": "No unsupported frame data, exact timing, probabilities, hidden acquisition gates, or universal damage values promoted."
+    }
+  ],
+  "validation": {
+    "canonical_index_target_count": 5,
+    "canonical_index_parity_expected": true,
+    "duplicate_ids_introduced": 0
+  }
+}
