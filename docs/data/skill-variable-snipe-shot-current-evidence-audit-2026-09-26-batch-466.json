@@ -1,0 +1,18 @@
+{
+  "batch": 466,
+  "date": "2026-09-26",
+  "skill_name": "Variable Snipe Shot",
+  "skill_id": "skill-variable-snipe-shot",
+  "status": "completed",
+  "findings": [
+    "100-Ki Ki Blast Super associated with Android 18 (DB Super) and acquired through PQ165 under the repository's explicit 45% Ultimate Finish route. Current evidence documents multiple input variations, including a charged overhead shot and a back-jump shot. The maintained reward data also presents a conflicting Basic Reward listing; that source conflict remains explicit."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Variable_Snipe_Shot"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted.",
+    "Documented acquisition/reward conflicts remain explicit rather than normalized without evidence."
+  ]
+}
