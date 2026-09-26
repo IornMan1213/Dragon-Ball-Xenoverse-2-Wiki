@@ -192,13 +192,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Majin Buu mentor training — Lesson 1",
-      "mechanics_notes": "100-Ki Strike Super. The user teleports toward the targeted opponent and strikes them with both fists, knocking them down. Current Xenoverse 2-specific skill evidence describes the move as a single-hit, mid-range teleport attack with source-reported damage of about 20%.",
-      "last_verified": "2026-09-25",
+      "mechanics_notes": "100-Ki Strike Super from Majin Buu training. The user teleports toward the targeted opponent and strikes them with both fists, producing a single-hit mid-range knockdown. Current dedicated evidence reports about 20% damage and confirms the teleport/knockdown characteristics; exact frame data remains unresolved.",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": "Majin Buu mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-22 independent provenance verification: current skill documentation identifies Training with Majin Buu as the unlock and records Angry Hit as a 100-Ki Strike Super; the Dragon Ball Wiki specifically identifies School Quest Lesson 1 of Majin Buu Training as the acquisition endpoint.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 mechanics promotion: current Xenoverse 2-specific documentation confirms the 100-Ki Strike Super classification, Majin Buu training endpoint, teleport-to-target behavior, single-hit knockdown, and source-reported ~20% damage. No frame timing or hidden condition inferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-22 independent provenance verification: current skill documentation identifies Training with Majin Buu as the unlock and records Angry Hit as a 100-Ki Strike Super; the Dragon Ball Wiki specifically identifies School Quest Lesson 1 of Majin Buu Training as the acquisition endpoint.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 mechanics promotion: current Xenoverse 2-specific documentation confirms the 100-Ki Strike Super classification, Majin Buu training endpoint, teleport-to-target behavior, single-hit knockdown, and source-reported ~20% damage. No frame timing or hidden condition inferred.\n2026-09-26 Batch 448 mechanics promotion: current dedicated Xenoverse 2 documentation confirms the 100-Ki Strike Super classification, Majin Buu training endpoint, teleport-to-target behavior, single-hit mid-range knockdown, and source-reported 20% damage. No exact frame timing, scaling, or hidden condition was inferred.",
       "id": "skill-angry-hit",
       "source_mentor": [
         "mentor-majin-buu"
@@ -672,10 +672,10 @@
       "source_quest": 148,
       "ultimate_finish_required": false,
       "skill_description": "Launch a projectile that splits into additional blasts on contact or after time passes.",
-      "mechanics_notes": "Launch a projectile that splits into additional blasts on contact or after time passes. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ148. The user launches a straight-line projectile that splits into multiple blasts when it contacts the opponent or after enough time passes; the maintained skill reference classifies it as a long-range 1–5-hit knockback attack and reports about 10% damage.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Blaster_Bomb",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -684,7 +684,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context. 2026-09-21 provenance strengthening: independent PQ documentation identifies PQ148 — Finding Out About Fusion, its reward list includes this skill, and the official Dragon Ball site documents the three Legendary Pack 2 skills. Existing PQ148 acquisition and DLC semantics are preserved. 2026-09-22 provenance verification: dedicated skill documentation confirms PQ148 — \"Finding Out About Fusion\" and 100-Ki Ki Blast Super classification; independent technique documentation also identifies the Future Warrior acquisition route. Existing DLC/PQ semantics are preserved.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context. 2026-09-21 provenance strengthening: independent PQ documentation identifies PQ148 — Finding Out About Fusion, its reward list includes this skill, and the official Dragon Ball site documents the three Legendary Pack 2 skills. Existing PQ148 acquisition and DLC semantics are preserved. 2026-09-22 provenance verification: dedicated skill documentation confirms PQ148 — \"Finding Out About Fusion\" and 100-Ki Ki Blast Super classification; independent technique documentation also identifies the Future Warrior acquisition route. Existing DLC/PQ semantics are preserved.\n2026-09-26 Batch 448 mechanics promotion: current dedicated Xenoverse 2 documentation confirms the 100-Ki cost, PQ148 acquisition endpoint, straight-line projectile, time/contact split behavior, 1–5-hit classification, knockback, and source-reported 10% damage. No Ultimate Finish gate or exact reward probability was inferred.",
       "source_parallel_quests": [
         148
       ]
@@ -3372,10 +3372,10 @@
       "source_quest_or_shop": "Parallel Quest 171 — \"Fighters with Finesse\"",
       "ultimate_finish_required": true,
       "skill_description": "Divine Spear is a Super Ki Blast skill associated with Goku Black (Super Saiyan Rosé) Ultra Supervillain.",
-      "mechanics_notes": "200-Ki Ki Blast Super from PQ171. Current evidence supports CaC acquisition/use and a 50% Ultimate Finish reward route; the repository's CaC usability correction is retained. Conflicting historical reward-list presentation is preserved rather than silently normalized.",
+      "mechanics_notes": "200-Ki Ki Blast Super from PQ171. The user fires a penetrating pink Ki ray; at close range it is unblockable and can leave the opponent open for follow-up attacks. Current dedicated evidence classifies it as a single-hit, unblockable-at-close-range Super; the maintained 50% Ultimate Finish acquisition route and conflicting historical reward-list presentation remain explicitly bounded.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3384,7 +3384,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 171,
       "acquisition_type": "quest_or_mission",
-      "notes": "Corrected 2026-09-20: PQ acquisition is player/CaC-accessible; character association does not make the skill character-exclusive. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context. 2026-09-21 provenance audit: Divine Spear is tied to Future Saga Chapter 1 through its documented PQ 171/172 reward context and the official DLC move documentation; the existing DLC classification is preserved. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "Corrected 2026-09-20: PQ acquisition is player/CaC-accessible; character association does not make the skill character-exclusive. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context. 2026-09-21 provenance audit: Divine Spear is tied to Future Saga Chapter 1 through its documented PQ 171/172 reward context and the official DLC move documentation; the existing DLC classification is preserved. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 448 mechanics promotion: current dedicated Xenoverse 2 documentation confirms the 200-Ki Ki Blast Super classification, PQ171 endpoint, penetrating single-hit ray, and close-range unblockable/follow-up behavior. The canonical 50% Ultimate Finish route remains the maintained drop-condition claim; conflicting reward-list presentation is preserved and no damage/frame values are invented.",
       "id": "skill-divine-spear",
       "source_parallel_quests": [
         171
@@ -7487,10 +7487,10 @@
       "source_quest": 143,
       "ultimate_finish_required": false,
       "skill_description": "Rush forward in a tornado; holding the input extends the dash and increases hits/damage.",
-      "mechanics_notes": "Rush forward in a tornado; holding the input extends the dash and increases hits/damage. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "mechanics_notes": "100-Ki Strike Super from PQ143. The user rushes forward while spinning in a tornado, then creates a second giant tornado on contact that knocks the opponent away. Holding the input greatly extends the dash and increases the documented hit count to 43; the skill reference classifies the attack as an 8–43-hit, short-mid-range rush.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Hyper_Tornado",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -7498,7 +7498,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: official Bandai Namco DLC documentation independently confirms Legendary Pack 1 scope (4 characters, 4 Parallel Quests, 6 additional moves); the maintained PQ143-PQ146 research layer remains the exact source for each skill's individual quest relationship.\n2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC/roster provenance, and documented mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: official Bandai Namco DLC documentation independently confirms Legendary Pack 1 scope (4 characters, 4 Parallel Quests, 6 additional moves); the maintained PQ143-PQ146 research layer remains the exact source for each skill's individual quest relationship.\n2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC/roster provenance, and documented mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 448 mechanics promotion: current dedicated Xenoverse 2 documentation confirms the 100-Ki Strike Super classification, PQ143 endpoint, spinning rush and follow-up tornado, knockback, and extendable 8–43-hit behavior. No drop probability or exact scaling was inferred.",
       "source_parallel_quests": [
         143
       ]
@@ -8939,10 +8939,10 @@
       "source_quest_or_shop": "Parallel Quest 6 — \"Saibamen's Revenge\"",
       "ultimate_finish_required": false,
       "skill_description": "Meteor Strike is a Super Strike skill associated with Goku / Gohan (Kid).",
-      "mechanics_notes": "100-Ki Strike Super from PQ6. A launching kick sends the opponent forward, then the user teleports into the opponent's path for a second kick. The second hit can be canceled into another Super or Stamina Break; a rear second hit near the ground can cause a hard knockdown.",
-      "verification_status": "verified",
+      "mechanics_notes": "100-Ki Strike Super from PQ6. The user performs a launching kick, teleports into the opponent's path, and delivers a second kick. The first hit can be Ki-confirmed to trigger the teleport; the second hit can be canceled into another Super or a Stamina Break, and a rear hit near the ground can cause a hard knockdown.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Meteor_Strike",
@@ -8951,7 +8951,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 6,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: maintained all-PQ reward guide explicitly lists Meteor Strike in PQ6 Basic Reward.\n2026-09-23 verification refresh: revalidated the existing acquisition endpoint, classification, mechanics, DLC/provenance, and documented reward-tier semantics against the maintained repository evidence corpus; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 current-evidence reconciliation: refreshed 100-Ki Strike Super, PQ6 Basic Reward endpoint, teleporting second kick, cancel options, and hard-knockdown behavior.",
+      "notes": "2026-09-20 audit: maintained all-PQ reward guide explicitly lists Meteor Strike in PQ6 Basic Reward.\n2026-09-23 verification refresh: revalidated the existing acquisition endpoint, classification, mechanics, DLC/provenance, and documented reward-tier semantics against the maintained repository evidence corpus; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 current-evidence reconciliation: refreshed 100-Ki Strike Super, PQ6 Basic Reward endpoint, teleporting second kick, cancel options, and hard-knockdown behavior.\n2026-09-26 Batch 448 mechanics promotion: current dedicated Xenoverse 2 documentation confirms the 100-Ki cost, PQ6 acquisition, two-hit launching/teleport sequence, Ki-confirm trigger, second-hit Super/Stamina-Break cancel, and conditional hard-knockdown behavior. No unsupported damage, frame, or drop-probability values were added.",
       "id": "skill-meteor-strike",
       "source_parallel_quests": [
         6
@@ -9047,7 +9047,7 @@
       "name": "Mystic Flash",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mystic_Flash",
         "https://dragonball.fandom.com/wiki/Mystic_Flash",
@@ -9060,14 +9060,14 @@
       "unlock_method": "Parallel Quest 20 — \"Frieza! Show Yourself\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 20 — \"Frieza! Show Yourself\"",
       "ultimate_finish_required": false,
-      "mechanics_notes": "300-Ki Ki Blast Ultimate from PQ20 — Frieza! Show Yourself. Turns around and fires a rear-facing Ki wave; current documentation describes 25 hits and about 30% listed damage. PQ20 Basic Reward evidence establishes the acquisition route without an Ultimate Finish-only gate.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from PQ20. The user turns around and fires a rear-facing Ki Wave that cannot be fired forward; current dedicated evidence classifies it as a mid-range, 25-hit knockback Ultimate and reports about 30% total damage across the hits.",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "damage_type": "Ki Blast",
       "race_restriction": "All CaC races",
       "source_quest": 20,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: an independent maintained PQ guide lists Mystic Flash as a PQ20 — Frieza! Show Yourself Basic Reward, corroborating the existing PQ20 acquisition endpoint. No drop probability or additional Ultimate Finish requirement was inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition endpoint, classification, mechanics, DLC/provenance, and documented reward-tier semantics against the maintained repository evidence corpus; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: an independent maintained PQ guide lists Mystic Flash as a PQ20 — Frieza! Show Yourself Basic Reward, corroborating the existing PQ20 acquisition endpoint. No drop probability or additional Ultimate Finish requirement was inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition endpoint, classification, mechanics, DLC/provenance, and documented reward-tier semantics against the maintained repository evidence corpus; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 448 mechanics promotion: current dedicated Xenoverse 2 documentation confirms the 300-Ki Ultimate classification, PQ20 endpoint, rear-only Ki Wave behavior, 25-hit sequence, knockback, and source-reported 30% total damage. Existing Basic Reward acquisition evidence is retained without inferring a drop probability or additional gate.",
       "id": "skill-mystic-flash",
       "source_parallel_quests": [
         20
@@ -13856,7 +13856,7 @@
       "name": "Wall of Defense",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Wall_of_Defense",
         "https://xvguide.neocities.org/Skill",
@@ -13868,13 +13868,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 10 — \"Saiyan Survivors\"",
-      "mechanics_notes": "0-Ki Other Super from PQ10. The user teleports in front of an ally and absorbs incoming attacks while held; when no ally is available it targets the nearest enemy. Holding the command extends the stance, which functions as a block and consumes stamina when attacks connect.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "0-Ki Other Super from PQ10. The user teleports in front of an ally and intercepts attacks while holding the command; the stance can be extended and functions as a block, causing incoming attacks to reduce Stamina rather than Health. With no ally available, the move instead targets the targeted enemy or nearest enemy if no target is selected.",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": 10,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ10; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: current skill documentation identifies PQ10 as the unlock source; an independent skill guide lists PQ10 — Wall of Defense, and a launch-era all-PQ guide lists Wall of Defense in PQ10's Basic Reward. Existing acquisition semantics are preserved. 2026-09-22 provenance refresh: dedicated current skill evidence reconfirms the 0-Ki defensive behavior and PQ10 acquisition; no unsupported stamina or damage values were added. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.",
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ10; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: current skill documentation identifies PQ10 as the unlock source; an independent skill guide lists PQ10 — Wall of Defense, and a launch-era all-PQ guide lists Wall of Defense in PQ10's Basic Reward. Existing acquisition semantics are preserved. 2026-09-22 provenance refresh: dedicated current skill evidence reconfirms the 0-Ki defensive behavior and PQ10 acquisition; no unsupported stamina or damage values were added. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.\n2026-09-26 Batch 448 mechanics promotion: current dedicated Xenoverse 2 documentation confirms the 0-Ki Other Super classification, PQ10 endpoint, ally-protection teleport, hold-to-extend behavior, block-like state that consumes Stamina instead of Health, and fallback targeting when no ally is present. No unsupported duration, frame, or damage value was inferred.",
       "id": "skill-wall-of-defense",
       "source_parallel_quests": [
         10
@@ -13958,10 +13958,10 @@
       "source_quest_or_shop": "Parallel Quest 153 — \"Seeing Double\"",
       "ultimate_finish_required": true,
       "skill_description": "Wild Buster is a Super Ki Blast skill used by Vegeta (GT).",
-      "mechanics_notes": "100-Ki Ki Blast Super from PQ153. The user rushes directly toward the opponent and follows with a punch/kick sequence; an additional input consumes another 100 Ki and fires a Ki Wave. Current dedicated evidence reports 15% total damage for the documented sequence.",
-      "verification_status": "verified",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ153. The user rushes directly at the opponent, performs a cinematic punch and finishing kick, then can spend 100 additional Ki for the follow-up Ki Wave (200 Ki total when the extra input is used). Current dedicated evidence reports 15% total damage for the documented sequence; the maintained 45% Ultimate Finish reward condition remains a separate acquisition-data claim.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Wild_Buster",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -13970,7 +13970,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 153,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ153 and describes Wild Buster as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics. 2026-09-22 provenance refresh: dedicated evidence confirms 100 Ki base cost, 200 Ki with the additional input, PQ153 acquisition, and the rush-plus-Ki-Wave behavior; the maintained 45% Ultimate Finish condition remains explicit. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.",
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ153 and describes Wild Buster as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics. 2026-09-22 provenance refresh: dedicated evidence confirms 100 Ki base cost, 200 Ki with the additional input, PQ153 acquisition, and the rush-plus-Ki-Wave behavior; the maintained 45% Ultimate Finish condition remains explicit. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.\n2026-09-26 Batch 448 mechanics promotion: current Xenoverse 2-specific skill documentation confirms the 100-Ki base cost, 200-Ki maximum with the additional input, rush/punch/kick sequence, optional Ki-Wave follow-up, PQ153 endpoint, and source-reported 15% total damage. The canonical record retains the separately maintained 45% Ultimate Finish reward condition and does not infer frames or scaling.",
       "id": "skill-wild-buster",
       "source_parallel_quests": [
         153
