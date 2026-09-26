@@ -72,5 +72,10 @@
     "expected_projection": "Derived from docs/data/skills.json source_parallel_quests, including per-PQ skill_count, skill_ids, skills, and relationship_status.",
     "status": "source_syntax_fixed_pending_runtime_validation",
     "syntax_fix_commit": "af9ce4881eaeba8a8007e475142f7400cc90b6f0"
+  },
+  "validator_hardening_2026_09_26": {
+    "change": "Hardened validate_skill_pq_crosslinks.py to reject malformed canonical skill containers/records before projection: records must be a list of 474 objects with non-empty string id/name fields and source_parallel_quests must be a list when present.",
+    "result": "No canonical skill→PQ relationship data changed; the established 474-skill / 246-edge / 170-represented-PQ projection remains the expected contract.",
+    "validator_commit": "fbb8af7c592b6846cc440a66b824ab506c9141a9"
   }
 }
