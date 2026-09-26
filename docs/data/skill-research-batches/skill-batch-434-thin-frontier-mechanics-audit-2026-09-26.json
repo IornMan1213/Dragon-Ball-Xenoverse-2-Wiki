@@ -6,22 +6,22 @@
     {
       "id": "skill-pressure-sign",
       "name": "Pressure Sign",
-      "mechanics_note_length": 311
-    },
-    {
-      "id": "skill-kaioken-kamehameha",
-      "name": "Kaioken Kamehameha",
-      "mechanics_note_length": 319
-    },
-    {
-      "id": "skill-super-saiyan-god-super-saiyan",
-      "name": "Super Saiyan God Super Saiyan",
-      "mechanics_note_length": 357
+      "mechanics_note_length": 250
     },
     {
       "id": "skill-blaster-shell",
       "name": "Blaster Shell",
-      "mechanics_note_length": 312
+      "mechanics_note_length": 259
+    },
+    {
+      "id": "skill-destruction-s-concerto-meteor",
+      "name": "Destruction's Concerto: Meteor",
+      "mechanics_note_length": 362
+    },
+    {
+      "id": "skill-darkness-twin-star",
+      "name": "Darkness Twin Star",
+      "mechanics_note_length": 343
     }
   ]
 }

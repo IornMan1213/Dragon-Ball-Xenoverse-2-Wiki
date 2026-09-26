@@ -4,10 +4,11 @@
   "status": "complete",
   "selected": [
     "Pressure Sign",
-    "Kaioken Kamehameha",
-    "Super Saiyan God Super Saiyan",
-    "Blaster Shell"
+    "Blaster Shell",
+    "Destruction's Concerto: Meteor",
+    "Darkness Twin Star"
   ],
+  "excluded_correction": "Kaioken Kamehameha was initially selected in an intermediate pass but removed because it already had a current-evidence audit dated 2026-09-25.",
   "exact_next": "Run the next fresh unaudited mechanics frontier census excluding Batch 434 and all earlier current-evidence-audited records.",
   "validation": {
     "canonical_records": 474,

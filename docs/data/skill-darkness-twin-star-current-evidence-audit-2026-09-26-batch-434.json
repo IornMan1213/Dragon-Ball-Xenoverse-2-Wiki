@@ -1,0 +1,20 @@
+{
+  "skill_id": "skill-darkness-twin-star",
+  "name": "Darkness Twin Star",
+  "batch": 434,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Darkness_Twin_Star",
+    "https://dragonball.fandom.com/wiki/Darkness_Twin_Star"
+  ],
+  "findings": [
+    "100 Ki Ki Blast Super",
+    "Lord Slug training acquisition",
+    "Two orbiting Ki balls persist for up to 10 seconds",
+    "The orbiting balls can damage nearby opponents and block standard Ki blasts",
+    "Additional input fires both balls at the target",
+    "Current skill evidence reports 15% total damage across two hits",
+    "Exact defensive collision/frame data remain unresolved"
+  ]
+}

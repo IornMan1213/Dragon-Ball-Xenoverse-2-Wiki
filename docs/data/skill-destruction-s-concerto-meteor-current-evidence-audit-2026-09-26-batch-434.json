@@ -1,0 +1,19 @@
+{
+  "skill_id": "skill-destruction-s-concerto-meteor",
+  "name": "Destruction's Concerto: Meteor",
+  "batch": 434,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Destruction%27s_Concerto:_Meteor",
+    "https://dragonball.fandom.com/wiki/Destruction%27s_Concerto%3A_Meteor"
+  ],
+  "findings": [
+    "100-200 Ki Ki Blast Super",
+    "Parallel Quest 106 — A Destructive Showdown",
+    "Green Ki ball placed behind the opponent",
+    "Destruction's Conductor changes the behavior to five projectiles",
+    "Current skill evidence reports 6% damage per projectile",
+    "Exact timing and version-independent scaling remain unresolved"
+  ]
+}

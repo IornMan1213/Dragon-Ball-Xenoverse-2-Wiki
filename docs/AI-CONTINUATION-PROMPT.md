@@ -1,5 +1,16 @@
 ### 2026-09-26 continuation — Skill Research Batch 434 completed
 
+- [x] Corrected the fresh unaudited frontier to **Pressure Sign, Blaster Shell, Destruction's Concerto: Meteor, and Darkness Twin Star** after excluding every earlier current-evidence-audited record; the previously attempted Kaioken Kamehameha entry was removed from Batch 434 because it already had a 2026-09-25 current-evidence audit.
+- [x] Added four current-evidence audits plus Batch 434 research and thin-frontier audit artifacts.
+- [x] Rechecked current Xenoverse 2-specific cost, classification, acquisition, counter/projectile/defensive behavior, and bounded numeric mechanics against dedicated skill references; unsupported exact frames and patch-independent values remain bounded.
+- [x] Synchronized all four records into both canonical skill datasets and refreshed their current-scope verification date to 2026-09-26.
+- [x] Registered the Batch 434 research record, thin-frontier audit, and four skill audits in docs/data/pq-cross-domain-index.json.
+- [x] Validated **474/474** canonical/index records with **0 missing / 0 extra**.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 434 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
+
+### 2026-09-26 continuation — Skill Research Batch 434 completed
+
 - [x] Fresh unaudited mechanics frontier selected **Pressure Sign, Kaioken Kamehameha, Super Saiyan God Super Saiyan, and Blaster Shell** after excluding Batch 433 and all earlier current-evidence-audited records.
 - [x] Added four current-evidence audits plus Batch 434 research and thin-frontier audit artifacts.
 - [x] Rechecked current Xenoverse 2-specific cost, classification, acquisition, counter/beam/transformation/projectile behavior, and bounded numeric mechanics against dedicated skill references; unsupported exact frames and patch-independent values remain bounded.
