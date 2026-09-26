@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-reverse-launcher",
+  "name": "Reverse Launcher",
+  "batch": 453,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Reverse_Launcher"
+  ],
+  "findings": [
+    "100-Ki Ki Blast Super learned from Bojack's mentor training. The user fires an initial Ki projectile, then teleports behind the opponent for a second blast; dedicated skill evidence records about 5% total damage across the two hits and notes that the second blast occurs even if the first does not connect. The teleport gives the attack its rear-angle pressure, while exact teleport timing, hit-confirm rules, and patch-independent damage scaling remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
