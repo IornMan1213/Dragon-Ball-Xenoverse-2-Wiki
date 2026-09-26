@@ -1744,3 +1744,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Evidence boundaries and known acquisition conflicts were preserved rather than silently normalized.
 - [ ] CI/build remains unverified.
 - [x] **Exact next:** run a fresh live registered-audit mechanics frontier census excluding Batch 460 and every prior current-evidence audit.
+
+### 2026-09-26 continuation — Skill Research Batch 461 completed
+- [x] Fresh registered-audit frontier selected **Flash Bomber, Genocide Shell, Spread Shot Retreat, Tail Slicer, Break Cannon, Burst Rush, Temporal Holy Ray, and Victory Rush**.
+- [x] Added eight current-evidence audits plus Batch 461 research/thin-frontier artifacts.
+- [x] Synchronized canonical `skills.json` and `skills-index.json`; both remain **474 records** with ordered ID parity.
+- [x] Registered Batch 461 and all eight audit artifacts in the cross-domain index.
+- [x] Evidence boundaries and documented source conflicts were preserved.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** run a fresh live registered-audit mechanics frontier census excluding Batch 461 and every prior current-evidence audit.
