@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-strike-of-revelation-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Strike of Revelation",
+  "result": "current_evidence_refresh",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Strike",
+    "ki_cost": 100,
+    "source_quest_or_shop": "Whis mentor training — Lesson 2.",
+    "mechanics": "100-Ki Strike Super. A close-range Whis technique that uses a rapid approach and striking sequence; current mentor research places it after Finishing Blow in Whis's training progression."
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Strike_of_Revelation"
+  ],
+  "limits": [
+    "No unsupported duration, frame data, exact damage, drop probability, or hidden acquisition gate is inferred."
+  ]
+}
