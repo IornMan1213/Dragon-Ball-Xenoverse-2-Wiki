@@ -1,0 +1,18 @@
+{
+  "batch": 437,
+  "date": "2026-09-26",
+  "status": "complete",
+  "selected": [
+    "Majin Kamehameha",
+    "Mach Dash",
+    "Revenge Death Ball",
+    "Namek Finger"
+  ],
+  "exact_next": "Run the next fresh unaudited mechanics frontier census excluding Batch 437 and all prior current-evidence-audited records.",
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "missing_ids": 0,
+    "extra_ids": 0
+  }
+}
