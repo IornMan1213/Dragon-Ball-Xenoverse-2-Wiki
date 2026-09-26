@@ -1,0 +1,30 @@
+{
+  "batch": 486,
+  "date": "2026-09-26",
+  "status": "complete",
+  "scope": "Fresh live frontier after Batch 485; four verified unaudited mechanics records were enriched.",
+  "selected": [
+    {
+      "name": "Final Flash (Super)",
+      "finding": "Current dedicated skill evidence confirms 200-Ki Ki Blast Super, SSGSS Vegeta (Evolved) character use, CaC unavailability, 24-hit beam sequence and about 30% source-reported damage.",
+      "change": "Canonical mechanics expanded with complete current sequence and availability boundary."
+    },
+    {
+      "name": "God Splitter",
+      "finding": "Current evidence describes the 100-Ki Zamasu-training Super as a defensive energy sphere that blocks Ki Blasts, damages contact, can be launched with additional input, or dispersed by guarding.",
+      "change": "Canonical mechanics expanded to cover defensive and offensive modes."
+    },
+    {
+      "name": "Majin Kamehameha",
+      "finding": "Current evidence confirms 100-Ki PQ60 Super, Majin CaC restriction, three charge stages, and about 10%/5-hit base versus 15%/15-hit maximum source-reported output.",
+      "change": "Canonical mechanics expanded with charge/output detail and restriction."
+    },
+    {
+      "name": "Feint Crash",
+      "finding": "Current evidence confirms 100-Ki Cooler-training Strike Super, restanding teleport-punch default, and alternate second-input teleport-kick knockback behavior.",
+      "change": "Canonical mechanics expanded with both input branches and their distinct follow-up properties."
+    }
+  ],
+  "sources_policy": "Current Xenoverse 2-specific evidence prioritized; source-reported numerical values remain bounded and unsupported frame/probability claims are not inferred.",
+  "canonical_sync": "Four records synchronized in docs/data/skills.json and docs/data/skills-index.json."
+}
