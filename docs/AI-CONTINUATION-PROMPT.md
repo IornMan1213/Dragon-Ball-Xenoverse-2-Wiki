@@ -763,3 +763,14 @@
 - [x] Post-Batch-373 census: **0 empty mechanics_notes**; shortest remaining record is **Fighting Pose A (86 chars)**, followed by Afterimage (90), Spirit Bomb (91), S.S. Deadly Bomber (96), and Charged Ki Wave (98).
 - [ ] CI remains unverified; no workflow success claimed.
 - [x] Exact next: continue fresh shortest-record enrichment beginning with **Fighting Pose A**, then Afterimage / Spirit Bomb, while preserving evidence boundaries.
+
+
+### 2026-09-25 completion — Skill Batch 374 thin mechanics enrichment
+- [x] Fresh frontier continued from Batch 373; completed **Afterimage, Spirit Bomb, S.S. Deadly Bomber, and Charged Ki Wave** using repository/current evidence.
+- [x] Synchronized canonical/index mechanics and `last_verified: 2026-09-25`; added skill-specific provenance where useful.
+- [x] Added and registered Batch 374 audit/research artifacts.
+- [x] Validation: **469 canonical / 469 index**, ordered ID parity true, **0 empty mechanics_notes**.
+- [x] Evidence boundaries preserved: no unsupported frame timing, exact damage, reward probability, hidden gates, or version-independent numeric claims.
+- [ ] CI remains unverified.
+- [x] Post-Batch-374 shortest frontier: **Fighting Pose A (86)**, **Spirit Ball (101)**, **Spirit Pulse (101)**, **Chaos Wall (102)**, **Sign of Awakening (103)**, **Tail Slicer (104)**, **Special Beam Cannon (105)**, **Hero's Pose (108)**, **Spirit Boost (109)**, **Teleporting Vanishing Ball (109)**.
+- [x] Exact next: investigate the fresh shortest frontier, skipping records already recently enriched unless new deterministic evidence is available; prioritize **Spirit Ball, Spirit Pulse, Chaos Wall, Sign of Awakening, Tail Slicer** after the already-completed Fighting Pose A.
