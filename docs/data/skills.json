@@ -3031,10 +3031,10 @@
       "source_quest": 146,
       "ultimate_finish_required": false,
       "skill_description": "Launch a tracking Hakai Ki ball; additional input creates an unblockable explosion.",
-      "mechanics_notes": "Current dedicated evidence confirms the PQ146 Ki Blast Ultimate route. Existing acquisition semantics are retained; the current record does not infer a drop probability beyond the maintained PQ reward evidence.",
+      "mechanics_notes": "400-Ki Ki Blast Ultimate from PQ146. The user flicks a small tracking Hakai Ki orb that follows the opponent; the orb disappears if the user is hit, while a successful connection produces a large explosion. Additional input before the final hit creates an unblockable explosion. Current research also documents an approximately 20-second active lifetime; exact frame data and patch-independent damage remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Destructive_Fission",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3042,7 +3042,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: official Bandai Namco DLC documentation independently confirms Legendary Pack 1 scope (4 characters, 4 Parallel Quests, 6 additional moves); the maintained PQ143-PQ146 research layer remains the exact source for each skill's individual quest relationship. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: official Bandai Namco DLC documentation independently confirms Legendary Pack 1 scope (4 characters, 4 Parallel Quests, 6 additional moves); the maintained PQ143-PQ146 research layer remains the exact source for each skill's individual quest relationship. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 416 mechanics enrichment: current Xenoverse 2-specific evidence was reconciled into the canonical record; exact frame data, hidden interactions, and patch-independent balance values remain bounded where unresolved.",
       "source_parallel_quests": [
         146
       ]
@@ -5838,13 +5838,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Turles mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred. 2026-09-23 refresh: mentor acquisition remains verified; exact combat mechanics remain intentionally deferred rather than inferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "100-Ki Power Up Super from Turles's Instructor Quest 3. Eating the fruit powers up normal attacks for 30 seconds; an additional input during the eating animation teleports the user in front of the opponent and performs a stunning strike. Exact attack-power multiplier, activation frames, and stacking interactions remain unresolved.",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": "Turles mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 mentor/mechanics refresh: current dedicated evidence confirms Turles Instructor Quest 3 as the acquisition endpoint and a 100-Ki Power Up Super lasting 30 seconds. Additional input during the eating animation teleports the user in front of the opponent for a stunning attack.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-22 mentor/mechanics refresh: current dedicated evidence confirms Turles Instructor Quest 3 as the acquisition endpoint and a 100-Ki Power Up Super lasting 30 seconds. Additional input during the eating animation teleports the user in front of the opponent for a stunning attack.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 416 mechanics enrichment: current Xenoverse 2-specific evidence was reconciled into the canonical record; exact frame data, hidden interactions, and patch-independent balance values remain bounded where unresolved.",
       "id": "skill-fruit-of-the-tree-of-might",
       "source_mentor": [
         "mentor-turles"
@@ -9501,13 +9501,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Android 18 mentor training",
-      "mechanics_notes": "100-Ki Ki Blast Super from Android 18 mentor training. Fires a rapid series of ki blasts at the opponent; current evidence establishes the mentor endpoint and cost, while exact hit/damage values remain deferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "100-Ki Ki Blast Super from Android 18's mentor training. The user fires two tracking Ki Blasts that loop around toward the back of the opponent in a pincer attack, dealing about 15% total damage when both connect. Exact startup, tracking parameters, and patch-independent damage remain unresolved.",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": "Android 18 mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.\n2026-09-26 Batch 416 mechanics enrichment: current Xenoverse 2-specific evidence was reconciled into the canonical record; exact frame data, hidden interactions, and patch-independent balance values remain bounded where unresolved.",
       "id": "skill-power-blitz",
       "source_mentor": [
         "mentor-android-18"
@@ -13956,7 +13956,7 @@
       ],
       "ki_cost": 100,
       "description": "Wild Hunt is a Super Skill available to CaCs.",
-      "mechanics_notes": "100-Ki Strike Super obtained from the TP Medal Shop. The user performs an uppercut followed by a three-strike rush ending in a hard knockdown; current dedicated evidence reports approximately 15% total damage.",
+      "mechanics_notes": "100-Ki Strike Super from the TP Medal Shop. The user performs an uppercut followed by a three-strike rush, for four hits total, ending in a hard knockdown. Current dedicated Xenoverse 2 evidence reports about 15% total damage; historical testing notes that early hits can be vanished and the final hit is harder to escape. Exact frames and patch-independent damage remain unresolved.",
       "usable_by_cac": true,
       "ultimate_finish_required": false,
       "unlock_method": "TP Medal Shop",
@@ -13964,9 +13964,9 @@
       "acquisition_type": "tp_medal_shop",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Free Update 2",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "research_status": "enriched",
-      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred. 2026-09-22 deterministic classification correction: current dedicated skill evidence identifies Wild Hunt as a Strike Super, correcting the stale Ki Blast subcategory. The 100-Ki TP Medal Shop acquisition and four-hit/hard-knockdown behavior are confirmed. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.",
+      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred. 2026-09-22 deterministic classification correction: current dedicated skill evidence identifies Wild Hunt as a Strike Super, correcting the stale Ki Blast subcategory. The 100-Ki TP Medal Shop acquisition and four-hit/hard-knockdown behavior are confirmed. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.\n2026-09-26 Batch 416 mechanics enrichment: current Xenoverse 2-specific evidence was reconciled into the canonical record; exact frame data, hidden interactions, and patch-independent balance values remain bounded where unresolved.",
       "id": "skill-wild-hunt"
     },
     {
@@ -14262,6 +14262,6 @@
       ]
     }
   ],
-  "last_verified": "2026-09-25",
-  "last_updated": "2026-09-25"
+  "last_verified": "2026-09-26",
+  "last_updated": "2026-09-26"
 }

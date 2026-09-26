@@ -1037,7 +1037,7 @@
   "skill_research_batch_401": "docs/data/skill-research-batches/skill-batch-401.json",
   "skill_holy_inscription_current_evidence_audit_2026_09_25": "docs/data/skill-holy-inscription-current-evidence-audit-2026-09-25.json",
   "skill_research_batch_402": "docs/data/skill-research-batches/skill-batch-402.json",
-  "last_updated": "2026-09-25",
+  "last_updated": "2026-09-26",
   "skill_batch_403": "docs/data/skill-research-batches/skill-batch-403.json",
   "skill_batch_403_thin_frontier_mechanics_audit_2026_09_25": "docs/data/skill-batch-403-thin-frontier-mechanics-audit-2026-09-25.json",
   "skill_buu_buu_ball_mechanics_audit_2026_09_25": "docs/data/skill-buu-buu-ball-mechanics-audit-2026-09-25.json",
@@ -1105,5 +1105,11 @@
   "skill_god_of_destruction_s_wrath_current_evidence_audit_2026_09_25_batch_415": "docs/data/skill-god-of-destruction-s-wrath-current-evidence-audit-2026-09-25-batch-415.json",
   "skill_symphonic_destruction_current_evidence_audit_2026_09_25_batch_415": "docs/data/skill-symphonic-destruction-current-evidence-audit-2026-09-25-batch-415.json",
   "skill_demon_ray_current_evidence_audit_2026_09_25_batch_415": "docs/data/skill-demon-ray-current-evidence-audit-2026-09-25-batch-415.json",
-  "skill_fighting_pose_e_current_evidence_audit_2026_09_25_batch_415": "docs/data/skill-fighting-pose-e-current-evidence-audit-2026-09-25-batch-415.json"
+  "skill_fighting_pose_e_current_evidence_audit_2026_09_25_batch_415": "docs/data/skill-fighting-pose-e-current-evidence-audit-2026-09-25-batch-415.json",
+  "skill_research_batch_416": "docs/data/skill-research-batches/skill-batch-416.json",
+  "skill_batch_416_thin_frontier": "docs/data/skill-batch-416-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_wild_hunt_current_evidence_audit_2026_09_26_batch_416": "docs/data/skill-wild-hunt-current-evidence-audit-2026-09-26-batch-416.json",
+  "skill_destructive_fission_current_evidence_audit_2026_09_26_batch_416": "docs/data/skill-destructive-fission-current-evidence-audit-2026-09-26-batch-416.json",
+  "skill_fruit_of_the_tree_of_might_current_evidence_audit_2026_09_26_batch_416": "docs/data/skill-fruit-of-the-tree-of-might-current-evidence-audit-2026-09-26-batch-416.json",
+  "skill_power_blitz_current_evidence_audit_2026_09_26_batch_416": "docs/data/skill-power-blitz-current-evidence-audit-2026-09-26-batch-416.json"
 }

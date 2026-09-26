@@ -1,0 +1,14 @@
+{
+  "batch": 416,
+  "date": "2026-09-26",
+  "status": "completed",
+  "scope": "Skill mechanics frontier",
+  "excluded_batches": "396-415",
+  "selected": [
+    "Wild Hunt",
+    "Destructive Fission",
+    "Fruit of the Tree of Might",
+    "Power Blitz"
+  ],
+  "evidence_policy": "Promote directly supported Xenoverse 2 mechanics only; preserve uncertainty around exact frames, scaling, tracking parameters, and patch-independent damage."
+}

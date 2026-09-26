@@ -1,3 +1,16 @@
+### 2026-09-26 continuation — Skill Research Batch 416 completed
+
+- [x] Fresh 474-record frontier census excluded Batches 396–415 and selected **Wild Hunt, Destructive Fission, Fruit of the Tree of Might, and Power Blitz** as the next four shortest genuinely under-detailed canonical mechanics records.
+- [x] Expanded current Xenoverse 2-specific mechanics coverage and synchronized canonical `docs/data/skills.json` and projection `docs/data/skills-index.json` for all four.
+- [x] Wild Hunt now records the four-hit uppercut/rush sequence and source-reported ~15% total damage while preserving unresolved frame/escape timing.
+- [x] Destructive Fission now records the tracking Hakai orb, hit interruption, additional-input unblockable explosion, and approximately 20-second active lifetime from current evidence.
+- [x] Fruit of the Tree of Might now records its 30-second power-up duration and additional-input teleport/stun behavior.
+- [x] Power Blitz now records the two-hit pincer/tracking behavior and source-reported ~15% total damage.
+- [x] Added Batch 416 research data, thin-frontier audit, and four current-evidence audit files; registered all artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved evidence boundaries: exact frames, hidden interactions, exact scaling, and patch-independent balance values were not inferred where unresolved.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [x] **Exact next:** run a fresh 474-record frontier census excluding Batches 396–416 and enrich the next 4–12 shortest genuinely under-detailed canonical mechanics records, synchronizing canonical/index/provenance in the same cycle.
+
 ### 2026-09-25 continuation — Skill Research Batch 415 completed
 
 - [x] Fresh live 474-record mechanics frontier census excluded Batches 396–414 and selected **God of Destruction's Wrath, Symphonic Destruction, Demon Ray, and Fighting Pose E** as the next four shortest genuinely under-detailed canonical mechanics records.

@@ -1,0 +1,14 @@
+{
+  "batch": 416,
+  "date": "2026-09-26",
+  "skill_id": "skill-wild-hunt",
+  "skill_name": "Wild Hunt",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Wild_Hunt",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75039552",
+    "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "100-Ki Strike Super from the TP Medal Shop. The user performs an uppercut followed by a three-strike rush, for four hits total, ending in a hard knockdown. Current dedicated Xenoverse 2 evidence reports about 15% total damage; historical testing notes that early hits can be vanished and the final hit is harder to escape. Exact frames and patch-independent damage remain unresolved.",
+  "boundaries": "Exact frames, current universal damage scaling, and detailed vanish/escape timing remain unresolved."
+}

@@ -1,0 +1,13 @@
+{
+  "batch": 416,
+  "date": "2026-09-26",
+  "skill_id": "skill-fruit-of-the-tree-of-might",
+  "skill_name": "Fruit of the Tree of Might",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Fruit_of_the_Tree_of_Might",
+    "https://steamcommunity.com/app/454650/discussions/0/1733210552648112985/"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "100-Ki Power Up Super from Turles's Instructor Quest 3. Eating the fruit powers up normal attacks for 30 seconds; an additional input during the eating animation teleports the user in front of the opponent and performs a stunning strike. Exact attack-power multiplier, activation frames, and stacking interactions remain unresolved.",
+  "boundaries": "Exact attack-power multiplier, activation frames, and stacking interactions remain unresolved."
+}

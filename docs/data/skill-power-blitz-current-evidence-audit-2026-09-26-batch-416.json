@@ -1,0 +1,13 @@
+{
+  "batch": 416,
+  "date": "2026-09-26",
+  "skill_id": "skill-power-blitz",
+  "skill_name": "Power Blitz",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Power_Blitz",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74569755"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "100-Ki Ki Blast Super from Android 18's mentor training. The user fires two tracking Ki Blasts that loop around toward the back of the opponent in a pincer attack, dealing about 15% total damage when both connect. Exact startup, tracking parameters, and patch-independent damage remain unresolved.",
+  "boundaries": "Exact startup/tracking parameters and patch-independent damage remain unresolved."
+}

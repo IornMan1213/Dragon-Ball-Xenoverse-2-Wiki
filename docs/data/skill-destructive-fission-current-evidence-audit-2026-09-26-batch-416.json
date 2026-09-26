@@ -1,0 +1,13 @@
+{
+  "batch": 416,
+  "date": "2026-09-26",
+  "skill_id": "skill-destructive-fission",
+  "skill_name": "Destructive Fission",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Destructive_Fission",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=2865944444"
+  ],
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "mechanics_summary": "400-Ki Ki Blast Ultimate from PQ146. The user flicks a small tracking Hakai Ki orb that follows the opponent; the orb disappears if the user is hit, while a successful connection produces a large explosion. Additional input before the final hit creates an unblockable explosion. Current research also documents an approximately 20-second active lifetime; exact frame data and patch-independent damage remain unresolved.",
+  "boundaries": "Exact frame data, current damage scaling, and precise tracking/interruption parameters remain unresolved."
+}
