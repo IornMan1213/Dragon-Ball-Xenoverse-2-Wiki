@@ -1,3 +1,15 @@
+### 2026-09-25 continuation — Batch 396 canonical synchronization completed
+
+- [x] Recovered the large canonical blobs through the Git object API after the earlier contents-path limitation; the previous handoff's zero-length-read limitation is resolved for this cycle.
+- [x] Promoted **Fighting Pose B, Fighting Pose D, Fighting Pose G, Fighting Pose I, and Fighting Pose J** into `docs/data/skills.json`.
+- [x] Synchronized the same five IDs and mechanics into `docs/data/skills-index.json`.
+- [x] Canonical/index parity validation passed: **474/474 records**, zero missing IDs in either direction, zero duplicate skill IDs in the checked sets.
+- [x] Added `docs/data/skill-batch-396-canonical-sync-audit-2026-09-25.json` documenting the promotion and validation.
+- [x] Batch 396 research artifacts and all five current-evidence audits remain registered in the cross-domain index.
+- [ ] CI/build status is still unverified; no workflow success is claimed.
+- [ ] **Exact next:** run a fresh thin-frontier census over all 474 canonical skill records, identify the next shortest/least-enriched mechanics records, then perform another bounded evidence pass and synchronize both canonical layers in the same cycle where safely possible.
+
+
 ### 2026-09-25 cycle completion — Skill Batch 396 research-layer mechanics enrichment
 
 - [x] Fresh post-Batch-395 frontier work continued with five thin Fighting Pose records: **Fighting Pose B, Fighting Pose D, Fighting Pose G, Fighting Pose I, Fighting Pose J**.
