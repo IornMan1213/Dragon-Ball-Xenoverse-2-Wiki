@@ -1,0 +1,19 @@
+{
+  "skill_id": "skill-evil-ray-strike",
+  "name": "Evil Ray Strike",
+  "batch": 438,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Evil_Ray_Strike",
+    "https://dbxv2.fandom.com/wiki/Mentors"
+  ],
+  "findings": [
+    "100 Ki Strike Super",
+    "Gohan (Kid) training acquisition",
+    "Head-first tracking charge",
+    "Guard breaks the target whether blocking or not",
+    "Source-reported 10% damage",
+    "Exact startup/frame data and hidden follow-up conditions remain unresolved"
+  ]
+}
