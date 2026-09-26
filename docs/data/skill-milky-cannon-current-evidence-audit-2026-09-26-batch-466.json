@@ -1,0 +1,18 @@
+{
+  "batch": 466,
+  "date": "2026-09-26",
+  "skill_name": "Milky Cannon",
+  "skill_id": "skill-milky-cannon",
+  "status": "completed",
+  "findings": [
+    "100-Ki Ki Blast Super from Captain Ginyu mentor Lesson 2. The projectile initially travels quickly, then slows and remains in the air for roughly three seconds; charging changes the distance at which the slowdown occurs. Current skill documentation reports a single hit, knockback, and about 10% damage. Exact charge timing and projectile-speed curve remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Milky_Cannon"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted.",
+    "Documented acquisition/reward conflicts remain explicit rather than normalized without evidence."
+  ]
+}
