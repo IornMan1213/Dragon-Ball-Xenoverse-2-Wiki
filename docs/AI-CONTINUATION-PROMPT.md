@@ -1679,3 +1679,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected path (GitHub 404).
 - [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 453 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
+
+
+### 2026-09-26 continuation — Skill Research Batch 454 completed
+- [x] Fresh 474-record mechanics frontier census excluded every skill with a registered current-evidence audit and selected **Evil Flight Strike, Meteor Blow, Secret Poison, Blaster Stream, Dead End Rain, Divine Ray Bomb, Ultimate Charge, and Punisher Guard**.
+- [x] Deepened and synchronized all eight canonical records in `docs/data/skills.json` and `docs/data/skills-index.json` with current Xenoverse 2-specific evidence.
+- [x] Added Batch 454 research/thin-frontier artifacts, eight current-evidence audits, and provenance registrations.
+- [x] Evidence boundaries preserved; source-reported numerical values remain bounded and unsupported exact frames, scaling, probabilities, and hidden conditions were not inferred.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 454 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
