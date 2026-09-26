@@ -1,0 +1,21 @@
+{
+  "skill_id": "skill-hyper-tornado",
+  "name": "Hyper Tornado",
+  "batch": 448,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Hyper_Tornado"
+  ],
+  "findings": [
+    "100-Ki cost",
+    "PQ143 endpoint",
+    "spinning rush and follow-up tornado",
+    "knockback",
+    "8–43-hit extendable classification",
+    "no unsupported scaling"
+  ],
+  "evidence_boundaries": [
+    "No unsupported exact frame, scaling, probability, or hidden-condition claims inferred."
+  ]
+}
