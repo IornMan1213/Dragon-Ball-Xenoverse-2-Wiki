@@ -1,0 +1,68 @@
+{
+  "batch": 473,
+  "date": "2026-09-26",
+  "status": "research_complete",
+  "scope": "Fresh unaudited mechanics frontier after Batch 472.",
+  "selection_method": "Selected six skill records with no registered current-evidence audit after excluding all prior current-evidence-audited records; prioritized a compact group spanning charge, evasive, grab, rush, and ultimate mechanics.",
+  "records": [
+    {
+      "skill_id": "skill-arm-crash",
+      "skill_name": "Arm Crash",
+      "mechanics_notes": "100-Ki Strike Super from Nappa. Holding the input extends travel distance and increases power; full charge can break an opponent's guard. Current Xenoverse 2 documentation identifies Nappa's Lesson 1 training as the acquisition endpoint and notes Bardock/Turles custom-partner availability after Partner Customization purchase.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Arm_Crash_(Skill)",
+        "https://dragonball.fandom.com/wiki/Arm_Break"
+      ]
+    },
+    {
+      "skill_id": "skill-phantom-fist",
+      "skill_name": "Phantom Fist",
+      "mechanics_notes": "100-Ki Other Super obtained from PQ97. The move behaves like Afterimage: incoming attacks pass through the afterimage and the user reappears elsewhere; successful evasion restores about 100 Stamina according to current skill documentation. Xenoverse 2 documentation also records Hit, Mira, Frost and Fu among users/skillset contexts.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Phantom_Fist",
+        "https://dragonball.fandom.com/wiki/Phantom_Fist"
+      ]
+    },
+    {
+      "skill_id": "skill-time-skip-molotov",
+      "skill_name": "Time Skip/Molotov",
+      "mechanics_notes": "500-Ki Strike Ultimate from Hit, obtainable through the Dragon Ball wish for an Ultimate Attack. A very short-range opening punch places the opponent into the time-skip sequence, after which a rapid barrage lands and the accumulated blows resolve together when the skip ends. The hit has grab/pseudo-grab properties once connected but can be blocked; exact frame data and universal damage scaling remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Time_Skip/Molotov",
+        "https://dragonball.fandom.com/wiki/Time-Skip/Molotov"
+      ]
+    },
+    {
+      "skill_id": "skill-justice-combination",
+      "skill_name": "Justice Combination",
+      "mechanics_notes": "300-Ki Strike Ultimate learned through Gohan (Adult) and Videl training. A quick blue-energy high kick starts the sequence; on connection it continues through multiple kicks and ends with an energy-coated palm strike that supplies most of the damage and knocks the opponent away. The final hit can be vanished.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Justice_Combination",
+        "https://dragonball.fandom.com/wiki/Justice_Combination"
+      ]
+    },
+    {
+      "skill_id": "skill-headshot",
+      "skill_name": "Headshot",
+      "mechanics_notes": "300-Stamina Strike Evasive from PQ69. Beerus plants himself and flicks the opponent with a single close-range forehead strike, dealing source-reported 10% damage and knocking the target away. Current documentation identifies it as a single-hit, close-range evasive.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Headshot",
+        "https://dragonball.fandom.com/wiki/Headshot"
+      ]
+    },
+    {
+      "skill_id": "skill-gigantic-rage",
+      "skill_name": "Gigantic Rage",
+      "mechanics_notes": "200-Ki Strike Super from PQ130. The user grabs the opponent and slams them into the ground five times, with the final slam producing a hard knockdown; current skill documentation reports 15% total damage. The move has Super Armor when used by Broly (Full Power Super Saiyan), while Kale and Broly (DB Super) use the skill without that Broly-only armor property.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Gigantic_Rage",
+        "https://dragonball.fandom.com/wiki/Gigantic_Fury"
+      ]
+    }
+  ],
+  "evidence_limits": [
+    "Source-reported damage/stamina restoration values are not asserted as universal balance constants.",
+    "Exact startup/active/recovery frames, patch-independent scaling formulas, hidden interaction rules, and reward probabilities remain unresolved unless directly established.",
+    "Existing acquisition/provenance conflicts must be preserved rather than overwritten."
+  ]
+}
