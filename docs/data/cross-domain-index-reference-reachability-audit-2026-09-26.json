@@ -18,7 +18,7 @@
     "other": 44,
     "character-artifact": 6
   },
-  "critical_unreachable_reference_count": 20,
+  "critical_unreachable_reference_count": 18,
   "critical_unreachable_references": [
     "docs/data/pq-reward-relationships.json",
     "docs/data/pq-skill-crosslink-report.json",
@@ -49,8 +49,9 @@
     "Methodology correction 2026-09-26: reference counts are occurrence counts (not unique-path counts), matching the audit's prior convention. Current recomputation is 1630 references / 738 reachable / 892 unreachable.",
     "Post-validator refresh 2026-09-26: registered partner-skill relationship validator audit is live and reachable; recomputation is 730 tree paths / 1631 reference occurrences / 739 reachable / 892 unreachable.",
     "2026-09-26 live-tree reconciliation: character presentation audit no longer lists the deleted validate_character_explorer.py path as an active consumer; generated Character/Skills/PQ/Super-Soul/Equipment HTML explorer files are treated as build outputs rather than source-tree invariants.",
-    "2026-09-26 critical-reference reconciliation: all 18 references in the critical-unreachable set were directly checked against the live main tree. None are current source-tree files; 13 are dated/historical audit snapshots and 5 are missing primary/reverse dataset classes. A dedicated reconciliation audit is now registered rather than deleting provenance references or fabricating replacement datasets."
+    "2026-09-26 critical-reference reconciliation: all 18 references in the critical-unreachable set were directly checked against the live main tree. None are current source-tree files; 13 are dated/historical audit snapshots and 5 are missing primary/reverse dataset classes. A dedicated reconciliation audit is now registered rather than deleting provenance references or fabricating replacement datasets.",
+    "2026-09-26 scalar consistency correction: critical_unreachable_reference_count had drifted to 20 while the enumerated critical_unreachable_references list contained 18 paths; the scalar is now derived from the live enumerated set."
   ],
   "evidence_boundary": "This audit tests only path reachability against the live repository tree. It does not determine whether an unreachable historical artifact should be recreated, whether its underlying claim remains correct, or whether a planned reverse index has enough source data to regenerate safely.",
-  "next": "Use the new critical-unreachable reconciliation audit to avoid reopening historical artifacts. Prioritize the next live, safely testable cross-domain validator or deterministic consumer; regenerate missing primary/reverse datasets only when an evidence-complete source and deterministic generator exist."
+  "next": "Inspect the next live cross-domain validator/consumer for a concrete deterministic projection or source-vs-build-output mismatch; do not recreate the absent general PQ reward layer without an evidence-complete canonical source."
 }
