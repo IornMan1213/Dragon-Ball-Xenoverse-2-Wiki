@@ -1,0 +1,26 @@
+{
+  "batch": 457,
+  "date": "2026-09-26",
+  "skill_id": "skill-heavenly-arrow",
+  "skill_name": "Heavenly Arrow",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Skill Research Batch 457.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Heavenly_Arrow",
+    "https://dragonball.fandom.com/wiki/Heavenly_Arrow"
+  ],
+  "findings": [
+    "100-Ki Ki Blast Super from Zamasu training. The user flies backward and fires a barrage for 7% damage over 8 hits; forward input adds an unblockable Ki-powered hand strike and an extra Ki bullet. The technique is long-range and can knock the opponent back; exact timing and scaling remain unresolved."
+  ],
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26",
+    "research_status": "enriched"
+  },
+  "evidence_boundaries": [
+    "Exact frame data is not promoted.",
+    "Patch-independent damage/scaling is not inferred from source-reported values.",
+    "Reward probabilities and hidden prerequisites are not promoted unless directly evidenced.",
+    "Character-specific usage is not converted into a CaC race/gender/form restriction without direct evidence."
+  ]
+}
