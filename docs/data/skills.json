@@ -887,11 +887,11 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Expert Mission 15 — \"Extreme Malice!\"",
       "acquisition_type": "expert_mission",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "research_status": "enriched",
-      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM15. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.\n2026-09-25 Batch 358 low-detail Ultimate mechanics refresh: current Xenoverse 2-specific evidence expanded the bounded mechanics description. No unsupported reward probability, hidden prerequisite, Ultimate Finish gate, frame data, or exact timing was inferred.",
+      "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM15. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.\n2026-09-25 Batch 358 low-detail Ultimate mechanics refresh: current Xenoverse 2-specific evidence expanded the bounded mechanics description. No unsupported reward probability, hidden prerequisite, Ultimate Finish gate, frame data, or exact timing was inferred.\n2026-09-26 Batch 455 current-evidence enrichment: 300-Ki Strike Ultimate from Expert Mission 15. The user spins into a controllable blue twister and can steer it for about four seconds; current evidence documents 1–6 hits, knockback, and about 10% damage per hit. Burter is the documented character user. Exact movement speed, startup/recovery, and scaling remain unresolved.",
       "id": "skill-blue-hurricane",
-      "mechanics_notes": "300-Ki Strike Ultimate from Expert Mission 15 — Extreme Malice! The user spins into a controllable blue twister; current dedicated evidence describes 1–6 hits, close-range knockback, control-stick movement for about four seconds, and 10% damage per hit. Existing character association with Burter is retained."
+      "mechanics_notes": "2026-09-26 Batch 455 current-evidence enrichment: 300-Ki Strike Ultimate from Expert Mission 15. The user spins into a controllable blue twister and can steer it for about four seconds; current evidence documents 1–6 hits, knockback, and about 10% damage per hit. Burter is the documented character user. Exact movement speed, startup/recovery, and scaling remain unresolved."
     },
     {
       "name": "Bluff Kamehameha",
@@ -1881,17 +1881,17 @@
       "source_quest_or_shop": "Parallel Quest 154 — \"Dabura the Loyal? Servant\"",
       "ultimate_finish_required": true,
       "skill_description": "Circle Flash is a Ultimate Ki Blast skill used by Dyspo.",
-      "mechanics_notes": "300-Ki Ki Blast Ultimate. Fires a blue ring-shaped projectile; on hit it captures the opponent in a cutscene, then the ring explodes. Current dedicated evidence documents 40% damage. Reward-tier conflict between maintained Basic Reward and repository 40% Ultimate-Finish bonus-slot evidence remains explicit.",
-      "verification_status": "verified",
+      "mechanics_notes": "2026-09-26 Batch 455 current-evidence enrichment: 300-Ki Ki Blast Ultimate from PQ154. The user rises and fires a blue ring; on hit, the opponent is captured in a cutscene and the ring explodes for about 40% damage. Current evidence characterizes the attack as unblockable and notes that the user is left open during the sequence. Exact tracking, startup/recovery, and scaling remain unresolved.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Circle_Flash",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=2839146872"
       ],
-      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred. 2026-09-20 provenance census: normalized source field to Parallel Quest 154 — \"Dabura the Loyal? Servant\", matching the maintained PQ research record. 2026-09-21 race-scope audit: repository evidence confirms CaC usability but does not establish a narrower race/gender/form restriction; race_restriction remains null rather than being inferred. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics. 2026-09-22 provenance refresh: PQ154 acquisition is independently corroborated, but the maintained Steam PQ listing places Circle Flash in Basic Reward while the current canonical research records a 40% Ultimate Finish bonus slot. The reward-tier conflict is preserved rather than silently normalized. 2026-09-23 provenance refresh: dedicated skill evidence was rechecked against the current wiki reference; existing acquisition, cost, scope, and mechanics semantics are preserved, and no unsupported probability or additional gate is inferred.\n2026-09-25 current-evidence reconciliation: refreshed capture/explosion mechanics and 300-Ki cost; retained PQ154 reward-tier conflict and null race_restriction.",
+      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred. 2026-09-20 provenance census: normalized source field to Parallel Quest 154 — \"Dabura the Loyal? Servant\", matching the maintained PQ research record. 2026-09-21 race-scope audit: repository evidence confirms CaC usability but does not establish a narrower race/gender/form restriction; race_restriction remains null rather than being inferred. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics. 2026-09-22 provenance refresh: PQ154 acquisition is independently corroborated, but the maintained Steam PQ listing places Circle Flash in Basic Reward while the current canonical research records a 40% Ultimate Finish bonus slot. The reward-tier conflict is preserved rather than silently normalized. 2026-09-23 provenance refresh: dedicated skill evidence was rechecked against the current wiki reference; existing acquisition, cost, scope, and mechanics semantics are preserved, and no unsupported probability or additional gate is inferred.\n2026-09-25 current-evidence reconciliation: refreshed capture/explosion mechanics and 300-Ki cost; retained PQ154 reward-tier conflict and null race_restriction.\n2026-09-26 Batch 455 current-evidence enrichment: 300-Ki Ki Blast Ultimate from PQ154. The user rises and fires a blue ring; on hit, the opponent is captured in a cutscene and the ring explodes for about 40% damage. Current evidence characterizes the attack as unblockable and notes that the user is left open during the sequence. Exact tracking, startup/recovery, and scaling remain unresolved.",
       "race_restriction": null,
       "source_quest": 154,
       "acquisition_type": "quest_or_mission",
@@ -3194,10 +3194,10 @@
       "source_quest_or_shop": "Parallel Quest 59 — \"Potara Warrior\"",
       "ultimate_finish_required": false,
       "skill_description": "Dimension Cannon is a Ki Blast Evasive Skill associated with Super Buu.",
-      "mechanics_notes": "Current dedicated evidence confirms Dimension Cannon as a 300-Stamina Ki Blast Evasive from PQ59. It fires a short-range mouth Ki wave with six documented hits; a connecting attack can knock back and break a guarding opponent. The corrected Evasive classification and stamina-only cost model are retained.",
-      "verification_status": "verified",
+      "mechanics_notes": "2026-09-26 Batch 455 current-evidence enrichment: 300-Stamina Ki Blast Evasive from PQ59. The user leans back and fires a short-range mouth Ki wave; current evidence documents six hits, about 10% total damage, knockback, and guard break when it connects against a blocking opponent. Exact startup/recovery and edge-case guard interactions remain unresolved.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Dimension_Cannon",
@@ -3207,7 +3207,7 @@
       "source_quest": 59,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 correction: prior canonical classification as a 300-Ki Super was incorrect; current evidence identifies Dimension Cannon as a 300-Stamina Ki Blast Evasive. 2026-09-21 Ki-cost verification: current Dimension Cannon evidence explicitly lists 300 Stamina Used for this Evasive Skill and does not list Ki expenditure; canonical ki_cost=0 follows the repository's stamina-only Evasive convention. No unsupported Ki value was inferred. 2026-09-22 provenance refresh: current dedicated evidence reconfirms the canonical acquisition endpoint/classification and preserves unresolved evidence boundaries; no unsupported drop probability or gate was added. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-20 correction: prior canonical classification as a 300-Ki Super was incorrect; current evidence identifies Dimension Cannon as a 300-Stamina Ki Blast Evasive. 2026-09-21 Ki-cost verification: current Dimension Cannon evidence explicitly lists 300 Stamina Used for this Evasive Skill and does not list Ki expenditure; canonical ki_cost=0 follows the repository's stamina-only Evasive convention. No unsupported Ki value was inferred. 2026-09-22 provenance refresh: current dedicated evidence reconfirms the canonical acquisition endpoint/classification and preserves unresolved evidence boundaries; no unsupported drop probability or gate was added. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 455 current-evidence enrichment: 300-Stamina Ki Blast Evasive from PQ59. The user leans back and fires a short-range mouth Ki wave; current evidence documents six hits, about 10% total damage, knockback, and guard break when it connects against a blocking opponent. Exact startup/recovery and edge-case guard interactions remain unresolved.",
       "id": "skill-dimension-cannon",
       "source_parallel_quests": [
         59
@@ -3278,7 +3278,7 @@
       "name": "Divine Kamehameha",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Divine_Kamehameha",
         "https://dragonball.fandom.com/wiki/Perfected_Ultra_Instinct",
@@ -3286,7 +3286,7 @@
         "https://www.reddit.com/r/dbxv/comments/xenoverse2_tp_medal_shop_rotation/"
       ],
       "ki_cost": 200,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "unlock_method": "TP Medal Shop",
       "ultimate_finish_required": false,
       "dlc_requirement": "Free Update 11",
@@ -3296,9 +3296,9 @@
       "source_quest_or_shop": "TP Medal Shop",
       "mechanics": "Moving Kamehameha Super with directional movement during charge; additional input can fire early; 15-hit beam.",
       "research_status": "enriched",
-      "mechanics_notes": "Current evidence confirms Divine Kamehameha as a 200-Ki Ki Blast Super obtained through the TP Medal Shop. It is a moving Kamehameha-style beam with directional movement during charge and an early-fire input. The repository's Free Update 11 provenance is retained separately from shop-rotation acquisition.",
+      "mechanics_notes": "2026-09-26 Batch 455 current-evidence enrichment: 200-Ki Ki Blast Super obtained through the TP Medal Shop. Current skill evidence documents forward movement while charging, left/right control-stick movement, automatic firing when close or after about three seconds, and an additional input for immediate firing. If the user is hit during the forward movement, the move redirects toward the opponent and fires; current documentation states that since DLC 11 it cannot be used while stamina broken. Exact frame data and damage scaling remain unresolved.",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-19 acquisition verification: TP Medal Shop purchase. Current reference material explicitly lists Divine Kamehameha in the TP Medal Shop rotation. 2026-09-21 DLC provenance verification: current reference material identifies Divine Kamehameha as part of the free 1.14.00 update and distributed through the TP Medal Shop; the shop/rotation acquisition context is preserved separately rather than treated as a paid DLC requirement. 2026-09-21 provenance correction: current Free Update documentation places Divine Kamehameha among the 9 new skills introduced in Free Update 11 (alongside Soaring Fist and Godly Display); the prior `Free Update 1.14` label was inconsistent with that documented update chronology. 2026-09-22 provenance refresh: current dedicated evidence reconfirms the canonical acquisition endpoint/classification and preserves unresolved evidence boundaries; no unsupported drop probability or gate was added. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference. 2026-09-24 P1 provenance refresh: rechecked the existing repository evidence for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.",
+      "notes": "2026-09-19 acquisition verification: TP Medal Shop purchase. Current reference material explicitly lists Divine Kamehameha in the TP Medal Shop rotation. 2026-09-21 DLC provenance verification: current reference material identifies Divine Kamehameha as part of the free 1.14.00 update and distributed through the TP Medal Shop; the shop/rotation acquisition context is preserved separately rather than treated as a paid DLC requirement. 2026-09-21 provenance correction: current Free Update documentation places Divine Kamehameha among the 9 new skills introduced in Free Update 11 (alongside Soaring Fist and Godly Display); the prior `Free Update 1.14` label was inconsistent with that documented update chronology. 2026-09-22 provenance refresh: current dedicated evidence reconfirms the canonical acquisition endpoint/classification and preserves unresolved evidence boundaries; no unsupported drop probability or gate was added. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference. 2026-09-24 P1 provenance refresh: rechecked the existing repository evidence for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.\n2026-09-26 Batch 455 current-evidence enrichment: 200-Ki Ki Blast Super obtained through the TP Medal Shop. Current skill evidence documents forward movement while charging, left/right control-stick movement, automatic firing when close or after about three seconds, and an additional input for immediate firing. If the user is hit during the forward movement, the move redirects toward the opponent and fires; current documentation states that since DLC 11 it cannot be used while stamina broken. Exact frame data and damage scaling remain unresolved.",
       "id": "skill-divine-kamehameha"
     },
     {
@@ -8912,10 +8912,10 @@
       "source_quest": 149,
       "ultimate_finish_required": false,
       "skill_description": "Flip-kick into a Ki pillar; Comet Strike can directly set up the attack.",
-      "mechanics_notes": "500-Ki Ki Blast Ultimate from PQ149 — Clash of the Clones. A flip kick initiates the attack; on connection, a Ki pillar binds/strikes the opponent. Comet Strike can directly set up the attack. Current evidence establishes the PQ149 endpoint without asserting an exact drop rate or Ultimate Finish-only gate.",
+      "mechanics_notes": "2026-09-26 Batch 455 current-evidence enrichment: 500-Ki Ki Blast Ultimate from PQ149. A flip kick initiates the technique; on connection, the target is bound by Ki and struck by a pillar, with current skill evidence documenting eight hits and about 40% damage. Comet Strike can immediately set up the Ultimate after its final hit. Exact startup/recovery, tracking, and patch-independent scaling remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Meteor_Explosion",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -8923,7 +8923,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context.\n2026-09-21 provenance strengthening: official Bandai Namco DLC documentation confirms Legendary Pack 2 contains four Parallel Quests and ten additional moves; exact PQ149/PQ150 reward relationships remain supported by the maintained PQ research layer and dedicated skill sources.\n2026-09-23 verification refresh: revalidated the existing acquisition endpoint, classification, mechanics, DLC/provenance, and documented reward-tier semantics against the maintained repository evidence corpus; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context.\n2026-09-21 provenance strengthening: official Bandai Namco DLC documentation confirms Legendary Pack 2 contains four Parallel Quests and ten additional moves; exact PQ149/PQ150 reward relationships remain supported by the maintained PQ research layer and dedicated skill sources.\n2026-09-23 verification refresh: revalidated the existing acquisition endpoint, classification, mechanics, DLC/provenance, and documented reward-tier semantics against the maintained repository evidence corpus; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 455 current-evidence enrichment: 500-Ki Ki Blast Ultimate from PQ149. A flip kick initiates the technique; on connection, the target is bound by Ki and struck by a pillar, with current skill evidence documenting eight hits and about 40% damage. Comet Strike can immediately set up the Ultimate after its final hit. Exact startup/recovery, tracking, and patch-independent scaling remain unresolved.",
       "source_parallel_quests": [
         149
       ]
@@ -9407,10 +9407,10 @@
       "source_quest_or_shop": "Parallel Quest 114 — \"The Majin Revival Plan\"",
       "ultimate_finish_required": false,
       "skill_description": "Petrifying Spit is a Super Other skill associated with Dabura.",
-      "mechanics_notes": "Confirmed as Dabura's 100-Ki Other Super from PQ114 and usable by all CaC races. The spit petrifies an opponent on contact; the effect ends if the target is struck. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
-      "verification_status": "verified",
+      "mechanics_notes": "2026-09-26 Batch 455 current-evidence enrichment: 100-Ki Ki Blast Super from PQ114. The user spits a short-range projectile that deals no damage but petrifies/paralyzes the opponent for about two seconds on contact; if the first spit misses, a second can be produced. Current evidence supports Dabura/Fu association and the maintained PQ114 endpoint. Exact startup/recovery and resistance/edge-case behavior remain unresolved.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
@@ -9419,7 +9419,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 114,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 114. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1. 2026-09-22 provenance strengthening: Dragon Ball Wiki's Stone Spit entry independently confirms Xenoverse 2's Petrifying Spit as a Future Warrior reward from Parallel Quest 114 and identifies it as one of Dabura's Super Skills; no new drop probability, Ultimate Finish gate, or prerequisite is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 114. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1. 2026-09-22 provenance strengthening: Dragon Ball Wiki's Stone Spit entry independently confirms Xenoverse 2's Petrifying Spit as a Future Warrior reward from Parallel Quest 114 and identifies it as one of Dabura's Super Skills; no new drop probability, Ultimate Finish gate, or prerequisite is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.\n2026-09-26 Batch 455 current-evidence enrichment: 100-Ki Ki Blast Super from PQ114. The user spits a short-range projectile that deals no damage but petrifies/paralyzes the opponent for about two seconds on contact; if the first spit misses, a second can be produced. Current evidence supports Dabura/Fu association and the maintained PQ114 endpoint. Exact startup/recovery and resistance/edge-case behavior remain unresolved.",
       "id": "skill-petrifying-spit",
       "source_parallel_quests": [
         114
@@ -11947,8 +11947,8 @@
       "source_quest_or_shop": "Parallel Quest 56 — \"Hercule Is Number One\"",
       "ultimate_finish_required": false,
       "skill_description": "Stone Bullet is a Strike Super associated with Goten.",
-      "mechanics_notes": "100-Ki Strike Super from Parallel Quest 56 — \"Hercule Is Number One.\" Up to 22 rocks can be thrown in one use; holding the input extends range from very short range to more than ten times that baseline. Hercule's character version is categorized as Ki Blast. Exact damage and charge timing remain unresolved.",
-      "verification_status": "verified",
+      "mechanics_notes": "2026-09-26 Batch 455 current-evidence enrichment: 100-Ki Strike Super from PQ56. The user throws small rocks, up to 22 in one use; holding the input extends range from roughly three feet to more than ten times that baseline. Current evidence retains the Future Warrior PQ56 endpoint and notes Hercule's character version uses Ki Blast classification. Exact timing, damage, and charge curve remain unresolved.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-26",
       "sources": [
@@ -11960,7 +11960,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 56,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 436 current-evidence audit: current Xenoverse 2 documentation confirms the 100-Ki Strike Super, PQ56 acquisition, up to 22 rocks, and chargeable range extension. The maintained CaC restriction remains broad because no narrower race/gender/form restriction is established.",
+      "notes": "2026-09-26 Batch 436 current-evidence audit: current Xenoverse 2 documentation confirms the 100-Ki Strike Super, PQ56 acquisition, up to 22 rocks, and chargeable range extension. The maintained CaC restriction remains broad because no narrower race/gender/form restriction is established.\n2026-09-26 Batch 455 current-evidence enrichment: 100-Ki Strike Super from PQ56. The user throws small rocks, up to 22 in one use; holding the input extends range from roughly three feet to more than ten times that baseline. Current evidence retains the Future Warrior PQ56 endpoint and notes Hercule's character version uses Ki Blast classification. Exact timing, damage, and charge curve remain unresolved.",
       "id": "skill-stone-bullet",
       "source_parallel_quests": [
         56
@@ -12149,8 +12149,8 @@
       "source_quest_or_shop": "Parallel Quest 55 — \"Tag with Gotenks\"",
       "ultimate_finish_required": false,
       "skill_description": "Super Donut Volley is a Super Ki Blast skill associated with Gotenks.",
-      "mechanics_notes": "100-Ki Ki Blast Super from Parallel Quest 55 — \"Tag with Gotenks.\" The user fires a large energy ring; additional inputs allow up to eight rings. Current documentation reports approximately 5% damage for one ring and approximately 20% when all eight are fired. Exact timing and scaling remain unresolved.",
-      "verification_status": "verified",
+      "mechanics_notes": "2026-09-26 Batch 455 current-evidence enrichment: 100-Ki Ki Blast Super from PQ55. The user fires an energy ring and can add inputs for up to eight rings; current skill-specific evidence reports 5% damage for one ring and 20% when all eight are fired. The move is Gotenks-associated and is also documented as a Future Warrior PQ reward. Exact inter-ring timing, hit confirmation, and scaling remain unresolved.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-26",
       "sources": [
@@ -12161,7 +12161,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 55,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 436 current-evidence audit: current Xenoverse 2 documentation confirms the 100-Ki Ki Blast Super, PQ55 acquisition, and up to eight additional-input energy rings. One ring is documented at approximately 5% damage and all eight at approximately 20%; exact frame data remains unresolved.",
+      "notes": "2026-09-26 Batch 436 current-evidence audit: current Xenoverse 2 documentation confirms the 100-Ki Ki Blast Super, PQ55 acquisition, and up to eight additional-input energy rings. One ring is documented at approximately 5% damage and all eight at approximately 20%; exact frame data remains unresolved.\n2026-09-26 Batch 455 current-evidence enrichment: 100-Ki Ki Blast Super from PQ55. The user fires an energy ring and can add inputs for up to eight rings; current skill-specific evidence reports 5% damage for one ring and 20% when all eight are fired. The move is Gotenks-associated and is also documented as a Future Warrior PQ reward. Exact inter-ring timing, hit confirmation, and scaling remain unresolved.",
       "id": "skill-super-donut-volley",
       "source_parallel_quests": [
         55
