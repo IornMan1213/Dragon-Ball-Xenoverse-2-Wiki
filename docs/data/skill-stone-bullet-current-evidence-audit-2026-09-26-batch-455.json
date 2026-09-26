@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-stone-bullet",
+  "name": "Stone Bullet",
+  "batch": 455,
+  "date": "2026-09-26",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Stone_Bullet",
+    "https://dragonball.fandom.com/wiki/Stone_Bullet"
+  ],
+  "findings": [
+    "2026-09-26 Batch 455 current-evidence enrichment: 100-Ki Strike Super from PQ56. The user throws small rocks, up to 22 in one use; holding the input extends range from roughly three feet to more than ten times that baseline. Current evidence retains the Future Warrior PQ56 endpoint and notes Hercule's character version uses Ki Blast classification. Exact timing, damage, and charge curve remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
