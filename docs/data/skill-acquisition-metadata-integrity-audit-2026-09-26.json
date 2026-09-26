@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-26",
+  "scope": "474 canonical skill acquisition metadata",
+  "checks": {
+    "records": 474,
+    "source_quest_or_shop_missing": 0,
+    "unlock_method_missing": 0,
+    "acquisition_type_missing": 0,
+    "metadata_anomalies": 0
+  },
+  "anomalies": [],
+  "status": "pass",
+  "interpretation": "This audit checks internal consistency between acquisition_type, unlock_method, and explicit source_parallel_quests. It does not prove an acquisition claim against external sources."
+}
