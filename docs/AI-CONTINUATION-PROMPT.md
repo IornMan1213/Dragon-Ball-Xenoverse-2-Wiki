@@ -961,3 +961,11 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Evidence boundaries preserved: exact frame data, hidden prerequisites, reward probabilities, and unsupported balance claims were not inferred.
 - [x] Exact next: fresh census excluding Batch 381–392 targets, then continue the next genuinely low-detail records in a bounded 4–12 record batch.
+
+
+### 2026-09-25 cycle completion — Skill Batch 393 verified-record mechanics recheck
+- [x] Fresh live census confirmed **Recoome Kick, Sauzer Blade, Savory Slicer, Scissors Paper Rock** as the next handoff frontier.
+- [x] Rechecked and preserved existing current mechanics evidence for all four records; no unsupported values were invented.
+- [x] Added four per-skill audits plus `docs/data/skill-research-batches/skill-batch-393.json` and registered all five artifacts in the cross-domain registry.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Exact next: fresh census excluding Batch 381–393 targets, then continue the next genuinely under-documented records while retaining cross-domain links and evidence boundaries.
