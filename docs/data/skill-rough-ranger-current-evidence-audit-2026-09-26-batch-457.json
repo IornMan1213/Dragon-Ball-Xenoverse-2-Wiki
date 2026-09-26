@@ -1,0 +1,27 @@
+{
+  "batch": 457,
+  "date": "2026-09-26",
+  "skill_id": "skill-rough-ranger",
+  "skill_name": "Rough Ranger",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Skill Research Batch 457.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Rough_Ranger",
+    "https://dragonball.fandom.com/wiki/Rough_Ranger",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76417964"
+  ],
+  "findings": [
+    "100-Ki Strike Super and universal counter. The user holds a defensive stance; Strike attacks trigger a retaliatory kick, while Ki Blast attacks trigger an Energy Field. Current skill-specific evidence reports 15% damage for the kick, a 3-second field, and 5% damage if the opponent contacts the field. Point-blank Ki Blast behavior is documented separately; exact frames and patch-independent scaling remain unresolved."
+  ],
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26",
+    "research_status": "enriched"
+  },
+  "evidence_boundaries": [
+    "Exact frame data is not promoted.",
+    "Patch-independent damage/scaling is not inferred from source-reported values.",
+    "Reward probabilities and hidden prerequisites are not promoted unless directly evidenced.",
+    "Character-specific usage is not converted into a CaC race/gender/form restriction without direct evidence."
+  ]
+}
