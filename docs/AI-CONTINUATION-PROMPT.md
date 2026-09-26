@@ -1,3 +1,17 @@
+
+### 2026-09-26 continuation — Batch 484 canonical mechanics enrichment
+
+- [x] Re-inspected the live repository rather than trusting the stale Batch 482 checkpoint; the live default branch also contained a later Batch 483 canonical-only enrichment commit.
+- [x] Recorded Batch 483 as docs/data/skill-research-batches/skill-batch-483.json so that live canonical history is not skipped.
+- [x] Performed a fresh 474-record frontier census after excluding the registered audit set and the completed Batches 481–483.
+- [x] Researched and synchronized Spirit Slash, Gigantic Burst, Gigantic Roar, Emperor's Cannon, Gigantic Breaker, The Power to Overcome, God of Destruction's Menace, and Flash Chaser.
+- [x] Added eight Batch 484 current-evidence audits, the Batch 484 research record, and the thin-frontier audit.
+- [x] Registered Batch 482/483 continuity records and all Batch 484 artifacts in docs/data/pq-cross-domain-index.json.
+- [x] Canonical/index skill datasets remain 474/474; no record was added or removed.
+- [x] Preserved the documented Emperor's Cannon PQ183/PQ184 acquisition conflict and source-bounded Power to Overcome measurements rather than inventing certainty.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [x] Exact next: fresh unaudited mechanics frontier excluding Batch 484 and all prior registered current-evidence audits; current shortest remaining candidates are Dancing Parapara → God of Destruction's Roar → God Punisher → Super Saiyan God Super Saiyan (Evolved) → Total Detonation Ball → Future Super Saiyan → Godly Display → Final Pose. Re-census live state before promotion.
+
 ### 2026-09-26 continuation — Batch 482 canonical synchronization
 
 - [x] Researched and synchronized **Death Ball, Galick Gun, Sphere of Destruction, Breaker Energy Wave, Hyper Drain, Handy Canon, Fierce Fist, Venus Fist**.
