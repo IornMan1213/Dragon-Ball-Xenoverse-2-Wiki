@@ -1,0 +1,19 @@
+{
+  "batch": 459,
+  "date": "2026-09-26",
+  "skill_name": "Weekend",
+  "skill_id": "skill-weekend",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Skill Research Batch 459.",
+  "findings": [
+    "300-Ki Ki Blast Ultimate from Raditz's Lesson 3. The user charges beams in both hands and fires them as separate energy waves; a back-direction input spreads them into a wide V shape. Current skill evidence reports 16 hits and approximately 30% total damage. Exact frame timing and scaling remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/weekend"
+  ],
+  "evidence_boundaries": [
+    "Exact frame data is not promoted.",
+    "Patch-independent scaling is not inferred from source-reported values.",
+    "Reward probabilities and hidden prerequisites are not promoted unless directly evidenced."
+  ]
+}
