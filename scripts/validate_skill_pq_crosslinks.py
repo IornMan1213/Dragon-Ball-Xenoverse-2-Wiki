@@ -21,7 +21,11 @@ records = data["records"]
 ids = [r["id"] for r in records]
 assert len(records) == EXPECTED_SKILLS, f"skill count {len(records)} != {EXPECTED_SKILLS}"
 assert len(set(ids)) == EXPECTED_SKILLS, "duplicate canonical skill IDs"
-\n# Keep the checked-in reverse artifact synchronized with the deterministic source projection.\n# A count-only check can pass while individual PQ edges drift.\nexisting_reverse = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else None\n
+
+# Keep the checked-in reverse artifact synchronized with the deterministic source projection.
+# A count-only check can pass while individual PQ edges drift.
+existing_reverse = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else None
+
 by_pq = {str(i): [] for i in range(1, 187)}
 for record in records:
     for pq_id in record.get("source_parallel_quests", []):
@@ -32,6 +36,10 @@ edge_count = sum(len(v) for v in by_pq.values())
 represented = sum(bool(v) for v in by_pq.values())
 assert edge_count == EXPECTED_EDGES, f"edge count {edge_count} != {EXPECTED_EDGES}"
 assert represented == EXPECTED_REPRESENTED_PQS, f"represented PQ count {represented} != {EXPECTED_REPRESENTED_PQS}"
+expected_pq_ids = {pq: {"skill_count": len(items), "skill_ids": [x["skill_id"] for x in items], "skills": [x["name"] for x in items], "relationship_status": ("canonical_skill_endpoint_present" if items else "no_canonical_skill_endpoint_in_current_skill_corpus")} for pq, items in by_pq.items()}
+if existing_reverse is not None:
+    actual_projection = existing_reverse.get("pq_ids")
+    assert actual_projection == expected_pq_ids, "checked-in reverse index differs from deterministic source_parallel_quests projection"
 
 payload = {
     "schema_version": "1.0",
@@ -54,5 +62,6 @@ payload = {
         for pq, items in by_pq.items()
     },
 }
-OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "
+", encoding="utf-8")
 print(f"PASS: {len(records)} skills, {edge_count} skill→PQ edges, {represented} represented PQ IDs")
