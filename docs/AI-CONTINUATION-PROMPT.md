@@ -1,3 +1,13 @@
+### 2026-09-26 continuation — Skill Research Batch 424 evidence layer completed
+
+- [x] Performed a fresh current-evidence frontier check against the live cross-domain registry and selected four skills without a dedicated current-evidence audit: **Full Power Charge, Burning Spin, Final Shine Attack, and Savage Strike**.
+- [x] Added four source-backed current-evidence audits plus `docs/data/skill-research-batches/skill-batch-424.json`.
+- [x] Registered the Batch 424 research record and all four audits in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved evidence conflicts and boundaries: Burning Spin's conflicting 300-vs-400 Ki presentation is not silently normalized; Final Shine Attack's open-ended 300+ Ki presentation is retained; exact frames, hidden interactions, probabilities, and patch-independent balance values remain unresolved where unsupported.
+- [ ] Canonical `docs/data/skills.json` and projection `docs/data/skills-index.json` are **not yet synchronized** for Batch 424. The live GitHub connector currently returns zero content for these oversized blobs, so a safe complete-file rewrite is not possible without a recovered large-blob path.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [x] **Exact next:** recover a safe large-blob read/write path, synchronize the four Batch 424 mechanics/provenance updates into both canonical layers, validate canonical/index parity, then continue the next fresh frontier census excluding all records with a prior current-evidence audit.
+
 ### 2026-09-26 continuation — Skill Research Batch 420 completed
 
 - [x] Fresh 474-record mechanics frontier census excluded Batches 396–419 and selected **Core Breaker, Destruction's Concerto: Comet, Earth Splitting Galick Gun, Eye Beam, God of Destruction's Anger, Victory Cannon, Fighting Pose D, and Darkness Rush (Melee)** as the next eight shortest genuinely under-detailed canonical mechanics records.
