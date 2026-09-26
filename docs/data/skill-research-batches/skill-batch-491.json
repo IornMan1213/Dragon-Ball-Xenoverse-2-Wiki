@@ -1,0 +1,14 @@
+{
+  "batch": 491,
+  "date": "2026-09-26",
+  "status": "complete",
+  "scope": "Fresh live frontier after Batch 490; five shortest genuinely unaudited records promoted after provenance recheck.",
+  "selected": [
+    "Gigantic Cluster",
+    "Holy Wrath",
+    "Gigantic Charge",
+    "Pendulum Bullet",
+    "Heat Dome Attack"
+  ],
+  "evidence_boundary": "Current-source mechanics and bounded source-reported values only; unsupported exact frames, universal scaling, hidden interactions, and probabilities excluded."
+}
