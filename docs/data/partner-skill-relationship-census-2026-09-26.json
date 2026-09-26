@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-26",
+  "scope": "Repository-wide evidence census for explicit Partner Customization skill assignments",
+  "purpose": "Identify additional explicit skill→partner relationships without inferring assignments from generic user/skillset mentions.",
+  "search_strategy": [
+    "Exact repository search for Partner Customization + skill_id",
+    "Exact repository search for Partner Customization + partner_name",
+    "Exact repository search for custom_partner_availability",
+    "Review of returned skill research/current-evidence artifacts"
+  ],
+  "confirmed_relationships": [
+    {
+      "skill_id": "skill-arm-crash",
+      "skill_name": "Arm Crash",
+      "partner_name": "Bardock",
+      "evidence": [
+        "docs/data/skill-arm-crash-current-evidence-audit-2026-09-26-batch-473.json",
+        "docs/data/skill-research-batches/skill-batch-473.json"
+      ]
+    },
+    {
+      "skill_id": "skill-arm-crash",
+      "skill_name": "Arm Crash",
+      "partner_name": "Turles",
+      "evidence": [
+        "docs/data/skill-arm-crash-current-evidence-audit-2026-09-26-batch-473.json",
+        "docs/data/skill-research-batches/skill-batch-473.json"
+      ]
+    },
+    {
+      "skill_id": "skill-reverse-mabakusenko",
+      "skill_name": "Reverse Mabakusenko",
+      "partner_name": "Majin Buu (Gohan Absorbed)",
+      "evidence": [
+        "docs/data/skill-batch-481-current-evidence-audit-2026-09-26.json",
+        "docs/data/skill-research-batches/skill-batch-481.json"
+      ]
+    }
+  ],
+  "investigated_non_assignments": [
+    {
+      "skill_name": "Phantom Fist",
+      "finding": "Hit, Mira, Frost and Fu are named as users/skillset contexts, but no explicit Partner Customization assignment is stated.",
+      "evidence": [
+        "docs/data/skill-phantom-fist-current-evidence-audit-2026-09-26-batch-473.json",
+        "docs/data/skill-research-batches/skill-batch-473.json"
+      ]
+    },
+    {
+      "skill_name": "Dual Masenko",
+      "finding": "Partner availability is documented, but the canonical 474-skill corpus has no skill-dual-masenko record; do not manufacture a duplicate canonical skill.",
+      "evidence": "docs/data/partner-custom-skill-domain-boundary-audit-2026-09-26.json"
+    },
+    {
+      "skill_name": "Flash Strike / Psycho Barrier",
+      "finding": "Partner Customization is referenced, but current search evidence does not expose an explicit partner assignment.",
+      "evidence": "Repository-wide search results; no relationship promoted."
+    }
+  ],
+  "census_result": "No additional explicit skill→partner assignments were found beyond the three canonical relationships already recorded in partner-skill-relationships.json.",
+  "evidence_boundary": "Generic user lists, skillset mentions, Partner Customization page references, or partner navigation identity are not sufficient to create a relationship. Each relationship requires an explicit assignment statement tied to the canonical skill.",
+  "next": "Keep the relationship layer authoritative for confirmed assignments; investigate partner-only/non-CaC skills as a separate domain only when explicit corpus/schema evidence establishes them."
+}
