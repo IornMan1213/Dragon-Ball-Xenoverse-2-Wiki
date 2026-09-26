@@ -1,0 +1,22 @@
+{
+  "skill_id": "skill-godly-chronos-cannon",
+  "name": "Godly Chronos Cannon",
+  "batch": 450,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Godly_Chronos_Cannon"
+  ],
+  "findings": [
+    "300-Ki Ki Blast Ultimate",
+    "Conton City Tournament Match 5 endpoint",
+    "four initial Ki Blasts",
+    "additional-input firing",
+    "6–24-hit knockback classification",
+    "Power of Time/Holy Inscription increases documented damage and resets on activation"
+  ],
+  "evidence_boundaries": [
+    "No unsupported exact frames, scaling formulas, probabilities, or hidden conditions added. Source-reported damage remains bounded evidence."
+  ]
+}
