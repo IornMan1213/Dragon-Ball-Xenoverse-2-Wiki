@@ -159,6 +159,36 @@
       "character_id": "goku-black",
       "canonical_character_name": "Goku Black",
       "status": "explicit_bridge"
+    },
+    {
+      "character_id": "bardock",
+      "canonical_character_name": "Bardock",
+      "status": "explicit_bridge",
+      "evidence": "character-presets-record-layer character_id + exact canonical character name"
+    },
+    {
+      "character_id": "raditz",
+      "canonical_character_name": "Raditz",
+      "status": "explicit_bridge",
+      "evidence": "character-presets-record-layer character_id + exact canonical character name"
+    },
+    {
+      "character_id": "nappa",
+      "canonical_character_name": "Nappa",
+      "status": "explicit_bridge",
+      "evidence": "character-presets-record-layer character_id + exact canonical character name"
+    },
+    {
+      "character_id": "recoome",
+      "canonical_character_name": "Recoome",
+      "status": "explicit_bridge",
+      "evidence": "character-presets-record-layer character_id + exact canonical character name"
+    },
+    {
+      "character_id": "zarbon",
+      "canonical_character_name": "Zarbon",
+      "status": "explicit_bridge",
+      "evidence": "character-presets-record-layer character_id + exact canonical character name"
     }
   ]
 }
