@@ -1,0 +1,22 @@
+{
+  "skill_id": "skill-emperor-s-blast",
+  "name": "Emperor's Blast",
+  "batch": 450,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Emperor%27s_Blast"
+  ],
+  "findings": [
+    "100-Ki Ki Blast Super",
+    "PQ70 endpoint",
+    "rear-facing Ki Wave",
+    "single-hit mid-range stun",
+    "source-reported 15% damage",
+    "approximately 3-second stun"
+  ],
+  "evidence_boundaries": [
+    "No unsupported exact frames, scaling formulas, probabilities, or hidden conditions added. Source-reported damage remains bounded evidence."
+  ]
+}
