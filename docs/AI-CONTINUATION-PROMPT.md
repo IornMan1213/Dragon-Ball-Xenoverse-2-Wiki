@@ -2191,3 +2191,17 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Exact next: reconcile the recovered character/preset layer against any remaining live character consumer artifacts, then resume the Partner Customization skill→partner relationship census only where explicit evidence exists.
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected repository path.
+
+
+### 2026-09-26 continuation — Character/preset consumer reconciliation completed
+- [x] Reconciled the recovered character/preset consumer layer against the live canonical character layer.
+- [x] Restored the missing 51-record preset layer and character-facing consumer artifacts from their latest coherent historical commits.
+- [x] Synchronized the canonical character layer to the documented **152-character** baseline.
+- [x] Extended the explicit character identity bridge from **29 to 34** records for the five previously unbridged preset character IDs: **Bardock, Raditz, Nappa, Recoome, and Zarbon**.
+- [x] Live checks: **152 canonical characters / 34 bridge records / 51 presets / 17 preset character IDs / 20 Partner Customization keys / 20 reconciliation records**, with all preset IDs bridged and Partner Customization identity parity intact.
+- [x] Added and registered `docs/data/character-preset-consumer-reconciliation-2026-09-26.json`.
+- [x] Audited `pq-cross-domain-index.json` against the live repository tree: **1,608 references / 713 reachable / 895 unreachable**. The unreachable entries are retained as historical/planned provenance; no bulk deletion or blind recreation was performed.
+- [x] Added and registered `docs/data/cross-domain-index-reference-reachability-audit-2026-09-26.json`.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected path.
+- [x] **Exact next:** prioritize critical cross-domain references that are currently required by live navigation/validators and are safely regenerable from canonical data; do not recreate historical artifacts merely to reduce the unreachable-reference count.
