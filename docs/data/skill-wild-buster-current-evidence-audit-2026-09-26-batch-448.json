@@ -1,0 +1,21 @@
+{
+  "skill_id": "skill-wild-buster",
+  "name": "Wild Buster",
+  "batch": 448,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Wild_Buster"
+  ],
+  "findings": [
+    "100-Ki base cost",
+    "200-Ki with additional input",
+    "rush/punch/kick sequence",
+    "optional Ki-Wave follow-up",
+    "PQ153 endpoint",
+    "source-reported 15% total damage"
+  ],
+  "evidence_boundaries": [
+    "No unsupported exact frame, scaling, probability, or hidden-condition claims inferred."
+  ]
+}
