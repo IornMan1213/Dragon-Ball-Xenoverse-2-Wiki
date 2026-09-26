@@ -5539,22 +5539,22 @@
       "subcategory": "Strike",
       "verification_status": "verified_current_scope",
       "sources": [
+        "https://dbxv2.fandom.com/wiki/Finishing_Blow",
         "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://dbxv2.fandom.com/wiki/Whis/Quotes"
       ],
       "unlock_method": "Whis's mentor training — complete the corresponding lesson to receive Finishing Blow as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Whis mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred. Current evidence documents the close-range chop/restand behavior: it can quickly reposition behind a knocked-back opponent and permits immediate follow-up movement, basic attacks, or skills.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "100-Ki Strike Super taught by Whis. The user performs a purple-energy chop that restands the opponent; when the opponent is in the user's knockback or very close, the move quickly teleports the user into position. On hit, it permits immediate movement, basic attacks, or other skills, but not a direct raw stamina break. Its short range and restand make it primarily a combo-extension/restand tool. Exact damage, cancel-frame values, and drop-independent scaling remain unresolved.",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": "Whis mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 100-Ki Strike Super from Whis training. It is a close-range single-hit restand attack that can teleport to the opponent after a knockback or when used near them, then permits immediate follow-up attacks.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-26 current-evidence refresh: exact-name documentation reconfirms Whis training acquisition, 100-Ki Strike Super classification, close-range restand behavior, knockback/nearby teleport positioning, and immediate follow-up options. Whis's mentor listing independently identifies Finishing Blow as a Strike Super reward. The Nintendo Switch description truncation is preserved as a documented platform-specific text issue; no unsupported frame or damage values are inferred.",
       "id": "skill-finishing-blow",
       "source_mentor": [
         "mentor-whis"
@@ -5660,20 +5660,20 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Flash_Strike",
         "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+        "https://dbxv2.fandom.com/wiki/Partner_Customization"
       ],
       "unlock_method": "Vegeta mentor training — lesson-2.",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Vegeta mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred. Current evidence documents the explosion-at-destination behavior and the ability to attack again to increase damage; it remains a 100-Ki Vegeta mentor Super.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "100-Ki Ki Blast Super taught by Vegeta. It creates a remote explosion at the opponent's current destination; when used after a knockback, the tracking version can follow the target and deal additional damage. Dedicated documentation notes fast startup but significant endlag, during which the user cannot activate an Evasive. The move can also trigger its tracking version after certain other attacks or an ally's knockback. Exact damage, tracking window, endlag frames, and patch-independent scaling remain unresolved.",
+      "last_verified": "2026-09-26",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Vegeta mentor training — lesson-2.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 mentor refresh: Vegeta Lesson 2 is independently corroborated as the acquisition endpoint. The 100-Ki Ki Blast Super concentrates Ki at the target's current/future position and detonates it in a small explosion.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-26 current-evidence refresh: exact-name documentation reconfirms Vegeta mentor acquisition, 100-Ki Ki Blast Super classification, remote explosion behavior, knockback tracking/additional-damage behavior, and the documented endlag vulnerability. Mentor and partner documentation independently corroborate Flash Strike as Vegeta's Super. No exact frame values or damage conversion are inferred.",
       "id": "skill-flash-strike",
       "source_mentor": [
         "mentor-vegeta"
@@ -9275,19 +9275,19 @@
       "source_quest_or_shop": "Parallel Quest 4 — \"Prepare for the Attack of Saiyans!\"",
       "ultimate_finish_required": false,
       "skill_description": "Paralyze Beam is a Super Ki Blast skill associated with Piccolo.",
-      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ04. It can paralyze/hold the target; exact drop gating remains bounded. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
+      "mechanics_notes": "100-Ki Ki Blast Super obtained from Parallel Quest 4, \"Prepare for the Attack of Saiyans!\". The user fires a short-range beam backward; on contact it briefly staggers/stuns the opponent. The dedicated documentation describes the effect as a brief stagger rather than a literal persistent paralysis status. Orange Piccolo uses the same move as his backhit. Exact stun duration, damage, drop probability, and frame data remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Paralyze_Beam",
+        "https://dbxv2.fandom.com/wiki/Prepare_for_the_Attack_of_Saiyans!",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "All CaC races",
       "source_quest": 4,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
+      "notes": "2026-09-26 current-evidence refresh: exact-name documentation reconfirms the 100-Ki Ki Blast Super classification, PQ4 Basic Reward route, backward beam behavior, and brief stagger effect. PQ4's current reward listing independently includes Paralyze Beam. No narrower CaC race/gender/form restriction or exact drop probability is inferred.",
       "id": "skill-paralyze-beam",
       "source_parallel_quests": [
         4
@@ -12047,12 +12047,11 @@
       "name": "Super Afterimage",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Afterimage",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
-        "https://dragonball.fandom.com/wiki/Super_Afterimage",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/Super_Afterimage"
       ],
       "ki_cost": 100,
       "unlock_method": "Skill Shop (Conton City)",
@@ -12061,11 +12060,11 @@
       "source_quest_or_shop": "Skill Shop (Conton City)",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "research_status": "enriched",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Other Super/evasive skill. It creates afterimages for evasion/vanishing and is broadly associated with mentors; no explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
+      "mechanics_notes": "100-Ki Other Super/evasive technique. The user creates six afterimages that can evade incoming attacks; when close to the opponent, the technique can instead vanish the user directly behind them. Dedicated counter-skill documentation classifies Afterimage separately as a universal counter, while Super Afterimage is documented as an afterimage/vanish Super. Exact active timing, teleport distance, damage, and frame data remain unresolved.",
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-22 provenance refresh: current repository catalog audit records Super Afterimage as explicitly verified from acquisition evidence; existing classification and scope are retained. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
+      "notes": "2026-09-26 current-evidence refresh: exact-name documentation reconfirms the 100-Ki cost, Other Super classification, six-afterimage behavior, and behind-the-opponent vanish option. Current catalog evidence retains Skill Shop acquisition and all-CaC availability; no narrower race/gender/form restriction is established. The documented 0-Ki timing technique is preserved as a community usage technique, not promoted to a formal game-data requirement.",
       "id": "skill-super-afterimage"
     },
     {
