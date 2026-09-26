@@ -695,3 +695,13 @@
 - [ ] Canonical generated `skills.json` / `skills-index.json` were not partially rewritten because their complete contents cannot be safely reconstructed through the connector.
 - [ ] CI remains unverified.
 - [x] **Exact next:** perform a fresh global thin-record census and choose the next shortest/highest-impact mechanics or deterministic provenance gap; do not assume the historical frontier remains current.
+
+### 2026-09-25 cycle completion — Skill Batch 367 fresh census refresh
+- [x] Fresh census selected four older partially-verified mechanics/source footprints: **Fighting Pose H, Explosive Buu Buu Punch, Shining Slash, Burning Attack**.
+- [x] Added/refreshed four current-evidence audit artifacts and `docs/data/skill-research-batches/skill-batch-367.json`.
+- [x] Registered all five artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Confirmed current evidence for Fighting Pose H's 20-second duration, Shining Slash's 100-Ki teleporting sword slash, and Explosive Buu Buu Punch's guarded punch-barrage behavior; Burning Attack's historical interaction changes were preserved as version-sensitive provenance. citeturn1search1turn1search0turn1search12turn1search15
+- [x] No unsupported frame data, exact damage, reward probability, or hidden gate was promoted.
+- [ ] Canonical generated `skills.json` / `skills-index.json` were not partially rewritten because their complete contents cannot be safely reconstructed through the connector.
+- [ ] CI remains unverified.
+- [x] **Exact next:** continue the fresh census with the next older partially-verified mechanics footprints, prioritizing compact deterministic records before broad catalog work.
