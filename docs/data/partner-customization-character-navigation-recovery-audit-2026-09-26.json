@@ -26,12 +26,13 @@
     "bridge_records": 34,
     "canonical_character_names": 152,
     "page_search_links": 20,
-    "checks_passed": 16,
+    "checks_passed": 18,
     "checks_failed": 0,
     "identity_mismatches": [],
-    "status": "clean"
+    "status": "clean",
+    "check_count": 18
   },
   "evidence_boundary": "The recovered layer restores deterministic navigation identity only. DLC ownership, raid rotation history, TP Medal costs, and complete customization unlock trees remain separately unresolved. Historical recovery does not promote those facts.",
-  "next": "The recovered Partner Customization navigation layer now reconciles with the 152-name canonical character layer and 34-record identity bridge. Continue with remaining critical cross-domain references; do not infer partner-skill availability from navigation identity alone.",
-  "reconciliation_summary": "Reconciled against the live 2026-09-26 character/preset baseline: 20 Partner Customization keys, 20 reconciliation records, 34 explicit character identity bridge records, and 152 canonical character names. All 20 partner keys and all 17 preset character IDs resolve through the explicit bridge."
+  "next": "Continue with remaining critical cross-domain references and live deterministic validators; do not infer partner-skill availability from navigation identity alone.",
+  "reconciliation_summary": "Reconciled against the live 2026-09-26 character/preset baseline: 20 Partner Customization keys, 20 reconciliation records, 34 explicit character identity bridge records, and 152 canonical character names. All 20 partner keys and all 17 preset character IDs resolve through the explicit bridge. The current navigation validator exposes 18 boolean checks, all passing."
 }
