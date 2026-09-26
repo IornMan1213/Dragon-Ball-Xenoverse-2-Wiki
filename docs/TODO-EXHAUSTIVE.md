@@ -1535,3 +1535,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved evidence boundaries; unsupported exact frames, scaling, probabilities, and hidden conditions remain unresolved unless directly evidenced.
 - [ ] CI/build remains unverified.
 - [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 455 and all prior current-evidence-audited records.
+
+
+### 2026-09-26 TODO progress update — Skill Research Batch 456 completed
+- [x] Researched **Data Input, Dimension Ray, Pressure Sign, Blaster Shell, Fake Blast, Spirit Boost, Dust Attack, and Teleporting Vanishing Ball**.
+- [x] Enriched/synchronized canonical and index datasets; parity remains **474/474**, 0 missing / 0 extra.
+- [x] Added Batch 456 research/thin-frontier artifacts, eight current-evidence audits, and provenance registrations.
+- [x] Preserved evidence boundaries; unsupported exact frames, scaling, probabilities, and hidden conditions remain unresolved unless directly evidenced.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 456 and all prior current-evidence-audited records.
