@@ -1,0 +1,17 @@
+{
+  "batch": 441,
+  "date": "2026-09-26",
+  "type": "thin_frontier_mechanics_audit",
+  "selected": [
+    "Blaster Ball",
+    "Super Kamehameha (SS4 DAIMA)",
+    "Paralysis",
+    "Perfect Kamehameha"
+  ],
+  "method": "Fresh frontier census over the 474-record canonical dataset, excluding records with registered current-evidence audit artifacts. Selected the four shortest remaining records by combined mechanics/note detail and rechecked current skill-specific evidence.",
+  "evidence_boundaries": [
+    "Source-reported damage/hit counts remain explicitly source-reported.",
+    "Exact frames and patch-independent scaling are not inferred.",
+    "No drop probabilities or hidden conditions are invented."
+  ]
+}
