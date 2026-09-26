@@ -1338,3 +1338,14 @@
 
 
 Batch 423 completed: eight skill mechanics records were enriched and synchronized. Next task: fresh 474-record frontier census excluding prior audited records and continue the shortest under-detailed records. CI/build remains unverified.
+
+
+### 2026-09-26 TODO progress update — Skill Research Batch 438 completed
+
+- [x] Fresh 474-record mechanics frontier census excluded every skill with a registered current-evidence audit and selected **Final Flash (SS3 DAIMA), God of Destruction's Anger, Evil Ray Strike, and Pretty Charge**.
+- [x] Enriched and synchronized all four records in `docs/data/skills.json` and `docs/data/skills-index.json`; canonical/index remain 474/474 with 0 missing / 0 extra.
+- [x] Added four current-evidence audits, Batch 438 research data, thin-frontier audit, and provenance registry entries.
+- [x] Preserved evidence boundaries: exact frames, unsupported scaling, hidden interactions, exact charge/resource conversion, and unsupported reward probabilities remain unresolved where not directly evidenced.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [ ] Repository efficiency addendum check remains blocked because `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` currently returns GitHub 404.
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 438 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
