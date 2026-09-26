@@ -1,0 +1,18 @@
+{
+  "batch": 466,
+  "date": "2026-09-26",
+  "skill_name": "Destructive Flare",
+  "skill_id": "skill-destructive-flare",
+  "status": "completed",
+  "findings": [
+    "200-Ki Ki Blast Super from PQ145. The user holds one hand flat and fires a 13-hit barrage of Ki bullets; holding the input increases projectile size and damage. Current evidence identifies long-range projectile behavior and knockback. Exact charge scaling, startup, recovery, and damage curve remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Destructive_Flare"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted.",
+    "Documented acquisition/reward conflicts remain explicit rather than normalized without evidence."
+  ]
+}
