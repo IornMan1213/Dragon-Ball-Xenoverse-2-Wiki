@@ -1,0 +1,22 @@
+{
+  "skill_id": "skill-gigantic-explosion",
+  "name": "Gigantic Explosion",
+  "batch": 449,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Gigantic_Explosion"
+  ],
+  "findings": [
+    "600-Ki Ki Blast Ultimate",
+    "PQ164 endpoint",
+    "Awoken Skill required for CaCs",
+    "three-stage expanding explosion",
+    "400-Stamina continuation while damaged",
+    "3-hit classification"
+  ],
+  "evidence_boundaries": [
+    "No unsupported exact frames, scaling, probabilities, or hidden conditions added. Source-reported damage/stat values remain explicitly source-bound."
+  ]
+}
