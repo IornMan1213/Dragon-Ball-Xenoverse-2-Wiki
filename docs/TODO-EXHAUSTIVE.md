@@ -2255,3 +2255,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated `docs/data/characters/partner-customization-character-navigation-audit.json` to record the hardening; no canonical character or Partner Customization relationship data changed.
 - [ ] Runtime validator execution and CI/build remain unverified in this environment.
 - [x] **Exact next:** inspect the next live validator/consumer for another concrete deterministic projection, schema, or stale-cache integrity gap.
+
+### 2026-09-26 continuation — Partner Customization navigation schema hardening
+- [x] Inspected the live `scripts/validate_partner_customization_character_navigation.py` after the prior projection hardening and found a remaining deterministic schema gap: key, reconciliation, and bridge record fields were type-checked only partially, allowing malformed/empty identity fields to reach later joins.
+- [x] Hardened the validator to require positive integer key numbers, non-empty string character IDs and partner names, and non-empty canonical bridge names for the relevant record types.
+- [x] Updated `docs/data/characters/partner-customization-character-navigation-audit.json` with the hardening record; the established **20 keys / 20 reconciliation records / 34 bridge records / 152 canonical character names / 20 page links** contract is unchanged.
+- [x] No canonical character, preset, DLC, acquisition, or partner-skill relationship data was changed.
+- [ ] Runtime validator execution and CI/build remain unverified in this environment.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected repository path (GitHub 404).
+- [x] **Exact next:** inspect the next live deterministic validator/consumer for another concrete schema, type/range, stale-cache, or deterministic-projection acceptance gap; preserve the evidence boundary around absent general PQ reward/reverse datasets.
