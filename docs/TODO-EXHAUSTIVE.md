@@ -939,3 +939,13 @@
 - [x] Evidence boundaries preserved: unresolved boost magnitudes, exact frames, tracking strength, exact Spirit Blaster damage/timing, and hidden probabilities were not inferred.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** continue Batch 402 with the next genuinely under-detailed records from the fresh frontier, beginning after these four.
+
+
+### 2026-09-25 cycle completion — Skill Research Batch 402 continued
+- [x] Completed the next four Batch 402 frontier records: **Turn Golden, Fighting Pose A, Shining Friday, and Savory Slicer**.
+- [x] Deepened all four canonical mechanics records with current Xenoverse 2-specific transformation/effect, defensive status, attack sequence, documented duration/damage, and acquisition details where directly supported.
+- [x] Synchronized canonical `skills.json` and `skills-index.json`; all four remain `verified_current_scope` with 2026-09-25 verification.
+- [x] Expanded `skill-research-batches/skill-batch-402.json` to eight records and added four current-evidence audits; registry remains synchronized.
+- [x] Evidence boundaries preserved: unresolved transformation timing, exact drain/combo multipliers, Shining Friday numerical mechanics, and activation/frame data were not inferred.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** continue Batch 402 with the next genuinely under-detailed records from the fresh frontier, beginning after these eight.

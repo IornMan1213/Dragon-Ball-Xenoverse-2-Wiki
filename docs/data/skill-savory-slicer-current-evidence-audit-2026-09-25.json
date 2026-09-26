@@ -3,24 +3,11 @@
   "audit_id": "skill-savory-slicer-current-evidence-audit-2026-09-25",
   "audit_date": "2026-09-25",
   "target": "Savory Slicer",
-  "result": "verified_current_scope",
-  "supported_fields": {
-    "class": "Super",
-    "subcategory": "Strike",
-    "ki_cost": 100,
-    "source_quest_or_shop": "Parallel Quest 140 — \"Spirit Bomb Away!\"",
-    "unlock_method": "Parallel Quest 140 — maintained Ultimate Finish bonus-slot route",
-    "character_source": "Android 21",
-    "mechanics": "Forms Ki blades on both hands and spins toward the opponent; current skill documentation records nine hits, about 20% damage, and resistance to weak Ki Blasts while charging forward."
-  },
-  "limits": [
-    "The accessible current quest page lists Savory Slicer among rewards but does not itself expose the exact reward-slot probability; the repository's maintained reward normalization retains the Ultimate-Finish bonus-slot route.",
-    "Exact drop probability remains unresolved."
-  ],
+  "result": "current_evidence_refresh",
+  "mechanics_notes": "100-Ki Strike Super used by Android 21. The user forms Ki blades from both hands and spins toward the opponent at high speed; the forward movement protects against weak Ki Blasts. The attack hits 9 times and current skill-specific documentation reports 20% total damage. It is obtained from Parallel Quest 140, 'Spirit Bomb Away!'.",
   "evidence_sources": [
     "https://dbxv2.fandom.com/wiki/Savory_Slicer",
-    "https://dragonball.fandom.com/wiki/Savory_Slicer",
-    "https://dbxv2.fandom.com/wiki/Spirit_Bomb_Away!",
-    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-  ]
+    "https://dbxv2.fandom.com/wiki/Android_21"
+  ],
+  "evidence_boundary": "Current Xenoverse 2-specific mechanics and acquisition evidence only; unresolved numerical/frame details remain bounded."
 }

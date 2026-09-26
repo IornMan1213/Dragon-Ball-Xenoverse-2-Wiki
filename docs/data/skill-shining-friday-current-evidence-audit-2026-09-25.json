@@ -4,17 +4,9 @@
   "audit_date": "2026-09-25",
   "target": "Shining Friday",
   "result": "current_evidence_refresh",
-  "supported_fields": {
-    "class": "Super",
-    "subcategory": "Ki Blast",
-    "ki_cost": 100,
-    "source_quest_or_shop": "Training with Android 17 (DB Super).",
-    "mechanics": "100-Ki Ki Blast Super. Fires a rapid sequence of Ki projectiles; current Xenoverse 2 evidence identifies Android 17 (DB Super) as the associated skill source."
-  },
+  "mechanics_notes": "Strike Super using a sword-like energy blade. The user advances into a multi-hit slashing sequence and can follow the initial attack with additional input for the move's extended sequence. Current documentation identifies it as a Strike Super and records its sword/blade-based attack behavior; exact Ki cost, hit count, damage, and frame data remain unresolved in the bounded current evidence.",
   "evidence_sources": [
     "https://dbxv2.fandom.com/wiki/Shining_Friday"
   ],
-  "limits": [
-    "No unsupported duration, frame data, exact damage, drop probability, or hidden acquisition gate is inferred."
-  ]
+  "evidence_boundary": "Current Xenoverse 2-specific mechanics and acquisition evidence only; unresolved numerical/frame details remain bounded."
 }
