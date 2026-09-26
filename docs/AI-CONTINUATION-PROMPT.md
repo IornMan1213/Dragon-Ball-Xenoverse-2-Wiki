@@ -2506,3 +2506,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No PQ relationship endpoints, reward claims, or historical provenance references were changed or fabricated.
 - [ ] Runtime validator execution and CI/build remain unverified in this environment.
 - [x] **Exact next:** inspect the next live cross-domain consumer/validator or deterministic projection, prioritizing concrete schema/type/range/stale-reference acceptance gaps over recreating absent historical/index-only datasets.
+### 2026-09-26 continuation — Skill→PQ reverse artifact metadata hardening
+- [x] Re-inspected the live `scripts/validate_skill_pq_crosslinks.py` and its checked-in `docs/data/skill-pq-reverse-index-2026-09-26.json` projection.
+- [x] Hardened the validator so a present reverse artifact must be an object and its schema version, scope, source, generated date, canonical skill count, represented-PQ count, and total edge count must match the deterministic contract before the per-PQ projection comparison.
+- [x] Updated `docs/data/skill-pq-cross-domain-linkage-integrity-audit-2026-09-26.json` with the hardening and evidence boundary.
+- [x] No skill→PQ relationships were added, removed, inferred, or otherwise changed.
+- [ ] Runtime validator execution and CI/build remain unverified in this environment.
+- [x] **Exact next:** inspect the next live cross-domain consumer/validator or deterministic projection, especially remaining live PQ endpoint/navigation validation, for another concrete schema/type/range/stale-cache gap; do not reconstruct absent historical reward/reverse datasets without an evidence-complete producer.
