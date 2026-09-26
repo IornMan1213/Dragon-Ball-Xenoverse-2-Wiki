@@ -1,0 +1,16 @@
+{
+  "batch": 484,
+  "date": "2026-09-26",
+  "skill_id": "skill-gigantic-burst",
+  "skill_name": "Gigantic Burst",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Gigantic_Burst",
+    "https://dragonball.fandom.com/wiki/Gigantic_Burst"
+  ],
+  "findings": "2026-09-26 Batch 484 current-evidence audit: Gigantic Burst is a 500-Ki Ki Blast Ultimate from PQ127. Current skill documentation describes three forward-sweeping Ray Blasts followed by a charged spiraling wave, with a source-reported 40% total over 25 hits. The Ray Blast Super can transition into the Ultimate when enough Ki is available. Exact frames and patch-independent scaling remain unresolved.",
+  "canonical_changes": {
+    "mechanics_notes": "500-Ki Ki Blast Ultimate from PQ127. Fires three forward-sweeping Ray Blasts, then charges and fires a spiraling energy wave; current skill-specific evidence reports about 40% damage over 25 hits. The preceding Ray Blast Super can transition into Gigantic Burst if sufficient Ki remains.",
+    "last_verified": "2026-09-26",
+    "research_status": "enriched"
+  }
+}
