@@ -1,0 +1,21 @@
+{
+  "batch": 458,
+  "date": "2026-09-26",
+  "skill_name": "Ki Explosion",
+  "skill_id": "skill-ki-explosion",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Skill Research Batch 458.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Ki_Explosion",
+    "https://store.steampowered.com/news/posts/?appids=454650&enddate=1535386736&feed=steam_community_announcements"
+  ],
+  "findings": [
+    "100-Ki Ki Blast Super from PQ77. Creates a short-range omnidirectional purple explosion; holding the input spends additional Ki and permits repeated/extended explosions up to four Ki bars total. Official update notes document the historical reduction from 200 to 100 Ki and a damage increase; exact modern frame data and universal damage scaling remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Exact frame data is not promoted.",
+    "Patch-independent scaling is not inferred from source-reported values.",
+    "Reward probabilities and hidden prerequisites are not promoted unless directly evidenced.",
+    "Community usage commentary is not converted into deterministic mechanics."
+  ]
+}
