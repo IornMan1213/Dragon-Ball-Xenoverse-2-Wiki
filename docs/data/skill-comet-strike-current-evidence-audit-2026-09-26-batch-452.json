@@ -1,0 +1,23 @@
+{
+  "skill_id": "skill-comet-strike",
+  "name": "Comet Strike",
+  "batch": 452,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Comet_Strike",
+    "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
+  ],
+  "findings": [
+    [
+      "100-Ki Strike Super from PQ149",
+      "Three-hit rush with immediate Ultimate follow-up after the third hit",
+      "Source-reported 10% total damage and long charge startup"
+    ]
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
