@@ -8,11 +8,19 @@
     "Dimensional Hole",
     "God of Destruction's Poise"
   ],
-  "exact_next": "Run the next fresh unaudited mechanics frontier census excluding Batch 436 and all prior current-evidence-audited records.",
+  "exact_next": "Run the next fresh unaudited mechanics frontier census excluding all Batch 436 audited records and all prior current-evidence-audited records.",
   "validation": {
     "canonical_records": 474,
     "index_records": 474,
     "missing_ids": 0,
     "extra_ids": 0
-  }
+  },
+  "supplemental_selected": [
+    "Orin Combo",
+    "Stone Bullet",
+    "Super Black Kamehameha Rosé",
+    "Super Donut Volley"
+  ],
+  "supplemental_status": "complete",
+  "supplemental_note": "Additional fresh-frontier audits completed after the existing Batch 436 four-skill cycle was already present. These four records are now also current-evidence audited and registered under Batch 436; no prior Batch 436 records were removed."
 }
