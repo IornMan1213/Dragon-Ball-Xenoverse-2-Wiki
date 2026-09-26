@@ -1799,5 +1799,12 @@
   },
   "integrity_audits": {
     "cross_domain_index_reference_reachability_2026_09_26": "docs/data/cross-domain-index-reference-reachability-audit-2026-09-26.json"
-  }
+  },
+  "skill_research_batch_492": "docs/data/skill-research-batches/skill-batch-492.json",
+  "skill_batch_492_thin_frontier": "docs/data/skill-batch-492-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_absolute_zero_current_evidence_audit_2026_09_26_batch_492": "docs/data/skill-absolute-zero-current-evidence-audit-2026-09-26-batch-492.json",
+  "skill_afterimage_strike_current_evidence_audit_2026_09_26_batch_492": "docs/data/skill-afterimage-strike-current-evidence-audit-2026-09-26-batch-492.json",
+  "skill_bending_kamehameha_current_evidence_audit_2026_09_26_batch_492": "docs/data/skill-bending-kamehameha-current-evidence-audit-2026-09-26-batch-492.json",
+  "skill_time_skip_tremor_pulse_current_evidence_audit_2026_09_26_batch_492": "docs/data/skill-time-skip-tremor-pulse-current-evidence-audit-2026-09-26-batch-492.json",
+  "skill_rising_rage_current_evidence_audit_2026_09_26_batch_492": "docs/data/skill-rising-rage-current-evidence-audit-2026-09-26-batch-492.json"
 }
