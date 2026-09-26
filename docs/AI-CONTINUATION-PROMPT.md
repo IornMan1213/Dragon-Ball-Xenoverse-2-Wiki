@@ -1,5 +1,15 @@
 ### 2026-09-26 continuation — Skill Research Batch 451 completed
 
+- [x] Fresh unaudited mechanics frontier census selected **Force Shield, Eraser Bomb, Evil Flame, Galactic Donuts, Energy Field, Bloody Counter, Supersonic Mode, and Big Bang Attack**.
+- [x] Deepened and synchronized all eight skill records in the canonical and index datasets.
+- [x] Added eight Batch 451 current-evidence audit artifacts plus batch/frontier research records.
+- [x] Registered Batch 451 provenance in `docs/data/pq-cross-domain-index.json`.
+- [x] Canonical/index validation remains **474/474**, with 0 missing / 0 extra.
+- [ ] CI/build remains unverified; no workflow success claimed.
+- [x] **Exact next:** fresh unaudited mechanics frontier census excluding Batch 451 and every prior current-evidence-audited record.
+
+### 2026-09-26 continuation — Skill Research Batch 451 completed
+
 - [x] Fresh live 474-record mechanics frontier census selected **Force Shield, Eraser Bomb, Evil Flame, Galactic Donuts, Energy Field, Bloody Counter, Supersonic Mode, and Big Bang Attack** after excluding every registered current-evidence audit.
 - [x] Added eight current-evidence audits plus Batch 451 research and thin-frontier audit artifacts.
 - [x] Deepened and synchronized all eight canonical records with current Xenoverse 2-specific mechanics and bounded evidence.
