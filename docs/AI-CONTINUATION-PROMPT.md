@@ -1,3 +1,14 @@
+### 2026-09-26 continuation — Skill Research Batch 436 completed
+
+- [x] Fresh unaudited mechanics frontier selected **Candy Beam (Super), Big Bang Kamehameha, Dimensional Hole, and God of Destruction's Poise** after excluding Batch 435 and all prior current-evidence-audited records.
+- [x] Added four current-evidence audits plus Batch 436 research and thin-frontier audit artifacts.
+- [x] Rechecked current Xenoverse 2-specific cost, classification, acquisition, transformation/counter/charge behavior, and bounded numeric mechanics against dedicated skill references; unsupported exact frames, hidden interactions, patch-independent scaling, and probabilities remain bounded.
+- [x] Synchronized all four records into both canonical skill datasets and refreshed their current-scope verification date to 2026-09-26.
+- [x] Registered the Batch 436 research record, thin-frontier audit, and four skill audits in docs/data/pq-cross-domain-index.json.
+- [x] Validated **474/474** canonical/index records with **0 missing / 0 extra**.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 436 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
+
 ### 2026-09-26 continuation — Skill Research Batch 435 completed
 
 - [x] Fresh unaudited mechanics frontier selected **Kaioken Kamehameha, Super Saiyan God Super Saiyan, Double Sunday, and Excellent Full Course** after excluding Batch 434 and all prior current-evidence-audited records.
