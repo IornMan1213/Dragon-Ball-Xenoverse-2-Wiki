@@ -1,0 +1,14 @@
+{
+  "batch": 488,
+  "date": "2026-09-26",
+  "skill_id": "skill-ill-rain",
+  "skill_name": "Ill Rain",
+  "status": "complete",
+  "findings": "Current evidence confirms 100-Ki PQ64 Basic Reward. The initial Ki ball lingers and scatters into three tracking projectiles; each is documented at about 15% source-reported damage.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Ill_Rain",
+    "https://dragonball.fandom.com/wiki/Ill_Rain"
+  ],
+  "evidence_boundary": "Current-source behavior and source-reported numerical values are preserved as bounded evidence. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; canonical/index parity validated at 474/474."
+}
