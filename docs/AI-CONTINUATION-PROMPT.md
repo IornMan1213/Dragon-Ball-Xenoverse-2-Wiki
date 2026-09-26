@@ -731,3 +731,14 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Commit: `fe9e895e9b625651b98a5b27ac12138898cad2ec`.
 - [x] Exact next: run/reconcile the PQ↔skill validator against the live 470-skill baseline when an execution path is available; then continue the fresh thin-record/current-evidence skill census rather than redoing closed research batches.
+
+
+### 2026-09-25 completion — Skill Batch 370 canonical/index synchronization
+- [x] Fresh live census correctly measured `mechanics_notes` (the canonical field; the earlier `mechanics` key is not the active field): the 469-skill corpus has **0 empty mechanics_notes**; the shortest active tier was the 78-character placeholder `Mentor acquisition endpoint verified; combat mechanics intentionally deferred.`
+- [x] Completed **Fighting Pose A, Fighting Pose F, Innocence Cannon, Justice Rush** with current skill-specific evidence.
+- [x] Promoted the documented mechanics into both `docs/data/skills.json` and `docs/data/skills-index.json`; both remain **469 records** and the four target projections are synchronized.
+- [x] Added exact skill-specific evidence URLs to each target, increasing each target from 3 to 4 sources.
+- [x] Added `docs/data/skill-batch-370-thin-mechanics-audit-2026-09-25.json` and `docs/data/skill-research-batches/skill-batch-370.json`; registered both in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation by direct post-write blob inspection: canonical/index **469/469**, target mechanics/date/source fields synchronized, 0 duplicate-ID change introduced.
+- [ ] CI remains unverified; no workflow success claimed.
+- [x] **Exact next:** perform a fresh `mechanics_notes` census after Batch 370, then select the next shortest genuinely placeholder/low-detail records; do not use the nonexistent `mechanics` field for census logic.
