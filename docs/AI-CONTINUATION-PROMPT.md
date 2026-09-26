@@ -2513,3 +2513,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No skill→PQ relationships were added, removed, inferred, or otherwise changed.
 - [ ] Runtime validator execution and CI/build remain unverified in this environment.
 - [x] **Exact next:** inspect the next live cross-domain consumer/validator or deterministic projection, especially remaining live PQ endpoint/navigation validation, for another concrete schema/type/range/stale-cache gap; do not reconstruct absent historical reward/reverse datasets without an evidence-complete producer.
+### 2026-09-26 continuation — Partner Customization bridge schema hardening
+- [x] Inspected the live Partner Customization navigation validator and found a concrete remaining schema gap: bridge `character_id` values and canonical character-name list entries were not fully type/emptiness checked before dictionary/set operations.
+- [x] Hardened `scripts/validate_partner_customization_character_navigation.py` so bridge IDs and canonical character names must be non-empty strings before joins/projections; malformed bridge IDs can no longer reach implicit hashing failures or partial joins.
+- [x] Updated `docs/data/characters/partner-customization-character-navigation-audit.json` with the hardening record.
+- [x] No character identity, Partner Customization, DLC, acquisition, or skill relationship data changed.
+- [ ] Runtime validator execution and CI/build remain unverified in this environment.
+- [x] **Exact next:** inspect the next live consumer/validator or deterministic projection for another concrete schema/type/range/stale-reference gap; preserve the evidence boundary around absent PQ reward/reverse datasets.
