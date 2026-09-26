@@ -1,0 +1,24 @@
+{
+  "batch": 449,
+  "date": "2026-09-26",
+  "status": "complete",
+  "scope": "Fresh unaudited mechanics frontier after excluding every skill with a registered current-evidence audit.",
+  "selected": [
+    "Purification",
+    "Brave Sword Slash",
+    "Unrelenting Barrage",
+    "Burning Slash",
+    "Turn Golden",
+    "Gigantic Explosion",
+    "Burst Blitz",
+    "Power Pole Pro"
+  ],
+  "evidence_policy": "Current Xenoverse 2-specific evidence was prioritized. Source-reported damage/stat values remain explicitly source-bound; unsupported exact frames, scaling, probabilities, and hidden conditions were not inferred.",
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "missing_ids": 0,
+    "extra_ids": 0
+  },
+  "exact_next": "Run another fresh unaudited mechanics frontier census excluding Batch 449 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle."
+}
