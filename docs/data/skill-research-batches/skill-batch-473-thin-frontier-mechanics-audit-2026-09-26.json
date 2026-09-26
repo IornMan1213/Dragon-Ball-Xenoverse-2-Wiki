@@ -1,0 +1,34 @@
+{
+  "batch": 473,
+  "date": "2026-09-26",
+  "scope": "Fresh unaudited mechanics frontier after Batch 472.",
+  "status": "completed",
+  "selected": [
+    {
+      "skill_id": "skill-arm-crash",
+      "skill_name": "Arm Crash"
+    },
+    {
+      "skill_id": "skill-phantom-fist",
+      "skill_name": "Phantom Fist"
+    },
+    {
+      "skill_id": "skill-time-skip-molotov",
+      "skill_name": "Time Skip/Molotov"
+    },
+    {
+      "skill_id": "skill-justice-combination",
+      "skill_name": "Justice Combination"
+    },
+    {
+      "skill_id": "skill-headshot",
+      "skill_name": "Headshot"
+    },
+    {
+      "skill_id": "skill-gigantic-rage",
+      "skill_name": "Gigantic Rage"
+    }
+  ],
+  "method": "Selected six skill records with no registered current-evidence audit after excluding all prior current-evidence-audited records; prioritized a compact group spanning charge, evasive, grab, rush, and ultimate mechanics.",
+  "next_exclusion_rule": "Exclude Batch 473 and every prior current-evidence audit."
+}
