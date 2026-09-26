@@ -1,0 +1,23 @@
+{
+  "skill_id": "skill-orin-combo",
+  "name": "Orin Combo",
+  "batch": 452,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Orin_Combo",
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+  ],
+  "findings": [
+    [
+      "100-Ki Strike Super from Krillin training",
+      "Three rising spinning kicks followed by Sledgehammer",
+      "Source-reported 15% total damage"
+    ]
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
