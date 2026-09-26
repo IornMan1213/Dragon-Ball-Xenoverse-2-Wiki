@@ -320,7 +320,8 @@
     "skill_pq_crosslink_validator": "scripts/validate_skill_pq_crosslinks.py",
     "pq_unrepresented_skill_endpoint_evidence_reconciliation": "docs/data/pq-unrepresented-skill-endpoint-evidence-reconciliation-2026-09-26.json",
     "skill_acquisition_metadata_integrity_audit": "docs/data/skill-acquisition-metadata-integrity-audit-2026-09-26.json",
-    "skill_acquisition_metadata_validator": "scripts/validate_skill_acquisition_metadata.py"
+    "skill_acquisition_metadata_validator": "scripts/validate_skill_acquisition_metadata.py",
+    "partner_custom_skill_domain_boundary": "docs/data/partner-custom-skill-domain-boundary-audit-2026-09-26.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
