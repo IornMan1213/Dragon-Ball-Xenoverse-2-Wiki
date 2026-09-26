@@ -1,0 +1,10 @@
+{
+  "batch": 490,
+  "date": "2026-09-26",
+  "skill_id": "skill-crimson-edge",
+  "skill_name": "Crimson Edge",
+  "status": "complete",
+  "findings": "100-Ki Strike Super from PQ171; pink Ki scythe rush, with an alternate spinning-input mode that deflects normal/certain Ki Blast attacks and can hit-stun before the rush slash.",
+  "evidence_boundary": "Current-source behavior and source-reported numerical values are bounded. Unsupported exact frames, universal scaling, hidden interactions, and drop probabilities are not asserted.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}
