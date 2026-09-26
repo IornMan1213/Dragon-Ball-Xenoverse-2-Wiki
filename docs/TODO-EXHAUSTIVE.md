@@ -1517,3 +1517,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [ ] Repository efficiency addendum remains unavailable at the expected path; GitHub returns 404.
 - [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 453 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
+
+
+### 2026-09-26 TODO progress update — Skill Research Batch 454 completed
+- [x] Researched **Evil Flight Strike, Meteor Blow, Secret Poison, Blaster Stream, Dead End Rain, Divine Ray Bomb, Ultimate Charge, and Punisher Guard**.
+- [x] Enriched/synchronized canonical and index datasets; parity remains **474/474**, 0 missing / 0 extra.
+- [x] Added Batch 454 research/thin-frontier artifacts, eight current-evidence audits, and provenance registrations.
+- [x] Preserved evidence boundaries; unsupported exact frames, scaling, probabilities, and hidden conditions remain unresolved unless directly evidenced.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 454 and all prior current-evidence-audited records.
