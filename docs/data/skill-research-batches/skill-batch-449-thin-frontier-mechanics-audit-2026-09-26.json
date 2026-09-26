@@ -1,0 +1,22 @@
+{
+  "batch": 449,
+  "date": "2026-09-26",
+  "type": "thin_frontier_mechanics_audit",
+  "selected": [
+    "Purification",
+    "Brave Sword Slash",
+    "Unrelenting Barrage",
+    "Burning Slash",
+    "Turn Golden",
+    "Gigantic Explosion",
+    "Burst Blitz",
+    "Power Pole Pro"
+  ],
+  "method": "Fresh mechanics_notes-plus-notes frontier census over the live 474-record canonical skill set, excluding every skill with a registered current-evidence audit. The eight shortest remaining records were selected and rechecked against current skill-specific references.",
+  "evidence_boundaries": [
+    "Exact frame data is not promoted.",
+    "Patch-independent damage/scaling is not inferred from historical or community reports.",
+    "Source-reported values are preserved as bounded evidence rather than universal constants.",
+    "Acquisition endpoints are kept separate from reward probabilities or hidden gates."
+  ]
+}
