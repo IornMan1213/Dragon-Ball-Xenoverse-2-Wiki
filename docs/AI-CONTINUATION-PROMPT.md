@@ -2306,3 +2306,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated `docs/data/partner-skill-relationship-validator-audit-2026-09-26.json` with the evidence-path result and kept it registered in the cross-domain index.
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [x] **Exact next:** continue the live-consumer audit from the remaining critical cross-domain references, prioritizing an actually present DLC/PQ navigation consumer or safely regenerable reverse-navigation artifact. Do not recreate historical/index-only records without sufficient source data.
+
+
+### 2026-09-26 continuation — Live-tree character consumer reconciliation
+- [x] Inspected the active character presentation validator and live repository tree rather than treating historical audit consumer lists as current source files.
+- [x] Confirmed `scripts/validate_character_explorer.py` is deleted from the live tree and `scripts/validate_character_presentation_consumers.py` is the live presentation validator.
+- [x] Reconciled `docs/data/characters/character-presentation-consumer-audit.json`: removed the stale deleted validator from its active consumer list and retained the live validator; documented that generated HTML explorer files are build outputs, not source-tree invariants.
+- [x] Updated the cross-domain reachability audit to preserve this distinction and set the next target to remaining stale critical registrations.
+- [ ] CI/build remains unverified; generated HTML presence therefore is not claimed as a successful build result.
+- [x] **Exact next:** audit remaining critical unreachable references for stale/deleted validator registrations that can be safely reconciled, before considering any reconstruction of missing canonical reverse-index/reward datasets.
