@@ -1707,3 +1707,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [ ] Efficiency addendum remains unavailable at expected path (GitHub 404).
 - [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 456 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
+
+
+### 2026-09-26 continuation — Skill Research Batch 457 completed
+- [x] Fresh live mechanics frontier after Batch 456 selected **Rough Ranger, X 100 Big Bang Kamehameha, Evil Blast, Final Charge, Explosive Wave, Force Edge, Ill Bomber, and Heavenly Arrow**.
+- [x] Added eight dedicated current-evidence audits plus Batch 457 research/thin-frontier artifacts.
+- [x] Synchronized all eight records in canonical `docs/data/skills.json` and projection `docs/data/skills-index.json`; canonical/index remain **474/474** with ordered ID parity preserved.
+- [x] Registered Batch 457 and all eight audit artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Evidence boundaries preserved: source-reported damage values remain source-bound; no unsupported frame data, patch-independent scaling, reward probabilities, hidden gates, or narrower race restrictions were promoted.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [x] **Exact next:** run a fresh live unaudited mechanics frontier census excluding Batch 457 and all prior current-evidence-audited records.
