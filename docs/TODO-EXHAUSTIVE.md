@@ -2091,3 +2091,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated the cross-domain reachability audit and persistent handoff with this distinction.
 - [ ] CI/build remains unverified.
 - [x] **Exact next:** inspect remaining critical unreachable references for stale/deleted validator registrations that can be safely reconciled without fabricating canonical PQ reward/reverse-index data.
+
+
+### 2026-09-26 TODO progress update — Critical unreachable-reference reconciliation
+- [x] Checked all 18 critical-unreachable cross-domain references against the live `main` tree.
+- [x] Classified the 18 absent paths: 13 dated/historical audit snapshots; 5 primary/reverse dataset classes requiring evidence-complete sources before regeneration.
+- [x] Added and registered `docs/data/critical-unreachable-reference-reconciliation-audit-2026-09-26.json`.
+- [x] Preserved historical/provenance references; no unsupported dataset reconstruction was performed.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** inspect the next live, safely testable cross-domain validator or consumer and make a concrete integrity improvement.
