@@ -2466,3 +2466,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical acquisition or skill data was changed.
 - [ ] Runtime validator execution and CI/build remain unverified in this environment.
 - [x] **Exact next:** continue auditing the next live validator/consumer for a concrete schema or deterministic-projection acceptance gap; preserve the evidence boundary around unsupported PQ reward data.
+
+### 2026-09-26 continuation — Partner relationship validator schema hardening
+- [x] Audited the next live validator, `scripts/validate_partner_skill_relationships.py`, and found it assumed the relationship source plus canonical skill/bridge containers were correctly shaped.
+- [x] Hardened the validator to reject malformed top-level relationship data, malformed `skills.records` / bridge `records` containers, non-object records, and non-string/empty canonical IDs or partner names.
+- [x] Preserved the existing canonical-ID, canonical-name, uniqueness, relationship-type, exact-count, and evidence-path checks.
+- [x] Updated `docs/data/partner-skill-relationship-validator-audit-2026-09-26.json` with the schema-hardening record; the known 3 relationship pairs remain clean.
+- [x] No canonical relationship assignments were added, removed, or inferred.
+- [ ] Runtime validator execution and CI/build remain unverified in this environment.
+- [x] **Exact next:** inspect the next live validator/consumer for another concrete schema, type/range, or deterministic-projection acceptance gap.
