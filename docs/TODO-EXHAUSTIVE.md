@@ -629,3 +629,11 @@
 - [x] Added and registered Batch 373 audit/research artifacts; target fields have exact parity.
 - [ ] CI remains unverified.
 - [x] **Next:** Fighting Pose A (86), Afterimage (90), Spirit Bomb (91), S.S. Deadly Bomber (96), Charged Ki Wave (98).
+
+
+### 2026-09-25 completion — Skill Batch 374
+- [x] Enriched **Afterimage, Spirit Bomb, S.S. Deadly Bomber, Charged Ki Wave** and synchronized canonical/index records.
+- [x] Added/registered Batch 374 audit and research artifacts.
+- [x] Validation: **469/469**, ordered ID parity, 0 empty mechanics_notes.
+- [ ] CI remains unverified.
+- [x] **Next:** Spirit Ball, Spirit Pulse, Chaos Wall, Sign of Awakening, Tail Slicer; Fighting Pose A is already recently enriched.
