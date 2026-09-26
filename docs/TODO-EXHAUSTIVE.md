@@ -1553,3 +1553,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved evidence boundaries; unsupported exact frames, scaling, probabilities, hidden conditions, and narrower CaC restrictions remain unresolved unless directly evidenced.
 - [ ] CI/build status remains unverified; no workflow success is claimed.
 - [x] **Exact next:** perform another fresh unaudited mechanics frontier census excluding Batch 457 and every prior registered current-evidence audit.
+
+### 2026-09-26 TODO progress update — Skill Research Batch 458 completed
+- [x] Researched **Super Black Kamehameha Rosé, Warp Kamehameha, Dead End Bullet, Super Saiyan God Super Saiyan, Super Electric Strike, Ki Explosion, Final Explosion, and Powered Shell**.
+- [x] Enriched/synchronized canonical and index datasets; parity remains **474/474**, 0 missing / 0 extra / 0 duplicate IDs.
+- [x] Added Batch 458 research/thin-frontier artifacts, eight current-evidence audits, and provenance registrations.
+- [x] Preserved evidence boundaries; unsupported exact frames, scaling, probabilities, and hidden conditions remain unresolved unless directly evidenced.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** fresh registered-audit mechanics frontier excluding Batch 458 and all prior current-evidence-audited records.
