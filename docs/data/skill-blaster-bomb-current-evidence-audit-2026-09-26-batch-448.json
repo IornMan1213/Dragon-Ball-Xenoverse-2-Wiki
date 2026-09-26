@@ -1,0 +1,21 @@
+{
+  "skill_id": "skill-blaster-bomb",
+  "name": "Blaster Bomb",
+  "batch": 448,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Blaster_Bomb"
+  ],
+  "findings": [
+    "100-Ki cost",
+    "PQ148 endpoint",
+    "straight-line projectile",
+    "splits on contact or after time",
+    "1–5-hit knockback classification",
+    "source-reported 10% damage"
+  ],
+  "evidence_boundaries": [
+    "No unsupported exact frame, scaling, probability, or hidden-condition claims inferred."
+  ]
+}
