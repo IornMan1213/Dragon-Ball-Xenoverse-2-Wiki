@@ -1,0 +1,11 @@
+{
+  "batch": 431,
+  "date": "2026-09-26",
+  "status": "complete",
+  "skill_id": "skill-justice-rush",
+  "skill_name": "Justice Rush",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Justice_Rush"
+  ],
+  "findings": "Current Xenoverse 2-specific evidence corroborates the recorded cost/classification and adds bounded mechanics detail. Exact frame data, hidden interactions, unsupported scaling, and unresolved probabilities are intentionally not inferred."
+}

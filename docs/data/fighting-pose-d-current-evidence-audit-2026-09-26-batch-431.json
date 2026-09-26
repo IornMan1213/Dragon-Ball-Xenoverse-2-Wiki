@@ -1,0 +1,11 @@
+{
+  "batch": 431,
+  "date": "2026-09-26",
+  "status": "complete",
+  "skill_id": "skill-fighting-pose-d",
+  "skill_name": "Fighting Pose D",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Fighting_Pose_D"
+  ],
+  "findings": "Current Xenoverse 2-specific evidence corroborates the recorded cost/classification and adds bounded mechanics detail. Exact frame data, hidden interactions, unsupported scaling, and unresolved probabilities are intentionally not inferred."
+}

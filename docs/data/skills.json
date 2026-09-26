@@ -2068,7 +2068,7 @@
       "unlock_method": "Parallel Quest 26 — \"The New Dragon Balls!\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 26 — \"The New Dragon Balls!\"",
       "skill_description": "Crazy Finger Shot is a Super Ki Blast skill associated with Frieza.",
-      "mechanics_notes": "100-Ki Ki Blast Super from PQ26. Holding the input extends the attack to as many as 14 finger-beam blasts, consuming up to 800 Ki total; current documentation reports 40% total damage for the full sequence.",
+      "mechanics_notes": "100-Ki Ki Blast Super from Parallel Quest 26. The user fires a thin finger beam and can keep the input held to extend the sequence to as many as 14 blasts; current dedicated documentation reports up to 800 Ki consumed across the full extended sequence and about 40% total damage. Exact per-blast damage, frame timing, and scaling remain unresolved. The repository retains its existing PQ26 reward labeling pending further acquisition-source reconciliation.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-26",
@@ -2083,7 +2083,7 @@
       "source_quest": 26,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ26 reward listings explicitly place Crazy Finger Shot in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: dedicated skill evidence confirms 100-Ki Ki Blast Super classification and PQ26 acquisition; maintained reward evidence retains the Basic Reward/no-UF-only interpretation. Existing extended-input mechanics remain documented. 2026-09-23 provenance refresh: current dedicated evidence and independent corroboration were rechecked for the canonical acquisition/classification endpoint; existing reward-tier, cost, scope, and mechanics semantics are preserved, and no unsupported drop probability or additional gate is inferred.\n2026-09-26 Batch 419 current-evidence enrichment: dedicated Xenoverse 2 skill documentation was rechecked for mechanics, cost, classification, and acquisition context. Source-reported damage/stat values are retained as current-scope evidence; exact frame data, hidden interactions, patch-independent scaling, and unresolved reward probabilities remain unasserted.",
+      "notes": "2026-09-20 audit: PQ26 reward listings explicitly place Crazy Finger Shot in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: dedicated skill evidence confirms 100-Ki Ki Blast Super classification and PQ26 acquisition; maintained reward evidence retains the Basic Reward/no-UF-only interpretation. Existing extended-input mechanics remain documented. 2026-09-23 provenance refresh: current dedicated evidence and independent corroboration were rechecked for the canonical acquisition/classification endpoint; existing reward-tier, cost, scope, and mechanics semantics are preserved, and no unsupported drop probability or additional gate is inferred.\n2026-09-26 Batch 419 current-evidence enrichment: dedicated Xenoverse 2 skill documentation was rechecked for mechanics, cost, classification, and acquisition context. Source-reported damage/stat values are retained as current-scope evidence; exact frame data, hidden interactions, patch-independent scaling, and unresolved reward probabilities remain unasserted.\n2026-09-26 Batch 431 mechanics enrichment: current dedicated Xenoverse 2 evidence was rechecked for sequence, effect, cost, and acquisition context. Unsupported exact frames, hidden interactions, probabilities, and patch-independent scaling remain unresolved.",
       "id": "skill-crazy-finger-shot",
       "source_parallel_quests": [
         26
@@ -7754,13 +7754,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Majin Buu mentor training",
-      "mechanics_notes": "100-Ki Ki Blast Super; the user launches paired swirling Ki Blasts that combine on impact, dealing knockback and applying poison. Current Xenoverse 2 evidence describes the poison as persisting until the opponent dies or uses an antidote.",
-      "last_verified": "2026-09-25",
+      "mechanics_notes": "100-Ki Ki Blast Super from Majin Buu mentor training. The user performs a brief dance, launches a pair of spiraling Ki Blasts that combine on impact, and applies poison while knocking the opponent back. Current skill-specific documentation reports about 20% damage and poison persisting until the opponent dies or uses an antidote. Exact poison damage/tick rate, frame timing, and scaling remain unresolved.",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": "Majin Buu mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC/roster provenance, and documented mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 371 mechanics enrichment: promoted current skill-specific/repository evidence; unresolved frame, timing, probability, hidden-gate, and unsupported numeric fields remain bounded.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC/roster provenance, and documented mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 371 mechanics enrichment: promoted current skill-specific/repository evidence; unresolved frame, timing, probability, hidden-gate, and unsupported numeric fields remain bounded.\n2026-09-26 Batch 431 mechanics enrichment: current dedicated Xenoverse 2 evidence was rechecked for sequence, effect, cost, and acquisition context. Unsupported exact frames, hidden interactions, probabilities, and patch-independent scaling remain unresolved.",
       "id": "skill-innocence-bullet",
       "source_mentor": [
         "mentor-majin-buu"
@@ -8117,13 +8117,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Gohan (Adult) and Videl mentor training",
-      "mechanics_notes": "100-Ki Strike Super. Opens with a brief stance, then delivers a 10-hit rush: nine strikes followed by a final knockback kick. Current skill-specific evidence reports 15% damage and notes that an Ultimate can be input before the last kick.",
-      "last_verified": "2026-09-25",
+      "mechanics_notes": "100-Ki Strike Super from Gohan (Adult) & Videl mentor training. The user briefly poses, then performs a 10-hit rush consisting of nine strikes followed by a final knockback kick; current dedicated documentation reports about 15% total damage. An Ultimate can be input before the final kick to cancel/branch from the sequence. Exact frame window, damage distribution, and scaling remain unresolved.",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": "Gohan (Adult) and Videl mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-22 provenance refresh: Gohan (Adult) and Videl mentor training remains the deterministic Basic Reward endpoint; 100 Ki and All CaC race scope remain supported. Detailed combat mechanics remain deferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 mechanics enrichment: current skill-specific evidence promoted the documented combat behavior; unsupported frame data, hidden gates, probabilities, and unverified numeric values remain unresolved.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-22 provenance refresh: Gohan (Adult) and Videl mentor training remains the deterministic Basic Reward endpoint; 100 Ki and All CaC race scope remain supported. Detailed combat mechanics remain deferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 mechanics enrichment: current skill-specific evidence promoted the documented combat behavior; unsupported frame data, hidden gates, probabilities, and unverified numeric values remain unresolved.\n2026-09-26 Batch 431 mechanics enrichment: current dedicated Xenoverse 2 evidence was rechecked for sequence, effect, cost, and acquisition context. Unsupported exact frames, hidden interactions, probabilities, and patch-independent scaling remain unresolved.",
       "id": "skill-justice-rush",
       "source_mentor": [
         "mentor-gohan-videl"
@@ -14199,7 +14199,7 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 15 — \"Gotta Find That Dragon Ball!\"",
-      "mechanics_notes": "0-Ki Power Up Super from PQ15. The pose temporarily increases Boost Dash speed for 20 seconds. Current dedicated documentation confirms the effect and duration; the exact speed multiplier and frame timing remain unresolved.",
+      "mechanics_notes": "0-Ki Power Up Super from Parallel Quest 15. The user performs Burter's pose and temporarily increases Boost Dash speed for 20 seconds. A legacy community guide reports a +20% Dash-speed figure, but the current dedicated skill reference confirms only the effect and duration; the exact current multiplier and frame timing remain unresolved.",
       "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": 15,
@@ -14209,7 +14209,7 @@
       "duration_seconds": 20,
       "ki_cost": 0,
       "id": "skill-fighting-pose-d",
-      "notes": "2026-09-25 Batch 396 mechanics enrichment: current skill-specific evidence confirmed the 0-Ki Power Up classification, PQ15 acquisition endpoint, and 20-second Boost Dash-speed effect; unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.\n2026-09-26 Batch 420 current-evidence enrichment: dedicated Xenoverse 2 documentation was rechecked for mechanics, resource cost, classification, and acquisition context. Source-reported damage and timing values are retained as current-scope evidence; exact frame data, hidden interactions, and unsupported probabilities remain unresolved.",
+      "notes": "2026-09-25 Batch 396 mechanics enrichment: current skill-specific evidence confirmed the 0-Ki Power Up classification, PQ15 acquisition endpoint, and 20-second Boost Dash-speed effect; unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.\n2026-09-26 Batch 420 current-evidence enrichment: dedicated Xenoverse 2 documentation was rechecked for mechanics, resource cost, classification, and acquisition context. Source-reported damage and timing values are retained as current-scope evidence; exact frame data, hidden interactions, and unsupported probabilities remain unresolved.\n2026-09-26 Batch 431 mechanics enrichment: current dedicated Xenoverse 2 evidence was rechecked for sequence, effect, cost, and acquisition context. Unsupported exact frames, hidden interactions, probabilities, and patch-independent scaling remain unresolved.",
       "source_parallel_quests": [
         15
       ]
@@ -14301,6 +14301,11 @@
     "skill_light-grenade_current_evidence_audit_2026_09_26_batch_430": "docs/data/light-grenade-current-evidence-audit-2026-09-26-batch-430.json",
     "skill_sneaky-strike_current_evidence_audit_2026_09_26_batch_430": "docs/data/sneaky-strike-current-evidence-audit-2026-09-26-batch-430.json",
     "skill_sonic-rush_current_evidence_audit_2026_09_26_batch_430": "docs/data/sonic-rush-current-evidence-audit-2026-09-26-batch-430.json",
-    "skill_eagle-kick_current_evidence_audit_2026_09_26_batch_430": "docs/data/eagle-kick-current-evidence-audit-2026-09-26-batch-430.json"
+    "skill_eagle-kick_current_evidence_audit_2026_09_26_batch_430": "docs/data/eagle-kick-current-evidence-audit-2026-09-26-batch-430.json",
+    "skill_research_batch_431": "docs/data/skill-research-batches/skill-batch-431.json",
+    "skill_crazy-finger-shot_current_evidence_audit_2026_09_26_batch_431": "docs/data/crazy-finger-shot-current-evidence-audit-2026-09-26-batch-431.json",
+    "skill_fighting-pose-d_current_evidence_audit_2026_09_26_batch_431": "docs/data/fighting-pose-d-current-evidence-audit-2026-09-26-batch-431.json",
+    "skill_innocence-bullet_current_evidence_audit_2026_09_26_batch_431": "docs/data/innocence-bullet-current-evidence-audit-2026-09-26-batch-431.json",
+    "skill_justice-rush_current_evidence_audit_2026_09_26_batch_431": "docs/data/justice-rush-current-evidence-audit-2026-09-26-batch-431.json"
   }
 }

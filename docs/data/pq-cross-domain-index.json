@@ -1251,5 +1251,11 @@
   "skill_light-grenade_current_evidence_audit_2026_09_26_batch_430": "docs/data/light-grenade-current-evidence-audit-2026-09-26-batch-430.json",
   "skill_sneaky-strike_current_evidence_audit_2026_09_26_batch_430": "docs/data/sneaky-strike-current-evidence-audit-2026-09-26-batch-430.json",
   "skill_sonic-rush_current_evidence_audit_2026_09_26_batch_430": "docs/data/sonic-rush-current-evidence-audit-2026-09-26-batch-430.json",
-  "skill_eagle-kick_current_evidence_audit_2026_09_26_batch_430": "docs/data/eagle-kick-current-evidence-audit-2026-09-26-batch-430.json"
+  "skill_eagle-kick_current_evidence_audit_2026_09_26_batch_430": "docs/data/eagle-kick-current-evidence-audit-2026-09-26-batch-430.json",
+  "skill_research_batch_431": "docs/data/skill-research-batches/skill-batch-431.json",
+  "skill_batch_431_thin_frontier": "docs/data/skill-research-batches/skill-batch-431-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_crazy-finger-shot_current_evidence_audit_2026_09_26_batch_431": "docs/data/crazy-finger-shot-current-evidence-audit-2026-09-26-batch-431.json",
+  "skill_fighting-pose-d_current_evidence_audit_2026_09_26_batch_431": "docs/data/fighting-pose-d-current-evidence-audit-2026-09-26-batch-431.json",
+  "skill_innocence-bullet_current_evidence_audit_2026_09_26_batch_431": "docs/data/innocence-bullet-current-evidence-audit-2026-09-26-batch-431.json",
+  "skill_justice-rush_current_evidence_audit_2026_09_26_batch_431": "docs/data/justice-rush-current-evidence-audit-2026-09-26-batch-431.json"
 }
