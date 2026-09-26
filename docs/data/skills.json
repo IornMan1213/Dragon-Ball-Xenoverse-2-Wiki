@@ -3888,10 +3888,10 @@
       "source_quest_or_shop": "Parallel Quest 95 — \"Super 17, the Ultimate Android\"",
       "ultimate_finish_required": false,
       "skill_description": "Drain Field absorbs incoming Ki-based attacks and converts the energy for the user.",
-      "mechanics_notes": "100-Ki Other Super from PQ95. It absorbs incoming Ki-based attacks and converts the energy for the user. Acquisition reports conflict on Ultimate Finish association, so the canonical UF flag remains false and exact drop slot/percentage remains unresolved.",
+      "mechanics_notes": "100-Ki Other Super from PQ95. The user creates an absorption field that catches incoming Ki-based attacks and converts the absorbed energy into Ki/Stamina/Health effects according to the attack interaction; current evidence confirms PQ95 as the Xenoverse 2 acquisition endpoint, while reward-slot/Ultimate-Finish semantics remain disputed in community documentation and are not normalized here.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://dragonball.fandom.com/wiki/Absorption_Barrier",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76173007",
@@ -3899,7 +3899,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during cross-database orphan-skill audit. Preserve the acquisition-route conflict rather than collapsing it into a false drop-slot claim. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, classification, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing conflicts and unresolved fields are preserved; no unsupported drop probability, Ultimate Finish gate, prerequisite, timer, frame data, damage value, stacking cap, or narrower restriction is inferred.",
+      "notes": "Added during cross-database orphan-skill audit. Preserve the acquisition-route conflict rather than collapsing it into a false drop-slot claim. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, classification, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing conflicts and unresolved fields are preserved; no unsupported drop probability, Ultimate Finish gate, prerequisite, timer, frame data, damage value, stacking cap, or narrower restriction is inferred.\n2026-09-26 Batch 465 mechanics enrichment: current/recent evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
       "id": "skill-drain-field",
       "source_quest": 95,
       "source_parallel_quests": [
@@ -5139,10 +5139,10 @@
       "source_quest_or_shop": "Parallel Quest 19 — \"Fierce Battle! Ginyu Force\"",
       "ultimate_finish_required": false,
       "skill_description": "Fighting Pose E is a Super Power Up skill associated with Captain Ginyu.",
-      "mechanics_notes": "0-Ki Power Up Super from PQ19. The pose temporarily increases Basic Attack for 20 seconds; current skill-specific documentation confirms the duration and all-CaC usability. Exact attack multiplier, activation frames, and stacking interactions remain unresolved.",
+      "mechanics_notes": "0-Ki Power Up Super from PQ19. The user performs a pose that temporarily increases Basic Attack for 20 seconds. Current evidence confirms the duration and all-CaC usability; the exact attack multiplier, activation frames, and stacking interactions remain unresolved.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Fighting_Pose_E",
@@ -5152,7 +5152,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 19,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super from PQ19 Basic Reward. It temporarily increases Basic Attack for 20 seconds; no Ultimate-Finish-only condition is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-25 Batch 415 mechanics enrichment: current skill-specific evidence was reconciled into the canonical record; unsupported frame data, hidden conditions, exact scaling, and patch-independent damage remain unresolved.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super from PQ19 Basic Reward. It temporarily increases Basic Attack for 20 seconds; no Ultimate-Finish-only condition is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-25 Batch 415 mechanics enrichment: current skill-specific evidence was reconciled into the canonical record; unsupported frame data, hidden conditions, exact scaling, and patch-independent damage remain unresolved.\n2026-09-26 Batch 465 mechanics enrichment: current/recent evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
       "id": "skill-fighting-pose-e",
       "source_parallel_quests": [
         19
@@ -5523,14 +5523,14 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Vegeta mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred. Current evidence documents a 19-projectile Ki-blast barrage; all projectiles together are listed at approximately 25% damage.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "Ki Blast barrage Ultimate with a mentor/skill acquisition endpoint corroborated by current repository evidence. The attack releases 19 projectiles; current reference material reports approximately 25% total damage when the barrage connects. Exact projectile timing, scaling, and frame data remain unresolved.",
+      "last_verified": "2026-09-26",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Vegeta mentor training — lesson-1.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 100-Ki Ki Blast Super from Vegeta training. It rapidly fires a 19-projectile Ki Blast barrage and can be used while jumping; the mentor Lesson 1 endpoint remains the acquisition source.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 100-Ki Ki Blast Super from Vegeta training. It rapidly fires a 19-projectile Ki Blast barrage and can be used while jumping; the mentor Lesson 1 endpoint remains the acquisition source.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 465 mechanics enrichment: current/recent evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
       "id": "skill-finish-breaker",
       "source_mentor": [
         "mentor-vegeta"
@@ -8590,10 +8590,10 @@
       "source_quest_or_shop": "Parallel Quest 19 — \"Fierce Battle! Ginyu Force\"",
       "ultimate_finish_required": false,
       "skill_description": "Mach Punch is a Super Strike skill associated with Burter.",
-      "mechanics_notes": "100-Ki Strike Super from PQ19 — Fierce Battle! Ginyu Force. Fast close-range sequence of six punches followed by a finishing kick that knocks the opponent away; the sequence can be cancelled into an Ultimate on hit. PQ19 Basic Reward placement is retained.",
+      "mechanics_notes": "100-Ki Strike Super from PQ19. The user briefly pulls back, then releases a six-punch barrage followed by a finishing kick for approximately 10% total source-reported damage. The attack is short-range and can be cancelled into an Ultimate on hit.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Mach_Punch",
@@ -8602,7 +8602,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 19,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: Steam's live all-PQ guide explicitly lists Mach Punch in PQ19's Basic Reward pool. This replaces the prior generic PQ attribution with a concrete tier.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, restriction, DLC/update provenance, and reward-tier semantics against the maintained evidence corpus; no unsupported probabilities, gates, or numerical mechanics were added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
+      "notes": "2026-09-20 audit: Steam's live all-PQ guide explicitly lists Mach Punch in PQ19's Basic Reward pool. This replaces the prior generic PQ attribution with a concrete tier.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, restriction, DLC/update provenance, and reward-tier semantics against the maintained evidence corpus; no unsupported probabilities, gates, or numerical mechanics were added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.\n2026-09-26 Batch 465 mechanics enrichment: current/recent evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
       "id": "skill-mach-punch",
       "source_parallel_quests": [
         19
@@ -8797,11 +8797,12 @@
         "https://dbxv2.fandom.com/wiki/Focus_Flash",
         "https://dbxv2.fandom.com/wiki/Wild_Hunt",
         "https://dbxv2.fandom.com/wiki/Tail_Slicer",
-        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421"
+        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421",
+        "https://dragonball.fandom.com/wiki/Menacing_Flare"
       ],
       "ki_cost": 100,
       "description": "Menacing Flare is a Super Skill available to CaCs.",
-      "mechanics_notes": "100-Ki Ki Blast Super from the Skill Shop. The user fires a quick Ki wave; if it hits, the attack ends. If it misses, the user teleports behind the opponent and performs a flying kick, with dedicated evidence reporting about 10% damage for either outcome.",
+      "mechanics_notes": "100-Ki Ki Blast Super from the Skill Shop. The user quickly fires a Ki wave; if it hits, the attack ends, while a miss causes the user to teleport behind the opponent and perform a kick. Current dedicated evidence reports approximately 10% damage for either outcome.",
       "usable_by_cac": true,
       "ultimate_finish_required": false,
       "unlock_method": "TP Medal Shop",
@@ -8811,7 +8812,7 @@
       "dlc_requirement": "Free Update 2",
       "last_verified": "2026-09-26",
       "research_status": "enriched",
-      "notes": "2026-09-26 Batch 446 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the 100-Ki Skill Shop endpoint, beam/teleport/pseudo-Strike behavior, and approximately 10% damage on both hit and miss-follow-up paths. Exact frame timing remains unresolved.",
+      "notes": "2026-09-26 Batch 446 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the 100-Ki Skill Shop endpoint, beam/teleport/pseudo-Strike behavior, and approximately 10% damage on both hit and miss-follow-up paths. Exact frame timing remains unresolved.\n2026-09-26 Batch 465 mechanics enrichment: current/recent evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
       "id": "skill-menacing-flare"
     },
     {
@@ -9698,18 +9699,19 @@
       "source_quest": 150,
       "ultimate_finish_required": false,
       "skill_description": "Generate a large advancing wall of flame; directional input controls its distance.",
-      "mechanics_notes": "500-Ki Ki Blast Ultimate from PQ150 — Battle of the Mind. Generates a large advancing wall of flame; directional input controls how far the wall travels. Current evidence establishes PQ150 and the 500-Ki classification without asserting an exact drop rate.",
+      "mechanics_notes": "500-Ki Ki Blast Ultimate from PQ150 — Battle of the Mind. The user generates a large advancing wall of flame; directional input changes how far the wall travels. Current evidence confirms the PQ150 endpoint and 500-Ki cost; exact damage, frame timing, and drop probability remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Power_Wall",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
+        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc",
+        "https://dbxv2.fandom.com/wiki/Parallel_Quest"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context.\n2026-09-21 provenance strengthening: official Bandai Namco DLC documentation confirms Legendary Pack 2 contains four Parallel Quests and ten additional moves; exact PQ149/PQ150 reward relationships remain supported by the maintained PQ research layer and dedicated skill sources.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context.\n2026-09-21 provenance strengthening: official Bandai Namco DLC documentation confirms Legendary Pack 2 contains four Parallel Quests and ten additional moves; exact PQ149/PQ150 reward relationships remain supported by the maintained PQ research layer and dedicated skill sources.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.\n2026-09-26 Batch 465 mechanics enrichment: current/recent evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
       "source_parallel_quests": [
         150
       ]
@@ -10158,7 +10160,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dragonball.fandom.com/wiki/Sleep",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://ultradragonball.fandom.com/wiki/Sleep"
       ],
       "ki_cost": 300,
       "unlock_method": "Skill Shop (Conton City), after defeating Mira (Final Form) in the main story",
@@ -10169,9 +10172,9 @@
       "source_quest_or_shop": "Skill Shop after defeating Mira (Final Form) in the main story",
       "last_verified": "2026-09-26",
       "research_status": "enriched",
-      "mechanics_notes": "300-Ki Other Super restricted to Majin CaCs. Sleep recovers Health; with Purification it also restores Ki and Stamina. The user is vulnerable and cannot move or use an Evasive while sleeping; releasing input ends the sleep after a short wake-up animation.",
+      "mechanics_notes": "300-Ki Other Super restricted to Majin CaCs. The user falls asleep to recover Health; the user is vulnerable and cannot move or use an Evasive while sleeping, and releasing input ends the sleep after the wake-up sequence. In Purification, the skill also restores Ki and Stamina. Exact recovery rate and timing remain unresolved.",
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-26 Batch 445 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the current cost, acquisition, classification, and bounded mechanics; exact frames/recovery/scaling remain unresolved.",
+      "notes": "2026-09-26 Batch 445 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the current cost, acquisition, classification, and bounded mechanics; exact frames/recovery/scaling remain unresolved.\n2026-09-26 Batch 465 mechanics enrichment: current/recent evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
       "id": "skill-quick-sleep"
     },
     {
@@ -11805,10 +11808,10 @@
       "source_quest_or_shop": "Parallel Quest 151 — \"Even Further Beyond\"",
       "ultimate_finish_required": true,
       "skill_description": "Spirit Pulse is a Super Ki Blast skill used by Goku (Ultra Instinct -Sign-).",
-      "mechanics_notes": "100-Ki Ki Blast Super. The user cocks the right fist back and thrusts forward, releasing a fast single spirit-energy hit. Current reference material reports about 10% base damage; the exact value is treated as source-reported rather than patch-independent.",
+      "mechanics_notes": "100-Ki Ki Blast Super. The user draws the right fist back and thrusts forward, releasing a fast single spirit-energy projectile/hit. Current reference material reports approximately 10% base damage; that value is retained as source-reported rather than patch-independent.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Spirit_Pulse",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -11817,7 +11820,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 151,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: PQ151 is confirmed as the acquisition endpoint; current evidence confirms 100-Ki Ki Blast Super classification and the slower single-shot spirit-energy attack; the maintained Ultimate Finish bonus-roll condition is preserved. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced. 2026-09-25 Batch 376 mechanics enrichment: current skill-specific evidence added; source-reported numeric mechanics and the Tail Slicer source conflict are preserved as bounded evidence.",
+      "notes": "2026-09-22 provenance refresh: PQ151 is confirmed as the acquisition endpoint; current evidence confirms 100-Ki Ki Blast Super classification and the slower single-shot spirit-energy attack; the maintained Ultimate Finish bonus-roll condition is preserved. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced. 2026-09-25 Batch 376 mechanics enrichment: current skill-specific evidence added; source-reported numeric mechanics and the Tail Slicer source conflict are preserved as bounded evidence.\n2026-09-26 Batch 465 mechanics enrichment: current/recent evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
       "id": "skill-spirit-pulse",
       "source_parallel_quests": [
         151
