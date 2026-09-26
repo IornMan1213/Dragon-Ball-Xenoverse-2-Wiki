@@ -1,3 +1,10 @@
+### 2026-09-26 continuation — Partner skill relationship validator identity hardening
+- [x] Hardened `scripts/validate_partner_skill_relationships.py` to validate both canonical skill IDs and canonical `partner_name` identities through `docs/data/characters/character-id-identity-bridge.json`.
+- [x] Retained duplicate-pair, relationship-type, required-evidence, and evidence-file existence checks; no relationship data was fabricated or expanded.
+- [x] Updated `docs/data/partner-skill-relationship-validator-audit-2026-09-26.json` to document the expanded validation scope and identity bridge dependency.
+- [x] Static reconciliation of the three existing relationships remains clean: all three partner names resolve through the canonical character bridge and all six evidence paths are present.
+- [ ] Exact next: continue the highest-priority deterministic cross-domain audit, prioritizing the remaining critical unreachable PQ reward/reverse datasets and only generating projections when a complete canonical source and deterministic generator are available.
+
 ### 2026-09-26 continuation — Partner/custom skill relationship census completed
 - [x] Performed a repository-wide evidence census using Partner Customization + skill identifiers, partner identifiers, and the canonical `custom_partner_availability` relationship marker.
 - [x] Confirmed the relationship layer remains at **3 explicit canonical assignments**: Arm Crash → Bardock, Arm Crash → Turles, and Reverse Mabakusenko → Majin Buu (Gohan Absorbed).
