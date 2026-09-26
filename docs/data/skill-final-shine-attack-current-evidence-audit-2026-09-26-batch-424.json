@@ -1,0 +1,24 @@
+{
+  "batch": 424,
+  "date": "2026-09-26",
+  "skill_id": "skill-final-shine-attack",
+  "skill_name": "Final Shine Attack",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Final_Shine_Attack",
+    "https://dragonball.fandom.com/wiki/Final_Shine_Attack",
+    "https://www.youtube.com/watch?v=1LqNBYUUEXk"
+  ],
+  "scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Batch 424.",
+  "findings": "Ki Blast Ultimate obtained from the TP Medal Shop. Current dedicated Xenoverse 2 documentation describes a right-hand beam that can be repeatedly commanded to consume additional Ki and extend the attack; the documented output ranges from 9 hits/30% damage at base to 45 hits/90% damage at maximum output. The attack is long-range and causes knockback.",
+  "canonical_changes": {
+    "mechanics_notes_updated": false,
+    "last_verified": "2026-09-26",
+    "research_status": "evidence_ready_pending_canonical_sync",
+    "verification_status": "evidence_reviewed"
+  },
+  "unresolved": [
+    "The documented '300+' Ki presentation is retained without inventing a precise upper cost.",
+    "Exact charge/input timing and per-stage Ki increments are unresolved.",
+    "Damage values are treated as current source-reported values, not timeless patch-independent balance."
+  ]
+}
