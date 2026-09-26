@@ -1,0 +1,23 @@
+{
+  "audit_id": "skill-heroic-counter_current_evidence_audit_2026_09_26_batch_472",
+  "batch": 472,
+  "date": "2026-09-26",
+  "skill_id": "skill-heroic-counter",
+  "skill_name": "Heroic Counter",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Heroic_Counter",
+    "https://dragonball.fandom.com/wiki/Heroic_Counter"
+  ],
+  "mechanics_summary": "100-Ki Strike Super from PQ155. A barrier pose counters an attack with a vanish-behind spinning kick; additional input can trigger the warp attack without requiring a successful block. Current source material reports approximately 10% damage and a tracking/movement buff.",
+  "evidence_limits": [
+    "Exact frame data and patch-independent scaling are unresolved unless directly established.",
+    "Source-reported damage values are not asserted as universal balance constants.",
+    "Reward/drop probability and hidden interaction details remain unresolved where the cited sources do not establish them."
+  ],
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26"
+  }
+}
