@@ -1,0 +1,17 @@
+{
+  "batch": 465,
+  "date": "2026-09-26",
+  "skill_name": "Finish Breaker",
+  "skill_id": "skill-finish-breaker",
+  "status": "completed",
+  "findings": [
+    "Ki Blast barrage Ultimate with a mentor/skill acquisition endpoint corroborated by current repository evidence. The attack releases 19 projectiles; current reference material reports approximately 25% total damage when the barrage connects. Exact projectile timing, scaling, and frame data remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Finish_Breaker"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}
