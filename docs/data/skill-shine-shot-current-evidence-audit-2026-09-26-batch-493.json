@@ -1,0 +1,12 @@
+{
+  "batch": 493,
+  "date": "2026-09-26",
+  "skill_id": "skill-shine-shot",
+  "skill_name": "Shine Shot",
+  "status": "complete",
+  "findings": "100-Ki Ki Blast Super from PQ7 Basic Reward. Current skill-specific evidence describes lateral movement during the projectile and immediate Boost Dash/Step follow-up; about 5% damage is source-reported.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Shine_Shot"
+  ],
+  "evidence_boundary": "Current Xenoverse 2-specific mechanics and explicit acquisition evidence are bounded to cited source context. Unsupported exact frames, hidden interactions, probabilities, and patch-independent scaling are not inferred."
+}
