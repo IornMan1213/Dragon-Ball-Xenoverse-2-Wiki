@@ -1,3 +1,11 @@
+### 2026-09-26 TODO progress update — Skill Research Batch 482 completed
+- [x] Researched and synchronized **Death Ball, Galick Gun, Sphere of Destruction, Breaker Energy Wave, Hyper Drain, Handy Canon, Fierce Fist, Venus Fist**.
+- [x] Canonical/index parity remains **474/474**.
+- [x] Historical damage tests are labeled source-bound; unresolved mechanics were not guessed.
+- [x] Batch 482 research checkpoint and canonical synchronization completed.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 482 and all prior current-evidence-audited records.
+
 ### 2026-09-26 TODO progress update — Skill Research Batch 481 completed
 - [x] Researched and synchronized **Dark Inscription, Reverse Mabakusenko, Body Change, Hero's Flute, Indomitable, Crusher Ball, Rakshasa's Claw**.
 - [x] Added Batch 481 research/current-evidence artifact and cross-domain registration.
