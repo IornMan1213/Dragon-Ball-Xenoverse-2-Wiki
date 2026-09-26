@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 395,
+  "created": "2026-09-25",
+  "type": "mechanics-deepening",
+  "records": [
+    {
+      "name": "Eagle Kick",
+      "id": "skill-eagle-kick"
+    },
+    {
+      "name": "Sonic Rush",
+      "id": "skill-sonic-rush"
+    },
+    {
+      "name": "Saiyan Blaster",
+      "id": "skill-saiyan-blaster"
+    },
+    {
+      "name": "Shooting Strike",
+      "id": "skill-shooting-strike"
+    },
+    {
+      "name": "Soaring Rush",
+      "id": "skill-soaring-rush"
+    }
+  ],
+  "evidence_boundary": "Deepened documented mechanics for five thin records; no unsupported acquisition or balance semantics were introduced."
+}

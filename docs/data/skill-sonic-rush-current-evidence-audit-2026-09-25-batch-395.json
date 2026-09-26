@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-sonic-rush-current-evidence-audit-2026-09-25-batch-395",
+  "audit_date": "2026-09-25",
+  "target": "Sonic Rush",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "mechanics_notes": "100-Ki Strike Super from Future Gohan's mentor training. The move is a short-range six-hit rush ending in a hard knockdown; current dedicated skill evidence records 15% total damage and describes rapid tracking/chasing after a knockback.",
+    "source_quest_or_shop": "Future Gohan mentor training"
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Sonic_Rush",
+    "https://dbxv2.fandom.com/wiki/Mentors",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+  ],
+  "evidence_boundary": "Current Xenoverse 2-specific evidence was used only for explicitly documented mechanics. Exact frame data, hidden prerequisites, reward probabilities, and unsupported balance claims are not inferred."
+}

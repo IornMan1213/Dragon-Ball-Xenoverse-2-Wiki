@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-eagle-kick-current-evidence-audit-2026-09-25-batch-395",
+  "audit_date": "2026-09-25",
+  "target": "Eagle Kick",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "mechanics_notes": "100-Ki Strike Super from Videl's mentor training. The user raises the right knee into a single rising strike; it can also be activated during a jump and deals 10% damage in current dedicated skill evidence.",
+    "source_quest_or_shop": "Gohan (Adult) and Videl mentor training"
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Mentors",
+    "https://dbxenoverse.fandom.com/wiki/Mentors",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+    "https://dbxv2.fandom.com/wiki/Eagle_Kick"
+  ],
+  "evidence_boundary": "Current Xenoverse 2-specific evidence was used only for explicitly documented mechanics. Exact frame data, hidden prerequisites, reward probabilities, and unsupported balance claims are not inferred."
+}
