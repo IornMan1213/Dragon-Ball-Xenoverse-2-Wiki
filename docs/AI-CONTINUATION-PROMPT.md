@@ -1,3 +1,10 @@
+### 2026-09-26 continuation — Cross-domain reachability baseline refreshed
+- [x] Performed a direct live `main` tree reconciliation using the repository Git tree and recursively extracted registered cross-domain artifact references from `docs/data/pq-cross-domain-index.json`.
+- [x] Found the prior reachability baseline was stale after subsequent repository changes: current direct counts are **727 blob paths / 1,634 reference occurrences / 742 reachable / 892 unreachable**.
+- [x] Refreshed `docs/data/cross-domain-index-reference-reachability-audit-2026-09-26.json` to the current live counts while preserving the 18 critical unreachable references and their provenance classifications.
+- [x] No canonical PQ reward/reverse dataset was reconstructed from incomplete evidence.
+- [ ] Runtime execution/CI remains unverified.
+- [x] Exact next: inspect the next live deterministic cross-domain validator/consumer for a concrete integrity mismatch.
 ### 2026-09-26 continuation — Partner Customization recovery-audit count synchronization
 - [x] Rechecked the live Partner Customization recovery audit after the previous reachability pass and confirmed the file is reachable on current `main`.
 - [x] Found stale metadata: the audit reported 16 checks passed even though its live navigation validator exposes 18 boolean checks, all passing.
