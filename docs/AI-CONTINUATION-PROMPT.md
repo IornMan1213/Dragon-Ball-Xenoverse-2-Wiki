@@ -742,3 +742,13 @@
 - [x] Validation by direct post-write blob inspection: canonical/index **469/469**, target mechanics/date/source fields synchronized, 0 duplicate-ID change introduced.
 - [ ] CI remains unverified; no workflow success claimed.
 - [x] **Exact next:** perform a fresh `mechanics_notes` census after Batch 370, then select the next shortest genuinely placeholder/low-detail records; do not use the nonexistent `mechanics` field for census logic.
+
+
+### 2026-09-25 completion — Skill Batches 371–372 post-census enrichment
+- [x] Fresh post-Batch-370 census: **469 canonical / 469 index / 0 empty mechanics_notes**. The remaining shortest tier was verified as current, not inferred from historical notes.
+- [x] Batch 371 promoted **Innocence Breath, Innocence Bullet, Neo Tri-Beam, Strike of Revelation, Sudden Storm** with bounded current/repository mechanics and synchronized canonical/index records.
+- [x] Batch 372 promoted **Symphonic Destruction, Tri-Beam, Critical Upper, Super Spirit Bomb** with existing repository-supported mechanics and synchronized canonical/index records.
+- [x] Added/registered Batch 371 and 372 audit/research artifacts; canonical/index remain **469/469** with ordered ID parity.
+- [x] Post-Batch-372 census: **0 empty mechanics_notes**; next shortest is **The Savior Has Come (78 chars)**, followed by **Jumping Energy Wave (79)** and **Evil Flight Strike (85)**.
+- [ ] CI remains unverified; no workflow success claimed.
+- [x] Exact next: investigate **The Savior Has Come** first; if current evidence remains acquisition-only, record the boundary and move to **Jumping Energy Wave / Evil Flight Strike** rather than inventing mechanics.
