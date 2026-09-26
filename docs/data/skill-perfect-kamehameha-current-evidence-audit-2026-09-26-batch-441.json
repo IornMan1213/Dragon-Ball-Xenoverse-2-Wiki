@@ -1,0 +1,19 @@
+{
+  "skill_id": "skill-perfect-kamehameha",
+  "name": "Perfect Kamehameha",
+  "batch": 441,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Mentors",
+    "https://dbxenoverse.fandom.com/wiki/Mentors",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+  ],
+  "findings": [
+    "400 Ki Ki Blast Ultimate",
+    "Cell (Perfect) mentor training",
+    "Long charge followed by stationary Kamehameha",
+    "Tracking and 21 hits/~40% damage reported",
+    "Exact tracking/frame/scaling unresolved"
+  ]
+}
