@@ -2609,13 +2609,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Frieza (1st Form) mentor training — Lesson 1",
-      "mechanics_notes": "100-Ki Strike Super. Chargeable fists-first rush whose longer charge increases reach and strength; current reference reports 20% damage. Exact charge-frame and hitbox data remain unresolved.",
+      "mechanics_notes": "100-Ki Strike Super taught by 1st Form Frieza. The user charges forward wrapped in Ki; the move is chargeable, with longer charge producing greater reach and stronger impact. Current reference data reports a full-charge strike around 20% damage, but exact current damage and charge timing remain version-sensitive.",
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Frieza (1st Form) mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current dedicated skill evidence confirms 100 Ki, Strike Super classification, chargeable rush behavior, and Frieza (1st Form) training Lesson 1 acquisition. Mentor documentation independently lists Death Crasher as the Lesson 1 Basic Reward. 2026-09-23 provenance refresh: current repository evidence was rechecked; existing acquisition, reward-tier, scope, cost, and mechanics semantics were preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced. 2026-09-25 Batch 399 mechanics refresh: current evidence strengthened behavior/acquisition boundaries; unresolved numeric/frame details remain explicitly bounded.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current dedicated skill evidence confirms 100 Ki, Strike Super classification, chargeable rush behavior, and Frieza (1st Form) training Lesson 1 acquisition. Mentor documentation independently lists Death Crasher as the Lesson 1 Basic Reward. 2026-09-23 provenance refresh: current repository evidence was rechecked; existing acquisition, reward-tier, scope, cost, and mechanics semantics were preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced. 2026-09-25 Batch 399 mechanics refresh: current evidence strengthened behavior/acquisition boundaries; unresolved numeric/frame details remain explicitly bounded.\n2026-09-25 Batch 407 mechanics enrichment completed.",
       "id": "skill-death-crasher",
       "source_mentor": [
         "mentor-frieza"
@@ -3515,13 +3515,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Dodoria mentor training — Initiation Test",
-      "mechanics_notes": "Mentor acquisition endpoint confirmed: Dodoria's Initiation Test. Current repository evidence records 100 Ki used; detailed combat mechanics remain intentionally deferred rather than inferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "100-Ki Ki Blast Super taught by Dodoria. The normal sequence is a palm-heel strike followed by a mouth-fired beam; when used during a combo, the opening strike is skipped and the beam fires directly. Current evidence also documents directional correction that can let the beam connect after the opponent moves behind the user before firing. Exact startup, damage, tracking window, and guard behavior remain unresolved.",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Dodoria mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, classification, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing conflicts and unresolved fields are preserved; no unsupported drop probability, Ultimate Finish gate, prerequisite, timer, frame data, damage value, stacking cap, or narrower restriction is inferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, classification, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing conflicts and unresolved fields are preserved; no unsupported drop probability, Ultimate Finish gate, prerequisite, timer, frame data, damage value, stacking cap, or narrower restriction is inferred.\n2026-09-25 Batch 407 mechanics enrichment completed.",
       "id": "skill-dodoria-beam",
       "source_mentor": [
         "mentor-dodoria"
@@ -8270,13 +8270,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Yamcha mentor training — Lesson 2",
-      "mechanics_notes": "Mentor acquisition endpoint verified through Yamcha's Lesson 2. Current skill evidence records 100 Ki; detailed combat behavior remains deferred rather than inferred from category membership.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "100-Ki Ki Blast Super taught by Yamcha. The user takes a stance and punches while focused Ki cancels weak incoming Ki Blasts; the punch blasts the target away. Current skill evidence documents its resistance to ordinary Ki Blast projectiles during the attack. Exact projectile-strength threshold, startup, damage, tracking, and cancel windows remain unresolved.",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Yamcha mentor training — Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 407 mechanics enrichment completed.",
       "id": "skill-ki-blast-thrust",
       "source_mentor": [
         "mentor-yamcha"
@@ -11707,7 +11707,7 @@
       "source_quest_or_shop": "Parallel Quest 25 — \"The Emperor’s Brother\"",
       "ultimate_finish_required": false,
       "skill_description": "Spirit Explosion is a Strike Evasive skill.",
-      "mechanics_notes": "200-Stamina Strike Evasive. The user releases a close-range blue explosion that knocks nearby opponents away and can activate while taking damage, providing an emergency escape/repel option.",
+      "mechanics_notes": "200-Stamina Strike Evasive obtained from PQ25, 'The Emperor's Brother.' The user thrusts both arms outward and creates a close-range blue explosion that knocks opponents away; current evidence identifies it as a 360-degree defensive blast and documents that it can be activated while taking damage. Exact invulnerability frames, active duration, damage, and knockback values remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-25",
@@ -11720,7 +11720,7 @@
       "race_restriction": "All CaC races",
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: PQ25 is confirmed as the acquisition endpoint; current evidence confirms a 200-Stamina Strike Evasive usable by CaCs, with a close-range blue explosion that knocks opponents away. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced. 2026-09-25 Batch 380 mechanics enrichment: current skill-specific evidence expanded the mechanics description; source-reported numeric values remain bounded evidence. ",
+      "notes": "2026-09-22 provenance refresh: PQ25 is confirmed as the acquisition endpoint; current evidence confirms a 200-Stamina Strike Evasive usable by CaCs, with a close-range blue explosion that knocks opponents away. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced. 2026-09-25 Batch 380 mechanics enrichment: current skill-specific evidence expanded the mechanics description; source-reported numeric values remain bounded evidence. \n2026-09-25 Batch 407 mechanics enrichment completed.",
       "id": "skill-spirit-explosion",
       "source_parallel_quests": [
         25
