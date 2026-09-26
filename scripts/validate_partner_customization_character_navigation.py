@@ -44,15 +44,18 @@ def main() -> int:
     if any(not isinstance(x, dict) for x in recon_records): failures.append("every reconciliation record must be an object")
     if any(not isinstance(x, dict) for x in bridge_records): failures.append("every bridge record must be an object")
     if not isinstance(chars, dict) or not isinstance(chars.get("character_names", []), list): failures.append("character_names must be a list")
+    if isinstance(chars, dict) and isinstance(chars.get("character_names", []), list) and any(not isinstance(x, str) or not x.strip() for x in chars.get("character_names", [])): failures.append("every canonical character name must be a non-empty string")
     if any(not isinstance(x.get("key_number"), int) or x.get("key_number") < 1 for x in key_records): failures.append("key_number must be a positive integer")
     if any(not isinstance(x.get("character_id"), str) or not x.get("character_id").strip() for x in key_records): failures.append("key character_id must be a non-empty string")
     if any(not isinstance(x.get("partner"), str) or not x.get("partner").strip() for x in key_records): failures.append("key partner must be a non-empty string")
     if any(not isinstance(x.get("key"), int) or x.get("key") < 1 for x in recon_records): failures.append("reconciliation key must be a positive integer")
     if any(not isinstance(x.get("character_id"), str) or not x.get("character_id").strip() for x in recon_records): failures.append("reconciliation character_id must be a non-empty string")
     if any(not isinstance(x.get("partner"), str) or not x.get("partner").strip() for x in recon_records): failures.append("reconciliation partner must be a non-empty string")
+    if any(not isinstance(x.get("character_id"), str) or not x.get("character_id").strip() for x in bridge_records): failures.append("bridge character_id must be a non-empty string")
     if any(not isinstance(x.get("canonical_character_name"), str) or not x.get("canonical_character_name").strip() for x in bridge_records): failures.append("bridge canonical_character_name must be a non-empty string")
     bridge_ids = [x.get("character_id") for x in bridge_records]
-    bridge_by_id = {x.get("character_id"): x.get("canonical_character_name") for x in bridge_records if x.get("character_id") is not None}
+    bridge_character_ids_valid = all(isinstance(x, str) and x.strip() for x in bridge_ids)
+    bridge_by_id = {x.get("character_id"): x.get("canonical_character_name") for x in bridge_records if isinstance(x.get("character_id"), str) and x.get("character_id").strip()}
     duplicate_bridge_ids = sorted(k for k,v in Counter(bridge_ids).items() if k is not None and v > 1)
     malformed_bridge_ids = [{"character_id": x.get("character_id"), "type": type(x.get("character_id")).__name__} for x in bridge_records if x.get("character_id") is not None and not isinstance(x.get("character_id"), str)]
     canonical = set(chars.get("character_names", []))
@@ -75,7 +78,7 @@ def main() -> int:
         "all_key_character_ids_bridged": all(x.get("character_id") in bridge_by_id for x in key_records),
         "all_bridge_targets_canonical": all(name in canonical for name in bridge_by_id.values()),
         "bridge_ids_unique": not duplicate_bridge_ids,
-        "bridge_id_fields_are_strings": not malformed_bridge_ids,
+        "bridge_id_fields_are_strings": bridge_character_ids_valid and not malformed_bridge_ids,
         "key_reconciliation_identity_parity": False,
         "key_reconciliation_join_keys_exact": False,
     }
