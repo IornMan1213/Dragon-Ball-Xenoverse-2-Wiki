@@ -1,0 +1,21 @@
+{
+  "skill_id": "skill-meteor-strike",
+  "name": "Meteor Strike",
+  "batch": 436,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Meteor_Strike",
+    "https://dbxv2.fandom.com/wiki/Hard_Knockdown",
+    "https://reddit.com/r/DragonBallXenoverse2/comments/1gr2piw/supersults_with_good_tracking_andor_combo_potential/"
+  ],
+  "findings": [
+    "100-Ki Strike Super",
+    "Parallel Quest 6 — Saibamen's Revenge",
+    "Launching kick followed by a teleporting second kick",
+    "First hit can be Ki-confirmed to trigger the teleport",
+    "Second hit can cancel into another Super or stamina break",
+    "Rear second hit near the ground can cause a hard knockdown",
+    "Exact frames and damage scaling remain unresolved"
+  ]
+}
