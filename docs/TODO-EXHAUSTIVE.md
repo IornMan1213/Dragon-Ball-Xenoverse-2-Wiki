@@ -2247,3 +2247,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical relationship assignments were added, removed, or inferred.
 - [ ] Runtime validator execution and CI/build remain unverified in this environment.
 - [x] **Exact next:** inspect the next live validator/consumer for another concrete schema, type/range, or deterministic-projection acceptance gap.
+
+### 2026-09-26 continuation — Partner navigation validator projection hardening
+- [x] Inspected the live `scripts/validate_partner_customization_character_navigation.py` and found two concrete gaps: source/record containers were assumed to have valid shapes, and page search links validated the displayed name but not that the query parameter deterministically matched that name.
+- [x] Hardened the validator to reject malformed source containers, non-list records, and non-object key/reconciliation/bridge records.
+- [x] Added an exact page-link projection check requiring each `Search/?q=` value to equal the linked partner name with spaces encoded as `+`.
+- [x] Updated `docs/data/characters/partner-customization-character-navigation-audit.json` to record the hardening; no canonical character or Partner Customization relationship data changed.
+- [ ] Runtime validator execution and CI/build remain unverified in this environment.
+- [x] **Exact next:** inspect the next live validator/consumer for another concrete deterministic projection, schema, or stale-cache integrity gap.
