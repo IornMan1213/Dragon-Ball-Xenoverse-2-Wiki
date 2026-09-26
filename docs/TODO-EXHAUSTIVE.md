@@ -1544,3 +1544,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved evidence boundaries; unsupported exact frames, scaling, probabilities, and hidden conditions remain unresolved unless directly evidenced.
 - [ ] CI/build remains unverified.
 - [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 456 and all prior current-evidence-audited records.
+
+
+### 2026-09-26 TODO progress update — Skill Research Batch 457 completed
+- [x] Fresh 474-record mechanics frontier selected **Rough Ranger, X 100 Big Bang Kamehameha, Evil Blast, Final Charge, Explosive Wave, Force Edge, Ill Bomber, and Heavenly Arrow** as the next eight current-mechanics records after Batch 456.
+- [x] Enriched/synchronized canonical and index skill records; parity remains **474/474**, 0 missing / 0 extra / 0 duplicate IDs.
+- [x] Added Batch 457 research/thin-frontier artifacts, eight current-evidence audits, and provenance registrations.
+- [x] Preserved evidence boundaries; unsupported exact frames, scaling, probabilities, hidden conditions, and narrower CaC restrictions remain unresolved unless directly evidenced.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [x] **Exact next:** perform another fresh unaudited mechanics frontier census excluding Batch 457 and every prior registered current-evidence audit.
