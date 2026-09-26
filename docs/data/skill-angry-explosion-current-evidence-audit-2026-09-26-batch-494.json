@@ -1,0 +1,12 @@
+{
+  "batch": 494,
+  "date": "2026-09-26",
+  "skill_id": "skill-angry-explosion",
+  "skill_name": "Angry Explosion",
+  "status": "complete",
+  "findings": "300-Ki Ki Blast Ultimate from Expert Mission 12. Current documentation describes a large multi-hit explosion whose duration can be extended by holding the input. Existing source-reported numerical damage remains bounded to its evidence context.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Angry_Explosion"
+  ],
+  "evidence_boundary": "Current Xenoverse 2-specific mechanics and explicit acquisition evidence are bounded to cited source context. Unsupported exact frames, hidden interactions, probabilities, and patch-independent scaling are not inferred."
+}
