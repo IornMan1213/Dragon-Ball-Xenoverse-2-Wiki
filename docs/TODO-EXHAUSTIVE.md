@@ -2055,3 +2055,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build remains unverified.
 - [x] **Exact next:** use this refreshed baseline to identify the next genuinely live-required, safely regenerable cross-domain consumer gap; avoid spending cycles on stale search-index results or historical-only references.
 
+### 2026-09-26 continuation — Nested character consumer cache repaired
+- [x] Inspected the live `docs/data/characters/character-presentation-consumer-audit.json` in full after the previous synchronization and found a remaining nested Partner Customization projection still reporting **29 bridge records**.
+- [x] Synchronized that nested projection to the canonical live **34 bridge records / 152 canonical character names** baseline. Top-level and standalone Partner Customization consumer projections now agree.
+- [x] Revalidated the three live character-facing artifacts checked in this pass: canonical character count remains **152**, the character presentation audit reports **34 bridge records**, and the standalone Partner Customization navigation audit reports **34 bridge records**.
+- [x] No character identity mapping, preset numbering, acquisition route, or unsupported relationship was inferred or changed.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** continue the same live-consumer audit for the next stale embedded scalar/reference, prioritizing DLC/PQ navigation consumers that are actually present in the live tree rather than historical index-only paths.
+
