@@ -1,0 +1,23 @@
+{
+  "skill_id": "skill-meteor-crash",
+  "name": "Meteor Crash",
+  "batch": 452,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Meteor_Crash",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
+  ],
+  "findings": [
+    [
+      "100-Ki Strike Super from PQ12",
+      "Rush continues while input is held and consumes additional Ki",
+      "Continuation can consume slightly more than 300 Ki total"
+    ]
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
