@@ -1043,5 +1043,10 @@
   "skill_dragon_burn_current_evidence_audit_2026_09_25_batch_406": "docs/data/skill-dragon-burn-current-evidence-audit-2026-09-25-batch-406.json",
   "skill_impulse_slash_current_evidence_audit_2026_09_25_batch_406": "docs/data/skill-impulse-slash-current-evidence-audit-2026-09-25-batch-406.json",
   "skill_research_batch_406": "docs/data/skill-research-batches/skill-batch-406.json",
-  "skill_batch_406_thin_frontier_mechanics_audit_2026_09_25": "docs/data/skill-research-batches/skill-batch-406-thin-frontier-mechanics-audit-2026-09-25.json"
+  "skill_batch_406_thin_frontier_mechanics_audit_2026_09_25": "docs/data/skill-research-batches/skill-batch-406-thin-frontier-mechanics-audit-2026-09-25.json",
+  "skill_death_crasher_current_evidence_audit_2026_09_25_batch_407": "docs/data/skill-death-crasher-current-evidence-audit-2026-09-25-batch-407.json",
+  "skill_spirit_explosion_current_evidence_audit_2026_09_25_batch_407": "docs/data/skill-spirit-explosion-current-evidence-audit-2026-09-25-batch-407.json",
+  "skill_ki_blast_thrust_current_evidence_audit_2026_09_25_batch_407": "docs/data/skill-ki-blast-thrust-current-evidence-audit-2026-09-25-batch-407.json",
+  "skill_dodoria_beam_current_evidence_audit_2026_09_25_batch_407": "docs/data/skill-dodoria-beam-current-evidence-audit-2026-09-25-batch-407.json",
+  "skill_research_batch_407": "docs/data/skill-research-batches/skill-batch-407.json"
 }
