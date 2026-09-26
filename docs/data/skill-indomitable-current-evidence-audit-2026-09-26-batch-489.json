@@ -1,0 +1,14 @@
+{
+  "batch": 489,
+  "date": "2026-09-26",
+  "skill_id": "skill-indomitable",
+  "skill_name": "Indomitable",
+  "status": "complete",
+  "findings": "Current 2026 player evidence confirms simultaneous Ki/Stamina restoration and reports slow normal-health Ki charging with a below-50%-health transition toward Burst Charge-like behavior. These observations are explicitly player-reported and not promoted to universal frame data.",
+  "sources": [
+    "https://steamcommunity.com/app/454650/discussions/0/564787571097573891/",
+    "https://gamefaqs.gamespot.com/boards/277190-dragon-ball-xenoverse-2/81166913"
+  ],
+  "evidence_boundary": "Current-source behavior and source-reported values are bounded; unsupported exact frames, universal scaling, hidden interactions, and drop probabilities are not asserted.",
+  "canonical_sync": "Synchronized into canonical and index skill datasets; parity validated at 474/474."
+}
