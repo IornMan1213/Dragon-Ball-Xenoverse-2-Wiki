@@ -1,3 +1,10 @@
+### 2026-09-26 continuation — Skill↔PQ deterministic validator hardening
+- [x] Inspected the live skill→PQ validator and discovered a malformed literal `\\n` sequence in the checked-in Python source; corrected it rather than leaving a runtime syntax hazard.
+- [x] Implemented the validator's documented exact checked-in reverse-projection comparison: `pq_ids` must equal the deterministic projection of `skills.json` `source_parallel_quests`, including skill counts, IDs, names, and relationship status.
+- [x] Updated `docs/data/skill-pq-cross-domain-linkage-integrity-audit-2026-09-26.json` to record the correction and validation contract.
+- [x] No PQ reward relationships were fabricated; the validator remains strictly grounded in the canonical skill corpus.
+- [ ] Exact next: runtime-execute the hardened validator if repository execution is available; otherwise continue the next live deterministic cross-domain validator and keep CI/build status explicitly unverified.
+
 ### 2026-09-26 continuation — Partner skill relationship validator identity hardening
 - [x] Hardened `scripts/validate_partner_skill_relationships.py` to validate both canonical skill IDs and canonical `partner_name` identities through `docs/data/characters/character-id-identity-bridge.json`.
 - [x] Retained duplicate-pair, relationship-type, required-evidence, and evidence-file existence checks; no relationship data was fabricated or expanded.
