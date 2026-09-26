@@ -1,0 +1,17 @@
+{
+  "batch": 484,
+  "date": "2026-09-26",
+  "skill_id": "skill-spirit-slash",
+  "skill_name": "Spirit Slash",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Spirit_Slash",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+  ],
+  "findings": "2026-09-26 Batch 484 current-evidence audit: Spirit Slash is a 200-Stamina Strike Evasive obtained from PQ02. Dedicated current evidence documents a 5% source-reported hit and the distinct Gohan (DBS Super Hero) variant at 300 Stamina with a chargeable teleport-behind follow-up. The repository keeps the standard CaC/PQ02 record distinct from that variant; exact frames and universal scaling remain unresolved.",
+  "canonical_changes": {
+    "mechanics_notes": "200-Stamina Strike Evasive from PQ02; standard use backhands and knocks the target away, while the Gohan (DBS Super Hero) variant costs 300 Stamina and can charge to teleport behind the opponent.",
+    "last_verified": "2026-09-26",
+    "research_status": "enriched"
+  }
+}
