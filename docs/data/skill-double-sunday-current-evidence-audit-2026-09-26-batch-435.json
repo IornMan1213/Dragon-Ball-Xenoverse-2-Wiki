@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-double-sunday",
+  "name": "Double Sunday",
+  "batch": 435,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Double_Sunday",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+  ],
+  "findings": [
+    "100 Ki Ki Blast Super",
+    "Raditz Initiation Test / training acquisition",
+    "Two-beam attack",
+    "Directional input can create a V-shaped spread",
+    "Current skill evidence reports 10% normal damage and possible 20% second-hit result"
+  ]
+}
