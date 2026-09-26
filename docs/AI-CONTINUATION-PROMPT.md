@@ -1753,3 +1753,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Evidence boundaries and documented source conflicts were preserved.
 - [ ] CI/build remains unverified.
 - [x] **Exact next:** run a fresh live registered-audit mechanics frontier census excluding Batch 461 and every prior current-evidence audit.
+
+### 2026-09-26 continuation — Skill Research Batch 462 completed
+
+- [x] Fresh live 474-record mechanics frontier census excluded every skill with a registered current-evidence audit and selected **Riot Javelin, Explosive Assault, Instant Severance, Super Kamehameha, Blaster Ball, Brave Sword Attack, Super Kamehameha (SS4 DAIMA), and Blaster Meteor** as the next eight lowest-detail records.
+- [x] Deepened and synchronized all eight canonical records in docs/data/skills.json and docs/data/skills-index.json; canonical/index parity remains **474/474**, with 0 missing / 0 extra / 0 duplicate IDs.
+- [x] Added Batch 462 research/thin-frontier artifacts, eight current-evidence audits, and provenance registrations in docs/data/pq-cross-domain-index.json.
+- [x] Preserved evidence boundaries: source-reported damage/hit values remain bounded; unsupported exact frames, hidden conditions, probabilities, and patch-independent scaling were not inferred.
+- [x] Registry now contains **837 entries** after Batch 462 registration.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** perform another fresh unaudited mechanics frontier census excluding Batch 462 and every prior registered current-evidence audit, then continue the canonical research/synchronization cycle.
