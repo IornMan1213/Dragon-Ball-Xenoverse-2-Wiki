@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-final-flash-ss3-daima",
+  "name": "Final Flash (SS3 DAIMA)",
+  "batch": 438,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Final_Flash_%28SS3_DAIMA%29",
+    "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+  ],
+  "findings": [
+    "400+ Ki Ki Blast Ultimate",
+    "Parallel Quest 181 — The Greatest Training Ever",
+    "22–53 hits",
+    "Holding input while landing can spend remaining Ki for additional power",
+    "Exact damage conversion, frame data, and patch-independent scaling remain unresolved"
+  ]
+}
