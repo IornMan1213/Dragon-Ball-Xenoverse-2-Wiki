@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-26",
+  "scope": "Live-repository existence checks for character/preset/navigation artifacts referenced by the PQ cross-domain index during Partner Customization reconciliation.",
+  "status": "action_required",
+  "findings": [
+    {
+      "path": "docs/data/characters/character-id-identity-bridge.json",
+      "status": "missing"
+    },
+    {
+      "path": "docs/data/current-character-consumer-scan-2026-09-24.json",
+      "status": "missing"
+    },
+    {
+      "path": "docs/data/skills-super-souls-reference-navigation-audit-2026-09-24.json",
+      "status": "missing"
+    },
+    {
+      "path": "docs/data/numeric-preset-complete-loadout-source-audit-2026-09-24.json",
+      "status": "missing"
+    },
+    {
+      "path": "docs/data/characters/partner-customization-character-navigation-audit.json",
+      "status": "missing"
+    },
+    {
+      "path": "scripts/validate_partner_customization_character_navigation.py",
+      "status": "missing"
+    }
+  ],
+  "interpretation": "These paths are referenced by docs/data/pq-cross-domain-index.json but could not be fetched from the live main branch. This audit does not infer that the underlying work/data never existed; it records only current repository reachability. No Partner Customization skill→partner edge was created from these missing artifacts.",
+  "next_action": "Recover or replace the missing character/navigation artifacts from repository history or current canonical datasets before extending partner-skill relationships."
+}
