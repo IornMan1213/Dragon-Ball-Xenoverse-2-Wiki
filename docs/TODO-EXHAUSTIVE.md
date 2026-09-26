@@ -1,3 +1,11 @@
+### 2026-09-26 TODO progress update — Partner Customization key-ID projection hardening
+- [x] Found a remaining deterministic schema/projection gap in `scripts/validate_partner_customization_character_navigation.py`: stable customization-key record IDs were not validated against their numeric key numbers.
+- [x] Added explicit non-empty string, uniqueness, and exact `customization-key-01..20` projection checks.
+- [x] Updated the navigation audit to **21/21** passing boolean checks while preserving the existing **20 / 20 / 34 / 152 / 20** navigation counts.
+- [x] No canonical relationship or character data changed.
+- [ ] Runtime validator execution and CI/build remain unverified.
+- [x] **Exact next:** continue the next live validator/consumer or deterministic projection audit for evidence-backed schema/type/range/stale-cache drift.
+
 ### 2026-09-26 TODO progress update — Cross-domain reachability baseline refreshed
 - [x] Recomputed the live cross-domain index against the current `main` Git tree.
 - [x] Updated the reachability audit to **727 tree blobs / 1,634 reference occurrences / 742 reachable / 892 unreachable**.
