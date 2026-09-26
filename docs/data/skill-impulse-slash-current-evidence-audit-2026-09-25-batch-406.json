@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-25",
+  "batch": 406,
+  "skill_id": "skill-impulse-slash",
+  "skill_name": "Impulse Slash",
+  "sources": [
+    "Steam Xenoverse 2 discussion — Impulse Slash interactions",
+    "Xenoverse 2 skill reference",
+    "Bandai Namco DLC Pack Preview provenance"
+  ],
+  "mechanics_summary": "300-Ki Strike Ultimate obtained through the TP Medal Shop. The technique performs a long close-range rush sequence and finishes with a rapid Ki-blast barrage. Community testing documents several interaction limits: startup can be interrupted, a stamina-recovery evasive can break the sequence, and the finishing blasts require the target/arena geometry to allow the projectiles to reach the ground. These reports are retained as interaction evidence; exact startup, hit-confirm rules, damage, and patch-specific behavior remain unresolved.",
+  "evidence_limits": [
+    "Exact frames, current damage, tracking, status duration, and cancel windows are not promoted without direct evidence.",
+    "Historical patch notes and community interaction reports are contextual evidence, not automatically current universal balance values."
+  ]
+}

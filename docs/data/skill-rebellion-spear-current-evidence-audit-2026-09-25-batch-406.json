@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-25",
+  "batch": 406,
+  "skill_id": "skill-rebellion-spear",
+  "skill_name": "Rebellion Spear",
+  "sources": [
+    "Xenoverse 2 skill reference",
+    "Steam community Xenoverse 2 transfer discussion",
+    "VGM skill-change documentation (context only)"
+  ],
+  "mechanics_summary": "100-Ki Strike Super from Bardock's Lesson 1. After a brief preparation pose, the user rushes around the target while leaving a yellow energy trail; current repository evidence documents the active rush lasting about 5 seconds. External testing/mod documentation also distinguishes movement speed and damage as tunable properties, so those values are not promoted as universal balance facts. Exact startup, hit cadence, damage, tracking, and cancel windows remain unresolved.",
+  "evidence_limits": [
+    "Exact frames, current damage, tracking, status duration, and cancel windows are not promoted without direct evidence.",
+    "Historical patch notes and community interaction reports are contextual evidence, not automatically current universal balance values."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-25",
+  "batch": 406,
+  "skill_id": "skill-dragon-burn",
+  "skill_name": "Dragon Burn",
+  "sources": [
+    "Steam Community announcement — DLC 2 updated skills list",
+    "Xenoverse 2 skill reference",
+    "PQ82 acquisition evidence"
+  ],
+  "mechanics_summary": "200-Stamina Ki Blast Evasive from PQ82 Basic Reward. The user stands in place surrounded by flames; current Xenoverse 2 evidence identifies it as an evasive/counter that can inflict burn/paralysis on an attacker. Official patch notes document a historical change making the opponent able to Z-Vanish more quickly after being hit, which is relevant provenance rather than a timeless current frame rule. Exact active frames, damage, status duration, and post-hit recovery remain unresolved.",
+  "evidence_limits": [
+    "Exact frames, current damage, tracking, status duration, and cancel windows are not promoted without direct evidence.",
+    "Historical patch notes and community interaction reports are contextual evidence, not automatically current universal balance values."
+  ]
+}

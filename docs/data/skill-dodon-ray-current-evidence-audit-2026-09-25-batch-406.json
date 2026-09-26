@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-25",
+  "batch": 406,
+  "skill_id": "skill-dodon-ray",
+  "skill_name": "Dodon Ray",
+  "sources": [
+    "Steam Community announcement — DLC 2 updated skills list",
+    "Xenoverse 2 mentor/reference evidence"
+  ],
+  "mechanics_summary": "0-Ki Ki Blast Super taught by Tien. The technique is a focused Dodonpa-style beam; current Xenoverse 2 patch documentation specifically records improved recovery from the immobile state after unleashing Dodon Ray. Exact startup, beam duration, damage, tracking, guard behavior, and current frame recovery remain unresolved.",
+  "evidence_limits": [
+    "Exact frames, current damage, tracking, status duration, and cancel windows are not promoted without direct evidence.",
+    "Historical patch notes and community interaction reports are contextual evidence, not automatically current universal balance values."
+  ]
+}

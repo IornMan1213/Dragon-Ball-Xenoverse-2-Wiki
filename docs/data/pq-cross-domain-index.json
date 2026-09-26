@@ -1037,5 +1037,11 @@
   "skill_burst-stinger_current_evidence_audit_2026_09_25": "docs/data/skill-burst-stinger-current-evidence-audit-2026-09-25.json",
   "skill_destruction-s-concerto-starfall_current_evidence_audit_2026_09_25": "docs/data/skill-destruction-s-concerto-starfall-current-evidence-audit-2026-09-25.json",
   "skill_batch_405": "docs/data/skill-research-batches/skill-batch-405.json",
-  "skill_batch_405_thin_frontier_mechanics_audit_2026_09_25": "docs/data/skill-research-batches/skill-batch-405-thin-frontier-mechanics-audit-2026-09-25.json"
+  "skill_batch_405_thin_frontier_mechanics_audit_2026_09_25": "docs/data/skill-research-batches/skill-batch-405-thin-frontier-mechanics-audit-2026-09-25.json",
+  "skill_dodon_ray_current_evidence_audit_2026_09_25_batch_406": "docs/data/skill-dodon-ray-current-evidence-audit-2026-09-25-batch-406.json",
+  "skill_rebellion_spear_current_evidence_audit_2026_09_25_batch_406": "docs/data/skill-rebellion-spear-current-evidence-audit-2026-09-25-batch-406.json",
+  "skill_dragon_burn_current_evidence_audit_2026_09_25_batch_406": "docs/data/skill-dragon-burn-current-evidence-audit-2026-09-25-batch-406.json",
+  "skill_impulse_slash_current_evidence_audit_2026_09_25_batch_406": "docs/data/skill-impulse-slash-current-evidence-audit-2026-09-25-batch-406.json",
+  "skill_research_batch_406": "docs/data/skill-research-batches/skill-batch-406.json",
+  "skill_batch_406_thin_frontier_mechanics_audit_2026_09_25": "docs/data/skill-research-batches/skill-batch-406-thin-frontier-mechanics-audit-2026-09-25.json"
 }
