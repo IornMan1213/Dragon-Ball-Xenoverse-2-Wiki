@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-26",
+  "scope": "Recovery and live reconciliation of the historical Partner Customization key -> canonical character navigation layer",
+  "historical_sources": {
+    "partner_page_commit": "87c157d2aa2eb2c91c1c4d78a1a33a1812d683de",
+    "key_layer_commit": "87c157d2aa2eb2c91c1c4d78a1a33a1812d683de",
+    "key_reconciliation_commit": "87c157d2aa2eb2c91c1c4d78a1a33a1812d683de",
+    "character_layer_commit": "ae416e5cd4141c1962ce03ee4437d4af23f06c21",
+    "identity_bridge_commit": "ae416e5cd4141c1962ce03ee4437d4af23f06c21",
+    "navigation_audit_commit": "7384d401e72cef92d85c83c5fa8f31e6855d7cbc",
+    "validator_commit": "def0a7538030c738947d3307bf853ee5bd1fb6f0"
+  },
+  "restored_paths": [
+    "docs/Partner-Customization.md",
+    "docs/data/partner-customization-key-record-layer.json",
+    "docs/data/partner-customization-key-reconciliation.json",
+    "docs/data/characters-record-layer.json",
+    "docs/data/characters/character-id-identity-bridge.json",
+    "docs/data/characters/partner-customization-character-navigation-audit.json",
+    "scripts/validate_partner_customization_character_navigation.py"
+  ],
+  "live_validation": {
+    "key_records": 20,
+    "reconciliation_records": 20,
+    "bridge_records": 29,
+    "canonical_character_names": 149,
+    "page_search_links": 20,
+    "checks_passed": 16,
+    "checks_failed": 0,
+    "identity_mismatches": [],
+    "status": "clean"
+  },
+  "evidence_boundary": "The recovered layer restores deterministic navigation identity only. DLC ownership, raid rotation history, TP Medal costs, and complete customization unlock trees remain separately unresolved. Historical recovery does not promote those facts.",
+  "next": "Reconcile the recovered character/preset layer against any remaining live character consumer artifacts before expanding Partner Customization skill relationships."
+}
