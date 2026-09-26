@@ -11420,6 +11420,101 @@
       ],
       "character_source": "Majin (Male)",
       "skill_description": "Zigzag Express is a Strike Super skill associated with Majin (Male)."
+    },
+    {
+      "id": "skill-fighting-pose-b",
+      "name": "Fighting Pose B",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "parallel_quest",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_B"
+      ],
+      "unlock_method": "Parallel Quest 16 — \"Defeat Frieza's Army!\" Basic Reward",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-25",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-25 Batch 396 canonical promotion: current evidence synchronized the established Fighting Pose B research record into the canonical skill index. Unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.",
+      "mechanics_notes": "0-Ki Power Up Super; temporarily boosts Strike moves for 20 seconds.",
+      "source_quest_or_shop": "Parallel Quest 16 — \"Defeat Frieza's Army!\" Basic Reward"
+    },
+    {
+      "id": "skill-fighting-pose-d",
+      "name": "Fighting Pose D",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "parallel_quest",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_D"
+      ],
+      "unlock_method": "Parallel Quest 15 — \"Gotta Find That Dragon Ball!\" Basic Reward",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-25",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-25 Batch 396 canonical promotion: current evidence synchronized the established Fighting Pose D research record into the canonical skill index. Unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.",
+      "mechanics_notes": "0-Ki Power Up Super; temporarily increases Boost Dash speed for 20 seconds.",
+      "source_quest_or_shop": "Parallel Quest 15 — \"Gotta Find That Dragon Ball!\" Basic Reward"
+    },
+    {
+      "id": "skill-fighting-pose-g",
+      "name": "Fighting Pose G",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "skill_shop",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_G"
+      ],
+      "unlock_method": "Skill Shop after \"The Ginyu Force Strikes\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-25",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-25 Batch 396 canonical promotion: current evidence synchronized the established Fighting Pose G research record into the canonical skill index. Unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.",
+      "mechanics_notes": "0-Ki Power Up Super; increases Ki Blast skill damage. Current dedicated evidence reports about 8% increased output and a 20-second duration.",
+      "source_quest_or_shop": "Skill Shop after \"The Ginyu Force Strikes\""
+    },
+    {
+      "id": "skill-fighting-pose-i",
+      "name": "Fighting Pose I",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "skill_shop",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_I"
+      ],
+      "unlock_method": "Skill Shop after \"The Ginyu Force Strikes\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-25",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-25 Batch 396 canonical promotion: current evidence synchronized the established Fighting Pose I research record into the canonical skill index. Unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.",
+      "mechanics_notes": "0-Ki Power Up Super; temporarily increases Basic Movement Speed for 20 seconds.",
+      "source_quest_or_shop": "Skill Shop after \"The Ginyu Force Strikes\""
+    },
+    {
+      "id": "skill-fighting-pose-j",
+      "name": "Fighting Pose J",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "parallel_quest",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_J"
+      ],
+      "unlock_method": "Parallel Quest 17 — \"Ginyu and the Fruit\" Basic Reward",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-25",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-25 Batch 396 canonical promotion: current evidence synchronized the established Fighting Pose J research record into the canonical skill index. Unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.",
+      "mechanics_notes": "0-Ki Power Up Super associated with Recoome; temporarily increases Stamina recovery. Exact magnitude and duration remain unresolved.",
+      "source_quest_or_shop": "Parallel Quest 17 — \"Ginyu and the Fruit\" Basic Reward"
     }
   ],
   "last_updated": "2026-09-25",
@@ -11454,5 +11549,12 @@
   "skill_sauzer_blade_current_evidence_audit_2026_09_25_batch_393": "docs/data/skill-sauzer-blade-current-evidence-audit-2026-09-25-batch-393.json",
   "skill_savory_slicer_current_evidence_audit_2026_09_25_batch_393": "docs/data/skill-savory-slicer-current-evidence-audit-2026-09-25-batch-393.json",
   "skill_scissors_paper_rock_current_evidence_audit_2026_09_25_batch_393": "docs/data/skill-scissors-paper-rock-current-evidence-audit-2026-09-25-batch-393.json",
-  "skill_research_batch_393_verified_record_mechanics_recheck_2026_09_25": "docs/data/skill-research-batches/skill-batch-393.json"
+  "skill_research_batch_393_verified_record_mechanics_recheck_2026_09_25": "docs/data/skill-research-batches/skill-batch-393.json",
+  "skill_batch_396_canonical_sync_2026_09_25": "docs/data/skill-research-batches/skill-batch-396.json",
+  "skill_batch_396_thin_frontier_mechanics_audit_2026_09_25": "docs/data/skill-batch-396-thin-frontier-mechanics-audit-2026-09-25.json",
+  "skill_fighting_pose_b_current_evidence_audit_2026_09_25": "docs/data/skill-fighting-pose-b-current-evidence-audit-2026-09-25.json",
+  "skill_fighting_pose_d_current_evidence_audit_2026_09_25": "docs/data/skill-fighting-pose-d-current-evidence-audit-2026-09-25.json",
+  "skill_fighting_pose_g_current_evidence_audit_2026_09_25": "docs/data/skill-fighting-pose-g-current-evidence-audit-2026-09-25.json",
+  "skill_fighting_pose_i_current_evidence_audit_2026_09_25": "docs/data/skill-fighting-pose-i-current-evidence-audit-2026-09-25.json",
+  "skill_fighting_pose_j_current_evidence_audit_2026_09_25": "docs/data/skill-fighting-pose-j-current-evidence-audit-2026-09-25.json"
 }
