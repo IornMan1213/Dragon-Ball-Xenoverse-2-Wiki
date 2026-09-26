@@ -1,0 +1,50 @@
+{
+  "batch": 489,
+  "date": "2026-09-26",
+  "status": "complete",
+  "scope": "Fresh live mechanics frontier after Batch 488; eight genuinely under-detailed records were selected after correcting the audit-registry filename normalization.",
+  "selected": [
+    {
+      "name": "God of Destruction's Roar",
+      "finding": "100-Ki Strike Super from PQ105; sustained shout drains Stamina, forces guarding while Stamina remains, and exhausts the user if held too long.",
+      "change": "Expanded stamina/guard-break and self-exhaustion mechanics."
+    },
+    {
+      "name": "God of Destruction's Menace",
+      "finding": "300-Ki Ki Blast Ultimate from PQ105; four initial Ki spheres can be followed by additional tracking volleys, with current documentation reporting 26 hits and about 30% total damage.",
+      "change": "Expanded multi-input tracking sequence and bounded output."
+    },
+    {
+      "name": "Hero's Flute",
+      "finding": "100-Ki protective Super from PQ116; barrier protects against melee and Ki Blast attacks for 7.5 seconds while ally assist effects remain usable.",
+      "change": "Expanded barrier scope, duration, and support use."
+    },
+    {
+      "name": "Beast",
+      "finding": "500-Ki Awoken for all CaCs; +30% all attack, +20% Ki restoration, +20% damage taken, combo/teleport alterations, and 500-Ki activation.",
+      "change": "Expanded transformation modifiers and activation/combo behavior."
+    },
+    {
+      "name": "Rakshasa's Claw",
+      "finding": "100-Ki Strike Super from PQ57; steerable sword-wave sequence reaches five ranged hits before a teleporting overhead slash, six hits total and about 20% damage.",
+      "change": "Expanded input, trajectory, sequence, and bounded output."
+    },
+    {
+      "name": "Reverse Mabakusenko",
+      "finding": "300-Ki counter Ultimate; counter stance triggers an arm swipe into an energy wave, with dedicated evidence reporting 19 hits and about 30% total damage.",
+      "change": "Expanded counter trigger and source-reported output while preserving short-range uncertainty."
+    },
+    {
+      "name": "Indomitable",
+      "finding": "Charge skill restores both Ki and Stamina. Current player evidence reports slow normal-health Ki charging and a Burst Charge-like change below 50% health while Stamina restoration continues.",
+      "change": "Expanded dual-resource and health-threshold behavior as explicitly player-reported evidence."
+    },
+    {
+      "name": "Body Change",
+      "finding": "300-Ki Other Ultimate learned from Ginyu Lesson 3; attempts a body swap and is documented as 1-on-1-only, with current Xenoverse 2 evidence excluding PQs, Raids, and Extra Missions.",
+      "change": "Expanded mode restrictions and acquisition boundary."
+    }
+  ],
+  "sources_policy": "Current Xenoverse 2-specific evidence prioritized. Source-reported numbers and player observations remain bounded; unsupported exact frames, universal scaling, and hidden probabilities are not inferred.",
+  "canonical_sync": "Eight records synchronized into docs/data/skills.json and docs/data/skills-index.json."
+}
