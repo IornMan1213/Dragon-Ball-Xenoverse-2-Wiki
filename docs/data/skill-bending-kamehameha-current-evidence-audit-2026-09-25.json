@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-bending-kamehameha-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Bending Kamehameha",
+  "result": "current_evidence_refresh",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Ki Blast",
+    "ki_cost": 100,
+    "source_quest_or_shop": "Parallel Quest 50 - Majin Chaos",
+    "mechanics": "Curving Kamehameha projectile that bends toward the opponent; current research retains the acquisition record while leaving exact reward-condition semantics unresolved."
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Bending_Kamehameha"
+  ],
+  "limits": [
+    "Ultimate Finish requirement remains unresolved where evidence only establishes a reward slot.",
+    "No unsupported exact damage, frame data, reward probability, or hidden gate is inferred."
+  ]
+}
