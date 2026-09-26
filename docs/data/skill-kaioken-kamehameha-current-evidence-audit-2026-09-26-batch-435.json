@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-kaioken-kamehameha",
+  "name": "Kaioken Kamehameha",
+  "batch": 435,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Kaioken_Kamehameha",
+    "https://dragonball.fandom.com/wiki/Kaio-ken_Kamehameha"
+  ],
+  "findings": [
+    "200 Ki Ki Blast Super",
+    "Parallel Quest 14 — Saiyan Pride",
+    "22-hit red/blue beam",
+    "Approximately 30% total damage",
+    "Distinct from X4 and X20 Kaioken Kamehameha Ultimates"
+  ]
+}
