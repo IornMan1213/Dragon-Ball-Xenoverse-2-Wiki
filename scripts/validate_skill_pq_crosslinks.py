@@ -17,9 +17,14 @@ EXPECTED_EDGES = 246
 EXPECTED_REPRESENTED_PQS = 170
 
 data = json.loads(SKILLS.read_text(encoding="utf-8"))
-records = data["records"]
-ids = [r["id"] for r in records]
+records = data.get("records") if isinstance(data, dict) else None
+assert isinstance(records, list), "canonical skill records must be a list"
 assert len(records) == EXPECTED_SKILLS, f"skill count {len(records)} != {EXPECTED_SKILLS}"
+assert all(isinstance(r, dict) for r in records), "every canonical skill record must be an object"
+assert all(isinstance(r.get("id"), str) and r.get("id").strip() for r in records), "every canonical skill must have a non-empty string id"
+assert all(isinstance(r.get("name"), str) and r.get("name").strip() for r in records), "every canonical skill must have a non-empty string name"
+assert all(isinstance(r.get("source_parallel_quests", []), list) for r in records), "source_parallel_quests must be a list when present"
+ids = [r["id"] for r in records]
 assert len(set(ids)) == EXPECTED_SKILLS, "duplicate canonical skill IDs"
 
 # Keep the checked-in reverse artifact synchronized with the deterministic source projection.
