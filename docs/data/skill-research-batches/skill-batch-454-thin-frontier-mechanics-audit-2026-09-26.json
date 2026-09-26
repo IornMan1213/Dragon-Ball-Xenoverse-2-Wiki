@@ -1,0 +1,22 @@
+{
+  "batch": 454,
+  "date": "2026-09-26",
+  "type": "thin_frontier_mechanics_audit",
+  "selected": [
+    "Evil Flight Strike",
+    "Meteor Blow",
+    "Secret Poison",
+    "Blaster Stream",
+    "Dead End Rain",
+    "Divine Ray Bomb",
+    "Ultimate Charge",
+    "Punisher Guard"
+  ],
+  "method": "Fresh combined mechanics/notes coverage census over the live 474-record canonical skill set, excluding every skill with a registered current-evidence audit.",
+  "evidence_boundaries": [
+    "Source-reported damage and behavior remain source-bound.",
+    "Exact frame data and patch-independent scaling formulas are not inferred.",
+    "Acquisition endpoints remain separate from reward probabilities.",
+    "Current evidence was used to deepen mechanics without inventing hidden conditions."
+  ]
+}
