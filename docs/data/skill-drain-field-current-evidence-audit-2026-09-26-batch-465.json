@@ -1,0 +1,18 @@
+{
+  "batch": 465,
+  "date": "2026-09-26",
+  "skill_name": "Drain Field",
+  "skill_id": "skill-drain-field",
+  "status": "completed",
+  "findings": [
+    "100-Ki Other Super from PQ95. The user creates an absorption field that catches incoming Ki-based attacks and converts the absorbed energy into Ki/Stamina/Health effects according to the attack interaction; current evidence confirms PQ95 as the Xenoverse 2 acquisition endpoint, while reward-slot/Ultimate-Finish semantics remain disputed in community documentation and are not normalized here."
+  ],
+  "sources": [
+    "https://dragonball.fandom.com/wiki/Absorption_Barrier",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76173007"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}
