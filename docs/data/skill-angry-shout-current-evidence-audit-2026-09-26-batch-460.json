@@ -1,0 +1,19 @@
+{
+  "batch": 460,
+  "date": "2026-09-26",
+  "skill_name": "Angry Shout",
+  "skill_id": "skill-angry-shout",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics/provenance review for the live canonical record.",
+  "findings": [
+    "300-Stamina Strike Evasive from PQ68. Current evidence identifies the move as a pushback evasive that restores Ki and retains the explicit Pure Majin-form restriction. Maintained PQ evidence places it in the Basic Reward listing; no numerical drop probability or Ultimate-Finish-only gate is promoted."
+  ],
+  "sources": [
+    "Repository-maintained current skill/PQ evidence corpus; dedicated exact-name references reviewed for the live record."
+  ],
+  "evidence_boundaries": [
+    "Source-reported damage and timing values remain bounded.",
+    "No unsupported exact frame data, reward probabilities, hidden gates, or patch-independent scaling is promoted.",
+    "Conflicting acquisition semantics remain explicitly unresolved where sources disagree."
+  ]
+}
