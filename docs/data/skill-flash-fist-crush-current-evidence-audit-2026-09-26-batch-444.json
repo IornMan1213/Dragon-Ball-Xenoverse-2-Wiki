@@ -1,0 +1,21 @@
+{
+  "skill_id": "skill-flash-fist-crush",
+  "name": "Flash Fist Crush",
+  "batch": 444,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Flash_Fist_Crush",
+    "https://dragonball.fandom.com/wiki/Flash_Fist_Crush"
+  ],
+  "findings": [
+    "100 Ki Strike Super",
+    "Shenron wish: I want a new Super Attack",
+    "Universal counter works against Strike and Ki Blast attacks",
+    "Source-reported approximately 20% damage; offensive fallback after the stance window"
+  ],
+  "evidence_boundaries": [
+    "Damage remains source-reported.",
+    "No unsupported counter-frame, cancel-window, scaling, or hidden-condition claims inferred."
+  ]
+}

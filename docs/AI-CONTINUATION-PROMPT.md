@@ -1,4 +1,16 @@
 
+### 2026-09-26 continuation — Skill Research Batch 444 completed
+
+- [x] Fresh 474-record unaudited mechanics frontier census excluded every record with a registered current-evidence audit and selected **Flash Fist Crush, Final Flash (Super), Evil Eyes, and Maximum Charge** as the next four shortest under-detailed mechanics records.
+- [x] Added four current-evidence audits plus Batch 444 research and thin-frontier audit artifacts.
+- [x] Deepened all four canonical records with current Xenoverse 2-specific mechanics, acquisition/restriction context, and bounded numerical evidence; unsupported frame data, exact scaling, and hidden conditions remain bounded.
+- [x] Synchronized all four records into both canonical skill datasets and refreshed their current-scope verification date to 2026-09-26.
+- [x] Registered the Batch 444 research record, thin-frontier audit, and four skill audits in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation remains **474/474** canonical/index records with 0 missing / 0 extra.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 444 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
+
 
 ### 2026-09-26 continuation — Skill Research Batch 439 completed
 

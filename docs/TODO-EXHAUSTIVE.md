@@ -1410,3 +1410,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [ ] Efficiency addendum remains unavailable at expected path (GitHub 404).
 - [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 443 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
+
+
+### 2026-09-26 TODO progress update — Skill Research Batch 444 completed
+- [x] Fresh 474-record unaudited mechanics frontier census excluded every skill with a registered current-evidence audit and selected **Flash Fist Crush, Final Flash (Super), Evil Eyes, and Maximum Charge**.
+- [x] Enriched and synchronized all four canonical skill records in `docs/data/skills.json` and `docs/data/skills-index.json`; canonical/index remain 474/474 with 0 missing / 0 extra.
+- [x] Added four current-evidence audits, `docs/data/skill-research-batches/skill-batch-444.json`, the Batch 444 thin-frontier audit, and six provenance registry entries.
+- [x] Preserved evidence boundaries: source-reported damage and relative charge-speed claims remain source-bound; unsupported frames, scaling, probabilities, tracking-strength values, and hidden conditions were not inferred.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [ ] Repository efficiency addendum remains unavailable at the expected path; GitHub returns 404.
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 444 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.

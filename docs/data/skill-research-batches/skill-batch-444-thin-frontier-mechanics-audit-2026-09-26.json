@@ -1,0 +1,15 @@
+{
+  "batch": 444,
+  "date": "2026-09-26",
+  "type": "thin_frontier_mechanics_audit",
+  "selected": [
+    "Flash Fist Crush",
+    "Final Flash (Super)",
+    "Evil Eyes",
+    "Maximum Charge"
+  ],
+  "evidence_boundaries": [
+    "Source-reported damage and relative charge-speed statements remain source-bound.",
+    "No unsupported frame, scaling, probability, tracking-strength, or hidden-condition claims added."
+  ]
+}

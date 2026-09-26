@@ -1,0 +1,22 @@
+{
+  "batch": 444,
+  "date": "2026-09-26",
+  "status": "complete",
+  "scope": "Canonical skill mechanics frontier — shortest four records without prior current-evidence audit.",
+  "selected": [
+    "Flash Fist Crush",
+    "Final Flash (Super)",
+    "Evil Eyes",
+    "Maximum Charge"
+  ],
+  "evidence_policy": "Current Xenoverse 2-specific evidence was reviewed and bounded. Historical or community timing claims are separated from current-state claims; unsupported exact frames, hidden interactions, probabilities, and patch-independent balance values are not inferred.",
+  "exact_next": "Run a fresh unaudited mechanics frontier census excluding Batch 444 and all prior audited records, then research and synchronize the next canonical batch.",
+  "canonical_sync": "All four Batch 444 selected skills synchronized into docs/data/skills.json and docs/data/skills-index.json; canonical/index parity validated at 474/474 IDs with zero missing and zero extra.",
+  "registry_sync": "All four current-evidence audits plus the Batch 444 research record and thin-frontier audit are registered in docs/data/pq-cross-domain-index.json.",
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "missing_ids": 0,
+    "extra_ids": 0
+  }
+}

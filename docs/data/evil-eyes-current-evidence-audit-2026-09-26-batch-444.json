@@ -1,0 +1,20 @@
+{
+  "skill_id": "skill-evil-eyes",
+  "name": "Evil Eyes",
+  "batch": 444,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Evil_Eyes",
+    "https://dragonball.fandom.com/wiki/Invisible_Eye_Blast"
+  ],
+  "findings": [
+    "100 Ki Ki Blast Super",
+    "Lord Slug mentor training acquisition",
+    "Remote lock-on explosion; combo use can place the explosion along the opponent's flight path",
+    "Slower activation with comparatively low endlag; Piccolo (Power Awakening) can fire up to two additional blasts"
+  ],
+  "evidence_boundaries": [
+    "No unsupported exact damage, frames, tracking strength, or hidden-condition values inferred."
+  ]
+}

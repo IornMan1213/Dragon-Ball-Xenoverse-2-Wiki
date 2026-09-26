@@ -1,0 +1,22 @@
+{
+  "skill_id": "skill-maximum-charge",
+  "name": "Maximum Charge",
+  "batch": 444,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Maximum_Charge",
+    "https://dragonball.fandom.com/wiki/Full_Power_Charge",
+    "https://www.gamersdecide.com/articles/dragon-ball-xenoverse-2-best-charge-ability"
+  ],
+  "findings": [
+    "0-Ki Other Super",
+    "Advancement Test — God Class reward",
+    "Charges without an initial ramp-up; faster than Energy Charge and Full Power Charge",
+    "Later advanced charge options can exceed it after their ramp-up; usable by CaCs"
+  ],
+  "evidence_boundaries": [
+    "Relative speed statements are source-bound.",
+    "No unsupported exact charge timings, frame rates, or hidden modifiers inferred."
+  ]
+}

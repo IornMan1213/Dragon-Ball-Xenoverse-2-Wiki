@@ -1,0 +1,21 @@
+{
+  "skill_id": "skill-final-flash-super",
+  "name": "Final Flash (Super)",
+  "batch": 444,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Final_Flash_(Super)",
+    "https://dragonball.fandom.com/wiki/Final_Flash"
+  ],
+  "findings": [
+    "200 Ki character-exclusive Ki Blast Super",
+    "SSGSS Vegeta (Evolved) skill; unavailable to CaCs",
+    "Long-range beam with 24-hit knockback sequence",
+    "Source-reported approximately 30% total damage"
+  ],
+  "evidence_boundaries": [
+    "Damage remains source-reported and version-sensitive.",
+    "No unsupported CaC acquisition route, frame data, or patch-independent scaling inferred."
+  ]
+}
