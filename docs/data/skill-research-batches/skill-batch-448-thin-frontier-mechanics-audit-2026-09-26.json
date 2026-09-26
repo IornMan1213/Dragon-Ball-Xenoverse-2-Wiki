@@ -1,0 +1,21 @@
+{
+  "batch": 448,
+  "date": "2026-09-26",
+  "type": "thin_frontier_mechanics_audit",
+  "selected": [
+    "Wild Buster",
+    "Blaster Bomb",
+    "Divine Spear",
+    "Hyper Tornado",
+    "Angry Hit",
+    "Meteor Strike",
+    "Mystic Flash",
+    "Wall of Defense"
+  ],
+  "method": "Fresh mechanics_notes-length census over the live 474-record canonical skill set, excluding every skill with a registered current-evidence audit. The eight shortest remaining records were selected and rechecked against current skill-specific evidence.",
+  "evidence_boundaries": [
+    "Source-reported damage values are preserved as source-bound evidence rather than patch-independent constants.",
+    "Exact frame data, hidden interactions, unsupported scaling, and reward probabilities are not inferred.",
+    "Documented source discrepancies and existing acquisition semantics are retained rather than silently normalized."
+  ]
+}
