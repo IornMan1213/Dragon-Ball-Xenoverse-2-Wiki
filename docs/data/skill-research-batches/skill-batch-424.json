@@ -1,7 +1,7 @@
 {
   "batch": 424,
   "date": "2026-09-26",
-  "status": "research_complete_pending_canonical_sync",
+  "status": "partially_synchronized",
   "scope": "Skill mechanics frontier — four records with no dedicated current-evidence audit found in the cross-domain registry.",
   "selected": [
     "Full Power Charge",
@@ -10,6 +10,11 @@
     "Savage Strike"
   ],
   "evidence_policy": "Current Xenoverse 2-specific evidence was reviewed and bounded. Conflicting cost/provenance presentations are retained rather than silently normalized; unsupported frame data, hidden interactions, probabilities, and patch-independent balance values are not inferred.",
-  "canonical_sync": "Pending. The GitHub connector currently exposes zero content for the oversized skills.json and skills-index.json blobs, so the canonical/projection blobs could not be safely rewritten without reconstructing the complete files.",
-  "exact_next": "Recover a safe large-blob write/read path, synchronize the four evidence-backed mechanics updates into docs/data/skills.json and docs/data/skills-index.json, then register this batch and its four audits in docs/data/pq-cross-domain-index.json."
+  "canonical_sync": "Full Power Charge synchronized into docs/data/skills.json and docs/data/skills-index.json. Burning Spin, Final Shine Attack, and Savage Strike could not be synchronized because no canonical records with those exact names/IDs exist in the current 474-record skill dataset; they are retained as evidence-only research artifacts pending canonical identity/import reconciliation.",
+  "exact_next": "Resolve the three evidence-only names against the canonical skill inventory/import gaps before promoting their audits; then continue the fresh under-audited frontier.",
+  "missing_canonical_records": [
+    "Burning Spin",
+    "Final Shine Attack",
+    "Savage Strike"
+  ]
 }
