@@ -1,0 +1,11 @@
+{
+  "batch": 433,
+  "date": "2026-09-26",
+  "status": "complete",
+  "skill_id": "skill-energy-minefield",
+  "skill_name": "Energy Minefield",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Energy_Minefield"
+  ],
+  "findings": "Current Xenoverse 2-specific evidence rechecked for cost, classification, acquisition, and bounded mechanics; secondary evidence is qualified and exact frame/scaling data is not inferred."
+}
