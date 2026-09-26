@@ -1703,5 +1703,11 @@
   "skill_total-detonation-ball_current_evidence_audit_2026_09_26_batch_485": "docs/data/skill-total-detonation-ball-current-evidence-audit-2026-09-26-batch-485.json",
   "skill_future-super-saiyan_current_evidence_audit_2026_09_26_batch_485": "docs/data/skill-future-super-saiyan-current-evidence-audit-2026-09-26-batch-485.json",
   "skill_godly-display_current_evidence_audit_2026_09_26_batch_485": "docs/data/skill-godly-display-current-evidence-audit-2026-09-26-batch-485.json",
-  "skill_final-pose_current_evidence_audit_2026_09_26_batch_485": "docs/data/skill-final-pose-current-evidence-audit-2026-09-26-batch-485.json"
+  "skill_final-pose_current_evidence_audit_2026_09_26_batch_485": "docs/data/skill-final-pose-current-evidence-audit-2026-09-26-batch-485.json",
+  "skill_research_batch_486": "docs/data/skill-research-batches/skill-batch-486.json",
+  "skill_batch_486_thin_frontier": "docs/data/skill-batch-486-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_final-flash-super_current_evidence_audit_2026_09_26_batch_486": "docs/data/skill-final-flash-super-current-evidence-audit-2026-09-26-batch-486.json",
+  "skill_god-splitter_current_evidence_audit_2026_09_26_batch_486": "docs/data/skill-god-splitter-current-evidence-audit-2026-09-26-batch-486.json",
+  "skill_majin-kamehameha_current_evidence_audit_2026_09_26_batch_486": "docs/data/skill-majin-kamehameha-current-evidence-audit-2026-09-26-batch-486.json",
+  "skill_feint-crash_current_evidence_audit_2026_09_26_batch_486": "docs/data/skill-feint-crash-current-evidence-audit-2026-09-26-batch-486.json"
 }
