@@ -1,0 +1,19 @@
+{
+  "batch": 460,
+  "date": "2026-09-26",
+  "skill_name": "Burning Swan",
+  "skill_id": "skill-burning-swan",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics/provenance review for the live canonical record.",
+  "findings": [
+    "100-Ki Super associated with Videl and PQ167. Official Dragon Ball material describes a slowly moving Ki Blast whose charge increases movement speed and hit count; dedicated Xenoverse 2 evidence identifies PQ167 as the acquisition endpoint and maintained PQ evidence lists it as a Basic Reward. No numeric drop probability or narrower CaC restriction is inferred."
+  ],
+  "sources": [
+    "Repository-maintained current skill/PQ evidence corpus; dedicated exact-name references reviewed for the live record."
+  ],
+  "evidence_boundaries": [
+    "Source-reported damage and timing values remain bounded.",
+    "No unsupported exact frame data, reward probabilities, hidden gates, or patch-independent scaling is promoted.",
+    "Conflicting acquisition semantics remain explicitly unresolved where sources disagree."
+  ]
+}
