@@ -1,0 +1,19 @@
+{
+  "batch": 461,
+  "date": "2026-09-26",
+  "skill_name": "Temporal Holy Ray",
+  "skill_id": "skill-temporal-holy-ray",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics/provenance review for the live canonical record.",
+  "findings": [
+    "100-Ki Ki Blast Super from the Conton City Tournament progression. The user places a clock-like sigil that fires a delayed beam; charging can delay firing, while an additional input fires placed rays immediately. Holy Inscription hits allow up to three simultaneous sigils, and using the technique resets the Holy Inscription hit counter."
+  ],
+  "sources": [
+    "Repository-maintained current skill/PQ/evidence corpus and dedicated exact-name references reviewed for the live record."
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "No unsupported exact frame data, reward probabilities, hidden gates, or patch-independent scaling is promoted.",
+    "Known source conflicts remain explicit rather than silently normalized."
+  ]
+}
