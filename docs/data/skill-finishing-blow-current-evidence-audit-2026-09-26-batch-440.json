@@ -1,0 +1,19 @@
+{
+  "skill_id": "skill-finishing-blow",
+  "name": "Finishing Blow",
+  "batch": 440,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Finishing_Blow",
+    "https://dbxv2.fandom.com/wiki/Mentors",
+    "https://dbxv2.fandom.com/wiki/Whis/Quotes"
+  ],
+  "findings": [
+    "100-Ki Strike Super taught by Whis",
+    "Purple-energy chop restands the opponent",
+    "Teleports into position after knockback or when near the opponent",
+    "Allows immediate movement/basic/skill follow-ups but not a direct raw stamina break",
+    "Exact damage and cancel-frame values unresolved"
+  ]
+}
