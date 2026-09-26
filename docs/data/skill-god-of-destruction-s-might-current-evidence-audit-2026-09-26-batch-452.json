@@ -1,0 +1,23 @@
+{
+  "skill_id": "skill-god-of-destruction-s-might",
+  "name": "God of Destruction's Might",
+  "batch": 452,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Might",
+    "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/media/1104"
+  ],
+  "findings": [
+    [
+      "400-Ki Ki Blast Ultimate from PQ176",
+      "Preparation emits small purple blasts before the tracking sphere",
+      "Sphere is documented as eight hits; preparation can reach seven short-range hits"
+    ]
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
