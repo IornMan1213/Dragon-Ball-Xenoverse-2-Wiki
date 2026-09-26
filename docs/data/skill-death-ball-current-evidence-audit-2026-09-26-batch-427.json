@@ -1,0 +1,23 @@
+{
+  "batch": 427,
+  "date": "2026-09-26",
+  "skill_id": "skill-death-ball",
+  "skill_name": "Death Ball",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Death_Ball",
+    "https://dragonball.fandom.com/wiki/Death_Ball",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+  ],
+  "scope": "Current Xenoverse 2-specific mechanics, acquisition, resource costs, and bounded current-state evidence reviewed in Batch 427.",
+  "findings": "400-Ki Ki Blast Ultimate learned through Frieza (1st Form) training. Current skill documentation describes an overhead purple Ki ball thrown at the target, with long-range tracking, 18 hits, knockback, and source-reported total damage around 60%. Independent Dragon Ball documentation confirms the Frieza training acquisition endpoint in Xenoverse 2.",
+  "canonical_changes": {
+    "last_verified": "2026-09-26",
+    "research_status": "enriched",
+    "verification_status": "evidence_reviewed"
+  },
+  "unresolved": [
+    "Exact current frame data and tracking geometry remain unresolved.",
+    "The 60% figure is source-reported and not treated as patch-independent scaling."
+  ],
+  "status": "complete"
+}
