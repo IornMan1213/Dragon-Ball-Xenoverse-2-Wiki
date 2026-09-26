@@ -1,0 +1,22 @@
+{
+  "batch": 456,
+  "date": "2026-09-26",
+  "type": "thin_frontier_mechanics_audit",
+  "selected": [
+    "Data Input",
+    "Dimension Ray",
+    "Pressure Sign",
+    "Blaster Shell",
+    "Fake Blast",
+    "Spirit Boost",
+    "Dust Attack",
+    "Teleporting Vanishing Ball"
+  ],
+  "method": "Fresh combined mechanics/notes coverage census over the live 474-record canonical skill set, excluding every skill with a registered current-evidence audit.",
+  "evidence_boundaries": [
+    "Source-reported damage and behavior remain source-bound.",
+    "Exact frame data and patch-independent scaling formulas are not inferred.",
+    "Acquisition endpoints remain separate from reward probabilities.",
+    "Conflicting provenance presentations are preserved rather than collapsed."
+  ]
+}
