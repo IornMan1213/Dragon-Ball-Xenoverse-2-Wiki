@@ -1,3 +1,11 @@
+### 2026-09-26 continuation — Batch 487 checkpoint
+- [x] Fresh live frontier census completed after Batch 486.
+- [x] Rechecked current Xenoverse 2 evidence for Super Saiyan Blue Kaioken, Super Saiyan 2, Super Vegeta, and Namek Finger.
+- [x] Canonical `skills.json` verification state updated for those four records.
+- [ ] Batch 487 research/provenance artifacts still need completion.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** complete Batch 487 artifact/provenance registration, then fresh-census and enrich **Bending Kamehameha → Flash Strike → Finishing Blow → Sudden Death Beam**.
+
 ### 2026-09-26 continuation — Batch 486 canonical mechanics enrichment
 
 - [x] Re-censused the live 474-record frontier after Batch 485 and excluded known completed/audited records rather than duplicating them.
