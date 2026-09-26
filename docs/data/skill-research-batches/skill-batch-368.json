@@ -1,0 +1,61 @@
+{
+  "batch_id": "skill-batch-368",
+  "research_type": "skill_research",
+  "status": "research_only",
+  "created": "2026-09-25",
+  "records": [
+    {
+      "name": "Energy Release",
+      "id": "skill-energy-release",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "source_quest_or_shop": null,
+      "mechanics_notes": "Character-exclusive slow charge skill used by Towa; current reference compares its charge behavior to Energy Charge.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Energy_Release"
+      ],
+      "last_verified": "2026-09-25"
+    },
+    {
+      "name": "Crazy Finger Shot",
+      "id": "skill-crazy-finger-shot",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "source_quest_or_shop": "Parallel Quest 26 - Clash of Kin!",
+      "mechanics_notes": "Thin finger-beam barrage; additional inputs extend the sequence, with current research documenting up to 14 blasts and up to 800 Ki total.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Crazy_Finger_Shot"
+      ],
+      "last_verified": "2026-09-25"
+    },
+    {
+      "name": "Death Psycho Bomb",
+      "id": "skill-death-psycho-bomb",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "source_quest_or_shop": "Parallel Quest 33 - Earth in Danger!",
+      "mechanics_notes": "Ranged telekinetic sphere that traps the opponent along their movement path before detonating; exact damage and reward probability remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Death_Psycho_Bomb"
+      ],
+      "last_verified": "2026-09-25"
+    },
+    {
+      "name": "Afterimage Strike",
+      "id": "skill-afterimage-strike",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": 100,
+      "source_quest_or_shop": "Parallel Quest 84 - Saiyan Warriors",
+      "mechanics_notes": "Creates repeated afterimages around the opponent, allowing movement and an immediate follow-up technique.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Afterimage_Strike"
+      ],
+      "last_verified": "2026-09-25"
+    }
+  ],
+  "notes": "Fresh census continuation targeting compact older partially-verified mechanics/source footprints. Canonical generated skill files are not partially rewritten through the connector."
+}
