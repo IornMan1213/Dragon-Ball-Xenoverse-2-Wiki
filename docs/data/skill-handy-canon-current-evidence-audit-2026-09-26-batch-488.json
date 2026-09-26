@@ -1,0 +1,14 @@
+{
+  "batch": 488,
+  "date": "2026-09-26",
+  "skill_id": "skill-handy-canon",
+  "skill_name": "Handy Canon",
+  "status": "complete",
+  "findings": "Current evidence confirms 100-Ki Ki Blast Super from PQ115. The move fires a fast scattering barrage and can be step-cancelled, supporting neutral, mid-range, and combo-reset uses.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Handy_Canon",
+    "https://dragonball.fandom.com/wiki/Handy_Canon"
+  ],
+  "evidence_boundary": "Current-source behavior and source-reported numerical values are preserved as bounded evidence. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; canonical/index parity validated at 474/474."
+}
