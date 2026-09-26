@@ -1,0 +1,19 @@
+{
+  "skill_id": "skill-dead-end-rain",
+  "name": "Dead End Rain",
+  "batch": 454,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Dead_End_Rain",
+    "https://dragonball.fandom.com/wiki/Accel_Dance"
+  ],
+  "findings": [
+    "2026-09-26 Batch 454 current-evidence enrichment: 300-Ki Ki Blast Ultimate from Expert Mission 13, A History of Mixed Battles. The user rises and fires a long-range overhead barrage downward; current skill evidence documents 22 hits and about 30% damage and characterizes it as wide-area pressure. Android 18 and Android 17 (DB Super) are documented users. Exact projectile timing, spread, scaling, and hit-confirm behavior remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
