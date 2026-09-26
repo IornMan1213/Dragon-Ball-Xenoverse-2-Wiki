@@ -525,8 +525,8 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-26 Batch 441 refresh: PQ125 Basic Reward, 100–500 Ki range, repeated firing, 2–13-hit range, long-range behavior, and knockback reconfirmed; exact scaling/frames/probability remain unresolved.",
-      "mechanics_notes": "100–500-Ki Ki Blast Super from PQ125. Repeated input extends the barrage; current evidence documents 2–13 hits, long-range projectile behavior, and knockback.",
+      "notes": "2026-09-26 Batch 441 refresh: PQ125 Basic Reward, 100–500 Ki range, repeated firing, 2–13-hit range, long-range behavior, and knockback reconfirmed; exact scaling/frames/probability remain unresolved.\n2026-09-26 Batch 462 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "mechanics_notes": "100–500-Ki Ki Blast Super from PQ125. The initial use fires two Ki balls and repeated input extends the barrage; current dedicated evidence documents a 2–13-hit range and long-range projectile behavior, with source-reported damage of about 6% for the initial two hits and additional damage across the extended sequence. Exact per-hit scaling and timing remain unresolved.",
       "source_quest": 125,
       "source_quest_or_shop": "Parallel Quest 125 — \"Proof's in the Potara\"",
       "source_parallel_quests": [
@@ -597,14 +597,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Blaster_Meteor",
         "https://dbxv2.fandom.com/wiki/Evasive_Skill",
-        "https://dbxv2.fandom.com/wiki/Mentors"
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
       ],
       "unlock_method": "Broly's mentor training — complete the corresponding lesson to receive Blaster Meteor as the Basic Reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 provenance verification: current dedicated and independent documentation corroborate the existing acquisition endpoint and skill identity; existing reward-tier/probability semantics are preserved. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-25 mechanics correction/enrichment: 300-Stamina Ki Blast Evasive. The user takes a stance and creates a sphere of Ki Blasts around themselves; enemies in range are hit 8 times and launched upward. Current skill evidence reports about 5% total damage for the sequence; this value is retained as source-reported rather than universal.",
-      "mechanics_notes": "300-Stamina Ki Blast Evasive from Broly training; creates a surrounding sphere of Ki Blasts, hitting nearby enemies 8 times and launching them. ~5% damage is source-reported.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 provenance verification: current dedicated and independent documentation corroborate the existing acquisition endpoint and skill identity; existing reward-tier/probability semantics are preserved. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-25 mechanics correction/enrichment: 300-Stamina Ki Blast Evasive. The user takes a stance and creates a sphere of Ki Blasts around themselves; enemies in range are hit 8 times and launched upward. Current skill evidence reports about 5% total damage for the sequence; this value is retained as source-reported rather than universal.\n2026-09-26 Batch 462 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "mechanics_notes": "300-Stamina Ki Blast Evasive from Broly mentor Lesson 1. The user takes a stance and creates a sphere of Ki Blasts around themselves; current dedicated evidence documents an 8-hit short-range sequence that launches nearby enemies and reports about 5% total damage. The numerical damage value remains source-reported rather than a universal balance constant.",
       "source_quest": "Broly mentor training",
       "source_quest_or_shop": "Broly mentor training",
       "ki_cost": 0,
@@ -837,14 +838,15 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
-        "https://dragonball.fandom.com/wiki/Brave_Sword_Attack"
+        "https://dragonball.fandom.com/wiki/Brave_Sword_Attack",
+        "https://dbxv2.fandom.com/wiki/Brave_Sword_Attack"
       ],
       "unlock_method": "Parallel Quest 117 — Basic Reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": " 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1. 2026-09-22 provenance verification: current dedicated and independent documentation corroborates the existing mentor/PQ acquisition endpoint and skill identity; no unsupported reward probability or Ultimate Finish requirement is inferred. 2026-09-23 bounded provenance refresh: existing multi-source evidence was rechecked against the canonical record; no acquisition tier, reward probability, mechanics, cost, restriction, or DLC semantics were changed.",
-      "mechanics_notes": "300-Ki Strike Ultimate from PQ117; sword rush into a single-hit slow-motion slash/knockdown, with ~50% source-reported damage; second input readies the sword faster.",
+      "notes": " 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1. 2026-09-22 provenance verification: current dedicated and independent documentation corroborates the existing mentor/PQ acquisition endpoint and skill identity; no unsupported reward probability or Ultimate Finish requirement is inferred. 2026-09-23 bounded provenance refresh: existing multi-source evidence was rechecked against the canonical record; no acquisition tier, reward probability, mechanics, cost, restriction, or DLC semantics were changed.\n2026-09-26 Batch 462 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "mechanics_notes": "300-Ki Strike Ultimate from PQ117. The user readies a sword, rushes forward, and performs a slow-motion single-hit slash that knocks the opponent down; current dedicated evidence reports about 50% damage for the hit and a second input that readies the sword faster. Exact startup/recovery frames and patch-independent damage scaling remain unresolved.",
       "source_quest": 117,
       "source_quest_or_shop": "Parallel Quest 117 — \"A Dance of Swords\"",
       "source_parallel_quests": [
@@ -3885,14 +3887,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Explosive_Assault",
         "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "unlock_method": "Gohan (Kid) mentor training — lesson-3.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-22 provenance/mechanics refresh: current dedicated evidence confirms the 300-Ki Ki Blast Ultimate learned from Gohan (Kid)'s Lesson 3. The move fires a barrage of Ki Blasts/Ki Waves and leaves the user briefly vulnerable afterward; no unsupported acquisition gate is inferred. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
-      "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current dedicated evidence confirms the 300-Ki Ki Blast Ultimate learned from Gohan (Kid)'s Lesson 3. The move fires a barrage of Ki Blasts/Ki Waves and leaves the user briefly vulnerable afterward; no unsupported acquisition gate is inferred. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-26 Batch 462 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from Gohan (Kid) mentor Lesson 3. The user fires a barrage of Ki Blasts/Ki Waves; current dedicated evidence documents 22 hits and about 40% total damage as source-reported, followed by roughly one second of exhaustion/vulnerability. Exact frame data and patch-independent damage scaling remain unresolved.",
       "source_quest": "Gohan (Kid) mentor training — lesson-3.",
       "source_quest_or_shop": "Gohan (Kid) mentor training"
     },
@@ -6357,14 +6360,15 @@
         "https://dbxv2.fandom.com/wiki/Instant_Severance",
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
-        "https://dbxv2.fandom.com/wiki/Zamasu"
+        "https://dbxv2.fandom.com/wiki/Zamasu",
+        "https://dragonball.fandom.com/wiki/Instant_Severance"
       ],
       "unlock_method": "Zamasu mentor training — lesson-3.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.\n2026-09-21 DLC provenance refinement: replaced the generic DLC label with the documented mentor DLC pack.\n2026-09-22 provenance refresh: Zamasu Lesson 3 remains the deterministic acquisition endpoint; classification as a Strike Ultimate and All CaC race scope remain supported. Detailed hit/damage/frame mechanics remain intentionally unresolved.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred.",
+      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.\n2026-09-21 DLC provenance refinement: replaced the generic DLC label with the documented mentor DLC pack.\n2026-09-22 provenance refresh: Zamasu Lesson 3 remains the deterministic acquisition endpoint; classification as a Strike Ultimate and All CaC race scope remain supported. Detailed hit/damage/frame mechanics remain intentionally unresolved.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 462 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "mechanics_notes": "300-Ki Strike Ultimate from Zamasu mentor training. The user becomes a Ki blade, rushes toward the opponent, and performs a downward slash; current dedicated evidence documents a 2-hit sequence, knockdown, and about 40% total damage as source-reported. Exact frames and damage scaling remain unresolved.",
       "source_quest": "Zamasu mentor training — lesson-3.",
       "source_quest_or_shop": "Zamasu mentor training"
     },
@@ -8568,10 +8572,10 @@
       ],
       "unlock_method": "Bardock mentor training — Lesson 2.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-21 DLC provenance audit: Masters Pack remains intentionally platform-dependent; the pack is distributed as free DLC on PC/Xbox/PlayStation while the Nintendo Switch release includes the Masters content in the base game. No normalization to a platform-neutral label was made.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
-      "mechanics_notes": "Ki Blast Super whose projectile becomes substantially stronger at low health; current dedicated evidence lists 100 Ki.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-21 DLC provenance audit: Masters Pack remains intentionally platform-dependent; the pack is distributed as free DLC on PC/Xbox/PlayStation while the Nintendo Switch release includes the Masters content in the base game. No normalization to a platform-neutral label was made.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-26 Batch 462 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "mechanics_notes": "100-Ki Ki Blast Super from Bardock mentor Lesson 2. The user charges and throws a blue Ki Blast; current dedicated evidence documents full 360-degree tracking at short range and a low-health state below 5000 HP that substantially increases the move's strength and ease of landing. Exact damage scaling and the implementation of the low-health multiplier remain unresolved.",
       "source_quest": "Bardock mentor training — Lesson 2.",
       "source_quest_or_shop": "bardock mentor training",
       "ki_cost": 100
@@ -10160,14 +10164,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Kamehameha",
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-goku-mentor-master-quest-guide/",
-        "https://dbxv2.fandom.com/wiki/Mentors"
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dragonball.fandom.com/wiki/Super_Kamehameha"
       ],
       "unlock_method": "Goku mentor training — Lesson 3.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims.",
-      "mechanics_notes": "Ki Blast Ultimate that charges and fires a large multi-hit Kamehameha beam; current dedicated XV2 evidence lists 300 Ki for standard users.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims.\n2026-09-26 Batch 462 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate taught by Goku. The user charges and fires a large multi-hit Kamehameha beam; current Xenoverse 2-specific evidence confirms the Goku Lesson 4 acquisition endpoint and 300-Ki classification, while historical/community testing reports variable hit completion by range. Exact current hit count, frame timing, and patch-independent damage scaling remain unresolved.",
       "source_quest": "Goku mentor training — Lesson 3.",
       "source_quest_or_shop": "goku mentor training"
     },
@@ -10189,8 +10194,8 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-26 Batch 441 refresh: PQ181 Basic Reward, 400-Ki base cost, optional +100 Ki extension, and 12–33-hit behavior reconfirmed; damage/duration remain source-reported.",
-      "mechanics_notes": "400–500-Ki Ki Blast Ultimate from PQ181. Base beam costs 400 Ki; extension input spends an additional 100 Ki to lengthen/strengthen it. Current evidence reports 12–33 hits.",
+      "notes": "2026-09-26 Batch 441 refresh: PQ181 Basic Reward, 400-Ki base cost, optional +100 Ki extension, and 12–33-hit behavior reconfirmed; damage/duration remain source-reported.\n2026-09-26 Batch 462 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "mechanics_notes": "400–500-Ki Ki Blast Ultimate from PQ181. The base Kamehameha costs 400 Ki; holding the input spends an additional 100 Ki to extend and strengthen the blast with a longer cinematic sequence. Current dedicated evidence documents 12–33 hits and the optional +100-Ki extension. Exact damage conversion and frame timing remain unresolved.",
       "source_quest": 181,
       "source_quest_or_shop": "PQ181 - \"The Greatest Training Ever\"",
       "source_parallel_quests": [
