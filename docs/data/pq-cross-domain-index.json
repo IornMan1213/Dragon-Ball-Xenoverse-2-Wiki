@@ -1245,5 +1245,11 @@
   "skill_ice_claw_current_evidence_audit_2026_09_26_batch_429": "docs/data/skill-ice-claw-current-evidence-audit-2026-09-26-batch-429.json",
   "skill_raid_blast_current_evidence_audit_2026_09_26_batch_429": "docs/data/skill-raid-blast-current-evidence-audit-2026-09-26-batch-429.json",
   "skill_batch_429_current_evidence_research_2026_09_26": "docs/data/skill-research-batches/skill-batch-429.json",
-  "skill_batch_429_thin_frontier_audit_2026_09_26": "docs/data/skill-research-batches/skill-batch-429-thin-frontier-mechanics-audit-2026-09-26.json"
+  "skill_batch_429_thin_frontier_audit_2026_09_26": "docs/data/skill-research-batches/skill-batch-429-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_research_batch_430": "docs/data/skill-research-batches/skill-batch-430.json",
+  "skill_batch_430_thin_frontier": "docs/data/skill-research-batches/skill-batch-430-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_light-grenade_current_evidence_audit_2026_09_26_batch_430": "docs/data/light-grenade-current-evidence-audit-2026-09-26-batch-430.json",
+  "skill_sneaky-strike_current_evidence_audit_2026_09_26_batch_430": "docs/data/sneaky-strike-current-evidence-audit-2026-09-26-batch-430.json",
+  "skill_sonic-rush_current_evidence_audit_2026_09_26_batch_430": "docs/data/sonic-rush-current-evidence-audit-2026-09-26-batch-430.json",
+  "skill_eagle-kick_current_evidence_audit_2026_09_26_batch_430": "docs/data/eagle-kick-current-evidence-audit-2026-09-26-batch-430.json"
 }

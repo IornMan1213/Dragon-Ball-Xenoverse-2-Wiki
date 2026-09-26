@@ -4010,13 +4010,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Gohan (Adult) and Videl mentor training",
-      "mechanics_notes": "Unleash a rising knee strike; 100 Ki Strike Super. It can be performed during a ground jump as well as from standing, and deals about 10% damage while launching the opponent. It is taught through Videl and Gohan (Adult)'s mentor training.",
-      "last_verified": "2026-09-25",
+      "mechanics_notes": "100-Ki Strike Super from Gohan (Adult) & Videl's Initiation Test. The user raises a knee in a rising strike with an eagle-wing effect, dealing a single hit and launching the opponent; it can also be activated during a ground jump. Current skill-specific evidence reports about 10% damage. Exact frame timing, launch distance, and scaling remain unresolved.",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": "Gohan (Adult) and Videl mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-25 Batch 414 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, scaling, and timing values remain unresolved.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-25 Batch 414 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, scaling, and timing values remain unresolved.\n2026-09-26 Batch 430 mechanics enrichment: current Xenoverse 2-specific evidence was rechecked for mechanics, resource cost, acquisition context, and bounded behavior. Exact frames, hidden interactions, unsupported scaling, and unverified probabilities remain unresolved.",
       "id": "skill-eagle-kick",
       "source_mentor": [
         "mentor-gohan-videl"
@@ -8410,20 +8410,21 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Light_Grenade_%28Super%29"
       ],
       "unlock_method": "Piccolo's Lesson 2 — complete the instructor lesson to receive Light Grenade as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Piccolo mentor training — Lesson 2",
-      "mechanics_notes": "Piccolo's 100-Ki Ki Blast Super from mentor Lesson 2. It uses button-mash charging through three stages: Stage 1 minor hitstun, Stage 2 restand/stun behavior, and Stage 3 greater knockback and damage; higher stages take longer to fire.",
-      "last_verified": "2026-09-25",
+      "mechanics_notes": "100-Ki Ki Blast Super from Piccolo's Lesson 2. The user charges a ki blast between both hands through three stages by repeatedly pressing the input rather than holding it. Stage 1 produces minor hitstun; Stage 2 can restand and stun a juggled opponent; Stage 3 launches with greater knockback and damage. Higher charge stages take longer to fire. Exact stage damage and frame timing remain unresolved.",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": "Piccolo mentor training — Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.\n2026-09-25 current-evidence refresh: mechanics and provenance revalidated against dedicated current skill references and independent technique evidence; source-reported damage values remain explicitly bounded and no unsupported gates/probabilities were added.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.\n2026-09-25 current-evidence refresh: mechanics and provenance revalidated against dedicated current skill references and independent technique evidence; source-reported damage values remain explicitly bounded and no unsupported gates/probabilities were added.\n2026-09-26 Batch 430 mechanics enrichment: current Xenoverse 2-specific evidence was rechecked for mechanics, resource cost, acquisition context, and bounded behavior. Exact frames, hidden interactions, unsupported scaling, and unverified probabilities remain unresolved.",
       "id": "skill-light-grenade",
       "source_mentor": [
         "mentor-piccolo"
@@ -11363,10 +11364,10 @@
       "source_quest_or_shop": "Tokipedia — 40% completion",
       "ultimate_finish_required": false,
       "skill_description": "Temporarily obscures Fu before delivering a diving blade strike.",
-      "mechanics_notes": "100 Ki Strike Super; Fu vanishes and can move around under player control before reappearing with a rush attack. Pressing an attack input triggers the strike, while guarding cancels the move and makes the user reappear without attacking.",
+      "mechanics_notes": "100-Ki Strike Super from Fu. The user vanishes in purple smoke and can move under player control; pressing the attack input or waiting about 2 seconds triggers the rush strike, while guarding cancels the move and makes the user reappear without attacking. Current skill-specific evidence reports about 10% damage for the attack; the page's 3-hit characteristic is retained as source metadata, while exact hit allocation and frame timing remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-grows-larger-with-the-release-of-extra-pack-2-infinite-history",
         "https://dbxv2.fandom.com/wiki/Sneaky_Strike",
@@ -11374,7 +11375,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 Extra Pack 2 completeness correction: official DLC scope lists eight skills; Sneaky Strike was one of four Fu/Tokipedia endpoints missing from the canonical registry. Current evidence identifies Tokipedia completion as the acquisition endpoint. 2026-09-23 research refresh: current skill evidence corroborates the 100-Ki Strike Super classification and Tokipedia completion endpoint; its controllable vanish and cancel-by-guard behavior are documented.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-21 Extra Pack 2 completeness correction: official DLC scope lists eight skills; Sneaky Strike was one of four Fu/Tokipedia endpoints missing from the canonical registry. Current evidence identifies Tokipedia completion as the acquisition endpoint. 2026-09-23 research refresh: current skill evidence corroborates the 100-Ki Strike Super classification and Tokipedia completion endpoint; its controllable vanish and cancel-by-guard behavior are documented.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.\n2026-09-26 Batch 430 mechanics enrichment: current Xenoverse 2-specific evidence was rechecked for mechanics, resource cost, acquisition context, and bounded behavior. Exact frames, hidden interactions, unsupported scaling, and unverified probabilities remain unresolved.",
       "id": "skill-sneaky-strike"
     },
     {
@@ -11512,14 +11513,14 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Future Gohan mentor training",
-      "mechanics_notes": "100-Ki Strike Super from Future Gohan's mentor training. The move is a short-range six-hit rush ending in a hard knockdown; current dedicated skill evidence records 15% total damage and describes rapid tracking/chasing after a knockback.",
-      "last_verified": "2026-09-25",
+      "mechanics_notes": "100-Ki Strike Super from Future Gohan's Lesson 1. The user begins with a side kick, then performs a short-range multi-hit rush of punches and kicks ending in a hard knockdown; current skill-specific evidence records six hits and about 15% total damage. The move can rapidly track/chase after knockback, while exact startup, chase window, and frame data remain unresolved.",
+      "last_verified": "2026-09-26",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Future Gohan mentor training — Lesson 1.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: Future Gohan training is confirmed as the acquisition endpoint; current skill evidence confirms 100 Ki Strike Super classification and a short-range six-hit hard-knockdown sequence. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-22 provenance refresh: Future Gohan training is confirmed as the acquisition endpoint; current skill evidence confirms 100 Ki Strike Super classification and a short-range six-hit hard-knockdown sequence. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.\n2026-09-26 Batch 430 mechanics enrichment: current Xenoverse 2-specific evidence was rechecked for mechanics, resource cost, acquisition context, and bounded behavior. Exact frames, hidden interactions, unsupported scaling, and unverified probabilities remain unresolved.",
       "id": "skill-sonic-rush",
       "source_mentor": [
         "mentor-future-gohan"
@@ -14294,5 +14295,12 @@
     }
   ],
   "last_verified": "2026-09-26",
-  "last_updated": "2026-09-26"
+  "last_updated": "2026-09-26",
+  "audit_registry": {
+    "skill_research_batch_430": "docs/data/skill-research-batches/skill-batch-430.json",
+    "skill_light-grenade_current_evidence_audit_2026_09_26_batch_430": "docs/data/light-grenade-current-evidence-audit-2026-09-26-batch-430.json",
+    "skill_sneaky-strike_current_evidence_audit_2026_09_26_batch_430": "docs/data/sneaky-strike-current-evidence-audit-2026-09-26-batch-430.json",
+    "skill_sonic-rush_current_evidence_audit_2026_09_26_batch_430": "docs/data/sonic-rush-current-evidence-audit-2026-09-26-batch-430.json",
+    "skill_eagle-kick_current_evidence_audit_2026_09_26_batch_430": "docs/data/eagle-kick-current-evidence-audit-2026-09-26-batch-430.json"
+  }
 }

@@ -1,0 +1,12 @@
+{
+  "batch": 430,
+  "date": "2026-09-26",
+  "status": "complete",
+  "skill_id": "skill-sonic-rush",
+  "skill_name": "Sonic Rush",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Sonic_Rush",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+  ],
+  "findings": "2026-09-26 Batch 430 current-evidence audit: dedicated Xenoverse 2 skill documentation corroborates the recorded cost/classification and adds bounded mechanics detail. The repository preserves unresolved exact frames, hidden interactions, patch-independent scaling, and reward probabilities rather than inferring them."
+}
