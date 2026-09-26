@@ -8433,7 +8433,7 @@
       "name": "Reverse Shot",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -8441,14 +8441,15 @@
         "https://dbxv2.fandom.com/wiki/Reverse_Shot",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://dragonball.fandom.com/wiki/Reverse_Shot"
+        "https://dragonball.fandom.com/wiki/Reverse_Shot",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77881047"
       ],
       "unlock_method": "Parallel Quest 123 — \"The Ultimate Battle of the Universe\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 audit: PQ123 reward listings explicitly place Reverse Shot in the Basic Reward pool; no Ultimate Finish-only gate is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
-      "mechanics_notes": "Confirmed as Super Baby 2's 100-Ki Ki Blast Super from PQ123. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain bounded. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ123. Fires four Ki bullets; a missed blast can reverse after about one second and track the opponent from behind. At red health, the attack uses eight blasts. Current references report 5% total damage for the normal four-blast version and 15% for the red-health version; exact frame/hitbox data remains unresolved.",
       "source_quest": 123,
       "source_quest_or_shop": "Parallel Quest 123 — \"The Ultimate Battle of the Universe\"",
       "source_parallel_quests": [
@@ -8461,7 +8462,7 @@
       "name": "Ribrianne's Eternal Love",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -8469,14 +8470,15 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/Ribrianne%27s_Eternal_Love",
         "https://dbxv2.fandom.com/wiki/Ribrianne%27s_Eternal_Love",
-        "https://dragonball.fandom.com/wiki/Ribrianne_Eternal_Love"
+        "https://dragonball.fandom.com/wiki/Ribrianne_Eternal_Love",
+        "https://www.youtube.com/watch?v=jmhhINA623Y"
       ],
       "unlock_method": "Parallel Quest 137 — Ultimate Finish bonus slot.",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-21 Ultra Pack 1 provenance audit: official Bandai Namco documentation identifies Ultra Pack 1 as containing 10 additional skills and five Parallel Quests (PQ133–137); the maintained all-PQ guide independently maps the ten player-acquirable skills to those quests. Character-only Final Charge and Final Flash (Super) are retained under Ultra Pack 1 because current technique documentation identifies them as Ultra Pack 1 character-exclusive skills; they are distinct from the ten Future Warrior-acquirable skills listed for the pack. This pass verifies DLC provenance only and does not infer reward-slot semantics where sources conflict.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
-      "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. 2026-09-20 verification: current PQ/reward data confirms the documented acquisition relationship; maintained drop-condition data supplies the specific reward tier. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Ultimate Finish bonus slot route; the documented route requires an Ultimate Finish bonus roll.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from PQ137. Fires a heart-shaped projectile; current reference reports 25% damage across 14 hits at base and up to 45% when powered by Formation! and successful Pretty Cannon setup. The attack temporarily uses Ribrianne's Super Ribrianne form; exact hit-confirm/frame details remain unresolved.",
       "source_quest": 137,
       "source_quest_or_shop": "Parallel Quest 137 — \"Tournament of Power Round 2\"",
       "source_parallel_quests": [
@@ -9894,20 +9896,21 @@
       "name": "Super Gamma Blast",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Gamma_Blast",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dragonball.fandom.com/wiki/Super_Gamma_Blast"
+        "https://dragonball.fandom.com/wiki/Super_Gamma_Blast",
+        "https://en.dragon-ball-official.com/news/01_1435.html"
       ],
       "unlock_method": "Parallel Quest 158 — \"Beat Bulma's Minions!\" Ultimate Finish bonus reward (50% bonus slot)",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 audit: PQ158's current maintained reward data lists Super Gamma Blast in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate. 2026-09-20 provenance census: normalized source field to Parallel Quest 158 — \"Beat Bulma's Minions!\", matching the maintained PQ research record. 2026-09-21 Hero of Justice Pack 1 provenance audit: official Bandai Namco/Nintendo documentation identifies 4 new Parallel Quests and 7 additional moves; maintained PQ evidence identifies PQ155–158 and lists all seven canonical moves. The live repository maps each of the seven moves to its corresponding PQ and Hero of Justice Pack 1 provenance. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims.",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. 2026-09-20 verification: current PQ/reward data confirms the PQ158 acquisition relationship; maintained drop-condition data supplies the specific reward tier. 2026-09-20 audit: PQ158's current maintained reward data lists Super Gamma Blast in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from PQ158. Gamma 1 fires a straight beam from the blaster; holding the input charges the shot, increasing beam size and damage. Current PQ evidence retains the 50% Ultimate-Finish bonus-slot acquisition boundary.",
       "source_quest": 158,
       "source_quest_or_shop": "Parallel Quest 158 — \"Beat Bulma's Minions!\"",
       "source_parallel_quests": [
@@ -9919,21 +9922,22 @@
       "name": "Super Ghost Buu Attack",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Ghost_Buu_Attack",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Super_Ghost_Buu_Attack"
       ],
       "unlock_method": "Parallel Quest 113 — Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route. 2026-09-19 deterministic acquisition verification: Parallel Quest 113 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims.",
-      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ113. Five ghosts remain in place until launched by another input or after the automatic delay. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ113 Basic Reward. Creates five Buu-shaped ghosts in front of the user; a second input launches them, while leaving them in place for about five seconds also sends them toward the opponent. Current reference reports 5% total damage across five hits; no narrower CaC restriction is established.",
       "source_quest": 113,
       "source_quest_or_shop": "Parallel Quest 113 — \"Birth of the Ultimate Majin!\"",
       "source_parallel_quests": [
@@ -10371,7 +10375,7 @@
       "name": "Supreme Fury",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -10381,10 +10385,10 @@
       ],
       "unlock_method": "Parallel Quest 179 — \"24/7 Time Patrol\" Ultimate Finish reward (50%).",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context. 2026-09-21 provenance strengthening: Bandai Namco's official Dragon Ball DAIMA Pack announcement confirms the DLC includes Parallel Quests and player skills; maintained PQ/skill evidence supplies the specific PQ179/PQ181 relationships. 2026-09-23 provenance refresh: synchronized with the canonical record after rechecking the maintained exact-name/research evidence; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved.",
-      "mechanics_notes": "100 Ki Strike Super. Current reward evidence places Supreme Fury in PQ179 Ultimate Finish reward; exact drop conditions and additional numerical mechanics remain under research.",
+      "mechanics_notes": "100-Ki Strike Super from PQ179. The user pulls back a fist and slams it down; holding the input charges the strike while absorbing melee attacks. At full charge, the attack becomes stronger and can break the guard of attackers during the charge, enabling a follow-up Ultimate. Exact charge timing and numerical damage remain unresolved.",
       "source_quest": 179,
       "source_quest_or_shop": "Parallel Quest 179 — \"24/7 Time Patrol\"",
       "source_parallel_quests": [
@@ -10406,10 +10410,10 @@
       ],
       "unlock_method": "Built-in Ultra Instinct action; not separately acquirable",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races while using Ultra Instinct",
       "notes": "2026-09-20 acquisition-status refinement: current Ultra Instinct documentation confirms Surging Spirit is a built-in CaC action while Ultra Instinct is active, rather than a separately acquired/equipped skill. It should not be treated as a standalone character-exclusive acquisition route. 2026-09-21 DLC provenance audit: composite requirement intentionally preserved because Surging Spirit is documented in both Extra Pack 2 (Ultra Instinct Goku) and Conton City Vote Pack (Ultra Instinct -Sign- Goku); collapsing to either single pack would lose meaningful character/DLC context. 2026-09-23 provenance refresh: synchronized with the canonical record after rechecking the maintained exact-name/research evidence; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved.",
-      "mechanics_notes": "Current evidence documents Surging Spirit as an Ultra Instinct built-in CaC action rather than a separately acquired equipable skill; its N/A unlock route is therefore retained.",
+      "mechanics_notes": "Built-in Ultra Instinct Ki-charge action rather than a separately acquired equipable skill. Current references describe it as a charge function that refills Ki in roughly five seconds and charges faster than Maximum Charge; Ultra Instinct CaCs access it through the Awoken Skill's dedicated guard+heavy input while the form is active.",
       "source_quest_or_shop": "Character-exclusive"
     },
     {

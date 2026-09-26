@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 400,
+  "created": "2026-09-25",
+  "type": "thin-frontier-mechanics-enrichment",
+  "scope": "Next six shortest genuinely under-detailed canonical mechanics records after excluding Batches 396–399",
+  "records": [
+    {
+      "id": "skill-super-gamma-blast",
+      "name": "Super Gamma Blast",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from PQ158. Gamma 1 fires a straight beam from the blaster; holding the input charges the shot, increasing beam size and damage. Current PQ evidence retains the 50% Ultimate-Finish bonus-slot acquisition boundary.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Gamma_Blast",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Super_Gamma_Blast",
+        "https://en.dragon-ball-official.com/news/01_1435.html"
+      ]
+    },
+    {
+      "id": "skill-reverse-shot",
+      "name": "Reverse Shot",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ123. Fires four Ki bullets; a missed blast can reverse after about one second and track the opponent from behind. At red health, the attack uses eight blasts. Current references report 5% total damage for the normal four-blast version and 15% for the red-health version; exact frame/hitbox data remains unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Reverse_Shot",
+        "https://dragonball.fandom.com/wiki/Reverse_Shot",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77881047"
+      ]
+    },
+    {
+      "id": "skill-super-ghost-buu-attack",
+      "name": "Super Ghost Buu Attack",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ113 Basic Reward. Creates five Buu-shaped ghosts in front of the user; a second input launches them, while leaving them in place for about five seconds also sends them toward the opponent. Current reference reports 5% total damage across five hits; no narrower CaC restriction is established.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Ghost_Buu_Attack",
+        "https://dragonball.fandom.com/wiki/Super_Ghost_Buu_Attack",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "skill-ribrianne-s-eternal-love",
+      "name": "Ribrianne's Eternal Love",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from PQ137. Fires a heart-shaped projectile; current reference reports 25% damage across 14 hits at base and up to 45% when powered by Formation! and successful Pretty Cannon setup. The attack temporarily uses Ribrianne's Super Ribrianne form; exact hit-confirm/frame details remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ribrianne%27s_Eternal_Love",
+        "https://dragonball.fandom.com/wiki/Ribrianne_Eternal_Love",
+        "https://www.youtube.com/watch?v=jmhhINA623Y"
+      ]
+    },
+    {
+      "id": "skill-supreme-fury",
+      "name": "Supreme Fury",
+      "mechanics_notes": "100-Ki Strike Super from PQ179. The user pulls back a fist and slams it down; holding the input charges the strike while absorbing melee attacks. At full charge, the attack becomes stronger and can break the guard of attackers during the charge, enabling a follow-up Ultimate. Exact charge timing and numerical damage remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Supreme_Fury",
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-dragon-ball-daima-pack-now-available",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "skill-surging-spirit",
+      "name": "Surging Spirit",
+      "mechanics_notes": "Built-in Ultra Instinct Ki-charge action rather than a separately acquired equipable skill. Current references describe it as a charge function that refills Ki in roughly five seconds and charges faster than Maximum Charge; Ultra Instinct CaCs access it through the Awoken Skill's dedicated guard+heavy input while the form is active.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Surging_Spirit",
+        "https://dragonball.fandom.com/wiki/Full_Power_Charge",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
+      ]
+    }
+  ],
+  "validation": {
+    "canonical_record_count": 474,
+    "evidence_policy": "bounded; no unsupported probabilities, frame data, hidden prerequisites, or patch-independent balance claims"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-supreme-fury-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Supreme Fury",
+  "result": "current_evidence_refresh",
+  "mechanics_notes": "100-Ki Strike Super from PQ179. The user pulls back a fist and slams it down; holding the input charges the strike while absorbing melee attacks. At full charge, the attack becomes stronger and can break the guard of attackers during the charge, enabling a follow-up Ultimate. Exact charge timing and numerical damage remain unresolved.",
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Supreme_Fury",
+    "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-dragon-ball-daima-pack-now-available",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "evidence_boundary": "Current Xenoverse 2-specific identity, mechanics, acquisition and restriction evidence only; unresolved frame/timing details remain bounded."
+}

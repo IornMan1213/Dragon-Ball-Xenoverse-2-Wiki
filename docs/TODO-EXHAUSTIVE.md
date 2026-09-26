@@ -899,3 +899,13 @@
 - [x] Synchronized canonical/index records and added five evidence audits plus `skill-batch-395.json`; registered artifacts in the cross-domain registry.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Exact next: fresh census excluding Batch 381–395 targets, then continue the next thinnest records.
+
+
+### 2026-09-25 cycle completion — Skill Research Batch 400 mechanics enrichment
+- [x] Fresh live census: **474 canonical / 474 index** records; zero duplicate IDs; the next thin frontier was selected after excluding Batches 396–399.
+- [x] Enriched **Super Gamma Blast, Reverse Shot, Super Ghost Buu Attack, Ribrianne's Eternal Love, Supreme Fury, and Surging Spirit** with current Xenoverse 2-specific mechanics evidence.
+- [x] Synchronized canonical `docs/data/skills.json` and projection `docs/data/skills-index.json`; all six now carry `last_verified: 2026-09-25` and `verified_current_scope`.
+- [x] Added `docs/data/skill-research-batches/skill-batch-400.json` and six current-evidence audit files; registered all seven artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Evidence boundaries preserved: current references support charge/branch behavior and documented damage where explicitly reported, but no unsupported frame data, reward probabilities, hidden prerequisites, or patch-independent balance claims were inferred.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [x] **Exact next:** run a fresh 474-record frontier census excluding Batches 396–400 and enrich the next 4–12 genuinely under-detailed canonical records, synchronizing both canonical layers and cross-domain provenance in the same cycle.
