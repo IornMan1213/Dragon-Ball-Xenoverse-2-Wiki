@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-final-rampage",
+  "name": "Final Rampage",
+  "batch": 442,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Final_Rampage",
+    "https://dbxv2.fandom.com/wiki/Hyper_Special_Training"
+  ],
+  "findings": [
+    "500 Ki Strike Ultimate",
+    "PQ174",
+    "15-hit rush/sledgehammer/Ki-wave/ground-punch sequence",
+    "Final full-force attack follows if Ki wave connects",
+    "Reward probability/frame data bounded"
+  ]
+}
