@@ -1681,5 +1681,17 @@
   "skill_research_batch_480": "docs/data/skill-research-batches/skill-batch-480.json",
   "skill_batch_480_thin_frontier": "docs/data/skill-batch-480-thin-frontier-mechanics-audit-2026-09-26.json",
   "skill_god_of_destruction_s_plaything_current_evidence_audit_2026_09_26_batch_480": "docs/data/god-of-destruction-s-plaything-current-evidence-audit-2026-09-26-batch-480.json",
-  "batch_481_current_evidence_audit": "docs/data/skill-research-batches/skill-batch-481.json"
+  "batch_481_current_evidence_audit": "docs/data/skill-research-batches/skill-batch-481.json",
+  "batch_482_current_evidence_audit": "docs/data/skill-research-batches/skill-batch-482.json",
+  "batch_483_canonical_enrichment": "docs/data/skill-research-batches/skill-batch-483.json",
+  "skill_research_batch_484": "docs/data/skill-research-batches/skill-batch-484.json",
+  "skill_batch_484_thin_frontier": "docs/data/skill-batch-484-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_spirit-slash_current_evidence_audit_2026_09_26_batch_484": "docs/data/skill-spirit-slash-current-evidence-audit-2026-09-26-batch-484.json",
+  "skill_gigantic-burst_current_evidence_audit_2026_09_26_batch_484": "docs/data/skill-gigantic-burst-current-evidence-audit-2026-09-26-batch-484.json",
+  "skill_gigantic-roar_current_evidence_audit_2026_09_26_batch_484": "docs/data/skill-gigantic-roar-current-evidence-audit-2026-09-26-batch-484.json",
+  "skill_emperors-cannon_current_evidence_audit_2026_09_26_batch_484": "docs/data/skill-emperors-cannon-current-evidence-audit-2026-09-26-batch-484.json",
+  "skill_gigantic-breaker_current_evidence_audit_2026_09_26_batch_484": "docs/data/skill-gigantic-breaker-current-evidence-audit-2026-09-26-batch-484.json",
+  "skill_the-power-to-overcome_current_evidence_audit_2026_09_26_batch_484": "docs/data/skill-the-power-to-overcome-current-evidence-audit-2026-09-26-batch-484.json",
+  "skill_god-of-destructions-menace_current_evidence_audit_2026_09_26_batch_484": "docs/data/skill-god-of-destructions-menace-current-evidence-audit-2026-09-26-batch-484.json",
+  "skill_flash-chaser_current_evidence_audit_2026_09_26_batch_484": "docs/data/skill-flash-chaser-current-evidence-audit-2026-09-26-batch-484.json"
 }
