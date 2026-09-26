@@ -1,0 +1,14 @@
+{
+  "batch": 489,
+  "date": "2026-09-26",
+  "skill_id": "skill-reverse-mabakusenko",
+  "skill_name": "Reverse Mabakusenko",
+  "status": "complete",
+  "findings": "Current evidence confirms 300-Ki counter Ultimate, counter stance followed by arm swipe and energy wave, Skill Shop acquisition, and current source-reported 19-hit/about-30% sequence; short effective range remains community-supported rather than frame-verified.",
+  "sources": [
+    "https://dragonball.fandom.com/wiki/Reverse_Mabakusenko",
+    "https://dbxv2.fandom.com/wiki/Reverse_Mabakusenko"
+  ],
+  "evidence_boundary": "Current-source behavior and source-reported values are bounded; unsupported exact frames, universal scaling, hidden interactions, and drop probabilities are not asserted.",
+  "canonical_sync": "Synchronized into canonical and index skill datasets; parity validated at 474/474."
+}
