@@ -1,0 +1,107 @@
+{
+  "batch": 478,
+  "date": "2026-09-26",
+  "status": "research_complete",
+  "scope": "Fresh unaudited mechanics frontier after Batch 477, excluding every skill ID represented by a registered current-evidence audit.",
+  "selection_method": "Shortest canonical mechanics records whose skill IDs were not represented by a registered current-evidence audit at census time.",
+  "selected": [
+    "Thunder Flash",
+    "Celestial Wave",
+    "Saiyan Spirit",
+    "Bomber DX",
+    "Time Bullet",
+    "Galick Cannon",
+    "Death Beam",
+    "Gamma Blaster"
+  ],
+  "records": [
+    {
+      "skill_id": "skill-thunder-flash",
+      "skill_name": "Thunder Flash",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "300–600-Ki Ki Blast Ultimate from PQ146, \"Zen-Ohs' Earthly Excursion.\" The user charges energy in a protected stance and then fires a straight beam; holding the input spends up to 300 additional Ki to extend the attack and increase damage. Current skill documentation describes a 19-hit beam. Exact charge timing, damage scaling, and frame data remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Thunder_Flash",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "skill_id": "skill-celestial-wave",
+      "skill_name": "Celestial Wave",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "300-Stamina Ki Blast Evasive from PQ151, \"Even Further Beyond.\" The user launches a blue energy wave upward; current skill documentation reports 7 hits and about 5% damage, with a nearby opponent being lifted by the wave. The acquisition record remains source-conflicted between Basic Reward and an older Ultimate-Finish presentation, so no exclusive gate is inferred.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Celestial_Wave",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "skill_id": "skill-saiyan-spirit",
+      "skill_name": "Saiyan Spirit",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate. The user explodes forward into a pseudo-strike punch, then fires a blue Ki wave from the opposite hand for a documented 10-hit sequence. Current skill-specific evidence describes the final wave as leaving enough opening for a follow-up ranged Super or fast Ultimate; the move has shorter chase range than Brave Heat and does not track behind the user.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Saiyan_Spirit",
+        "https://dragonball.fandom.com/wiki/Spirit_of_Saiyans"
+      ]
+    },
+    {
+      "skill_id": "skill-bomber-dx",
+      "skill_name": "Bomber DX",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "100-Ki Ki Blast Super. The user charges the Ki wave for about a second, then fires a purple mid-range blast from the left hand for a single-hit knockback attack. Current Xenoverse 2-specific evidence reports about 15% damage and confirms that Bomber DX can absorb/cancel incoming Ki Blasts, including charged Ki Blasts. The documented in-game warning is a long activation period.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Bomber_DX",
+        "https://dbxenoverse.fandom.com/wiki/Bomber_DX_(Skill)"
+      ]
+    },
+    {
+      "skill_id": "skill-time-bullet",
+      "skill_name": "Time Bullet",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "100-Ki Other-type Super available from the Skill Shop after the documented Majin Buu progression. The user creates a ranged dark-red grab sphere that holds the opponent in place for several seconds, then deals additional damage and releases them. When used after a knockback, the grab can appear along the opponent's flight path. Exact hold duration, damage, and frame data remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Time_Bullet",
+        "https://dragonball.fandom.com/wiki/Time_Bullet"
+      ]
+    },
+    {
+      "skill_id": "skill-galick-cannon",
+      "skill_name": "Galick Cannon",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "100-Ki Ki Blast Super obtained from the TP Medal Shop. It is a chargeable Galick Gun-like beam; unlike Galick Gun's hold-to-charge behavior, the player taps the assigned button to increase power. Current dedicated evidence lists a 9–15-hit, long-range beam. Exact charge timing, scaling, and frame data remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Galick_Cannon",
+        "https://dragonball.fandom.com/wiki/Galick_Cannon"
+      ]
+    },
+    {
+      "skill_id": "skill-death-beam",
+      "skill_name": "Death Beam",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "100-Ki Ki Blast Super from Frieza training. The user fires a quick medium-range purple finger beam; additional inputs fire up to two more beams without additional Ki, and each follow-up attempts to correct its aim if the previous beam missed. Current evidence identifies the move as a three-shot, re-stand-capable option. Exact tracking correction, frame data, and universal damage are unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Death_Beam",
+        "https://dragonball.fandom.com/wiki/Death_Beam"
+      ]
+    },
+    {
+      "skill_id": "skill-gamma-blaster",
+      "skill_name": "Gamma Blaster",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ155. Uncharged use fires multiple scattered homing blasts; charging instead produces one larger concentrated blast shaped like Gamma 2's face. Current dedicated evidence confirms the charge/scatter choice and character association. The maintained acquisition record preserves the PQ155 Ultimate Finish route; exact frames, scaling, and reward probability implementation remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Gamma_Blaster",
+        "https://dragonball.fandom.com/wiki/Gamma_Blaster"
+      ]
+    }
+  ],
+  "evidence_policy": "Current Xenoverse 2-specific evidence is prioritized. Source-reported numerical values remain source-bound; unsupported exact frames, scaling, hidden interactions, and reward probabilities are not inferred.",
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "missing_ids": [],
+    "extra_ids": []
+  },
+  "exact_next": "Run a fresh unaudited mechanics frontier census excluding Batch 478 and every prior registered current-evidence audit, then continue the canonical research/synchronization cycle."
+}

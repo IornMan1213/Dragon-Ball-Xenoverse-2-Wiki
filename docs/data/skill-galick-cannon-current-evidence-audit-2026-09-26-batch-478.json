@@ -1,0 +1,14 @@
+{
+  "skill_id": "skill-galick-cannon",
+  "skill_name": "Galick Cannon",
+  "batch": 478,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Ki Blast Super obtained from the TP Medal Shop. It is a chargeable Galick Gun-like beam; unlike Galick Gun's hold-to-charge behavior, the player taps the assigned button to increase power. Current dedicated evidence lists a 9–15-hit, long-range beam. Exact charge timing, scaling, and frame data remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Galick_Cannon",
+    "https://dragonball.fandom.com/wiki/Galick_Cannon"
+  ],
+  "evidence_boundary": "Numerical values are source-reported observations. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

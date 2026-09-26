@@ -1,0 +1,14 @@
+{
+  "skill_id": "skill-gamma-blaster",
+  "skill_name": "Gamma Blaster",
+  "batch": 478,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Ki Blast Super from PQ155. Uncharged use fires multiple scattered homing blasts; charging instead produces one larger concentrated blast shaped like Gamma 2's face. Current dedicated evidence confirms the charge/scatter choice and character association. The maintained acquisition record preserves the PQ155 Ultimate Finish route; exact frames, scaling, and reward probability implementation remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Gamma_Blaster",
+    "https://dragonball.fandom.com/wiki/Gamma_Blaster"
+  ],
+  "evidence_boundary": "Numerical values are source-reported observations. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

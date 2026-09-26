@@ -1,0 +1,58 @@
+{
+  "batch": 478,
+  "date": "2026-09-26",
+  "scope": "Thin mechanics frontier audit",
+  "census": {
+    "record_count": 474,
+    "selection_rule": "Shortest canonical mechanics records whose skill IDs were not represented by a registered current-evidence audit."
+  },
+  "selected": [
+    {
+      "skill_id": "skill-thunder-flash",
+      "skill_name": "Thunder Flash",
+      "mechanics_length": 363
+    },
+    {
+      "skill_id": "skill-celestial-wave",
+      "skill_name": "Celestial Wave",
+      "mechanics_length": 368
+    },
+    {
+      "skill_id": "skill-saiyan-spirit",
+      "skill_name": "Saiyan Spirit",
+      "mechanics_length": 377
+    },
+    {
+      "skill_id": "skill-bomber-dx",
+      "skill_name": "Bomber DX",
+      "mechanics_length": 379
+    },
+    {
+      "skill_id": "skill-time-bullet",
+      "skill_name": "Time Bullet",
+      "mechanics_length": 392
+    },
+    {
+      "skill_id": "skill-galick-cannon",
+      "skill_name": "Galick Cannon",
+      "mechanics_length": 321
+    },
+    {
+      "skill_id": "skill-death-beam",
+      "skill_name": "Death Beam",
+      "mechanics_length": 397
+    },
+    {
+      "skill_id": "skill-gamma-blaster",
+      "skill_name": "Gamma Blaster",
+      "mechanics_length": 417
+    }
+  ],
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "missing_ids": [],
+    "extra_ids": []
+  },
+  "next": "Repeat the census for Batch 479; do not treat a prior enrichment batch as a current-evidence audit unless its dedicated audit artifact is registered."
+}
