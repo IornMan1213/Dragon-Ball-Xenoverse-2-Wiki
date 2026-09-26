@@ -1,0 +1,22 @@
+{
+  "skill_id": "skill-purification",
+  "name": "Purification",
+  "batch": 449,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Purification"
+  ],
+  "findings": [
+    "300-Ki Awoken Skill",
+    "Majin CaC exclusive",
+    "Kid Buu-like pure Majin form",
+    "15% documented damage increase",
+    "modified Supers, Ultimates and Evasive",
+    "Majin Buu's House acquisition endpoint"
+  ],
+  "evidence_boundaries": [
+    "No unsupported exact frames, scaling, probabilities, or hidden conditions added. Source-reported damage/stat values remain explicitly source-bound."
+  ]
+}
