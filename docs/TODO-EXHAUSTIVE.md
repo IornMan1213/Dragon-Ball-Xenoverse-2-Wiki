@@ -1585,3 +1585,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved source conflicts and evidence boundaries; unsupported exact frames, probabilities, hidden conditions, and patch-independent scaling remain unresolved.
 - [ ] CI/build remains unverified.
 - [x] **Exact next:** fresh registered-audit mechanics frontier excluding Batch 461 and all prior current-evidence audits.
+
+### 2026-09-26 TODO progress update — Skill Research Batch 462 completed
+- [x] Fresh 474-record mechanics frontier census excluded every skill with a registered current-evidence audit and selected **Riot Javelin, Explosive Assault, Instant Severance, Super Kamehameha, Blaster Ball, Brave Sword Attack, Super Kamehameha (SS4 DAIMA), and Blaster Meteor**.
+- [x] Enriched and synchronized all eight records in docs/data/skills.json and docs/data/skills-index.json; canonical/index remain **474/474** with 0 missing / 0 extra / 0 duplicate IDs.
+- [x] Added Batch 462 research/thin-frontier artifacts, eight current-evidence audits, and provenance registrations; registry now contains **837 entries**.
+- [x] Preserved evidence boundaries; source-reported numerical values remain source-bound and unsupported exact frames, scaling, probabilities, and hidden conditions remain unresolved.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [ ] Repository efficiency addendum remains unavailable at the expected path; GitHub returns 404.
+- [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 462 and all prior current-evidence-audited records.
