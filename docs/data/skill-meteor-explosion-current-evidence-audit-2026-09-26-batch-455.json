@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-meteor-explosion",
+  "name": "Meteor Explosion",
+  "batch": 455,
+  "date": "2026-09-26",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Meteor_Explosion",
+    "https://dragonball.fandom.com/wiki/Meteor_Explosion"
+  ],
+  "findings": [
+    "2026-09-26 Batch 455 current-evidence enrichment: 500-Ki Ki Blast Ultimate from PQ149. A flip kick initiates the technique; on connection, the target is bound by Ki and struck by a pillar, with current skill evidence documenting eight hits and about 40% damage. Comet Strike can immediately set up the Ultimate after its final hit. Exact startup/recovery, tracking, and patch-independent scaling remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
