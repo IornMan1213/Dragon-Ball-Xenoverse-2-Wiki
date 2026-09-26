@@ -7343,14 +7343,15 @@
       "source_quest_or_shop": "Conton City Tournament Match 1",
       "ultimate_finish_required": false,
       "skill_description": "Strike Super used by Supreme Kai of Time that accumulates Power of Time and enhances related techniques.",
-      "mechanics_notes": "Current skill evidence lists 100 Ki for the base input, with additional inputs raising total expenditure to 300 Ki; each successful hit builds Power of Time for related techniques.",
+      "mechanics_notes": "Strike Super whose clock-hand blades can be extended through additional inputs for up to four hits, consuming additional Ki; current documentation reports 100 Ki for the first input and up to 300 Ki for the full sequence, with about 15% total damage. Each successful hit builds a Power of Time/Holy Inscription stack that produces a shockwave and powers related Chronoa skills, including Kairos Cannon and Temporal Holy Ray. Current evidence supports up to four hits and the cross-skill empowerment, while exact stack consumption/timing and frame data remain bounded.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Holy_Inscription",
         "https://dragonball.fandom.com/wiki/Holy_Inscription",
-        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
+        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc",
+        "https://steamcommunity.com/app/454650/discussions/0/2916598577634327324/"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
@@ -10611,7 +10612,7 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Android 16 mentor training",
-      "mechanics_notes": "Strike Super used by Android 16: charges shoulder-first and can chase/teleport to the opponent after a knockback before striking. Current references identify it as a 100-Ki Super.",
+      "mechanics_notes": "100-Ki Strike Super and charge attack. The user charges forward with the right shoulder for a single hit that knocks the opponent away. When used after a knockback, the chase version teleports the user to the locked-on opponent before the tackle. Current skill-specific documentation reports 10% damage; exact chase timing and frame data remain unresolved.",
       "last_verified": "2026-09-25",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
@@ -10954,14 +10955,16 @@
       "source_quest_or_shop": "Parallel Quest 65 — \"The New Warriors\"",
       "ultimate_finish_required": false,
       "skill_description": "Scissors Paper Rock is a Super Strike skill associated with Gotenks.",
-      "mechanics_notes": "Three selectable short-range branches: Rock performs a strike, Scissors blinds the opponent, and Paper knocks the target away; combining all three produces a three-hit sequence.",
+      "mechanics_notes": "100-Ki Strike Super with a stance-based, multi-stage input sequence. After the startup pose, Rock, Scissors, and Paper are selected by their corresponding attack inputs and can be combined for up to three attacks. Rock is a short punch, Scissors blinds the opponent, and Paper is a palm strike that knocks the target away; current documentation describes the three-hit combination as a 3-hit sequence. The move stops the user in place during the selection sequence, so it is not a conventional combo starter.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-25",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Scissors_Paper_Rock",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Rock%2C_Scissors_%27N%27_Paper",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79052164"
       ],
       "race_restriction": "All CaC races",
       "source_quest": 65,
@@ -11158,7 +11161,9 @@
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
         "https://dragonball.fandom.com/wiki/High_Strike",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
+        "https://dbxv2.fandom.com/wiki/Shining_Slash",
+        "https://steamcommunity.com/app/454650/discussions/0/152390648096686210/"
       ],
       "race_restrictions": [
         "Human",
@@ -11172,7 +11177,7 @@
       "last_verified": "2026-09-25",
       "research_status": "enriched",
       "source_quest_or_shop": "Parallel Quest 38 — \"Power Teams\"",
-      "mechanics_notes": "Sword-based Strike Super; charging raises the sword and, when released, teleports to the locked-on target for the slash. Current independent documentation records about 10% damage.",
+      "mechanics_notes": "100-Ki Strike Super with a sword, single-hit and chargeable. The user jumps forward and slashes the target; holding the input causes the user to teleport directly to the locked-on opponent before the slash. Current documentation reports 10% damage and restricts the CaC version to Human and Saiyan races. Exact charge timing and frame data remain unresolved.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
       "notes": " 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-23 research refresh: current skill evidence corroborates the 100-Ki Strike Super classification, PQ38 endpoint, sword/teleport behavior, and Earthling/Saiyan CaC restriction.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.\n2026-09-25 current-evidence promotion: Sword-based Strike Super; charging raises the sword and, when released, teleports to the locked-on target for the slash. Current independent documentation records about 10% damage. Evidence limits preserved: Exact frame data and reward probability remain unresolved. Current evidence supports Earthling/Saiyan CaC scope; no narrower form/gender gate is inferred.",

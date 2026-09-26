@@ -1064,3 +1064,13 @@
 - [x] Evidence boundaries preserved: unresolved multipliers, exact frames, hidden prerequisites, and reward probabilities were not inferred.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** continue Batch 401 with the next four genuinely under-detailed records from the fresh frontier, then complete the handoff entry after the full batch is finished.
+
+
+### 2026-09-25 cycle completion — Skill Research Batch 401 continued
+- [x] Completed the next four Batch 401 frontier records: **Scissors Paper Rock, Rocket Tackle, Holy Inscription, and Shining Slash**.
+- [x] Deepened all four mechanics records with current Xenoverse 2-specific sequence, branching/input behavior, charge/chase behavior, hit counts, documented damage, and restriction details where directly supported.
+- [x] Synchronized canonical `skills.json` and `skills-index.json`; all four remain `verified_current_scope` with 2026-09-25 verification.
+- [x] Expanded `skill-research-batches/skill-batch-401.json` to the complete eight-record batch and added four current-evidence audits; registered them in the cross-domain registry.
+- [x] Evidence boundaries preserved: exact frame timings, multipliers, reward probabilities, and unresolved stack/charge timing were not inferred.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] **Exact next:** run a fresh 474-record census excluding Batches 396–401 and begin Batch 402 with the next 4–12 genuinely under-detailed records.

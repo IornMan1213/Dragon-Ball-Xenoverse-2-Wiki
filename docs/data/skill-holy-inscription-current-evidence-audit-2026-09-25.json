@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-holy-inscription-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Holy Inscription",
+  "result": "current_evidence_refresh",
+  "mechanics_notes": "Strike Super whose clock-hand blades can be extended through additional inputs for up to four hits, consuming additional Ki; current documentation reports 100 Ki for the first input and up to 300 Ki for the full sequence, with about 15% total damage. Each successful hit builds a Power of Time/Holy Inscription stack that produces a shockwave and powers related Chronoa skills, including Kairos Cannon and Temporal Holy Ray. Current evidence supports up to four hits and the cross-skill empowerment, while exact stack consumption/timing and frame data remain bounded.",
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Holy_Inscription",
+    "https://dragonball.fandom.com/wiki/Holy_Inscription",
+    "https://steamcommunity.com/app/454650/discussions/0/2916598577634327324/"
+  ],
+  "evidence_boundary": "Current Xenoverse 2-specific mechanics and acquisition evidence only; unresolved numerical/frame details remain bounded."
+}
