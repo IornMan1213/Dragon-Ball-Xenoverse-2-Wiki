@@ -1,13 +1,13 @@
 {
   "schema_version": "1.1.0",
   "scope": "Partner Customization key -> canonical character navigation",
-  "date": "2026-09-22",
+  "date": "2026-09-26",
   "validator": "scripts/validate_partner_customization_character_navigation.py",
   "counts": {
     "key_records": 20,
     "reconciliation_records": 20,
-    "bridge_records": 29,
-    "canonical_character_names": 151,
+    "bridge_records": 34,
+    "canonical_character_names": 152,
     "page_search_links": 20
   },
   "checks": {
@@ -38,11 +38,11 @@
   "extra_page_search_links": [],
   "identity_mismatches": [],
   "status": "clean",
-  "evidence_boundary": "Navigation identity remains deterministic. The validator now joins key and reconciliation records by their explicit numeric key rather than relying on sorted zip position, and rejects duplicate/malformed bridge IDs and malformed key fields. DLC ownership, raid history, TP Medal costs, and other partially verified system facts remain outside this contract.",
+  "evidence_boundary": "Navigation identity remains deterministic. The validator now joins key and reconciliation records by their explicit numeric key rather than relying on sorted zip position, and rejects duplicate/malformed bridge IDs and malformed key fields. DLC ownership, raid history, TP Medal costs, and other partially verified system facts remain outside this contract. The 2026-09-26 reconciliation also incorporates the repaired five preset character identity bridge records; this remains navigation-only.",
   "duplicate_key_numbers": [],
   "duplicate_reconciliation_key_numbers": [],
   "page_search_link_target_mismatches": [],
-  "validator_commit": "def0a7538030c738947d3307bf853ee5bd1fb6f0",
+  "validator_commit": "83d911305020b43656b0db33fc408bab0dd7068b",
   "hardening": {
     "exact_key_reconciliation_join": true,
     "bridge_id_uniqueness": true,
