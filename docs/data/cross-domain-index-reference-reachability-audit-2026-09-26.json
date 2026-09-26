@@ -3,20 +3,20 @@
   "audit_date": "2026-09-26",
   "scope": "pq-cross-domain-index reference reachability against the live main-branch repository tree",
   "purpose": "Separate live-reachable registered artifacts from historical/planned references without deleting provenance entries.",
-  "live_tree_file_count": 707,
-  "index_reference_count": 1608,
-  "reachable_reference_count": 720,
-  "unreachable_reference_count": 888,
+  "live_tree_file_count": 729,
+  "index_reference_count": 1530,
+  "reachable_reference_count": 701,
+  "unreachable_reference_count": 829,
   "classification_of_unreachable_references": {
-    "skill-artifact": 637,
-    "super-soul-artifact": 80,
-    "pq-artifact": 54,
-    "other": 47,
-    "accessory-artifact": 18,
-    "dlc-artifact": 17,
-    "character-artifact": 10,
+    "skill-artifact": 597,
+    "pq-artifact": 46,
+    "super-soul-artifact": 74,
+    "accessory-artifact": 16,
+    "dlc-artifact": 21,
+    "validator-script": 14,
     "equipment-artifact": 11,
-    "validator-script": 14
+    "other": 44,
+    "character-artifact": 6
   },
   "critical_unreachable_reference_count": 20,
   "critical_unreachable_references": [
@@ -44,8 +44,9 @@
     "The 2026-09-26 recovery pass restored seven previously unreachable registered paths relevant to character/preset/navigation reconciliation, including the reachability audit itself; the stale current-character-consumer reference was redirected to the restored current-presentation-consumer artifact.",
     "Unreachable references are not deleted because the index is also a provenance ledger.",
     "The largest unreachable class remains skill artifacts; this is not evidence that the canonical skill corpus is missing, because the canonical corpus and current-evidence audits are represented separately.",
-    "The recovered preset bridge records and Partner Customization navigation layer are now reflected in the live reachable baseline."
+    "The recovered preset bridge records and Partner Customization navigation layer are now reflected in the live reachable baseline.",
+    "Live-tree refresh 2026-09-26: recomputed directly from main; the repository tree now contains 729 paths and the index contains 1530 unique path references, with 701 reachable and 829 unreachable."
   ],
   "evidence_boundary": "This audit tests only path reachability against the live repository tree. It does not determine whether an unreachable historical artifact should be recreated, whether its underlying claim remains correct, or whether a planned reverse index has enough source data to regenerate safely.",
-  "next": "Prioritize remaining critical cross-domain references that are both currently required by live validators/navigation and safely regenerable from canonical data; do not bulk-recreate historical artifacts merely to reduce the unreachable count."
+  "next": "Use the recomputed reachability baseline to select the next critical reference that is both live-required and safely regenerable; preserve historical/planned references unless their status is intentionally migrated."
 }
