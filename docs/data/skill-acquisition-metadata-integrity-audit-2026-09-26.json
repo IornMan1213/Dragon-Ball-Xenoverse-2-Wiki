@@ -7,7 +7,9 @@
     "source_quest_or_shop_missing": 0,
     "unlock_method_missing": 0,
     "acquisition_type_missing": 0,
-    "metadata_anomalies": 0
+    "metadata_anomalies": 0,
+    "invalid_source_parallel_quest_endpoints": 0,
+    "pq_endpoint_range": "1-186"
   },
   "anomalies": [],
   "status": "pass",
@@ -16,6 +18,7 @@
   "validator_hardening_2026_09_26": {
     "change": "Removed the accidental acceptance of the misspelled 'stp medal shop' token; TP Medal Shop validation now requires the canonical 'tp medal shop' phrase.",
     "result": "Existing 474-record audit remains pass; no canonical acquisition data changed.",
-    "evidence_boundary": "This audit checks internal consistency between acquisition_type, unlock_method, and explicit source_parallel_quests. It does not prove an acquisition claim against external sources."
+    "evidence_boundary": "This audit checks internal consistency between acquisition_type, unlock_method, and explicit source_parallel_quests. It does not prove an acquisition claim against external sources.",
+    "pq_endpoint_validation": "Every source_parallel_quests value must now be an integer in supported PQ range 1–186."
   }
 }
