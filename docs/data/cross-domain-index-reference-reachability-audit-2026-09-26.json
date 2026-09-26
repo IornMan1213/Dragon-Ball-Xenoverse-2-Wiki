@@ -50,8 +50,12 @@
     "Post-validator refresh 2026-09-26: registered partner-skill relationship validator audit is live and reachable; recomputation is 730 tree paths / 1631 reference occurrences / 739 reachable / 892 unreachable.",
     "2026-09-26 live-tree reconciliation: character presentation audit no longer lists the deleted validate_character_explorer.py path as an active consumer; generated Character/Skills/PQ/Super-Soul/Equipment HTML explorer files are treated as build outputs rather than source-tree invariants.",
     "2026-09-26 critical-reference reconciliation: all 18 references in the critical-unreachable set were directly checked against the live main tree. None are current source-tree files; 13 are dated/historical audit snapshots and 5 are missing primary/reverse dataset classes. A dedicated reconciliation audit is now registered rather than deleting provenance references or fabricating replacement datasets.",
-    "2026-09-26 scalar consistency correction: critical_unreachable_reference_count had drifted to 20 while the enumerated critical_unreachable_references list contained 18 paths; the scalar is now derived from the live enumerated set."
+    "2026-09-26 scalar consistency correction: critical_unreachable_reference_count had drifted to 20 while the enumerated critical_unreachable_references list contained 18 paths; the scalar is now derived from the live enumerated set.",
+    "2026-09-26 live reachability follow-up: the Partner Customization recovery audit is still registered by the cross-domain index but is not fetchable from the current main tree. It is treated as an audit/provenance artifact, not as a missing canonical dataset; no replacement was fabricated."
   ],
   "evidence_boundary": "This audit tests only path reachability against the live repository tree. It does not determine whether an unreachable historical artifact should be recreated, whether its underlying claim remains correct, or whether a planned reverse index has enough source data to regenerate safely.",
-  "next": "Inspect the next live cross-domain validator/consumer for a concrete deterministic projection or source-vs-build-output mismatch; do not recreate the absent general PQ reward layer without an evidence-complete canonical source."
+  "next": "Inspect the next live cross-domain validator/consumer for a concrete deterministic projection or source-vs-build-output mismatch; do not recreate the absent general PQ reward layer without an evidence-complete canonical source.",
+  "unreachable_audit_artifact_references": [
+    "docs/data/partner-customization-character-navigation-recovery-audit-2026-09-26.json"
+  ]
 }
