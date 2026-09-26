@@ -1,0 +1,106 @@
+{
+  "batch": 475,
+  "date": "2026-09-26",
+  "status": "research_complete",
+  "scope": "Fresh unaudited mechanics frontier after Batch 474, excluding every skill with a registered current-evidence audit.",
+  "selection_method": "Selected the eight shortest canonical mechanics records whose skill IDs were not represented by a registered current-evidence audit.",
+  "selected": [
+    "Blazing Attack",
+    "S.S. Deadly Bomber",
+    "Soaring Fist",
+    "Timespace Impact",
+    "Psycho Barrier",
+    "Shadow Crusher",
+    "Spirit Ball",
+    "Double Crush"
+  ],
+  "records": [
+    {
+      "skill_id": "skill-blazing-attack",
+      "skill_name": "Blazing Attack",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ136. The user performs an aura-infused overhead punch; if it connects, a Ki Blast hits the downed opponent, producing the documented two-hit pseudo-Strike sequence. Current Xenoverse 2 skill evidence reports 10% damage for the follow-up Ki Blast and confirms the PQ136 endpoint; exact startup/frame data, universal scaling, and reward probability remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Blazing_Attack",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)"
+      ]
+    },
+    {
+      "skill_id": "skill-s-s-deadly-bomber",
+      "skill_name": "S.S. Deadly Bomber",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "400-Ki Ki Blast Ultimate from PQ115, \"Extreme Battle with Android 13!\". The user creates a large Ki ball that advances while tracking/heat-seeking the opponent; current Xenoverse 2 skill evidence classifies it as a long-range 15-hit projectile and reports 30% total damage. Exact tracking parameters, frames, and reward probability remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/S.S._Deadly_Bomber"
+      ]
+    },
+    {
+      "skill_id": "skill-soaring-fist",
+      "skill_name": "Soaring Fist",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "100-Ki Strike Super available from the TP Medal Shop. The user punches forward to create an energy burst; an uncharged release hits once for a source-reported 10% damage, while holding the input produces up to three projectiles for a source-reported 15% total and increases range. Current evidence also records CaC usability after Supreme Kai of Time content; exact charge timing and scaling remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Soaring_Fist",
+        "https://dbxv2.fandom.com/wiki/Free_Update"
+      ]
+    },
+    {
+      "skill_id": "skill-timespace-impact",
+      "skill_name": "Timespace Impact",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "500-Ki Ki Blast Ultimate from Conton City Tournament Match 5, \"The Fated Finale.\" The opening restrains the opponent in a Ki-gear effect so the target does not fly away, then the user fires a large Ki sphere for a documented 14-hit sequence and about 50% total damage. Current evidence also reports that the restraint can persist for 5 seconds even if the user is struck during the opening; exact frames and scaling remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Timespace_Impact",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
+      "skill_id": "skill-psycho-barrier",
+      "skill_name": "Psycho Barrier",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "100-Ki Ki Blast Super learned through Bojack training. The user creates a protective green barrier in front of themselves; additional input expands the barrier up to two times. Current Xenoverse 2 skill evidence describes the barrier as protecting the user from attacks and reports 2% damage per offensive contact. Exact duration, frame behavior, and scaling remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Psycho_Barrier",
+        "https://dbxv2.fandom.com/wiki/Partner_Customization"
+      ]
+    },
+    {
+      "skill_id": "skill-shadow-crusher",
+      "skill_name": "Shadow Crusher",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "100-Ki Strike counter Super used by Cooler (Final Form) and obtainable through his training. The user holds a counter stance for about one second; if struck by a Ki Blast during the window, they rush to the opponent and perform a hard-knockdown strike. Current skill evidence reports about 20% damage and specifies that the counter reacts to Ki Blast-based attacks rather than melee attacks; exact counter-window frames remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Shadow_Crusher",
+        "https://dbxv2.fandom.com/wiki/Counter_Skill"
+      ]
+    },
+    {
+      "skill_id": "skill-spirit-ball",
+      "skill_name": "Spirit Ball",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate learned through Yamcha training. The user creates and throws a large Ki ball; up to 17 additional inputs make the projectile continue tracking the opponent, producing a documented 1–18-hit sequence. Current skill evidence reports 5% damage per hit and long-range knockback behavior; exact tracking parameters, frames, and patch-independent scaling remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Spirit_Ball",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
+      "skill_id": "skill-double-crush",
+      "skill_name": "Double Crush",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ147, \"Caulifla's Saiyan Search.\" The user sets up eight Ki projectiles overhead; another input detonates/redirects them so they home toward the opponent, with current skill evidence classifying the move as a short-range 1–8-hit attack and reporting up to about 20% damage. Exact setup timing, homing parameters, and per-hit scaling remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Double_Crush",
+        "https://dbxv2.fandom.com/wiki/Crush_Stream"
+      ]
+    }
+  ],
+  "evidence_policy": "Current Xenoverse 2-specific evidence is prioritized. Source-reported numerical values remain source-bound; unsupported exact frames, scaling, hidden interactions, and reward probabilities are not inferred.",
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "missing_ids": [],
+    "extra_ids": []
+  },
+  "exact_next": "Run a fresh unaudited mechanics frontier census excluding Batch 475 and every prior registered current-evidence audit, then continue the canonical research/synchronization cycle."
+}

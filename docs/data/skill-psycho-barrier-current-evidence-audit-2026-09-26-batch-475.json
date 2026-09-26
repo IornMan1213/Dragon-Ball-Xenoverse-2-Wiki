@@ -1,0 +1,14 @@
+{
+  "skill_id": "skill-psycho-barrier",
+  "skill_name": "Psycho Barrier",
+  "batch": 475,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Ki Blast Super learned through Bojack training. The user creates a protective green barrier in front of themselves; additional input expands the barrier up to two times. Current Xenoverse 2 skill evidence describes the barrier as protecting the user from attacks and reports 2% damage per offensive contact. Exact duration, frame behavior, and scaling remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Psycho_Barrier",
+    "https://dbxv2.fandom.com/wiki/Partner_Customization"
+  ],
+  "evidence_boundary": "Numerical values are source-reported observations. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

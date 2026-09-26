@@ -1,3 +1,12 @@
+### 2026-09-26 TODO progress update — Skill Research Batch 475 completed
+- [x] Fresh 474-record mechanics frontier excluded every skill with a registered current-evidence audit and selected **Blazing Attack, S.S. Deadly Bomber, Soaring Fist, Timespace Impact, Psycho Barrier, Shadow Crusher, Spirit Ball, Double Crush**.
+- [x] Enriched and synchronized all eight records in `docs/data/skills.json` and `docs/data/skills-index.json`; canonical/index remain **474/474** with **0 missing / 0 extra**.
+- [x] Added eight current-evidence audits, the Batch 475 research/thin-frontier artifacts, and provenance registry entries.
+- [x] Preserved evidence boundaries; unsupported exact frames, scaling, probabilities, and hidden conditions remain unresolved.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [ ] Efficiency addendum remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 475 and all prior current-evidence-audited records.
+
 ### 2026-09-26 continuation — Batch 472 canonical reconciliation
 
 - [x] Used the newly verified full-blob access path to reconcile Batch 472 against the live canonical skill datasets.

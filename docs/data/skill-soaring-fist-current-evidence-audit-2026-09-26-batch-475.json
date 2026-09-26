@@ -1,0 +1,14 @@
+{
+  "skill_id": "skill-soaring-fist",
+  "skill_name": "Soaring Fist",
+  "batch": 475,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Strike Super available from the TP Medal Shop. The user punches forward to create an energy burst; an uncharged release hits once for a source-reported 10% damage, while holding the input produces up to three projectiles for a source-reported 15% total and increases range. Current evidence also records CaC usability after Supreme Kai of Time content; exact charge timing and scaling remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Soaring_Fist",
+    "https://dbxv2.fandom.com/wiki/Free_Update"
+  ],
+  "evidence_boundary": "Numerical values are source-reported observations. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

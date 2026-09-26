@@ -1,0 +1,14 @@
+{
+  "skill_id": "skill-timespace-impact",
+  "skill_name": "Timespace Impact",
+  "batch": 475,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "500-Ki Ki Blast Ultimate from Conton City Tournament Match 5, \"The Fated Finale.\" The opening restrains the opponent in a Ki-gear effect so the target does not fly away, then the user fires a large Ki sphere for a documented 14-hit sequence and about 50% total damage. Current evidence also reports that the restraint can persist for 5 seconds even if the user is struck during the opening; exact frames and scaling remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Timespace_Impact",
+    "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+  ],
+  "evidence_boundary": "Numerical values are source-reported observations. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

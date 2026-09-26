@@ -1,0 +1,14 @@
+{
+  "skill_id": "skill-shadow-crusher",
+  "skill_name": "Shadow Crusher",
+  "batch": 475,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Strike counter Super used by Cooler (Final Form) and obtainable through his training. The user holds a counter stance for about one second; if struck by a Ki Blast during the window, they rush to the opponent and perform a hard-knockdown strike. Current skill evidence reports about 20% damage and specifies that the counter reacts to Ki Blast-based attacks rather than melee attacks; exact counter-window frames remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Shadow_Crusher",
+    "https://dbxv2.fandom.com/wiki/Counter_Skill"
+  ],
+  "evidence_boundary": "Numerical values are source-reported observations. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

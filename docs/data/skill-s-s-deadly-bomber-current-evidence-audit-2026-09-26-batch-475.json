@@ -1,0 +1,13 @@
+{
+  "skill_id": "skill-s-s-deadly-bomber",
+  "skill_name": "S.S. Deadly Bomber",
+  "batch": 475,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "400-Ki Ki Blast Ultimate from PQ115, \"Extreme Battle with Android 13!\". The user creates a large Ki ball that advances while tracking/heat-seeking the opponent; current Xenoverse 2 skill evidence classifies it as a long-range 15-hit projectile and reports 30% total damage. Exact tracking parameters, frames, and reward probability remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/S.S._Deadly_Bomber"
+  ],
+  "evidence_boundary": "Numerical values are source-reported observations. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

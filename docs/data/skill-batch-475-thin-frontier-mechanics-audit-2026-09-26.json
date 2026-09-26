@@ -1,0 +1,58 @@
+{
+  "batch": 475,
+  "date": "2026-09-26",
+  "scope": "Thin mechanics frontier audit",
+  "census": {
+    "record_count": 474,
+    "selection_rule": "Shortest canonical mechanics records whose IDs were not represented by a registered current-evidence audit."
+  },
+  "selected": [
+    {
+      "skill_id": "skill-blazing-attack",
+      "skill_name": "Blazing Attack",
+      "mechanics_length": 394
+    },
+    {
+      "skill_id": "skill-s-s-deadly-bomber",
+      "skill_name": "S.S. Deadly Bomber",
+      "mechanics_length": 350
+    },
+    {
+      "skill_id": "skill-soaring-fist",
+      "skill_name": "Soaring Fist",
+      "mechanics_length": 410
+    },
+    {
+      "skill_id": "skill-timespace-impact",
+      "skill_name": "Timespace Impact",
+      "mechanics_length": 434
+    },
+    {
+      "skill_id": "skill-psycho-barrier",
+      "skill_name": "Psycho Barrier",
+      "mechanics_length": 377
+    },
+    {
+      "skill_id": "skill-shadow-crusher",
+      "skill_name": "Shadow Crusher",
+      "mechanics_length": 438
+    },
+    {
+      "skill_id": "skill-spirit-ball",
+      "skill_name": "Spirit Ball",
+      "mechanics_length": 391
+    },
+    {
+      "skill_id": "skill-double-crush",
+      "skill_name": "Double Crush",
+      "mechanics_length": 379
+    }
+  ],
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "missing_ids": [],
+    "extra_ids": []
+  },
+  "next": "Repeat the census for Batch 476; do not treat a prior enrichment batch as a current-evidence audit unless its dedicated audit artifact is registered."
+}

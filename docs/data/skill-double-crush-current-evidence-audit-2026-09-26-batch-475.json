@@ -1,0 +1,14 @@
+{
+  "skill_id": "skill-double-crush",
+  "skill_name": "Double Crush",
+  "batch": 475,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Ki Blast Super from PQ147, \"Caulifla's Saiyan Search.\" The user sets up eight Ki projectiles overhead; another input detonates/redirects them so they home toward the opponent, with current skill evidence classifying the move as a short-range 1–8-hit attack and reporting up to about 20% damage. Exact setup timing, homing parameters, and per-hit scaling remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Double_Crush",
+    "https://dbxv2.fandom.com/wiki/Crush_Stream"
+  ],
+  "evidence_boundary": "Numerical values are source-reported observations. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

@@ -673,14 +673,16 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dbxv2.fandom.com/wiki/Blazing_Attack",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)"
       ],
       "unlock_method": "Parallel Quest 136 — \"Breaking Down the Barrier\" Ultimate Finish bonus reward (25%)",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 source reconciliation: maintained PQ136 data documents a 25% Ultimate Finish bonus slot for Blazing Attack; the prior Basic Reward classification was stale. 2026-09-21 Ultra Pack 1 provenance audit: official Bandai Namco documentation identifies Ultra Pack 1 as containing 10 additional skills and five Parallel Quests (PQ133–137); the maintained all-PQ guide independently maps the ten player-acquirable skills to those quests. Character-only Final Charge and Final Flash (Super) are retained under Ultra Pack 1 because current technique documentation identifies them as Ultra Pack 1 character-exclusive skills; they are distinct from the ten Future Warrior-acquirable skills listed for the pack. This pass verifies DLC provenance only and does not infer reward-slot semantics where sources conflict. 2026-09-22 provenance verification: current dedicated and independent documentation corroborate the existing acquisition endpoint and skill identity; existing reward-tier/probability semantics are preserved. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-25 Batch 411 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal damage scaling, hidden thresholds, and drop probabilities remain unresolved.",
-      "mechanics_notes": "100-Ki Ki Blast Super from PQ136. The user performs an aura-infused overhead punch; if it connects, a Ki blast hits the downed opponent for documented 10% damage, producing the move's two-hit pseudo-Strike sequence. Current evidence preserves CaC usability and the PQ136 endpoint; exact startup/frame data and scaling remain unresolved.",
+      "notes": "2026-09-20 source reconciliation: maintained PQ136 data documents a 25% Ultimate Finish bonus slot for Blazing Attack; the prior Basic Reward classification was stale. 2026-09-21 Ultra Pack 1 provenance audit: official Bandai Namco documentation identifies Ultra Pack 1 as containing 10 additional skills and five Parallel Quests (PQ133–137); the maintained all-PQ guide independently maps the ten player-acquirable skills to those quests. Character-only Final Charge and Final Flash (Super) are retained under Ultra Pack 1 because current technique documentation identifies them as Ultra Pack 1 character-exclusive skills; they are distinct from the ten Future Warrior-acquirable skills listed for the pack. This pass verifies DLC provenance only and does not infer reward-slot semantics where sources conflict. 2026-09-22 provenance verification: current dedicated and independent documentation corroborate the existing acquisition endpoint and skill identity; existing reward-tier/probability semantics are preserved. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-25 Batch 411 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal damage scaling, hidden thresholds, and drop probabilities remain unresolved.\n2026-09-26 Batch 475 current-evidence enrichment: dedicated Xenoverse 2 evidence rechecked; unsupported frame/scaling/probability claims are not inferred.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ136. The user performs an aura-infused overhead punch; if it connects, a Ki Blast hits the downed opponent, producing the documented two-hit pseudo-Strike sequence. Current Xenoverse 2 skill evidence reports 10% damage for the follow-up Ki Blast and confirms the PQ136 endpoint; exact startup/frame data, universal scaling, and reward probability remain unresolved.",
       "source_quest": 136,
       "source_quest_or_shop": "Parallel Quest 136 — \"Breaking Down the Barrier\"",
       "source_parallel_quests": [
@@ -2935,14 +2937,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Double_Crush",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
+        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc",
+        "https://dbxv2.fandom.com/wiki/Crush_Stream"
       ],
       "unlock_method": "Parallel Quest 147 — \"Caulifla's Saiyan Search\"",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context. 2026-09-21 provenance strengthening: independent PQ147 reward documentation lists Double Crush as a Basic Reward of PQ147, while official Bandai Namco DLC documentation independently establishes the Legendary Pack 2 package scope. Exact individual reward evidence remains the PQ source; the official source is package-level provenance only. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, classification, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing conflicts and unresolved fields are preserved; no unsupported drop probability, Ultimate Finish gate, prerequisite, timer, frame data, damage value, stacking cap, or narrower restriction is inferred.\n2026-09-25 Batch 414 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, scaling, and timing values remain unresolved.",
-      "mechanics_notes": "100 Ki Ki Blast Super from PQ147. The user places eight Ki projectiles above them; a second input detonates/redirects the set toward the opponent, with the projectiles homing and dealing up to about 20% damage. The setup and delayed activation are the defining mechanics. Exact timing, tracking strength, and per-hit scaling remain unresolved.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context. 2026-09-21 provenance strengthening: independent PQ147 reward documentation lists Double Crush as a Basic Reward of PQ147, while official Bandai Namco DLC documentation independently establishes the Legendary Pack 2 package scope. Exact individual reward evidence remains the PQ source; the official source is package-level provenance only. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, classification, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing conflicts and unresolved fields are preserved; no unsupported drop probability, Ultimate Finish gate, prerequisite, timer, frame data, damage value, stacking cap, or narrower restriction is inferred.\n2026-09-25 Batch 414 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, scaling, and timing values remain unresolved.\n2026-09-26 Batch 475 current-evidence enrichment: dedicated Xenoverse 2 evidence rechecked; unsupported frame/scaling/probability claims are not inferred.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ147, \"Caulifla's Saiyan Search.\" The user sets up eight Ki projectiles overhead; another input detonates/redirects them so they home toward the opponent, with current skill evidence classifying the move as a short-range 1–8-hit attack and reporting up to about 20% damage. Exact setup timing, homing parameters, and per-hit scaling remain unresolved.",
       "source_quest": 147,
       "source_quest_or_shop": "Parallel Quest 147 — \"Caulifla's Saiyan Search\"",
       "source_parallel_quests": [
@@ -8092,14 +8095,15 @@
         "https://dbxv2.fandom.com/wiki/Psycho_Barrier",
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
-        "https://dragonball.fandom.com/wiki/Energy_Shield"
+        "https://dragonball.fandom.com/wiki/Energy_Shield",
+        "https://dbxv2.fandom.com/wiki/Partner_Customization"
       ],
       "unlock_method": "Bojack mentor training — Lesson 2.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-25 current-evidence refresh: current dedicated documentation confirms the 100-Ki defensive Ki Blast Super, barrier expansion input, and documented contact damage. Sources differ on whether the expansion can be performed twice or described as three total sizes; the repository preserves that wording conflict rather than silently normalizing it.\n2026-09-25 Batch 409 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, timing, scaling, and hidden conditions remain unresolved.",
-      "mechanics_notes": "100-Ki Ki Blast Super from Bojack mentor Lesson 2. Creates a protective green barrier in front of the user; additional input expands the barrier up to two times and each contact is reported at about 2% damage. Current evidence supports both defensive protection and offensive contact, while exact duration/frame behavior remains unresolved.",
+      "notes": "2026-09-25 current-evidence refresh: current dedicated documentation confirms the 100-Ki defensive Ki Blast Super, barrier expansion input, and documented contact damage. Sources differ on whether the expansion can be performed twice or described as three total sizes; the repository preserves that wording conflict rather than silently normalizing it.\n2026-09-25 Batch 409 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, timing, scaling, and hidden conditions remain unresolved.\n2026-09-26 Batch 475 current-evidence enrichment: dedicated Xenoverse 2 evidence rechecked; unsupported frame/scaling/probability claims are not inferred.",
+      "mechanics_notes": "100-Ki Ki Blast Super learned through Bojack training. The user creates a protective green barrier in front of themselves; additional input expands the barrier up to two times. Current Xenoverse 2 skill evidence describes the barrier as protecting the user from attacks and reports 2% damage per offensive contact. Exact duration, frame behavior, and scaling remain unresolved.",
       "source_quest": "Bojack mentor training — Lesson 2.",
       "source_quest_or_shop": "Bojack mentor training",
       "ki_cost": 100
@@ -8764,10 +8768,10 @@
       ],
       "unlock_method": "Parallel Quest 115 — Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": " 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; no unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.\n2026-09-25 Batch 374 mechanics enrichment: current/repository evidence promoted bounded mechanics; unresolved frame timing, exact damage, probability, and hidden-gate fields remain unasserted.\n2026-09-25 Batch 408 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, timing, damage, tracking, and hidden reward probabilities remain unresolved.",
-      "mechanics_notes": "400-Ki Ki Blast Ultimate from PQ115, \"Extreme Battle with Android 13!\" The user creates a Ki ball that heat-seeks the opponent; current Xenoverse 2-specific documentation reports 15 hits and about 30% damage. The maintained acquisition data treats it as a Basic Reward; exact drop probability and frame/hitbox details remain unresolved.",
+      "notes": " 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; no unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.\n2026-09-25 Batch 374 mechanics enrichment: current/repository evidence promoted bounded mechanics; unresolved frame timing, exact damage, probability, and hidden-gate fields remain unasserted.\n2026-09-25 Batch 408 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, timing, damage, tracking, and hidden reward probabilities remain unresolved.\n2026-09-26 Batch 475 current-evidence enrichment: dedicated Xenoverse 2 evidence rechecked; unsupported frame/scaling/probability claims are not inferred.",
+      "mechanics_notes": "400-Ki Ki Blast Ultimate from PQ115, \"Extreme Battle with Android 13!\". The user creates a large Ki ball that advances while tracking/heat-seeking the opponent; current Xenoverse 2 skill evidence classifies it as a long-range 15-hit projectile and reports 30% total damage. Exact tracking parameters, frames, and reward probability remain unresolved.",
       "source_quest": 115,
       "source_quest_or_shop": "Parallel Quest 115 — \"Extreme Battle with Android 13!\"",
       "source_parallel_quests": [
@@ -9018,14 +9022,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Shadow_Crusher",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dbxv2.fandom.com/wiki/Counter_Skill"
       ],
       "unlock_method": "Cooler's Lesson 1 — complete the instructor lesson to receive Shadow Crusher as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-23 research refresh: current skill references corroborate the 100-Ki Strike Super classification, Ki-Blast counter behavior, and Cooler (Final Form) Lesson 1 acquisition endpoint. No additional prerequisite is inferred.\n2026-09-25 Batch 412 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal scaling, hidden targeting rules, and timing values remain unresolved.",
-      "mechanics_notes": "100-Ki Strike counter Super used by Cooler (Final Form). The user holds a stance for about one second; if struck by a Ki Blast during the counter window, the user rushes to the opponent and performs a hard-knockdown strike for about 20% damage. It only reacts to Ki Blast-based attacks. Exact counter window and frame data remain unresolved.",
+      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-23 research refresh: current skill references corroborate the 100-Ki Strike Super classification, Ki-Blast counter behavior, and Cooler (Final Form) Lesson 1 acquisition endpoint. No additional prerequisite is inferred.\n2026-09-25 Batch 412 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal scaling, hidden targeting rules, and timing values remain unresolved.\n2026-09-26 Batch 475 current-evidence enrichment: dedicated Xenoverse 2 evidence rechecked; unsupported frame/scaling/probability claims are not inferred.",
+      "mechanics_notes": "100-Ki Strike counter Super used by Cooler (Final Form) and obtainable through his training. The user holds a counter stance for about one second; if struck by a Ki Blast during the window, they rush to the opponent and perform a hard-knockdown strike. Current skill evidence reports about 20% damage and specifies that the counter reacts to Ki Blast-based attacks rather than melee attacks; exact counter-window frames remain unresolved.",
       "source_quest": "Cooler (Final Form) mentor training — Lesson 1",
       "source_quest_or_shop": "Cooler (Final Form) mentor training — Lesson 1"
     },
@@ -9264,14 +9269,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Soaring_Fist",
         "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc",
-        "https://dragonball.fandom.com/wiki/Soaring_Fist"
+        "https://dragonball.fandom.com/wiki/Soaring_Fist",
+        "https://dbxv2.fandom.com/wiki/Free_Update"
       ],
       "unlock_method": "TP Medal Shop / STP Medal Shop",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Soaring Fist as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-22 provenance strengthening: Dragon Ball Wiki independently confirms Soaring Fist as a Xenoverse 2 Super Skill and states that the Future Warrior can purchase it from the TP Medal Shop following Update 1.14. Existing official DLC/update provenance and TP/STP shop endpoint are retained; no additional shop rotation or purchase condition is inferred. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 research refresh: current sources corroborate Soaring Fist as a 100-Ki Super available to the Future Warrior through the TP Medal Shop after Update 1.14; its Ultra Instinct integration as a modified Ki-blast behavior is retained without inferring shop rotation details.",
-      "mechanics_notes": "100-Ki Strike Super that launches a chargeable burst from a forward punch. One uncharged release hits once; holding the input fires up to three projectiles and increases their range. Current dedicated skill evidence reports 10% damage for one hit and 15% total for three hits. It is usable by CaCs through the TP/STP Medal Shop endpoint.",
+      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Soaring Fist as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-22 provenance strengthening: Dragon Ball Wiki independently confirms Soaring Fist as a Xenoverse 2 Super Skill and states that the Future Warrior can purchase it from the TP Medal Shop following Update 1.14. Existing official DLC/update provenance and TP/STP shop endpoint are retained; no additional shop rotation or purchase condition is inferred. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 research refresh: current sources corroborate Soaring Fist as a 100-Ki Super available to the Future Warrior through the TP Medal Shop after Update 1.14; its Ultra Instinct integration as a modified Ki-blast behavior is retained without inferring shop rotation details.\n2026-09-26 Batch 475 current-evidence enrichment: dedicated Xenoverse 2 evidence rechecked; unsupported frame/scaling/probability claims are not inferred.",
+      "mechanics_notes": "100-Ki Strike Super available from the TP Medal Shop. The user punches forward to create an energy burst; an uncharged release hits once for a source-reported 10% damage, while holding the input produces up to three projectiles for a source-reported 15% total and increases range. Current evidence also records CaC usability after Supreme Kai of Time content; exact charge timing and scaling remain unresolved.",
       "source_quest_or_shop": "TP Medal Shop / STP Medal Shop"
     },
     {
@@ -9472,14 +9478,15 @@
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
-        "https://dbxv2.fandom.com/wiki/Spirit_Ball"
+        "https://dbxv2.fandom.com/wiki/Spirit_Ball",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ],
       "unlock_method": "Yamcha's Lesson 3 — complete the instructor lesson to receive Spirit Ball as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-22 provenance refresh: Yamcha Lesson 3 is confirmed as the acquisition endpoint; current evidence confirms Spirit Ball as Yamcha's Ultimate/Ki Blast skill. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred. 2026-09-25 Batch 376 mechanics enrichment: current skill-specific evidence added; source-reported numeric mechanics and the Tail Slicer source conflict are preserved as bounded evidence.",
-      "mechanics_notes": "300-Ki Ki Blast Ultimate. The user creates and throws a large Ki ball; up to 17 additional inputs make the projectile continue tracking the opponent, for a documented 1–18-hit sequence. It is a long-range projectile and can knock the target back; exact per-hit damage is source-reported and not treated as a patch-independent canonical value.",
+      "notes": "2026-09-22 provenance refresh: Yamcha Lesson 3 is confirmed as the acquisition endpoint; current evidence confirms Spirit Ball as Yamcha's Ultimate/Ki Blast skill. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred. 2026-09-25 Batch 376 mechanics enrichment: current skill-specific evidence added; source-reported numeric mechanics and the Tail Slicer source conflict are preserved as bounded evidence.\n2026-09-26 Batch 475 current-evidence enrichment: dedicated Xenoverse 2 evidence rechecked; unsupported frame/scaling/probability claims are not inferred.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate learned through Yamcha training. The user creates and throws a large Ki ball; up to 17 additional inputs make the projectile continue tracking the opponent, producing a documented 1–18-hit sequence. Current skill evidence reports 5% damage per hit and long-range knockback behavior; exact tracking parameters, frames, and patch-independent scaling remain unresolved.",
       "source_quest": "Yamcha mentor training — Lesson 3",
       "source_quest_or_shop": "Yamcha mentor training — Lesson 3",
       "source_mentor": [
@@ -10881,14 +10888,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Timespace_Impact",
         "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc",
-        "https://dragonball.fandom.com/wiki/Timespace_Impact"
+        "https://dragonball.fandom.com/wiki/Timespace_Impact",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ],
       "unlock_method": "Conton City Tournament Match 5 — \"The Fated Finale\"",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Timespace Impact as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-22 provenance strengthening: Dragon Ball Wiki independently corroborates Timespace Impact as a Xenoverse 2 Ultimate Skill unlocked through the periodic Conton City Tournament, matching the canonical Match 5 endpoint. No new drop probability, Ultimate Finish gate, or acquisition restriction is inferred from this source. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred. 2026-09-25 Batch 380 mechanics enrichment: current skill-specific evidence expanded the mechanics description; source-reported numeric values remain bounded evidence. ",
-      "mechanics_notes": "500-Ki Ki Blast Ultimate. The opening creates a Ki-gear restraint that stops the target from flying away, after which a large Ki sphere strikes for a documented 14-hit sequence. Current skill-specific evidence reports roughly 50% total damage and says the restraint can persist for 5 seconds even if the user is struck during the opening.",
+      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Timespace Impact as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-22 provenance strengthening: Dragon Ball Wiki independently corroborates Timespace Impact as a Xenoverse 2 Ultimate Skill unlocked through the periodic Conton City Tournament, matching the canonical Match 5 endpoint. No new drop probability, Ultimate Finish gate, or acquisition restriction is inferred from this source. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred. 2026-09-25 Batch 380 mechanics enrichment: current skill-specific evidence expanded the mechanics description; source-reported numeric values remain bounded evidence. \n2026-09-26 Batch 475 current-evidence enrichment: dedicated Xenoverse 2 evidence rechecked; unsupported frame/scaling/probability claims are not inferred.",
+      "mechanics_notes": "500-Ki Ki Blast Ultimate from Conton City Tournament Match 5, \"The Fated Finale.\" The opening restrains the opponent in a Ki-gear effect so the target does not fly away, then the user fires a large Ki sphere for a documented 14-hit sequence and about 50% total damage. Current evidence also reports that the restraint can persist for 5 seconds even if the user is struck during the opening; exact frames and scaling remain unresolved.",
       "source_quest_or_shop": "Conton City Tournament Match 5"
     },
     {
