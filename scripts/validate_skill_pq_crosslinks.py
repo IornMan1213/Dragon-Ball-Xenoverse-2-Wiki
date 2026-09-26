@@ -21,7 +21,7 @@ records = data["records"]
 ids = [r["id"] for r in records]
 assert len(records) == EXPECTED_SKILLS, f"skill count {len(records)} != {EXPECTED_SKILLS}"
 assert len(set(ids)) == EXPECTED_SKILLS, "duplicate canonical skill IDs"
-
+\n# Keep the checked-in reverse artifact synchronized with the deterministic source projection.\n# A count-only check can pass while individual PQ edges drift.\nexisting_reverse = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else None\n
 by_pq = {str(i): [] for i in range(1, 187)}
 for record in records:
     for pq_id in record.get("source_parallel_quests", []):
