@@ -1,3 +1,11 @@
+### 2026-09-26 continuation — Character presentation validator hardened for optional generated explorer
+- [x] Inspected the live character presentation consumer validator and found a concrete source-checkout failure: `scripts/validate_character_presentation_consumers.py` unconditionally opened `docs/Characters-All.html`, even though that generated explorer is absent from the live source tree.
+- [x] Hardened the validator to treat `docs/Characters-All.html` as an optional generated build artifact: source-data identity, bridge, preset, Partner Customization, and Markdown checks remain enforced; generated explorer navigation is checked when the artifact exists and skipped when it does not.
+- [x] Corrected the validator's Markdown consumer join from a literal `\\n` sequence to a real newline.
+- [x] Refreshed `docs/data/characters/character-presentation-consumer-audit.json` to record the optional generated-artifact boundary and the live validator commit.
+- [x] No canonical character identity, preset, relationship, or acquisition data was changed.
+- [ ] Runtime execution/CI remains unverified in this environment.
+- [x] **Exact next:** inspect the next live cross-domain validator/consumer for an equivalent deterministic source-vs-build-output mismatch; preserve the evidence boundary around absent general PQ reward datasets.
 ### 2026-09-26 continuation — Skill↔PQ deterministic validator hardening
 - [x] Inspected the live skill→PQ validator and discovered a malformed literal `\\n` sequence in the checked-in Python source; corrected it rather than leaving a runtime syntax hazard.
 - [x] Implemented the validator's documented exact checked-in reverse-projection comparison: `pq_ids` must equal the deterministic projection of `skills.json` `source_parallel_quests`, including skill counts, IDs, names, and relationship status.
