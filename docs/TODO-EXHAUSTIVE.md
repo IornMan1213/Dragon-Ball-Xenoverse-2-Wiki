@@ -1,3 +1,13 @@
+### 2026-09-26 TODO progress update — Skill Research Batch 488 completed
+- [x] Fresh live 474-record mechanics frontier was re-censused after Batch 487 and excluded every skill ID represented by a registered current-evidence audit.
+- [x] Researched and synchronized **Fierce Fist, Venus Fist, Handy Canon, Full Power Destruction, Prominence Flash, Galick Gun, Ill Rain, and Gigantic Cross**.
+- [x] Canonical/index parity remains **474/474**, with **0 missing / 0 extra IDs** and ordered parity true.
+- [x] Added Batch 488 research/thin-frontier artifacts and eight current-evidence audits; all ten artifacts are registered in `docs/data/pq-cross-domain-index.json`.
+- [x] Evidence boundaries preserved. Venus Fist low-Health behavior and 3-Ki-bar reports are source-bounded; no exact hit/scaling modifier was invented.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] Efficiency addendum remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** fresh unaudited mechanics-frontier census excluding Batch 488 and every prior registered current-evidence audit; do not reuse stale candidate lists.
+
 
 ### 2026-09-26 continuation — Skill Research Batch 487 completed
 - [x] Fresh live frontier was rechecked rather than blindly reusing the prior frontier.
