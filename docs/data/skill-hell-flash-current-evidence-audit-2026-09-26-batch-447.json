@@ -1,0 +1,21 @@
+{
+  "skill_id": "skill-hell-flash",
+  "name": "Hell Flash",
+  "batch": 447,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Hell_Flash"
+  ],
+  "findings": [
+    "300 Ki Ki Blast Ultimate",
+    "Android 16 training",
+    "Ground-targeted beam creates Ki pillars",
+    "26 hits",
+    "Source-reported ~70% total damage",
+    "Launching"
+  ],
+  "evidence_boundaries": [
+    "Exact frames and scaling remain unresolved."
+  ]
+}
