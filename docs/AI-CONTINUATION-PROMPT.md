@@ -719,3 +719,15 @@
 - [x] Preserved the corrected Freedom Kick PQ provenance and unresolved Ultimate Finish semantics instead of converting reward-slot evidence into a requirement.
 - [ ] Canonical generated skill files were not partially rewritten; CI remains unverified.
 - [x] **Exact next:** continue fresh census through the remaining older partially-verified records, prioritizing deterministic mechanics/acquisition corrections.
+
+
+### 2026-09-25 cycle completion — PQ↔skill validator 470-baseline correction
+
+- [x] Live repository census/evidence confirms the current canonical skill baseline is **470** records; the current skills/index parity work also treats **470/470** as the active boundary.
+- [x] Inspected `scripts/validate_pq_skill_links.py` and found a deterministic stale invariant still hard-coded to **469** skills while the live baseline is 470.
+- [x] Corrected both validator expectations to **470**: `expected_skill_record_count` and the `canonical_forward_invariants_pass` skill-count condition. PQ count remains 186 and forward-edge expectation remains 244.
+- [x] Verified the edited validator contains the new 470 expectations after the write.
+- [ ] The generated `docs/data/pq-skill-crosslink-report.json` still carries its historical 469 baseline until the validator is executed; no false regenerated-report claim is made because execution/CI is unavailable in this cycle.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Commit: `fe9e895e9b625651b98a5b27ac12138898cad2ec`.
+- [x] Exact next: run/reconcile the PQ↔skill validator against the live 470-skill baseline when an execution path is available; then continue the fresh thin-record/current-evidence skill census rather than redoing closed research batches.
