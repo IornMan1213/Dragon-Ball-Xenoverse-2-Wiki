@@ -1449,3 +1449,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build remains unverified.
 - [ ] Efficiency addendum remains unavailable at expected path (GitHub 404).
 - [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 447 and all prior current-evidence-audited records.
+
+
+### 2026-09-26 TODO progress update — Skill Research Batch 448 completed
+- [x] Fresh 474-record mechanics frontier census excluded every skill with a registered current-evidence audit and selected **Wild Buster, Blaster Bomb, Divine Spear, Hyper Tornado, Angry Hit, Meteor Strike, Mystic Flash, and Wall of Defense**.
+- [x] Enriched and synchronized all eight records in `docs/data/skills.json` and `docs/data/skills-index.json`; canonical/index remain 474/474 with 0 missing / 0 extra.
+- [x] Added eight current-evidence audits, `docs/data/skill-research-batches/skill-batch-448.json`, the Batch 448 thin-frontier audit, and provenance registry entries; registry now contains 694 entries.
+- [x] Preserved evidence boundaries: source-reported damage and behavioral values remain source-bound; unsupported exact frames, scaling, probabilities, and hidden conditions remain unresolved.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [ ] Efficiency addendum remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 448 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
