@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-teleporting-vanishing-ball",
+  "name": "Teleporting Vanishing Ball",
+  "batch": 456,
+  "date": "2026-09-26",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Teleporting_Vanishing_Ball",
+    "https://dragonball.fandom.com/wiki/Teleporting_Vanishing_Ball"
+  ],
+  "findings": [
+    "2026-09-26 Batch 456 current-evidence enrichment: 300-Ki Ki Blast Ultimate from PQ62. The user creates a Ki ball behind a shield, teleports to the locked-on opponent, and launches the ball at close range; current dedicated evidence documents 15 hits and about 30% total damage. Exact teleport invulnerability timing and patch-independent scaling are not inferred."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
