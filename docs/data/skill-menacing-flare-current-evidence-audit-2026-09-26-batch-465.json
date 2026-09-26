@@ -1,0 +1,18 @@
+{
+  "batch": 465,
+  "date": "2026-09-26",
+  "skill_name": "Menacing Flare",
+  "skill_id": "skill-menacing-flare",
+  "status": "completed",
+  "findings": [
+    "100-Ki Ki Blast Super from the Skill Shop. The user quickly fires a Ki wave; if it hits, the attack ends, while a miss causes the user to teleport behind the opponent and perform a kick. Current dedicated evidence reports approximately 10% damage for either outcome."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Menacing_Flare",
+    "https://dragonball.fandom.com/wiki/Menacing_Flare"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}
