@@ -1025,10 +1025,10 @@
       "source_quest_or_shop": "Parallel Quest 117 — \"A Dance of Swords\"",
       "ultimate_finish_required": false,
       "skill_description": "Brave Sword Attack is a Ultimate Strike skill associated with Tapion.",
-      "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current reward data explicitly confirms the documented acquisition route for Brave Sword Attack. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward section; no Ultimate Finish-only gate is asserted.",
-      "verification_status": "verified",
+      "mechanics_notes": "300-Ki Strike Ultimate from PQ117. The user readies a sword and rushes forward; if close enough, a slow-motion sword slash hits once and knocks down the opponent. Current skill-specific evidence reports 50% damage for the single hit; pressing the Ultimate input a second time readies the sword faster.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
@@ -1039,7 +1039,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 117,
       "acquisition_type": "quest_or_mission",
-      "notes": " 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1. 2026-09-22 provenance verification: current dedicated and independent documentation corroborates the existing mentor/PQ acquisition endpoint and skill identity; no unsupported reward probability or Ultimate Finish requirement is inferred. 2026-09-23 bounded provenance refresh: existing multi-source evidence was rechecked against the canonical record; no acquisition tier, reward probability, mechanics, cost, restriction, or DLC semantics were changed.",
+      "notes": "2026-09-26 Batch 443 refresh: current skill-specific evidence reconfirms PQ117 Basic Reward acquisition, 300 Ki, Strike Ultimate classification, long-range rush, single-hit knockdown, source-reported 50% damage, and second-input faster-ready behavior. No unsupported frame data or reward probability is inferred.",
       "id": "skill-brave-sword-attack",
       "source_parallel_quests": [
         117
@@ -6380,13 +6380,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Broly mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred. 2026-09-23 refresh: mentor acquisition remains verified. Independent mentor documentation describes it as a small Ki Blast that produces a gigantic explosion along the opponent's path; detailed hit/damage values remain deferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate learned from Broly training. The user throws a small tracking Ki Blast that explodes after about a second; current skill-specific evidence reports 45% damage over 4 hits. Kale (SSJ2)'s unique variant begins with an uppercut before the distant explosion.",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": "Broly mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 mentor provenance refresh: current evidence confirms Broly mentor training as the Basic Reward endpoint and 300 Ki cost. Detailed combat mechanics remain bounded pending stronger dedicated evidence.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-26 Batch 443 refresh: current skill-specific evidence reconfirms Broly training, 300 Ki, tracking/XL-range explosive behavior, 4-hit sequence, and source-reported ~45% damage. The Kale SSJ2 variant is explicitly distinguished; exact timing/scaling remains source-bound.",
       "id": "skill-gigantic-meteor",
       "source_mentor": [
         "mentor-broly"
@@ -6438,13 +6438,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Broly mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred. 2026-09-23 refresh: mentor acquisition remains verified. Independent mentor documentation describes a charge toward the opponent followed by a close-range attack and Ki Blast; no unsupported hit/damage values are added.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "100-Ki Strike Super learned from Broly training. The user takes a stance and throws a large Ki Blast from the right hand; current skill-specific evidence reports about 15% damage at close range and 10% at long range. It is documented as a pseudo-Ki Blast, long-range attack with 1–3 hits and knockback.",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": "Broly mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 mentor provenance refresh: current evidence confirms Broly mentor training as the Basic Reward endpoint and 100 Ki cost. Detailed combat mechanics remain bounded pending stronger dedicated evidence.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-26 Batch 443 refresh: current skill-specific evidence reconfirms Broly training, 100 Ki, Strike Super classification, pseudo-Ki Blast behavior, and distance-dependent source-reported damage (~15% close/~10% far). No unsupported frame data or patch-independent scaling is inferred.",
       "id": "skill-gigantic-omega",
       "source_mentor": [
         "mentor-broly"
@@ -8751,15 +8751,15 @@
       "name": "Meditation",
       "class": "Super",
       "subcategory": "Power Up",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers",
         "https://dbxv2.fandom.com/wiki/Meditation",
         "https://steamcommunity.com/app/454650/discussions/0/2564160288807893705/"
       ],
       "ki_cost": 0,
-      "mechanics_notes": "0-Ki Power-Up Super from PQ122. Entering meditation raises maximum Ki to 1500 and grants automatic Ki recovery for 20 seconds after the stance completes. Current evidence supports the PQ122 acquisition endpoint; community reports about Ultimate Finish difficulty conflict, so no UF-only gate is asserted.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "0-Ki Power Up Super from PQ122. Completing the meditation stance raises maximum Ki to 1500 and grants temporary Ki Auto-Recovery for 20 seconds. Current evidence describes the charge as hold-to-complete and notes that the effect can coexist with other Power-Up effects during its 20-second duration.",
+      "last_verified": "2026-09-26",
       "research_status": "enriched",
       "duration_seconds": 20,
       "unlock_method": "Parallel Quest 122 — Basic Reward",
@@ -8770,7 +8770,7 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Extra Pack 2",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 122 as the acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, restriction, DLC/update provenance, and reward-tier semantics against the maintained evidence corpus; no unsupported probabilities, gates, or numerical mechanics were added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
+      "notes": "2026-09-26 Batch 443 refresh: current skill-specific and PQ evidence reconfirm PQ122 acquisition, 0 Ki, temporary 1500 maximum Ki, and 20-second Ki Auto-Recovery. No unsupported recovery rate or frame timing is added.",
       "id": "skill-meditation",
       "source_parallel_quests": [
         122
