@@ -1,0 +1,14 @@
+{
+  "batch": 414,
+  "date": "2026-09-25",
+  "status": "completed",
+  "scope": "Skill mechanics frontier",
+  "excluded_batches": "396-413",
+  "selected": [
+    "Eagle Kick",
+    "Destructive Flare",
+    "Double Crush",
+    "God of Destruction's Rampage"
+  ],
+  "evidence_policy": "Promote directly supported Xenoverse 2 mechanics only; preserve uncertainty around exact frames, scaling, armor timing, and charge timing."
+}

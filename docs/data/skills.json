@@ -3063,10 +3063,10 @@
       "source_quest": 145,
       "ultimate_finish_required": false,
       "skill_description": "Fire a Ki blast barrage; holding the button increases projectile size and damage.",
-      "mechanics_notes": "Current dedicated evidence confirms the PQ145 Ki Blast Super route. Existing acquisition semantics are retained; the current record does not infer a drop probability beyond the maintained PQ reward evidence.",
+      "mechanics_notes": "200 Ki Ki Blast Super from PQ145. The user holds one hand flat and fires a barrage of Ki bullets; holding the input increases the size of the bullets and their damage. Current skill data identifies 13 hits, long-range projectile behavior, and knockback. Exact charge scaling, startup, and recovery remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Destructive_Flare",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3074,7 +3074,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: official Bandai Namco DLC documentation independently confirms Legendary Pack 1 scope (4 characters, 4 Parallel Quests, 6 additional moves); the maintained PQ143-PQ146 research layer remains the exact source for each skill's individual quest relationship. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: official Bandai Namco DLC documentation independently confirms Legendary Pack 1 scope (4 characters, 4 Parallel Quests, 6 additional moves); the maintained PQ143-PQ146 research layer remains the exact source for each skill's individual quest relationship. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 414 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, scaling, and timing values remain unresolved.",
       "source_parallel_quests": [
         145
       ]
@@ -3602,10 +3602,10 @@
       "source_quest": 147,
       "ultimate_finish_required": false,
       "skill_description": "Set up eight Ki blasts and detonate/home them with additional input.",
-      "mechanics_notes": "100-Ki Ki Blast Super from PQ147. Current official/quest evidence confirms the multi-blast setup and optional on-the-spot firing; existing Legendary Pack 2 provenance and Basic Reward semantics are retained.",
+      "mechanics_notes": "100 Ki Ki Blast Super from PQ147. The user places eight Ki projectiles above them; a second input detonates/redirects the set toward the opponent, with the projectiles homing and dealing up to about 20% damage. The setup and delayed activation are the defining mechanics. Exact timing, tracking strength, and per-hit scaling remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Double_Crush",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3613,7 +3613,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context. 2026-09-21 provenance strengthening: independent PQ147 reward documentation lists Double Crush as a Basic Reward of PQ147, while official Bandai Namco DLC documentation independently establishes the Legendary Pack 2 package scope. Exact individual reward evidence remains the PQ source; the official source is package-level provenance only. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, classification, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing conflicts and unresolved fields are preserved; no unsupported drop probability, Ultimate Finish gate, prerequisite, timer, frame data, damage value, stacking cap, or narrower restriction is inferred.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context. 2026-09-21 provenance strengthening: independent PQ147 reward documentation lists Double Crush as a Basic Reward of PQ147, while official Bandai Namco DLC documentation independently establishes the Legendary Pack 2 package scope. Exact individual reward evidence remains the PQ source; the official source is package-level provenance only. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, classification, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing conflicts and unresolved fields are preserved; no unsupported drop probability, Ultimate Finish gate, prerequisite, timer, frame data, damage value, stacking cap, or narrower restriction is inferred.\n2026-09-25 Batch 414 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, scaling, and timing values remain unresolved.",
       "source_parallel_quests": [
         147
       ]
@@ -3999,13 +3999,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Gohan (Adult) and Videl mentor training",
-      "mechanics_notes": "100-Ki Strike Super from Videl's mentor training. The user raises the right knee into a single rising strike; it can also be activated during a jump and deals 10% damage in current dedicated skill evidence.",
+      "mechanics_notes": "Unleash a rising knee strike; 100 Ki Strike Super. It can be performed during a ground jump as well as from standing, and deals about 10% damage while launching the opponent. It is taught through Videl and Gohan (Adult)'s mentor training.",
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Gohan (Adult) and Videl mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-25 Batch 414 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, scaling, and timing values remain unresolved.",
       "id": "skill-eagle-kick",
       "source_mentor": [
         "mentor-gohan-videl"
@@ -6688,20 +6688,21 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Rampage"
       ],
       "unlock_method": "God of Destruction Beerus's mentor training — complete the corresponding lesson to receive God of Destruction's Rampage as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "God of Destruction Beerus mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred. 2026-09-23 refresh: mentor acquisition remains verified; combat mechanics remain intentionally deferred pending direct evidence.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "100 Ki Strike Super taught by Beerus. The user rushes/flys around the opponent for four hits, dealing about 15% total damage. During the active attack the skill grants Super Armor, so incoming attacks consume Stamina instead of interrupting the move. Exact armor timing, startup/recovery, and stamina cost per hit remain unresolved.",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "God of Destruction Beerus mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 verification refresh: revalidated against the repository's maintained skill/PQ/mentor provenance corpus; existing evidence conflicts and unresolved mechanics are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 verification refresh: revalidated against the repository's maintained skill/PQ/mentor provenance corpus; existing evidence conflicts and unresolved mechanics are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 414 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, scaling, and timing values remain unresolved.",
       "id": "skill-god-of-destruction-s-rampage",
       "source_mentor": [
         "mentor-beerus"
