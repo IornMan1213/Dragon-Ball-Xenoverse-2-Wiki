@@ -1349,3 +1349,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build status remains unverified; no workflow success is claimed.
 - [ ] Repository efficiency addendum check remains blocked because `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` currently returns GitHub 404.
 - [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 438 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
+
+
+### 2026-09-26 TODO progress update — Skill Research Batch 439 completed
+- [x] Fresh 474-record mechanics frontier census excluded records with registered current-evidence audits and selected **Blades of Judgment, Sudden Death Beam, Super Saiyan God, and Change The Future** as the next shortest genuinely under-detailed records.
+- [x] Enriched and synchronized all four records in `docs/data/skills.json` and `docs/data/skills-index.json`; canonical/index remain 474/474.
+- [x] Added four current-evidence audits, `docs/data/skill-research-batches/skill-batch-439.json`, the Batch 439 thin-frontier audit, and six provenance registry entries.
+- [x] Preserved evidence boundaries: exact frames, unsupported scaling, hidden interactions, exact drop probabilities, and unresolved combo coverage remain unresolved unless directly evidenced.
+- [x] Preserved two documented source discrepancies instead of silently normalizing them: Blades of Judgment's secondary "Super Skill" label versus the canonical Ultimate classification, and Change The Future's in-game Strike wording versus documented Ki Blast counter behavior.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [ ] Repository efficiency addendum remains unavailable at the expected path; GitHub returns 404.
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 439 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
