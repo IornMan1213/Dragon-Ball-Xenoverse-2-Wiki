@@ -1086,6 +1086,12 @@
     "skill_kai-kai_current_evidence_audit_2026_09_25_batch_412": "docs/data/skill-kai-kai-current-evidence-audit-2026-09-25-batch-412.json",
     "skill_neo-tri-beam_current_evidence_audit_2026_09_25_batch_412": "docs/data/skill-neo-tri-beam-current-evidence-audit-2026-09-25-batch-412.json",
     "skill_time-bullet_current_evidence_audit_2026_09_25_batch_412": "docs/data/skill-time-bullet-current-evidence-audit-2026-09-25-batch-412.json",
-    "skill_death-beam_current_evidence_audit_2026_09_25_batch_412": "docs/data/skill-death-beam-current-evidence-audit-2026-09-25-batch-412.json"
+    "skill_death-beam_current_evidence_audit_2026_09_25_batch_412": "docs/data/skill-death-beam-current-evidence-audit-2026-09-25-batch-412.json",
+    "skill_research_batch_413": "docs/data/skill-research-batches/skill-batch-413.json",
+    "skill_batch_413_thin_frontier": "docs/data/skill-batch-413-thin-frontier-mechanics-audit-2026-09-25.json",
+    "skill_dimension-ray_current_evidence_audit_2026_09_25_batch_413": "docs/data/skill-dimension-ray-current-evidence-audit-2026-09-25-batch-413.json",
+    "skill_big-bang-attack_current_evidence_audit_2026_09_25_batch_413": "docs/data/skill-big-bang-attack-current-evidence-audit-2026-09-25-batch-413.json",
+    "skill_sudden-storm_current_evidence_audit_2026_09_25_batch_413": "docs/data/skill-sudden-storm-current-evidence-audit-2026-09-25-batch-413.json",
+    "skill_bending-kamehameha_current_evidence_audit_2026_09_25_batch_413": "docs/data/skill-bending-kamehameha-current-evidence-audit-2026-09-25-batch-413.json"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "batch": 413,
+  "date": "2026-09-25",
+  "status": "completed",
+  "scope": "Skill mechanics frontier",
+  "excluded_batches": "396-412",
+  "selected": [
+    "Dimension Ray",
+    "Big Bang Attack",
+    "Sudden Storm",
+    "Bending Kamehameha"
+  ],
+  "evidence_policy": "Promote directly supported Xenoverse 2 mechanics only; preserve uncertainty around exact frames, universal scaling, and timing values."
+}

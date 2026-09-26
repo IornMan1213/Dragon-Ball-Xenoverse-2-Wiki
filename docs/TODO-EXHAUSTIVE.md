@@ -1,3 +1,13 @@
+### 2026-09-25 continuation — Skill Research Batch 413 completed
+
+- [x] Fresh 474-record frontier census excluded Batches 396–412 and selected **Dimension Ray, Big Bang Attack, Sudden Storm, and Bending Kamehameha** as the next four shortest genuinely under-detailed canonical mechanics records.
+- [x] Expanded current Xenoverse 2-specific mechanics coverage and synchronized canonical `docs/data/skills.json` and projection `docs/data/skills-index.json` for all four.
+- [x] Added Batch 413 research data, thin-frontier audit, and four current-evidence audit files; registered them in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved evidence boundaries: exact frame data, universal scaling, and unsupported timing values were not inferred.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [x] **Exact next:** run a fresh 474-record frontier census excluding Batches 396–413 and enrich the next 4–12 shortest genuinely under-detailed canonical mechanics records, synchronizing canonical/index/provenance in the same cycle.
+
+
 ### 2026-09-25 continuation — Skill Research Batch 412 completed
 
 - [x] Fresh 474-record frontier census excluded Batches 396–411 and selected **Super Elite Combo, Super Dragon Flight, Shadow Crusher, Confusion Blade, Kai Kai, Neo Tri-Beam, Time Bullet, and Death Beam** as the next eight shortest genuinely under-detailed canonical mechanics records.
