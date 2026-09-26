@@ -1,0 +1,26 @@
+{
+  "batch": 457,
+  "date": "2026-09-26",
+  "skill_id": "skill-force-edge",
+  "skill_name": "Force Edge",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Skill Research Batch 457.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Force_Edge",
+    "https://dragonball.fandom.com/wiki/Force_Edge"
+  ],
+  "findings": [
+    "100-Ki Strike Super from PQ180. The user launches an energy slash with a kick and can follow an immediate hit with a second attack; current skill-specific evidence identifies a 2-hit kick/energy-slash sequence with knockdown. Exact damage, follow-up timing, and frame data remain unresolved."
+  ],
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26",
+    "research_status": "enriched"
+  },
+  "evidence_boundaries": [
+    "Exact frame data is not promoted.",
+    "Patch-independent damage/scaling is not inferred from source-reported values.",
+    "Reward probabilities and hidden prerequisites are not promoted unless directly evidenced.",
+    "Character-specific usage is not converted into a CaC race/gender/form restriction without direct evidence."
+  ]
+}
