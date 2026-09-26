@@ -1,0 +1,19 @@
+{
+  "skill_id": "skill-pretty-charge",
+  "name": "Pretty Charge",
+  "batch": 438,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Pretty_Charge",
+    "https://dbxv2.fandom.com/wiki/Full_Power_Charge"
+  ],
+  "findings": [
+    "0 Ki Other Super",
+    "Used by Ribrianne",
+    "Unavailable to CaCs",
+    "Raises Ki",
+    "Current reference states it works the same as Full Power Charge",
+    "Exact restoration rate and charge timing remain unresolved"
+  ]
+}
