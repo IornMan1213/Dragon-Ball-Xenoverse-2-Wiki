@@ -4076,14 +4076,14 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "jaco mentor training",
-      "mechanics_notes": "Ki Blast Super fired from Jaco's ray gun; current dedicated evidence lists 100 Ki and describes a thin beam with knockback.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "100-Ki Ki Blast Super. Jaco draws his Galactic Patrol ray gun and fires a thin, mid-range beam; current skill-specific documentation describes a single-hit attack that knocks the opponent away and reports about 10% damage.",
+      "last_verified": "2026-09-25",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Jaco mentor training — Lesson 1.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: dedicated skill evidence confirms the Ki Blast Super, 100 Ki cost, Jaco association, and Jaco training acquisition; the maintained instructor guide independently identifies Lesson 1 as the Basic Reward. Existing acquisition semantics are preserved. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference. 2026-09-24 P1 provenance refresh: repository-maintained evidence was rechecked for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries and conflicts were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.",
+      "notes": "2026-09-22 provenance refresh: dedicated skill evidence confirms the Ki Blast Super, 100 Ki cost, Jaco association, and Jaco training acquisition; the maintained instructor guide independently identifies Lesson 1 as the Basic Reward. Existing acquisition semantics are preserved. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference. 2026-09-24 P1 provenance refresh: repository-maintained evidence was rechecked for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries and conflicts were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced. 2026-09-25 Batch 379 mechanics enrichment: current skill-specific evidence expanded the mechanics description; source-reported numeric values remain bounded evidence. ",
       "id": "skill-elite-beam",
       "source_mentor": [
         "mentor-jaco"
@@ -10784,10 +10784,10 @@
       "source_quest_or_shop": "Parallel Quest 84 — \"Saiyan Warriors\"",
       "ultimate_finish_required": false,
       "skill_description": "Saiyan Spirit is a Ultimate Strike skill associated with Bardock.",
-      "mechanics_notes": "300 Ki Ki Blast Ultimate with a pseudo-strike rush into a blue Ki Wave; current dedicated evidence states it is usable by Saiyan CaCs and obtained from Parallel Quest 84.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate. The user explodes forward into a pseudo-strike punch, then fires a blue Ki wave from the opposite hand for a documented 10-hit sequence. Current skill-specific evidence describes the final wave as leaving enough opening for a follow-up ranged Super or fast Ultimate; the move has shorter chase range than Brave Heat and does not track behind the user.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Saiyan_Spirit",
@@ -10798,7 +10798,7 @@
       "race_restriction": "Saiyan",
       "source_quest": 84,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 CaC provenance correction: dedicated skill documentation classifies Saiyan Spirit as a Ki Blast Ultimate, not a Strike Ultimate. It is usable by Saiyan CaCs and is acquired from PQ84. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-20 CaC provenance correction: dedicated skill documentation classifies Saiyan Spirit as a Ki Blast Ultimate, not a Strike Ultimate. It is usable by Saiyan CaCs and is acquired from PQ84. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced. 2026-09-25 Batch 379 mechanics enrichment: current skill-specific evidence expanded the mechanics description; source-reported numeric values remain bounded evidence. ",
       "id": "skill-saiyan-spirit",
       "source_parallel_quests": [
         84
@@ -11004,7 +11004,8 @@
         "https://dbxv2.fandom.com/wiki/Secret_Poison",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74723041",
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-dlc-pack-preview",
-        "https://dragonball.fandom.com/wiki/Secret_Poison"
+        "https://dragonball.fandom.com/wiki/Secret_Poison",
+        "https://dbxv2.fandom.com/wiki/Status_Effect"
       ],
       "ki_cost": 300,
       "unlock_method": "TP Medal Shop",
@@ -11014,9 +11015,9 @@
       "dlc_requirement": "Free Update 1",
       "acquisition_type": "tp_medal_shop",
       "source_quest_or_shop": "TP Medal Shop",
-      "mechanics_notes": "300 Ki Strike Ultimate used by Frost; the rush punches/kicks the target and applies Poison. Current evidence identifies TP Medal Shop acquisition after the relevant update.",
-      "last_verified": "2026-09-24",
-      "notes": "2026-09-21 Free Update 1 provenance identification: the official launch-update announcement confirms four unnamed attacks; contemporaneous December 2016 player reports identify the four TP Medal Shop additions as Chaos Shot, Galick Cannon, Impulse Slash, and Secret Poison. Current skill references confirm the TP Medal Shop acquisition route. The official announcement does not name the four attacks individually, so the name-to-update mapping remains historically source-supported rather than directly enumerated by Bandai Namco. 2026-09-23 research refresh: current skill references corroborate Frost's 300-Ki Strike Ultimate classification, TP Medal Shop acquisition, and Poison effect. No narrower acquisition prerequisite is inferred from the reviewed evidence.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
+      "mechanics_notes": "300-Ki Strike Ultimate. The user rushes in, lands a punch and kick, and inflicts the Poison status while knocking the target away; current skill-specific documentation describes a 2-hit attack and reports about 35% damage. The poison remains until death or an antidote according to the cited reference.",
+      "last_verified": "2026-09-25",
+      "notes": "2026-09-21 Free Update 1 provenance identification: the official launch-update announcement confirms four unnamed attacks; contemporaneous December 2016 player reports identify the four TP Medal Shop additions as Chaos Shot, Galick Cannon, Impulse Slash, and Secret Poison. Current skill references confirm the TP Medal Shop acquisition route. The official announcement does not name the four attacks individually, so the name-to-update mapping remains historically source-supported rather than directly enumerated by Bandai Namco. 2026-09-23 research refresh: current skill references corroborate Frost's 300-Ki Strike Ultimate classification, TP Medal Shop acquisition, and Poison effect. No narrower acquisition prerequisite is inferred from the reviewed evidence.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced. 2026-09-25 Batch 379 mechanics enrichment: current skill-specific evidence expanded the mechanics description; source-reported numeric values remain bounded evidence. ",
       "id": "skill-secret-poison"
     },
     {
@@ -11537,20 +11538,21 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Sphere_of_Destruction"
       ],
       "unlock_method": "God of Destruction Beerus's mentor training — complete the corresponding lesson to receive Sphere of Destruction as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "God of Destruction Beerus mentor training",
-      "mechanics_notes": "Beerus's 300-Ki Ki Blast Ultimate; current skill reference describes a large tracking Ki-ball projectile with 13 hits.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate. Beerus creates a large orange Ki sphere overhead and throws it at the target; current skill-specific documentation classifies it as a tracking, long-range 13-hit projectile with knockback and reports about 35% total damage.",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "God of Destruction Beerus mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: Beerus mentor training remains the deterministic acquisition endpoint; current skill evidence confirms 300 Ki Ultimate/Ki Blast classification, large projectile behavior, tracking, and a 13-hit profile. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-22 provenance refresh: Beerus mentor training remains the deterministic acquisition endpoint; current skill evidence confirms 300 Ki Ultimate/Ki Blast classification, large projectile behavior, tracking, and a 13-hit profile. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced. 2026-09-25 Batch 379 mechanics enrichment: current skill-specific evidence expanded the mechanics description; source-reported numeric values remain bounded evidence. ",
       "id": "skill-sphere-of-destruction",
       "source_mentor": [
         "mentor-beerus"
@@ -12965,18 +12967,19 @@
       "source_quest_or_shop": "Conton City Tournament Match 3",
       "ultimate_finish_required": false,
       "skill_description": "Chargeable Ki Blast Super that creates delayed clock-like beams.",
-      "mechanics_notes": "Current skill evidence lists 100 Ki; additional Power of Time can create up to three clock sigils and allows manual release.",
+      "mechanics_notes": "100-Ki Ki Blast Super. The user places a clock-like sigil that fires a delayed beam; charging can delay the firing up to the documented maximum, while an extra input fires placed rays immediately. Holy Inscription hits allow up to three simultaneous sigils, and using the technique resets Holy Inscription's hit counter.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Temporal_Holy_Ray",
         "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc",
-        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80920604"
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80920604",
+        "https://dbxv2.fandom.com/wiki/Holy_Inscription"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Temporal Holy Ray as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-21 provenance strengthening: an independent GameFAQs Conton City Tournament reference corroborates Temporal Holy Ray as a tournament skill and specifically places it at Conton City Tournament 3 / \"Time for the Quarterfinals!\"; no drop probability is inferred. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred.",
+      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Temporal Holy Ray as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-21 provenance strengthening: an independent GameFAQs Conton City Tournament reference corroborates Temporal Holy Ray as a tournament skill and specifically places it at Conton City Tournament 3 / \"Time for the Quarterfinals!\"; no drop probability is inferred. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred. 2026-09-25 Batch 379 mechanics enrichment: current skill-specific evidence expanded the mechanics description; source-reported numeric values remain bounded evidence. ",
       "id": "skill-temporal-holy-ray"
     },
     {
