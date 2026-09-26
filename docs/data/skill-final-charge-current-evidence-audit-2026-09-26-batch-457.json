@@ -1,0 +1,25 @@
+{
+  "batch": 457,
+  "date": "2026-09-26",
+  "skill_id": "skill-final-charge",
+  "skill_name": "Final Charge",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Skill Research Batch 457.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Final_Charge"
+  ],
+  "findings": [
+    "Character-exclusive Other Super used by SSGSS Vegeta (Evolved), unavailable to CaCs. Ki charging starts very slowly, accelerates rapidly after about 2 seconds, and is slightly faster than Ultimate Charge. Exact charge-rate curve and frame timing remain unresolved."
+  ],
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26",
+    "research_status": "enriched"
+  },
+  "evidence_boundaries": [
+    "Exact frame data is not promoted.",
+    "Patch-independent damage/scaling is not inferred from source-reported values.",
+    "Reward probabilities and hidden prerequisites are not promoted unless directly evidenced.",
+    "Character-specific usage is not converted into a CaC race/gender/form restriction without direct evidence."
+  ]
+}
