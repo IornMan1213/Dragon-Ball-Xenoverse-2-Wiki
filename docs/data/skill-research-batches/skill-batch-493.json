@@ -1,0 +1,14 @@
+{
+  "batch": 493,
+  "date": "2026-09-26",
+  "status": "complete",
+  "scope": "Fresh live mechanics frontier after Batch 492; five genuinely unaudited records selected after excluding every prior registered current-evidence audit.",
+  "selected": [
+    "Focus Flash",
+    "Fighting Pose D",
+    "Wolf Fang Fist",
+    "Masenko",
+    "Shine Shot"
+  ],
+  "evidence_boundary": "Current Xenoverse 2-specific evidence and bounded source-reported values only; unsupported exact frames, probabilities, hidden interactions, and patch-independent scaling excluded."
+}
