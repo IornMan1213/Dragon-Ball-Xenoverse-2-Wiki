@@ -4630,7 +4630,8 @@
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills",
         "https://dbxv2.fandom.com/wiki/Evil_Flight_Strike",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Evil_Flight_Strike"
       ],
       "usable_by_cac": true,
       "race_restrictions": [
@@ -4642,13 +4643,13 @@
       "ultimate_finish_required": false,
       "unlock_method": "Parallel Quest 21 — \"Tri-Race Coop\" Basic Reward",
       "source_quest": 21,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "research_status": "enriched",
       "source_quest_or_shop": "Parallel Quest 21 — \"Tri-Race Coop\"",
-      "mechanics_notes": "100 Ki Strike Super from PQ21; launches a forward aerial strike against the opponent.",
+      "mechanics_notes": "100-Ki Strike Super using 300 Stamina in its CaC form. The user extends their arms and flails while slowly ascending for eight hits; current dedicated evidence reports 15% total damage and leaves the opponent airborne for follow-up attacks. Piccolo (Power Awakening) uses a repurposed Evasive variant.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current dedicated evidence reconfirms Evil Flight Strike as a 100-Ki Strike Super with a 300-Stamina cost, restricted to Namekian or Majin CaCs, and obtained from PQ21's Basic Reward. No Ultimate Finish-only gate is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
+      "notes": "2026-09-22 provenance refresh: current dedicated evidence reconfirms Evil Flight Strike as a 100-Ki Strike Super with a 300-Stamina cost, restricted to Namekian or Majin CaCs, and obtained from PQ21's Basic Reward. No Ultimate Finish-only gate is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-25 Batch 373 mechanics enrichment: promoted current skill-specific evidence; source-reported damage/duration remains bounded and no unsupported frame, timing, probability, hidden-gate, or version-independent numeric claim was inferred.",
       "id": "skill-evil-flight-strike",
       "source_parallel_quests": [
         21
@@ -7885,11 +7886,12 @@
         "https://dbxv2.fandom.com/wiki/Focus_Flash",
         "https://dbxv2.fandom.com/wiki/Wild_Hunt",
         "https://dbxv2.fandom.com/wiki/Tail_Slicer",
-        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421"
+        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421",
+        "https://dragonball.fandom.com/wiki/Jumping_Energy_Wave"
       ],
       "ki_cost": 100,
       "description": "Jumping Energy Wave is a Super Skill available to CaCs.",
-      "mechanics_notes": "100-Ki Ki Blast Super; current dedicated evidence lists Skill Shop acquisition.",
+      "mechanics_notes": "100-Ki Ki Blast Super. Fires a Ki wave directly below the user while moving upward, then generates a ground shockwave; it can be used during Boost Dash. Current dedicated evidence describes a 2-hit attack, 5% damage, and inability to combo into it.",
       "usable_by_cac": true,
       "ultimate_finish_required": false,
       "unlock_method": "TP Medal Shop",
@@ -7897,9 +7899,9 @@
       "acquisition_type": "tp_medal_shop",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Free Update 2",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "research_status": "enriched",
-      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.\n2026-09-22 provenance refresh: Free Update 2 provenance and the current TP Medal Shop endpoint remain documented; 100-Ki Ki Blast Super classification and All CaC race scope are retained.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.\n2026-09-22 provenance refresh: Free Update 2 provenance and the current TP Medal Shop endpoint remain documented; 100-Ki Ki Blast Super classification and All CaC race scope are retained.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 373 mechanics enrichment: promoted current skill-specific evidence; source-reported damage/duration remains bounded and no unsupported frame, timing, probability, hidden-gate, or version-independent numeric claim was inferred.",
       "id": "skill-jumping-energy-wave"
     },
     {
@@ -13006,20 +13008,22 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/The_Saviour_Has_Come",
+        "https://ultradragonball.fandom.com/wiki/The_Savior_Has_Come"
       ],
       "unlock_method": "Hercule's mentor training — complete the corresponding lesson to receive The Savior Has Come as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Hercule mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "300-Ki Other Ultimate from Hercule mentor training. The user performs a taunt; after it finishes, enemies in the area are forced to lock onto the user and cannot switch to another target for 10 seconds. It deals no damage.",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Hercule mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred.\n2026-09-25 Batch 373 mechanics enrichment: promoted current skill-specific evidence; source-reported damage/duration remains bounded and no unsupported frame, timing, probability, hidden-gate, or version-independent numeric claim was inferred.",
       "id": "skill-the-savior-has-come",
       "source_mentor": [
         "mentor-hercule"
