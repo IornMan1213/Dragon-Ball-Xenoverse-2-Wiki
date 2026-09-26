@@ -1,0 +1,18 @@
+{
+  "batch": 466,
+  "date": "2026-09-26",
+  "skill_name": "Lovely Cyclone",
+  "skill_id": "skill-lovely-cyclone",
+  "status": "completed",
+  "findings": [
+    "100-Ki Strike Super from PQ135. The user pirouettes in place to draw opponents inward; the full move can reach 20 hits and applies a guard-Stamina-depletion effect after the sequence connects. Additional input cancels into a forward tackle that deals at least 3% source-reported damage. Exact frames, reward probability, and detailed scaling remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Lovely_Cyclone"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted.",
+    "Documented acquisition/reward conflicts remain explicit rather than normalized without evidence."
+  ]
+}
