@@ -816,3 +816,12 @@
 - [ ] CI remains unverified.
 - [x] Fresh post-Batch-379 frontier: **Timespace Impact (124), Rebellion Spear (130), Spirit Explosion (130), Evil Ray Strike (131), Evil Rise Strike (131)**.
 - [ ] **Exact next:** fresh evidence check on this frontier, excluding recently enriched records, then continue source-bounded mechanics expansion.
+
+
+### 2026-09-25 completion — Skill Batch 380
+- [x] Batch 380 enriched **Timespace Impact, Rebellion Spear, Spirit Explosion, Evil Ray Strike, and Evil Rise Strike** with current skill-specific mechanics and synchronized canonical/index layers.
+- [x] Added and registered Batch 380 research/audit artifacts.
+- [x] Validation: **469 records / 0 empty mechanics_notes / 0 duplicate IDs**.
+- [ ] CI remains unverified.
+- [x] Fresh census excluded the already-enriched short records from Batches 376–379. The next genuinely unfinished short frontier is **Explosive Assault (131), Final Flash (131)**, followed by the next shortest records.
+- [ ] **Exact next:** fresh evidence check of the unfinished frontier and continue source-bounded mechanics enrichment.
