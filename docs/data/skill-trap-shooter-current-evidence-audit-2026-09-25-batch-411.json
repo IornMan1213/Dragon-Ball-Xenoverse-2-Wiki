@@ -1,0 +1,9 @@
+{
+  "skill_id": "skill-trap-shooter",
+  "skill_name": "Trap Shooter",
+  "date": "2026-09-25",
+  "batch": 411,
+  "scope": "Current Xenoverse 2 mechanics evidence audit",
+  "source": "https://dbxv2.fandom.com/wiki/Trap_Shooter",
+  "boundaries": "Exact frame data, universal damage scaling, hidden thresholds, armor timing, and probabilities remain unresolved where not directly established."
+}

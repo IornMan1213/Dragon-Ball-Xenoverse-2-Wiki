@@ -428,17 +428,17 @@
       "source_quest_or_shop": "Beast unlock chain",
       "ultimate_finish_required": false,
       "skill_description": "Universal CaC Awoken Skill with high offensive output and defensive trade-offs.",
-      "mechanics_notes": "500 Ki consumed on transformation; +30% Strike and Blast, -20% Strike and Blast Defense, +20% Ki restoration. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
+      "mechanics_notes": "500-Ki all-race Awoken. Activation consumes 500 Ki; current skill-specific evidence documents +30% Strike and Blast attack, -20% Strike and Blast defense, and +20% Ki restoration. Beast changes the user's hair/eyes/aura/stance where applicable, adds a dedicated H-L-H-H-H-H-H combo string, and gives standing Light and charged Heavy attacks teleport properties. The documented unlock route is max Friendship with Gohan (Adult), Videl, and Piccolo followed by Piccolo's training mission against Cell Max. Exact channel timing and patch-independent combo/frame data remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Beast",
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-hero-of-justice-pack-2-dlc-release",
         "https://gamefaqs.gamespot.com/boards/277190-dragon-ball-xenoverse-2/80387361"
       ],
-      "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +30% all attacks, +20% Ki restoration, and +20% damage taken. 2026-09-20 provenance refinement: current Beast unlock evidence identifies max friendship with Piccolo and Gohan/Videl, followed by Piccolo's special training and Cell Max battle; no Ultimate Finish gate is inferred. 2026-09-21 provenance strengthening: Bandai Namco's official Hero of Justice Pack 2 announcement confirms the DLC adds Gohan (Beast), new Parallel Quests/missions, and new skills; existing Beast unlock/mission semantics remain unchanged. 2026-09-22 provenance verification: independent GameFAQs discussion corroborates the max-friendship Piccolo/Gohan & Videl prerequisite and subsequent Piccolo training route; dedicated current Beast documentation confirms the Cell Max unlock mission. No semantic field correction was required. 2026-09-22 provenance verification: independent GameFAQs discussion corroborates the max-friendship Piccolo/Gohan & Videl prerequisite and subsequent Piccolo training route; dedicated current Beast documentation confirms the Cell Max unlock mission. No semantic field correction was required.",
+      "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +30% all attacks, +20% Ki restoration, and +20% damage taken. 2026-09-20 provenance refinement: current Beast unlock evidence identifies max friendship with Piccolo and Gohan/Videl, followed by Piccolo's special training and Cell Max battle; no Ultimate Finish gate is inferred. 2026-09-21 provenance strengthening: Bandai Namco's official Hero of Justice Pack 2 announcement confirms the DLC adds Gohan (Beast), new Parallel Quests/missions, and new skills; existing Beast unlock/mission semantics remain unchanged. 2026-09-22 provenance verification: independent GameFAQs discussion corroborates the max-friendship Piccolo/Gohan & Videl prerequisite and subsequent Piccolo training route; dedicated current Beast documentation confirms the Cell Max unlock mission. No semantic field correction was required. 2026-09-22 provenance verification: independent GameFAQs discussion corroborates the max-friendship Piccolo/Gohan & Videl prerequisite and subsequent Piccolo training route; dedicated current Beast documentation confirms the Cell Max unlock mission. No semantic field correction was required.\n2026-09-25 Batch 411 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal damage scaling, hidden thresholds, and drop probabilities remain unresolved.",
       "source_quest": "Piccolo special training — Cell Max unlock mission",
       "acquisition_type": "quest_or_mission",
       "id": "skill-beast"
@@ -821,10 +821,10 @@
       "source_quest_or_shop": "Parallel Quest 136 — \"Breaking Down the Barrier\"",
       "ultimate_finish_required": true,
       "skill_description": "Blazing Attack is a Super Strike skill associated with Goku (Ultra Instinct).",
-      "mechanics_notes": "Confirmed as a 100-Ki Strike Super from PQ136. Maintained PQ136 data documents a 25% Ultimate Finish bonus slot. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ136. The user performs an aura-infused overhead punch; if it connects, a Ki blast hits the downed opponent for documented 10% damage, producing the move's two-hit pseudo-Strike sequence. Current evidence preserves CaC usability and the PQ136 endpoint; exact startup/frame data and scaling remain unresolved.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -833,7 +833,7 @@
       "source_quest": 136,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 source reconciliation: maintained PQ136 data documents a 25% Ultimate Finish bonus slot for Blazing Attack; the prior Basic Reward classification was stale. 2026-09-21 Ultra Pack 1 provenance audit: official Bandai Namco documentation identifies Ultra Pack 1 as containing 10 additional skills and five Parallel Quests (PQ133–137); the maintained all-PQ guide independently maps the ten player-acquirable skills to those quests. Character-only Final Charge and Final Flash (Super) are retained under Ultra Pack 1 because current technique documentation identifies them as Ultra Pack 1 character-exclusive skills; they are distinct from the ten Future Warrior-acquirable skills listed for the pack. This pass verifies DLC provenance only and does not infer reward-slot semantics where sources conflict. 2026-09-22 provenance verification: dedicated documentation confirms PQ136 — \"Breaking Down the Barrier\" as the acquisition route and identifies Blazing Attack as a 100-Ki Ki Blast Super used by Vegeta (Super Saiyan God). The repository's existing 25% Ultimate Finish evidence is preserved; no reward-tier rewrite is made in this provenance pass.",
+      "notes": "2026-09-20 source reconciliation: maintained PQ136 data documents a 25% Ultimate Finish bonus slot for Blazing Attack; the prior Basic Reward classification was stale. 2026-09-21 Ultra Pack 1 provenance audit: official Bandai Namco documentation identifies Ultra Pack 1 as containing 10 additional skills and five Parallel Quests (PQ133–137); the maintained all-PQ guide independently maps the ten player-acquirable skills to those quests. Character-only Final Charge and Final Flash (Super) are retained under Ultra Pack 1 because current technique documentation identifies them as Ultra Pack 1 character-exclusive skills; they are distinct from the ten Future Warrior-acquirable skills listed for the pack. This pass verifies DLC provenance only and does not infer reward-slot semantics where sources conflict. 2026-09-22 provenance verification: dedicated documentation confirms PQ136 — \"Breaking Down the Barrier\" as the acquisition route and identifies Blazing Attack as a 100-Ki Ki Blast Super used by Vegeta (Super Saiyan God). The repository's existing 25% Ultimate Finish evidence is preserved; no reward-tier rewrite is made in this provenance pass.\n2026-09-25 Batch 411 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal damage scaling, hidden thresholds, and drop probabilities remain unresolved.",
       "id": "skill-blazing-attack",
       "source_parallel_quests": [
         136
@@ -2867,10 +2867,10 @@
       "source_quest_or_shop": "Parallel Quest 159 — \"Lights! Camera! Super Heroes!\"",
       "ultimate_finish_required": true,
       "skill_description": "Demonic Destruction is a Super Strike skill used by Orange Piccolo.",
-      "mechanics_notes": "Current dedicated evidence confirms a 100-Ki Strike Super from PQ159. It is a grab-like two-handed slam; the initial state cancels weak Ki Blasts, and a successful grab lifts and slams the opponent.",
+      "mechanics_notes": "100-Ki Strike Super from PQ159. The user reaches forward with both arms; the initial grab cancels normal/weak Ki Blasts, and a successful grab lifts the opponent before slamming them into the ground for documented 15% damage. Current evidence also describes hard-knockdown and combo-extension uses near the ground. Exact frame data and armor interactions beyond the documented grab behavior remain unresolved.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demonic_Destruction",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2879,7 +2879,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 159,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ159 and describes Demonic Destruction as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate. 2026-09-20 provenance census: normalized source field to Parallel Quest 159 — \"Lights! Camera! Super Heroes!\", matching the maintained PQ research record. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ159 and describes Demonic Destruction as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate. 2026-09-20 provenance census: normalized source field to Parallel Quest 159 — \"Lights! Camera! Super Heroes!\", matching the maintained PQ research record. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 411 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal damage scaling, hidden thresholds, and drop probabilities remain unresolved.",
       "id": "skill-demonic-destruction",
       "source_parallel_quests": [
         159
@@ -3848,12 +3848,12 @@
       "usable_by_cac": false,
       "research_status": "enriched",
       "last_verified": "2026-09-25",
-      "mechanics_notes": "Strike Super/counter: Omega Shenron extends the spikes on his back; it only functions when the opponent is above the user. Current reference reports 16 hits/15% damage and 100 Ki; unavailable to CaCs.",
+      "mechanics_notes": "100-Ki Strike Super/counter used by Omega Shenron and unavailable to CaCs. Omega extends the spikes on his back; the attack only functions when the opponent is above the user and can deal 15% over 16 hits with a launching result. Exact anti-air timing, range, and frame data remain unresolved.",
       "source_quest_or_shop": "Character skill",
       "race_restriction": "Character-only",
       "dlc_requirement": "Base Game",
       "acquisition_type": "character_only",
-      "notes": "2026-09-20 acquisition-status refinement: dedicated skill evidence classifies Dragon Thunder as Omega Shenron's character-only Strike Super and explicitly states it is unavailable to CaCs. 2026-09-21 provenance strengthening: an independent Xenoverse 2 character/skill ID list identifies Dragon Thunder as a non-CaC skill associated with Omega Shenron, corroborating the character-only scope. No PQ/source-quest or reward-tier route is asserted because the canonical evidence explicitly gives Unlock: N/A. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference. 2026-09-24 P1 provenance refresh: repository-maintained evidence was rechecked for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries and conflicts were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.",
+      "notes": "2026-09-20 acquisition-status refinement: dedicated skill evidence classifies Dragon Thunder as Omega Shenron's character-only Strike Super and explicitly states it is unavailable to CaCs. 2026-09-21 provenance strengthening: an independent Xenoverse 2 character/skill ID list identifies Dragon Thunder as a non-CaC skill associated with Omega Shenron, corroborating the character-only scope. No PQ/source-quest or reward-tier route is asserted because the canonical evidence explicitly gives Unlock: N/A. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference. 2026-09-24 P1 provenance refresh: repository-maintained evidence was rechecked for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries and conflicts were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.\n2026-09-25 Batch 411 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal damage scaling, hidden thresholds, and drop probabilities remain unresolved.",
       "character_source": "Omega Shenron",
       "id": "skill-dragon-thunder"
     },
@@ -4831,10 +4831,10 @@
       "source_quest_or_shop": "Parallel Quest 50 — \"Majin Chaos\"",
       "ultimate_finish_required": false,
       "skill_description": "Explosive Buu Buu Punch is a Strike Super usable by Majin CaCs.",
-      "mechanics_notes": "100 Ki; nine-hit close-range punch barrage with super armor. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
+      "mechanics_notes": "100-Ki Strike Super for Majin CaCs. The move is a close-range barrage that can be activated while jumping; current community evidence describes Super Armor through the punch barrage, while the maintained skill record documents its Majin restriction. Damage/hit counts vary by positioning in available testing, so no universal total is asserted. Exact armor timing and frame data remain unresolved.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Explosive_Buu_Buu_Punch",
@@ -4842,7 +4842,7 @@
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "Majin",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 100-Ki Strike Super from PQ50, restricted to Majin CaCs. It is a nine-hit close-range punch barrage with Super Armor and a knockback finish. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 100-Ki Strike Super from PQ50, restricted to Majin CaCs. It is a nine-hit close-range punch barrage with Super Armor and a knockback finish. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-25 Batch 411 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal damage scaling, hidden thresholds, and drop probabilities remain unresolved.",
       "source_quest": 50,
       "acquisition_type": "quest_or_mission",
       "id": "skill-explosive-buu-buu-punch",
@@ -8299,10 +8299,10 @@
       "source_quest_or_shop": "Parallel Quest 77 — \"Parent and Child\"",
       "ultimate_finish_required": false,
       "skill_description": "Ki Explosion is a Ki Blast Super that detonates ki around the user.",
-      "mechanics_notes": "100-Ki Ki Blast Super. Creates a short-range omnidirectional Ki explosion; holding the input spends additional Ki to prolong the explosion. PQ77 Basic Reward is the documented acquisition endpoint.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ77. Creates a short-range omnidirectional purple Ki explosion that hits rapidly; holding the input spends additional Ki, up to four Ki bars total. Its fast startup and full-around coverage make it useful for catching vanishes/side steps and for combo or teleport follow-ups. Exact frame data and universal damage scaling remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Ki_Explosion",
@@ -8311,7 +8311,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 77,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 canonical correction: dedicated skill evidence identifies Ki Explosion as a 100-Ki Ki Blast Super, correcting the previous Evasive/200-Stamina classification. Exact PQ title and Basic Reward provenance also refined.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
+      "notes": "2026-09-20 canonical correction: dedicated skill evidence identifies Ki Explosion as a 100-Ki Ki Blast Super, correcting the previous Evasive/200-Stamina classification. Exact PQ title and Basic Reward provenance also refined.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.\n2026-09-25 Batch 411 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal damage scaling, hidden thresholds, and drop probabilities remain unresolved.",
       "id": "skill-ki-explosion",
       "source_parallel_quests": [
         77
@@ -12077,10 +12077,10 @@
       "source_quest_or_shop": "Expert Mission 4 — \"Invasion of the Evil Super Namek\"",
       "ultimate_finish_required": false,
       "skill_description": "Throws a fast-tracking, unblockable Destructo-Disc with stronger damage than the standard version.",
-      "mechanics_notes": "200-Ki Ki Blast Super associated with Expert Mission 4. Existing research identifies the disc as fast-tracking and unblockable; exact drop probability and guaranteed-reward semantics remain unresolved.",
+      "mechanics_notes": "200-Ki Ki Blast Super from Expert Mission 4. The user charges and throws a yellow tracking disc that is unblockable; compared with the regular Destructo Disc, it travels faster, does not restand, and can be comboed from sufficiently long knockbacks. Tracking can be activated later while unlocked and locked on. Exact frame data and drop probability remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Destructo-Disc",
         "https://dbxv2.fandom.com/wiki/Expert_Mission",
@@ -12088,7 +12088,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-23 canonical promotion: Expert Mission 4 identity and category are corroborated by the repository's acquisition index and current research batch. The record deliberately does not assert a guaranteed per-clear drop or numerical rate. 2026-09-23 provenance strengthening: independent Steam Expert Mission guide lists Expert Mission 04 — Invasion of the Evil Super Namek and Super Destructo-Disc under Basic Rewards. This corroborates the existing EM4 acquisition endpoint while the canonical record continues to avoid asserting a guaranteed per-clear drop or numerical drop rate.",
+      "notes": "2026-09-23 canonical promotion: Expert Mission 4 identity and category are corroborated by the repository's acquisition index and current research batch. The record deliberately does not assert a guaranteed per-clear drop or numerical rate. 2026-09-23 provenance strengthening: independent Steam Expert Mission guide lists Expert Mission 04 — Invasion of the Evil Super Namek and Super Destructo-Disc under Basic Rewards. This corroborates the existing EM4 acquisition endpoint while the canonical record continues to avoid asserting a guaranteed per-clear drop or numerical drop rate.\n2026-09-25 Batch 411 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal damage scaling, hidden thresholds, and drop probabilities remain unresolved.",
       "id": "skill-super-destructo-disc"
     },
     {
@@ -13357,14 +13357,14 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Bojack mentor training",
-      "mechanics_notes": "100-Ki Ki Blast Super used by Bojack. The move fires a tracking 10-hit volley; additional input before release cancels the attack. Current dedicated skill evidence records 5% damage across the barrage.",
+      "mechanics_notes": "100-Ki Ki Blast Super from Bojack training. Fires a tracking 10-hit volley; additional input before release cancels the attack. Current skill-specific evidence reports 5% total damage across the barrage. Exact tracking strength, startup/recovery, and frame data remain unresolved.",
       "last_verified": "2026-09-25",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Bojack mentor training — Lesson 1.",
       "dlc_requirement": "Super Pack 3",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved. 2026-09-22 batch verification: acquisition/classification evidence was rechecked from the existing repository research trail; unresolved reward probabilities and detailed combat measurements remain explicitly bounded. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred.",
+      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved. 2026-09-22 batch verification: acquisition/classification evidence was rechecked from the existing repository research trail; unresolved reward probabilities and detailed combat measurements remain explicitly bounded. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred.\n2026-09-25 Batch 411 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal damage scaling, hidden thresholds, and drop probabilities remain unresolved.",
       "id": "skill-trap-shooter",
       "source_mentor": [
         "mentor-bojack"

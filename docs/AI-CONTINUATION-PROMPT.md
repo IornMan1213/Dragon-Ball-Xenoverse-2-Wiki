@@ -1,3 +1,13 @@
+### 2026-09-25 continuation — Skill Research Batch 411 completed
+
+- [x] Fresh 474-record frontier census excluded Batches 396–410 and selected **Ki Explosion, Demonic Destruction, Dragon Thunder, Beast, Blazing Attack, Super Destructo-Disc, Trap Shooter, and Explosive Buu Buu Punch** as the next eight shortest genuinely under-detailed canonical mechanics records.
+- [x] Expanded current Xenoverse 2-specific mechanics coverage and synchronized canonical `docs/data/skills.json` and projection `docs/data/skills-index.json` for all eight.
+- [x] Added Batch 411 research data, thin-frontier audit, and eight current-evidence audit files; registered them in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved evidence boundaries: exact frame data, universal damage scaling, hidden thresholds, armor timing, and reward probabilities were not inferred where unsupported.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [x] **Exact next:** run a fresh 474-record frontier census excluding Batches 396–411 and enrich the next 4–12 shortest genuinely under-detailed canonical mechanics records, synchronizing canonical/index/provenance in the same cycle.
+
+
 ### 2026-09-25 continuation — Skill Research Batch 410 completed
 
 - [x] Fresh 474-record mechanics frontier census excluded completed Batches 396–409 and selected **Last Emperor, Special Beam Cannon (Beast), Shine Shot, and Hyper Movement** as the next four short genuinely under-detailed canonical records.
