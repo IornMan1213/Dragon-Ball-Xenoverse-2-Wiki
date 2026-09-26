@@ -1,0 +1,23 @@
+{
+  "batch": 426,
+  "date": "2026-09-26",
+  "skill_id": "skill-sphere-of-destruction",
+  "skill_name": "Sphere of Destruction",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Sphere_of_Destruction",
+    "https://dragonball.fandom.com/wiki/Energy_of_Destruction",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+  ],
+  "scope": "Current Xenoverse 2-specific mechanics, acquisition, and bounded version/context evidence reviewed in Batch 426.",
+  "findings": "300-Ki Ki Blast Ultimate learned through Beerus mentor training. Current skill documentation describes a large overhead orange Ki sphere thrown toward the target, with long-range tracking, 13-hit behavior, knockback, and source-reported total damage around 35%. Dragon Ball reference material confirms its Xenoverse 2 Beerus training role.",
+  "canonical_changes": {
+    "last_verified": "2026-09-26",
+    "research_status": "enriched",
+    "verification_status": "evidence_reviewed"
+  },
+  "unresolved": [
+    "Exact current frame data and tracking geometry remain unresolved.",
+    "Source-reported damage is not treated as patch-independent."
+  ],
+  "status": "complete"
+}
