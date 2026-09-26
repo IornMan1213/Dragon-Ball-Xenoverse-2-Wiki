@@ -1569,3 +1569,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved evidence boundaries; unsupported exact frames, scaling, probabilities, and hidden conditions remain unresolved unless directly evidenced.
 - [ ] CI/build remains unverified.
 - [x] **Exact next:** fresh mechanics frontier excluding Batch 459 and all prior current-evidence-audited records.
+
+### 2026-09-26 TODO progress update — Skill Research Batch 460 completed
+- [x] Researched **Angry Shout, Darkness Twin Star, Steel Mirage, Hyper Movement, Charge, Burning Swan, Scatter Kamehameha, and Energy Barrier**.
+- [x] Enriched/synchronized canonical and index datasets; parity remains **474/474**, 0 missing / 0 extra / 0 duplicate IDs.
+- [x] Added Batch 460 research/thin-frontier artifacts, eight current-evidence audits, and provenance registrations.
+- [x] Preserved source conflicts and evidence boundaries; unsupported exact frames, probabilities, hidden conditions, and patch-independent scaling remain unresolved.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** fresh registered-audit mechanics frontier excluding Batch 460 and all prior current-evidence audits.
