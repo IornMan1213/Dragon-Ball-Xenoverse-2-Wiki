@@ -1,0 +1,14 @@
+{
+  "batch": 423,
+  "date": "2026-09-26",
+  "skill": "Jumping Energy Wave",
+  "skill_id": "skill-jumping-energy-wave",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Batch 423.",
+  "findings": "100-Ki Ki Blast Super from the Skill Shop; fires beneath the user while moving upward, creates a ground shockwave, and can be used during Boost Dash; current documentation reports about 5% displayed damage.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unsupported reward probabilities remain unresolved."
+  ]
+}

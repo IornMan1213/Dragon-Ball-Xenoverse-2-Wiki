@@ -1,0 +1,14 @@
+{
+  "batch": 423,
+  "date": "2026-09-26",
+  "skill": "Maiden Blast",
+  "skill_id": "skill-maiden-blast",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Batch 423.",
+  "findings": "300-Ki Ki Blast Ultimate learned from Pan's Lesson 3; creates a close-range explosion and concentrates it into a large projectile; current documentation reports 34 hits and about 30% displayed damage.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unsupported reward probabilities remain unresolved."
+  ]
+}

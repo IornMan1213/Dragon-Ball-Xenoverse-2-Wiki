@@ -1,0 +1,14 @@
+{
+  "batch": 423,
+  "date": "2026-09-26",
+  "skill": "Instant Rise",
+  "skill_id": "skill-instant-rise",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Batch 423.",
+  "findings": "200-Stamina Evasive Skill; rapidly ascends to evade attacks; current documentation lists PQ37 as an acquisition source.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unsupported reward probabilities remain unresolved."
+  ]
+}

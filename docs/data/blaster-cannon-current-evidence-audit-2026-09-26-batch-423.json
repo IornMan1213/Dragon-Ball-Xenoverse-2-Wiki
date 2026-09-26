@@ -1,0 +1,14 @@
+{
+  "batch": 423,
+  "date": "2026-09-26",
+  "skill": "Blaster Cannon",
+  "skill_id": "skill-blaster-cannon",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Batch 423.",
+  "findings": "100-Ki Ki Blast Super from PQ148; eight-projectile green barrage with roughly 10% displayed full-contact damage and increased damage at closer range.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unsupported reward probabilities remain unresolved."
+  ]
+}

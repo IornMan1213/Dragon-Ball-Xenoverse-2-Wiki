@@ -571,14 +571,15 @@
         "https://dbxv2.fandom.com/wiki/Blaster_Cannon",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://en.dragon-ball-official.com/news/01_628.html",
-        "https://videogaming.fandom.com/wiki/Finding_Out_About_Fusion"
+        "https://videogaming.fandom.com/wiki/Finding_Out_About_Fusion",
+        "https://dragonball.fandom.com/wiki/Blaster_Cannon"
       ],
       "unlock_method": "Parallel Quest 148 — \"Finding Out About Fusion\"",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context. 2026-09-21 provenance strengthening: independent PQ documentation identifies PQ148 — Finding Out About Fusion, its reward list includes this skill, and the official Dragon Ball site documents the three Legendary Pack 2 skills. Existing PQ148 acquisition and DLC semantics are preserved. 2026-09-22 provenance verification: current dedicated and independent documentation corroborate the existing acquisition endpoint and skill identity; existing reward-tier/probability semantics are preserved. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.",
-      "mechanics_notes": "Scatter a barrage of Ki blasts; closer-range hits deal more damage. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context. 2026-09-21 provenance strengthening: independent PQ documentation identifies PQ148 — Finding Out About Fusion, its reward list includes this skill, and the official Dragon Ball site documents the three Legendary Pack 2 skills. Existing PQ148 acquisition and DLC semantics are preserved. 2026-09-22 provenance verification: current dedicated and independent documentation corroborate the existing acquisition endpoint and skill identity; existing reward-tier/probability semantics are preserved. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-26 Batch 423 current-evidence enrichment: current Xenoverse 2-specific references were rechecked for classification, resource cost, acquisition, hit behavior, and documented mechanics. Exact frame data, hidden interactions, unsupported scaling, patch-independent balance, and unresolved reward probabilities remain unasserted.",
+      "mechanics_notes": "100-Ki Ki Blast Super obtained from Parallel Quest 148, 'Finding Out About Fusion.' The user throws a barrage of eight green Ki projectiles; current documentation reports up to eight hits, roughly 10% displayed damage on full contact, and increased damage at closer range.",
       "source_quest": 148,
       "source_quest_or_shop": "Parallel Quest 148 — \"Finding Out About Fusion\"",
       "source_parallel_quests": [
@@ -1437,10 +1438,10 @@
       ],
       "unlock_method": "Conton City Tournament Match 4 — \"Semifinal Showdown\"",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Chaos Wall as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-22 provenance refresh: official publisher documentation corroborates the Free Update 11/Conton City Tournament context; the existing Match 4 endpoint remains the dedicated acquisition evidence. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: dedicated skill evidence and independent corroboration were rechecked; existing acquisition, reward-tier, cost, scope, and mechanics semantics are preserved, and no unsupported drop probability or additional gate is inferred. 2026-09-25 Batch 376 mechanics enrichment: current skill-specific evidence added; source-reported numeric mechanics and the Tail Slicer source conflict are preserved as bounded evidence.",
-      "mechanics_notes": "300-Stamina Ki Blast Evasive. The user launches an energy wall that nullifies Ki Blasts. Holding the input enlarges the wall and increases its damage and speed; current reference material documents about 5% base damage and about 10% when charged.",
+      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Chaos Wall as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-22 provenance refresh: official publisher documentation corroborates the Free Update 11/Conton City Tournament context; the existing Match 4 endpoint remains the dedicated acquisition evidence. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: dedicated skill evidence and independent corroboration were rechecked; existing acquisition, reward-tier, cost, scope, and mechanics semantics are preserved, and no unsupported drop probability or additional gate is inferred. 2026-09-25 Batch 376 mechanics enrichment: current skill-specific evidence added; source-reported numeric mechanics and the Tail Slicer source conflict are preserved as bounded evidence.\n2026-09-26 Batch 423 current-evidence enrichment: current Xenoverse 2-specific references were rechecked for classification, resource cost, acquisition, hit behavior, and documented mechanics. Exact frame data, hidden interactions, unsupported scaling, patch-independent balance, and unresolved reward probabilities remain unasserted.",
+      "mechanics_notes": "300-Stamina Ki Blast Evasive associated with Supreme Kai of Time and obtainable through the Conton City Tournament. The user creates and throws a rainbow-colored energy wall that can nullify incoming Ki Blasts; holding the input charges it, increasing size, travel speed, and damage. Current documentation reports about 5% base and 10% fully charged displayed damage.",
       "source_quest_or_shop": "Conton City Tournament Match 4"
     },
     {
@@ -1931,7 +1932,7 @@
       "name": "Darkness Rush (Ranged)",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -1940,14 +1941,15 @@
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Darkness_Rush_%28Melee%29",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Power_of_Darkness"
       ],
       "unlock_method": "Lord Slug's Lesson 3 — complete the instructor lesson; the Basic Reward includes Darkness Rush (Ranged) and Darkness Rush (Melee).",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "Namekian",
-      "notes": "Namekian-only CaC Ultimate. The separate Darkness Rush (Melee) route is for non-Namekian Future Warriors. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-22 provenance refresh: current independent skill/mentor evidence was rechecked; acquisition and scope were retained unless directly contradicted. Darkness Rush (Melee) is explicitly non-Namekian, so its race restriction is normalized to non-Namekian rather than All CaC races. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 mechanics/provenance enrichment: synchronized with canonical evidence update; existing acquisition and evidence boundaries preserved.",
-      "mechanics_notes": "300 Ki Strike Ultimate for Namekian CaC races. Dedicated Xenoverse 2 evidence describes the Namekian arm-extension grab, follow-up strike barrage, and finishing Ki Blast/Eye Laser; the cited page reports 7 hits and 25% damage in its presentation.",
+      "notes": "Namekian-only CaC Ultimate. The separate Darkness Rush (Melee) route is for non-Namekian Future Warriors. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-22 provenance refresh: current independent skill/mentor evidence was rechecked; acquisition and scope were retained unless directly contradicted. Darkness Rush (Melee) is explicitly non-Namekian, so its race restriction is normalized to non-Namekian rather than All CaC races. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 mechanics/provenance enrichment: synchronized with canonical evidence update; existing acquisition and evidence boundaries preserved.\n2026-09-26 Batch 423 current-evidence enrichment: current Xenoverse 2-specific references were rechecked for classification, resource cost, acquisition, hit behavior, and documented mechanics. Exact frame data, hidden interactions, unsupported scaling, patch-independent balance, and unresolved reward probabilities remain unasserted.",
+      "mechanics_notes": "300-Ki Strike Ultimate learned through Lord Slug training and restricted to Namekian CaCs plus Lord Slug. The user extends the arm to grab the opponent, follows with a strike barrage, then finishes with a pseudo-Ki-Blast projectile; current documentation reports 7 hits totaling about 25% displayed damage.",
       "source_quest": "Lord Slug mentor training — Lesson 3",
       "source_quest_or_shop": "Lord Slug mentor training — Lesson 3"
     },
@@ -2564,14 +2566,16 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/DIE_DIE_Missile_Barrage",
+        "https://dragonball.fandom.com/wiki/Continuous_Die_Die_Missile"
       ],
       "unlock_method": "Gotenks's mentor training — complete the corresponding lesson to receive DIE DIE Missile Barrage as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-22 provenance refresh: current dedicated evidence reconfirms the canonical acquisition endpoint/classification and preserves unresolved evidence boundaries; no unsupported drop probability or gate was added. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: synchronized with canonical record; existing evidence boundaries preserved. 2026-09-24 P1 provenance refresh: rechecked the existing repository evidence for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.",
-      "mechanics_notes": "Current mentor provenance confirms DIE DIE Missile Barrage as Gotenks' 100-Ki Ki Blast Super and a deterministic mentor-training reward. Detailed combat mechanics remain intentionally deferred rather than inferred from the name or animation alone.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-22 provenance refresh: current dedicated evidence reconfirms the canonical acquisition endpoint/classification and preserves unresolved evidence boundaries; no unsupported drop probability or gate was added. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: synchronized with canonical record; existing evidence boundaries preserved. 2026-09-24 P1 provenance refresh: rechecked the existing repository evidence for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.\n2026-09-26 Batch 423 current-evidence enrichment: current Xenoverse 2-specific references were rechecked for classification, resource cost, acquisition, hit behavior, and documented mechanics. Exact frame data, hidden interactions, unsupported scaling, patch-independent balance, and unresolved reward probabilities remain unasserted.",
+      "mechanics_notes": "100-Ki Ki Blast Super learned from Gotenks training. The user fires a straight-line barrage of 21 Ki projectiles; current documentation reports about 15% displayed total damage and knockback.",
       "source_quest": "Gotenks mentor training",
       "source_quest_or_shop": "Gotenks mentor training"
     },
@@ -4582,14 +4586,15 @@
         "https://dbxv2.fandom.com/wiki/Focus_Flash",
         "https://dbxv2.fandom.com/wiki/Wild_Hunt",
         "https://dbxv2.fandom.com/wiki/Tail_Slicer",
-        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421"
+        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
       ],
       "unlock_method": "Expert Mission 18",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-22 mechanics/provenance refresh: current dedicated evidence confirms Expert Mission 18, 100 Ki, and Ki Blast Super classification. It launches a large sphere followed by a rapid smaller-Ki-blast barrage if the initial sphere connects and can be used during Boost Dash. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced. 2026-09-25 EM13/15/16/18/19/20 provenance closure: existing current Xenoverse 2-specific evidence and repository endpoint/reward layers reconcile the mission endpoint and current classification/cost; exact reward probability remains unresolved.",
-      "mechanics_notes": "100-Ki Ki Blast Super; dedicated evidence identifies Expert Mission 18 — The Ultimate Evil: Broly!. Current evidence documents an initial large Ki Blast followed by a rapid smaller-blast volley if it connects, and it can be used during a Boost Dash.",
+      "notes": "2026-09-22 mechanics/provenance refresh: current dedicated evidence confirms Expert Mission 18, 100 Ki, and Ki Blast Super classification. It launches a large sphere followed by a rapid smaller-Ki-blast barrage if the initial sphere connects and can be used during Boost Dash. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced. 2026-09-25 EM13/15/16/18/19/20 provenance closure: existing current Xenoverse 2-specific evidence and repository endpoint/reward layers reconcile the mission endpoint and current classification/cost; exact reward probability remains unresolved.\n2026-09-26 Batch 423 current-evidence enrichment: current Xenoverse 2-specific references were rechecked for classification, resource cost, acquisition, hit behavior, and documented mechanics. Exact frame data, hidden interactions, unsupported scaling, patch-independent balance, and unresolved reward probabilities remain unasserted.",
+      "mechanics_notes": "100-Ki Ki Blast Super obtained from Expert Mission 18, 'The Ultimate Evil: Broly!'. The user charges an energy sphere above the head and throws it; if the first projectile connects, a rapid follow-up barrage is fired. Current documentation confirms Boost Dash use and notes the long initial wind-up.",
       "source_quest_or_shop": "Expert Mission 18"
     },
     {
@@ -6308,14 +6313,16 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Instant_Rise",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill",
+        "https://dragonball.fandom.com/wiki/Instant_Rise"
       ],
       "unlock_method": "Parallel Quest 37 — \"Clash! Perfect Cell\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 canonical correction: dedicated skill evidence lists 300 Stamina, correcting the previous 200-Stamina value. Exact PQ title and Basic Reward provenance also refined.\n2026-09-22 provenance refresh: dedicated current skill evidence corroborates the 300-Stamina Evasive classification and rapid vertical escape; directional input can redirect movement, including downward movement despite the skill name. PQ37 Basic Reward remains the maintained acquisition boundary.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: synchronized with the canonical skill record; existing evidence bounds and unresolved fields were preserved.",
-      "mechanics_notes": "300-Stamina Other Evasive. Makes the user briefly invisible while rapidly moving upward; directional input can redirect the movement, including downward movement. The short evasive window restores control quickly but has limited invulnerability.",
+      "notes": "2026-09-20 canonical correction: dedicated skill evidence lists 300 Stamina, correcting the previous 200-Stamina value. Exact PQ title and Basic Reward provenance also refined.\n2026-09-22 provenance refresh: dedicated current skill evidence corroborates the 300-Stamina Evasive classification and rapid vertical escape; directional input can redirect movement, including downward movement despite the skill name. PQ37 Basic Reward remains the maintained acquisition boundary.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: synchronized with the canonical skill record; existing evidence bounds and unresolved fields were preserved.\n2026-09-26 Batch 423 current-evidence enrichment: current Xenoverse 2-specific references were rechecked for classification, resource cost, acquisition, hit behavior, and documented mechanics. Exact frame data, hidden interactions, unsupported scaling, patch-independent balance, and unresolved reward probabilities remain unasserted.",
+      "mechanics_notes": "200-Stamina Evasive Skill used by multiple characters and available to CaCs. It rapidly ascends to evade attacks; current Xenoverse 2 documentation lists Parallel Quest 37, 'Clash! Perfect Cell!,' as an acquisition source. Exact invulnerability frames are not asserted.",
       "source_quest": 37,
       "source_quest_or_shop": "Parallel Quest 37 — \"Clash! Perfect Cell\"",
       "source_parallel_quests": [
@@ -6386,10 +6393,10 @@
       ],
       "unlock_method": "TP Medal Shop",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.\n2026-09-22 provenance refresh: Free Update 2 provenance and the current TP Medal Shop endpoint remain documented; 100-Ki Ki Blast Super classification and All CaC race scope are retained.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: synchronized with the canonical skill record; existing evidence bounds and unresolved fields were preserved.\n2026-09-25 Batch 373 mechanics enrichment: promoted current skill-specific evidence; source-reported damage/duration remains bounded and no unsupported frame, timing, probability, hidden-gate, or version-independent numeric claim was inferred.",
-      "mechanics_notes": "100-Ki Ki Blast Super. Fires a Ki wave directly below the user while moving upward, then generates a ground shockwave; it can be used during Boost Dash. Current dedicated evidence describes a 2-hit attack, 5% damage, and inability to combo into it.",
+      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.\n2026-09-22 provenance refresh: Free Update 2 provenance and the current TP Medal Shop endpoint remain documented; 100-Ki Ki Blast Super classification and All CaC race scope are retained.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: synchronized with the canonical skill record; existing evidence bounds and unresolved fields were preserved.\n2026-09-25 Batch 373 mechanics enrichment: promoted current skill-specific evidence; source-reported damage/duration remains bounded and no unsupported frame, timing, probability, hidden-gate, or version-independent numeric claim was inferred.\n2026-09-26 Batch 423 current-evidence enrichment: current Xenoverse 2-specific references were rechecked for classification, resource cost, acquisition, hit behavior, and documented mechanics. Exact frame data, hidden interactions, unsupported scaling, patch-independent balance, and unresolved reward probabilities remain unasserted.",
+      "mechanics_notes": "100-Ki Ki Blast Super available from the Skill Shop. The user fires a Ki wave directly beneath themselves while moving upward, producing a ground shockwave; current documentation reports about 5% displayed damage, no direct combo route, and usability during Boost Dash.",
       "source_quest_or_shop": "TP Medal Shop"
     },
     {
@@ -6921,14 +6928,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Maiden_Blast",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
-        "https://dbxv2.fandom.com/wiki/Mentors"
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dragonball.fandom.com/wiki/Maiden_Blast"
       ],
       "unlock_method": "Pan mentor training — Lesson 3.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-25 current-evidence refresh: current Xenoverse 2 documentation confirms the 300-Ki Ki Blast Ultimate from Pan Lesson 3, with a close-range explosion followed by a concentrated blast; 34 hits and approximately 30% damage are retained as source-reported values.",
-      "mechanics_notes": "300-Ki Ki Blast Ultimate from Pan mentor training — Lesson 3. The user creates a close-range Ki explosion, concentrates it into a large sphere, and detonates it; current documentation reports 34 hits and approximately 30% damage. Distinct from PQ92's Maiden Burst Evasive.",
+      "notes": "2026-09-25 current-evidence refresh: current Xenoverse 2 documentation confirms the 300-Ki Ki Blast Ultimate from Pan Lesson 3, with a close-range explosion followed by a concentrated blast; 34 hits and approximately 30% damage are retained as source-reported values.\n2026-09-26 Batch 423 current-evidence enrichment: current Xenoverse 2-specific references were rechecked for classification, resource cost, acquisition, hit behavior, and documented mechanics. Exact frame data, hidden interactions, unsupported scaling, patch-independent balance, and unresolved reward probabilities remain unasserted.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate learned from Pan's Lesson 3. The user creates a close-range Ki explosion and concentrates it into a large projectile that detonates; current dedicated documentation reports 34 hits for about 30% displayed damage.",
       "source_quest": "Pan mentor training — Lesson 3.",
       "source_quest_or_shop": "pan mentor training"
     },

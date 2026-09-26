@@ -1205,5 +1205,13 @@
   "skill_pure_progress_current_evidence_audit_2026_09_26_batch_422": "docs/data/pure-progress-current-evidence-audit-2026-09-26-batch-422.json",
   "skill_critical_upper_current_evidence_audit_2026_09_26_batch_422": "docs/data/critical-upper-current-evidence-audit-2026-09-26-batch-422.json",
   "skill_prelude_to_destruction_current_evidence_audit_2026_09_26_batch_422": "docs/data/prelude-to-destruction-current-evidence-audit-2026-09-26-batch-422.json",
-  "skill_death_slash_current_evidence_audit_2026_09_26_batch_422": "docs/data/death-slash-current-evidence-audit-2026-09-26-batch-422.json"
+  "skill_death_slash_current_evidence_audit_2026_09_26_batch_422": "docs/data/death-slash-current-evidence-audit-2026-09-26-batch-422.json",
+  "skill_instant_rise_current_evidence_audit_2026_09_26_batch_423": "docs/data/instant-rise-current-evidence-audit-2026-09-26-batch-423.json",
+  "skill_maiden_blast_current_evidence_audit_2026_09_26_batch_423": "docs/data/maiden-blast-current-evidence-audit-2026-09-26-batch-423.json",
+  "skill_chaos_wall_current_evidence_audit_2026_09_26_batch_423": "docs/data/chaos-wall-current-evidence-audit-2026-09-26-batch-423.json",
+  "skill_darkness_rush_ranged_current_evidence_audit_2026_09_26_batch_423": "docs/data/darkness-rush-ranged-current-evidence-audit-2026-09-26-batch-423.json",
+  "skill_blaster_cannon_current_evidence_audit_2026_09_26_batch_423": "docs/data/blaster-cannon-current-evidence-audit-2026-09-26-batch-423.json",
+  "skill_die_die_missile_barrage_current_evidence_audit_2026_09_26_batch_423": "docs/data/die-die-missile-barrage-current-evidence-audit-2026-09-26-batch-423.json",
+  "skill_jumping_energy_wave_current_evidence_audit_2026_09_26_batch_423": "docs/data/jumping-energy-wave-current-evidence-audit-2026-09-26-batch-423.json",
+  "skill_focus_flash_current_evidence_audit_2026_09_26_batch_423": "docs/data/focus-flash-current-evidence-audit-2026-09-26-batch-423.json"
 }

@@ -1,0 +1,14 @@
+{
+  "batch": 423,
+  "date": "2026-09-26",
+  "skill": "Chaos Wall",
+  "skill_id": "skill-chaos-wall",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Batch 423.",
+  "findings": "300-Stamina Ki Blast Evasive associated with Supreme Kai of Time; creates a rainbow energy wall that can nullify Ki Blasts; holding charges it, increasing size, travel speed, and damage.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unsupported reward probabilities remain unresolved."
+  ]
+}

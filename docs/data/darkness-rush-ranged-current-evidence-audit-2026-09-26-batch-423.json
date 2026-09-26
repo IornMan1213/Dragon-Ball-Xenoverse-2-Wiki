@@ -1,0 +1,14 @@
+{
+  "batch": 423,
+  "date": "2026-09-26",
+  "skill": "Darkness Rush (Ranged)",
+  "skill_id": "skill-darkness-rush-ranged",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Batch 423.",
+  "findings": "300-Ki Strike Ultimate from Lord Slug training, restricted to Namekian CaCs plus Lord Slug; grab, strike barrage, then pseudo-Ki-Blast finisher; current documentation reports 7 hits and about 25% displayed damage.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unsupported reward probabilities remain unresolved."
+  ]
+}
