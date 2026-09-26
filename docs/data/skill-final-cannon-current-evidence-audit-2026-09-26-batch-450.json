@@ -1,0 +1,22 @@
+{
+  "skill_id": "skill-final-cannon",
+  "name": "Final Cannon",
+  "batch": 450,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Final_Cannon"
+  ],
+  "findings": [
+    "100-Ki Strike Super",
+    "PQ52 endpoint",
+    "short-range rush",
+    "six-hit sequence",
+    "launching finish",
+    "source-reported 5% damage"
+  ],
+  "evidence_boundaries": [
+    "No unsupported exact frames, scaling formulas, probabilities, or hidden conditions added. Source-reported damage remains bounded evidence."
+  ]
+}
