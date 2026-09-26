@@ -24,9 +24,26 @@ def main() -> int:
     chars = load("characters-record-layer.json")
     page = (ROOT / "docs" / "Partner-Customization.md").read_text(encoding="utf-8")
 
-    key_records = keys.get("records", [])
-    recon_records = recon.get("records", [])
-    bridge_records = bridge.get("records", [])
+    failures = []
+    for label, source in (("key source", keys), ("reconciliation source", recon), ("character bridge source", bridge), ("character source", chars)):
+        if not isinstance(source, dict):
+            failures.append(f"{label} must be an object")
+    key_records = keys.get("records", []) if isinstance(keys, dict) else []
+    recon_records = recon.get("records", []) if isinstance(recon, dict) else []
+    bridge_records = bridge.get("records", []) if isinstance(bridge, dict) else []
+    if not isinstance(key_records, list):
+        failures.append("key records must be a list")
+        key_records = []
+    if not isinstance(recon_records, list):
+        failures.append("reconciliation records must be a list")
+        recon_records = []
+    if not isinstance(bridge_records, list):
+        failures.append("bridge records must be a list")
+        bridge_records = []
+    if any(not isinstance(x, dict) for x in key_records): failures.append("every key record must be an object")
+    if any(not isinstance(x, dict) for x in recon_records): failures.append("every reconciliation record must be an object")
+    if any(not isinstance(x, dict) for x in bridge_records): failures.append("every bridge record must be an object")
+    if not isinstance(chars, dict) or not isinstance(chars.get("character_names", []), list): failures.append("character_names must be a list")
     bridge_ids = [x.get("character_id") for x in bridge_records]
     bridge_by_id = {x.get("character_id"): x.get("canonical_character_name") for x in bridge_records if x.get("character_id") is not None}
     duplicate_bridge_ids = sorted(k for k,v in Counter(bridge_ids).items() if k is not None and v > 1)
@@ -41,7 +58,6 @@ def main() -> int:
     malformed_key_numbers = [{"key_number": x.get("key_number"), "type": type(x.get("key_number")).__name__} for x in key_records if x.get("key_number") is not None and not isinstance(x.get("key_number"), int)]
     malformed_recon_numbers = [{"key": x.get("key"), "type": type(x.get("key")).__name__} for x in recon_records if x.get("key") is not None and not isinstance(x.get("key"), int)]
 
-    failures = []
     checks = {
         "exact_key_count": len(key_records) == 20,
         "exact_key_numbers": sorted(key_numbers) == expected,
@@ -81,6 +97,7 @@ def main() -> int:
     extra_links = sorted(linked_names - expected_names)
     checks["page_has_exactly_20_key_search_links"] = len(search_links) == 20
     checks["page_search_link_targets_match_partner_names"] = all(name in expected_names for name, _ in search_links)
+    checks["page_search_query_values_match_linked_names"] = all(query == name.replace(" ", "+") for name, query in search_links)
     checks["all_key_partners_have_search_links"] = not missing_links
     checks["no_unmapped_extra_partner_search_links"] = not extra_links
 
