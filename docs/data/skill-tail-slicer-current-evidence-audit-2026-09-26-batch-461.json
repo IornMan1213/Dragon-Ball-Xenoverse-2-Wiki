@@ -1,0 +1,19 @@
+{
+  "batch": 461,
+  "date": "2026-09-26",
+  "skill_name": "Tail Slicer",
+  "skill_id": "skill-tail-slicer",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics/provenance review for the live canonical record.",
+  "findings": [
+    "100-Ki Ki Blast Super. The user jumps sideways while firing a disc-shaped projectile; directional input changes its travel direction and the projectile tracks the target. Current evidence preserves a source conflict concerning whether it is blockable/unblockable rather than silently resolving it."
+  ],
+  "sources": [
+    "Repository-maintained current skill/PQ/evidence corpus and dedicated exact-name references reviewed for the live record."
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "No unsupported exact frame data, reward probabilities, hidden gates, or patch-independent scaling is promoted.",
+    "Known source conflicts remain explicit rather than silently normalized."
+  ]
+}
