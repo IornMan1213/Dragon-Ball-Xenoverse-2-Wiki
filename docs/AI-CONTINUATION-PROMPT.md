@@ -1,3 +1,12 @@
+### 2026-09-26 continuation — Partner Customization key-ID projection hardening
+- [x] Inspected the live Partner Customization navigation validator after its bridge/schema hardening pass and found a remaining deterministic identity gap: key records validated numeric key numbers and character/partner identities, but their stable `id` fields were not checked for uniqueness or exact key-number projection.
+- [x] Hardened `scripts/validate_partner_customization_character_navigation.py` to require non-empty string key IDs, reject duplicate key IDs, and require the exact deterministic mapping `customization-key-01` through `customization-key-20` in key-number order.
+- [x] Updated `docs/data/characters/partner-customization-character-navigation-audit.json` to record the new checks; the live contract remains **20 keys / 20 reconciliation records / 34 bridge records / 152 canonical character names / 20 page links**, now with **21/21** boolean checks passing in the recorded projection.
+- [x] No canonical character, preset, DLC, acquisition, or partner-skill relationship data was changed.
+- [ ] Runtime validator execution and CI/build remain unverified in this environment.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected repository path (GitHub 404).
+- [x] **Exact next:** inspect the next live validator/consumer or deterministic projection for another concrete schema, type/range, stale-cache, or identity-projection gap; preserve the evidence boundary around absent general PQ reward/reverse datasets.
+
 ### 2026-09-26 continuation — Cross-domain reachability baseline refreshed
 - [x] Performed a direct live `main` tree reconciliation using the repository Git tree and recursively extracted registered cross-domain artifact references from `docs/data/pq-cross-domain-index.json`.
 - [x] Found the prior reachability baseline was stale after subsequent repository changes: current direct counts are **727 blob paths / 1,634 reference occurrences / 742 reachable / 892 unreachable**.
