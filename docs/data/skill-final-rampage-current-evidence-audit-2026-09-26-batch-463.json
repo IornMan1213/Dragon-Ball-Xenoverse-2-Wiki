@@ -1,0 +1,21 @@
+{
+  "batch": 463,
+  "date": "2026-09-26",
+  "skill_name": "Final Rampage",
+  "skill_id": "skill-final-rampage",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics/provenance review for the live canonical record.",
+  "findings": [
+    "500-Ki Strike Ultimate from PQ174. The user rushes and knocks the opponent forward, vanishes behind them for a sledgehammer, then fires a Final Flash-like Ki wave and finishes with a heavy ground punch. Current dedicated evidence identifies a 15-hit sequence and states the final full-force attack occurs when the Ki wave connects; the move can continue through an opponent's Limit Burst. Exact frame timing and patch-independent damage scaling remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Final_Rampage",
+    "https://dbxv2.fandom.com/wiki/Parallel_Quests",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "No unsupported exact frame data, hidden gates, reward probabilities, or patch-independent scaling is promoted.",
+    "Known source conflicts or historical evidence remain provenance rather than being silently normalized."
+  ]
+}
