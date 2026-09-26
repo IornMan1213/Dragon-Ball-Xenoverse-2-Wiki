@@ -1,0 +1,12 @@
+{
+  "batch": 494,
+  "date": "2026-09-26",
+  "skill_id": "skill-volleyball-fist",
+  "skill_name": "Volleyball Fist",
+  "status": "complete",
+  "findings": "100-Ki Strike Super from Tien mentor Lesson 1. Current documentation describes a three-stage short-range rush ending in a spike knockdown; source-reported total damage is approximately 15%.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Volleyball_Fist"
+  ],
+  "evidence_boundary": "Current Xenoverse 2-specific mechanics and explicit acquisition evidence are bounded to cited source context. Unsupported exact frames, hidden interactions, probabilities, and patch-independent scaling are not inferred."
+}
