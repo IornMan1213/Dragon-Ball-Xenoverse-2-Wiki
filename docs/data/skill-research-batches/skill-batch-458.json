@@ -1,0 +1,97 @@
+{
+  "batch": 458,
+  "date": "2026-09-26",
+  "scope": "Fresh live mechanics frontier after Batch 457 over the 474-record canonical skill corpus.",
+  "selected": [
+    "Super Black Kamehameha Rosé",
+    "Warp Kamehameha",
+    "Dead End Bullet",
+    "Super Saiyan God Super Saiyan",
+    "Super Electric Strike",
+    "Ki Explosion",
+    "Final Explosion",
+    "Powered Shell"
+  ],
+  "method": "Recomputed registered current-evidence-audit coverage and selected the next shortest remaining records by combined mechanics_notes/notes detail. Eight records were rechecked against current Xenoverse 2-specific references and independent corroboration.",
+  "records": [
+    {
+      "skill_name": "Super Black Kamehameha Rosé",
+      "skill_id": "skill-super-black-kamehameha-ros",
+      "mechanics_notes": "500-Ki Ki Blast Ultimate from PQ109. The opening pseudo-strike punch is followed by a pink Kamehameha beam; current dedicated evidence documents 25 hits and about 40% total damage. The initial punch is slower than the standard Super Black Kamehameha, while the beam carries the stronger damage portion. Exact frame data and reward probability remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Black_Kamehameha_Ros%C3%A9",
+        "https://dbxenoverse.fandom.com/wiki/Super_Black_Kamehameha_Ros%C3%A9"
+      ]
+    },
+    {
+      "skill_name": "Warp Kamehameha",
+      "skill_id": "skill-warp-kamehameha",
+      "mechanics_notes": "400-Ki Ki Blast Ultimate from PQ76. The user charges a Kamehameha, teleports to the locked-on opponent, then fires for 24 hits and about 30% source-reported damage. The repository retains conflicting reward-tier evidence and therefore does not assert a new Ultimate Finish gate. Exact teleport timing and frame data remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Warp_Kamehameha",
+        "https://docs.google.com/spreadsheets/d/1B_m8l8BAtfAZkEWpB2IxDXTWYaZ6TW80GgOGtwzVDWQ/edit?usp=sharing"
+      ]
+    },
+    {
+      "skill_name": "Dead End Bullet",
+      "skill_id": "skill-dead-end-bullet",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from Expert Mission 8. The user jumps upward and rains Ki Blasts downward in a long-range, 21-hit projectile sequence with knockback and about 30% source-reported total damage. Community usage notes are kept separate from deterministic mechanics.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Dead_End_Bullet",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
+      ]
+    },
+    {
+      "skill_name": "Super Saiyan God Super Saiyan",
+      "skill_id": "skill-super-saiyan-god-super-saiyan",
+      "mechanics_notes": "500-Ki Saiyan-only Awoken Skill. Current evidence confirms level 90+ plus max Whis friendship for acquisition, +25% all attack damage, 5% damage reduction, and 10 Ki drain per second; charged Ki attacks gain the Super Saiyan teleport/vanish behavior. Exact movement/frame and stamina interactions remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Saiyan_God_Super_Saiyan",
+        "https://dbxv2.fandom.com/wiki/Awoken_Skill",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2832908819"
+      ]
+    },
+    {
+      "skill_name": "Super Electric Strike",
+      "skill_id": "skill-super-electric-strike",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from Expert Mission 11. The user launches a large tracked Ki wave with long-range coverage; current dedicated evidence documents 17 hits, knockback, and about 40% total damage. Existing EM11 acquisition semantics remain unchanged; exact drop probability and frame data remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Electric_Strike",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
+      ]
+    },
+    {
+      "skill_name": "Ki Explosion",
+      "skill_id": "skill-ki-explosion",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ77. Creates a short-range omnidirectional purple explosion; holding the input spends additional Ki and permits repeated/extended explosions up to four Ki bars total. Official update notes document the historical reduction from 200 to 100 Ki and a damage increase; exact modern frame data and universal damage scaling remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ki_Explosion",
+        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1535386736&feed=steam_community_announcements"
+      ]
+    },
+    {
+      "skill_name": "Final Explosion",
+      "skill_id": "skill-final-explosion",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate sold in the TP Medal Shop for 200 TP Medals. The user floats for about 2 seconds, releases a large area explosion, and can hold the input to consume Stamina and extend it; dedicated evidence reports a 20-hit base sequence at about 30% damage and leaves the user vulnerable afterward. Exact extended damage and frame data remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Final_Explosion",
+        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1535386736&feed=steam_community_announcements"
+      ]
+    },
+    {
+      "skill_name": "Powered Shell",
+      "skill_id": "skill-powered-shell",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ128. The user fires a single projectile in an outward arc; backward input fires it behind the user. Current repository evidence records about 5% damage and a damaged-state activation that can spend up to 300 Stamina. Exact activation timing and damage scaling remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Powered_Shell",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
+      ]
+    }
+  ],
+  "validation": {
+    "canonical_count": 474,
+    "index_count": 474,
+    "duplicate_ids": 0,
+    "ordered_id_parity": true
+  }
+}
