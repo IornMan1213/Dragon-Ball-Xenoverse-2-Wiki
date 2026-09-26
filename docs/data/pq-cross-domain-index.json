@@ -1532,5 +1532,15 @@
   "skill_strike-of-revelation_current_evidence_audit_2026_09_26_batch_464": "docs/data/skill-strike-of-revelation-current-evidence-audit-2026-09-26-batch-464.json",
   "skill_variant-drive_current_evidence_audit_2026_09_26_batch_464": "docs/data/skill-variant-drive-current-evidence-audit-2026-09-26-batch-464.json",
   "skill_giant-storm_current_evidence_audit_2026_09_26_batch_464": "docs/data/skill-giant-storm-current-evidence-audit-2026-09-26-batch-464.json",
-  "skill_lightning-of-absolution_current_evidence_audit_2026_09_26_batch_464": "docs/data/skill-lightning-of-absolution-current-evidence-audit-2026-09-26-batch-464.json"
+  "skill_lightning-of-absolution_current_evidence_audit_2026_09_26_batch_464": "docs/data/skill-lightning-of-absolution-current-evidence-audit-2026-09-26-batch-464.json",
+  "skill_batch_465": "docs/data/skill-research-batches/skill-batch-465.json",
+  "skill_batch_465_thin_frontier": "docs/data/skill-research-batches/skill-batch-465-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_drain-field_current_evidence_audit_2026_09_26_batch_465": "docs/data/skill-drain-field-current-evidence-audit-2026-09-26-batch-465.json",
+  "skill_menacing-flare_current_evidence_audit_2026_09_26_batch_465": "docs/data/skill-menacing-flare-current-evidence-audit-2026-09-26-batch-465.json",
+  "skill_quick-sleep_current_evidence_audit_2026_09_26_batch_465": "docs/data/skill-quick-sleep-current-evidence-audit-2026-09-26-batch-465.json",
+  "skill_mach-punch_current_evidence_audit_2026_09_26_batch_465": "docs/data/skill-mach-punch-current-evidence-audit-2026-09-26-batch-465.json",
+  "skill_power-wall_current_evidence_audit_2026_09_26_batch_465": "docs/data/skill-power-wall-current-evidence-audit-2026-09-26-batch-465.json",
+  "skill_spirit-pulse_current_evidence_audit_2026_09_26_batch_465": "docs/data/skill-spirit-pulse-current-evidence-audit-2026-09-26-batch-465.json",
+  "skill_finish-breaker_current_evidence_audit_2026_09_26_batch_465": "docs/data/skill-finish-breaker-current-evidence-audit-2026-09-26-batch-465.json",
+  "skill_fighting-pose-e_current_evidence_audit_2026_09_26_batch_465": "docs/data/skill-fighting-pose-e-current-evidence-audit-2026-09-26-batch-465.json"
 }
