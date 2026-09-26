@@ -6191,14 +6191,16 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Innocence_Breath",
+        "https://dragonball.fandom.com/wiki/Flame_Shower_Breath"
       ],
       "unlock_method": "Majin Buu's mentor training — complete the corresponding lesson to receive Innocence Breath as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used.\n2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: synchronized with the canonical skill record; existing evidence bounds and unresolved fields were preserved.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used.\n2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: synchronized with the canonical skill record; existing evidence bounds and unresolved fields were preserved.\n2026-09-25 Batch 371 mechanics enrichment: promoted current skill-specific/repository evidence; unresolved frame, timing, probability, hidden-gate, and unsupported numeric fields remain bounded.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate; the user advances and sweeps a powerful breath/ki wave across the target area, producing a single-hit knockback attack. The dedicated Xenoverse 2 reference describes it as unblockable.",
       "source_quest": "Majin Buu mentor training",
       "source_quest_or_shop": "Majin Buu mentor training"
     },
@@ -6213,14 +6215,16 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Innocence_Bullet",
+        "https://dragonball.fandom.com/wiki/Innocence_Bullet"
       ],
       "unlock_method": "Majin Buu's mentor training — complete the corresponding lesson to receive Innocence Bullet as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: synchronized with the canonical skill record; existing evidence bounds and unresolved fields were preserved.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: synchronized with the canonical skill record; existing evidence bounds and unresolved fields were preserved.\n2026-09-25 Batch 371 mechanics enrichment: promoted current skill-specific/repository evidence; unresolved frame, timing, probability, hidden-gate, and unsupported numeric fields remain bounded.",
+      "mechanics_notes": "100-Ki Ki Blast Super; the user launches paired swirling Ki Blasts that combine on impact, dealing knockback and applying poison. Current Xenoverse 2 evidence describes the poison as persisting until the opponent dies or uses an antidote.",
       "source_quest": "Majin Buu mentor training",
       "source_quest_or_shop": "Majin Buu mentor training"
     },
@@ -7293,14 +7297,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Neo_Tri-Beam"
       ],
       "unlock_method": "Tien's Lesson 4 — complete the instructor lesson to receive Neo Tri-Beam as the final mentor reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-25 current-evidence refresh: current Xenoverse 2 documentation identifies Tien's Lesson 4 as the Neo Tri-Beam acquisition endpoint and documents the 300-Ki Ultimate with repeatable shots costing 100 Stamina each. This supersedes the stale Lesson 3 projection.",
-      "mechanics_notes": "300-Ki Ki Blast Ultimate from Tien mentor training — Lesson 4. The user rises and fires a Tri-Beam for 5% damage; repeating the input fires additional Tri-Beams at 100 Stamina per repeat. Current documentation lists a 100–1400 Stamina range. No unsupported exact timing or damage scaling is inferred.",
+      "notes": "2026-09-25 current-evidence refresh: current Xenoverse 2 documentation identifies Tien's Lesson 4 as the Neo Tri-Beam acquisition endpoint and documents the 300-Ki Ultimate with repeatable shots costing 100 Stamina each. This supersedes the stale Lesson 3 projection.\n2026-09-25 Batch 371 mechanics enrichment: promoted current skill-specific/repository evidence; unresolved frame, timing, probability, hidden-gate, and unsupported numeric fields remain bounded.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate: the user rises and fires a Tri-Beam; repeated inputs fire additional Tri-Beams at 100 Stamina each, with current documentation listing 100–1400 Stamina total for repeated shots.",
       "source_quest": "Tien mentor training — Lesson 4",
       "source_quest_or_shop": "Tien mentor training — Lesson 4",
       "ki_cost": 300
@@ -9617,14 +9622,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Strike_of_Revelation"
       ],
       "unlock_method": "Whis's mentor training — complete the corresponding lesson to receive Strike of Revelation as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.\n2026-09-25 Batch 371 mechanics enrichment: promoted current skill-specific/repository evidence; unresolved frame, timing, probability, hidden-gate, and unsupported numeric fields remain bounded.",
+      "mechanics_notes": "100-Ki Strike Super from Whis mentor training. Current repository evidence confirms the mentor acquisition endpoint and cost; detailed frame, damage, and timing behavior remains version-sensitive and is not inferred beyond the maintained evidence.",
       "source_quest": "Whis mentor training",
       "source_quest_or_shop": "Whis mentor training"
     },
@@ -9662,14 +9668,16 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Sudden_Storm",
+        "https://dbxv2.fandom.com/wiki/Turles"
       ],
       "unlock_method": "Turles's mentor training — complete the corresponding lesson to receive Sudden Storm as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.\n2026-09-25 Batch 371 mechanics enrichment: promoted current skill-specific/repository evidence; unresolved frame, timing, probability, hidden-gate, and unsupported numeric fields remain bounded.",
+      "mechanics_notes": "200-Ki Ki Blast Super from Turles mentor training. Current repository evidence confirms the canonical class, resource cost, and mentor acquisition endpoint; exact frame and damage values remain unresolved.",
       "source_quest": "Turles mentor training",
       "source_quest_or_shop": "Turles mentor training"
     },
