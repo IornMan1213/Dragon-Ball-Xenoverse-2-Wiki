@@ -1668,3 +1668,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected path (GitHub 404).
 - [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 452 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
+
+
+### 2026-09-26 continuation — Skill Research Batch 453 completed
+
+- [x] Fresh live 474-record mechanics frontier census selected **Super Spirit Bomb, Reverse Launcher, Ultrasonic Blitz, Dragon Spiral, Destructive Fracture, Crush Cannon, Burning Blast, and Instant Transmission** as the next eight shortest genuinely under-detailed canonical mechanics records without a prior current-evidence audit.
+- [x] Deepened and synchronized all eight canonical records in `docs/data/skills.json` and `docs/data/skills-index.json` with current Xenoverse 2-specific evidence.
+- [x] Added Batch 453 research data, thin-frontier audit, eight current-evidence audit files, and provenance registrations.
+- [x] Canonical/index validation remains **474/474**, with ordered-ID parity and 0 missing / 0 extra.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 453 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
