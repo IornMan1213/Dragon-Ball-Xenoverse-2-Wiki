@@ -1,0 +1,10 @@
+{
+  "batch": 490,
+  "date": "2026-09-26",
+  "skill_id": "skill-breaker-energy-wave",
+  "skill_name": "Breaker Energy Wave",
+  "status": "complete",
+  "findings": "0-Ki Ki Blast Ultimate with a low-health-only use restriction; current skill documentation confirms multi-hit yellow beam behavior and CaC availability.",
+  "evidence_boundary": "Current-source behavior and source-reported numerical values are bounded. Unsupported exact frames, universal scaling, hidden interactions, and drop probabilities are not asserted.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}
