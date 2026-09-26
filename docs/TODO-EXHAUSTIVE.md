@@ -2083,3 +2083,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated the corresponding validator audit and maintained its cross-domain registration.
 - [ ] CI/build remains unverified.
 - [x] **Exact next:** continue from the remaining critical cross-domain references and prioritize a live-present DLC/PQ navigation consumer or safely regenerable reverse-navigation artifact.
+
+
+### 2026-09-26 TODO progress update — Live-tree character consumer reconciliation
+- [x] Confirmed the historical `scripts/validate_character_explorer.py` reference is not a live source-tree file; the active validator is `scripts/validate_character_presentation_consumers.py`.
+- [x] Reconciled `docs/data/characters/character-presentation-consumer-audit.json` so its active consumer list names only the live presentation validator; documented generated HTML explorer artifacts as build outputs rather than source-tree invariants.
+- [x] Updated the cross-domain reachability audit and persistent handoff with this distinction.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** inspect remaining critical unreachable references for stale/deleted validator registrations that can be safely reconciled without fabricating canonical PQ reward/reverse-index data.
