@@ -1,0 +1,19 @@
+{
+  "batch": 460,
+  "date": "2026-09-26",
+  "skill_name": "Energy Barrier",
+  "skill_id": "skill-energy-barrier",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics/provenance review for the live canonical record.",
+  "findings": [
+    "300-Stamina Evasive from PQ32. Creates a barrier that cancels Ki waves and knocks opponents back; holding the input can extend the barrier while consuming Ki. Existing acquisition evidence is explicitly conflicting between Basic Reward and an Ultimate-Finish Cell defeat condition, so the conflict is retained rather than normalized."
+  ],
+  "sources": [
+    "Repository-maintained current skill/PQ evidence corpus; dedicated exact-name references reviewed for the live record."
+  ],
+  "evidence_boundaries": [
+    "Source-reported damage and timing values remain bounded.",
+    "No unsupported exact frame data, reward probabilities, hidden gates, or patch-independent scaling is promoted.",
+    "Conflicting acquisition semantics remain explicitly unresolved where sources disagree."
+  ]
+}
