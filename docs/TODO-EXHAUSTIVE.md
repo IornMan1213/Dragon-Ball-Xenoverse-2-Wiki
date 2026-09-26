@@ -1998,3 +1998,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 
 ### 2026-09-26 TODO progress update — Skill Research Batch 493 completed
+
+
+### 2026-09-26 TODO progress update — Skill Research Batch 494 completed
+- [x] Researched **Super Saiyan, Volleyball Fist, Angry Explosion, Side Bridge, and Confusion Blade** from a fresh post-Batch-493 frontier.
+- [x] Added five current-evidence audits plus Batch 494 research/thin-frontier artifacts and provenance registrations.
+- [x] Canonical skill corpus remains **474 records**; current-evidence coverage is **364**, with **119 unaudited** after the fresh census.
+- [x] Preserved evidence boundaries; unsupported exact frames, hidden conditions, probabilities, and patch-independent scaling remain unresolved.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** fresh unaudited mechanics frontier before Batch 495; do not reuse the Batch 494 candidate list.
