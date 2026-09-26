@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-26",
+  "type": "thin_frontier_mechanics_audit",
+  "method": "Fresh live census after Batch 492; prior candidate lists were not reused. Five shortest remaining unaudited records were manually rechecked against their current evidence trails.",
+  "selected": [
+    "skill-focus-flash",
+    "skill-fighting-pose-d",
+    "skill-wolf-fang-fist",
+    "skill-masenko",
+    "skill-shine-shot"
+  ],
+  "next": "Fresh live census before Batch 494; do not reuse this candidate list."
+}
