@@ -1,0 +1,14 @@
+{
+  "batch": 489,
+  "date": "2026-09-26",
+  "skill_id": "skill-god-of-destruction-s-menace",
+  "skill_name": "God Of Destruction S Menace",
+  "status": "complete",
+  "findings": "Current evidence confirms 300-Ki Ki Blast Ultimate, four initial projectiles, additional tracking inputs, up to 26 hits, and about 30% source-reported total damage.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Menace",
+    "https://dragonball.fandom.com/wiki/God_of_Destruction%27s_Menace"
+  ],
+  "evidence_boundary": "Current-source behavior and source-reported values are bounded; unsupported exact frames, universal scaling, hidden interactions, and drop probabilities are not asserted.",
+  "canonical_sync": "Synchronized into canonical and index skill datasets; parity validated at 474/474."
+}
