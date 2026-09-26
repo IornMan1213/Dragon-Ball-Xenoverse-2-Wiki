@@ -1,0 +1,14 @@
+{
+  "batch": 492,
+  "date": "2026-09-26",
+  "skill_id": "skill-rising-rage",
+  "skill_name": "Rising Rage",
+  "status": "complete",
+  "findings": "100-Ki Other Super exclusive to Broly (Restrained). Current documentation describes a charging stance, an aura that can fling nearby opponents, and recurring pulses that send nearby opponents flying. No CaC acquisition route is established.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Rising_Rage",
+    "https://dbxv2.fandom.com/wiki/Broly_%28Restrained%29",
+    "https://www.youtube.com/watch?v=EhqqYZbt3mo"
+  ],
+  "evidence_boundary": "Character-exclusive classification and qualitative mechanics are retained from current references. Exact pulse timing, damage, scaling, and any unsupported acquisition route are not inferred."
+}
