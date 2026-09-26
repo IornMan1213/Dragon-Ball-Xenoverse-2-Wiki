@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "1.2.0",
   "scope": "Partner Customization key -> canonical character navigation",
   "date": "2026-09-26",
   "validator": "scripts/validate_partner_customization_character_navigation.py",
@@ -51,5 +51,11 @@
     "reconciliation_key_integer_shape": true,
     "search_link_exact_count": true
   },
-  "reconciliation_note": "2026-09-26 live-baseline synchronization: the five restored preset character identity mappings bring the explicit bridge to 34 records and the canonical character layer to 152 names. No navigation identity mapping was changed."
+  "reconciliation_note": "2026-09-26 live-baseline synchronization: the five restored preset character identity mappings bring the explicit bridge to 34 records and the canonical character layer to 152 names. No navigation identity mapping was changed.",
+  "checks_count": 18,
+  "checks_passed": 18,
+  "checks_failed": 0,
+  "notes": [
+    "2026-09-26 consistency correction: the audit contained 18 boolean validation checks, all true, while the recovery audit's summary still reported 16 checks passed. The current audit now records the exact 18/18 boolean-check baseline."
+  ]
 }
