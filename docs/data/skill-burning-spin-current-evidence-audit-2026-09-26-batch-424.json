@@ -20,5 +20,7 @@
     "An alternate current aggregate table reports a 300-Ki cost; the 400-Ki dedicated skill page is retained as the primary current evidence and the conflict is not silently normalized.",
     "Exact frame data, movement-speed parameters, hit cadence, and patch-independent damage scaling remain unresolved.",
     "Historical mod fixes are not treated as base-game guarantees."
-  ]
+  ],
+  "canonical_status": "no_exact_name_or_id_found_in_current_474_record_skills_dataset",
+  "promotion_status": "held_pending_canonical_identity_reconciliation"
 }
