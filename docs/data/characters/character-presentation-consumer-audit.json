@@ -143,7 +143,7 @@
     "status": "clean"
   },
   "validator": "scripts/validate_character_presentation_consumers.py",
-  "validator_commit": "8b6247b9a9b3bb51e80aedb60286fbbb6af5d43b",
+  "validator_commit": "ef90c8809e258001cbd84ab20f4c36fe4c35b629",
   "status": "clean",
   "notes": [
     "2026-09-24 live producer refresh: character-presets-record-layer.json now contains 51 records across 17 presentation character IDs, including 46 numbered preset records and 5 separate-character records; 25 records carry verified loadouts with 162 skill-slot entries. Prior 40/12 presentation counts were stale consumer projections.",
@@ -151,6 +151,7 @@
     "2026-09-26 recovery synchronization: restored 5 explicit preset character bridge records (Bardock, Raditz, Nappa, Recoome, Zarbon), raising the live bridge from 29 to 34 and resolving all 17 presentation character IDs used by the 51-record preset layer.",
     "2026-09-26 reconciliation: refreshed the embedded hardening and Partner Customization navigation bridge counts from 29 to the live 34-record identity bridge; no identity mappings were changed by this count synchronization.",
     "2026-09-26 live-tree reconciliation: docs/Characters-All.html is not present in the source tree, so its existence is not treated as a source-tree invariant; the active validator remains source-data focused and may inspect the generated artifact only in a built checkout.",
-    "2026-09-26 validator hardening: scripts/validate_character_presentation_consumers.py no longer unconditionally opens absent docs/Characters-All.html; generated explorer navigation is validated when present and skipped in the source checkout."
+    "2026-09-26 validator hardening: scripts/validate_character_presentation_consumers.py no longer unconditionally opens absent docs/Characters-All.html; generated explorer navigation is validated when present and skipped in the source checkout.",
+    "2026-09-26 follow-up: generated explorer presence is informational; validator success is now independent of the optional build artifact when it is absent from the source checkout."
   ]
 }
