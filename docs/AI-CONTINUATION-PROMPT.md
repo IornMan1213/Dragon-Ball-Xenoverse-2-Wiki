@@ -1,3 +1,11 @@
+### 2026-09-26 continuation — Partner Customization recovery-audit reachability reconciled
+- [x] Inspected the live Partner Customization navigation validator and its audit after the previous cross-domain scalar correction.
+- [x] Found a second deterministic source/index mismatch: `pq-cross-domain-index.json` still registers `docs/data/partner-customization-character-navigation-recovery-audit-2026-09-26.json`, but that audit is not fetchable from the current `main` tree.
+- [x] Recorded the missing recovery audit explicitly in `docs/data/cross-domain-index-reference-reachability-audit-2026-09-26.json` as an unreachable audit/provenance artifact rather than a missing canonical dataset.
+- [x] Did not fabricate or restore the audit from stale snippets; the live navigation validator and current navigation audit remain the authoritative executable/source artifacts.
+- [x] Corrected the current navigation audit's check-count metadata to **18/18 boolean checks passing**.
+- [ ] Runtime execution/CI remains unverified.
+- [x] Exact next: inspect the next live cross-domain validator/consumer for another deterministic integrity mismatch; keep historical audit references classified separately from canonical data gaps.
 ### 2026-09-26 continuation — Cross-domain reachability scalar drift corrected
 - [x] Inspected the live cross-domain reachability audit after the character-validator hardening pass and found a concrete internal inconsistency: critical_unreachable_reference_count was 20 while the enumerated critical_unreachable_references list contained 18 paths.
 - [x] Corrected the scalar to derive from the live enumerated critical set (18) and preserved the full reference list/provenance.
