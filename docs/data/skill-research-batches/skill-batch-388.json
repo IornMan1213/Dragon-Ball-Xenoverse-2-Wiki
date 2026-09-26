@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 388,
+  "created": "2026-09-25",
+  "type": "short-frontier-mechanics-enrichment",
+  "records": [
+    {
+      "name": "Chain Destructo-Disc Barrage",
+      "id": "skill-chain-destructo-disc-barrage",
+      "audit": "docs/data/skill-chain-destructo-disc-barrage-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Double Death Slicer",
+      "id": "skill-double-death-slicer",
+      "audit": "docs/data/skill-double-death-slicer-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Dragon Thunder",
+      "id": "skill-dragon-thunder",
+      "audit": "docs/data/skill-dragon-thunder-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Dual Destructo-Disc",
+      "id": "skill-dual-destructo-disc",
+      "audit": "docs/data/skill-dual-destructo-disc-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Eagle Kick",
+      "id": "skill-eagle-kick",
+      "audit": "docs/data/skill-eagle-kick-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Elegant Blaster",
+      "id": "skill-elegant-blaster",
+      "audit": "docs/data/skill-elegant-blaster-current-evidence-audit-2026-09-25.json"
+    }
+  ],
+  "evidence_boundary": "Current Xenoverse 2 mechanics enrichment only; source-reported numeric values remain bounded and unresolved details are not inferred."
+}
