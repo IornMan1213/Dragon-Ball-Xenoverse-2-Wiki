@@ -1,0 +1,17 @@
+{
+  "skill_id": "skill-blue-hurricane",
+  "name": "Blue Hurricane",
+  "batch": 455,
+  "date": "2026-09-26",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Blue_Hurricane"
+  ],
+  "findings": [
+    "2026-09-26 Batch 455 current-evidence enrichment: 300-Ki Strike Ultimate from Expert Mission 15. The user spins into a controllable blue twister and can steer it for about four seconds; current evidence documents 1–6 hits, knockback, and about 10% damage per hit. Burter is the documented character user. Exact movement speed, startup/recovery, and scaling remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
