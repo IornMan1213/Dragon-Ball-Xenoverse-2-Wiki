@@ -4542,10 +4542,10 @@
       "source_quest_or_shop": "Parallel Quest 114 — \"The Majin Revival Plan\"",
       "ultimate_finish_required": true,
       "skill_description": "Evil Blast is a Ki Blast Ultimate and Counter Skill associated with Dabura.",
-      "mechanics_notes": "Dedicated current-version evidence identifies Evil Blast as a 300-Ki Ki Blast Ultimate and Counter Skill from PQ114. During the counter window, the user becomes translucent; if struck by a Strike attack, they teleport behind the opponent and fire the Ki Blast. Current evidence states the Future Warrior can obtain it randomly from Dabura during the Ultimate Finish. No narrower CaC race/gender/form restriction is inferred.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate/Counter. The user becomes translucent for about 2 seconds; a Strike hit during the counter window triggers a teleport behind the opponent and a 15-hit Ki Blast. Current skill-specific evidence reports 60% total damage and knockback. Exact counter frames, damage scaling, and reward probability remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Evil_Blast",
@@ -4555,7 +4555,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 114,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current dedicated evidence reconfirms Evil Blast as a 300-Ki Ki Blast Ultimate/Counter Skill from PQ114's Ultimate Finish, including its Strike-counter teleport and blast behavior. No narrower CaC restriction or unsupported drop probability is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
+      "notes": "2026-09-22 provenance refresh: current dedicated evidence reconfirms Evil Blast as a 300-Ki Ki Blast Ultimate/Counter Skill from PQ114's Ultimate Finish, including its Strike-counter teleport and blast behavior. No narrower CaC restriction or unsupported drop probability is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-26 Batch 457 current-evidence audit: current Xenoverse 2-specific mechanics and acquisition evidence were rechecked; the bounded mechanics above were synchronized without promoting unsupported frames, scaling, reward probabilities, or hidden conditions.",
       "id": "skill-evil-blast",
       "source_parallel_quests": [
         114
@@ -4877,12 +4877,12 @@
       ],
       "stamina_cost": 300,
       "unlock_method": "Skill Shop — 15,000 Zeni after completing the main story (normal ending)",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Skill Shop (Conton City) after main-story completion",
-      "mechanics_notes": "Current dedicated evidence confirms a 300-Stamina Ki Blast Evasive sold in the Skill Shop after the normal-ending story progression. It creates an area explosion that staggers nearby opponents; no unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
+      "mechanics_notes": "300-Stamina Ki Blast Evasive from the Skill Shop. The user creates an area explosion that current skill-specific evidence reports at 2% damage with roughly 1 second of stun. Evasive activation consumes Stamina rather than Ki; exact active frames and patch-independent damage remain unresolved.",
       "race_restriction": "All CaC races",
       "damage_type": "Ki Blast",
       "dlc_requirement": "Base Game",
@@ -4890,7 +4890,7 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": "Main story — normal ending completion",
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-22 acquisition/mechanics refresh: current dedicated evidence confirms the 300-Stamina Ki Blast Evasive sold for 15,000 Zeni after the normal-ending main story. It creates an area explosion that staggers nearby opponents; the canonical record retains the Skill Shop route. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
+      "notes": "2026-09-22 acquisition/mechanics refresh: current dedicated evidence confirms the 300-Stamina Ki Blast Evasive sold for 15,000 Zeni after the normal-ending main story. It creates an area explosion that staggers nearby opponents; the canonical record retains the Skill Shop route. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-26 Batch 457 current-evidence audit: current Xenoverse 2-specific mechanics and acquisition evidence were rechecked; the bounded mechanics above were synchronized without promoting unsupported frames, scaling, reward probabilities, or hidden conditions.",
       "id": "skill-explosive-wave"
     },
     {
@@ -5294,13 +5294,13 @@
       "usable_by_cac": false,
       "ultimate_finish_required": false,
       "unlock_method": "Character-exclusive to Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "research_status": "enriched",
       "source_quest_or_shop": "Character-exclusive",
-      "mechanics_notes": "Character-exclusive charge skill for Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
+      "mechanics_notes": "Character-exclusive Other Super used by SSGSS Vegeta (Evolved), unavailable to CaCs. Ki charging starts very slowly, accelerates rapidly after about 2 seconds, and is slightly faster than Ultimate Charge. Exact charge-rate curve and frame timing remain unresolved.",
       "race_restriction": "Character-only",
       "acquisition_type": "character_only",
-      "notes": "2026-09-22 provenance/mechanics refresh: current dedicated evidence confirms this as SSGSS Vegeta (Evolved)'s character-exclusive Other Super, unavailable to CaCs. Ki charging begins very slowly and accelerates rapidly after about two seconds, functioning similarly to Ultimate Charge. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current dedicated evidence confirms this as SSGSS Vegeta (Evolved)'s character-exclusive Other Super, unavailable to CaCs. Ki charging begins very slowly and accelerates rapidly after about two seconds, functioning similarly to Ultimate Charge. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 457 current-evidence audit: current Xenoverse 2-specific mechanics and acquisition evidence were rechecked; the bounded mechanics above were synchronized without promoting unsupported frames, scaling, reward probabilities, or hidden conditions.",
       "id": "skill-final-charge"
     },
     {
@@ -5723,10 +5723,10 @@
       "source_quest_or_shop": "Parallel Quest 180 — \"Battle of Resolve: VS Goku Black\"",
       "ultimate_finish_required": true,
       "skill_description": "Force Edge is a Super Strike skill associated with SS3 Vegeta (DAIMA).",
-      "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. Current evidence documents a 2-hit kick/energy-slash sequence with an immediate follow-up after a successful initial hit; it remains the PQ180 Super.",
-      "verification_status": "verified",
+      "mechanics_notes": "100-Ki Strike Super from PQ180. The user launches an energy slash with a kick and can follow an immediate hit with a second attack; current skill-specific evidence identifies a 2-hit kick/energy-slash sequence with knockdown. Exact damage, follow-up timing, and frame data remain unresolved.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Force_Edge",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -5735,7 +5735,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 180,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current DLC documentation identifies Force Edge as one of the six skills in the Dragon Ball DAIMA Pack, with PQ180 as its documented Ultimate Finish reward route. Existing 50% Ultimate Finish condition and reward-table presentation conflict are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-22 provenance refresh: current DLC documentation identifies Force Edge as one of the six skills in the Dragon Ball DAIMA Pack, with PQ180 as its documented Ultimate Finish reward route. Existing 50% Ultimate Finish condition and reward-table presentation conflict are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 457 current-evidence audit: current Xenoverse 2-specific mechanics and acquisition evidence were rechecked; the bounded mechanics above were synchronized without promoting unsupported frames, scaling, reward probabilities, or hidden conditions.",
       "id": "skill-force-edge",
       "source_parallel_quests": [
         180
@@ -7168,14 +7168,14 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Zamasu mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred. 2026-09-23 refresh: current evidence reviewed; documented classification, acquisition, and mechanics were preserved, while unsupported numerical details or narrower CaC restrictions were not inferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "100-Ki Ki Blast Super from Zamasu training. The user flies backward and fires a barrage for 7% damage over 8 hits; forward input adds an unblockable Ki-powered hand strike and an extra Ki bullet. The technique is long-range and can knock the opponent back; exact timing and scaling remain unresolved.",
+      "last_verified": "2026-09-26",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Zamasu mentor training — lesson-2.",
       "dlc_requirement": "Extra Pack 1",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.\n2026-09-21 DLC provenance refinement: replaced the generic DLC label with the documented mentor DLC pack.\n2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC provenance, and mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.\n2026-09-21 DLC provenance refinement: replaced the generic DLC label with the documented mentor DLC pack.\n2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC provenance, and mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 457 current-evidence audit: current Xenoverse 2-specific mechanics and acquisition evidence were rechecked; the bounded mechanics above were synchronized without promoting unsupported frames, scaling, reward probabilities, or hidden conditions.",
       "id": "skill-heavenly-arrow",
       "source_mentor": [
         "mentor-zamasu"
@@ -7569,10 +7569,10 @@
       "source_quest_or_shop": "Parallel Quest 90 — \"Gathering of the Great Evil Alliance\"",
       "ultimate_finish_required": false,
       "skill_description": "Ill Bomber is a Super Ki Blast skill associated with Super 17.",
-      "mechanics_notes": "Dedicated current-version evidence confirms Ill Bomber as a **100-Ki Ki Blast Super** from PQ90. It is an unblockable close-range explosion that makes the user invisible; it is restricted to Majin CaCs. Explicit current reward evidence lists this skill in PQ90's Basic Reward set, so the acquisition route does not require an Ultimate Finish.",
-      "verification_status": "verified",
+      "mechanics_notes": "100-Ki Ki Blast Super restricted to Majin CaCs. The user creates an unblockable close-range explosion, knocking the opponent away while becoming invisible for 5 seconds; current skill-specific evidence reports 15% damage. The user can move while invisible and the opponent cannot lock on during the effect.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Ill_Bomber",
@@ -7583,7 +7583,7 @@
       "race_restriction": "Majin",
       "source_quest": 90,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC/roster provenance, and documented mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC/roster provenance, and documented mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 457 current-evidence audit: current Xenoverse 2-specific mechanics and acquisition evidence were rechecked; the bounded mechanics above were synchronized without promoting unsupported frames, scaling, reward probabilities, or hidden conditions.",
       "id": "skill-ill-bomber",
       "source_parallel_quests": [
         90
@@ -10761,10 +10761,10 @@
       "source_quest_or_shop": "Parallel Quest 119 — \"A Ranger's Duty\"",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Extra Pack 2",
-      "last_verified": "2026-09-25",
-      "mechanics_notes": "100-Ki universal counter from Android 17 (DB Super). During its defensive stance, a Strike attack triggers a retaliatory kick for 15% damage; a Ki Blast attack triggers an Energy Field for about 3 seconds, with a documented 5% damage result if the opponent runs into it. Point-blank Ki Blast interactions are documented with the strike-counter behavior.",
+      "last_verified": "2026-09-26",
+      "mechanics_notes": "100-Ki Strike Super and universal counter. The user holds a defensive stance; Strike attacks trigger a retaliatory kick, while Ki Blast attacks trigger an Energy Field. Current skill-specific evidence reports 15% damage for the kick, a 3-second field, and 5% damage if the opponent contacts the field. Point-blank Ki Blast behavior is documented separately; exact frames and patch-independent scaling remain unresolved.",
       "acquisition_type": "quest_or_mission",
-      "notes": "Corrected 2026-09-20: current reward-table evidence places Rough Ranger in the Basic Reward pool; the prior Ultimate Finish flag was stale. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
+      "notes": "Corrected 2026-09-20: current reward-table evidence places Rough Ranger in the Basic Reward pool; the prior Ultimate Finish flag was stale. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.\n2026-09-26 Batch 457 current-evidence audit: current Xenoverse 2-specific mechanics and acquisition evidence were rechecked; the bounded mechanics above were synchronized without promoting unsupported frames, scaling, reward probabilities, or hidden conditions.",
       "id": "skill-rough-ranger",
       "source_parallel_quests": [
         119
@@ -14088,10 +14088,10 @@
       "source_quest_or_shop": "Parallel Quest 100 / TP Medal Shop",
       "ultimate_finish_required": false,
       "skill_description": "X 100 Big Bang Kamehameha is a Ultimate Ki Blast skill associated with Vegeta (Super Saiyan Blue).",
-      "mechanics_notes": "500-Ki Ki Blast Ultimate associated with Vegeta (Super Saiyan Blue). PQ100 'The Ultimate Rivalry' and the TP Medal Shop are documented acquisition routes; current PQ evidence lists the skill as a Basic Reward, while player reports document RNG variation and also report obtaining it on Ultimate Finish. The canonical route therefore remains non-UF-required, without asserting a drop probability.",
-      "verification_status": "verified",
+      "mechanics_notes": "500-Ki Ki Blast Ultimate. The user charges a Ki ball and fires a long beam for a source-reported 50% damage over 24 hits. When lock-on is disabled, the attack can sweep side-to-side/behind the user and the source reports increased single-hit damage. Exact frame timing and patch-independent damage scaling remain unresolved.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/X_100_Big_Bang_Kamehameha",
@@ -14101,7 +14101,7 @@
       "source_quest": 100,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "PQ100 Basic Reward and TP Medal Shop routes are established; Ultimate Finish is not required for the canonical acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: current PQ100 evidence explicitly lists X 100 Big Bang Kamehameha as a Basic Reward; independent reports confirm RNG variation and TP Medal Shop availability. No unsupported Ultimate Finish-only gate or probability is added. 2026-09-23 final-stale-queue refresh: dedicated current evidence and maintained acquisition documentation were rechecked; existing acquisition/classification/mechanics bounds are preserved without inferring unsupported probability, prerequisite, timer, frame data, stacking cap, or damage values.",
+      "notes": "PQ100 Basic Reward and TP Medal Shop routes are established; Ultimate Finish is not required for the canonical acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: current PQ100 evidence explicitly lists X 100 Big Bang Kamehameha as a Basic Reward; independent reports confirm RNG variation and TP Medal Shop availability. No unsupported Ultimate Finish-only gate or probability is added. 2026-09-23 final-stale-queue refresh: dedicated current evidence and maintained acquisition documentation were rechecked; existing acquisition/classification/mechanics bounds are preserved without inferring unsupported probability, prerequisite, timer, frame data, stacking cap, or damage values.\n2026-09-26 Batch 457 current-evidence audit: current Xenoverse 2-specific mechanics and acquisition evidence were rechecked; the bounded mechanics above were synchronized without promoting unsupported frames, scaling, reward probabilities, or hidden conditions.",
       "id": "skill-x-100-big-bang-kamehameha",
       "source_parallel_quests": [
         100
