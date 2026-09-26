@@ -1,0 +1,22 @@
+{
+  "batch": 419,
+  "date": "2026-09-26",
+  "scope": "Skill mechanics frontier",
+  "status": "completed",
+  "excluded_batches": "396-418",
+  "selected": [
+    "Power Rush",
+    "Super Explosive Wave",
+    "Do or Die",
+    "Masenko",
+    "Death Slicer",
+    "Mighty Explosive Wave",
+    "Time Control",
+    "Darkness Eye Beam",
+    "Evil Ray Strike",
+    "Dragon Spark",
+    "Become Giant",
+    "Crazy Finger Shot"
+  ],
+  "evidence_policy": "Promote directly supported Xenoverse 2 mechanics only; preserve uncertainty around exact frames, hidden interactions, patch-independent scaling, and unresolved timing/scaling values."
+}
