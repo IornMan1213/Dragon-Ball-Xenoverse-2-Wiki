@@ -1430,10 +1430,10 @@
       ],
       "unlock_method": "Conton City Tournament Match 4 — \"Semifinal Showdown\"",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Chaos Wall as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-22 provenance refresh: official publisher documentation corroborates the Free Update 11/Conton City Tournament context; the existing Match 4 endpoint remains the dedicated acquisition evidence. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: dedicated skill evidence and independent corroboration were rechecked; existing acquisition, reward-tier, cost, scope, and mechanics semantics are preserved, and no unsupported drop probability or additional gate is inferred.",
-      "mechanics_notes": "Current skill evidence lists 300 Stamina. The wall can be charged to increase size, damage, and speed.",
+      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Chaos Wall as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-22 provenance refresh: official publisher documentation corroborates the Free Update 11/Conton City Tournament context; the existing Match 4 endpoint remains the dedicated acquisition evidence. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: dedicated skill evidence and independent corroboration were rechecked; existing acquisition, reward-tier, cost, scope, and mechanics semantics are preserved, and no unsupported drop probability or additional gate is inferred. 2026-09-25 Batch 376 mechanics enrichment: current skill-specific evidence added; source-reported numeric mechanics and the Tail Slicer source conflict are preserved as bounded evidence.",
+      "mechanics_notes": "300-Stamina Ki Blast Evasive. The user launches an energy wall that nullifies Ki Blasts. Holding the input enlarges the wall and increases its damage and speed; current reference material documents about 5% base damage and about 10% when charged.",
       "source_quest_or_shop": "Conton City Tournament Match 4"
     },
     {
@@ -9112,14 +9112,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Sign_of_Awakening",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dragonball.fandom.com/wiki/Sign_of_Awakening"
+        "https://dragonball.fandom.com/wiki/Sign_of_Awakening",
+        "https://dbxv2.fandom.com/wiki/Free_Update"
       ],
       "unlock_method": "Parallel Quest 154 — Ultimate Finish bonus slot (40%).",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance census: normalized source field to Parallel Quest 154 — \"Dabura the Loyal? Servant\", matching the maintained PQ research record. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics. 2026-09-23 research refresh: current skill evidence corroborates the 300-Ki Ki Blast Ultimate classification, PQ154 endpoint, rush-plus-energy-wave behavior, and alternate-input rear attack; the maintained 40% Ultimate Finish bonus-slot condition remains unchanged.",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. 2026-09-20 verification: current PQ/reward data confirms the documented acquisition relationship; maintained drop-condition data supplies the specific reward tier. 2026-09-20 PQ154 reconciliation: maintained PQ batch 15 explicitly documents a 40% Ultimate Finish bonus roll for this skill; the prior generic Random Parallel Quest label was too broad and has been replaced with the documented PQ154 UF route.",
+      "notes": "2026-09-20 provenance census: normalized source field to Parallel Quest 154 — \"Dabura the Loyal? Servant\", matching the maintained PQ research record. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics. 2026-09-23 research refresh: current skill evidence corroborates the 300-Ki Ki Blast Ultimate classification, PQ154 endpoint, rush-plus-energy-wave behavior, and alternate-input rear attack; the maintained 40% Ultimate Finish bonus-slot condition remains unchanged. 2026-09-25 Batch 376 mechanics enrichment: current skill-specific evidence added; source-reported numeric mechanics and the Tail Slicer source conflict are preserved as bounded evidence.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate. The user rushes forward with a rapid multi-hit sequence, then launches a blue energy attack; additional input makes the user vanish and reappear behind the opponent for another attack. Current reference material describes a 21-hit sequence and about 40% total damage, both retained as source-reported values.",
       "source_quest": 154,
       "source_quest_or_shop": "Parallel Quest 154 — \"Dabura the Loyal? Servant\"",
       "source_parallel_quests": [
@@ -9360,14 +9361,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Spirit_Ball"
       ],
       "unlock_method": "Yamcha's Lesson 3 — complete the instructor lesson to receive Spirit Ball as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-22 provenance refresh: Yamcha Lesson 3 is confirmed as the acquisition endpoint; current evidence confirms Spirit Ball as Yamcha's Ultimate/Ki Blast skill. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
-      "mechanics_notes": "Yamcha's Lesson 3 300-Ki Ki Blast Ultimate; acquisition is confirmed without an Ultimate Finish gate.",
+      "notes": "2026-09-22 provenance refresh: Yamcha Lesson 3 is confirmed as the acquisition endpoint; current evidence confirms Spirit Ball as Yamcha's Ultimate/Ki Blast skill. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred. 2026-09-25 Batch 376 mechanics enrichment: current skill-specific evidence added; source-reported numeric mechanics and the Tail Slicer source conflict are preserved as bounded evidence.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate. The user creates and throws a large Ki ball; up to 17 additional inputs make the projectile continue tracking the opponent, for a documented 1–18-hit sequence. It is a long-range projectile and can knock the target back; exact per-hit damage is source-reported and not treated as a patch-independent canonical value.",
       "source_quest": "Yamcha mentor training — Lesson 3",
       "source_quest_or_shop": "Yamcha mentor training — Lesson 3",
       "source_mentor": [
@@ -9486,10 +9488,10 @@
       ],
       "unlock_method": "Parallel Quest 151 — \"Even Further Beyond\" Ultimate Finish bonus reward (50% roll)",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-22 provenance refresh: PQ151 is confirmed as the acquisition endpoint; current evidence confirms 100-Ki Ki Blast Super classification and the slower single-shot spirit-energy attack; the maintained Ultimate Finish bonus-roll condition is preserved. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
-      "mechanics_notes": "100-Ki Ki Blast Super from PQ151; a slower single-shot variation of Soaring Fist using spirit energy.",
+      "notes": "2026-09-22 provenance refresh: PQ151 is confirmed as the acquisition endpoint; current evidence confirms 100-Ki Ki Blast Super classification and the slower single-shot spirit-energy attack; the maintained Ultimate Finish bonus-roll condition is preserved. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred. 2026-09-25 Batch 376 mechanics enrichment: current skill-specific evidence added; source-reported numeric mechanics and the Tail Slicer source conflict are preserved as bounded evidence.",
+      "mechanics_notes": "100-Ki Ki Blast Super. The user cocks the right fist back and thrusts forward, releasing a fast single spirit-energy hit. Current reference material reports about 10% base damage; the exact value is treated as source-reported rather than patch-independent.",
       "source_quest": 151,
       "source_quest_or_shop": "Parallel Quest 151 — \"Even Further Beyond\"",
       "source_parallel_quests": [
@@ -10436,14 +10438,15 @@
         "https://dbxv2.fandom.com/wiki/Focus_Flash",
         "https://dbxv2.fandom.com/wiki/Wild_Hunt",
         "https://dbxv2.fandom.com/wiki/Tail_Slicer",
-        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421"
+        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421",
+        "https://dbxv2.fandom.com/wiki/Unblockable_Attack"
       ],
       "unlock_method": "Expert Mission 19",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred. 2026-09-25 EM13/15/16/18/19/20 provenance closure: existing current Xenoverse 2-specific evidence and repository endpoint/reward layers reconcile the mission endpoint and current classification/cost; exact reward probability remains unresolved.",
-      "mechanics_notes": "100-Ki Ki Blast Super; dedicated evidence identifies Expert Mission 19 — A Truly Hellish Transformation.",
+      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred. 2026-09-25 EM13/15/16/18/19/20 provenance closure: existing current Xenoverse 2-specific evidence and repository endpoint/reward layers reconcile the mission endpoint and current classification/cost; exact reward probability remains unresolved. 2026-09-25 Batch 376 mechanics enrichment: current skill-specific evidence added; source-reported numeric mechanics and the Tail Slicer source conflict are preserved as bounded evidence.",
+      "mechanics_notes": "100-Ki Ki Blast Super. The user fires a disc-shaped projectile while jumping sideways; left/right input changes the travel direction. The projectile tracks the target, permits lateral movement, and is documented as blockable despite its movement-based pressure; the repository also records it among unblockable attacks, so that source conflict remains unresolved rather than being silently normalized.",
       "source_quest_or_shop": "Expert Mission 19"
     },
     {
