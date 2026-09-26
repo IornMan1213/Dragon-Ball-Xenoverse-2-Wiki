@@ -10,11 +10,15 @@ assert all(r.get("unlock_method") for r in records)
 assert all(r.get("source_quest_or_shop") for r in records)
 assert all(r.get("acquisition_type") for r in records)
 anomalies=[]
+invalid_pq_endpoints=[]
 for r in records:
-    a=r["acquisition_type"]; u=str(r["unlock_method"]).lower(); pq=r.get("source_parallel_quests") or []
+    pq=r.get("source_parallel_quests") or []
+    invalid_pq_endpoints.extend({"skill_id": r["id"], "pq_id": pq_id} for pq_id in pq if not isinstance(pq_id, int) or not 1 <= pq_id <= 186)
+    a=r["acquisition_type"]; u=str(r["unlock_method"]).lower()
     if a=="tp_medal_shop" and "tp medal shop" not in u: anomalies.append(r["id"])
     if a=="skill_shop" and "skill shop" not in u: anomalies.append(r["id"])
     if a=="parallel_quest" and not pq: anomalies.append(r["id"])
     if a!="parallel_quest" and pq and "parallel quest" not in u: anomalies.append(r["id"])
+assert not invalid_pq_endpoints, invalid_pq_endpoints
 assert not anomalies, anomalies
-print("PASS: 474 records; required acquisition fields present; acquisition_type/unlock_method/PQ endpoint consistency holds.")
+print("PASS: 474 records; required acquisition fields present; acquisition_type/unlock_method/PQ endpoint consistency and PQ endpoint ranges hold.")
