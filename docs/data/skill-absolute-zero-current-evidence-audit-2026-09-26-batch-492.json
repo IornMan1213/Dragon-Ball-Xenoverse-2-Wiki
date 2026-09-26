@@ -1,0 +1,15 @@
+{
+  "batch": 492,
+  "date": "2026-09-26",
+  "skill_id": "skill-absolute-zero",
+  "skill_name": "Absolute Zero",
+  "status": "complete",
+  "findings": "300-Stamina Ki Blast Evasive counter from PQ96. The current skill page describes the stance freezing attackers on contact for approximately three seconds; maintained reward evidence places Absolute Zero in PQ96 Basic Reward.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Absolute_Zero",
+    "https://dbxv2.fandom.com/wiki/Evasive_Skill",
+    "https://dragonball.fandom.com/wiki/Absolute_Zero",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "evidence_boundary": "Current-source mechanics and bounded acquisition evidence only. Historical transfer/Ultimate-Finish claims remain provenance; no drop probability, hidden gate, or exact frame data is asserted."
+}
