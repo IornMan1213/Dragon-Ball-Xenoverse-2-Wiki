@@ -1,0 +1,24 @@
+{
+  "batch": 419,
+  "date": "2026-09-26",
+  "status": "completed",
+  "selected": [
+    "Power Rush",
+    "Super Explosive Wave",
+    "Do or Die",
+    "Masenko",
+    "Death Slicer",
+    "Mighty Explosive Wave",
+    "Time Control",
+    "Darkness Eye Beam",
+    "Evil Ray Strike",
+    "Dragon Spark",
+    "Become Giant",
+    "Crazy Finger Shot"
+  ],
+  "census": {
+    "record_count": 474,
+    "excluded_batches": "396-418",
+    "selection_rule": "Fresh 474-record census; selected the next twelve shortest genuinely under-detailed canonical mechanics records after excluding completed frontier batches."
+  }
+}
