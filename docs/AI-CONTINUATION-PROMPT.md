@@ -1,3 +1,18 @@
+### 2026-09-26 continuation — Skill Research Batch 438 completed
+
+- [x] Fresh unaudited mechanics frontier census over the live 474-record skill set excluded every record with a registered current-evidence audit and selected **Final Flash (SS3 DAIMA), God of Destruction's Anger, Evil Ray Strike, and Pretty Charge** as the four shortest remaining under-detailed mechanics records.
+- [x] Added four current-evidence audit files plus Batch 438 research and thin-frontier audit artifacts.
+- [x] Expanded **Final Flash (SS3 DAIMA)** with the 400+ Ki Ultimate classification, PQ181 endpoint, 22–53-hit beam, and input-held remaining-Ki power extension; exact damage conversion, frames, and patch-independent scaling remain unresolved.
+- [x] Expanded **God of Destruction's Anger** with the 200-Ki Beerus-training endpoint, long-range single-hit beam, source-reported 15% damage, full Stamina depletion through block, and hard-knockdown classification.
+- [x] Expanded **Evil Ray Strike** with the 100-Ki Gohan (Kid) training endpoint, tracking head-first charge, guard-break behavior, and source-reported 10% damage.
+- [x] Expanded **Pretty Charge** with its 0-Ki Other Super classification, Ribrianne-only/current CaC-unavailable scope, and documented equivalence to Full Power Charge; unsupported restoration rate/timing remains unresolved.
+- [x] Synchronized all four records into both canonical skill datasets and refreshed their current-scope verification date to 2026-09-26.
+- [x] Registered the Batch 438 research record, thin-frontier audit, and four skill audits in `docs/data/pq-cross-domain-index.json`.
+- [x] Validated the canonical/index datasets at **474/474** with ordered-ID parity and **0 missing / 0 extra** after synchronization.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] Repository efficiency addendum remains unavailable at the expected path; GitHub returned 404 during this cycle.
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 438 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
+
 ### 2026-09-26 continuation — Skill Research Batch 437 completed
 
 - [x] Fresh unaudited mechanics frontier selected **Majin Kamehameha, Mach Dash, Revenge Death Ball, and Namek Finger** after reconciling the live Batch 436 state and excluding prior current-evidence-audited records.
