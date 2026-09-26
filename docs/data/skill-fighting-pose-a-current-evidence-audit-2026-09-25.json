@@ -1,21 +1,12 @@
 {
   "schema_version": "1.0.0",
-  "audit_id": "skill-fighting-pose-a-current-evidence-audit-2026-09-25",
   "audit_date": "2026-09-25",
+  "batch_id": 382,
   "target": "Fighting Pose A",
-  "result": "current_evidence_refresh",
-  "supported_fields": {
-    "class": "Super",
-    "subcategory": "Power Up",
-    "source_quest_or_shop": "Captain Ginyu mentor training — Lesson 1.",
-    "mechanics": "0-Ki Power Up Super that temporarily grants automatic guarding/auto-blocking against incoming attacks."
-  },
   "evidence_sources": [
     "https://dbxv2.fandom.com/wiki/Fighting_Pose_A",
     "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80802546",
-    "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
   ],
-  "limits": [
-    "The reviewed sources establish the effect and Lesson 1 endpoint; no exact duration, stamina interaction, frame data, or hidden prerequisite is inferred."
-  ]
+  "evidence_boundary": "Source-bounded mechanics only; no unsupported frame data, hidden prerequisites, reward probabilities, exact universal damage, or patch-independent values promoted."
 }
