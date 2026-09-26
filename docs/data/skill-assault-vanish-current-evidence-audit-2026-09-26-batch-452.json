@@ -1,0 +1,23 @@
+{
+  "skill_id": "skill-assault-vanish",
+  "name": "Assault Vanish",
+  "batch": 452,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Assault_Vanish",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "findings": [
+    [
+      "100-Ki/100-Stamina Other Super from PQ131",
+      "Invisible/invulnerable state can warp behind the target or reappear at the current position",
+      "Can be used during Boost Dash"
+    ]
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
