@@ -40,7 +40,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Afterimage",
-        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-launch"
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-launch",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/afterimage.md"
       ],
       "ki_cost": 100,
       "research_status": "enriched",
@@ -51,10 +52,10 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Starting move / initial 'Mixed' choice",
       "mechanics": "Teleport/evasion movement: user leaves an afterimage and can redirect during the move.",
-      "last_verified": "2026-09-24",
-      "mechanics_notes": "Confirmed as Other Super; repository's 100-Ki cost and all-CaC-race availability retained.",
+      "last_verified": "2026-09-25",
+      "mechanics_notes": "100-Ki Other Super that uses Ki for a timed vanish rather than Stamina. When activated with correct timing it evades incoming attacks and repositions the user behind a nearby opponent; the follow-up attack is manual. Exact invulnerability/frame timing remains version-sensitive.",
       "acquisition_type": "starting_move",
-      "notes": "2026-09-22 provenance verification: the dedicated Xenoverse 2 skill reference identifies Afterimage as the starting move for the Mixed fighting-style choice, matching the repository's current acquisition endpoint. The CaC creation documentation independently states that the Mixed choice determines the starting skill set and includes Afterimage. The legacy Xenoverse reference is not treated as a Xenoverse 2 acquisition source. No PQ acquisition, drop probability, or Ultimate Finish gate is inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-22 provenance verification: the dedicated Xenoverse 2 skill reference identifies Afterimage as the starting move for the Mixed fighting-style choice, matching the repository's current acquisition endpoint. The CaC creation documentation independently states that the Mixed choice determines the starting skill set and includes Afterimage. The legacy Xenoverse reference is not treated as a Xenoverse 2 acquisition source. No PQ acquisition, drop probability, or Ultimate Finish gate is inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 374 mechanics enrichment: current/repository evidence promoted bounded mechanics; unresolved frame timing, exact damage, probability, and hidden-gate fields remain unasserted.",
       "id": "skill-afterimage"
     },
     {
@@ -1836,7 +1837,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Charged_Ki_Wave",
-        "https://dbxenoverse.fandom.com/wiki/97_-_Insidious_Plot"
+        "https://dbxenoverse.fandom.com/wiki/97_-_Insidious_Plot",
+        "https://dragonball.fandom.com/wiki/Charged_Ki_Wave"
       ],
       "ki_cost": 0,
       "unlock_method": "Parallel Quest 97 — \"Insidious Plot\" Basic Reward",
@@ -1845,12 +1847,12 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Parallel Quest 97 - Insidious Plot",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "research_status": "enriched",
-      "mechanics_notes": "Confirmed as Other Super from PQ97 and usable by all CaC races. It charges Stamina rather than Ki.",
+      "mechanics_notes": "100-Ki Other Super obtained from PQ97. Consumes Ki to restore Stamina, completing the restoration faster than Rise to Action; the skill's defining resource interaction is Stamina recovery rather than direct damage. Current evidence preserves a historical reward/resource-behavior conflict without inferring an additional gate or probability.",
       "source_quest": 97,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: dedicated skill evidence confirms PQ97 acquisition, Other Super classification, and Stamina-restoration function. The current maintained PQ guide lists the skill in Basic Reward, while an older player report describes Charged Ki Wave as a UF drop; the canonical Basic Reward/no-UF-only interpretation follows the maintained reward table and the conflict is preserved. 2026-09-23 provenance refresh: dedicated skill evidence was rechecked against the current wiki reference; existing acquisition, cost, scope, and mechanics semantics are preserved, and no unsupported probability or additional gate is inferred.",
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: dedicated skill evidence confirms PQ97 acquisition, Other Super classification, and Stamina-restoration function. The current maintained PQ guide lists the skill in Basic Reward, while an older player report describes Charged Ki Wave as a UF drop; the canonical Basic Reward/no-UF-only interpretation follows the maintained reward table and the conflict is preserved. 2026-09-23 provenance refresh: dedicated skill evidence was rechecked against the current wiki reference; existing acquisition, cost, scope, and mechanics semantics are preserved, and no unsupported probability or additional gate is inferred.\n2026-09-25 Batch 374 mechanics enrichment: current/repository evidence promoted bounded mechanics; unresolved frame timing, exact damage, probability, and hidden-gate fields remain unasserted.",
       "id": "skill-charged-ki-wave",
       "source_parallel_quests": [
         97
@@ -10718,10 +10720,10 @@
       "source_quest_or_shop": "Parallel Quest 115 — \"Extreme Battle with Android 13!\"",
       "ultimate_finish_required": false,
       "skill_description": "S.S. Deadly Bomber is a Ultimate Ki Blast skill associated with Android 13.",
-      "mechanics_notes": "Creates a tracking Ki ball that homes toward the opponent and deals multi-hit damage on contact.",
+      "mechanics_notes": "400-Ki Ki Blast Ultimate from PQ115. Creates a tracking Ki ball that heat-seeks the opponent and can deal up to 15 hits according to current Xenoverse 2-specific evidence. Exact damage and drop probability remain unresolved; the maintained PQ evidence treats the skill as a Basic Reward rather than an inferred Ultimate Finish-only reward.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
@@ -10732,7 +10734,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 115,
       "acquisition_type": "quest_or_mission",
-      "notes": " 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
+      "notes": " 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; existing reward-tier conflicts and unresolved mechanics remain preserved. No unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.\n2026-09-25 Batch 374 mechanics enrichment: current/repository evidence promoted bounded mechanics; unresolved frame timing, exact damage, probability, and hidden-gate fields remain unasserted.",
       "id": "skill-s-s-deadly-bomber",
       "source_parallel_quests": [
         115
@@ -11630,12 +11632,12 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Training with Goku",
       "mechanics": "Ki Blast Super learned from Goku mentor training; charge/release projectile.",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "research_status": "enriched",
-      "mechanics_notes": "Goku mentor Initiation Test 100-Ki Ki Blast Super; launches a large Spirit Bomb projectile.",
+      "mechanics_notes": "100-Ki Ki Blast Super taught by Goku. Launches a large Spirit Bomb projectile after charging/release input; current repository evidence confirms the mentor-training route and projectile behavior, while exact damage, hit count, tracking and timing remain version-sensitive and are not promoted as canonical.",
       "source_quest": "Goku mentor training",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: Goku's Initiation Test is confirmed as the acquisition endpoint; current instructor evidence confirms Spirit Bomb as a 100-Ki Ki Blast Super with no Ultimate Finish gate. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-22 provenance refresh: Goku's Initiation Test is confirmed as the acquisition endpoint; current instructor evidence confirms Spirit Bomb as a 100-Ki Ki Blast Super with no Ultimate Finish gate. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.\n2026-09-25 Batch 374 mechanics enrichment: current/repository evidence promoted bounded mechanics; unresolved frame timing, exact damage, probability, and hidden-gate fields remain unasserted.",
       "id": "skill-spirit-bomb",
       "source_mentor": [
         "mentor-goku"
