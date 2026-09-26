@@ -1,21 +1,15 @@
 {
   "schema_version": "1.0.0",
-  "audit_date": "2026-09-25",
   "audit_id": "skill-side-bridge-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
   "target": "Side Bridge",
+  "result": "verified_current_scope",
   "supported_fields": {
-    "class": "Super",
-    "subcategory": "Ki Blast",
-    "ki_cost": 100,
-    "source_quest_or_shop": "Parallel Quest 39 — 17 and 18 of the Official History",
-    "mechanics": "Android 17 throws a disc that travels forward and returns like a boomerang; source describes a two-hit/re-stand interaction."
+    "skill_type": "Ki Blast Super",
+    "cost": 100
   },
   "evidence_sources": [
-    "https://dbxv2.fandom.com/wiki/Side_Bridge",
-    "https://dragonball.fandom.com/wiki/Side_Bridge",
-    "https://mp1st.com/news/dragon-ball-xenoverse-2-update-1-29-sprints-out-this-december-1"
+    "https://dbxv2.fandom.com/wiki/Side_Bridge"
   ],
-  "limits": [
-    "The individual reward probability remains unresolved; the source-reported damage percentage is not promoted as universal current balance data."
-  ]
+  "evidence_boundary": "Current Xenoverse 2 mechanics evidence is bounded to the cited skill reference. Exact frame data, reward probabilities, hidden prerequisites, and patch-independent balance claims are not inferred."
 }
