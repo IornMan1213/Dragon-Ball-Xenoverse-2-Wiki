@@ -1,0 +1,24 @@
+{
+  "batch": 456,
+  "date": "2026-09-26",
+  "status": "complete",
+  "scope": "Fresh unaudited mechanics frontier after excluding every skill with a registered current-evidence audit.",
+  "selected": [
+    "Data Input",
+    "Dimension Ray",
+    "Pressure Sign",
+    "Blaster Shell",
+    "Fake Blast",
+    "Spirit Boost",
+    "Dust Attack",
+    "Teleporting Vanishing Ball"
+  ],
+  "evidence_policy": "Current Xenoverse 2-specific evidence prioritized. Source-reported numerical values remain source-bound; unsupported exact frames, scaling formulas, probabilities, and hidden conditions were not inferred.",
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "missing_ids": 0,
+    "extra_ids": 0
+  },
+  "exact_next": "Run another fresh unaudited mechanics frontier census excluding Batch 456 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle."
+}
