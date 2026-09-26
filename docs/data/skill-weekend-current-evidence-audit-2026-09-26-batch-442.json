@@ -1,0 +1,19 @@
+{
+  "skill_id": "skill-weekend",
+  "name": "Weekend",
+  "batch": 442,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Weekend",
+    "https://dragonball.fandom.com/wiki/Weekend",
+    "https://twinfinite.net/guides/dragon-ball-xenoverse-2-how-to-raditz-mentor-quest-guide/"
+  ],
+  "findings": [
+    "300 Ki Ki Blast Ultimate",
+    "Raditz Lesson 3",
+    "Controllable long-range dual beams; back input makes V shape",
+    "16 hits/~30% damage source-reported",
+    "Exact frames/scaling unresolved"
+  ]
+}
