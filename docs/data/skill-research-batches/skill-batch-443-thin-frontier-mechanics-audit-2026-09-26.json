@@ -1,0 +1,15 @@
+{
+  "batch": 443,
+  "date": "2026-09-26",
+  "type": "thin_frontier_mechanics_audit",
+  "selected": [
+    "Gigantic Omega",
+    "Gigantic Meteor",
+    "Meditation",
+    "Brave Sword Attack"
+  ],
+  "evidence_boundaries": [
+    "Damage figures remain source-bound.",
+    "No unsupported frame, scaling, probability, or hidden-condition claims added."
+  ]
+}
