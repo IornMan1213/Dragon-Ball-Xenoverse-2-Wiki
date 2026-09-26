@@ -4026,12 +4026,13 @@
       ],
       "unlock_method": "Cooler (Final Form)'s Initiation Test — complete the instructor lesson to receive Feint Crash as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-22 provenance/mechanics refresh: current dedicated evidence confirms the 100-Ki Strike Super from Cooler training. It teleports behind the opponent for a restand punch; an additional input teleports to the opposite side for a kick/knockback. No unsupported acquisition gate is inferred. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
-      "mechanics_notes": "100-Ki Strike Super. The user teleports behind the opponent and performs a restanding punch. An additional input instead teleports to the opposite side and delivers a kick that causes knockback. The regular version can be cancelled into many skills and stamina breaks; the alternate version is more limited and does not properly connect against already knocked-back targets.",
+      "notes": "2026-09-26 Batch 447 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the Cooler training endpoint, 100-Ki Strike classification, restand/alternate knockback paths, and documented cancel/connectivity differences. No unsupported damage or frame values were inferred.",
+      "mechanics_notes": "100-Ki Strike Super learned through Cooler (Final Form) training. The user teleports behind the opponent for a restanding punch; an immediate additional input instead teleports to the opposite side for a kick that causes knockback. The regular path can directly cancel into many skills and stamina breaks, while the alternate path is more limited and does not properly connect against already-knocked-back targets.",
       "source_quest": "Cooler (Final Form) mentor training — Initiation Test",
-      "source_quest_or_shop": "Cooler (Final Form) mentor training — Initiation Test"
+      "source_quest_or_shop": "Cooler (Final Form) mentor training — Initiation Test",
+      "ki_cost": 100
     },
     {
       "id": "skill-feint-shot",
@@ -5790,12 +5791,13 @@
       ],
       "unlock_method": "Android 16 mentor training — Lesson 3.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved.\n2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "Mentor acquisition endpoint, skill identity, and classification are directly corroborated; numerical combat mechanics remain deferred until separately verified. 2026-09-23 refresh: current evidence reviewed; documented classification, acquisition, and mechanics were preserved, while unsupported numerical details or narrower CaC restrictions were not inferred.",
+      "notes": "2026-09-26 Batch 447 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the Android 16 training endpoint, 300-Ki Ultimate classification, ground-targeted beam/pillar sequence, 26-hit launching behavior, and source-reported ~70% total damage. No unsupported frame or scaling data added.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate learned from Android 16 training. The user fires a beam at the ground, causing multiple Ki pillars to erupt; current dedicated evidence describes a 26-hit launching sequence totaling about 70% damage.",
       "source_quest": "Android 16 mentor training — Lesson 3.",
-      "source_quest_or_shop": "Android 16 mentor training"
+      "source_quest_or_shop": "Android 16 mentor training",
+      "ki_cost": 300
     },
     {
       "id": "skill-hellzone-grenade",
@@ -6060,7 +6062,7 @@
       "source_quest_or_shop": "Shenron wish — I want a new Ultimate Attack!",
       "ultimate_finish_required": null,
       "skill_description": "A freezing Ki Blast Ultimate that hits five times and freezes the opponent.",
-      "mechanics_notes": "300-Ki Ki Blast Ultimate. The user spins vertically and fires a freezing projectile that deals a documented 15% damage over five hits, then freezes the opponent for about 3 seconds. The current Xenoverse 2 reference classifies it as a pseudo-Strike projectile with short-to-long range; exact startup, freeze timing, and patch-independent damage scaling remain unresolved.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate obtained from the Shenron wish for a new Ultimate Attack. The user spins vertically, fires a freezing projectile for five hits and about 15% source-reported damage, then freezes the opponent for about 3 seconds.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-26",
@@ -6069,7 +6071,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "wish",
-      "notes": "2026-09-24 coverage recovery: promoted the pre-existing Skill Research Batch 307 record into canonical coverage after live repository search confirmed it was absent. Classification, 300 Ki cost, CaC availability, wish endpoint, and documented freezing effect are retained without unsupported reward or probability claims. 2026-09-25 provenance promotion: current dedicated Xenoverse 2 evidence directly exposes the 300-Ki Ultimate/Ki Blast classification, Shenron wish endpoint, CaC availability, and freezing behavior. No unsupported wish frequency, prerequisite, or reward probability is inferred.\n2026-09-25 current-evidence promotion: dedicated Xenoverse 2 documentation confirms the 300-Ki Ki Blast Ultimate identity, Shenron wish acquisition, CaC availability, five-hit freezing projectile, and approximately 3-second freeze. No unsupported prerequisite or reward probability was added.\n2026-09-26 Batch 417 mechanics enrichment: current Xenoverse 2-specific evidence was reconciled into the canonical record; exact frames, hidden interactions, patch-independent scaling, and unresolved probabilities remain bounded.",
+      "notes": "2026-09-26 Batch 447 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the Shenron wish endpoint, 300-Ki Ultimate classification, five-hit freezing projectile, source-reported ~15% damage, and ~3-second freeze. Exact startup and patch-independent scaling remain unresolved.",
       "id": "skill-ice-cannon"
     },
     {
@@ -6744,12 +6746,13 @@
       ],
       "unlock_method": "Turles's mentor training — complete the corresponding lesson to receive Kill Driver as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.\n2026-09-25 Batch 409 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, timing, scaling, and hidden conditions remain unresolved.",
-      "mechanics_notes": "100-Ki Ki Blast Super from Turles mentor training. Creates and throws a ring-shaped Ki projectile; charging increases its size and power. The hollow center can allow a small or well-positioned opponent to pass through, while additional input can detonate the ring to cover that weakness. Exact charge scaling and frame data remain unresolved.",
+      "notes": "2026-09-26 Batch 447 current-evidence audit: dedicated/secondary evidence revalidated the Turles training endpoint, 100-Ki ring projectile, charge behavior, hollow-center weakness, and detonation follow-up. Damage figures from secondary testing are retained only as source-reported observations; exact scaling and frames remain unresolved.",
+      "mechanics_notes": "100-Ki Ki Blast Super from Turles mentor training. The user creates and throws a ring-shaped projectile; charging enlarges and strengthens it. A target can pass through the hollow center, while an additional input detonates the ring to cover that weakness. Current secondary test evidence reports distinct uncharged/charged and detonated outcomes, but exact scaling remains source-bound.",
       "source_quest": "Turles mentor training",
-      "source_quest_or_shop": "Turles mentor training"
+      "source_quest_or_shop": "Turles mentor training",
+      "ki_cost": 100
     },
     {
       "id": "skill-last-emperor",
