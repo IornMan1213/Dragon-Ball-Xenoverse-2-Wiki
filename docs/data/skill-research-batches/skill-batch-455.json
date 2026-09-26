@@ -1,0 +1,55 @@
+{
+  "batch": 455,
+  "date": "2026-09-26",
+  "status": "complete",
+  "scope": "Fresh unaudited mechanics frontier after excluding every skill with a registered current-evidence audit.",
+  "selected": [
+    "Super Donut Volley",
+    "Dimension Cannon",
+    "Divine Kamehameha",
+    "Petrifying Spit",
+    "Meteor Explosion",
+    "Circle Flash",
+    "Stone Bullet",
+    "Blue Hurricane"
+  ],
+  "research_sources": {
+    "Super Donut Volley": [
+      "https://dbxv2.fandom.com/wiki/Super_Donut_Volley",
+      "https://dragonball.fandom.com/wiki/Super_Donut_Chain"
+    ],
+    "Dimension Cannon": [
+      "https://dbxv2.fandom.com/wiki/Dimension_Cannon"
+    ],
+    "Divine Kamehameha": [
+      "https://dbxv2.fandom.com/wiki/Divine_Kamehameha",
+      "https://dragonball.fandom.com/wiki/Divine_Kamehameha"
+    ],
+    "Petrifying Spit": [
+      "https://dbxv2.fandom.com/wiki/Petrifying_Spit"
+    ],
+    "Meteor Explosion": [
+      "https://dbxv2.fandom.com/wiki/Meteor_Explosion",
+      "https://dragonball.fandom.com/wiki/Meteor_Explosion"
+    ],
+    "Circle Flash": [
+      "https://dbxv2.fandom.com/wiki/Circle_Flash"
+    ],
+    "Stone Bullet": [
+      "https://dbxv2.fandom.com/wiki/Stone_Bullet",
+      "https://dragonball.fandom.com/wiki/Stone_Bullet"
+    ],
+    "Blue Hurricane": [
+      "https://dbxv2.fandom.com/wiki/Blue_Hurricane"
+    ]
+  },
+  "evidence_policy": "Current Xenoverse 2-specific evidence prioritized; source-reported numerical values remain source-bound; unsupported exact frames, scaling formulas, probabilities, and hidden conditions were not inferred.",
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "ordered_id_parity": true,
+    "missing_ids": 0,
+    "extra_ids": 0
+  },
+  "exact_next": "Run another fresh unaudited mechanics frontier census excluding Batch 455 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle."
+}
