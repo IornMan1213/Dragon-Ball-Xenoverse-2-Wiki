@@ -1,0 +1,18 @@
+{
+  "batch": 464,
+  "date": "2026-09-26",
+  "skill_name": "Meteor Burst",
+  "skill_id": "skill-meteor-burst",
+  "status": "completed",
+  "findings": [
+    "300-Ki Ki Blast Ultimate learned through Turles training. The user first holds a barrier that absorbs attacks, then thrusts the hand forward to create a large Ki ball that erupts into a pillar. Current evidence documents 42 hits and approximately 80% total damage, with additional input allowing the sequence to fire faster."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Meteor_Burst",
+    "https://dbxv2.fandom.com/wiki/Mentors"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}
