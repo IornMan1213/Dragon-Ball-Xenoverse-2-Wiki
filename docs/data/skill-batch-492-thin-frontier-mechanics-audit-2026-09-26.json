@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-26",
+  "type": "thin_frontier_mechanics_audit",
+  "method": "Fresh live census after Batch 491, excluding every skill represented by a registered current-evidence audit; five shortest remaining records were promoted after manual provenance recheck.",
+  "selected": [
+    "skill-absolute-zero",
+    "skill-afterimage-strike",
+    "skill-bending-kamehameha",
+    "skill-time-skip-tremor-pulse",
+    "skill-rising-rage"
+  ],
+  "next": "Fresh live census before Batch 493; do not reuse this candidate list."
+}
