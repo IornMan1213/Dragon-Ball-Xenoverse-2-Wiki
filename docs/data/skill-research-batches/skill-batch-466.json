@@ -1,0 +1,70 @@
+{
+  "batch": 466,
+  "date": "2026-09-26",
+  "scope": "Fresh unaudited mechanics frontier",
+  "skills": [
+    {
+      "skill_id": "skill-destructive-flare",
+      "skill_name": "Destructive Flare",
+      "current_evidence_audit": "docs/data/skill-destructive-flare-current-evidence-audit-2026-09-26-batch-466.json",
+      "primary_source": "https://dbxv2.fandom.com/wiki/Destructive_Flare",
+      "mechanics_boundary": "200-Ki Ki Blast Super from PQ145. The user holds one hand flat and fires a 13-hit barrage of Ki bullets; holding the input increases projectile size and damage. Current evidence identifies long-range projectile behavior and knockback. Exact charge scaling, startup, recovery, and damage curve remain unresolved."
+    },
+    {
+      "skill_id": "skill-instant-charge",
+      "skill_name": "Instant Charge",
+      "current_evidence_audit": "docs/data/skill-instant-charge-current-evidence-audit-2026-09-26-batch-466.json",
+      "primary_source": "https://dbxv2.fandom.com/wiki/Instant_Charge",
+      "mechanics_boundary": "Character-exclusive Other Super/charge skill used by Mira (Final Form) in Crystal Raid content. Current evidence describes an Afterimage-like warp in place before charging, followed by a rapid Ki increase; independent reference material reports automatic stopping after six Ki bars. The six-bar endpoint is retained as source-reported evidence, while exact charge rate, timing, and usage limits remain unresolved."
+    },
+    {
+      "skill_id": "skill-lovely-cyclone",
+      "skill_name": "Lovely Cyclone",
+      "current_evidence_audit": "docs/data/skill-lovely-cyclone-current-evidence-audit-2026-09-26-batch-466.json",
+      "primary_source": "https://dbxv2.fandom.com/wiki/Lovely_Cyclone",
+      "mechanics_boundary": "100-Ki Strike Super from PQ135. The user pirouettes in place to draw opponents inward; the full move can reach 20 hits and applies a guard-Stamina-depletion effect after the sequence connects. Additional input cancels into a forward tackle that deals at least 3% source-reported damage. Exact frames, reward probability, and detailed scaling remain unresolved."
+    },
+    {
+      "skill_id": "skill-milky-cannon",
+      "skill_name": "Milky Cannon",
+      "current_evidence_audit": "docs/data/skill-milky-cannon-current-evidence-audit-2026-09-26-batch-466.json",
+      "primary_source": "https://dbxv2.fandom.com/wiki/Milky_Cannon",
+      "mechanics_boundary": "100-Ki Ki Blast Super from Captain Ginyu mentor Lesson 2. The projectile initially travels quickly, then slows and remains in the air for roughly three seconds; charging changes the distance at which the slowdown occurs. Current skill documentation reports a single hit, knockback, and about 10% damage. Exact charge timing and projectile-speed curve remain unresolved."
+    },
+    {
+      "skill_id": "skill-dragon-fist",
+      "skill_name": "Dragon Fist",
+      "current_evidence_audit": "docs/data/skill-dragon-fist-current-evidence-audit-2026-09-26-batch-466.json",
+      "primary_source": "https://dbxv2.fandom.com/wiki/Dragon_Fist",
+      "mechanics_boundary": "500-Ki Strike Ultimate sold through the TP Medal Shop. The user kicks, punches, and then produces a Shenron-image piercing attack; current Xenoverse 2-specific documentation records 14 hits and about 50% total damage. The follow-up can fail if the sequence is interrupted or avoided. Exact startup, recovery, and hit-confirm windows remain unresolved."
+    },
+    {
+      "skill_id": "skill-sign-of-awakening",
+      "skill_name": "Sign of Awakening",
+      "current_evidence_audit": "docs/data/skill-sign-of-awakening-current-evidence-audit-2026-09-26-batch-466.json",
+      "primary_source": "https://dbxv2.fandom.com/wiki/Sign_of_Awakening",
+      "mechanics_boundary": "300-Ki Ki Blast Ultimate from PQ154. The user rushes forward through a rapid multi-hit sequence, then launches a blue energy attack; additional input makes the user vanish and reappear behind the opponent for another attack. Current reference material reports 21 hits and about 40% total damage, both retained as source-reported values."
+    },
+    {
+      "skill_id": "skill-variable-snipe-shot",
+      "skill_name": "Variable Snipe Shot",
+      "current_evidence_audit": "docs/data/skill-variable-snipe-shot-current-evidence-audit-2026-09-26-batch-466.json",
+      "primary_source": "https://dbxv2.fandom.com/wiki/Variable_Snipe_Shot",
+      "mechanics_boundary": "100-Ki Ki Blast Super associated with Android 18 (DB Super) and acquired through PQ165 under the repository's explicit 45% Ultimate Finish route. Current evidence documents multiple input variations, including a charged overhead shot and a back-jump shot. The maintained reward data also presents a conflicting Basic Reward listing; that source conflict remains explicit."
+    },
+    {
+      "skill_id": "skill-crush-stream",
+      "skill_name": "Crush Stream",
+      "current_evidence_audit": "docs/data/skill-crush-stream-current-evidence-audit-2026-09-26-batch-466.json",
+      "primary_source": "https://dbxv2.fandom.com/wiki/Crush_Stream",
+      "mechanics_boundary": "300-Ki Ki Blast Ultimate from PQ147. The user throws two initial Ki blasts; if both connect, a larger Ki wave follows for a source-reported 30% total damage. Back input before the first throw sends the first projectile behind the user, after which the move continues normally. Exact projectile timing, scaling, and reward probability remain unresolved."
+    }
+  ],
+  "validation": {
+    "canonical_skill_records": 474,
+    "index_skill_records": 474,
+    "expected_missing": 0,
+    "expected_extra": 0
+  },
+  "ci_build": "unverified"
+}
