@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-26",
+  "scope": "Recovered character/preset presentation consumer reconciliation",
+  "source_history": {
+    "canonical_character_layer": "28abdd784aebd7ff3fa23cad848083464db2a4b9",
+    "preset_layer": "88b98371e71fc6fc6671bb46fc51d0dde91175f4",
+    "character_consumer_audit": "88b98371e71fc6fc6671bb46fc51d0dde91175f4"
+  },
+  "live_counts": {
+    "canonical_character_names": 152,
+    "bridge_records": 34,
+    "preset_records": 51,
+    "preset_character_ids": 17,
+    "partner_key_records": 20,
+    "partner_reconciliation_records": 20
+  },
+  "bridge_repair": [
+    {
+      "character_id": "bardock",
+      "canonical_character_name": "Bardock"
+    },
+    {
+      "character_id": "raditz",
+      "canonical_character_name": "Raditz"
+    },
+    {
+      "character_id": "nappa",
+      "canonical_character_name": "Nappa"
+    },
+    {
+      "character_id": "recoome",
+      "canonical_character_name": "Recoome"
+    },
+    {
+      "character_id": "zarbon",
+      "canonical_character_name": "Zarbon"
+    }
+  ],
+  "checks": {
+    "all_17_preset_character_ids_have_explicit_bridge": true,
+    "all_bridge_targets_exist_in_canonical_layer": true,
+    "bridge_character_ids_unique": true,
+    "preset_record_ids_unique": true,
+    "partner_key_character_ids_bridged": true,
+    "partner_reconciliation_identity_parity": true,
+    "partner_display_names_match_canonical_bridge": true,
+    "character_page_exposes_explorer_link": true
+  },
+  "status": "clean",
+  "evidence_boundary": "The five new bridge records resolve exact presentation character_id values already used by the recovered preset layer to exact canonical character names. This repairs navigation identity only; it does not infer preset numbering, loadouts, acquisition, DLC ownership, or character equivalence.",
+  "next": "Resume the highest-impact mechanics frontier after this consumer repair; retain numeric preset promotion boundaries for Goku 2-18, Vegeta 10-11, and Captain Ginyu 5-6 unless a source directly binds each numeric preset to a complete named configuration."
+}
