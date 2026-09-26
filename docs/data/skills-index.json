@@ -3230,7 +3230,7 @@
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
-      "mechanics_notes": "Strike Super: user raises the right knee/leg for a single rising strike. It can also be activated during a jump; current reference reports 100 Ki and 10% damage.",
+      "mechanics_notes": "100-Ki Strike Super from Videl's mentor training. The user raises the right knee into a single rising strike; it can also be activated during a jump and deals 10% damage in current dedicated skill evidence.",
       "source_quest": "Gohan (Adult) and Videl mentor training",
       "source_quest_or_shop": "Gohan (Adult) and Videl mentor training"
     },
@@ -8696,10 +8696,10 @@
       ],
       "unlock_method": "Conton City Patrol 10 — Teach Me, Broly! (Part 2).",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": null,
       "notes": "2026-09-21 Future Saga Chapter 3 completeness correction: official DLC scope lists six additional moves, while the canonical registry previously contained only the three PQ-linked Chapter 3 skill endpoints. Current technique evidence identifies Saiyan Blaster as a Chapter 3 skill unlocked through Conton City Patrol 10. The 400 Stamina cost is directly documented; no unsupported PQ/reward gate was inferred. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; no unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.",
-      "mechanics_notes": "Creates a giant green pillar/barrier and permits immediate Awoken Skill activation; current skill evidence lists a 400 Stamina cost. The current evidence establishes the Conton City Patrol acquisition endpoint but does not establish a narrower CaC race/gender restriction, so none is inferred.",
+      "mechanics_notes": "400-Stamina Ki Blast Evasive used by Broly (DB Super). The user creates a large green pillar that acts as a temporary barrier and permits immediate Awoken Skill activation. Current dedicated evidence identifies 12–23 hits and an extended runtime for Broly (DBS); the unique Awoken interaction is part of the move's documented design.",
       "source_quest": "Conton City Patrol 10",
       "source_quest_or_shop": "Conton City Patrol 10 — Teach Me, Broly! (Part 2)"
     },
@@ -9071,7 +9071,7 @@
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 audit: PQ156's current maintained reward data lists Shooting Strike in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate. 2026-09-21 Hero of Justice Pack 1 provenance audit: official Bandai Namco/Nintendo documentation identifies 4 new Parallel Quests and 7 additional moves; maintained PQ evidence identifies PQ155–158 and lists all seven canonical moves. The live repository maps each of the seven moves to its corresponding PQ and Hero of Justice Pack 1 provenance. 2026-09-23 research refresh: current skill evidence corroborates the 100-Ki Ki Blast Super classification and PQ156 endpoint; the maintained 50% Ultimate Finish bonus-slot condition remains the repository's documented route.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.\n2026-09-25 current-evidence promotion: Ranged Ki Blast Super: Gamma 1 fires an energy bullet from his ray gun and follows a successful hit with a flying kick. Evidence limits preserved: Maintained reward data records a 50% Ultimate-Finish bonus slot; exact underlying drop mechanics remain unresolved. Official material establishes the attack sequence but does not by itself establish CaC reward probability.",
-      "mechanics_notes": "Ki Blast Super used by Gamma 1: fires a red blaster beam and, on connection, follows with a teleporting warp kick. Current references identify it as a 100-Ki Super.",
+      "mechanics_notes": "100-Ki Ki Blast Super from Gamma 1. The user fires a red blaster beam; when it connects, the move follows with a teleporting kick for 10% damage. Current dedicated evidence identifies the beam/kick/vanish sequence and PQ156 as its acquisition endpoint.",
       "source_quest": 156,
       "source_quest_or_shop": "Parallel Quest 156 — \"Hunting Down Dr. Hedo\"",
       "source_parallel_quests": [
@@ -9192,7 +9192,7 @@
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 audit: PQ177's current maintained reward data lists Soaring Rush at a 50% Ultimate Finish gate; the generic PQ reward field is refined without inventing an additional prerequisite. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred. 2026-09-23 research refresh: current skill evidence corroborates the 100-Ki Strike Super classification and PQ177 endpoint; the maintained 50% Ultimate Finish reward condition remains unchanged.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.\n2026-09-25 current-evidence promotion: Power Pole rush: the user strikes and kicks the opponent away, then chases them; holding the fly input improves the forward dash and permits an immediate follow-up. Evidence limits preserved: Maintained reward data records a 50% Ultimate-Finish gate; exact probability implementation remains unresolved. No narrower CaC race/gender/form restriction is inferred.",
-      "mechanics_notes": "Power Pole rush: the user strikes and kicks the opponent away, then chases them; holding the fly input improves the forward dash and permits an immediate follow-up.",
+      "mechanics_notes": "Strike Super associated with Goku (Mini) using the Power Pole. The move strikes and kicks the opponent away before chasing them; holding the fly input improves the forward dash and permits an immediate follow-up. Current repository evidence preserves the documented follow-up behavior without inferring unsupported damage or frame data.",
       "source_quest": 177,
       "source_quest_or_shop": "Parallel Quest 177 — \"Warped Sense of Justice\"",
       "source_parallel_quests": [
@@ -9270,7 +9270,7 @@
       "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-22 provenance refresh: Future Gohan training is confirmed as the acquisition endpoint; current skill evidence confirms 100 Ki Strike Super classification and a short-range six-hit hard-knockdown sequence. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.",
-      "mechanics_notes": "Strike Super used by Future Gohan: a short-range multi-hit rush ending in a hard knockdown. Current skill references describe six hits and identify a 100-Ki cost.",
+      "mechanics_notes": "100-Ki Strike Super from Future Gohan's mentor training. The move is a short-range six-hit rush ending in a hard knockdown; current dedicated skill evidence records 15% total damage and describes rapid tracking/chasing after a knockback.",
       "source_quest": "Future Gohan mentor training — Lesson 1.",
       "source_quest_or_shop": "Future Gohan mentor training",
       "source_mentor": [
