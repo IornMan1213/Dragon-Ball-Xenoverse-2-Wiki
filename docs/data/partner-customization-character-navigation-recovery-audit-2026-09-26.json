@@ -23,8 +23,8 @@
   "live_validation": {
     "key_records": 20,
     "reconciliation_records": 20,
-    "bridge_records": 29,
-    "canonical_character_names": 149,
+    "bridge_records": 34,
+    "canonical_character_names": 152,
     "page_search_links": 20,
     "checks_passed": 16,
     "checks_failed": 0,
@@ -32,5 +32,5 @@
     "status": "clean"
   },
   "evidence_boundary": "The recovered layer restores deterministic navigation identity only. DLC ownership, raid rotation history, TP Medal costs, and complete customization unlock trees remain separately unresolved. Historical recovery does not promote those facts.",
-  "next": "Reconcile the recovered character/preset layer against any remaining live character consumer artifacts before expanding Partner Customization skill relationships."
+  "next": "The recovered Partner Customization navigation layer now reconciles with the 152-name canonical character layer and 34-record identity bridge. Continue with remaining critical cross-domain references; do not infer partner-skill availability from navigation identity alone."
 }
