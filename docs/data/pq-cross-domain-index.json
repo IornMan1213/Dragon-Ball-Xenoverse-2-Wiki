@@ -1492,5 +1492,15 @@
   "skill_charge_current_evidence_audit_2026_09_26_batch_460": "docs/data/skill-charge-current-evidence-audit-2026-09-26-batch-460.json",
   "skill_burning-swan_current_evidence_audit_2026_09_26_batch_460": "docs/data/skill-burning-swan-current-evidence-audit-2026-09-26-batch-460.json",
   "skill_scatter-kamehameha_current_evidence_audit_2026_09_26_batch_460": "docs/data/skill-scatter-kamehameha-current-evidence-audit-2026-09-26-batch-460.json",
-  "skill_energy-barrier_current_evidence_audit_2026_09_26_batch_460": "docs/data/skill-energy-barrier-current-evidence-audit-2026-09-26-batch-460.json"
+  "skill_energy-barrier_current_evidence_audit_2026_09_26_batch_460": "docs/data/skill-energy-barrier-current-evidence-audit-2026-09-26-batch-460.json",
+  "skill_batch_461": "docs/data/skill-research-batches/skill-batch-461.json",
+  "skill_batch_461_thin_frontier": "docs/data/skill-research-batches/skill-batch-461-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_flash-bomber_current_evidence_audit_2026_09_26_batch_461": "docs/data/skill-flash-bomber-current-evidence-audit-2026-09-26-batch-461.json",
+  "skill_genocide-shell_current_evidence_audit_2026_09_26_batch_461": "docs/data/skill-genocide-shell-current-evidence-audit-2026-09-26-batch-461.json",
+  "skill_spread-shot-retreat_current_evidence_audit_2026_09_26_batch_461": "docs/data/skill-spread-shot-retreat-current-evidence-audit-2026-09-26-batch-461.json",
+  "skill_tail-slicer_current_evidence_audit_2026_09_26_batch_461": "docs/data/skill-tail-slicer-current-evidence-audit-2026-09-26-batch-461.json",
+  "skill_break-cannon_current_evidence_audit_2026_09_26_batch_461": "docs/data/skill-break-cannon-current-evidence-audit-2026-09-26-batch-461.json",
+  "skill_burst-rush_current_evidence_audit_2026_09_26_batch_461": "docs/data/skill-burst-rush-current-evidence-audit-2026-09-26-batch-461.json",
+  "skill_temporal-holy-ray_current_evidence_audit_2026_09_26_batch_461": "docs/data/skill-temporal-holy-ray-current-evidence-audit-2026-09-26-batch-461.json",
+  "skill_victory-rush_current_evidence_audit_2026_09_26_batch_461": "docs/data/skill-victory-rush-current-evidence-audit-2026-09-26-batch-461.json"
 }
