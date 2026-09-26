@@ -3,9 +3,9 @@
   "audit_date": "2026-09-26",
   "scope": "pq-cross-domain-index reference reachability against the live main-branch repository tree",
   "purpose": "Separate live-reachable registered artifacts from historical/planned references without deleting provenance entries.",
-  "live_tree_file_count": 729,
-  "index_reference_count": 1630,
-  "reachable_reference_count": 738,
+  "live_tree_file_count": 730,
+  "index_reference_count": 1631,
+  "reachable_reference_count": 739,
   "unreachable_reference_count": 892,
   "classification_of_unreachable_references": {
     "skill-artifact": 597,
@@ -46,8 +46,9 @@
     "The largest unreachable class remains skill artifacts; this is not evidence that the canonical skill corpus is missing, because the canonical corpus and current-evidence audits are represented separately.",
     "The recovered preset bridge records and Partner Customization navigation layer are now reflected in the live reachable baseline.",
     "Live-tree refresh 2026-09-26: recomputed directly from main; the repository tree now contains 729 paths and the index contains 1530 unique path references, with 701 reachable and 829 unreachable.",
-    "Methodology correction 2026-09-26: reference counts are occurrence counts (not unique-path counts), matching the audit's prior convention. Current recomputation is 1630 references / 738 reachable / 892 unreachable."
+    "Methodology correction 2026-09-26: reference counts are occurrence counts (not unique-path counts), matching the audit's prior convention. Current recomputation is 1630 references / 738 reachable / 892 unreachable.",
+    "Post-validator refresh 2026-09-26: registered partner-skill relationship validator audit is live and reachable; recomputation is 730 tree paths / 1631 reference occurrences / 739 reachable / 892 unreachable."
   ],
   "evidence_boundary": "This audit tests only path reachability against the live repository tree. It does not determine whether an unreachable historical artifact should be recreated, whether its underlying claim remains correct, or whether a planned reverse index has enough source data to regenerate safely.",
-  "next": "Use the recomputed reachability baseline to select the next critical reference that is both live-required and safely regenerable; preserve historical/planned references unless their status is intentionally migrated."
+  "next": "Continue from the refreshed baseline by selecting the next critical reference that is both live-required and safely regenerable; the partner-skill relationship validator is now corrected and clean, so do not reopen that task unless its canonical schema changes."
 }
