@@ -1,0 +1,11 @@
+{
+  "batch": 432,
+  "date": "2026-09-26",
+  "status": "complete",
+  "skill_id": "skill-super-gamma-blast",
+  "skill_name": "Super Gamma Blast",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Gamma_Blast"
+  ],
+  "findings": "Current Xenoverse 2-specific evidence corroborates the recorded cost/classification and adds bounded mechanics detail. Exact frame data, hidden interactions, unsupported scaling, and unresolved probabilities are intentionally not inferred."
+}

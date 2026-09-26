@@ -1257,5 +1257,11 @@
   "skill_crazy-finger-shot_current_evidence_audit_2026_09_26_batch_431": "docs/data/crazy-finger-shot-current-evidence-audit-2026-09-26-batch-431.json",
   "skill_fighting-pose-d_current_evidence_audit_2026_09_26_batch_431": "docs/data/fighting-pose-d-current-evidence-audit-2026-09-26-batch-431.json",
   "skill_innocence-bullet_current_evidence_audit_2026_09_26_batch_431": "docs/data/innocence-bullet-current-evidence-audit-2026-09-26-batch-431.json",
-  "skill_justice-rush_current_evidence_audit_2026_09_26_batch_431": "docs/data/justice-rush-current-evidence-audit-2026-09-26-batch-431.json"
+  "skill_justice-rush_current_evidence_audit_2026_09_26_batch_431": "docs/data/justice-rush-current-evidence-audit-2026-09-26-batch-431.json",
+  "skill_research_batch_432": "docs/data/skill-research-batches/skill-batch-432.json",
+  "skill_batch_432_thin_frontier": "docs/data/skill-research-batches/skill-batch-432-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_super-gamma-blast_current_evidence_audit_2026_09_26_batch_432": "docs/data/super-gamma-blast-current-evidence-audit-2026-09-26-batch-432.json",
+  "skill_super-ghost-kamikaze-attack_current_evidence_audit_2026_09_26_batch_432": "docs/data/super-ghost-kamikaze-attack-current-evidence-audit-2026-09-26-batch-432.json",
+  "skill_final-flash_current_evidence_audit_2026_09_26_batch_432": "docs/data/final-flash-current-evidence-audit-2026-09-26-batch-432.json",
+  "skill_super-god-shock-flash_current_evidence_audit_2026_09_26_batch_432": "docs/data/super-god-shock-flash-current-evidence-audit-2026-09-26-batch-432.json"
 }

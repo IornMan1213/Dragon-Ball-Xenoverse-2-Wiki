@@ -4298,14 +4298,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Flash",
         "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+        "https://dbxv2.fandom.com/wiki/Final_Flash_%28Super%29"
       ],
       "unlock_method": "Vegeta mentor training — lesson-3.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 300-Ki Ki Blast Ultimate from Vegeta's Lesson 3. It fires a long beam after charging energy in both hands; dedicated mentor evidence confirms the Lesson 3 acquisition endpoint. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 300-Ki Ki Blast Ultimate from Vegeta's Lesson 3. It fires a long beam after charging energy in both hands; dedicated mentor evidence confirms the Lesson 3 acquisition endpoint. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 432 mechanics enrichment: current Xenoverse 2-specific evidence was rechecked for cost, classification, mechanics, and acquisition context. Exact frames, hidden interactions, unsupported scaling, and unresolved probabilities remain unresolved.",
+      "mechanics_notes": "200-Ki Ki Blast Super variant used by SSGSS Vegeta (Evolved) and unavailable to CaCs. The user fires a long-range beam from both hands; current dedicated documentation reports 24 hits, about 30% total damage, and knockback. Exact frame timing and damage distribution remain unresolved.",
       "source_quest": "Vegeta mentor training — lesson-3.",
       "source_quest_or_shop": "Vegeta mentor training"
     },
@@ -9961,10 +9962,10 @@
       ],
       "unlock_method": "Parallel Quest 158 — \"Beat Bulma's Minions!\" Ultimate Finish bonus reward (50% bonus slot)",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: PQ158's current maintained reward data lists Super Gamma Blast in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate. 2026-09-20 provenance census: normalized source field to Parallel Quest 158 — \"Beat Bulma's Minions!\", matching the maintained PQ research record. 2026-09-21 Hero of Justice Pack 1 provenance audit: official Bandai Namco/Nintendo documentation identifies 4 new Parallel Quests and 7 additional moves; maintained PQ evidence identifies PQ155–158 and lists all seven canonical moves. The live repository maps each of the seven moves to its corresponding PQ and Hero of Justice Pack 1 provenance. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims.",
-      "mechanics_notes": "300-Ki Ki Blast Ultimate from PQ158. Gamma 1 fires a straight beam from the blaster; holding the input charges the shot, increasing beam size and damage. Current PQ evidence retains the 50% Ultimate-Finish bonus-slot acquisition boundary.",
+      "notes": "2026-09-20 audit: PQ158's current maintained reward data lists Super Gamma Blast in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate. 2026-09-20 provenance census: normalized source field to Parallel Quest 158 — \"Beat Bulma's Minions!\", matching the maintained PQ research record. 2026-09-21 Hero of Justice Pack 1 provenance audit: official Bandai Namco/Nintendo documentation identifies 4 new Parallel Quests and 7 additional moves; maintained PQ evidence identifies PQ155–158 and lists all seven canonical moves. The live repository maps each of the seven moves to its corresponding PQ and Hero of Justice Pack 1 provenance. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims.\n2026-09-26 Batch 432 mechanics enrichment: current Xenoverse 2-specific evidence was rechecked for cost, classification, mechanics, and acquisition context. Exact frames, hidden interactions, unsupported scaling, and unresolved probabilities remain unresolved.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from Parallel Quest 158, “Beat Bulma's Minions!”. Gamma 1 fires a straight red beam from the blaster; holding the input charges the attack, increasing beam size and damage.",
       "source_quest": 158,
       "source_quest_or_shop": "Parallel Quest 158 — \"Beat Bulma's Minions!\"",
       "source_parallel_quests": [
@@ -10015,10 +10016,10 @@
       ],
       "unlock_method": "Gotenks's mentor training — complete the corresponding lesson to receive Super Ghost Kamikaze Attack as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims. 2026-09-25 Batch 375 mechanics enrichment: current Xenoverse 2 evidence added bounded mechanics; unresolved frame timing, exact damage, probability, and hidden-gate fields remain unasserted.",
-      "mechanics_notes": "100-Ki Ki Blast Super that creates one ghost which automatically rushes the opponent when they enter range or after about 4 seconds; the hit stuns the target. Source-reported damage is about 10%; exact timing remains version-sensitive.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims. 2026-09-25 Batch 375 mechanics enrichment: current Xenoverse 2 evidence added bounded mechanics; unresolved frame timing, exact damage, probability, and hidden-gate fields remain unasserted.\n2026-09-26 Batch 432 mechanics enrichment: current Xenoverse 2-specific evidence was rechecked for cost, classification, mechanics, and acquisition context. Exact frames, hidden interactions, unsupported scaling, and unresolved probabilities remain unresolved.",
+      "mechanics_notes": "100-Ki Ki Blast Super learned through Gotenks training. The user creates one ghost that automatically rushes the opponent when they enter range or after about 4 seconds; current dedicated documentation reports a single hit that stuns and deals about 10% damage. Exact startup, tracking limits, and frame timing remain unresolved.",
       "source_quest": "Gotenks mentor training",
       "source_quest_or_shop": "Gotenks mentor training"
     },
@@ -10080,7 +10081,7 @@
       "name": "Super God Shock Flash",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "acquisition_type": "skill_shop",
       "sources": [
@@ -10090,10 +10091,10 @@
       ],
       "unlock_method": "Skill Shop (Conton City)",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the skill shop (conton city) acquisition route. No quest or Ultimate Finish route is inferred. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims.",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super and melee counter obtained from the Skill Shop. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
+      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the skill shop (conton city) acquisition route. No quest or Ultimate Finish route is inferred. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims.\n2026-09-26 Batch 432 mechanics enrichment: current Xenoverse 2-specific evidence was rechecked for cost, classification, mechanics, and acquisition context. Exact frames, hidden interactions, unsupported scaling, and unresolved probabilities remain unresolved.",
+      "mechanics_notes": "100-Ki Strike Super counter with grab properties. The user poses to counter melee/strike attacks; when struck during its active counter window, the move answers with a one-inch punch. Current documentation notes that the counter properly works from the front and that the resulting grab-counter hit is difficult to avoid once triggered except through applicable invulnerability. Exact active frames, damage, and scaling remain unresolved.",
       "source_quest_or_shop": "Skill Shop"
     },
     {
@@ -11613,7 +11614,12 @@
     "skill_crazy-finger-shot_current_evidence_audit_2026_09_26_batch_431": "docs/data/crazy-finger-shot-current-evidence-audit-2026-09-26-batch-431.json",
     "skill_fighting-pose-d_current_evidence_audit_2026_09_26_batch_431": "docs/data/fighting-pose-d-current-evidence-audit-2026-09-26-batch-431.json",
     "skill_innocence-bullet_current_evidence_audit_2026_09_26_batch_431": "docs/data/innocence-bullet-current-evidence-audit-2026-09-26-batch-431.json",
-    "skill_justice-rush_current_evidence_audit_2026_09_26_batch_431": "docs/data/justice-rush-current-evidence-audit-2026-09-26-batch-431.json"
+    "skill_justice-rush_current_evidence_audit_2026_09_26_batch_431": "docs/data/justice-rush-current-evidence-audit-2026-09-26-batch-431.json",
+    "skill_research_batch_432": "docs/data/skill-research-batches/skill-batch-432.json",
+    "skill_super-gamma-blast_current_evidence_audit_2026_09_26_batch_432": "docs/data/super-gamma-blast-current-evidence-audit-2026-09-26-batch-432.json",
+    "skill_super-ghost-kamikaze-attack_current_evidence_audit_2026_09_26_batch_432": "docs/data/super-ghost-kamikaze-attack-current-evidence-audit-2026-09-26-batch-432.json",
+    "skill_final-flash_current_evidence_audit_2026_09_26_batch_432": "docs/data/final-flash-current-evidence-audit-2026-09-26-batch-432.json",
+    "skill_super-god-shock-flash_current_evidence_audit_2026_09_26_batch_432": "docs/data/super-god-shock-flash-current-evidence-audit-2026-09-26-batch-432.json"
   },
   "skill_super_vegeta_current_evidence_audit_2026_09_25": "docs/data/skill-super-vegeta-current-evidence-audit-2026-09-25.json",
   "skill_super_saiyan_2_current_evidence_audit_2026_09_25": "docs/data/skill-super-saiyan-2-current-evidence-audit-2026-09-25.json",

@@ -1,0 +1,22 @@
+{
+  "batch": 432,
+  "date": "2026-09-26",
+  "status": "complete",
+  "scope": "Fresh unaudited mechanics frontier after Batch 431.",
+  "selected": [
+    "Super Gamma Blast",
+    "Super Ghost Kamikaze Attack",
+    "Final Flash",
+    "Super God Shock Flash"
+  ],
+  "evidence_policy": "Use current Xenoverse 2-specific evidence and independent corroboration where available. Preserve source-reported numeric values as bounded evidence and do not invent exact frames, probabilities, hidden interactions, or patch-independent scaling.",
+  "exact_next": "Run the next fresh unaudited mechanics frontier census excluding Batch 432 and all earlier current-evidence-audited records, then research and synchronize the next canonical batch.",
+  "canonical_sync": "All four Batch 432 skills synchronized into docs/data/skills.json and docs/data/skills-index.json.",
+  "registry_sync": "Batch 432 research, thin-frontier audit, and four current-evidence audits registered in docs/data/pq-cross-domain-index.json.",
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "missing_ids": 0,
+    "extra_ids": 0
+  }
+}

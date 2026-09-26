@@ -1,0 +1,32 @@
+{
+  "batch": 432,
+  "date": "2026-09-26",
+  "status": "complete",
+  "frontier_basis": "Shortest canonical mechanics-note records without a prior current-evidence audit after excluding Batch 431 and earlier audited records.",
+  "selected": [
+    {
+      "name": "Super Gamma Blast",
+      "id": "skill-super-gamma-blast",
+      "mechanics_note_length": 197
+    },
+    {
+      "name": "Super Ghost Kamikaze Attack",
+      "id": "skill-super-ghost-kamikaze-attack",
+      "mechanics_note_length": 329
+    },
+    {
+      "name": "Final Flash",
+      "id": "skill-final-flash",
+      "mechanics_note_length": 285
+    },
+    {
+      "name": "Super God Shock Flash",
+      "id": "skill-super-god-shock-flash",
+      "mechanics_note_length": 438
+    }
+  ],
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474
+  }
+}
