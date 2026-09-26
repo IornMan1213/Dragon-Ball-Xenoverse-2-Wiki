@@ -132,14 +132,15 @@
         "https://dbxv2.fandom.com/wiki/Angry_Explosion",
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
-        "https://www.youtube.com/watch?v=Oo3rsM_hzC4"
+        "https://www.youtube.com/watch?v=Oo3rsM_hzC4",
+        "https://dragonball.fandom.com/wiki/Angry_Explosion"
       ],
       "unlock_method": "Expert Mission 12 - Attack of the Lone Super Soldier",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "Added during Dual Ultimate relationship audit because the mentor's Dual Ultimate depends on this canonical base skill. 2026-09-21 provenance strengthening: current skill documentation identifies Expert Mission 12 — Attack of the Lone Super Soldier; a launch-era Expert Mission guide independently lists Angry Explosion as EM12 Basic Reward; a contemporaneous gameplay video documents the EM12 unlock route. Existing Expert Mission acquisition semantics are preserved. 2026-09-22 independent provenance verification: the dedicated Xenoverse 2 skill reference identifies Expert Mission 12 — \"Attack of the Lone Super Soldier\" as the unlock and classifies Angry Explosion as a 300-Ki Ki Blast Ultimate. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "Canonical skill identity, classification, and acquisition source verified; combat details remain bounded to directly evidenced fields.",
+      "mechanics_notes": "Ki Blast Ultimate: charges then releases a large explosion; the maintained current reference reports 40% damage over 13 hits at base and allows the explosion to be prolonged with Ki without a built-in limit. The 300-Ki cost and EM12 endpoint are verified; exact reward probability remains unresolved.",
       "source_quest": "Expert Mission 12",
       "source_quest_or_shop": "Expert Mission 12"
     },
@@ -808,14 +809,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Brave_Heat",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
-        "https://dbxv2.fandom.com/wiki/Mentors"
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dragonball.fandom.com/wiki/Brave_Heat"
       ],
       "unlock_method": "Bardock mentor training — Lesson 3.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-21 DLC provenance audit: Masters Pack remains intentionally platform-dependent; the pack is distributed as free DLC on PC/Xbox/PlayStation while the Nintendo Switch release includes the Masters content in the base game. No normalization to a platform-neutral label was made. 2026-09-22 provenance verification: current dedicated and independent documentation corroborates the existing mentor/PQ acquisition endpoint and skill identity; no unsupported reward probability or Ultimate Finish requirement is inferred. 2026-09-23 bounded provenance refresh: existing multi-source evidence was rechecked against the canonical record; no acquisition tier, reward probability, mechanics, cost, restriction, or DLC semantics were changed.",
-      "mechanics_notes": "Ki Blast Ultimate variant of Bardock's Saiyan Spirit; current dedicated evidence lists 300 Ki and describes a rush into a beam attack.",
+      "mechanics_notes": "Ki Blast Ultimate: charges the right fist, rushes into the opponent, then flies up and fires a beam from the same hand. The maintained current reference reports 20 hits/35% damage and notes extended chase range plus tracking behind the user. Exact frame data and universal damage values remain unverified.",
       "source_quest": "Bardock mentor training — Lesson 3.",
       "source_quest_or_shop": "bardock mentor training"
     },
@@ -1167,7 +1169,7 @@
       "name": "Burst Reflection",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "acquisition_type": "other_nonquest",
       "sources": [
@@ -1178,10 +1180,10 @@
       ],
       "unlock_method": "Second use of Shenron wish \"I want a new Super Attack!\"",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 wish-route refinement: dedicated skill evidence identifies Burst Reflection as the second-result route of the repeatable “I want a new Super Attack!” wish. The route is non-PQ and not an Ultimate Finish reward. 2026-09-21 provenance correction: replaced the category-only source with direct skill references; the acquisition remains the second Shenron wish for a new Super Attack, with no PQ relationship asserted. 2026-09-22 provenance verification: dedicated skill documentation confirms the \"I want a new Super Attack!\" Shenron-wish route and 100-Ki Ki Blast Super classification. No PQ or Ultimate Finish relationship is inferred. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: dedicated skill evidence and independent corroboration were rechecked; existing acquisition, reward-tier, cost, scope, and mechanics semantics are preserved, and no unsupported drop probability or additional gate is inferred.",
-      "mechanics_notes": "Counter stance that reflects incoming attacks; current record retains the documented Shenron-wish acquisition and partial verification.",
+      "mechanics_notes": "Ki Blast Super / Counter Skill: creates a lens-like barrier for about one second, granting Super Armor/protection before firing a single-hit Ki wave. The maintained current reference reports 100 Ki and about 10% damage; Shenron acquisition is non-PQ. Exact frame/interaction data remain unverified.",
       "source_quest": null,
       "source_quest_or_shop": "Shenron wish"
     },
@@ -10731,14 +10733,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Time_Skip/Tremor_Pulse",
         "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+        "https://dragonball.fandom.com/wiki/Time-Skip/Tremor_Pulse"
       ],
       "unlock_method": "Hit mentor training — lesson-3.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.\n2026-09-21 DLC provenance refinement: replaced the generic DLC label with the documented mentor DLC pack. 2026-09-21 DLC provenance verification: Hit's mentor skills are explicitly included in Super Pack 1; current DLC/mentor references identify this skill as one of Hit's four training rewards. No acquisition details beyond the existing mentor route were changed. 2026-09-22 batch verification: acquisition/classification evidence was rechecked from the existing repository research trail; unresolved reward probabilities and detailed combat measurements remain explicitly bounded. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred.",
-      "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred.",
+      "mechanics_notes": "Strike Evasive: teleports behind the opponent and kicks; directional input can move the user in front instead. The attack is unblockable; the maintained current reference reports 200 Stamina and 7% damage. Exact invulnerability duration and frame data remain unverified.",
       "source_quest": "Hit mentor training — lesson-3.",
       "source_quest_or_shop": "Hit mentor training"
     },
