@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-batch-380-thin-mechanics-audit-2026-09-25",
+  "date": "2026-09-25",
+  "targets": [
+    "Timespace Impact",
+    "Rebellion Spear",
+    "Spirit Explosion",
+    "Evil Ray Strike",
+    "Evil Rise Strike"
+  ],
+  "result": "Five shortest low-detail records enriched and synchronized.",
+  "ci": "unverified"
+}
