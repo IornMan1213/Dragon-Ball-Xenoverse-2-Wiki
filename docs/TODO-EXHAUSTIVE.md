@@ -1,3 +1,13 @@
+### 2026-09-26 continuation — Batch 424 large-blob recovery and partial canonical synchronization
+
+- [x] Recovered the safe large-blob path: `fetch_blob` successfully returned the full 1.25 MB canonical `skills.json` blob and the full projection blob, allowing complete-file edits without reconstructing either dataset.
+- [x] Synchronized **Full Power Charge** into both `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed its verification date to 2026-09-26 and added the Batch 424 evidence/provenance note.
+- [x] Validated canonical/index parity after the large-blob write: **474/474 IDs**, zero missing, zero extra.
+- [x] Confirmed the three other Batch 424 evidence names — **Burning Spin, Final Shine Attack, Savage Strike** — do not currently exist as exact canonical records in the 474-record skill dataset. Their evidence audits remain preserved, but are now explicitly marked evidence-only / pending canonical identity reconciliation rather than being falsely promoted.
+- [x] Updated `skill-batch-424.json` and all four Batch 424 audit files to reflect the actual synchronization state.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [x] **Exact next:** reconcile the three evidence-only Batch 424 names against the canonical skill inventory/import sources (do not invent IDs), then continue the fresh under-audited mechanics frontier using canonical records only.
+
 ### 2026-09-26 continuation — Skill Research Batch 424 evidence layer completed
 
 - [x] Performed a fresh current-evidence frontier check against the live cross-domain registry and selected four skills without a dedicated current-evidence audit: **Full Power Charge, Burning Spin, Final Shine Attack, and Savage Strike**.
