@@ -1,0 +1,16 @@
+{
+  "skill_id": "skill-candy-beam-super",
+  "name": "Candy Beam (Super)",
+  "batch": 436,
+  "date": "2026-09-26",
+  "status": "complete",
+  "source": "https://dbxv2.fandom.com/wiki/Candy_Beam_%28Super%29",
+  "findings": [
+    "200 Ki Ki Blast Super",
+    "Parallel Quest 113 — Birth of the Ultimate Majin!",
+    "Single-hit pink transformation beam",
+    "No direct damage",
+    "Reduces target Ki Blast skill damage",
+    "Does not work on Great Apes or Cell Max"
+  ]
+}
