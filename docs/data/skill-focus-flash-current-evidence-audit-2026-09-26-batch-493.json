@@ -1,0 +1,12 @@
+{
+  "batch": 493,
+  "date": "2026-09-26",
+  "skill_id": "skill-focus-flash",
+  "skill_name": "Focus Flash",
+  "status": "complete",
+  "findings": "100-Ki Ki Blast Super from Expert Mission 18. Current documentation describes charging a large sphere above the head, throwing it, then firing a rapid follow-up barrage when the first projectile connects; Boost Dash use is documented.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Focus_Flash"
+  ],
+  "evidence_boundary": "Current Xenoverse 2-specific mechanics and explicit acquisition evidence are bounded to cited source context. Unsupported exact frames, hidden interactions, probabilities, and patch-independent scaling are not inferred."
+}
