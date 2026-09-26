@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-25",
+  "batch_id": 385,
+  "target": "Super God Shock Flash",
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Super_God_Shock_Flash"
+  ],
+  "evidence_boundary": "Source-bounded Xenoverse 2 mechanics; no unsupported frame data, hidden prerequisites, reward probabilities, or universal damage claims promoted."
+}
