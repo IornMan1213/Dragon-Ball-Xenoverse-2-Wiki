@@ -14,7 +14,9 @@
     "duplicate_relationships": [],
     "invalid_relationship_types": [],
     "missing_evidence_relationships": [],
-    "status": "clean"
+    "status": "clean",
+    "evidence_path_count": 6,
+    "missing_evidence_files": []
   },
   "relationships": [
     {
@@ -33,7 +35,8 @@
   "validator_correction": {
     "issue": "The validator previously attempted to read row.skill_id from docs/data/skills.json, but the canonical corpus stores the stable identifier in row.id.",
     "correction": "Changed the validator to build its canonical ID set from row.id. No canonical skill records were changed.",
-    "validation_basis": "The live 474-record skills corpus contains id=skill-arm-crash and id=skill-reverse-mabakusenko; all three relationship pairs are unique and carry repository evidence."
+    "validation_basis": "The live 474-record skills corpus contains id=skill-arm-crash and id=skill-reverse-mabakusenko; all three relationship pairs are unique and carry repository evidence.",
+    "evidence_validation": "Validator now also verifies every declared evidence path exists in the live repository tree; all 6 declared evidence files are present."
   },
   "evidence_boundary": "This validates relationship-layer schema and canonical skill-ID reachability only. It does not infer additional Partner Customization assignments, DLC ownership, raid availability, or skill mechanics.",
   "status": "clean"
