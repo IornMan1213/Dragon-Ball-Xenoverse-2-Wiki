@@ -1,0 +1,18 @@
+{
+  "batch": 464,
+  "date": "2026-09-26",
+  "skill_name": "Final Kamehameha",
+  "skill_id": "skill-final-kamehameha",
+  "status": "completed",
+  "findings": [
+    "300-Ki Ki Blast Ultimate associated with Vegito and obtainable from PQ91/related shop availability. The sequence begins as a Final Flash-like charge and transitions into a Super Kamehameha beam. Current evidence documents 22 hits, approximately 40% total damage, long-range behavior, and heavy knockback; exact frame timing and patch-independent scaling remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Final_Kamehameha",
+    "https://gamersdecide.com/articles/dragon-ball-xenoverse-2-best-ultimate-attacks"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}
