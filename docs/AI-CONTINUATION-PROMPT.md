@@ -1,3 +1,14 @@
+### 2026-09-26 continuation — Skill Research Batch 451 completed
+
+- [x] Fresh live 474-record mechanics frontier census selected **Force Shield, Eraser Bomb, Evil Flame, Galactic Donuts, Energy Field, Bloody Counter, Supersonic Mode, and Big Bang Attack** after excluding every registered current-evidence audit.
+- [x] Added eight current-evidence audits plus Batch 451 research and thin-frontier audit artifacts.
+- [x] Deepened and synchronized all eight canonical records with current Xenoverse 2-specific mechanics and bounded evidence.
+- [x] Registered Batch 451 provenance; registry now contains **724 entries**.
+- [x] Validation remains **474/474**, 0 missing / 0 extra.
+- [ ] CI/build remains unverified.
+- [ ] Efficiency addendum remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** fresh unaudited mechanics frontier census excluding Batch 451 and all prior current-evidence-audited records.
+
 ### 2026-09-26 continuation — Skill Research Batch 450 completed
 
 - [x] Fresh live 474-record mechanics frontier census excluded every skill with a registered current-evidence audit and selected **Ray Blast, Emperor's Blast, Final Cannon, Godly Chronos Cannon, Vanishing Ball, Evil Whirlwind, God of Destruction's Rampage, and Emperor's Death Beam** as the eight shortest remaining records by combined mechanics/notes coverage.
