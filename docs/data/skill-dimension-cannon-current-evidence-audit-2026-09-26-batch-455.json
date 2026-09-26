@@ -1,0 +1,17 @@
+{
+  "skill_id": "skill-dimension-cannon",
+  "name": "Dimension Cannon",
+  "batch": 455,
+  "date": "2026-09-26",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Dimension_Cannon"
+  ],
+  "findings": [
+    "2026-09-26 Batch 455 current-evidence enrichment: 300-Stamina Ki Blast Evasive from PQ59. The user leans back and fires a short-range mouth Ki wave; current evidence documents six hits, about 10% total damage, knockback, and guard break when it connects against a blocking opponent. Exact startup/recovery and edge-case guard interactions remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
