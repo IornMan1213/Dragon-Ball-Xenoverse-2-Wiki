@@ -1975,3 +1975,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Live reconciliation: **20 keys / 20 reconciliation records / 29 bridge records / 149 canonical character names / 20 page links / 0 failed checks / 0 identity mismatches**.
 - [ ] Exact next: reconcile the recovered character/preset layer against remaining live character consumer artifacts before expanding Partner Customization skill relationships.
 - [ ] CI/build remains unverified.
+
+
+### 2026-09-26 TODO progress update — Character/preset consumer reconciliation
+- [x] Restored the missing 51-record character preset layer and related consumer artifacts from coherent historical commits.
+- [x] Synchronized the canonical character baseline to **152** records.
+- [x] Extended the explicit identity bridge **29 → 34** with Bardock, Raditz, Nappa, Recoome, and Zarbon, resolving all **17** preset character IDs.
+- [x] Added/registered the character-preset consumer reconciliation audit.
+- [x] Audited the cross-domain provenance index against the live tree: **1,608 references, 713 reachable, 895 unreachable**; historical/planned references remain preserved.
+- [x] Added/registered the cross-domain index reachability audit.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** prioritize critical cross-domain references that are safely regenerable from canonical data and required by live navigation/validators.
