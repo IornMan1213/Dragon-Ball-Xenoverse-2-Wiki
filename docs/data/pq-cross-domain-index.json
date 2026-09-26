@@ -326,7 +326,8 @@
     "partner_skill_relationships_validator": "scripts/validate_partner_skill_relationships.py",
     "partner_character_navigation_reference_existence_2026_09_26": "docs/data/partner-character-navigation-reference-existence-audit-2026-09-26.json",
     "partner_customization_character_recovery_2026_09_26": "docs/data/partner-customization-character-navigation-recovery-audit-2026-09-26.json",
-    "character_preset_consumer_reconciliation_2026_09_26": "docs/data/character-preset-consumer-reconciliation-2026-09-26.json"
+    "character_preset_consumer_reconciliation_2026_09_26": "docs/data/character-preset-consumer-reconciliation-2026-09-26.json",
+    "critical_unreachable_reference_reconciliation": "docs/data/critical-unreachable-reference-reconciliation-audit-2026-09-26.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
