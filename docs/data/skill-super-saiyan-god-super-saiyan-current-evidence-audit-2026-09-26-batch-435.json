@@ -1,0 +1,19 @@
+{
+  "skill_id": "skill-super-saiyan-god-super-saiyan",
+  "name": "Super Saiyan God Super Saiyan",
+  "batch": 435,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Saiyan_God_Super_Saiyan",
+    "https://dbxv2.fandom.com/wiki/Awoken_Skill"
+  ],
+  "findings": [
+    "500 Ki Saiyan-only Awoken Skill",
+    "Whis friendship and level 90+ requirement",
+    "25% all-attack damage increase",
+    "5% damage reduction",
+    "10 Ki drain per second",
+    "Reduced Ki recovery and charged-Ki teleport/vanish behavior are documented"
+  ]
+}
