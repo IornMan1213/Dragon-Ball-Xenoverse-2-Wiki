@@ -9906,7 +9906,7 @@
     {
       "id": "skill-super-explosive-wave",
       "name": "Super Explosive Wave",
-      "class": "Evasive",
+      "class": "Super",
       "subcategory": "Ki Blast",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
