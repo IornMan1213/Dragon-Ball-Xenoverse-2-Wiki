@@ -1,3 +1,12 @@
+### 2026-09-26 continuation — Batch 482 canonical synchronization
+
+- [x] Researched and synchronized **Death Ball, Galick Gun, Sphere of Destruction, Breaker Energy Wave, Hyper Drain, Handy Canon, Fierce Fist, Venus Fist**.
+- [x] Canonical/index parity remains **474/474**.
+- [x] Historical test values are explicitly source-bound; unresolved exact mechanics remain open rather than guessed.
+- [x] Batch 482 research checkpoint and canonical dataset synchronization completed.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** fresh frontier census excluding Batch 482 and all prior registered current-evidence audits.
+
 ### 2026-09-26 continuation — Batch 481 canonical mechanics enrichment
 
 - [x] Fresh frontier re-census completed after Batch 480.
