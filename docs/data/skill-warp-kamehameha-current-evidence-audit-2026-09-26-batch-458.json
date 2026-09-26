@@ -1,0 +1,21 @@
+{
+  "batch": 458,
+  "date": "2026-09-26",
+  "skill_name": "Warp Kamehameha",
+  "skill_id": "skill-warp-kamehameha",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Skill Research Batch 458.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Warp_Kamehameha",
+    "https://docs.google.com/spreadsheets/d/1B_m8l8BAtfAZkEWpB2IxDXTWYaZ6TW80GgOGtwzVDWQ/edit?usp=sharing"
+  ],
+  "findings": [
+    "400-Ki Ki Blast Ultimate from PQ76. The user charges a Kamehameha, teleports to the locked-on opponent, then fires for 24 hits and about 30% source-reported damage. The repository retains conflicting reward-tier evidence and therefore does not assert a new Ultimate Finish gate. Exact teleport timing and frame data remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Exact frame data is not promoted.",
+    "Patch-independent scaling is not inferred from source-reported values.",
+    "Reward probabilities and hidden prerequisites are not promoted unless directly evidenced.",
+    "Community usage commentary is not converted into deterministic mechanics."
+  ]
+}
