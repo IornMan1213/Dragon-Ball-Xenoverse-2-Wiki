@@ -2219,3 +2219,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 
 ### 2026-09-26 continuation — Skill Research Batch 493 completed
+
+
+### 2026-09-26 continuation — Skill Research Batch 494 completed
+- [x] Fresh live mechanics frontier census performed after Batch 493; stale candidate lists were not reused.
+- [x] Researched and synchronized **Super Saiyan, Volleyball Fist, Angry Explosion, Side Bridge, and Confusion Blade**.
+- [x] Added five current-evidence audits plus Batch 494 research/thin-frontier artifacts and registered all seven artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Canonical skill corpus remains **474 records**; current-evidence audit coverage is now **364 records**, leaving **119 unaudited** records after the fresh census.
+- [x] Preserved evidence boundaries; unsupported exact frames, hidden interactions, probabilities, and patch-independent scaling were not inferred.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [x] **Exact next:** perform another fresh live unaudited mechanics frontier census before Batch 495; do not reuse the Batch 494 candidate list. Current frontier begins with Explosive Buu Buu Punch → Revenge Final Flash → Spirit Blaster → Feint Shot → Super Gamma Blast, subject to re-census.
