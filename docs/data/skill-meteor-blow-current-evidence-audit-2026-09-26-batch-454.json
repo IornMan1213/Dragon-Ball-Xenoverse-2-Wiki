@@ -1,0 +1,19 @@
+{
+  "skill_id": "skill-meteor-blow",
+  "name": "Meteor Blow",
+  "batch": 454,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Meteor_Blow",
+    "https://dragonball.fandom.com/wiki/Meteor_Blow"
+  ],
+  "findings": [
+    "2026-09-26 Batch 454 current-evidence enrichment: 100-Ki Strike Super from PQ9 and a starting-skill option for the close-up fighting style. The opening upkick launches the opponent diagonally upward, then the user teleports in front of the flight path for a finishing kick. The first hit can be Ki-confirmed into the teleport follow-up, and the resulting knockback can enable some slower supers; exact frame windows and damage scaling remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
