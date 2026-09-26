@@ -1589,3 +1589,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [ ] Efficiency addendum remains unavailable at expected path (GitHub 404).
 - [x] **Exact next:** run a fresh unaudited mechanics frontier census excluding Batch 446 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
+
+
+### 2026-09-26 continuation — Skill Research Batch 447 completed
+- [x] Fresh mechanics frontier selected **Hell Flash, Ice Cannon, Kill Driver, and Feint Crash** after excluding prior current-evidence audits.
+- [x] Deepened and synchronized all four canonical skill records and the skill index.
+- [x] Added four current-evidence audits plus Batch 447 research/thin-frontier artifacts and provenance registrations.
+- [x] Validation: **474/474**, missing 0, extra 0, ordered parity true.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] Efficiency addendum remains unavailable at expected path (GitHub 404).
+- [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 447 and every prior current-evidence-audited record.
