@@ -1,0 +1,14 @@
+{
+  "skill_id": "skill-taunt",
+  "skill_name": "Taunt",
+  "batch": 479,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "Other-type Super. The user performs a taunting pose that forces nearby enemies to lock on to the user. Current evidence supports its aggro/attention-control function rather than direct damage; exact radius, duration, and AI targeting behavior are not established as universal constants.",
+  "sources": [
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)",
+    "https://dbxv2.fandom.com/wiki/Taunt"
+  ],
+  "evidence_boundary": "Current-source behavior is preserved as source-bound evidence. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

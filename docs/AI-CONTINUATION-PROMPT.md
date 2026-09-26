@@ -1,3 +1,15 @@
+### 2026-09-26 continuation — Batch 479 canonical mechanics enrichment
+
+- [x] Read live continuation/TODO state and performed a fresh mechanics frontier excluding registered current-evidence audits.
+- [x] Selected and researched **Taunt, Demonic Destruction, Neo Tri-Beam, Divine Lasso, Chaotic Time Impact, Gamma Impact, Gigantic Nova, Brutal Buster** as Batch 479.
+- [x] Added eight dedicated current-evidence audits plus Batch 479 research/thin-frontier artifacts.
+- [x] Synchronized all eight records into both canonical skill datasets.
+- [x] Canonical/index validation remains **474/474**, with **0 missing / 0 extra**.
+- [x] Registered all Batch 479 artifacts in `docs/data/pq-cross-domain-index.json`.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** run a fresh unaudited mechanics frontier census excluding Batch 479 and every prior registered current-evidence audit.
+
 ### 2026-09-26 continuation — Batch 478 canonical mechanics enrichment
 
 - [x] Read and reconciled the live continuation state and exhaustive TODO before continuing.

@@ -1,0 +1,14 @@
+{
+  "skill_id": "skill-neo-tri-beam",
+  "skill_name": "Neo Tri-Beam",
+  "batch": 479,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "Ultimate Strike/beam-type technique learned from Tien. The user fires repeated triangular energy shots while the technique continues; current evidence identifies it as Tien's Ultimate Skill and distinguishes the Dual version. Exact stamina/health tradeoff behavior, total hit count, damage scaling, and frame timing are left source-bound rather than inferred.",
+  "sources": [
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)",
+    "https://dbxv2.fandom.com/wiki/Neo_Tri-Beam"
+  ],
+  "evidence_boundary": "Current-source behavior is preserved as source-bound evidence. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

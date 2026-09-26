@@ -1,0 +1,14 @@
+{
+  "skill_id": "skill-divine-lasso",
+  "skill_name": "Divine Lasso",
+  "batch": 479,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "Ultimate associated with Super Saiyan Rosé Goku Black. The attack uses a divine-energy blade/rope sequence to strike and restrain the opponent; current evidence confirms the Future Warrior version and separately identifies the Dual variant. Exact hit timing, damage scaling, and restraint mechanics remain unresolved.",
+  "sources": [
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)",
+    "https://dbxv2.fandom.com/wiki/Divine_Lasso"
+  ],
+  "evidence_boundary": "Current-source behavior is preserved as source-bound evidence. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

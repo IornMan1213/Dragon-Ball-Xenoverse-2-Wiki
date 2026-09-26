@@ -1,0 +1,14 @@
+{
+  "skill_id": "skill-chaotic-time-impact",
+  "skill_name": "Chaotic Time Impact",
+  "batch": 479,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "Ultimate used by Ultra Supervillain Golden Frieza and represented in the Future Saga-era skill set. Current character data associates it with Golden Frieza's moveset; the maintained skill record preserves its existing acquisition/classification endpoint. Exact attack sequence, hit count, frames, scaling, and hidden conditions remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Characters",
+    "https://dbxv2.fandom.com/wiki/Chaotic_Time_Impact"
+  ],
+  "evidence_boundary": "Current-source behavior is preserved as source-bound evidence. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

@@ -1,0 +1,14 @@
+{
+  "skill_id": "skill-demonic-destruction",
+  "skill_name": "Demonic Destruction",
+  "batch": 479,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "Strike Super associated with Demigra/Future Saga-era content. Current evidence identifies it as a multi-function close-range strike sequence and the maintained skill corpus associates it with Demigra's Fierce Fist/Demonic Destruction moveset. Exact input branches, hit count, frame timings, and damage scaling remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Demonic_Destruction",
+    "https://ru.scribd.com/document/667491668/Demons-Xenoverse-ID-List"
+  ],
+  "evidence_boundary": "Current-source behavior is preserved as source-bound evidence. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

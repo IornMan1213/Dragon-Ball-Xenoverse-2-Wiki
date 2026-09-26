@@ -1,0 +1,107 @@
+{
+  "batch": 479,
+  "date": "2026-09-26",
+  "status": "research_complete",
+  "scope": "Fresh unaudited mechanics frontier after Batch 478, excluding every skill ID represented by a registered current-evidence audit.",
+  "selection_method": "Shortest canonical mechanics records whose skill IDs were not represented by a registered current-evidence audit at census time.",
+  "selected": [
+    "Taunt",
+    "Demonic Destruction",
+    "Neo Tri-Beam",
+    "Divine Lasso",
+    "Chaotic Time Impact",
+    "Gamma Impact",
+    "Gigantic Nova",
+    "Brutal Buster"
+  ],
+  "records": [
+    {
+      "skill_id": "skill-taunt",
+      "skill_name": "Taunt",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "Other-type Super. The user performs a taunting pose that forces nearby enemies to lock on to the user. Current evidence supports its aggro/attention-control function rather than direct damage; exact radius, duration, and AI targeting behavior are not established as universal constants.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)",
+        "https://dbxv2.fandom.com/wiki/Taunt"
+      ]
+    },
+    {
+      "skill_id": "skill-demonic-destruction",
+      "skill_name": "Demonic Destruction",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "Strike Super associated with Demigra/Future Saga-era content. Current evidence identifies it as a multi-function close-range strike sequence and the maintained skill corpus associates it with Demigra's Fierce Fist/Demonic Destruction moveset. Exact input branches, hit count, frame timings, and damage scaling remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Demonic_Destruction",
+        "https://ru.scribd.com/document/667491668/Demons-Xenoverse-ID-List"
+      ]
+    },
+    {
+      "skill_id": "skill-neo-tri-beam",
+      "skill_name": "Neo Tri-Beam",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "Ultimate Strike/beam-type technique learned from Tien. The user fires repeated triangular energy shots while the technique continues; current evidence identifies it as Tien's Ultimate Skill and distinguishes the Dual version. Exact stamina/health tradeoff behavior, total hit count, damage scaling, and frame timing are left source-bound rather than inferred.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)",
+        "https://dbxv2.fandom.com/wiki/Neo_Tri-Beam"
+      ]
+    },
+    {
+      "skill_id": "skill-divine-lasso",
+      "skill_name": "Divine Lasso",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "Ultimate associated with Super Saiyan Rosé Goku Black. The attack uses a divine-energy blade/rope sequence to strike and restrain the opponent; current evidence confirms the Future Warrior version and separately identifies the Dual variant. Exact hit timing, damage scaling, and restraint mechanics remain unresolved.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)",
+        "https://dbxv2.fandom.com/wiki/Divine_Lasso"
+      ]
+    },
+    {
+      "skill_id": "skill-chaotic-time-impact",
+      "skill_name": "Chaotic Time Impact",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "Ultimate used by Ultra Supervillain Golden Frieza and represented in the Future Saga-era skill set. Current character data associates it with Golden Frieza's moveset; the maintained skill record preserves its existing acquisition/classification endpoint. Exact attack sequence, hit count, frames, scaling, and hidden conditions remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Characters",
+        "https://dbxv2.fandom.com/wiki/Chaotic_Time_Impact"
+      ]
+    },
+    {
+      "skill_id": "skill-gamma-impact",
+      "skill_name": "Gamma Impact",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "Strike Super from Gamma 2's moveset. Current evidence associates the move with Gamma 2 and Hero of Justice-era content; the maintained character roster independently lists Gamma Impact among Gamma 2's techniques. Exact attack branches, hit count, frame data, and scaling remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Characters",
+        "https://dbxv2.fandom.com/wiki/Gamma_Impact"
+      ]
+    },
+    {
+      "skill_id": "skill-gigantic-nova",
+      "skill_name": "Gigantic Nova",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "Ultimate from Broly (DB Super)'s moveset. Current evidence places it in Broly's Future Saga Chapter 3-era skill set and distinguishes it from Gigantic Meteor/Gigantic Explosion. Exact projectile behavior, charge/input timing, hit count, damage scaling, and acquisition gate remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Characters",
+        "https://dbxv2.fandom.com/wiki/Gigantic_Nova"
+      ]
+    },
+    {
+      "skill_id": "skill-brutal-buster",
+      "skill_name": "Brutal Buster",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "Ultimate associated with Majuub. Current evidence independently lists Brutal Buster in Majuub's moveset alongside Dragon Blitz and Lightning Impact. The maintained record preserves its existing acquisition/classification endpoint; exact sequence, hit count, frames, and scaling remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Characters",
+        "https://dbxv2.fandom.com/wiki/Brutal_Buster"
+      ]
+    }
+  ],
+  "evidence_policy": "Current Xenoverse 2-specific evidence is prioritized. Source-reported behavior remains source-bound; unsupported exact frames, scaling, hidden interactions, and reward probabilities are not inferred.",
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "missing_ids": [],
+    "extra_ids": []
+  },
+  "exact_next": "Run a fresh unaudited mechanics frontier census excluding Batch 479 and every prior registered current-evidence audit, then continue canonical research/synchronization."
+}

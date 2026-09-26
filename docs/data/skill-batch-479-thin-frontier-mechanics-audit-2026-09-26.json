@@ -1,0 +1,58 @@
+{
+  "batch": 479,
+  "date": "2026-09-26",
+  "scope": "Thin mechanics frontier audit",
+  "census": {
+    "record_count": 474,
+    "selection_rule": "Shortest canonical mechanics records not represented by a registered current-evidence audit."
+  },
+  "selected": [
+    {
+      "skill_id": "skill-taunt",
+      "skill_name": "Taunt",
+      "mechanics_length": 286
+    },
+    {
+      "skill_id": "skill-demonic-destruction",
+      "skill_name": "Demonic Destruction",
+      "mechanics_length": 328
+    },
+    {
+      "skill_id": "skill-neo-tri-beam",
+      "skill_name": "Neo Tri-Beam",
+      "mechanics_length": 359
+    },
+    {
+      "skill_id": "skill-divine-lasso",
+      "skill_name": "Divine Lasso",
+      "mechanics_length": 317
+    },
+    {
+      "skill_id": "skill-chaotic-time-impact",
+      "skill_name": "Chaotic Time Impact",
+      "mechanics_length": 346
+    },
+    {
+      "skill_id": "skill-gamma-impact",
+      "skill_name": "Gamma Impact",
+      "mechanics_length": 289
+    },
+    {
+      "skill_id": "skill-gigantic-nova",
+      "skill_name": "Gigantic Nova",
+      "mechanics_length": 292
+    },
+    {
+      "skill_id": "skill-brutal-buster",
+      "skill_name": "Brutal Buster",
+      "mechanics_length": 296
+    }
+  ],
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "missing_ids": [],
+    "extra_ids": []
+  },
+  "next": "Repeat for Batch 480; only registered dedicated audit artifacts count as current-evidence audits."
+}
