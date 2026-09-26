@@ -1,0 +1,18 @@
+{
+  "batch": 487,
+  "date": "2026-09-26",
+  "status": "completed",
+  "records": [
+    "Super Saiyan Blue Kaioken",
+    "Super Saiyan 2",
+    "Super Vegeta",
+    "Namek Finger",
+    "Bending Kamehameha",
+    "Flash Strike",
+    "Finishing Blow",
+    "Sudden Death Beam"
+  ],
+  "method": "Fresh frontier plus current Xenoverse 2-specific evidence. Canonical and index mechanics synchronized for the eight records.",
+  "evidence_boundary": "Source-reported costs, availability, stages, modifiers, damage, and behavior are retained as source-bound. Exact frames, hidden interactions, probabilities, and patch-independent scaling are not inferred.",
+  "validation_target": "474 canonical records and 474 index records; no additions/removals."
+}
