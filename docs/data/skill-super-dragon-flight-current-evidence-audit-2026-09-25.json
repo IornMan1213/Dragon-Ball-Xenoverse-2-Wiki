@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-super-dragon-flight-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Super Dragon Flight",
+  "result": "current_evidence_refresh",
+  "mechanics_notes": "300-Ki Strike Ultimate acquired from PQ31. Maintained PQ31 reward data places it in Basic Rewards rather than asserting an Ultimate-Finish-only gate; exact damage and frame details remain bounded.",
+  "evidence_sources": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://dbxv2.fandom.com/wiki/Super_Dragon_Flight",
+    "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-31.md"
+  ],
+  "evidence_boundary": "Current Xenoverse 2-specific identity, mechanics, acquisition and restriction evidence only; unresolved numeric/frame details remain bounded."
+}
