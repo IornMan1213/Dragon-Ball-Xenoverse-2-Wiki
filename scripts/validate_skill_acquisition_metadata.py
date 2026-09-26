@@ -12,7 +12,7 @@ assert all(r.get("acquisition_type") for r in records)
 anomalies=[]
 for r in records:
     a=r["acquisition_type"]; u=str(r["unlock_method"]).lower(); pq=r.get("source_parallel_quests") or []
-    if a=="tp_medal_shop" and not ("tp medal shop" in u or "stp medal shop" in u): anomalies.append(r["id"])
+    if a=="tp_medal_shop" and "tp medal shop" not in u: anomalies.append(r["id"])
     if a=="skill_shop" and "skill shop" not in u: anomalies.append(r["id"])
     if a=="parallel_quest" and not pq: anomalies.append(r["id"])
     if a!="parallel_quest" and pq and "parallel quest" not in u: anomalies.append(r["id"])
