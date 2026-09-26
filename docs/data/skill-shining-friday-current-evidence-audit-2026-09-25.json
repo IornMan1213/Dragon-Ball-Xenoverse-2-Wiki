@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-shining-friday-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Shining Friday",
+  "result": "current_evidence_refresh",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Ki Blast",
+    "ki_cost": 100,
+    "source_quest_or_shop": "Training with Android 17 (DB Super).",
+    "mechanics": "100-Ki Ki Blast Super. Fires a rapid sequence of Ki projectiles; current Xenoverse 2 evidence identifies Android 17 (DB Super) as the associated skill source."
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Shining_Friday"
+  ],
+  "limits": [
+    "No unsupported duration, frame data, exact damage, drop probability, or hidden acquisition gate is inferred."
+  ]
+}
