@@ -17,7 +17,13 @@
     "status": "clean",
     "evidence_path_count": 6,
     "missing_evidence_files": [],
-    "unknown_canonical_partner_names": []
+    "unknown_canonical_partner_names": [],
+    "schema_shape_checks": {
+      "relationship_count_expected": 3,
+      "relationship_records_are_objects": true,
+      "evidence_fields_are_lists": true,
+      "evidence_paths_are_nonempty_strings": true
+    }
   },
   "relationships": [
     {
@@ -47,7 +53,8 @@
     "changes": [
       "Build canonical partner-name set from character-id-identity-bridge.json.",
       "Reject relationship rows whose partner_name is not a canonical character name.",
-      "Retain canonical skill-ID, uniqueness, relationship-type, and evidence-path checks."
+      "Retain canonical skill-ID, uniqueness, relationship-type, and evidence-path checks.",
+      "Require exactly 3 canonical relationship records; require object-shaped records, list-shaped evidence, and non-empty string evidence paths."
     ],
     "status": "clean"
   }
