@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-batch-375-thin-mechanics-audit-2026-09-25",
+  "date": "2026-09-25",
+  "purpose": "Close five shortest current mechanics footprints using bounded current Xenoverse 2 evidence.",
+  "live_baseline": {
+    "canonical_skill_index": 469,
+    "index_skill_index": 469,
+    "duplicate_ids": 0,
+    "empty_mechanics_notes": 0
+  },
+  "targets": [
+    {
+      "id": "skill-rolling-hercule-punch",
+      "name": "Rolling Hercule Punch",
+      "mechanics_length_after": 283,
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/Rolling_Hercule_Punch",
+        "https://gamefaqs.gamespot.com/boards/190458-dragon-ball-xenoverse-2/79083341"
+      ],
+      "boundary": "Source-reported damage and timing are not treated as patch-independent; no hidden gate, reward probability, frame data, or universal balance value inferred."
+    },
+    {
+      "id": "skill-saturday-crash",
+      "name": "Saturday Crash",
+      "mechanics_length_after": 294,
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/Saturday_Crash",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76184745"
+      ],
+      "boundary": "Historical patch discussion is preserved as version context; no exact frame timing, hidden gate, reward probability, or patch-independent damage value inferred."
+    },
+    {
+      "id": "skill-super-ghost-kamikaze-attack",
+      "name": "Super Ghost Kamikaze Attack",
+      "mechanics_length_after": 235,
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/Super_Ghost_Kamikaze_Attack_%28Super%29",
+        "https://dragonball.fandom.com/wiki/Super_Ghost_Kamikaze_Attack"
+      ],
+      "boundary": "The 4-second trigger and damage are source-reported mechanics, not independently benchmarked; no hidden gate, probability, or frame data inferred."
+    },
+    {
+      "id": "skill-super-ghost-kamikaze-attack-ultimate-ki-blast",
+      "name": "Super Ghost Kamikaze Attack (Ultimate)",
+      "mechanics_length_after": 256,
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/Super_Ghost_Kamikaze_Attack_%28Ultimate%29",
+        "https://dragonball.fandom.com/wiki/Super_Ghost_Kamikaze_Attack"
+      ],
+      "boundary": "Damage values are source-reported and version-sensitive; no exact frame data, reward probability, hidden gate, or universal damage claim inferred."
+    },
+    {
+      "id": "skill-supernova-cooler",
+      "name": "Supernova Cooler",
+      "mechanics_length_after": 285,
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/Supernova_Cooler",
+        "https://dragonball.fandom.com/wiki/Supernova_Cooler"
+      ],
+      "boundary": "Damage and startup comparisons are source-reported; no exact frame data, hidden gate, reward probability, or patch-independent damage claim inferred."
+    }
+  ],
+  "result": "Five 78-character mechanics placeholders were replaced with bounded mechanics descriptions. Acquisition identities, relationship endpoints, and unresolved reward semantics were preserved.",
+  "ci": "unverified"
+}
