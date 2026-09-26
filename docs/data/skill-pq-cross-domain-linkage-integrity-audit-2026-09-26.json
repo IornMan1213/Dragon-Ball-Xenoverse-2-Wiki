@@ -64,5 +64,11 @@
     "The existing pq-cross-domain-index contains many historical artifact references that no longer resolve in the live tree; those are tracked separately and are not silently deleted because they document prior work.",
     "The live validator was hardened to compare the checked-in reverse artifact against the deterministic projection, preventing a count-only pass from masking per-PQ skill-ID/name drift."
   ],
-  "status": "audited_current_live_corpus"
+  "status": "audited_current_live_corpus",
+  "validator_hardening": {
+    "validator": "scripts/validate_skill_pq_crosslinks.py",
+    "correction": "Removed a malformed literal escape sequence in the checked-in validator and implemented the exact checked-in pq_ids projection comparison described by the audit.",
+    "expected_projection": "Derived from docs/data/skills.json source_parallel_quests, including per-PQ skill_count, skill_ids, skills, and relationship_status.",
+    "status": "ready_for_runtime_validation"
+  }
 }
