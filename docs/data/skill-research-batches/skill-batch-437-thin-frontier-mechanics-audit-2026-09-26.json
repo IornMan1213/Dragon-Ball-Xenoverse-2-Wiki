@@ -1,0 +1,18 @@
+{
+  "batch": 437,
+  "date": "2026-09-26",
+  "status": "complete",
+  "selected": [
+    "Majin Kamehameha",
+    "Mach Dash",
+    "Revenge Death Ball",
+    "Namek Finger"
+  ],
+  "method": "Fresh unaudited mechanics frontier after excluding the live Batch 436 selection and prior current-evidence audit records; four shortest remaining active mechanics tiers were researched and synchronized.",
+  "findings": [
+    "Majin Kamehameha: current exact-name evidence corrects the stale Ultimate classification to Super and confirms 100 Ki, PQ60, three charge stages, 5-to-15 hits, approximately 10%-to-15% source-reported damage, and Majin-only CaC use.",
+    "Mach Dash: current evidence confirms 200 Stamina, Power Up Evasive classification, PQ18, 1.5% speed increase, and a documented 11.5-vs-12-second duration discrepancy.",
+    "Revenge Death Ball: current evidence expands the resource model to 300+ Ki, 12-to-22 hits, approximately 30%-to-70% source-reported damage, 300 Ki consumed on input, and remaining-Ki charge behavior.",
+    "Namek Finger: current evidence confirms 100 Ki, Namekian-only CaC use, grab/stun behavior, documented 10% damage, and the distinction between generic current Skill Shop labeling and maintained TP Medal Shop provenance."
+  ]
+}
