@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-batch-370-thin-mechanics-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "result": "current_evidence_mechanics_promotion",
+  "records": [
+    {
+      "name": "Fighting Pose A",
+      "id": "skill-fighting-pose-a",
+      "classification": "Super",
+      "subcategory": "Other",
+      "ki_cost": 0,
+      "mechanics_notes": "0-Ki Power Up Super. Grants temporary automatic guard for 12 seconds after activation.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_A"
+      ],
+      "limits": [
+        "No frame data or hidden duration modifiers inferred."
+      ]
+    },
+    {
+      "name": "Fighting Pose F",
+      "id": "skill-fighting-pose-f",
+      "classification": "Super",
+      "subcategory": "Other",
+      "ki_cost": 0,
+      "mechanics_notes": "0-Ki Power Up Super. Grants Hyper Armor for 12 seconds; incoming damage temporarily depletes Stamina instead of Health, while Stamina regeneration is greatly reduced.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_F"
+      ],
+      "limits": [
+        "No frame data, stacking rules, or hidden duration modifiers inferred."
+      ]
+    },
+    {
+      "name": "Innocence Cannon",
+      "id": "skill-innocence-cannon",
+      "classification": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "mechanics_notes": "100-Ki Ki Blast Super. Fires a large straight Ki ball; on hit it launches the opponent across the map. Current skill-specific evidence reports 30% damage.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Innocence_Cannon"
+      ],
+      "limits": [
+        "The 30% value is source-reported, not an independent balance benchmark. No hidden reward gates inferred."
+      ]
+    },
+    {
+      "name": "Justice Rush",
+      "id": "skill-justice-rush",
+      "classification": "Super",
+      "subcategory": "Strike",
+      "ki_cost": 100,
+      "mechanics_notes": "100-Ki Strike Super. Opens with a brief stance, then delivers a 10-hit rush: nine strikes followed by a final knockback kick. Current skill-specific evidence reports 15% damage and notes that an Ultimate can be input before the last kick.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Justice_Rush"
+      ],
+      "limits": [
+        "The 15% value is source-reported; no frame data or hidden cancel windows inferred."
+      ]
+    }
+  ],
+  "validation": {
+    "canonical_count": 469,
+    "target_count": 4,
+    "canonical_index_targets_synchronized": true
+  }
+}
