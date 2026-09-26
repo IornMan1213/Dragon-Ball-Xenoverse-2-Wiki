@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-time-skip-tremor-pulse-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Time Skip/Tremor Pulse",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "class": "Evasive",
+    "subcategory": "Strike",
+    "stamina_cost": 200,
+    "usable_by_cac": true,
+    "acquisition": "Hit mentor training — Lesson 3",
+    "mechanics": [
+      "teleports behind the opponent",
+      "directional input moves the user in front of the opponent",
+      "unblockable"
+    ],
+    "documented_damage_percent": 7
+  },
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Time_Skip/Tremor_Pulse",
+    "https://dbxv2.fandom.com/wiki/Mentors",
+    "https://dragonball.fandom.com/wiki/Time-Skip/Tremor_Pulse",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+  ],
+  "evidence_boundary": "Current Xenoverse 2 evidence supports the deterministic mechanics above. Exact invulnerability duration, frame data, reward probability, and other unverified numerical combat details remain out of scope."
+}
