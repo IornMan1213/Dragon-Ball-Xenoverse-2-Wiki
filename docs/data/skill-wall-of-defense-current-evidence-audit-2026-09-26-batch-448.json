@@ -1,0 +1,21 @@
+{
+  "skill_id": "skill-wall-of-defense",
+  "name": "Wall of Defense",
+  "batch": 448,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Wall_Of_Defense"
+  ],
+  "findings": [
+    "0-Ki cost",
+    "PQ10 endpoint",
+    "ally-protection teleport",
+    "hold-to-extend stance",
+    "block-like Stamina consumption",
+    "fallback enemy targeting"
+  ],
+  "evidence_boundaries": [
+    "No unsupported exact frame, scaling, probability, or hidden-condition claims inferred."
+  ]
+}
