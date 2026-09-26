@@ -1,0 +1,14 @@
+{
+  "batch": 426,
+  "date": "2026-09-26",
+  "status": "evidence_complete_pending_canonical_sync",
+  "scope": "Fresh unaudited mechanics frontier after Batch 425.",
+  "selected": [
+    "Elite Beam",
+    "Sphere of Destruction",
+    "Crusher Ball",
+    "Do or Die"
+  ],
+  "evidence_policy": "Use current Xenoverse 2-specific evidence where available; retain source-reported numeric values as bounded evidence and do not invent exact frames, probabilities, hidden interactions, or patch-independent scaling.",
+  "exact_next": "Synchronize all four Batch 426 audits into skills.json and skills-index.json, register the artifacts, validate 474/474 parity, and update the persistent handoff."
+}
