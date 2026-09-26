@@ -1,0 +1,22 @@
+{
+  "skill_id": "skill-kill-driver",
+  "name": "Kill Driver",
+  "batch": 447,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Kill_Driver",
+    "https://scribd.com/document/1060493260/Damage-Skills"
+  ],
+  "findings": [
+    "100 Ki Ki Blast Super",
+    "Turles mentor training",
+    "Charge enlarges/strengthens ring",
+    "Hollow center can be passed through",
+    "Additional input detonates ring",
+    "Secondary test evidence records distinct charged/detonated outcomes"
+  ],
+  "evidence_boundaries": [
+    "Secondary damage figures are source-reported observations; exact scaling and frames remain unresolved."
+  ]
+}
