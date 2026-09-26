@@ -2499,3 +2499,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical skill, PQ, acquisition, or reverse-index relationship data was changed.
 - [ ] Runtime validator execution and CI/build remain unverified in this environment.
 - [x] **Exact next:** inspect the next live validator/consumer for another concrete schema, type/range, stale-cache, or deterministic-projection acceptance gap; preserve the evidence boundary around PQs that have no explicit canonical skill endpoint in the current corpus.
+### 2026-09-26 continuation — PQ cross-domain index contract validator
+- [x] Inspected the live `docs/data/pq-cross-domain-index.json` after the skill→PQ hardening pass.
+- [x] Added `scripts/validate_pq_cross_domain_index.py` to make the index's structural contract explicit: object root, schema/version and PQ 1-186 scope, live forward-index target, exactly the seven declared reverse-index entity classes, required key/value fields, farming source field, duplicate detection, and non-empty completion rule.
+- [x] Updated `docs/data/cross-domain-index-reference-reachability-audit-2026-09-26.json` with the validator provenance and evidence boundary.
+- [x] No PQ relationship endpoints, reward claims, or historical provenance references were changed or fabricated.
+- [ ] Runtime validator execution and CI/build remain unverified in this environment.
+- [x] **Exact next:** inspect the next live cross-domain consumer/validator or deterministic projection, prioritizing concrete schema/type/range/stale-reference acceptance gaps over recreating absent historical/index-only datasets.
