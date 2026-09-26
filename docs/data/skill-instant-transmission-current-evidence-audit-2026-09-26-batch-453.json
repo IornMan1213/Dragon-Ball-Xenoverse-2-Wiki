@@ -1,0 +1,20 @@
+{
+  "skill_id": "skill-instant-transmission",
+  "name": "Instant Transmission",
+  "batch": 453,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://twinfinite.net/guides/dragon-ball-xenoverse-2-goku-mentor-master-quest-guide/",
+    "https://www.gamersheroes.com/game-guides/dragon-ball-xenoverse-2-instructor-guide/",
+    "https://www.youtube.com/watch?v=b3GAXJ1Ov28"
+  ],
+  "findings": [
+    "0-Ki/0-Stamina teleport skill taught by Goku in Lesson 1 and usable by the Future Warrior. Current instructor guides independently identify Goku's Lesson 1 as Instant Transmission, while the move's game role is a targeted teleport rather than a damage attack. Exact targeting rules, invulnerability frames, range limits, and post-teleport behavior remain version-sensitive and are not inferred beyond the maintained evidence."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
