@@ -1,0 +1,9 @@
+{
+  "batch": 485,
+  "date": "2026-09-26",
+  "skill_id": "skill-god-of-destructions-roar",
+  "skill_name": "God of Destruction's Roar",
+  "findings": "Current dedicated evidence confirms 100-Ki Strike Super from PQ105; no direct damage; rapidly drains enemy Stamina; holding too long exhausts the user and creates about one second of vulnerability.",
+  "canonical_changes": "Corrected/expanded mechanics are preserved and the former Ki/Ultimate ambiguity remains resolved as Strike Super.",
+  "sources": "Current Xenoverse 2-specific evidence cited in the canonical skill record."
+}
