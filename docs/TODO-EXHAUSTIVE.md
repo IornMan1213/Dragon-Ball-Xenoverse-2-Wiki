@@ -2029,3 +2029,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build remains unverified.
 - [x] **Exact next:** continue with another concrete, safely regenerable cross-domain artifact (or a live canonical navigation/consumer gap) rather than recreating the missing general PQ reward layer from incomplete evidence.
 
+### 2026-09-26 continuation — Character consumer baseline hardening completed
+- [x] Inspected the live character presentation consumer audit after the prior recovery and found stale embedded bridge counts (`29`) despite the live canonical bridge having **34** records.
+- [x] Synchronized `docs/data/characters/character-presentation-consumer-audit.json` to the live **152-character / 34-bridge** baseline, including its Partner Customization navigation and hardening count sections.
+- [x] Synchronized `docs/data/partner-customization-character-navigation-recovery-audit-2026-09-26.json` to **20 keys / 20 reconciliation records / 34 bridge records / 152 canonical character names**, preserving the clean validation result.
+- [x] Confirmed the live deterministic skill→PQ reverse generator remains grounded exclusively in `docs/data/skills.json` and explicitly avoids inferring absent PQ skill endpoints.
+- [x] No unsupported character identity, DLC ownership, unlock, reward, or Partner Customization skill relationship was added.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [x] **Exact next:** continue the cross-domain consumer audit by locating the next live artifact whose cached counts/references are stale against canonical producers, and repair that deterministic mismatch before starting another large mechanics batch.
+
