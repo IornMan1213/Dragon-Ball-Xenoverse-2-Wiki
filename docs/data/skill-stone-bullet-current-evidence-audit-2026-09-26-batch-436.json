@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-stone-bullet",
+  "name": "Stone Bullet",
+  "batch": 436,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Stone_Bullet",
+    "https://dbxv2.fandom.com/wiki/Characters"
+  ],
+  "findings": [
+    "100 Ki Strike Super",
+    "Parallel Quest 56 — Hercule Is Number One",
+    "Up to 22 rocks per use",
+    "Holding input greatly extends range",
+    "Hercule's version is categorized as Ki Blast"
+  ]
+}
