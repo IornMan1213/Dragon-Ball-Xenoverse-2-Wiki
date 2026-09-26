@@ -1,0 +1,21 @@
+{
+  "skill_id": "skill-feint-crash",
+  "name": "Feint Crash",
+  "batch": 447,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Feint_Crash"
+  ],
+  "findings": [
+    "100 Ki Strike Super",
+    "Cooler training",
+    "Teleport/restand punch",
+    "Additional input gives opposite-side kick/knockback",
+    "Regular path can cancel into many skills and stamina breaks",
+    "Alternate path has narrower connectivity"
+  ],
+  "evidence_boundaries": [
+    "No unsupported damage or frame values inferred."
+  ]
+}
