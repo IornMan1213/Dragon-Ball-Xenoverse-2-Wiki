@@ -4217,19 +4217,21 @@
       "source_quest_or_shop": "Parallel Quest 183 — \"Broly vs. Broly\" Basic Reward",
       "ultimate_finish_required": false,
       "skill_description": "Emperor's Cannon is a Super Ki Blast skill associated with Golden Frieza (Ultra Supervillain).",
-      "mechanics_notes": "Current dedicated evidence has conflicted with the maintained reward map: the dedicated skill page reports PQ184, while the maintained reward-normalization map assigns the skill to PQ183. The canonical acquisition follows the maintained reward map pending further reconciliation. It can generate up to eight Ki Blasts, with some capable of paralysis, and additional input launches them together. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
+      "mechanics_notes": "100-Ki Ki Blast Super for Golden Frieza (Ultra Supervillain). Generates up to eight Ki Blasts based on accumulated Power of Time; some can paralyze/stun, and additional input fires the stored blasts together. Current dedicated skill evidence points to PQ184, while the maintained reward map and PQ183 evidence point to PQ183; acquisition conflict remains explicitly bounded.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Emperor's_Cannon",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dbxv2.fandom.com/wiki/Emperor%27s_Cannon",
+        "https://videogaming.fandom.com/wiki/Broly_vs._Broly"
       ],
       "source_quest": 183,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current evidence reconfirms the Super/Ki Blast classification, Golden Frieza (Ultra Supervillain) association, and multi-projectile/paralysis mechanics. The existing PQ183 canonical acquisition is retained while the documented PQ183-vs-PQ184 source conflict remains explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
+      "notes": "2026-09-22 provenance refresh: current evidence reconfirms the Super/Ki Blast classification, Golden Frieza (Ultra Supervillain) association, and multi-projectile/paralysis mechanics. The existing PQ183 canonical acquisition is retained while the documented PQ183-vs-PQ184 source conflict remains explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-26 Batch 484 current-evidence audit: current dedicated mechanics and the PQ183/PQ184 acquisition conflict were rechecked; the repository does not collapse the conflict into an unsupported certainty.",
       "id": "skill-emperor-s-cannon",
       "source_parallel_quests": [
         183
@@ -5644,10 +5646,10 @@
       "source_quest_or_shop": "Parallel Quest 138 — \"The Battle for Earth\"",
       "ultimate_finish_required": true,
       "skill_description": "Flash Chaser is a Super Ki Blast skill used by Majuub; Goku (GT) can equip it through Customize Partner.",
-      "mechanics_notes": "Current evidence confirms Flash Chaser as a 100-Ki Ki Blast Super from PQ138. It is associated with Kefla; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. Current evidence documents 3–8 hits, with an initial four-blast set, optional additional blasts, spread control, and a follow-up homing input; the maximum listed output is approximately 15% damage over 8 hits.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ138. Fires four Ki Blasts, can add another set, can spread the projectiles with directional input, and can then redirect them to home on the target. Current skill-specific evidence reports 3 hits/about 3% at base and up to 8 hits/about 15% when extended.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Flash_Chaser",
@@ -5658,7 +5660,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 138,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms Flash Chaser as a 100-Ki Ki Blast Super from PQ138 and associated with Kefla. Existing 34% Ultimate Finish roll retained as documented; no narrower CaC restriction inferred.\n2026-09-23 provenance correction: dedicated current skill documentation and independent Majuub DLC evidence identify Majuub as the primary user; Goku (GT) has a Customize Partner route. The legacy character_source value Kefla was incorrect and is corrected to Majuub; the PQ138 acquisition remains unchanged.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms Flash Chaser as a 100-Ki Ki Blast Super from PQ138 and associated with Kefla. Existing 34% Ultimate Finish roll retained as documented; no narrower CaC restriction inferred.\n2026-09-23 provenance correction: dedicated current skill documentation and independent Majuub DLC evidence identify Majuub as the primary user; Goku (GT) has a Customize Partner route. The legacy character_source value Kefla was incorrect and is corrected to Majuub; the PQ138 acquisition remains unchanged.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 484 current-evidence audit: current projectile sequence, spread control, homing follow-up, and source-reported output were rechecked; the corrected Majuub attribution is retained.",
       "id": "skill-flash-chaser",
       "source_parallel_quests": [
         138
@@ -6223,10 +6225,10 @@
       "source_quest_or_shop": "Parallel Quest 126 — \"Catch Kefla If You Can!\"",
       "ultimate_finish_required": false,
       "skill_description": "Gigantic Breaker is a Ultimate Ki Blast skill associated with Kefla.",
-      "mechanics_notes": "Dedicated current-version evidence identifies Gigantic Breaker as Kefla's Ki Blast Super; the Future Warrior can obtain it as a random PQ126 reward. CaC race/gender scope is not explicitly stated, so race_restriction remains null. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current PQ guide explicitly lists Gigantic Breaker in the Basic Reward section of Parallel Quest 126, establishing the acquisition route without an Ultimate Finish requirement. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward section; no Ultimate Finish-only gate is asserted. 2026-09-23 refresh: preserved the 200-Ki Ki Blast Super, PQ126 Basic Reward route, and unresolved CaC race/gender restriction as null. No drop probability is inferred.",
+      "mechanics_notes": "200-Ki Ki Blast Super from PQ126. The user charges a fist and rushes forward for a single-hit attack; current skill-specific evidence reports about 10% damage on a successful hit. Missing leaves the user vulnerable and fires a weaker forward Ki projectile.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -6237,7 +6239,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 126,
       "acquisition_type": "quest_or_mission",
-      "notes": " 2026-09-22 mechanics/provenance refresh: current dedicated evidence confirms the 200-Ki Ki Blast Super identity, Kefla association, and PQ126 Basic Reward route. No Ultimate Finish-only gate is inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": " 2026-09-22 mechanics/provenance refresh: current dedicated evidence confirms the 200-Ki Ki Blast Super identity, Kefla association, and PQ126 Basic Reward route. No Ultimate Finish-only gate is inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 484 current-evidence audit: current successful/miss behavior and source-reported damage were rechecked; no drop probability or unsupported frame data was inferred.",
       "id": "skill-gigantic-breaker",
       "source_parallel_quests": [
         126
@@ -6260,14 +6262,14 @@
       "unlock_method": "Parallel Quest 127 — Basic Reward.",
       "source_quest_or_shop": "Parallel Quest 127 — Multiverse Match of the Century",
       "ultimate_finish_required": false,
-      "mechanics_notes": "Dedicated current-version skill evidence explicitly states that Gigantic Burst is a Ki Blast Ultimate used by Kefla (Super Saiyan) and is available for CaCs; PQ127 is the listed unlock. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current PQ guide explicitly lists Gigantic Burst in the Basic Reward section of Parallel Quest 127 — Multiverse Match of the Century, establishing the acquisition route without an Ultimate Finish requirement. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward route; no Ultimate Finish-only gate is asserted. 2026-09-23 refresh: preserved the 500-Ki Ki Blast Ultimate and PQ127 Basic Reward route; the existing non-Ultimate-Finish acquisition semantics remain explicit.",
+      "mechanics_notes": "500-Ki Ki Blast Ultimate from PQ127. Fires three forward-sweeping Ray Blasts, then charges and fires a spiraling energy wave; current skill-specific evidence reports about 40% damage over 25 hits. The preceding Ray Blast Super can transition into Gigantic Burst if sufficient Ki remains.",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "damage_type": "Ki Blast",
       "race_restriction": "All CaC races",
       "source_quest": 127,
       "acquisition_type": "quest_or_mission",
-      "notes": " 2026-09-22 mechanics/provenance refresh: current dedicated evidence confirms the 500-Ki Ki Blast Ultimate identity, Kefla (Super Saiyan) association, and PQ127 Basic Reward route. No Ultimate Finish-only gate is inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": " 2026-09-22 mechanics/provenance refresh: current dedicated evidence confirms the 500-Ki Ki Blast Ultimate identity, Kefla (Super Saiyan) association, and PQ127 Basic Reward route. No Ultimate Finish-only gate is inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 484 current-evidence audit: current mechanics, 25-hit sequence, source-reported damage, and Ray Blast transition were rechecked; exact frames and patch-independent scaling remain unresolved.",
       "id": "skill-gigantic-burst",
       "source_parallel_quests": [
         127
@@ -6538,10 +6540,10 @@
       "source_quest_or_shop": "Parallel Quest 132 — \"The Ultimate Legendary Super Saiyan\"",
       "ultimate_finish_required": false,
       "skill_description": "Gigantic Roar is a Ultimate Ki Blast skill associated with Broly (Full Power Super Saiyan).",
-      "mechanics_notes": "Dedicated current-version evidence confirms Gigantic Roar as a 500-Ki Ki Blast Ultimate used by Broly (Full Power Super Saiyan), obtained from PQ132. The reviewed page does not explicitly establish CaC race/gender/form scope. UF audit 2026-09-19: the maintained PQ guide lists this skill in Basic Reward, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current PQ guide explicitly lists Gigantic Roar in the Basic Reward section of Parallel Quest 132, establishing the acquisition route without an Ultimate Finish requirement. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the First-Clear Reward route; no Ultimate Finish-only gate is asserted. 2026-09-23 refresh: preserved the 500-Ki Ki Blast Ultimate and PQ132 acquisition. Existing reward evidence places it outside the Ultimate Finish-only route; no unsupported drop probability is added.",
+      "mechanics_notes": "500-Ki unblockable Ki Blast Ultimate from PQ132. Fires a large beam from the user's mouth; current skill-specific evidence reports about 40% base damage, 60% at flashing health, and 80% at the lowest health. Guarding does not block it.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gigantic_Roar",
         "https://dragonball.fandom.com/wiki/Gigantic_Roar",
@@ -6550,7 +6552,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 132,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 verification refresh: revalidated against the repository's maintained skill/PQ/mentor provenance corpus; existing evidence conflicts and unresolved mechanics are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-22 verification refresh: revalidated against the repository's maintained skill/PQ/mentor provenance corpus; existing evidence conflicts and unresolved mechanics are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 484 current-evidence audit: current health-scaled damage behavior and unblockable property were rechecked; exact frames and patch-independent scaling remain unresolved.",
       "id": "skill-gigantic-roar",
       "source_parallel_quests": [
         132
@@ -6627,10 +6629,10 @@
       "source_quest_or_shop": "Parallel Quest 105 — \"Champa's Hellish Holiday\"",
       "ultimate_finish_required": false,
       "skill_description": "God of Destruction's Menace is a Ultimate Ki Blast skill associated with Champa.",
-      "mechanics_notes": "Current Ultimate Attack index evidence confirms God of Destruction's Menace as a 300-Ki Ki Blast Ultimate obtained from PQ105 and used by Champa. Existing CaC availability is retained only as a dataset value pending a stronger dedicated explicit-scope statement. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current PQ guide explicitly lists God of Destruction's Menace in the Basic Reward section of Parallel Quest 105, establishing the acquisition route without an Ultimate Finish requirement. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward section; no Ultimate Finish-only gate is asserted. 2026-09-23 refresh: preserved the 300-Ki Ki Blast Ultimate, PQ105 Basic Reward route, and existing CaC scope. No Ultimate Finish-only gate or drop probability is inferred.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from PQ105. The user charges, throws four Ki Blasts, and can repeat the input to add tracking volleys; current skill-specific evidence reports up to 26 hits and about 30% total damage. Character association is Champa; the existing CaC field is retained pending stronger explicit scope evidence.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Menace",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
@@ -6639,7 +6641,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 105,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 verification refresh: revalidated against the repository's maintained skill/PQ/mentor provenance corpus; existing evidence conflicts and unresolved mechanics are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-22 verification refresh: revalidated against the repository's maintained skill/PQ/mentor provenance corpus; existing evidence conflicts and unresolved mechanics are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 484 current-evidence audit: current projectile, repeat-input, hit-count, damage, and acquisition evidence were rechecked; exact frames and explicit CaC scope remain bounded.",
       "id": "skill-god-of-destruction-s-menace",
       "source_parallel_quests": [
         105
@@ -11895,10 +11897,10 @@
       "source_quest_or_shop": "Parallel Quest 02 — \"A Deal?! The Saiyan Brothers\"",
       "ultimate_finish_required": false,
       "skill_description": "Spirit Slash is a Evasive Strike skill associated with Gohan (Teen).",
-      "mechanics_notes": "Dedicated current-version evidence confirms Spirit Slash as a 200-Stamina Strike Evasive from PQ02. The Gohan (DBS Super Hero) variant uses 300 Stamina and can be charged to teleport behind the opponent. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
+      "mechanics_notes": "200-Stamina Strike Evasive from PQ02. Standard use spins/backhands the opponent away; current skill-specific evidence reports about 5% damage. The Gohan (DBS Super Hero) variant costs 300 Stamina and can be charged to teleport behind the opponent.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Spirit_Slash",
@@ -11908,7 +11910,7 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": 2,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: PQ2 is the documented acquisition endpoint; current repository research classifies this as a 200-Stamina Strike Evasive usable by CaCs. The DBS Super Hero variant is distinct and should not be conflated with the base PQ2 record. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-22 provenance refresh: PQ2 is the documented acquisition endpoint; current repository research classifies this as a 200-Stamina Strike Evasive usable by CaCs. The DBS Super Hero variant is distinct and should not be conflated with the base PQ2 record. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.\n2026-09-26 Batch 484 current-evidence audit: standard PQ02 Spirit Slash and the distinct Gohan (DBS Super Hero) variant were rechecked; exact frames and patch-independent scaling remain unresolved.",
       "id": "skill-spirit-slash",
       "source_parallel_quests": [
         2
@@ -13156,10 +13158,10 @@
       "source_quest_or_shop": "Future Saga Chapter 4 — Quest 31, Ultimate All-Out Showdown",
       "ultimate_finish_required": false,
       "skill_description": "Universal CaC Awoken Skill with an initial state and a stronger unleashed second stage.",
-      "mechanics_notes": "Two-stage Awoken. Current evidence supports Stage 1 at +20% all-damage defense and +5% movement speed, with automatic HP recovery below 50% and an unblockable sword-strike replacement for grabs. Re-inputting the Awoken command activates Unleashed Stage 2 for about 12 seconds of effectively/infinite Ki regeneration, +15% basic attack damage, +30% Strike/Ki Super damage, increased movement speed, and HP drain. Exact values remain intentionally unresolved where current sources conflict: Stage 1 defense has a 20% report and a 25% self-test report; Stage 2 speed has +10% and +15% reports; cooldown has about 24 and about 30 second reports; HP regeneration is reported around 1 bar/60 seconds and about 1 bar/65 seconds. Do not collapse these into false precision.",
+      "mechanics_notes": "500-Ki universal CaC Awoken from Future Saga Chapter 4. Stage 1 provides about +20% damage reduction, +5% movement speed, below-50%-health regeneration, and an unblockable sword-strike replacement for grabs. Re-input activates roughly 12 seconds of Unleashed mode with very rapid/infinite-style Ki regeneration, +15% Basic Attack, +30% Strike/Ki Super damage, +10% movement speed, and HP drain. Exact regeneration, cooldown, and some modifier measurements remain source-conflicted.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://noleep.com/en/dragon-ball-xenoverse-2-the-power-to-overcome/",
@@ -13167,7 +13169,7 @@
         "https://www.reddit.com/r/dbxv/comments/1ut3fc0/the_power_to_overcome_stats/",
         "https://gamefaqs.gamespot.com/boards/19045759-xenoverse-2/74497359?page=16"
       ],
-      "notes": "Core identity, universal CaC availability, DLC requirement, and unlock route are verified. Current evidence consistently supports +20% Stage 1 defense, +5% Stage 1 speed, +15% Stage 2 basic attack, and +30% Stage 2 Strike/Ki Super damage, while conflicting measurements remain for exact Stage 1 defense, Stage 2 speed/cooldown, and HP regeneration. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred.",
+      "notes": "Core identity, universal CaC availability, DLC requirement, and unlock route are verified. Current evidence consistently supports +20% Stage 1 defense, +5% Stage 1 speed, +15% Stage 2 basic attack, and +30% Stage 2 Strike/Ki Super damage, while conflicting measurements remain for exact Stage 1 defense, Stage 2 speed/cooldown, and HP regeneration. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred.\n2026-09-26 Batch 484 current-evidence audit: Future Saga Chapter 4 provenance, Quest 31 unlock, two-stage behavior, source-reported modifiers, and HP-drain trade-off were rechecked; conflicting community measurements remain bounded.",
       "source_quest": "Future Saga Chapter 4 — Quest 31, Ultimate All-Out Showdown",
       "acquisition_type": "quest_or_mission",
       "id": "skill-the-power-to-overcome",
@@ -14453,6 +14455,16 @@
     "skill-counter-impact_current_evidence_audit_2026_09_26_batch_472": "canonical_synchronized",
     "skill-time-skip-back-breaker_current_evidence_audit_2026_09_26_batch_472": "canonical_synchronized",
     "skill-time-skip-flash-skewer_current_evidence_audit_2026_09_26_batch_472": "canonical_synchronized",
-    "skill-time-skip-jump-spike_current_evidence_audit_2026_09_26_batch_472": "canonical_synchronized"
+    "skill-time-skip-jump-spike_current_evidence_audit_2026_09_26_batch_472": "canonical_synchronized",
+    "skill_research_batch_484": "docs/data/skill-research-batches/skill-batch-484.json",
+    "skill_batch_484_thin_frontier": "docs/data/skill-batch-484-thin-frontier-mechanics-audit-2026-09-26.json",
+    "skill_spirit-slash_current_evidence_audit_2026_09_26_batch_484": "docs/data/skill-spirit-slash-current-evidence-audit-2026-09-26-batch-484.json",
+    "skill_gigantic-burst_current_evidence_audit_2026_09_26_batch_484": "docs/data/skill-gigantic-burst-current-evidence-audit-2026-09-26-batch-484.json",
+    "skill_gigantic-roar_current_evidence_audit_2026_09_26_batch_484": "docs/data/skill-gigantic-roar-current-evidence-audit-2026-09-26-batch-484.json",
+    "skill_emperor-s-cannon_current_evidence_audit_2026_09_26_batch_484": "docs/data/skill-emperor-s-cannon-current-evidence-audit-2026-09-26-batch-484.json",
+    "skill_gigantic-breaker_current_evidence_audit_2026_09_26_batch_484": "docs/data/skill-gigantic-breaker-current-evidence-audit-2026-09-26-batch-484.json",
+    "skill_the-power-to-overcome_current_evidence_audit_2026_09_26_batch_484": "docs/data/skill-the-power-to-overcome-current-evidence-audit-2026-09-26-batch-484.json",
+    "skill_god-of-destruction-s-menace_current_evidence_audit_2026_09_26_batch_484": "docs/data/skill-god-of-destruction-s-menace-current-evidence-audit-2026-09-26-batch-484.json",
+    "skill_flash-chaser_current_evidence_audit_2026_09_26_batch_484": "docs/data/skill-flash-chaser-current-evidence-audit-2026-09-26-batch-484.json"
   }
 }
