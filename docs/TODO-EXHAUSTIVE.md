@@ -2264,3 +2264,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Runtime validator execution and CI/build remain unverified in this environment.
 - [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected repository path (GitHub 404).
 - [x] **Exact next:** inspect the next live deterministic validator/consumer for another concrete schema, type/range, stale-cache, or deterministic-projection acceptance gap; preserve the evidence boundary around absent general PQ reward/reverse datasets.
+### 2026-09-26 continuation — Skill→PQ reverse-index schema hardening
+- [x] Inspected the live `scripts/validate_skill_pq_crosslinks.py` and identified a deterministic schema gap before the existing projection checks: malformed canonical skill containers/records could fail later through implicit indexing rather than being rejected by explicit schema assertions.
+- [x] Hardened the validator so the canonical skill container must expose a list of exactly 474 object records; every record must have a non-empty string `id` and `name`; and `source_parallel_quests`, when present, must be a list before PQ endpoint validation/projection.
+- [x] Updated `docs/data/skill-pq-cross-domain-linkage-integrity-audit-2026-09-26.json` to record the hardening. The expected **474 skills / 246 skill→PQ edges / 170 represented PQ IDs** contract is unchanged.
+- [x] No canonical skill, PQ, acquisition, or reverse-index relationship data was changed.
+- [ ] Runtime validator execution and CI/build remain unverified in this environment.
+- [x] **Exact next:** inspect the next live validator/consumer for another concrete schema, type/range, stale-cache, or deterministic-projection acceptance gap; preserve the evidence boundary around PQs that have no explicit canonical skill endpoint in the current corpus.
