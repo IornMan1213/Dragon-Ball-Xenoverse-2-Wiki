@@ -2,33 +2,36 @@
   "schema_version": "1.0",
   "audit_date": "2026-09-26",
   "scope": "Live-repository existence checks for character/preset/navigation artifacts referenced by the PQ cross-domain index during Partner Customization reconciliation.",
-  "status": "action_required",
+  "status": "reconciled",
   "findings": [
     {
       "path": "docs/data/characters/character-id-identity-bridge.json",
-      "status": "missing"
+      "status": "reachable"
     },
     {
-      "path": "docs/data/current-character-consumer-scan-2026-09-24.json",
-      "status": "missing"
+      "path": "docs/data/current-presentation-consumer-scan-2026-09-24.json",
+      "status": "reachable",
+      "note": "Recovered historical artifact; pq-cross-domain-index now points to this canonical current filename."
     },
     {
       "path": "docs/data/skills-super-souls-reference-navigation-audit-2026-09-24.json",
-      "status": "missing"
+      "status": "reachable",
+      "note": "Recovered historical artifact."
     },
     {
       "path": "docs/data/numeric-preset-complete-loadout-source-audit-2026-09-24.json",
-      "status": "missing"
+      "status": "reachable",
+      "note": "Recovered historical artifact."
     },
     {
       "path": "docs/data/characters/partner-customization-character-navigation-audit.json",
-      "status": "missing"
+      "status": "reachable"
     },
     {
       "path": "scripts/validate_partner_customization_character_navigation.py",
-      "status": "missing"
+      "status": "reachable"
     }
   ],
-  "interpretation": "These paths are referenced by docs/data/pq-cross-domain-index.json but could not be fetched from the live main branch. This audit does not infer that the underlying work/data never existed; it records only current repository reachability. No Partner Customization skill→partner edge was created from these missing artifacts.",
-  "next_action": "Recover or replace the missing character/navigation artifacts from repository history or current canonical datasets before extending partner-skill relationships."
+  "interpretation": "The previously unreachable character/preset/navigation references were reconciled against live main. Historical recovery restored the character identity bridge, current presentation consumer scan, Skills/Super Souls navigation audit, numeric preset loadout audit, Partner Customization navigation audit, and validator. The former current-character-consumer-scan path was a stale filename reference and was corrected in docs/data/pq-cross-domain-index.json. No Partner Customization skill→partner edge is inferred from navigation recovery alone.",
+  "next_action": "Use the restored consumer layer as the current navigation baseline; next prioritize only remaining critical cross-domain references that are both required by live navigation/validators and safely regenerable from canonical data."
 }
