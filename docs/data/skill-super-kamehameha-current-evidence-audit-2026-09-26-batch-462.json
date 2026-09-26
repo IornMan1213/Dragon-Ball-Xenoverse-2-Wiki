@@ -1,0 +1,21 @@
+{
+  "batch": 462,
+  "date": "2026-09-26",
+  "skill_name": "Super Kamehameha",
+  "skill_id": "skill-super-kamehameha",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics/provenance review for the live canonical record.",
+  "findings": [
+    "300-Ki Ki Blast Ultimate taught by Goku. The user charges and fires a large multi-hit Kamehameha beam; current Xenoverse 2-specific evidence confirms the Goku Lesson 4 acquisition endpoint and 300-Ki classification, while historical/community testing reports variable hit completion by range. Exact current hit count, frame timing, and patch-independent damage scaling remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Kamehameha",
+    "https://dragonball.fandom.com/wiki/Super_Kamehameha",
+    "https://twinfinite.net/guides/dragon-ball-xenoverse-2-goku-mentor-master-quest-guide/"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "No unsupported exact frame data, hidden gates, reward probabilities, or patch-independent scaling is promoted.",
+    "Known source conflicts or historical evidence are retained as provenance rather than silently normalized."
+  ]
+}
