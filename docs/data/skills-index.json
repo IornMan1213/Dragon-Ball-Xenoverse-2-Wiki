@@ -8609,14 +8609,15 @@
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
-        "https://dbxv2.fandom.com/wiki/Rolling_Hercule_Punch"
+        "https://dbxv2.fandom.com/wiki/Rolling_Hercule_Punch",
+        "https://gamefaqs.gamespot.com/boards/190458-dragon-ball-xenoverse-2/79083341"
       ],
       "unlock_method": "Hercule's mentor training — complete the corresponding lesson to receive Rolling Hercule Punch as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; no unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; no unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred. 2026-09-25 Batch 375 mechanics enrichment: current Xenoverse 2 evidence added bounded mechanics; unresolved frame timing, exact damage, probability, and hidden-gate fields remain unasserted.",
+      "mechanics_notes": "100-Ki Strike Super that lets the user roll forward before punching; repeated input extends the rolling movement. The punch can daze the opponent for about a second, enabling follow-up attacks, and the move has super armor. Exact frames and source-dependent damage remain unresolved.",
       "source_quest": "Hercule mentor training",
       "source_quest_or_shop": "Hercule mentor training",
       "ki_cost": 100
@@ -8737,14 +8738,15 @@
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
-        "https://dbxv2.fandom.com/wiki/Saturday_Crash"
+        "https://dbxv2.fandom.com/wiki/Saturday_Crash",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76184745"
       ],
       "unlock_method": "Raditz's Lesson 1 — complete the instructor lesson to receive Saturday Crash as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; no unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; no unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred. 2026-09-25 Batch 375 mechanics enrichment: current Xenoverse 2 evidence added bounded mechanics; unresolved frame timing, exact damage, probability, and hidden-gate fields remain unasserted.",
+      "mechanics_notes": "100-Ki tracking Ki Blast Super that paralyzes the target on hit. Current skill documentation describes roughly one second of paralysis and very quick recovery; historical community reporting documents a faster projectile after an update. Exact current timing and damage remain unresolved.",
       "source_quest": "Raditz mentor training — Lesson 1",
       "source_quest_or_shop": "Raditz mentor training — Lesson 1"
     },
@@ -9938,14 +9940,16 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Super_Ghost_Kamikaze_Attack_%28Super%29",
+        "https://dragonball.fandom.com/wiki/Super_Ghost_Kamikaze_Attack"
       ],
       "unlock_method": "Gotenks's mentor training — complete the corresponding lesson to receive Super Ghost Kamikaze Attack as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims. 2026-09-25 Batch 375 mechanics enrichment: current Xenoverse 2 evidence added bounded mechanics; unresolved frame timing, exact damage, probability, and hidden-gate fields remain unasserted.",
+      "mechanics_notes": "100-Ki Ki Blast Super that creates one ghost which automatically rushes the opponent when they enter range or after about 4 seconds; the hit stuns the target. Source-reported damage is about 10%; exact timing remains version-sensitive.",
       "source_quest": "Gotenks mentor training",
       "source_quest_or_shop": "Gotenks mentor training"
     },
@@ -9960,14 +9964,16 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Super_Ghost_Kamikaze_Attack_%28Ultimate%29",
+        "https://dragonball.fandom.com/wiki/Super_Ghost_Kamikaze_Attack"
       ],
       "unlock_method": "Gotenks's mentor training — complete the corresponding lesson to receive Super Ghost Kamikaze Attack as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims. 2026-09-25 Batch 375 mechanics enrichment: current Xenoverse 2 evidence added bounded mechanics; unresolved frame timing, exact damage, probability, and hidden-gate fields remain unasserted.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate that creates five ghosts which launch sequentially after about 5 seconds. The first and last ghosts are documented at about 10% damage each, with intermediate hits reported higher; the attack produces a five-hit knockback sequence.",
       "source_quest": "Gotenks mentor training",
       "source_quest_or_shop": "Gotenks mentor training"
     },
@@ -10313,14 +10319,15 @@
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
-        "https://dragonball.fandom.com/wiki/Supernova_Cooler"
+        "https://dragonball.fandom.com/wiki/Supernova_Cooler",
+        "https://dbxv2.fandom.com/wiki/Supernova_Cooler"
       ],
       "unlock_method": "Cooler (Final Form)'s Lesson 3 — complete the instructor lesson to receive Supernova Cooler as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 500 Ki used. 2026-09-23 provenance refresh: synchronized with the canonical record after rechecking the maintained exact-name/research evidence; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 500 Ki used. 2026-09-23 provenance refresh: synchronized with the canonical record after rechecking the maintained exact-name/research evidence; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved. 2026-09-25 Batch 375 mechanics enrichment: current Xenoverse 2 evidence added bounded mechanics; unresolved frame timing, exact damage, probability, and hidden-gate fields remain unasserted.",
+      "mechanics_notes": "500-Ki Ki Blast Ultimate that charges a large projectile and throws it at the target. Current Xenoverse 2 skill documentation records an 18-hit sequence and source-reported total damage around 45%; it starts faster than Frieza's Supernova but trades some damage for the faster startup.",
       "source_quest": "Cooler (Final Form) mentor training — Lesson 3",
       "source_quest_or_shop": "Cooler (Final Form) mentor training — Lesson 3"
     },
