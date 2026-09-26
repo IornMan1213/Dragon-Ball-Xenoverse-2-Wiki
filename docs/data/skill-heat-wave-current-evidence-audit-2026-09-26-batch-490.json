@@ -1,0 +1,10 @@
+{
+  "batch": 490,
+  "date": "2026-09-26",
+  "skill_id": "skill-heat-wave",
+  "skill_name": "Heat Wave",
+  "status": "complete",
+  "findings": "200-Ki Strike Super from PQ179; chargeable rush can repel Ki Blasts and can guard-break at full charge. Narrower frame/scaling details remain open.",
+  "evidence_boundary": "Current-source behavior and source-reported numerical values are bounded. Unsupported exact frames, universal scaling, hidden interactions, and drop probabilities are not asserted.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}
