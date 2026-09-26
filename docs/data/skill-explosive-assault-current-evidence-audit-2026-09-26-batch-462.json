@@ -1,0 +1,21 @@
+{
+  "batch": 462,
+  "date": "2026-09-26",
+  "skill_name": "Explosive Assault",
+  "skill_id": "skill-explosive-assault",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics/provenance review for the live canonical record.",
+  "findings": [
+    "300-Ki Ki Blast Ultimate from Gohan (Kid) mentor Lesson 3. The user fires a barrage of Ki Blasts/Ki Waves; current dedicated evidence documents 22 hits and about 40% total damage as source-reported, followed by roughly one second of exhaustion/vulnerability. Exact frame data and patch-independent damage scaling remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Explosive_Assault",
+    "https://dbxv2.fandom.com/wiki/Mentors",
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "No unsupported exact frame data, hidden gates, reward probabilities, or patch-independent scaling is promoted.",
+    "Known source conflicts or historical evidence are retained as provenance rather than silently normalized."
+  ]
+}
