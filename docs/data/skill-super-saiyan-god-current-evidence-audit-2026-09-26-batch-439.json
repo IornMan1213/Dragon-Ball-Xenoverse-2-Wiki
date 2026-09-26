@@ -1,0 +1,21 @@
+{
+  "skill_id": "skill-super-saiyan-god",
+  "name": "Super Saiyan God",
+  "batch": 439,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Saiyan_God",
+    "https://dragonball.fandom.com/wiki/Super_Saiyan_God",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=2645979907"
+  ],
+  "findings": [
+    "300-Ki Saiyan Awoken Skill",
+    "Basic Attack increase is documented as 40–60%, with 60% tied to timed input; no direct Strike or Ki Blast skill damage increase is documented",
+    "Ki auto-recovery +60%; movement speed increase documented around 12.5–13.5% across source text",
+    "Timed heavy-attack follow-up can deal 36% more damage when the documented cue is hit; exact combo coverage remains unresolved",
+    "Unlock route: Shenron Super Saiyan God wish, max friendship with Goku, Vegeta, Gohan & Videl, Gotenks, and Pan, then Beerus awards the skill",
+    "Beerus can award the skill to a non-Saiyan character, but the Awoken is usable only by Saiyan CaCs",
+    "Exact frames and patch-independent interpretation beyond documented source values remain unresolved"
+  ]
+}
