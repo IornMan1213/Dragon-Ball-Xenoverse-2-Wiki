@@ -588,3 +588,10 @@
 - [x] Preserved bounded evidence and unresolved fields; no unsupported timing, damage, probabilities, or hidden gates promoted.
 - [ ] Canonical generated skill files were not partially rewritten; CI remains unverified.
 - [x] **Exact next:** fresh census continuation over remaining older partially-verified skill records, prioritizing deterministic mechanics/acquisition footprints.
+
+### 2026-09-25 completion — Skill Batch 369
+- [x] Refreshed **Bending Kamehameha, Perfect Shot, Arm Crash, Freedom Kick** from the current thin-record census.
+- [x] Added/registered four audits plus Skill Batch 369.
+- [x] Retained unresolved reward-condition fields and corrected acquisition provenance without unsupported promotion.
+- [ ] Canonical generated skill files were not partially rewritten; CI remains unverified.
+- [x] **Exact next:** fresh census continuation over remaining older partially-verified records.
