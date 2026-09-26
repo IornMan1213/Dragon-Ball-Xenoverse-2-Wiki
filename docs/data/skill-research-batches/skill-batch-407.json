@@ -1,0 +1,27 @@
+{
+  "batch": 407,
+  "date": "2026-09-25",
+  "status": "completed",
+  "records": [
+    {
+      "id": "skill-death-crasher",
+      "name": "Death Crasher",
+      "mechanics_notes": "100-Ki Strike Super taught by 1st Form Frieza. The user charges forward wrapped in Ki; the move is chargeable, with longer charge producing greater reach and stronger impact. Current reference data reports a full-charge strike around 20% damage, but exact current damage and charge timing remain version-sensitive."
+    },
+    {
+      "id": "skill-spirit-explosion",
+      "name": "Spirit Explosion",
+      "mechanics_notes": "200-Stamina Strike Evasive obtained from PQ25, 'The Emperor's Brother.' The user thrusts both arms outward and creates a close-range blue explosion that knocks opponents away; current evidence identifies it as a 360-degree defensive blast and documents that it can be activated while taking damage. Exact invulnerability frames, active duration, damage, and knockback values remain unresolved."
+    },
+    {
+      "id": "skill-ki-blast-thrust",
+      "name": "Ki Blast Thrust",
+      "mechanics_notes": "100-Ki Ki Blast Super taught by Yamcha. The user takes a stance and punches while focused Ki cancels weak incoming Ki Blasts; the punch blasts the target away. Current skill evidence documents its resistance to ordinary Ki Blast projectiles during the attack. Exact projectile-strength threshold, startup, damage, tracking, and cancel windows remain unresolved."
+    },
+    {
+      "id": "skill-dodoria-beam",
+      "name": "Dodoria Beam",
+      "mechanics_notes": "100-Ki Ki Blast Super taught by Dodoria. The normal sequence is a palm-heel strike followed by a mouth-fired beam; when used during a combo, the opening strike is skipped and the beam fires directly. Current evidence also documents directional correction that can let the beam connect after the opponent moves behind the user before firing. Exact startup, damage, tracking window, and guard behavior remain unresolved."
+    }
+  ]
+}

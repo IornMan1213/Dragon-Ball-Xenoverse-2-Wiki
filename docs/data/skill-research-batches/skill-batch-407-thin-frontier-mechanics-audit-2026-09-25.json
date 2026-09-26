@@ -1,0 +1,26 @@
+{
+  "batch": 407,
+  "date": "2026-09-25",
+  "records": [
+    {
+      "id": "skill-death-crasher",
+      "name": "Death Crasher",
+      "mechanics_length": 314
+    },
+    {
+      "id": "skill-spirit-explosion",
+      "name": "Spirit Explosion",
+      "mechanics_length": 393
+    },
+    {
+      "id": "skill-ki-blast-thrust",
+      "name": "Ki Blast Thrust",
+      "mechanics_length": 361
+    },
+    {
+      "id": "skill-dodoria-beam",
+      "name": "Dodoria Beam",
+      "mechanics_length": 418
+    }
+  ]
+}

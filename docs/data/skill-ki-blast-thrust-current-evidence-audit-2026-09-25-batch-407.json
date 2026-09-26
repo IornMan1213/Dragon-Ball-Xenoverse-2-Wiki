@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-25",
+  "batch": 407,
+  "skill_id": "skill-ki-blast-thrust",
+  "skill_name": "Ki Blast Thrust",
+  "mechanics_summary": "100-Ki Ki Blast Super taught by Yamcha. The user takes a stance and punches while focused Ki cancels weak incoming Ki Blasts; the punch blasts the target away. Current skill evidence documents its resistance to ordinary Ki Blast projectiles during the attack. Exact projectile-strength threshold, startup, damage, tracking, and cancel windows remain unresolved.",
+  "sources": [
+    "Dragon Ball Xenoverse 2 Wiki skill reference",
+    "maintained repository evidence corpus"
+  ],
+  "evidence_limits": [
+    "Exact current frames, damage, tracking, and cancel windows remain unresolved where not directly established."
+  ]
+}

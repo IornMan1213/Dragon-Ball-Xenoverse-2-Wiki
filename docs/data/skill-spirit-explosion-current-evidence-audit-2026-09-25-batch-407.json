@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-25",
+  "batch": 407,
+  "skill_id": "skill-spirit-explosion",
+  "skill_name": "Spirit Explosion",
+  "mechanics_summary": "200-Stamina Strike Evasive obtained from PQ25, 'The Emperor's Brother.' The user thrusts both arms outward and creates a close-range blue explosion that knocks opponents away; current evidence identifies it as a 360-degree defensive blast and documents that it can be activated while taking damage. Exact invulnerability frames, active duration, damage, and knockback values remain unresolved.",
+  "sources": [
+    "Dragon Ball Xenoverse 2 Wiki skill reference",
+    "maintained repository evidence corpus"
+  ],
+  "evidence_limits": [
+    "Exact current frames, damage, tracking, and cancel windows remain unresolved where not directly established."
+  ]
+}

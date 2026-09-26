@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-25",
+  "batch": 407,
+  "skill_id": "skill-death-crasher",
+  "skill_name": "Death Crasher",
+  "mechanics_summary": "100-Ki Strike Super taught by 1st Form Frieza. The user charges forward wrapped in Ki; the move is chargeable, with longer charge producing greater reach and stronger impact. Current reference data reports a full-charge strike around 20% damage, but exact current damage and charge timing remain version-sensitive.",
+  "sources": [
+    "Dragon Ball Xenoverse 2 Wiki skill reference",
+    "maintained repository evidence corpus"
+  ],
+  "evidence_limits": [
+    "Exact current frames, damage, tracking, and cancel windows remain unresolved where not directly established."
+  ]
+}

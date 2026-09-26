@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-25",
+  "batch": 407,
+  "skill_id": "skill-dodoria-beam",
+  "skill_name": "Dodoria Beam",
+  "mechanics_summary": "100-Ki Ki Blast Super taught by Dodoria. The normal sequence is a palm-heel strike followed by a mouth-fired beam; when used during a combo, the opening strike is skipped and the beam fires directly. Current evidence also documents directional correction that can let the beam connect after the opponent moves behind the user before firing. Exact startup, damage, tracking window, and guard behavior remain unresolved.",
+  "sources": [
+    "Dragon Ball Xenoverse 2 Wiki skill reference",
+    "maintained repository evidence corpus"
+  ],
+  "evidence_limits": [
+    "Exact current frames, damage, tracking, and cancel windows remain unresolved where not directly established."
+  ]
+}
