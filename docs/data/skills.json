@@ -3671,20 +3671,21 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Double_Sunday"
       ],
       "unlock_method": "Raditz's Initiation Test — complete the instructor lesson to receive Double Sunday as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Raditz mentor training — Initiation Test",
-      "mechanics_notes": "100-Ki Ki Blast Super obtained from Raditz's Initiation Test. Current mentor evidence confirms the acquisition endpoint; the two-beam behavior is documented in historical gameplay evidence, but exact hit/damage behavior is not promoted to a hard numeric claim.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "100-Ki Ki Blast Super learned from Raditz training/Initiation Test. The user fires two Ki beams; directional input can spread them into a V shape, and current skill evidence documents approximately 10% damage for the normal hit and a possible 20% result when the target is struck again during knockback. The repository does not infer undocumented frame data.",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": "Raditz mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference. 2026-09-24 P1 provenance refresh: rechecked the existing repository evidence for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference. 2026-09-24 P1 provenance refresh: rechecked the existing repository evidence for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.\n2026-09-26 Batch 435 current-evidence mechanics refresh.",
       "id": "skill-double-sunday",
       "source_mentor": [
         "mentor-raditz"
@@ -4787,10 +4788,10 @@
       "source_quest": 142,
       "ultimate_finish_required": false,
       "skill_description": "Rush the opponent repeatedly; landing all charges enables the finishing Ki Blast.",
-      "mechanics_notes": "Rush the opponent repeatedly; landing all charges enables the finishing Ki Blast. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate obtained from Parallel Quest 142, “Timespace Tussle.” The user makes six rush charges; landing all six enables the finishing Ki Blast, which adds 14 hits for a documented 20-hit sequence and about 50% total damage. Current source evidence states the PQ reward is tied to the Ultimate Finish route; exact drop probability remains unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Excellent_Full_Course",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4798,7 +4799,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/conflict refresh: current dedicated evidence confirms the 300-Ki Ki Blast Ultimate and PQ142 endpoint. One source documents the Ultimate-Finish condition (clear with health over 60% and defeat Android 21), while the maintained PQ reward guide lists it under Basic Reward; the repository preserves the existing acquisition semantics and explicit conflict rather than forcing a gate. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
+      "notes": "2026-09-22 provenance/conflict refresh: current dedicated evidence confirms the 300-Ki Ki Blast Ultimate and PQ142 endpoint. One source documents the Ultimate-Finish condition (clear with health over 60% and defeat Android 21), while the maintained PQ reward guide lists it under Basic Reward; the repository preserves the existing acquisition semantics and explicit conflict rather than forcing a gate. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-26 Batch 435 current-evidence mechanics refresh.",
       "source_parallel_quests": [
         142
       ]
@@ -8212,14 +8213,14 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 14",
-      "mechanics_notes": "100-Ki Kaioken-enhanced Kamehameha Super. Current repository evidence records a 22-hit beam and the PQ14 Basic Reward route without establishing an Ultimate-Finish-only gate; the move remains distinct from the Kaioken Kamehameha x4/x20 Ultimate variants.",
-      "last_verified": "2026-09-25",
+      "mechanics_notes": "200-Ki Ki Blast Super from Parallel Quest 14 — “Saiyan Pride.” The red-and-blue beam is documented as 22 hits and about 30% total damage. It is distinct from the X4 and X20 Kaioken Kamehameha Ultimate Skills. Exact frame timing and version-independent damage scaling remain unresolved.",
+      "last_verified": "2026-09-26",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": 14,
       "dlc_requirement": "Base Game",
       "acquisition_type": "parallel_quest",
-      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint. 2026-09-21 provenance strengthening: maintained Steam all-PQ guide independently lists Kaioken Kamehameha in PQ14 — Saiyan Pride Basic Reward, corroborating the existing PQ14 acquisition endpoint and no-Ultimate-Finish-only interpretation.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 349 current-evidence refresh: current skill/PQ references and the maintained all-PQ guide revalidate the 200-Ki classification, 22-hit reference, and PQ14 endpoint. No drop probability or variant conflation is introduced.",
+      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint. 2026-09-21 provenance strengthening: maintained Steam all-PQ guide independently lists Kaioken Kamehameha in PQ14 — Saiyan Pride Basic Reward, corroborating the existing PQ14 acquisition endpoint and no-Ultimate-Finish-only interpretation.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 349 current-evidence refresh: current skill/PQ references and the maintained all-PQ guide revalidate the 200-Ki classification, 22-hit reference, and PQ14 endpoint. No drop probability or variant conflation is introduced.\n2026-09-26 Batch 435 current-evidence mechanics refresh.",
       "id": "skill-kaioken-kamehameha",
       "source_parallel_quests": [
         14
@@ -12655,7 +12656,7 @@
       "subcategory": "Race",
       "race_restriction": "Saiyan",
       "usable_by_cac": true,
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
@@ -12665,11 +12666,11 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74497359?page=14"
       ],
       "ultimate_finish_required": false,
-      "notes": "Saiyan CaC-only Awoken Skill. Reach level 90 and max friendship with Whis; Whis awards the skill. Non-Saiyan characters may satisfy the award condition but cannot use the Saiyan CaC transformation. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred. 2026-09-25 Batch 377 mechanics enrichment: current skill-specific evidence promoted; source-reported numeric effects remain bounded to the cited reference. ",
+      "notes": "Saiyan CaC-only Awoken Skill. Reach level 90 and max friendship with Whis; Whis awards the skill. Non-Saiyan characters may satisfy the award condition but cannot use the Saiyan CaC transformation. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred. 2026-09-25 Batch 377 mechanics enrichment: current skill-specific evidence promoted; source-reported numeric effects remain bounded to the cited reference. \n2026-09-26 Batch 435 current-evidence mechanics refresh.",
       "unlock_method": "Reach level 90 and max friendship with Whis; Whis awards the skill.",
       "ki_cost": 500,
-      "last_verified": "2026-09-25",
-      "mechanics_notes": "500-Ki Saiyan-only Awoken Skill with a 25% all-damage increase and 5% damage reduction. It gradually drains Ki; current reference material documents 10 Ki drain per second and reduced Ki recovery. Charged Ki attacks gain the Saiyan teleport/vanish behavior.",
+      "last_verified": "2026-09-26",
+      "mechanics_notes": "500-Ki Saiyan-only Awoken Skill obtained by maxing Whis friendship at level 90+. Current reference data lists +25% all-attack damage, 5% damage reduction, and 10 Ki drain per second; charged Ki attacks gain the Saiyan teleport/vanish behavior. Current references also describe reduced Ki recovery. Exact frame and stamina interactions remain unresolved.",
       "research_status": "enriched",
       "source_quest_or_shop": "Whis training — max friendship and level 90",
       "source_quest": "Whis training — max friendship and level 90",
