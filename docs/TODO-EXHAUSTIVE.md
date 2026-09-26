@@ -1370,3 +1370,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build status remains unverified; no workflow success is claimed.
 - [ ] Repository efficiency addendum remains unavailable at the expected path; GitHub returns 404.
 - [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 440 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
+
+
+### 2026-09-26 TODO progress update — Skill Research Batch 441 completed
+- [x] Fresh 474-record unaudited mechanics frontier census selected **Blaster Ball, Super Kamehameha (SS4 DAIMA), Paralysis, and Perfect Kamehameha**.
+- [x] Enriched/synchronized all four canonical skill records and added four current-evidence audits plus Batch 441 research/frontier artifacts.
+- [x] Registered all six Batch 441 artifacts in `docs/data/pq-cross-domain-index.json`; registry now contains 648 entries.
+- [x] Preserved source-reported numerical claims as source-reported rather than patch-independent canonical values; unsupported frames, scaling, probabilities, and hidden conditions remain unresolved.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 441 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
