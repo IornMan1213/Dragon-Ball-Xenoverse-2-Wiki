@@ -3558,10 +3558,10 @@
       ],
       "unlock_method": "Tokipedia 75% completion",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-22 deterministic acquisition correction: current dedicated evidence and independent Tokipedia reward records place Energy Minefield at 75% Tokipedia completion, correcting the prior 60% endpoint. Extra Pack 2 provenance is retained. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
-      "mechanics_notes": "Current evidence establishes the skill identity and documented acquisition endpoint; unsupported detailed mechanics remain intentionally limited.",
+      "mechanics_notes": "Ki Blast Super: places multiple lingering Ki mines that detonate when an opponent approaches, paralyzing them. Current reference reports 100 Ki, about 2% damage on the trigger hit, and a 4-second linger; obtained by completing 75% of Tokipedia.",
       "source_quest_or_shop": "Tokipedia — 75% completion"
     },
     {
@@ -4182,7 +4182,7 @@
       "name": "Fighting Pose K",
       "class": "Super",
       "subcategory": "Power Up",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "acquisition_type": "skill_shop",
       "sources": [
@@ -4192,10 +4192,10 @@
       ],
       "unlock_method": "Story — \"The Ginyu Force Strikes\" unlocks the Skill Shop listing; purchase Fighting Pose K from the Skill Shop.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super sold in the Skill Shop after The Ginyu Force Strikes. It grants Super Armor for 8 seconds; no Ultimate-Finish requirement is inferred. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "Confirmed as 0-Ki Skill Shop Power Up Super after The Ginyu Force Strikes. It grants Super Armor for 8 seconds; usable by all CaC races.",
+      "mechanics_notes": "Power Up Super: after the pose animation completes, grants Super Armor for 8 seconds. It costs 0 Ki; the current reference documents that reusing the skill can reset the buff duration.",
       "source_quest": "The Ginyu Force Strikes — Skill Shop unlock",
       "source_quest_or_shop": "Skill Shop after The Ginyu Force Strikes"
     },
@@ -8303,10 +8303,10 @@
       ],
       "unlock_method": "Tokipedia 80% completion",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-21 Extra Pack 2 completeness correction: official DLC scope lists eight skills; Remote Serious Bomb was one of four Fu/Tokipedia endpoints missing from the canonical registry. Current evidence identifies Tokipedia completion as the acquisition endpoint and 300 Ki as the current activation cost; no obsolete second-stage Ki cost is asserted.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
-      "mechanics_notes": "Current evidence establishes the skill identity and documented acquisition endpoint; unsupported detailed mechanics remain intentionally limited.",
+      "mechanics_notes": "Ki Blast Ultimate with two stages: first applies a seal that prevents/reverts the opponent's Awoken Skill for 30 seconds; activating it again detonates a Serious Bomb at the sealed target. Each stage costs 300 Ki; obtained at 80% Tokipedia completion.",
       "source_quest_or_shop": "Tokipedia — 80% completion"
     },
     {
@@ -8589,10 +8589,10 @@
       ],
       "unlock_method": "Parallel Quest 42 — \"Artificial Warriors\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 provenance refinement: current dedicated skill documentation and the maintained PQ reward guide identify the exact quest title and place Rolling Bullet in Basic Reward. No Ultimate Finish-only gate is asserted. 2026-09-23 provenance refresh: maintained repository source set revalidated for identity, acquisition endpoint, classification, and existing evidence boundaries; no unsupported reward probability, Ultimate Finish gate, restriction, or numerical mechanic was inferred.",
-      "mechanics_notes": "Corrected to a Ki Blast Evasive, not a Super. It scatters Ki Blasts while ascending and is used to escape attacks. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
+      "mechanics_notes": "Ki Blast Evasive: launches the user upward while scattering Ki bullets around them; projectiles knock opponents back. Current reference reports 200 Stamina and 2% damage per projectile hit; obtained from PQ42.",
       "source_quest": 42,
       "source_quest_or_shop": "Parallel Quest 42 — \"Artificial Warriors\"",
       "source_parallel_quests": [
@@ -9096,10 +9096,10 @@
       ],
       "unlock_method": "Parallel Quest 39 — \"17 and 18 of the Official History\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 provenance reconciliation: current maintained PQ reward evidence explicitly lists this skill in the Basic Reward set. Dedicated/current skill evidence confirms the corresponding PQ acquisition; exact individual reward probability remains unresolved, and no Ultimate Finish-only gate is inferred. 2026-09-23 research refresh: current skill evidence corroborates the 100-Ki Ki Blast Super classification, PQ39 endpoint, and returning-disc/boomerang behavior; no individual drop probability is inferred.",
-      "mechanics_notes": "Dedicated current-version evidence corrects Side Bridge to a 100-Ki Ki Blast Super from PQ39. It throws a disc that returns like a boomerang. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence.",
+      "mechanics_notes": "Ki Blast Super: throws a disc straight ahead that returns like a boomerang, producing a two-hit/re-stand interaction. Current reference reports 100 Ki and 15% total damage; obtained from PQ39.",
       "source_quest": 39,
       "source_quest_or_shop": "Parallel Quest 39 — \"17 and 18 of the Official History\"",
       "source_parallel_quests": [
