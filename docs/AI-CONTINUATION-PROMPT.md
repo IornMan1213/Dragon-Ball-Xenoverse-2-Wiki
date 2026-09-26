@@ -1513,3 +1513,16 @@
 
 
 Batch 423 completed: eight skill mechanics records were enriched and synchronized. Next task: fresh 474-record frontier census excluding prior audited records and continue the shortest under-detailed records. CI/build remains unverified.
+
+
+### 2026-09-26 continuation — Skill Research Batch 440 completed
+
+- [x] Fresh 474-record mechanics frontier census excluded records with registered current-evidence audits and selected **Paralyze Beam, Super Afterimage, Flash Strike, and Finishing Blow**.
+- [x] Added four current-evidence audits plus Batch 440 research and thin-frontier audit artifacts.
+- [x] Deepened all four canonical records with current Xenoverse 2-specific mechanics, acquisition, positioning/counter behavior, and bounded evidence; unsupported frame data, exact scaling, and probabilities remain bounded.
+- [x] Synchronized all four records into both canonical skill datasets and refreshed their current-scope verification date to 2026-09-26.
+- [x] Registered the Batch 440 research record, thin-frontier audit, and four skill audits in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation target remains **474/474** canonical/index records with ordered-ID parity and 0 missing / 0 extra.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 440 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
