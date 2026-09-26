@@ -1,3 +1,11 @@
+### 2026-09-26 continuation — Partner/custom skill relationship census completed
+- [x] Performed a repository-wide evidence census using Partner Customization + skill identifiers, partner identifiers, and the canonical `custom_partner_availability` relationship marker.
+- [x] Confirmed the relationship layer remains at **3 explicit canonical assignments**: Arm Crash → Bardock, Arm Crash → Turles, and Reverse Mabakusenko → Majin Buu (Gohan Absorbed).
+- [x] Investigated Phantom Fist, Dual Masenko, Flash Strike, and Psycho Barrier without promoting unsupported skill→partner edges; generic user/skillset mentions and page references are not treated as explicit assignments.
+- [x] Added `docs/data/partner-skill-relationship-census-2026-09-26.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved the canonical 474-skill corpus boundary and the separate partner/custom relationship model.
+- [ ] Exact next: investigate partner-only/non-CaC skills as a separate domain only if explicit corpus/schema evidence establishes that domain; otherwise continue the highest-priority live cross-domain deterministic validation work.
+
 ### 2026-09-26 continuation — Historical character/preset/navigation recovery reconciled
 - [x] Inspected Git history for the previously reported missing character/preset/navigation artifacts and recovered the latest coherent historical versions/replacements already established by the repository's 2026-09-26 recovery work.
 - [x] Confirmed the live `main` tree now exposes the canonical character identity bridge, 51-record preset layer, current presentation consumer scan, Skills↔Super Souls navigation audit, numeric preset loadout audit, Partner Customization navigation audit, and its validator.
