@@ -860,3 +860,14 @@
 - [x] Commits: canonical `ac1815b`; Batch 383 `2029d5a`; cross-domain index `ecfbdfb`.
 - [x] Evidence limits preserved: no unsupported frame data, hidden prerequisites, reward probabilities, or universal damage claims were promoted.
 - [ ] **Exact next:** fresh evidence check on **Rising Rage (128), Super Kamehameha (129), Sneaky Strike (130), Explosive Assault (131)**, then continue the shortest unfinished mechanics frontier.
+
+
+### 2026-09-25 completion — Skill Batch 384
+- [x] Fresh live census from canonical `skills.json`; bounded frontier selected from current mechanics-note lengths.
+- [x] Enriched **Rising Rage, Super Kamehameha, Sneaky Strike, and Explosive Assault** with current Xenoverse 2 mechanics evidence.
+- [x] Added four current-evidence audit artifacts and Batch 384; registered them in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: **469 records / 0 empty mechanics_notes / 0 duplicate IDs**. The newly enriched targets are excluded from the next frontier.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Commits: canonical `b0cc2a9`; Batch 384 `d888aaf`; cross-domain index `f8dc4e3`; audits `9bebcfe`, `731df6b`, `0291648`, `a7c7edda`.
+- [x] Evidence limits preserved: no unsupported frame data, hidden prerequisites, reward probabilities, or universal damage claims were promoted.
+- [ ] **Exact next:** fresh evidence check on **Final Flash (131), Instant Severance (131), Super God Shock Flash (131), Super Saiyan Blue Kaioken (131)**, then continue the shortest unfinished mechanics frontier.
