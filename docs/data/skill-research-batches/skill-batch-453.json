@@ -1,0 +1,24 @@
+{
+  "batch": 453,
+  "date": "2026-09-26",
+  "status": "complete",
+  "scope": "Fresh unaudited mechanics frontier after excluding every skill with a registered current-evidence audit.",
+  "selected": [
+    "Super Spirit Bomb",
+    "Reverse Launcher",
+    "Ultrasonic Blitz",
+    "Dragon Spiral",
+    "Destructive Fracture",
+    "Crush Cannon",
+    "Burning Blast",
+    "Instant Transmission"
+  ],
+  "evidence_policy": "Current Xenoverse 2-specific evidence prioritized. Source-reported numerical values remain source-bound; unsupported exact frames, scaling formulas, probabilities, and hidden conditions were not inferred.",
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "missing_ids": 0,
+    "extra_ids": 0
+  },
+  "exact_next": "Run another fresh unaudited mechanics frontier census excluding Batch 453 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle."
+}
