@@ -1,0 +1,14 @@
+{
+  "batch": 489,
+  "date": "2026-09-26",
+  "skill_id": "skill-body-change",
+  "skill_name": "Body Change",
+  "status": "complete",
+  "findings": "Current evidence confirms 300-Ki Other Ultimate, Ginyu Lesson 3 acquisition, 1-on-1 restriction in the in-game description, and documented exclusion from Parallel Quests, Raid Battles, and Extra Missions.",
+  "sources": [
+    "https://dragonball.fandom.com/wiki/Body_Change",
+    "https://ultradragonball.fandom.com/wiki/Body_Change"
+  ],
+  "evidence_boundary": "Current-source behavior and source-reported values are bounded; unsupported exact frames, universal scaling, hidden interactions, and drop probabilities are not asserted.",
+  "canonical_sync": "Synchronized into canonical and index skill datasets; parity validated at 474/474."
+}
