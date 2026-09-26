@@ -1,0 +1,34 @@
+{
+  "batch": 429,
+  "date": "2026-09-26",
+  "status": "complete",
+  "frontier_basis": "Shortest mechanics-note canonical records without a prior current-evidence audit in the live cross-domain registry.",
+  "selected": [
+    {
+      "name": "Energy Charge",
+      "id": "skill-energy-charge",
+      "previous_mechanics_note_length": 427
+    },
+    {
+      "name": "Shield Barrier",
+      "id": "skill-shield-barrier",
+      "previous_mechanics_note_length": 346
+    },
+    {
+      "name": "Ice Claw",
+      "id": "skill-ice-claw",
+      "previous_mechanics_note_length": 315
+    },
+    {
+      "name": "Raid Blast",
+      "id": "skill-raid-blast",
+      "previous_mechanics_note_length": 548
+    }
+  ],
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "missing_ids": 0,
+    "extra_ids": 0
+  }
+}

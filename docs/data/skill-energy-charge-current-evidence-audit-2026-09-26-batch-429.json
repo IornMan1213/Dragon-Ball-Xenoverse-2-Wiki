@@ -1,0 +1,12 @@
+{
+  "batch": 429,
+  "date": "2026-09-26",
+  "status": "complete",
+  "skill_id": "skill-energy-charge",
+  "skill_name": "Energy Charge",
+  "sources": [
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+    "https://gamefaqs.gamespot.com/boards/190458-dragon-ball-xenoverse-2/74424593"
+  ],
+  "findings": "2026-09-26 Batch 429 current-evidence audit: current Xenoverse 2 technique documentation corroborates Energy Charge's role as a Ki-charging Super and its position in the charge-skill progression; the repository's First Advancement Test — Easy Class acquisition endpoint remains synchronized. Exact charge-rate/frame data remains unresolved."
+}

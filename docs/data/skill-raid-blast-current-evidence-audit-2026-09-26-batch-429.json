@@ -1,0 +1,12 @@
+{
+  "batch": 429,
+  "date": "2026-09-26",
+  "status": "complete",
+  "skill_id": "skill-raid-blast",
+  "skill_name": "Raid Blast",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Raid_Blast",
+    "https://steamcommunity.com/app/454650/discussions/0/1747899030099859118/"
+  ],
+  "findings": "2026-09-26 Batch 429 current-evidence audit: dedicated Xenoverse 2 documentation and independent control documentation corroborate the 100-Ki cost, PQ136 endpoint, teleport behavior, charge-to-unblockable behavior, ground-dependent 12/34-hit sequences, and approximately 15%/20% source-reported damage figures. Exact frame timing and patch-independent scaling remain unresolved."
+}

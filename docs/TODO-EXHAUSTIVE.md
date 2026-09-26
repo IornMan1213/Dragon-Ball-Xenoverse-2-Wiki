@@ -1,3 +1,14 @@
+### 2026-09-26 continuation — Skill Research Batch 429 completed
+
+- [x] Fresh unaudited frontier census selected **Energy Charge, Shield Barrier, Ice Claw, and Raid Blast** after excluding all records with prior current-evidence audit registrations.
+- [x] Added four current-evidence audits plus Batch 429 research and thin-frontier audit records.
+- [x] Rechecked current Xenoverse 2-specific mechanics, acquisition endpoints, resource costs, defensive/attack behavior, and bounded numeric claims against dedicated skill references and independent corroboration where available.
+- [x] Synchronized all four records into both canonical skill datasets and refreshed their current-scope verification date to 2026-09-26.
+- [x] Registered the Batch 429 research record, thin-frontier audit, and four skill audits in docs/data/pq-cross-domain-index.json.
+- [x] Validated **474/474** canonical/index IDs with **0 missing / 0 extra**.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 429 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
+
 ### 2026-09-26 continuation — Skill Research Batch 428 completed
 
 - [x] Fresh unaudited frontier census selected **Mach Punch, Power Wall, Spirit Pulse, and Finish Breaker** after excluding all records with prior current-evidence audit registrations.

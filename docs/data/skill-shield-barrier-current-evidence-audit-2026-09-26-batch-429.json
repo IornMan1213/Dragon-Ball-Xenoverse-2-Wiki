@@ -1,0 +1,12 @@
+{
+  "batch": 429,
+  "date": "2026-09-26",
+  "status": "complete",
+  "skill_id": "skill-shield-barrier",
+  "skill_name": "Shield Barrier",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Shield_Barrier",
+    "https://videogaming.fandom.com/wiki/Shield_Barrier_%28Dragon_Ball%29"
+  ],
+  "findings": "2026-09-26 Batch 429 current-evidence audit: dedicated Xenoverse 2 documentation corroborates the 100-Ki cost, yellow barrier, 15-second duration, protection against normal Ki Blasts and Ki Blast Supers, and removal on being hit. The existing PQ153 reward-slot conflict is preserved rather than silently normalized."
+}

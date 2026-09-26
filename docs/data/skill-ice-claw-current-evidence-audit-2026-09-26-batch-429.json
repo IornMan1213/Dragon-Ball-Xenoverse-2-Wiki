@@ -1,0 +1,12 @@
+{
+  "batch": 429,
+  "date": "2026-09-26",
+  "status": "complete",
+  "skill_id": "skill-ice-claw",
+  "skill_name": "Ice Claw",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Ice_Claw",
+    "https://dragonball.fandom.com/wiki/Ice_Claw"
+  ],
+  "findings": "2026-09-26 Batch 429 current-evidence audit: dedicated Xenoverse 2 documentation corroborates the 100-Ki cost, two-hit claw sequence, approximately 10% source-reported damage, Shenron wish acquisition, and blinding effect. Exact blind duration and frame data remain unresolved."
+}
