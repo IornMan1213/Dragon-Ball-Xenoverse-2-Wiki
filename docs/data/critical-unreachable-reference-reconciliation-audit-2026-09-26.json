@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-26",
+  "scope": "critical unreachable references in docs/data/cross-domain-index.json",
+  "purpose": "Reconcile critical index references against the live main source tree without fabricating canonical PQ reward or reverse-index data.",
+  "live_tree_checked_from": "main",
+  "critical_reference_count": 18,
+  "live_present_count": 0,
+  "unreachable_count": 18,
+  "classifications": {
+    "historical_audit_snapshot": 13,
+    "missing_primary_or_reverse_dataset": 5
+  },
+  "references": [
+    [
+      "docs/data/pq-reward-relationships.json",
+      "missing_primary_or_reverse_dataset",
+      "historical/planned forward reward layer; do not reconstruct without complete evidence"
+    ],
+    [
+      "docs/data/pq-skill-crosslink-report.json",
+      "missing_primary_or_reverse_dataset",
+      "historical/planned reverse report; current skill-PQ evidence is represented by newer live artifacts"
+    ],
+    [
+      "docs/data/characters/pq-reverse-index.json",
+      "missing_primary_or_reverse_dataset",
+      "historical/planned character reverse index; current character reverse navigation is represented by live audit/consumer layers"
+    ],
+    [
+      "docs/data/dlc/pq-reverse-index.json",
+      "missing_primary_or_reverse_dataset",
+      "historical/planned DLC reverse index; current DLC identity/navigation audits remain the authoritative live layer"
+    ],
+    [
+      "docs/data/farming/pq-farming-reverse-index.json",
+      "missing_primary_or_reverse_dataset",
+      "historical/planned farming reverse index; current evidence must be reconciled before generation"
+    ],
+    [
+      "docs/data/pq-unified-reverse-index-live-scalar-correction-2026-09-25.json",
+      "historical_audit_snapshot",
+      "dated correction record retained as provenance"
+    ],
+    [
+      "docs/data/pq-explorer-reward-navigation-validator-hardening-2026-09-25.json",
+      "historical_audit_snapshot",
+      "dated validator hardening record retained as provenance"
+    ],
+    [
+      "docs/data/pq-page-consumer-validator-hardening-2026-09-25.json",
+      "historical_audit_snapshot",
+      "dated validator hardening record retained as provenance"
+    ],
+    [
+      "docs/data/skill-pq-reverse-validator-hardening-2026-09-25.json",
+      "historical_audit_snapshot",
+      "dated validator hardening record retained as provenance"
+    ],
+    [
+      "docs/data/record-reverse-pq-validator-hardening-2026-09-25.json",
+      "historical_audit_snapshot",
+      "dated validator hardening record retained as provenance"
+    ],
+    [
+      "docs/data/pq-reward-normalization/pq-standalone-reverse-index-audit.json",
+      "historical_audit_snapshot",
+      "dated normalization audit retained as provenance"
+    ],
+    [
+      "docs/data/pq-reward-normalization/pq-standalone-reverse-index-reconciliation-audit.json",
+      "historical_audit_snapshot",
+      "dated reconciliation audit retained as provenance"
+    ],
+    [
+      "docs/data/pq-reward-normalization/pq-unified-reverse-index-audit.json",
+      "historical_audit_snapshot",
+      "dated unified-index audit retained as provenance"
+    ],
+    [
+      "docs/data/cc-mascots-reverse-index.json",
+      "historical_audit_snapshot",
+      "legacy reverse-index artifact; no live consumer identified"
+    ],
+    [
+      "docs/data/skill-character-reverse-index-2026-09-23.json",
+      "historical_audit_snapshot",
+      "dated reverse-index artifact superseded by newer live character/skill navigation audits"
+    ],
+    [
+      "docs/data/pq-skill-crosslink-validator-hardening-2026-09-25.json",
+      "historical_audit_snapshot",
+      "dated validator hardening record retained as provenance"
+    ],
+    [
+      "docs/data/non-pq-skill-endpoint-coverage-validator-audit-2026-09-25.json",
+      "historical_audit_snapshot",
+      "dated endpoint coverage audit retained as provenance"
+    ],
+    [
+      "docs/data/pq-explorer-validator-contract-synchronization-2026-09-24.json",
+      "historical_audit_snapshot",
+      "dated contract synchronization record retained as provenance"
+    ]
+  ],
+  "evidence_boundary": "Absence from the current tree is established by direct live-tree inspection. Classification as historical/planned is based on filename/date and current cross-domain index structure, not on an assertion that the underlying historical work was invalid. Missing primary/reverse datasets are not recreated here because doing so would require evidence-complete PQ reward relationships and/or current cross-domain projections.",
+  "next": "Do not delete these references solely because they are unreachable; treat the index as provenance. For the five dataset-class references, only regenerate after an evidence-complete source and deterministic generator are identified. Continue with the next critical reference or validator whose contract is live and safely testable."
+}
