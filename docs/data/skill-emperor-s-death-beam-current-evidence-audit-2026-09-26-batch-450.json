@@ -1,0 +1,22 @@
+{
+  "skill_id": "skill-emperor-s-death-beam",
+  "name": "Emperor's Death Beam",
+  "batch": 450,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Emperor%27s_Death_Beam"
+  ],
+  "findings": [
+    "400+-Ki Ki Blast Ultimate",
+    "TP Medal Shop endpoint",
+    "continuous fingertip beam/barrage",
+    "stored-Ki-dependent output",
+    "minimum 40% over 15 hits source-reported",
+    "additional available Ki consumed after 400-Ki start"
+  ],
+  "evidence_boundaries": [
+    "No unsupported exact frames, scaling formulas, probabilities, or hidden conditions added. Source-reported damage remains bounded evidence."
+  ]
+}
