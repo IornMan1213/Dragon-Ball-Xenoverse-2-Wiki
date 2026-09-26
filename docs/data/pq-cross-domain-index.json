@@ -1774,9 +1774,6 @@
       35,
       47,
       48,
-      89,
-      90,
-      91,
       93,
       102,
       103,
@@ -1784,7 +1781,10 @@
       108,
       118,
       121,
-      144
+      144,
+      157,
+      169,
+      170
     ],
     "note": "These counts are derived only from explicit source_parallel_quests fields in the canonical skill corpus. They do not imply that an unrepresented PQ has no skill rewards."
   }
