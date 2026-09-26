@@ -14094,6 +14094,141 @@
       "source_parallel_quests": [
         85
       ]
+    },
+    {
+      "name": "Fighting Pose B",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_B"
+      ],
+      "unlock_method": "Parallel Quest 16 — \"Defeat Frieza's Army!\" Basic Reward",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 16 — \"Defeat Frieza's Army!\"",
+      "mechanics_notes": "0-Ki Power Up Super that temporarily boosts Strike moves for 20 seconds. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
+      "last_verified": "2026-09-25",
+      "race_restriction": "All CaC races",
+      "source_quest": 16,
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "parallel_quest",
+      "character_source": "Jeice; Captain Ginyu Customize Partner",
+      "duration_seconds": 20,
+      "ki_cost": 0,
+      "id": "skill-fighting-pose-b",
+      "notes": "2026-09-25 Batch 396 mechanics enrichment: current skill-specific evidence confirmed the 0-Ki Power Up classification, PQ16 acquisition endpoint, and 20-second Strike boost; unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.",
+      "source_parallel_quests": [
+        16
+      ]
+    },
+    {
+      "name": "Fighting Pose D",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_D"
+      ],
+      "unlock_method": "Parallel Quest 15 — \"Gotta Find That Dragon Ball!\" Basic Reward",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 15 — \"Gotta Find That Dragon Ball!\"",
+      "mechanics_notes": "0-Ki Power Up Super that temporarily increases Boost Dash speed for 20 seconds. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
+      "last_verified": "2026-09-25",
+      "race_restriction": "All CaC races",
+      "source_quest": 15,
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "parallel_quest",
+      "character_source": "Burter; Captain Ginyu Customize Partner",
+      "duration_seconds": 20,
+      "ki_cost": 0,
+      "id": "skill-fighting-pose-d",
+      "notes": "2026-09-25 Batch 396 mechanics enrichment: current skill-specific evidence confirmed the 0-Ki Power Up classification, PQ15 acquisition endpoint, and 20-second Boost Dash-speed effect; unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.",
+      "source_parallel_quests": [
+        15
+      ]
+    },
+    {
+      "name": "Fighting Pose G",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_G",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "unlock_method": "Skill Shop after \"The Ginyu Force Strikes\"",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Skill Shop after The Ginyu Force Strikes",
+      "mechanics_notes": "0-Ki Power Up Super that increases Ki Blast skill damage. Current dedicated evidence reports about 8% increased output and a 20-second duration; exact race-dependent duration variants and frame data are retained only where explicitly supported by the cited source.",
+      "last_verified": "2026-09-25",
+      "race_restriction": "All CaC races",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "skill_shop",
+      "character_source": "Jeice",
+      "duration_seconds": 20,
+      "ki_cost": 0,
+      "id": "skill-fighting-pose-g",
+      "notes": "2026-09-25 Batch 396 mechanics enrichment: current evidence reconciled the earlier catalog record with the dedicated skill reference. The repository retains the explicit 0-Ki cost, Skill Shop endpoint, Ki Blast-damage effect, and source-bounded duration; unsupported balance details remain unresolved.",
+      "source_quest": "The Ginyu Force Strikes — Skill Shop unlock"
+    },
+    {
+      "name": "Fighting Pose I",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_I"
+      ],
+      "unlock_method": "Skill Shop after \"The Ginyu Force Strikes\"",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Skill Shop after The Ginyu Force Strikes",
+      "mechanics_notes": "0-Ki Power Up Super that temporarily increases Basic Movement Speed for 20 seconds. Exact movement multiplier and frame data remain unresolved.",
+      "last_verified": "2026-09-25",
+      "race_restriction": "All CaC races",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "skill_shop",
+      "character_source": "Burter",
+      "duration_seconds": 20,
+      "ki_cost": 0,
+      "id": "skill-fighting-pose-i",
+      "notes": "2026-09-25 Batch 396 mechanics enrichment: current skill-specific evidence confirmed the 0-Ki Power Up classification, Skill Shop endpoint, and 20-second Basic Movement Speed effect; unsupported movement multipliers, frame data, hidden gates, and reward probabilities remain unresolved.",
+      "source_quest": "The Ginyu Force Strikes — Skill Shop unlock"
+    },
+    {
+      "name": "Fighting Pose J",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_J",
+        "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/faqs/74285?page=1"
+      ],
+      "unlock_method": "Parallel Quest 17 — \"Ginyu and the Fruit\" Basic Reward",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 17 — \"Ginyu and the Fruit\"",
+      "mechanics_notes": "0-Ki Power Up Super associated with Recoome that temporarily increases Stamina recovery. Current evidence supports the PQ17 endpoint and core Power Up identity; exact multiplier and duration remain unresolved until a dedicated current mechanics source is reconciled.",
+      "last_verified": "2026-09-25",
+      "race_restriction": "All CaC races",
+      "source_quest": 17,
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "parallel_quest",
+      "character_source": "Recoome; Captain Ginyu Customize Partner",
+      "ki_cost": 0,
+      "id": "skill-fighting-pose-j",
+      "notes": "2026-09-25 Batch 396 mechanics enrichment: current evidence confirmed the 0-Ki Power Up classification and PQ17 acquisition endpoint. The core Stamina-recovery effect is retained from the established research record, while exact magnitude, duration, frame data, reward probabilities, and hidden gates remain unresolved.",
+      "source_parallel_quests": [
+        17
+      ]
     }
   ],
   "last_verified": "2026-09-25"
