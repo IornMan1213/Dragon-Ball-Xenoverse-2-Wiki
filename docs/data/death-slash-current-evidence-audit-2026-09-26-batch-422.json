@@ -1,0 +1,16 @@
+{
+  "batch": 422,
+  "date": "2026-09-26",
+  "skill": "Death Slash",
+  "skill_id": "skill-death-slash",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Death_Slash"
+  ],
+  "findings": "100-Ki Ki Blast Super obtained from Parallel Quest 23, 'The Explosion of Namek.' The user creates a fast, blade-shaped Ki wave with limited range that lingers briefly after firing; current dedicated documentation describes it as single-hit, knockback-producing, and 15% displayed damage. It is used by Frieza and is also available on several customizable partner presets.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unsupported reward probabilities remain unresolved."
+  ]
+}

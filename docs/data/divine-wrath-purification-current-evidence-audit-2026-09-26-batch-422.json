@@ -1,0 +1,17 @@
+{
+  "batch": 422,
+  "date": "2026-09-26",
+  "skill": "Divine Wrath: Purification",
+  "skill_id": "skill-divine-wrath-purification",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Divine_Wrath%3A_Purification",
+    "https://dragonball.fandom.com/wiki/Divine_Wrath%3A_Purification"
+  ],
+  "findings": "300-Ki Ki Blast Ultimate obtained from Parallel Quest 112, 'Advent of the Mighty God Zamasu!,' and used by Fused Zamasu. The user creates a halo and a large Ki sphere, launches it, and remains committed while the sphere persists. Current dedicated documentation describes a 20-hit projectile totaling 40% displayed damage and long-range knockback.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unsupported reward probabilities remain unresolved."
+  ]
+}

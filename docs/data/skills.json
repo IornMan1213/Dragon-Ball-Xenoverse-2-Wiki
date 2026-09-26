@@ -393,20 +393,21 @@
         "https://dbxv2.fandom.com/wiki/Audacious_Laugh",
         "https://dbxv2.fandom.com/wiki/Status_Effect",
         "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dragonball.fandom.com/wiki/Audacious_Laugh"
       ],
       "unlock_method": "Zarbon's Initiation Test — complete the instructor lesson to receive Audacious Laugh as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Zarbon mentor training — Initiation Test",
-      "mechanics_notes": "100-Ki Other Super. The user laughs while a dark red-orange aura surrounds them; after a short delay the locked-on opponent is staggered and receives a movement-speed slowdown. The move is non-damaging and requires lock-on to an enemy.",
-      "last_verified": "2026-09-25",
+      "mechanics_notes": "100-Ki Other Super learned from Zarbon's Instructor Quest 1. The user performs an intimidating laugh while a dark red-orange aura surrounds them; after a short delay the locked-on opponent is staggered and receives a movement-speed debuff. The technique is non-damaging and cannot be activated without a locked-on enemy.",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": "Zarbon mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance verification: current dedicated skill documentation confirms Audacious Laugh is Zarbon's Other Super, costs 100 Ki, and is unlocked through Zarbon's Initiation Test; independent Dragon Ball Wiki and mentor references corroborate the mentor route. No semantic correction required.\n2026-09-25 mechanics promotion: current Xenoverse 2-specific documentation confirms the 100-Ki Other Super, non-damaging slowdown effect, short delay/stagger behavior, and lock-on requirement. The status-effect reference independently identifies Audacious Laugh as a slowdown source.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance verification: current dedicated skill documentation confirms Audacious Laugh is Zarbon's Other Super, costs 100 Ki, and is unlocked through Zarbon's Initiation Test; independent Dragon Ball Wiki and mentor references corroborate the mentor route. No semantic correction required.\n2026-09-25 mechanics promotion: current Xenoverse 2-specific documentation confirms the 100-Ki Other Super, non-damaging slowdown effect, short delay/stagger behavior, and lock-on requirement. The status-effect reference independently identifies Audacious Laugh as a slowdown source.\n2026-09-26 Batch 422 current-evidence enrichment: current Xenoverse 2-specific references were rechecked for acquisition, resource cost, classification, hit behavior, and documented effects. Exact frame data, hidden interactions, unsupported scaling, patch-independent balance, and unresolved reward probabilities remain unasserted.",
       "id": "skill-audacious-laugh",
       "source_mentor": [
         "mentor-zarbon"
@@ -1251,18 +1252,19 @@
       "source_quest": 143,
       "ultimate_finish_required": false,
       "skill_description": "Fiery kick followed by a chasing chop after the initial hit.",
-      "mechanics_notes": "Fiery kick followed by a chasing chop after the initial hit. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "mechanics_notes": "100-Ki Strike Super obtained from Parallel Quest 143, 'Other World Offensive,' and used by Pikkon. It is a two-hit rush: a fiery forward kick that knocks the opponent away, followed by a chase and downward chop. Current dedicated documentation describes it as short-range and useful for following long knockbacks; exact frame data and universal damage are not asserted.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burning_Shot",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
+        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc",
+        "https://dragonball.fandom.com/wiki/Burning_Shoot"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: official Bandai Namco DLC documentation independently confirms Legendary Pack 1 scope (4 characters, 4 Parallel Quests, 6 additional moves); the maintained PQ143-PQ146 research layer remains the exact source for each skill's individual quest relationship. 2026-09-22 provenance verification: dedicated skill documentation confirms PQ143 — \"Other World Offensive\" and the 100-Ki Strike Super identity. Independent gameplay evidence reports obtaining it after an Ultimate Finish, but this does not establish a universal mandatory gate; existing canonical semantics remain unchanged.\n 2026-09-23 provenance refresh: dedicated XV2 documentation and the maintained all-PQ guide corroborate PQ143 and the Strike Super identity; Dragon Ball technique documentation independently identifies the Xenoverse 2/PQ143 route. Existing UF=false semantics remain because an Ultimate Finish report does not establish a universal mandatory gate.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: official Bandai Namco DLC documentation independently confirms Legendary Pack 1 scope (4 characters, 4 Parallel Quests, 6 additional moves); the maintained PQ143-PQ146 research layer remains the exact source for each skill's individual quest relationship. 2026-09-22 provenance verification: dedicated skill documentation confirms PQ143 — \"Other World Offensive\" and the 100-Ki Strike Super identity. Independent gameplay evidence reports obtaining it after an Ultimate Finish, but this does not establish a universal mandatory gate; existing canonical semantics remain unchanged.\n 2026-09-23 provenance refresh: dedicated XV2 documentation and the maintained all-PQ guide corroborate PQ143 and the Strike Super identity; Dragon Ball technique documentation independently identifies the Xenoverse 2/PQ143 route. Existing UF=false semantics remain because an Ultimate Finish report does not establish a universal mandatory gate.\n2026-09-26 Batch 422 current-evidence enrichment: current Xenoverse 2-specific references were rechecked for acquisition, resource cost, classification, hit behavior, and documented effects. Exact frame data, hidden interactions, unsupported scaling, patch-independent balance, and unresolved reward probabilities remain unasserted.",
       "source_parallel_quests": [
         143
       ]
@@ -2138,13 +2140,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Dodoria mentor training — Lesson 1",
-      "mechanics_notes": "100-Ki Strike Super from Dodoria Lesson 1. Performs a short-range Ki-laced uppercut that launches the opponent and leaves them airborne for follow-up attacks; a dedicated Xenoverse 2 reference reports 10% damage under its displayed convention.",
-      "last_verified": "2026-09-25",
+      "mechanics_notes": "100-Ki Strike Super learned from Dodoria training. The user delivers a Ki-laced uppercut that launches the target and leaves them airborne for follow-up attacks; current dedicated documentation reports 10% displayed damage. It is also available to Jiren as a customizable partner skill.",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": "Dodoria mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: dedicated skill evidence confirms Critical Upper as Dodoria's 100-Ki Strike Super obtained through Dodoria training, with an uppercut that launches the target. Mentor reward documentation independently confirms the lesson endpoint. 2026-09-23 provenance refresh: current dedicated evidence and independent corroboration were rechecked for the canonical acquisition/classification endpoint; existing reward-tier, cost, scope, and mechanics semantics are preserved, and no unsupported drop probability or additional gate is inferred.\n2026-09-25 Batch 372 mechanics enrichment: promoted repository-supported current mechanics; source-reported damage remains bounded and no unsupported frame/timing/probability/hidden-gate claims were added.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: dedicated skill evidence confirms Critical Upper as Dodoria's 100-Ki Strike Super obtained through Dodoria training, with an uppercut that launches the target. Mentor reward documentation independently confirms the lesson endpoint. 2026-09-23 provenance refresh: current dedicated evidence and independent corroboration were rechecked for the canonical acquisition/classification endpoint; existing reward-tier, cost, scope, and mechanics semantics are preserved, and no unsupported drop probability or additional gate is inferred.\n2026-09-25 Batch 372 mechanics enrichment: promoted repository-supported current mechanics; source-reported damage remains bounded and no unsupported frame/timing/probability/hidden-gate claims were added.\n2026-09-26 Batch 422 current-evidence enrichment: current Xenoverse 2-specific references were rechecked for acquisition, resource cost, classification, hit behavior, and documented effects. Exact frame data, hidden interactions, unsupported scaling, patch-independent balance, and unresolved reward probabilities remain unasserted.",
       "id": "skill-critical-upper",
       "source_mentor": [
         "mentor-dodoria"
@@ -2694,10 +2696,10 @@
       "source_quest_or_shop": "Parallel Quest 23 — \"Dueling Makes the Heart Grow Fonder\"",
       "ultimate_finish_required": false,
       "skill_description": "Death Slash is a Super Strike skill associated with Frieza.",
-      "mechanics_notes": "Confirmed as Frieza's 100-Ki Ki Blast Super. Current dedicated evidence describes a fast, blade-shaped Ki Blast with limited range that lingers briefly after firing and knocks the opponent away; the attack is single-hit in the current reference.",
-      "verification_status": "verified",
+      "mechanics_notes": "100-Ki Ki Blast Super obtained from Parallel Quest 23, 'The Explosion of Namek.' The user creates a fast, blade-shaped Ki wave with limited range that lingers briefly after firing; current dedicated documentation describes it as single-hit, knockback-producing, and 15% displayed damage. It is used by Frieza and is also available on several customizable partner presets.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Death_Slash",
@@ -2706,7 +2708,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 23,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ23 reward listings explicitly place Death Slash in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance correction: current dedicated Xenoverse 2 evidence classifies Death Slash as a Ki Blast Super, not a Strike Super. The canonical subcategory and damage_type were corrected from Strike to Ki Blast; PQ23 Basic Reward and non-Ultimate-Finish semantics are preserved. No drop probability is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-20 audit: PQ23 reward listings explicitly place Death Slash in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance correction: current dedicated Xenoverse 2 evidence classifies Death Slash as a Ki Blast Super, not a Strike Super. The canonical subcategory and damage_type were corrected from Strike to Ki Blast; PQ23 Basic Reward and non-Ultimate-Finish semantics are preserved. No drop probability is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 422 current-evidence enrichment: current Xenoverse 2-specific references were rechecked for acquisition, resource cost, classification, hit behavior, and documented effects. Exact frame data, hidden interactions, unsupported scaling, patch-independent balance, and unresolved reward probabilities remain unasserted.",
       "id": "skill-death-slash",
       "source_parallel_quests": [
         23
@@ -3396,10 +3398,10 @@
       "source_quest_or_shop": "Parallel Quest 112 — \"Advent of the Mighty God Zamasu!\"",
       "ultimate_finish_required": false,
       "skill_description": "Divine Wrath: Purification is a Ki Blast Ultimate associated with Fused Zamasu and obtainable by the Future Warrior.",
-      "mechanics_notes": "300-Ki Ki Blast Ultimate from PQ112 Basic Reward. Current evidence describes a large stationary energy sphere that remains in place before vanishing/exploding. Exact drop probability remains unresolved and no Ultimate Finish gate is inferred.",
-      "verification_status": "verified",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate obtained from Parallel Quest 112, 'Advent of the Mighty God Zamasu!,' and used by Fused Zamasu. The user creates a halo and a large Ki sphere, launches it, and remains committed while the sphere persists. Current dedicated documentation describes a 20-hit projectile totaling 40% displayed damage and long-range knockback.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Divine_Wrath%3A_Purification",
@@ -3409,7 +3411,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 112,
       "acquisition_type": "quest_or_mission",
-      "notes": " 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 422 current-evidence enrichment: current Xenoverse 2-specific references were rechecked for acquisition, resource cost, classification, hit behavior, and documented effects. Exact frame data, hidden interactions, unsupported scaling, patch-independent balance, and unresolved reward probabilities remain unasserted.",
       "id": "skill-divine-wrath-purification",
       "source_parallel_quests": [
         112
@@ -3429,10 +3431,10 @@
       "source_quest_or_shop": "Parallel Quest 110 — \"Heretics from a Dark World\"",
       "ultimate_finish_required": false,
       "skill_description": "Divinity Unleashed is a Super Power Up skill associated with Zamasu.",
-      "mechanics_notes": "100-Ki Power Up Super from PQ110 Basic Reward. Charging at least one full Ki bar activates a temporary increase to Ki gained from attacks/charging. Current evidence supports CaC usability without a narrower race, gender, or form restriction.",
-      "verification_status": "verified",
+      "mechanics_notes": "Power Up Super associated with Fused Zamasu and obtainable from Parallel Quest 110, 'Heretics from a Dark World.' Current dedicated documentation describes a charge that is somewhat slower than Maximum Charge; once at least one Ki bar has been gained, the user receives a temporary buff that greatly increases Ki gained from attacks. The documented duration is 20 seconds.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Divinity_Unleashed",
@@ -3441,7 +3443,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 110,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 110 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, classification, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing conflicts and unresolved fields are preserved; no unsupported drop probability, Ultimate Finish gate, prerequisite, timer, frame data, damage value, stacking cap, or narrower restriction is inferred.",
+      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 110 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: current bounded evidence reconfirms the acquisition/classification endpoint; conflicting or unresolved reward/mechanics details remain explicit rather than being inferred. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, classification, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing conflicts and unresolved fields are preserved; no unsupported drop probability, Ultimate Finish gate, prerequisite, timer, frame data, damage value, stacking cap, or narrower restriction is inferred.\n2026-09-26 Batch 422 current-evidence enrichment: current Xenoverse 2-specific references were rechecked for acquisition, resource cost, classification, hit behavior, and documented effects. Exact frame data, hidden interactions, unsupported scaling, patch-independent balance, and unresolved reward probabilities remain unasserted.",
       "id": "skill-divinity-unleashed",
       "source_parallel_quests": [
         110
@@ -9723,20 +9725,22 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Prelude_to_Destruction",
+        "https://dragonball.fandom.com/wiki/Prelude_to_Destruction"
       ],
       "unlock_method": "Whis's mentor training — complete the corresponding lesson to receive Prelude to Destruction as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Whis mentor training",
-      "mechanics_notes": "100-Ki Strike Super from Whis mentor training. Performs a destructive close-range strike sequence; current repository evidence securely establishes the mentor acquisition endpoint and 100-Ki cost, while finer hit/damage details remain deferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "200-Ki Ki Blast Super learned through Whis training. The user fires a thin, long-range finger beam; current dedicated documentation reports 10% displayed damage and complete stamina depletion on impact. If the opponent is guarding, the attack does not penetrate the guard, but a successful hit against a non-guarding opponent can produce the documented guard-break effect.",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": "Whis mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.\n2026-09-26 Batch 422 current-evidence enrichment: current Xenoverse 2-specific references were rechecked for acquisition, resource cost, classification, hit behavior, and documented effects. Exact frame data, hidden interactions, unsupported scaling, patch-independent balance, and unresolved reward probabilities remain unasserted.",
       "id": "skill-prelude-to-destruction",
       "source_mentor": [
         "mentor-whis"
@@ -10071,19 +10075,20 @@
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
         "https://dbxv2.fandom.com/wiki/Awoken_Skill",
-        "https://dbxv2.fandom.com/wiki/Pure_Progress"
+        "https://dbxv2.fandom.com/wiki/Pure_Progress",
+        "https://dragonball.fandom.com/wiki/Pure_Progress"
       ],
       "ultimate_finish_required": false,
       "race_restriction": "Character-only",
       "research_status": "enriched",
       "unlock_method": "Character-only / non-CaC roster use",
-      "mechanics_notes": "Character-only Awoken transformation used by Hit, not an equipable CaC Awoken Skill. Each transformation stage requires 500 Ki; current transformation research identifies the character-only roster status and distinguishes it from CaC unlocks.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "Hit-exclusive Awoken transformation rather than a CaC-equipable transformation. Its in-game description instructs the user to change stance to increase power, with up to two additional progression inputs; current documentation shows distinct Stage 1 and Stage 2 Hit states and confirms the form is tied to Hit's character/custom-partner configuration.",
+      "last_verified": "2026-09-26",
       "source_quest_or_shop": "Character-only Awoken Skill / roster use",
       "ki_cost": 500,
       "dlc_requirement": "Free Update 1",
       "acquisition_type": "character_only",
-      "notes": "2026-09-20 roster-status refinement: maintained transformation research classifies Pure Progress as a Hit-only character transformation, not a CaC Awoken Skill.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.",
+      "notes": "2026-09-20 roster-status refinement: maintained transformation research classifies Pure Progress as a Hit-only character transformation, not a CaC Awoken Skill.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.\n2026-09-26 Batch 422 current-evidence enrichment: current Xenoverse 2-specific references were rechecked for acquisition, resource cost, classification, hit behavior, and documented effects. Exact frame data, hidden interactions, unsupported scaling, patch-independent balance, and unresolved reward probabilities remain unasserted.",
       "id": "skill-pure-progress"
     },
     {

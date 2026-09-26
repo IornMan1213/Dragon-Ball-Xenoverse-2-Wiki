@@ -1,0 +1,16 @@
+{
+  "batch": 422,
+  "date": "2026-09-26",
+  "skill": "Divinity Unleashed",
+  "skill_id": "skill-divinity-unleashed",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Divinity_Unleashed"
+  ],
+  "findings": "Power Up Super associated with Fused Zamasu and obtainable from Parallel Quest 110, 'Heretics from a Dark World.' Current dedicated documentation describes a charge that is somewhat slower than Maximum Charge; once at least one Ki bar has been gained, the user receives a temporary buff that greatly increases Ki gained from attacks. The documented duration is 20 seconds.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unsupported reward probabilities remain unresolved."
+  ]
+}

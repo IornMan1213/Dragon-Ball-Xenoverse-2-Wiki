@@ -1,0 +1,17 @@
+{
+  "batch": 422,
+  "date": "2026-09-26",
+  "skill": "Prelude to Destruction",
+  "skill_id": "skill-prelude-to-destruction",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Prelude_to_Destruction",
+    "https://dragonball.fandom.com/wiki/Prelude_to_Destruction"
+  ],
+  "findings": "200-Ki Ki Blast Super learned through Whis training. The user fires a thin, long-range finger beam; current dedicated documentation reports 10% displayed damage and complete stamina depletion on impact. If the opponent is guarding, the attack does not penetrate the guard, but a successful hit against a non-guarding opponent can produce the documented guard-break effect.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unsupported reward probabilities remain unresolved."
+  ]
+}

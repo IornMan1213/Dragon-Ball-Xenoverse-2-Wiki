@@ -1,0 +1,17 @@
+{
+  "batch": 422,
+  "date": "2026-09-26",
+  "skill": "Audacious Laugh",
+  "skill_id": "skill-audacious-laugh",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Audacious_Laugh",
+    "https://dragonball.fandom.com/wiki/Audacious_Laugh"
+  ],
+  "findings": "100-Ki Other Super learned from Zarbon's Instructor Quest 1. The user performs an intimidating laugh while a dark red-orange aura surrounds them; after a short delay the locked-on opponent is staggered and receives a movement-speed debuff. The technique is non-damaging and cannot be activated without a locked-on enemy.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unsupported reward probabilities remain unresolved."
+  ]
+}

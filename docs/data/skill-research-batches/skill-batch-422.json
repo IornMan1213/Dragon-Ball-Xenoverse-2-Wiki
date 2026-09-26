@@ -1,0 +1,18 @@
+{
+  "batch": 422,
+  "date": "2026-09-26",
+  "status": "completed",
+  "scope": "Skill mechanics frontier",
+  "excluded_batches": "396-421",
+  "selected": [
+    "Audacious Laugh",
+    "Burning Shot",
+    "Divinity Unleashed",
+    "Divine Wrath: Purification",
+    "Pure Progress",
+    "Critical Upper",
+    "Prelude to Destruction",
+    "Death Slash"
+  ],
+  "evidence_policy": "Promote directly supported Xenoverse 2 mechanics only; preserve uncertainty around exact frames, hidden interactions, unsupported multipliers, patch-independent balance, and unresolved probabilities."
+}

@@ -1,0 +1,17 @@
+{
+  "batch": 422,
+  "date": "2026-09-26",
+  "skill": "Critical Upper",
+  "skill_id": "skill-critical-upper",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Critical_Upper",
+    "https://dragonball.fandom.com/wiki/Critical_Upper"
+  ],
+  "findings": "100-Ki Strike Super learned from Dodoria training. The user delivers a Ki-laced uppercut that launches the target and leaves them airborne for follow-up attacks; current dedicated documentation reports 10% displayed damage. It is also available to Jiren as a customizable partner skill.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unsupported reward probabilities remain unresolved."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "batch": 422,
+  "date": "2026-09-26",
+  "skill": "Burning Shot",
+  "skill_id": "skill-burning-shot",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Burning_Shot",
+    "https://dragonball.fandom.com/wiki/Burning_Shoot"
+  ],
+  "findings": "100-Ki Strike Super obtained from Parallel Quest 143, 'Other World Offensive,' and used by Pikkon. It is a two-hit rush: a fiery forward kick that knocks the opponent away, followed by a chase and downward chop. Current dedicated documentation describes it as short-range and useful for following long knockbacks; exact frame data and universal damage are not asserted.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unsupported reward probabilities remain unresolved."
+  ]
+}

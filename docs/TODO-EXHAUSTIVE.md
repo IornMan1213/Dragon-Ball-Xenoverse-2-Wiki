@@ -1147,3 +1147,13 @@
 - [x] Evidence boundaries preserved: exact frames, hidden interactions, unsupported multipliers, patch-independent balance, and unsupported probabilities were not inferred.
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [x] **Exact next:** run a fresh 474-record frontier census excluding Batches 396–421, excluding records with any prior audit, then enrich the next 4–12 shortest genuinely under-detailed records and synchronize canonical/index/provenance in the same cycle.
+
+
+### 2026-09-26 continuation — Skill Research Batch 422 completed
+
+- [x] Fresh live 474-record frontier census excluding prior audited records identified the next eight shortest genuinely under-detailed records: **Audacious Laugh, Burning Shot, Divinity Unleashed, Divine Wrath: Purification, Pure Progress, Critical Upper, Prelude to Destruction, and Death Slash**.
+- [x] Enriched and synchronized canonical `docs/data/skills.json` and projection `docs/data/skills-index.json`; canonical/index remain 474/474.
+- [x] Added Batch 422 research data plus eight current-evidence audit files and registered every audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved evidence boundaries: exact frames, hidden interactions, unsupported scaling, patch-independent balance, and unsupported reward probabilities were not inferred.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [x] **Exact next:** run another fresh 474-record frontier census excluding Batches 396–422 and any record with a prior audit, then enrich the next 4–12 shortest genuinely under-detailed canonical mechanics records with synchronized canonical/index/provenance updates.

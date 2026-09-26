@@ -1,0 +1,17 @@
+{
+  "batch": 422,
+  "date": "2026-09-26",
+  "skill": "Pure Progress",
+  "skill_id": "skill-pure-progress",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Pure_Progress",
+    "https://dragonball.fandom.com/wiki/Pure_Progress"
+  ],
+  "findings": "Hit-exclusive Awoken transformation rather than a CaC-equipable transformation. Its in-game description instructs the user to change stance to increase power, with up to two additional progression inputs; current documentation shows distinct Stage 1 and Stage 2 Hit states and confirms the form is tied to Hit's character/custom-partner configuration.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unsupported reward probabilities remain unresolved."
+  ]
+}
