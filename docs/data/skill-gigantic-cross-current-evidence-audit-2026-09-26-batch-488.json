@@ -1,0 +1,13 @@
+{
+  "batch": 488,
+  "date": "2026-09-26",
+  "skill_id": "skill-gigantic-cross",
+  "skill_name": "Gigantic Cross",
+  "status": "complete",
+  "findings": "Current evidence confirms 100-Ki chargeable 2-hit Ki Blast Super from Conton City Patrol 04. The green mouth-generated projectile travels forward, arcs upward, and ends in an explosion.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Gigantic_Cross"
+  ],
+  "evidence_boundary": "Current-source behavior and source-reported numerical values are preserved as bounded evidence. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; canonical/index parity validated at 474/474."
+}
