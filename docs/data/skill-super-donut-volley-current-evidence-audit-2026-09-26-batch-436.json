@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-super-donut-volley",
+  "name": "Super Donut Volley",
+  "batch": 436,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Donut_Volley",
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+  ],
+  "findings": [
+    "100-Ki Ki Blast Super",
+    "Parallel Quest 55 — Tag with Gotenks",
+    "Additional inputs fire up to eight explosive rings",
+    "Current skill reference reports about 5% for one ring and about 20% for all eight",
+    "Exact inter-ring timing, tracking, hitstun, and frame data remain unresolved"
+  ]
+}
