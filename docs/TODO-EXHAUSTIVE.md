@@ -1,3 +1,15 @@
+### 2026-09-26 continuation — Skill Research Batch 473 completed
+
+- [x] Performed the fresh unaudited mechanics frontier after Batch 472, excluding prior registered current-evidence audits.
+- [x] Completed **Arm Crash, Phantom Fist, Time Skip/Molotov, Justice Combination, Headshot, and Gigantic Rage** with current Xenoverse 2-specific mechanics/acquisition evidence and bounded source attribution.
+- [x] Added six current-evidence audit artifacts plus Batch 473 research and thin-frontier artifacts.
+- [x] Registered all eight Batch 473 artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved source-reported numerical values without presenting them as universal balance constants; unsupported frames, scaling formulas, hidden interactions, and probabilities remain unresolved.
+- [ ] Canonical `docs/data/skills.json` and `docs/data/skills-index.json` synchronization remains pending because the live canonical blobs are too large/truncated by the available GitHub content-fetch/update path; no canonical parity claim is made for Batches 472–473.
+- [ ] CI/build remains unverified.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected repository path (GitHub 404).
+- [x] **Exact next:** perform another fresh unaudited mechanics-frontier census excluding Batch 473 and every prior current-evidence audit; continue research and then synchronize the canonical datasets when a safe large-file write path is available.
+
 ### 2026-09-26 continuation — Skill Research Batch 472 prepared
 
 - [x] Performed a fresh unaudited mechanics frontier after Batch 471 and selected **Big Bang Knuckle, God Breaker, Heroic Counter, Counter Impact, Punisher Drive, Time Skip/Back Breaker, Time Skip/Flash Skewer, and Time Skip/Jump Spike**.
