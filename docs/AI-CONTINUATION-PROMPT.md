@@ -2325,3 +2325,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated the reachability audit with the reconciliation result.
 - [ ] CI/build remains unverified.
 - [x] **Exact next:** use this reconciliation to skip stale historical artifacts and inspect the next live, safely testable cross-domain validator/consumer for a concrete integrity improvement.
+
+
+### 2026-09-26 continuation — Skill→PQ reverse projection drift guard
+- [x] Inspected the live `scripts/validate_skill_pq_crosslinks.py` and its current linkage audit.
+- [x] Hardened the validator so the checked-in `docs/data/skill-pq-reverse-index-2026-09-26.json` must exactly equal the deterministic projection generated from `docs/data/skills.json`; count-only agreement can no longer hide per-PQ edge drift.
+- [x] Updated `docs/data/skill-pq-cross-domain-linkage-integrity-audit-2026-09-26.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [ ] CI/build remains unverified; the GitHub-hosted validator was not executed in this environment.
+- [x] **Exact next:** inspect the next live cross-domain validator/consumer for an equivalent concrete integrity gap, prioritizing a deterministic checked-in projection that can be compared to its canonical source.
