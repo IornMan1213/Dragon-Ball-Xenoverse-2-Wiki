@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-26",
+  "purpose": "Deterministic live cross-domain integrity audit for the canonical skill corpus and its PQ acquisition endpoints.",
+  "source_dataset": "docs/data/skills.json",
+  "reverse_index": "docs/data/skill-pq-reverse-index-2026-09-26.json",
+  "checks": {
+    "canonical_skill_count": {
+      "expected": 474,
+      "actual": 474,
+      "pass": true
+    },
+    "unique_skill_ids": {
+      "expected": 474,
+      "actual": 474,
+      "pass": true
+    },
+    "source_parallel_quests_edges": {
+      "expected_current": 246,
+      "actual": 246,
+      "pass": true
+    },
+    "represented_pq_ids": {
+      "expected_current": 170,
+      "actual": 170,
+      "pass": true
+    },
+    "pq_id_domain": {
+      "expected": "1..186",
+      "invalid": [],
+      "pass": true
+    },
+    "skills_with_pq_endpoints": {
+      "actual": 242
+    },
+    "pq_ids_without_skill_endpoint": [
+      1,
+      30,
+      35,
+      47,
+      48,
+      93,
+      102,
+      103,
+      107,
+      108,
+      118,
+      121,
+      144,
+      157,
+      169,
+      170
+    ]
+  },
+  "interpretation": [
+    "The live canonical skill corpus contains 246 explicit skill→PQ edges across 170 of the 186 PQ IDs.",
+    "The historical 244-edge invariant referenced by older handoff material is stale relative to the current canonical skill corpus and should not be used as a current truth without reconciling the two additional canonical endpoints.",
+    "This audit validates only relationships represented by source_parallel_quests in the current skill corpus; it does not assert that the 16 PQs without a skill endpoint have no skill rewards.",
+    "The existing pq-cross-domain-index contains many historical artifact references that no longer resolve in the live tree; those are tracked separately and are not silently deleted because they document prior work."
+  ],
+  "status": "audited_current_live_corpus"
+}
