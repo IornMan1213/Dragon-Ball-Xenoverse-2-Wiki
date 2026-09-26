@@ -1,0 +1,16 @@
+{
+  "batch": 484,
+  "date": "2026-09-26",
+  "skill_id": "skill-gigantic-roar",
+  "skill_name": "Gigantic Roar",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Gigantic_Roar",
+    "https://dragonball.fandom.com/wiki/Gigantic_Roar"
+  ],
+  "findings": "2026-09-26 Batch 484 current-evidence audit: Gigantic Roar is a 500-Ki unblockable Ki Blast Ultimate from PQ132. Current skill-specific evidence reports roughly 40% damage at normal health, 60% while the user's health is flashing, and 80% at the lowest health. The move cannot be guarded; exact frames and patch-independent scaling remain unresolved.",
+  "canonical_changes": {
+    "mechanics_notes": "500-Ki unblockable Ki Blast Ultimate from PQ132. Fires a large beam from the user's mouth; current skill-specific evidence reports about 40% base damage, 60% at flashing health, and 80% at the lowest health. Guarding does not block it.",
+    "last_verified": "2026-09-26",
+    "research_status": "enriched"
+  }
+}
