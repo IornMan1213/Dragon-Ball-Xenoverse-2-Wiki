@@ -1,0 +1,12 @@
+{
+  "batch": 470,
+  "date": "2026-09-26",
+  "skill_id": "skill-burning-attack",
+  "skill_name": "Burning Attack",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Burning_Attack",
+    "https://dragonball.fandom.com/wiki/Burning_Attack"
+  ],
+  "evidence_boundary": "PQ41, 100 Ki, explosive 2-hit launch behavior, long startup, and source-reported 15% damage are documented; exact startup frames and universal scaling remain unresolved."
+}

@@ -1,0 +1,13 @@
+{
+  "batch": 470,
+  "date": "2026-09-26",
+  "skill_id": "skill-grand-smasher",
+  "skill_name": "Grand Smasher",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Grand_Smasher",
+    "https://dragonball.fandom.com/wiki/Grand_Smasher",
+    "https://dbxenoverse.fandom.com/wiki/Brave_Heat"
+  ],
+  "evidence_boundary": "The 300/400-Ki resource model, 21-hit projectile, source-reported 35% damage, and five-hit unblockable detonation are documented; exact input timing, frames, and scaling remain unresolved."
+}

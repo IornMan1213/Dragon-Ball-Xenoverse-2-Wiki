@@ -1,3 +1,14 @@
+### 2026-09-26 continuation — Skill Research Batch 470 completed
+
+- [x] Fresh 474-record mechanics frontier excluded every registered current-evidence audit and selected **Energy Release, Super Destructo-Disc, Android Rush, Burning Attack, Chaos Shot, Surging Spirit, Reverse Shot, and Grand Smasher**.
+- [x] Added eight current-evidence audits plus Batch 470 research/thin-frontier artifacts.
+- [x] Deepened all eight canonical records with current Xenoverse 2-specific mechanics and bounded evidence.
+- [x] Preserved Surging Spirit as a built-in Ultra Instinct action rather than a separately acquired skill, and retained source-bounded values for damage, hit counts, timing, and costs.
+- [x] Canonical/index validation target remains **474/474**, with 0 missing / 0 extra.
+- [ ] CI/build remains unverified.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 470 and every prior registered current-evidence audit.
+
 ### 2026-09-26 continuation — Skill Research Batch 469 completed
 
 - [x] Fresh 474-record mechanics frontier excluded every registered current-evidence audit and selected **Fighting Pose C, Burst Kamehameha, Supernova, Freedom Kick, Super Elite Combo, Atomic Blast, Super Ghost Kamikaze Attack (Super), and Super God Shock Flash**.

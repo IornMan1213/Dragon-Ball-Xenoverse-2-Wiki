@@ -125,20 +125,21 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Android_Rush",
         "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+        "https://dragonball.fandom.com/wiki/Android_Rush"
       ],
       "unlock_method": "Android 16 mentor training — Lesson 2.",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Android 16 mentor training",
-      "mechanics_notes": "100-Ki Strike Super with a four-hit close-range sequence: three kicks followed by a backhand knockback. Directional control changes the final knockback route: neutral sends the opponent forward, up sends them downward, and down sends them upward. Current reference reports about 10% total damage; exact directional launch distances and frame data remain unresolved.",
-      "last_verified": "2026-09-25",
+      "mechanics_notes": "100-Ki Strike Super from Android 16 training. The rush has four hits: three kicks followed by a final backhand/punch/kick that launches the opponent. Directional input controls the final knockback route: neutral sends the target forward, up sends them downward, and down sends them upward. Current dedicated evidence reports about 10% total damage.",
+      "last_verified": "2026-09-26",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Android 16 mentor training — Lesson 2.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved. 2026-09-22 independent provenance verification: current Dragon Ball Wiki documentation identifies Android Rush as Android 16 Training Lesson 2; a current mentor-training video independently identifies Lesson 2 as Android Rush.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved. 2026-09-22 independent provenance verification: current Dragon Ball Wiki documentation identifies Android Rush as Android 16 Training Lesson 2; a current mentor-training video independently identifies Lesson 2 as Android Rush.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced. 2026-09-26 Batch 470 current-evidence audit: Four-hit structure, 100 Ki, directional knockback control, and source-reported 10% damage are documented; exact launch distances and frame data remain unresolved.",
       "id": "skill-android-rush",
       "source_mentor": [
         "mentor-android-16"
@@ -1189,10 +1190,10 @@
       "source_quest_or_shop": "Parallel Quest 41 — \"Warriors' Annihilation - Future Chapters\"",
       "ultimate_finish_required": false,
       "skill_description": "Burning Attack is a Super Ki Blast skill associated with Future Trunks.",
-      "mechanics_notes": "Current dedicated Xenoverse 2 documentation confirms Burning Attack as a 100-Ki Ki Blast Super associated with Future Trunks. It is a mid-range projectile with an explosive 2-hit launch behavior. The dedicated skill page identifies PQ41 as the acquisition source; the maintained PQ41 reward guide independently lists Burning Attack under Basic Reward. Current evidence confirms CaC availability; no narrower race/gender/form restriction is established, so none is inferred.",
+      "mechanics_notes": "100-Ki Ki Blast Super associated with Future Trunks and acquired from PQ41, Warriors' Annihilation - Future Chapters. The user performs a long hand-seal startup and launches a large projectile that explodes on impact, launches the opponent upward, and can briefly stun/trip them; current skill-specific evidence reports about 15% damage.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burning_Attack",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1201,7 +1202,7 @@
       "source_quest": 41,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance verification: dedicated Xenoverse 2 documentation confirms Ki Blast Super classification, 100 Ki, Future Trunks association, projectile/explosive 2-hit launching behavior, and PQ41 acquisition. Independent PQ41 reward guides place Burning Attack in Basic Reward. No Ultimate Finish-only gate or numeric drop probability is inferred.\n 2026-09-23 provenance refresh: current dedicated XV2 documentation and the maintained all-PQ guide independently corroborate PQ41 identity/acquisition; Dragon Ball technique documentation corroborates the Xenoverse 2 Super Skill identity. Existing Basic Reward semantics are retained; no probability or Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-22 provenance verification: dedicated Xenoverse 2 documentation confirms Ki Blast Super classification, 100 Ki, Future Trunks association, projectile/explosive 2-hit launching behavior, and PQ41 acquisition. Independent PQ41 reward guides place Burning Attack in Basic Reward. No Ultimate Finish-only gate or numeric drop probability is inferred.\n 2026-09-23 provenance refresh: current dedicated XV2 documentation and the maintained all-PQ guide independently corroborate PQ41 identity/acquisition; Dragon Ball technique documentation corroborates the Xenoverse 2 Super Skill identity. Existing Basic Reward semantics are retained; no probability or Ultimate Finish-only gate is inferred. 2026-09-26 Batch 470 current-evidence audit: PQ41, 100 Ki, explosive 2-hit launch behavior, long startup, and source-reported 15% damage are documented; exact startup frames and universal scaling remain unresolved.",
       "method": "Parallel Quest 41 — \"Warriors’ Annihilation - Future Chapters\" Basic Reward",
       "id": "skill-burning-attack",
       "source_parallel_quests": [
@@ -1734,7 +1735,8 @@
         "https://dbxv2.fandom.com/wiki/Chaos_Shot",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74746307",
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-dlc-pack-preview",
-        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-notice-on-transition-from-tp-medals-to-new-paid-currency"
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-notice-on-transition-from-tp-medals-to-new-paid-currency",
+        "https://dragonball.fandom.com/wiki/Chaos_Shot"
       ],
       "ki_cost": 100,
       "unlock_method": "TP Medal Shop",
@@ -1744,9 +1746,9 @@
       "dlc_requirement": "Free Update 1",
       "acquisition_type": "tp_medal_shop",
       "source_quest_or_shop": "TP Medal Shop",
-      "mechanics_notes": "100-Ki Ki Blast Super from the TP Medal Shop. Uncharged input fires Ki Blasts in all directions for 2 hits/10% reported damage; holding concentrates the attack forward for 9 hits/15% reported damage. Current skill evidence identifies Frost as the notable user.",
-      "last_verified": "2026-09-25",
-      "notes": "2026-09-22 provenance verification: dedicated skill documentation confirms Chaos Shot as a 100-Ki Ki Blast Super used by Frost and acquired from the TP Medal Shop. Current official Bandai Namco documentation confirms TP Medals remain earnable and usable in-game after the May 2024 sales transition. The historical mapping of Chaos Shot to the Free Update 1 TP Medal Shop addition remains community/source-supported rather than directly enumerated by the official announcement. 2026-09-23 provenance refresh: dedicated skill evidence and independent corroboration were rechecked; existing acquisition, reward-tier, cost, scope, and mechanics semantics are preserved, and no unsupported drop probability or additional gate is inferred. 2026-09-25 Batch 398 mechanics refresh: current evidence strengthened core behavior and acquisition boundaries; unsupported frame data and unverified drop probabilities remain unresolved.",
+      "mechanics_notes": "100-Ki Ki Blast Super from the TP Medal Shop. Uncharged, it fires Ki Blasts in multiple directions for 2 hits and source-reported 10% damage. Holding the input concentrates the attack forward, producing 9 hits and source-reported 15% damage. The move is associated with Frost.",
+      "last_verified": "2026-09-26",
+      "notes": "2026-09-22 provenance verification: dedicated skill documentation confirms Chaos Shot as a 100-Ki Ki Blast Super used by Frost and acquired from the TP Medal Shop. Current official Bandai Namco documentation confirms TP Medals remain earnable and usable in-game after the May 2024 sales transition. The historical mapping of Chaos Shot to the Free Update 1 TP Medal Shop addition remains community/source-supported rather than directly enumerated by the official announcement. 2026-09-23 provenance refresh: dedicated skill evidence and independent corroboration were rechecked; existing acquisition, reward-tier, cost, scope, and mechanics semantics are preserved, and no unsupported drop probability or additional gate is inferred. 2026-09-25 Batch 398 mechanics refresh: current evidence strengthened core behavior and acquisition boundaries; unsupported frame data and unverified drop probabilities remain unresolved. 2026-09-26 Batch 470 current-evidence audit: The 100-Ki cost, two-input modes, hit counts, TP Medal Shop route, and source-reported damage are documented; exact charge threshold, frames, and scaling remain unresolved.",
       "id": "skill-chaos-shot"
     },
     {
@@ -4453,7 +4455,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Energy_Release",
         "https://dbxv2.fandom.com/wiki/Super_Attack",
-        "https://gamefaqs.gamespot.com/ps4/248428-dragon-ball-xenoverse-dragon-ball-xenoverse-2/faqs/71395?page=3"
+        "https://gamefaqs.gamespot.com/ps4/248428-dragon-ball-xenoverse-dragon-ball-xenoverse-2/faqs/71395?page=3",
+        "https://videogaming.fandom.com/wiki/Energy_Release_%28Dragon_Ball%29"
       ],
       "ki_cost": 0,
       "unlock_method": "Character-exclusive / non-CaC skill",
@@ -4461,12 +4464,12 @@
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Character skill",
-      "mechanics_notes": "Confirmed as Towa-exclusive Other Super. It is a slow Ki-charge stance and is not obtainable by CaCs. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "Towa-exclusive Other Super used as a stationary Ki-charge stance. Current Xenoverse 2 evidence describes it as slower than Energy Charge; Towa remains the documented user and the skill is not a separately obtainable CaC skill. Exact charge rate, frame timing, and total refill timing are not established by the current dedicated reference.",
+      "last_verified": "2026-09-26",
       "race_restriction": "Character-only",
       "dlc_requirement": "Base Game",
       "acquisition_type": "character_only",
-      "notes": "2026-09-22 provenance refresh: current dedicated evidence confirms Energy Release as Towa's character-exclusive Other Super and a slow stationary Ki-charge stance. The skill remains non-CaC; no separate acquisition gate is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
+      "notes": "2026-09-22 provenance refresh: current dedicated evidence confirms Energy Release as Towa's character-exclusive Other Super and a slow stationary Ki-charge stance. The skill remains non-CaC; no separate acquisition gate is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added. 2026-09-26 Batch 470 current-evidence audit: Character-exclusive scope and slow charge behavior are documented; exact charge rate, frames, and full-refill duration remain unresolved.",
       "id": "skill-energy-release"
     },
     {
@@ -6953,20 +6956,22 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Grand_Smasher",
         "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+        "https://dragonball.fandom.com/wiki/Grand_Smasher",
+        "https://dbxenoverse.fandom.com/wiki/Brave_Heat"
       ],
       "unlock_method": "Bojack mentor training — Lesson 3.",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Bojack mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint, skill identity, and classification are directly corroborated; numerical combat mechanics remain deferred until separately verified. 2026-09-23 refresh: current evidence reviewed; documented classification, acquisition, and mechanics were preserved, while unsupported numerical details or narrower CaC restrictions were not inferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate learned through Bojack training. The user throws a large Ki ball; current dedicated evidence reports 35% damage across 21 hits. When the projectile is touching the opponent, an additional input spends 100 more Ki and detonates it for five extra unblockable hits. Thus the documented resource range is 300–400 Ki.",
+      "last_verified": "2026-09-26",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Bojack mentor training — Lesson 3.",
       "dlc_requirement": "Super Pack 3",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved. 2026-09-22 verification refresh: revalidated the existing acquisition/classification provenance against the repository's maintained evidence corpus; existing conflicts and unresolved mechanics remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved. 2026-09-22 verification refresh: revalidated the existing acquisition/classification provenance against the repository's maintained evidence corpus; existing conflicts and unresolved mechanics remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced. 2026-09-26 Batch 470 current-evidence audit: The 300/400-Ki resource model, 21-hit projectile, source-reported 35% damage, and five-hit unblockable detonation are documented; exact input timing, frames, and scaling remain unresolved.",
       "id": "skill-grand-smasher",
       "source_mentor": [
         "mentor-bojack"
@@ -10531,10 +10536,10 @@
       "source_quest_or_shop": "Parallel Quest 123 — \"The Ultimate Battle of the Universe\"",
       "ultimate_finish_required": false,
       "skill_description": "Reverse Shot is a Super Ki Blast skill associated with Super Baby 2.",
-      "mechanics_notes": "100-Ki Ki Blast Super from PQ123. Fires four Ki bullets; a missed blast can reverse after about one second and track the opponent from behind. At red health, the attack uses eight blasts. Current references report 5% total damage for the normal four-blast version and 15% for the red-health version; exact frame/hitbox data remains unresolved.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ123, Planetary Possession. Four Ki bullets are fired initially; if a blast has not hit after roughly one second, it reverses and tracks the opponent from behind. When the user is at red health, the move instead fires eight blasts. Current references report about 5% total damage for the normal version and 15% for the red-health version.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Reverse_Shot",
@@ -10546,7 +10551,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 123,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ123 reward listings explicitly place Reverse Shot in the Basic Reward pool; no Ultimate Finish-only gate is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-20 audit: PQ123 reward listings explicitly place Reverse Shot in the Basic Reward pool; no Ultimate Finish-only gate is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced. 2026-09-26 Batch 470 current-evidence audit: The 100-Ki cost, PQ123 endpoint, reverse-tracking behavior, red-health eight-blast variant, and source-reported damage are documented; exact trigger frames and hitbox/tracking limits remain unresolved.",
       "id": "skill-reverse-shot",
       "source_parallel_quests": [
         123
@@ -12139,18 +12144,19 @@
       "source_quest_or_shop": "Expert Mission 4 — \"Invasion of the Evil Super Namek\"",
       "ultimate_finish_required": false,
       "skill_description": "Throws a fast-tracking, unblockable Destructo-Disc with stronger damage than the standard version.",
-      "mechanics_notes": "200-Ki Ki Blast Super from Expert Mission 4. The user charges and throws a yellow tracking disc that is unblockable; compared with the regular Destructo Disc, it travels faster, does not restand, and can be comboed from sufficiently long knockbacks. Tracking can be activated later while unlocked and locked on. Exact frame data and drop probability remain unresolved.",
+      "mechanics_notes": "200-Ki Ki Blast Super from Expert Mission 4, Invasion of the Evil Super Namek. The user charges and throws a large yellow Destructo-Disc that tracks and is unblockable. Compared with the normal Destructo-Disc, it travels faster, does not restand, and can be comboed after sufficiently long knockbacks; tracking can also be engaged after firing while unlocked and then locking onto the target.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Destructo-Disc",
         "https://dbxv2.fandom.com/wiki/Expert_Mission",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "https://dragonball.fandom.com/wiki/Super_Destructo-Disc"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-23 canonical promotion: Expert Mission 4 identity and category are corroborated by the repository's acquisition index and current research batch. The record deliberately does not assert a guaranteed per-clear drop or numerical rate. 2026-09-23 provenance strengthening: independent Steam Expert Mission guide lists Expert Mission 04 — Invasion of the Evil Super Namek and Super Destructo-Disc under Basic Rewards. This corroborates the existing EM4 acquisition endpoint while the canonical record continues to avoid asserting a guaranteed per-clear drop or numerical drop rate.\n2026-09-25 Batch 411 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal damage scaling, hidden thresholds, and drop probabilities remain unresolved.",
+      "notes": "2026-09-23 canonical promotion: Expert Mission 4 identity and category are corroborated by the repository's acquisition index and current research batch. The record deliberately does not assert a guaranteed per-clear drop or numerical rate. 2026-09-23 provenance strengthening: independent Steam Expert Mission guide lists Expert Mission 04 — Invasion of the Evil Super Namek and Super Destructo-Disc under Basic Rewards. This corroborates the existing EM4 acquisition endpoint while the canonical record continues to avoid asserting a guaranteed per-clear drop or numerical drop rate.\n2026-09-25 Batch 411 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal damage scaling, hidden thresholds, and drop probabilities remain unresolved. 2026-09-26 Batch 470 current-evidence audit: The 200-Ki cost, EM4 endpoint, unblockable tracking, faster travel, and non-restand behavior are documented; exact frames, damage scaling, and drop probability remain unresolved.",
       "id": "skill-super-destructo-disc"
     },
     {
@@ -12927,11 +12933,11 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races while using Ultra Instinct",
       "research_status": "enriched",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "source_quest_or_shop": "Character-exclusive",
-      "mechanics_notes": "Built-in Ultra Instinct Ki-charge action rather than a separately acquired equipable skill. Current references describe it as a charge function that refills Ki in roughly five seconds and charges faster than Maximum Charge; Ultra Instinct CaCs access it through the Awoken Skill's dedicated guard+heavy input while the form is active.",
+      "mechanics_notes": "Built-in Ultra Instinct Ki-charge action rather than a separately acquired equipable skill. Goku (Ultra Instinct) and Goku (Ultra Instinct -Sign-) use it; CaCs can access it only while Ultra Instinct is active through the dedicated guard+heavy input. Current evidence describes roughly five seconds to refill the Ki bars and identifies it as slightly faster than Maximum Charge.",
       "acquisition_type": "other_nonquest",
-      "notes": "2026-09-20 acquisition-status refinement: current Ultra Instinct documentation confirms Surging Spirit is a built-in CaC action while Ultra Instinct is active, rather than a separately acquired/equipped skill. It should not be treated as a standalone character-exclusive acquisition route. 2026-09-21 DLC provenance audit: composite requirement intentionally preserved because Surging Spirit is documented in both Extra Pack 2 (Ultra Instinct Goku) and Conton City Vote Pack (Ultra Instinct -Sign- Goku); collapsing to either single pack would lose meaningful character/DLC context. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred.",
+      "notes": "2026-09-20 acquisition-status refinement: current Ultra Instinct documentation confirms Surging Spirit is a built-in CaC action while Ultra Instinct is active, rather than a separately acquired/equipped skill. It should not be treated as a standalone character-exclusive acquisition route. 2026-09-21 DLC provenance audit: composite requirement intentionally preserved because Surging Spirit is documented in both Extra Pack 2 (Ultra Instinct Goku) and Conton City Vote Pack (Ultra Instinct -Sign- Goku); collapsing to either single pack would lose meaningful character/DLC context. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred. 2026-09-26 Batch 470 current-evidence audit: The built-in Ultra Instinct scope and approximately five-second refill are source-reported; exact rate, frames, and patch-independent timing remain unresolved.",
       "id": "skill-surging-spirit"
     },
     {

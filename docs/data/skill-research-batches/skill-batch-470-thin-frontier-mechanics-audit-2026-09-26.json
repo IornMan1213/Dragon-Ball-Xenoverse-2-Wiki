@@ -1,0 +1,40 @@
+{
+  "batch": 470,
+  "date": "2026-09-26",
+  "selection_method": "Fresh live 474-record census excluding all current-evidence-audited records.",
+  "selected_skills": [
+    {
+      "skill_id": "skill-energy-release",
+      "skill_name": "Energy Release"
+    },
+    {
+      "skill_id": "skill-super-destructo-disc",
+      "skill_name": "Super Destructo-Disc"
+    },
+    {
+      "skill_id": "skill-android-rush",
+      "skill_name": "Android Rush"
+    },
+    {
+      "skill_id": "skill-burning-attack",
+      "skill_name": "Burning Attack"
+    },
+    {
+      "skill_id": "skill-chaos-shot",
+      "skill_name": "Chaos Shot"
+    },
+    {
+      "skill_id": "skill-surging-spirit",
+      "skill_name": "Surging Spirit"
+    },
+    {
+      "skill_id": "skill-reverse-shot",
+      "skill_name": "Reverse Shot"
+    },
+    {
+      "skill_id": "skill-grand-smasher",
+      "skill_name": "Grand Smasher"
+    }
+  ],
+  "next_exclusion_rule": "Exclude Batch 470 and every prior registered current-evidence audit."
+}

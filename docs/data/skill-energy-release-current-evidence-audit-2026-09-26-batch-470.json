@@ -1,0 +1,12 @@
+{
+  "batch": 470,
+  "date": "2026-09-26",
+  "skill_id": "skill-energy-release",
+  "skill_name": "Energy Release",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Energy_Release",
+    "https://videogaming.fandom.com/wiki/Energy_Release_%28Dragon_Ball%29"
+  ],
+  "evidence_boundary": "Character-exclusive scope and slow charge behavior are documented; exact charge rate, frames, and full-refill duration remain unresolved."
+}

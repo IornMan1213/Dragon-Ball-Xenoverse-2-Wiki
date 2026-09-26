@@ -1,0 +1,12 @@
+{
+  "batch": 470,
+  "date": "2026-09-26",
+  "skill_id": "skill-android-rush",
+  "skill_name": "Android Rush",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Android_Rush",
+    "https://dragonball.fandom.com/wiki/Android_Rush"
+  ],
+  "evidence_boundary": "Four-hit structure, 100 Ki, directional knockback control, and source-reported 10% damage are documented; exact launch distances and frame data remain unresolved."
+}

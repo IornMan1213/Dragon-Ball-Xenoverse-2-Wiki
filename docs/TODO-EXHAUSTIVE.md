@@ -1,3 +1,12 @@
+### 2026-09-26 TODO progress update — Skill Research Batch 470 completed
+- [x] Researched **Energy Release, Super Destructo-Disc, Android Rush, Burning Attack, Chaos Shot, Surging Spirit, Reverse Shot, and Grand Smasher**.
+- [x] Enriched/synchronized canonical and index datasets; validation target remains 474/474 with 0 missing / 0 extra.
+- [x] Added eight current-evidence audits, Batch 470 research/thin-frontier artifacts, and provenance registrations.
+- [x] Preserved the built-in Ultra Instinct semantics of Surging Spirit and bounded all unsupported mechanics rather than inferring them.
+- [ ] CI/build remains unverified.
+- [ ] Efficiency addendum remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 470 and all prior current-evidence-audited records.
+
 ### 2026-09-26 TODO progress update — Skill Research Batch 469 completed
 - [x] Researched **Fighting Pose C, Burst Kamehameha, Supernova, Freedom Kick, Super Elite Combo, Atomic Blast, Super Ghost Kamikaze Attack (Super), and Super God Shock Flash**.
 - [x] Enriched/synchronized canonical and index datasets; validation target remains 474/474 with 0 missing / 0 extra.

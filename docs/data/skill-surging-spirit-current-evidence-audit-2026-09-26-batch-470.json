@@ -1,0 +1,12 @@
+{
+  "batch": 470,
+  "date": "2026-09-26",
+  "skill_id": "skill-surging-spirit",
+  "skill_name": "Surging Spirit",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Surging_Spirit",
+    "https://dragonball.fandom.com/wiki/Full_Power_Charge"
+  ],
+  "evidence_boundary": "The built-in Ultra Instinct scope and approximately five-second refill are source-reported; exact rate, frames, and patch-independent timing remain unresolved."
+}

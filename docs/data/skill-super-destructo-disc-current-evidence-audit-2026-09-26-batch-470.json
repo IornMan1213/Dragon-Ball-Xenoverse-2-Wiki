@@ -1,0 +1,13 @@
+{
+  "batch": 470,
+  "date": "2026-09-26",
+  "skill_id": "skill-super-destructo-disc",
+  "skill_name": "Super Destructo-Disc",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Destructo-Disc",
+    "https://dragonball.fandom.com/wiki/Super_Destructo-Disc",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
+  ],
+  "evidence_boundary": "The 200-Ki cost, EM4 endpoint, unblockable tracking, faster travel, and non-restand behavior are documented; exact frames, damage scaling, and drop probability remain unresolved."
+}

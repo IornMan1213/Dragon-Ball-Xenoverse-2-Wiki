@@ -1,0 +1,93 @@
+{
+  "batch": 470,
+  "date": "2026-09-26",
+  "scope": "Fresh unaudited mechanics frontier",
+  "skills": [
+    {
+      "skill_id": "skill-energy-release",
+      "skill_name": "Energy Release",
+      "mechanics_boundary": "Towa-exclusive Other Super used as a stationary Ki-charge stance. Current Xenoverse 2 evidence describes it as slower than Energy Charge; Towa remains the documented user and the skill is not a separately obtainable CaC skill. Exact charge rate, frame timing, and total refill timing are not established by the current dedicated reference.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Energy_Release",
+        "https://videogaming.fandom.com/wiki/Energy_Release_%28Dragon_Ball%29"
+      ]
+    },
+    {
+      "skill_id": "skill-super-destructo-disc",
+      "skill_name": "Super Destructo-Disc",
+      "mechanics_boundary": "200-Ki Ki Blast Super from Expert Mission 4, Invasion of the Evil Super Namek. The user charges and throws a large yellow Destructo-Disc that tracks and is unblockable. Compared with the normal Destructo-Disc, it travels faster, does not restand, and can be comboed after sufficiently long knockbacks; tracking can also be engaged after firing while unlocked and then locking onto the target.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Destructo-Disc",
+        "https://dragonball.fandom.com/wiki/Super_Destructo-Disc",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
+      ]
+    },
+    {
+      "skill_id": "skill-android-rush",
+      "skill_name": "Android Rush",
+      "mechanics_boundary": "100-Ki Strike Super from Android 16 training. The rush has four hits: three kicks followed by a final backhand/punch/kick that launches the opponent. Directional input controls the final knockback route: neutral sends the target forward, up sends them downward, and down sends them upward. Current dedicated evidence reports about 10% total damage.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Android_Rush",
+        "https://dragonball.fandom.com/wiki/Android_Rush"
+      ]
+    },
+    {
+      "skill_id": "skill-burning-attack",
+      "skill_name": "Burning Attack",
+      "mechanics_boundary": "100-Ki Ki Blast Super associated with Future Trunks and acquired from PQ41, Warriors' Annihilation - Future Chapters. The user performs a long hand-seal startup and launches a large projectile that explodes on impact, launches the opponent upward, and can briefly stun/trip them; current skill-specific evidence reports about 15% damage.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Burning_Attack",
+        "https://dragonball.fandom.com/wiki/Burning_Attack"
+      ]
+    },
+    {
+      "skill_id": "skill-chaos-shot",
+      "skill_name": "Chaos Shot",
+      "mechanics_boundary": "100-Ki Ki Blast Super from the TP Medal Shop. Uncharged, it fires Ki Blasts in multiple directions for 2 hits and source-reported 10% damage. Holding the input concentrates the attack forward, producing 9 hits and source-reported 15% damage. The move is associated with Frost.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Chaos_Shot",
+        "https://dragonball.fandom.com/wiki/Chaos_Shot"
+      ]
+    },
+    {
+      "skill_id": "skill-surging-spirit",
+      "skill_name": "Surging Spirit",
+      "mechanics_boundary": "Built-in Ultra Instinct Ki-charge action rather than a separately acquired equipable skill. Goku (Ultra Instinct) and Goku (Ultra Instinct -Sign-) use it; CaCs can access it only while Ultra Instinct is active through the dedicated guard+heavy input. Current evidence describes roughly five seconds to refill the Ki bars and identifies it as slightly faster than Maximum Charge.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Surging_Spirit",
+        "https://dragonball.fandom.com/wiki/Full_Power_Charge"
+      ]
+    },
+    {
+      "skill_id": "skill-reverse-shot",
+      "skill_name": "Reverse Shot",
+      "mechanics_boundary": "100-Ki Ki Blast Super from PQ123, Planetary Possession. Four Ki bullets are fired initially; if a blast has not hit after roughly one second, it reverses and tracks the opponent from behind. When the user is at red health, the move instead fires eight blasts. Current references report about 5% total damage for the normal version and 15% for the red-health version.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Reverse_Shot",
+        "https://dragonball.fandom.com/wiki/Reverse_Shot"
+      ]
+    },
+    {
+      "skill_id": "skill-grand-smasher",
+      "skill_name": "Grand Smasher",
+      "mechanics_boundary": "300-Ki Ki Blast Ultimate learned through Bojack training. The user throws a large Ki ball; current dedicated evidence reports 35% damage across 21 hits. When the projectile is touching the opponent, an additional input spends 100 more Ki and detonates it for five extra unblockable hits. Thus the documented resource range is 300–400 Ki.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Grand_Smasher",
+        "https://dragonball.fandom.com/wiki/Grand_Smasher",
+        "https://dbxenoverse.fandom.com/wiki/Brave_Heat"
+      ]
+    }
+  ],
+  "selection_basis": "Lowest combined mechanics/notes coverage among 474 canonical records after excluding every registered current-evidence audit.",
+  "evidence_policy": [
+    "Preserve source-reported costs, hit counts, damage, duration, and timing as bounded evidence.",
+    "Do not infer unsupported frames, hidden gates, probabilities, or patch-independent scaling.",
+    "Keep built-in Ultra Instinct Surging Spirit distinct from separately acquired equipable charge skills.",
+    "Keep normal and enhanced/reaction variants within the same canonical skill only when the source explicitly documents them."
+  ],
+  "validation": {
+    "canonical_skill_records": 474,
+    "index_skill_records": 474
+  },
+  "ci_build": "unverified"
+}
