@@ -1,0 +1,24 @@
+{
+  "batch": 424,
+  "date": "2026-09-26",
+  "skill_id": "skill-burning-spin",
+  "skill_name": "Burning Spin",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Burning_Spin",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=2865944444",
+    "https://videogamemods.com/the-citadel/dragon-ball-xenoverse-2/mods/fully-restored-demigra-voice-lines-ultimate-skills-behaviour-fix"
+  ],
+  "scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Batch 424.",
+  "findings": "Strike Ultimate with a controllable flame bubble. Current dedicated skill documentation reports 400 Ki, a Wish acquisition endpoint, free movement during the attack, an approximately 8-second active window, 2–8 hits, and 5% damage per hit. Independent current mod documentation corroborates unusual camera/control behavior and historical behavior fixes, but those implementation details are kept contextual rather than promoted as universal frame rules.",
+  "canonical_changes": {
+    "mechanics_notes_updated": false,
+    "last_verified": "2026-09-26",
+    "research_status": "evidence_ready_pending_canonical_sync",
+    "verification_status": "evidence_reviewed"
+  },
+  "unresolved": [
+    "An alternate current aggregate table reports a 300-Ki cost; the 400-Ki dedicated skill page is retained as the primary current evidence and the conflict is not silently normalized.",
+    "Exact frame data, movement-speed parameters, hit cadence, and patch-independent damage scaling remain unresolved.",
+    "Historical mod fixes are not treated as base-game guarantees."
+  ]
+}
