@@ -1,0 +1,18 @@
+{
+  "batch": 464,
+  "date": "2026-09-26",
+  "skill_name": "Lightning of Absolution",
+  "skill_id": "skill-lightning-of-absolution",
+  "status": "completed",
+  "findings": [
+    "100-Ki tracking Ki Blast Super associated with Fused Zamasu. It produces a two-hit long-range lightning attack; current evidence reports approximately 5% damage and documents additional lightning strikes that can still connect when the initial halo lightning misses. Exact tracking limits, frame data, and scaling remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Lightning_of_Absolution",
+    "https://dbxv2.fandom.com/wiki/Fused_Zamasu"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}
