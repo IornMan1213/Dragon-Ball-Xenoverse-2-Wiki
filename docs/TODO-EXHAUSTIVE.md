@@ -1,3 +1,13 @@
+### 2026-09-26 continuation — Skill Research Batch 472 prepared
+
+- [x] Performed a fresh unaudited mechanics frontier after Batch 471 and selected **Big Bang Knuckle, God Breaker, Heroic Counter, Counter Impact, Punisher Drive, Time Skip/Back Breaker, Time Skip/Flash Skewer, and Time Skip/Jump Spike**.
+- [x] Added the Batch 472 research artifact, thin-frontier audit, eight current-evidence audit artifacts, and registered all nine artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Rechecked current Xenoverse 2-specific mechanics and acquisition evidence from dedicated skill references plus official/secondary corroboration where available.
+- [x] Preserved source-reported damage values as source-reported values and bounded unsupported frame data, scaling formulas, probabilities, and hidden interactions.
+- [ ] Canonical `docs/data/skills.json` and `docs/data/skills-index.json` synchronization remains pending because the live canonical blobs are too large for the available GitHub file-content fetch/update path in this cycle; no canonical parity claim is made for Batch 472.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** perform another fresh unaudited mechanics frontier excluding Batch 472 and every prior current-evidence audit; then synchronize the next completed batch into the canonical skill datasets when the canonical blobs are writable.
+
 ### 2026-09-26 TODO progress update — Skill Research Batch 471 completed
 - [x] Researched **Fighting Pose H, Brave Heat, Super Ghost Buu Attack, Supreme Fury, Rocket Tackle, Trap Shooter, Murder Grenade, and Chain Destructo-Disc Barrage**.
 - [x] Enriched/synchronized canonical and index datasets; validation remains 474/474 with 0 missing / 0 extra.
