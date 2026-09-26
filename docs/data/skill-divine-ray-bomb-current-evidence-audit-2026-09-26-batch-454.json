@@ -1,0 +1,19 @@
+{
+  "skill_id": "skill-divine-ray-bomb",
+  "name": "Divine Ray Bomb",
+  "batch": 454,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Divine_Ray_Bomb",
+    "https://dragonball.fandom.com/wiki/Divine_Ray_Bomb"
+  ],
+  "findings": [
+    "2026-09-26 Batch 454 current-evidence enrichment: 300-Ki Ki Blast Ultimate from PQ173, Decoding Dinner. The user generates a pink Ki scythe, vanishes/reappears in front of the target—or behind them when knocked away beforehand—slashes, sends the opponent away, and follows with a purple Ki Blast. Current skill evidence documents an 11-hit characteristic and keeps the maintained PQ173 acquisition endpoint; exact damage, frame timing, and tracking remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
