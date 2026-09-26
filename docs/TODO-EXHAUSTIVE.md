@@ -2203,3 +2203,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated and registered `docs/data/skill-acquisition-metadata-integrity-audit-2026-09-26.json`; the existing **474-record / 0 anomaly** audit remains the recorded result, and no canonical acquisition data was changed.
 - [ ] CI/build/runtime remains unverified; the validator was hardened but no workflow success is claimed.
 - [x] **Exact next:** continue inspecting live validators for concrete schema/acceptance gaps and harden them without inventing or changing unsupported canonical data.
+
+
+### 2026-09-26 continuation — Skill acquisition PQ endpoint validation hardened
+- [x] Found a second concrete acceptance gap in `scripts/validate_skill_acquisition_metadata.py`: non-empty `source_parallel_quests` values were previously accepted without validating type or supported PQ range.
+- [x] Hardened the validator so every declared `source_parallel_quests` endpoint must be an integer in the supported **PQ 1–186** range.
+- [x] Updated `docs/data/skill-acquisition-metadata-integrity-audit-2026-09-26.json` to record the new check; the live audit remains **474 records / 0 invalid endpoints / 0 metadata anomalies**.
+- [x] Refreshed the existing cross-domain registration; no canonical skill data or unsupported PQ relationship was added.
+- [ ] CI/build/runtime remains unverified.
+- [x] **Exact next:** continue auditing live validators for concrete acceptance/schema gaps, prioritizing deterministic cross-domain integrity without reconstructing unsupported datasets.
