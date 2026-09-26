@@ -1,0 +1,21 @@
+{
+  "batch": 458,
+  "date": "2026-09-26",
+  "skill_name": "Dead End Bullet",
+  "skill_id": "skill-dead-end-bullet",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Skill Research Batch 458.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Dead_End_Bullet",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
+  ],
+  "findings": [
+    "300-Ki Ki Blast Ultimate from Expert Mission 8. The user jumps upward and rains Ki Blasts downward in a long-range, 21-hit projectile sequence with knockback and about 30% source-reported total damage. Community usage notes are kept separate from deterministic mechanics."
+  ],
+  "evidence_boundaries": [
+    "Exact frame data is not promoted.",
+    "Patch-independent scaling is not inferred from source-reported values.",
+    "Reward probabilities and hidden prerequisites are not promoted unless directly evidenced.",
+    "Community usage commentary is not converted into deterministic mechanics."
+  ]
+}
