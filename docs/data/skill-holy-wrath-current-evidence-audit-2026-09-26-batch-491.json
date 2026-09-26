@@ -1,0 +1,10 @@
+{
+  "batch": 491,
+  "date": "2026-09-26",
+  "skill_id": "skill-holy-wrath",
+  "skill_name": "Holy Wrath",
+  "status": "complete",
+  "findings": "100-Ki Ki Blast Super from PQ111. Creates an orange Ki sphere, permits movement while charging, and increases projectile size/damage through charge levels. Current skill documentation reports a six-hit base sequence and up to 20% damage at maximum charge. Basic Reward acquisition is retained.",
+  "evidence_boundary": "Current-source behavior and source-reported numerical values are bounded. Unsupported exact frames, universal scaling, hidden interactions, and drop probabilities are not asserted.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}
