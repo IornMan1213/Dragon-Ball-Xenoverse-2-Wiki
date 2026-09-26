@@ -1,0 +1,24 @@
+{
+  "batch": 451,
+  "date": "2026-09-26",
+  "status": "complete",
+  "scope": "Fresh unaudited mechanics frontier",
+  "selected": [
+    "Force Shield",
+    "Eraser Bomb",
+    "Evil Flame",
+    "Galactic Donuts",
+    "Energy Field",
+    "Bloody Counter",
+    "Supersonic Mode",
+    "Big Bang Attack"
+  ],
+  "evidence_policy": "Current Xenoverse 2-specific evidence prioritized; unsupported exact frames, scaling, probabilities, and hidden conditions were not inferred.",
+  "validation": {
+    "canonical": 474,
+    "index": 474,
+    "missing": 0,
+    "extra": 0
+  },
+  "exact_next": "Fresh unaudited mechanics frontier excluding Batch 451 and all prior current-evidence-audited records."
+}
