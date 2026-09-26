@@ -1,3 +1,14 @@
+### 2026-09-26 continuation — Batch 474 canonical-frontier verification
+
+- [x] Re-inspected the handoff and TODO state and performed a repository-wide audit search rather than blindly duplicating Batch 473.
+- [x] Confirmed that several Batch 473 candidates do not have discoverable current-evidence audit matches through the repository search surface, so they remain **verification candidates**, not falsely marked complete.
+- [x] Added `docs/data/skill-research-batches/skill-batch-474.json` to record this frontier and the evidence boundary.
+- [ ] Resolve the six Batch 474 candidates against the canonical skill datasets using a safe large-file access/write path; only then promote them to canonical mechanics records.
+- [ ] Canonical `skills.json` / `skills-index.json` synchronization remains the blocking infrastructure issue.
+- [ ] CI/build remains unverified.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` still appears unavailable at the expected repository path.
+- [x] **Exact next:** investigate the repository's generated/indexed skill-data files and GitHub tree/file APIs for a non-truncating canonical update path, then synchronize the oldest verified-but-pending mechanics records before starting another research batch.
+
 ### 2026-09-26 continuation — Skill Research Batch 473 completed
 
 - [x] Performed the fresh unaudited mechanics frontier after Batch 472, excluding prior registered current-evidence audits.
