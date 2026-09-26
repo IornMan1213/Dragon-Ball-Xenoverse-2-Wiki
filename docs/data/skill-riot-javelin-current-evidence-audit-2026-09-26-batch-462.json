@@ -1,0 +1,21 @@
+{
+  "batch": 462,
+  "date": "2026-09-26",
+  "skill_name": "Riot Javelin",
+  "skill_id": "skill-riot-javelin",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics/provenance review for the live canonical record.",
+  "findings": [
+    "100-Ki Ki Blast Super from Bardock mentor Lesson 2. The user charges and throws a blue Ki Blast; current dedicated evidence documents full 360-degree tracking at short range and a low-health state below 5000 HP that substantially increases the move's strength and ease of landing. Exact damage scaling and the implementation of the low-health multiplier remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Riot_Javelin",
+    "https://dbxv2.fandom.com/wiki/Mentors",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "No unsupported exact frame data, hidden gates, reward probabilities, or patch-independent scaling is promoted.",
+    "Known source conflicts or historical evidence are retained as provenance rather than silently normalized."
+  ]
+}
