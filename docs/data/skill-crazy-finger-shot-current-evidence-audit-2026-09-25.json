@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-crazy-finger-shot-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Crazy Finger Shot",
+  "result": "current_evidence_refresh",
+  "supported_fields": {
+    "class": "Super",
+    "subcategory": "Ki Blast",
+    "ki_cost": 100,
+    "source_quest_or_shop": "Parallel Quest 26 - Clash of Kin!",
+    "mechanics": "Thin finger-beam barrage; additional inputs extend the sequence, with current research documenting up to 14 blasts and up to 800 Ki total."
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Crazy_Finger_Shot"
+  ],
+  "limits": [
+    "No unsupported frame data, exact damage, reward probability, or hidden acquisition gate is inferred."
+  ]
+}
