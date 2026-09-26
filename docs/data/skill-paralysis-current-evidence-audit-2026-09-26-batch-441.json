@@ -1,0 +1,19 @@
+{
+  "skill_id": "skill-paralysis",
+  "name": "Paralysis",
+  "batch": 441,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Paralysis",
+    "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+    "https://dragonball.fandom.com/wiki/Guldo_Special"
+  ],
+  "findings": [
+    "300 Ki Strike Ultimate",
+    "PQ34 Basic Reward",
+    "Telekinetic immobilization followed by ice-pillar freeze",
+    "Two hits and ~25% total damage reported; unblockable property documented",
+    "Exact freeze/frame/scaling unresolved"
+  ]
+}
