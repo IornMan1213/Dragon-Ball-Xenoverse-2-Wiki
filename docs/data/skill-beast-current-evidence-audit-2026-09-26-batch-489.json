@@ -1,0 +1,14 @@
+{
+  "batch": 489,
+  "date": "2026-09-26",
+  "skill_id": "skill-beast",
+  "skill_name": "Beast",
+  "status": "complete",
+  "findings": "Current evidence confirms 500-Ki all-CaC Awoken, +30% all attack, +20% Ki restoration, +20% damage taken, altered combo string, teleporting standing Light/charged Heavy behavior, and Ki consumption on activation.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Beast",
+    "https://dbxv2.fandom.com/wiki/Awoken_Skill"
+  ],
+  "evidence_boundary": "Current-source behavior and source-reported values are bounded; unsupported exact frames, universal scaling, hidden interactions, and drop probabilities are not asserted.",
+  "canonical_sync": "Synchronized into canonical and index skill datasets; parity validated at 474/474."
+}
