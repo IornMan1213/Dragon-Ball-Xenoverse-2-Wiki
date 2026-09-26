@@ -123,7 +123,7 @@
       "status": "clean"
     }
   },
-  "evidence_boundary": "Identity/navigation parity remains clean. This cycle additionally verifies that bridge character IDs and preset record IDs are string-shaped and unique, and that optional bridge source_name values are unique when present. Missing optional source_name is not treated as a duplicate. Markdown consumer inspection additionally checks the Character Encyclopedia's canonical explorer link and the core profile page for hard-coded preset labels; no preset labels were found in those two Markdown consumers. 2026-09-24: all current character-count consumers in this audit now use the live 152-character baseline. 2026-09-26: the restored five explicit preset character bridge records (Bardock, Raditz, Nappa, Recoome, Zarbon) raise the live bridge to 34; this audit now reflects that reconciled baseline.",
+  "evidence_boundary": "Identity/navigation parity remains clean. This cycle additionally verifies that bridge character IDs and preset record IDs are string-shaped and unique, and that optional bridge source_name values are unique when present. Missing optional source_name is not treated as a duplicate. Markdown consumer inspection additionally checks the Character Encyclopedia's canonical explorer link and the core profile page for hard-coded preset labels; no preset labels were found in those two Markdown consumers. 2026-09-24: all current character-count consumers in this audit now use the live 152-character baseline. 2026-09-26: the restored five explicit preset character bridge records (Bardock, Raditz, Nappa, Recoome, Zarbon) raise the live bridge to 34; all embedded character-navigation count projections in this audit reflect that reconciled baseline.",
   "rules": [
     "Canonical character names remain authoritative.",
     "Presentation IDs resolve only through the explicit bridge.",
@@ -132,7 +132,7 @@
   "partner_customization_navigation": {
     "key_records": 20,
     "reconciliation_records": 20,
-    "bridge_records": 29,
+    "bridge_records": 34,
     "canonical_character_names": 152,
     "page_search_links": 20,
     "unresolved_character_ids": [],
