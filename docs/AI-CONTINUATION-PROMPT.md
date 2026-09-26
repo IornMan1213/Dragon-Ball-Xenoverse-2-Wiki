@@ -785,3 +785,14 @@
 - [ ] CI: latest runs for this work failed for Repository quality, Wiki data audit, and Clean internal artifacts; Pages deployment was pending at inspection time. No CI success is claimed.
 - [x] Commits: batch `4d0cd14`, audit `15b4ee1`, skills index `ceda61e`, cross-domain registration `5efc253`.
 - [ ] **Exact next:** perform a fresh post-Batch-375 live census and continue the shortest/highest-impact mechanics footprint, beginning with the next remaining 78-character records (**Super Ghost Kamikaze Attack duplicate Ultimate projection, Supernova Cooler/other ties as applicable**) only after confirming the live index; otherwise select the next genuinely shortest records and avoid repeating already enriched targets.
+
+
+### 2026-09-25 completion — Skill Batches 376–377 fresh thin-record frontier
+- [x] Batch 376 enriched **Spirit Ball, Spirit Pulse, Chaos Wall, Sign of Awakening, Tail Slicer** and synchronized canonical/index layers at **469/469**.
+- [x] Batch 376 explicitly preserved the Tail Slicer blockability/unblockability source conflict instead of silently choosing one interpretation.
+- [x] Batch 377 then enriched the next shortest live records: **Shining Friday, Super Explosive Wave (Super), Fighting Pose A, Super Saiyan God Super Saiyan, Super Saiyan God Super Saiyan (Evolved)**.
+- [x] Added/registered research and audit artifacts for both batches in the cross-domain index.
+- [x] Fresh live post-Batch-377 census is the next operation; do not assume the historical 78-character frontier remains current.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Canonical/index writes were performed through Git blob reconstruction and direct full-file updates; both were 469 records before/after target synchronization.
+- [ ] **Exact next:** perform a fresh live census of mechanics_notes, exclude recently enriched targets, and continue the shortest/highest-impact records. Prioritize remaining records at or near 78–100 characters, while checking whether their short text is stale before researching them.
