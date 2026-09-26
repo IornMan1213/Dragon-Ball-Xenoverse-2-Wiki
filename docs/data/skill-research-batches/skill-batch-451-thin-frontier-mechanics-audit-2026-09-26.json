@@ -1,0 +1,21 @@
+{
+  "batch": 451,
+  "date": "2026-09-26",
+  "type": "thin_frontier_mechanics_audit",
+  "selected": [
+    "Force Shield",
+    "Eraser Bomb",
+    "Evil Flame",
+    "Galactic Donuts",
+    "Energy Field",
+    "Bloody Counter",
+    "Supersonic Mode",
+    "Big Bang Attack"
+  ],
+  "method": "Fresh combined mechanics/notes coverage census over the live canonical set, excluding every skill with a registered current-evidence audit.",
+  "boundaries": [
+    "Source-reported numbers remain source-bound.",
+    "No unsupported exact frame or scaling claims inferred.",
+    "Acquisition endpoints remain separate from probabilities and hidden gates."
+  ]
+}
