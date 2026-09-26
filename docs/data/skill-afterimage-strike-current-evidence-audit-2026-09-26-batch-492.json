@@ -1,0 +1,14 @@
+{
+  "batch": 492,
+  "date": "2026-09-26",
+  "skill_id": "skill-afterimage-strike",
+  "skill_name": "Afterimage Strike",
+  "status": "complete",
+  "findings": "100-Ki Other Super from PQ81. The current skill page describes a flurry of afterimages around the opponent and permits interruption or continuation with another attack; maintained reward evidence lists PQ81 Basic Reward.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Afterimage_Strike",
+    "https://dragonball.fandom.com/wiki/Afterimage_Strike",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "evidence_boundary": "Current-source behavior and explicit acquisition evidence are retained. Exact frames, damage, probabilities, and hidden interactions are not inferred."
+}
