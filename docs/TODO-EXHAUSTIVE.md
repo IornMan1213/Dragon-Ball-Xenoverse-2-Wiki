@@ -621,3 +621,11 @@
 - [x] Added and registered both audit/research batches; canonical/index parity remains clean.
 - [ ] CI remains unverified.
 - [x] **Next:** The Savior Has Come (78 chars), then Jumping Energy Wave (79) and Evil Flight Strike (85), using evidence-bound mechanics enrichment.
+
+
+### 2026-09-25 completion — Skill Batch 373
+- [x] Fresh census: **469/469**, 0 empty mechanics_notes.
+- [x] Enriched **The Savior Has Come, Jumping Energy Wave, Evil Flight Strike** with current skill-specific mechanics and synchronized canonical/index data.
+- [x] Added and registered Batch 373 audit/research artifacts; target fields have exact parity.
+- [ ] CI remains unverified.
+- [x] **Next:** Fighting Pose A (86), Afterimage (90), Spirit Bomb (91), S.S. Deadly Bomber (96), Charged Ki Wave (98).
