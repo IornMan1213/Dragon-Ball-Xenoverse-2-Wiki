@@ -2243,3 +2243,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] The efficiency addendum remains unavailable at the expected repository path (GitHub 404).
 - [x] Exact next: inspect the remaining critical unreachable cross-domain references and regenerate only those that are both required by live navigation/validators and safely derivable from canonical data. In particular, prioritize docs/data/pq-reward-relationships.json and the PQ reverse/crosslink artifacts if their canonical source layers are sufficient; otherwise record an explicit evidence boundary instead of manufacturing them.
 
+### 2026-09-26 continuation — Critical PQ forward-layer regeneration boundary checked
+- [x] Checked the remaining highest-priority unreachable PQ forward/reverse artifacts after character/navigation recovery: `pq-reward-relationships.json`, `pq-skill-crosslink-report.json`, `characters/pq-reverse-index.json`, `dlc/pq-reverse-index.json`, and `farming/pq-farming-reverse-index.json` remain absent from the live tree.
+- [x] Confirmed the live skill→PQ reverse layer is independently canonical and reproducible from `docs/data/skills.json` via `scripts/validate_skill_pq_crosslinks.py`; it must not be conflated with the absent general PQ reward forward layer.
+- [x] Did not fabricate a replacement `pq-reward-relationships.json` from partial/derived indexes because the repository currently lacks a complete canonical PQ reward source sufficient to regenerate it without inference.
+- [x] Preserved the existing 16-PQ unrepresented-endpoint evidence boundary: absence from the skill reverse index does not prove absence of PQ skill rewards.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** continue with another concrete, safely regenerable cross-domain artifact (or a live canonical navigation/consumer gap) rather than recreating the missing general PQ reward layer from incomplete evidence.
+
