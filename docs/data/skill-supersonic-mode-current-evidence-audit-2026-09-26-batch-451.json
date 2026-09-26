@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-supersonic-mode",
+  "name": "Supersonic Mode",
+  "batch": 451,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_boundaries": [
+    "Current Xenoverse 2-specific mechanics reviewed.",
+    "Unsupported exact frames, scaling, probabilities, and hidden conditions not inferred."
+  ]
+}
