@@ -1,0 +1,14 @@
+{
+  "batch": 489,
+  "date": "2026-09-26",
+  "skill_id": "skill-god-of-destruction-s-roar",
+  "skill_name": "God Of Destruction S Roar",
+  "status": "complete",
+  "findings": "Current evidence confirms 100-Ki Strike Super, PQ105 acquisition, no direct damage, rapid Stamina drain, guard-forcing while Stamina remains, and user exhaustion/vulnerability if held too long.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Roar",
+    "https://dragonball.fandom.com/wiki/God_of_Destruction%27s_Roar"
+  ],
+  "evidence_boundary": "Current-source behavior and source-reported values are bounded; unsupported exact frames, universal scaling, hidden interactions, and drop probabilities are not asserted.",
+  "canonical_sync": "Synchronized into canonical and index skill datasets; parity validated at 474/474."
+}
