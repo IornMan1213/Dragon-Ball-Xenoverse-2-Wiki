@@ -314,7 +314,10 @@
     "pq_skill_crosslink_validator_hardening_2026_09_25": "docs/data/pq-skill-crosslink-validator-hardening-2026-09-25.json",
     "skill_thin_domain_gap_closure_2026_09_25": "docs/data/skill-thin-domain-gap-closure-audit-2026-09-25.json",
     "skill_acquisition_endpoint_parity_2026_09_25": "docs/data/skill-acquisition-endpoint-parity-audit-2026-09-25.json",
-    "non_pq_skill_endpoint_coverage_validator_2026_09_25": "docs/data/non-pq-skill-endpoint-coverage-validator-audit-2026-09-25.json"
+    "non_pq_skill_endpoint_coverage_validator_2026_09_25": "docs/data/non-pq-skill-endpoint-coverage-validator-audit-2026-09-25.json",
+    "skill_pq_live_reverse_index": "docs/data/skill-pq-reverse-index-2026-09-26.json",
+    "skill_pq_cross_domain_integrity_audit": "docs/data/skill-pq-cross-domain-linkage-integrity-audit-2026-09-26.json",
+    "skill_pq_crosslink_validator": "scripts/validate_skill_pq_crosslinks.py"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
@@ -1757,5 +1760,32 @@
   "skill_gigantic_charge_current_evidence_audit_2026_09_26_batch_491": "docs/data/skill-gigantic-charge-current-evidence-audit-2026-09-26-batch-491.json",
   "skill_pendulum_bullet_current_evidence_audit_2026_09_26_batch_491": "docs/data/skill-pendulum-bullet-current-evidence-audit-2026-09-26-batch-491.json",
   "skill_heat_dome_attack_current_evidence_audit_2026_09_26_batch_491": "docs/data/skill-heat-dome-attack-current-evidence-audit-2026-09-26-batch-491.json",
-  "skill_corpus_data_integrity_audit_2026_09_26": "docs/data/skill-corpus-data-integrity-audit-2026-09-26.json"
+  "skill_corpus_data_integrity_audit_2026_09_26": "docs/data/skill-corpus-data-integrity-audit-2026-09-26.json",
+  "current_live_relationships": {
+    "last_audited": "2026-09-26",
+    "canonical_skill_count": 474,
+    "skill_pq_reverse_index": "docs/data/skill-pq-reverse-index-2026-09-26.json",
+    "skill_pq_integrity_audit": "docs/data/skill-pq-cross-domain-linkage-integrity-audit-2026-09-26.json",
+    "explicit_skill_pq_edges": 246,
+    "represented_pq_ids": 170,
+    "unrepresented_pq_ids": [
+      1,
+      30,
+      35,
+      47,
+      48,
+      89,
+      90,
+      91,
+      93,
+      102,
+      103,
+      107,
+      108,
+      118,
+      121,
+      144
+    ],
+    "note": "These counts are derived only from explicit source_parallel_quests fields in the canonical skill corpus. They do not imply that an unrepresented PQ has no skill rewards."
+  }
 }
