@@ -2298,3 +2298,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [ ] The efficiency addendum remains unavailable at the expected repository path (GitHub 404).
 - [x] **Exact next:** continue from the refreshed cross-domain reachability baseline and inspect the remaining critical unreachable references for a live-required, safely regenerable artifact. Do not recreate the absent general PQ reward layer or historical-only artifacts without a complete canonical source.
+
+
+### 2026-09-26 continuation — Partner evidence-path validation hardening
+- [x] Hardened `scripts/validate_partner_skill_relationships.py` so every declared relationship evidence path must resolve to a real file in the repository, in addition to canonical-ID, uniqueness, relationship-type, and non-empty-evidence checks.
+- [x] Rechecked the live relationship layer: **3 relationships / 6 declared evidence files / 0 missing evidence files / clean**.
+- [x] Updated `docs/data/partner-skill-relationship-validator-audit-2026-09-26.json` with the evidence-path result and kept it registered in the cross-domain index.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [x] **Exact next:** continue the live-consumer audit from the remaining critical cross-domain references, prioritizing an actually present DLC/PQ navigation consumer or safely regenerable reverse-navigation artifact. Do not recreate historical/index-only records without sufficient source data.
