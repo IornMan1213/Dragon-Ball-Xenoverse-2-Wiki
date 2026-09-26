@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-dust-attack",
+  "name": "Dust Attack",
+  "batch": 456,
+  "date": "2026-09-26",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Dust_Attack",
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_Piccolo"
+  ],
+  "findings": [
+    "2026-09-26 Batch 456 current-evidence enrichment: 100-Ki Other Super associated with Piccolo and acquired from PQ78 Basic Reward. Current evidence confirms the Xenoverse 2 identity and PQ78 endpoint; the maintained record intentionally does not promote an unsupported exact hit sequence, damage value, tracking model, or cancel window. Those mechanics remain open research fields."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
