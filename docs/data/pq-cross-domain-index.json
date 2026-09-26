@@ -1439,5 +1439,15 @@
   "skill_meteor-explosion_current_evidence_audit_2026_09_26_batch_455": "docs/data/skill-meteor-explosion-current-evidence-audit-2026-09-26-batch-455.json",
   "skill_circle-flash_current_evidence_audit_2026_09_26_batch_455": "docs/data/skill-circle-flash-current-evidence-audit-2026-09-26-batch-455.json",
   "skill_stone-bullet_current_evidence_audit_2026_09_26_batch_455": "docs/data/skill-stone-bullet-current-evidence-audit-2026-09-26-batch-455.json",
-  "skill_blue-hurricane_current_evidence_audit_2026_09_26_batch_455": "docs/data/skill-blue-hurricane-current-evidence-audit-2026-09-26-batch-455.json"
+  "skill_blue-hurricane_current_evidence_audit_2026_09_26_batch_455": "docs/data/skill-blue-hurricane-current-evidence-audit-2026-09-26-batch-455.json",
+  "skill_batch_456": "docs/data/skill-research-batches/skill-batch-456.json",
+  "skill_batch_456_thin_frontier": "docs/data/skill-research-batches/skill-batch-456-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_data-input_current_evidence_audit_2026_09_26_batch_456": "docs/data/skill-data-input-current-evidence-audit-2026-09-26-batch-456.json",
+  "skill_dimension-ray_current_evidence_audit_2026_09_26_batch_456": "docs/data/skill-dimension-ray-current-evidence-audit-2026-09-26-batch-456.json",
+  "skill_pressure-sign_current_evidence_audit_2026_09_26_batch_456": "docs/data/skill-pressure-sign-current-evidence-audit-2026-09-26-batch-456.json",
+  "skill_blaster-shell_current_evidence_audit_2026_09_26_batch_456": "docs/data/skill-blaster-shell-current-evidence-audit-2026-09-26-batch-456.json",
+  "skill_fake-blast_current_evidence_audit_2026_09_26_batch_456": "docs/data/skill-fake-blast-current-evidence-audit-2026-09-26-batch-456.json",
+  "skill_spirit-boost_current_evidence_audit_2026_09_26_batch_456": "docs/data/skill-spirit-boost-current-evidence-audit-2026-09-26-batch-456.json",
+  "skill_dust-attack_current_evidence_audit_2026_09_26_batch_456": "docs/data/skill-dust-attack-current-evidence-audit-2026-09-26-batch-456.json",
+  "skill_teleporting-vanishing-ball_current_evidence_audit_2026_09_26_batch_456": "docs/data/skill-teleporting-vanishing-ball-current-evidence-audit-2026-09-26-batch-456.json"
 }
