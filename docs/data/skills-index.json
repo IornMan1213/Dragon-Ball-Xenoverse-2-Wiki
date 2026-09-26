@@ -6889,10 +6889,10 @@
       ],
       "unlock_method": "Parallel Quest 18 — \"Force Entrance Exam\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-25 current-evidence refresh: current documentation confirms PQ18, 200 Stamina, temporary speed increase, and the Power Up Evasive classification. The exact displayed duration differs slightly between stat and property text; both are preserved rather than silently normalized.",
-      "mechanics_notes": "200-Stamina Power Up Evasive from PQ18 — Force Entrance Exam. The user flies over the opponent to a safe distance and gains a temporary movement-speed increase; current documentation reports about 11.5–12 seconds and a 1.5% speed increase. It is classified as a Power Up Evasive, not a damaging Ki Blast Evasive.",
+      "notes": "2026-09-26 Batch 437 current-evidence audit: dedicated skill documentation reconfirms the 200-Stamina Power Up Evasive, PQ18 endpoint, safe-distance movement, and 1.5% speed increase. The current reference reports 11.5 seconds in its stat duration and 12 seconds in its property text; the discrepancy is preserved rather than silently normalized.",
+      "mechanics_notes": "200-Stamina Power Up Evasive from PQ18 — Force Entrance Exam. The user flies over the opponent to a safe distance and gains a temporary movement-speed increase. Current documentation reports a 1.5% speed increase, with a displayed duration of about 11.5 seconds in the stat block and 12 seconds in the property text; both are preserved as a source discrepancy. Exact activation/invulnerability frames and movement-speed calculation remain unresolved.",
       "source_quest": 18,
       "source_quest_or_shop": "Parallel Quest 18 — \"Force Entrance Exam\"",
       "source_parallel_quests": [
@@ -6978,7 +6978,7 @@
     {
       "id": "skill-majin-kamehameha",
       "name": "Majin Kamehameha",
-      "class": "Ultimate",
+      "class": "Super",
       "subcategory": "Ki Blast",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
@@ -6992,15 +6992,17 @@
       ],
       "unlock_method": "Parallel Quest 60 — Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "Majin",
-      "notes": "2026-09-25 current-evidence refresh: current Xenoverse 2 documentation confirms Majin Kamehameha as a 100-Ki Ki Blast Super restricted to Majin CaCs, with three charge stages and current 5-to-15-hit / approximately 10%-to-15%-damage reporting.",
-      "mechanics_notes": "100-Ki Ki Blast Super from PQ60 — Blast the Super Spirit Bomb!. Fires a pink Kamehameha chargeable through three stages; current documentation reports 5 hits at base charge and up to 15 hits at maximum charge, with approximately 10% to 15% damage. Restricted to Majin CaCs.",
+      "notes": "2026-09-26 Batch 437 current-evidence audit: corrected the canonical class from Ultimate to Super using dedicated current skill documentation; reconfirmed 100-Ki cost, PQ60 endpoint, three charge stages, 5-to-15-hit behavior, approximately 10%-to-15% source-reported damage, and Majin-only CaC restriction.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ60 — Blast the Super Spirit Bomb!. Fires a pink Kamehameha chargeable through three stages; current documentation reports 5 hits at base charge and up to 15 hits at maximum charge, with approximately 10% to 15% damage. Restricted to Majin CaCs. Exact charge timing, hit timing, and stat-scaling behavior remain unresolved.",
       "source_quest": 60,
       "source_quest_or_shop": "Parallel Quest 60 — \"Blast the Super Spirit Bomb!\"",
       "source_parallel_quests": [
         60
-      ]
+      ],
+      "skill_description": "Majin Kamehameha is a Super Ki Blast skill associated with Majin Buu.",
+      "damage_type": "Ki Blast"
     },
     {
       "id": "skill-masenko",
@@ -7325,14 +7327,15 @@
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills",
         "https://dragonball.fandom.com/wiki/Demon_Hand",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
+        "https://dbxv2.fandom.com/wiki/Namek_Finger"
       ],
       "unlock_method": "TP Medal Shop; documented listing price 30 TP Medals",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "Namekian",
-      "notes": "2026-09-25 current-evidence refresh: current skill documentation confirms the 100-Ki Namekian-only Strike Super's grab/stun behavior. TP Medal Shop provenance remains supported by archived shop records listing a 30-TP-Medal price; the current wiki page's generic 'Skill Shop' label is treated as less specific and does not replace the maintained TP Medal evidence.",
-      "mechanics_notes": "100-Ki Strike Super and Namekian grab. The user elongates the right arm; if the opponent is in range, the user pulls them in and strikes for a documented 10% damage, leaving the target stunned for follow-up attacks. For Orange Piccolo, the move functions as his Grab. Archived TP Medal Shop records list Namek Finger at 30 TP Medals; rotation timing is not inferred.",
+      "notes": "2026-09-26 Batch 437 current-evidence audit: current exact-name documentation reconfirms the 100-Ki Namekian-only Strike Super, grab/stun behavior, and documented 10% damage. The generic current 'Skill Shop' label is preserved as a source detail but does not displace the maintained TP Medal Shop evidence or its documented 30-TP-Medal listing; rotation timing remains unresolved.",
+      "mechanics_notes": "100-Ki Strike Super restricted to Namekian CaCs. The user elongates the right arm; if the opponent is in range, the user pulls them in and strikes for a documented 10% damage, leaving the target stunned for follow-up attacks. Current exact-name documentation labels the acquisition generically as Skill Shop, while maintained archived shop evidence supports the more specific TP Medal Shop endpoint and a 30-TP-Medal listing; rotation timing is not inferred. For Orange Piccolo, the move functions as his Grab.",
       "source_quest_or_shop": "TP Medal Shop",
       "ki_cost": 100
     },
@@ -8395,14 +8398,15 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
-        "https://dragonball.fandom.com/wiki/Revenge_Death_Ball"
+        "https://dragonball.fandom.com/wiki/Revenge_Death_Ball",
+        "https://dbxv2.fandom.com/wiki/Revenge_Death_Ball"
       ],
       "unlock_method": "Parallel Quest 127 — Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
-      "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for Revenge Death Ball; no Ultimate Finish requirement is recorded for this route. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward route; no Ultimate Finish-only gate is asserted.",
+      "notes": "2026-09-26 Batch 437 current-evidence audit: current skill documentation expands the mechanics boundary for Revenge Death Ball to its 300+ Ki resource model, 12-to-22-hit charge scaling, source-reported 30%-to-70% damage range, and remaining-Ki charge behavior. The 300 Ki activation cost is consumed even when the attack continues charging; exact drop probability, frame data, and broader scaling remain unresolved.",
+      "mechanics_notes": "300+ Ki Blast Ultimate from PQ127 — Multiverse Match of the Century. On input, 300 Ki is consumed and the user creates a dark Ki ball whose power scales with available/charged Ki. Current documentation reports 30% damage across 12 hits at minimum charge and 70% across 22 hits at maximum charge. If activated below maximum Ki, the skill charges remaining Ki into the attack; the cited reference reports about 10 seconds to refill from 300 Ki and about 3 seconds from maximum Ki, with faster charging at red health. Exact frame timing, scaling outside the cited states, and reward probability remain unresolved.",
       "source_quest": 127,
       "source_quest_or_shop": "Parallel Quest 127 — \"Multiverse Match of the Century\"",
       "source_parallel_quests": [
