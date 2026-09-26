@@ -1,3 +1,10 @@
+### 2026-09-26 TODO progress update — Partner Customization recovery-audit reachability reconciled
+- [x] Detected that the cross-domain index registers the Partner Customization recovery audit even though the file is absent from current `main`.
+- [x] Recorded that reachability discrepancy without deleting the provenance registration or inventing a replacement artifact.
+- [x] Corrected the live Partner Customization navigation audit metadata from an implicit 16-check summary to its actual **18 boolean checks, all passing**.
+- [x] Kept canonical navigation data and partner-skill relationship evidence unchanged.
+- [ ] Runtime execution/CI remains unverified.
+- [x] Exact next: inspect the next live deterministic cross-domain validator/consumer for evidence-backed integrity drift.
 ### 2026-09-26 TODO progress update — Cross-domain reachability scalar drift corrected
 - [x] Corrected docs/data/cross-domain-index-reference-reachability-audit-2026-09-26.json: its critical-reference count said 20 while its actual enumerated critical set contained 18.
 - [x] Synchronized the scalar with the enumerated live set; no provenance references were deleted.
