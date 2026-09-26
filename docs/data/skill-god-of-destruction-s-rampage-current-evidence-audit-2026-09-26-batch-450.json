@@ -1,0 +1,22 @@
+{
+  "skill_id": "skill-god-of-destruction-s-rampage",
+  "name": "God of Destruction's Rampage",
+  "batch": 450,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Rampage"
+  ],
+  "findings": [
+    "100-Ki Strike Super",
+    "Beerus mentor training endpoint",
+    "four-hit rush",
+    "source-reported 15% damage",
+    "Super Armor",
+    "incoming attacks consume Stamina instead of interrupting"
+  ],
+  "evidence_boundaries": [
+    "No unsupported exact frames, scaling formulas, probabilities, or hidden conditions added. Source-reported damage remains bounded evidence."
+  ]
+}
