@@ -1,0 +1,89 @@
+{
+  "batch": 483,
+  "date": "2026-09-26",
+  "status": "canonical_enrichment_recorded",
+  "scope": "Live-state canonical enrichment discovered after the Batch 482 handoff checkpoint; this pass predates Batch 484 and is recorded for continuity rather than re-researching the same eight records.",
+  "selected": [
+    {
+      "skill_id": "skill-absolute-zero",
+      "skill_name": "Absolute Zero",
+      "mechanics_notes": "Evasive counter that freezes attackers on contact; 300 Stamina; PQ96 “The Shadow Dragons.”",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Absolute_Zero"
+      ]
+    },
+    {
+      "skill_id": "skill-afterimage-strike",
+      "skill_name": "Afterimage Strike",
+      "mechanics_notes": "100 Stamina? Actually this is a 100-Ki Other Super. It creates afterimages and can be interrupted or followed with another attack; PQ81 “Wake Up!”.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Afterimage_Strike",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://yhangame.blogspot.com/2016/12/dragon-ball-xenoverse-2-all-100-parallel.html"
+      ]
+    },
+    {
+      "skill_id": "skill-angry-explosion",
+      "skill_name": "Angry Explosion",
+      "mechanics_notes": "300 Ki Blast Ultimate; large explosion, base 40% over 13 hits and extendable by holding the input to spend additional Ki; Expert Mission 12.",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "https://www.youtube.com/watch?v=Oo3rsM_hzC4",
+        "https://dragonball.fandom.com/wiki/Angry_Explosion"
+      ]
+    },
+    {
+      "skill_id": "skill-beast",
+      "skill_name": "Beast",
+      "mechanics_notes": "500-Ki Awoken. Grants +30% all-attack damage, +20% Ki restoration and -20% damage taken? The current DBXV2 page lists damage taken increased by 20%; the modifier table represents -20% defense. It also adds the H-L-H-H-H-H-H combo and teleports on standing Light/charged Heavy. Unlocked through Gohan/Videl and Piccolo friendship/training.",
+      "sources": [
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-hero-of-justice-pack-2-dlc-release",
+        "https://gamefaqs.gamespot.com/boards/277190-dragon-ball-xenoverse-2/80387361",
+        "https://dbxv2.fandom.com/wiki/Awoken_Skill"
+      ]
+    },
+    {
+      "skill_id": "skill-bending-kamehameha",
+      "skill_name": "Bending Kamehameha",
+      "mechanics_notes": "100 Ki Blast Super; fire Kamehameha, then press the input again to make the beam track the target; Skill Shop.",
+      "sources": [
+        "https://www.reddit.com/r/dbxv/comments/xenoverse2_tp_medal_shop_rotation/",
+        "https://dbxv2.fandom.com/wiki/Bending_Kamehameha",
+        "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/519411-how-do-i-get-bending-kamehameha"
+      ]
+    },
+    {
+      "skill_id": "skill-blaster-stream",
+      "skill_name": "Blaster Stream",
+      "mechanics_notes": "300 Ki Blast Ultimate; chargeable beam that fires a second wave on hit, with charging increasing damage/hits; PQ148 “Finding Out About Fusion.”",
+      "sources": [
+        "https://en.dragon-ball-official.com/news/01_628.html",
+        "https://videogaming.fandom.com/wiki/Finding_Out_About_Fusion",
+        "https://dragonball.fandom.com/wiki/Blaster_Stream"
+      ]
+    },
+    {
+      "skill_id": "skill-bluff-kamehameha",
+      "skill_name": "Bluff Kamehameha",
+      "mechanics_notes": "100 Ki Other Super; deals no damage and drains the opponent’s Ki from the front, with charge increasing the drain; PQ94 “Ultimate Power, Ultimate Saiyan.”",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Bluff_Kamehameha"
+      ]
+    },
+    {
+      "skill_id": "skill-burst-charge",
+      "skill_name": "Burst Charge",
+      "mechanics_notes": "Other Super charge skill; starts charging very quickly then slows down, making short bursts particularly useful; PQ134 “Universe 7’s Next God of Destruction.”",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/DLC",
+        "https://dragonball.fandom.com/wiki/Full_Power_Charge",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    }
+  ],
+  "notes": "The live repository contained a commit labeled Enrich Skill Research Batch 483 that modified only docs/data/skills.json. No separate Batch 483 audit artifacts were present at the time of inspection. This record preserves the eight canonical changes so the handoff and provenance index do not silently skip that state. No unsupported mechanics are newly asserted beyond the canonical values already committed."
+}
