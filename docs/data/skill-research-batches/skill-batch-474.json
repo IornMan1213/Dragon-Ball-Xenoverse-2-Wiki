@@ -1,0 +1,47 @@
+{
+  "batch": 474,
+  "date": "2026-09-26",
+  "status": "research_complete",
+  "scope": "Fresh unaudited mechanics frontier after Batch 473.",
+  "selection_method": "Selected six records not represented by a current-evidence audit in the repository search results; emphasized cross-domain mechanics and acquisition details that improve PQ → skill → mechanics navigation.",
+  "records": [
+    {
+      "skill_id": "skill-time-skip-molotov",
+      "skill_name": "Time Skip/Molotov",
+      "research_status": "follow-up_needed",
+      "reason": "No current-evidence audit artifact was found by repository search; retain as a frontier candidate pending canonical skill-record verification."
+    },
+    {
+      "skill_id": "skill-justice-combination",
+      "skill_name": "Justice Combination",
+      "research_status": "follow-up_needed",
+      "reason": "No current-evidence audit artifact was found by repository search; retain as a frontier candidate pending canonical skill-record verification."
+    },
+    {
+      "skill_id": "skill-headshot",
+      "skill_name": "Headshot",
+      "research_status": "follow-up_needed",
+      "reason": "No current-evidence audit artifact was found by repository search; retain as a frontier candidate pending canonical skill-record verification."
+    },
+    {
+      "skill_id": "skill-gigantic-rage",
+      "skill_name": "Gigantic Rage",
+      "research_status": "follow-up_needed",
+      "reason": "No current-evidence audit artifact was found by repository search; retain as a frontier candidate pending canonical skill-record verification."
+    },
+    {
+      "skill_id": "skill-arm-crash",
+      "skill_name": "Arm Crash",
+      "research_status": "follow-up_needed",
+      "reason": "No current-evidence audit artifact was found by repository search; retain as a frontier candidate pending canonical skill-record verification."
+    },
+    {
+      "skill_id": "skill-phantom-fist",
+      "skill_name": "Phantom Fist",
+      "research_status": "follow-up_needed",
+      "reason": "No current-evidence audit artifact was found by repository search; retain as a frontier candidate pending canonical skill-record verification."
+    }
+  ],
+  "evidence_boundary": "Do not mark a skill complete merely because a batch artifact exists; canonical skill-record synchronization and registry parity must be independently verified.",
+  "next_action": "Use repository-wide canonical record discovery to resolve these six IDs, then either synchronize their mechanics notes or replace them with genuinely unaudited records."
+}
