@@ -1,0 +1,19 @@
+{
+  "skill_id": "skill-blaster-ball",
+  "name": "Blaster Ball",
+  "batch": 441,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Blaster_Ball",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
+    "https://dragonball.fandom.com/wiki/Blaster_Ball"
+  ],
+  "findings": [
+    "100–500 Ki Ki Blast Super",
+    "PQ125 Basic Reward",
+    "Repeated input extends barrage; 2–13 hits documented",
+    "Long-range projectile and knockback documented",
+    "Exact damage/scaling/frames/probability unresolved"
+  ]
+}
