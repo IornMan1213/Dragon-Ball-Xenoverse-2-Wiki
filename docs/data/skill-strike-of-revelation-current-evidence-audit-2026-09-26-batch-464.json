@@ -1,0 +1,18 @@
+{
+  "batch": 464,
+  "date": "2026-09-26",
+  "skill_name": "Strike of Revelation",
+  "skill_id": "skill-strike-of-revelation",
+  "status": "completed",
+  "findings": [
+    "100-Ki Strike Super learned through Whis mentor training. Current Xenoverse 2 evidence confirms the mentor acquisition endpoint and 100-Ki classification; detailed frame, damage, hit-confirmation, and timing behavior remains version-sensitive and is not inferred beyond maintained evidence."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Strike_of_Revelation",
+    "https://dbxv2.fandom.com/wiki/Mentors"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}
