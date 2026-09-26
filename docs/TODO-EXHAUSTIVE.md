@@ -960,3 +960,10 @@
 - [x] Validation performed in-memory before write: canonical/index record counts remain 474/474 and the four target IDs are present in both layers with synchronized mechanics strings.
 - [ ] CI/build status remains unverified; no workflow success is claimed.
 - [x] **Exact next:** run a fresh 474-record frontier census excluding Batches 396–403 and enrich the next 4–12 shortest genuinely under-detailed records, synchronizing canonical/index/provenance in the same cycle.
+
+
+### 2026-09-25 TODO progress update — Batch 404 frontier selected
+- [x] Fresh 474-record mechanics census after Batch 403 selected Feint Shot, Fighting Pose K, Justice Pose, and Dust Attack as the next thin frontier.
+- [ ] Canonical/index write is pending due a GitHub contents API conflict on the large skills files; no completion is claimed yet.
+- [x] Evidence review completed for the four selected skills.
+- [x] Exact next after write recovery: synchronize canonical/index, add Batch 404 audits and provenance, then continue the next frontier.
