@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 386,
+  "created": "2026-09-25",
+  "type": "short-frontier-mechanics-enrichment",
+  "records": [
+    {
+      "name": "Time Skip/Tremor Pulse",
+      "id": "skill-time-skip-tremor-pulse",
+      "audit": "docs/data/skill-time-skip-tremor-pulse-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Angry Explosion",
+      "id": "skill-angry-explosion",
+      "audit": "docs/data/skill-angry-explosion-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Brave Heat",
+      "id": "skill-brave-heat",
+      "audit": "docs/data/skill-brave-heat-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Burst Reflection",
+      "id": "skill-burst-reflection",
+      "audit": "docs/data/skill-burst-reflection-current-evidence-audit-2026-09-25.json"
+    }
+  ],
+  "evidence_boundary": "Current Xenoverse 2 mechanics enrichment only. Source-reported numeric values remain bounded; no unsupported frame data, reward probabilities, hidden prerequisites, or universal damage claims promoted."
+}
