@@ -46,6 +46,7 @@ def main() -> int:
     if not isinstance(chars, dict) or not isinstance(chars.get("character_names", []), list): failures.append("character_names must be a list")
     if isinstance(chars, dict) and isinstance(chars.get("character_names", []), list) and any(not isinstance(x, str) or not x.strip() for x in chars.get("character_names", [])): failures.append("every canonical character name must be a non-empty string")
     if any(not isinstance(x.get("key_number"), int) or x.get("key_number") < 1 for x in key_records): failures.append("key_number must be a positive integer")
+    if any(not isinstance(x.get("id"), str) or not x.get("id").strip() for x in key_records): failures.append("key id must be a non-empty string")
     if any(not isinstance(x.get("character_id"), str) or not x.get("character_id").strip() for x in key_records): failures.append("key character_id must be a non-empty string")
     if any(not isinstance(x.get("partner"), str) or not x.get("partner").strip() for x in key_records): failures.append("key partner must be a non-empty string")
     if any(not isinstance(x.get("key"), int) or x.get("key") < 1 for x in recon_records): failures.append("reconciliation key must be a positive integer")
@@ -66,6 +67,10 @@ def main() -> int:
     duplicate_key_numbers = sorted(k for k,v in Counter(key_numbers).items() if k is not None and v > 1)
     duplicate_recon_numbers = sorted(k for k,v in Counter(recon_numbers).items() if k is not None and v > 1)
     malformed_key_numbers = [{"key_number": x.get("key_number"), "type": type(x.get("key_number")).__name__} for x in key_records if x.get("key_number") is not None and not isinstance(x.get("key_number"), int)]
+    key_ids = [x.get("id") for x in key_records]
+    duplicate_key_ids = sorted(k for k,v in Counter(key_ids).items() if k is not None and v > 1)
+    malformed_key_ids = [{"id": x.get("id"), "type": type(x.get("id")).__name__} for x in key_records if x.get("id") is not None and not isinstance(x.get("id"), str)]
+    expected_key_ids = [f"customization-key-{n:02d}" for n in expected]
     malformed_recon_numbers = [{"key": x.get("key"), "type": type(x.get("key")).__name__} for x in recon_records if x.get("key") is not None and not isinstance(x.get("key"), int)]
 
     checks = {
@@ -74,6 +79,8 @@ def main() -> int:
         "exact_reconciliation_count": len(recon_records) == 20,
         "reconciliation_key_numbers": sorted(recon_numbers) == expected,
         "key_numbers_unique": not duplicate_key_numbers,
+        "key_record_ids_unique": not duplicate_key_ids,
+        "key_record_ids_match_key_numbers": key_ids == [f"customization-key-{n:02d}" for n in key_numbers] if len(key_numbers) == len(key_ids) else False,
         "reconciliation_key_numbers_unique": not duplicate_recon_numbers,
         "all_key_character_ids_bridged": all(x.get("character_id") in bridge_by_id for x in key_records),
         "all_bridge_targets_canonical": all(name in canonical for name in bridge_by_id.values()),
@@ -112,6 +119,8 @@ def main() -> int:
     checks["no_unmapped_extra_partner_search_links"] = not extra_links
 
     checks["key_number_fields_are_integers"] = not malformed_key_numbers
+    checks["key_id_fields_are_strings"] = not malformed_key_ids
+    checks["key_record_ids_match_expected_keys"] = key_ids == expected_key_ids
     checks["reconciliation_key_fields_are_integers"] = not malformed_recon_numbers
     for label, ok in checks.items():
         if not ok:
@@ -142,6 +151,8 @@ def main() -> int:
         "duplicate_bridge_character_ids": duplicate_bridge_ids,
         "malformed_bridge_character_ids": malformed_bridge_ids,
         "malformed_key_numbers": malformed_key_numbers,
+        "duplicate_key_ids": duplicate_key_ids,
+        "malformed_key_ids": malformed_key_ids,
         "malformed_reconciliation_key_numbers": malformed_recon_numbers,
         "identity_mismatches": [x for x in failures if isinstance(x, dict)],
         "status": "clean" if not failures else "unresolved",
