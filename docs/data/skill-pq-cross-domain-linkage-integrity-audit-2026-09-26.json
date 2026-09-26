@@ -62,13 +62,15 @@
     "The historical 244-edge invariant referenced by older handoff material is stale relative to the current canonical skill corpus and should not be used as a current truth without reconciling the two additional canonical endpoints.",
     "This audit validates only relationships represented by source_parallel_quests in the current skill corpus; it does not assert that the 16 PQs without a skill endpoint have no skill rewards.",
     "The existing pq-cross-domain-index contains many historical artifact references that no longer resolve in the live tree; those are tracked separately and are not silently deleted because they document prior work.",
-    "The live validator was hardened to compare the checked-in reverse artifact against the deterministic projection, preventing a count-only pass from masking per-PQ skill-ID/name drift."
+    "The live validator was hardened to compare the checked-in reverse artifact against the deterministic projection, preventing a count-only pass from masking per-PQ skill-ID/name drift.",
+    "A source-level syntax defect in the validator was detected and corrected in the live main branch; runtime execution remains intentionally unclaimed until the repository can be executed."
   ],
   "status": "audited_current_live_corpus",
   "validator_hardening": {
     "validator": "scripts/validate_skill_pq_crosslinks.py",
-    "correction": "Removed a malformed literal escape sequence in the checked-in validator and implemented the exact checked-in pq_ids projection comparison described by the audit.",
+    "correction": "Repaired the malformed checked-in newline string in scripts/validate_skill_pq_crosslinks.py and retained the exact checked-in pq_ids projection comparison.",
     "expected_projection": "Derived from docs/data/skills.json source_parallel_quests, including per-PQ skill_count, skill_ids, skills, and relationship_status.",
-    "status": "ready_for_runtime_validation"
+    "status": "source_syntax_fixed_pending_runtime_validation",
+    "syntax_fix_commit": "af9ce4881eaeba8a8007e475142f7400cc90b6f0"
   }
 }
