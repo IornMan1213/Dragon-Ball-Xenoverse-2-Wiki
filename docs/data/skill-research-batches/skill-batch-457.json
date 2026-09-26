@@ -1,0 +1,103 @@
+{
+  "batch": 457,
+  "date": "2026-09-26",
+  "scope": "Fresh unaudited mechanics frontier after Batch 456 over the live 474-record canonical skill corpus.",
+  "selected": [
+    "Rough Ranger",
+    "X 100 Big Bang Kamehameha",
+    "Evil Blast",
+    "Final Charge",
+    "Explosive Wave",
+    "Force Edge",
+    "Ill Bomber",
+    "Heavenly Arrow"
+  ],
+  "method": "Recomputed the live mechanics_notes-plus-notes frontier, excluding skills with registered current-evidence audit artifacts and recently completed frontier work; the eight shortest remaining records were rechecked against current skill-specific references and independent corroboration.",
+  "records": [
+    {
+      "skill_id": "skill-rough-ranger",
+      "skill_name": "Rough Ranger",
+      "mechanics_notes": "100-Ki Strike Super and universal counter. The user holds a defensive stance; Strike attacks trigger a retaliatory kick, while Ki Blast attacks trigger an Energy Field. Current skill-specific evidence reports 15% damage for the kick, a 3-second field, and 5% damage if the opponent contacts the field. Point-blank Ki Blast behavior is documented separately; exact frames and patch-independent scaling remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Rough_Ranger",
+        "https://dragonball.fandom.com/wiki/Rough_Ranger",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76417964"
+      ]
+    },
+    {
+      "skill_id": "skill-x-100-big-bang-kamehameha",
+      "skill_name": "X 100 Big Bang Kamehameha",
+      "mechanics_notes": "500-Ki Ki Blast Ultimate. The user charges a Ki ball and fires a long beam for a source-reported 50% damage over 24 hits. When lock-on is disabled, the attack can sweep side-to-side/behind the user and the source reports increased single-hit damage. Exact frame timing and patch-independent damage scaling remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/X100_Big_Bang_Kamehameha",
+        "https://dragonball.fandom.com/wiki/100x_Big_Bang_Kamehameha",
+        "https://gamersdecide.com/articles/dragon-ball-xenoverse-2-best-ultimate-attacks"
+      ]
+    },
+    {
+      "skill_id": "skill-evil-blast",
+      "skill_name": "Evil Blast",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate/Counter. The user becomes translucent for about 2 seconds; a Strike hit during the counter window triggers a teleport behind the opponent and a 15-hit Ki Blast. Current skill-specific evidence reports 60% total damage and knockback. Exact counter frames, damage scaling, and reward probability remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Evil_Blast",
+        "https://dragonball.fandom.com/wiki/Evil_Impulse"
+      ]
+    },
+    {
+      "skill_id": "skill-final-charge",
+      "skill_name": "Final Charge",
+      "mechanics_notes": "Character-exclusive Other Super used by SSGSS Vegeta (Evolved), unavailable to CaCs. Ki charging starts very slowly, accelerates rapidly after about 2 seconds, and is slightly faster than Ultimate Charge. Exact charge-rate curve and frame timing remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Final_Charge"
+      ]
+    },
+    {
+      "skill_id": "skill-explosive-wave",
+      "skill_name": "Explosive Wave",
+      "mechanics_notes": "300-Stamina Ki Blast Evasive from the Skill Shop. The user creates an area explosion that current skill-specific evidence reports at 2% damage with roughly 1 second of stun. Evasive activation consumes Stamina rather than Ki; exact active frames and patch-independent damage remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Explosive_Wave",
+        "https://dragonball.fandom.com/wiki/Explosive_Wave"
+      ]
+    },
+    {
+      "skill_id": "skill-force-edge",
+      "skill_name": "Force Edge",
+      "mechanics_notes": "100-Ki Strike Super from PQ180. The user launches an energy slash with a kick and can follow an immediate hit with a second attack; current skill-specific evidence identifies a 2-hit kick/energy-slash sequence with knockdown. Exact damage, follow-up timing, and frame data remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Force_Edge",
+        "https://dragonball.fandom.com/wiki/Force_Edge"
+      ]
+    },
+    {
+      "skill_id": "skill-ill-bomber",
+      "skill_name": "Ill Bomber",
+      "mechanics_notes": "100-Ki Ki Blast Super restricted to Majin CaCs. The user creates an unblockable close-range explosion, knocking the opponent away while becoming invisible for 5 seconds; current skill-specific evidence reports 15% damage. The user can move while invisible and the opponent cannot lock on during the effect.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ill_Bomber",
+        "https://dragonball.fandom.com/wiki/Revenge_Death_Bomber"
+      ]
+    },
+    {
+      "skill_id": "skill-heavenly-arrow",
+      "skill_name": "Heavenly Arrow",
+      "mechanics_notes": "100-Ki Ki Blast Super from Zamasu training. The user flies backward and fires a barrage for 7% damage over 8 hits; forward input adds an unblockable Ki-powered hand strike and an extra Ki bullet. The technique is long-range and can knock the opponent back; exact timing and scaling remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Heavenly_Arrow",
+        "https://dragonball.fandom.com/wiki/Heavenly_Arrow"
+      ]
+    }
+  ],
+  "evidence_boundaries": [
+    "No unsupported frame data, patch-independent balance/scaling, reward probabilities, or hidden gates were promoted.",
+    "Source-reported numerical values remain explicitly source-bound.",
+    "Character association does not by itself establish a CaC race/gender/form restriction.",
+    "Acquisition conflicts remain bounded rather than silently flattened."
+  ],
+  "validation": {
+    "canonical_count": 474,
+    "index_count": 474,
+    "duplicate_ids": 0,
+    "ordered_id_parity": true
+  }
+}
