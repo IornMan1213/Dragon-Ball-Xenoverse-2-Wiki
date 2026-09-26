@@ -1,0 +1,19 @@
+{
+  "batch": 459,
+  "date": "2026-09-26",
+  "skill_name": "Gigantic Omega",
+  "skill_id": "skill-gigantic-omega",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Skill Research Batch 459.",
+  "findings": [
+    "100-Ki Strike Super learned from Broly training. The user takes a stance and throws a large Ki Blast from the right hand; current skill-specific evidence reports about 15% damage at close range and 10% at long range. It is documented as a pseudo-Ki Blast with 1–3 hits and knockback. Exact frame data and patch-independent scaling remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/giganticOmega"
+  ],
+  "evidence_boundaries": [
+    "Exact frame data is not promoted.",
+    "Patch-independent scaling is not inferred from source-reported values.",
+    "Reward probabilities and hidden prerequisites are not promoted unless directly evidenced."
+  ]
+}
