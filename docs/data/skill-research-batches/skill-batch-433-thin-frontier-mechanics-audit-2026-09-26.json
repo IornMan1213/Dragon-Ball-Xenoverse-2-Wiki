@@ -1,0 +1,27 @@
+{
+  "batch": 433,
+  "date": "2026-09-26",
+  "status": "complete",
+  "selected": [
+    {
+      "id": "skill-one-handed-kamehameha-mk-ii",
+      "name": "One-Handed Kamehameha mk.II",
+      "mechanics_note_length": 383
+    },
+    {
+      "id": "skill-innocence-cannon",
+      "name": "Innocence Cannon",
+      "mechanics_note_length": 500
+    },
+    {
+      "id": "skill-sonic-bomb",
+      "name": "Sonic Bomb",
+      "mechanics_note_length": 402
+    },
+    {
+      "id": "skill-energy-minefield",
+      "name": "Energy Minefield",
+      "mechanics_note_length": 376
+    }
+  ]
+}
