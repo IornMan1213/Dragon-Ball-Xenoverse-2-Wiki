@@ -1602,5 +1602,15 @@
   "skill_murder-grenade_batch_471": "docs/data/skill-murder-grenade-current-evidence-audit-2026-09-26-batch-471.json",
   "skill_chain-destructo-disc-barrage_batch_471": "docs/data/skill-chain-destructo-disc-barrage-current-evidence-audit-2026-09-26-batch-471.json",
   "skill_batch_471": "docs/data/skill-research-batches/skill-batch-471.json",
-  "skill_batch_471_thin_frontier": "docs/data/skill-research-batches/skill-batch-471-thin-frontier-mechanics-audit-2026-09-26.json"
+  "skill_batch_471_thin_frontier": "docs/data/skill-research-batches/skill-batch-471-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_batch_472": "docs/data/skill-research-batches/skill-batch-472.json",
+  "skill_batch_472_thin_frontier": "docs/data/skill-research-batches/skill-batch-472-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_big_bang_knuckle_current_evidence_audit_2026_09_26_batch_472": "docs/data/skill-big-bang-knuckle-current-evidence-audit-2026-09-26-batch-472.json",
+  "skill_god_breaker_current_evidence_audit_2026_09_26_batch_472": "docs/data/skill-god-breaker-current-evidence-audit-2026-09-26-batch-472.json",
+  "skill_heroic_counter_current_evidence_audit_2026_09_26_batch_472": "docs/data/skill-heroic-counter-current-evidence-audit-2026-09-26-batch-472.json",
+  "skill_counter_impact_current_evidence_audit_2026_09_26_batch_472": "docs/data/skill-counter-impact-current-evidence-audit-2026-09-26-batch-472.json",
+  "skill_punisher_drive_current_evidence_audit_2026_09_26_batch_472": "docs/data/skill-punisher-drive-current-evidence-audit-2026-09-26-batch-472.json",
+  "skill_time_skip_back_breaker_current_evidence_audit_2026_09_26_batch_472": "docs/data/skill-time-skip-back-breaker-current-evidence-audit-2026-09-26-batch-472.json",
+  "skill_time_skip_flash_skewer_current_evidence_audit_2026_09_26_batch_472": "docs/data/skill-time-skip-flash-skewer-current-evidence-audit-2026-09-26-batch-472.json",
+  "skill_time_skip_jump_spike_current_evidence_audit_2026_09_26_batch_472": "docs/data/skill-time-skip-jump-spike-current-evidence-audit-2026-09-26-batch-472.json"
 }
