@@ -581,3 +581,10 @@
 - [x] Preserved version-sensitive Burning Attack interaction history and bounded all other mechanics claims.
 - [ ] Canonical generated skill files were not partially rewritten; CI remains unverified.
 - [x] **Exact next:** fresh census continuation with the next older partially-verified mechanics footprints, prioritizing compact deterministic records.
+
+### 2026-09-25 completion — Skill Batch 368 compact mechanics/source refresh
+- [x] Completed **Energy Release, Crazy Finger Shot, Death Psycho Bomb, Afterimage Strike** from the fresh census.
+- [x] Added/registered four audits plus Skill Batch 368.
+- [x] Preserved bounded evidence and unresolved fields; no unsupported timing, damage, probabilities, or hidden gates promoted.
+- [ ] Canonical generated skill files were not partially rewritten; CI remains unverified.
+- [x] **Exact next:** fresh census continuation over remaining older partially-verified skill records, prioritizing deterministic mechanics/acquisition footprints.
