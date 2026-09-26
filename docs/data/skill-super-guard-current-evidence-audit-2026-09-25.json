@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-super-guard-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Super Guard",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "mechanics_notes": "Other Super; held defensive barrier grants damage immunity while continuously consuming Ki"
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Guard",
+    "Other Super; held defensive barrier grants damage immunity while continuously consuming Ki"
+  ],
+  "evidence_boundary": "Current Xenoverse 2 mechanics are bounded to the dedicated skill reference. The repository retains variable Ki cost semantics and does not infer exact drain rates, startup, or frame data."
+}

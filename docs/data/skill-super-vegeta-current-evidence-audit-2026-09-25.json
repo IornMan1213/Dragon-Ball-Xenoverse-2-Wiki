@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-super-vegeta-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Super Vegeta",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "mechanics_notes": "https://dbxv2.fandom.com/wiki/Awoken_Skill"
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Vegeta",
+    "https://dbxv2.fandom.com/wiki/Awoken_Skill"
+  ],
+  "evidence_boundary": "300/400 Ki two-stage Saiyan Awoken; stage-specific Strike/Ki Blast modifiers and Blast/physical defense effects; charged Ki Blast teleport behavior"
+}

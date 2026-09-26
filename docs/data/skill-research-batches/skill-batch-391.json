@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 391,
+  "created": "2026-09-25",
+  "type": "short-frontier-mechanics-enrichment",
+  "records": [
+    {
+      "name": "Super Vegeta",
+      "id": "skill-super-vegeta",
+      "audit": "docs/data/skill-super-vegeta-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Super Saiyan 2",
+      "id": "skill-super-saiyan-2",
+      "audit": "docs/data/skill-super-saiyan-2-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Fighting Pose C",
+      "id": "skill-fighting-pose-c",
+      "audit": "docs/data/skill-fighting-pose-c-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Super Guard",
+      "id": "skill-super-guard",
+      "audit": "docs/data/skill-super-guard-current-evidence-audit-2026-09-25.json"
+    }
+  ],
+  "evidence_boundary": "Current Xenoverse 2 mechanics enrichment only; source-reported values remain bounded and unresolved details are not inferred."
+}

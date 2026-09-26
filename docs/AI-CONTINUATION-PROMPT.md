@@ -942,3 +942,13 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Commits: canonical `932ae59`; index `14b6e15`; audits `5ebf51a`, `eeca091`, `114adf5`, `50ee5b7`, `10c0bc2`; Batch 390 `3097daa`; cross-domain registration `f0ea18a`.
 - [x] **Exact next:** fresh post-Batch-390 census excluding these five and other recently completed frontier targets, then continue another 4–12 genuinely low-detail records.
+
+
+### 2026-09-25 cycle completion — Skill Batch 391 short-frontier mechanics enrichment
+- [x] Fresh live census selected **Super Vegeta, Super Saiyan 2, Fighting Pose C, and Super Guard** after excluding the recently enriched Batch 390 frontier.
+- [x] Enriched canonical `docs/data/skills.json` and projection `docs/data/skills-index.json` with current Xenoverse 2-specific mechanics boundaries and refreshed all four verification dates to 2026-09-25.
+- [x] Added four current-evidence audits and `docs/data/skill-research-batches/skill-batch-391.json`; registered all five artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: canonical/index remain **469/469**, duplicate-name census remains unchanged, and all four target mechanics/date fields are synchronized.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Evidence limits preserved: no unsupported frame data, hidden prerequisites, reward probabilities, exact universal damage, or patch-independent balance claims were inferred.
+- [x] Exact next: fresh post-Batch-391 mechanics census excluding all recent Batch 381–391 targets, then continue the next genuinely low-detail records in a bounded 4–12 record batch.
