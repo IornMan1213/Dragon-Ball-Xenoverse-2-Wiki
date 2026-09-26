@@ -1,0 +1,24 @@
+{
+  "batch": 424,
+  "date": "2026-09-26",
+  "skill_id": "skill-full-power-charge",
+  "skill_name": "Full Power Charge",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Full_Power_Charge",
+    "https://dragonball.fandom.com/wiki/Full_Power_Charge",
+    "https://dbxv2.fandom.com/wiki/Skill_Shop"
+  ],
+  "scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Batch 424.",
+  "findings": "Other-type Ki charging Super. Current dedicated Xenoverse 2 documentation describes Full Power Charge as faster than Energy Charge but slower than Maximum Charge; the same source places its CaC acquisition at the Advanced Class Advancement Test. Independent Dragon Ball documentation confirms it is a Ki-charging Super Skill and identifies its relative position between Energy Charge and Maximum Charge.",
+  "canonical_changes": {
+    "mechanics_notes_updated": false,
+    "last_verified": "2026-09-26",
+    "research_status": "evidence_ready_pending_canonical_sync",
+    "verification_status": "evidence_reviewed"
+  },
+  "unresolved": [
+    "Exact current charge-rate curve is not asserted.",
+    "Exact activation frames and Ki-per-second values are not asserted.",
+    "Patch-independent balance values and hidden interactions are not inferred."
+  ]
+}
