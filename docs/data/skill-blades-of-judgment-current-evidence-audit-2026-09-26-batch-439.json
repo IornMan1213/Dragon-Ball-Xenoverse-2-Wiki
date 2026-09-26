@@ -1,0 +1,20 @@
+{
+  "skill_id": "skill-blades-of-judgment",
+  "name": "Blades of Judgment",
+  "batch": 439,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Blades_of_Judgment",
+    "https://dragonball.fandom.com/wiki/Blades_of_Judgement",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "findings": [
+    "300-Ki Ultimate in the canonical Xenoverse 2 record; associated with Fused Zamasu",
+    "PQ112 — Advent of the Mighty God Zamasu! lists the skill in Basic Reward",
+    "Holding input increases the number of red energy blades",
+    "Blades striking terrain/surroundings can explode; after a knockaway the blades can steer toward the target",
+    "Dragon Ball Wiki labels the move a Super Skill, conflicting with the repository's Ultimate classification; the discrepancy is retained",
+    "Exact blade count, damage scaling, frame data, and drop probability remain unresolved"
+  ]
+}
