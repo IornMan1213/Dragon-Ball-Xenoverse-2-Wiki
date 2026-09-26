@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-26",
+  "type": "skill-corpus-data-integrity-audit",
+  "scope": "Post-Batch-491 full canonical 474-record scan",
+  "mechanics_frontier": {
+    "canonical_records": 474,
+    "registered_audit_ids": 474,
+    "unaudited_ids": 0,
+    "method": "Registered current-evidence audit paths normalized to stable skill IDs; duplicate audit artifacts across batches collapsed by skill ID."
+  },
+  "field_completeness": {
+    "sources_missing": 0,
+    "mechanics_notes_missing": 0,
+    "source_quest_or_shop_missing": 0,
+    "unlock_method_missing": 0,
+    "character_source_missing": 237,
+    "race_restriction_missing": 10,
+    "interpretation": "character_source and race_restriction omissions are not automatically errors because CaC-only, cast-exclusive, mentor/shop, and other acquisition contexts can make a single character-source or race restriction inapplicable."
+  },
+  "description_type_integrity": {
+    "corrected": [
+      "Buu Buu Ball",
+      "Core Breaker",
+      "Death Slash",
+      "Final Cannon",
+      "Gigantic Charge",
+      "God of Destruction's Roar",
+      "Saiyan Spirit"
+    ],
+    "remaining_flagged": [
+      "Meteor Explosion",
+      "Shooting Strike"
+    ],
+    "remaining_flagged_interpretation": "False-positive detector matches the word 'Strike' inside technique names/context; current classifications are already Ki Blast and their descriptions do not assert Strike attack type."
+  },
+  "canonical_parity": "474/474 records; no missing or extra IDs; ordered parity previously validated after Batch 491.",
+  "next": "Shift from mechanics-frontier selection to deterministic cross-domain/provenance/data-integrity gaps now that every canonical skill ID has at least one registered current-evidence audit."
+}
