@@ -1,0 +1,22 @@
+{
+  "skill_id": "skill-unrelenting-barrage",
+  "name": "Unrelenting Barrage",
+  "batch": 449,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Unrelenting_Barrage"
+  ],
+  "findings": [
+    "300-Ki Strike Ultimate",
+    "PQ10 endpoint",
+    "jump-back charge into rush",
+    "8-hit launching sequence",
+    "30% source-reported damage",
+    "post-use user stun documented"
+  ],
+  "evidence_boundaries": [
+    "No unsupported exact frames, scaling, probabilities, or hidden conditions added. Source-reported damage/stat values remain explicitly source-bound."
+  ]
+}
