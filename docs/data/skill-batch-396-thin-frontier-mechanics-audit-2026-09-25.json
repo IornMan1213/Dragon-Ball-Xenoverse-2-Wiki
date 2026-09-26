@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-batch-396-thin-frontier-mechanics-audit-2026-09-25",
+  "date": "2026-09-25",
+  "purpose": "Bounded current-evidence research pass for five thin Fighting Pose Super records after Batch 395.",
+  "targets": [
+    "Fighting Pose B",
+    "Fighting Pose D",
+    "Fighting Pose G",
+    "Fighting Pose I",
+    "Fighting Pose J"
+  ],
+  "research_layer": "completed",
+  "canonical_sync": "deferred",
+  "canonical_sync_reason": "The GitHub connector can read the large skills.json/skills-index.json paths only as zero-length content, so a safe whole-file replacement cannot be constructed in this cycle. No canonical skill field was falsely claimed as updated.",
+  "evidence_summary": {
+    "Fighting Pose B": "0 Ki Power Up Super; temporarily boosts Strike moves; 20-second duration; PQ16 endpoint.",
+    "Fighting Pose D": "0 Ki Power Up Super; increases Boost Dash speed; 20-second duration; PQ15 endpoint.",
+    "Fighting Pose G": "0 Ki Power Up Super; increases Ki Blast skill damage; source reports about 8% and race-dependent 20/25-second duration; Skill Shop after The Ginyu Force Strikes.",
+    "Fighting Pose I": "0 Ki Power Up Super; increases Basic Movement Speed; 20-second duration; Skill Shop after The Ginyu Force Strikes.",
+    "Fighting Pose J": "0 Ki Power Up Super associated with Recoome; Strike-oriented offensive buff; exact multiplier/duration left unresolved pending dedicated current-source reconciliation."
+  },
+  "validation": [
+    "Batch 396 parses as JSON.",
+    "Five per-skill current-evidence audits were created.",
+    "All six new research artifacts were registered in docs/data/pq-cross-domain-index.json.",
+    "No reward probabilities, hidden prerequisites, frame data, or unsupported balance claims were promoted."
+  ],
+  "next": "Safely synchronize the five mechanics_notes fields into docs/data/skills.json and docs/data/skills-index.json when a writable large-file path is available, then re-run the canonical/index parity census before selecting the next frontier."
+}
