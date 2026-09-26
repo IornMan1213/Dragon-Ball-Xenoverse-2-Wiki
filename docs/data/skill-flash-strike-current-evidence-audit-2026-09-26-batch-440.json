@@ -1,0 +1,19 @@
+{
+  "skill_id": "skill-flash-strike",
+  "name": "Flash Strike",
+  "batch": 440,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Flash_Strike",
+    "https://dbxv2.fandom.com/wiki/Mentors",
+    "https://dbxv2.fandom.com/wiki/Partner_Customization"
+  ],
+  "findings": [
+    "100-Ki Ki Blast Super taught by Vegeta",
+    "Remote explosion at current/future target destination",
+    "After knockback, tracking version can follow and deal additional damage",
+    "Significant endlag; dedicated documentation says Evasive cannot be activated during recovery",
+    "Exact damage, tracking window, endlag frames, and scaling unresolved"
+  ]
+}
