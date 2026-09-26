@@ -1379,5 +1379,15 @@
   "skill_turn-golden_current_evidence_audit_2026_09_26_batch_449": "docs/data/skill-turn-golden-current-evidence-audit-2026-09-26-batch-449.json",
   "skill_gigantic-explosion_current_evidence_audit_2026_09_26_batch_449": "docs/data/skill-gigantic-explosion-current-evidence-audit-2026-09-26-batch-449.json",
   "skill_burst-blitz_current_evidence_audit_2026_09_26_batch_449": "docs/data/skill-burst-blitz-current-evidence-audit-2026-09-26-batch-449.json",
-  "skill_power-pole-pro_current_evidence_audit_2026_09_26_batch_449": "docs/data/skill-power-pole-pro-current-evidence-audit-2026-09-26-batch-449.json"
+  "skill_power-pole-pro_current_evidence_audit_2026_09_26_batch_449": "docs/data/skill-power-pole-pro-current-evidence-audit-2026-09-26-batch-449.json",
+  "skill_batch_450": "docs/data/skill-research-batches/skill-batch-450.json",
+  "skill_batch_450_thin_frontier": "docs/data/skill-research-batches/skill-batch-450-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_ray-blast_current_evidence_audit_2026_09_26_batch_450": "docs/data/skill-ray-blast-current-evidence-audit-2026-09-26-batch-450.json",
+  "skill_emperor-s-blast_current_evidence_audit_2026_09_26_batch_450": "docs/data/skill-emperor-s-blast-current-evidence-audit-2026-09-26-batch-450.json",
+  "skill_final-cannon_current_evidence_audit_2026_09_26_batch_450": "docs/data/skill-final-cannon-current-evidence-audit-2026-09-26-batch-450.json",
+  "skill_godly-chronos-cannon_current_evidence_audit_2026_09_26_batch_450": "docs/data/skill-godly-chronos-cannon-current-evidence-audit-2026-09-26-batch-450.json",
+  "skill_vanishing-ball_current_evidence_audit_2026_09_26_batch_450": "docs/data/skill-vanishing-ball-current-evidence-audit-2026-09-26-batch-450.json",
+  "skill_evil-whirlwind_current_evidence_audit_2026_09_26_batch_450": "docs/data/skill-evil-whirlwind-current-evidence-audit-2026-09-26-batch-450.json",
+  "skill_god-of-destruction-s-rampage_current_evidence_audit_2026_09_26_batch_450": "docs/data/skill-god-of-destruction-s-rampage-current-evidence-audit-2026-09-26-batch-450.json",
+  "skill_emperor-s-death-beam_current_evidence_audit_2026_09_26_batch_450": "docs/data/skill-emperor-s-death-beam-current-evidence-audit-2026-09-26-batch-450.json"
 }
