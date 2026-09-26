@@ -712,3 +712,10 @@
 - [x] Refreshed bounded mechanics/provenance while preserving unresolved exact damage/reward/frame/hidden-gate fields.
 - [ ] Canonical generated skill files were not partially rewritten; CI remains unverified.
 - [x] **Exact next:** continue fresh census against remaining older partially-verified skill records, prioritizing deterministic mechanics and acquisition footprints.
+
+### 2026-09-25 cycle completion — Skill Batch 369
+- [x] Fresh census refreshed **Bending Kamehameha, Perfect Shot, Arm Crash, Freedom Kick**.
+- [x] Added four current-evidence audits and `docs/data/skill-research-batches/skill-batch-369.json`; registered all artifacts in the cross-domain index.
+- [x] Preserved the corrected Freedom Kick PQ provenance and unresolved Ultimate Finish semantics instead of converting reward-slot evidence into a requirement.
+- [ ] Canonical generated skill files were not partially rewritten; CI remains unverified.
+- [x] **Exact next:** continue fresh census through the remaining older partially-verified records, prioritizing deterministic mechanics/acquisition corrections.
