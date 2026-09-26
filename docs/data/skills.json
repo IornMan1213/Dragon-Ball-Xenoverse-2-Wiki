@@ -7238,21 +7238,22 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Hero%27s_Pose",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
-        "https://dbxv2.fandom.com/wiki/Mentors"
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxv2.fandom.com/wiki/Status_Effect"
       ],
       "ki_cost": 0,
       "unlock_method": "Jaco mentor training — Initiation Test.",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "jaco mentor training",
-      "mechanics_notes": "Power Up Super that increases all abilities for a temporary duration; current dedicated evidence lists 0 Ki.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "0-Ki Power Up Super. The user performs Jaco's pose and receives a temporary all-ability buff; current skill-specific documentation lists a 10-second duration and classifies the effects as attack/damage, speed, and defense enhancement.",
+      "last_verified": "2026-09-25",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Jaco mentor training — Initiation Test.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data.\n2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC provenance, and mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data.\n2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC provenance, and mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced. 2026-09-25 Batch 378 mechanics enrichment: current skill-specific evidence added; numeric damage/duration values remain source-reported rather than patch-independent canonical measurements.",
       "id": "skill-hero-s-pose",
       "source_mentor": [
         "mentor-jaco"
@@ -11473,20 +11474,21 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Special_Beam_Cannon_(Ultimate)"
       ],
       "unlock_method": "Piccolo's Lesson 3 — complete the instructor lesson to receive Special Beam Cannon as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Piccolo mentor training — Lesson 3",
-      "mechanics_notes": "Piccolo's Lesson 3 reward; 300-Ki Ultimate/Ki Blast identity is corroborated by current skill references.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate. The user concentrates Ki at two fingers and fires a long-range beam that cannot be blocked. Current skill-specific documentation describes it as a single-hit attack with knockback; source-reported damage is about 30% and is retained as bounded evidence.",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Piccolo mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: Piccolo Lesson 3 remains the deterministic acquisition endpoint; current skill evidence confirms the 300-Ki Ultimate/Ki Blast identity. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-22 provenance refresh: Piccolo Lesson 3 remains the deterministic acquisition endpoint; current skill evidence confirms the 300-Ki Ultimate/Ki Blast identity. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced. 2026-09-25 Batch 378 mechanics enrichment: current skill-specific evidence added; numeric damage/duration values remain source-reported rather than patch-independent canonical measurements.",
       "id": "skill-special-beam-cannon",
       "source_mentor": [
         "mentor-piccolo"
@@ -11661,13 +11663,13 @@
       "unlock_method": "Skill Shop (Conton City)",
       "usable_by_cac": true,
       "source_quest_or_shop": "Skill Shop",
-      "mechanics_notes": "0-Ki Other Super from the Skill Shop; creates a short-lived defensive field that cancels incoming Ki attacks.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "0-Ki Other Super. The user spreads their arms and emits a short-range red energy wave that cancels incoming Ki attacks, including supers and ultimates, during a brief protection window. Current documentation says the protection begins when the energy expands rather than when the technique input fully completes.",
+      "last_verified": "2026-09-25",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-22 provenance refresh: Skill Shop acquisition is confirmed; current evidence confirms 0-Ki Other Super classification and a short defensive window that cancels incoming Ki attacks. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-22 provenance refresh: Skill Shop acquisition is confirmed; current evidence confirms 0-Ki Other Super classification and a short defensive window that cancels incoming Ki attacks. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced. 2026-09-25 Batch 378 mechanics enrichment: current skill-specific evidence added; numeric damage/duration values remain source-reported rather than patch-independent canonical measurements.",
       "id": "skill-spirit-boost"
     },
     {
@@ -12444,7 +12446,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Kamehameha_%28SS4_DAIMA%29",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
-        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-dragon-ball-daima-pack-now-available"
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-dragon-ball-daima-pack-now-available",
+        "https://dbxv2.fandom.com/wiki/Super_Kamehameha_(SS4_DAIMA)"
       ],
       "usable_by_cac": true,
       "character_source": "SS4 Goku (DAIMA)",
@@ -12453,14 +12456,14 @@
       "unlock_method": "Parallel Quest 181 — \"The Greatest Training Ever\" Basic Reward",
       "source_quest_or_shop": "PQ181 - \"The Greatest Training Ever\"",
       "ultimate_finish_required": false,
-      "mechanics_notes": "400 Ki base activation with an optional additional 100 Ki input for the extended/powered version; PQ181 Basic Reward acquisition is preserved.",
+      "mechanics_notes": "400–500-Ki Ki Blast Ultimate. The user charges and fires a full-power beam; holding the input after the extension prompt spends an additional 100 Ki to lengthen and strengthen the blast. Current skill-specific evidence classifies it as an extendable 12–33-hit beam from PQ181.",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "mechanics": "400 Ki base cost; holding input on hit spends an additional 100 Ki for the boosted version, giving a 400–500 Ki range.",
       "race_restriction": "All CaC races",
       "source_quest": 181,
       "acquisition_type": "quest_or_mission",
-      "notes": "Dragon Ball DAIMA Pack provenance is documented; PQ181 is the maintained acquisition endpoint and lists the skill in Basic Rewards. Base activation uses 400 Ki; an additional 100 Ki input can extend/power the attack, for 500 Ki total. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims.",
+      "notes": "Dragon Ball DAIMA Pack provenance is documented; PQ181 is the maintained acquisition endpoint and lists the skill in Basic Rewards. Base activation uses 400 Ki; an additional 100 Ki input can extend/power the attack, for 500 Ki total. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims. 2026-09-25 Batch 378 mechanics enrichment: current skill-specific evidence added; numeric damage/duration values remain source-reported rather than patch-independent canonical measurements.",
       "id": "skill-super-kamehameha-ss4-daima",
       "source_parallel_quests": [
         181
@@ -12929,10 +12932,10 @@
       "source_quest_or_shop": "Parallel Quest 62 — \"Frieza's Nightmare Returns!\"",
       "ultimate_finish_required": false,
       "skill_description": "Teleporting Vanishing Ball is a Ultimate Ki Blast skill associated with Frieza (Final Form).",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate. The user creates a shield and Ki ball, teleports to the locked-on opponent, then throws the ball at close range. Current documentation classifies it as a teleporting 15-hit knockback projectile and reports about 30% total damage; exact invulnerability timing is not promoted as universal.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Teleporting_Vanishing_Ball",
@@ -12942,7 +12945,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 62,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 acquisition reconciliation: current maintained PQ reward data lists Teleporting Vanishing Ball in PQ62's Basic Reward pool, while dedicated skill documentation confirms PQ62 as the unlock quest. Historical community discussion questioned whether an Ultimate Finish was required, but current reward-table evidence does not establish an UF-only gate; exact reward-slot probability remains unresolved. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred.",
+      "notes": "2026-09-20 acquisition reconciliation: current maintained PQ reward data lists Teleporting Vanishing Ball in PQ62's Basic Reward pool, while dedicated skill documentation confirms PQ62 as the unlock quest. Historical community discussion questioned whether an Ultimate Finish was required, but current reward-table evidence does not establish an UF-only gate; exact reward-slot probability remains unresolved. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred. 2026-09-25 Batch 378 mechanics enrichment: current skill-specific evidence added; numeric damage/duration values remain source-reported rather than patch-independent canonical measurements.",
       "id": "skill-teleporting-vanishing-ball",
       "source_parallel_quests": [
         62
