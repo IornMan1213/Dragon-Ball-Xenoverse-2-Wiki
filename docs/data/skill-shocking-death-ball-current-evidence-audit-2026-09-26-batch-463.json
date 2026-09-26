@@ -1,0 +1,21 @@
+{
+  "batch": 463,
+  "date": "2026-09-26",
+  "skill_name": "Shocking Death Ball",
+  "skill_id": "skill-shocking-death-ball",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics/provenance review for the live canonical record.",
+  "findings": [
+    "300-Ki Ki Blast Ultimate from Expert Mission 14. The user charges a large Ki ball with both hands and launches it in a straight line; current dedicated evidence documents a 17-hit sequence and approximately 30% total damage as source-reported. The move is categorized as a long-range projectile with knockback; exact reward probability, frame timing, and patch-independent scaling remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Shocking_Death_Ball",
+    "https://dbxv2.fandom.com/wiki/Expert_Mission",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74574729"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "No unsupported exact frame data, hidden gates, reward probabilities, or patch-independent scaling is promoted.",
+    "Known source conflicts or historical evidence remain provenance rather than being silently normalized."
+  ]
+}
