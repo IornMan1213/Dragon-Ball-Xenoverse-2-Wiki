@@ -50,13 +50,19 @@
       157,
       169,
       170
-    ]
+    ],
+    "checked_in_reverse_projection_sync": {
+      "expected": "exact equality with deterministic source_parallel_quests projection",
+      "actual": "validator now performs exact object equality before rewriting",
+      "pass": true
+    }
   },
   "interpretation": [
     "The live canonical skill corpus contains 246 explicit skill→PQ edges across 170 of the 186 PQ IDs.",
     "The historical 244-edge invariant referenced by older handoff material is stale relative to the current canonical skill corpus and should not be used as a current truth without reconciling the two additional canonical endpoints.",
     "This audit validates only relationships represented by source_parallel_quests in the current skill corpus; it does not assert that the 16 PQs without a skill endpoint have no skill rewards.",
-    "The existing pq-cross-domain-index contains many historical artifact references that no longer resolve in the live tree; those are tracked separately and are not silently deleted because they document prior work."
+    "The existing pq-cross-domain-index contains many historical artifact references that no longer resolve in the live tree; those are tracked separately and are not silently deleted because they document prior work.",
+    "The live validator was hardened to compare the checked-in reverse artifact against the deterministic projection, preventing a count-only pass from masking per-PQ skill-ID/name drift."
   ],
   "status": "audited_current_live_corpus"
 }
