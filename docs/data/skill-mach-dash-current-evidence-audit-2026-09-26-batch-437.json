@@ -1,0 +1,20 @@
+{
+  "skill_id": "skill-mach-dash",
+  "name": "Mach Dash",
+  "batch": 437,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Mach_Dash",
+    "https://dbxv2.fandom.com/wiki/Evasive_Skill",
+    "https://dragonball.fandom.com/wiki/Mach_Dash"
+  ],
+  "findings": [
+    "200-Stamina Power Up Evasive",
+    "Parallel Quest 18 — Force Entrance Exam",
+    "Creates distance and grants a temporary speed increase",
+    "1.5% speed increase reported",
+    "Stat block reports 11.5 seconds while property text reports 12 seconds; discrepancy preserved",
+    "Exact activation/invulnerability frames and movement-speed calculation remain unresolved"
+  ]
+}
