@@ -1,0 +1,13 @@
+{
+  "batch": 488,
+  "date": "2026-09-26",
+  "skill_id": "skill-full-power-destruction",
+  "skill_name": "Full Power Destruction",
+  "status": "complete",
+  "findings": "Current evidence confirms 500-Ki Ki Blast Ultimate from PQ177 with five immediate tracking opener shots, a follow-up multi-hit blast, and cinematic explosion; the long complete sequence can be escaped with an Evasive.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Full_Power_Destruction"
+  ],
+  "evidence_boundary": "Current-source behavior and source-reported numerical values are preserved as bounded evidence. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; canonical/index parity validated at 474/474."
+}
