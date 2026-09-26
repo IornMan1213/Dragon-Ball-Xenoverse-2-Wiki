@@ -17,7 +17,8 @@
     "Reward/drop probability and hidden interaction details remain unresolved where the cited sources do not establish them."
   ],
   "canonical_changes": {
-    "mechanics_notes_updated": true,
-    "last_verified": "2026-09-26"
+    "mechanics_notes_prepared": true,
+    "last_verified": "2026-09-26",
+    "synchronization_status": "pending_canonical_large_file_update"
   }
 }
