@@ -5,8 +5,15 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 data=json.loads((ROOT/"docs/data/skills.json").read_text(encoding="utf-8"))
 records=data["records"]
-assert len(records)==474
-assert all(r.get("unlock_method") for r in records)
+assert isinstance(records, list), "records must be a list"
+assert len(records)==474, f"skill record count {len(records)} != 474"
+assert all(isinstance(r, dict) for r in records), "every skill record must be an object"
+required_fields=("id", "name", "unlock_method", "source_quest_or_shop", "acquisition_type")
+assert all(all(field in r for field in required_fields) for r in records), "every skill record must expose required acquisition fields"
+assert len({r["id"] for r in records})==474, "canonical skill IDs must be unique"
+assert all(isinstance(r["id"], str) and r["id"].strip() for r in records), "canonical skill IDs must be non-empty strings"
+assert all(isinstance(r["name"], str) and r["name"].strip() for r in records), "skill names must be non-empty strings"
+assert all(isinstance(r["unlock_method"], str) and r["unlock_method"].strip() for r in records)
 assert all(r.get("source_quest_or_shop") for r in records)
 assert all(r.get("acquisition_type") for r in records)
 anomalies=[]
