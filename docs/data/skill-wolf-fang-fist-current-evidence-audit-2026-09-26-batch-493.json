@@ -1,0 +1,12 @@
+{
+  "batch": 493,
+  "date": "2026-09-26",
+  "skill_id": "skill-wolf-fang-fist",
+  "skill_name": "Wolf Fang Fist",
+  "status": "complete",
+  "findings": "100-Ki Strike Super from Yamcha mentor Lesson 1. Current documentation reports a 15-hit rushdown sequence ending in knock-away and about 20% total damage.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Wolf_Fang_Fist"
+  ],
+  "evidence_boundary": "Current Xenoverse 2-specific mechanics and explicit acquisition evidence are bounded to cited source context. Unsupported exact frames, hidden interactions, probabilities, and patch-independent scaling are not inferred."
+}
