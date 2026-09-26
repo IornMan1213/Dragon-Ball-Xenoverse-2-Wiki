@@ -1,3 +1,13 @@
+### 2026-09-26 continuation — Partner/custom skill relationship layer implemented
+- [x] Audited the live repository for existing Partner Customization relationship data; partner evidence was embedded in skill research/audit artifacts and no dedicated canonical skill→partner relationship index was present.
+- [x] Added `docs/data/partner-skill-relationships.json` with an explicit reusable schema separating canonical `skill_id` identity from `partner_name` availability.
+- [x] Seeded evidence-backed relationships: **Arm Crash → Bardock**, **Arm Crash → Turles**, and **Reverse Mabakusenko → Majin Buu (Gohan Absorbed)**.
+- [x] Added `scripts/validate_partner_skill_relationships.py` to enforce canonical skill IDs, unique pairs, expected relationship type, and evidence.
+- [x] Registered the relationship index and validator in `docs/data/pq-cross-domain-index.json`.
+- [x] Kept **Dual Masenko** outside the canonical relationship index because the current 474-skill corpus lacks a canonical record; the existing domain-boundary audit remains controlling for that case.
+- [ ] Exact next: execute the validator and systematically census explicit Partner Customization skill relationships, adding only evidence-backed pairs.
+- [ ] CI/build remains unverified.
+
 ### 2026-09-26 continuation — Partner/custom skill domain boundary resolved
 - [x] Researched the unresolved Dual Masenko / PQ118 question against current external references and the live repository.
 - [x] Added `docs/data/partner-custom-skill-domain-boundary-audit-2026-09-26.json` and registered it in `docs/data/pq-cross-domain-index.json`.
