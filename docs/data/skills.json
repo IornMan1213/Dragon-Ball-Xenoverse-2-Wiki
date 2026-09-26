@@ -766,13 +766,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Broly mentor training",
-      "mechanics_notes": "100-Ki Ki Blast Super. The user slowly throws five Ki Blasts in alternating hands; repeated input speeds up the throws. The full five-hit sequence produces knockback and current skill evidence reports about 15% total damage. No exact input timing is inferred.",
-      "last_verified": "2026-09-25",
+      "mechanics_notes": "100-Ki Ki Blast Super from Broly training. The user throws five Ki Blasts in alternating hands for five hits and about 15% total damage; repeated input accelerates the volley. Current dedicated evidence confirms the acquisition endpoint and five-hit behavior; exact input timing and frame data remain unresolved.",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": "Broly mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 provenance verification: dedicated documentation confirms Broly mentor training as the acquisition route and identifies Blaster Shell as a 100-Ki Blast Super. Existing mentor semantics are preserved.\n2026-09-25 mechanics correction/enrichment: 100-Ki Ki Blast Super. The user slowly throws five Ki Blasts in alternating hands; repeated input speeds up the throws. The full five-hit sequence produces knockback and current skill evidence reports about 15% total damage. No exact input timing is inferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 provenance verification: dedicated documentation confirms Broly mentor training as the acquisition route and identifies Blaster Shell as a 100-Ki Blast Super. Existing mentor semantics are preserved.\n2026-09-25 mechanics correction/enrichment: 100-Ki Ki Blast Super. The user slowly throws five Ki Blasts in alternating hands; repeated input speeds up the throws. The full five-hit sequence produces knockback and current skill evidence reports about 15% total damage. No exact input timing is inferred.\n2026-09-26 Batch 434 current-evidence mechanics refresh: dedicated current skill evidence rechecked cost, classification, acquisition, counter/projectile behavior, and bounded numeric mechanics. Unsupported exact frames, hidden interactions, patch-independent scaling, and probabilities remain unresolved.",
       "id": "skill-blaster-shell",
       "source_mentor": [
         "mentor-broly"
@@ -9823,7 +9823,7 @@
       "name": "Pressure Sign",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Pressure_Sign",
         "https://dragonball.fandom.com/wiki/Pressure_Sign",
@@ -9836,11 +9836,11 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Skill Shop (Conton City)",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "research_status": "enriched",
-      "mechanics_notes": "100-Ki Strike Super from the Conton City Skill Shop. The user taunts during the active counter window; if struck, the move teleports the user behind the attacker and lands a kick. Current documentation identifies Pressure Sign as a universal counter.",
+      "mechanics_notes": "100-Ki Strike Super and universal counter. The user taunts during the counter window; if struck by an attack, they teleport behind the attacker and deliver a kick. Current dedicated evidence confirms Skill Shop acquisition and the counter behavior; exact counter-frame window and damage value remain unresolved.",
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the Conton City Skill Shop route. A GameFAQs community answer reports the skill appearing after completing the Distorted Time Egg sidequest, but the dedicated skill pages do not establish that prerequisite; the repository therefore preserves the Skill Shop source without promoting the community timing claim to a deterministic gate.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.\n2026-09-25 current-evidence promotion: current Xenoverse 2-specific documentation confirms the 100-Ki Strike Super, Skill Shop endpoint, and universal counter behavior. The community-reported Distorted Time Egg timing claim remains unpromoted to a deterministic prerequisite.",
+      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the Conton City Skill Shop route. A GameFAQs community answer reports the skill appearing after completing the Distorted Time Egg sidequest, but the dedicated skill pages do not establish that prerequisite; the repository therefore preserves the Skill Shop source without promoting the community timing claim to a deterministic gate.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.\n2026-09-25 current-evidence promotion: current Xenoverse 2-specific documentation confirms the 100-Ki Strike Super, Skill Shop endpoint, and universal counter behavior. The community-reported Distorted Time Egg timing claim remains unpromoted to a deterministic prerequisite.\n2026-09-26 Batch 434 current-evidence mechanics refresh: dedicated current skill evidence rechecked cost, classification, acquisition, counter/projectile behavior, and bounded numeric mechanics. Unsupported exact frames, hidden interactions, patch-independent scaling, and probabilities remain unresolved.",
       "id": "skill-pressure-sign"
     },
     {
