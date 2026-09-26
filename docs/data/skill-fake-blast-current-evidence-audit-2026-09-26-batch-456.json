@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-fake-blast",
+  "name": "Fake Blast",
+  "batch": 456,
+  "date": "2026-09-26",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Fake_Blast",
+    "https://dbxv2.fandom.com/wiki/Evasive_Skill"
+  ],
+  "findings": [
+    "2026-09-26 Batch 456 current-evidence enrichment: 200-Stamina Ki Blast Evasive from training with Cooler (Final Form). The user fires a close-range Ki wave into the opponent's face, dealing no damage but blinding for two seconds. Current evidence confirms the Evasive classification, stamina cost, acquisition endpoint, and blind duration; exact active/invulnerability frames and interaction with status resistance remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
