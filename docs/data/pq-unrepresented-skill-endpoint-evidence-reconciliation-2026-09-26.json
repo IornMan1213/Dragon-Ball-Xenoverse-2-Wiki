@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-26",
+  "purpose": "Evidence reconciliation of PQ IDs absent from the canonical skill→PQ reverse index.",
+  "methodology": "Compared the 16 unrepresented PQ IDs against current repository skill records/search results and external Xenoverse 2 PQ reward references. Only explicit canonical skill→PQ relationships are promoted; non-skill rewards, partner skills, shop acquisition, and ambiguous third-party mappings are not converted into canonical endpoints.",
+  "unrepresented_pqs": {
+    "1": {
+      "status": "no_canonical_skill_endpoint_confirmed",
+      "evidence": "Current Steam reward transcription lists Energy Capsule S only for PQ1; no skill reward is listed."
+    },
+    "30": {
+      "status": "no_canonical_skill_endpoint_confirmed",
+      "evidence": "Steam reward transcription lists Hercule/Tien clothing and a Super Soul; no skill reward is listed."
+    },
+    "35": {
+      "status": "no_canonical_skill_endpoint_confirmed",
+      "evidence": "Steam reward transcription lists Small Mix Capsule, Aura Shard and a Super Soul; no skill reward is listed."
+    },
+    "47": {
+      "status": "no_canonical_skill_endpoint_confirmed",
+      "evidence": "Steam reward transcription lists All-Aura Shard, Super Soul and Broly clothing; no skill reward is listed."
+    },
+    "48": {
+      "status": "no_canonical_skill_endpoint_confirmed",
+      "evidence": "Steam reward transcription lists capsules and Kamekameha; Kamehameha is already a distinct canonical skill acquired elsewhere, so the typo-like reward label is not promoted as a new skill→PQ relationship."
+    },
+    "93": {
+      "status": "no_canonical_skill_endpoint_confirmed",
+      "evidence": "Steam reward transcription lists Pan clothing/accessories and Super Souls; no skill reward is listed."
+    },
+    "102": {
+      "status": "no_canonical_skill_endpoint_confirmed",
+      "evidence": "Steam reward transcription lists a Super Soul and Cabba clothing; DLC documentation also identifies PQ102 as a Super Soul/clothing reward quest, not a canonical skill endpoint."
+    },
+    "103": {
+      "status": "no_canonical_skill_endpoint_confirmed",
+      "evidence": "DLC documentation identifies PQ103 rewards as Super Souls; no canonical skill endpoint was found."
+    },
+    "107": {
+      "status": "no_canonical_skill_endpoint_confirmed",
+      "evidence": "Steam reward transcription lists Future Mai clothing and a Super Soul; no skill reward is listed."
+    },
+    "108": {
+      "status": "no_canonical_skill_endpoint_confirmed",
+      "evidence": "Steam reward transcription lists Goku Black clothing and Super Souls; no skill reward is listed."
+    },
+    "118": {
+      "status": "noncanonical_or_unresolved_skill_evidence",
+      "evidence": "Current Steam reward transcription shows only capsule/Super Soul rewards. Other DLC guides associate Dual Masenko with PQ118, but the live repository has no canonical `skill-dual-masenko` record; therefore no canonical edge is promoted."
+    },
+    "121": {
+      "status": "no_canonical_skill_endpoint_confirmed",
+      "evidence": "Steam reward transcription shows clothing/Super Soul rewards. A current third-party guide associates Godly Display/Soaring Fist with PQ121, but the live repository's Godly Display audit records TP Medal Shop acquisition; therefore no PQ121 canonical edge is promoted."
+    },
+    "144": {
+      "status": "no_canonical_skill_endpoint_confirmed",
+      "evidence": "Current community evidence identifies PQ144 as a Super Soul source; no canonical skill endpoint was found."
+    },
+    "157": {
+      "status": "no_canonical_skill_endpoint_confirmed",
+      "evidence": "Steam reward transcription lists Super Souls, artworks and clothing; no skill reward is listed."
+    },
+    "169": {
+      "status": "no_canonical_skill_endpoint_confirmed",
+      "evidence": "Steam reward transcription lists Orange Piccolo clothing and artworks; no skill reward is listed."
+    },
+    "170": {
+      "status": "no_canonical_skill_endpoint_confirmed",
+      "evidence": "Steam reward transcription lists Videl clothing and artworks; no skill reward is listed."
+    }
+  },
+  "sources": [
+    "Steam Community DBXV2 All 186 Parallel Quests reward transcription",
+    "Steam Community DBXV2 Parallel Quest Item / Skill Rewards guide",
+    "Dragon Ball Xenoverse 2 DLC reward/skill overview",
+    "Live repository canonical skill records and current-evidence audits"
+  ],
+  "result": "No new canonical skill→PQ edge is promoted by this reconciliation pass. The 16-ID gap remains a documented evidence boundary rather than an assumed absence-of-reward claim."
+}
