@@ -1,0 +1,21 @@
+{
+  "skill_id": "skill-majin-kamehameha",
+  "name": "Majin Kamehameha",
+  "batch": 437,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Majin_Kamehameha",
+    "https://dragonball.fandom.com/wiki/Majin_Kamehameha"
+  ],
+  "findings": [
+    "Super Ki Blast classification corrected from stale Ultimate value",
+    "100 Ki",
+    "Parallel Quest 60 — Blast the Spirit Bomb!",
+    "Three charge stages",
+    "5 hits at base charge; up to 15 at maximum charge",
+    "Approximately 10% to 15% source-reported damage",
+    "Majin CaC restriction confirmed",
+    "Exact charge timing and frame data remain unresolved"
+  ]
+}
