@@ -3,20 +3,20 @@
   "audit_date": "2026-09-26",
   "scope": "pq-cross-domain-index reference reachability against the live main-branch repository tree",
   "purpose": "Separate live-reachable registered artifacts from historical/planned references without deleting provenance entries.",
-  "live_tree_file_count": 700,
+  "live_tree_file_count": 707,
   "index_reference_count": 1608,
-  "reachable_reference_count": 713,
-  "unreachable_reference_count": 895,
+  "reachable_reference_count": 720,
+  "unreachable_reference_count": 888,
   "classification_of_unreachable_references": {
     "skill-artifact": 637,
-    "super-soul-artifact": 81,
+    "super-soul-artifact": 80,
     "pq-artifact": 54,
-    "other": 50,
+    "other": 47,
     "accessory-artifact": 18,
     "dlc-artifact": 17,
-    "character-artifact": 12,
+    "character-artifact": 10,
     "equipment-artifact": 11,
-    "validator-script": 15
+    "validator-script": 14
   },
   "critical_unreachable_reference_count": 20,
   "critical_unreachable_references": [
@@ -40,11 +40,12 @@
     "docs/data/pq-explorer-validator-contract-synchronization-2026-09-24.json"
   ],
   "interpretation": [
-    "The cross-domain index contains substantial historical/planned references that are not files in the current tree.",
+    "The cross-domain index still contains substantial historical/planned references that are not files in the current tree.",
+    "The 2026-09-26 recovery pass restored seven previously unreachable registered paths relevant to character/preset/navigation reconciliation, including the reachability audit itself; the stale current-character-consumer reference was redirected to the restored current-presentation-consumer artifact.",
     "Unreachable references are not deleted because the index is also a provenance ledger.",
-    "The largest unreachable class is skill artifacts; this is not evidence that the canonical skill corpus is missing, because the canonical corpus and current-evidence audits are represented separately.",
-    "The five new preset bridge records and restored character consumer artifacts are reachable on main and are therefore excluded from the unreachable count."
+    "The largest unreachable class remains skill artifacts; this is not evidence that the canonical skill corpus is missing, because the canonical corpus and current-evidence audits are represented separately.",
+    "The recovered preset bridge records and Partner Customization navigation layer are now reflected in the live reachable baseline."
   ],
   "evidence_boundary": "This audit tests only path reachability against the live repository tree. It does not determine whether an unreachable historical artifact should be recreated, whether its underlying claim remains correct, or whether a planned reverse index has enough source data to regenerate safely.",
-  "next": "Prioritize critical cross-domain references that are both currently required by live validators/navigation and regenerable from canonical data; do not bulk-recreate historical artifacts merely to reduce the unreachable count."
+  "next": "Prioritize remaining critical cross-domain references that are both currently required by live validators/navigation and safely regenerable from canonical data; do not bulk-recreate historical artifacts merely to reduce the unreachable count."
 }
