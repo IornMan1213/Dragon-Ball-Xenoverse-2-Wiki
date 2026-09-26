@@ -752,3 +752,14 @@
 - [x] Post-Batch-372 census: **0 empty mechanics_notes**; next shortest is **The Savior Has Come (78 chars)**, followed by **Jumping Energy Wave (79)** and **Evil Flight Strike (85)**.
 - [ ] CI remains unverified; no workflow success claimed.
 - [x] Exact next: investigate **The Savior Has Come** first; if current evidence remains acquisition-only, record the boundary and move to **Jumping Energy Wave / Evil Flight Strike** rather than inventing mechanics.
+
+
+### 2026-09-25 completion — Skill Batch 373 short-record mechanics enrichment
+- [x] Fresh live frontier confirmed **469 canonical / 469 index / 0 empty mechanics_notes** before editing; selected The Savior Has Come, Jumping Energy Wave, and Evil Flight Strike as the shortest remaining records.
+- [x] Promoted current skill-specific mechanics into canonical and index layers: The Savior Has Come now documents the 300-Ki taunt/forced-lock behavior and 10-second lock duration; Jumping Energy Wave documents its below-user beam, upward movement, ground shockwave, Boost Dash use, 2-hit/5% source-reported behavior, and combo limitation; Evil Flight Strike documents its 100-Ki/300-Stamina eight-hit rising strike and airborne follow-up behavior.
+- [x] Added exact skill-specific evidence sources and synchronized last_verified: 2026-09-25 for all three.
+- [x] Added/registered Batch 373 audit and research-batch artifacts.
+- [x] Post-write validation: canonical/index **469/469**, ordered ID parity true, target mechanics/date/source fields synchronized.
+- [x] Post-Batch-373 census: **0 empty mechanics_notes**; shortest remaining record is **Fighting Pose A (86 chars)**, followed by Afterimage (90), Spirit Bomb (91), S.S. Deadly Bomber (96), and Charged Ki Wave (98).
+- [ ] CI remains unverified; no workflow success claimed.
+- [x] Exact next: continue fresh shortest-record enrichment beginning with **Fighting Pose A**, then Afterimage / Spirit Bomb, while preserving evidence boundaries.
