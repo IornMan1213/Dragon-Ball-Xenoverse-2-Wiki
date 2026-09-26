@@ -1,3 +1,14 @@
+### 2026-09-26 TODO progress update — PQ unrepresented-endpoint evidence reconciliation
+- [x] Reconciled all **16 currently unrepresented PQ IDs** against current PQ reward references and live canonical skill evidence.
+- [x] Added `docs/data/pq-unrepresented-skill-endpoint-evidence-reconciliation-2026-09-26.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved the canonical evidence boundary: no new skill→PQ edge was promoted solely from a third-party reward label, non-skill reward, or ambiguous mapping.
+- [x] Confirmed PQs **1, 30, 35, 47, 48, 93, 102, 103, 107, 108, 144, 157, 169, 170** have no currently supported canonical skill endpoint in the reviewed evidence.
+- [x] PQ **118** remains unresolved at the canonical-schema level because external material associates a non-canonical/partner-style `Dual Masenko` reward with it, but the live repository has no canonical `skill-dual-masenko` record.
+- [x] PQ **121** was not linked to Godly Display because the live repository's current Godly Display audit records TP Medal Shop acquisition; the external PQ121 association is therefore retained as conflicting evidence rather than promoted.
+- [ ] Investigate whether partner/custom skills such as Dual Masenko belong in a separate skill domain before expanding the canonical skill corpus.
+- [ ] CI/build remains unverified.
+- [ ] Efficiency addendum remains unavailable at the expected repository path (GitHub 404).
+
 ### 2026-09-26 TODO progress update — Live skill↔PQ cross-domain linkage pass
 - [x] Audited the live 474-record canonical skill corpus for explicit `source_parallel_quests` relationships.
 - [x] Added `docs/data/skill-pq-reverse-index-2026-09-26.json` with all PQ IDs 1–186 represented explicitly.
