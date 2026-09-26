@@ -1,3 +1,13 @@
+### 2026-09-26 continuation — Acquisition metadata external corroboration pass
+- [x] Re-read the live handoff/TODO and inspected the current acquisition integrity audit.
+- [x] The deterministic acquisition audit remains clean: **474/474 records, 0 missing required acquisition fields, 0 internal metadata anomalies**.
+- [x] Externally corroborated representative non-PQ acquisition boundaries: Super Guard is documented as a starting skill/Skill Shop skill; Godly Display is documented as a TP Medal Shop skill; current external material also identifies Soaring Fist and Divine Kamehameha as TP/STP Medal Shop skills. These checks support retaining the repository's non-PQ acquisition model rather than converting shop endpoints into PQ endpoints.
+- [x] No canonical acquisition correction was made because the audit exposed no internally inconsistent record requiring correction.
+- [x] Preserved the PQ121 evidence boundary: external material confirms Godly Display's TP Medal Shop acquisition, so no unsupported PQ121→Godly Display edge was introduced.
+- [ ] Exact next: investigate the separate partner/custom-skill domain question around Dual Masenko/PQ118 and determine whether a non-CaC/partner skill corpus should be modeled separately, using explicit schema evidence before adding records.
+- [ ] CI/build remains unverified.
+- [ ] Efficiency addendum remains unavailable at the expected repository path (GitHub 404).
+
 - [x] Completed a deterministic acquisition metadata integrity pass over all 474 canonical skills; added `docs/data/skill-acquisition-metadata-integrity-audit-2026-09-26.json` and `scripts/validate_skill_acquisition_metadata.py` and registered them in the cross-domain index.
 - [x] Required acquisition fields are populated across the corpus; internal consistency between acquisition type, unlock method, and explicit PQ endpoints is now machine-checkable.
 - [ ] Exact next: inspect any audit anomalies and corroborate them externally before changing canonical acquisition data.
