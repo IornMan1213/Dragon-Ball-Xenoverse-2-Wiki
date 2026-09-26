@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-batch-376-thin-mechanics-audit-2026-09-25",
+  "date": "2026-09-25",
+  "baseline": "Post-Batch-375 fresh frontier",
+  "targets": [
+    {
+      "id": "skill-spirit-ball",
+      "name": "Spirit Ball",
+      "classification": "Ki Blast Ultimate",
+      "cost": "300 Ki",
+      "mechanics": "Large controllable Ki ball; up to 17 additional inputs extend tracking for 1–18 hits; long-range/knockback.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Spirit_Ball"
+      ]
+    },
+    {
+      "id": "skill-spirit-pulse",
+      "name": "Spirit Pulse",
+      "classification": "Ki Blast Super",
+      "cost": "100 Ki",
+      "mechanics": "Fast single spirit-energy strike from a forward fist thrust.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Spirit_Pulse"
+      ]
+    },
+    {
+      "id": "skill-chaos-wall",
+      "name": "Chaos Wall",
+      "classification": "Ki Blast Evasive",
+      "cost": "300 Stamina",
+      "mechanics": "Launches a Ki-blast-nullifying wall; holding enlarges it and increases speed/damage.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Chaos_Wall"
+      ]
+    },
+    {
+      "id": "skill-sign-of-awakening",
+      "name": "Sign of Awakening",
+      "classification": "Ki Blast Ultimate",
+      "cost": "300 Ki",
+      "mechanics": "Rush multi-hit sequence into blue energy projectile; extra input vanishes behind the target for another attack.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Sign_of_Awakening",
+        "https://dbxv2.fandom.com/wiki/Free_Update"
+      ]
+    },
+    {
+      "id": "skill-tail-slicer",
+      "name": "Tail Slicer",
+      "classification": "Ki Blast Super",
+      "cost": "100 Ki",
+      "mechanics": "Sideways-moving tracking disc with directional input; blockability/unblockability is preserved as an unresolved source conflict.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Tail_Slicer",
+        "https://dbxv2.fandom.com/wiki/Unblockable_Attack"
+      ]
+    }
+  ],
+  "result": "Five shortest/high-impact records enriched and synchronized in canonical and index layers.",
+  "conflict_policy": "Tail Slicer blockability conflict remains explicitly unresolved.",
+  "ci": "unverified"
+}
