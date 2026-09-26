@@ -56,6 +56,15 @@
       "Retain canonical skill-ID, uniqueness, relationship-type, and evidence-path checks.",
       "Require exactly 3 canonical relationship records; require object-shaped records, list-shaped evidence, and non-empty string evidence paths."
     ],
-    "status": "clean"
+    "status": "clean",
+    "schema_hardening": {
+      "changes": [
+        "Reject a malformed relationship source container instead of treating non-object input as implicitly valid.",
+        "Reject malformed skills.records and character bridge records containers or record shapes.",
+        "Require canonical skill IDs and partner names used by the validator to be non-empty strings."
+      ],
+      "status": "clean",
+      "commit": "49a7f611e2c4887fc01a24d73523d31f389b7414"
+    }
   }
 }
