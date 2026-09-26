@@ -62,6 +62,5 @@ payload = {
         for pq, items in by_pq.items()
     },
 }
-OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "
-", encoding="utf-8")
+OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 print(f"PASS: {len(records)} skills, {edge_count} skill→PQ edges, {represented} represented PQ IDs")
