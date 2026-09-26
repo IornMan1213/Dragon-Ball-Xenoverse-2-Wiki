@@ -1,3 +1,14 @@
+### 2026-09-26 continuation — Historical character/preset/navigation recovery reconciled
+- [x] Inspected Git history for the previously reported missing character/preset/navigation artifacts and recovered the latest coherent historical versions/replacements already established by the repository's 2026-09-26 recovery work.
+- [x] Confirmed the live `main` tree now exposes the canonical character identity bridge, 51-record preset layer, current presentation consumer scan, Skills↔Super Souls navigation audit, numeric preset loadout audit, Partner Customization navigation audit, and its validator.
+- [x] Confirmed the stale `current-character-consumer-scan.json` reference is represented by the canonical `docs/data/current-presentation-consumer-scan-2026-09-24.json` replacement; the live PQ cross-domain index already points to the replacement rather than recreating the stale filename.
+- [x] Recomputed the Partner Customization navigation contract directly from the live files: **20 keys / 20 reconciliation records / 34 bridge records / 152 canonical character names / 20 page links**, with all identity, uniqueness, parity, and navigation checks passing.
+- [x] Preserved the evidence boundary: preset recovery restores presentation/navigation records only; it does not infer complete numeric loadouts, acquisition routes, DLC ownership, or Partner Customization skill relationships.
+- [x] Updated the persistent handoff/TODO state so the recovery task is no longer left as an unfinished next step.
+- [ ] Exact next: use the live cross-domain reachability audit to inspect the remaining critical unreachable primary/reverse datasets (especially the PQ reward relationship layer) and determine whether an evidence-complete deterministic source/generator exists before recreating anything.
+- [ ] CI/build remains unverified in this environment.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected repository path (GitHub 404).
+
 ### 2026-09-26 continuation — Partner character navigation reference reachability audit
 - [x] Attempted live fetches for the character/preset/navigation artifacts needed to reconcile Partner Customization mappings.
 - [x] Confirmed six PQ cross-domain index references are currently unreachable on `main`: character identity bridge, current character consumer scan, skills↔Super Souls reference navigation audit, numeric preset loadout audit, Partner Customization character navigation audit, and its validator script.
