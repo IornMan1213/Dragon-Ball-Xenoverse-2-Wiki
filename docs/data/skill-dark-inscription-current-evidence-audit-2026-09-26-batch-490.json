@@ -1,0 +1,10 @@
+{
+  "batch": 490,
+  "date": "2026-09-26",
+  "skill_id": "skill-dark-inscription",
+  "skill_name": "Dark Inscription",
+  "status": "complete",
+  "findings": "100+ Ki Ki Blast Super from PQ182; creates time-space rifts and can be extended up to four times, building Power of Time and increasing rifts/damage while powering related techniques.",
+  "evidence_boundary": "Current-source behavior and source-reported numerical values are bounded. Unsupported exact frames, universal scaling, hidden interactions, and drop probabilities are not asserted.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}
