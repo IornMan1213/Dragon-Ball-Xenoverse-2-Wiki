@@ -1,0 +1,24 @@
+{
+  "batch": 426,
+  "date": "2026-09-26",
+  "skill_id": "skill-do-or-die",
+  "skill_name": "Do or Die",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Do_or_Die",
+    "https://videogaming.fandom.com/wiki/Do_or_Die_%28Dragon_Ball%3A_Xenoverse_2%29",
+    "https://steamcommunity.com/app/454650/discussions/0/1697167355225395076/"
+  ],
+  "scope": "Current Xenoverse 2-specific mechanics, acquisition, and bounded version/context evidence reviewed in Batch 426.",
+  "findings": "100-Ki Power Up Super from PQ49 Basic Reward. Current skill documentation describes an activation that knocks back nearby enemies, deals about 1% damage, and grants a 10% received-damage reduction for 20 seconds. Community evidence also describes the activation's short animation and knockback utility, but those observations are not promoted into exact frame data.",
+  "canonical_changes": {
+    "last_verified": "2026-09-26",
+    "research_status": "enriched",
+    "verification_status": "evidence_reviewed"
+  },
+  "unresolved": [
+    "Exact current activation/invulnerability/recovery frames remain unresolved.",
+    "The 20-second/10% values are retained as current source-reported values, not independently measured frame data.",
+    "Patch-independent scaling and interactions with other buffs remain unresolved."
+  ],
+  "status": "complete"
+}
