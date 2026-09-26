@@ -1301,5 +1301,9 @@
   "skill_evil_ray_strike_current_evidence_audit_2026_09_26_batch_438": "docs/data/skill-evil-ray-strike-current-evidence-audit-2026-09-26-batch-438.json",
   "skill_pretty_charge_current_evidence_audit_2026_09_26_batch_438": "docs/data/skill-pretty-charge-current-evidence-audit-2026-09-26-batch-438.json",
   "skill_batch_438_current_evidence_research_2026_09_26": "docs/data/skill-research-batches/skill-batch-438.json",
-  "skill_batch_438_thin_frontier_audit_2026_09_26": "docs/data/skill-research-batches/skill-batch-438-thin-frontier-mechanics-audit-2026-09-26.json"
+  "skill_batch_438_thin_frontier_audit_2026_09_26": "docs/data/skill-research-batches/skill-batch-438-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_research_batch_436_skill_orin_combo_current_evidence_audit_2026_09_26_json": "docs/data/skill-orin-combo-current-evidence-audit-2026-09-26-batch-436.json",
+  "skill_research_batch_436_skill_stone_bullet_current_evidence_audit_2026_09_26_json": "docs/data/skill-stone-bullet-current-evidence-audit-2026-09-26-batch-436.json",
+  "skill_research_batch_436_skill_super_black_kamehameha_rose_current_evidence_audit_2026_09_26_json": "docs/data/skill-super-black-kamehameha-rose-current-evidence-audit-2026-09-26-batch-436.json",
+  "skill_research_batch_436_skill_super_donut_volley_current_evidence_audit_2026_09_26_json": "docs/data/skill-super-donut-volley-current-evidence-audit-2026-09-26-batch-436.json"
 }
