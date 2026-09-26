@@ -1,4 +1,15 @@
 
+### 2026-09-26 continuation — Skill Research Batch 433 completed
+
+- [x] Fresh unaudited mechanics frontier selected **One-Handed Kamehameha mk.II, Innocence Cannon, Sonic Bomb, and Energy Minefield** after excluding Batch 432 and all prior current-evidence-audited records.
+- [x] Added four current-evidence audits plus Batch 433 research and thin-frontier audit artifacts.
+- [x] Rechecked current Xenoverse 2-specific cost, classification, acquisition, sequence behavior, resource usage, and bounded numeric mechanics against dedicated skill references; secondary/community evidence was explicitly qualified.
+- [x] Synchronized all four records into both canonical skill datasets and refreshed their current-scope verification date to 2026-09-26.
+- [x] Registered the Batch 433 research record, thin-frontier audit, and four skill audits in `docs/data/pq-cross-domain-index.json`.
+- [x] Validated **474/474** canonical/index records with **0 missing / 0 extra**.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 433 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
+
 ### 2026-09-26 continuation — Skill Research Batch 432 completed
 
 - [x] Fresh unaudited mechanics frontier selected **Super Gamma Blast, Super Ghost Kamikaze Attack, Final Flash (Super), and Super God Shock Flash** after excluding Batch 431 and all prior current-evidence-audited records.
