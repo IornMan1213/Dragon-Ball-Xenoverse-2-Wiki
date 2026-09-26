@@ -1,0 +1,19 @@
+{
+  "batch": 460,
+  "date": "2026-09-26",
+  "skill_name": "Hyper Movement",
+  "skill_id": "skill-hyper-movement",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics/provenance review for the live canonical record.",
+  "findings": [
+    "200-Stamina Strike Evasive from the TP Medal Shop. The user teleports in front of the opponent and lands a punch that knocks them away; after a prior knockback it can intercept toward the opponent's landing point. Exact teleport timing, distance, damage scaling, and frame data remain unresolved."
+  ],
+  "sources": [
+    "Repository-maintained current skill/PQ evidence corpus; dedicated exact-name references reviewed for the live record."
+  ],
+  "evidence_boundaries": [
+    "Source-reported damage and timing values remain bounded.",
+    "No unsupported exact frame data, reward probabilities, hidden gates, or patch-independent scaling is promoted.",
+    "Conflicting acquisition semantics remain explicitly unresolved where sources disagree."
+  ]
+}
