@@ -1,7 +1,7 @@
 {
   "batch": 426,
   "date": "2026-09-26",
-  "status": "evidence_complete_pending_canonical_sync",
+  "status": "complete",
   "scope": "Fresh unaudited mechanics frontier after Batch 425.",
   "selected": [
     "Elite Beam",
@@ -10,5 +10,13 @@
     "Do or Die"
   ],
   "evidence_policy": "Use current Xenoverse 2-specific evidence where available; retain source-reported numeric values as bounded evidence and do not invent exact frames, probabilities, hidden interactions, or patch-independent scaling.",
-  "exact_next": "Synchronize all four Batch 426 audits into skills.json and skills-index.json, register the artifacts, validate 474/474 parity, and update the persistent handoff."
+  "exact_next": "Run a fresh unaudited mechanics frontier census excluding Batch 426 and earlier audited records, then research and synchronize the next canonical batch.",
+  "canonical_sync": "All four Batch 426 selected skills synchronized into docs/data/skills.json and docs/data/skills-index.json.",
+  "registry_sync": "Batch 426 record and all four audits registered in docs/data/pq-cross-domain-index.json.",
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "missing_ids": 0,
+    "extra_ids": 0
+  }
 }
