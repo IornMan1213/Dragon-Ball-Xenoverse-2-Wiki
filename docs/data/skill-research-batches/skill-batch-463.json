@@ -1,0 +1,55 @@
+{
+  "batch": 463,
+  "date": "2026-09-26",
+  "scope": "Fresh registered-audit mechanics frontier after Batch 462.",
+  "selected": [
+    "Final Rampage",
+    "Perfect Kamehameha",
+    "Shocking Death Ball",
+    "Spirit Sword",
+    "Super Afterimage",
+    "Hell Flash",
+    "Punisher Shield",
+    "Fake Death"
+  ],
+  "method": "Live 474-record census excluding registered current-evidence audits; selected the next eight lowest-detail records.",
+  "records": [
+    {
+      "skill_name": "Final Rampage",
+      "mechanics_notes": "500-Ki Strike Ultimate from PQ174. The user rushes and knocks the opponent forward, vanishes behind them for a sledgehammer, then fires a Final Flash-like Ki wave and finishes with a heavy ground punch. Current dedicated evidence identifies a 15-hit sequence and states the final full-force attack occurs when the Ki wave connects; the move can continue through an opponent's Limit Burst. Exact frame timing and patch-independent damage scaling remain unresolved."
+    },
+    {
+      "skill_name": "Perfect Kamehameha",
+      "mechanics_notes": "400-Ki Ki Blast Ultimate from Cell (Perfect)'s mentor Lesson 4. The user performs a long charge, then fires a stationary Kamehameha; current dedicated evidence documents 21 hits and approximately 40% total damage as source-reported. The charge leaves the user exposed and the move cannot be guarded; exact frame timing and patch-independent damage scaling remain unresolved."
+    },
+    {
+      "skill_name": "Shocking Death Ball",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from Expert Mission 14. The user charges a large Ki ball with both hands and launches it in a straight line; current dedicated evidence documents a 17-hit sequence and approximately 30% total damage as source-reported. The move is categorized as a long-range projectile with knockback; exact reward probability, frame timing, and patch-independent scaling remain unresolved."
+    },
+    {
+      "skill_name": "Spirit Sword",
+      "mechanics_notes": "400-Ki Strike Ultimate from Expert Mission 17. The user stabs with a long Ki blade, then spins twice to slash the opponent; current dedicated evidence documents 3 hits, knockback, and approximately 50% total damage as source-reported. The follow-up sequence only continues if the initial stab connects; exact frame timing and patch-independent scaling remain unresolved."
+    },
+    {
+      "skill_name": "Super Afterimage",
+      "mechanics_notes": "100-Ki Other Super. The user creates six afterimages for evasion and can use the movement to slip behind a nearby opponent; current dedicated evidence also documents the close-range vanish-behind behavior. A documented 0-Ki timing technique is treated as a usage technique rather than a formal game-data cost change. Exact active timing, teleport distance, and frame data remain unresolved."
+    },
+    {
+      "skill_name": "Hell Flash",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate learned from Android 16. The user aims a beam at the ground, causing multiple Ki pillars to erupt; current dedicated evidence documents a 26-hit launching sequence totaling approximately 70% damage as source-reported. Exact frame timing and patch-independent scaling remain unresolved."
+    },
+    {
+      "skill_name": "Punisher Shield",
+      "mechanics_notes": "100-Ki Ki Blast Super/counter from PQ129. The user creates a barrier that lingers for about 2 seconds; an incoming Ki Blast can be reflected and followed by a teleporting kick, while close-range use can trigger the kick directly. Current dedicated evidence reports approximately 7% total damage. Exact frames, recovery, and patch-independent scaling remain unresolved."
+    },
+    {
+      "skill_name": "Fake Death",
+      "mechanics_notes": "0-Ki Strike Super from Yamcha training. The user falls backward into the Yamcha fake-KO pose, can hold the input while lying down, then springs up with a kick. Current dedicated evidence documents generous invulnerability frames during the initial animation and get-up kick, with the move not necessarily placing the user on the ground. Exact frame counts and recovery remain unresolved."
+    }
+  ],
+  "validation": {
+    "canonical_count": 474,
+    "index_count": 474,
+    "ordered_id_parity": true
+  }
+}
