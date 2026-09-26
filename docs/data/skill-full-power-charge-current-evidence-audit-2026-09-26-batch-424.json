@@ -20,5 +20,7 @@
     "Exact current charge-rate curve is not asserted.",
     "Exact activation frames and Ki-per-second values are not asserted.",
     "Patch-independent balance values and hidden interactions are not inferred."
-  ]
+  ],
+  "canonical_status": "synchronized_into_skills_json_and_skills_index_json",
+  "promotion_status": "complete"
 }
