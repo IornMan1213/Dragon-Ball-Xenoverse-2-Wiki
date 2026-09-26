@@ -1,3 +1,14 @@
+### 2026-09-26 continuation — Batch 472 canonical reconciliation
+
+- [x] Used the newly verified full-blob access path to reconcile Batch 472 against the live canonical skill datasets.
+- [x] Synchronized **7 of 8** Batch 472 research records into both `docs/data/skills.json` and `docs/data/skills-index.json`: Big Bang Knuckle, God Breaker, Heroic Counter, Counter Impact, Time Skip/Back Breaker, Time Skip/Flash Skewer, and Time Skip/Jump Spike.
+- [x] Preserved source-reported numerical values as source-specific and retained existing provenance/restriction boundaries.
+- [x] Confirmed **Punisher Drive has no canonical skill record** in the current 474-record dataset, so it was not fabricated or inserted merely to force batch parity.
+- [x] Post-write validation confirms **474/474** records in both canonical datasets.
+- [ ] CI/build remains unverified.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected path.
+- [x] **Exact next:** reconcile any remaining Batch 473/472 audit artifacts against canonical records that actually exist, then begin a fresh unaudited mechanics frontier excluding all registered current-evidence audits.
+
 ### 2026-09-26 continuation — Canonical synchronization breakthrough
 
 - [x] Found the safe large-file path: GitHub blob fetch returns the complete canonical JSON blobs even when normal file fetch is truncated; canonical writes can then be performed against the exact blob SHA.
