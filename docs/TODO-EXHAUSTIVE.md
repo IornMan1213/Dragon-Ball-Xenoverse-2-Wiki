@@ -1380,3 +1380,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected path (GitHub 404).
 - [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 441 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
+
+
+### 2026-09-26 TODO progress update — Skill Research Batch 442 completed
+- [x] Fresh 474-record unaudited mechanics frontier census selected **Final Rampage, Formation!, Blaster Meteor, and Weekend**.
+- [x] Enriched/synchronized all four canonical skill records and added four current-evidence audits plus Batch 442 research/frontier artifacts.
+- [x] Registered all six Batch 442 artifacts; provenance registry now contains 654 entries.
+- [x] Preserved source-reported damage/duration/probability values as source-bound and did not infer unsupported frame data, hidden gates, or patch-independent scaling.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] Efficiency addendum remains unavailable at expected path (GitHub 404).
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 442 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
