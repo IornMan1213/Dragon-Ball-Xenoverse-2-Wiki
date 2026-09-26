@@ -1,0 +1,77 @@
+{
+  "batch": 409,
+  "date": "2026-09-25",
+  "scope": "Skill mechanics frontier",
+  "status": "completed",
+  "records": [
+    {
+      "id": "skill-milky-cannon",
+      "name": "Milky Cannon",
+      "mechanics_notes": "100-Ki Ki Blast Super from Captain Ginyu mentor training, Lesson 2. The projectile travels quickly at first, then slows and remains in the air for roughly three seconds; charging changes the point where it transitions to the slower movement. Current skill documentation reports a single hit, knockback, and about 10% damage.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Milky_Cannon",
+        "https://dragonball.fandom.com/wiki/Milky_Cannon"
+      ]
+    },
+    {
+      "id": "skill-side-bridge",
+      "name": "Side Bridge",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ39. Throws a green Ki disc straight ahead; after traveling outward it returns to the user like a boomerang, producing a two-hit/re-stand interaction. Current skill documentation reports 15% total damage. Exact startup and frame data remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Side_Bridge"
+      ]
+    },
+    {
+      "id": "skill-dragon-fist",
+      "name": "Dragon Fist",
+      "mechanics_notes": "500-Ki Strike Ultimate sold through the TP Medal Shop. The user kicks and punches the opponent, then a Shenron image pierces the target; current Xenoverse 2-specific documentation records 14 hits and about 50% total damage. It can miss if the setup is interrupted or the follow-up is avoided, so exact frame data remains unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Dragon_Fist"
+      ]
+    },
+    {
+      "id": "skill-psycho-barrier",
+      "name": "Psycho Barrier",
+      "mechanics_notes": "100-Ki Ki Blast Super from Bojack mentor Lesson 2. Creates a protective green barrier in front of the user; additional input expands the barrier up to two times and each contact is reported at about 2% damage. Current evidence supports both defensive protection and offensive contact, while exact duration/frame behavior remains unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Psycho_Barrier",
+        "https://dragonball.fandom.com/wiki/Energy_Shield"
+      ]
+    },
+    {
+      "id": "skill-death-psycho-bomb",
+      "name": "Death Psycho Bomb",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ33. Places a telekinetic trap at the opponent's movement path; on contact it grabs and lifts the target before an explosion. After a knockback it can be positioned in the opponent's flight path. Exact damage and frame data remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Death_Psycho_Bomb",
+        "https://dragonball.fandom.com/wiki/Death_Psycho_Bomb"
+      ]
+    },
+    {
+      "id": "skill-double-death-slicer",
+      "name": "Double Death Slicer",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from PQ24. Throws two Death Slicer discs; repeat input can make the discs track the opponent, with up to five repeat inputs. Current skill documentation reports each hit at 10% damage and warns that the attack cannot be guarded. Exact input timing and hit-count outcomes remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Double_Death_Slicer"
+      ]
+    },
+    {
+      "id": "skill-kill-driver",
+      "name": "Kill Driver",
+      "mechanics_notes": "100-Ki Ki Blast Super from Turles mentor training. Creates and throws a ring-shaped Ki projectile; charging increases its size and power. The hollow center can allow a small or well-positioned opponent to pass through, while additional input can detonate the ring to cover that weakness. Exact charge scaling and frame data remain unresolved.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Kill_Driver",
+        "https://dbxv2.fandom.com/wiki/Kill_Driver"
+      ]
+    },
+    {
+      "id": "skill-scatter-kamehameha",
+      "name": "Scatter Kamehameha",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate learned from Krillin mentor Lesson 3. Fires a straight beam that transitions into a rain of tracking Ki blasts; current skill documentation reports 8 hits and about 30% total damage. The hit can lock the opponent in an animation, preventing an Evasive or Limit Burst during the sequence. Exact startup and frame data remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Scatter_Kamehameha",
+        "https://dragonball.fandom.com/wiki/Scattering_Bullet"
+      ]
+    }
+  ]
+}

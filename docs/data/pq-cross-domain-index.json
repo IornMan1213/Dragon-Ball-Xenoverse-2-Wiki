@@ -138,7 +138,8 @@
     "batch_408_s_s_deadly_bomber": "docs/data/skill-s-s-deadly-bomber-current-evidence-audit-2026-09-25-batch-408.json",
     "batch_408_thunder_flash": "docs/data/skill-thunder-flash-current-evidence-audit-2026-09-25-batch-408.json",
     "skill_batch_408": "docs/data/skill-research-batches/skill-batch-408.json",
-    "skill_batch_408_thin_frontier": "docs/data/skill-research-batches/skill-batch-408-thin-frontier-mechanics-audit-2026-09-25.json"
+    "skill_batch_408_thin_frontier": "docs/data/skill-research-batches/skill-batch-408-thin-frontier-mechanics-audit-2026-09-25.json",
+    "skill_batch_409": "docs/data/skill-research-batches/skill-batch-409.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",

@@ -1,3 +1,13 @@
+### 2026-09-25 continuation — Skill Research Batch 409 completed
+
+- [x] Fresh 474-record mechanics frontier census excluded completed Batches 396–408 and selected **Milky Cannon, Side Bridge, Dragon Fist, Psycho Barrier, Death Psycho Bomb, Double Death Slicer, Kill Driver, and Scatter Kamehameha** as the next eight shortest genuinely under-detailed canonical records.
+- [x] Expanded current Xenoverse 2-specific mechanics boundaries for all eight and synchronized both canonical skill layers.
+- [x] Added Batch 409 research data and registered it in the cross-domain index.
+- [x] Preserved evidence boundaries: exact frame data, precise charge scaling, unresolved damage variation, and hidden conditions were not inferred.
+- [ ] CI/build status remains unverified.
+- [ ] **Exact next:** run a fresh 474-record frontier census excluding Batches 396–409 and enrich the next 4–12 shortest genuinely under-detailed canonical mechanics records, synchronizing canonical/index/provenance in the same cycle.
+
+
 ### 2026-09-25 continuation — Skill Research Batch 408 completed
 
 - [x] Fresh 474-record mechanics frontier census excluded completed Batches 396–407 and selected **Perfect Shot, Celestial Wave, Super Guard, Spirit Bomb, Afterimage, Burst Reflection, S.S. Deadly Bomber, and Thunder Flash** as the next eight shortest genuinely under-detailed canonical records.
