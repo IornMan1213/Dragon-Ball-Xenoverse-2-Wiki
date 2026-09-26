@@ -140,7 +140,8 @@
     "skill_batch_408": "docs/data/skill-research-batches/skill-batch-408.json",
     "skill_batch_408_thin_frontier": "docs/data/skill-research-batches/skill-batch-408-thin-frontier-mechanics-audit-2026-09-25.json",
     "skill_batch_409": "docs/data/skill-research-batches/skill-batch-409.json",
-    "partner_skill_relationships": "docs/data/partner-skill-relationships.json"
+    "partner_skill_relationships": "docs/data/partner-skill-relationships.json",
+    "partner_skill_relationship_census_2026_09_26": "docs/data/partner-skill-relationship-census-2026-09-26.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",
