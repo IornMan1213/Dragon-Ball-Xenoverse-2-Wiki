@@ -1,3 +1,13 @@
+### 2026-09-26 continuation — Batch 486 canonical mechanics enrichment
+
+- [x] Re-censused the live 474-record frontier after Batch 485 and excluded known completed/audited records rather than duplicating them.
+- [x] Researched and synchronized **Final Flash (Super), God Splitter, Majin Kamehameha, and Feint Crash**.
+- [x] Added four dedicated current-evidence audits, the Batch 486 research record, and the thin-frontier audit.
+- [x] Registered all Batch 486 artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Canonical/index datasets remain **474/474** with no record additions or removals.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [x] **Exact next:** fresh live frontier census before Batch 487; current shortest candidates after excluding completed work are **Meteor Burst → Kill Driver → Fighting Pose G → Bluff Kamehameha → Punisher Shield → Fighting Pose B → Fake Death → Mach Dash**. Recheck the provenance registry before promotion.
+
 
 ### 2026-09-26 continuation — Batch 484 canonical mechanics enrichment
 
