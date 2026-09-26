@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 393,
+  "created": "2026-09-25",
+  "type": "verified-record-mechanics-recheck",
+  "records": [
+    {
+      "name": "Recoome Kick",
+      "id": "skill-recoome-kick"
+    },
+    {
+      "name": "Sauzer Blade",
+      "id": "skill-sauzer-blade"
+    },
+    {
+      "name": "Savory Slicer",
+      "id": "skill-savory-slicer"
+    },
+    {
+      "name": "Scissors Paper Rock",
+      "id": "skill-scissors-paper-rock"
+    }
+  ],
+  "evidence_boundary": "Recheck/promotion of existing mechanics evidence; no unsupported mechanics or acquisition semantics added."
+}

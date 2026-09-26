@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-sauzer-blade-current-evidence-audit-2026-09-25-batch-393",
+  "audit_date": "2026-09-25",
+  "target": "Sauzer Blade",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "mechanics_notes": "Creates a Ki blade and performs five tracking slashes; current skill documentation records about 10% total damage and notes the blade cancels weak Ki Blasts.",
+    "source_quest_or_shop": "Parallel Quest 27 — \"Metal Cooler Riot\""
+  },
+  "evidence_sources": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://dbxv2.fandom.com/wiki/Sauzer_Blade",
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+  ],
+  "evidence_boundary": "Existing current Xenoverse 2 evidence was rechecked; exact frame data, hidden prerequisites, reward probabilities, and unsupported balance claims are not inferred."
+}
