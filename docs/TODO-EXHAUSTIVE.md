@@ -2186,3 +2186,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical skill, mechanics, acquisition, or relationship data was changed by this reconciliation.
 - [ ] CI/build/runtime execution remains unverified.
 - [x] **Exact next:** continue deterministic cross-domain/provenance/data-integrity work; do not start Batch 495 from the stale 119-item list unless a fresh live census establishes genuinely unaudited canonical skill IDs.
+
+
+### 2026-09-26 continuation — Absent DLC/PQ consumer registrations reconciled
+- [x] Directly checked the remaining DLC/PQ consumer registrations named by the cross-domain index: `docs/data/dlc/dlc-presentation-consumer-audit.json`, `docs/data/pq-endpoint-navigation-current-audit-2026-09-24.json`, and `docs/data/pq-current-consumer-baseline-synchronization-2026-09-24.json` are absent from the live `main` tree.
+- [x] Confirmed repository search resolves these names only through the cross-domain index; no live consumer file currently requires reconstruction.
+- [x] Preserved the index references as historical/provenance records and did not manufacture replacements without a current producer/consumer contract.
+- [x] Updated `docs/data/cross-domain-index-reference-reachability-audit-2026-09-26.json` with the direct absence check and evidence boundary.
+- [ ] CI/build/runtime remains unverified.
+- [x] **Exact next:** continue auditing live-present validators/consumers and deterministic projections for concrete drift; leave absent historical/index-only artifacts untouched unless a current source layer requires them.
