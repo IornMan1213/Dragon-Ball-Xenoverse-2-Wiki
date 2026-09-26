@@ -1,0 +1,9 @@
+{
+  "skill_id": "skill-menacing-flare",
+  "name": "Menacing Flare",
+  "batch": 446,
+  "date": "2026-09-26",
+  "status": "complete",
+  "findings": ["100 Ki Ki Blast Super", "Skill Shop", "Miss teleports user behind target for flying-kick follow-up", "Hit and miss-follow-up each documented at approximately 10% damage"],
+  "evidence_boundaries": ["Exact frame timing remains unresolved."]
+}
