@@ -1,3 +1,13 @@
+### 2026-09-26 continuation — Skill Research Batch 491 completed
+- [x] Fresh live unaudited mechanics frontier census performed after Batch 490; stale candidate lists were not reused.
+- [x] Researched and synchronized **Gigantic Cluster (stable ID `skill-giant-cluster`), Holy Wrath, Gigantic Charge, Pendulum Bullet, and Heat Dome Attack**.
+- [x] Updated canonical `docs/data/skills.json` and projection `docs/data/skills-index.json`; both remain **474 records**.
+- [x] Added Batch 491 research/thin-frontier artifacts, five current-evidence audits, and registered all seven artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved evidence boundaries, including the Gigantic Cluster/Giant Cluster naming discrepancy, Pendulum Bullet bounce-count discrepancy, and existing acquisition/reward conflicts.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** perform a fresh live unaudited mechanics-frontier census excluding Batch 491 and every registered current-evidence audit; do not reuse this candidate list.
+
 ### 2026-09-26 continuation — Skill Research Batch 490 completed
 - [x] Fresh live mechanics frontier census performed after Batch 489; eight shortest records without dedicated registered current-evidence audits were manually rechecked.
 - [x] Researched and synchronized **Breaker Energy Wave, Emperor's Cannon, Dark Inscription, Gigantic Cluster, Heat Wave, Special Beam Cannon (Beast), Crimson Edge, and Potential Unleashed**.
