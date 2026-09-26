@@ -1,0 +1,24 @@
+{
+  "audit_id": "skill-justice-combination_current_evidence_audit_2026_09_26_batch_473",
+  "batch": 473,
+  "date": "2026-09-26",
+  "skill_id": "skill-justice-combination",
+  "skill_name": "Justice Combination",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "mechanics_notes": "300-Ki Strike Ultimate learned through Gohan (Adult) and Videl training. A quick blue-energy high kick starts the sequence; on connection it continues through multiple kicks and ends with an energy-coated palm strike that supplies most of the damage and knocks the opponent away. The final hit can be vanished.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Justice_Combination",
+    "https://dragonball.fandom.com/wiki/Justice_Combination"
+  ],
+  "evidence_limits": [
+    "Source-reported damage/stamina restoration values are not asserted as universal balance constants.",
+    "Exact startup/active/recovery frames, patch-independent scaling formulas, hidden interaction rules, and reward probabilities remain unresolved unless directly established.",
+    "Existing acquisition/provenance conflicts must be preserved rather than overwritten."
+  ],
+  "canonical_changes": {
+    "mechanics_notes_prepared": true,
+    "last_verified": "2026-09-26",
+    "synchronization_status": "pending_canonical_large_file_update"
+  }
+}
