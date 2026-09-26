@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-dragon-spiral",
+  "name": "Dragon Spiral",
+  "batch": 453,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Dragon_Spiral"
+  ],
+  "findings": [
+    "100-Ki Strike Super from PQ185 as the maintained acquisition endpoint. The technique begins with an opening that blocks Ki blasts and transitions into a close-range follow-up; current repository evidence intentionally retains the explicit PQ185 route rather than resurrecting an older alternate PQ186 reference. Exact resource behavior, guard duration, hit count, and damage scaling remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
