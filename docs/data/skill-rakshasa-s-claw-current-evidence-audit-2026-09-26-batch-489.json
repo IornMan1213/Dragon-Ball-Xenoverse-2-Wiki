@@ -1,0 +1,14 @@
+{
+  "batch": 489,
+  "date": "2026-09-26",
+  "skill_id": "skill-rakshasa-s-claw",
+  "skill_name": "Rakshasa S Claw",
+  "status": "complete",
+  "findings": "Current evidence confirms 100-Ki Strike Super from PQ57, steerable sword-wave inputs, up to five ranged slices followed by teleporting overhead slash, six-hit sequence, and about 20% total damage.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Rakshasa%27s_Claw",
+    "https://dragonball.fandom.com/wiki/Rakshasa%27s_Claw"
+  ],
+  "evidence_boundary": "Current-source behavior and source-reported values are bounded; unsupported exact frames, universal scaling, hidden interactions, and drop probabilities are not asserted.",
+  "canonical_sync": "Synchronized into canonical and index skill datasets; parity validated at 474/474."
+}
