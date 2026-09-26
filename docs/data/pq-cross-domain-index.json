@@ -1482,5 +1482,15 @@
   "skill_fighting-pose-g_current_evidence_audit_2026_09_26_batch_459": "docs/data/skill-fighting-pose-g-current-evidence-audit-2026-09-26-batch-459.json",
   "skill_fighting-pose-i_current_evidence_audit_2026_09_26_batch_459": "docs/data/skill-fighting-pose-i-current-evidence-audit-2026-09-26-batch-459.json",
   "skill_fighting-pose-j_current_evidence_audit_2026_09_26_batch_459": "docs/data/skill-fighting-pose-j-current-evidence-audit-2026-09-26-batch-459.json",
-  "skill_gigantic-omega_current_evidence_audit_2026_09_26_batch_459": "docs/data/skill-gigantic-omega-current-evidence-audit-2026-09-26-batch-459.json"
+  "skill_gigantic-omega_current_evidence_audit_2026_09_26_batch_459": "docs/data/skill-gigantic-omega-current-evidence-audit-2026-09-26-batch-459.json",
+  "skill_batch_460": "docs/data/skill-research-batches/skill-batch-460.json",
+  "skill_batch_460_thin_frontier": "docs/data/skill-research-batches/skill-batch-460-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_angry-shout_current_evidence_audit_2026_09_26_batch_460": "docs/data/skill-angry-shout-current-evidence-audit-2026-09-26-batch-460.json",
+  "skill_darkness-twin-star_current_evidence_audit_2026_09_26_batch_460": "docs/data/skill-darkness-twin-star-current-evidence-audit-2026-09-26-batch-460.json",
+  "skill_steel-mirage_current_evidence_audit_2026_09_26_batch_460": "docs/data/skill-steel-mirage-current-evidence-audit-2026-09-26-batch-460.json",
+  "skill_hyper-movement_current_evidence_audit_2026_09_26_batch_460": "docs/data/skill-hyper-movement-current-evidence-audit-2026-09-26-batch-460.json",
+  "skill_charge_current_evidence_audit_2026_09_26_batch_460": "docs/data/skill-charge-current-evidence-audit-2026-09-26-batch-460.json",
+  "skill_burning-swan_current_evidence_audit_2026_09_26_batch_460": "docs/data/skill-burning-swan-current-evidence-audit-2026-09-26-batch-460.json",
+  "skill_scatter-kamehameha_current_evidence_audit_2026_09_26_batch_460": "docs/data/skill-scatter-kamehameha-current-evidence-audit-2026-09-26-batch-460.json",
+  "skill_energy-barrier_current_evidence_audit_2026_09_26_batch_460": "docs/data/skill-energy-barrier-current-evidence-audit-2026-09-26-batch-460.json"
 }
