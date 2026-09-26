@@ -1,0 +1,27 @@
+{
+  "batch": 404,
+  "date": "2026-09-25",
+  "records": [
+    {
+      "id": "skill-feint-shot",
+      "name": "Feint Shot",
+      "finding": "Pan Lesson 2 acquisition confirmed; teleporting/feinting shot behavior documented; exact timing/tracking/damage unresolved."
+    },
+    {
+      "id": "skill-fighting-pose-k",
+      "name": "Fighting Pose K",
+      "finding": "Super Armor behavior documented, including 8-second current repository value; community interaction reports retained as contextual evidence."
+    },
+    {
+      "id": "skill-justice-pose",
+      "name": "Justice Pose",
+      "finding": "PQ53 Basic Reward endpoint confirmed; pose-based reinforcement identity documented; exact magnitude/duration unresolved."
+    },
+    {
+      "id": "skill-dust-attack",
+      "name": "Dust Attack",
+      "finding": "PQ78 Basic Reward endpoint confirmed; skill identity and close-range technique evidence reviewed; exact mechanics remain partially unresolved."
+    }
+  ],
+  "status": "pending canonical/index synchronization"
+}
