@@ -1,0 +1,118 @@
+{
+  "batch": 472,
+  "date": "2026-09-26",
+  "status": "research_complete",
+  "scope": "Fresh unaudited skill mechanics frontier after Batch 471.",
+  "selection_method": "Selected eight documented skill records with no registered current-evidence audit in the cross-domain registry; retained existing provenance conflicts and avoided unsupported exact frame/scaling claims.",
+  "selected": [
+    {
+      "skill_id": "skill-big-bang-knuckle",
+      "skill_name": "Big Bang Knuckle"
+    },
+    {
+      "skill_id": "skill-god-breaker",
+      "skill_name": "God Breaker"
+    },
+    {
+      "skill_id": "skill-heroic-counter",
+      "skill_name": "Heroic Counter"
+    },
+    {
+      "skill_id": "skill-counter-impact",
+      "skill_name": "Counter Impact"
+    },
+    {
+      "skill_id": "skill-punisher-drive",
+      "skill_name": "Punisher Drive"
+    },
+    {
+      "skill_id": "skill-time-skip-back-breaker",
+      "skill_name": "Time Skip/Back Breaker"
+    },
+    {
+      "skill_id": "skill-time-skip-flash-skewer",
+      "skill_name": "Time Skip/Flash Skewer"
+    },
+    {
+      "skill_id": "skill-time-skip-jump-spike",
+      "skill_name": "Time Skip/Jump Spike"
+    }
+  ],
+  "records": [
+    {
+      "skill_id": "skill-big-bang-knuckle",
+      "skill_name": "Big Bang Knuckle",
+      "mechanics_notes": "100-Ki Strike Super from PQ172. The move fires up to seven Ki Blasts, then chases the target and ends with an aura-infused punch; current skill documentation classifies it as an 11-hit sequence and notes an immediate Final Rampage follow-up.",
+      "sources": [
+        "Xenoverse 2 skill reference"
+      ]
+    },
+    {
+      "skill_id": "skill-god-breaker",
+      "skill_name": "God Breaker",
+      "mechanics_notes": "100-Ki Ki Blast Super and strike counter from PQ44. The user poses to catch incoming Strike/basic melee attacks, stuns the attacker and nearby opponents, then turns toward the trigger and fires a yellow Ki blast; current documentation notes that the blast can be vanished in good connections.",
+      "sources": [
+        "Xenoverse 2 skill reference",
+        "Dragon Ball Wiki"
+      ]
+    },
+    {
+      "skill_id": "skill-heroic-counter",
+      "skill_name": "Heroic Counter",
+      "mechanics_notes": "100-Ki Strike Super from PQ155. The user raises a blue barrier in a heroic pose; if struck, they vanish behind the attacker and deliver a spinning kick for approximately 10% source-reported damage. Additional input can instead trigger the warp-and-attack behavior without first blocking an attack; current documentation notes increased tracking/movement after a buff.",
+      "sources": [
+        "Xenoverse 2 skill reference",
+        "Dragon Ball Wiki"
+      ]
+    },
+    {
+      "skill_id": "skill-counter-impact",
+      "skill_name": "Counter Impact",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ153. The user enters a counter stance and, when the stance succeeds, warps behind the attacker; holding the input continues into a Ki Wave. Current documentation reports approximately 15% damage for the Ki Wave, while official DLC material confirms the counter/warp sequence and extra-damage timing.",
+      "sources": [
+        "Xenoverse 2 skill reference",
+        "Dragon Ball Official Site"
+      ]
+    },
+    {
+      "skill_id": "skill-punisher-drive",
+      "skill_name": "Punisher Drive",
+      "mechanics_notes": "100-Ki Strike Super with a controllable multi-hit rush. The user glides forward and, on reaching the target, becomes briefly invisible while delivering seven strikes for approximately 10% source-reported damage; current documentation distinguishes the Gogeta (DB Super) variant, which uses a shorter initial punch before the rush.",
+      "sources": [
+        "Xenoverse 2 skill reference",
+        "Dragon Ball Wiki"
+      ]
+    },
+    {
+      "skill_id": "skill-time-skip-back-breaker",
+      "skill_name": "Time Skip/Back Breaker",
+      "mechanics_notes": "100-Ki Strike Super counter used by Hit. The user briefly guards their rear; if the opponent enters the active area or attacks during the stance, the user uppercuts them for approximately 20% source-reported damage. Current documentation classifies it as a back-only single-hit launcher.",
+      "sources": [
+        "Xenoverse 2 skill reference",
+        "Dragon Ball Wiki"
+      ]
+    },
+    {
+      "skill_id": "skill-time-skip-flash-skewer",
+      "skill_name": "Time Skip/Flash Skewer",
+      "mechanics_notes": "100-Ki Strike Super counter used by Hit. The user takes a defensive stance; a successful front-side Strike hit causes a short-range counter for approximately 5% source-reported damage, after which the user can continue with follow-up attacks. Current documentation classifies it as an unblockable single-hit counter.",
+      "sources": [
+        "Xenoverse 2 skill reference"
+      ]
+    },
+    {
+      "skill_id": "skill-time-skip-jump-spike",
+      "skill_name": "Time Skip/Jump Spike",
+      "mechanics_notes": "100-Ki Strike Super used by Hit. The user flies forward and strikes the target for approximately 20% source-reported damage, with Strike immunity during the rush; holding the input increases flight range. Current documentation also identifies its Hit-training acquisition endpoint and the historical lesson-description naming error.",
+      "sources": [
+        "Xenoverse 2 skill reference",
+        "Dragon Ball Wiki"
+      ]
+    }
+  ],
+  "evidence_boundaries": [
+    "Source-reported damage values are retained as source-reported values rather than universal balance constants.",
+    "Exact startup/active/recovery frames, patch-independent scaling formulas, reward probabilities, and hidden interaction rules remain unresolved unless directly evidenced.",
+    "Existing provenance conflicts are preserved rather than overwritten."
+  ]
+}
