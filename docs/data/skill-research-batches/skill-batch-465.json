@@ -1,0 +1,20 @@
+{
+  "batch": 465,
+  "date": "2026-09-26",
+  "selected": [
+    "Drain Field",
+    "Menacing Flare",
+    "Quick Sleep",
+    "Mach Punch",
+    "Power Wall",
+    "Spirit Pulse",
+    "Finish Breaker",
+    "Fighting Pose E"
+  ],
+  "method": "Fresh 474-record mechanics frontier excluding all registered current-evidence audits; next eight lowest-detail records.",
+  "validation": {
+    "canonical_count": 474,
+    "index_count": 474,
+    "ordered_id_parity": true
+  }
+}
