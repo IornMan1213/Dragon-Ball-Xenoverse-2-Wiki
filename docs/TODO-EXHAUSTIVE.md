@@ -1,3 +1,13 @@
+### 2026-09-26 TODO progress update — Skill Research Batch 489 completed
+- [x] Fresh live mechanics frontier census performed after Batch 488 with corrected audit filename normalization.
+- [x] Researched and synchronized **God of Destruction's Roar, God of Destruction's Menace, Hero's Flute, Beast, Rakshasa's Claw, Reverse Mabakusenko, Indomitable, and Body Change**.
+- [x] Canonical/index parity remains **474/474**, with **0 missing / 0 extra IDs** and ordered parity true.
+- [x] Added Batch 489 research/thin-frontier artifacts and eight current-evidence audits; all ten artifacts registered in the cross-domain index.
+- [x] Evidence boundaries preserved, including explicit player-reported status for Indomitable's health-threshold behavior.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] Efficiency addendum remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** fresh unaudited mechanics-frontier census excluding Batch 489 and every prior registered current-evidence audit; do not reuse stale candidate lists.
+
 ### 2026-09-26 TODO progress update — Skill Research Batch 488 completed
 - [x] Fresh live 474-record mechanics frontier was re-censused after Batch 487 and excluded every skill ID represented by a registered current-evidence audit.
 - [x] Researched and synchronized **Fierce Fist, Venus Fist, Handy Canon, Full Power Destruction, Prominence Flash, Galick Gun, Ill Rain, and Gigantic Cross**.
