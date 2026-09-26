@@ -1,0 +1,10 @@
+{
+  "batch": 491,
+  "date": "2026-09-26",
+  "skill_id": "skill-heat-dome-attack",
+  "skill_name": "Heat Dome Attack",
+  "status": "complete",
+  "findings": "300-Ki Ki Blast Ultimate from PQ40. Creates a dome-like Ki field before firing a large upward beam; current documentation reports 23 hits and about 40% total damage. Player evidence describes startup followed by lifting/launching during the sequence; exact current frames are not inferred.",
+  "evidence_boundary": "Current-source behavior and source-reported numerical values are bounded. Unsupported exact frames, universal scaling, hidden interactions, and drop probabilities are not asserted.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}
