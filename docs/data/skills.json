@@ -517,10 +517,10 @@
       "source_quest_or_shop": "TP Medal Shop",
       "ultimate_finish_required": false,
       "skill_description": "Creates a charged Ki sphere that can damage the target during its formation and then launch as a projectile.",
-      "mechanics_notes": "100-Ki Ki Blast Super. Vegeta's signature sphere begins dealing damage while it is being charged/held in front of the user, then launches as a projectile; current evidence documents about 10% damage and notes that the lingering sphere can block minor Ki Blasts. Its lingering close-range hitbox supports knockdown/teleport setups, while the forced full animation leaves it punishable if it is avoided. Exact frames and universal scaling remain unresolved.",
+      "mechanics_notes": "100-Ki Ki Blast Super. The user generates a blue sphere in front of them that damages the opponent during the charge as well as on release, and the sphere can block minor Ki Blasts. Current skill-specific documentation emphasizes its lingering close-range hitbox and long forced animation; it remains associated with Vegeta and is available through the established skill acquisition path.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/big-bang-attack.md",
         "https://dbxv2.fandom.com/wiki/Big_Bang_Attack",
@@ -528,7 +528,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-23 canonical promotion: existing repository research corroborates identity, Ki Blast classification, 100 Ki cost, Vegeta association, and TP Medal Shop acquisition. No shop rotation date or drop probability is asserted. 2026-09-23 provenance strengthening: an independent GameFAQs TP Medal Shop catalogue lists Big Bang Attack as a Super in the TP Medal Shop for 15 TP Medals, corroborating the existing TP Medal Shop acquisition endpoint and the repository's 15-TP research value. The source notes the shop is RNG/rotation-based; no current rotation date or guaranteed availability window is inferred.\n2026-09-25 Batch 413 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal scaling, and timing values remain unresolved.",
+      "notes": "2026-09-23 canonical promotion: existing repository research corroborates identity, Ki Blast classification, 100 Ki cost, Vegeta association, and TP Medal Shop acquisition. No shop rotation date or drop probability is asserted. 2026-09-23 provenance strengthening: an independent GameFAQs TP Medal Shop catalogue lists Big Bang Attack as a Super in the TP Medal Shop for 15 TP Medals, corroborating the existing TP Medal Shop acquisition endpoint and the repository's 15-TP research value. The source notes the shop is RNG/rotation-based; no current rotation date or guaranteed availability window is inferred.\n2026-09-25 Batch 413 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal scaling, and timing values remain unresolved.\n2026-09-26 Batch 451 mechanics enrichment: current skill-specific evidence expanded the documented behavior; unsupported exact frames, patch-independent scaling, probabilities, and hidden conditions remain unresolved.",
       "id": "skill-big-bang-attack"
     },
     {
@@ -857,13 +857,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Zarbon mentor training — Lesson 2",
-      "mechanics_notes": "300-Stamina Strike Evasive. The user launches a rapid kick rush that hits 10 times and launches the opponent on the final hit. Holding/pressing the input can extend the rush by consuming Ki; current skill evidence reports about 10% damage for the base sequence. The move is explicitly categorized as a Strike Evasive, correcting the prior Super classification.",
-      "last_verified": "2026-09-25",
+      "mechanics_notes": "300-Stamina Strike Evasive learned from Zarbon training. The user performs a rapid kick rush; continued input consumes Ki and extends the sequence, with the final kick launching the opponent when the available Ki is exhausted. Current skill-specific evidence reports 10 initial hits and 10% damage.",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": "Zarbon mentor training — Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 0 Ki used. 2026-09-22 provenance verification: current dedicated and independent documentation corroborates the existing mentor/PQ acquisition endpoint and skill identity; no unsupported reward probability or Ultimate Finish requirement is inferred.\n2026-09-25 mechanics correction/enrichment: 300-Stamina Strike Evasive. The user launches a rapid kick rush that hits 10 times and launches the opponent on the final hit. Holding/pressing the input can extend the rush by consuming Ki; current skill evidence reports about 10% damage for the base sequence. The move is explicitly categorized as a Strike Evasive, correcting the prior Super classification.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 0 Ki used. 2026-09-22 provenance verification: current dedicated and independent documentation corroborates the existing mentor/PQ acquisition endpoint and skill identity; no unsupported reward probability or Ultimate Finish requirement is inferred.\n2026-09-25 mechanics correction/enrichment: 300-Stamina Strike Evasive. The user launches a rapid kick rush that hits 10 times and launches the opponent on the final hit. Holding/pressing the input can extend the rush by consuming Ki; current skill evidence reports about 10% damage for the base sequence. The move is explicitly categorized as a Strike Evasive, correcting the prior Super classification.\n2026-09-26 Batch 451 mechanics enrichment: current skill-specific evidence expanded the documented behavior; unsupported exact frames, patch-independent scaling, probabilities, and hidden conditions remain unresolved.",
       "id": "skill-bloody-counter",
       "source_mentor": [
         "mentor-zarbon"
@@ -4393,10 +4393,10 @@
       "source_quest_or_shop": "Parallel Quest 29 — \"The Androids Attack\"",
       "ultimate_finish_required": false,
       "skill_description": "Energy Field is a Ki Blast Evasive skill associated with Android 17.",
-      "mechanics_notes": "Dedicated current-version evidence identifies Energy Field as a Ki Blast Evasive skill and lists Android 17, Android 16, Mira, and Android 17 (DB Super) as users. The dedicated reference lists Parallel Quest 29 and 200 Stamina, with the barrier maintained by consuming Ki. The record's existing All CaC races scope is retained; no narrower CaC race/gender/form restriction is inferred.",
+      "mechanics_notes": "200-Stamina Ki Blast Evasive from PQ29. The user creates a green energy bubble that deflects/cancels attacks; holding the input keeps the barrier active while rapidly consuming Ki. Current skill-specific documentation classifies it as a close-range single-hit knockback Evasive.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Energy_Field",
@@ -4406,7 +4406,7 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": 29,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current dedicated skill evidence confirms the 200-Stamina Ki Blast Evasive, Android 17 association, PQ29 endpoint, and barrier extension by consuming Ki. The maintained PQ guide independently lists Energy Field in PQ29's reward table; no Ultimate Finish-only gate is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
+      "notes": "2026-09-22 provenance refresh: current dedicated skill evidence confirms the 200-Stamina Ki Blast Evasive, Android 17 association, PQ29 endpoint, and barrier extension by consuming Ki. The maintained PQ guide independently lists Energy Field in PQ29's reward table; no Ultimate Finish-only gate is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-26 Batch 451 mechanics enrichment: current skill-specific evidence expanded the documented behavior; unsupported exact frames, patch-independent scaling, probabilities, and hidden conditions remain unresolved.",
       "id": "skill-energy-field",
       "source_parallel_quests": [
         29
@@ -4510,10 +4510,10 @@
       "source_quest_or_shop": "Parallel Quest 163 — \"Broly the Invader\"",
       "ultimate_finish_required": true,
       "skill_description": "Eraser Bomb is a Super Ki Blast skill associated with Broly.",
-      "mechanics_notes": "Current evidence confirms Eraser Bomb as a 100-Ki Ki Blast Super from PQ163. The existing random-PQ acquisition is retained; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
-      "verification_status": "verified",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ163. The user throws a green Ki Blast whose trajectory can be adjusted with directional input and whose speed can be increased with additional input. While an Awoken Skill is active, the projectile produces a large secondary explosion; current skill-specific documentation classifies the move as a controllable 1–5-hit attack.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Eraser_Bomb",
@@ -4522,7 +4522,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 163,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current dedicated evidence reconfirms Eraser Bomb as a 100-Ki Ki Blast Super from PQ163's Ultimate Finish route. The maintained 40% bonus-slot condition remains canonical while the conflicting Steam reward-table presentation is preserved explicitly. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
+      "notes": "2026-09-22 provenance refresh: current dedicated evidence reconfirms Eraser Bomb as a 100-Ki Ki Blast Super from PQ163's Ultimate Finish route. The maintained 40% bonus-slot condition remains canonical while the conflicting Steam reward-table presentation is preserved explicitly. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-26 Batch 451 mechanics enrichment: current skill-specific evidence expanded the documented behavior; unsupported exact frames, patch-independent scaling, probabilities, and hidden conditions remain unresolved.",
       "id": "skill-eraser-bomb",
       "source_parallel_quests": [
         163
@@ -4629,10 +4629,10 @@
       "source_quest_or_shop": "Parallel Quest 117 — \"A Dance of Swords\"",
       "ultimate_finish_required": false,
       "skill_description": "Evil Flame is a Super Ki Blast skill associated with Dabura.",
-      "mechanics_notes": "Current evidence confirms Evil Flame as a 100-Ki Ki Blast Super from PQ117. Its dedicated documentation is retained as the primary mechanics source; no unsupported CaC restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ117. The user inhales and releases flames in a sweeping arc; the direction can be reversed with left input. Current skill-specific evidence reports 15% damage on a single hit, and repeating the input after connection interrupts the attack so the user can transition onward.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Evil_Flame",
@@ -4643,7 +4643,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 117,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current dedicated evidence reconfirms Evil Flame as a 100-Ki Ki Blast Super from PQ117. The maintained Basic Reward relationship is retained while separate random-drop wording remains source context; no exclusive Ultimate Finish gate is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
+      "notes": "2026-09-22 provenance refresh: current dedicated evidence reconfirms Evil Flame as a 100-Ki Ki Blast Super from PQ117. The maintained Basic Reward relationship is retained while separate random-drop wording remains source context; no exclusive Ultimate Finish gate is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-26 Batch 451 mechanics enrichment: current skill-specific evidence expanded the documented behavior; unsupported exact frames, patch-independent scaling, probabilities, and hidden conditions remain unresolved.",
       "id": "skill-evil-flame",
       "source_parallel_quests": [
         117
@@ -5755,10 +5755,10 @@
       "source_quest_or_shop": "Parallel Quest 59 — \"Potara Warrior\"",
       "ultimate_finish_required": false,
       "skill_description": "Force Shield is a Ki Blast Evasive associated with Vegito.",
-      "mechanics_notes": "Current dedicated evidence confirms Force Shield as a 200-Stamina Ki Blast Evasive from PQ59, used by Vegito. It creates a blue barrier that cancels Ki waves and can be held while consuming Ki. No unsupported CaC race/gender/form restriction was added. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established. 2026-09-23 refresh: preserved the documented PQ59 Basic Reward route and the held-barrier Ki consumption behavior; no narrower CaC restriction inferred.",
+      "mechanics_notes": "200-Stamina Ki Blast Evasive from PQ59. The user creates a blue barrier that cancels incoming Ki waves; holding the input keeps the barrier active while rapidly draining Ki. Contact with an opponent deals a documented 1% damage and knocks them away.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Force_Shield",
@@ -5767,7 +5767,7 @@
       "source_quest": 59,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: PQ59 reward documentation confirms the acquisition relationship. Current skill evidence identifies a 200-Stamina Ki Blast Evasive that creates a barrier capable of canceling Ki waves; Basic Reward status remains documented with no UF-only gate.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-22 provenance/mechanics refresh: PQ59 reward documentation confirms the acquisition relationship. Current skill evidence identifies a 200-Stamina Ki Blast Evasive that creates a barrier capable of canceling Ki waves; Basic Reward status remains documented with no UF-only gate.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 451 mechanics enrichment: current skill-specific evidence expanded the documented behavior; unsupported exact frames, patch-independent scaling, probabilities, and hidden conditions remain unresolved.",
       "id": "skill-force-shield",
       "source_parallel_quests": [
         59
@@ -5976,13 +5976,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Gotenks mentor training",
-      "mechanics_notes": "100-Ki Ki Blast Super learned from Gotenks mentor training. The user forms a ring-shaped Ki projectile and throws it at the target; on a successful grab-like connection it restrains the opponent and squeezes/explodes for heavy damage. Current dedicated evidence describes it as a 10-hit, hard-knockdown attack. 2026-09-23 refresh: preserved the 10-hit hard-knockdown restraint/explosion behavior and Gotenks mentor acquisition; no unsupported damage value added.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "100-Ki Ki Blast Super learned through Gotenks mentor training. The user forms a ring-shaped Ki projectile above their head and throws it; a successful catch restrains the opponent and squeezes/explodes for documented 40% damage. Current skill-specific classification lists it as a 10-hit hard-knockdown grab-property attack.",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": "Gotenks mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-22 mechanics refresh: current dedicated skill evidence confirms the ring-shaped grab behavior, 100 Ki cost, and Gotenks training acquisition.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-22 mechanics refresh: current dedicated skill evidence confirms the ring-shaped grab behavior, 100 Ki cost, and Gotenks training acquisition.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 451 mechanics enrichment: current skill-specific evidence expanded the documented behavior; unsupported exact frames, patch-independent scaling, probabilities, and hidden conditions remain unresolved.",
       "id": "skill-galactic-donuts",
       "source_mentor": [
         "mentor-gotenks"
@@ -12833,13 +12833,13 @@
       "race_restriction": "Character-only",
       "research_status": "enriched",
       "unlock_method": "Character-only / non-CaC roster use",
-      "mechanics_notes": "No Ki is required to activate Supersonic Mode; the character-only transformation instead has an automatic Stamina drain while active. Current reference lists Ki Required: None. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate. Race restriction is not applicable to CaC races because this is a character-only roster transformation.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "Dyspo-exclusive Awoken Skill with no Ki activation cost. While active it grants 10% all-attack damage, 50% ground/air/dashing speed, and a 20% automatic Stamina drain; exhausting Stamina deactivates the transformation and breaks the user's guard. Current documentation also records enhanced teleporting attacks and Justice Blade range/tracking while transformed.",
+      "last_verified": "2026-09-26",
       "source_quest_or_shop": "Character-only Awoken Skill / roster use",
       "ki_cost": 0,
       "dlc_requirement": "Conton City Vote Pack",
       "acquisition_type": "character_only",
-      "notes": "2026-09-20 roster-status refinement: maintained transformation research classifies Supersonic Mode as Dyspo-only; it is not an independently unlockable CaC Awoken Skill. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred.",
+      "notes": "2026-09-20 roster-status refinement: maintained transformation research classifies Supersonic Mode as Dyspo-only; it is not an independently unlockable CaC Awoken Skill. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred.\n2026-09-26 Batch 451 mechanics enrichment: current skill-specific evidence expanded the documented behavior; unsupported exact frames, patch-independent scaling, probabilities, and hidden conditions remain unresolved.",
       "id": "skill-supersonic-mode"
     },
     {
