@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-rolling-bullet-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Rolling Bullet",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "skill_type": "Ki Blast Evasive",
+    "cost": 200
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Rolling_Bullet"
+  ],
+  "evidence_boundary": "Current Xenoverse 2 mechanics evidence is bounded to the cited skill reference. Exact frame data, reward probabilities, hidden prerequisites, and patch-independent balance claims are not inferred."
+}
