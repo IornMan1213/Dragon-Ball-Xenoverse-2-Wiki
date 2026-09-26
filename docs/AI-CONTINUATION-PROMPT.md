@@ -1657,3 +1657,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [ ] Efficiency addendum remains unavailable at expected path (GitHub 404).
 - [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 447 and every prior current-evidence-audited record.
+
+
+### 2026-09-26 continuation — Skill Research Batch 452 completed
+
+- [x] Fresh live 474-record mechanics frontier census excluded every skill with a registered current-evidence audit and selected **Orin Combo, Comet Strike, Meteor Crash, Assault Vanish, God of Destruction's Might, Psychic Move, Special Beam Cannon, and Impact Flare** as the eight shortest remaining under-detailed records.
+- [x] Deepened and synchronized all eight canonical records in `docs/data/skills.json` and `docs/data/skills-index.json` with current Xenoverse 2-specific mechanics evidence.
+- [x] Added eight current-evidence audits, Batch 452 research data, thin-frontier audit, and provenance registrations in `docs/data/pq-cross-domain-index.json`.
+- [x] Canonical/index validation remains **474/474**, with ordered ID parity and 0 missing / 0 extra.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 452 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
