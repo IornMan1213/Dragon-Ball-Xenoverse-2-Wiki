@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-pressure-sign",
+  "name": "Pressure Sign",
+  "batch": 456,
+  "date": "2026-09-26",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Pressure_Sign",
+    "https://dragonball.fandom.com/wiki/Pressure_Sign"
+  ],
+  "findings": [
+    "2026-09-26 Batch 456 current-evidence enrichment: 100-Ki Strike Super and universal counter obtained through the Skill Shop. During the taunt/counter window, an incoming attack causes the user to teleport behind the attacker and kick; the resulting knockback can be followed by some sufficiently fast supers. Current evidence supports universal-counter classification and rapid kick behavior; exact counter frames and damage scaling remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
