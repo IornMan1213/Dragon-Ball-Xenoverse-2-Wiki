@@ -806,3 +806,13 @@
 - [ ] CI remains unverified.
 - [x] Fresh post-Batch-378 frontier now begins at **Feint Shot (118), Riot Javelin (118), Spirit Blaster (118), Final Flash (SS3 DAIMA) (119), Shooting Strike (119)**.
 - [ ] **Exact next:** fresh evidence check on the shortest remaining frontier, then continue mechanics enrichment without redoing recently completed records.
+
+
+### 2026-09-25 completion — Skill Batch 379
+- [x] Fresh evidence check skipped the five shortest records that had already received recent substantive enrichment; next genuinely low-detail records were selected instead.
+- [x] Batch 379 enriched **Saiyan Spirit, Sphere of Destruction, Elite Beam, Secret Poison, and Temporal Holy Ray** with current skill-specific mechanics and synchronized canonical/index layers.
+- [x] Added and registered Batch 379 research/audit artifacts.
+- [x] Validation: **469 records / 0 empty mechanics_notes / 0 duplicate IDs** after synchronization.
+- [ ] CI remains unverified.
+- [x] Fresh post-Batch-379 frontier: **Timespace Impact (124), Rebellion Spear (130), Spirit Explosion (130), Evil Ray Strike (131), Evil Rise Strike (131)**.
+- [ ] **Exact next:** fresh evidence check on this frontier, excluding recently enriched records, then continue source-bounded mechanics expansion.
