@@ -2212,3 +2212,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Refreshed the existing cross-domain registration; no canonical skill data or unsupported PQ relationship was added.
 - [ ] CI/build/runtime remains unverified.
 - [x] **Exact next:** continue auditing live validators for concrete acceptance/schema gaps, prioritizing deterministic cross-domain integrity without reconstructing unsupported datasets.
+
+
+### 2026-09-26 continuation — Partner skill relationship schema hardening
+- [x] Found a live validator acceptance gap in `scripts/validate_partner_skill_relationships.py`: malformed relationship containers/records and malformed evidence values were not explicitly rejected, and an empty relationship corpus could pass structural checks.
+- [x] Hardened the validator to require the current canonical **3 relationship records**, object-shaped records, list-shaped evidence, and non-empty string evidence paths before filesystem resolution.
+- [x] Updated `docs/data/partner-skill-relationship-validator-audit-2026-09-26.json`; the current corpus remains clean with **3 relationships / 6 evidence files**.
+- [x] No additional Partner Customization assignment or unsupported skill relationship was inferred.
+- [ ] CI/build/runtime remains unverified.
+- [x] **Exact next:** continue auditing the remaining live validators for concrete schema/acceptance gaps, without reconstructing unsupported canonical datasets.
