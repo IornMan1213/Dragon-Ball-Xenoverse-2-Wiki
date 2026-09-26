@@ -1,3 +1,18 @@
+### 2026-09-26 continuation — Skill Research Batch 437 completed
+
+- [x] Fresh unaudited mechanics frontier selected **Majin Kamehameha, Mach Dash, Revenge Death Ball, and Namek Finger** after reconciling the live Batch 436 state and excluding prior current-evidence-audited records.
+- [x] Added four current-evidence audits plus Batch 437 research and thin-frontier audit artifacts.
+- [x] Corrected **Majin Kamehameha** from stale **Ultimate** classification to **Super**, while retaining its 100-Ki Ki Blast, PQ60 endpoint, three charge stages, 5-to-15-hit behavior, approximately 10%-to-15% source-reported damage, and Majin CaC restriction.
+- [x] Expanded **Mach Dash** mechanics with the 200-Stamina Power Up Evasive, 1.5% speed increase, PQ18 endpoint, and the documented 11.5-vs-12-second source discrepancy.
+- [x] Expanded **Revenge Death Ball** mechanics with its 300+ Ki resource model, 12-to-22-hit charge scaling, source-reported 30%-to-70% damage range, 300 Ki input consumption, and remaining-Ki charge behavior.
+- [x] Expanded **Namek Finger** mechanics with its 100-Ki Namekian-only grab/stun behavior, documented 10% damage, and the current Skill Shop vs maintained TP Medal Shop provenance distinction.
+- [x] Synchronized all four records into both canonical skill datasets and refreshed their current-scope verification date to 2026-09-26.
+- [x] Registered the Batch 437 research record, thin-frontier audit, and four skill audits in docs/data/pq-cross-domain-index.json.
+- [x] Validated **474/474** canonical/index records with ordered ID parity, **0 missing / 0 extra**, and six Batch 437 registry entries.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] **Repository efficiency addendum check:** `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` currently returns GitHub 404 and therefore could not be read or verified.
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 437 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
+
 ### 2026-09-26 continuation — Skill Research Batch 436 completed
 
 - [x] Fresh unaudited mechanics frontier selected **Candy Beam (Super), Big Bang Kamehameha, Dimensional Hole, and God of Destruction's Poise** after excluding Batch 435 and all prior current-evidence-audited records.
