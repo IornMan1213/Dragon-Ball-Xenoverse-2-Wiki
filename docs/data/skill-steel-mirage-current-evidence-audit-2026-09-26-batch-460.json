@@ -1,0 +1,19 @@
+{
+  "batch": 460,
+  "date": "2026-09-26",
+  "skill_name": "Steel Mirage",
+  "skill_id": "skill-steel-mirage",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics/provenance review for the live canonical record.",
+  "findings": [
+    "100-Ki Ki Blast Super from PQ165. The user rushes past the opponent and attacks from behind with a Destructo-Disc. Current evidence establishes the CaC/Future Warrior availability scope but does not establish a narrower race, gender, or form restriction. Exact damage and frame data remain unresolved."
+  ],
+  "sources": [
+    "Repository-maintained current skill/PQ evidence corpus; dedicated exact-name references reviewed for the live record."
+  ],
+  "evidence_boundaries": [
+    "Source-reported damage and timing values remain bounded.",
+    "No unsupported exact frame data, reward probabilities, hidden gates, or patch-independent scaling is promoted.",
+    "Conflicting acquisition semantics remain explicitly unresolved where sources disagree."
+  ]
+}
