@@ -1,0 +1,55 @@
+{
+  "batch": 461,
+  "date": "2026-09-26",
+  "scope": "Fresh registered-audit mechanics frontier after Batch 460.",
+  "selected": [
+    "Flash Bomber",
+    "Genocide Shell",
+    "Spread Shot Retreat",
+    "Tail Slicer",
+    "Break Cannon",
+    "Burst Rush",
+    "Temporal Holy Ray",
+    "Victory Rush"
+  ],
+  "method": "Live 474-record census excluding registered current-evidence audits; selected the next eight lowest-detail records.",
+  "records": [
+    {
+      "skill_name": "Flash Bomber",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ95. Holding the input continues the barrage and spends additional Ki; current evidence documents a 21-hit base barrage extendable to 56 hits with 200 additional Ki, with the extended version reported at approximately 40% damage. PQ95 Ultimate Finish acquisition is retained; exact drop probability remains unresolved."
+    },
+    {
+      "skill_name": "Genocide Shell",
+      "mechanics_notes": "100-Ki Ki Blast Super from Nappa Lesson 2. Creates four stationary Ki spheres that persist for a limited duration or until triggered, making an area hazardous; current evidence preserves the four-sphere behavior and notes historical hit-detection adjustment without inferring a numeric damage value."
+    },
+    {
+      "skill_name": "Spread Shot Retreat",
+      "mechanics_notes": "300-Stamina Ki Blast Evasive from PQ28. The user retreats while firing a tracking barrage that can stun. Current evidence places it in the PQ28 Basic Reward listing and establishes no narrower CaC race, gender, or form restriction."
+    },
+    {
+      "skill_name": "Tail Slicer",
+      "mechanics_notes": "100-Ki Ki Blast Super. The user jumps sideways while firing a disc-shaped projectile; directional input changes its travel direction and the projectile tracks the target. Current evidence preserves a source conflict concerning whether it is blockable/unblockable rather than silently resolving it."
+    },
+    {
+      "skill_name": "Break Cannon",
+      "mechanics_notes": "300+ Ki Ki Blast Ultimate from Nappa Lesson 3. The user cracks their knuckles and fires a mid-range beam from the mouth; current evidence documents up to 15 hits and about 15% base damage, with output varying by stored Ki. Exact frame data and scaling remain unresolved."
+    },
+    {
+      "skill_name": "Burst Rush",
+      "mechanics_notes": "100-Ki Strike Super and melee counter from PQ51, Great Saiyaman is Here. Current evidence places it in PQ51's Basic Reward listing and documents its counter behavior. No unsupported drop probability, Ultimate Finish gate, or narrower CaC race/gender/form restriction is inferred."
+    },
+    {
+      "skill_name": "Temporal Holy Ray",
+      "mechanics_notes": "100-Ki Ki Blast Super from the Conton City Tournament progression. The user places a clock-like sigil that fires a delayed beam; charging can delay firing, while an additional input fires placed rays immediately. Holy Inscription hits allow up to three simultaneous sigils, and using the technique resets the Holy Inscription hit counter."
+    },
+    {
+      "skill_name": "Victory Rush",
+      "mechanics_notes": "300-Ki Strike Ultimate. Current Xenoverse 2 evidence documents a multi-stage rush/strike sequence culminating in a heavy finishing blow; the canonical record retains its established acquisition and character/CaC scope while exact frame timing and patch-independent damage scaling remain unresolved."
+    }
+  ],
+  "validation": {
+    "canonical_count": 474,
+    "index_count": 474,
+    "ordered_id_parity": true
+  }
+}
