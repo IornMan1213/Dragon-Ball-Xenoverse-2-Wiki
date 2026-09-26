@@ -1,0 +1,22 @@
+{
+  "batch": 455,
+  "date": "2026-09-26",
+  "type": "thin_frontier_mechanics_audit",
+  "selected": [
+    "Super Donut Volley",
+    "Dimension Cannon",
+    "Divine Kamehameha",
+    "Petrifying Spit",
+    "Meteor Explosion",
+    "Circle Flash",
+    "Stone Bullet",
+    "Blue Hurricane"
+  ],
+  "method": "Fresh mechanics coverage census over the live 474-record skill set, excluding every skill with a registered current-evidence audit.",
+  "evidence_boundaries": [
+    "Source-reported damage and timing values remain source-bound.",
+    "Unsupported exact frames and patch-independent scaling were not inferred.",
+    "Acquisition endpoints are not treated as guaranteed drops unless directly evidenced.",
+    "Conflicting shop/reward presentation remains explicit where applicable."
+  ]
+}
