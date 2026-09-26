@@ -7679,20 +7679,22 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Innocence_Breath",
+        "https://dragonball.fandom.com/wiki/Flame_Shower_Breath"
       ],
       "unlock_method": "Majin Buu's mentor training — complete the corresponding lesson to receive Innocence Breath as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Majin Buu mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate; the user advances and sweeps a powerful breath/ki wave across the target area, producing a single-hit knockback attack. The dedicated Xenoverse 2 reference describes it as unblockable.",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Majin Buu mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used.\n2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC/roster provenance, and documented mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used.\n2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC/roster provenance, and documented mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 371 mechanics enrichment: promoted current skill-specific/repository evidence; unresolved frame, timing, probability, hidden-gate, and unsupported numeric fields remain bounded.",
       "id": "skill-innocence-breath",
       "source_mentor": [
         "mentor-majin-buu"
@@ -7707,20 +7709,22 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Innocence_Bullet",
+        "https://dragonball.fandom.com/wiki/Innocence_Bullet"
       ],
       "unlock_method": "Majin Buu's mentor training — complete the corresponding lesson to receive Innocence Bullet as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Majin Buu mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "100-Ki Ki Blast Super; the user launches paired swirling Ki Blasts that combine on impact, dealing knockback and applying poison. Current Xenoverse 2 evidence describes the poison as persisting until the opponent dies or uses an antidote.",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Majin Buu mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC/roster provenance, and documented mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC/roster provenance, and documented mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 371 mechanics enrichment: promoted current skill-specific/repository evidence; unresolved frame, timing, probability, hidden-gate, and unsupported numeric fields remain bounded.",
       "id": "skill-innocence-bullet",
       "source_mentor": [
         "mentor-majin-buu"
@@ -9052,20 +9056,21 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Neo_Tri-Beam"
       ],
       "unlock_method": "Tien's Lesson 3 — complete the instructor lesson to receive Neo Tri-Beam as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Tien mentor training — Lesson 3",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate: the user rises and fires a Tri-Beam; repeated inputs fire additional Tri-Beams at 100 Stamina each, with current documentation listing 100–1400 Stamina total for repeated shots.",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Tien mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300 Ki used.\n2026-09-23 verification refresh: revalidated the existing acquisition endpoint, classification, mechanics, DLC/provenance, and documented reward-tier semantics against the maintained repository evidence corpus; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300 Ki used.\n2026-09-23 verification refresh: revalidated the existing acquisition endpoint, classification, mechanics, DLC/provenance, and documented reward-tier semantics against the maintained repository evidence corpus; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 371 mechanics enrichment: promoted current skill-specific/repository evidence; unresolved frame, timing, probability, hidden-gate, and unsupported numeric fields remain bounded.",
       "id": "skill-neo-tri-beam",
       "source_mentor": [
         "mentor-tien"
@@ -11884,20 +11889,21 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Strike_of_Revelation"
       ],
       "unlock_method": "Whis's mentor training — complete the corresponding lesson to receive Strike of Revelation as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Whis mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "100-Ki Strike Super from Whis mentor training. Current repository evidence confirms the mentor acquisition endpoint and cost; detailed frame, damage, and timing behavior remains version-sensitive and is not inferred beyond the maintained evidence.",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Whis mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current repository skill research evidence was rechecked for classification and acquisition; unresolved fields remain unchanged where evidence does not support a deterministic correction. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
+      "notes": "2026-09-22 provenance refresh: current repository skill research evidence was rechecked for classification and acquisition; unresolved fields remain unchanged where evidence does not support a deterministic correction. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.\n2026-09-25 Batch 371 mechanics enrichment: promoted current skill-specific/repository evidence; unresolved frame, timing, probability, hidden-gate, and unsupported numeric fields remain bounded.",
       "id": "skill-strike-of-revelation",
       "source_mentor": [
         "mentor-whis"
@@ -11938,20 +11944,22 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Sudden_Storm",
+        "https://dbxv2.fandom.com/wiki/Turles"
       ],
       "unlock_method": "Turles's mentor training — complete the corresponding lesson to receive Sudden Storm as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Turles mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "200-Ki Ki Blast Super from Turles mentor training. Current repository evidence confirms the canonical class, resource cost, and mentor acquisition endpoint; exact frame and damage values remain unresolved.",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Turles mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current Ki Blast Super catalog evidence was rechecked; existing canonical classification and acquisition provenance are retained where no deterministic correction is supported. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.",
+      "notes": "2026-09-22 provenance refresh: current Ki Blast Super catalog evidence was rechecked; existing canonical classification and acquisition provenance are retained where no deterministic correction is supported. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.\n2026-09-25 Batch 371 mechanics enrichment: promoted current skill-specific/repository evidence; unresolved frame, timing, probability, hidden-gate, and unsupported numeric fields remain bounded.",
       "id": "skill-sudden-storm",
       "source_mentor": [
         "mentor-turles"
