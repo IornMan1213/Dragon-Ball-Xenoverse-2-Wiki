@@ -1612,5 +1612,13 @@
   "skill_punisher_drive_current_evidence_audit_2026_09_26_batch_472": "docs/data/skill-punisher-drive-current-evidence-audit-2026-09-26-batch-472.json",
   "skill_time_skip_back_breaker_current_evidence_audit_2026_09_26_batch_472": "docs/data/skill-time-skip-back-breaker-current-evidence-audit-2026-09-26-batch-472.json",
   "skill_time_skip_flash_skewer_current_evidence_audit_2026_09_26_batch_472": "docs/data/skill-time-skip-flash-skewer-current-evidence-audit-2026-09-26-batch-472.json",
-  "skill_time_skip_jump_spike_current_evidence_audit_2026_09_26_batch_472": "docs/data/skill-time-skip-jump-spike-current-evidence-audit-2026-09-26-batch-472.json"
+  "skill_time_skip_jump_spike_current_evidence_audit_2026_09_26_batch_472": "docs/data/skill-time-skip-jump-spike-current-evidence-audit-2026-09-26-batch-472.json",
+  "skill_batch_473": "docs/data/skill-research-batches/skill-batch-473.json",
+  "skill_batch_473_thin_frontier": "docs/data/skill-research-batches/skill-batch-473-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_arm_crash_current_evidence_audit_2026_09_26_batch_473": "docs/data/skill-arm-crash-current-evidence-audit-2026-09-26-batch-473.json",
+  "skill_phantom_fist_current_evidence_audit_2026_09_26_batch_473": "docs/data/skill-phantom-fist-current-evidence-audit-2026-09-26-batch-473.json",
+  "skill_time_skip_molotov_current_evidence_audit_2026_09_26_batch_473": "docs/data/skill-time-skip-molotov-current-evidence-audit-2026-09-26-batch-473.json",
+  "skill_justice_combination_current_evidence_audit_2026_09_26_batch_473": "docs/data/skill-justice-combination-current-evidence-audit-2026-09-26-batch-473.json",
+  "skill_headshot_current_evidence_audit_2026_09_26_batch_473": "docs/data/skill-headshot-current-evidence-audit-2026-09-26-batch-473.json",
+  "skill_gigantic_rage_current_evidence_audit_2026_09_26_batch_473": "docs/data/skill-gigantic-rage-current-evidence-audit-2026-09-26-batch-473.json"
 }
