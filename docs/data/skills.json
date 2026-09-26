@@ -2129,13 +2129,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Dodoria mentor training — Lesson 1",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "100-Ki Strike Super from Dodoria Lesson 1. Performs a short-range Ki-laced uppercut that launches the opponent and leaves them airborne for follow-up attacks; a dedicated Xenoverse 2 reference reports 10% damage under its displayed convention.",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Dodoria mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: dedicated skill evidence confirms Critical Upper as Dodoria's 100-Ki Strike Super obtained through Dodoria training, with an uppercut that launches the target. Mentor reward documentation independently confirms the lesson endpoint. 2026-09-23 provenance refresh: current dedicated evidence and independent corroboration were rechecked for the canonical acquisition/classification endpoint; existing reward-tier, cost, scope, and mechanics semantics are preserved, and no unsupported drop probability or additional gate is inferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: dedicated skill evidence confirms Critical Upper as Dodoria's 100-Ki Strike Super obtained through Dodoria training, with an uppercut that launches the target. Mentor reward documentation independently confirms the lesson endpoint. 2026-09-23 provenance refresh: current dedicated evidence and independent corroboration were rechecked for the canonical acquisition/classification endpoint; existing reward-tier, cost, scope, and mechanics semantics are preserved, and no unsupported drop probability or additional gate is inferred.\n2026-09-25 Batch 372 mechanics enrichment: promoted repository-supported current mechanics; source-reported damage remains bounded and no unsupported frame/timing/probability/hidden-gate claims were added.",
       "id": "skill-critical-upper",
       "source_mentor": [
         "mentor-dodoria"
@@ -12629,21 +12629,22 @@
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Super_Spirit_Bomb",
-        "https://dbxv2.fandom.com/wiki/Super_Spirit_Bomb"
+        "https://dbxv2.fandom.com/wiki/Super_Spirit_Bomb",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
       ],
       "ki_cost": 300,
       "unlock_method": "Expert Mission 16 — \"In the Realm of the Gods: Vegeta\" Basic Reward.",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Expert Mission 16 - In the Realm of the Gods: Vegeta",
       "research_status": "enriched",
-      "mechanics_notes": "300 Ki Ki Blast Ultimate from EM16; charges and throws a large Spirit Bomb projectile.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from Expert Mission 16. Launches a large tracked Spirit Bomb projectile with a long startup; current dedicated evidence documents 14 hits and approximately 85% total damage, retained as source-described rather than version-independent canonical damage.",
       "source_quest": "EM-16",
       "acquisition_type": "quest_or_mission",
-      "notes": "Expert Mission 16 Basic Reward is the maintained acquisition endpoint; no Ultimate Finish-only condition is inferred. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred.",
+      "notes": "Expert Mission 16 Basic Reward is the maintained acquisition endpoint; no Ultimate Finish-only condition is inferred. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred.\n2026-09-25 Batch 372 mechanics enrichment: promoted repository-supported current mechanics; source-reported damage remains bounded and no unsupported frame/timing/probability/hidden-gate claims were added.",
       "id": "skill-super-spirit-bomb"
     },
     {
@@ -12823,20 +12824,21 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Symphonic_Destruction"
       ],
       "unlock_method": "Whis's mentor training — complete the corresponding lesson to receive Symphonic Destruction as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Whis mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "300-Ki long-range Strike Ultimate. Creates a whirlwind in front of the user and sweeps it repeatedly like a conductor; current DBXV2 research documents six directional sweeps and a multi-hit launching attack.",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Whis mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred.\n2026-09-25 Batch 372 mechanics enrichment: promoted repository-supported current mechanics; source-reported damage remains bounded and no unsupported frame/timing/probability/hidden-gate claims were added.",
       "id": "skill-symphonic-destruction",
       "source_mentor": [
         "mentor-whis"
@@ -13325,20 +13327,22 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Tri-Beam",
+        "https://dbxv2.fandom.com/wiki/Tien"
       ],
       "unlock_method": "Tien's Lesson 2 — complete the instructor lesson to receive Tri-Beam as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Tien mentor training — Lesson 2",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "100-Ki Ki Blast Super from Tien's mentor training. Fires a long-range Tri-Beam; current repository research distinguishes it from Neo Tri-Beam and preserves the documented repeat-input behavior where applicable.",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
       "source_quest": "Tien mentor training — Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 batch verification: acquisition/classification evidence was rechecked from the existing repository research trail; unresolved reward probabilities and detailed combat measurements remain explicitly bounded. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 batch verification: acquisition/classification evidence was rechecked from the existing repository research trail; unresolved reward probabilities and detailed combat measurements remain explicitly bounded. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred.\n2026-09-25 Batch 372 mechanics enrichment: promoted repository-supported current mechanics; source-reported damage remains bounded and no unsupported frame/timing/probability/hidden-gate claims were added.",
       "id": "skill-tri-beam",
       "source_mentor": [
         "mentor-tien"
