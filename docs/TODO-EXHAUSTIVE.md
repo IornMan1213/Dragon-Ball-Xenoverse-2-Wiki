@@ -1,3 +1,14 @@
+
+### 2026-09-26 TODO progress update — Skill Research Batch 484 completed
+- [x] Fresh 474-record frontier census excluded the completed Batches 481–483 and all skill IDs represented by the live registered current-evidence audit set.
+- [x] Researched Spirit Slash, Gigantic Burst, Gigantic Roar, Emperor's Cannon, Gigantic Breaker, The Power to Overcome, God of Destruction's Menace, and Flash Chaser.
+- [x] Enriched/synchronized all eight canonical/index records; parity remains 474/474, with no additions/removals.
+- [x] Added eight current-evidence audits, docs/data/skill-research-batches/skill-batch-484.json, and docs/data/skill-batch-484-thin-frontier-mechanics-audit-2026-09-26.json.
+- [x] Registered Batch 482/483 continuity records and Batch 484 provenance in docs/data/pq-cross-domain-index.json.
+- [x] Preserved evidence boundaries: source-reported damage, timing, modifier, and hit-count values remain bounded; unsupported frames, probabilities, hidden interactions, and patch-independent scaling were not inferred.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [x] Exact next: fresh unaudited mechanics frontier excluding Batch 484 and all prior registered current-evidence audits; current shortest remaining candidates are Dancing Parapara, God of Destruction's Roar, God Punisher, Super Saiyan God Super Saiyan (Evolved), Total Detonation Ball, Future Super Saiyan, Godly Display, and Final Pose.
+
 ### 2026-09-26 TODO progress update — Skill Research Batch 482 completed
 - [x] Researched and synchronized **Death Ball, Galick Gun, Sphere of Destruction, Breaker Energy Wave, Hyper Drain, Handy Canon, Fierce Fist, Venus Fist**.
 - [x] Canonical/index parity remains **474/474**.
