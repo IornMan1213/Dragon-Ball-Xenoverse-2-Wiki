@@ -1,0 +1,19 @@
+{
+  "batch": 459,
+  "date": "2026-09-26",
+  "skill_name": "Fighting Pose B",
+  "skill_id": "skill-fighting-pose-b",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Skill Research Batch 459.",
+  "findings": [
+    "0-Ki Power Up Super from PQ16. The pose grants a temporary Strike-move damage increase for 20 seconds. Current skill-specific documentation confirms the Strike-only scope and duration; exact percentage, stacking behavior, reward probability, and frame timing remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/fightingPoseB"
+  ],
+  "evidence_boundaries": [
+    "Exact frame data is not promoted.",
+    "Patch-independent scaling is not inferred from source-reported values.",
+    "Reward probabilities and hidden prerequisites are not promoted unless directly evidenced."
+  ]
+}
