@@ -1,3 +1,12 @@
+### 2026-09-26 TODO progress update — Mechanics frontier exhausted; integrity/linkage work begins
+- [x] Fresh Batch 492 census found **0** canonical skills lacking a registered current-evidence audit; all **474** skill IDs are covered.
+- [x] Corrected seven stale attack-type descriptions and synchronized the corrections across both canonical skill datasets.
+- [x] Added and registered a full skill-corpus data-integrity audit.
+- [x] Confirmed 0 missing sources, mechanics notes, unlock methods, or source-quest/shop endpoints across the canonical skill corpus.
+- [ ] CI/build remains unverified.
+- [ ] Efficiency addendum remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** begin deterministic cross-domain linkage/provenance validation between canonical skills and PQ/acquisition datasets; prioritize broken or unresolved skill↔PQ endpoints and only make evidence-backed corrections.
+
 ### 2026-09-26 TODO progress update — Skill Research Batch 491 completed
 - [x] Fresh live mechanics frontier census performed after Batch 490.
 - [x] Researched and synchronized **Gigantic Cluster, Holy Wrath, Gigantic Charge, Pendulum Bullet, and Heat Dome Attack**.
