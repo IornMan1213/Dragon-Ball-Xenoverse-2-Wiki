@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 374,
+  "created": "2026-09-25",
+  "type": "thin_mechanics_enrichment",
+  "scope": "Current/repository evidence enrichment for four shortest remaining skill mechanics footprints.",
+  "records": [
+    {
+      "name": "Afterimage",
+      "id": "skill-afterimage",
+      "ki_cost": 100,
+      "subcategory": "Other Super",
+      "mechanics": "Timed Ki-based vanish; successful timing evades attacks and repositions behind a nearby opponent; exact frames/invulnerability remain unresolved.",
+      "last_verified": "2026-09-25",
+      "evidence_boundary": "Promoted only repository/current evidence; no unsupported frame timing, exact damage, reward probability, hidden gate, or version-independent numeric claim."
+    },
+    {
+      "name": "Spirit Bomb",
+      "id": "skill-spirit-bomb",
+      "ki_cost": 100,
+      "subcategory": "Ki Blast Super",
+      "mechanics": "Goku mentor skill that launches a large Spirit Bomb projectile; exact damage, hit count, tracking and timing remain version-sensitive.",
+      "last_verified": "2026-09-25",
+      "evidence_boundary": "Promoted only repository/current evidence; no unsupported frame timing, exact damage, reward probability, hidden gate, or version-independent numeric claim."
+    },
+    {
+      "name": "S.S. Deadly Bomber",
+      "id": "skill-s-s-deadly-bomber",
+      "ki_cost": 400,
+      "subcategory": "Ki Blast Ultimate",
+      "mechanics": "PQ115 tracking Ki ball; current Xenoverse 2 evidence lists up to 15 hits; exact damage/drop probability remain unresolved.",
+      "last_verified": "2026-09-25",
+      "evidence_boundary": "Promoted only repository/current evidence; no unsupported frame timing, exact damage, reward probability, hidden gate, or version-independent numeric claim."
+    },
+    {
+      "name": "Charged Ki Wave",
+      "id": "skill-charged-ki-wave",
+      "ki_cost": 100,
+      "subcategory": "Other Super",
+      "mechanics": "PQ97 utility Super that consumes Ki to restore Stamina, completing faster than Rise to Action; historical reward/resource conflicts remain preserved.",
+      "last_verified": "2026-09-25",
+      "evidence_boundary": "Promoted only repository/current evidence; no unsupported frame timing, exact damage, reward probability, hidden gate, or version-independent numeric claim."
+    }
+  ],
+  "validation": {
+    "canonical_skill_baseline": 469,
+    "index_skill_baseline": 469,
+    "targets": 4,
+    "canonical_reconstruction": false,
+    "ci": "unverified"
+  }
+}
