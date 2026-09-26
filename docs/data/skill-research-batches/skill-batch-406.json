@@ -1,0 +1,28 @@
+{
+  "batch": 406,
+  "date": "2026-09-25",
+  "scope": "Shortest mechanics frontier after Batch 405",
+  "status": "completed",
+  "records": [
+    {
+      "id": "skill-dodon-ray",
+      "name": "Dodon Ray",
+      "mechanics_notes": "0-Ki Ki Blast Super taught by Tien. The technique is a focused Dodonpa-style beam; current Xenoverse 2 patch documentation specifically records improved recovery from the immobile state after unleashing Dodon Ray. Exact startup, beam duration, damage, tracking, guard behavior, and current frame recovery remain unresolved."
+    },
+    {
+      "id": "skill-rebellion-spear",
+      "name": "Rebellion Spear",
+      "mechanics_notes": "100-Ki Strike Super from Bardock's Lesson 1. After a brief preparation pose, the user rushes around the target while leaving a yellow energy trail; current repository evidence documents the active rush lasting about 5 seconds. External testing/mod documentation also distinguishes movement speed and damage as tunable properties, so those values are not promoted as universal balance facts. Exact startup, hit cadence, damage, tracking, and cancel windows remain unresolved."
+    },
+    {
+      "id": "skill-dragon-burn",
+      "name": "Dragon Burn",
+      "mechanics_notes": "200-Stamina Ki Blast Evasive from PQ82 Basic Reward. The user stands in place surrounded by flames; current Xenoverse 2 evidence identifies it as an evasive/counter that can inflict burn/paralysis on an attacker. Official patch notes document a historical change making the opponent able to Z-Vanish more quickly after being hit, which is relevant provenance rather than a timeless current frame rule. Exact active frames, damage, status duration, and post-hit recovery remain unresolved."
+    },
+    {
+      "id": "skill-impulse-slash",
+      "name": "Impulse Slash",
+      "mechanics_notes": "300-Ki Strike Ultimate obtained through the TP Medal Shop. The technique performs a long close-range rush sequence and finishes with a rapid Ki-blast barrage. Community testing documents several interaction limits: startup can be interrupted, a stamina-recovery evasive can break the sequence, and the finishing blasts require the target/arena geometry to allow the projectiles to reach the ground. These reports are retained as interaction evidence; exact startup, hit-confirm rules, damage, and patch-specific behavior remain unresolved."
+    }
+  ]
+}

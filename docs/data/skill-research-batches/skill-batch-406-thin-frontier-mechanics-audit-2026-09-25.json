@@ -1,0 +1,27 @@
+{
+  "batch": 406,
+  "date": "2026-09-25",
+  "status": "completed",
+  "records": [
+    {
+      "id": "skill-dodon-ray",
+      "name": "Dodon Ray",
+      "mechanics_length": 323
+    },
+    {
+      "id": "skill-rebellion-spear",
+      "name": "Rebellion Spear",
+      "mechanics_length": 474
+    },
+    {
+      "id": "skill-dragon-burn",
+      "name": "Dragon Burn",
+      "mechanics_length": 488
+    },
+    {
+      "id": "skill-impulse-slash",
+      "name": "Impulse Slash",
+      "mechanics_length": 539
+    }
+  ]
+}

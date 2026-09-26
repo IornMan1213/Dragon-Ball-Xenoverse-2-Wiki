@@ -985,3 +985,12 @@
 - [x] Evidence boundaries preserved; version-sensitive stat/damage values are explicitly bounded rather than presented as timeless balance facts.
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [x] **Exact next:** fresh 474-record census excluding Batches 396–405, then enrich the next 4–12 shortest genuinely under-detailed records and synchronize canonical/index/provenance.
+
+
+### 2026-09-25 TODO progress update — Skill Research Batch 406 completed
+- [x] Fresh 474-record frontier census after Batch 405 selected **Dodon Ray, Rebellion Spear, Dragon Burn, and Impulse Slash** as the next four shortest genuinely under-detailed records.
+- [x] Enriched and synchronized canonical `docs/data/skills.json`, projection `docs/data/skills-index.json`, and provenance registry; canonical/index remain 474/474.
+- [x] Added four Batch 406 current-evidence audits plus batch and thin-frontier audit artifacts.
+- [x] Historical patch notes/community interaction reports were bounded as contextual evidence rather than promoted into timeless balance claims.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [x] **Exact next:** fresh 474-record census excluding Batches 396–406, then enrich the next 4–12 shortest genuinely under-detailed records and synchronize canonical/index/provenance in the same cycle.
