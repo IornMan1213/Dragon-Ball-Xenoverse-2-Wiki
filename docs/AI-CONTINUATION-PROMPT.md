@@ -908,3 +908,15 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Commits: canonical `f3a0594`; skill index `ea5048f`; audits `a352562`, `2c963ab`, `b8073f4`, `7009925`, `c1f3b6f`, `e501d02`; Batch 387 `4d8f10f`; cross-domain registration `4bc7455`.
 - [x] **Exact next:** fresh post-Batch-387 census excluding these six and other recently completed frontier targets, then continue the next genuinely low-detail records in a 4–12 record batch.
+
+
+### 2026-09-25 completion — Skill Batch 388 short-frontier mechanics enrichment
+- [x] Fresh post-Batch-387 census selected the next six low-detail records after excluding recently completed frontier targets.
+- [x] Completed **Chain Destructo-Disc Barrage, Double Death Slicer, Dragon Thunder, Dual Destructo-Disc, Eagle Kick, Elegant Blaster** with source-bounded current Xenoverse 2 mechanics enrichment.
+- [x] Synchronized canonical `docs/data/skills.json` and projection `docs/data/skills-index.json`; all six carry `last_verified: 2026-09-25` and `verified_current_scope`.
+- [x] Added/refreshed six current-evidence audits and Skill Batch 388; registered all seven artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: canonical/index **469/469**, **0 duplicate IDs**, and all six targets have current verification/date fields and enriched mechanics notes.
+- [x] Evidence limits preserved: source-reported numerical values remain bounded; no unsupported frame data, hidden prerequisites, reward probabilities, or patch-independent balance claims were inferred.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Commits: canonical `a77320c`; index `a3a59f3`; audits `8f77173`, `e6dd2d9`, `192b794`, `2262dfa`, `3bed646`, `cf44173`; Batch 388 `7a50281`; cross-domain registration `dd19253`.
+- [x] **Exact next:** fresh post-Batch-388 census excluding these six and other recently completed frontier targets, then continue the next genuinely low-detail records in another 4–12 record batch.
