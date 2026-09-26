@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-25",
+  "skill_id": "skill-dust-attack",
+  "skill_name": "Dust Attack",
+  "batch": 404,
+  "sources": [
+    "Steam Parallel Quest guide",
+    "gameplay/review video"
+  ],
+  "findings": "PQ78 Basic Reward; close-range skill identity; exact hit sequence/damage/tracking/timing unresolved.",
+  "evidence_limits": [
+    "Exact frames, timing, tracking, damage, and cancel windows remain unresolved where not directly documented."
+  ]
+}

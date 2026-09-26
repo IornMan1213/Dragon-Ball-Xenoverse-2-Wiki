@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-25",
+  "skill_id": "skill-justice-pose",
+  "skill_name": "Justice Pose",
+  "batch": 404,
+  "sources": [
+    "Steam Parallel Quest guide"
+  ],
+  "findings": "PQ53 Basic Reward; pose-based reinforcement identity; exact magnitude/duration unresolved.",
+  "evidence_limits": [
+    "Exact frames, timing, tracking, damage, and cancel windows remain unresolved where not directly documented."
+  ]
+}

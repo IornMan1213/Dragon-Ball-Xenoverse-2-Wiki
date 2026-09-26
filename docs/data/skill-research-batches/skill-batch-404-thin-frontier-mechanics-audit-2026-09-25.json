@@ -1,27 +1,42 @@
 {
   "batch": 404,
   "date": "2026-09-25",
+  "status": "completed",
   "records": [
     {
       "id": "skill-feint-shot",
       "name": "Feint Shot",
-      "finding": "Pan Lesson 2 acquisition confirmed; teleporting/feinting shot behavior documented; exact timing/tracking/damage unresolved."
+      "mechanics_length": 367,
+      "sources": [
+        "Gamers Heroes instructor guide",
+        "Steam instructor guide"
+      ]
     },
     {
       "id": "skill-fighting-pose-k",
       "name": "Fighting Pose K",
-      "finding": "Super Armor behavior documented, including 8-second current repository value; community interaction reports retained as contextual evidence."
+      "mechanics_length": 434,
+      "sources": [
+        "Xenoverse 2 community testing",
+        "Steam Xenoverse 2 discussion"
+      ]
     },
     {
       "id": "skill-justice-pose",
       "name": "Justice Pose",
-      "finding": "PQ53 Basic Reward endpoint confirmed; pose-based reinforcement identity documented; exact magnitude/duration unresolved."
+      "mechanics_length": 311,
+      "sources": [
+        "Steam Parallel Quest guide"
+      ]
     },
     {
       "id": "skill-dust-attack",
       "name": "Dust Attack",
-      "finding": "PQ78 Basic Reward endpoint confirmed; skill identity and close-range technique evidence reviewed; exact mechanics remain partially unresolved."
+      "mechanics_length": 313,
+      "sources": [
+        "Steam Parallel Quest guide",
+        "gameplay/review video"
+      ]
     }
-  ],
-  "status": "pending canonical/index synchronization"
+  ]
 }

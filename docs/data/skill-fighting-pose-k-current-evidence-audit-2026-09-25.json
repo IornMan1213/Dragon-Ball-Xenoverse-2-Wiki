@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-25",
+  "skill_id": "skill-fighting-pose-k",
+  "skill_name": "Fighting Pose K",
+  "batch": 404,
+  "sources": [
+    "Xenoverse 2 community testing",
+    "Steam Xenoverse 2 discussion"
+  ],
+  "findings": "Ginyu Force Power Up; 8-second Super Armor evidence; interaction reports retained as contextual evidence.",
+  "evidence_limits": [
+    "Exact frames, timing, tracking, damage, and cancel windows remain unresolved where not directly documented."
+  ]
+}

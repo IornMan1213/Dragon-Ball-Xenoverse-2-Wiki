@@ -1112,3 +1112,12 @@
 - [ ] Canonical/index write is pending due a GitHub contents API conflict on the large skills files; no completion is claimed yet.
 - [x] Evidence review completed for Pan Lesson 2 / Feint Shot, Fighting Pose K behavior, PQ53 / Justice Pose, and PQ78 / Dust Attack.
 - [x] Exact next after write recovery: synchronize canonical/index, add Batch 404 audits and provenance, then update TODO and continue the next frontier.
+
+
+### 2026-09-25 continuation — Skill Research Batch 404 completed
+- [x] Recovered the large Git-object write path for `skills.json`/`skills-index.json` by fetching their full blobs and writing through a new Git tree instead of the Contents API.
+- [x] Enriched and synchronized **Feint Shot, Fighting Pose K, Justice Pose, and Dust Attack** in canonical and projection data; canonical/index remain 474/474.
+- [x] Added/replaced the four current-evidence audits and Batch 404 artifacts and retained provenance registration.
+- [x] Evidence boundaries preserved: unsupported exact frames, timing, tracking, damage, and cancel windows remain unresolved rather than being inferred.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [x] **Exact next:** fresh 474-record census excluding Batches 396–404, then enrich the next 4–12 shortest genuinely under-detailed records and synchronize canonical/index/provenance in the same cycle.

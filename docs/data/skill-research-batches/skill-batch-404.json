@@ -1,39 +1,59 @@
 {
   "batch": 404,
   "date": "2026-09-25",
-  "status": "frontier_selected_pending_canonical_write",
+  "scope": "Skill mechanics frontier",
+  "status": "completed",
   "records": [
     {
       "id": "skill-feint-shot",
       "name": "Feint Shot",
+      "mechanics_notes": "100-Ki Ki Blast Super learned from Pan's Lesson 2. Pan teleports left and right before firing a Ki bullet; current evidence identifies the technique as a feint/teleporting shot rather than a stationary projectile. The Pan Lesson 2 acquisition endpoint is documented. Exact teleport timing, projectile tracking, hit count, damage, and cancel windows remain unresolved.",
       "sources": [
         "Gamers Heroes instructor guide",
         "Steam instructor guide"
+      ],
+      "finding": "Pan Lesson 2; teleporting/feinting shot behavior; exact timing/tracking/damage unresolved.",
+      "evidence_limits": [
+        "Unsupported exact frames, timing, tracking, damage, and cancel windows are not promoted."
       ]
     },
     {
       "id": "skill-fighting-pose-k",
       "name": "Fighting Pose K",
+      "mechanics_notes": "0-Ki Power Up Super associated with the Ginyu Force. After the pose completes, current Xenoverse 2 evidence documents Super Armor for 8 seconds. Community testing also documents extension through compatible reinforcement effects and various armor interactions; these remain contextual rather than universal frame rules. Exact activation frames, all grab/guard-break interactions, and patch-specific damage modifiers remain unresolved.",
       "sources": [
         "Xenoverse 2 community testing",
         "Steam Xenoverse 2 discussion"
+      ],
+      "finding": "Ginyu Force Power Up; 8-second Super Armor evidence; interaction reports retained as contextual evidence.",
+      "evidence_limits": [
+        "Unsupported exact frames, timing, tracking, damage, and cancel windows are not promoted."
       ]
     },
     {
       "id": "skill-justice-pose",
       "name": "Justice Pose",
+      "mechanics_notes": "0-Ki Power Up Super acquired from PQ53 Basic Reward. The user performs the Justice Pose and receives its documented temporary reinforcement effect; current evidence treats it as a pose-based buff rather than an attack. Exact buff magnitude, activation timing, duration, and interruption rules remain unresolved.",
       "sources": [
         "Steam Parallel Quest guide"
+      ],
+      "finding": "PQ53 Basic Reward; pose-based reinforcement identity; exact magnitude/duration unresolved.",
+      "evidence_limits": [
+        "Unsupported exact frames, timing, tracking, damage, and cancel windows are not promoted."
       ]
     },
     {
       "id": "skill-dust-attack",
       "name": "Dust Attack",
+      "mechanics_notes": "100-Ki Other Super from PQ78 Basic Reward. Current evidence confirms the PQ78 acquisition endpoint and the Xenoverse 2 skill identity; gameplay documentation presents it as a close-range combat technique associated with Piccolo. Exact hit sequence, damage, tracking, cancel behavior, and timing remain unresolved.",
       "sources": [
         "Steam Parallel Quest guide",
         "gameplay/review video"
+      ],
+      "finding": "PQ78 Basic Reward; close-range skill identity; exact hit sequence/damage/tracking/timing unresolved.",
+      "evidence_limits": [
+        "Unsupported exact frames, timing, tracking, damage, and cancel windows are not promoted."
       ]
     }
-  ],
-  "evidence_boundary": "Evidence review completed; canonical mechanics synchronization remains pending because the large skills files rejected the contents update SHA."
+  ]
 }

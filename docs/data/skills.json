@@ -3932,10 +3932,10 @@
       "source_quest_or_shop": "Parallel Quest 78 — \"Heated, Furious, Ultimate Battle\"",
       "ultimate_finish_required": false,
       "skill_description": "Dust Attack is an Other Super Skill associated with Piccolo.",
-      "mechanics_notes": "100-Ki Other Super from PQ78 Basic Reward. Current evidence supports its Piccolo association and its ability to stun/blind depending on context; no narrower CaC restriction is inferred.",
+      "mechanics_notes": "100-Ki Other Super from PQ78 Basic Reward. Current evidence confirms the PQ78 acquisition endpoint and the Xenoverse 2 skill identity; gameplay documentation presents it as a close-range combat technique associated with Piccolo. Exact hit sequence, damage, tracking, cancel behavior, and timing remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dust_Attack",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
@@ -3946,7 +3946,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 78,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence places Dust Attack in PQ78 Basic Reward. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
+      "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence places Dust Attack in PQ78 Basic Reward. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-25 Batch 404 enrichment completed after large-file Git-object write recovery; unsupported frame, damage, timing, tracking, and cancel details remain unresolved.",
       "id": "skill-dust-attack",
       "source_parallel_quests": [
         78
@@ -5003,14 +5003,14 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "pan mentor training",
-      "mechanics_notes": "100 Ki Ki Blast Super; Pan teleports left and right before firing a Ki bullet. Holding the input changes the sequence by keeping Pan in place after the first teleport before the shot.",
+      "mechanics_notes": "100-Ki Ki Blast Super learned from Pan's Lesson 2. Pan teleports left and right before firing a Ki bullet; current evidence identifies the technique as a feint/teleporting shot rather than a stationary projectile. The Pan Lesson 2 acquisition endpoint is documented. Exact teleport timing, projectile tracking, hit count, damage, and cancel windows remain unresolved.",
       "last_verified": "2026-09-25",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Pan mentor training — Lesson 2.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: current dedicated evidence confirms the 100-Ki Ki Blast Super from Pan's Lesson 2. It uses a teleport/feint sequence before firing the Ki projectile, with the input determining whether the user fires after the first movement or continues the feint. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current dedicated evidence confirms the 100-Ki Ki Blast Super from Pan's Lesson 2. It uses a teleport/feint sequence before firing the Ki projectile, with the input determining whether the user fires after the first movement or continues the feint. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-25 Batch 404 enrichment completed after large-file Git-object write recovery; unsupported frame, damage, timing, tracking, and cancel details remain unresolved.",
       "id": "skill-feint-shot",
       "source_mentor": [
         "mentor-pan"
@@ -5211,7 +5211,7 @@
         "https://www.reddit.com/r/DragonBallXenoverse2/comments/hur1a8/how_do_i_get_the_dont_go_easy_on_me_super_soul/"
       ],
       "ki_cost": 0,
-      "mechanics_notes": "Power Up Super: after the pose animation completes, grants Super Armor for 8 seconds. It costs 0 Ki; the current reference documents that reusing the skill can reset the buff duration.",
+      "mechanics_notes": "0-Ki Power Up Super associated with the Ginyu Force. After the pose completes, current Xenoverse 2 evidence documents Super Armor for 8 seconds. Community testing also documents extension through compatible reinforcement effects and various armor interactions; these remain contextual rather than universal frame rules. Exact activation frames, all grab/guard-break interactions, and patch-specific damage modifiers remain unresolved.",
       "last_verified": "2026-09-25",
       "research_status": "enriched",
       "duration_seconds": 8,
@@ -5224,7 +5224,7 @@
       "source_quest": "The Ginyu Force Strikes — Skill Shop unlock",
       "dlc_requirement": "Base Game",
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super sold in the Skill Shop after The Ginyu Force Strikes. It grants Super Armor for 8 seconds; no Ultimate-Finish requirement is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super sold in the Skill Shop after The Ginyu Force Strikes. It grants Super Armor for 8 seconds; no Ultimate-Finish requirement is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 404 enrichment completed after large-file Git-object write recovery; unsupported frame, damage, timing, tracking, and cancel details remain unresolved.",
       "id": "skill-fighting-pose-k"
     },
     {
@@ -8057,8 +8057,8 @@
       "source_quest_or_shop": "Parallel Quest 53 — \"The Fist of Justice!\"",
       "ultimate_finish_required": false,
       "skill_description": "Justice Pose is a Super Power Up skill associated with Great Saiyaman.",
-      "mechanics_notes": "0-Ki Power Up Super acquired from PQ53 Basic Reward. The user performs the Justice Pose and receives an all-stat boost for 20 seconds. No universal numeric stat multiplier is promoted.",
-      "verification_status": "verified",
+      "mechanics_notes": "0-Ki Power Up Super acquired from PQ53 Basic Reward. The user performs the Justice Pose and receives its documented temporary reinforcement effect; current evidence treats it as a pose-based buff rather than an attack. Exact buff magnitude, activation timing, duration, and interruption rules remain unresolved.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-25",
       "sources": [
@@ -8071,7 +8071,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 53,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 53 as the acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.\n2026-09-22 provenance refresh: PQ53 Basic Reward remains the deterministic acquisition endpoint; the Power Up Super is 0 Ki, lasts 20 seconds, and boosts all abilities. No Ultimate Finish-only gate is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 348 current-evidence refresh: current skill and technique evidence revalidates the 20-second all-stat boost and PQ53 Basic Reward route. Historical naming differences remain provenance only; no numeric multiplier or hidden restriction is inferred.",
+      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 53 as the acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.\n2026-09-22 provenance refresh: PQ53 Basic Reward remains the deterministic acquisition endpoint; the Power Up Super is 0 Ki, lasts 20 seconds, and boosts all abilities. No Ultimate Finish-only gate is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 348 current-evidence refresh: current skill and technique evidence revalidates the 20-second all-stat boost and PQ53 Basic Reward route. Historical naming differences remain provenance only; no numeric multiplier or hidden restriction is inferred.\n2026-09-25 Batch 404 enrichment completed after large-file Git-object write recovery; unsupported frame, damage, timing, tracking, and cancel details remain unresolved.",
       "id": "skill-justice-pose",
       "source_parallel_quests": [
         53

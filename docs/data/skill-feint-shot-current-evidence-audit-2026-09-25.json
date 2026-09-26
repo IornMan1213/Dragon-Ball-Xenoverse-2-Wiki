@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-25",
+  "skill_id": "skill-feint-shot",
+  "skill_name": "Feint Shot",
+  "batch": 404,
+  "sources": [
+    "Gamers Heroes instructor guide",
+    "Steam instructor guide"
+  ],
+  "findings": "Pan Lesson 2; teleporting/feinting shot behavior; exact timing/tracking/damage unresolved.",
+  "evidence_limits": [
+    "Exact frames, timing, tracking, damage, and cancel windows remain unresolved where not directly documented."
+  ]
+}
