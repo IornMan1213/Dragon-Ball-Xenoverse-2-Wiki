@@ -39,16 +39,6 @@
         "docs/data/skill-research-batches/skill-batch-481.json"
       ],
       "evidence_note": "Current Xenoverse 2 evidence explicitly identifies Majin Buu (Gohan Absorbed) as using Reverse Mabakusenko via Partner Customization."
-    },
-    {
-      "skill_id": "skill-phantom-fist",
-      "skill_name": "Phantom Fist",
-      "partner_name": "Unknown/unspecified in current artifact",
-      "relationship": "partner_customization_context",
-      "evidence": [
-        "docs/data/skill-research-batches/skill-batch-473.json"
-      ],
-      "evidence_note": "The live Batch 473 artifact is returned by an exact Partner Customization + skill_id search, but the indexed fragment does not expose an explicit partner assignment. This is retained as a discovery marker only and is not counted as a confirmed partner/character pair."
     }
   ],
   "excluded_candidates": [
@@ -57,5 +47,8 @@
       "reason": "The current corpus has no canonical skill-dual-masenko record; partner/custom availability alone is not sufficient to create a duplicate or new canonical record.",
       "evidence": "docs/data/partner-custom-skill-domain-boundary-audit-2026-09-26.json"
     }
+  ],
+  "notes": [
+    "Phantom Fist was investigated on 2026-09-26: current Batch 473/audit evidence names Hit, Mira, Frost and Fu as users/skillset contexts, but does not identify a concrete Partner Customization assignment. No partner relationship is recorded."
   ]
 }
