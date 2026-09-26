@@ -1,3 +1,10 @@
+### 2026-09-26 continuation — Cross-domain reachability scalar drift corrected
+- [x] Inspected the live cross-domain reachability audit after the character-validator hardening pass and found a concrete internal inconsistency: critical_unreachable_reference_count was 20 while the enumerated critical_unreachable_references list contained 18 paths.
+- [x] Corrected the scalar to derive from the live enumerated critical set (18) and preserved the full reference list/provenance.
+- [x] Confirmed the broader live baseline remains 730 tree paths / 1,631 index reference occurrences / 739 reachable / 892 unreachable.
+- [x] No missing PQ reward/reverse dataset was reconstructed from incomplete evidence.
+- [ ] Runtime execution/CI remains unverified.
+- [x] Exact next: inspect the next live cross-domain validator/consumer for a deterministic projection or source-vs-build-output mismatch and repair only evidence-backed drift.
 ### 2026-09-26 continuation — Character presentation validator hardened for optional generated explorer
 - [x] Inspected the live character presentation consumer validator and found a concrete source-checkout failure: `scripts/validate_character_presentation_consumers.py` unconditionally opened `docs/Characters-All.html`, even though that generated explorer is absent from the live source tree.
 - [x] Hardened the validator to treat `docs/Characters-All.html` as an optional generated build artifact: source-data identity, bridge, preset, Partner Customization, and Markdown checks remain enforced; generated explorer navigation is checked when the artifact exists and skipped when it does not.
