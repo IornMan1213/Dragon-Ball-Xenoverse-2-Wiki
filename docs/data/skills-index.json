@@ -774,14 +774,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Body_Change",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
-        "https://dbxv2.fandom.com/wiki/Mentors"
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dragonball.fandom.com/wiki/Body_Change"
       ],
       "unlock_method": "Captain Ginyu's Lesson 3 — complete the instructor lesson to receive Body Change as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used. 2026-09-22 provenance verification: current dedicated and independent documentation corroborates the existing mentor/PQ acquisition endpoint and skill identity; no unsupported reward probability or Ultimate Finish requirement is inferred. 2026-09-23 bounded provenance refresh: existing multi-source evidence was rechecked against the canonical record; no acquisition tier, reward probability, mechanics, cost, restriction, or DLC semantics were changed.\n2026-09-25 mechanics correction/enrichment: 300-Ki Other Ultimate. The user fires a purple beam that functions as a grab; on a successful hit, the user and target swap bodies, including health, Ki, stamina, Super Soul, and skills, while retaining their original voices. Active transformations are released for both participants during the swap. Current Xenoverse 2-specific documentation states the skill is unavailable in PvE content, while it can be used in team battles; the target receives Body Change in the copied skill set but cannot activate it.",
-      "mechanics_notes": "300-Ki Other Ultimate. The user fires a purple beam that functions as a grab; on a successful hit, the user and target swap bodies, including health, Ki, stamina, Super Soul, and skills, while retaining their original voices. Active transformations are released for both participants during the swap. Current Xenoverse 2-specific documentation states the skill is unavailable in PvE content, while it can be used in team battles; the target receives Body Change in the copied skill set but cannot activate it.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used. 2026-09-22 provenance verification: current dedicated and independent documentation corroborates the existing mentor/PQ acquisition endpoint and skill identity; no unsupported reward probability or Ultimate Finish requirement is inferred. 2026-09-23 bounded provenance refresh: existing multi-source evidence was rechecked against the canonical record; no acquisition tier, reward probability, mechanics, cost, restriction, or DLC semantics were changed.\n2026-09-25 mechanics correction/enrichment: 300-Ki Other Ultimate. The user fires a purple beam that functions as a grab; on a successful hit, the user and target swap bodies, including health, Ki, stamina, Super Soul, and skills, while retaining their original voices. Active transformations are released for both participants during the swap. Current Xenoverse 2-specific documentation states the skill is unavailable in PvE content, while it can be used in team battles; the target receives Body Change in the copied skill set but cannot activate it.\n2026-09-26 Batch 481 current-evidence enrichment; source-reported mechanics retained and unresolved frame/drop details left bounded.",
+      "mechanics_notes": "300 Ki Other-type Ultimate used by Captain Ginyu. The technique attempts to switch the user's body with the targeted opponent; its in-game description limits use to 1-on-1 matches. Current Xenoverse 2 evidence documents that it does not work during Parallel Quests, Raid Battles, or Extra Missions. The Future Warrior learns it through Captain Ginyu's Training, Lesson 3.",
       "source_quest": "Captain Ginyu mentor training — Lesson 3",
       "source_quest_or_shop": "Captain Ginyu mentor training — Lesson 3",
       "ki_cost": 300
@@ -1829,14 +1830,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Crusher_Ball",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://www.youtube.com/watch?v=uew5M9zife8"
+        "https://www.youtube.com/watch?v=uew5M9zife8",
+        "https://dragonball.fandom.com/wiki/Crusher_Ball"
       ],
       "unlock_method": "Parallel Quest 34 — \"Return of the Ginyu Force\"",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-22 provenance refresh: dedicated skill evidence confirms 100-Ki Ki Blast Super classification, PQ34 acquisition, tracking wobble, and six-hit behavior. No Ultimate Finish-only gate or exact drop probability is inferred. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: dedicated skill evidence was rechecked against the current wiki reference; existing acquisition, cost, scope, and mechanics semantics are preserved, and no unsupported probability or additional gate is inferred.\nBatch 426 current-evidence audit: PQ34 acquisition, 100-Ki Ki Blast Super classification, high-jump launch, wobbling partial-tracking projectile, six-hit behavior, and source-reported ~10% damage were rechecked. Exact frames, scaling, and drop probability remain unresolved.",
-      "mechanics_notes": "Launch a wobbling, partially tracking Ki ball that can hit repeatedly. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented. Batch 426 current-evidence audit: PQ34 acquisition, 100-Ki Ki Blast Super classification, high-jump launch, wobbling partial-tracking projectile, six-hit behavior, and source-reported ~10% damage were rechecked. Exact frames, scaling, and drop probability remain unresolved.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-22 provenance refresh: dedicated skill evidence confirms 100-Ki Ki Blast Super classification, PQ34 acquisition, tracking wobble, and six-hit behavior. No Ultimate Finish-only gate or exact drop probability is inferred. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: dedicated skill evidence was rechecked against the current wiki reference; existing acquisition, cost, scope, and mechanics semantics are preserved, and no unsupported probability or additional gate is inferred.\nBatch 426 current-evidence audit: PQ34 acquisition, 100-Ki Ki Blast Super classification, high-jump launch, wobbling partial-tracking projectile, six-hit behavior, and source-reported ~10% damage were rechecked. Exact frames, scaling, and drop probability remain unresolved.\n2026-09-26 Batch 481 current-evidence enrichment; source-reported mechanics retained and unresolved frame/drop details left bounded.",
+      "mechanics_notes": "100 Ki Ki Blast Super used by Jeice. The user jumps high and throws a wobbling Ki ball with partial tracking. Dedicated evidence reports a maximum six-hit sequence and about 10% total damage. Acquisition: PQ34, “Return of the Ginyu Force.”",
       "source_quest": 34,
       "source_quest_or_shop": "Parallel Quest 34 — \"Return of the Ginyu Force\"",
       "source_parallel_quests": [
@@ -1878,14 +1880,15 @@
         "https://dbxv2.fandom.com/wiki/Dark_Inscription",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://dragonball.fandom.com/wiki/Dark_Inscription"
+        "https://dragonball.fandom.com/wiki/Dark_Inscription",
+        "https://videogaming.fandom.com/wiki/Dark_Inscription"
       ],
       "unlock_method": "Parallel Quest 182 - \"Frieza's Fervent Wish\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 final-PQ provenance refinement: PQ182 — \"Frieza's Fervent Wish\" explicitly lists Dark Inscription in its Basic Reward / skill-reward set. The maintained PQ182 record has no skill_drop_conditions entry, so no Ultimate Finish-only gate or drop probability is inferred. 2026-09-21 DLC label normalization: aligned to canonical Future Saga Chapter naming used by adjacent records. 2026-09-22 provenance refresh: current independent skill/mentor evidence was rechecked; acquisition and scope were retained unless directly contradicted. Darkness Rush (Melee) is explicitly non-Namekian, so its race restriction is normalized to non-Namekian rather than All CaC races. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: dedicated skill evidence was rechecked against the current wiki reference; existing acquisition, cost, scope, and mechanics semantics are preserved, and no unsupported probability or additional gate is inferred.",
-      "mechanics_notes": "Current evidence confirms Dark Inscription as a 100+ Ki Ki Blast Super from PQ182, used by Golden Frieza (Ultra Supervillain). Additional inputs create more rifts and build Power of Time; no explicit CaC race/gender/form restriction is established in the current evidence, so none is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
+      "notes": "2026-09-20 final-PQ provenance refinement: PQ182 — \"Frieza's Fervent Wish\" explicitly lists Dark Inscription in its Basic Reward / skill-reward set. The maintained PQ182 record has no skill_drop_conditions entry, so no Ultimate Finish-only gate or drop probability is inferred. 2026-09-21 DLC label normalization: aligned to canonical Future Saga Chapter naming used by adjacent records. 2026-09-22 provenance refresh: current independent skill/mentor evidence was rechecked; acquisition and scope were retained unless directly contradicted. Darkness Rush (Melee) is explicitly non-Namekian, so its race restriction is normalized to non-Namekian rather than All CaC races. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: dedicated skill evidence was rechecked against the current wiki reference; existing acquisition, cost, scope, and mechanics semantics are preserved, and no unsupported probability or additional gate is inferred.\n2026-09-26 Batch 481 current-evidence enrichment; source-reported mechanics retained and unresolved frame/drop details left bounded.",
+      "mechanics_notes": "100+ Ki Ki Blast Super used by Golden Frieza (Ultra Supervillain). Multiple tears in space/time launch sharp Ki Blasts; additional inputs can extend the attack up to four times and consume more Ki. Successful use builds Power of Time, producing more rifts and powering related techniques including Emperor's Cannon and Chaotic Time Impact. Acquisition: PQ182, “Frieza's Fervent Wish.”",
       "source_quest": 182,
       "source_quest_or_shop": "Parallel Quest 182 — \"Frieza's Fervent Wish\" Basic Reward",
       "source_parallel_quests": [
@@ -5868,14 +5871,15 @@
         "https://dbxv2.fandom.com/wiki/Hero%27s_Flute",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76050181",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Hero%27s_Flute"
       ],
       "unlock_method": "Parallel Quest 116 — \"A Dance of Swords\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: PQ116 reward listings explicitly place Hero's Flute in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1.\n2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "Confirmed as Tapion's 100-Ki Other Super from PQ116. Playing the flute creates a temporary barrier that protects the user from normal/Super melee and Ki Blast attacks; the barrier lasts about 7.5 seconds. No narrower CaC race/gender/form restriction is established by the current evidence. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
+      "notes": "2026-09-20 audit: PQ116 reward listings explicitly place Hero's Flute in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1.\n2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 481 current-evidence enrichment; source-reported mechanics retained and unresolved frame/drop details left bounded.",
+      "mechanics_notes": "100 Ki Other-type Super used by Tapion. Playing the flute creates a barrier protecting the user from normal/super melee and Ki Blast attacks; dedicated Xenoverse 2 evidence gives the barrier a 7.5-second duration. Assist effects can still apply to allies while the barrier is active. Acquisition: PQ116, “A Hero's Duty.”",
       "source_quest": 116,
       "source_quest_or_shop": "Parallel Quest 116 — \"A Dance of Swords\"",
       "source_parallel_quests": [
@@ -6252,10 +6256,10 @@
       ],
       "unlock_method": "Parallel Quest 185 — \"A God's Amusement\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 185 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-20 provenance cleanup: the maintained PQ reward map explicitly places this skill in PQ185's skill reward inventory. Older/alternate references have also associated it with PQ186; the canonical route follows the explicit PQ185 mapping without inferring an additional PQ186 route or drop probability.\n2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: synchronized with the canonical skill record; existing evidence bounds and unresolved fields were preserved.",
-      "mechanics_notes": "Confirmed as a 0-Ki Future Saga Chapter 4 Power Up Super from the PQ185/PQ186 reward pool. It charges Ki and Stamina together; current testing reports substantially faster Ki recovery when health falls below about 50%, while exact thresholds/timing remain partially verified. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: the maintained PQ guide places this skill in the quest's Basic Reward list, separate from the listed Ultimate Finish conditions.",
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 185 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-20 provenance cleanup: the maintained PQ reward map explicitly places this skill in PQ185's skill reward inventory. Older/alternate references have also associated it with PQ186; the canonical route follows the explicit PQ185 mapping without inferring an additional PQ186 route or drop probability.\n2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: synchronized with the canonical skill record; existing evidence bounds and unresolved fields were preserved.\n2026-09-26 Batch 481 current-evidence enrichment; source-reported mechanics retained and unresolved frame/drop details left bounded.",
+      "mechanics_notes": "Charge-type skill. Current player evidence identifies it as a charge technique restoring Ki and Stamina, with Stamina restoration particularly notable. A recent player report says Ki charging is comparatively slow and changes behavior below 50% Health; this is retained as player-reported behavior, not universal frame/data. Exact acquisition/drop mechanics remain open.",
       "source_quest": 185,
       "source_quest_or_shop": "Parallel Quest 185 — Basic Reward",
       "source_parallel_quests": [
@@ -8317,14 +8321,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Rakshasa%27s_Claw",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://gamefaqs.gamespot.com/pc/190459-dragon-ball-xenoverse-2/faqs/74285"
+        "https://gamefaqs.gamespot.com/pc/190459-dragon-ball-xenoverse-2/faqs/74285",
+        "https://dragonball.fandom.com/wiki/Rakshasa%27s_Claw"
       ],
       "unlock_method": "Parallel Quest 57 — \"Hell Is a Picture?\" skill reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "Added during cross-database orphan-skill audit. The current Future Warrior technique reference supports CaC use without a narrower race restriction.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
-      "mechanics_notes": "100 Ki. Up to five directional energy slashes can be followed by a teleporting overhead slash. Current evidence identifies the move as a Strike Super and PQ57 reward; the maintained PQ record does not establish an Ultimate Finish-only requirement, so none is inferred. 2026-09-21 cross-link normalization: source_quest set to canonical PQ numeric ID 57, matching the existing source_quest_or_shop/unlock evidence; this makes the skill directly joinable to the PQ database without changing the documented acquisition semantics.",
+      "notes": "Added during cross-database orphan-skill audit. The current Future Warrior technique reference supports CaC use without a narrower race restriction.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-26 Batch 481 current-evidence enrichment; source-reported mechanics retained and unresolved frame/drop details left bounded.",
+      "mechanics_notes": "100 Ki Strike Super used by Janemba. The user creates a sword slash and can steer each launched slice; repeated input can produce up to five sword-wave attacks before teleporting to the opponent for an overhead two-handed slash. Dedicated evidence reports a six-hit full sequence and about 20% total damage. Acquisition: PQ57, “Hell Is A Picture?”.",
       "source_quest": 57,
       "source_quest_or_shop": "Parallel Quest 57 — \"Hell Is a Picture?\"",
       "source_parallel_quests": [
@@ -8537,14 +8542,17 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Reverse_Mabakusenko",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Reverse_Mabakusenko",
+        "https://videogaming.fandom.com/wiki/Reverse_Mabakusenko",
+        "https://dbxv2.fandom.com/wiki/Counter_Skill"
       ],
       "unlock_method": "Skill Shop (Conton City)",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the skill shop (conton city) acquisition route. No quest or Ultimate Finish route is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.",
-      "mechanics_notes": "Current dedicated evidence confirms Reverse Mabakusenko as a 300-Ki Ki Blast Ultimate from the Skill Shop and a universal counter. Current users include Piccolo, Pikkon, Gohan (Beast), and customizable partners; this does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
+      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the skill shop (conton city) acquisition route. No quest or Ultimate Finish route is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-26 Batch 481 current-evidence enrichment; source-reported mechanics retained and unresolved frame/drop details left bounded.",
+      "mechanics_notes": "300 Ki Ki Blast Ultimate and universal counter. The user enters a counter stance for about 2 seconds; if attacked during the active window, a Ki Wave counter triggers. Dedicated evidence reports 19 hits and about 30% total damage. Available from the Skill Shop; used by Piccolo, Pikkon, Majin Buu (Gohan Absorbed) via Partner Customization, and Gohan (Beast).",
       "source_quest_or_shop": "Skill Shop"
     },
     {

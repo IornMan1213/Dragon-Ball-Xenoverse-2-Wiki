@@ -1,3 +1,11 @@
+### 2026-09-26 TODO progress update — Skill Research Batch 481 completed
+- [x] Researched and synchronized **Dark Inscription, Reverse Mabakusenko, Body Change, Hero's Flute, Indomitable, Crusher Ball, Rakshasa's Claw**.
+- [x] Added Batch 481 research/current-evidence artifact and cross-domain registration.
+- [x] Canonical/index parity remains **474/474**.
+- [x] Indomitable community-reported mechanics are explicitly bounded; acquisition/drop remains open.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** fresh frontier census excluding Batch 481 and all prior registered current-evidence audits; prioritize **Death Ball → Galick Gun → Sphere of Destruction → Breaker Energy Wave → Hyper Drain → Handy Canon → Fierce Fist → Venus Fist**.
+
 ### 2026-09-26 TODO progress update — Skill Research Batch 480 completed
 - [x] Fresh 474-record mechanics frontier excluded every skill with a registered current-evidence audit and selected **Evil Explosion, Prominence Flash, Ill Rain, Power Impact, Gigantic Cross, Full Power Destruction, Photon Swipe, God of Destruction's Plaything**.
 - [x] Enriched and synchronized all eight records in `docs/data/skills.json` and `docs/data/skills-index.json`; parity remains **474/474**, with 0 missing / 0 extra IDs.

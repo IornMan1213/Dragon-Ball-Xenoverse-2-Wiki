@@ -1,3 +1,13 @@
+### 2026-09-26 continuation — Batch 481 canonical mechanics enrichment
+
+- [x] Fresh frontier re-census completed after Batch 480.
+- [x] Researched and synchronized **Dark Inscription, Reverse Mabakusenko, Body Change, Hero's Flute, Indomitable, Crusher Ball, Rakshasa's Claw**.
+- [x] Added the Batch 481 research/current-evidence artifact and cross-domain registration.
+- [x] Canonical/index parity remains **474/474**.
+- [x] Indomitable player-reported behavior is explicitly source-bounded; acquisition/drop details remain open.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** fresh frontier census excluding Batch 481 and all prior registered current-evidence audits; prioritize **Death Ball → Galick Gun → Sphere of Destruction → Breaker Energy Wave → Hyper Drain → Handy Canon → Fierce Fist → Venus Fist**.
+
 ### 2026-09-26 continuation — Batch 480 canonical mechanics enrichment
 
 - [x] Read and reconciled the live continuation/TODO state before continuing.

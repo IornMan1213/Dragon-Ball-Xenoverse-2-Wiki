@@ -1680,5 +1680,6 @@
   "skill_photon_swipe_current_evidence_audit_2026_09_26_batch_480": "docs/data/photon-swipe-current-evidence-audit-2026-09-26-batch-480.json",
   "skill_research_batch_480": "docs/data/skill-research-batches/skill-batch-480.json",
   "skill_batch_480_thin_frontier": "docs/data/skill-batch-480-thin-frontier-mechanics-audit-2026-09-26.json",
-  "skill_god_of_destruction_s_plaything_current_evidence_audit_2026_09_26_batch_480": "docs/data/god-of-destruction-s-plaything-current-evidence-audit-2026-09-26-batch-480.json"
+  "skill_god_of_destruction_s_plaything_current_evidence_audit_2026_09_26_batch_480": "docs/data/god-of-destruction-s-plaything-current-evidence-audit-2026-09-26-batch-480.json",
+  "batch_481_current_evidence_audit": "docs/data/skill-research-batches/skill-batch-481.json"
 }

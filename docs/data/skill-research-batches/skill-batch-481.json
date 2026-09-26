@@ -1,0 +1,88 @@
+{
+  "batch": 481,
+  "date": "2026-09-26",
+  "status": "complete",
+  "scope": "Fresh frontier after Batch 480",
+  "selected": [
+    "Dark Inscription",
+    "Reverse Mabakusenko",
+    "Body Change",
+    "Hero's Flute",
+    "Indomitable",
+    "Crusher Ball",
+    "Rakshasa's Claw"
+  ],
+  "records": [
+    {
+      "skill_id": "skill-dark-inscription",
+      "skill_name": "Dark Inscription",
+      "mechanics_notes": "100+ Ki Ki Blast Super used by Golden Frieza (Ultra Supervillain). Multiple tears in space/time launch sharp Ki Blasts; additional inputs can extend the attack up to four times and consume more Ki. Successful use builds Power of Time, producing more rifts and powering related techniques including Emperor's Cannon and Chaotic Time Impact. Acquisition: PQ182, “Frieza's Fervent Wish.”",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Dark_Inscription",
+        "https://dragonball.fandom.com/wiki/Dark_Inscription",
+        "https://videogaming.fandom.com/wiki/Dark_Inscription"
+      ]
+    },
+    {
+      "skill_id": "skill-reverse-mabakusenko",
+      "skill_name": "Reverse Mabakusenko",
+      "mechanics_notes": "300 Ki Ki Blast Ultimate and universal counter. The user enters a counter stance for about 2 seconds; if attacked during the active window, a Ki Wave counter triggers. Dedicated evidence reports 19 hits and about 30% total damage. Available from the Skill Shop; used by Piccolo, Pikkon, Majin Buu (Gohan Absorbed) via Partner Customization, and Gohan (Beast).",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Reverse_Mabakusenko",
+        "https://dragonball.fandom.com/wiki/Reverse_Mabakusenko",
+        "https://videogaming.fandom.com/wiki/Reverse_Mabakusenko",
+        "https://dbxv2.fandom.com/wiki/Counter_Skill"
+      ]
+    },
+    {
+      "skill_id": "skill-body-change",
+      "skill_name": "Body Change",
+      "mechanics_notes": "300 Ki Other-type Ultimate used by Captain Ginyu. The technique attempts to switch the user's body with the targeted opponent; its in-game description limits use to 1-on-1 matches. Current Xenoverse 2 evidence documents that it does not work during Parallel Quests, Raid Battles, or Extra Missions. The Future Warrior learns it through Captain Ginyu's Training, Lesson 3.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Body_Change",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
+      "skill_id": "skill-hero-s-flute",
+      "skill_name": "Hero's Flute",
+      "mechanics_notes": "100 Ki Other-type Super used by Tapion. Playing the flute creates a barrier protecting the user from normal/super melee and Ki Blast attacks; dedicated Xenoverse 2 evidence gives the barrier a 7.5-second duration. Assist effects can still apply to allies while the barrier is active. Acquisition: PQ116, “A Hero's Duty.”",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Hero%27s_Flute",
+        "https://dragonball.fandom.com/wiki/Hero%27s_Flute"
+      ]
+    },
+    {
+      "skill_id": "skill-indomitable",
+      "skill_name": "Indomitable",
+      "mechanics_notes": "Charge-type skill. Current player evidence identifies it as a charge technique restoring Ki and Stamina, with Stamina restoration particularly notable. A recent player report says Ki charging is comparatively slow and changes behavior below 50% Health; this is retained as player-reported behavior, not universal frame/data. Exact acquisition/drop mechanics remain open.",
+      "sources": [
+        "https://steamcommunity.com/app/454650/discussions/0/564787571097573891/"
+      ]
+    },
+    {
+      "skill_id": "skill-crusher-ball",
+      "skill_name": "Crusher Ball",
+      "mechanics_notes": "100 Ki Ki Blast Super used by Jeice. The user jumps high and throws a wobbling Ki ball with partial tracking. Dedicated evidence reports a maximum six-hit sequence and about 10% total damage. Acquisition: PQ34, “Return of the Ginyu Force.”",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Crusher_Ball",
+        "https://dragonball.fandom.com/wiki/Crusher_Ball"
+      ]
+    },
+    {
+      "skill_id": "skill-rakshasa-s-claw",
+      "skill_name": "Rakshasa's Claw",
+      "mechanics_notes": "100 Ki Strike Super used by Janemba. The user creates a sword slash and can steer each launched slice; repeated input can produce up to five sword-wave attacks before teleporting to the opponent for an overhead two-handed slash. Dedicated evidence reports a six-hit full sequence and about 20% total damage. Acquisition: PQ57, “Hell Is A Picture?”.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Rakshasa%27s_Claw",
+        "https://dragonball.fandom.com/wiki/Rakshasa%27s_Claw"
+      ]
+    }
+  ],
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474
+  },
+  "evidence_boundary": "Exact frames, hidden interactions, universal scaling, and probabilities are not inferred without direct evidence.",
+  "exact_next": "Fresh frontier census excluding Batch 481 and all prior registered current-evidence audits; prioritize Death Ball, Galick Gun, Sphere of Destruction, Breaker Energy Wave, Hyper Drain, Handy Canon, Fierce Fist, Venus Fist."
+}
