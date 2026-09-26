@@ -889,5 +889,7 @@
   "skill_perfect_shot_current_evidence_audit_2026_09_25": "docs/data/skill-perfect-shot-current-evidence-audit-2026-09-25.json",
   "skill_arm_crash_current_evidence_audit_2026_09_25": "docs/data/skill-arm-crash-current-evidence-audit-2026-09-25.json",
   "skill_freedom_kick_current_evidence_audit_2026_09_25": "docs/data/skill-freedom-kick-current-evidence-audit-2026-09-25.json",
-  "skill_research_batch_369": "docs/data/skill-research-batches/skill-batch-369.json"
+  "skill_research_batch_369": "docs/data/skill-research-batches/skill-batch-369.json",
+  "skill_batch_370_thin_mechanics_audit_2026_09_25": "docs/data/skill-batch-370-thin-mechanics-audit-2026-09-25.json",
+  "skill_research_batch_370": "docs/data/skill-research-batches/skill-batch-370.json"
 }
