@@ -1,0 +1,22 @@
+{
+  "batch": 452,
+  "date": "2026-09-26",
+  "type": "thin_frontier_mechanics_audit",
+  "selected": [
+    "Orin Combo",
+    "Comet Strike",
+    "Meteor Crash",
+    "Assault Vanish",
+    "God of Destruction's Might",
+    "Psychic Move",
+    "Special Beam Cannon",
+    "Impact Flare"
+  ],
+  "method": "Fresh combined mechanics/notes coverage census over the live 474-record canonical skill set, excluding every skill with a registered current-evidence audit. The eight shortest remaining records were selected and rechecked against current skill-specific references.",
+  "evidence_boundaries": [
+    "Source-reported damage and behavior remain source-bound.",
+    "Exact frame data and patch-independent scaling formulas are not inferred.",
+    "Acquisition endpoints remain separate from reward probabilities.",
+    "Current evidence was used to deepen mechanics without inventing hidden conditions."
+  ]
+}
