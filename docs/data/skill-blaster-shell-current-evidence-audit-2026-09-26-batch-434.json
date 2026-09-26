@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-blaster-shell",
+  "name": "Blaster Shell",
+  "batch": 434,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Blaster_Shell"
+  ],
+  "findings": [
+    "100 Ki Ki Blast Super",
+    "Broly training acquisition",
+    "Five alternating Ki Blasts / five hits",
+    "Approximately 15% total source-reported damage",
+    "Repeated input accelerates the volley",
+    "Exact input/frame timing remains unresolved"
+  ]
+}

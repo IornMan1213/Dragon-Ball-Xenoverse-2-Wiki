@@ -1269,5 +1269,11 @@
   "skill_one-handed-kamehameha-mk-ii_current_evidence_audit_2026_09_26_batch_433": "docs/data/one-handed-kamehameha-mk-ii-current-evidence-audit-2026-09-26-batch-433.json",
   "skill_innocence-cannon_current_evidence_audit_2026_09_26_batch_433": "docs/data/innocence-cannon-current-evidence-audit-2026-09-26-batch-433.json",
   "skill_sonic-bomb_current_evidence_audit_2026_09_26_batch_433": "docs/data/sonic-bomb-current-evidence-audit-2026-09-26-batch-433.json",
-  "skill_energy-minefield_current_evidence_audit_2026_09_26_batch_433": "docs/data/energy-minefield-current-evidence-audit-2026-09-26-batch-433.json"
+  "skill_energy-minefield_current_evidence_audit_2026_09_26_batch_433": "docs/data/energy-minefield-current-evidence-audit-2026-09-26-batch-433.json",
+  "skill-pressure-sign-current-evidence-audit-2026-09-26-batch-434": "docs/data/skill-pressure-sign-current-evidence-audit-2026-09-26-batch-434.json",
+  "skill-kaioken-kamehameha-current-evidence-audit-2026-09-26-batch-434": "docs/data/skill-kaioken-kamehameha-current-evidence-audit-2026-09-26-batch-434.json",
+  "skill-super-saiyan-god-super-saiyan-current-evidence-audit-2026-09-26-batch-434": "docs/data/skill-super-saiyan-god-super-saiyan-current-evidence-audit-2026-09-26-batch-434.json",
+  "skill-blaster-shell-current-evidence-audit-2026-09-26-batch-434": "docs/data/skill-blaster-shell-current-evidence-audit-2026-09-26-batch-434.json",
+  "skill_batch_434_current_evidence_research_2026_09_26": "docs/data/skill-research-batches/skill-batch-434.json",
+  "skill_batch_434_thin_frontier_audit_2026_09_26": "docs/data/skill-research-batches/skill-batch-434-thin-frontier-mechanics-audit-2026-09-26.json"
 }

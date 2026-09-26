@@ -1,0 +1,18 @@
+{
+  "batch": 434,
+  "date": "2026-09-26",
+  "status": "complete",
+  "selected": [
+    "Pressure Sign",
+    "Kaioken Kamehameha",
+    "Super Saiyan God Super Saiyan",
+    "Blaster Shell"
+  ],
+  "exact_next": "Run the next fresh unaudited mechanics frontier census excluding Batch 434 and all earlier current-evidence-audited records.",
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "missing_ids": 0,
+    "extra_ids": 0
+  }
+}

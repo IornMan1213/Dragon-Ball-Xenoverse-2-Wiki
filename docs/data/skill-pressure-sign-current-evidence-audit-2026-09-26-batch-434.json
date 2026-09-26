@@ -1,0 +1,17 @@
+{
+  "skill_id": "skill-pressure-sign",
+  "name": "Pressure Sign",
+  "batch": 434,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Pressure_Sign",
+    "https://dragonball.fandom.com/wiki/Pressure_Sign"
+  ],
+  "findings": [
+    "100 Ki Strike Super",
+    "Skill Shop acquisition",
+    "Universal counter: user taunts and, when struck during the active counter state, teleports behind the attacker and kicks",
+    "Exact counter-frame window and damage are not established by current dedicated evidence"
+  ]
+}
