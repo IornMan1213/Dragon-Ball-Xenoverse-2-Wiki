@@ -1,0 +1,26 @@
+{
+  "batch": 457,
+  "date": "2026-09-26",
+  "skill_id": "skill-evil-blast",
+  "skill_name": "Evil Blast",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Skill Research Batch 457.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Evil_Blast",
+    "https://dragonball.fandom.com/wiki/Evil_Impulse"
+  ],
+  "findings": [
+    "300-Ki Ki Blast Ultimate/Counter. The user becomes translucent for about 2 seconds; a Strike hit during the counter window triggers a teleport behind the opponent and a 15-hit Ki Blast. Current skill-specific evidence reports 60% total damage and knockback. Exact counter frames, damage scaling, and reward probability remain unresolved."
+  ],
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26",
+    "research_status": "enriched"
+  },
+  "evidence_boundaries": [
+    "Exact frame data is not promoted.",
+    "Patch-independent damage/scaling is not inferred from source-reported values.",
+    "Reward probabilities and hidden prerequisites are not promoted unless directly evidenced.",
+    "Character-specific usage is not converted into a CaC race/gender/form restriction without direct evidence."
+  ]
+}
