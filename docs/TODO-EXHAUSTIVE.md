@@ -1,3 +1,13 @@
+### 2026-09-26 TODO progress update — Skill Research Batch 491 completed
+- [x] Fresh live mechanics frontier census performed after Batch 490.
+- [x] Researched and synchronized **Gigantic Cluster, Holy Wrath, Gigantic Charge, Pendulum Bullet, and Heat Dome Attack**.
+- [x] Canonical/index datasets remain **474/474**.
+- [x] Added five current-evidence audits, Batch 491 research/thin-frontier artifacts, and registered all seven artifacts in the cross-domain index.
+- [x] Evidence boundaries preserved; source discrepancies remain explicitly documented rather than normalized into unsupported certainty.
+- [ ] CI/build remains unverified.
+- [ ] Efficiency addendum remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** fresh unaudited mechanics-frontier census excluding Batch 491 and all prior registered current-evidence audits; do not reuse stale candidates.
+
 ### 2026-09-26 TODO progress update — Skill Research Batch 490 completed
 - [x] Fresh live mechanics frontier census performed after Batch 489.
 - [x] Researched and synchronized **Breaker Energy Wave, Emperor's Cannon, Dark Inscription, Gigantic Cluster, Heat Wave, Special Beam Cannon (Beast), Crimson Edge, and Potential Unleashed**.
