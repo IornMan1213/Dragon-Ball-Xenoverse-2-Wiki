@@ -1213,5 +1213,10 @@
   "skill_blaster_cannon_current_evidence_audit_2026_09_26_batch_423": "docs/data/blaster-cannon-current-evidence-audit-2026-09-26-batch-423.json",
   "skill_die_die_missile_barrage_current_evidence_audit_2026_09_26_batch_423": "docs/data/die-die-missile-barrage-current-evidence-audit-2026-09-26-batch-423.json",
   "skill_jumping_energy_wave_current_evidence_audit_2026_09_26_batch_423": "docs/data/jumping-energy-wave-current-evidence-audit-2026-09-26-batch-423.json",
-  "skill_focus_flash_current_evidence_audit_2026_09_26_batch_423": "docs/data/focus-flash-current-evidence-audit-2026-09-26-batch-423.json"
+  "skill_focus_flash_current_evidence_audit_2026_09_26_batch_423": "docs/data/focus-flash-current-evidence-audit-2026-09-26-batch-423.json",
+  "skill_research_batch_424": "docs/data/skill-research-batches/skill-batch-424.json",
+  "skill_full-power-charge_current_evidence_audit_2026_09_26_batch_424": "docs/data/skill-full-power-charge-current-evidence-audit-2026-09-26-batch-424.json",
+  "skill_burning-spin_current_evidence_audit_2026_09_26_batch_424": "docs/data/skill-burning-spin-current-evidence-audit-2026-09-26-batch-424.json",
+  "skill_final-shine-attack_current_evidence_audit_2026_09_26_batch_424": "docs/data/skill-final-shine-attack-current-evidence-audit-2026-09-26-batch-424.json",
+  "skill_savage-strike_current_evidence_audit_2026_09_26_batch_424": "docs/data/skill-savage-strike-current-evidence-audit-2026-09-26-batch-424.json"
 }
