@@ -1,3 +1,13 @@
+### 2026-09-26 continuation — Skill Research Batch 490 completed
+- [x] Fresh live mechanics frontier census performed after Batch 489; eight shortest records without dedicated registered current-evidence audits were manually rechecked.
+- [x] Researched and synchronized **Breaker Energy Wave, Emperor's Cannon, Dark Inscription, Gigantic Cluster, Heat Wave, Special Beam Cannon (Beast), Crimson Edge, and Potential Unleashed**.
+- [x] Updated canonical `docs/data/skills.json` and projection `docs/data/skills-index.json`; validation is **474/474**, **0 missing / 0 extra**, ordered ID parity true.
+- [x] Added Batch 490 research/thin-frontier artifacts, eight current-evidence audits, and registered all ten artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved evidence boundaries: current/official mechanics were expanded, but unsupported exact frames, universal scaling, hidden interactions, and probabilities were not inferred. Emperor's Cannon's PQ183/PQ184 acquisition conflict remains bounded.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** perform a fresh live unaudited mechanics-frontier census excluding Batch 490 and every registered current-evidence audit; do not reuse this candidate list.
+
 ### 2026-09-26 continuation — Skill Research Batch 489 completed
 - [x] Fresh live frontier census performed after Batch 488 with corrected filename-to-skill-ID audit normalization.
 - [x] Researched and synchronized **God of Destruction's Roar, God of Destruction's Menace, Hero's Flute, Beast, Rakshasa's Claw, Reverse Mabakusenko, Indomitable, and Body Change**.
