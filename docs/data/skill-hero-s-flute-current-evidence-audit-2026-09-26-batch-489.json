@@ -1,0 +1,14 @@
+{
+  "batch": 489,
+  "date": "2026-09-26",
+  "skill_id": "skill-hero-s-flute",
+  "skill_name": "Hero S Flute",
+  "status": "complete",
+  "findings": "Current evidence confirms 100-Ki Other Super, PQ116 acquisition, barrier against normal/Super melee and Ki Blast attacks, and 7.5-second duration; ally assist effects remain usable.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Hero%27s_Flute",
+    "https://dragonball.fandom.com/wiki/Hero%27s_Flute"
+  ],
+  "evidence_boundary": "Current-source behavior and source-reported values are bounded; unsupported exact frames, universal scaling, hidden interactions, and drop probabilities are not asserted.",
+  "canonical_sync": "Synchronized into canonical and index skill datasets; parity validated at 474/474."
+}
