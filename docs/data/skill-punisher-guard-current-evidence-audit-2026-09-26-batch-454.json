@@ -1,0 +1,19 @@
+{
+  "skill_id": "skill-punisher-guard",
+  "name": "Punisher Guard",
+  "batch": 454,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Punisher_Guard",
+    "https://dragonball.fandom.com/wiki/Vanisher_Guard"
+  ],
+  "findings": [
+    "2026-09-26 Batch 454 current-evidence enrichment: 300-Stamina Other Evasive that wraps the user in an aura and makes them invincible for roughly three seconds, long enough to repel attacks. Current evidence identifies the modern name as Punisher Guard, notes the former Vanisher Guard name, and documents its post-story Skill Shop acquisition. Exact invulnerability frame boundaries and stamina behavior across edge cases remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
