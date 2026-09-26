@@ -1542,5 +1542,15 @@
   "skill_power-wall_current_evidence_audit_2026_09_26_batch_465": "docs/data/skill-power-wall-current-evidence-audit-2026-09-26-batch-465.json",
   "skill_spirit-pulse_current_evidence_audit_2026_09_26_batch_465": "docs/data/skill-spirit-pulse-current-evidence-audit-2026-09-26-batch-465.json",
   "skill_finish-breaker_current_evidence_audit_2026_09_26_batch_465": "docs/data/skill-finish-breaker-current-evidence-audit-2026-09-26-batch-465.json",
-  "skill_fighting-pose-e_current_evidence_audit_2026_09_26_batch_465": "docs/data/skill-fighting-pose-e-current-evidence-audit-2026-09-26-batch-465.json"
+  "skill_fighting-pose-e_current_evidence_audit_2026_09_26_batch_465": "docs/data/skill-fighting-pose-e-current-evidence-audit-2026-09-26-batch-465.json",
+  "skill_batch_466": "docs/data/skill-research-batches/skill-batch-466.json",
+  "skill_batch_466_thin_frontier": "docs/data/skill-research-batches/skill-batch-466-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_destructive-flare_current_evidence_audit_2026_09_26_batch_466": "docs/data/skill-destructive-flare-current-evidence-audit-2026-09-26-batch-466.json",
+  "skill_instant-charge_current_evidence_audit_2026_09_26_batch_466": "docs/data/skill-instant-charge-current-evidence-audit-2026-09-26-batch-466.json",
+  "skill_lovely-cyclone_current_evidence_audit_2026_09_26_batch_466": "docs/data/skill-lovely-cyclone-current-evidence-audit-2026-09-26-batch-466.json",
+  "skill_milky-cannon_current_evidence_audit_2026_09_26_batch_466": "docs/data/skill-milky-cannon-current-evidence-audit-2026-09-26-batch-466.json",
+  "skill_dragon-fist_current_evidence_audit_2026_09_26_batch_466": "docs/data/skill-dragon-fist-current-evidence-audit-2026-09-26-batch-466.json",
+  "skill_sign-of-awakening_current_evidence_audit_2026_09_26_batch_466": "docs/data/skill-sign-of-awakening-current-evidence-audit-2026-09-26-batch-466.json",
+  "skill_variable-snipe-shot_current_evidence_audit_2026_09_26_batch_466": "docs/data/skill-variable-snipe-shot-current-evidence-audit-2026-09-26-batch-466.json",
+  "skill_crush-stream_current_evidence_audit_2026_09_26_batch_466": "docs/data/skill-crush-stream-current-evidence-audit-2026-09-26-batch-466.json"
 }
