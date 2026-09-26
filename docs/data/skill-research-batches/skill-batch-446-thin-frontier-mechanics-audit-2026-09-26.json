@@ -1,0 +1,7 @@
+{
+  "batch": 446,
+  "date": "2026-09-26",
+  "type": "thin_frontier_mechanics_audit",
+  "selected": ["Giant Storm", "God Splitter", "Final Flash (Super)", "Menacing Flare"],
+  "evidence_boundaries": ["No unsupported exact frames, scaling, probabilities, or hidden conditions added."]
+}
