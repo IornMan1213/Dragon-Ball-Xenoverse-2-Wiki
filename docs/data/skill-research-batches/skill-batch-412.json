@@ -1,0 +1,18 @@
+{
+  "batch": 412,
+  "date": "2026-09-25",
+  "status": "completed",
+  "scope": "Skill mechanics frontier",
+  "excluded_batches": "396-411",
+  "selected": [
+    "Super Elite Combo",
+    "Super Dragon Flight",
+    "Shadow Crusher",
+    "Confusion Blade",
+    "Kai Kai",
+    "Neo Tri-Beam",
+    "Time Bullet",
+    "Death Beam"
+  ],
+  "evidence_policy": "Promote only directly supported Xenoverse 2 mechanics; preserve uncertainty around exact frames, universal scaling, targeting rules, and timing."
+}

@@ -1076,6 +1076,16 @@
     "skill_blazing-attack_current_evidence_audit_2026_09_25_batch_411": "docs/data/skill-blazing-attack-current-evidence-audit-2026-09-25-batch-411.json",
     "skill_super-destructo-disc_current_evidence_audit_2026_09_25_batch_411": "docs/data/skill-super-destructo-disc-current-evidence-audit-2026-09-25-batch-411.json",
     "skill_trap-shooter_current_evidence_audit_2026_09_25_batch_411": "docs/data/skill-trap-shooter-current-evidence-audit-2026-09-25-batch-411.json",
-    "skill_explosive-buu-buu-punch_current_evidence_audit_2026_09_25_batch_411": "docs/data/skill-explosive-buu-buu-punch-current-evidence-audit-2026-09-25-batch-411.json"
+    "skill_explosive-buu-buu-punch_current_evidence_audit_2026_09_25_batch_411": "docs/data/skill-explosive-buu-buu-punch-current-evidence-audit-2026-09-25-batch-411.json",
+    "skill_research_batch_412": "docs/data/skill-research-batches/skill-batch-412.json",
+    "skill_batch_412_thin_frontier": "docs/data/skill-batch-412-thin-frontier-mechanics-audit-2026-09-25.json",
+    "skill_super-elite-combo_current_evidence_audit_2026_09_25_batch_412": "docs/data/skill-super-elite-combo-current-evidence-audit-2026-09-25-batch-412.json",
+    "skill_super-dragon-flight_current_evidence_audit_2026_09_25_batch_412": "docs/data/skill-super-dragon-flight-current-evidence-audit-2026-09-25-batch-412.json",
+    "skill_shadow-crusher_current_evidence_audit_2026_09_25_batch_412": "docs/data/skill-shadow-crusher-current-evidence-audit-2026-09-25-batch-412.json",
+    "skill_confusion-blade_current_evidence_audit_2026_09_25_batch_412": "docs/data/skill-confusion-blade-current-evidence-audit-2026-09-25-batch-412.json",
+    "skill_kai-kai_current_evidence_audit_2026_09_25_batch_412": "docs/data/skill-kai-kai-current-evidence-audit-2026-09-25-batch-412.json",
+    "skill_neo-tri-beam_current_evidence_audit_2026_09_25_batch_412": "docs/data/skill-neo-tri-beam-current-evidence-audit-2026-09-25-batch-412.json",
+    "skill_time-bullet_current_evidence_audit_2026_09_25_batch_412": "docs/data/skill-time-bullet-current-evidence-audit-2026-09-25-batch-412.json",
+    "skill_death-beam_current_evidence_audit_2026_09_25_batch_412": "docs/data/skill-death-beam-current-evidence-audit-2026-09-25-batch-412.json"
   }
 }
