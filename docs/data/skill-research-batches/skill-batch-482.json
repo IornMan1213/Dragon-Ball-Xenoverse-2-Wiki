@@ -1,0 +1,21 @@
+{
+  "batch": 482,
+  "date": "2026-09-26",
+  "status": "research_checkpoint",
+  "scope": "Next unaudited skill frontier after Batch 481",
+  "selected": [
+    "Death Ball",
+    "Galick Gun",
+    "Sphere of Destruction",
+    "Breaker Energy Wave",
+    "Hyper Drain",
+    "Handy Canon",
+    "Fierce Fist",
+    "Venus Fist"
+  ],
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474
+  },
+  "note": "Current research review completed; canonical synchronization remains pending until each skill's evidence is normalized and verified."
+}
