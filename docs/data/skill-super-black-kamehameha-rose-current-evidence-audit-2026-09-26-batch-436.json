@@ -1,0 +1,19 @@
+{
+  "skill_id": "skill-super-black-kamehameha-rose",
+  "name": "Super Black Kamehameha Rosé",
+  "batch": 436,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Black_Kamehameha_Ros%C3%A9",
+    "https://dbxv2.fandom.com/wiki/A_Fateful_Fight_with_a_Deity%21"
+  ],
+  "findings": [
+    "500 Ki Ki Blast Ultimate",
+    "Parallel Quest 109 — A Fateful Fight with a Deity!",
+    "25-hit pink beam sequence",
+    "Approximately 40% total damage",
+    "Initial hit is documented as slower than Super Black Kamehameha",
+    "Exact frame timing and reward probability remain unresolved"
+  ]
+}
