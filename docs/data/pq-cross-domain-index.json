@@ -1796,5 +1796,8 @@
       170
     ],
     "note": "These counts are derived only from explicit source_parallel_quests fields in the canonical skill corpus. They do not imply that an unrepresented PQ has no skill rewards."
+  },
+  "integrity_audits": {
+    "cross_domain_index_reference_reachability_2026_09_26": "docs/data/cross-domain-index-reference-reachability-audit-2026-09-26.json"
   }
 }
