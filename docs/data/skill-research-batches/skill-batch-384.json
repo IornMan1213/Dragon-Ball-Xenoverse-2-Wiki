@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 384,
+  "created": "2026-09-25",
+  "type": "short-frontier-mechanics-enrichment",
+  "records": [
+    {
+      "name": "Rising Rage",
+      "audit": "docs/data/skill-rising-rage-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Super Kamehameha",
+      "audit": "docs/data/skill-super-kamehameha-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Sneaky Strike",
+      "audit": "docs/data/skill-sneaky-strike-current-evidence-audit-2026-09-25.json"
+    },
+    {
+      "name": "Explosive Assault",
+      "audit": "docs/data/skill-explosive-assault-current-evidence-audit-2026-09-25.json"
+    }
+  ],
+  "evidence_boundary": "Source-bounded Xenoverse 2 mechanics; no unsupported frame data, hidden prerequisites, reward probabilities, or universal damage claims promoted."
+}
