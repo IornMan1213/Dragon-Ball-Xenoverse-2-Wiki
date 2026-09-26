@@ -1,0 +1,18 @@
+{
+  "batch": 438,
+  "date": "2026-09-26",
+  "type": "thin_frontier_mechanics_audit",
+  "selected": [
+    "Final Flash (SS3 DAIMA)",
+    "God of Destruction's Anger",
+    "Evil Ray Strike",
+    "Pretty Charge"
+  ],
+  "method": "Fresh mechanics_notes-length census over the 474-record canonical index, excluding every skill with a registered current-evidence audit. Selected the four shortest remaining records and rechecked current skill-specific evidence.",
+  "evidence_boundaries": [
+    "Exact frame data is not promoted.",
+    "Patch-independent damage/scaling is not inferred from source-reported values.",
+    "Hidden interactions and exact charge/resource conversion remain unresolved unless directly documented.",
+    "Character-only skills are not converted into CaC acquisition/use claims."
+  ]
+}
