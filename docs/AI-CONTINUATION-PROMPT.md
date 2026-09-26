@@ -1,3 +1,9 @@
+### 2026-09-26 continuation — Phantom Fist evidence reconciliation
+- [x] Read the complete live Batch 473 record for **Phantom Fist** and its current-evidence audit.
+- [x] Confirmed the evidence names **Hit, Mira, Frost, and Fu** as users/skillset contexts, but does not explicitly identify a Partner Customization assignment.
+- [x] Removed the prior unresolved placeholder relationship from `docs/data/partner-skill-relationships.json`; the relationship index now contains only confirmed partner endpoints rather than an invented/unspecified partner.
+- [ ] Exact next: broaden the search from skill artifacts into canonical character/preset/navigation datasets to find explicit skill→partner mappings, if present.
+
 ### 2026-09-26 continuation — Partner/custom relationship reconciliation boundary
 - [x] Searched exact and variant Partner Customization phrases across live skill research artifacts.
 - [x] Confirmed **Phantom Fist** is surfaced by the repository's `Partner Customization + skill_id` search, but the returned evidence does not expose an explicit partner assignment; therefore no confirmed skill→partner pair was inferred.
