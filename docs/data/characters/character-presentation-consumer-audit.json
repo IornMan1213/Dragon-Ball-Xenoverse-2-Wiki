@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "1.2.0",
   "scope": "character-facing presentation consumer identity and navigation parity",
   "canonical_source": "docs/data/characters-record-layer.json",
   "bridge": "docs/data/characters/character-id-identity-bridge.json",
@@ -7,7 +7,7 @@
     "docs/data/character-presets-record-layer.json",
     "docs/data/partner-customization-key-record-layer.json",
     "docs/data/partner-customization-key-reconciliation.json",
-    "docs/Characters-All.html",
+    "docs/Characters-All.html (optional generated build output)",
     "docs/data/characters/partner-customization-character-navigation-audit.json",
     "scripts/validate_partner_customization_character_navigation.py",
     "docs/Characters.md",
@@ -50,7 +50,7 @@
     },
     "preset_presentation": {
       "total_records": 51,
-      "explorer_character_navigation_records": 51,
+      "explorer_character_navigation_records": 0,
       "unresolved_character_ids": [],
       "identity_label_conflicts": [
         {
@@ -88,7 +88,9 @@
         "invalid_record_types": [],
         "separate_character_records_must_have_null_preset_number": true,
         "special_numbering_conflicts": []
-      }
+      },
+      "generated_character_explorer_present": false,
+      "generated_character_explorer_navigation_check": "skipped_source_checkout_absent"
     },
     "character_identity_bridge_hardening": {
       "bridge_character_ids_unique": true,
@@ -121,9 +123,10 @@
       "bridge_records": 34,
       "canonical_character_names": 152,
       "status": "clean"
-    }
+    },
+    "generated_character_explorer_present": false
   },
-  "evidence_boundary": "Identity/navigation parity remains clean. This cycle additionally verifies that bridge character IDs and preset record IDs are string-shaped and unique, and that optional bridge source_name values are unique when present. Missing optional source_name is not treated as a duplicate. Markdown consumer inspection additionally checks the Character Encyclopedia's canonical explorer link and the core profile page for hard-coded preset labels; no preset labels were found in those two Markdown consumers. 2026-09-24: all current character-count consumers in this audit now use the live 152-character baseline. 2026-09-26: the restored five explicit preset character bridge records (Bardock, Raditz, Nappa, Recoome, Zarbon) raise the live bridge to 34; all embedded character-navigation count projections in this audit reflect that reconciled baseline. 2026-09-26 live-tree reconciliation: removed the stale deleted explorer-validator path from the active consumer set; the live presentation validator is scripts/validate_character_presentation_consumers.py. Generated HTML explorers are build/presentation outputs and are not claimed to be source-tree files.",
+  "evidence_boundary": "Identity/navigation parity remains clean. The generated Characters-All.html explorer is an optional build output and is not a source-tree invariant; the validator now checks its character-search navigation contract when the generated artifact is present and skips that build-time check when it is absent. All canonical source-data identity, bridge, preset, Partner Customization, and Markdown consumer checks remain source-tree enforced.",
   "rules": [
     "Canonical character names remain authoritative.",
     "Presentation IDs resolve only through the explicit bridge.",
@@ -140,13 +143,14 @@
     "status": "clean"
   },
   "validator": "scripts/validate_character_presentation_consumers.py",
-  "validator_commit": "9602b41f2979c10321774afeb5c4d11e500d6056",
+  "validator_commit": "8b6247b9a9b3bb51e80aedb60286fbbb6af5d43b",
   "status": "clean",
   "notes": [
     "2026-09-24 live producer refresh: character-presets-record-layer.json now contains 51 records across 17 presentation character IDs, including 46 numbered preset records and 5 separate-character records; 25 records carry verified loadouts with 162 skill-slot entries. Prior 40/12 presentation counts were stale consumer projections.",
     "2026-09-24 publisher-confirmed Chapter 4 identity refresh: added Supreme Kai of Time (Ultra Supervillain) and Goku (Ultra Supervillain Quelled) to the canonical character layer from Bandai Namco's final-DLC announcement. These were not present in the older source-category snapshot; they are not inferred aliases.",
     "2026-09-26 recovery synchronization: restored 5 explicit preset character bridge records (Bardock, Raditz, Nappa, Recoome, Zarbon), raising the live bridge from 29 to 34 and resolving all 17 presentation character IDs used by the 51-record preset layer.",
     "2026-09-26 reconciliation: refreshed the embedded hardening and Partner Customization navigation bridge counts from 29 to the live 34-record identity bridge; no identity mappings were changed by this count synchronization.",
-    "2026-09-26 live-tree reconciliation: docs/Characters-All.html is not present in the source tree, so its existence is not treated as a source-tree invariant; the active validator remains source-data focused and may inspect the generated artifact only in a built checkout."
+    "2026-09-26 live-tree reconciliation: docs/Characters-All.html is not present in the source tree, so its existence is not treated as a source-tree invariant; the active validator remains source-data focused and may inspect the generated artifact only in a built checkout.",
+    "2026-09-26 validator hardening: scripts/validate_character_presentation_consumers.py no longer unconditionally opens absent docs/Characters-All.html; generated explorer navigation is validated when present and skipped in the source checkout."
   ]
 }
