@@ -2423,3 +2423,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated `docs/data/cross-domain-index-reference-reachability-audit-2026-09-26.json` with the direct absence check and evidence boundary.
 - [ ] CI/build/runtime remains unverified.
 - [x] **Exact next:** continue auditing live-present validators/consumers and deterministic projections for concrete drift; leave absent historical/index-only artifacts untouched unless a current source layer requires them.
+
+
+### 2026-09-26 continuation — Skill acquisition validator hardening
+- [x] Inspected the live `scripts/validate_skill_acquisition_metadata.py` and found a concrete acceptance bug: the TP Medal Shop rule accepted the misspelled token `stp medal shop` as valid.
+- [x] Removed that accidental alternate; TP Medal Shop validation now requires the canonical `tp medal shop` phrase.
+- [x] Updated and registered `docs/data/skill-acquisition-metadata-integrity-audit-2026-09-26.json`; the existing **474-record / 0 anomaly** audit remains the recorded result, and no canonical acquisition data was changed.
+- [ ] CI/build/runtime remains unverified; the validator was hardened but no workflow success is claimed.
+- [x] **Exact next:** continue inspecting live validators for concrete schema/acceptance gaps and harden them without inventing or changing unsupported canonical data.
