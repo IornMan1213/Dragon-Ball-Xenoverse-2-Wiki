@@ -807,3 +807,12 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Evidence limits preserved: no unsupported frame data, hidden prerequisites, reward probabilities, exact universal damage, or patch-independent balance claims were inferred.
 - [x] Exact next: fresh post-Batch-391 mechanics census excluding all recent Batch 381–391 targets, then continue the next genuinely low-detail records in a bounded 4–12 record batch.
+
+
+### 2026-09-25 cycle completion — Skill Batch 392 short-frontier mechanics enrichment
+- [x] Fresh post-Batch-391 frontier selected **Soaring Fist** and **Super Saiyan God** for evidence-backed mechanics enrichment.
+- [x] Enriched canonical `docs/data/skills.json` and projection `docs/data/skills-index.json`; both targets now verify on 2026-09-25 with synchronized mechanics text.
+- [x] Current references corroborate Soaring Fist's 100 Ki, chargeable one-to-three projectile behavior, and Super Saiyan God's 300 Ki transformation with its Basic Attack/Ki-recovery effects. citeturn1search2turn1search0
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Evidence boundaries preserved: exact frame data, hidden prerequisites, reward probabilities, and unsupported balance claims were not inferred.
+- [x] Exact next: fresh census excluding Batch 381–392 targets, then continue the next genuinely low-detail records in a bounded 4–12 record batch.
