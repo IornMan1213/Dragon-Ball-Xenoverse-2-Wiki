@@ -1764,3 +1764,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [ ] docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md remains unavailable at the expected path (GitHub 404).
 - [x] **Exact next:** perform another fresh unaudited mechanics frontier census excluding Batch 462 and every prior registered current-evidence audit, then continue the canonical research/synchronization cycle.
+
+
+### 2026-09-26 continuation — Skill Research Batch 463 completed
+- [x] Fresh 474-record mechanics frontier excluded every skill with a registered current-evidence audit and selected **Final Rampage, Perfect Kamehameha, Shocking Death Ball, Spirit Sword, Super Afterimage, Hell Flash, Punisher Shield, and Fake Death**.
+- [x] Deepened and synchronized all eight canonical records in docs/data/skills.json and docs/data/skills-index.json; canonical/index parity remains **474/474**.
+- [x] Added Batch 463 research/thin-frontier artifacts, eight current-evidence audits, and provenance registrations in docs/data/pq-cross-domain-index.json.
+- [x] Preserved evidence boundaries: source-reported numerical values remain bounded; unsupported exact frames, hidden conditions, reward probabilities, and patch-independent scaling were not inferred.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [x] **Exact next:** perform another fresh unaudited mechanics frontier census excluding Batch 463 and every prior registered current-evidence audit, then continue the canonical research/synchronization cycle.
