@@ -1,0 +1,20 @@
+{
+  "skill_id": "skill-sudden-death-beam",
+  "name": "Sudden Death Beam",
+  "batch": 439,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Sudden_Death_Beam",
+    "https://dragonball.fandom.com/wiki/Sudden_Death_Beam",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=3139882500"
+  ],
+  "findings": [
+    "100-Ki Ki Blast Super counter/teleport technique",
+    "Triggers behind the attacker when hit by basic, Strike, or Ki Blast attacks; otherwise teleports without firing while still consuming Ki",
+    "Follow-up cannot be canceled into another Super according to the dedicated skill documentation",
+    "Current acquisition routes: TP Medal Shop, STP Medal Shop, Double Crystal Raid Battle",
+    "Independent Crystal Raid guidance describes it as an all-attack counter and slower than Counter Impact",
+    "Exact counter-active timing, damage, and frame data remain unresolved"
+  ]
+}
