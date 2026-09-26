@@ -4671,14 +4671,14 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Gohan (Kid) mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "100-Ki Strike Super. After a short stance, the user charges head-first toward the opponent; a successful hit breaks the target's guard even when they are already blocking. Current skill-specific evidence reports about 10% damage.",
+      "last_verified": "2026-09-25",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Gohan (Kid) mentor training — initiation.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: current dedicated evidence confirms the 100-Ki Strike Super learned through Gohan (Kid)'s training. It charges head-first and breaks the target's guard on hit; no unsupported numeric damage or additional acquisition gate is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current dedicated evidence confirms the 100-Ki Strike Super learned through Gohan (Kid)'s training. It charges head-first and breaks the target's guard on hit; no unsupported numeric damage or additional acquisition gate is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added. 2026-09-25 Batch 380 mechanics enrichment: current skill-specific evidence expanded the mechanics description; source-reported numeric values remain bounded evidence. ",
       "id": "skill-evil-ray-strike",
       "source_mentor": [
         "mentor-gohan-kid"
@@ -4699,14 +4699,14 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Gohan (Kid) mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "100-Ki Strike Super. The user rises in an upward semicircle, making it useful against airborne opponents; damage increases when the target is already being knocked back. Current skill-specific evidence reports 5% base damage and up to 7% during knockback.",
+      "last_verified": "2026-09-25",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Gohan (Kid) mentor training — lesson-1.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: current dedicated evidence confirms the 100-Ki Strike Super learned through Gohan (Kid)'s training. It rises in an upward arc and gains increased damage against knocked-back opponents; no unsupported additional acquisition gate is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current dedicated evidence confirms the 100-Ki Strike Super learned through Gohan (Kid)'s training. It rises in an upward arc and gains increased damage against knocked-back opponents; no unsupported additional acquisition gate is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added. 2026-09-25 Batch 380 mechanics enrichment: current skill-specific evidence expanded the mechanics description; source-reported numeric values remain bounded evidence. ",
       "id": "skill-evil-rise-strike",
       "source_mentor": [
         "mentor-gohan-kid"
@@ -10217,14 +10217,14 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "bardock mentor training",
-      "mechanics_notes": "Strike Super rush/lariat technique that moves around the target while leaving a Ki trail; current dedicated evidence lists 100 Ki.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "100-Ki Strike Super. After a brief preparation pose, the user rushes around the target while leaving a yellow Ki trail; the active attack can continue for about 5 seconds before stopping.",
+      "last_verified": "2026-09-25",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Bardock mentor training — Lesson 1.",
       "dlc_requirement": "Masters Pack (platform-dependent; included in base game on Switch)",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-21 DLC provenance audit: Masters Pack remains intentionally platform-dependent; the pack is distributed as free DLC on PC/Xbox/PlayStation while the Nintendo Switch release includes the Masters content in the base game. No normalization to a platform-neutral label was made.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-21 DLC provenance audit: Masters Pack remains intentionally platform-dependent; the pack is distributed as free DLC on PC/Xbox/PlayStation while the Nintendo Switch release includes the Masters content in the base game. No normalization to a platform-neutral label was made.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced. 2026-09-25 Batch 380 mechanics enrichment: current skill-specific evidence expanded the mechanics description; source-reported numeric values remain bounded evidence. ",
       "id": "skill-rebellion-spear",
       "source_mentor": [
         "mentor-bardock"
@@ -11688,10 +11688,10 @@
       "source_quest_or_shop": "Parallel Quest 25 — \"The Emperor’s Brother\"",
       "ultimate_finish_required": false,
       "skill_description": "Spirit Explosion is a Strike Evasive skill.",
-      "mechanics_notes": "200-Stamina Strike Evasive from PQ25; close-range blue explosion knocks nearby opponents away and can be used while taking damage.",
+      "mechanics_notes": "200-Stamina Strike Evasive. The user releases a close-range blue explosion that knocks nearby opponents away and can activate while taking damage, providing an emergency escape/repel option.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Spirit_Explosion",
@@ -11701,7 +11701,7 @@
       "race_restriction": "All CaC races",
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: PQ25 is confirmed as the acquisition endpoint; current evidence confirms a 200-Stamina Strike Evasive usable by CaCs, with a close-range blue explosion that knocks opponents away. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced.",
+      "notes": "2026-09-22 provenance refresh: PQ25 is confirmed as the acquisition endpoint; current evidence confirms a 200-Stamina Strike Evasive usable by CaCs, with a close-range blue explosion that knocks opponents away. 2026-09-23 research refresh: maintained repository sources and current exact-name references revalidated the recorded classification, acquisition endpoint, and documented mechanics; existing reward-tier conflicts and evidence boundaries are preserved, with no unsupported probability or prerequisite inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, reward semantics, restriction scope, and bounded mechanics against the maintained repository evidence corpus. Existing uncertainty/conflicts were preserved; no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower CaC restrictions were introduced. 2026-09-25 Batch 380 mechanics enrichment: current skill-specific evidence expanded the mechanics description; source-reported numeric values remain bounded evidence. ",
       "id": "skill-spirit-explosion",
       "source_parallel_quests": [
         25
@@ -13263,10 +13263,10 @@
       "source_quest_or_shop": "Conton City Tournament Match 5",
       "ultimate_finish_required": false,
       "skill_description": "Ki Blast Ultimate that restrains the opponent and follows with a powerful blast.",
-      "mechanics_notes": "Current skill evidence lists 500 Ki; the opening restraint prevents the target from flying away, enabling follow-up attacks.",
+      "mechanics_notes": "500-Ki Ki Blast Ultimate. The opening creates a Ki-gear restraint that stops the target from flying away, after which a large Ki sphere strikes for a documented 14-hit sequence. Current skill-specific evidence reports roughly 50% total damage and says the restraint can persist for 5 seconds even if the user is struck during the opening.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Timespace_Impact",
         "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc",
@@ -13274,7 +13274,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Timespace Impact as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-22 provenance strengthening: Dragon Ball Wiki independently corroborates Timespace Impact as a Xenoverse 2 Ultimate Skill unlocked through the periodic Conton City Tournament, matching the canonical Match 5 endpoint. No new drop probability, Ultimate Finish gate, or acquisition restriction is inferred from this source. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred.",
+      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Timespace Impact as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-22 provenance strengthening: Dragon Ball Wiki independently corroborates Timespace Impact as a Xenoverse 2 Ultimate Skill unlocked through the periodic Conton City Tournament, matching the canonical Match 5 endpoint. No new drop probability, Ultimate Finish gate, or acquisition restriction is inferred from this source. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred. 2026-09-25 Batch 380 mechanics enrichment: current skill-specific evidence expanded the mechanics description; source-reported numeric values remain bounded evidence. ",
       "id": "skill-timespace-impact"
     },
     {
