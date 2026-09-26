@@ -1,0 +1,20 @@
+{
+  "skill_id": "skill-super-spirit-bomb",
+  "name": "Super Spirit Bomb",
+  "batch": 453,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Spirit_Bomb",
+    "https://twinfinite.net/guides/dragon-ball-xenoverse-2get-super-spirit-bomb-how-to/",
+    "https://steamcommunity.com/app/454650/discussions/0/276237094323595262/"
+  ],
+  "findings": [
+    "300-Ki Ki Blast Ultimate obtained through Expert Mission 16, the SSGSS Vegeta mission. The move launches a large tracked Spirit Bomb after a long startup; current repository evidence retains the documented 14-hit sequence and approximately 85% total damage as source-reported rather than patch-independent. The projectile is practical as a long-range finisher but its startup leaves the user exposed; exact startup/recovery frames, tracking strength, and damage scaling remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
