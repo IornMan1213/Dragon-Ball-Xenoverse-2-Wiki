@@ -882,3 +882,17 @@
 - [x] Commits: canonical `3521c85`; Batch 385 `259fdc7`; cross-domain index `11b92d2`; audits `74f3b4a`, `f227c56`, `b6ca4b3`, `2180f3e`.
 - [x] Evidence limits preserved: no unsupported frame data, hidden prerequisites, reward probabilities, or universal damage claims promoted.
 - [ ] **Exact next:** fresh evidence check on **Time Skip/Tremor Pulse (131), Angry Explosion (134), Brave Heat (134), Burst Reflection (135)**, then continue the shortest unfinished mechanics frontier.
+
+
+### 2026-09-25 completion — Skill Batch 386 short-frontier mechanics enrichment
+- [x] Fresh live census before editing: **469 canonical skills / 469 skill-index records / 0 duplicate IDs / 0 empty mechanics_notes**.
+- [x] Completed the next bounded short-frontier batch: **Time Skip/Tremor Pulse, Angry Explosion, Brave Heat, Burst Reflection**.
+- [x] Enriched canonical docs/data/skills.json and projection docs/data/skills-index.json with current Xenoverse 2 mechanics evidence and synchronized last_verified: 2026-09-25.
+- [x] Promoted **Burst Reflection** from verified to verified_current_scope; the other three targets already had current-scope verification and received mechanics enrichment.
+- [x] Added/updated current-evidence audits for all four targets and added Skill Batch 386 plus its batch audit.
+- [x] Registered all Batch 386 audit/research artifacts in docs/data/pq-cross-domain-index.json.
+- [x] Validation after writes: canonical/index **469/469**, **0 duplicate IDs**, target mechanics/date fields synchronized, and all six new/updated index registrations resolve.
+- [x] Evidence limits preserved: source-reported damage/hit counts and timing remain bounded; no unsupported frame data, hidden prerequisites, reward probabilities, or patch-independent balance claims were added.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Commits: canonical e8e9601; index 4e75160; cross-domain registrations 7406e2b and eb6fd3f; audits/batch dbd4808, 02f8d81, dad11c0, 57a2ba8, 615fc60, with Angry Explosion audit refresh 8a9215d.
+- [x] **Exact next:** perform a fresh post-Batch-386 mechanics_notes census, exclude the four newly enriched records and other recently completed short-frontier targets, then continue the next genuinely low-detail records. Prefer 4–12 records with deterministic current evidence and preserve all unresolved acquisition/reward/mechanics boundaries.
