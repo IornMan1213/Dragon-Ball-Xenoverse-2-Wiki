@@ -4062,14 +4062,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_A"
       ],
       "unlock_method": "Captain Ginyu's Lesson 1 — complete the instructor lesson to receive Fighting Pose A as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super from Captain Ginyu's Lesson 1. It grants temporary automatic guard for 12 seconds; the mentor endpoint is retained as the acquisition source. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super from Captain Ginyu's Lesson 1. It grants temporary automatic guard for 12 seconds; the mentor endpoint is retained as the acquisition source. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-25 mechanics enrichment: current skill-specific evidence promoted the documented combat behavior; unsupported frame data, hidden gates, probabilities, and unverified numeric values remain unresolved.",
+      "mechanics_notes": "0-Ki Power Up Super. Grants temporary automatic guard for 12 seconds after activation.",
       "source_quest": "Captain Ginyu mentor training — Lesson 1",
       "source_quest_or_shop": "Captain Ginyu mentor training — Lesson 1"
     },
@@ -4134,14 +4135,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_F"
       ],
       "unlock_method": "Captain Ginyu's Initiation Test — complete the instructor lesson to receive Fighting Pose F as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super from Captain Ginyu's Initiation Test. It grants Hyper Armor for 12 seconds and greatly reduces Stamina regeneration while active. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super from Captain Ginyu's Initiation Test. It grants Hyper Armor for 12 seconds and greatly reduces Stamina regeneration while active. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 mechanics enrichment: current skill-specific evidence promoted the documented combat behavior; unsupported frame data, hidden gates, probabilities, and unverified numeric values remain unresolved.",
+      "mechanics_notes": "0-Ki Power Up Super. Grants Hyper Armor for 12 seconds; incoming damage temporarily depletes Stamina instead of Health, while Stamina regeneration is greatly reduced.",
       "source_quest": "Captain Ginyu mentor training — Initiation Test",
       "source_quest_or_shop": "Captain Ginyu mentor training — Initiation Test"
     },
@@ -6233,14 +6235,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Innocence_Cannon"
       ],
       "unlock_method": "Majin Buu's mentor training — complete the corresponding lesson to receive Innocence Cannon as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: synchronized with the canonical skill record; existing evidence bounds and unresolved fields were preserved.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: synchronized with the canonical skill record; existing evidence bounds and unresolved fields were preserved.\n2026-09-25 mechanics enrichment: current skill-specific evidence promoted the documented combat behavior; unsupported frame data, hidden gates, probabilities, and unverified numeric values remain unresolved.",
+      "mechanics_notes": "100-Ki Ki Blast Super. Fires a large straight Ki ball; on hit it launches the opponent across the map. Current skill-specific evidence reports 30% damage.",
       "source_quest": "Majin Buu mentor training",
       "source_quest_or_shop": "Majin Buu mentor training"
     },
@@ -6493,14 +6496,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Justice_Rush"
       ],
       "unlock_method": "Gohan (Adult) and Videl's mentor training — complete the corresponding lesson to receive Justice Rush as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-25",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-22 provenance refresh: Gohan (Adult) and Videl mentor training remains the deterministic Basic Reward endpoint; 100 Ki and All CaC race scope remain supported. Detailed combat mechanics remain deferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.\n2026-09-22 provenance refresh: Gohan (Adult) and Videl mentor training remains the deterministic Basic Reward endpoint; 100 Ki and All CaC race scope remain supported. Detailed combat mechanics remain deferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 mechanics enrichment: current skill-specific evidence promoted the documented combat behavior; unsupported frame data, hidden gates, probabilities, and unverified numeric values remain unresolved.",
+      "mechanics_notes": "100-Ki Strike Super. Opens with a brief stance, then delivers a 10-hit rush: nine strikes followed by a final knockback kick. Current skill-specific evidence reports 15% damage and notes that an Ultimate can be input before the last kick.",
       "source_quest": "Gohan (Adult) and Videl mentor training",
       "source_quest_or_shop": "Gohan (Adult) and Videl mentor training"
     },
