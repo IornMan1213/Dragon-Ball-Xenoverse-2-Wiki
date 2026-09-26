@@ -1,3 +1,13 @@
+### 2026-09-26 continuation — Skill Research Batch 489 completed
+- [x] Fresh live frontier census performed after Batch 488 with corrected filename-to-skill-ID audit normalization.
+- [x] Researched and synchronized **God of Destruction's Roar, God of Destruction's Menace, Hero's Flute, Beast, Rakshasa's Claw, Reverse Mabakusenko, Indomitable, and Body Change**.
+- [x] Updated canonical `docs/data/skills.json` and projection `docs/data/skills-index.json`; validation is **474/474**, **0 missing / 0 extra**, ordered ID parity true.
+- [x] Added Batch 489 research/thin-frontier artifacts, eight current-evidence audits, and registered all ten artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved evidence boundaries: source-reported values and player observations remain bounded; unsupported frame data, universal scaling, and probabilities were not inferred.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** perform another fresh live unaudited mechanics-frontier census excluding Batch 489 and every registered current-evidence audit; do not reuse stale candidate lists.
+
 ### 2026-09-26 continuation — Skill Research Batch 488 completed
 - [x] Fresh live 474-record mechanics frontier was re-censused after Batch 487, excluding every skill ID represented by a registered current-evidence audit; stale candidate lists were not reused.
 - [x] Researched and synchronized **Fierce Fist, Venus Fist, Handy Canon, Full Power Destruction, Prominence Flash, Galick Gun, Ill Rain, and Gigantic Cross**.
