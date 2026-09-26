@@ -1,0 +1,16 @@
+{
+  "skill_id": "skill-god-of-destruction-s-poise",
+  "name": "God of Destruction's Poise",
+  "batch": 436,
+  "date": "2026-09-26",
+  "status": "complete",
+  "source": "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Poise",
+  "findings": [
+    "100-300 Ki Strike Super",
+    "Parallel Quest 175 — Who's the Next Leader?!",
+    "Base 100 Ki use reaches up to 11 hits",
+    "Holding input spends up to 200 additional Ki for 19 more hits",
+    "Ends with short-range knockback shockwave",
+    "Tracking and persistent forward movement are documented"
+  ]
+}
