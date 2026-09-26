@@ -1,0 +1,77 @@
+{
+  "batch": 468,
+  "date": "2026-09-26",
+  "scope": "Fresh unaudited mechanics frontier",
+  "skills": [
+    {
+      "skill_id": "skill-super-saiyan-blue-kaioken",
+      "skill_name": "Super Saiyan Blue Kaioken",
+      "current_evidence_audit": "docs/data/skill-super-saiyan-blue-kaioken-current-evidence-audit-2026-09-26-batch-468.json",
+      "primary_source": "https://dbxv2.fandom.com/wiki/Super_Saiyan_Blue_Kaioken",
+      "mechanics_boundary": "Character-only Awoken Skill used by SSGSS Goku. Both the normal and x10 stages require 500 Ki. Current dedicated evidence reports +15% all-attack damage for the normal stage and +35% for x10; normal stage reduces Vanish/Z-Vanish/Burst Dash stamina cost to roughly half a bar, while x10 makes those movements free. The transformation suppresses stamina recovery and drains health, with faster health drain at x10. Exact health-drain rate and frame timing remain unresolved."
+    },
+    {
+      "skill_id": "skill-super-saiyan-2",
+      "skill_name": "Super Saiyan 2",
+      "current_evidence_audit": "docs/data/skill-super-saiyan-2-current-evidence-audit-2026-09-26-batch-468.json",
+      "primary_source": "https://dbxv2.fandom.com/wiki/Super_Saiyan",
+      "mechanics_boundary": "400-Ki second stage of the Super Saiyan Awoken Skill for Saiyan CaCs. Current transformation evidence reports +15% Strike and +7.5% Ki Blast skill damage, +10% Strike and +5% Ki Blast damage resistance, and reduced Ki restoration versus lower stages. Super Saiyan-stage charged Ki Blasts gain the documented teleport-to-target behavior and relevant vanish properties. Exact frame timing is not inferred."
+    },
+    {
+      "skill_id": "skill-supernova-cooler",
+      "skill_name": "Supernova Cooler",
+      "current_evidence_audit": "docs/data/skill-supernova-cooler-current-evidence-audit-2026-09-26-batch-468.json",
+      "primary_source": "https://dbxv2.fandom.com/wiki/Supernova_Cooler",
+      "mechanics_boundary": "500-Ki Ki Blast Ultimate learned from Cooler (Final Form) Lesson 3. The user rises slightly, charges a large orange Ki sphere in the right hand, and throws it at the target. Current dedicated evidence reports 18 hits and about 45% source-reported damage; the technique has projectile, tracking, long-range, launching characteristics and a faster startup than the separate Supernova at the cost of lower source-reported damage. Exact startup frames and patch-independent damage scaling remain unresolved."
+    },
+    {
+      "skill_id": "skill-super-vegeta",
+      "skill_name": "Super Vegeta",
+      "current_evidence_audit": "docs/data/skill-super-vegeta-current-evidence-audit-2026-09-26-batch-468.json",
+      "primary_source": "https://dbxv2.fandom.com/wiki/Super_Vegeta",
+      "mechanics_boundary": "Saiyan-only two-stage Awoken Skill. Stage 1 activates at 300 Ki and reports +5% Strike/+10% Ki Blast damage with +5% Ki Blast damage resistance; Stage 2 activates at 400 Ki and reports +10% Strike/+17.5% Ki Blast damage with +5% physical/+12.5% Ki Blast resistance. As with Super Saiyan forms, fully charged Ki Blast skills gain the documented teleport behavior. The form's Ki-generation reduction is maintained as source-reported rather than treated as a universal patch-independent value."
+    },
+    {
+      "skill_id": "skill-maiden-burst",
+      "skill_name": "Maiden Burst",
+      "current_evidence_audit": "docs/data/skill-maiden-burst-current-evidence-audit-2026-09-26-batch-468.json",
+      "primary_source": "https://dbxv2.fandom.com/wiki/Maiden_Burst",
+      "mechanics_boundary": "300-Stamina Evasive from PQ92. The user propels forward with a Ki explosion, damaging nearby opponents and knocking them away; dedicated current evidence classifies it as a short-range, single-hit Evasive and reports about 5% source-reported damage. PQ92 Basic Reward semantics are retained; no Ultimate Finish-only gate is inferred."
+    },
+    {
+      "skill_id": "skill-counter-burst",
+      "skill_name": "Counter Burst",
+      "current_evidence_audit": "docs/data/skill-counter-burst-current-evidence-audit-2026-09-26-batch-468.json",
+      "primary_source": "https://dbxv2.fandom.com/wiki/Counter_Burst",
+      "mechanics_boundary": "100-Ki Ki Blast Super and Ki counter from PQ75. The user projects an energy shield; when struck by an applicable Ki Blast attack, the skill counters with a stronger Ki Blast. Current counter taxonomy classifies Counter Burst specifically as a Ki counter rather than a universal or melee counter. Exact timing window, countered-attack coverage, and returned damage remain unresolved."
+    },
+    {
+      "skill_id": "skill-bluff-kamehameha",
+      "skill_name": "Bluff Kamehameha",
+      "current_evidence_audit": "docs/data/skill-bluff-kamehameha-current-evidence-audit-2026-09-26-batch-468.json",
+      "primary_source": "https://dbxv2.fandom.com/wiki/Bluff_Kamehameha",
+      "mechanics_boundary": "100-Ki Other/Ki Blast Super from PQ94. The user performs a deceptive Kamehameha charge and releases confetti/streamers instead of a damaging beam; it inflicts no damage and reduces the opponent's Ki when they are facing the user. Dedicated current evidence reports up to nine Ki bars drained when fully charged, while older documentation describes the amount as variable with Strike-related scaling; the exact current drain formula is therefore retained as source-bounded. The move has no effect against a back-turned target."
+    },
+    {
+      "skill_id": "skill-super-dragon-flight",
+      "skill_name": "Super Dragon Flight",
+      "current_evidence_audit": "docs/data/skill-super-dragon-flight-current-evidence-audit-2026-09-26-batch-468.json",
+      "primary_source": "https://dbxv2.fandom.com/wiki/Super_Dragon_Flight_%28Ultimate%29",
+      "mechanics_boundary": "300-Ki Strike Ultimate used exclusively by Gohan (DBS Super Hero). This is the Ultimate variant of the separate 100-Ki Super Dragon Flight. The Ultimate version performs an uppercut for source-reported 30% damage, then a second uppercut for another source-reported 30%, launching the opponent higher. The official Dragon Ball site explicitly describes it as a unique Ultimate rebirth of the Super Attack with a follow-up after the uppercut connects. It is cast-exclusive and not a CaC acquisition."
+    }
+  ],
+  "evidence_policy": [
+    "Preserve source-reported damage, hit counts, modifiers, resource values, and transformation effects as bounded evidence.",
+    "Do not infer unsupported frame data, hidden gates, probabilities, or patch-independent scaling.",
+    "Keep cast-exclusive variants distinct from CaC/equipable variants.",
+    "Retain acquisition, classification, and version/source conflicts."
+  ],
+  "canonical_sync": "Eight Batch 468 records synchronized into canonical and index datasets; parity target remains 474/474.",
+  "validation": {
+    "canonical_skill_records": 474,
+    "index_skill_records": 474,
+    "expected_missing": 0,
+    "expected_extra": 0
+  },
+  "ci_build": "unverified"
+}

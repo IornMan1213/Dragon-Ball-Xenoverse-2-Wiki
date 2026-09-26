@@ -1,0 +1,21 @@
+{
+  "batch": 468,
+  "date": "2026-09-26",
+  "skill_name": "Super Vegeta",
+  "skill_id": "skill-super-vegeta",
+  "status": "completed",
+  "findings": [
+    "300/400-Ki stages",
+    "Saiyan-only",
+    "stage-specific attack/defense modifiers",
+    "charged-Ki-Blast teleport behavior"
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Vegeta",
+    "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
+  ],
+  "evidence_boundaries": [
+    "Exact frames and patch-independent Ki-generation scaling remain unresolved.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}

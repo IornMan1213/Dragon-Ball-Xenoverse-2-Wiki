@@ -1,0 +1,23 @@
+{
+  "batch": 468,
+  "date": "2026-09-26",
+  "skill_name": "Super Saiyan Blue Kaioken",
+  "skill_id": "skill-super-saiyan-blue-kaioken",
+  "status": "completed",
+  "findings": [
+    "500-Ki normal and x10 stages",
+    "character-only roster scope",
+    "+15% normal / +35% x10 source-reported damage",
+    "reduced/free movement stamina costs",
+    "stamina-recovery suppression",
+    "health drain"
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Saiyan_Blue_Kaioken",
+    "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
+  ],
+  "evidence_boundaries": [
+    "Exact health-drain rate and frame timing remain unresolved.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}

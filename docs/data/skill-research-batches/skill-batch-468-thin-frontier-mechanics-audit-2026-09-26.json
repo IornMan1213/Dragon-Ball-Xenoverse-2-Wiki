@@ -1,0 +1,52 @@
+{
+  "batch": 468,
+  "date": "2026-09-26",
+  "selection_method": "Fresh live mechanics frontier excluding every skill with a registered current-evidence audit; eight shortest remaining under-detailed records were selected.",
+  "selected_skills": [
+    {
+      "skill_id": "skill-super-saiyan-blue-kaioken",
+      "skill_name": "Super Saiyan Blue Kaioken",
+      "reason": "Lowest combined mechanics/notes coverage among unaudited records before enrichment"
+    },
+    {
+      "skill_id": "skill-super-saiyan-2",
+      "skill_name": "Super Saiyan 2",
+      "reason": "Lowest combined mechanics/notes coverage among unaudited records before enrichment"
+    },
+    {
+      "skill_id": "skill-supernova-cooler",
+      "skill_name": "Supernova Cooler",
+      "reason": "Lowest combined mechanics/notes coverage among unaudited records before enrichment"
+    },
+    {
+      "skill_id": "skill-super-vegeta",
+      "skill_name": "Super Vegeta",
+      "reason": "Lowest combined mechanics/notes coverage among unaudited records before enrichment"
+    },
+    {
+      "skill_id": "skill-maiden-burst",
+      "skill_name": "Maiden Burst",
+      "reason": "Lowest combined mechanics/notes coverage among unaudited records before enrichment"
+    },
+    {
+      "skill_id": "skill-counter-burst",
+      "skill_name": "Counter Burst",
+      "reason": "Lowest combined mechanics/notes coverage among unaudited records before enrichment"
+    },
+    {
+      "skill_id": "skill-bluff-kamehameha",
+      "skill_name": "Bluff Kamehameha",
+      "reason": "Lowest combined mechanics/notes coverage among unaudited records before enrichment"
+    },
+    {
+      "skill_id": "skill-super-dragon-flight",
+      "skill_name": "Super Dragon Flight",
+      "reason": "Lowest combined mechanics/notes coverage among unaudited records before enrichment"
+    }
+  ],
+  "evidence_policy": [
+    "Preserve bounded source-reported values.",
+    "Do not infer unsupported frames, hidden gates, probabilities, or patch-independent scaling.",
+    "Keep distinct skill variants separate."
+  ]
+}

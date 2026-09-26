@@ -1,0 +1,23 @@
+{
+  "batch": 468,
+  "date": "2026-09-26",
+  "skill_name": "Bluff Kamehameha",
+  "skill_id": "skill-bluff-kamehameha",
+  "status": "completed",
+  "findings": [
+    "100-Ki Other/Ki Blast Super",
+    "PQ94 endpoint",
+    "no damage",
+    "front-facing requirement",
+    "full-charge Ki drain",
+    "source-reported up to nine bars"
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Bluff_Kamehameha",
+    "https://dbxenoverse.fandom.com/wiki/Bluff_Kamehameha_%28Skill%29"
+  ],
+  "evidence_boundaries": [
+    "Exact current Ki-drain formula remains unresolved.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}

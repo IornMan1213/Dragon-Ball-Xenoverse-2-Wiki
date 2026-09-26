@@ -1,3 +1,14 @@
+### 2026-09-26 continuation — Skill Research Batch 468 completed
+
+- [x] Fresh 474-record mechanics frontier excluded every registered current-evidence audit and selected **Super Saiyan Blue Kaioken, Super Saiyan 2, Supernova Cooler, Super Vegeta, Maiden Burst, Counter Burst, Bluff Kamehameha, and Super Dragon Flight**.
+- [x] Added eight current-evidence audits plus Batch 468 research/thin-frontier artifacts.
+- [x] Deepened all eight records with current Xenoverse 2-specific mechanics and bounded evidence.
+- [x] Corrected the **Super Dragon Flight** record's mechanics boundary to the distinct 300-Ki Ultimate variant for Gohan (DBS Super Hero), keeping it separate from the 100-Ki Super variant.
+- [x] Preserved source-bounded numerical values and unresolved frame/scaling details.
+- [x] Canonical/index validation target remains **474/474**, with 0 missing / 0 extra.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 468 and every prior registered current-evidence audit.
+
 ### 2026-09-26 continuation — Skill Research Batch 467 completed
 
 - [x] Fresh 474-record mechanics frontier selected **Seagull Combination, Remote Serious Bomb, Shooting Strike, Energy Dome, Kaioken, Gorgeous Shot, Gravity Impact, and Hawk Charge**.

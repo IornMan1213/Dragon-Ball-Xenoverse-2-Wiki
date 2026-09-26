@@ -1,0 +1,23 @@
+{
+  "batch": 468,
+  "date": "2026-09-26",
+  "skill_name": "Super Saiyan 2",
+  "skill_id": "skill-super-saiyan-2",
+  "status": "completed",
+  "findings": [
+    "400-Ki second Super Saiyan stage",
+    "Saiyan CaC scope",
+    "+15% Strike/+7.5% Ki Blast skill damage",
+    "+10% Strike/+5% Ki Blast defense",
+    "reduced Ki restoration",
+    "charged-Ki-Blast teleport behavior"
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Saiyan",
+    "https://dbxv2.fandom.com/wiki/Awoken_Skill"
+  ],
+  "evidence_boundaries": [
+    "Stage-specific modifiers are source-reported; exact frames are not inferred.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}

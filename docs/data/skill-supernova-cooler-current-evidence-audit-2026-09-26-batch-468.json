@@ -1,0 +1,22 @@
+{
+  "batch": 468,
+  "date": "2026-09-26",
+  "skill_name": "Supernova Cooler",
+  "skill_id": "skill-supernova-cooler",
+  "status": "completed",
+  "findings": [
+    "500-Ki Ultimate",
+    "Cooler Lesson 3 endpoint",
+    "18-hit tracking projectile",
+    "source-reported ~45% damage",
+    "faster startup than Supernova"
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Supernova_Cooler",
+    "https://dragonball.fandom.com/wiki/Supernova_Cooler"
+  ],
+  "evidence_boundaries": [
+    "Damage and startup details remain source-bounded.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}

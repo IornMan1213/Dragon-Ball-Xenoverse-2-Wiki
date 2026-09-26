@@ -1,0 +1,22 @@
+{
+  "batch": 468,
+  "date": "2026-09-26",
+  "skill_name": "Maiden Burst",
+  "skill_id": "skill-maiden-burst",
+  "status": "completed",
+  "findings": [
+    "300-Stamina Evasive",
+    "PQ92 endpoint",
+    "forward explosive movement",
+    "short-range single-hit knockback",
+    "source-reported ~5% damage"
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Maiden_Burst",
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+  ],
+  "evidence_boundaries": [
+    "Exact frames and scaling remain unresolved.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}

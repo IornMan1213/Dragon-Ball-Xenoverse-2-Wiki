@@ -1,0 +1,22 @@
+{
+  "batch": 468,
+  "date": "2026-09-26",
+  "skill_name": "Counter Burst",
+  "skill_id": "skill-counter-burst",
+  "status": "completed",
+  "findings": [
+    "100-Ki Ki counter",
+    "PQ75 endpoint",
+    "shield activates against Ki Blast attacks",
+    "counter returns stronger Ki Blast"
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Counter_Burst",
+    "https://dbxv2.fandom.com/wiki/Counter_Skill",
+    "https://dragonball.fandom.com/wiki/Counter_Burst"
+  ],
+  "evidence_boundaries": [
+    "Exact timing, counter coverage, and returned damage remain unresolved.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}

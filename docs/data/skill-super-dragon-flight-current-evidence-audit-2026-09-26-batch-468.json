@@ -1,0 +1,22 @@
+{
+  "batch": 468,
+  "date": "2026-09-26",
+  "skill_name": "Super Dragon Flight",
+  "skill_id": "skill-super-dragon-flight",
+  "status": "completed",
+  "findings": [
+    "300-Ki Strike Ultimate",
+    "Gohan (DBS Super Hero)-exclusive",
+    "two uppercuts",
+    "source-reported 30% + 30% damage",
+    "distinct from 100-Ki Super variant"
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Dragon_Flight_%28Ultimate%29",
+    "https://en.dragon-ball-official.com/news/01_1435.html"
+  ],
+  "evidence_boundaries": [
+    "Exact frame timing and patch-independent damage scaling remain unresolved.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}
