@@ -7,22 +7,22 @@
     {
       "name": "Light Grenade",
       "id": "skill-light-grenade",
-      "previous_mechanics_note_length": 401
+      "previous_mechanics_note_length": 235
     },
     {
       "name": "Sneaky Strike",
       "id": "skill-sneaky-strike",
-      "previous_mechanics_note_length": 455
+      "previous_mechanics_note_length": 237
     },
     {
       "name": "Sonic Rush",
       "id": "skill-sonic-rush",
-      "previous_mechanics_note_length": 371
+      "previous_mechanics_note_length": 237
     },
     {
       "name": "Eagle Kick",
       "id": "skill-eagle-kick",
-      "previous_mechanics_note_length": 356
+      "previous_mechanics_note_length": 238
     }
   ],
   "validation": {
