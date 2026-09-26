@@ -1,0 +1,21 @@
+{
+  "batch": 463,
+  "date": "2026-09-26",
+  "skill_name": "Fake Death",
+  "skill_id": "skill-fake-death",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics/provenance review for the live canonical record.",
+  "findings": [
+    "0-Ki Strike Super from Yamcha training. The user falls backward into the Yamcha fake-KO pose, can hold the input while lying down, then springs up with a kick. Current dedicated evidence documents generous invulnerability frames during the initial animation and get-up kick, with the move not necessarily placing the user on the ground. Exact frame counts and recovery remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Fake_Death",
+    "https://dbxv2.fandom.com/wiki/I-frames",
+    "https://dbxv2.fandom.com/wiki/Mentors"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "No unsupported exact frame data, hidden gates, reward probabilities, or patch-independent scaling is promoted.",
+    "Known source conflicts or historical evidence remain provenance rather than being silently normalized."
+  ]
+}
