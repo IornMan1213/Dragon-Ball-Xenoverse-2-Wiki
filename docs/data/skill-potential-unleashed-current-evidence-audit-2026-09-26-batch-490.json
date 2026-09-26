@@ -1,0 +1,10 @@
+{
+  "batch": 490,
+  "date": "2026-09-26",
+  "skill_id": "skill-potential-unleashed",
+  "skill_name": "Potential Unleashed",
+  "status": "complete",
+  "findings": "500-Ki universal Awoken from Z-ranking Advancement Tests; +15% Strike/Blast attack, +5% Strike/Blast defense, faster Ki generation, and no ongoing resource drain.",
+  "evidence_boundary": "Current-source behavior and source-reported numerical values are bounded. Unsupported exact frames, universal scaling, hidden interactions, and drop probabilities are not asserted.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}
