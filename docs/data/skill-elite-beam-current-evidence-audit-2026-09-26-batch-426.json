@@ -1,0 +1,23 @@
+{
+  "batch": 426,
+  "date": "2026-09-26",
+  "skill_id": "skill-elite-beam",
+  "skill_name": "Elite Beam",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Elite_Beam",
+    "https://dragonball.fandom.com/wiki/Elite_Beam",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+  ],
+  "scope": "Current Xenoverse 2-specific mechanics, acquisition, and bounded version/context evidence reviewed in Batch 426.",
+  "findings": "100-Ki Ki Blast Super learned from Jaco's Lesson 1. Current Xenoverse 2 documentation describes a thin mid-range single-hit beam fired from Jaco's ray gun, with knockback and source-reported damage around 10%. The Dragon Ball technique reference independently confirms the Jaco Lesson 1 acquisition endpoint and the ray-gun presentation.",
+  "canonical_changes": {
+    "last_verified": "2026-09-26",
+    "research_status": "enriched",
+    "verification_status": "evidence_reviewed"
+  },
+  "unresolved": [
+    "Exact startup, active, and recovery frames remain unresolved.",
+    "Patch-independent damage scaling is unresolved."
+  ],
+  "status": "complete"
+}
