@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-26",
+  "subject": "partner/custom skill domain boundary",
+  "conclusion": "Evidence supports modeling partner/custom skill availability as a separate relationship/domain layer rather than treating every partner-only availability as a new canonical CaC skill record.",
+  "evidence": [
+    {
+      "claim": "Dual Masenko is a canonical Xenoverse 2 Super Skill and is obtainable by the Future Warrior from the TP Medal Shop; it is also available in Future Trunks' Customize Partner skillset.",
+      "source": "Dragon Ball Wiki / Dual Masenko"
+    },
+    {
+      "claim": "Future Trunks' Custom Partner skill list explicitly includes Dual Masenko.",
+      "source": "Dragon Ball Xenoverse 2 Wiki / Trunks (Future)"
+    },
+    {
+      "claim": "Partner Customization has dedicated custom-partner skill tables, distinct from ordinary mentor acquisition.",
+      "source": "Dragon Ball Xenoverse 2 Wiki / Partner Customization"
+    }
+  ],
+  "schema_decision": [
+    "Do not create a second skill record for Dual Masenko solely because it appears in a partner/custom skillset.",
+    "Represent partner/custom availability as a relationship from an existing skill ID to a partner/character endpoint when the canonical skill already exists.",
+    "If a partner-only move is not present in the canonical 474-skill corpus, create a separate partner/custom skill domain only after establishing that it is genuinely unavailable to the Future Warrior/CaC, rather than assuming partner-only status from a reward list."
+  ],
+  "pq118": "PQ118 should not be used as the canonical acquisition endpoint for Dual Masenko based on the reviewed evidence. Current evidence identifies TP Medal Shop acquisition and Partner Customization availability; a third-party PQ guide conflicts with that boundary.",
+  "unresolved": [
+    "Whether the canonical 474-skill corpus intentionally excludes character/partner-only skills beyond acquisition availability; this requires a corpus/schema audit, not a new duplicate record."
+  ],
+  "sources": [
+    "turn0search1",
+    "turn0search6",
+    "turn0search8",
+    "turn0search0",
+    "turn0search12"
+  ]
+}
