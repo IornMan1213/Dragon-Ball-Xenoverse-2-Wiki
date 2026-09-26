@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-double-death-slicer-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Double Death Slicer",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "attack_type": "Ki Blast",
+    "skill_type": "Ultimate",
+    "ki_cost": 300,
+    "acquisition": "Parallel Quest 24 — Super Saiyan Legend"
+  },
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Double_Death_Slicer"
+  ],
+  "evidence_boundary": "Current Xenoverse 2 mechanics evidence is bounded to the cited skill reference. Exact frame data, reward probability, hidden prerequisites, and patch-independent balance claims are not inferred."
+}
