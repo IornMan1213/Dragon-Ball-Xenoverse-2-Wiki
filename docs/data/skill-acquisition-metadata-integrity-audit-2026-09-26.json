@@ -19,6 +19,12 @@
     "change": "Removed the accidental acceptance of the misspelled 'stp medal shop' token; TP Medal Shop validation now requires the canonical 'tp medal shop' phrase.",
     "result": "Existing 474-record audit remains pass; no canonical acquisition data changed.",
     "evidence_boundary": "This audit checks internal consistency between acquisition_type, unlock_method, and explicit source_parallel_quests. It does not prove an acquisition claim against external sources.",
-    "pq_endpoint_validation": "Every source_parallel_quests value must now be an integer in supported PQ range 1–186."
+    "pq_endpoint_validation": "Every source_parallel_quests value must now be an integer in supported PQ range 1–186.",
+    "schema_hardening": {
+      "change": "The validator now explicitly rejects malformed acquisition records/containers: records must be a list of 474 objects with unique non-empty string id/name fields and the required acquisition fields present.",
+      "result": "Existing 474-record audit remains pass; no canonical acquisition data changed.",
+      "evidence_boundary": "This audit checks internal consistency between acquisition_type, unlock_method, and explicit source_parallel_quests. It does not prove an acquisition claim against external sources."
+    },
+    "schema_hardening_commit": "00fc3eae129936fb58a74f6c3f4d728865d25fc0"
   }
 }
