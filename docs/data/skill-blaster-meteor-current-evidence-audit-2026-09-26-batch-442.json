@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-blaster-meteor",
+  "name": "Blaster Meteor",
+  "batch": 442,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Blaster_Meteor",
+    "https://twinfinite.net/guides/dragon-ball-xenoverse-2-broly-mentor-master-quest-guide/"
+  ],
+  "findings": [
+    "300 Stamina Ki Blast Evasive",
+    "Broly training Lesson 1",
+    "8-hit short-range launching sphere of Ki Blasts",
+    "~5% damage source-reported",
+    "Exact frames/scaling unresolved"
+  ]
+}
