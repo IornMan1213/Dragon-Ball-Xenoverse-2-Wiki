@@ -786,3 +786,14 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Commits: canonical `5d3d15e`; index `b98b2e4`; audits `bd023c7`, `da505f6`, `833bee3`, `d0ce279`, `d3fc98d`, `d7c3892`; Batch 389 `1fe57e2`; cross-domain registration `7a2592a`.
 - [x] **Exact next:** fresh post-Batch-389 census excluding these six and other recently completed frontier targets, then continue another 4–12 genuinely low-detail records.
+
+
+### 2026-09-25 completion — Skill Batch 390 short-frontier mechanics enrichment
+- [x] Fresh post-Batch-389 census selected **Fighting Pose K, Side Bridge, Rolling Bullet, Energy Minefield, Remote Serious Bomb** as the next low-detail frontier records.
+- [x] Enriched canonical `docs/data/skills.json` and projection `docs/data/skills-index.json`; all five carry `last_verified: 2026-09-25` and `verified_current_scope`.
+- [x] Added/refreshed five current-evidence audits and `docs/data/skill-research-batches/skill-batch-390.json`; registered all six artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation: canonical/index **469/469**, **0 duplicate IDs**, all five targets synchronized.
+- [x] Evidence limits preserved: source-reported numeric values remain bounded; no unsupported frame data, hidden prerequisites, reward probabilities, or patch-independent balance claims were inferred.
+- [ ] CI remains unverified; no workflow success is claimed.
+- [x] Commits: canonical `932ae59`; index `14b6e15`; audits `5ebf51a`, `eeca091`, `114adf5`, `50ee5b7`, `10c0bc2`; Batch 390 `3097daa`; cross-domain registration `f0ea18a`.
+- [x] **Exact next:** fresh post-Batch-390 census excluding these five and other recently completed frontier targets, then continue another 4–12 genuinely low-detail records.
