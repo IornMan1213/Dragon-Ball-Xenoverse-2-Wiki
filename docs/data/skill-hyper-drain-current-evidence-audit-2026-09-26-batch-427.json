@@ -1,0 +1,22 @@
+{
+  "batch": 427,
+  "date": "2026-09-26",
+  "skill_id": "skill-hyper-drain",
+  "skill_name": "Hyper Drain",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Hyper_Drain",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+  ],
+  "scope": "Current Xenoverse 2-specific mechanics, acquisition, resource costs, and bounded current-state evidence reviewed in Batch 427.",
+  "findings": "100-Ki Strike Super command grab for CaCs. Current Xenoverse 2 documentation describes a neck grab that drains one Stamina bar and two Ki bars from the opponent, then punches them away; the user receives one Stamina bar and two Ki bars, with the move still granting the listed resource amount when the opponent has less. The same documentation notes that it cannot connect against juggle-state targets or targets outside lock-on range.",
+  "canonical_changes": {
+    "last_verified": "2026-09-26",
+    "research_status": "enriched",
+    "verification_status": "evidence_reviewed"
+  },
+  "unresolved": [
+    "Exact startup/range/frame data remains unresolved.",
+    "Exact behavior under every latency and combo-state condition is not independently measured."
+  ],
+  "status": "complete"
+}
