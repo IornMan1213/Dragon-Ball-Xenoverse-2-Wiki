@@ -1697,3 +1697,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Evidence boundaries preserved; source-reported numerical values remain bounded and unsupported exact frames, scaling, probabilities, and hidden conditions were not inferred.
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 455 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
+
+
+### 2026-09-26 continuation — Skill Research Batch 456 completed
+- [x] Fresh 474-record mechanics frontier census excluded every skill with a registered current-evidence audit and selected **Data Input, Dimension Ray, Pressure Sign, Blaster Shell, Fake Blast, Spirit Boost, Dust Attack, and Teleporting Vanishing Ball**.
+- [x] Deepened and synchronized all eight canonical records in `docs/data/skills.json` and `docs/data/skills-index.json` with current Xenoverse 2-specific evidence.
+- [x] Added Batch 456 research/thin-frontier artifacts, eight current-evidence audits, and provenance registrations.
+- [x] Evidence boundaries preserved; source-reported numerical values remain bounded and unsupported exact frames, scaling, probabilities, and hidden conditions were not inferred.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] Efficiency addendum remains unavailable at expected path (GitHub 404).
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 456 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
