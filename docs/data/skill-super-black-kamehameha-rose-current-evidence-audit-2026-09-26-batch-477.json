@@ -1,0 +1,15 @@
+{
+  "skill_id": "skill-super-black-kamehameha-rose",
+  "skill_name": "Super Black Kamehameha Rosé",
+  "batch": 477,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "500-Ki Ki Blast Ultimate associated with Goku Black (Super Saiyan Rosé). The attack begins with a melee strike and, on connection, transitions into the Rosé Kamehameha beam. Current evidence distinguishes it from Super Black Kamehameha by its higher Ki cost and slower opening strike; community testing also documents that a successful opening strike makes the beam difficult to escape without an evasive. These behavioral observations are source-attributed rather than treated as universal frame data.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Black_Kamehameha_Rosé",
+    "https://steamcommunity.com/app/454650/discussions/0/1692659769958865515/",
+    "https://www.reddit.com/r/DragonBallXenoverse2/comments/1ax5ssc/"
+  ],
+  "evidence_boundary": "Numerical values and community-observed behavior are source-reported observations. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

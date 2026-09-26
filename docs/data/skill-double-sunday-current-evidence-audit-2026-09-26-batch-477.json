@@ -1,0 +1,14 @@
+{
+  "skill_id": "skill-double-sunday",
+  "skill_name": "Double Sunday",
+  "batch": 477,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Ki Blast Super associated with Raditz. The user fires two forward Ki waves in succession; current repository evidence classifies it as a two-projectile ranged attack and preserves its Raditz/mentor acquisition context. The move has a separate Ultimate Skill Weekend variant; this record remains the Super version. Exact frames, damage scaling, and hidden tracking behavior remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Double_Sunday",
+    "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+  ],
+  "evidence_boundary": "Numerical values and community-observed behavior are source-reported observations. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

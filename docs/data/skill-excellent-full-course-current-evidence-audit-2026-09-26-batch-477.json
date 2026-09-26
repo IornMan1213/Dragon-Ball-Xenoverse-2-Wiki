@@ -1,0 +1,15 @@
+{
+  "skill_id": "skill-excellent-full-course",
+  "skill_name": "Excellent Full Course",
+  "batch": 477,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "Ki Blast Super associated with Goku Black's instructor/skill set. The move executes a multi-hit sequence and can provide a power-up effect after its sequence; current player testing reports that the power-up can interact with/extend other active buffs. The effect is also reported to be sensitive to PC frame-rate behavior in some versions, so exact reliability, timing, and buff-duration behavior are not asserted as universal constants.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Excellent_Full_Course",
+    "https://www.youtube.com/watch?v=cTBEBmGGAko",
+    "https://www.reddit.com/r/dbxv/comments/gg8arv/"
+  ],
+  "evidence_boundary": "Numerical values and community-observed behavior are source-reported observations. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

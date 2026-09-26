@@ -1,0 +1,15 @@
+{
+  "skill_id": "skill-afterimage",
+  "skill_name": "Afterimage",
+  "batch": 477,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Other Super and starting skill for the Mixed fighting-style choice. The user enters an afterimage pose; with correct timing, the move can evade an incoming attack and reposition behind a nearby opponent, while attacks from farther away can be evaded through the movement. Current evidence confirms the starting-move endpoint and the movement/evade behavior; exact invulnerability timing and teleport distance remain version-sensitive.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Afterimage",
+    "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-launch",
+    "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/afterimage.md"
+  ],
+  "evidence_boundary": "Numerical values and community-observed behavior are source-reported observations. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

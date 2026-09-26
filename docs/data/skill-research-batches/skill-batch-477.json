@@ -1,0 +1,111 @@
+{
+  "batch": 477,
+  "date": "2026-09-26",
+  "status": "research_complete",
+  "scope": "Fresh unaudited mechanics frontier after Batch 476, excluding every skill ID represented by a registered current-evidence audit.",
+  "selection_method": "Shortest canonical mechanics records whose skill IDs were not represented by a registered current-evidence audit at census time.",
+  "selected": [
+    "Double Sunday",
+    "Super Black Kamehameha Rosé",
+    "Apocalyptic Burst",
+    "Destruction's Concerto: Meteor",
+    "Demon Flash Strike",
+    "Afterimage",
+    "Excellent Full Course",
+    "Ultra Instinct"
+  ],
+  "records": [
+    {
+      "skill_id": "skill-double-sunday",
+      "skill_name": "Double Sunday",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "100-Ki Ki Blast Super associated with Raditz. The user fires two forward Ki waves in succession; current repository evidence classifies it as a two-projectile ranged attack and preserves its Raditz/mentor acquisition context. The move has a separate Ultimate Skill Weekend variant; this record remains the Super version. Exact frames, damage scaling, and hidden tracking behavior remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Double_Sunday",
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "skill_id": "skill-super-black-kamehameha-rose",
+      "skill_name": "Super Black Kamehameha Rosé",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "500-Ki Ki Blast Ultimate associated with Goku Black (Super Saiyan Rosé). The attack begins with a melee strike and, on connection, transitions into the Rosé Kamehameha beam. Current evidence distinguishes it from Super Black Kamehameha by its higher Ki cost and slower opening strike; community testing also documents that a successful opening strike makes the beam difficult to escape without an evasive. These behavioral observations are source-attributed rather than treated as universal frame data.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Black_Kamehameha_Rosé",
+        "https://steamcommunity.com/app/454650/discussions/0/1692659769958865515/",
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/1ax5ssc/"
+      ]
+    },
+    {
+      "skill_id": "skill-apocalyptic-burst",
+      "skill_name": "Apocalyptic Burst",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "Ki Blast Ultimate with a multi-stage burst sequence. Current repository evidence identifies the skill as a ranged Ki Blast Ultimate and preserves its existing acquisition/classification endpoint. The maintained record does not establish exact hit count, frame timings, damage scaling, or reward probability, so those fields remain unresolved rather than being filled by inference.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Apocalyptic_Burst"
+      ]
+    },
+    {
+      "skill_id": "skill-destruction-s-concerto-meteor",
+      "skill_name": "Destruction's Concerto: Meteor",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "Ki Blast Super in the Destruction's Concerto set. The move places/uses Ki blasts as part of the concerto system and can be triggered through the set's conductor interactions; current evidence preserves the linked-skill dependency rather than treating Meteor as an isolated projectile. Update history documents a change to the concerto system so placed Ki blasts stay in place and the conductor fires them more quickly, with improved hit reliability against knocked-away targets. Exact current hit count, frames, and scaling remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Destruction%27s_Concerto:_Meteor",
+        "https://mp1st.com/news/dragon-ball-xenoverse-2-update-1-26-march-17-flies-out-for-legendary-pack-1-more",
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/blw3dw/"
+      ]
+    },
+    {
+      "skill_id": "skill-demon-flash-strike",
+      "skill_name": "Demon Flash Strike",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "Strike Super with utility-oriented movement/attack behavior. Current repository evidence identifies it as a Demon/Goku Black-associated strike skill and preserves its existing acquisition/classification endpoint. A dedicated skill-breakdown source confirms the move has multiple functions beyond a simple single-hit strike; exact hit timing, damage scaling, and frame data remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Demon_Flash_Strike",
+        "https://www.youtube.com/watch?v=1vSdPUiDpxw"
+      ]
+    },
+    {
+      "skill_id": "skill-afterimage",
+      "skill_name": "Afterimage",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "100-Ki Other Super and starting skill for the Mixed fighting-style choice. The user enters an afterimage pose; with correct timing, the move can evade an incoming attack and reposition behind a nearby opponent, while attacks from farther away can be evaded through the movement. Current evidence confirms the starting-move endpoint and the movement/evade behavior; exact invulnerability timing and teleport distance remain version-sensitive.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Afterimage",
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-launch",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/afterimage.md"
+      ]
+    },
+    {
+      "skill_id": "skill-excellent-full-course",
+      "skill_name": "Excellent Full Course",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "Ki Blast Super associated with Goku Black's instructor/skill set. The move executes a multi-hit sequence and can provide a power-up effect after its sequence; current player testing reports that the power-up can interact with/extend other active buffs. The effect is also reported to be sensitive to PC frame-rate behavior in some versions, so exact reliability, timing, and buff-duration behavior are not asserted as universal constants.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Excellent_Full_Course",
+        "https://www.youtube.com/watch?v=cTBEBmGGAko",
+        "https://www.reddit.com/r/dbxv/comments/gg8arv/"
+      ]
+    },
+    {
+      "skill_id": "skill-ultra-instinct",
+      "skill_name": "Ultra Instinct",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "500-Ki shared Awoken Skill. Current evidence establishes no direct attack-stat boost; its defining mechanic is automatic evasion that consumes Stamina, plus a unique counter behavior and replacement charged-attack options including Soaring Fist/Spirit Pulse. A maintained 2026 transformation guide records auto-dodge stamina consumption and reversion on stamina break, while Bandai Namco's October 2023 update confirms Ultra Instinct was added as an Awoken Skill. Exact dodge probabilities, per-action stamina cost, and mode-specific behavior remain version-sensitive.",
+      "sources": [
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-free-update-october-12-2023",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2832908819",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
+      ]
+    }
+  ],
+  "evidence_policy": "Current Xenoverse 2-specific evidence is prioritized. Source-reported numerical values and community-observed behavior remain source-bound; unsupported exact frames, scaling, hidden interactions, and reward probabilities are not inferred.",
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "missing_ids": [],
+    "extra_ids": []
+  },
+  "exact_next": "Run a fresh unaudited mechanics frontier census excluding Batch 477 and every prior registered current-evidence audit, then continue the canonical research/synchronization cycle."
+}

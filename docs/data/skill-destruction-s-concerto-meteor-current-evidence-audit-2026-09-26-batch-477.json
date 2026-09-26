@@ -1,0 +1,15 @@
+{
+  "skill_id": "skill-destruction-s-concerto-meteor",
+  "skill_name": "Destruction's Concerto: Meteor",
+  "batch": 477,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "Ki Blast Super in the Destruction's Concerto set. The move places/uses Ki blasts as part of the concerto system and can be triggered through the set's conductor interactions; current evidence preserves the linked-skill dependency rather than treating Meteor as an isolated projectile. Update history documents a change to the concerto system so placed Ki blasts stay in place and the conductor fires them more quickly, with improved hit reliability against knocked-away targets. Exact current hit count, frames, and scaling remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Destruction%27s_Concerto:_Meteor",
+    "https://mp1st.com/news/dragon-ball-xenoverse-2-update-1-26-march-17-flies-out-for-legendary-pack-1-more",
+    "https://www.reddit.com/r/DragonBallXenoverse2/comments/blw3dw/"
+  ],
+  "evidence_boundary": "Numerical values and community-observed behavior are source-reported observations. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

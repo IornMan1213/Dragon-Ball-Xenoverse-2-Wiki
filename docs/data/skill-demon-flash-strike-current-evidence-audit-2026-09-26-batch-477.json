@@ -1,0 +1,14 @@
+{
+  "skill_id": "skill-demon-flash-strike",
+  "skill_name": "Demon Flash Strike",
+  "batch": 477,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "Strike Super with utility-oriented movement/attack behavior. Current repository evidence identifies it as a Demon/Goku Black-associated strike skill and preserves its existing acquisition/classification endpoint. A dedicated skill-breakdown source confirms the move has multiple functions beyond a simple single-hit strike; exact hit timing, damage scaling, and frame data remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Demon_Flash_Strike",
+    "https://www.youtube.com/watch?v=1vSdPUiDpxw"
+  ],
+  "evidence_boundary": "Numerical values and community-observed behavior are source-reported observations. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

@@ -1,0 +1,13 @@
+{
+  "skill_id": "skill-apocalyptic-burst",
+  "skill_name": "Apocalyptic Burst",
+  "batch": 477,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "Ki Blast Ultimate with a multi-stage burst sequence. Current repository evidence identifies the skill as a ranged Ki Blast Ultimate and preserves its existing acquisition/classification endpoint. The maintained record does not establish exact hit count, frame timings, damage scaling, or reward probability, so those fields remain unresolved rather than being filled by inference.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Apocalyptic_Burst"
+  ],
+  "evidence_boundary": "Numerical values and community-observed behavior are source-reported observations. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

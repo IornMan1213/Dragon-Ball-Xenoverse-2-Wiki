@@ -1,0 +1,15 @@
+{
+  "skill_id": "skill-ultra-instinct",
+  "skill_name": "Ultra Instinct",
+  "batch": 477,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "500-Ki shared Awoken Skill. Current evidence establishes no direct attack-stat boost; its defining mechanic is automatic evasion that consumes Stamina, plus a unique counter behavior and replacement charged-attack options including Soaring Fist/Spirit Pulse. A maintained 2026 transformation guide records auto-dodge stamina consumption and reversion on stamina break, while Bandai Namco's October 2023 update confirms Ultra Instinct was added as an Awoken Skill. Exact dodge probabilities, per-action stamina cost, and mode-specific behavior remain version-sensitive.",
+  "sources": [
+    "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-free-update-october-12-2023",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=2832908819",
+    "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
+  ],
+  "evidence_boundary": "Numerical values and community-observed behavior are source-reported observations. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

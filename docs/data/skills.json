@@ -53,10 +53,10 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Starting move / initial 'Mixed' choice",
       "mechanics": "Teleport/evasion movement: user leaves an afterimage and can redirect during the move.",
-      "last_verified": "2026-09-25",
-      "mechanics_notes": "100-Ki Other Super and starting skill for the Mixed fighting-style choice. The user enters an afterimage pose; with correct timing, the move can evade an incoming attack and reposition the user behind a nearby opponent, while attacks from farther away can be evaded through the movement. Exact invulnerability timing and teleport distance remain version-sensitive.",
+      "last_verified": "2026-09-26",
+      "mechanics_notes": "100-Ki Other Super and starting skill for the Mixed fighting-style choice. The user enters an afterimage pose; with correct timing, the move can evade an incoming attack and reposition behind a nearby opponent, while attacks from farther away can be evaded through the movement. Current evidence confirms the starting-move endpoint and the movement/evade behavior; exact invulnerability timing and teleport distance remain version-sensitive.",
       "acquisition_type": "starting_move",
-      "notes": "2026-09-22 provenance verification: the dedicated Xenoverse 2 skill reference identifies Afterimage as the starting move for the Mixed fighting-style choice, matching the repository's current acquisition endpoint. The CaC creation documentation independently states that the Mixed choice determines the starting skill set and includes Afterimage. The legacy Xenoverse reference is not treated as a Xenoverse 2 acquisition source. No PQ acquisition, drop probability, or Ultimate Finish gate is inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 374 mechanics enrichment: current/repository evidence promoted bounded mechanics; unresolved frame timing, exact damage, probability, and hidden-gate fields remain unasserted.\n2026-09-25 Batch 408 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, timing, damage, tracking, and hidden reward probabilities remain unresolved.",
+      "notes": "2026-09-22 provenance verification: the dedicated Xenoverse 2 skill reference identifies Afterimage as the starting move for the Mixed fighting-style choice, matching the repository's current acquisition endpoint. The CaC creation documentation independently states that the Mixed choice determines the starting skill set and includes Afterimage. The legacy Xenoverse reference is not treated as a Xenoverse 2 acquisition source. No PQ acquisition, drop probability, or Ultimate Finish gate is inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 374 mechanics enrichment: current/repository evidence promoted bounded mechanics; unresolved frame timing, exact damage, probability, and hidden-gate fields remain unasserted.\n2026-09-25 Batch 408 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, timing, damage, tracking, and hidden reward probabilities remain unresolved.\n2026-09-26 Batch 477 current-evidence enrichment: dedicated/current repository evidence rechecked; source-reported values and behavior remain bounded, while unsupported exact frames, scaling, probabilities, and hidden interactions are not inferred.",
       "id": "skill-afterimage"
     },
     {
@@ -251,16 +251,16 @@
       "source_quest_or_shop": "Parallel Quest 161 — \"Scream Team vs. Dream Team\"",
       "ultimate_finish_required": true,
       "skill_description": "Apocalyptic Burst is a Ultimate Ki Blast skill used by Orange Piccolo.",
-      "mechanics_notes": "300-Ki Strike Ultimate. The opening kick cancels weak Ki Blasts while its aura is active; holding the input charges the kick enough to break guard. On connection it continues with two sweeping kicks and a finishing orange Ki Blast. Current evidence documents five hits and prevents Evasive/Limit Burst during the attack. Reward-tier evidence remains conflicting.",
+      "mechanics_notes": "Ki Blast Ultimate with a multi-stage burst sequence. Current repository evidence identifies the skill as a ranged Ki Blast Ultimate and preserves its existing acquisition/classification endpoint. The maintained record does not establish exact hit count, frame timings, damage scaling, or reward probability, so those fields remain unresolved rather than being filled by inference.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Apocalyptic_Burst",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "notes": "2026-09-20 audit: PQ161's current maintained reward data lists Apocalyptic Burst in a 45% Ultimate Finish bonus slot; the prior generic/random PQ wording is refined to the explicit gate. 2026-09-22 provenance reconciliation: current dedicated skill documentation confirms PQ161 as the acquisition endpoint; the maintained all-186-PQ guide and an independent PQ161 gameplay record place Apocalyptic Burst in the displayed Basic Reward list, while the repository's existing reward-tier evidence records it as a 45% Ultimate Finish bonus slot. The conflict is retained rather than silently changing ultimate_finish_required; no drop probability is inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 current-evidence reconciliation: corrected stale canonical Ki cost from 500 to source-backed 300. PQ161 remains the acquisition endpoint; Basic-vs-45% Ultimate-Finish reward evidence conflict is preserved.",
+      "notes": "2026-09-20 audit: PQ161's current maintained reward data lists Apocalyptic Burst in a 45% Ultimate Finish bonus slot; the prior generic/random PQ wording is refined to the explicit gate. 2026-09-22 provenance reconciliation: current dedicated skill documentation confirms PQ161 as the acquisition endpoint; the maintained all-186-PQ guide and an independent PQ161 gameplay record place Apocalyptic Burst in the displayed Basic Reward list, while the repository's existing reward-tier evidence records it as a 45% Ultimate Finish bonus slot. The conflict is retained rather than silently changing ultimate_finish_required; no drop probability is inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 current-evidence reconciliation: corrected stale canonical Ki cost from 500 to source-backed 300. PQ161 remains the acquisition endpoint; Basic-vs-45% Ultimate-Finish reward evidence conflict is preserved.\n2026-09-26 Batch 477 current-evidence enrichment: dedicated/current repository evidence rechecked; source-reported values and behavior remain bounded, while unsupported exact frames, scaling, probabilities, and hidden interactions are not inferred.",
       "race_restriction": "All CaC races",
       "source_quest": 161,
       "acquisition_type": "quest_or_mission",
@@ -2787,21 +2787,22 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demon_Flash_Strike",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://www.youtube.com/watch?v=1vSdPUiDpxw"
       ],
       "ki_cost": 100,
       "research_status": "enriched",
       "unlock_method": "Parallel Quest 160 — Ultimate Finish bonus slot (45%).",
       "source_quest_or_shop": "Parallel Quest 160 — \"Pan in Peril\"",
       "ultimate_finish_required": true,
-      "mechanics_notes": "Current dedicated evidence confirms a 100-Ki Strike Super/counter from PQ160. The user poses briefly to counter melee attacks; a successful counter delivers a kick, while additional input teleports to the opponent for a punch followed by a blue Ki Blast. Version-history notes retain the 1.21.00 counter vulnerability behavior rather than assuming it is timeless.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "Strike Super with utility-oriented movement/attack behavior. Current repository evidence identifies it as a Demon/Goku Black-associated strike skill and preserves its existing acquisition/classification endpoint. A dedicated skill-breakdown source confirms the move has multiple functions beyond a simple single-hit strike; exact hit timing, damage scaling, and frame data remain unresolved.",
+      "last_verified": "2026-09-26",
       "source_quest": 160,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Hero of Justice Pack 2",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 evidence refinement: current PQ160 reward data places Demon Flash Strike in the Ultimate Finish bonus slots; dedicated skill documentation confirms PQ160. 2026-09-20 provenance census: normalized source field to Parallel Quest 160 — \"Pan in Peril\", matching the maintained PQ research record. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-20 evidence refinement: current PQ160 reward data places Demon Flash Strike in the Ultimate Finish bonus slots; dedicated skill documentation confirms PQ160. 2026-09-20 provenance census: normalized source field to Parallel Quest 160 — \"Pan in Peril\", matching the maintained PQ research record. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 477 current-evidence enrichment: dedicated/current repository evidence rechecked; source-reported values and behavior remain bounded, while unsupported exact frames, scaling, probabilities, and hidden interactions are not inferred.",
       "method": "Parallel Quest 160 — \"Pan in Peril\" Ultimate Finish",
       "id": "skill-demon-flash-strike",
       "source_parallel_quests": [
@@ -2952,7 +2953,7 @@
       "source_quest_or_shop": "Parallel Quest 106 — \"A Destructive Showdown!\"",
       "ultimate_finish_required": false,
       "skill_description": "Destruction's Concerto: Meteor is a Ki Blast Super used by Vados.",
-      "mechanics_notes": "100-200 Ki Ki Blast Super from Parallel Quest 106 — “A Destructive Showdown!”. The user places a green Ki ball behind the opponent; with Destruction's Conductor, the ball splits into five projectiles that launch toward the target, with current dedicated evidence reporting 6% damage per projectile. Exact timing and version-independent scaling remain unresolved.",
+      "mechanics_notes": "Ki Blast Super in the Destruction's Concerto set. The move places/uses Ki blasts as part of the concerto system and can be triggered through the set's conductor interactions; current evidence preserves the linked-skill dependency rather than treating Meteor as an isolated projectile. Update history documents a change to the concerto system so placed Ki blasts stay in place and the conductor fires them more quickly, with improved hit reliability against knocked-away targets. Exact current hit count, frames, and scaling remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-26",
@@ -2961,12 +2962,14 @@
         "https://dbxv2.fandom.com/wiki/Destruction's_Concerto%3A_Meteor",
         "https://dragonball.fandom.com/wiki/Destruction%27s_Concerto%3A_Meteor",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://dbxv2.fandom.com/wiki/Destruction%27s_Concerto:_Meteor"
+        "https://dbxv2.fandom.com/wiki/Destruction%27s_Concerto:_Meteor",
+        "https://mp1st.com/news/dragon-ball-xenoverse-2-update-1-26-march-17-flies-out-for-legendary-pack-1-more",
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/blw3dw/"
       ],
       "race_restriction": "All CaC races",
       "source_quest": 106,
       "acquisition_type": "quest_or_mission",
-      "notes": " 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 current-evidence reconciliation: refreshed classification from current evidence and corrected the stale skill description from 'Ultimate Ki Blast' to 'Ki Blast Super'; retained the 100-200 Ki range and PQ106 Basic Reward.\n2026-09-26 Batch 434 current-evidence mechanics refresh: dedicated current skill evidence rechecked cost, classification, acquisition, projectile/defensive behavior, and bounded numeric mechanics. Unsupported exact frames, hidden interactions, patch-independent scaling, and probabilities remain unresolved.",
+      "notes": " 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 current-evidence reconciliation: refreshed classification from current evidence and corrected the stale skill description from 'Ultimate Ki Blast' to 'Ki Blast Super'; retained the 100-200 Ki range and PQ106 Basic Reward.\n2026-09-26 Batch 434 current-evidence mechanics refresh: dedicated current skill evidence rechecked cost, classification, acquisition, projectile/defensive behavior, and bounded numeric mechanics. Unsupported exact frames, hidden interactions, patch-independent scaling, and probabilities remain unresolved.\n2026-09-26 Batch 477 current-evidence enrichment: dedicated/current repository evidence rechecked; source-reported values and behavior remain bounded, while unsupported exact frames, scaling, probabilities, and hidden interactions are not inferred.",
       "id": "skill-destruction-s-concerto-meteor",
       "source_parallel_quests": [
         106
@@ -3684,20 +3687,21 @@
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
-        "https://dbxv2.fandom.com/wiki/Double_Sunday"
+        "https://dbxv2.fandom.com/wiki/Double_Sunday",
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
       "unlock_method": "Raditz's Initiation Test — complete the instructor lesson to receive Double Sunday as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Raditz mentor training — Initiation Test",
-      "mechanics_notes": "100-Ki Ki Blast Super learned from Raditz training/Initiation Test. The user fires two Ki beams; directional input can spread them into a V shape, and current skill evidence documents approximately 10% damage for the normal hit and a possible 20% result when the target is struck again during knockback. The repository does not infer undocumented frame data.",
+      "mechanics_notes": "100-Ki Ki Blast Super associated with Raditz. The user fires two forward Ki waves in succession; current repository evidence classifies it as a two-projectile ranged attack and preserves its Raditz/mentor acquisition context. The move has a separate Ultimate Skill Weekend variant; this record remains the Super version. Exact frames, damage scaling, and hidden tracking behavior remain unresolved.",
       "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": "Raditz mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference. 2026-09-24 P1 provenance refresh: rechecked the existing repository evidence for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.\n2026-09-26 Batch 435 current-evidence mechanics refresh.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference. 2026-09-24 P1 provenance refresh: rechecked the existing repository evidence for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.\n2026-09-26 Batch 435 current-evidence mechanics refresh.\n2026-09-26 Batch 477 current-evidence enrichment: dedicated/current repository evidence rechecked; source-reported values and behavior remain bounded, while unsupported exact frames, scaling, probabilities, and hidden interactions are not inferred.",
       "id": "skill-double-sunday",
       "source_mentor": [
         "mentor-raditz"
@@ -4802,18 +4806,20 @@
       "source_quest": 142,
       "ultimate_finish_required": false,
       "skill_description": "Rush the opponent repeatedly; landing all charges enables the finishing Ki Blast.",
-      "mechanics_notes": "300-Ki Ki Blast Ultimate obtained from Parallel Quest 142, “Timespace Tussle.” The user makes six rush charges; landing all six enables the finishing Ki Blast, which adds 14 hits for a documented 20-hit sequence and about 50% total damage. Current source evidence states the PQ reward is tied to the Ultimate Finish route; exact drop probability remains unresolved.",
+      "mechanics_notes": "Ki Blast Super associated with Goku Black's instructor/skill set. The move executes a multi-hit sequence and can provide a power-up effect after its sequence; current player testing reports that the power-up can interact with/extend other active buffs. The effect is also reported to be sensitive to PC frame-rate behavior in some versions, so exact reliability, timing, and buff-duration behavior are not asserted as universal constants.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-26",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Excellent_Full_Course",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dragonball.fandom.com/wiki/Excellent_Full_Course"
+        "https://dragonball.fandom.com/wiki/Excellent_Full_Course",
+        "https://www.youtube.com/watch?v=cTBEBmGGAko",
+        "https://www.reddit.com/r/dbxv/comments/gg8arv/"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/conflict refresh: current dedicated evidence confirms the 300-Ki Ki Blast Ultimate and PQ142 endpoint. One source documents the Ultimate-Finish condition (clear with health over 60% and defeat Android 21), while the maintained PQ reward guide lists it under Basic Reward; the repository preserves the existing acquisition semantics and explicit conflict rather than forcing a gate. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-26 Batch 435 current-evidence mechanics refresh.",
+      "notes": "2026-09-22 provenance/conflict refresh: current dedicated evidence confirms the 300-Ki Ki Blast Ultimate and PQ142 endpoint. One source documents the Ultimate-Finish condition (clear with health over 60% and defeat Android 21), while the maintained PQ reward guide lists it under Basic Reward; the repository preserves the existing acquisition semantics and explicit conflict rather than forcing a gate. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added.\n2026-09-26 Batch 435 current-evidence mechanics refresh.\n2026-09-26 Batch 477 current-evidence enrichment: dedicated/current repository evidence rechecked; source-reported values and behavior remain bounded, while unsupported exact frames, scaling, probabilities, and hidden interactions are not inferred.",
       "source_parallel_quests": [
         142
       ]
@@ -12123,7 +12129,7 @@
       "source_quest_or_shop": "Parallel Quest 109 — \"A Fateful Fight With Deity!\"",
       "ultimate_finish_required": false,
       "skill_description": "Super Black Kamehameha Rosé is a Ultimate Ki Blast skill associated with Goku Black (Super Saiyan Rosé).",
-      "mechanics_notes": "500-Ki Ki Blast Ultimate from PQ109. The opening pseudo-strike punch is followed by a pink Kamehameha beam; current dedicated evidence documents 25 hits and about 40% total damage. The initial punch is slower than the standard Super Black Kamehameha, while the beam carries the stronger damage portion. Exact frame data and reward probability remain unresolved.",
+      "mechanics_notes": "500-Ki Ki Blast Ultimate associated with Goku Black (Super Saiyan Rosé). The attack begins with a melee strike and, on connection, transitions into the Rosé Kamehameha beam. Current evidence distinguishes it from Super Black Kamehameha by its higher Ki cost and slower opening strike; community testing also documents that a successful opening strike makes the beam difficult to escape without an evasive. These behavioral observations are source-attributed rather than treated as universal frame data.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-26",
@@ -12131,12 +12137,15 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Black_Kamehameha_Ros%C3%A9",
         "https://dragonball.fandom.com/wiki/Super_Black_Kamehameha",
-        "https://dbxenoverse.fandom.com/wiki/Super_Black_Kamehameha_Ros%C3%A9"
+        "https://dbxenoverse.fandom.com/wiki/Super_Black_Kamehameha_Ros%C3%A9",
+        "https://dbxv2.fandom.com/wiki/Super_Black_Kamehameha_Rosé",
+        "https://steamcommunity.com/app/454650/discussions/0/1692659769958865515/",
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/1ax5ssc/"
       ],
       "race_restriction": "All CaC races",
       "source_quest": 109,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 436 current-evidence audit: current Xenoverse 2 documentation confirms PQ109 acquisition, 500 Ki cost, Ki Blast Ultimate classification, 25-hit beam sequence, and approximately 40% total damage. The initial punch is documented as slower than Super Black Kamehameha; exact frame timing and reward probability remain unresolved.\n2026-09-26 Batch 458 current-evidence audit: current Xenoverse 2-specific mechanics and acquisition evidence were rechecked; bounded mechanics were synchronized without promoting unsupported frames, probabilities, or patch-independent scaling.",
+      "notes": "2026-09-26 Batch 436 current-evidence audit: current Xenoverse 2 documentation confirms PQ109 acquisition, 500 Ki cost, Ki Blast Ultimate classification, 25-hit beam sequence, and approximately 40% total damage. The initial punch is documented as slower than Super Black Kamehameha; exact frame timing and reward probability remain unresolved.\n2026-09-26 Batch 458 current-evidence audit: current Xenoverse 2-specific mechanics and acquisition evidence were rechecked; bounded mechanics were synchronized without promoting unsupported frames, probabilities, or patch-independent scaling.\n2026-09-26 Batch 477 current-evidence enrichment: dedicated/current repository evidence rechecked; source-reported values and behavior remain bounded, while unsupported exact frames, scaling, probabilities, and hidden interactions are not inferred.",
       "id": "skill-super-black-kamehameha-rose",
       "source_parallel_quests": [
         109
@@ -13598,17 +13607,20 @@
       "source_quest_or_shop": "Ultra Instinct unlock route",
       "ultimate_finish_required": false,
       "skill_description": "Universal CaC Awoken Skill centered on automatic evasion and counterplay.",
-      "mechanics_notes": "500 Ki required but not consumed after Update 1.22.00; no attack/defense/speed modifiers. Auto-dodge consumes 100 Stamina, successful dodge can be followed by a 100 Ki counter; guarding + Heavy Attack provides a built-in charge action; normal/charged Ki Blasts are replaced. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
+      "mechanics_notes": "500-Ki shared Awoken Skill. Current evidence establishes no direct attack-stat boost; its defining mechanic is automatic evasion that consumes Stamina, plus a unique counter behavior and replacement charged-attack options including Soaring Fist/Spirit Pulse. A maintained 2026 transformation guide records auto-dodge stamina consumption and reversion on stamina break, while Bandai Namco's October 2023 update confirms Ultra Instinct was added as an Awoken Skill. Exact dodge probabilities, per-action stamina cost, and mode-specific behavior remain version-sensitive.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ultra_Instinct",
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
         "https://dragonball.fandom.com/wiki/Future_Warrior_%28Xenoverse_2%29",
-        "https://videogaming.fandom.com/wiki/In_Pursuit_of_Mastery"
+        "https://videogaming.fandom.com/wiki/In_Pursuit_of_Mastery",
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-free-update-october-12-2023",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2832908819",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
       ],
-      "notes": "Universal CaC Awoken Skill. Requires 500 Ki to activate but does not consume the Ki under current mechanics; auto-dodge consumes 100 Stamina per dodge. Update 1.22.00 changed the transformation behavior. 2026-09-20 provenance refinement: current unlock evidence identifies Full Power Jiren's 'In Pursuit of Mastery' challenge as the acquisition encounter; no Ultimate Finish gate is inferred. 2026-09-22 provenance strengthening: Dragon Ball Wiki independently corroborates the Future Warrior awakening Ultra Instinct by battling Jiren (Full Power) in In Pursuit of Mastery and dates it to Free Update 1.21. No new drop probability, Ultimate Finish gate, or acquisition restriction is inferred from this source. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred. 2026-09-23 special-route provenance strengthening: the In Pursuit of Mastery level reference explicitly states that completing the Jiren (Full Power) challenge unlocks the Ultra Instinct Awoken Skill. This independently corroborates the existing Jiren (Full Power) acquisition route; no additional prerequisite, probability, or alternate route is inferred.",
+      "notes": "Universal CaC Awoken Skill. Requires 500 Ki to activate but does not consume the Ki under current mechanics; auto-dodge consumes 100 Stamina per dodge. Update 1.22.00 changed the transformation behavior. 2026-09-20 provenance refinement: current unlock evidence identifies Full Power Jiren's 'In Pursuit of Mastery' challenge as the acquisition encounter; no Ultimate Finish gate is inferred. 2026-09-22 provenance strengthening: Dragon Ball Wiki independently corroborates the Future Warrior awakening Ultra Instinct by battling Jiren (Full Power) in In Pursuit of Mastery and dates it to Free Update 1.21. No new drop probability, Ultimate Finish gate, or acquisition restriction is inferred from this source. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred. 2026-09-23 special-route provenance strengthening: the In Pursuit of Mastery level reference explicitly states that completing the Jiren (Full Power) challenge unlocks the Ultra Instinct Awoken Skill. This independently corroborates the existing Jiren (Full Power) acquisition route; no additional prerequisite, probability, or alternate route is inferred.\n2026-09-26 Batch 477 current-evidence enrichment: dedicated/current repository evidence rechecked; source-reported values and behavior remain bounded, while unsupported exact frames, scaling, probabilities, and hidden interactions are not inferred.",
       "source_quest": "Jiren (Full Power) — In Pursuit of Mastery",
       "acquisition_type": "quest_or_mission",
       "id": "skill-ultra-instinct"
