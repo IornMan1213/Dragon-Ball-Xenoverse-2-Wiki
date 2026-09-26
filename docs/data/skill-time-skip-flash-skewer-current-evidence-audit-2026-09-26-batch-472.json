@@ -1,0 +1,22 @@
+{
+  "audit_id": "skill-time-skip-flash-skewer_current_evidence_audit_2026_09_26_batch_472",
+  "batch": 472,
+  "date": "2026-09-26",
+  "skill_id": "skill-time-skip-flash-skewer",
+  "skill_name": "Time Skip/Flash Skewer",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Time_Skip/Flash_Skewer"
+  ],
+  "mechanics_summary": "100-Ki Strike Super counter. A front-facing defensive stance triggers a short-range counter for approximately 5% source-reported damage and can be used as a combo extender; current documentation classifies it as unblockable.",
+  "evidence_limits": [
+    "Exact frame data and patch-independent scaling are unresolved unless directly established.",
+    "Source-reported damage values are not asserted as universal balance constants.",
+    "Reward/drop probability and hidden interaction details remain unresolved where the cited sources do not establish them."
+  ],
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26"
+  }
+}
