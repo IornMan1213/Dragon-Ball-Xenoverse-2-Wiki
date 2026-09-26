@@ -1,3 +1,14 @@
+### 2026-09-26 continuation — Skill Research Batch 425 completed
+
+- [x] Fresh canonical frontier census found the shortest four records without a prior current-evidence audit: **DIE DIE Missile Barrage, Victory Cannon, Maiden Blast, Darkness Eye Beam**.
+- [x] Added four current-evidence audit records plus `docs/data/skill-research-batches/skill-batch-425.json`.
+- [x] Evidence review incorporated current Xenoverse 2 skill/mentor documentation and historical Steam patch-note context where relevant; historical balance changes are kept separate from timeless current-state claims.
+- [x] Synchronized all four Batch 425 mechanics/provenance updates into both `docs/data/skills.json` and `docs/data/skills-index.json`.
+- [x] Registered the Batch 425 research record and all four audits in `docs/data/pq-cross-domain-index.json`.
+- [x] Validated canonical/index parity: **474 canonical records / 474 index records / 0 missing IDs / 0 extra IDs**.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [x] **Exact next:** run a fresh unaudited mechanics frontier census excluding Batch 425 and all earlier audited records, then research and synchronize the next canonical batch. Continue preserving unresolved frame data, hidden interactions, probabilities, and patch-independent balance boundaries instead of inventing values.
+
 ### 2026-09-26 continuation — Batch 424 large-blob recovery and partial canonical synchronization
 
 - [x] Recovered the safe large-blob path: `fetch_blob` successfully returned the full 1.25 MB canonical `skills.json` blob and the full projection blob, allowing complete-file edits without reconstructing either dataset.
