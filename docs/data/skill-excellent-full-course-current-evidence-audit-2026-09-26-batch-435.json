@@ -1,0 +1,19 @@
+{
+  "skill_id": "skill-excellent-full-course",
+  "name": "Excellent Full Course",
+  "batch": 435,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Excellent_Full_Course",
+    "https://dragonball.fandom.com/wiki/Excellent_Full_Course"
+  ],
+  "findings": [
+    "300 Ki Ki Blast Ultimate",
+    "Parallel Quest 142 — Timespace Tussle",
+    "Six rush charges must all land to enable finisher",
+    "Finishing Ki ball adds 14 hits for a 20-hit sequence",
+    "Approximately 50% total damage",
+    "Ultimate Finish route is documented; exact drop probability remains unresolved"
+  ]
+}
