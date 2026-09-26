@@ -1,0 +1,10 @@
+{
+  "batch": 491,
+  "date": "2026-09-26",
+  "skill_id": "skill-giant-cluster",
+  "skill_name": "Gigantic Cluster",
+  "status": "complete",
+  "findings": "100-Ki Ki Blast Super; current PQ163 reward transcription uses “Giant Cluster” while dedicated technique documentation uses “Gigantic Cluster”; stable repository ID remains skill-giant-cluster. Multiple Ki Blasts are scattered, with current evidence reporting more blasts after activating an Awoken Skill. Existing 40% Ultimate Finish roll is retained while reward-table conflict remains explicit.",
+  "evidence_boundary": "Current-source behavior and source-reported numerical values are bounded. Unsupported exact frames, universal scaling, hidden interactions, and drop probabilities are not asserted.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}
