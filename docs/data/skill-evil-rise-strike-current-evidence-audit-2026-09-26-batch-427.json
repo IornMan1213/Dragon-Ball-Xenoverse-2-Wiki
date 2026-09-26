@@ -1,0 +1,22 @@
+{
+  "batch": 427,
+  "date": "2026-09-26",
+  "skill_id": "skill-evil-rise-strike",
+  "skill_name": "Evil Rise Strike",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Evil_Rise_Strike",
+    "https://dragonball.fandom.com/wiki/Evil_Rise_Strike"
+  ],
+  "scope": "Current Xenoverse 2-specific mechanics, acquisition, resource costs, and bounded current-state evidence reviewed in Batch 427.",
+  "findings": "100-Ki Strike Super learned through Kid Gohan training. Current Xenoverse 2 documentation describes an upward semicircular headbutt/rush that is effective against airborne opponents and deals increased damage to knocked-back targets; source-reported damage is about 5% normally and up to 7% against a knocked-back target. Dragon Ball documentation independently confirms Kid Gohan's Lesson 1 acquisition endpoint.",
+  "canonical_changes": {
+    "last_verified": "2026-09-26",
+    "research_status": "enriched",
+    "verification_status": "evidence_reviewed"
+  },
+  "unresolved": [
+    "Exact startup, active, recovery, and movement distance remain unresolved.",
+    "The conditional damage figures are source-reported and not treated as patch-independent frame-derived values."
+  ],
+  "status": "complete"
+}
