@@ -684,3 +684,14 @@
 - [ ] Canonical `skills.json` / `skills-index.json` were intentionally not partially rewritten because the connector cannot safely reconstruct the complete generated files; existing canonical identities and relationships remain untouched.
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] **Exact next:** continue the same thin-record frontier with **Innocence Cannon, Justice Rush, Shining Friday, Strike of Revelation, Sudden Storm, Super Explosive Wave**, then perform another fresh thin-record census rather than assuming the historical ordering remains current.
+
+### 2026-09-25 cycle completion — Skill Batch 366 thin mechanics/provenance research
+- [x] Completed the remaining historical frontier: **Innocence Cannon, Justice Rush, Shining Friday, Strike of Revelation, Sudden Storm, Super Explosive Wave**.
+- [x] Added six current-evidence audit artifacts and `docs/data/skill-research-batches/skill-batch-366.json`.
+- [x] Registered all seven new artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved the important existing taxonomy correction: **Super Explosive Wave remains an Evasive**, not a Super, despite older mentor-table wording elsewhere.
+- [x] Preserved the previously established **Sudden Storm = 200 Ki** correction and Turles mentor route.
+- [x] Evidence limits preserved: no unsupported duration, frame data, exact damage, reward probability, or hidden acquisition gate promoted.
+- [ ] Canonical generated `skills.json` / `skills-index.json` were not partially rewritten because their complete contents cannot be safely reconstructed through the connector.
+- [ ] CI remains unverified.
+- [x] **Exact next:** perform a fresh global thin-record census and choose the next shortest/highest-impact mechanics or deterministic provenance gap; do not assume the historical frontier remains current.
