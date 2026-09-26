@@ -1,3 +1,14 @@
+### 2026-09-26 continuation — Canonical synchronization breakthrough
+
+- [x] Found the safe large-file path: GitHub blob fetch returns the complete canonical JSON blobs even when normal file fetch is truncated; canonical writes can then be performed against the exact blob SHA.
+- [x] Promoted **Arm Crash, Phantom Fist, Justice Combination, Headshot, and Gigantic Rage** from the Batch 473 evidence layer into both `docs/data/skills.json` and `docs/data/skills-index.json`.
+- [x] Updated their canonical `mechanics_notes`, `last_verified`, research/audit registry state, and preserved evidence boundaries.
+- [x] Verified that **Time Skip/Molotov has no discoverable canonical repository record** under that exact name, so it was deliberately not fabricated into the 474/473 canonical dataset.
+- [x] This resolves the previously documented large-file synchronization blocker for JSON datasets; future cycles should use blob fetch/update rather than the truncated file-content response.
+- [ ] CI/build remains unverified.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected repository path.
+- [x] **Exact next:** use the newly available full-blob canonical path to reconcile the remaining verified-but-pending Batch 472/473 audit artifacts against canonical records, then perform a fresh unaudited census and continue larger-batch mechanics enrichment.
+
 ### 2026-09-26 continuation — Batch 474 canonical-frontier verification
 
 - [x] Re-inspected the handoff and TODO state and performed a repository-wide audit search rather than blindly duplicating Batch 473.
