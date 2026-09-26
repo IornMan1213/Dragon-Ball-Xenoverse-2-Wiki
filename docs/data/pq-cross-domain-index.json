@@ -1460,5 +1460,16 @@
   "skill_explosive-wave_current_evidence_audit_2026_09_26_batch_457": "docs/data/skill-explosive-wave-current-evidence-audit-2026-09-26-batch-457.json",
   "skill_force-edge_current_evidence_audit_2026_09_26_batch_457": "docs/data/skill-force-edge-current-evidence-audit-2026-09-26-batch-457.json",
   "skill_ill-bomber_current_evidence_audit_2026_09_26_batch_457": "docs/data/skill-ill-bomber-current-evidence-audit-2026-09-26-batch-457.json",
-  "skill_heavenly-arrow_current_evidence_audit_2026_09_26_batch_457": "docs/data/skill-heavenly-arrow-current-evidence-audit-2026-09-26-batch-457.json"
+  "skill_heavenly-arrow_current_evidence_audit_2026_09_26_batch_457": "docs/data/skill-heavenly-arrow-current-evidence-audit-2026-09-26-batch-457.json",
+  "skill_batch_458": "docs/data/skill-research-batches/skill-batch-458.json",
+  "skill_batch_458_thin_frontier": "docs/data/skill-research-batches/skill-batch-458-thin-frontier-mechanics-audit-2026-09-26.json",
+  "skill_batch_458_current_evidence_research": "docs/data/skill-research-batches/skill-batch-458.json",
+  "skill_super-black-kamehameha-ros_current_evidence_audit_2026_09_26_batch_458": "docs/data/skill-super-black-kamehameha-ros-current-evidence-audit-2026-09-26-batch-458.json",
+  "skill_warp-kamehameha_current_evidence_audit_2026_09_26_batch_458": "docs/data/skill-warp-kamehameha-current-evidence-audit-2026-09-26-batch-458.json",
+  "skill_dead-end-bullet_current_evidence_audit_2026_09_26_batch_458": "docs/data/skill-dead-end-bullet-current-evidence-audit-2026-09-26-batch-458.json",
+  "skill_super-saiyan-god-super-saiyan_current_evidence_audit_2026_09_26_batch_458": "docs/data/skill-super-saiyan-god-super-saiyan-current-evidence-audit-2026-09-26-batch-458.json",
+  "skill_super-electric-strike_current_evidence_audit_2026_09_26_batch_458": "docs/data/skill-super-electric-strike-current-evidence-audit-2026-09-26-batch-458.json",
+  "skill_ki-explosion_current_evidence_audit_2026_09_26_batch_458": "docs/data/skill-ki-explosion-current-evidence-audit-2026-09-26-batch-458.json",
+  "skill_final-explosion_current_evidence_audit_2026_09_26_batch_458": "docs/data/skill-final-explosion-current-evidence-audit-2026-09-26-batch-458.json",
+  "skill_powered-shell_current_evidence_audit_2026_09_26_batch_458": "docs/data/skill-powered-shell-current-evidence-audit-2026-09-26-batch-458.json"
 }
