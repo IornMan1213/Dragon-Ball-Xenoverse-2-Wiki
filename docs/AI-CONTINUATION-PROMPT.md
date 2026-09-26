@@ -2205,3 +2205,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build remains unverified; no workflow success is claimed.
 - [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected path.
 - [x] **Exact next:** prioritize critical cross-domain references that are currently required by live navigation/validators and are safely regenerable from canonical data; do not recreate historical artifacts merely to reduce the unreachable-reference count.
+
+
+### 2026-09-26 continuation — Skill Research Batch 492 completed
+- [x] Fresh live mechanics frontier census performed after Batch 491; stale candidate lists were not reused.
+- [x] Researched and synchronized **Absolute Zero, Afterimage Strike, Bending Kamehameha, Time Skip/Tremor Pulse, and Rising Rage**.
+- [x] Deepened all five canonical records in `docs/data/skills.json` and `docs/data/skills-index.json`; canonical/index parity remains **474/474** with **0 missing / 0 extra** IDs.
+- [x] Added five current-evidence audits plus Batch 492 research/thin-frontier artifacts and registered all seven artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved evidence boundaries: source-reported values remain bounded; unsupported exact frames, probabilities, hidden interactions, and patch-independent scaling were not inferred.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected path.
+- [x] **Exact next:** perform a fresh live unaudited mechanics frontier census before Batch 493; do not reuse the Batch 492 candidate list.
