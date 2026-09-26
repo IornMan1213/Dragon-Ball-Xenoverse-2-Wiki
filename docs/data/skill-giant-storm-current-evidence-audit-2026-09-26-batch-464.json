@@ -1,0 +1,18 @@
+{
+  "batch": 464,
+  "date": "2026-09-26",
+  "skill_name": "Giant Storm",
+  "skill_id": "skill-giant-storm",
+  "status": "completed",
+  "findings": [
+    "300-Ki Ki Blast Ultimate from the Skill Shop. The user charges and creates a large explosion beneath the target; current evidence describes long-range tracking, a single-hit launch, and an upward escape that protects the user from the backdraft. Exact tracking envelope, frames, and damage scaling remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Giant_Storm",
+    "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted."
+  ]
+}
