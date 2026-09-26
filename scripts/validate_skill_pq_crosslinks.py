@@ -30,6 +30,15 @@ assert len(set(ids)) == EXPECTED_SKILLS, "duplicate canonical skill IDs"
 # Keep the checked-in reverse artifact synchronized with the deterministic source projection.
 # A count-only check can pass while individual PQ edges drift.
 existing_reverse = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else None
+if existing_reverse is not None:
+    assert isinstance(existing_reverse, dict), "checked-in reverse index root must be an object"
+    assert existing_reverse.get("schema_version") == "1.0", "checked-in reverse index schema_version must be 1.0"
+    assert existing_reverse.get("scope") == "Canonical skill dataset → Parallel Quest reverse navigation", "checked-in reverse index scope drift"
+    assert existing_reverse.get("source") == "docs/data/skills.json", "checked-in reverse index source drift"
+    assert existing_reverse.get("generated_on") == "2026-09-26", "checked-in reverse index generated_on drift"
+    assert existing_reverse.get("canonical_skill_count") == EXPECTED_SKILLS, "checked-in reverse index canonical skill count drift"
+    assert existing_reverse.get("represented_pq_count") == EXPECTED_REPRESENTED_PQS, "checked-in reverse index represented PQ count drift"
+    assert existing_reverse.get("total_skill_pq_edges") == EXPECTED_EDGES, "checked-in reverse index edge count drift"
 
 by_pq = {str(i): [] for i in range(1, 187)}
 for record in records:
