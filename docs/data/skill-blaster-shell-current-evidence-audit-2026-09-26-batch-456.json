@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-blaster-shell",
+  "name": "Blaster Shell",
+  "batch": 456,
+  "date": "2026-09-26",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Blaster_Shell",
+    "https://dbxv2.fandom.com/wiki/Mentors"
+  ],
+  "findings": [
+    "2026-09-26 Batch 456 current-evidence enrichment: 100-Ki Ki Blast Super from Broly training. The user fires five Ki Blasts in alternating hands for five documented hits; repeated input accelerates the volley. Current evidence supports the five-shot sequence and acquisition endpoint; exact input timing, hit-confirm behavior, and damage scaling remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
