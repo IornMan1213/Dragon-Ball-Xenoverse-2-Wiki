@@ -32,13 +32,16 @@
     "duplicate_bridge_character_ids": [],
     "malformed_bridge_character_ids": [],
     "malformed_key_numbers": [],
-    "malformed_reconciliation_key_numbers": []
+    "malformed_reconciliation_key_numbers": [],
+    "key_record_ids_unique": true,
+    "key_record_ids_match_key_numbers": true,
+    "key_id_fields_are_strings": true
   },
   "missing_page_search_links": [],
   "extra_page_search_links": [],
   "identity_mismatches": [],
   "status": "clean",
-  "evidence_boundary": "Navigation identity remains deterministic. The validator now joins key and reconciliation records by their explicit numeric key rather than relying on sorted zip position, and rejects duplicate/malformed bridge IDs and malformed key fields. DLC ownership, raid history, TP Medal costs, and other partially verified system facts remain outside this contract. The 2026-09-26 reconciliation also incorporates the repaired five preset character identity bridge records; this remains navigation-only.",
+  "evidence_boundary": "Navigation identity remains deterministic. The validator joins key and reconciliation records by explicit numeric key, validates bridge identity shapes, validates page-search query projection, and now enforces the canonical customization-key-01..20 ID projection. DLC ownership, raid history, TP Medal costs, and other partially verified Partner Customization facts remain outside this contract.",
   "duplicate_key_numbers": [],
   "duplicate_reconciliation_key_numbers": [],
   "page_search_link_target_mismatches": [],
@@ -52,11 +55,12 @@
     "search_link_exact_count": true
   },
   "reconciliation_note": "2026-09-26 live-baseline synchronization: the five restored preset character identity mappings bring the explicit bridge to 34 records and the canonical character layer to 152 names. No navigation identity mapping was changed.",
-  "checks_count": 18,
-  "checks_passed": 18,
+  "checks_count": 21,
+  "checks_passed": 21,
   "checks_failed": 0,
   "notes": [
-    "2026-09-26 consistency correction: the audit contained 18 boolean validation checks, all true, while the recovery audit's summary still reported 16 checks passed. The current audit now records the exact 18/18 boolean-check baseline."
+    "2026-09-26 consistency correction: the audit contained 18 boolean validation checks, all true, while the recovery audit's summary still reported 16 checks passed. The current audit now records the exact 18/18 boolean-check baseline.",
+    "2026-09-26 schema hardening: key record IDs are now required to be non-empty strings, unique, and exactly customization-key-01 through customization-key-20 in numeric-key order."
   ],
   "validator_hardening_2026_09_26": {
     "change": "Added explicit field-type/schema checks for key, reconciliation, and bridge records: positive integer key numbers, non-empty string character IDs/partner names, and non-empty canonical bridge names.",
@@ -68,5 +72,12 @@
     "result": "The established navigation counts and identity projection are unchanged.",
     "validator_commit": "Committed directly to main in this continuation cycle.",
     "evidence_boundary": "Identity/navigation validation only; no DLC ownership, raid rotation, TP Medal cost, or other partially verified Partner Customization facts are inferred."
+  },
+  "duplicate_key_ids": [],
+  "malformed_key_ids": [],
+  "validator_hardening_2026_09_26_key_identity": {
+    "change": "Added deterministic validation for Partner Customization key record IDs: non-empty string shape, uniqueness, and exact customization-key-01..20 projection from key_number.",
+    "result": "The existing 20-key / 20-reconciliation / 34-bridge navigation contract is unchanged; malformed or misprojected key IDs now fail explicitly.",
+    "validator_commit": "017febd542a1aeabcbc6dbcc81559cd025d428ec"
   }
 }
