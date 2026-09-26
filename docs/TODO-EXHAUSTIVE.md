@@ -1,3 +1,10 @@
+### 2026-09-26 TODO progress update — Cross-domain reachability scalar drift corrected
+- [x] Corrected docs/data/cross-domain-index-reference-reachability-audit-2026-09-26.json: its critical-reference count said 20 while its actual enumerated critical set contained 18.
+- [x] Synchronized the scalar with the enumerated live set; no provenance references were deleted.
+- [x] Current reachability baseline remains 730 live tree paths / 1,631 reference occurrences / 739 reachable / 892 unreachable.
+- [x] Preserved the evidence boundary around the absent general PQ reward/reverse datasets.
+- [ ] Runtime execution/CI remains unverified.
+- [x] Exact next: inspect the next live cross-domain validator/consumer for a concrete deterministic integrity mismatch.
 ### 2026-09-26 TODO progress update — Character presentation validator hardened for optional generated explorer
 - [x] Found and fixed a concrete live-validator failure: `scripts/validate_character_presentation_consumers.py` unconditionally required generated `docs/Characters-All.html`, which is absent from the source tree.
 - [x] The validator now treats the generated explorer as optional build output and validates its navigation contract only when present; source-data checks remain mandatory.
