@@ -941,5 +941,6 @@
   "skill_angry_explosion_current_evidence_audit_2026_09_25": "docs/data/skill-angry-explosion-current-evidence-audit-2026-09-25.json",
   "skill_brave_heat_current_evidence_audit_2026_09_25": "docs/data/skill-brave-heat-current-evidence-audit-2026-09-25.json",
   "skill_burst_reflection_current_evidence_audit_2026_09_25": "docs/data/skill-burst-reflection-current-evidence-audit-2026-09-25.json",
-  "skill_batch_386_thin_frontier_mechanics_2026_09_25": "docs/data/skill-research-batches/skill-batch-386.json"
+  "skill_batch_386_thin_frontier_mechanics_2026_09_25": "docs/data/skill-research-batches/skill-batch-386.json",
+  "skill_batch_386_thin_frontier_mechanics_audit_2026_09_25": "docs/data/skill-batch-386-thin-frontier-mechanics-audit-2026-09-25.json"
 }
