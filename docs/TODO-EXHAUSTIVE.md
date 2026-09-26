@@ -1,3 +1,14 @@
+### 2026-09-25 continuation — Skill Research Batch 398 completed
+
+- [x] Fresh 474-record thin-frontier census excluded completed Batches 396–397 and selected **Chaos Shot, Innocence Cannon, Zigzag Express, Burst Charge, Sauzer Blade**.
+- [x] Refreshed current Xenoverse 2 mechanics/acquisition boundaries in both canonical skill layers for all five records.
+- [x] Added `docs/data/skill-research-batches/skill-batch-398.json` and five current-evidence audit files.
+- [x] Registered Batch 398 and all five audits in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved bounded evidence policy: no unsupported frame data or reward probabilities were promoted; Zigzag Express's Male Majin restriction and PQ85 route, Burst Charge's short-burst behavior, Chaos Shot's 2/9-hit branches, Innocence Cannon's 30%/launch behavior, and Sauzer Blade's five-hit/weak-Ki-Blast cancellation behavior were documented from current references. citeturn1search1turn1search2turn1search3turn1search0turn1search9
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** run another 474-record frontier census excluding completed Batch 398 targets, then enrich the next shortest genuinely under-detailed records and synchronize both canonical layers.
+
+
 ### 2026-09-25 continuation — Skill Research Batch 397 completed
 
 - [x] Fresh thin-frontier census selected the seven shortest mechanics records after Batch 396: **Kai Kai, Psycho Escape, Supernova Cooler, Super Elite Combo, Energy Dome, Eye Beam, One-Handed Kamehameha mk.II**.
