@@ -1,0 +1,23 @@
+{
+  "audit_id": "skill-god-breaker_current_evidence_audit_2026_09_26_batch_472",
+  "batch": 472,
+  "date": "2026-09-26",
+  "skill_id": "skill-god-breaker",
+  "skill_name": "God Breaker",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/God_Breaker",
+    "https://dragonball.fandom.com/wiki/God_Breaker"
+  ],
+  "mechanics_summary": "100-Ki Ki Blast Super strike counter from PQ44. The user poses for incoming Strike/basic melee attacks, then stuns and fires a yellow blast at the triggering opponent; current documentation notes broad active coverage and that the blast may be vanished.",
+  "evidence_limits": [
+    "Exact frame data and patch-independent scaling are unresolved unless directly established.",
+    "Source-reported damage values are not asserted as universal balance constants.",
+    "Reward/drop probability and hidden interaction details remain unresolved where the cited sources do not establish them."
+  ],
+  "canonical_changes": {
+    "mechanics_notes_updated": true,
+    "last_verified": "2026-09-26"
+  }
+}
