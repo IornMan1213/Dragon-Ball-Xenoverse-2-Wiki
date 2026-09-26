@@ -4377,14 +4377,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Kamehameha",
         "https://dragonball.fandom.com/wiki/Final_Kamehameha",
-        "https://gamefaqs.gamespot.com/boards/233580-dragon-ball-xenoverse-2-extra-pack-2-infinite-history/80482771"
+        "https://gamefaqs.gamespot.com/boards/233580-dragon-ball-xenoverse-2-extra-pack-2-infinite-history/80482771",
+        "https://gamersdecide.com/articles/dragon-ball-xenoverse-2-best-ultimate-attacks"
       ],
       "unlock_method": "Parallel Quest 91 — \"Saiyan Revolt\" Basic Reward; also available through the TP Medal Shop and Double Crystal Raids",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 500-Ki Ki Blast Ultimate is available through TP Medal Shop, PQ91 Basic Reward, and Double Crystal Raids. It begins as a Final Flash-like charge and transitions into a Super Kamehameha beam; current PQ evidence explicitly lists it as a Basic Reward. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "22-hit Ki Blast Ultimate; charges a Final Flash-like shot before switching to Super Kamehameha. Current evidence documents a 22-hit beam and approximately 40% total damage; the sequence begins as Final Flash and transitions into Super Kamehameha.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 500-Ki Ki Blast Ultimate is available through TP Medal Shop, PQ91 Basic Reward, and Double Crystal Raids. It begins as a Final Flash-like charge and transitions into a Super Kamehameha beam; current PQ evidence explicitly lists it as a Basic Reward. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 464 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate associated with Vegito and obtainable from PQ91/related shop availability. The sequence begins as a Final Flash-like charge and transitions into a Super Kamehameha beam. Current evidence documents 22 hits, approximately 40% total damage, long-range behavior, and heavy knockback; exact frame timing and patch-independent scaling remain unresolved.",
       "source_quest": 91,
       "source_quest_or_shop": "TP Medal Shop / Parallel Quest 91 / Double Crystal Raids",
       "source_parallel_quests": [
@@ -4963,14 +4964,14 @@
         "https://dbxv2.fandom.com/wiki/Giant_Storm",
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dragonball.fandom.com/wiki/Volcano_Explosion",
-        "https://dbxv2.fandom.com/wiki/Giant_Storm"
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ],
       "unlock_method": "Skill Shop",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-26 Batch 446 current-evidence audit: current Xenoverse 2 documentation revalidated Skill Shop acquisition, 300-Ki Ultimate classification, long-range tracking explosion, single-hit launch, and backdraft-guard behavior. Exact charge timing and source-reported damage remain bounded.",
-      "mechanics_notes": "300-Ki Ki Blast Ultimate from the Skill Shop. The user charges, then creates a large explosion beneath the target; dedicated current evidence describes long-range tracking, a single-hit launch, and an upward escape that protects against the backdraft.",
+      "notes": "2026-09-26 Batch 446 current-evidence audit: current Xenoverse 2 documentation revalidated Skill Shop acquisition, 300-Ki Ultimate classification, long-range tracking explosion, single-hit launch, and backdraft-guard behavior. Exact charge timing and source-reported damage remain bounded.\n2026-09-26 Batch 464 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from the Skill Shop. The user charges and creates a large explosion beneath the target; current evidence describes long-range tracking, a single-hit launch, and an upward escape that protects the user from the backdraft. Exact tracking envelope, frames, and damage scaling remain unresolved.",
       "source_quest": "Skill Shop",
       "source_quest_or_shop": "Skill Shop",
       "ki_cost": 300
@@ -6430,14 +6431,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Justice_Blade",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://en.dragon-ball-official.com/news/01_1142.html"
       ],
       "unlock_method": "Parallel Quest 152 — \"Dyspo's Wanted Man\" Ultimate Finish bonus reward (40% roll)",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 verification: current skill page explicitly identifies Parallel Quest 152 as the unlock source. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics.\n2026-09-22 provenance refresh: PQ152 remains the canonical acquisition endpoint with the documented Ultimate Finish bonus-roll condition. The existing note's PQ152 wording is corrected to PQ152; no additional gate is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "100-Ki Strike Super learned/used by Dyspo. Current evidence documents a rapid 11-hit blue Ki-blade sequence and an Ultimate follow-up state on successful connection; exact compatible-Ultimate list and universal frame/damage data remain unresolved.",
+      "notes": "2026-09-19 verification: current skill page explicitly identifies Parallel Quest 152 as the unlock source. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics.\n2026-09-22 provenance refresh: PQ152 remains the canonical acquisition endpoint with the documented Ultimate Finish bonus-roll condition. The existing note's PQ152 wording is corrected to PQ152; no additional gate is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 464 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "mechanics_notes": "100-Ki Strike Super from PQ152, used by Dyspo. The user creates a blue Ki blade and strikes forward for an 11-hit sequence; current evidence documents approximately 15% damage and an on-hit follow-up state that permits a compatible Ultimate with sufficient range/charge time. The exact compatible-Ultimate set and frame data remain unresolved.",
       "source_quest": 152,
       "source_quest_or_shop": "Parallel Quest 152 — \"Dyspo's Wanted Man\"",
       "source_parallel_quests": [
@@ -6846,14 +6848,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Lightning_of_Absolution",
         "https://dragonball.fandom.com/wiki/Lightning_of_Absolution",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Fused_Zamasu"
       ],
       "unlock_method": "Parallel Quest 111 — Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 provenance strengthening: maintained Steam all-186 Parallel Quest guide independently lists Lightning of Absolution as a PQ111 — The Zero Mortal Plan Basic Reward, corroborating the existing PQ111 acquisition endpoint. No drop probability or Ultimate Finish requirement was inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, restriction, DLC/update provenance, and reward-tier semantics against the maintained evidence corpus; no unsupported probabilities, gates, or numerical mechanics were added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
-      "mechanics_notes": "100-Ki tracking Ki Blast Super associated with Fused Zamasu. It is a two-hit long-range lightning attack; current skill evidence reports 5% damage and documents follow-up lightning strikes that can still connect when the initial halo lightning misses.",
+      "notes": "2026-09-21 provenance strengthening: maintained Steam all-186 Parallel Quest guide independently lists Lightning of Absolution as a PQ111 — The Zero Mortal Plan Basic Reward, corroborating the existing PQ111 acquisition endpoint. No drop probability or Ultimate Finish requirement was inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, restriction, DLC/update provenance, and reward-tier semantics against the maintained evidence corpus; no unsupported probabilities, gates, or numerical mechanics were added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.\n2026-09-26 Batch 464 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "mechanics_notes": "100-Ki tracking Ki Blast Super associated with Fused Zamasu. It produces a two-hit long-range lightning attack; current evidence reports approximately 5% damage and documents additional lightning strikes that can still connect when the initial halo lightning misses. Exact tracking limits, frame data, and scaling remain unresolved.",
       "source_quest": 111,
       "source_quest_or_shop": "Parallel Quest 111 — \"The Zero Mortal Plan\"",
       "source_parallel_quests": [
@@ -7148,14 +7151,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Meteor_Burst"
       ],
       "unlock_method": "Turles's mentor training — complete the corresponding lesson to receive Meteor Burst as the Basic Reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-26 Batch 445 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the current cost, acquisition, classification, and bounded mechanics; exact frames/recovery/scaling remain unresolved.",
-      "mechanics_notes": "300-Ki Ki Blast Ultimate from Turles training. A brief barrier absorbs attacks before a large Ki projectile erupts into a pillar; dedicated evidence documents 42 hits and approximately 80% total damage, with additional input able to fire faster.",
+      "notes": "2026-09-26 Batch 445 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the current cost, acquisition, classification, and bounded mechanics; exact frames/recovery/scaling remain unresolved.\n2026-09-26 Batch 464 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate learned through Turles training. The user first holds a barrier that absorbs attacks, then thrusts the hand forward to create a large Ki ball that erupts into a pillar. Current evidence documents 42 hits and approximately 80% total damage, with additional input allowing the sequence to fire faster.",
       "source_quest": "Turles mentor training",
       "source_quest_or_shop": "Turles mentor training",
       "ki_cost": 300
@@ -7491,14 +7495,16 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Paralyze_Beam",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Paralyze_Beam",
+        "https://mp1st.com/news/dragon-ball-xenoverse-2-update-1-26-march-17-flies-out-for-legendary-pack-1-more"
       ],
       "unlock_method": "Parallel Quest 04 - \"Prepare for the Attack of Saiyans!\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-26 current-evidence refresh: exact-name documentation reconfirms the 100-Ki Ki Blast Super classification, PQ4 Basic Reward route, backward beam behavior, and brief stagger effect. No narrower CaC restriction or exact drop probability is inferred.",
-      "mechanics_notes": "100-Ki Ki Blast Super obtained from PQ4. Fires a short-range beam backward; on contact it briefly staggers/stuns the opponent. Orange Piccolo uses it as a backhit. Exact stun duration, damage, drop probability, and frame data remain unresolved.",
+      "notes": "2026-09-26 current-evidence refresh: exact-name documentation reconfirms the 100-Ki Ki Blast Super classification, PQ4 Basic Reward route, backward beam behavior, and brief stagger effect. No narrower CaC restriction or exact drop probability is inferred.\n2026-09-26 Batch 464 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ4. The user quickly fires a beam backward; a hit causes the opponent to stagger briefly. Current evidence classifies it as a short-range, single-hit stun/backhit attack. Update 1.26 documentation records faster hit registration and changed damage reaction, so exact timing is version-sensitive; exact stun duration, frame data, and drop probability remain unresolved.",
       "source_quest": 4,
       "source_quest_or_shop": "Parallel Quest 4 — \"Prepare for the Attack of Saiyans!\"",
       "source_parallel_quests": [
@@ -9728,10 +9734,10 @@
       ],
       "unlock_method": "Whis's mentor training — complete the corresponding lesson to receive Strike of Revelation as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.\n2026-09-25 Batch 371 mechanics enrichment: promoted current skill-specific/repository evidence; unresolved frame, timing, probability, hidden-gate, and unsupported numeric fields remain bounded.",
-      "mechanics_notes": "100-Ki Strike Super from Whis mentor training. Current repository evidence confirms the mentor acquisition endpoint and cost; detailed frame, damage, and timing behavior remains version-sensitive and is not inferred beyond the maintained evidence.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.\n2026-09-25 Batch 371 mechanics enrichment: promoted current skill-specific/repository evidence; unresolved frame, timing, probability, hidden-gate, and unsupported numeric fields remain bounded.\n2026-09-26 Batch 464 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "mechanics_notes": "100-Ki Strike Super learned through Whis mentor training. Current Xenoverse 2 evidence confirms the mentor acquisition endpoint and 100-Ki classification; detailed frame, damage, hit-confirmation, and timing behavior remains version-sensitive and is not inferred beyond maintained evidence.",
       "source_quest": "Whis mentor training",
       "source_quest_or_shop": "Whis mentor training"
     },
@@ -11154,10 +11160,10 @@
       ],
       "unlock_method": "Parallel Quest 123 — Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 race-scope reconciliation: Dragon Ball Wiki explicitly lists Future Warrior as a Xenoverse 2 user and states the Future Warrior can obtain Variant Drive from PQ123. This establishes CaC availability; no narrower race/gender/form restriction is documented, so the canonical scope is All CaC races. 2026-09-22 provenance refresh: dedicated current skill evidence reconfirms the 100-Ki Strike classification, PQ123 acquisition, rush/shockwave behavior, and Extra Pack 3 provenance. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.\n2026-09-25 final-frontier promotion: Rushes forward with a punch and knee; directional input plus attack input can fire an unblockable shockwave that knocks the opponent away, while guarding cancels the rush. Current skill documentation records about 10% melee and 15% shockwave damage. Evidence limits preserved: Steam PQ guide explicitly lists Variant Drive as a Basic Reward; independent Dragon Ball documentation describes it as a random PQ123 reward. Exact underlying drop probability is unresolved. Red-health damage modifiers reported by the current Fandom page are preserved only as source context and are not promoted into canonical numeric mechanics here.",
-      "mechanics_notes": "Rushes forward with a punch and knee; directional input plus attack input can fire an unblockable shockwave that knocks the opponent away, while guarding cancels the rush. Current skill documentation records about 10% melee and 15% shockwave damage.",
+      "notes": "2026-09-20 race-scope reconciliation: Dragon Ball Wiki explicitly lists Future Warrior as a Xenoverse 2 user and states the Future Warrior can obtain Variant Drive from PQ123. This establishes CaC availability; no narrower race/gender/form restriction is documented, so the canonical scope is All CaC races. 2026-09-22 provenance refresh: dedicated current skill evidence reconfirms the 100-Ki Strike classification, PQ123 acquisition, rush/shockwave behavior, and Extra Pack 3 provenance. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.\n2026-09-25 final-frontier promotion: Rushes forward with a punch and knee; directional input plus attack input can fire an unblockable shockwave that knocks the opponent away, while guarding cancels the rush. Current skill documentation records about 10% melee and 15% shockwave damage. Evidence limits preserved: Steam PQ guide explicitly lists Variant Drive as a Basic Reward; independent Dragon Ball documentation describes it as a random PQ123 reward. Exact underlying drop probability is unresolved. Red-health damage modifiers reported by the current Fandom page are preserved only as source context and are not promoted into canonical numeric mechanics here.\n2026-09-26 Batch 464 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "mechanics_notes": "Ki-based rush Super. The user rushes forward with a punch and knee; directional input plus attack input can produce an unblockable shockwave that knocks the opponent away, while guarding cancels the rush. Current skill documentation records approximately 10% melee damage and 15% shockwave damage. Exact frame timing and patch-independent scaling remain unresolved.",
       "source_quest": 123,
       "source_quest_or_shop": "Parallel Quest 123 — \"Planetary Possession\"",
       "source_parallel_quests": [
