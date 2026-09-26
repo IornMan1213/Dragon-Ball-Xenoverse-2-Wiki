@@ -1,0 +1,41 @@
+{
+  "batch": 472,
+  "date": "2026-09-26",
+  "selection_method": "Fresh live mechanics frontier after Batch 471; selected records with no registered current-evidence audit, prioritizing a coherent under-documented counter/rush cluster with strong current skill-reference coverage.",
+  "selected_skills": [
+    {
+      "skill_id": "skill-big-bang-knuckle",
+      "skill_name": "Big Bang Knuckle"
+    },
+    {
+      "skill_id": "skill-god-breaker",
+      "skill_name": "God Breaker"
+    },
+    {
+      "skill_id": "skill-heroic-counter",
+      "skill_name": "Heroic Counter"
+    },
+    {
+      "skill_id": "skill-counter-impact",
+      "skill_name": "Counter Impact"
+    },
+    {
+      "skill_id": "skill-punisher-drive",
+      "skill_name": "Punisher Drive"
+    },
+    {
+      "skill_id": "skill-time-skip-back-breaker",
+      "skill_name": "Time Skip/Back Breaker"
+    },
+    {
+      "skill_id": "skill-time-skip-flash-skewer",
+      "skill_name": "Time Skip/Flash Skewer"
+    },
+    {
+      "skill_id": "skill-time-skip-jump-spike",
+      "skill_name": "Time Skip/Jump Spike"
+    }
+  ],
+  "frontier_notes": "This batch intentionally preserves source-bounded numerical values and does not infer exact frames, scaling formulas, probabilities, or hidden interactions.",
+  "next_exclusion_rule": "Exclude Batch 472 and every prior current-evidence audit."
+}
