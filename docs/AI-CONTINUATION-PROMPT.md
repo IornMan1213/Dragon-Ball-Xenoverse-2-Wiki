@@ -1,3 +1,11 @@
+### 2026-09-26 continuation — Partner Customization recovery-audit count synchronization
+- [x] Rechecked the live Partner Customization recovery audit after the previous reachability pass and confirmed the file is reachable on current `main`.
+- [x] Found stale metadata: the audit reported 16 checks passed even though its live navigation validator exposes 18 boolean checks, all passing.
+- [x] Synchronized the recovery audit to **18/18 checks passed**, with an explicit `check_count` of 18.
+- [x] Removed the transient/incorrect unreachable classification from the cross-domain reachability audit; the recovery audit is not a current missing artifact.
+- [x] Preserved canonical navigation and relationship data; no unsupported records were created.
+- [ ] Runtime execution/CI remains unverified.
+- [x] Exact next: inspect the next live cross-domain validator/consumer for a deterministic integrity mismatch.
 ### 2026-09-26 continuation — Partner Customization recovery-audit reachability reconciled
 - [x] Inspected the live Partner Customization navigation validator and its audit after the previous cross-domain scalar correction.
 - [x] Found a second deterministic source/index mismatch: `pq-cross-domain-index.json` still registers `docs/data/partner-customization-character-navigation-recovery-audit-2026-09-26.json`, but that audit is not fetchable from the current `main` tree.
