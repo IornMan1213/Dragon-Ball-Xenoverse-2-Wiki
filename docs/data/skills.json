@@ -636,10 +636,10 @@
       "source_quest_or_shop": "Parallel Quest 125 — \"Proof's in the Potara\"",
       "ultimate_finish_required": false,
       "skill_description": "Blaster Ball is a Super Ki Blast skill associated with Kefla.",
-      "mechanics_notes": "Dedicated current-version evidence confirms Blaster Ball as a 100–500 Ki Ki Blast Super from PQ125. Repeated input extends the barrage up to 13 total hits. No unsupported CaC race/gender/form restriction was inferred. Current evidence confirms CaC availability and no narrower CaC race/gender/form restriction is established; no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
-      "verification_status": "verified",
+      "mechanics_notes": "100–500-Ki Ki Blast Super from PQ125, associated with Kefla. Repeated input extends the barrage; current dedicated evidence documents 2–13 hits, long-range projectile behavior, and knockback. The existing 100–500 Ki range reflects repeated input rather than a single fixed activation cost. Exact damage scaling, projectile travel timing, and hit-count behavior across every input timing remain unresolved.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Blaster_Ball",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -650,7 +650,7 @@
       "source_quest": 125,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance verification: dedicated skill documentation confirms Blaster Ball as a 100–500-Ki Ki Blast Super used by Kefla (Super Saiyan), acquired from Parallel Quest 125 — “Proof's in the Potara.” It documents repeatable firing, long-range projectile behavior, 2–13 hits, and knockback. The existing PQ125 Basic Reward acquisition is retained.",
+      "notes": "2026-09-26 Batch 441 refresh: current skill-specific evidence reconfirms PQ125 Basic Reward acquisition, 100–500 Ki range, repeated firing, 2–13-hit range, long-range behavior, and knockback. No unsupported race/gender/form restriction, drop probability, frame data, or patch-independent damage value was added.",
       "id": "skill-blaster-ball",
       "source_parallel_quests": [
         125
@@ -9240,10 +9240,10 @@
       "source_quest_or_shop": "Parallel Quest 34 — \"Return of the Ginyu Force!\"",
       "ultimate_finish_required": false,
       "skill_description": "Paralysis is a Strike Ultimate Skill associated with Guldo. The user immobilizes the opponent with telekinesis, then follows with an ice-pillar attack that freezes the target.",
-      "mechanics_notes": "Confirmed as a 300-Ki Strike Ultimate from PQ34. The move freezes the opponent with telekinesis and then strikes with an ice pillar; current Future Warrior references establish CaC availability. The maintained PQ listing places it in the Basic Reward section, so no Ultimate Finish-only acquisition gate is recorded.",
+      "mechanics_notes": "300-Ki Strike Ultimate from PQ34. Guldo's telekinetic effect immobilizes the opponent before an ice-pillar follow-up freezes the target. Current evidence describes the sequence as two hits and reports approximately 25% total damage; it also identifies the attack as unblockable. Exact freeze duration, frame timing, and patch-independent damage scaling remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Paralysis",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
@@ -9254,7 +9254,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 34,
       "acquisition_type": "quest_or_mission",
-      "notes": "Canonical classification corrected from Super/Ki Blast to Ultimate/Strike; PQ34 Basic Reward acquisition retained.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
+      "notes": "2026-09-26 Batch 441 refresh: current evidence reconfirms PQ34 Basic Reward acquisition, Strike Ultimate classification, 300 Ki cost, immobilization/ice-pillar sequence, unblockable property, and the source-reported two-hit/25%-damage figure. The latter is retained as source-reported, not promoted to a timeless game-data constant.",
       "id": "skill-paralysis",
       "source_parallel_quests": [
         34
@@ -9343,13 +9343,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Cell (Perfect) mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.\n2026-09-23 mechanics enrichment: confirmed as Cell (Perfect)'s mentor reward and a 400-Ki Ultimate; corroborating references document its beam/charge behavior and tracking, while exact damage/hit-count values remain deferred.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "400-Ki Ki Blast Ultimate obtained from Cell (Perfect)'s mentor training. The user performs a long charge and then fires a stationary Kamehameha; current dedicated evidence reports tracking and approximately 40% damage over 21 hits. The long charge leaves the user exposed. Exact tracking rules, frame timing, and patch-independent damage scaling remain unresolved.",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": "Cell (Perfect) mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost, and bounded mechanics against the maintained repository evidence corpus and current corroborating references; no unsupported drop probabilities, additional gates, timers, damage values, or narrower CaC restrictions were introduced. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
+      "notes": "2026-09-26 Batch 441 refresh: current mentor and skill-specific references reconfirm Cell (Perfect) mentor acquisition, 400 Ki cost, charge-and-beam behavior, tracking, and the source-reported 21-hit/~40%-damage figure. No unsupported lesson gate, frame data, drop probability, or narrower CaC restriction was added.",
       "id": "skill-perfect-kamehameha",
       "source_mentor": [
         "mentor-cell"
@@ -12517,7 +12517,7 @@
       "name": "Super Kamehameha (SS4 DAIMA)",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Kamehameha_%28SS4_DAIMA%29",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
@@ -12531,14 +12531,14 @@
       "unlock_method": "Parallel Quest 181 — \"The Greatest Training Ever\" Basic Reward",
       "source_quest_or_shop": "PQ181 - \"The Greatest Training Ever\"",
       "ultimate_finish_required": false,
-      "mechanics_notes": "400–500-Ki Ki Blast Ultimate. The user charges and fires a full-power beam; holding the input after the extension prompt spends an additional 100 Ki to lengthen and strengthen the blast. Current skill-specific evidence classifies it as an extendable 12–33-hit beam from PQ181.",
+      "mechanics_notes": "400–500-Ki Ki Blast Ultimate from PQ181, associated with SS4 Goku (DAIMA). The base attack charges and fires a full-power beam; an extension input after the attack connects spends an additional 100 Ki and lengthens/strengthens the beam. Current skill-specific evidence documents an extendable beam with 12–33 reported hits. Exact damage, timing, and patch-independent scaling remain unresolved.",
       "research_status": "enriched",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "mechanics": "400 Ki base cost; holding input on hit spends an additional 100 Ki for the boosted version, giving a 400–500 Ki range.",
       "race_restriction": "All CaC races",
       "source_quest": 181,
       "acquisition_type": "quest_or_mission",
-      "notes": "Dragon Ball DAIMA Pack provenance is documented; PQ181 is the maintained acquisition endpoint and lists the skill in Basic Rewards. Base activation uses 400 Ki; an additional 100 Ki input can extend/power the attack, for 500 Ki total. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims. 2026-09-25 Batch 378 mechanics enrichment: current skill-specific evidence added; numeric damage/duration values remain source-reported rather than patch-independent canonical measurements.",
+      "notes": "2026-09-26 Batch 441 refresh: current DAIMA skill documentation and the maintained acquisition endpoint reconfirm PQ181 Basic Reward, 400-Ki base cost, optional +100 Ki extension, and the reported 12–33-hit behavior. Numerical damage/duration values remain source-reported rather than canonical measurements.",
       "id": "skill-super-kamehameha-ss4-daima",
       "source_parallel_quests": [
         181
