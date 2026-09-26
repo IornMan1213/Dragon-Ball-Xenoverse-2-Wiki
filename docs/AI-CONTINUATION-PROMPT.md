@@ -1791,3 +1791,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved evidence boundaries; unsupported exact frames, hidden conditions, probabilities, and patch-independent scaling were not inferred.
 - [ ] CI/build remains unverified.
 - [x] **Exact next:** perform another fresh unaudited mechanics frontier census excluding Batch 465 and every prior registered current-evidence audit.
+
+
+### 2026-09-26 continuation — Skill Research Batch 466 completed
+- [x] Fresh live mechanics frontier selected **Destructive Flare, Instant Charge, Lovely Cyclone, Milky Cannon, Dragon Fist, Sign of Awakening, Variable Snipe Shot, and Crush Stream** after excluding registered current-evidence audits.
+- [x] Deepened and synchronized all eight canonical records; canonical/index remain **474/474**.
+- [x] Added eight current-evidence audits plus Batch 466 research/thin-frontier artifacts and provenance registrations.
+- [x] Preserved evidence boundaries; source-reported numerical values remain bounded and unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** perform another fresh unaudited mechanics frontier census excluding Batch 466 and every prior registered current-evidence audit, then continue the canonical research/synchronization cycle.
