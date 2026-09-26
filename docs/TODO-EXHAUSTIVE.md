@@ -1497,3 +1497,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Registered Batch 451 provenance.
 - [ ] CI/build remains unverified.
 - [x] Next: continue the fresh unaudited mechanics frontier.
+
+
+### 2026-09-26 TODO progress update — Skill Research Batch 452 completed
+- [x] Fresh 474-record mechanics frontier census excluded every skill with a registered current-evidence audit and selected **Orin Combo, Comet Strike, Meteor Crash, Assault Vanish, God of Destruction's Might, Psychic Move, Special Beam Cannon, and Impact Flare**.
+- [x] Enriched and synchronized all eight records in `docs/data/skills.json` and `docs/data/skills-index.json`; canonical/index remain 474/474 with 0 missing / 0 extra.
+- [x] Added eight current-evidence audits, Batch 452 research data, thin-frontier audit, and provenance registrations.
+- [x] Preserved evidence boundaries: source-reported values remain source-bound; unsupported exact frames, scaling, probabilities, and hidden conditions remain unresolved unless directly evidenced.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [ ] Repository efficiency addendum remains unavailable at the expected path; GitHub returns 404.
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 452 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
