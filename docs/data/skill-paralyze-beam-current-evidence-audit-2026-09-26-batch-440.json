@@ -1,0 +1,19 @@
+{
+  "skill_id": "skill-paralyze-beam",
+  "name": "Paralyze Beam",
+  "batch": 440,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Paralyze_Beam",
+    "https://dbxv2.fandom.com/wiki/Prepare_for_the_Attack_of_Saiyans!",
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+  ],
+  "findings": [
+    "100-Ki Ki Blast Super",
+    "PQ4 — Prepare for the Attack of Saiyans! Basic Reward",
+    "Fires a beam backward and briefly staggers/stuns on contact",
+    "Orange Piccolo uses the move as a backhit",
+    "Exact stun duration, damage, frames, and drop probability remain unresolved"
+  ]
+}
