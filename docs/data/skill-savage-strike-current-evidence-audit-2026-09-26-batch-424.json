@@ -20,5 +20,7 @@
     "Exact startup/active/recovery frames are not asserted.",
     "Exact current damage scaling is not promoted from community discussion.",
     "Hidden tracking thresholds and version-specific cancel behavior remain unresolved."
-  ]
+  ],
+  "canonical_status": "no_exact_name_or_id_found_in_current_474_record_skills_dataset",
+  "promotion_status": "held_pending_canonical_identity_reconciliation"
 }
