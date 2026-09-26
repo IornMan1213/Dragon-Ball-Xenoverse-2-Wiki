@@ -1,0 +1,21 @@
+{
+  "batch": 463,
+  "date": "2026-09-26",
+  "skill_name": "Punisher Shield",
+  "skill_id": "skill-punisher-shield",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics/provenance review for the live canonical record.",
+  "findings": [
+    "100-Ki Ki Blast Super/counter from PQ129. The user creates a barrier that lingers for about 2 seconds; an incoming Ki Blast can be reflected and followed by a teleporting kick, while close-range use can trigger the kick directly. Current dedicated evidence reports approximately 7% total damage. Exact frames, recovery, and patch-independent scaling remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Punisher_Shield",
+    "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "No unsupported exact frame data, hidden gates, reward probabilities, or patch-independent scaling is promoted.",
+    "Known source conflicts or historical evidence remain provenance rather than being silently normalized."
+  ]
+}
