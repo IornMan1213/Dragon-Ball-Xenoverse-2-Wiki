@@ -2285,3 +2285,16 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build remains unverified.
 - [x] **Exact next:** continue the same live-consumer audit for the next stale embedded scalar/reference, prioritizing DLC/PQ navigation consumers that are actually present in the live tree rather than historical index-only paths.
 
+
+
+### 2026-09-26 continuation — Partner skill relationship validator corrected and executed
+- [x] Inspected the live Partner Customization skill relationship layer and its validator rather than assuming the earlier validator checkpoint was executable.
+- [x] Found a concrete validator/schema mismatch: `docs/data/skills.json` stores the canonical stable skill identifier in the `id` field, while `scripts/validate_partner_skill_relationships.py` incorrectly read `skill_id`.
+- [x] Corrected the validator to build its canonical ID set from `row["id"]`; no canonical skill records or relationship claims were changed.
+- [x] Revalidated the live corpus: **474 canonical skills**, **3 partner/custom relationships**, **3 unique pairs**, **0 unknown canonical targets**, **0 duplicates**, **0 invalid relationship types**, and **0 missing-evidence relationships**; status clean.
+- [x] Added `docs/data/partner-skill-relationship-validator-audit-2026-09-26.json` documenting the correction and clean result, and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Refreshed `docs/data/cross-domain-index-reference-reachability-audit-2026-09-26.json` from the live main tree: **730 tree paths / 1,631 reference occurrences / 739 reachable / 892 unreachable**. The new validator audit is reachable.
+- [x] Preserved the evidence boundary: no new partner-skill assignments were inferred; the audit validates only canonical-ID reachability, relationship uniqueness/schema, and evidence presence.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] The efficiency addendum remains unavailable at the expected repository path (GitHub 404).
+- [x] **Exact next:** continue from the refreshed cross-domain reachability baseline and inspect the remaining critical unreachable references for a live-required, safely regenerable artifact. Do not recreate the absent general PQ reward layer or historical-only artifacts without a complete canonical source.
