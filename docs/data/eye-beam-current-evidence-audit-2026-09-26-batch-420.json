@@ -1,0 +1,17 @@
+{
+  "batch": 420,
+  "date": "2026-09-26",
+  "skill": "Eye Beam",
+  "skill_id": "skill-eye-beam",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Eye_Beam"
+  ],
+  "findings": "100-Ki Ki Blast Super learned from Android 16. Fires three small eye-origin Ki projectiles while moving forward; current dedicated evidence reports about 5% total damage and describes directional input as controlling movement/instant activation. Exact frame timing remains unresolved.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unresolved reward-slot probabilities remain unresolved where not directly established."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "batch": 420,
+  "date": "2026-09-26",
+  "skill": "Earth Splitting Galick Gun",
+  "skill_id": "skill-earth-splitting-galick-gun",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Earth_Splitting_Galick_Gun"
+  ],
+  "findings": "200-Ki Ki Blast Super from PQ11. Fires a large purple beam that can deal damage across up to 23 hits and fires at the speed of an uncharged Galick Gun. Current dedicated Xenoverse 2 documentation describes it as a non-chargeable, higher-cost Galick Gun variant; the project's conflicting PQ reward-tier evidence remains preserved.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unresolved reward-slot probabilities remain unresolved where not directly established."
+  ]
+}

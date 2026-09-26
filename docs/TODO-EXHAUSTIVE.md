@@ -1,3 +1,13 @@
+### 2026-09-26 continuation — Skill Research Batch 420 completed
+
+- [x] Fresh 474-record mechanics frontier census excluded Batches 396–419 and selected **Core Breaker, Destruction's Concerto: Comet, Earth Splitting Galick Gun, Eye Beam, God of Destruction's Anger, Victory Cannon, Fighting Pose D, and Darkness Rush (Melee)** as the next eight shortest genuinely under-detailed canonical mechanics records.
+- [x] Enriched and synchronized canonical `docs/data/skills.json` and projection `docs/data/skills-index.json`; canonical/index remain **474/474**.
+- [x] Added source-backed mechanics including Core Breaker's PQ158/Ultimate-Finish context, Comet's orb/conductor interaction, Earth Splitting Galick Gun's 23-hit beam behavior, Eye Beam's three-projectile movement behavior, God of Destruction's Anger's stamina-depleting guard break, Victory Cannon's recoil movement, Fighting Pose D's 20-second Boost Dash buff, and Darkness Rush (Melee)'s seven-hit grab/rush sequence.
+- [x] Added eight Batch 420 current-evidence audits plus `docs/data/skill-research-batches/skill-batch-420.json` and registered the artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved evidence boundaries: exact frames, hidden interactions, unsupported scaling, patch-independent balance values, and unresolved reward probabilities remain unresolved rather than inferred.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [x] **Exact next:** run a fresh 474-record frontier census excluding Batches 396–420 and enrich the next 4–12 shortest genuinely under-detailed canonical mechanics records, synchronizing canonical/index/provenance in the same cycle.
+
 ### 2026-09-26 continuation — Skill Research Batch 419 completed
 
 - [x] Fresh 474-record mechanics frontier census excluded Batches 396–418 and selected **Power Rush, Super Explosive Wave, Do or Die, Masenko, Death Slicer, Mighty Explosive Wave, Time Control, Darkness Eye Beam, Evil Ray Strike, Dragon Spark, Become Giant, and Crazy Finger Shot** as the next twelve shortest genuinely under-detailed canonical mechanics records.

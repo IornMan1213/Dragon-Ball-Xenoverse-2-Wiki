@@ -1,0 +1,17 @@
+{
+  "batch": 420,
+  "date": "2026-09-26",
+  "skill": "Core Breaker",
+  "skill_id": "skill-core-breaker",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dragonball.fandom.com/wiki/Core_Breaker"
+  ],
+  "findings": "500-Ki Strike Ultimate from Hero of Justice Pack 1, obtainable from PQ158. Current evidence identifies it as Gamma 2's Ultimate; the PQ158 reward is random and the maintained project evidence records the 40% Ultimate-Finish bonus-slot route without asserting a drop probability.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unresolved reward-slot probabilities remain unresolved where not directly established."
+  ]
+}

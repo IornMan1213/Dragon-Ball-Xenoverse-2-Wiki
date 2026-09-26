@@ -1,0 +1,17 @@
+{
+  "batch": 420,
+  "date": "2026-09-26",
+  "skill": "Victory Cannon",
+  "skill_id": "skill-victory-cannon",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Victory_Cannon"
+  ],
+  "findings": "300-Stamina Ki Blast Evasive from PQ54. Fires a mouth Ki Wave that deals source-reported 10% damage, launches nearby opponents, and uses recoil to propel the user backward for substantial distance.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unresolved reward-slot probabilities remain unresolved where not directly established."
+  ]
+}

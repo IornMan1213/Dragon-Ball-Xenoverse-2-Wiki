@@ -1973,10 +1973,10 @@
       "source_quest_or_shop": "Parallel Quest 158 — \"Beat Bulma's Minions!\"",
       "ultimate_finish_required": true,
       "skill_description": "Core Breaker is a Ultimate Ki Blast skill used by Gamma 2.",
-      "mechanics_notes": "500-Ki Strike Ultimate used by Gamma 2. Current evidence confirms the PQ158 endpoint and the maintained 40% Ultimate-Finish bonus-slot reward. CaC usability is documented, but no narrower race/gender/form restriction is established.",
-      "verification_status": "verified",
+      "mechanics_notes": "500-Ki Strike Ultimate from Hero of Justice Pack 1, obtainable from PQ158. Current evidence identifies it as Gamma 2's Ultimate; the PQ158 reward is random and the maintained project evidence records the 40% Ultimate-Finish bonus-slot route without asserting a drop probability.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Core_Breaker",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1986,7 +1986,7 @@
       "race_restriction": null,
       "source_quest": 158,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 source reconciliation: current PQ158 reward data documents a 40% Ultimate Finish bonus slot; the prior Basic Reward classification was stale. 2026-09-20 provenance census: normalized source field to Parallel Quest 158 — \"Beat Bulma's Minions!\", matching the maintained PQ research record. 2026-09-21 Hero of Justice Pack 1 provenance audit: official Bandai Namco/Nintendo documentation identifies 4 new Parallel Quests and 7 additional moves; maintained PQ evidence identifies PQ155–158 and lists all seven canonical moves. The live repository maps each of the seven moves to its corresponding PQ and Hero of Justice Pack 1 provenance. 2026-09-22 provenance refresh: dedicated current-version evidence confirms Core Breaker as Gamma 2's 500-Ki Strike Ultimate and PQ158 acquisition. Current evidence does not establish a narrower CaC race/gender/form restriction, so race_restriction remains unresolved rather than All CaC races. 2026-09-23 provenance refresh: dedicated skill evidence was rechecked against the current wiki reference; existing acquisition, cost, scope, and mechanics semantics are preserved, and no unsupported probability or additional gate is inferred.\n2026-09-25 current-evidence reconciliation: refreshed current 500-Ki Strike Ultimate classification, PQ158 acquisition, 40% UF bonus-slot evidence, and unresolved CaC race scope.",
+      "notes": "2026-09-20 source reconciliation: current PQ158 reward data documents a 40% Ultimate Finish bonus slot; the prior Basic Reward classification was stale. 2026-09-20 provenance census: normalized source field to Parallel Quest 158 — \"Beat Bulma's Minions!\", matching the maintained PQ research record. 2026-09-21 Hero of Justice Pack 1 provenance audit: official Bandai Namco/Nintendo documentation identifies 4 new Parallel Quests and 7 additional moves; maintained PQ evidence identifies PQ155–158 and lists all seven canonical moves. The live repository maps each of the seven moves to its corresponding PQ and Hero of Justice Pack 1 provenance. 2026-09-22 provenance refresh: dedicated current-version evidence confirms Core Breaker as Gamma 2's 500-Ki Strike Ultimate and PQ158 acquisition. Current evidence does not establish a narrower CaC race/gender/form restriction, so race_restriction remains unresolved rather than All CaC races. 2026-09-23 provenance refresh: dedicated skill evidence was rechecked against the current wiki reference; existing acquisition, cost, scope, and mechanics semantics are preserved, and no unsupported probability or additional gate is inferred.\n2026-09-25 current-evidence reconciliation: refreshed current 500-Ki Strike Ultimate classification, PQ158 acquisition, 40% UF bonus-slot evidence, and unresolved CaC race scope.\n2026-09-26 Batch 420 current-evidence enrichment: dedicated Xenoverse 2 documentation was rechecked for mechanics, resource cost, classification, and acquisition context. Source-reported damage and timing values are retained as current-scope evidence; exact frame data, hidden interactions, and unsupported probabilities remain unresolved.",
       "id": "skill-core-breaker",
       "source_parallel_quests": [
         158
@@ -2345,7 +2345,7 @@
       "class": "Ultimate",
       "subcategory": "Strike",
       "race_restriction": "All CaC races except Namekian",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
         "https://dbxv2.fandom.com/wiki/Darkness_Rush_%28Melee%29",
@@ -2357,14 +2357,14 @@
       "ki_cost": 300,
       "ultimate_finish_required": false,
       "unlock_method": "Lord Slug's Lesson 3 — complete the instructor lesson; the Basic Reward includes Darkness Rush (Melee) and Darkness Rush (Ranged).",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "research_status": "enriched",
       "source_quest_or_shop": "Lord Slug mentor training — Lesson 3",
-      "mechanics_notes": "300 Ki Strike Ultimate for non-Namekian CaC races. Dedicated Xenoverse 2 evidence describes a forward rush grab, barrage of strikes, and a finishing Ki Blast/Eye Laser; the cited page reports 7 hits and 25% damage in its presentation.",
+      "mechanics_notes": "300-Ki Strike Ultimate learned through Lord Slug training and usable by CaCs other than Namekians. The user rushes forward for a grab, delivers a seven-hit strike barrage, then finishes with a Ki Blast/Eye Laser; current dedicated documentation reports 25% total damage and knockback.",
       "source_quest": "Lord Slug mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-22 provenance refresh: current independent skill/mentor evidence was rechecked; acquisition and scope were retained unless directly contradicted. Darkness Rush (Melee) is explicitly non-Namekian, so its race restriction is normalized to non-Namekian rather than All CaC races. 2026-09-23 mechanics/provenance enrichment: cited dedicated evidence was incorporated without changing acquisition, reward probability, Ultimate Finish, race, cost, or DLC semantics.",
+      "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-22 provenance refresh: current independent skill/mentor evidence was rechecked; acquisition and scope were retained unless directly contradicted. Darkness Rush (Melee) is explicitly non-Namekian, so its race restriction is normalized to non-Namekian rather than All CaC races. 2026-09-23 mechanics/provenance enrichment: cited dedicated evidence was incorporated without changing acquisition, reward probability, Ultimate Finish, race, cost, or DLC semantics.\n2026-09-26 Batch 420 current-evidence enrichment: dedicated Xenoverse 2 documentation was rechecked for mechanics, resource cost, classification, and acquisition context. Source-reported damage and timing values are retained as current-scope evidence; exact frame data, hidden interactions, and unsupported probabilities remain unresolved.",
       "id": "skill-darkness-rush-melee",
       "source_mentor": [
         "mentor-slug"
@@ -2903,19 +2903,20 @@
       "source_quest_or_shop": "Parallel Quest 104 — \"Vados the Talent Scout\"",
       "ultimate_finish_required": false,
       "skill_description": "Destruction's Concerto: Comet is a Super Ki Blast skill associated with Vados.",
-      "mechanics_notes": "Current dedicated evidence confirms a 100-200 Ki Ki Blast Super from PQ104. It places a slow-moving Ki ball; pairing with Destruction's Conductor launches it rapidly at the opponent and produces the documented multi-hit interaction.",
+      "mechanics_notes": "100–200-Ki Ki Blast Super from PQ104. Spawns a slow-moving green energy sphere that chases the opponent; when paired with Destruction's Conductor, the existing orb is launched toward the opponent at top speed. The Future Warrior uses the finger-spawn presentation; Vados uses her staff.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Destruction's_Concerto%3A_Comet",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Destruction%27s_Concerto%3A_Comet"
       ],
       "race_restriction": "All CaC races",
       "source_quest": 104,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: maintained all-PQ reward guide explicitly lists Destruction's Concerto: Comet in PQ104 Basic Reward alongside Starfall. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-20 audit: maintained all-PQ reward guide explicitly lists Destruction's Concerto: Comet in PQ104 Basic Reward alongside Starfall. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the canonical classification and acquisition endpoint; documented mechanics were expanded without inventing drop probabilities or new gates. 2026-09-23 provenance refresh: current repository evidence rechecked; existing acquisition, reward-tier, cost, scope, mechanics, and DLC semantics preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 420 current-evidence enrichment: dedicated Xenoverse 2 documentation was rechecked for mechanics, resource cost, classification, and acquisition context. Source-reported damage and timing values are retained as current-scope evidence; exact frame data, hidden interactions, and unsupported probabilities remain unresolved.",
       "id": "skill-destruction-s-concerto-comet",
       "source_parallel_quests": [
         104
@@ -4030,10 +4031,10 @@
       "source_quest_or_shop": "Parallel Quest 11 — \"Burst Open and Mix!\"",
       "ultimate_finish_required": true,
       "skill_description": "Earth Splitting Galick Gun is a Super Ki Blast skill associated with Vegeta.",
-      "mechanics_notes": "200-Ki Ki Blast Super from PQ11. Maintained PQ evidence documents a 50% Ultimate Finish roll while a separate reward listing presents it among Basic Rewards; the conflicting presentation is preserved rather than silently normalized.",
+      "mechanics_notes": "200-Ki Ki Blast Super from PQ11. Fires a large purple beam that can deal damage across up to 23 hits and fires at the speed of an uncharged Galick Gun. Current dedicated Xenoverse 2 documentation describes it as a non-chargeable, higher-cost Galick Gun variant; the project's conflicting PQ reward-tier evidence remains preserved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Earth_Splitting_Galick_Gun",
@@ -4043,7 +4044,7 @@
       "source_quest": 11,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 source reconciliation: maintained PQ11 data documents a 50% Ultimate Finish roll for Earth Splitting Galick Gun; the Basic Reward-list placement is retained as source metadata, so the canonical gate follows the explicit drop condition. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference. 2026-09-24 P1 provenance refresh: repository-maintained evidence was rechecked for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries and conflicts were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.",
+      "notes": "2026-09-20 source reconciliation: maintained PQ11 data documents a 50% Ultimate Finish roll for Earth Splitting Galick Gun; the Basic Reward-list placement is retained as source metadata, so the canonical gate follows the explicit drop condition. 2026-09-22 provenance refresh: current bounded evidence reconfirms the canonical acquisition/classification endpoint; conflicting or unresolved details remain explicit. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference. 2026-09-24 P1 provenance refresh: repository-maintained evidence was rechecked for identity, classification, acquisition endpoint, reward semantics, DLC/update provenance, restriction scope, and documented mechanics. Existing evidence boundaries and conflicts were preserved; no unsupported probability, prerequisite, timer, frame-data, damage, stacking-cap, or narrower restriction claim was introduced.\n2026-09-26 Batch 420 current-evidence enrichment: dedicated Xenoverse 2 documentation was rechecked for mechanics, resource cost, classification, and acquisition context. Source-reported damage and timing values are retained as current-scope evidence; exact frame data, hidden interactions, and unsupported probabilities remain unresolved.",
       "id": "skill-earth-splitting-galick-gun",
       "source_parallel_quests": [
         11
@@ -4897,14 +4898,14 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Android 16 mentor training",
-      "mechanics_notes": "Current mentor acquisition, skill identity, and Ki classification are corroborated. Fires an eye-origin Ki attack; exact hit count, damage, tracking, and frame properties remain unresolved pending stronger current mechanics evidence.",
-      "last_verified": "2026-09-25",
+      "mechanics_notes": "100-Ki Ki Blast Super learned from Android 16. Fires three small eye-origin Ki projectiles while moving forward; current dedicated evidence reports about 5% total damage and describes directional input as controlling movement/instant activation. Exact frame timing remains unresolved.",
+      "last_verified": "2026-09-26",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Android 16 mentor training — Initiation Test.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: current dedicated evidence confirms the 100-Ki Ki Blast Super learned through Android 16's training. It fires three controllable eye-launched Ki bullets and supports directional movement/re-stand behavior. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added. 2026-09-25 mechanics enrichment: current evidence refreshed; unsupported frame data, hidden gates, probabilities, and unverified numeric values remain unresolved.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current dedicated evidence confirms the 100-Ki Ki Blast Super learned through Android 16's training. It fires three controllable eye-launched Ki bullets and supports directional movement/re-stand behavior. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: maintained repository evidence rechecked for identity, acquisition endpoint, source relationships, classification, reward semantics, documented mechanics, restrictions, and known conflicts. Existing values and unresolved fields are preserved; no unsupported inference was added. 2026-09-25 mechanics enrichment: current evidence refreshed; unsupported frame data, hidden gates, probabilities, and unverified numeric values remain unresolved.\n2026-09-26 Batch 420 current-evidence enrichment: dedicated Xenoverse 2 documentation was rechecked for mechanics, resource cost, classification, and acquisition context. Source-reported damage and timing values are retained as current-scope evidence; exact frame data, hidden interactions, and unsupported probabilities remain unresolved.",
       "id": "skill-eye-beam",
       "source_mentor": [
         "mentor-android-16"
@@ -6539,20 +6540,21 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Anger"
       ],
       "unlock_method": "God of Destruction Beerus's mentor training — complete the corresponding lesson to receive God of Destruction's Anger as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "God of Destruction Beerus mentor training",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred. 2026-09-23 refresh: mentor acquisition remains verified; combat mechanics remain intentionally deferred rather than filling unsupported numerical details.",
-      "last_verified": "2026-09-24",
+      "mechanics_notes": "200-Ki Ki Blast Super learned through Beerus training. Fires a long-range finger beam; a successful hit deals source-reported 15% damage and fully depletes the target's Stamina even if they are blocking, giving the move its documented guard-break property.",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": "God of Destruction Beerus mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 verification refresh: revalidated against the repository's maintained skill/PQ/mentor provenance corpus; existing evidence conflicts and unresolved mechanics are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 verification refresh: revalidated against the repository's maintained skill/PQ/mentor provenance corpus; existing evidence conflicts and unresolved mechanics are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 420 current-evidence enrichment: dedicated Xenoverse 2 documentation was rechecked for mechanics, resource cost, classification, and acquisition context. Source-reported damage and timing values are retained as current-scope evidence; exact frame data, hidden interactions, and unsupported probabilities remain unresolved.",
       "id": "skill-god-of-destruction-s-anger",
       "source_mentor": [
         "mentor-beerus"
@@ -13750,10 +13752,10 @@
       "source_quest_or_shop": "Parallel Quest 54 — \"Majin Revival\"",
       "ultimate_finish_required": false,
       "skill_description": "Victory Cannon is a Ki Blast Evasive associated with Gotenks.",
-      "mechanics_notes": "300-Stamina Ki Blast Evasive from PQ54. The user fires a mouth Ki Wave that launches nearby opponents and recoil-propels the user backward for distance. Current dedicated evidence confirms the Evasive classification and stamina cost.",
+      "mechanics_notes": "300-Stamina Ki Blast Evasive from PQ54. Fires a mouth Ki Wave that deals source-reported 10% damage, launches nearby opponents, and uses recoil to propel the user backward for substantial distance.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Victory_Cannon",
@@ -13763,7 +13765,7 @@
       "race_restriction": "All CaC races",
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance refinement: current dedicated skill documentation and the maintained PQ reward guide identify the exact quest title and place Victory Cannon in Basic Reward. No Ultimate Finish-only gate is asserted. 2026-09-22 provenance refresh: dedicated current skill evidence reconfirms PQ54, Ki Blast Evasive classification, and 300-Stamina recoil behavior. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.",
+      "notes": "2026-09-20 provenance refinement: current dedicated skill documentation and the maintained PQ reward guide identify the exact quest title and place Victory Cannon in Basic Reward. No Ultimate Finish-only gate is asserted. 2026-09-22 provenance refresh: dedicated current skill evidence reconfirms PQ54, Ki Blast Evasive classification, and 300-Stamina recoil behavior. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.\n2026-09-26 Batch 420 current-evidence enrichment: dedicated Xenoverse 2 documentation was rechecked for mechanics, resource cost, classification, and acquisition context. Source-reported damage and timing values are retained as current-scope evidence; exact frame data, hidden interactions, and unsupported probabilities remain unresolved.",
       "id": "skill-victory-cannon",
       "source_parallel_quests": [
         54
@@ -14179,8 +14181,8 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 15 — \"Gotta Find That Dragon Ball!\"",
-      "mechanics_notes": "0-Ki Power Up Super. The pose grants a temporary Boost Dash speed increase for 20 seconds. Current skill-specific documentation confirms the Boost Dash-specific scope and duration; exact multiplier and frame timing remain unresolved.",
-      "last_verified": "2026-09-25",
+      "mechanics_notes": "0-Ki Power Up Super from PQ15. The pose temporarily increases Boost Dash speed for 20 seconds. Current dedicated documentation confirms the effect and duration; the exact speed multiplier and frame timing remain unresolved.",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
       "source_quest": 15,
       "dlc_requirement": "Base Game",
@@ -14189,7 +14191,7 @@
       "duration_seconds": 20,
       "ki_cost": 0,
       "id": "skill-fighting-pose-d",
-      "notes": "2026-09-25 Batch 396 mechanics enrichment: current skill-specific evidence confirmed the 0-Ki Power Up classification, PQ15 acquisition endpoint, and 20-second Boost Dash-speed effect; unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.",
+      "notes": "2026-09-25 Batch 396 mechanics enrichment: current skill-specific evidence confirmed the 0-Ki Power Up classification, PQ15 acquisition endpoint, and 20-second Boost Dash-speed effect; unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.\n2026-09-26 Batch 420 current-evidence enrichment: dedicated Xenoverse 2 documentation was rechecked for mechanics, resource cost, classification, and acquisition context. Source-reported damage and timing values are retained as current-scope evidence; exact frame data, hidden interactions, and unsupported probabilities remain unresolved.",
       "source_parallel_quests": [
         15
       ]

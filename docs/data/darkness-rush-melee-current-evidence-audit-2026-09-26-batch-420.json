@@ -1,0 +1,18 @@
+{
+  "batch": 420,
+  "date": "2026-09-26",
+  "skill": "Darkness Rush (Melee)",
+  "skill_id": "skill-darkness-rush-melee",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Darkness_Rush_%28Melee%29",
+    "https://dragonball.fandom.com/wiki/Darkness_Rush_%28Melee%29"
+  ],
+  "findings": "300-Ki Strike Ultimate learned through Lord Slug training and usable by CaCs other than Namekians. The user rushes forward for a grab, delivers a seven-hit strike barrage, then finishes with a Ki Blast/Eye Laser; current dedicated documentation reports 25% total damage and knockback.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unresolved reward-slot probabilities remain unresolved where not directly established."
+  ]
+}

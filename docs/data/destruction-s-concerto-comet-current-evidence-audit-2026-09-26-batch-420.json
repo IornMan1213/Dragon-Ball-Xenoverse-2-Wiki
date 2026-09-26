@@ -1,0 +1,17 @@
+{
+  "batch": 420,
+  "date": "2026-09-26",
+  "skill": "Destruction's Concerto: Comet",
+  "skill_id": "skill-destruction-s-concerto-comet",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dragonball.fandom.com/wiki/Destruction%27s_Concerto%3A_Comet"
+  ],
+  "findings": "100–200-Ki Ki Blast Super from PQ104. Spawns a slow-moving green energy sphere that chases the opponent; when paired with Destruction's Conductor, the existing orb is launched toward the opponent at top speed. The Future Warrior uses the finger-spawn presentation; Vados uses her staff.",
+  "unresolved": [
+    "Exact frame data is not asserted unless directly documented.",
+    "Hidden interactions and patch-independent scaling are not inferred.",
+    "Unresolved reward-slot probabilities remain unresolved where not directly established."
+  ]
+}

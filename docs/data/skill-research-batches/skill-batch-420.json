@@ -1,0 +1,18 @@
+{
+  "batch": 420,
+  "date": "2026-09-26",
+  "status": "completed",
+  "scope": "Skill mechanics frontier",
+  "excluded_batches": "396-419",
+  "selected": [
+    "Core Breaker",
+    "Destruction's Concerto: Comet",
+    "Earth Splitting Galick Gun",
+    "Eye Beam",
+    "God of Destruction's Anger",
+    "Victory Cannon",
+    "Fighting Pose D",
+    "Darkness Rush (Melee)"
+  ],
+  "evidence_policy": "Promote directly supported Xenoverse 2 mechanics only; preserve uncertainty around exact frames, hidden interactions, scaling, patch-independent balance, and unresolved probabilities."
+}
