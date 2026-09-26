@@ -1,3 +1,12 @@
+
+### 2026-09-26 continuation — Skill Research Batch 487 completed
+- [x] Fresh live frontier was rechecked rather than blindly reusing the prior frontier.
+- [x] Completed current-evidence mechanics enrichment for **Super Saiyan Blue Kaioken, Super Saiyan 2, Super Vegeta, Namek Finger, Bending Kamehameha, Flash Strike, Finishing Blow, and Sudden Death Beam**.
+- [x] Synchronized canonical and index skill datasets; validation is **474/474**, with **0 missing / 0 extra IDs**.
+- [x] Added Batch 487 research, thin-frontier audit, and current-evidence provenance registrations.
+- [x] Preserved evidence boundaries: unsupported exact frames, hidden interactions, probabilities, and patch-independent scaling remain unresolved.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** fresh unaudited frontier census; do not reuse stale candidate lists.
 ### 2026-09-26 continuation — Batch 486 canonical mechanics enrichment
 
 - [x] Re-censused the live 474-record frontier after Batch 485 and excluded known completed/audited records rather than duplicating them.
