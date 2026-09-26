@@ -1,0 +1,12 @@
+{
+  "batch": 493,
+  "date": "2026-09-26",
+  "skill_id": "skill-fighting-pose-d",
+  "skill_name": "Fighting Pose D",
+  "status": "complete",
+  "findings": "0-Ki Power Up Super from PQ15 Basic Reward. Current dedicated documentation confirms Burter's pose temporarily increases Boost Dash speed for 20 seconds. A legacy +20% figure is retained only as source-reported historical evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Fighting_Pose_D"
+  ],
+  "evidence_boundary": "Current Xenoverse 2-specific mechanics and explicit acquisition evidence are bounded to cited source context. Unsupported exact frames, hidden interactions, probabilities, and patch-independent scaling are not inferred."
+}
