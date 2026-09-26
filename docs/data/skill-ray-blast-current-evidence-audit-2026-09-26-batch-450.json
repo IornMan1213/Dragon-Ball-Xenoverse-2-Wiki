@@ -1,0 +1,22 @@
+{
+  "skill_id": "skill-ray-blast",
+  "name": "Ray Blast",
+  "batch": 450,
+  "date": "2026-09-26",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Ray_Blast"
+  ],
+  "findings": [
+    "100-Ki Ki Blast Super",
+    "PQ125 endpoint",
+    "red protective barrier",
+    "three rapid Ki waves",
+    "1–3-hit long-range knockback",
+    "source-reported 5% damage and Ultimate cancel after third hit"
+  ],
+  "evidence_boundaries": [
+    "No unsupported exact frames, scaling formulas, probabilities, or hidden conditions added. Source-reported damage remains bounded evidence."
+  ]
+}
