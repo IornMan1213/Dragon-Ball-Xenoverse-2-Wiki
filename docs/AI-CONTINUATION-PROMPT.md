@@ -1,3 +1,13 @@
+### 2026-09-26 continuation — Skill Research Batch 488 completed
+- [x] Fresh live 474-record mechanics frontier was re-censused after Batch 487, excluding every skill ID represented by a registered current-evidence audit; stale candidate lists were not reused.
+- [x] Researched and synchronized **Fierce Fist, Venus Fist, Handy Canon, Full Power Destruction, Prominence Flash, Galick Gun, Ill Rain, and Gigantic Cross**.
+- [x] Updated canonical `docs/data/skills.json` and projection `docs/data/skills-index.json`; validation is **474/474**, **0 missing / 0 extra**, ordered ID parity true.
+- [x] Added Batch 488 research, thin-frontier audit, eight current-evidence audits, and registered all ten artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved evidence boundaries: source-reported numeric values remain bounded; unsupported frames, universal scaling, hidden interactions, and drop probabilities were not inferred. Venus Fist's recent low-Health/3-Ki-bar reports remain explicitly source-bounded.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** perform a fresh live unaudited mechanics-frontier census excluding Batch 488 and every prior registered current-evidence audit. Do not reuse the current candidate list; select the next genuinely under-detailed records from the live 474-record state.
+
 ### 2026-09-26 continuation — Skill Research Batch 487 completed
 - [x] Completed and synchronized eight current-evidence skill records: Super Saiyan Blue Kaioken, Super Saiyan 2, Super Vegeta, Namek Finger, Bending Kamehameha, Flash Strike, Finishing Blow, Sudden Death Beam.
 - [x] Canonical/index validation: 474/474, 0 missing, 0 extra.
