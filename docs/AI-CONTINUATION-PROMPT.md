@@ -1,3 +1,16 @@
+### 2026-09-26 continuation — Skill Research Batch 450 completed
+
+- [x] Fresh live 474-record mechanics frontier census excluded every skill with a registered current-evidence audit and selected **Ray Blast, Emperor's Blast, Final Cannon, Godly Chronos Cannon, Vanishing Ball, Evil Whirlwind, God of Destruction's Rampage, and Emperor's Death Beam** as the eight shortest remaining records by combined mechanics/notes coverage.
+- [x] Added eight current-evidence audits plus Batch 450 research and thin-frontier audit artifacts.
+- [x] Deepened all eight canonical records with current Xenoverse 2-specific mechanics, acquisition context, and bounded numerical evidence; unsupported exact frames, scaling formulas, probabilities, and hidden conditions remain bounded.
+- [x] Corrected stale **Emperor's Blast** provenance from Hercule wording to Frieza/Golden Frieza and documented its rear-facing Ki Wave/stun behavior.
+- [x] Synchronized all eight records into both canonical skill datasets and refreshed their current-scope verification date to 2026-09-26.
+- [x] Registered the Batch 450 research record, thin-frontier audit, and eight skill audits in `docs/data/pq-cross-domain-index.json`; registry now contains **714 entries**.
+- [x] Validation remains **474/474** canonical/index records with 0 missing / 0 extra.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 450 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
+
 ### 2026-09-26 continuation — Skill Research Batch 449 completed
 
 - [x] Fresh live 474-record mechanics frontier census excluded every skill with a registered current-evidence audit and selected **Purification, Brave Sword Slash, Unrelenting Barrage, Burning Slash, Turn Golden, Gigantic Explosion, Burst Blitz, and Power Pole Pro** as the eight shortest remaining records by combined mechanics/notes coverage.
