@@ -1,0 +1,16 @@
+{
+  "batch": 484,
+  "date": "2026-09-26",
+  "skill_id": "skill-gigantic-breaker",
+  "skill_name": "Gigantic Breaker",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Gigantic_Breaker",
+    "https://dragonball.fandom.com/wiki/Gigantic_Breaker"
+  ],
+  "findings": "2026-09-26 Batch 484 current-evidence audit: Gigantic Breaker is a 200-Ki Ki Blast Super associated with Kefla and obtainable from PQ126. The successful rush deals a source-reported 10% over one hit; a miss produces a weaker forward Ki projectile and leaves the user vulnerable. The repository preserves the documented Basic Reward route and does not infer a drop probability.",
+  "canonical_changes": {
+    "mechanics_notes": "200-Ki Ki Blast Super from PQ126. The user charges a fist and rushes forward for a single-hit attack; current skill-specific evidence reports about 10% damage on a successful hit. Missing leaves the user vulnerable and fires a weaker forward Ki projectile.",
+    "last_verified": "2026-09-26",
+    "research_status": "enriched"
+  }
+}
