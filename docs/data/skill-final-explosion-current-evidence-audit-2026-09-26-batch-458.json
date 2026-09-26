@@ -1,0 +1,21 @@
+{
+  "batch": 458,
+  "date": "2026-09-26",
+  "skill_name": "Final Explosion",
+  "skill_id": "skill-final-explosion",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Skill Research Batch 458.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Final_Explosion",
+    "https://store.steampowered.com/news/posts/?appids=454650&enddate=1535386736&feed=steam_community_announcements"
+  ],
+  "findings": [
+    "300-Ki Ki Blast Ultimate sold in the TP Medal Shop for 200 TP Medals. The user floats for about 2 seconds, releases a large area explosion, and can hold the input to consume Stamina and extend it; dedicated evidence reports a 20-hit base sequence at about 30% damage and leaves the user vulnerable afterward. Exact extended damage and frame data remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Exact frame data is not promoted.",
+    "Patch-independent scaling is not inferred from source-reported values.",
+    "Reward probabilities and hidden prerequisites are not promoted unless directly evidenced.",
+    "Community usage commentary is not converted into deterministic mechanics."
+  ]
+}
