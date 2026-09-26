@@ -1,0 +1,67 @@
+{
+  "type": "thin_frontier_mechanics_audit",
+  "batch": 457,
+  "date": "2026-09-26",
+  "selected": [
+    "Rough Ranger",
+    "X 100 Big Bang Kamehameha",
+    "Evil Blast",
+    "Final Charge",
+    "Explosive Wave",
+    "Force Edge",
+    "Ill Bomber",
+    "Heavenly Arrow"
+  ],
+  "method": "Fresh live mechanics_notes-plus-notes frontier census after excluding registered current-evidence-audited records and recently completed targets.",
+  "selected_metrics": [
+    {
+      "skill_id": "skill-rough-ranger",
+      "skill_name": "Rough Ranger",
+      "mechanics_notes_length": 419,
+      "selected": true
+    },
+    {
+      "skill_id": "skill-x-100-big-bang-kamehameha",
+      "skill_name": "X 100 Big Bang Kamehameha",
+      "mechanics_notes_length": 324,
+      "selected": true
+    },
+    {
+      "skill_id": "skill-evil-blast",
+      "skill_name": "Evil Blast",
+      "mechanics_notes_length": 337,
+      "selected": true
+    },
+    {
+      "skill_id": "skill-final-charge",
+      "skill_name": "Final Charge",
+      "mechanics_notes_length": 264,
+      "selected": true
+    },
+    {
+      "skill_id": "skill-explosive-wave",
+      "skill_name": "Explosive Wave",
+      "mechanics_notes_length": 293,
+      "selected": true
+    },
+    {
+      "skill_id": "skill-force-edge",
+      "skill_name": "Force Edge",
+      "mechanics_notes_length": 291,
+      "selected": true
+    },
+    {
+      "skill_id": "skill-ill-bomber",
+      "skill_name": "Ill Bomber",
+      "mechanics_notes_length": 306,
+      "selected": true
+    },
+    {
+      "skill_id": "skill-heavenly-arrow",
+      "skill_name": "Heavenly Arrow",
+      "mechanics_notes_length": 300,
+      "selected": true
+    }
+  ],
+  "conclusion": "Batch 457 targets were the next low-detail records selected for current mechanics enrichment; no unsupported numeric or timing claims were promoted."
+}
