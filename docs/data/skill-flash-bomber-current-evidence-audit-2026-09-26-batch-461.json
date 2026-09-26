@@ -1,0 +1,19 @@
+{
+  "batch": 461,
+  "date": "2026-09-26",
+  "skill_name": "Flash Bomber",
+  "skill_id": "skill-flash-bomber",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics/provenance review for the live canonical record.",
+  "findings": [
+    "100-Ki Ki Blast Super from PQ95. Holding the input continues the barrage and spends additional Ki; current evidence documents a 21-hit base barrage extendable to 56 hits with 200 additional Ki, with the extended version reported at approximately 40% damage. PQ95 Ultimate Finish acquisition is retained; exact drop probability remains unresolved."
+  ],
+  "sources": [
+    "Repository-maintained current skill/PQ/evidence corpus and dedicated exact-name references reviewed for the live record."
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "No unsupported exact frame data, reward probabilities, hidden gates, or patch-independent scaling is promoted.",
+    "Known source conflicts remain explicit rather than silently normalized."
+  ]
+}
