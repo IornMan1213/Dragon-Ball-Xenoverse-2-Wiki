@@ -1,0 +1,21 @@
+{
+  "skill_id": "skill-revenge-death-ball",
+  "name": "Revenge Death Ball",
+  "batch": 437,
+  "date": "2026-09-26",
+  "status": "complete",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Revenge_Death_Ball",
+    "https://dragonball.fandom.com/wiki/Revenge_Death_Ball"
+  ],
+  "findings": [
+    "300+ Ki Blast Ultimate",
+    "Parallel Quest 127 — Multiverse Match of the Century",
+    "300 Ki consumed on input even while charging",
+    "Minimum charge: 12 hits and approximately 30% damage",
+    "Maximum charge: 22 hits and approximately 70% damage",
+    "Remaining Ki can be charged into the attack; cited timing is about 10 seconds from 300 Ki and 3 seconds from maximum Ki",
+    "Red-health acceleration is documented without a normalized multiplier",
+    "Exact frame data and reward probability remain unresolved"
+  ]
+}
