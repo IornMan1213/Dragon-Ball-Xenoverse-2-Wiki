@@ -5085,8 +5085,8 @@
       "source_quest_or_shop": "Parallel Quest 159 — \"Lights! Camera! Super Heroes!\"",
       "ultimate_finish_required": true,
       "skill_description": "Fierce Fist is a Super Strike skill used by Orange Piccolo.",
-      "mechanics_notes": "100 Strike Super. Current catalog evidence identifies it as a Strike Super. Exact hit sequence, damage, and acquisition remain insufficiently verified and are not guessed.",
-      "verification_status": "verified",
+      "mechanics_notes": "100-Ki Strike Super from PQ159's Ultimate Finish bonus pool. Hold the input to charge through three stages; Stage 3 is unblockable. The user can preserve the charge while guarding, and weak Ki Blasts are negated during the attack. Current skill-specific evidence reports about 10%/15%/20% displayed damage for Stages 1/2/3; these values remain source-reported.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-26",
       "sources": [
@@ -5941,13 +5941,14 @@
       "name": "Full Power Destruction",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Full_Power_Destruction",
         "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/81043121",
         "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/media/1104",
         "https://www.youtube.com/watch?v=nM0IFqdcvXI",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "usable_by_cac": true,
       "character_source": "Jiren (Full Power) Ultra Supervillain; Jiren — Customize Partner",
@@ -5956,7 +5957,7 @@
       "unlock_method": "Parallel Quest 177 — Ultimate Finish bonus slot (50%).",
       "source_quest_or_shop": "Parallel Quest 177 — Warped Sense of Justice",
       "ultimate_finish_required": true,
-      "mechanics_notes": "500-Ki Ki Blast Ultimate used by Jiren (Full Power) Ultra Supervillain. Five rapidly tracking opening shots lead to a follow-up multi-hit blast and cinematic explosion. The long full sequence can be Evasived.",
+      "mechanics_notes": "500-Ki Ki Blast Ultimate from PQ177. Immediately fires five tracking Ki blasts; if the sequence connects without being blocked, a follow-up blast hits multiple times and the move ends with a cinematic explosion. The opener is fast and tracks well, but the complete sequence is long enough to be escaped with an Evasive.",
       "research_status": "enriched",
       "last_verified": "2026-09-26",
       "notes": "Dedicated current-version evidence confirms PQ177 acquisition, 500 Ki, Ki Blast Ultimate classification, and Jiren users. The reviewed page does not explicitly establish CaC race/gender/form scope. Keep race_restriction null rather than inferring from Jiren or partner customization. 2026-09-21 provenance strengthening: Bandai Namco's official FUTURE SAGA Chapter 2 DLC page confirms Chapter 2 contains four new Parallel Quests and seven additional moves; the existing PQ176/PQ177 acquisition records are retained without changing reward-tier semantics. 2026-09-22 mechanics refresh: current dedicated skill evidence confirms the five-shot tracking opener, follow-up blast, and cinematic explosion. The reviewed evidence does not establish a narrower CaC race/gender/form restriction, so race_restriction is now explicitly null rather than inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 480 current-evidence enrichment: dedicated Xenoverse 2-specific evidence rechecked; source-reported numerical values remain bounded, reward conflicts preserved, unsupported exact frames, scaling, hidden interactions, and probabilities not inferred.",
@@ -6064,12 +6065,12 @@
       "name": "Galick Gun",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Galick_Gun",
         "https://dragonball.fandom.com/wiki/Galick_Gun",
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-how-to-vegeta-mentor-quest-guide/",
-        "https://dbxv2.fandom.com/wiki/Galick_Gun"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "ki_cost": 100,
       "unlock_method": "Vegeta's Initiation Test — complete the mentor battle using Galick Gun as required; Galick Gun is the Basic Reward.",
@@ -6077,7 +6078,7 @@
       "source_quest_or_shop": "Vegeta mentor training — Initiation Test",
       "last_verified": "2026-09-26",
       "usable_by_cac": true,
-      "mechanics_notes": "100 Ki Blast Super and chargeable beam. Historical testing describes it as faster than Kamehameha and reported about 2k first-charge and 3.8k full-charge damage in a specific Male Saiyan setup; historical/source-bound only.",
+      "mechanics_notes": "100-Ki Ki Blast Super obtained through Vegeta mentor training. It is a three-stage chargeable beam; ideal conditions produce 9, 12, or 15 hits at the three charge stages. Current skill-specific evidence also notes a shorter charge time than Kamehameha, while historical damage tests remain setup-specific/source-bound. When fully charged under a Super Saiyan-type Awoken Skill, the move can reposition the user in front of the target.",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Vegeta mentor training — Initiation Test",
@@ -6360,14 +6361,15 @@
       "source_quest_or_shop": "Conton City Patrol 04 — Teach Me, Broly! (Part 1)",
       "ultimate_finish_required": false,
       "skill_description": "Gigantic Cross is a Ki Blast Super Attack used by Broly (DB Super).",
-      "mechanics_notes": "100-Ki chargeable Ki Blast Super used by Broly (DB Super). A green mouth-generated projectile arcs upward and ends in an explosion; charging increases damage. Current evidence classifies it as a chargeable 2-hit technique and confirms Patrol 04 acquisition.",
+      "mechanics_notes": "100-Ki Ki Blast Super obtained from Conton City Patrol 04. The user fires a green mouth-generated projectile that travels forward, arcs upward, and ends in an explosion; holding the input charges the attack for greater damage. Current skill-specific evidence classifies it as a 2-hit chargeable technique.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-26",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gigantic_Cross",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3606451640",
-        "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content"
+        "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "source_quest": "Conton City Patrol 04",
       "race_restriction": null,
@@ -7058,8 +7060,8 @@
       "source_quest_or_shop": "Parallel Quest 115 — \"Extreme Battle with Android 13!\"",
       "ultimate_finish_required": false,
       "skill_description": "Handy Canon is a 100-Ki Ki Blast Super associated with Android 13.",
-      "mechanics_notes": "100 Ki Blast Super. Current catalog evidence identifies it as a Ki Blast Super. Exact hit sequence, damage, and acquisition remain insufficiently verified and are not guessed.",
-      "verification_status": "verified",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ115. Fires a fast barrage of reddish-pink Ki blasts that scatter around the target, making it less effective at long range but useful in neutral and mid-range combos. The move can be step-cancelled, enabling an immediate approach/basic-combo follow-up; current evidence does not establish a universal damage value.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-26",
       "sources": [
@@ -7656,7 +7658,7 @@
       "source_quest_or_shop": "Parallel Quest 64 — \"Beerus the Impulsive\"",
       "ultimate_finish_required": false,
       "skill_description": "Ill Rain is a Super Ki Blast skill associated with Janemba.",
-      "mechanics_notes": "100-Ki Ki Blast Super from PQ64. The orb lingers and disperses into three tracking projectiles; current evidence reports about 15% damage per connecting projectile and a 1–2-hit practical outcome. PQ64 evidence places it in Basic Reward.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ64 Basic Reward. The user throws a Ki ball upward that lingers briefly, then scatters into three tracking projectiles. Each connecting projectile is documented at about 15% source-reported damage; practical outcomes can be one or two hits depending on tracking/positioning. Exact frames and universal scaling remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-26",
@@ -9977,12 +9979,13 @@
       "name": "Prominence Flash",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Prominence_Flash",
         "https://dragonball.fandom.com/wiki/Prominence_Flash",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://videogaming.fandom.com/wiki/Prominence_Flash"
+        "https://videogaming.fandom.com/wiki/Prominence_Flash",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "usable_by_cac": true,
       "character_source": "Vegeta (Super Saiyan God)",
@@ -9991,7 +9994,7 @@
       "unlock_method": "Parallel Quest 137 — \"Tournament of Power Round 2\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 137 — \"Tournament of Power Round 2\"",
       "ultimate_finish_required": false,
-      "mechanics_notes": "300-Ki Ki Blast Ultimate from Vegeta (Super Saiyan God). A chargeable Ki wave whose repeated/continued activations increase damage. PQ137 evidence places it in Basic Reward; no Ultimate Finish gate is inferred.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from PQ137. A chargeable red/yellow Ki wave whose repeated activations increase damage, with maintained community evidence indicating the damage increase caps at the third use; duration behavior changed in past updates, so exact timing/scaling is not asserted. Current repository provenance retains PQ137 Basic Reward semantics while noting historical reward-source conflicts.",
       "research_status": "enriched",
       "last_verified": "2026-09-26",
       "notes": " Ultimate Finish requirement retained as unknown; available community reports conflict/are anecdotal, so no affirmative UF flag is asserted. 2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 provenance refinement: the maintained Steam all-PQ guide explicitly lists Prominence Flash in PQ137's Basic Reward section. A maintained datamined record separately reports a 20% first-clear slot; that first-clear classification is preserved as conflicting evidence rather than promoted over the player-facing reward listing. 2026-09-21 Ultra Pack 1 provenance audit: official Bandai Namco documentation identifies Ultra Pack 1 as containing 10 additional skills and five Parallel Quests (PQ133–137); the maintained all-PQ guide independently maps the ten player-acquirable skills to those quests. Character-only Final Charge and Final Flash (Super) are retained under Ultra Pack 1 because current technique documentation identifies them as Ultra Pack 1 character-exclusive skills; they are distinct from the ten Future Warrior-acquirable skills listed for the pack. This pass verifies DLC provenance only and does not infer reward-slot semantics where sources conflict. 2026-09-22 provenance strengthening: the maintained Steam all-Parallel-Quest guide independently lists Prominence Flash in PQ137's Basic Reward section, corroborating the existing acquisition route; no drop probability or Ultimate Finish gate is inferred.\n2026-09-23 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, costs, and bounded mechanics against the maintained repository evidence corpus; existing uncertainty/conflicts were preserved and no unsupported probabilities, gates, timers, damage values, or narrower CaC restrictions were inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.\n2026-09-26 Batch 480 current-evidence enrichment: dedicated Xenoverse 2-specific evidence rechecked; source-reported numerical values remain bounded, reward conflicts preserved, unsupported exact frames, scaling, hidden interactions, and probabilities not inferred.",
@@ -13840,15 +13843,16 @@
       "source_quest_or_shop": "Parallel Quest 186 — Basic Reward",
       "ultimate_finish_required": false,
       "skill_description": "Chapter 4 Strike Ultimate associated with Goku (Ultra Supervillain Quelled).",
-      "mechanics_notes": "100 Strike Super. Current catalog evidence identifies it as a Strike Super. Exact hit sequence, damage, and acquisition remain insufficiently verified and are not guessed.",
-      "verification_status": "verified",
+      "mechanics_notes": "Strike Ultimate from the final Future Saga Chapter 4 PQ set. Current evidence places it in PQ186's Basic Reward list and identifies a multi-step rush/teleport attack. Recent community/video evidence documents behavior changes at low Health and consistently describes the move as a 3-Ki-bar Ultimate; exact hit counts, scaling, and the precise low-Health modifier remain unresolved and are not inferred.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-26",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/app/454650/discussions/0/564787571097573891/",
-        "https://dbxv2.fandom.com/wiki/Venus_Fist"
+        "https://dbxv2.fandom.com/wiki/Venus_Fist",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "All CaC races",
       "source_quest": 186,
