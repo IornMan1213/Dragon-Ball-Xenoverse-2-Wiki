@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 381,
+  "created": "2026-09-25",
+  "type": "thin_mechanics_enrichment",
+  "scope": "Fresh post-Batch-380 mechanics census; shortest unfinished records after excluding recently enriched targets.",
+  "records": [
+    {
+      "name": "Rocket Tackle",
+      "mechanics": "Android 16 charges shoulder-first; after a knockback it can chase/teleport to the opponent before striking.",
+      "source": "https://dbxv2.fandom.com/wiki/Rocket_Tackle"
+    },
+    {
+      "name": "Side Bridge",
+      "mechanics": "Android 17 throws a disc that travels forward and returns like a boomerang; source describes a two-hit/re-stand interaction.",
+      "source": "https://dbxv2.fandom.com/wiki/Side_Bridge"
+    },
+    {
+      "name": "Trap Shooter",
+      "mechanics": "Bojack fires a tracking volley; additional input can cancel the move before release, while the fired volley produces a multi-hit barrage.",
+      "source": "https://dbxv2.fandom.com/wiki/Trap_Shooter"
+    },
+    {
+      "name": "Spirit Blaster",
+      "mechanics": "Homing Ki Blasts can trigger a rapid follow-up barrage; guarding can cancel the follow-up.",
+      "source": "https://dbxv2.fandom.com/wiki/Spirit_Blaster"
+    }
+  ],
+  "evidence_boundary": "No unsupported probabilities, hidden prerequisites, frame data, exact timing, or universal damage claims were promoted."
+}
