@@ -1439,3 +1439,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build remains unverified.
 - [ ] Efficiency addendum remains unavailable at expected path (GitHub 404).
 - [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 446 and all prior current-evidence-audited records.
+
+
+### 2026-09-26 TODO progress update — Skill Research Batch 447 completed
+- [x] Researched **Hell Flash, Ice Cannon, Kill Driver, and Feint Crash**.
+- [x] Enriched/synchronized canonical and index datasets; parity **474/474**, 0 missing / 0 extra.
+- [x] Added four current-evidence audits, Batch 447 research/thin-frontier artifacts, and provenance registrations.
+- [x] Preserved evidence boundaries; secondary Kill Driver damage observations remain source-reported rather than canonical constants.
+- [ ] CI/build remains unverified.
+- [ ] Efficiency addendum remains unavailable at expected path (GitHub 404).
+- [x] **Exact next:** fresh unaudited mechanics frontier excluding Batch 447 and all prior current-evidence-audited records.
