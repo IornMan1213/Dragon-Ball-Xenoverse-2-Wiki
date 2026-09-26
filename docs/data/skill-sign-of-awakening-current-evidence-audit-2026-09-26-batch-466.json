@@ -1,0 +1,18 @@
+{
+  "batch": 466,
+  "date": "2026-09-26",
+  "skill_name": "Sign of Awakening",
+  "skill_id": "skill-sign-of-awakening",
+  "status": "completed",
+  "findings": [
+    "300-Ki Ki Blast Ultimate from PQ154. The user rushes forward through a rapid multi-hit sequence, then launches a blue energy attack; additional input makes the user vanish and reappear behind the opponent for another attack. Current reference material reports 21 hits and about 40% total damage, both retained as source-reported values."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Sign_of_Awakening"
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "Unsupported exact frames, hidden gates, probabilities, and patch-independent scaling are not promoted.",
+    "Documented acquisition/reward conflicts remain explicit rather than normalized without evidence."
+  ]
+}
