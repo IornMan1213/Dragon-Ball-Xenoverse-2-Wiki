@@ -1,0 +1,22 @@
+{
+  "batch": 453,
+  "date": "2026-09-26",
+  "type": "thin_frontier_mechanics_audit",
+  "selected": [
+    "Super Spirit Bomb",
+    "Reverse Launcher",
+    "Ultrasonic Blitz",
+    "Dragon Spiral",
+    "Destructive Fracture",
+    "Crush Cannon",
+    "Burning Blast",
+    "Instant Transmission"
+  ],
+  "method": "Fresh combined mechanics/notes coverage census over the live 474-record canonical skill set, excluding every skill with a registered current-evidence audit. The eight shortest remaining records were selected and rechecked against current skill-specific references.",
+  "evidence_boundaries": [
+    "Source-reported damage and behavior remain source-bound.",
+    "Exact frame data and patch-independent scaling formulas are not inferred.",
+    "Acquisition endpoints remain separate from reward probabilities.",
+    "Current evidence was used to deepen mechanics without inventing hidden conditions."
+  ]
+}
