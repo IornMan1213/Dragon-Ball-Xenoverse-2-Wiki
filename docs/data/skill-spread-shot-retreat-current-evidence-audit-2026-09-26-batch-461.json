@@ -1,0 +1,19 @@
+{
+  "batch": 461,
+  "date": "2026-09-26",
+  "skill_name": "Spread Shot Retreat",
+  "skill_id": "skill-spread-shot-retreat",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics/provenance review for the live canonical record.",
+  "findings": [
+    "300-Stamina Ki Blast Evasive from PQ28. The user retreats while firing a tracking barrage that can stun. Current evidence places it in the PQ28 Basic Reward listing and establishes no narrower CaC race, gender, or form restriction."
+  ],
+  "sources": [
+    "Repository-maintained current skill/PQ/evidence corpus and dedicated exact-name references reviewed for the live record."
+  ],
+  "evidence_boundaries": [
+    "Source-reported numerical values remain bounded evidence.",
+    "No unsupported exact frame data, reward probabilities, hidden gates, or patch-independent scaling is promoted.",
+    "Known source conflicts remain explicit rather than silently normalized."
+  ]
+}
