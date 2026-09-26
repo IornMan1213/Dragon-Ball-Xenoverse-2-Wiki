@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-26",
+  "type": "thin_frontier_mechanics_audit",
+  "method": "Fresh live 474-record census after Batch 489, excluding every skill represented by registered current-evidence audits; eight shortest remaining records promoted after manual provenance recheck.",
+  "selected": [
+    "skill-breaker-energy-wave",
+    "skill-emperor-s-cannon",
+    "skill-dark-inscription",
+    "skill-gigantic-cluster",
+    "skill-heat-wave",
+    "skill-special-beam-cannon-beast",
+    "skill-crimson-edge",
+    "skill-potential-unleashed"
+  ],
+  "next": "Fresh live census before Batch 491; do not reuse this candidate list."
+}
