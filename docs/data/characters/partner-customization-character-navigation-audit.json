@@ -50,5 +50,6 @@
     "key_number_integer_shape": true,
     "reconciliation_key_integer_shape": true,
     "search_link_exact_count": true
-  }
+  },
+  "reconciliation_note": "2026-09-26 live-baseline synchronization: the five restored preset character identity mappings bring the explicit bridge to 34 records and the canonical character layer to 152 names. No navigation identity mapping was changed."
 }
