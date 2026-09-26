@@ -1,0 +1,19 @@
+{
+  "batch": 459,
+  "date": "2026-09-26",
+  "skill_name": "Meditation",
+  "skill_id": "skill-meditation",
+  "status": "completed",
+  "evidence_scope": "Current Xenoverse 2-specific mechanics and acquisition evidence reviewed during Skill Research Batch 459.",
+  "findings": [
+    "0-Ki Power Up Super from PQ122. Completing the meditation stance raises maximum Ki to 1500 and grants temporary Ki Auto-Recovery for 20 seconds. Current evidence describes the charge as hold-to-complete and notes that the effect can coexist with other Power-Up effects during its 20-second duration. Exact recovery rate, startup, and frame timing remain unresolved."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/meditation"
+  ],
+  "evidence_boundaries": [
+    "Exact frame data is not promoted.",
+    "Patch-independent scaling is not inferred from source-reported values.",
+    "Reward probabilities and hidden prerequisites are not promoted unless directly evidenced."
+  ]
+}
