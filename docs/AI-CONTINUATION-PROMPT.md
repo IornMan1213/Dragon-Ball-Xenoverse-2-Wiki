@@ -1,3 +1,15 @@
+### 2026-09-25 continuation — Skill Research Batch 397 completed
+
+- [x] Fresh thin-frontier census selected the seven shortest mechanics records after Batch 396: **Kai Kai, Psycho Escape, Supernova Cooler, Super Elite Combo, Energy Dome, Eye Beam, One-Handed Kamehameha mk.II**.
+- [x] Added `docs/data/skill-research-batches/skill-batch-397.json` and seven current-evidence audit files.
+- [x] Refreshed canonical mechanics/provenance in both `docs/data/skills.json` and `docs/data/skills-index.json` for all seven records.
+- [x] Canonical/index parity rechecked: **474/474**, zero missing IDs in either direction; the seven target mechanics strings match exactly between layers.
+- [x] Registered Batch 397 and all seven audit files in `docs/data/pq-cross-domain-index.json`.
+- [x] Evidence policy remained bounded: no unsupported frame data, hidden prerequisites, reward probabilities, or unverified balance values were introduced. Psycho Escape community timing observations remain explicitly separated from canonical numeric claims.
+- [ ] CI/build status remains unverified; no workflow success is claimed.
+- [ ] **Exact next:** run the next 474-record thin-frontier census, excluding the completed Batch 397 targets, and continue source-backed enrichment/canonical synchronization with the next least-detailed records.
+
+
 ### 2026-09-25 continuation — Batch 396 canonical synchronization completed
 
 - [x] Recovered the large canonical blobs through the Git object API after the earlier contents-path limitation; the previous handoff's zero-length-read limitation is resolved for this cycle.
