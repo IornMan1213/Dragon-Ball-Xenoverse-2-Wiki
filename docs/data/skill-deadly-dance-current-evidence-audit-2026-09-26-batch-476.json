@@ -1,0 +1,14 @@
+{
+  "skill_id": "skill-deadly-dance",
+  "skill_name": "Deadly Dance",
+  "batch": 476,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Strike Super from Android 18 training, Lesson 2, usable by all CaC races. The move performs a sequence of dance-like kicks, repels weak Ki Blasts, and ends by launching the opponent. Current evidence corroborates the Lesson 2 acquisition endpoint and the defensive/offensive behavior; exact hit timing, damage scaling, and frame data remain unresolved.",
+  "sources": [
+    "https://dragonball.fandom.com/wiki/Deadly_Dance",
+    "https://dbxv2.fandom.com/wiki/Deadly_Dance"
+  ],
+  "evidence_boundary": "Numerical values are source-reported observations. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

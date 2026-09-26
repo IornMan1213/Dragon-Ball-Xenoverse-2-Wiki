@@ -1,0 +1,14 @@
+{
+  "skill_id": "skill-assault-rain",
+  "skill_name": "Assault Rain",
+  "batch": 476,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "300-Ki Ki Blast Ultimate from Expert Mission 9 — \"The Most Feared Majin.\" The user fires a barrage of Ki blasts from above that tracks the target; current Xenoverse 2 evidence describes a 10-hit sequence, long-range coverage, launching behavior, and about 15% total source-reported damage. The Future Warrior acquisition endpoint is Expert Mission 9; exact reward probability and frame/scaling data remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Assault_Rain",
+    "https://dragonball.fandom.com/wiki/Human_Extinction_Attack"
+  ],
+  "evidence_boundary": "Numerical values are source-reported observations. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

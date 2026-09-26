@@ -1,3 +1,16 @@
+### 2026-09-26 continuation — Batch 476 canonical mechanics enrichment
+
+- [x] Read and reconciled the live continuation state and exhaustive TODO before continuing.
+- [x] Performed a fresh 474-record mechanics frontier excluding all skill IDs represented by registered current-evidence audits.
+- [x] Selected and researched **Assault Rain, Saiyan Blaster, Soaring Rush, Heroic Assault, Endless Shoot, Deadly Dance, All Clear, Spirit Bomb** as Batch 476.
+- [x] Added eight dedicated current-evidence audit artifacts, the Batch 476 research record, and the thin-frontier audit.
+- [x] Synchronized all eight records into both canonical skill datasets.
+- [x] Canonical/index validation remains **474/474**, with **0 missing / 0 extra** IDs.
+- [x] Registered all Batch 476 artifacts in `docs/data/pq-cross-domain-index.json`.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected repository path (GitHub 404).
+- [x] **Exact next:** run a fresh unaudited mechanics frontier census excluding Batch 476 and every prior registered current-evidence audit, then continue the canonical research/synchronization cycle.
+
 ### 2026-09-26 continuation — Batch 475 canonical mechanics enrichment
 
 - [x] Read and reconciled the live continuation state and exhaustive TODO before continuing.

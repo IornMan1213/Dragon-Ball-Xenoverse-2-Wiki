@@ -1,0 +1,14 @@
+{
+  "skill_id": "skill-all-clear",
+  "skill_name": "All Clear",
+  "batch": 476,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Strike Super from Cell (Perfect) training. The user swings an arm to create a frontal sweeping attack that knocks the opponent away and can negate Ki Waves. It can also be used while guarding; current Xenoverse 2 evidence describes the guard use as invulnerable for the duration and reports about 10% damage. The numerical value remains source-reported rather than a patch-independent constant.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/All_Clear",
+    "https://dragonball.fandom.com/wiki/All_Clear"
+  ],
+  "evidence_boundary": "Numerical values are source-reported observations. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

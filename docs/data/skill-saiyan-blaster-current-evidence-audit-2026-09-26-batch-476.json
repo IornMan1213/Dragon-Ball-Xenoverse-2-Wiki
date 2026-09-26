@@ -1,0 +1,13 @@
+{
+  "skill_id": "skill-saiyan-blaster",
+  "skill_name": "Saiyan Blaster",
+  "batch": 476,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "400-Stamina Ki Blast Evasive used by Broly (DB Super). The user creates a large green pillar that functions as a temporary barrier and permits immediate Awoken Skill activation. Current Xenoverse 2 evidence identifies a 12–23-hit attack sequence and an extended runtime for Broly (DBS); the mandatory 400-Stamina cost is preserved. Exact frames, scaling, and hidden timing remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Saiyan_Blaster"
+  ],
+  "evidence_boundary": "Numerical values are source-reported observations. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

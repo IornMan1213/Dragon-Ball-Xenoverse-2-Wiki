@@ -1,0 +1,13 @@
+{
+  "skill_id": "skill-soaring-rush",
+  "skill_name": "Soaring Rush",
+  "batch": 476,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Strike Super from PQ177, \"Warped Sense of Justice,\" associated with Goku (Mini)'s Power Pole moveset. The user rushes forward, strikes, kicks the opponent away, and chases them; holding the fly input improves the forward dash and permits an immediate follow-up. Current evidence classifies it as a two-hit rush and preserves the documented follow-up behavior without inferring unsupported damage or frame data.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Soaring_Rush"
+  ],
+  "evidence_boundary": "Numerical values are source-reported observations. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

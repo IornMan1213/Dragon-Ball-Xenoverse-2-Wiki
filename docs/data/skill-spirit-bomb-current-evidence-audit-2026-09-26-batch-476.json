@@ -1,0 +1,15 @@
+{
+  "skill_id": "skill-spirit-bomb",
+  "skill_name": "Spirit Bomb",
+  "batch": 476,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Ki Blast Super learned through Goku training. The user raises their hands and charges for roughly 2–3 seconds before a second input releases the projectile; if it misses, current Xenoverse 2 documentation says it redirects like a boomerang for another chance to hit. Goku's mentor roster independently lists Spirit Bomb as a reward. Exact startup, tracking, damage, and frame data remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Spirit_Bomb",
+    "https://dbxv2.fandom.com/wiki/Mentors",
+    "https://dragonball.fandom.com/wiki/Spirit_Bomb"
+  ],
+  "evidence_boundary": "Numerical values are source-reported observations. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

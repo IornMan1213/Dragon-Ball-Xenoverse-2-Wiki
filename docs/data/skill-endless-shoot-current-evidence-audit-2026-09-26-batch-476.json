@@ -1,0 +1,14 @@
+{
+  "skill_id": "skill-endless-shoot",
+  "skill_name": "Endless Shoot",
+  "batch": 476,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "100+ Ki Ki Blast Super learned through Android 18 training. The user jumps back and fires a straight barrage; current repository evidence records five base blasts for about 10% damage and allows additional input to consume up to 400 extra Ki for as many as 19 blasts and about 30% total source-reported damage. The target can be changed during the barrage. Exact frame data and scaling remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Endless_Shoot",
+    "https://dbxenoverse.fandom.com/wiki/Endless_Shoot_(Skill)"
+  ],
+  "evidence_boundary": "Numerical values are source-reported observations. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

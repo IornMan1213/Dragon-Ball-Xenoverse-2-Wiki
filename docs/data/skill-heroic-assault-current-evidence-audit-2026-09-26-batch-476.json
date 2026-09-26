@@ -1,0 +1,14 @@
+{
+  "skill_id": "skill-heroic-assault",
+  "skill_name": "Heroic Assault",
+  "batch": 476,
+  "date": "2026-09-26",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Strike Super from PQ156, \"Hunting Down Dr. Hedo.\" The user dashes toward the opponent; additional input performs a tackle, while being attacked during the dash can trigger a backflip counter shot with the blaster. Current evidence confirms follow-up compatibility with attacks/boost movement and the PQ156 endpoint; the maintained reward record assigns the skill to an Ultimate Finish 40% roll. Exact frames and universal damage scaling remain unresolved.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Heroic_Assault",
+    "https://dragonball.fandom.com/wiki/Heroic_Assault"
+  ],
+  "evidence_boundary": "Numerical values are source-reported observations. Exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted without direct evidence.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; parity validated at 474/474."
+}

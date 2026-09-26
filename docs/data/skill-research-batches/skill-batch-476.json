@@ -1,0 +1,106 @@
+{
+  "batch": 476,
+  "date": "2026-09-26",
+  "status": "research_complete",
+  "scope": "Fresh unaudited mechanics frontier after Batch 475, excluding every skill ID represented by a registered current-evidence audit.",
+  "selection_method": "Shortest canonical mechanics records whose skill IDs were not represented by a registered current-evidence audit at census time.",
+  "selected": [
+    "Assault Rain",
+    "Saiyan Blaster",
+    "Soaring Rush",
+    "Heroic Assault",
+    "Endless Shoot",
+    "Deadly Dance",
+    "All Clear",
+    "Spirit Bomb"
+  ],
+  "records": [
+    {
+      "skill_id": "skill-assault-rain",
+      "skill_name": "Assault Rain",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from Expert Mission 9 — \"The Most Feared Majin.\" The user fires a barrage of Ki blasts from above that tracks the target; current Xenoverse 2 evidence describes a 10-hit sequence, long-range coverage, launching behavior, and about 15% total source-reported damage. The Future Warrior acquisition endpoint is Expert Mission 9; exact reward probability and frame/scaling data remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Assault_Rain",
+        "https://dragonball.fandom.com/wiki/Human_Extinction_Attack"
+      ]
+    },
+    {
+      "skill_id": "skill-saiyan-blaster",
+      "skill_name": "Saiyan Blaster",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "400-Stamina Ki Blast Evasive used by Broly (DB Super). The user creates a large green pillar that functions as a temporary barrier and permits immediate Awoken Skill activation. Current Xenoverse 2 evidence identifies a 12–23-hit attack sequence and an extended runtime for Broly (DBS); the mandatory 400-Stamina cost is preserved. Exact frames, scaling, and hidden timing remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Saiyan_Blaster"
+      ]
+    },
+    {
+      "skill_id": "skill-soaring-rush",
+      "skill_name": "Soaring Rush",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "100-Ki Strike Super from PQ177, \"Warped Sense of Justice,\" associated with Goku (Mini)'s Power Pole moveset. The user rushes forward, strikes, kicks the opponent away, and chases them; holding the fly input improves the forward dash and permits an immediate follow-up. Current evidence classifies it as a two-hit rush and preserves the documented follow-up behavior without inferring unsupported damage or frame data.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Soaring_Rush"
+      ]
+    },
+    {
+      "skill_id": "skill-heroic-assault",
+      "skill_name": "Heroic Assault",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "100-Ki Strike Super from PQ156, \"Hunting Down Dr. Hedo.\" The user dashes toward the opponent; additional input performs a tackle, while being attacked during the dash can trigger a backflip counter shot with the blaster. Current evidence confirms follow-up compatibility with attacks/boost movement and the PQ156 endpoint; the maintained reward record assigns the skill to an Ultimate Finish 40% roll. Exact frames and universal damage scaling remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Heroic_Assault",
+        "https://dragonball.fandom.com/wiki/Heroic_Assault"
+      ]
+    },
+    {
+      "skill_id": "skill-endless-shoot",
+      "skill_name": "Endless Shoot",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "100+ Ki Ki Blast Super learned through Android 18 training. The user jumps back and fires a straight barrage; current repository evidence records five base blasts for about 10% damage and allows additional input to consume up to 400 extra Ki for as many as 19 blasts and about 30% total source-reported damage. The target can be changed during the barrage. Exact frame data and scaling remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Endless_Shoot",
+        "https://dbxenoverse.fandom.com/wiki/Endless_Shoot_(Skill)"
+      ]
+    },
+    {
+      "skill_id": "skill-deadly-dance",
+      "skill_name": "Deadly Dance",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "100-Ki Strike Super from Android 18 training, Lesson 2, usable by all CaC races. The move performs a sequence of dance-like kicks, repels weak Ki Blasts, and ends by launching the opponent. Current evidence corroborates the Lesson 2 acquisition endpoint and the defensive/offensive behavior; exact hit timing, damage scaling, and frame data remain unresolved.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Deadly_Dance",
+        "https://dbxv2.fandom.com/wiki/Deadly_Dance"
+      ]
+    },
+    {
+      "skill_id": "skill-all-clear",
+      "skill_name": "All Clear",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "100-Ki Strike Super from Cell (Perfect) training. The user swings an arm to create a frontal sweeping attack that knocks the opponent away and can negate Ki Waves. It can also be used while guarding; current Xenoverse 2 evidence describes the guard use as invulnerable for the duration and reports about 10% damage. The numerical value remains source-reported rather than a patch-independent constant.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/All_Clear",
+        "https://dragonball.fandom.com/wiki/All_Clear"
+      ]
+    },
+    {
+      "skill_id": "skill-spirit-bomb",
+      "skill_name": "Spirit Bomb",
+      "research_status": "canonical_enrichment",
+      "mechanics_notes": "100-Ki Ki Blast Super learned through Goku training. The user raises their hands and charges for roughly 2–3 seconds before a second input releases the projectile; if it misses, current Xenoverse 2 documentation says it redirects like a boomerang for another chance to hit. Goku's mentor roster independently lists Spirit Bomb as a reward. Exact startup, tracking, damage, and frame data remain unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Spirit_Bomb",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dragonball.fandom.com/wiki/Spirit_Bomb"
+      ]
+    }
+  ],
+  "evidence_policy": "Current Xenoverse 2-specific evidence is prioritized. Source-reported numerical values remain source-bound; unsupported exact frames, scaling, hidden interactions, and reward probabilities are not inferred.",
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "missing_ids": [],
+    "extra_ids": []
+  },
+  "exact_next": "Run a fresh unaudited mechanics frontier census excluding Batch 476 and every prior registered current-evidence audit, then continue the canonical research/synchronization cycle."
+}
