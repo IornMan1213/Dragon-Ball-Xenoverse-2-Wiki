@@ -5142,8 +5142,8 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 mentor provenance refresh: current evidence confirms Broly mentor training as the Basic Reward endpoint and 300 Ki cost. Detailed combat mechanics remain bounded pending stronger dedicated evidence. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "300-Ki Ki Blast Ultimate from Broly training; small tracking Ki Blast explodes after about a second, with 4 hits and ~45% source-reported damage; Kale SSJ2 has a distinct uppercut variant.",
+      "notes": "2026-09-26 Batch 443 refresh: current skill-specific evidence reconfirms Broly training, 300 Ki, tracking/XL-range explosive behavior, 4-hit sequence, and source-reported ~45% damage. The Kale SSJ2 variant is explicitly distinguished; exact timing/scaling remains source-bound.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate learned from Broly training. The user throws a small tracking Ki Blast that explodes after about a second; current skill-specific evidence reports 45% damage over 4 hits. Kale (SSJ2)'s unique variant begins with an uppercut before the distant explosion. Exact timing and patch-independent scaling remain source-bound.",
       "source_quest": "Broly mentor training",
       "source_quest_or_shop": "Broly mentor training",
       "source_mentor": [
@@ -5190,8 +5190,8 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 mentor provenance refresh: current evidence confirms Broly mentor training as the Basic Reward endpoint and 100 Ki cost. Detailed combat mechanics remain bounded pending stronger dedicated evidence. 2026-09-22 verification refresh: synchronized with canonical skill record; no unsupported mechanics or acquisition conditions added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
-      "mechanics_notes": "100-Ki Strike Super from Broly training; large right-hand Ki Blast, pseudo-Ki Blast, 1–3 hits; current evidence reports ~15% close-range and ~10% long-range damage.",
+      "notes": "2026-09-26 Batch 443 refresh: current skill-specific evidence reconfirms Broly training, 100 Ki, Strike Super classification, pseudo-Ki Blast behavior, and distance-dependent source-reported damage (~15% close/~10% far). No unsupported frame data or patch-independent scaling is inferred.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.",
+      "mechanics_notes": "100-Ki Strike Super learned from Broly training. The user takes a stance and throws a large Ki Blast from the right hand; current skill-specific evidence reports about 15% damage at close range and 10% at long range. It is documented as a pseudo-Ki Blast with 1–3 hits and knockback. Exact frame data and patch-independent scaling remain unresolved.",
       "source_quest": "Broly mentor training",
       "source_quest_or_shop": "Broly mentor training",
       "source_mentor": [
@@ -7075,8 +7075,8 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 122 as the acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, restriction, DLC/update provenance, and reward-tier semantics against the maintained evidence corpus; no unsupported probabilities, gates, or numerical mechanics were added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.",
-      "mechanics_notes": "0-Ki Power Up Super from PQ122; completed stance raises max Ki to 1500 and grants Ki Auto-Recovery for 20 seconds.",
+      "notes": "2026-09-26 Batch 443 refresh: current skill-specific and PQ evidence reconfirm PQ122 acquisition, 0 Ki, temporary 1500 maximum Ki, and 20-second Ki Auto-Recovery. No unsupported recovery rate or frame timing is added.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.",
+      "mechanics_notes": "0-Ki Power Up Super from PQ122. Completing the meditation stance raises maximum Ki to 1500 and grants temporary Ki Auto-Recovery for 20 seconds. Current evidence describes the charge as hold-to-complete and notes that the effect can coexist with other Power-Up effects during its 20-second duration. Exact recovery rate, startup, and frame timing remain unresolved.",
       "source_quest": 122,
       "source_quest_or_shop": "Parallel Quest 122 — \"The Final Battle Before the Final Battle?!\"",
       "source_parallel_quests": [
@@ -11335,8 +11335,8 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300 Ki used. 2026-09-22 provenance refresh: current dedicated skill evidence confirms 300 Ki, 16-hit beam behavior, controllable/V-shaped firing, and Raditz training acquisition. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and mechanics; documented reward conflicts and unresolved evidence remain bounded, with no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value inferred.",
-      "mechanics_notes": "300-Ki Ki Blast Ultimate from Raditz Lesson 3; controllable long-range dual beams, with back input spreading them into a V shape. Current evidence reports 16 hits and ~30% damage.",
+      "notes": "2026-09-26 Batch 442 refresh: current skill-specific evidence reconfirms Raditz Lesson 3 acquisition, 300 Ki, controllable long-range beam behavior, 16-hit sequence, and source-reported 30% damage. The mentor lesson is independently corroborated; no unsupported frame timing or damage scaling is inferred.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from Raditz's Lesson 3. The user charges beams in both hands and fires them as separate energy waves; a back-direction input spreads them into a wide V shape. Current skill evidence reports 16 hits and approximately 30% total damage. Exact frame timing and scaling remain unresolved.",
       "source_quest": "Raditz mentor training — Lesson 3",
       "source_quest_or_shop": "Raditz mentor training — Lesson 3"
     },
@@ -11529,10 +11529,10 @@
       ],
       "unlock_method": "Parallel Quest 16 — \"Defeat Frieza's Army!\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-25 Batch 396 canonical promotion: current evidence synchronized the established Fighting Pose B research record into the canonical skill index. Unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.",
-      "mechanics_notes": "0-Ki Power Up Super. The pose grants a temporary Strike-move damage increase for 20 seconds. Current skill-specific documentation confirms the Strike-only scope and duration; exact percentage, stacking behavior, and frame timing remain unresolved.",
+      "notes": "2026-09-25 Batch 396 mechanics enrichment: current skill-specific evidence confirmed the 0-Ki Power Up classification, PQ16 acquisition endpoint, and 20-second Strike boost; unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.",
+      "mechanics_notes": "0-Ki Power Up Super from PQ16. The pose grants a temporary Strike-move damage increase for 20 seconds. Current skill-specific documentation confirms the Strike-only scope and duration; exact percentage, stacking behavior, reward probability, and frame timing remain unresolved.",
       "source_quest_or_shop": "Parallel Quest 16 — \"Defeat Frieza's Army!\" Basic Reward"
     },
     {
@@ -11567,10 +11567,10 @@
       ],
       "unlock_method": "Skill Shop after \"The Ginyu Force Strikes\"",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-25 Batch 396 canonical promotion: current evidence synchronized the established Fighting Pose G research record into the canonical skill index. Unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.",
-      "mechanics_notes": "0-Ki Power Up Super; increases Ki Blast skill damage. Current dedicated evidence reports about 8% increased output and a 20-second duration.",
+      "notes": "2026-09-25 Batch 396 mechanics enrichment: current evidence reconciled the earlier catalog record with the dedicated skill reference. The repository retains the explicit 0-Ki cost, Skill Shop endpoint, Ki Blast-damage effect, and source-bounded duration; unsupported balance details remain unresolved.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.",
+      "mechanics_notes": "0-Ki Power Up Super that increases Ki Blast skill damage. Current dedicated evidence reports about 8% increased output and a 20-second duration; exact race-dependent duration variants, stacking behavior, and frame data remain unresolved.",
       "source_quest_or_shop": "Skill Shop after \"The Ginyu Force Strikes\""
     },
     {
@@ -11586,9 +11586,9 @@
       ],
       "unlock_method": "Skill Shop after \"The Ginyu Force Strikes\"",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-25 Batch 396 canonical promotion: current evidence synchronized the established Fighting Pose I research record into the canonical skill index. Unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.",
+      "notes": "2026-09-25 Batch 396 mechanics enrichment: current skill-specific evidence confirmed the 0-Ki Power Up classification, Skill Shop endpoint, and 20-second Basic Movement Speed effect; unsupported movement multipliers, frame data, hidden gates, and reward probabilities remain unresolved.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.",
       "mechanics_notes": "0-Ki Power Up Super. After the pose animation, the user gains a Basic Movement Speed increase for 20 seconds; current skill-specific documentation identifies the effect as a movement-speed buff rather than a damage or defensive modifier. Exact speed multiplier and frame timing remain unresolved.",
       "source_quest_or_shop": "Skill Shop after \"The Ginyu Force Strikes\""
     },
@@ -11605,10 +11605,10 @@
       ],
       "unlock_method": "Parallel Quest 17 — \"Ginyu and the Fruit\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-26",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-25 Batch 396 canonical promotion: current evidence synchronized the established Fighting Pose J research record into the canonical skill index. Unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.",
-      "mechanics_notes": "0-Ki Power Up Super associated with Recoome; temporarily increases Stamina recovery. Exact magnitude and duration remain unresolved.",
+      "notes": "2026-09-25 Batch 396 mechanics enrichment: current evidence confirmed the 0-Ki Power Up classification and PQ17 acquisition endpoint. The core Stamina-recovery effect is retained from the established research record, while exact magnitude, duration, frame data, reward probabilities, and hidden gates remain unresolved.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.",
+      "mechanics_notes": "0-Ki Power Up Super associated with Recoome and PQ17. It temporarily increases Stamina recovery. Current evidence supports the PQ17 endpoint and core Power Up identity; exact multiplier, duration, frame data, reward probability, and hidden gates remain unresolved.",
       "source_quest_or_shop": "Parallel Quest 17 — \"Ginyu and the Fruit\" Basic Reward"
     }
   ],
