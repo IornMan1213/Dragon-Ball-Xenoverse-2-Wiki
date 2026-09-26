@@ -1,3 +1,17 @@
+### 2026-09-26 continuation — Live skill↔PQ cross-domain linkage pass completed
+- [x] Audited the live canonical `docs/data/skills.json` against the repository tree after the mechanics frontier reached **474/474**.
+- [x] Deterministically validated **474 unique canonical skill IDs**, **242 skills with explicit `source_parallel_quests` endpoints**, **246 skill→PQ edges**, and **170 represented PQ IDs** within the supported **PQ 1–186** domain.
+- [x] Added `docs/data/skill-pq-reverse-index-2026-09-26.json`, covering every PQ ID 1–186 and explicitly distinguishing a missing canonical skill endpoint from the unsupported conclusion that the PQ has no skill rewards.
+- [x] Added `docs/data/skill-pq-cross-domain-linkage-integrity-audit-2026-09-26.json` with reproducible current-corpus checks.
+- [x] Added `scripts/validate_skill_pq_crosslinks.py` as the deterministic validator/regenerator for the live skill→PQ reverse index.
+- [x] Registered the reverse index, audit, and validator in `docs/data/pq-cross-domain-index.json`.
+- [x] Revalidated the new artifacts after write: **474 skills / 246 edges / 170 represented PQ IDs / 0 invalid PQ IDs**.
+- [x] Identified **16 PQ IDs with no explicit skill endpoint in the current skill corpus**: **1, 30, 35, 47, 48, 93, 102, 103, 107, 108, 118, 121, 144, 157, 169, 170**.
+- [x] Confirmed the historical **244-edge** invariant referenced by older handoff material is stale relative to the current canonical corpus, which now contains **246** explicit skill→PQ edges; no relationship was silently removed to satisfy the old count.
+- [ ] CI/build remains unverified; no workflow success is claimed.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected path (GitHub 404).
+- [x] **Exact next:** reconcile the 16 currently unrepresented PQ IDs against a real PQ/reward corpus (the live repository currently contains no standalone PQ reward dataset), then resolve any evidence-backed skill endpoints and update the reverse index without inferring that an unrepresented PQ has no rewards.
+
 ### 2026-09-26 continuation — Mechanics frontier exhausted; data-integrity pass completed
 - [x] Fresh live Batch 492 census found **0 unaudited canonical skill IDs**: all **474/474** skill IDs now have at least one registered current-evidence audit after collapsing duplicate audit artifacts by stable skill ID.
 - [x] Shifted to deterministic corpus integrity work instead of fabricating another mechanics batch.
