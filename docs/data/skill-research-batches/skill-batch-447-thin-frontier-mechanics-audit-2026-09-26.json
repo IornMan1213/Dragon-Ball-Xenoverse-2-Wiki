@@ -1,0 +1,15 @@
+{
+  "batch": 447,
+  "date": "2026-09-26",
+  "type": "thin_frontier_mechanics_audit",
+  "selected": [
+    "Hell Flash",
+    "Ice Cannon",
+    "Kill Driver",
+    "Feint Crash"
+  ],
+  "evidence_boundaries": [
+    "No unsupported exact frames, scaling, probabilities, or hidden conditions added.",
+    "Kill Driver secondary damage observations are not promoted as canonical constants."
+  ]
+}
