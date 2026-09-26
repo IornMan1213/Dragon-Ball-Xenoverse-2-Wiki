@@ -1,3 +1,9 @@
+### 2026-09-26 continuation — Partner/custom relationship reconciliation boundary
+- [x] Searched exact and variant Partner Customization phrases across live skill research artifacts.
+- [x] Confirmed **Phantom Fist** is surfaced by the repository's `Partner Customization + skill_id` search, but the returned evidence does not expose an explicit partner assignment; therefore no confirmed skill→partner pair was inferred.
+- [x] Recorded this as an explicit unresolved discovery marker in `docs/data/partner-skill-relationships.json`, preserving the evidence boundary.
+- [ ] Exact next: inspect the complete Batch 473 record around Phantom Fist and then reconcile partner-character navigation/preset data once the actual character-navigation artifact is recoverable.
+
 ### 2026-09-26 continuation — Partner/custom relationship census follow-up
 - [x] Performed a live repository-wide search for the exact **Partner Customization** phrase across the skill corpus/research artifacts.
 - [x] Expanded the census beyond the three seeded relationship pairs; the live search found only four skill-related artifacts containing the exact phrase: Arm Crash research/audit and Reverse Mabakusenko research/audit. No additional explicit partner-skill pair was discovered from this corpus search.
