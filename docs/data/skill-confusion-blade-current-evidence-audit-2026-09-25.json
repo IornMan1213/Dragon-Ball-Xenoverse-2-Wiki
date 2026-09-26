@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "skill-confusion-blade-current-evidence-audit-2026-09-25",
+  "audit_date": "2026-09-25",
+  "target": "Confusion Blade",
+  "result": "verified_current_scope",
+  "supported_fields": {
+    "attack_type": "Ki Blast",
+    "skill_type": "Super",
+    "ki_cost": 100,
+    "acquisition": "Infinite History / Tokipedia 50% completion"
+  },
+  "evidence_sources": [
+    "https://dragonball.fandom.com/wiki/Confusion_Blade"
+  ],
+  "evidence_boundary": "Mechanics are bounded to current Xenoverse 2-specific reference evidence. Exact frame data, reward probability, hidden prerequisites, and patch-independent balance claims are not inferred."
+}
