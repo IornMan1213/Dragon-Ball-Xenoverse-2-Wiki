@@ -2269,3 +2269,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] CI/build remains unverified.
 - [x] **Exact next:** continue searching for stale cached cross-domain counts against canonical producers, prioritizing character/DLC/PQ consumer artifacts before resuming the mechanics frontier.
 
+### 2026-09-26 continuation — Cross-domain reachability baseline refreshed
+- [x] Recomputed `docs/data/cross-domain-index-reference-reachability-audit-2026-09-26.json` directly from the live `main` Git tree and `pq-cross-domain-index.json` rather than relying on stale search-index snapshots.
+- [x] Current occurrence-count baseline: **729 live tree paths / 1,630 index references / 738 reachable / 892 unreachable**. The count convention matches the existing audit (reference occurrences, not unique paths).
+- [x] The unreachable set remains dominated by historical/planned provenance; the five general PQ reward/reverse layers still lack a complete canonical reward source and were not fabricated.
+- [x] Character/navigation references restored in this continuation are now part of the reachable baseline.
+- [ ] CI/build remains unverified.
+- [x] **Exact next:** use this refreshed baseline to identify the next genuinely live-required, safely regenerable cross-domain consumer gap; avoid spending cycles on stale search-index results or historical-only references.
+
