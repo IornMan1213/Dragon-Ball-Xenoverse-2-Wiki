@@ -574,3 +574,10 @@
 - [x] No unsupported duration, frame, damage, reward-probability, or hidden-gate claims were added.
 - [ ] Canonical generated skill files were not partially rewritten; CI remains unverified.
 - [x] **Exact next:** fresh global thin-record census; select the next shortest/highest-impact mechanics or deterministic provenance gap.
+
+### 2026-09-25 completion — Skill Batch 367 fresh census refresh
+- [x] Completed **Fighting Pose H, Explosive Buu Buu Punch, Shining Slash, Burning Attack** from a fresh thin-record census.
+- [x] Added/refreshed four evidence audits plus Skill Batch 367 and registered them in the cross-domain index.
+- [x] Preserved version-sensitive Burning Attack interaction history and bounded all other mechanics claims.
+- [ ] Canonical generated skill files were not partially rewritten; CI remains unverified.
+- [x] **Exact next:** fresh census continuation with the next older partially-verified mechanics footprints, prioritizing compact deterministic records.
