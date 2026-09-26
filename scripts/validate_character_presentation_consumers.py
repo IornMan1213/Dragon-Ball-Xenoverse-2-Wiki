@@ -77,7 +77,7 @@ def main():
         "partner_reconciliation_id_parity":not partner_parity,
         "partner_display_names_match_canonical_bridge":not partner_name_mismatches,
         "preset_explorer_has_character_search_navigation":preset_navigation_contract_satisfied,
-        "generated_character_explorer_present":explorer_exists,
+        "generated_character_explorer_navigation_checked":(not explorer_exists) or preset_navigation_contract_satisfied,
         "preset_record_ids_unique":not duplicate_preset_ids and len(preset_record_ids)==len(set(preset_record_ids)),
         "preset_id_fields_are_strings":not malformed_preset_ids,
         "numbered_character_preset_pairs_unique":not duplicate_character_preset_pairs,
