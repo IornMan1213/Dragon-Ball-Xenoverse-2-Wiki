@@ -1,0 +1,16 @@
+{
+  "skill_id": "skill-big-bang-kamehameha",
+  "name": "Big Bang Kamehameha",
+  "batch": 436,
+  "date": "2026-09-26",
+  "status": "complete",
+  "source": "https://dbxv2.fandom.com/wiki/Big_Bang_Kamehameha",
+  "findings": [
+    "100 Ki chargeable Ki Blast Super",
+    "TP Medal Shop",
+    "Lowest effective charge: 9 hits / about 20%",
+    "Full charge: 15 hits / about 30%",
+    "Uncharged attempt does nothing without consuming Ki",
+    "Saiyan CaC with Super Saiyan transformation can warp behind target at full charge"
+  ]
+}
