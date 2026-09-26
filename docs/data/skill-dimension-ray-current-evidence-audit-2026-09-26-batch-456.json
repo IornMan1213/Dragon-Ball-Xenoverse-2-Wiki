@@ -1,0 +1,18 @@
+{
+  "skill_id": "skill-dimension-ray",
+  "name": "Dimension Ray",
+  "batch": 456,
+  "date": "2026-09-26",
+  "status": "completed",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Dimension_Ray",
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+  ],
+  "findings": [
+    "2026-09-26 Batch 456 current-evidence enrichment: 400-Ki Ki Blast Ultimate from PQ98. Current dedicated documentation describes Janemba creating timespace shards and sending a wide 19-projectile barrage followed by knockback, with about 40% total damage in the source-reported sequence. Exact projectile tracking, startup/recovery, spacing behavior, and patch-independent scaling remain unresolved."
+  ],
+  "evidence_boundaries": [
+    "Unsupported exact frames, scaling formulas, probabilities, hidden conditions, and patch-independent balance values were not inferred.",
+    "Source-reported numerical values remain bounded evidence."
+  ]
+}
