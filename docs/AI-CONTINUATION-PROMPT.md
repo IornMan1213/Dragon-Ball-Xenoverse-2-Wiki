@@ -796,3 +796,13 @@
 - [ ] CI remains unverified; no workflow success is claimed.
 - [x] Canonical/index writes were performed through Git blob reconstruction and direct full-file updates; both were 469 records before/after target synchronization.
 - [ ] **Exact next:** perform a fresh live census of mechanics_notes, exclude recently enriched targets, and continue the shortest/highest-impact records. Prioritize remaining records at or near 78–100 characters, while checking whether their short text is stale before researching them.
+
+
+### 2026-09-25 completion — Skill Batch 378
+- [x] Fresh post-Batch-377 census confirmed **469 records / 0 empty mechanics_notes / 0 duplicate IDs**.
+- [x] Enriched **Super Kamehameha (SS4 DAIMA), Special Beam Cannon, Hero's Pose, Spirit Boost, and Teleporting Vanishing Ball** with current skill-specific evidence and synchronized canonical/index layers.
+- [x] Added and registered Batch 378 research/audit artifacts.
+- [x] Preserved source-reported numeric mechanics as bounded evidence; no unsupported frames, probabilities, hidden gates, or patch-independent damage values were invented.
+- [ ] CI remains unverified.
+- [x] Fresh post-Batch-378 frontier now begins at **Feint Shot (118), Riot Javelin (118), Spirit Blaster (118), Final Flash (SS3 DAIMA) (119), Shooting Strike (119)**.
+- [ ] **Exact next:** fresh evidence check on the shortest remaining frontier, then continue mechanics enrichment without redoing recently completed records.
