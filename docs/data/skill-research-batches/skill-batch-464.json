@@ -1,0 +1,21 @@
+{
+  "batch": 464,
+  "date": "2026-09-26",
+  "scope": "Fresh registered-audit mechanics frontier after Batch 463.",
+  "selected": [
+    "Paralyze Beam",
+    "Meteor Burst",
+    "Final Kamehameha",
+    "Justice Blade",
+    "Strike of Revelation",
+    "Variant Drive",
+    "Giant Storm",
+    "Lightning of Absolution"
+  ],
+  "method": "Live 474-record census excluding registered current-evidence audits; selected the next eight lowest-detail records.",
+  "validation": {
+    "canonical_count": 474,
+    "index_count": 474,
+    "ordered_id_parity": true
+  }
+}
