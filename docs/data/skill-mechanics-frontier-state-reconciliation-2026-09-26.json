@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-26",
+  "purpose": "Reconcile stale post-Batch-494 mechanics-frontier progress metadata against the later deterministic full-corpus integrity audit.",
+  "source_audits": [
+    "docs/data/skill-corpus-data-integrity-audit-2026-09-26.json",
+    "docs/data/skill-pq-cross-domain-linkage-integrity-audit-2026-09-26.json"
+  ],
+  "findings": {
+    "canonical_skill_records": 474,
+    "registered_current_evidence_audit_ids": 474,
+    "unaudited_skill_ids": 0,
+    "stale_batch_494_claim": {
+      "recorded_coverage": 364,
+      "recorded_unaudited": 119,
+      "status": "stale",
+      "reason": "The Batch 494 entry predates the later full-corpus audit that normalized registered current-evidence audit paths by stable skill ID and found all 474 canonical IDs covered."
+    }
+  },
+  "correction_rule": "Batch 494 remains preserved as historical progress, but its 364/119 frontier scalar must not be treated as the current corpus state. The current state is 474/474 with 0 unaudited IDs.",
+  "next_priority": "Do not start Batch 495 from the stale 119-item frontier. Continue deterministic cross-domain, provenance, and data-integrity work; only open a new mechanics batch if a fresh live census establishes an actually unaudited canonical skill ID.",
+  "evidence_boundary": "Registered current-evidence audit coverage establishes audit presence, not proof that every unresolved mechanics field is known or complete.",
+  "status": "reconciled"
+}
