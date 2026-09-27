@@ -1,3 +1,13 @@
+### 2026-09-27 continuation — Skill acquisition endpoint-order hardening
+- [x] Inspected the live `scripts/validate_skill_acquisition_metadata.py` after the prior root/container hardening.
+- [x] Found a concrete robustness gap: duplicate detection used `set(source_parallel_quests)` before malformed endpoint values were type/range validated, so an unhashable endpoint could cause an uncontrolled `TypeError`.
+- [x] Reordered validation so every PQ endpoint is first checked as a non-boolean integer in supported range **1–186**; duplicate detection runs only on valid integer endpoints.
+- [x] Also moved canonical skill-ID uniqueness after explicit non-empty string validation, preventing malformed unhashable IDs from reaching set construction.
+- [x] Updated `docs/data/skill-acquisition-metadata-integrity-audit-2026-09-26.json` with the hardening record.
+- [x] No canonical skill/acquisition data changed; the established **474-record** contract remains unchanged.
+- [ ] Runtime validator execution and CI/build remain unverified.
+- [x] **Exact next:** inspect the remaining live deterministic validator/consumer/projection layer for another concrete robustness or source-vs-output integrity gap; preserve the missing general PQ reward source boundary.
+
 ### 2026-09-27 continuation — Partner skill validator root-container hardening
 - [x] Inspected the live `scripts/validate_partner_skill_relationships.py` after the prior identity-uniqueness hardening.
 - [x] Found a concrete robustness gap: the validator could call `.get()` on malformed non-object JSON roots for the relationship source, skills source, or character bridge, producing an uncontrolled `AttributeError` instead of a deterministic validation failure.
