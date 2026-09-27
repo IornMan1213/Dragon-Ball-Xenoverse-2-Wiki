@@ -3441,3 +3441,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed `"I'm not gonna die until I defeat you!"` remains only at its corrected canonical PQ 138 association, not PQ 151.
 - [x] Created and registered `docs/data/super-soul-pq-151-154-stale-canonical-occurrence-audit-2026-09-27.json`.
 - [ ] Next frontier: broader Super Soul canonical parity/reconciliation audit beyond PQ 151–154, prioritizing remaining thin or unresolved records rather than stopping at this conflict cluster.
+
+
+### 2026-09-27 continuation — broader Super Soul mechanics enrichment batch
+- [x] Enriched `super-soul-054` "Everyone, lend me your energy!": +10% Ki Blast skills for 15 seconds after an Ultimate Attack; Limit Burst ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.
+- [x] Enriched `super-soul-066` "Me...Protecting Some Pipsqueak": revive-time and damage effects plus Revive Gauge Auto-Recovery Limit Burst.
+- [x] Enriched `super-soul-067` "Buu Don't Wanna!": below-25%-HP +30 Stamina recovery; Auto Health and Stamina Recovery! DEF Down. Limit Burst.
+- [x] Enriched `super-soul-078` "Sorry. You were way open there.": Heavy Smash guard-break extension, +40% Ki Auto-Recovery for 10 seconds, and Final Kamehameha ATK Up! Limit Burst.
+- [x] Refreshed the mechanics enrichment audit with this batch.
+- [ ] Next: continue systematic enrichment of the remaining thin records, prioritizing records with reliable item-level catalogue evidence and checking classification conflicts before adding mechanics.
