@@ -56,11 +56,13 @@
   "latest_batch": {
     "date": "2026-09-27",
     "records": [
-      "super-soul-076",
-      "super-soul-034"
+      "super-soul-032",
+      "super-soul-033",
+      "super-soul-035"
     ],
-    "status": "mechanics_reconciled",
-    "note": "076 received direct catalogue confirmation of its trigger, magnitudes and durations; 034 was explicitly rechecked and remains unresolved because indexed evidence was insufficient.",
+    "status": "secondary_mechanics_reconciled",
+    "canonical_promotion": false,
+    "note": "Detailed recent community-tested mechanics were normalized into the secondary-evidence fields; they remain explicitly secondary and do not override canonical-data-first policy.",
     "limit_burst_coverage": "107/172"
   },
   "last_batch": {
