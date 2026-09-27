@@ -4524,3 +4524,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved canonical source-of-truth rules and did not infer unsupported frames, universal scaling, reward probabilities, hidden conditions, or disputed acquisition semantics.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Exact next: continue the stale canonical Skill frontier after Ki Explosion; re-fetch live SHAs before mutation.
+
+
+### 2026-09-27 continuation — Skill evidence Batch 523
+- [x] Refreshed 16 canonical skill records: Last Emperor; Light Grenade; Lightning Impact; Lightning of Absolution; Lovely Cyclone; Maiden Blast; Masenko; Maximum Charge; Meteor Blow; Meteor Crash; Meteor Explosion; Meteor Strike; Mighty Explosive Wave; Milky Cannon; Murder Grenade; Mystic Flash.
+- [x] Synchronized the 16 corresponding skills-index projections.
+- [x] Added docs/data/skill-research-batches/skill-batch-523.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Batch 523 made zero skill identity changes, zero canonical field corrections, and zero new Skill→PQ relationship inferences.
+- [x] Preserved unresolved reward probabilities, exact frames, hidden conditions, disputed acquisition semantics, and patch-independent scaling rather than inferring them.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Exact next: continue the stale canonical Skill frontier after Mystic Flash; re-fetch live SHAs before mutation.
