@@ -2539,3 +2539,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Next:** run a whole cross-domain projection/status audit now that skill, Super Soul, equipment, character, DLC, and farming consumers have deterministic canonical projections; identify the highest-impact remaining exhaustive enrichment gap rather than repeating completed consumer work.
 
+### 2026-09-27 continuation — Super Soul endpoint promotion and integrity hardening
+- [x] Reconciled the canonical **137 PQ→Super Soul edges / 134 unique targets** against the existing partial PQ acquisition layer and detailed Super Soul endpoint layer.
+- [x] Promoted **116 additional evidence-backed Super Soul names** from `docs/data/super-souls/pq-acquisition-index-041-186.json` into `docs/data/super-souls-record-layer.json` as deterministic `indexed` endpoint records. The record layer now contains **158 records**, including the existing detailed records.
+- [x] Promotion intentionally populated only identity/acquisition/provenance fields. Trigger, effect, magnitude, duration, stacking, Limit Burst, and other mechanics remain null/unresolved rather than being inferred.
+- [x] Current canonical PQ target endpoint coverage improved to **124/134**, leaving **10 explicit target-level enrichment gaps**: `I'm neither Kami nor Piccolo...`, `Time to dismantle you androids!`, `I am the universe's strongest!`, `I got back my youth and vigor!`, `Goku the legendary Super Saiyan!`, `I'll use all my strength to kill you.`, `I wanted to kill you with my own hands.`, `I am...Super Vegeta!!`, `This fight...is truly pointless...`, and `I actually felt that one...`.
+- [x] Refreshed `docs/data/super-soul-consumer-endpoint-coverage-audit-2026-09-27.json` and `docs/data/pq-super-soul-crosslink-report.json` to reflect the new endpoint coverage and preserve the partial-source boundary.
+- [x] Added `scripts/validate_super_soul_record_layer.py` and `docs/data/super-soul-record-layer-integrity-audit-2026-09-27.json` to enforce unique IDs/names, required source/verification fields, and canonical PQ target coverage without fabricating mechanics.
+- [x] Registered the validator/audit in `docs/data/pq-cross-domain-index.json`.
+- [ ] Runtime/CI remains intentionally non-blocking and unverified.
+- [ ] **Exact next:** investigate the remaining 10 Super Soul target identities against existing repository research/evidence and promote only evidence-complete records; after that, continue the broader cross-domain/exhaustive enrichment frontier (especially equipment's 107 endpoint gaps and DLC taxonomy/detail gaps).
+
