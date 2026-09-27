@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-27",
+  "purpose": "Post-corruption recovery checkpoint for canonical database layers. Records surviving live-main baselines, source blob SHAs, and evidence boundaries so later corruption can be detected and repaired from canonical sources rather than projections.",
+  "source_policy": "Canonical data is the source of truth. Do not reconstruct canonical records from verified/index/projection layers when canonical data survives.",
+  "recovery_status": "recovered_and_reconciled",
+  "baselines": {
+    "skills": {
+      "canonical_records": 474,
+      "index_records": 474,
+      "skill_pq_edges": 246,
+      "represented_pqs": 170,
+      "canonical_blob_sha": "e59d2f31ebae78b600c3896711664e0537551f89",
+      "index_blob_sha": "252761f947010a66a8409349b12f57f4ba5ab685"
+    },
+    "pq_rewards": {
+      "total_relationships": 840,
+      "skill": 236,
+      "super_soul": 137,
+      "equipment": 125,
+      "character": 247,
+      "dlc": 88,
+      "farming": 7,
+      "blob_sha": "c27a8a36fd55ab48c3e7ff477b62deb202b0b244"
+    },
+    "super_souls": {
+      "historical_records": 172,
+      "active_records": 167,
+      "blob_sha": "92fcb0bf11632cc6d0de8b0d9ccdf0e14981379f"
+    },
+    "equipment": {
+      "record_layer_records": 100,
+      "blob_sha": "4cf7dd48a839be6775cde8ff891ff24213616584"
+    },
+    "mentors": {
+      "records": 33,
+      "blob_sha": "d43de015b3d11080e73c3d00f7a2a543e211b1a1"
+    },
+    "awoken": {
+      "records": 15,
+      "blob_sha": "6910f4f2968b6daa6fdc8cf38371e3e0e747b8bc"
+    },
+    "qq_bangs": {
+      "record_layer_records": 3,
+      "blob_sha": "e54a6b9059167007ada84e6bc65bea508d1579ac"
+    },
+    "partner_skill_relationships": {
+      "relationships_count": 3,
+      "blob_sha": "c52da790ea8e81e88d52c626f01f2f045c0cc67e"
+    }
+  },
+  "corruption_recovery_history": [
+    "Canonical Skills regression was repaired from the surviving 474-record canonical baseline; Batch 514-525 evidence was subsequently preserved and re-applied on main.",
+    "PQ reward recovery was reconciled to the surviving 840-edge canonical relationship store rather than rebuilt from reverse indexes.",
+    "Later concurrent-write restoration commits were verified through the live main state before continuing enrichment."
+  ],
+  "current_frontier": {
+    "super_soul_limit_burst_gap": 2,
+    "targets": [
+      "super-soul-032",
+      "super-soul-034"
+    ],
+    "super_soul_032": "Identity/acquisition and a secondary 20% all-abilities-below-50%-HP report are retained. Limit Burst remains unresolved because no direct item-level evidence was found.",
+    "super_soul_034": "Identity/acquisition in PQ 186 are established, but current indexed/community evidence still does not establish its mechanics or Limit Burst. Do not infer from title or surrounding rewards."
+  },
+  "validation_boundary": "Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint."
+}
