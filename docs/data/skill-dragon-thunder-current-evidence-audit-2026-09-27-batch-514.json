@@ -1,0 +1,16 @@
+{
+  "audit_date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "canonical_source": "docs/data/skills.json",
+  "policy": "Canonical data is the source of truth. Existing conflicts and unresolved fields are preserved; no unsupported probabilities, hidden gates, exact frames, patch-independent scaling, or new Skill→PQ edges are inferred.",
+  "skill_name": "Dragon Thunder",
+  "skill_id": "skill-dragon-thunder",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Dragon_Thunder"
+  ],
+  "findings": [
+    "100-Ki Strike Super/counter used by Omega Shenron; unavailable to CaCs.",
+    "Anti-air spike attack only functioning when the opponent is above the user.",
+    "Current source reports 15% damage over 16 hits; exact timing/range/frame data remain unresolved."
+  ]
+}
