@@ -3089,3 +3089,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved source discrepancies instead of converting uncertain data into false certainty.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue evidence-backed enrichment.
+
+
+### 2026-09-27 TODO progress update — Post-recovery Super Soul acquisition contract
+- [x] Reconfirmed the restored canonical database baseline on `main` rather than reconstructing from partial branches.
+- [x] Added and registered a deterministic Super Soul PQ acquisition recovery validator covering **137** PQ→Super Soul relationships and **134** unique/indexed targets.
+- [x] Preserved the rule that canonical PQ reward relationships are the source of truth; the acquisition index is a projection and must not become an independent source of inferred rewards.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** continue forward from the restored database into evidence-backed cross-domain enrichment, with no speculative reconstruction.
