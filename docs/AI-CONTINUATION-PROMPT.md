@@ -3540,3 +3540,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Enriched `super-soul-163` "Send me back to the planet I came from!" — Cheelai, opponent Ultimate restores +300 Stamina to allies other than user, Evasive grants 7-second damage nullification, each once only, Revive Gauge Auto-Recovery.
 - [x] Confirmed mechanics against the current Super Soul catalogue; PQ 182–184 independently establish these as the corresponding rewards. citeturn1search0turn1search1
 - [ ] Continue with remaining canonical thin records and perform cross-index parity propagation/audit.
+
+
+### 2026-09-27 continuation — Super Soul cross-index parity
+- [x] Audited `super-soul-148` through `super-soul-152` after mechanics enrichment.
+- [x] Confirmed forward PQ acquisition parity: PQ159 → `Enter the hero!` + `The Red Ribbon Army is back in business!`; PQ160 → `Is that all?`; PQ161 → `I'm a whole new me.`; PQ162 → `Shenron really went the extra mile.`
+- [x] Confirmed reverse navigation parity for all five Super Souls in `pq-unified-reverse-index-1-186.json`.
+- [x] Added and registered `docs/data/super-soul-148-152-acquisition-mechanics-parity-audit-2026-09-27.json`.
+- [ ] Continue with the next canonical Super Soul research frontier and repeat forward/reverse parity checks as mechanics are enriched.
