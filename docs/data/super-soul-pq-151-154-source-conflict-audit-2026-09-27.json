@@ -45,6 +45,14 @@
     {
       "source": "https://dbxv2.fandom.com/wiki/Super_Soul",
       "observation": "The currently indexed Super Soul table exposes a different set of PQ 151-154 reward names, including 'I think I'm getting the hang of this.', 'I will put a stop to you, fiend!', 'There's more where that came from!', and no exact matches for the five quoted canonical endpoints except the broader database context."
+    },
+    {
+      "source": "https://dbxv2.fandom.com/wiki/Super_Soul",
+      "observation": "The indexed Super Soul table explicitly lists PQ 151 as 'I think I'm getting the hang of this.' and 'I'll keep adding a bit of power to my attacks!'; PQ 152 as 'I will put a stop to you, fiend!'; PQ 153 as 'There's more where that came from!' and 'You're not much of a fun fight!'; and does not list the repository's six canonical endpoint names for PQ 151-154."
+    },
+    {
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "observation": "The independent all-186-PQ guide explicitly lists PQ 151's two Super Soul rewards as 'I think I'm getting the hang of this.' and 'I'll keep adding a bit of power to my attacks!'; PQ 152 as 'I will put a stop to you, fiend!'; PQ 153 as 'There's more where that came from!' and 'You're not much of a fun fight!'; and PQ 154's basic rewards contain no Super Soul."
     }
   ],
   "resolution": "Do not overwrite canonical relationships or promote external mechanics from the conflicting table. The six canonical endpoints remain acquisition identities only until item-level evidence establishes their mechanics.",
@@ -53,5 +61,42 @@
     "No trigger, effect, magnitude, duration, stacking behavior, Limit Burst, character source, or CaC usability was inferred for these five records.",
     "The discrepancy itself is retained as research data so later reconciliation can be performed without losing the recovered canonical state."
   ],
-  "status": "documented_conflict_no_speculative_reconstruction"
+  "status": "confirmed_external_conflict_pending_canonical_research_reconciliation",
+  "reconciliation_delta": {
+    "pq151": {
+      "canonical": [
+        "I'll never forgive you!",
+        "I'm not gonna die until I defeat you!"
+      ],
+      "external": [
+        "I think I'm getting the hang of this.",
+        "I'll keep adding a bit of power to my attacks!"
+      ]
+    },
+    "pq152": {
+      "canonical": [
+        "I'll show you the power of a true warrior!"
+      ],
+      "external": [
+        "I will put a stop to you, fiend!"
+      ]
+    },
+    "pq153": {
+      "canonical": [
+        "Don't underestimate my power!",
+        "I won't forgive you!"
+      ],
+      "external": [
+        "There's more where that came from!",
+        "You're not much of a fun fight!"
+      ]
+    },
+    "pq154": {
+      "canonical": [
+        "I'm the one who will win!"
+      ],
+      "external": []
+    }
+  },
+  "next_action": "Do not mutate canonical reward relationships solely from this audit. Reconcile the canonical reward-normalization layer against stronger item-level/DLC evidence in a dedicated correction batch, preserving the old canonical claims as disputed provenance until replaced with explicit evidence."
 }
