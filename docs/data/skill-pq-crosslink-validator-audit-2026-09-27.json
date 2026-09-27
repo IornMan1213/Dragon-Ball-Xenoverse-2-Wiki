@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "status": "hardening_complete",
+  "validator": "scripts/validate_skill_pq_crosslinks.py",
+  "changes": [
+    "Canonical skills source JSON now has deterministic parse/root validation.",
+    "Core canonical skill schema assertions were replaced with explicit failures for normal and python -O execution.",
+    "Checked-in skill→PQ reverse artifact now reports malformed JSON deterministically before projection."
+  ],
+  "canonical_data_changed": false
+}
