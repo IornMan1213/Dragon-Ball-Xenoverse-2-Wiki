@@ -28,11 +28,11 @@ if len(records) != EXPECTED_SKILLS: raise SystemExit(f"skill count {len(records)
 if any(not isinstance(r, dict) for r in records): raise SystemExit("every canonical skill record must be an object")
 if any(not isinstance(r.get("id"), str) or not r.get("id").strip() for r in records): raise SystemExit("every canonical skill must have a non-empty string id")
 if any(not isinstance(r.get("name"), str) or not r.get("name").strip() for r in records): raise SystemExit("every canonical skill must have a non-empty string name")
-assert all("source_parallel_quests" not in r or isinstance(r["source_parallel_quests"], list) for r in records), "source_parallel_quests must be a list when present"
+if any("source_parallel_quests" in r and not isinstance(r["source_parallel_quests"], list) for r in records): raise SystemExit("source_parallel_quests must be a list when present")
 for record in records:
     endpoints = record.get("source_parallel_quests", [])
     for pq_id in endpoints:
-        assert isinstance(pq_id, int) and not isinstance(pq_id, bool) and 1 <= pq_id <= 186, (record["id"], pq_id)
+        if not isinstance(pq_id, int) or isinstance(pq_id, bool) or not 1 <= pq_id <= 186: raise SystemExit(f"invalid source_parallel_quests value for {record["id"]}: {pq_id!r}")
     assert len(endpoints) == len(set(endpoints)), f"duplicate source_parallel_quests IDs: {record['id']}"
 ids = [r["id"] for r in records]
 if len(set(ids)) != EXPECTED_SKILLS: raise SystemExit("duplicate canonical skill IDs")
@@ -47,29 +47,29 @@ if OUT.exists():
 else:
     existing_reverse = None
 if existing_reverse is not None:
-    assert isinstance(existing_reverse, dict), "checked-in reverse index root must be an object"
-    assert existing_reverse.get("schema_version") == "1.0", "checked-in reverse index schema_version must be 1.0"
-    assert existing_reverse.get("scope") == "Canonical skill dataset → Parallel Quest reverse navigation", "checked-in reverse index scope drift"
-    assert existing_reverse.get("source") == "docs/data/skills.json", "checked-in reverse index source drift"
-    assert existing_reverse.get("generated_on") == "2026-09-26", "checked-in reverse index generated_on drift"
-    assert existing_reverse.get("canonical_skill_count") == EXPECTED_SKILLS, "checked-in reverse index canonical skill count drift"
-    assert existing_reverse.get("represented_pq_count") == EXPECTED_REPRESENTED_PQS, "checked-in reverse index represented PQ count drift"
-    assert existing_reverse.get("total_skill_pq_edges") == EXPECTED_EDGES, "checked-in reverse index edge count drift"
+    if not isinstance(existing_reverse, dict): raise SystemExit("checked-in reverse index root must be an object")
+    if existing_reverse.get("schema_version") != "1.0": raise SystemExit("checked-in reverse index schema_version must be 1.0")
+    if existing_reverse.get("scope") != "Canonical skill dataset → Parallel Quest reverse navigation": raise SystemExit("checked-in reverse index scope drift")
+    if existing_reverse.get("source") != "docs/data/skills.json": raise SystemExit("checked-in reverse index source drift")
+    if existing_reverse.get("generated_on") != "2026-09-26": raise SystemExit("checked-in reverse index generated_on drift")
+    if existing_reverse.get("canonical_skill_count") != EXPECTED_SKILLS: raise SystemExit("checked-in reverse index canonical skill count drift")
+    if existing_reverse.get("represented_pq_count") != EXPECTED_REPRESENTED_PQS: raise SystemExit("checked-in reverse index represented PQ count drift")
+    if existing_reverse.get("total_skill_pq_edges") != EXPECTED_EDGES: raise SystemExit("checked-in reverse index edge count drift")
 
 by_pq = {str(i): [] for i in range(1, 187)}
 for record in records:
     for pq_id in record.get("source_parallel_quests", []):
-        assert isinstance(pq_id, int) and not isinstance(pq_id, bool) and 1 <= pq_id <= 186, (record["id"], pq_id)
+        if not isinstance(pq_id, int) or isinstance(pq_id, bool) or not 1 <= pq_id <= 186: raise SystemExit(f"invalid source_parallel_quests value for {record["id"]}: {pq_id!r}")
         by_pq[str(pq_id)].append({"skill_id": record["id"], "name": record["name"]})
 
 edge_count = sum(len(v) for v in by_pq.values())
 represented = sum(bool(v) for v in by_pq.values())
-assert edge_count == EXPECTED_EDGES, f"edge count {edge_count} != {EXPECTED_EDGES}"
-assert represented == EXPECTED_REPRESENTED_PQS, f"represented PQ count {represented} != {EXPECTED_REPRESENTED_PQS}"
+if edge_count != EXPECTED_EDGES: raise SystemExit(f"edge count {edge_count} != {EXPECTED_EDGES}")
+if represented != EXPECTED_REPRESENTED_PQS: raise SystemExit(f"represented PQ count {represented} != {EXPECTED_REPRESENTED_PQS}")
 expected_pq_ids = {pq: {"skill_count": len(items), "skill_ids": [x["skill_id"] for x in items], "skills": [x["name"] for x in items], "relationship_status": ("canonical_skill_endpoint_present" if items else "no_canonical_skill_endpoint_in_current_skill_corpus")} for pq, items in by_pq.items()}
 if existing_reverse is not None:
     actual_projection = existing_reverse.get("pq_ids")
-    assert actual_projection == expected_pq_ids, "checked-in reverse index differs from deterministic source_parallel_quests projection"
+    if actual_projection != expected_pq_ids: raise SystemExit("checked-in reverse index differs from deterministic source_parallel_quests projection")
 
 payload = {
     "schema_version": "1.0",
