@@ -9,8 +9,8 @@
   "validator": "scripts/validate_pq_skill_links.py",
   "checks": {
     "canonical_skill_records": 474,
-    "forward_pq_skill_edges": 236,
-    "resolved_consumer_links": 236,
+    "forward_pq_skill_edges": 246,
+    "resolved_consumer_links": 246,
     "unresolved": 0,
     "aliases": 4,
     "status": "passed"
@@ -22,5 +22,11 @@
     "Starfall → Destruction's Concerto: Starfall",
     "Giant Cluster → Gigantic Cluster"
   ],
-  "historical_note": "The previous report was generated from older PQ batch projections (229 links/283 canonical names). It is retained only as legacy provenance metadata inside the current report; the live consumer projection now derives from the canonical forward relationship store."
+  "historical_note": "The earlier 236-link count was stale metadata. The live recovered canonical dataset and forward PQ reward relationship store now both contain 246 Skill→PQ edges, with zero unresolved canonical endpoints.",
+  "canonical_projection_check": {
+    "canonical_skill_pq_edges": 246,
+    "forward_skill_edges": 246,
+    "missing_canonical_endpoints": 0,
+    "represented_pq_ids": 170
+  }
 }
