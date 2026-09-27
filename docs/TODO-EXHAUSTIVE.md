@@ -3480,3 +3480,8 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Corroborated 144 with PQ 156 and current catalogue mechanics.
 - [x] Corroborated 145 with PQ 157 and current catalogue mechanics.
 - [ ] Continue independent provenance audit starting with 143, then remaining records.
+
+
+### 2026-09-27 continuation — Super Soul 143 audit
+- [x] Audited 143: Gamma 1, PQ 156, Just Guard effect corroborated; ambiguous second modifier preserved as unresolved.
+- [ ] Continue remaining Super Soul provenance/ID-drift audit.
