@@ -55,6 +55,16 @@
       "expected": "exact equality with deterministic source_parallel_quests projection",
       "actual": "validator now performs exact object equality before rewriting",
       "pass": true
+    },
+    "source_parallel_quests_duplicate_ids": {
+      "expected": 0,
+      "actual": 0,
+      "pass": true
+    },
+    "source_parallel_quests_boolean_ids": {
+      "expected": 0,
+      "actual": 0,
+      "pass": true
     }
   },
   "interpretation": [
@@ -83,5 +93,11 @@
     "result": "The established 474-skill / 246-edge / 170-represented-PQ contract and deterministic pq_ids projection remain unchanged.",
     "validator_commit": "Committed directly to main in this continuation cycle; repository history is authoritative for the commit identifier.",
     "evidence_boundary": "This validates the checked-in reverse artifact against its canonical skill projection; it does not infer rewards for PQs without explicit source_parallel_quests relationships."
+  },
+  "validator_hardening_endpoint_uniqueness_2026_09_27": {
+    "change": "Hardened validate_skill_pq_crosslinks.py so each canonical skill's source_parallel_quests list rejects duplicate IDs and boolean-as-integer PQ IDs; the projection loop retains the same strict 1–186 integer contract.",
+    "result": "The established 474-skill / 246-edge / 170-represented-PQ projection is unchanged; no canonical skill relationship data was modified.",
+    "validator_commit": "0779139d3d6456eaf32fe32ee28ba80262f900eb",
+    "evidence_boundary": "This validates explicit skill→PQ endpoints represented by docs/data/skills.json. It does not infer missing skill rewards for PQs without canonical source_parallel_quests endpoints."
   }
 }
