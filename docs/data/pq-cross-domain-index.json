@@ -1873,7 +1873,16 @@
   },
   "registered": {
     "super_soul_pq_151_154_disputed_provenance_2026_09_27": "docs/data/super-soul-pq-151-154-disputed-provenance-2026-09-27.json",
-    "super_soul_pq_151_154_stale_canonical_occurrence_audit_2026_09_27": "docs/data/super-soul-pq-151-154-stale-canonical-occurrence-audit-2026-09-27.json"
+    "super_soul_pq_151_154_stale_canonical_occurrence_audit_2026_09_27": "docs/data/super-soul-pq-151-154-stale-canonical-occurrence-audit-2026-09-27.json",
+    "skill_batch_507_current_evidence": "docs/data/skill-research-batches/skill-batch-507.json",
+    "skill_candy_beam_super_current_evidence_audit_2026_09_27_batch_507": "docs/data/skill-candy-beam-super-current-evidence-audit-2026-09-27-batch-507.json",
+    "skill_charge_current_evidence_audit_2026_09_27_batch_507": "docs/data/skill-charge-current-evidence-audit-2026-09-27-batch-507.json",
+    "skill_circle_flash_current_evidence_audit_2026_09_27_batch_507": "docs/data/skill-circle-flash-current-evidence-audit-2026-09-27-batch-507.json",
+    "skill_comet_strike_current_evidence_audit_2026_09_27_batch_507": "docs/data/skill-comet-strike-current-evidence-audit-2026-09-27-batch-507.json",
+    "skill_confusion_blade_current_evidence_audit_2026_09_27_batch_507": "docs/data/skill-confusion-blade-current-evidence-audit-2026-09-27-batch-507.json",
+    "skill_crush_cannon_current_evidence_audit_2026_09_27_batch_507": "docs/data/skill-crush-cannon-current-evidence-audit-2026-09-27-batch-507.json",
+    "skill_crush_stream_current_evidence_audit_2026_09_27_batch_507": "docs/data/skill-crush-stream-current-evidence-audit-2026-09-27-batch-507.json",
+    "skill_crusher_ball_current_evidence_audit_2026_09_27_batch_507": "docs/data/skill-crusher-ball-current-evidence-audit-2026-09-27-batch-507.json"
   },
   "super_soul_164_172_limit_burst_parity": "docs/data/super-soul-164-172-limit-burst-parity-audit-2026-09-27.json",
   "super_soul_mechanics_status_consistency": "docs/data/super-soul-mechanics-status-consistency-audit-2026-09-27.json",
