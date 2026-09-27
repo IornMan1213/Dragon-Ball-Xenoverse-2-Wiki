@@ -1874,5 +1874,6 @@
   "registered": {
     "super_soul_pq_151_154_disputed_provenance_2026_09_27": "docs/data/super-soul-pq-151-154-disputed-provenance-2026-09-27.json",
     "super_soul_pq_151_154_stale_canonical_occurrence_audit_2026_09_27": "docs/data/super-soul-pq-151-154-stale-canonical-occurrence-audit-2026-09-27.json"
-  }
+  },
+  "super_soul_164_172_limit_burst_parity": "docs/data/super-soul-164-172-limit-burst-parity-audit-2026-09-27.json"
 }
