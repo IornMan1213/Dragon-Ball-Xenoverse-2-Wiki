@@ -3207,3 +3207,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Current coverage: trigger **74/168**, effect **82/168**, magnitude **76/168**, duration **64/168**, stacking **33/168**, Limit Burst **72/168**, Limit Burst effect **52/168**, CaC **82/168**.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue the next five evidence-backed mechanics records and preserve source conflicts explicitly.
+
+
+### 2026-09-27 continuation — Super Soul mechanics enrichment batch 7
+- [x] Enriched super-soul-102 through super-soul-106.
+- [x] Promoted evidence-backed triggers, effects, magnitudes, durations, stacking behavior, Limit Bursts, and CaC usability where supported.
+- [x] Refreshed mechanics and integrity audits; **95** partial mechanics records remain.
+- [x] Current coverage: trigger **79/168**, effect **87/168**, magnitude **81/168**, duration **66/168**, stacking **36/168**, Limit Burst **77/168**, Limit Burst effect **57/168**, CaC **87/168**.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue the next five evidence-backed mechanics records.
