@@ -372,14 +372,7 @@
     {
       "pq": "pq-046",
       "relationship": "pq_rewards_skill",
-      "target": "Chain Destructo-disc Barrage",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-048",
-      "relationship": "pq_rewards_skill",
-      "target": "Kamehameha",
+      "target": "Chain Destructo-Disc Barrage",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -659,7 +652,7 @@
     {
       "pq": "pq-090",
       "relationship": "pq_rewards_skill",
-      "target": "III Bomber",
+      "target": "Ill Bomber",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -757,7 +750,7 @@
     {
       "pq": "pq-104",
       "relationship": "pq_rewards_skill",
-      "target": "Starfall",
+      "target": "Destruction's Concerto: Starfall",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -1443,7 +1436,7 @@
     {
       "pq": "pq-163",
       "relationship": "pq_rewards_skill",
-      "target": "Giant Cluster",
+      "target": "Gigantic Cluster",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -6213,6 +6206,76 @@
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
       "notes": "PQ 07 basic rewards explicitly list Gyau!!!!."
+    },
+    {
+      "pq": "pq-087",
+      "relationship": "pq_rewards_skill",
+      "target": "Atomic Blast",
+      "status": "source_backed",
+      "source": "canonical Skill source_parallel_quests reconciliation"
+    },
+    {
+      "pq": "pq-113",
+      "relationship": "pq_rewards_skill",
+      "target": "Candy Beam (Super)",
+      "status": "source_backed",
+      "source": "canonical Skill source_parallel_quests reconciliation"
+    },
+    {
+      "pq": "pq-106",
+      "relationship": "pq_rewards_skill",
+      "target": "Destruction's Concerto: Meteor",
+      "status": "source_backed",
+      "source": "canonical Skill source_parallel_quests reconciliation"
+    },
+    {
+      "pq": "pq-106",
+      "relationship": "pq_rewards_skill",
+      "target": "Destruction's Conductor",
+      "status": "source_backed",
+      "source": "canonical Skill source_parallel_quests reconciliation"
+    },
+    {
+      "pq": "pq-086",
+      "relationship": "pq_rewards_skill",
+      "target": "Neo Wolf Fang Fist",
+      "status": "source_backed",
+      "source": "canonical Skill source_parallel_quests reconciliation"
+    },
+    {
+      "pq": "pq-057",
+      "relationship": "pq_rewards_skill",
+      "target": "Rakshasa's Claw",
+      "status": "source_backed",
+      "source": "canonical Skill source_parallel_quests reconciliation"
+    },
+    {
+      "pq": "pq-106",
+      "relationship": "pq_rewards_skill",
+      "target": "Requiem of Destruction",
+      "status": "source_backed",
+      "source": "canonical Skill source_parallel_quests reconciliation"
+    },
+    {
+      "pq": "pq-016",
+      "relationship": "pq_rewards_skill",
+      "target": "Fighting Pose B",
+      "status": "source_backed",
+      "source": "canonical Skill source_parallel_quests reconciliation"
+    },
+    {
+      "pq": "pq-015",
+      "relationship": "pq_rewards_skill",
+      "target": "Fighting Pose D",
+      "status": "source_backed",
+      "source": "canonical Skill source_parallel_quests reconciliation"
+    },
+    {
+      "pq": "pq-017",
+      "relationship": "pq_rewards_skill",
+      "target": "Fighting Pose J",
+      "status": "source_backed",
+      "source": "canonical Skill source_parallel_quests reconciliation"
     }
   ],
   "normalization_rules": [
@@ -6229,19 +6292,14 @@
     "Add reverse indexes: skill -> PQs, Super Soul -> PQs, equipment -> PQs, character -> PQs, DLC -> PQs."
   ],
   "current_counts": {
-    "skill": 236,
+    "skill": 246,
     "super_soul": 137,
     "equipment": 125,
     "character": 247,
     "dlc": 88,
-    "farming": 7
+    "farming": 7,
+    "total": 848
   },
-  "last_reconciled_scope": "PQ 15-186 reward layer checked against canonical typed fields; 24 previously missing canonical entries added. Existing edge-only relationships retained pending independent-source reconciliation because canonical typed arrays are explicitly partial.",
-  "notes": [
-    "2026-09-19: Corrected an overly aggressive reconciliation pass. Canonical PQ batch reward arrays are explicitly partial, so edge-only relationships were restored. Only 24 canonical typed reward entries absent from the prior forward layer were added.",
-    "2026-09-19: Added 46 reward relationships supported by the repository's source-normalized reward maps. These are marked source_normalized rather than source_backed because the map layer is explicitly partial.",
-    "2026-09-19: Promoted 76 source-only normalized reward entries to source_backed using the repository's all-186 PQ guide as independent reward-list evidence.",
-    "2026-09-19: Promoted 46 previously source_normalized reward edges to source_backed after matching them to the all-186 PQ guide.",
-    "2026-09-27: PQ 151-154 Super Soul relationships corrected to the explicit reward lists in the all-PQ guide; previous six endpoint names are retained only in the conflict audit as disputed recovered claims."
-  ]
+  "last_reconciled_scope": "2026-09-27 Batch 507 canonical Skill↔PQ endpoint reconciliation",
+  "notes": "2026-09-19: Corrected an overly aggressive reconciliation pass. Canonical PQ batch reward arrays are explicitly partial, so edge-only relationships were restored. Only 24 canonical typed reward entries absent from the prior forward layer were added.,2026-09-19: Added 46 reward relationships supported by the repository's source-normalized reward maps. These are marked source_normalized rather than source_backed because the map layer is explicitly partial.,2026-09-19: Promoted 76 source-only normalized reward entries to source_backed using the repository's all-186 PQ guide as independent reward-list evidence.,2026-09-19: Promoted 46 previously source_normalized reward edges to source_backed after matching them to the all-186 PQ guide.,2026-09-27: PQ 151-154 Super Soul relationships corrected to the explicit reward lists in the all-PQ guide; previous six endpoint names are retained only in the conflict audit as disputed recovered claims. Batch 507 reconciled canonical Skill source_parallel_quests against the forward PQ reward layer: normalized four presentation aliases, added canonical-only Skill→PQ endpoints supported by canonical records, and removed the conflicting PQ48 Kamehameha endpoint because the canonical skill record maps Kamehameha to PQ5 only."
 }
