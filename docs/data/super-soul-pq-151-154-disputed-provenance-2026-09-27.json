@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "title": "Recovered PQ 151-154 Super Soul disputed provenance",
+  "date": "2026-09-27",
+  "status": "historical_recovery_claims_preserved_not_canonical",
+  "purpose": "Preserve six claims removed from the canonical PQ reward layer during correction, so recovery history and source conflicts remain auditable without reintroducing unsupported rewards.",
+  "canonical_rule": "These entries are provenance/dispute records only and MUST NOT be treated as canonical PQ rewards.",
+  "external_evidence": [
+    "https://dbxv2.fandom.com/wiki/Super_Soul",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "claims": [
+    {
+      "name": "I'll never forgive you!",
+      "former_pq": [
+        "pq-151"
+      ],
+      "status": "disputed_removed",
+      "note": "Recovered claim; current catalogue does not support this PQ association."
+    },
+    {
+      "name": "I'm not gonna die until I defeat you!",
+      "former_pq": [
+        "pq-151"
+      ],
+      "status": "disputed_removed",
+      "note": "Recovered claim; current catalogue identifies this Super Soul as Parallel Quest 138, not 151."
+    },
+    {
+      "name": "I'll show you the power of a true warrior!",
+      "former_pq": [
+        "pq-152"
+      ],
+      "status": "disputed_removed",
+      "note": "Recovered claim; current catalogue does not support this PQ association."
+    },
+    {
+      "name": "Don't underestimate my power!",
+      "former_pq": [
+        "pq-153"
+      ],
+      "status": "disputed_removed",
+      "note": "Recovered claim; current catalogue does not support this PQ association."
+    },
+    {
+      "name": "I won't forgive you!",
+      "former_pq": [
+        "pq-153"
+      ],
+      "status": "disputed_removed",
+      "note": "Recovered claim; current catalogue does not support this PQ association."
+    },
+    {
+      "name": "I'm the one who will win!",
+      "former_pq": [
+        "pq-154"
+      ],
+      "status": "disputed_removed",
+      "note": "Recovered claim; current catalogue does not support this PQ association; current cited reward evidence has no Super Soul for PQ 154."
+    }
+  ]
+}
