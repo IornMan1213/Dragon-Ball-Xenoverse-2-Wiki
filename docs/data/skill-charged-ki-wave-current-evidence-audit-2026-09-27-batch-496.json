@@ -1,0 +1,12 @@
+{
+  "skill_id": "skill-charged-ki-wave",
+  "skill_name": "Charged Ki Wave",
+  "batch": 496,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "Current documentation reconfirms 100 Ki Stamina restoration and faster execution than Rise to Action; reward conflict remains explicit.",
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded independent corroboration.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; no canonical skill identity changed.",
+  "acquisition_endpoint": "PQ97",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and numerical probabilities are not asserted."
+}
