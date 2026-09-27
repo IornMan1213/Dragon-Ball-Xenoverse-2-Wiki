@@ -33,5 +33,7 @@
     "The skill index independently contains 474 unique records, and the Skill-to-PQ reverse artifact independently declares 474 canonical skills, 246 edges, and 170 represented PQ IDs.",
     "This audit does not claim every historical reward/reverse relationship is complete; source-bounded omissions remain governed by repository evidence rules.",
     "Runtime/CI execution remains intentionally non-blocking and unverified."
-  ]
+  ],
+  "validator": "scripts/validate_canonical_database_recovery.py",
+  "validator_status": "added; runtime execution intentionally unverified"
 }
