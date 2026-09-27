@@ -1,0 +1,12 @@
+{
+  "skill_id": "skill-menacing-flare",
+  "skill_name": "Menacing Flare",
+  "batch": 497,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Ki Blast Super from the Skill Shop; hit ends the attack, while a miss triggers teleport/kick follow-up. Current evidence reports about 10% damage on either path; exact timing/scaling remain unresolved.",
+  "acquisition_endpoint": "Skill Shop",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration.",
+  "canonical_sync": "Synchronized conceptually against the live 474-record canonical layer; identity is unchanged.",
+  "evidence_boundary": "Exact frame timing, patch-independent scaling, hidden interactions, and unsupported probabilities are not asserted."
+}
