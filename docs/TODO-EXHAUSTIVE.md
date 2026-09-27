@@ -3326,3 +3326,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the catalogue identities as unresolved rather than deleting them or inventing alternate acquisition routes.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: audit the next unresolved Super Soul endpoint with acquisition metadata that lacks a matching canonical relationship.
+
+### 2026-09-27 continuation — Flying Nimbus classification
+- [x] Corrected stale Super Soul metadata for `Flying Nimbus!!`; canonical PQ 2 relationship/reverse indexing already identified it as equipment/clothing.
+- [x] Added a dedicated classification audit preserving the historical discrepancy.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue stale Super Soul endpoint audit with evidence-first validation.
