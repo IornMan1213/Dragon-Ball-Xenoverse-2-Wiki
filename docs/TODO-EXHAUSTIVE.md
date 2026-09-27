@@ -3788,3 +3788,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added Batch 504 manifest, thin-frontier audit, eight evidence audits, and cross-domain index registrations.
 - [ ] Runtime/CI remains non-blocking.
 - [ ] Next: fresh Batch 505 census, followed by PQ→Skill / Skill→PQ reconciliation and the next highest-value substantive cross-domain enrichment.
+
+### 2026-09-27 continuation — Batch 505
+- [x] Reconciled Skill→PQ reverse navigation at **474 canonical skills / 246 edges / 170 represented PQ IDs** with zero malformed duplicate/boolean PQ identifiers.
+- [x] Preserved the 16-PQ unrepresented endpoint set as an evidence boundary; no unsupported Skill→PQ relationships were inferred.
+- [x] Selected the next eight-record frontier: **Assault Vanish, Bloody Counter, Blue Hurricane, Body Change, Brave Sword Slash, Break Cannon, Burning Blast, Burning Slash**.
+- [x] Added Batch 505 manifest and projection reconciliation audit.
+- [ ] Complete bounded current-evidence enrichment for Batch 505, then continue cross-domain reconciliation and expansion beyond the 474 canonical seed toward the 672 indexed-category target.
+- [ ] Runtime/CI remains non-blocking.
