@@ -4173,3 +4173,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Refreshed current secondary evidence for the two PQ 185 Super Souls already carrying 20% mechanics values.
 - [x] Preserved the three-record Limit Burst-effect gap; no unsupported Limit Burst values were added.
 - [ ] Continue evidence search for `super-soul-032`, `super-soul-033`, and especially unresolved `super-soul-034`.
+
+
+### 2026-09-27 continuation — Super Soul 033 Limit Burst enrichment
+- [x] Added secondary evidence for `super-soul-033` identifying its Limit Burst as `Super Armor`.
+- [x] Reduced the active Limit Burst-effect gap from 3 to **2** records.
+- [ ] Research `super-soul-032` and `super-soul-034` for explicit Limit Burst/item-level evidence.
