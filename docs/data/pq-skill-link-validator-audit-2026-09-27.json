@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "status": "hardening_complete",
+  "validator": "scripts/validate_pq_skill_links.py",
+  "changes": [
+    "Validate row object type before field access.",
+    "Validate PQ identifier format/range before duplicate-set construction and integer parsing.",
+    "Validate skill target as a non-empty string before duplicate-set construction and alias lookup."
+  ],
+  "canonical_data_changed": false,
+  "runtime_status": "unverified_by_user_direction"
+}
