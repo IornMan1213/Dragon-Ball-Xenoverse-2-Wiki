@@ -1,0 +1,10 @@
+{
+  "skill_id": "skill-hell-flash",
+  "skill_name": "Hell Flash",
+  "batch": 501,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "2026-09-27 Batch 501 refresh: current documentation reconfirms Android 16 training acquisition, 300-Ki Ki Blast Ultimate classification, ground-targeted beam/pillar sequence, 26-hit behavior, and source-reported approximately 70% total damage. Exact frame timing and patch-independent scaling remain unresolved.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and numerical reward probabilities are not asserted."
+}
