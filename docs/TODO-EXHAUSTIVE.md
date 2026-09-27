@@ -3112,3 +3112,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added and registered the conflict audit for future item-level reconciliation.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** pursue stronger item-level evidence for super-soul-137 through -141 before populating mechanics fields; preserve conflicts rather than manufacturing certainty.
+
+
+### 2026-09-27 TODO progress update — PQ 151–154 conflict deep reconciliation
+- [x] Expanded the conflict audit with exact independent reward evidence.
+- [x] Confirmed the stored canonical PQ 151–154 Super Soul identities materially conflict with the independent all-PQ guide and current Super Soul catalogue.
+- [x] Preserved the recovered canonical layer pending a dedicated correction batch; no silent overwrite.
+- [ ] **Next:** reconcile the canonical PQ reward-normalization records for PQ 151–154 using explicit DLC/item-level evidence, then propagate any confirmed correction through forward/reverse Super Soul indexes and audits.
