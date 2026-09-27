@@ -29,11 +29,18 @@ def populated(value) -> bool:
     return value is not None and value != ""
 
 def main() -> int:
-    layer = json.loads(LAYER.read_text(encoding="utf-8"))
+    try:
+        layer = json.loads(LAYER.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise SystemExit(f"{LAYER}: invalid JSON: {exc}")
+    if not isinstance(layer, dict):
+        raise SystemExit("Super Soul record layer root must be an object")
     records = layer.get("records")
     if not isinstance(records, list):
         raise SystemExit("records must be a list")
     coverage = {}
+    if any(not isinstance(record, dict) for record in records):
+        raise SystemExit("every Super Soul record must be an object")
     for field in FIELDS:
         count = sum(populated(record.get(field)) for record in records)
         coverage[field] = {"populated": count, "missing": len(records) - count}
