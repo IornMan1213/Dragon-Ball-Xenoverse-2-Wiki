@@ -1892,5 +1892,14 @@
   "skill_arm_crash_current_evidence_audit_2026_09_27_batch_504": "docs/data/skill-arm-crash-current-evidence-audit-2026-09-27-batch-504.json",
   "skill_assault_rain_current_evidence_audit_2026_09_27_batch_504": "docs/data/skill-assault-rain-current-evidence-audit-2026-09-27-batch-504.json",
   "skill_batch_505_projection_reconciliation": "docs/data/skill-pq-projection-reconciliation-2026-09-27-batch-505.json",
-  "skill_batch_505_frontier": "docs/data/skill-research-batches/skill-batch-505.json"
+  "skill_batch_505_frontier": "docs/data/skill-research-batches/skill-batch-505.json",
+  "skill_batch_506_current_evidence": "docs/data/skill-research-batches/skill-batch-506.json",
+  "skill_burning-swan_current_evidence_audit_2026_09_27_batch_506": "docs/data/skill-burning-swan-current-evidence-audit-2026-09-27-batch-506.json",
+  "skill_burst-blitz_current_evidence_audit_2026_09_27_batch_506": "docs/data/skill-burst-blitz-current-evidence-audit-2026-09-27-batch-506.json",
+  "skill_burst-reflection_current_evidence_audit_2026_09_27_batch_506": "docs/data/skill-burst-reflection-current-evidence-audit-2026-09-27-batch-506.json",
+  "skill_burst-rush_current_evidence_audit_2026_09_27_batch_506": "docs/data/skill-burst-rush-current-evidence-audit-2026-09-27-batch-506.json",
+  "skill_burst-stinger_current_evidence_audit_2026_09_27_batch_506": "docs/data/skill-burst-stinger-current-evidence-audit-2026-09-27-batch-506.json",
+  "skill_celestial-wave_current_evidence_audit_2026_09_27_batch_506": "docs/data/skill-celestial-wave-current-evidence-audit-2026-09-27-batch-506.json",
+  "skill_chain-destructo-disc-barrage_current_evidence_audit_2026_09_27_batch_506": "docs/data/skill-chain-destructo-disc-barrage-current-evidence-audit-2026-09-27-batch-506.json",
+  "skill_chaos-shot_current_evidence_audit_2026_09_27_batch_506": "docs/data/skill-chaos-shot-current-evidence-audit-2026-09-27-batch-506.json"
 }
