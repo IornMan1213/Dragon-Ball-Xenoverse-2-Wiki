@@ -3178,3 +3178,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Current coverage: trigger **64/168**, effect **72/168**, magnitude **66/168**, duration **54/168**, stacking **30/168**, Limit Burst **62/168**, Limit Burst effect **42/168**, CaC **72/168**.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue the next evidence-backed five-record mechanics batch; preserve explicit uncertainty for fields not supported by sources.
+
+
+### 2026-09-27 continuation — Super Soul mechanics enrichment batch 5
+- [x] Enriched five more indexed Super Souls: `super-soul-092` This heat...will be your downfall!; `super-soul-093` Right, then... Let's begin the experiment!; `super-soul-094` For beauty! For elegance! For love!; `super-soul-095` This Super Saiyan 2 is crazy strong!; `super-soul-096` Don't think I'm the same as before!.
+- [x] Promoted explicit trigger/effect/magnitude/duration/stacking/Limit Burst/CaC fields where supported by catalogue/guide evidence.
+- [x] Refreshed mechanics and integrity audits; **105** partial mechanics records remain.
+- [x] Current coverage: trigger **69/168**, effect **77/168**, magnitude **71/168**, duration **59/168**, stacking **32/168**, Limit Burst **67/168**, Limit Burst effect **47/168**, CaC **77/168**.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue the next five evidence-backed mechanics records; preserve unresolved fields rather than infer them.
