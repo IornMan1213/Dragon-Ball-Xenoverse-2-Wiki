@@ -1,0 +1,12 @@
+{
+  "skill_id": "skill-feint-crash",
+  "skill_name": "Feint Crash",
+  "batch": 497,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Strike Super from Cooler (Final Form) training; restanding teleport punch with an alternate-input kick path, with documented cancel/connectivity differences. No unsupported damage/frame claim.",
+  "acquisition_endpoint": "Cooler (Final Form) mentor training",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration.",
+  "canonical_sync": "Synchronized conceptually against the live 474-record canonical layer; identity is unchanged.",
+  "evidence_boundary": "Exact frame timing, patch-independent scaling, hidden interactions, and unsupported probabilities are not asserted."
+}
