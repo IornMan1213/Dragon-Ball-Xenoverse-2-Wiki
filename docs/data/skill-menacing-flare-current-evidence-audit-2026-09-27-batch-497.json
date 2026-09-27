@@ -4,9 +4,8 @@
   "batch": 497,
   "date": "2026-09-27",
   "status": "current_evidence_verified",
-  "mechanics": "100-Ki Ki Blast Super from the Skill Shop; hit ends the attack, while a miss triggers teleport/kick follow-up. Current evidence reports about 10% damage on either path; exact timing/scaling remain unresolved.",
-  "acquisition_endpoint": "Skill Shop",
-  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration.",
-  "canonical_sync": "Synchronized conceptually against the live 474-record canonical layer; identity is unchanged.",
-  "evidence_boundary": "Exact frame timing, patch-independent scaling, hidden interactions, and unsupported probabilities are not asserted."
+  "mechanics": "Current documentation reconfirms Skill Shop acquisition, 100 Ki Ki Blast Super classification, beam/teleport/pseudo-Strike behavior, and source-reported approximately 10% damage on both hit and miss-follow-up paths. Exact frame timing remains unresolved.",
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded independent corroboration.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and numerical reward probabilities are not asserted."
 }
