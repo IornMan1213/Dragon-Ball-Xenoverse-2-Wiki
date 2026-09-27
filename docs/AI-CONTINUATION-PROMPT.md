@@ -3755,3 +3755,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Limit Burst coverage remains **107/172**; this pass reconciled ordinary catalogue mechanics/provenance rather than asserting new Limit Burst effects.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** investigate the remaining thin set: Future Saga 032–035 plus 076, with direct evidence preferred and unresolved mechanics kept unresolved.
+
+
+### 2026-09-27 continuation — Zamasu mechanics reconciliation
+- [x] Strengthened `super-soul-076` with explicit catalogue mechanics: battle-start trigger, 15-second Ki non-depletion, and 15-second Awoken Skill seal. citeturn0search0turn0search6
+- [x] Rechecked `super-soul-034` against indexed Limit Burst/effect sources; insufficient direct item-level evidence remains, so its mechanics stay unresolved.
+- [x] Limit Burst coverage remains **107/172**; no unsupported Limit Burst effect was promoted in this pass.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue evidence search for remaining unresolved Future Saga records 032–035/034, while preserving secondary reports as provenance rather than canonical truth.
