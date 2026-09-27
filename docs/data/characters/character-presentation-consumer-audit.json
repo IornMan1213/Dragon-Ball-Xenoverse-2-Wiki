@@ -159,5 +159,12 @@
     "result": "Existing clean identity/navigation projection is unchanged; malformed source containers now fail deterministically instead of causing type-dependent validator exceptions.",
     "validator_commit": "5acb59197f0e194a2116b80dfe457e813cc0e5e1",
     "evidence_boundary": "Internal source-container and identity/navigation contract only; no character identity, preset ownership, unlock route, DLC, raid, or historical fact was inferred."
+  },
+  "validator_hardening_2026_09_27_identity_validation_order": {
+    "change": "Reordered character presentation identity projections so malformed preset/partner/reconciliation identifiers are filtered by explicit string validation before set/sorted-based projections. This prevents malformed unhashable IDs from causing uncontrolled TypeError failures while preserving explicit failure reporting.",
+    "result": "The established character presentation baseline remains unchanged; no canonical character, preset, or Partner Customization relationship data was modified.",
+    "validator_commit": "a8606c22076c34cb1a20cd1f0e1ab5e6988d38cc",
+    "runtime_status": "unverified",
+    "evidence_boundary": "Internal validator robustness only; this does not infer character identity, preset numbering, DLC ownership, unlock routes, or missing relationship data."
   }
 }
