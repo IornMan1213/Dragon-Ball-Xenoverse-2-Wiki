@@ -743,16 +743,16 @@
       "dlc_requirement": "FUTURE SAGA Chapter 4",
       "acquisition_type": "Parallel Quest 185 reward inventory (mapping unresolved)",
       "acquisition_source": "PQ 185",
-      "effect_text": "Below 50% max health, community-tested evidence reports a 20% boost to all abilities; canonical item-level confirmation remains unresolved.",
-      "effect_magnitude": "reported 20%",
-      "duration": "unresolved",
-      "stacking_behavior": "unresolved",
+      "effect_text": "Boosts all abilities.",
+      "effect_magnitude": "20% (secondary community-tested report)",
+      "duration": "Until condition no longer applies (secondary report; exact implementation not independently confirmed)",
+      "stacking_behavior": "Unresolved",
       "limit_burst": null,
       "limit_burst_trigger": null,
       "limit_burst_effect": null,
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Community-tested effect retained as secondary evidence; not promoted to fully verified item-level mechanics. Catalogue rechecked 2026-09-27; no unsupported passive mechanics promoted where the catalogue explicitly reports no special effect or unresolved data. Secondary community testing dated July/August 2026 reports that below 50% HP this soul increases all abilities by 20%, including offensive/defensive and resource/recovery-related stats. This remains secondary evidence and is not promoted to canonical item-level verification.",
+      "version_notes": "Community-tested effect retained as secondary evidence; not promoted to fully verified item-level mechanics. Catalogue rechecked 2026-09-27; no unsupported passive mechanics promoted where the catalogue explicitly reports no special effect or unresolved data. Secondary community testing dated July/August 2026 reports that below 50% HP this soul increases all abilities by 20%, including offensive/defensive and resource/recovery-related stats. This remains secondary evidence and is not promoted to canonical item-level verification. Current July/August 2026 community testing reports a 20% all-ability increase below 50% health, including damage, damage reduction, Ki gain, Stamina recovery, guard-break recovery, and movement speed. This remains secondary evidence and is not treated as canonical item-level verification.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
@@ -760,7 +760,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://www.reddit.com/r/dbxv/comments/1utfpk7/so_what_would_be_a_good_replacement_soul/",
         "https://dbxv2.fandom.com/wiki/Super_Soul"
-      ]
+      ],
+      "trigger_condition": "Below 50% max health"
     },
     {
       "id": "super-soul-033",
@@ -769,16 +770,16 @@
       "dlc_requirement": "FUTURE SAGA Chapter 4",
       "acquisition_type": "Parallel Quest 185 reward inventory (mapping unresolved)",
       "acquisition_source": "PQ 185",
-      "effect_text": "Community evidence associates the soul with HP regeneration; exact trigger, rate, and duration remain unresolved.",
-      "effect_magnitude": "unresolved",
-      "duration": "unresolved",
-      "stacking_behavior": "unresolved",
+      "effect_text": "Automatically regenerates health; while guard-broken, damage dealt is reduced and damage received is increased.",
+      "effect_magnitude": "XL modifiers reported as 20% each (secondary community report)",
+      "duration": "While the corresponding condition applies (secondary report)",
+      "stacking_behavior": "Unresolved",
       "limit_burst": null,
       "limit_burst_trigger": null,
       "limit_burst_effect": null,
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Only secondary community evidence is currently available. Secondary community testing dated July 2026 reports automatic health regeneration while not guard-broken, with XL damage taken and damage dealt penalties while guard-broken. These reports remain secondary and are not promoted to canonical item-level verification.",
+      "version_notes": "Only secondary community evidence is currently available. Secondary community testing dated July 2026 reports automatic health regeneration while not guard-broken, with XL damage taken and damage dealt penalties while guard-broken. These reports remain secondary and are not promoted to canonical item-level verification. Current July 2026 community testing reports automatic health regeneration outside guard break and XL damage dealt/received penalties during guard break. The report interprets XL as 20%; this interpretation remains secondary and is not promoted to canonical item-level truth.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
@@ -786,7 +787,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://www.reddit.com/r/dbxv/comments/1ut3o8s/does_all_abilities_here_mean_literally_all/",
         "https://www.reddit.com/r/dbxv/comments/1v2thx9/sometimes_you_just_gotta_know_when_its_wraps_lmao"
-      ]
+      ],
+      "trigger_condition": "Not guard-broken"
     },
     {
       "id": "super-soul-034",
@@ -819,23 +821,25 @@
       "dlc_requirement": "FUTURE SAGA Chapter 4",
       "acquisition_type": "Parallel Quest 186 reward inventory (mapping unresolved)",
       "acquisition_source": "PQ 186",
-      "effect_text": "Community-tested evidence reports 5000 damage distributed to user/allies/enemies over approximately 30 seconds at battle start, followed by a reported 15% boost to all abilities; canonical item-level confirmation remains unresolved.",
-      "effect_magnitude": "reported 5000 initial damage; reported 15% all-ability boost",
-      "duration": "reported ~30 seconds for initial damage phase; boost duration unresolved",
-      "stacking_behavior": "unresolved",
+      "effect_text": "Deals damage over approximately 30 seconds to the user, allies, and enemies; afterward grants the user an all-ability boost.",
+      "effect_magnitude": "Approximately 5000 initial damage; 15% all-ability boost (secondary community-tested report)",
+      "duration": "Approximately 30 seconds for the initial damage phase; boost duration unresolved",
+      "stacking_behavior": "Unresolved",
       "limit_burst": null,
       "limit_burst_trigger": null,
       "limit_burst_effect": null,
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Numerical values are secondary community reports, not fully verified canonical item data. Secondary community testing reports approximately 5000 damage distributed over 30 seconds at battle start followed by a 15% all-ability increase. These values remain secondary and are not promoted to canonical item-level verification.",
+      "version_notes": "Numerical values are secondary community reports, not fully verified canonical item data. Secondary community testing reports approximately 5000 damage distributed over 30 seconds at battle start followed by a 15% all-ability increase. These values remain secondary and are not promoted to canonical item-level verification. Current July/August 2026 community testing reports approximately 5000 distributed damage over 30 seconds followed by a 15% all-ability increase. These numerical values remain secondary evidence and are not treated as canonical item-level verification.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://www.reddit.com/r/dbxv/comments/1utfpk7/so_what_would_be_a_good_replacement_soul/"
-      ]
+        "https://www.reddit.com/r/dbxv/comments/1utfpk7/so_what_would_be_a_good_replacement_soul/",
+        "https://www.reddit.com/r/dbxv/comments/1v0ionai/build_ideas/"
+      ],
+      "trigger_condition": "When the battle begins"
     },
     {
       "id": "super-soul-036",
