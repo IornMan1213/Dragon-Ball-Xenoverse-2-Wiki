@@ -4054,7 +4054,7 @@
       "limit_burst_effect": null,
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Canonical PQ attribution removed on 2026-09-27 after current direct PQ reward evidence did not list this Super Soul at the previously indexed PQ. The identity is preserved as a standalone catalogue record; no alternate acquisition or mechanics are inferred. Current catalogue/web searches rechecked 2026-09-27 for the exact quoted identity; no matching item-level entry was located. Record is retained as an unresolved historical/catalogue identity and no mechanics, acquisition route, or Limit Burst are inferred.",
+      "version_notes": "Canonical PQ attribution removed on 2026-09-27 after current direct PQ reward evidence did not list this Super Soul at the previously indexed PQ. The identity is preserved as a standalone catalogue record; no alternate acquisition or mechanics are inferred. Current catalogue/web searches rechecked 2026-09-27 for the exact quoted identity; no matching item-level entry was located. Record is retained as an unresolved historical/catalogue identity and no mechanics, acquisition route, or Limit Burst are inferred. Live pq-reward-relationships.json was re-read 2026-09-27: no active canonical PQ reward edge exists for this identity. Earlier audit text claiming these were canonical endpoints was stale/conflicting audit history and is not the current source of truth.",
       "verification_status": "unresolved",
       "last_verified": "2026-09-27",
       "sources": [
@@ -4085,7 +4085,7 @@
       "limit_burst_effect": null,
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Canonical PQ attribution removed on 2026-09-27 after current direct PQ reward evidence did not list this Super Soul at the previously indexed PQ. The identity is preserved as a standalone catalogue record; no alternate acquisition or mechanics are inferred. Current catalogue/web searches rechecked 2026-09-27 for the exact quoted identity; no matching item-level entry was located. Record is retained as an unresolved historical/catalogue identity and no mechanics, acquisition route, or Limit Burst are inferred.",
+      "version_notes": "Canonical PQ attribution removed on 2026-09-27 after current direct PQ reward evidence did not list this Super Soul at the previously indexed PQ. The identity is preserved as a standalone catalogue record; no alternate acquisition or mechanics are inferred. Current catalogue/web searches rechecked 2026-09-27 for the exact quoted identity; no matching item-level entry was located. Record is retained as an unresolved historical/catalogue identity and no mechanics, acquisition route, or Limit Burst are inferred. Live pq-reward-relationships.json was re-read 2026-09-27: no active canonical PQ reward edge exists for this identity. Earlier audit text claiming these were canonical endpoints was stale/conflicting audit history and is not the current source of truth.",
       "verification_status": "unresolved",
       "last_verified": "2026-09-27",
       "sources": [
@@ -4116,7 +4116,7 @@
       "limit_burst_effect": null,
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Canonical PQ attribution removed on 2026-09-27 after current direct PQ reward evidence did not list this Super Soul at the previously indexed PQ. The identity is preserved as a standalone catalogue record; no alternate acquisition or mechanics are inferred. Current catalogue/web searches rechecked 2026-09-27 for the exact quoted identity; no matching item-level entry was located. Record is retained as an unresolved historical/catalogue identity and no mechanics, acquisition route, or Limit Burst are inferred.",
+      "version_notes": "Canonical PQ attribution removed on 2026-09-27 after current direct PQ reward evidence did not list this Super Soul at the previously indexed PQ. The identity is preserved as a standalone catalogue record; no alternate acquisition or mechanics are inferred. Current catalogue/web searches rechecked 2026-09-27 for the exact quoted identity; no matching item-level entry was located. Record is retained as an unresolved historical/catalogue identity and no mechanics, acquisition route, or Limit Burst are inferred. Live pq-reward-relationships.json was re-read 2026-09-27: no active canonical PQ reward edge exists for this identity. Earlier audit text claiming these were canonical endpoints was stale/conflicting audit history and is not the current source of truth.",
       "verification_status": "unresolved",
       "last_verified": "2026-09-27",
       "sources": [
@@ -4147,7 +4147,7 @@
       "limit_burst_effect": null,
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Canonical PQ attribution removed on 2026-09-27 after current direct PQ reward evidence did not list this Super Soul at the previously indexed PQ. The identity is preserved as a standalone catalogue record; no alternate acquisition or mechanics are inferred. Current catalogue/web searches rechecked 2026-09-27 for the exact quoted identity; no matching item-level entry was located. Record is retained as an unresolved historical/catalogue identity and no mechanics, acquisition route, or Limit Burst are inferred.",
+      "version_notes": "Canonical PQ attribution removed on 2026-09-27 after current direct PQ reward evidence did not list this Super Soul at the previously indexed PQ. The identity is preserved as a standalone catalogue record; no alternate acquisition or mechanics are inferred. Current catalogue/web searches rechecked 2026-09-27 for the exact quoted identity; no matching item-level entry was located. Record is retained as an unresolved historical/catalogue identity and no mechanics, acquisition route, or Limit Burst are inferred. Live pq-reward-relationships.json was re-read 2026-09-27: no active canonical PQ reward edge exists for this identity. Earlier audit text claiming these were canonical endpoints was stale/conflicting audit history and is not the current source of truth.",
       "verification_status": "unresolved",
       "last_verified": "2026-09-27",
       "sources": [
@@ -4178,7 +4178,7 @@
       "limit_burst_effect": null,
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Canonical PQ reward attribution was removed on 2026-09-27 after direct PQ 155 reward-list evidence omitted this Super Soul. The record is preserved as an unresolved catalogue identity; no mechanics or alternate acquisition route is inferred. Current catalogue/web searches rechecked 2026-09-27 for the exact quoted identity; no matching item-level entry was located. Record is retained as an unresolved historical/catalogue identity and no mechanics, acquisition route, or Limit Burst are inferred.",
+      "version_notes": "Canonical PQ reward attribution was removed on 2026-09-27 after direct PQ 155 reward-list evidence omitted this Super Soul. The record is preserved as an unresolved catalogue identity; no mechanics or alternate acquisition route is inferred. Current catalogue/web searches rechecked 2026-09-27 for the exact quoted identity; no matching item-level entry was located. Record is retained as an unresolved historical/catalogue identity and no mechanics, acquisition route, or Limit Burst are inferred. Live pq-reward-relationships.json was re-read 2026-09-27: no active canonical PQ reward edge exists for this identity. Earlier audit text claiming these were canonical endpoints was stale/conflicting audit history and is not the current source of truth.",
       "verification_status": "unresolved",
       "last_verified": "2026-09-27",
       "sources": [
