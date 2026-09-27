@@ -3234,3 +3234,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Integrity frontier reduced to **85** partial mechanics records.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue with super-soul-117 onward, using canonical catalogue evidence first and preserving discrepancies.
+
+
+### 2026-09-27 continuation — Super Soul audit reconciliation
+- [x] Rechecked the canonical Super Soul record layer instead of assuming the previous reported counters were current.
+- [x] Reconciled records super-soul-112 through super-soul-116 metadata and preserved the Ribrianne source discrepancy.
+- [x] Corrected the mechanics coverage audit to the values actually present in the canonical record layer: trigger **84/168**, effect **92/168**, magnitude **86/168**, duration **65/168**, stacking **40/168**, Limit Burst **82/168**, Limit Burst effect **60/168**, CaC **92/168**, race restriction **3/168**, DLC requirement **30/168**.
+- [x] Confirmed the core-field audit currently has **155 records with at least one unresolved core mechanics field**; this is distinct from the narrower enrichment-frontier counter used by the handoff.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: use the canonical layer and audit script outputs as the source for progress accounting before promoting additional mechanics.
