@@ -3905,3 +3905,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Batch 506 manifest finalized; existing source and reward-tier conflicts remain explicitly bounded.
 - [ ] Next: fresh Batch 507 census followed by cross-domain projection reconciliation and continued expansion beyond the canonical 474 records toward the 672 indexed-category target.
 - [ ] Runtime/CI remains non-blocking.
+
+### 2026-09-27 continuation — Batch 506 completion
+- [x] Completed current-evidence enrichment for the eight Batch 506 frontier records.
+- [x] Preserved reward-tier/source conflicts and did not infer unsupported probabilities or Skill→PQ edges.
+- [x] Batch 506 manifest finalized; 474/474 canonical/index identity baseline preserved.
+- [ ] Next: Batch 507 fresh census plus cross-domain enrichment toward 672 indexed categories.
