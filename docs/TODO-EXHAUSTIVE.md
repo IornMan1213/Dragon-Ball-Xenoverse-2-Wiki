@@ -2918,3 +2918,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Reduced the remaining partial mechanics frontier to **115 records**.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue evidence-backed enrichment without treating missing fields as negative facts.
+
+
+### 2026-09-27 TODO progress update — Super Soul mechanics batch 4
+- [x] Enriched Earth is in your hands now!, Get serious, would you?, Now we're even., Time to get serious, I guess., and Hmph! For justice!.
+- [x] Refreshed mechanics/integrity audits and advanced coverage to trigger 64/168, effect 72/168, magnitude 66/168, duration 54/168, stacking 30/168, Limit Burst 62/168, Limit Burst effect 42/168, CaC 72/168.
+- [x] Reduced the remaining partial mechanics frontier to **110 records**.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue evidence-backed enrichment without inferring undocumented mechanics.
