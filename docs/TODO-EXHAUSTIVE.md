@@ -3352,3 +3352,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added a dedicated reconciliation audit.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue cross-layer Super Soul parity auditing.
+
+### 2026-09-27 continuation — Super Soul projection count parity
+- [x] Verified Super Soul relationship/acquisition/reverse/reward-map parity and canonical record-target coverage.
+- [x] Corrected the crosslink projection's stale canonical record count from 173 to the actual 172 records.
+- [x] Added a dedicated projection-count audit.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue exhaustive parity auditing, then advance to the next highest-priority unfinished dataset area.
