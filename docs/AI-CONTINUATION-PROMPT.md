@@ -2872,3 +2872,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - Refreshed `docs/data/pq-equipment-crosslink-report.json`: 125 canonical edges, 123 unique targets, 34 endpoint identity matches, 89 explicit enrichment gaps. Missing endpoints remain non-negative claims; canonical forward relationships remain authoritative.
 - Runtime/CI remains intentionally non-blocking per project instruction.
 - Next priority: continue evidence-backed equipment endpoint promotion/reconciliation in larger batches, while separately advancing Super Soul mechanics coverage where independent evidence exists. Do not infer missing mechanics or invent accessory identities from generic/set labels.
+
+
+## 2026-09-27 continuation update — PQ equipment endpoint expansion batch
+- Promoted 9 additional unambiguous canonical PQ→equipment endpoint identities from existing repository evidence: Janemba Head, Caulifla Wig, Kale Wig, Bulma (Kid) Wig, Gamma 2's Helmet, Android 13's Clothes, Zamasu's Clothes, Flying Nimbus!!, and Gohan (Beast) Wig.
+- Updated the accessory/equipment endpoint layers and refreshed docs/data/pq-equipment-crosslink-report.json plus docs/data/pq-equipment-crosslink-integrity-audit-2026-09-27.json using exact target-name comparison.
+- Current canonical PQ equipment projection: 125 edges / 123 unique targets / 108 endpoint records / 42 exact identity matches / 81 explicit endpoint-enrichment gaps.
+- Canonical forward relationships remain authoritative; endpoint gaps are not negative reward claims. Ambiguous/component-only identities remain unresolved rather than inferred.
+- Runtime/CI remains intentionally non-blocking and unverified.
+- **Next:** continue evidence-backed promotion from the remaining 81 equipment/accessory endpoint identities, then advance DLC detail/taxonomy coverage.
