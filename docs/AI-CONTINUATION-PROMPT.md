@@ -1,3 +1,11 @@
+### 2026-09-27 continuation — PQ→skill link validator validation-order hardening
+- [x] Inspected the live `scripts/validate_pq_skill_links.py`.
+- [x] Found a concrete robustness gap: malformed relationship identifiers were used in duplicate-set construction and PQ integer parsing before type/format/range validation, allowing malformed values to trigger uncontrolled exceptions.
+- [x] Hardened each canonical PQ-skill row to require an object, a `pq-001`–`pq-186` identifier, and a non-empty string skill target before duplicate detection or numeric projection.
+- [x] No canonical PQ-skill relationship data was changed.
+- [ ] Runtime validator execution/CI/build remains intentionally unverified.
+- [ ] **Exact next:** inspect the next deterministic validator/consumer for another concrete integrity gap; then resume evidence-backed enrichment.
+
 ### 2026-09-27 continuation — PQ reward validator root/count schema hardening
 - [x] Inspected the live `scripts/validate_pq_reward_relationships.py`.
 - [x] Found a concrete schema-integrity gap: the validator consumed the top-level documents and `current_counts` without first requiring object roots and an exact six-key, non-negative-integer count contract.
