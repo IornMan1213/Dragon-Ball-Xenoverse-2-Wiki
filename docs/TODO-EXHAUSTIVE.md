@@ -4026,3 +4026,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Post-batch validation: canonical/index counts remain 474/474. The only remaining last_verified mismatches are the three pre-existing records Phantom Fist, Rise to Action, and Rising Rage; these were not normalized without resolving their provenance.
 - [ ] 247 canonical skill records remain older than 2026-09-27.
 - [ ] Exact next: Batch 516 starting at Eraser Bomb, Evil Blast, Evil Explosion, Evil Eyes, Evil Flame, Evil Flight Strike, Evil Ray Strike, Evil Rise Strike, Evil Whirlwind, Excellent Full Course, Explosive Assault, and Explosive Buu Buu Punch; continue in larger evidence-backed batches and resolve canonical/index drift separately.
+
+
+### 2026-09-27 continuation — Batch 516 canonical evidence refresh
+- [x] Completed Batch 516: refreshed 12 skills from Eraser Bomb through Explosive Buu Buu Punch against current Xenoverse 2 evidence.
+- [x] Synchronized docs/data/skills.json and docs/data/skills-index.json; both remain at 474 records.
+- [x] Added docs/data/skill-research-batches/skill-batch-516.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Batch 516 made zero skill identity changes, zero canonical field corrections, and zero new Skill→PQ relationship inferences.
+- [x] Preserved existing acquisition/reward conflicts and unresolved frame, scaling, hidden-condition, and probability fields rather than normalizing them without evidence.
+- [x] Post-batch validation: canonical/index counts are 474/474; the same three pre-existing last_verified mismatches remain isolated (Phantom Fist, Rise to Action, Rising Rage).
+- [ ] 235 canonical skill records remain older than 2026-09-27.
+- [ ] Exact next: Batch 517 beginning with Explosive Wave, Eye Beam, Fake Blast, Feint Shot, Fierce Fist, Fighting Pose E, Fighting Pose K, Final Cannon, Final Charge, and Final Explosion.
