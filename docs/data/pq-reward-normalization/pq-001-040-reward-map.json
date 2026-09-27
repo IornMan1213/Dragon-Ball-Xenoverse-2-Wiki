@@ -132,7 +132,10 @@
     {
       "pq": 12,
       "skills": [],
-      "super_souls": [],
+      "super_souls": [
+        "H-How could he?!",
+        "I actually felt that one..."
+      ],
       "clothing": [],
       "accessories": [],
       "artworks": []
@@ -210,7 +213,8 @@
       "pq": 21,
       "skills": [],
       "super_souls": [
-        "I'm neither Kami nor Piccolo..."
+        "I'm neither Kami nor Piccolo...",
+        "I am the universe's strongest!"
       ],
       "clothing": [
         "Hercule's Clothes",
@@ -222,7 +226,9 @@
     {
       "pq": 22,
       "skills": [],
-      "super_souls": [],
+      "super_souls": [
+        "I'll kill all of you!!"
+      ],
       "clothing": [],
       "accessories": [],
       "artworks": []
@@ -254,7 +260,9 @@
     {
       "pq": 26,
       "skills": [],
-      "super_souls": [],
+      "super_souls": [
+        "I got back my youth and vigor!"
+      ],
       "clothing": [],
       "accessories": [],
       "artworks": []
@@ -270,7 +278,10 @@
     {
       "pq": 28,
       "skills": [],
-      "super_souls": [],
+      "super_souls": [
+        "Drop dead!!!",
+        "Goku the legendary Super Saiyan!"
+      ],
       "clothing": [],
       "accessories": [],
       "artworks": []
@@ -278,7 +289,9 @@
     {
       "pq": 29,
       "skills": [],
-      "super_souls": [],
+      "super_souls": [
+        "I'll use all my strength to kill you."
+      ],
       "clothing": [],
       "accessories": [],
       "artworks": []
@@ -286,7 +299,9 @@
     {
       "pq": 30,
       "skills": [],
-      "super_souls": [],
+      "super_souls": [
+        "I'm neither Kami nor Piccolo..."
+      ],
       "clothing": [],
       "accessories": [],
       "artworks": []
@@ -330,7 +345,9 @@
     {
       "pq": 35,
       "skills": [],
-      "super_souls": [],
+      "super_souls": [
+        "I wanted to kill you with my own hands."
+      ],
       "clothing": [],
       "accessories": [],
       "artworks": []
@@ -338,7 +355,9 @@
     {
       "pq": 36,
       "skills": [],
-      "super_souls": [],
+      "super_souls": [
+        "I am...Super Vegeta!!"
+      ],
       "clothing": [],
       "accessories": [],
       "artworks": [],
@@ -357,7 +376,9 @@
     {
       "pq": 38,
       "skills": [],
-      "super_souls": [],
+      "super_souls": [
+        "This fight...is truly pointless..."
+      ],
       "clothing": [],
       "accessories": [],
       "artworks": []
