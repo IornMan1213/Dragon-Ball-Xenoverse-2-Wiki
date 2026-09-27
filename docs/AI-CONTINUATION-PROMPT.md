@@ -3575,3 +3575,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added an explicit source-discrepancy note to `super-soul-143` "This is your true power?" rather than inventing a sign/value for the second damage modifier; independent evidence confirms the -5% opponent-attack effect, while the source table's second modifier is internally inconsistent.
 - [x] Preserved `super-soul-142` as pending item-level mechanics research; PQ 155 reward provenance is independently confirmed.
 - [ ] Research and reconcile the exact mechanics for PQ 155 / `super-soul-142`, then continue the canonical Super Soul parity audit.
+
+
+### 2026-09-27 continuation — PQ 155 reconciliation gate
+- [x] Audited canonical `super-soul-142` / "This is the ultimate hero!" from PQ 155 after detecting that the record remained genuinely thin while later Gamma records had been enriched.
+- [x] Preserved the canonical reward-map claim without inventing mechanics or substituting the unrelated Hero of Justice Pack 1 Souls from PQ 156/157.
+- [x] Added `docs/data/super-soul-pq-155-source-conflict-audit-2026-09-27.json` documenting the discrepancy between the canonical normalized reward map and independently surfaced PQ/catalogue evidence.
+- [x] Confirmed the external PQ guide displays PQ 155's other rewards but does not display this Super Soul; current Fandom catalogue evidence likewise does not expose a matching entry in the relevant Hero of Justice Pack 1 section. citeturn4search7turn4search0
+- [ ] Resolve PQ 155's exact reward endpoint with item-level/game-data evidence before populating mechanics.
+- [ ] Continue with cross-domain index propagation/parity auditing after the disputed endpoint is reconciled.
