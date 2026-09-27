@@ -3271,3 +3271,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed the external PQ guide displays PQ 155's other rewards but does not display this Super Soul; current Fandom catalogue evidence likewise does not expose a matching entry in the relevant Hero of Justice Pack 1 section. citeturn4search7turn4search0
 - [ ] Resolve PQ 155's exact reward endpoint with item-level/game-data evidence before populating mechanics.
 - [ ] Continue with cross-domain index propagation/parity auditing after the disputed endpoint is reconciled.
+
+
+### 2026-09-27 continuation — Super Soul parity batch 10
+- [x] Audited the next Future Saga Super Soul cluster against the current mechanics catalogue rather than relying on repository-derived fields alone.
+- [x] Corrected `super-soul-161` / "Rejoice! A new ruler is born!" — Golden Frieza (Ultra Supervillain), +200 Ki at battle start, +10% all attacks and +20% Ki Auto-Recovery for 5 seconds after a Super Attack hits/blocks, with Auto Health and Stamina Recovery! DEF Down. citeturn3search0
+- [x] Corrected `super-soul-162` / "AAAAAAAAAGH!" — Broly (DB Super), once-only low-health Evasive restoration (+10% Health/+300 Stamina) and once-only Awoken restoration (+10% Health/+300 Ki), with DEF Up/Super Armor/Ki Recovery Speed Down. citeturn3search0
+- [x] Corrected `super-soul-163` / "Send me back to the planet I came from!" — Cheelai, once-only +300 Stamina to allies after an enemy Ultimate and 7-second damage nullification after Evasive, with Revive Gauge Auto-Recovery. citeturn3search0
+- [x] Preserved canonical-data-first rule: external evidence was used to reconcile mechanics, not to replace the repository's canonical record layer.
+- [ ] Continue auditing remaining records and then propagate validated mechanics/acquisition relationships through all cross-domain indexes.
