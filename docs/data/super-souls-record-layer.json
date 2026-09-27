@@ -1239,37 +1239,6 @@
       ]
     },
     {
-      "id": "super-soul-050",
-      "name": "Do or Die",
-      "character_source": null,
-      "dlc_requirement": null,
-      "acquisition_type": "Parallel Quest",
-      "acquisition_source": "Parallel Quest 49",
-      "first_clear_or_repeat": null,
-      "shop_rotation": null,
-      "trigger_condition": null,
-      "effect_text": null,
-      "effect_magnitude": null,
-      "duration": null,
-      "stacking_behavior": null,
-      "limit_burst": null,
-      "limit_burst_trigger": null,
-      "limit_burst_effect": null,
-      "usable_by_cac": null,
-      "race_restriction": null,
-      "version_notes": "The endpoint is indexed as a Super Soul from PQ49, but independent PQ reward evidence identifies 'Do or Die' as a skill rather than a Super Soul. Mechanics are intentionally not inferred until canonical reward-type classification is reconciled.",
-      "verification_status": "classification_review_required",
-      "last_verified": "2026-09-27",
-      "sources": [
-        "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
-        "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
-        "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
-        "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
-        "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
-    },
-    {
       "id": "super-soul-051",
       "name": "Before creation comes ruin...",
       "character_source": "Super Saiyan 2 Gohan (Teen)",
