@@ -1,0 +1,28 @@
+{
+  "batch": 497,
+  "date": "2026-09-27",
+  "scope": "Fresh thin-record census and current-evidence frontier",
+  "selection_rule": "New candidates selected from the live restored 474-record canonical corpus; Batch 496 candidate names were excluded.",
+  "candidates": [
+    "Ice Cannon",
+    "Final Flash (Super)",
+    "God Splitter",
+    "Formation!",
+    "Majin Kamehameha",
+    "Feint Crash",
+    "Paralysis",
+    "Menacing Flare"
+  ],
+  "validation": {
+    "candidate_count": 8,
+    "previous_batch_overlap": 0,
+    "canonical_records": 474,
+    "index_records": 474,
+    "synchronized_records": 8
+  },
+  "boundaries": [
+    "Historical research snapshots were not rewritten.",
+    "Canonical identity fields were not changed.",
+    "Unsupported exact frames, hidden gates, reward probabilities, and patch-independent scaling were not inferred."
+  ]
+}
