@@ -3713,3 +3713,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Refreshed `docs/data/super-soul-mechanics-enrichment-audit-2026-09-27.json`: canonical record count is now **172** and normalized `limit_burst_effect` coverage is **96 populated / 76 missing**.
 - [ ] Runtime/CI remains intentionally non-blocking, per the established recovery rule.
 - [ ] **Exact next:** continue the evidence-first Super Soul mechanics frontier with the remaining thin records, while preserving unresolved Chapter 4/classification records and never treating `verified` status as canonical source-of-truth. After each mechanics batch, rerun acquisition/forward/reverse/crosslink parity and keep all databases cross-navigable.
+
+
+### 2026-09-27 continuation — Super Soul Limit Burst frontier batch B + parity check
+- [x] Enriched seven additional canonical Super Soul Limit Burst effects: `super-soul-029`, `030`, `044`, `045`, `046`, `047`, and `076`, using explicit independent catalogue/character/raid evidence. citeturn4search6turn4search4turn6search4turn6search12turn4search2turn6search1
+- [x] Added `docs/data/super-soul-limit-burst-effect-batch-2026-09-27-b.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Refreshed the mechanics audit to **103/172** populated `limit_burst_effect` fields and 69 missing; no trigger timing, acquisition, probability, magnitude, or stacking data was inferred in this batch.
+- [x] Re-ran cross-domain parity after the batch: **135** active Super Soul relationship edges = **133** unique acquisition targets; the acquisition target set remains aligned with the active crosslink projection. No reward relationship was changed by this mechanics-only batch.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue the remaining thin canonical Super Soul mechanics set, prioritizing records where direct evidence can resolve a missing normalized field. Preserve PQ 185/186 and other disputed records unless independent item-level evidence resolves them; after each substantive batch rerun parity.
