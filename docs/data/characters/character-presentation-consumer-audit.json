@@ -153,5 +153,11 @@
     "2026-09-26 live-tree reconciliation: docs/Characters-All.html is not present in the source tree, so its existence is not treated as a source-tree invariant; the active validator remains source-data focused and may inspect the generated artifact only in a built checkout.",
     "2026-09-26 validator hardening: scripts/validate_character_presentation_consumers.py no longer unconditionally opens absent docs/Characters-All.html; generated explorer navigation is validated when present and skipped in the source checkout.",
     "2026-09-26 follow-up: generated explorer presence is informational; validator success is now independent of the optional build artifact when it is absent from the source checkout."
-  ]
+  ],
+  "validator_hardening_2026_09_27": {
+    "change": "Hardened source-container validation before set/map projections: canonical character_names must be a list of non-empty strings, and bridge/preset/Partner Customization/reconciliation records must be lists of objects.",
+    "result": "Existing clean identity/navigation projection is unchanged; malformed source containers now fail deterministically instead of causing type-dependent validator exceptions.",
+    "validator_commit": "5acb59197f0e194a2116b80dfe457e813cc0e5e1",
+    "evidence_boundary": "Internal source-container and identity/navigation contract only; no character identity, preset ownership, unlock route, DLC, raid, or historical fact was inferred."
+  }
 }
