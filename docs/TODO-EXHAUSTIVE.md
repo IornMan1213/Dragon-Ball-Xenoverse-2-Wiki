@@ -3796,3 +3796,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added Batch 505 manifest and projection reconciliation audit.
 - [ ] Complete bounded current-evidence enrichment for Batch 505, then continue cross-domain reconciliation and expansion beyond the 474 canonical seed toward the 672 indexed-category target.
 - [ ] Runtime/CI remains non-blocking.
+
+### 2026-09-27 continuation — Batch 505 current-evidence completion
+- [x] Completed current-evidence refreshes for **Assault Vanish, Bloody Counter, Blue Hurricane, Body Change, Brave Sword Slash, Break Cannon, Burning Blast, Burning Slash**.
+- [x] Synchronized canonical and index Skills layers with **0 identity changes**; 474/474 baseline remains intact.
+- [x] Added all eight dated evidence audit artifacts and finalized Batch 505 manifest.
+- [x] Preserved evidence boundaries and did not promote unsupported Skill→PQ relationships.
+- [ ] Next: fresh Batch 506 census and next cross-domain enrichment; continue expansion beyond the 474 canonical seed toward the 672 indexed-category target.
+- [ ] Runtime/CI remains non-blocking.
