@@ -1891,7 +1891,9 @@
     "skill_die_die_missile_barrage_current_evidence_audit_2026_09_27_batch_511": "docs/data/skill-die-die-missile-barrage-current-evidence-audit-2026-09-27-batch-511.json",
     "skill_dimension_cannon_current_evidence_audit_2026_09_27_batch_511": "docs/data/skill-dimension-cannon-current-evidence-audit-2026-09-27-batch-511.json",
     "skill_dimension_ray_current_evidence_audit_2026_09_27_batch_511": "docs/data/skill-dimension-ray-current-evidence-audit-2026-09-27-batch-511.json",
-    "skill_dimensional_hole_current_evidence_audit_2026_09_27_batch_511": "docs/data/skill-dimensional-hole-current-evidence-audit-2026-09-27-batch-511.json"
+    "skill_dimensional_hole_current_evidence_audit_2026_09_27_batch_511": "docs/data/skill-dimensional-hole-current-evidence-audit-2026-09-27-batch-511.json",
+    "skill_batch_512_current_evidence": "docs/data/skill-research-batches/skill-batch-512.json",
+    "pq_skill_consumer_reconciliation_current": "docs/data/pq-skill-consumer-reconciliation-audit-2026-09-27.json"
   },
   "super_soul_164_172_limit_burst_parity": "docs/data/super-soul-164-172-limit-burst-parity-audit-2026-09-27.json",
   "super_soul_mechanics_status_consistency": "docs/data/super-soul-mechanics-status-consistency-audit-2026-09-27.json",

@@ -4374,3 +4374,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved canonical-source priority and did not infer unsupported Skill→PQ relationships, reward probabilities, hidden gates, exact frames, or patch-independent scaling.
 - [ ] Runtime/CI remains non-blocking.
 - [ ] **Exact next:** fresh Batch 512 census and next substantive cross-domain enrichment toward the 672 indexed-category target.
+
+### 2026-09-27 continuation — Batch 512 current-evidence + PQ projection reconciliation
+- [x] Fresh post-Batch-511 census selected **Divine Kamehameha, Divine Lasso, Divine Ray Bomb, Divine Spear, Divine Wrath: Purification, Divinity Unleashed, Do or Die, Dodon Ray** from the 474-record canonical corpus.
+- [x] Completed bounded current-evidence refreshes for all eight; canonical identity changes: **0**.
+- [x] Synchronized `docs/data/skills.json` and `docs/data/skills-index.json`; added eight Batch 512 evidence audits and finalized `docs/data/skill-research-batches/skill-batch-512.json`.
+- [x] Reconciled live Skill→PQ projection metadata: **246 canonical edges = 246 forward Skill reward edges; 0 missing endpoints; 170 represented PQ IDs**.
+- [x] Corrected stale consumer-audit metadata that still reported 236 links; aliases remain 4 and unresolved links remain 0.
+- [x] Registered Batch 512 and the refreshed consumer reconciliation audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved canonical-source priority and evidence boundaries; no unsupported Skill→PQ edges, probabilities, hidden gates, exact frames, or patch-independent scaling were inferred.
+- [ ] Runtime/CI remains non-blocking.
+- [ ] **Exact next:** fresh Batch 513 census, then continue expanding/reconciling PQ↔Skill↔other-domain navigation toward the 672 indexed-category target.
