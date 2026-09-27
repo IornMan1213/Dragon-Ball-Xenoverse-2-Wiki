@@ -1,0 +1,23 @@
+{
+  "batch": 501,
+  "date": "2026-09-27",
+  "scope": "current-evidence frontier",
+  "records": [
+    "Super Dragon Flight",
+    "Big Bang Kamehameha",
+    "Mach Punch",
+    "Gravity Impact",
+    "Sudden Storm",
+    "Change The Future",
+    "Stone Bullet",
+    "Supernova Cooler"
+  ],
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "synchronized_records": 8,
+    "canonical_identity_changes": 0,
+    "evidence_boundary": "No unsupported exact frames, hidden interactions, universal scaling, or reward probabilities promoted.",
+    "note": "Batch 500 is retained as its existing historical manifest; this frontier is numbered 501 to avoid overwriting that prior batch."
+  }
+}
