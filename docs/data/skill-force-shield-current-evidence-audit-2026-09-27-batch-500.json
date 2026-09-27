@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-force-shield",
+  "skill_name": "Force Shield",
+  "batch": 500,
+  "date": "2026-09-27",
+  "status": "current_evidence_refreshed",
+  "mechanics": "2026-09-27 Batch 500 refresh: current evidence reconfirms the existing acquisition/classification/mechanics record without changing canonical identity; unsupported exact frames, scaling, probabilities, and hidden conditions remain unresolved.",
+  "source_scope": "Current repository evidence and dedicated Xenoverse 2 skill documentation already retained in the research corpus.",
+  "canonical_sync": "474-record canonical Skills baseline; identity unchanged.",
+  "evidence_boundary": "No unsupported exact frames, universal scaling, hidden interactions, or numerical reward probabilities asserted."
+}
