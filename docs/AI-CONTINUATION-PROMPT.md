@@ -3197,3 +3197,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Current coverage: trigger **74/168**, effect **82/168**, magnitude **76/168**, duration **64/168**, stacking **33/168**, Limit Burst **72/168**, Limit Burst effect **52/168**, CaC **82/168**.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue the next five evidence-backed mechanics records and preserve source conflicts explicitly.
+
+
+### 2026-09-27 continuation — Super Soul mechanics enrichment batch 6
+- [x] Enriched five more indexed Super Souls: super-soul-097 through super-soul-101.
+- [x] Promoted explicit trigger/effect/magnitude/duration/stacking/Limit Burst/CaC fields where supported by catalogue/stat-sheet/guide evidence.
+- [x] Preserved a documented source discrepancy for Veku's later attack boost rather than silently selecting one conflicting value.
+- [x] Refreshed mechanics and integrity audits; **100** partial mechanics records remain.
+- [x] Current coverage: trigger **74/168**, effect **82/168**, magnitude **76/168**, duration **64/168**, stacking **33/168**, Limit Burst **72/168**, Limit Burst effect **52/168**, CaC **82/168**.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue the next five evidence-backed mechanics records and preserve source conflicts explicitly.
