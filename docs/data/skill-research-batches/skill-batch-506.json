@@ -33,8 +33,8 @@
   "total_records_refreshed_across_registered_batch": 15,
   "latest_refresh_canonical_identity_changes": 0,
   "latest_refresh_note": "A second bounded Batch 506 frontier pass refreshed seven additional records after the existing Batch 506 registration was discovered. No prior completed records were removed or rewritten as a different selection.",
-  "status": "completed",
-  "next_exact": "Register the remaining seven Batch 506 audit artifacts and then synchronize the canonical/index records if substantive evidence changes.",
+  "status": "current-evidence-refresh-complete",
+  "next_exact": "Reconcile cross-domain projections and resume Batch 507 census after completing remaining Batch 506 audit registrations.",
   "census_correction": "The initial Batch 506 draft incorrectly selected four records that already had 2026-09-26 audits. Those were removed before enrichment; no redundant refresh was promoted.",
   "completed_at": "2026-09-27",
   "audit_artifacts": 8,
@@ -49,9 +49,7 @@
     "Celestial Wave"
   ],
   "result": "All eight records were already strongly enriched through earlier provenance/mechanics passes. Batch 506 preserves those canonical conclusions and does not manufacture newer facts where the available evidence does not materially change the record.",
-  "audit_artifacts_registered": [
-    "burning-swan"
-  ],
+  "audit_artifacts_registered": 1,
   "canonical_records": 474,
   "evidence_result": "Existing acquisition/mechanics evidence was refreshed without promoting unresolved reward probabilities, exclusive gates, exact frames, hidden interactions, or unsupported Skill→PQ edges.",
   "completed_current_evidence_refresh": true,
@@ -60,5 +58,6 @@
     "index_records": 474,
     "duplicate_name_count": 1,
     "note": "474-record baseline preserved; the single duplicate display-name condition is not an identity collision and was not altered in this batch."
-  }
+  },
+  "audit_artifact_note": "Burning Swan audit was already present from the interrupted registration pass; remaining per-record audit registration is pending GitHub content API acceptance."
 }
