@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "status": "hardening_complete",
+  "validator": "scripts/validate_awoken_model.py",
+  "changes": [
+    "Require skills/overrides/roster roots and record containers to have the expected types.",
+    "Require canonical skill and override identity fields name/class/subcategory to be non-empty strings before key construction.",
+    "Reject duplicate canonical skill identity keys instead of silently overwriting them in a dict.",
+    "Require roster entries to resolve to non-empty string names without coercing arbitrary objects or values.",
+    "Reject boolean ki_cost values even though bool is an int subclass in Python."
+  ],
+  "data_changed": false,
+  "model_contract": {
+    "canonical_parents": 15,
+    "documented_forms_or_stages": 20,
+    "stage_only_forms": 5
+  },
+  "runtime_status": "unverified_by_user_direction"
+}
