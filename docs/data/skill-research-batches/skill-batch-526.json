@@ -20,7 +20,7 @@
   "identity_changes": 0,
   "canonical_field_corrections": 0,
   "relationship_changes": 0,
-  "evidence_boundary": "Current evidence is recorded as provenance/mechanics support only. Canonical gameplay data remains source of truth; conflicting acquisition semantics, exact frames, probabilities, hidden conditions, and patch-independent scaling are not inferred.",
+  "evidence_boundary": "No canonical mutation in this refresh; secondary web evidence is retained as provenance support. Exact costs, acquisition routes, and mechanics require record-level evidence before promotion.",
   "evidence": [
     {
       "skill": "Raid Blast",
@@ -147,5 +147,39 @@
       ]
     }
   ],
-  "notes": "This batch is intentionally an evidence-refresh manifest because the live canonical blob is large and connector-limited. No canonical field was changed from secondary snippets alone."
+  "notes": "This batch is intentionally an evidence-refresh manifest because the live canonical blob is large and connector-limited. No canonical field was changed from secondary snippets alone.",
+  "web_evidence_refresh": [
+    {
+      "skill": "Shine Shot",
+      "fact": "Current Xenoverse 2 technique corpus identifies Shine Shot as Vegeta's Super Skill; a separate ID list marks it as CaC-usable.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
+      ]
+    },
+    {
+      "skill": "Rocket Tackle",
+      "fact": "Current Xenoverse 2 technique corpus identifies Rocket Tackle as Android 16's Super Skill; an ID list marks it CaC-usable.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
+      ]
+    },
+    {
+      "skill": "Savory Slicer",
+      "fact": "Current Xenoverse 2 technique corpus identifies Savory Slicer as Android 21's Super Skill; character data lists it in Android 21's loadout.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dbxv2.fandom.com/wiki/Characters"
+      ]
+    },
+    {
+      "skill": "Rakshasa's Claw",
+      "fact": "Current Xenoverse 2 technique corpus and an ID list identify Rakshasa's Claw as a CaC-usable Strike Super.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/79680756",
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
+      ]
+    }
+  ]
 }
