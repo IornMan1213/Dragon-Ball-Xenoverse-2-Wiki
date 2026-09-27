@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-meditation",
+  "skill_name": "Meditation",
+  "batch": 499,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "evidence_summary": "Current PQ122 and skill documentation reconfirms 0 Ki, temporary 1500 maximum Ki, and 20-second Ki Auto-Recovery. The effect's coexistence with other Power-Up effects remains documented; exact recovery rate and frame timing are not inferred.",
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded repository corroboration.",
+  "canonical_sync": "Synchronized to the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, hidden interactions, universal scaling, and numerical reward probabilities are not asserted."
+}
