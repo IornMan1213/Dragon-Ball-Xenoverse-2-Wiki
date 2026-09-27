@@ -49,8 +49,13 @@ for i, row in enumerate(equipment_rows):
         bad.append(f"row {i}: target must be non-empty string")
     if not isinstance(status, str) or not status:
         bad.append(f"row {i}: status must be non-empty string")
-    if not isinstance(source, str) or not source:
+    if not isinstance(source, str) or not source.strip():
         bad.append(f"row {i}: source must be non-empty string")
+    if isinstance(pq, str):
+        if not (pq.startswith("pq-") and pq[3:].isdigit() and 1 <= int(pq[3:]) <= 186):
+            bad.append(f"row {i}: pq must match pq-001 through pq-186")
+    if isinstance(status, str) and status not in {"verified", "inferred", "uncertain"}:
+        bad.append(f"row {i}: unsupported relationship status: {status!r}")
     if isinstance(pq, str) and isinstance(target, str):
         keys.append((pq, target))
         targets.append(target)
