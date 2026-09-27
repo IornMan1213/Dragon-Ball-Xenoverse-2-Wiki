@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-change-the-future",
+  "skill_name": "Change The Future",
+  "batch": 501,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "2026-09-27 Batch 500 refresh: current documentation reconfirms the 100-Ki Ki Blast Super counter, PQ43 Basic Reward endpoint, interception of basic/Ki Blast attacks, protected follow-up, and guard-related behavior. Exact counter frames and scaling remain unresolved.",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, hidden interactions, universal scaling, and numerical reward probabilities are not asserted."
+}
