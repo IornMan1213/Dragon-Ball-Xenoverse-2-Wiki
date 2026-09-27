@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-big-bang-kamehameha",
+  "skill_name": "Big Bang Kamehameha",
+  "batch": 501,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "2026-09-27 Batch 500 refresh: current dedicated documentation reconfirms TP Medal Shop acquisition, 100-Ki Ki Blast Super classification, chargeable beam behavior, 9–15-hit range, and source-reported damage observations. Exact charge timing and patch-independent scaling remain unresolved.",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, hidden interactions, universal scaling, and numerical reward probabilities are not asserted."
+}
