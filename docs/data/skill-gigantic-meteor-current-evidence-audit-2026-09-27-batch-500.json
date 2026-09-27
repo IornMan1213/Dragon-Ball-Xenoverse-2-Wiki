@@ -4,8 +4,8 @@
   "batch": 500,
   "date": "2026-09-27",
   "status": "current_evidence_verified",
-  "mechanics_summary": "300-Ki Ki Blast Ultimate learned from Broly training. The user throws a small tracking Ki Blast that explodes after about a second; current skill-specific evidence reports 45% damage over 4 hits. Kale (SSJ2)'s unique variant begins with an uppercut before the distant explosion. Exact timing and patch-independent scaling remain source-bound.",
-  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration already recorded in the canonical research corpus.",
+  "mechanics": "Current skill-specific evidence reconfirms Broly training, 300 Ki, tracking/XL-range explosive behavior, four-hit sequence, and source-reported approximately 45% damage. Kale (SSJ2)'s distinct variant remains explicitly separated; exact timing/scaling remain source-bound.",
   "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
-  "evidence_boundary": "Source-reported numerical values remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded corroboration.",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted."
 }
