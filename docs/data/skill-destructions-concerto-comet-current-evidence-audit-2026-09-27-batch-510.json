@@ -1,0 +1,9 @@
+{
+  "skill_name": "Destruction's Concerto: Comet",
+  "batch": 510,
+  "date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; canonical identity unchanged.",
+  "evidence_boundary": "Existing acquisition/reward-tier/source conflicts remain preserved. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities were not promoted.",
+  "projection": "No new Skill→PQ edge inferred."
+}
