@@ -63,5 +63,20 @@
       "super-soul-178"
     ],
     "evidence_basis": "Explicit PQ/DLC reward identity evidence; only super-soul-174 received mechanics from independent item-level/player-reference evidence."
-  }
+  },
+  "last_batch": {
+    "date": "2026-09-27",
+    "records": [
+      "super-soul-054",
+      "super-soul-066",
+      "super-soul-067",
+      "super-soul-078"
+    ],
+    "evidence": [
+      "https://dbxv2.fandom.com/wiki/Super_Soul",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    ],
+    "status": "mechanics_enriched"
+  },
+  "record_count": 173
 }
