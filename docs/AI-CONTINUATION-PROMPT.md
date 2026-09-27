@@ -3138,3 +3138,16 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] This closes the current PQ equipment endpoint identity frontier without claiming that every equipment record is fully stat/restriction verified.
 - [ ] Runtime/CI remains intentionally non-blocking and unverified.
 - [ ] **Exact next:** fresh live census of the next highest-value incomplete cross-domain dataset; prioritize substantive acquisition/mechanics/reverse-navigation enrichment and preserve canonical-data source-of-truth rules. Do not reuse stale candidate lists.
+
+
+### 2026-09-27 continuation — Unified Super Soul PQ acquisition cross-link recovery
+- [x] Freshly audited the canonical PQ→Super Soul projection: **137 forward edges / 134 unique targets / 134 detailed endpoint identities**.
+- [x] Found the remaining acquisition-index gap was structural: the legacy `pq-acquisition-index-041-186.json` omitted 14 canonical targets, including several base-game PQs below 41 and a PQ40 target.
+- [x] Rebuilt the acquisition index as `docs/data/super-souls/pq-acquisition-index-001-186.json` with **92 PQ rows / 134 unique Super Soul targets** and preserved duplicate acquisition routes rather than deduplicating them away.
+- [x] Added the missing canonical acquisition relationships for PQ5, 12, 21, 22, 26, 28, 29, 30, 35, 36, 38, and 40.
+- [x] Updated `scripts/audit_super_soul_consumer_coverage.py` to consume the unified index and refreshed `docs/data/super-soul-consumer-endpoint-coverage-audit-2026-09-27.json`: **134/134 acquisition-index target coverage, 0 missing**.
+- [x] Updated `docs/data/pq-super-soul-crosslink-report.json` to point at the unified index and report **134/134 partial acquisition-index matches**.
+- [x] Registered the unified index in `docs/data/pq-cross-domain-index.json` and retired the superseded 041-186 partial index.
+- [x] This is a cross-link/navigation recovery, not a mechanics invention: unresolved Super Soul mechanics remain explicitly unresolved.
+- [ ] Runtime/CI remains intentionally non-blocking and unverified.
+- [ ] **Exact next:** fresh mechanics-frontier census of the 134 canonical Super Soul targets; select the next under-detailed records with independent evidence, then synchronize canonical record, reverse/index projections, audit, and handoff.
