@@ -3872,3 +3872,8 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added eight Batch 506 evidence audits and completed the frontier manifest.
 - [x] Existing reward/source conflicts remain explicitly bounded.
 - [ ] Next: Batch 507 census and cross-domain enrichment toward the 672 indexed-category target.
+
+### 2026-09-27 continuation — Batch 506 census correction
+- [x] Corrected the Batch 506 frontier after live-date validation removed four records that already had 2026-09-26 current-evidence audits.
+- [x] Corrected frontier: **Burst Charge, Burst Reflection, Burst Stinger, Celestial Wave, Chain Destructo-Disc Barrage, Confusion Blade, Dark Inscription, Deadly Dance**.
+- [ ] Complete the corrected Batch 506 current-evidence refresh and register its artifacts.
