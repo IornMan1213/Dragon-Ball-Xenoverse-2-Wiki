@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-strike-of-revelation",
+  "skill_name": "Strike of Revelation",
+  "batch": 500,
+  "date": "2026-09-27",
+  "status": "current_evidence_refreshed",
+  "mechanics": "2026-09-27 Batch 500 refresh: current skill-specific evidence remains consistent with the canonical identity and bounded mechanics already recorded; unresolved exact frames, scaling, and hidden conditions remain explicitly unresolved.",
+  "source_scope": "Current repository evidence and dedicated Xenoverse 2 skill documentation already retained in the research corpus.",
+  "canonical_sync": "474-record canonical Skills baseline; identity unchanged.",
+  "evidence_boundary": "No unsupported exact frames, universal scaling, hidden interactions, or numerical reward probabilities asserted."
+}
