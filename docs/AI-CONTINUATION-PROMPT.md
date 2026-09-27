@@ -3797,3 +3797,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Restored **Item Shop** acquisition for 137 from current catalogue evidence; prior PQ attribution removal remains intact.
 - [x] Canonical/current catalogue confirms Frieza (1st Form), guard-break damage reduction, and Limit Burst; XL numeric interpretation remains secondary.
 - [ ] Next: continue unresolved 138–142 with evidence-first handling.
+
+
+### 2026-09-27 continuation — Super Souls 138–142 negative-evidence reconciliation
+- [x] Rechecked exact identities 138–142 against the current Super Soul catalogue and repository data.
+- [x] No matching item-level catalogue entries were located for these exact names; they remain preserved as unresolved historical identities.
+- [x] No mechanics, acquisition route, or Limit Burst data were invented or inferred.
+- [ ] Next: investigate the provenance of these five legacy records and continue the broader unresolved Super Soul completeness pass.
