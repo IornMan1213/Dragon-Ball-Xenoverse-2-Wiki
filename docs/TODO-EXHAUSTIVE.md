@@ -3721,3 +3721,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved bounded evidence and existing provenance conflicts; unsupported exact frames, hidden interactions, universal scaling, and reward probabilities were not promoted.
 - [ ] Next priority: fresh Batch 503 census from the live 474-record corpus, excluding prior frontier candidates, then continue evidence/mechanics enrichment.
 - [ ] After Batch 503, reconcile PQ→Skill and Skill→PQ navigation projections and continue expansion toward the 672 indexed-category target.
+
+
+### 2026-09-27 continuation — Batch 503 current-evidence frontier
+- [x] Performed a fresh post-Batch-502 census from the live 474-record corpus; prior frontier candidates were excluded from selection.
+- [x] Completed bounded current-evidence refreshes for **Afterimage Strike, Big Bang Knuckle, Breaker Energy Wave, Brutal Buster, Chaotic Time Impact, Counter Impact, Crimson Edge, and Dancing Parapara**.
+- [x] Added eight dedicated Batch 503 audit artifacts and finalized `docs/data/skill-research-batches/skill-batch-503.json`.
+- [x] Synchronized all eight records into both current Skills layers with no canonical identity changes; Git-blob validation remains **474/474**.
+- [x] Preserved evidence boundaries: unsupported exact frames, hidden interactions, universal scaling, and reward probabilities were not promoted to canonical facts.
+- [ ] Next priority: fresh Batch 504 census from the live 474-record corpus, then reconcile PQ→Skill and Skill→PQ projections after the enrichment frontier.
+- [ ] Continue expansion beyond the 474 canonical seed toward the 672 indexed-category target; runtime/CI remains non-blocking.
