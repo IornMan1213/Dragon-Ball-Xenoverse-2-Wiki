@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-dead-end-rain",
+  "skill_name": "Dead End Rain",
+  "batch": 501,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "300-Ki Ki Blast Ultimate from Expert Mission 13 Basic Reward. Current dedicated evidence describes a long-range overhead barrage of Ki Blasts over 22 hits and confirms all-CaC-race scope. The mentor/Android 18 linkage is preserved because DUAL Dead End Rain uses this canonical base skill.",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and maintained corroborating research.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Source-reported numerical observations remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+}
