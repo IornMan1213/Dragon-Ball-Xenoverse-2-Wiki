@@ -6169,13 +6169,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Skill Shop",
       "mechanics_notes": "300-Ki Ki Blast Ultimate from the Skill Shop. The user charges and creates a large explosion beneath the target; current evidence describes long-range tracking, a single-hit launch, and an upward escape that protects the user from the backdraft. Exact tracking envelope, frames, and damage scaling remain unresolved.",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Skill Shop",
       "dlc_requirement": "Base Game",
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-26 Batch 446 current-evidence audit: current Xenoverse 2 documentation revalidated Skill Shop acquisition, 300-Ki Ultimate classification, long-range tracking explosion, single-hit launch, and backdraft-guard behavior. Exact charge timing and source-reported damage remain bounded.\n2026-09-26 Batch 464 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "notes": "2026-09-26 Batch 446 current-evidence audit: current Xenoverse 2 documentation revalidated Skill Shop acquisition, 300-Ki Ultimate classification, long-range tracking explosion, single-hit launch, and backdraft-guard behavior. Exact charge timing and source-reported damage remain bounded.\n2026-09-26 Batch 464 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.\n2026-09-27 Batch 499 current-evidence refresh: dedicated current repository evidence rechecked; existing acquisition and mechanics semantics retained, with unsupported frames, hidden interactions, universal scaling, and reward probabilities left unresolved.",
       "id": "skill-giant-storm",
       "source_mentor": [
         "mentor-nappa",
@@ -7211,13 +7211,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Android 16 mentor training",
       "mechanics_notes": "300-Ki Ki Blast Ultimate learned from Android 16. The user aims a beam at the ground, causing multiple Ki pillars to erupt; current dedicated evidence documents a 26-hit launching sequence totaling approximately 70% damage as source-reported. Exact frame timing and patch-independent scaling remain unresolved.",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Android 16 mentor training — Lesson 3.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 447 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the Android 16 training endpoint, 300-Ki Ultimate classification, ground-targeted beam/pillar sequence, 26-hit launching behavior, and source-reported ~70% total damage. No unsupported frame or scaling data added.\n2026-09-26 Batch 463 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "notes": "2026-09-26 Batch 447 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the Android 16 training endpoint, 300-Ki Ultimate classification, ground-targeted beam/pillar sequence, 26-hit launching behavior, and source-reported ~70% total damage. No unsupported frame or scaling data added.\n2026-09-26 Batch 463 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.\n2026-09-27 Batch 499 current-evidence refresh: dedicated current repository evidence rechecked; existing acquisition and mechanics semantics retained, with unsupported frames, hidden interactions, universal scaling, and reward probabilities left unresolved.",
       "id": "skill-hell-flash",
       "source_mentor": [
         "mentor-android-16"
@@ -8779,7 +8779,7 @@
       ],
       "ki_cost": 0,
       "mechanics_notes": "0-Ki Power Up Super from PQ122. Completing the meditation stance raises maximum Ki to 1500 and grants temporary Ki Auto-Recovery for 20 seconds. Current evidence describes the charge as hold-to-complete and notes that the effect can coexist with other Power-Up effects during its 20-second duration. Exact recovery rate, startup, and frame timing remain unresolved.",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "research_status": "enriched",
       "duration_seconds": 20,
       "unlock_method": "Parallel Quest 122 — Basic Reward",
@@ -8790,7 +8790,7 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Extra Pack 2",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 443 refresh: current skill-specific and PQ evidence reconfirm PQ122 acquisition, 0 Ki, temporary 1500 maximum Ki, and 20-second Ki Auto-Recovery. No unsupported recovery rate or frame timing is added.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.",
+      "notes": "2026-09-26 Batch 443 refresh: current skill-specific and PQ evidence reconfirm PQ122 acquisition, 0 Ki, temporary 1500 maximum Ki, and 20-second Ki Auto-Recovery. No unsupported recovery rate or frame timing is added.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 499 current-evidence refresh: dedicated current repository evidence rechecked; existing acquisition and mechanics semantics retained, with unsupported frames, hidden interactions, universal scaling, and reward probabilities left unresolved.",
       "id": "skill-meditation",
       "source_parallel_quests": [
         122
@@ -12571,12 +12571,12 @@
       "ultimate_finish_required": false,
       "mechanics_notes": "400–500-Ki Ki Blast Ultimate from PQ181. The base Kamehameha costs 400 Ki; holding the input spends an additional 100 Ki to extend and strengthen the blast with a longer cinematic sequence. Current dedicated evidence documents 12–33 hits and the optional +100-Ki extension. Exact damage conversion and frame timing remain unresolved.",
       "research_status": "enriched",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "mechanics": "400 Ki base cost; holding input on hit spends an additional 100 Ki for the boosted version, giving a 400–500 Ki range.",
       "race_restriction": "All CaC races",
       "source_quest": 181,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 441 refresh: current DAIMA skill documentation and the maintained acquisition endpoint reconfirm PQ181 Basic Reward, 400-Ki base cost, optional +100 Ki extension, and the reported 12–33-hit behavior. Numerical damage/duration values remain source-reported rather than canonical measurements.\n2026-09-26 Batch 462 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "notes": "2026-09-26 Batch 441 refresh: current DAIMA skill documentation and the maintained acquisition endpoint reconfirm PQ181 Basic Reward, 400-Ki base cost, optional +100 Ki extension, and the reported 12–33-hit behavior. Numerical damage/duration values remain source-reported rather than canonical measurements.\n2026-09-26 Batch 462 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.\n2026-09-27 Batch 499 current-evidence refresh: dedicated current repository evidence rechecked; existing acquisition and mechanics semantics retained, with unsupported frames, hidden interactions, universal scaling, and reward probabilities left unresolved.",
       "id": "skill-super-kamehameha-ss4-daima",
       "source_parallel_quests": [
         181
@@ -12653,12 +12653,12 @@
       "research_status": "enriched",
       "unlock_method": "Character-only / non-CaC roster use",
       "mechanics_notes": "500 Ki Awoken; combines Super Saiyan Blue with Kaioken, increasing offensive power and speed while greatly increasing stamina consumption. Maintaining the transformation drains stamina continuously, and taking damage while stamina is low carries the documented break-risk drawback.",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-27",
       "source_quest_or_shop": "Character-only Awoken Skill / roster use",
       "ki_cost": 500,
       "dlc_requirement": "Free Update 1",
       "acquisition_type": "character_only",
-      "notes": "Character-only Goku transformation; not an independently unlockable CaC Awoken Skill. Current roster/transformation evidence documents normal and x10 stages. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred.",
+      "notes": "Character-only Goku transformation; not an independently unlockable CaC Awoken Skill. Current roster/transformation evidence documents normal and x10 stages. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred.\n2026-09-27 Batch 499 current-evidence refresh: dedicated current repository evidence rechecked; existing acquisition and mechanics semantics retained, with unsupported frames, hidden interactions, universal scaling, and reward probabilities left unresolved.",
       "id": "skill-super-saiyan-blue-kaioken"
     },
     {
@@ -13970,12 +13970,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Raditz mentor training — Lesson 3",
       "mechanics_notes": "300-Ki Ki Blast Ultimate from Raditz's Lesson 3. The user charges beams in both hands and fires them as separate energy waves; a back-direction input spreads them into a wide V shape. Current skill evidence reports 16 hits and approximately 30% total damage. Exact frame timing and scaling remain unresolved.",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "race_restriction": "All CaC races",
       "source_quest": "Raditz mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 442 refresh: current skill-specific evidence reconfirms Raditz Lesson 3 acquisition, 300 Ki, controllable long-range beam behavior, 16-hit sequence, and source-reported 30% damage. The mentor lesson is independently corroborated; no unsupported frame timing or damage scaling is inferred.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.",
+      "notes": "2026-09-26 Batch 442 refresh: current skill-specific evidence reconfirms Raditz Lesson 3 acquisition, 300 Ki, controllable long-range beam behavior, 16-hit sequence, and source-reported 30% damage. The mentor lesson is independently corroborated; no unsupported frame timing or damage scaling is inferred.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 499 current-evidence refresh: dedicated current repository evidence rechecked; existing acquisition and mechanics semantics retained, with unsupported frames, hidden interactions, universal scaling, and reward probabilities left unresolved.",
       "id": "skill-weekend",
       "source_mentor": [
         "mentor-raditz"
@@ -14295,7 +14295,7 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Skill Shop after The Ginyu Force Strikes",
       "mechanics_notes": "0-Ki Power Up Super. After the pose animation, the user gains a Basic Movement Speed increase for 20 seconds; current skill-specific documentation identifies the effect as a movement-speed buff rather than a damage or defensive modifier. Exact speed multiplier and frame timing remain unresolved.",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "acquisition_type": "skill_shop",
@@ -14303,7 +14303,7 @@
       "duration_seconds": 20,
       "ki_cost": 0,
       "id": "skill-fighting-pose-i",
-      "notes": "2026-09-25 Batch 396 mechanics enrichment: current skill-specific evidence confirmed the 0-Ki Power Up classification, Skill Shop endpoint, and 20-second Basic Movement Speed effect; unsupported movement multipliers, frame data, hidden gates, and reward probabilities remain unresolved.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.",
+      "notes": "2026-09-25 Batch 396 mechanics enrichment: current skill-specific evidence confirmed the 0-Ki Power Up classification, Skill Shop endpoint, and 20-second Basic Movement Speed effect; unsupported movement multipliers, frame data, hidden gates, and reward probabilities remain unresolved.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 499 current-evidence refresh: dedicated current repository evidence rechecked; existing acquisition and mechanics semantics retained, with unsupported frames, hidden interactions, universal scaling, and reward probabilities left unresolved.",
       "source_quest": "The Ginyu Force Strikes — Skill Shop unlock"
     },
     {
@@ -14321,7 +14321,7 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 17 — \"Ginyu and the Fruit\"",
       "mechanics_notes": "0-Ki Power Up Super associated with Recoome and PQ17. It temporarily increases Stamina recovery. Current evidence supports the PQ17 endpoint and core Power Up identity; exact multiplier, duration, frame data, reward probability, and hidden gates remain unresolved.",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "race_restriction": "All CaC races",
       "source_quest": 17,
       "dlc_requirement": "Base Game",
@@ -14329,7 +14329,7 @@
       "character_source": "Recoome; Captain Ginyu Customize Partner",
       "ki_cost": 0,
       "id": "skill-fighting-pose-j",
-      "notes": "2026-09-25 Batch 396 mechanics enrichment: current evidence confirmed the 0-Ki Power Up classification and PQ17 acquisition endpoint. The core Stamina-recovery effect is retained from the established research record, while exact magnitude, duration, frame data, reward probabilities, and hidden gates remain unresolved.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.",
+      "notes": "2026-09-25 Batch 396 mechanics enrichment: current evidence confirmed the 0-Ki Power Up classification and PQ17 acquisition endpoint. The core Stamina-recovery effect is retained from the established research record, while exact magnitude, duration, frame data, reward probabilities, and hidden gates remain unresolved.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 499 current-evidence refresh: dedicated current repository evidence rechecked; existing acquisition and mechanics semantics retained, with unsupported frames, hidden interactions, universal scaling, and reward probabilities left unresolved.",
       "source_parallel_quests": [
         17
       ]
