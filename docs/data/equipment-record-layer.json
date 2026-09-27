@@ -1184,6 +1184,107 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
+    },
+    {
+      "id": "equip-049",
+      "name": "Android 13's Clothes",
+      "slot": "full set",
+      "rarity": null,
+      "health": null,
+      "ki": null,
+      "stamina": null,
+      "basic_attack": null,
+      "strike_supers": null,
+      "ki_blast_supers": null,
+      "usable_by": "Time Patroller clothing system; component restrictions unresolved",
+      "set_name": "Android 13's Clothes",
+      "acquisition_method": "parallel_quest",
+      "source_quest_or_shop": "Parallel Quest 105",
+      "cost": null,
+      "dlc_requirement": null,
+      "version_notes": "PQ105 reward identity is explicitly documented; exact current component/stat reconciliation remains separate research.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "docs/data/pq-record-batches/pq-101-120.json",
+        "docs/data/equipment-catalog-index.json"
+      ]
+    },
+    {
+      "id": "equip-050",
+      "name": "Zamasu's Clothes",
+      "slot": "full set",
+      "rarity": null,
+      "health": null,
+      "ki": null,
+      "stamina": null,
+      "basic_attack": null,
+      "strike_supers": null,
+      "ki_blast_supers": null,
+      "usable_by": "Time Patroller clothing system; component restrictions unresolved",
+      "set_name": "Zamasu's Clothes",
+      "acquisition_method": "parallel_quest",
+      "source_quest_or_shop": "Parallel Quest 110",
+      "cost": null,
+      "dlc_requirement": "DLC-related route reported",
+      "version_notes": "PQ110 reward identity is explicitly documented; exact current component/stat reconciliation remains separate research.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "docs/data/pq-record-batches/pq-101-120.json",
+        "docs/data/equipment-catalog-index.json"
+      ]
+    },
+    {
+      "id": "equip-051",
+      "name": "Flying Nimbus!!",
+      "slot": "accessory",
+      "rarity": null,
+      "health": null,
+      "ki": null,
+      "stamina": null,
+      "basic_attack": null,
+      "strike_supers": null,
+      "ki_blast_supers": null,
+      "usable_by": "Time Patroller accessory system; exact restriction unresolved",
+      "set_name": null,
+      "acquisition_method": "parallel_quest",
+      "source_quest_or_shop": "Parallel Quest 2",
+      "cost": null,
+      "dlc_requirement": null,
+      "version_notes": "Canonical relationship and normalized reward evidence explicitly identify PQ2 as a source; inventory slot/stat details remain separate research.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "docs/data/pq-reward-normalization/pq-001-040-reward-map.json"
+      ]
+    },
+    {
+      "id": "equip-052",
+      "name": "Gohan (Beast) Wig",
+      "slot": "accessory",
+      "rarity": null,
+      "health": null,
+      "ki": null,
+      "stamina": null,
+      "basic_attack": null,
+      "strike_supers": null,
+      "ki_blast_supers": null,
+      "usable_by": "Time Patroller accessory system; exact restriction unresolved",
+      "set_name": null,
+      "acquisition_method": "parallel_quest",
+      "source_quest_or_shop": "Parallel Quest 162",
+      "cost": null,
+      "dlc_requirement": "HERO OF JUSTICE Pack 2",
+      "version_notes": "PQ162 reward identity is explicitly documented; exact current reward condition and inventory details remain separate research.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "docs/data/pq-record-batches/pq-143-162.json",
+        "docs/Accessory-Acquisition-Matrix.md"
+      ]
     }
   ]
 }
