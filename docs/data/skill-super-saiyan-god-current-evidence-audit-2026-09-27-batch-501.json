@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-super-saiyan-god",
+  "skill_name": "Super Saiyan God",
+  "batch": 501,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "300-Ki Saiyan Awoken Skill. Current evidence reconfirms the Shenron wish plus max friendship requirements and Beerus award path, with Basic Attack-focused benefits, Ki auto-recovery, and increased movement speed. A 12.5–13.5% movement-speed source discrepancy is preserved; exact combo coverage/frames remain unresolved.",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and maintained corroborating research.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Source-reported numerical observations remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+}
