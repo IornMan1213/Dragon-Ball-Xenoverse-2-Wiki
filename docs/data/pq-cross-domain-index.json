@@ -2074,6 +2074,39 @@
         "https://dragonball.fandom.com/"
       ],
       "manifest_path": "docs/data/skill-research-batches/skill-batch-519.json"
+    },
+    {
+      "batch": 525,
+      "date": "2026-09-27",
+      "type": "current-evidence-refresh",
+      "selected": [
+        "Prelude to Destruction",
+        "Prepare to be Punished",
+        "Present For You",
+        "Pressure Sign",
+        "Pretty Cannon",
+        "Pretty Charge",
+        "Prominence Flash",
+        "Psychic Move",
+        "Psycho Barrier",
+        "Psycho Escape",
+        "Punisher Guard",
+        "Punisher Shield",
+        "Pure Progress",
+        "Purification",
+        "Quick Sleep",
+        "Raid Blast"
+      ],
+      "records_refreshed": 16,
+      "identity_changes": 0,
+      "canonical_field_corrections": 0,
+      "relationship_changes": 0,
+      "evidence_boundary": "Canonical data remains source of truth; current evidence is appended as provenance/mechanics support. Conflicting reward semantics, exact frames, patch-independent scaling, probabilities, and hidden conditions are not inferred.",
+      "sources": [
+        "https://dbxv2.fandom.com/",
+        "https://dragonball.fandom.com/"
+      ],
+      "manifest_path": "docs/data/skill-research-batches/skill-batch-525.json"
     }
   ],
   "skill_batch_517_current_evidence": "docs/data/skill-research-batches/skill-batch-517.json",
@@ -2105,5 +2138,38 @@
   "skill_batch_521_current_evidence": "docs/data/skill-research-batches/skill-batch-521.json",
   "skill_batch_522_current_evidence": "docs/data/skill-research-batches/skill-batch-522.json",
   "skill_research_batch_523_current_evidence": "docs/data/skill-research-batches/skill-batch-523.json",
-  "skill_research_batch_524_current_evidence": "docs/data/skill-research-batches/skill-batch-524.json"
+  "skill_research_batch_524_current_evidence": "docs/data/skill-research-batches/skill-batch-524.json",
+  "skill_research_batch_525_current_evidence": {
+    "batch": 525,
+    "date": "2026-09-27",
+    "type": "current-evidence-refresh",
+    "selected": [
+      "Prelude to Destruction",
+      "Prepare to be Punished",
+      "Present For You",
+      "Pressure Sign",
+      "Pretty Cannon",
+      "Pretty Charge",
+      "Prominence Flash",
+      "Psychic Move",
+      "Psycho Barrier",
+      "Psycho Escape",
+      "Punisher Guard",
+      "Punisher Shield",
+      "Pure Progress",
+      "Purification",
+      "Quick Sleep",
+      "Raid Blast"
+    ],
+    "records_refreshed": 16,
+    "identity_changes": 0,
+    "canonical_field_corrections": 0,
+    "relationship_changes": 0,
+    "evidence_boundary": "Canonical data remains source of truth; current evidence is appended as provenance/mechanics support. Conflicting reward semantics, exact frames, patch-independent scaling, probabilities, and hidden conditions are not inferred.",
+    "sources": [
+      "https://dbxv2.fandom.com/",
+      "https://dragonball.fandom.com/"
+    ],
+    "manifest_path": "docs/data/skill-research-batches/skill-batch-525.json"
+  }
 }
