@@ -1,0 +1,10 @@
+{
+  "skill_id": "skill-blaster-bomb",
+  "skill_name": "Blaster Bomb",
+  "batch": 501,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "Batch 501 current-evidence refresh completed against current Xenoverse 2-specific repository evidence; established mechanics and acquisition semantics retained, unresolved fields bounded.",
+  "canonical_sync": "Synchronized with restored 474-record canonical Skills baseline; identity unchanged.",
+  "evidence_boundary": "Source-reported numerical observations remain source-bound; unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+}
