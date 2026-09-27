@@ -1,0 +1,29 @@
+{
+  "batch": 496,
+  "date": "2026-09-27",
+  "status": "complete",
+  "scope": "Fresh live current-evidence frontier after Batch 495; candidate selection excluded records with registered current-evidence audit hits for the selected names and used the canonical 474-record corpus as the census source.",
+  "selected": [
+    "Absolute Zero",
+    "Angry Shout",
+    "Audacious Laugh",
+    "Bomber DX",
+    "Charged Ki Wave",
+    "Critical Upper",
+    "Fighting Pose A",
+    "Fighting Pose F"
+  ],
+  "methodology": "Cross-checked canonical records against repository audit search, then rechecked each selected record against current Xenoverse 2-specific skill documentation and independent corroboration. Existing canonical identities were preserved; bounded mechanics and provenance were refreshed without inventing probabilities, frames, hidden interactions, or universal scaling.",
+  "evidence_files": [
+    "docs/data/skill-absolute-zero-current-evidence-audit-2026-09-27-batch-496.json",
+    "docs/data/skill-angry-shout-current-evidence-audit-2026-09-27-batch-496.json",
+    "docs/data/skill-audacious-laugh-current-evidence-audit-2026-09-27-batch-496.json",
+    "docs/data/skill-bomber-dx-current-evidence-audit-2026-09-27-batch-496.json",
+    "docs/data/skill-charged-ki-wave-current-evidence-audit-2026-09-27-batch-496.json",
+    "docs/data/skill-critical-upper-current-evidence-audit-2026-09-27-batch-496.json",
+    "docs/data/skill-fighting-pose-a-current-evidence-audit-2026-09-27-batch-496.json",
+    "docs/data/skill-fighting-pose-f-current-evidence-audit-2026-09-27-batch-496.json"
+  ],
+  "canonical_sync": "All eight records synchronized in skills.json and skills-index.json with last_verified=2026-09-27; 474/474 identity parity retained.",
+  "next": "Fresh census before Batch 497; do not reuse this candidate list."
+}
