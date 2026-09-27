@@ -4109,3 +4109,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved bounded evidence and existing provenance conflicts; unsupported exact frames, hidden interactions, universal scaling, and reward probabilities were not promoted.
 - [x] Batch manifest validation remains **474 canonical / 474 index records**, 8 synchronized records, zero canonical identity changes, and evidence-boundary preservation.
 - [ ] Next priority: fresh Batch 502 census from the live corpus, then reconcile PQ→Skill and Skill→PQ projections after the enrichment frontier.
+
+
+### 2026-09-27 continuation — Batch 501 current-evidence frontier
+- [x] Performed a fresh post-Batch-500 census from the live 474-record corpus; selected **Atomic Blast, Beast, Big Bang Attack, Blades of Judgment, Blaster Bomb, Blaster Shell, Blaster Stream, and Blazing Attack** without using prior frontier names as the selection basis.
+- [x] Added eight dedicated Batch 501 current-evidence audit artifacts and finalized `docs/data/skill-research-batches/skill-batch-501.json`.
+- [x] Synchronized all eight records into `docs/data/skills.json` and `docs/data/skills-index.json`; canonical identities were unchanged.
+- [x] Git-blob validation confirms **474 canonical / 474 index records**, **474 unique IDs in each**, **0 missing**, **0 extra**, parity=true.
+- [x] Preserved source conflicts and evidence boundaries, including Atomic Blast's PQ87 reward-tier conflict, Blades of Judgment's classification discrepancy, and Blaster Stream's unresolved CaC race scope; no unsupported exact frames, hidden interactions, universal scaling, or reward probabilities were promoted.
+- [ ] Next priority: fresh **Batch 502** census from the live corpus, excluding prior frontier candidates, followed by PQ→Skill and Skill→PQ projection reconciliation.
+- [ ] Continue expansion beyond the 474 canonical seed toward the 672 indexed-category target while preserving canonical/indexed/verified distinctions.
