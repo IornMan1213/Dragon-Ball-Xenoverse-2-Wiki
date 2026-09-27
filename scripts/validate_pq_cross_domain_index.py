@@ -34,7 +34,11 @@ def main() -> int:
         failures.append("reverse_indexes_to_generate must be a list")
         entries = []
 
+    if len(entries) != len(EXPECTED_ENTITIES):
+        failures.append(f"reverse_indexes_to_generate must contain exactly {len(EXPECTED_ENTITIES)} entries")
+
     seen_entities: set[str] = set()
+    seen_reports: set[str] = set()
     for entry in entries:
         if not isinstance(entry, dict):
             failures.append(f"reverse-index entry must be an object: {entry!r}")
@@ -50,6 +54,10 @@ def main() -> int:
         report = entry.get("report")
         if not isinstance(report, str) or not report.strip():
             failures.append(f"reverse-index report must be a non-empty string: {entity}")
+        elif report in seen_reports:
+            failures.append(f"duplicate reverse-index report: {report}")
+        else:
+            seen_reports.add(report)
         if entity != "farming":
             for field in ("key", "value"):
                 if not isinstance(entry.get(field), str) or not entry[field].strip():
@@ -58,6 +66,11 @@ def main() -> int:
             source = entry.get("source")
             if not isinstance(source, str) or not source.strip():
                 failures.append("farming reverse-index source must be a non-empty string")
+            elif source != forward:
+                failures.append("farming reverse-index source must equal forward_index")
+
+    if len(seen_reports) != len(entries):
+        failures.append("reverse-index reports must be unique for every entry")
 
     if seen_entities != EXPECTED_ENTITIES:
         failures.append(f"reverse-index entities differ from expected set: {sorted(seen_entities)}")
@@ -71,7 +84,7 @@ def main() -> int:
             print("FAIL:", failure)
         return 1
 
-    print(f"PASS: PQ cross-domain index schema valid; {EXPECTED_PQS} PQ scope; entities={sorted(seen_entities)}")
+    print(f"PASS: PQ cross-domain index schema valid; {EXPECTED_PQS} PQ scope; {len(entries)} reverse-index entries; unique reports; entities={sorted(seen_entities)}")
     return 0
 
 if __name__ == "__main__":
