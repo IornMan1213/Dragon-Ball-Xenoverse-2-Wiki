@@ -1,3 +1,12 @@
+### 2026-09-27 continuation — General wiki audit hardening
+- [x] Hardened `scripts/audit_wiki_data.py` against unreadable/malformed JSON and type-coercive identity handling.
+- [x] Added explicit non-empty string validation for IDs/names and provenance source entries.
+- [x] Added explicit verification-status type validation.
+- [x] Added `docs/data/general-wiki-audit-hardening-2026-09-27.json`.
+- [x] No canonical data changed.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue inspecting remaining research/audit tooling for substantive integrity gaps.
+
 ### 2026-09-27 continuation — Awoken/skill builder integrity hardening
 - [x] Hardened `apply_awoken_overrides.py` against malformed JSON, wrong root/container types, and malformed Awoken identity fields.
 - [x] Removed Awoken identity coercion during override matching.
