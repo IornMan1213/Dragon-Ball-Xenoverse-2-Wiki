@@ -1,0 +1,22 @@
+{
+  "batch": 503,
+  "date": "2026-09-27",
+  "type": "current-evidence-frontier",
+  "records": [
+    "Afterimage Strike",
+    "Big Bang Knuckle",
+    "Breaker Energy Wave",
+    "Brutal Buster",
+    "Chaotic Time Impact",
+    "Counter Impact",
+    "Crimson Edge",
+    "Dancing Parapara"
+  ],
+  "validation": {
+    "canonical_skill_records": 474,
+    "index_skill_records": 474,
+    "synchronized_records": 8,
+    "canonical_identity_changes": 0
+  },
+  "evidence_boundary": "Bounded current evidence only; historical snapshots preserved; unsupported exact frames, hidden interactions, universal scaling, and reward probabilities not promoted."
+}
