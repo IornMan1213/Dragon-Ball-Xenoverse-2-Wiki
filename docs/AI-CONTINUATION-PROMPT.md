@@ -4041,3 +4041,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Next priority: fresh **Batch 501** census from the live corpus, excluding all prior frontier candidates, followed by another larger mechanics/provenance enrichment cycle.
 - [ ] After Batch 501, reconcile PQ→Skill and Skill→PQ projections and identify unresolved cross-domain endpoints rather than rewriting historical snapshots.
 - [ ] Continue expansion beyond the 474 canonical seed toward the 672 indexed-category target; runtime/CI remains non-blocking.
+
+
+### 2026-09-27 continuation — Batch 500 current-evidence frontier
+- [x] Performed a fresh post-Batch-499 census from the live 474-record corpus; Batch 496–499 candidate lists were not reused as the selection basis.
+- [x] Completed bounded current-evidence refreshes for **Orin Combo, Maiden Burst, Counter Burst, Super Kamehameha, Final Rampage, Revenge Death Ball, Super Afterimage, and Bluff Kamehameha**.
+- [x] Added eight dedicated Batch 500 audit artifacts and finalized `docs/data/skill-research-batches/skill-batch-500.json`.
+- [x] Synchronized all eight records into both canonical-facing Skills layers without changing canonical identities.
+- [x] Maintained the restored **474/474** canonical/index baseline; evidence remains bounded and unsupported exact frames, hidden interactions, universal scaling, and reward probabilities were not promoted.
+- [ ] Next priority: fresh Batch 501 census from the post-Batch-500 corpus, excluding prior frontier candidates, followed by current-evidence mechanics enrichment.
+- [ ] Then reconcile PQ→Skill and Skill→PQ navigation projections and continue expansion toward the 672 indexed-category target.
