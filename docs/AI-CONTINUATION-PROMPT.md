@@ -2843,3 +2843,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the canonical `pq_rewards_equipment` relationship store as authoritative; no relationship was deleted, reclassified, or invented.
 - [ ] Runtime/CI remains intentionally non-blocking and unverified.
 - [ ] **Next:** promote only unambiguous equipment/accessory endpoint identities from existing evidence, prioritizing records with explicit canonical inventory names and PQ routes; preserve ambiguous/component-only cases as backlog. Then continue DLC detail/taxonomy enrichment.
+
+### 2026-09-27 continuation — PQ equipment consumer integrity baseline
+- [x] Revalidated the live canonical forward source `docs/data/pq-reward-relationships.json`; it currently contains **125** `pq_rewards_equipment` edges across **123** unique equipment target identities.
+- [x] Reconciled those targets against the two live endpoint layers `docs/data/equipment-accessories-record-layer.json` and `docs/data/equipment-record-layer.json`: **118** endpoint records are present, with **15** exact-name target matches and **108** explicit endpoint-identity gaps.
+- [x] Added `scripts/validate_pq_equipment_crosslinks.py` to deterministically validate the canonical equipment relationship rows, duplicate PQ/target keys, endpoint record containers/names, and exact endpoint identity projection without modifying canonical data.
+- [x] Added `docs/data/pq-equipment-crosslink-integrity-audit-2026-09-27.json` and registered both the validator and audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Canonical reward relationships remain authoritative; endpoint gaps are enrichment gaps, not negative reward claims. No equipment reward was inferred or removed.
+- [ ] Runtime/CI remains intentionally non-blocking and unverified.
+- [ ] **Exact next:** enrich the 108 equipment endpoint gaps only where repository evidence can reconcile an exact inventory identity; prioritize the existing `accessory-pq-canonical-remaining.json` backlog and preserve unresolved/conflicting routes rather than silently merging them.
+
