@@ -3,14 +3,14 @@
   "date": "2026-09-27",
   "scope": "current-evidence frontier",
   "records": [
-    "Atomic Blast",
-    "Beast",
-    "Big Bang Attack",
-    "Blades of Judgment",
-    "Blaster Bomb",
-    "Blaster Shell",
-    "Blaster Stream",
-    "Blazing Attack"
+    "Fruit of the Tree of Might",
+    "Dead End Bullet",
+    "Super Saiyan",
+    "Super Saiyan God",
+    "Brave Heat",
+    "Fighting Pose D",
+    "Super Ghost Buu Attack",
+    "Dead End Rain"
   ],
   "validation": {
     "canonical_skill_records": 474,
@@ -20,5 +20,5 @@
     "unsupported_claims_added": 0,
     "evidence_boundaries_preserved": true
   },
-  "next": "Batch 502 fresh census and PQ↔Skill projection reconciliation."
+  "next": "Fresh Batch 502 census and PQ↔Skill projection reconciliation."
 }
