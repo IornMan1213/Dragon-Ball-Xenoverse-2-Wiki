@@ -1,0 +1,10 @@
+{
+  "skill_id": "skill-bluff-kamehameha",
+  "skill_name": "Bluff Kamehameha",
+  "batch": 500,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "2026-09-27 Batch 500 current-evidence refresh: current dedicated documentation reconfirms 100-Ki Super classification and PQ94 acquisition. Existing Other-category presentation and bounded mechanics are retained without adding unsupported frame or probability claims.",
+  "canonical_sync": "Synchronized with restored 474-record canonical Skills baseline; identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and numerical reward probabilities are not asserted."
+}
