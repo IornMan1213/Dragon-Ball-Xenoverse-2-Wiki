@@ -3490,3 +3490,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Refined `super-soul-078` "Sorry. You were way open there." with SSGSS Vegito, Heavy Smash trigger, +10% guard-break duration, +40% Ki Auto-Recovery for 10 seconds, and Final Kamehameha Limit Burst.
 - [x] Rechecked PQ provenance: PQ 107 contains "You can't win..." and PQ 112 contains "Sorry. You were way open there." in the independent PQ reward guide. citeturn0search0turn0search1
 - [ ] Continue remaining thin-record enrichment and then perform a canonical cross-index parity audit so mechanics changes propagate to reverse/acquisition views.
+
+
+### 2026-09-27 continuation — Super Soul parity batch 7
+- [x] Enriched `super-soul-083` "The real fight starts now!" — Dabura / Afterimage Attack / +15% Ki Blast Skills for 10 seconds / Limit Burst.
+- [x] Enriched `super-soul-084` "Looks like you're done!" — Android 13 / Data Input / +20% normal attacks for 30 seconds / Limit Burst.
+- [x] Enriched `super-soul-085` "If I don't do it, who will?" — Goku / one-time Dragon Fist trigger / +30% Strike Skills for 10 seconds / Limit Burst.
+- [x] Enriched `super-soul-089` "I hate what I've become!" — Kale / battle-start temporary reduction followed by the 30-second +15% all-attacks state / Limit Burst.
+- [x] Checked the current catalogue before writing these mechanics; the disputed PQ 151–154 recovery claims remain untouched and non-canonical.
+- [ ] Next: continue thin records, then audit propagation into acquisition/reverse cross-indexes.
