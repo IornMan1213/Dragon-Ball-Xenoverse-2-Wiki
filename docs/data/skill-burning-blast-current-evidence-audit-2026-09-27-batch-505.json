@@ -1,0 +1,10 @@
+{
+  "skill_name": "Burning Blast",
+  "batch": 505,
+  "date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "summary": "2026-09-27 Batch 505 refresh: PQ180; 200 Ki; Ki Blast Super; aura burst plus follow-up Ki Blast or Ultimate; optional 300 Stamina Super Armor.",
+  "canonical_source": "docs/data/skills.json",
+  "canonical_sync": "Canonical identity unchanged; synchronized with skills index.",
+  "evidence_boundary": "Source-reported values remain source-bounded observations; unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not promoted."
+}
