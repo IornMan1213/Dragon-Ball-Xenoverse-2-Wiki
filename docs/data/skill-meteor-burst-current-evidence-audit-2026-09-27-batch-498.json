@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-meteor-burst",
+  "skill_name": "Meteor Burst",
+  "batch": 498,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "2026-09-27 Batch 498 current-evidence refresh: current documentation reconfirms the 300-Ki Ki Blast Ultimate from Turles training, barrier/absorption opening, large Ki-ball eruption, 42-hit sequence, approximately 80% source-reported damage, and faster execution through additional input. Exact frames and scaling remain unresolved.",
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded corroboration already maintained in the repository.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, hidden interactions, universal scaling, and numerical reward probabilities are not asserted."
+}
