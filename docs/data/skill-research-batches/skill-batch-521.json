@@ -1,0 +1,32 @@
+{
+  "batch": 521,
+  "date": "2026-09-27",
+  "type": "current-evidence-refresh",
+  "selected": [
+    "Heavenly Arrow",
+    "Hellzone Grenade",
+    "Hero's Flute",
+    "Hero's Pose",
+    "Heroic Assault",
+    "Heroic Counter",
+    "Holy Inscription",
+    "Holy Wrath",
+    "Hyper Drain",
+    "Hyper Movement",
+    "Hyper Tornado",
+    "Ill Bomber",
+    "Ill Rain",
+    "Impact Flare",
+    "Impulse Slash",
+    "Indomitable"
+  ],
+  "records_refreshed": 16,
+  "identity_changes": 0,
+  "canonical_field_corrections": 0,
+  "relationship_changes": 0,
+  "evidence_boundary": "Canonical data remains source of truth; current evidence is appended as provenance/mechanics support. Conflicting reward semantics, exact frames, patch-independent scaling, probabilities, and hidden conditions are not inferred.",
+  "sources": [
+    "https://dbxv2.fandom.com/",
+    "https://dragonball.fandom.com/"
+  ]
+}
