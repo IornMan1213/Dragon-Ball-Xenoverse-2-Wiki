@@ -8,7 +8,7 @@
   ],
   "canonical_edges": 125,
   "unique_targets": 123,
-  "endpoint_identity_matches": 43,
+  "endpoint_identity_matches": 42,
   "endpoint_identity_gaps": [
     "Broly Wig (Legendary Super Saiyan)",
     "Kakunsa's Wig and Mask",
@@ -94,6 +94,6 @@
   ],
   "semantics": "Canonical PQ→equipment relationships remain authoritative. Endpoint record layers are incomplete projections; missing endpoint records are enrichment gaps, not negative reward claims.",
   "status": "canonical_projection_complete_endpoint_enrichment_incomplete",
-  "audit_note": "2026-09-27 refresh after evidence-backed promotion of nine additional endpoint identities.",
+  "audit_note": "2026-09-27 refresh after evidence-backed promotion of nine additional endpoint identities; exact endpoint comparison is case-sensitive.",
   "endpoint_records": 108
 }
