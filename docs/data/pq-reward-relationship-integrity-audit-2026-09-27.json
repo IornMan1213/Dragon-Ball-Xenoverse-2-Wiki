@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "audited_at": "2026-09-27",
+  "relationship_rows": 840,
+  "unique_relationship_keys": 840,
+  "malformed_rows": 0,
+  "count_mismatches": {},
+  "counts_by_relationship": {
+    "pq_farming_route": 7,
+    "pq_requires_dlc": 88,
+    "pq_rewards_skill": 236,
+    "pq_rewards_super_soul": 137,
+    "pq_rewards_equipment": 125,
+    "pq_features_character": 247
+  },
+  "pq_range": [
+    1,
+    186
+  ],
+  "status": "passed",
+  "validator": "scripts/validate_pq_reward_relationships.py",
+  "evidence_boundary": "Structural validation only; absence of a relationship is not treated as evidence that a reward is unavailable."
+}
