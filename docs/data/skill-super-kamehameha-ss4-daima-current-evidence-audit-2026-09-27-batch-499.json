@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-super-kamehameha-ss4-daima",
+  "skill_name": "Super Kamehameha (SS4 DAIMA)",
+  "batch": 499,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "evidence_summary": "Current DAIMA/PQ181 documentation reconfirms 400 Ki base cost, optional additional 100 Ki extension, and reported 12–33-hit behavior. Numerical damage and duration values remain source-reported; exact timing/scaling is unresolved.",
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded repository corroboration.",
+  "canonical_sync": "Synchronized to the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, hidden interactions, universal scaling, and numerical reward probabilities are not asserted."
+}
