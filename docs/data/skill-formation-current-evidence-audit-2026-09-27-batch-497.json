@@ -1,0 +1,12 @@
+{
+  "skill_id": "skill-formation",
+  "skill_name": "Formation!",
+  "batch": 497,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Power Up Super from PQ133; three documented charge-duration levels of about 30, 31.5, and 33 seconds. Current evidence confirms PQ133 and an Ultimate Finish requirement; exact effect magnitude remains bounded.",
+  "acquisition_endpoint": "PQ133 — Ribrianne's Beauty Lesson",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration.",
+  "canonical_sync": "Synchronized conceptually against the live 474-record canonical layer; identity is unchanged.",
+  "evidence_boundary": "Exact frame timing, patch-independent scaling, hidden interactions, and unsupported probabilities are not asserted."
+}
