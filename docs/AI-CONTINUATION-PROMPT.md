@@ -4571,3 +4571,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Audited the Super Soul mechanics coverage report against the canonical record layer and corrected a stale arithmetic error: `records=172`, so `limit_burst_trigger.missing` is **172**, not 173. No canonical Super Soul record was changed by this correction.
 - [x] Rechecked PQ 186 evidence: the surviving canonical relationship layer correctly associates “The final battle begins now.” and “I'll use this power to protect everyone!” with PQ 186. Independent current PQ guide evidence likewise lists both as PQ 186 rewards. Mechanics for the first remain unresolved; no unsupported effect was invented. Current player discussion also provides only anecdotal drop observations, so it is retained as secondary research evidence rather than promoted to canonical mechanics.
 - [ ] Continue mechanics enrichment with source-backed evidence, prioritizing records where an explicit mechanic source exists; preserve unresolved fields when evidence is insufficient.
+
+
+### 2026-09-27 continuation — Active Super Soul coverage reconciliation
+- [x] Found a coverage-integrity issue in `audit_super_soul_mechanics_coverage.py`: it counted five records explicitly marked `provenance_status=rejected_legacy_misidentification` as active mechanics records.
+- [x] Corrected the validator to preserve all 172 historical records for auditability while excluding the five rejected legacy identities (super-soul-138 through super-soul-142) from active coverage. Current active count is **167**.
+- [x] Recomputed active mechanics coverage: trigger 162/167; effect text 167/167; magnitude 161/167; duration 126/167; stacking 72/167; Limit Burst 158/167; Limit Burst trigger 0/167; Limit Burst effect 163/167; CaC usability 164/167; race restriction 3/167; DLC requirement 67/167.
+- [x] No gameplay mechanics or reward relationships were inferred or altered by this correction.
+- [ ] Continue evidence-backed enrichment against the **167 active** Super Soul records. Treat the five rejected historical identities only as provenance/audit artifacts.
