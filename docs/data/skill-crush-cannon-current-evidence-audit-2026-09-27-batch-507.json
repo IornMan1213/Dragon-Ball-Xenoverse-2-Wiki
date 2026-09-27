@@ -1,0 +1,15 @@
+{
+  "skill_name": "Crush Cannon",
+  "batch": 507,
+  "date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "summary": "Current source refresh: PQ147; 100 Ki; Ki Blast Super; chargeable barrage; guard preserves charge; source reports 18x maximum.",
+  "canonical_source": "docs/data/skills.json",
+  "canonical_sync": "Canonical identity unchanged; synchronized with skills index.",
+  "evidence_boundary": "Source-reported values remain source-bounded observations; unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not promoted.",
+  "source_domains": [
+    "dbxv2.fandom.com",
+    "dragonball.fandom.com",
+    "dragon-ball-official.com"
+  ]
+}
