@@ -1,0 +1,30 @@
+{
+  "batch": 514,
+  "date": "2026-09-27",
+  "type": "current-evidence-refresh",
+  "selected": [
+    "Dragon Fist",
+    "Dragon Spark",
+    "Dragon Spiral",
+    "Dragon Thunder",
+    "Drain Field",
+    "Dual Destructo-Disc",
+    "Dust Attack",
+    "Dynamite Kick"
+  ],
+  "selection_rule": "Fresh post-Batch-513 census from the recovered 474-record canonical corpus; first eight lexical records whose last_verified was older than 2026-09-27.",
+  "baseline": {
+    "canonical_records": 474
+  },
+  "records_refreshed": 8,
+  "canonical_identity_changes": 0,
+  "canonical_field_corrections": 0,
+  "synchronized_layers": [
+    "docs/data/skills.json",
+    "docs/data/skills-index.json"
+  ],
+  "audit_artifacts": 8,
+  "projection_check": "No new Skill→PQ relationship was inferred; existing cross-domain relationships remain source-bounded.",
+  "evidence_boundary": "Canonical data is the source of truth. Existing conflicts and unresolved fields are preserved; no unsupported probabilities, hidden gates, exact frames, patch-independent scaling, or new Skill→PQ edges are inferred.",
+  "completed": true
+}
