@@ -73,5 +73,27 @@
       "promotion": "Identity/cost/user evidence is stronger than the damage figure; retain test-context qualifier."
     }
   ],
-  "notes": "This batch targets four sparse records surfaced during null-field auditing. Existing Batch 254 established their identities but left costs/effects sparse. Current evidence supplies bounded enrichment without inventing acquisition or Ultimate-Finish conditions."
+  "notes": "This batch targets four sparse records surfaced during null-field auditing. Existing Batch 254 established their identities but left costs/effects sparse. Current evidence supplies bounded enrichment without inventing acquisition or Ultimate-Finish conditions.",
+  "reconciliation": {
+    "status": "completed",
+    "findings": [
+      {
+        "skill": "Tyrant Lancer",
+        "result": "already covered by Batch 417 dedicated current-evidence audit; no canonical mutation needed."
+      },
+      {
+        "skill": "Ki Explosion",
+        "result": "already covered by Batch 458 dedicated current-evidence audit; 100 Ki, PQ77, held/extended explosion behavior and historical cost change are documented."
+      },
+      {
+        "skill": "X10 Kamehameha",
+        "result": "already covered by Batch 421 dedicated current-evidence audit; 200 Ki and five-stage charge behavior are documented."
+      },
+      {
+        "skill": "Kamekameha",
+        "result": "already covered by Batch 49; 100 Ki, PQ48 and six-hit beam behavior are documented. Its spelling alias to Kamehameha is explicitly handled by PQ crosslink validation."
+      }
+    ],
+    "decision": "No canonical rewrite was performed. Batch 527 remains a duplicate-screening/audit artifact and establishes that the sparse Batch 254 manifest is superseded by later dedicated evidence."
+  }
 }
