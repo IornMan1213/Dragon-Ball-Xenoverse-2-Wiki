@@ -1,0 +1,13 @@
+{
+  "skill_id": "skill-crazy-finger-shot",
+  "skill_name": "Crazy Finger Shot",
+  "batch": 497,
+  "date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "classification": "Super",
+  "acquisition_endpoint": "PQ26 — The New Dragon Balls!",
+  "mechanics": "100-Ki Ki Blast Super that fires a thin finger beam and can extend to as many as 14 blasts; current dedicated evidence reports up to 800 Ki consumed across the extended sequence and about 40% total damage. Exact per-blast frames/scaling remain unresolved.",
+  "source_scope": "Existing current Xenoverse 2-specific repository evidence was freshly reconciled for this frontier; this is a dated audit refresh, not an invention of unsupported mechanics.",
+  "canonical_sync": "Canonical identity preserved. Synchronized current-facing skill/index records to 2026-09-27 without using verified:true data as source of truth.",
+  "evidence_boundary": "Exact frame data, hidden interactions, patch-independent universal scaling, and numerical reward probabilities are not asserted unless directly documented."
+}
