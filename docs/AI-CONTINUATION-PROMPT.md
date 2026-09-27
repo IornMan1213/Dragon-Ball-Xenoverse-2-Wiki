@@ -3804,3 +3804,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No matching item-level catalogue entries were located for these exact names; they remain preserved as unresolved historical identities.
 - [x] No mechanics, acquisition route, or Limit Burst data were invented or inferred.
 - [ ] Next: investigate the provenance of these five legacy records and continue the broader unresolved Super Soul completeness pass.
+
+
+### 2026-09-27 continuation — canonical relationship source correction
+- [x] Re-read the live `docs/data/pq-reward-relationships.json` instead of relying on earlier audit prose.
+- [x] Confirmed PQ 151–154 currently contain different source-backed Super Soul rewards; the five legacy identities 138–141 have **no active canonical PQ acquisition edges**, and 142 has no active PQ 155 edge.
+- [x] Corrected the stale conflict audit and annotated the five records so canonical-data-first policy is explicit.
+- [ ] Next: trace historical provenance of the five orphaned identities before restoring any acquisition relationships.
