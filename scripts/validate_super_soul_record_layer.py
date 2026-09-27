@@ -48,6 +48,8 @@ def main() -> int:
             raise SystemExit(f"record {record['id']} has invalid verification_status")
         if not isinstance(record["sources"], list) or not record["sources"]:
             raise SystemExit(f"record {record['id']} must have at least one source")
+        if any(not isinstance(source, str) or not source.strip() for source in record["sources"]):
+            raise SystemExit(f"record {record['id']} sources must contain only non-empty strings")
     relationships = rel.get("verified_relationships")
     if not isinstance(relationships, list):
         raise SystemExit("pq-reward-relationships.json: verified_relationships must be a list")
