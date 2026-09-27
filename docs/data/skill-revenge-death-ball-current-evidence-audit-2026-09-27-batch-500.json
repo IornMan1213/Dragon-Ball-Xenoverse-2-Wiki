@@ -1,0 +1,10 @@
+{
+  "skill_id": "skill-revenge-death-ball",
+  "skill_name": "Revenge Death Ball",
+  "batch": 500,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "2026-09-27 Batch 500 current-evidence refresh: current documentation reconfirms the 300+ Ki resource model and charge-dependent 12–22-hit behavior. Numerical outcomes remain source-bound; exact frame/scaling behavior remains unresolved.",
+  "canonical_sync": "Synchronized with restored 474-record canonical Skills baseline; identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and numerical reward probabilities are not asserted."
+}
