@@ -4,8 +4,8 @@
   "batch": 500,
   "date": "2026-09-27",
   "status": "current_evidence_verified",
-  "mechanics_summary": "100-Ki Strike Super restricted to Namekian CaCs. The user elongates the right arm; if the opponent is in range, the user pulls them in and strikes for a documented 10% damage, leaving the target stunned for follow-up attacks. Current exact-name documentation labels the acquisition generically as Skill Shop, while maintained archived shop evidence supports the more specific TP Medal Shop endpoint and a 30-TP-Medal listing; rotation timing is not inferred. For Orange Piccolo, the move functions as his Grab.",
-  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration already recorded in the canonical research corpus.",
+  "mechanics": "Current exact-name documentation reconfirms the 100-Ki Namekian-only Strike Super, grab/stun behavior, and source-reported approximately 10% damage. Exact timing and scaling remain unresolved.",
   "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
-  "evidence_boundary": "Source-reported numerical values remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded corroboration.",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted."
 }
