@@ -3122,3 +3122,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 
 <!-- 2026-09-27: PQ151-154 canonical Super Soul correction completed; next mechanics frontier is records 175-178. -->
+
+
+<!-- 2026-09-27: Enriched corrected Super Souls 175-178. Record 178 retains unresolved Ki-recovery penalty and Limit Burst fields pending stronger item-level evidence. -->
