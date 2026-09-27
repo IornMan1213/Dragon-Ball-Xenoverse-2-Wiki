@@ -72,5 +72,11 @@
     "result": "Existing 474-skill / 3-relationship clean projection remains unchanged; no canonical relationship data was modified.",
     "validator_commit": "36a5d13bce7b4ab2a641e3082d3a6ec04483d416",
     "evidence_boundary": "Internal identity uniqueness and relationship reachability only; no additional Partner Customization assignments are inferred."
+  },
+  "validator_hardening_2026_09_27_root_contract": {
+    "change": "Relationship, canonical skill, and character bridge JSON roots are now explicitly required to be objects before .get() access; malformed root containers are converted into deterministic validation failures rather than uncontrolled AttributeError paths.",
+    "result": "Existing 474-skill / 3-relationship clean projection remains unchanged; no canonical relationship data was modified.",
+    "validator_commit": "36f7357f286d63d207596eb2f33c1c0f1b345143",
+    "runtime_status": "unverified"
   }
 }
