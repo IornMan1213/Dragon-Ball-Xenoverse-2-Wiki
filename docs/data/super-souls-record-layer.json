@@ -4004,10 +4004,10 @@
     {
       "id": "super-soul-137",
       "name": "I'll never forgive you!",
-      "character_source": "Frieza (First Form)",
-      "dlc_requirement": null,
-      "acquisition_type": null,
-      "acquisition_source": null,
+      "character_source": "Frieza (1st Form)",
+      "dlc_requirement": "None identified",
+      "acquisition_type": "Item Shop",
+      "acquisition_source": "Item Shop",
       "first_clear_or_repeat": null,
       "shop_rotation": null,
       "trigger_condition": "When guard is broken",
@@ -4015,12 +4015,12 @@
       "effect_magnitude": "XL (secondary evidence; exact numeric implementation not canonical)",
       "duration": "While guard-broken (secondary evidence)",
       "stacking_behavior": null,
-      "limit_burst": null,
+      "limit_burst": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
       "limit_burst_trigger": null,
       "limit_burst_effect": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
-      "usable_by_cac": null,
+      "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Canonical PQ attribution removed on 2026-09-27 after current direct PQ reward evidence did not list this Super Soul at the previously indexed PQ. The identity is preserved as a standalone catalogue record; no alternate acquisition or mechanics are inferred. Direct/secondary evidence reviewed 2026-09-27 identifies the Frieza First Form Soul and its guard-break damage reduction plus Limit Burst; numeric XL interpretation remains secondary.",
+      "version_notes": "Canonical PQ attribution removed on 2026-09-27 after current direct PQ reward evidence did not list this Super Soul at the previously indexed PQ. The identity is preserved as a standalone catalogue record; no alternate acquisition or mechanics are inferred. Direct/secondary evidence reviewed 2026-09-27 identifies the Frieza First Form Soul and its guard-break damage reduction plus Limit Burst; numeric XL interpretation remains secondary. Current Super Soul catalogue independently lists this Soul as an Item Shop acquisition and gives the same guard-break effect and Limit Burst; direct catalogue evidence checked 2026-09-27. citeturn1search0turn1search1",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
@@ -4030,7 +4030,9 @@
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://www.vsbattles.com/threads/new-frieza-addition.188974/"
+        "https://www.vsbattles.com/threads/new-frieza-addition.188974/",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
       ]
     },
     {
