@@ -4,10 +4,10 @@
   "source_dataset": "docs/data/pq-reward-relationships.json",
   "canonical_super_soul_dataset": "docs/data/super-souls-record-layer.json",
   "canonical_super_soul_records": 173,
-  "linked_super_soul_rewards": 134,
-  "unique_super_soul_targets": 132,
-  "detailed_endpoint_matches": 132,
-  "partial_acquisition_index_matches": 134,
+  "linked_super_soul_rewards": 135,
+  "unique_super_soul_targets": 133,
+  "detailed_endpoint_matches": 133,
+  "partial_acquisition_index_matches": 135,
   "unresolved_endpoint_names": [],
   "endpoint_coverage_gaps": [],
   "status": "canonical_forward_layer_reconciled; forward/reverse endpoint parity aligned",
@@ -20,10 +20,88 @@
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
+      "pq": "pq-007",
+      "target": "Gyau!!!!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-012",
+      "target": "H-How could he?!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-012",
+      "target": "I actually felt that one...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-021",
+      "target": "I am the universe's strongest!",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
       "pq": "pq-021",
       "target": "I'm neither Kami nor Piccolo...",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-022",
+      "target": "I'll kill all of you!!",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq": "pq-026",
+      "target": "I got back my youth and vigor!",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq": "pq-028",
+      "target": "Drop dead!!!",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq": "pq-028",
+      "target": "Goku the legendary Super Saiyan!",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq": "pq-029",
+      "target": "I'll use all my strength to kill you.",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq": "pq-030",
+      "target": "I'm neither Kami nor Piccolo...",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq": "pq-035",
+      "target": "I wanted to kill you with my own hands.",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq": "pq-036",
+      "target": "I am...Super Vegeta!!",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq": "pq-038",
+      "target": "This fight...is truly pointless...",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
     },
     {
       "pq": "pq-040",
@@ -93,19 +171,13 @@
     },
     {
       "pq": "pq-097",
-      "target": "Someone, satisfy me...",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-097",
       "target": "Revival of the Demon Realm is at hand",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
-      "pq": "pq-102",
-      "target": "I'll make you regret that!",
+      "pq": "pq-097",
+      "target": "Someone, satisfy me...",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -116,8 +188,8 @@
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
-      "pq": "pq-103",
-      "target": "This is not a weapon.",
+      "pq": "pq-102",
+      "target": "I'll make you regret that!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -134,14 +206,14 @@
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
-      "pq": "pq-104",
-      "target": "How Dare You...! That's My Bulma",
+      "pq": "pq-103",
+      "target": "This is not a weapon.",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
-      "pq": "pq-105",
-      "target": "Me...Protecting Some Pipsqueak",
+      "pq": "pq-104",
+      "target": "How Dare You...! That's My Bulma",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -152,8 +224,14 @@
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
+      "pq": "pq-105",
+      "target": "Me...Protecting Some Pipsqueak",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
       "pq": "pq-106",
-      "target": "You're Just Pieces in a Game",
+      "target": "Eehee hee hee heee!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -165,7 +243,7 @@
     },
     {
       "pq": "pq-106",
-      "target": "Eehee hee hee heee!",
+      "target": "You're Just Pieces in a Game",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -177,19 +255,13 @@
     },
     {
       "pq": "pq-108",
-      "target": "Now, give your father a message for me.",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-108",
       "target": "Eehee hee hee heee!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
-      "pq": "pq-109",
-      "target": "I really do love being immortal.",
+      "pq": "pq-108",
+      "target": "Now, give your father a message for me.",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -200,8 +272,8 @@
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
-      "pq": "pq-110",
-      "target": "This fight is only just beginning!",
+      "pq": "pq-109",
+      "target": "I really do love being immortal.",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -212,14 +284,14 @@
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
-      "pq": "pq-111",
-      "target": "I feel it... Everyone, lend me your power!",
+      "pq": "pq-110",
+      "target": "This fight is only just beginning!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
-      "pq": "pq-112",
-      "target": "Sorry. You were way open there.",
+      "pq": "pq-111",
+      "target": "I feel it... Everyone, lend me your power!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -232,6 +304,12 @@
     {
       "pq": "pq-112",
       "target": "I'm never going to forgive him!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-112",
+      "target": "Sorry. You were way open there.",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -261,13 +339,13 @@
     },
     {
       "pq": "pq-116",
-      "target": "If I don't do it, who will?",
+      "target": "Earth is in your hands now!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq": "pq-116",
-      "target": "Earth is in your hands now!",
+      "target": "If I don't do it, who will?",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -279,13 +357,13 @@
     },
     {
       "pq": "pq-118",
-      "target": "Now we're even.",
+      "target": "I hate what I've become!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq": "pq-118",
-      "target": "I hate what I've become!",
+      "target": "Now we're even.",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -345,13 +423,19 @@
     },
     {
       "pq": "pq-128",
-      "target": "Your father has been killed!",
+      "target": "I've waited an unbelievably long time for this...",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq": "pq-128",
-      "target": "I've waited an unbelievably long time for this...",
+      "target": "Your father has been killed!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-129",
+      "target": "Don't think I'm gonna show you any gratitude!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -364,12 +448,6 @@
     {
       "pq": "pq-129",
       "target": "Hey, you think you could fight a little quieter?!",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-129",
-      "target": "Don't think I'm gonna show you any gratitude!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -399,19 +477,19 @@
     },
     {
       "pq": "pq-131",
-      "target": "You'd better survive, you got that?!",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-131",
       "target": "Shall we pick up where we left off?",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
+      "pq": "pq-131",
+      "target": "You'd better survive, you got that?!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
       "pq": "pq-132",
-      "target": "Whoa, it's freezing here!",
+      "target": "I can't have you dying on me!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -423,7 +501,7 @@
     },
     {
       "pq": "pq-132",
-      "target": "I can't have you dying on me!",
+      "target": "Whoa, it's freezing here!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -453,19 +531,13 @@
     },
     {
       "pq": "pq-136",
-      "target": "Pathetic",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-136",
       "target": "Justice is nothing to me now.",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
-      "pq": "pq-137",
-      "target": "This is everything I've got!",
+      "pq": "pq-136",
+      "target": "Pathetic",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -476,8 +548,8 @@
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
-      "pq": "pq-138",
-      "target": "I'm not gonna die until I defeat you!",
+      "pq": "pq-137",
+      "target": "This is everything I've got!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -488,14 +560,20 @@
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
-      "pq": "pq-140",
-      "target": "This thing carries hopes of everyone on Earth!",
+      "pq": "pq-138",
+      "target": "I'm not gonna die until I defeat you!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq": "pq-140",
       "target": "Now then, time for another delightful hunt!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-140",
+      "target": "This thing carries hopes of everyone on Earth!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -525,13 +603,13 @@
     },
     {
       "pq": "pq-144",
-      "target": "You've awakened my true power...",
+      "target": "I won't forgive those who best my comrades!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq": "pq-144",
-      "target": "I won't forgive those who best my comrades!",
+      "target": "You've awakened my true power...",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -572,14 +650,44 @@
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
-      "pq": "pq-156",
-      "target": "This is your true power?",
+      "pq": "pq-151",
+      "target": "I think I'm getting the hang of this.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-151",
+      "target": "I'll keep adding a bit of power to my attacks!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-152",
+      "target": "I will put a stop to you, fiend!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-153",
+      "target": "There's more where that came from!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-153",
+      "target": "You're not much of a fun fight!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq": "pq-156",
       "target": "Still haven't figured out you're gonna lose?",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-156",
+      "target": "This is your true power?",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -699,19 +807,13 @@
     },
     {
       "pq": "pq-185",
-      "target": "This power... It's different from any I've ever had.",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-185",
       "target": "Malice... Existence... Cruelty...",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
-      "pq": "pq-186",
-      "target": "The final battle begins now.",
+      "pq": "pq-185",
+      "target": "This power... It's different from any I've ever had.",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -722,104 +824,8 @@
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
-      "pq": "pq-021",
-      "target": "I am the universe's strongest!",
-      "status": "source_backed",
-      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-    },
-    {
-      "pq": "pq-022",
-      "target": "I'll kill all of you!!",
-      "status": "source_backed",
-      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-    },
-    {
-      "pq": "pq-026",
-      "target": "I got back my youth and vigor!",
-      "status": "source_backed",
-      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-    },
-    {
-      "pq": "pq-028",
-      "target": "Drop dead!!!",
-      "status": "source_backed",
-      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-    },
-    {
-      "pq": "pq-028",
-      "target": "Goku the legendary Super Saiyan!",
-      "status": "source_backed",
-      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-    },
-    {
-      "pq": "pq-029",
-      "target": "I'll use all my strength to kill you.",
-      "status": "source_backed",
-      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-    },
-    {
-      "pq": "pq-030",
-      "target": "I'm neither Kami nor Piccolo...",
-      "status": "source_backed",
-      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-    },
-    {
-      "pq": "pq-035",
-      "target": "I wanted to kill you with my own hands.",
-      "status": "source_backed",
-      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-    },
-    {
-      "pq": "pq-036",
-      "target": "I am...Super Vegeta!!",
-      "status": "source_backed",
-      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-    },
-    {
-      "pq": "pq-038",
-      "target": "This fight...is truly pointless...",
-      "status": "source_backed",
-      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
-    },
-    {
-      "pq": "pq-012",
-      "target": "H-How could he?!",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-012",
-      "target": "I actually felt that one...",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-151",
-      "target": "I think I'm getting the hang of this.",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-151",
-      "target": "I'll keep adding a bit of power to my attacks!",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-152",
-      "target": "I will put a stop to you, fiend!",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-153",
-      "target": "There's more where that came from!",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-153",
-      "target": "You're not much of a fun fight!",
+      "pq": "pq-186",
+      "target": "The final battle begins now.",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     }
@@ -828,6 +834,7 @@
   "acquisition_index_semantics": "Unified PQ 1-186 acquisition index must contain every active canonical Super Soul relationship. Duplicate acquisition routes remain preserved.",
   "research_notes": [
     "2026-09-27: regenerated the active resolved projection from pq-reward-relationships.json. This removes six disputed PQ 151–154 claims and three stale capitalization variants that had remained in this report despite prior canonical-layer corrections.",
-    "2026-09-27: PQ 155 → 'This is the ultimate hero!' remains absent from the active projection after direct reward-list contradiction; super-soul-142 remains preserved as unresolved standalone catalogue data."
+    "2026-09-27: PQ 155 → 'This is the ultimate hero!' remains absent from the active projection after direct reward-list contradiction; super-soul-142 remains preserved as unresolved standalone catalogue data.",
+    "2026-09-27: Added PQ 007 → Gyau!!!! after current PQ reward evidence confirmed the Super Soul; prior endpoint metadata was valid but canonical PQ relationship/index coverage was incomplete."
   ]
 }
