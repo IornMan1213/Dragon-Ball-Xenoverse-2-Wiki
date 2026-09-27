@@ -3612,3 +3612,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Write commits: record layer `16264b7984f29ab383233d499b0e2945ea857a90`; audit `233d28a6e9fc23bd9bda7805b08b127dd3671ca8`; cross-domain registration `2dd57aa2d728613fc7c33d509a5d087080de54a2`.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** resolve the remaining canonical Super Soul/PQ reconciliation frontier with item-level evidence where available; specifically continue the PQ 155 / `super-soul-142` conflict investigation without substituting another Gamma Soul or inventing mechanics. If that endpoint remains blocked, continue the next evidence-complete thin-record batch and propagate confirmed mechanics through forward/reverse indexes.
+
+
+### 2026-09-27 continuation — Super Soul mechanics-status consistency audit
+- [x] Audited the canonical Super Soul record layer for contradictory status text where populated mechanics were still described as intentionally unpopulated.
+- [x] Corrected 21 records (`super-soul-083`, `084`, `085`, `089`, and `144`–`163` except unresolved `142)) so `version_notes` accurately distinguishes populated mechanics from remaining provenance/independent-verification gaps.
+- [x] Added `docs/data/super-soul-mechanics-status-consistency-audit-2026-09-27.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] No reward identity, acquisition relationship, mechanic value, or verification classification was changed. Unresolved `super-soul-137`–`142` remain untouched.
+- [x] Commits: canonical layer `75cbfda5d519621e8de66ce90e6d5cc7bcfe217e`; audit `ed07ed6815f92965963089093238c71803d8895e`; registration `606a87b1451b344db43ef5015a26931f4d097733`.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue item-level evidence recovery for `super-soul-142` / PQ 155. Do not promote the unresolved record or substitute another Super Soul without direct evidence. If no new evidence is found, move to the next unresolved canonical Super Soul/reward relationship and keep forward/reverse indexes synchronized.
