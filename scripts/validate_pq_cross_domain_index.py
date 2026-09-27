@@ -26,6 +26,8 @@ def main() -> int:
     forward = data.get("forward_index")
     if not isinstance(forward, str) or not forward.strip():
         failures.append("forward_index must be a non-empty string")
+    elif Path(forward).is_absolute() or ".." in Path(forward).parts:
+        failures.append(f"forward_index must be a repository-relative path: {forward}")
     elif not (ROOT / forward).is_file():
         failures.append(f"forward_index file missing: {forward}")
 
