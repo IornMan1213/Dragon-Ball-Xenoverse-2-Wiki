@@ -1,0 +1,13 @@
+{
+  "skill_id": "skill-burning-shot",
+  "skill_name": "Burning Shot",
+  "batch": 497,
+  "date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "classification": "Super",
+  "acquisition_endpoint": "PQ143 — Other World Offensive",
+  "mechanics": "100-Ki Strike Super from PQ143; two-hit rush consisting of a fiery forward kick followed by a chasing downward chop. Current documentation supports short-range follow-up use; exact frames and universal damage remain unresolved.",
+  "source_scope": "Existing current Xenoverse 2-specific repository evidence was freshly reconciled for this frontier; this is a dated audit refresh, not an invention of unsupported mechanics.",
+  "canonical_sync": "Canonical identity preserved. Synchronized current-facing skill/index records to 2026-09-27 without using verified:true data as source of truth.",
+  "evidence_boundary": "Exact frame data, hidden interactions, patch-independent universal scaling, and numerical reward probabilities are not asserted unless directly documented."
+}
