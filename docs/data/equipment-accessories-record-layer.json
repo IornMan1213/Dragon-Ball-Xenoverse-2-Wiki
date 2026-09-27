@@ -907,6 +907,74 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "docs/Accessory-Acquisition-Matrix.md"
       ]
+    },
+    {
+      "id": "acc-057",
+      "name": "Gamma 1's Helmet",
+      "category": "headwear",
+      "acquisition_routes": [
+        "Parallel Quest 156"
+      ],
+      "dlc_provenance": "HERO OF JUSTICE Pack 1",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "docs/Accessory-Acquisition-Matrix.md",
+        "docs/data/accessory-acquisition-matrix.json"
+      ]
+    },
+    {
+      "id": "acc-058",
+      "name": "Golden Frieza Head",
+      "category": "headwear",
+      "acquisition_routes": [
+        "Parallel Quest 182"
+      ],
+      "dlc_provenance": "Future Saga Chapter 3",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "indexed",
+      "sources": [
+        "docs/data/accessory-pq-audit-169-186.json",
+        "docs/data/accessory-pq-research.json",
+        "docs/data/accessory-pq-canonical-bridge.json"
+      ]
+    },
+    {
+      "id": "acc-059",
+      "name": "Dragon Ball Balloon",
+      "category": "accessory",
+      "acquisition_routes": [
+        "Parallel Quest 184"
+      ],
+      "dlc_provenance": "Future Saga Chapter 3",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/accessory-pq-audit-169-186.json",
+        "docs/data/accessory-pq-research.json",
+        "docs/data/pq-late-accessory-reconciliation.json"
+      ]
+    },
+    {
+      "id": "acc-060",
+      "name": "Goku (Ultra Supervillain Quelled) Wig",
+      "category": "wig",
+      "acquisition_routes": [
+        "Parallel Quest 185"
+      ],
+      "dlc_provenance": "Future Saga Chapter 4",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "indexed",
+      "sources": [
+        "docs/data/accessory-pq-research.json",
+        "docs/data/accessory-pq-canonical-bridge.json",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
     }
   ]
 }
