@@ -4207,3 +4207,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical identity, field, or Skill→PQ relationship was changed from secondary snippets alone; evidence boundaries remain explicit.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the stale Skill frontier after Shine Shot with fresh live evidence; promote canonical fields only when record-level provenance is sufficient, then reconcile any resulting Skill↔PQ cross-domain changes.
+
+
+### 2026-09-27 continuation — Batch 526 evidence enrichment
+- [x] Refreshed Batch 526 with current web evidence for Shine Shot, Rocket Tackle, Savory Slicer, and Rakshasa's Claw.
+- [x] Evidence confirms the current skill identities/character associations and, where available, CaC usability; canonical mechanics/acquisition fields were deliberately not mutated from secondary evidence alone.
+- [x] Batch 526 remains registered in the cross-domain index and preserves an explicit provenance boundary.
+- [ ] **Next:** continue record-level evidence enrichment beyond Batch 526 and only promote canonical fields when sufficiently direct provenance is available.
