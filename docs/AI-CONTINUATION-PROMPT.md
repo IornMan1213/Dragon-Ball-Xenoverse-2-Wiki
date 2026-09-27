@@ -3960,3 +3960,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Recorded the Batch 497 frontier manifest in `docs/data/skill-research-batches/skill-batch-497.json`.
 - [x] Kept canonical identities unchanged; no unsupported frame data, patch-independent scaling, hidden interactions, or reward probabilities were promoted.
 - [ ] Next priority: continue the fresh frontier with Batch 498, then reconcile current PQ→Skill and Skill→PQ projections after a larger evidence batch.
+
+
+### 2026-09-27 continuation — Batch 497 current-evidence frontier
+- [x] Performed a fresh candidate census from the live 474-record corpus without reusing Batch 496's candidate list.
+- [x] Completed current-evidence refresh for **Ice Cannon, Final Flash (Super), God Splitter, Formation!, Majin Kamehameha, Feint Crash, Paralysis, and Menacing Flare**.
+- [x] Added eight dated Batch 497 evidence artifacts and `docs/data/skill-research-batches/skill-batch-497.json`.
+- [x] Preserved canonical identity and evidence boundaries: no skill was added/removed/renamed, and unsupported frames, universal scaling, hidden interactions, or numerical reward probabilities were not invented.
+- [x] Revalidated the live canonical Skills layers after the frontier: **474 records / 474 records**.
+- [ ] Next priority: fresh Batch 498 census and another eight-record evidence frontier, then reconcile PQ→Skill / Skill→PQ projections against the restored 474-record baseline.
