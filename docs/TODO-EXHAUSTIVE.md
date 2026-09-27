@@ -3119,3 +3119,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed the stored canonical PQ 151–154 Super Soul identities materially conflict with the independent all-PQ guide and current Super Soul catalogue.
 - [x] Preserved the recovered canonical layer pending a dedicated correction batch; no silent overwrite.
 - [ ] **Next:** reconcile the canonical PQ reward-normalization records for PQ 151–154 using explicit DLC/item-level evidence, then propagate any confirmed correction through forward/reverse Super Soul indexes and audits.
+
+
+<!-- 2026-09-27: PQ151-154 canonical Super Soul correction completed; next mechanics frontier is records 175-178. -->
