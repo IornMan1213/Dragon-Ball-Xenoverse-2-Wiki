@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "status": "hardening_complete",
+  "validator": "scripts/validate_partner_customization_character_navigation.py",
+  "changes": [
+    "Reject booleans anywhere key_number/reconciliation key fields are required to be integers.",
+    "Keep malformed integer diagnostics consistent with the stricter type contract."
+  ],
+  "canonical_data_changed": false,
+  "runtime_status": "unverified_by_user_direction"
+}
