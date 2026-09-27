@@ -1,23 +1,24 @@
 {
   "batch": 500,
   "date": "2026-09-27",
-  "selected_records": [
-    "Finish Breaker",
-    "Strike of Revelation",
-    "Force Shield",
-    "Super Donut Volley",
-    "Gorgeous Shot",
-    "Unrelenting Barrage",
-    "Hawk Charge",
-    "Super Saiyan 2"
+  "scope": "current-evidence frontier",
+  "records": [
+    "Gigantic Meteor",
+    "Gigantic Omega",
+    "Brave Sword Attack",
+    "Super Vegeta",
+    "Blaster Ball",
+    "Perfect Kamehameha",
+    "Namek Finger",
+    "Warp Kamehameha"
   ],
-  "synchronized_records": 8,
-  "canonical_skill_records": 474,
-  "index_skill_records": 474,
-  "canonical_unique_ids": 474,
-  "index_unique_ids": 474,
-  "id_parity": true,
-  "canonical_identity_changes": 0,
-  "evidence_boundary": "No unsupported exact frames, hidden interactions, universal scaling, or reward probabilities promoted.",
-  "status": "complete"
+  "validation": {
+    "canonical_skill_records": 474,
+    "index_skill_records": 474,
+    "synchronized_records": 8,
+    "canonical_identity_changes": 0,
+    "unsupported_claims_added": 0,
+    "evidence_boundaries_preserved": true
+  },
+  "next": "Batch 501 fresh census and PQ↔Skill projection reconciliation."
 }
