@@ -2824,3 +2824,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Runtime/CI remains intentionally non-blocking and unverified.
 - [ ] **Next:** use only existing repository evidence/staged research to make a substantive Super Soul mechanics enrichment batch; if no additional evidence-backed batch is available, pivot to the 107 unique PQ→equipment endpoint-enrichment gaps and avoid creating duplicate projections.
 
+
+
+### 2026-09-27 continuation — Super Soul audit refresh and equipment endpoint coverage correction
+- [x] Refreshed `docs/data/super-soul-record-layer-integrity-audit-2026-09-27.json` after the final ten endpoint promotions: **168 records**, **134/134 canonical PQ target identities**, zero endpoint gaps; mechanics remain explicitly partial.
+- [x] Added `scripts/audit_super_soul_mechanics_coverage.py` as a deterministic field-population auditor; it does not infer mechanics.
+- [x] Added `scripts/audit_pq_equipment_endpoint_coverage.py` for deterministic canonical PQ→equipment endpoint identity auditing.
+- [x] Re-audited `docs/data/pq-equipment-crosslink-report.json` against the live endpoint layers. Current exact identity coverage is **15/123 unique canonical targets**, leaving **108 endpoint-enrichment gaps**; the earlier 16/123 figure was stale.
+- [x] Refreshed and registered the equipment projection without altering any canonical PQ→equipment relationship.
+- [ ] Runtime/CI remains intentionally non-blocking and unverified.
+- [ ] **Next:** use existing equipment/accessory research evidence to promote unambiguous endpoint identities into the appropriate clothing/equipment or accessory layer; do not merge ambiguous names or classify clothing as accessories. Then continue DLC detail/taxonomy enrichment.
