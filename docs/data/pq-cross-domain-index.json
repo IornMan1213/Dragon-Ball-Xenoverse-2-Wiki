@@ -2196,5 +2196,12 @@
     "relationship_changes": 0,
     "evidence_manifest": "docs/data/skill-research-batches/skill-batch-526.json",
     "evidence_boundary": "No canonical mutation from secondary snippets alone; canonical data remains source of truth."
+  },
+  "skill_research_batch_527": {
+    "batch": 527,
+    "date": "2026-09-27",
+    "file": "docs/data/skill-research-batches/skill-batch-527.json",
+    "scope": "Sparse early Ki Blast Super records — Tyrant Lancer, Ki Explosion, X10 Kamehameha, Kamekameha",
+    "evidence_boundary": "Bounded mechanics/cost/user evidence only; no unsupported acquisition or Ultimate-Finish semantics promoted."
   }
 }
