@@ -827,6 +827,86 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
+    },
+    {
+      "id": "acc-052",
+      "name": "Janemba Head",
+      "category": "headwear",
+      "acquisition_routes": [
+        "Parallel Quest 127"
+      ],
+      "dlc_provenance": "DLC-related route reported",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "docs/data/pq-reward-normalization/pq-121-142-reward-map.json"
+      ]
+    },
+    {
+      "id": "acc-053",
+      "name": "Caulifla Wig",
+      "category": "headwear",
+      "acquisition_routes": [
+        "Parallel Quest 147"
+      ],
+      "dlc_provenance": "DLC-related route reported",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "docs/data/pq-reward-normalization/pq-143-162-reward-map.json"
+      ]
+    },
+    {
+      "id": "acc-054",
+      "name": "Kale Wig",
+      "category": "headwear",
+      "acquisition_routes": [
+        "Parallel Quest 148"
+      ],
+      "dlc_provenance": "DLC-related route reported",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "docs/data/pq-reward-normalization/pq-143-162-reward-map.json"
+      ]
+    },
+    {
+      "id": "acc-055",
+      "name": "Bulma (Kid) Wig",
+      "category": "headwear",
+      "acquisition_routes": [
+        "Parallel Quest 149"
+      ],
+      "dlc_provenance": "DLC-related route reported",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "docs/data/accessory-pq-research.json"
+      ]
+    },
+    {
+      "id": "acc-056",
+      "name": "Gamma 2's Helmet",
+      "category": "headwear",
+      "acquisition_routes": [
+        "Parallel Quest 155"
+      ],
+      "dlc_provenance": "HERO OF JUSTICE Pack 1",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "docs/Accessory-Acquisition-Matrix.md"
+      ]
     }
   ]
 }
