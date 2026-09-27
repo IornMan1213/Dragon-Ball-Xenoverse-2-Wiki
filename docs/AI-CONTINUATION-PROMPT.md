@@ -3372,3 +3372,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the canonical source-of-truth boundary: this validator does not invent rewards, mechanics, probabilities, shop rotations, or alternate acquisition routes.
 - [ ] Runtime/CI remains intentionally non-blocking and unverified.
 - [ ] **Exact next:** continue recovery-forward cross-domain enrichment from the restored database, prioritizing a live deterministic validator/consumer or an evidence-complete data frontier; do not rebuild already-recovered layers from partial historical branches.
+
+
+### 2026-09-27 continuation — Super Soul acquisition contract validation correction
+- [x] Corrected the new recovery validator to accept the canonical PQ identifier format used by `pq-reward-relationships.json` (`pq-###`) rather than assuming integer PQ identifiers.
+- [x] Connector-side parity check passed: **137** Super Soul reward relationships / **134** unique targets / **134** acquisition-index targets / **168** canonical Super Soul records; no missing canonical targets and no extra acquisition-index targets.
+- [x] The recovery audit now records the actual **168-record** canonical Super Soul population and the corrected PQ identifier contract.
+- [ ] Local validator execution and CI remain unverified.
+- [ ] **Exact next:** use the recovered, parity-checked database as the starting point for the next evidence-backed enrichment frontier.
