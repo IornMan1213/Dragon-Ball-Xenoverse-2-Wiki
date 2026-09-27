@@ -7,10 +7,10 @@
   "linked_super_soul_rewards": 137,
   "unique_super_soul_targets": 134,
   "detailed_endpoint_matches": 134,
-  "partial_acquisition_index_matches": 122,
+  "partial_acquisition_index_matches": 134,
   "unresolved_endpoint_names": [],
   "endpoint_coverage_gaps": [],
-  "status": "canonical_relationships_and_endpoint_identity_complete_mechanics_enrichment_pending",
+  "status": "canonical_relationships_endpoint_identity_and_acquisition_index_complete_mechanics_enrichment_pending",
   "semantics": "Canonical PQ→Super Soul relationships remain authoritative. All 134 unique canonical targets now have endpoint identities; indexed records intentionally leave unsupported mechanics unresolved.",
   "resolved_super_soul_rewards": [
     {
@@ -835,5 +835,7 @@
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     }
-  ]
+  ],
+  "acquisition_index": "docs/data/super-souls/pq-acquisition-index-001-186.json",
+  "acquisition_index_semantics": "Unified PQ 1-186 acquisition index now represents all 134 unique canonical Super Soul targets; duplicate acquisition routes remain preserved."
 }
