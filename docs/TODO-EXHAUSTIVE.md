@@ -3304,3 +3304,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Left unresolved Super Souls 137–142 unchanged.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: item-level evidence recovery for PQ 155 / `super-soul-142`; otherwise continue the next unresolved canonical Super Soul/reward relationship.
+
+
+### 2026-09-27 continuation — PQ 155 / Super Soul 142 canonical reconciliation
+- [x] Corrected PQ 155 after direct reward evidence contradicted the recovered Super Soul edge: removed `This is the ultimate hero!` from PQ 155's canonical rewards and all dependent forward/reverse acquisition indexes.
+- [x] Preserved `super-soul-142` as an unresolved standalone record with no invented alternate acquisition.
+- [x] Added `docs/data/pq-155-super-soul-142-reconciliation-audit-2026-09-27.json`.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: audit the next unresolved/recovered Super Soul relationship for stale canonical attribution and synchronize every dependent index.
