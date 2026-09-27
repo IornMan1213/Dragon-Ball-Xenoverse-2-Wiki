@@ -4200,3 +4200,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved existing reward-tier/source conflicts and did not promote unsupported exact frames, hidden interactions, universal scaling, reward probabilities, or new Skill→PQ edges.
 - [ ] Runtime/CI remains non-blocking.
 - [ ] Exact next: fresh Batch 507 census, then target the next substantive cross-domain gap toward the 672 indexed-category target.
+
+### 2026-09-27 continuation — Batch 507 current-evidence completion
+- [x] Performed a fresh post-Batch-506 census from the live 474-record corpus and selected **Candy Beam (Super), Charge, Circle Flash, Comet Strike, Confusion Blade, Crush Cannon, Crush Stream, and Crusher Ball**; none had a registered 2026-09-27 Batch-507 audit at selection time.
+- [x] Completed bounded current-evidence refreshes for all eight records and synchronized `docs/data/skills.json` plus `docs/data/skills-index.json`; canonical identity changes: **0**.
+- [x] Added eight dated Batch 507 audit artifacts, finalized `docs/data/skill-research-batches/skill-batch-507.json`, and registered the artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved evidence boundaries; no unsupported exact frames, hidden interactions, universal scaling, reward probabilities, or new Skill→PQ edges were promoted.
+- [ ] Runtime/CI remains non-blocking.
+- [ ] Exact next: fresh Batch 508 census, then target the next substantive cross-domain enrichment toward the 672 indexed-category target.
