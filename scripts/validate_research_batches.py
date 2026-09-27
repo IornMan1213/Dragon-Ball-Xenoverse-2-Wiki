@@ -135,7 +135,10 @@ def main() -> int:
                         errors.append(f"{path.relative_to(ROOT)}: record missing name")
                         continue
                     skill_records += 1
-                    key = (str(r["name"]).casefold(), str(r.get("class", "")), str(r.get("subcategory", "")))
+                    if not all(isinstance(r.get(field), str) for field in ("name", "class", "subcategory")):
+                        errors.append(f"{path.relative_to(ROOT)}: skill identity fields name/class/subcategory must be strings")
+                        continue
+                    key = (r["name"].casefold(), r["class"], r["subcategory"])
                     skip_uf = historical_duplicate or (not r.get("correction_of") and key in superseded_uf_keys)
                     if not historical_duplicate:
                         validate_skill_semantics(path, r, errors, skip_uf=skip_uf)
@@ -150,7 +153,7 @@ def main() -> int:
                         continue
                     pq_records += 1
                     number = r["number"]
-                    if not isinstance(number, int):
+                    if not isinstance(number, int) or isinstance(number, bool):
                         errors.append(f"{path.relative_to(ROOT)}: non-integer PQ number {number!r}")
                         continue
                     if number in local_numbers:
