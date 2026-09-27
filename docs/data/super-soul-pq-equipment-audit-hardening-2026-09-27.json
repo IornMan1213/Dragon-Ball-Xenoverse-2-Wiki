@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "status": "hardening_complete",
+  "changes": [
+    "Super Soul mechanics audit now validates JSON/root/record types before coverage projection.",
+    "PQ equipment endpoint audit now validates canonical relationship and endpoint containers and only accepts non-empty string endpoint identities.",
+    "Malformed inputs now fail deterministically rather than being silently projected."
+  ],
+  "canonical_data_changed": false
+}
