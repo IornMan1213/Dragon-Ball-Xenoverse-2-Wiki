@@ -4467,3 +4467,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved existing acquisition/reward conflicts and unresolved frame, scaling, hidden-condition, and probability fields rather than normalizing them without evidence.
 - [x] Post-batch validation target: canonical/index counts remain 474/474; the three pre-existing last_verified mismatches remain isolated (Phantom Fist, Rise to Action, Rising Rage).
 - [ ] Continue stale canonical Skill frontier alphabetically after Galick Gun.
+
+
+### 2026-09-27 — Batch 516 completion
+- Refreshed 12 canonical Skills records: Eraser Bomb, Evil Blast, Evil Explosion, Evil Eyes, Evil Flame, Evil Flight Strike, Evil Ray Strike, Evil Rise Strike, Evil Whirlwind, Excellent Full Course, Explosive Assault, Explosive Buu Buu Punch.
+- Canonical skills database remains 474 records; no skill identities, canonical acquisition endpoints, or unsupported Skill→PQ relationships were changed.
+- Synchronized the 474-record skills index and registered Batch 516 in the PQ cross-domain index.
+- Batch 516 remains an evidence refresh only: canonical data is authoritative; existing reward/acquisition conflicts and unresolved exact frames, probabilities, hidden conditions, and patch-independent scaling remain preserved.
+- Next stale frontier after Batch 516: Explosive Wave, Eye Beam, Fake Blast, Feint Shot, Fierce Fist, Fighting Pose E, Fighting Pose K, Final Cannon, Final Charge, Final Explosion, Final Flash, Final Flash (SS3 DAIMA), then continue alphabetically.
