@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-27",
+  "title": "PQ 151-154 disputed Super Soul stale canonical occurrence scan",
+  "status": "validated_no_stale_pq_151_154_occurrences",
+  "scope": [
+    "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
+    "docs/data/super-souls/pq-acquisition-index-001-186.json",
+    "docs/data/pq-reward-relationships.json",
+    "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json"
+  ],
+  "result": "Five disputed claims are absent from all four canonical index/reward files. The sixth, \"I'm not gonna die until I defeat you!\", remains only at its corrected canonical PQ 138 location in the acquisition/relationship indexes, not PQ 151.",
+  "claims": [
+    [
+      "I'll never forgive you!",
+      false
+    ],
+    [
+      "I'm not gonna die until I defeat you!",
+      true
+    ],
+    [
+      "I'll show you the power of a true warrior!",
+      false
+    ],
+    [
+      "Don't underestimate my power!",
+      false
+    ],
+    [
+      "I won't forgive you!",
+      false
+    ],
+    [
+      "I'm the one who will win!",
+      false
+    ]
+  ]
+}
