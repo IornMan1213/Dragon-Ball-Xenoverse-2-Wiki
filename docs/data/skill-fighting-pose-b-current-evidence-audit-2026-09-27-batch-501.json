@@ -1,0 +1,10 @@
+{
+  "skill_id": "skill-fighting-pose-b",
+  "skill_name": "Fighting Pose B",
+  "batch": 501,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "2026-09-27 Batch 501 refresh: current documentation reconfirms 0-Ki Power Up classification, PQ16 endpoint, and temporary Strike-move damage boost. Exact percentage, stacking behavior, reward probability, and frame timing remain unresolved.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and numerical reward probabilities are not asserted."
+}
