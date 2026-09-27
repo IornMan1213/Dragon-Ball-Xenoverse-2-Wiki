@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "domain": "super_souls",
+  "records": [
+    {
+      "id": "super-soul-031",
+      "name": "Drop dead!!!",
+      "acquisition_source": "Parallel Quest 28",
+      "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
+      "evidence": "Current Super Soul catalogue/character evidence; repository canonical acquisition retained.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "super-soul-092",
+      "name": "This heat...will be your downfall!",
+      "acquisition_source": "Parallel Quest 120",
+      "limit_burst_effect": "Auto Just Guard",
+      "evidence": "Current Super Soul catalogue/character evidence; repository canonical acquisition retained.",
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "super-soul-101",
+      "name": "Heh heh! Now THIS is real power!",
+      "acquisition_source": "Parallel Quest 129",
+      "limit_burst_effect": "Revive Gauge Auto-Recovery!",
+      "evidence": "Current Super Soul catalogue/character evidence; repository canonical acquisition retained.",
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "super-soul-173",
+      "name": "I actually felt that one...",
+      "acquisition_source": "Parallel Quest 012",
+      "limit_burst_effect": "Auto Just Guard",
+      "evidence": "Current Super Soul catalogue/character evidence; repository canonical acquisition retained.",
+      "verification_status": "verified_secondary"
+    },
+    {
+      "id": "super-soul-175",
+      "name": "I'll keep adding a bit of power to my attacks!",
+      "acquisition_source": "Parallel Quest 151",
+      "limit_burst_effect": "Auto Just Guard",
+      "evidence": "Current Super Soul catalogue/character evidence; repository canonical acquisition retained.",
+      "verification_status": "partially_verified"
+    }
+  ],
+  "policy": "Populate only the normalized Limit Burst effect when directly supported by current catalogue/character evidence; do not infer trigger timing, reward probability, or unrelated mechanics.",
+  "source_urls": [
+    "https://dbxv2.fandom.com/wiki/Super_Soul",
+    "https://dbxv2.fandom.com/wiki/Nappa",
+    "https://dbxv2.fandom.com/wiki/Turles",
+    "https://dbxv2.fandom.com/wiki/Raditz",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+  ],
+  "affected_files": [
+    "docs/data/super-souls-record-layer.json",
+    "docs/data/super-soul-mechanics-enrichment-audit-2026-09-27.json"
+  ],
+  "status": "passed"
+}
