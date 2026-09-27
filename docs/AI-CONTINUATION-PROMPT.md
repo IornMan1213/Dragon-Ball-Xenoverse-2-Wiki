@@ -3722,3 +3722,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Re-ran cross-domain parity after the batch: **135** active Super Soul relationship edges = **133** unique acquisition targets; the acquisition target set remains aligned with the active crosslink projection. No reward relationship was changed by this mechanics-only batch.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue the remaining thin canonical Super Soul mechanics set, prioritizing records where direct evidence can resolve a missing normalized field. Preserve PQ 185/186 and other disputed records unless independent item-level evidence resolves them; after each substantive batch rerun parity.
+
+
+### 2026-09-27 continuation — Super Soul Limit Burst frontier batch C
+- [x] Added explicit Limit Burst effects for `super-soul-038` and `super-soul-039` from Broly Lite Raid reward documentation and the current Broly catalogue. citeturn2search0turn2search1
+- [x] Added `docs/data/super-soul-limit-burst-effect-batch-2026-09-27-c.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Mechanics coverage advanced to **105/172** populated Limit Burst effects.
+- [x] Rechecked canonical Super Soul acquisition-index membership while validating the batch; mechanics-only changes did not alter acquisition edges.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue evidence-backed enrichment. The remaining thin set includes unresolved Future Saga PQ 185/186 mechanics and older catalogue entries whose missing fields require deeper item-level evidence; do not promote community-only claims to canonical fields without sufficient support.
