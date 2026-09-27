@@ -21,7 +21,7 @@ def load_json(path: Path, errors: list[str]):
 def records(payload):
     if not isinstance(payload, dict):
         return []
-    value = payload.get("corrections") or payload.get("records") or []
+    value = payload.get("corrections") if "corrections" in payload else payload.get("records", [])
     return value if isinstance(value, list) else []
 
 
