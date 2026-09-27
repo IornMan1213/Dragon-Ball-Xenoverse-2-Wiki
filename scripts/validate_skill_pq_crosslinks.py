@@ -39,7 +39,13 @@ if len(set(ids)) != EXPECTED_SKILLS: raise SystemExit("duplicate canonical skill
 
 # Keep the checked-in reverse artifact synchronized with the deterministic source projection.
 # A count-only check can pass while individual PQ edges drift.
-existing_reverse = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else None
+if OUT.exists():
+    try:
+        existing_reverse = json.loads(OUT.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise SystemExit(f"{OUT}: invalid JSON: {exc}")
+else:
+    existing_reverse = None
 if existing_reverse is not None:
     assert isinstance(existing_reverse, dict), "checked-in reverse index root must be an object"
     assert existing_reverse.get("schema_version") == "1.0", "checked-in reverse index schema_version must be 1.0"
