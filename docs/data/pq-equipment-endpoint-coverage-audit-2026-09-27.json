@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "audit_date": "2026-09-27",
   "domain": "pq_equipment",
   "canonical_relationship_source": "docs/data/pq-reward-relationships.json",
@@ -102,5 +102,16 @@
       "Goku (Ultra Supervillain Quelled) Wig"
     ],
     "remaining_gap_count": 77
+  },
+  "validator_hardening_2026_09_27": {
+    "status": "complete",
+    "validator": "scripts/validate_pq_equipment_endpoint_coverage.py",
+    "changes": [
+      "Require canonical relationship source and both endpoint sources to have object roots with list-valued records.",
+      "Require every relationship target used by the equipment projection to be a non-empty string before normalization.",
+      "Require every endpoint record name to be a non-empty string before identity-set construction.",
+      "Reject malformed rows deterministically instead of coercing arbitrary JSON values with str()."
+    ],
+    "data_unchanged": true
   }
 }
