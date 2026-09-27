@@ -3483,3 +3483,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Enriched `super-soul-070` "Eehee hee hee heee!" with Kid Buu/Purification mechanics, +20% normal attacks, -25% damage taken, +20% Ki Auto-Recovery, and Limit Burst.
 - [x] Preserved canonical-source priority and used independent PQ evidence for acquisition identity; no classification-conflict record was modified.
 - [ ] Continue the remaining thin-record parity pass.
+
+
+### 2026-09-27 continuation — Super Soul parity batch 6
+- [x] Refined `super-soul-071` "You can't win..." with Gohan (Adult), Potential Unleashed trigger, +15% all attacks, +20% Stamina recovery speed for 30 seconds, once-only behavior, and Limit Burst.
+- [x] Refined `super-soul-078` "Sorry. You were way open there." with SSGSS Vegito, Heavy Smash trigger, +10% guard-break duration, +40% Ki Auto-Recovery for 10 seconds, and Final Kamehameha Limit Burst.
+- [x] Rechecked PQ provenance: PQ 107 contains "You can't win..." and PQ 112 contains "Sorry. You were way open there." in the independent PQ reward guide. citeturn0search0turn0search1
+- [ ] Continue remaining thin-record enrichment and then perform a canonical cross-index parity audit so mechanics changes propagate to reverse/acquisition views.
