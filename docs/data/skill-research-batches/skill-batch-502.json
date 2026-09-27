@@ -1,0 +1,22 @@
+{
+  "batch": 502,
+  "date": "2026-09-27",
+  "type": "current-evidence-frontier",
+  "records": [
+    "Freedom Kick",
+    "Ice Claw",
+    "Energy Dome",
+    "Force Edge",
+    "Fighting Pose H",
+    "Flash Bomber",
+    "Symphonic Destruction",
+    "Burst Kamehameha"
+  ],
+  "validation": {
+    "canonical_skill_records": 474,
+    "index_skill_records": 474,
+    "synchronized_records": 8,
+    "canonical_identity_changes": 0,
+    "evidence_boundary": "No unsupported exact frames, universal scaling, hidden interactions, or numerical reward probabilities promoted."
+  }
+}
