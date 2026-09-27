@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-fighting-pose-i",
+  "skill_name": "Fighting Pose I",
+  "batch": 498,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "2026-09-27 Batch 498 continued refresh: current documentation reconfirms the 0-Ki Power Up Super, Skill Shop endpoint, and 20-second Basic Movement Speed effect. Exact multiplier and frames remain unresolved.",
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded corroboration already maintained in the repository.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, hidden interactions, universal scaling, and numerical reward probabilities are not asserted."
+}
