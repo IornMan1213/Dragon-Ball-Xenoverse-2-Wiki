@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.0",
   "audit_date": "2026-09-27",
   "domain": "super_souls",
   "record_layer": "docs/data/super-souls-record-layer.json",
@@ -11,7 +11,7 @@
   "canonical_targets_with_endpoint": 134,
   "canonical_targets_without_endpoint": [],
   "indexed_endpoint_promotions": 126,
-  "mechanics_enrichment_pending": 168,
+  "mechanics_enrichment_pending": 130,
   "status": "passed",
-  "interpretation": "All canonical PQ Super Soul target identities now have endpoint records with deterministic identity, source, and verification fields. Mechanics fields remain independently tracked and may still be unresolved; endpoint identity completeness is not a claim that every mechanic is verified."
+  "interpretation": "All canonical PQ Super Soul target identities have endpoint records. Mechanics fields remain explicitly partial where repository evidence has not been promoted; missing values are not negative claims."
 }
