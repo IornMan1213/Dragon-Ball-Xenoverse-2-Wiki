@@ -9,11 +9,15 @@
     "acquisition_type_missing": 0,
     "metadata_anomalies": 0,
     "invalid_source_parallel_quest_endpoints": 0,
-    "pq_endpoint_range": "1-186"
+    "pq_endpoint_range": "1-186",
+    "source_quest_or_shop_invalid_type": 0,
+    "acquisition_type_invalid_type": 0,
+    "source_parallel_quests_duplicate_ids": 0,
+    "source_parallel_quests_container_invalid": 0
   },
   "anomalies": [],
   "status": "pass",
-  "interpretation": "This audit checks internal consistency between acquisition_type, unlock_method, and explicit source_parallel_quests. It does not prove an acquisition claim against external sources.",
+  "interpretation": "This audit checks internal schema and consistency between acquisition_type, unlock_method, source_quest_or_shop, and explicit source_parallel_quests. It does not prove an acquisition claim against external sources.",
   "validator": "scripts/validate_skill_acquisition_metadata.py",
   "validator_hardening_2026_09_26": {
     "change": "Removed the accidental acceptance of the misspelled 'stp medal shop' token; TP Medal Shop validation now requires the canonical 'tp medal shop' phrase.",
@@ -25,6 +29,15 @@
       "result": "Existing 474-record audit remains pass; no canonical acquisition data changed.",
       "evidence_boundary": "This audit checks internal consistency between acquisition_type, unlock_method, and explicit source_parallel_quests. It does not prove an acquisition claim against external sources."
     },
-    "schema_hardening_commit": "00fc3eae129936fb58a74f6c3f4d728865d25fc0"
-  }
+    "schema_hardening_commit": "00fc3eae129936fb58a74f6c3f4d728865d25fc0",
+    "schema_hardening_2": {
+      "change": "Hardened source_parallel_quests container/type validation: it must be a list, contain no duplicate PQ IDs, and reject booleans as integer endpoints. Also requires source_quest_or_shop and acquisition_type to be non-empty strings and validates the skills root container.",
+      "result": "The established 474-record acquisition consistency contract is unchanged; no canonical acquisition data was modified.",
+      "validator_commit": "latest main update in this continuation cycle",
+      "evidence_boundary": "Internal schema/consistency only; no external acquisition claim is being inferred."
+    }
+  },
+  "checks_count": 11,
+  "checks_passed": 11,
+  "checks_failed": 0
 }
