@@ -4303,3 +4303,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved documented reward-tier conflicts and evidence boundaries; no unsupported probabilities, Ultimate Finish gates, or Skill→PQ relationships were inferred.
 - [x] Finalized the Batch 506 manifest; canonical identity changes remain 0 and the 474-record Skills baseline is preserved.
 - [ ] Next priority: fresh Batch 507 census and substantive cross-domain projection enrichment toward the 672 indexed-category target.
+
+
+### 2026-09-27 continuation — Batch 506 completion
+- [x] Completed bounded current-evidence refreshes for **Burning Swan, Burst Blitz, Burst Charge, Burst Reflection, Burst Rush, Burst Stinger, Candy Beam (Super), and Celestial Wave**.
+- [x] Synchronized all eight records into `docs/data/skills.json` and `docs/data/skills-index.json`; canonical identities unchanged and the 474/474 baseline preserved.
+- [x] Added eight dedicated Batch 506 evidence-audit artifacts and finalized the Batch 506 frontier manifest.
+- [x] Preserved acquisition/reward conflicts rather than normalizing unsupported Ultimate Finish gates or probabilities.
+- [ ] Next: fresh Batch 507 census, then substantive cross-domain reconciliation/expansion.
