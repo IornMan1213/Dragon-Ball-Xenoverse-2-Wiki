@@ -56,22 +56,12 @@
   "latest_batch": {
     "date": "2026-09-27",
     "records": [
-      "super-soul-001",
-      "super-soul-005",
-      "super-soul-007",
-      "super-soul-013",
-      "super-soul-015",
-      "super-soul-016"
+      "super-soul-076",
+      "super-soul-034"
     ],
-    "status": "catalogue_mechanics_reconciled",
-    "note": "Early catalogue entries reconciled against current Super Soul catalogue; no unsupported mechanics inferred.",
-    "thin_records_remaining": [
-      "super-soul-032",
-      "super-soul-033",
-      "super-soul-034",
-      "super-soul-035",
-      "super-soul-076"
-    ]
+    "status": "mechanics_reconciled",
+    "note": "076 received direct catalogue confirmation of its trigger, magnitudes and durations; 034 was explicitly rechecked and remains unresolved because indexed evidence was insufficient.",
+    "limit_burst_coverage": "107/172"
   },
   "last_batch": {
     "date": "2026-09-27",
