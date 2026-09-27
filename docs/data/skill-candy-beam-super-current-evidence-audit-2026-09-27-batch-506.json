@@ -3,8 +3,8 @@
   "batch": 506,
   "date": "2026-09-27",
   "status": "current_evidence_refresh",
-  "summary": "200-Ki Ki Blast Super; PQ113 Basic Reward; existing acquisition semantics revalidated.",
+  "summary": "2026-09-27 Batch 506 refresh: PQ113 Basic Reward; 200-Ki Ki Blast Super; no UF-only gate or probability inferred.",
   "canonical_source": "docs/data/skills.json",
   "canonical_sync": "Canonical identity unchanged; synchronized with skills index.",
-  "evidence_boundary": "Canonical data remains source of truth. Unsupported probabilities, exact frames, hidden interactions, and patch-independent scaling are not promoted."
+  "evidence_boundary": "Canonical data remains the source of truth. Source conflicts are preserved; unsupported probabilities, exact frames, hidden interactions, and inferred Skill→PQ edges are not promoted."
 }
