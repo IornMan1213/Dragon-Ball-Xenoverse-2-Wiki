@@ -1,0 +1,13 @@
+{
+  "skill_id": "skill-buu-buu-ball",
+  "skill_name": "Buu Buu Ball",
+  "batch": 497,
+  "date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "classification": "Evasive",
+  "acquisition_endpoint": "PQ88 — Evil Seeks Dragon Balls Yet Again!",
+  "mechanics": "300-Stamina Strike Evasive restricted to Majin CaCs; user bounces in ball form three times with directional control. Current dedicated evidence reports about 2% contact damage; exact invulnerability frames remain unresolved.",
+  "source_scope": "Existing current Xenoverse 2-specific repository evidence was freshly reconciled for this frontier; this is a dated audit refresh, not an invention of unsupported mechanics.",
+  "canonical_sync": "Canonical identity preserved. Synchronized current-facing skill/index records to 2026-09-27 without using verified:true data as source of truth.",
+  "evidence_boundary": "Exact frame data, hidden interactions, patch-independent universal scaling, and numerical reward probabilities are not asserted unless directly documented."
+}
