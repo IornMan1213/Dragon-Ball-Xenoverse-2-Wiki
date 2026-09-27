@@ -2436,3 +2436,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Live recursive tree inspection after restoration reports 1,502 tree entries and root files CHANGELOG.md, CONTRIBUTING.md, README.md, and TODO.md; main is no longer the sparse docs/scripts-only state.
 - [ ] Runtime validator execution and CI/build remain intentionally unverified and non-blocking per current project policy.
 - [x] **Exact next:** continue substantive data/research work from the restored main state; do not treat runtime/CI availability as a blocker.
+
+### 2026-09-27 continuation — Canonical database recovery integrity verified
+- [x] Re-opened the restored live main database rather than trusting the web UI/file preview, which can appear empty for large JSON blobs.
+- [x] Verified docs/data/skills.json is materially present on main as a 1,339,174-byte blob and parsed successfully to 474 canonical skill records with 474 unique IDs.
+- [x] Verified docs/data/skills-index.json independently contains 474 records / 474 unique IDs.
+- [x] Verified docs/data/skill-pq-reverse-index-2026-09-26.json independently declares 474 canonical skills / 246 Skill→PQ edges / 170 represented PQ IDs.
+- [x] Verified docs/data/pq-reward-relationships.json is materially present after restoration; its current relationship-count summary remains 236 skills / 137 Super Souls / 125 equipment / 247 characters / 88 DLC / 7 farming.
+- [x] Added docs/data/canonical-database-recovery-integrity-audit-2026-09-27.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] This confirms the critical canonical database was not lost merely because large-file previews returned blank; no unsupported reconstruction was performed.
+- [ ] Runtime/CI remains intentionally non-blocking and unverified.
+- [ ] Exact next: continue forward from the recovered 474-record canonical corpus with a fresh live census for the next substantive data/research batch; do not rebuild already-recovered skill data from older branches.
+
