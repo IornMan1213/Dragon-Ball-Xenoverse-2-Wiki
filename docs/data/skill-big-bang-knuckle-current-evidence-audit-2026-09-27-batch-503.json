@@ -1,0 +1,10 @@
+{
+  "skill_name": "Big Bang Knuckle",
+  "batch": 503,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "summary": "2026-09-27 Batch 503 refresh: current evidence reconfirms the 100-Ki Strike Super classification and PQ172 endpoint for Vegeta (Super Saiyan God) Ultra Supervillain. It remains character-exclusive/non-CaC because no supported CaC equip route is established.",
+  "canonical_source": "docs/data/skills.json",
+  "canonical_sync": "Canonical identity unchanged; synchronized with skills index.",
+  "evidence_boundary": "Source-reported numerical values remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+}
