@@ -19,7 +19,7 @@
     "docs/data/skills.json",
     "docs/data/skills-index.json"
   ],
-  "evidence_boundary": "Existing acquisition/reward-tier/source conflicts remain preserved. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities were not promoted.",
+  "evidence_boundary": "Existing reward-tier conflicts for Burst Blitz, Burst Charge, Burst Stinger, Burning Swan, and Celestial Wave remain preserved; no unsupported probabilities or Ultimate Finish gates are inferred. Burst Reflection remains a Shenron-wish route with no PQ edge.",
   "projection_note": "No new Skill→PQ edges were inferred in this refresh.",
   "additional_refresh_completed": [
     "Crusher Ball",
@@ -37,5 +37,5 @@
   "next_exact": "Fresh Batch 507 census, then cross-domain projection reconciliation and expansion beyond the 474 canonical seed.",
   "census_correction": "The initial Batch 506 draft incorrectly selected four records that already had 2026-09-26 audits. Those were removed before enrichment; no redundant refresh was promoted.",
   "completed_at": "2026-09-27",
-  "audit_artifacts": 8
+  "audit_artifacts": "8 dedicated Batch 506 current-evidence audits"
 }
