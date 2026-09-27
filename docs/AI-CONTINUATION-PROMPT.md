@@ -3433,3 +3433,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the former PQ associations and external evidence references, including the confirmed conflict for `"I'm not gonna die until I defeat you!"` (current catalogue: PQ 138).
 - [x] Registered the provenance artifact in `docs/data/pq-cross-domain-index.json`.
 - [ ] Next: validate the provenance artifact against the canonical reward maps/reverse indexes and scan for any stale occurrences of the six removed claims that still present them as canonical PQ 151–154 rewards.
+
+
+### 2026-09-27 continuation — stale canonical occurrence scan completed
+- [x] Scanned the corrected PQ reward map, Super Soul acquisition index, PQ reward relationships, and unified reverse index for all six removed PQ 151–154 recovery claims.
+- [x] Confirmed five disputed claims have no occurrence in those canonical files.
+- [x] Confirmed `"I'm not gonna die until I defeat you!"` remains only at its corrected canonical PQ 138 association, not PQ 151.
+- [x] Created and registered `docs/data/super-soul-pq-151-154-stale-canonical-occurrence-audit-2026-09-27.json`.
+- [ ] Next frontier: broader Super Soul canonical parity/reconciliation audit beyond PQ 151–154, prioritizing remaining thin or unresolved records rather than stopping at this conflict cluster.
