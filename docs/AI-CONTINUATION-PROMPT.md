@@ -3883,3 +3883,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No 138–142-style legacy remapping/misidentification found; PQ endpoints remain aligned with the normalized reward layer.
 - [x] Preserved partially-verified status and did not invent drop/RNG behavior.
 - [ ] Continue the remaining Super Soul IDs in order.
+
+
+### 2026-09-27 continuation — critical Super Soul 160 ID/name drift correction
+- [x] Found and corrected a genuine ID/name/mechanics conflation in `super-soul-160`.
+- [x] PQ 180 reward relationship for `Damn it all!` remains source-backed.
+- [x] Current catalogue identifies `Damn it all!` as Super Saiyan 3 Vegeta (DAIMA)'s Super Soul: once below 25% Health, +20% all attacks plus temporary Ki Auto-Recovery, Limit Burst Auto Just Guard.
+- [x] Removed the previously attached Heavy Smash/+300 Ki/-10% attacks/+10% damage-taken package; that package belongs to a different Super Soul identity and was not allowed to remain conflated with ID 160.
+- [ ] Continue checking later IDs for the same class of name/character/mechanics drift.
