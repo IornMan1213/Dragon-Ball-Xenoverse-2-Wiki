@@ -1,0 +1,10 @@
+{
+  "skill_name": "Candy Beam (Super)",
+  "batch": 506,
+  "date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "summary": "200-Ki Ki Blast Super; PQ113 Basic Reward; existing acquisition semantics revalidated.",
+  "canonical_source": "docs/data/skills.json",
+  "canonical_sync": "Canonical identity unchanged; synchronized with skills index.",
+  "evidence_boundary": "Canonical data remains source of truth. Unsupported probabilities, exact frames, hidden interactions, and patch-independent scaling are not promoted."
+}
