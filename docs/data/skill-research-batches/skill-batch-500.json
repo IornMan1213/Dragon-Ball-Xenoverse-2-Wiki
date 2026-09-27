@@ -1,32 +1,22 @@
 {
   "batch": 500,
   "date": "2026-09-27",
-  "type": "current-evidence-frontier",
-  "selection": "Fresh post-Batch-499 census; Batch 496-499 candidate names excluded from selection.",
+  "scope": "current-evidence frontier",
   "records": [
-    "Gigantic Meteor",
-    "Super Saiyan 2",
-    "Supernova Cooler",
-    "Gigantic Omega",
-    "Brave Sword Attack",
-    "Super Vegeta",
-    "Blaster Ball",
-    "Perfect Kamehameha",
-    "Namek Finger",
-    "Blaster Meteor",
-    "Flash Strike",
-    "Paralyze Beam",
-    "Super Black Kamehameha Rosé",
-    "Finishing Blow",
-    "Bending Kamehameha",
-    "Sudden Death Beam"
+    "Orin Combo",
+    "Maiden Burst",
+    "Counter Burst",
+    "Super Kamehameha",
+    "Final Rampage",
+    "Revenge Death Ball",
+    "Super Afterimage",
+    "Bluff Kamehameha"
   ],
   "validation": {
     "canonical_records": 474,
     "index_records": 474,
-    "synchronized_records": 16,
+    "synchronized_records": 8,
     "canonical_identity_changes": 0,
-    "unsupported_claims_added": 0
-  },
-  "evidence_policy": "Current Xenoverse 2-specific evidence is bounded to documented mechanics/provenance; source-reported numerical values remain source-bound and unsupported frames, hidden interactions, universal scaling, and reward probabilities are not promoted."
+    "evidence_boundary": "No unsupported exact frames, hidden interactions, universal scaling, or reward probabilities promoted."
+  }
 }
