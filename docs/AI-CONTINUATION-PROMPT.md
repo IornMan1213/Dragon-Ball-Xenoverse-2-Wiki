@@ -3731,3 +3731,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Rechecked canonical Super Soul acquisition-index membership while validating the batch; mechanics-only changes did not alter acquisition edges.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue evidence-backed enrichment. The remaining thin set includes unresolved Future Saga PQ 185/186 mechanics and older catalogue entries whose missing fields require deeper item-level evidence; do not promote community-only claims to canonical fields without sufficient support.
+
+
+### 2026-09-27 continuation — Super Soul Limit Burst frontier batch D
+- [x] Added explicit Limit Burst effects for `super-soul-036` and `super-soul-037` from Hit/Hit Lite Raid documentation and current catalogue evidence.
+- [x] Added `docs/data/super-soul-limit-burst-effect-batch-2026-09-27-d.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Limit Burst coverage advanced to **107/172** populated effects.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue the remaining thin canonical set, prioritizing directly documented older catalogue mechanics; preserve unresolved Future Saga PQ 185/186 claims as secondary until stronger item-level evidence exists.
