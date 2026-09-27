@@ -9,7 +9,7 @@
     "schema_version": "1.0",
     "scope": "PQ 1-186",
     "forward_index_is_non_empty_string": true,
-    "forward_index_exists": true,
+    "forward_index_exists": false,
     "reverse_index_container_is_list": true,
     "reverse_index_entry_count": {
       "expected": 7,
@@ -49,12 +49,12 @@
     },
     "completion_rule_is_non_empty_string": true
   },
-  "status": "pass",
-  "interpretation": "This audit validates the structural declaration contract of the canonical PQ cross-domain index. It does not prove the underlying PQ reward relationships, endpoint identities, or absent reverse datasets.",
+  "status": "schema_contract_pass_forward_source_unavailable",
+  "interpretation": "The index declaration schema is internally consistent, but its declared forward source docs/data/pq-reward-relationships.json is absent from the live main tree. The validator therefore correctly fails the full live contract on forward-index existence. Existing repository audits and searches provide no evidence-complete replacement producer, so the missing forward reward layer remains a provenance/data-recovery boundary.",
   "validator_hardening_2026_09_26": {
     "change": "Hardened the live validator to require exactly seven reverse-index declarations, unique report paths, and an exact farming source equal to forward_index.",
-    "result": "The current index satisfies the expanded schema contract; no relationship endpoint or provenance reference was changed.",
+    "result": "The expanded declaration checks pass, while the live forward-index existence check remains failed because docs/data/pq-reward-relationships.json is absent. No relationship endpoint or provenance reference was changed.",
     "validator_commit": "2d6261e1eaf08b42d0aca258a0f6fbcb131983ca",
-    "evidence_boundary": "Schema/declaration integrity only; no missing PQ reward or reverse-index dataset was reconstructed."
+    "evidence_boundary": "Schema/declaration integrity and direct forward-index reachability only; the missing general PQ reward layer is not reconstructed from partial skill/reverse data."
   }
 }
