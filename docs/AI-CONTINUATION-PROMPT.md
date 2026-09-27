@@ -3160,3 +3160,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Current coverage after this batch: trigger 54/168; effect 62/168; magnitude 56/168; duration 46/168; stacking 27/168; Limit Burst 52/168; Limit Burst effect 32/168; CaC 62/168.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue through the remaining 120 partial/indexed records, prioritizing rows with direct catalogue evidence that can safely populate several fields at once; do not infer undocumented mechanics or drop conditions.
+
+
+### 2026-09-27 continuation — Super Soul mechanics enrichment batch 3
+- [x] Enriched five more indexed Super Souls: `super-soul-061` Don't quit! Get up!; `super-soul-062` This is not a weapon.; `super-soul-063` I've been saving this! Kaioken!; `super-soul-064` Now you understand. Surrender.; `super-soul-065` How Dare You...! That's My Bulma.
+- [x] Promoted explicit trigger/effect/magnitude/duration/stacking/Limit Burst/CaC fields where supported by the current Super Soul catalogue and independent guide evidence.
+- [x] Refreshed mechanics and integrity audits; **115** partial mechanics records remain.
+- [x] Current coverage: trigger **59/168**, effect **67/168**, magnitude **61/168**, duration **49/168**, stacking **28/168**, Limit Burst **57/168**, Limit Burst effect **37/168**, CaC **67/168**.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue the same evidence-backed frontier with the next five under-detailed records; do not infer missing mechanics.
