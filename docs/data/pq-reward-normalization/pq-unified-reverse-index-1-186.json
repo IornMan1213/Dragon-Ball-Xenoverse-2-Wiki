@@ -942,10 +942,6 @@
     "That heat... I'll have to match it.": [
       137
     ],
-    "I'm not gonna die until I defeat you!": [
-      151,
-      138
-    ],
     "I just flew around the whole world!": [
       138
     ],
@@ -990,21 +986,6 @@
     ],
     "I will prevail, no matter the cost!": [
       150
-    ],
-    "I'll never forgive you!": [
-      151
-    ],
-    "I'll show you the power of a true warrior!": [
-      152
-    ],
-    "Don't underestimate my power!": [
-      153
-    ],
-    "I won't forgive you!": [
-      153
-    ],
-    "I'm the one who will win!": [
-      154
     ],
     "This is the ultimate hero!": [
       155
@@ -1116,6 +1097,21 @@
     ],
     "I actually felt that one...": [
       12
+    ],
+    "I think I'm getting the hang of this.": [
+      151
+    ],
+    "I'll keep adding a bit of power to my attacks!": [
+      151
+    ],
+    "I will put a stop to you, fiend!": [
+      152
+    ],
+    "There's more where that came from!": [
+      153
+    ],
+    "You're not much of a fun fight!": [
+      153
     ]
   },
   "clothing": {
