@@ -804,7 +804,7 @@
       "limit_burst_effect": null,
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Do not infer mechanics from the title. Current PQ 186 reward documentation confirms the soul's identity and acquisition, while recent community discussion explicitly reports that its effect remains unknown. No mechanics were inferred.",
+      "version_notes": "Do not infer mechanics from the title. Current PQ 186 reward documentation confirms the soul's identity and acquisition, while recent community discussion explicitly reports that its effect remains unknown. No mechanics were inferred. A current search of indexed Limit Burst/effect sources did not produce sufficient direct item-level evidence for this soul's mechanics; remains unresolved rather than inferred.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
@@ -2046,7 +2046,7 @@
       "shop_rotation": null,
       "trigger_condition": "When the battle begins",
       "effect_text": "Temporarily prevents Ki from depleting and temporarily seals Awoken Skills.",
-      "effect_magnitude": null,
+      "effect_magnitude": "No Ki depletion for 15 seconds; Awoken Skill seal for 15 seconds",
       "duration": "15 seconds for each effect",
       "stacking_behavior": "Once at battle start",
       "limit_burst": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
@@ -2054,7 +2054,7 @@
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Current catalogue and independent DLC-era documentation agree on the battle-start trigger, 15-second no-Ki-depletion effect, and 15-second Awoken Skill seal. Limit Burst effect reconciled from independent catalogue/raid/character evidence on 2026-09-27; no trigger timing or unrelated mechanics were inferred.",
+      "version_notes": "Current catalogue and independent DLC-era documentation agree on the battle-start trigger, 15-second no-Ki-depletion effect, and 15-second Awoken Skill seal. Limit Burst effect reconciled from independent catalogue/raid/character evidence on 2026-09-27; no trigger timing or unrelated mechanics were inferred. Direct catalogue evidence independently reconfirmed 2026-09-27; effect and durations are explicit, while no additional trigger behavior is inferred.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
