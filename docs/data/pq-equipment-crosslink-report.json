@@ -121,5 +121,5 @@
   ],
   "semantics": "Canonical PQ→equipment relationships remain authoritative. Endpoint record layers are incomplete projections and include both clothing/equipment and accessory identities; missing endpoint records are enrichment gaps, not negative reward claims.",
   "status": "canonical_projection_complete_endpoint_enrichment_incomplete",
-  "audit_note": "Endpoint audit refreshed against current main endpoint layers; canonical forward relationships remain authoritative."
+  "audit_note": "2026-09-27 refresh: exact-name endpoint coverage is 15/123 unique canonical targets. The remaining 108 are retained as explicit enrichment gaps; catalogue/PQ evidence is not promoted into endpoint records without inventory-level identity reconciliation."
 }
