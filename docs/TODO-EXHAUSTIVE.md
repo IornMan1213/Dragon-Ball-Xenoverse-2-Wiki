@@ -3804,3 +3804,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved evidence boundaries and did not promote unsupported Skill→PQ relationships.
 - [ ] Next: fresh Batch 506 census and next cross-domain enrichment; continue expansion beyond the 474 canonical seed toward the 672 indexed-category target.
 - [ ] Runtime/CI remains non-blocking.
+
+### 2026-09-27 continuation — Batch 506 current-evidence completion
+- [x] Completed current-evidence refreshes for **Burning Swan, Burst Blitz, Burst Reflection, Burst Rush, Burst Stinger, Celestial Wave, Chain Destructo-Disc Barrage, and Chaos Shot**.
+- [x] Canonical/index synchronization completed with **0 identity changes**.
+- [x] Added eight audit artifacts, Batch 506 manifest, and cross-domain registrations.
+- [x] Existing evidence conflicts and evidence boundaries were preserved; no unsupported Skill→PQ relationships were inferred.
+- [ ] Next: fresh Batch 507 census and substantive cross-domain enrichment; continue expansion beyond the 474 canonical seed toward the 672 indexed-category target.
+- [ ] Runtime/CI remains non-blocking.
