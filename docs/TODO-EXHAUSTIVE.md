@@ -3003,3 +3003,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved known catalogue/data wording discrepancies instead of silently normalizing them.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue evidence-backed enrichment without treating missing fields as negative facts.
+
+
+### 2026-09-27 TODO progress update — Super Soul mechanics batch 9
+- [x] Normalized Limit Burst effects for super-soul-024 through super-soul-028.
+- [x] Preserved unresolved/null passive mechanics instead of inventing values.
+- [x] Limit Burst effect coverage is now **67/168**; remaining partial mechanics frontier is **85 records**.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue evidence-backed enrichment and reconciliation.
