@@ -1925,7 +1925,7 @@
       "field": "super_souls",
       "source_only": [],
       "edge_only": [
-        "Heh heh! I'm not a rusty as I look!"
+        "Heh heh! I'm not as rusty as I look!"
       ],
       "reconciliation_status": "retained_source_backed",
       "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
