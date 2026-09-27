@@ -4090,3 +4090,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Batch manifest added and cross-domain index registered.
 - [ ] Continue stale Skill frontier alphabetically after Indomitable.
 - [ ] Resolve the three pre-existing canonical/index last_verified mismatches only with provenance support.
+
+
+### 2026-09-27 — Batch 522
+- [x] Refreshed 20 stale canonical Skills records: Innocence Breath; Innocence Bullet; Innocence Cannon; Instant Charge; Instant Rise; Instant Severance; Instant Transmission; Jumping Energy Wave; Justice Blade; Justice Combination; Justice Drive; Justice Kick; Justice Pose; Justice Rush; Kai Kai; Kaioken; Kaioken Kamehameha; Kairos Cannon; Kamehameha; Ki Explosion.
+- [x] Canonical/index parity maintained at 474 records; no identity, canonical-field, or Skill→PQ relationship changes.
+- [x] Batch manifest added and cross-domain index registered.
+- [ ] Continue stale Skill frontier alphabetically after Ki Explosion.
+- [ ] Resolve the three pre-existing canonical/index last_verified mismatches only with provenance support.
