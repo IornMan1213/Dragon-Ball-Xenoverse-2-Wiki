@@ -1,0 +1,10 @@
+{
+  "skill_name": "Chaos Shot",
+  "batch": 506,
+  "date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "summary": "2026-09-27 Batch 506 refresh: existing repository evidence for acquisition, classification, cost/scope, and mechanics was rechecked; no unsupported new claim was promoted.",
+  "canonical_source": "docs/data/skills.json",
+  "canonical_sync": "Canonical identity unchanged; synchronized with skills index.",
+  "evidence_boundary": "Existing reward-tier/source conflicts remain preserved. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not promoted."
+}
