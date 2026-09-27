@@ -62,9 +62,9 @@
       "super-soul-141",
       "super-soul-142"
     ],
-    "status": "negative_evidence_reconciled",
+    "status": "legacy_provenance_rejected",
     "canonical_promotion": false,
-    "note": "Exact-name repository and current web/catalogue searches did not locate matching item-level entries. Records remain unresolved historical identities; no mechanics, acquisition, or Limit Burst inferred."
+    "note": "Git history traced on 2026-09-27. Commit 61c0de8 (2026-09-23) explicitly removed the five names from PQ151-155 as uncorroborated indexed-only/misidentified records. Commit bddb50b confirms corrected PQ151-155 reward listings omit them. Preserve their history for auditability, but do not treat them as valid unresolved catalogue identities or acquisition targets."
   },
   "last_batch": {
     "date": "2026-09-27",
@@ -97,6 +97,12 @@
     ],
     "result": "current canonical PQ relationship file contains no active acquisition edges for these five identities",
     "rule": "canonical relationship file outranks stale audit prose",
-    "action": "preserve as unresolved orphaned identities; trace historical provenance before restoring edges"
+    "action": "preserve as unresolved orphaned identities; trace historical provenance before restoring edges",
+    "historical_provenance": {
+      "commit_61c0de8": "removed five misidentified PQ151-155 Super Soul names from canonical reconciliation",
+      "commit_bddb50": "corrected PQ151-155 reward listings omit the five names",
+      "commit_c4c5a4": "later erroneous ID links for 140-142 were attached to different actual reward names, further demonstrating endpoint-ID/name mismatch",
+      "decision": "retain records as rejected legacy artifacts, not active catalogue identities"
+    }
   }
 }
