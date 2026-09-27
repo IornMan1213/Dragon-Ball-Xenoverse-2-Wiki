@@ -3380,3 +3380,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] The recovery audit now records the actual **168-record** canonical Super Soul population and the corrected PQ identifier contract.
 - [ ] Local validator execution and CI remain unverified.
 - [ ] **Exact next:** use the recovered, parity-checked database as the starting point for the next evidence-backed enrichment frontier.
+
+
+### 2026-09-27 continuation — Super Soul PQ 151–154 conflict frontier
+- [x] Inspected the next five recovered Super Soul endpoints (super-soul-137 through -141) and their canonical PQ relationships.
+- [x] Cross-checked the PQ 151–154 frontier against independent public Super Soul/PQ references.
+- [x] Found a concrete source conflict: the canonical repository relationship layer names six endpoints across PQ 151–154 that are not consistently reproduced by the currently indexed external Super Soul table.
+- [x] Added `docs/data/super-soul-pq-151-154-source-conflict-audit-2026-09-27.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved the canonical relationship layer and deliberately did **not** overwrite it or infer mechanics from the conflicting external table.
+- [ ] **Exact next:** continue from super-soul-137 onward using item-level evidence; resolve the documented conflict only when stronger evidence identifies the actual canonical item, and do not convert absence from an external table into a negative claim.
