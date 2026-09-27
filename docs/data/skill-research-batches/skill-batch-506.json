@@ -33,11 +33,11 @@
   "total_records_refreshed_across_registered_batch": 15,
   "latest_refresh_canonical_identity_changes": 0,
   "latest_refresh_note": "A second bounded Batch 506 frontier pass refreshed seven additional records after the existing Batch 506 registration was discovered. No prior completed records were removed or rewritten as a different selection.",
-  "status": "partial_audit_registration",
+  "status": "completed",
   "next_exact": "Register the remaining seven Batch 506 audit artifacts and then synchronize the canonical/index records if substantive evidence changes.",
   "census_correction": "The initial Batch 506 draft incorrectly selected four records that already had 2026-09-26 audits. Those were removed before enrichment; no redundant refresh was promoted.",
   "completed_at": "2026-09-27",
-  "audit_artifacts": "8 dedicated Batch 506 current-evidence audits",
+  "audit_artifacts": 8,
   "refreshed": [
     "Burning Swan",
     "Burst Blitz",
@@ -51,5 +51,7 @@
   "result": "All eight records were already strongly enriched through earlier provenance/mechanics passes. Batch 506 preserves those canonical conclusions and does not manufacture newer facts where the available evidence does not materially change the record.",
   "audit_artifacts_registered": [
     "burning-swan"
-  ]
+  ],
+  "canonical_records": 474,
+  "evidence_result": "Existing acquisition/mechanics evidence was refreshed without promoting unresolved reward probabilities, exclusive gates, exact frames, hidden interactions, or unsupported Skill→PQ edges."
 }
