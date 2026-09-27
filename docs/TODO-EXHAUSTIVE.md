@@ -3097,3 +3097,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the rule that canonical PQ reward relationships are the source of truth; the acquisition index is a projection and must not become an independent source of inferred rewards.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** continue forward from the restored database into evidence-backed cross-domain enrichment, with no speculative reconstruction.
+
+
+### 2026-09-27 TODO progress update — Super Soul recovery validator correction
+- [x] Corrected the recovery validator to consume the repository's canonical `pq-###` relationship identifiers.
+- [x] Verified cross-layer parity against the live `main` data: **137** relationships, **134** unique targets, **134** indexed targets, **168** canonical Super Soul records, with zero missing/extra target identities.
+- [ ] Local/CI execution remains unverified.
+- [ ] **Exact next:** continue forward from the restored database with evidence-backed enrichment rather than reconstructing already-recovered layers.
