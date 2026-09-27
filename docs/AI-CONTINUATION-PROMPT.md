@@ -4130,3 +4130,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Batch manifest records **474 canonical / 474 index records**, 8 synchronized records, zero canonical identity changes, and zero unsupported claims added.
 - [ ] Next priority: fresh Batch 502 census, then continue mechanics/provenance enrichment.
 - [ ] Reconcile PQ→Skill and Skill→PQ projections after the next enrichment cycle and continue expansion beyond the 474 canonical seed toward the 672 indexed-category target.
+
+
+### 2026-09-27 continuation — Batch 502 current-evidence frontier
+- [x] Performed a fresh post-Batch-501 census from the live 474-record corpus; selected **Super Saiyan God Super Saiyan, Fighting Pose C, Burning Attack, Final Kamehameha, God of Destruction's Wrath, Wolf Fang Fist, Ki Blast Thrust, and Punisher Guard** without reusing the prior frontier as the selection basis.
+- [x] Added eight dedicated Batch 502 current-evidence audit artifacts and finalized the Batch 502 manifest/thin-frontier audit.
+- [x] Synchronized all eight records into `docs/data/skills.json` and `docs/data/skills-index.json`; canonical IDs/names were unchanged.
+- [x] Preserved source/provenance conflicts and evidence boundaries; unsupported exact frames, hidden interactions, universal scaling, and reward probabilities were not promoted.
+- [x] Validation remains **474 canonical / 474 index records** with the restored identity baseline intact.
+- [ ] Next priority: fresh **Batch 503** census from the live corpus, then reconcile PQ→Skill and Skill→PQ navigation projections after the enrichment frontier.
+- [ ] Continue expansion beyond the 474 canonical seed toward the 672 indexed-category target.
