@@ -1959,5 +1959,6 @@
   "skillDustAttackCurrentEvidenceAudit20260927Batch514": "docs/data/skill-dust-attack-current-evidence-audit-2026-09-27-batch-514.json",
   "skillDynamiteKickCurrentEvidenceAudit20260927Batch514": "docs/data/skill-dynamite-kick-current-evidence-audit-2026-09-27-batch-514.json",
   "skill_batch_514_current_evidence": "docs/data/skill-research-batches/skill-batch-514.json",
-  "canonical_database_recovery_restoration_2026_09_27": "docs/data/canonical-database-recovery-restoration-audit-2026-09-27.json"
+  "canonical_database_recovery_restoration_2026_09_27": "docs/data/canonical-database-recovery-restoration-audit-2026-09-27.json",
+  "skill_batch_515_current_evidence": "docs/data/skill-research-batches/skill-batch-515.json"
 }
