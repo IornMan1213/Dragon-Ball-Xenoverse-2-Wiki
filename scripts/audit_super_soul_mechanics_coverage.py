@@ -38,14 +38,20 @@ def main() -> int:
     records = layer.get("records")
     if not isinstance(records, list):
         raise SystemExit("records must be a list")
+    active_records = [
+        record for record in records
+        if record.get("provenance_status") != "rejected_legacy_misidentification"
+    ]
     coverage = {}
     if any(not isinstance(record, dict) for record in records):
         raise SystemExit("every Super Soul record must be an object")
     for field in FIELDS:
-        count = sum(populated(record.get(field)) for record in records)
-        coverage[field] = {"populated": count, "missing": len(records) - count}
+        count = sum(populated(record.get(field)) for record in active_records)
+        coverage[field] = {"populated": count, "missing": len(active_records) - count}
     print(json.dumps({
-        "record_count": len(records),
+        "record_count": len(active_records),
+        "total_record_count": len(records),
+        "excluded_legacy_misidentification_count": len(records) - len(active_records),
         "fields": coverage,
         "status": "passed_with_partial_mechanics_coverage",
     }, indent=2))
