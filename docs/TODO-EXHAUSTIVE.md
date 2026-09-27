@@ -3392,3 +3392,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Limit Burst coverage is now **105/172**.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue the evidence-backed thin-record sweep, preserving unresolved PQ 185/186 mechanics until stronger item-level evidence is found.
+
+
+### 2026-09-27 continuation — Super Soul Limit Burst batch D
+- [x] Enriched Super Souls 036 and 037 with directly supported Limit Burst effects.
+- [x] Added and registered the batch-D audit.
+- [x] Limit Burst coverage is now **107/172**.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue the evidence-backed thin-record sweep; do not promote unresolved PQ 185/186 community claims to canonical truth.
